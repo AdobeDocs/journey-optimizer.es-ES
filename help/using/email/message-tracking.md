@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 35%
@@ -89,7 +89,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 >[!NOTE]
 >
->Los mensajes de correo electrónico de tipo Marketing deben incluir un [vínculo de no participación](../privacy/opt-out.md#opt-out-management), que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en la [superficie de canal](../configuration/channel-surfaces.md#email-type) al crear el mensaje.
+>Los mensajes de correo electrónico de tipo Marketing deben incluir un [vínculo de no participación](../privacy/opt-out.md#opt-out-management), que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en la [configuración del canal](../configuration/channel-surfaces.md#email-type) al crear el mensaje.
 
 ## Ajustar vínculos {#adjust-links}
 
@@ -164,7 +164,7 @@ Los informes sobre aperturas y clics están disponibles en [Informe en vivo](../
 
 ## Personalizar seguimiento de URL {#url-tracking}
 
-Normalmente [el seguimiento de URL](email-settings.md#url-tracking) se administra en el nivel de superficie, pero no se admiten atributos de perfil. Actualmente, la única manera de hacerlo es [personalizar las direcciones URL](../personalization/personalization-syntax.md#perso-urls) en el diseñador de correo electrónico.
+Normalmente [el seguimiento de URL](email-settings.md#url-tracking) se administra en el nivel de configuración, pero no se admiten atributos de perfil. Actualmente, la única manera de hacerlo es [personalizar las direcciones URL](../personalization/personalization-syntax.md#perso-urls) en el diseñador de correo electrónico.
 
 Para añadir parámetros de seguimiento de URL personalizados a los vínculos, siga los pasos a continuación.
 

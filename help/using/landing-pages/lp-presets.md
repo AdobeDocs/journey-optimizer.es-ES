@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: aterrizaje, página de aterrizaje, configurar, entorno, subdominio, ajustes preestablecidos
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 17%
+source-wordcount: '351'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ Para acceder a los ajustes preestablecidos de la página de aterrizaje, siga los
 
 1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]**.
 
-1. Seleccione **[!UICONTROL Marca]** > **[!UICONTROL Ajustes preestablecidos de página de aterrizaje]**.
+1. Seleccione **[!UICONTROL Configuración de página de aterrizaje]** > **[!UICONTROL Ajustes preestablecidos de página de aterrizaje]**.
 
    ![](assets/lp_presets-access.png)
 
@@ -46,7 +46,7 @@ Para crear un ajuste preestablecido de página de aterrizaje, siga los pasos a c
 >
 >Para poder crear un ajuste preestablecido, asegúrese de haber configurado previamente al menos un subdominio de página de aterrizaje. [Descubra cómo](lp-subdomains.md)
 
-1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** y, a continuación, seleccione **[!UICONTROL Marca]** > **[!UICONTROL Ajustes preestablecidos de página de aterrizaje]**.
+1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** y seleccione **[!UICONTROL Configuración de la página de aterrizaje]** > **[!UICONTROL Ajustes preestablecidos de la página de aterrizaje]**.
 
 1. Seleccione **[!UICONTROL Crear ajuste preestablecido de página de aterrizaje]**.
 
@@ -80,13 +80,11 @@ Para crear un ajuste preestablecido de página de aterrizaje, siga los pasos a c
 
 1. Una vez creado el ajuste preestablecido de página de aterrizaje, se muestra en la lista con el estado **[!UICONTROL Activo]**. Está listo para utilizarse para sus páginas de aterrizaje.
 
-   ![](assets/lp-preset-active-temp.png)
-
 Ya está listo para [crear páginas de aterrizaje](../landing-pages/create-lp.md) en [!DNL Journey Optimizer].
 <!--
 >[!NOTE]
 >
->Learn how to create channel surfaces for push notifications and emails in [this section](channel-surfaces.md).-->
+>Learn how to create channel configurations for push notifications and emails in [this section](channel-surfaces.md).-->
 
 **Temas relacionados**:
 

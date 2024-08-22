@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 13%
+source-wordcount: '2009'
+ht-degree: 12%
 
 ---
 
@@ -39,7 +39,7 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 
 1. Escriba una **[!UICONTROL Etiqueta]** y **[!UICONTROL Descripción]** para su mensaje.
 
-1. Elija [Superficie en la aplicación](inapp-configuration.md) para usar.
+1. Elija su [configuración en la aplicación](inapp-configuration.md#channel-prerequisites) para usar.
 
    ![](assets/in_app_journey_2.png)
 
@@ -125,13 +125,11 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
 1. Acceda al menú **[!UICONTROL Campañas]** y haga clic en **[!UICONTROL Crear campaña]**.
 
-1. En la sección **[!UICONTROL Propiedades]**, seleccione cuando el tipo de ejecución de campaña: Programada o activada por API. Obtenga más información acerca de los tipos de campañas en [esta página](../campaigns/create-campaign.md#campaigntype).
+1. Seleccione el tipo de campaña que desea ejecutar
 
-1. En la sección **[!UICONTROL Acciones]**, elija el **[!UICONTROL mensaje en la aplicación]** y la **[!UICONTROL superficie de la aplicación]** configurados previamente para su mensaje en la aplicación. A continuación, haga clic en **[!UICONTROL Crear]**.
+   * **Programado - Marketing**: ejecute la campaña inmediatamente o en una fecha especificada. Las campañas programadas están destinadas a enviar mensajes de marketing. Se configuran y ejecutan desde la interfaz de usuario de.
 
-   Obtenga más información acerca de la configuración en la aplicación en [esta página](inapp-configuration.md).
-
-   ![](assets/in_app_create_1.png)
+   * **Activado por API - Marketing/Transaccional**: ejecute la campaña mediante una llamada de API. Las campañas activadas por API están destinadas a enviar mensajes de marketing o transaccionales, es decir, mensajes enviados después de una acción realizada por un individuo: restablecimiento de contraseña, compra en el carro de compras, etc.
 
 1. En la sección **[!UICONTROL Propiedades]**, escriba la descripción de **[!UICONTROL Título]** y **[!UICONTROL Descripción]**.
 
@@ -142,6 +140,12 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
    ![](assets/in_app_create_2.png)
 
 1. En el campo **[!UICONTROL Área de nombres de identidad]**, elija el área de nombres que desea usar para identificar a los individuos de la audiencia seleccionada. [Más información](../event/about-creating.md#select-the-namespace).
+
+1. En la sección **[!UICONTROL Acciones]**, elija **[!UICONTROL Mensaje en la aplicación]** y seleccione o cree una nueva configuración.
+
+   Obtenga más información acerca de la configuración en la aplicación en [esta página](inapp-configuration.md).
+
+   ![](assets/in_app_create_1.png)
 
 1. Haga clic en **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido y crear tratamientos para medir su rendimiento e identificar la mejor opción para la audiencia objetivo. [Más información](../content-management/content-experiment.md)
 

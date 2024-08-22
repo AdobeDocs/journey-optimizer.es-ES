@@ -10,9 +10,9 @@ level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '617'
 ht-degree: 6%
 
 ---
@@ -53,11 +53,11 @@ Al configurar los ajustes de idioma, como se describe en la sección [Crear la c
 
 En esta sección, puede establecer el idioma principal y sus configuraciones regionales asociadas para administrar el contenido multilingüe. También puede elegir el atributo que desee utilizar para buscar información relacionada con el idioma del perfil
 
-1. Desde el menú **[!UICONTROL Administración]**, accede al **[!UICONTROL Canal]**.
+1. Desde el menú **[!UICONTROL Administración]**, accede a **[!UICONTROL Canal]** > **[!UICONTROL Configuración general]**.
 
 1. En el menú **[!UICONTROL Configuración de idioma]**, haga clic en **[!UICONTROL Crear configuración de idioma]**.
 
-   ![](assets/multilingual-settings-1.png)
+   ![](assets/language_settings_1.png)
 
 1. Escriba el nombre de su **[!UICONTROL configuración de idioma]**.
 
@@ -86,7 +86,7 @@ En esta sección, puede establecer el idioma principal y sus configuraciones reg
 1. Haz clic en **[!UICONTROL Enviar]** para crear tu **[!UICONTROL configuración de idioma]**.
 
 <!--
-1. Access the **[!UICONTROL Channel surfaces]** menu and create a new channel surface or select an existing one.
+1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
 
 
 1. In the **[!UICONTROL Header parameters]** section, select the **[!UICONTROL Enable multilingual]** option.

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, grupos, grupo, subdominios, capacidad de entrega
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '721'
 ht-degree: 11%
 
 ---
@@ -44,7 +44,7 @@ Por ejemplo, una práctica recomendada es tener un grupo de IP para los mensajes
 
 Para crear un grupo de IP, siga estos pasos:
 
-1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Grupos de IP]** y haga clic en **[!UICONTROL Crear grupo de IP]**.
+1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Grupos de IP]** y haga clic en **[!UICONTROL Crear grupo de IP]**.
 
    ![](assets/ip-pool-create.png)
 
@@ -74,17 +74,13 @@ Después de crear un grupo de IP, la información de PTR se ve al pasar el rató
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 
-El grupo de IP ahora se crea y se muestra en la lista. Puede seleccionarlo para acceder a sus propiedades y mostrar la superficie de canal asociada (es decir, el ajuste preestablecido de mensaje). Para obtener más información sobre cómo asociar una superficie de canal con un grupo de IP, consulte [esta sección](channel-surfaces.md).
-
-![](assets/ip-pool-created.png)
+El grupo de IP ahora se crea y se muestra en la lista. Puede seleccionarlo para acceder a sus propiedades y mostrar la configuración de canal asociada (es decir, el ajuste preestablecido de mensaje). Para obtener más información sobre cómo asociar una configuración de canal con un grupo de IP, consulte [esta sección](channel-surfaces.md).
 
 ## Editar un grupo de IP {#edit-ip-pool}
 
 Para editar un grupo de IP, siga los pasos a continuación.
 
 1. En la lista, haga clic en el nombre del grupo de IP para abrirlo.
-
-   ![](assets/ip-pool-list.png)
 
 1. Edite sus propiedades según desee. Puede modificar la descripción y agregar o quitar direcciones IP.
 
@@ -100,14 +96,14 @@ Para editar un grupo de IP, siga los pasos a continuación.
 
 1. Guarde los cambios.
 
-La actualización es efectiva inmediatamente o de forma asíncrona, dependiendo de si el grupo de IP está asociado o no a una [superficie de canal](channel-surfaces.md):
+La actualización es efectiva de inmediato o asincrónicamente, dependiendo de si el grupo de IP está asociado o no a una [configuración de canal](channel-surfaces.md):
 
-* Si el grupo de IP es **no** y está asociado a cualquier superficie de canal, la actualización es instantánea (estado **[!UICONTROL Correcto]**).
-* Si el grupo de IP **está** asociado con una superficie de canal, la actualización puede tardar hasta tres horas (estado **[!UICONTROL Procesando]**).
+* Si el grupo de IP es **no** y está asociado con alguna configuración de canal, la actualización es instantánea (estado **[!UICONTROL Correcto]**).
+* Si el grupo de IP **es** asociado con una configuración de canal, la actualización puede tardar hasta tres horas (estado **[!UICONTROL Procesando]**).
 
 >[!NOTE]
 >
->Al [crear una superficie de canal](channel-surfaces.md#create-channel-surface), si selecciona un grupo de IP que está en edición (estado **[!UICONTROL Procesando]**) y nunca se ha asociado con el subdominio seleccionado para esa superficie, no podrá continuar con la creación de la superficie. [Más información](channel-surfaces.md#subdomains-and-ip-pools)
+>Al [crear una configuración de canal](channel-surfaces.md#create-channel-surface), si selecciona un grupo de IP que está en edición (estado **[!UICONTROL Procesando]**) y nunca se ha asociado con el subdominio seleccionado para esa configuración, no puede continuar con la creación de la configuración. [Más información](channel-surfaces.md#subdomains-and-ip-pools)
 
 Para comprobar el estado de actualización del grupo de IP, haga clic en el botón **[!UICONTROL Más acciones]** y seleccione **[!UICONTROL Actualizaciones recientes]**.
 
@@ -119,5 +115,5 @@ Para comprobar el estado de actualización del grupo de IP, haga clic en el bot�
 >* unos minutos antes de que los mensajes unitarios lo consuman,
 >* hasta el siguiente lote para que el grupo de IP sea efectivo en los mensajes por lotes.
 
-También puede usar el botón **[!UICONTROL Eliminar]** para eliminar un grupo de IP. Tenga en cuenta que no puede eliminar un grupo de IP que se haya asociado a una superficie de canal.
+También puede usar el botón **[!UICONTROL Eliminar]** para eliminar un grupo de IP. Tenga en cuenta que no puede eliminar un grupo de IP que se haya asociado a una configuración de canal.
 

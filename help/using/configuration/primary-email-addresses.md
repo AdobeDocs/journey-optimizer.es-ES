@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: principal, ejecución, correo electrónico, destinatario, perfil, optimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '433'
 ht-degree: 18%
 
 ---
@@ -32,7 +32,7 @@ Al segmentar un perfil, pueden estar disponibles en la base de datos varias dire
 
 En ese caso, [!DNL Journey Optimizer] usa **[!UICONTROL Campos de ejecución]** para determinar qué dirección de correo electrónico o número de teléfono usar del servicio de perfil con prioridad.
 
-Para comprobar los campos que se utilizan actualmente de forma predeterminada, acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL General]** > **[!UICONTROL Campos de ejecución]**.
+Para comprobar los campos que se utilizan actualmente de forma predeterminada, acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Campos de ejecución]**.
 
 ![](assets/primary-address-execution-fields.png)
 
@@ -46,7 +46,7 @@ En la mayoría de los casos, se cambia un campo de ejecución globalmente y se d
 
 Para cambiar los campos de ejecución globalmente en el nivel de entorno limitado, siga los pasos a continuación.
 
-1. Acceda al menú **[!UICONTROL Canales]** > **[!UICONTROL General]** > **[!UICONTROL Campos de ejecución]**.
+1. Acceda al menú **[!UICONTROL Canales]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Campos de ejecución]**.
 
 1. Haga clic en **[!UICONTROL Editar]** para cambiar los valores predeterminados.
 

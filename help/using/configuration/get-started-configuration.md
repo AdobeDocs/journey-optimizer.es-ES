@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuración, configurar, mensajes, canal, zona protegida, optimizador
-source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Para poder crear sus recorridos y enviar mensajes, debe seguir los pasos de conf
 
    * Para el canal **SMS**, debe configurar la instancia para enviar SMS, incluida la integración de la configuración del proveedor con [!DNL Journey Optimizer]. [Más información](../sms/sms-configuration.md)
 
-1. Cuando haya finalizado, deberá crear **superficies de canal** para configurar todos los parámetros técnicos necesarios para enviar mensajes. [Más información](channel-surfaces.md)
+1. Una vez finalizado, debe crear **configuraciones de canal** para configurar todos los parámetros técnicos necesarios para enviar mensajes. [Más información](channel-surfaces.md)
 
 1. También puede:
 

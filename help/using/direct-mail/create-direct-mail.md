@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 18%
+source-wordcount: '803'
+ht-degree: 16%
 
 ---
 
@@ -28,18 +28,20 @@ Para crear mensajes de correo postal, cree una campaña programada y configure e
 >Antes de crear un mensaje de correo postal, asegúrese de haber configurado:
 >
 >1. Una [configuración de enrutamiento de archivos](../direct-mail/direct-mail-configuration.md#file-routing-configuration) que especifica el servidor donde se debe cargar y almacenar el archivo de extracción,
->1. [superficie de mensaje de correo postal](../direct-mail/direct-mail-configuration.md#direct-mail-surface) que hará referencia a la configuración de enrutamiento de archivos.
+>1. Una [configuración de mensaje de correo postal](../direct-mail/direct-mail-configuration.md#direct-mail-surface) que hará referencia a la configuración de enrutamiento de archivos.
 
 
 ## Creación de una campaña de correo directo{#create-dm-campaign}
 
 Para crear una campaña de correo postal, siga estos pasos:
 
-1. Cree una nueva campaña programada y elija **[!UICONTROL Correo postal]** como acción.
+1. Acceda al menú **[!UICONTROL Campañas]** y haga clic en **[!UICONTROL Crear campaña]**.
 
-1. Seleccione la **[!UICONTROL superficie de correo postal]** que se va a usar y haga clic en **[!UICONTROL Crear]**. [Aprenda a crear una superficie de correo postal](direct-mail-configuration.md#direct-mail-surface).
+1. Seleccione el tipo de campaña que desea ejecutar
 
-   ![](assets/direct-mail-campaign.png){width="800" align="center"}
+   * **Programado - Marketing**: ejecute la campaña inmediatamente o en una fecha especificada. Las campañas programadas están destinadas a enviar mensajes de marketing. Se configuran y ejecutan desde la interfaz de usuario de.
+
+   * **Activado por API - Marketing/Transaccional**: ejecute la campaña mediante una llamada de API. Las campañas activadas por API están destinadas a enviar mensajes de marketing o transaccionales, es decir, mensajes enviados después de una acción realizada por un individuo: restablecimiento de contraseña, compra en el carro de compras, etc.
 
 1. En la sección **[!UICONTROL Propiedades]**, edite el **[!UICONTROL Título]** y la **[!UICONTROL Descripción]** de su campaña.
 
@@ -51,7 +53,11 @@ Para crear una campaña de correo postal, siga estos pasos:
 
 1. En el campo **[!UICONTROL Área de nombres de identidad]**, seleccione el área de nombres adecuada para identificar a los individuos dentro de la audiencia elegida. [Más información](../event/about-creating.md#select-the-namespace).
 
-   ![](assets/direct-mail-campaign-properties.png){width="800" align="center"}
+1. En la sección **[!UICONTROL Acciones]**, elija **[!UICONTROL Correo directo]**.
+
+1. Seleccione o cree una nueva configuración a **[!UICONTROL Configuración de correo directo]** para usar. [Aprenda a crear una configuración de correo postal](direct-mail-configuration.md#direct-mail-surface).
+
+   ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
 1. Las campañas se pueden programar para una fecha específica o configurarse para que se repitan a intervalos regulares. Aprenda a configurar la **[!UICONTROL programación]** de su campaña en [esta sección](../campaigns/create-campaign.md#schedule).
 
@@ -78,12 +84,6 @@ Ahora puede empezar a configurar el archivo de extracción para enviarlo a su pr
    1. En el campo **[!UICONTROL Datos]**, seleccione los atributos de perfil que desea mostrar con el [editor de personalización](../personalization/personalization-build-expressions.md).
 
    1. Para ordenar el archivo de extracción mediante una columna, seleccione la columna y active la opción **[!UICONTROL Ordenar por]**. El icono **[!UICONTROL Ordenar por]** aparece junto a la etiqueta de la columna en la sección **[!UICONTROL Campos de datos]**.
-
-
-
-
-
-
 
 Los proveedores de correo postal requieren el archivo de extracción para enviar correo a sus clientes. Para definir la configuración del archivo de extracción, siga estos pasos:
 

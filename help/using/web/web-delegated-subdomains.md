@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, subdominios, configuración
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 24%
@@ -68,7 +68,7 @@ Puede crear varios subdominios web, pero solo se utilizará el subdominio **defa
 
 Para utilizar un subdominio que ya se haya delegado al Adobe, siga los pasos a continuación.
 
-1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** y, a continuación, seleccione **[!UICONTROL Configuración web]** > **[!UICONTROL Subdominios web]**.
+1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** y, a continuación, seleccione **[!UICONTROL Configuración web]** > **[!UICONTROL subdominios web]**.
 
 1. Haga clic en **[!UICONTROL Configurar subdominio]**.
 
@@ -109,7 +109,7 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
 >
 >De manera predeterminada, [!DNL Journey Optimizer] le permite delegar hasta 10 subdominios en total (que abarcan tanto los canales de correo electrónico como los canales web). Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios. Póngase en contacto con la persona de contacto de Adobe para obtener más información sobre el número de subdominios a los que tiene derecho.
 
-1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** y, a continuación, seleccione **[!UICONTROL configuración web]** > **[!UICONTROL subdominios web]**.
+1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** y, a continuación, seleccione **[!UICONTROL Configuración web]** > **[!UICONTROL subdominios web]**.
 
 1. Haga clic en **[!UICONTROL Configurar subdominio]**.
 
@@ -153,7 +153,7 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
    >
    >Antes de poder utilizar ese subdominio para enviar mensajes web, debe esperar hasta que el Adobe realice las comprobaciones necesarias, que pueden tardar hasta cuatro horas.
 
-1. Una vez que las comprobaciones son correctas, el subdominio obtiene el estado **[!UICONTROL Success]**. Está listo para utilizarse para crear superficies de canal web.
+1. Una vez que las comprobaciones son correctas, el subdominio obtiene el estado **[!UICONTROL Success]**. Está listo para utilizarse para crear configuraciones de canal web.
 
    Tenga en cuenta que el subdominio se marcará como **[!UICONTROL Error]** si no crea el registro de validación en la solución de alojamiento.
 

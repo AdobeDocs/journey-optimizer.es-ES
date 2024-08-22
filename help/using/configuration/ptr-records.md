@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdominio, PTR, registros, DNS, dominio, correo
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 10%
@@ -86,7 +86,7 @@ Para editar un registro PTR con un subdominio delegado al Adobe mediante el [mé
 
 1. En la lista, haga clic en el nombre de un registro PTR para abrirlo.
 
-   ![](assets/ptr-record-select-cname.png)
+   ![](assets/ptr-record-select.png)
 
 1. Seleccione un subdominio delegado al Adobe mediante el [método CNAME](delegate-subdomain.md#cname-subdomain-delegation) de la lista.
 

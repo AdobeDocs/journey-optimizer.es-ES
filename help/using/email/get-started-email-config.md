@@ -9,10 +9,10 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: correo electrónico, configuración, superficie, subdominios
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: bd5e5e501d557e11fb0c1c71a0f9289f39601348
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -28,14 +28,14 @@ Para poder enviar correos electrónicos a través de recorridos y campañas en [
 
    ![](../configuration/assets/ip-pool-create.png)
 
-1. Cree superficies de canal y seleccione el canal **[!UICONTROL Correo electrónico]**. [Más información](../configuration/channel-surfaces.md)
+1. Cree configuraciones de canal y seleccione el canal **[!UICONTROL Correo electrónico]**. [Más información](../configuration/channel-surfaces.md)
 
 
    ![](../configuration/assets/preset-general.png)
 
-1. En cada superficie de canal de correo electrónico, configure todos los parámetros técnicos necesarios para enviar correos electrónicos. [Más información](email-settings.md)
+1. En cada configuración de canal de correo electrónico, configure todos los parámetros técnicos necesarios para enviar correos electrónicos. [Más información](email-settings.md)
 
-   * Aquí es donde se selecciona el subdominio que se utilizará para enviar los correos electrónicos y los grupos de IP que se asociarán con la superficie. [Más información](email-settings.md#subdomains-and-ip-pools)
+   * Aquí es donde se selecciona el subdominio que se utiliza para enviar los correos electrónicos y los grupos de IP que se asociarán a la configuración. [Más información](email-settings.md#subdomains-and-ip-pools)
 
    ![](assets/surface-subdomain-ip-pool.png)
 

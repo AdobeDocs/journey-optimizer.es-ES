@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ Además, debe agregar usuarios que necesiten acceder a Assets Essentials a los p
 
 Al acceder a [!DNL Journey Optimizer] por primera vez, se le aprovisiona una zona protegida de producción y se le asigna un determinado número de direcciones IP en función de su contrato.
 
-Para poder crear sus recorridos y enviar mensajes, acceda al menú **ADMINISTRACIÓN**. Examine el menú **[!UICONTROL Canales]** para configurar los mensajes y las superficies de canal (es decir, los ajustes preestablecidos de mensaje).
+Para poder crear sus recorridos y enviar mensajes, acceda al menú **ADMINISTRACIÓN**. Examine el menú **[!UICONTROL Canales]** para configurar los mensajes y las configuraciones de canal (es decir, los ajustes preestablecidos de mensaje).
 
 >[!NOTE]
 >Como **Administrador del sistema**, si no puede ver el menú **[!UICONTROL Canales]** en [!DNL Journey Optimizer], actualice sus permisos en [Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Obtenga información sobre cómo actualizar el perfil de producto en [esta página](../../administration/permissions.md#edit-product-profile).
@@ -50,11 +50,11 @@ Para poder crear sus recorridos y enviar mensajes, acceda al menú **ADMINISTRAC
 
 Siga estos pasos a continuación:
 
-1. **Configuración de mensajes y canales**: definir superficies, adaptar y personalizar la configuración de correo electrónico, SMS y mensajes push
+1. **Configurar mensajes y canales**: definir configuraciones, adaptar y personalizar la configuración de correo electrónico, SMS y mensajes push
 
    * Defina la **configuración de notificaciones push** en [!DNL Adobe Experience Platform] y [!DNL Adobe Experience Platform Launch]. [Más información](../../push/push-gs.md)
 
-   * Cree **superficies de canal** (es decir, ajustes preestablecidos de mensaje) para configurar todos los parámetros técnicos necesarios para el correo electrónico, los SMS y las notificaciones push. [Más información](../../configuration/channel-surfaces.md)
+   * Cree **configuraciones de canal** (es decir, ajustes preestablecidos de mensaje) para configurar todos los parámetros técnicos necesarios para el correo electrónico, los SMS y las notificaciones push. [Más información](../../configuration/channel-surfaces.md)
 
    * Configure el **Canal de SMS** para configurar todos los parámetros técnicos necesarios para SMS. [Más información](../../sms/sms-configuration.md)
 

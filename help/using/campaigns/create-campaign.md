@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 32%
+source-wordcount: '914'
+ht-degree: 31%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->Antes de crear una nueva campaña, asegúrese de tener un canal de superficie (es decir, un ajuste preestablecido de mensaje) y una audiencia de Adobe Experience Platform lista para usar. Obtenga más información en estas secciones:
+>Antes de crear una nueva campaña, asegúrese de tener una configuración de canal (es decir, una superficie de mensaje) y una audiencia de Adobe Experience Platform lista para usar. Obtenga más información en estas secciones:
 >
->* [Crear superficies de canal](../configuration/channel-surfaces.md)
+>* [Crear configuraciones de canal](../configuration/channel-surfaces.md)
 >* [Introducción a las audiencias](../audience/about-audiences.md)
 
 Para crear una nueva campaña, accede al menú **[!UICONTROL Campañas]** y luego haz clic en **[!UICONTROL Crear campaña]**. También puede duplicar una campaña en directo existente para crear una nueva. [Más información](modify-stop-campaign.md#duplicate)
@@ -81,11 +81,11 @@ Defina la población objetivo de la campaña, siga estos pasos:
 
 ## Creación del mensaje y configuración del seguimiento {#content}
 
-1. En la sección **[!UICONTROL Acciones]**, elija el canal y la superficie que desea utilizar para enviar el mensaje.
+1. En la sección **[!UICONTROL Acciones]**, seleccione o cree una nueva configuración.
 
-   Una superficie es una configuración que ha definido un [Administrador del sistema](../start/path/administrator.md). Contiene todos los parámetros técnicos para enviar el mensaje, como parámetros de encabezado, subdominio, aplicaciones móviles, etc. [Más información](../configuration/channel-surfaces.md).
+   Un [administrador del sistema](../start/path/administrator.md) define una configuración. Contiene todos los parámetros técnicos para enviar el mensaje, como parámetros de encabezado, subdominio, aplicaciones móviles, etc. [Más información](../configuration/channel-surfaces.md).
 
-   En la lista desplegable solo se muestran las superficies de canal compatibles con el tipo de campaña de marketing.
+   En la lista desplegable solo se muestran las configuraciones de canal compatibles con el tipo de campaña de marketing.
 
    ![](assets/create-campaign-action.png)
 

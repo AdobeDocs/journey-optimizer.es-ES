@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 17%
@@ -39,7 +39,7 @@ Puede seleccionar el comportamiento cuando un usuario haga clic en el cuerpo de 
 
 ![](assets/title-body-push.png)
 
-* Para abrir la aplicación, seleccione la opción **[!UICONTROL Abrir aplicación]**. La aplicación asociada a la notificación se define en [superficie de canal](../configuration/channel-surfaces.md) (es decir, ajuste preestablecido de mensaje).
+* Para abrir la aplicación, seleccione la opción **[!UICONTROL Abrir aplicación]**. La aplicación asociada con la notificación se define en [configuración de canal](../configuration/channel-surfaces.md) (es decir, ajuste preestablecido de mensaje).
 * Para redirigir al usuario a un contenido específico dentro de una aplicación, seleccione la opción **[!UICONTROL Vínculo profundo]**.  El contenido específico puede ser una vista específica, una sección concreta de una página o una pestaña determinada. Una vez seleccionada la opción, introduzca el vínculo profundo en el campo asociado.
 * Para redirigir al usuario a una dirección URL externa, use la opción **[!UICONTROL URL web]**. Una vez seleccionada la opción, introduzca la dirección URL en el campo asociado.
 

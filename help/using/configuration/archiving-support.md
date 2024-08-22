@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: archivo, mensajes, HIPAA, CCO, correos electrónicos
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 7%
@@ -41,11 +41,11 @@ Puede enviar una copia oculta (CCO) de un correo electrónico enviado por [!DNL 
 
 ### Habilitar correo electrónico CCO {#enable-bcc}
 
-Para habilitar la opción **[!UICONTROL correo electrónico CCO]**, escriba la dirección de correo electrónico que desee en el campo dedicado de [superficie de canal](channel-surfaces.md) (es decir, ajuste preestablecido de mensaje). Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en un subdominio delegado al Adobe. Por ejemplo, si delegó el subdominio *marketing.luma.com* al Adobe, cualquier dirección como *abc@marketing.luma.com* está prohibida.
+Para habilitar la opción **[!UICONTROL correo electrónico CCO]**, escriba la dirección de correo electrónico que desee en el campo dedicado de la [configuración del canal](channel-surfaces.md) (es decir, el ajuste preestablecido de mensaje). Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en un subdominio delegado al Adobe. Por ejemplo, si delegó el subdominio *marketing.luma.com* al Adobe, cualquier dirección como *abc@marketing.luma.com* está prohibida.
 
 >[!CAUTION]
 >
->Solo puede definir una dirección de correo electrónico CCO. Asegúrese de que la dirección de CCO tenga suficiente capacidad de recepción para almacenar todos los correos electrónicos enviados mediante la superficie de canal actual.
+>Solo puede definir una dirección de correo electrónico CCO. Asegúrese de que la dirección de CCO tenga suficiente capacidad de recepción para almacenar todos los correos electrónicos enviados con la configuración de canal actual.
 >
 >Hay más recomendaciones en [esta sección](#bcc-recommendations-limitations).
 
@@ -55,13 +55,13 @@ Para habilitar la opción **[!UICONTROL correo electrónico CCO]**, escriba la d
 
 ![](assets/preset-bcc.png)
 
-Una vez completada la configuración, todos los mensajes de correo electrónico basados en esta superficie se copian de forma oculta en la dirección de correo electrónico CCO que haya introducido. A partir de ahí, los mensajes se pueden procesar y archivar mediante un sistema externo.
+Una vez completada la configuración, todos los mensajes de correo electrónico basados en esta configuración se copian de forma oculta en la dirección de correo electrónico CCO que haya introducido. A partir de ahí, los mensajes se pueden procesar y archivar mediante un sistema externo.
 
 >[!CAUTION]
 >
->El uso de las funciones de CCO se deduce del número de mensajes para los que tiene licencia. Por lo tanto, actívelo solo en las superficies utilizadas para las comunicaciones esenciales que desee archivar. Compruebe si hay volúmenes con licencia en el contrato.
+>El uso de las funciones de CCO se deduce del número de mensajes para los que tiene licencia. Por lo tanto, actívelo únicamente en las configuraciones utilizadas para las comunicaciones esenciales que desee archivar. Compruebe si hay volúmenes con licencia en el contrato.
 
-La configuración de la dirección de correo electrónico CCO se guarda y procesa inmediatamente en el nivel de superficie. Al crear un nuevo mensaje con esta superficie, se muestra automáticamente la dirección de correo electrónico CCO.
+La configuración de la dirección de correo electrónico CCO se guarda y procesa inmediatamente en el nivel de configuración. Al crear un nuevo mensaje con esta configuración, se muestra automáticamente la dirección de correo electrónico CCO.
 
 ![](assets/preset-bcc-in-msg.png)
 

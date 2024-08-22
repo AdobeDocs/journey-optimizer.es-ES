@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: lista de semillas, lista de semillas, semillas, configuración
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 21%
@@ -73,7 +73,7 @@ Use el botón **[!UICONTROL Eliminar]** para quitar una entrada de forma permane
 
 >[!CAUTION]
 >
->No es posible eliminar una lista semilla que se use en una [campaña](../campaigns/review-activate-campaign.md) o [recorrido](../building-journeys/publishing-the-journey.md) activos. Se debe desactivar la campaña o el recorrido, o editarlo para utilizar otra superficie que no tenga seleccionada la lista semilla. [Más información sobre cómo usar una lista semilla](#use-seed-list)
+>No es posible eliminar una lista semilla que se use en una [campaña](../campaigns/review-activate-campaign.md) o [recorrido](../building-journeys/publishing-the-journey.md) activos. Debe desactivar la campaña o el recorrido, o editarlo para utilizar otra configuración que no tenga seleccionada la lista semilla. [Más información sobre cómo usar una lista semilla](#use-seed-list)
 
 Puede hacer clic en el nombre de una lista semilla para editarla. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -132,7 +132,7 @@ Ahora que la lista de reasignación se ha creado, puede utilizarla en cualquier 
 >
 >Los mensajes enviados a las direcciones semilla no se incluyen en los informes de recorrido o de campaña.
 
-1. Cree una superficie y seleccione el canal **[!UICONTROL Correo electrónico]**. [Más información](../email/email-settings.md)
+1. Cree una configuración y seleccione el canal **[!UICONTROL Correo electrónico]**. [Más información](../email/email-settings.md)
 
 1. Seleccione la lista semilla que elija en la [sección correspondiente](../email/email-settings.md#seed-list).
 
@@ -142,11 +142,11 @@ Ahora que la lista de reasignación se ha creado, puede utilizarla en cualquier 
 
    ![](assets/seed-list-surface.png)
 
-1. Envíe la superficie.
+1. Envíe la configuración.
 
 1. Crear una [campaña](../campaigns/create-campaign.md) o un [recorrido](../building-journeys/journey-gs.md).
 
-1. Seleccione la acción **[!UICONTROL Correo electrónico]** y seleccione la [superficie](channel-surfaces.md) que incluye la lista semilla que le interesa.
+1. Seleccione la acción **[!UICONTROL Correo electrónico]** y seleccione la [configuración](channel-surfaces.md) que incluye la lista semilla que le interesa.
 
    ![](assets/seed-list-campaign-email.png)
 

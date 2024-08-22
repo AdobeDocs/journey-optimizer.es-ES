@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: supresión, lista, rechazo, correo electrónico, optimizador, cuarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 22%
@@ -66,8 +66,6 @@ Las categorías de supresión son las siguientes:
 * **Manual**: los errores manuales se han agregado manualmente a la lista de supresión. [Más información](#add-addresses-and-domains)
 
 Por cada dirección de correo electrónico que aparezca en la lista, también puede comprobar el **[!UICONTROL Tipo]** (correo electrónico o dominio), **[!UICONTROL Motivo]** para excluirlo, quién lo agregó y la fecha/hora en que se agregó a la lista de supresión.
-
-![](assets/suppression-list.png)
 
 Los posibles motivos de un error de entrega son:
 
@@ -230,8 +228,6 @@ Para recuperar esas direcciones, ejecute una consulta específica con parámetro
 
 Una vez identificadas las direcciones de correo electrónico afectadas, filtre la lista de supresión para mostrarlas. Por ejemplo, si se produjo una interrupción del ISP del 11 de noviembre de 2022 al 13 de noviembre de 2022 en el dominio **test.com**, filtre las direcciones agregadas a la lista de supresión en ese periodo de tiempo, como se muestra a continuación:
 
-![](assets/remove-from-supp-list.png)
-
 A continuación, puede eliminar las direcciones de correo electrónico en cuarentena de la lista de supresión mediante el botón **[!UICONTROL Eliminar]**.
 
 ## Descarga de la lista de supresión {#download-suppression-list}
@@ -250,8 +246,6 @@ Para exportar la lista de supresión como archivo CSV, siga los pasos a continua
    ![](assets/suppression-list-download-csv.png)
 
 1. Espere hasta que se genere el archivo.
-
-   ![](assets/suppression-list-download-generate.png)
 
    >[!NOTE]
    >

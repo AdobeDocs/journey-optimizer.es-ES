@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Las funcionalidades clave incluyen:
 
 * **Orquestación y ejecución modernas omnicanal**: un lienzo único en el que armonizar y optimizar el recorrido del cliente para una participación del cliente y alcance de marketing 1:1 que ayude a las marcas a proporcionar más valor a lo largo del ciclo de vida del cliente. Los recorridos de cliente diseñados en [!DNL Adobe Journey Optimizer] pueden ser dinámicos y estar basados en eventos para ayudar a las marcas a reaccionar a las señales en tiempo real, así como a conectar esas interacciones con campañas programadas, de modo que se puedan tomar las decisiones correctas acerca de qué comunicaciones enviar a un cliente, cuándo y a través de qué canales.
 
-* **Decisiones y personalización inteligentes**: las marcas pueden aplicar decisiones centralizadas e incorporar inteligencia artificial y aprendizaje automático para obtener información predictiva a través de la experiencia del cliente, lo que facilita la automatización de decisiones y la optimización de la experiencia a escala. Decisioning alimenta las ofertas centralizadas entre canales a escala a través de [!DNL Adobe Journey Optimizer].
+* **Decisiones inteligentes y Personalization**: las marcas pueden aplicar decisiones centralizadas e incorporar inteligencia artificial y aprendizaje automático para obtener información predictiva de la configuración a través de la experiencia del cliente, lo que facilita la automatización de decisiones y la optimización de la experiencia a escala. Decisioning alimenta las ofertas centralizadas entre canales a escala a través de [!DNL Adobe Journey Optimizer].
 
 ## Arquitectura {#architecture}
 

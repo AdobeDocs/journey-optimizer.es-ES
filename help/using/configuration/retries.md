@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: reintentos, rebote, suave, optimizador, error
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 9%
@@ -72,7 +72,7 @@ El **período de tiempo de reintento** es el período de tiempo en el que se rei
 
 De manera predeterminada, los reintentos se realizarán durante **3,5 días** (o **84 horas**) desde el momento en que se agregó el mensaje a la cola de correo electrónico.
 
-Sin embargo, para asegurarse de que los intentos de reintento no se realicen más cuando ya no sean necesarios, puede cambiar esta configuración según sus necesidades al crear o editar una [superficie de canal](channel-surfaces.md) (es decir, ajuste preestablecido de mensaje) que se aplique al canal de correo electrónico.
+Sin embargo, para asegurarse de que los intentos de reintento no se realicen más cuando ya no sean necesarios, puede cambiar esta configuración según sus necesidades al crear o editar una [configuración de canal](channel-surfaces.md) (es decir, un ajuste preestablecido de mensaje) que se aplique al canal de correo electrónico.
 
 Por ejemplo, puede establecer el periodo de reintento en 24 horas para un correo electrónico transaccional relacionado con el restablecimiento de contraseña y que contenga un vínculo válido solo para un día. Del mismo modo, para una venta a medianoche, es posible que desee definir un periodo de reintento de 6 horas.
 
@@ -80,5 +80,5 @@ Por ejemplo, puede establecer el periodo de reintento en 24 horas para un correo
 >
 >El periodo de reintento no puede superar las 84 horas. El periodo mínimo de reintento es de 6 horas para los correos electrónicos de marketing y 10 minutos para los transaccionales.
 
-Aprenda a ajustar los parámetros de reintento de correo electrónico al crear una superficie de canal en [esta sección](../email/email-settings.md#email-retry).
+Aprenda a ajustar los parámetros de reintento de correo electrónico al crear una configuración de canal en [esta sección](../email/email-settings.md#email-retry).
 

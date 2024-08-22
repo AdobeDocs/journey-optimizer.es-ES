@@ -8,7 +8,7 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 2%
@@ -36,7 +36,7 @@ La siguiente ilustración muestra los sistemas y servicios involucrados con los 
 1. Registro de la aplicación móvil de marca (Android o iOS) con los servicios de mensajería push APNS y FCM de Google de Apple
 1. Los servicios de mensajería generan un token push, que es un identificador que [!DNL Adobe Journey Optimizer] usará para dirigir el dispositivo específico con una notificación push.
 1. El token push generado anteriormente se pasa a Adobe Experience Platform y se sincroniza con el perfil del cliente en tiempo real; esto se hace OOTB con un SDK de cliente fácil de integrar
-1. Los mensajes push se crean en [!DNL Adobe Journey Optimizer] y los mensajes push se crean contra una superficie de canal (es decir, un ajuste preestablecido de mensaje)
+1. Los mensajes push se crean en [!DNL Adobe Journey Optimizer] y los mensajes push se crean según una configuración de canal (es decir, un ajuste preestablecido de mensaje)
 1. Los mensajes push se pueden incluir en el lienzo de orquestación en los Recorridos
 1. Tras la publicación del Recorrido, los perfiles del cliente basados en las condiciones de Recorrido están cualificados para recibir notificaciones push y las cargas de mensajería push se personalizan en este paso
 1. Las cargas push personalizadas se reenvían a un servicio de entrega de mensajería push interna

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 85aee5c5ff9ceee10b2dc01ef9e31947cef9daae
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 5%
+source-wordcount: '634'
+ht-degree: 7%
 
 ---
 
@@ -24,43 +24,19 @@ Para configurar el canal web en la aplicación, siga los pasos a continuación:
 
 * Personalice sus déclencheur. La mensajería web en la aplicación admite dos tipos de déclencheur: datos enviados a la plataforma y déclencheur manuales. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
 
+* Cree la configuración web en la aplicación. [Más información](inapp-configuration.md)
+
 ## Creación de la campaña de mensajes en la aplicación web {#create-inapp-web-campaign}
 
 1. Acceda al menú **[!UICONTROL Campañas]** y haga clic en **[!UICONTROL Crear campaña]**.
 
-1. En la sección **[!UICONTROL Propiedades]**, seleccione cuando el tipo de ejecución de campaña: Programada o activada por API. Obtenga más información acerca de los tipos de campañas en [esta página](../campaigns/create-campaign.md#campaigntype).
+1. Elija su tipo de ejecución de campaña: programada o activada por API. Obtenga más información acerca de los tipos de campañas en [esta página](../campaigns/create-campaign.md#campaigntype).
 
-1. En la sección **[!UICONTROL Acciones]**, elija **[!UICONTROL Mensaje en la aplicación]**. En el menú desplegable **[!UICONTROL Enviar a]**, seleccione Web.
+1. En el menú desplegable **[!UICONTROL Acciones]**, elija **[!UICONTROL Mensaje en la aplicación]**.
 
    ![](assets/in_app_web_surface_1.png)
 
-1. Defina una superficie de aplicación. Tiene dos opciones para realizar cambios:
-
-   * Puede escribir una **[!UICONTROL URL de página]** para aplicar los cambios a una página específica.
-
-   * Puede crear una regla para segmentar varias direcciones URL que sigan el mismo patrón.
-
-+++ Cómo generar una regla de coincidencia de páginas.
-
-      1. Seleccione **[!UICONTROL reglas de coincidencia de páginas]** como superficie de aplicación.
-      1. Haga clic en **[!UICONTROL Crear regla]**.
-
-         ![](assets/in_app_web_surface_3.png)
-
-      1. En la ventana **[!UICONTROL Editar regla de superficie]**, defina los criterios para los campos **[!UICONTROL Dominio]** y **[!UICONTROL Página]**.
-      1. En los menús desplegables de condición, personalice aún más los criterios.
-
-         Por ejemplo, para editar los elementos que se muestran en todas las páginas de productos de ventas del sitio web de Luma, seleccione Dominio > Empieza con > Luma y Página > Contiene > Ventas.
-
-         ![](assets/in_app_web_surface_4.png)
-
-      1. Guarde los cambios. La regla se muestra en la pantalla **[!UICONTROL Crear campaña]**.
-
-+++
-
-   ![](assets/in_app_web_surface_2.png)
-
-1. Una vez seleccionada y configurada la superficie de la aplicación, haga clic en **[!UICONTROL Crear]**.
+1. Elija o cree la configuración de la aplicación. [Más información](inapp-configuration.md#channel-prerequisites)
 
 ## Definición de la campaña de mensajes en la aplicación web {#configure-inapp}
 
@@ -74,7 +50,7 @@ Para configurar el canal web en la aplicación, siga los pasos a continuación:
 
 1. En el campo **[!UICONTROL Área de nombres de identidad]**, elija el área de nombres que desea usar para identificar a los individuos de la audiencia seleccionada. [Más información](../event/about-creating.md#select-the-namespace).
 
-1. En el menú **[!UICONTROL Acción]**, puede encontrar la configuración previamente configurada como **[!UICONTROL Superficie de la aplicación]**. Si es necesario, puede hacer cambios aquí o actualizar la regla haciendo clic en **[!UICONTROL Editar regla]**.
+1. En el menú **[!UICONTROL Acción]**, puede encontrar la configuración previamente configurada como **[!UICONTROL Configuración de la aplicación]**. Si es necesario, puede hacer cambios aquí o actualizar la regla haciendo clic en **[!UICONTROL Editar regla]**.
 
 1. Haga clic en **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido y crear tratamientos para medir su rendimiento e identificar la mejor opción para la audiencia objetivo. [Más información](../content-management/content-experiment.md)
 
