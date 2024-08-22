@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 50473c401e05b483387f8ff3c5c480020e8d5c14
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campañas"
->abstract="Cree campañas para ofrecer contenido de una sola vez a un público específico en varios canales. Antes de crear la campaña, asegúrese de que tiene una superficie de canal (es decir, un ajuste preestablecido de mensaje) y un público de Adobe Experience Platform listos para usar."
+>abstract="Cree campañas para ofrecer contenido de una sola vez a un público específico en varios canales. Antes de crear la campaña, asegúrese de tener una configuración de canal y una audiencia de Adobe Experience Platform listas para usar."
 
 Utilice las campañas de Journey Optimizer para ofrecer contenido único a un público específico mediante varios canales. Cuando se utilizan recorridos, las acciones se ejecutan en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada.
 
@@ -63,7 +63,7 @@ Compruebe los siguientes requisitos previos antes de empezar a crear la primera 
 +++
 
 1. **Necesita un público**. Los públicos deben estar disponibles antes de crear la campaña. Más información sobre los públicos [en esta página](../audience/about-audiences.md).
-1. **Necesita una superficie de canal**. Para poder seleccionar un canal, debe tener la superficie del canal correspondiente (es decir, preestablecida) creada y disponible. Más información sobre los segmentos de canal [en esta página](../configuration/channel-surfaces.md).
+1. **Necesita una configuración de canal**. Para poder seleccionar un canal, debe tener la configuración de canal correspondiente (es decir, un ajuste preestablecido) creada y disponible. Obtenga más información acerca de las configuraciones de canal [en esta página](../configuration/channel-surfaces.md).
 
 ## Vídeo explicativo {#video}
 

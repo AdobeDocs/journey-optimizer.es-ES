@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c7d8dd94bde49e8d02fe553fbac3942f55bf73fe
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 22%
+source-wordcount: '1384'
+ht-degree: 19%
 
 ---
 
@@ -28,7 +28,7 @@ Antes de poder generar este archivo, debe crear lo siguiente:
    >
    >Para crear una configuración de enrutamiento de archivos, necesita tener el permiso integrado **[!DNL Manage file routing]**. [Más información](../administration/ootb-product-profiles.md#content-library-manager).
 
-1. Una [superficie de correo postal](#direct-mail-surface) que hará referencia a la configuración de enrutamiento de archivos. Si no ha configurado ninguna opción de enrutamiento de archivos, no podrá crear una superficie de correo postal.
+1. Una [configuración de correo postal](#direct-mail-configuration) que hará referencia a la configuración de enrutamiento de archivos. Si no ha configurado ninguna opción de enrutamiento de archivos, no podrá crear una configuración de correo postal.
 
 ## Configurar el enrutamiento de archivos {#file-routing-configuration}
 
@@ -72,7 +72,7 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
 >[!TAB Amazon S3]
 
-1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de enrutamiento de archivos]** > **[!UICONTROL Enrutamiento de archivos]** y haga clic en **[!UICONTROL Crear configuración de enrutamiento]**.
+1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo directo]** > **[!UICONTROL Enrutamiento de archivos]** y, a continuación, haga clic en **[!UICONTROL Crear configuración de enrutamiento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -96,13 +96,13 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
 1. Para cifrar el archivo, copie y pegue la clave de cifrado en el campo **[!UICONTROL Clave de cifrado PGP/GPG]**.
 
-1. Seleccione **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se creó con el estado **[!UICONTROL Activo]**. Ahora está listo para usarse en [superficie de correo postal](#direct-mail-surface).
+1. Seleccione **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se creó con el estado **[!UICONTROL Activo]**. Ahora está listo para usarse en una [configuración de correo directo](#direct-mail-surface).
 
-   También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la configuración de enrutamiento de archivos, pero no podrá seleccionarla en una superficie hasta que esté **[!UICONTROL Activo]**.
+   También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la configuración de enrutamiento de archivos, pero no podrá seleccionarla en una configuración hasta que esté **[!UICONTROL Activo]**.
 
 >[!TAB SFTP]
 
-1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de enrutamiento de archivos]** > **[!UICONTROL Enrutamiento de archivos]** y haga clic en **[!UICONTROL Crear configuración de enrutamiento]**.
+1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo directo]** > **[!UICONTROL Enrutamiento de archivos]** y, a continuación, haga clic en **[!UICONTROL Crear configuración de enrutamiento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -126,13 +126,13 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
 1. Para cifrar el archivo, copie y pegue la clave de cifrado en el campo **[!UICONTROL Clave de cifrado PGP/GPG]**.
 
-1. Seleccione **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se creó con el estado **[!UICONTROL Activo]**. Ahora está listo para usarse en [superficie de correo postal](#direct-mail-surface).
+1. Seleccione **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se creó con el estado **[!UICONTROL Activo]**. Ahora está listo para usarse en una [configuración de correo directo](#direct-mail-surface).
 
-   También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la configuración de enrutamiento de archivos, pero no podrá seleccionarla en una superficie hasta que esté **[!UICONTROL Activo]**.
+   También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la configuración de enrutamiento de archivos, pero no podrá seleccionarla en una configuración hasta que esté **[!UICONTROL Activo]**.
 
 >[!TAB Azure]
 
-1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de enrutamiento de archivos]** > **[!UICONTROL Enrutamiento de archivos]** y haga clic en **[!UICONTROL Crear configuración de enrutamiento]**.
+1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo directo]** > **[!UICONTROL Enrutamiento de archivos]** y, a continuación, haga clic en **[!UICONTROL Crear configuración de enrutamiento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -156,18 +156,18 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
 1. Para cifrar el archivo, copie y pegue la clave de cifrado en el campo **[!UICONTROL Clave de cifrado PGP/GPG]**.
 
-1. Seleccione **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se creó con el estado **[!UICONTROL Activo]**. Ahora está listo para usarse en [superficie de correo postal](#direct-mail-surface).
+1. Seleccione **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se creó con el estado **[!UICONTROL Activo]**. Ahora está listo para usarse en una [configuración de correo directo](#direct-mail-surface).
 
-   También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la configuración de enrutamiento de archivos, pero no podrá seleccionarla en una superficie hasta que esté **[!UICONTROL Activo]**.
+   También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la configuración de enrutamiento de archivos, pero no podrá seleccionarla en una configuración hasta que esté **[!UICONTROL Activo]**.
 
 >[!ENDTABS]
 
-## Creación de una superficie de correo directo {#direct-mail-surface}
+## Creación de una configuración de correo directo {#direct-mail-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Definir la configuración del correo directo"
->abstract="Una superficie de correo directo dispone de la configuración para el formato del archivo que contiene los datos de la audiencia de destino y que utilizará el proveedor de correo. También debe definir dónde se exportará el archivo seleccionando la configuración de enrutamiento del archivo."
+>abstract="Una configuración de correo postal contiene la configuración del formato del archivo que contiene los datos de audiencia de destino y la utilizará el proveedor de correo. También debe definir dónde se exportará el archivo seleccionando la configuración de enrutamiento del archivo."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=es#file-routing-configuration" text="Configurar el enrutamiento de archivos"
 
 <!--
@@ -181,17 +181,29 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 >title="Definir el umbral de división del archivo"
 >abstract="Debe establecer el número máximo de registros para cada archivo que contenga datos de audiencia. Puede seleccionar cualquier número entre 1 y 200 000 registros. Una vez alcanzado el umbral especificado, se creará otro archivo para los registros restantes."
 
-Para poder enviar correo postal con [!DNL Journey Optimizer], debe crear una superficie de canal para definir la configuración del formato del archivo que utilizará el proveedor de correo.
+Para poder enviar correo postal con [!DNL Journey Optimizer], debe crear una configuración de canal para definir la configuración del formato del archivo que utilizará el proveedor de correo.
 
-Una superficie de correo postal también debe incluir la configuración de enrutamiento de archivos que define el servidor donde se exportará el archivo de correo postal.
+Una configuración de correo postal también debe incluir la configuración de enrutamiento de archivos que define el servidor donde se exportará el archivo de correo postal.
 
-1. Cree una superficie de canal. [Más información](../configuration/channel-surfaces.md)
+1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** y seleccione **[!UICONTROL Configuración general]** > **[!UICONTROL Configuraciones de canal]**. Haga clic en el botón **[!UICONTROL Crear configuración de canal]**. [Más información](../configuration/channel-surfaces.md)
+
+   ![](assets/direct-mail-config-1.png)
+
+1. Introduzca un nombre y una descripción (opcional) para la configuración y, a continuación, seleccione el canal que desea configurar.
+
+   >[!NOTE]
+   >
+   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto`.` y guión `-`.
+
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
 1. Seleccione el canal **[!UICONTROL Correo directo]**.
 
-   ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
+   ![](assets/direct-mail-config-2.png)
 
-1. Defina la configuración de correo postal en la sección dedicada de la configuración de superficie de canal.
+1. Seleccione **[!UICONTROL Acciones de marketing]** para asociar directivas de consentimiento a los mensajes que usan esta configuración. Todas las políticas de consentimiento asociadas con la acción de marketing se aprovechan para respetar las preferencias de los clientes. [Más información](../action/consent.md#surface-marketing-actions)
+
+1. Defina la configuración de correo postal en la sección dedicada de la configuración de canal.
 
    ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
@@ -207,13 +219,13 @@ Una superficie de correo postal también debe incluir la configuración de enrut
 
    >[!CAUTION]
    >
-   >Si no ha configurado ninguna opción de enrutamiento de archivos, no podrá crear una superficie de correo postal. [Más información](#file-routing-configuration)
+   >Si no ha configurado ninguna opción de enrutamiento de archivos, no podrá crear una configuración de correo postal. [Más información](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
-1. Envíe la superficie de correo postal.
+1. Envíe la configuración de correo postal.
 
 Ahora puede [crear un mensaje de correo postal](../direct-mail/create-direct-mail.md) dentro de una campaña. Una vez iniciada la campaña, el archivo que contiene los datos de la audiencia de destino se exporta automáticamente al servidor definido. El proveedor de correo postal podrá recuperar ese archivo y continuar con la entrega de correo postal.
 

@@ -2,33 +2,33 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configuración de correo electrónico
-description: Obtenga información sobre cómo configurar el correo electrónico en el nivel de superficie de canal
+description: Obtenga información sobre cómo configurar el correo electrónico en el nivel de configuración de canal
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 975bb9d37a69fe8df02bc39ce2ccdf2da9953ebb
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '2532'
-ht-degree: 10%
+source-wordcount: '2530'
+ht-degree: 9%
 
 ---
 
 # Configuración de correo electrónico {#email-settings}
 
-Para empezar a crear un correo electrónico, debe configurar las superficies de canal de correo electrónico que definan todos los parámetros técnicos necesarios para los mensajes. [Aprenda a crear superficies](../configuration/channel-surfaces.md)
+Para empezar a crear un correo electrónico, debe configurar las configuraciones de canal de correo electrónico que definen todos los parámetros técnicos necesarios para los mensajes. [Aprenda a crear configuraciones](../configuration/channel-surfaces.md)
 
 >[!NOTE]
 >
->Para preservar su reputación y mejorar su capacidad de entrega, configure los subdominios que utilizará para enviar correos electrónicos antes de crear una superficie de correo electrónico. [Más información](../configuration/about-subdomain-delegation.md)
+>Para preservar su reputación y mejorar su capacidad de entrega, configure los subdominios que utilizará para enviar correos electrónicos antes de crear una configuración de correo electrónico. [Más información](../configuration/about-subdomain-delegation.md)
 
-Defina la configuración de correo electrónico en la sección dedicada de la configuración de superficie de canal, como se detalla a continuación.
+Defina la configuración de correo electrónico en la sección dedicada de la configuración de canal, como se detalla a continuación.
 
 ![](assets/surface-email-settings.png){width="50%" align="left"}
 
-La configuración de la superficie de correo electrónico se recoge para enviar comunicaciones siguiendo la lógica siguiente:
+La configuración de correo electrónico se recoge para enviar comunicaciones siguiendo la lógica siguiente:
 
 * Para los recorridos por lotes, no se aplica a la ejecución por lotes que ya se había iniciado antes de configurar la superficie de correo electrónico. Los cambios se recogen en la siguiente periodicidad o nueva ejecución.
 
@@ -36,22 +36,22 @@ La configuración de la superficie de correo electrónico se recoge para enviar 
 
 >[!NOTE]
 >
->La configuración actualizada de la superficie de correo electrónico se recoge automáticamente en los recorridos o campañas donde se utiliza la superficie.
+>La configuración de correo electrónico actualizada se recoge automáticamente en los recorridos o campañas en las que se utiliza la configuración.
 
 ## Tipo de correo electrónico {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definir el tipo de correo electrónico"
->abstract="Seleccione el tipo de correos electrónicos que se enviarán al utilizar esta superficie: marketing para correos electrónicos promocionales, que requieren el consentimiento del usuario, o Transaccional para correos electrónicos no comerciales, que también se pueden enviar a perfiles cuya suscripción se haya cancelado en contextos específicos."
+>abstract="Seleccione el tipo de correos electrónicos que se enviarán al utilizar esta configuración: Marketing para correos electrónicos promocionales, que requieren el consentimiento del usuario, o Transaccional para correos electrónicos no comerciales, que también se pueden enviar a perfiles sin suscribir en contextos específicos."
 
-En la sección **Tipo de correo electrónico**, seleccione el tipo de mensaje para la superficie: **[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**.
+En la sección **Tipo de correo electrónico**, seleccione el tipo de mensaje para la configuración: **[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**.
 
 * Seleccione **Marketing** para el correo electrónico promocional, como las promociones semanales de una tienda minorista. Estos mensajes requieren el consentimiento del usuario.
 
 * Seleccione **Transaccional** para correo electrónico no comercial, como confirmaciones de pedidos, notificaciones de restablecimiento de contraseña o información de envío, por ejemplo. Estos correos electrónicos se pueden enviar a perfiles que **cancelaron la suscripción** a comunicaciones de marketing. Estos mensajes solo se pueden enviar en contextos específicos.
 
-Al crear un mensaje, debe elegir una superficie de canal válida que coincida con la categoría seleccionada para el correo electrónico.
+Al crear un mensaje, debe elegir una configuración de canal válida que coincida con la categoría seleccionada para el correo electrónico.
 
 ## Subdomain {#subdomains}
 
@@ -65,11 +65,11 @@ Para preservar la reputación de su dominio, acelerar el proceso de calentamient
 ## Detalles del grupo de IP {#ip-pools}
 
 
-Seleccione el grupo de IP que se asociará a la superficie. [Más información](../configuration/ip-pools.md)
+Seleccione el grupo de IP que desea asociar con la configuración. [Más información](../configuration/ip-pools.md)
 
 ![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
-No puede continuar con la creación de superficies mientras el grupo de IP seleccionado esté en [edición](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Procesando]** estado) y nunca se haya asociado con el subdominio seleccionado. De lo contrario, se seguirá utilizando la versión más antigua de la asociación de subdominios/grupos de IP. En este caso, guarde la superficie como borrador y vuelva a intentarlo una vez que el grupo de IP tenga el estado **[!UICONTROL Correcto]**.
+No puede continuar con la creación de la configuración mientras el grupo de IP seleccionado esté en [edición](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Procesando]** estado) y nunca se haya asociado con el subdominio seleccionado. De lo contrario, se seguirá utilizando la versión más antigua de la asociación de subdominios/grupos de IP. En este caso, guarde la configuración como borrador y vuelva a intentarlo una vez que el grupo de IP tenga el estado **[!UICONTROL Correcto]**.
 
 >[!NOTE]
 >
@@ -100,12 +100,12 @@ El encabezado Cancelar la suscripción a una lista ofrece dos funciones (Mailto 
 
 * Una dirección **Mailto (cancelación de suscripción)**, que es la dirección de destino a la que se dirigen las solicitudes de cancelación de suscripción para el procesamiento automático.
 
-  En Journey Optimizer, la dirección de correo electrónico para cancelar la suscripción es la dirección predeterminada **Mailto (cancelar la suscripción)** mostrada en la superficie de canal, según el [subdominio seleccionado](#subdomains-and-ip-pools).
+  En Journey Optimizer, la dirección de correo electrónico para cancelar la suscripción es la dirección predeterminada **Mailto (cancelar la suscripción)** mostrada en la configuración del canal, según el [subdominio seleccionado](#subdomains-and-ip-pools).
 
   ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
-* La URL **Cancelar la suscripción con un solo clic**, que de forma predeterminada es la opción de un solo clic en el encabezado Cancelar la suscripción a la lista generada por la URL, según el subdominio que haya establecido y configurado en la Configuración de superficie de canal.
+* La URL **Cancelar la suscripción con un solo clic**, que de forma predeterminada es la opción de un solo clic del encabezado Cancelar la suscripción a la lista generado por la URL, según el subdominio que haya establecido y configurado en las Opciones de configuración del canal.
 
 <!--
     >[!AVAILABILITY]
@@ -114,19 +114,19 @@ El encabezado Cancelar la suscripción a una lista ofrece dos funciones (Mailto 
     >
 -->
 
-La característica **[!UICONTROL Mailto (cancelar la suscripción)]** y la característica **[!UICONTROL Cancelar la suscripción a una URL]** con un solo clic son opcionales. Si no desea utilizar la URL de cancelación de suscripción generada de un solo clic predeterminada, puede desactivar la función. En el escenario en el que la opción **[!UICONTROL Configuración de exclusión]** está activada y la función **[!UICONTROL Cancelar la suscripción a una URL]** con un solo clic está desactivada, si agrega un vínculo de exclusión de [un clic](../privacy/opt-out.md#one-click-opt-out) a un mensaje creado con esta superficie, el encabezado de cancelación de suscripción a una lista recogerá el vínculo de exclusión de un clic que ha insertado en el cuerpo del correo electrónico y lo utilizará como valor de URL de cancelación de suscripción con un clic.
+La característica **[!UICONTROL Mailto (cancelar la suscripción)]** y la característica **[!UICONTROL Cancelar la suscripción a una URL]** con un solo clic son opcionales. Si no desea utilizar la URL de cancelación de suscripción generada de un solo clic predeterminada, puede desactivar la función. En el escenario donde la opción **[!UICONTROL Configuración de exclusión]** está activada y la función **[!UICONTROL Cancelar la suscripción a una URL]** con un solo clic está desactivada, si agrega un vínculo de exclusión de [un clic](../privacy/opt-out.md#one-click-opt-out) a un mensaje creado con esta configuración, el encabezado de cancelación de suscripción a una lista recogerá el vínculo de exclusión de un clic que ha insertado en el cuerpo del correo electrónico y lo usará como valor de URL de cancelación de suscripción con un solo clic.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Si no agrega un vínculo de no participación de un clic al contenido del mensaje y la URL predeterminada de cancelación de suscripción de un clic no está marcada en la Configuración de superficie de canal, no se pasará ninguna URL al encabezado del correo electrónico como parte del encabezado Cancelación de suscripción a una lista.
+>Si no agrega un vínculo de no participación de un clic al contenido del mensaje y la URL predeterminada de cancelación de suscripción de un clic no está marcada en la Configuración de canal, no se pasará ninguna URL al encabezado del correo electrónico como parte del encabezado Cancelación de suscripción a una lista.
 
 Obtenga más información sobre cómo administrar las capacidades de cancelación de suscripción en sus mensajes en [esta sección](../email/email-opt-out.md#unsubscribe-header).
 
 ## Parámetros de encabezado {#email-header}
 
-En la sección **[!UICONTROL Parámetros de encabezado]**, escriba los nombres de remitente y las direcciones de correo electrónico asociadas al tipo de correos electrónicos enviados mediante esa superficie.
+En la sección **[!UICONTROL Parámetros de encabezado]**, escriba los nombres de remitente y las direcciones de correo electrónico asociadas al tipo de correos electrónicos enviados con esa configuración.
 
 * **[!UICONTROL Nombre del remitente]**: El nombre del remitente, como el nombre de su marca.
 * **[!UICONTROL Correo electrónico del remitente]**: La dirección de correo electrónico que desea usar para sus comunicaciones.
@@ -154,15 +154,15 @@ La bandeja de entrada utilizada para las respuestas recibirá todos los correos 
 
 Para garantizar una administración de respuestas adecuada, siga las recomendaciones siguientes:
 
-* Asegúrese de que la bandeja de entrada dedicada tenga suficiente capacidad de recepción para recibir todos los correos electrónicos de respuesta enviados mediante la superficie de correo electrónico. Si la bandeja de entrada devuelve devoluciones, es posible que algunas respuestas de sus clientes no se reciban.
+* Asegúrese de que la bandeja de entrada dedicada tenga suficiente capacidad de recepción para recibir todos los correos electrónicos de respuesta enviados con la configuración de correo electrónico. Si la bandeja de entrada devuelve devoluciones, es posible que algunas respuestas de sus clientes no se reciban.
 
 * Las respuestas deben procesarse teniendo en cuenta las obligaciones de privacidad y cumplimiento, ya que pueden contener información de identificación personal (PII).
 
 * No marque los mensajes como correo no deseado en la bandeja de entrada de respuestas, ya que afectará a todas las demás respuestas enviadas a esta dirección.
 
-Además, al definir la dirección **[!UICONTROL Responder a (correo electrónico)]**, asegúrese de utilizar un subdominio que tenga una configuración de registro MX válida; de lo contrario, se producirá un error en el procesamiento de la superficie de correo electrónico.
+Además, al definir la dirección **[!UICONTROL Responder a (correo electrónico)]**, asegúrese de utilizar un subdominio que tenga una configuración de registro MX válida; de lo contrario, se producirá un error durante el procesamiento de la configuración de correo electrónico.
 
-Si se produce un error al enviar la superficie de correo electrónico, significa que el registro MX no está configurado para el subdominio de la dirección introducida. Póngase en contacto con el administrador para configurar el registro MX correspondiente o use otra dirección con una configuración de registro MX válida.
+Si se produce un error al enviar la configuración de correo electrónico, significa que el registro MX no está configurado para el subdominio de la dirección que ha introducido. Póngase en contacto con el administrador para configurar el registro MX correspondiente o use otra dirección con una configuración de registro MX válida.
 
 >[!NOTE]
 >
@@ -180,12 +180,12 @@ Debe proporcionar lo siguiente:
 
 * La dirección de correo electrónico de reenvío que elija. Tenga en cuenta que el dominio de dirección de correo electrónico de reenvío no puede coincidir con ningún subdominio delegado al Adobe.
 * Nombre de la zona protegida.
-* El nombre de la superficie o subdominio para el que se utilizará la dirección de correo electrónico de reenvío.
-  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel surface level.-->
+* El nombre de configuración o subdominio para el cual se utilizará la dirección de correo electrónico de reenvío.
+  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel configuration level.-->
 
 >[!NOTE]
 >
->Solo puede haber una dirección de correo electrónico de reenvío por subdominio. Por lo tanto, si varias superficies utilizan el mismo subdominio, se debe utilizar la misma dirección de correo electrónico de reenvío para todas ellas.
+>Solo puede haber una dirección de correo electrónico de reenvío por subdominio. Por lo tanto, si varias configuraciones utilizan el mismo subdominio, se debe utilizar la misma dirección de correo electrónico de reenvío para todas ellas.
 
 La dirección de correo electrónico de reenvío se configura por Adobe. Esto puede tardar de 3 a 4 días.
 
@@ -195,13 +195,13 @@ Una vez finalizado, todos los mensajes recibidos en las direcciones de **[!UICON
 
 Puede enviar una copia idéntica (o copia oculta) de los mensajes de correo electrónico enviados por [!DNL Journey Optimizer] a una bandeja de entrada de CCO donde se almacenarán para fines de cumplimiento o archivo.
 
-Para ello, habilite la función opcional **[!UICONTROL correo electrónico CCO]** en el nivel de superficie de canal. [Más información](../configuration/archiving-support.md#bcc-email)
+Para ello, habilite la característica opcional **[!UICONTROL correo electrónico CCO]** en el nivel de configuración de canal. [Más información](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 
-Además, al definir la dirección de correo electrónico **[!UICONTROL Cco]**, asegúrese de utilizar un subdominio que tenga una configuración de registro MX válida; de lo contrario, se producirá un error en el procesamiento de la superficie de correo electrónico.
+Además, al definir la dirección **[!UICONTROL Correo electrónico CCO]**, asegúrese de utilizar un subdominio que tenga una configuración de registro MX válida; de lo contrario, no se podrá procesar la configuración de correo electrónico.
 
-Si se produce un error al enviar la superficie de correo electrónico, significa que el registro MX no está configurado para el subdominio de la dirección introducida. Póngase en contacto con el administrador para configurar el registro MX correspondiente o use otra dirección con una configuración de registro MX válida.
+Si se produce un error al enviar la configuración de correo electrónico, significa que el registro MX no está configurado para el subdominio de la dirección que ha introducido. Póngase en contacto con el administrador para configurar el registro MX correspondiente o use otra dirección con una configuración de registro MX válida.
 
 ## Envío a direcciones de correo electrónico suprimidas {#send-to-suppressed-email-addresses}
 
@@ -231,7 +231,7 @@ Para incluir direcciones de correo electrónico suprimidas debido a quejas de co
 
 Como práctica recomendada de envío, esta opción está desactivada de forma predeterminada para garantizar que no se contacte con los clientes que se han excluido. Sin embargo, puede cambiar esta opción predeterminada, que le permite enviar mensajes transaccionales a sus clientes.
 
-Una vez activada esta opción, aunque un cliente haya marcado su correo electrónico de marketing como correo no deseado, dicho cliente podrá recibir sus mensajes transaccionales utilizando la superficie actual. Asegúrese siempre de administrar las preferencias de exclusión de acuerdo con las prácticas recomendadas de envío.
+Una vez activada esta opción, aunque un cliente haya marcado su correo electrónico de marketing como correo no deseado, dicho cliente podrá recibir sus mensajes transaccionales utilizando la configuración actual. Asegúrese siempre de administrar las preferencias de exclusión de acuerdo con las prácticas recomendadas de envío.
 
 ## Lista semilla {#seed-list}
 
@@ -255,7 +255,7 @@ Seleccione la lista que sea relevante para usted en la sección **[!UICONTROL Li
 >
 >Solo se puede seleccionar una lista semilla a la vez.
 
-Cuando la superficie actual se utiliza en una campaña o recorrido, las direcciones de correo electrónico de la lista semilla seleccionada se incluyen en el momento de la ejecución de la entrega, lo que significa que recibirán una copia de la entrega con fines de garantía.
+Cuando se utiliza la configuración actual en una campaña o recorrido, las direcciones de correo electrónico de la lista semilla seleccionada se incluyen en el momento de la ejecución de la entrega, lo que significa que recibirán una copia de la entrega con fines de garantía.
 
 Aprenda a utilizar la lista semilla en una campaña o un recorrido en [esta sección](../configuration/seed-lists.md#use-seed-list).
 
@@ -339,4 +339,4 @@ Puede obtener una vista previa dinámica de la URL de seguimiento resultante. Ca
 
 >[!NOTE]
 >
->También puede añadir parámetros de seguimiento personalizados dinámicos a los vínculos presentes en el contenido del correo electrónico, pero esto no es posible en el nivel de superficie. Debe hacerlo al crear el mensaje con el diseñador de correo electrónico. [Más información](message-tracking.md#url-tracking)
+>También puede añadir parámetros de seguimiento personalizados dinámicos a los vínculos presentes en el contenido del correo electrónico, pero esto no es posible en el nivel de configuración. Debe hacerlo al crear el mensaje con el diseñador de correo electrónico. [Más información](message-tracking.md#url-tracking)

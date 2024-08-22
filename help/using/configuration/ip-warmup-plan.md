@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdominios, capacidad de entrega
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1665'
-ht-degree: 6%
+source-wordcount: '1669'
+ht-degree: 5%
 
 ---
 
 # Creación de un plan de calentamiento de IP {#ip-warmup}
 
-Una vez que haya creado una o más [campañas de calentamiento de IP](ip-warmup-campaign.md) con una superficie dedicada y la opción correspondiente habilitada, puede empezar a crear su plan de calentamiento de IP.
+Una vez que haya creado una o más [campañas de calentamiento de IP](ip-warmup-campaign.md) con una configuración dedicada y la opción correspondiente habilitada, puede empezar a crear su plan de calentamiento de IP.
 
 Para acceder, crear, editar y eliminar los planes de calentamiento de IP, debe tener el rol **[!UICONTROL Consultor de capacidad de entrega]** o permisos relacionados con los planes de calentamiento de IP.
 
@@ -238,7 +238,7 @@ Cada dominio ahora se muestra en una columna diferente en la misma fila.
 
 ## Acceso y administración de planes de calentamiento de IP {#manage-ip-warmup-plans}
 
-1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Planes de calentamiento de IP]**. Se muestran todos los planes de calentamiento de IP creados hasta el momento.
+1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Planes de calentamiento de IP]**. Se muestran todos los planes de calentamiento de IP creados hasta el momento.
 
    ![](assets/ip-warmup-filter-list.png)
 
@@ -271,14 +271,14 @@ Cada dominio ahora se muestra en una columna diferente en la misma fila.
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
->title="Selección de una superficie de marketing"
->abstract="Debe seleccionar la misma superficie que la seleccionada en la campaña que desea asociar con su plan de calentamiento de IP."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=es" text="Configuración de superficies de canal"
+>title="Seleccione una configuración de marketing"
+>abstract="Debe seleccionar la misma configuración que la seleccionada en la campaña que desea asociar con su plan de calentamiento de IP."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=es" text="Configuración de canales"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=es" text="Creación de campañas de calentamiento de IP"
 
 Para crear un plan de calentamiento de IP, siga los pasos a continuación.
 
-1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Planes de calentamiento IP]** y haga clic en **[!UICONTROL Crear plan de calentamiento IP]**.
+1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]**> **[!UICONTROL Planes de calentamiento de IP]** y haga clic en **[!UICONTROL Crear plan de calentamiento de IP]**.
 
    ![](assets/ip-warmup-create-plan.png)
 
@@ -286,11 +286,11 @@ Para crear un plan de calentamiento de IP, siga los pasos a continuación.
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. Seleccione la [superficie](channel-surfaces.md) que desee calentar. Solo las superficies de marketing están disponibles para su selección. [Más información sobre el tipo de correo electrónico](../email/email-settings.md#email-type)
+1. Seleccione la [configuración](channel-surfaces.md) que desee calentar. Solo las configuraciones de marketing están disponibles para su selección. [Más información sobre el tipo de correo electrónico](../email/email-settings.md#email-type)
 
    >[!NOTE]
    >
-   >Las campañas que desee asociar con su plan de calentamiento de IP deben utilizar la misma superficie. [Aprenda a crear una campaña de calentamiento de IP](ip-warmup-campaign.md)
+   >Las campañas que desee asociar con su plan de calentamiento de IP deben utilizar la misma configuración. [Aprenda a crear una campaña de calentamiento de IP](ip-warmup-campaign.md)
 
 1. Cargue el archivo de Excel que contiene el plan de calentamiento de IP. [Más información](#prepare-file)
 
