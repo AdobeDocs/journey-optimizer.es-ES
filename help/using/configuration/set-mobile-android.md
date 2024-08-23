@@ -10,10 +10,10 @@ level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 4%
+source-wordcount: '1042'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ Esta configuración de Android optimiza la configuración rápida de los canales
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
 >title="Añadir código de inicialización"
->abstract="Por confirmar"
+>abstract="Integre el código de inicialización en el método **onCreate()** de su aplicación. Este método se ejecuta cuando se crea la aplicación por primera vez, lo que garantiza que el código se ejecute durante la fase de configuración inicial. La correcta ubicación del código aquí es crucial para garantizar que la aplicación se configure e inicialice correctamente antes de realizar cualquier operación posterior."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
@@ -206,10 +206,12 @@ Después de crear la configuración, puede revisarla fácilmente en cualquier mo
 
 ## Configuración del canal en la aplicación {#inapp-channel}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="Elija la propiedad de sus etiquetas"
->abstract="Por confirmar"
+>title="Choose your tag property"
+>abstract="TBC"
+-->
 
 El canal en la aplicación no requiere ninguna configuración adicional. Para comprobar que la configuración es precisa, puede enviar fácilmente un mensaje de prueba mediante la función Assurance. Esto proporcionará información inmediata sobre la preparación del sistema para enviar mensajes en la aplicación de forma eficaz.
 
@@ -229,7 +231,7 @@ Ahora puede enviar mensajes en la aplicación usando la **[!UICONTROL Configurac
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
 >title="Iniciar la aplicación desde Xcode"
->abstract="Por confirmar"
+>abstract="Para obtener el token push, primero, inicie la aplicación con Xcode. Una vez iniciada la aplicación, reiníciela para asegurarse de que se ha completado el proceso de validación. El Adobe proporcionará el token push como parte de los resultados de validación. Este token es esencial para habilitar las notificaciones push y se mostrará una vez que la configuración se haya validado correctamente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
