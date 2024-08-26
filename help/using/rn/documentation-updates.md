@@ -22,7 +22,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 ## Agosto de 2024 {#aug-2024}
 
 * Se han actualizado las protecciones del rendimiento para la gestión de decisiones para mencionar el rendimiento de envío de las API de Decisioning con/sin segmentación de Edge. [Más información](../start/guardrails.md#decision-management)
-* Se han actualizado las protecciones de recorrido. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
+* Se han actualizado las protecciones del recorrido. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
 
 
 ## Julio de 2024 {#july-2024}

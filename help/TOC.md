@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
 source-wordcount: '1972'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -540,25 +540,25 @@ ht-degree: 95%
             + [API de decisiones por lotes](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
    + Toma de decisiones sobre experiencias (LA) {#experience-decisioning}
       + [Introducción a Toma de decisiones sobre experiencias](using/experience-decisioning/gs-experience-decisioning.md)
-      + Referencia de API {#api-reference}
+      + Referencia de la API{#api-reference}
          + Elementos de decisión{#decision-items}
             + [Creación de elementos de decisión](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [Lista de elementos de decisión](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
             + [Eliminar elementos de decisión](using/experience-decisioning/api-reference/decisions-items/delete.md)
-            + [Buscar elementos de decisión](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-            + [Actualizar elementos de decisión](using/experience-decisioning/api-reference/decisions-items/update.md)
+            + [Búsqueda de los elementos de decisión](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [Actualización de los elementos de decisión](using/experience-decisioning/api-reference/decisions-items/update.md)
          + Colecciones de elementos{#items-collections}
-            + [Crear colecciones de elementos](using/experience-decisioning/api-reference/items-collections/create.md)
-            + [Eliminar colecciones de elementos](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [Creación de colecciones de elementos](using/experience-decisioning/api-reference/items-collections/create.md)
+            + [Eliminación de colecciones de elementos](using/experience-decisioning/api-reference/items-collections/delete.md)
             + [Lista de colecciones de elementos](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-            + [Colecciones de elementos de búsqueda](using/experience-decisioning/api-reference/items-collections/lookup.md)
-            + [Actualizar colecciones de elementos](using/experience-decisioning/api-reference/items-collections/update.md)
+            + [Búsqueda de colecciones de elementos](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [Actualización de colecciones de elementos](using/experience-decisioning/api-reference/items-collections/update.md)
          + Estrategias de selección{#selection-strategies}
             + [Creación de estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/create.md)
-            + [Eliminar estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-            + [Buscar estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [Eliminación de estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [Búsqueda de estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
             + [Lista de estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-            + [Actualizar estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/update.md)
+            + [Actualización de estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/update.md)
       + Administrar elementos de decisión {#decision-items}
          + [Configuración del catálogo de elementos](using/experience-decisioning/catalogs.md)
          + [Creación de elementos de decisión](using/experience-decisioning/items.md)
