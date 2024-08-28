@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 hide: true
 hidefromtoc: true
-source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
+source-git-commit: 7a1f337e2bc257d8f0fa9bda17abdaff92a86de5
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '481'
 ht-degree: 11%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Código JavaScript "
->abstract="Las <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> contiene metadatos y recursos esenciales que se cargan antes del contenido principal de la página web. Colocar el código en esta sección garantiza que se inicialice y ejecute correctamente antes de tiempo, lo que permite que la página web se cargue y funcione de forma eficaz. Al agregar código a <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> , puede ayudar a mejorar la estructura, el rendimiento y la experiencia general del usuario en el sitio."
+>abstract="La etiqueta Head contiene metadatos y recursos esenciales que se cargan antes del contenido principal de la página web. Colocar el código en esta sección garantiza que se inicialice y ejecute correctamente antes de tiempo, lo que permite que la página web se cargue y funcione de forma eficaz. Al agregar código a la sección del encabezado, ayuda a mejorar la estructura, el rendimiento y la experiencia general del usuario en el sitio."
 
 Este ajuste facilita la configuración rápida de los canales de marketing, lo que garantiza que todos los recursos necesarios estén disponibles en Experience Platform, Journey Optimizer y la recopilación de datos. Esto permite a su equipo de marketing iniciar inmediatamente la creación de campañas y recorridos.
 
