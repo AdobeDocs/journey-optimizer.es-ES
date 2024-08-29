@@ -5,10 +5,10 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 39%
+source-wordcount: '1125'
+ht-degree: 33%
 
 ---
 
@@ -33,6 +33,16 @@ ht-degree: 39%
 >id="ajo_admin_default_mobile_url"
 >title="URL de creación y previsualización predeterminadas"
 >abstract="Este campo garantiza que las páginas generadas o coincidentes por la regla tengan una URL designada, esencial para crear y previsualizar contenido de forma eficaz."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_web_url"
+>title="URL de creación y previsualización predeterminadas"
+>abstract="Este campo garantiza que las páginas generadas o coincidentes por la regla tengan una URL designada, esencial para crear y previsualizar contenido de forma eficaz."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mobile_url_preview"
+>title="URL de previsualización"
+>abstract="Este campo es esencial para habilitar la simulación y la previsualización del contenido directamente en el dispositivo dentro de la aplicación."
 
 ## Crear una configuración de canal {#reatte-code-based-configuration}
 
@@ -68,6 +78,8 @@ Para crear una configuración de canal, siga estos pasos:
 
    * Escriba su **[!UICONTROL ID de aplicación]** y **[!UICONTROL ubicación o ruta de acceso dentro de la aplicación]**.
 
+     ![](assets/code_config_3.png)
+
 1. Seleccione Otro como plataforma si la implementación no es para la web, iOS o Android, o si necesita segmentar URI específicos. Al elegir varias plataformas o agregar varios URI, el contenido se envía a todas las páginas o aplicaciones seleccionadas.
 
    * Escriba el **[!UICONTROL URI de superficie]**.
@@ -75,6 +87,35 @@ Para crear una configuración de canal, siga estos pasos:
    >[!CAUTION]
    >
    >Asegúrese de que el URI de superficie utilizado en la campaña basada en código coincida con el utilizado en su propia implementación. De lo contrario, los cambios no se entregarán.
+
+1. Rellene el campo **[!UICONTROL URL de vista previa]** para habilitar las vistas previas en el dispositivo. Esta dirección URL informa al servicio de vista previa de la dirección URL específica que se utiliza al activar una vista previa.
+
+   * Para la web:
+
+      * Si se introduce una dirección URL de una sola página, esa dirección URL se utilizará para la vista previa.
+      * Si se selecciona una regla de coincidencia de página, se debe introducir una URL de vista previa predeterminada que se utilizará para obtener una vista previa de la experiencia en el explorador.
+
+   * Para plataformas móviles (iOS/Android):
+
+      * La URL de vista previa es un vínculo profundo configurado por el desarrollador de la aplicación dentro de la aplicación. Esto garantiza que cualquier dirección URL que coincida con el esquema de enlace profundo se abra en la aplicación en lugar de en un explorador web móvil. Póngase en contacto con el desarrollador de aplicaciones para obtener el esquema de vínculos profundos configurado para su aplicación.
+
++++  Los siguientes recursos pueden ayudarle a configurar vínculos profundos para la implementación de su aplicación
+
+      * Para Android:
+
+         * [Creación de vínculos profundos al contexto de la aplicación](https://developer.android.com/training/app-links/deep-linking)
+
+      * Para iOS:
+
+         * [Definición de un esquema de URL personalizado para la aplicación](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+
+         * [Compatibilidad con vínculos universales en la aplicación](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+
++++
+
+   >[!NOTE]
+   >
+   >Si encuentra problemas al obtener una vista previa de la experiencia, consulte [esta documentación](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 1. Elija el formato que espera la aplicación en esa ubicación en particular. Se utilizará al crear la experiencia basada en código en campañas y recorridos.
 
