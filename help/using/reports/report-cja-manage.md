@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 3098b63ef643da63a205f539ac48f902e823bbd1
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 2%
+source-wordcount: '866'
+ht-degree: 1%
 
 ---
 
@@ -71,3 +71,93 @@ Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo q
 El informe ya está disponible para verlo, descargarlo o compartirlo en un archivo pdf.
 
 >[!ENDTABS]
+
+## Creación de una métrica simple {#create-simple-metric}
+
+Puede crear métricas calculadas personalizadas directamente en los informes. Puede generar perspectivas más adaptadas y analizar mejor los datos combinando dos métricas existentes de manera que se adapten a sus necesidades específicas de creación de informes.
+
+1. Comience por acceder al informe en el que desea agregar una métrica nueva.
+
+1. En la tabla del informe, seleccione las métricas que desee manteniendo presionadas las claves `Shift` o `CTRL/CMD` mientras hace clic en ellas. A continuación, haga clic con el botón derecho y seleccione **[!UICONTROL Crear métrica a partir de la selección]**.
+
+   Si selecciona más de dos métricas, solo se utilizarán las dos primeras en el creador de métricas.
+
+   ![](assets/cja-create-metric_2.png)
+
+1. En el Creador de métricas calculadas, asigne un nombre a la nueva métrica escribiendo el campo **[!UICONTROL Título]**. También puede agregar una **[!UICONTROL descripción]**.
+
+   >[!NOTE]
+   >
+   >Si tiene un Customer Journey Analytics, puede personalizar aún más las métricas con opciones adicionales. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+
+1. Elija los **[!UICONTROL lugares decimales]** adecuados y seleccione un **[!UICONTROL formato]** (decimal, hora, porcentaje o moneda) en función de cómo desee que se muestre su métrica.
+
+1. Seleccione el operador, como suma, resta, multiplicación o división, que determinará cómo se calcula la métrica.
+
+   ![](assets/cja-create-metric.png)
+
+1. Puede reordenar los componentes si es necesario.
+
+1. Cuando esté satisfecho con la configuración, haga clic en **[!UICONTROL Aplicar]** para finalizar la nueva métrica.
+
+1. La nueva métrica aparecerá junto a las métricas originales en el informe.
+
+   ![](assets/cja-create-metric_3.png)
+
+La métrica que acaba de crear se incluirá al exportar el informe como PDF o CSV. Sin embargo, se eliminará del informe una vez que lo cierre.
+
+## Exploración de datos con el análisis exploratorio {#exploratory}
+
+Use la herramienta de análisis exploratorio para crear fácilmente tablas y visualizaciones a partir de los **[!UICONTROL Dimension]** y las **[!UICONTROL métricas]** que haya seleccionado. Esta herramienta optimiza la exploración de datos, lo que le permite personalizar y analizar automáticamente la información con facilidad. Obtenga más información en [esta documentación](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
+
+1. Comience por acceder al informe donde desee utilizar el análisis exploratorio.
+
+1. Seleccione el menú Análisis exploratorio del menú del carril izquierdo.
+
+   ![](assets/exploratory_analysis_1.png)
+
+1. Cree una consulta eligiendo un **[!UICONTROL Dimension]** y una **[!UICONTROL Métrica]** mediante los menús desplegables. También puede seleccionar un **[!UICONTROL segmento]** si es necesario.
+
+   ![](assets/exploratory_analysis_2.png)
+
+1. Defina el intervalo de fechas para que el análisis especifique el periodo en el que desea centrarse. De forma predeterminada, el intervalo de fechas se establecerá en el utilizado en el panel de informes.
+
+1. Use las opciones **[!UICONTROL Agregar desglose]** o **[!UICONTROL Agregar métrica]** para incluir dimensiones adicionales, lo que permite un desglose de datos más detallado.
+
+   Tenga en cuenta que solo puede agregar hasta tres **[!UICONTROL Dimension]**, **[!UICONTROL Métricas]** y **[!UICONTROL Segmentos]**.
+
+Ahora puede analizar los datos con las herramientas de visualización y tabla personalizadas.
+
+<!--## Create a down-funnel metric {#down-funnel}
+
+1. Create a new journey or open an existing one. [Learn more on journey creation](../building-journeys/journey-gs.md)
+
+1. On the canvas editor, select the option to "add a metric".
+
+c. In the metric selector, choose whichever conversion metric seems appropriate and publish your journey
+
+d. Open the report for the journey that you added the metric to and ensure that the metric has been added to the table alongside all the other pre-configured metrics.
+-->
+
+## Crear una audiencia a partir de datos de informes {#create-audience}
+
+Ahora puede seleccionar datos específicos dentro de la tabla y crear directamente una audiencia a partir de estas selecciones, lo que optimiza y simplifica el proceso de creación de audiencias.
+
+1. Para empezar, vaya a la tabla del informe que contiene los datos que desea transformar en una audiencia.
+
+1. Haga clic con el botón derecho en la celda deseada y seleccione **[!UICONTROL Crear audiencia]**.
+
+   También puede iniciar la creación de audiencias desde el widget **[!UICONTROL lienzo de Recorrido]** seleccionando un nodo y haciendo clic con el botón derecho en él.
+
+1. En la ventana **[!UICONTROL Crear audiencia]**, escriba un **[!UICONTROL Nombre]** y establezca un **[!UICONTROL intervalo de fecha único]** para la audiencia que planea publicar.
+
+   >[!NOTE]
+   >
+   >Si tiene un Customer Journey Analytics, puede personalizar aún más las métricas con opciones adicionales. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+
+   ![](assets/audience_1.png)
+
+1. Haga clic en el botón **[!UICONTROL Crear]** para finalizar la creación de la audiencia. Tenga en cuenta que este proceso puede requerir algún tiempo para completarse.
+
+Ahora puede utilizar la audiencia recién creada con un Recorrido o una campaña.
+
