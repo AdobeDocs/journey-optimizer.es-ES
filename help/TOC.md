@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
 workflow-type: tm+mt
-source-wordcount: '1972'
-ht-degree: 97%
+source-wordcount: '1963'
+ht-degree: 98%
 
 ---
 
@@ -584,9 +584,7 @@ ht-degree: 97%
    + [Configuración de canales](using/configuration/channel-surfaces.md)
    + Configuración de canal guiado {#guided-setup}
       + [Introducción a la configuración de canales guiados](using/configuration/set-mobile-config.md)
-      + [Configuración del canal móvil de Android](using/configuration/set-mobile-android.md)
-      + [Configuración del canal móvil de iOS](using/configuration/set-mobile-ios.md)
-      + [Configuración del canal Web](using/configuration/set-mobile-web.md)
+      + [Creación de una configuración de canal](using/configuration/create-channel-set-up.md)
    + Delegación de subdominios de correo electrónico {#delegate-subdomains}
       + [Introducción a la delegación de subdominios](using/configuration/about-subdomain-delegation.md)
       + [Delegar un subdominio](using/configuration/delegate-subdomain.md)
