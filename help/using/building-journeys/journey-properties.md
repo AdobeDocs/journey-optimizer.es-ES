@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
+source-git-commit: c15894e0d474fbf3a8aa789632719b2c4c8d9612
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 17%
@@ -24,8 +24,8 @@ ht-degree: 17%
 >abstract="Esta sección muestra las propiedades del recorrido. De forma predeterminada, los parámetros de solo lectura están ocultos. La configuración disponible depende del estado del recorrido, de los permisos y de la configuración del producto."
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_exit_criterias"
->title="Criterios de salida del recorrido"
+>id="ajo_journey_exit_criteria"
+>title="criterios de salida de recorrido"
 >abstract="En esta sección se muestran las opciones de criterios de salida. Puede crear una o varias reglas de criterios de salida para el recorrido."
 
 
