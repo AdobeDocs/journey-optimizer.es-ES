@@ -5,7 +5,8 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
+exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
+source-git-commit: a025a269353d7451ff0426895688f62211768383
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 33%
@@ -78,7 +79,7 @@ Para crear una configuración de canal, siga estos pasos:
 
    * Escriba su **[!UICONTROL ID de aplicación]** y **[!UICONTROL ubicación o ruta de acceso dentro de la aplicación]**.
 
-     ![](assets/code_config_3.png)
+     ![](assets/code_config_3.png){width="500"}
 
 1. Seleccione Otro como plataforma si la implementación no es para la web, iOS o Android, o si necesita segmentar URI específicos. Al elegir varias plataformas o agregar varios URI, el contenido se envía a todas las páginas o aplicaciones seleccionadas.
 
@@ -174,4 +175,3 @@ En la tabla siguiente se muestran algunos ejemplos de definiciones de URI de sup
 | --------- | ----------- | ------- | 
 | Web comodín | `wildcard:web://domain.com/*#element` | Superficie comodín: representa un elemento individual en cada una de las páginas bajo un dominio específico. |
 | Web comodín | `wildcard:web://*domain.com/*#element` | Superficie comodín: representa un elemento individual en cada una de las páginas bajo todos los dominios que acaba con &quot;domain.com&quot;. |
-
