@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c34c916843600d8602c5c1fe7164aebc83becd9
+source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 98%
+source-wordcount: '1412'
+ht-degree: 96%
 
 ---
 
@@ -196,6 +196,8 @@ Para cambiar el idioma:
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
+<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
+
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioridad"
@@ -205,3 +207,33 @@ Para cambiar el idioma:
 >id="ajo_campaigns_campaign_priority"
 >title="Prioridad"
 >abstract="Asigne una puntuación de prioridad a la campaña, de 0 a 100. Un número mayor indica una prioridad mayor. Cuando dos campañas utilizan la misma superficie, Journey Optimizer selecciona la campaña con la puntuación de prioridad más alta. Si las campañas tienen la misma puntuación, se elige la campaña modificada más recientemente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_conflict"
+>title="Visualizador de conflictos en campañas"
+>abstract="Visualizador de conflictos en campañas"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_conflict"
+>title="Visor de conflictos en recorridos"
+>abstract="Visor de conflictos en recorridos"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_object_type"
+>title="Tipo de objeto"
+>abstract="Tipo de objeto"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_rule_set"
+>title="Aplicar conjunto de reglas a los recorridos"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_rule_set"
+>title="Aplicar conjunto de reglas a las campañas"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_prioritization"
+>title="Factor en la priorización"
+>abstract="Por determinar"
