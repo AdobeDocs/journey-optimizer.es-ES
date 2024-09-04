@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -217,8 +217,8 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 **Administración**
 
 * Al activar o desactivar la lista de permitidos, ahora se muestra una nueva advertencia para detallar los impactos de cada acción. [Más información](../configuration/allow-list.md#enable-allow-list)
-* Se ha actualizado la interfaz de usuario para crear configuraciones de canal, crear grupos de IP, administrar la lista de supresión y la lista de permitidos y configurar el canal SMS.
-* Ahora, al crear la primera configuración de canal para un subdominio determinado, el tiempo de procesamiento tardará de 10 minutos a 10 días, y solo hasta 3 horas para las superficies posteriores que utilicen ese subdominio. [Más información](../configuration/channel-surfaces.md#create-channel-surface)
+* Se ha actualizado la interfaz de usuario para crear configuraciones de canal, crear grupos de IP, administrar la lista de supresión y la lista de permitidos y configurar el canal de SMS.
+* Ahora, al crear la primera configuración de canal para un subdominio determinado, el tiempo de procesamiento tardará de 10 minutos a 10 días, y solo hasta 3 horas para las superficies posteriores que utilicen ese subdominio. [Más información](../configuration/channel-surfaces.md#create-channel-surface)
 * Se ha actualizado la interfaz de usuario para crear ajustes preestablecidos de página de aterrizaje y subdominios de página de aterrizaje. [Más información](../landing-pages/lp-subdomains.md)
 
 **Controles de auditoría**

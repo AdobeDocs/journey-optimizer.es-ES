@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2295'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,9 +45,9 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 * Actualmente, la sincronización de comentarios de mensajes no está disponible para MMS.
 * La administración de consentimientos funciona en el nivel de canal SMS para MMS.
 
-### Protecciones del canal web {#web-guardrails}
+### Protecciones de canal web {#web-guardrails}
 
-[!DNL Journey Optimizer] campañas web se dirigen a nuevos perfiles que no se han visto involucrados anteriormente en otros canales. Esto aumentará el recuento total de perfiles atractivos, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles atractivos que ha adquirido. Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Las campañas web de [!DNL Journey Optimizer] se dirigen a nuevos perfiles que no han interactuado anteriormente en otros canales. Esto aumentará el recuento total de perfiles con los que es posible interactuar, lo que puede tener costes si se supera el número contractual de perfiles adquiridos. Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 
 ## Protecciones de subdominios {#subdomain-guardrails}

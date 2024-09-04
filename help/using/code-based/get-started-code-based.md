@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia bas
 
 * Edite el contenido utilizando el [editor de personalización](create-code-based.md#edit-code).
 * La experiencia basada en código requiere un trabajo de desarrollo previo en la implementación para garantizar que las aplicaciones puedan interpretar y entregar el contenido publicado en el perímetro por [!DNL Journey Optimizer] para estas ubicaciones. [Más información](code-based-configuration.md#surface-definition)
-* Requiere más planificación y solo puede cambiar las cosas que especifican los desarrolladores. Por lo tanto, es esencial identificar los componentes (titular de inicio, imagen principal, barra de menús, etc.) Obtenga información sobre las aplicaciones que deben modificarse para personalizarlas o probarlas, y trabaje con su equipo de desarrollo para crear la implementación necesaria para administrar estos cambios.
+* Requiere más planificación y solo puede cambiar las cosas que especifican los desarrolladores. Por lo tanto, es esencial identificar los componentes (titular de inicio, imagen principal, barra de menús, etc.) en las aplicaciones que deben modificarse para la personalización o la prueba, y trabajar con su equipo de desarrollo para crear la implementación necesaria para gestionar estos cambios.
 * Le permite utilizar contenido con código JSON.
 * Se centra en el desarrollador.
 
@@ -109,12 +109,12 @@ Para editar el contenido utilizando la funcionalidad de experiencia basada en c�
 
 >[!NOTE]
 >
->Actualmente, el contenido asociado con una configuración solo puede ser HTML o JSON. <!--WILL COME LATER: text, image or another format depending on the application-->
+>Actualmente, el contenido asociado a una configuración solo puede ser HTML o JSON. <!--WILL COME LATER: text, image or another format depending on the application-->
 
 Los pasos clave para implementar una campaña basada en código se explican a continuación.
 
-1. Defina una [superficie](code-based-configuration.md#surface-definition) en la implementación de su aplicación, que es básicamente la ubicación donde desea agregar su experiencia basada en código, luego cree una configuración de canal de experiencia basada en código que haga referencia a esa ubicación y luego cree una campaña en [!DNL Journey Optimizer] con esta configuración. [Descubra cómo](create-code-based.md#create-code-based-campaign)
+1. Defina una [superficie](code-based-configuration.md#surface-definition) en la implementación de la aplicación, que es básicamente la ubicación en la que desea añadir la experiencia basada en código; luego cree una configuración de canal de experiencia basada en código que haga referencia a esa ubicación y, a continuación, cree una campaña en [!DNL Journey Optimizer] con esta configuración. [Descubra cómo](create-code-based.md#create-code-based-campaign)
 
-1. Componga una experiencia especificando contenido para la configuración seleccionada mediante el editor de personalización [!DNL Journey Optimizer]. [Descubra cómo](create-code-based.md#edit-code)
+1. Componga una experiencia especificando contenido para la configuración seleccionada mediante el editor de personalización de [!DNL Journey Optimizer]. [Descubra cómo](create-code-based.md#edit-code)
 
 1. El equipo de implementación de la aplicación realiza llamadas explícitas a la API o SDK para recuperar el contenido de las superficies con nombre, como “Texto del titular” o “Bandeja de recomendaciones 1”, o los puntos de decisión no relacionados con la interfaz de usuario en una aplicación, como, por ejemplo, los “parámetros de algoritmo de búsqueda”. En este caso, el equipo de implementación es responsable de procesar o interpretar de otra manera y actuar sobre el contenido devuelto.<!--TBC with Robert - should link to a new section with API/SDK call samples-->

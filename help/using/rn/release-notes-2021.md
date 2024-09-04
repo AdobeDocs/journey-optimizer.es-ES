@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2035'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -285,7 +285,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 **Configuración de correo electrónico**
 
 * **Lista de permitidos**: ahora, la lista de permitidos se puede habilitar y deshabilitar en una zona protegida que no sea de producción mediante una llamada de API. [Más información](../configuration/allow-list.md#enable-allow-list)
-* **Navegación**: la lista de supresión, a la que se podía acceder desde el menú **Administración > Canales > Configuración de correo electrónico > General**, se ha movido al nuevo submenú **Lista de supresión**, que recopila todas las funciones relacionadas para facilitar el acceso. [Más información](../configuration/manage-suppression-list.md#access-suppression-list)
+* **Navegación**: la lista de supresión, a la que se podía acceder desde el menú **Administración > Canales > Configuración de correo electrónico > General**, se ha trasladado al nuevo submenú **Lista de supresión**, que recopila todas las funciones relacionadas para facilitar el acceso. [Más información](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Administración de decisiones**
 

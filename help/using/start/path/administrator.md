@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Para poder crear sus recorridos y enviar mensajes, acceda al menú **ADMINISTRAC
 
 Siga estos pasos a continuación:
 
-1. **Configurar mensajes y canales**: definir configuraciones, adaptar y personalizar la configuración de correo electrónico, SMS y mensajes push
+1. **Configuración de mensajes y canales**: definir configuraciones, adaptar y personalizar la configuración de correo electrónico, SMS y mensajes push
 
    * Defina la **configuración de notificaciones push** en [!DNL Adobe Experience Platform] y [!DNL Adobe Experience Platform Launch]. [Más información](../../push/push-gs.md)
 

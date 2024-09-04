@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 >
 >* Creación de una zona protegida
 >* Configuración de permisos de usuario
->* Configure las configuraciones de canal de Journey Optimizer para las notificaciones por correo electrónico, push y SMS
+>* Ajuste de las configuraciones de canal de Journey Optimizer para notificaciones por correo electrónico, push y SMS
 
 Los manuales de tácticas de casos de uso son flujos de trabajo predefinidos que abordan casos de uso comunes que se pueden realizar con Adobe Experience Platform y Journey Optimizer.
 
