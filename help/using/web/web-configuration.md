@@ -1,18 +1,19 @@
 ---
 title: Configuración del canal web
-description: Crear una configuración de canal web
+description: Creación de una configuración de canal web
 feature: Web Channel, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Crear una configuración de canal web {#web-configuration}
+# Creación de una configuración de canal web {#web-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_page_rule"
@@ -81,15 +82,46 @@ Operadores disponibles para generar reglas de coincidencia de página:
 
 * **Ruta**
 
-  | | | |
-  |-|-|-|
-  | Operador  | Descripción  | Ejemplos  |
-  | Igual a  | Coincidencia exacta de la ruta.  |    |
-  | Comienza por  | Coincide con todas las rutas (incluidas las subrutas) que comienzan con la cadena introducida.  |    |
-  | Finaliza con  | Coincide con todas las rutas (incluidas las subrutas) que terminan con la cadena introducida.  |    |
-  | Cualquiera  | Coincide con todas las rutas: útil cuando se segmentan todas las rutas en uno o varios dominios.  |    |
-  | Coincidencia de comodines  | El operador &quot;Coincidencia de comodines&quot; permite al usuario definir un comodín interno dentro de la ruta, como &quot;/products/*/detail&quot;.  El carácter comodín * en el componente ** de ruta coincide con cualquier secuencia de caracteres hasta que se encuentra el primer carácter /.  /*/ coincide con cualquier secuencia de caracteres (incluidas las subrutas)  | Ejemplo: &quot;Coincidencia de comodines: /products/*/detail&quot;, coincide con todas las rutas como:  example.com/products/yoga/detail  example.com/products/surf/detail  example.com/products/tennis/detail  example.com/products/yoga/pants/detail   Ejemplo: &quot;Coincide: /prod*/detail, coincide con todas las rutas como:  example.com/products/detail  example.com/production/detail   no coincide con rutas como:  example.com/products/yoga/detail  |
-  | Contains  | &quot;contiene&quot; se traduce a un comodín como &quot;mystring&quot; y coincide con todas las rutas que contienen esta secuencia de caracteres.  | Ejemplo: &quot;Contiene: product&quot;, coincide con todas las rutas que contienen la cadena product, como: example.com/products, example.com/yoga/perfproduct, example.com/surf/productdescription, example.com/home/product/page  |
-
+<table>
+    <thead>
+    <tr>
+        <th><strong>Operador</th>
+        <th><strong>Descripción</th>
+        <th><strong>Ejemplos</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Es igual a</td>
+        <td>Coincidencia exacta de la ruta. </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Comienza con</td>
+        <td>Coincide con todas las rutas (incluidas las subrutas) que comienzan con la cadena introducida.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Termina con</td>
+        <td>Coincide con todas las rutas (incluidas las subrutas) que terminan con la cadena introducida.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Cualquiera</td>
+        <td>Coincide con todas las rutas: útil cuando se segmentan todas las rutas en uno o varios dominios.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Coincidencia de comodines</td>
+        <td>El operador "Coincidencia de comodines" permite al usuario definir un comodín interno dentro de la ruta, como "/products/*/detail".  El carácter comodín * en el componente ** de ruta coincide con cualquier secuencia de caracteres hasta que se encuentra el primer carácter /.  /*/ coincide con cualquier secuencia de caracteres (incluidas las subrutas)</td>
+        <td>Ejemplo: "Coincidencia de comodines: /products/*/detail", coincide con todas las rutas como: <ul>example.com/products/yoga/detail</ul><ul>example.com/products/surf/detail</ul><ul>example.com/products/tennis/detail</ul><ul>example.com/products/yoga/pants/detail</ul>Ejemplo: "Coincide: /prod*/detail, coincide con todas las rutas como:  <ul>example.com/products/detail</ul><ul>example.com/production/detail</ul>  no coincide con rutas como: <ul>example.com/products/yoga/detail</ul></td>
+    </tr>
+    <tr>
+        <td>Contains</td>
+        <td>"contiene" se traduce a un comodín como "mystring" y coincide con todas las rutas que contienen esta secuencia de caracteres.</td>
+        <td>Por ejemplo: "Contiene: product", coincide con todas las rutas que contienen la cadena product, como: <ul>example.com/products</ul><ul>example.com/yoga/perfproduct</ul><ul>example.com/surf/productdescription</ul><ul>example.com/home/product/page</ul></td>
+    </tr>
+    </tbody>
+</table>
 
 Si el caso de uso no se puede modelar con una regla, tiene la opción de agregar varias reglas de página y puede utilizar entre ellas los operadores &quot;O&quot; o &quot;Excluir&quot;. La opción &quot;Excluir&quot; resulta útil cuando una de las páginas que coincide con la regla definida no debe estar segmentada: por ejemplo, todas las páginas &quot;example.com&quot; que contienen &quot;product&quot;, excluyendo la siguiente página: `https://example.com/blogs/productinfo`.

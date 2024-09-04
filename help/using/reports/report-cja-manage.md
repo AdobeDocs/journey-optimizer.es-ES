@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 3098b63ef643da63a205f539ac48f902e823bbd1
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '889'
 ht-degree: 1%
 
 ---
@@ -140,6 +140,10 @@ d. Open the report for the journey that you added the metric to and ensure that 
 -->
 
 ## Crear una audiencia a partir de datos de informes {#create-audience}
+
+>[!IMPORTANT]
+>
+>Cada organización se limita a publicar 25 audiencias. Además, los usuarios pueden publicar un máximo de 5 audiencias por hora y 20 por día
 
 Ahora puede seleccionar datos específicos dentro de la tabla y crear directamente una audiencia a partir de estas selecciones, lo que optimiza y simplifica el proceso de creación de audiencias.
 
