@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
 workflow-type: tm+mt
-source-wordcount: '1963'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -200,8 +200,8 @@ ht-degree: 98%
    + [Administrar la exclusión de correo electrónico](using/email/email-opt-out.md)
    + Configurar canal de correo electrónico {#configure-email}
       + [Empezar a configurar el correo electrónico](using/email/get-started-email-config.md)
-      + [Configurar ajustes de correo electrónico](using/email/email-settings.md)
-      + [Personalizar configuración de correo electrónico](using/email/surface-personalization.md)
+      + [Ajuste de la configuración de correo electrónico](using/email/email-settings.md)
+      + [Personalización de la configuración de correo electrónico](using/email/surface-personalization.md)
 + Canal en la aplicación{#in-app}
    + [Introducción al canal en la aplicación](using/in-app/get-started-in-app.md)
    + [Requisitos previos del canal en la aplicación](using/in-app/inapp-configuration.md)
@@ -241,7 +241,7 @@ ht-degree: 98%
    + Configuración del canal web {#configure-web-channel}
       + [Requisitos previos de canal web](using/web/web-prerequisites.md)
       + [Configuración de subdominios web](using/web/web-delegated-subdomains.md)
-      + [Crear una configuración de canal web](using/web/web-configuration.md)
+      + [Creación de una configuración de canal web](using/web/web-configuration.md)
    + [Creación de experiencias web](using/web/create-web.md)
    + Creación de páginas web {#author-web-pages}
       + [Edición de contenido de página web](using/web/edit-web-content.md)
@@ -251,7 +251,7 @@ ht-degree: 98%
 + Experiencia basada en código {#code-based-experience}
    + [Introducción al canal basado en código](using/code-based/get-started-code-based.md)
    + [Mecanismos de protección y requisitos previos](using/code-based/code-based-prerequisites.md)
-   + [Crear una configuración de experiencia basada en código](using/code-based/code-based-configuration.md)
+   + [Creación de una configuración de experiencia basada en código](using/code-based/code-based-configuration.md)
    + [Ejemplos de métodos de implementación](using/code-based/code-based-implementation-samples.md)
    + [Creación de experiencias basadas en código](using/code-based/create-code-based.md)
 + Páginas de aterrizaje {#landing-pages}
@@ -581,9 +581,9 @@ ht-degree: 98%
    + [Consultas](using/data/get-started-queries.md)
 + Configuración {#configuration}
    + [Introducción a la configuración de Journey Optimizer](using/configuration/get-started-configuration.md)
-   + [Configuración de canales](using/configuration/channel-surfaces.md)
-   + Configuración de canal guiado {#guided-setup}
-      + [Introducción a la configuración de canales guiados](using/configuration/set-mobile-config.md)
+   + [Creación de configuraciones de canal](using/configuration/channel-surfaces.md)
+   + Configuración de canales guiada {#guided-setup}
+      + [Introducción a la configuración de canales guiada](using/configuration/set-mobile-config.md)
       + [Creación de una configuración de canal](using/configuration/create-channel-set-up.md)
    + Delegación de subdominios de correo electrónico {#delegate-subdomains}
       + [Introducción a la delegación de subdominios](using/configuration/about-subdomain-delegation.md)

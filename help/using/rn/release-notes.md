@@ -8,8 +8,8 @@ description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 902458ec78df9a885b144bf19425c7865c208c28
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 54%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -91,7 +91,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <p>Las funciones actuales de superficie de canal se han mejorado para lograr un enfoque coherente en todos los canales. Ahora puede definir, administrar y reutilizar estas configuraciones para cualquiera de sus canales, incluidos la web, la mensajería en la aplicación o la experiencia basada en código.</p>
 <p><ul>
 <li>Se ha cambiado el nombre de las superficies de canal a <strong>Configuraciones de canal</strong></li>
-<li>Puede adjuntar una o varias acciones de marketing para aplicar políticas de consentimiento y control de datos</li>
+<li>Puede adjuntar una o varias acciones de marketing para aplicar políticas de consentimiento y gobernanza de datos</li>
 <li>El control de acceso a nivel de objeto (OLAC) ya está disponible para cada configuración de canal, lo que le permite decidir cuál de sus usuarios puede crear o utilizar configuraciones específicas</li>
 <li>Para algunos canales, puede crear configuraciones de canal dirigidas a varias plataformas. Un ejemplo sería una configuración de canal de mensajería en la aplicación que pueda dirigirse a una página web, una aplicación de iOS y a una aplicación de Android.</li>
 </ul></p>
@@ -127,7 +127,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <tbody>
 <tr>
 <td>
-<p>Las variables globales de fragmento mejoran la funcionalidad de fragmento existente para mejorar la eficacia en los casos de uso de reutilización de contenido y scripts. Los fragmentos ahora pueden utilizar variables de entrada y crear variables de salida utilizables en el contenido de campaña y recorrido. Los fragmentos pueden consumir variables de entrada, tanto en <a href="../personalization/use-expression-fragments.md">fragmentos de expresión</a> como en <a href="../email/use-visual-fragments.md">fragmentos visuales</a>. Se pueden utilizar esas variables para personalizar el contenido y los parámetros de los mensajes, en sus campañas y recorridos.</p>
+<p>Las variables globales de fragmentos realzan la funcionalidad de fragmentos existente para mejorar la eficacia en los casos de uso de scripts y reutilización de contenido. Los fragmentos ahora pueden utilizar variables de entrada y crear variables de salida utilizables en el contenido de campaña y recorrido. Los fragmentos ahora pueden consumir variables de entrada, tanto en <a href="../personalization/use-expression-fragments.md">fragmentos de expresión</a> como en <a href="../email/use-visual-fragments.md">fragmentos visuales</a>. Se pueden utilizar esas variables para personalizar el contenido y los parámetros de los mensajes, en sus campañas y recorridos.</p>
 <p>Para obtener más información, consulte la <a href="../personalization/use-expression-fragments.md">documentación detallada</a>.</p>
 </p>
 </td>
@@ -158,9 +158,9 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Recorridos**
 
-* En la actividad **Condición**, de forma predeterminada, la **[!UICONTROL condición horaria]** ahora se establece por hora, de 00:00 a 12:00. [Más información](../building-journeys/condition-activity.md#time_condition)
-* Al generar las recorridos, estas se muestran ahora desde el botón **Alertas** para alinearse con otras alertas y ofrecer una experiencia de usuario coherente. [Más información](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
-* Se han mejorado las opciones de zoom en la barra de herramientas de recorrido: el porcentaje de zoom ahora está visible y ahora puede restablecer el valor de zoom con mayor facilidad.
+* En la actividad **Condición**, de forma predeterminada, la **[!UICONTROL condición Tiempo]** se establece ahora por hora, de 00:00 a 12:00. [Más información](../building-journeys/condition-activity.md#time_condition)
+* Al crear los recorridos, las alertas se muestran ahora en el botón **Alertas** para alinearse con otras alertas y ofrecer una experiencia de usuario coherente. [Más información](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* Se han mejorado las opciones de zoom en la barra de herramientas del recorrido. El porcentaje del zoom ahora es visible y se puede restablecer su valor más fácilmente.
 
 <!--**Audiences and Profiles**-->
 
@@ -170,15 +170,15 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Canal push**
 
-* Ahora puede añadir las credenciales push de la aplicación móvil en los ajustes de configuración del canal de Adobe Journey Optimizer. Ya no es necesario crear una superficie de aplicación en la recopilación de datos de Adobe Experience Platform.
+* Ahora puede añadir las credenciales push de la aplicación móvil en los ajustes de configuración del canal de Adobe Journey Optimizer. Ya no es necesario crear una superficie de aplicación en la recopilación de datos de Adobe Experience Platform.
 
 ### Otros cambios {#changes}
 
 **Creación de informes**
 
-* La experiencia actual de creación de informes se eliminará a partir de la versión de octubre. Después de esta fecha, la nueva experiencia de creación de informes se convertirá en el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas.
+* La experiencia actual de creación de informes se eliminará a partir de la versión de octubre. Después de esta fecha, la nueva experiencia de creación de informes pasará a ser el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas.
 
-[Introducción a la nueva interfaz de informes de Journey Optimizer](../reports/report-gs-cja.md)
+[Introducción a la nueva interfaz de sistema de creación de informes de Journey Optimizer](../reports/report-gs-cja.md)
 
 * Se han añadido nuevos casos de uso a la nueva experiencia de creación de informes:
 

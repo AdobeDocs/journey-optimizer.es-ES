@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
 workflow-type: tm+mt
-source-wordcount: '1412'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -134,7 +134,7 @@ Controle la administración de la privacidad y las solicitudes desde esta secci�
 
 * **[!UICONTROL Zonas protegidas]**: Adobe Experience Platform proporciona entornos limitados que dividen una sola instancia en entornos virtuales independientes para ayudarle a desarrollar aplicaciones de experiencia digital y hacer que evolucionen. Examine esta sección para administrar las zonas protegidas. [Más información](../administration/sandboxes.md)
 
-* **[!UICONTROL Canales]**: utilice esta sección para configurar sus canales, incluidos los subdominios, las configuraciones y la configuración de envío. [Más información](../configuration/get-started-configuration.md)
+* **[!UICONTROL Canales]**: utilice esta sección para configurar los canales, incluidos los subdominios, las configuraciones y la configuración de entregabilidad. [Más información](../configuration/get-started-configuration.md)
 
 * **[!UICONTROL Etiquetas]**: con etiquetas unificadas, puede clasificar fácilmente sus recorridos y campañas para mejorar la búsqueda en las listas. [Más información](../start/search-filter-categorize.md#work-with-unified-tags)
 
