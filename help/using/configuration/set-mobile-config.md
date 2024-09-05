@@ -12,11 +12,11 @@ exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
-# Introducción a la configuración de canales guiados {#set-mobile-config}
+# Introducción a la configuración de canales guiada {#set-mobile-config}
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
