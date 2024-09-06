@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: personalizado, general, eventos, recorrido
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: 343e7bbebf35711259d2f3392f1ce5658865599a
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '603'
 ht-degree: 21%
 
 ---
@@ -48,9 +48,9 @@ Para configurar un tiempo de espera para un evento, siga estos pasos:
 
 1. Activar la opción **[!UICONTROL Definir el tiempo de espera del evento]** desde las propiedades de evento.
 
-1. Especifique la cantidad de tiempo que el recorrido esperará el evento. La duración máxima es de 29 días.
+1. Especifique la cantidad de tiempo que el recorrido esperará el evento. La duración máxima es de **90 días**.
 
-1. Si desea enviar a los individuos a una ruta de tiempo de espera cuando no se reciba ningún evento dentro del tiempo de espera especificado, habilite la opción **[!UICONTROL Establecer una ruta de tiempo de espera]**. Si esta opción no está habilitada, el recorrido continuará para el individuo una vez que se alcance el tiempo de espera. Se recomienda habilitar siempre la opción **Establecer una ruta de tiempo de espera**.
+1. Cuando no se recibe ningún evento dentro del tiempo de espera especificado, se recomienda enviar a los individuos a una ruta de tiempo de espera. Para esto, habilite la opción **[!UICONTROL Establecer una ruta de tiempo de espera]**. En ese caso, el recorrido continúa para el individuo una vez que se alcanza el tiempo de espera. Se recomienda habilitar siempre la opción **[!UICONTROL Establecer una ruta de tiempo de espera]**.
 
    ![](assets/event-timeout.png)
 
