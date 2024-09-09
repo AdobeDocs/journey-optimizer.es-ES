@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9f67f0395a789de066f527b43a25cd0d8501c205
+source-git-commit: a99d47c1f64b1cb3174fcc8f89d201bf66a36bb5
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 93%
+source-wordcount: '1520'
+ht-degree: 91%
 
 ---
 
@@ -286,3 +286,45 @@ Para cambiar el idioma:
 >id="ajo_data_governance_policy_violation"
 >title="Infracción de directiva de gobernanza de datos"
 >abstract="Infracción de directiva de gobernanza de datos"
+
+<!--APPROVAL POLICIES-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_permissions_approval_policy"
+>title="Directiva de aprobación"
+>abstract="Directiva de aprobación"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_approval"
+>title="Solicitar aprobación"
+>abstract="Solicitar aprobación (¿dos ID independientes?)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_change"
+>title="Solicitar cambio"
+>abstract="Solicitar cambio (¿dos ID independientes?)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_edit_disabled
+>title="Edición deshabilitada"
+>abstract="Edición deshabilitada (campañas)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_edit_disabled
+>title="Edición deshabilitada"
+>abstract="Edición deshabilitada (recorridos)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_approval_status"
+>title="Estado de aprobación"
+>abstract="Estado de aprobación (¿dos ID independientes?)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_approve"
+>title="Aprobar"
+>abstract="Aprobar (campañas)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_approve"
+>title="Aprobar"
+>abstract="Aprobar (recorridos)"
