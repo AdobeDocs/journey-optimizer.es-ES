@@ -8,8 +8,8 @@ description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 85%
 <tbody>
 <tr>
 <td>
-<p>La configuración guiada de canales le permite automatizar y validar la configuración del canal en una experiencia unificada, lo que acelera el proceso de introducción a Journey Optimizer. Esta nueva configuración guiada optimiza la configuración rápida de canales, lo que garantiza que todos los recursos necesarios se instalen y funcionen fácilmente dentro de Experience Platform, Journey Optimizer y la recopilación de datos. Esto permite a los equipos de marketing, producto e ingeniería de datos empezar rápidamente con la creación de campañas y recorridos.</p>
+<p>La configuración de canales guiada le permite automatizar y validar la configuración del canal en una experiencia unificada, lo que acelera el proceso de introducción a Journey Optimizer. Esta nueva configuración guiada optimiza la configuración de canal rápida, lo que garantiza que todos los recursos necesarios se instalen y funcionen fácilmente en Experience Platform, Journey Optimizer y recopilación de datos. Esto permite a los equipos de marketing, productos e ingeniería de datos empezar rápidamente en la creación de campañas y recorridos.</p>
 <p>Para obtener más información, consulte la <a href="../configuration/set-mobile-config.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
 </br>
@@ -184,7 +184,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 * Se han añadido nuevos casos de uso a la nueva experiencia de creación de informes:
 
    * Cree métricas calculadas personalizadas directamente en los informes.
-   * Crear una audiencia a partir de los datos de informes.
-   * Use la herramienta de análisis exploratorio para crear fácilmente tablas y visualizaciones a partir de los **[!UICONTROL Dimension]** y las **[!UICONTROL métricas]** que haya seleccionado.
+   * Cree un público a partir de los datos de creación del informe.
+   * Use la herramienta de análisis exploratorio para crear fácilmente tablas y visualizaciones a partir de las **[!UICONTROL Dimensiones]** y las **[!UICONTROL Métricas]** que haya seleccionado.
 
   Para obtener más información, consulte la [documentación detallada](../reports/report-cja-manage.md).

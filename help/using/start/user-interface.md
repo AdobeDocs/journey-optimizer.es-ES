@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6268aafbec0aa21a7c8881514227cdb41674791a
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -215,8 +215,8 @@ Para cambiar el idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
->title="Visor de conflictos en recorridos"
->abstract="Visor de conflictos en recorridos"
+>title="Visualizador de conflictos en recorridos"
+>abstract="Visualizador de conflictos en recorridos"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_object_type"
@@ -235,7 +235,7 @@ Para cambiar el idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_prioritization"
->title="Factor en la priorización"
+>title="Tener en cuenta la priorización"
 >abstract="Por determinar"
 
 <!--CONTENT LOCKING-->
@@ -262,8 +262,8 @@ Para cambiar el idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_component"
->title="Usar bloqueo específico en el componente"
->abstract="Usar bloqueo específico en el componente"
+>title="Utilizar bloqueo específico en el componente"
+>abstract="Utilizar bloqueo específico en el componente"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_editable_areas"
