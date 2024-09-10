@@ -18,7 +18,7 @@ ht-degree: 10%
 
 # Eventos de calificación de audiencias {#segment-qualification}
 
-## Acerca de los eventos de cualificación de público{#about-segment-qualification}
+## Acerca de los eventos de calificación de público{#about-segment-qualification}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
