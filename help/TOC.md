@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
-workflow-type: ht
-source-wordcount: '1963'
-ht-degree: 100%
+source-git-commit: ca28d323a2ef310ec82c732484c8aed1e2641135
+workflow-type: tm+mt
+source-wordcount: '1965'
+ht-degree: 99%
 
 ---
 
@@ -174,6 +174,14 @@ ht-degree: 100%
    + [Revisión y activación de una campaña](using/campaigns/review-activate-campaign.md)
    + [Administración de campañas](using/campaigns/modify-stop-campaign.md)
    + [Activación de campañas mediante las API](using/campaigns/api-triggered-campaigns.md)
++ Probar los envíos {#test}
+   + Previsualizar y probar contenido {#preview-test}
+      + [Introducción a la vista previa y prueba](using/content-management/preview-test.md)
+      + [Seleccionar perfiles de prueba](using/content-management/test-profiles.md)
+      + [Vista previa del contenido](using/content-management/preview.md)
+      + [Envío de pruebas de correo electrónico](using/content-management/proofs.md)
+      + [Prueba del procesamiento de correo electrónico](using/content-management/rendering.md)
+      + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
 + Canal de correo electrónico {#email}
    + [Empezar con correos electrónicos](using/email/get-started-email.md)
    + [Crear un correo electrónico](using/email/create-email.md)
@@ -330,13 +338,6 @@ ht-degree: 100%
       + [Introducción al contenido dinámico](using/personalization/get-started-dynamic-content.md)
       + [Creación de reglas condicionales](using/personalization/create-conditions.md)
       + [Crear contenido dinámico](using/personalization/dynamic-content.md)
-   + Vista previa y prueba del contenido {#preview-test}
-      + [Introducción a la vista previa y prueba](using/content-management/preview-test.md)
-      + [Seleccionar perfiles de prueba](using/content-management/test-profiles.md)
-      + [Vista previa del contenido](using/content-management/preview.md)
-      + [Envío de pruebas de correo electrónico](using/content-management/proofs.md)
-      + [Prueba del procesamiento de correo electrónico](using/content-management/rendering.md)
-      + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
 + Públicos, perfiles e identidad{#audiences-profiles-identities}
    + Públicos {#audiences}
       + [Introducción a los públicos](using/audience/about-audiences.md)
