@@ -10,14 +10,24 @@ level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 4%
+source-wordcount: '1617'
+ht-degree: 3%
 
 ---
 
 # Creación de contenido multilingüe con traducción automática {#multilingual-automated}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_provider"
+>title="Agregar proveedor"
+>abstract="Añada proveedores de traducción y configuraciones regionales según sea necesario. Esto le permite administrar qué proveedores y configuraciones regionales están activos para el proyecto, lo que le ofrece la flexibilidad de ajustar recursos y audiencias de destino según los requisitos y el ámbito del proyecto actuales."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_provider"
+>title="Editar proveedor"
+>abstract="Modifique los proveedores de traducción existentes y agregue configuraciones regionales según sea necesario. Esta funcionalidad le permite controlar qué proveedores y configuraciones regionales están activos para su proyecto, lo que le ofrece la flexibilidad de ajustar recursos y segmentar audiencias específicas según sus necesidades actuales y los objetivos del proyecto."
 
 >[!AVAILABILITY]
 >
@@ -39,6 +49,11 @@ Siga estos pasos para crear contenido multilingüe mediante traducción automát
 
 ## Crear configuración regional {#create-locale}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_locale"
+>title="Añadir configuración regional"
+>abstract="Al configurar las preferencias de idioma, tiene la opción de crear configuraciones regionales adicionales si la deseada no está disponible para el contenido multilingüe."
+
 Al configurar los ajustes de idioma, como se describe en la sección [Crear la configuración de idioma](#language-settings), si no hay una configuración regional específica disponible para el contenido multilingüe, tiene la flexibilidad de crear tantas configuraciones regionales nuevas como sea necesario mediante el menú **[!UICONTROL Traducción]**.
 
 1. Desde el menú **[!UICONTROL Administración de contenido]**, accede a **[!UICONTROL Traducción]**.
@@ -54,6 +69,16 @@ Al configurar los ajustes de idioma, como se describe en la sección [Crear la c
    ![](assets/locale_2.png)
 
 ## Crear proyecto de traducción {#translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_create_project"
+>title="Crear proyecto"
+>abstract="Para empezar a crear contenido multilingüe, inicie el proyecto de traducción identificando la configuración regional de destino y seleccionando el idioma o el dialecto regional adecuado para la audiencia. Después, elija un proveedor de traducción que se ajuste a las necesidades del proyecto."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_project"
+>title="Editar proyecto"
+>abstract="Actualice el proyecto de traducción para incorporar configuraciones regionales adicionales, lo que le permite ampliar el contenido para llegar a una audiencia más amplia."
 
 Inicie el proyecto de traducción especificando la configuración regional de Target e indicando el idioma o la región específicos para el contenido. A continuación, puede elegir su proveedor de traducción.
 
@@ -205,6 +230,11 @@ Ahora puede activar la campaña o el recorrido. Una vez enviada, puede medir el 
 
 ## Administrar el abastecimiento de proyectos de traducción {#manage-ht-project}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_insourcing_project"
+>title="Abastecimiento del proyecto de traducción"
+>abstract="El recurso a proyectos de traducción le permite administrar y ejecutar traducciones directamente en su proyecto de traducción, lo que optimiza el proceso y mantiene un mayor control sobre la calidad y la coherencia de la traducción."
+
 Si seleccionó la opción Abastecimiento al configurar los ajustes de Idioma, puede traducir el contenido directamente en el proyecto de traducción.
 
 1. Desde tu **[!UICONTROL proyecto de traducción]**, accede al menú **[!UICONTROL Más acciones]** y selecciona **[!UICONTROL Abastecimiento]**.
@@ -222,6 +252,16 @@ Si seleccionó la opción Abastecimiento al configurar los ajustes de Idioma, pu
 1. Si está listo para publicar el texto traducido, haga clic en **[!UICONTROL Finalizar]**.
 
 ## Revisión del proyecto de traducción {#review-translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_review_project"
+>title="Revisión del proyecto de traducción"
+>abstract="Una vez que el proveedor de traducción elegido haya completado la traducción, puede revisar los resultados directamente en Journey Optimizer. Esto le permite evaluar la precisión y la calidad de la traducción, asegurándose de que se ajuste a sus expectativas y a los requisitos del proyecto antes de finalizarla."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_preview_project"
+>title="Previsualización del proyecto de traducción"
+>abstract="La ventana Preview permite ver cómo aparece el contenido traducido en cada idioma. Esta función le ayuda a examinar la renderización y a asegurarse de que el contenido se muestra correcta y eficazmente en todos los idiomas seleccionados."
 
 Si seleccionó **[!UICONTROL Habilitar flujo de trabajo de revisión]** en su **[!UICONTROL proyecto de traducción]**, puede revisar la traducción directamente en Journey Optimizer después de que el proveedor de traducción seleccionado la haya completado.
 
