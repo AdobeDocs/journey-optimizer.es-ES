@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: ht
-source-wordcount: '2295'
-ht-degree: 100%
+source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+workflow-type: tm+mt
+source-wordcount: '2361'
+ht-degree: 92%
 
 ---
 
@@ -142,11 +142,12 @@ Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL A
 Las siguientes limitaciones se aplican a la actividad **[!UICONTROL Público de lectura]**:
 
 * Los públicos transmitidos siempre están actualizados, pero los públicos por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.
-* Para los recorridos que utilizan la actividad Leer público, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con Leer público, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
-* La actividad Público de lectura no se puede utilizar con actividades de Adobe Campaign.
-* La actividad Público de lectura solo puede utilizarse como primera actividad en un recorrido o después de una actividad de evento empresarial.
-* Un recorrido solo puede tener una actividad Público de lectura.
-* Vea también recomendaciones acerca de cómo usar la actividad Público de lectura en [esta página](../building-journeys/read-audience.md).
+* Para los recorridos que usan una actividad **Leer audiencia**, hay un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con **Leer audiencia**, programados o que se inicien &quot;lo antes posible&quot;) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
+* La actividad **Leer audiencia** no se puede usar con actividades de Adobe Campaign.
+* La actividad **Leer audiencia** solo se puede usar como primera actividad en un recorrido, o después de una actividad de evento empresarial.
+* Un recorrido solo puede tener una actividad **Leer audiencia**.
+* Vea también recomendaciones sobre cómo usar la actividad **Leer audiencia** en [esta página](../building-journeys/read-audience.md).
+* Los reintentos se aplican de forma predeterminada en recorridos activados por la audiencia (a partir de **Leer audiencia** o un **Evento empresarial**) al recuperar el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de eso, lo consideraremos como un fracaso. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta 1 hora después de la hora programada.
 
 
 ### Calificación de público {#audience-qualif-g}

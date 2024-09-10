@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
+source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 7%
+source-wordcount: '1635'
+ht-degree: 6%
 
 ---
 
@@ -31,7 +31,7 @@ Veamos como ejemplo la audiencia &quot;Cierre de compra y apertura de la aplicac
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-## Lectura obligatoria {#must-read}
+## Protecciones y prácticas recomendadas {#must-read}
 
 * Para los recorridos que usan una actividad **Leer audiencia**, hay un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evitará tener más de cinco recorridos (con **Leer audiencia**, programados o que se inicien &quot;lo antes posible&quot;) que empiecen al mismo tiempo. La práctica recomendada es difundirlas a lo largo del tiempo, por ejemplo, con una diferencia de 5 a 10 minutos.
 
@@ -40,6 +40,7 @@ Veamos como ejemplo la audiencia &quot;Cierre de compra y apertura de la aplicac
 * Como práctica recomendada, recomendamos que solo use audiencias por lotes en una actividad **Leer audiencia**. Esto proporciona un recuento fiable y coherente de las audiencias utilizadas en un recorrido. La audiencia de lectura está diseñada para casos de uso por lotes. Si su caso de uso necesita datos en tiempo real, utilice la actividad **[Calificación de audiencias](audience-qualification-events.md)**.
 
 * Las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) se pueden seleccionar en la actividad **Leer audiencia**. Estas audiencias no están disponibles en la actividad **Calificación de audiencias**.
+
 
 Las protecciones relacionadas con la actividad **Leer audiencia** se enumeran en [esta página](../start/guardrails.md#read-segment-g).
 
@@ -192,6 +193,13 @@ Por ejemplo, después de seguir una experiencia diferente durante diez días en 
 Después de una unión, puede volver a dividir la audiencia realizando una segmentación o una exclusión.
 
 ![](assets/read-segment-audience3.png)
+
+
+## Reintentos {#read-audience-retry}
+
+Los reintentos se aplican de forma predeterminada en recorridos activados por la audiencia (a partir de **Leer audiencia** o un **Evento empresarial**) al recuperar el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de eso, lo consideraremos como un fracaso. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta 1 hora después de la hora programada.
+
+Los déclencheur de **Leer audiencia** que no se hayan realizado correctamente se capturan y se muestran en **Alertas**. La **alerta Leer audiencia** le advierte si una actividad de **Leer audiencia** no ha procesado ningún perfil 10 minutos después de la hora programada de ejecución. Este error puede deberse a problemas técnicos o a que la audiencia está vacía. Si este error se debe a problemas técnicos, tenga en cuenta que aún pueden producirse reintentos, según el tipo de problema (p. ej.: si la creación del trabajo de exportación ha fallado, lo volveremos a intentar cada 10 minutos durante 1 h como máximo). [Más información](../reports/alerts.md#alert-read-audiences)
 
 ## Vídeo explicativo {#video}
 
