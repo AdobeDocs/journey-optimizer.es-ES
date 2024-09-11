@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 448568ff9ee96d4fa6dbaaa43ce2d45e38d6b920
+source-git-commit: 616a9c30da4558d1e8b71733732dd4fd1f531ef8
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 42%
@@ -35,7 +35,7 @@ ht-degree: 42%
 
 >[!INFO]
 >
->Sumérjase en una experiencia práctica con [nuestra demostración interactiva](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), diseñada para que explore sus características de primera mano y comprenda plenamente sus capacidades.
+>Sumérjase en una experiencia práctica con [nuestra demostración interactiva](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, diseñada para que explore sus características de primera mano y comprenda plenamente sus capacidades.
 
 
 El asistente de IA de Adobe Journey Optimizer para la aceleración de contenido, con tecnología Microsoft Azure OpenAI y Adobe Firefly, ofrece sugerencias proactivas de variación de contenido para texto e imágenes. Está disponible para canales de correo electrónico, push y SMS. Esta nueva funcionalidad proporciona una generación de texto e imágenes basada en solicitudes. La generación de imágenes se administra con Adobe Firefly.
@@ -47,7 +47,7 @@ Utilice el asistente de IA de Adobe Journey Optimizer para la aceleración de co
 >* Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](#generative-guardrails) relacionadas.
 >
 >
->* Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Adobe Journey Optimizer para la aceleración de contenido. Para obtener más información, contacte con su representante de Adobe.
+>* Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar el Asistente de IA en Adobe Journey Optimizer para la aceleración de contenido. Para obtener más información, contacte con su representante de Adobe.
 
 ## Acceso al acelerador de contenido del asistente de IA {#generative-access}
 
