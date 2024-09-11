@@ -10,7 +10,7 @@ level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 27c0be31ffc4ce7c43975a4db431713cd68f0461
+source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 12%
@@ -58,7 +58,9 @@ Si no puede acceder a la página de traducción, debe habilitar la función de t
 
    ![](assets/multi-troubleshoot.png)
 
-1. El administrador tendrá que navegar al menú **[!UICONTROL Traducción]** en la barra lateral izquierda. El sistema activará automáticamente la función de traducción.
+1. El administrador tendrá que navegar al menú **[!UICONTROL Traducción]** en la barra lateral izquierda.
+
+   El sistema activará automáticamente la función de traducción.
 
 1. Una vez que la característica se haya habilitado correctamente, podrá obtener acceso a la página **[!UICONTROL Traducción]**, junto con las fichas **[!UICONTROL Proyectos]**, **[!UICONTROL Proveedores]** y **[!UICONTROL Configuración regional]**.
 
