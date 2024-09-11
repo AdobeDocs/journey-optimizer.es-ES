@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: ae92a1e950822d4a0dbac1aa535078fe535113c0
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 27%
+source-wordcount: '1343'
+ht-degree: 28%
 
 ---
 
@@ -98,7 +98,7 @@ Veamos un ejemplo para un tiempo de espera de 5 segundos.
 
 **¿Cómo puedo configurar una regla de restricción o límite? ¿Hay una regla predeterminada?**
 
-De forma predeterminada, no hay ninguna regla de restricción o límite. Las reglas se definen a nivel de zona protegida para un extremo específico (la dirección URL llamada ), mediante la API de límite o limitación. Consulte [esta sección](../configuration/external-systems.md#capping).
+Para crear reglas de restricción o límite, consulte [esta sección](../configuration/external-systems.md#capping). De forma predeterminada, no hay ninguna regla de restricción, pero se establece un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tenerlo en cuenta en los recorridos basados en públicos definiendo una tasa de lectura adecuada (5000 perfiles cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción.
 
 **¿Cuántos reintentos se realizan? ¿Puedo cambiar el número de reintentos o definir un período de espera mínimo entre reintentos?**
 
