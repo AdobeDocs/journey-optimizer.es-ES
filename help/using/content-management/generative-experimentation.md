@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: d331c475f2460facf33ed275131f0c2e9517e27c
+source-git-commit: 5798d4850ef9f8f2bc6761a9468fe6120460c524
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '271'
 ht-degree: 4%
 
 ---
 
-# Experimento de contenido con el asistente de IA en Journey Optimizer: acelerador de contenido {#generative-experimentation}
+# Experimento de contenido con el asistente de IA: acelerador de contenido {#generative-experimentation}
 
 >[!IMPORTANT]
 >
