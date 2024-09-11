@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5fd0ad50a39fbb57a2dd11ddb84f1d5b2598bcea
+source-git-commit: 633d2f423301680a7aff83b748a08a6f1a1bbf16
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 90%
+source-wordcount: '927'
+ht-degree: 83%
 
 ---
 
@@ -27,6 +27,24 @@ ht-degree: 90%
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.
 
 ## Actualizaciones de septiembre {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>Ayudante de IA en el optimizador de Recorrido: acelerador de contenido </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Una vez creado y personalizado el mensaje, lleve el contenido al siguiente nivel con el asistente de IA de Journey Optimizer para la aceleración de contenido. Ahora puede utilizar el asistente de IA para optimizar el impacto de su mensaje experimentando con diferentes títulos e imágenes principales. Cada variante se gestiona como un tratamiento único para medir y comparar qué título genera más clics de forma efectiva.</p>
+<p>Sumérjase en una experiencia práctica con <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">nuestra vista previa de características en vivo</a>, diseñada para que explore sus características de primera mano y comprenda plenamente sus capacidades.</a>.</p>
+<p>Para obtener más información, consulte la <a href="../content-management/gs-generative.md">documentación detallada</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

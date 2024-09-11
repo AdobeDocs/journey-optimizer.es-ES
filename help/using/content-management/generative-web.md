@@ -2,137 +2,62 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Generación de páginas web con el asistente de IA
-description: Empiece a generar contenido y recursos de página web con el asistente de IA
+description: Empiece a generar contenido y recursos de página web con el asistente de IA de Journey Optimizer para la aceleración de contenido.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: f188566fb68ba369085ed03649899648858b894b
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 3%
+source-wordcount: '1010'
+ht-degree: 1%
 
 ---
 
-# Generación de páginas web con el asistente de IA {#generative-web}
+# Generación de páginas web con el asistente de IA de Journey Optimizer: acelerador de contenido {#generative-web}
 
->[!BEGINSHADEBOX]
-
-**Tabla de contenido**
-
-* [Introducción al asistente de IA](gs-generative.md)
-* [Generación de correo electrónico con el Asistente de IA](generative-email.md)
-* [Generación de SMS con el Asistente de IA](generative-SMS.md)
-* [Generación de push con el asistente de IA](generative-push.md)
-* Generación de páginas web con el asistente de IA
-* [Experimento de contenido con el asistente de IA](generative-experimentation.md)
-
->[!ENDSHADEBOX]
-
-Una vez creados y personalizados los correos electrónicos, utilice el asistente de IA de Adobe Journey Optimizer con tecnología de IA generativa para llevar el contenido al siguiente nivel.
-
-El asistente de IA puede ayudarle a optimizar el impacto de sus envíos sugiriendo contenido diferente que es más probable que resuene en su audiencia.
-
->[!NOTE]
+>[!IMPORTANT]
 >
->Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](generative-gs.md#guardrails-and-limitations) relacionadas.
+>Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
+></br>
+>
+>Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Journey Optimizer para la aceleración de contenido. Para obtener más información, contacte con su representante de Adobe.
+
+Una vez que haya creado y personalizado sus páginas web, utilice el asistente de IA de Journey Optimizer para la aceleración de contenido con tecnología de IA generativa para llevar el contenido al siguiente nivel.
+
+El asistente de IA de Journey Optimizer para la aceleración de contenido puede ayudarle a optimizar el impacto de sus envíos sugiriendo contenido diferente que probablemente interesará más a su audiencia.
 
 >[!BEGINTABS]
 
->[!TAB Generación completa de página web]
-
-En el siguiente ejemplo, utilizaremos el asistente de IA para refinar un correo electrónico existente y personalizarlo para un evento especial.
-
-1. Después de crear y configurar tu envío por correo electrónico, haz clic en **[!UICONTROL Editar contenido]**.
-
-   Para obtener más información sobre cómo configurar su envío por correo electrónico, consulte [esta página](../email/create-email-content.md).
-
-1. Personalice su correo electrónico según sea necesario y acceda al menú **[!UICONTROL Asistente de IA]**.
-
-   ![](assets/full-email-1.png){zoomable="yes"}
-
-1. Habilite la opción **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
-
-   El mensaje siempre debe estar vinculado a un contexto específico.
-
-1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
-
-   Si está buscando ayuda para redactar el mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que ofrece una amplia gama de ideas para mejorar los envíos.
-
-   ![](assets/full-email-2.png){zoomable="yes"}
-
-1. Puede alternar **[!UICONTROL Línea de asunto]** o **[!UICONTROL Encabezado previo]** para incluirlos en la generación de variante.
-
-1. Haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el asistente de IA o seleccione uno cargado anteriormente.
-
-   ![](assets/full-email-3.png){zoomable="yes"}
-
-1. Adapte el indicador con las diferentes opciones:
-
-   * **[!UICONTROL Estrategia de comunicación]**: elige el estilo de comunicación más adecuado para el texto generado.
-   * **[!UICONTROL Idioma]**: seleccione el idioma en el que desea que se genere su contenido.
-   * **[!UICONTROL Tono]**: el tono del correo electrónico debe interesar a la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA puede adaptar el mensaje en consecuencia.
-   * **[!UICONTROL Longitud]**: Elija la longitud que desee del contenido mediante el regulador de intervalo.
-
-   ![](assets/full-email-4.png){zoomable="yes"}
-
-1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
-
-1. Examine las **[!UICONTROL variaciones]** generadas y haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
-
-1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
-
-   * **[!UICONTROL Reformular]**: el Ayudante de IA puede reformular el mensaje de diferentes maneras, lo que mantiene la escritura fresca y atractiva para diversas audiencias.
-
-   * **[!UICONTROL Usar lenguaje sencillo]**: utilice el asistente de IA para simplificar el idioma y garantizar la claridad y accesibilidad para una audiencia más amplia.
-
-   ![](assets/full-email-5.png){zoomable="yes"}
-
-1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
-
-1. Inserte campos de personalización para personalizar el contenido del correo electrónico en función de los datos de perfiles. A continuación, haga clic en el botón **[!UICONTROL Simular contenido]** para controlar la renderización y compruebe la configuración de personalización con perfiles de prueba. [Más información](../preview-test/preview-content.md)
-
-   ![](assets/full-email-6.png){zoomable="yes"}
-
-Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la entrega por correo electrónico. [Más información](../monitor/prepare-send.md)
-
 >[!TAB Generación de texto de página web]
 
-En el siguiente ejemplo, aprovecharemos el asistente de IA para mejorar el contenido de nuestra invitación por correo electrónico para nuestro próximo evento.
+1. Después de crear y configurar la página web, haz clic en **[!UICONTROL Editar página web]**.
 
-1. Después de crear y configurar tu envío por correo electrónico, haz clic en **[!UICONTROL Editar contenido]**.
+   Para obtener más información sobre cómo configurar su página web, consulte [esta página](../web/create-web.md).
 
-   Para obtener más información sobre cómo configurar su envío por correo electrónico, consulte [esta página](../email/create-email-content.md).
+1. Seleccione un **[!UICONTROL componente Texto]** para solamente segmentar un contenido específico. y acceder al menú **[!UICONTROL Mostrar asistente de IA]**.
 
-1. Seleccione un **[!UICONTROL componente Texto]** para solamente segmentar un contenido específico. y acceder al menú **[!UICONTROL Asistente de IA]**.
+   ![](assets/web-gen-full-1.png){zoomable="yes"}
 
-   ![](assets/text-genai-1.png){zoomable="yes"}
-
-1. Habilite la opción **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
-
-   El mensaje siempre debe estar vinculado a un contexto específico.
+1. Habilite la opción **[!UICONTROL Usar contenido original]** para el Ayudante de IA para la aceleración de contenido a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
-   Si está buscando ayuda para redactar el mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que ofrece una amplia gama de ideas para mejorar los envíos.
+   Si está buscando ayuda para crear su mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar sus campañas.
 
-   ![](assets/text-genai-2.png){zoomable="yes"}
+   ![](assets/web-gen-full-2.png){zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional al Ayudante de IA.
+1. Adapte el mensaje con la opción **[!UICONTROL Configuración de texto]**:
 
-   ![](assets/text-genai-3.png){zoomable="yes"}
+   * **[!UICONTROL Estrategia de comunicación]**: elige el estilo de comunicación más adecuado para el texto generado.
+   * **[!UICONTROL Tono]**: el tono de la página web debe interesar a la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA puede adaptar el mensaje en consecuencia.
+   * **Longitud del texto**: utilice el control deslizante para seleccionar la longitud deseada del texto.
 
-1. Adapte el indicador con las diferentes opciones:
+   ![](assets/web-gen-full-3.png){zoomable="yes"}
 
-   * **[!UICONTROL Estrategia de comunicación]**: seleccione el enfoque de comunicación que desee para el texto generado.
-   * **[!UICONTROL Idioma]**: elige el idioma del contenido de la variante.
-   * **[!UICONTROL Tono]**: Asegúrese de que el texto sea apropiado para su audiencia y propósito.
-   * **[!UICONTROL Longitud]**: seleccione la longitud del contenido mediante el regulador de intervalo.
+1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el asistente de IA o seleccione uno cargado anteriormente.
 
-   ![](assets/text-genai-4.png){zoomable="yes"}
+   Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 
@@ -140,61 +65,62 @@ En el siguiente ejemplo, aprovecharemos el asistente de IA para mejorar el conte
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
-   * **Usar como contenido de referencia**: la variante elegida servirá como contenido de referencia para generar otros resultados.
+   * **[!UICONTROL Usar como contenido de referencia]**: la variante elegida servirá como contenido de referencia para generar otros resultados.
 
-   * **Elaborar**: el Asistente de IA puede ayudarle a ampliar temas específicos y proporcionar detalles adicionales para una mejor comprensión y participación.
+   * **[!UICONTROL Elaborar]**: el Asistente de IA puede ayudarle a ampliar temas específicos y proporcionar detalles adicionales para una mejor comprensión y participación.
 
-   * **Resumir**: La información larga puede sobrecargar los destinatarios de correo electrónico. Utilice el asistente de IA para condensar los puntos clave en resúmenes claros y concisos que llamen la atención y los animen a leer más.
+   * **[!UICONTROL Resumir]**: La información larga puede sobrecargar a los destinatarios. Utilice el asistente de IA para condensar los puntos clave en resúmenes claros y concisos que llamen la atención y los animen a leer más.
 
-   * **Reformular**: el Asistente de IA puede reformular su mensaje de diferentes maneras, manteniendo su escritura fresca y atractiva para diversas audiencias.
+   * **[!UICONTROL Reformular]**: el Asistente de IA puede reformular su mensaje de diferentes maneras, manteniendo su escritura fresca y atractiva para diversas audiencias.
 
-   * **Usar lenguaje sencillo**: utilice el asistente de IA para simplificar el idioma y garantizar la claridad y accesibilidad para una audiencia más amplia.
+   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el asistente de IA para simplificar el lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
 
-   ![](assets/text-genai-5.png){zoomable="yes"}
+   También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
+
+   ![](assets/web-gen-full-4.png){zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
 
-1. Inserte campos de personalización para personalizar el contenido del correo electrónico en función de los datos de perfiles. A continuación, haga clic en el botón **[!UICONTROL Simular contenido]** para controlar la renderización y compruebe la configuración de personalización con perfiles de prueba. [Más información](../preview-test/preview-content.md)
+   También puede habilitar el experimento para el contenido. [Más información](generative-experimentation.md)
 
-   ![](assets/text-genai-7.png){zoomable="yes"}
-
-Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la entrega por correo electrónico. [Más información](../monitor/prepare-send.md)
+Una vez que haya definido la configuración de la campaña web y haya editado el contenido como desee con el diseñador web, puede revisar y activar la campaña web. [Más información](../web/create-web.md#activate-web-campaign)
 
 >[!TAB Generación de imágenes de página web]
 
-En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar y mejorar sus recursos, lo que garantiza una experiencia más fácil de usar.
+En el siguiente ejemplo, aprenda a aprovechar el asistente de IA de Journey Optimizer para la aceleración de contenido para optimizar y mejorar sus recursos, lo que garantiza una experiencia más fácil de usar.
 
-1. Después de crear y configurar tu envío por correo electrónico, haz clic en **[!UICONTROL Editar contenido]**.
+1. Después de crear y configurar la página web, haz clic en **[!UICONTROL Editar página web]**.
 
-   Para obtener más información sobre cómo configurar su envío por correo electrónico, consulte [esta página](../email/create-email-content.md).
+   Para obtener más información sobre cómo configurar su página web, consulte [esta página](../web/create-web.md).
 
-1. Complete **[!UICONTROL detalles básicos]** para su envío. Una vez finalizado, haga clic en **[!UICONTROL Editar contenido de correo electrónico]**.
+1. Seleccione el recurso que desea cambiar con el asistente de IA para la aceleración de contenido.
 
-1. Seleccione el recurso que desea cambiar con el asistente de IA.
+1. En el menú de la derecha, seleccione **[!UICONTROL Mostrar asistente de IA]**.
 
-1. En el menú de la derecha, seleccione **[!UICONTROL Asistente de IA]**.
+   ![](assets/web-gen-img-1.png){zoomable="yes"}
 
-   ![](assets/image-genai-1.png){zoomable="yes"}
+1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el Asistente de IA para la aceleración de contenido personalice el nuevo contenido en función del contenido de referencia. También puede cargar una imagen para añadir contexto a la variación.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
-   Si está buscando ayuda para redactar el mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que ofrece una amplia gama de ideas para mejorar los envíos.
+   Si está buscando ayuda para crear su mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar sus campañas.
 
-   ![](assets/image-genai-2.png){zoomable="yes"}
+   ![](assets/web-gen-img-2.png){zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional al Ayudante de IA.
-
-   El mensaje siempre debe estar vinculado a un contexto específico.
-
-1. Adapte el indicador con las diferentes opciones:
+1. Adapte el mensaje con la opción **[!UICONTROL Configuración de imagen]**:
 
    * **[!UICONTROL Proporción de aspecto]**: determina la anchura y la altura del recurso. Tiene la opción de elegir entre proporciones comunes, como 16:9, 4:3, 3:2 o 1:1, o bien puede introducir un tamaño personalizado.
-   * **[!UICONTROL Color y tono]**: El aspecto general de los colores de una imagen y el estado de ánimo o atmósfera que transmite.
    * **[!UICONTROL Tipo de contenido]**: Esto categoriza la naturaleza del elemento visual, distinguiendo entre diferentes formas de representación visual como fotografías, gráficos o arte.
+   * **[!UICONTROL Intensidad visual]**: puede controlar el impacto de la imagen ajustando su intensidad. Un ajuste inferior (2) creará una apariencia más suave y restringida, mientras que un ajuste superior (10) hará que la imagen sea más vibrante y visualmente potente.
+   * **[!UICONTROL Color y tono]**: El aspecto general de los colores de una imagen y el estado de ánimo o atmósfera que transmite.
    * **[!UICONTROL Iluminación]**: hace referencia al relámpago presente en una imagen, que da forma a su atmósfera y resalta elementos específicos.
    * **[!UICONTROL Composición]**: hace referencia a la disposición de elementos dentro del marco de una imagen
 
-   ![](assets/image-genai-3.png){zoomable="yes"}
+   ![](assets/web-gen-img-3.png){zoomable="yes"}
+
+1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el asistente de IA o seleccione uno cargado anteriormente.
+
+   Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
 1. Una vez que esté satisfecho con la configuración de la solicitud, haga clic en **[!UICONTROL Generar]**.
 
@@ -202,19 +128,17 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
 
    Haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
 
-   ![](assets/image-genai-5.png){zoomable="yes"}
+   ![](assets/web-gen-img-4.png){zoomable="yes"}
 
-1. Elija **[!UICONTROL Mostrar similares]** si desea ver imágenes relacionadas con esta variante.
+1. Elija **[!UICONTROL Generar]** similar si desea ver imágenes relacionadas con esta variante.
+
+   ![](assets/web-gen-img-5.png){zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
 
-   ![](assets/image-genai-6.png){zoomable="yes"}
+   También puede habilitar el experimento para el contenido. [Más información](generative-experimentation.md)
 
-1. Después de definir el contenido del mensaje, haga clic en el botón **[!UICONTROL Simular contenido]** para controlar la representación y compruebe la configuración de personalización con perfiles de prueba.  [Más información](../preview-test/preview-content.md)
-
-   ![](assets/image-genai-7.png){zoomable="yes"}
-
-1. Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la entrega por correo electrónico. [Más información](../monitor/prepare-send.md)
+Una vez que haya definido la configuración de la campaña web y haya editado el contenido como desee con el diseñador web, puede revisar y activar la campaña web. [Más información](../web/create-web.md#activate-web-campaign)
 
 >[!ENDTABS]
 
