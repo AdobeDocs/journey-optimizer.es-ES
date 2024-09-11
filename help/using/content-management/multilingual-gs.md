@@ -10,10 +10,10 @@ level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
+source-git-commit: e3685815dfed23c9fefa148e0025181258537135
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 20%
+source-wordcount: '414'
+ht-degree: 12%
 
 ---
 
@@ -37,6 +37,11 @@ Con Journey Optimizer, puede crear contenido multilingüe mediante dos métodos 
 
 ## Requisitos previos {#prerequisites}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_translation_error"
+>title="Error de traducción
+>abstract="Si no puede acceder a la página de traducción, es probable que se deba a que la función de traducción no está activada. Para resolver este problema, debe asegurarse de que su organización y el administrador de la zona protegida activen la función de traducción."
+
 Adobe Journey Optimizer se integra actualmente con los proveedores de traducción, que ofrecen servicios de traducción de terceros (traducción automática o humana) independientes de Adobe Journey Optimizer.
 
 Antes de agregar el proveedor de traducción seleccionado, debe crear una cuenta con ese proveedor correspondiente.
@@ -44,6 +49,22 @@ Antes de agregar el proveedor de traducción seleccionado, debe crear una cuenta
 El uso de los servicios de traducción de un proveedor de traducción está sujeto a términos y condiciones adicionales de ese proveedor aplicable.  Como soluciones de terceros, los servicios de traducción están disponibles para los usuarios de Adobe Journey Optimizer a través de una integración.  El Adobe no controla y no es responsable de los productos de terceros.
 
 Para cualquier problema o solicitud de ayuda relacionada con sus traducciones, póngase en contacto con el proveedor de traducción correspondiente.
+
+Si no puede acceder a la página de traducción, debe habilitar la función de traducción.
+
++++ Obtenga información sobre cómo habilitar la función de traducción
+
+1. Si está viendo la siguiente página de error, indica que la característica **[!UICONTROL Traducción]** aún no se ha habilitado. Póngase en contacto con su organización y administrador de zona protegida. para solicitar acceso.
+
+   ![](assets/multi-troubleshoot.png)
+
+1. El administrador tendrá que navegar al menú **[!UICONTROL Traducción]** en la barra lateral izquierda. El sistema activará automáticamente la función de traducción.
+
+1. Una vez que la característica se haya habilitado correctamente, podrá obtener acceso a la página **[!UICONTROL Traducción]**, junto con las fichas **[!UICONTROL Proyectos]**, **[!UICONTROL Proveedores]** y **[!UICONTROL Configuración regional]**.
+
+1. Si este procedimiento ha fallado, seguirá viendo la misma página de error. En ese caso, póngase en contacto con el representante del Adobe para obtener más ayuda.
+
++++
 
 ## Vídeo explicativo {#video}
 
