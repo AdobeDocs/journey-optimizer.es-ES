@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6268aafbec0aa21a7c8881514227cdb41674791a
+source-git-commit: 15fd327db3753dfec608bd39344d86cabd5df994
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 97%
+source-wordcount: '1531'
+ht-degree: 96%
 
 ---
 
@@ -219,24 +219,38 @@ Para cambiar el idioma:
 >abstract="Visualizador de conflictos en recorridos"
 
 >[!CONTEXTUALHELP]
->id="ajo_rule_set_object_type"
+>id="ajo_rule_set_domain"
 >title="Tipo de objeto"
 >abstract="Tipo de objeto"
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_rule_set"
+>id="ajo_journey_capping_rule"
 >title="Aplicar conjunto de reglas a los recorridos"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_rule_set"
+>id="ajo_rule_set_rule_type"
+>title="Tipo de regla"
+>abstract="Tipo de regla"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="Priorización de cara al futuro"
+>abstract="Priorización de cara al futuro"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_capping_rule"
 >title="Aplicar conjunto de reglas a las campañas"
 >abstract="Por determinar"
+
+<!--TO REMOVE?-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_prioritization"
 >title="Tener en cuenta la priorización"
 >abstract="Por determinar"
+
+<!--TO REMOVE?-->
 
 <!--CONTENT LOCKING-->
 
