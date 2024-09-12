@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
+source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1195'
 ht-degree: 18%
 
 ---
@@ -40,7 +40,9 @@ Para añadir un mensaje en un recorrido, siga los pasos a continuación:
 
 1. En la sección **Acciones** de la paleta, arrastre y suelte una actividad **correo electrónico**, **En la aplicación**, **SMS** o **Push** en el lienzo.
 
-1. Configure su actividad. Conozca los pasos detallados para crear el contenido del mensaje en las siguientes páginas:
+1. Configure su actividad.
+
+   Conozca los pasos detallados para crear el contenido del mensaje en las siguientes páginas:
 
    <table style="table-layout:fixed">
    <tr style="border: 0;">
@@ -80,6 +82,11 @@ Para añadir un mensaje en un recorrido, siga los pasos a continuación:
    </td>
    </tr>
    </table>
+
+>[!NOTE]
+>
+>Cada actividad de mensaje entrante (mensaje en la aplicación, experiencia basada en código o tarjeta) viene con una actividad de **Espera** de 3 días. [Más información](../building-journeys/wait-activity.md#auto-wait-node)
+>
 
 ## Actualización de contenido en directo{#update-live-content}
 
