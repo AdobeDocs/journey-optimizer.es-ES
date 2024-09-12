@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 'Generación de correo electrónico con el asistente de IA en Journey Optimizer: acelerador de contenido'
+title: Generación de correo electrónico con el asistente de IA en Journey Optimizer Content Accelerator
 description: Empiece a generar contenido y recursos de correo electrónico con el asistente de IA de Journey Optimizer para la aceleración de contenido
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 5798d4850ef9f8f2bc6761a9468fe6120460c524
+source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
 workflow-type: tm+mt
 source-wordcount: '1606'
 ht-degree: 1%
 
 ---
 
-# Generación de correo electrónico con el asistente de IA: acelerador de contenido {#generative-email}
+# Generación de correo electrónico con el acelerador de contenido del asistente de IA {#generative-email}
 
 >[!IMPORTANT]
 >

@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: 5798d4850ef9f8f2bc6761a9468fe6120460c524
+source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
 workflow-type: tm+mt
 source-wordcount: '1497'
 ht-degree: 2%
 
 ---
 
-# Generación push con el asistente de IA: acelerador de contenido  {#generative-push}
+# Generación push con el acelerador de contenido del asistente de IA  {#generative-push}
 
 >[!IMPORTANT]
 >
