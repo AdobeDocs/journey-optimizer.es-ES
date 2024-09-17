@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b560c88bf97143ca9dadf1399862165cb3f7bc62
+source-git-commit: d7d77bcbd401f7af68f644ded25d61f0921c03be
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 82%
+source-wordcount: '950'
+ht-degree: 80%
 
 ---
 
@@ -71,9 +71,15 @@ ht-degree: 82%
 </tbody>
 </table>
 
+**Públicos**
+
+(Fecha de disponibilidad: 17 de septiembre) **Uso de licencias**: el panel Uso de licencias ahora muestra los perfiles atractivos, en lugar de las audiencias atractivas. [Más información](../audience/license-usage.md)
+
 **Recorridos**
 
 (Fecha de disponibilidad: 10 de septiembre) **Capacidad de reintento**: los reintentos ahora se aplican de forma predeterminada en recorridos activados por la audiencia (a partir de **Leer audiencia** o un **Evento empresarial**) al recuperar el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de eso, lo consideraremos como un fracaso. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta 1 hora después de la hora programada. [Más información](../building-journeys/read-audience.md#retries)
+
+
 
 ## Notas de la versión de agosto de 2024 {#8-2024}
 
