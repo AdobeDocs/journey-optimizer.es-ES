@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d998a66421c277b7a46e5f15585a9768bc360a7a
+source-git-commit: 9fdfc729346bc15f5781a7bca39c76055af71eb2
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 40%
+ht-degree: 41%
 
 ---
 
@@ -189,7 +189,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * La [documentación de la API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} ahora es interactiva. Explore los extremos de la API directamente desde las páginas de documentación para obtener comentarios inmediatos y acelerar la implementación técnica.
 
-  Todas las páginas de referencia de la API ahora tienen la funcionalidad **Probar** que puede usar para probar las llamadas de la API directamente en la página del sitio web de documentación. [Obtenga las credenciales de autenticación necesarias](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"} y comience a usar la funcionalidad para explorar los extremos de la API.
+  Todas las páginas de referencia de la API ahora tienen la funcionalidad **Probar** que puede usar para probar las llamadas de la API directamente en la página del sitio web de documentación. [Obtenga las credenciales de autenticación necesarias](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} y comience a usar la funcionalidad para explorar los extremos de la API.
 
   Utilice esta nueva funcionalidad para explorar las solicitudes a y las respuestas de los extremos de la API, obtener comentarios inmediatos y acelerar la implementación técnica.
 
