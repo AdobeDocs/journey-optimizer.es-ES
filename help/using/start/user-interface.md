@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
+source-git-commit: f5bcafb0963c5adf4a0ab307f611fd9cc0b34005
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 95%
+source-wordcount: '1797'
+ht-degree: 80%
 
 ---
 
@@ -201,22 +201,22 @@ Para cambiar el idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioridad"
->abstract="Asigne una puntuación de prioridad de recorrido comprendida entre 0 y 100. Un número mayor indica una prioridad mayor. Cuando dos recorridos utilizan la misma superficie, Journey Optimizer selecciona el recorrido con la puntuación de prioridad más alta. Si los recorridos tienen la misma puntuación, se elige el recorrido modificado más recientemente."
+>abstract="Asigne una puntuación de prioridad de recorrido comprendida entre 0 y 100. Un número mayor indica una prioridad mayor. El valor de prioridad insertado aquí lo heredan las acciones entrantes (como en la aplicación) contenidas en este recorrido. En el caso de situaciones en las que esta misma superficie entrante se utiliza en otras campañas o recorridos, se muestra al destinatario la acción entrante con la puntuación de prioridad más alta. Si varios recorridos o campañas tienen la misma puntuación, se elige el elemento que se modificó más recientemente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Prioridad"
->abstract="Asigne una puntuación de prioridad a la campaña, de 0 a 100. Un número mayor indica una prioridad mayor. Cuando dos campañas utilizan la misma superficie, Journey Optimizer selecciona la campaña con la puntuación de prioridad más alta. Si las campañas tienen la misma puntuación, se elige la campaña modificada más recientemente."
+>abstract="Asigne una puntuación de prioridad a la campaña, de 0 a 100. Un número mayor indica una prioridad mayor. En el caso de situaciones en las que esta misma superficie entrante (como en la aplicación) se utiliza en otras campañas o recorridos, se muestra al destinatario la acción entrante con la puntuación de prioridad más alta. Si varios recorridos o campañas tienen la misma puntuación, se elige el elemento que se modificó más recientemente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="Visualizador de conflictos en campañas"
->abstract="Visualizador de conflictos en campañas"
+>abstract="Esta herramienta puede ayudarle a determinar la superposición con otros recorridos, campañas o superficies. Si desea identificar la superposición en la audiencia, la fecha de inicio y finalización, la configuración del canal, el canal o el conjunto de reglas, puede ver posibles conflictos aquí. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="Visualizador de conflictos en recorridos"
->abstract="Visualizador de conflictos en recorridos"
+>abstract="Esta herramienta puede ayudarle a determinar la superposición con otros recorridos, campañas o superficies. Si desea identificar la superposición en la audiencia, la fecha de inicio y finalización, la configuración del canal, el canal o el conjunto de reglas, puede ver posibles conflictos aquí. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
@@ -226,7 +226,7 @@ Para cambiar el idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="Aplicar conjunto de reglas a los recorridos"
->abstract="Por determinar"
+>abstract="Aplique un conjunto de reglas para excluir este recorrido a parte de la audiencia en función de las reglas de límite de frecuencia."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -236,7 +236,7 @@ Para cambiar el idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="Priorización de cara al futuro"
->abstract="Priorización de cara al futuro"
+>abstract=" Si se programa un recorrido de mayor prioridad dentro del período de tiempo especificado aquí, se impedirá que el cliente entre en este recorrido. Para situaciones en las que desea que los recorridos se incluyan por orden de llegada, le sugerimos que elija el periodo Mirada diaria anticipada y que garantice que la puntuación de prioridad de cualquier otro recorrido en ese día sea menor que la puntuación de prioridad del recorrido. Proporcionar una puntuación de prioridad de 100 a un recorrido también garantizaría que se contrate."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
