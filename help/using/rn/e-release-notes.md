@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 777286e2c3e0fa6458f1f503756b0494cbcc9020
+source-git-commit: 23ff5c26620c8d7119abec5994c7ac3e7e2a208d
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 47%
+source-wordcount: '973'
+ht-degree: 43%
 
 ---
 
@@ -186,9 +186,11 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * **Número máximo de recorridos activos**: Journey Optimizer ahora tiene una protección de 500 recorridos activos en zonas protegidas de producción, en lugar de 100. El número de recorridos activos es visible en el lienzo de recorrido.
 
-* **Informes en vivo de Recorridos**: los informes en vivo ofrecen información sobre el rendimiento de sus recorridos en las últimas 24 horas. La hemos mejorado añadiendo nuevas métricas (perfiles introducidos, salidos y descartados por error), lo que le permite comprender mejor el comportamiento y el rendimiento del usuario directamente desde el lienzo de Recorrido.
+* **Mejoras en la creación de informes en directo**: la creación de informes en directo proporciona información sobre el rendimiento de sus recorridos en las últimas 24 horas. La hemos mejorado añadiendo nuevas métricas (perfiles introducidos, salidos y descartados por error), lo que le permite comprender mejor el comportamiento y el rendimiento del usuario directamente desde el lienzo de Recorrido.
 
-* (Fecha de disponibilidad: 10 de septiembre) **Capacidad de reintento**: los reintentos ahora se aplican de forma predeterminada en recorridos activados por públicos destinatarios (empezando con una actividad **Leer público** o **Evento empresarial**) cuando se recupera el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada. [Más información](../building-journeys/read-audience.md#retries)
+* **Parámetros en acciones personalizadas**: ahora se admiten parámetros NULL y opcionales en las acciones personalizadas.
+
+* (Fecha de disponibilidad: 10 de septiembre) **Reintentos automáticos en la audiencia de lectura**. Los reintentos ahora se aplican de forma predeterminada en recorridos activados por la audiencia (a partir de **Audiencia de lectura** o un **Evento empresarial**) al recuperar el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada. [Más información](../building-journeys/read-audience.md#retries)
 
 **Canal de correo electrónico**
 
