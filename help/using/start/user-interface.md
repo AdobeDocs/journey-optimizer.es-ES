@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 1c2505ba3dcd86834aa9961fa4e53cee9320724d
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -298,8 +298,8 @@ Para cambiar el idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
->title="Infracción de directiva de gobernanza de datos"
->abstract="Infracción de directiva de gobernanza de datos"
+>title="Infracción de la directiva de gobernanza de datos"
+>abstract="Infracción de la directiva de gobernanza de datos"
 
 <!--APPROVAL POLICIES-->
 
