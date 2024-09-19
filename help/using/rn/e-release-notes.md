@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
+source-git-commit: 777286e2c3e0fa6458f1f503756b0494cbcc9020
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 45%
+source-wordcount: '956'
+ht-degree: 47%
 
 ---
 
@@ -193,6 +193,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 **Canal de correo electrónico**
 
 * **Encabezado de mensaje CCO**: se ha agregado un nuevo encabezado a todos los mensajes de correo electrónico. El valor de este encabezado es único para cada correo electrónico enviado y para su copia de correo electrónico CCO correspondiente. Este encabezado también se almacena en los conjuntos de datos de comentarios de mensajes y CCO, lo que permite reconciliar la copia CCO y la información de correo electrónico enviado correspondiente.
+* **Puntuación de spam** (GA): Ahora puede comprobar la puntuación de spam de contenido en un informe de spam dedicado. Utilizando SpamAssassin, Adobe Journey Optimizer ahora puede probar el contenido de su correo electrónico y darle una puntuación para indicar si los ISP o los proveedores de buzones lo considerarán correo no deseado o no. [Más información](../content-management/spam-report.md)
 
 **Canal de SMS**
 
