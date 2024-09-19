@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9fdfc729346bc15f5781a7bca39c76055af71eb2
+source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 41%
+source-wordcount: '907'
+ht-degree: 45%
 
 ---
 
@@ -29,23 +29,21 @@ ht-degree: 41%
 
 Esta versión incorpora las nuevas funciones que se indican a continuación.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Tarjetas de contenido para aplicaciones móviles y sitios web</strong><br/></th>
+<th><strong>Content Cards for mobile apps and websites</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Las tarjetas de contenido son una nueva función de mensajería digital de Adobe Journey Optimizer que ofrece contenido personalizado y atractivo directamente en aplicaciones móviles y sitios web. A diferencia de las notificaciones push tradicionales, las tarjetas de contenido se integran perfectamente en la interfaz de usuario y ofrecen actualizaciones persistentes y no intrusivas que mejoran la interacción y experiencia del usuario.</p>
-<p>Esta función permite a los especialistas en marketing presentar a los usuarios contenido con medios enriquecidos y relevantes, para aumentar la participación y garantizar que se vean mensajes importantes sin distraer al usuario del recorrido.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -82,22 +80,37 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 </tbody>
 </table>
 
-
-
 <table>
 <thead>
 <tr>
-<th><strong>Experiencias basadas en código en recorrido</strong><br/></th>
+<th><strong>Criterios globales de salida en recorrido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con el canal de experiencia basado en código, Adobe Journey Optimizer le permite realizar personalizaciones y pruebas avanzadas para cualquiera de sus propiedades de entrada, lo que permite ofrecer experiencias adaptadas en diversos puntos de contacto, como aplicaciones web, aplicaciones móviles, aplicaciones de escritorio, consolas de vídeo, dispositivos conectados a TV, televisores inteligentes, quioscos, cajeros automáticos, dispositivos IoT y mucho más. El canal de experiencia basado en código ya está disponible en el lienzo de recorrido.</p>
-<p>Para obtener más información, consulte la <a href="../code-based/get-started-code-based.md">documentación detallada</a>.</p>
+<p>Ahora puede definir y combinar reglas de criterios de salida para los recorridos.</p>
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/-->
+</td>
 </tr>
 </tbody>
 </table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Code-based experiences in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
+<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table-->
 
 
 <table>
@@ -151,25 +164,25 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 **Públicos**
 
 * El uso de públicos de carga personalizada (archivo CSV) ya está disponible para su uso con el complemento del Escudo de seguridad y privacidad.
-* Al segmentar un público de carga personalizado (archivo CSV), ahora se pueden utilizar atributos del archivo en las campañas y recorridos. Estos atributos están disponibles en el editor de personalización de mensajes y de expresiones avanzadas del recorrido.
+  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * (Fecha de disponibilidad: 17 de septiembre) **Uso de licencias**: el panel Uso de licencias ahora muestra los perfiles atractivos, en lugar de las audiencias atractivas. [Más información](../audience/license-usage.md)
 
 **Gobierno de datos**
 
 * Ahora puede aplicar políticas de gobernanza de datos a los canales de Journey Optimizer, además de acciones personalizadas dentro de los recorridos. Esta mejora ayuda a evitar el uso de campos confidenciales en las comunicaciones mediante la aplicación de acciones de marketing directamente dentro de las configuraciones de canal.
 
+<!--
+**Frequency and priority management**
 
-**Administración de frecuencia y prioridad**
+* **Frequency capping by campaign or journey** - You can now create frequency rules to apply to your journeys, allowing you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.
 
-* **Límite de frecuencia por campaña o recorrido**: ahora puede crear reglas de frecuencia para aplicarlas a sus recorridos, lo que le permite limitar el número de recorridos por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.
+* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
 
-* **Puntuación de prioridad**: ahora puede asignar una puntuación de prioridad a una campaña o un recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. Cuando dos campañas o recorridos utilizan la misma superficie, Journey Optimizer selecciona la que tiene la puntuación de prioridad más alta. Si las campañas tienen la misma puntuación, se elige la campaña modificada más recientemente. La puntuación de prioridad está disponible para todos los canales entrantes en las campañas y para el canal en la aplicación en los recorridos.
+* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
+-->
 
-* **Ver conflictos**: un nuevo botón **Ver conflictos** en recorridos y campañas ahora le permite comprobar si hay una posibilidad de superposición con otros recorridos o campañas, como la fecha de inicio, la audiencia de destino o la configuración de canal seleccionada.
 
 **Recorridos**
-
-* **Criterios globales de salida**: ahora puede definir y combinar reglas de criterios de salida para sus recorridos.
 
 * **Número máximo de recorridos activos**: Journey Optimizer ahora tiene una protección de 500 recorridos activos en zonas protegidas de producción, en lugar de 100. El número de recorridos activos es visible en el lienzo de recorrido.
 
