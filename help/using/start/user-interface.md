@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c2505ba3dcd86834aa9961fa4e53cee9320724d
+source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1591'
+ht-degree: 95%
 
 ---
 
@@ -299,7 +299,7 @@ Para cambiar el idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="Infracción de la directiva de gobernanza de datos"
->abstract="Infracción de la directiva de gobernanza de datos"
+>abstract="Si el sistema identifica un campo restringido en un recorrido/campaña o una acción personalizada, se muestra un error que impide publicarlo. Utilice el diagrama de linaje de datos de este cuadro de diálogo para comprender qué otros cambios de configuración deben realizarse antes de activar el recorrido o la campaña."
 
 <!--APPROVAL POLICIES-->
 
