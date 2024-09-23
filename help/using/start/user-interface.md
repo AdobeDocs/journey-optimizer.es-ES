@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6229f295b961b0535139b64928216e40c3759947
+source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 80%
+source-wordcount: '1558'
+ht-degree: 89%
 
 ---
 
@@ -197,26 +197,6 @@ Para cambiar el idioma:
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
 <!--PRIORITIZATION & CONFLICT MANAGEMENT-->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="Prioridad"
->abstract="Asigne una puntuación de prioridad de recorrido comprendida entre 0 y 100. Un número mayor indica una prioridad mayor. El valor de prioridad insertado aquí lo heredan las acciones entrantes (como en la aplicación) contenidas en este recorrido. En el caso de situaciones en las que esta misma superficie entrante se utiliza en otras campañas o recorridos, se muestra al destinatario la acción entrante con la puntuación de prioridad más alta. Si varios recorridos o campañas tienen la misma puntuación, se elige el elemento que se modificó más recientemente."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="Prioridad"
->abstract="Asigne una puntuación de prioridad a la campaña, de 0 a 100. Un número mayor indica una prioridad mayor. En el caso de situaciones en las que esta misma superficie entrante (como en la aplicación) se utiliza en otras campañas o recorridos, se muestra al destinatario la acción entrante con la puntuación de prioridad más alta. Si varios recorridos o campañas tienen la misma puntuación, se elige el elemento que se modificó más recientemente."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_conflict"
->title="Visualizador de conflictos en campañas"
->abstract="Esta herramienta puede ayudarle a determinar la superposición con otros recorridos, campañas o superficies. Si desea identificar la superposición en la audiencia, la fecha de inicio y finalización, la configuración del canal, el canal o el conjunto de reglas, puede ver posibles conflictos aquí. "
-
->[!CONTEXTUALHELP]
->id="ajo_journey_conflict"
->title="Visualizador de conflictos en recorridos"
->abstract="Esta herramienta puede ayudarle a determinar la superposición con otros recorridos, campañas o superficies. Si desea identificar la superposición en la audiencia, la fecha de inicio y finalización, la configuración del canal, el canal o el conjunto de reglas, puede ver posibles conflictos aquí. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
