@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 6229f295b961b0535139b64928216e40c3759947
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2016'
+ht-degree: 96%
 
 ---
 
@@ -176,6 +176,7 @@ ht-degree: 0%
    + [Activación de campañas mediante las API](using/campaigns/api-triggered-campaigns.md)
 + Prueba de los envíos {#test}
    + Vista previa y prueba del contenido {#preview-test}
+      + [Prueba del contenido con perfiles personalizados](using/test-approve/test-custom-profiles.md)
       + [Introducción a la vista previa y prueba](using/content-management/preview-test.md)
       + [Seleccionar perfiles de prueba](using/content-management/test-profiles.md)
       + [Vista previa del contenido](using/content-management/preview.md)
