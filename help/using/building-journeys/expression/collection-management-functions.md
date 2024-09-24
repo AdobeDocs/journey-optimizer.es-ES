@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: consulta, colecciones, funciones, carga útil, recorrido
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: b58d6bbcf2311be3f841f7eef0c0bf10692f1704
+source-git-commit: 1ba767ba8d2ecaabc17b717a983e7ad285dd52bb
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
@@ -236,10 +236,14 @@ El resultado es &quot;token_2&quot;.
 
 **Otros ejemplos**
 
+Esta expresión devuelve los nombres de producto en función del valor SKU. La lista de estos productos se incluye en la lista de eventos, con la condición de que sea el ID de evento.
+
 ```json
-#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent. all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
-_aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
+_aepgdcdevenablement2.purchase_event.productListItems.all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
 ```
+
+Esta expresión recupera el nombre del último producto de la lista de productos de un evento de comercio donde el tipo de evento es productListAdds y el precio total es superior o igual a 150.
 
 ```json
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
