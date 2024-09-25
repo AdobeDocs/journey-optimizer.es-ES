@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 131cacc88670a965ed2e233984ffa941b37e8a08
+source-git-commit: 13221645a22524deadc5576624bf6c31633c55c5
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '771'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simular mediante entrada de muestra"
->abstract="En esta pantalla, puede probar diferentes variantes del contenido del correo electrónico proporcionando valores para los campos de personalización a través de una plantilla CSV (descargar CSV) o introduciendo manualmente los valores.
+>abstract="En esta pantalla, puede probar diferentes variantes del contenido del correo electrónico proporcionando valores para los campos de personalización a través de una plantilla CSV (descargar CSV) o introduciendo manualmente los valores."
 
 >[!AVAILABILITY]
 >
@@ -46,7 +46,7 @@ Los pasos principales para probar el contenido son los siguientes:
 
 Antes de empezar a probar el contenido con datos de entrada de muestra, tenga en cuenta las siguientes protecciones y requisitos previos.
 
-* A partir de ahora, las pruebas con datos de entrada de muestra solo están disponibles para el canal de correo electrónico.
+* A partir de ahora, las pruebas con datos de entrada de muestra solo están disponibles para el canal de correo electrónico. No se puede acceder a la experiencia desde el botón &quot;Simular contenido&quot; dentro de Email Designer.
 * Las siguientes funciones no están disponibles en la experiencia actual: Renderización de la bandeja de entrada, informes de correo no deseado, contenido multilingüe y experimento de contenido. Para usar estas características, selecciona el botón **[!UICONTROL Simular contenido]** de tu contenido para acceder a la interfaz de usuario anterior.
 * Actualmente solo se admiten atributos de perfil. Si se utilizan atributos contextuales en el contenido para la personalización, no se puede probar el contenido con estos atributos.
 * Solo se admiten los siguientes tipos de datos al introducir datos para las variantes: número (entero y decimal), cadena, booleano y tipo de fecha. Cualquier otro tipo de datos mostrará un error.
