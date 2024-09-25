@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a33b1f0323efd0a482781d21fded66c9c8dd6360
+source-git-commit: 2efff12350ffeada28728ef32cf59bfb0f5d5c49
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 62%
+source-wordcount: '1600'
+ht-degree: 63%
 
 ---
 
@@ -178,6 +178,10 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 * When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * (Fecha de disponibilidad: 17 de septiembre) **Uso de licencias**: el panel Uso de licencias ahora muestra los perfiles atractivos, en lugar de las audiencias atractivas. [Más información](../audience/license-usage.md)
 
+**Administración de contenido**
+
+* Ahora puede exportar plantillas de contenido y fragmentos entre entornos limitados.
+
 **Gobierno de datos**
 
 * Ahora puede aplicar políticas de gobernanza de datos a los canales de Journey Optimizer, además de acciones personalizadas dentro de los recorridos. Esta mejora ayuda a evitar el uso de campos confidenciales en las comunicaciones mediante la aplicación de acciones de marketing directamente dentro de las configuraciones de canal.
@@ -225,7 +229,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
   >[!CAUTION]
   >
-  >Tenga en cuenta que al utilizar la funcionalidad de API interactiva en las páginas de documentación de, está realizando llamadas de API reales a los extremos de. Tenga esto en cuenta al experimentar con entornos limitados de producción.
+  >Tenga en cuenta que, al utilizar la funcionalidad de API interactiva en las páginas de documentación, está realizando llamadas de API reales a los puntos finales. Tenga esto en cuenta al experimentar con zonas protegidas de producción.
 
 
 ## Notas de la versión de agosto de 2024 {#8-2024}
