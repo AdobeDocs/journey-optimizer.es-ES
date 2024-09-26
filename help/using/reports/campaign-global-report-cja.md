@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '4252'
+source-wordcount: '4623'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,7 @@ La página **Informe de campaña** se mostrará con las siguientes pestañas seg
 * [Notificación push](#push-notification)
 * [Correo directo](#direct-mail)
 * [Web](#web)
+* [Tarjeta de contenido](#content-card)
 
 Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
@@ -784,5 +785,73 @@ La tabla **[!UICONTROL URL de vínculos rastreados]** proporciona una visión ge
 * **[!UICONTROL Pantallas]**: Número de veces que se abrió el mensaje.
 
 * **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió el mensaje, no se tienen en cuenta las interacciones múltiples de un perfil.
+
++++
+
+## Tarjeta de contenido {#content-card}
+
+### Tendencia de visualización y clics {#display-click}
+
+![](assets/content-card-report-1.png)
+
+Los gráficos de **[!UICONTROL tendencias de visualización y clics]** le ayudan a comprender el alcance general del mensaje y la cantidad de perfiles únicos que interactúan con él.
+
++++ Más información sobre las métricas de visualización y clics
+
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en la tarjeta de contenido.
+
+* **[!UICONTROL Pantallas]**: Número de veces que se abrió el mensaje.
+
+* **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió el mensaje, no se tienen en cuenta las interacciones múltiples de un perfil.
+
++++
+
+### Datos de seguimiento {#tracking-data}
+
+![](assets/content-card-report-2.png)
+
+La tabla **[!UICONTROL Datos de seguimiento]** ofrece una instantánea detallada de la actividad del perfil vinculada a sus tarjetas de contenido, lo que proporciona información esencial sobre la participación y la eficacia de las tarjetas de contenido.
+
++++ Más información sobre el Seguimiento de métricas de datos
+
+* **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus tarjetas de contenido.
+
+* **[!UICONTROL Tasa de clics (CTR)]**: porcentaje de usuarios que interactuaron con la tarjeta de contenido.
+
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido de su tarjeta de contenido.
+
+* **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de su tarjeta de contenido.
+
+* **[!UICONTROL Pantallas]**: Número de veces que se abrió el mensaje.
+
+* **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió el mensaje, no se tienen en cuenta las interacciones múltiples de un perfil.
+
++++
+
+### Etiquetas rastreadas {#tracked-labels}
+
+La tabla **[!UICONTROL Etiquetas rastreadas]** ofrece una visión general de las etiquetas de vínculo dentro de las tarjetas de contenido, destacando las que generan el mayor tráfico de visitantes. Esta función le permite identificar y priorizar los vínculos más populares.
+
++++ Más información sobre las Métricas de etiquetas rastreadas
+
+* **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus tarjetas de contenido.
+
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus tarjetas de contenido.
+
+* **[!UICONTROL Pantallas]**: Número de veces que se abrió el mensaje.
+
+* **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió el mensaje, no se tienen en cuenta las interacciones múltiples de un perfil.
+
++++
+
+### URL de vínculos rastreados {#tracked-link-url}
+
+La tabla **[!UICONTROL URL de vínculos rastreados]** proporciona una visión general de las direcciones URL de las tarjetas de contenido que atraen el mayor tráfico de visitantes. Esto le permite identificar y priorizar los vínculos más populares, lo que mejora su comprensión de la participación del perfil con contenido específico en las tarjetas de contenido.
+
++++ Más información sobre las métricas de URL de vínculos rastreados
+
+* **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus tarjetas de contenido.
+
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus tarjetas de contenido.
 
 +++

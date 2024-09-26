@@ -4,12 +4,11 @@ description: Aprenda a utilizar el informe de correo no deseado.
 feature: Preview
 role: User
 level: Beginner
-badge: label="Beta"
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
+source-git-commit: 9d95c3cf5c7f9a0da98654795370f40e84611dc9
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 24%
+source-wordcount: '365'
+ht-degree: 17%
 
 ---
 
@@ -21,10 +20,6 @@ ht-degree: 24%
 >abstract="El informe Spam permite comprobar la puntuación de spam del contenido del correo electrónico. Esta puntuación indica si los ISP o proveedores de buzones de correo considerarán su mensaje como spam o no. Cuanto más baja sea la puntuación, mejor. Si la puntuación del contenido del correo electrónico es superior a 2, debe considerar la posibilidad de corregir los problemas que causan que las pruebas fallen."
 
 Puede comprobar la puntuación de correo no deseado del contenido del correo electrónico en un informe de correo no deseado específico. Con [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, Adobe Journey Optimizer puede probar el contenido del correo electrónico y darle una puntuación para indicar si los ISP o los proveedores de buzones de correo lo considerarán como correo no deseado o no.
-
->[!AVAILABILITY]
->
->Actualmente, esta función está en versión beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 Al editar o previsualizar el contenido del correo electrónico, el botón **[!UICONTROL Informe de correo no deseado]** proporciona una puntuación y consejos para mejorar las puntuaciones de cada elemento individual de la lista.
 
@@ -49,6 +44,11 @@ Para acceder al **[!UICONTROL informe de correo no deseado]**, siga los pasos a 
 1. Compruebe las puntuaciones y descripciones de cada elemento.
 
    Cuanto más baja sea la puntuación, mejor. Si la puntuación es mayor de 5, se muestra una advertencia: indica que algunos mensajes pueden bloquearse o marcarse como correo no deseado cuando se reciben. La práctica recomendada es tener una puntuación inferior a 2.
+
+   >[!NOTE]
+   >
+   >La puntuación de spam se deriva a través de [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, y las reglas no son propiedad de Adobe. Para obtener más información sobre estas reglas, consulte la documentación de SpamAssassin.
+   >
 
 1. En función de esa puntuación, si considera que algunos elementos se pueden mejorar, edite el contenido en el [Designer de correo electrónico](../email/content-from-scratch.md) y realice las actualizaciones necesarias.
 

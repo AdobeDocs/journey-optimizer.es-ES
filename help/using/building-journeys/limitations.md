@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorridos, limitación
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 47%
+ht-degree: 45%
 
 ---
 
@@ -32,7 +32,7 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 * Un recorrido que se inicia con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No puede iniciar un recorrido con un evento **Calificación de audiencias**.
 * Un recorrido que comience con una actividad de **Calificación de audiencias** en v1 siempre debe comenzar con una **Calificación de audiencias** en versiones posteriores.
 * La audiencia y el área de nombres elegidos en **Calificación de audiencias** (primer nodo) no se pueden cambiar en las nuevas versiones.
-* La regla de reentrada debe ser la misma en todas las versiones del recorrido.
+* La regla de reentrada debe ser la misma en todas las versiones de recorrido.
 * El recorrido que comience con **Leer público** no puede comenzar con otro evento en las versiones siguientes.
 
 ## Limitaciones de acciones personalizadas {#custom-actions-limitations}

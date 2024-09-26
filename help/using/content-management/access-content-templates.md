@@ -6,13 +6,13 @@ description: Obtenga información sobre cómo acceder y administrar plantillas d
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 7%
+source-wordcount: '317'
+ht-degree: 5%
 
 ---
-
 
 # Acceso y administración de plantillas de contenido {#access-manage-templates}
 
@@ -63,3 +63,9 @@ Seleccione el modo **[!UICONTROL Grid view]** para mostrar cada plantilla como u
 >Actualmente, solo se pueden generar las miniaturas adecuadas para plantillas de contenido de correo electrónico de tipo HTML.
 
 Al actualizar un contenido, es posible que tenga que esperar unos segundos antes de que los cambios se reflejen en la miniatura.
+
+## Exportar plantillas de contenido a otra zona protegida {#export}
+
+Journey Optimizer permite copiar una plantilla de contenido de una zona protegida a otra. Por ejemplo, puede copiar una plantilla del entorno de zona protegida de ensayo en la zona protegida de producción.
+
+El proceso de copia se lleva a cabo mediante una **exportación e importación de paquetes** entre las zonas protegidas de origen y destino. Encontrará información detallada sobre cómo exportar objetos e importarlos en una zona protegida de destino en esta sección: [Copiar objetos en otra zona protegida](../configuration/copy-objects-to-sandbox.md)

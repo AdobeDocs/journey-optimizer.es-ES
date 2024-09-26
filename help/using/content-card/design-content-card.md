@@ -4,34 +4,14 @@ description: Aprenda a diseñar contenido de tarjetas de contenido
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Disponibilidad limitada" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 4%
+source-wordcount: '511'
+ht-degree: 2%
 
 ---
 
 # Diseño de contenido de tarjetas de contenido {#design-content-card}
-
->[!BEGINSHADEBOX]
-
-**Tabla de contenido**
-
-* [Introducción a las tarjetas de contenido](get-started-content-card.md)
-* [Requisitos previos de tarjetas de contenido](content-card-configuration-prereq.md)
-* [Configuración del canal de tarjetas de contenido en Journey Optimizer](content-card-configuration.md)
-* [Crear tarjetas de contenido](create-content-card.md)
-* **Diseñar tarjetas de contenido**
-* [Informe de tarjetas de contenido](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Actualmente, las tarjetas de contenido solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 La construcción de creación para tarjetas proporciona una experiencia de creación basada en formularios que proporciona a los especialistas en marketing entradas básicas que el desarrollador puede utilizar para representar.
 

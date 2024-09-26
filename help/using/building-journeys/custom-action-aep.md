@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: 778ef71a531346774c5e10e296dbf1112fed891d
+source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
-# Caso de uso: Uso de acciones personalizadas para escribir eventos de Recorrido en Experience Platform{#custom-action-aep}
+# Caso de uso: Uso de acciones personalizadas para escribir eventos de Recorrido en Experience Platform {#custom-action-aep}
 
 En este caso de uso se explica cómo escribir eventos personalizados en Adobe Experience Platform desde Recorridos mediante acciones personalizadas y llamadas autenticadas.
 
-## Configuración de un proyecto de IO
+## Configuración de un proyecto de IO {#custom-action-aep-IO}
 
 1. En Adobe Developer Console, haga clic en **Proyecto** y abra su proyecto de E/S.
 
@@ -94,7 +94,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 }
 ```
 
-## Configuración de la acción personalizada
+## Configuración de la acción personalizada {#custom-action-config}
+
+La configuración de acciones personalizadas se detalla en [esta página](../action/about-custom-action-configuration.md).
+
+Para este ejemplo, siga estos pasos:
 
 1. Abra Adobe Journey Optimizer y haga clic en **Configuraciones**, en **Administración** en el menú de la izquierda. En **Acciones**, haga clic en **Administrar** y luego en **Crear acción**.
 
@@ -106,7 +110,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-7bis.png)
 
-### Configurar la autenticación
+### Configurar la autenticación {#custom-action-aep-authentication}
 
 1. Seleccione **Type** como **Custom** con la siguiente carga útil.
 
@@ -140,7 +144,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-8.png)
 
-### Configuración de la carga útil
+### Configuración de la carga útil {#custom-action-aep-payload}
 
 1. En los campos **Solicitud** y **Respuesta**, pegue la carga útil de la conexión de origen utilizada anteriormente.
 
@@ -167,7 +171,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. Cambie la configuración del campo de **Constant** a **Variable** para los campos que se rellenarán dinámicamente. Guarde la acción personalizada.
+1. Cambie la configuración del campo de **Constant** a **Variable** para los campos que se rellenarán dinámicamente.
+
+1. Guarde la acción personalizada.
 
 ##  Recorrido 
 

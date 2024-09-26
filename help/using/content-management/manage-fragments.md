@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Administrar fragmentos
+title: Administración de fragmentos
 description: Obtenga información sobre cómo administrar los fragmentos de contenido
 feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 27%
+source-wordcount: '980'
+ht-degree: 25%
 
 ---
 
-# Administrar fragmentos {#manage-fragments}
+# Administración de fragmentos {#manage-fragments}
 
 Para administrar los fragmentos, acceda a la lista de fragmentos desde el menú de la izquierda **[!UICONTROL Administración de contenido]** > **[!UICONTROL Fragmentos]**.
 
@@ -128,3 +128,9 @@ Para ello, haga clic en el botón **[!UICONTROL Más acciones]** que está junto
 Para desarchivar un fragmento, filtre los **[!UICONTROL elementos archivados]** y seleccione **[!UICONTROL Desarchivar]** del menú **[!UICONTROL Más acciones]**. Ahora vuelve a ser accesible desde la lista de fragmentos y se puede utilizar en cualquier correo electrónico o plantilla.
 
 ![](assets/fragment-list-unarchive.png)
+
+## Exportar fragmentos a otra zona protegida {#export}
+
+Journey Optimizer permite copiar un fragmento de una zona protegida a otra. Por ejemplo, puede copiar un fragmento del entorno de zona protegida de ensayo en la zona protegida de producción.
+
+El proceso de copia se lleva a cabo mediante una **exportación e importación de paquetes** entre las zonas protegidas de origen y destino. Encontrará información detallada sobre cómo exportar objetos e importarlos en una zona protegida de destino en esta sección: [Copiar objetos en otra zona protegida](../configuration/copy-objects-to-sandbox.md)

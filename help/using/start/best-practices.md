@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: e411810196c591727fb1049826dc761e3807ed03
+source-git-commit: e19cd0c301b1f2a8f47ca4c9f9882d36fd560dbe
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 4%
@@ -50,9 +50,14 @@ Esta sección le guiará en la escala con las dos limitaciones siguientes:
 
 * A medida que publica recorridos, Journey Optimizer se adapta y ajusta automáticamente para garantizar el máximo rendimiento y estabilidad. A medida que se acerca al hito de 100 recorridos activos a la vez en una zona protegida, verá una superposición naranja y un signo de advertencia en la interfaz sobre este logro. Si recibe esta notificación y necesita extender sus recorridos más allá de los 100 recorridos en directo a la vez, cree un ticket para el servicio de atención al cliente y le ayudaremos a alcanzar sus objetivos.
 
+<!--DOCAC-10977
+
+* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+
+
 Puede adoptar una serie de prácticas recomendadas que le ayudarán a mantenerse dentro de las barreras y a utilizar el sistema de forma eficaz.
 
-* Si se acerca al límite de recorridos activos, el primer paso que puede dar es ir a la ficha **Información general** en **Recorridos** para ver cuántos recorridos estuvieron activos en las últimas 24 horas (recorridos que tenían perfiles activos). Puede comprobar el número de perfiles que entran y salen del recorrido en esta sección para determinar eso.
+* Si se acerca al límite de recorridos activos, el primer paso que puede dar es ir a la ficha **Información general** en **Recorridos** para ver cuántos recorridos estuvieron activos en las últimas 24 horas en los recorridos que tenían perfiles activos. Puede comprobar el número de perfiles que entran y salen del recorrido en esta sección para determinar eso.
 
   ![](assets/journey-guardrails2.png)
 

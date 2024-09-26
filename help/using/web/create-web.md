@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '791'
 ht-degree: 18%
 
 ---
@@ -82,6 +82,10 @@ También puede abrirlo en el explorador predeterminado o copiar la dirección UR
 Encontrará información detallada sobre cómo seleccionar perfiles de prueba y obtener una vista previa del contenido en la sección [Administración de contenido](../content-management/preview-test.md).
 
 ## Activación de la campaña web {#activate-web-campaign}
+
+>[!IMPORTANT]
+>
+>A partir de la versión de septiembre, una nueva experiencia de activación de recorrido y campaña le permite administrar todo el proceso de aprobación, lo que garantiza que las campañas y los recorridos sean revisados y aprobados a fondo por las partes interesadas adecuadas antes de lanzarse. Esta función está disponible con disponibilidad limitada. [Más información](../test-approve/gs-approval.md)
 
 Una vez que haya definido la [configuración de la campaña web](#configure-web-campaign) y haya editado el contenido como desee con el [diseñador web](edit-web-content.md#work-with-web-designer), podrá revisar y activar la campaña web. Siga los pasos a continuación.
 

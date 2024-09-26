@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 131cacc88670a965ed2e233984ffa941b37e8a08
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 96%
+source-wordcount: '2042'
+ht-degree: 95%
 
 ---
 
@@ -50,6 +50,7 @@ ht-degree: 96%
       + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
       + [Simulación del recorrido](using/building-journeys/journey-simulation.md)
       + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
+      + [Informe en vivo en el recorrido](using/building-journeys/report-journey.md)
    + Administrar los recorridos{#manage-journey}
       + [Administración de la entrada del perfil](using/building-journeys/entry-management.md)
       + [Administración de husos horarios](using/building-journeys/timezone-management.md)
@@ -174,7 +175,7 @@ ht-degree: 96%
    + [Revisión y activación de una campaña](using/campaigns/review-activate-campaign.md)
    + [Administración de campañas](using/campaigns/modify-stop-campaign.md)
    + [Activación de campañas mediante las API](using/campaigns/api-triggered-campaigns.md)
-+ Prueba de los envíos {#test}
++ Probar y aprobar {#test}
    + [Administración de conflictos y priorización](using/test-approve/conflict-prioritization.md)
    + Vista previa y prueba del contenido {#preview-test}
       + [Prueba del contenido con datos de entrada de ejemplo](using/test-approve/simulate-sample-input.md)
@@ -184,6 +185,11 @@ ht-degree: 96%
       + [Envío de pruebas de correo electrónico](using/content-management/proofs.md)
       + [Prueba del procesamiento de correo electrónico](using/content-management/rendering.md)
       + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
+   + Aprobar recorridos y campañas {#approve}
+      + [Introducción a las aprobaciones](using/test-approve/gs-approval.md)
+      + [Crear y administrar directivas de aprobación](using/test-approve/approval-policies.md)
+      + [Solicitar aprobación](using/test-approve/request-approval.md)
+      + [Aprobar una solicitud](using/test-approve/review-approve-request.md)
 + Canal de correo electrónico {#email}
    + [Empezar con correos electrónicos](using/email/get-started-email.md)
    + [Crear un correo electrónico](using/email/create-email.md)
@@ -264,14 +270,13 @@ ht-degree: 96%
    + [Creación de una configuración de experiencia basada en código](using/code-based/code-based-configuration.md)
    + [Ejemplos de métodos de implementación](using/code-based/code-based-implementation-samples.md)
    + [Creación de experiencias basadas en código](using/code-based/create-code-based.md)
-+ Tarjetas de contenido (LA){#content-card}
++ Tarjetas de contenido{#content-card}
    + [Introducción a las tarjetas de contenido](using/content-card/get-started-content-card.md)
    + Configurar el canal de la tarjeta de contenido {#configure}
       + [Requisitos previos de tarjetas de contenido](using/content-card/content-card-configuration-prereq.md)
       + [Configuración del canal de tarjetas de contenido en Journey Optimizer](using/content-card/content-card-configuration.md)
    + [Crear tarjetas de contenido](using/content-card/create-content-card.md)
    + [Diseño de tarjetas de contenido](using/content-card/design-content-card.md)
-   + [Informe de tarjetas de contenido](using/content-card/content-card-report.md)
 + Páginas de aterrizaje {#landing-pages}
    + [Introducción a las páginas de aterrizaje](using/landing-pages/get-started-lp.md)
    + [Creación de una página de aterrizaje](using/landing-pages/create-lp.md)
@@ -287,7 +292,7 @@ ht-degree: 96%
       + [Definir ajustes preestablecidos de página de aterrizaje](using/landing-pages/lp-presets.md)
 + Gestión de contenido {#content-management}
    + Trabajo con el asistente de IA{#ai-assistant}
-      + [Introducción al acelerador de contenido del asistente de IA](using/content-management/gs-generative.md)
+      + [Introducción al Acelerador de contenido del Asistente de IA](using/content-management/gs-generative.md)
       + [Generación de correo electrónico con IA](using/content-management/generative-email.md)
       + [Generación push con IA](using/content-management/generative-push.md)
       + [Generación de SMS con IA](using/content-management/generative-sms.md)
@@ -647,6 +652,7 @@ ht-degree: 96%
          + [Uso de respuestas de llamadas de API en acciones personalizadas](using/action/action-response.md)
          + [Integración con Marketo Engage](using/action/marketo-engage.md)
    + [Fuentes](using/start/get-started-sources.md)
+   + [Exportar objetos a otra zona protegida](using/configuration/copy-objects-to-sandbox.md)
 + Control de acceso {#access-control}
    + Información general sobre el control de acceso {#privacy}
       + [Introducción a la administración de usuarios](using/administration/permissions-overview.md)

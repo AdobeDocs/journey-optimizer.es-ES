@@ -4,34 +4,14 @@ description: Obtenga información acerca de la tarjeta de contenido en Journey O
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Disponibilidad limitada" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 41%
+source-wordcount: '104'
+ht-degree: 49%
 
 ---
 
 # Introducción a las tarjetas de contenido {#get-started-content-card}
-
->[!BEGINSHADEBOX]
-
-**Tabla de contenido**
-
-* **Introducción a las tarjetas de contenido**
-* [Requisitos previos de tarjetas de contenido](content-card-configuration-prereq.md)
-* [Configuración del canal de tarjetas de contenido en Journey Optimizer](content-card-configuration.md)
-* [Crear tarjetas de contenido](create-content-card.md)
-* [Diseño de tarjetas de contenido](design-content-card.md)
-* [Informe de tarjetas de contenido](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Actualmente, las tarjetas de contenido solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 Las tarjetas de contenido son una nueva función de mensajería digital de Adobe Journey Optimizer que ofrece contenido personalizado y atractivo directamente en aplicaciones móviles y sitios web. A diferencia de las notificaciones push tradicionales, las tarjetas de contenido se integran perfectamente en la interfaz de usuario y ofrecen actualizaciones persistentes y no intrusivas que mejoran la interacción y experiencia del usuario.
 

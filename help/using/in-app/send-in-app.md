@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 13%
+source-wordcount: '406'
+ht-degree: 12%
 
 ---
 
@@ -45,6 +45,10 @@ Para ello, haga clic en **[!UICONTROL Simular contenido]** y añada un perfil de
 Encontrará información detallada sobre cómo seleccionar perfiles de prueba y obtener una vista previa del contenido en la sección [Administración de contenido](../content-management/preview-test.md).
 
 ## Revisión y activación de la notificación en la aplicación{#in-app-review}
+
+>[!IMPORTANT]
+>
+>A partir de la versión de septiembre, una nueva experiencia de activación de recorrido y campaña le permite administrar todo el proceso de aprobación, lo que garantiza que las campañas y los recorridos sean revisados y aprobados a fondo por las partes interesadas adecuadas antes de lanzarse. Esta función está disponible con disponibilidad limitada. [Más información](../test-approve/gs-approval.md)
 
 Una vez creado el mensaje en la aplicación y definido y personalizado su contenido, puede revisarlo y activarlo.
 
