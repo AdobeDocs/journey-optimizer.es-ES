@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 53b33a97a8361d1d9579ccd2111e02a263a0aa37
+source-git-commit: b89bb9791d8b8e34a598b1044c495a439f6107b4
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 68%
@@ -104,7 +104,6 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <td>
 <p>Ahora puede definir criterios de salida en el nivel de recorrido. Al añadir criterios de salida, hace que los perfiles salgan del recorrido en cuanto se produce un evento (p. ej.: compra) o cumplen los requisitos para una audiencia. Esto evitará que el usuario reciba más comunicaciones del recorrido.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/journey-properties.md">documentación detallada</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif" /-->
 </td>
 </tr>
 </tbody>
