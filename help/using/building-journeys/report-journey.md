@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 0cdf61bc97baaa8df08822d62a5b9f658c44c117
+source-git-commit: 59a597a563074fa4daa74c64e97f6bb5c0f6834d
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Para su recorrido en directo, tiene acceso a:
 * **[!UICONTROL Perfiles descartados]**: Número total de individuos que se descartaron de la recorrido por uno de los siguientes motivos:
 
    * Para las actividades de **Calificación de audiencias**, puede descartarse si el verbo esperado para la calificación de audiencia no coincide con el recorrido recibido (por ejemplo, &quot;saliente&quot; en lugar de &quot;realizado&quot;).
-   * Para **recorridos activados por eventos**, puede ocurrir una descarte si el individuo intentó volver a entrar en el recorrido demasiado pronto o cuando no se permitió la reentrada.
+   * Para **recorridos activados por eventos**, puede ocurrir una descarte si el individuo intentó volver a entrar al recorrido demasiado pronto o cuando no se permitió la reentrada.
    * En **recorridos recurrentes**, se cuenta un descarte en cada periodicidad si el individuo ya está en el recorrido y la directiva de reentrada no está establecida en &quot;forzar reentrada&quot;.
    * En las actividades **Leer audiencia**, se produce un descarte si no se establece ninguna identidad para el individuo exportado o si el área de nombres de identidad recibida no coincide con la esperada para el recorrido.
 
