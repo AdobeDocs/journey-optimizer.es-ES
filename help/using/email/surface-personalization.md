@@ -13,7 +13,7 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -30,7 +30,7 @@ Para obtener una mayor flexibilidad y control sobre la configuración del correo
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="Personalización no disponible"
->abstract="Esta configuración se creó sin atributos de personalización. Consulte la documentación para ver los pasos que debe seguir en caso de que sea necesaria la personalización."
+>abstract="Esta configuración se ha creado sin ningún atributo de personalización. Consulte la documentación para ver los pasos que debe seguir en caso de que sea necesaria la personalización."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"

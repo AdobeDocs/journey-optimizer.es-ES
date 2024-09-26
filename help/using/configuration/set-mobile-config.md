@@ -12,7 +12,7 @@ exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 14%
+ht-degree: 20%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 14%
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Validar con Assurance"
 >abstract="Adobe Experience Platform Assurance está integrado en este flujo de trabajo para ayudarle a inspeccionar la implementación del SDK, así como para simular y validar eventos de aplicación."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Información general sobre Adobe Experience Platform Assurance"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/assurance/home" text="Información general sobre Adobe Experience Platform Assurance"
 
 Este ajuste facilita la configuración rápida de los canales de marketing, lo que garantiza que todos los recursos necesarios estén disponibles en Experience Platform, Journey Optimizer y la recopilación de datos. Esto permite a su equipo de marketing empezar con la creación de campañas y recorridos.
 

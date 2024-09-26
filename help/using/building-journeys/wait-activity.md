@@ -12,7 +12,7 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -113,7 +113,7 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node "
->title="Acerca del nodo de espera automática"
->abstract="Se agrega automáticamente una actividad **Wait** después de esta actividad. Se establece para 3 días. Puede eliminarlo o configurarlo según sea necesario."
+>title="Acerca del nodo de espera automático"
+>abstract="Se agrega automáticamente una actividad de **Espera** después de esta actividad. Se establece para 3 días. Puede eliminarla o configurarla según sea necesario."
 
 Cada actividad de mensaje entrante (mensaje en la aplicación, experiencia basada en código o tarjeta) viene con una actividad de **Espera** de 3 días. Como los mensajes entrantes finalizan automáticamente cuando un perfil llega al final del recorrido, suponemos que desea que los usuarios lo vean al menos durante 3 días. Puede quitar esta actividad **Wait** o cambiar su configuración si es necesario.

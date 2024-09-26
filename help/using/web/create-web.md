@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '747'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
 >title="Definir una configuración web"
->abstract="Una configuración web puede coincidir con una dirección URL de una sola página o con varias páginas, lo que permite enviar modificaciones de contenido a través de una o varias páginas web."
+>abstract="Una configuración web puede coincidir con una dirección URL de una sola página o varias páginas, lo que permite enviar modificaciones de contenido en una o varias páginas web."
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"

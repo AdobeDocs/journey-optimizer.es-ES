@@ -10,7 +10,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -35,7 +35,7 @@ Las políticas de decisión contienen toda la lógica de selección para que el 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="Definición del número de elementos que desea devolver"
->abstract="Seleccione el número de elementos de decisión que desea que se devuelvan. Por ejemplo, si selecciona 2, se presentarán las 2 mejores ofertas aptas para la configuración actual."
+>abstract="Seleccione el número de elementos de decisión que desea que se devuelvan. Por ejemplo, si selecciona 2, se presentarán las dos mejores ofertas aptas para la configuración actual."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"

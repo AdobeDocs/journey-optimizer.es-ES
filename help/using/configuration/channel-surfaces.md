@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
 workflow-type: tm+mt
 source-wordcount: '1737'
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
@@ -44,17 +44,17 @@ También puede utilizar la configuración de canal guiada para automatizar y val
 ➡️ [Learn how to create and use email configurations in this video](#video-presets)
 -->
 
-## Crear una configuración de canal {#create-channel-surface}
+## Creación de una configuración de canal {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
->title="Ajustes de configuración de canal"
->abstract="Al configurar un canal, seleccione el canal al que se aplica y defina todos los parámetros técnicos necesarios para su envío, como el tipo de correo electrónico, el nombre del remitente, las aplicaciones móviles, la configuración de SMS y más."
+>title="Ajustes de la configuración de canal"
+>abstract="Al establecer la configuración de un canal, seleccione el canal al que se aplica y defina todos los parámetros técnicos necesarios para el envío, como el tipo de correo electrónico, el nombre del remitente, las aplicaciones móviles, la configuración de SMS, etc."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Ajustes de configuración de canal"
->abstract="Para poder crear acciones como correos electrónicos a partir de un recorrido o una campaña, primero debe crear una configuración de canal que defina todos los ajustes técnicos necesarios para los mensajes. Debe tener el permiso Administrar mensajes de ajustes preestablecidos para crear, editar y eliminar configuraciones de canal."
+>title="Ajustes de la configuración de canal"
+>abstract="Para poder crear acciones como correos electrónicos desde un recorrido o una campaña, primero debe crear una configuración de canal que defina toda la configuración técnica necesaria para los mensajes. Debe tener el permiso Administrar ajustes preestablecidos de mensajes para crear, editar y eliminar configuraciones de canal."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"

@@ -10,16 +10,16 @@ exl-id: 0d541520-016e-468f-b011-808712847556
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
-# Creación de una configuración de SMS/MMS {#message-preset-sms}
+# Crear una configuración de SMS/MMS {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="Definir la categoría de mensaje"
->abstract="Seleccione el tipo de mensajes de texto que utiliza esta configuración: Marketing para mensajes promocionales, que requieren el consentimiento del usuario, o Transaccional para mensajes no comerciales, como el restablecimiento de la contraseña."
+>abstract="Seleccione el tipo de mensajes de texto con esta configuración: Marketing para mensajes promocionales, que requieren el consentimiento del usuario, o Transaccional para mensajes no comerciales, como el restablecimiento de contraseña."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=es#sms-opt-out-management" text="Exclusión en mensajes de texto de marketing"
 
 Una vez configurado el canal SMS/MMS, debe crear una configuración de canal para poder enviar mensajes SMS y MMS desde **[!DNL Journey Optimizer]**.

@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -36,7 +36,7 @@ Acceda a las siguientes secciones para obtener más información sobre cada tema
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="Confirmar la dirección URL para editar"
->abstract="Confirme la dirección URL de la página web específica que desea utilizar para editar el contenido que se aplicará en la configuración web definida anteriormente. La página web debe implementarse mediante el SDK web de Adobe Experience Platform."
+>abstract="Confirme la dirección URL de la página web específica que se utilizará para editar el contenido que se aplicará en la configuración web definida anteriormente. La página web debe implementarse mediante el SDK web de Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es" text="Más información"
 
 >[!CONTEXTUALHELP]
@@ -152,7 +152,7 @@ En esta sección se detallan las distintas formas de desplazarse por el diseñad
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="Usar el modo Examinar"
->abstract="Desde este modo, puede navegar a la página exacta desde la configuración seleccionada que desee personalizar."
+>abstract="Desde este modo, puede desplazarse a la página exacta desde la configuración seleccionada que desee personalizar."
 
 Puede cambiar del modo predeterminado **[!UICONTROL Diseño]** al modo **[!UICONTROL Examinar]** con el botón dedicado.
 

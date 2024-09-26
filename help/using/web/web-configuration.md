@@ -9,7 +9,7 @@ exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
 source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_page_rule"
 >title="Regla de coincidencia de páginas"
->abstract="Para administrar y segmentar de forma eficaz un grupo de direcciones URL que compartan los mismos criterios, cree una regla de coincidencia Páginas. Esta regla permite consolidar varias direcciones URL bajo una sola guía, lo que simplifica la aplicación de acciones y configuraciones coherentes en todas estas páginas."
+>abstract="Para administrar y segmentar de forma eficaz un grupo de direcciones URL que compartan los mismos criterios, cree una regla de coincidencia de páginas. Esta regla permite consolidar varias direcciones URL bajo una sola guía, lo que simplifica la aplicación de acciones y configuraciones coherentes en todas estas páginas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"

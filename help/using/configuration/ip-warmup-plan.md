@@ -12,7 +12,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1669'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -271,7 +271,7 @@ Cada dominio ahora se muestra en una columna diferente en la misma fila.
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
->title="Seleccione una configuración de marketing"
+>title="Selección de una configuración de marketing"
 >abstract="Debe seleccionar la misma configuración que la seleccionada en la campaña que desea asociar con su plan de calentamiento de IP."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=es" text="Creación de configuraciones de canal"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=es" text="Creación de campañas de calentamiento de IP"

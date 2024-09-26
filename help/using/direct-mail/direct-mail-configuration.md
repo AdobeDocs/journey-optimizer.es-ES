@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -162,12 +162,12 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
 >[!ENDTABS]
 
-## Creación de una configuración de correo directo {#direct-mail-surface}
+## Crear una configuración de correo directo {#direct-mail-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Definir la configuración del correo directo"
->abstract="Una configuración de correo postal contiene la configuración del formato del archivo que contiene los datos de audiencia de destino y la utilizará el proveedor de correo. También debe definir dónde se exportará el archivo seleccionando la configuración de enrutamiento del archivo."
+>abstract="Una configuración de correo directo dispone de la configuración para el formato del archivo que contiene los datos de la audiencia de destino y que utilizará el proveedor de correo. También debe definir dónde se exportará el archivo seleccionando la configuración de enrutamiento del archivo."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=es#file-routing-configuration" text="Configurar el enrutamiento de archivos"
 
 <!--

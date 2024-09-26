@@ -13,7 +13,7 @@ badge: label="Disponibilidad limitada" type="Informative"
 source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 11%
+ht-degree: 21%
 
 ---
 
@@ -45,7 +45,7 @@ Con Journey Optimizer, puede crear contenido multilingüe mediante dos métodos 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"
 >title="Error de traducción"
->abstract="Si no puede acceder a la página de traducción, es probable que se deba a que la función de traducción no está activada. Para resolver este problema, debe asegurarse de que su organización y el administrador de la zona protegida activen la función de traducción."
+>abstract="Si no puede acceder a la página de Traducción, es probable que se deba a que la función de Traducción no está activada. Para resolver este problema, debe asegurarse de que su organización y el administrador de la zona protegida activen la función de Traducción."
 
 Adobe Journey Optimizer se integra actualmente con los proveedores de traducción, que ofrecen servicios de traducción de terceros (traducción automática o humana) independientes de Adobe Journey Optimizer.
 

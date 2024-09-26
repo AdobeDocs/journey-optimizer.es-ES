@@ -9,16 +9,16 @@ exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '1125'
-ht-degree: 33%
+ht-degree: 50%
 
 ---
 
-# Configurar la experiencia basada en código {#code-based-configuration}
+# Configuración de la experiencia basada en código {#code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
 >title="ID de la aplicación"
->abstract="Proporcione el ID de la aplicación para una identificación y configuración precisas dentro del entorno operativo de la aplicación, lo que garantiza una integración y funcionalidad sin problemas."
+>abstract="Proporcione el ID de la aplicación para una identificación y configuración precisas dentro del entorno operativo de la aplicación, lo que garantiza una integración y funcionalidad optimizadas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
@@ -45,7 +45,7 @@ ht-degree: 33%
 >title="URL de previsualización"
 >abstract="Este campo es esencial para habilitar la simulación y la previsualización del contenido directamente en el dispositivo dentro de la aplicación."
 
-## Crear una configuración de canal {#reatte-code-based-configuration}
+## Creación de una configuración de canal {#reatte-code-based-configuration}
 
 Para crear una configuración de canal, siga estos pasos:
 
@@ -129,7 +129,7 @@ Ahora puede seleccionar la configuración al crear su experiencia basada en cód
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
->title="Defina una configuración de experiencia basada en código"
+>title="Definición de una configuración de experiencia basada en código"
 >abstract="Una configuración basada en código define la ruta y la ubicación dentro de la aplicación, identificada de forma exclusiva por un URI en la implementación de la aplicación, donde se enviará y consumirá el contenido."
 
 Una **superficie de experiencia basada en código** es cualquier entidad diseñada para la interacción del usuario o del sistema, que se identifica de forma exclusiva mediante un URI. La superficie se especifica en la implementación de la aplicación y debe corresponder a la compuesta en la configuración del canal de experiencia basado en código.

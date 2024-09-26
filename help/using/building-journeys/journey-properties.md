@@ -25,7 +25,7 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
->title="criterios de salida de recorrido"
+>title="Criterios de salida del recorrido"
 >abstract="En esta sección se muestran las opciones de criterios de salida. Puede crear una o varias reglas de criterios de salida para el recorrido."
 
 
