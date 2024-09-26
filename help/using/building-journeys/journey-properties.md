@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+source-git-commit: a0c7dad29aabe6c377468a64b9638d7363f0b6f6
 workflow-type: tm+mt
 source-wordcount: '1983'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -63,12 +63,12 @@ La administración de la entrada del perfil depende del tipo de recorridos. Obte
 
 De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar la opción **Permitir la reentrada** para recorridos de &quot;una sola vez&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra a una tienda.
 
-### período de espera de reentrada  {#reentrance-wait}
+### Período de espera de reentrada  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_reentrance_wait"
->title="período de espera de reentrada"
->abstract=" Establezca el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en recorridos unitarios. Esto evita que los usuarios vuelvan a entrar en el recorrido durante un tiempo determinado. Duración máxima: 90 días."
+>id="ajo_journey_properties_re-entrance_wait"
+>title="Período de espera de reentrada"
+>abstract="Establezca el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en recorridos unitarios. Esto evita que los usuarios vuelvan a entrar en la recorrido durante un tiempo determinado. Duración máxima: 90 días."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Administración de la entrada del perfil"
 
 Cuando se activa la opción **Permitir la reentrada**, se muestra el campo **Período de espera de reentrada**. Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en el caso de recorridos unitarios (empezando con un evento o una calificación de público). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. La duración máxima es de 90 días.
