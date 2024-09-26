@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: fbe8d14ba81e168ecfb141d54bf3009a2565751c
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 17%
+source-wordcount: '1983'
+ht-degree: 13%
 
 ---
 
@@ -22,12 +22,6 @@ ht-degree: 17%
 >id="ajo_journey_properties"
 >title="Propiedades del recorrido"
 >abstract="Esta sección muestra las propiedades del recorrido. De forma predeterminada, los parámetros de solo lectura están ocultos. La configuración disponible depende del estado del recorrido, de los permisos y de la configuración del producto."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_exit_criterias"
->title="Criterios de salida del recorrido"
->abstract="En esta sección se muestran las opciones de criterios de salida. Puede crear una o varias reglas de criterios de salida para el recorrido."
-
 
 ## Acceso a las propiedades de un recorrido {#access-properties}
 
@@ -59,25 +53,25 @@ El modo de entrada de perfil se define en el nivel de recorrido, en el panel de 
 
 La administración de la entrada del perfil depende del tipo de recorridos. Obtenga más información acerca de la administración de entrada y reentrada de perfiles en [esta página](entry-management.md).
 
-### Permitir la reentrada  {#allow-re-entrance}
+### Permitir reentrada  {#allow-reentrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
->title="Permitir la reentrada"
->abstract="De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar la opción **Permitir la reentrada** por ejemplo, si desea ofrecer un regalo puntual cuando una persona entra en una tienda."
+>title="Permitir reentrada"
+>abstract="De forma predeterminada, los nuevos recorridos permiten la reentrada. Puedes desmarcar la opción **Permitir la reentrada**, por ejemplo, si quieres ofrecer un regalo de una sola vez cuando una persona entre a una tienda."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Administración de la entrada del perfil"
 
-De forma predeterminada, los nuevos recorridos permiten la reentrada. Puedes desmarcar la opción **Permitir la reentrada** para recorridos de &quot;una sola vez&quot;, por ejemplo, si quieres ofrecer un regalo de una sola vez cuando una persona entra en una tienda.
+De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar la opción **Permitir la reentrada** para recorridos de &quot;una sola vez&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra a una tienda.
 
-### Período de espera de reentrada  {#re-entrance-wait}
+### período de espera de reentrada  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_re-entrance_wait"
->title="Período de espera de reentrada"
+>id="ajo_journey_properties_reentrance_wait"
+>title="período de espera de reentrada"
 >abstract=" Establezca el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en recorridos unitarios. Esto evita que los usuarios vuelvan a entrar en el recorrido durante un tiempo determinado. Duración máxima: 90 días."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Administración de la entrada del perfil"
 
-Cuando la opción **Permitir la reentrada** está activada, se muestra el campo **Período de espera de reentrada**. Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en el caso de recorridos unitarios (empezando con un evento o una calificación de público). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. La duración máxima es de 90 días.
+Cuando se activa la opción **Permitir la reentrada**, se muestra el campo **período de espera de reentrada**. Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en el caso de recorridos unitarios (empezando con un evento o una calificación de público). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. La duración máxima es de 90 días.
 
 
 ## Administrar acceso {#manage-access}
@@ -258,3 +252,55 @@ El recorrido de utiliza políticas de combinación al recuperar datos de perfil 
 Recorrido respetará la política de combinación utilizada en todo el recorrido. Por lo tanto, si se utilizan varias audiencias en un recorrido (p. ej.: en funciones &quot;inAudience&quot;), lo que crea incoherencias con la política de combinación utilizada por el recorrido, se genera un error y la publicación se bloquea. Sin embargo, si se utiliza una audiencia incoherente en la personalización de mensajes, no se genera una alerta, a pesar de la incoherencia. Por este motivo, es muy recomendable comprobar la política de combinación asociada a su audiencia cuando esta audiencia se utiliza en la personalización de mensajes.
 
 Para obtener más información sobre las políticas de combinación, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+
+
+## Criterios de salida {#exit-criteria}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="Criterios de salida del recorrido"
+>abstract="En esta sección se muestran las opciones de criterios de salida. Puede crear una o varias reglas de criterios de salida para el recorrido."
+
+### Descripción
+
+A menudo, los especialistas en marketing desean eliminar perfiles de un recorrido cuando ya no cumplen el propósito del recorrido. Esto se logrará mediante **criterios de salida globales**, que están estrechamente asociados con la administración de objetivos.
+
+**Caso de uso de ejemplo:**
+
+Un experto en marketing tiene un recorrido promocional que tiene una serie de comunicaciones. Cada una de estas comunicaciones tiene como objetivo impulsar al cliente a realizar una compra. Tan pronto como se realiza la compra, el cliente no debe recibir el resto de los mensajes de la serie. Al definir un criterio de salida, los perfiles que hayan realizado una compra se eliminarán de la recorrido.
+
+### Configuración y uso
+
+Los criterios de salida se establecen en el nivel de recorrido. Un recorrido puede tener varios criterios de salida. Cuando se establecen varios criterios de salida, la evaluación se realiza de arriba a abajo con una lógica OR. Por lo tanto, si tiene Criterios de salida n°1 y Criterios de salida n°2, se evaluará como n°1 **o** n°2. Los criterios se evalúan en cada paso del recorrido.
+
+Para **crear** un criterio de salida:
+
+* Haga clic en el siguiente icono ![](assets/exitcriteria_icon.png){width="40%" align="left"} en el carril derecho.
+* Haga clic en **Agregar criterios de salida**.
+
+![](assets/exitcriteria.png){width="40%" align="left"}
+
+* Puede agregar varios criterios de salida.
+* Escriba una **Etiqueta** y seleccione si los criterios de salida se basan en un evento o en una audiencia.
+
+### Criterios de salida basados en un evento
+
+Seleccionar solo evento unitario.
+
+![](assets/exitcriteria_event.png){width="40%" align="left"}
+
+### Criterios de salida basados en una audiencia
+
+Elija una audiencia.
+
+![](assets/exitcriteria_audience.png){width="40%" align="left"}
+
+Nota: Los criterios de salida para una audiencia pueden tardar hasta 10 minutos en estar operativos.
+
+### Restricciones y limitaciones
+
+* Los criterios de salida se definen como borrador
+* Recorrido de coherencia de área de nombres entre eventos y criterios de salida basados en eventos
+
+
+
