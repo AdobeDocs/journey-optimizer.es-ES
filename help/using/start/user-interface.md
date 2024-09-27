@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 90%
+source-wordcount: '1504'
+ht-degree: 93%
 
 ---
 
@@ -273,13 +273,6 @@ Para cambiar el idioma:
 >id="ajo_email_locking_read_only"
 >title="Solo lectura"
 >abstract="Este contenido es de solo lectura y no se puede modificar."
-
-<!--GOVERNANCE POLICIES-->
-
->[!CONTEXTUALHELP]
->id="ajo_data_governance_policy_violation"
->title="Infracción de la directiva de gobernanza de datos"
->abstract="Si el sistema identifica un campo restringido en un recorrido/campaña o una acción personalizada, se muestra un error que impide publicarlo. Utilice el diagrama de linaje de datos de este cuadro de diálogo para comprender qué otros cambios de configuración deben realizarse antes de activar el recorrido o la campaña."
 
 <!--APPROVAL POLICIES-->
 
