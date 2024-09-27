@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1c22985b32e6441791740e779b6acc44639301eb
+source-git-commit: d1f9b9ef52727877a43b8c09cb38c8b634261584
 workflow-type: tm+mt
-source-wordcount: '2042'
+source-wordcount: '2049'
 ht-degree: 95%
 
 ---
@@ -275,6 +275,7 @@ ht-degree: 95%
    + Configurar el canal de la tarjeta de contenido {#configure}
       + [Requisitos previos de tarjetas de contenido](using/content-card/content-card-configuration-prereq.md)
       + [Configuración del canal de tarjetas de contenido en Journey Optimizer](using/content-card/content-card-configuration.md)
+      + [Configuración de la compatibilidad con tarjetas de contenido en SDK web](using/content-card/content-card-configuration-sdk.md)
    + [Crear tarjetas de contenido](using/content-card/create-content-card.md)
    + [Diseño de tarjetas de contenido](using/content-card/design-content-card.md)
 + Páginas de aterrizaje {#landing-pages}
