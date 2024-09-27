@@ -11,10 +11,10 @@ keywords: directivas, gobernanza, plataforma, escudo de atención sanitaria, con
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: b783832bc43e6a12d97b210e7d4441381eac63a2
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 79%
+source-wordcount: '1260'
+ht-degree: 77%
 
 ---
 
@@ -128,21 +128,6 @@ En determinados tipos de comunicaciones importantes, por ejemplo, un mensaje tra
 Los demás pasos para configurar una acción personalizada se detallan en [esta sección](../action/about-custom-action-configuration.md#consent-management).
 
 ### Aprovechamiento de las políticas de consentimiento al añadir una acción personalizada en un recorrido {#consent-journey}
-
->[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action_canvas"
->title="Acción de marketing requerida"
->abstract="Se define una acción de marketing requerida al crear una acción personalizada. Esta acción de marketing requerida no se puede eliminar de la acción ni modificar."
-
->[!CONTEXTUALHELP]
->id="ajo_consent_additional_marketing_action_canvas"
->title="Acción de marketing adicional"
->abstract="Agregue otra acción de marketing además de la requerida. Se aplicarán las directivas de consentimiento relacionadas con ambas acciones de marketing."
-
->[!CONTEXTUALHELP]
->id="ajo_consent_refresh_policies_canvas"
->title="Visualizar las directivas de consentimiento que se aplicarán durante la ejecución"
->abstract="Las acciones de marketing incorporan directivas de consentimiento que combinan parámetros de acción y valores de consentimiento de perfil individuales para filtrar a los usuarios. Obtenga la definición más reciente de estas directivas haciendo clic en el botón para actualizar."
 
 Al agregar la acción personalizada en un recorrido, varias opciones permiten administrar el consentimiento. Haga clic en **Mostrar campos de solo lectura** para mostrar todos los parámetros.
 
