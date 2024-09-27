@@ -11,7 +11,7 @@ keywords: datos, gobernanza, DULE, etiquetas, etiquetado, plataforma, directiva
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7384bcbba3e9793018628a66bb683c381d00e87a
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 30%
@@ -90,7 +90,7 @@ Antes de activar el recorrido o la campaña, el sistema comprueba si la acción 
 
 Si el sistema identifica un campo restringido, se muestra un error que le impide publicar el recorrido o la campaña. [Obtenga información sobre cómo detectar una infracción de directiva de gobernanza](#violation)
 
-![](../privacy/assets/governance-policy-schema.png){zoomable="yes"}
+![](assets/governance-policy-schema.png){zoomable="yes"}
 
 *Pasos de análisis de infracciones de directivas para recorridos y campañas*
 
@@ -126,7 +126,7 @@ Veamos el ejemplo del campo de grupo sanguíneo que debe restringir para que no 
 
 Si uno de los campos está etiquetado _ePHI1_ (el campo del tipo de sangre en nuestro ejemplo) se detecta en los parámetros de acción, se muestra un error que impide que publique el recorrido. [Obtenga información sobre cómo detectar una infracción de directiva de gobernanza](#violation)
 
-![](../privacy/assets/governance-policy-custom-action-schema.png){zoomable="yes"}
+![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
 
 *Pasos de análisis de infracciones de directivas para acciones personalizadas de recorridos*
 
