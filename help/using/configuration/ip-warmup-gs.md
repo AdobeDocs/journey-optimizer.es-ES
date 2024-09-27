@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, entregabilidad
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: d880d38784c2687f9710e6733c1489601e6760ba
+source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 71%
+source-wordcount: '246'
+ht-degree: 73%
 
 ---
 
@@ -22,15 +22,11 @@ Con [!DNL Journey Optimizer], puede realizar fácilmente flujos de trabajo de ca
 
 Para evitar que se considere correo no deseado, puede aumentar progresivamente el volumen enviado mediante la función de plan de calentamiento de IP. Esta nueva opción del menú **[!UICONTROL Administración]** le permite hacerlo más fácilmente de una manera consolidada en lugar de crear recorridos diarios complejos.
 
-<!--➡️ [Learn how to create and execute an IP warmup plan in this video](#video)-->
+➡️ [Aprenda a crear y ejecutar un plan de calentamiento de IP en este vídeo](#video)
 
 >[!AVAILABILITY]
 >
 >Esta capacidad solo se puede habilitar en entornos limitados de tipo de producción.
->
->No está disponible para organizaciones que hayan adquirido las ofertas adicionales de **Healthcare Shield** o **Privacy and Security Shield** de Adobe.
-
-
 
 <!--
 Benefits
