@@ -46,12 +46,12 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_key_id"
 >title="ID de clave"
->abstract="La Key ID, una cadena de 10 caracteres asignada durante la creación de la clave de autenticación p8, se encuentra en la ficha **Claves** de la página Certificados, identificadores y perfiles de su cuenta de desarrollador."
+>abstract="El ID de clave, una cadena de 10 caracteres asignada durante la creación de la clave de autenticación p8, se encuentra en la ficha **Claves** de la página Certificados, identificadores y perfiles de su cuenta de desarrollador."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
 >title="ID de equipo"
->abstract="El Team ID, un valor de cadena usado para identificar a su equipo, se encuentra en la ficha **Membresía** de su cuenta de desarrollador."
+>abstract="El ID de equipo, un valor de cadena usado para identificar a tu equipo, se encuentra en la ficha **Membresía** de su cuenta de desarrollador."
 
 
 Esta configuración simplifica la configuración rápida de los canales de marketing, lo que facilita la disponibilidad de todos los recursos esenciales en las aplicaciones de Experience Platform, Journey Optimizer y de recopilación de datos. Esto permite a su equipo de marketing empezar a crear campañas y recorridos rápidamente.

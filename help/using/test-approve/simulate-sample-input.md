@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prueba del contenido con datos de entrada de ejemplo
+title: Prueba del contenido con datos de entrada de muestra
 description: Obtenga información sobre cómo previsualizar el contenido del correo electrónico y enviar pruebas con datos de entrada de ejemplo.
 feature: Overview, Get Started
 topic: Content Management
@@ -13,12 +13,12 @@ hidefromtoc: true
 source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
 
-# Prueba del contenido con datos de entrada de ejemplo {#custom-profiles}
+# Prueba del contenido con datos de entrada de muestra {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"

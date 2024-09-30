@@ -13,7 +13,7 @@ badge: label="Disponibilidad limitada" type="Informative"
 source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 21%
+ht-degree: 28%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"
 >title="Traducciones"
->abstract="La función multilingüe le permite crear fácilmente contenido en varios idiomas dentro de una sola campaña o recorrido. A través de la página Traducciones, puede configurar proyectos, seleccionar proveedores de traducción o administrar diccionarios específicos de la configuración regional"
+>abstract="La función multilingüe le permite crear contenido sin esfuerzo en varios idiomas dentro de una misma campaña o recorrido. A través de la página Traducciones, puede configurar proyectos, seleccionar proveedores de traducción o administrar diccionarios específicos de la configuración regional"
 
 >[!AVAILABILITY]
 >

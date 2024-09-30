@@ -14,7 +14,7 @@ badgePrivateBeta: label="Private Beta" type="Informative"
 source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 30%
+ht-degree: 33%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="Infracción de la directiva de gobernanza de datos"
->abstract="Si el sistema identifica un campo restringido en un recorrido/campaña o una acción personalizada, se muestra un error que impide publicarlo. Utilice el diagrama de linaje de datos de este cuadro de diálogo para comprender qué otros cambios de configuración deben realizarse antes de activar el recorrido o la campaña."
+>abstract="Si el sistema identifica un campo restringido en un recorrido/campaña o una acción personalizada, se muestra un error que impide su publicación. Utilice el diagrama de linaje de datos de este cuadro de diálogo para comprender qué otros cambios de configuración deben realizarse antes de activar el recorrido o la campaña."
 
 >[!AVAILABILITY]
 >

@@ -10,7 +10,7 @@ hidefromtoc: true
 source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 5%
+ht-degree: 26%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 5%
 
 En Journey Optimizer, administrar el volumen y el tiempo de las campañas y los recorridos es esencial para evitar abrumar a los clientes con demasiadas interacciones. Las dos secciones siguientes presentan herramientas clave para ayudarle a mantener el equilibrio y priorizar las comunicaciones de forma eficaz.
 
-## Ver conflictos potenciales en recorridos y campañas {#conflict}
+## Ver posibles conflictos en recorridos y campañas {#conflict}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="Visualizador de conflictos en campañas"
->abstract="Esta herramienta puede ayudarle a determinar la superposición con otros recorridos, campañas o configuraciones de canal. Si desea identificar la superposición en la audiencia, la fecha de inicio y finalización, la configuración del canal, el canal o el conjunto de reglas, puede ver posibles conflictos aquí."
+>abstract="Esta herramienta puede ayudarle a determinar la superposición con otros recorridos, campañas o configuraciones de canal. Si desea identificar superposiciones en público, fecha de inicio y de finalización, configuración de canal, canal o el conjunto de reglas, puede ver posibles conflictos aquí."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="Visualizador de conflictos en recorridos"
->abstract="Esta herramienta puede ayudarle a determinar la superposición con otros recorridos, campañas o configuraciones de canal. Si desea identificar la superposición en la audiencia, la fecha de inicio y finalización, la configuración del canal, el canal o el conjunto de reglas, puede ver posibles conflictos aquí."
+>abstract="Esta herramienta puede ayudarle a determinar la superposición con otros recorridos, campañas o configuraciones de canal. Si desea identificar superposiciones en público, fecha de inicio y de finalización, configuración de canal, canal o el conjunto de reglas, puede ver posibles conflictos aquí."
 
 A medida que los especialistas en marketing aumentan el volumen de campañas y Recorridos en Journey Optimizer, se hace cada vez más difícil para un experto en marketing saber si está bombardeando a sus clientes con demasiadas interacciones de marketing. por lo tanto, es esencial identificar fácilmente cuándo hay campañas y recorridos superpuestos para garantizar que logren el equilibrio adecuado en las comunicaciones de marketing y, al mismo tiempo, mitigar el riesgo de fatiga de los clientes.
 
@@ -80,12 +80,12 @@ Al aprovechar estas capacidades, puede asegurarse de que los esfuerzos de market
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioridad"
->abstract="Asigne una puntuación de prioridad de recorrido comprendida entre 0 y 100. Un número mayor indica una prioridad mayor. El valor de prioridad insertado aquí lo heredan las acciones entrantes (como en la aplicación) contenidas en este recorrido. En el caso de situaciones en las que esta misma configuración de canal entrante se utiliza en otras campañas o recorridos, se muestra al destinatario la acción entrante con la puntuación de prioridad más alta. Si varios recorridos o campañas tienen la misma puntuación, se elige el elemento que se modificó más recientemente."
+>abstract="Asigne una puntuación de prioridad de recorrido comprendida entre 0 y 100. Un número mayor indica una prioridad mayor. El valor de prioridad insertado aquí lo heredan las acciones entrantes (como in-app) contenidas en este recorrido. En el caso de situaciones en las que esta misma configuración de canal entrante se utiliza en otras campañas o recorridos, se muestra al destinatario la acción entrante con la puntuación de prioridad más alta. Si varios recorridos o campañas tienen la misma puntuación, se elige el elemento que se ha modificado más recientemente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Prioridad"
->abstract="Asigne una puntuación de prioridad a la campaña, de 0 a 100. Un número mayor indica una prioridad mayor. En situaciones en las que esta misma configuración de canal entrante (como en la aplicación) se utiliza en otras campañas o recorridos, se muestra al destinatario la acción entrante con la puntuación de prioridad más alta. Si varios recorridos o campañas tienen la misma puntuación, se elige el elemento que se modificó más recientemente."
+>abstract="Asigne una puntuación de prioridad a la campaña, de 0 a 100. Un número mayor indica una prioridad mayor. En el caso de situaciones en las que esta misma configuración de canal entrante (como in-app) se utiliza en otras campañas o recorridos, se muestra al destinatario la acción entrante con la puntuación de prioridad más alta. Si varios recorridos o campañas tienen la misma puntuación, se elige el elemento que se ha modificado más recientemente."
 
 Journey Optimizer le permite asignar una puntuación de prioridad a un recorrido o campaña. La prioridad es esencial para priorizar un recorrido, una campaña o una acción cuando hay una restricción impuesta (como un límite de frecuencia). En situaciones en las que un cliente cumple los requisitos para muchos recorridos, campañas o comunicaciones y desea ser selectivo sobre qué debe introducir y recibir, debe utilizar este campo.
 

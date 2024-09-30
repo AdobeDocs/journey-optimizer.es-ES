@@ -21,7 +21,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="Nombre de configuración móvil y web"
->abstract="Introduzca el nombre de la configuración móvil o web. Este nombre se utilizará para cada recurso creado automáticamente con la configuración del canal guiado."
+>abstract="Introduzca el nombre de la configuración móvil o web. Este nombre se utilizará para cada recurso creado automáticamente con la configuración de canales guiada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
