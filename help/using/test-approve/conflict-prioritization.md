@@ -7,9 +7,9 @@ level: Beginner
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: 0322a13304875c4ba9ae8a9e7710fa2e71e459b3
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '970'
 ht-degree: 26%
 
 ---
@@ -53,7 +53,7 @@ Journey Optimizer le permite comprobar si hay alguna posibilidad de superposici�
 
    >[!NOTE]
    >
-   >El botón **[!UICONTROL Ver conflictos potenciales]** está disponible para su selección en cuanto se haya asignado cualquiera de las siguientes opciones de configuración: **[!UICONTROL Fecha de inicio/finalización]**, **[!UICONTROL Audiencia]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuración de canal]** y **[!UICONTROL Conjunto de reglas]**.
+   >El botón **[!UICONTROL Ver conflictos potenciales]** está disponible para su selección en cuanto se asigne cualquiera de las siguientes opciones de configuración: **[!UICONTROL Fecha de inicio/finalización]**, **[!UICONTROL Audiencia]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuración de canal]** y **[!UICONTROL Conjunto de reglas]**. Asegúrese de seleccionar **[!UICONTROL Guardar]** después de asignar esta configuración, ya que el botón no se podrá seleccionar hasta que se guarden los cambios.
 
 1. Se abre la ventana **[!UICONTROL Potential conflicts]**, que le permite visualizar todos los elementos que se superponen con el recorrido o la campaña actual.
 
@@ -91,7 +91,7 @@ Journey Optimizer le permite asignar una puntuación de prioridad a un recorrido
 
 >[!NOTE]
 >
->La puntuación de prioridad está disponible para canales entrantes: canales web, en la aplicación y basados en código. En recorrido, la puntuación de prioridad solo está disponible para el canal **en la aplicación**.
+>La puntuación de prioridad está disponible para canales entrantes: canales web, en la aplicación y basados en código. En recorrido, la puntuación de prioridad solo está disponible para los canales **en la aplicación** y **basados en código**.
 
 Asignar una puntuación de prioridad es crucial para la comunicación entrante, como web, móvil y en la aplicación. Si tiene varias campañas con la misma configuración de canal (por ejemplo, un banner en la parte superior de la página web), esto podría resultar problemático, ya que solo se puede mostrar contenido de una campaña de forma factible. La puntuación de prioridad es donde insertará su preferencia para la campaña que debe mostrarse cuando el destinatario pueda cumplir los requisitos para más de una campaña.
 
@@ -99,4 +99,4 @@ Para asignar una puntuación de prioridad a un recorrido o campaña, escriba un 
 
 ![](assets/priority-score.png)
 
-En situaciones en las que dos campañas tienen la misma puntuación de prioridad, se muestra la campaña activada más recientemente.
+En situaciones en las que dos campañas tienen la misma puntuación de prioridad, se muestra la campaña activada menos recientemente.
