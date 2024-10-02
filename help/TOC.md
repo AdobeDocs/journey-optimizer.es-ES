@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
-source-wordcount: '2055'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 95%
 + Probar y aprobar {#test}
    + [Administración de conflictos y priorización](using/test-approve/conflict-prioritization.md)
    + Vista previa y prueba del contenido {#preview-test}
-      + [Prueba del contenido con datos de entrada de ejemplo](using/test-approve/simulate-sample-input.md)
+      + [Prueba del contenido con datos de entrada de muestra](using/test-approve/simulate-sample-input.md)
       + [Introducción a la vista previa y prueba](using/content-management/preview-test.md)
       + [Seleccionar perfiles de prueba](using/content-management/test-profiles.md)
       + [Vista previa del contenido](using/content-management/preview.md)
@@ -272,11 +272,11 @@ ht-degree: 95%
    + [Creación de experiencias basadas en código](using/code-based/create-code-based.md)
 + Tarjetas de contenido{#content-card}
    + [Introducción a las tarjetas de contenido](using/content-card/get-started-content-card.md)
-   + Configurar el canal de la tarjeta de contenido {#configure}
+   + Configuración del canal de tarjetas de contenido{#configure}
       + [Requisitos previos de tarjetas de contenido](using/content-card/content-card-configuration-prereq.md)
       + [Configuración del canal de tarjetas de contenido en Journey Optimizer](using/content-card/content-card-configuration.md)
       + [Configuración de la compatibilidad con tarjetas de contenido en SDK web](using/content-card/content-card-configuration-sdk.md)
-   + [Crear tarjetas de contenido](using/content-card/create-content-card.md)
+   + [Creación de tarjetas de contenido](using/content-card/create-content-card.md)
    + [Diseño de tarjetas de contenido](using/content-card/design-content-card.md)
 + Páginas de aterrizaje {#landing-pages}
    + [Introducción a las páginas de aterrizaje](using/landing-pages/get-started-lp.md)
@@ -293,11 +293,11 @@ ht-degree: 95%
       + [Definir ajustes preestablecidos de página de aterrizaje](using/landing-pages/lp-presets.md)
 + Gestión de contenido {#content-management}
    + Trabajo con el asistente de IA{#ai-assistant}
-      + [Introducción al Acelerador de contenido del Asistente de IA](using/content-management/gs-generative.md)
+      + [Introducción al acelerador de contenido del Asistente de IA](using/content-management/gs-generative.md)
       + [Generación de correo electrónico con IA](using/content-management/generative-email.md)
-      + [Generación push con IA](using/content-management/generative-push.md)
+      + [Generación de push con IA](using/content-management/generative-push.md)
       + [Generación de SMS con IA](using/content-management/generative-sms.md)
-      + [Generación web con IA](using/content-management/generative-web.md)
+      + [Generación de web con IA](using/content-management/generative-web.md)
       + [Experimento de contenido con IA](using/content-management/generative-experimentation.md)
       + [Casos de uso del Asistente de IA](using/content-management/generative-uc.md)
    + Trabajo con contenido multilingüe{#content-multilingual}

@@ -7,8 +7,8 @@ product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 9688a0303726d706106ba7c89157529e02ecbfca
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ La versión de septiembre ya está activa, e incluye tarjetas de contenido para 
 
 >[!TAB Asistente de IA]
 
-✨ Sumérjase en una experiencia práctica con la vista previa de las funciones en directo de [AI Assistant Content Accelerator](../help/using/content-management/gs-generative.md), diseñada para que explore sus características de primera mano y comprenda sus capacidades.
+✨ Láncese a una experiencia práctica inmersiva con la previsualización en directo de nuestro [acelerador de contenido del Asistente de IA](../help/using/content-management/gs-generative.md), diseñado para permitirle explorar sus funciones en primera persona y comprender plenamente sus capacidades.
 
 [![Más información](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -206,7 +206,7 @@ Para cambiar el idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="Aplicar conjunto de reglas a los recorridos"
->abstract="Aplique un conjunto de reglas para excluir este recorrido para parte del público, en función de las reglas de límite de frecuencia."
+>abstract="Aplique un conjunto de reglas para excluir este recorrido aparte del público según las reglas de restricción de frecuencia."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -216,7 +216,7 @@ Para cambiar el idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="Priorización de cara al futuro"
->abstract=" Si se programa un recorrido de mayor prioridad dentro del período de tiempo especificado aquí, se impedirá que el cliente entre en este recorrido. Para situaciones en las que desee que los recorridos se incluyan por orden de llegada, le sugerimos que elija el periodo de priorización Diario y que garantice que la puntuación de prioridad de cualquier otro recorrido de ese día sea menor que la puntuación de prioridad del recorrido. Proporcionar una puntuación de prioridad de 100 a un recorrido también garantizaría que se entre en él."
+>abstract=" Si se programa un recorrido de mayor prioridad dentro del período de tiempo especificado aquí, se impedirá que el cliente entre en este recorrido. Para situaciones en las que desea que los recorridos se incluyan por orden de llegada, le sugerimos que elija el periodo de actualización Diario y que garantice que la puntuación de prioridad de cualquier otro recorrido de ese día sea menor que la puntuación de prioridad del recorrido. Proporcionar una puntuación de prioridad de 100 a un recorrido también garantizaría que se inicie."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
@@ -332,5 +332,5 @@ Para cambiar el idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="Habilitar Decisiones sobre experiencias"
->abstract="Habilitar Decisiones sobre experiencias"
+>title="Habilitar las decisiones sobre experiencias"
+>abstract="Habilitar las decisiones sobre experiencias"
