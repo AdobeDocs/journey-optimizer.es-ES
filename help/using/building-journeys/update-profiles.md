@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: perfil, actualizar, recorrido, actividad
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 3639a1b23ce259d0a8af5f4e801f8c54eb6b3b3c
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '628'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
 
 Utilice la actividad de acción **[!UICONTROL Actualizar perfil]** para actualizar un perfil de Adobe Experience Platform existente con información proveniente de un evento, una fuente de datos o con un valor específico.
 
-## Recomendaciones
+## Conceptos clave {#key-concepts}
 
 * La acción **Actualizar perfil** solo se puede usar en recorridos que tengan un área de nombres.
 * La acción solo actualiza los campos existentes, no crea nuevos campos de perfil.
@@ -34,11 +34,12 @@ Utilice la actividad de acción **[!UICONTROL Actualizar perfil]** para actualiz
 * La solicitud de actualización enviada a Adobe Experience Platform es inmediata o está en un segundo. Tardará normalmente unos segundos, pero a veces más sin garantía. Como resultado, por ejemplo, si una acción está usando &quot;campo 1&quot; actualizado por una acción **Actualizar perfil** colocada justo antes, no debería esperar que &quot;campo 1&quot; se actualice en la acción.
 * La actividad **Actualizar perfil** no admite campos XDM definidos como una enumeración.
 * La actividad **[!UICONTROL Actualizar perfil]** solo actualiza el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, no el lago de datos.
-* Al seleccionar un conjunto de datos en la actividad **[!UICONTROL Actualizar perfil]**, se recomienda utilizar uno no segmentado por los flujos de ingesta de datos. Dado que las actualizaciones del **perfil de actualización** solo se almacenan en el [almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, existe el riesgo de sobrescribir dichos cambios con un flujo de ingesta de datos.
 
-  Además, la configuración de la actividad **Actualizar perfil** no requiere un área de nombres de identidad. De este modo, asegúrese de que el conjunto de datos seleccionado utilice el mismo área de nombres de identidad que utilizó la acción que inició el recorrido, ya que es este área de nombres el que utilizarán estas actualizaciones. El conjunto de datos seleccionado también puede utilizar el mapa de identidad. Si no se selecciona un conjunto de datos con el área de nombres correcta o uno que usa el mapa de identidad, la actividad **Actualizar perfil** fallará.
+## Selección de conjuntos de datos {#dataset-selection}
 
+La actividad **Actualizar perfil** requiere un conjunto de datos dedicado para almacenar actualizaciones. Dado que esta actividad solo actualiza el almacén de perfiles (no el conjunto de datos), todas las actualizaciones deben guardarse en un conjunto de datos habilitado para perfiles designado específicamente para **Actualizar perfil** acciones. El uso de un conjunto de datos usado para la ingesta por lotes o de flujo continuo hará que los datos recién incorporados sobrescriban los cambios realizados por la acción **Actualizar perfil**.
 
+Además, la configuración de la actividad **Actualizar perfil** no requiere un área de nombres de identidad. De este modo, asegúrese de que el conjunto de datos seleccionado utilice el mismo **área de nombres de identidad** que utilizó la acción que inició el recorrido, ya que es este área de nombres que utilizarán estas actualizaciones. El conjunto de datos seleccionado también puede utilizar el mapa de identidad. Si no se selecciona un conjunto de datos con el área de nombres correcta o uno que utiliza el mapa de identidad, la actividad Actualizar perfil fallará.
 
 ## Uso de la actualización de perfiles
 
