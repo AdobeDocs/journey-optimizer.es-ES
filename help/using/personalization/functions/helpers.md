@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
+source-git-commit: 110c4895ac7f0b683a695e9705a8f8ac54d09637
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 5%
@@ -142,7 +142,6 @@ Podemos hacer referencia a los elementos de matriz individuales usando la palabr
 ```sql
 {{#each profile.productsInCart}}
     <li>{{this.name}}</li>
-    </br>
 {{/each}}
 ```
 
@@ -161,7 +160,6 @@ Procese una lista de productos que este usuario tiene en el carro de compras:
 ```sql
 {{#each profile.products as |product|}}
     <li>{{product.productName}} {{product.productRating}}</li>
-   </br>
 {{/each}}
 ```
 
