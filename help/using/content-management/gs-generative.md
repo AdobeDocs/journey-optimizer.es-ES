@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción al asistente de IA en Journey Optimizer Content Accelerator
-description: Obtenga información sobre cómo acceder al Ayudante de IA y trabajar con él en Journey Optimizer Content Accelerator
+title: Introducción al Asistente de IA en el acelerador de contenido de Journey Optimizer
+description: Información sobre cómo acceder y trabajar con el Asistente de IA en el acelerador de contenido de Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '884'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Introducción al Acelerador de contenido del Asistente de IA {#gs-content-assistant}
+# Introducción al acelerador de contenido del Asistente de IA {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
@@ -35,7 +35,7 @@ ht-degree: 94%
 
 >[!INFO]
 >
->Sumérjase en una experiencia práctica con [nuestra vista previa de características en vivo](https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, diseñada para que explore sus características de primera mano y comprenda completamente sus capacidades.
+>Láncese a una experiencia práctica inmersiva con [nuestra vista previa en directo](https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, diseñada para permitirle explorar sus funciones en primera persona y comprender plenamente sus capacidades.
 
 
 El Asistente de IA en Adobe Journey Optimizer para aceleración de contenido, con tecnología de Microsoft Azure OpenAI y Adobe Firefly, ofrece sugerencias proactivas de variación de contenido para texto e imágenes. Está disponible para canales de correo electrónico, push y SMS. Esta nueva funcionalidad proporciona una generación de texto e imágenes basada en solicitudes. La generación de imágenes se administra con Adobe Firefly.

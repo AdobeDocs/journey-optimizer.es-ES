@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1008'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 41%
 
 ## Notas de la versión anticipada de septiembre de 2024 {#e-2024}
 
-**Fecha de la versión**: 24 y 25 de septiembre de 2024
+**Fecha de la versión**: 24-25 de septiembre de 2024
 
 ### Nuevas funciones {#e-features}
 
@@ -83,13 +83,13 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Criterios globales de salida en recorrido</strong><br/></th>
+<th><strong>Criterios de salida globales en los recorridos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede definir criterios de salida en el nivel de recorrido. Al añadir criterios de salida, hace que los perfiles salgan del recorrido en cuanto se produce un evento (p. ej.: compra) o cumplen los requisitos para una audiencia. Esto evitará que el usuario reciba más comunicaciones del recorrido.</p>
+<p>Ahora puede definir los criterios de salida en el nivel de recorrido. Al añadir criterios de salida, hace que los perfiles salgan del recorrido en cuanto se produce un evento (p. ej.: compra) o cumplen los requisitos para un público. Esto evitará que el usuario reciba más comunicaciones del recorrido.</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
@@ -116,7 +116,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <table>
 <thead>
 <tr>
-<th><strong>Acelerador de contenido del asistente de IA </strong><br/></th>
+<th><strong>Acelerador de contenido del Asistente de IA </strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -154,7 +154,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 >[!IMPORTANT]
 >
 >La experiencia actual de creación de informes se eliminará a partir de la versión de octubre. Después de esta fecha, la nueva experiencia de creación de informes pasará a ser el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas.
-> [Introducción a la nueva interfaz de informes de Journey Optimizer](../reports/report-gs-cja.md)
+> [Introducción a la nueva interfaz del sistema de creación de informes de Journey Optimizer](../reports/report-gs-cja.md)
 
 
 ### Mejoras {#e-improvements}
@@ -165,11 +165,11 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * El uso de públicos de carga personalizada (archivo CSV) ya está disponible para su uso con el complemento del Escudo de seguridad y privacidad.
   <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
-* (Fecha de disponibilidad: 17 de septiembre) **Uso de licencias**: el panel Uso de licencias ahora muestra los perfiles atractivos, en lugar de las audiencias atractivas. [Más información](../audience/license-usage.md)
+* (Fecha de disponibilidad: 17 de septiembre) **Uso de licencias**: el panel Uso de licencias ahora muestra perfiles interesados, en lugar de públicos interesados. [Más información](../audience/license-usage.md)
 
-**Gobierno de datos**
+**Gobernanza de datos**
 
-* Ahora puede aplicar políticas de gobernanza de datos a los canales de Journey Optimizer, además de acciones personalizadas dentro de los recorridos. Esta mejora ayuda a evitar el uso de campos confidenciales en las comunicaciones mediante la aplicación de acciones de marketing directamente dentro de las configuraciones de canal.
+* Ahora puede aplicar directivas de gobernanza de datos a los canales de Journey Optimizer, además de acciones personalizadas dentro de los recorridos. Esta mejora ayuda a evitar el uso de campos confidenciales en las comunicaciones mediante la aplicación de acciones de marketing directamente dentro de las configuraciones de canal.
 
 <!--
 **Frequency and priority management**
@@ -184,18 +184,18 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Recorridos**
 
-* **Número máximo de recorridos activos**: Journey Optimizer ahora tiene una protección de 500 recorridos activos en zonas protegidas de producción, en lugar de 100. El número de recorridos activos es visible en el lienzo de recorrido.
+* **Número máximo de recorridos activos**: Journey Optimizer ahora tiene un mecanismo de protección de 500 recorridos activos en zonas protegidas de producción, en lugar de 100. El número de recorridos activos es visible en el lienzo de recorrido.
 
-* **Mejoras en la creación de informes en directo**: la creación de informes en directo proporciona información sobre el rendimiento de sus recorridos en las últimas 24 horas. La hemos mejorado añadiendo nuevas métricas (perfiles introducidos, salidos y descartados por error), lo que le permite comprender mejor el comportamiento y el rendimiento del usuario directamente desde el lienzo de Recorrido.
+* **Mejoras en la creación de informes en directo**: la creación de informes en directo proporciona información sobre el rendimiento de sus recorridos en las últimas 24 horas. La hemos mejorado añadiendo nuevas métricas (perfiles de entrada, salida y descartados, y perfiles erróneos), lo que le permite comprender mejor el comportamiento y el rendimiento del usuario directamente desde el lienzo de recorrido.
 
 * **Parámetros en acciones personalizadas**: ahora se admiten parámetros NULL y opcionales en las acciones personalizadas.
 
-* (Fecha de disponibilidad: 10 de septiembre) **Reintentos automáticos en la audiencia de lectura**. Los reintentos ahora se aplican de forma predeterminada en recorridos activados por la audiencia (a partir de **Audiencia de lectura** o un **Evento empresarial**) al recuperar el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada. [Más información](../building-journeys/read-audience.md#retries)
+* (Fecha de disponibilidad: 10 de septiembre) **Reintentos automáticos de Leer público**: los reintentos ahora se aplican de forma predeterminada a los recorridos activados por públicos (empezando con una actividad **Leer público** o **Evento empresarial**) cuando se recupera el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada. [Más información](../building-journeys/read-audience.md#retries)
 
 **Canal de correo electrónico**
 
-* **Encabezado de mensaje CCO**: se ha agregado un nuevo encabezado a todos los mensajes de correo electrónico. El valor de este encabezado es único para cada correo electrónico enviado y para su copia de correo electrónico CCO correspondiente. Este encabezado también se almacena en los conjuntos de datos de comentarios de mensajes y CCO, lo que permite reconciliar la copia CCO y la información de correo electrónico enviado correspondiente.
-* **Puntuación de spam** (GA): Ahora puede comprobar la puntuación de spam de contenido en un informe de spam dedicado. Utilizando SpamAssassin, Adobe Journey Optimizer ahora puede probar el contenido de su correo electrónico y darle una puntuación para indicar si los ISP o los proveedores de buzones lo considerarán correo no deseado o no. [Más información](../content-management/spam-report.md)
+* **Encabezado de mensaje CCO**: se ha añadido un nuevo encabezado a todos los mensajes de correo electrónico. El valor de este encabezado es único para cada correo electrónico enviado y para su copia de correo electrónico CCO correspondiente. Este encabezado también se almacena en los conjuntos de datos del mensaje y en los comentarios CCO, lo que permite reconciliar la copia CCO y la información de correo electrónico enviado correspondiente.
+* **Puntuación de correo no deseado** (GA): ahora puede comprobar la puntuación de correo no deseado de su contenido en un informe específico. Utilizando SpamAssassin, Adobe Journey Optimizer ahora puede probar el contenido de su correo electrónico y darle una puntuación para indicar si los ISP o los proveedores de buzones lo considerarán correo no deseado o no. [Más información](../content-management/spam-report.md)
 
 **Canal de SMS**
 
@@ -203,16 +203,16 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **API**
 
-* La [documentación de la API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} ahora es interactiva. Explore los extremos de la API directamente desde las páginas de documentación para obtener comentarios inmediatos y acelerar la implementación técnica.
+* La [documentación de la API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} ahora es interactiva. Explore los extremos de la API directamente desde las páginas de documentación para obtener comentarios inmediatos y acelerar la implementación técnica. 
 
-  Todas las páginas de referencia de la API ahora tienen la funcionalidad **Probar** que puede usar para probar las llamadas de la API directamente en la página del sitio web de documentación. [Obtenga las credenciales de autenticación necesarias](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} y comience a usar la funcionalidad para explorar los extremos de la API.
+  Todas las páginas de referencia de la API ahora tienen una funcionalidad **Probar** que puede usar para probar las llamadas de la API directamente en la página del sitio web de documentación. [Obtenga las credenciales de autenticación requeridas](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} y empiece a usar la funcionalidad para explorar los extremos de la API.
 
-  Utilice esta nueva funcionalidad para explorar las solicitudes a y las respuestas de los extremos de la API, obtener comentarios inmediatos y acelerar la implementación técnica.
+  Utilice esta nueva funcionalidad para explorar las solicitudes y las respuestas de los extremos de la API, obtener comentarios inmediatos y acelerar la implementación técnica. 
 
   >[!CAUTION]
   >
-  >Tenga en cuenta que al utilizar la funcionalidad de API interactiva en las páginas de documentación de, está realizando llamadas de API reales a los extremos de. Tenga esto en cuenta al experimentar con entornos limitados de producción.
+  >Tenga en cuenta que, al utilizar la funcionalidad de API interactiva en las páginas de documentación, está realizando llamadas de API reales a los puntos finales. Tenga esto en cuenta al experimentar con zonas protegidas de producción.
 
 
-* **API de simulación de campaña**: use esta API para almacenar en déclencheur el trabajo de prueba de una campaña. El envío de la prueba de Campaign es un proceso asincrónico, la API devuelve un proofJobId que se puede utilizar para comprobar el estado de la prueba. [Más información](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **API de simulación de campaña**: use esta API para activar el trabajo de prueba de una campaña. El envío de la prueba de una campaña es un proceso asincrónico, la API devuelve un proofJobId que se puede utilizar para comprobar el estado de la prueba. [Más información](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
