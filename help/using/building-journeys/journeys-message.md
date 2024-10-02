@@ -1,98 +1,137 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Añadir un mensaje en un recorrido
-description: Obtenga información sobre cómo agregar un mensaje en un recorrido
+title: Añadir una acción de canal integrada a un recorrido
+description: Aprenda a añadir una acción de canal integrada a un recorrido
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
-keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación
+keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
+source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 18%
+source-wordcount: '1268'
+ht-degree: 14%
 
 ---
 
-# Envío de mensajes de correo electrónico, push, de texto y de aplicaciones {#add-a-message-in-a-journey}
+# Uso de acciones de canal integradas {#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
->title="Actividad de mensaje"
->abstract="Journey Optimizer incluye funcionalidades de mensajería integradas. Puede simplemente añadir en el recorrido una actividad de mensaje push, de mensaje de texto (SMS/MMS), de mensaje de la aplicación o de correo electrónico y definir la configuración y el contenido. A continuación, se ejecuta y envía en el contexto del recorrido."
+>title="Acción de canal integrada"
+>abstract="Journey Optimizer incluye funciones de acción de canal integradas. Puede simplemente añadir a su recorrido una actividad saliente (correo electrónico, mensaje de texto (SMS/MMS), push) o entrante (aplicación, web, experiencia basada en código, tarjeta de contenido) y definir la configuración y el contenido. A continuación, se ejecuta y envía en el contexto del recorrido."
 
-[!DNL Journey Optimizer] viene con funcionalidades de mensajes integradas. Puede simplemente añadir en el recorrido una actividad push, un SMS/MMS, una actividad de mensaje en la aplicación o de correo electrónico y definir la configuración y el contenido. A continuación, se ejecuta y envía en el contexto del recorrido.
+[!DNL Journey Optimizer] viene con funcionalidades de acción de canal integradas. Puede simplemente añadir a su recorrido una actividad saliente (correo electrónico, mensaje de texto (SMS/MMS), push) o entrante (aplicación, web, experiencia basada en código, tarjeta de contenido) y definir la configuración y el contenido. A continuación, se ejecuta y envía en el contexto del recorrido.
 
-También puede configurar acciones específicas para enviarle mensajes:
+>[!NOTE]
+>
+>También puede configurar acciones específicas para enviarle mensajes. [Más información](#recommendation)
 
-* Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada. Obtenga más información en esta [sección](../action/action.md).
+Para añadir una acción de canal integrada a un recorrido, siga los pasos a continuación.
+
+1. Inicie el recorrido con una actividad [Event](general-events.md) o [Read Audience](read-audience.md).
+
+1. En la sección **Acciones** de la paleta, arrastre y suelte una actividad de salida (**correo electrónico**, **push**, **SMS**) o de entrada (**en la aplicación**, **web**, **experiencia basada en código**, **tarjeta de contenido**) en el lienzo.
+
+   ![](assets/journey-web-activity.png)
+
+1. Configure su actividad.
+
+   * Conozca los pasos detallados para crear el contenido del mensaje de la siguiente manera:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../email/create-email.md">
+      <img alt="Posible cliente" src="../assets/do-not-localize/email.jpg">
+      </a>
+      <div><a href="../email/create-email.md"><strong>Creación de correos electrónicos</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../push/create-push.md">
+      <img alt="Poco frecuente" src="../assets/do-not-localize/push.jpg">
+      </a>
+      <div>
+      <a href="../push/create-push.md"><strong>Creación de notificaciones push<strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../sms/create-sms.md">
+      <img alt="Validación" src="../assets/do-not-localize/sms.jpg">
+      </a>
+      <div>
+      <a href="../sms/create-sms.md"><strong>Crear mensajes de texto (SMS/MMS)</strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   * Conozca los pasos detallados para crear su acción entrante de la siguiente manera:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../in-app/create-in-app.md">
+      <img alt="Posible cliente" src="../assets/do-not-localize/in-app.jpg">
+      </a>
+      <div><a href="../in-app/create-in-app.md"><strong>Crear mensajes en la aplicación</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../web/create-web.md">
+      <img alt="Posible cliente" src="../assets/do-not-localize/web-create.jpg">
+      </a>
+      <div><a href="../web/create-web.md"><strong>Crear experiencias web</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../content-card/create-content-card.md">
+      <img alt="Posible cliente" src="../assets/do-not-localize/sms-config.jpg">
+      </a>
+      <div><a href="../content-card/create-content-card.md"><strong>Crear tarjetas de contenido</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../code-based/create-code-based.md">
+      <img alt="Poco frecuente" src="../assets/do-not-localize/web-design.jpg">
+      </a>
+      <div>
+      <a href="../code-based/create-code-based.md"><strong>Crear experiencias basadas en código<strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+     >[!NOTE]
+     >
+     >Cada actividad de mensaje entrante viene con una actividad de **Wait** de 3 días. [Más información](../building-journeys/wait-activity.md#auto-wait-node)
+
+## Recomendación {#recommendation}
+
+[!DNL Journey Optimizer] viene con capacidad de envío de mensajes integrada. Sin embargo, las acciones personalizadas le permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API.
+
+* Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada. [Más información](../action/action.md)
 
 * Si está trabajando con Campaign y Journey Optimizer, consulte estas secciones:
 
    * [[!DNL Journey Optimizer] y Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] y Campaign Standard](../action/acs-action.md)
 
-Para añadir un mensaje en un recorrido, siga los pasos a continuación:
-
-1. Inicie el recorrido con una actividad [Event](general-events.md) o [Read Audience](read-audience.md).
-
-1. En la sección **Acciones** de la paleta, arrastre y suelte una actividad **correo electrónico**, **En la aplicación**, **SMS** o **Push** en el lienzo.
-
-1. Configure su actividad.
-
-   Conozca los pasos detallados para crear el contenido del mensaje en las siguientes páginas:
-
-   <table style="table-layout:fixed">
-   <tr style="border: 0;">
-   <td>
-   <a href="../email/create-email.md">
-   <img alt="Posible cliente" src="../assets/do-not-localize/email.jpg">
-   </a>
-   <div><a href="../email/create-email.md"><strong>Creación de correos electrónicos</strong>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../in-app/create-in-app.md">
-   <img alt="Posible cliente" src="../assets/do-not-localize/in-app.jpg">
-   </a>
-   <div><a href="../in-app/create-in-app.md"><strong>Crear mensajes en la aplicación</strong>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../push/create-push.md">
-   <img alt="Poco frecuente" src="../assets/do-not-localize/push.jpg">
-   </a>
-   <div>
-   <a href="../push/create-push.md"><strong>Creación de notificaciones push<strong></a>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../sms/create-sms.md">
-   <img alt="Validación" src="../assets/do-not-localize/sms.jpg">
-   </a>
-   <div>
-   <a href="../sms/create-sms.md"><strong>Crear mensajes de texto (SMS/MMS)</strong></a>
-   </div>
-   <p>
-   </td>
-   </tr>
-   </table>
-
->[!NOTE]
->
->Cada actividad de mensaje entrante (mensaje en la aplicación, experiencia basada en código o tarjeta) viene con una actividad de **Espera** de 3 días. [Más información](../building-journeys/wait-activity.md#auto-wait-node)
->
-
 ## Actualización de contenido en directo{#update-live-content}
 
-Puede actualizar el contenido de un mensaje (correo electrónico, aplicación, push, SMS) en un recorrido activo.
+Puede actualizar el contenido de una acción de canal integrada en un recorrido en directo.
 
-Para ello, abra el recorrido en directo, seleccione la actividad del mensaje y haga clic en **Editar contenido**.
+Para ello, abre el recorrido en vivo, selecciona la actividad del canal y haz clic en **Editar contenido**.
 
 ![](assets/add-a-message2.png)
 
@@ -114,10 +153,12 @@ Tenga en cuenta que para la actividad en la aplicación, cualquier cambio se pue
 >[!NOTE]
 >
 >Esta función no está activada de forma predeterminada. Póngase en contacto con el representante del Adobe para activarlo.
+>
+>La función Optimización del tiempo de envío solo se aplica a los canales de correo electrónico y push.
 
 ### Acerca de la optimización del tiempo de envío {#about-send-time}
 
-La función de optimización del tiempo de envío de Adobe Journey Optimizer, con tecnología de los servicios de IA de Adobe, puede predecir el mejor momento para enviar un mensaje push o de correo electrónico para maximizar la participación en función de la apertura histórica y las tasas de clics. Utilice nuestro modelo de aprendizaje automático para programar tiempos de envío personalizados para cada usuario y, así, aumentar las tasas de apertura y de clics de sus mensajes.
+La función de optimización del tiempo de envío de Adobe Journey Optimizer, con tecnología de los servicios de IA de Adobe, puede predecir el mejor momento para enviar un **correo electrónico** o **mensaje push** para maximizar la participación en función de la apertura histórica y las tasas de clics. Utilice nuestro modelo de aprendizaje automático para programar tiempos de envío personalizados para cada usuario y, así, aumentar las tasas de apertura y de clics de sus mensajes.
 
 El modelo de optimización del tiempo de envío ingiere los datos de Adobe Journey Optimizer y observa las tasas de apertura a nivel de usuario (para correo electrónico y push) y clics (para correo electrónico) para determinar cuándo es más probable que los clientes interactúen con los mensajes. La optimización del tiempo de envío requiere un mínimo de un mes de datos de seguimiento de mensajes para hacer recomendaciones informadas. Para cada usuario, el sistema seleccionará automáticamente el mejor momento con las siguientes puntuaciones:
 
