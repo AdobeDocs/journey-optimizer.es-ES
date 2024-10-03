@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 74%
+source-wordcount: '1269'
+ht-degree: 72%
 
 ---
 
@@ -46,6 +46,7 @@ Esta actualización incluye las nuevas funciones detalladas a continuación.
 <p>Con el canal de experiencia basado en código, Adobe Journey Optimizer le permite realizar personalizaciones y pruebas avanzadas para cualquiera de sus propiedades de entrada, lo que permite ofrecer experiencias adaptadas en diversos puntos de contacto, como aplicaciones web, aplicaciones móviles, aplicaciones de escritorio, consolas de vídeo, dispositivos conectados a TV, televisores inteligentes, quioscos, cajeros automáticos, dispositivos IoT y mucho más. El canal de experiencia basado en código ya está disponible en el lienzo de recorrido.</p>
 <p>Para obtener más información, consulte la <a href="../code-based/create-code-based.md">documentación detallada</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
+<p>Fecha de disponibilidad: 1 de octubre</p>
 </tr>
 </tbody>
 </table>
@@ -62,9 +63,17 @@ Esta actualización incluye las nuevas funciones detalladas a continuación.
 <p>Con el canal Web, Adobe Journey Optimizer permite personalizar la experiencia web que ofrece a sus clientes a través de recorridos web entrantes. El canal Web ahora está disponible en el lienzo de recorrido.</p>
 <p>Para obtener más información, consulte la <a href="../web/create-web.md">documentación detallada</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
+<p>Fecha de disponibilidad: 1 de octubre</p>
 </tr>
 </tbody>
 </table>
+
+
+**Mejoras de Recorrido**
+
+* (Fecha de disponibilidad: 3 de octubre) **Parámetros de acciones personalizadas**: ahora se admiten parámetros nulos y opcionales en las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+
 
 ## Notas de la versión de septiembre de 2024 {#24-9-rn}
 
@@ -256,7 +265,6 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * **Mejoras en la creación de informes en directo**: la creación de informes en directo proporciona información sobre el rendimiento de sus recorridos en las últimas 24 horas. La hemos mejorado añadiendo nuevas métricas (perfiles introducidos, salidos y descartados por error), lo que le permite comprender mejor el comportamiento y el rendimiento del usuario directamente desde el lienzo de Recorrido. [Más información](../building-journeys/report-journey.md)
 
-<!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
 * (Fecha de disponibilidad: 10 de septiembre) **Reintentos automáticos de Leer público**: los reintentos ahora se aplican de forma predeterminada a los recorridos activados por públicos (empezando con una actividad **Leer público** o **Evento empresarial**) cuando se recupera el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada. [Más información](../building-journeys/read-audience.md#retries)
 
