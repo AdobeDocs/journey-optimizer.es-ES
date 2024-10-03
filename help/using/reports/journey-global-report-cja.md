@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 66504f7affb767d5b102cd1a91934147638c68e5
 workflow-type: tm+mt
-source-wordcount: '4176'
+source-wordcount: '4184'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ La tabla **[!UICONTROL Estadísticas de Recorrido]** ofrece un resumen detallado
 
 ![](assets/cja-journey-canvas.png)
 
-El widget **[!UICONTROL Lienzo de Recorrido]** le permite rastrear visualmente la trayectoria de sus perfiles de destino a medida que navegan por su recorrido.
+El widget **[!UICONTROL Lienzo de Recorrido]** le permite rastrear visualmente la trayectoria de sus perfiles de destino a medida que navegan por su recorrido. [Obtenga más información en la documentación del Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Mejore la personalización del lienzo con las siguientes opciones:
 
