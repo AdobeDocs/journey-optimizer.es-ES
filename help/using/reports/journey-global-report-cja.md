@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: 66504f7affb767d5b102cd1a91934147638c68e5
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4184'
+source-wordcount: '4802'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,8 @@ La página **[!UICONTROL informe de Recorrido]** se mostrará con las siguientes
 * [En la aplicación](#in-app-global)
 * [Web](#web-cja)
 * [Correo directo](#direct-mail-cja)
+* [Código basado](#code-based)
+* [Tarjeta de contenido](#content-card)
 
 Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
@@ -641,16 +643,15 @@ El gráfico **[!UICONTROL Clics]** muestra las métricas de clics en páginas we
 
 ![](assets/cja-web-displays.png)
 
-El gráfico **[!UICONTROL Muestra]** le ayuda a comprender el alcance general del mensaje y la cantidad de perfiles únicos que interactúan con él.
+El gráfico **[!UICONTROL Muestra]** le ayuda a comprender el alcance general de la experiencia basada en código que se abrió y la cantidad de perfiles únicos que interactúan con ella.
 
 +++ Más información sobre las Métricas de visualización
 
-* **[!UICONTROL Pantallas]**: Número de veces que se abrió el mensaje.
+* **[!UICONTROL Pantallas]**: Número de veces que se abrió la experiencia basada en código.
 
-* **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió el mensaje, no se tienen en cuenta las interacciones múltiples de un perfil.
+* **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió la experiencia basada en código, no se tienen en cuenta las interacciones múltiples de un perfil.
 
 +++
-
 
 ### Datos de seguimiento {#track-data-web}
 
@@ -761,3 +762,119 @@ La tabla **[!UICONTROL Motivos del error]** le permite identificar los errores e
 La tabla **[!UICONTROL Razones de exclusión]** muestra visualmente los diversos factores que llevaron a la exclusión de perfiles de usuarios de la audiencia de destino, lo que les impidió recibir sus mensajes de correo postal.
 
 Consulte [esta página](exclusion-list.md) para obtener una lista completa de motivos de exclusión.
+
+## Experiencia basada en código
+
+### Mostrar y hacer clic {#impressions-code}
+
+![](assets/code-based-display.png)
+
+Los gráficos **[!UICONTROL Display &amp; Click]** presentan un análisis detallado de la participación de sus perfiles con sus experiencias basadas en código, lo que ofrece información valiosa sobre cómo los perfiles interactúan con su contenido.
+
++++ Más información sobre las Métricas de impresión y clics
+
+* **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus experiencias.
+
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus experiencias.
+
+* **[!UICONTROL Pantallas]**: Número de veces que se abrió la experiencia.
+
+* **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió la experiencia, no se tienen en cuenta las interacciones múltiples de un perfil.
+
++++
+
+### Datos de seguimiento {#track-data-code}
+
+![](assets/code-based-tracking-data.png)
+
+La tabla **[!UICONTROL Datos de seguimiento]** ofrece una instantánea detallada de la actividad del perfil vinculada a sus experiencias basadas en código, lo que proporciona información esencial sobre la participación y la eficacia de las experiencias.
+
++++ Más información sobre el Seguimiento de métricas de datos
+
+* **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus experiencias.
+
+* **[!UICONTROL Tasa de clics (CTR)]**: Porcentaje de usuarios que interactuaron con sus experiencias.
+
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus experiencias.
+
+* **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus experiencias.
+
+* **[!UICONTROL Pantallas]**: Número de veces que se abrió su experiencia.
+
+* **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió su experiencia, no se tienen en cuenta las interacciones múltiples de un perfil.
+
++++
+
+### Etiquetas de vínculos rastreados {#track-link-code}
+
+La tabla **[!UICONTROL Etiquetas de vínculos rastreados]** ofrece una descripción general completa de las etiquetas de vínculos dentro de las experiencias basadas en código, destacando las que generan el mayor tráfico de visitantes. Esta función le permite identificar y priorizar los vínculos más populares.
+
++++ Obtenga más información sobre las métricas de etiquetas de vínculos rastreados
+
+* **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus experiencias basadas en código.
+
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus experiencias basadas en código.
+
+* **[!UICONTROL Pantallas]**: Número de veces que se abrió la experiencia.
+
+* **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió la experiencia, no se tienen en cuenta las interacciones múltiples de un perfil.
+
++++
+
+## Tarjeta de contenido {#content-card}
+
+### Mostrar y hacer clic {#displays-content-card}
+
+![](assets/content-card-jo-display.png)
+
+Los gráficos **[!UICONTROL Mostrar y hacer clic]** presentan un análisis detallado de la participación de sus perfiles con sus tarjetas de contenido, lo que ofrece información valiosa sobre cómo los perfiles interactúan con el contenido.
+
++++ Más información sobre las métricas de pantallas y clics
+
+* **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus tarjetas de contenido.
+
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus tarjetas de contenido.
+
+* **[!UICONTROL Pantallas]**: Número de veces que se abrió la tarjeta de contenido.
+
+* **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió la tarjeta de contenido; no se tienen en cuenta las interacciones múltiples de un perfil.
+
++++
+
+### Datos de seguimiento {#track-data-content}
+
+![](assets/code-based-tracking-data.png)
+
+La tabla **[!UICONTROL Datos de seguimiento]** ofrece una instantánea detallada de la actividad del perfil vinculada a sus tarjetas de contenido, lo que proporciona información esencial sobre la participación y la eficacia de las experiencias.
+
++++ Más información sobre el Seguimiento de métricas de datos
+
+* **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus tarjetas de contenido.
+
+* **[!UICONTROL Tasa de clics (CTR)]**: Porcentaje de usuarios que interactuaron con sus tarjetas de contenido.
+
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus tarjetas de contenido.
+
+* **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus tarjetas de contenido.
+
+* **[!UICONTROL Pantallas]**: Número de veces que se abrió la tarjeta de contenido.
+
+* **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió la tarjeta de contenido, no se tienen en cuenta las interacciones múltiples de un perfil.
+
++++
+
+### Etiquetas de vínculos rastreados {#track-link-content}
+
+La tabla **[!UICONTROL Etiquetas de vínculos rastreados]** ofrece una descripción general completa de las etiquetas de vínculos de las tarjetas de contenido, en la que se destacan las que generan el mayor tráfico de visitantes. Esta función le permite identificar y priorizar los vínculos más populares.
+
++++ Obtenga más información sobre las métricas de etiquetas de vínculos rastreados
+
+* **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus tarjetas de contenido.
+
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus tarjetas de contenido.
+
+* **[!UICONTROL Pantallas]**: Número de veces que se abrió la tarjeta de contenido.
+
+* **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió la tarjeta de contenido; no se tienen en cuenta las interacciones múltiples de un perfil.
+
++++

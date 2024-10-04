@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4540'
 ht-degree: 2%
 
 ---
@@ -844,14 +844,3 @@ La tabla **[!UICONTROL Etiquetas rastreadas]** ofrece una visión general de las
 
 +++
 
-### URL de vínculos rastreados {#tracked-link-url}
-
-La tabla **[!UICONTROL URL de vínculos rastreados]** proporciona una visión general de las direcciones URL de las tarjetas de contenido que atraen el mayor tráfico de visitantes. Esto le permite identificar y priorizar los vínculos más populares, lo que mejora su comprensión de la participación del perfil con contenido específico en las tarjetas de contenido.
-
-+++ Más información sobre las métricas de URL de vínculos rastreados
-
-* **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus tarjetas de contenido.
-
-* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus tarjetas de contenido.
-
-+++
