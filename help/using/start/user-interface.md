@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7403058fac2e88a27b2e4dfc2f56bb4e3c2b1528
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1504'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Cree campañas y recorridos desde esta sección.
 * **[!UICONTROL Páginas de destino]**: crear, diseñar, probar y publicar páginas de aterrizaje: envíe a los usuarios vínculos a formularios en línea en los que pueden optar por su inclusión o exclusión en la recepción de comunicaciones, o suscribirse a servicios específicos. [Más información](../landing-pages/get-started-lp.md)
 
 
-### [!UICONTROL GESTIÓN DE DECISIONES] {#left-nav-offers}
+### [!UICONTROL GESTIÓN DE DECISIONES] {#left-nav-decision}
 
 Cree ofertas y componentes desde esta sección.
 
