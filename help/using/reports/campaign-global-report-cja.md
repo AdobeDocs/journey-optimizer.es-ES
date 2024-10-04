@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
+source-git-commit: 67f1b70d4f55a0bfb289720c43b1ac8b336ab380
 workflow-type: tm+mt
-source-wordcount: '4540'
+source-wordcount: '4840'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,7 @@ La página **Informe de campaña** se mostrará con las siguientes pestañas seg
 * [Correo directo](#direct-mail)
 * [Web](#web)
 * [Tarjeta de contenido](#content-card)
+* [Experiencias basadas en código](#code-based)
 
 Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
@@ -844,3 +845,60 @@ La tabla **[!UICONTROL Etiquetas rastreadas]** ofrece una visión general de las
 
 +++
 
+## Experiencias basadas en código {#code-based}
+
+### Mostrar y hacer clic {#impressions-code}
+
+![](assets/code-based-display-campaign.png)
+
+Los gráficos **[!UICONTROL Display &amp; Click]** presentan un análisis detallado de la participación de sus perfiles con sus experiencias basadas en código, lo que ofrece información valiosa sobre cómo los perfiles interactúan con su contenido.
+
++++ Más información sobre las Métricas de impresión y clics
+
+* **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus experiencias.
+
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus experiencias.
+
+* **[!UICONTROL Pantallas]**: Número de veces que se abrió la experiencia.
+
+* **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió la experiencia, no se tienen en cuenta las interacciones múltiples de un perfil.
+
++++
+
+### Datos de seguimiento {#track-data-code}
+
+![](assets/code-based-tracking-data-campaign.png)
+
+La tabla **[!UICONTROL Datos de seguimiento]** ofrece una instantánea detallada de la actividad del perfil vinculada a sus experiencias basadas en código, lo que proporciona información esencial sobre la participación y la eficacia de las experiencias.
+
++++ Más información sobre el Seguimiento de métricas de datos
+
+* **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus experiencias.
+
+* **[!UICONTROL Tasa de clics (CTR)]**: Porcentaje de usuarios que interactuaron con sus experiencias.
+
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus experiencias.
+
+* **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus experiencias.
+
+* **[!UICONTROL Pantallas]**: Número de veces que se abrió su experiencia.
+
+* **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió su experiencia, no se tienen en cuenta las interacciones múltiples de un perfil.
+
++++
+
+### Etiquetas de vínculos rastreados {#track-link-code}
+
+La tabla **[!UICONTROL Etiquetas de vínculos rastreados]** ofrece una descripción general completa de las etiquetas de vínculos dentro de las experiencias basadas en código, destacando las que generan el mayor tráfico de visitantes. Esta función le permite identificar y priorizar los vínculos más populares.
+
++++ Obtenga más información sobre las métricas de etiquetas de vínculos rastreados
+
+* **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus experiencias basadas en código.
+
+* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus experiencias basadas en código.
+
+* **[!UICONTROL Pantallas]**: Número de veces que se abrió la experiencia.
+
+* **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió la experiencia, no se tienen en cuenta las interacciones múltiples de un perfil.
+
++++
