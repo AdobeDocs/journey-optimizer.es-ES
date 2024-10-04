@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 40fde856e76d7e2d609ba90f93d4e07fe90f858f
+source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 16%
+source-wordcount: '389'
+ht-degree: 15%
 
 ---
 
 # Introducción a la nueva interfaz de informes {#channel-report-gs-cja}
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Para volver a los informes tradicionales de Journey Optimizer, simplemente alterne la opción **[!UICONTROL Usar nueva experiencia]**.
+>Los informes de Adobe Journey Optimizer están estandarizados actualmente en UTC. En una versión futura se introducirá la capacidad de personalizar la zona horaria de los informes.
 
 La creación de informes en Journey Optimizer cuenta con una interoperabilidad mejorada con las funciones de Customer Journey Analytics, estandariza la creación de informes en ambas plataformas y mejora la coherencia y fiabilidad de los datos. Esta integración perfecta entre Journey Optimizer y Customer Journey Analytics proporciona una visión más clara de las métricas de rendimiento, lo que permite a los usuarios tomar decisiones más informadas.
 
@@ -39,6 +39,10 @@ La creación de informes en Journey Optimizer cuenta con una interoperabilidad m
 * Si desea establecer como objetivo métricas para todas las campañas y recorridos de su entorno, acceda al informe **Información general** navegando al menú **[!UICONTROL Informes]** dentro de la sección **[!UICONTROL Administración de Recorrido]**. [Obtenga más información sobre el informe de información general](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
+
+>[!NOTE]
+>
+> Para volver a los informes tradicionales de Journey Optimizer, simplemente alterne la opción **[!UICONTROL Usar nueva experiencia]**.
 
 ## Requisitos previos {#prerequisites}
 
