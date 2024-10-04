@@ -3,8 +3,9 @@ title: Crear y administrar directivas de aprobación
 description: Obtenga información sobre cómo crear y administrar directivas de aprobación.
 role: User
 level: Beginner
+feature: Approval
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 5%
