@@ -5,7 +5,7 @@ description: Aprenda a utilizar Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 9688a0303726d706106ba7c89157529e02ecbfca
+source-git-commit: b29179518dec9a4c034e6dd21972aa2145839739
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Eche un vistazo a las mejoras más recientes del producto y a la documentación 
 
 >[!BEGINTABS]
 
->[!TAB Versión de septiembre]
+>[!TAB Versión de septiembre de 2024]
 
 La versión de septiembre ya está activa, e incluye tarjetas de contenido para aplicaciones móviles y sitios web, políticas de aprobaciones en recorridos y campañas (LA), criterios de salida globales en recorridos y mucho más.
 
