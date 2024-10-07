@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 4%
@@ -50,7 +50,7 @@ El widget **[!UICONTROL Estadísticas de campaña]** detalla la información pri
 
 La ficha **[!UICONTROL Objetivos]** le permite ajustar mejor los informes de las entregas dirigiéndose a una métrica específica.
 
-Los **[!UICONTROL Objetivos]** enumerados están vinculados a **[!UICONTROL Conjuntos de datos]** que definen una conexión con un sistema para recuperar información adicional. Hay disponible una lista de **[!UICONTROL Objetivos]** integrados, pero puede agregar los suyos propios agregando un nuevo **[!UICONTROL conjunto de datos]**. Para ver el procedimiento detallado, consulte esta [sección](../content-management/reporting-configuration.md).
+Los **[!UICONTROL Objetivos]** enumerados están vinculados a **[!UICONTROL Conjuntos de datos]** que definen una conexión con un sistema para recuperar información adicional. Hay disponible una lista de **[!UICONTROL Objetivos]** integrados, pero puede agregar los suyos propios agregando un nuevo **[!UICONTROL conjunto de datos]**. Para ver el procedimiento detallado, consulte esta [sección](../reports/reporting-configuration.md).
 
 Después de seleccionar los objetivos con los que se quiere dirigir, los dos widgets de **[!UICONTROL Información general sobre el rendimiento]** y **[!UICONTROL Objetivo de la campaña]** proporcionarán un resumen detallado del rendimiento de su envío.
 

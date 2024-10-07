@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 7403058fac2e88a27b2e4dfc2f56bb4e3c2b1528
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 100%
+source-wordcount: '1507'
+ht-degree: 98%
 
 ---
 
@@ -126,7 +126,7 @@ Controle la administración de la privacidad y las solicitudes desde esta secci�
 
 * **[!UICONTROL Configuraciones]**: utilice este menú para configurar [Eventos](../event/about-events.md), [Fuentes de datos](../datasource/about-data-sources.md), y [Acciones](../action/action.md) que se utilizarán en los recorridos.
 
-  También puede acceder a la sección **Creación de informes** para configurar la creación de informes para la experimentación de campañas. [Más información](../content-management/reporting-configuration.md)
+  También puede acceder a la sección **Informes** para configurar los informes para la experimentación de campañas y web/móvil. [Más información](../reports/reporting-configuration.md)
 
 * **[!UICONTROL Reglas empresariales]**: utilice esta sección para crear reglas empresariales entre canales para controlar la frecuencia con la que los usuarios reciben un mensaje o entran en un recorrido. [Más información](../configuration/frequency-rules.md)
 

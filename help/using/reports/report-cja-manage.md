@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '918'
 ht-degree: 1%
 
 ---
@@ -143,7 +143,8 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->Cada organización se limita a publicar 25 audiencias. Además, los usuarios pueden publicar un máximo de 5 audiencias por hora y 20 por día
+>Cada organización se limita a publicar 25 audiencias. Además, los usuarios pueden publicar un máximo de 5 audiencias por hora y 20 por día.
+> Las audiencias únicas tienen una duración de 48 horas. Por lo tanto, si se publican 25 audiencias dentro de ese periodo de tiempo, las audiencias adicionales solo se pueden publicar una vez transcurrido el periodo de 48 horas.
 
 Ahora puede seleccionar datos específicos dentro de la tabla y crear directamente una audiencia a partir de estas selecciones, lo que optimiza y simplifica el proceso de creación de audiencias.
 
