@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e6d6fe4ef068f806126de1c9a417fa0155bdc25d
+source-git-commit: 02df00b74dd07ff422f26f16120233b17a342c21
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1277'
 ht-degree: 72%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 72%
 
 ## Actualizaciones de octubre de 2024 {#24-10-rn}
 
+### Nuevas funciones {#24-10-features}
+
 A continuación, se enumeran las funciones más recientes disponibles en Adobe Journey Optimizer.
 
 <table>
@@ -39,6 +41,7 @@ A continuación, se enumeran las funciones más recientes disponibles en Adobe J
 <tbody>
 <tr>
 <td>
+<p>Fecha de disponibilidad: 1 de octubre</p>
 <p>Con el canal de experiencia basado en código, Adobe Journey Optimizer le permite realizar personalizaciones y pruebas avanzadas para cualquiera de sus propiedades de entrada, lo que permite ofrecer experiencias adaptadas en diversos puntos de contacto, como aplicaciones web, aplicaciones móviles, aplicaciones de escritorio, consolas de vídeo, dispositivos conectados a TV, televisores inteligentes, quioscos, cajeros automáticos, dispositivos IoT y mucho más. El canal de experiencia basado en código ya está disponible en el lienzo de recorrido.</p>
 <p>Para obtener más información, consulte la <a href="../code-based/create-code-based.md">documentación detallada</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
@@ -56,6 +59,7 @@ A continuación, se enumeran las funciones más recientes disponibles en Adobe J
 <tbody>
 <tr>
 <td>
+<p>Fecha de disponibilidad: 1 de octubre</p>
 <p>Con el canal Web, Adobe Journey Optimizer permite personalizar la experiencia web que ofrece a sus clientes a través de recorridos web entrantes. El canal Web ahora está disponible en el lienzo de recorrido.</p>
 <p>Para obtener más información, consulte la <a href="../web/create-web.md">documentación detallada</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
@@ -64,8 +68,9 @@ A continuación, se enumeran las funciones más recientes disponibles en Adobe J
 </tbody>
 </table>
 
+### Mejoras {#24-10-improvements}
 
-**Mejoras de Recorrido**
+**Recorridos**
 
 * (Fecha de disponibilidad: 3 de octubre) **Parámetros de acciones personalizadas**: ahora se admiten parámetros nulos y opcionales en las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
