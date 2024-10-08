@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
+source-git-commit: e6da92e2459c83019a9bb72b79809fdf7cf68c98
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2048'
 ht-degree: 16%
 
 ---
@@ -277,19 +277,16 @@ Los criterios de salida se establecen en el nivel de recorrido. Un recorrido pue
 
 Para **crear** un criterio de salida, siga estos pasos:
 
-1. Ábrelo a tu recorrido.
+1. Abra el recorrido.
+
 1. Haga clic en el icono **[!UICONTROL Mostrar criterios de salida]** ubicado en la sección superior derecha del lienzo de recorrido.
-
-![](assets/exitcriteria_icon.png){width="40%" align="left"}
-
+   ![](assets/exitcriteria_icon.png){width="40%" align="left"}
 1. Haga clic en **[!UICONTROL Agregar criterios de salida]**.
-
-![](assets/exitcriteria.png){width="40%" align="left"}
-
-1. Escriba una **Etiqueta** y seleccione si los criterios de salida se basan en un evento o en una audiencia.
+   ![](assets/exitcriteria.png){width="40%" align="left"}
+1. Escriba una **Etiqueta** y seleccione si los criterios de salida se basan en un **Evento** o en una **Audiencia**.
 
 * Para los criterios de Salida basados en un evento, seleccione solo evento unitario.
-* Para Criterios de salida basados en una audiencia, seleccione una audiencia. Nota: Los criterios de salida para una audiencia pueden tardar hasta 10 minutos en estar operativos.
+* Para Criterios de salida basados en una audiencia, seleccione una audiencia. Nota: Los criterios de salida que utilizan una audiencia pueden tardar hasta 10 minutos en ser efectivos.
 
 Puede agregar varios criterios de salida.
 
