@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a0c7dad29aabe6c377468a64b9638d7363f0b6f6
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
-source-wordcount: '1983'
-ht-degree: 12%
+source-wordcount: '2049'
+ht-degree: 14%
 
 ---
 
@@ -241,7 +241,7 @@ A partir de la versión de junio de 2024 de Adobe Journey Optimizer, el tiempo d
   </tr>
 </table>
 
-## Políticas de combinación {#merge-policies}
+## Combinar políticas {#merge-policies}
 
 El recorrido de utiliza políticas de combinación al recuperar datos de perfil de Adobe Experience Platform. Según el tipo de recorrido, se utilizan distintas políticas de combinación:
 
@@ -261,45 +261,45 @@ Para obtener más información sobre las políticas de combinación, consulte [D
 >title="Criterios de salida del recorrido"
 >abstract="En esta sección se muestran las opciones de criterios de salida. Puede crear una o varias reglas de criterios de salida para el recorrido."
 
-### Descripción
+### Descripción {#exit-criteria-desc}
 
-A menudo, los especialistas en marketing desean eliminar perfiles de un recorrido cuando ya no cumplen el propósito del recorrido. Esto se logrará mediante **criterios de salida globales**, que están estrechamente asociados con la administración de objetivos.
+Al añadir criterios de salida, hace que los perfiles salgan del recorrido en cuanto se produce un evento (p. ej.: compra) o cumplen los requisitos para un público. Esto evitará que el usuario reciba más comunicaciones del recorrido.
 
-**Caso de uso de ejemplo:**
+Es posible que desee eliminar perfiles de un recorrido cuando ya no cumplan el propósito del recorrido. Esto se puede lograr mediante **criterios de salida globales**, que están estrechamente asociados con la administración de objetivos.
 
-Un experto en marketing tiene un recorrido promocional que tiene una serie de comunicaciones. Cada una de estas comunicaciones tiene como objetivo impulsar al cliente a realizar una compra. Tan pronto como se realiza la compra, el cliente no debe recibir el resto de los mensajes de la serie. Al definir un criterio de salida, los perfiles que hayan realizado una compra se eliminarán de la recorrido.
+**Caso de uso de ejemplo**
 
-### Configuración y uso
+Un experto en marketing tiene un recorrido promocional que tiene una serie de comunicaciones. Cada una de estas comunicaciones tiene como objetivo impulsar al cliente a realizar una compra. Tan pronto como se realice la compra, el cliente no debe recibir el resto de los mensajes de la serie. Al definir un criterio de salida, los perfiles que hayan realizado una compra se eliminan de la recorrido.
 
-Los criterios de salida se establecen en el nivel de recorrido. Un recorrido puede tener varios criterios de salida. Cuando se establecen varios criterios de salida, la evaluación se realiza de arriba a abajo con una lógica OR. Por lo tanto, si tiene Criterios de salida n°1 y Criterios de salida n°2, se evaluará como n°1 **o** n°2. Los criterios se evalúan en cada paso del recorrido.
+### Configuración y uso {#exit-criteria-config}
 
-Para **crear** un criterio de salida:
+Los criterios de salida se establecen en el nivel de recorrido. Un recorrido puede tener varios criterios de salida. Cuando se establecen varios criterios de salida, la evaluación se realiza de arriba abajo con una lógica de `OR`. Por lo tanto, si tiene los criterios de salida A y B, se evaluarán como A **O** B. Los criterios se evalúan en cada paso del recorrido.
 
-* Haga clic en el siguiente icono ![](assets/exitcriteria_icon.png){width="40%" align="left"} en el carril derecho.
-* Haga clic en **Agregar criterios de salida**.
+Para **crear** un criterio de salida, siga estos pasos:
+
+1. Ábrelo a tu recorrido.
+1. Haga clic en el icono **[!UICONTROL Mostrar criterios de salida]** ubicado en la sección superior derecha del lienzo de recorrido.
+
+![](assets/exitcriteria_icon.png){width="40%" align="left"}
+
+1. Haga clic en **[!UICONTROL Agregar criterios de salida]**.
 
 ![](assets/exitcriteria.png){width="40%" align="left"}
 
-* Puede agregar varios criterios de salida.
-* Escriba una **Etiqueta** y seleccione si los criterios de salida se basan en un evento o en una audiencia.
+1. Escriba una **Etiqueta** y seleccione si los criterios de salida se basan en un evento o en una audiencia.
 
-### Criterios de salida basados en un evento
+* Para los criterios de Salida basados en un evento, seleccione solo evento unitario.
+* Para Criterios de salida basados en una audiencia, seleccione una audiencia. Nota: Los criterios de salida para una audiencia pueden tardar hasta 10 minutos en estar operativos.
 
-Seleccionar solo evento unitario.
+Puede agregar varios criterios de salida.
 
-![](assets/exitcriteria_event.png){width="40%" align="left"}
+![](assets/exitcriteria-sample.png){width="40%" align="left"}
 
-### Criterios de salida basados en una audiencia
+### Mecanismos de protección y limitaciones {#exit-criteria-guardrails}
 
-Elija una audiencia.
+Las siguientes barreras y limitaciones se aplican a la capacidad de criterios de salida del recorrido:
 
-![](assets/exitcriteria_audience.png){width="40%" align="left"}
-
-Nota: Los criterios de salida para una audiencia pueden tardar hasta 10 minutos en estar operativos.
-
-### Restricciones y limitaciones
-
-* Los criterios de salida se definen como borrador
+* Los criterios de salida solo se definen en estado de borrador
 * Recorrido de coherencia de área de nombres entre eventos y criterios de salida basados en eventos
 
 

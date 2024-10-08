@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Approval
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 18%
@@ -85,6 +85,6 @@ El proceso de aprobación global es el siguiente:
 
 ## Monitorización de solicitudes de aprobación {#monitor}
 
-Puede monitorizar todas las solicitudes de aprobación y cambio que se han enviado para un recorrido o campaña determinados. Para ello, haga clic en el botón **[!UICONTROL Mostrar pista de auditoría]** ubicado en la sección superior derecha del lienzo de recorrido o en la pantalla de revisión de la campaña.
+Puede monitorizar todas las solicitudes de aprobación y cambio que se han enviado para un recorrido o campaña determinados. Para ello, haga clic en el icono **[!UICONTROL Mostrar pista de auditoría]** ubicado en la sección superior derecha del lienzo de recorrido o en la pantalla de revisión de la campaña.
 
 ![](assets/monitor-requests.png)
