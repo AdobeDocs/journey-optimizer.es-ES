@@ -23,7 +23,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="Infracción de la directiva de gobernanza de datos"
->abstract="Si el sistema identifica un campo restringido en un recorrido/campaña o una acción personalizada, se muestra un error que impide su publicación. Utilice el diagrama de linaje de datos de este cuadro de diálogo para comprender qué otros cambios de configuración deben realizarse antes de activar el recorrido o la campaña."
+>abstract="Si el sistema identifica un campo restringido en un recorrido/campaña o una acción personalizada, se muestra un error que impide su publicación. Utilice el diagrama de linaje de datos en este cuadro de diálogo para comprender qué otros cambios de configuración deben realizarse antes de activar el recorrido o la campaña."
 
 >[!AVAILABILITY]
 >
