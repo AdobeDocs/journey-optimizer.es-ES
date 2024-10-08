@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 64eb253efbe73d151dd1c94f4e4cb51a35e9d1a4
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '2272'
+source-wordcount: '2266'
 ht-degree: 17%
 
 ---
@@ -49,7 +49,7 @@ Puede seleccionar en campañas y recorridos cualquier audiencia generada mediant
 
 >[!AVAILABILITY]
 >
->El uso de audiencias y atributos de audiencias de composición de audiencias y carga personalizada (archivo CSV) no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield. [Aprenda a utilizar los atributos de enriquecimiento de audiencias en Journey Optimizer](../audience/about-audiences.md#enrichment)
+>El uso de audiencias y atributos de la composición de audiencias no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield. [Aprenda a utilizar los atributos de enriquecimiento de audiencias en Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras diferentes:
 

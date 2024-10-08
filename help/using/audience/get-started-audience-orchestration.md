@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 59%
+source-wordcount: '307'
+ht-degree: 60%
 
 ---
 
@@ -36,7 +36,7 @@ Una vez finalizado, las **audiencias resultantes** se guardan y se copian en Ado
 
 >[!IMPORTANT]
 >
->El uso de audiencias y atributos de audiencias de composición de audiencias y de carga personalizada no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield.
+>El uso de audiencias y atributos de la composición de audiencias no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield.
 >
 >Los atributos de enriquecimiento aún no están integrados con el servicio de aplicación de políticas. Por lo tanto, las etiquetas de uso de datos que aplique a los atributos de enriquecimiento no se aplicarán a las campañas o recorridos de Journey Optimizer.
 

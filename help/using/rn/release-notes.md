@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 70%
+source-wordcount: '1329'
+ht-degree: 69%
 
 ---
 
@@ -77,6 +77,8 @@ A continuación, se enumeran las funciones más recientes disponibles en Adobe J
 **Públicos**
 
 * Al segmentar la audiencia de un archivo CSV, ahora puede utilizar atributos del archivo en el editor de personalización y en el generador de reglas de recorrido and campaigns. [Más información](../audience/about-audiences.md)
+
+* El uso de audiencias y atributos de la carga personalizada (archivo CSV) ya está disponible para su uso con Healthcare Shield o Privacy and Security Shield.
 
 ## Notas de la versión de septiembre de 2024 {#24-9-rn}
 
