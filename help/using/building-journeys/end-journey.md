@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: volver a entrar, recorrido, finalizar, en directo, detener
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: 20d99c082ef8d1f2442900dc6a6e6db6b0aaa46f
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 1%
+source-wordcount: '689'
+ht-degree: 2%
 
 ---
 
@@ -53,10 +53,10 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 Un recorrido se puede cerrar por los siguientes motivos:
 
 * El recorrido se cierra manualmente mediante el botón **[!UICONTROL Cerrar a nuevas entradas]**.
-* Un recorrido basado en segmentos de una sola toma que ha terminado de ejecutarse.
+* Un recorrido basado en segmentos de una sola toma que ha terminado de ejecutarse y ha alcanzado el tiempo de espera global de 91 días.
 * Después de la última aparición de un recorrido recurrente basado en audiencias.
 
-Cerrar un recorrido manualmente garantiza que los clientes que ya han introducido el recorrido puedan finalizar su ruta, pero que los nuevos usuarios no puedan entrar en el recorrido. Cuando un recorrido está cerrado (por cualquiera de las razones anteriores), tendrá el estado **[!UICONTROL Cerrado]**. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente.
+Cerrar un recorrido manualmente garantiza que los clientes que ya han introducido el recorrido puedan finalizar su ruta, pero que los nuevos usuarios no puedan entrar en el recorrido. Cuando un recorrido está cerrado (por cualquiera de las razones anteriores), tendrá el estado **[!UICONTROL Cerrado]**. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente. Después del tiempo de espera global predeterminado de 91 días, el recorrido cambiará al estado Finalizado. Consulte [esta sección](journey-properties.md#timeout).
 
 Después del tiempo de espera global [de 91 días](journey-properties.md#timeout), un recorrido de audiencia de lectura cambia al estado **Finalizado**. Este comportamiento se establece solo para 91 días (es decir, [valor de tiempo de espera global de recorrido](journey-properties.md#global_timeout)) ya que toda la información sobre los perfiles que ingresaron al recorrido se elimina 91 días después de que ingresaron. Las personas que siguen en el recorrido se ven afectadas automáticamente. Salen del recorrido después del tiempo de espera de 91 días.
 
