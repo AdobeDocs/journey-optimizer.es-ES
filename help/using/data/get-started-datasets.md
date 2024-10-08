@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 979cb8270a4be4c7ad08db8f0a2e072d590906de
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 100%
+source-wordcount: '860'
+ht-degree: 93%
 
 ---
 
@@ -35,15 +35,24 @@ De forma predeterminada, solo se muestran los conjuntos de datos que ha introduc
 
 ![](assets/ajo-system-datasets.png)
 
+>[!NOTE]
+>
+>A partir del 1 de noviembre de 2024, se aplicará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer de la siguiente manera:
+>
+>* 90 días para datos en el almacén de perfiles
+>* 13 meses para los datos del lago de datos
+>
+>Además, en ese momento, la segmentación de streaming ya no admitirá el uso de eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios.
+
+
+
 Seleccione el nombre de un conjunto de datos para acceder a su pantalla de actividad de conjunto de datos y ver los detalles del conjunto de datos seleccionado. La pestaña actividad incluye un gráfico que visualiza la tasa de consumo de los mensajes, así como una lista de lotes correctos y fallidos.
 
 A continuación se enumeran los conjuntos de datos del sistema para Adobe Journey Optimizer.
 
-
 >[!CAUTION]
 >
 > Los conjuntos de datos del sistema **no se debe modificar**. Cualquier cambio se revierte automáticamente con cada actualización de producto.
->
 
 **Creación de informes**
 
