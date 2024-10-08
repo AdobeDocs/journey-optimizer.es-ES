@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
+source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 72%
+source-wordcount: '1305'
+ht-degree: 70%
 
 ---
 
@@ -74,7 +74,9 @@ A continuación, se enumeran las funciones más recientes disponibles en Adobe J
 
 * (Fecha de disponibilidad: 3 de octubre) **Parámetros de acciones personalizadas**: ahora se admiten parámetros nulos y opcionales en las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
+**Públicos**
 
+* Al segmentar la audiencia de un archivo CSV, ahora puede utilizar atributos del archivo en el editor de personalización y en el generador de reglas de recorrido and campaigns. [Más información](../audience/about-audiences.md)
 
 ## Notas de la versión de septiembre de 2024 {#24-9-rn}
 
