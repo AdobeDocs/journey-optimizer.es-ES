@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
+source-git-commit: 64eb253efbe73d151dd1c94f4e4cb51a35e9d1a4
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 20%
+source-wordcount: '2272'
+ht-degree: 17%
 
 ---
 
@@ -37,7 +37,7 @@ Las audiencias se pueden generar mediante diferentes métodos:
 * **Definiciones de segmentos**: Cree una nueva definición de audiencia con el servicio de segmentación de Adobe Experience Platform. [Obtenga información sobre cómo generar definiciones de segmentos](creating-a-segment-definition.md)
 * **Carga personalizada**: importe una audiencia con un archivo CSV. Obtenga información sobre cómo importar audiencias en [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 * **Composición de audiencias**: cree un flujo de trabajo de composición para combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar diversas actividades (dividir, excluir...) para crear nuevas audiencias. [Introducción a Composición de públicos](get-started-audience-orchestration.md)
-* **Composición de audiencias federada**: federe conjuntos de datos directamente desde el almacén de datos existente para crear y enriquecer audiencias y atributos de Adobe Experience Platform en un solo sistema. Lea la guía de [Composición federada de audiencias](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home).
+* **Composición de audiencias federada**: federe conjuntos de datos directamente desde el almacén de datos existente para crear y enriquecer audiencias y atributos de Adobe Experience Platform en un solo sistema. Lea la guía de [Composición federada de audiencias](https://experienceleague.adobe.com/es/docs/federated-audience-composition/using/home).
 
   >[!AVAILABILITY]
   >
@@ -67,25 +67,15 @@ Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras difere
 
 ## Uso de atributos de enriquecimiento de audiencias {#enrichment}
 
-Al segmentar una audiencia generada mediante flujos de trabajo de composición, puede aprovechar los atributos de enriquecimiento de estas audiencias para crear el recorrido y personalizar los mensajes.
+Al segmentar una audiencia generada mediante flujos de trabajo de composición o una audiencia personalizada (archivo CSV), puede aprovechar los atributos de enriquecimiento de estas audiencias para crear el recorrido y personalizar los mensajes.
 
-Para utilizar atributos de enriquecimiento en un Recorrido, asegúrese de que se agregan a un grupo de campos dentro de la Source de datos de Experience Platform.
+>[!NOTE]
+>
+>Las audiencias creadas mediante la carga personalizada de archivos CSV antes del 1 de octubre de 2024 no pueden personalizarse. Para utilizar los atributos de estas audiencias y aprovechar al máximo esta función, vuelva a crear y a cargar cualquier audiencia CSV externa importada antes de esta fecha.
+>
+>Las políticas de consentimiento no admiten atributos de enriquecimiento. Por lo tanto, cualquier regla de política de consentimiento debe basarse únicamente en atributos encontrados en el perfil.
 
-+++ Aprenda a añadir atributos de enriquecimiento a un grupo de campos
-
-1. Vaya a &quot;Administración&quot; > &quot;Configuración&quot; > &quot;Fuentes de datos&quot;.
-1. Seleccione &quot;Experience Platform&quot; y cree o edite un grupo de campos.
-1. Abra el selector de campos, busque los atributos de enriquecimiento que desee añadir y active la casilla de verificación situada junto a ellos.
-1. Guarde los cambios.
-
-Encontrará información detallada sobre las fuentes de datos en estas secciones:
-
-* [Trabajo con la fuente de datos de Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
-* [Configuración de una fuente de datos](../datasource/configure-data-sources.md)
-
-+++
-
-Una vez añadidos los atributos de enriquecimiento a un grupo de campos, puede aprovecharlos en diferentes ubicaciones en Journey Optimizer:
+Estas son las acciones que puede realizar con los atributos de enriquecimiento de las audiencias:
 
 * **Crear múltiples rutas de acceso en un recorrido** basado en reglas que aprovechan los atributos de enriquecimiento de la audiencia de destino. Para ello, oriente a la audiencia usando una actividad [Leer audiencia](../building-journeys/read-audience.md) y luego cree reglas en una actividad [Condición](../building-journeys/condition-activity.md) basada en los atributos de enriquecimiento de la audiencia.
 
@@ -95,9 +85,41 @@ Una vez añadidos los atributos de enriquecimiento a un grupo de campos, puede a
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Los atributos de enriquecimiento de carga personalizados aún no están disponibles para su uso en Journey Optimizer.
+>Para utilizar atributos de enriquecimiento de audiencias creadas con flujos de trabajo de maquetación, asegúrese de que se añaden a un grupo de campos en la Source de datos de Experience Platform.
+>
++++ Aprenda a añadir atributos de enriquecimiento a un grupo de campos>
+>
+1. Vaya a &quot;Administración&quot; > &quot;Configuración&quot; > &quot;Fuentes de datos&quot;.
+1. Seleccione &quot;Experience Platform&quot; y cree o edite un grupo de campos.
+1. En el selector de esquemas, seleccione el esquema adecuado. El nombre del esquema tendrá el siguiente formato: &quot;Esquema para audienceId:&quot; + el ID de la audiencia. Puede encontrar el ID de la audiencia en la pantalla de detalles de audiencia del inventario de audiencias.
+1. Abra el selector de campos, busque los atributos de enriquecimiento que desee añadir y active la casilla de verificación situada junto a ellos.
+1. Guarde los cambios.
+1. Una vez añadidos los atributos de enriquecimiento a un grupo de campos, puede aprovecharlos en Journey Optimizer en las ubicaciones enumeradas anteriormente.
+>
+Encontrará información detallada sobre las fuentes de datos en estas secciones:
+>
+* [Trabajar con el origen de datos de Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
+* [Configurar un origen de datos](../datasource/configure-data-sources.md)
+>
++++
+
+## Audiencias de carga personalizada (archivo CSV) {#csv}
+
+En esta sección se proporciona información clave para tener en cuenta al trabajar con audiencias de carga personalizada (archivos CSV):
+
+* **Compatibilidad de vista previa y revisión con audiencias CSV:** En la actualidad, la vista previa y la revisión no son compatibles con audiencias creadas mediante la carga de CSV. Tenga esto en cuenta al planificar las campañas.
+
+* **Retrasos rápidos de activación y vinculación de identidad:** La arquitectura de Adobe Experience Platform retrasa la vinculación de identidad para que las audiencias de carga personalizada estén disponibles inmediatamente para su activación en Journey Optimizer, con los siguientes impactos:
+
+   * Las audiencias están listas para usarse en Journey Optimizer justo después de completarse la ingesta. Aunque esto suele ocurrir en menos de una hora, está sujeto a cierta variabilidad.
+   * El número de registros activados puede diferir del número de perfiles después de la vinculación de identidad.
+   * Se activarán todos los registros del archivo CSV, incluidos los duplicados. Durante la próxima exportación de perfiles de UPS, estos registros se vincularán con la identidad.
+
+* **Segmentación de nuevos perfiles a partir de cargas CSV:** Cuando no se encuentra una coincidencia entre un registro CSV y un perfil UPS, se crea un nuevo perfil vacío. Este perfil está vinculado a los atributos de enriquecimiento que se almacenan en el lago de datos. Dado que este nuevo perfil está vacío, los campos de segmentación que se suelen utilizar en Journey Optimizer (por ejemplo, personalEmail.address, mobilePhone.number) están vacíos y, por lo tanto, no se pueden utilizar para la segmentación.
+
+  Para resolver esto, puede especificar el &quot;campo de ejecución&quot; (o la &quot;dirección de ejecución&quot; según el canal) en la configuración del canal como &quot;identityMap&quot;. Esto garantiza que el atributo elegido como identidad durante la carga del CSV sea el que se use para la segmentación en Journey Optimizer.
 
 ## Métodos de evaluación de públicos {#evaluation-method-in-journey-optimizer}
 
@@ -111,7 +133,7 @@ La segmentación de streaming es un proceso continuo de selección de datos que 
 
 >[!NOTE]
 >
->Asegúrese de utilizar los eventos adecuados como criterios de segmentación de flujo continuo. [Más información](#streaming-segmentation-events-guardrails)
+Asegúrese de utilizar los eventos adecuados como criterios de segmentación de flujo continuo. [Más información](#streaming-segmentation-events-guardrails)
 
 +++
 
@@ -161,7 +183,7 @@ Por lo tanto, para un rendimiento óptimo de la segmentación de streaming, evit
 
 >[!NOTE]
 >
->Puede usar los eventos **Mensaje abierto** y **Mensaje enviado** en la segmentación por lotes sin problemas de rendimiento.
+Puede usar los eventos **Mensaje abierto** y **Mensaje enviado** en la segmentación por lotes sin problemas de rendimiento.
 
 
 ## Preguntas frecuentes sobre composición de audiencias y carga personalizada {#faq}
@@ -178,7 +200,7 @@ Las audiencias de composición de audiencias y carga personalizada se pueden seg
 
   >[!NOTE]
   >
-  >Para las audiencias de carga personalizadas, si &quot;Lectura incremental&quot; está habilitado en un recorrido recurrente, los perfiles solo se recuperan en la primera periodicidad, ya que estas audiencias son fijas.
+  Para las audiencias de carga personalizadas, si &quot;Lectura incremental&quot; está habilitado en un recorrido recurrente, los perfiles solo se recuperan en la primera periodicidad, ya que estas audiencias son fijas.
 
 Además, estas audiencias están disponibles para su uso en el editor de personalización para personalizar sus mensajes en recorridos y campañas. [Aprenda a trabajar con el editor de personalización](../personalization/personalization-build-expressions.md)
 
@@ -200,15 +222,11 @@ Los atributos de enriquecimiento de la composición de audiencias se pueden apro
 * Atributos de acción personalizados (Recorridos)
 * Personalización de mensajes (Recorridos y campañas)
 
->[!AVAILABILITY]
->
->Los atributos de enriquecimiento de carga personalizados aún no están disponibles para su uso en Journey Optimizer.
-
 +++
 
 +++ ¿Cómo se habilitan los atributos de enriquecimiento en Recorrido?
 
-Para utilizar atributos de enriquecimiento en un Recorrido, asegúrese de que se agregan a un grupo de campos dentro de la Source de datos de Experience Platform. La información sobre cómo agregar atributos de enriquecimiento a un grupo de campos está disponible en [esta sección](#enrichment)
+Para utilizar atributos de enriquecimiento de audiencias creadas con flujos de trabajo de maquetación, asegúrese de que se añadan a un grupo de campos en la Source de datos de Experience Platform. La información sobre cómo agregar atributos de enriquecimiento a un grupo de campos está disponible en [esta sección](#enrichment)
 
 +++
 
