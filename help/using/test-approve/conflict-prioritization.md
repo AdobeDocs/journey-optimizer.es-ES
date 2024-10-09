@@ -7,10 +7,10 @@ level: Beginner
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 0322a13304875c4ba9ae8a9e7710fa2e71e459b3
+source-git-commit: ff529c9319a6eb5fe6762f30b739f2c39c3d5685
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 26%
+source-wordcount: '1186'
+ht-degree: 21%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 26%
 >
 >Actualmente, las herramientas de administración de conflictos y priorización solo están disponibles como una versión beta para usuarios seleccionados.
 
-En Journey Optimizer, administrar el volumen y el tiempo de las campañas y los recorridos es esencial para evitar abrumar a los clientes con demasiadas interacciones. Las dos secciones siguientes presentan herramientas clave para ayudarle a mantener el equilibrio y priorizar las comunicaciones de forma eficaz.
+En Journey Optimizer, administrar el volumen y el tiempo de las campañas y los recorridos es esencial para evitar abrumar a los clientes con demasiadas interacciones. Las dos secciones siguientes presentan herramientas clave para ayudarle a mantener el equilibrio y priorizar las comunicaciones de forma eficaz
 
-## Ver posibles conflictos en recorridos y campañas {#conflict}
+## Identificación de posibles conflictos en recorridos y campañas {#conflict}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
@@ -43,9 +43,21 @@ Las áreas clave para monitorizar la posible superposición son las siguientes:
 * **Audiencia**: ¿Qué porcentaje de mi audiencia de recorrido también es parte de otros recorridos?
 * **Canal**: ¿Hay otras comunicaciones programadas para el mismo periodo de tiempo y, si es así, cuántas?
 * **Conjunto de reglas de límite**: ¿Qué tipos de recorridos limito y hay superposición dentro de ellos?
-* **Configuración del canal**: ¿Hay otros recorridos o campañas que usen esta configuración de canal y que podrían impedir que se muestre esta campaña al usuario?
+* **Configuración del canal**: ¿Hay otros recorridos o campañas que usan alguna configuración de canal que se esté usando en el mismo recorrido o campaña y que podrían impedir que el recorrido o la campaña se muestre al usuario final?
 
-Journey Optimizer le permite comprobar si hay alguna posibilidad de superposición con otros recorridos o campañas. Para ello, siga estos pasos:
+### Cómo detecta Journey Optimizer los conflictos {#detection}
+
+A continuación se muestra un resumen de cómo Journey Optimizer identifica posibles conflictos para recorridos y campañas:
+
+* **Ámbito de identificación de conflictos**: los conflictos solo se muestran para campañas y recorridos en directo o programados.
+* **recorridos unitarios**: si el recorrido seleccionado es unitario, se muestran otros recorridos que comienzan con el mismo evento, ya que este evento almacenará en déclencheur todos estos recorridos.
+* **recorridos de calificación de audiencias y lectura de audiencias o eventos empresariales**: si el recorrido seleccionado es una calificación de audiencias o un recorrido de lectura de audiencias o eventos empresariales, se mostrarán todos los demás recorridos del mismo tipo con una audiencia válida, ya que puede haber superposiciones entre las audiencias.
+* **Campañas**: dado que todas las campañas están dirigidas a audiencias y no hay concepto de eventos, todas las campañas pueden entrar en conflicto con recorridos activados por segmentos (a partir de una actividad Leer audiencia).
+* **Campañas en vivo/programadas**: Las campañas en vivo y programadas pueden entrar en conflicto entre sí debido a una posible superposición de audiencias. Para cualquier campaña determinada, todas las campañas en directo o programadas se muestran en el visor de conflictos.
+
+### Ver conflictos identificados para un recorrido o una campaña determinados {#view}
+
+Al crear un recorrido o una campaña, Journey Optimizer le permite comprobar si existe la posibilidad de superposición con otros recorridos o campañas. Para ello, siga estos pasos:
 
 1. En el momento de crear un recorrido o una campaña, haga clic en el botón **[!UICONTROL Ver conflictos potenciales]** en las propiedades del recorrido o de la campaña.
 
@@ -61,11 +73,15 @@ Journey Optimizer le permite comprobar si hay alguna posibilidad de superposici�
 
    ![](assets/potential-conflicts.png)
 
->[!NOTE]
->
->Para restringir aún más la búsqueda de posibles superposiciones, puede filtrar la lista de campañas y recorridos en función de los campos que sean relevantes. Para ello, seleccione el icono de filtro en la vista de inventario. [Aprenda a trabajar con filtros](../start/search-filter-categorize.md#filter-lists)
+   >[!NOTE]
+   >
+   >Las campañas recién publicadas pueden tardar hasta 5 minutos en mostrarse en el visor de conflictos debido al almacenamiento en caché implementado
 
-Una vez identificadas las posibles superposiciones, Journey Optimizer proporciona varias formas de solucionarlas.
+Para restringir aún más la búsqueda de posibles superposiciones, puede filtrar la lista de campañas y recorridos en función de los campos que sean relevantes. Para ello, seleccione el icono de filtro en la vista de inventario. [Aprenda a trabajar con filtros](../start/search-filter-categorize.md#filter-lists)
+
+### Resolver conflictos {#resolve}
+
+A continuación se ofrecen algunas sugerencias para reducir los conflictos potenciales una vez identificados:
 
 * Ajuste las **fechas de inicio y finalización** para evitar campañas o recorridos superpuestos.
 * Restrinja **la segmentación de audiencia** para minimizar la superposición entre recorridos.
@@ -99,4 +115,4 @@ Para asignar una puntuación de prioridad a un recorrido o campaña, escriba un 
 
 ![](assets/priority-score.png)
 
-En situaciones en las que dos campañas tienen la misma puntuación de prioridad, se muestra la campaña activada menos recientemente.
+En situaciones en las que dos campañas tienen la misma puntuación de prioridad, se muestra la campaña que se activó primero.
