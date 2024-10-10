@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: e6da92e2459c83019a9bb72b79809fdf7cf68c98
+source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 16%
@@ -298,6 +298,4 @@ Las siguientes barreras y limitaciones se aplican a la capacidad de criterios de
 
 * Los criterios de salida solo se definen en estado de borrador
 * Recorrido de coherencia de área de nombres entre eventos y criterios de salida basados en eventos
-
-
 
