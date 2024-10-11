@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff2ad535b0919c3c9d8cf098dfcedf3f9ea8bba6
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 67%
+source-wordcount: '1489'
+ht-degree: 61%
 
 ---
 
@@ -71,6 +71,16 @@ A continuación, se enumeran las nuevas funciones disponibles en Adobe Journey O
 **Recorridos** - Fecha de disponibilidad: 3 de octubre de 2024
 
 * **Parámetros en acciones personalizadas**: ahora se admiten parámetros NULL y opcionales en las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+**Gobernanza de datos y políticas de consentimiento** - Fecha de disponibilidad: 7 de octubre de 2024
+
+* La aplicación de las **políticas de control de datos** ahora se aplica en todos los canales de Journey Optimizer. Para los clientes que han creado directivas en Adobe Experience Platform, estas se aplican a las acciones de marketing como parte de la configuración de canales. Al crear contenido con una configuración, el sistema comprueba todos los campos personalizados para detectar cualquier infracción de la gobernanza de datos. Si se encuentra una infracción, no será posible publicar un recorrido o una campaña. [Más información](../action/action-privacy.md)
+
+* **Las políticas de consentimiento personalizado** ahora se aplican a todos los canales de Journey Optimizer. Al aplicar la ley antes de enviar un mensaje o de entregar una experiencia entrante, el sistema comprueba que el usuario haya dado su consentimiento para utilizar campos de personalización en el contenido que va a recibir. Si no se da ningún consentimiento, la experiencia no se muestra. [Más información](../action/consent.md)
+
+  >[!NOTE]
+  >
+  >Actualmente, las políticas de consentimiento solo están disponibles para las organizaciones que han adquirido las ofertas sobre el programa de **Protección sanitaria** y el programa de **Protección de la seguridad y la privacidad**.
 
 **Audiencias** - Fecha de disponibilidad: 8 de octubre de 2024
 
