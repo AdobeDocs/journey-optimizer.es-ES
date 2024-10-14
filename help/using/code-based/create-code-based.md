@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 10%
+source-wordcount: '1215'
+ht-degree: 9%
 
 ---
 
@@ -167,6 +167,8 @@ También puede obtener una vista previa del contenido de la experiencia basado e
 >Si activa un recorrido o una campaña basada en código que afecte a las mismas páginas que otro recorrido o campaña que ya está activo, todos los cambios se aplicarán al contenido.
 >
 >Si varios recorridos o campañas basados en código actualizan los mismos elementos del contenido, la campaña o el recorrido de mayor prioridad tiene prioridad.
+
+Una vez que su recorrido o campaña basada en código esté activa, el equipo de implementación de la aplicación será el responsable de realizar llamadas explícitas de API o SDK para recuperar contenido para las superficies definidas en la [configuración de experiencia basada en código](code-based-configuration.md) seleccionada. Obtenga más información sobre las diferentes implementaciones de clientes en [esta sección](code-based-implementation-samples.md).
 
 ### Publish es un recorrido basado en código {#publish-code-based-journey}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 3%
+source-wordcount: '570'
+ht-degree: 2%
 
 ---
 
@@ -20,10 +20,6 @@ Para poder usar acciones de experiencia basadas en código en [!DNL Journey Opti
 * Para agregar modificaciones a las aplicaciones, debe tener una implementación específica. [Más información](#implementation-prerequisites)
 
 * Para que las experiencias basadas en código se entreguen correctamente, asegúrese de definir la configuración de Adobe Experience Platform detallada [aquí](#delivery-prerequisites).
-
->[!CAUTION]
->
->Solo puede crear experiencias basadas en código en **campañas**. [Más información](../campaigns/create-campaign.md#configure).
 
 ## Requisitos previos de implementación {#implementation-prerequisites}
 

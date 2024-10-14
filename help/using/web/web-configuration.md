@@ -6,26 +6,20 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 11%
+source-wordcount: '935'
+ht-degree: 10%
 
 ---
 
-# Creación de una configuración de canal web {#web-configuration}
+# Configuración de las experiencias web {#web-configuration}
 
->[!CONTEXTUALHELP]
->id="ajo_admin_page_rule"
->title="Regla de coincidencia de páginas"
->abstract="Para administrar y segmentar de forma eficaz un grupo de direcciones URL que compartan los mismos criterios, cree una regla de coincidencia de páginas. Esta regla permite consolidar varias direcciones URL bajo una sola guía, lo que simplifica la aplicación de acciones y configuraciones coherentes en todas estas páginas."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_default_url"
->title="URL de creación y previsualización predeterminadas"
->abstract="Este campo garantiza que las páginas generadas o coincidentes por la regla tengan una URL designada, esencial para crear y previsualizar contenido de forma eficaz."
+## Creación de una configuración de canal web {#create-web-configuration}
 
 Una configuración web es una propiedad web identificada por una dirección URL a la que se envía el contenido. Puede coincidir con una dirección URL de una sola página o varias páginas, lo que le permite enviar modificaciones en una o varias páginas web.
+
+Para crear una configuración de canal web, siga los pasos a continuación.
 
 1. Acceda al menú **[!UICONTROL Canales]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Configuraciones de canal]** y luego haga clic en **[!UICONTROL Crear configuración de canal]**.
 
@@ -37,7 +31,7 @@ Una configuración web es una propiedad web identificada por una dirección URL 
    >
    > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto`.` y guión `-`.
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
 
 1. Seleccione el canal **Web**.
 
@@ -45,29 +39,57 @@ Una configuración web es una propiedad web identificada por una dirección URL 
 
 1. Seleccione **[!UICONTROL Acciones de marketing]** para asociar directivas de consentimiento a los mensajes que usan esta configuración. Todas las políticas de consentimiento asociadas con la acción de marketing se aprovechan para respetar las preferencias de los clientes. [Más información](../action/consent.md#surface-marketing-actions)
 
-1. Puede ingresar una **[!UICONTROL URL de página]** si desea aplicar los cambios solo a una página.
+1. En la sección **[!UICONTROL Configuración web]**, seleccione una de las siguientes opciones:
 
-1. O puede generar una **[!UICONTROL regla que coincida con las páginas]** para dirigirse a varias direcciones URL que coincidan con la misma regla; por ejemplo, si desea aplicar los cambios a un banner a pantalla completa en todo un sitio web o agregar una imagen superior que se muestre en todas las páginas de productos de un sitio web.
+   * **[!UICONTROL Página individual]**: si desea aplicar los cambios solo a una página, escriba una **[!UICONTROL URL de página]**.
 
-   Para ello, seleccione **[!UICONTROL Regla de coincidencia de páginas]**.
+   * **[!UICONTROL Regla de coincidencia de páginas]**: para segmentar varias direcciones URL que coincidan con la misma regla, cree una regla de coincidencia de páginas e introduzca una **[!UICONTROL URL de creación y vista previa predeterminada]**. [Más información](#web-page-matching-rule)
 
-1. Defina sus criterios para los campos **[!UICONTROL Dominio]** y **[!UICONTROL Página]**.
+1. Haga clic en **[!UICONTROL Enviar]** para guardar los cambios.
+
+Ahora puede seleccionar esta configuración al utilizar el canal Web en sus campañas o recorridos.
+
+## Creación de regla de coincidencia de páginas {#web-page-matching-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_page_rule"
+>title="Creación de regla de coincidencia de páginas"
+>abstract="Para administrar y segmentar de forma eficaz un grupo de direcciones URL que compartan los mismos criterios, cree una regla de coincidencia de páginas. Esta regla permite consolidar varias direcciones URL bajo una sola guía, lo que simplifica la aplicación de acciones y configuraciones coherentes en todas estas páginas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_url"
+>title="Definir una URL para la creación y previsualización de contenido"
+>abstract="Este campo garantiza que las páginas generadas o coincidentes por la regla tengan una URL designada, esencial para crear y previsualizar contenido de forma eficaz."
+
+Al crear una configuración web o de [experiencia basada en código](../code-based/get-started-code-based.md), puede generar una **[!UICONTROL regla que coincida con las páginas]** para dirigirse a varias URL que coincidan con la misma regla. Por lo tanto, puede aplicar los mismos cambios de contenido en varias páginas a la vez.
+
+Por ejemplo, es posible que desee aplicar los cambios a un banner a pantalla completa en todo un sitio web o agregar una imagen superior que se muestre en todas las páginas de productos de un sitio web.
+
+1. Al configurar su [experiencia web](#web-configuration) o [experiencia basada en código](../code-based/code-based-configuration.md), seleccione **[!UICONTROL Regla de coincidencia de páginas]**.
+
+1. Defina sus criterios para los campos **[!UICONTROL Dominio]** y **[!UICONTROL Página]**. Compruebe los operadores disponibles en [esta sección](#available-operators).
 
    Por ejemplo, si desea editar elementos que se muestran en todas las páginas de productos femeninas del sitio web de Luma, seleccione **[!UICONTROL Dominio]** > **[!UICONTROL Comienza con]** > `luma` y **[!UICONTROL Página]** > **[!UICONTROL Contiene]** > `women`.
 
    ![](assets/web_config_3.png)
 
-1. Si creó una **[!UICONTROL regla de coincidencia de página]**, debe ingresar la URL de creación y vista previa **Predeterminada**. Este paso garantiza que las páginas generadas o coincidentes por la regla tengan una dirección URL designada tanto para la creación de contenido como para la vista previa. Obtenga más información acerca de la regla de coincidencia de página en la [sección siguiente](#web-page-matching-rule).
+1. Si el caso de uso no se puede modelar con una regla, tiene la opción de agregar varias reglas. Haga clic en **[!UICONTROL Agregar otra regla de página]** y repita el paso anterior.
 
-1. Guarde los cambios.
+   >[!NOTE]
+   >
+   >Se pueden agregar hasta 10 reglas.
 
-Ahora puede seleccionar la configuración al utilizar el canal Web en campañas o recorridos.
+1. Puede usar los operadores **[!UICONTROL Or]** o **[!UICONTROL Exclude]** entre las diferentes reglas.
 
-## Regla de coincidencia de página {#web-page-matching-rule}
+   **[!UICONTROL Excluir]** resulta útil cuando una de las páginas que coinciden con la regla definida no debe ser un destino. Por ejemplo, puede dirigirse a todas las `luma.com` páginas que contienen `product`, excluyendo la siguiente página: `https://luma.com/blogs/productinfo`.
 
-Al crear una regla que coincida con varias páginas para que pueda aplicar los mismos cambios de contenido en varias páginas a la vez, puede usar operadores diferentes en las secciones **Dominio** y **Ruta** para generar la regla que desee. Compruebe los operadores disponibles a continuación.
+   ![](assets/web_config_4.png)
 
-Operadores disponibles para generar reglas de coincidencia de página:
+1. Escriba la **[!UICONTROL URL de creación y vista previa predeterminada]**. Este paso garantiza que las páginas generadas o coincidentes por la regla tengan una dirección URL designada tanto para la creación de contenido como para la vista previa.
+
+### Operadores disponibles para generar reglas de coincidencia de página {#available-operators}
+
+Al crear una regla [que coincida con varias páginas](#web-page-matching-rule), puede usar operadores diferentes en las secciones **[!UICONTROL Dominio]** y **[!UICONTROL Ruta]** para generar la regla que desee. A continuación se enumeran los operadores disponibles.
 
 * **Dominio**
 
@@ -123,5 +145,3 @@ Operadores disponibles para generar reglas de coincidencia de página:
     </tr>
     </tbody>
 </table>
-
-Si el caso de uso no se puede modelar con una regla, tiene la opción de agregar varias reglas de página y puede utilizar entre ellas los operadores &quot;O&quot; o &quot;Excluir&quot;. La opción &quot;Excluir&quot; resulta útil cuando una de las páginas que coincide con la regla definida no debe estar segmentada: por ejemplo, todas las páginas &quot;example.com&quot; que contienen &quot;product&quot;, excluyendo la siguiente página: `https://example.com/blogs/productinfo`.

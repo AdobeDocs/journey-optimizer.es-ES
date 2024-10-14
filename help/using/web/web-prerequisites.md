@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 7%
+source-wordcount: '1145'
+ht-degree: 6%
 
 ---
 
@@ -24,8 +24,6 @@ Para poder acceder y crear páginas web en la interfaz de usuario de [!DNL Journ
 * Para que la experiencia web se entregue correctamente, asegúrese de definir la configuración de Adobe Experience Platform detallada [aquí](#delivery-prerequisites).
 
 ## Notas de precaución {#caution-notes-web}
-
-* Actualmente en [!DNL Journey Optimizer] solo puede crear experiencias web en **campañas**. [Más información](../campaigns/create-campaign.md#configure)
 
 * Las campañas web de [!DNL Journey Optimizer] se dirigen a nuevos perfiles que no han interactuado anteriormente en otros canales. Esto aumentará el recuento total de perfiles con los que es posible interactuar, lo que puede tener costes si se supera el número contractual de perfiles adquiridos. Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -43,7 +41,7 @@ Se admiten dos tipos de implementaciones para habilitar la creación y el envío
 
 >[!NOTE]
 >
->Actualmente no se admite la implementación solo del lado del servidor.
+>Actualmente, la implementación solo del lado del servidor no es compatible con el canal Web. Si solo tiene una implementación del lado del servidor para sus páginas web, puede usar el [canal de experiencia basado en código](../code-based/get-started-code-based.md) en su lugar.
 
 <!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 

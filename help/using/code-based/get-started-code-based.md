@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '720'
+ht-degree: 83%
 
 ---
 
@@ -79,7 +79,7 @@ Con la funcionalidad de la **experiencia basada en código** puede definir las e
 
 * También puede utilizar el canal basado en código como alternativa a los canales web o de la aplicación de [!DNL Journey Optimizer] en caso de que tenga una implementación basada en API, sin encabezado o del lado del servidor.
 
-### Canal basado en código frente a canal web
+### Canal basado en código frente a canal web {#code-based-vs-web}
 
 Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia basada en código, pero según el contexto, una es más apropiada que la otra. Las principales diferencias se enumeran a continuación para que pueda tomar una decisión informada sobre qué utilizar y cuándo.
 
@@ -103,18 +103,20 @@ Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia bas
 
 >[!CAUTION]
 >
->Esta funcionalidad es para desarrolladores y/o usuarios experimentados. Los expertos en marketing con algunas habilidades de escritura de código pueden utilizarla, siempre y cuando el equipo de desarrollo gestione las implementaciones de superficie y la configuración inicial.
+>Esta funcionalidad es para desarrolladores y/o usuarios experimentados. Los especialistas en marketing con algunas habilidades de escritura de código pueden utilizarla, siempre y cuando el equipo de desarrollo gestione las configuraciones de canal y la configuración inicial.
 
-Para editar el contenido utilizando la funcionalidad de experiencia basada en código de [!DNL Journey Optimizer], sus páginas o aplicaciones deben estar instrumentadas. Para ello, debe declarar por adelantado las ubicaciones individuales específicas (denominadas “[superficies](code-based-configuration.md#surface-definition)”) donde desee insertar o reemplazar contenido<!--HOW??-->.
+Para editar el contenido utilizando la funcionalidad de experiencia basada en código de [!DNL Journey Optimizer], sus páginas o aplicaciones deben estar instrumentadas. Para ello, debe declarar por adelantado las ubicaciones individuales específicas (denominadas &quot;[superficies](code-based-configuration.md#surface-definition)&quot;) en las que desea insertar o reemplazar contenido.
 
 >[!NOTE]
 >
->Actualmente, el contenido asociado a una configuración solo puede ser HTML o JSON. <!--WILL COME LATER: text, image or another format depending on the application-->
+>Actualmente, el contenido asociado a una configuración solo puede ser HTML o JSON.
 
 Los pasos clave para implementar una campaña basada en código se explican a continuación.
 
-1. Defina una [superficie](code-based-configuration.md#surface-definition) en la implementación de la aplicación, que es básicamente la ubicación en la que desea añadir la experiencia basada en código; luego cree una configuración de canal de experiencia basada en código que haga referencia a esa ubicación y, a continuación, cree una campaña en [!DNL Journey Optimizer] con esta configuración. [Descubra cómo](create-code-based.md#create-code-based-campaign)
+1. Defina una [superficie](code-based-configuration.md#surface-definition) en la implementación de su aplicación, que básicamente es la ubicación donde desea agregar su experiencia basada en código, y cree una configuración de canal de experiencia basada en código que haga referencia a esa ubicación. [Descubra cómo](code-based-configuration.md#create-code-based-configuration)
+
+1. Cree un recorrido o una campaña en [!DNL Journey Optimizer] con esta configuración. [Descubra cómo](create-code-based.md#create-code-based-campaign)
 
 1. Componga una experiencia especificando contenido para la configuración seleccionada mediante el editor de personalización de [!DNL Journey Optimizer]. [Descubra cómo](create-code-based.md#edit-code)
 
-1. El equipo de implementación de la aplicación realiza llamadas explícitas a la API o SDK para recuperar el contenido de las superficies con nombre, como “Texto del titular” o “Bandeja de recomendaciones 1”, o los puntos de decisión no relacionados con la interfaz de usuario en una aplicación, como, por ejemplo, los “parámetros de algoritmo de búsqueda”. En este caso, el equipo de implementación es responsable de procesar o interpretar de otra manera y actuar sobre el contenido devuelto.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
+1. El equipo de implementación de la aplicación realiza llamadas explícitas a la API o SDK para recuperar el contenido de las superficies con nombre, como “Texto del titular” o “Bandeja de recomendaciones 1”, o los puntos de decisión no relacionados con la interfaz de usuario en una aplicación, como, por ejemplo, los “parámetros de algoritmo de búsqueda”. En este caso, el equipo de implementación es responsable de procesar o interpretar de otra manera y actuar sobre el contenido devuelto. [Más información](code-based-implementation-samples.md)
