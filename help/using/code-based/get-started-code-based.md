@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '719'
 ht-degree: 83%
 
 ---
@@ -103,7 +103,7 @@ Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia bas
 
 >[!CAUTION]
 >
->Esta funcionalidad es para desarrolladores y/o usuarios experimentados. Los especialistas en marketing con algunas habilidades de escritura de código pueden utilizarla, siempre y cuando el equipo de desarrollo gestione las configuraciones de canal y la configuración inicial.
+>Esta funcionalidad es para desarrolladores y/o usuarios experimentados. Los especialistas en marketing con algunas habilidades de escritura de código pueden utilizarlo, siempre y cuando las configuraciones de canal y la configuración inicial sean administradas por el equipo de desarrollo.
 
 Para editar el contenido utilizando la funcionalidad de experiencia basada en código de [!DNL Journey Optimizer], sus páginas o aplicaciones deben estar instrumentadas. Para ello, debe declarar por adelantado las ubicaciones individuales específicas (denominadas &quot;[superficies](code-based-configuration.md#surface-definition)&quot;) en las que desea insertar o reemplazar contenido.
 

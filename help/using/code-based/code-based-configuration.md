@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1531'
 ht-degree: 30%
 
 ---
@@ -160,7 +160,7 @@ Para definir los ajustes de configuración de experiencias basadas en código pa
 
 1. Seleccione **[!UICONTROL Other]** como plataforma si la implementación no es para web, iOS o Android, o si necesita direccionar URI específicos.
 
-1. Escriba el **[!UICONTROL URI de superficie]**. [Más información](#surface-definition)
+1. Escriba el **[!UICONTROL URI de superficie]**. Un URI de superficie es un identificador único correspondiente a la entidad en la que desea ofrecer su experiencia. [Más información](#surface-definition)
 
    ![](assets/code_config_5.png)
 
@@ -174,7 +174,7 @@ Para definir los ajustes de configuración de experiencias basadas en código pa
    >
    >Al añadir varios URI, el contenido se envía a todos los componentes enumerados.
 
-## ¿Qué es un URI de superficie? {#surface-definition}
+## ¿Qué es una superficie?  {#surface-definition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
