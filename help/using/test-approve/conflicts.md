@@ -1,7 +1,6 @@
 ---
-title: Administración de conflictos y priorización
-description: Obtenga información sobre cómo previsualizar y probar el contenido.
-feature: Preview, Proofs
+title: Identificación de posibles conflictos en recorridos y campañas
+description: Aprenda a identificar conflictos potenciales en recorridos y campañas.
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
@@ -9,31 +8,28 @@ hide: true
 hidefromtoc: true
 source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 21%
+source-wordcount: '691'
+ht-degree: 3%
 
 ---
 
 
-# Administración de conflictos y priorización {#conflict-prioritization}
+# Detección de posibles conflictos en recorridos y campañas {#conflict}
+
+>[!BEGINSHADEBOX]
+
+Lo que encontrará en esta guía de documentación:
+
+* [Introducción a la administración y priorización de conflictos](gs-conflict-prioritization.md)
+* **[Detectar posibles conflictos en recorridos y campañas](conflicts.md)**
+* [Asignar puntuaciones de prioridad a recorridos y campañas](priority-scores.md)
+* [límite y arbitraje de recorridos](journey-capping.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Actualmente, las herramientas de administración de conflictos y priorización solo están disponibles como una versión beta para usuarios seleccionados.
-
-En Journey Optimizer, administrar el volumen y el tiempo de las campañas y los recorridos es esencial para evitar abrumar a los clientes con demasiadas interacciones. Las dos secciones siguientes presentan herramientas clave para ayudarle a mantener el equilibrio y priorizar las comunicaciones de forma eficaz
-
-## Identificación de posibles conflictos en recorridos y campañas {#conflict}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_conflict"
->title="Visualizador de conflictos en campañas"
->abstract="Esta herramienta puede ayudarle a determinar la superposición con otros recorridos, campañas o configuraciones de canal. Si desea identificar superposiciones en público, fecha de inicio y de finalización, configuración de canal, canal o el conjunto de reglas, puede ver posibles conflictos aquí."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_conflict"
->title="Visualizador de conflictos en recorridos"
->abstract="Esta herramienta puede ayudarle a determinar la superposición con otros recorridos, campañas o configuraciones de canal. Si desea identificar superposiciones en público, fecha de inicio y de finalización, configuración de canal, canal o el conjunto de reglas, puede ver posibles conflictos aquí."
+>Actualmente, las herramientas de priorización y administración de conflictos están disponibles como disponibilidad limitada solo para usuarios seleccionados.
 
 A medida que los especialistas en marketing aumentan el volumen de campañas y Recorridos en Journey Optimizer, se hace cada vez más difícil para un experto en marketing saber si está bombardeando a sus clientes con demasiadas interacciones de marketing. por lo tanto, es esencial identificar fácilmente cuándo hay campañas y recorridos superpuestos para garantizar que logren el equilibrio adecuado en las comunicaciones de marketing y, al mismo tiempo, mitigar el riesgo de fatiga de los clientes.
 
@@ -45,7 +41,7 @@ Las áreas clave para monitorizar la posible superposición son las siguientes:
 * **Conjunto de reglas de límite**: ¿Qué tipos de recorridos limito y hay superposición dentro de ellos?
 * **Configuración del canal**: ¿Hay otros recorridos o campañas que usan alguna configuración de canal que se esté usando en el mismo recorrido o campaña y que podrían impedir que el recorrido o la campaña se muestre al usuario final?
 
-### Cómo detecta Journey Optimizer los conflictos {#detection}
+## Cómo detecta Journey Optimizer los conflictos {#detection}
 
 A continuación se muestra un resumen de cómo Journey Optimizer identifica posibles conflictos para recorridos y campañas:
 
@@ -55,7 +51,7 @@ A continuación se muestra un resumen de cómo Journey Optimizer identifica posi
 * **Campañas**: dado que todas las campañas están dirigidas a audiencias y no hay concepto de eventos, todas las campañas pueden entrar en conflicto con recorridos activados por segmentos (a partir de una actividad Leer audiencia).
 * **Campañas en vivo/programadas**: Las campañas en vivo y programadas pueden entrar en conflicto entre sí debido a una posible superposición de audiencias. Para cualquier campaña determinada, todas las campañas en directo o programadas se muestran en el visor de conflictos.
 
-### Ver conflictos identificados para un recorrido o una campaña determinados {#view}
+## Ver conflictos identificados para un recorrido o una campaña determinados {#view}
 
 Al crear un recorrido o una campaña, Journey Optimizer le permite comprobar si existe la posibilidad de superposición con otros recorridos o campañas. Para ello, siga estos pasos:
 
@@ -79,7 +75,7 @@ Al crear un recorrido o una campaña, Journey Optimizer le permite comprobar si 
 
 Para restringir aún más la búsqueda de posibles superposiciones, puede filtrar la lista de campañas y recorridos en función de los campos que sean relevantes. Para ello, seleccione el icono de filtro en la vista de inventario. [Aprenda a trabajar con filtros](../start/search-filter-categorize.md#filter-lists)
 
-### Resolver conflictos {#resolve}
+## Resolver conflictos {#resolve}
 
 A continuación se ofrecen algunas sugerencias para reducir los conflictos potenciales una vez identificados:
 
@@ -90,29 +86,3 @@ A continuación se ofrecen algunas sugerencias para reducir los conflictos poten
 * Establezca **prioridades** en las acciones entrantes para asegurarse de que se muestre la acción más importante a los clientes.
 
 Al aprovechar estas capacidades, puede asegurarse de que los esfuerzos de marketing estén alineados y de que mantiene el equilibrio adecuado en su estrategia de comunicaciones.
-
-## Asignar puntuaciones de prioridad a recorridos y campañas {#priority}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="Prioridad"
->abstract="Asigne una puntuación de prioridad de recorrido comprendida entre 0 y 100. Un número mayor indica una prioridad mayor. El valor de prioridad insertado aquí lo heredan las acciones entrantes (como in-app) contenidas en este recorrido. En el caso de situaciones en las que esta misma configuración de canal entrante se utiliza en otras campañas o recorridos, se muestra al destinatario la acción entrante con la puntuación de prioridad más alta. Si varios recorridos o campañas tienen la misma puntuación, se elige el elemento que se ha modificado más recientemente."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="Prioridad"
->abstract="Asigne una puntuación de prioridad a la campaña, de 0 a 100. Un número mayor indica una prioridad mayor. En el caso de situaciones en las que esta misma configuración de canal entrante (como in-app) se utiliza en otras campañas o recorridos, se muestra al destinatario la acción entrante con la puntuación de prioridad más alta. Si varios recorridos o campañas tienen la misma puntuación, se elige el elemento que se ha modificado más recientemente."
-
-Journey Optimizer le permite asignar una puntuación de prioridad a un recorrido o campaña. La prioridad es esencial para priorizar un recorrido, una campaña o una acción cuando hay una restricción impuesta (como un límite de frecuencia). En situaciones en las que un cliente cumple los requisitos para muchos recorridos, campañas o comunicaciones y desea ser selectivo sobre qué debe introducir y recibir, debe utilizar este campo.
-
->[!NOTE]
->
->La puntuación de prioridad está disponible para canales entrantes: canales web, en la aplicación y basados en código. En recorrido, la puntuación de prioridad solo está disponible para los canales **en la aplicación** y **basados en código**.
-
-Asignar una puntuación de prioridad es crucial para la comunicación entrante, como web, móvil y en la aplicación. Si tiene varias campañas con la misma configuración de canal (por ejemplo, un banner en la parte superior de la página web), esto podría resultar problemático, ya que solo se puede mostrar contenido de una campaña de forma factible. La puntuación de prioridad es donde insertará su preferencia para la campaña que debe mostrarse cuando el destinatario pueda cumplir los requisitos para más de una campaña.
-
-Para asignar una puntuación de prioridad a un recorrido o campaña, escriba un valor numérico (de 0 a 100) en el campo **[!UICONTROL Puntuación de prioridad]** ubicado en las propiedades de recorrido o campaña. Tenga en cuenta que, cuanto mayor sea el número, mayor será la prioridad. Si fuera el autor de esta campaña y quisiera asegurarse de que se muestra su contenido, le daría una puntuación de 100.
-
-![](assets/priority-score.png)
-
-En situaciones en las que dos campañas tienen la misma puntuación de prioridad, se muestra la campaña que se activó primero.
