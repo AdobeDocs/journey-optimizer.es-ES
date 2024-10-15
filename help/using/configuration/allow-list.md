@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: lista de permitidos, lista, seguro, configuración
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 16%
@@ -140,7 +140,7 @@ Para realizar esto, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Todos los caracteres ASCII comprendidos entre 32 y 126 están permitidos en el campo **[!UICONTROL Motivo]**. La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}, por ejemplo.
+   >Todos los caracteres ASCII comprendidos entre 32 y 126 están permitidos en el campo **[!UICONTROL Motivo]**. La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}, por ejemplo.
 
 1. Haga clic en **[!UICONTROL Enviar]**.
 
