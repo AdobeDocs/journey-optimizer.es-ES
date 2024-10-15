@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 3c4aef3e062eb6a8b106ce00b86cd0594e94d7b0
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1731'
 ht-degree: 7%
 
 ---
@@ -213,7 +213,7 @@ Al crear experiencias basadas en código para páginas web o aplicaciones móvil
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   Al seleccionar un perfil de prueba o un tratamiento diferente, el vínculo de vista previa cambia para que pueda tener un vínculo para cada perfil de prueba o tratamiento y comparar las experiencias.
+   Al actualizar el contenido o seleccionar un perfil de prueba o un tratamiento diferentes, el vínculo de vista previa se actualiza automáticamente. Puede copiar el vínculo en diferentes pestañas del explorador y comparar las experiencias.
 
 ## Publique su experiencia basada en código {#code-based-experience-live}
 
