@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1537'
 ht-degree: 30%
 
 ---
@@ -104,7 +104,7 @@ Para definir los ajustes de configuración de la experiencia basada en código p
 1. Lo siguiente se aplica a la URL de vista previa:
 
    * Si se introduce una dirección URL de una sola página, se utilizará para la vista previa; no es necesario introducir otra dirección URL.
-   * Si se selecciona [páginas que coinciden con la regla](../web/web-configuration.md#web-page-matching-rule), debe introducir una **[!UICONTROL URL de creación y vista previa predeterminada]** que se utilizará para obtener una vista previa de la experiencia en el explorador.
+   * Si se selecciona [páginas que coinciden con la regla](../web/web-configuration.md#web-page-matching-rule), debe introducir una **[!UICONTROL URL de creación y vista previa predeterminada]** que se utilizará para obtener una vista previa de la experiencia en el explorador. [Más información](../code-based/create-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -132,7 +132,7 @@ Para definir los ajustes de configuración de la experiencia basada en código p
 
    ![](assets/code_config_3.png){width="500"}
 
-1. Rellene el campo **[!UICONTROL URL de vista previa]** para habilitar las vistas previas en el dispositivo. Esta dirección URL informa al servicio de vista previa de la dirección URL específica que se va a utilizar al activar una vista previa <!--on device. Learn more-->.
+1. Rellene el campo **[!UICONTROL URL de vista previa]** para habilitar las vistas previas en el dispositivo. Esta dirección URL informa al servicio de vista previa de la dirección URL específica que se debe utilizar al activar la vista previa en el dispositivo. [Más información](../code-based/create-code-based.md#preview-on-device)
 
    La URL de vista previa es un vínculo profundo configurado por el desarrollador de la aplicación dentro de la aplicación. Esto garantiza que cualquier dirección URL que coincida con el esquema de vínculos profundos se abra en la aplicación en lugar de en un explorador web móvil. Póngase en contacto con el desarrollador de su aplicación para obtener el esquema de vínculos profundos configurado para su aplicación.
 

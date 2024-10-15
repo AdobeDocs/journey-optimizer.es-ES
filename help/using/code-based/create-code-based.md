@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 9%
+source-wordcount: '1729'
+ht-degree: 7%
 
 ---
 
@@ -111,7 +111,7 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
 
    También puede guardar parte del contenido del código como fragmento. [Descubra cómo](../content-management/fragments.md#save-as-expression-fragment)
 
-1. Con las experiencias basadas en código, puede utilizar la función de Experience Decisioning. Seleccione el icono **[!UICONTROL Directiva de decisión]** en la barra izquierda y haga clic en **[!UICONTROL Agregar directiva de decisión]**. [Más información](../experience-decisioning/create-decision.md) <!--UI labels TBC + TBC for journeys (visible in UI so probably confirmed) -->
+1. Con las experiencias basadas en código, puede utilizar la función de Experience Decisioning. Seleccione el icono **[!UICONTROL Directiva de decisión]** en la barra izquierda y haga clic en **[!UICONTROL Agregar directiva de decisión]**. [Más información](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -131,7 +131,7 @@ Ahora, tan pronto como el desarrollador realice una llamada de API o SDK para re
 >title="Previsualización de la experiencia basada en código"
 >abstract="Obtenga una simulación del aspecto que tendrá su experiencia basada en código."
 
-Para mostrar una previsualización de la experiencia basada en código modificada, siga los pasos a continuación. Encontrará información detallada sobre cómo seleccionar perfiles de prueba y obtener una vista previa del contenido en [Vista previa y prueba de la página de contenido](../content-management/preview-test.md).
+Para mostrar una previsualización de la experiencia basada en código modificada, siga los pasos a continuación.
 
 >[!CAUTION]
 >
@@ -145,12 +145,75 @@ Para mostrar una previsualización de la experiencia basada en código modificad
 
 1. Se muestra una previsualización de la experiencia modificada basada en código.
 
-<!--
-    ![](assets/code-based-designer-preview.png)
+Encontrará información detallada sobre cómo seleccionar perfiles de prueba y obtener una vista previa del contenido en [esta sección](../content-management/preview.md).
 
-    You can also open it in the default browser, or copy the test URI to paste it in any browser. This allows you to share the link with your team and stakeholders who will be able to preview the new web experience in any browser before the campaign goes live.
+### Previsualización en el dispositivo {#preview-on-device}
 
-    When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device"
+>title="Previsualización de la experiencia basada en código en un dispositivo real"
+>abstract="Obtenga una vista previa de sus experiencias personalizadas directamente en el explorador o en sus dispositivos móviles, para ver cómo se ven en dispositivos reales."
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_web"
+>title="Vista previa de la experiencia web basada en código en el dispositivo"
+>abstract="Escanee el código QR o copie el vínculo para previsualizarlo en el dispositivo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_mobile"
+>title="Vista previa de su experiencia móvil basada en código en el dispositivo"
+>abstract="Escanee el código QR o copie el vínculo para previsualizarlo en el dispositivo. Una vez conectado, introduzca el pin en el dispositivo. Es posible que tenga que reiniciar la aplicación para ver los cambios cada vez que actualice los vínculos de vista previa."
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_refresh"
+>title="Actualice el vínculo de vista previa para reflejar la vista actual"
+>abstract="La vista previa en el dispositivo mostrará el contenido a partir del momento en que creó o actualizó el vínculo de vista previa. Si ha modificado el contenido o ha seleccionado un perfil de prueba o tratamiento diferente, actualice la vista previa para que refleje la vista actual."
+
+Al crear experiencias basadas en código para páginas web o aplicaciones móviles, puede obtener una vista previa de sus experiencias personalizadas directamente en el explorador o en sus dispositivos móviles, para ver cómo se ven estas experiencias en dispositivos reales.
+
+>[!WARNING]
+>
+>La vista previa en el dispositivo no está disponible al usar los atributos contextuales [directivas de decisión](../experience-decisioning/create-decision.md) o [personalización](../personalization/personalization-build-expressions.md).
+
+1. En la pantalla **[!UICONTROL Simular]**, haga clic en el botón **[!UICONTROL Abrir opciones de vista previa]**. Las opciones de vista previa dependen de la plataforma seleccionada en la [configuración basada en código](code-based-configuration.md#create-code-based-configuration).
+
+1. Si usa una [plataforma web](code-based-configuration.md#web) en su configuración basada en código, el campo de solo lectura de **[!UICONTROL URL de vista previa del dispositivo]** está rellenado previamente con la URL ingresada para la configuración de canal actual.
+
+   ![](assets/preview-on-device-web.png)
+
+   Puede:
+
+   * Seleccione el botón **[!UICONTROL Copiar vínculo]** y pegue el vínculo en una pestaña del explorador. También puede compartir el vínculo con su equipo y las partes interesadas, que pueden obtener una vista previa de la nueva experiencia en cualquier explorador antes de que los cambios se activen.
+
+   * Haz clic en **[!UICONTROL Abrir en ficha nueva]** para abrir el vínculo en el explorador actual.
+
+   * Escanee el código QR con su dispositivo móvil para abrir el vínculo de vista previa en un navegador móvil.
+
+1. Si usa [plataformas móviles](code-based-configuration.md#mobile) (iOS/Android) en su configuración basada en código, el campo de solo lectura **[!UICONTROL Vínculo profundo]** está rellenado previamente con el valor de **[!UICONTROL Vista previa de URL]** introducido en la configuración de canal de la plataforma seleccionada.
+
+   Alterne entre las pestañas **[!UICONTROL iOS]** y **[!DNL Android]** para obtener una vista previa de su experiencia en la plataforma que elija.
+
+   ![](assets/preview-on-device-mobile.png)
+
+   Puede:
+
+   * Seleccione el botón **[!UICONTROL Copiar vínculo]** y comparta el vínculo con su equipo y las partes interesadas, que pueden obtener una vista previa de la nueva experiencia en cualquier explorador móvil antes de que los cambios se activen.
+
+   * Escanee el código QR con su dispositivo móvil para abrir el vínculo de vista previa directamente en la aplicación móvil. Debes introducir el PIN en tu dispositivo para establecer la sesión de [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
+
+     >[!NOTE]
+     >
+     >**Adobe Experience Platform Assurance** es un producto de Adobe Experience Cloud que te ayudará a inspeccionar, probar, simular y validar la forma en que recopilas datos o sirves experiencias en tu aplicación móvil. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/home){target="_blank"}
+
+1. Se generan vínculos de vista previa para el perfil de prueba seleccionado y, si usa [Experimento de contenido](../content-management/content-experiment.md) en su recorrido o campaña, para el tratamiento seleccionado.
+
+   <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
+
+   ![](assets/preview-on-device-refresh.png)-->
+
+   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
+
+   Al seleccionar un perfil de prueba o un tratamiento diferente, el vínculo de vista previa cambia para que pueda tener un vínculo para cada perfil de prueba o tratamiento y comparar las experiencias.
 
 ## Publique su experiencia basada en código {#code-based-experience-live}
 
@@ -168,7 +231,7 @@ También puede obtener una vista previa del contenido de la experiencia basado e
 >
 >Si varios recorridos o campañas basados en código actualizan los mismos elementos del contenido, la campaña o el recorrido de mayor prioridad tiene prioridad.
 
-Una vez que su recorrido o campaña basada en código esté activa, el equipo de implementación de la aplicación será el responsable de realizar llamadas explícitas de API o SDK para recuperar contenido para las superficies definidas en la [configuración de experiencia basada en código](code-based-configuration.md) seleccionada. Obtenga más información sobre las diferentes implementaciones de clientes en [esta sección](code-based-implementation-samples.md).
+Una vez que el recorrido o la campaña basados en código estén activos, el equipo de implementación de la aplicación será responsable de realizar llamadas explícitas de API o SDK para recuperar contenido para las superficies definidas en la [configuración de experiencia basada en código](code-based-configuration.md) seleccionada. Obtenga más información sobre las diferentes implementaciones de clientes en [esta sección](code-based-implementation-samples.md).
 
 ### Publish es un recorrido basado en código {#publish-code-based-journey}
 
