@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: en la aplicación, mensaje, configuración, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 9%
@@ -134,5 +134,5 @@ Si **no** usa los siguientes [grupos de campos](https://experienceleague.adobe.c
 * [Creación de un mensaje en la aplicación ](create-in-app.md)
 * [Creación de una campaña](../campaigns/create-campaign.md)
 * [Diseño de un mensaje en la aplicación](design-in-app.md)
-* [Informe en la aplicación](../reports/campaign-global-report.md#inapp-report)
+* [Informe en la aplicación](../reports/campaign-global-report-cja-inapp.md)
 

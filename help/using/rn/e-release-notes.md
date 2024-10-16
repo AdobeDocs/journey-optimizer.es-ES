@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
-workflow-type: ht
-source-wordcount: '1008'
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
+source-wordcount: '963'
 ht-degree: 100%
 
 ---
@@ -150,12 +150,6 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->La experiencia actual de creación de informes se eliminará a partir de la versión de octubre. Después de esta fecha, la nueva experiencia de creación de informes pasará a ser el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas.
-> [Introducción a la nueva interfaz del sistema de creación de informes de Journey Optimizer](../reports/report-gs-cja.md)
-
 
 ### Mejoras {#e-improvements}
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 14%
@@ -190,7 +190,7 @@ Puede ver la puntuación general en la interfaz **Perfiles**. Para cada uno de l
 
 +++¿Qué informes están disponibles?
 
-Accede a tu recorrido, haz clic en el botón **Ver informe** en la parte superior derecha y selecciona la pestaña **Recorrido** a la izquierda. [Más información](../reports/journey-global-report.md)
+Accede a tu recorrido, haz clic en el botón **Ver informe** en la parte superior derecha y selecciona la pestaña **Recorrido** a la izquierda. [Más información](../reports/journey-global-report-cja.md)
 
 +++
 

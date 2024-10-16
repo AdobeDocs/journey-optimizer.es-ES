@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 35%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -160,7 +160,7 @@ El [Diseñador de correo electrónico](content-from-scratch.md) le permite admin
    * **[!UICONTROL Página espejo]**: considera esta URL como una de página espejo.
    * **[!UICONTROL Nunca]**: Nunca activa el seguimiento de esta dirección URL.
 
-Los informes sobre aperturas y clics están disponibles en [Informe en vivo](../reports/live-report.md) y en [Informe global](../reports/global-report.md).
+Los informes sobre aperturas y clics están disponibles en [Informe en vivo](../reports/live-report.md) y en [Informe de Customer Journey Analytics](../reports/report-gs-cja.md).
 
 ## Personalizar seguimiento de URL {#url-tracking}
 

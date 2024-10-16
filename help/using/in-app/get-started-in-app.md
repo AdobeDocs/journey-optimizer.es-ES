@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
@@ -47,11 +47,11 @@ Utilice Journey Optimizer para crear notificaciones en la aplicación y configur
 </div>
 <p></td>
 <td>
-<a href="../reports/campaign-global-report.md#inapp-global">
+<a href="../reports/campaign-global-report-cja-inapp.md">
 <img alt="Validación" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>Acceso a informes en la aplicación</strong></a>
+<a href="../reports/campaign-global-report-cja-inapp.md"><strong>Acceso a informes en la aplicación</strong></a>
 </div>
 <p>
 </td>

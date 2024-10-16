@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: lista de permitidos, lista, seguro, configuración
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1145'
 ht-degree: 16%
 
 ---
@@ -201,7 +201,7 @@ Cuando la lista de permitidos está [activa](#enable-allow-list), se aplica la s
 >
 >Los perfiles con el estado **[!UICONTROL No permitido]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, aunque los **informes de Recorrido** mostrarán que estos perfiles se han movido a través del recorrido ([Leer audiencia](../building-journeys/read-audience.md) y [actividades de mensajes](../building-journeys/journeys-message.md)), los **informes de correo electrónico** no los incluirán en las métricas de **[!UICONTROL Enviados]**, ya que se filtran antes del envío de correo electrónico.
 >
->Obtenga más información sobre [Informe en vivo](../reports/live-report.md) e [Informe global](../reports/global-report.md).
+>Obtenga más información sobre [Informe en vivo](../reports/live-report.md) y [Informe del Customer Journey Analytics](../reports/report-gs-cja.md).
 
 Cuando la lista de permitidos está [desactivada](#deactivate-allow-list), todos los correos electrónicos que envía desde la zona protegida actual se envían a todos los destinatarios (siempre que no estén en la lista de supresión), incluidas las direcciones de clientes reales.
 

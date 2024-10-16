@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, diseño, formato
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 28%
@@ -243,7 +243,7 @@ Si el **[!UICONTROL modo de formato avanzado]** está activado, puede personaliz
 **Temas relacionados:**
 
 * [Crear mensaje en la aplicación](create-in-app.md)
-* [Informe en la aplicación](../reports/campaign-global-report.md#inapp-report)
+* [Informe en la aplicación](../reports/campaign-global-report-cja-inapp.md)
 * [Configuración en la aplicación](inapp-configuration.md)
 
 ## Vídeo explicativo{#video}

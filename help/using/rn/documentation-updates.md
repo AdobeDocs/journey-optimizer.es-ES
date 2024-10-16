@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '5667'
+source-wordcount: '5655'
 ht-degree: 96%
 
 ---
@@ -131,7 +131,6 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Actualice el parámetro **duración** en la función de `toString`. [Más información](../building-journeys/functions/functiontostring.md)
 * En algunos casos de uso de fuentes de datos externas, se recomienda el uso de acciones personalizadas.
 * Se ha actualizado la sintaxis del campo Evento. La siguiente sintaxis está obsoleta `@(my_event.myfield}` y se ha sustituido por `@event{my_event.myfield}`. [Más información](../building-journeys/expression/field-references.md)
-* Se han reorganizado las guías de Informe global e Informe activo. [Más información](../reports/campaign-global-report.md)
 
 +++ 2023
 
@@ -179,7 +178,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * La nota sobre **administración de caché de autenticación** en recorrido se ha actualizado para detallar que el token no se comparte entre recorridos diferentes. [Más información](../datasource/external-data-sources.md#custom-authentication-mode)
 * La página sobre la **administración de entradas** del recorrido se ha actualizado para aclarar el comportamiento. [Más información](../building-journeys/entry-management.md)
 * La **exportación de conjuntos de datos** de Offer Decisioning ahora está habilitada de forma predeterminada. Se ha eliminado la nota sobre el comportamiento anterior.  [Más información](../offers/export-catalog/get-started-export.md)
-* Varias **métricas de informe de campaña** se han cambiado de nombre, tanto en los informes activos como en los globales. [Más información](../reports/campaign-global-report.md)
+* Varias **métricas de informe de campaña** se han cambiado de nombre, tanto en los informes activos como en los globales. [Más información](../reports/campaign-live-report.md)
 * Se ha añadido una nueva sección sobre los requisitos previos del experimento de contenido para el canal web. [Más información](../web/web-prerequisites.md#experiment-prerequisites)
 * Se ha añadido una advertencia en la página **Trabajo con plantillas de contenido** para indicar que el seguimiento actual no es compatible al probar plantillas de contenido de correo electrónico. Para probar el seguimiento, debe utilizar la plantilla de contenido en un mensaje de correo electrónico y enviar una prueba [Más información](../content-management/content-templates.md#test-template)
 * Se han añadido varias advertencias en la sección **Creación y publicación de páginas de aterrizaje** para especificar que no puede acceder a ellas simplemente copiando y pegando en un explorador web la URL definida al crear la página, incluso si se ha publicado. En su lugar, puede probarlas con la función de previsualización. [Más información](../landing-pages/create-lp.md)
@@ -297,9 +296,9 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Se han actualizado las páginas relacionadas con las funciones [toDateOnly](../building-journeys/functions/functiontodateonly.md) y [toString](../building-journeys/functions/functiontostring.md).
 * Se han añadido detalles sobre los parámetros de condición horaria. [Más información](../building-journeys/condition-activity.md#time_condition)
 * Se ha añadido información sobre conjuntos de datos integrados. [Más información](../data/get-started-datasets.md#access-datasets)
-* Se han mejorado y reorganizado las secciones Informe global e Informe en directo. [Más información](../reports/global-report.md)
+* Se han mejorado y reorganizado las secciones Informe global e Informe en directo. [Más información](../reports/report-gs-cja.md)
 * Se ha añadido una lista de todas las métricas de creación de informes disponibles en Adobe Journey Optimizer.
-  [Más información](../reports/global-report.md#email-and-sms-metrics)
+  [Más información](../reports/report-gs-cja.md#email-and-sms-metrics)
 * La sección de correo electrónico CCO se ha trasladado a la nueva página Asistencia para el archivado. [Más información](../configuration/archiving-support.md)
 
 ## Agosto de 2022 {#august-2022}
@@ -444,7 +443,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Se ha actualizado el procedimiento de configuración para acciones personalizadas con rutas URL dinámicas y encabezados dinámicos. [Más información](../action/about-custom-action-configuration.md#url-configuration)
 * Se ha añadido una sección sobre las funciones de accesibilidad y los métodos abreviados de teclado. [Más información](../start/user-interface.md#accessibility)
 * Se ha añadido una sección acerca de métodos de evaluación de público. [Más información](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* Se han añadido notas a las secciones Lista de supresión, Lista de permitidos e Informe de correo electrónico global/activo para especificar que los perfiles con estados Suprimido y No permitido se excluyan de las métricas Enviado del Informe de correo electrónico. [Más información](../reports/global-report.md)
+* Se han añadido notas a las secciones Lista de supresión, Lista de permitidos e Informe de correo electrónico global/activo para especificar que los perfiles con estados Suprimido y No permitido se excluyan de las métricas Enviado del Informe de correo electrónico. [Más información](../reports/report-gs-cja.md)
 * Se ha añadido una nueva sección para describir cómo recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. [Más información](../configuration/allow-list.md#reporting)
 * Se ha actualizado la sección Habilitación de la lista de permitidos. [Más información](../configuration/allow-list.md#enable-allow-list)
 * Se ha actualizado la sección Monitorización de ajustes preestablecidos de mensaje con los posibles motivos de error de creación y detalles sobre dichos errores. [Más información](../configuration/channel-surfaces.md#monitor-channel-surfaces)

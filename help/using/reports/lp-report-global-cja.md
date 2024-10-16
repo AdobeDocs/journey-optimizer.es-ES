@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informe global de la página de aterrizaje
+title: Informe de página de aterrizaje
 description: Aprenda a utilizar los datos del informe de páginas de aterrizaje
 feature: Reporting, Landing Pages
 topic: Content Management
@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '791'
 ht-degree: 2%
 
 ---

@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 12%
@@ -256,5 +256,5 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
 * [Diseño de un mensaje en la aplicación](design-in-app.md)
 * [Prueba y envío de un mensaje en la aplicación](send-in-app.md)
-* [Informe en la aplicación](../reports/campaign-global-report.md#inapp-report)
+* [Informe en la aplicación](../reports/campaign-global-report-cja-inapp.md)
 * [Configuración en la aplicación](inapp-configuration.md)

@@ -8,18 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '529'
 ht-degree: 1%
 
 ---
 
 # Introducción al Informe en vivo {#live-report}
-
->[!AVAILABILITY]
->
->La experiencia actual de creación de informes se eliminará a partir de la versión de octubre. Después de esta fecha, la nueva experiencia de creación de informes se convertirá en el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas. [Introducción a la nueva interfaz de informes de Journey Optimizer.](report-gs-cja.md)
 
 Use **[!UICONTROL Informe en vivo]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y sus mensajes en un panel integrado.
 Los datos están disponibles en el **[!UICONTROL informe en vivo]** tan pronto como se envíe o se ejecute el recorrido desde la ficha **[!UICONTROL Últimas 24 horas]**.
@@ -32,7 +28,7 @@ Los datos están disponibles en el **[!UICONTROL informe en vivo]** tan pronto c
 
   ![](assets/report_campaign.png)
 
-* Si desea cambiar del **[!UICONTROL informe global]** al **[!UICONTROL informe en vivo]** para su envío, haga clic en **[!UICONTROL Últimas 24 horas]** desde el conmutador de pestañas.
+* Si desea cambiar de los **informes del Customer Journey Analytics** al **[!UICONTROL informe en vivo]** para su envío, haga clic en **[!UICONTROL Últimas 24 horas]** desde el conmutador de pestañas.
 
   ![](assets/report_3.png)
 

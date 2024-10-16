@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
+>Antes de empezar a usar esta capacidad, lea las [Mecanismos de protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
 ></br>
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Journey Optimizer para la aceleración de contenido. Para obtener más información, contacte con su representante de Adobe.
@@ -52,4 +52,4 @@ Una vez que haya creado y personalizado sus mensajes, eleve su contenido con el 
 
 1. Antes de lanzar la campaña, comprueba que todas las configuraciones sean correctas y luego haz clic en **[!UICONTROL Activar]**.
 
-Después de configurar y personalizar correctamente la campaña, puede realizar un seguimiento de la campaña en el informe de campaña. [Más información](../reports/campaign-global-report.md)
+Después de configurar y personalizar correctamente la campaña, puede realizar un seguimiento de la campaña en el informe de campaña. [Más información](../reports/campaign-global-report-cja.md)

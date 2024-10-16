@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '830'
 ht-degree: 11%
 
 ---
@@ -59,7 +59,7 @@ Para cada dirección, el motivo básico de la supresión y la categoría de supr
 >
 >Los perfiles con estado **[!UICONTROL Suprimido]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, aunque los **informes de Recorrido** mostrarán que estos perfiles se han movido a través del recorrido ([Leer audiencia](../building-journeys/read-audience.md) y [actividades de mensajes](../building-journeys/journeys-message.md)), los **informes de correo electrónico** no los incluirán en las métricas de **[!UICONTROL Enviados]**, ya que se filtran antes del envío de correo electrónico.
 >
->Obtenga más información sobre [Informe en vivo](../reports/live-report.md) e [Informe global](../reports/global-report.md). Para averiguar el motivo de todos los casos de exclusión, puede usar [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
+>Obtenga más información sobre [Informe en vivo](../reports/live-report.md) y [Informe del Customer Journey Analytics](../reports/report-gs-cja.md). Para averiguar el motivo de todos los casos de exclusión, puede usar [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
 
 ### Errores de envío {#delivery-failures}
 

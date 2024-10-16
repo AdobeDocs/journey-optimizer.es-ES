@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ab4219c7045f9c4ba77fceb2cbb46fbbe6f536ac
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1716'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ La lista **[!UICONTROL Páginas de destino]** muestra todos los elementos creado
 
 ![](assets/lp_access-list-filter.png)
 
-Desde esta lista, puede acceder a [informe en directo de la página de aterrizaje](../reports/lp-report-live.md) o a [informe global de la página de aterrizaje](../reports/lp-report-global.md) para los elementos publicados.
+Desde esta lista, puede acceder a [informe en vivo de página de aterrizaje](../reports/lp-report-live.md) o [informe de página de aterrizaje](../reports/lp-report-global-cja.md) para elementos publicados.
 
 También puede eliminar, duplicar y cancelar la publicación de una página de aterrizaje.
 

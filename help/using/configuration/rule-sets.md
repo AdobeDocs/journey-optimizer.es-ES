@@ -12,10 +12,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1593'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -230,7 +230,7 @@ Para aplicar una regla de negocio a un mensaje, siga los pasos a continuación.
 
    ![](assets/rule-set-schedule-campaign.png)
 
-1. Puede ver el número de perfiles excluidos del envío en el [informe global](../reports/global-report.md) y en el [informe en vivo](../reports/live-report.md), donde las reglas de frecuencia se enumerarán como un posible motivo para que los usuarios no puedan recibir envíos.
+1. Puede ver el número de perfiles excluidos del envío en el [informe de Customer Journey Analytics](../reports/report-gs-cja.md) y en el [informe en vivo](../reports/live-report.md), donde las reglas de frecuencia se enumerarán como un posible motivo para excluir a los usuarios del envío.
 
 >[!NOTE]
 >

@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 7%
@@ -108,5 +108,5 @@ Para configurar el canal web en la aplicación, siga los pasos a continuación:
 **Temas relacionados:**
 
 * [Prueba y envío de un mensaje en la aplicación](send-in-app.md)
-* [Informe en la aplicación](../reports/campaign-global-report.md#inapp-report)
+* [Informe en la aplicación](../reports/campaign-global-report-cja-inapp.md)
 * [Configuración en la aplicación](inapp-configuration.md)

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 13%
+source-wordcount: '734'
+ht-degree: 12%
 
 ---
 
@@ -45,10 +45,6 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 ## Cree su contenido {#campaign-experiment}
 
 1. Comience creando y configurando su notificación por correo electrónico, SMS o push [campaign](../campaigns/create-campaign.md) o [recorrido](../building-journeys/journeys-message.md) según sus necesidades.
-
-   >[!AVAILABILITY]
-   >
-   >Actualmente, la experimentación en Recorrido solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 1. Desde la ventana **[!UICONTROL Editar contenido]**, empiece a personalizar el tratamiento A.
 
@@ -128,4 +124,4 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 
 1. Una vez definido el contenido del mensaje, haga clic en el botón **[!UICONTROL Simular contenido]** para controlar la renderización del envío y comprobar la configuración de personalización con perfiles de prueba. [Más información](../content-management/preview-test.md)
 
-Después de configurar la experimentación, puede realizar un seguimiento del éxito de su envío con el informe. [Más información](../reports/campaign-global-report.md#experimentation-report)
+Después de configurar la experimentación, puede realizar un seguimiento del éxito de su envío con el informe. [Más información](../reports/campaign-global-report-cja-experimentation.md)

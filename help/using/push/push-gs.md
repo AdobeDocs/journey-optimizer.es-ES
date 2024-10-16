@@ -8,10 +8,10 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,7 @@ La siguiente ilustración muestra los sistemas y servicios involucrados con los 
 1. Las cargas push personalizadas se reenvían a un servicio de entrega de mensajería push interna
 1. A continuación, este servicio interno valida las credenciales de la aplicación asociada al mensaje y
 1. Envía el mensaje a los servicios de mensajería de Apple y Google para su envío final
-1. Se registran los comentarios de los servicios de mensajería, los errores y los éxitos para la creación de informes en los informes de Recorrido Live y Global
+1. Se registran los comentarios de los servicios de mensajería, los errores y los éxitos para la creación de informes en el informe Recorrido Live &amp; Customer Journey Analytics
 1. Las notificaciones push se envían a los dispositivos del usuario final
 1. Las interacciones de notificación push del usuario final se envían como eventos de experiencia desde el cliente del usuario final a través de la integración del SDK
 
@@ -75,7 +75,7 @@ La siguiente ilustración muestra los distintos pasos, de extremo a extremo, nec
 **Temas relacionados**
 
 * [Configuración del canal push](push-configuration.md)
-* [Informe de notificaciones push](../reports/journey-global-report.md#push-global)
+* [Informe de notificaciones push](../reports/journey-global-report-cja-push.md)
 * [Crear una notificación push](create-push.md)
 * [Añadir un mensaje en un recorrido](../building-journeys/journeys-message.md)
 * [Añadir un mensaje en una campaña](../campaigns/create-campaign.md)
