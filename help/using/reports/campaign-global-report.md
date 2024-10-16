@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 94d6ebe6e0ad5fa48eaad9d8cfa8cff584f2b819
 workflow-type: tm+mt
-source-wordcount: '4851'
-ht-degree: 22%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 22%
 
 >[!AVAILABILITY]
 >
->La experiencia actual de creación de informes se eliminará a partir de la versión de octubre. Después de esta fecha, la nueva experiencia de creación de informes se convertirá en el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas. [Introducción a la nueva interfaz de informes de Journey Optimizer.](report-gs-cja.md)
+>La experiencia actual de creación de informes se eliminará a partir de enero de 2025. Después de esta fecha, la nueva experiencia de creación de informes pasará a ser el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas. [Introducción a la nueva interfaz de informes de Journey Optimizer.](report-gs-cja.md)
 
 Los informes globales, a los que se puede acceder desde la ficha **Todo el tiempo**, muestran los eventos que se produjeron hace al menos dos horas y cubren los eventos que se produjeron durante un período de tiempo seleccionado. En comparación, los informes en directo se centran en los eventos que han tenido lugar en las últimas 24 horas, con un intervalo de tiempo mínimo de dos minutos desde que se produjo el evento.
 
@@ -81,50 +81,51 @@ The **[!UICONTROL Objectives]** listed are linked to **[!UICONTROL Datasets]** t
 After selecting the Objectives you want to target on, the two **[!UICONTROL Performance overview]** and **[!UICONTROL Campaign objective]** widgets will provide a detailed summary of your delivery performance. 
 
 With the **[!UICONTROL Campaign objective]** widget, you can also choose to compare your main objective with another metric.
--->
 
-### Informe de experimentación {#experimentation-global}
+
+### Experimentation report {#experimentation-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
->title="Métrica de éxito"
->abstract="El valor total de la métrica de éxito, previamente seleccionada al crear los experimentos, dividido por el número de perfiles."
+>title="Success metric"
+>abstract="The total value of the Success metric, previously selected when creating your Experiments, divided by the number of profiles."
 
 ![](assets/experimentation_report_3.png)
 
-La ficha **[!UICONTROL Experimentación]** proporciona información clave sobre el rendimiento de cada variante e identifica la que ha tenido más éxito.
+The **[!UICONTROL Experimentation]** tab provides key insights into the performance of each variant, and identifies the most successful one.
 
-Tenga en cuenta que la definición del mejor ejecutante puede tardar algún tiempo, se representará mediante este icono ![](assets/experimentation_report_1.png).
+Note that defining the best performer might take some time, it will be represented by this icon ![](assets/experimentation_report_1.png).
 
-+++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe Experimentación.
++++Learn more on the different metrics and widgets available for the Experimentation report.
 
-El widget **[!UICONTROL Resultado del experimento]** detalla el rendimiento de cada variante. Puede cambiar la línea de base seleccionando uno de los tratamientos en la lista desplegable **[!UICONTROL Línea de base]**. El mejor tratamiento se representará con un icono de estrella.
+The **[!UICONTROL Experiment result]** widget details the performance of each variant. You can change your baseline by selecting one of the treatment from the **[!UICONTROL Baseline]** the drop-down. The best treatment will be represented with a star icon.
 
-Para profundizar en estos resultados y cómo interpretarlos, consulte [esta página](../content-management/get-started-experiment.md#interpret-results).
+For a deep-dive in these results and how to interpret them, refer to [this page](../content-management/get-started-experiment.md#interpret-results).
 
-La tabla presenta las siguientes métricas:
+The table presents the following metrics:
 
-* **[!UICONTROL Alza sobre el nivel basal]**: medición de la mejora porcentual en la tasa de conversión de un tratamiento determinado sobre el nivel basal.
+* **[!UICONTROL Lift over baseline]**: Measure of the percentage improvement in conversion rate of a given treatment over the baseline.
 
-* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](../content-management/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confidence]**: Evidence that a given treatment is the same as the baseline treatment. [Learn more](../content-management/experiment-calculations.md#understand-confidence)
 
-* **[!UICONTROL Clics salientes únicos]**: Recuento total de clics en los canales salientes.
+* **[!UICONTROL Unique outbound clicks]**: Total count of clicks across outbound channels.
 
-* **[!UICONTROL Perfiles]**: número de perfiles segmentados para este tratamiento.
+* **[!UICONTROL Profiles]**: Number of profiles targeted for this treatment.
 
-* **[!UICONTROL Clics/perfiles salientes únicos]**: Valor total de la métrica de éxito, seleccionada anteriormente al crear los experimentos, dividido por el número de perfiles.
+* **[!UICONTROL Unique outbound clicks/profiles]**: Total value of the Success metric, previously selected when creating your Experiments, divided by the number of profiles.
 
-El gráfico de **[!UICONTROL intervalo de confianza]** mide la incertidumbre en torno a la mejora. Detalla la diferencia porcentual en el rendimiento entre la línea de base y el tratamiento con mejor rendimiento. [Más información](../content-management/experiment-calculations.md#confidence-intervals).
+The **[!UICONTROL Confidence interval]** graph measures uncertainty around improvement. It details the percentage difference in performance between the baseline and the best performing treatment. [Learn more](../content-management/experiment-calculations.md#confidence-intervals). 
 
 ![](assets/experimentation_report_4.png)
 
-El último widget proporciona datos relacionados con la **[!UICONTROL métrica de éxito]** que seleccionó anteriormente para sus tratamientos. Tiene la opción de seleccionar una métrica de destino diferente en el menú desplegable **[!UICONTROL Métrica]** para rastrear datos alternativos.
-
+The last widget provides data related to the **[!UICONTROL Success metric]** you previously selected for your Treatments. You have the option to select a different targeted metric from the **[!UICONTROL Metric]** drop-down menu to track alternative data.
+    
 >[!CAUTION]
 >
->Cuando trabaje con métricas filtradas de experimentación, tenga en cuenta que al cambiar la selección de métricas del menú desplegable en la página de comparación para la experimentación, no se conservará el valor de filtro. Por ejemplo, si se cambia de &quot;Clics&quot; a &quot;Clics únicos&quot;, se perderá el filtro aplicado y la comparación se volverá inexacta o no válida.
+>When working with experimentation filtered metrics, please note that changing the Metric selection from the drop-down on the comparison page for experimentation will not retain the filter value. For example, switching from "Clicks" to "Unique clicks" will lead to the loss of the applied filter, rendering the comparison inaccurate or invalid.
 
 +++
+-->
 
 ## Pestaña de correo electrónico {#email-global}
 
