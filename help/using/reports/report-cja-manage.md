@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a04f60d946845725e09855b4aa19bc6ef4b4db99
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1089'
+ht-degree: 1%
 
 ---
 
@@ -72,51 +72,51 @@ El informe ya está disponible para verlo, descargarlo o compartirlo en un archi
 
 >[!ENDTABS]
 
-<!--
-## Schedule exports {#schedule-export}
 
-The **Schedule export** lets you automate the delivery of up to 10 reports at weekly, monthly or yearly intervals. You can also easily manage your scheduled reports, with options to update, edit, cancel, or delete any of your scheduled exports.
+## Programar exportaciones {#schedule-export}
 
-1. From your report, click **[!UICONTROL Share]** and select **[!UICONTROL Schedule export]**.
+La **exportación de horario** le permite automatizar el envío de hasta 10 informes a intervalos semanales, mensuales o anuales. También puede administrar fácilmente sus informes programados, con opciones para actualizar, editar, cancelar o eliminar cualquiera de sus exportaciones programadas.
+
+1. En el informe, haga clic en **[!UICONTROL Compartir]** y seleccione **[!UICONTROL Programar exportación]**.
 
    ![](assets/export-schedule-1.png)
 
-1. Choose your **[!UICONTROL File type]** between CSV and PDF.
+1. Elija su **[!UICONTROL tipo de archivo]** entre CSV y PDF.
 
-1. If needed, you can add a **[!UICONTROL Description]** to your export.
+1. Si es necesario, puede agregar **[!UICONTROL Descripción]** a la exportación.
 
-1. Enter the name of the recipients who will receive this automated delivery.
+1. Introduzca el nombre de los destinatarios que recibirán esta entrega automatizada.
 
    ![](assets/export-schedule-2.png)
 
-1. Choose the **[!UICONTROL Frequency]**.
+1. Elija la **[!UICONTROL frecuencia]**.
 
-1. Based on the selected frequency, provide the relevant scheduling details, such as:
+1. En función de la frecuencia seleccionada, proporcione los detalles de programación relevantes, como:
 
-   * Start and end dates
-   
-   * Interval (e.g., every few weeks)
+   * Fecha de inicio y de finalización
 
-   * Specific day of the week
-   
-   * Week within the month
+   * Intervalo (por ejemplo, cada pocas semanas)
 
-   * Day within the month
-   
-   * Month of the year
+   * Día específico de la semana
 
-1. Click **[!UICONTROL Send on schedule]**.
+   * Semana dentro del mes
 
-1. To edit previously created scheduled export, click **[!UICONTROL Share]** and select **[!UICONTROL Manage schedules]**.
+   * Día dentro del mes
+
+   * Mes del año
+
+1. Haga clic en **[!UICONTROL Enviar según lo programado]**.
+
+1. Para editar la exportación programada creada anteriormente, haga clic en **[!UICONTROL Compartir]** y seleccione **[!UICONTROL Administrar programaciones]**.
 
    ![](assets/export-schedule-3.png)
 
-1. From the list of scheduled exports, choose the one you want to update and make the necessary changes.
+1. En la lista de exportaciones programadas, seleccione la que desee actualizar y realice los cambios necesarios.
 
-1. To delete a scheduled report, select one from the managed schedules list and click **[!UICONTROL Delete]**.
+1. Para eliminar un informe programado, seleccione uno de la lista de programaciones administradas y haga clic en **[!UICONTROL Eliminar]**.
 
    ![](assets/export-schedule-4.png)
--->
+
 
 ## Creación de una métrica simple {#create-simple-metric}
 
