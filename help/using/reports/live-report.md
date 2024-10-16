@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,17 +20,13 @@ ht-degree: 1%
 Use **[!UICONTROL Informe en vivo]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y sus mensajes en un panel integrado.
 Los datos están disponibles en el **[!UICONTROL informe en vivo]** tan pronto como se envíe o se ejecute el recorrido desde la ficha **[!UICONTROL Últimas 24 horas]**.
 
-* Si desea direccionar un recorrido en el contexto de un recorrido, en el menú **[!UICONTROL Recorridos]**, acceda al recorrido y haga clic en el botón **[!UICONTROL Ver informe]**.
+* Si desea direccionar un recorrido en el contexto de un recorrido, en el menú de **[!UICONTROL Recorridos]**, acceda al menú de **[!UICONTROL Más acciones]** de su recorrido y haga clic en el botón **[!UICONTROL Ver el informe de las últimas 24 horas]**.
 
   ![](assets/report_journey.png)
 
-* Si desea segmentar una campaña, en el menú **[!UICONTROL Campañas]**, acceda a su campaña y haga clic en el botón **[!UICONTROL Informes]**.
+* Si desea segmentar una campaña, en el menú **[!UICONTROL Campañas]**, acceda a su campaña y haga clic en el botón **[!UICONTROL Informes]**; a continuación, **[!UICONTROL Ver el informe de las últimas 24 horas]**.
 
   ![](assets/report_campaign.png)
-
-* Si desea cambiar de los **informes del Customer Journey Analytics** al **[!UICONTROL informe en vivo]** para su envío, haga clic en **[!UICONTROL Últimas 24 horas]** desde el conmutador de pestañas.
-
-  ![](assets/report_3.png)
 
 Para obtener una lista detallada de todas las métricas disponibles en Adobe Journey Optimizer, consulte [esta página](#list-of-components-live).
 
@@ -92,7 +88,7 @@ El informe ya está disponible para su visualización o uso compartido en un arc
 
    ![](assets/export_4.png)
 
-1. También puede elegir exportar datos de un widget específico. Haga clic en **[!UICONTROL Exportar datos de widget a CSV]** junto al widget seleccionado.
+1. También puede elegir exportar datos de un widget específico. Haga clic en **[!UICONTROL Descargar archivo CSV]** junto al widget seleccionado.
 
    ![](assets/export_5.png)
 
