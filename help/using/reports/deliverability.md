@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 14%
+source-wordcount: '987'
+ht-degree: 18%
 
 ---
 
@@ -81,13 +81,19 @@ Si se ha trasladado recientemente a otro proveedor de servicios de correo electr
 
 ## Implementación de DMARC {#dmarc}
 
-Para ayudarle a mitigar el riesgo de que los correos electrónicos legítimos se marquen como correo no deseado o se rechacen, y para evitar problemas de envío, [!DNL Journey Optimizer] le permite configurar el registro DMARC para todos los subdominios que delega en el Adobe.
+Para ayudarle a mitigar el riesgo de que los correos electrónicos legítimos se marquen como correo no deseado o se rechacen, y para evitar problemas de envío, [!DNL Journey Optimizer] le permite configurar el registro de DMARC para todos los subdominios que delega en el Adobe.
 
-Autenticación de mensajes, creación de informes y conformidad basados en dominio (DMARC) es un método de autenticación por correo electrónico que permite a los propietarios de dominios proteger su dominio del uso no autorizado por agentes malintencionados.
+Autenticación de mensajes, creación de informes y conformidad basados en dominio (DMARC) es un método de autenticación por correo electrónico que permite a los propietarios de dominios proteger su dominio contra el uso no autorizado por parte de agentes malintencionados.
 
-[Más información sobre el registro DMARC](../configuration/dmarc-record.md)
+[Obtenga más información sobre el registro de DMARC](../configuration/dmarc-record.md)
 
 ## Obtenga información sobre los bucles de comentarios {#feedback-loops}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_dynamic_subdomain_list"
+>title="Algunos subdominios podrían no estar disponibles"
+>abstract="Algunos subdominios no están disponibles actualmente para su selección debido a que está pendiente el registro del bucle de comentarios. Este proceso puede tardar hasta 10 días hábiles. Una vez finalizado, puede elegir entre todos los subdominios disponibles."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introducción a la delegación de subdominios"
 
 Un bucle de comentarios (FBL) es un servicio ofrecido por algunos ISP que permite notificar automáticamente al remitente del correo electrónico cuando el usuario que lo recibe decide marcarlo como correo no deseado (también conocido como &quot;queja&quot;).
 
