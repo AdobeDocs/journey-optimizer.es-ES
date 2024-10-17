@@ -1,14 +1,14 @@
 ---
 title: Introducción a la aprobación de recorridos y campañas
-description: Obtenga información sobre cómo configurar un proceso de aprobación para sus recorridos y campañas.
+description: Aprenda a configurar un proceso de aprobación para sus recorridos y campañas.
 role: User
 level: Beginner
 feature: Approval
 badge: label="Disponibilidad limitada" type="Informative"
 source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
@@ -17,33 +17,33 @@ ht-degree: 18%
 
 >[!AVAILABILITY]
 >
-> Actualmente, las directivas de aprobación solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+> Ahora mismo, las políticas de aprobación solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
-## Introducción a las directivas de aprobación {#gs}
+## Introducción a las políticas de aprobación {#gs}
 
-Journey Optimizer le permite configurar un proceso de aprobación que permita a los equipos de marketing asegurarse de que las campañas y los recorridos sean revisados y firmados por las partes interesadas correspondientes antes de su lanzamiento.
+Journey Optimizer posibilita configurar un proceso de aprobación que permita a los equipos de marketing asegurarse de que las partes interesadas revisan y aprueban las campañas y los recorridos antes de que se pongan en marcha.
 
-Las políticas de aprobación introducen un flujo de trabajo estructurado directamente en la interfaz de usuario, lo que elimina la necesidad de medios externos como herramientas de administración de tareas o correo electrónico, y garantiza que todas las aprobaciones se administren y rastreen de forma centralizada.
+Las políticas de aprobación introducen un flujo de trabajo estructurado directamente en la interfaz de usuario, lo que elimina la necesidad de medios externos, como herramientas de administración de tareas o correo electrónico, y garantiza que todas las aprobaciones se administren y rastreen de forma centralizada.
 
-Además, esta función proporciona un control mejorado sobre la publicación de los recorridos y las campañas: con el proceso de aprobación integrado en Journey Optimizer, las campañas y los recorridos permanecen en estado &quot;bloqueado&quot; durante la revisión, lo que garantiza que no se produzcan cambios ni activaciones no deseadas antes de que se establezcan todas las aprobaciones necesarias.
+Además, esta función proporciona un control mejorado sobre la publicación de los recorridos y las campañas: con el proceso de aprobación integrado en Journey Optimizer, las campañas y los recorridos permanecen en estado “bloqueado” durante la revisión, lo que garantiza que no se produzcan cambios ni activaciones no deseados antes de que se establezcan todas las aprobaciones necesarias.
 
 ## Requisitos previos {#prerequisites}
 
 Antes de empezar, asegúrese de que se han configurado los permisos siguientes.
 
-Para acceder a los recorridos y campañas de aprobación y publicación, los usuarios deben tener los permisos **Aprobar y publicar campañas** y **Aprobar y publicar Recorridos**. [Más información](../administration/permissions.md)
+Para acceder a los recorridos y campañas de aprobación y publicación, los usuarios deben tener los permisos **Aprobar y publicar campañas** y **Aprobar y publicar recorridos**. [Más información](../administration/permissions.md)
 
-+++  Obtenga información sobre cómo asignar permisos relacionados con la aprobación
++++  Aprenda a asignar permisos relacionados con la aprobación
 
 1. En el producto **Permisos**, vaya a la pestaña **Funciones** y seleccione la **Función** que desee.
 
 1. Haga clic en **Editar** para modificar los permisos.
 
-1. Agregue el recurso **Campañas** y, a continuación, seleccione **Aprobar y publicar campañas** en el menú desplegable.
+1. Añada el recurso **Campañas** y, a continuación, seleccione **Aprobar y publicar campañas** en el menú desplegable.
 
    ![](assets/permissions_approval.png){zoomable="yes"}
 
-1. Agregue el recurso **Recorridos** y, a continuación, seleccione **Aprobar y publicar Recorridos** en el menú desplegable.
+1. Añada el recurso **Recorridos** y, a continuación, seleccione **Aprobar y publicar recorridos** en el menú desplegable.
 
    ![](assets/permissions_approval_2.png){zoomable="yes"}
 
@@ -61,30 +61,30 @@ El usuario recibirá un correo electrónico con instrucciones para acceder a su 
 
 +++
 
-## Resumen del proceso de aprobación {#process}
+## Información general del proceso de aprobación {#process}
 
 El proceso de aprobación global es el siguiente:
 
 ![](assets/approval-process.png){zoomable="yes"}
 
-1. **Configuración de directivas de aprobación**
+1. **Configuración de políticas de aprobación**
 
-   Un administrador crea una directiva de aprobación y define las condiciones en las que la directiva debe aplicarse a recorridos o campañas. Por ejemplo, puede crear una directiva de aprobación que requiera que todas las campañas programadas creadas por un usuario determinado se aprueben antes de activarse. [Aprenda a crear directivas de aprobación](approval-policies.md)
+   Un administrador crea una política de aprobación y define las condiciones en las que debe aplicarse a recorridos o campañas. Por ejemplo, puede crear una política de aprobación que requiera que todas las campañas programadas creadas por un usuario determinado se aprueben antes de activarse. [Aprenda a crear políticas de aprobación](approval-policies.md)
 
-1. **Envío de campaña/recorrido para aprobación**
+1. **Envío de campañas/recorridos para su aprobación**
 
-   Los creadores de campañas/recorridos crean un recorrido o una campaña y la envían para su aprobación. La campaña o el recorrido entran en estado &quot;En revisión&quot;, durante el cual no se pueden realizar ediciones a menos que se cancele la solicitud. [Obtenga información sobre cómo solicitar aprobación](request-approval.md)
+   Los creadores de campañas/recorridos crean un recorrido o una campaña y la envían para su aprobación. La campaña o el recorrido entran en el estado “En revisión”, durante el cual no se pueden realizar ediciones a menos que se cancele la solicitud. [Aprenda a solicitar la aprobación](request-approval.md)
 
    >[!NOTE]
    >
-   >Las campañas y los recorridos solo deben enviarse para su aprobación si se ha implementado una directiva de aprobación. Si no se aplica ninguna directiva de este tipo, el creador puede publicar directamente la campaña o el recorrido sin requerir la aprobación.
+   >Las campañas y los recorridos solo deben enviarse para su aprobación si se ha implementado una política de aprobación. Si no se aplica ninguna política de este tipo, el creador puede publicar directamente la campaña o el recorrido sin requerir la aprobación.
 
 1. **Revisión y aprobación**
 
-   Los aprobadores definidos en la política de aprobación que se aplica al recorrido o campaña reciben una notificación. Pueden revisar el recorrido o el contenido, la audiencia y la configuración de la campaña. Si es necesario realizar cambios, el aprobador los solicita y devuelve la campaña a &quot;Borrador&quot; para que la revisen. Si está listo, puede activarlo e iniciar el recorrido o la campaña. [Obtenga información sobre cómo revisar y aprobar una solicitud](review-approve-request.md)
+   Los aprobadores definidos en la política de aprobación que se aplica al recorrido o campaña reciben una notificación. Pueden revisar el recorrido o el contenido, el público y la configuración de la campaña. Si es necesario realizar cambios, el aprobador los solicita y devuelve la campaña a “Borrador” para que se revise. Si están listos, pueden activar e iniciar el recorrido o la campaña. [Aprenda a revisar y aprobar una solicitud](review-approve-request.md)
 
 ## Monitorización de solicitudes de aprobación {#monitor}
 
-Puede monitorizar todas las solicitudes de aprobación y cambio que se han enviado para un recorrido o campaña determinados. Para ello, haga clic en el icono **[!UICONTROL Mostrar pista de auditoría]** ubicado en la sección superior derecha del lienzo de recorrido o en la pantalla de revisión de la campaña.
+Puede monitorizar todas las solicitudes de aprobación y cambio que se han enviado para un recorrido o campaña determinados. Para ello, haga clic en el icono **[!UICONTROL Mostrar seguimiento de auditoría]** ubicado en la sección superior derecha del lienzo del recorrido o en la pantalla de revisión de la campaña.
 
 ![](assets/monitor-requests.png)

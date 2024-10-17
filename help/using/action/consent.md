@@ -9,34 +9,34 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: directivas, gobernanza, plataforma, escudo de atención sanitaria, consentimiento
 source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # Trabajar con políticas de consentimiento {#consent-management}
 
-Sus datos pueden estar sujetos a restricciones de uso definidas por su organización o por la normativa legal. Por lo tanto, es importante asegurarse de que las operaciones de datos de Journey Optimizer cumplan con las [políticas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=es){target="_blank"}. Estas políticas son reglas de Adobe Experience Platform que definen qué acciones de marketing se le permite realizar en los datos.
+Sus datos pueden estar sujetos a restricciones de uso definidas por su organización o por la normativa legal. Por lo tanto, es importante asegurarse de que las operaciones de datos de Journey Optimizer cumplan con las [políticas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=es){target="_blank"}. Estas políticas son reglas de Adobe Experience Platform que definen las acciones de marketing que se le permite realizar sobre los datos.
 
-De forma predeterminada, si un perfil se ha excluido de la recepción de comunicaciones por su parte, el perfil correspondiente se excluye de las entregas posteriores. Puede crear una **directiva de consentimiento** que anule esta lógica predeterminada. Por ejemplo, puede crear políticas de consentimiento en Experience Platform para excluir a los clientes que no hayan aceptado recibir comunicaciones para un canal determinado. En ausencia de una política personalizada, se aplica la política predeterminada.
+De forma predeterminada, si un perfil ha optado por no recibir comunicaciones suyas, el perfil correspondiente queda excluido de posteriores envíos. Puede crear una **política de consentimiento** que anule esta lógica predeterminada. Por ejemplo, puede crear políticas de consentimiento en Experience Platform para excluir a los clientes que no hayan aceptado recibir comunicaciones por un canal determinado. En ausencia de una política personalizada, se aplica la política predeterminada.
 
 >[!IMPORTANT]
 >
->Actualmente, las políticas de consentimiento solo están disponibles para las organizaciones que han adquirido las ofertas sobre el programa de **Protección sanitaria** y el programa de **Protección de la seguridad y la privacidad**.
+>Actualmente, las políticas de consentimiento solo están disponibles para las organizaciones que han adquirido las ofertas sobre el programa **Healthcare Shield** y el programa **Privacy and Security Shield**.
 
-Los pasos principales para aplicar las directivas de consentimiento son los siguientes:
+Los pasos principales para aplicar las políticas de consentimiento son los siguientes:
 
-1. Cree una política de consentimiento en Adobe Experience Platform con una acción de marketing asociada. [Aprenda a crear una directiva de consentimiento](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=es#consent-policy){target="_blank"}
+1. Cree una política de consentimiento en Adobe Experience Platform con una acción de marketing asociada. [Obtenga información sobre cómo crear una política de consentimiento](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=es#consent-policy){target="_blank"}
 
-2. Aplique directivas de consentimiento en Adobe Journey Optimizer mediante configuraciones de canal o acciones personalizadas de recorrido.
+2. Aplique políticas de consentimiento en Adobe Journey Optimizer mediante configuraciones de canal o acciones personalizadas de recorrido.
 
-   * Cree una configuración de canal con una acción de marketing asociada. Al crear una comunicación mediante la configuración de canal, heredará la acción de marketing asociada y aplicará las políticas de consentimiento correspondientes definidas en Adobe Experience Platform. [Aprenda a aprovechar las directivas de consentimiento mediante configuraciones de canal](#surface-marketing-actions)
+   * Cree una configuración de canal con una acción de marketing asociada. Al crear una comunicación mediante la configuración de canal, heredará la acción de marketing asociada y aplicará las políticas de consentimiento correspondientes definidas en Adobe Experience Platform. [Aprenda a aprovechar las políticas de consentimiento mediante configuraciones de canal](#surface-marketing-actions)
 
    * En el nivel de recorrido, puede:
 
-      * Asocie un canal y una acción de marketing a una acción personalizada al configurarlo. [Aprenda a aprovechar las directivas de consentimiento al configurar una acción personalizada](#consent-custom-action)
-      * Defina una acción de marketing adicional al agregar una acción personalizada en un recorrido. [Aprenda a aprovechar las directivas de consentimiento al agregar una acción personalizada en un recorrido](#consent-journey)
+      * Asociar un canal y una acción de marketing a una acción personalizada en el momento de la configuración. [Aprenda a aprovechar las políticas de consentimiento al configurar una acción personalizada](#consent-custom-action)
+      * Definir una acción de marketing adicional al añadir una acción personalizada en un recorrido. [Aprenda a aprovechar las políticas de consentimiento al añadir una acción personalizada en un recorrido](#consent-journey)
 
 ## Utilización de las políticas de consentimiento mediante configuraciones de canal {#surface-marketing-actions}
 

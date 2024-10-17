@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
 source-git-commit: 24a178839e29dccffde683a958ccc74da4180a73
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -35,12 +35,12 @@ ht-degree: 47%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
->title="Proporcionar un certificado push"
+>title="Aportación de un certificado push"
 >abstract="Arrastre y suelte el archivo de clave privada .json. Este archivo contiene la información de autenticación necesaria para la integración segura y la comunicación entre la aplicación y el servidor."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
->title="Proporcionar un certificado push"
+>title="Aportación de un certificado push"
 >abstract="El archivo de clave .p8 contiene una clave privada que se utiliza para autenticar la aplicación con los servidores de Apple para notificaciones push seguras. Puede adquirir esta clave desde la página Certificados, identificadores y perfiles de su cuenta de desarrollador."
 
 >[!CONTEXTUALHELP]
@@ -54,45 +54,45 @@ ht-degree: 47%
 >abstract="El ID de equipo, un valor de cadena usado para identificar a tu equipo, se encuentra en la ficha **Membresía** de su cuenta de desarrollador."
 
 
-Esta configuración simplifica la configuración rápida de los canales de marketing, lo que facilita la disponibilidad de todos los recursos esenciales en las aplicaciones de Experience Platform, Journey Optimizer y de recopilación de datos. Esto permite a su equipo de marketing empezar a crear campañas y recorridos rápidamente.
+Esta configuración simplifica la configuración rápida de los canales de marketing, lo que facilita la disponibilidad de todos los recursos esenciales en las aplicaciones de Experience Platform, Journey Optimizer y de recopilación de datos. Esto permite a su equipo de marketing empezar a crear campañas y recorridos con rapidez.
 
-1. En la página de inicio de Journey Optimizer, haga clic en **[!UICONTROL Comenzar]** en la tarjeta **[!UICONTROL Configurar canales móviles y web]**.
+1. En la página de inicio de Journey Optimizer, haga clic en **[!UICONTROL Comenzar]** en la tarjeta **[!UICONTROL Configuración de canales web y móviles]**.
 
    ![](assets/guided-setup-config-1.png)
 
-1. Crear una configuración de **[!UICONTROL New]**.
+1. Creación de una **[!UICONTROL Nueva]** configuración.
 
    Si ya tiene configuraciones existentes, puede elegir seleccionar una o crear una nueva configuración.
 
    ![](assets/guided-setup-config-2.png)
 
-1. Escriba un **[!UICONTROL Nombre]** para la nueva configuración y seleccione o cree su **[!UICONTROL secuencia de datos]**. Este **[!UICONTROL Nombre]** se usará para cada recurso creado automáticamente.
+1. Escriba un **[!UICONTROL Nombre]** para la nueva configuración y seleccione o cree su **[!UICONTROL Secuencia de datos]**. Este **[!UICONTROL Nombre]** se usará para cada recurso creado automáticamente.
 
 1. Si su organización tiene varias secuencias de datos, seleccione una de las opciones existentes. Si no tiene una secuencia de datos, se creará una automáticamente.
 
 1. Seleccione su plataforma y haga clic en **[!UICONTROL Crear recursos automáticamente]**.
 
-1. Para optimizar el proceso de configuración, se crean automáticamente los recursos necesarios para ayudarle a empezar. Esto incluye la creación de una nueva **[!UICONTROL propiedad de etiquetas móviles]** y la instalación de extensiones.
+1. Para optimizar el proceso de configuración, se crean de forma automática los recursos necesarios para ayudarle a empezar. Esto incluye la creación de una nueva **[!UICONTROL propiedad de etiquetas móviles]** y la instalación de extensiones.
 
 [Más información sobre los recursos generados automáticamente](set-mobile-config.md#auto-create-resources)
 
-1. Una vez completada la generación de recursos, siga las instrucciones de la interfaz de usuario para configurar y validar los SDK y canales.
+1. Una vez completada la generación de recursos, siga las instrucciones de la interfaz de usuario para configurar y validar los SDK y los canales.
 
-1. Después de completar la configuración, comparte la **[!UICONTROL configuración del canal]** generada automáticamente con los integrantes del equipo responsables de crear Recorridos y campañas.
+1. Después de completar la configuración, comparta la **[!UICONTROL configuración de canal]** generada automáticamente con los integrantes del equipo responsables de crear recorridos y campañas.
 
    ![](assets/guided-setup-config-ios-8.png){zoomable="yes"}
 
-1. Ahora puede hacer referencia a la **[!UICONTROL Configuración del canal]** en la interfaz de Campañas o Recorridos, lo que permite una conexión perfecta entre la configuración y la ejecución de recorridos y campañas de destino para su audiencia.
+1. Ahora puede hacer referencia a la **[!UICONTROL Configuración de canal]** en la interfaz de Campañas o Recorridos, lo que permite una conexión perfecta entre la configuración y la ejecución de recorridos y campañas de destino para su público.
 
-## Modificar una configuración existente móvil {#reconnect}
+## Modificación de una configuración móvil existente {#reconnect}
 
-Después de crear la configuración, puede revisarla fácilmente en cualquier momento para agregar canales adicionales o hacer más ajustes para adaptarlos a sus necesidades
+Después de crear la configuración, puede revisarla con facilidad en cualquier momento para añadir canales adicionales o hacer más ajustes que se adapten a sus necesidades
 
-1. En la página de inicio de Journey Optimizer, haga clic en **[!UICONTROL Comenzar]** en la tarjeta **[!UICONTROL Configurar canales móviles y web]**.
+1. En la página de inicio de Journey Optimizer, haga clic en **[!UICONTROL Comenzar]** en la tarjeta **[!UICONTROL Configuración de canales web y móviles]**.
 
    ![](assets/guided-setup-config-1.png)
 
-1. Seleccione **[!UICONTROL Existente]** y elija su **[!UICONTROL propiedad de etiqueta]** existente en la lista desplegable.
+1. Seleccione **[!UICONTROL Existente]** y elija su **[!UICONTROL Propiedad de etiqueta]** existente en la lista desplegable.
 
    ![](assets/guided-setup-config-ios-9.png)
 

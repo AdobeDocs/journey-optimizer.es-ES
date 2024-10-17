@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Si necesita modificar a un recorrido activo, cree una nueva versión del recorri
 
 1. Realice las modificaciones necesarias, haga clic en **[!UICONTROL Publicar]** y confirme.
 
-Desde el momento en que se publique el recorrido, las personas empezarán a fluir hacia la última versión del recorrido. Las personas que ya han accedido a una versión anterior permanecerán en ella hasta que finalicen el recorrido. Si más adelante vuelven a entrar en el mismo recorrido, pasarán a la versión más reciente.
+Desde el momento en que se publique el recorrido, las personas empezarán a fluir hacia la última versión del recorrido. Las personas que ya han accedido a una versión anterior permanecerán en ella hasta que finalicen el recorrido. Si más tarde vuelven a entrar en el mismo recorrido, accederán a la versión más reciente.
 
 Las versiones de recorrido se pueden detener individualmente. Todas las versiones de los recorridos tienen el mismo nombre.
 

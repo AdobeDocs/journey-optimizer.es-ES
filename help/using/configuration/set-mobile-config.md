@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuración de dispositivos móviles y web
-description: Obtenga información sobre cómo configurar y monitorizar canales móviles y web
+title: Configuración de móvil y web
+description: Aprenda a configurar y monitorizar canales móviles y web
 feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 20%
 >abstract="Adobe Experience Platform Assurance está integrado en este flujo de trabajo para ayudarle a inspeccionar la implementación del SDK, así como para simular y validar eventos de aplicación."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/assurance/home" text="Información general sobre Adobe Experience Platform Assurance"
 
-Este ajuste facilita la configuración rápida de los canales de marketing, lo que garantiza que todos los recursos necesarios estén disponibles en Experience Platform, Journey Optimizer y la recopilación de datos. Esto permite a su equipo de marketing empezar con la creación de campañas y recorridos.
+Este ajuste facilita la configuración rápida de los canales de marketing, lo que garantiza que todos los recursos necesarios estén disponibles en Experience Platform, Journey Optimizer y la recopilación de datos. Esto permite a su equipo de marketing iniciar la creación de campañas y recorridos.
 
-La configuración de canal guiado es compatible con las siguientes plataformas y canales.
+La configuración de canales guiada es compatible con las siguientes plataformas y canales.
 
 * Plataformas y SDK:
 
@@ -39,24 +39,24 @@ La configuración de canal guiado es compatible con las siguientes plataformas y
 
    * Kotlin, Android
 
-   * Javascript, Web
+   * Javascript, web
 
 * Canales:
 
-   * Mobile In-App
+   * In-app móvil
 
    * Mensaje push móvil
 
-   * Web Basic
+   * Web básica
 
 
-Tenga en cuenta que para cada plataforma que desee configurar, es necesario crear una configuración independiente. Esto se debe a que cada aplicación requiere una configuración de canal única y esto proporciona la flexibilidad para determinar qué canales desea para cada plataforma.
+Tenga en cuenta que, para cada plataforma que desee configurar, es necesario crear una configuración independiente. Esto se debe a que cada aplicación requiere una configuración de canal única y esto proporciona la flexibilidad para determinar qué canales quiere para cada plataforma.
 
 ## Requisitos previos {#prereq}
 
 * Para implementar esto de forma eficaz, es esencial que un miembro de la organización con la autoridad y la capacidad técnica para modificar el sitio web o el código móvil supervise la configuración.
 
-  A continuación se indican los permisos necesarios para ejecutar la configuración del canal guiado.
+  A continuación se indican los permisos necesarios para ejecutar la configuración de canales guiada.
 
 +++ Permisos necesarios
 
@@ -76,7 +76,7 @@ Tenga en cuenta que para cada plataforma que desee configurar, es necesario crea
           <ul>
             <li>Derechos de compañía &gt; Propiedades</li>
             <li>Derechos de propiedad: desarrollar, publicar, administrar extensiones y entornos</li>
-            <li>Superficies de la aplicación: Administrar configuración de aplicación</li>
+            <li>Superficies de la aplicación: administrar configuración de la aplicación</li>
          </ul>
         </td>
       </tr>
@@ -86,13 +86,13 @@ Tenga en cuenta que para cada plataforma que desee configurar, es necesario crea
         </td>
         <td>
         <ul>
-            <li>Recopilación de datos: Administrar flujos de datos</li>
+            <li>Recopilación de datos: administrar secuencias de datos</li>
            <li>Zona protegida: conceder acceso a las zonas protegidas</li>
             <li>Administrar segmentos: leer, crear, editar y eliminar definiciones de segmentos</li>
             <li>Administrar perfiles: leer, crear, editar y eliminar perfiles</li>
             <li>Leer conjuntos de datos: acceso de solo lectura a conjuntos de datos</li>
             <li>Esquemas de lectura: acceso de solo lectura a esquemas</li>
-            <li>Área de nombres de identidad de lectura: acceso de solo lectura al área de nombres de identidad</li>
+            <li>Espacio de nombres de identidad de lectura: acceso de solo lectura al espacio de nombres de identidad</li>
           </ul>
         </td>
       </tr>
@@ -101,7 +101,7 @@ Tenga en cuenta que para cada plataforma que desee configurar, es necesario crea
          <p>Adobe Journey Optimizer</p>
         </td>
         <td>
-          <p>Campañas: Administrar y publicar campañas</p>
+          <p>Campañas: administrar y publicar campañas</p>
         </td>
       </tr>
     </tbody>
@@ -109,7 +109,7 @@ Tenga en cuenta que para cada plataforma que desee configurar, es necesario crea
 
 +++
 
-* Si está utilizando la opción de configuración Existente, asegúrese de que está utilizando las siguientes versiones de la extensión del SDK móvil de Adobe Experience Platform. Para obtener más información sobre la configuración del SDK, incluidas las dependencias y el código de inicialización necesarios, consulte la [siguiente documentación](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks?lang=en).
+* Si utiliza la opción de configuración Existente, asegúrese de que usa las siguientes versiones de la extensión del SDK móvil de Adobe Experience Platform. Para obtener más información sobre la configuración del SDK, incluidas las dependencias y el código de inicialización necesarios, consulte la [siguiente documentación](https://experienceleague.adobe.com/es/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks?lang=es).
 
   Para Android
 
@@ -123,9 +123,9 @@ Tenga en cuenta que para cada plataforma que desee configurar, es necesario crea
 
 ## Recursos creados automáticamente {#auto-create-resources}
 
-La configuración guiada de canales simplifica la configuración rápida de los canales de marketing, lo que facilita la disponibilidad de todos los recursos esenciales en las aplicaciones de Experience Platform, Journey Optimizer y recopilación de datos. Esto permite a su equipo de marketing empezar a crear campañas y recorridos rápidamente. A continuación se muestra una lista de los recursos que se generan y configuran automáticamente como parte de la Configuración guiada de canales.
+La configuración de canales guiada simplifica la configuración rápida de los canales de marketing, lo que facilita la disponibilidad de todos los recursos esenciales en las aplicaciones de Experience Platform, Journey Optimizer y recopilación de datos. Esto permite a su equipo de marketing empezar a crear campañas y recorridos con rapidez. A continuación se muestra una lista de los recursos que se generan y configuran automáticamente como parte de la configuración guiada de canales.
 
-Examine las pestañas siguientes para acceder a las listas completas de todos los recursos que se generan automáticamente:
+Examine las pestañas siguientes para acceder a las listas completas de todos los recursos que se generan de forma automática:
 
 >[!BEGINTABS]
 
@@ -147,7 +147,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   </td>
   <td>
   <ul>
-  <li>Propiedad de etiqueta móvil</li>
+  <li>Propiedad de etiquetas móviles</li>
   <li>Reglas</li>
   <li>Elementos de datos</li>
   <li>Biblioteca</li>
@@ -161,7 +161,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   </td>
   <td>
   <ul>
-  <li>Edge Network de Adobe Experience Platform</li>
+  <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
   <li>Consentimiento (con las directivas de consentimiento predeterminadas habilitadas)</li>
@@ -183,7 +183,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   <p>Secuencias de datos</p>
   </td>
   <td>
-  <p>Flujo de datos con servicios</p>
+  <p>Secuencia de datos con servicios</p>
   </td>
   </tr>
   <tr>
@@ -200,7 +200,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   </tbody>
   </table>
 
-Para la **configuración del canal**, a continuación se muestra una lista completa de todos los recursos creados en la pantalla **Agregar canales**.
+Para la **configuración del canal**, a continuación se muestra una lista completa de todos los recursos creados en la pantalla **Añadir canales**.
 
 <table>
   <thead>
@@ -217,7 +217,7 @@ Para la **configuración del canal**, a continuación se muestra una lista compl
   <td>
   <ul>
   <li>Configuración de canal</li>
-  <li>Cargar credencial push (solo mensaje push móvil)</li>
+  <li>Carga de credencial push (solo mensaje push móvil)</li>
   </ul>
   </td>
   </tr>
@@ -242,7 +242,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   </td>
   <td>
   <ul>
-  <li>Propiedad de etiqueta móvil</li>
+  <li>Propiedad de etiquetas móviles</li>
   <li>Reglas</li>
   <li>Elementos de datos</li>
   <li>Biblioteca</li>
@@ -256,7 +256,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   </td>
   <td>
   <ul>
-  <li>Edge Network de Adobe Experience Platform</li>
+  <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
   <li>Consentimiento (con las directivas de consentimiento predeterminadas habilitadas)</li>
@@ -278,7 +278,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   <p>Secuencias de datos</p>
   </td>
   <td>
-  <p>Flujo de datos con servicios</p>
+  <p>Secuencia de datos con servicios</p>
   </td>
   </tr>
   <tr>
@@ -295,7 +295,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   </tbody>
   </table>
 
-Para la **configuración del canal**, a continuación se muestra una lista completa de todos los recursos creados en la pantalla **Agregar canales**.
+Para la **configuración del canal**, a continuación se muestra una lista completa de todos los recursos creados en la pantalla **Añadir canales**.
 
 <table>
   <thead>
@@ -312,7 +312,7 @@ Para la **configuración del canal**, a continuación se muestra una lista compl
   <td>
   <ul>
   <li>Configuración de canal</li>
-  <li>Cargar credencial push (solo mensaje push móvil)</li>
+  <li>Carga de credencial push (solo mensaje push móvil)</li>
   </ul>
   </td>
   </tr>
@@ -337,7 +337,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   </td>
   <td>
   <ul>
-  <li>Propiedad de etiqueta móvil</li>
+  <li>Propiedad de etiquetas móviles</li>
   <li>Reglas</li>
   <li>Elementos de datos</li>
   <li>Biblioteca</li>
@@ -351,7 +351,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   </td>
   <td>
   <ul>
-  <li>Edge Network de Adobe Experience Platform</li>
+  <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
   <li>Consentimiento (con las directivas de consentimiento predeterminadas habilitadas)</li>
@@ -373,7 +373,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   <p>Secuencias de datos</p>
   </td>
   <td>
-  <p>Flujo de datos con servicios</p>
+  <p>Secuencia de datos con servicios</p>
   </td>
   </tr>
   <tr>

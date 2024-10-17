@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1505'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Controle la administración de la privacidad y las solicitudes desde esta secci�
 
 * **[!UICONTROL Configuraciones]**: utilice este menú para configurar [Eventos](../event/about-events.md), [Fuentes de datos](../datasource/about-data-sources.md), y [Acciones](../action/action.md) que se utilizarán en los recorridos.
 
-  También puede acceder a la sección **Informes** para configurar los informes para la experimentación de campañas y web/móvil. [Más información](../reports/reporting-configuration.md)
+  También puede acceder a la sección **Creación de informes** para configurar la creación de informes para la experimentación de campañas y web/móvil. [Más información](../reports/reporting-configuration.md)
 
 * **[!UICONTROL Reglas empresariales]**: utilice esta sección para crear reglas empresariales entre canales para controlar la frecuencia con la que los usuarios reciben un mensaje o entran en un recorrido. [Más información](../configuration/frequency-rules.md)
 
@@ -281,8 +281,8 @@ Para cambiar el idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"
->title="Solicitar aprobación"
->abstract="Solicitar aprobación"
+>title="Solicitud de aprobación"
+>abstract="Solicitud de aprobación"
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_change"

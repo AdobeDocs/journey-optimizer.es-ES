@@ -1,13 +1,13 @@
 ---
-title: Introducción a la tarjeta de contenido
-description: Obtenga información acerca de la tarjeta de contenido en Journey Optimizer
+title: Introducción a las tarjetas de contenido
+description: Obtenga información sobre las tarjetas de contenido en Journey Optimizer
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Esta función permite a los especialistas en marketing presentar a los usuarios 
 <a href="content-card-configuration.md">
 <img alt="Posible cliente" src="../assets/do-not-localize/sms-config.jpg">
 </a>
-<div><a href="content-card-configuration.md"><strong>Configurar el canal de tarjetas de contenido</strong>
+<div><a href="content-card-configuration.md"><strong>Configuración del canal de tarjetas de contenido</strong>
 </div>
 <p>
 </td>
@@ -31,7 +31,7 @@ Esta función permite a los especialistas en marketing presentar a los usuarios 
 <img alt="Poco frecuente" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
 <div>
-<a href="create-content-card.md"><strong>Crear una tarjeta de contenido</strong></a>
+<a href="create-content-card.md"><strong>Creación de una tarjeta de contenido</strong></a>
 </div>
 <p></td>
 <td>
@@ -39,7 +39,7 @@ Esta función permite a los especialistas en marketing presentar a los usuarios 
 <img alt="Validación" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="design-content-card.md"><strong>Diseñar una tarjeta de contenido</strong></a>
+<a href="design-content-card.md"><strong>Diseño de una tarjeta de contenido</strong></a>
 </div>
 <p>
 </td>

@@ -9,9 +9,9 @@ level: Experienced
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '860'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,12 +37,12 @@ De forma predeterminada, solo se muestran los conjuntos de datos que ha introduc
 
 >[!NOTE]
 >
->A partir del 1 de noviembre de 2024, se aplicará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer de la siguiente manera:
+>A partir del 1 de noviembre de 2024, se aplicará un mecanismo de protección de duración (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer de la siguiente manera:
 >
->* 90 días para datos en el almacén de perfiles
->* 13 meses para los datos del lago de datos
+>* 90 días para los datos en el almacén de perfiles
+>* 13 meses para los datos en el lago de datos
 >
->Además, en ese momento, la segmentación de streaming ya no admitirá el uso de eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios.
+>Además, en ese momento, la segmentación de streaming ya no admitirá el uso de eventos de envío y apertura derivados del seguimiento y los comentarios de los conjuntos de datos.
 
 Seleccione el nombre de un conjunto de datos para acceder a su pantalla de actividad de conjunto de datos y ver los detalles del conjunto de datos seleccionado. La pestaña actividad incluye un gráfico que visualiza la tasa de consumo de los mensajes, así como una lista de lotes correctos y fallidos.
 
@@ -90,7 +90,7 @@ Obtenga información sobre cómo crear un conjunto de datos, asignarlo a un esqu
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
-## Control de datos
+## Gobernanza de datos
 
 En un conjunto de datos, examine la pestaña **Gobernanza de datos** para comprobar las etiquetas en el conjunto de datos y en el nivel de campo. La gobernanza de datos categoriza los datos según el tipo de políticas que se apliquen.
 
