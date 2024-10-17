@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 [!DNL Journey Optimizer] le permite personalizar la experiencia web que entrega a sus clientes a través de recorridos o campañas entrantes.
 
-## Añadir una experiencia web a través de un recorrido o una campaña {#create-web-experience}
+## Adición de una experiencia web a través de un recorrido o una campaña {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
