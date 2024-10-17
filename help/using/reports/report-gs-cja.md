@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informes de nueva IU
+title: Informes del Customer Journey Analytics
 description: Introducción al informe de CJA
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
+source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '359'
 ht-degree: 15%
 
 ---
 
-# Introducción a la nueva interfaz de informes {#channel-report-gs-cja}
+# Introducción a los informes de Customer Journey Analytics {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >

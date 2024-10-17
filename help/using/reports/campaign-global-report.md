@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 94d6ebe6e0ad5fa48eaad9d8cfa8cff584f2b819
+source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4552'
+ht-degree: 24%
 
 ---
 
@@ -47,6 +47,10 @@ El **[!UICONTROL informe global]** de la campaña está dividido en diferentes w
 Para obtener una lista detallada de todas las métricas disponibles en Adobe Journey Optimizer, consulte [esta página](global-report.md#list-of-components-global.md)
 
 ## Pestaña Campaña {#campaign-global}
+
+>[!NOTE]
+>
+>Se puede acceder exclusivamente al informe Experimentación desde los informes de Customer Journey Analytics. [Más información](campaign-global-report-cja-experimentation.md)
 
 ### Envío {#delivery-global}
 
