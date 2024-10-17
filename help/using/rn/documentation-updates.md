@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
 workflow-type: tm+mt
 source-wordcount: '5672'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -29,16 +29,16 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 ## Septiembre de 2024 {#sept-2024}
 
-* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de septiembre de 2024 se han incluido en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de septiembre de 2024 se han detallado en la documentación. [Más información](release-notes.md)
 * Se ha añadido una sección sobre la administración de reintentos de recorrido. [Más información](../building-journeys/read-audience.md#read-audience-retry)
-* Se ha actualizado la pregunta frecuente sobre la regla de límite/restricción para las acciones personalizadas para mencionar la regla de límite predeterminada. [Más información](../configuration/external-systems.md#faq)
-* La sección Control de acceso se ha actualizado con permisos relacionados con el generador de contenido del asistente de IA. [Más información](../administration/high-low-permissions.md#ai-permission)
+* Se ha actualizado la pregunta frecuente sobre la regla de límite/restricción para las acciones personalizadas con el fin de mencionar la regla de límite predeterminada. [Más información](../configuration/external-systems.md#faq)
+* La sección Control de acceso se ha actualizado con permisos relacionados con el generador de contenido del Asistente de IA. [Más información](../administration/high-low-permissions.md#ai-permission)
 * Se ha añadido un vídeo sobre el Generador de contenido del asistente de IA para la generación de correo electrónico. [Más información](../content-management/generative-email.md#video)
 
 
 ## Agosto de 2024 {#aug-2024}
 
-* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de agosto de 2024 se han incluido en la documentación. [Más información](release-notes.md)
+* Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de agosto de 2024 se han detallado en la documentación. [Más información](release-notes.md)
 * Se han actualizado las protecciones del rendimiento para la gestión de decisiones para mencionar el rendimiento de envío de las API de Decisioning con/sin segmentación de Edge. [Más información](../start/guardrails.md#decision-management)
 * Se han actualizado las protecciones del recorrido. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
 

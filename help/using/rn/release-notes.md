@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
 workflow-type: tm+mt
 source-wordcount: '1603'
-ht-degree: 57%
+ht-degree: 92%
 
 ---
 
@@ -51,13 +51,13 @@ Las [funcionalidades](#24-10-features) y [mejoras](#24-10-improvements) que se e
 <table>
 <thead>
 <tr>
-<th><strong>Experiencias basadas en código en recorrido</strong><br/></th>
+<th><strong>Experiencias basadas en código en recorridos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con el canal de experiencia basado en código, Adobe Journey Optimizer le permite realizar personalizaciones y pruebas avanzadas para cualquiera de sus propiedades de entrada, lo que permite ofrecer experiencias adaptadas en diversos puntos de contacto, como aplicaciones web, aplicaciones móviles, aplicaciones de escritorio, consolas de vídeo, dispositivos conectados a TV, televisores inteligentes, quioscos, cajeros automáticos, dispositivos IoT y mucho más. El canal de experiencia basado en código ya está disponible en el lienzo de recorrido.</p>
+<p>Con el canal de experiencia basado en código, Adobe Journey Optimizer le permite realizar personalizaciones y pruebas avanzadas para cualquiera de sus propiedades de entrada, lo que permite ofrecer experiencias adaptadas en diversos puntos de contacto, como aplicaciones web, aplicaciones móviles, aplicaciones de escritorio, consolas de vídeo, servicios conectados a TV, televisores inteligentes, quioscos, cajeros automáticos, dispositivos IoT y mucho más. El canal de experiencia basado en código ya está disponible en el lienzo de recorrido.</p>
 <p>Para obtener más información, consulte la <a href="../code-based/create-code-based.md">documentación detallada</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
 <p>Fecha de disponibilidad: 1 de octubre de 2024</p>
@@ -68,13 +68,13 @@ Las [funcionalidades](#24-10-features) y [mejoras](#24-10-improvements) que se e
 <table>
 <thead>
 <tr>
-<th><strong>Experiencias web en recorrido</strong><br/></th>
+<th><strong>Experiencias web en recorridos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con el canal Web, Adobe Journey Optimizer permite personalizar la experiencia web que ofrece a sus clientes a través de recorridos web entrantes. El canal Web ahora está disponible en el lienzo de recorrido.</p>
+<p>Con el canal web, Adobe Journey Optimizer permite personalizar la experiencia web que ofrece a sus clientes a través de recorridos web entrantes. El canal web ahora está disponible en el lienzo de recorrido.</p>
 <p>Para obtener más información, consulte la <a href="../web/create-web.md">documentación detallada</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
 <p>Fecha de disponibilidad: 1 de octubre de 2024</p>
@@ -86,29 +86,29 @@ Las [funcionalidades](#24-10-features) y [mejoras](#24-10-improvements) que se e
 >
 >La experiencia actual de creación de informes se eliminará a partir de enero de 2025. Después de esta fecha, la nueva experiencia de creación de informes pasará a ser el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas.
 >
-> [Aprenda a empezar con la nueva interfaz de informes de Journey Optimizer](../reports/report-gs-cja.md)
+> [Aprenda a empezar con la nueva interfaz de creación de informes de Journey Optimizer](../reports/report-gs-cja.md)
 
 ### Mejoras {#24-10-improvements}
 
-**Recorridos** - Fecha de disponibilidad: 3 de octubre de 2024
+**Recorridos**: fecha de disponibilidad: 3 de octubre de 2024
 
 * **Parámetros en acciones personalizadas**: ahora se admiten parámetros NULL y opcionales en las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-**Gobernanza de datos y políticas de consentimiento** - Fecha de disponibilidad: 7 de octubre de 2024
+**Gobernanza de datos y políticas de consentimiento**: fecha de disponibilidad: 7 de octubre de 2024
 
-* La aplicación de las **políticas de control de datos** ahora se aplica en todos los canales de Journey Optimizer. Para los clientes que han creado directivas en Adobe Experience Platform, estas se aplican a las acciones de marketing como parte de la configuración de canales. Al crear contenido con una configuración, el sistema comprueba todos los campos personalizados para detectar cualquier infracción de la gobernanza de datos. Si se encuentra una infracción, no será posible publicar un recorrido o una campaña. [Más información](../action/action-privacy.md)
+* La aplicación de las **políticas de control de datos** ahora se aplica en todos los canales de Journey Optimizer. Para los clientes que han creado políticas en Adobe Experience Platform, estas se aplican a las acciones de marketing como parte de la configuración de canales. Al crear contenido con una configuración, el sistema comprueba todos los campos de personalización para detectar cualquier infracción de la gobernanza de datos. Si se encuentra una infracción, no será posible publicar un recorrido o una campaña. [Más información](../action/action-privacy.md)
 
-* **Las políticas de consentimiento personalizado** ahora se aplican a todos los canales de Journey Optimizer. Al aplicar la ley antes de enviar un mensaje o de entregar una experiencia entrante, el sistema comprueba que el usuario haya dado su consentimiento para utilizar campos de personalización en el contenido que va a recibir. Si no se da ningún consentimiento, la experiencia no se muestra. [Más información](../action/consent.md)
+* Las **políticas de consentimiento personalizado** ahora se aplican a todos los canales de Journey Optimizer. Al aplicar la ley antes de enviar un mensaje o de entregar una experiencia entrante, el sistema comprueba que el usuario haya dado su consentimiento para utilizar campos de personalización en el contenido que va a recibir. Si no se da ningún consentimiento, la experiencia no se muestra. [Más información](../action/consent.md)
 
   >[!NOTE]
   >
-  >Actualmente, las políticas de consentimiento solo están disponibles para las organizaciones que han adquirido las ofertas sobre el programa de **Protección sanitaria** y el programa de **Protección de la seguridad y la privacidad**.
+  >Actualmente, las políticas de consentimiento solo están disponibles para las organizaciones que han adquirido las ofertas sobre el programa **Healthcare Shield** y el programa **Privacy and Security Shield**.
 
-**Audiencias** - Fecha de disponibilidad: 8 de octubre de 2024
+**Públicos**: fecha de disponibilidad: 8 de octubre de 2024
 
-* Al segmentar la audiencia de un archivo CSV, ahora puede utilizar atributos del archivo en el editor de personalización y en el generador de reglas de recorrido and campaigns. [Más información](../audience/about-audiences.md)
+* Al segmentar el público de un archivo CSV, ahora puede utilizar atributos del archivo en el editor de personalización y en el generador de reglas de recorridos y campañas. [Más información](../audience/about-audiences.md)
 
-* El uso de audiencias y atributos de la carga personalizada (archivo CSV) ya está disponible para su uso con Healthcare Shield o Privacy and Security Shield.
+* El uso de públicos y atributos de cargas personalizadas (archivos CSV) no está disponible en la actualidad para su uso con el programa Healthcare Shield ni Privacy and Security Shield.
 
 ## Versión de septiembre de 2024 {#24-9-rn}
 
@@ -153,7 +153,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <tr>
 <td>
 <p>Con las políticas de aprobación, ahora puede configurar un proceso de aprobación dentro de Journey Optimizer que permita a los equipos de marketing asegurarse de que las campañas y los recorridos sean revisados y firmados por las partes interesadas correspondientes antes de que se activen.</p>
-<p>Actualmente, las directivas de aprobación solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>Ahora mismo, las políticas de aprobación solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <p>Para obtener más información, consulte la <a href="../test-approve/gs-approval.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/approval.gif"/>
 </td>
@@ -237,14 +237,14 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 
 Esta versión incorpora las mejoras que se enumeran a continuación.
 
-**Audiencias** - Fecha de disponibilidad: 17 de septiembre de 2024
+**Públicos**: fecha de disponibilidad: 17 de septiembre de 2024
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* **Uso de licencias**: el panel Uso de licencias ahora muestra los perfiles atractivos, en lugar de las audiencias atractivas. [Más información](../audience/license-usage.md)
+* **Uso de licencias**: el panel Uso de licencias ahora muestra perfiles interesados, en lugar de públicos interesados. [Más información](../audience/license-usage.md)
 
 **Administración de contenido**
 
-* Ahora puede exportar plantillas de contenido y fragmentos entre entornos limitados. [Más información](../configuration/copy-objects-to-sandbox.md)
+* Ahora puede exportar plantillas de contenido y fragmentos entre zonas protegidas. [Más información](../configuration/copy-objects-to-sandbox.md)
 
 <!--**Data Governance**
 
@@ -262,16 +262,16 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 <!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
-* **Mejoras en la creación de informes en directo**: la creación de informes en directo proporciona información sobre el rendimiento de sus recorridos en las últimas 24 horas. La hemos mejorado añadiendo nuevas métricas (perfiles introducidos, salidos y descartados por error), lo que le permite comprender mejor el comportamiento y el rendimiento del usuario directamente desde el lienzo de Recorrido. [Más información](../building-journeys/report-journey.md)
+* **Mejoras en la creación de informes en directo**: la creación de informes en directo proporciona información sobre el rendimiento de sus recorridos en las últimas 24 horas. La hemos mejorado añadiendo nuevas métricas (perfiles de entrada, salida y descartados y perfiles erróneos), lo que le permite comprender mejor el comportamiento y el rendimiento del usuario directamente desde el lienzo de recorrido. [Más información](../building-journeys/report-journey.md)
 
 
 * (Fecha de disponibilidad: 10 de septiembre) **Reintentos automáticos de Leer público**: los reintentos ahora se aplican de forma predeterminada a los recorridos activados por públicos (empezando con una actividad **Leer público** o **Evento empresarial**) cuando se recupera el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada. [Más información](../building-journeys/read-audience.md#retries)
 
 **Canal de correo electrónico**
 
-* **Encabezado de mensaje en el correo electrónico enviado y copia CCO**: se ha agregado un nuevo encabezado a todos los mensajes de correo electrónico. El valor de este encabezado es único para cada correo electrónico enviado y para su copia de correo electrónico CCO correspondiente. Este encabezado también se almacena en los conjuntos de datos de comentarios de mensajes y CCO, lo que permite reconciliar la copia CCO y la información de correo electrónico enviado correspondiente. [Más información](../configuration/archiving-support.md#bcc-header)
+* **Encabezado de mensaje en el correo electrónico enviado y copia CCO**: se ha añadido un nuevo encabezado a todos los mensajes de correo electrónico. El valor de este encabezado es único para cada correo electrónico enviado y para su copia de correo electrónico CCO correspondiente. Este encabezado también se almacena en los conjuntos de datos del mensaje y en los comentarios CCO, lo que permite reconciliar la copia CCO y la información de correo electrónico enviado correspondiente. [Más información](../configuration/archiving-support.md#bcc-header)
 
-* **Puntuación de correo no deseado** (GA)- Ahora puede comprobar la puntuación de correo no deseado de su contenido en un **informe de correo no deseado**. Utilizando SpamAssassin, Adobe Journey Optimizer ahora puede probar el contenido de su correo electrónico y darle una puntuación para indicar si los ISP o los proveedores de buzones lo considerarán correo no deseado o no. [Más información](../content-management/spam-report.md)
+* **Puntuación de correo no deseado** (GA): ahora puede comprobar la puntuación de correo no deseado de su contenido en un **informe específico**. Utilizando SpamAssassin, Adobe Journey Optimizer ahora puede probar el contenido de su correo electrónico y darle una puntuación para indicar si los ISP o los proveedores de buzones lo considerarán correo no deseado o no. [Más información](../content-management/spam-report.md)
 
 **Canal de SMS**
 
@@ -294,7 +294,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 Configuración de ****
 
-* **Planes de calentamiento de IP** - Esta funcionalidad ya está disponible para todos los clientes, incluidas las organizaciones que han adquirido las ofertas adicionales de **Healthcare Shield** o **Privacy and Security Shield** de Adobe. [Más información](../configuration/ip-warmup-gs.md)
+* **Planes de calentamiento de IP**: esta capacidad ya está disponible para todos los clientes, incluidas las organizaciones que han adquirido las ofertas complementarias **Healthcare Shield** o **Privacy and Security Shield** de Adobe. [Más información](../configuration/ip-warmup-gs.md)
 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Regístrese para la [Newsletter trimestral de Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoy y reciba las últimas actualizaciones de productos, artículos interesantes, casos de uso, sugerencias y mucho más directamente en su bandeja de entrada cada trimestre.

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
 source-wordcount: '2136'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -175,7 +175,7 @@ ht-degree: 93%
    + [Revisión y activación de una campaña](using/campaigns/review-activate-campaign.md)
    + [Administración de campañas](using/campaigns/modify-stop-campaign.md)
    + [Activación de campañas mediante las API](using/campaigns/api-triggered-campaigns.md)
-+ Probar y aprobar {#test}
++ Prueba y aprobación {#test}
    + [Administración de conflictos y priorización](using/test-approve/conflict-prioritization.md)
    + Administración de conflictos y priorización {#conflict-prioritization}
       + [Introducción a la administración y priorización de conflictos](using/test-approve/gs-conflict-prioritization.md)
@@ -190,11 +190,11 @@ ht-degree: 93%
       + [Envío de pruebas de correo electrónico](using/content-management/proofs.md)
       + [Prueba del procesamiento de correo electrónico](using/content-management/rendering.md)
       + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
-   + Aprobar recorridos y campañas {#approve}
+   + Aprobación de recorridos y campañas {#approve}
       + [Introducción a las aprobaciones](using/test-approve/gs-approval.md)
-      + [Crear y administrar directivas de aprobación](using/test-approve/approval-policies.md)
-      + [Solicitar aprobación](using/test-approve/request-approval.md)
-      + [Aprobar una solicitud](using/test-approve/review-approve-request.md)
+      + [Creación y administración de políticas de aprobación](using/test-approve/approval-policies.md)
+      + [Solicitud de aprobación](using/test-approve/request-approval.md)
+      + [Aprobación de una solicitud](using/test-approve/review-approve-request.md)
 + Canal de correo electrónico {#email}
    + [Empezar con correos electrónicos](using/email/get-started-email.md)
    + [Crear un correo electrónico](using/email/create-email.md)
@@ -267,7 +267,7 @@ ht-degree: 93%
    + Creación de páginas web {#author-web-pages}
       + [Edición de contenido de página web](using/web/edit-web-content.md)
       + [Administración de modificaciones](using/web/manage-web-modifications.md)
-      + [Monitorización de experiencias web](using/web/monitor-web-experiences.md)
+      + [Monitorización de sus experiencias web](using/web/monitor-web-experiences.md)
       + [Creación de aplicaciones de una sola página](using/web/web-spa.md)
 + Experiencia basada en código {#code-based-experience}
    + [Introducción al canal basado en código](using/code-based/get-started-code-based.md)
@@ -679,7 +679,7 @@ ht-degree: 93%
          + [Uso de respuestas de llamadas de API en acciones personalizadas](using/action/action-response.md)
          + [Integración con Marketo Engage](using/action/marketo-engage.md)
    + [Fuentes](using/start/get-started-sources.md)
-   + [Exportar objetos a otra zona protegida](using/configuration/copy-objects-to-sandbox.md)
+   + [Exportación de objetos a otra zona protegida](using/configuration/copy-objects-to-sandbox.md)
 + Control de acceso {#access-control}
    + Información general sobre el control de acceso {#privacy}
       + [Introducción a la administración de usuarios](using/administration/permissions-overview.md)
@@ -698,5 +698,5 @@ ht-degree: 93%
    + Administración del consentimiento {#consent}
       + [Administración de la exclusión](using/privacy/opt-out.md)
       + [Trabajar con políticas de consentimiento](using/action/consent.md)
-   + [Control de datos](using/action/action-privacy.md)
+   + [Gobernanza de datos](using/action/action-privacy.md)
    + [Configurar y administrar claves administradas por el cliente](using/privacy/cmk.md)
