@@ -5,7 +5,7 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Antes de configurar una solicitud de trabajo, asegúrese de haber creado:
 
 * **Un conjunto de datos** en Adobe Experience Platform. Este conjunto de datos se utilizará para almacenar el resultado de la decisión mediante el esquema &quot;ODE DecisionEvents&quot;. Obtenga más información en la [documentación de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es).
 
-* **Una audiencia** en Adobe Experience Platform. La audiencia debe evaluarse y luego actualizarse. Aprenda a actualizar la evaluación de pertenencia a audiencias en la [documentación del servicio de segmentación](http://www.adobe.com/go/segmentation-overview-en)
+* **Una audiencia** en Adobe Experience Platform. La audiencia debe evaluarse y luego actualizarse. Aprenda a actualizar la evaluación de pertenencia a audiencias en la [documentación del servicio de segmentación](https://www.adobe.com/go/segmentation-overview-en)
 
   >[!NOTE]
   >

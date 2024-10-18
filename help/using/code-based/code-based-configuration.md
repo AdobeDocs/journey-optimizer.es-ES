@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 28%
@@ -130,7 +130,7 @@ Para definir los ajustes de configuración de la experiencia basada en código p
 
 1. Proporcione la **[!UICONTROL ubicación o ruta de acceso dentro de la aplicación]**. Este campo especifica el destino exacto dentro de la aplicación a la que desea que accedan los usuarios. Puede ser una sección en particular o una página en la estructura de navegación de la aplicación, como un banner a pantalla completa o un carril del producto.
 
-   ![](assets/code_config_3.png){width="500"}
+   ![](assets/code_config_3.png)
 
 1. Rellene el campo **[!UICONTROL URL de vista previa]** para habilitar las vistas previas en el dispositivo. Esta dirección URL informa al servicio de vista previa de la dirección URL específica que se debe utilizar al activar la vista previa en el dispositivo. [Más información](../code-based/create-code-based.md#preview-on-device)
 
