@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5eea9467660ba19bbd2d95e8a82490e645266f69
+source-git-commit: d953f4e411b6d73886c9cb1d6d47152a0480de36
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1674'
 ht-degree: 46%
 
 ---
@@ -238,7 +238,7 @@ Se han introducido mejoras en los SMS para mejorar sus funciones de mensajería:
 
 * **Límite de frecuencia por campaña o recorrido**: ahora puede crear reglas de frecuencia para aplicarlas a sus recorridos, lo que le permite limitar el número de recorridos por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.
 
-* **Puntuación de prioridad**: ahora puede asignar una puntuación de prioridad a una campaña o un recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. Cuando dos campañas o recorridos utilizan la misma superficie, Journey Optimizer selecciona la que tiene la puntuación de prioridad más alta. Si las campañas tienen la misma puntuación, se elige la campaña modificada más recientemente. La puntuación de prioridad está disponible para todos los canales entrantes en las campañas y para el canal en la aplicación en los recorridos.
+* **Puntuación de prioridad**: ahora puede asignar una puntuación de prioridad a una campaña o un recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. Cuando dos campañas o recorridos utilizan la misma configuración de canal, Journey Optimizer selecciona el que tenga la puntuación de prioridad más alta. Si las campañas tienen la misma puntuación, se elige la campaña modificada más recientemente. La puntuación de prioridad está disponible para todos los canales entrantes en las campañas y para el canal en la aplicación en los recorridos.
 
 * **Ver conflictos**: un nuevo botón **Ver conflictos** en recorridos y campañas ahora le permite comprobar si hay una posibilidad de superposición con otros recorridos o campañas, como la fecha de inicio, la audiencia de destino o la configuración de canal seleccionada.
 
@@ -249,7 +249,7 @@ Se han introducido mejoras en los SMS para mejorar sus funciones de mensajería:
 
 Configuración de ****
 
-* **Personalización superficial**: al usar una configuración personalizada en una campaña o un recorrido, ahora puede obtener una vista previa del contenido del correo electrónico para comprobar posibles errores con la configuración dinámica que definió.
+* **Personalización de la configuración del canal**: al usar una configuración personalizada en una campaña o un recorrido, ahora puede obtener una vista previa del contenido del correo electrónico para comprobar posibles errores con la configuración dinámica que definió.
 
 **Recorridos**
 
