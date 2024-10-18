@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
+source-git-commit: 5eea9467660ba19bbd2d95e8a82490e645266f69
 workflow-type: tm+mt
-source-wordcount: '1671'
-ht-degree: 47%
+source-wordcount: '1672'
+ht-degree: 46%
 
 ---
 
@@ -100,26 +100,6 @@ Este modo de edición no visual resulta útil si no puede instalar extensiones d
 </tbody>
 </table>
 
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Integración de Adobe Journey Optimizer y tinta móvil</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede integrar Movable Ink Da Vinci y Adobe Journey Optimizer. Con esta nueva integración puede: </p>
-<p><ul><li>Aproveche las potentes capacidades del producto Da Vinci de Movable Ink para ensamblar y personalizar las variaciones de correo electrónico para las campañas por lotes</li>
-<li>Acelere los flujos de trabajo de los profesionales para los clientes de Journey Optimizer que utilizan Da Vinci para la creación y AJO para la optimización y el envío</li>
-<li>Optimizar los modelos Da Vinci con datos de Adobe.</li></ul></p>
-<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
 <table>
 <thead>
 <tr>
@@ -172,20 +152,39 @@ Este modo de edición no visual resulta útil si no puede instalar extensiones d
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Experiencia actualizada de generación de informes (disponibilidad general)</strong><br/>Disponible desde el 16 de octubre de 2024<br/></th>
+<th><strong>Integración de Adobe Journey Optimizer y tinta móvil</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
+<p>Ahora puede integrar Movable Ink Da Vinci y Adobe Journey Optimizer. Con esta nueva integración puede: </p>
+<p><ul><li>Aproveche las potentes capacidades del producto Da Vinci de Movable Ink para ensamblar y personalizar las variaciones de correo electrónico para las campañas por lotes</li>
+<li>Acelere los flujos de trabajo de los profesionales para los clientes de Journey Optimizer que utilizan Da Vinci para la creación y AJO para la optimización y el envío</li>
+<li>Optimizar los modelos Da Vinci con datos de Adobe.</li></ul></p>
+<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Experiencia actualizada de creación de informes (disponibilidad general)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Disponible desde el 16 de octubre de 2024</p>
 <p>La creación de informes de Journey Optimizer ya está disponible de forma general (GA) y ofrece una interoperabilidad mejorada con funciones de Customer Journey Analytics, estandarización de los informes en ambas plataformas y mejora de la coherencia y fiabilidad de los datos. Esta integración perfecta entre Journey Optimizer y Customer Journey Analytics proporciona una visión más clara de las métricas de rendimiento, lo que permite a los usuarios tomar decisiones más informadas.</p>
 <p>Con la disponibilidad general, se introducen cuatro nuevas funciones: la capacidad de crear métricas sencillas, crear y publicar audiencias, hacer preguntas específicas mediante Insight Builder y programar informes para que se envíen automáticamente por correo electrónico a los destinatarios clave.</p>
 <p>Para obtener más información, consulte la <a href="../reports/report-cja-manage.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
+<p>Importante: La experiencia actual de creación de informes se eliminará a partir de enero de 2025. Después de esta fecha, la nueva experiencia de creación de informes pasará a ser el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas. <a href="../reports/report-gs-cja.md">Aprenda a empezar con la nueva interfaz de creación de informes de Journey Optimizer</a></p>
 </tr>
 </tbody>
 </table>
@@ -199,10 +198,10 @@ Este modo de edición no visual resulta útil si no puede instalar extensiones d
 <tbody>
 <tr>
 <td>
+<p>Disponible desde el 1 de octubre de 2024</p>
 <p>Con el canal de experiencia basado en código, Adobe Journey Optimizer le permite realizar personalizaciones y pruebas avanzadas para cualquiera de sus propiedades de entrada, lo que permite ofrecer experiencias adaptadas en diversos puntos de contacto, como aplicaciones web, aplicaciones móviles, aplicaciones de escritorio, consolas de vídeo, servicios conectados a TV, televisores inteligentes, quioscos, cajeros automáticos, dispositivos IoT y mucho más. El canal de experiencia basado en código ya está disponible en el lienzo de recorrido.</p>
 <p>Para obtener más información, consulte la <a href="../code-based/create-code-based.md">documentación detallada</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>Fecha de disponibilidad: 1 de octubre de 2024</p>
 </tr>
 </tbody>
 </table>
@@ -216,20 +215,13 @@ Este modo de edición no visual resulta útil si no puede instalar extensiones d
 <tbody>
 <tr>
 <td>
+<p>Disponible desde el 1 de octubre de 2024</p>
 <p>Con el canal web, Adobe Journey Optimizer permite personalizar la experiencia web que ofrece a sus clientes a través de recorridos web entrantes. El canal web ahora está disponible en el lienzo de recorrido.</p>
 <p>Para obtener más información, consulte la <a href="../web/create-web.md">documentación detallada</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>Fecha de disponibilidad: 1 de octubre de 2024</p>
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->La experiencia actual de creación de informes se eliminará a partir de enero de 2025. Después de esta fecha, la nueva experiencia de creación de informes pasará a ser el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas.
->
-> [Aprenda a empezar con la nueva interfaz de creación de informes de Journey Optimizer](../reports/report-gs-cja.md)
-
 
 ### Mejoras {#e-improvements}
 
@@ -270,11 +262,11 @@ Configuración de ****
    * 90 días para datos en el almacén de perfiles
    * 13 meses para los datos del lago de datos
 
-Además, en ese momento, la segmentación de streaming ya no admitirá el uso de eventos de envío y comentarios de conjuntos de datos de seguimiento y comentarios. Hemos recomendado no utilizar esos eventos para la segmentación de streaming durante un tiempo y ahora los deshabilitaremos por completo.
+  Además, en ese momento, la segmentación de streaming ya no admitirá el uso de eventos de envío y comentarios de conjuntos de datos de seguimiento y comentarios. Hemos recomendado no utilizar esos eventos para la segmentación de streaming durante un tiempo y ahora los deshabilitaremos por completo.
 
-* Este cambio solo restringe el uso de eventos de envío/apertura en la segmentación de flujo continuo; los eventos de clic se pueden seguir utilizando en un segmento de flujo continuo. Además, los eventos de envío/apertura se pueden seguir utilizando en un segmento por lotes.
-* Los datos de seguimiento se seguirán recopilando. Este cambio no afecta al seguimiento. Todavía puede rastrear a quién se envió un correo electrónico y quién hizo clic en un correo electrónico.
-* Los eventos de reacción en Recorridos no se ven afectados por este cambio.
+   * Este cambio solo restringe el uso de eventos de envío/apertura en la segmentación de flujo continuo; los eventos de clic se pueden seguir utilizando en un segmento de flujo continuo. Además, los eventos de envío/apertura se pueden seguir utilizando en un segmento por lotes.
+   * Los datos de seguimiento se seguirán recopilando. Este cambio no afecta al seguimiento. Todavía puede rastrear a quién se envió un correo electrónico y quién hizo clic en un correo electrónico.
+   * Los eventos de reacción en Recorridos no se ven afectados por este cambio.
 
 * **Parámetros en acciones personalizadas** (Fecha de disponibilidad: 3 de octubre de 2024): ahora se admiten parámetros nulos y opcionales en las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
