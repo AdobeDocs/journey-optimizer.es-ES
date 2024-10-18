@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 30%
+source-wordcount: '1558'
+ht-degree: 28%
 
 ---
 
@@ -28,8 +28,8 @@ Una configuración de experiencia basada en código debe hacer referencia a la s
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Introduzca la ubicación específica"
->abstract="Este campo especifica el destino exacto en la página o dentro de la aplicación a la que desea que accedan los usuarios. Podría ser una sección en particular o una página dentro de la estructura de navegación."
+>title="Indique la ubicación específica dentro de la página o aplicación"
+>abstract="Este campo especifica el destino exacto dentro de una página o de la aplicación a la que desea que accedan los usuarios. Puede ser una sección en particular dentro de una página web o una página profunda dentro de la estructura de navegación de la aplicación."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -108,7 +108,7 @@ Para definir los ajustes de configuración de la experiencia basada en código p
 
      ![](assets/code_config_matching_rules_preview.png)
 
-1. El campo **[!UICONTROL Ubicación en la página]** especifica el destino exacto dentro del sitio web al que desea que accedan los usuarios. Podría ser una sección en particular o una página en la estructura de navegación del sitio.
+1. El campo **[!UICONTROL Ubicación en la página]** especifica el destino exacto dentro de la página a la que desea que accedan los usuarios. Puede ser una sección en particular de una página dentro de la estructura de navegación del sitio, como &quot;banner a pantalla completa&quot; o &quot;carril del producto&quot;.
 
    ![](assets/code_config_location_on_page.png)
 
@@ -128,7 +128,7 @@ Para definir los ajustes de configuración de la experiencia basada en código p
 
 1. Escriba su **[!UICONTROL ID de aplicación]**. Esto permite una identificación y configuración precisas dentro del entorno operativo de la aplicación y garantiza una integración y funcionalidad sin problemas.
 
-1. Proporcione la **[!UICONTROL ubicación o ruta de acceso dentro de la aplicación]**. Este campo especifica el destino exacto dentro de la aplicación a la que desea que accedan los usuarios. Podría ser una sección en particular o una página en la estructura de navegación de la aplicación.
+1. Proporcione la **[!UICONTROL ubicación o ruta de acceso dentro de la aplicación]**. Este campo especifica el destino exacto dentro de la aplicación a la que desea que accedan los usuarios. Puede ser una sección en particular o una página en la estructura de navegación de la aplicación, como un banner a pantalla completa o un carril del producto.
 
    ![](assets/code_config_3.png){width="500"}
 
