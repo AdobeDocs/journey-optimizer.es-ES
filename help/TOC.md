@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
+source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2140'
 ht-degree: 94%
 
 ---
@@ -618,6 +618,7 @@ ht-degree: 94%
 + Administración de datos {#data-management}
    + [Introducción a la administración de datos](using/data/gs-data.md)
    + [Usar esquemas](using/data/get-started-schemas.md)
+   + [Actualizaciones de la segmentación por tiempo real y por streaming](using/data/datasets-ttl.md)
    + Conjuntos de datos de Journey Optimizer {#datasets}
       + [Introducción a los conjuntos de datos](using/data/get-started-datasets.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
