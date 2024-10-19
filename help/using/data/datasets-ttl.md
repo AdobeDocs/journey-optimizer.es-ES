@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Acerca de la nueva protección de tiempo de vida (TTL)
-description: Nueva protección de tiempo de vida (TTL) en Adobe Journey Optimizer
+title: Acerca de los cambios de segmentación de tiempo de vida (TTL) y de flujo continuo
+description: Cambios en la segmentación por streaming y tiempo de vida en Adobe Journey Optimizer
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
-source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 5%
 
 ---
 
 
-# Actualizaciones de segmentación de tiempo de vida (TTL) y streaming {#ttl-guardrail}
+# Cambios en la segmentación por streaming y tiempo de vida {#ttl-guardrail}
 
 ## Protección de tiempo de vida (TTL) {#ttl}
 
@@ -49,7 +49,7 @@ Los datos de CJA se mantienen sincronizados con el Experience Platform. Por lo t
 
 ## Actualizaciones de segmentación de streaming {#segmentation-update}
 
-Además, el 1 de noviembre, la segmentación de streaming ya no admitirá el uso de eventos de envío y comentarios de conjuntos de datos de seguimiento y comentarios. Encontrará información sobre por qué se desaconsejó esta práctica en el pasado [aquí](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
+Además, el 1 de noviembre, la segmentación de streaming ya no admitirá el uso de eventos de envío y comentarios de conjuntos de datos de seguimiento y comentarios.  Encontrará información sobre por qué se desaconsejó esta práctica en el pasado [aquí](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
 
 
 **Preguntas más frecuentes**
