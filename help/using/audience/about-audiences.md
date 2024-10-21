@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: b09a66743770eff9da7f183a1bf8de0d241db3d0
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2279'
 ht-degree: 17%
 
 ---
@@ -45,11 +45,12 @@ Las audiencias se pueden generar mediante diferentes métodos:
 
 ## Audiencias de destino en [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Puede seleccionar en campañas y recorridos cualquier audiencia generada mediante definiciones de segmento, carga personalizada o flujos de trabajo de composición.
+Puede seleccionar en campañas y recorridos cualquier audiencia generada mediante definiciones de segmento, carga personalizada, flujos de trabajo de composición o Composición de audiencia federada.
 
 >[!AVAILABILITY]
 >
->El uso de audiencias y atributos de la composición de audiencias no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield. [Aprenda a utilizar los atributos de enriquecimiento de audiencias en Journey Optimizer](../audience/about-audiences.md#enrichment)
+>
+El uso de audiencias y atributos de la composición de audiencias no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield. [Aprenda a utilizar los atributos de enriquecimiento de audiencias en Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras diferentes:
 
@@ -63,11 +64,11 @@ Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras difere
 
   >[!NOTE]
   >
-  >Debido a la naturaleza de lote de las audiencias creadas mediante flujos de trabajo de composición y carga personalizada, no puede dirigirse a estas audiencias en una actividad &quot;Calificación de audiencias&quot;. En esta actividad solo se pueden aprovechar las audiencias creadas con definiciones de segmento.
+  >Debido a la naturaleza de lote de las audiencias creadas mediante flujos de trabajo de composición, carga personalizada o Composición de audiencia federada, no puede segmentar estas audiencias en una actividad &quot;Calificación de audiencias&quot;. En esta actividad solo se pueden aprovechar las audiencias creadas con definiciones de segmento.
 
 ## Uso de atributos de enriquecimiento de audiencias {#enrichment}
 
-Al segmentar una audiencia generada mediante flujos de trabajo de composición o una audiencia personalizada (archivo CSV), puede aprovechar los atributos de enriquecimiento de estas audiencias para crear el recorrido y personalizar los mensajes.
+Al segmentar una audiencia generada mediante flujos de trabajo de composición, audiencias personalizadas (archivo CSV) o composición de audiencias federada, puede aprovechar los atributos de enriquecimiento de estas audiencias para crear su recorrido y personalizar sus mensajes.
 
 >[!NOTE]
 >
@@ -105,21 +106,21 @@ Encontrará información detallada sobre las fuentes de datos en estas secciones
 >
 +++
 
-## Audiencias de carga personalizada (archivo CSV) {#csv}
+## Audiencias de carga personalizada y de composición de audiencia federada {#csv}
 
-En esta sección se proporciona información clave para tener en cuenta al trabajar con audiencias de carga personalizada (archivos CSV):
+En esta sección se proporciona información clave para tener en cuenta al trabajar con cargas personalizadas (archivos CSV) y audiencias de composición de audiencias federadas:
 
-* **Compatibilidad de vista previa y revisión con audiencias CSV:** En la actualidad, la vista previa y la revisión no son compatibles con audiencias creadas mediante la carga de CSV. Tenga esto en cuenta al planificar las campañas.
+* **Compatibilidad con vista previa y prueba:** En la actualidad, la vista previa y la prueba no son compatibles con las audiencias creadas mediante la carga de CSV o la composición de audiencias federada. Tenga esto en cuenta al planificar las campañas.
 
-* **Retrasos rápidos de activación y vinculación de identidad:** La arquitectura de Adobe Experience Platform retrasa la vinculación de identidad para que las audiencias de carga personalizada estén disponibles inmediatamente para su activación en Journey Optimizer, con los siguientes impactos:
+* **Retrasos rápidos de activación y vinculación de identidad:** La arquitectura de Adobe Experience Platform retrasa la vinculación de identidad para que las audiencias de carga personalizada y Composición de audiencia federada estén disponibles inmediatamente para su activación en Journey Optimizer, con los siguientes impactos:
 
    * Las audiencias están listas para usarse en Journey Optimizer justo después de completarse la ingesta. Aunque esto suele ocurrir en menos de una hora, está sujeto a cierta variabilidad.
    * El número de registros activados puede diferir del número de perfiles después de la vinculación de identidad.
-   * Se activarán todos los registros del archivo CSV, incluidos los duplicados. Durante la próxima exportación de perfiles de UPS, estos registros se vincularán con la identidad.
+   * Se activarán todos los registros de la audiencia, incluidos los duplicados. Durante la próxima exportación de perfiles de UPS, estos registros se vincularán con la identidad.
 
-* **Segmentación de nuevos perfiles a partir de cargas CSV:** Cuando no se encuentra una coincidencia entre un registro CSV y un perfil UPS, se crea un nuevo perfil vacío. Este perfil está vinculado a los atributos de enriquecimiento que se almacenan en el lago de datos. Dado que este nuevo perfil está vacío, los campos de segmentación que se suelen utilizar en Journey Optimizer (por ejemplo, personalEmail.address, mobilePhone.number) están vacíos y, por lo tanto, no se pueden utilizar para la segmentación.
+* **Segmentación de nuevos perfiles:** Cuando no se encuentra una coincidencia entre un registro y un perfil de UPS, se crea un nuevo perfil vacío. Este perfil está vinculado a los atributos de enriquecimiento que se almacenan en el lago de datos. Dado que este nuevo perfil está vacío, los campos de segmentación que se suelen utilizar en Journey Optimizer (por ejemplo, personalEmail.address, mobilePhone.number) están vacíos y, por lo tanto, no se pueden utilizar para la segmentación.
 
-  Para resolver esto, puede especificar el &quot;campo de ejecución&quot; (o la &quot;dirección de ejecución&quot; según el canal) en la configuración del canal como &quot;identityMap&quot;. Esto garantiza que el atributo elegido como identidad durante la carga del CSV sea el que se use para la segmentación en Journey Optimizer.
+  Para resolver esto, puede especificar el &quot;campo de ejecución&quot; (o la &quot;dirección de ejecución&quot; según el canal) en la configuración del canal como &quot;identityMap&quot;. Esto garantizará que el atributo elegido como identidad en el momento de la creación de la audiencia sea el que se use para la segmentación en Journey Optimizer.
 
 ## Métodos de evaluación de públicos {#evaluation-method-in-journey-optimizer}
 
