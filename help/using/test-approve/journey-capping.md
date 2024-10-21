@@ -6,9 +6,9 @@ level: Beginner
 badge: label="Disponibilidad limitada"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: ea947514012c342fd28155e6610b2eb13547b465
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '698'
 ht-degree: 2%
 
 ---
@@ -33,8 +33,10 @@ Lo que encontrará en esta guía de documentación:
 
 La restricción de recorrido le ayuda a limitar el número de recorridos en los que se puede inscribir un perfil, lo que evita la sobrecarga de comunicaciones. En Journey Optimizer, puede establecer dos tipos de reglas de límite:
 
-* **Límite de entrada** limita el número de entradas en un recorrido durante un período determinado para un perfil.
-* **Límite de concurrencia** limita la cantidad de recorridos en los que se puede inscribir un perfil simultáneamente. Este tipo de límite aprovecha las puntuaciones de prioridad de los recorridos para arbitrar entradas si los perfiles son aptos para varios recorridos al mismo tiempo durante un periodo determinado.
+* **Límite de entrada** limita el número de entradas de recorrido durante un período determinado para un perfil.
+* **Límite de concurrencia** limita la cantidad de recorridos en los que se puede inscribir un perfil simultáneamente.
+
+Ambos tipos de límite de recorrido aprovechan las puntuaciones de prioridad para arbitrar entradas.
 
 ## Creación de una regla de límite de recorrido {#create-rule}
 
@@ -67,21 +69,28 @@ Para crear una regla de límite de recorrido, siga estos pasos:
 
      +++Configuración de una regla de límite de entrada de recorrido
 
-      1. En el campo **[!UICONTROL Límite]**, establezca el número máximo de veces que un perfil puede ingresar al recorrido.
-      1. En el campo **[!UICONTROL Duración]**, defina el período de tiempo que debe tenerse en cuenta.
+      1. En el campo **[!UICONTROL Límite]**, establezca el número máximo de recorridos que puede ingresar un perfil.
+      1. En el campo **[!UICONTROL Duración]**, defina el período de tiempo que debe tenerse en cuenta. Tenga en cuenta que la duración se basa en la zona horaria UTC. Por ejemplo, el Límite diario se restablecerá a medianoche UTC.
 
-     En este ejemplo, queremos restringir la entrada de perfiles a este recorrido más de &quot;5&quot; veces en un mes.
+     En este ejemplo, queremos restringir la entrada de perfiles en más de &quot;5&quot; recorridos en un mes.
 
      ![](assets/journey-capping-entry-example.png)
+
+     >[!NOTE]
+     >
+     >El sistema tendrá en cuenta la prioridad de los próximos recorridos programados que tengan aplicada esta misma regla.
+     >
+     >En este ejemplo, si el especialista en marketing ya ha introducido 4 recorridos y hay otro recorrido programado para este mes con una prioridad más alta, se impedirá que los clientes entren en el recorrido de prioridad más baja.
 
 +++
 
      +++Configuración de una regla de límite de concurrencia de recorrido
 
       1. En el campo **[!UICONTROL Límite]**, establezca el número máximo de recorridos en los que se puede inscribir un perfil simultáneamente.
+
       1. Utilice el campo **[!UICONTROL Establecimiento de prioridades para mirar hacia delante]** para arbitrar las entradas de recorridos en función de las puntuaciones de prioridad durante un período elegido (por ejemplo, 1 día, 7 días, 30 días). Esto ayuda a priorizar la entrada en recorridos de mayor valor si un perfil es apto para varios recorridos.
 
-     En este ejemplo, queremos restringir la entrada de perfiles en el recorrido si ya están inscritos en otro recorrido. Si otro recorrido en los próximos 7 días tiene una puntuación de prioridad más alta, el perfil ingresará este recorrido.
+     En este ejemplo, queremos restringir la entrada de perfiles en la recorrido si ya están inscritos en otro recorrido que contenga el mismo conjunto de reglas. Si otro recorrido en los próximos 7 días tiene una puntuación de prioridad más alta, el perfil no entrará en este recorrido.
 
      ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
@@ -98,6 +107,11 @@ Para crear una regla de límite de recorrido, siga estos pasos:
 ## Aplicación de reglas de límite a los recorridos {#apply-capping}
 
 Para aplicar una regla de límite a un recorrido, acceda al recorrido y abra sus propiedades. En el menú desplegable **[!UICONTROL Reglas de límite]**, seleccione el conjunto de reglas correspondiente.
+
 Una vez activado el recorrido, las reglas de límite definidas en el conjunto de reglas surtirán efecto.
 
 ![](assets/journey-capping-apply.png)
+
+>[!IMPORTANT]
+>
+>Si un recorrido se activa inmediatamente, el sistema puede tardar hasta 15 minutos en empezar a suprimir clientes. Puede programar su recorrido para que comience al menos 15 minutos en el futuro para evitar esta posibilidad.
