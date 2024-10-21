@@ -8,10 +8,10 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: datos, gobernanza, DULE, etiquetas, etiquetado, plataforma, directiva
-source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
-workflow-type: ht
-source-wordcount: '1293'
-ht-degree: 100%
+source-git-commit: 7f54200facc8845d5c39bb5d16751ed49579ea8a
+workflow-type: tm+mt
+source-wordcount: '1292'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## Introducción a las políticas de gobernanza de datos {#gs}
 
-Con su marco de [uso de etiquetado y aplicación del uso de datos (Data Usage Labeling and Enforcement, DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=es){_blank}, Adobe Experience Platform permite administrar y aplicar políticas de gobernanza de datos en todos sus canales. Para ello, **etiquete sus campos** y cree **acciones de marketing** para cada canal.
+Con su marco de trabajo de [etiquetado y aplicación del uso de los datos (Data Usage Labeling and Enforcement, DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=es){target="_blank"}, Adobe Experience Platform le permite administrar y aplicar directivas de control de datos en todos sus canales. Para ello, **etiqueta sus campos** y crea **acciones de marketing** para cada canal.
 
 Una vez definidas las etiquetas y las acciones de marketing, puede crear **políticas de gobernanza de datos** que vinculen estos dos elementos. Por ejemplo, puede configurar una política que asocie una etiqueta “ePHI” con una acción de marketing de “direccionamiento de correo electrónico”, lo que garantiza que los campos etiquetados como “ePHI” no se utilicen para personalizar los mensajes de correo electrónico. [Aprenda a crear políticas de gobernanza de datos](#governance-policies)
 
