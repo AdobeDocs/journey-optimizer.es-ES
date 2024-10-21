@@ -7,9 +7,9 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
-source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
+source-git-commit: a88cb8fbf324bc9c03bc7570b6637e8c95f43a20
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '401'
 ht-degree: 5%
 
 ---
@@ -49,8 +49,7 @@ Los datos de CJA se mantienen sincronizados con el Experience Platform. Por lo t
 
 ## Actualizaciones de segmentación de streaming {#segmentation-update}
 
-Además, el 1 de noviembre, la segmentación de streaming ya no admitirá el uso de eventos de envío y comentarios de conjuntos de datos de seguimiento y comentarios.  Encontrará información sobre por qué se desaconsejó esta práctica en el pasado [aquí](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
-
+Además, el 1 de noviembre, la segmentación de streaming ya no admitirá el uso de eventos de envío y comentarios de conjuntos de datos de seguimiento y comentarios.  Encontrará información sobre por qué se desaconsejó esta práctica en el pasado [aquí](../audience/about-audiences.md#streaming-segmentation-events-guardrails). Este cambio se aplicará a todas las zonas protegidas y organizaciones de clientes en ese momento.
 
 **Preguntas más frecuentes**
 
