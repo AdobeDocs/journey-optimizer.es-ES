@@ -1,23 +1,18 @@
 ---
-title: Solicitar aprobación
+title: Solicitud de aprobación
 description: Obtenga información sobre cómo solicitar la aprobación antes de publicar recorridos y campañas.
 role: User
 level: Beginner
 feature: Approval
-badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 3%
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
 
-# Solicitar aprobación {#request-approval}
-
->[!AVAILABILITY]
->
-> Actualmente, las directivas de aprobación solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+# Solicitud de aprobación {#request-approval}
 
 Si la funcionalidad de flujo de trabajo de aprobación se ha habilitado para su organización, verá que los botones **[!UICONTROL Activar]** y **[!UICONTROL Publish]** ya no están disponibles en los flujos de trabajo Crear campaña y Crear Recorrido, respectivamente. Estos botones han sido reemplazados por el botón **[!UICONTROL Solicitar aprobación]**.
 

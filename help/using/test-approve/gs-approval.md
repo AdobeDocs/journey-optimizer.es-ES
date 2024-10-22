@@ -4,20 +4,15 @@ description: Aprenda a configurar un proceso de aprobación para sus recorridos 
 role: User
 level: Beginner
 feature: Approval
-badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
-workflow-type: ht
-source-wordcount: '583'
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+workflow-type: tm+mt
+source-wordcount: '561'
 ht-degree: 100%
 
 ---
 
 
 # Introducción a la aprobación de recorridos y campañas {#send-proofs}
-
->[!AVAILABILITY]
->
-> Ahora mismo, las políticas de aprobación solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 ## Introducción a las políticas de aprobación {#gs}
 

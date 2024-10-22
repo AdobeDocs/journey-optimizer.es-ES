@@ -4,20 +4,19 @@ description: Obtenga información sobre cómo crear y administrar directivas de 
 role: User
 level: Beginner
 feature: Approval
-badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: cd46b3346e284958e6f3f9fa641b548f68672000
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 5%
+source-wordcount: '432'
+ht-degree: 3%
 
 ---
 
 
 # Crear y administrar directivas de aprobación {#approval-policies}
 
->[!AVAILABILITY]
+>[!NOTE]
 >
-> Actualmente, las directivas de aprobación solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+>Para crear directivas de aprobación, debe tener privilegios de administrador de sistemas o productos en Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 Las políticas de aprobación permiten a los administradores establecer un proceso de validación para recorridos y campañas. Este sistema describe condiciones específicas que determinan si un recorrido o una campaña requiere aprobación. Estas políticas pueden variar en complejidad, desde requerir que todas las campañas sean revisadas por un usuario o equipo en particular, hasta establecer criterios basados en quién creó la campaña.
 

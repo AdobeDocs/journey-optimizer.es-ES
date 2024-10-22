@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '443'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Una vez que el contenido del archivo esté listo para enviarse, cierre la pantal
 
 >[!IMPORTANT]
 >
->A partir de la versión de septiembre, una nueva experiencia de activación de recorrido y campaña le permite administrar todo el proceso de aprobación, lo que garantiza que las campañas y los recorridos sean revisados y aprobados a fondo por las partes interesadas adecuadas antes de lanzarse. Esta función está disponible con disponibilidad limitada. [Más información](../test-approve/gs-approval.md)
+> Si la campaña está sujeta a una directiva de aprobación, debe solicitar la aprobación para poder enviar la campaña de correo postal. [Más información](../test-approve/gs-approval.md)
 
 Antes de activar la campaña de correo postal, asegúrese de que la campaña y el archivo de extracción estén correctamente configurados. Para ello, compruebe las alertas en la sección superior del editor. Algunas son simples advertencias, pero otras pueden impedir que envíe el mensaje. Pueden producirse dos tipos de alertas: advertencias y errores.
 

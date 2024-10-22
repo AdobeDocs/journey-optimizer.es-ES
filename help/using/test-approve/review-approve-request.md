@@ -4,20 +4,15 @@ description: Obtenga información sobre cómo revisar y aprobar una solicitud de
 role: User
 level: Beginner
 feature: Approval
-badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 2%
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
 
 # Revisión y aprobación de una solicitud {#approve-requests}
-
->[!AVAILABILITY]
->
-> Actualmente, las directivas de aprobación solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 Si se aplica una directiva de aprobación a un recorrido o campaña, debe enviarse para su aprobación para que se publique. Para ello, el creador del recorrido/campaña envía una solicitud a los aprobadores definidos en la directiva de aprobación y el recorrido/campaña obtiene el estado **[!UICONTROL En revisión]**.
 
@@ -51,3 +46,7 @@ Para ello, haga clic en el botón **[!UICONTROL Solicitar cambios]**. En los pan
 ![](assets/request-changes.png)
 
 Después de enviar la solicitud, se notifica al creador de la recorrido/campaña por correo electrónico y mediante una alerta de Journey Optimizer. La campaña vuelve al estado Borrador. Una vez integrados los cambios, el creador del recorrido/campaña puede volver a enviarlos para su aprobación.
+
+>[!NOTE]
+>
+> Si no recibe la notificación de aprobación por correo electrónico, debe actualizar las preferencias de suscripciones en los perfiles de Experience Cloud. [Más información](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)

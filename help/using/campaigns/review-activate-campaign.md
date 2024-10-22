@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campaña, revisión, validación, activación, activación, optimizador
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 6%
+source-wordcount: '279'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->A partir de la versión de septiembre, una nueva experiencia de activación de recorrido y campaña le permite administrar todo el proceso de aprobación, lo que garantiza que las campañas y los recorridos sean revisados y aprobados a fondo por las partes interesadas adecuadas antes de lanzarse. Esta función está disponible con disponibilidad limitada. [Más información](../test-approve/gs-approval.md)
+> Si la campaña está sujeta a una directiva de aprobación, debe solicitar la aprobación para poder enviar la campaña. [Más información](../test-approve/gs-approval.md)
 
 Una vez configurada la campaña, debe revisar su parámetro y contenido antes de activarla. Para ello, siga estos pasos:
 

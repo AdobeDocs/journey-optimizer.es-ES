@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1150'
 ht-degree: 13%
 
 ---
@@ -122,7 +122,7 @@ Encontrará información detallada sobre cómo seleccionar perfiles de prueba y 
 
 >[!IMPORTANT]
 >
->A partir de la versión de septiembre, una nueva experiencia de activación de recorrido y campaña le permite administrar todo el proceso de aprobación, lo que garantiza que las campañas y los recorridos sean revisados y aprobados a fondo por las partes interesadas adecuadas antes de lanzarse. Esta función está disponible con disponibilidad limitada. [Más información](../test-approve/gs-approval.md)
+> Si la campaña está sujeta a una directiva de aprobación, deberá solicitar la aprobación para poder activar las experiencias web. [Más información](../test-approve/gs-approval.md)
 
 Una vez que haya definido la experiencia web y editado el contenido como desee con el [diseñador web](edit-web-content.md#work-with-web-designer), puede activar el recorrido o la campaña para que los cambios sean visibles a la audiencia.
 

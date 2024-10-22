@@ -10,9 +10,9 @@ level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1644'
 ht-degree: 21%
 
 ---
@@ -228,7 +228,7 @@ Una vez que haya configurado el proyecto de traducción y la configuración de i
 
    >[!IMPORTANT]
    >
-   >A partir de la versión de septiembre, una nueva experiencia de activación de recorrido y campaña le permite administrar todo el proceso de aprobación, lo que garantiza que las campañas y los recorridos sean revisados y aprobados a fondo por las partes interesadas adecuadas antes de lanzarse. Esta función está disponible con disponibilidad limitada. [Más información](../test-approve/gs-approval.md)
+   > Si la campaña está sujeta a una directiva de aprobación, debe solicitar la aprobación para poder enviar la campaña multilingüe. [Más información](../test-approve/gs-approval.md)
 
 Ahora puede activar la campaña o el recorrido. Una vez enviada, puede medir el impacto del recorrido o la campaña multilingüe dentro de los informes.
 

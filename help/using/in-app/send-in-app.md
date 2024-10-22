@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '389'
+ht-degree: 13%
 
 ---
 
@@ -48,7 +48,7 @@ Encontrará información detallada sobre cómo seleccionar perfiles de prueba y 
 
 >[!IMPORTANT]
 >
->A partir de la versión de septiembre, una nueva experiencia de activación de recorrido y campaña le permite administrar todo el proceso de aprobación, lo que garantiza que las campañas y los recorridos sean revisados y aprobados a fondo por las partes interesadas adecuadas antes de lanzarse. Esta función está disponible con disponibilidad limitada. [Más información](../test-approve/gs-approval.md)
+> Si la campaña está sujeta a una directiva de aprobación, deberá solicitar la aprobación para poder enviar la notificación en la aplicación. [Más información](../test-approve/gs-approval.md)
 
 Una vez creado el mensaje en la aplicación y definido y personalizado su contenido, puede revisarlo y activarlo.
 
