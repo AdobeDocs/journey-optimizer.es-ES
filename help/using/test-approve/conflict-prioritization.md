@@ -23,7 +23,7 @@ ht-degree: 21%
 
 En Journey Optimizer, administrar el volumen y el tiempo de las campañas y los recorridos es esencial para evitar abrumar a los clientes con demasiadas interacciones. Las dos secciones siguientes presentan herramientas clave para ayudarle a mantener el equilibrio y priorizar las comunicaciones de forma eficaz
 
-## Identificación de posibles conflictos en recorridos y campañas {#conflict}
+## Identificar posibles conflictos en recorridos y campañas {#conflict}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"

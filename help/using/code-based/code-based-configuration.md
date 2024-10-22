@@ -9,7 +9,7 @@ exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 28%
+ht-degree: 37%
 
 ---
 
@@ -24,7 +24,7 @@ Antes de [crear su experiencia](create-code-based.md), debe crear una configurac
 
 Una configuración de experiencia basada en código debe hacer referencia a la superficie, que es básicamente la ubicación donde desea procesar los cambios. Según la plataforma seleccionada, se debe introducir una ubicación/ruta o el URI de superficie completo. [Más información](#surface-definition)
 
-## Crear una configuración de experiencia basada en código {#create-code-based-configuration}
+## Cree una configuración de experiencia basada en código {#create-code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
@@ -34,7 +34,7 @@ Una configuración de experiencia basada en código debe hacer referencia a la s
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
 >title="Defina una URL para la creación de contenido y previsualización"
->abstract="Este campo garantiza que las páginas generadas o coincidentes por la regla tengan una URL designada, esencial para crear y previsualizar contenido de forma eficaz."
+>abstract="Este campo garantiza que las páginas generadas o que coincidan con la regla tengan una URL designada, esencial para crear y previsualizar contenido de forma eficaz."
 
 Para crear una configuración de canal de experiencia basada en código, siga estos pasos:
 
@@ -82,8 +82,8 @@ Ahora puede seleccionar esta configuración al [crear una experiencia basada en 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_web_url"
->title="Definir una URL para la creación y previsualización de contenido"
->abstract="Este campo garantiza que las páginas generadas o coincidentes por la regla tengan una URL designada, esencial para crear y previsualizar contenido de forma eficaz."
+>title="Defina una URL para la creación de contenido y previsualización"
+>abstract="Este campo garantiza que las páginas generadas o que coincidan con la regla tengan una URL designada, esencial para crear y previsualizar contenido de forma eficaz."
 
 Para definir los ajustes de configuración de la experiencia basada en código para las plataformas web, siga los pasos a continuación.
 
@@ -116,8 +116,8 @@ Para definir los ajustes de configuración de la experiencia basada en código p
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
->title="Proporcione su ID de aplicación"
->abstract="Introduzca el ID de aplicación para obtener una identificación y configuración precisas dentro del entorno operativo de la aplicación, lo que garantiza una integración y funcionalidad sin problemas."
+>title="Proporcione la ID de la aplicación"
+>abstract="Introduzca el ID de la aplicación para una identificación y configuración precisas dentro del entorno operativo de la aplicación, lo que garantiza una integración y funcionalidad optimizadas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
@@ -179,7 +179,7 @@ Para definir los ajustes de configuración de experiencias basadas en código pa
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
 >title="Añada el URI de superficie del componente"
->abstract="Si la implementación no es para la web, iOS o Android, o si necesita segmentar URI específicos, introduzca un URI de superficie, que es un identificador único que dirige a la entidad en la que desea ofrecer la experiencia. Asegúrese de introducir un URI de superficie que coincida con el utilizado en su propia implementación."
+>abstract="Si la implementación no es para web, iOS ni Android, o si necesita dirigirse a URI específicos, introduzca un URI de superficie, que es un identificador único que dirige a la entidad en la que desea ofrecer la experiencia. Asegúrese de introducir un URI de superficie que coincida con el utilizado en su propia implementación."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="Cree una configuración de experiencia basada en código para Otras plataformas"
 
 Una experiencia basada en código **surface** es cualquier entidad diseñada para la interacción de usuarios o sistemas, que se identifica de forma exclusiva mediante un **URI**. La superficie se especifica en la implementación de la aplicación y debe coincidir con la superficie a la que se hace referencia en la configuración del canal de experiencia basado en código.

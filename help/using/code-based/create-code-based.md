@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
@@ -152,22 +152,22 @@ Encontrará información detallada sobre cómo seleccionar perfiles de prueba y 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device"
 >title="Previsualización de la experiencia basada en código en un dispositivo real"
->abstract="Obtenga una vista previa de sus experiencias personalizadas directamente en el explorador o en sus dispositivos móviles, para ver cómo se ven en dispositivos reales."
+>abstract="Obtenga una previsualización de sus experiencias personalizadas directamente en el explorador o en sus dispositivos móviles, para ver cómo se ven en dispositivos reales."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_web"
->title="Vista previa de la experiencia web basada en código en el dispositivo"
+>title="Previsualización de la experiencia web basada en código en un dispositivo"
 >abstract="Escanee el código QR o copie el vínculo para previsualizarlo en el dispositivo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
->title="Vista previa de su experiencia móvil basada en código en el dispositivo"
->abstract="Escanee el código QR o copie el vínculo para previsualizarlo en el dispositivo. Una vez conectado, introduzca el pin en el dispositivo. Es posible que tenga que reiniciar la aplicación para ver los cambios cada vez que actualice los vínculos de vista previa."
+>title="Previsualización de la experiencia móvil basada en código en un dispositivo"
+>abstract="Escanee el código QR o copie el vínculo para previsualizarlo en el dispositivo. Una vez conectado, introduzca el pin en el dispositivo. Es posible que tenga que reiniciar la aplicación para ver los cambios cada vez que actualice los vínculos de previsualización."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_refresh"
->title="Actualice el vínculo de vista previa para reflejar la vista actual"
->abstract="La vista previa en el dispositivo mostrará el contenido a partir del momento en que creó o actualizó el vínculo de vista previa. Si ha modificado el contenido o ha seleccionado un perfil de prueba o tratamiento diferente, actualice la vista previa para que refleje la vista actual."
+>title="Actualice el vínculo de previsualización para que se refleje la vista actual"
+>abstract="La previsualización en el dispositivo mostrará el contenido a partir del momento en que creó o actualizó el vínculo de previsualización. Si ha modificado el contenido o ha seleccionado un perfil de prueba o tratamiento diferente, actualice la previsualización para que se refleje la vista actual."
 
 Al crear experiencias basadas en código para páginas web o aplicaciones móviles, puede obtener una vista previa de sus experiencias personalizadas directamente en el explorador o en sus dispositivos móviles, para ver cómo se ven estas experiencias en dispositivos reales.
 

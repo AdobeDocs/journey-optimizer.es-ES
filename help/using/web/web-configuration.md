@@ -49,17 +49,17 @@ Para crear una configuración de canal web, siga los pasos a continuación.
 
 Ahora puede seleccionar esta configuración al utilizar el canal Web en sus campañas o recorridos.
 
-## Creación de regla de coincidencia de páginas {#web-page-matching-rule}
+## Creación de páginas que coincidan con una regla {#web-page-matching-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_page_rule"
->title="Creación de regla de coincidencia de páginas"
+>title="Creación de páginas que coincidan con una regla"
 >abstract="Para administrar y segmentar de forma eficaz un grupo de direcciones URL que compartan los mismos criterios, cree una regla de coincidencia de páginas. Esta regla permite consolidar varias direcciones URL bajo una sola guía, lo que simplifica la aplicación de acciones y configuraciones coherentes en todas estas páginas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"
->title="Definir una URL para la creación y previsualización de contenido"
->abstract="Este campo garantiza que las páginas generadas o coincidentes por la regla tengan una URL designada, esencial para crear y previsualizar contenido de forma eficaz."
+>title="Defina una URL para la creación de contenido y previsualización"
+>abstract="Este campo garantiza que las páginas generadas o que coincidan con la regla tengan una URL designada, esencial para crear y previsualizar contenido de forma eficaz."
 
 Al crear una configuración web o de [experiencia basada en código](../code-based/get-started-code-based.md), puede generar una **[!UICONTROL regla que coincida con las páginas]** para dirigirse a varias URL que coincidan con la misma regla. Por lo tanto, puede aplicar los mismos cambios de contenido en varias páginas a la vez.
 

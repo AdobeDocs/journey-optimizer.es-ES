@@ -26,7 +26,7 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
->title="Creación de regla de coincidencia de páginas"
+>title="Creación de páginas que coincidan con una regla"
 >abstract="Una regla de coincidencia de páginas permite dirigirse a varias direcciones URL que se ajusten a la misma regla; por ejemplo, si desea aplicar los cambios a un banner principal en todo un sitio web o agregar una imagen superior que se muestre en todas las páginas de producto de un sitio web."
 
 Para empezar a crear una experiencia web a través de una campaña o un recorrido, siga los pasos a continuación.
