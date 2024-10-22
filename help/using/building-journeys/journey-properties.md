@@ -58,7 +58,7 @@ La administración de la entrada del perfil depende del tipo de recorridos. Obte
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Permitir la reentrada"
->abstract="De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar la opción **Permitir la reentrada** si, por ejemplo, desea ofrecer un regalo puntual cuando una persona entra en una tienda."
+>abstract="De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar la opción **Permitir reentrada**, por ejemplo, si quiere ofrecer un regalo único cuando una persona entre en una tienda."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Administración de la entrada del perfil"
 
 De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar la opción **Permitir la reentrada** para recorridos de &quot;una sola vez&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra a una tienda.
