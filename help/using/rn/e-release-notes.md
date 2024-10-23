@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4663cecda07bdccd1bd0651047d83e2f7e0512d8
+source-git-commit: f2282fc4d0bbe67a945c43a191648e28b6b60c00
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1885'
 ht-degree: 40%
 
 ---
@@ -309,5 +309,6 @@ Configuración de ****
 
 * El uso de públicos y atributos de cargas personalizadas (archivos CSV) no está disponible en la actualidad para su uso con el programa Healthcare Shield ni Privacy and Security Shield.
 
+**Canal basado en código**
 
-
+Al editar una campaña de experiencia basada en código, las plantillas disponibles para elegir ahora están enfocadas al HTML o JSON en función de la configuración de canal que se haya elegido previamente.
