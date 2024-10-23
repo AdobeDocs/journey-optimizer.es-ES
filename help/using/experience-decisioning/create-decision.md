@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="Disponibilidad limitada"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 5ffa0937bd9f23f29c8f02d2951cccac73d75f1b
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 18%
+source-wordcount: '1794'
+ht-degree: 14%
 
 ---
 
@@ -29,6 +29,12 @@ Las políticas de decisión contienen toda la lógica de selección para que el 
 >[!NOTE]
 >
 >En la interfaz de usuario [!DNL Journey Optimizer], las directivas de decisión se etiquetan como decisiones<!--but they are decision policies. TBC if this note is needed-->.
+
+Los pasos principales para aprovechar las políticas de decisión en sus campañas basadas en código son los siguientes:
+
+1. [Creación de una política de decisión en una campaña basada en código](#add-decision)
+1. [Uso de la política de decisión en la campaña basada en código](#use-decision-policy)
+1. [Creación de paneles de informes de Customer Journey Analytics personalizados](#cja)
 
 ## Añadir una política de decisión a una campaña basada en código {#add-decision}
 
@@ -51,6 +57,8 @@ Las políticas de decisión contienen toda la lógica de selección para que el 
 
 Para presentar la mejor oferta dinámica y experiencia a los visitantes de su sitio web o aplicación móvil, agregue una política de decisión a una campaña basada en código. Para ello, siga los pasos que aparecen a continuación.
 
+### Creación de la política de decisión {#add}
+
 1. Cree una campaña y seleccione la acción **[!UICONTROL Experiencia basada en código]**. [Más información](../code-based/create-code-based.md)
 
 1. En el [editor de código](../code-based/create-code-based.md#edit-code), seleccione el icono **[!UICONTROL Directiva de decisión]** y haga clic en **[!UICONTROL Agregar directiva de decisión]**.
@@ -63,50 +71,45 @@ Para presentar la mejor oferta dinámica y experiencia a los visitantes de su si
    >
    >Actualmente solo está disponible el catálogo predeterminado **[!UICONTROL Ofertas]**.
 
+1. Seleccione el número de elementos que desea que se devuelvan. Por ejemplo, si selecciona 2, se presentarán las 2 mejores ofertas aptas para la configuración actual. Haga clic en **[!UICONTROL Next]**.
+
    ![](assets/decision-code-based-details.png)
 
-1. Seleccione el número de elementos que desea que se devuelvan. Por ejemplo, si selecciona 2, se presentarán las 2 mejores ofertas aptas para la configuración actual. Haga clic en **[!UICONTROL Siguiente]**
+### Seleccionar elementos y estrategias de selección {#select}
 
-1. Utilice el botón **[!UICONTROL Agregar estrategia]** para definir las estrategias de selección de la directiva de decisión. Cada estrategia consiste en una colección de ofertas asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se van a mostrar. [Más información](selection-strategies.md)
+La sección **[!UICONTROL Secuencia de estrategia]** le permite seleccionar los elementos de decisión y las estrategias de selección que se presentarán con la directiva de decisión.
 
-   ![](assets/decision-code-based-strategies.png)
+1. Haga clic en el botón **[!UICONTROL Agregar]** y, a continuación, elija el tipo de objeto que desea incluir en la directiva:
 
-   >[!NOTE]
-   >
-   >Se requiere al menos una estrategia. No se pueden agregar más de 10 estrategias.
+   * **[!UICONTROL Estrategia de selección]**: agregue una o varias estrategias de selección. Las estrategias de decisión aprovechan las colecciones asociadas con las restricciones de elegibilidad y los métodos de clasificación para determinar los elementos que se van a mostrar. Puede seleccionar una estrategia de selección existente o crear una nueva mediante el botón **[!UICONTROL Crear estrategia de selección]**.[Aprenda a crear estrategias de selección](selection-strategies.md)
 
-1. Desde la pantalla **[!UICONTROL Agregar estrategia]**, también puede crear una estrategia. El botón **[!UICONTROL Crear estrategia de selección]** le redirige al menú **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configuración de estrategia]**. [Más información](selection-strategies.md)
+   * **[!UICONTROL elemento de decisión]**: agregue elementos de decisión únicos para presentar sin tener que ejecutar una estrategia de selección. Solo puede seleccionar un elemento de decisión a la vez. Se aplicarán todas las restricciones de aceptación establecidas para el artículo.
 
-   ![](assets/decision-code-based-add-strategy.png)
-
-1. Al añadir varias estrategias, se evalúan en un orden específico. La primera estrategia que se añadió a la secuencia se evaluará primero, y así sucesivamente. [Más información](#evaluation-order)
-
-   Para cambiar la secuencia predeterminada, puede arrastrar y soltar las estrategias o los grupos para reordenarlos como desee.
-
-   ![](assets/decision-code-based-strategy-groups.png)
-
-1. Agregar una reserva. Se mostrará un elemento de reserva al usuario si no se cumple ninguna de las estrategias de selección anteriores.
-
-   ![](assets/decision-code-based-strategy-fallback.png)
-
-   Puede seleccionar cualquier elemento de la lista, que muestra todos los elementos de decisión creados en la zona protegida actual. Si no se califica ninguna estrategia de selección, la reserva se mostrará al usuario independientemente de las fechas y restricciones de elegibilidad aplicadas al elemento seleccionado<!--nor frequency capping when available - TO CLARIFY-->.
+   ![](assets/decision-code-based-strategy-sequence.png)
 
    >[!NOTE]
    >
-   >Una alternativa es opcional. Si no se selecciona ninguna reserva y no se califica ninguna estrategia, [!DNL Journey Optimizer] no mostrará nada.
+   >Se requiere al menos un elemento de decisión o una estrategia. No se pueden agregar más de 10 estrategias.
 
-1. Guarde la selección y haga clic en **[!UICONTROL Crear]**. Ahora que se ha creado la política de decisión, puede utilizar los atributos de decisión dentro del contenido de la experiencia basado en código. [Más información](#use-decision-policy)
+1. Al agregar varios elementos de decisión o estrategias, se evaluarán en un orden específico. El primer objeto añadido a la secuencia se evaluará primero, y así sucesivamente.     Para cambiar la secuencia predeterminada, puede arrastrar y soltar los objetos o los grupos para reordenarlos como desee. [Más información sobre el pedido de evaluación de la directiva de decisión](#evaluation-order)
 
-   ![](assets/decision-code-based-decision-added.png)
+### Administrar el orden de evaluación en una política de decisión {#evaluation-order}
 
-## Orden de evaluación {#evaluation-order}
+Una vez que haya agregado elementos de decisión y estrategias de selección a la directiva, puede organizar su orden para determinar el orden de evaluación y combinar estrategias de selección para evaluarlos juntos.
 
-Como se ha descrito anteriormente, una estrategia consta de una colección, un método de clasificación y restricciones de elegibilidad.
+El **orden secuencial** en el que se evaluarán los elementos y las estrategias se indica con números a la izquierda de cada objeto o grupo de objetos. Para mover la posición de una estrategia de selección (o un grupo de estrategias) dentro de la secuencia, arrástrela y suéltela en otra posición.
 
-Puede hacer lo siguiente:
+>[!NOTE]
+>
+>Solo se pueden arrastrar y soltar estrategias de selección dentro de una secuencia. Para cambiar la posición de un elemento de decisión, debe eliminarlo y volver a agregarlo usando el botón **[!UICONTROL Agregar]** después de agregar los demás elementos que desea evaluar antes.
 
-* Establezca el orden secuencial que desea para que se evalúen las estrategias,
-* Combine varias estrategias para que se evalúen juntas y no por separado.
+![](assets/decision-code-based-strategy-groups.png)
+
+También puede **combinar** múltiples estrategias de selección en grupos para que se evalúen juntos y no por separado. Para ello, haga clic en el botón **`+`** de una estrategia de selección para combinarlo con otra. También puede arrastrar y soltar una estrategia de selección en otra para agrupar las dos estrategias en un grupo.
+
+>[!NOTE]
+>
+>Los elementos de decisión no se pueden agrupar con otros elementos o estrategias de selección.
 
 Varias estrategias y su agrupación determinan la prioridad de las estrategias y la clasificación de las ofertas aptas. La primera estrategia tiene la máxima prioridad y las estrategias combinadas dentro del mismo grupo tienen la misma prioridad.
 
@@ -159,6 +162,22 @@ Se evalúan las ofertas de Estrategia 3 (oferta 5, oferta 6). Digamos que el res
 Las ofertas clasificadas ahora son las siguientes: Oferta 5 , Oferta 3, Oferta 4, Oferta 2, Oferta 1, Oferta 6.
 
 +++
+
+### Añadir ofertas de reserva {#fallback}
+
+Una vez que haya seleccionado elementos de decisión o estrategias de selección, puede agregar ofertas de reserva que se mostrarán a los usuarios si no se clasifica ninguno de los elementos o estrategias de selección anteriores.
+
+![](assets/decision-code-based-strategy-fallback.png)
+
+Puede seleccionar cualquier elemento de la lista, que muestra todos los elementos de decisión creados en la zona protegida actual. Si no se califica ninguna estrategia de selección, la reserva se mostrará al usuario independientemente de las fechas y restricciones de elegibilidad aplicadas al elemento seleccionado<!--nor frequency capping when available - TO CLARIFY-->.
+
+>[!NOTE]
+>
+>Una alternativa es opcional. Si no se selecciona ninguna reserva y no se califica ninguna estrategia, [!DNL Journey Optimizer] no mostrará nada. Puede añadir hasta el número de elementos que solicita la política de decisión. Esto garantiza que se devuelva un determinado número de elementos si se desea para el caso de uso.
+
+Cuando la directiva de decisión esté lista, guárdela y haga clic en **[!UICONTROL Crear]**. Ahora que se ha creado la política de decisión, puede utilizar los atributos de decisión dentro del contenido de la experiencia basado en código. [Más información](#use-decision-policy)
+
+![](assets/decision-code-based-decision-added.png)
 
 ## Uso de la política de decisión en el editor de código {#use-decision-policy}
 
