@@ -12,10 +12,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1960'
+ht-degree: 10%
 
 ---
 
@@ -30,13 +30,15 @@ ht-degree: 0%
 >
 >Actualmente, los conjuntos de reglas solo están disponibles como una versión beta para los usuarios seleccionados. Póngase en contacto con el representante del Adobe para que se le incluya en el Beta.
 
-## ¿Qué son los conjuntos de reglas? {#what}
+## Introducción a los conjuntos de reglas {#gs}
+
+### ¿Qué son los conjuntos de reglas? {#what}
 
 Además de las reglas empresariales globales que restringen el número de veces que los usuarios reciben mensajes en uno o varios canales, los conjuntos de reglas permiten **agrupar varias reglas en conjuntos de reglas** y aplicarlas a las campañas que elija. Esto proporciona una granularidad mejorada para controlar la frecuencia con la que los usuarios recibirán un mensaje según el tipo de comunicación.
 
 Por ejemplo, puede crear un conjunto de reglas para limitar el número de **comunicaciones promocionales** enviadas a sus clientes y otro conjunto de reglas para limitar el número de **boletines** enviados a ellos. Según el tipo de campaña que esté creando, puede elegir aplicar la comunicación promocional o el conjunto de reglas de los boletines informativos.
 
-## Conjuntos de reglas globales y personalizadas {#global-custom}
+### Conjuntos de reglas globales y personalizadas {#global-custom}
 
 Al obtener acceso a los conjuntos de reglas por primera vez desde el menú **[!UICONTROL Administración]** > **[!UICONTROL Reglas de negocio (Beta)]**, se crea previamente y se activa un conjunto de reglas predeterminado: **Conjunto de reglas predeterminado global**.
 
@@ -50,9 +52,18 @@ Además de este conjunto de reglas predeterminado global, puede crear **conjunto
 >
 >Por ahora, los conjuntos de reglas personalizadas solo se pueden aplicar a **campañas**. Solo las reglas definidas en el conjunto de reglas &quot;Conjunto de reglas predeterminado global&quot; se aplican a las comunicaciones de recorridos y campañas.
 
+### Reglas de límite de canal y recorridos {#domain}
+
+Al crear un conjunto de reglas, debe especificar si las reglas dentro del conjunto de reglas aplicarán reglas de límite específicas a los canales de comunicación o a los recorridos.
+
+Para ello, seleccione un dominio de canal o Recorrido para el conjunto de reglas al crearlo. [Aprenda a crear un conjunto de reglas]
+
+* Dominio **Channel**: aplique reglas de límite para los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día.
+* Dominio **Recorrido**: aplique reglas de límite de entrada y concurrencia a un recorrido. Por ejemplo, no introduzca perfiles en más de un recorrido simultáneamente.
+
 ## Creación de su primer conjunto de reglas personalizadas {#create-rule-set}
 
-### Creación del conjunto de reglas {#create}
+### Cree el conjunto de reglas y seleccione su dominio {#create}
 
 Para crear un conjunto de reglas, siga los pasos a continuación.
 
@@ -64,13 +75,16 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 
    ![](assets/rule-sets-create-button.png)
 
-1. Defina el nombre del conjunto de reglas, agregue una descripción si lo desea y haga clic en **[!UICONTROL Guardar]**.
+1. Defina un nombre único para el conjunto de reglas y añada una descripción.
+
+1. Seleccione el dominio del conjunto de reglas. El dominio permite especificar si el conjunto de reglas contendrá reglas de límite específicas para los canales de comunicación o para los recorridos:
+
+   * **Canal**: aplique reglas de límite para los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día.
+   * **Recorrido**: aplique reglas de límite de entrada y concurrencia a un recorrido. Por ejemplo, no introduzca perfiles en más de un recorrido simultáneamente.
 
    ![](assets/rule-sets-create.png)
 
-   >[!NOTE]
-   >
-   >El nombre del conjunto de reglas debe ser único.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 1. Ahora puede [definir las reglas](#create-new-rule) que desee agregar a este conjunto de reglas.
 
@@ -96,13 +110,15 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 >title="Seleccione la categoría de regla de mensaje"
 >abstract="Cuando está activada y se aplica a un mensaje, todas las reglas de frecuencia que coincidan con la categoría seleccionada se aplican automáticamente a este mensaje. Actualmente, solo está disponible la categoría Marketing."
 
-Para agregar una regla a un conjunto de reglas, siga los pasos a continuación.
+Para agregar una regla a un conjunto de reglas, accede a él y haz clic en **[!UICONTROL Agregar regla]**.
 
-1. En el conjunto de reglas que acaba de crear, haga clic en **[!UICONTROL Agregar regla]**.
+Los parámetros disponibles para la regla dependen del dominio del conjunto de reglas seleccionado en su creación.
 
-   ![](assets/rule-sets-create-rule-button.png)
++++Configurar reglas de límite de canal (**Canal** dominio)
 
-1. Defina un **nombre de regla** único.
+![](assets/rule-set-channels.png)
+
+1. Defina un nombre único para la regla.
 
 1. El campo **Category** especifica la categoría del mensaje a la que se aplica la regla. Por ahora, este campo es de solo lectura ya que solo está disponible la categoría **[!UICONTROL Marketing]**.
 
@@ -130,8 +146,6 @@ Para agregar una regla a un conjunto de reglas, siga los pasos a continuación.
 
 1. Seleccione el canal que desee usar para esta regla: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push]** o **[!UICONTROL Correo directo]**.
 
-   ![](assets/rule-set-channels.png)
-
    >[!NOTE]
    >
    >Debe seleccionar al menos un canal para poder crear la regla.
@@ -139,6 +153,23 @@ Para agregar una regla a un conjunto de reglas, siga los pasos a continuación.
 1. Seleccione varios canales si desea aplicar un límite a todos los canales seleccionados como recuento total.
 
    Por ejemplo, establezca el límite en 5 y seleccione los canales de correo electrónico y SMS. Si un perfil ya ha recibido 3 correos electrónicos de marketing y 2 SMS de marketing para el periodo seleccionado, este perfil se excluirá de la siguiente entrega de cualquier correo electrónico o SMS de marketing.
+
++++
+
++++Configurar reglas de límite de recorrido (**Recorrido** dominio)
+
+![](assets/rule-set-journey.png)
+
+1. Proporcione un nombre único para la regla.
+
+1. En la lista desplegable **[!UICONTROL Tipo de regla]**, especifique el tipo de límite para la regla.
+
+   * **[!UICONTROL Límite de entrada de Recorrido]**: Limita el número de entradas en el recorrido durante un período determinado para un perfil.
+   * **[!UICONTROL Límite de concurrencia de Recorrido]**: Limita la cantidad de recorridos en los que se puede inscribir un perfil simultáneamente.
+
+1. Encontrará información detallada sobre cómo configurar las reglas de restricción de recorrido en la sección [restricción y arbitraje de Recorrido](../test-approve/journey-capping.md).
+
++++
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar la creación de la regla. Su mensaje se agrega al conjunto de reglas, con el estado **[!UICONTROL Borrador]**.
 
@@ -206,9 +237,11 @@ Users with the **[!UICONTROL View frequency rules]** permission are able to view
 
 Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
-## Aplicación de un conjunto de reglas a un mensaje {#apply-frequency-rule}
+## Aplicación de conjuntos de reglas a un mensaje o recorrido {#apply-frequency-rule}
 
-Para aplicar una regla de negocio a un mensaje, siga los pasos a continuación.
+Puede aplicar un conjunto de reglas a un mensaje o a un recorrido, según el dominio seleccionado al crear el conjunto de reglas. Expanda las secciones siguientes para obtener más información.
+
++++ Aplicación de un conjunto de reglas a un mensaje
 
 1. Al crear una [campaña](../campaigns/create-campaign.md), seleccione uno de los canales que definió para el conjunto de reglas y edite el contenido del mensaje.
 
@@ -266,3 +299,17 @@ In this scenario, an individual profile:
 * but will be excluded from marketing push notifications after they have received 4 push notifications.-->
 
 Al probar las reglas de frecuencia, se recomienda usar un [perfil de prueba](../audience/creating-test-profiles.md) recién creado, ya que una vez que se alcanza el límite de frecuencia de un perfil, no hay forma de restablecer el contador hasta el siguiente período. Al desactivar una regla, los perfiles con límite pueden recibir mensajes, pero no se elimina ni elimina ningún incremento de contador.
+
++++
+
++++ Aplicación de un conjunto de reglas a un recorrido
+
+Para aplicar una regla de límite a un recorrido, acceda al recorrido y abra sus propiedades. En el menú desplegable **[!UICONTROL Reglas de límite]**, seleccione el conjunto de reglas correspondiente.
+
+![](assets/journey-capping-apply.png)
+
+>[!IMPORTANT]
+>
+>Si un recorrido se activa inmediatamente, el sistema puede tardar hasta 15 minutos en empezar a suprimir clientes. Puede programar su recorrido para que comience al menos 15 minutos en el futuro para evitar esta posibilidad.
+
++++

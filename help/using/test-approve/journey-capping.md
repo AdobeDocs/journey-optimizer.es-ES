@@ -6,7 +6,7 @@ level: Beginner
 badge: label="Disponibilidad limitada"
 hide: true
 hidefromtoc: true
-source-git-commit: 9e7c70c45fc49946c18617c6a5b81383b73da248
+source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 2%
@@ -110,7 +110,7 @@ Para aplicar una regla de límite a un recorrido, acceda al recorrido y abra sus
 
 Una vez activado el recorrido, las reglas de límite definidas en el conjunto de reglas surtirán efecto.
 
-![](assets/journey-capping-apply.png)
+![](../test-approve/assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >
