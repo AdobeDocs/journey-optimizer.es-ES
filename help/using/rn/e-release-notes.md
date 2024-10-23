@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 826d9a26753dee7aae609344e0a72268658285c6
+source-git-commit: 4663cecda07bdccd1bd0651047d83e2f7e0512d8
 workflow-type: tm+mt
-source-wordcount: '1793'
-ht-degree: 43%
+source-wordcount: '1854'
+ht-degree: 40%
 
 ---
 
@@ -111,6 +111,26 @@ Este modo de edición no visual resulta útil si no puede instalar extensiones d
 <td>
 <p>Adobe Journey Optimizer, que ya estaba disponible en las campañas, ahora admite experimentos en los recorridos. Los experimentos son ensayos aleatorios, lo que en el contexto de las pruebas en línea significa que expone a algunos usuarios seleccionados aleatoriamente a una variación determinada de un mensaje y a otro conjunto de usuarios seleccionados aleatoriamente a otra variación o tratamiento. Después de la exposición, puede medir las métricas de resultado que le interesan, como aperturas de correos electrónicos, suscripciones o compras.</p>
 <p>Anteriormente disponible para un conjunto de organizaciones (LA), los experimentos en recorridos ya están disponibles para todos los usuarios (GA).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Toma de decisiones (disponibilidad general)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Decisioning, disponible anteriormente para un conjunto de organizaciones (LA) y conocida como Experience Decisioning, ya está disponible para todos los usuarios (GA). Simplifica la personalización ofreciendo un catálogo centralizado de ofertas de marketing conocidas como "elementos de decisión" y un motor de decisión sofisticado. Este motor aprovecha las reglas y los criterios de clasificación para seleccionar y presentar los elementos de decisión más relevantes a cada individuo. Estos elementos de decisión se integran perfectamente en una amplia gama de superficies entrantes a través del canal de experiencia basado en código.</p>
+
+<p>Por ahora, Decisioning no está disponible para los clientes que hayan adquirido las ofertas adicionales de Adobe Healthcare Shield y Privacy and Security Shield.</p>
+
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -245,11 +265,6 @@ Se han introducido mejoras en los SMS para mejorar sus funciones de mensajería:
 >[!AVAILABILITY]
 >
 >Las funciones de administración de conflictos y prioridades están disponibles en Disponibilidad limitada para un grupo selecto de clientes. Tenga en cuenta que estas funciones se implementarán gradualmente para más usuarios en el futuro. Póngase en contacto con el equipo de la cuenta si está interesado en que se le añada a la lista de espera de esta función.
-
-**Gestión de decisiones**
-
-* **Auditorías**: la pestaña **Registro de cambios** que le permite ver todos los cambios realizados en una oferta o que se ha eliminado una decisión. Los cambios relacionados con ofertas y decisiones ahora se pueden ver en el menú **Auditorías**.
-
 
 Configuración de ****
 
