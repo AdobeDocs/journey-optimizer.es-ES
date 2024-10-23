@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 0e8c9927f7516abf1927606fd8236b8506b54c96
+source-git-commit: 826d9a26753dee7aae609344e0a72268658285c6
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1793'
 ht-degree: 43%
 
 ---
@@ -273,6 +273,10 @@ Configuración de ****
    * Los eventos de reacción en Recorridos no se ven afectados por este cambio.
 
 * **Parámetros en acciones personalizadas** (Fecha de disponibilidad: 3 de octubre de 2024): ahora se admiten parámetros nulos y opcionales en las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+**Creación de informes**
+
+* Ya está disponible la creación de informes de **Experience Decisioning**, que ofrecen información esencial sobre cómo los visitantes interactúan con las experiencias.
 
 **Gobernanza de datos y políticas de consentimiento**: fecha de disponibilidad: 7 de octubre de 2024
 
