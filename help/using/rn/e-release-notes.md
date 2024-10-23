@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d953f4e411b6d73886c9cb1d6d47152a0480de36
+source-git-commit: 0e8c9927f7516abf1927606fd8236b8506b54c96
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 46%
+source-wordcount: '1775'
+ht-degree: 43%
 
 ---
 
@@ -120,14 +120,14 @@ Este modo de edición no visual resulta útil si no puede instalar extensiones d
 <table>
 <thead>
 <tr>
-<th><strong>Reglas de negocio (disponibilidad general)</strong><br/></th>
+<th><strong>Conjuntos de reglas (disponibilidad limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear reglas de límite de frecuencia granulares y aplicarlas a diferentes tipos de comunicaciones de marketing a través de conjuntos de reglas. Esta nueva funcionalidad le permite controlar la frecuencia con la que las audiencias reciben un mensaje configurando reglas en canales múltiples que excluyen automáticamente los perfiles saturados de los mensajes y las acciones.</p>
-<p>Los conjuntos de reglas, que antes estaban disponibles para un conjunto de organizaciones (LA), ahora lo están para todos los usuarios (GA).</p>
+<p>Ahora puede crear reglas de límite de frecuencia granulares y aplicarlas a sus mensajes o recorridos a través de conjuntos de reglas. Esta nueva funcionalidad le permite controlar la frecuencia con la que las audiencias reciben un mensaje configurando reglas en canales múltiples que excluyen automáticamente los perfiles saturados de los mensajes y las acciones.</p><p>También le permite limitar el número de recorridos por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.</p>
+<p> Los conjuntos de reglas están disponibles en Disponibilidad limitada para un grupo selecto de clientes. Tenga en cuenta que estas funciones se implementarán gradualmente para más usuarios en el futuro. Póngase en contacto con el equipo de la cuenta si está interesado en que se le añada a la lista de espera de esta función.</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -234,13 +234,17 @@ Se han introducido mejoras en los SMS para mejorar sus funciones de mensajería:
 * Puede definir y administrar palabras clave únicas para sus campañas y recorridos de SMS, lo que permite una comunicación más personalizada y eficaz.
 * Puede crear y enviar un mensaje SMS predeterminado cuando no se reconozca una palabra clave.
 
-**Administración de frecuencia y prioridad**
+**Administración de conflictos y prioridades**
 
-* **Límite de frecuencia por campaña o recorrido**: ahora puede crear reglas de frecuencia para aplicarlas a sus recorridos, lo que le permite limitar el número de recorridos por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.
+* **Límite de frecuencia por recorrido**: ahora puede crear conjuntos de reglas para aplicarlos a sus recorridos, lo que le permite limitar el número de recorridos por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.
 
 * **Puntuación de prioridad**: ahora puede asignar una puntuación de prioridad a una campaña o un recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. Cuando dos campañas o recorridos utilizan la misma configuración de canal, Journey Optimizer selecciona el que tenga la puntuación de prioridad más alta. Si las campañas tienen la misma puntuación, se elige la campaña modificada más recientemente. La puntuación de prioridad está disponible para todos los canales entrantes en las campañas y para el canal en la aplicación en los recorridos.
 
 * **Ver conflictos**: un nuevo botón **Ver conflictos** en recorridos y campañas ahora le permite comprobar si hay una posibilidad de superposición con otros recorridos o campañas, como la fecha de inicio, la audiencia de destino o la configuración de canal seleccionada.
+
+>[!AVAILABILITY]
+>
+>Las funciones de administración de conflictos y prioridades están disponibles en Disponibilidad limitada para un grupo selecto de clientes. Tenga en cuenta que estas funciones se implementarán gradualmente para más usuarios en el futuro. Póngase en contacto con el equipo de la cuenta si está interesado en que se le añada a la lista de espera de esta función.
 
 **Gestión de decisiones**
 
