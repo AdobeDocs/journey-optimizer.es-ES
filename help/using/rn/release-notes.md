@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
+source-git-commit: 7ae8a92be62f6b699a6b222ee5440540fbacffaa
 workflow-type: tm+mt
-source-wordcount: '3162'
-ht-degree: 54%
+source-wordcount: '3096'
+ht-degree: 56%
 
 ---
 
@@ -44,8 +44,8 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <tr>
 <td>
 <p>Journey Optimizer ahora permite bloquear contenido en plantillas de correo electrónico, ya sea bloqueando la plantilla completa o estructuras y componentes específicos. Esto le permite evitar ediciones o eliminaciones no intencionadas, lo que le proporciona un mayor control sobre la personalización de las plantillas y mejora la eficacia y fiabilidad de sus campañas de correo electrónico.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>-->
-<img src="assets/do-not-localize/ai-content.gif">
+<p>Para obtener más información, consulte la <a href="../content-management/content-locking.md">documentación detallada</a>.</p>
+<img src="assets/do-not-localize/gif-content-locking.gif">
 </td>
 </tr>
 </tbody>
@@ -138,10 +138,10 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <p>En Journey Optimizer, administrar el volumen y el tiempo de las campañas y los recorridos es esencial para evitar abrumar a los clientes con demasiadas interacciones. Journey Optimizer ahora ofrece varias herramientas para la administración de conflictos y la priorización.</p><p><ul><li><b>Límite de frecuencia de Recorrido</b>: Ahora puede crear conjuntos de reglas para aplicarlos a sus recorridos, lo que le permite limitar el número de recorridos para un perfil por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.</li>
 <li><b>Puntuación de prioridad</b>: ahora puede asignar una puntuación de prioridad a una campaña o a un recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. Cuando dos campañas o acciones de recorrido utilizan la misma configuración de canal, Journey Optimizer selecciona la que tiene la puntuación de prioridad más alta. Si las campañas tienen la misma puntuación, se elige la campaña que se haya modificado menos recientemente.</li>
 <li><b>Ver conflictos potenciales</b>: El nuevo botón "Ver conflictos potenciales" en recorridos y campañas ahora le permite identificar la superposición con otros recorridos o campañas, como la fecha de inicio, la audiencia de destino o la configuración del canal seleccionado.</li>
-<li><b>Arbitraje de Recorridos</b>: esta nueva funcionalidad le permite priorizar los recorridos más importantes para sus clientes. Puede crear una regla para suprimir la entrada en un recorrido de prioridad inferior cuando un cliente cumpla los requisitos para un próximo recorrido de prioridad superior.</li></ul></p>
+<li><b>Arbitraje de Recorridos</b>: esta nueva funcionalidad le permite priorizar los recorridos más importantes para sus clientes. Puede crear una regla para suprimir la entrada en un recorrido de prioridad inferior cuando un cliente cumpla los requisitos para un próximo recorrido de prioridad superior.</li>
+<li><b>Límite de frecuencia por tipo de comunicación: </b>Con los conjuntos de reglas, ahora puede establecer reglas granulares por tipo de comunicación (por ejemplo, Ventas, Promocional) para evitar sobrecargar a los clientes con mensajes similares. Puede controlar la frecuencia en varios canales, excluyendo automáticamente los perfiles saturados para garantizar una mejor experiencia del cliente.</li></ul>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 <p>Las funciones de administración de conflictos y prioridades están disponibles en Disponibilidad limitada para un grupo selecto de clientes. Tenga en cuenta que estas funciones se implementarán gradualmente para más usuarios en el futuro. Póngase en contacto con el equipo de la cuenta si está interesado en que se le añada a la lista de espera de estas funciones.</p>
-
 </td>
 </tr>
 </tbody>
@@ -191,34 +191,13 @@ Este modo de edición no visual resulta útil si no puede instalar extensiones d
 <tbody>
 <tr>
 <td>
-<p>Decisioning, disponible anteriormente para un conjunto de organizaciones (LA) y conocida como Experience Decisioning, ya está disponible para todos los usuarios (GA). Simplifica la personalización ofreciendo un catálogo centralizado de ofertas de marketing conocidas como "elementos de decisión" y un motor de decisión sofisticado. Este motor aprovecha las reglas y los criterios de clasificación para seleccionar y presentar los elementos de decisión más relevantes a cada individuo. Estos elementos de decisión se integran perfectamente en una amplia gama de superficies entrantes a través del canal de experiencia basado en código.</p>
+<p>Decisioning, disponible anteriormente para un conjunto de organizaciones (LA) y conocida como Experience Decisioning, ya está disponible para todos los usuarios (GA), incluidas las organizaciones que han adquirido las ofertas adicionales de Adobe Healthcare Shield o Privacy and Security Shield.</p><p>Decisioning simplifica la personalización al ofrecer un catálogo centralizado de ofertas de marketing conocidas como "elementos de decisión" y un motor de decisión sofisticado. Este motor aprovecha las reglas y los criterios de clasificación para seleccionar y presentar los elementos de decisión más relevantes a cada individuo. Estos elementos de decisión se integran perfectamente en una amplia gama de superficies entrantes a través del canal de experiencia basado en código.</p>
 
-<p>Por ahora, Decisioning no está disponible para los clientes que hayan adquirido las ofertas adicionales de Adobe Healthcare Shield y Privacy and Security Shield.</p>
-
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+<p>Para obtener más información, consulte la <a href="../experience-decisioning/gs-experience-decisioning.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Conjuntos de reglas (disponibilidad limitada)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede crear reglas de límite de frecuencia granulares y aplicarlas a sus mensajes o recorridos a través de conjuntos de reglas. Esta nueva funcionalidad le permite controlar la frecuencia con la que las audiencias reciben un mensaje configurando reglas en canales múltiples que excluyen automáticamente los perfiles saturados de los mensajes y las acciones.</p><p>También le permite limitar el número de recorridos por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.</p>
-<p>Los conjuntos de reglas están disponibles en Disponibilidad limitada para un grupo selecto de clientes. Tenga en cuenta que estas funciones se implementarán gradualmente para más usuarios en el futuro. Póngase en contacto con el equipo de la cuenta si está interesado en que se le añada a la lista de espera de esta función.</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
