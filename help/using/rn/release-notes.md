@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff18cda7556240b9770639edca42ea9321d00d7a
+source-git-commit: acc3d61b571f577187503157b78de1d27ce5e1ee
 workflow-type: tm+mt
 source-wordcount: '3066'
 ht-degree: 55%
@@ -44,8 +44,8 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <tr>
 <td>
 <p>Journey Optimizer ahora permite bloquear contenido en plantillas de correo electrónico, ya sea bloqueando la plantilla completa o estructuras y componentes específicos. Esto le permite evitar ediciones o eliminaciones no intencionadas, lo que le proporciona un mayor control sobre la personalización de las plantillas y mejora la eficacia y fiabilidad de sus campañas de correo electrónico.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>-->
+<img src="assets/do-not-localize/ai-content.gif">
 </td>
 </tr>
 </tbody>
