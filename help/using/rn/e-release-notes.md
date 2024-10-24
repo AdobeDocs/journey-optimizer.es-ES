@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: afe642177f690cdf873f838ec81044b7f8a7172e
+source-git-commit: 2f56a072f7ae6ee2dfa65597cf5597b63dacdbe3
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 39%
+source-wordcount: '1937'
+ht-degree: 38%
 
 ---
 
@@ -111,7 +111,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <tbody>
 <tr>
 <td>
-<p>En Journey Optimizer, administrar el volumen y el tiempo de las campañas y los recorridos es esencial para evitar abrumar a los clientes con demasiadas interacciones. Journey Optimizer ahora ofrece varias herramientas para la administración de conflictos y la priorización.</p><p><ul><li><b>Límite de frecuencia de Recorrido</b>: Ahora puede crear conjuntos de reglas para aplicarlos a sus recorridos, lo que le permite limitar el número de recorridos por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.</li>
+<p>En Journey Optimizer, administrar el volumen y el tiempo de las campañas y los recorridos es esencial para evitar abrumar a los clientes con demasiadas interacciones. Journey Optimizer ahora ofrece varias herramientas para la administración de conflictos y la priorización.</p><p><ul><li><b>Límite de frecuencia de Recorrido</b>: Ahora puede crear conjuntos de reglas para aplicarlos a sus recorridos, lo que le permite limitar el número de recorridos para un perfil por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.</li>
 <li><b>Puntuación de prioridad</b>: ahora puede asignar una puntuación de prioridad a una campaña o a un recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. Cuando dos campañas o acciones de recorrido utilizan la misma configuración de canal, Journey Optimizer selecciona la que tiene la puntuación de prioridad más alta. Si las campañas tienen la misma puntuación, se elige la campaña que se haya modificado menos recientemente.</li>
 <li><b>Ver conflictos potenciales</b>: El nuevo botón "Ver conflictos potenciales" en recorridos y campañas ahora le permite identificar la superposición con otros recorridos o campañas, como la fecha de inicio, la audiencia de destino o la configuración del canal seleccionado.</li>
 <li><b>Arbitraje de Recorridos</b>: esta nueva funcionalidad le permite priorizar los recorridos más importantes para sus clientes. Puede crear una regla para suprimir la entrada en un recorrido de prioridad inferior cuando un cliente cumpla los requisitos para un próximo recorrido de prioridad superior.</li></ul></p>
@@ -144,7 +144,7 @@ Este modo de edición no visual resulta útil si no puede instalar extensiones d
 <table>
 <thead>
 <tr>
-<th><strong>Experimentación en recorridos (disponibilidad general)</strong><br/></th>
+<th><strong>Experimentación de contenido en recorrido (disponibilidad general)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -295,11 +295,13 @@ Se han introducido mejoras en los SMS para mejorar sus funciones de mensajería:
 * Puede definir y administrar palabras clave únicas para sus campañas y recorridos de SMS, lo que permite una comunicación más personalizada y eficaz.
 * Puede crear y enviar un mensaje SMS predeterminado cuando no se reconozca una palabra clave.
 
-**Recorridos**
+<!--**Journeys**-->
 
-* **Experimento de rutas en recorridos**: con el experimento de rutas de recorridos, ahora puede definir y rastrear métricas clave para sus rutas de recorridos, lo que le permite medir el impacto de sus actividades y proporcionar una perspectiva más clara de su rendimiento.
+<!--* **Path experiment in journeys** - With the journey path experiment, you can now define and track key metrics for your journey paths, allowing you to measure the impact of your activities and to provide clearer insights into your performance. -->
 
-* **Número máximo de recorridos activos**: Journey Optimizer ahora tiene un mecanismo de protección de 500 recorridos activos en zonas protegidas de producción, en lugar de 100. El número de recorridos activos es visible en el lienzo de recorrido. <!-- DOCAC-10977-->
+&lt;!—* **Número máximo de recorridos activos**: Journey Optimizer ahora tiene una protección de 500 recorridos activos en zonas protegidas de producción, en lugar de 100. El número de recorridos activos es visible en el lienzo de recorrido. <!-- DOCAC-10977-->
+
+**Conjuntos de datos**
 
 * **Protección de tiempo de vida**: a partir del 1 de noviembre de 2024, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en las nuevas zonas protegidas y organizaciones de la siguiente manera:
 
