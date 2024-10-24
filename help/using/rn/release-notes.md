@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: acc3d61b571f577187503157b78de1d27ce5e1ee
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '3066'
-ht-degree: 55%
+source-wordcount: '3162'
+ht-degree: 54%
 
 ---
 
@@ -51,6 +51,25 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Personalización de la configuración de correo electrónico (disponibilidad general) </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Para obtener una mayor flexibilidad y control sobre la configuración de correo electrónico, puede definir subdominios dinámicos y parámetros de encabezado personalizados al crear configuraciones de canal de correo electrónico.
+</p>
+<p>Anteriormente disponible para un conjunto de organizaciones (LA), la personalización de la configuración de correo electrónico ya está disponible para todos los usuarios (GA).</p>
+<p>Para obtener más información, consulte la <a href="../email/surface-personalization.md">documentación detallada</a>.</p>
+<img src="assets/do-not-localize/surface-perso.gif"/>
+<p>Fecha de disponibilidad: 23 de octubre de 2024</p>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -342,7 +361,10 @@ Se han introducido mejoras en los SMS para mejorar sus funciones de mensajería:
 
 * El uso de públicos y atributos de cargas personalizadas (archivos CSV) no está disponible en la actualidad para su uso con el programa Healthcare Shield ni Privacy and Security Shield.
 
-**Canal basado en código**
+**Configuración** - Fecha de disponibilidad: 23 de octubre de 2024
+
+* Al utilizar una configuración personalizada en una campaña o un recorrido, ahora puede obtener una vista previa del contenido del correo electrónico para comprobar posibles errores con la configuración dinámica definida. [Más información](../email/surface-personalization.md#check-configuration)
+  **Canal basado en código**
 
 * Ya están disponibles las plantillas de contenido. Puede acelerar la creación de experiencias basadas en código a partir de una plantilla de contenido creada por los desarrolladores. El uso de una plantilla de contenido permite al experto en marketing modificar algunos valores o campos, en lugar de crear todo el HTML o la carga útil de contenido JSON.
 

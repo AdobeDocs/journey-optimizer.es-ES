@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 5%
+source-wordcount: '213'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 <!--## Preview your content {#preview-content}-->
 
-Una vez seleccionados los [perfiles de prueba](test-profiles.md), puede obtener una vista previa del contenido. Siga estos pasos:
+Una vez definidos los [perfiles de prueba](test-profiles.md), puede obtener una vista previa del contenido. Siga estos pasos:
 
 1. En la pantalla Editar contenido del mensaje o en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]**.
 
@@ -42,5 +42,7 @@ Una vez seleccionados los [perfiles de prueba](test-profiles.md), puede obtener 
 
 >[!NOTE]
 >
->Al crear experiencias basadas en código, puede obtener una vista previa del contenido personalizado directamente en el explorador o en los dispositivos móviles para una simulación en tiempo real. [Más información](../code-based/create-code-based.md#preview-on-device)
+>Si se encuentra un error en los detalles de configuración, haga clic en el botón **[!UICONTROL Ver detalles de configuración]**. [Más información](../email/surface-personalization.md#check-configuration)
+
+Al crear experiencias basadas en código, puede obtener una vista previa del contenido personalizado directamente en el explorador o en los dispositivos móviles para una simulación en tiempo real. [Más información](../code-based/create-code-based.md#preview-on-device)
 

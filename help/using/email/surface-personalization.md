@@ -10,20 +10,16 @@ level: Experienced
 keywords: configuración, correo electrónico, configuración, subdominio
 badge: label="Disponibilidad limitada"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 10%
+source-wordcount: '1057'
+ht-degree: 7%
 
 ---
 
 # Personalizar configuración de correo electrónico {#surface-personalization}
 
 Para obtener una mayor flexibilidad y control sobre la configuración del correo electrónico, [!DNL Journey Optimizer] le permite definir valores personalizados para subdominios y encabezados<!--and URL tracking parameters--> al crear configuraciones de correo electrónico.
-
->[!AVAILABILITY]
->
->Actualmente, la personalización de la configuración de correo electrónico solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 ## Añadir subdominios dinámicos {#dynamic-subdomains}
 
@@ -112,11 +108,17 @@ Para utilizar variables personalizadas para los parámetros de encabezado de la 
 
 1. Se abre [editor de personalización](../personalization/personalization-build-expressions.md). Defina la condición como desee y guarde los cambios.
 
-   Por ejemplo, configure una condición como que cada destinatario reciba un correo electrónico de su propio representante de marca.
+   <!--For example, set a condition such as each recipient receives an email from their own brand representative.-->
 
    >[!NOTE]
    >
    >Solo puede seleccionar **[!UICONTROL atributos de perfil]** y **[!UICONTROL funciones de ayuda]**.
+
+   Supongamos que desea gestionar de forma dinámica los correos electrónicos enviados en nombre de un asistente de ventas, donde el asistente de ventas se recupera de un evento o de parámetros contextuales de campaña. Por ejemplo:
+
+   * En un [recorrido](../building-journeys/journey-gs.md), cuando un evento de compra está vinculado al asistente de ventas de una tienda específica, el encabezado de correo electrónico (nombre del remitente, correo electrónico del remitente, dirección de respuesta) se puede personalizar con los parámetros del asistente de ventas, tomados de los atributos de evento.
+
+   * En una [campaña activada por API](../campaigns/api-triggered-campaigns.md), iniciada externamente por un asistente de ventas, el correo electrónico activado se puede enviar en nombre del asistente de ventas y los valores de personalización del encabezado se toman de los parámetros contextuales de la campaña.
 
 1. Repita los pasos anteriores para cada parámetro al que desee agregar personalización.
 
@@ -138,7 +140,7 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 ## Ver detalles de configuración {#view-surface-details}
 
-Al utilizar una configuración con ajustes personalizados en una campaña o una configuración, puede mostrar los detalles de configuración directamente en la campaña o configuración. Siga los pasos a continuación.
+Al utilizar una configuración con configuración personalizada en una campaña o un recorrido, puede mostrar los detalles de configuración directamente en la campaña o el recorrido. Siga los pasos a continuación.
 
 1. Crear un correo electrónico [campaña](../campaigns/create-campaign.md) o [recorrido](../building-journeys/journey-gs.md).
 
@@ -157,3 +159,33 @@ Al utilizar una configuración con ajustes personalizados en una campaña o una 
 1. Seleccione **[!UICONTROL Expand]** para mostrar los detalles de los subdominios dinámicos.
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
+
+## Compruebe la configuración {#check-configuration}
+
+Al utilizar una configuración personalizada en una campaña o un recorrido, puede obtener una vista previa del contenido del correo electrónico para comprobar posibles errores con la configuración dinámica definida. Siga los pasos a continuación.
+
+1. En la pantalla Editar contenido del mensaje o en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]**. [Más información](../content-management/preview.md)
+
+1. Seleccione un [perfil de prueba](../content-management/test-profiles.md).
+
+1. Si se muestra un error, haga clic en el botón **[!UICONTROL Ver detalles de configuración]**.
+
+   ![](assets/campaign-simulate-config-error.png)
+
+1. Consulte la pantalla **[!UICONTROL Configuración de envío]** para ver los detalles del error.
+
+   ![](assets/campaign-simulate-config-details.png)
+
+Los posibles errores pueden ser los siguientes:
+
+* El **subdominio** no se resolvió para el perfil de prueba seleccionado. Por ejemplo, la configuración utiliza varios subdominios de envío correspondientes a diferentes países, pero el perfil seleccionado no tiene un valor definido para el atributo `Country` o el atributo está establecido en `France`, pero este valor no está asociado a ningún subdominio de esa configuración.
+
+* El perfil seleccionado no tiene valores asociados para uno o más **parámetros de encabezado**.
+
+Con cualquiera de estos errores, no se envía un correo electrónico al perfil de prueba seleccionado.
+
+Para evitar este tipo de error, asegúrese de que los parámetros de encabezado definidos utilizan atributos personalizados con valores para la mayoría de los perfiles. Los valores que faltan pueden afectar a la entrega de correo electrónico.
+
+>[!NOTE]
+>
+>Obtenga más información sobre la capacidad de entrega en [esta sección](../reports/deliverability.md)
