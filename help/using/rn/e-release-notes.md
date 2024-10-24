@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: af3ed02a1af6c0fea3078bdfca6f568356c06eb4
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
-source-wordcount: '1853'
-ht-degree: 41%
+source-wordcount: '1897'
+ht-degree: 40%
 
 ---
 
@@ -75,7 +75,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede definir subdominios dinámicos y parámetros de encabezado personalizados al crear configuraciones de canal de correo electrónico para disponer de mayor flexibilidad y control sobre la configuración del correo electrónico.</p>
+<p>Ahora puede definir subdominios dinámicos y parámetros de encabezado personalizados al crear configuraciones de canal de correo electrónico para disponer de mayor flexibilidad y control sobre la configuración del correo electrónico.</p><p>El uso de una configuración personalizada en una campaña o un recorrido le permite previsualizar el contenido del correo electrónico para comprobar posibles errores con la configuración dinámica definida.</p>
 <p>Anteriormente disponible para un conjunto de organizaciones (LA), la personalización de la configuración de correo electrónico ya está disponible para todos los usuarios (GA).</p>
 <p>Para obtener más información, consulte la <a href="../email/surface-personalization.md">documentación detallada</a>.</p>
 </td>
@@ -277,10 +277,6 @@ Se han introducido mejoras en los SMS para mejorar sus funciones de mensajería:
 * Puede definir y administrar palabras clave únicas para sus campañas y recorridos de SMS, lo que permite una comunicación más personalizada y eficaz.
 * Puede crear y enviar un mensaje SMS predeterminado cuando no se reconozca una palabra clave.
 
-Configuración de ****
-
-* **Personalización de la configuración del canal**: al usar una configuración personalizada en una campaña o un recorrido, ahora puede obtener una vista previa del contenido del correo electrónico para comprobar posibles errores con la configuración dinámica que definió.
-
 **Recorridos**
 
 * **Experimento de rutas en recorridos**: con el experimento de rutas de recorridos, ahora puede definir y rastrear métricas clave para sus rutas de recorridos, lo que le permite medir el impacto de sus actividades y proporcionar una perspectiva más clara de su rendimiento.
@@ -317,3 +313,10 @@ Configuración de ****
 * Al segmentar el público de un archivo CSV, ahora puede utilizar atributos del archivo en el editor de personalización y en el generador de reglas de recorridos y campañas. [Más información](../audience/about-audiences.md)
 
 * El uso de públicos y atributos de cargas personalizadas (archivos CSV) no está disponible en la actualidad para su uso con el programa Healthcare Shield ni Privacy and Security Shield.
+
+**Canal basado en código**
+
+* Ya están disponibles las plantillas de contenido. Puede acelerar la creación de experiencias basadas en código a partir de una plantilla de contenido creada por los desarrolladores. El uso de una plantilla de contenido permite al experto en marketing modificar algunos valores o campos, en lugar de crear todo el HTML o la carga útil de contenido JSON.
+
+
+
