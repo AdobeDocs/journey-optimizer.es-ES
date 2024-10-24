@@ -7,10 +7,10 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 0%
 
 ---
 
@@ -82,6 +82,12 @@ Mejore la personalización del lienzo con las siguientes opciones:
 * Ajuste el **[!UICONTROL valor de porcentaje]** para determinar la distribución del flujo entre las diferentes rutas de recorrido.
 * Personaliza tu **[!UICONTROL configuración de flechas]** para incluir etiquetas, condiciones u optar por una pantalla limpia.
 * Habilite la opción **[!UICONTROL Mostrar visitas en el orden previsto]** para visualizar los perfiles que salieron del recorrido directamente en el lienzo.
+
+Al usar el filtrado **[!UICONTROL Tipo de nodo]**, se aplican las siguientes reglas:
+
+* Al crear un segmento en un nodo, seguirá incluyendo nodos de etapas anteriores del recorrido, incluso si esos nodos se han excluido a través del filtro **[!UICONTROL Node type]**.
+
+* No se pueden crear segmentos formados a partir de una flecha si los nodos de etapas anteriores del recorrido se han excluido mediante el filtro **[!UICONTROL Node type]**. En este caso, la funcionalidad del botón derecho se desactiva en esas flechas.
 
 ## Rendimiento de las acciones {#action-performance}
 
