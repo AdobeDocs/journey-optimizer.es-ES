@@ -1,15 +1,15 @@
 ---
-title: Identificación de posibles conflictos en recorridos y campañas
+title: Identificar posibles conflictos en recorridos y campañas
 description: Aprenda a identificar conflictos potenciales en recorridos y campañas.
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 3%
+source-wordcount: '699'
+ht-degree: 5%
 
 ---
 
@@ -40,6 +40,8 @@ Las áreas clave para monitorizar la posible superposición son las siguientes:
 * **Canal**: ¿Hay otras comunicaciones programadas para el mismo periodo de tiempo y, si es así, cuántas?
 * **Conjunto de reglas de límite**: ¿Qué tipos de recorridos limito y hay superposición dentro de ellos?
 * **Configuración del canal**: ¿Hay otros recorridos o campañas que usan alguna configuración de canal que se esté usando en el mismo recorrido o campaña y que podrían impedir que el recorrido o la campaña se muestre al usuario final?
+
+➡️ [Descubra esta función en vídeo](#video)
 
 ## Cómo detecta Journey Optimizer los conflictos {#detection}
 
@@ -86,3 +88,7 @@ A continuación se ofrecen algunas sugerencias para reducir los conflictos poten
 * Establezca **prioridades** en las acciones entrantes para asegurarse de que se muestre la acción más importante a los clientes.
 
 Al aprovechar estas capacidades, puede asegurarse de que los esfuerzos de marketing estén alineados y de que mantiene el equilibrio adecuado en su estrategia de comunicaciones.
+
+## Vídeo explicativo {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435528?quality=12)

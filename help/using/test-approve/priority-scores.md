@@ -6,10 +6,10 @@ level: Beginner
 badge: label="Disponibilidad limitada"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 6%
+source-wordcount: '321'
+ht-degree: 9%
 
 ---
 
@@ -37,6 +37,8 @@ Journey Optimizer le permite asignar una puntuación de prioridad a un recorrido
 >
 >La puntuación de prioridad está disponible para canales entrantes: canales web, en la aplicación y basados en código. En recorrido, la puntuación de prioridad solo está disponible para los canales **en la aplicación** y **basados en código**.
 
+➡️ [Descubra esta función en vídeo](#video)
+
 Asignar una puntuación de prioridad es crucial para la comunicación entrante, como web, móvil y en la aplicación. Si tiene varias campañas con la misma configuración de canal (por ejemplo, un banner en la parte superior de la página web), esto podría resultar problemático, ya que solo se puede mostrar contenido de una campaña de forma factible. La puntuación de prioridad es donde insertará su preferencia para la campaña que debe mostrarse cuando el destinatario pueda cumplir los requisitos para más de una campaña.
 
 Para asignar una puntuación de prioridad a un recorrido o campaña, escriba un valor numérico (de 0 a 100) en el campo **[!UICONTROL Puntuación de prioridad]** ubicado en las propiedades de recorrido o campaña. Tenga en cuenta que, cuanto mayor sea el número, mayor será la prioridad. Si fuera el autor de esta campaña y quisiera asegurarse de que se muestra su contenido, le daría una puntuación de 100.
@@ -44,3 +46,7 @@ Para asignar una puntuación de prioridad a un recorrido o campaña, escriba un 
 ![](assets/priority-score.png)
 
 En situaciones en las que dos campañas tienen la misma puntuación de prioridad, se muestra la campaña que se activó primero.
+
+## Vídeo explicativo {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

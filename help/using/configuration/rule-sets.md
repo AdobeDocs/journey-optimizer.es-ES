@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: d458cf01c9d14682deb080083ab8bb468b3b4fd7
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1968'
 ht-degree: 10%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 10%
 Además de las reglas empresariales globales que restringen el número de veces que los usuarios reciben mensajes en uno o varios canales, los conjuntos de reglas permiten **agrupar varias reglas en conjuntos de reglas** y aplicarlas a las campañas que elija. Esto proporciona una granularidad mejorada para controlar la frecuencia con la que los usuarios recibirán un mensaje según el tipo de comunicación.
 
 Por ejemplo, puede crear un conjunto de reglas para limitar el número de **comunicaciones promocionales** enviadas a sus clientes y otro conjunto de reglas para limitar el número de **boletines** enviados a ellos. Según el tipo de campaña que esté creando, puede elegir aplicar la comunicación promocional o el conjunto de reglas de los boletines informativos.
+
+➡️ [Descubra esta función en vídeo](#video)
 
 ### Conjuntos de reglas globales y personalizadas {#global-custom}
 
@@ -313,3 +315,7 @@ Para aplicar una regla de límite a un recorrido, acceda al recorrido y abra sus
 >Si un recorrido se activa inmediatamente, el sistema puede tardar hasta 15 minutos en empezar a suprimir clientes. Puede programar su recorrido para que comience al menos 15 minutos en el futuro para evitar esta posibilidad.
 
 +++
+
+## Vídeo explicativo {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -6,10 +6,10 @@ level: Beginner
 badge: label="Disponibilidad limitada"
 hide: true
 hidefromtoc: true
-source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -37,6 +37,8 @@ La restricción de recorrido le ayuda a limitar el número de recorridos en los 
 * **Límite de concurrencia** limita la cantidad de recorridos en los que se puede inscribir un perfil simultáneamente.
 
 Ambos tipos de límite de recorrido aprovechan las puntuaciones de prioridad para arbitrar entradas.
+
+➡️ [Descubra esta función en vídeo](#video)
 
 ## Creación de una regla de límite de recorrido {#create-rule}
 
@@ -115,3 +117,7 @@ Una vez activado el recorrido, las reglas de límite definidas en el conjunto de
 >[!IMPORTANT]
 >
 >Si un recorrido se activa inmediatamente, el sistema puede tardar hasta 15 minutos en empezar a suprimir clientes. Puede programar su recorrido para que comience al menos 15 minutos en el futuro para evitar esta posibilidad.
+
+## Vídeo explicativo {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
