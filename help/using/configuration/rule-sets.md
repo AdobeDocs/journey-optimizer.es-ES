@@ -12,7 +12,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
+source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
 workflow-type: tm+mt
 source-wordcount: '1968'
 ht-degree: 10%
@@ -56,9 +56,7 @@ Además de este conjunto de reglas predeterminado global, puede crear **conjunto
 
 ### Reglas de límite de canal y recorridos {#domain}
 
-Al crear un conjunto de reglas, debe especificar si las reglas dentro del conjunto de reglas aplicarán reglas de límite específicas a los canales de comunicación o a los recorridos.
-
-Para ello, seleccione un dominio de canal o Recorrido para el conjunto de reglas al crearlo. [Aprenda a crear un conjunto de reglas]
+Al crear un conjunto de reglas, debe especificar si las reglas dentro del conjunto de reglas aplicarán reglas de límite específicas a los canales de comunicación o a los recorridos.  Para ello, seleccione un Canal o un dominio de Recorrido para el conjunto de reglas al crearlo. [Aprenda a crear un conjunto de reglas](#create)
 
 * Dominio **Channel**: aplique reglas de límite para los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día.
 * Dominio **Recorrido**: aplique reglas de límite de entrada y concurrencia a un recorrido. Por ejemplo, no introduzca perfiles en más de un recorrido simultáneamente.
