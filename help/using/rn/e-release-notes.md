@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2f56a072f7ae6ee2dfa65597cf5597b63dacdbe3
+source-git-commit: 08754b850f26c95f3c09ab5277e4f2ea156d2da7
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1942'
 ht-degree: 38%
 
 ---
@@ -206,7 +206,7 @@ Este modo de edición no visual resulta útil si no puede instalar extensiones d
 <tr>
 <td>
 <p>Ahora puede crear contenido sin esfuerzo en varios idiomas dentro de una sola campaña o recorrido. Con esta función, puede cambiar entre idiomas al editar su campaña o su recorrido, lo que optimiza todo el proceso de edición y mejora su capacidad para administrar de forma eficaz el contenido multilingüe.</p>
-<p>Anteriormente disponibles para un conjunto de organizaciones (LA), los mensajes multilingües ya están disponibles para todos los usuarios (GA).</p>
+<p>Con una disponibilidad general, ahora se puede acceder al contenido multilingüe en todos los canales. </p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -293,7 +293,10 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 Se han introducido mejoras en los SMS para mejorar sus funciones de mensajería:
 
 * Puede definir y administrar palabras clave únicas para sus campañas y recorridos de SMS, lo que permite una comunicación más personalizada y eficaz.
+
 * Puede crear y enviar un mensaje SMS predeterminado cuando no se reconozca una palabra clave.
+
+* Ahora puede editar o eliminar una configuración de canal de API de SMS.
 
 <!--**Journeys**-->
 
