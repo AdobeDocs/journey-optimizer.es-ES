@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 08754b850f26c95f3c09ab5277e4f2ea156d2da7
+source-git-commit: 92ecd1261e6c734743c4ab5173969da6e54cd15a
 workflow-type: tm+mt
-source-wordcount: '1942'
-ht-degree: 38%
+source-wordcount: '1990'
+ht-degree: 37%
 
 ---
 
@@ -341,5 +341,6 @@ Se han introducido mejoras en los SMS para mejorar sus funciones de mensajería:
 
 * Ya están disponibles las plantillas de contenido. Puede acelerar la creación de experiencias basadas en código a partir de una plantilla de contenido creada por los desarrolladores. El uso de una plantilla de contenido permite al experto en marketing modificar algunos valores o campos, en lugar de crear todo el HTML o la carga útil de contenido JSON.
 
+**Toma de decisiones**
 
-
+Los usuarios de [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es) ahora pueden elegir modelos personalizados para optimizarlos al configurar un modelo de IA en Decisioning (anteriormente conocido como Experience Decisioning). Esto le permite, por ejemplo, optimizar en una tabla &quot;compras&quot; personalizada en lugar de restricciones definidas como la tasa de clics.&quot;
