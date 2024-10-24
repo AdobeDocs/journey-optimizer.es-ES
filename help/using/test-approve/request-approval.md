@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo solicitar la aprobación antes de 
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: ade30d6b33467ad05146ddee3ea1c1a4115d38b2
+source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,11 @@ El acceso al flujo de trabajo de aprobación viene determinado por el caso de us
 
 * **Existen directivas de aprobación activas**
 
-   * **Campañas**: Si existen una o más políticas de aprobación activas para el objeto de campaña en una zona protegida, todas las campañas de dicha zona protegida mostrarán el botón **[!UICONTROL Solicitar aprobación]**. Esto significa que las campañas no se pueden activar directamente sin aprobación.
+   * **Campañas**: Si existen una o más políticas de aprobación activas para el objeto de campaña en una zona protegida, todas las campañas de dicha zona protegida mostrarán el botón **[!UICONTROL Solicitar aprobación]**.
+Si no se aplica ninguna directiva de aprobación al objeto seleccionado cuando se hace clic en el botón **[!UICONTROL Solicitar aprobación]**, se activará el flujo de trabajo de aprobación automática.
 
-   * **Recorridos**: si existen una o más directivas de aprobación activas para el objeto de Recorrido en una zona protegida, todos los recorridos mostrarán el botón **[!UICONTROL Solicitar aprobación]**. Al igual que las campañas, los recorridos no se pueden publicar directamente si hay una directiva de aprobación activa.
+   * **Recorridos**: si existen una o más directivas de aprobación activas para el objeto de Recorrido en una zona protegida, todos los recorridos mostrarán el botón **[!UICONTROL Solicitar aprobación]**.
+Si no se aplica ninguna directiva de aprobación al objeto seleccionado cuando se hace clic en el botón **[!UICONTROL Solicitar aprobación]**, se activará el flujo de trabajo de aprobación automática.
 
 ## Enviar solicitud de aprobación
 
