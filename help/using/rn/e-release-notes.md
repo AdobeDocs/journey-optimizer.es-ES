@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f2282fc4d0bbe67a945c43a191648e28b6b60c00
+source-git-commit: af3ed02a1af6c0fea3078bdfca6f568356c06eb4
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 40%
+source-wordcount: '1853'
+ht-degree: 41%
 
 ---
 
@@ -83,6 +83,29 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Administración de conflictos y prioridades (disponibilidad limitada)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>En Journey Optimizer, administrar el volumen y el tiempo de las campañas y los recorridos es esencial para evitar abrumar a los clientes con demasiadas interacciones. Journey Optimizer ahora ofrece varias herramientas para la administración de conflictos y la priorización.</p><p><ul><li><b>Límite de frecuencia de Recorrido</b>: Ahora puede crear conjuntos de reglas para aplicarlos a sus recorridos, lo que le permite limitar el número de recorridos por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.</li>
+<li><b>Puntuación de prioridad</b>: ahora puede asignar una puntuación de prioridad a una campaña o a un recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. Cuando dos campañas o acciones de recorrido utilizan la misma configuración de canal, Journey Optimizer selecciona la que tiene la puntuación de prioridad más alta. Si las campañas tienen la misma puntuación, se elige la campaña que se haya modificado menos recientemente.</li>
+<li><b>Ver conflictos potenciales</b>: El nuevo botón "Ver conflictos potenciales" en recorridos y campañas ahora le permite identificar la superposición con otros recorridos o campañas, como la fecha de inicio, la audiencia de destino o la configuración del canal seleccionado.</li>
+<li><b>Arbitraje de Recorridos</b>: esta nueva funcionalidad le permite priorizar los recorridos más importantes para sus clientes. Puede crear una regla para suprimir la entrada en un recorrido de prioridad inferior cuando un cliente cumpla los requisitos para un próximo recorrido de prioridad superior.</li></ul></p>
+<!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
+<p>Las funciones de administración de conflictos y prioridades están disponibles en Disponibilidad limitada para un grupo selecto de clientes. Tenga en cuenta que estas funciones se implementarán gradualmente para más usuarios en el futuro. Póngase en contacto con el equipo de la cuenta si está interesado en que se le añada a la lista de espera de estas funciones.</p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+
 <table>
 <thead>
 <tr>
@@ -147,7 +170,7 @@ Este modo de edición no visual resulta útil si no puede instalar extensiones d
 <tr>
 <td>
 <p>Ahora puede crear reglas de límite de frecuencia granulares y aplicarlas a sus mensajes o recorridos a través de conjuntos de reglas. Esta nueva funcionalidad le permite controlar la frecuencia con la que las audiencias reciben un mensaje configurando reglas en canales múltiples que excluyen automáticamente los perfiles saturados de los mensajes y las acciones.</p><p>También le permite limitar el número de recorridos por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.</p>
-<p> Los conjuntos de reglas están disponibles en Disponibilidad limitada para un grupo selecto de clientes. Tenga en cuenta que estas funciones se implementarán gradualmente para más usuarios en el futuro. Póngase en contacto con el equipo de la cuenta si está interesado en que se le añada a la lista de espera de esta función.</p>
+<p>Los conjuntos de reglas están disponibles en Disponibilidad limitada para un grupo selecto de clientes. Tenga en cuenta que estas funciones se implementarán gradualmente para más usuarios en el futuro. Póngase en contacto con el equipo de la cuenta si está interesado en que se le añada a la lista de espera de esta función.</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -254,18 +277,6 @@ Se han introducido mejoras en los SMS para mejorar sus funciones de mensajería:
 * Puede definir y administrar palabras clave únicas para sus campañas y recorridos de SMS, lo que permite una comunicación más personalizada y eficaz.
 * Puede crear y enviar un mensaje SMS predeterminado cuando no se reconozca una palabra clave.
 
-**Administración de conflictos y prioridades**
-
-* **Límite de frecuencia por recorrido**: ahora puede crear conjuntos de reglas para aplicarlos a sus recorridos, lo que le permite limitar el número de recorridos por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.
-
-* **Puntuación de prioridad**: ahora puede asignar una puntuación de prioridad a una campaña o un recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. Cuando dos campañas o recorridos utilizan la misma configuración de canal, Journey Optimizer selecciona el que tenga la puntuación de prioridad más alta. Si las campañas tienen la misma puntuación, se elige la campaña modificada más recientemente. La puntuación de prioridad está disponible para todos los canales entrantes en las campañas y para el canal en la aplicación en los recorridos.
-
-* **Ver conflictos**: un nuevo botón **Ver conflictos** en recorridos y campañas ahora le permite comprobar si hay una posibilidad de superposición con otros recorridos o campañas, como la fecha de inicio, la audiencia de destino o la configuración de canal seleccionada.
-
->[!AVAILABILITY]
->
->Las funciones de administración de conflictos y prioridades están disponibles en Disponibilidad limitada para un grupo selecto de clientes. Tenga en cuenta que estas funciones se implementarán gradualmente para más usuarios en el futuro. Póngase en contacto con el equipo de la cuenta si está interesado en que se le añada a la lista de espera de esta función.
-
 Configuración de ****
 
 * **Personalización de la configuración del canal**: al usar una configuración personalizada en una campaña o un recorrido, ahora puede obtener una vista previa del contenido del correo electrónico para comprobar posibles errores con la configuración dinámica que definió.
@@ -276,16 +287,14 @@ Configuración de ****
 
 * **Número máximo de recorridos activos**: Journey Optimizer ahora tiene un mecanismo de protección de 500 recorridos activos en zonas protegidas de producción, en lugar de 100. El número de recorridos activos es visible en el lienzo de recorrido. <!-- DOCAC-10977-->
 
-* **Protección de tiempo de vida**: a partir del 1 de noviembre de 2024, se aplicará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer de la siguiente manera:
+* **Protección de tiempo de vida**: a partir del 1 de noviembre de 2024, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en las nuevas zonas protegidas y organizaciones de la siguiente manera:
 
-   * 90 días para datos en el almacén de perfiles
-   * 13 meses para los datos del lago de datos
+   * 90 días para los datos en el almacén de perfiles
+   * 13 meses para los datos en el lago de datos
 
-  Además, en ese momento, la segmentación de streaming ya no admitirá el uso de eventos de envío y comentarios de conjuntos de datos de seguimiento y comentarios. Hemos recomendado no utilizar esos eventos para la segmentación de streaming durante un tiempo y ahora los deshabilitaremos por completo.
+  Este cambio se implementará en las zonas protegidas de clientes existentes posteriormente en una segunda fase.
 
-   * Este cambio solo restringe el uso de eventos de envío/apertura en la segmentación de flujo continuo; los eventos de clic se pueden seguir utilizando en un segmento de flujo continuo. Además, los eventos de envío/apertura se pueden seguir utilizando en un segmento por lotes.
-   * Los datos de seguimiento se seguirán recopilando. Este cambio no afecta al seguimiento. Todavía puede rastrear a quién se envió un correo electrónico y quién hizo clic en un correo electrónico.
-   * Los eventos de reacción en Recorridos no se ven afectados por este cambio.
+  Además, a partir del 1 de noviembre, la segmentación de streaming ya no admitirá el uso de eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios. Este cambio se aplicará a todas las zonas protegidas y organizaciones del cliente en ese momento. [Más información](../data/datasets-ttl.md)
 
 * **Parámetros en acciones personalizadas** (Fecha de disponibilidad: 3 de octubre de 2024): ahora se admiten parámetros nulos y opcionales en las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
@@ -308,7 +317,3 @@ Configuración de ****
 * Al segmentar el público de un archivo CSV, ahora puede utilizar atributos del archivo en el editor de personalización y en el generador de reglas de recorridos y campañas. [Más información](../audience/about-audiences.md)
 
 * El uso de públicos y atributos de cargas personalizadas (archivos CSV) no está disponible en la actualidad para su uso con el programa Healthcare Shield ni Privacy and Security Shield.
-
-**Canal basado en código**
-
-Al editar una campaña de experiencia basada en código, las plantillas disponibles para elegir ahora están enfocadas al HTML o JSON en función de la configuración de canal que se haya elegido previamente.
