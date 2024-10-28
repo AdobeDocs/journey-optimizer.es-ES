@@ -8,9 +8,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '848'
 ht-degree: 95%
 
 ---
@@ -37,7 +37,7 @@ De forma predeterminada, solo se muestran los conjuntos de datos que ha introduc
 
 >[!NOTE]
 >
->A partir del 1 de noviembre de 2024, se aplicará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer. Además, en ese momento, la segmentación de streaming ya no admitirá el uso de eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios. [Más información](datasets-ttl.md)
+>A partir del 1 de noviembre de 2024, la segmentación de streaming dejará de admitir el uso de eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios de Journey Optimizer. Además, a partir de febrero de 2025, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer. [Más información](datasets-ttl.md)
 
 Seleccione el nombre de un conjunto de datos para acceder a su pantalla de actividad de conjunto de datos y ver los detalles del conjunto de datos seleccionado. La pestaña actividad incluye un gráfico que visualiza la tasa de consumo de los mensajes, así como una lista de lotes correctos y fallidos.
 

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7ae8a92be62f6b699a6b222ee5440540fbacffaa
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '3096'
-ht-degree: 56%
+source-wordcount: '3101'
+ht-degree: 55%
 
 ---
 
@@ -309,14 +309,14 @@ Se han introducido mejoras en los SMS para mejorar sus funciones de mensajería:
 
 **Conjuntos de datos**
 
-* **Protección de tiempo de vida**: a partir del 1 de noviembre de 2024, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en las nuevas zonas protegidas y organizaciones de la siguiente manera:
+* **Enviar y abrir eventos**: a partir del 1 de noviembre de 2024, la segmentación de transmisión ya no admitirá el uso de eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios de Journey Optimizer. Este cambio se aplicará a todas las zonas protegidas y organizaciones de clientes. [Más información](../data/datasets-ttl.md#segmentation-update)
+
+* **Tiempo de vida del conjunto de datos (TTL)**: a partir de febrero de 2025, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en los nuevos entornos limitados y organizaciones de la siguiente manera:
 
    * 90 días para los datos en el almacén de perfiles
    * 13 meses para los datos en el lago de datos
 
-  Este cambio se implementará en las zonas protegidas de clientes existentes posteriormente en una segunda fase.
-
-  Además, a partir del 1 de noviembre, la segmentación de streaming ya no admitirá el uso de eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios. Este cambio se aplicará a todas las zonas protegidas y organizaciones del cliente en ese momento. [Más información](../data/datasets-ttl.md)
+  Este cambio se implementará en las zonas protegidas de clientes existentes en una fase posterior. [Más información](../data/datasets-ttl.md#ttl)
 
 * **Parámetros en acciones personalizadas** (Fecha de disponibilidad: 3 de octubre de 2024): ahora se admiten parámetros nulos y opcionales en las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
