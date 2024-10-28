@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
+source-git-commit: b6705059782a872939fa51fd51d335b1386a3e91
 workflow-type: tm+mt
 source-wordcount: '2152'
 ht-degree: 94%
@@ -195,7 +195,7 @@ ht-degree: 94%
       + [Creación y administración de políticas de aprobación](using/test-approve/approval-policies.md)
       + [Solicitud de aprobación](using/test-approve/request-approval.md)
       + [Aprobación de una solicitud](using/test-approve/review-approve-request.md)
-+ Canales de comunicación {#communication-channels}
++ Canales de comunicación {#channels}
    + [Introducción a los canales de comunicación](using/channels/gs-channels.md)
    + Canal de correo electrónico {#email}
       + [Empezar con correos electrónicos](using/email/get-started-email.md)
