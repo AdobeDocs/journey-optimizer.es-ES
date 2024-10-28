@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 59a597a563074fa4daa74c64e97f6bb5c0f6834d
+source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Los eventos mostrados se han producido en las últimas 24 horas, con un interval
 
 Para su recorrido en directo, tiene acceso a:
 
-* **[!UICONTROL Perfiles ingresados]**: Cantidad total de individuos que ingresaron a esta actividad.
+* **[!UICONTROL Perfiles introducidos]**: Número total de personas que salieron del recorrido (incluidos los errores).
 * **[!UICONTROL Perfil saliente]**: Número total de individuos que salieron del recorrido de esa actividad debido a criterios de salida.
 * **[!UICONTROL Perfiles con error]**: Número total de personas que encontraron un error durante su recorrido.
 * **[!UICONTROL Perfiles descartados]**: Número total de individuos que se descartaron de la recorrido por uno de los siguientes motivos:
@@ -41,6 +41,6 @@ Para su recorrido en directo, tiene acceso a:
 
 Para cada actividad dentro de cada recorrido activo, tiene acceso a:
 
-* **[!UICONTROL Perfiles ingresados]**: Cantidad total de individuos que ingresaron a esta actividad.
-* **[!UICONTROL Perfil saliente]**: Número total de individuos que salieron del recorrido de esa actividad debido a criterios de salida.
+* **[!UICONTROL Ingresado]**: Cantidad total de personas que ingresaron a esta actividad.
+* **[!UICONTROL Salidas (se cumplen los criterios de salida)]**: Número total de personas que salieron del recorrido de esa actividad debido a un criterio de salida.
 * **[!UICONTROL Error]**: Número total de personas que tuvieron un error en esa actividad.
