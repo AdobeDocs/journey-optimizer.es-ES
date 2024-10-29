@@ -5,7 +5,7 @@ title: Introducción a los canales de comunicación en  [!DNL Adobe Journey Opti
 description: Aprenda a trabajar con  [!DNL Adobe Journey Optimizer] canales de comunicación.
 role: User
 level: Beginner
-source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
+source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 2%
@@ -17,32 +17,35 @@ ht-degree: 2%
 
 ## [!DNL Adobe Journey Optimizer] canales {#overview}
 
-En el panorama de marketing dinámico actual, llegar de forma eficaz a su audiencia en varias plataformas es esencial para crear relaciones duraderas e impulsar la participación. Esta sección proporciona información general completa sobre los canales de comunicación disponibles en [!DNL Adobe Journey Optimizer], lo que le ayuda a comprender cómo utilizar cada canal de forma eficaz en sus estrategias de marketing.
+En el panorama de marketing dinámico de hoy en día, llegar de forma eficaz a su audiencia en varias plataformas es esencial para crear relaciones duraderas e impulsar la participación. Esta sección proporciona información general completa sobre los canales de comunicación disponibles en [!DNL Adobe Journey Optimizer], lo que le ayuda a comprender cómo utilizar cada canal de forma eficaz en sus estrategias de marketing.
 
 ## Canales entrantes y salientes {#inbound-outbound}
 
 Comprender la diferencia entre los canales entrantes y salientes es crucial para optimizar su estrategia de comunicación:
+
 * Canales entrantes: estos canales permiten a los clientes iniciar interacciones. Algunos ejemplos son la mensajería en la aplicación y las interacciones basadas en la web, en las que los usuarios pueden interactuar con el contenido según sus propios términos.
+
 * Canales salientes: implican el envío de mensajes a los clientes sin interacción previa. Algunos ejemplos son las campañas de correo electrónico y las notificaciones push, donde puede ponerse en contacto de forma proactiva con la audiencia.
+
 El uso eficaz de ambos tipos de canales puede mejorar las experiencias de los clientes y aumentar la participación.
 
 ## Canales disponibles {#channels}
 
 Adobe Journey Optimizer ofrece una variedad de canales de comunicación para interactuar con su audiencia de forma eficaz. Esta es una lista de los canales que puede aprovechar:
 
-Canales salientes:
+* Canales salientes
 
-* **Correo electrónico**: Envíe mensajes personalizados directamente a las bandejas de entrada de sus clientes.
-* **SMS/MMS**: envía mensajes de texto para llegar a los usuarios en sus dispositivos móviles.
-* **Notificación push**: Capte a los usuarios con notificaciones instantáneas en sus dispositivos para que actúen de inmediato.
-* **Correo directo**: utiliza el correo físico para crear una conexión tangible con tu audiencia.
+   * **Correo electrónico**: Envíe mensajes personalizados directamente a las bandejas de entrada de sus clientes.
+   * **SMS/MMS**: envía mensajes de texto para llegar a los usuarios en sus dispositivos móviles.
+   * **Notificación push**: Capte a los usuarios con notificaciones instantáneas en sus dispositivos para que actúen de inmediato.
+   * **Correo directo**: utiliza el correo físico para crear una conexión tangible con tu audiencia.
 
-Canales entrantes:
+* Canales entrantes
 
-* **En la aplicación**: comuníquese con los usuarios de sus aplicaciones móviles o web para mejorar su experiencia.
-* **Web**: utiliza la mensajería basada en web para interactuar con los usuarios que exploran el sitio.
-* **Experiencia basada en código**: Implemente experiencias personalizadas mediante la codificación para obtener oportunidades de participación únicas.
-* **Tarjetas de contenido**: comparta contenido dinámico directamente dentro de sus aplicaciones o sitios web para mantener a los usuarios informados y comprometidos.
+   * **En la aplicación**: comuníquese con los usuarios de sus aplicaciones móviles o web para mejorar su experiencia.
+   * **Web**: utiliza la mensajería basada en web para interactuar con los usuarios que exploran el sitio.
+   * **Experiencia basada en código**: Implemente experiencias personalizadas mediante la codificación para obtener oportunidades de participación únicas.
+   * **Tarjetas de contenido**: comparta contenido dinámico directamente dentro de sus aplicaciones o sitios web para mantener a los usuarios informados y comprometidos.
 
 ## Aprovechamiento de canales en recorridos y campañas {#leverage}
 
