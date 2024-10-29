@@ -6,21 +6,45 @@ description: Aprenda a bloquear contenido en las plantillas de correo electróni
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
+source-git-commit: 38aaa3005e72a8300cef0e28a6fecd9f5d06c1f1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1245'
+ht-degree: 7%
 
 ---
 
-
 # Bloquear contenido en plantillas de correo electrónico {#lock-content-email-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_governance"
+>title="Gobernanza"
+>abstract="Active la gobernanza para bloquear el contenido en la plantilla, ya sea bloqueando toda la plantilla o estructuras y componentes específicos. Esto le permite evitar ediciones o eliminaciones no intencionadas, lo que le proporciona un mayor control sobre la personalización de las plantillas y mejora la eficacia y fiabilidad de sus campañas de correo electrónico."
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_mode"
+>title="Modo"
+>abstract="Seleccione el modo de bloqueo que desee para la plantilla. **Bloqueo de contenido** le permite bloquear secciones específicas de contenido dentro de la plantilla. **Solo lectura** le permite bloquear todo el contenido de la plantilla, evitando así cualquier modificación."
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_content_addition"
+>title="Habilitar adición de contenido"
+>abstract="Active esta opción para definir más cómo pueden interactuar los usuarios con la plantilla. Seleccione **Permitir la adición de estructura y contenido** para permitir que los usuarios agreguen estructuras entre las existentes y agreguen componentes de contenido o fragmentos dentro de estructuras editables. **Permitir solo la adición de contenido** permite a los usuarios agregar componentes de contenido o fragmentos dentro de estructuras editables sin poder agregar ni duplicar estructuras."
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_activated"
+>title="Gobernanza habilitada"
+>abstract="El bloqueo de contenido está activado y puede impedir que realice modificaciones."
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_read_only"
+>title="Solo lectura"
+>abstract="Este contenido es de solo lectura y no se puede modificar."
 
 Journey Optimizer le permite bloquear contenido en plantillas de correo electrónico, ya sea bloqueando toda la plantilla o estructuras y componentes específicos. Esto le permite evitar ediciones o eliminaciones no intencionadas, lo que le proporciona un mayor control sobre la personalización de las plantillas y mejora la eficacia y fiabilidad de sus campañas de correo electrónico.
 
 >[!AVAILABILITY]
 >
->Los usuarios con permisos para crear plantillas de contenido pueden habilitar el bloqueo.
+>Los usuarios con permisos para crear plantillas de contenido pueden activar el bloqueo de contenido.
 
 El bloqueo de contenido se puede aplicar en el nivel **structure** o en el nivel **component**. Estas son las principales restricciones que se aplican en el nivel de estructura y componente al bloquear contenido en la plantilla.
 
@@ -72,6 +96,11 @@ Puede ajustar la configuración de **[!UICONTROL Governance]** en cualquier mome
 
 ### Bloquear estructuras {#lock-structures}
 
+>[!CONTEXTUALHELP]
+>id="ajo_locking_structure"
+>title="Bloqueo de contenido en la estructura"
+>abstract="Para bloquear la estructura en la plantilla, selecciona **Bloqueado** en la lista desplegable **Tipo de bloqueo**. De forma predeterminada, los usuarios no pueden eliminar las estructuras bloqueadas. Puede anular esta restricción habilitando la opción **[!UICONTROL Permitir eliminación]**."
+
 Para bloquear una estructura dentro de la plantilla:
 
 1. Seleccione la estructura que desee bloquear.
@@ -95,6 +124,11 @@ Después de bloquear una estructura, no se pueden duplicar ni agregar más compo
    ![](assets/template-lock-editable-component.png)
 
 ### Bloquear componentes {#lock-components}
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_component"
+>title="Utilizar bloqueo específico en el componente"
+>abstract="Para bloquear el componente en la plantilla, active la opción **Usar bloqueo específico**. En la lista desplegable **[!UICONTROL Bloquear tipo]**, seleccione la opción de bloqueo que prefiera: **Solo bloqueo de contenido editable** le permite bloquear los estilos del componente, pero permite editar contenido, mientras que **Bloqueado** bloquea completamente tanto el contenido como los estilos del componente."
 
 Para bloquear un componente específico dentro de una estructura:
 
@@ -123,9 +157,14 @@ En el ejemplo siguiente, el control está habilitado para el cuerpo de la planti
 
 ## Uso de plantillas con contenido bloqueado {#use}
 
+>[!CONTEXTUALHELP]
+>id="ajo_email_editable_areas"
+>title="Resaltar áreas editables"
+>abstract="Según el tipo de bloqueo aplicado a la plantilla, puede realizar diferentes acciones en las estructuras y componentes de la plantilla. Para identificar rápidamente todas las áreas editables dentro de la plantilla, active la opción **[!UICONTROL Resaltar áreas editables]**."
+
 Cuando se usa una plantilla con contenido bloqueado, aparece el mensaje **[!UICONTROL Gobernanza habilitada]** en el panel derecho.
 
-Según el tipo de bloqueo aplicado a la plantilla, puede realizar diferentes acciones en las estructuras y componentes de la plantilla. Para identificar rápidamente todas las áreas editables dentro de la plantilla, active las opciones **[!UICONTROL Resaltar áreas editables]**.
+Según el tipo de bloqueo aplicado a la plantilla, puede realizar diferentes acciones en las estructuras y componentes de la plantilla. Para identificar rápidamente todas las áreas editables dentro de la plantilla, active la opción **[!UICONTROL Resaltar áreas editables]**.
 
 Por ejemplo, en la plantilla siguiente, todas las áreas son editables, excepto la imagen superior que se ha bloqueado, lo que significa que no puede editarla ni quitarla.
 
