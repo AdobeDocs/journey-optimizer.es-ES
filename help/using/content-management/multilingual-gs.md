@@ -9,11 +9,10 @@ role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 28%
+source-wordcount: '487'
+ht-degree: 22%
 
 ---
 
@@ -24,9 +23,10 @@ ht-degree: 28%
 >title="Traducciones"
 >abstract="La función multilingüe le permite crear contenido sin esfuerzo en varios idiomas dentro de una misma campaña o recorrido. A través de la página Traducciones, puede configurar proyectos, seleccionar proveedores de traducción o administrar diccionarios específicos de la configuración regional"
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Ahora mismo, el contenido multilingüe solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+>Para empezar a crear contenido multilingüe, los usuarios deben recibir el permiso **[!UICONTROL Administrar configuración de idioma]**.
+>Para el flujo automatizado, los usuarios también necesitarán permisos relacionados con las capacidades del **[!UICONTROL Servicio de traducción]**. [Más información sobre los permisos](../administration/permissions.md)
 
 La función multilingüe le permite crear contenido sin esfuerzo en varios idiomas dentro de una sola campaña o recorrido. Con esta función, puede cambiar entre idiomas al editar la campaña, lo que optimiza todo el proceso de edición y mejora la capacidad para administrar de forma eficaz el contenido multilingüe.
 
@@ -55,7 +55,9 @@ El uso de los servicios de traducción de un proveedor de traducción está suje
 
 Para cualquier problema o solicitud de ayuda relacionada con sus traducciones, póngase en contacto con el proveedor de traducción correspondiente.
 
-Si no puede acceder a la página de traducción, debe habilitar la función de traducción.
+Para utilizar la función de traducción en Journey Optimizer, debe asignar la API a la función correspondiente. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+
+Si no puede acceder a la página de traducción, habilite la función de traducción y se le concederán permisos relacionados con el **[!UICONTROL servicio de traducción]**. [Más información](../administration/ootb-permissions.md)
 
 +++ Obtenga información sobre cómo habilitar la función de traducción
 

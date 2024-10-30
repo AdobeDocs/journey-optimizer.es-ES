@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1434'
 ht-degree: 99%
 
 ---
@@ -275,18 +275,6 @@ Para cambiar el idioma:
 >id="ajo_journey_approve"
 >title="Aprobar"
 >abstract="Aprobar (recorridos)"
-
-<!--Multilingual-->
-
->[!CONTEXTUALHELP]
->id="ajo_multi_custom_conditional"
->title="Configuración condicional personalizada"
->abstract="Configuración condicional personalizada"
-
->[!CONTEXTUALHELP]
->id="ajo_multi_fallback"
->title="Preferencias de reserva"
->abstract="Preferencias de reserva"
 
 <!-- ExD in email-->
 
