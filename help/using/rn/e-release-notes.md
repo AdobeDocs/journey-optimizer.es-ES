@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 42b9bfcc9079570a047462c23001d102abda58c9
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '1999'
 ht-degree: 37%
 
 ---
@@ -323,7 +323,7 @@ Se han introducido mejoras en los SMS para mejorar sus funciones de mensajería:
 
 **Creación de informes**
 
-* Ya está disponible la creación de informes de **Experience Decisioning**, que ofrecen información esencial sobre cómo los visitantes interactúan con las experiencias.
+* Ya está disponible el informe de **Toma de decisiones**, que ofrece información esencial sobre cómo los visitantes interactúan con las experiencias.
 
 **Gobernanza de datos y políticas de consentimiento**: fecha de disponibilidad: 7 de octubre de 2024
 

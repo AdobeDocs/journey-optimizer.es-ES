@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 20%
+source-wordcount: '721'
+ht-degree: 21%
 
 ---
 
@@ -33,7 +33,7 @@ Una estrategia de selección es reutilizable y consiste en una colección asocia
 
 ## Acceso y administración de estrategias de selección
 
-1. Vaya a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configuración de estrategia]** > **[!UICONTROL Estrategias de selección]**.
+1. Vaya a **[!UICONTROL Decisiones]** > **[!UICONTROL Configuración de estrategia]** > **[!UICONTROL Estrategias de selección]**.
 
 1. Se muestran todas las estrategias de selección creadas hasta el momento. Hay filtros disponibles para ayudarle a recuperar estrategias según el método de clasificación.
 
@@ -69,7 +69,7 @@ Para crear una estrategia de selección, siga los pasos a continuación.
 
    ![](assets/strategy-create-eligibility.png)
 
-   * Para restringir la selección de ofertas a los miembros de una audiencia de Experience Platform, selecciona **[!UICONTROL Audiencias]** y elige una audiencia de la lista. [Aprenda a trabajar con audiencias](../audience/about-audiences.md)
+   * Para restringir la selección de ofertas a los miembros de una audiencia de Experience Platform, selecciona **[!UICONTROL Audiencias]** y elige una audiencia de la lista. [Descubra cómo trabajar con públicos](../audience/about-audiences.md)
 
    * Si desea agregar una restricción de selección con una regla de decisión, use la opción **[!UICONTROL Regla de decisión]** y seleccione la regla que desee. [Aprenda a crear una regla](rules.md)
 

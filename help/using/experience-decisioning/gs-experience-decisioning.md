@@ -1,39 +1,39 @@
 ---
-title: Introducción a Toma de decisiones sobre experiencias
-description: Más información sobre Experience Decisioning
+title: Introducción a Decisioning
+description: Más información sobre las Decisiones
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 badge: label="Disponibilidad limitada"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 32%
+source-wordcount: '408'
+ht-degree: 19%
 
 ---
 
-# Introducción a Toma de decisiones sobre experiencias {#get-started-experience-decisioning}
+# Introducción a Decisioning {#get-started-experience-decisioning}
 
 >[!AVAILABILITY]
 >
->Ahora mismo, la toma de decisiones sobre experiencias solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+>Actualmente, la toma de decisiones solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 >
 >Por ahora, la función no está disponible para los clientes que hayan adquirido las ofertas adicionales de **Healthcare Shield** y **Privacy and Security Shield** de Adobe.
 
-## Qué es Experience Decisioning {#about}
+## Qué es Decisioning {#about}
 
-La toma de decisiones sobre experiencias simplifica la personalización al ofrecer un catálogo centralizado de ofertas de marketing conocidas como “elementos de decisión” y un motor de decisión sofisticado. Este motor aprovecha las reglas y los criterios de clasificación para seleccionar y presentar a cada persona los elementos de decisión más relevantes.
+Decisioning simplifica la personalización al ofrecer un catálogo centralizado de ofertas de marketing conocidas como &quot;elementos de decisión&quot; y un motor de decisión sofisticado. Este motor aprovecha las reglas y los criterios de clasificación para seleccionar y presentar a cada persona los elementos de decisión más relevantes.
 
-Estos elementos de decisión se integran a la perfección en una amplia gama de superficies de entrada a través del [nuevo canal de experiencia basado en código](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), ahora accesible desde las campañas de Journey Optimizer. Las políticas de decisión respecto a la toma de decisiones sobre experiencias solo se pueden utilizar en campañas de experiencias basadas en código.
+Estos elementos de decisión se integran a la perfección en una amplia gama de superficies de entrada a través del [nuevo canal de experiencia basado en código](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), ahora accesible desde las campañas de Journey Optimizer. Las políticas de decisión solo están disponibles para su uso en campañas de experiencia basadas en código.
 
 
-## Pasos clave de Experience Decisioning {#steps}
+## Pasos clave de decisiones {#steps}
 
-Los pasos principales para trabajar con Experience Decisioning son los siguientes:
+Los pasos principales para trabajar con Decisioning son los siguientes:
 
-1. **Asigne los permisos adecuados**. Experience Decisioning solo está disponible para los usuarios con acceso a un **[!UICONTROL rol]** relacionado con Experience Decisioning, como los administradores de decisiones. Si no puede acceder a Experience Decisioning, se deben ampliar los permisos.
+1. **Asigne los permisos adecuados**. La toma de decisiones solo está disponible para los usuarios con acceso a un **[!UICONTROL rol]** relacionado con la toma de decisiones, como los administradores de decisiones. Si no puede acceder a Decisioning, debe ampliar los permisos.
 
    +++Obtenga información sobre cómo asignar la función Administradores de decisiones
 

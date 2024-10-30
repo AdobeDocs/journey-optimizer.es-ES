@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: permisos, creación, mensajes
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 6%
@@ -83,7 +83,7 @@ Esta función incluye los siguientes permisos:
 | Administración de decisiones | <ul><li>**[!DNL Manage decisions]**: leer, crear, editar y eliminar decisiones.</li><li>**[!DNL Manage ranking strategies]**: leer, crear, editar y eliminar estrategias de clasificación.</li></ul> |
 | Adobe Experience Platform | <ul><li>**[!DNL Sandbox]**: conceder acceso a zonas protegidas.</li><li>**[!DNL Manage segments]**: leer, crear, editar y eliminar definiciones de segmento.</li><li>**[!DNL Manage profiles]**: leer, crear, editar y eliminar perfiles.</li><li>**[!DNL Read datasets]**: acceso de solo lectura a conjuntos de datos.</li><li>**[!DNL Read schemas]**: acceso de solo lectura a esquemas.</li><li>**[!DNL Read Identity namespace]**: acceso de solo lectura al área de nombres de identidad.</li><li>**[!DNL Manage merge policies]**: leer, crear, editar y eliminar directivas de combinación.</li></ul> |
 | Biblioteca de Journey Optimizer | <ul><li>**[!DNL Manage Library Items]**: agregar y eliminar expresiones guardadas en la biblioteca [!DNL Journey Optimizer].</li></ul> |
-| Control de datos | <ul><li>**[!DNL Manage usage label]**: leer, crear y eliminar etiquetas de uso.</li><li>**[!DNL Manage data usage policies]**: leer, crear, editar y eliminar directivas de uso de datos.</li><li>**[!DNL View data usage policies]**: acceso de solo lectura a las directivas de uso de datos.</li><li>**[!DNL View user activity log]**: leer y exportar registros de auditoría.</li></ul> |
+| Gobernanza de datos | <ul><li>**[!DNL Manage usage label]**: leer, crear y eliminar etiquetas de uso.</li><li>**[!DNL Manage data usage policies]**: leer, crear, editar y eliminar directivas de uso de datos.</li><li>**[!DNL View data usage policies]**: acceso de solo lectura a las directivas de uso de datos.</li><li>**[!DNL View user activity log]**: leer y exportar registros de auditoría.</li></ul> |
 
 ## [!DNL Journey Approver] {#journey-approver}
 
@@ -132,7 +132,7 @@ Esta función incluye los siguientes permisos:
 
 | Capacidad | Permisos |
 |-|-|
-| Administración de decisiones | <ul><li>**[!DNL Manage decisions]**: leer, crear, editar y eliminar entidades de toma de decisiones.</li><li>**[!DNL View decisions]**: acceso de solo lectura a entidades de toma de decisiones.</li><li>**[!DNL Manage ranking strategies]**: leer, crear, editar y eliminar informes personalizados y usar características de acción.</li><li>**[!DNL Publish decisions]**: activar o desactivar actividades de toma de decisiones.</li><!--li>**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</li--></ul> |
+| Administración de decisiones | <ul><li>**[!DNL Manage decisions]**: leer, crear, editar y eliminar entidades de toma de decisiones.</li><li>**[!DNL View decisions]**: acceso de solo lectura a entidades de toma de decisiones.</li><li>**[!DNL Manage ranking strategies]**: leer, crear, editar y eliminar informes personalizados y usar características de acción.</li><li>**[!DNL Publish decisions]**: activar o desactivar actividades de toma de decisiones.</li><!--li>**[!DNL Manage Experience decisions]**: read, create, edit, and delete Decisioning entities.</li--></ul> |
 
 ## [!DNL Content Library Manager] {#content-library-manager}
 

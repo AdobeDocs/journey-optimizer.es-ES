@@ -7,16 +7,16 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
 # Catálogo de artículos {#catalog}
 
-En Experience Decisioning, los catálogos sirven como contenedores centrales para organizar los elementos de decisión. Cada catálogo está vinculado a un esquema de Adobe Experience Platform, que incluye todos los atributos asignables a un elemento de decisión.
+En Decisioning, los catálogos sirven como contenedores centrales para organizar los elementos de decisión. Cada catálogo está vinculado a un esquema de Adobe Experience Platform, que incluye todos los atributos asignables a un elemento de decisión.
 
 Por ahora, todos los elementos de decisión creados se consolidan dentro de un único catálogo &quot;Ofertas&quot;, al que se puede acceder mediante el menú **[!UICONTROL Catálogos]**.
 
@@ -41,7 +41,7 @@ Para acceder al esquema del catálogo donde se almacenan los atributos de los el
 
    >[!CAUTION]
    >
-   >Por ahora, Experience Decisioning admite exclusivamente los siguientes tipos de datos: cadena, entero, booleano, fecha, hora y recurso de toma de decisiones. Cualquier campo que no pertenezca a estos tipos de datos no estará disponible para su uso durante la creación de un elemento de decisión o un catálogo.
+   >Por ahora, Decisioning admite exclusivamente los siguientes tipos de datos: cadena, entero, booleano, fecha, hora y recurso de toma de decisiones. Cualquier campo que no pertenezca a estos tipos de datos no estará disponible para su uso durante la creación de un elemento de decisión o un catálogo.
 
    El valor que se introduce en un atributo con el atributo de recurso de toma de decisiones es una URL pública. La mayoría de las veces esto apuntaría a una imagen.
 
