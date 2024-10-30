@@ -5,7 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 23ce5d1f2bafcb3ef37e2351efb8edc6da1ce805
+source-git-commit: d51e28261908018824bcf65180534ced836b3765
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Para crear sus experiencias web con el editor no visual, siga los pasos a contin
 
    Haga clic en el botón **[!UICONTROL Más acciones]** que está junto a la modificación y seleccione **[!UICONTROL Información]** para mostrar sus detalles. También puede **[!UICONTROL eliminar la modificación]** si es necesario.
 
-   ![](assets/web-non-visual-editor-ex-more.png)
+   ![](assets/web-non-visual-editor-ex-more.png){width="50%" align="left"}
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Para crear sus experiencias web con el editor no visual, siga los pasos a contin
 
 1. Además, puede seleccionar cualquier elemento del sitio web y rastrear los clics en ese elemento. Para habilitar el rastreo de clics y definir las acciones que desea rastrear, haga clic en el segundo icono del carril izquierdo, como se muestra a continuación:
 
-   ![](assets/web-campaign-click.png)
+   ![](assets/web-campaign-click.png){width="50%" align="left"}
 
    Use el botón **Agregar componente** para seleccionar una nueva acción que rastrear. Obtenga más información acerca del uso del rastreo de clics en [esta sección](monitor-web-experiences.md#use-click-tracking).
 
