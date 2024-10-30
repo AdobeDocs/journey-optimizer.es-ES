@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabajar con conjuntos de reglas
+title: Trabajo con conjuntos de reglas (LA)
 description: Obtenga información sobre cómo crear y aplicar conjuntos de reglas
 feature: Rules
 topic: Content Management
@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '1968'
+source-wordcount: '1988'
 ht-degree: 10%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 10%
 
 >[!AVAILABILITY]
 >
->Actualmente, los conjuntos de reglas solo están disponibles como una versión beta para los usuarios seleccionados. Póngase en contacto con el representante del Adobe para que se le incluya en el Beta.
+>Los conjuntos de reglas están disponibles actualmente en Disponibilidad limitada para un grupo selecto de clientes. Tenga en cuenta que esta función se implementará gradualmente para más usuarios en el futuro. Póngase en contacto con el equipo de la cuenta si está interesado en que se le añada a la lista de espera.
 
 ## Introducción a los conjuntos de reglas {#gs}
 
@@ -167,7 +167,7 @@ Los parámetros disponibles para la regla dependen del dominio del conjunto de r
    * **[!UICONTROL Límite de entrada de Recorrido]**: Limita el número de entradas en el recorrido durante un período determinado para un perfil.
    * **[!UICONTROL Límite de concurrencia de Recorrido]**: Limita la cantidad de recorridos en los que se puede inscribir un perfil simultáneamente.
 
-1. Encontrará información detallada sobre cómo configurar las reglas de restricción de recorrido en la sección [restricción y arbitraje de Recorrido](../test-approve/journey-capping.md).
+1. Encontrará información detallada sobre cómo configurar las reglas de restricción de recorrido en la sección [restricción y arbitraje de Recorrido](../conflict-prioritization/journey-capping.md).
 
 +++
 
@@ -306,7 +306,7 @@ Al probar las reglas de frecuencia, se recomienda usar un [perfil de prueba](../
 
 Para aplicar una regla de límite a un recorrido, acceda al recorrido y abra sus propiedades. En el menú desplegable **[!UICONTROL Reglas de límite]**, seleccione el conjunto de reglas correspondiente.
 
-![](../test-approve/assets/journey-capping-apply.png)
+![](../conflict-prioritization//assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >

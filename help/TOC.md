@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2161'
 ht-degree: 93%
 
 ---
@@ -175,13 +175,12 @@ ht-degree: 93%
    + [Revisión y activación de una campaña](using/campaigns/review-activate-campaign.md)
    + [Administración de campañas](using/campaigns/modify-stop-campaign.md)
    + [Activación de campañas mediante las API](using/campaigns/api-triggered-campaigns.md)
++ Administración de conflictos y priorización {#conflict-prioritization}
+   + [Introducción a la administración y priorización de conflictos](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [Identificación de posibles conflictos](using/conflict-prioritization/conflicts.md)
+   + [Asignar puntuaciones de prioridad](using/conflict-prioritization/priority-scores.md)
+   + [límite y arbitraje de recorridos](using/conflict-prioritization/journey-capping.md)
 + Prueba y aprobación {#test}
-   + [Administración de conflictos y priorización](using/test-approve/conflict-prioritization.md)
-   + Administración de conflictos y priorización {#conflict-prioritization}
-      + [Introducción a la administración y priorización de conflictos](using/test-approve/gs-conflict-prioritization.md)
-      + [Identificación de posibles conflictos](using/test-approve/conflicts.md)
-      + [Asignar puntuaciones de prioridad](using/test-approve/priority-scores.md)
-      + [límite y arbitraje de recorridos](using/test-approve/journey-capping.md)
    + Vista previa y prueba del contenido {#preview-test}
       + [Prueba del contenido con datos de entrada de muestra](using/test-approve/simulate-sample-input.md)
       + [Introducción a la vista previa y prueba](using/content-management/preview-test.md)
@@ -658,7 +657,7 @@ ht-degree: 93%
    + [Asistencia para el archivado](using/configuration/archiving-support.md)
    + [Cambio de direcciones de ejecución](using/configuration/primary-email-addresses.md)
    + [Configurar reglas empresariales](using/configuration/frequency-rules.md)
-   + [Trabajar con conjuntos de reglas](using/configuration/rule-sets.md)
+   + [Trabajo con conjuntos de reglas (LA)](using/configuration/rule-sets.md)
    + Configurar recorridos {#configure-journeys}
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
       + Integración con sistemas externos {#external-systems}

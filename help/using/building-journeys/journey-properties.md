@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 16%
+source-wordcount: '2233'
+ht-degree: 18%
 
 ---
 
@@ -35,6 +35,7 @@ Desde esta sección, puede definir el nombre del recorrido, añadir una descripc
 * definir [timeout duration](#timeout) en las actividades de recorrido (solo para usuarios administradores),
 * seleccione el recorrido y el perfil [husos horarios](#timezone)
 * asigne etiquetas unificadas de Adobe Experience Platform a su recorrido para clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
+* supervise conflictos y dé prioridad a sus recorridos con [herramientas de administración de conflictos](#conflict).
 
 ![](assets/journey32.png)
 
@@ -45,7 +46,6 @@ Desde esta sección, puede definir el nombre del recorrido, añadir una descripc
 **Copiar detalles técnicos** le permite copiar información técnica sobre el recorrido que el equipo de soporte técnico puede usar para solucionar problemas. Se copia la siguiente información: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 Obtenga más información acerca de los campos técnicos relacionados con un recorrido para un perfil determinado y cómo usarlos [en esta página](expression/journey-properties.md).
-
 
 ## Entrada y reentrada {#entrance}
 
@@ -299,3 +299,14 @@ Las siguientes barreras y limitaciones se aplican a la capacidad de criterios de
 * Los criterios de salida solo se definen en estado de borrador
 * Recorrido de coherencia de área de nombres entre eventos y criterios de salida basados en eventos
 
+## Administración de conflictos {#conflict}
+
+La sección **[!UICONTROL Administración de conflictos]** de las propiedades del recorrido le permite supervisar los conflictos y priorizar los recorridos. Puede hacer lo siguiente:
+
+* Aplique un **conjunto de reglas** para excluir este recorrido a parte de su audiencia según las reglas de límite. [Aprenda a trabajar con conjuntos de reglas](../configuration/rule-sets.md)
+
+* Asigne una **puntuación de prioridad** al recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. El valor de prioridad insertado aquí lo heredan las acciones entrantes (como in-app) contenidas en este recorrido. [aprenda a trabajar con puntuaciones de prioridad](../conflict-prioritization/priority-scores.md)
+
+  En el caso de situaciones en las que esta misma configuración de canal entrante se utiliza en otras campañas o recorridos, se muestra al destinatario la acción entrante con la puntuación de prioridad más alta. Si varios recorridos o campañas tienen la misma puntuación, se elige el elemento que se ha modificado más recientemente.
+
+* **Ver conflictos** con otros recorridos, campañas o configuraciones de canal. Si desea identificar la superposición en la audiencia, la fecha de inicio y finalización, la configuración del canal, el canal o el conjunto de reglas, puede ver posibles conflictos aquí. [Aprenda a identificar posibles conflictos en el recorrido](../conflict-prioritization/conflicts.md)
