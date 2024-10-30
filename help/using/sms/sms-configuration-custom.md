@@ -6,14 +6,15 @@ description: Aprenda a configurar su entorno para enviar mensajes de texto con J
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
+exl-id: fd713864-96b9-4687-91bd-84e3533273ff
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 1%
+source-wordcount: '283'
+ht-degree: 3%
 
 ---
 
-# Configuración de un proveedor personalizado (Beta) {#sms-configuration-custom}
+# Configure un proveedor personalizado (Beta) {#sms-configuration-custom}
 
 >[!AVAILABILITY]
 >
@@ -50,6 +51,10 @@ Para enviar mensajes en Journey Optimizer mediante un proveedor personalizado no
      Asegúrese de que la carga útil incluya `{{toNumber}}`, `{{fromNumber}}`, `{{message}}`.
 
 1. Haga clic en **[!UICONTROL Enviar]** cuando termine de configurar las credenciales de la API.
+
+1. En el menú **[!UICONTROL Credenciales de API]**, haga clic en el icono bin para eliminar sus credenciales de API.
+
+1. Para modificar las credenciales existentes, busque las credenciales de API que desee y haga clic en la opción **[!UICONTROL Editar]** para realizar los cambios necesarios.
 
 Después de crear y configurar las credenciales de la API, debe crear una superficie de canal para los mensajes SMS. [Más información](sms-configuration-surface.md)
 

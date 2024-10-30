@@ -7,10 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 2fe9fb915e4aaf13458e46d5eeb177862416907d
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 2%
+source-wordcount: '847'
+ht-degree: 1%
 
 ---
 
@@ -71,3 +71,91 @@ La tabla **[!UICONTROL Etiquetas de vínculos rastreados]** ofrece una descripci
 * **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió la experiencia, no se tienen en cuenta las interacciones múltiples de un perfil.
 
 +++
+
+## KPI de decisión {#decisioning-kpis}
+
+![](assets/cja-decisioning-kpis.png)
+
+Los KPI de **toma de decisiones** proporcionan información clave sobre la participación de los visitantes en sus experiencias, incluidas métricas como las siguientes:
+
+* **[!UICONTROL Elementos totales]**: número total de elementos individuales que formaban parte de una experiencia personalizada o de un proceso de toma de decisiones dentro de un período especificado.
+
+* **[!UICONTROL Total de visualizaciones]**:
+
+* **[!UICONTROL Clics totales]**: número total de veces que los usuarios hicieron clic en elementos, vínculos, productos u otros elementos interactivos durante un período de tiempo especificado.
+
+* **[!UICONTROL Tasa de reserva]**: porcentaje de instancias en las que no se calificó ninguna estrategia de selección, lo que da como resultado la visualización de una opción genérica o menos específica.
+
+## Canal de participación {#engagement-funnel}
+
+![](assets/cja-engagement-funnel.png)
+
+La tabla **[!UICONTROL Canal de participación]** supervisa el rendimiento de las experiencias personalizadas mediante la evaluación de la eficacia con que cada fase del canal impulsa las interacciones del usuario.
+
+* **[!UICONTROL Pantallas]**: número total de veces que se mostraron o presentaron experiencias personalizadas a los usuarios en varios puntos de contacto.
+
+* **[!UICONTROL Clics]**: número total de veces que los usuarios hicieron clic en experiencias personalizadas que se les mostraron.
+
+## Elementos de decisión principales por tasa de clics {#top-decision}
+
+![](assets/cja-top-decisions-ctr.png)
+
+La tabla **[!UICONTROL Elementos de decisión principales por CTR]** resalta el rendimiento de los elementos individuales en función de su tasa de clics. Esta métrica ayuda a evaluar qué elementos son más efectivos para atraer usuarios e impulsar interacciones.
+
+* **[!UICONTROL Tasa de clics (CTR)]**: porcentaje de usuarios que hacen clic en un vínculo, un anuncio o una recomendación en comparación con el número de veces que se mostraron.
+
+## Canal de participación por estrategia de selección {#engagement-funnel-selection}
+
+![](assets/cja-engagement-funnel-selection.png)
+
+La tabla **[!UICONTROL Embudo de participación por estrategia de selección]** le ayuda a supervisar y analizar la eficacia con que las distintas estrategias de selección atraen a usuarios con experiencias personalizadas.
+
+* **[!UICONTROL Pantallas]**: número total de veces que se mostraron o presentaron experiencias personalizadas a los usuarios en varios puntos de contacto.
+
+* **[!UICONTROL Clics]**: número total de veces que los usuarios hicieron clic en experiencias personalizadas que se les mostraron.
+
+## Rendimiento de elementos de decisión {#decision-items-performance}
+
+![](assets/cja-decisioning-item-performance.png)
+
+La tabla **[!UICONTROL Rendimiento de elementos de decisión]** evalúa el rendimiento de cada elemento para atraer usuarios e impulsar acciones deseadas, como compras, clics u otras respuestas.
+
+* **[!UICONTROL Pantallas]**: número total de veces que se mostraron o presentaron experiencias personalizadas a los usuarios en varios puntos de contacto.
+
+* **[!UICONTROL Clics]**: número total de veces que los usuarios hicieron clic en experiencias personalizadas que se les mostraron.
+
+## Estrategia de clasificación {#ranking-strategy}
+
+>[!NOTE]
+>
+>La tabla **[!UICONTROL Estrategia de clasificación]** solo estará disponible cuando se incorpore un modelo de IA a la campaña. [Más información](../experience-decisioning/ranking.md)
+
+![](assets/cja-decision-ranking-strategy.png)
+
+La tabla **[!UICONTROL Estrategia de clasificación]** proporciona perspectivas sobre el rendimiento de los modelos de clasificación impulsados por IA dentro de experiencias personalizadas que comparan dos tipos de tráfico:
+
+* **Impulsado por modelo**: los usuarios reciben contenido clasificado por el modelo de IA, optimizado para relevancia y participación.
+
+* **Holdout**: los usuarios ven una versión genérica del contenido, que sirve como grupo de control para medir la eficacia del modelo de IA.
+
+Las métricas clave mostradas incluyen:
+
+* **[!UICONTROL Pantallas]**: número total de veces que se mostraron o presentaron experiencias personalizadas a los usuarios en varios puntos de contacto.
+
+* **[!UICONTROL Clics]**: número total de veces que los usuarios hicieron clic en experiencias personalizadas que se les mostraron.
+
+* **[!UICONTROL Tasa de conversión]**: porcentaje de visualizaciones que dieron como resultado acciones del usuario (por ejemplo, clics), que indican el éxito del modelo en la participación de usuarios.
+
+## Tasa de conversión para tráfico Holdout y conducido por modelo {#conversion-rate}
+
+>[!NOTE]
+>
+>El gráfico **[!UICONTROL Tasa de conversión para tráfico controlado por modelo y en espera]** solo estará disponible cuando se incorpore un modelo de IA a la campaña. [Más información](../experience-decisioning/ranking.md)
+
+![](assets/cja-decisioning-conversion.png)
+
+El gráfico **[!UICONTROL Tasa de conversión para tráfico controlado por modelo y en espera]** muestra la tasa de conversión a lo largo del tiempo para dos tipos de tráfico:
+
+* **Impulsado por modelo**: los usuarios reciben contenido clasificado por el modelo de IA, optimizado para relevancia y participación.
+
+* **Holdout**: los usuarios ven una versión genérica del contenido, que sirve como grupo de control para medir la eficacia del modelo de IA.

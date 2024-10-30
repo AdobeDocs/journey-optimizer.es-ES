@@ -1,19 +1,19 @@
 ---
-title: Monitorización de sus campañas web
-description: Obtenga información sobre cómo monitorizar las campañas web en Journey Optimizer
+title: Monitorización de sus experiencias web
+description: Obtenga información sobre cómo monitorizar las experiencias web en Journey Optimizer
 feature: Web Channel, Reporting
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 3%
 
 ---
 
-# Monitorización de sus campañas web {#monitor-web-experiences}
+# Monitorización de sus experiencias web {#monitor-web-experiences}
 
 ## Consulte los informes web {#check-web-reports}
 
@@ -23,7 +23,7 @@ Una vez que la experiencia web esté activa, puede consultar la pestaña **[!UIC
 
 Para mejorar aún más la monitorización de la experiencia web, también puede rastrear los clics en cualquier elemento específico del sitio web. Esto le permite mostrar el número de clics en ese elemento en los informes web. [Descubra cómo](#use-click-tracing)
 
-## Uso del rastreo de clics {#use-click-tracing}
+## Uso del rastreo de clics {#use-click-tracking}
 
 El diseñador web le permite seleccionar cualquier elemento del sitio web y rastrear los clics en ese elemento.
 

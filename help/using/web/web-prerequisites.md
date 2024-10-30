@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 3%
@@ -80,7 +80,7 @@ Para descargar e instalar la extensión del explorador Ayuda de edición visual,
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-La Ayuda de edición visual de Adobe Experience Cloud ahora se habilita automáticamente cuando se abre un sitio web en el [!DNL Journey Optimizer] [diseñador web](edit-web-content.md#work-with-web-designer) para la creación avanzada.
+La Ayuda de edición visual de Adobe Experience Cloud ahora se habilita automáticamente cuando se abre un sitio web en el [!DNL Journey Optimizer] [diseñador web](web-visual-editor.md) para la creación avanzada.
 
 La extensión no tiene ninguna configuración condicional y administra todas las configuraciones automáticamente, incluida la configuración de cookies de SameSite.
 
@@ -122,7 +122,7 @@ Para que la experiencia web se entregue correctamente, se debe definir la siguie
 
   ![](assets/web-aep-merge-policy.png)
 
-* Para solucionar problemas del envío de experiencias web de Journey Optimizer, puede usar la vista de **Edge Delivery** en **Adobe Experience Platform Assurance**. Este complemento le permite inspeccionar en detalle las llamadas de solicitud, comprobar si las llamadas perimetrales esperadas se producen según lo previsto y examinar los datos de perfil, incluidos los mapas de identidad, las suscripciones a segmentos y la configuración de consentimiento. Además, puede revisar las actividades para las que la solicitud cumple los requisitos e identificar las que no.
+* Para solucionar problemas del envío de experiencias web de Journey Optimizer, puedes usar la vista de **Edge Delivery** en **Adobe Experience Platform Assurance**. Este complemento le permite inspeccionar en detalle las llamadas de solicitud, comprobar si las llamadas perimetrales esperadas se producen según lo previsto y examinar los datos de perfil, incluidos los mapas de identidad, las suscripciones a segmentos y la configuración de consentimiento. Además, puede revisar las actividades para las que la solicitud cumple los requisitos e identificar las que no.
 
   El uso del complemento **Edge Delivery** le ayuda a obtener la información necesaria para comprender y solucionar problemas de las implementaciones entrantes de forma eficaz.
 

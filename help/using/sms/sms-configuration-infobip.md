@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 5%
+source-wordcount: '485'
+ht-degree: 4%
 
 ---
 
@@ -54,6 +54,14 @@ Para configurar Infobip con Journey Optimizer, siga estos pasos:
 
    * **[!UICONTROL Número de entrada]**: agrega tu número de entrada único. Esto le permite utilizar las mismas credenciales de API en diferentes zonas protegidas, cada una con su propio número de entrada.
 
+   * **[!UICONTROL Palabras clave de entrada personalizadas]**: defina palabras clave únicas para acciones específicas, por ejemplo: DESCUENTO, OFERTAS, INSCRIBIRSE. Estas palabras clave se capturan y almacenan como atributos en el perfil, lo que le permite almacenar en déclencheur una calificación de segmento de flujo continuo dentro del recorrido y enviar una respuesta o acción personalizada.
+
+   * **[!UICONTROL Mensaje de respuesta entrante predeterminado]**: escriba la respuesta predeterminada que se enviará cuando un usuario final envíe un SMS entrante que no coincida con ninguna de las palabras clave definidas.
+
 1. Haga clic en **[!UICONTROL Enviar]** cuando termine de configurar las credenciales de la API.
+
+1. En el menú **[!UICONTROL Credenciales de API]**, haga clic en el icono bin para eliminar sus credenciales de API.
+
+1. Para modificar las credenciales existentes, busque las credenciales de API que desee y haga clic en la opción **[!UICONTROL Editar]** para realizar los cambios necesarios.
 
 Después de crear y configurar las credenciales de la API, debe crear una configuración de canal para los mensajes SMS y MMS. [Más información](sms-configuration-surface.md)

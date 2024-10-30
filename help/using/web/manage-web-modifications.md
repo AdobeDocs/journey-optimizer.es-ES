@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '971'
 ht-degree: 8%
 
 ---
@@ -37,6 +37,8 @@ Puede administrar fácilmente todos los componentes, ajustes y estilos que agreg
    >[!CAUTION]
    >
    >Proceda con cuidado al eliminar una acción, ya que puede afectar a las acciones posteriores.
+
+1. Si está creando una [aplicación de una sola página](web-spa.md), puede aplicar cualquier modificación a otras vistas. [Más información](web-spa.md#apply-modifications-views)
 
 1. Para eliminar varias modificaciones al mismo tiempo, haga clic en el botón **[!UICONTROL Seleccionar]** en la parte superior del panel **[!UICONTROL Modificaciones]**, compruebe las modificaciones que elija y haga clic en el icono **[!UICONTROL Eliminar]**.
 

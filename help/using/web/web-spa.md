@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '463'
 ht-degree: 16%
 
 ---
@@ -41,13 +41,13 @@ Para poder acceder y crear vistas en la interfaz de usuario de [!DNL Journey Opt
 
 SPA Una vez completada la configuración en la implementación del SDK web de Adobe Experience Platform, debe navegar por todas las vistas del sitio web a las que desee aplicar las modificaciones. Siga los pasos a continuación.
 
-1. [Cree una campaña web](create-web.md) y acceda al [diseñador web](edit-web-content.md).
+1. [Cree un recorrido web o una campaña](create-web.md) y acceda al [diseñador web](web-visual-editor.md).
 
    La vista en la que se encuentra actualmente se muestra en la parte superior izquierda.
 
    ![](assets/web-designer-view-home.png)
 
-1. Cambiar al modo **[!UICONTROL Examinar]**. [Más información](../web/edit-web-content.md#browse-mode)
+1. Cambiar al modo **[!UICONTROL Examinar]**. [Más información](web-visual-editor.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 

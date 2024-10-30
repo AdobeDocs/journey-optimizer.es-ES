@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 2a7707f5538a8d01a7b0d7e531d94d9ef922097a
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 16%
+source-wordcount: '1804'
+ht-degree: 15%
 
 ---
 
@@ -49,6 +49,8 @@ Para agregar una actividad de **experiencia basada en código** a un recorrido, 
 
 1. Seleccione el botón **[!UICONTROL Editar contenido]** y edite el contenido como desee con el editor de personalización. [Más información](#edit-code)
 
+   También puede utilizar una plantilla de contenido existente como base para el contenido de código. Tenga en cuenta que las plantillas disponibles para elegir tienen ámbitos de HTML o JSON en función de la configuración de canal que se haya elegido previamente. [Aprenda a utilizar las plantillas de contenido](../content-management/use-content-templates.md)
+
 1. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
 
 1. Una vez que la experiencia basada en código esté lista, finalice la configuración y publique el recorrido para activarlo. [Más información](../building-journeys/publishing-the-journey.md)
@@ -76,6 +78,8 @@ Para empezar a crear tu **experiencia basada en código** a través de una campa
    ![](assets/code-based-campaign-surface.png)
 
 1. Edite el contenido como desee mediante el editor de personalización. [Más información](#edit-code)
+
+   También puede utilizar una plantilla de contenido existente como base para el contenido de código. Tenga en cuenta que las plantillas disponibles para elegir tienen ámbitos de HTML o JSON en función de la configuración de canal que se haya elegido previamente. [Aprenda a utilizar las plantillas de contenido](../content-management/use-content-templates.md)
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
