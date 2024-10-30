@@ -5,9 +5,9 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 59fae238326186092a29d4a451655efabaabb4b2
+source-git-commit: 23ce5d1f2bafcb3ef37e2351efb8edc6da1ce805
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,14 @@ Para crear sus experiencias web con el editor no visual, siga los pasos a contin
 
    ![](assets/web-non-visual-editor.png)
 
-1. Seleccione el tipo de modificación:
+1. En la lista desplegable, seleccione el tipo de modificación.
+
+   Hay dos tipos disponibles. Vienen con diferentes opciones. Consulte los vínculos siguientes para obtener más información:
 
    * **[!UICONTROL Selector de CSS]** - [Más información](manage-web-modifications.md#css-selector)
-   * **[!UICONTROL Página`<Head>`]** - [Más información](manage-web-modifications.md#page-head)
+   * **[!UICONTROL Página`<head>`]** - [Más información](manage-web-modifications.md#page-head)
 
-1. Haga clic en el botón **[!UICONTROL Opciones de edición avanzadas]**. Se abre el editor de personalización.
+1. Haga clic en el botón **[!UICONTROL Agregar personalización]**. Se abre el editor de personalización.
 
    Puede aprovechar el editor de personalización [!DNL Journey Optimizer] con todas sus capacidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
 
@@ -47,7 +49,7 @@ Para crear sus experiencias web con el editor no visual, siga los pasos a contin
 
 1. La primera modificación se muestra en la parte superior del panel **[!UICONTROL Modificaciones]**.
 
-   Haga clic en el botón **[!UICONTROL Más acciones]** que está junto a la modificación y seleccione **[!UICONTROL Información]** para mostrar sus detalles. También puede **[!UICONTROL editar]** o **[!UICONTROL eliminar]** la modificación.
+   Haga clic en el botón **[!UICONTROL Más acciones]** que está junto a la modificación y seleccione **[!UICONTROL Información]** para mostrar sus detalles. También puede **[!UICONTROL eliminar la modificación]** si es necesario.
 
    ![](assets/web-non-visual-editor-ex-more.png)
 
@@ -55,19 +57,18 @@ Para crear sus experiencias web con el editor no visual, siga los pasos a contin
    >
    >El panel **[!UICONTROL Modificaciones]** es el mismo que al usar el [diseñador web](web-visual-editor.md). Todas las acciones que puede realizar con él se detallan en [esta sección](manage-web-modifications.md#use-modifications-pane).
 
-1. Haga clic en el botón **[!UICONTROL Más acciones]** en la parte superior del panel **[!UICONTROL Modificaciones]** para **[!UICONTROL Agregar una modificación]** y repita los pasos anteriores. [Más información](manage-web-modifications.md#add-modifications)
-
-   ![](assets/web-non-visual-editor-more.png)
-
-1. Seleccione la flecha de la parte superior izquierda de la pantalla para volver a la pantalla de edición de recorrido o campaña. Puede ver la cantidad actual de cambios y agregar más.
-
-   ![](assets/web-campaign-modifications.png)
-
-   También puede cambiar al diseñador web si lo desea. Se conservarán todas las modificaciones.
+1. Haga clic en el botón **[!UICONTROL Agregar]** en la parte superior del panel **[!UICONTROL Modificaciones]** para agregar otra modificación y repita los pasos anteriores.
 
 
-1. Puede seleccionar cualquier elemento del sitio web y rastrear los clics en ese elemento. Para habilitar el rastreo de clics y definir las acciones que desea rastrear, haga clic en el segundo icono del carril izquierdo, como se muestra a continuación:
+1. Además, puede seleccionar cualquier elemento del sitio web y rastrear los clics en ese elemento. Para habilitar el rastreo de clics y definir las acciones que desea rastrear, haga clic en el segundo icono del carril izquierdo, como se muestra a continuación:
 
    ![](assets/web-campaign-click.png)
 
    Use el botón **Agregar componente** para seleccionar una nueva acción que rastrear. Obtenga más información acerca del uso del rastreo de clics en [esta sección](monitor-web-experiences.md#use-click-tracking).
+
+
+1. Haga clic en la flecha de la parte superior izquierda de la pantalla para volver a la pantalla de edición de recorrido o campaña. Puede ver la cantidad actual de cambios y agregar más.
+
+   ![](assets/web-campaign-modifications.png)
+
+   También puede cambiar al diseñador web si lo desea. Se conservarán todas las modificaciones.
