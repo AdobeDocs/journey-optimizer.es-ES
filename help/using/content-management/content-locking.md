@@ -6,9 +6,9 @@ description: Aprenda a bloquear contenido en las plantillas de correo electróni
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 38aaa3005e72a8300cef0e28a6fecd9f5d06c1f1
+source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1269'
 ht-degree: 7%
 
 ---
@@ -42,9 +42,9 @@ ht-degree: 7%
 
 Journey Optimizer le permite bloquear contenido en plantillas de correo electrónico, ya sea bloqueando toda la plantilla o estructuras y componentes específicos. Esto le permite evitar ediciones o eliminaciones no intencionadas, lo que le proporciona un mayor control sobre la personalización de las plantillas y mejora la eficacia y fiabilidad de sus campañas de correo electrónico.
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Los usuarios con permisos para crear plantillas de contenido pueden activar el bloqueo de contenido.
+>El bloqueo de contenido es una función de nivel de editor para autores y no garantiza que el contenido no se edite cuando se importe o cree mediante API.
 
 El bloqueo de contenido se puede aplicar en el nivel **structure** o en el nivel **component**. Estas son las principales restricciones que se aplican en el nivel de estructura y componente al bloquear contenido en la plantilla.
 
@@ -59,6 +59,10 @@ El bloqueo de contenido se puede aplicar en el nivel **structure** o en el nivel
 
    * Los componentes de contenido individuales se pueden bloquear dentro de esa estructura.
    * De forma predeterminada, no se puede eliminar un componente si está bloqueado o si la opción &quot;Solo bloqueo de contenido editable&quot; está seleccionada. Puede anular esta restricción activando la opción Permitir eliminación.
+
+>[!AVAILABILITY]
+>
+>Los usuarios con permisos para crear plantillas de contenido pueden activar el bloqueo de contenido.
 
 ## Bloquear una plantilla de correo electrónico {#define}
 
