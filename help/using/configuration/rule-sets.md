@@ -10,9 +10,9 @@ level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 badge: label="Disponibilidad limitada"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
+source-git-commit: 9c49786385db782bd2fa70b19003261284e980a5
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1924'
 ht-degree: 10%
 
 ---
@@ -48,10 +48,6 @@ Además de este conjunto de reglas predeterminado global, puede crear **conjunto
 
 ![](assets/rule-sets-default.png)
 
->[!IMPORTANT]
->
->Por ahora, los conjuntos de reglas personalizadas solo se pueden aplicar a **campañas**. Solo las reglas definidas en el conjunto de reglas &quot;Conjunto de reglas predeterminado global&quot; se aplican a las comunicaciones de recorridos y campañas.
-
 ### Reglas de límite de canal y recorridos {#domain}
 
 Al crear un conjunto de reglas, debe especificar si las reglas dentro del conjunto de reglas aplicarán reglas de límite específicas a los canales de comunicación o a los recorridos.  Para ello, seleccione un Canal o un dominio de Recorrido para el conjunto de reglas al crearlo. [Aprenda a crear un conjunto de reglas](#create)
@@ -75,10 +71,7 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 
 1. Defina un nombre único para el conjunto de reglas y añada una descripción.
 
-1. Seleccione el dominio del conjunto de reglas. El dominio permite especificar si el conjunto de reglas contendrá reglas de límite específicas para los canales de comunicación o para los recorridos:
-
-   * **Canal**: aplique reglas de límite para los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día.
-   * **Recorrido**: aplique reglas de límite de entrada y concurrencia a un recorrido. Por ejemplo, no introduzca perfiles en más de un recorrido simultáneamente.
+1. Seleccione el dominio del conjunto de reglas. El dominio le permite especificar si el conjunto de reglas contendrá reglas de límite específicas para los canales de comunicación o para los recorridos. [Más información sobre las reglas de límite de recorrido y canal](#domain)
 
    ![](assets/rule-sets-create.png)
 
