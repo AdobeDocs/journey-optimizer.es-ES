@@ -4,10 +4,10 @@ description: Aprenda a aprovechar las herramientas de conflictos y priorización
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 2%
+source-wordcount: '403'
+ht-degree: 1%
 
 ---
 
@@ -24,6 +24,8 @@ Con la **herramienta de detección de conflictos**, puede identificar posibles s
 
 Además, **las puntuaciones de prioridad** le ayudan a controlar qué campañas o recorridos tienen prioridad cuando un cliente califica para varias comunicaciones. Esto resulta especialmente útil en canales entrantes como web y móvil, donde solo se puede mostrar una campaña a la vez. Al asignar una puntuación de prioridad a cada recorrido o campaña, puede asegurarse de que el mensaje más importante se envíe primero. [Aprenda a asignar puntuaciones de prioridad a recorridos y campañas](priority-scores.md)
 
-Por último, **límite y arbitraje de recorridos** le permite limitar la frecuencia y la cantidad de recorridos que un cliente puede ingresar en un lapso de tiempo determinado. Puede configurar reglas para limitar el número de entradas de recorrido de un perfil o el número de recorridos en los que se puede inscribir un cliente al mismo tiempo. Además, puede usar la configuración de arbitraje para decidir qué recorrido debe ingresar un cliente si cumple los requisitos para varios recorridos, usando puntuaciones de prioridad para determinar el mejor ajuste. [Aprenda a trabajar con la restricción y el arbitraje de recorridos](journey-capping.md)
+**límite y arbitraje de Recorridos** le permite limitar la frecuencia y la cantidad de recorridos que un cliente puede ingresar en un lapso de tiempo determinado. Puede configurar reglas para limitar el número de entradas de recorrido de un perfil o el número de recorridos en los que se puede inscribir un cliente al mismo tiempo. Además, puede usar la configuración de arbitraje para decidir qué recorrido debe ingresar un cliente si cumple los requisitos para varios recorridos, usando puntuaciones de prioridad para determinar el mejor ajuste. [Aprenda a trabajar con la restricción y el arbitraje de recorridos](journey-capping.md)
+
+Por último, también puede usar conjuntos de reglas para establecer un límite de **frecuencia por tipo de comunicación** (por ejemplo, Ventas, Promocional) a fin de evitar sobrecargar a los clientes con mensajes similares. Puede controlar la frecuencia en varios canales, excluyendo automáticamente los perfiles saturados para garantizar una mejor experiencia del cliente. [Aprenda a trabajar con conjuntos de reglas](../configuration/rule-sets.md)</li></ul>
 
 Al aprovechar estas funciones, puede garantizar esfuerzos de marketing más fluidos y orientados, enviando el mensaje correcto en el momento adecuado y evitando conflictos y sobrecargas.
