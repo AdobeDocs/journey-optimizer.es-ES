@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4de613f38865a3b4f177ce809e1e051f9211e86e
 workflow-type: tm+mt
 source-wordcount: '1911'
-ht-degree: 39%
+ht-degree: 79%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 39%
 
 ## Versión de octubre de 2024 {#24-10-rn}
 
-**Fecha de la versión**: 29 y 30 de octubre de 2024
+**Fecha de lanzamiento**: 29-30 de octubre de 2024
 
 ### Nuevas funciones {#24-10-features}
 
@@ -92,11 +92,11 @@ Esta versión incorpora las nuevas funciones detalladas a continuación:
 <tbody>
 <tr>
 <td>
-<p>En Journey Optimizer, administrar el volumen y el tiempo de las campañas y los recorridos es esencial para evitar abrumar a los clientes con demasiadas interacciones. Journey Optimizer ahora ofrece varias herramientas para la administración de conflictos y la priorización. <p>Para obtener más información, consulte la <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentación detallada</a>.</p></p><p><ul><li><b>Límite de frecuencia de Recorrido</b>: Ahora puede crear conjuntos de reglas para aplicarlos a sus recorridos, lo que le permite limitar el número de recorridos para un perfil por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.</li>
-<li><b>Puntuación de prioridad</b>: ahora puede asignar una puntuación de prioridad a una campaña o a un recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. Cuando dos campañas o acciones de recorrido utilizan la misma configuración de canal, Journey Optimizer selecciona la que tiene la puntuación de prioridad más alta. Si las campañas tienen la misma puntuación, se elige la campaña que se haya modificado menos recientemente.</li>
-<li><b>Ver conflictos potenciales</b>: El nuevo botón "Ver conflictos potenciales" en recorridos y campañas ahora le permite identificar la superposición con otros recorridos o campañas, como la fecha de inicio, la audiencia de destino o la configuración del canal seleccionado.</li>
-<li><b>Arbitraje de Recorridos</b>: esta nueva funcionalidad le permite priorizar los recorridos más importantes para sus clientes. Puede crear una regla para suprimir la entrada en un recorrido de prioridad inferior cuando un cliente cumpla los requisitos para un próximo recorrido de prioridad superior.</li>
-<li><b>Límite de frecuencia por tipo de comunicación: </b>Con los conjuntos de reglas, ahora puede establecer reglas granulares por tipo de comunicación (por ejemplo, Ventas, Promocional) para evitar sobrecargar a los clientes con mensajes similares. Puede controlar la frecuencia en varios canales, excluyendo automáticamente los perfiles saturados para garantizar una mejor experiencia del cliente.</li></ul>
+<p>En Journey Optimizer, administrar el volumen y la cronología de las campañas y los recorridos es esencial para evitar abrumar a los clientes con demasiadas interacciones. Journey Optimizer ahora ofrece varias herramientas para la administración de conflictos y la priorización. <p>Para obtener más información, consulte la <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentación detallada</a>.</p></p><p><ul><li><b>Restricción de frecuencia de recorrido</b>: ahora puede crear conjuntos de reglas para aplicarlos a sus recorridos, lo que le permite limitar el número de recorridos para un perfil por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.</li>
+<li><b>Puntuación de prioridad</b>: ahora puede asignar una puntuación de prioridad a una campaña o a un recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. Cuando dos campañas o acciones de viaje utilicen la misma configuración de canal, Journey Optimizer seleccionará la que tenga la puntuación de prioridad más alta. Si las campañas tienen la misma puntuación, se elegirá la campaña que se haya modificado en fecha menos reciente.</li>
+<li><b>Ver conflictos potenciales</b>: el nuevo botón “Ver conflictos potenciales” en recorridos y campañas ahora permite identificar la superposición con otros recorridos o campañas, como la fecha de inicio, el público de destino o la configuración del canal seleccionado.</li>
+<li><b>Arbitraje de recorridos</b>: esta nueva funcionalidad le permite priorizar los recorridos más importantes para sus clientes. Puede crear una regla para suprimir la entrada en un recorrido de prioridad inferior cuando un cliente cumpla los requisitos para un próximo recorrido de prioridad superior.</li>
+<li><b>Restricción de frecuencia por tipo de comunicación: </b>con los conjuntos de reglas, ahora puede establecer reglas granulares por tipo de comunicación (por ejemplo, Ventas, Promocional) para evitar sobrecargar a los clientes con mensajes similares. Puede controlar la frecuencia en varios canales, excluyendo automáticamente los perfiles saturados para garantizar una mejor experiencia del cliente.</li></ul>
 
 <img src="assets/do-not-localize/gif-conflict.gif">
 
@@ -111,14 +111,14 @@ Esta versión incorpora las nuevas funciones detalladas a continuación:
 <table>
 <thead>
 <tr>
-<th><strong>Integración de Adobe Journey Optimizer y tinta móvil</strong><br/></th>
+<th><strong>Integración de Adobe Journey Optimizer y Movable Ink</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede integrar Movable Ink Da Vinci y Adobe Journey Optimizer. Con esta nueva integración puede: </p>
-<p><ul><li>Aproveche las potentes capacidades del producto Da Vinci de Movable Ink para ensamblar y personalizar las variaciones de correo electrónico para las campañas por lotes</li>
+<p>Ahora puedes integrar Movable Ink Da Vinci y Adobe Journey Optimizer. Con esta actividad puedes: </p>
+<p><ul><li>Aprovechar las potentes funciones del producto Da Vinci de Movable Ink para combinar y personalizar las variaciones de correo electrónico para las campañas por lotes</li>
 <li>Acelere los flujos de trabajo de los profesionales para los clientes de Journey Optimizer que utilizan Da Vinci para la creación y Adobe Journey Optimizer para la optimización y el envío</li>
 <li>Optimizar los modelos Da Vinci con datos de Adobe.</li></ul></p>
 <p>Para obtener más información, consulte la <a href="https://movableink.com/adobe-and-movable-ink">documentación sobre Tinta móvil Da Vinci</a>.</p>
@@ -131,7 +131,7 @@ Antes disponibles para un conjunto de organizaciones (LA), ahora están disponib
 <table>
 <thead>
 <tr>
-<th><strong>Personalización de la configuración de correo electrónico (disponibilidad general) </strong><br/></th>
+<th><strong>Personalización de la configuración del correo electrónico (Disponibilidad general) </strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -150,7 +150,7 @@ Antes disponibles para un conjunto de organizaciones (LA), ahora están disponib
 <table>
 <thead>
 <tr>
-<th><strong>Aprobaciones en recorridos y campañas (disponibilidad general)</strong><br/></th>
+<th><strong>Aprobaciones en recorridos y campañas (Disponibilidad general)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -169,7 +169,7 @@ Antes disponibles para un conjunto de organizaciones (LA), ahora están disponib
 <table>
 <thead>
 <tr>
-<th><strong>Experimentación de contenido en recorrido (disponibilidad general)</strong><br/></th>
+<th><strong>Experimentación de contenido en recorridos (disponibilidad general)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -226,11 +226,11 @@ Antes disponibles para un conjunto de organizaciones (LA), ahora están disponib
 <tbody>
 <tr>
 <td>
-<p>La creación de informes de Journey Optimizer ya está disponible de forma general (GA) y ofrece una interoperabilidad mejorada con funciones de Customer Journey Analytics, estandarización de los informes en ambas plataformas y mejora de la coherencia y fiabilidad de los datos. Esta integración perfecta entre Journey Optimizer y Customer Journey Analytics proporciona una visión más clara de las métricas de rendimiento, lo que permite a los usuarios tomar decisiones más informadas.</p>
+<p>La creación de informes en Journey Optimizer ahora está disponible de manera general (GA) y cuenta con una interoperabilidad mejorada con las funciones de Customer Journey Analytics, estandarizando la creación de informes en ambas plataformas y mejorando la coherencia y fiabilidad de los datos. Esta integración perfecta entre Journey Optimizer y Customer Journey Analytics proporciona una visión más clara de las métricas de rendimiento, lo que permite a los usuarios tomar decisiones más informadas.</p>
 <p>Con General Availability, se han introducido cuatro nuevas funciones: la capacidad de crear métricas sencillas, crear y publicar audiencias, hacer preguntas ad-hoc mediante Insight Builder y programar informes para que se envíen automáticamente por correo electrónico a los destinatarios clave.</p>
 <p>Para obtener más información, consulte la <a href="../reports/report-cja-manage.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>Importante: La experiencia actual de creación de informes se eliminará a partir de enero de 2025. Después de esta fecha, la nueva experiencia de creación de informes pasará a ser el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas. <a href="../reports/report-gs-cja.md">Aprenda a empezar con la nueva interfaz de creación de informes de Journey Optimizer</a></p>
+<p>Importante: La experiencia actual de creación de informes se eliminará a partir de enero de 2025. Después de esta fecha, la nueva experiencia de creación de informes pasará a ser el estándar. Le recomendamos que se familiarice con las nuevas características y funcionalidades para garantizar una transición sin problemas. <a href="../reports/report-gs-cja.md">Aprenda a empezar con la nueva interfaz de creación de informes de Journey Optimizer</a></p>
 <p>Disponible desde el 16 de octubre de 2024</p>
 </tr>
 </tbody>
@@ -241,7 +241,7 @@ Antes disponibles para un conjunto de organizaciones (LA), ahora están disponib
 <table>
 <thead>
 <tr>
-<th><strong>Prueba del contenido con datos de entrada de ejemplo (Beta)</strong><br/></th>
+<th><strong>Prueba del contenido con datos de entrada de muestra (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -295,7 +295,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 <!--* **Path experiment in journeys** - With the journey path experiment, you can now define and track key metrics for your journey paths, allowing you to measure the impact of your activities and to provide clearer insights into your performance. -->
 
-&lt;!—* **Número máximo de recorridos activos**: Journey Optimizer ahora tiene una protección de 500 recorridos activos en zonas protegidas de producción, en lugar de 100. El número de recorridos activos es visible en el lienzo de recorrido. <!-- DOCAC-10977-->
+&lt;!--* **Número máximo de recorridos activos**: Journey Optimizer ahora tiene un mecanismo de protección de 500 recorridos activos en zonas protegidas de producción, en lugar de 100. El número de recorridos activos es visible en el lienzo de recorrido. <!-- DOCAC-10977-->
 
 **Canal web**
 
@@ -304,9 +304,9 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Conjuntos de datos**
 
-* **Enviar y abrir eventos**: a partir del 1 de noviembre de 2024, la segmentación de transmisión ya no admitirá el uso de eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios de Journey Optimizer. Este cambio se aplicará a todas las zonas protegidas y organizaciones de clientes. [Más información](../data/datasets-ttl.md#segmentation-update)
+* **Enviar y abrir eventos**: a partir del 1 de noviembre de 2024, la segmentación de streaming ya no admitirá el uso de eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios de Journey Optimizer. Este cambio se aplicará a todas las zonas protegidas y organizaciones de clientes. [Más información](../data/datasets-ttl.md#segmentation-update)
 
-* **Tiempo de vida del conjunto de datos (TTL)**: a partir de febrero de 2025, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en los nuevos entornos limitados y organizaciones de la siguiente manera:
+* **Tiempo de vida del conjunto de datos (TTL)**: a partir de febrero de 2025, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en las nuevas zona protegidas y organizaciones de la siguiente manera:
 
    * 90 días para los datos en el almacén de perfiles
    * 13 meses para los datos en el lago de datos
@@ -337,13 +337,13 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Configuración** - Fecha de disponibilidad: 23 de octubre de 2024
 
-* Al utilizar una configuración personalizada en una campaña o un recorrido, ahora puede obtener una vista previa del contenido del correo electrónico para comprobar posibles errores con la configuración dinámica definida. [Más información](../email/surface-personalization.md#check-configuration)
+* Al utilizar una configuración personalizada en una campaña o un recorrido, ahora puedes obtener una vista previa del contenido del correo electrónico para comprobar posibles errores con la configuración dinámica definida. [Más información](../email/surface-personalization.md#check-configuration)
 
 **Canal basado en código**
 
 * Ya están disponibles las plantillas de contenido. Puede acelerar la creación de experiencias basadas en código a partir de una plantilla de contenido creada por los desarrolladores. El uso de una plantilla de contenido permite al experto en marketing modificar algunos valores o campos, en lugar de crear todo el HTML o la carga útil de contenido JSON. [Más información](../content-management/content-templates.md)
 
-**Toma de decisiones**
+**Decisioning**
 
 <!--* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) users can now choose custom models to optimize on when setting up an AI model in Decisioning (formerly known as Experience Decisioning). This allows you, for example, to optimize on a custom "purchases" table rather than defined constraints such as clickthrough rate."-->
 

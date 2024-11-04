@@ -9,7 +9,7 @@ exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 83%
+ht-degree: 94%
 
 ---
 
@@ -95,7 +95,7 @@ Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia bas
 
 * Edite el contenido utilizando el [editor de personalización](create-code-based.md#edit-code).
 * La experiencia basada en código requiere un trabajo de desarrollo previo en la implementación para garantizar que las aplicaciones puedan interpretar y entregar el contenido publicado en el perímetro por [!DNL Journey Optimizer] para estas ubicaciones. [Más información](code-based-configuration.md#surface-definition)
-* Requiere más planificación y solo puede cambiar las cosas que especifican los desarrolladores. Por lo tanto, es esencial identificar los componentes (titular de inicio, imagen principal, barra de menús, etc.) en las aplicaciones que deben modificarse para la personalización o la prueba, y trabajar con su equipo de desarrollo para crear la implementación necesaria para gestionar estos cambios.
+* Requiere más planificación y solo puede cambiar las cosas que especifican los desarrolladores. Por lo tanto, es esencial identificar los componentes (titular, imagen a pantalla completa, barra de menús, etc.) de las aplicaciones que deben modificarse para la personalización o prueba, y trabajar con el equipo de desarrollo para crear la implementación necesaria para gestionar estos cambios.
 * Le permite utilizar contenido con código JSON.
 * Se centra en el desarrollador.
 
@@ -103,9 +103,9 @@ Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia bas
 
 >[!CAUTION]
 >
->Esta funcionalidad es para desarrolladores y/o usuarios experimentados. Los especialistas en marketing con algunas habilidades de escritura de código pueden utilizarlo, siempre y cuando las configuraciones de canal y la configuración inicial sean administradas por el equipo de desarrollo.
+>Esta funcionalidad es para desarrolladores y/o usuarios experimentados. Puede ser utilizado por vendedores con algunas habilidades de escritura de código, siempre que las configuraciones de los canales y la configuración inicial corran a cargo de su equipo de desarrollo.
 
-Para editar el contenido utilizando la funcionalidad de experiencia basada en código de [!DNL Journey Optimizer], sus páginas o aplicaciones deben estar instrumentadas. Para ello, debe declarar por adelantado las ubicaciones individuales específicas (denominadas &quot;[superficies](code-based-configuration.md#surface-definition)&quot;) en las que desea insertar o reemplazar contenido.
+Para editar el contenido utilizando la funcionalidad de experiencia basada en código de [!DNL Journey Optimizer], sus páginas o aplicaciones deben estar instrumentadas. Para ello, debe declarar por adelantado las ubicaciones individuales específicas (denominadas “[superficies](code-based-configuration.md#surface-definition)”) donde desee insertar o reemplazar contenido.
 
 >[!NOTE]
 >
@@ -113,9 +113,9 @@ Para editar el contenido utilizando la funcionalidad de experiencia basada en c�
 
 Los pasos clave para implementar una campaña basada en código se explican a continuación.
 
-1. Defina una [superficie](code-based-configuration.md#surface-definition) en la implementación de su aplicación, que básicamente es la ubicación donde desea agregar su experiencia basada en código, y cree una configuración de canal de experiencia basada en código que haga referencia a esa ubicación. [Descubra cómo](code-based-configuration.md#create-code-based-configuration)
+1. Defina una [superficie](code-based-configuration.md#surface-definition) en la implementación de su aplicación, que es básicamente la ubicación donde quiera añadir su experiencia basada en código, y crea una configuración de canal de experiencia basada en código que haga referencia a esa ubicación. [Descubra cómo](code-based-configuration.md#create-code-based-configuration)
 
-1. Cree un recorrido o una campaña en [!DNL Journey Optimizer] con esta configuración. [Descubra cómo](create-code-based.md#create-code-based-campaign)
+1. Crea un recorrido o campaña en [!DNL Journey Optimizer] utilizando esta configuración. [Descubra cómo](create-code-based.md#create-code-based-campaign)
 
 1. Componga una experiencia especificando contenido para la configuración seleccionada mediante el editor de personalización de [!DNL Journey Optimizer]. [Descubra cómo](create-code-based.md#edit-code)
 

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
 workflow-type: tm+mt
 source-wordcount: '2161'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -177,9 +177,9 @@ ht-degree: 93%
    + [Activación de campañas mediante las API](using/campaigns/api-triggered-campaigns.md)
 + Administración de conflictos y priorización {#conflict-prioritization}
    + [Introducción a la administración y priorización de conflictos](using/conflict-prioritization/gs-conflict-prioritization.md)
-   + [Identificación de posibles conflictos](using/conflict-prioritization/conflicts.md)
+   + [Identificar posibles conflictos](using/conflict-prioritization/conflicts.md)
    + [Asignar puntuaciones de prioridad](using/conflict-prioritization/priority-scores.md)
-   + [límite y arbitraje de recorridos](using/conflict-prioritization/journey-capping.md)
+   + [Límite y arbitraje de recorrido](using/conflict-prioritization/journey-capping.md)
 + Prueba y aprobación {#test}
    + Vista previa y prueba del contenido {#preview-test}
       + [Introducción a la vista previa y prueba](using/content-management/preview-test.md)
@@ -299,7 +299,7 @@ ht-degree: 93%
       + [Configurar subdominios de página de aterrizaje](using/landing-pages/lp-subdomains.md)
       + [Definir ajustes preestablecidos de página de aterrizaje](using/landing-pages/lp-presets.md)
 + Gestión de contenido {#content-management}
-   + Trabajar con el asistente de IA{#ai-assistant}
+   + Trabajo con el Asistente de IA{#ai-assistant}
       + [Introducción al acelerador de contenido del Asistente de IA](using/content-management/gs-generative.md)
       + [Generación de correo electrónico con IA](using/content-management/generative-email.md)
       + [Generación de push con IA](using/content-management/generative-push.md)
@@ -389,9 +389,9 @@ ht-degree: 93%
       + [Informe en vivo de la campaña](using/reports/campaign-live-report.md)
       + [Informe en directo de la página de aterrizaje](using/reports/lp-report-live.md)
       + [Informe en directo de la lista de suscripciones](using/reports/subscription-report-live.md)
-   + Se actualizó la experiencia de informes{#channel-report}
-      + [Introducción a la experiencia actualizada de creación de informes](using/reports/report-gs-cja.md)
-      + [Configurar el Customer Journey Analytics manualmente](using/reports/cja-ajo.md)
+   + Se actualizó la experiencia de creación de informes{#channel-report}
+      + [Introducción a la experiencia de creación de informes actualizada](using/reports/report-gs-cja.md)
+      + [Configurar Customer Journey Analytics manualmente](using/reports/cja-ajo.md)
       + [Administración de informes](using/reports/report-cja-manage.md)
       + [Requisitos previos de creación de informes y experimentación](using/reports/reporting-configuration.md)
       + Informes de campaña{#reporting}
@@ -401,7 +401,7 @@ ht-degree: 93%
          + [Informe de campaña de correo directo](using/reports/campaign-global-report-cja-direct.md)
          + [Informe de campaña de correo electrónico](using/reports/campaign-global-report-cja-email.md)
          + [Informe de campaña de experimentación](using/reports/campaign-global-report-cja-experimentation.md)
-         + [Informe de campaña en la aplicación](using/reports/campaign-global-report-cja-inapp.md)
+         + [Informe de campaña in-app](using/reports/campaign-global-report-cja-inapp.md)
          + [Informe de campaña de notificaciones push](using/reports/campaign-global-report-cja-push.md)
          + [Informe de campaña de SMS](using/reports/campaign-global-report-cja-sms.md)
          + [Informe de campaña web](using/reports/campaign-global-report-cja-web.md)
@@ -411,8 +411,8 @@ ht-degree: 93%
          + [Informe de recorrido de tarjeta de contenido](using/reports/journey-global-report-cja-content.md)
          + [Informe de recorrido de correo directo](using/reports/journey-global-report-cja-direct.md)
          + [Informe de recorrido de correo electrónico](using/reports/journey-global-report-cja-email.md)
-         + [Informe de recorrido en la aplicación](using/reports/journey-global-report-cja-inapp.md)
-         + [Informe de recorridos push](using/reports/journey-global-report-cja-push.md)
+         + [Informe de recorrido in-app](using/reports/journey-global-report-cja-inapp.md)
+         + [Informe de recorrido push](using/reports/journey-global-report-cja-push.md)
          + [Informe de recorrido de SMS](using/reports/journey-global-report-cja-sms.md)
          + [Informe de recorrido web](using/reports/journey-global-report-cja-web.md)
       + [Informe de información general](using/reports/channel-report-cja.md)
@@ -453,7 +453,7 @@ ht-degree: 93%
          + [Acerca de la Gestión de decisiones](using/offers/get-started/starting-offer-decisioning.md)
          + [Interfaz de usuario](using/offers/get-started/user-interface.md)
          + [Pasos clave para crear y administrar ofertas](using/offers/offer-library/key-steps.md)
-         + [Aprovechamiento de las audiencias de carga personalizadas para la toma de decisiones](using/offers/custom-upload-decisioning.md)
+         + [Aprovechamiento de los públicos de carga personalizados para la toma de decisiones](using/offers/custom-upload-decisioning.md)
          + [Caso práctico: insertar ofertas en un correo electrónico](using/offers/offers-e2e.md)
       + Crear componentes {#create-components}
          + [Crear ubicaciones](using/offers/offer-library/creating-placements.md)

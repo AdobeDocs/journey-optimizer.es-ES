@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
 source-wordcount: '5707'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -25,9 +25,9 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Todos los canales de comunicación disponibles en [!DNL Journey Optimizer] se agrupan ahora en una sección dedicada de la documentación. [Más información](../channels/gs-channels.md)
 * Se ha mejorado la página **Configurar la experiencia basada en código** para que el proceso sea más claro, incluida la sección que explica qué es un URI de superficie. [Más información](../code-based/code-based-configuration.md)
 * La página **Crear configuración de canal web** se ha actualizado para aclarar los pasos al crear una regla de coincidencia de páginas, que también se aplican a la configuración de experiencias basadas en código. [Más información](../web/web-configuration.md#web-page-matching-rule)
-* Se ha añadido una nota sobre la próxima protección del tiempo de vida (TTL) para los conjuntos de datos generados por el sistema. [Más información](../data/get-started-datasets.md)
+* Se ha añadido una nota sobre el próximo mecanismo de protección del tiempo de vida (TTL) para los conjuntos de datos generados por el sistema. [Más información](../data/get-started-datasets.md)
 * Se ha añadido una nueva sección para describir cómo obtener una vista previa de las experiencias personalizadas basadas en código directamente en el explorador o en los dispositivos móviles, mediante la opción Vista previa en el dispositivo al simular contenido en un recorrido o una campaña. [Más información](../code-based/create-code-based.md#preview-on-device)
-* Se ha añadido una nueva página sobre cómo aprovechar las audiencias de carga personalizadas para la toma de decisiones. [Más información](../offers/custom-upload-decisioning.md)
+* Se ha añadido una nueva página sobre cómo aprovechar los públicos de carga personalizados para la toma de decisiones. [Más información](../offers/custom-upload-decisioning.md)
 
 ## Septiembre de 2024 {#sept-2024}
 
@@ -35,7 +35,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Se ha añadido una sección sobre la administración de reintentos de recorrido. [Más información](../building-journeys/read-audience.md#read-audience-retry)
 * Se ha actualizado la pregunta frecuente sobre la regla de límite/restricción para las acciones personalizadas con el fin de mencionar la regla de límite predeterminada. [Más información](../configuration/external-systems.md#faq)
 * La sección Control de acceso se ha actualizado con permisos relacionados con el generador de contenido del Asistente de IA. [Más información](../administration/high-low-permissions.md#ai-permission)
-* Se ha añadido un vídeo sobre el Generador de contenido del asistente de IA para la generación de correo electrónico. [Más información](../content-management/generative-email.md#video)
+* Se ha añadido un vídeo sobre el generador de contenido del Asistente de IA para la generación de correo electrónico. [Más información](../content-management/generative-email.md#video)
 
 
 ## Agosto de 2024 {#aug-2024}
