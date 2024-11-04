@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Prueba del contenido con datos de entrada de ejemplo (Beta)
-description: Obtenga información sobre cómo obtener una vista previa del contenido y enviar pruebas por correo electrónico con datos de entrada de ejemplo.
-feature: Overview, Get Started
+description: Obtenga información sobre cómo obtener una vista previa del contenido y enviar una prueba por correo electrónico con datos de entrada de ejemplo de un archivo CSV o JSON o añadidos manualmente.
+feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta"
-source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
+source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >Actualmente, esta función está disponible para todos los clientes como una versión beta pública.
 
-Recorrido Optimizer le permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas utilizando datos de entrada de muestra cargados desde un archivo o añadidos manualmente. El sistema detecta automáticamente todos los atributos de perfiles utilizados en el contenido para la personalización y los puede utilizar en las pruebas para crear varias variantes.
+Recorrido Optimizer le permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV o JSON o añadidos manualmente. El sistema detecta automáticamente todos los atributos de perfiles utilizados en el contenido para la personalización y los puede utilizar en las pruebas para crear varias variantes.
 
 >[!NOTE]
 >
