@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 12%
+source-wordcount: '630'
+ht-degree: 11%
 
 ---
 
@@ -19,6 +19,16 @@ ht-degree: 12%
 >id="ajo_decisioning_placement"
 >title="Colocación"
 >abstract="Una ubicación es un contenedor que se utiliza para mostrar ofertas. Ayuda a garantizar que se muestra el contenido de oferta correcto en la ubicación correcta dentro del mensaje. Las ubicaciones se crean desde el menú “Componentes”."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_request"
+>title="Configuración de solicitudes"
+>abstract="Habilite la opción **[!UICONTROL Permitir duplicados entre ubicaciones]** para que el sistema considere la misma oferta para varias ubicaciones. Utilice el campo **[!UICONTROL Solicitar oferta]** para ajustar el número de ofertas devueltas. Por ejemplo, si selecciona 2, se mostrarán las 2 mejores ofertas para el ámbito de decisión seleccionado."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_response"
+>title="Formato de respuesta"
+>abstract="Las opciones **[!UICONTROL Incluir contenido]** e **[!UICONTROL Incluir metadatos]** le permiten especificar si el contenido y los metadatos de la oferta deben devolverse en la respuesta de la API. Solo puede incluir todos los metadatos o campos específicos. De forma predeterminada, el valor Include metadata se establece en true."
 
 Una ubicación ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje. Al agregar contenido a una oferta, se le pedirá que seleccione una ubicación en la que se pueda mostrar dicho contenido.
 
@@ -46,7 +56,6 @@ Para crear una ubicación, siga estos pasos:
    * **[!UICONTROL Descripción]**: Una descripción de la ubicación (opcional).
 
    ![](../assets/offers_placement_creation_properties.png)
-
 
 1. Las secciones **[!UICONTROL Solicitar configuración]** y **[!UICONTROL Formato de respuesta]** proporcionan parámetros adicionales:
 

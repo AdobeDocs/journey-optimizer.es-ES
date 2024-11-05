@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 8%
+source-wordcount: '463'
+ht-degree: 7%
 
 ---
 
@@ -19,6 +19,26 @@ ht-degree: 8%
 >id="ajo_decisioning_decision_collection"
 >title="Acerca de las colecciones de ofertas"
 >abstract="Con las colecciones de ofertas, puede organizar las ofertas reagrupándolas en las categorías que desee."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_dynamic"
+>title="Colección dinámica"
+>abstract="Utilice calificadores de colección para calificar dinámicamente ofertas para una colección."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_static"
+>title="Colección estática"
+>abstract="Seleccione y agrupe ofertas manualmente según criterios como estado, calificadores de recopilación, fecha y canal."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_static_select"
+>title="Vista previa de colección estática"
+>abstract="Las colecciones estáticas se crean seleccionando manualmente ofertas individuales para incluirlas en la colección. La colección solo se puede actualizar añadiendo manualmente más ofertas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_dynamic_select"
+>title="Vista previa de colección dinámica"
+>abstract="Las colecciones dinámicas recopilan ofertas basadas en calificadores de colección. Estas colecciones se actualizan automáticamente. Por ejemplo, si se crea una oferta nueva con el calificador de colección &quot;deportes&quot;, se añade automáticamente a la colección correspondiente."
 
 Las colecciones le permiten organizar sus ofertas reagrupándolas en categorías de su elección. Por ejemplo, puede crear una colección &quot;sport&quot; que contenga únicamente ofertas relacionadas con el deporte.
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 10%
+source-wordcount: '804'
+ht-degree: 11%
 
 ---
 
@@ -38,6 +38,16 @@ Se puede acceder a la lista de ofertas personalizadas en el menú **[!UICONTROL 
 >id="ajo_decisioning_offer_attributes"
 >title="Atributos de oferta"
 >abstract="Con los atributos de oferta, puede asociar pares de valores clave con la oferta para realizar informes y análisis."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_personalized"
+>title="Oferta personalizada"
+>abstract="Una oferta personalizada es un mensaje personalizable basado en criterios de idoneidad y restricciones."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_fallback"
+>title="Oferta de reserva"
+>abstract="Una oferta de reserva es la oferta predeterminada que se muestra cuando un usuario final no cumple los requisitos para ninguna de las ofertas personalizadas."
 
 Para crear una **oferta**, siga estos pasos:
 

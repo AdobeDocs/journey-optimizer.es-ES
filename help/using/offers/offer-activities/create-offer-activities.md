@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2511'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,11 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
 ## Creación de la decisión {#create-activity}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_details"
+>title="Detalles de decisión de oferta"
+>abstract="Especifique el nombre de la decisión y defina una fecha y hora de inicio y finalización si es necesario. Para asignar etiquetas de uso de datos principales o personalizadas a la decisión, selecciona **[!UICONTROL Administrar acceso]**."
+
 1. Acceda a la lista de decisiones y haga clic en **[!UICONTROL Crear decisión]**.
 
 1. Especifique el nombre de la decisión.
@@ -43,6 +48,21 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 1. Para asignar etiquetas de uso de datos principales o personalizadas a la decisión, selecciona **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../../administration/object-based-access.md)
 
 ## Definir ámbitos de decisión {#add-decision-scopes}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_scopes"
+>title="Ámbitos de decisión"
+>abstract="Configure uno o varios ámbitos para la decisión de oferta a fin de determinar las ofertas que se mostrarán. Para ello, seleccione una ubicación y los criterios de evaluación asociados a ella."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_placement"
+>title="Colocación"
+>abstract="Seleccione una ubicación a la que se enviarían las ofertas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_evaluation"
+>title="Criterios de evaluación"
+>abstract="Los criterios de evaluación consisten en una colección de ofertas asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se mostrarán en la ubicación. La secuencia de criterios de evaluación determina qué colección se evaluará primero. Se requiere al menos un criterio de evaluación."
 
 1. Seleccione una ubicación en la lista desplegable. Se añadirá al primer ámbito de decisión de la decisión.
 
@@ -285,6 +305,11 @@ La selección es la siguiente:
 +++
 
 ## Añadir una oferta de reserva {#add-fallback}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_fallback"
+>title="Añadir una oferta de fackback"
+>abstract="Una vez definidos los ámbitos de decisión, defina la oferta de reserva que se presentará como último recurso a los clientes que no coincidan con las restricciones y reglas de idoneidad de las ofertas."
 
 Una vez definidos los ámbitos de decisión, defina la oferta de reserva que se presentará como último recurso a los clientes que no coincidan con las restricciones y reglas de idoneidad de las ofertas.
 

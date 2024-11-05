@@ -7,9 +7,9 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '480'
 ht-degree: 6%
 
 ---
@@ -23,6 +23,11 @@ ht-degree: 6%
 >Para crear, editar o eliminar modelos de IA, debe tener el permiso **Administrar estrategias de clasificación**. [Más información](../../administration/high-low-permissions.md#manage-ranking-strategies)
 
 ## Creación de un modelo de IA {#create-ranking-strategy}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_ai_model_metric"
+>title="Métrica de optimización"
+>abstract="[!DNL Journey Optimizer] clasifica ofertas según la **tasa de conversión** (tasa de conversión = número total de eventos de conversión / número total de eventos de impresión). La tasa de conversión se calcula usando dos tipos de métricas: **Eventos de impresión** (ofertas que se muestran) y **Eventos de conversión** (ofertas que generan clics por correo electrónico o web). Estos eventos se capturan automáticamente mediante el SDK web o el SDK móvil proporcionado."
 
 Para crear un modelo de IA, siga los pasos a continuación:
 
