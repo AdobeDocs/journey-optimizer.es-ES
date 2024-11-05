@@ -36,7 +36,7 @@ Antes de poder generar este archivo, debe crear lo siguiente:
 >id="ajo_dm_file_routing_details"
 >title="Definir la configuración de enrutamiento de archivos"
 >abstract="Después de crear un mensaje de correo directo, el archivo que contiene los datos de audiencia de destino se genera y exporta a un servidor. Debe especificar los detalles del servidor para que su proveedor de correo directo pueda acceder y utilizar ese archivo para enviar correo directo."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="Crear un mensaje de correo directo"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="Crear un mensaje de correo directo"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -168,7 +168,7 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 >id="ajo_dm_surface_settings"
 >title="Definir la configuración del correo directo"
 >abstract="Una configuración de correo directo dispone de la configuración para el formato del archivo que contiene los datos de la audiencia de destino y que utilizará el proveedor de correo. También debe definir dónde se exportará el archivo seleccionando la configuración de enrutamiento del archivo."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="Configurar el enrutamiento de archivos"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="Configurar el enrutamiento de archivos"
 
 <!--
 >[!CONTEXTUALHELP]

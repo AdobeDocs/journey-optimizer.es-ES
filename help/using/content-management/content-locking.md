@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 7%
+ht-degree: 32%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"
 >title="Gobernanza"
->abstract="Active la gobernanza para bloquear el contenido en la plantilla, ya sea bloqueando toda la plantilla o estructuras y componentes específicos. Esto le permite evitar ediciones o eliminaciones no intencionadas, lo que le proporciona un mayor control sobre la personalización de las plantillas y mejora la eficacia y fiabilidad de sus campañas de correo electrónico."
+>abstract="Active la gobernanza para bloquear contenido de la plantilla, ya sea bloqueando la plantilla completa o estructuras y componentes específicos. Esto le permite evitar ediciones o eliminaciones no intencionadas, lo que le proporciona un mayor control sobre la personalización de las plantillas y mejora la eficacia y fiabilidad de sus campañas de correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_mode"
@@ -28,7 +28,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_locking_content_addition"
 >title="Habilitar adición de contenido"
->abstract="Active esta opción para definir más cómo pueden interactuar los usuarios con la plantilla. Seleccione **Permitir la adición de estructura y contenido** para permitir que los usuarios agreguen estructuras entre las existentes y agreguen componentes de contenido o fragmentos dentro de estructuras editables. **Permitir solo la adición de contenido** permite a los usuarios agregar componentes de contenido o fragmentos dentro de estructuras editables sin poder agregar ni duplicar estructuras."
+>abstract="Active esta opción para definir con mayor precisión cómo pueden interactuar los usuarios con la plantilla. Seleccione **Permitir la adición de estructura y contenido** para permitir que los usuarios añadan estructuras entre las existentes y añadan componentes de contenido o fragmentos dentro de estructuras editables. **Permitir solo la adición de contenido** permite a los usuarios añadir componentes de contenido o fragmentos dentro de estructuras editables sin poder añadir ni duplicar estructuras."
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
@@ -98,12 +98,12 @@ Puede ajustar la configuración de **[!UICONTROL Governance]** en cualquier mome
 
 ![](assets/template-lock-body.png)
 
-### Bloquear estructuras {#lock-structures}
+### Bloqueo de estructuras {#lock-structures}
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_structure"
 >title="Bloqueo de contenido en la estructura"
->abstract="Para bloquear la estructura en la plantilla, selecciona **Bloqueado** en la lista desplegable **Tipo de bloqueo**. De forma predeterminada, los usuarios no pueden eliminar las estructuras bloqueadas. Puede anular esta restricción habilitando la opción **[!UICONTROL Permitir eliminación]**."
+>abstract="Para bloquear la estructura de la plantilla, seleccione **Bloqueado** en el menú desplegable **Tipo de bloqueo**. De forma predeterminada, los usuarios no pueden eliminar las estructuras bloqueadas. Puede anular esta restricción habilitando la opción **[!UICONTROL Permitir eliminación]**."
 
 Para bloquear una estructura dentro de la plantilla:
 
@@ -127,12 +127,12 @@ Después de bloquear una estructura, no se pueden duplicar ni agregar más compo
 
    ![](assets/template-lock-editable-component.png)
 
-### Bloquear componentes {#lock-components}
+### Bloqueo de componentes {#lock-components}
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_component"
 >title="Utilizar bloqueo específico en el componente"
->abstract="Para bloquear el componente en la plantilla, active la opción **Usar bloqueo específico**. En la lista desplegable **[!UICONTROL Bloquear tipo]**, seleccione la opción de bloqueo que prefiera: **Solo bloqueo de contenido editable** le permite bloquear los estilos del componente, pero permite editar contenido, mientras que **Bloqueado** bloquea completamente tanto el contenido como los estilos del componente."
+>abstract="Para bloquear el componente de la plantilla, active la opción **Utilizar bloqueo específico**. En el menú desplegable **[!UICONTROL Bloquear tipo]**, seleccione la opción de bloqueo que prefiera: **Solo bloqueo de contenido editable** le permite bloquear los estilos del componente, pero permite editar contenido, mientras que **Bloqueado** bloquea completamente tanto el contenido como los estilos del componente."
 
 Para bloquear un componente específico dentro de una estructura:
 
@@ -176,8 +176,8 @@ Por ejemplo, en la plantilla siguiente, todas las áreas son editables, excepto 
 
 Para obtener información detallada sobre los distintos tipos de bloqueo que se pueden aplicar, consulte estas secciones:
 
-* [Bloquear estructuras](#lock-structures)
-* [Bloquear componentes](#lock-components)
+* [Bloqueo de estructuras](#lock-structures)
+* [Bloqueo de componentes](#lock-components)
 
 Estos son algunos ejemplos de edición de correos electrónicos y de la configuración de bloqueo de contenido asociada que se ha configurado:
 

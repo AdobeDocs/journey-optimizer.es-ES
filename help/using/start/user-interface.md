@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
 source-wordcount: '1434'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -280,5 +280,5 @@ Para cambiar el idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="Habilitar toma de decisiones"
->abstract="Habilitar toma de decisiones"
+>title="Habilitar la toma de decisiones"
+>abstract="Habilitar la toma de decisiones"
