@@ -1,18 +1,33 @@
 ---
-title: límite y arbitraje de recorridos
+title: Límite y arbitraje de recorrido
 description: Obtenga información sobre cómo crear reglas de límite para los recorridos y cómo arbitrar la entrada de recorridos
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 1%
+source-wordcount: '864'
+ht-degree: 19%
 
 ---
 
 
-# límite y arbitraje de recorridos {#journey-capping}
+# Límite y arbitraje de recorrido {#journey-capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_capping_rule"
+>title="Aplicar conjunto de reglas a los recorridos"
+>abstract="Aplique un conjunto de reglas para excluir este recorrido aparte del público según las reglas de restricción de frecuencia."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="Priorización de cara al futuro"
+>abstract=" Si se programa un recorrido de mayor prioridad dentro del período de tiempo especificado aquí, se impedirá que el cliente entre en este recorrido. Para situaciones en las que desea que los recorridos se incluyan por orden de llegada, le sugerimos que elija el periodo de actualización Diario y que garantice que la puntuación de prioridad de cualquier otro recorrido de ese día sea menor que la puntuación de prioridad del recorrido. Proporcionar una puntuación de prioridad de 100 a un recorrido también garantizaría que se inicie."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_prioritization"
+>title="Tener en cuenta la priorización"
+>abstract="Por determinar"
 
 >[!AVAILABILITY]
 >

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1305'
 ht-degree: 100%
 
 ---
@@ -196,39 +196,7 @@ Para cambiar el idioma:
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
-<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
 
->[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="Tipo de objeto"
->abstract="Tipo de objeto"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="Aplicar conjunto de reglas a los recorridos"
->abstract="Aplique un conjunto de reglas para excluir este recorrido aparte del público según las reglas de restricción de frecuencia."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="Tipo de regla"
->abstract="Tipo de regla"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="Límite de reglas"
->abstract="Límite de reglas"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="Priorización de cara al futuro"
->abstract=" Si se programa un recorrido de mayor prioridad dentro del período de tiempo especificado aquí, se impedirá que el cliente entre en este recorrido. Para situaciones en las que desea que los recorridos se incluyan por orden de llegada, le sugerimos que elija el periodo de actualización Diario y que garantice que la puntuación de prioridad de cualquier otro recorrido de ese día sea menor que la puntuación de prioridad del recorrido. Proporcionar una puntuación de prioridad de 100 a un recorrido también garantizaría que se inicie."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="Tener en cuenta la priorización"
->abstract="Por determinar"
-
-<!--TO REMOVE?-->
 
 <!--CONTENT LOCKING-->
 

@@ -10,14 +10,29 @@ level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 badge: label="Disponibilidad limitada"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9c49786385db782bd2fa70b19003261284e980a5
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '1924'
-ht-degree: 10%
+source-wordcount: '1936'
+ht-degree: 11%
 
 ---
 
 # Trabajar con conjuntos de reglas {#rule-sets}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_domain"
+>title="Tipo de objeto"
+>abstract="Tipo de objeto"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_type"
+>title="Tipo de regla"
+>abstract="Tipo de regla"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="Límite de reglas"
+>abstract="Límite de reglas"
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
