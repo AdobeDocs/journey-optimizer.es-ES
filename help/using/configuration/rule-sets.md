@@ -10,34 +10,19 @@ level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 badge: label="Disponibilidad limitada"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '1936'
-ht-degree: 11%
+source-wordcount: '1950'
+ht-degree: 6%
 
 ---
 
 # Trabajar con conjuntos de reglas {#rule-sets}
 
 >[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="Tipo de objeto"
->abstract="Tipo de objeto"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="Tipo de regla"
->abstract="Tipo de regla"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="Límite de reglas"
->abstract="Límite de reglas"
-
->[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Conjuntos de reglas"
->abstract="Utilice conjuntos de reglas para aplicar límites de frecuencia a diferentes tipos de comunicaciones de marketing. Por ejemplo, puede crear un conjunto de reglas para limitar el número de **comunicaciones promocionales** que se han enviado a sus clientes y crear otro conjunto de reglas para limitar el número de **boletines** que se les ha enviado."
+>abstract="Utilice conjuntos de reglas para aplicar límites de frecuencia a diferentes tipos de comunicaciones de marketing. También puede crear conjuntos de reglas para excluir recorridos de parte de la audiencia en función de las reglas de restricción de frecuencia."
 
 >[!AVAILABILITY]
 >
@@ -65,7 +50,12 @@ Además de este conjunto de reglas predeterminado global, puede crear **conjunto
 
 ### Reglas de límite de canal y recorridos {#domain}
 
-Al crear un conjunto de reglas, debe especificar si las reglas dentro del conjunto de reglas aplicarán reglas de límite específicas a los canales de comunicación o a los recorridos.  Para ello, seleccione un Canal o un dominio de Recorrido para el conjunto de reglas al crearlo. [Aprenda a crear un conjunto de reglas](#create)
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_domain"
+>title="Dominio del conjunto de reglas"
+>abstract="Al crear un conjunto de reglas, debe especificar si las reglas dentro del conjunto de reglas aplicarán reglas de límite específicas a los canales de comunicación o a los recorridos."
+
+Al crear un conjunto de reglas, debe especificar si las reglas dentro del conjunto de reglas aplicarán reglas de límite específicas a los canales de comunicación o a los recorridos. Para ello, seleccione un Canal o un dominio de Recorrido para el conjunto de reglas al crearlo. [Aprenda a crear un conjunto de reglas](#create)
 
 * Dominio **Channel**: aplique reglas de límite para los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día.
 * Dominio **Recorrido**: aplique reglas de límite de entrada y concurrencia a un recorrido. Por ejemplo, no introduzca perfiles en más de un recorrido simultáneamente.
@@ -101,10 +91,11 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 >title="Seleccione la categoría de regla de mensaje"
 >abstract="Cuando está activada y se aplica a un mensaje, todas las reglas de frecuencia que coincidan con la categoría seleccionada se aplican automáticamente a este mensaje. Actualmente, solo está disponible la categoría Marketing."
 
->[!CONTEXTUALHELP]
+<!--NOT USED?
+[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
->title="Establezca el límite de la regla"
->abstract="Especifique el número máximo de mensajes enviados a un perfil de cliente en el lapso de tiempo elegido. El límite de frecuencia se basará en el período de calendario seleccionado y se restablecerá al principio del lapso de tiempo correspondiente."
+>title="Set the capping for your rule"
+>abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -115,6 +106,11 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 >id="ajo_rule_sets_duration"
 >title="Seleccione la categoría de regla de mensaje"
 >abstract="Cuando está activada y se aplica a un mensaje, todas las reglas de frecuencia que coincidan con la categoría seleccionada se aplican automáticamente a este mensaje. Actualmente, solo está disponible la categoría Marketing."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="Límite de reglas"
+>abstract="Establezca el límite de la regla. En función del dominio del conjunto de reglas y de la selección del campo Tipo de regla, este campo puede definir el número máximo de mensajes que se pueden enviar a un perfil o el número máximo de recorridos que el perfil puede introducir o en los que se puede inscribir simultáneamente."
 
 Para agregar una regla a un conjunto de reglas, accede a él y haz clic en **[!UICONTROL Agregar regla]**.
 

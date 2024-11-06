@@ -4,30 +4,15 @@ description: Obtenga información sobre cómo crear reglas de límite para los r
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 19%
+source-wordcount: '903'
+ht-degree: 18%
 
 ---
 
 
 # Límite y arbitraje de recorrido {#journey-capping}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="Aplicar conjunto de reglas a los recorridos"
->abstract="Aplique un conjunto de reglas para excluir este recorrido aparte del público según las reglas de restricción de frecuencia."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="Priorización de cara al futuro"
->abstract=" Si se programa un recorrido de mayor prioridad dentro del período de tiempo especificado aquí, se impedirá que el cliente entre en este recorrido. Para situaciones en las que desea que los recorridos se incluyan por orden de llegada, le sugerimos que elija el periodo de actualización Diario y que garantice que la puntuación de prioridad de cualquier otro recorrido de ese día sea menor que la puntuación de prioridad del recorrido. Proporcionar una puntuación de prioridad de 100 a un recorrido también garantizaría que se inicie."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="Tener en cuenta la priorización"
->abstract="Por determinar"
 
 >[!AVAILABILITY]
 >
@@ -43,6 +28,16 @@ Ambos tipos de límite de recorrido aprovechan las puntuaciones de prioridad par
 ➡️ [Descubra esta función en vídeo](#video)
 
 ## Creación de una regla de límite de recorrido {#create-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="Priorización de cara al futuro"
+>abstract=" Si se programa un recorrido de mayor prioridad dentro del período de tiempo especificado aquí, se impedirá que el cliente entre en este recorrido. Para situaciones en las que desea que los recorridos se incluyan por orden de llegada, le sugerimos que elija el periodo de actualización Diario y que garantice que la puntuación de prioridad de cualquier otro recorrido de ese día sea menor que la puntuación de prioridad del recorrido. Proporcionar una puntuación de prioridad de 100 a un recorrido también garantizaría que se inicie."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_type"
+>title="Tipo de regla"
+>abstract="Especifique el tipo de límite para la regla. **[!UICONTROL Límite de entrada de Recorrido]** limita el número de entradas en el recorrido durante un período determinado para un perfil, mientras que **[!UICONTROL Límite de concurrencia de Recorrido]** limita el número de recorridos en los que se puede inscribir un perfil simultáneamente."
 
 Para crear una regla de límite de recorrido, siga estos pasos:
 
@@ -109,6 +104,11 @@ Para crear una regla de límite de recorrido, siga estos pasos:
    ![](assets/journey-capping-activate-rule-set.png)
 
 ## Aplicación de reglas de límite a los recorridos {#apply-capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_capping_rule"
+>title="Aplicar conjunto de reglas a los recorridos"
+>abstract="Aplique un conjunto de reglas para excluir este recorrido aparte del público según las reglas de restricción de frecuencia."
 
 Para aplicar una regla de límite a un recorrido, acceda al recorrido y abra sus propiedades. En el menú desplegable **[!UICONTROL Reglas de límite]**, seleccione el conjunto de reglas correspondiente. Una vez activado el recorrido, las reglas de límite definidas en el conjunto de reglas surtirán efecto.
 

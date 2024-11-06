@@ -4,10 +4,10 @@ description: Aprenda a identificar conflictos potenciales en recorridos y campa�
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 3%
+source-wordcount: '802'
+ht-degree: 7%
 
 ---
 
@@ -41,6 +41,16 @@ A continuación se muestra un resumen de cómo Journey Optimizer identifica posi
 * **Campañas en vivo/programadas**: Las campañas en vivo y programadas pueden entrar en conflicto entre sí debido a una posible superposición de audiencias. Para cualquier campaña determinada, todas las campañas en directo o programadas se muestran en el visor de conflictos.
 
 ## Ver conflictos identificados para un recorrido o una campaña determinados {#view}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_conflict"
+>title="Ver posibles conflictos"
+>abstract="Compruebe siempre que haya una posibilidad de superposición con otras campañas. Los conflictos solo se muestran para campañas en directo y programadas. Tenga en cuenta que el botón estará disponible en cuanto asigne cualquiera de las siguientes opciones de configuración: **[!UICONTROL Fecha de inicio/finalización]**, **[!UICONTROL Audiencia]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuración de canal]** y **[!UICONTROL Conjunto de reglas]**."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_conflict"
+>title="Ver posibles conflictos"
+>abstract="Compruebe siempre que exista la posibilidad de superposición con otros recorridos. Los conflictos solo se muestran para recorridos activos y programados. Tenga en cuenta que el botón estará disponible en cuanto asigne cualquiera de las siguientes opciones de configuración: **[!UICONTROL Fecha de inicio/finalización]**, **[!UICONTROL Audiencia]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuración de canal]** y **[!UICONTROL Conjunto de reglas]**."
 
 Al crear un recorrido o una campaña, Journey Optimizer le permite comprobar si existe la posibilidad de superposición con otros recorridos o campañas. Para ello, siga estos pasos:
 

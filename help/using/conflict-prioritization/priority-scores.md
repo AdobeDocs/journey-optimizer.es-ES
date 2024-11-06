@@ -4,15 +4,25 @@ description: Aprenda a asignar puntuaciones de prioridad a recorridos y campaña
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 6%
+source-wordcount: '448'
+ht-degree: 12%
 
 ---
 
 
 # Asignar puntuaciones de prioridad a recorridos y campañas {#priority}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="Prioridad"
+>abstract="Asigne una puntuación de prioridad a la campaña. La prioridad es esencial para priorizar una campaña cuando hay una restricción impuesta como un límite de frecuencia. Introduzca un valor numérico (de 0 a 100). Tenga en cuenta que, cuanto mayor sea el número, mayor será la prioridad. En situaciones en las que dos campañas tienen la misma puntuación de prioridad, se muestra la campaña que se activó primero."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="Prioridad"
+>abstract="Asigne una puntuación de prioridad al recorrido. La prioridad es esencial para dar prioridad a un recorrido cuando hay una restricción impuesta, como un límite de frecuencia. Introduzca un valor numérico (de 0 a 100). Tenga en cuenta que, cuanto mayor sea el número, mayor será la prioridad. En situaciones en las que dos recorridos tienen la misma puntuación de prioridad, se muestra el recorrido que se activó primero."
 
 >[!AVAILABILITY]
 >
