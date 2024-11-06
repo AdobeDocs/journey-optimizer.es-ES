@@ -4,10 +4,10 @@ description: Aprenda a asignar puntuaciones de prioridad a recorridos y campaña
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 12%
+source-wordcount: '438'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ Journey Optimizer le permite asignar una puntuación de prioridad a un recorrido
 
 >[!NOTE]
 >
->La puntuación de prioridad está disponible para canales entrantes: canales web, en la aplicación y basados en código. En recorrido, la puntuación de prioridad solo está disponible para los canales **en la aplicación** y **basados en código**.
+>En las campañas, la puntuación de prioridad solo está disponible para los canales entrantes web, en la aplicación y basados en código.
 
 ➡️ [Descubra esta función en vídeo](#video)
 

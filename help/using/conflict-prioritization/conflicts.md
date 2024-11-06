@@ -4,9 +4,9 @@ description: Aprenda a identificar conflictos potenciales en recorridos y campa�
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '817'
 ht-degree: 7%
 
 ---
@@ -27,6 +27,10 @@ Las áreas clave para monitorizar la posible superposición son las siguientes:
 * **Canal**: ¿Hay otras comunicaciones programadas para el mismo periodo de tiempo y, si es así, cuántas?
 * **Conjunto de reglas de límite**: ¿Qué tipos de recorridos limito y hay superposición dentro de ellos?
 * **Configuración del canal**: ¿Hay otros recorridos o campañas que usan alguna configuración de canal que se esté usando en el mismo recorrido o campaña y que podrían impedir que el recorrido o la campaña se muestre al usuario final?
+
+>[!NOTE]
+>
+>En las campañas, la puntuación de prioridad solo está disponible para los canales entrantes web, en la aplicación y basados en código.
 
 ➡️ [Descubra esta función en vídeo](#video)
 
