@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1783'
 ht-degree: 14%
 
 ---
@@ -118,11 +118,6 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
 1. Con las experiencias basadas en código, puede utilizar la función Decisioning. Seleccione el icono **[!UICONTROL Directiva de decisión]** en la barra izquierda y haga clic en **[!UICONTROL Agregar directiva de decisión]**. [Más información](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
-
-   >[!NOTE]
-   >
-   >Actualmente, la toma de decisiones solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
-
 
 1. Haga clic en **[!UICONTROL Guardar y cerrar]** para confirmar los cambios.
 
