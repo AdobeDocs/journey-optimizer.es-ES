@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0da5f10953ca3b5e14ddd2dd41eac14d5edca767
+source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2049'
+ht-degree: 19%
 
 ---
 
@@ -35,13 +35,18 @@ Una audiencia es un conjunto de personas que comparten comportamientos o caracte
 Las audiencias se pueden generar mediante diferentes métodos:
 
 * **Definiciones de segmentos**: Cree una nueva definición de audiencia con el servicio de segmentación de Adobe Experience Platform. [Obtenga información sobre cómo generar definiciones de segmentos](creating-a-segment-definition.md)
+
 * **Carga personalizada**: importe una audiencia con un archivo CSV. Obtenga información sobre cómo importar audiencias en [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}.
+
 * **Composición de audiencias**: cree un flujo de trabajo de composición para combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar diversas actividades (dividir, excluir...) para crear nuevas audiencias. [Introducción a Composición de públicos](get-started-audience-orchestration.md)
+
 * **Composición de audiencias federada**: federe conjuntos de datos directamente desde el almacén de datos existente para crear y enriquecer audiencias y atributos de Adobe Experience Platform en un solo sistema. Lea la guía de [Composición federada de audiencias](https://experienceleague.adobe.com/es/docs/federated-audience-composition/using/home).
 
   >[!AVAILABILITY]
   >
   >Ahora mismo, la composición de público federado solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
+
+Para obtener más información sobre el uso de las audiencias de carga personalizada y de composición de audiencias federadas en [!DNL Journey Optimizer], consulte [esta sección](custom-upload-fac.md).
 
 ## Audiencias de destino en [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
@@ -104,22 +109,6 @@ Encontrará información detallada sobre las fuentes de datos en estas secciones
 * [Configurar un origen de datos](../datasource/configure-data-sources.md)
 >
 +++
-
-## Audiencias de carga personalizada y de composición de audiencia federada {#csv}
-
-En esta sección se proporciona información clave para tener en cuenta al trabajar con cargas personalizadas (archivos CSV) y audiencias de composición de audiencias federadas:
-
-* **Compatibilidad con vista previa y prueba:** En la actualidad, la vista previa y la prueba no son compatibles con las audiencias creadas mediante la carga de CSV o la composición de audiencias federada. Tenga esto en cuenta al planificar las campañas.
-
-* **Retrasos rápidos de activación y vinculación de identidad:** La arquitectura de Adobe Experience Platform retrasa la vinculación de identidad para que las audiencias de carga personalizada y Composición de audiencia federada estén disponibles inmediatamente para su activación en Journey Optimizer, con los siguientes impactos:
-
-   * Las audiencias están listas para usarse en Journey Optimizer justo después de completarse la ingesta. Aunque esto suele ocurrir en menos de una hora, está sujeto a cierta variabilidad.
-   * El número de registros activados puede diferir del número de perfiles después de la vinculación de identidad.
-   * Se activarán todos los registros de la audiencia, incluidos los duplicados. Durante la próxima exportación de perfiles de UPS, estos registros se vincularán con la identidad.
-
-* **Segmentación de nuevos perfiles:** Cuando no se encuentra una coincidencia entre un registro y un perfil de UPS, se crea un nuevo perfil vacío. Este perfil está vinculado a los atributos de enriquecimiento que se almacenan en el lago de datos. Dado que este nuevo perfil está vacío, los campos de segmentación que se suelen utilizar en Journey Optimizer (por ejemplo, personalEmail.address, mobilePhone.number) están vacíos y, por lo tanto, no se pueden utilizar para la segmentación.
-
-  Para resolver esto, puede especificar el &quot;campo de ejecución&quot; (o la &quot;dirección de ejecución&quot; según el canal) en la configuración del canal como &quot;identityMap&quot;. Esto garantizará que el atributo elegido como identidad en el momento de la creación de la audiencia sea el que se use para la segmentación en Journey Optimizer.
 
 ## Métodos de evaluación de públicos {#evaluation-method-in-journey-optimizer}
 
@@ -184,7 +173,6 @@ Por lo tanto, para un rendimiento óptimo de la segmentación de streaming, evit
 >[!NOTE]
 >
 Puede usar los eventos **Mensaje abierto** y **Mensaje enviado** en la segmentación por lotes sin problemas de rendimiento.
-
 
 ## Preguntas frecuentes sobre composición de audiencias y carga personalizada {#faq}
 
@@ -264,3 +252,8 @@ Además, los atributos enriquecidos en las audiencias de composición de audienc
 
 +++
 
+## Vídeo explicativo {#video}
+
+Obtenga información sobre perfiles y públicos del cliente en Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432671?quality=12)
