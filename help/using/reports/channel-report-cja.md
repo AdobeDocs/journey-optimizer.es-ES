@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
+source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Los KPI **[!UICONTROL Características destacadas]** sirven como un tablero comp
 
 +++ Más información sobre las métricas de Elementos destacados
 
-* **[!UICONTROL Participación en el Recorrido]**: Número total de personas que interactuaron con los mensajes enviados desde el recorrido.
+* **[!UICONTROL Participación en el Recorrido]**: Número total de individuos únicos que recibieron mensajes enviados a través del recorrido, que representan perfiles distintos que alcanzaron un punto de acción designado en el recorrido.
 
 * **[!UICONTROL Entradas de Recorrido]**: Número total de personas que llegaron al evento de entrada del recorrido.
 

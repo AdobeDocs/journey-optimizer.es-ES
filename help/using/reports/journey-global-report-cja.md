@@ -7,9 +7,10 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
+exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
+source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Los indicadores clave de rendimiento (KPI) **[!UICONTROL Recorrido]** funcionan 
 
 +++ Más información sobre las métricas de KPI de Recorrido
 
-* **[!UICONTROL Participación en el Recorrido]**: Número total de personas que interactuaron con los mensajes enviados desde el recorrido
+* **[!UICONTROL Participación en el Recorrido]**: Número total de individuos únicos que recibieron mensajes enviados a través del recorrido, que representan perfiles distintos que alcanzaron un punto de acción designado en el recorrido.
 
 * **[!UICONTROL Entradas de Recorrido]**: Número total de personas que llegaron al evento de entrada del recorrido.
 
@@ -54,7 +55,7 @@ La tabla **[!UICONTROL Estadísticas de Recorrido]** ofrece un resumen detallado
 
 +++ Más información sobre las métricas de Estadísticas de Recorrido
 
-* **[!UICONTROL Participación en el Recorrido]**: Número total de personas que interactuaron con los mensajes enviados desde el recorrido.
+* **[!UICONTROL Participación en el Recorrido]**: Número total de individuos únicos que recibieron mensajes enviados a través del recorrido, que representan perfiles distintos que alcanzaron un punto de acción designado en el recorrido.
 
 * **[!UICONTROL Entradas de Recorrido]**: Número total de personas que llegaron al evento de entrada del recorrido.
 
