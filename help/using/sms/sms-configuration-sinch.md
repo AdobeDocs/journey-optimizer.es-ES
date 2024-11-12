@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: a196a27fd22a03915838ab4a9bb6139f85242f6b
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '705'
 ht-degree: 3%
 
 ---
@@ -86,8 +86,6 @@ Para configurar Sinch MMS para enviar MMS con Journey Optimizer, siga estos paso
 
       * Para **[!UICONTROL ID de proyecto]** e **[!UICONTROL ID de aplicación]**: acceda a la página [Información general de la API de conversación](https://dashboard.sinch.com/convapi/overview) de su proyecto de Sinch en su panel de Sinch.
       * Para **[!UICONTROL token de API]**: obtenga las [claves de acceso](https://community.sinch.com/t5/Customer-Dashboard/Sinch-Access-Keys/ta-p/12638) para su proyecto Sinch y genere un **Token de API Base64** de su proyecto Sinch **Claves de acceso**.
-
-   * **[!UICONTROL ID de plan de servicio]** y **[!UICONTROL token de API de SMS]**: su **[!UICONTROL ID de plan de servicio]** y **[!UICONTROL token de API de SMS]** se encuentran en la pestaña SMS de la página de API.
 
 1. Haga clic en **[!UICONTROL Enviar]** cuando termine de configurar las credenciales de la API.
 
