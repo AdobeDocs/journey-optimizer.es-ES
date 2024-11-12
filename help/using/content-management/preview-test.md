@@ -16,12 +16,12 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="Compruebe cómo se procesa el contenido"
->abstract="Una vez definido el contenido, puede utilizar perfiles de prueba para previsualizarlo y comprobar si la renderización es correcta según el canal que utilice."
+>title="Compruebe cómo se representa el contenido"
+>abstract="Una vez definido el contenido, puede utilizar perfiles de prueba para previsualizarlo y comprobar si la representación es correcta según el canal que utilice."
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_simulate"
->title="Compruebe cómo se procesa el contenido"
+>title="Compruebe cómo se representa el contenido"
 >abstract="Una vez definido el contenido, puede previsualizarlo y comprobar si la renderización es correcta según el canal que utilice."
 
 ## Acerca de la previsualización y prueba de contenido {#about}

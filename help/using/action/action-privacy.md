@@ -8,10 +8,11 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: datos, gobernanza, DULE, etiquetas, etiquetado, plataforma, directiva
-source-git-commit: 7f54200facc8845d5c39bb5d16751ed49579ea8a
+exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +20,12 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
->title="Infracción de la directiva de gobernanza de datos"
+>title="Infracción de la política de gobernanza de datos"
 >abstract="Si el sistema identifica un campo restringido en un recorrido/campaña o una acción personalizada, se muestra un error que impide su publicación. Utilice el diagrama de linaje de datos en este cuadro de diálogo para comprender qué otros cambios de configuración deben realizarse antes de activar el recorrido o la campaña."
 
 ## Introducción a las políticas de gobernanza de datos {#gs}
 
-Con su marco de trabajo de [etiquetado y aplicación del uso de los datos (Data Usage Labeling and Enforcement, DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=es){target="_blank"}, Adobe Experience Platform le permite administrar y aplicar directivas de control de datos en todos sus canales. Para ello, **etiqueta sus campos** y crea **acciones de marketing** para cada canal.
+Con su marco de [uso de etiquetado y aplicación del uso de datos (Data Usage Labeling and Enforcement, DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=es){target="_blank"}{_blank}, Adobe Experience Platform permite administrar y aplicar políticas de gobernanza de datos en todos los canales. Para ello, **etiqueta los campos** y crea **acciones de marketing** para cada canal.
 
 Una vez definidas las etiquetas y las acciones de marketing, puede crear **políticas de gobernanza de datos** que vinculen estos dos elementos. Por ejemplo, puede configurar una política que asocie una etiqueta “ePHI” con una acción de marketing de “direccionamiento de correo electrónico”, lo que garantiza que los campos etiquetados como “ePHI” no se utilicen para personalizar los mensajes de correo electrónico. [Aprenda a crear políticas de gobernanza de datos](#governance-policies)
 
