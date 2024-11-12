@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
+source-git-commit: 40f46fd815a567934f886dd086102d830dea5ade
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2053'
 ht-degree: 15%
 
 ---
@@ -31,6 +31,11 @@ ht-degree: 15%
 >[!IMPORTANT]
 >
 >Para el flujo automatizado, los usuarios necesitan permisos relacionados con la capacidad **[!UICONTROL Servicio de traducción]**. [Más información sobre los permisos](../administration/permissions.md)
+
+>[!AVAILABILITY]
+>
+> El flujo automatizado no está disponible temporalmente para los usuarios de la región EMEA.
+
 
 Con el flujo automatizado, simplemente puede seleccionar el idioma de destino y el proveedor de idioma. A continuación, el contenido se envía directamente a la traducción, listo para una revisión final una vez finalizado.
 
@@ -175,7 +180,7 @@ En esta sección, puede establecer las distintas configuraciones regionales para
       * En el panel derecho, seleccione &quot;Tipo de evento XDM es igual a personalización.request&quot;
       * Haga clic en el botón **[!UICONTROL Conservar cambios]** para confirmar.
 
-   3. En la sección **[!UICONTROL THEN]** de la regla, agregue una acción configurada como se muestra a continuación:
+   3. En la sección **[!UICONTROL THEN]** de la regla, agregue una acción configurada de la siguiente manera:
 
       ![](assets/multilingual-experience-events-rule-then.png)
 
