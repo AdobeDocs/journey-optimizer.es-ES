@@ -51,7 +51,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
 >title="ID de equipo"
->abstract="El ID de equipo, un valor de cadena usado para identificar a tu equipo, se encuentra en la ficha **Membresía** de su cuenta de desarrollador."
+>abstract="El ID de equipo, un valor de cadena usado para identificar a tu equipo, se encuentra en la ficha **Pertenencia** de tu cuenta de desarrollador."
 
 
 Esta configuración simplifica la configuración rápida de los canales de marketing, lo que facilita la disponibilidad de todos los recursos esenciales en las aplicaciones de Experience Platform, Journey Optimizer y de recopilación de datos. Esto permite a su equipo de marketing empezar a crear campañas y recorridos con rapidez.
