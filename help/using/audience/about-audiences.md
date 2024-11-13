@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
+source-git-commit: 3951201f24f5277774f192944ca479e8354c13bc
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2032'
 ht-degree: 19%
 
 ---
@@ -218,10 +218,9 @@ Para utilizar atributos de enriquecimiento de audiencias creadas con flujos de t
 
 +++
 
-+++ ¿Qué tan pronto después de publicar una audiencia desde Composición de audiencia o Carga personalizada puedo utilizarla en Journey Optimizer?
++++ ¿Qué tan pronto después de publicar una audiencia desde Composición de audiencia puedo utilizarla en Journey Optimizer?
 
-* Las audiencias de **composición de audiencias** se ejecutan a diario, por lo que es posible que tenga que esperar hasta 24 horas para usarlas en Journey Optimizer.
-* Las audiencias de **carga personalizada** estarán disponibles en Journey Optimizer aproximadamente 2 horas después de la publicación.
+Las audiencias de **composición de audiencias** se ejecutan a diario, por lo que es posible que tenga que esperar hasta 24 horas para usarlas en Journey Optimizer.
 
 +++
 
