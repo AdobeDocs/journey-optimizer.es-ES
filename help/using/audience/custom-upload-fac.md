@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
-source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
+exl-id: d2365e3f-fbef-43c2-bf2a-0a868cb93015
+source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 6%
+source-wordcount: '394'
+ht-degree: 1%
 
 ---
 
@@ -24,10 +25,6 @@ Además de las definiciones de segmentos y la composición de audiencias, [!DNL 
 * **Carga personalizada**: importe una audiencia con un archivo CSV. Obtenga información sobre cómo importar audiencias en [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}.
 
 * **Composición de audiencias federada**: federe conjuntos de datos directamente desde el almacén de datos existente para crear y enriquecer audiencias y atributos de Adobe Experience Platform en un solo sistema. Lea la guía de [Composición federada de audiencias](https://experienceleague.adobe.com/es/docs/federated-audience-composition/using/home).
-
-  >[!AVAILABILITY]
-  >
-  >Ahora mismo, la composición de público federado solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
 
 Puede segmentar estas audiencias en Journey Optimizer o activarlas en cualquier destino admitido por Adobe Experience Platform
 

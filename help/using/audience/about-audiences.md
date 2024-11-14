@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3951201f24f5277774f192944ca479e8354c13bc
+source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
-source-wordcount: '2032'
+source-wordcount: '2011'
 ht-degree: 19%
 
 ---
@@ -41,10 +41,6 @@ Las audiencias se pueden generar mediante diferentes métodos:
 * **Composición de audiencias**: cree un flujo de trabajo de composición para combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar diversas actividades (dividir, excluir...) para crear nuevas audiencias. [Introducción a Composición de públicos](get-started-audience-orchestration.md)
 
 * **Composición de audiencias federada**: federe conjuntos de datos directamente desde el almacén de datos existente para crear y enriquecer audiencias y atributos de Adobe Experience Platform en un solo sistema. Lea la guía de [Composición federada de audiencias](https://experienceleague.adobe.com/es/docs/federated-audience-composition/using/home).
-
-  >[!AVAILABILITY]
-  >
-  >Ahora mismo, la composición de público federado solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
 
 Para obtener más información sobre el uso de las audiencias de carga personalizada y de composición de audiencias federadas en [!DNL Journey Optimizer], consulte [esta sección](custom-upload-fac.md).
 
