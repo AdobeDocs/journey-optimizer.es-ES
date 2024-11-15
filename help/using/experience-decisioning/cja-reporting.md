@@ -1,20 +1,31 @@
 ---
-title: Creación de informes en Customer Journey Analytics
-description: Obtenga información sobre cómo realizar informes en Customer Journey Analytics
+title: Informe sobre toma de decisiones
+description: Obtenga información sobre cómo informar sobre Decisioning.
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
 badge: label="Disponibilidad limitada"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 841a114610bfee743f5ebb349e3eef6312de0f7b
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 7%
+source-wordcount: '221'
+ht-degree: 3%
 
 ---
 
-# Creación de informes en Customer Journey Analytics {#cja}
+
+# Informe sobre toma de decisiones {#decisioning-report}
+
+## Creación de informes de campañas basadas en código {#campaigns}
+
+Una vez que las experiencias basadas en código estén activas, puede acceder a informes dedicados para monitorizar los indicadores de rendimiento clave (KPI) como un panel que abarca todo, que ofrece un análisis de las métricas esenciales asociadas con su campaña.
+
+Esto incluye detalles relacionados con el rendimiento de los elementos de decisión y la forma en que los usuarios interactuaron con ellos. [Aprenda a trabajar con informes de experiencia basados en código](../reports/campaign-global-report-cja-code.md)
+
+![](../reports/assets/cja-decisioning-item-performance.png)
+
+## Creación de informes en Customer Journey Analytics {#cja}
 
 Si trabaja con Customer Journey Analytics, puede crear paneles de informes personalizados para sus campañas basadas en código aprovechando Decisioning.
 
