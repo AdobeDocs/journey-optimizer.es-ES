@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: d9fde8bfc7fd3ab3139c4212e2fef490dd9a8cce
+source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 96%
+source-wordcount: '1374'
+ht-degree: 95%
 
 ---
 
@@ -252,16 +252,16 @@ Para cambiar el idioma:
 >abstract="Habilitar la toma de decisiones"
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_decision_policy"
+>id="ajo_exd_decision_attribute"
 >title="Seleccionar atributos de decisión del catálogo"
 >abstract="Los atributos de decisión se almacenan en el esquema del catálogo. Seleccione un atributo que desee utilizar aquí del catálogo seleccionado."
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_placements"
+>id="ajo_exd_decision_policy"
 >title="Política de decisión"
 >abstract="Una política de decisión le permite elegir los mejores elementos del motor de decisión y enviarlos a cada audiencia."
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_decision_attribute"
+>id="ajo_exd_placements"
 >title="Colocación"
->abstract="Colocación"
+>abstract="Una ubicación determina dónde aparecen los elementos devueltos por el motor de decisión en un mensaje. Puede realizar un seguimiento de su rendimiento en diferentes ubicaciones en la creación de informes."
