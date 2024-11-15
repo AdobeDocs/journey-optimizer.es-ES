@@ -9,9 +9,9 @@ role: Admin, Architect
 level: Intermediate
 keywords: permisos, derechos, restricciones, acceso, zona protegida
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
+source-git-commit: c2f68054cb0c378b188797a2b3aa4fb2841b7384
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '149'
 ht-degree: 3%
 
 ---
@@ -32,8 +32,10 @@ La administración de usuarios en [!DNL Journey Optimizer] se basa en tres conce
 
 ![](assets/do-not-localize/permissions_2.png)
 
-## Vídeo explicativo{#video}
+<!--
+## How-to video{#video}
 
-Obtenga más información sobre el sistema de control de acceso y los perfiles personalizados en Adobe Journey Optimizer. Obtenga información sobre cómo administrar funciones y permisos, y cómo agregar y administrar usuarios.
+Learn more about access control system and custom proles in Adobe Journey Optimizer. Learn how to manage roles and permissions and how to add and manage users.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)
+-->
