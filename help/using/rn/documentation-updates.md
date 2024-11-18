@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9c5dd4a8de32ccc037d6c8d57667ce3a5f455535
+source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
 workflow-type: tm+mt
-source-wordcount: '5724'
+source-wordcount: '5736'
 ht-degree: 99%
 
 ---
@@ -29,6 +29,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Se ha añadido una nueva sección para describir cómo obtener una vista previa de las experiencias personalizadas basadas en código directamente en el explorador o en los dispositivos móviles, mediante la opción Vista previa en el dispositivo al simular contenido en un recorrido o una campaña. [Más información](../code-based/create-code-based.md#preview-on-device)
 * Se ha añadido una nueva página sobre cómo aprovechar los públicos de carga personalizados para la toma de decisiones. [Más información](../offers/custom-upload-decisioning.md)
 * Se ha agregado una nueva página para introducir las capacidades de decisión disponibles en Journey Optimizer. [Más información](../experience-decisioning/gs-decision.md)
+* Se han agregado protecciones y limitaciones a la documentación de Decisioning. [Más información](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## Septiembre de 2024 {#sept-2024}
 
