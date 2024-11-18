@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 24%
@@ -20,7 +20,6 @@ ht-degree: 24%
 Decisioning simplifica la personalización al ofrecer un catálogo centralizado de ofertas de marketing conocidas como “elementos de decisión” y un motor de decisión sofisticado. Este motor aprovecha las reglas y los criterios de clasificación para seleccionar y presentar a cada persona los elementos de decisión más relevantes.
 
 Estos elementos de decisión se integran a la perfección en una amplia gama de superficies de entrada a través del [nuevo canal de experiencia basado en código](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), ahora accesible desde las campañas de Journey Optimizer. Las políticas de decisión solo están disponibles para su uso en campañas de experiencia basadas en código.
-
 
 ## Pasos clave de decisiones {#steps}
 

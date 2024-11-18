@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
+source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 100%
 
 ---
 
-# Acerca de Gestión de decisiones {#about-decision-management}
+# Introducción a Gestión de decisiones {#about-decision-management}
 
 Utilice [!DNL Journey Optimizer] para ofrecer la mejor oferta y experiencia a sus clientes en todos los puntos de contacto y en el momento adecuado. Una vez diseñados, los públicos se segmentarán con ofertas personalizadas.
 
