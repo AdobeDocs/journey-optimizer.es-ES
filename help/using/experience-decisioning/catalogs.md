@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -46,4 +46,8 @@ Para acceder al esquema del catálogo donde se almacenan los atributos de los el
 
    Encontrará información detallada sobre cómo trabajar con esquemas de Adobe Experience Platform en la [documentación del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es).
 
-1. Una vez añadidos los atributos personalizados deseados, guarde el esquema. El nuevo campo está ahora disponible en la pantalla de creación de decisiones de elementos, en la sección **[!UICONTROL Atributos personalizados]**.
+1. Una vez añadidos los atributos personalizados deseados, guarde el esquema. El nuevo campo ya está disponible en la pantalla de creación de elementos de decisión, en la sección **[!UICONTROL Atributos personalizados]**.
+
+>[!NOTE]
+>
+>Un elemento de decisión puede incluir un máximo de 100 atributos personalizados. [Más información sobre las limitaciones y protecciones de decisiones](gs-experience-decisioning.md#guardrails)

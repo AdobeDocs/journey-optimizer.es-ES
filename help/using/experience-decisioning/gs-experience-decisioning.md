@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '549'
 ht-degree: 17%
 
 ---
@@ -29,7 +29,7 @@ Para garantizar un uso óptimo de Decisioning, tenga en cuenta las siguientes li
 
 * **Elementos de oferta**: Cada colección de elementos puede contener hasta 500 elementos de oferta.
 * **Atributos personalizados**: un elemento de decisión puede incluir un máximo de 100 atributos personalizados.
-* **Estrategias de selección y elementos manuales por directiva**: una directiva de decisión admite hasta 10 estrategias de selección y elementos manuales combinados.
+* **Estrategias de selección y elementos de decisión por directiva**: una directiva de decisión admite hasta 10 estrategias de selección y elementos de decisión combinados.
 
 ### Reglas de elegibilidad {#eligibility}
 
@@ -39,7 +39,7 @@ Para garantizar un uso óptimo de Decisioning, tenga en cuenta las siguientes li
 ### Fórmulas de clasificación {#ranking}
 
 * **Niveles de anidación**: la profundidad de anidación está limitada a 30 niveles. Esto se mide contando los `)` paréntesis de cierre en la cadena de PQL.
-* **Tamaño de cadena de fórmula**: una cadena de regla puede tener un tamaño máximo de 8 KB para caracteres codificados en UTF-8. Esto es para 8.000 caracteres ASCII (1 byte cada uno), o 2.000-4.000 caracteres no ASCII (2-4 bytes cada uno).
+* **Tamaño de cadena de fórmula**: una cadena de regla puede tener un tamaño máximo de 8 KB para caracteres codificados en UTF-8. Esto equivale a 8.000 caracteres ASCII (1 byte cada uno) o a 2.000-4.000 caracteres no ASCII (2-4 bytes cada uno).
 
 ## Pasos clave de decisiones {#steps}
 
