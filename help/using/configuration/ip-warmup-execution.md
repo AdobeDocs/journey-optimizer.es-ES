@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdominios, capacidad de entrega
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2628'
+ht-degree: 11%
 
 ---
 
@@ -103,7 +103,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >Esta sección no se puede editar.
 
-1. Si es necesario, puede reemplazar la campaña usando el botón **[!UICONTROL Reemplazar]**. También puede **[!UICONTROL Borrar]** la campaña seleccionada con el botón **[!UICONTROL Borrar]**. Esta acción no solo borrará la campaña, sino también otras propiedades de nivel de fase, como la Exclusión de grupos de dominios, la Campaña, la Exclusión de Recorridos, etc. Después de borrar, puede elegir una nueva campaña inmediatamente o más tarde.
+1. Si es necesario, puede reemplazar la campaña usando el botón **[!UICONTROL Reemplazar]**. También puede **[!UICONTROL Borrar]** la campaña seleccionada con el botón **[!UICONTROL Borrar]**. Esta acción no solo borrará la campaña, sino también las demás propiedades de nivel de fase (grupos de dominios excluidos, Campaña, Exclusión de Recorridos, etc.). Después de borrar, puede elegir una nueva campaña inmediatamente o más tarde.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -187,6 +187,12 @@ At phase level, system ensures that previously targeted + new profiles are picke
 1. Seleccione la opción **[!UICONTROL Cancelar ejecuciones activadas en caso de errores]** para cancelar una ejecución si los perfiles calificados son inferiores a los perfiles de destino una vez que la audiencia se haya evaluado para esa ejecución. En ese caso, la ejecución toma el estado **[!UICONTROL Failed]**.
 
    ![](assets/ip-warmup-plan-pause.png)
+
+   En caso de que el número de perfiles cualificados no coincida con el número de perfiles objetivo (por ejemplo, 1500 direcciones de Gmail están segmentadas en la ejecución, pero solo hay 700 perfiles cualificados de Gmail):
+
+   * Si la opción está activada, la ejecución falla. Puede elegir segmentar menos perfiles en la siguiente ejecución o [dividir la ejecución](#split-phase) en una nueva fase y seleccionar una nueva campaña para la nueva fase para volver a segmentar los mismos perfiles.
+
+   * Si la opción no está activada, se ejecuta la ejecución, pero solo se marca el número de perfiles disponible.
 
 1. **[!UICONTROL Activar]** la ejecución. [Más información](#activate-run)
 

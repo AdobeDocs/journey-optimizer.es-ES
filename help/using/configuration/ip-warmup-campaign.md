@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, grupos, capacidad de entrega
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 12%
@@ -31,7 +31,7 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Obtenga información sobre cómo seleccionar el dominio y las direcciones IP que se usarán en una configuración de correo electrónico en [esta sección](../email/email-settings.md#subdomains-and-ip-pools).
+   >* Obtenga información sobre cómo seleccionar el dominio y las direcciones IP que se usarán en una configuración de correo electrónico en [esta sección](../email/email-settings.md#subdomains-and-ip-pools).
    >
    >* Póngase en contacto con el consultor del equipo de entrega para identificar el dominio y las direcciones IP que se utilizarán para el plan de calentamiento de IP.<!--TBC-->
 
@@ -55,13 +55,17 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
 1. Complete los pasos para crear una campaña de correo electrónico, como definir las propiedades de la campaña, [audiencia](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?--> y [contenido](../email/get-started-email-design.md#key-steps).
 
-   Tenga en cuenta que debe seleccionar una audiencia basada en reglas para la campaña de calentamiento de IP. [Más información](../audience/creating-a-segment-definition.md)
+   >[!IMPORTANT]
+   >
+   >Las audiencias permitidas en una campaña de calentamiento de IP deben estar [basadas en segmentos](../audience/creating-a-segment-definition.md) y creadas mediante la [política de combinación predeterminada](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
 
    Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 1. [Activar](../campaigns/review-activate-campaign.md) la campaña. Su estado cambia a **[!UICONTROL Activo]**.
 
-   Tenga en cuenta que las reglas empresariales no deben utilizarse en el plan de calentamiento de IP. La aplicación de estas reglas podría dificultar el logro del número deseado de perfiles objetivo para las campañas.
+   >[!NOTE]
+   >
+   >[Las reglas de negocio](rule-sets.md#apply-frequency-rule) no deben usarse en planes de calentamiento de IP. La aplicación de estas reglas podría dificultar el logro del número deseado de perfiles objetivo para las campañas.
 
    Para una campaña en vivo con el plan de calentamiento de IP activado, el botón **[!UICONTROL Eliminar]** está disponible hasta que se asocie con un plan de calentamiento de IP. Una vez utilizada en un plan, la campaña ya no se puede eliminar.
 
