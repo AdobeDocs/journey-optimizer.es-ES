@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, crear, recorrido
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 12%
+source-wordcount: '1638'
+ht-degree: 10%
 
 ---
 
@@ -73,9 +73,9 @@ A continuación se muestran los primeros pasos para configurar un nuevo evento:
    >
    >Si modifica el esquema con nuevos valores de enumeración después de crear el evento, debe seguir estos pasos para aplicar los cambios al evento existente: anule la selección del campo de enumeración de los campos de evento, confirme la selección y, a continuación, seleccione de nuevo el campo de enumeración. Ahora se muestra el nuevo valor de enumeración.
 
-1. Añada un área de nombres. Este paso es opcional, pero se recomienda, ya que la adición de un área de nombres le permite aprovechar la información almacenada en el servicio de Perfil del cliente en tiempo real. Define el tipo de clave que tiene el evento. Consulte [esta sección](../event/about-creating.md#select-the-namespace).
+1. Añada un tipo de identidad. Este paso es opcional, pero se recomienda, ya que la adición de un tipo de identidad le permite aprovechar la información almacenada en el servicio Perfil del cliente en tiempo real. Define el tipo de clave que tiene el evento. Obtenga más información en [esta sección](../event/about-creating.md#select-the-namespace).
 
-1. Defina el identificador de perfil: elija un campo de los campos de carga útil o defina una fórmula para identificar a la persona asociada al evento. Esta clave se configura automáticamente (pero aún puede editarse) si selecciona un Área de nombres. De hecho, recorrido selecciona la clave que debe corresponder al área de nombres (por ejemplo, si selecciona un área de nombres de correo electrónico, se seleccionará la clave de correo electrónico). Consulte [esta sección](../event/about-creating.md#define-the-event-key).
+1. Defina el identificador de perfil: elija un campo de los campos de carga útil o defina una fórmula para identificar a la persona asociada al evento. Esta clave se configura automáticamente (pero aún se puede editar) si selecciona un tipo de identidad. De hecho, recorrido selecciona la clave que debe corresponder al tipo de identidad (por ejemplo, si selecciona un tipo de identidad de correo electrónico, se seleccionará la clave de correo electrónico). Obtenga más información en [esta sección](../event/about-creating.md#define-the-event-key).
 
    ![](assets/jo-event7.png)
 
@@ -111,32 +111,32 @@ La definición de carga útil permite elegir la información que el sistema espe
 
    ![](assets/journey12.png)
 
-## Seleccione el área de nombres {#select-the-namespace}
+## Selección del tipo de identidad {#select-the-namespace}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
->title="Área de nombres de identidad"
+>title="Tipo de identidad"
 >abstract="Seleccione la clave para identificar el perfil del cliente asociado al evento."
 
-El área de nombres permite definir el tipo de clave utilizada para identificar a la persona asociada al evento. Su configuración es opcional. Es necesario si desea recuperar, en sus recorridos, información adicional proveniente del [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}. La definición del área de nombres no es necesaria si solo utiliza datos procedentes de un sistema de terceros a través de una fuente de datos personalizada.
+El tipo de identidad (anteriormente conocido como &quot;área de nombres&quot;) le permite definir el tipo de clave utilizada para identificar a la persona asociada al evento. Su configuración es opcional. Es necesario si desea recuperar, en sus recorridos, información adicional proveniente del [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}. La definición del tipo de identidad no es necesaria si solo utiliza datos procedentes de un sistema de terceros a través de una fuente de datos personalizada.
 
-Puede utilizar uno de los predefinidos o crear uno nuevo mediante el servicio Área de nombres de identidad. Consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es){target="_blank"}.
+Puede crear un tipo de identidad existente o crear uno nuevo mediante el servicio de identidad de Adobe Experience Platform. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es){target="_blank"}.
 
-Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Identificador de generador de perfiles]** y **[!UICONTROL Espacio de nombres]** están rellenados previamente. Si no se ha definido ninguna identidad, se selecciona _identityMap > id_ como clave principal. A continuación, debe seleccionar un área de nombres y la clave se rellenará previamente (debajo del campo **[!UICONTROL Área de nombres]**) mediante _identityMap > id_.
+Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Identificador de generador de perfiles]** e **[!UICONTROL Tipo de identidad]** se rellenan previamente. Si no se ha definido ninguna identidad, se selecciona _identityMap > id_ como clave principal. A continuación, debe seleccionar un tipo de identidad y la clave se rellenará previamente (debajo del campo **[!UICONTROL Tipo de identidad]**) con _identityMap > id_.
 
 Al seleccionar campos, los campos de identidad principales se etiquetan.
 
 ![](assets/primary-identity.png)
 
-Seleccione un área de nombres de la lista desplegable.
+Seleccione un tipo de identidad en la lista desplegable.
 
 ![](assets/journey17.png)
 
-Solo se permite un área de nombres por recorrido. Si utiliza varios eventos en el mismo recorrido, deben utilizar el mismo área de nombres. Consulte [esta página](../building-journeys/journey.md).
+Solo se permite un tipo de identidad por recorrido. Si utiliza varios eventos en el mismo recorrido, deben utilizar el mismo tipo de identidad. Consulte [esta página](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->Solo puede seleccionar un área de nombres de identidad basada en personas. Si ha definido un área de nombres para una tabla de búsqueda (por ejemplo: área de nombres ProductID para una búsqueda de productos), no estará disponible en la lista desplegable **Área de nombres**.
+>Solo puede seleccionar un tipo de identidad basado en personas. Si ha definido un tipo de identidad para una tabla de búsqueda (por ejemplo, el tipo de identidad ProductID para una búsqueda de productos), no estará disponible en la lista desplegable **Tipo de identidad**.
 
 ## Definición del identificador de perfil {#define-the-event-key}
 
@@ -144,7 +144,7 @@ La clave es el campo o la combinación de campos que forma parte de los datos de
 
 Para utilizar datos almacenados en la base de datos de Adobe de Perfil de cliente en tiempo real, la clave de evento debe ser la información que definió como identidad de perfil en el [servicio de Perfil de cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
 
-El identificador de perfil permite al sistema realizar la reconciliación entre el evento y el perfil del individuo. Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Identificador de perfil]** y **[!UICONTROL Espacio de nombres]** están rellenados previamente. Si no se ha definido ninguna identidad, _identityMap > id_ es la clave principal. A continuación, debe seleccionar un área de nombres y la clave se rellenará automáticamente previamente usando _identityMap > id_.
+El identificador de perfil permite al sistema realizar la reconciliación entre el evento y el perfil del individuo. Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Identificador de perfil]** e **[!UICONTROL Tipo de identidad]** se rellenan previamente. Si no se ha definido ninguna identidad, _identityMap > id_ es la clave principal. A continuación, debe seleccionar un tipo de identidad y la clave se rellenará automáticamente previamente usando _identityMap > id_.
 
 Al seleccionar campos, los campos de identidad principales se etiquetan.
 
@@ -158,7 +158,7 @@ Si necesita utilizar una clave diferente, como un ID de CRM o una dirección de 
 
 1. Seleccione el campo elegido como clave en la lista de campos de carga útil.
 
-Cuando se recibe el evento, el valor de la clave permite al sistema identificar a la persona asociada al evento. Asociada a un área de nombres (vea [esta sección](../event/about-creating.md#select-the-namespace)), la clave se puede usar para realizar consultas en Adobe Experience Platform. Ver [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
+Cuando se recibe el evento, el valor de la clave permite al sistema identificar a la persona asociada al evento. Asociada a un [tipo de identidad](../event/about-creating.md#select-the-namespace), la clave se puede usar para realizar consultas en Adobe Experience Platform. Ver [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
 La clave también se utiliza para comprobar que una persona está en un recorrido. De hecho, una persona no puede estar en dos lugares diferentes en el mismo recorrido. Como resultado, el sistema no permite que la misma clave, por ejemplo la clave CRMID=3224, esté en diferentes lugares del mismo recorrido.
 
 ## Editor de expresiones avanzadas {#adv-exp-editor}

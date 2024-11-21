@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 82%
 
 ---
 
@@ -52,12 +52,13 @@ En las listas, puede realizar acciones básicas por cada elemento. Por ejemplo, 
 >title="Etiquetas"
 >abstract="Este campo le permite asignar Etiquetas unificadas de Adobe Experience Platform a la campaña. Esto le permite clasificarlos fácilmente y mejorar la búsqueda desde la lista de campañas."
 
-Con [Etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=es) de Adobe Experience Platform, puede clasificar fácilmente sus recorridos y campañas de Journey Optimizer para mejorar la búsqueda en las listas.
+Con las [etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=es) de Adobe Experience Platform, puede clasificar fácilmente los objetos de Journey Optimizer para mejorar la búsqueda desde las listas.
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
+Añadir etiquetas significativas a las audiencias en Journey Optimizer le permite filtrar y buscar más adelante para encontrar audiencias más fácilmente. Las etiquetas se pueden utilizar además para organizar audiencias en carpetas relevantes en las que se puede buscar, crear ofertas y experiencias personalizadas y utilizarlas en reglas de decisión de experiencias.
 
-### Añadir etiquetas a un objeto
+### Añadir etiquetas a un objeto {#add-tags}
 
 El campo **[!UICONTROL Etiquetas]** le permite definir etiquetas para el objeto. Las etiquetas están disponibles para los siguientes objetos:
 
@@ -79,7 +80,7 @@ Puede seleccionar una etiqueta existente o crear una nueva. Para ello, siga los 
    >
    > Las etiquetas no distinguen entre mayúsculas y minúsculas.
 
-1. Si la etiqueta que está buscando no está disponible, haga clic en **[!UICONTROL Crear &quot;&quot;]** para definir una nueva: se añadirá automáticamente al objeto actual y estará disponible para todos los demás objetos.
+1. Si la etiqueta que está buscando no está disponible, haga clic en **[!UICONTROL Crear &quot;&quot;]** para definir una nueva: se agrega automáticamente al objeto actual y queda disponible para todos los demás objetos.
 
    ![](assets/tags4.png)
 
@@ -89,7 +90,7 @@ Puede seleccionar una etiqueta existente o crear una nueva. Para ello, siga los 
 > 
 > Si duplica o crea una nueva versión de un objeto, se conservan las etiquetas.
 
-### Filtrar por etiquetas
+### Filtrar por etiquetas {#filter-on-tags}
 
 Cada lista de objetos muestra una columna dedicada para que pueda visualizar fácilmente sus etiquetas.
 
@@ -101,7 +102,7 @@ Puede añadir o eliminar etiquetas de cualquier tipo de recorrido o campaña (ac
 
 ![](assets/tags3.png)
 
-### Administrar etiquetas
+### Administrar etiquetas {#manage-tags}
 
 Los administradores pueden eliminar etiquetas y organizarlas por categorías utilizando la variable **[!UICONTROL Etiquetas]** en **[!UICONTROL ADMINISTRACIÓN]**. Obtenga más información sobre la administración de etiquetas en [Documentación de etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=es).
 

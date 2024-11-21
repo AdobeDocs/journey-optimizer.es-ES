@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: objeto, nivel, acceso, control, etiquetas, olac, autorización
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 10%
+source-wordcount: '496'
+ht-degree: 6%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
->title="Control de acceso de nivel de objeto"
->abstract="Para mantener el acceso a este objeto, aplique solo las etiquetas para las que tenga permiso."
+>title="Etiquetas de administración de acceso"
+>abstract="Puede limitar el acceso a esta campaña en función de las etiquetas de acceso. Para agregar una limitación de acceso, vaya al botón **Administrar acceso** en la parte superior de esta página. Asegúrese de seleccionar solo las etiquetas para las que tenga permiso."
 
 El control de acceso a nivel de objeto (OLAC) permite definir autorizaciones para administrar el acceso a datos a una selección de objetos:
 
@@ -36,21 +36,27 @@ El control de acceso a nivel de objeto (OLAC) permite definir autorizaciones par
 * Configuración de canal
 * plan de calentamiento de IP
 
+Las etiquetas estandarizadas le permiten categorizar las audiencias según su gobernanza y las políticas de control de acceso. Por ejemplo, se podría utilizar una etiqueta de audiencia para evitar que una marca se dirija a miembros de una audiencia específica con publicidad en el sitio.
+
 Su objetivo es proteger los activos digitales confidenciales de usuarios no autorizados, lo que permite una mayor protección de los datos personales.
 
-En Adobe Journey Optimizer, OLAC permite proteger los datos y conceder acceso específico a objetos específicos.
+## Requisitos previos {#prereq-labels}
 
-## Creación de etiquetas {#create-assign-labels}
+Para poder [crear etiquetas](#create-labels), debe formar parte de un rol con el permiso **[!UICONTROL Administrar etiquetas de uso]**.
 
->[!IMPORTANT]
->
->Para poder crear etiquetas, debe formar parte de un rol con el permiso **[!UICONTROL Administrar etiquetas de uso]**.
+Para poder [asignar etiquetas](#assign-labels), debe ser parte de un rol con un permiso de **Administrar**, es decir, [!DNL Manage journeys], [!DNL Manage Campaigns] o [!DNL Manage decisions]. Sin este permiso, el botón **[!UICONTROL Administrar acceso]** aparecerá atenuado.
+
+Puede obtener más información sobre permisos en [esta sección](../administration/permissions.md).
+
+## Creación de etiquetas {#create-labels}
 
 Las **[!UICONTROL etiquetas]** le permiten categorizar conjuntos de datos y campos según las políticas de uso que se aplican a esos datos. **[!UICONTROL Las etiquetas]** se pueden aplicar en cualquier momento, lo que proporciona flexibilidad en la forma en que elige administrar los datos.
 
-Puede crear etiquetas en el producto [!DNL Permissions]. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html).
+Utilice etiquetas para proporcionar acceso a los usuarios, así como para aplicar políticas de consentimiento y gobernanza de datos. Estas etiquetas de gobernanza pueden afectar al consumo descendente.
 
-**[!UICONTROL Las etiquetas]** también se pueden crear directamente en Journey Optimizer:
+Puede crear etiquetas en el producto [!DNL Permissions]. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html){target="_blank"}.
+
+También puede crear **[!UICONTROL Etiquetas]** directamente en Journey Optimizer. Para crear una etiqueta, siga estos pasos:
 
 1. Desde un objeto de Adobe Journey Optimizer, aquí una **[!UICONTROL Campaña]** recién creada, haga clic en el botón **[!UICONTROL Administrar acceso]**.
 
@@ -73,10 +79,6 @@ La **[!UICONTROL etiqueta]** recién creada ya está disponible en la lista. Si 
 
 ## Asignar etiquetas {#assign-labels}
 
->[!IMPORTANT]
->
->Para poder asignar etiquetas, debe formar parte de un rol con permiso de administración, es decir, [!DNL Manage journeys], [!DNL Manage Campaigns] o [!DNL Manage decisions]. Sin este permiso, el botón **[!UICONTROL Administrar acceso]** aparecerá atenuado.
-
 Para asignar etiquetas de uso de datos personalizadas o principales a los objetos de Journey Optimizer:
 
 1. Desde un objeto de Adobe Journey Optimizer, aquí una **[!UICONTROL Campaña]** recién creada, haga clic en el botón **[!UICONTROL Administrar acceso]**.
@@ -85,7 +87,7 @@ Para asignar etiquetas de uso de datos personalizadas o principales a los objeto
 
 1. En la ventana **[!UICONTROL Administrar acceso]**, seleccione las etiquetas personalizadas o de uso de datos principales para administrar el acceso a este objeto.
 
-   Para obtener más información sobre las etiquetas de uso de datos principales, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html).
+   Para obtener más información sobre las etiquetas de uso de datos principales, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html){target="_blank"}.
 
    ![](assets/olac_4.png)
 
@@ -94,4 +96,4 @@ Para asignar etiquetas de uso de datos personalizadas o principales a los objeto
 Para tener acceso a este objeto, los usuarios deberán incluir la **[!UICONTROL etiqueta]** específica en sus **[!UICONTROL roles]**.
 Por ejemplo, un usuario con la etiqueta C1 solo tendrá acceso a los objetos con o sin etiqueta C1.
 
-Para obtener más información sobre cómo asignar **[!UICONTROL Label]** a un **[!UICONTROL Rol]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role).
+Para obtener más información sobre cómo asignar **[!UICONTROL Label]** a un **[!UICONTROL Rol]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role){target="_blank"}.
