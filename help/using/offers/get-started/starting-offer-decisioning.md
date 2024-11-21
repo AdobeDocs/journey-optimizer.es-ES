@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+source-git-commit: c9efdf634831822e670257f6ee738310081a96fb
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: '933'
+ht-degree: 96%
 
 ---
 
@@ -34,10 +34,11 @@ Los beneficios incluyen:
 
 ➡️ [Obtenga más información sobre la administración de decisiones en estos vídeos](#video)
 
+## Lectura obligatoria {#must-read}
 
->[!NOTE]
->
->Si es un usuario de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target="_blank"} que aprovecha la aplicación **Offer Decisioning**, también se le aplican todas las funciones de gestión de decisiones que se describen en esta sección.
+* Por ahora, Administración de decisiones no admite estas funciones: Control de acceso de nivel de objeto, Control de acceso de nivel de campo y Servicio de aplicación de políticas de consentimiento. Si desea usar alguno de ellos, considere la posibilidad de usar la capacidad de Journey Optimizer [Decisioning](../../experience-decisioning/gs-experience-decisioning.md).
+
+* Si es un usuario de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target="_blank"} que aprovecha la aplicación **Offer Decisioning**, también se le aplican todas las funciones de gestión de decisiones que se describen en esta sección.
 
 ## Acerca de las ofertas y las decisiones {#about-offers-and-decisions}
 
