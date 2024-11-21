@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 6b0735f619379e01e87012ba4300c0ec41334fd4
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 17%
+source-wordcount: '609'
+ht-degree: 15%
 
 ---
 
@@ -69,14 +69,28 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
 1. **Configurar atributos personalizados**: adapte el catálogo de artículos a sus necesidades específicas configurando atributos personalizados en el esquema del catálogo.
 
+   ➡️ [Obtenga información sobre cómo configurar el catálogo de artículos](catalogs.md)
+
 1. **Cree elementos de decisión** para mostrarlos a la audiencia de destino.
+
+   ➡️ [Obtenga información sobre cómo crear elementos de decisión](items.md) ([documentación de API](api-reference/decisions-items/create.md))
 
 1. **Organizar con colecciones**: Use colecciones para categorizar los elementos de decisión según las reglas basadas en atributos. Incorpore colecciones en las estrategias de selección para determinar qué colección de elementos de decisión se debe tener en cuenta.
 
+   ➡️ [Obtenga información sobre cómo administrar colecciones de elementos](collections.md) ([documentación de API](api-reference/items-collections/create.md))
+
 1. **Crear reglas de decisión**: Las reglas de decisión se utilizan en elementos de decisión o estrategias de selección para determinar a quién se puede mostrar un elemento de decisión.
+
+   ➡️ [Obtenga información sobre cómo crear reglas de decisión](rules.md)
 
 1. **Implementar métodos de clasificación**: Cree métodos de clasificación y aplíquelos dentro de las estrategias de decisión para determinar el orden de prioridad para seleccionar elementos de decisión.
 
+   ➡️ [Aprenda a crear métodos de clasificación](ranking.md)
+
 1. **Crear estrategias de selección**: genere estrategias de selección que aprovechen colecciones, reglas de decisión y métodos de clasificación para identificar los elementos de decisión adecuados para mostrarlos a los perfiles.
 
-1. **Incruste una política de decisión en su campaña basada en código**: las políticas de decisión combinan varias estrategias de selección para determinar los elementos de decisión aptos para mostrar a la audiencia deseada.
+   ➡️ [Obtenga información sobre cómo crear estrategias de selección](selection-strategies.md) ([documentación de API](api-reference/selection-strategies/create.md))
+
+1. **Cree una política de decisión e incrústela en su campaña basada en código**: las políticas de decisión combinan varias estrategias de selección para determinar los elementos de decisión aptos para mostrar a la audiencia deseada.
+
+   ➡️ [Aprenda a trabajar con directivas de decisión](create-decision.md)
