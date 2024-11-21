@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## Acerca de las campañas activadas por API {#about}
 
-Con [!DNL Journey Optimizer], puede crear campañas y luego invocarlas desde un sistema externo basado en el déclencheur del usuario mediante la [API de REST de ejecución de mensajes interactiva](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Esto le permite cubrir diversas necesidades de marketing y mensajería transaccional, como restablecimientos de contraseña, token OTP, entre otros.
+Con [!DNL Journey Optimizer], puede crear campañas y luego ejecutarlas desde un sistema externo basado en el déclencheur del usuario mediante la [API de REST de ejecución de mensajes interactiva](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Esto le permite cubrir diversas necesidades de marketing y mensajería transaccional, como restablecimientos de contraseña, token OTP, entre otros.
 
 Para ello, primero debe crear una campaña activada por API en Journey Optimizer y luego iniciar su ejecución mediante una llamada de API.
 

@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: objeto, nivel, acceso, control, etiquetas, olac, autorización
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '460'
 ht-degree: 6%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 6%
 >title="Etiquetas de administración de acceso"
 >abstract="Puede limitar el acceso a esta campaña en función de las etiquetas de acceso. Para agregar una limitación de acceso, vaya al botón **Administrar acceso** en la parte superior de esta página. Asegúrese de seleccionar solo las etiquetas para las que tenga permiso."
 
-El control de acceso a nivel de objeto (OLAC) permite definir autorizaciones para administrar el acceso a datos a una selección de objetos:
+La capacidad Control de acceso a nivel de objeto (OLAC) permite definir autorizaciones para administrar el acceso a datos a una selección de objetos:
 
 *  Recorrido 
 * Campaign
@@ -36,15 +36,13 @@ El control de acceso a nivel de objeto (OLAC) permite definir autorizaciones par
 * Configuración de canal
 * plan de calentamiento de IP
 
-Las etiquetas estandarizadas le permiten categorizar las audiencias según su gobernanza y las políticas de control de acceso. Por ejemplo, se podría utilizar una etiqueta de audiencia para evitar que una marca se dirija a miembros de una audiencia específica con publicidad en el sitio.
-
 Su objetivo es proteger los activos digitales confidenciales de usuarios no autorizados, lo que permite una mayor protección de los datos personales.
 
 ## Requisitos previos {#prereq-labels}
 
 Para poder [crear etiquetas](#create-labels), debe formar parte de un rol con el permiso **[!UICONTROL Administrar etiquetas de uso]**.
 
-Para poder [asignar etiquetas](#assign-labels), debe ser parte de un rol con un permiso de **Administrar**, es decir, [!DNL Manage journeys], [!DNL Manage Campaigns] o [!DNL Manage decisions]. Sin este permiso, el botón **[!UICONTROL Administrar acceso]** aparecerá atenuado.
+Para poder [asignar etiquetas](#assign-labels), debe ser parte de un rol con un permiso de **Administrar**, es decir, [!DNL Manage journeys], [!DNL Manage Campaigns] o [!DNL Manage decisions]. Sin este permiso, el botón **[!UICONTROL Administrar acceso]** aparece atenuado.
 
 Puede obtener más información sobre permisos en [esta sección](../administration/permissions.md).
 

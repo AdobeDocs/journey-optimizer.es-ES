@@ -9,16 +9,16 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, atributo, autorizaciones, datos, acceso, confidencial, recursos
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1023'
 ht-degree: 1%
 
 ---
 
 # Control de acceso basado en atributos {#attribute-based-access}
 
-El control de acceso basado en atributos (ABAC) permite definir autorizaciones para administrar el acceso a datos para equipos o grupos de usuarios específicos. Su objetivo es proteger los activos digitales confidenciales de usuarios no autorizados, lo que permite una mayor protección de los datos personales.
+La capacidad Control de acceso basado en atributos (ABAC) permite definir autorizaciones para administrar el acceso a datos para equipos o grupos de usuarios específicos. Su objetivo es proteger los activos digitales confidenciales de usuarios no autorizados, lo que permite una mayor protección de los datos personales.
 
 En Adobe Journey Optimizer, ABAC le permite proteger datos y conceder acceso específico a elementos de campo específicos, incluidos esquemas del Modelo de datos de experiencia (XDM), atributos de perfil y audiencias.
 
