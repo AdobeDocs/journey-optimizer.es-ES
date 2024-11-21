@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
 workflow-type: tm+mt
 source-wordcount: '2511'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -30,12 +30,12 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 * [Ofertas personalizadas](../offer-library/creating-personalized-offers.md)
 * [Ofertas de reserva](../offer-library/creating-fallback-offers.md)
 
-## Creación de la decisión {#create-activity}
+## Crear la decisión {#create-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_details"
->title="Detalles de decisión de oferta"
->abstract="Especifique el nombre de la decisión y defina una fecha y hora de inicio y finalización si es necesario. Para asignar etiquetas de uso de datos principales o personalizadas a la decisión, selecciona **[!UICONTROL Administrar acceso]**."
+>title="Detalles de la decisión de oferta"
+>abstract="Especifique el nombre de la decisión y defina una fecha y hora de inicio y finalización si es necesario. Para asignar etiquetas de uso de datos principales o personalizadas a la decisión, seleccione **[!UICONTROL Administrar acceso]**."
 
 1. Acceda a la lista de decisiones y haga clic en **[!UICONTROL Crear decisión]**.
 
@@ -57,12 +57,12 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
 >title="Colocación"
->abstract="Seleccione una ubicación a la que se enviarían las ofertas."
+>abstract="Seleccione una ubicación a la que se enviarán las ofertas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="Criterios de evaluación"
->abstract="Los criterios de evaluación consisten en una colección de ofertas asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se mostrarán en la ubicación. La secuencia de criterios de evaluación determina qué colección se evaluará primero. Se requiere al menos un criterio de evaluación."
+>abstract="Los criterios de evaluación consisten en una colección de ofertas asociada con una restricción de idoneidad y un método de clasificación para determinar las ofertas que se mostrarán en la ubicación. La secuencia de los criterios de evaluación determina qué colección se evaluará primero. Se requiere al menos un criterio de evaluación."
 
 1. Seleccione una ubicación en la lista desplegable. Se añadirá al primer ámbito de decisión de la decisión.
 

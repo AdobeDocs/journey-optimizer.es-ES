@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -42,7 +42,7 @@ Se puede acceder a la lista de ofertas personalizadas en el menú **[!UICONTROL 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_personalized"
 >title="Oferta personalizada"
->abstract="Una oferta personalizada es un mensaje personalizable basado en criterios de idoneidad y restricciones."
+>abstract="Una oferta personalizada es un mensaje personalizable basado en reglas de idoneidad y restricciones."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"

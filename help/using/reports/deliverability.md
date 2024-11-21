@@ -87,7 +87,7 @@ Autenticación de mensajes, creación de informes y conformidad basados en domin
 
 [Obtenga más información sobre el registro de DMARC](../configuration/dmarc-record.md)
 
-## Obtenga información sobre los bucles de comentarios {#feedback-loops}
+## Información sobre los bucles de comentarios {#feedback-loops}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
