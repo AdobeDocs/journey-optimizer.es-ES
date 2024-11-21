@@ -35,14 +35,14 @@ Para insertar un vínculo de baja en el contenido del correo electrónico, puede
 
 ## Opción de exclusión en un paso {#opt-out-one-step}
 
-### URL Cancelar la suscripción de un clic en el encabezado del correo electrónico {#unsubscribe-header}
+### URL de cancelación de suscripción con un clic en el encabezado del correo electrónico {#unsubscribe-header}
 
 <!--Do not modify - Legal Review Done -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="Añadir la URL Cancelar la suscripción en el encabezado del correo electrónico"
->abstract="Habilite Cancelar la suscripción a la lista para añadir una URL Cancelar la suscripción al encabezado del correo electrónico. Para establecer la URL &quot;Cancelar la suscripción&quot;, inserte un vínculo de no participación de un solo clic en el contenido del correo electrónico."
+>title="Añadir la URL de cancelación de suscripción en el encabezado del correo electrónico"
+>abstract="Habilite la cancelación de suscripción a la lista para añadir una URL de cancelación de suscripción al encabezado del correo electrónico. Para establecer la URL &quot;Cancelar la suscripción&quot;, inserte un vínculo de no participación de un solo clic en el contenido del correo electrónico."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=es#one-click-opt-out" text="Opción de exclusión en un clic"
 
 La URL &quot;Cancelar la suscripción&quot; de una lista de un clic es un vínculo o botón &quot;Cancelar la suscripción&quot; que se muestra junto a la información del remitente del correo electrónico y permite a los destinatarios excluirse instantáneamente de sus listas de correo con un solo clic. En Adobe Journey Optimizer, cuando la opción **Habilitar cancelación de suscripción a una lista** está activada, el encabezado del correo electrónico incluye un mailto y/o una URL de forma predeterminada que los destinatarios pueden usar para cancelar la suscripción a su lista de correo.
