@@ -5,18 +5,22 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 5%
+source-wordcount: '282'
+ht-degree: 17%
 
 ---
 
 # Envío de pruebas de correo electrónico {#send-proofs}
 
-Una prueba es un mensaje específico que le permite probar un mensaje antes de enviarlo a la audiencia principal. Los destinatarios de la prueba se encargan de aprobar el mensaje: procesamiento, contenido, configuración y configuración.
+Una prueba es un mensaje específico que le permite probar un mensaje antes de enviarlo al público principal. Los destinatarios de la prueba se encargan de aprobar el mensaje: procesamiento, contenido, valores de ajuste de personalización, configuración.
 
-Una vez seleccionados [perfiles de prueba](test-profiles.md), puede enviar pruebas.
+>[!NOTE]
+>
+>[!DNL Journey optimizer] también le permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV / JSON, o añadidos manualmente. [Aprenda a probar el contenido con datos de entrada de ejemplo](../test-approve/simulate-sample-input.md)
+
+Para enviar pruebas de correo electrónico después de seleccionar [perfiles de prueba](test-profiles.md), siga estos pasos:
 
 1. En la pantalla **[!UICONTROL Simular]**, haga clic en el botón **[!UICONTROL Enviar revisión]**.
 

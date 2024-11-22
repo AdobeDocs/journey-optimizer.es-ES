@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 16%
+source-wordcount: '274'
+ht-degree: 13%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 16%
 >abstract="Utilice perfiles de prueba para previsualizar y probar el contenido. Si ha añadido campos personalizados, puede comprobar cómo se muestran utilizando datos de perfil de prueba."
 
 Antes de previsualizar o probar el contenido, primero debe seleccionar perfiles de prueba, que son destinatarios adicionales que no coinciden con los criterios de objetivo definidos. [Aprenda a crear perfiles de prueba](../audience/creating-test-profiles.md)
+
+>[!NOTE]
+>
+>Además de los perfiles de prueba, [!DNL Journey optimizer] también le permite probar distintas variantes del contenido mediante la vista previa y el envío de pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV/JSON, o agregados manualmente. [Aprenda a probar el contenido con datos de entrada de ejemplo](../test-approve/simulate-sample-input.md)
 
 Para seleccionar perfiles de prueba, siga estos pasos:
 

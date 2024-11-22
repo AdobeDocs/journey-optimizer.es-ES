@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: becd2d8bdb93abbe21a24c3767179b4e90c01523
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 18%
+source-wordcount: '1235'
+ht-degree: 17%
 
 ---
 
@@ -126,7 +126,7 @@ Conozca los pasos detallados para crear el contenido del mensaje en las siguient
 <div align="center"><a href="../content-card/create-content-card.md"><strong>Tarjetas de contenido</strong></a></div></td>
 </tr></table>
 
-Una vez definido el contenido, use el botón **[!UICONTROL Simular contenido]** para previsualizar y probar el contenido con perfiles de prueba. [Más información](../content-management/preview-test.md). Para volver a la pantalla de creación de campañas, haga clic en la flecha izquierda.
+Una vez definido el contenido, utilice el botón **[!UICONTROL Simular contenido]** para previsualizar y probar el contenido con perfiles de prueba o datos de entrada de muestra cargados desde un archivo CSV/JSON, o añadidos manualmente. [Más información](../content-management/preview-test.md). Para volver a la pantalla de creación de campañas, haga clic en la flecha izquierda.
 
 ![](assets/create-campaign-design.png)
 

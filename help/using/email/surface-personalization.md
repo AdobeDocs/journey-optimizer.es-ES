@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración, subdominio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 7%
+source-wordcount: '1112'
+ht-degree: 6%
 
 ---
 
@@ -161,7 +161,13 @@ Al utilizar una configuración con configuración personalizada en una campaña 
 
 ## Compruebe la configuración {#check-configuration}
 
-Al utilizar una configuración personalizada en una campaña o un recorrido, puede obtener una vista previa del contenido del correo electrónico para comprobar posibles errores con la configuración dinámica definida. Siga los pasos a continuación.
+Al utilizar una configuración personalizada en una campaña o un recorrido, puede obtener una vista previa del contenido del correo electrónico mediante perfiles de prueba para comprobar posibles errores con la configuración dinámica definida. Siga los pasos a continuación.
+
+>[!NOTE]
+>
+>Además de los perfiles de prueba, [!DNL Journey optimizer] también le permite probar distintas variantes del contenido mediante la vista previa y el envío de pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV/JSON, o agregados manualmente. [Aprenda a probar el contenido con datos de entrada de ejemplo](../test-approve/simulate-sample-input.md)
+
+Para obtener una vista previa del contenido mediante perfiles de prueba, siga estos pasos:
 
 1. En la pantalla Editar contenido del mensaje o en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]**. [Más información](../content-management/preview.md)
 

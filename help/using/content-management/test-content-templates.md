@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 6%
+source-wordcount: '216'
+ht-degree: 5%
 
 ---
 
@@ -37,4 +37,4 @@ Puede probar la renderización de algunas de las plantillas de correo electróni
 
 >[!CAUTION]
 >
->Actualmente, el seguimiento no es compatible con las plantillas de contenido de prueba de correo electrónico, lo que significa que el seguimiento de eventos, parámetros de UTM y vínculos de página de aterrizaje no serán efectivos en las pruebas que se envían desde una plantilla. Para probar el seguimiento, [use la plantilla de contenido](../email/use-email-templates.md) en un mensaje de correo electrónico y [envíe una prueba](../content-management/preview-test.md#send-proofs).
+>Actualmente, el seguimiento no es compatible con las plantillas de contenido de prueba de correo electrónico, lo que significa que el seguimiento de eventos, parámetros de UTM y vínculos de página de aterrizaje no serán efectivos en las pruebas que se envían desde una plantilla. Para probar el seguimiento, [use la plantilla de contenido](../email/use-email-templates.md) en un mensaje de correo electrónico y envíe una prueba usando perfiles de prueba o datos de entrada de muestra cargados desde un archivo CSV/JSON, o agregados manualmente. [Obtenga información sobre cómo obtener una vista previa y probar el contenido](../content-management/preview-test.md)

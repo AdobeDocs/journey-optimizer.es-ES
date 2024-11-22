@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: creación, correo electrónico, inicio, recorrido, campaña
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '956'
 ht-degree: 9%
 
 ---
@@ -147,6 +147,10 @@ Pueden producirse dos tipos de alertas:
 ## Compruebe y envíe su correo electrónico
 
 Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo, enviar pruebas y controlar su renderización en clientes populares de escritorio, móviles y web. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
+
+>[!NOTE]
+>
+>Además de los perfiles de prueba, [!DNL Journey optimizer] también le permite probar distintas variantes del contenido mediante la vista previa y el envío de pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV/JSON, o agregados manualmente. [Aprenda a probar el contenido con datos de entrada de ejemplo](../test-approve/simulate-sample-input.md)
 
 Para ello, haga clic en **[!UICONTROL Simular contenido]** y añada un perfil de prueba para comprobar el mensaje con los datos del perfil de prueba.
 

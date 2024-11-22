@@ -9,16 +9,20 @@ role: User, Data Engineer
 level: Intermediate
 keywords: perfiles de prueba, prueba, prueba, recorrido
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 2%
+source-wordcount: '1367'
+ht-degree: 3%
 
 ---
 
 # Creación de perfiles de prueba {#create-test-profiles}
 
 Se requieren perfiles de prueba al usar el [modo de prueba](../building-journeys/testing-the-journey.md) en un recorrido, y para [previsualizar y probar el contenido](../content-management/preview-test.md).
+
+>[!NOTE]
+>
+>[!DNL Journey optimizer] también le permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV / JSON, o añadidos manualmente. [Aprenda a probar el contenido con datos de entrada de ejemplo](../test-approve/simulate-sample-input.md)
 
 Existen varias formas de crear perfiles de prueba. Puede encontrar en esta página los detalles para:
 
@@ -181,7 +185,7 @@ Los perfiles de prueba se han añadido y ahora se pueden utilizar para probar un
 
 ## Creación de perfiles de prueba mediante llamadas a API{#create-test-profiles-api}
 
-También puede crear perfiles de prueba mediante llamadas a la API. Obtenga más información en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
+También puede crear perfiles de prueba mediante llamadas a la API. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
 
 Debe utilizar un esquema de perfil que contenga el grupo de campos Detalles de la prueba de perfil. El indicador testProfile forma parte de este grupo de campos.
 Al crear un perfil, asegúrese de pasar el valor: testProfile = true.

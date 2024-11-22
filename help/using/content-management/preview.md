@@ -5,18 +5,24 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 6%
+source-wordcount: '261'
+ht-degree: 3%
 
 ---
 
-# Compruebe su contenido {#preview}
+# Vista previa del contenido mediante perfiles de prueba {#preview}
 
 <!--## Preview your content {#preview-content}-->
 
-Una vez definidos los [perfiles de prueba](test-profiles.md), puede obtener una vista previa del contenido. Siga estos pasos:
+Una vez definidos los [perfiles de prueba](test-profiles.md), puede obtener una vista previa del contenido.
+
+>[!NOTE]
+>
+>[!DNL Journey optimizer] también le permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV / JSON, o añadidos manualmente. [Aprenda a probar el contenido con datos de entrada de ejemplo](../test-approve/simulate-sample-input.md)
+
+Para obtener una vista previa del contenido mediante perfiles de prueba, siga estos pasos:
 
 1. En la pantalla Editar contenido del mensaje o en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]**.
 
