@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
 source-wordcount: '2168'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -187,7 +187,7 @@ ht-degree: 97%
       + [Vista previa del contenido](using/content-management/preview.md)
       + [Envío de pruebas de correo electrónico](using/content-management/proofs.md)
       + [Prueba del procesamiento de correo electrónico](using/content-management/rendering.md)
-      + [Prueba de contenido con datos de entrada de ejemplo (Beta)](using/test-approve/simulate-sample-input.md)
+      + [Prueba del contenido con datos de entrada de muestra (Beta)](using/test-approve/simulate-sample-input.md)
       + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
    + Aprobación de recorridos y campañas {#approve}
       + [Introducción a las aprobaciones](using/test-approve/gs-approval.md)
@@ -309,7 +309,7 @@ ht-degree: 97%
       + [Casos de uso del Asistente de IA](using/content-management/generative-uc.md)
    + Trabajo con contenido multilingüe{#content-multilingual}
       + [Introducción al contenido multilingüe](using/content-management/multilingual-gs.md)
-      + [Crear una configuración regional](using/content-management/multilingual-locale.md)
+      + [Creación de una configuración regional](using/content-management/multilingual-locale.md)
       + [Creación de un proveedor de idiomas](using/content-management/multilingual-provider.md)
       + [Creación de contenido multilingüe con traducción manual](using/content-management/multilingual-manual.md)
       + [Creación de contenido multilingüe con traducción automática](using/content-management/multilingual-automated.md)
@@ -368,7 +368,7 @@ ht-degree: 97%
 + Públicos, perfiles e identidad{#audiences-profiles-identities}
    + Públicos {#audiences}
       + [Introducción a los públicos](using/audience/about-audiences.md)
-      + [Carga personalizada (CSV) y composición de audiencia federada](using/audience/custom-upload-fac.md)
+      + [Carga personalizada (CSV) y composición de público federado](using/audience/custom-upload-fac.md)
       + [Generar definiciones de segmentos](using/audience/creating-a-segment-definition.md)
       + Componer públicos {#audience-orchestration}
          + [Introducción a Composición de públicos](using/audience/get-started-audience-orchestration.md)
@@ -451,7 +451,7 @@ ht-degree: 97%
 + Capacidades de decisión {#decisioning}
    + [Introducción a las capacidades de decisión](using/experience-decisioning/gs-decision.md)
    + Toma de decisiones {#experience-decisioning}
-      + [Introducción a Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+      + [Introducción a la toma de decisiones](using/experience-decisioning/gs-experience-decisioning.md)
       + Referencia de la API{#api-reference}
          + Elementos de decisión{#decision-items}
             + [Creación de elementos de decisión](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -659,7 +659,7 @@ ht-degree: 97%
    + [Asistencia para el archivado](using/configuration/archiving-support.md)
    + [Cambio de direcciones de ejecución](using/configuration/primary-email-addresses.md)
    + [Configurar reglas empresariales](using/configuration/frequency-rules.md)
-   + [Trabajo con conjuntos de reglas (LA)](using/configuration/rule-sets.md)
+   + [Trabajar con conjuntos de reglas (LA)](using/configuration/rule-sets.md)
    + Configurar recorridos {#configure-journeys}
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
       + Integración con sistemas externos {#external-systems}

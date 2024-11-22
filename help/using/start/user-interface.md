@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
 workflow-type: tm+mt
 source-wordcount: '1374'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -254,14 +254,14 @@ Para cambiar el idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_attribute"
 >title="Seleccionar atributos de decisión del catálogo"
->abstract="Los atributos de decisión se almacenan en el esquema del catálogo. Seleccione un atributo que desee utilizar aquí del catálogo seleccionado."
+>abstract="Los atributos de decisión se almacenan en el esquema del catálogo. Seleccione un atributo que desee utilizar aquí desde el catálogo seleccionado."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_policy"
 >title="Política de decisión"
->abstract="Una política de decisión le permite elegir los mejores elementos del motor de decisión y enviarlos a cada audiencia."
+>abstract="Una política de decisión permite elegir los mejores elementos del motor de decisión y enviarlos a cada público."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_placements"
->title="Colocación"
+>title="Ubicación"
 >abstract="Una ubicación determina dónde aparecen los elementos devueltos por el motor de decisión en un mensaje. Puede realizar un seguimiento de su rendimiento en diferentes ubicaciones en la creación de informes."
