@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: a1502d2fa13508650cb9353e53ab3a43de650c27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Eche un vistazo a las mejoras más recientes del producto y a la documentación 
 
 >[!TAB Versión de octubre de 2024]
 
-La versión de octubre ya está activa, e incluye el bloqueo de contenido de correo electrónico, la integración con tinta móvil, las experiencias basadas en código y web en recorrido. Anteriormente en Limited Availability (LA), las siguientes funcionalidades están ahora disponibles para todos: Personalización de la configuración de correo electrónico, Políticas de aprobaciones, Experimentación de contenido, Experiencia de creación de informes mejorada, Contenido multilingüe y más.
+La versión de octubre ya está en vigor, e incluye el bloqueo de contenido de correo electrónico, la integración con Movable Ink, las experiencias basadas en código y web en los recorridos. Anteriormente en disponibilidad limitada (LA), las siguientes funcionalidades están ahora disponibles para todos: personalización de la configuración de correo electrónico, políticas de aprobaciones, experimentación de contenido, experiencia de creación de informes mejorada, contenido multilingüe y mucho más.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -38,7 +38,7 @@ La creación de informes en Journey Optimizer cuentan con una interoperabilidad 
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB Experiencias web en recorrido]
+>[!TAB Experiencias web en recorridos]
 
 Con el canal web, Adobe Journey Optimizer permite personalizar la experiencia web que ofrece a sus clientes a través de recorridos web entrantes. El canal web ahora está disponible en el lienzo de recorrido.
 

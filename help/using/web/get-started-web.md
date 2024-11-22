@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ A través de una interfaz visual intuitiva, esta capacidad le permite modificar 
 
 Si ya está utilizando canales salientes como correo electrónico, SMS o notificaciones push, ahora puede aprovechar el canal web entrante para ofrecer una experiencia verdaderamente personalizada que abarque todos los canales.
 
-Una vez que haya creado un recorrido o una campaña, seleccione **Web** como acción y defina la configuración básica. Para obtener más información sobre cómo configurar su recorrido/campaña, consulte esta [página](create-web.md#create-web-experience).
+Una vez creado un recorrido o una campaña, seleccione **Web** como acción y defina la configuración básica. Para obtener más información sobre cómo configurar el recorrido o la campaña, consulte esta [página](create-web.md#create-web-experience).
 
 >[!NOTE]
 >

@@ -7,9 +7,9 @@ topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 97b6041d4b8523b11b13dd78cd8b241a6410f1bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2103'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 78%
 
 ### Nuevas funciones {#24-10-features}
 
-Esta versión incorpora las nuevas funciones detalladas a continuación:
+Esta versión incorpora las nuevas funciones que se indican a continuación:
 
 <table>
 <thead>
@@ -119,14 +119,14 @@ Esta versión incorpora las nuevas funciones detalladas a continuación:
 <td>
 <p>Ahora puedes integrar Movable Ink Da Vinci y Adobe Journey Optimizer. Con esta actividad puedes: </p>
 <p><ul><li>Aprovechar las potentes funciones del producto Da Vinci de Movable Ink para combinar y personalizar las variaciones de correo electrónico para las campañas por lotes</li>
-<li>Acelere los flujos de trabajo de los profesionales para los clientes de Journey Optimizer que utilizan Da Vinci para la creación y Adobe Journey Optimizer para la optimización y el envío</li>
+<li>Acelerar los flujos de trabajo de los profesionales para los clientes de Journey Optimizer que utilizan Da Vinci para la creación y Adobe Journey Optimizer para la optimización y el envío</li>
 <li>Optimizar los modelos Da Vinci con datos de Adobe.</li></ul></p>
-<p>Para obtener más información, consulte la <a href="https://movableink.com/adobe-and-movable-ink">documentación sobre Tinta móvil Da Vinci</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://movableink.com/adobe-and-movable-ink">documentación sobre Movable Ink Da Vinci</a>.</p>
 </tr>
 </tbody>
 </table>
 
-Antes disponibles para un conjunto de organizaciones (LA), ahora están disponibles las siguientes capacidades para todos los usuarios (GA):
+Anteriormente disponibles para un conjunto de organizaciones (LA), los experimentos en recorridos ya están disponibles para todos los usuarios (GA):
 
 <table>
 <thead>
@@ -227,10 +227,10 @@ Antes disponibles para un conjunto de organizaciones (LA), ahora están disponib
 <tr>
 <td>
 <p>La creación de informes en Journey Optimizer ahora está disponible de manera general (GA) y cuenta con una interoperabilidad mejorada con las funciones de Customer Journey Analytics, estandarizando la creación de informes en ambas plataformas y mejorando la coherencia y fiabilidad de los datos. Esta integración perfecta entre Journey Optimizer y Customer Journey Analytics proporciona una visión más clara de las métricas de rendimiento, lo que permite a los usuarios tomar decisiones más informadas.</p>
-<p>Con General Availability, se han introducido cuatro nuevas funciones: la capacidad de crear métricas sencillas, crear y publicar audiencias, hacer preguntas ad-hoc mediante Insight Builder y programar informes para que se envíen automáticamente por correo electrónico a los destinatarios clave.</p>
+<p>Con la disponibilidad general, se introducen cuatro nuevas funciones: la posibilidad de crear métricas sencillas, crear y publicar públicos, hacer preguntas específicas mediante Insight Builder y programar informes para que se envíen automáticamente por correo electrónico a los destinatarios clave.</p>
 <p>Para obtener más información, consulte la <a href="../reports/report-cja-manage.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>Importante: La experiencia actual de creación de informes se eliminará a partir de enero de 2025. Después de esta fecha, la nueva experiencia de creación de informes pasará a ser el estándar. Le recomendamos que se familiarice con las nuevas características y funcionalidades para garantizar una transición sin problemas. <a href="../reports/report-gs-cja.md">Aprenda a empezar con la nueva interfaz de creación de informes de Journey Optimizer</a></p>
+<p>Importante: la experiencia actual de creación de informes se retirará a partir de enero de 2025. Después de esta fecha, la nueva experiencia de creación de informes pasará a ser el estándar. Le recomendamos que se familiarice con las nuevas características y funcionalidades para garantizar una transición sin problemas. <a href="../reports/report-gs-cja.md">Aprenda a empezar con la nueva interfaz de creación de informes de Journey Optimizer</a></p>
 <p>Disponible desde el 16 de octubre de 2024</p>
 </tr>
 </tbody>
@@ -247,8 +247,8 @@ Antes disponibles para un conjunto de organizaciones (LA), ahora están disponib
 <tbody>
 <tr>
 <td>
-<p>Recorrido Optimizer ahora le permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas de correo electrónico utilizando datos de entrada de muestra cargados desde un archivo o añadidos manualmente. El sistema detecta automáticamente todos los atributos de perfiles utilizados en el contenido para la personalización y los puede utilizar en las pruebas para crear varias variantes.</p>
-<p>Actualmente, todos los clientes tienen esta capacidad disponible como una versión beta pública, para los canales de correo electrónico, SMS y notificaciones push.</p>
+<p>Journey Optimizer ahora le permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas por correo electrónico utilizando datos de entrada de muestra cargados desde un archivo o añadidos manualmente. El sistema detecta automáticamente todos los atributos de perfiles utilizados en el contenido para la personalización y los puede utilizar en las pruebas para crear varias variantes.</p>
+<p>Actualmente, todos los clientes tienen esta posibilidad disponible como una versión Beta pública, para los canales de correo electrónico, SMS y notificaciones push.</p>
 <p>Para obtener más información, consulte la <a href="../test-approve/simulate-sample-input.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/gif-simulate.gif">
 </td>
@@ -266,7 +266,7 @@ Antes disponibles para un conjunto de organizaciones (LA), ahora están disponib
 <tbody>
 <tr>
 <td>
-<p>Aproveche los datos de Adobe Experience Platform en el editor de personalización para personalizar su contenido. Para ello, los conjuntos de datos necesarios para la personalización de la búsqueda deben habilitarse primero mediante una llamada de API. Una vez finalizado, puede usar sus datos para personalizar su contenido en [!DNL Journey Optimizer].</p>
+<p>Aproveche los datos de Adobe Experience Platform en el editor de personalización para personalizar su contenido. Para ello, los conjuntos de datos necesarios para la personalización de la búsqueda deben habilitarse primero mediante una llamada de la API. Cuando haya terminado, puede usar sus datos para personalizar su contenido en [!DNL Journey Optimizer].</p>
 <p>Esta funcionalidad está actualmente disponible para todos los clientes como beta pública.</p>
 <p>Para obtener más información, consulte la <a href="../personalization/lookup-aep-data.md">documentación detallada</a>.</p>
 </td>
@@ -280,9 +280,9 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Canal de SMS**
 
-* Ahora puede editar o eliminar una configuración de canal de API de SMS. [Más información](../sms/sms-configuration.md)
+* Ahora puede editar o eliminar una configuración de canal de API por SMS. [Más información](../sms/sms-configuration.md)
 
-* Se han introducido las siguientes mejoras para mejorar las funciones de mensajería SMS con Infobip y Sinch:
+* Se han introducido las siguientes mejoras para optimizar las funciones de mensajería SMS con Infobip y Sinch:
 
    * Puede definir y administrar palabras clave únicas para sus campañas y recorridos de SMS, lo que permite una comunicación más personalizada y eficaz.
 
@@ -299,7 +299,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Canal web**
 
-* **Modo de edición no visual para el diseñador web**: como alternativa al diseñador web de Journey Optimizer, ahora puede agregar modificaciones al sitio web mediante un editor no visual. Permite introducir los cambios manualmente sin abrir las páginas en el editor visual. Este modo de edición no visual resulta útil si no puede instalar extensiones de explorador como el Asistente visual de Adobe Experience Cloud, necesario para cargar las páginas en el diseñador web. [Más información](../web/web-non-visual-editor.md)
+* **Modo de edición no visual para el diseñador web**: como alternativa al diseñador web de Journey Optimizer, ahora puede añadir modificaciones al sitio web mediante un editor no visual. Le permite introducir los cambios manualmente sin abrir las páginas en el editor visual. Este modo de edición no visual resulta útil si no puede instalar extensiones de explorador como el asistente visual de Adobe Experience Cloud, necesario para cargar las páginas en el diseñador web. [Más información](../web/web-non-visual-editor.md)
 
 
 **Conjuntos de datos**
@@ -313,15 +313,15 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
   Este cambio se implementará en las zonas protegidas de clientes existentes en una fase posterior. [Más información](../data/datasets-ttl.md#ttl)
 
-* **Parámetros en acciones personalizadas** - Fecha de disponibilidad: 3 de octubre de 2024 - Ahora se admiten parámetros nulos y opcionales en las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **Parámetros en acciones personalizadas**: fecha de disponibilidad: 3 de octubre de 2024. Ahora se admiten parámetros NULL y opcionales en las acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
 **Creación de informes**
 
-* Ya está disponible el informe de **Toma de decisiones**, que ofrece información esencial sobre cómo los visitantes interactúan con las experiencias. [Más información](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
+* Ya está disponible la **creación de informes de Decisioning**, que ofrece información esencial sobre cómo los visitantes interactúan con las experiencias. [Más información](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
 
 **Gobernanza de datos y políticas de consentimiento**: fecha de disponibilidad: 7 de octubre de 2024
 
-* La aplicación de las **políticas de control de datos** ahora se aplica en todos los canales de Journey Optimizer. Para los clientes que han creado directivas en Adobe Experience Platform, estas se aplican a las acciones de marketing como parte de la configuración de canales. Al crear contenido con una configuración, el sistema comprueba todos los campos de personalización para detectar cualquier infracción de la gobernanza de datos. Si se encuentra una infracción, no será posible publicar un recorrido o una campaña. [Más información](../action/action-privacy.md)
+* La aplicación de las **políticas de control de datos** ahora se aplica en todos los canales de Journey Optimizer. Para los clientes que han creado políticas en Adobe Experience Platform, estas se aplican a las acciones de marketing como parte de la configuración de canales. Al crear contenido con una configuración, el sistema comprueba todos los campos de personalización para detectar cualquier infracción de la gobernanza de datos. Si se encuentra una infracción, no será posible publicar un recorrido o una campaña. [Más información](../action/action-privacy.md)
 
 * Las **políticas de consentimiento personalizado** ahora se aplican a todos los canales de Journey Optimizer. Al aplicar la ley antes de enviar un mensaje o de entregar una experiencia entrante, el sistema comprueba que el usuario haya dado su consentimiento para utilizar campos de personalización en el contenido que va a recibir. Si no se da ningún consentimiento, la experiencia no se muestra. [Más información](../action/consent.md)
 
@@ -341,10 +341,10 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Canal basado en código**
 
-* Ya están disponibles las plantillas de contenido. Puede acelerar la creación de experiencias basadas en código a partir de una plantilla de contenido creada por los desarrolladores. El uso de una plantilla de contenido permite al experto en marketing modificar algunos valores o campos, en lugar de crear todo el HTML o la carga útil de contenido JSON. [Más información](../content-management/content-templates.md)
+* Ya están disponibles las plantillas de contenido. Puede acelerar la creación de experiencias basadas en código a partir de una plantilla de contenido creada por los desarrolladores. El uso de una plantilla de contenido permitirá al experto en marketing modificar tan solo algunos valores o campos, en lugar de crear todo el HTML o la carga útil de contenido JSON. [Más información](../content-management/content-templates.md)
 
 **Decisioning**
 
-* Los usuarios de [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es) ahora pueden elegir modelos personalizados para optimizarlos al configurar un modelo de IA en Decisioning (anteriormente conocido como Decisiones sobre experiencias). Esto le permite, por ejemplo, optimizar en una tabla &quot;compras&quot; personalizada en lugar de restricciones definidas como la tasa de clics. [Más información](../experience-decisioning/ranking.md)
+* Los usuarios de [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es) ahora pueden elegir modelos personalizados para optimizarlos al configurar un modelo de IA en Decisioning (anteriormente conocido como Decisiones sobre experiencias). Esto le permite, por ejemplo, optimizar en una tabla de “compras” personalizada en lugar de restricciones definidas como la tasa de clics. [Más información](../experience-decisioning/ranking.md)
 
-* Al añadir una política de decisión a una campaña basada en código con Decisioning, ahora puede seleccionar manualmente elementos de decisión únicos, además de estrategias de selección. Además, ahora puede seleccionar más de una oferta de reserva. Esto garantiza que se devuelva un determinado número de elementos de decisión. [Más información](../experience-decisioning/create-decision.md)
+* Al añadir una política de decisión a una campaña basada en código con Decisioning, ahora puede seleccionar manualmente elementos de decisión únicos, además de las estrategias de selección. Además, ahora puede seleccionar más de una oferta de reserva. Esto garantiza que se devuelva un determinado número de elementos de decisión. [Más información](../experience-decisioning/create-decision.md)

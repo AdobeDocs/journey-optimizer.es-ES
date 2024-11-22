@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia bas
 
 * Edite el contenido utilizando el [editor de personalización](create-code-based.md#edit-code).
 * La experiencia basada en código requiere un trabajo de desarrollo previo en la implementación para garantizar que las aplicaciones puedan interpretar y entregar el contenido publicado en el perímetro por [!DNL Journey Optimizer] para estas ubicaciones. [Más información](code-based-configuration.md#surface-definition)
-* Requiere más planificación y solo puede cambiar las cosas que especifican los desarrolladores. Por lo tanto, es esencial identificar los componentes (titular, imagen a pantalla completa, barra de menús, etc.) de las aplicaciones que deben modificarse para la personalización o prueba, y trabajar con el equipo de desarrollo para crear la implementación necesaria para gestionar estos cambios.
+* Requiere más planificación y solo puede cambiar las cosas que especifican los desarrolladores. Por lo tanto, es esencial identificar los componentes (banner principal, imagen principal, barra de menús, etc.) en las aplicaciones que deben modificarse para la personalización o para pruebas, y trabajar con el equipo de desarrollo para crear la implementación necesaria para gestionar estos cambios.
 * Le permite utilizar contenido con código JSON.
 * Se centra en el desarrollador.
 

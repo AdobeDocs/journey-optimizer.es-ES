@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 61447b6400b65e29a9187790e74be47b09764c4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1967'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -292,7 +292,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 >[!AVAILABILITY]
 >
->Las siguientes mejoras solo están disponibles con proveedores de Sinch e Infobip.
+>Las siguientes mejoras solo están disponibles con los proveedores de Sinch e Infobip.
 
 Se han introducido mejoras en los SMS para mejorar las funciones de mensajería:
 
@@ -323,7 +323,7 @@ Se han introducido mejoras en los SMS para mejorar las funciones de mensajería:
 
 **Creación de informes**
 
-* Ya está disponible el informe de **Toma de decisiones**, que ofrece información esencial sobre cómo los visitantes interactúan con las experiencias.
+* Ya está disponible la **creación de informes de Decisioning**, que ofrece información esencial sobre cómo los visitantes interactúan con las experiencias.
 
 **Gobernanza de datos y políticas de consentimiento**: fecha de disponibilidad: 7 de octubre de 2024
 
