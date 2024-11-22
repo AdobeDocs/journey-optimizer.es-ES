@@ -5,17 +5,15 @@ title: Introducción a los canales de comunicación en  [!DNL Adobe Journey Opti
 description: Aprenda a trabajar con  [!DNL Adobe Journey Optimizer] canales de comunicación.
 role: User
 level: Beginner
-source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
+exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
+source-git-commit: ac71350cd344845582e09fa039fb796e9408b048
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '410'
 ht-degree: 2%
 
 ---
 
-
 # Introducción a [!DNL Adobe Journey Optimizer] canales de comunicación {#get-started-email}
-
-## [!DNL Adobe Journey Optimizer] canales {#overview}
 
 En el panorama de marketing dinámico de hoy en día, llegar de forma eficaz a su audiencia en varias plataformas es esencial para crear relaciones duraderas e impulsar la participación. Esta sección proporciona información general completa sobre los canales de comunicación disponibles en [!DNL Adobe Journey Optimizer], lo que le ayuda a comprender cómo utilizar cada canal de forma eficaz en sus estrategias de marketing.
 
