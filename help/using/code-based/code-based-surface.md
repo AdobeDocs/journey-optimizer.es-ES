@@ -5,7 +5,7 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: e9181c333fb9188cdfcee3fd96c1d3bb94b8dd75
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 52%
@@ -20,7 +20,7 @@ ht-degree: 52%
 >id="ajo_admin_surface_uri"
 >title="Añada el URI de superficie del componente"
 >abstract="Si la implementación no es para web, iOS ni Android, o si necesita dirigirse a URI específicos, introduzca un URI de superficie, que es un identificador único que dirige a la entidad en la que desea ofrecer la experiencia. Asegúrese de introducir un URI de superficie que coincida con el utilizado en su propia implementación."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="Cree una configuración de experiencia basada en código para Otras plataformas"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="Cree una configuración de experiencia basada en código para Otras plataformas"
 
 Una experiencia basada en código **surface** es cualquier entidad diseñada para la interacción de usuarios o sistemas, identificada de forma exclusiva por un [URI](#surface-uri). La superficie está especificada en la [implementación de aplicación](code-based-prerequisites.md#implementation-prerequisites) y debe coincidir con la superficie a la que se hace referencia en la [configuración de canal de experiencia basada en código](code-based-configuration.md).
 
