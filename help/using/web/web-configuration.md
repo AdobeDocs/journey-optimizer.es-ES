@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 10%
@@ -67,7 +67,11 @@ Por ejemplo, es posible que desee aplicar los cambios a un banner a pantalla com
 
 1. Al configurar su [experiencia web](#web-configuration) o [experiencia basada en código](../code-based/code-based-configuration.md), seleccione **[!UICONTROL Regla de coincidencia de páginas]**.
 
-1. Defina sus criterios para los campos **[!UICONTROL Dominio]** y **[!UICONTROL Página]**. Compruebe los operadores disponibles en [esta sección](#available-operators).
+1. Defina sus criterios para los campos **[!UICONTROL Dominio]** y **[!UICONTROL Página]**.
+
+   >[!NOTE]
+   >
+   >Compruebe los operadores disponibles en [esta sección](#available-operators).
 
    Por ejemplo, si desea editar elementos que se muestran en todas las páginas de productos femeninas del sitio web de Luma, seleccione **[!UICONTROL Dominio]** > **[!UICONTROL Comienza con]** > `luma` y **[!UICONTROL Página]** > **[!UICONTROL Contiene]** > `women`.
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 14%
+source-wordcount: '713'
+ht-degree: 11%
 
 ---
 
@@ -85,6 +85,8 @@ Para empezar a crear tu **experiencia basada en código** a través de una campa
 
 Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
+➡️ [Aprenda a crear una campaña de experiencia basada en código en este vídeo](#video)
+
 >[!ENDTABS]
 
 ## Edición del contenido del código {#edit-code}
@@ -123,239 +125,8 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
 
 Ahora, tan pronto como el desarrollador realice una llamada de API o SDK para recuperar contenido para la superficie definida en la configuración de canal, los cambios se aplicarán a su página web o aplicación.
 
-## Prueba de la experiencia basada en código {#test-code-based-experience}
+## Vídeo explicativo{#video}
 
->[!CONTEXTUALHELP]
->id="ajo_code_based_preview"
->title="Previsualización de la experiencia basada en código"
->abstract="Obtenga una simulación del aspecto que tendrá su experiencia basada en código."
+El siguiente vídeo muestra cómo crear una campaña de experiencia basada en código, configurar sus propiedades, probarla y publicarla.
 
-Para mostrar una previsualización de la experiencia basada en código modificada, siga los pasos a continuación.
-
->[!CAUTION]
->
->Debe tener perfiles de prueba disponibles para simular qué ofertas se les enviarán. Aprenda a [crear perfiles de prueba](../audience/creating-test-profiles.md).
-
-1. En el recorrido o la campaña, desde el editor de personalización o la pantalla de edición de contenido, seleccione **[!UICONTROL Simular contenido]**.
-
-   ![](assets/code-based-campaign-simulate.png)
-
-1. Haga clic en **[!UICONTROL Administrar perfiles de prueba]** para seleccionar uno o más perfiles de prueba.
-
-1. Se muestra una previsualización de la experiencia modificada basada en código.
-
-Encontrará información detallada sobre cómo seleccionar perfiles de prueba y obtener una vista previa del contenido en [esta sección](../content-management/preview.md).
-
-### Previsualización en el dispositivo {#preview-on-device}
-
->[!CONTEXTUALHELP]
->id="ajo_code_based_preview_device"
->title="Previsualización de la experiencia basada en código en un dispositivo real"
->abstract="Obtenga una previsualización de sus experiencias personalizadas directamente en el explorador o en sus dispositivos móviles, para ver cómo se ven en dispositivos reales."
-
->[!CONTEXTUALHELP]
->id="ajo_code_based_preview_device_web"
->title="Previsualización de la experiencia web basada en código en un dispositivo"
->abstract="Escanee el código QR o copie el vínculo para previsualizarlo en el dispositivo."
-
->[!CONTEXTUALHELP]
->id="ajo_code_based_preview_device_mobile"
->title="Previsualización de la experiencia móvil basada en código en un dispositivo"
->abstract="Escanee el código QR o copie el vínculo para previsualizarlo en el dispositivo. Una vez conectado, introduzca el pin en el dispositivo. Es posible que tenga que reiniciar la aplicación para ver los cambios cada vez que actualice los vínculos de previsualización."
-
->[!CONTEXTUALHELP]
->id="ajo_code_based_preview_device_refresh"
->title="Actualice el vínculo de previsualización para que se refleje la vista actual"
->abstract="La previsualización en el dispositivo mostrará el contenido a partir del momento en que creó o actualizó el vínculo de previsualización. Si ha modificado el contenido o ha seleccionado un perfil de prueba o tratamiento diferente, actualice la previsualización para que se refleje la vista actual."
-
-Al crear experiencias basadas en código para páginas web o aplicaciones móviles, puede obtener una vista previa de sus experiencias personalizadas directamente en el explorador o en sus dispositivos móviles, para ver cómo se ven estas experiencias en dispositivos reales.
-
->[!WARNING]
->
->La vista previa en el dispositivo no está disponible al usar los atributos contextuales [directivas de decisión](../experience-decisioning/create-decision.md) o [personalización](../personalization/personalization-build-expressions.md).
-
-1. En la pantalla **[!UICONTROL Simular]**, haga clic en el botón **[!UICONTROL Abrir opciones de vista previa]**. Las opciones de vista previa dependen de la plataforma seleccionada en la [configuración basada en código](code-based-configuration.md#create-code-based-configuration).
-
-1. Si usa una [plataforma web](code-based-configuration.md#web) en su configuración basada en código, el campo de solo lectura de **[!UICONTROL URL de vista previa del dispositivo]** está rellenado previamente con la URL ingresada para la configuración de canal actual.
-
-   ![](assets/preview-on-device-web.png)
-
-   Puede:
-
-   * Seleccione el botón **[!UICONTROL Copiar vínculo]** y pegue el vínculo en una pestaña del explorador. También puede compartir el vínculo con su equipo y las partes interesadas, que pueden obtener una vista previa de la nueva experiencia en cualquier explorador antes de que los cambios se activen.
-
-   * Haz clic en **[!UICONTROL Abrir en ficha nueva]** para abrir el vínculo en el explorador actual.
-
-   * Escanee el código QR con su dispositivo móvil para abrir el vínculo de vista previa en un navegador móvil.
-
-1. Si usa [plataformas móviles](code-based-configuration.md#mobile) (iOS/Android) en su configuración basada en código, el campo de solo lectura **[!UICONTROL Vínculo profundo]** está rellenado previamente con el valor de **[!UICONTROL Vista previa de URL]** introducido en la configuración de canal de la plataforma seleccionada.
-
-   Alterne entre las pestañas **[!UICONTROL iOS]** y **[!DNL Android]** para obtener una vista previa de su experiencia en la plataforma que elija.
-
-   ![](assets/preview-on-device-mobile.png)
-
-   Puede:
-
-   * Seleccione el botón **[!UICONTROL Copiar vínculo]** y comparta el vínculo con su equipo y las partes interesadas, que pueden obtener una vista previa de la nueva experiencia en cualquier explorador móvil antes de que los cambios se activen.
-
-   * Escanee el código QR con su dispositivo móvil para abrir el vínculo de vista previa directamente en la aplicación móvil. Debes introducir el PIN en tu dispositivo para establecer la sesión de [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
-
-     >[!NOTE]
-     >
-     >**Adobe Experience Platform Assurance** es un producto de Adobe Experience Cloud que te ayudará a inspeccionar, probar, simular y validar la forma en que recopilas datos o sirves experiencias en tu aplicación móvil. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/home){target="_blank"}
-
-1. Se generan vínculos de vista previa para el perfil de prueba seleccionado y, si usa [Experimento de contenido](../content-management/content-experiment.md) en su recorrido o campaña, para el tratamiento seleccionado.
-
-   <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
-
-   ![](assets/preview-on-device-refresh.png)-->
-
-   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
-
-   Al actualizar el contenido o seleccionar un perfil de prueba o un tratamiento diferentes, el vínculo de vista previa se actualiza automáticamente. Puede copiar el vínculo en diferentes pestañas del explorador y comparar las experiencias.
-
-## Publique su experiencia basada en código {#code-based-experience-live}
-
->[!IMPORTANT]
->
-> Si la campaña está sujeta a una directiva de aprobación, deberá solicitar la aprobación para poder activar las experiencias basadas en código. [Más información](../test-approve/gs-approval.md)
-
-Una vez que haya definido la experiencia basada en código y editado el contenido como desee con el [editor basado en código](#edit-code), puede activar el recorrido o la campaña para que los cambios sean visibles a la audiencia.
-
-También puede obtener una vista previa del contenido de la experiencia basado en código antes de publicarlo. [Más información](#test-code-based-experience)
-
->[!NOTE]
->
->Si activa un recorrido o una campaña basada en código que afecte a las mismas páginas que otro recorrido o campaña que ya está activo, todos los cambios se aplicarán al contenido.
->
->Si varios recorridos o campañas basados en código actualizan los mismos elementos del contenido, la campaña o el recorrido de mayor prioridad tiene prioridad.
-
-Una vez que el recorrido o la campaña basados en código estén activos, el equipo de implementación de la aplicación será responsable de realizar llamadas explícitas de API o SDK para recuperar contenido para las superficies definidas en la [configuración de experiencia basada en código](code-based-configuration.md) seleccionada. Obtenga más información sobre las diferentes implementaciones de clientes en [esta sección](code-based-implementation-samples.md).
-
-### Publish es un recorrido basado en código {#publish-code-based-journey}
-
-Para que la experiencia basada en código esté activa desde un recorrido, siga los pasos a continuación.
-
-1. Compruebe que el recorrido sea válido y que no haya ningún error. [Más información](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
-
-1. En el recorrido, seleccione la opción **[!UICONTROL Publish]**, que se encuentra en el menú desplegable superior derecho.
-
-   ![](assets/code-based-journey-publish.png)
-
-   >[!NOTE]
-   >
-   >Obtenga más información sobre cómo publicar recorridos en [esta sección](../building-journeys/publishing-the-journey.md).
-
-El recorrido basado en código toma el estado **[!UICONTROL Activo]** y ahora es visible para la audiencia seleccionada. Cada destinatario del recorrido puede ver las modificaciones.
-
->[!NOTE]
->
->Después de hacer clic en **[!UICONTROL Publish]**, los cambios pueden tardar hasta 15 minutos en estar disponibles.
-
-### Activación de una campaña basada en código {#activate-code-based-campaign}
-
-1. En su campaña basada en código, seleccione **[!UICONTROL Revisar para activar]**.
-
-   ![](assets/code-based-campaign-review.png)
-
-1. Compruebe y edite si es necesario el contenido, las propiedades, la configuración, la audiencia y la programación.
-
-1. Seleccione **[!UICONTROL Activar]**.
-
-   ![](assets/code-based-campaign-activate.png)
-
-   >[!NOTE]
-   >
-   >Más información sobre cómo activar campañas en [esta sección](../campaigns/review-activate-campaign.md).
-
-Su campaña basada en código obtiene el estado **[!UICONTROL Live]** y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al contenido.
-
->[!NOTE]
->
->Después de hacer clic en **[!UICONTROL Activar]**, los cambios pueden tardar hasta 15 minutos en estar disponibles.
->
->Si ha definido una programación para su campaña basada en código, tiene el estado **[!UICONTROL Programado]** hasta que se alcance la fecha y la hora de inicio.
-
-## Detener un recorrido o una campaña basados en código {#stop-code-based-experience}
-
-Cuando una experiencia basada en código está activa, puede detenerla para evitar que la audiencia vea las modificaciones. Siga los pasos a continuación.
-
-1. Seleccione un recorrido o una campaña en directo en la lista correspondiente.
-
-1. Realice la acción correspondiente según su caso:
-
-   * En el menú superior de la campaña, seleccione **[!UICONTROL Detener campaña]**.
-
-     ![](assets/code-based-campaign-stop.png)
-
-   * En el menú superior del recorrido, haga clic en el botón **[!UICONTROL Más]** y seleccione **[!UICONTROL Detener]**.
-
-     ![](assets/code-based-journey-stop.png)
-
-1. Las modificaciones que ha añadido ya no serán visibles para la audiencia que ha definido.
-
->[!NOTE]
->
->Una vez que se detiene un recorrido o una campaña basados en código, no se puede editar ni activar de nuevo. Solo puede duplicarlo y activar la campaña o el recorrido duplicados.
-
-<!--Reporting TBC
-
-## Check the code-based experience reports {#check-code-based-reports}
-
-Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.-->
-
-<!--## Code-based reports
-
-You can access code-based journey or campaign reports from the summary screen.
-
-Global reports display events that occurred at least two hours ago and cover events over a selected time period. In comparison, Live reports focus on events that took place within the past 24 hours, with a minimum time interval of two minutes from the event occurrence.
-
-### Code-based live report {#live-report-code-based}
-
-From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more on live report](../reports/campaign-live-report.md)
-
-+++Learn more on the different metrics and widgets available for the Code-based experience report.
-
-The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your code-based experiences, such as:
-
-* **[!UICONTROL Impressions]**: total number of experiences delivered to all users.
-
-* **[!UICONTROL Interactions]**:  total number of engagements with your app/page. This includes any actions taken by the users, such as clicks or any other interactions.
-
-The **[!UICONTROL Code-based experience summary]** graph shows the evolution of your experiences (impressions, unique impressions and interactions) for the last 24 hours.
-
-TBC: The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your app/pages.
-+++
-
-### Code-based global report {#global-report-code-based}
-
-Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more on global report](../reports/campaign-global-report-cja.md)
-
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages.
-
-Add image TBC
-
-+++Learn more on the different metrics and widgets available for the Code-based experience report.
-
-The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your experiences, such as:
-
-* **[!UICONTROL Unique impressions]**: number of unique users to whom the experience was delivered.
-
-* **[!UICONTROL Impressions]**: total number of experiences delivered to all users.
-
-* **[!UICONTROL Interactions]**: percentage of engagements with your app/page. This includes any actions taken by the users, such as clicks or any other interactions.
-
-The **[!UICONTROL Code-based experience summary]** graph shows the evolution of your experiences (unique impressions, impressions and interactions) for the concerned period.
-
-TBC: The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your apps/pages.
-+++
-
-TBC video if existing
-
-## How-to video{#video}
-
-The video below shows how to create a code-based campaign, configure its properties, review, and publish it.
-
->[!VIDEO]()
-
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

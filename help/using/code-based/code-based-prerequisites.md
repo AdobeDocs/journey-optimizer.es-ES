@@ -6,20 +6,24 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '640'
 ht-degree: 2%
 
 ---
 
-# Mecanismos de protección y requisitos previos {#web-prerequisites}
+# Mecanismos de protección y requisitos previos {#code-based-prerequisites}
 
 Para poder usar acciones de experiencia basadas en código en [!DNL Journey Optimizer] y entregar carga útil de contenido de código que puedan usar las aplicaciones, siga los requisitos previos siguientes:
 
 * Para agregar modificaciones a las aplicaciones, debe tener una implementación específica. [Más información](#implementation-prerequisites)
 
 * Para que las experiencias basadas en código se entreguen correctamente, asegúrese de definir la configuración de Adobe Experience Platform detallada [aquí](#delivery-prerequisites).
+
+* Para permitir que los datos se muestren en los informes de experiencias basadas en código, asegúrese de seguir estos [requisitos previos de informes](#reporting-prerequisites).
+
+* Al crear una [configuración de canal de experiencia basada en código](code-based-configuration.md), asegúrese de introducir una cadena/ruta o un URI de superficie que coincida con el declarado en su propia implementación. Esto garantiza que el contenido se envíe a la ubicación deseada dentro de la aplicación o página especificada. De lo contrario, no se podrán entregar los cambios. [Más información](code-based-surface.md)
 
 ## Requisitos previos de implementación {#implementation-prerequisites}
 
@@ -49,13 +53,13 @@ Para que las experiencias basadas en código se entreguen correctamente, se debe
 
   ![](../web/assets/web-aep-merge-policy.png)
 
-* Para solucionar problemas del envío de experiencias web de Journey Optimizer, puede usar la vista de **Edge Delivery** en **Adobe Experience Platform Assurance**. Este complemento le permite inspeccionar en detalle las llamadas de solicitud, comprobar si las llamadas perimetrales esperadas se producen según lo previsto y examinar los datos de perfil, incluidos los mapas de identidad, las suscripciones a segmentos y la configuración de consentimiento. Además, puede revisar las actividades para las que la solicitud cumple los requisitos e identificar las que no.
+* Para solucionar problemas del envío de experiencias web de Journey Optimizer, puedes usar la vista de **Edge Delivery** en **Adobe Experience Platform Assurance**. Este complemento le permite inspeccionar en detalle las llamadas de solicitud, comprobar si las llamadas perimetrales esperadas se producen según lo previsto y examinar los datos de perfil, incluidos los mapas de identidad, las suscripciones a segmentos y la configuración de consentimiento. Además, puede revisar las actividades para las que la solicitud cumple los requisitos e identificar las que no.
 
   El uso del complemento **Edge Delivery** le ayuda a obtener la información necesaria para comprender y solucionar problemas de las implementaciones entrantes de forma eficaz.
 
   [Más información en la vista de Edge Delivery](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/view/edge-delivery)
 
-## Requisitos previos de informes {#experiment-prerequisites}
+## Requisitos previos de informes {#reporting-prerequisites}
 
 Para habilitar la creación de informes para el canal basado en código, debe asegurarse de que el [conjunto de datos](../data/get-started-datasets.md) utilizado en la implementación de la aplicación [secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} también esté incluido en la configuración de la creación de informes.
 

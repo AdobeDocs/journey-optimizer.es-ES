@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 99%
+source-wordcount: '2185'
+ht-degree: 98%
 
 ---
 
@@ -273,10 +273,15 @@ ht-degree: 99%
          + [Creación de aplicaciones de una sola página](using/web/web-spa.md)
    + Experiencia basada en código {#code-based-experience}
       + [Introducción al canal basado en código](using/code-based/get-started-code-based.md)
-      + [Mecanismos de protección y requisitos previos](using/code-based/code-based-prerequisites.md)
-      + [Creación de una configuración de experiencia basada en código](using/code-based/code-based-configuration.md)
-      + [Ejemplos de métodos de implementación](using/code-based/code-based-implementation-samples.md)
-      + [Creación de experiencias basadas en código](using/code-based/create-code-based.md)
+      + Configurar el canal basado en código {#configure-code-based-channel}
+         + [Mecanismos de protección y requisitos previos](using/code-based/code-based-prerequisites.md)
+         + [Superficies de experiencia basadas en código](using/code-based/code-based-surface.md)
+         + [Ejemplos de métodos de implementación](using/code-based/code-based-implementation-samples.md)
+         + [Creación de una configuración de experiencia basada en código](using/code-based/code-based-configuration.md)
+      + Crear experiencias basadas en código {#create-code-based-experiences}
+         + [Crear y componer experiencias basadas en código](using/code-based/create-code-based.md)
+         + [Prueba de experiencias basadas en código](using/code-based/test-code-based.md)
+         + [Administrar experiencias basadas en código](using/code-based/publish-code-based.md)
    + Tarjetas de contenido{#content-card}
       + [Introducción a las tarjetas de contenido](using/content-card/get-started-content-card.md)
       + Configuración del canal de tarjetas de contenido{#configure}
