@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 14%
+source-wordcount: '458'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 14%
 
 Los informes en directo, a los que se puede acceder desde la pestaña Últimas 24 horas, muestran los eventos que han tenido lugar en las últimas 24 horas, con un intervalo de tiempo mínimo de dos minutos desde que se produjo el evento. En comparación, los informes de Customer Journey Analytics se centran en eventos que se produjeron hace al menos dos horas y abarcan eventos de un periodo de tiempo seleccionado.
 
-Para acceder a tus informes, selecciona **[!UICONTROL Informe]** en el menú avanzado de la página de aterrizaje seleccionada.
+Para acceder a tus informes, selecciona **[!UICONTROL Ver el informe de las últimas 24 horas]** en el menú avanzado de la página de aterrizaje seleccionada.
 
 ![](assets/landing_page_report.png)
 

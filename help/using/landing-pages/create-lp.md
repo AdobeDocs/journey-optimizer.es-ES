@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
+source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 21%
+source-wordcount: '1729'
+ht-degree: 20%
 
 ---
 
@@ -30,29 +30,33 @@ Para dirigir a los clientes a una página web definida que desee mostrar cuando 
 
 ## Acceso a páginas de aterrizaje {#access-landing-pages}
 
-Para acceder a la lista de páginas de aterrizaje, seleccione **[!UICONTROL Administración de Recorrido]** > **[!UICONTROL Páginas de aterrizaje]** en el menú de la izquierda.
+Para acceder a la lista de páginas de aterrizaje, seleccione **[!UICONTROL Administración de contenido]** > **[!UICONTROL Páginas de aterrizaje]** en el menú de la izquierda.
 
 ![](assets/lp_access-list.png)
 
-La lista **[!UICONTROL Páginas de destino]** muestra todos los elementos creados. Puede filtrarlos en función de su estado o fecha de modificación.
+La lista **[!UICONTROL Páginas de destino]** muestra todos los elementos creados. Puede filtrarlos en función de su estado, fecha de modificación o etiquetas.
 
 ![](assets/lp_access-list-filter.png)
 
-Desde esta lista, puede acceder a [informe en vivo de página de aterrizaje](../reports/lp-report-live.md) o [informe de página de aterrizaje](../reports/lp-report-global-cja.md) para elementos publicados.
-
-También puede eliminar, duplicar y cancelar la publicación de una página de aterrizaje.
-
->[!CAUTION]
->
->Si cancela la publicación de una página de aterrizaje a la que se hace referencia en un mensaje, el vínculo a la página de aterrizaje se interrumpirá y se mostrará una página de error.
-
-Haga clic en los tres puntos junto a una página de aterrizaje para seleccionar la acción deseada.
+Desde esta lista, puede acceder a una serie de acciones. Haga clic en los tres puntos junto a una página de aterrizaje para seleccionar la acción que desee:
 
 ![](assets/lp_access-list-actions.png)
 
->[!NOTE]
->
->No puede eliminar una página de aterrizaje [publicada](#publish-landing-page). Para eliminarlo, primero debe cancelar la publicación.
+* Para los elementos publicados, puede acceder a [informe de página de aterrizaje](../reports/lp-report-global-cja.md) o a [informe de las últimas 24 horas](../reports/lp-report-live.md).
+
+* Puede eliminar o duplicar una página de aterrizaje.
+
+  >[!NOTE]
+  >
+  >No puede eliminar una página de aterrizaje [publicada](#publish-landing-page). Para eliminarlo, primero debe cancelar la publicación.
+
+* Puede cancelar la publicación de una página de aterrizaje publicada.
+
+  >[!CAUTION]
+  >
+  >Si cancela la publicación de una página de aterrizaje a la que se hace referencia en un mensaje, el vínculo a la página de aterrizaje se interrumpirá y se mostrará una página de error.
+
+* También puede editar las [etiquetas](../start/search-filter-categorize.md#tags) asociadas a una página de aterrizaje.
 
 ## Creación de una página de aterrizaje {#create-landing-page}
 
@@ -279,11 +283,6 @@ Pueden producirse dos tipos de alertas:
 
 **Errors**:
 
-* 
-
->[!CAUTION]
->
-> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## Publicar la página de aterrizaje {#publish-landing-page}
