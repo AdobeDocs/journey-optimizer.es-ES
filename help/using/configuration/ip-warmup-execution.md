@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdominios, capacidad de entrega
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
 workflow-type: tm+mt
-source-wordcount: '2628'
+source-wordcount: '2589'
 ht-degree: 11%
 
 ---
@@ -184,13 +184,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Si no desea aplicar ningún período de participación a una ejecución, escriba 0 en el campo **[!UICONTROL Último compromiso]**.
 
-1. Seleccione la opción **[!UICONTROL Cancelar ejecuciones activadas en caso de errores]** para cancelar una ejecución si los perfiles calificados son inferiores a los perfiles de destino una vez que la audiencia se haya evaluado para esa ejecución. En ese caso, la ejecución toma el estado **[!UICONTROL Failed]**.
+1. Seleccione la opción **[!UICONTROL Cancelar ejecuciones activadas en caso de errores]** para cancelar una ejecución si los perfiles calificados son inferiores a los perfiles de destino una vez que la audiencia se haya evaluado para esa ejecución.
 
    ![](assets/ip-warmup-plan-pause.png)
 
    En caso de que el número de perfiles cualificados no coincida con el número de perfiles objetivo (por ejemplo, 1500 direcciones de Gmail están segmentadas en la ejecución, pero solo hay 700 perfiles cualificados de Gmail):
 
-   * Si la opción está activada, la ejecución falla. Puede elegir segmentar menos perfiles en la siguiente ejecución o [dividir la ejecución](#split-phase) en una nueva fase y seleccionar una nueva campaña para la nueva fase para volver a segmentar los mismos perfiles.
+   * Si la opción está habilitada, la ejecución falla y toma el estado **[!UICONTROL Failed]**. <!--You can then either choose to target less profiles in the next run, or to [split the run](#split-phase) to a new phase and select a new campaign for the new phase to target the same profiles again.-->
 
    * Si la opción no está activada, se ejecuta la ejecución, pero solo se marca el número de perfiles disponible.
 
