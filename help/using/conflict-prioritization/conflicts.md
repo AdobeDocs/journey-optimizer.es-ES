@@ -4,13 +4,13 @@ description: Aprenda a identificar conflictos potenciales en recorridos y campa�
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
-source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
+exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 7%
+ht-degree: 19%
 
 ---
-
 
 # Detección de posibles conflictos en recorridos y campañas {#conflict}
 
@@ -49,12 +49,12 @@ A continuación se muestra un resumen de cómo Journey Optimizer identifica posi
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="Ver posibles conflictos"
->abstract="Compruebe siempre que haya una posibilidad de superposición con otras campañas. Los conflictos solo se muestran para campañas en directo y programadas. Tenga en cuenta que el botón estará disponible en cuanto asigne cualquiera de las siguientes opciones de configuración: **[!UICONTROL Fecha de inicio/finalización]**, **[!UICONTROL Audiencia]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuración de canal]** y **[!UICONTROL Conjunto de reglas]**."
+>abstract="Compruebe siempre que haya una posibilidad de superposición con otras campañas. Los conflictos solo se muestran para campañas en directo y programadas. Tenga en cuenta que el botón estará disponible en cuanto asigne cualquiera de las siguientes opciones de configuración: **[!UICONTROL Fecha de inicio/finalización]**, **[!UICONTROL Público]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuración de canal]** y **[!UICONTROL Conjunto de reglas]**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="Ver posibles conflictos"
->abstract="Compruebe siempre que exista la posibilidad de superposición con otros recorridos. Los conflictos solo se muestran para recorridos activos y programados. Tenga en cuenta que el botón estará disponible en cuanto asigne cualquiera de las siguientes opciones de configuración: **[!UICONTROL Fecha de inicio/finalización]**, **[!UICONTROL Audiencia]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuración de canal]** y **[!UICONTROL Conjunto de reglas]**."
+>abstract="Compruebe siempre que exista la posibilidad de superposición con otros recorridos. Los conflictos solo se muestran para recorridos activos y programados. Tenga en cuenta que el botón estará disponible en cuanto asigne cualquiera de las siguientes opciones de configuración: **[!UICONTROL Fecha de inicio/finalización]**, **[!UICONTROL Público]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuración de canal]** y **[!UICONTROL Conjunto de reglas]**."
 
 Al crear un recorrido o una campaña, Journey Optimizer le permite comprobar si existe la posibilidad de superposición con otros recorridos o campañas. Para ello, siga estos pasos:
 

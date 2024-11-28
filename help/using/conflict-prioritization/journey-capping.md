@@ -4,13 +4,13 @@ description: Obtenga información sobre cómo crear reglas de límite para los r
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 18%
+ht-degree: 23%
 
 ---
-
 
 # Límite y arbitraje de recorrido {#journey-capping}
 
@@ -27,7 +27,7 @@ Ambos tipos de límite de recorrido aprovechan las puntuaciones de prioridad par
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-## Creación de una regla de límite de recorrido {#create-rule}
+## Crear una regla de restricción de recorrido {#create-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
@@ -37,7 +37,7 @@ Ambos tipos de límite de recorrido aprovechan las puntuaciones de prioridad par
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
 >title="Tipo de regla"
->abstract="Especifique el tipo de límite para la regla. **[!UICONTROL Límite de entrada de Recorrido]** limita el número de entradas en el recorrido durante un período determinado para un perfil, mientras que **[!UICONTROL Límite de concurrencia de Recorrido]** limita el número de recorridos en los que se puede inscribir un perfil simultáneamente."
+>abstract="Especifique el tipo de restricción para la regla. **[!UICONTROL Límite de entrada a recorridos]** limita el número de entradas en el recorrido durante un período determinado para un perfil, mientras que **[!UICONTROL Límite de simultaneidad de recorridos]** limita a cuántos recorridos puede estar inscrito un perfil simultáneamente."
 
 Para crear una regla de límite de recorrido, siga estos pasos:
 
@@ -103,7 +103,7 @@ Para crear una regla de límite de recorrido, siga estos pasos:
 
    ![](assets/journey-capping-activate-rule-set.png)
 
-## Aplicación de reglas de límite a los recorridos {#apply-capping}
+## Aplicación de reglas de restricción a los recorridos {#apply-capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"

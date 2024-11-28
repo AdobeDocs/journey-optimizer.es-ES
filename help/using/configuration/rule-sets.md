@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabajo con conjuntos de reglas (LA)
+title: Trabajar con conjuntos de reglas (LA)
 description: Obtenga información sobre cómo crear y aplicar conjuntos de reglas
 feature: Rules
 topic: Content Management
@@ -13,7 +13,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
 source-wordcount: '1950'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Conjuntos de reglas"
->abstract="Utilice conjuntos de reglas para aplicar límites de frecuencia a diferentes tipos de comunicaciones de marketing. También puede crear conjuntos de reglas para excluir recorridos de parte de la audiencia en función de las reglas de restricción de frecuencia."
+>abstract="Utilice conjuntos de reglas para aplicar límites de frecuencia a diferentes tipos de comunicaciones de marketing. También puede aplicar un conjunto de reglas para excluir este recorrido para parte del público, en función de las reglas de restricción de frecuencia."
 
 >[!AVAILABILITY]
 >
@@ -48,7 +48,7 @@ Además de este conjunto de reglas predeterminado global, puede crear **conjunto
 
 ![](assets/rule-sets-default.png)
 
-### Reglas de límite de canal y recorridos {#domain}
+### Reglas de restricción de canal y recorridos {#domain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
@@ -110,7 +110,7 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="Límite de reglas"
->abstract="Establezca el límite de la regla. En función del dominio del conjunto de reglas y de la selección del campo Tipo de regla, este campo puede definir el número máximo de mensajes que se pueden enviar a un perfil o el número máximo de recorridos que el perfil puede introducir o en los que se puede inscribir simultáneamente."
+>abstract="Establezca la restricción de la regla. En función del dominio del conjunto de reglas y de la selección del campo Tipo de regla, este campo puede definir el número máximo de mensajes que se pueden enviar a un perfil o el número máximo de recorridos que el perfil puede introducir o en los que puede estar inscrito simultáneamente."
 
 Para agregar una regla a un conjunto de reglas, accede a él y haz clic en **[!UICONTROL Agregar regla]**.
 
