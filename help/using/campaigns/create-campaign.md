@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 22%
@@ -60,7 +60,6 @@ Ahora puede seleccionar la audiencia de su campaña. Una audiencia es un conjunt
 >* El uso de audiencias y atributos de [composición de audiencias](../audience/get-started-audience-orchestration.md) no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield.
 >
 >* Para las campañas activadas por API, la audiencia debe configurarse mediante una llamada de API.
-
 
 Para definir la población objetivo de una campaña de marketing programada, siga estos pasos:
 
