@@ -2,12 +2,14 @@
 title: Introducción a las tarjetas de contenido
 description: Obtenga información sobre las tarjetas de contenido en Journey Optimizer
 topic: Content Management
+feature: Content Cards
 role: User
 level: Beginner
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
-workflow-type: ht
-source-wordcount: '104'
-ht-degree: 100%
+exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
+source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,5 +46,3 @@ Esta función permite a los especialistas en marketing presentar a los usuarios 
 <p>
 </td>
 </tr></table>
-
-

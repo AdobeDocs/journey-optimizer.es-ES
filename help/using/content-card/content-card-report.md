@@ -1,16 +1,16 @@
 ---
 title: Informe de tarjeta de contenido
 description: Aprenda a utilizar los datos del informe Tarjeta de contenido
-feature: Reporting
+feature: Reporting, Content Cards
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 * [Introducción a las tarjetas de contenido](get-started-content-card.md)
 * [Requisitos previos de tarjetas de contenido](content-card-configuration-prereq.md)
 * [Configuración del canal de tarjetas de contenido en Journey Optimizer](content-card-configuration.md)
-* [Crear tarjetas de contenido](create-content-card.md)
+* [Creación de tarjetas de contenido](create-content-card.md)
 * [Diseño de tarjetas de contenido](design-content-card.md)
 * **Informe de tarjetas de contenido**
 

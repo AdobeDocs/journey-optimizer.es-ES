@@ -1,17 +1,19 @@
 ---
-title: Crear tarjetas de contenido
+title: Creación de tarjetas de contenido
 description: Aprenda a crear tarjetas de contenido y editar su contenido en Journey Optimizer
 topic: Content Management
+feature: Content Cards
 role: User
 level: Beginner
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
+source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
-# Crear tarjetas de contenido {#create-content-card}
+# Creación de tarjetas de contenido {#create-content-card}
 
 >[!BEGINTABS]
 
