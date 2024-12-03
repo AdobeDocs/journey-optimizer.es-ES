@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
+source-git-commit: e2024a9418374bed224db7d701d1a7642121f293
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 3%
+source-wordcount: '186'
+ht-degree: 2%
 
 ---
 
@@ -33,6 +34,10 @@ Antes de añadir el proveedor de traducción seleccionado, asegúrese de haber c
 
 1. En la lista desplegable **[!UICONTROL Proveedores]**, elija el proveedor que desee.
 
+   >[!NOTE]
+   >
+   >Para agregar un proveedor a la lista, puede pedirle que siga las instrucciones detalladas en [este documento](https://developer.adobe.com/gcs/partner/) para completar su proceso de incorporación.
+
    ![](assets/provider_2.png)
 
 1. Si usas Microsoft Translator como proveedor, escribe tu **[!UICONTROL clave de suscripción]** y **[!UICONTROL URL de punto de conexión]**.
@@ -44,4 +49,3 @@ Antes de añadir el proveedor de traducción seleccionado, asegúrese de haber c
    ![](assets/provider_4.png)
 
 1. Después de completar la configuración, haz clic en **[!UICONTROL Guardar]** para finalizar la instalación.
-
