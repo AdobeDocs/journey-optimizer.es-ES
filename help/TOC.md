@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2188'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -273,15 +273,15 @@ ht-degree: 98%
          + [Creación de aplicaciones de una sola página](using/web/web-spa.md)
    + Experiencia basada en código {#code-based-experience}
       + [Introducción al canal basado en código](using/code-based/get-started-code-based.md)
-      + Configurar el canal basado en código {#configure-code-based-channel}
+      + Configuración del canal basado en código {#configure-code-based-channel}
          + [Mecanismos de protección y requisitos previos](using/code-based/code-based-prerequisites.md)
-         + [Superficies de experiencia basadas en código](using/code-based/code-based-surface.md)
+         + [Superficies de la experiencia basada en código](using/code-based/code-based-surface.md)
          + [Ejemplos de métodos de implementación](using/code-based/code-based-implementation-samples.md)
          + [Creación de una configuración de experiencia basada en código](using/code-based/code-based-configuration.md)
-      + Crear experiencias basadas en código {#create-code-based-experiences}
+      + Creación de experiencias basadas en código {#create-code-based-experiences}
          + [Crear y componer experiencias basadas en código](using/code-based/create-code-based.md)
-         + [Prueba de experiencias basadas en código](using/code-based/test-code-based.md)
-         + [Administrar experiencias basadas en código](using/code-based/publish-code-based.md)
+         + [Probar experiencias basadas en código](using/code-based/test-code-based.md)
+         + [Administración de experiencias basadas en código](using/code-based/publish-code-based.md)
    + Tarjetas de contenido{#content-card}
       + [Introducción a las tarjetas de contenido](using/content-card/get-started-content-card.md)
       + Configuración del canal de tarjetas de contenido{#configure}
@@ -454,7 +454,7 @@ ht-degree: 98%
    + [Alertas](using/reports/alerts.md)
    + [Motivos de exclusión](using/reports/exclusion-list.md)
 + Capacidades de decisión {#decisioning}
-   + [Introducción a las capacidades de decisión](using/experience-decisioning/gs-decision.md)
+   + [Introducción a las capacidades de decisiones](using/experience-decisioning/gs-decision.md)
    + Toma de decisiones {#experience-decisioning}
       + [Introducción a la toma de decisiones](using/experience-decisioning/gs-experience-decisioning.md)
       + Referencia de la API{#api-reference}
@@ -486,8 +486,8 @@ ht-degree: 98%
          + [Uso de datos de contexto](using/experience-decisioning/context-data.md)
       + [Creación de estrategias de selección](using/experience-decisioning/selection-strategies.md)
       + [Creación de políticas de decisión](using/experience-decisioning/create-decision.md)
-      + [Informe sobre toma de decisiones](using/experience-decisioning/cja-reporting.md)
-      + [Caso de uso de decisión](using/experience-decisioning/experience-decisioning-uc.md)
+      + [Informe sobre la toma de decisiones](using/experience-decisioning/cja-reporting.md)
+      + [Caso de uso sobre la toma de decisiones](using/experience-decisioning/experience-decisioning-uc.md)
    + Gestión de decisiones {#offer-decisioning}
       + Introducción a la Gestión de decisiones {#get-started-decision}
          + [Acerca de la Gestión de decisiones](using/offers/get-started/starting-offer-decisioning.md)

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ En las listas, puede realizar acciones básicas por cada elemento. Por ejemplo, 
 >title="Etiquetas"
 >abstract="Este campo le permite asignar Etiquetas unificadas de Adobe Experience Platform a la campaña. Esto le permite clasificarlos fácilmente y mejorar la búsqueda desde la lista de campañas."
 
-Con las [etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=es) de Adobe Experience Platform, puede clasificar fácilmente los objetos de Journey Optimizer para mejorar la búsqueda desde las listas.
+Con [Etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=es) de Adobe Experience Platform, puede clasificar fácilmente sus objetos de Journey Optimizer para mejorar la búsqueda en las listas. 
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
-Añadir etiquetas significativas a las audiencias en Journey Optimizer le permite filtrar y buscar más adelante para encontrar audiencias más fácilmente. Las etiquetas se pueden utilizar además para organizar audiencias en carpetas relevantes en las que se puede buscar, crear ofertas y experiencias personalizadas y utilizarlas en reglas de decisión de experiencias.
+Si añade etiquetas significativas a los públicos en Journey Optimizer podrá filtrar y buscar más adelante para encontrar públicos más fácilmente. Las etiquetas se pueden utilizar además para organizar públicos en carpetas relevantes en las que se puede buscar, crear ofertas y experiencias personalizadas y utilizarlas en reglas de decisión de experiencias.
 
 ### Añadir etiquetas a un objeto {#add-tags}
 
@@ -80,7 +80,7 @@ Puede seleccionar una etiqueta existente o crear una nueva. Para ello, siga los 
    >
    > Las etiquetas no distinguen entre mayúsculas y minúsculas.
 
-1. Si la etiqueta que está buscando no está disponible, haga clic en **[!UICONTROL Crear &quot;&quot;]** para definir una nueva: se agrega automáticamente al objeto actual y queda disponible para todos los demás objetos.
+1. Si la etiqueta que está buscando no está disponible, haga clic en **[!UICONTROL Crear &quot;&quot;]** para definir una nueva: se añadirá automáticamente al objeto actual y estará disponible para todos los demás objetos.
 
    ![](assets/tags4.png)
 

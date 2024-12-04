@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -77,18 +77,18 @@ Con la funcionalidad de la **experiencia basada en código** puede definir las e
 
 <!--* You can use the code-based channel as an alternative to the [!DNL Journey Optimizer] web channel if your website cannot be loaded into the [web designer](../web/web-visual-editor.md){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} that powers visual authoring for web channel.-->
 
-* Puede utilizar el canal basado en código como alternativa a los [!DNL Journey Optimizer] canales web o en la aplicación en caso de que tenga una implementación basada en API, sin encabezado o del lado del servidor.
+* También puede utilizar el canal basado en código como alternativa a los canales web o en la aplicación de [!DNL Journey Optimizer] en caso de que tenga una implementación basada en API, sin encabezado o del lado del servidor.
 
 * También puede aprovechar el canal basado en código en aplicaciones móviles nativas como alternativa al canal en la aplicación si desea modificar el contenido dentro de la aplicación nativa en lugar de mostrar modelos, ventanas emergentes o superposiciones.
 
 ### Canal basado en código frente a canal web {#code-based-vs-web}
 
-Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia basada en código, pero según el contexto, una es más apropiada que la otra. Las principales diferencias se enumeran a continuación para que pueda tomar una decisión informada sobre qué utilizar y cuándo.
+Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia basada en código, pero según el contexto, una es más apropiada que la otra. Las principales diferencias se enumeran a continuación para que pueda tomar una decisión bien fundada sobre qué utilizar y cuándo.
 
 **Web**
 
-* Edite el contenido con el editor visual [diseñador web](../web/web-visual-editor.md){target="_blank"} o el editor no visual [web](../web/web-non-visual-editor.md).
-* Necesita el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"}: una implementación del lado del cliente.
+* Edite el contenido con el editor visual del [diseñador web](../web/web-visual-editor.md){target="_blank"} o el [editor no visual](../web/web-non-visual-editor.md) web.
+* Necesita el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"}, una implementación del lado del cliente. 
   <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * El canal web permite modificar todo lo que hay en la página y tiene una lista predefinida de acciones que puede utilizar para realizar cambios. [Más información](../web/web-visual-editor.md){target="_blank"}
 * Es fácil de configurar y poner en marcha rápidamente.
@@ -97,7 +97,7 @@ Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia bas
 **Experiencia basada en código**
 
 * Edite el contenido utilizando el [editor de personalización](create-code-based.md#edit-code).
-* Necesita el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"} - implementación del lado del cliente o la [API de servidor Edge Network de AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} - implementación del lado del servidor.
+* Necesita el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"}, una implementación del lado del cliente o la [API del servidor Edge Network de AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es){target="_blank"}, una implementación del lado del servidor.
 * La experiencia basada en código requiere un trabajo de desarrollo previo en la implementación para garantizar que las aplicaciones puedan interpretar y entregar el contenido publicado en el perímetro por [!DNL Journey Optimizer] para estas ubicaciones. [Más información](code-based-surface.md)
 * Requiere más planificación y solo puede cambiar las cosas que especifican los desarrolladores. Por lo tanto, es esencial identificar los componentes (banner principal, imagen principal, barra de menús, etc.) en las aplicaciones que deben modificarse para la personalización o para pruebas, y trabajar con el equipo de desarrollo para crear la implementación necesaria para gestionar estos cambios.
 * Le permite utilizar contenido con código JSON.
@@ -115,11 +115,11 @@ Para editar el contenido utilizando la funcionalidad de experiencia basada en c�
 >
 >Actualmente, el contenido asociado a una configuración solo puede ser HTML o JSON.
 
-Los pasos clave para crear y ofrecer una experiencia basada en código son los siguientes.
+Los pasos clave para crear y ofrecer una experiencia basada en código se indican a continuación.
 
 1. Asegúrese de seguir los requisitos previos específicos del canal. [Más información](code-based-prerequisites.md)
 
-1. Defina una [superficie](code-based-surface.md#surface-definition) en la implementación de su aplicación, que básicamente es la ubicación donde desea agregar su experiencia.
+1. Defina una [superficie](code-based-surface.md#surface-definition) en la implementación de su aplicación, que básicamente es la ubicación donde desea añadir su experiencia.
 
 1. Cree una configuración de canal basada en código que haga referencia a esa ubicación. [Descubra cómo](code-based-configuration.md#create-code-based-configuration)
 
@@ -129,13 +129,13 @@ Los pasos clave para crear y ofrecer una experiencia basada en código son los s
 
 1. Pruebe la experiencia basada en código. [Descubra cómo](test-code-based.md)
 
-1. Publish it. [Descubra cómo](publish-code-based.md)
+1. Publíquela. [Descubra cómo](publish-code-based.md)
 
-1. Una vez que el recorrido de experiencias o la campaña basados en código estén activos, la implementación de la aplicación o página que solicita contenido para la superficie debe estar configurada para que el contenido se recupere y se muestre.
+1. Cuando su campaña o el recorrido de experiencias basadas en código estén activos, la implementación de la aplicación o página que solicita contenido para la superficie tiene que estar lista para poder recuperar y mostrar el contenido. 
 
    >[!INFO]
    >
-   >Para ello, su equipo de implementación de la aplicación realiza llamadas explícitas a la API o al SDK para recuperar contenido para la superficie definida en la configuración basada en código, como &quot;Texto del titular&quot; o &quot;Bandeja de Recommendations 1&quot;, o puntos de decisión no relacionados con la interfaz de usuario en una aplicación, como &quot;parámetros del algoritmo de búsqueda&quot;. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [Más información](code-based-implementation-samples.md)
+   >Para garantizarlo, el equipo de implementación de la aplicación realiza llamadas explícitas a la API o al SDK para recuperar el contenido de la superficie definida en la configuración basada en código, como “Texto del titular” o “Bandeja de recomendaciones 1”, o puntos de decisión no relacionados con la interfaz de usuario de una aplicación, como, por ejemplo, los “parámetros de algoritmo de búsqueda”. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [Más información](code-based-implementation-samples.md)
 
 
 

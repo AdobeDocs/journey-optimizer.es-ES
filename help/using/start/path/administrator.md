@@ -8,32 +8,32 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 13cbb0877326b772c3750bd3339e21eee5c3f323
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 # Introducción para administradores de sistemas {#get-started-sys-admins}
 
-Antes de empezar a utilizar [!DNL Adobe Journey Optimizer], se requieren varios pasos para preparar su entorno.  Debe realizar estos pasos para que [Ingeniero de datos](data-engineer.md) y [Profesional del Recorrido](marketer.md) puedan comenzar a trabajar con [!DNL Adobe Journey Optimizer].
+Antes de empezar a utilizar [!DNL Adobe Journey Optimizer], se requieren varios pasos para preparar su entorno.  Debe seguir estos pasos para que el [Ingeniero de datos](data-engineer.md) y el [Profesional del recorrido](marketer.md) puedan comenzar a trabajar con [!DNL Adobe Journey Optimizer].
 
-Como **Administrador del sistema**, debe **comprender las funciones y asignar permisos** para la administración de la zona protegida y la configuración del canal. También debe configurar las zonas protegidas y administrarlas para las funciones disponibles. A continuación, podrá asignar miembros del equipo a roles.
+Como **Administrador del sistema**, necesita **comprender las funciones y asignar permisos** para la administración de zonas protegidas y la configuración de canal. También debe configurar las zonas protegidas y administrarlas para las funciones disponibles. A continuación, podrá asignar integrantes del equipo a las funciones.
 
-Estas funcionalidades pueden ser administradas por **[!UICONTROL Administradores de productos]** que tengan acceso al producto Permisos. [Más información sobre los permisos](../../administration/permissions.md){target="_blank"}.
+Estas funcionalidades pueden gestionarlas los **[!UICONTROL Administradores de productos]** que tengan acceso al producto Permisos. [Obtenga más información sobre permisos](../../administration/permissions.md){target="_blank"}.
 
 Obtenga información acerca de la administración de acceso en las siguientes páginas:
 
 1. **Crear zonas protegidas** para dividir las instancias en entornos virtuales independientes y aislados. Las **zonas protegidas** se crean en [!DNL Journey Optimizer]. Obtenga más información en la sección [Zonas protegidas](../../administration/sandboxes.md).
 
    >[!NOTE]
-   >Como **Administrador del sistema**, si no puede ver el menú **[!UICONTROL Zonas protegidas]** en [!DNL Journey Optimizer], debe actualizar sus permisos. Aprenda a actualizar su función en [esta página](../../administration/permissions.md#edit-product-profile).
+   >Como **Administrador del sistema**, si no puede ver el menú **[!UICONTROL Zonas protegidas]** en [!DNL Journey Optimizer], debe actualizar sus permisos. Obtenga información sobre cómo actualizar la función en [esta página](../../administration/permissions.md#edit-product-profile).
 
-1. **Comprender los roles**. Las funciones son un conjunto de derechos unitarios que permiten a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. Obtenga más información en la sección [funciones integradas](../../administration/ootb-product-profiles.md).
+1. **Conozca las funciones**. Las funciones son un conjunto de derechos unitarios que permiten a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. Obtenga más información en la sección [Funciones predeterminadas](../../administration/ootb-product-profiles.md).
 
-1. **Establezca permisos** para las funciones, incluidas las **zonas protegidas**, y dé acceso a los integrantes del equipo asignándolos a diferentes funciones. Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL Rol]**. Cada permiso se recopila en funcionalidades, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Obtenga más información en la sección [Niveles de permisos](../../administration/high-low-permissions.md).
+1. **Establezca permisos** para funciones, incluidas las **zonas protegidas**, y otorgue acceso a los integrantes del equipo asignándolos a diferentes funciones. Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a la **[!UICONTROL función]**. Cada permiso se recopila en funcionalidades, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Obtenga más información en la sección [Niveles de permisos](../../administration/high-low-permissions.md).
 
-Además, debe agregar usuarios que necesiten acceso a Assets Essentials a los roles de **Usuarios consumidores de Assets Essentials** o **Usuarios de Assets Essentials**. [Más información en la documentación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=es){target="_blank"}.
+Además, debe añadir usuarios que necesiten acceso a Assets Essentials para las funciones **Usuarios consumidores de Assets Essentials** o **Usuarios de Assets Essentials**. [Más información en la documentación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=es){target="_blank"}.
 
 >[!NOTE]
 >Para los productos de Journey Optimizer obtenidos antes del 6 de enero de 2022, debe implementar [!DNL Adobe Experience Manager Assets Essentials] para su organización. Obtenga más información en la sección [Implementación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=es){target="_blank"}.
@@ -43,7 +43,7 @@ Al acceder a [!DNL Journey Optimizer] por primera vez, se le aprovisiona una zon
 Para poder crear sus recorridos y enviar mensajes, acceda al menú **ADMINISTRACIÓN**. Examine el menú **[!UICONTROL Canales]** para configurar los mensajes y las configuraciones de canal (es decir, los ajustes preestablecidos de mensaje).
 
 >[!NOTE]
->Como **Administrador del sistema**, si no puede ver el menú de **[!UICONTROL Canales]** en [!DNL Journey Optimizer], actualice sus permisos en el producto [Permisos](../../administration/permissions.md){target="_blank"}.
+>Como **Administrador del sistema**, si no puede ver el menú **[!UICONTROL Canales]** en [!DNL Journey Optimizer], actualice sus permisos en el producto [Permisos](../../administration/permissions.md){target="_blank"}. 
 >
 
 Siga estos pasos a continuación:
