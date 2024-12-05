@@ -1,24 +1,25 @@
 ---
-title: Prueba de experiencias basadas en código
+title: Probar experiencias basadas en código
 description: Obtenga información sobre cómo probar experiencias basadas en código en Journey Optimizer
 feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
+source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
-# Prueba de experiencias basadas en código {#test-code-based}
+# Probar experiencias basadas en código {#test-code-based}
 
-## Previsualización de la experiencia basada en código {#preview-code-based}
+## Vista previa de la experiencia basada en código {#preview-code-based}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
->title="Previsualización de la experiencia basada en código"
+>title="Vista previa de la experiencia basada en código"
 >abstract="Obtenga una simulación del aspecto que tendrá su experiencia basada en código."
 
 Para mostrar una previsualización de la experiencia basada en código modificada, siga los pasos a continuación.
@@ -106,4 +107,3 @@ Al crear experiencias basadas en código para páginas web o aplicaciones móvil
    >[!TIP]
    >
    >Al actualizar el contenido o seleccionar un perfil de prueba o un tratamiento diferentes, el vínculo de vista previa se actualiza automáticamente. Puede copiar el vínculo en diferentes pestañas del explorador y comparar las experiencias.
-

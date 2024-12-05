@@ -5,14 +5,15 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: e9181c333fb9188cdfcee3fd96c1d3bb94b8dd75
+exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
+source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
-# Superficies de experiencia basadas en código {#code-based-surface}
+# Superficies de la experiencia basada en código {#code-based-surface}
 
 ## ¿Qué es una superficie?  {#surface-definition}
 
@@ -20,7 +21,7 @@ ht-degree: 52%
 >id="ajo_admin_surface_uri"
 >title="Añada el URI de superficie del componente"
 >abstract="Si la implementación no es para web, iOS ni Android, o si necesita dirigirse a URI específicos, introduzca un URI de superficie, que es un identificador único que dirige a la entidad en la que desea ofrecer la experiencia. Asegúrese de introducir un URI de superficie que coincida con el utilizado en su propia implementación."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="Cree una configuración de experiencia basada en código para Otras plataformas"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="Cree una configuración de experiencia basada en código para Otras plataformas"
 
 Una experiencia basada en código **surface** es cualquier entidad diseñada para la interacción de usuarios o sistemas, identificada de forma exclusiva por un [URI](#surface-uri). La superficie está especificada en la [implementación de aplicación](code-based-prerequisites.md#implementation-prerequisites) y debe coincidir con la superficie a la que se hace referencia en la [configuración de canal de experiencia basada en código](code-based-configuration.md).
 
@@ -72,7 +73,7 @@ En la tabla siguiente se muestran algunos ejemplos de definiciones de URI de sup
 En [!DNL Journey Optimizer], el canal de experiencia basado en código admite dos tipos de implementaciones de clientes:
 
 * Basado en el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"} para sus sitios web o en el [SDK móvil de Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} para sus aplicaciones móviles;
-* Lado del servidor o híbrido que usa [API del servidor Edge Network de AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"}.
+* Lado del servidor o híbrido que usa [API del servidor Edge Network de AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es){target="_blank"}.
 
 >[!NOTE]
 >
