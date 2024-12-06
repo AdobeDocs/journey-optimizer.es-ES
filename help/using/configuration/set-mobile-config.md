@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: ht
+source-git-commit: 7a5bed3f4ee16c1a42289779fc53148bf6ab39e8
+workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -109,7 +109,7 @@ Tenga en cuenta que, para cada plataforma que desee configurar, es necesario cre
 
 +++
 
-* Si utiliza la opción de configuración Existente, asegúrese de que usa las siguientes versiones de la extensión del SDK móvil de Adobe Experience Platform. Para obtener más información sobre la configuración del SDK, incluidas las dependencias y el código de inicialización necesarios, consulte la [siguiente documentación](https://experienceleague.adobe.com/es/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks?lang=es).
+* Si utiliza la opción de configuración Existente, asegúrese de que usa las siguientes versiones de la extensión del SDK móvil de Adobe Experience Platform. Para obtener más información sobre la configuración del SDK, incluidas las dependencias y el código de inicialización necesarios, consulte la [siguiente documentación](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
 
   Para Android
 
