@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: cb7842209e03c579904979480304e543a6b50f50
+source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 0%
+source-wordcount: '1044'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >Para utilizar esta capacidad, primero debe aceptar los términos beta para su organización que se muestran al agregar las nuevas funciones de ayuda &quot;datasetLookup&quot; en el editor de personalización.
 
-Journey Optimizer permite aprovechar datos de Adobe Experience Platform en el editor de personalización para [personalizar el contenido](../personalization/personalize.md). Para ello, los conjuntos de datos necesarios para la personalización de la búsqueda deben habilitarse primero mediante una llamada de API como se describe a continuación. Una vez finalizado, puede usar sus datos para personalizar su contenido en [!DNL Journey Optimizer].
+Journey Optimizer permite aprovechar datos de Adobe Experience Platform en el editor de personalización para [personalizar el contenido](../personalization/personalize.md). Para ello, los conjuntos de datos necesarios para la personalización de la búsqueda deben habilitarse primero mediante una llamada de API como se describe a continuación. Cuando haya terminado, puede usar sus datos para personalizar su contenido en [!DNL Journey Optimizer].
 
 ## Restricciones y directrices de Beta {#guidelines}
 
@@ -40,7 +40,7 @@ Antes de empezar, revise las siguientes restricciones y directrices:
 
 ### Personalization con datos de [!DNL Adobe Experience Platform] {#perso}
 
-* **Canales compatibles**: Por ahora, esta capacidad solo está disponible para su uso en los canales de correo electrónico, SMS, push y correo directo.
+* **Canales compatibles**: Por ahora, esta capacidad solo está disponible para su uso en canales de correo electrónico, SMS y correo directo.
 * **Etiquetado y aplicación del uso de datos** no se impone en este momento para los conjuntos de datos habilitados para la búsqueda.
 * **Fragmentos de expresión**: la personalización de la búsqueda de conjuntos de datos no se puede colocar en fragmentos de expresión en este momento.
 
@@ -73,6 +73,17 @@ Donde:
 * **La clave de API** se puede recuperar de Developer Console.
 * **ID de organización de IMS** es su organización de IMS de Adobe.
 * **Nombre de zona protegida** es el nombre de la zona protegida en la que se encuentra el conjunto de datos (por ejemplo: prod, dev, etc.).
+
+>[!NOTE]
+>
+>Si aparece el siguiente error al intentar realizar una llamada a una API para habilitar conjuntos de datos, intente eliminar las API de Adobe Journey Optimizer de su proyecto de consola del desarrollador y, a continuación, vuelva a agregarlas.
+>
+>```
+>
+>"error_code": "403003", 
+>"message": "Api Key is invalid"
+>
+>```
 
 ## Aprovechamiento de un conjunto de datos para la personalización {#leverage}
 
