@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, diseño, stock, activos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 100%
+source-wordcount: '608'
+ht-degree: 79%
 
 ---
 
@@ -35,6 +35,12 @@ Puede importar un contenido existente en [!DNL Journey Optimizer] o aprovechar l
 Al enviar correos electrónicos, es importante tener en cuenta que los destinatarios pueden reenviarlos, lo que a veces puede causar problemas con el procesamiento del correo electrónico. Esto es especialmente cierto cuando se utilizan clases CSS que es posible que el proveedor de correo electrónico no admita para el reenvío, por ejemplo, si utiliza la clase CSS &quot;is-desktop-hidden&quot; para ocultar una imagen en dispositivos móviles.
 
 Para minimizar estos problemas de renderización, se recomienda mantener la estructura de diseño del correo electrónico lo más sencilla posible. Intente utilizar un único diseño que funcione bien tanto para dispositivos de escritorio como móviles, y evite utilizar clases CSS complejas u otros elementos de diseño que puedan no ser totalmente compatibles con todos los clientes de correo electrónico. Siguiendo estas prácticas recomendadas, puede ayudar a garantizar que los mensajes de correo electrónico se procesen correctamente, independientemente de cómo los destinatarios los vean o los reenvíen.
+
+Consulte la tabla siguiente para conocer las prácticas recomendadas sobre el diseño de correo electrónico:
+
+| Recomendado | Uso con cuidado | No recomendado |
+|-|-|-|
+| <ul><li><b>Diseños estáticos basados en tablas</b> para la estructura</li> <li><b>Tablas de HTML y tablas anidadas</b> para mantener la coherencia del diseño</li> <li><b>Anchos de plantilla</b> entre 600 px y 800 px </li> <li><b>CSS en línea simple</b> para el estilo </li> <li><b>Fuentes seguras para la Web</b> para la compatibilidad universal</li> | <ul><li>Es posible que <b>las imágenes de fondo</b> no aparezcan en ciertas plataformas de correo electrónico.</li><li><b>Las fuentes web personalizadas</b> carecen de compatibilidad universal.</li><li><b>Los diseños anchos</b> pueden mostrarse mal en pantallas más pequeñas.</li><li><b>Los mapas de imagen</b> ofrecen una funcionalidad limitada.</li><li><b>CSS incrustado</b> a veces se elimina durante el envío de correo electrónico.</li> | <ul><li><b>JavaScript</b> generalmente no es compatible con entornos de correo electrónico.</li> <li> Las etiquetas <b>`<iframe>`</b> están bloqueadas en la mayoría de las plataformas. </li> <li>El <b>Flash</b> está obsoleto y ya no es compatible.</li> <li><b>El audio incrustado</b> a menudo no se reproduce.</li> <li><b>El vídeo incrustado</b> no es compatible con muchas plataformas de correo electrónico.</li> <li> <b>Forms</b> no funciona en los correos electrónicos.</li> <li> `<div>` capas pueden provocar problemas de procesamiento.</li> |
 
 ## Pasos clave para crear contenido de correo electrónico {#key-steps}
 
