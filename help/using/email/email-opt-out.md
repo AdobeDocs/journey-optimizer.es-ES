@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: exclusión, correo electrónico, vínculo, cancelación de suscripción
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: cb7e2e209872176c67020add47242f95a7304c6c
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 28%
+source-wordcount: '1312'
+ht-degree: 26%
 
 ---
 
@@ -103,10 +103,9 @@ Para establecer una URL de cancelación de suscripción personalizada, inserte u
 
    * **[!UICONTROL Canal]**: la exclusión se aplica a mensajes futuros enviados al destinatario del perfil (es decir, la dirección de correo electrónico) para el canal actual. Si hay varios objetivos asociados a un perfil, la exclusión se aplica a todos los destinatarios (es decir, direcciones de correo electrónico) del perfil de ese canal.
    * **[!UICONTROL Identidad]**: la exclusión se aplica a los mensajes futuros enviados al destinatario específico (es decir, la dirección de correo electrónico) que se esté utilizando para el mensaje actual.
-   * **[!UICONTROL Suscripción]**: la exclusión se aplica a mensajes futuros asociados a una lista de suscripción específica. Esta opción solo se puede seleccionar si el mensaje actual está asociado con una lista de suscripción.
+     <!--* **[!UICONTROL Subscription]**: The opt-out applies to future messages associated with a specific subscription list. This option can only be selected if the current message is associated with a subscription list.-->
 
 1. Guarde los cambios.
-
 
 
 ## Opción de exclusión en dos pasos {#opt-out-external-lp}
