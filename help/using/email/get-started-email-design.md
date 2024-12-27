@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: correo electrónico, diseño, stock, activos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ Para minimizar estos problemas de renderización, se recomienda mantener la estr
 
 Consulte la tabla siguiente para conocer las prácticas recomendadas sobre el diseño de correo electrónico:
 
-| Recomendado | Uso con cuidado | No recomendado |
+| Recomendado | Usar con cuidado | No recomendado |
 |-|-|-|
-| <ul><li><b>Diseños estáticos basados en tablas</b> para la estructura</li> <li><b>Tablas de HTML y tablas anidadas</b> para mantener la coherencia del diseño</li> <li><b>Anchos de plantilla</b> entre 600 px y 800 px </li> <li><b>CSS en línea simple</b> para el estilo </li> <li><b>Fuentes seguras para la Web</b> para la compatibilidad universal</li> | <ul><li>Es posible que <b>las imágenes de fondo</b> no aparezcan en ciertas plataformas de correo electrónico.</li><li><b>Las fuentes web personalizadas</b> carecen de compatibilidad universal.</li><li><b>Los diseños anchos</b> pueden mostrarse mal en pantallas más pequeñas.</li><li><b>Los mapas de imagen</b> ofrecen una funcionalidad limitada.</li><li><b>CSS incrustado</b> a veces se elimina durante el envío de correo electrónico.</li> | <ul><li><b>JavaScript</b> generalmente no es compatible con entornos de correo electrónico.</li> <li> Las etiquetas <b>`<iframe>`</b> están bloqueadas en la mayoría de las plataformas. </li> <li>El <b>Flash</b> está obsoleto y ya no es compatible.</li> <li><b>El audio incrustado</b> a menudo no se reproduce.</li> <li><b>El vídeo incrustado</b> no es compatible con muchas plataformas de correo electrónico.</li> <li> <b>Forms</b> no funciona en los correos electrónicos.</li> <li> `<div>` capas pueden provocar problemas de procesamiento.</li> |
+| <ul><li><b>Diseños estáticos basados en tablas</b> para la estructura</li> <li><b>Tablas HTML y tablas anidadas</b> para mantener la coherencia del diseño</li> <li><b>Anchuras de plantilla</b> entre 600 y 800 píxeles </li> <li><b>CSS en línea simple</b> para diseñar </li> <li><b>Fuentes seguras para la web</b> para compatibilidad universal</li> | <ul><li>Es posible que las <b>imágenes de fondo</b> no aparezcan en ciertas plataformas de correo electrónico.</li><li><b>Las fuentes web personalizadas</b> carecen de compatibilidad universal.</li><li><b>Los diseños anchos</b> pueden visualizarse mal en las pantallas más pequeñas.</li><li><b>Los mapas de imagen</b> ofrecen una funcionalidad limitada.</li><li><b>Un CSS incrustado</b> a veces se elimina durante el envío del correo electrónico.</li> | <ul><li><b>JavaScript</b> generalmente no es compatible en los entornos de correo electrónico.</li> <li> Las etiquetas <b>`<iframe>`</b> se bloquean en la mayoría de las plataformas. </li> <li><b>Flash</b> está obsoleto y ya no es compatible.</li> <li><b>El audio incrustado</b> a menudo no se reproduce.</li> <li><b>El vídeo incrustado</b> no es compatible con muchas plataformas de correo electrónico.</li> <li> <b>Los formularios</b> no funcionan en los correos electrónicos.</li> <li> Las capas `<div>` pueden dar lugar a problemas de renderizado.</li> |
 
 ## Pasos clave para crear contenido de correo electrónico {#key-steps}
 
