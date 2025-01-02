@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP, grupos, capacidad de entrega
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '437'
 ht-degree: 12%
 
 ---
@@ -27,13 +27,13 @@ Antes de crear el plan de calentamiento de IP en [!DNL Journey Optimizer], prime
 
 Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
-1. Cree un [correo electrónico](../email/email-settings.md) canal [configuración](channel-surfaces.md) para el dominio y las direcciones IP que identificó para su plan de calentamiento.
+1. Cree un canal de correo electrónico [configuration](channel-surfaces.md) para el dominio y las direcciones IP que identificó para su plan de calentamiento.
+
+   Póngase en contacto con el consultor del equipo de entrega para identificar el dominio y las direcciones IP que se utilizarán. Obtenga información sobre cómo seleccionarlos en una configuración de correo electrónico en [esta sección](../email/email-settings.md#subdomains-and-ip-pools).
 
    >[!NOTE]
    >
-   >* Obtenga información sobre cómo seleccionar el dominio y las direcciones IP que se usarán en una configuración de correo electrónico en [esta sección](../email/email-settings.md#subdomains-and-ip-pools).
-   >
-   >* Póngase en contacto con el consultor del equipo de entrega para identificar el dominio y las direcciones IP que se utilizarán para el plan de calentamiento de IP.<!--TBC-->
+   >Aunque cambie la [dirección de ejecución](../email/email-settings.md#execution-address) en la configuración de correo electrónico, se seguirá usando el campo predeterminado establecido en el nivel de espacio aislado. [Más información](primary-email-addresses.md)
 
 1. Cree una [campaña](../campaigns/create-campaign.md) de marketing programado y seleccione la acción [Correo electrónico](../email/create-email.md#create-email-journey-campaign).
 

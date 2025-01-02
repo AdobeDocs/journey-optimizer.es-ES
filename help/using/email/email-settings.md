@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 10%
+source-wordcount: '2687'
+ht-degree: 11%
 
 ---
 
@@ -340,3 +340,26 @@ Puede obtener una vista previa dinámica de la URL de seguimiento resultante. Ca
 >[!NOTE]
 >
 >También puede añadir parámetros de seguimiento personalizados dinámicos a los vínculos presentes en el contenido del correo electrónico, pero esto no es posible en el nivel de configuración. Debe hacerlo al crear el mensaje con el diseñador de correo electrónico. [Más información](message-tracking.md#url-tracking)
+
+## Dirección de ejecución {#execution-address}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_execution_address"
+>title="Definir qué dirección utilizar"
+>abstract="Cuando hay varias direcciones de correo electrónico o números de teléfono disponibles en la base de datos (personal, profesional, etc.), puede elegir cuál priorizar para el envío."
+
+Al segmentar un perfil, pueden estar disponibles en la base de datos varias direcciones de correo electrónico (dirección de correo electrónico profesional, dirección de correo electrónico personal, etc.).
+
+En ese caso, [!DNL Journey Optimizer] usa la dirección especificada en **[!UICONTROL Campos de ejecución]** en el nivel de espacio aislado para determinar qué dirección de correo electrónico usar del servicio de perfil en prioridad. [Más información](../configuration/primary-email-addresses.md)
+
+>[!NOTE]
+>
+>Para comprobar los campos que se utilizan actualmente de forma predeterminada, acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Campos de ejecución]**.
+
+Sin embargo, puede cambiar este campo de ejecución predeterminado en el nivel de configuración del canal de correo electrónico.
+
+Para ello, edite el campo **[!UICONTROL Dirección de entrega]** y seleccione un elemento de la lista de campos XDM de tipo correo electrónico disponibles.
+
+![](assets/email-config-delivery-address.png)
+
+El campo de ejecución se actualiza y, a continuación, se utiliza como dirección principal. Anula la configuración general en el nivel de zona protegida.

@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principal, ejecución, correo electrónico, destinatario, perfil, optimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 18%
+source-wordcount: '484'
+ht-degree: 16%
 
 ---
 
@@ -66,7 +66,15 @@ El campo de ejecución se actualiza y ahora se utiliza como dirección principal
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Anular un valor en los parámetros de recorrido {#journey-parameters}
+## Anular el valor predeterminado {#override-default-execution-address}
+
+### En la configuración de correo electrónico
+
+Puede cambiar el campo de ejecución predeterminado establecido en el nivel de zona protegida al definir una configuración de canal de correo electrónico. [Más información](../email/email-settings.md#execution-address)
+
+Cuando la dirección de ejecución se define en el nivel de configuración, se utiliza como dirección principal y anula la configuración general en el nivel de zona protegida.
+
+### En los parámetros de recorrido {#journey-parameters}
 
 Solo para casos de uso específicos, puede anular el campo de ejecución establecido globalmente y definir un valor diferente a nivel de recorrido, en particular para el canal de correo electrónico.
 
@@ -84,3 +92,4 @@ Anular este valor puede resultar útil, por ejemplo, para lo siguiente:
 
 * Probar un correo electrónico. Puede añadir su propia dirección de correo electrónico: después de publicar el recorrido, se le envía el correo electrónico.
 * Envíe un correo electrónico a los suscriptores de una lista. Obtenga más información en [este caso de uso](../building-journeys/message-to-subscribers-uc.md).
+
