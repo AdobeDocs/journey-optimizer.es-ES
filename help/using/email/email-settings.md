@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2716'
 ht-degree: 11%
 
 ---
@@ -57,9 +57,11 @@ Al crear un mensaje, debe elegir una configuración de canal válida que coincid
 
 Seleccione el subdominio que desea utilizar para enviar los correos electrónicos.
 
-Para preservar la reputación de su dominio, acelerar el proceso de calentamiento de IP y mejorar la capacidad de entrega, delegue los subdominios de envío al Adobe. [Más información](../configuration/about-subdomain-delegation.md)
+>[!NOTE]
+>
+>Para aumentar el control sobre la configuración del correo electrónico, puede definir subdominios dinámicos. [Más información](../email/surface-personalization.md#dynamic-subdomains)
 
-<!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+Para preservar la reputación de su dominio, acelerar el proceso de calentamiento de IP y mejorar la capacidad de entrega, delegue los subdominios de envío al Adobe. [Más información](../configuration/about-subdomain-delegation.md)
 
 
 ## Detalles del grupo de IP {#ip-pools}
@@ -127,6 +129,10 @@ Obtenga más información sobre cómo administrar las capacidades de cancelació
 ## Parámetros de encabezado {#email-header}
 
 En la sección **[!UICONTROL Parámetros de encabezado]**, escriba los nombres de remitente y las direcciones de correo electrónico asociadas al tipo de correos electrónicos enviados con esa configuración.
+
+>[!NOTE]
+>
+>Para un mayor control sobre la configuración del correo electrónico, puede personalizar los parámetros del encabezado. [Más información](../email/surface-personalization.md#personalize-header)
 
 * **[!UICONTROL Nombre del remitente]**: El nombre del remitente, como el nombre de su marca.
 * **[!UICONTROL Correo electrónico del remitente]**: La dirección de correo electrónico que desea usar para sus comunicaciones.
