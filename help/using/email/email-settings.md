@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
+source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
 workflow-type: tm+mt
-source-wordcount: '2716'
-ht-degree: 11%
+source-wordcount: '2737'
+ht-degree: 10%
 
 ---
 
@@ -351,8 +351,8 @@ Puede obtener una vista previa dinámica de la URL de seguimiento resultante. Ca
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
->title="Definir qué dirección utilizar"
->abstract="Cuando hay varias direcciones de correo electrónico o números de teléfono disponibles en la base de datos (personal, profesional, etc.), puede elegir cuál priorizar para el envío."
+>title="Anular la dirección de ejecución predeterminada para utilizar"
+>abstract="Cuando hay varias direcciones de correo electrónico disponibles en la base de datos (personales, profesionales, etc.), puede elegir cuál priorizar para el envío. La dirección principal se define en el nivel de zona protegida, pero aquí puede anular la configuración predeterminada para esta configuración de correo electrónico específica."
 
 Al segmentar un perfil, pueden estar disponibles en la base de datos varias direcciones de correo electrónico (dirección de correo electrónico profesional, dirección de correo electrónico personal, etc.).
 
