@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2724'
 ht-degree: 10%
 
 ---
@@ -63,9 +63,7 @@ Seleccione el subdominio que desea utilizar para enviar los correos electrónico
 
 Para preservar la reputación de su dominio, acelerar el proceso de calentamiento de IP y mejorar la capacidad de entrega, delegue los subdominios de envío al Adobe. [Más información](../configuration/about-subdomain-delegation.md)
 
-
 ## Detalles del grupo de IP {#ip-pools}
-
 
 Seleccione el grupo de IP que desea asociar con la configuración. [Más información](../configuration/ip-pools.md)
 
@@ -83,10 +81,9 @@ Una vez seleccionado un grupo de IP, la información de PTR se ve al pasar el ra
 >
 >Si no se ha configurado un registro PTR, póngase en contacto con el representante del Adobe.
 
-## Encabezado Cancelar suscripción a lista{#list-unsubscribe}
+## Cancelar suscripción a lista{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
-
 
 Al [seleccionar un subdominio](#subdomains-and-ip-pools) de la lista, se muestra la opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]**.
 
@@ -94,20 +91,23 @@ Esta opción está habilitada de forma predeterminada para incluir una URL de ca
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Si desactiva esta opción, no se mostrará la URL &quot;Cancelar la suscripción&quot; con un solo clic en el encabezado del correo electrónico.
+>[!NOTE]
+>
+>Si desactiva esta opción, no se mostrará la URL &quot;Cancelar la suscripción&quot; con un solo clic en el encabezado del correo electrónico.
 
 Puede seleccionar el nivel de consentimiento en la lista desplegable **[!UICONTROL Nivel de consentimiento]**. Puede ser específico del canal o de la identidad del perfil. En función de esta configuración, cuando un usuario cancela la suscripción mediante la URL de cancelación de suscripción de lista en el encabezado de un correo electrónico, el consentimiento se actualiza en Adobe Journey Optimizer en el nivel de canal o de ID.
 
-El encabezado Cancelar la suscripción a una lista ofrece dos funciones (Mailto y URL de cancelación de suscripción con un clic, como se explica a continuación) que están habilitadas de forma predeterminada a menos que desactive una o ambas funciones:
+El encabezado Cancelar la suscripción a una lista ofrece dos funciones, que están habilitadas de forma predeterminada a menos que desactive una o ambas:
+
+![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
+
+<!--![](assets/surface-list-unsubscribe.png){width="80%"}-->
 
 * Una dirección **Mailto (cancelación de suscripción)**, que es la dirección de destino a la que se dirigen las solicitudes de cancelación de suscripción para el procesamiento automático.
 
   En Journey Optimizer, la dirección de correo electrónico para cancelar la suscripción es la dirección predeterminada **Mailto (cancelar la suscripción)** mostrada en la configuración del canal, según el [subdominio seleccionado](#subdomains-and-ip-pools).
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
-
-
-* La URL **Cancelar la suscripción con un solo clic**, que de forma predeterminada es la opción de un solo clic del encabezado Cancelar la suscripción a la lista generado por la URL, según el subdominio que haya establecido y configurado en las Opciones de configuración del canal.
+* La URL **Cancelar la suscripción con un solo clic**, que de forma predeterminada es el encabezado de cancelación de suscripción de lista generado por la URL de exclusión con un solo clic, según el subdominio que haya establecido y configurado en la configuración de canal.
 
 <!--
     >[!AVAILABILITY]
@@ -116,15 +116,19 @@ El encabezado Cancelar la suscripción a una lista ofrece dos funciones (Mailto 
     >
 -->
 
-La característica **[!UICONTROL Mailto (cancelar la suscripción)]** y la característica **[!UICONTROL Cancelar la suscripción a una URL]** con un solo clic son opcionales. Si no desea utilizar la URL de cancelación de suscripción generada de un solo clic predeterminada, puede desactivar la función. En el escenario donde la opción **[!UICONTROL Configuración de exclusión]** está activada y la función **[!UICONTROL Cancelar la suscripción a una URL]** con un solo clic está desactivada, si agrega un vínculo de exclusión de [un clic](../privacy/opt-out.md#one-click-opt-out) a un mensaje creado con esta configuración, el encabezado de cancelación de suscripción a una lista recogerá el vínculo de exclusión de un clic que ha insertado en el cuerpo del correo electrónico y lo usará como valor de URL de cancelación de suscripción con un solo clic.
+La característica **[!UICONTROL Mailto (cancelar la suscripción)]** y la característica **[!UICONTROL URL para cancelar la suscripción con un solo clic]** son opcionales.
+
+Si no desea utilizar la URL de cancelación de suscripción generada de un solo clic predeterminada, puede desactivar la función. En el escenario donde la opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]** está activada y la función **[!UICONTROL Cancelar la suscripción a una URL]** con un solo clic está desactivada, si agrega un vínculo de exclusión de [un clic](../privacy/opt-out.md#one-click-opt-out) a un mensaje creado con esta configuración, el encabezado Cancelación de suscripción a una lista recoge el vínculo de no participación de un clic que ha insertado en el cuerpo del correo electrónico y lo utiliza como valor de URL de cancelación de suscripción de un clic.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Si no agrega un vínculo de no participación de un clic al contenido del mensaje y la URL predeterminada de cancelación de suscripción de un clic no está marcada en la Configuración de canal, no se pasará ninguna URL al encabezado del correo electrónico como parte del encabezado Cancelación de suscripción a una lista.
+>Si no agrega un vínculo de no participación de un clic al contenido del mensaje y la URL predeterminada de cancelación de suscripción de un clic no está marcada en la configuración de canal, no se pasa ninguna URL al encabezado de correo electrónico como parte del encabezado de cancelación de suscripción de lista.
 
 Obtenga más información sobre cómo administrar las capacidades de cancelación de suscripción en sus mensajes en [esta sección](../email/email-opt-out.md#unsubscribe-header).
+
+<!--![](assets/surface-list-unsubscribe-custom.png){width="80%"}-->
 
 ## Parámetros de encabezado {#email-header}
 
@@ -146,7 +150,7 @@ En la sección **[!UICONTROL Parámetros de encabezado]**, escriba los nombres d
 >
 >Las direcciones de **[!UICONTROL correo electrónico del remitente]** y **[!UICONTROL correo electrónico con error]** deben usar el [subdominio delegado seleccionado actualmente](../configuration/about-subdomain-delegation.md). Por ejemplo, si el subdominio delegado es *marketing.luma.com*, puede usar *contact@marketing.luma.com* y *error@marketing.luma.com*.
 
-![](assets/preset-header.png)
+![](assets/preset-header.png){width="80%"}
 
 >[!NOTE]
 >
@@ -255,7 +259,7 @@ Una lista semilla en [!DNL Journey Optimizer] le permite incluir automáticament
 
 Seleccione la lista que sea relevante para usted en la sección **[!UICONTROL Lista semilla]**. Aprenda a crear una lista semilla en [esta sección](../configuration/seed-lists.md#create-seed-list).
 
-![](../configuration/assets/seed-list-surface.png)
+![](../configuration/assets/seed-list-surface.png){width="80%"}
 
 >[!NOTE]
 >
@@ -305,7 +309,7 @@ Los parámetros definidos en esta sección se adjuntan al final de las direccion
 
 Puede agregar hasta 10 parámetros de seguimiento con el botón **[!UICONTROL Agregar nuevo parámetro]**.
 
-![](assets/preset-url-tracking.png)
+![](assets/preset-url-tracking.png){width="80%"}
 
 Para configurar un parámetro de seguimiento de URL, puede escribir directamente los valores deseados en los campos **[!UICONTROL Nombre]** y **[!UICONTROL Valor]**.
 

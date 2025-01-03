@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: exclusión, correo electrónico, vínculo, cancelación de suscripción
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cb7e2e209872176c67020add47242f95a7304c6c
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 26%
+source-wordcount: '1317'
+ht-degree: 23%
 
 ---
 
@@ -26,14 +26,14 @@ Al enviar mensajes desde recorridos o campañas, siempre debe asegurarse de que 
 
 Para insertar un vínculo de baja en el contenido del correo electrónico, puede:
 
-* Añada una URL de cancelación de suscripción de un clic en el encabezado del correo electrónico. Al habilitar la opción **[!UICONTROL Cancelación de suscripción a una lista]** en el nivel de configuración de canal, se agrega un vínculo de no participación en el encabezado del correo electrónico. [Obtenga más información sobre la exclusión en el encabezado del correo electrónico](#unsubscribe-header)
+* Añada una URL de cancelación de suscripción de un clic en el encabezado del correo electrónico. La opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]** en el nivel de configuración de canal agrega un vínculo de no participación al encabezado del correo electrónico. [Obtenga más información sobre la exclusión en el encabezado del correo electrónico](#unsubscribe-header)
 
 * Habilite el **vínculo de no participación de un clic** para su correo electrónico.  [Aprenda a agregar un vínculo de no participación de un clic](#one-click-opt-out)
 
 * Insertar un **vínculo a una página de aterrizaje**. [Aprenda a agregar una página de aterrizaje de exclusión](#opt-out-external-lp)
 
 
-## Opción de exclusión en un paso {#opt-out-one-step}
+## Opción de exclusión en un solo paso {#opt-out-one-step}
 
 ### URL de cancelación de suscripción con un clic en el encabezado del correo electrónico {#unsubscribe-header}
 
@@ -41,9 +41,9 @@ Para insertar un vínculo de baja en el contenido del correo electrónico, puede
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="Añadir la URL de cancelación de suscripción en el encabezado del correo electrónico"
->abstract="Habilite la cancelación de suscripción a la lista para añadir una URL de cancelación de suscripción al encabezado del correo electrónico. Para establecer la URL de cancelación de suscripción, inserte un vínculo de no participación de un solo clic en el contenido del correo electrónico."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=es#one-click-opt-out" text="Opción de exclusión en un clic"
+>title="Añadir una URL de cancelación de suscripción al encabezado del correo electrónico"
+>abstract="Active Cancelación de suscripción a una lista para añadir una URL de cancelación de suscripción al encabezado del correo electrónico. Para establecer la URL &quot;Cancelar la suscripción&quot; en un mensaje, inserte un vínculo de no participación de un solo clic en el contenido del correo electrónico."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Exclusión en un clic del contenido del correo electrónico"
 
 La URL &quot;Cancelar la suscripción&quot; de una lista de un clic es un vínculo o botón &quot;Cancelar la suscripción&quot; que se muestra junto a la información del remitente del correo electrónico y permite a los destinatarios excluirse instantáneamente de sus listas de correo con un solo clic. En Adobe Journey Optimizer, cuando la opción **Habilitar cancelación de suscripción a una lista** está activada, el encabezado del correo electrónico incluye un mailto y/o una URL de forma predeterminada que los destinatarios pueden usar para cancelar la suscripción a su lista de correo.
 
