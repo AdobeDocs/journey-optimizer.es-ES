@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: principal, ejecución, correo electrónico, destinatario, perfil, optimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '483'
 ht-degree: 16%
 
 ---
@@ -66,17 +66,17 @@ El campo de ejecución se actualiza y ahora se utiliza como dirección principal
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Anular el valor predeterminado {#override-default-execution-address}
+## Anular el campo de ejecución predeterminado {#override-default-execution-address}
+
+Para casos de uso específicos, puede anular el campo de ejecución establecido globalmente y definir un valor diferente en el nivel de configuración de correo electrónico o en el nivel de recorrido.
 
 ### En la configuración de correo electrónico
 
-Puede cambiar el campo de ejecución predeterminado establecido en el nivel de zona protegida al definir una configuración de canal de correo electrónico. [Más información](../email/email-settings.md#execution-address)
+Puede cambiar el campo de ejecución predeterminado establecido en [configuración general](#admin-settings) al definir una configuración de canal de correo electrónico. [Más información](../email/email-settings.md#execution-address)
 
-Cuando la dirección de ejecución se define en el nivel de configuración, se utiliza como dirección principal y anula la configuración general en el nivel de zona protegida.
+Cuando se define una dirección de ejecución en la configuración de correo electrónico, se utiliza como dirección principal y anula la configuración general a nivel de zona protegida.
 
 ### En los parámetros de recorrido {#journey-parameters}
-
-Solo para casos de uso específicos, puede anular el campo de ejecución establecido globalmente y definir un valor diferente a nivel de recorrido, en particular para el canal de correo electrónico.
 
 Al agregar una acción **[!UICONTROL Email]** a un [recorrido](../email/create-email.md#create-email-journey-campaign), la dirección de correo electrónico principal se muestra bajo los parámetros avanzados de recorrido.
 

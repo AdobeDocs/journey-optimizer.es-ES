@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP, grupos, capacidad de entrega
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '441'
 ht-degree: 12%
 
 ---
@@ -33,7 +33,7 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Aunque cambie la [dirección de ejecución](../email/email-settings.md#execution-address) en la configuración de correo electrónico, se seguirá usando el campo predeterminado establecido en el nivel de espacio aislado. [Más información](primary-email-addresses.md)
+   >Para las campañas de calentamiento de IP, incluso si cambia la [dirección de ejecución](../email/email-settings.md#execution-address) en la configuración de correo electrónico, se sigue usando el campo predeterminado establecido en el nivel de zona protegida. [Más información](primary-email-addresses.md)
 
 1. Cree una [campaña](../campaigns/create-campaign.md) de marketing programado y seleccione la acción [Correo electrónico](../email/create-email.md#create-email-journey-campaign).
 
