@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: 1b48cb825eb1f3110a27389d1e780cb1d7e80fad
+source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2045'
 ht-degree: 20%
 
 ---
@@ -164,7 +164,9 @@ En esta sección, puede establecer las distintas configuraciones regionales para
    >
    >Estos requisitos previos solo son necesarios para los canales de tarjetas de contenido y en la aplicación.
 
-   1. En Recopilación de datos de Adobe Experience Platform, acceda al menú **[!UICONTROL Reglas]** y cree una regla nueva. Encontrará información detallada sobre cómo crear reglas en [!DNL Adobe Experience Platform] [Documentación de recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. En Recopilación de datos de Adobe Experience Platform, acceda a sus Propiedades de etiquetas.
+
+   1. Acceda al menú **[!UICONTROL Reglas]** y cree una regla nueva. Encontrará información detallada sobre cómo crear reglas en [!DNL Adobe Experience Platform] [Documentación de recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    2. En la sección **[!UICONTROL IF]** de la regla, agregue un evento configurado de la siguiente manera:
 

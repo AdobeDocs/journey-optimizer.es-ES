@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
-source-git-commit: e2b35cfb2cdaf0dac002ff74a11b2fe98206cd6f
+source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '194'
 ht-degree: 2%
 
 ---
@@ -41,6 +41,8 @@ Antes de añadir el proveedor de traducción seleccionado, asegúrese de haber c
    ![](assets/provider_2.png)
 
 1. Si usas Microsoft Translator como proveedor, escribe tu **[!UICONTROL clave de suscripción]** y **[!UICONTROL URL de punto de conexión]**.
+
+   Haga clic en **[!UICONTROL Validar credenciales]** para probar la conexión.
 
    ![](assets/provider_3.png)
 
