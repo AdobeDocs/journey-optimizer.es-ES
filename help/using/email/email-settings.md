@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
+source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2735'
 ht-degree: 10%
 
 ---
@@ -366,7 +366,7 @@ En ese caso, [!DNL Journey Optimizer] usa la dirección especificada en **[!UICO
 >
 >Para comprobar los campos que se utilizan actualmente de forma predeterminada, acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Campos de ejecución]**.
 
-Sin embargo, puede cambiar este campo de ejecución predeterminado en el nivel de configuración del canal de correo electrónico.
+Sin embargo, puede cambiar este campo de ejecución predeterminado en el nivel de configuración del canal de correo electrónico. A continuación, puede aplicar esta configuración a campañas o recorridos específicos.
 
 Para ello, edite el campo **[!UICONTROL Dirección de entrega]** y seleccione un elemento de la lista de campos XDM de tipo correo electrónico disponibles.
 
