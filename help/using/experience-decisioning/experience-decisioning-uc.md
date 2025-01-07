@@ -1,5 +1,5 @@
 ---
-title: Caso de uso de decisión
+title: Caso de uso sobre la toma de decisiones
 description: Aprenda a crear decisiones utilizando experimentos con el canal basado en código
 feature: Decisioning
 topic: Integrations
@@ -8,47 +8,111 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
+source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 6%
+source-wordcount: '560'
+ht-degree: 7%
 
 ---
 
-# Caso de uso de decisión {#experience-decisioning-uc}
+# Caso de uso sobre la toma de decisiones {#experience-decisioning-uc}
 
-No está seguro de si una fórmula de clasificación específica tendrá un mejor rendimiento que las prioridades de oferta preasignadas.
+Este caso de uso presenta todos los pasos necesarios para utilizar Decisioning con el canal basado en código [!DNL Journey Optimizer].
 
-En este caso de uso, se crea una campaña en la que se definen dos tratamientos de entrega, cada uno con una política de decisión diferente, para medir cuál ofrece el mejor rendimiento para la audiencia de destino.
+<!--In this use case, you create a campaign where you define two delivery treatments - each containing a different decision policy in order to measure which one performs best for your target audience.-->
 
-Configure el experimento de modo que:
+En este caso de uso, no está seguro de si una fórmula de clasificación específica tendrá un mejor rendimiento que las prioridades de oferta preasignadas.
+
+Para medir cuál ofrece el mejor rendimiento para la audiencia de destino, cree una campaña en la que defina dos tratamientos de entrega:
+
+<!--Set up the experiment such that:-->
 
 * El primer tratamiento contiene una estrategia de selección con prioridad como método de clasificación.
 * El segundo tratamiento contiene una estrategia de selección diferente para la cual una fórmula es el método de clasificación.
 
+## Creación de estrategias de selección
 
-## Creación de elementos de decisión y estrategias de selección
+En primer lugar, debe crear dos estrategias de selección: una con prioridad como método de clasificación y otra con una fórmula como método de clasificación.
 
-Primero debe crear elementos, agruparlos en colecciones, configurar reglas y métodos de clasificación. Estos elementos le permiten crear estrategias de selección.
+### Creación de la primera estrategia de selección
 
-1. Vaya a **[!UICONTROL Decisiones]** > **[!UICONTROL Catálogos]** y cree varios elementos de decisión. Establezca restricciones utilizando audiencias o reglas para restringir cada elemento solo a perfiles específicos. [Más información](items.md)
+En la primera estrategia de selección, seleccione priority como método de clasificación. Siga los pasos a continuación.
 
-   <!--
-   1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
+1. Cree un elemento de decisión. [Descubra cómo](items.md)
 
-1. Cree **colecciones** para categorizar y agrupar los elementos de decisión según sus preferencias. [Más información](collections.md)
+1. Establezca la **[!UICONTROL Prioridad]** del elemento de decisión en comparación con otros. Si un perfil cumple los requisitos para varios elementos, una prioridad mayor otorga al elemento prioridad sobre otros.
 
-1. Cree **reglas de decisión** para determinar a quién se puede mostrar un elemento de decisión. [Más información](rules.md)
+   ![](assets/exd-uc-item-priority.png)
 
-1. Cree **métodos de clasificación** y aplíquelos dentro de las estrategias de decisión para determinar el orden de prioridad al seleccionar elementos de decisión. [Más información](ranking.md)
+   >[!NOTE]
+   >
+   >La prioridad es un tipo de datos entero. Todos los atributos que son tipos de datos enteros deben contener valores enteros (sin decimales).
 
-1. Genere **estrategias de selección** que aprovechen colecciones, reglas de decisión y métodos de clasificación para identificar los elementos de decisión adecuados para mostrarlos a los perfiles. [Más información](selection-strategies.md)
+1. Defina audiencias o reglas para restringir el elemento solo a perfiles específicos. [Aprenda a establecer la idoneidad del elemento de decisión](items.md#eligibility)
+
+1. Defina las reglas de límite para definir el número máximo de veces que se puede presentar una oferta. [Descubra cómo](items.md#capping)
+
+<!--1. If needed, repeat the steps above to create one or more additional decision items.-->
+
+1. Cree una **colección** en la que se incluirán los elementos de decisión. [Más información](collections.md)
+
+1. Crear una **estrategia de selección**. [Descubra cómo](selection-strategies.md#create-selection-strategy)
+
+1. Seleccione la [colección](collections.md) que contiene las ofertas que se deben considerar.
+
+1. [Elija el método de clasificación](#select-ranking-method) que se usará para seleccionar la mejor oferta para cada perfil. En este caso, seleccione **[!UICONTROL Prioridad de ofertas]**. [Más información](selection-strategies.md#offer-priority)
+
+   ![](assets/exd-uc-strategy-priority.png)
+
+   <!--If multiple offers are eligible for this strategy, the [Offer priority](#offer-priority) method uses the value defined in the offers.-->
+
+### Creación de la segunda estrategia de selección
+
+En la segunda estrategia de selección, seleccione una fórmula como método de clasificación. Siga los pasos a continuación.
+
+1. Cree un elemento de decisión. [Descubra cómo](items.md)
+
+<!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
+
+1. Defina audiencias o reglas para restringir el elemento solo a perfiles específicos. [Aprenda a establecer la idoneidad del elemento de decisión](items.md#eligibility)
+
+1. Defina las reglas de límite para definir el número máximo de veces que se puede presentar una oferta. [Descubra cómo](items.md#capping)
+
+<!--1. If needed, repeat the steps above to create one or more additional decision items.-->
+
+1. Cree una **colección** en la que se incluirán los elementos de decisión. [Más información](collections.md)
+
+1. Crear una **estrategia de selección**. [Descubra cómo](selection-strategies.md#create-selection-strategy)
+
+1. Seleccione la [colección](collections.md) que contiene las ofertas que se deben considerar.
+
+1. [Seleccione el método de clasificación](#select-ranking-method) que desee usar para seleccionar la mejor oferta para cada perfil. En este caso, seleccione **[!UICONTROL Fórmula]** para usar una puntuación calculada específica y elegir la oferta elegible para entregar. [Más información](selection-strategies.md#ranking-formula)
+
+   ![](assets/exd-uc-strategy-formula.png)
+
+<!--
+## Create decision items and selection strategies
+
+You first need to create items, group them together in collections, set up rules and ranking methods. These elements will allow you to build selection strategies.
+
+1. Navigate to **[!UICONTROL Decisioning]** > **[!UICONTROL Catalogs]** and create several decision items. Set constraints using audiences or rules to restrict each item to specific profiles only. [Learn more](items.md)
+
+1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)
+
+1. Create **collections** to categorize and group your decision items according to your preferences. [Learn more](collections.md)
+
+1. Create **decision rules** to determine to whom a decision item can be shown. [Learn more](rules.md)
+
+1. Create **ranking methods** and apply them within decision strategies to determine the priority order for selecting decision items. [Learn more](ranking.md)
+
+1. Build **selection strategies** that leverage collections, decision rules, and ranking methods to identify the decision items suitable for displaying to profiles. [Learn more](selection-strategies.md)
+-->
 
 ## Creación de políticas de decisión
 
-Para presentar la mejor oferta dinámica y experiencia a los visitantes de su sitio web o aplicación móvil, agregue una política de decisión a una campaña basada en código.
+<!--To present the best dynamic offer and experience to your visitors on your website or mobile app, add a decision policy to a code-based campaign.
 
-<!--Define two delivery treatments each containing a different decision policy.-->
+Define two delivery treatments each containing a different decision policy.-->
 
 1. Cree una campaña y seleccione la acción **[!UICONTROL Experiencia basada en código]**. [Más información](../code-based/create-code-based.md)
 
@@ -58,7 +122,7 @@ Para presentar la mejor oferta dinámica y experiencia a los visitantes de su si
 
    ![](assets/decision-code-based-create.png)
 
-1. Defina las estrategias de selección para su decisión. Haga clic en **[!UICONTROL Agregar estrategia]**.
+1. Seleccione la primera estrategia que ha creado. Haga clic en **[!UICONTROL Agregar estrategia]**.
 
 1. Haga clic en **[!UICONTROL Crear]**. La nueva decisión se agregó en **[!UICONTROL Decisiones]**.
 
@@ -74,6 +138,8 @@ Para presentar la mejor oferta dinámica y experiencia a los visitantes de su si
 
 1. En la página de resumen de la campaña, haga clic en **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido. [Más información](../content-management/content-experiment.md)
 
-1. En la ventana **[!UICONTROL Editar contenido]**, seleccione el tratamiento B para cambiar el contenido y repita los pasos anteriores para crear otra decisión.
+1. En la ventana **[!UICONTROL Editar contenido]**, seleccione el tratamiento B y repita los pasos anteriores para crear otra decisión.
+
+1. Seleccione la segunda estrategia que ha creado. Haga clic en **[!UICONTROL Agregar estrategia]**.
 
 1. Guarde el contenido.
