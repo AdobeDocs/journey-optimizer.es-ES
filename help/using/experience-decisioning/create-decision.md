@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: 3abaa58fa4fa3baae5c7072bdc112de4a5e9119a
 workflow-type: tm+mt
-source-wordcount: '1791'
-ht-degree: 14%
+source-wordcount: '1647'
+ht-degree: 15%
 
 ---
 
@@ -60,9 +60,15 @@ Para presentar la mejor oferta dinámica y experiencia a los visitantes de su si
 
 1. Cree una campaña y seleccione la acción **[!UICONTROL Experiencia basada en código]**. [Más información](../code-based/create-code-based.md)
 
-1. En el [editor de código](../code-based/create-code-based.md#edit-code), seleccione el icono **[!UICONTROL Directiva de decisión]** y haga clic en **[!UICONTROL Agregar directiva de decisión]**.
+1. En el [editor de código](../code-based/create-code-based.md#edit-code), seleccione **[!UICONTROL directiva de decisión]** y haga clic en **[!UICONTROL Agregar directiva de decisión]**.
 
    ![](assets/decision-code-based-create.png)
+
+1. De forma predeterminada, cree una nueva directiva.
+
+   >[!NOTE]
+   >
+   >También puede elegir seleccionar una política existente.
 
 1. Complete los detalles de la política de decisión: añada un nombre y seleccione un catálogo.
 
@@ -78,9 +84,11 @@ Para presentar la mejor oferta dinámica y experiencia a los visitantes de su si
 
 La sección **[!UICONTROL Secuencia de estrategia]** le permite seleccionar los elementos de decisión y las estrategias de selección que se presentarán con la directiva de decisión.
 
-1. Haga clic en el botón **[!UICONTROL Agregar]** y, a continuación, elija el tipo de objeto que desea incluir en la directiva:
+1. Haga clic en el botón **[!UICONTROL Add]**.
 
-   * **[!UICONTROL Estrategia de selección]**: agregue una o varias estrategias de selección. Las estrategias de decisión aprovechan las colecciones asociadas con las restricciones de elegibilidad y los métodos de clasificación para determinar los elementos que se van a mostrar. Puede seleccionar una estrategia de selección existente o crear una nueva mediante el botón **[!UICONTROL Crear estrategia de selección]**.[Aprenda a crear estrategias de selección](selection-strategies.md)
+1. Elija el tipo de objeto que desea incluir en la directiva:
+
+   * **[!UICONTROL Estrategia de selección]**: agregue una o varias estrategias de selección. Las estrategias de decisión aprovechan las colecciones asociadas con las restricciones de elegibilidad y los métodos de clasificación para determinar los elementos que se van a mostrar. Puede seleccionar una estrategia de selección existente o crear una nueva mediante el botón **[!UICONTROL Crear estrategia de selección]**. [Aprenda a crear estrategias de selección](selection-strategies.md)
 
    * **[!UICONTROL elemento de decisión]**: agregue elementos de decisión únicos para presentar sin tener que ejecutar una estrategia de selección. Solo puede seleccionar un elemento de decisión a la vez. Se aplicarán todas las restricciones de aceptación establecidas para el artículo.
 
@@ -90,7 +98,9 @@ La sección **[!UICONTROL Secuencia de estrategia]** le permite seleccionar los 
    >
    >Una política de decisión admite hasta 10 estrategias de selección y elementos de decisión combinados. [Más información sobre las limitaciones y protecciones de decisiones](gs-experience-decisioning.md#guardrails)
 
-1. Al agregar varios elementos de decisión o estrategias, se evaluarán en un orden específico. El primer objeto añadido a la secuencia se evaluará primero, y así sucesivamente. Para cambiar la secuencia predeterminada, puede arrastrar y soltar los objetos o los grupos para reordenarlos como desee. [Más información sobre el pedido de evaluación de la directiva de decisión](#evaluation-order)
+1. Al agregar varios elementos de decisión o estrategias, se evaluarán en un orden específico. El primer objeto añadido a la secuencia se evaluará primero, y así sucesivamente.
+
+   Para cambiar la secuencia predeterminada, puede arrastrar y soltar los objetos o los grupos para reordenarlos como desee. [Más información](#evaluation-order)
 
 ### Administrar el orden de evaluación en una política de decisión {#evaluation-order}
 
@@ -211,14 +221,3 @@ Una vez creada, la directiva de decisión se puede usar en el [editor de persona
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## Creación de informes en Customer Journey Analytics {#cja}
-
-Si trabaja con Customer Journey Analytics, puede crear paneles de informes personalizados para sus campañas basadas en código aprovechando Decisioning.
-
-A continuación se enumeran los pasos principales. Encontrará información detallada sobre cómo trabajar con el Customer Journey Analytics en la [documentación del Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
-
-1. Cree y configure una **conexión** en el Customer Journey Analytics. Esto le permite conectarse al conjunto de datos para el que desea crear informes. [Aprenda a crear una conexión](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
-
-1. Cree una **vista de datos** y asóciela a la conexión creada anteriormente. En la ficha **[!UICONTROL Componentes]**, elija los campos de esquema relevantes que desee que aparezcan en los informes. Para Decisioning, asegúrese de incluir los campos **propositioninteraction** y **propositiondisplay**. [Aprenda a crear y configurar vistas de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
-
-1. Combine componentes, tablas y visualizaciones de datos en **proyectos del espacio de trabajo** para crear y compartir informes para su campaña basada en código.[Aprenda a crear proyectos del área de trabajo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
