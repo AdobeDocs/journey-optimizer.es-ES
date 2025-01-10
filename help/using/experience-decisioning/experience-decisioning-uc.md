@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
+source-git-commit: aa0791b7ca3eb4c39f700fbe23937b5529f44376
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '739'
 ht-degree: 5%
 
 ---
@@ -19,12 +19,10 @@ ht-degree: 5%
 
 Este caso de uso presenta todos los pasos necesarios para utilizar Decisioning con el canal basado en código [!DNL Journey Optimizer].
 
-En este ejemplo, no está seguro de si una fórmula de clasificación específica tendrá un mejor rendimiento que las prioridades de oferta preasignadas.
-
-Para medir cuál ofrece el mejor rendimiento para la audiencia objetivo, cree una campaña con [Experimento de contenido](../content-management/content-experiment.md) en la que defina dos tratamientos de entrega:
+En este ejemplo, no está seguro de si una fórmula de clasificación específica tendrá un mejor rendimiento que las prioridades de oferta preasignadas. Para medir cuál ofrece el mejor rendimiento para la audiencia objetivo, cree una campaña con [Experimento de contenido](../content-management/content-experiment.md) en la que defina dos tratamientos de entrega:
 
 * El primer tratamiento utiliza la prioridad como método de clasificación.
-* El segundo tratamiento utiliza una fórmula es el método de clasificación.
+* El segundo tratamiento utiliza una fórmula como método de clasificación.
 
 ## Creación de estrategias de selección
 
@@ -34,7 +32,7 @@ En primer lugar, debe crear dos estrategias de selección: una con prioridad com
 >
 >También puede crear elementos de decisión únicos sin tener que ejecutar una estrategia de selección. Se aplicará la prioridad establecida para cada elemento.
 
-### Creación de la primera estrategia de selección
+### Creación de una estrategia con prioridad
 
 Para crear la primera estrategia de selección con la prioridad como método de clasificación, siga los pasos a continuación.
 
@@ -64,7 +62,7 @@ Para crear la primera estrategia de selección con la prioridad como método de 
 
    ![](assets/exd-uc-strategy-priority.png){width="80%"}
 
-### Creación de la segunda estrategia de selección
+### Crear otra estrategia con una fórmula
 
 Para crear la segunda estrategia de selección con seleccione una fórmula como método de clasificación, siga los pasos a continuación.
 
