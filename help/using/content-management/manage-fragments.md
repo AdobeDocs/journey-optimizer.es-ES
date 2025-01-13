@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '979'
 ht-degree: 25%
 
 ---
@@ -89,7 +89,7 @@ Para editar un fragmento, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Al editar un fragmento de expresión, puede eliminar cualquier campo de personalización, pero no puede añadir nuevos al contenido del fragmento. Si desea agregar campos de personalización, duplique el fragmento para crear uno nuevo.
+   >Al editar un fragmento, puede eliminar cualquier campo de personalización, pero no puede añadir nuevos al contenido del fragmento. Si desea agregar campos de personalización, duplique el fragmento para crear uno nuevo.
 
    También puede comprobar la lista de recorridos, campañas y plantillas de contenido donde se está utilizando el fragmento seleccionando la opción **Referencias del explorador**. [Más información](#explore-references)
 
