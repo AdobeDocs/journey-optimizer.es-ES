@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
-workflow-type: ht
-source-wordcount: '2193'
-ht-degree: 100%
+source-git-commit: a9efa676242b1e3453033c77f1f5afb9da931a3d
+workflow-type: tm+mt
+source-wordcount: '2154'
+ht-degree: 99%
 
 ---
 
@@ -390,14 +390,14 @@ ht-degree: 100%
    + [Uso de licencias](using/audience/license-usage.md)
 + Seguimiento y monitorización {#reporting}
    + Informe en vivo {#live-report}
-      + [Introducción al Informe en vivo](using/reports/live-report.md)
+      + [Introducción al informe en vivo](using/reports/live-report.md)
       + [Lista de componentes](using/reports/live-report-components.md)
       + [Informe activo de recorrido](using/reports/journey-live-report.md)
       + [Informe en vivo de la campaña](using/reports/campaign-live-report.md)
       + [Informe en directo de la página de aterrizaje](using/reports/lp-report-live.md)
       + [Informe en directo de la lista de suscripciones](using/reports/subscription-report-live.md)
-   + Se actualizó la experiencia de creación de informes{#channel-report}
-      + [Introducción a la experiencia de creación de informes actualizada](using/reports/report-gs-cja.md)
+   + Informe de todo tiempo{#channel-report}
+      + [Introducción al informe Todo el tiempo](using/reports/report-gs-cja.md)
       + [Configurar Customer Journey Analytics manualmente](using/reports/cja-ajo.md)
       + [Administración de informes](using/reports/report-cja-manage.md)
       + [Requisitos previos de creación de informes y experimentación](using/reports/reporting-configuration.md)
@@ -425,18 +425,6 @@ ht-degree: 100%
       + [Informe de información general](using/reports/channel-report-cja.md)
       + [Informe de página de aterrizaje](using/reports/lp-report-global-cja.md)
       + [Informe de la lista de suscripciones](using/reports/subscription-report-global-cja.md)
-   + Experiencia anterior de creación de informes {#reports}
-      + Informe global {#global-report}
-         + [Introducción al Informe global](using/reports/global-report.md)
-         + [Lista de componentes](using/reports/global-report-components.md)
-         + [Informe global de recorrido](using/reports/journey-global-report.md)
-         + [Informe global de la campaña](using/reports/campaign-global-report.md)
-         + [Informe objetivo](using/reports/objective-report.md)
-         + [Informe global de la página de aterrizaje](using/reports/lp-report-global.md)
-         + [Informe global de la lista de suscripciones](using/reports/subscription-report-global.md)
-      + Informes de canal {#channel-report}
-         + [Introducción a los informes de canal](using/reports/channel-report-gs.md)
-         + [Informes de canal](using/reports/channel-report.md)
    + Informes de recorrido {#reports}
       + [Creación de informes de recorrido](using/reports/sharing-overview.md)
       + [Lista de campos de eventos de paso](using/reports/sharing-field-list.md)
