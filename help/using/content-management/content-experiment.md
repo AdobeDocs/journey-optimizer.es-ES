@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 84cb51a3fdb01fab0b23289993bbcdd30c68cd01
+source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 12%

@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
+source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '789'
 ht-degree: 5%
 
 ---
@@ -96,7 +96,7 @@ Una vez configuradas las dos estrategias de selección, cree una campaña de exp
 
 1. Cree una campaña y seleccione la acción **[!UICONTROL Experiencia basada en código]**. [Más información](../code-based/create-code-based.md)
 
-1. En la página de resumen de la campaña, haga clic en **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido. [Más información](../content-management/content-experiment.md)
+1. En la página de resumen de la campaña, haga clic en **[!UICONTROL Crear experimento]** para configurar su experimento de contenido. [Descubra cómo](../content-management/content-experiment.md)
 
    ![](assets/exd-uc-create-experiment.png){width="90%"}
 
@@ -140,4 +140,6 @@ Una vez configuradas las dos estrategias de selección, cree una campaña de exp
 
 1. Guarde los cambios y [publique su campaña de experiencia basada en código](../code-based/publish-code-based.md).
 
-Puede realizar un seguimiento del rendimiento de su campaña con [informe de campaña de experimentación](../reports/campaign-global-report-cja-experimentation.md) e [informe de toma de decisiones](cja-reporting.md). <!--TBC how to check which treatment performs best-->
+Después de ejecutar el experimento, realiza un seguimiento del rendimiento de los tratamientos de campaña con el [informe de campaña de experimentación](../reports/campaign-global-report-cja-experimentation.md).<!-- and [report on decisioning](cja-reporting.md).--> Entonces puede interpretar los resultados de su experimento. [Descubra cómo](../content-management/get-started-experiment.md#interpret-results)
+
+Si el resultado del experimento es concluyente, puede dirigir el tratamiento con la clasificación con mejor rendimiento a todos sus clientes. O puede crear una nueva campaña utilizando la estrategia de selección en la que se replica el método de clasificación con mejor rendimiento.
