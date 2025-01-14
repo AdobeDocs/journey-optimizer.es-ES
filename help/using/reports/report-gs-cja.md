@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Experiencia actualizada de creación de informes
-description: Introducción a la experiencia actualizada de creación de informes
+description: Introducción al informe de todo el tiempo
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
+source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '358'
 ht-degree: 15%
 
 ---
 
-# Introducción a la experiencia actualizada de creación de informes {#channel-report-gs-cja}
+# Introducción al informe de todo el tiempo {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ La creación de informes en Journey Optimizer cuenta con una interoperabilidad m
 
 * Las vistas de datos del Customer Journey Analytics deben configurarse con la siguiente configuración: **Establecer como vista de datos predeterminada en Adobe Journey Optimizer**. [Más información sobre las vistas de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
-## Vídeo explicativo{#video}
+## Vídeo práctico{#video}
 
 El siguiente vídeo muestra cómo utilizar los informes mejorados de Journey Optimizer con Customer Journey Analytics.
 
