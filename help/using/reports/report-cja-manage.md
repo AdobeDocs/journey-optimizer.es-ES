@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: b3d1d02605ff5e759c665847efad2d78bef6a1cf
+source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1353'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 1%
 # Administración de informes {#channel-cja-manage}
 
 ## Analizar en Customer Journey Analytics {#analyze}
+
+>[!AVAILABILITY]
+>
+> La funcionalidad **Analizar en CJA** está disponible de forma exclusiva para los usuarios con una licencia de [!DNL Customer Journey Analytics].
 
 ![](assets/cja-analyze.png)
 
@@ -211,3 +215,47 @@ Ahora puede seleccionar datos específicos dentro de la tabla y crear directamen
 
 Ahora puede utilizar la audiencia recién creada con un Recorrido o una campaña.
 
+## Administración de plantillas {#cja-template}
+
+>[!AVAILABILITY]
+>
+> La funcionalidad **Template** se está implementando progresivamente por fases, con una disponibilidad general completa planificada para finales de enero y disponible exclusivamente para los usuarios con una licencia de [!DNL Customer Journey Analytics].
+
+Ahora tiene la opción de mejorar los informes de Journey Optimizer mediante plantillas de Customer Journey Analytics. [Más información sobre la plantilla de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+
+Al acceder a los informes, puede elegir entre dos tipos de plantilla en la lista desplegable **[!UICONTROL Seleccionar una plantilla]**:
+
+* Plantilla predeterminada proporcionada por el Adobe
+* Plantillas generadas por el cliente
+
+![](assets/cja_template_5.png)
+
+Si no se ha creado ninguna plantilla, la lista desplegable **[!UICONTROL Seleccionar una plantilla]** no aparecerá en la interfaz de informes.
+
+Para crear una plantilla, siga los pasos a continuación:
+
+1. En [!DNL Customer Journey Analytics], vaya al menú **[!UICONTROL Workspace]** y seleccione **[!UICONTROL plantillas de Adobe]**. [Más información sobre las plantillas disponibles](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+
+1. Examine las plantillas creadas previamente disponibles y haga clic en **[!UICONTROL Usar plantilla]** para seleccionar una.
+
+   ![](assets/cja_template_1.png)
+
+1. Ajuste el informe para adaptarlo a sus necesidades. Consulte [documentación del Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+
+1. Una vez completada la plantilla personalizada, accede al menú **[!UICONTROL Proyecto]** y selecciona **[!UICONTROL Guardar como plantilla]**.
+
+   ![](assets/cja_template_2.png)
+
+1. Proporcione los detalles necesarios para la plantilla. Consulte [documentación del Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template) para obtener información detallada.
+
+   >[!IMPORTANT]
+   >
+   > Asegúrese de elegir **Journey Optimizer** en **[!UICONTROL Casos de uso]** y especifique el tipo de actividad de **Journey Optimizer** y la **actividad** correspondientes. Esto permite que el informe aparezca en Journey Optimizer.
+
+   ![](assets/cja_template_3.png)
+
+1. En [!DNL Journey Optimizer], desde tu informe, accede a tu informe y elige la plantilla creada anteriormente en la lista desplegable **[!UICONTROL Seleccionar una plantilla]**.
+
+   ![](assets/cja_template_4.png)
+
+Para crear directamente una plantilla a partir del informe de Recorrido Optimizer, simplemente acceda a su campaña o informe de recorrido, seleccione **[!UICONTROL Analizar en CJA]** y personalice la plantilla predeterminada siguiendo los pasos descritos anteriormente.

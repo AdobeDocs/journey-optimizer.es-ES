@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 97b6041d4b8523b11b13dd78cd8b241a6410f1bc
-workflow-type: ht
-source-wordcount: '2103'
-ht-degree: 100%
+source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
+workflow-type: tm+mt
+source-wordcount: '2172'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,25 @@ ht-degree: 100%
 >abstract="**Adobe Journey Optimizer** ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión."
 
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión. [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información acerca de estos cambios en [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
+
+## Actualizaciones de enero de 2025 {#25-01-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>plantillas de Customer Journey Analytics</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora tiene la opción de mejorar los informes de Journey Optimizer mediante plantillas de Customer Journey Analytics. Esta nueva función le permite optimizar el proceso de creación de informes con plantillas prediseñadas adaptadas a sus necesidades de análisis.
+</p>
+<p>Para obtener más información, consulte la <a href="../reports/report-cja-manage.md#cja-template">documentación detallada</a>.</p>
+<p> La funcionalidad <b>Template</b> se está implementando progresivamente por fases, con una disponibilidad general completa planificada para finales de enero</p>
+</tr>
+</tbody>
+</table>
 
 ## Versión de octubre de 2024 {#24-10-rn}
 
