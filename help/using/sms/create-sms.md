@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1042'
+ht-degree: 9%
 
 ---
 
@@ -111,7 +111,7 @@ Para configurar el contenido del SMS, siga los pasos a continuación. La configu
 
    Tenga en cuenta que para utilizar la función de acortamiento de URL, primero debe configurar un subdominio que luego se vinculará a la configuración. [Más información](sms-subdomains.md)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    > Para acceder y editar subdominios SMS, debe tener el permiso **[!UICONTROL Administrar subdominios SMS]** en la zona protegida de producción. Puede obtener más información sobre permisos en [esta sección](../administration/high-low-permissions.md).
 
@@ -123,6 +123,10 @@ Para configurar el contenido del SMS, siga los pasos a continuación. La configu
 
 1. En el campo `originalUrl`, pegue la dirección URL que desee acortar y haga clic en **[!UICONTROL Guardar]**.
 
+   >[!CAUTION]
+   >
+   > La duración de las direcciones URL cortas es de 15 días. Después de este período, ya no se podrá obtener acceso a estas direcciones URL cortas y se mostrará el mensaje: `404 short-code not found`.
+
 1. Haz clic en **[!UICONTROL Guardar]** y comprueba tu mensaje en la vista previa. Ahora puede probar y comprobar el contenido del mensaje como se detalla en [esta sección](#sms-mms-test).
 
 ## Definición del contenido de MMS{#mms-content}
@@ -131,7 +135,7 @@ Puede mejorar su comunicación enviando mensajes del Servicio de mensajes multim
 
 >[!NOTE]
 >
->* El canal MMS incluye algunas limitaciones enumeradas en [esta página](../start/guardrails.md#sms-guardrails).
+> El canal MMS incluye algunas limitaciones enumeradas en [esta página](../start/guardrails.md#sms-guardrails).
 
 Para crear contenido MMS, siga estos pasos:
 
