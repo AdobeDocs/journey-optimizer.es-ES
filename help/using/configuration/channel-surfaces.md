@@ -26,7 +26,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_marketing_action"
 >title="Acción de marketing"
->abstract="Elija las acciones de marketing para vincular las directivas de consentimiento a los mensajes con esta configuración. Todas las políticas de consentimiento conectadas a la acción de marketing se utilizan para satisfacer las preferencias de los clientes."
+>abstract="Elija las acciones de marketing para vincular las políticas de consentimiento a los mensajes con esta configuración. Todas las políticas de consentimiento conectadas a la acción de marketing se utilizan para satisfacer las preferencias de los clientes."
 
 Con [!DNL Journey Optimizer], puede establecer configuraciones de canal (es decir, ajustes preestablecidos de mensaje) que definan todos los parámetros técnicos necesarios para sus mensajes: tipo de correo electrónico, nombre y correo electrónico del remitente, aplicaciones móviles, configuración de SMS, etc.
 
@@ -49,7 +49,7 @@ También puede utilizar la configuración de canal guiada para automatizar y val
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Ajustes de la configuración de canal"
->abstract="Al establecer la configuración de un canal, seleccione el canal al que se aplica y defina todos los parámetros técnicos necesarios para el envío, como el tipo de correo electrónico, el nombre del remitente, las aplicaciones móviles, la configuración de SMS, etc."
+>abstract="Al establecer la configuración de canal, seleccione el canal al que se aplica y defina todos los parámetros técnicos necesarios para el envío, como el tipo de correo electrónico, el nombre del remitente, las aplicaciones móviles, la configuración de SMS, etc."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
@@ -147,7 +147,7 @@ Si se produce uno de estos errores, póngase en contacto con el servicio de aten
 
 * **Error de validación de SPF**: SPF (Marco de Política del Remitente) es un protocolo de autenticación de correo electrónico que permite especificar direcciones IP autorizadas que pueden enviar correos electrónicos desde un subdominio determinado. Un error de validación de SPF significa que las direcciones IP del registro SPF no coinciden con las direcciones IP utilizadas para enviar correos electrónicos a los proveedores de buzones de correo.
 
-* **Error de validación de DKIM**: DKIM (DomainKeys Identified Mail) permite al servidor de destinatario comprobar que el mensaje recibido fue enviado por el remitente original del dominio asociado y que el contenido del mensaje original no se alteró en su camino. Un error de validación de DKIM significa que los servidores de correo receptores no pueden verificar la autenticidad del contenido del mensaje y su asociación con el dominio de envío.:
+* **Error de validación de DKIM**: DKIM (DomainKeys Identified Mail) permite al servidor de destinatarios comprobar que el mensaje recibido fue enviado por el remitente original del dominio asociado y que el contenido del mensaje original no se alteró en su camino. Un error de validación de DKIM significa que los servidores de correo receptores no pueden comprobar la autenticidad del contenido del mensaje y su asociación con el dominio de envío.:
 
 * **Error de validación de registro MX**: El error de validación de registro MX (Mail eXchange) significa que los servidores de correo responsables de aceptar correos electrónicos entrantes en nombre de un subdominio determinado no están correctamente configurados.
 
@@ -272,7 +272,7 @@ No puede editar directamente una configuración de canal desactivada. Sin embarg
 ![](assets/preset-activate.png)
 
 
-## Vídeo explicativo{#video-presets}
+## Vídeo práctico{#video-presets}
 
 Descubra qué son las configuraciones de canales y cómo se utilizan en Adobe Journey Optimizer.
 
