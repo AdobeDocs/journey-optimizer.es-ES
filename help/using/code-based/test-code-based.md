@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 28%
+source-wordcount: '707'
+ht-degree: 25%
 
 ---
 
@@ -96,6 +96,14 @@ Al crear experiencias basadas en código para páginas web o aplicaciones móvil
      >
      >**Adobe Experience Platform Assurance** es un producto de Adobe Experience Cloud que te ayudará a inspeccionar, probar, simular y validar la forma en que recopilas datos o sirves experiencias en tu aplicación móvil. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/home){target="_blank"}
 
+1. Si está usando cualquier [otra plataforma](code-based-configuration.md#other) en su configuración basada en código, elija el [URI de superficie](code-based-surface.md#surface-uri) que desee previsualizar en la lista desplegable.
+
+   ![](assets/preview-on-device-other.png)
+
+   * Seleccione el botón **[!UICONTROL Copiar vínculo]** para pegar el vínculo en una pestaña del explorador o compártalo con su equipo y las partes interesadas.
+
+   * Si ha añadido varios URI a la configuración (hasta 10), puede seleccionar cualquiera de ellos para previsualizarlos.
+
 1. Se generan vínculos de vista previa para el perfil de prueba seleccionado y, si usa [Experimento de contenido](../content-management/content-experiment.md) en su recorrido o campaña, para el tratamiento seleccionado.
 
    <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
@@ -104,6 +112,4 @@ Al crear experiencias basadas en código para páginas web o aplicaciones móvil
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   >[!TIP]
-   >
-   >Al actualizar el contenido o seleccionar un perfil de prueba o un tratamiento diferentes, el vínculo de vista previa se actualiza automáticamente. Puede copiar el vínculo en diferentes pestañas del explorador y comparar las experiencias.
+   Al actualizar el contenido o seleccionar un perfil de prueba o un tratamiento diferentes, el vínculo de vista previa se actualiza automáticamente. Puede copiar el vínculo en diferentes pestañas del explorador y comparar las experiencias.
