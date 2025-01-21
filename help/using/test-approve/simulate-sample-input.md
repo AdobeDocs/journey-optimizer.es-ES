@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Beta"
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: e6e7890d2ff1fc91155da14e1e6c1cde01f25447
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 9%
+source-wordcount: '933'
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 9%
 >
 >Actualmente, esta función está disponible para todos los clientes como una versión beta pública.
 
-Recorrido Optimizer le permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV o JSON o añadidos manualmente. El sistema detecta automáticamente todos los atributos de perfiles utilizados en el contenido para la personalización y los puede utilizar en las pruebas para crear varias variantes.
+Recorrido Optimizer le permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV o JSON o añadidos manualmente. El sistema detecta automáticamente todos los atributos de perfiles utilizados en el contenido para la personalización y los puede utilizar en las pruebas para crear varias variantes. Una variante hace referencia a una versión del contenido con valores diferentes para sus atributos.
 
 >[!NOTE]
 >
@@ -66,13 +66,29 @@ Puede añadir hasta 30 variantes para probar el contenido, ya sea mediante un ar
 Para añadir una variante desde un archivo, siga estos pasos:
 
 1. Haga clic en el vínculo **[!UICONTROL descargar ejemplo]** para recuperar una plantilla de archivo y, a continuación, elija el formato de archivo que desee utilizar (CSV, JSON o JSONLINES).
-
 1. Haz clic en **[!UICONTROL Descargar]** y luego almacena la plantilla en la ubicación deseada.
-
 1. Abra el archivo y rellene la plantilla para adaptarla a sus necesidades. La plantilla incluye una columna para cada atributo de perfil utilizado en el contenido para la personalización.
 
-1. Cuando el archivo esté listo, haga clic en **[!UICONTROL Cargar datos de entrada]** para cargarlo y probar el contenido.
+   +++Ejemplo de archivo
 
+   ```
+   {
+   "profile": {
+       "attributes": {
+       "person": {
+           "name": {
+               "lastName": "Doe",
+               "firstName": "John"
+               }
+           }
+       }
+   }
+   }
+   ```
+
++++
+
+1. Cuando el archivo esté listo, haga clic en **[!UICONTROL Cargar datos de entrada]** para cargarlo y probar el contenido.
 1. Una vez cargado el archivo, se agrega una casilla en el panel izquierdo para cada línea del archivo. Cada cuadro contiene todos los atributos de perfil utilizados en el contenido para la personalización. Ahora puede usar las variantes para usarlas para obtener una vista previa del contenido en el panel derecho y enviar pruebas.
 
    ![](assets/simulate-custom-variants.png)
@@ -95,9 +111,13 @@ Para añadir una variante manualmente, siga estos pasos:
 
 Para obtener una vista previa del contenido mediante una de las variantes, seleccione el cuadro correspondiente para actualizar la vista previa del contenido en la sección derecha con la información introducida para esta variante.
 
-Puede quitar una variante en cualquier momento con el botón de los tres puntos de la esquina superior derecha y seleccionando **[!UICONTROL Quitar]**. Para editar la información de una variante, haga clic en el botón de puntos suspensivos y seleccione **[!UICONTROL Editar]**.
+En el ejemplo siguiente, se han añadido dos variantes para la línea de asunto del correo electrónico:
 
-![](assets/simulate-custom-boxes.png)
+| Selección de variante 1 | Selección de variante 2 |
+|----------|-------------|
+| ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
+
+Puede quitar una variante en cualquier momento con el botón de los tres puntos de la esquina superior derecha y seleccionando **[!UICONTROL Quitar]**. Para editar la información de una variante, haga clic en el botón de puntos suspensivos y seleccione **[!UICONTROL Editar]**.
 
 ## Envío de pruebas {#proofs}
 
