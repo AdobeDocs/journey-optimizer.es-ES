@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: bab4cd8065830e36fd6188d3ebf0bd62a63947f3
+source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '744'
 ht-degree: 4%
 
 ---
@@ -102,13 +102,14 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 | Propiedad | Descripción | Ejemplo |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | El valor es una matriz que contiene el identificador único de la audiencia. Solo puede contener un valor. | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:activityId` | El identificador único de la decisión. |
 | `xdm:dataSetId` | Conjunto de datos de salida en el que se pueden escribir los eventos de decisión. | `6196b4a1a63bd118dafe093c` |
-| `xdm:propositionRequests` | Un contenedor que contiene `placementId` y `activityId` |  |
-| `xdm:activityId` | El identificador único de la decisión. | `xcore:offer-activity:1410cdcda196707b` |
-| `xdm:placementId` | El identificador de ubicación único. | `xcore:offer-placement:1410c4117306488a` |
-| `xdm:itemCount` | Es un campo opcional que muestra el número de elementos, como las opciones solicitadas para el ámbito de toma de decisiones. De forma predeterminada, la API devuelve una opción por ámbito, pero puede solicitar explícitamente más opciones especificando este campo. Se pueden solicitar un mínimo de 1 y un máximo de 30 opciones por ámbito. | `1` |
+| `xdm:enrichedAudience` | Añada este parámetro y configúrelo como &quot;true&quot; si va a enviar un mensaje a una audiencia CSV | `true` |
 | `xdm:includeContent` | Este es un campo opcional y es `false` de manera predeterminada. Si `true`, el contenido de la oferta se incluye en los eventos de decisión del conjunto de datos. | `false` |
+| `xdm:itemCount` | Es un campo opcional que muestra el número de elementos, como las opciones solicitadas para el ámbito de toma de decisiones. De forma predeterminada, la API devuelve una opción por ámbito, pero puede solicitar explícitamente más opciones especificando este campo. Se pueden solicitar un mínimo de 1 y un máximo de 30 opciones por ámbito. | `1` | `xcore:offer-activity:1410cdcda196707b` |
+| `xdm:placementId` | El identificador de ubicación único. | `xcore:offer-placement:1410c4117306488a` |
+| `xdm:propositionRequests` | Un contenedor que contiene `placementId` y `activityId` |
+| `xdm:segmentIds` | El valor es una matriz que contiene el identificador único de la audiencia. Solo puede contener un valor. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
 Consulte la [documentación de Administración de decisiones](../../get-started/starting-offer-decisioning.md) para obtener una descripción general de los conceptos y propiedades principales.
 
