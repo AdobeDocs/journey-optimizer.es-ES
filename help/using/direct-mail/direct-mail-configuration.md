@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1411'
 ht-degree: 21%
 
 ---
@@ -124,6 +124,10 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
    ![](assets/file-routing-config-sftp-detail.png)
 
+   >[!NOTE]
+   >
+   >Para especificar una ruta en el servidor para guardar el archivo, actualice el campo **[!UICONTROL Nombre de archivo]** de la campaña de correo postal para incluir la ruta deseada. [Más información](create-direct-mail.md#extraction-file)
+
 1. Para cifrar el archivo, copie y pegue la clave de cifrado en el campo **[!UICONTROL Clave de cifrado PGP/GPG]**.
 
 1. Seleccione **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se creó con el estado **[!UICONTROL Activo]**. Ahora está listo para usarse en una [configuración de correo directo](#direct-mail-surface).
@@ -152,7 +156,7 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
    * **Nombre de contenedor**: Para encontrar su **Nombre de contenedor**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
 
-     **Nombre de contenedor** debe contener solamente el nombre del contenedor sin barras oblicuas. Para especificar una ruta de acceso dentro del contenedor para guardar el archivo, actualice el nombre de archivo de la campaña de correo directo para incluir la ruta de acceso deseada.
+     **Nombre de contenedor** debe contener solamente el nombre del contenedor sin barras oblicuas. Para especificar una ruta de acceso dentro del contenedor para guardar el archivo, actualice el campo **[!UICONTROL Nombre de archivo]** de la campaña de correo postal para incluir la ruta de acceso deseada. [Más información](create-direct-mail.md#extraction-file)
 
 1. Para cifrar el archivo, copie y pegue la clave de cifrado en el campo **[!UICONTROL Clave de cifrado PGP/GPG]**.
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 16%
+source-wordcount: '747'
+ht-degree: 18%
 
 ---
 
@@ -75,23 +75,17 @@ Ahora puede empezar a configurar el archivo de extracción para enviarlo a su pr
 >title="Formato del archivo de extracción"
 >abstract="Para cada campo, especifique una etiqueta y la información que desea mostrar con el editor de personalización. <br/><br/> La opción <b>Ordenar por</b> permite utilizar el campo seleccionado para ordenar las columnas del archivo de extracción."
 
-1. Configure las columnas y la información que desea mostrar en el archivo de extracción:
-
-   1. Haga clic en el botón **[!UICONTROL Agregar]** para crear una columna nueva.
-
-   1. El panel **[!UICONTROL Formato]** se muestra en el lado derecho, lo que le permite configurar la columna seleccionada. Especifique una **[!UICONTROL Etiqueta]** para la columna.
-
-   1. En el campo **[!UICONTROL Datos]**, seleccione los atributos de perfil que desea mostrar con el [editor de personalización](../personalization/personalization-build-expressions.md).
-
-   1. Para ordenar el archivo de extracción mediante una columna, seleccione la columna y active la opción **[!UICONTROL Ordenar por]**. El icono **[!UICONTROL Ordenar por]** aparece junto a la etiqueta de la columna en la sección **[!UICONTROL Campos de datos]**.
-
 Los proveedores de correo postal requieren el archivo de extracción para enviar correo a sus clientes. Para definir la configuración del archivo de extracción, siga estos pasos:
 
 1. En la pantalla de configuración de la campaña, haga clic en el botón **[!UICONTROL Editar contenido]** para configurar el contenido del archivo de extracción.
 
 1. Ajuste las propiedades del archivo de extracción:
 
-   1. Especifique el **[!UICONTROL Nombre de archivo]** que desee para el archivo de extracción.
+   1. En el campo **[!UICONTROL Nombre de archivo]**, especifique un nombre para el archivo de extracción.
+
+      >[!NOTE]
+      >
+      >De forma predeterminada, el archivo se escribe en el directorio raíz. El campo **[!UICONTROL Filename]** acepta el formato &quot;/your/path/here/Filename.csv&quot;, donde la ruta especificada es el directorio de destino en el servidor seleccionado. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. De manera opcional, habilite la opción **[!UICONTROL Anexar marca de tiempo para exportar el nombre de archivo]** si desea agregar una marca de tiempo automática al nombre de archivo especificado.
 
@@ -116,3 +110,4 @@ Los proveedores de correo postal requieren el archivo de extracción para enviar
       Para cambiar la posición de una columna, arrástrela y suéltela en la ubicación deseada en la sección **[!UICONTROL Campo de datos]**. Para eliminar una columna, selecciónela y haga clic en el botón **[!UICONTROL Quitar]** en el panel **[!UICONTROL Formato]**.
 
 Ahora puede probar el mensaje de correo postal y enviarlo a su audiencia. [Aprenda a probar y enviar mensajes de correo postal](test-send-direct-mail.md)
+
