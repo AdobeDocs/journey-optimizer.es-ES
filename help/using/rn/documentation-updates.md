@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1365e84642d08d2e196f350530a39eaf93cdcb5f
+source-git-commit: 2258a305f1d3b477b728ce50b882ac226f3e4342
 workflow-type: tm+mt
 source-wordcount: '5888'
 ht-degree: 97%
@@ -27,7 +27,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 * La sección **Parámetros de encabezado** se ha actualizado para reflejar las nuevas etiquetas y los cambios en la interfaz de usuario. [Más información](../email/email-settings.md#email-header)
 
-* La sección **Reenviar correo electrónico** se ha actualizado para especificar que todos los correos electrónicos enviados a la dirección de correo electrónico **De correo electrónico** se reenvíen a la dirección de correo electrónico de reenvío. Si no se especifica ningún correo electrónico de reenvío, estos correos electrónicos se descartan. [Más información](../email/email-settings.md##forward-email)
+* La sección **Reenviar correo electrónico** se ha actualizado para especificar que todos los correos electrónicos enviados a la dirección de correo electrónico **De correo electrónico** se reenvíen a la dirección de correo electrónico de reenvío. Si no se especifica ningún correo electrónico de reenvío, estos correos electrónicos se descartan. [Más información](../email/email-settings.md#forward-email)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
