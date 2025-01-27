@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 397bc830f1f4991d19142c6eccf68e929a4ac0ea
+source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2801'
 ht-degree: 9%
 
 ---
@@ -83,12 +83,12 @@ Una vez seleccionado un grupo de IP, la información de PTR se ve al pasar el ra
 
 ## Cancelar suscripción a lista{#list-unsubscribe}
 
-<!--Do not modify - Legal Review Done -->
-
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="Añadir una URL de cancelación de suscripción al encabezado del correo electrónico"
+>title="Introducir puntos finales personalizados de cancelación de suscripción a una lista"
 >abstract="Si está administrando el consentimiento fuera del Adobe, seleccione la opción **Administrado por el cliente** para escribir una dirección de correo electrónico de cancelación de suscripción personalizada y su propia URL de cancelación de suscripción con un solo clic. En este caso, tenga en cuenta que el Adobe no almacena información de cancelación de suscripción. El propietario de la información de consentimiento de los clientes es responsable de administrar los datos de consentimiento y de devolverlos a Journey Optimizer."
+
+<!--Do not modify - Legal Review Done -->
 
 Al [seleccionar un subdominio](#subdomains-and-ip-pools) de la lista, se muestra la opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]**.
 
@@ -123,13 +123,13 @@ El encabezado Cancelar la suscripción a una lista ofrece dos funciones, que est
 
 La característica **[!UICONTROL Mailto (cancelar la suscripción)]** y la característica **[!UICONTROL URL para cancelar la suscripción con un solo clic]** son opcionales.
 
-Si no desea utilizar la URL de cancelación de suscripción generada de un solo clic predeterminada, puede desactivar la función. En el escenario donde la opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]** está activada y la función **[!UICONTROL Cancelar la suscripción a una URL]** con un solo clic está desactivada, si agrega un vínculo de exclusión de [un clic](../privacy/opt-out.md#one-click-opt-out) a un mensaje creado con esta configuración, el encabezado Cancelación de suscripción a una lista recoge el vínculo de no participación de un clic que ha insertado en el cuerpo del correo electrónico y lo utiliza como valor de URL de cancelación de suscripción de un clic.
+Si no desea utilizar la URL de cancelación de suscripción generada de un solo clic predeterminada, puede desactivar la función. En el escenario donde la opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]** está activada y la función **[!UICONTROL Cancelar la suscripción a una URL]** con un solo clic está desactivada, si agrega un vínculo de exclusión de [un clic](../email/email-opt-out.md#one-click-opt-out) a un mensaje creado con esta configuración, el encabezado Cancelación de suscripción a una lista recoge el vínculo de no participación de un clic que ha insertado en el cuerpo del correo electrónico y lo utiliza como valor de URL de cancelación de suscripción de un clic.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Si no agrega un vínculo de no participación de un clic al contenido del mensaje y la URL predeterminada de cancelación de suscripción de un clic no está marcada en la configuración de canal, no se pasa ninguna URL al encabezado de correo electrónico como parte del encabezado de cancelación de suscripción de lista.
+>Si no agrega un vínculo de no participación de un clic al contenido del mensaje y la opción predeterminada **[!UICONTROL Anular la suscripción con un clic]** no está marcada en la configuración de canal, no se pasa ninguna dirección URL al encabezado del correo electrónico como parte del encabezado Cancelar la suscripción a la lista.
 
 Obtenga más información sobre cómo administrar las capacidades de cancelación de suscripción en sus mensajes en [esta sección](../email/email-opt-out.md#unsubscribe-header).
 
