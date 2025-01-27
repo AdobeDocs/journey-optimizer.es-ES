@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
+source-git-commit: dfe59dc0533fca394ee197193ad4558568c4c11c
 workflow-type: tm+mt
-source-wordcount: '2801'
+source-wordcount: '2854'
 ht-degree: 9%
 
 ---
@@ -144,16 +144,19 @@ En la sección **[!UICONTROL Parámetros de encabezado]**, escriba los nombres d
 >Para un mayor control sobre la configuración del correo electrónico, puede personalizar los parámetros del encabezado. [Más información](../email/surface-personalization.md#personalize-header)
 
 * **[!UICONTROL Nombre del remitente]**: El nombre del remitente, como el nombre de su marca.
-* **[!UICONTROL Correo electrónico del remitente]**: La dirección de correo electrónico que desea usar para sus comunicaciones.
-* **[!UICONTROL Responder a (nombre)]**: El nombre que se usará cuando el destinatario haga clic en el botón **Responder** en el software de cliente de correo electrónico.
-* **[!UICONTROL Responder a (correo electrónico)]**: La dirección de correo electrónico que se usará cuando el destinatario haga clic en el botón **Responder** en el software de cliente de correo electrónico. [Más información](#reply-to-email)
-* **[!UICONTROL Correo electrónico de error]**: todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección. Las notificaciones fuera de la oficina y las respuestas a las preguntas y respuestas de desafío también se reciben en esta dirección.
+* **[!UICONTROL Prefijo del correo electrónico de origen]**: La dirección de correo electrónico que desea usar para sus comunicaciones.
+* **[!UICONTROL Responder al nombre]**: El nombre que se usará cuando el destinatario haga clic en el botón **Responder** en el software de cliente de correo electrónico.
+* **[!UICONTROL Responder al correo electrónico]**: La dirección de correo electrónico que se usará cuando el destinatario haga clic en el botón **Responder** en el software de cliente de correo electrónico. [Más información](#reply-to-email)
+* **[!UICONTROL Prefijo de correo electrónico de error]**: todos los errores generados por los ISP después de unos días de envío del correo (devoluciones asincrónicas) se reciben en esta dirección. Las notificaciones fuera de la oficina y las respuestas a las preguntas y respuestas de desafío también se reciben en esta dirección.
 
   Si desea recibir notificaciones fuera de la oficina y respuestas de desafío en una dirección de correo electrónico específica que no se ha delegado al Adobe, debe configurar un [proceso de reenvío](#forward-email). En ese caso, asegúrese de tener una solución manual o automatizada para procesar los correos electrónicos que llegan a esta bandeja de entrada.
 
->[!CAUTION]
+>[!NOTE]
 >
->Las direcciones de **[!UICONTROL correo electrónico del remitente]** y **[!UICONTROL correo electrónico con error]** deben usar el [subdominio delegado seleccionado actualmente](../configuration/about-subdomain-delegation.md). Por ejemplo, si el subdominio delegado es *marketing.luma.com*, puede usar *contact@marketing.luma.com* y *error@marketing.luma.com*.
+>Las direcciones **[!UICONTROL Del prefijo de correo electrónico]** y **[!UICONTROL Error de prefijo de correo electrónico]** utilizan el [subdominio delegado](../configuration/about-subdomain-delegation.md) seleccionado actualmente para enviar el correo electrónico. Por ejemplo, si el subdominio delegado es *marketing.luma.com*:
+>* Escriba *contact* como **[!UICONTROL Prefijo del correo electrónico de origen]**; el correo electrónico del remitente es *contact@marketing.luma.com*.
+>* Escriba *error* como **[!UICONTROL prefijo del correo electrónico con errores]**; la dirección de error es *error@marketing.luma.com*.
+
 
 ![](assets/preset-header.png){width="80%"}
 
@@ -163,9 +166,9 @@ En la sección **[!UICONTROL Parámetros de encabezado]**, escriba los nombres d
 
 ### Responder al correo electrónico {#reply-to-email}
 
-Al definir la dirección **[!UICONTROL Responder a (correo electrónico)]**, puede especificar cualquier dirección de correo electrónico siempre que sea válida, tenga el formato correcto y no contenga errores tipográficos.
+Al definir la dirección **[!UICONTROL Responder al correo electrónico]**, puede especificar cualquier dirección de correo electrónico siempre que sea válida, tenga el formato correcto y no contenga errores tipográficos.
 
-La bandeja de entrada utilizada para las respuestas recibirá todos los correos electrónicos de respuesta, excepto las notificaciones de Fuera de la oficina y las respuestas de desafío, que se reciben en la dirección de **[!UICONTROL correo electrónico con errores]**.
+La bandeja de entrada utilizada para las respuestas recibirá todos los correos electrónicos de respuesta, excepto las notificaciones de Fuera de la oficina y las respuestas de desafío, que se reciben en la dirección de **correo electrónico con errores**.
 
 Para garantizar una administración de respuestas adecuada, siga las recomendaciones siguientes:
 
@@ -175,7 +178,7 @@ Para garantizar una administración de respuestas adecuada, siga las recomendaci
 
 * No marque los mensajes como correo no deseado en la bandeja de entrada de respuestas, ya que afectará a todas las demás respuestas enviadas a esta dirección.
 
-Además, al definir la dirección **[!UICONTROL Responder a (correo electrónico)]**, asegúrese de utilizar un subdominio que tenga una configuración de registro MX válida; de lo contrario, se producirá un error durante el procesamiento de la configuración de correo electrónico.
+Además, al definir la dirección **[!UICONTROL Responder al correo electrónico]**, asegúrese de utilizar un subdominio que tenga una configuración de registro MX válida; de lo contrario, no se podrá procesar la configuración de correo electrónico.
 
 Si se produce un error al enviar la configuración de correo electrónico, significa que el registro MX no está configurado para el subdominio de la dirección que ha introducido. Póngase en contacto con el administrador para configurar el registro MX correspondiente o use otra dirección con una configuración de registro MX válida.
 
@@ -189,7 +192,7 @@ Para reenviar a una dirección de correo electrónico específica todos los mens
 
 >[!NOTE]
 >
->Si el subdominio usado para la dirección **[!UICONTROL Responder a (correo electrónico)]** no se delega al Adobe, el reenvío no funcionará para esta dirección.
+>Si el subdominio usado para la dirección **[!UICONTROL Responder al correo electrónico]** no se ha delegado al Adobe, el reenvío no funcionará para esta dirección.
 
 Debe proporcionar lo siguiente:
 
@@ -204,7 +207,11 @@ Debe proporcionar lo siguiente:
 
 La dirección de correo electrónico de reenvío se configura por Adobe. Esto puede tardar de 3 a 4 días.
 
-Una vez finalizado, todos los mensajes recibidos en las direcciones de **[!UICONTROL Responder a (correo electrónico)]** y **[!UICONTROL Correo electrónico con errores]** se reenviarán a la dirección de correo electrónico específica que haya proporcionado.
+Una vez finalizado, todos los mensajes recibidos en las direcciones de **[!UICONTROL Responder al correo electrónico]** y **Correo electrónico con errores**, así como todos los mensajes enviados a la dirección de correo electrónico **De correo electrónico**, se reenviarán a la dirección de correo electrónico específica que haya proporcionado.
+
+>[!NOTE]
+>
+>De forma predeterminada, si el reenvío no está habilitado, se descartarán los mensajes de correo electrónico enviados directamente a la dirección **De correo electrónico**.
 
 ## Correo electrónico CCO {#bcc-email}
 
