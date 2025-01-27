@@ -8,16 +8,28 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d0419710c12bd7726bc161069b9c2ebff986826a
-workflow-type: ht
-source-wordcount: '5767'
-ht-degree: 100%
+source-git-commit: 1365e84642d08d2e196f350530a39eaf93cdcb5f
+workflow-type: tm+mt
+source-wordcount: '5888'
+ht-degree: 97%
 
 ---
 
 # Actualizaciones de la documentación {#latest-updates}
 
 Esta página enumera todas las últimas actualizaciones de la documentación de [!DNL Journey Optimizer].
+
+## Enero de 2025 {#jan-2025}
+
+* Se ha agregado una nueva sección sobre la opción **[!UICONTROL Dirección de ejecución]** en la configuración del correo electrónico. La dirección principal se define en el nivel de zona protegida, pero la configuración predeterminada se puede sobrescribir para una configuración de correo electrónico específica. [Más información](../email/email-settings.md#execution-address)
+
+* La página **Introducción a la entrega** se ha actualizado con la posibilidad de crear flujos de trabajo de calentamiento de IP directamente desde la interfaz de usuario. [Más información](../reports/deliverability.md#reputation)
+
+* La sección **Parámetros de encabezado** se ha actualizado para reflejar las nuevas etiquetas y los cambios en la interfaz de usuario. [Más información](../email/email-settings.md#email-header)
+
+* La sección **Reenviar correo electrónico** se ha actualizado para especificar que todos los correos electrónicos enviados a la dirección de correo electrónico **De correo electrónico** se reenvíen a la dirección de correo electrónico de reenvío. Si no se especifica ningún correo electrónico de reenvío, estos correos electrónicos se descartan. [Más información](../email/email-settings.md##forward-email)
+
+<!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
 ## Diciembre de 2024 {#nov-2024}
 
@@ -30,7 +42,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Se ha mejorado la página **Configurar la experiencia basada en código** para que el proceso sea más claro, incluida la sección que explica qué es un URI de superficie. [Más información](../code-based/code-based-configuration.md)
 * La página **Crear configuración de canal web** se ha actualizado para aclarar los pasos al crear una regla de coincidencia de páginas, que también se aplican a la configuración de experiencias basadas en código. [Más información](../web/web-configuration.md#web-page-matching-rule)
 * Se ha añadido una nota sobre el próximo mecanismo de protección del tiempo de vida (TTL) para los conjuntos de datos generados por el sistema. [Más información](../data/get-started-datasets.md)
-* Se ha añadido una nueva sección para describir cómo obtener una vista previa de las experiencias personalizadas basadas en código directamente en el explorador o en los dispositivos móviles, mediante la opción Vista previa en el dispositivo al simular contenido en un recorrido o una campaña. [Más información](../code-based/test-code-based.md#preview-on-device)
+* Se ha agregado una nueva sección para describir cómo obtener una vista previa de las experiencias personalizadas basadas en código directamente en el explorador o en los dispositivos móviles, utilizando la opción **Vista previa en el dispositivo** al simular contenido en un recorrido o una campaña. [Más información](../code-based/test-code-based.md#preview-on-device)
 * Se ha añadido una nueva página sobre cómo aprovechar los públicos de carga personalizados para la toma de decisiones. [Más información](../offers/custom-upload-decisioning.md)
 * Se ha añadido una nueva página para introducir las funciones de decisión disponibles en Journey Optimizer. [Más información](../experience-decisioning/gs-decision.md)
 * Se han añadido mecanismos de protección y limitaciones a la documentación sobre la toma de decisiones. [Más información](../experience-decisioning/gs-experience-decisioning.md#guardrails)
