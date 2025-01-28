@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
+source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 25%
+source-wordcount: '1062'
+ht-degree: 11%
 
 ---
 
@@ -35,10 +35,12 @@ También puede elegir mostrar todos los fragmentos o solo los elementos que el u
 
 Desde el botón **[!UICONTROL Más acciones]** situado junto a cada fragmento, puede:
 
-* Duplique un fragmento.
+<!--* Add to package
+* Open draft version-->
+* Duplique el fragmento.
 * Use la opción **[!UICONTROL Explorar referencias]** para ver los recorridos, campañas o plantillas donde se usa. [Más información](#explore-references)
-* Archivar un fragmento. [Más información](#archive-fragments)
-* Editar las etiquetas de un fragmento [Aprenda a trabajar con etiquetas unificadas](../start/search-filter-categorize.md#tags).
+* Archivar el fragmento. [Más información](#archive-fragments)
+* Edite las etiquetas del fragmento. [Aprenda a trabajar con etiquetas unificadas](../start/search-filter-categorize.md#tags)
 
 ![](assets/fragment-list-more-actions.png)
 
@@ -47,7 +49,7 @@ Desde el botón **[!UICONTROL Más acciones]** situado junto a cada fragmento, p
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nuevos estados de fragmentos"
->abstract="Al haberse introducido los estados “**Activo**” y “**Borrador**” con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado “Borrador”, incluso si se utilizan en un recorrido o una campaña. Si realiza cualquier cambio en estos fragmentos, debe publicarlos para que tengan el estado “Activo” y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. <br/>La publicación requiere el permiso de usuario para <a href="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Publicar fragmento</a>."
+>abstract="Desde que se introdujeron los estados **Draft** y **Live** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado **Draft**, incluso si se utilizan en un recorrido o una campaña. Si realiza cambios en estos fragmentos, debe publicarlos para que se **activen** y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. <br/>La publicación requiere el permiso de usuario para <a href="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Publicar fragmento</a>."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Más información sobre los permisos de fragmentos de contenido"
 
 Los fragmentos pueden tener varios estados:
@@ -63,7 +65,7 @@ Los fragmentos pueden tener varios estados:
 
 >[!CAUTION]
 >
->Al haberse introducido los estados “**Activo**” y “**Borrador**” con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado “Borrador”, incluso si se utilizan en un recorrido o una campaña. Si realiza cualquier cambio en estos fragmentos, debe publicarlos para que tengan el estado “Activo” y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere el permiso de usuario [Fragmento de Publish](../administration/ootb-product-profiles.md#content-library-manager).
+>Desde que se introdujeron los estados **Draft** y **Live** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado **Draft**, incluso si se utilizan en un recorrido o una campaña. Si realiza cambios en estos fragmentos, debe publicarlos para que se **activen** y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere el permiso de usuario [Fragmento de Publish](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Editar fragmentos {#edit-fragments}
 
@@ -83,21 +85,47 @@ Para editar un fragmento, siga los pasos a continuación.
 
 1. Las propiedades del fragmento se abren con una previsualización de su contenido.
 
-1. Si el fragmento que se está editando tiene el estado **Activo**, haga clic en el botón **Modificar** para crear una versión de borrador del fragmento. La versión actual del fragmento seguirá activa hasta que publique la versión de borrador.
-
-1. Realice los cambios deseados en el fragmento. Para editar su contenido, haga clic en el botón **Editar** y, a continuación, edite el contenido como lo haría al crear un fragmento desde cero. [Aprenda a crear un fragmento](#create-from-scratch)
+1. Si el fragmento que se está editando tiene el estado **[!UICONTROL Activo]**, haga clic en el botón **[!UICONTROL Modificar]** para crear una versión de borrador del fragmento.
 
    >[!NOTE]
    >
-   >Al editar un fragmento, puede eliminar cualquier campo de personalización, pero no puede añadir nuevos al contenido del fragmento. Si desea agregar campos de personalización, duplique el fragmento para crear uno nuevo.
+   >La versión actual del fragmento seguirá activa hasta que publique la versión de borrador.
 
-   También puede comprobar la lista de recorridos, campañas y plantillas de contenido donde se está utilizando el fragmento seleccionando la opción **Referencias del explorador**. [Más información](#explore-references)
+1. Realice los cambios deseados en el fragmento. Para editar su contenido, haga clic en el botón **[!UICONTROL Editar]** y actualice el contenido como lo haría al crear un fragmento desde cero. [Aprenda a crear un fragmento](#create-from-scratch)
+
+   >[!NOTE]
+   >
+   >Al editar un fragmento publicado, puede eliminar cualquier campo de personalización, pero no puede añadir nuevos al contenido del fragmento. Si desea agregar atributos personalizados, debe duplicar el fragmento. [Más información](#adding-new-attributes)
+
+1. También puede comprobar la lista de recorridos, campañas y plantillas de contenido donde se está utilizando el fragmento seleccionando la opción **Referencias del explorador**. [Más información](#explore-references)
 
    ![](assets/fragment-edit.png)
 
 1. Una vez que los cambios estén listos, haz clic en el botón **Publish** para activar las modificaciones.
 
-Al editar un fragmento, los cambios se propagan automáticamente a todo el contenido mediante ese fragmento, incluidos los recorridos activos y las campañas, excepto en el contenido en el que se ha roto la herencia del fragmento original. Aprenda a romper la herencia en las secciones [Agregar fragmentos visuales a los correos electrónicos](../email/use-visual-fragments.md#break-inheritance) y [Aprovechar fragmentos de expresiones](../personalization/use-expression-fragments.md#break-inheritance).
+Al editar un fragmento, los cambios se propagan automáticamente a todo el contenido mediante ese fragmento, incluidos los recorridos activos y las campañas, excepto en el caso del contenido en el que se ha roto la herencia del fragmento original.
+
+>[!NOTE]
+>
+>Aprenda a romper la herencia en las secciones [Agregar fragmentos visuales a los correos electrónicos](../email/use-visual-fragments.md#break-inheritance) y [Aprovechar fragmentos de expresiones](../personalization/use-expression-fragments.md#break-inheritance).
+
+## Adición de nuevos atributos a un fragmento activo {#adding-new-attributes}
+
+>[!WARNING]
+>
+>No se admite la adición de nuevos atributos a un fragmento activo.
+
+Una vez publicado un fragmento, el conjunto de atributos personalizados o contextuales se bloquea para todas las campañas y recorridos que hacen referencia a él.
+
+Para incorporar atributos adicionales a un fragmento activo, siga los pasos a continuación.
+
+1. Duplique el fragmento existente.
+
+1. Agregue los atributos necesarios a la versión de borrador duplicada.
+
+1. Publish la nueva versión.
+
+1. Actualice cualquier campaña o recorrido para hacer referencia al fragmento actualizado en el que se agregaron los nuevos atributos.
 
 ## Explorar referencias {#explore-references}
 

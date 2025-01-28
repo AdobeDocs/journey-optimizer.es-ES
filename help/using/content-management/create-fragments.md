@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 14%
 
 Los fragmentos se pueden crear desde cero desde el menú de la izquierda **[!UICONTROL Fragmentos]**. Además, también puede guardar una parte del contenido existente como fragmento al diseñar contenido. [Descubra cómo](#save-as-fragment)
 
-Una vez guardado, el fragmento está disponible para utilizarlo en un recorrido, una campaña o una plantilla. Puede utilizar este fragmento al crear contenido dentro de recorridos y campañas. Ver [Agregar fragmentos visuales](../email/use-visual-fragments.md) y [Aprovechar fragmentos de expresiones](../personalization/use-expression-fragments.md)
+Una vez guardado, el fragmento está disponible para utilizarlo en un recorrido, una campaña o una plantilla. Puede utilizar este fragmento al crear contenido dentro de recorridos y campañas. Ver [Agregar fragmentos visuales](../email/use-visual-fragments.md) y [Aprovechar fragmentos de expresiones](../personalization/use-expression-fragments.md).
 
 Para crear un fragmento, siga los pasos a continuación.
 
@@ -49,7 +49,7 @@ Para crear un fragmento, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Por ahora, los fragmentos visuales solo están disponibles para el canal **Email**.
+   >Actualmente, los fragmentos visuales solo están disponibles para el canal **Email**.
 
 1. Si está creando un fragmento de expresión, seleccione el tipo de código que desea utilizar: **[!UICONTROL HTML]**, **[!UICONTROL JSON]** o **[!UICONTROL Texto]**.
 
@@ -71,7 +71,7 @@ Después de configurar las propiedades del fragmento, se abre Email Designer o e
 
   ![](assets/fragment-expression-editor.png)
 
-Cuando el contenido esté listo, haz clic en el botón **Guardar**. El fragmento se creará y se agregará a la lista de fragmentos con el estado **Borrador**. Puede previsualizarlo y publicarlo para que esté disponible en recorridos y campañas.
+Cuando el contenido esté listo, haz clic en el botón **[!UICONTROL Guardar]**. El fragmento se creará y se agregará a la lista de fragmentos con el estado **[!UICONTROL Borrador]**. Puede previsualizarlo y publicarlo para que esté disponible en recorridos y campañas.
 
 ## Previsualización y publicación del fragmento {#publish}
 
@@ -79,23 +79,23 @@ Cuando el contenido esté listo, haz clic en el botón **Guardar**. El fragmento
 >
 >Para publicar un fragmento, debe tener el permiso de usuario [Fragmento de Publish](../administration/ootb-product-profiles.md#content-library-manager).
 
-Si el fragmento está listo para su publicación, puede previsualizarlo y publicarlo para que esté disponible en sus recorridos y campañas. Para ello, siga estos pasos:
+Si el fragmento está listo para su publicación, puede previsualizarlo y publicarlo para que esté disponible en sus recorridos y campañas. Para ello, siga los pasos que aparecen a continuación.
 
 1. Vuelva a la pantalla de creación de fragmentos después de diseñar su contenido o ábralo desde la lista de fragmentos.
 
-1. Hay una vista previa del fragmento disponible en el campo **Etiquetas**, lo que permite comprobar su renderización. Si necesita realizar algún cambio, haga clic en el botón **Editar** en la sección superior de la pantalla para abrir el Designer de correo electrónico o el editor de personalización en función del tipo de fragmento.
+1. Hay una vista previa del fragmento disponible en el campo **[!UICONTROL Etiquetas]**, lo que permite comprobar su renderización. Si necesita realizar algún cambio, haga clic en el botón **[!UICONTROL Editar]** en la sección superior de la pantalla para abrir el Designer de correo electrónico o el editor de personalización en función del tipo de fragmento.
 
    ![](assets/fragment-preview.png)
 
-1. Haga clic en el botón **Publish** en la esquina superior derecha para publicar el fragmento.
+1. Haga clic en el botón **[!UICONTROL Publish]** en la esquina superior derecha para publicar el fragmento.
 
-   Si el fragmento se está utilizando en un recorrido o campaña en directo, se abre un mensaje para informarle. Haga clic en el vínculo **Ver más** para obtener acceso a la lista de recorridos o campañas a los que se hace referencia. [Aprenda a explorar referencias de un fragmento](../content-management/manage-fragments.md#explore-references)
-
-   Haga clic en **Confirmar** para publicar el fragmento y actualizarlo en las campañas o recorridos activos que lo estén utilizando.
+1. Si el fragmento se está utilizando en un recorrido activo o en una campaña, se abre un mensaje para informarle. Haga clic en el vínculo **[!UICONTROL Ver más]** para obtener acceso a la lista de recorridos o campañas a los que se hace referencia. [Aprenda a explorar referencias de un fragmento](../content-management/manage-fragments.md#explore-references)
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-El fragmento ahora está **activo** y está disponible al crear contenido en el Designer de correo electrónico o editor de personalización [!DNL Journey Optimizer]:
+   Haga clic en **[!UICONTROL Confirmar]** para publicar el fragmento y actualizarlo en las campañas o recorridos activos que lo estén utilizando.
+
+El fragmento ahora está **[!UICONTROL activo]** y está disponible al crear contenido en el Designer de correo electrónico o editor de personalización [!DNL Journey Optimizer].
 
 * [Aprenda a utilizar fragmentos visuales](../email/use-visual-fragments.md)
 * [Aprenda a utilizar fragmentos de expresiones](../personalization/use-expression-fragments.md)
