@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 129863516a4b027906d1ed809148053ffd1df22e
+source-git-commit: f415209a7a62c8b7936abdb474b1b5b70c788973
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 2%
 
 ---
@@ -20,8 +20,6 @@ Con Administración de decisiones, puede crear y ofrecer experiencias de oferta 
 Puede crear y enviar ofertas realizando una solicitud de POST a la API [!DNL Decisioning].
 
 Este tutorial requiere una comprensión práctica de las API, específicamente en lo que respecta a la administración de decisiones. Para obtener más información, consulte la [Guía para desarrolladores de API de administración de decisiones](../getting-started.md). Este tutorial también requiere que tenga un ID de ubicación único y un valor de ID de decisión disponibles. Si no ha adquirido estos valores, consulte los tutoriales de [creación de una ubicación](../offers-api/placements/create.md) y [creación de una decisión](../activities-api/activities/create.md).
-
-➡️ [Descubra esta característica en vídeo](#video)
 
 ## Encabezados obligatorios {#required-headers}
 
