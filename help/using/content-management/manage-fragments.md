@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
+source-git-commit: abbc5c77545f30ac2d70d718f605acd30f7e7830
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 11%
+source-wordcount: '1075'
+ht-degree: 12%
 
 ---
 
@@ -81,27 +81,31 @@ Los fragmentos pueden tener varios estados:
 
 Para editar un fragmento, siga los pasos a continuación.
 
-1. Haga clic en el fragmento deseado de la lista **[!UICONTROL Fragmentos]**.
+1. Haga clic en el fragmento deseado de la lista **[!UICONTROL Fragmentos]**. La pantalla de propiedades del fragmento se abre con una previsualización de su contenido.
 
-1. Las propiedades del fragmento se abren con una previsualización de su contenido.
+1. Para comprobar la lista de recorridos, campañas y plantillas de contenido donde se está usando el fragmento en este momento, seleccione la opción **[!UICONTROL Explorar referencias]**. [Más información](#explore-references)
+
+   ![](assets/fragment-edit-references.png)
 
 1. Si el fragmento que se está editando tiene el estado **[!UICONTROL Activo]**, haga clic en el botón **[!UICONTROL Modificar]** para crear una versión de borrador del fragmento.
 
+   <!--![](assets/fragment-live-modify.png)-->
+
    >[!NOTE]
    >
-   >La versión actual del fragmento seguirá activa hasta que publique la versión de borrador.
+   >La versión actual del fragmento seguirá activa hasta que publique la nueva versión actualizada.
 
-1. Realice los cambios deseados en el fragmento. Para editar su contenido, haga clic en el botón **[!UICONTROL Editar]** y actualice el contenido como lo haría al crear un fragmento desde cero. [Aprenda a crear un fragmento](#create-from-scratch)
+1. Realice los cambios deseados en el fragmento.
+
+1. Para modificar el contenido, haga clic en el botón **[!UICONTROL Editar]** y actualice el contenido como lo haría al crear un fragmento desde cero. [Aprenda a crear un fragmento](#create-from-scratch)
+
+   ![](assets/fragment-edit.png)
 
    >[!NOTE]
    >
    >Al editar un fragmento publicado, puede eliminar cualquier campo de personalización, pero no puede añadir nuevos al contenido del fragmento. Si desea agregar atributos personalizados, debe duplicar el fragmento. [Más información](#adding-new-attributes)
 
-1. También puede comprobar la lista de recorridos, campañas y plantillas de contenido donde se está utilizando el fragmento seleccionando la opción **Referencias del explorador**. [Más información](#explore-references)
-
-   ![](assets/fragment-edit.png)
-
-1. Una vez que los cambios estén listos, haz clic en el botón **Publish** para activar las modificaciones.
+1. Una vez que los cambios estén listos, guárdelos y haga clic en el botón **Publish** para activar las modificaciones.
 
 Al editar un fragmento, los cambios se propagan automáticamente a todo el contenido mediante ese fragmento, incluidos los recorridos activos y las campañas, excepto en el caso del contenido en el que se ha roto la herencia del fragmento original.
 
@@ -113,17 +117,19 @@ Al editar un fragmento, los cambios se propagan automáticamente a todo el conte
 
 >[!WARNING]
 >
->No se admite la adición de nuevos atributos a un fragmento activo.
+>No se admite la adición de nuevos [atributos personalizados](../personalization/personalization-build-expressions.md) a un fragmento activo.
 
 Una vez publicado un fragmento, el conjunto de atributos personalizados o contextuales se bloquea para todas las campañas y recorridos que hacen referencia a él.
 
 Para incorporar atributos adicionales a un fragmento activo, siga los pasos a continuación.
 
-1. Duplique el fragmento existente.
+1. Duplique el fragmento existente usando el botón **[!UICONTROL Más acciones]**.
 
-1. Agregue los atributos necesarios a la versión de borrador duplicada.
+   ![](assets/fragment-list-more-actions.png)
 
-1. Publish la nueva versión.
+1. [Agregue los nuevos atributos deseados](../personalization/personalization-build-expressions.md#add) a la versión de borrador duplicada.
+
+1. Publish la nueva versión. [Descubra cómo](create-fragments.md#publish)
 
 1. Actualice cualquier campaña o recorrido para hacer referencia al fragmento actualizado en el que se agregaron los nuevos atributos.
 
