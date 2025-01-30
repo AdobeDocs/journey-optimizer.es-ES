@@ -8,14 +8,16 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 69aa2eb79ac5a86c8cc5e27951d3b4edd2a5d8bf
+source-git-commit: fd9cea04711dcf57afb0d44ade7a1643e4649b46
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1146'
 ht-degree: 11%
 
 ---
 
 # Administración de fragmentos {#manage-fragments}
+
+## Acceso a fragmentos {#access-fragments}
 
 Para administrar los fragmentos, acceda a la lista de fragmentos desde el menú de la izquierda **[!UICONTROL Administración de contenido]** > **[!UICONTROL Fragmentos]**.
 
@@ -111,7 +113,7 @@ Al editar un fragmento, los cambios se propagan automáticamente a todo el conte
 >
 >Aprenda a romper la herencia en las secciones [Agregar fragmentos visuales a los correos electrónicos](../email/use-visual-fragments.md#break-inheritance) y [Aprovechar fragmentos de expresiones](../personalization/use-expression-fragments.md#break-inheritance).
 
-## Adición de nuevos atributos a un fragmento activo {#adding-new-attributes}
+### Añadir nuevos atributos a un fragmento activo {#adding-new-attributes}
 
 >[!WARNING]
 >
