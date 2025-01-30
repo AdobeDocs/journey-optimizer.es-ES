@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 69aa2eb79ac5a86c8cc5e27951d3b4edd2a5d8bf
+source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 14%
+source-wordcount: '637'
+ht-degree: 15%
 
 ---
 
@@ -21,15 +21,13 @@ ht-degree: 14%
 >id="ajo_create_visual_fragment"
 >title="Selección del tipo visual"
 >abstract="Cree un fragmento visual independiente para que el contenido se pueda reutilizar en un correo electrónico dentro de un recorrido, una campaña o una plantilla de contenido."
-
-<!-- additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Add visual fragments to your emails"-->
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Añadir fragmentos visuales a los correos electrónicos"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="Selección del tipo de expresión"
 >abstract="Cree un fragmento de expresión independiente para que el contenido se pueda reutilizar en varios recorridos y campañas. Al utilizar el editor de personalización, puede aprovechar todos los fragmentos de expresiones que se han creado en la zona protegida actual."
-
-<!-- additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Leverage expression fragments"-->
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Aprovechamiento de fragmentos de expresiones"
 
 Los fragmentos se pueden crear desde cero desde el menú de la izquierda **[!UICONTROL Fragmentos]**. Además, también puede guardar una parte del contenido existente como fragmento al diseñar contenido. [Descubra cómo](#save-as-fragment)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 5d3fc7c818e984da414e1f0e52ccc5d4f3a20ab3
+source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 12%
+source-wordcount: '316'
+ht-degree: 13%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 12%
 >id="ajo_create_fragment"
 >title="Defina sus propios fragmentos"
 >abstract="Cree y administre fragmentos independientes para que el contenido se pueda reutilizar en varios recorridos y campañas."
-
-<!--
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Create fragments"-->
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Creación de fragmentos"
 
 Un fragmento es un componente reutilizable al que se puede hacer referencia en uno o más correos electrónicos de [!DNL Journey Optimizer] campañas y recorridos. Esta funcionalidad le permite generar varios bloques de contenido personalizados que los usuarios de marketing pueden utilizar para combinar rápidamente el contenido del correo electrónico en un proceso de diseño mejorado.
 
