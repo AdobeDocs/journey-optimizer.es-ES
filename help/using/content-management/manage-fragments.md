@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: abbc5c77545f30ac2d70d718f605acd30f7e7830
+source-git-commit: 69aa2eb79ac5a86c8cc5e27951d3b4edd2a5d8bf
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 12%
+source-wordcount: '1144'
+ht-degree: 11%
 
 ---
 
@@ -21,8 +21,6 @@ Para administrar los fragmentos, acceda a la lista de fragmentos desde el menú 
 
 Se muestran todos los fragmentos que se crearon en la zona protegida actual: [del menú **[!UICONTROL Fragmentos]**](#create-fragments), o bien utilizando la opción [Guardar como fragmento](#save-as-fragment).
 
-![](assets/fragment-list-filters.png)
-
 Puede filtrar fragmentos según sus características:
 
 * Estado (Borrador o Activo)
@@ -31,18 +29,20 @@ Puede filtrar fragmentos según sus características:
 * Estado (archivado o no)
 * Etiquetas
 
+![](assets/fragment-list-filters.png){width="90%" align="left"}
+
 También puede elegir mostrar todos los fragmentos o solo los elementos que el usuario actual ha creado o modificado.
 
 Desde el botón **[!UICONTROL Más acciones]** situado junto a cada fragmento, puede:
 
-<!--* Add to package
-* Open draft version-->
+* Añádalo a un paquete para exportarlo. [Más información](#export)
+* Si el fragmento está activo, abra una versión de borrador para editarla. [Más información](#edit-fragments)
 * Duplique el fragmento.
 * Use la opción **[!UICONTROL Explorar referencias]** para ver los recorridos, campañas o plantillas donde se usa. [Más información](#explore-references)
 * Archivar el fragmento. [Más información](#archive-fragments)
 * Edite las etiquetas del fragmento. [Aprenda a trabajar con etiquetas unificadas](../start/search-filter-categorize.md#tags)
 
-![](assets/fragment-list-more-actions.png)
+![](assets/fragment-list-more-actions.png){width="70%" align="left"}
 
 ## Estados de los fragmentos
 
@@ -67,7 +67,7 @@ Los fragmentos pueden tener varios estados:
 >
 >Desde que se introdujeron los estados **Draft** y **Live** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado **Draft**, incluso si se utilizan en un recorrido o una campaña. Si realiza cambios en estos fragmentos, debe publicarlos para que se **activen** y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere el permiso de usuario [Fragmento de Publish](../administration/ootb-product-profiles.md#content-library-manager).
 
-## Editar fragmentos {#edit-fragments}
+## Edición de un fragmento {#edit-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_campaigns"
@@ -83,29 +83,27 @@ Para editar un fragmento, siga los pasos a continuación.
 
 1. Haga clic en el fragmento deseado de la lista **[!UICONTROL Fragmentos]**. La pantalla de propiedades del fragmento se abre con una previsualización de su contenido.
 
-1. Para comprobar la lista de recorridos, campañas y plantillas de contenido donde se está usando el fragmento en este momento, seleccione la opción **[!UICONTROL Explorar referencias]**. [Más información](#explore-references)
+1. Puede comprobar la lista de recorridos, campañas y plantillas de contenido en las que se está utilizando el fragmento en ese momento. Para ello, seleccione la opción **[!UICONTROL Explorar referencias]** del botón Más acción. [Más información](#explore-references)
 
-   ![](assets/fragment-edit-references.png)
+1. Si el fragmento que se está editando tiene el estado **[!UICONTROL Activo]**, haga clic en el botón **[!UICONTROL Modificar]** para crear una versión de borrador del fragmento. Haga clic en **[!UICONTROL Confirmar]**.
 
-1. Si el fragmento que se está editando tiene el estado **[!UICONTROL Activo]**, haga clic en el botón **[!UICONTROL Modificar]** para crear una versión de borrador del fragmento.
-
-   <!--![](assets/fragment-live-modify.png)-->
+   ![](assets/fragment-live-modify.png){width="70%" align="left"}
 
    >[!NOTE]
    >
    >La versión actual del fragmento seguirá activa hasta que publique la nueva versión actualizada.
 
-1. Realice los cambios deseados en el fragmento.
+1. Realice los cambios deseados en los detalles del fragmento si es necesario.
 
-1. Para modificar el contenido, haga clic en el botón **[!UICONTROL Editar]** y actualice el contenido como lo haría al crear un fragmento desde cero. [Aprenda a crear un fragmento](#create-from-scratch)
+1. Para modificar el contenido del fragmento, haga clic en el botón **[!UICONTROL Editar]** y actualice el contenido como lo haría al crear un fragmento desde cero. [Aprenda a crear un fragmento](create-fragments.md#content)
 
-   ![](assets/fragment-edit.png)
+   ![](assets/fragment-edit.png){width="70%" align="left"}
 
    >[!NOTE]
    >
    >Al editar un fragmento publicado, puede eliminar cualquier campo de personalización, pero no puede añadir nuevos al contenido del fragmento. Si desea agregar atributos personalizados, debe duplicar el fragmento. [Más información](#adding-new-attributes)
 
-1. Una vez que los cambios estén listos, guárdelos y haga clic en el botón **Publish** para activar las modificaciones.
+1. Una vez que los cambios estén listos, guárdelos y haga clic en el botón **[!UICONTROL Publish]** para activar las modificaciones. [Más información](create-fragments.md#publish)
 
 Al editar un fragmento, los cambios se propagan automáticamente a todo el contenido mediante ese fragmento, incluidos los recorridos activos y las campañas, excepto en el caso del contenido en el que se ha roto la herencia del fragmento original.
 
@@ -125,23 +123,30 @@ Para incorporar atributos adicionales a un fragmento activo, siga los pasos a co
 
 1. Duplique el fragmento existente usando el botón **[!UICONTROL Más acciones]**.
 
-   ![](assets/fragment-list-more-actions.png)
+   ![](assets/fragment-list-more-actions.png){width="70%" align="left"}
 
-1. [Agregue los nuevos atributos deseados](../personalization/personalization-build-expressions.md#add) a la versión de borrador duplicada.
+1. Seleccione el fragmento duplicado para abrirlo y haga clic en el botón **[!UICONTROL Editar]**.
 
-1. Publish la nueva versión. [Descubra cómo](create-fragments.md#publish)
+1. [Agregue los nuevos atributos deseados](../personalization/personalization-build-expressions.md#add) al fragmento duplicado, como los campos de personalización.
+
+   ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}
+
+1. Guarde los cambios y publique el nuevo fragmento. [Descubra cómo](create-fragments.md#publish)
 
 1. Actualice cualquier campaña o recorrido para hacer referencia al fragmento actualizado en el que se agregaron los nuevos atributos.
 
+   * [Aprenda a utilizar fragmentos visuales](../email/use-visual-fragments.md)
+   * [Aprenda a utilizar fragmentos de expresiones](../personalization/use-expression-fragments.md)
+
 ## Explorar referencias {#explore-references}
 
-Puede mostrar la lista de los recorridos, campañas y plantillas de contenido que están utilizando actualmente un fragmento. Para ello, seleccione **[!UICONTROL Explorar referencias]** en el menú **[!UICONTROL Más acciones]** de la lista de fragmentos o en la pantalla de propiedades del fragmento.
+Puede mostrar la lista de los recorridos, campañas y plantillas de contenido que están utilizando actualmente un fragmento. Para ello, seleccione **[!UICONTROL Explorar referencias]** del menú **[!UICONTROL Más acciones]** en la lista de fragmentos o en la pantalla de propiedades de fragmentos.
 
-![](assets/fragment-explore-references.png)
+![](assets/fragment-explore-references.png){width="70%" align="left"}
 
 Seleccione una pestaña para alternar entre recorridos, campañas, plantillas y fragmentos. Puede ver su estado y hacer clic en un nombre para redirigirlo al elemento correspondiente donde se hace referencia al fragmento.
 
-![](assets/fragment-usage-screen.png)
+![](assets/fragment-usage-screen.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -153,7 +158,7 @@ Puede limpiar la lista de fragmentos de los elementos que ya no son relevantes p
 
 Para ello, haga clic en el botón **[!UICONTROL Más acciones]** que está junto al fragmento deseado y seleccione **[!UICONTROL Archivar]**. Desaparecerá de la lista de fragmentos, lo que impide que los usuarios lo utilicen en futuros correos electrónicos o plantillas.
 
-![](assets/fragment-list-archive.png)
+![](assets/fragment-list-archive.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -161,10 +166,10 @@ Para ello, haga clic en el botón **[!UICONTROL Más acciones]** que está junto
 
 Para desarchivar un fragmento, filtre los **[!UICONTROL elementos archivados]** y seleccione **[!UICONTROL Desarchivar]** del menú **[!UICONTROL Más acciones]**. Ahora vuelve a ser accesible desde la lista de fragmentos y se puede utilizar en cualquier correo electrónico o plantilla.
 
-![](assets/fragment-list-unarchive.png)
+![](assets/fragment-list-unarchive.png){width="70%" align="left"}
 
 ## Exportar fragmentos a otra zona protegida {#export}
 
 Journey Optimizer permite copiar un fragmento de una zona protegida a otra. Por ejemplo, puede copiar un fragmento del entorno de zona protegida de ensayo en la zona protegida de producción.
 
-El proceso de copia se lleva a cabo mediante una **exportación e importación de paquetes** entre las zonas protegidas de origen y destino. Encontrará información detallada sobre cómo exportar objetos e importarlos en una zona protegida de destino en esta sección: [Copiar objetos en otra zona protegida](../configuration/copy-objects-to-sandbox.md)
+El proceso de copia se lleva a cabo mediante una **exportación e importación de paquetes** entre las zonas protegidas de origen y destino. Encontrará información detallada sobre cómo exportar objetos e importarlos en una zona protegida de destino en esta sección: [Copiar objetos en otra zona protegida](../configuration/copy-objects-to-sandbox.md).
