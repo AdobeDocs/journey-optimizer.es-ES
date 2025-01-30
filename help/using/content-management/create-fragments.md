@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '639'
 ht-degree: 15%
 
 ---
@@ -83,7 +83,7 @@ Si el fragmento está listo para su publicación, puede previsualizarlo y public
 
 1. Vuelva a la pantalla de creación de fragmentos después de diseñar su contenido o ábralo desde la lista de fragmentos.
 
-1. Hay una vista previa del fragmento disponible en el campo **[!UICONTROL Etiquetas]**, lo que permite comprobar su renderización. Si necesita realizar algún cambio, haga clic en el botón **[!UICONTROL Editar]** en la sección superior de la pantalla para abrir el Designer de correo electrónico o el editor de personalización en función del tipo de fragmento.
+1. Hay una vista previa del fragmento disponible en el campo **[!UICONTROL Etiquetas]**, lo que permite comprobar su renderización. Si necesita hacer algún cambio, haga clic en el botón **[!UICONTROL Editar]** en la sección superior de la pantalla para abrir el Designer de correo electrónico o el editor de personalización, según el tipo de fragmento. [Más información](manage-fragments.md#edit-fragments)
 
    ![](assets/fragment-preview.png)
 
