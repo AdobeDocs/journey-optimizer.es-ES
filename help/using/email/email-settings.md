@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: dfe59dc0533fca394ee197193ad4558568c4c11c
+source-git-commit: a1bdbc741a96325d71562b8f5ce5279096689cf0
 workflow-type: tm+mt
-source-wordcount: '2854'
+source-wordcount: '2834'
 ht-degree: 9%
 
 ---
@@ -85,8 +85,8 @@ Una vez seleccionado un grupo de IP, la información de PTR se ve al pasar el ra
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="Introducir puntos finales personalizados de cancelación de suscripción a una lista"
->abstract="Si está administrando el consentimiento fuera del Adobe, seleccione la opción **Administrado por el cliente** para escribir una dirección de correo electrónico de cancelación de suscripción personalizada y su propia URL de cancelación de suscripción con un solo clic. En este caso, tenga en cuenta que el Adobe no almacena información de cancelación de suscripción. El propietario de la información de consentimiento de los clientes es responsable de administrar los datos de consentimiento y de devolverlos a Journey Optimizer."
+>title="Definir cómo se administran los datos de cancelación de suscripción"
+>abstract="**Adobe administrado**: usted administra los datos de consentimiento dentro del sistema de Adobe.<br>**Administrado por el cliente**: usted administra los datos de consentimiento en un sistema externo y no se actualiza ninguna sincronización de datos de consentimiento en el sistema de Adobe a menos que usted lo inicie."
 
 <!--Do not modify - Legal Review Done -->
 
