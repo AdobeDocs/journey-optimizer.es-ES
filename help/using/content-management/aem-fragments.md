@@ -8,10 +8,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
+exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
+source-git-commit: 098fbf3bdc13cb916804c30a77b72944f0902046
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '423'
+ht-degree: 2%
 
 ---
 
@@ -66,16 +67,9 @@ AEM Después de crear y personalizar sus [Fragmentos de contenido](https://exper
 
 1. Seleccione un **[!UICONTROL fragmento de contenido]** de la lista disponible para importarlo al contenido de Journey Optimizer.
 
-   >[!IMPORTANT]
-   >
-   >Solo se pueden usar los **[!UICONTROL fragmentos de contenido]** publicados.
-
 1. Haga clic en **[!UICONTROL Mostrar filtros]** para ajustar la lista de fragmentos de contenido.
 
-   El selector Fragmento de contenido incluye filtros preconfigurados:
-
-   * **[!UICONTROL Estado]**: publicado, modificado
-   * **[!UICONTROL Etiqueta]**: se define automáticamente en función de su entorno de Journey Optimizer (ID de organización y espacio aislado)
+   De forma predeterminada, el filtro Fragmento de contenido está preestablecido para mostrar solo el contenido aprobado.
 
    ![](assets/aem_campaign_4.png)
 
@@ -83,11 +77,12 @@ AEM Después de crear y personalizar sus [Fragmentos de contenido](https://exper
 
    ![](assets/aem_campaign_5.png)
 
-1. Elija los campos que desee de su **[!UICONTROL Fragmento de contenido]** para agregarlos al contenido.
+1. Elija los campos que desee de su **[!UICONTROL Fragmento de contenido]** para agregarlos al contenido. Puede añadir el contenido o copiar su valor.
+
+   Tenga en cuenta que si decide copiar el valor, cualquier actualización futura de **[!UICONTROL Fragmento de contenido]** no se reflejará en su campaña o recorrido.
 
    ![](assets/aem_campaign_6.png)
 
 1. Haz clic en **[!UICONTROL Guardar]** y comprueba tu mensaje en la vista previa. Ahora puede probar y comprobar el contenido del mensaje como se detalla en [esta sección](preview.md).
 
 Una vez que haya realizado las pruebas y validado el contenido, puede enviar su correo electrónico a la audiencia con su [campaña](../campaigns/review-activate-campaign.md) o [Recorrido](../building-journeys/publishing-the-journey.md).
-
