@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: a1bdbc741a96325d71562b8f5ce5279096689cf0
 workflow-type: tm+mt
 source-wordcount: '2834'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -81,7 +81,7 @@ Una vez seleccionado un grupo de IP, la información de PTR se ve al pasar el ra
 >
 >Si no se ha configurado un registro PTR, póngase en contacto con el representante del Adobe.
 
-## Cancelar suscripción a lista{#list-unsubscribe}
+## Cancelación de suscripción a lista{#list-unsubscribe}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
@@ -368,7 +368,7 @@ Puede obtener una vista previa dinámica de la URL de seguimiento resultante. Ca
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="Anular la dirección de ejecución predeterminada para utilizar"
->abstract="Cuando hay varias direcciones de correo electrónico disponibles en la base de datos (personales, profesionales, etc.), puede elegir cuál priorizar para el envío. La dirección principal se define en el nivel de zona protegida, pero aquí puede anular la configuración predeterminada para esta configuración de correo electrónico específica."
+>abstract="Cuando hay varias direcciones de correo electrónico o números de teléfono disponibles en la base de datos (personal, profesional, etc.), puede elegir cuál priorizar para el envío. La dirección principal se define en el nivel de zona protegida, pero aquí puede anular la configuración predeterminada para esta configuración de correo electrónico específica."
 
 Al segmentar un perfil, pueden estar disponibles en la base de datos varias direcciones de correo electrónico (dirección de correo electrónico profesional, dirección de correo electrónico personal, etc.).
 

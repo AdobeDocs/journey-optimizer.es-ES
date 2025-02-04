@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
 workflow-type: tm+mt
 source-wordcount: '1312'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -47,8 +47,8 @@ Cuando un destinatario hace clic en el vínculo de no participación de un solo 
 >id="ajo_admin_preset_unsubscribe"
 >title="Añadir una URL de cancelación de suscripción a los correos electrónicos"
 >abstract="Active Cancelación de suscripción a una lista para añadir automáticamente una URL de cancelación de suscripción al encabezado del correo electrónico. También puede establecer una URL de cancelación de suscripción en un mensaje insertando un vínculo de no participación de un solo clic en el contenido del correo electrónico."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Exclusión en un clic del contenido del correo electrónico"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Habilitar cancelación de suscripción a una lista en la configuración de correo electrónico"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Exclusión con un clic del contenido del correo electrónico"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Habilitar cancelación de suscripción a una lista en la configuración de correo electrónico"
 
 La URL &quot;Cancelar la suscripción&quot; de una lista con un solo clic es un vínculo o botón &quot;Cancelar la suscripción&quot; que se muestra junto a la información del remitente del correo electrónico y permite a los destinatarios excluirse instantáneamente de sus listas de correo con un solo clic.
 
@@ -87,7 +87,7 @@ En ambos casos, el perfil correspondiente del destinatario se excluye inmediatam
 Si ha activado la opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]** en la [configuración de correo electrónico](email-settings.md#list-unsubscribe), le recomendamos que habilite ambos métodos: **Mailto (cancelación de suscripción)** y **URL de cancelación de suscripción con un solo clic**. No todos los clientes de correo electrónico admiten el método HTTP. Con la función de cancelación de suscripción a una lista Mailto que se proporciona para que seleccione una alternativa, su reputación de remitente puede estar mejor protegida y todos sus destinatarios pueden tener acceso para utilizar la funcionalidad de cancelación de suscripción. [Más información](email-settings.md#list-unsubscribe)
 
 
-### Exclusión en un clic del contenido del correo electrónico {#one-click-opt-out}
+### Exclusión con un clic del contenido del correo electrónico {#one-click-opt-out}
 
 Para establecer una URL de cancelación de suscripción personalizada, inserte un vínculo de no participación de un solo clic en el contenido del mensaje de correo electrónico e introduzca la URL que elija, como se describe a continuación:
 
