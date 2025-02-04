@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 962366b6e7eb959d24411a5b383678a5a183ad75
+source-git-commit: 8faeaea48e2f6e32cb3d66d0bd1fe53c33b08e65
 workflow-type: tm+mt
-source-wordcount: '1593'
-ht-degree: 41%
+source-wordcount: '1595'
+ht-degree: 40%
 
 ---
 
@@ -102,21 +102,19 @@ Para el conjunto de parámetros &quot;long/lat&quot;, creamos un grupo de campos
 * **[!UICONTROL Carga de respuesta]**: haga clic dentro del campo **[!UICONTROL Carga útil]** y pegue un ejemplo de la carga útil devuelta por la llamada. Para nuestro ejemplo, hemos utilizado una carga útil encontrada en un sitio web de la API meteorológica. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. Tenga en cuenta que puede hacer clic en **[!UICONTROL Pegar una nueva carga útil]** si desea cambiar la carga útil que se pasa actualmente.
 * **[!UICONTROL Carga útil enviada]**: este campo no aparece en nuestro ejemplo. Solo está disponible si selecciona el método POST. Pegue la carga útil que se enviará al sistema de terceros.
 
-  En el caso de una llamada de GET que requiera parámetros, ingrese los parámetros en el campo **[!UICONTROL Valores dinámicos]** y se agregarán automáticamente al final de la llamada. En caso de una llamada POST, debe hacer esto:
+En el caso de una llamada de GET que requiera parámetros, ingrese los parámetros en el campo **[!UICONTROL Valores dinámicos]** y se agregarán automáticamente al final de la llamada. En caso de una llamada POST, debe hacer esto:
 
-   * enumera los parámetros que se pasarán en el momento de la llamada en el campo **[!UICONTROL Valores dinámicos]** (en el ejemplo siguiente: &quot;identificador&quot;).
-   * Especificarlos también con la misma sintaxis en el cuerpo de la carga útil enviada. Para ello, debe agregar: &quot;param&quot;: &quot;nombre del parámetro&quot; (en el ejemplo siguiente: &quot;identificador&quot;). Siga esta sintaxis:
+* enumera los parámetros que se pasarán en el momento de la llamada en el campo **[!UICONTROL Valores dinámicos]** (en el ejemplo siguiente: &quot;identificador&quot;).
+* Especificarlos también con la misma sintaxis en el cuerpo de la carga útil enviada. Para ello, debe agregar: &quot;param&quot;: &quot;nombre del parámetro&quot; (en el ejemplo siguiente: &quot;identificador&quot;). Siga esta sintaxis:
 
-     ```json
-     {"id":{"param":"identifier"}}
-     ```
+  ```json
+  {"id":{"param":"identifier"}}
+  ```
 
-     ![](assets/journey29.png)
+  ![](assets/journey29.png)
 
 
-1. Haga clic en **[!UICONTROL Guardar]**.
-
-La fuente de datos ahora está configurada y lista para utilizarse en sus recorridos, por ejemplo en sus condiciones o para personalizar un correo electrónico. Si la temperatura es superior a 30 °C, puede decidir enviar una comunicación específica.
+Una vez guardados los cambios, la fuente de datos está configurada y lista para utilizarse en los recorridos, por ejemplo en las condiciones o para personalizar un correo electrónico. Si la temperatura es superior a 30 °C, puede decidir enviar una comunicación específica.
 
 ## Modo de autenticación personalizado {#custom-authentication-mode}
 
