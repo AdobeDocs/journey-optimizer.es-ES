@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
+source-git-commit: 3fae8e27dd043762ba4e5e2705300798298fc613
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 41%
@@ -90,7 +90,7 @@ A continuación se muestran los pasos principales para crear y configurar una nu
    * **[!UICONTROL Valor]**: &quot;1234&quot; (el valor de nuestra clave de API)
    * **[!UICONTROL Ubicación]**: &quot;Parámetro de consulta&quot; (la clave de API se encuentra en la dirección URL)
 
-   ![](assets/journey28.png)
+     ![](assets/journey28.png)
 
 1. Agregue un nuevo grupo de campos para cada conjunto de parámetros de API haciendo clic en **[!UICONTROL Agregar nuevo grupo de campos]**. El nombre del grupo de campos solo puede contener caracteres alfanuméricos y guiones bajos. La longitud máxima es de 30 caracteres. En nuestro ejemplo, necesitamos crear dos grupos de campos, uno para cada conjunto de parámetros (city y long/lat).
 
