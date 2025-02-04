@@ -7,14 +7,23 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
+source-git-commit: 87a9baf1ee042bb4386fdc2bd631637e3cc9859e
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1062'
 ht-degree: 2%
 
 ---
 
 # Informe de campaña de correo electrónico {#campaign-global-report-cja-email}
+
+>[!BEGINSHADEBOX]
+
+Desde que Apple introdujo nuevas funciones de protección de la privacidad para su aplicación de correo nativa, incluida la protección de privacidad de correo, los remitentes ya no pueden utilizar píxeles de seguimiento para recopilar datos en perfiles que hayan habilitado la protección de privacidad de correo de Apple. Por lo tanto, la capacidad de Adobe Journey Optimizer para rastrear las aperturas de correo electrónico mediante los píxeles de seguimiento puede verse afectada. [Más información](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) sobre el impacto de los cambios en la privacidad de Apple iOS en el marketing por correo electrónico.
+
+Recomendamos centrarse en los clics y las métricas de conversión en lugar de en las tasas de apertura para obtener perspectivas más precisas.
+
+>[!ENDSHADEBOX]
 
 ## Tendencia de envíos frente a clics {#delivered-click}
 
