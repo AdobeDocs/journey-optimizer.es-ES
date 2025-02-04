@@ -7,14 +7,21 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 7591a07b-1680-4081-a745-192755d35371
+source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '576'
+ht-degree: 2%
 
 ---
 
 # Informe de recorrido web {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Su informe de recorrido puede mostrar información de varios recorridos simultáneamente, ya que los usuarios pueden participar en más de un recorrido a la vez. Como resultado, las comunicaciones entrantes (basadas en la aplicación, en la web y en el código) pueden mostrarse en varios recorridos si se activan para un usuario que participa en recorridos activos simultáneos, lo que puede dar como resultado datos superpuestos.
+
+>[!ENDSHADEBOX]
 
 ## Tendencia de impresión y clics {#impressions-web}
 
@@ -115,4 +122,3 @@ La tabla **[!UICONTROL URL de vínculos rastreados]** proporciona una visión ge
 * **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió el mensaje, no se tienen en cuenta las interacciones múltiples de un perfil.
 
 +++
-
