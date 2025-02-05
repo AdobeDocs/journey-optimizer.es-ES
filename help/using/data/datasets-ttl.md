@@ -7,19 +7,19 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+exl-id: 08633a79-5601-4e36-b8cf-080234956d99
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
-
 
 # Cambios en la segmentación por streaming y tiempo de vida {#ttl-guardrail}
 
 ## Actualizaciones de segmentación de streaming {#segmentation-update}
 
-A partir del 1 de noviembre de 2024, la segmentación de streaming dejará de admitir el uso de eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios de Journey Optimizer. Este cambio se aplicará a todas las zonas protegidas y organizaciones de clientes. Encontrará información sobre por qué se desaconsejó esta práctica en el pasado [aquí](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
+A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admitirá el uso de eventos de envío y apertura derivados del seguimiento y los comentarios de los conjuntos de datos de Journey Optimizer. Este cambio se aplicará a todas las zonas protegidas y organizaciones de clientes. Encontrará información sobre por qué se desaconsejó esta práctica en el pasado [aquí](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
 
 **Preguntas más frecuentes**
 
@@ -41,13 +41,11 @@ Este cambio no afecta a la recopilación de datos de seguimiento. Enviar y abrir
 
 +++
 
-
 +++ ¿Se ven afectados los eventos de reacción por este cambio?
 
 Los eventos de reacción en Recorridos no se ven afectados por este cambio.
 
 +++
-
 
 +++ ¿Este cambio se aplicará solo a las zonas protegidas de producción o también a las de desarrollo?
 
