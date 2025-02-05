@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6c2b6370c5a68937ebcafcbe70c4a240bc14536
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1308'
 ht-degree: 19%
 
 ---
@@ -96,7 +96,7 @@ Para añadir una acción de canal integrada a un recorrido, siga los pasos a con
       <a href="../content-card/create-content-card.md">
       <img alt="Posible cliente" src="../assets/do-not-localize/sms-config.jpg">
       </a>
-      <div><a href="../content-card/create-content-card.md"><strong>Crear tarjetas de contenido</strong>
+      <div><a href="../content-card/create-content-card.md"><strong>Creación de tarjetas de contenido</strong>
       </div>
       <p>
       </td>
@@ -173,7 +173,7 @@ El modelo varía si se habla de puntuación o de formación. La capacitación se
 
 Esta información se almacena con el perfil del usuario y se hace referencia a ella en la ejecución del recorrido para indicar a Adobe Journey Optimizer cuándo enviar el mensaje.
 
-### Preguntas más frecuentes {#faq-send-time}
+### Preguntas frecuentes {#faq-send-time}
 
 +++ ¿Qué puede hacer la optimización del tiempo de envío? ¿Cómo gestiona los nuevos perfiles? ¿Distribuye el envío en un periodo de 6/12/24 horas?
 
@@ -183,8 +183,11 @@ La optimización del tiempo de envío intenta predecir el mejor momento para int
 
 +++¿Dónde puedo ver el tiempo de envío esperado para cada perfil?
 
-Puede ver la puntuación general en la interfaz **Perfiles**. Para cada uno de los tres conjuntos de 168 puntuaciones, los rangos van de -83 a 84. Cuanto mayor sea la clasificación, mejor será el momento de interactuar con el destinatario. Dado que puede definir el inicio y la duración de un recorrido, es posible que la mejor clasificación (84) no caiga en esa ventana de tiempo. En este caso, se recomienda elegir una hora con el valor de clasificación más alto.
+Los rangos en cualquier &quot;hora de la semana&quot; están entre -83 y 84, pero se combinan en un solo valor para evitar saturar el perfil con 168 valores distintos. Para cada uno de los tres conjuntos de 168 puntuaciones, los rangos van de -83 a 84.
 
+El valor lo lee el algoritmo de optimización. Este valor no está diseñado para ser legible en lenguaje natural.
+
+Cuanto mayor sea la clasificación, mejor será el momento de interactuar con el destinatario. Dado que puede definir el inicio y la duración de un recorrido, es posible que la mejor clasificación (84) no caiga en esa ventana de tiempo. En este caso, se recomienda elegir una hora con el valor de clasificación más alto.
 +++
 
 
