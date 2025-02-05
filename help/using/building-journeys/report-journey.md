@@ -1,17 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Publish el recorrido
+title: Publicar el recorrido
 description: Obtenga información sobre cómo informar sobre su recorrido
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
+exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
+source-git-commit: b604ab6d94f414b96378f15986edbcf92cee77dc
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 0%
+source-wordcount: '312'
+ht-degree: 1%
 
 ---
 
@@ -29,8 +30,8 @@ Los eventos mostrados se han producido en las últimas 24 horas, con un interval
 
 Para su recorrido en directo, tiene acceso a:
 
-* **[!UICONTROL Perfiles introducidos]**: Número total de personas que salieron del recorrido (incluidos los errores).
-* **[!UICONTROL Perfil saliente]**: Número total de individuos que salieron del recorrido de esa actividad debido a criterios de salida.
+* **[!UICONTROL Perfiles ingresados]**: Cantidad total de individuos que ingresaron al recorrido.
+* **[!UICONTROL Perfiles abandonados]**: Número total de personas que salieron del recorrido (incluidos los errores).
 * **[!UICONTROL Perfiles con error]**: Número total de personas que encontraron un error durante su recorrido.
 * **[!UICONTROL Perfiles descartados]**: Número total de individuos que se descartaron de la recorrido por uno de los siguientes motivos:
 
