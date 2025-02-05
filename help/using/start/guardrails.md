@@ -8,20 +8,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 98%
+source-wordcount: '2421'
+ht-degree: 95%
 
 ---
 
 # Mecanismos de protección y limitaciones {#limitations}
 
+A continuación, encontrará limitaciones y protecciones adicionales al utilizar [!DNL Adobe Journey Optimizer].
+
 Los derechos, limitaciones de productos y protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 También debe tener en cuenta las [protecciones para los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"} antes de comenzar.
 
-A continuación, encontrará limitaciones y protecciones adicionales al utilizar [!DNL Adobe Journey Optimizer].
+
+>[!NOTE]
+>
+>En circunstancias excepcionales, las interrupciones temporales en una región específica pueden provocar que se excluyan perfiles válidos de los recorridos o que se marquen incorrectamente los correos como devoluciones. Una vez restaurados los servicios, vuelva a comprobar los registros de recorrido, compruebe los campos de perfil de consentimiento y vuelva a publicar la recorrido si es necesario. En caso de una interrupción del ISP, aprenda a quitar perfiles de la lista de supresión en [esta sección](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+>
 
 ## Navegadores admitidos {#browsers}
 
