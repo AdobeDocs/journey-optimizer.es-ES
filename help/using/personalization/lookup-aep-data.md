@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1043'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ Donde:
 * **Acción** está habilitada O deshabilitada.
 * **Se puede recuperar el token de acceso** de Developer Console.
 * **La clave de API** se puede recuperar de Developer Console.
-* **ID de organización de IMS** es su organización de IMS de Adobe.
+* **ID de organización de IMS** es su organización de Adobe.
 * **Nombre de zona protegida** es el nombre de la zona protegida en la que se encuentra el conjunto de datos (por ejemplo: prod, dev, etc.).
 
 >[!NOTE]

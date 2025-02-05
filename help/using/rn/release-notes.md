@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2212'
-ht-degree: 98%
+source-wordcount: '2278'
+ht-degree: 96%
 
 ---
 
@@ -37,6 +37,22 @@ ht-degree: 98%
 </p>
 <p>Para obtener más información, consulte la <a href="../reports/report-cja-manage.md#cja-template">documentación detallada</a>.</p>
 <p> La funcionalidad <b>Plantilla</b> se está implementando progresivamente por fases, con previsión de una disponibilidad generalizada global a finales de enero</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Evaluación flexible de audiencias (disponibilidad limitada)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La evaluación de audiencias flexible le permite ejecutar un trabajo de segmentación bajo demanda para audiencias seleccionadas, lo que garantiza que siempre tenga los datos de audiencia más actualizados antes de segmentarlos en recorridos y campañas de Journey Optimizer.</p>
+<p>Para obtener más información, consulte la <a href="../audience/about-audiences.md#flexible">documentación detallada</a>.</p>
+<p> La evaluación flexible de audiencias solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 </tr>
 </tbody>
 </table>

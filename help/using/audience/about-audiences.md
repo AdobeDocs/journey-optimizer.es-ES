@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 19%
+source-wordcount: '2162'
+ht-degree: 18%
 
 ---
 
@@ -152,9 +152,26 @@ Una vez que haya definido un público por primera vez, los perfiles se añaden c
 
 Rellenar el público a partir de datos anteriores puede tardar hasta 24 horas. Una vez que se ha rellenado el público, se mantiene actualizado continuamente y siempre está listo para la segmentación.
 
+### [!BADGE Disponibilidad limitada]{type=Informative} Evaluación flexible de la audiencia (disponibilidad limitada) {#flexible}
+
+>[!AVAILABILITY]
+>
+La evaluación flexible de audiencias solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+
+Adobe Experience Platform Audience Portal le permite ejecutar un trabajo de segmentación bajo demanda para audiencias seleccionadas, lo que garantiza que siempre tenga los datos de audiencia más actualizados antes de segmentarlos en recorridos y campañas de Journey Optimizer.
+
+Con la evaluación flexible de audiencias, puede:
+
+1. Cree un nuevo segmento basado en los datos más recientes.
+1. Evalúe la audiencia en tiempo real para garantizar su precisión. Para ello, elija las audiencias que desea evaluar y seleccione &quot;Evaluar audiencias&quot;, siempre que cumplan criterios específicos (por ejemplo, basados en personas, origen del servicio de segmentación).
+1. Uso de la audiencia evaluada en Adobe Journey Optimizer
+campañas o recorridos para una segmentación precisa.
+
+Puede evaluar hasta 20 audiencias a la vez, y las audiencias que no cumplan los requisitos se excluirán automáticamente. Para obtener más información, consulte la [documentación de Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
+
 ### Uso de eventos con segmentación de streaming {#streaming-segmentation-events-guardrails}
 
-La segmentación por streaming es útil para la personalización en tiempo real con casos de uso de alto valor. Sin embargo, es importante elegir los [eventos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} adecuados para usarlos como criterios de segmentación.
+La segmentación por streaming es útil para la personalización en tiempo real con casos de uso de alto valor. Sin embargo, es importante elegir los [eventos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events) correctos{target="_blank"}
 
 Por lo tanto, para un rendimiento óptimo de la segmentación de streaming, evite utilizar los siguientes eventos:
 
@@ -247,7 +264,7 @@ Además, los atributos enriquecidos en las audiencias de composición de audienc
 
 +++
 
-## Vídeo explicativo {#video}
+## Vídeo práctico {#video}
 
 Obtenga información sobre perfiles y públicos del cliente en Journey Optimizer.
 
