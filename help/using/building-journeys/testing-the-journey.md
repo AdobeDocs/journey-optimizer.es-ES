@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: fcad0d71b6de9ae7e21b201fb954e712b2028526
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 10%
+source-wordcount: '1644'
+ht-degree: 9%
 
 ---
 
@@ -61,7 +61,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 
 ## Notas importantes {#important_notes}
 
-* En el modo de prueba, puede activar eventos mediante la interfaz. Los eventos no se pueden activar desde sistemas externos mediante una API.
+* En el modo de prueba, solo puede activar eventos mediante la interfaz. Los eventos no se pueden activar desde sistemas externos mediante una API.
 * Solo se permite a las personas marcadas como &quot;perfiles de prueba&quot; en el servicio Perfil del cliente en tiempo real entrar en el recorrido probado. Consulte esta [sección](../audience/creating-test-profiles.md).
 * El modo de prueba solo está disponible en recorridos de borrador que utilizan un área de nombres. El modo de prueba debe comprobar si una persona que entra en el recorrido es un perfil de prueba o no y, por lo tanto, debe poder acceder a Adobe Experience Platform.
 * El número máximo de perfiles de prueba que puede introducir un recorrido durante una sesión de prueba es de 100.
@@ -71,6 +71,8 @@ Para utilizar el modo de prueba, siga estos pasos:
 * Al llegar a una división, siempre se elige la rama superior. Puede reorganizar la posición de las ramas divididas si desea que la prueba elija una ruta diferente.
 * Para optimizar el rendimiento y evitar el uso de recursos obsoletos, todos los recorridos en modo de prueba que no se hayan activado durante una semana volverán al estado **Borrador**.
 * Los eventos activados por el modo de prueba se almacenan en conjuntos de datos dedicados. Estos conjuntos de datos están etiquetados de la siguiente manera: `JOtestmode - <schema of your event>`
+* Al probar recorridos que incluyen varios eventos, debe almacenar en déclencheur cada evento en secuencia. Si se envía un evento demasiado pronto (antes de que termine el primer nodo de espera) o demasiado tarde (después del tiempo de espera configurado), se descartará el evento y se enviará el perfil a una ruta de tiempo de espera. Confirme siempre que las referencias a los campos de carga útil de evento sigan siendo válidas enviando la carga útil dentro de la ventana definida
+
 
 <!--
 * Fields from related entities are hidden from the test mode.
@@ -87,9 +89,13 @@ Use el botón **[!UICONTROL Déclencheur un evento]** para configurar un evento 
 
 >[!NOTE]
 >
->Cuando se almacena en déclencheur un evento en modo de prueba, se genera un evento real, lo que significa que también se producirá un recorrido que escuche este evento.
+>* Cuando se almacena en déclencheur un evento en modo de prueba, se genera un evento real, lo que significa que también se producirá un recorrido que escuche este evento.
+>
+>* Asegúrese de que cada evento en el modo de prueba se active en el orden correcto y dentro de la ventana de espera configurada. Por ejemplo, si hay una espera de 60 segundos, el segundo evento debe activarse solo después de que haya transcurrido esa espera de 60 segundos y antes de que caduque el límite de tiempo de espera.
+>
 
 Como requisito previo, debe saber qué perfiles están marcados como perfiles de prueba en Adobe Experience Platform. De hecho, el modo de prueba solo permite estos perfiles en la recorrido y el evento debe contener un ID. El ID esperado depende de la configuración del evento. Puede ser un ECID o una dirección de correo electrónico, por ejemplo. El valor de esta clave debe agregarse en el campo **Identificador de perfil**.
+
 
 Si el recorrido contiene varios eventos, utilice el menú desplegable para seleccionar un evento. A continuación, para cada evento, configure los campos pasados y la ejecución del envío del evento. La interfaz de le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
