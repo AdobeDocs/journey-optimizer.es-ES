@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 35dde8b905cf4c37c0c1b5f6b8a84f41821eb240
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
 source-wordcount: '2361'
 ht-degree: 98%
@@ -91,7 +91,7 @@ Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios
 
 ### Acciones personalizadas {#custom-actions-g}
 
-* Se define un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. Consulte [esta página](../action/about-custom-action-configuration.md). Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tenerlo en cuenta en los recorridos basados en públicos definiendo una tasa de lectura adecuada (5000 perfiles cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
+* Se define un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. Consulte [esta página](../action/about-custom-action-configuration.md). Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tenerlo en cuenta en los recorridos basados en públicos definiendo una tasa de lectura adecuada (5.000 perfiles cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
 * La URL de acción personalizada no admite parámetros dinámicos.
 * Se admiten los métodos POST, PUT y llamada de GET
 * El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;
@@ -207,8 +207,8 @@ El rendimiento de envío corresponde al número de respuestas de decisión que p
 | API | Decisiones por segundo |
 |---------|----------|
 | Solicitudes de decisiones de API | 500 por segundo |
-| Solicitudes de API de Edge Decisioning con segmentación de Edge | 1500 por segundo |
-| Solicitudes de API de Edge Decisioning sin segmentación de Edge | 5000 por segundo |
+| Solicitudes de API de Edge Decisioning con segmentación de Edge | 1.500 por segundo |
+| Solicitudes de API de Edge Decisioning sin segmentación de Edge | 5.000 por segundo |
 
 ### Limitaciones {#offers-limitations}
 
