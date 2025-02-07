@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 2de3766c9fea36422c017ccaab3eb0a2501c6740
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '874'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ El usuario recibirá un correo electrónico con instrucciones para acceder a su 
 
 A continuación se indican las directrices generales para utilizar el Acelerador de contenido del Asistente de IA en Adobe Journey Optimizer para la generación de correos electrónicos:
 
-* La calidad del contenido generado se ve fuertemente afectada por el objetivo de marketing o el prompt que defina. Utilice indicaciones bien definidas para que el modelo GenAI las interprete con precisión. 
+* La calidad del contenido generado depende en gran medida del objetivo de marketing o indicación que defina. Utilice indicaciones bien definidas para que el modelo GenAI las interprete con precisión. 
 * Cargue el recurso de marca para disponer de contenido preciso y acorde con el contenido de la marca. Si no, el contenido se basa en información pública. El contenido cargado puede estar en los siguientes formatos: archivos PDF, JPEG, PNG o ZIP (con formatos de archivo compatibles).
 * El tamaño máximo del recurso de marca cargado es de 50 MB.Los archivos más grandes o muchas imágenes pueden funcionar, pero aumenta el tiempo de procesamiento.
 * Utilice plantillas específicas de la marca o personalizadas para crear el contenido de sus correos electrónicos utilizando el Acelerador de contenido del Asistente de IA en Adobe Journey Optimizer. Se recomiendan plantillas de correo electrónico con un máximo de 8 a 10 imágenes.
