@@ -7,11 +7,10 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
+source-git-commit: a48fe20dcd06771c41164ecb1ea6df9d83a9a96c
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2160'
 ht-degree: 18%
 
 ---
@@ -152,7 +151,7 @@ Una vez que haya definido un público por primera vez, los perfiles se añaden c
 
 Rellenar el público a partir de datos anteriores puede tardar hasta 24 horas. Una vez que se ha rellenado el público, se mantiene actualizado continuamente y siempre está listo para la segmentación.
 
-### [!BADGE Disponibilidad limitada]{type=Informative} Evaluación flexible de la audiencia (disponibilidad limitada) {#flexible}
+### [!BADGE Disponibilidad limitada]{type=Informative} Evaluación de público flexible {#flexible}
 
 >[!AVAILABILITY]
 >
