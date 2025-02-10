@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: dbe312f332031391c49a973f323994f860e354e3
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '5954'
+source-wordcount: '5981'
 ht-degree: 98%
 
 ---
@@ -35,7 +35,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 * Se ha agregado una sección &quot;Protecciones y limitaciones&quot; a la documentación de las herramientas de administración de conflictos y priorización. [Más información](../conflict-prioritization/gs-conflict-prioritization.md)
 
-<!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
+* Se ha agregado un nuevo caso de uso de extremo a extremo para presentar todos los pasos necesarios para utilizar Decisioning en experimentos de contenido con el canal de experiencia basado en código [!DNL Journey Optimizer]. [Más información](../experience-decisioning/experience-decisioning-uc.md)
 
 ## Diciembre de 2024 {#nov-2024}
 
