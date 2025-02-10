@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: a0e9800c5909369845f2a243e8967f7037c808d8
+source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 96%
@@ -67,7 +67,7 @@ Con la funcionalidad de la **experiencia basada en código** puede definir las e
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️ En [esta sección](experience-decisioning-uc.md) hay un caso de uso de extremo a extremo que muestra cómo usar experimentos de contenido para comparar decisiones con el canal de experiencia basado en código.
+➡️ En [esta sección](../experience-decisioning/experience-decisioning-uc.md) hay un caso de uso de extremo a extremo que muestra cómo usar experimentos de contenido para comparar decisiones con el canal de experiencia basado en código.
 
 ## Cuándo usar canales basados en código o en otros canales {#code-based-vs-other-channels}
 
