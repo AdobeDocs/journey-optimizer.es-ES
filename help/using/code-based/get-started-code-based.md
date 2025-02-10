@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: a0e9800c5909369845f2a243e8967f7037c808d8
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 96%
 
 ---
 
@@ -66,6 +66,8 @@ Con la funcionalidad de la **experiencia basada en código** puede definir las e
 </tr></table>
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
+
+➡️ En [esta sección](experience-decisioning-uc.md) hay un caso de uso de extremo a extremo que muestra cómo usar experimentos de contenido para comparar decisiones con el canal de experiencia basado en código.
 
 ## Cuándo usar canales basados en código o en otros canales {#code-based-vs-other-channels}
 
@@ -136,6 +138,4 @@ Los pasos clave para crear y ofrecer una experiencia basada en código se indica
    >[!INFO]
    >
    >Para garantizarlo, el equipo de implementación de la aplicación realiza llamadas explícitas a la API o al SDK para recuperar el contenido de la superficie definida en la configuración basada en código, como “Texto del titular” o “Bandeja de recomendaciones 1”, o puntos de decisión no relacionados con la interfaz de usuario de una aplicación, como, por ejemplo, los “parámetros de algoritmo de búsqueda”. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [Más información](code-based-implementation-samples.md)
-
-
 
