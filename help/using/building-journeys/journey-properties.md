@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 2ce069f92e11fa9246736a4b71dfd66391d8b06c
 workflow-type: tm+mt
-source-wordcount: '2233'
+source-wordcount: '2232'
 ht-degree: 18%
 
 ---
@@ -273,7 +273,7 @@ Un experto en marketing tiene un recorrido promocional que tiene una serie de co
 
 ### Configuración y uso {#exit-criteria-config}
 
-Los criterios de salida se establecen en el nivel de recorrido. Un recorrido puede tener varios criterios de salida. Cuando se establecen varios criterios de salida, la evaluación se realiza de arriba abajo con una lógica de `OR`. Por lo tanto, si tiene los criterios de salida A y B, se evaluarán como A **O** B. Los criterios se evalúan en cada paso del recorrido.
+Los criterios de salida se establecen en el nivel de recorrido. Un recorrido puede tener varios criterios de salida. Si ha establecido varios criterios de salida, la evaluación se realizará de arriba abajo con una lógica de `OR`. Por lo tanto, si tiene los criterios de salida A y B, se evaluará como A **O** B. Los criterios se evalúan en cada paso del recorrido.
 
 Para **crear** un criterio de salida, siga estos pasos:
 
@@ -285,8 +285,8 @@ Para **crear** un criterio de salida, siga estos pasos:
    ![](assets/exitcriteria.png){width="40%" align="left"}
 1. Escriba una **Etiqueta** y seleccione si los criterios de salida se basan en un **Evento** o en una **Audiencia**.
 
-* Para los criterios de Salida basados en un evento, seleccione solo evento unitario.
-* Para Criterios de salida basados en una audiencia, seleccione una audiencia. Nota: Los criterios de salida que utilizan una audiencia pueden tardar hasta 10 minutos en ser efectivos.
+Para los criterios de Salida basados en un evento, seleccione solo evento unitario.
+Para Criterios de salida basados en una audiencia, seleccione una audiencia. Nota: Los criterios de salida que utilizan una audiencia pueden tardar hasta 10 minutos en ser efectivos.
 
 Puede agregar varios criterios de salida.
 
