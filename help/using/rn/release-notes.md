@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
+source-git-commit: 1c17f1ef543948f74e95efab66dfeabf97af4519
 workflow-type: tm+mt
 source-wordcount: '2278'
 ht-degree: 96%
@@ -51,6 +51,7 @@ ht-degree: 96%
 <tr>
 <td>
 <p>La evaluación de audiencias flexible le permite ejecutar un trabajo de segmentación bajo demanda para audiencias seleccionadas, lo que garantiza que siempre tenga los datos de audiencia más actualizados antes de segmentarlos en recorridos y campañas de Journey Optimizer.</p>
+<img src="assets/do-not-localize/flexible-audience.gif">
 <p>Para obtener más información, consulte la <a href="../audience/about-audiences.md#flexible">documentación detallada</a>.</p>
 <p> La evaluación flexible de audiencias solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 </tr>

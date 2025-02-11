@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 100%
+source-wordcount: '1056'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ Al aprovechar las ofertas, las preferencias de personalización no se implementa
 >
 >Los ámbitos de decisión utilizados en los canales creados de [!DNL Journey Optimizer] cumplen este requisito desde el recorrido o la campaña a los que pertenecen.
 
-1. Cree un [público de Adobe Experience Platform](../audience/access-audiences.md) usando el [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"} y utilice un atributo de perfil como **[!UICONTROL Personalizar contenido = Sí (inclusión)]** para dirigirse a los usuarios que hayan aceptado la personalización.
+1. Cree un [público de Adobe Experience Platform](../audience/about-audiences.md) usando el [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"} y utilice un atributo de perfil como **[!UICONTROL Personalizar contenido = Sí (inclusión)]** para dirigirse a los usuarios que hayan aceptado la personalización.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -121,7 +121,7 @@ Para aplicar manualmente el consentimiento de personalización en las campañas,
 
 Puede usar el generador de reglas de segmentos para crear un público que contenga perfiles de exclusión.
 
-1. Cree un [público de Adobe Experience Platform](../audience/access-audiences.md) con el [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"}.
+1. Cree un [público de Adobe Experience Platform](../audience/about-audiences.md) con el [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -137,13 +137,13 @@ Ahora puede utilizar este público para filtrar los perfiles que no hayan dado s
 
 También puede añadir una comprobación de consentimiento de personalización a un público añadiendo una actividad de división a un flujo de trabajo de composición.
 
-1. Cree un público con la opción **[!UICONTROL Componer público]**. [Más información sobre la creación de un flujo de trabajo de composición](../audience/create-compositions.md)
+1. Cree un público con la opción **[!UICONTROL Componer público]**. [Más información sobre la creación de un flujo de trabajo de composición](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 
 1. Añada el público inicial con el botón específico de la derecha.
 
-1. Haga clic en el icono **+** y seleccione la actividad **[!UICONTROL División]** para crear un público dividido. [Más información sobre la actividad División](../audience/composition-canvas.md#split)
+1. Haga clic en el icono **+** y seleccione una actividad **[!UICONTROL Split]** para crear una audiencia dividida.
 
    ![](assets/perso-consent-audience-split.png)
 

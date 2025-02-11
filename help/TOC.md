@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a54f298b5d2a053c8e50874477a72ff656a37abc
-workflow-type: ht
-source-wordcount: '2154'
-ht-degree: 100%
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+workflow-type: tm+mt
+source-wordcount: '2143'
+ht-degree: 99%
 
 ---
 
@@ -374,14 +374,13 @@ ht-degree: 100%
 + Públicos, perfiles e identidad{#audiences-profiles-identities}
    + Públicos {#audiences}
       + [Introducción a los públicos](using/audience/about-audiences.md)
-      + [Carga personalizada (CSV) y composición de público federado](using/audience/custom-upload-fac.md)
-      + [Generar definiciones de segmentos](using/audience/creating-a-segment-definition.md)
-      + Componer públicos {#audience-orchestration}
-         + [Introducción a Composición de públicos](using/audience/get-started-audience-orchestration.md)
-         + [Creación de flujos de trabajo de composición](using/audience/create-compositions.md)
-         + [Trabajo con el lienzo de composición](using/audience/composition-canvas.md)
-         + [Acceso y administración de públicos](using/audience/access-audiences.md)
-      + [Composición de público federado](https://experienceleague.adobe.com/es/docs/federated-audience-composition/using/home)
+      + Creación de públicos {#create}
+         + [Definiciones de segmentos](using/audience/creating-a-segment-definition.md)
+         + [Composición de público](using/audience/get-started-audience-orchestration.md)
+         + [Carga personalizada](using/audience/custom-upload.md)
+         + [Composición de audiencia federada (disponibilidad limitada)](using/audience/federated-audience-composition.md)
+      + [Activación de audiencias en campañas y recorridos](using/audience/target-audiences.md)
+      + [Aprovechamiento de atributos de enriquecimiento](using/audience/enrichment-attributes.md)
    + Perfiles{#profiles}
       + [Introducción a los perfiles](using/audience/get-started-profiles.md)
       + [Creación de perfiles de prueba](using/audience/creating-test-profiles.md)

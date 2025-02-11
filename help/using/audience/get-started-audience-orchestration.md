@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 60%
+source-wordcount: '681'
+ht-degree: 28%
 
 ---
 
@@ -30,8 +30,7 @@ Esta documentación proporciona información detallada sobre cómo trabajar con 
 
 La composición de audiencias le permite crear **flujos de trabajo de composición**, donde puede combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar diversas actividades (dividir, excluir...) para crear nuevas audiencias.
 
-Una vez finalizado, las **audiencias resultantes** se guardan y se copian en Adobe Experience Platform junto con las audiencias existentes, y se pueden aprovechar en campañas y recorridos de Journey Optimizer para segmentar clientes. [Aprenda a segmentar audiencias en Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
-
+Una vez finalizado, las **audiencias resultantes** se guardan y se copian en Adobe Experience Platform junto con las audiencias existentes, y se pueden aprovechar en campañas y recorridos de Journey Optimizer para segmentar clientes. Obtenga información sobre cómo segmentar audiencias en Journey Optimizer
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
@@ -50,13 +49,64 @@ Se puede acceder a la composición de públicos desde el menú **[!UICONTROL Pú
 
 * La pestaña **[!UICONTROL Composiciones]** le permite crear flujos de trabajo de composición en los que puede combinar y organizar públicos para crear otros nuevos.
 
-Haga clic en cada tarjeta para aprender a trabajar con la composición del público:
+## Crear un flujo de trabajo de composición {#create}
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="create-compositions.md"><img alt="Creación de flujos de trabajo de composición" src="../assets/do-not-localize/ao-workflows.jpg"></a>
-<div><a href="create-compositions.md"><strong>Creación del primer flujo de trabajo de composición</strong></a></div></td>
-<td><a href="composition-canvas.md"><img alt="Trabajo con el lienzo de composición" src="../assets/do-not-localize/ao-canvas.jpg"></a>
-<div><a href="composition-canvas.md"><strong>Trabajo con el lienzo de composición</strong></a></div></td>
-<td><a href="access-audiences.md"><img alt="Acceso y administración de públicos" src="../assets/do-not-localize/ao-audiences.jpeg"></a>
-<div><a href="access-audiences.md"><strong>Acceso y administración de públicos</strong></a></div></td>
-</tr></table>
+Para crear un flujo de trabajo de maquetación, siga estos pasos:
+
+1. Acceda al menú **[!UICONTROL Audiencias]** y seleccione **[!UICONTROL Crear audiencia]**.
+
+1. Seleccione **[!UICONTROL Componer audiencia]**.
+
+   ![](assets/audiences-create.png)
+
+1. El lienzo de composición se muestra con dos actividades predeterminadas:
+
+   * **[!UICONTROL Audiencia]**: el punto de partida de la composición. Esta actividad le permite seleccionar una o varias audiencias como base para el flujo de trabajo,
+
+   * **[!UICONTROL Guardar]**: el último paso de la composición. Esta actividad le permite guardar el resultado del flujo de trabajo en una nueva audiencia.
+
+1. Abra las propiedades de la composición para especificar un título y una descripción.
+
+   Si no se define ningún título en las propiedades, la etiqueta de la composición se define en &quot;Composición&quot; seguida de su fecha y hora de creación.
+
+   ![](assets/audiences-properties.png)
+
+1. Configure su composición agregando tantas actividades como sea necesario entre las actividades **[!UICONTROL Audience]** y **[!UICONTROL Save]**. Para obtener más información sobre cómo crear una composición, consulte la [documentación de composición de audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition).
+
+   ![](assets/audiences-publish.png)
+
+1. Una vez que la composición esté lista, haga clic en el botón **[!UICONTROL Publish]** para publicar la composición y guardar las audiencias resultantes en Adobe Experience Platform.
+
+   >[!IMPORTANT]
+   >
+   >Puede publicar hasta 10 composiciones en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
+
+   Si se produce algún error durante la publicación, las alertas se mostrarán con información sobre cómo resolver el problema.
+
+   ![](assets/audiences-alerts.png)
+
+1. La composición se publica. Las audiencias resultantes se guardan en Adobe Experience Platform y están listas para segmentarse en Journey Optimizer. [Aprenda a segmentar audiencias en Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
+
+>[!NOTE]
+>
+>Las audiencias de **composición de audiencias** se ejecutan a diario, por lo que es posible que tenga que esperar hasta 24 horas para usarlas en Journey Optimizer. Los atributos enriquecidos en las audiencias de composición de audiencia son tan recientes como la última ejecución de composición, que pueden tardar hasta 24 horas en el pasado.
+
+## Acceso a composiciones {#access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_publish"
+>title="Publicar la audiencia"
+>abstract="Publique la composición para guardar las audiencias resultantes en Adobe Experience Platform."
+
+Se puede acceder a todas las composiciones creadas desde la pestaña **[!UICONTROL Composiciones]**. Puede duplicar o eliminar una composición existente en cualquier momento mediante el botón de puntos suspensivos de la lista.
+
+Las composiciones pueden tener varios estados:
+
+* **[!UICONTROL Borrador]**: la composición está en curso y no se ha publicado.
+* **[!UICONTROL Publicado]**: la composición se ha publicado, las audiencias resultantes se han guardado y están disponibles para su uso.
+
+![](assets/audiences-compositions.png)
+
+>[!NOTE]
+>
+>La composición de audiencia no está integrada actualmente con la capacidad de restablecimiento de la zona protegida. Antes de iniciar el restablecimiento de una zona protegida, debe eliminar las composiciones manualmente para asegurarse de que los datos de audiencia asociados se limpien correctamente. Encontrará información detallada en [Documentación de espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions) de Adobe Experience Platform
