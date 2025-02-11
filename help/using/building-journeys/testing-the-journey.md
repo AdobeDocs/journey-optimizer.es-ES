@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: fcad0d71b6de9ae7e21b201fb954e712b2028526
+source-git-commit: 66f8943093670b3310a600a77adcd8123bb213ff
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 9%
@@ -166,5 +166,5 @@ Estos son los diferentes estados del recorrido de un individuo:
 
 Cuando se activa un evento con el modo de prueba, se genera automáticamente un conjunto de datos con el nombre del origen.
 
-El modo de prueba crea automáticamente un Evento de experiencia y lo envía a Adobe Experience Platform. El nombre del origen de este evento de experiencia es &quot;Eventos de prueba del Journey Orchestration&quot;.
+El modo de prueba crea automáticamente un Evento de experiencia y lo envía a Adobe Experience Platform. El nombre de la fuente para este evento de experiencia es &quot;Eventos de prueba de Journey Orchestration&quot;.
 
