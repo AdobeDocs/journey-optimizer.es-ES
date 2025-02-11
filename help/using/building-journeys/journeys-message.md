@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 34ecb4b7f30741d88fa69007e1c236eb731dc06c
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 18%
+source-wordcount: '431'
+ht-degree: 27%
 
 ---
 
@@ -142,98 +142,3 @@ Si ha modificado datos contextuales, aparecerá el siguiente mensaje de error: E
 Si ha modificado los atributos de perfil, aparecerá el siguiente mensaje de error: ERR_AUTHORING_JOURNEYVERSION_202
 
 Tenga en cuenta que para la actividad en la aplicación, cualquier cambio se puede realizar en el contenido mientras el recorrido está activo, pero los déclencheur en la aplicación no se pueden modificar.
-
-## Optimización del tiempo de envío{#send-time-optimization}
-
->[!CONTEXTUALHELP]
->id="jo_bestsendtime_disabled"
->title="Acerca de la optimización del tiempo de envío"
->abstract="La función de optimización del tiempo de envío de Adobe Journey Optimizer, con tecnología de los servicios de IA de Adobe, puede predecir el mejor momento para enviar un mensaje push o de correo electrónico para maximizar la participación en función de las tasas históricas de apertura y clics."
-
->[!AVAILABILITY]
->
->* La optimización del tiempo de envío no está habilitada de forma predeterminada. Póngase en contacto con el representante del Adobe para activarlo.
->
->* Se recomiendan al menos 1000 perfiles con datos de mensajería recientes para la formación y puntuación iniciales sobre optimización del tiempo de envío.
->
->* La optimización del tiempo de envío solo se aplica a los canales **Correo electrónico** y **Notificación push**.
-
-
-### Acerca de la optimización del tiempo de envío {#about-send-time}
-
-La función de optimización del tiempo de envío de Adobe Journey Optimizer, con tecnología de los servicios de IA de Adobe, puede predecir el mejor momento para enviar un **correo electrónico** o **mensaje push** para maximizar la participación en función de la apertura histórica y las tasas de clics. Utilice nuestro modelo de aprendizaje automático para programar tiempos de envío personalizados para cada usuario y, así, aumentar las tasas de apertura y de clics de sus mensajes.
-
-El modelo de optimización del tiempo de envío ingiere los datos de Adobe Journey Optimizer y observa las tasas de apertura a nivel de usuario (para correo electrónico y push) y clics (para correo electrónico) para determinar cuándo es más probable que los clientes interactúen con los mensajes. La optimización del tiempo de envío requiere un mínimo de un mes de datos de seguimiento de mensajes para hacer recomendaciones informadas. Para cada usuario, el sistema seleccionará automáticamente el mejor momento con las siguientes puntuaciones:
-
-* La mejor hora de cada día de la semana para maximizar la participación
-* El mejor día de la semana para maximizar la participación
-* La mejor hora del mejor día de la semana para maximizar la participación
-
-El modelo varía si se habla de puntuación o de formación. La capacitación se imparte semanalmente inicialmente y luego trimestralmente. La puntuación inicial es semanal y, a continuación, mensual.
-
-* Formación: el desarrollo del algoritmo utilizado para obtener la puntuación
-* Puntuación: la aplicación de una puntuación a perfiles individuales en función del modelo entrenado
-
-Esta información se almacena con el perfil del usuario y se hace referencia a ella en la ejecución del recorrido para indicar a Adobe Journey Optimizer cuándo enviar el mensaje.
-
-### Preguntas frecuentes {#faq-send-time}
-
-+++ ¿Qué puede hacer la optimización del tiempo de envío? ¿Cómo gestiona los nuevos perfiles? ¿Distribuye el envío en un periodo de 6/12/24 horas?
-
-La optimización del tiempo de envío intenta predecir el mejor momento para interactuar con los clientes y optimizar las tasas de apertura y clics de los correos electrónicos. La puntuación está en un formato de `3*7*24` atributos para cada perfil. Los atributos `7*24` describen la clasificación del mejor momento previsto para enviar correos electrónicos al destinatario y 3 es para optimizar la tasa de apertura de los correos electrónicos, la tasa de clics en los correos electrónicos y la tasa de apertura de las notificaciones push.
-
-+++
-
-+++¿Dónde puedo ver el tiempo de envío esperado para cada perfil?
-
-Los rangos en cualquier &quot;hora de la semana&quot; están entre -83 y 84, pero se combinan en un solo valor para evitar saturar el perfil con 168 valores distintos. Para cada uno de los tres conjuntos de 168 puntuaciones, los rangos van de -83 a 84.
-
-El valor lo lee el algoritmo de optimización. Este valor no está diseñado para ser legible en lenguaje natural.
-
-Cuanto mayor sea la clasificación, mejor será el momento de interactuar con el destinatario. Dado que puede definir el inicio y la duración de un recorrido, es posible que la mejor clasificación (84) no caiga en esa ventana de tiempo. En este caso, se recomienda elegir una hora con el valor de clasificación más alto.
-+++
-
-
-+++¿Qué informes están disponibles?
-
-Accede a tu recorrido, haz clic en el botón **Ver informe** en la parte superior derecha y selecciona la pestaña **Recorrido** a la izquierda. [Más información](../reports/journey-global-report-cja.md)
-
-+++
-
-+++¿Cómo afectan los datos de optimización del tiempo de envío a la riqueza de perfiles?
-
-La optimización del tiempo de envío agrega la puntuación/atributos a cada perfil, pero no se crea ningún perfil nuevo.
-
-+++
-
-### Activación de la optimización del tiempo de envío{#activate-send-time-optimization}
-
->[!CONTEXTUALHELP]
->id="jo_bestsendtime_email"
->title="Activación de la optimización del tiempo de envío"
->abstract="Elija si desea optimizar las aperturas de correo electrónico o los clics de correo electrónico seleccionando el botón de radio adecuado. También puede optar por poner entre paréntesis los tiempos de envío utilizados por el sistema introduciendo un valor para la opción Enviar dentro de los próximos."
-
->[!CONTEXTUALHELP]
->id="jo_bestsendtime_push"
->title="Activación de la optimización del tiempo de envío"
->abstract="Los mensajes push tienen por defecto la opción de apertura, ya que los clics no se aplican a la mensajería push. También puede optar por poner entre paréntesis los tiempos de envío utilizados por el sistema introduciendo un valor para la opción Enviar dentro de los próximos."
-
-Habilite la optimización del tiempo de envío en un mensaje push o de correo electrónico seleccionando el conmutador **Optimización del tiempo de envío** entre los parámetros de actividad.
-
-![](../building-journeys/assets/jo-message5.png)
-
-Para los mensajes de correo electrónico, seleccione si desea optimizar las aperturas de correo electrónico o las pulsaciones de correo electrónico seleccionando el botón de opción adecuado. Los mensajes push usan de forma predeterminada la opción de aperturas, ya que los clics no son aplicables a los mensajes push.
-
-También puede optar por poner entre corchetes los tiempos de envío que utiliza el sistema al escribir un valor para la opción **Send en la siguiente**. Si elige &quot;seis horas&quot; como valor, [!DNL Journey Optimizer] comprobará cada perfil de usuario y elegirá el tiempo de envío óptimo en un plazo de seis horas a partir del momento de ejecución del recorrido.
-
-**¿Qué sucede si el tiempo óptimo está fuera de la ventana?**
-
-Veamos un ejemplo con la siguiente configuración:
-
-* Optimización en clics
-* La acción debe comenzar a las 10 de la mañana
-* La ventana es de 3 horas
-
-Un perfil puede tener un tiempo de apertura óptimo que está fuera de la ventana. Por ejemplo, la apertura óptima de John al hacer clic es a las 17:00.
-
-En el nivel de perfil, hay puntuaciones por cada hora de la semana. En este ejemplo, el correo electrónico siempre se envía dentro de la ventana. En tiempo de ejecución, el sistema comprueba la lista de puntuaciones dentro de ese intervalo (intervalo de 3 horas a partir de las 10 de la mañana). A continuación, el sistema compara las puntuaciones de 10, 11 y mediodía y selecciona la más alta. El correo electrónico se envía en ese momento.

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2035'
+ht-degree: 100%
 
 ---
 
@@ -186,7 +186,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 <td>
 <p>Envíe automáticamente su mensaje push o de correo electrónico en el mejor momento para cada cliente con el que interactúe con Adobe Journey Optimizer. La optimización del tiempo de envío, con tecnología de los servicios de IA de Adobe, predice el mejor momento para enviar un mensaje push o de correo electrónico para maximizar la participación en función de la apertura histórica y las tasas de clics predefinidas.</p>
 <p>Actualmente, esta función está en versión beta y solo está disponible para los clientes de la versión beta. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="../building-journeys/journeys-message.md#send-time-optimization">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/send-time-optimization.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
