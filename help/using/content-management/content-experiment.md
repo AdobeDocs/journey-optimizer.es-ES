@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 824926a3448acc57ed10074a92cc283cb8bbb658
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 12%
@@ -42,7 +42,7 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 
 ![](assets/content_experiment.png)
 
-➡️ Aprenda a utilizar experimentos de contenido para comparar decisiones con el canal de experiencia basado en código en [este caso de uso](experience-decisioning-uc.md).
+➡️ Aprenda a utilizar experimentos de contenido para comparar decisiones con el canal de experiencia basado en código en [este caso de uso](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Cree su contenido {#campaign-experiment}
 
