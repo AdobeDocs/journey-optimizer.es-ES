@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5b16e3a89a9a39723a2443345c4e8180a490112e
+source-git-commit: 3860916a899b3f1bc0f7563f776cdf8356aee0a9
 workflow-type: tm+mt
-source-wordcount: '2476'
-ht-degree: 96%
+source-wordcount: '2505'
+ht-degree: 94%
 
 ---
 
@@ -80,6 +80,8 @@ Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios
 ### Protecciones generales del recorrido {#journeys-guardrails-journeys}
 
 * El número de actividades en un recorrido ahora está limitado a 50. El número de actividades se muestra en la sección superior izquierda del lienzo de recorrido. Esto ayudará en la legibilidad, el control de calidad y la resolución de problemas.
+* Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido entrantes por segundo.
+* Los recorridos activados por eventos pueden tardar hasta 5 minutos en procesar la primera acción del recorrido.
 * A medida que publica recorridos, los ampliamos y ajustamos automáticamente para garantizar el máximo rendimiento y estabilidad. Cuando se aproxime al hito de 100 recorridos en directo al mismo tiempo, verá una notificación en la interfaz de usuario sobre este logro. Si recibe esta notificación y necesita extender sus recorridos más allá de los 100 recorridos en directo a la vez, cree un ticket para el servicio de atención al cliente y le ayudaremos a alcanzar sus objetivos.
   <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
 * Cuando se utiliza una calificación de público en un recorrido, esa actividad de calificación de público puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen del público.
