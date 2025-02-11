@@ -2,27 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Control de acceso basado en atributos
-description: El control de acceso basado en atributos (ABAC) permite definir autorizaciones para administrar el acceso a datos para equipos o grupos de usuarios específicos.
+description: El control de acceso basado en atributos permite definir autorizaciones para administrar el acceso a datos para equipos o grupos de usuarios específicos.
 feature: Access Management
 topic: Administration
 role: Admin,Leader
 level: Intermediate
 keywords: abac, atributo, autorizaciones, datos, acceso, confidencial, recursos
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 1%
+source-wordcount: '1025'
+ht-degree: 0%
 
 ---
 
 # Control de acceso basado en atributos {#attribute-based-access}
 
-La capacidad Control de acceso basado en atributos (ABAC) permite definir autorizaciones para administrar el acceso a datos para equipos o grupos de usuarios específicos. Su objetivo es proteger los activos digitales confidenciales de usuarios no autorizados, lo que permite una mayor protección de los datos personales.
+La capacidad Control de acceso basado en atributos permite definir autorizaciones para administrar el acceso a datos para equipos o grupos de usuarios específicos. Su objetivo es proteger los activos digitales confidenciales de usuarios no autorizados, lo que permite una mayor protección de los datos personales.
 
-En Adobe Journey Optimizer, ABAC le permite proteger datos y conceder acceso específico a elementos de campo específicos, incluidos esquemas del Modelo de datos de experiencia (XDM), atributos de perfil y audiencias.
+Utilice el control de acceso basado en atributos en Adobe Journey Optimizer para proteger datos y conceder acceso específico a elementos de campo específicos, incluidos esquemas XDM (Experience Data Model), atributos de perfil y audiencias.
 
-Para obtener una lista más detallada de la terminología utilizada con ABAC, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=es).
+Para obtener una lista más detallada de la terminología utilizada con el control de acceso basado en atributos, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=es){target="_blank"}.
 
 En este ejemplo, queremos agregar una etiqueta al campo de esquema **Nationality** para restringir el uso de usuarios no autorizados. Para que esto funcione, debe realizar los siguientes pasos:
 
@@ -32,15 +32,15 @@ En este ejemplo, queremos agregar una etiqueta al campo de esquema **Nationality
 
 1. Utilice el **[!UICONTROL campo de esquema]** en Adobe Journey Optimizer.
 
-Tenga en cuenta que también se puede tener acceso a **[!UICONTROL Roles]**, **[!UICONTROL Políticas]** y **[!UICONTROL Productos]** con la API de control de acceso basada en atributos. Para obtener más información, consulte esta [Documentación](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html).
+Tenga en cuenta que también se puede tener acceso a **[!UICONTROL Roles]**, **[!UICONTROL Políticas]** y **[!UICONTROL Productos]** con la API de control de acceso basada en atributos. Para obtener más información, consulte esta [documentación](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"}.
 
 ## Crear una función y asignar etiquetas {#assign-role}
 
 >[!IMPORTANT]
 >
->Antes de administrar permisos para una función, primero deberá crear una directiva. Para obtener más información, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=es).
+>Antes de administrar permisos para una función, primero deberá crear una directiva. Para obtener más información, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=es){target="_blank"}.
 
-**[!UICONTROL Las funciones]** son un conjunto de usuarios que comparten los mismos permisos, etiquetas y zonas protegidas dentro de su organización. Cada usuario que pertenece a un **[!UICONTROL Rol]** tiene derecho a las aplicaciones y los servicios de Adobe contenidos en el producto.
+**[!UICONTROL Las funciones]** son un conjunto de usuarios que comparten los mismos permisos, etiquetas y zonas protegidas dentro de su organización. Cada usuario que pertenece a un **[!UICONTROL Rol]** tiene derecho a las aplicaciones y servicios de Adobe contenidos en el producto.
 También puede crear sus propios **[!UICONTROL roles]** si desea ajustar el acceso de los usuarios a ciertas funcionalidades u objetos de la interfaz.
 
 Ahora queremos otorgar a los usuarios seleccionados acceso al campo **Nacionalidad**, etiquetado como C2. Para ello, necesitamos crear un nuevo **[!UICONTROL Rol]** con un conjunto específico de usuarios y concederles la etiqueta C2 que les permita usar los detalles de **Nacionalidad** en un **[!UICONTROL Recorrido]**.
@@ -59,7 +59,7 @@ Ahora queremos otorgar a los usuarios seleccionados acceso al campo **Nacionalid
 
    ![](assets/role_3.png)
 
-1. En la lista desplegable, seleccione los **[!UICONTROL Permisos]** vinculados a la característica seleccionada, como **[!UICONTROL Ver recorridos]** o **[!UICONTROL recorridos de Publish]**.
+1. En la lista desplegable, seleccione los **[!UICONTROL Permisos]** vinculados a la característica seleccionada, como **[!UICONTROL Ver recorridos]** o **[!UICONTROL Publicar recorridos]**.
 
    ![](assets/role_6.png)
 
@@ -92,7 +92,7 @@ En este ejemplo, queremos restringir el acceso al campo **Nacionalidad**. Este c
 
 Tenga en cuenta que también puede agregar **[!UICONTROL Label]** a **[!UICONTROL Schema]**, **[!UICONTROL Datasets]** y **[!UICONTROL Audiences]**.
 
-1. Cree su **[!UICONTROL esquema]**. Para obtener más información, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es).
+1. Cree su **[!UICONTROL esquema]**. Para obtener más información, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es){target="_blank"}.
 
    ![](assets/label_1.png)
 
@@ -104,11 +104,11 @@ Tenga en cuenta que también puede agregar **[!UICONTROL Label]** a **[!UICONTRO
 
    ![](assets/label_3.png)
 
-1. Seleccione la **[!UICONTROL Etiqueta]** correspondiente, en este caso, C2 - Los datos no se pueden exportar a terceros. Para obtener la lista detallada de las etiquetas disponibles, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels).
+1. Seleccione la **[!UICONTROL Etiqueta]** correspondiente, en este caso, C2 - Los datos no se pueden exportar a terceros. Para obtener la lista detallada de las etiquetas disponibles, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"}.
 
    ![](assets/label_4.png)
 
-1. Personalice aún más el esquema si es necesario y, a continuación, actívelo. Para ver los pasos detallados sobre cómo habilitar el esquema, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile).
+1. Personalice aún más el esquema si es necesario y, a continuación, actívelo. Para ver los pasos detallados sobre cómo habilitar el esquema, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}.
 
 El campo del esquema ahora solo estará visible y ahora solo lo pueden utilizar los usuarios que formen parte de un conjunto de funciones con la etiqueta C2.
 Al aplicar una **[!UICONTROL Etiqueta]** a su **[!UICONTROL Nombre de campo]**, tenga en cuenta que la **[!UICONTROL Etiqueta]** se aplicará automáticamente al campo **Nacionalidad** en cada esquema creado.

@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaña, estándar, integración, límite, acción
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 3%
@@ -22,17 +22,17 @@ Puede enviar correos electrónicos, notificaciones push y SMS mediante las funci
 
 Si tiene Adobe Campaign Standard, hay una acción integrada disponible para permitir la conexión a Adobe Campaign Standard.
 
-El mensaje transaccional del Campaign Standard y su evento asociado deben publicarse para poder utilizarse en Journey Optimizer. Si el evento se publica pero el mensaje no, no será visible en la interfaz de Journey Optimizer. Si el mensaje se publica pero su evento asociado no, estará visible en la interfaz de Journey Optimizer, pero no se podrá utilizar.
+El mensaje transaccional de Campaign Standard y su evento asociado deben publicarse para poder utilizarse en Journey Optimizer. Si el evento se publica pero el mensaje no, no será visible en la interfaz de Journey Optimizer. Si el mensaje se publica pero su evento asociado no, estará visible en la interfaz de Journey Optimizer, pero no se podrá utilizar.
 
 ## Notas importantes {#important-notes}
 
-* Se define automáticamente una regla de límite de 4000 llamadas por 5 minutos para las acciones de Adobe Campaign Standard. Esto corresponde a la escala oficial de Adobe Campaign Standard Transactional Messaging. Obtenga más información sobre los SLA de mensajería transaccional en [Descripción del producto de Adobe Campaign Standard](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html).
+* Se define automáticamente una regla de límite de 4000 llamadas por 5 minutos para las acciones de Adobe Campaign Standard. Esto corresponde a la escala oficial de Adobe Campaign Standard Transactional Messaging. Obtenga más información acerca de los SLA de mensajería transaccional en [Descripción del producto de Adobe Campaign Standard](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html){target="_blank"}.
 
 * La integración de Adobe Campaign Standard se configura mediante una acción integrada específica en la lista de acciones. Esto debe configurarse para cada zona protegida.
 
-* No puede utilizar una acción del Campaign Standard con una actividad de calificación de audiencia o de lectura de audiencia.
+* No puede utilizar una acción de Campaign Standard con una actividad de calificación de audiencia o de lectura de audiencia.
 
-* Un recorrido no puede utilizar tanto mensajes como acciones del Campaign Standard.
+* Un recorrido no puede utilizar tanto mensajes como acciones de Campaign Standard.
 
 ## Configuración de la acción {#configure-action}
 
@@ -62,6 +62,6 @@ Al diseñar el recorrido, habrá tres acciones disponibles en la categoría **[!
 
 ![](assets/journey58.png)
 
-Puede usar un evento **Reactions** para reaccionar a los datos de seguimiento relacionados con un mensaje del Campaign Standard enviado dentro del mismo recorrido. Para las notificaciones push, puede reaccionar a los mensajes en los que se ha hecho clic, enviados o fallidos. En el caso de los mensajes SMS, puede reaccionar a los mensajes enviados o fallidos. En el caso de los correos electrónicos, puede reaccionar a los mensajes en los que se ha hecho clic, enviados, abiertos o fallidos. Ver [eventos de reacción](../building-journeys/reaction-events.md).
+Puede usar un evento **Reactions** para reaccionar ante los datos de seguimiento relacionados con un mensaje de Campaign Standard enviado dentro del mismo recorrido. Para las notificaciones push, puede reaccionar a los mensajes en los que se ha hecho clic, enviados o fallidos. En el caso de los mensajes SMS, puede reaccionar a los mensajes enviados o fallidos. En el caso de los correos electrónicos, puede reaccionar a los mensajes en los que se ha hecho clic, enviados, abiertos o fallidos. Ver [eventos de reacción](../building-journeys/reaction-events.md).
 
 Si utiliza un sistema de terceros para enviar mensajes, debe agregar y configurar una acción personalizada. Consulte [Acerca de la configuración de acciones personalizadas](../action/about-custom-action-configuration.md).
