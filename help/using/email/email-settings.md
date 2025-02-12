@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 307655ebfb161ab5023430be801c46b378326ccd
+source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1471'
 ht-degree: 96%
 
 ---
@@ -182,16 +182,6 @@ Debe introducir un valor entero (en horas o minutos) dentro del siguiente interv
 Obtenga más información sobre los reintentos en [esta sección](../configuration/retries.md).
 
 ## Seguimiento de URL {#url-tracking}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_utm"
->title="Definir los parámetros de seguimiento de URL"
->abstract="Utilice esta sección para adjuntar automáticamente parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico. Esta función es opcional."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_url_preview"
->title="Previsualizar los parámetros de seguimiento de URL"
->abstract="Revise cómo se adjuntarán los parámetros de seguimiento a las direcciones URL presentes en el contenido del correo electrónico."
 
 Puede usar **[!UICONTROL parámetros de seguimiento de URL]** para medir la eficacia de sus esfuerzos de marketing entre canales. [Más información](url-tracking.md)
 
