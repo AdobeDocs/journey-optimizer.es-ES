@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
+source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 18%
 
 ---
@@ -29,7 +29,7 @@ Para agregar una acción de canal integrada al recorrido, arrastre y suelte una 
 
 >[!NOTE]
 >
->También puede configurar acciones personalizadas para enviarle mensajes. [Más información](#recommendation)
+>También puede configurar acciones personalizadas para enviar los mensajes en [!DNL Journey Optimizer] [Más información](#recommendation)
 
 ## Añadir un mensaje en un recorrido  {#add-msg-in-journey}
 
