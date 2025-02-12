@@ -3,16 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Creación de configuraciones de canal
 description: Obtenga información sobre cómo configurar y monitorizar las configuraciones de canal
-feature: Surface, Channel Configuration
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1737'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -73,7 +73,7 @@ Para crear una configuración de canal, siga estos pasos:
 
    >[!NOTE]
    >
-   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto`.` y guión `-`.
+   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto `.` y guion `-`.
 
 1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
@@ -143,7 +143,7 @@ Una vez creadas, las configuraciones de canal pueden tener los siguientes estado
 
 En caso de que falle la creación de una configuración de canal, a continuación se describen los detalles de cada posible motivo de error.
 
-Si se produce uno de estos errores, póngase en contacto con el servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} para obtener ayuda.
+Si se produce uno de estos errores, comuníquese con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} para obtener ayuda.
 
 * **Error de validación de SPF**: SPF (Marco de Política del Remitente) es un protocolo de autenticación de correo electrónico que permite especificar direcciones IP autorizadas que pueden enviar correos electrónicos desde un subdominio determinado. Un error de validación de SPF significa que las direcciones IP del registro SPF no coinciden con las direcciones IP utilizadas para enviar correos electrónicos a los proveedores de buzones de correo.
 

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Administración de exclusión de correo electrónico
 description: Obtenga información sobre cómo administrar la exclusión con correos electrónicos
-feature: Email Design, Privacy
+feature: Email Design, Consent Management
 topic: Content Management
 role: User
 level: Intermediate
 keywords: exclusión, correo electrónico, vínculo, cancelación de suscripción
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 22%
