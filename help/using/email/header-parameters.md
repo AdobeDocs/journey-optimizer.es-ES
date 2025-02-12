@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 93%
@@ -44,7 +44,7 @@ Al configurar una nueva [configuración del canal de correo electrónico](email-
 >
 >Las direcciones deben comenzar por una letra (A-Z) y solo pueden contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto `.` y guion `-`.
 
-### Responder a (correo electrónico) {#reply-to-email}
+## Responder a (correo electrónico) {#reply-to-email}
 
 Al definir la dirección **[!UICONTROL Responder a (correo electrónico)]**, puede especificar cualquier dirección de correo electrónico siempre que sea válida, tenga el formato correcto y no contenga errores tipográficos.
 
@@ -66,7 +66,7 @@ Si se produce un error al enviar la configuración de correo electrónico, signi
 >
 >Si el subdominio de la dirección que ha introducido es un dominio que se [delegó completamente](../configuration/delegate-subdomain.md#full-subdomain-delegation) a Adobe, póngase en contacto con su ejecutivo de cuentas de Adobe.
 
-### Correo electrónico de reenvío {#forward-email}
+## Correo electrónico de reenvío {#forward-email}
 
 Para reenviar a una dirección de correo electrónico específica todos los mensajes de correo electrónico recibidos por [!DNL Journey Optimizer] para el subdominio delegado, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
