@@ -7,8 +7,8 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Consulte las secciones siguientes para configurar su primer recorrido, agregar o
 
    ![](../assets/perso_ee2.png)
 
-1. **Creación y administración de recursos**. [!DNL Adobe Experience Manager Assets] proporciona un único repositorio centralizado de recursos que puede utilizar para completar los mensajes. Obtenga más información [en esta sección](../../content-management/assets.md).
+1. **Creación y administración de recursos**. [!DNL Adobe Experience Manager Assets] proporciona un único repositorio centralizado de recursos que puede utilizar para completar los mensajes. Obtenga más información [en esta sección](../../integrations/assets.md).
 
 1. **Agregar ofertas**. Utilice [!DNL Journey Optimizer] para ofrecer la mejor oferta y experiencia a sus clientes en todos los puntos de contacto y en el momento adecuado. Una vez diseñados, los públicos se segmentarán con ofertas personalizadas. Obtenga más información sobre la gestión de deciones [en esta sección](../../offers/get-started/starting-offer-decisioning.md).
 

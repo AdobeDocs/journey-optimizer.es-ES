@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: contenido, editor, correo electrónico, inicio
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 54%
@@ -92,7 +92,7 @@ Para empezar a crear contenido, siga los pasos a continuación:
 
    ![](assets/email_designer_structure_component.png)
 
-1. Desde el **[!UICONTROL Selector de recursos]**, puede seleccionar directamente los recursos almacenados en la **[!UICONTROL biblioteca de Assets]**. [Más información acerca de la administración de recursos](../content-management/assets.md)
+1. Desde el **[!UICONTROL Selector de recursos]**, puede seleccionar directamente los recursos almacenados en la **[!UICONTROL biblioteca de Assets]**. [Más información acerca de la administración de recursos](../integrations/assets.md)
 
    Haga doble clic en la carpeta que contiene los recursos. Arrástrelos y suéltelos en un componente de estructura.
 

@@ -6,7 +6,7 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 7e5dbd6106b8a5ffd9bee8b1364a7bf5b995668c
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 4%
@@ -61,7 +61,7 @@ El campo **[!UICONTROL Medios]** le permite mejorar sus tarjetas de contenido me
 
 ![](assets/content-card-design-3.png)
 
-Para incluir contenido multimedia, escribe la URL del contenido multimedia que quieras usar o haz clic en el icono **[!UICONTROL Seleccionar Assets]** para elegir entre los recursos almacenados en tu biblioteca de Assets. [Más información acerca de la administración de recursos](../content-management/assets.md).
+Para incluir contenido multimedia, escribe la URL del contenido multimedia que quieras usar o haz clic en el icono **[!UICONTROL Seleccionar Assets]** para elegir entre los recursos almacenados en tu biblioteca de Assets. [Más información acerca de la administración de recursos](../integrations/assets.md).
 
 <!--
 +++More options with advanced formatting

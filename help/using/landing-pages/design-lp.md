@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing, landing page, diseño, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 13%
@@ -24,9 +24,9 @@ Para empezar a crear contenido para tu [página principal](create-lp.md#configur
 
 A partir de ahí, puede:
 
-* **Diseña tu página de aterrizaje desde cero** a través de la interfaz del diseñador de contenido y aprovecha las imágenes de [Adobe Experience Manager Assets](../content-management/assets.md). Aprenda a diseñar el contenido <!--or use built-in templates--> [en esta sección](../email/content-from-scratch.md).
+* **Diseña tu página de aterrizaje desde cero** a través de la interfaz del diseñador de contenido y aprovecha las imágenes de [Adobe Experience Manager Assets](../integrations/assets.md). Aprenda a diseñar el contenido <!--or use built-in templates--> [en esta sección](../email/content-from-scratch.md).
 
-* **Codifique o pegue el HTML sin procesar** directamente en el diseñador de contenido. Aprenda a codificar su propio contenido [en esta sección](../email/code-content.md).
+* **Codifique o pegue HTML sin procesar** directamente en el diseñador de contenido. Aprenda a codificar su propio contenido [en esta sección](../email/code-content.md).
 
 * **Importe contenido de HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido [en esta sección](../email/existing-content.md).
 

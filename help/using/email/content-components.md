@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: componentes, diseñador de correo electrónico, editor, correo electrónico
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 52%
+ht-degree: 50%
 
 ---
 
@@ -102,7 +102,7 @@ Utilice el componente **[!UICONTROL Botón]** para insertar uno o varios botones
 
 ## Texto {#text}
 
-Utilice el componente **[!UICONTROL Texto]** para insertar texto en el correo electrónico y ajustar el estilo (borde, tamaño, relleno, etc.) usando la ficha **[!UICONTROL Estilos]**.
+Use el componente **[!UICONTROL Texto]** para insertar texto en el correo electrónico y ajustar el estilo (borde, tamaño, relleno, etc.) con la ficha **[!UICONTROL Estilos]**.
 
 ![](assets/email_designer_text_component.png)
 
@@ -121,7 +121,7 @@ Utilice el componente **[!UICONTROL Texto]** para insertar texto en el correo el
    * **Tamaño de fuente**: seleccionar el tamaño de fuente del texto en píxeles.
    * **[!UICONTROL Cambiar color de fuente]**: elija el color de la fuente.
    * **[!UICONTROL Insertar vínculo]**: agregue cualquier tipo de vínculo al contenido.
-   * **[!UICONTROL Editar imagen]**: agregue una imagen o un recurso al componente de texto. [Más información acerca de la administración de recursos](../content-management/assets.md)
+   * **[!UICONTROL Editar imagen]**: agregue una imagen o un recurso al componente de texto. [Más información acerca de la administración de recursos](../integrations/assets.md)
    * **[!UICONTROL Cambiar color de fuente]**: elija el color de la fuente.
    * **[!UICONTROL Agregar personalización]**: agregue campos de personalización para personalizar el contenido de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
    * **[!UICONTROL Mostrar el código fuente]**: mostrar el código fuente del texto. No se puede modificar.
@@ -184,7 +184,7 @@ Utilice el componente **[!UICONTROL Image]** para insertar un archivo de imagen 
 
    ![](assets/email_designer_10.png)
 
-1. También puedes elegir **[!UICONTROL Buscar fotos similares de Stock]**. [Más información](../content-management/stock.md)
+1. También puedes elegir **[!UICONTROL Buscar fotos similares de Stock]**. [Más información](../integrations/stock.md)
 
 1. En la ficha **[!UICONTROL Estilos]**, ajuste los demás atributos de estilo como margen, borde, etc. o añada un enlace para redirigir a su público a otro contenido desde el panel **[!UICONTROL Configuración de componentes]**.
 

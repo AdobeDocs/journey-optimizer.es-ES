@@ -5,8 +5,8 @@ description: Aprenda a utilizar Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: a1502d2fa13508650cb9353e53ab3a43de650c27
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ Con el canal web, Adobe Journey Optimizer permite personalizar la experiencia we
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>Administración de contenido</strong><br/><a href="using/content-management/assets.md">Recursos e imágenes</a> - <a href="using/personalization/personalize.md">Personalización</a> - <a href="using/content-management/content-templates.md">Contenido </a>reutilizable<a href="using/personalization/dynamic-content.md"> y </a>dinámico - <a href="using/content-management/preview-test.md">Prueba y vista previa de contenido</a>
+      <strong>Administración de contenido</strong><br/><a href="using/integrations/assets.md">Recursos e imágenes</a> - <a href="using/personalization/personalize.md">Personalización</a> - <a href="using/content-management/content-templates.md">Contenido </a>reutilizable<a href="using/personalization/dynamic-content.md"> y </a>dinámico - <a href="using/content-management/preview-test.md">Prueba y vista previa de contenido</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>

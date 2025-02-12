@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 3%
@@ -34,13 +34,13 @@ Para poder acceder y crear páginas web en la interfaz de usuario de [!DNL Journ
 
 Se admiten dos tipos de implementaciones para habilitar la creación y el envío de campañas de canal web en las propiedades web:
 
-* Solo del lado del cliente: para agregar modificaciones al sitio web, debe implementar el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"} en el sitio web.
+* Solo del lado del cliente: para agregar modificaciones al sitio web, debe implementar [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"} en el sitio web.
 
   >[!NOTE]
   >
-  >Compruebe que la versión del SDK web de [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"} sea la 2.16 o superior.
+  >Compruebe que su [versión de Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"} sea la 2.16 o superior.
 
-* Modo híbrido: puede utilizar la [API de servidor Edge Network de AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} para solicitar la personalización del lado del servidor; la respuesta se proporciona al SDK web de Adobe Experience Platform para procesar las modificaciones del lado del cliente. Obtenga más información en la [documentación de la API de Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"} de Adobe Experience Platform. Puede obtener más información sobre el modo híbrido y ver algunos ejemplos de implementación en [esta publicación de blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* Modo híbrido: puede utilizar la [API de servidor de Edge Network de AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es){target="_blank"} para solicitar la personalización del lado del servidor; la respuesta se proporciona al SDK web de Adobe Experience Platform para procesar las modificaciones del lado del cliente. Obtenga más información en la [Documentación de la API de Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"} de Adobe Experience Platform. Puede obtener más información sobre el modo híbrido y ver algunos ejemplos de implementación en [esta publicación de blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ En el caso de las páginas que se están autenticando, si la página de inicio d
 
 1. Intente iniciar sesión primero en una nueva ficha del explorador y navegar a la página deseada. A continuación, copie la dirección URL e intente abrirla en el diseñador web [!DNL Journey Optimizer].
 
-2. Si sigue sin poder cargar el sitio web en el diseñador web de [!DNL Journey Optimizer], póngase en contacto con el Servicio de atención al cliente de Adobe para informar del problema y asegúrese de especificar la dirección URL con error.
+2. Si sigue sin poder cargar el sitio web en el diseñador web [!DNL Journey Optimizer], póngase en contacto con el Servicio de atención al cliente de Adobe para informar del problema y asegúrese de especificar la dirección URL que produce el error.
 
 ## Requisitos previos de envío {#delivery-prerequisites}
 
@@ -150,4 +150,4 @@ Si **no** usa los siguientes [grupos de campos](https://experienceleague.adobe.c
 
 ## Dominios de marca para recursos {#branded-domains-for-assets}
 
-Al crear experiencias web, si agrega contenido proveniente de la biblioteca [Adobe Experience Manager Assets](../content-management/assets.md), debe configurar el subdominio que se utilizará para publicar este contenido. [Más información](web-delegated-subdomains.md)
+Al crear experiencias web, si agrega contenido proveniente de la biblioteca [Adobe Experience Manager Assets](../integrations/assets.md), debe configurar el subdominio que se utilizará para publicar este contenido. [Más información](web-delegated-subdomains.md)

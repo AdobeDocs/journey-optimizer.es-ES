@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, subdominios, configuración
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 24%
@@ -32,9 +32,9 @@ ht-degree: 24%
 >title="Definición de un subdominio web"
 >abstract="Seleccione un subdominio de la lista de subdominios delegados en Adobe. Puede establecer este subdominio web como el predeterminado, pero solo se puede utilizar un subdominio predeterminado a la vez."
 
-Al crear experiencias web, si agrega contenido proveniente de la biblioteca [Adobe Experience Manager Assets](../content-management/assets.md), debe configurar el subdominio que se utilizará para publicar este contenido.
+Al crear experiencias web, si agrega contenido proveniente de la biblioteca [Adobe Experience Manager Assets](../integrations/assets.md), debe configurar el subdominio que se utilizará para publicar este contenido.
 
-Puede utilizar un subdominio que ya esté delegado al Adobe o puede configurar otro subdominio. Obtenga más información sobre la delegación de subdominios al Adobe en [esta sección](../configuration/delegate-subdomain.md).
+Puede utilizar un subdominio que ya se haya delegado a Adobe o configurar otro. Obtenga más información sobre la delegación de subdominios a Adobe en [esta sección](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
@@ -66,7 +66,7 @@ Puede crear varios subdominios web, pero solo se utilizará el subdominio **defa
 
 ## Usar un subdominio existente {#web-use-existing-subdomain}
 
-Para utilizar un subdominio que ya se haya delegado al Adobe, siga los pasos a continuación.
+Para utilizar un subdominio que ya se haya delegado a Adobe, siga los pasos a continuación.
 
 1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** y, a continuación, seleccione **[!UICONTROL Configuración web]** > **[!UICONTROL subdominios web]**.
 
@@ -125,7 +125,7 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
 
    ![](assets/web-add-your-own-domain.png)
 
-   No se permite delegar un subdominio no válido al Adobe. Asegúrese de introducir un subdominio válido que sea propiedad de su organización, como marketing.yourcompany.com.
+   No se permite delegar un subdominio no válido a Adobe. Asegúrese de introducir un subdominio válido que sea propiedad de su organización, como marketing.yourcompany.com.
 
    >[!NOTE]
    >
@@ -151,7 +151,7 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Antes de poder utilizar ese subdominio para enviar mensajes web, debe esperar hasta que el Adobe realice las comprobaciones necesarias, que pueden tardar hasta cuatro horas.
+   >Antes de poder utilizar ese subdominio para enviar mensajes web, debe esperar hasta que Adobe realice las comprobaciones necesarias, que pueden tardar hasta cuatro horas.
 
 1. Una vez que las comprobaciones son correctas, el subdominio obtiene el estado **[!UICONTROL Success]**. Está listo para utilizarse para crear configuraciones de canal web.
 

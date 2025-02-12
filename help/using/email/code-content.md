@@ -9,7 +9,7 @@ role: User
 level: Intermediate, Experienced
 keywords: código, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 68%
@@ -24,7 +24,7 @@ Utilice el modo **[!UICONTROL Codifique su propio contenido]** para importar el 
 
 >[!CAUTION]
 >
-> No se puede hacer referencia a las imágenes de [Adobe Experience Manager Assets](../content-management/assets.md) al utilizar este método. Las imágenes a las que se hace referencia en el código de HTML deben almacenarse en una ubicación pública.
+> No se puede hacer referencia a las imágenes de [Adobe Experience Manager Assets](../integrations/assets.md) al utilizar este método. Las imágenes a las que se hace referencia en el código HTML deben almacenarse en una ubicación pública.
 
 1. En la página de inicio de Designer de correo electrónico, seleccione **[!UICONTROL Codifique su propio código]**.
 

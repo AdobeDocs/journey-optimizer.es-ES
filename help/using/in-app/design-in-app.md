@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, diseño, formato
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 28%
@@ -58,13 +58,13 @@ En la sección **[!UICONTROL Diseño del mensaje]**, seleccione una de las cuatr
 
   Solo puedes agregar un **[!UICONTROL Encabezado]** y un **[!UICONTROL Cuerpo]** a tu mensaje.
 
-* **[!UICONTROL Personalizado]**: el modo de mensaje personalizado le permite importar y editar directamente uno de los mensajes preconfigurados del HTML.
+* **[!UICONTROL Personalizado]**: el modo de mensaje personalizado le permite importar y editar directamente uno de sus mensajes preconfigurados de HTML.
 
-   * Seleccione **[!UICONTROL Componer]** para ingresar o pegar su código de HTML sin procesar.
+   * Seleccione **[!UICONTROL Componer]** para ingresar o pegar su código HTML sin procesar.
 
      Utilice el panel izquierdo para aprovechar las funcionalidades de personalización de Journey Optimizer. Para obtener más información, consulte [esta sección](../personalization/personalize.md).
 
-   * Seleccione **[!UICONTROL Import]** para importar el archivo HTML o .zip que contiene el contenido del HTML.
+   * Seleccione **[!UICONTROL Import]** para importar el archivo HTML o .zip que contiene el contenido de HTML.
 
 ## Pestaña Contenido {#content-tab}
 
@@ -104,7 +104,7 @@ El campo **[!UICONTROL Medios]** le permite agregar contenido multimedia al mens
 
 ![](assets/in_app_web_design_3.png)
 
-Escriba su URL de medios o haga clic en el icono **[!UICONTROL Seleccionar Assets]** para agregar directamente a su mensaje en la aplicación los recursos almacenados en su biblioteca de Assets. [Más información acerca de la administración de recursos](../content-management/assets.md).
+Escriba su URL de medios o haga clic en el icono **[!UICONTROL Seleccionar Assets]** para agregar directamente a su mensaje en la aplicación los recursos almacenados en su biblioteca de Assets. [Más información acerca de la administración de recursos](../integrations/assets.md).
 También puede agregar **[!UICONTROL texto alternativo]** para las aplicaciones de lectura de pantalla.
 
 +++Más opciones con formato avanzado
@@ -246,7 +246,7 @@ Si el **[!UICONTROL modo de formato avanzado]** está activado, puede personaliz
 * [Informe en la aplicación](../reports/campaign-global-report-cja-inapp.md)
 * [Configuración en la aplicación](inapp-configuration.md)
 
-## Vídeo explicativo{#video}
+## Vídeo práctico{#video}
 
 El siguiente vídeo muestra cómo crear y probar los mensajes en la aplicación.
 
