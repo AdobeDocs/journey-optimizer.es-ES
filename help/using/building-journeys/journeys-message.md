@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
+source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 27%
+source-wordcount: '491'
+ht-degree: 18%
 
 ---
 
@@ -23,23 +23,30 @@ ht-degree: 27%
 >title="Acción de canal integrada"
 >abstract="Journey Optimizer incluye funcionalidades de acción de canal integradas. Basta con añadir a su recorrido una actividad saliente (correo electrónico, mensaje de texto SMS/MMS, push) o entrante (aplicación, web, experiencia basada en código, tarjeta de contenido) y definir la configuración y el contenido. A continuación, se ejecuta y envía en el contexto del recorrido."
 
-[!DNL Journey Optimizer] viene con funcionalidades de acción de canal integradas. Basta con añadir a su recorrido una actividad saliente (correo electrónico, mensaje de texto SMS/MMS, push) o entrante (aplicación, web, experiencia basada en código, tarjeta de contenido) y definir la configuración y el contenido. A continuación, se ejecuta y envía en el contexto del recorrido.
+[!DNL Journey Optimizer] viene con funcionalidades de acción de canal integradas que se utilizan para enviar mensajes: cuando un perfil entra en esta actividad, se les envía un mensaje.
+
+Para agregar una acción de canal integrada al recorrido, arrastre y suelte una actividad de canal y defina su configuración y contenido. A continuación, se ejecuta y envía en el contexto del recorrido.
 
 >[!NOTE]
 >
->También puede configurar acciones específicas para enviarle mensajes. [Más información](#recommendation)
+>También puede configurar acciones personalizadas para enviarle mensajes. [Más información](#recommendation)
+
+## Añadir un mensaje en un recorrido  {#add-msg-in-journey}
+
+Con las acciones de canal integradas, puede configurar los mensajes salientes o entrantes. Los canales entrantes admitidos son el correo electrónico, los mensajes de texto (SMS/MMS) y las notificaciones push. Los canales salientes admitidos son la experiencia en la aplicación, la web, basada en código y la tarjeta de contenido.
 
 Para añadir una acción de canal integrada a un recorrido, siga los pasos a continuación.
 
 1. Inicie el recorrido con una actividad [Event](general-events.md) o [Read Audience](read-audience.md).
 
-1. En la sección **Acciones** de la paleta, arrastre y suelte una actividad de salida (**correo electrónico**, **push**, **SMS**) o de entrada (**en la aplicación**, **web**, **experiencia basada en código**, **tarjeta de contenido**) en el lienzo.
+1. En la sección **Acciones** de la paleta, arrastre y suelte una actividad de canal en el lienzo.
 
    ![](assets/journey-web-activity.png)
 
-1. Configure su actividad.
 
-   * Conozca los pasos detallados para crear el contenido del mensaje de la siguiente manera:
+1. Configure su actividad. Encontrará instrucciones de configuración detalladas en los vínculos siguientes.
+
+   * Conozca los pasos detallados para crear su acción saliente de la siguiente manera:
 
      <table style="table-layout:fixed">
       <tr style="border: 0;">
