@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '444'
 ht-degree: 27%
 
 ---
@@ -72,6 +72,10 @@ Para añadir una acción de canal integrada a un recorrido, siga los pasos a con
       </tr>
       </table>
 
+     >[!NOTE]
+     >
+     >Para los correos electrónicos y las notificaciones push, puede activar la Optimización del tiempo de envío. [Más información](send-time-optimization.md)
+
    * Conozca los pasos detallados para crear su acción entrante de la siguiente manera:
 
      <table style="table-layout:fixed">
@@ -114,20 +118,10 @@ Para añadir una acción de canal integrada a un recorrido, siga los pasos a con
 
      >[!NOTE]
      >
-     >Cada actividad de mensaje entrante viene con una actividad de **Wait** de 3 días. [Más información](../building-journeys/wait-activity.md#auto-wait-node)
+     >Cada actividad de mensaje entrante viene con una actividad de **Wait** de 3 días. [Más información](wait-activity.md#auto-wait-node)
 
-## Recomendación {#recommendation}
 
-[!DNL Journey Optimizer] viene con capacidad de envío de mensajes integrada. Sin embargo, las acciones personalizadas le permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API.
-
-* Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada. [Más información](../action/action.md)
-
-* Si está trabajando con Campaign y Journey Optimizer, consulte estas secciones:
-
-   * [[!DNL Journey Optimizer] y Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] y Campaign Standard](../action/acs-action.md)
-
-## Actualización de contenido en directo{#update-live-content}
+## Actualización de contenido en directo {#update-live-content}
 
 Puede actualizar el contenido de una acción de canal integrada en un recorrido en directo.
 
@@ -137,8 +131,19 @@ Para ello, abre el recorrido en vivo, selecciona la actividad del canal y haz cl
 
 Sin embargo, no se pueden cambiar los atributos utilizados en la personalización, ya sean atributos de perfil o datos contextuales (de propiedades de evento o recorrido).
 
-Si ha modificado datos contextuales, aparecerá el siguiente mensaje de error: ERR_AUTHORING_JOURNEYVERSION_201
+Si ha modificado datos contextuales, se mostrará el siguiente mensaje de error: `ERR_AUTHORING_JOURNEYVERSION_201`
 
-Si ha modificado los atributos de perfil, aparecerá el siguiente mensaje de error: ERR_AUTHORING_JOURNEYVERSION_202
+Si ha modificado los atributos de perfil, se mostrará el siguiente mensaje de error: `ERR_AUTHORING_JOURNEYVERSION_202`
 
 Tenga en cuenta que para la actividad en la aplicación, cualquier cambio se puede realizar en el contenido mientras el recorrido está activo, pero los déclencheur en la aplicación no se pueden modificar.
+
+## Enviar con acciones personalizadas {#recommendation}
+
+En lugar de utilizar las funciones de mensajes integradas, puede utilizar acciones personalizadas para configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API.
+
+* Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada. [Más información](../action/action.md)
+
+* Si está trabajando con Adobe Campaign, consulte estas secciones:
+
+   * [[!DNL Journey Optimizer] y Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] y Campaign Standard](../action/acs-action.md)
