@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
+source-git-commit: 6bcfbc835a61aa326d4ee548722a6ad6e2942ea2
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 18%
 
 ---
@@ -49,7 +49,7 @@ Para crear una campaña de correo postal, siga estos pasos:
 
    >[!IMPORTANT]
    >
-   >Por ahora, la selección de audiencias está restringida a 3 millones de perfiles. Esta limitación puede levantarse si se solicita al representante del Adobe.
+   >Por ahora, la selección de audiencias está restringida a 3 millones de perfiles. Esta limitación se puede eliminar si se lo solicita su representante de Adobe.
 
 1. En el campo **[!UICONTROL Área de nombres de identidad]**, seleccione el área de nombres adecuada para identificar a los individuos dentro de la audiencia elegida. [Más información](../event/about-creating.md#select-the-namespace).
 
@@ -85,7 +85,7 @@ Los proveedores de correo postal requieren el archivo de extracción para enviar
 
       >[!NOTE]
       >
-      >De forma predeterminada, el archivo se escribe en el directorio raíz. El campo **[!UICONTROL Filename]** acepta el formato &quot;/your/path/here/Filename.csv&quot;, donde la ruta especificada es el directorio de destino en el servidor seleccionado. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
+      >De forma predeterminada, el archivo se escribe en el directorio raíz del servidor. El campo **[!UICONTROL Filename]** también acepta el formato &quot;/your/path/here/Filename.csv&quot;, donde la ruta especificada es el directorio de destino en el servidor seleccionado. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. De manera opcional, habilite la opción **[!UICONTROL Anexar marca de tiempo para exportar el nombre de archivo]** si desea agregar una marca de tiempo automática al nombre de archivo especificado.
 
