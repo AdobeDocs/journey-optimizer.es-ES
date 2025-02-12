@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: exclusión, correo electrónico, vínculo, cancelación de suscripción
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 23%
+source-wordcount: '1313'
+ht-degree: 22%
 
 ---
 
@@ -37,7 +37,7 @@ Para insertar un vínculo de baja en el contenido del correo electrónico, puede
 
 Con [!DNL Adobe Journey Optimizer], puede configurar sus [opciones de configuración del correo electrónico](email-settings.md#list-unsubscribe) con una dirección de correo electrónico de cancelación de suscripción y cancelación de suscripción generada automáticamente con un solo clic en el encabezado del correo electrónico, o incluir una dirección URL de exclusión con un solo clic en el cuerpo del correo electrónico.
 
-Cuando un destinatario hace clic en el vínculo de no participación de un solo clic, la solicitud de cancelación de suscripción del destinatario se procesa en consecuencia.
+Cuando un destinatario hace clic en el vínculo de no participación de un solo clic, la solicitud de cancelación de suscripción de ese destinatario se procesa en consecuencia.
 
 ### URL de cancelación de suscripción de un clic en el encabezado del correo electrónico {#unsubscribe-header}
 
@@ -82,7 +82,7 @@ Según el cliente de correo electrónico y la [configuración de correo electró
 
 ![](../email/assets/surface-list-unsubscribe-mailto.png){width="80%"}
 
-En ambos casos, el perfil correspondiente del destinatario se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [documentación para Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
+En ambos casos, el perfil correspondiente del destinatario se excluye inmediatamente y esta opción se actualiza en Experience Platform. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
 
 Si ha activado la opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]** en la [configuración de correo electrónico](email-settings.md#list-unsubscribe), le recomendamos que habilite ambos métodos: **Mailto (cancelación de suscripción)** y **URL de cancelación de suscripción con un solo clic**. No todos los clientes de correo electrónico admiten el método HTTP. Con la función de cancelación de suscripción a una lista Mailto que se proporciona para que seleccione una alternativa, su reputación de remitente puede estar mejor protegida y todos sus destinatarios pueden tener acceso para utilizar la funcionalidad de cancelación de suscripción. [Más información](email-settings.md#list-unsubscribe)
 
@@ -145,7 +145,7 @@ Parámetros de consulta:
 * **params**: contiene la carga útil cifrada
 * **pid**: ID de perfil cifrado
 
-Estos tres parámetros se incluyen en la dirección URL de la página de aterrizaje de terceros que se envía al destinatario:
+Estos dos parámetros se incluyen en la dirección URL de la página de aterrizaje de terceros que se envía al destinatario:
 
 ![](assets/opt-out-parameters.png)
 
@@ -215,7 +215,7 @@ Una vez configurado el vínculo &quot;Cancelar la suscripción&quot; a la págin
 
    Como resultado, este usuario no recibirá comunicaciones de su marca a menos que se vuelva a suscribir.
 
-1. Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [documentación para Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
+1. Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
 
    ![](assets/opt-out-profile-choice.png)
 

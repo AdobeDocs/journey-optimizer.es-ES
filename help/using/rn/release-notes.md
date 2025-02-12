@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2270'
-ht-degree: 96%
+source-wordcount: '2346'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,25 @@ ht-degree: 96%
 
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión. [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información acerca de estos cambios en [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
-## Actualizaciones de enero de 2025 {#25-01-rn}
+## Últimas actualizaciones del 25 {#25-01-rn}
+
+### Mejora de febrero {#25-02-improvements}
+
+La mejora que se muestra a continuación viene con la actualización de febrero.
+
+**Configuración de correo electrónico** - Fecha de disponibilidad: 10 de febrero de 2025
+
+* Si administra el consentimiento fuera de Adobe, ahora puede establecer una dirección de correo electrónico personalizada para cancelar la suscripción y una URL personalizada para cancelar la suscripción con un solo clic como parte de la configuración de su canal de correo electrónico. [Más información](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+  >[!AVAILABILITY]
+  >
+  >Esta capacidad se lanza con disponibilidad limitada (LA) para un pequeño conjunto de clientes.
+
+### Nuevas funciones {#25-01-features}
+
+A continuación se describen las nuevas funciones lanzadas en enero.
 
 <table>
 <thead>
@@ -59,9 +77,9 @@ ht-degree: 96%
 </tbody>
 </table>
 
-### Mejoras {#25-01-improvements}
+### Mejoras de enero {#25-01-improvements}
 
-Esta versión incorpora las mejoras que se enumeran a continuación.
+A continuación, se enumeran las mejoras publicadas en enero.
 
 **Decisioning**
 
