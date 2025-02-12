@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '6024'
-ht-degree: 98%
+source-wordcount: '6051'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,8 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Se ha agregado una sección &quot;Protecciones y limitaciones&quot; a la documentación de las herramientas de administración de conflictos y priorización. [Más información](../conflict-prioritization/gs-conflict-prioritization.md)
 
 * Se ha agregado un nuevo caso de uso de extremo a extremo para presentar todos los pasos necesarios para utilizar Decisioning en experimentos de contenido con el canal de experiencia basado en código [!DNL Journey Optimizer]. [Más información](../experience-decisioning/experience-decisioning-uc.md)
+
+* La página **Configurar la configuración del correo electrónico** se ha dividido en varias páginas secundarias para mejorar la legibilidad, incluidas las nuevas páginas independientes dedicadas a [Cancelar la suscripción a una lista](../email/list-unsubscribe.md), [Parámetros de encabezado](../email/header-parameters.md) y [Seguimiento de URL](../email/url-tracking.md).
 
 ## Diciembre de 2024 {#nov-2024}
 
