@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: tiempo de envío, envío, mensaje, optimización, recorrido, IA, inteligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: a0ace8232d6851b7cd41ba4d8a06a2a42bb799e6
+source-git-commit: 78b8b4d6e8cf49ab39150b7bc412bef009bbad2b
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1485'
 ht-degree: 8%
 
 ---
@@ -33,30 +33,24 @@ ht-degree: 8%
 >title="Activación de la optimización del tiempo de envío"
 >abstract="Los mensajes push tienen por defecto la opción de apertura, ya que los clics no se aplican a la mensajería push. También puede optar por poner entre paréntesis los tiempos de envío utilizados por el sistema introduciendo un valor para la opción Enviar dentro de los próximos."
 
-
 La función de optimización del tiempo de envío de Adobe Journey Optimizer, con tecnología de los servicios de IA de Recorrido de Adobe, elige el tiempo de envío óptimo para los mensajes de correo electrónico y push para maximizar la participación de los clientes, en función del comportamiento histórico de apertura y clic de estos.
 
 La optimización del tiempo de envío solo está disponible para los tipos de acción push y de correo electrónico integrados de Journey Optimizer, y no está disponible actualmente para los mensajes enviados mediante acciones personalizadas o para otros tipos de acción. La optimización del tiempo de envío solo está disponible para acciones push y de correo electrónico dentro de los Recorridos y, actualmente, no lo está para mensajes enviados a través de campañas.
 
 >[!AVAILABILITY]
 >
->* Se recomiendan al menos 1000 perfiles con datos de mensajería recientes para la formación y puntuación iniciales sobre optimización del tiempo de envío.
+>* La función Optimización del tiempo de envío está habilitada para clientes de Adobe Journey Optimizer que la soliciten. Póngase en contacto con el Servicio de atención al cliente de Adobe o con su representante de Adobe para activar la función para su organización.
 >
 >* La optimización del tiempo de envío solo se aplica a los canales **Correo electrónico** y **Notificación push**.
-
-## Habilitar optimización del tiempo de envío{#enable-send-time-optimization}
-
-La función Optimización del tiempo de envío está habilitada para clientes de Adobe Journey Optimizer que la soliciten. Póngase en contacto con el Servicio de atención al cliente de Adobe o con su representante de Adobe para activar la función para su organización.
+>
 
 ## Utilizar optimización del tiempo de envío{#use-send-time-optimization}
 
 Utilice la optimización del tiempo de envío en un correo electrónico o una acción push activando el conmutador Optimización del tiempo de envío desde los parámetros de acción.
 
-![](assets/sto-use.png)
+![](assets/jo-message5.png)
 
->[!TIP]
->
->La optimización del tiempo de envío no debe utilizarse para mensajes operativos urgentes y urgentes, como una confirmación de pedido, una notificación de restablecimiento de contraseña o una notificación de cambio de puerta de vuelo. La optimización del tiempo de envío se utiliza mejor en comunicaciones de marketing menos urgentes, por ejemplo, un anuncio semanal, información promocional de un nuevo producto o información sobre una venta de un mes.
+La optimización del tiempo de envío no debe utilizarse para mensajes operativos urgentes y urgentes, como una confirmación de pedido, una notificación de restablecimiento de contraseña o una notificación de cambio de puerta de vuelo. La optimización del tiempo de envío se utiliza mejor en comunicaciones de marketing menos urgentes, por ejemplo, un anuncio semanal, información promocional de un nuevo producto o información sobre una venta de un mes.
 
 Para los mensajes de correo electrónico, seleccione si desea optimizar las aperturas de correo electrónico o las pulsaciones de correo electrónico seleccionando el botón de opción adecuado. Los mensajes push siempre están optimizados para las aperturas.
 
