@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
+source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '493'
 ht-degree: 18%
 
 ---
@@ -79,10 +79,6 @@ Para añadir una acción de canal integrada a un recorrido, siga los pasos a con
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >Para los correos electrónicos y las notificaciones push, puede activar la Optimización del tiempo de envío. [Más información](send-time-optimization.md)
-
    * Conozca los pasos detallados para crear su acción entrante de la siguiente manera:
 
      <table style="table-layout:fixed">
@@ -123,9 +119,12 @@ Para añadir una acción de canal integrada a un recorrido, siga los pasos a con
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >Cada actividad de mensaje entrante viene con una actividad de **Wait** de 3 días. [Más información](wait-activity.md#auto-wait-node)
+>[!NOTE]
+>
+>* Cada actividad de mensaje entrante viene con una actividad de **Wait** de 3 días. [Más información](wait-activity.md#auto-wait-node)
+>
+>* Para los correos electrónicos y las notificaciones push, puede activar la Optimización del tiempo de envío. [Más información](send-time-optimization.md)
+
 
 
 ## Actualización de contenido en directo {#update-live-content}
