@@ -1,17 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuración de correo electrónico
-description: Obtenga información sobre cómo configurar la cancelación de suscripción a una lista en el nivel de configuración de canal
+title: Configurar cancelación de suscripción a lista
+description: Obtenga información sobre cómo incluir la URL "Cancelar la suscripción" de un solo clic en el encabezado de los correos electrónicos al establecer la configuración del canal
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
-source-git-commit: 8e299b90f601cd931940a64e691e186894d4012e
+exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 32%
+source-wordcount: '779'
+ht-degree: 31%
 
 ---
 
