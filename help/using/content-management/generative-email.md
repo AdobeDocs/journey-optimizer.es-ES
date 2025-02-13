@@ -1,40 +1,40 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generación de correo electrónico con el asistente de IA en Journey Optimizer Content Accelerator
-description: Empiece a generar contenido de correo electrónico y recursos con el acelerador de contenido del asistente de IA en Journey Optimizer
+title: Generación de correo electrónico con el asistente de IA en Journey Optimizer
+description: Empiece a generar contenido y recursos de correo electrónico con el asistente de IA en Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1563'
 ht-degree: 2%
 
 ---
 
-# Generación de correo electrónico con el acelerador de contenido del asistente de IA {#generative-email}
+# Generación de correo electrónico con el Asistente de IA  {#generative-email}
 
 >[!IMPORTANT]
 >
 >Antes de empezar a usar esta capacidad, lea las [Mecanismos de protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
 ></br>
 >
->Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el acelerador de contenido del asistente de IA en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
+>Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
-Después de crear y personalizar los correos electrónicos, aproveche la potencia del acelerador de contenido asistente de IA en Journey Optimizer, alimentado por IA generativa, para elevar el contenido.
+Después de crear y personalizar los correos electrónicos, aproveche la potencia del asistente de IA en Journey Optimizer, alimentado por IA generativa, para elevar el contenido.
 
-Utilice el acelerador de contenido asistente de IA en Journey Optimizer para mejorar la eficacia de sus campañas mediante la creación de correos electrónicos completos, fragmentos de texto personalizados e imágenes personalizadas que hablen directamente con su audiencia, lo que aumenta la participación y la interacción.
+Utilice el asistente de IA de Journey Optimizer para mejorar la eficacia de sus campañas mediante la creación de correos electrónicos completos, fragmentos de texto personalizados e imágenes personalizadas que hablen directamente con su audiencia, lo que aumenta la participación y la interacción.
 
-Explore las pestañas siguientes para aprender a utilizar el acelerador de contenido del asistente de IA en Journey Optimizer.
+Explore las pestañas siguientes para aprender a utilizar el asistente de IA en Journey Optimizer.
 
 >[!BEGINTABS]
 
 >[!TAB Generación completa de correo electrónico]
 
-En el siguiente ejemplo, aprovecharemos el acelerador de contenido del asistente de IA para refinar una plantilla de correo electrónico existente.
+En el siguiente ejemplo, utilizaremos el asistente de IA para refinar una plantilla de correo electrónico existente.
 
 1. Después de crear y configurar tu campaña de correo electrónico, haz clic en **[!UICONTROL Editar contenido]**.
 
@@ -44,7 +44,7 @@ En el siguiente ejemplo, aprovecharemos el acelerador de contenido del asistente
 
    ![](assets/full-email-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Usar contenido original]** para el acelerador de contenido del asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
+1. Habilite la opción **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
@@ -101,7 +101,7 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
 >[!TAB Generación de solo texto]
 
-En el siguiente ejemplo, aprovecharemos el acelerador de contenido del asistente de IA para mejorar el contenido de nuestro correo electrónico.
+En el siguiente ejemplo, utilizaremos el asistente de IA para mejorar el contenido de nuestro correo electrónico.
 
 1. Después de crear y configurar tu campaña de correo electrónico, haz clic en **[!UICONTROL Editar contenido]**.
 
@@ -111,7 +111,7 @@ En el siguiente ejemplo, aprovecharemos el acelerador de contenido del asistente
 
    ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Usar contenido original]** para el acelerador de contenido del asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
+1. Habilite la opción **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
@@ -163,19 +163,19 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
 >[!TAB Generación solo de imagen]
 
-En el siguiente ejemplo, aprenda a aprovechar el acelerador de contenido del asistente de IA para optimizar y mejorar sus recursos, lo que garantiza una experiencia más fácil de usar.
+En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar y mejorar sus recursos, lo que garantiza una experiencia más fácil de usar.
 
 1. Después de crear y configurar tu campaña de correo electrónico, haz clic en **[!UICONTROL Editar contenido]**.
 
    Para obtener más información sobre cómo configurar su campaña de correo electrónico, consulte [esta página](../email/create-email.md).
 
-1. Seleccione el recurso que desea cambiar con el acelerador de contenido del asistente de IA
+1. Seleccione el recurso que desea cambiar con el asistente de IA.
 
 1. En el menú de la derecha, seleccione **[!UICONTROL Asistente de IA]**.
 
    ![](assets/image-genai-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Estilo de referencia]** para el acelerador de contenido del asistente de IA a fin de personalizar el nuevo contenido en función del contenido de referencia. También puede cargar una imagen para añadir contexto a la variación.
+1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el asistente de IA personalice el nuevo contenido en función del contenido de referencia. También puede cargar una imagen para añadir contexto a la variación.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
@@ -219,6 +219,6 @@ En el siguiente ejemplo, aprenda a aprovechar el acelerador de contenido del asi
 
 ## Vídeo explicativo {#video}
 
-Aprenda a utilizar el acelerador de contenido del asistente de IA en Journey Optimizer para generar correos electrónicos, textos o imágenes completos.
+Aprenda a utilizar el asistente de IA en Journey Optimizer para generar correos electrónicos, textos o imágenes completos.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433552)

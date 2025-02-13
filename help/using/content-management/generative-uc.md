@@ -1,24 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Casos de uso del Ayudante de IA para el acelerador de contenido
-description: Descubra, a través de casos de uso, cómo utilizar el Asistente de IA para el acelerador de contenido
+title: Casos de uso del Asistente de IA
+description: Descubra, a través de casos de uso, cómo utilizar el asistente de IA
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 5798d4850ef9f8f2bc6761a9468fe6120460c524
+exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 0%
+source-wordcount: '529'
+ht-degree: 3%
 
 ---
 
-# Casos de uso del Ayudante de IA para el acelerador de contenido {#generative-uc}
+# Casos de uso del Asistente de IA {#generative-uc}
 
 >[!NOTE]
 >
->Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
+>Antes de empezar a usar esta capacidad, lea las [Mecanismos de protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
 
 ## Usar contenido existente
 
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 1. Abra la sección **[!UICONTROL Asistente de IA]**.
 
-1. Active la función **[!UICONTROL Usar contenido original]** en el asistente de IA para el acelerador de contenido para adaptar el nuevo contenido según los detalles de la campaña, incluidos el nombre de la campaña y la audiencia de destino.
+1. Activa la función **[!UICONTROL Usar contenido original]** del asistente de IA para adaptar el nuevo contenido según los detalles de la campaña, incluidos el nombre de la campaña y la audiencia de destino.
 
 1. Ajuste el contenido especificando la solicitud en el cuadro **[!UICONTROL Preguntar]** y personalice la configuración según sea necesario.
 
@@ -94,11 +95,11 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
 1. Después de configurar su campaña de correo electrónico, haga clic en **[!UICONTROL Editar contenido]**.
 
-1. Elija el recurso que desea modificar con el Ayudante de IA para el acelerador de contenido.
+1. Seleccione el recurso que desea modificar con el asistente de IA.
 
 1. En el menú del panel derecho, elija **[!UICONTROL Asistente de IA]**.
 
-1. Active la opción **[!UICONTROL Estilo de referencia]** para que el Ayudante de IA para el acelerador de contenido pueda generar contenido nuevo usando el material de referencia.
+1. Active la opción **[!UICONTROL Estilo de referencia]** para que el Asistente de IA pueda generar contenido nuevo usando el material de referencia.
 
 1. Haga clic en **[!UICONTROL Cargar imagen]** para incluir una imagen que agregue contexto a la variación.
 
