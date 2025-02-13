@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: e1192f6540ee3317a0e03100dedb7780708f7bec
+source-git-commit: 99f4dc8dc7ba3c6acb886e4a37ba36d9b187c68b
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 26%
+source-wordcount: '676'
+ht-degree: 25%
 
 ---
 
@@ -104,6 +104,8 @@ A continuación se describen las nuevas funciones incluidas en esta versión.
 
 Las mejoras que se indican a continuación se proporcionan con la actualización de febrero.
 
+* **Recorridos**: ahora puede probar las acciones personalizadas de recorrido enviando llamadas de API desde la interfaz de usuario de administración. Esta nueva funcionalidad le ayuda a solucionar problemas de sus acciones personalizadas.
+
 * **Tiempo de vida del conjunto de datos (TTL)**: a partir de este mes, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en los nuevos entornos limitados y en las nuevas organizaciones de la siguiente manera:
 
    * 90 días para los datos en el almacén de perfiles
@@ -114,6 +116,12 @@ Las mejoras que se indican a continuación se proporcionan con la actualización
 * **Libros de reproducción**: ahora puede crear y publicar sus propios libros de reproducción de casos de uso en Journey Optimizer.
 
 * **Correo directo** - DLZ (Zona de aterrizaje de DAta) ahora se admite como tipo de servidor para el enrutamiento de archivos en la configuración de Correo directo.
+
+**Personalización**
+
+* El editor de personalización se ha mejorado con nuevas funciones, como las opciones de completado automático, búsqueda y filtrado. También puede mostrar u ocultar atributos obsoletos.
+
+* Fecha de disponibilidad: 29 de enero de 2025. Hay nuevas funciones de ayuda de fecha y hora disponibles para su uso en el editor de personalización. [Más información](../personalization/functions/dates.md)
 
 **Configuración de correo electrónico** - Fecha de disponibilidad: 12 de febrero de 2025
 
@@ -128,7 +136,3 @@ Las mejoras que se indican a continuación se proporcionan con la actualización
 **Toma de decisiones** - Fecha de disponibilidad: 28 de enero de 2025
 
 * La toma de decisiones ahora admite tipos de datos de objeto al editar el esquema del catálogo de elementos. [Más información](../experience-decisioning/catalogs.md)
-
-**Personalization** - Fecha de disponibilidad: 29 de enero de 2025
-
-* Hay nuevas funciones de ayuda de fecha y hora disponibles para su uso en el editor de personalización. [Más información](../personalization/functions/dates.md)
