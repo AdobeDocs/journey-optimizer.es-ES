@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2bc4dba1353b1d19b1bae0b7718fbbc9e9f37147
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '2505'
-ht-degree: 94%
+source-wordcount: '2513'
+ht-degree: 93%
 
 ---
 
@@ -42,10 +42,10 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 
 A partir de febrero de 2025, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en **nuevos entornos limitados y nuevas organizaciones** de la siguiente manera:
 
-* 90 días para los datos en el almacén de perfiles
-* 13 meses para los datos en el lago de datos
+* 90 días para datos en el almacén de perfiles,
+* 13 meses para los datos del lago de datos.
 
-Examine la sección [Preguntas más frecuentes](../data/datasets-ttl.md#ttl) para obtener más información sobre estas protecciones.
+Este cambio se implementará en **zonas protegidas de clientes existentes** en una fase posterior. [Obtenga más información sobre las protecciones de tiempo de salida (TTL) de los conjuntos de datos](../data/datasets-ttl.md)
 
 ## Mecanismos de protección de las páginas de aterrizaje {#lp-guardrails}
 

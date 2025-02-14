@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 22%
+source-wordcount: '981'
+ht-degree: 20%
 
 ---
 
@@ -78,9 +78,14 @@ La lista de perfiles de la audiencia se mantiene actualizada en tiempo real a me
 
 La segmentación de streaming es un proceso continuo de selección de datos que actualiza los públicos en respuesta a la actividad de los usuarios. Una vez que se ha creado una definición de segmento y se ha guardado el público resultante, la definición del segmento se aplica a los datos entrantes en Journey Optimizer. Esto significa que las personas se añaden o eliminan de la audiencia a medida que cambian los datos de perfil, lo que garantiza que la audiencia de destino siempre sea relevante. [Más información](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Asegúrese de utilizar los eventos adecuados como criterios de segmentación de flujo continuo. [Más información](#streaming-segmentation-events-guardrails)
+>A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admitirá el uso de eventos **send** y **open** de los conjuntos de datos de comentarios y seguimiento de Journey Optimizer.
+>* Este cambio se aplica a todas las zonas protegidas y organizaciones de clientes.
+>* Solo se ven afectados los eventos de envío y apertura: Los clics y otros eventos de seguimiento permanecen disponibles para la segmentación de flujo continuo.
+>* Este cambio solo se aplica a la segmentación por streaming. Los eventos de envío y apertura se pueden seguir utilizando en segmentos por lotes, pero si se incluyen en un segmento de flujo continuo, se evaluarán por lotes. Además, los eventos de exclusión y los eventos de devolución/retraso resultantes de los eventos de envío también se ven afectados por este cambio.
+>* La recopilación de datos de seguimiento no se ve afectada. Los eventos de envío y apertura se seguirán recopilando de la forma habitual.
+>* Los eventos de reacción en los recorridos no se ven afectados por este cambio.
 
 +++
 
