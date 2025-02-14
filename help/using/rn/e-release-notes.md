@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1ac5f7362cd0184b7207b0f175d83c5c60921e7e
+source-git-commit: 4e405fe395c8432ed22d64887631b222df83a3e9
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 24%
+source-wordcount: '711'
+ht-degree: 21%
 
 ---
 
@@ -30,7 +30,7 @@ A continuación se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Reglas empresariales</strong><br/></th>
+<th><strong>Crear y administrar reglas de negocio</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -62,24 +62,41 @@ A continuación se describen las nuevas funciones incluidas en esta versión.
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Plantillas de Customer Journey Analytics</strong><br/></th>
+<th><strong>Generación de páginas de aterrizaje con el asistente de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora tiene la opción de mejorar los informes de Journey Optimizer mediante plantillas de Customer Journey Analytics. Esta nueva función le permite optimizar el proceso de creación de informes con plantillas prediseñadas adaptadas a sus necesidades de análisis.
-</p>
-<img src="assets/do-not-localize/cja-templates.gif">
-<p>Para obtener más información, consulte la <a href="../reports/report-cja-manage.md#cja-template">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: a partir del 15 de enero de 2025</p>
+<p>El asistente de IA ya está disponible con las entregas de la página de aterrizaje, lo que le permite generar texto, imágenes o diseños de página completos.</p>
+<!--img src="assets/do-not-localize/ai-lp.gif">
+<p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+</td>
 </tr>
 </tbody>
 </table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Directrices de marca (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede establecer sus propias directrices de marca para definir la identidad visual y verbal de su marca. Tenga en cuenta que la función Marcas se presenta como una versión beta privada y estará disponible de forma progresiva para todos los clientes en futuras versiones.</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 <table>
 <thead>
@@ -100,11 +117,33 @@ A continuación se describen las nuevas funciones incluidas en esta versión.
 </table>
 
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Plantillas de Customer Journey Analytics</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora tiene la opción de mejorar los informes de Journey Optimizer mediante plantillas de Customer Journey Analytics. Esta nueva función le permite optimizar el proceso de creación de informes con plantillas prediseñadas adaptadas a sus necesidades de análisis.
+</p>
+<img src="assets/do-not-localize/cja-templates.gif">
+<p>Para obtener más información, consulte la <a href="../reports/report-cja-manage.md#cja-template">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: a partir del 15 de enero de 2025</p>
+</tr>
+</tbody>
+</table>
+
+
+
+
 ### Mejoras {#25-02-improvements}
 
 Las mejoras que se indican a continuación se proporcionan con la actualización de febrero.
 
-* **Recorridos**: ahora puede probar las acciones personalizadas de recorrido enviando llamadas de API desde la interfaz de usuario de administración. Esta nueva funcionalidad le ayuda a solucionar problemas de sus acciones personalizadas.
+* **Recorridos**: ahora puede probar sus acciones personalizadas enviando llamadas de API desde la sección de administración. Esta nueva funcionalidad le ayuda a solucionar problemas de las acciones personalizadas antes o después de usarlas en un recorrido.
 
 * **Tiempo de vida del conjunto de datos (TTL)**: a partir de este mes, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en los nuevos entornos limitados y en las nuevas organizaciones de la siguiente manera:
 
