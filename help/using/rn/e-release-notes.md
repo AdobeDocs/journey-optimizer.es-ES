@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 382327f7816340696d8645f04e5079eb56fe07a3
+source-git-commit: c226e8458aecdd32ed14c3529d19d845cf9d946b
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '714'
 ht-degree: 21%
 
 ---
@@ -49,22 +49,6 @@ A continuación se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Compatibilidad multiregional con SMS</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede administrar el envío de mensajes SMS desde puntos de conexión multirregionales anulando las direcciones URL de envío, comentarios, entrada y devolución de llamada. Para admitir esto, se ha agregado un nuevo campo Anular URL a la configuración de Credenciales de API. Este cambio solo está disponible con el proveedor Sinch.</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Generación de páginas de aterrizaje con el asistente de IA</strong><br/></th>
 </tr>
 </thead>
@@ -72,8 +56,8 @@ A continuación se describen las nuevas funciones incluidas en esta versión.
 <tr>
 <td>
 <p>Ahora puede crear contenido atractivo para sus páginas de aterrizaje, incluidos diseños de página completa, texto personalizado y imágenes personalizadas, con la ayuda del asistente de IA.</p>
-<!--img src="assets/do-not-localize/ai-lp.gif">
-<p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+<img src="assets/do-not-localize/ai-lp.gif">
+<!--p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -90,7 +74,7 @@ A continuación se describen las nuevas funciones incluidas en esta versión.
 <tr>
 <td>
 <p>Ahora puede establecer sus propias directrices de marca para definir la identidad visual y verbal de su marca. Tenga en cuenta que la función Marcas se presenta como una versión beta privada y estará disponible de forma progresiva para todos los clientes en futuras versiones.</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+<!--p>For more information, refer to the <a href="../content-management/brands.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -158,6 +142,8 @@ Las mejoras que se indican a continuación se proporcionan con la actualización
 
 * **Correo postal**: ahora se admite un nuevo tipo de servidor, la zona de aterrizaje de datos, para el enrutamiento de archivos en la configuración del canal de correo postal.
 
+**SMS**: ahora puede administrar el envío de mensajes SMS desde puntos de conexión multiregionales anulando las direcciones URL de envío, comentarios, entrada y devolución de llamada. Para admitir esto, se ha agregado un nuevo campo Anular URL a la configuración de Credenciales de API. Este cambio solo está disponible con el proveedor Sinch. [Más información](../sms/sms-configuration-sinch.md)
+
 **Personalización**
 
 <!--
@@ -174,3 +160,4 @@ Las mejoras que se indican a continuación se proporcionan con la actualización
 **Toma de decisiones** - Fecha de disponibilidad: 28 de enero de 2025
 
 * La toma de decisiones ahora admite tipos de datos de objeto al editar el esquema del catálogo de elementos. [Más información](../experience-decisioning/catalogs.md)
+
