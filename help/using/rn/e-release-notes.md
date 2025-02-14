@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c1712985598b927d26da0b0d0562cd3fe60aa962
+source-git-commit: 1ac5f7362cd0184b7207b0f175d83c5c60921e7e
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '634'
 ht-degree: 24%
 
 ---
@@ -117,7 +117,7 @@ Las mejoras que se indican a continuación se proporcionan con la actualización
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-* **Correo directo** - DLZ (Zona de aterrizaje de DAta) ahora se admite como tipo de servidor para el enrutamiento de archivos en la configuración de Correo directo.
+* **Correo postal**: ahora se admite un nuevo tipo de servidor, la zona de aterrizaje de datos, para el enrutamiento de archivos en la configuración del canal de correo postal.
 
 **Personalización**
 
