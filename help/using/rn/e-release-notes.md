@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 99f4dc8dc7ba3c6acb886e4a37ba36d9b187c68b
+source-git-commit: 39e52d7e552859137c9e179f48319ed508caabb5
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '652'
 ht-degree: 25%
 
 ---
@@ -119,7 +119,8 @@ Las mejoras que se indican a continuación se proporcionan con la actualización
 
 **Personalización**
 
-* El editor de personalización se ha mejorado con nuevas funciones, como las opciones de completado automático, búsqueda y filtrado. También puede mostrar u ocultar atributos obsoletos.
+<!--
+* The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 * Fecha de disponibilidad: 29 de enero de 2025. Hay nuevas funciones de ayuda de fecha y hora disponibles para su uso en el editor de personalización. [Más información](../personalization/functions/dates.md)
 
