@@ -81,7 +81,7 @@ Una vez seleccionado un grupo de IP, la información de PTR se hace visible al p
 >
 >Si no se ha configurado un registro PTR, póngase en contacto con el representante de Adobe.
 
-## Cancelar suscripción a lista {#list-unsubscribe}
+## Cancelación de suscripción a lista {#list-unsubscribe}
 
 Al seleccionar un subdominio de la lista, se muestra la opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]**. Está activada de forma predeterminada.
 
