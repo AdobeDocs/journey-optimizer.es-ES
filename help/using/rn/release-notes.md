@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: befad89c8f50c92751e5e0995e73df8427a193b3
+source-git-commit: 417d9f1787aced7d41a7374576d3abcc4dd98c1b
 workflow-type: tm+mt
-source-wordcount: '2807'
-ht-degree: 78%
+source-wordcount: '2760'
+ht-degree: 79%
 
 ---
 
@@ -127,7 +127,7 @@ A continuación se describen las nuevas funciones incluidas en esta versión.
 
 Las mejoras que se indican a continuación se proporcionan con la actualización de febrero.
 
-* **Recorridos**: ahora puede probar sus acciones personalizadas enviando llamadas de API desde la sección de administración. Esta nueva funcionalidad le ayuda a solucionar problemas de las acciones personalizadas antes o después de usarlas en un recorrido.
+* **Recorridos**: ahora puede probar sus acciones personalizadas enviando llamadas de API desde la sección de administración. Esta nueva funcionalidad le ayuda a solucionar problemas de las acciones personalizadas antes o después de utilizarlas en un recorrido.
 
 * **Tiempo de vida del conjunto de datos (TTL)**: a partir de este mes, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en los nuevos entornos limitados y en las nuevas organizaciones de la siguiente manera:
 
@@ -142,33 +142,20 @@ Las mejoras que se indican a continuación se proporcionan con la actualización
 
 * **Correo postal**: ahora se admite un nuevo tipo de servidor, la zona de aterrizaje de datos, para el enrutamiento de archivos en la configuración del canal de correo postal.
 
-**SMS**: ahora puede administrar el envío de mensajes SMS desde puntos de conexión multiregionales anulando las direcciones URL de envío, comentarios, entrada y devolución de llamada. Para admitir esto, se ha agregado un nuevo campo Anular URL a la configuración de Credenciales de API. Este cambio solo está disponible con el proveedor Sinch. [Más información](../sms/sms-configuration-sinch.md)
+* **SMS**: ahora puede administrar el envío de mensajes SMS desde puntos de conexión multiregionales anulando las direcciones URL de envío, comentarios, entrada y devolución de llamada. Para admitir esto, se ha agregado un nuevo campo Anular URL a la configuración de Credenciales de API. Este cambio solo está disponible con el proveedor Sinch. [Más información](../sms/sms-configuration-sinch.md)
 
-**Personalización**
+* **Personalization** (fecha de disponibilidad: 29 de enero de 2025): hay nuevas funciones de ayuda de fecha y hora disponibles para usar en el editor de personalización. [Más información](../personalization/functions/dates.md)
+
 
 <!--
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
-* Fecha de disponibilidad: 29 de enero de 2025. Hay nuevas funciones de ayuda de fecha y hora disponibles para su uso en el editor de personalización. [Más información](../personalization/functions/dates.md)
 
-
-**Configuración de correo electrónico** - Fecha de disponibilidad: 12 de febrero de 2025
-
-* Si administra el consentimiento fuera de Adobe, ahora puede establecer una dirección de correo electrónico personalizada para cancelar la suscripción y una URL personalizada para cancelar la suscripción con un solo clic como parte de la configuración de su canal de correo electrónico. [Más información](../email/list-unsubscribe.md#custom-managed)
+* **Configuración de correo electrónico** (fecha de disponibilidad: 12 de febrero de 2025): si administra el consentimiento fuera de Adobe, ahora puede establecer una dirección de correo electrónico de cancelación de suscripción personalizada y una URL de cancelación de suscripción de un solo clic como parte de la configuración de su canal de correo electrónico. [Más información](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-  >[!AVAILABILITY]
-  >
-  >Esta capacidad se lanza con disponibilidad limitada (LA) para un pequeño conjunto de clientes.
-
-* Si administra el consentimiento fuera de Adobe, ahora puede establecer una dirección de correo electrónico personalizada para cancelar la suscripción y una URL personalizada para cancelar la suscripción con un solo clic como parte de la configuración de su canal de correo electrónico. [Más información](../email/list-unsubscribe.md#custom-managed)
-
-  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
-
-**Toma de decisiones** - Fecha de disponibilidad: 28 de enero de 2025
-
-* La toma de decisiones ahora admite tipos de datos de objeto al editar el esquema del catálogo de elementos. [Más información](../experience-decisioning/catalogs.md)
+* **Toma de decisiones** (fecha de disponibilidad: 28 de enero de 2025): la toma de decisiones ahora admite tipos de datos de objeto al editar el esquema del catálogo de elementos. [Más información](../experience-decisioning/catalogs.md)
 
 
 ## Versión de octubre de 2024 {#24-10-rn}
