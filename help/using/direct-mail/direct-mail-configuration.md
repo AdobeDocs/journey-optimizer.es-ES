@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b134fe166402e4ae49cd96fc09a19e14beb13523
+source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1532'
 ht-degree: 18%
 
 ---
@@ -60,7 +60,7 @@ Antes de poder generar este archivo, debe crear lo siguiente:
 
 >[!NOTE]
 >
->Actualmente, Amazon S3, SFTP y Azure son compatibles con [!DNL Journey Optimizer].
+>Actualmente, Amazon S3, SFTP, Azure y Data landing zone son compatibles con [!DNL Journey Optimizer].
 
 Para enviar un mensaje de correo postal, [!DNL Journey Optimizer] genera y exporta el archivo que contiene los datos de la audiencia de destino a un servidor.
 
