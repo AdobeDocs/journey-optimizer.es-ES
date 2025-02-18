@@ -1,18 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabajar con conjuntos de reglas (LA)
+title: Trabajar con conjuntos de reglas
 description: Obtenga información sobre cómo crear y aplicar conjuntos de reglas
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
-badge: label="Disponibilidad limitada"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1933'
 ht-degree: 12%
 
 ---
@@ -23,10 +22,6 @@ ht-degree: 12%
 >id="ajo_business_rules_rule_sets"
 >title="Conjuntos de reglas"
 >abstract="Utilice conjuntos de reglas para aplicar límites de frecuencia a diferentes tipos de comunicaciones de marketing. También puede aplicar un conjunto de reglas para excluir este recorrido para parte del público, en función de las reglas de restricción de frecuencia."
-
->[!AVAILABILITY]
->
->Los conjuntos de reglas están disponibles actualmente en Disponibilidad limitada para un grupo selecto de clientes. Tenga en cuenta que esta función se implementará gradualmente para más usuarios en el futuro. Póngase en contacto con el equipo de la cuenta si está interesado en que se le añada a la lista de espera.
 
 ## Introducción a los conjuntos de reglas {#gs}
 
@@ -68,7 +63,7 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 
 >[!NOTE]
 >
->Puede crear hasta 3 conjuntos de reglas personalizadas.
+>Puede crear hasta 3 conjuntos de reglas locales de dominio de canal y hasta 5 conjuntos de reglas locales de dominio de recorrido.
 
 1. Acceda a la lista **[!UICONTROL Conjuntos de reglas]** y haga clic en **[!UICONTROL Crear conjunto de reglas]**.
 
@@ -127,6 +122,10 @@ Los parámetros disponibles para la regla dependen del dominio del conjunto de r
 1. En la lista desplegable **[!UICONTROL Duración]**, seleccione si desea que el límite se aplique mensualmente, semanalmente o diariamente. El límite de frecuencia se basa en el periodo de calendario seleccionado. Se restablece al principio del lapso de tiempo correspondiente.
 
    ![](assets/rule-set-capping-duration.png)
+
+   >[!AVAILABILITY]
+   >
+   >La duración &quot;Diaria&quot; solo está disponible bajo demanda. Para obtener acceso, póngase en contacto con su representante de Adobe.
 
    La caducidad del contador para cada período es la siguiente:
 
@@ -193,7 +192,7 @@ También debe activar el conjunto de reglas para poder acceder a él en campaña
 
 >[!NOTE]
 >
->Una regla o un conjunto de reglas puede tardar hasta 10 minutos en activarse completamente. No es necesario modificar los mensajes ni volver a publicar los recorridos para que una regla surta efecto.
+>Una regla o un conjunto de reglas puede tardar hasta 20 minutos en activarse completamente. No es necesario modificar los mensajes ni volver a publicar los recorridos para que una regla surta efecto.
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -316,6 +315,6 @@ Para aplicar una regla de límite a un recorrido, acceda al recorrido y abra sus
 
 +++
 
-## Vídeo explicativo {#video}
+## Vídeo práctico {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

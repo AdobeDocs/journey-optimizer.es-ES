@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '765'
 ht-degree: 97%
 
 ---
@@ -64,10 +64,6 @@ Obtenga más información sobre cómo administrar las funciones de cancelación 
 >id="ajo_email_config_unsubscribe_custom"
 >title="Definir cómo se administran los datos de cancelación de suscripción"
 >abstract="**Administrado por Adobe**: es usted quien administra los datos de consentimiento dentro del sistema de Adobe.<br>**Administrado por el cliente**: es usted quien administra los datos de consentimiento en un sistema externo y no se actualizará ninguna sincronización de los datos de consentimiento en el sistema de Adobe a menos que usted la inicie."
-
->[!AVAILABILITY]
->
->Esta capacidad se lanza con disponibilidad limitada (LA) para un pequeño conjunto de clientes.
 
 Si está administrando el consentimiento fuera de Adobe, seleccione la opción **[!UICONTROL Administrado por el cliente]** para escribir una dirección de correo electrónico de cancelación de suscripción personalizada y su propia URL de cancelación de suscripción con un solo clic. 
 

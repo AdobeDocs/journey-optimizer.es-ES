@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 5%
+source-wordcount: '1000'
+ht-degree: 4%
 
 ---
 
@@ -46,6 +46,10 @@ Explore las pestañas siguientes para aprender a utilizar el asistente de IA en 
 
    ![](assets/sms-genai-1.png){zoomable="yes"}
 
+1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
+
+   Tenga en cuenta que la función Marcas se presenta como una versión beta privada y estará disponible de forma progresiva para todos los clientes en futuras versiones.
+
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
    Si está buscando ayuda para crear su mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar sus campañas.
@@ -55,7 +59,7 @@ Explore las pestañas siguientes para aprender a utilizar el asistente de IA en 
 1. Adapte el mensaje con la opción **[!UICONTROL Configuración de texto]**:
 
    * **[!UICONTROL Estrategia de comunicación]**: seleccione el enfoque de comunicación que desee para el texto generado.
-   * **[!UICONTROL Idioma]**: elige el idioma del contenido de la variante.
+   * **[!UICONTROL Idiomas]**: las opciones de idiomas español, italiano, sueco y noruego se presentan como una versión beta privada y estarán disponibles de forma progresiva para todos los clientes en futuras versiones.
    * **[!UICONTROL Tono]**: Asegúrese de que el texto sea apropiado para su audiencia y propósito.
    * **[!UICONTROL Longitud]**: seleccione la longitud del contenido mediante el regulador de intervalo.
 
@@ -107,6 +111,10 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
 1. Habilite la opción **[!UICONTROL Usar contenido de referencia]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
 
+1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
+
+   Tenga en cuenta que la función Marcas se presenta como una versión beta privada y estará disponible de forma progresiva para todos los clientes en futuras versiones.
+
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
    Si está buscando ayuda para crear su mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar sus campañas.
@@ -116,7 +124,7 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 1. Adapte el mensaje con la opción **[!UICONTROL Configuración de texto]**:
 
    * **[!UICONTROL Estrategia de comunicación]**: seleccione el enfoque de comunicación que desee para el texto generado.
-   * **[!UICONTROL Idioma]**: elige el idioma del contenido de la variante.
+   * **[!UICONTROL Idiomas]**: las opciones de idiomas español, italiano, sueco y noruego se presentan como una versión beta privada y estarán disponibles de forma progresiva para todos los clientes en futuras versiones.
    * **[!UICONTROL Tono]**: Asegúrese de que el texto sea apropiado para su audiencia y propósito.
    * **[!UICONTROL Longitud]**: seleccione la longitud del contenido mediante el regulador de intervalo.
 

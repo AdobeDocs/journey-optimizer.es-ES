@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 5%
 
 ---
@@ -48,19 +48,19 @@ También puede elegir mostrar únicamente los elementos que ha creado o modifica
 >
 >Cuando se edita o elimina una plantilla, las campañas o los recorridos, incluido el contenido creado con esta plantilla, no se ven afectados.
 
-## Mostrar plantillas como miniaturas {#template-thumbnails}
+## [!BADGE Disponibilidad limitada]{type=Informative} Mostrar las plantillas como miniaturas {#template-thumbnails}
 
 Seleccione el modo **[!UICONTROL Grid view]** para mostrar cada plantilla como una miniatura.
 
 >[!AVAILABILITY]
 >
->Esta capacidad se lanza con disponibilidad limitada (LA) para un pequeño conjunto de clientes.
+Esta capacidad se lanza con disponibilidad limitada (LA) para un pequeño conjunto de clientes.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
->Actualmente, solo se pueden generar las miniaturas adecuadas para plantillas de contenido de correo electrónico de tipo HTML.
+Actualmente solo se pueden generar las miniaturas adecuadas para el tipo HTML email plantillas de contenido.
 
 Al actualizar un contenido, es posible que tenga que esperar unos segundos antes de que los cambios se reflejen en la miniatura.
 

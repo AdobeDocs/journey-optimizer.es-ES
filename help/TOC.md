@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2167'
 ht-degree: 97%
 
 ---
@@ -313,7 +313,9 @@ ht-degree: 97%
       + [Generación de SMS con IA](using/content-management/generative-sms.md)
       + [Generación de web con IA](using/content-management/generative-web.md)
       + [Experimento de contenido con IA](using/content-management/generative-experimentation.md)
+      + [Página de aterrizaje con IA](using/content-management/generative-lp.md)
       + [Casos de uso del Asistente de IA](using/content-management/generative-uc.md)
+      + [Creación y administración de marcas (Beta)](using/content-management/brands.md)
    + Trabajo con contenido multilingüe{#content-multilingual}
       + [Introducción al contenido multilingüe](using/content-management/multilingual-gs.md)
       + [Creación de una configuración regional](using/content-management/multilingual-locale.md)
@@ -376,7 +378,7 @@ ht-degree: 97%
          + [Definiciones de segmentos](using/audience/creating-a-segment-definition.md)
          + [Composición de público](using/audience/get-started-audience-orchestration.md)
          + [Carga personalizada](using/audience/custom-upload.md)
-         + [Composición de audiencia federada (disponibilidad limitada)](using/audience/federated-audience-composition.md)
+         + [Composición de público federado](using/audience/federated-audience-composition.md)
       + [Activación de audiencias en campañas y recorridos](using/audience/target-audiences.md)
       + [Aprovechamiento de atributos de enriquecimiento](using/audience/enrichment-attributes.md)
    + Perfiles{#profiles}
@@ -658,7 +660,7 @@ ht-degree: 97%
    + [Asistencia para el archivado](using/configuration/archiving-support.md)
    + [Cambio de direcciones de ejecución](using/configuration/primary-email-addresses.md)
    + [Configurar reglas empresariales](using/configuration/frequency-rules.md)
-   + [Trabajar con conjuntos de reglas (LA)](using/configuration/rule-sets.md)
+   + [Trabajar con conjuntos de reglas](using/configuration/rule-sets.md)
    + Configurar recorridos {#configure-journeys}
       + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
       + Integración con sistemas externos {#external-systems}
@@ -681,6 +683,7 @@ ht-degree: 97%
       + Configuración de la acción {#action-journeys}
          + [Acerca de las acciones](using/action/action.md)
          + [Configuración de una acción](using/action/about-custom-action-configuration.md)
+         + [Solucionar problemas de acción personalizada](using/action/troubleshoot-custom-action.md)
          + [Integrar con Adobe Campaign Standard](using/action/acs-action.md)
          + [Integración con las versiones 7 y 8 de Adobe Campaign](using/action/acc-action.md)
          + [Uso de respuestas de llamadas de API en acciones personalizadas](using/action/action-response.md)

@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
+source-git-commit: b134fe166402e4ae49cd96fc09a19e14beb13523
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 19%
+source-wordcount: '1529'
+ht-degree: 18%
 
 ---
 
@@ -108,7 +108,7 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
 1. Establezca un nombre para la configuración.
 
-1. Seleccione SFTP como **[!UICONTROL Tipo de servidor]** que se utilizará para exportar los archivos de correo postal.
+1. Seleccione SFTP como **[!UICONTROL tipo de servidor]** que se utilizará para exportar los archivos de correo postal.
 
    ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
 
@@ -142,7 +142,7 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
 1. Establezca un nombre para la configuración.
 
-1. Seleccione Azure **[!UICONTROL Server type]** para exportar los archivos de correo postal.
+1. Seleccione Azure como **[!UICONTROL tipo de servidor]** que se utilizará para exportar los archivos de correo postal.
 
    ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
 
@@ -163,6 +163,28 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 1. Seleccione **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se creó con el estado **[!UICONTROL Activo]**. Ahora está listo para usarse en una [configuración de correo directo](#direct-mail-surface).
 
    También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la configuración de enrutamiento de archivos, pero no podrá seleccionarla en una configuración hasta que esté **[!UICONTROL Activo]**.
+
+>[!TAB Zona de aterrizaje de datos]
+
+1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo directo]** > **[!UICONTROL Enrutamiento de archivos]** y, a continuación, haga clic en **[!UICONTROL Crear configuración de enrutamiento]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. Establezca un nombre para la configuración.
+
+1. Seleccione Zona de aterrizaje de datos como **[!UICONTROL Tipo de servidor]** que se utilizará para exportar los archivos de correo postal.
+
+   ![](assets/file-routing-config-type-dlz.png){width="800" align="center"}
+
+1. Para cifrar el archivo, copie y pegue la clave de cifrado en el campo **[!UICONTROL Clave de cifrado PGP/GPG]**. <!--To find it, ...-->
+
+   ![](assets/file-routing-config-dlz-detail.png)
+
+1. Seleccione **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se creó con el estado **[!UICONTROL Activo]**. Ahora está listo para usarse en una [configuración de correo directo](#direct-mail-surface).
+
+   También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la configuración de enrutamiento de archivos, pero no podrá seleccionarla en una configuración hasta que esté **[!UICONTROL Activo]**.
+
+Obtenga más información sobre la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -197,7 +219,7 @@ Una configuración de correo postal también debe incluir la configuración de e
 
    >[!NOTE]
    >
-   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto`.` y guión `-`.
+   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto `.` y guion `-`.
 
 1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 

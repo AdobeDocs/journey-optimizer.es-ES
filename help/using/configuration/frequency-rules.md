@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Reglas empresariales
-description: Obtenga información sobre cómo definir reglas de frecuencia
+title: Configuración de reglas empresariales
+description: Obtenga información sobre cómo definir reglas de frecuencia empresarial
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1267'
+ht-degree: 14%
 
 ---
 
-# Reglas empresariales {#frequency-rules}
+# Configurar reglas empresariales {#frequency-rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
@@ -124,7 +124,7 @@ La caducidad del contador para cada período es la siguiente:
 
 ### Límite de frecuencia diario {#daily-frequency-cap}
 
-Además del límite de frecuencia mensual y semanal, también está disponible bajo demanda. Para obtener más información, póngase en contacto con el representante del Adobe.
+Además del límite de frecuencia mensual y semanal, también está disponible bajo demanda. Para obtener más información, póngase en contacto con su representante de Adobe.
 
 El límite de frecuencia diaria es válido para el día hasta el 23:59:59 UTC y se restablece en 0 al comienzo del día siguiente.
 
@@ -176,7 +176,7 @@ Para aplicar una regla de negocio a un mensaje, siga los pasos a continuación.
    >
    >Los mensajes donde la categoría seleccionada es **[!UICONTROL Transaccional]** no se evaluarán con reglas de frecuencia.
 
-1. Puede ver el número de perfiles excluidos del envío en el [informe de Customer Journey Analytics](../reports/report-gs-cja.md) y en el [informe en vivo](../reports/live-report.md), donde las reglas de negocio se enumerarán como un posible motivo para que los usuarios no puedan recibir envíos.
+1. Puede ver el número de perfiles excluidos del envío en el [informe de Customer Journey Analytics](../reports/report-gs-cja.md) y en el [informe en vivo](../reports/live-report.md), donde las reglas de negocio se enumerarán como un posible motivo para que los usuarios excluidos del envío.
 
 >[!NOTE]
 >
@@ -231,7 +231,7 @@ En esta situación, un perfil individual:
 >
 >Al probar reglas de negocio, se recomienda usar un [perfil de prueba](../audience/creating-test-profiles.md) recién creado, ya que una vez que se alcanza el límite de frecuencia de un perfil, no hay forma de restablecer el contador hasta el mes siguiente. Al desactivar una regla, los perfiles con límite pueden recibir mensajes, pero no se elimina ni elimina ningún incremento de contador.
 
-## Vídeo explicativo {#video}
+## Vídeo práctico {#video}
 
 Obtenga información sobre cómo crear, activar, probar e informar sobre reglas empresariales.
 

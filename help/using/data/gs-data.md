@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción a los datos en Journey Optimizer
+title: Introducción a la administración de datos en Journey Optimizer
 description: Obtenga información sobre cómo trabajar con datos en Journey Optimizer
 feature: Journeys
 topic: Content Management
@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: datos, administración, plataforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Introducción a la administración de datos en [!DNL Journey Optimizer] {#about-data}
+# Introducción a la administración de datos {#about-data}
 
 La riqueza y la cobertura de los datos del cliente final es lo que define la solidez y el éxito de cualquier solución de experiencia del cliente; y estos datos son sagrados y del mayor valor para cualquier cliente. La selección de tecnología está ahora integrada de forma inherente con una evaluación rigurosa de las capacidades de administración de datos.
 

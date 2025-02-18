@@ -5,9 +5,9 @@ role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '920'
 ht-degree: 23%
 
 ---
@@ -71,6 +71,10 @@ Para crear una regla de límite de recorrido, siga estos pasos:
       1. En el campo **[!UICONTROL Límite]**, establezca el número máximo de recorridos que puede ingresar un perfil.
       1. En el campo **[!UICONTROL Duración]**, defina el período de tiempo que debe tenerse en cuenta. Tenga en cuenta que la duración se basa en la zona horaria UTC. Por ejemplo, el Límite diario se restablecerá a medianoche UTC.
 
+     >[!AVAILABILITY]
+     >
+     >La duración &quot;Diaria&quot; solo está disponible bajo demanda. Para obtener acceso, póngase en contacto con su representante de Adobe.
+
      En este ejemplo, queremos restringir la entrada de perfiles en más de &quot;5&quot; recorridos en un mes.
 
      ![](assets/journey-capping-entry-example.png)
@@ -122,6 +126,6 @@ Una vez que el recorrido esté activo, puede registrar en el informe de recorrid
 
 ![](assets/journey-report.png)
 
-## Vídeo explicativo {#video}
+## Vídeo práctico {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

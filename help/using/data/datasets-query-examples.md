@@ -9,24 +9,24 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: conjunto de datos, optimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
 
-# Casos de uso de conjuntos de datos {#tracking-datasets}
+# Ejemplos de consultas {#query-examples}
 
 En esta página, encontrará la lista de conjuntos de datos de Adobe Journey Optimizer y casos de uso relacionados:
 
-[Conjunto de datos de evento de experiencia de seguimiento de correo electrónico](#email-tracking-experience-event-dataset)
-[Conjunto de datos de evento de comentarios de mensajes](#message-feedback-event-dataset)
-[Conjunto De Datos De Evento De Experiencia De Seguimiento Push](#push-tracking-experience-event-dataset)
-[Evento de paso de Recorrido](#journey-step-event)
-[Conjunto de datos de evento de toma de decisiones](#ode-decisionevents)
-[Conjunto de datos de evento de comentarios CCO](#bcc-feedback-event-dataset)
-[Conjunto de datos de entidad](#entity-dataset)
+* [Conjunto de datos de evento de experiencia de seguimiento de correo electrónico](#email-tracking-experience-event-dataset)
+* [Conjunto de datos de evento de comentarios](#message-feedback-event-dataset)
+* [Conjunto de datos de evento de experiencia de seguimiento push](#push-tracking-experience-event-dataset)
+* [Evento de paso de recorrido](#journey-step-event)
+* [Conjunto de datos de evento](#ode-decisionevents)
+* [Conjunto de datos de evento de comentarios CCO](#bcc-feedback-event-dataset)
+* [Conjunto de datos de entidad](#entity-dataset)
 
 Para ver la lista completa de campos y atributos para cada esquema, consulte el [Diccionario de esquema de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es){target="_blank"}.
 
@@ -192,7 +192,7 @@ _Nombre interno: eventos de paso de Recorrido (conjunto de datos del sistema)_
 
 Conjunto de datos para la ingesta de eventos de paso en el recorrido.
 
-El esquema relacionado es el esquema de Evento de paso de Recorrido para el Journey Orchestration.
+El esquema relacionado es el esquema de Evento de paso de Recorrido para Journey Orchestration.
 
 Esta consulta muestra el desglose de los recuentos de éxito de las acciones por rótulo de acción para un recorrido determinado:
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 22%
@@ -30,14 +30,16 @@ ht-degree: 22%
 
 Las audiencias son colecciones de personas que comparten comportamientos o características similares. Se configuran y mantienen de forma centralizada en Adobe Experience Platform mediante el servicio de segmentación de Adobe Experience Platform y son fácilmente accesibles desde Journey Optimizer para su activación en recorridos y campañas.
 
-Adobe Journey Optimizer proporciona herramientas sólidas para crear, administrar y enriquecer audiencias a fin de mejorar los esfuerzos de marketing. Cuando se combina con Adobe Real-time Customer Data Platform, Journey Optimizer le permite crear capas de audiencias para una segmentación más compleja y compartir audiencias bidireccionalmente con otras soluciones de Adobe Experience Cloud.
+Adobe Journey Optimizer proporciona herramientas sólidas para crear, administrar y enriquecer audiencias a fin de mejorar los esfuerzos de marketing. Cuando se combina con Adobe Real-Time Customer Data Platform, Journey Optimizer le permite crear capas de audiencias para una segmentación más compleja y compartir audiencias bidireccionalmente con otras soluciones de Adobe Experience Cloud.
 
 A medida que los flujos de datos en tiempo real o se cargan por lotes, los conjuntos de datos se actualizan y Journey Optimizer mueve dinámicamente a los individuos dentro y fuera de las audiencias y los recorridos en tiempo real.
 
 >[!BEGINSHADEBOX]
 
 Esta documentación proporciona información sobre cómo trabajar con audiencias dentro de [!DNL Adobe Journey Optimizer]. Encontrará información detallada sobre Audience Portal y las audiencias en la documentación del servicio de segmentación de Adobe Experience Platform. Consulte estas secciones para obtener más información:
+
 * [Guía de interfaz de usuario del servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+
 * [Servicio de segmentación - Preguntas más frecuentes](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]

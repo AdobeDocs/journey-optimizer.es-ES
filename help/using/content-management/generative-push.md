@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1626'
 ht-degree: 3%
 
 ---
@@ -50,6 +50,10 @@ Siga estos pasos:
 
 1. Habilite la opción **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice la nueva opción de contenido en función del contenido seleccionado.
 
+1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
+
+   Tenga en cuenta que la función Marcas se presenta como una versión beta privada y estará disponible de forma progresiva para todos los clientes en futuras versiones.
+
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
    Si está buscando ayuda para crear su mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar sus campañas.
@@ -61,6 +65,7 @@ Siga estos pasos:
 1. Adapte el mensaje con la opción **[!UICONTROL Configuración de texto]**:
 
    * **[!UICONTROL Estrategia de comunicación]**: elige el estilo de comunicación más adecuado para el texto generado.
+   * **[!UICONTROL Idiomas]**: las opciones de idiomas español, italiano, sueco y noruego se presentan como una versión beta privada y estarán disponibles de forma progresiva para todos los clientes en futuras versiones.
    * **[!UICONTROL Tono]**: el tono de las notificaciones push debería interesar a la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA puede adaptar el mensaje en consecuencia.
 
    ![](assets/push-genai-full-3.png){zoomable="yes"}
@@ -121,6 +126,10 @@ En este ejemplo en particular, aprenda a utilizar el asistente de IA en Journey 
 
 1. Habilite la opción **[!UICONTROL Usar contenido de referencia]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
 
+1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
+
+   Tenga en cuenta que la función Marcas se presenta como una versión beta privada y estará disponible de forma progresiva para todos los clientes en futuras versiones.
+
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
    Si está buscando ayuda para crear su mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar sus campañas.
@@ -130,6 +139,7 @@ En este ejemplo en particular, aprenda a utilizar el asistente de IA en Journey 
 1. Adapte el mensaje con la opción **[!UICONTROL Configuración de texto]**:
 
    * **[!UICONTROL Estrategia de comunicación]**: elige el estilo de comunicación más adecuado para el texto generado.
+   * **[!UICONTROL Idiomas]**: las opciones de idiomas español, italiano, sueco y noruego se presentan como una versión beta privada y estarán disponibles de forma progresiva para todos los clientes en futuras versiones.
    * **[!UICONTROL Tono]**: el tono de la notificación push debería interesar a la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA puede adaptar el mensaje en consecuencia.
    * **[!UICONTROL Longitud]**: seleccione la longitud del contenido mediante el regulador de intervalo.
 
@@ -180,6 +190,10 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
    ![](assets/push-gen-img.png){zoomable="yes"}
 
 1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el asistente de IA personalice el nuevo contenido en función del contenido de referencia. También puede cargar una imagen para añadir contexto a la variación.
+
+1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
+
+   Tenga en cuenta que la función Marcas se presenta como una versión beta privada y estará disponible de forma progresiva para todos los clientes en futuras versiones.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 

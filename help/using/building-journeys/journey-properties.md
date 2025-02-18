@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 2ce069f92e11fa9246736a4b71dfd66391d8b06c
+source-git-commit: 3331fd2ca9277bb634e3df0dd2e5a262bef459d7
 workflow-type: tm+mt
-source-wordcount: '2232'
+source-wordcount: '2261'
 ht-degree: 18%
 
 ---
@@ -285,8 +285,8 @@ Para **crear** un criterio de salida, siga estos pasos:
    ![](assets/exitcriteria.png){width="40%" align="left"}
 1. Escriba una **Etiqueta** y seleccione si los criterios de salida se basan en un **Evento** o en una **Audiencia**.
 
-Para los criterios de Salida basados en un evento, seleccione solo evento unitario.
-Para Criterios de salida basados en una audiencia, seleccione una audiencia. Nota: Los criterios de salida que utilizan una audiencia pueden tardar hasta 10 minutos en ser efectivos.
+* Para los criterios de Salida basados en un evento, como descargar una aplicación o agregar un producto al carro de compras, elija solo evento unitario.
+* Para los criterios de Salida basados en una audiencia, como una audiencia que comprueba si un cliente ha realizado compras en las últimas 24 horas, seleccione una audiencia. Nota: Los criterios de salida que utilizan una audiencia pueden tardar hasta 10 minutos en ser efectivos.
 
 Puede agregar varios criterios de salida.
 

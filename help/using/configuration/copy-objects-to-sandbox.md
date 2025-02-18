@@ -8,19 +8,19 @@ topic: Content Management
 role: User, Developer, Data Engineer
 level: Experienced
 keywords: zona protegida, recorrido, copiar, entorno
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1070'
 ht-degree: 4%
 
 ---
 
+# Exportación de objetos a otra zona protegida {#copy-to-sandbox}
 
-# Copiar objetos de Journey Optimizer en otra zona protegida {#copy-to-sandbox}
+Puede copiar objetos, como recorridos, plantillas de contenido o fragmentos, en varios entornos limitados mediante las funciones de exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.
 
-La herramienta de zona protegida permite copiar objetos, como recorridos, plantillas de contenido o fragmentos, en varios entornos limitados aprovechando la exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.
-
-En esta página se describe el caso de uso de las herramientas de entorno limitado en el contexto de Journey Optimizer. Para obtener más información sobre la característica en sí, consulte la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+En esta página se describe el caso de uso de las herramientas de entorno limitado en el contexto de Journey Optimizer. Para obtener más información sobre la característica en sí, consulte la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
@@ -88,13 +88,13 @@ Para copiar objetos en otra zona protegida, primero debe añadirlos como paquete
 >
 >Para la exportación de recorridos, además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: audiencias, esquemas, eventos y acciones. Para obtener más información sobre la exportación de recorridos, consulte [esta sección](../building-journeys/copy-to-sandbox.md).
 
-## Publish el paquete a exportar {#publish}
+## Publicación del paquete para exportar {#publish}
 
 Una vez que el paquete esté listo para exportarse, siga estos pasos para publicarlo:
 
 1. Vaya al menú **[!UICONTROL Administración]** > **[!UICONTROL Zonas protegidas]** y seleccione la pestaña **Paquetes**.
 
-1. Abra el paquete que desea exportar, seleccione los objetos que desea exportar y haga clic en **Publish**.
+1. Abra el paquete que desea exportar, seleccione los objetos que desea exportar y haga clic en **Publicar**.
 
    En este ejemplo, deseamos exportar un recorrido, una plantilla de contenido y un fragmento.
 

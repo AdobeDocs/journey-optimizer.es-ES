@@ -4,25 +4,26 @@ product: journey optimizer
 title: Configuración del proveedor personalizado
 description: Aprenda a configurar su entorno para enviar mensajes de texto con Journey Optimizer con un proveedor personalizado
 feature: SMS, Channel Configuration
+badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
-# Configure un proveedor personalizado (Beta) {#sms-configuration-custom}
+# Configuración de un proveedor personalizado {#sms-configuration-custom}
 
 >[!AVAILABILITY]
 >
->Actualmente, los proveedores personalizados solo están disponibles como una versión beta para los usuarios seleccionados. Póngase en contacto con el representante del Adobe para que se le incluya en el Beta.
+>Actualmente, los proveedores personalizados solo están disponibles como una versión beta para los usuarios seleccionados. Póngase en contacto con su representante de Adobe para que se le incluya en el Beta.
 >
 >Tenga en cuenta que este Beta no admite mensajes entrantes para la administración del consentimiento de inclusión/exclusión ni para los informes de envío.
 
-Para enviar mensajes en Journey Optimizer mediante un proveedor personalizado no disponible de forma predeterminada por Adobe (por ejemplo, Sinch, Infobip, Twilio), siga estos pasos:
+Para enviar mensajes en Journey Optimizer utilizando un proveedor personalizado no disponible de forma predeterminada por Adobe (por ejemplo, Sinch, Infobip, Twilio), siga estos pasos:
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** y seleccione el menú **[!UICONTROL Credenciales de API]**.
 
@@ -60,6 +61,6 @@ Después de crear y configurar las credenciales de la API, debe crear una superf
 
 Una vez configuradas, puede aprovechar todas las funcionalidades de canal integradas, como la creación de mensajes, la personalización, el seguimiento de vínculos y la creación de informes.
 
-## Vídeo explicativo {#video}
+## Vídeo práctico {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3431625)

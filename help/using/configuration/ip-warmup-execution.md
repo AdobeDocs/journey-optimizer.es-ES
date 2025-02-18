@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdominios, capacidad de entrega
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
+source-git-commit: 0c128feac32baff14f1b71aed688e3bde4c67d35
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2634'
 ht-degree: 11%
 
 ---
@@ -79,6 +79,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >[!NOTE]
       >
       >Solo puede excluir un grupo de dominio personalizado que se haya agregado a la [plantilla de plan de calentamiento de IP](ip-warmup-plan.md#prepare-file). Si no es así, actualice la plantilla con el grupo de dominios personalizado que desee excluir y [vuelva a cargar el plan](#re-upload-plan).
+
+      >[!CAUTION]
+      >
+      >Una vez que se esté ejecutando el plan de calentamiento de IP, si actualiza la [dirección de ejecución](../email/email-settings.md#execution-address) en el canal de correo electrónico [configuración](channel-surfaces.md) que se usa en la campaña de calentamiento de IP, la exclusión de dominio podría fallar. No edite la configuración del canal de correo electrónico después de que se haya iniciado el plan de calentamiento de IP.
 
    1. En la sección **[!UICONTROL Campaña para la exclusión de perfiles]**, seleccione las campañas cuyas audiencias desee excluir de la fase actual.
 
