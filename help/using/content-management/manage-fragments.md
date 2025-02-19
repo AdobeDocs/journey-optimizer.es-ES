@@ -11,7 +11,7 @@ exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 11%
+ht-degree: 22%
 
 ---
 
@@ -51,7 +51,7 @@ Desde el botón **[!UICONTROL Más acciones]** situado junto a cada fragmento, p
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nuevos estados de fragmentos"
->abstract="Desde que se introdujeron los estados **Draft** y **Live** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado **Draft**, incluso si se utilizan en un recorrido o una campaña. Si realiza cambios en estos fragmentos, debe publicarlos para que se **activen** y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. <br/>La publicación requiere el permiso de usuario para <a href="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Publicar fragmento</a>."
+>abstract="Al haberse introducido los estados **Borrador** y **Activo** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tendrán el estado **Borrador**, incluso si se utilizan en un recorrido o una campaña. Si realiza algún cambio en estos fragmentos, debe publicarlos para que tengan el estado **Activo** y propagarlos a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. <br/>La publicación requiere el permiso de usuario para <a href="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Publicar fragmento</a>."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Más información sobre los permisos de fragmentos de contenido"
 
 Los fragmentos pueden tener varios estados:
@@ -67,7 +67,7 @@ Los fragmentos pueden tener varios estados:
 
 >[!CAUTION]
 >
->Desde que se introdujeron los estados **Draft** y **Live** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado **Draft**, incluso si se utilizan en un recorrido o una campaña. Si realiza cambios en estos fragmentos, debe publicarlos para que se **activen** y propagar los cambios a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere el permiso de usuario [Fragmento de Publish](../administration/ootb-product-profiles.md#content-library-manager).
+>Al haberse introducido los estados **Borrador** y **Activo** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tendrán el estado **Borrador**, incluso si se utilizan en un recorrido o una campaña. Si realiza algún cambio en estos fragmentos, debe publicarlos para que tengan el estado **Activo** y propagarlos a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere el permiso de usuario [Publicar fragmento](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Edición de un fragmento {#edit-fragments}
 
@@ -105,7 +105,7 @@ Para editar un fragmento, siga los pasos a continuación.
    >
    >Al editar un fragmento publicado, puede eliminar cualquier campo de personalización, pero no puede añadir nuevos al contenido del fragmento. Si desea agregar atributos personalizados, debe duplicar el fragmento. [Más información](#adding-new-attributes)
 
-1. Una vez que los cambios estén listos, guárdelos y haga clic en el botón **[!UICONTROL Publish]** para activar las modificaciones. [Más información](create-fragments.md#publish)
+1. Una vez que los cambios estén listos, guárdelos y haga clic en el botón **[!UICONTROL Publicar]** para activar las modificaciones. [Más información](create-fragments.md#publish)
 
 Al editar un fragmento, los cambios se propagan automáticamente a todo el contenido mediante ese fragmento, incluidos los recorridos activos y las campañas, excepto en el caso del contenido en el que se ha roto la herencia del fragmento original.
 

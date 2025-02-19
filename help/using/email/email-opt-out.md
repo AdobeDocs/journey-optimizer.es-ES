@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1313'
-ht-degree: 22%
+ht-degree: 26%
 
 ---
 
@@ -39,16 +39,16 @@ Con [!DNL Adobe Journey Optimizer], puede configurar sus [opciones de configurac
 
 Cuando un destinatario hace clic en el vínculo de no participación de un solo clic, la solicitud de cancelación de suscripción de ese destinatario se procesa en consecuencia.
 
-### URL de cancelación de suscripción de un clic en el encabezado del correo electrónico {#unsubscribe-header}
+### URL de cancelación de suscripción de un solo clic en el encabezado del correo electrónico {#unsubscribe-header}
 
 <!--Do not modify - Legal Review Done -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Añadir una URL de cancelación de suscripción a los correos electrónicos"
->abstract="Active Cancelación de suscripción a una lista para añadir automáticamente una URL de cancelación de suscripción al encabezado del correo electrónico. También puede establecer una URL de cancelación de suscripción en un mensaje insertando un vínculo de no participación de un solo clic en el contenido del correo electrónico."
+>abstract="Habilite Cancelación de suscripción a lista para añadir un vínculo de cancelación de suscripción al encabezado del correo electrónico. También puede establecer una URL de cancelación de suscripción en un mensaje, insertando un vínculo de no participación con un solo clic en el contenido del correo electrónico."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Exclusión con un clic del contenido del correo electrónico"
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Habilitar cancelación de suscripción a una lista en la configuración de correo electrónico"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Habilitar cancelación de suscripción a lista en la configuración de correo electrónico"
 
 La URL &quot;Cancelar la suscripción&quot; de una lista con un solo clic es un vínculo o botón &quot;Cancelar la suscripción&quot; que se muestra junto a la información del remitente del correo electrónico y permite a los destinatarios excluirse instantáneamente de sus listas de correo con un solo clic.
 
