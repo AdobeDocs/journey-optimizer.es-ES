@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción a la configuración de  [!DNL Journey Optimizer]
-description: Obtenga más información sobre la configuración de  [!DNL Journey Optimizer]
+title: 'Introducción a la configuración de  [!DNL Journey Optimizer] '
+description: 'Obtenga más información sobre la configuración de  [!DNL Journey Optimizer] '
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuración, configurar, mensajes, canal, zona protegida, optimizador
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 93%
@@ -41,7 +41,7 @@ Para poder crear sus recorridos y enviar mensajes, debe seguir los pasos de conf
 
    * Active la **Opción de correo electrónico de BBC** para mantener una copia de los mensajes enviados a personas. [Más información](archiving-support.md#enable-bcc)
 
-   * Configure **reglas comerciales** para evitar saturar a los destinatarios. [Más información](frequency-rules.md)
+   * Configure **reglas comerciales** para evitar saturar a los destinatarios. [Más información](../configuration/rule-sets.md)
 
    * Determine la dirección de correo electrónico o el número de teléfono que se utilizará con prioridad para los destinatarios cuando haya varias direcciones o números disponibles en Adobe Experience Platform. [Más información](primary-email-addresses.md)
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 12%
@@ -37,7 +37,7 @@ Por ejemplo, puede crear un conjunto de reglas para limitar el número de **comu
 
 Al obtener acceso a los conjuntos de reglas por primera vez desde el menú **[!UICONTROL Administración]** > **[!UICONTROL Reglas de negocio (Beta)]**, se crea previamente y se activa un conjunto de reglas predeterminado: **Conjunto de reglas predeterminado global**.
 
-Este conjunto de reglas contiene reglas globales que puede aplicar para controlar la frecuencia con la que los usuarios reciben mensajes a través de uno o varios canales, de forma similar a como funcionan las reglas empresariales actuales. Todas las reglas definidas en este conjunto de reglas se aplican a todos los canales seleccionados, independientemente de si las comunicaciones se envían desde un recorrido o desde una campaña. [Aprenda a trabajar con reglas empresariales](frequency-rules.md)
+Este conjunto de reglas contiene reglas globales que puede aplicar para controlar la frecuencia con la que los usuarios reciben mensajes a través de uno o varios canales, de forma similar a como funcionan las reglas empresariales actuales. Todas las reglas definidas en este conjunto de reglas se aplican a todos los canales seleccionados, independientemente de si las comunicaciones se envían desde un recorrido o desde una campaña. [Aprenda a trabajar con reglas empresariales](../configuration/rule-sets.md)
 
 Además de este conjunto de reglas predeterminado global, puede crear **conjuntos de reglas personalizadas** que puede aplicar a cualquier campaña para restringir el número de mensajes enviados dentro de esa campaña. [Aprenda a crear conjuntos de reglas personalizados](#create)
 
