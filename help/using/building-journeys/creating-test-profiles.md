@@ -9,7 +9,7 @@ role: User, Data Engineer
 level: Intermediate
 keywords: perfiles de prueba, prueba, prueba, recorrido
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 7df2d6a68ce20dbd9d07be3d6cfba9eba5ec0242
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 3%
@@ -40,7 +40,7 @@ Tenga en cuenta que la creación de un perfil de prueba es similar a la creació
 
 ## Requisitos previos {#test-profile-prerequisites}
 
-Para poder crear perfiles, primero debe crear un esquema y un conjunto de datos en el Adobe [!DNL Journey Optimizer].
+Para poder crear perfiles, primero debe crear un esquema y un conjunto de datos en Adobe [!DNL Journey Optimizer].
 
 Para **crear un esquema**, siga estos pasos:
 
@@ -145,7 +145,7 @@ El recorrido estará compuesto por una actividad **[!UICONTROL Leer audiencia]**
 1. Agregue una actividad de acción **[!UICONTROL Actualizar perfil]**.
 1. Seleccione el esquema, el campo **testProfiles**, el conjunto de datos y establezca el valor en **True**. Para ello, en el campo **[!UICONTROL VALUE]**, haga clic en el icono **Pluma** de la derecha, seleccione **[!UICONTROL Modo avanzado]** y escriba **true**.
    ![](assets/test-profiles-26.png)
-1. Haga clic en **[!UICONTROL Publish]**.
+1. Haga clic en **[!UICONTROL Publicar]**.
 1. En la sección **[!UICONTROL Audiencias]**, compruebe que los perfiles se hayan actualizado correctamente.
    ![](assets/test-profiles-28.png)
 
@@ -179,6 +179,7 @@ En Adobe Experience Platform, puede crear perfiles cargando un archivo csv que c
    ![](assets/test-profiles-21.png)
 
 Los perfiles de prueba se han añadido y ahora se pueden utilizar para probar un recorrido. Consulte [esta sección](../building-journeys/testing-the-journey.md).
+
 >[!NOTE]
 >
 > Para obtener más información sobre las importaciones de csv, consulte la [documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
@@ -236,7 +237,7 @@ curl -X POST \
 }'
 ```
 
-## Vídeo explicativo {#video}
+## Vídeo práctico {#video}
 
 Obtenga información sobre cómo crear perfiles de prueba.
 
