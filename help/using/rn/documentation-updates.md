@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '6064'
-ht-degree: 96%
+source-wordcount: '6117'
+ht-degree: 95%
 
 ---
 
@@ -25,9 +25,10 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Se ha actualizado, mejorado y movido a una nueva página dedicada la documentación de **[!UICONTROL optimización del tiempo de envío]** y sus preguntas frecuentes relacionadas. [Más información](../building-journeys/send-time-optimization.md)
 * Se han añadido nuevas protecciones para los eventos de recorrido. [Más información](../start/guardrails.md#events-g)
 * Se ha reorganizado la página de acciones de canal integrada. [Más información](../building-journeys/journeys-message.md)
-* Se han añadido protecciones y limitaciones en la sección Toma de decisiones y administración de decisiones.
+* Se han añadido protecciones y limitaciones en las secciones de Toma de decisiones y Administración de decisiones.
    * [Limitaciones y protecciones de decisiones](../experience-decisioning/decisioning-guardrails.md)
    * [Limitaciones y protecciones de gestión de decisiones](../offers/decision-management-guardrails.md)
+* Se ha añadido una nueva sección sobre datos de contexto en la documentación de gestión de decisiones. Proporciona información sobre cómo aprovechar los datos de contexto en el motor de decisión, por ejemplo para diseñar una regla de decisión que requiera que el clima actual sea de ≥80 grados en el momento en que se realice la solicitud de decisión. [Más información](../offers/context-data.md)
 
 ## Enero de 2025 {#jan-2025}
 
