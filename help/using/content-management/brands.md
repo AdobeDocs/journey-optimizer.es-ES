@@ -7,10 +7,10 @@ badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: b1ccacd30acb886e06a3305f0c7046d85f558357
+source-git-commit: 288f44de1f92e808aa038020f247a720fefb6b1f
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 22%
+source-wordcount: '389'
+ht-degree: 24%
 
 ---
 
@@ -22,13 +22,15 @@ ht-degree: 22%
 
 Las directrices de marca son un conjunto detallado de reglas y estándares que establecen la identidad visual y verbal de una marca. Actúan como referencia para mantener una representación de marca coherente en todas las plataformas de marketing y comunicación.
 
-En [!DNL Journey Optimizer], ahora tiene la opción de introducir y organizar manualmente los detalles de marca o cargar documentos de directrices de marca para la extracción automática de información.
+<!--Upload feature currently behind feature flag--
+
+In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
 
 ## Acceso a marcas {#generative-access}
 
 Para tener acceso al menú **[!UICONTROL Marcas]** en [!DNL Adobe Journey Optimizer], los usuarios necesitan que se les conceda el **[!UICONTROL kit de marca administrado]** o los permisos de **[!UICONTROL Habilitar el asistente de IA]**. [Más información](../administration/permissions.md)
 
-+++  Obtenga información sobre cómo asignar permisos relacionados con la marca
++++  Aprenda a asignar permisos relacionados con la marca
 
 1. En el producto **Permisos**, vaya a la pestaña **Funciones** y seleccione la **Función** que desee.
 
@@ -36,7 +38,7 @@ Para tener acceso al menú **[!UICONTROL Marcas]** en [!DNL Adobe Journey Optimi
 
 1. Agregue el recurso **Asistente de IA** y, a continuación, seleccione **Kit de marca administrado** o **[!UICONTROL Habilitar el asistente de IA]** en el menú desplegable.
 
-   Tenga en cuenta que el permiso **[!UICONTROL Habilitar el asistente de IA]** solo proporciona acceso de solo lectura al menú Marcas.
+   Tenga en cuenta que el permiso **[!UICONTROL Habilitar el asistente de IA]** solo proporciona acceso de solo lectura al menú **[!UICONTROL Marcas]**.
 
    ![](assets/brands-permission.png){zoomable="yes"}
 
@@ -54,7 +56,11 @@ Para tener acceso al menú **[!UICONTROL Marcas]** en [!DNL Adobe Journey Optimi
 
 ## Cree su marca {#create-brand-kit}
 
-Para crear y administrar las directrices de marca, puede introducir los detalles usted mismo o cargar el documento de directrices de marca para que la información se extraiga automáticamente:
+Para crear y administrar las directrices de marca, siga los pasos a continuación.
+
+<!--Upload feature currently behind feature flag--
+
+To create and manage your Brand guideline, you can either enter the details yourself, or upload your brand guidelines document to have the information extracted automatically:-->
 
 1. En el menú **[!UICONTROL Marcas]**, haga clic en **[!UICONTROL Crear marca]**.
 
@@ -64,9 +70,7 @@ Para crear y administrar las directrices de marca, puede introducir los detalles
 
    ![](assets/brands-2-temp.png)
 
-<!--
-
-[Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)]
+<!--Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)--
 
 1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
 
@@ -78,19 +82,23 @@ Para crear y administrar las directrices de marca, puede introducir los detalles
 
 -->
 
-1. En la ficha **[!UICONTROL Estilo de escritura]**, haga clic en ![](assets/do-not-localize/Smock_Add_18_N.svg) para agregar una directriz o exclusión. También puede añadir ejemplos.
+1. En la ficha **[!UICONTROL Estilo de escritura]**, haga clic en ![](assets/do-not-localize/Smock_Add_18_N.svg) para agregar una directriz o exclusión, incluidos ejemplos.
 
    ![](assets/brands-3.png)
 
 1. En la ficha **[!UICONTROL Contenido visual]**, haga clic en ![](assets/do-not-localize/Smock_Add_18_N.svg) para agregar otra directriz o exclusión.
 
-1. Para agregar un ejemplo de imagen, haga clic en **[!UICONTROL Seleccionar imagen]**. También puede añadir una imagen que muestre un uso incorrecto como ejemplo de exclusión.
+1. Para agregar una imagen que muestre el uso correcto, seleccione **[!UICONTROL Ejemplo]** y haga clic en **[!UICONTROL Seleccionar imagen]**. También puede añadir una imagen que muestre un uso incorrecto como ejemplo de exclusión.
 
    ![](assets/brands-4.png)
 
-1. Una vez configurada, haga clic en **[!UICONTROL Guardar]** y luego en **[!UICONTROL Publicar]** para que las directrices de marcas estén disponibles en el asistente de IA.
+1. Una vez configurada, haz clic en **[!UICONTROL Guardar]** y luego en **[!UICONTROL Publicar]** para que la guía de marca esté disponible en el asistente de IA.
 
-1. Para hacer modificaciones a tu marca publicada, haz clic en **[!UICONTROL Editar marca]**. Tenga en cuenta que esto crea una copia temporal en el modo de edición y reemplaza la versión activa una vez publicada.
+1. Para hacer modificaciones a tu marca publicada, haz clic en **[!UICONTROL Editar marca]**.
+
+   >[!NOTE]
+   >
+   >Esto crea una copia temporal en el modo de edición y reemplaza la versión activa una vez publicada.
 
    ![](assets/brands-8.png)
 
@@ -105,6 +113,6 @@ Para crear y administrar las directrices de marca, puede introducir los detalles
 
    ![](assets/brands-6.png)
 
-Ahora se puede acceder a las directrices de marca desde la lista desplegable Marcas en el menú asistente de IA, lo que le permite generar contenido y recursos alineados con las especificaciones. [Más información sobre el asistente de IA](gs-generative.md)
+Ahora se puede acceder a las directrices de marca desde la lista desplegable **[!UICONTROL Marca]** del menú del asistente de IA, lo que le permite generar contenido y recursos alineados con las especificaciones. [Más información sobre el asistente de IA](gs-generative.md)
 
 ![](assets/brands-7.png)
