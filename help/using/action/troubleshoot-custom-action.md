@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
-source-git-commit: d7ef9cb8b74781d5c711bd2958070767735a3b24
+source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -48,11 +48,9 @@ Obtenga más información acerca de los permisos de recorrido en [esta sección]
 
 Para probar una acción personalizada, siga estos pasos:
 
-1. Vaya a la pantalla de configuración **Acciones personalizadas** y seleccione una acción personalizada.
+1. Vaya a la pantalla de configuración de **Actions** y seleccione una acción personalizada.
 1. Haga clic en el botón **[!UICONTROL Enviar solicitud de prueba]** en la parte inferior de la pantalla de configuración de la acción.
-
-![Enviar botón de solicitud de prueba en el panel de configuración de acción](assets/test-request.png){width="70%" align="left"}
-
+   ![Enviar botón de solicitud de prueba en el panel de configuración de acción](assets/test-request.png){width="70%" align="left"}
 1. En la ventana emergente, que permite especificar los parámetros de la solicitud:
 
    * Si el método de acción personalizada **es GET**, no se requiere carga útil.
