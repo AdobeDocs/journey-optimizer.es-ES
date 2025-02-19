@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 05a882d3dec6b6f62eac432d14bb9ac9ad48257d
+source-git-commit: 1465b110812beba8b58c7dc2e01a65189f984c27
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1362'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 3%
 # Creación de perfiles de prueba {#create-test-profiles}
 
 Se requieren perfiles de prueba al usar el [modo de prueba](../building-journeys/testing-the-journey.md) en un recorrido, y para [previsualizar y probar el contenido](../content-management/preview-test.md).
+
+
+>[!NOTE]
+>
+>[!DNL Journey optimizer] también le permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV / JSON, o añadidos manualmente. [Aprenda a probar el contenido con datos de entrada de ejemplo](../test-approve/simulate-sample-input.md)
 
 Existen varias formas de crear perfiles de prueba. Puede encontrar en esta página los detalles para:
 
