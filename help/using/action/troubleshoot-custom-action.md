@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
-source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
+source-git-commit: d7ef9cb8b74781d5c711bd2958070767735a3b24
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '583'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Utilice esta capacidad para optimizar el proceso de prueba y validación, asegur
 
 Para usar la capacidad **[!UICONTROL Enviar solicitud de prueba]**, se debe preconfigurar una **acción personalizada** con una dirección URL, encabezados y configuración de autenticación.
 
-Para que el administrador utilice esta capacidad, se requieren los siguientes permisos:
+Para que los administradores utilicen esta capacidad, se requieren los siguientes permisos:
 
 * Los usuarios deben tener el permiso **[!DNL Manage journeys events, data sources and actions]**.
 * Este permiso está incluido en el rol *Administradores de Recorrido*.
@@ -48,8 +48,11 @@ Obtenga más información acerca de los permisos de recorrido en [esta sección]
 
 Para probar una acción personalizada, siga estos pasos:
 
-1. Vaya a la pantalla de configuración de **Acciones personalizadas**.
-1. Haga clic en el botón **[!UICONTROL Enviar solicitud de prueba]**.
+1. Vaya a la pantalla de configuración **Acciones personalizadas** y seleccione una acción personalizada.
+1. Haga clic en el botón **[!UICONTROL Enviar solicitud de prueba]** en la parte inferior de la pantalla de configuración de la acción.
+
+![Enviar botón de solicitud de prueba en el panel de configuración de acción](assets/test-request.png){width="70%" align="left"}
+
 1. En la ventana emergente, que permite especificar los parámetros de la solicitud:
 
    * Si el método de acción personalizada **es GET**, no se requiere carga útil.
