@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 93%
+source-wordcount: '2305'
+ht-degree: 91%
 
 ---
 
@@ -75,6 +75,17 @@ Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios
 * Los fragmentos visuales solo están disponibles para el canal de correo electrónico.
 * Los fragmentos de expresiones no están disponibles para el canal en la aplicación.
 
+## Protecciones de públicos {#audience}
+
+Puede publicar hasta 10 composiciones de público en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
+
+## Protecciones de toma de decisiones y gestión de decisiones {#decisioning}
+
+Las protecciones y limitaciones que se deben tener en cuenta al trabajar con Decisioning o Administración de decisiones se detallan en estas secciones de Decisioning y Administración de decisiones:
+
+* [Limitaciones y protecciones de decisiones](../experience-decisioning/decisioning-guardrails.md)
+* [Limitaciones y protecciones de gestión de decisiones](../offers/decision-management-guardrails.md)
+
 ## Mecanismos de protección de recorridos {#journeys-guardrails}
 
 ### Protecciones generales del recorrido {#journeys-guardrails-journeys}
@@ -85,7 +96,6 @@ Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios
 * Cuando se utiliza una calificación de público en un recorrido, esa actividad de calificación de público puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen del público.
 * Una instancia de recorrido de un perfil tiene un tamaño máximo de 1 MB. Todos los datos recopilados como parte de la ejecución del recorrido se almacenan en esa instancia de recorrido. Por lo tanto, los datos de un evento entrante, la información de perfil recuperada de Adobe Experience Platform, las respuestas de acciones personalizadas, etc. se almacenan en esa instancia de recorrido y afectan al tamaño del recorrido. Se recomienda, cuando un recorrido comienza con un evento, limitar el tamaño máximo de esa carga útil de evento (p. ej.: por debajo de 800 KB) para evitar alcanzar ese límite después de unas pocas actividades, en la ejecución del recorrido. Cuando se alcanza ese límite, el perfil está en estado de error y se excluirá del recorrido.
 * Además del tiempo de espera utilizado en las actividades del recorrido, también hay un tiempo de espera de recorrido global que no se muestra en la interfaz y no se puede cambiar. Este tiempo de espera global detiene el progreso de los particulares en el recorrido 91 días después de su entrada. [Más información](../building-journeys/journey-properties.md#global_timeout)
-
 
 ### Acciones generales {#general-actions-g}
 
@@ -127,7 +137,6 @@ Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios
 * Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
 * Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos consumidos por lotes o los eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se pueden utilizar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en dichos eventos y utilice la actividad **Público de lectura** en su lugar. Técnicamente, la calificación del público puede utilizarse, pero no se recomienda porque puede provocar problemas posteriores en función de las acciones utilizadas.
 
-
 ### Fuentes de datos {#data-sources-g}
 
 * Las fuentes de datos externas se pueden aprovechar dentro de un recorrido del cliente para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
@@ -153,7 +162,6 @@ Puede elegir entre una de estas dos soluciones:
 
 Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL Actualizar perfil]**. Se muestran [en esta página](../building-journeys/update-profiles.md).
 
-
 ### Público de lectura {#read-segment-g}
 
 Las siguientes limitaciones se aplican a la actividad **[!UICONTROL Público de lectura]**:
@@ -166,18 +174,15 @@ Las siguientes limitaciones se aplican a la actividad **[!UICONTROL Público de 
 * Vea también las recomendaciones acerca de cómo usar la actividad **Leer público** en [esta página](../building-journeys/read-audience.md).
 * Los reintentos ahora se aplican de forma predeterminada en recorridos activados por públicos destinatarios (empezando con una actividad **Leer público** o **Evento empresarial**) cuando se recupera el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada.
 
-
 ### Calificación de público {#audience-qualif-g}
 
 El siguiente mecanismo de protección se aplica a la actividad **[!UICONTROL Calificación de público]**:
 
 * La actividad de calificación de público no se puede utilizar con actividades de Adobe Campaign.
 
-
 ### Editor de expresiones {#expression-editor}
 
 * Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer público, Calificación de público o una actividad de evento empresarial. Debe crear un público nuevo y utilizar una condición dentro del público en el recorrido.
-
 
 ### Actividad en la aplicación {#in-app-activity-limitations}
 
@@ -197,8 +202,6 @@ El siguiente mecanismo de protección se aplica a la actividad **[!UICONTROL Cal
 
 * El tamaño del contenido del mensaje en la aplicación está limitado a 2 Mb. La inclusión de imágenes grandes puede dificultar el proceso de publicación.
 
-
-
 ### Actividad de salto {#jump-g}
 
 Especifique protecciones específicas de la actividad **[!UICONTROL Saltar]**. Se muestran [en esta página](../building-journeys/jump.md#jump-limitations).
@@ -209,37 +212,3 @@ Los siguientes mecanismos de protección se aplican a las actividades **[!UICONT
 
 * Las actividades de Adobe Campaign no se pueden utilizar con un público de lectura o una actividad de calificación de público.
 * Estas actividades no se pueden utilizar con actividades en la aplicación.
-
-## Protecciones de públicos {#audience}
-
-Puede publicar hasta 10 composiciones de público en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
-
-## Mecanismos de protección de gestión de decisiones {#decision-management}
-
-### Protecciones de rendimiento {#performance-guardrails}
-
-El rendimiento de envío corresponde al número de respuestas de decisión que puede entregar el servicio de aplicaciones de gestión de decisiones en un período de tiempo especificado. En el cuadro que figura a continuación se indica el número de decisiones por segundo.
-
-| API | Decisiones por segundo |
-|---------|----------|
-| Solicitudes de decisiones de API | 500 por segundo |
-| Solicitudes de API de Edge Decisioning con segmentación de Edge | 1.500 por segundo |
-| Solicitudes de API de Edge Decisioning sin segmentación de Edge | 5.000 por segundo |
-
-### Limitaciones {#offers-limitations}
-
-Las limitaciones de Gestión de decisiones se indican a continuación.
-
-* **Ofertas personalizadas aprobadas + Ofertas de reserva**: hasta 10 000 ofertas personalizadas aprobadas combinadas y ofertas de reserva aprobadas.
-* **Decisiones**: hasta 10.000 Decisiones.
-* **Decisiones en directo**: el servicio de la aplicación Offer Decisioning admite hasta 1000 decisiones en directo.
-* **Ofertas devueltas por respuesta**: Offer Decisioning admite hasta 100 ofertas devueltas por solicitud en todos los ámbitos de decisión de la solicitud.
-* **Colecciones**: hasta 10 000 colecciones.
-* **Colecciones por decisión**: hasta 30 colecciones por decisión.
-* **Reglas de decisión + Funciones de clasificación** Hasta 10 000 reglas de decisión y funciones de clasificación combinadas.
-* **Ubicaciones**: hasta 1000 ubicaciones.
-* **Ubicaciones por decisión**: hasta 30 ubicaciones por decisión.
-* **Método de clasificación por decisión**: el servicio de aplicación Offer Decisioning admite hasta 30 funciones de clasificación por decisión.
-* **Modelo de clasificaciones de IA**: el servicio de aplicación Offer Decisioning admite hasta 5 modelos de clasificaciones de IA.
-* **Calificador de colección por oferta o colección**: el servicio de aplicación Offer Decisioning admite hasta 20 Calificadores de colección en cualquier Oferta personalizada o Colección única.
-* **Calificadores de colección total**: el servicio de aplicaciones Offer Decisioning admite hasta 1000 Calificadores de colección.
