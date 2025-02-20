@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: ef7ae0a6ad1f582f91e53fd93dabffa39036a584
+source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 53%
+source-wordcount: '1030'
+ht-degree: 52%
 
 ---
 
@@ -97,13 +97,6 @@ ht-degree: 53%
 >title="Otros perfiles"
 >abstract="Active esta opción para crear una ruta adicional con los perfiles restantes que no coinciden con ninguna de las condiciones especificadas en las otras rutas."
 
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="Publicar la audiencia"
->abstract="Publique la composición para guardar las audiencias resultantes en Adobe Experience Platform."
->
-[!BEGINSHADEBOX]
-
 Esta documentación proporciona información detallada sobre cómo trabajar con la composición de públicos en Adobe Journey Optimizer. Si solo es cliente del Perfil del cliente en tiempo real y no utiliza Adobe Journey Optimizer, [haga clic aquí](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=es){target="_blank"}.
 
 >[!ENDSHADEBOX]
@@ -172,11 +165,6 @@ Para crear un flujo de trabajo de maquetación, siga estos pasos:
 >Las audiencias de **composición de audiencias** se ejecutan a diario, por lo que es posible que tenga que esperar hasta 24 horas para usarlas en Journey Optimizer. Los atributos enriquecidos en las audiencias de composición de audiencia son tan recientes como la última ejecución de composición, que pueden tardar hasta 24 horas en el pasado.
 
 ## Acceso a composiciones {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="Publicar la audiencia"
->abstract="Publique la composición para guardar las audiencias resultantes en Adobe Experience Platform."
 
 Se puede acceder a todas las composiciones creadas desde la pestaña **[!UICONTROL Composiciones]**. Puede duplicar o eliminar una composición existente en cualquier momento mediante el botón de puntos suspensivos de la lista.
 
