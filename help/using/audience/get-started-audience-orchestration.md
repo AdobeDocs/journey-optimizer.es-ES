@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: ef7ae0a6ad1f582f91e53fd93dabffa39036a584
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 28%
+source-wordcount: '1062'
+ht-degree: 53%
 
 ---
 
@@ -22,7 +22,87 @@ ht-degree: 28%
 >title="Crear una composición"
 >abstract="Cree un flujo de trabajo de composición para combinar los públicos de Adobe Experience Platform existentes en un lienzo visual y aproveche varias actividades (división, exclusión…) para crear nuevos públicos."
 
->[!BEGINSHADEBOX]
+>[!CONTEXTUALHELP]
+>id="ajo_ao_publish"
+>title="Publicar la audiencia"
+>abstract="Publique la composición para guardar las audiencias resultantes en Adobe Experience Platform."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_audience"
+>title="Actividad de audiencia"
+>abstract="La actividad de audiencia permite incluir en su composición perfiles adicionales que pertenecen a una audiencia existente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="Tipos de combinación"
+>abstract="Especifique cómo se deben combinar los perfiles de las audiencias seleccionadas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_exclude_type"
+>title="Tipo de exclusión"
+>abstract="Utilice el tipo Excluir audiencia para excluir perfiles pertenecientes a una audiencia existente. El tipo de atributo de exclusión permite excluir perfiles según un atributo específico."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_exclude"
+>title="Actividad de exclusión"
+>abstract="La actividad de exclusión permite excluir perfiles de la composición seleccionando una audiencia existente o utilizando una regla."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich"
+>title="Actividad de enriquecimiento"
+>abstract="Utilice la actividad Enriquecer para enriquecer al público con atributos adicionales procedentes de los conjuntos de datos de Adobe Experience Platform. Por ejemplo, puede añadir información relacionada con el producto comprado, como el nombre, precio o ID de fabricante y utilizar esta información para personalizar los envíos enviados al público."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_dataset"
+>title="Conjunto de datos de enriquecimiento"
+>abstract="Seleccione el conjunto de datos de enriquecimiento que contiene los datos que desea asociar a la audiencia."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_criteria"
+>title="Criterios de enriquecimiento"
+>abstract="Seleccione los campos que se utilizarán como clave de reconciliación entre el conjunto de datos de origen, es decir, la audiencia y el conjunto de datos de enriquecimiento."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_attributes"
+>title="Atributos de enriquecimiento"
+>abstract="Seleccione uno o varios atributos del conjunto de datos de enriquecimiento para asociarlos a la audiencia. Una vez publicada la composición, estos atributos se asocian al público y se pueden aprovechar en campañas de Journey Optimizer para personalizar envíos."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_ranking"
+>title="Actividad de clasificación"
+>abstract="La actividad de clasificación permite clasificar perfiles según un atributo específico e incluirlos en su composición. Por ejemplo, incluya los 50 perfiles con la mayor cantidad de puntos de fidelidad."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="Añadir límite de perfil"
+>abstract="Active esta opción para especificar el número máximo de perfiles que desea incluir en la composición."
+
+<!-- [!CONTEXTUALHELP]
+>id="ajo_ao_control_group_text"
+>title="Control Group"
+>abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split"
+>title="Actividad de división"
+>abstract="La actividad de división permite dividir la composición en varias rutas. Al publicar la composición, se guardará una audiencia en Adobe Experience Platform para cada ruta."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_type"
+>title="Tipo de división"
+>abstract="Utilice el tipo de división Porcentaje para dividir aleatoriamente los perfiles en varias rutas. El tipo de división Atributo permite dividir perfiles según un atributo específico."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="Otros perfiles"
+>abstract="Active esta opción para crear una ruta adicional con los perfiles restantes que no coinciden con ninguna de las condiciones especificadas en las otras rutas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_publish"
+>title="Publicar la audiencia"
+>abstract="Publique la composición para guardar las audiencias resultantes en Adobe Experience Platform."
+>
+[!BEGINSHADEBOX]
 
 Esta documentación proporciona información detallada sobre cómo trabajar con la composición de públicos en Adobe Journey Optimizer. Si solo es cliente del Perfil del cliente en tiempo real y no utiliza Adobe Journey Optimizer, [haga clic aquí](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=es){target="_blank"}.
 
@@ -75,7 +155,7 @@ Para crear un flujo de trabajo de maquetación, siga estos pasos:
 
    ![](assets/audiences-publish.png)
 
-1. Una vez que la composición esté lista, haga clic en el botón **[!UICONTROL Publish]** para publicar la composición y guardar las audiencias resultantes en Adobe Experience Platform.
+1. Una vez que la composición esté lista, haga clic en el botón **[!UICONTROL Publicar]** para publicar la composición y guardar las audiencias resultantes en Adobe Experience Platform.
 
    >[!IMPORTANT]
    >
