@@ -11,22 +11,22 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
 source-wordcount: '2305'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
 # Mecanismos de protección y limitaciones {#limitations}
 
-A continuación, encontrará limitaciones y protecciones adicionales al utilizar [!DNL Adobe Journey Optimizer].
+A continuación, encontrará limitaciones y mecanismos de protección adicionales al utilizar [!DNL Adobe Journey Optimizer].
 
-Los derechos, limitaciones de productos y protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Los derechos, limitaciones de productos y mecanismos de protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 También debe tener en cuenta los [mecanismos de protección para los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"} antes de comenzar.
 
 
 >[!NOTE]
 >
->En circunstancias excepcionales, las interrupciones temporales en una región específica pueden provocar que se excluyan perfiles válidos de los recorridos o que se marquen incorrectamente los correos como devoluciones. Una vez restaurados los servicios, vuelva a comprobar los registros de recorrido, compruebe los campos de perfil de consentimiento y vuelva a publicar la recorrido si es necesario. En caso de una interrupción del ISP, aprenda a quitar perfiles de la lista de supresión en [esta sección](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+>En circunstancias excepcionales, las interrupciones temporales en una región específica pueden provocar que se excluyan perfiles válidos de los recorridos o que los correos electrónicos se marquen incorrectamente como rechazos. Una vez restaurados los servicios, vuelva a comprobar los registros del recorrido, compruebe los campos de perfil de consentimiento y vuelva a publicar el recorrido si fuera necesario. En caso de una interrupción de ISP, aprenda a quitar perfiles de la lista de supresión en [esta sección](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 >
 
 ## Navegadores admitidos {#browsers}
@@ -38,7 +38,7 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 * No pueden agregar archivos adjuntos a un correo electrónico con [!DNL Journey Optimizer].
 * No puede utilizar el mismo dominio de envío para enviar mensajes desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage], por ejemplo.
 
-## Protecciones de conjuntos de datos {#datasets-guardrails}
+## Mecanismos de protección de los conjuntos de datos {#datasets-guardrails}
 
 A partir de febrero de 2025, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en **nuevos entornos limitados y nuevas organizaciones** de la siguiente manera:
 
@@ -115,7 +115,7 @@ Las protecciones y limitaciones que se deben tener en cuenta al trabajar con Dec
 
 ### Acciones personalizadas {#custom-actions-g}
 
-* Se define un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. Consulte [esta página](../action/about-custom-action-configuration.md). Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tenerlo en cuenta en los recorridos basados en públicos definiendo una tasa de lectura adecuada (5.000 perfiles cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
+* Se define un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. Consulte [esta página](../action/about-custom-action-configuration.md). Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tenerlo en cuenta en los recorridos basados en públicos definiendo una tasa de lectura adecuada (5000 perfiles por segundo cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
 * La URL de acción personalizada no admite parámetros dinámicos.
 * Se admiten los métodos POST, PUT y llamada de GET
 * El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;

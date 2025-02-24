@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
 source-wordcount: '2191'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 96%
    + Administrar los recorridos{#manage-journey}
       + [Administración de la entrada del perfil](using/building-journeys/entry-management.md)
       + [Administración de husos horarios](using/building-journeys/timezone-management.md)
-      + [Optimización del tiempo de envío](using/building-journeys/send-time-optimization.md)
+      + [Optimización de hora de envío](using/building-journeys/send-time-optimization.md)
       + [Termine el recorrido](using/building-journeys/end-journey.md)
       + [Copia de un recorrido en otra zona protegida](using/building-journeys/copy-to-sandbox.md)
       + [Resolución de problemas del recorrido](using/building-journeys/troubleshooting.md)
@@ -221,7 +221,7 @@ ht-degree: 96%
       + [Administrar la exclusión de correo electrónico](using/email/email-opt-out.md)
       + Configurar canal de correo electrónico {#configure-email}
          + [Empezar a configurar el correo electrónico](using/email/get-started-email-config.md)
-         + [Definir configuración de correo electrónico](using/email/email-settings.md)
+         + [Definir la configuración de correo electrónico](using/email/email-settings.md)
          + [Habilitar cancelación de suscripción a lista](using/email/list-unsubscribe.md)
          + [Parámetros de encabezado](using/email/header-parameters.md)
          + [Seguimiento de URL](using/email/url-tracking.md)
@@ -379,8 +379,8 @@ ht-degree: 96%
          + [Composición de público](using/audience/get-started-audience-orchestration.md)
          + [Carga personalizada](using/audience/custom-upload.md)
          + [Composición de público federado](using/audience/federated-audience-composition.md)
-      + [Activación de audiencias en campañas y recorridos](using/audience/target-audiences.md)
-      + [Aprovechamiento de atributos de enriquecimiento](using/audience/enrichment-attributes.md)
+      + [Activación de público en campañas y recorridos](using/audience/target-audiences.md)
+      + [Aprovechar atributos de enriquecimiento](using/audience/enrichment-attributes.md)
    + Perfiles{#profiles}
       + [Introducción a los perfiles](using/audience/get-started-profiles.md)
       + [Creación de perfiles de prueba](using/audience/creating-test-profiles.md)
@@ -391,9 +391,9 @@ ht-degree: 96%
    + [Integraciones con otras soluciones](using/integrations/ajo-integrations.md)
    + [Trabajar con Experience Manager Assets](using/integrations/assets.md)
    + [Trabajar con Adobe Stock](using/integrations/stock.md)
-   + [Trabajo con plantillas de Experience Manager](using/integrations/aem-templates.md)
-   + [Uso de fragmentos de contenido de Experience Manager](using/integrations/aem-fragments.md)
-   + [Trabajo con Dynamic Media](using/integrations/aem-dynamic.md)
+   + [Trabajar con plantillas de Experience Manager](using/integrations/aem-templates.md)
+   + [Trabajar con fragmentos de contenido de Experience Manager](using/integrations/aem-fragments.md)
+   + [Trabajar con Dynamic Media](using/integrations/aem-dynamic.md)
 + Seguimiento y monitorización {#reporting}
    + Informe en vivo {#live-report}
       + [Introducción al Informe activo](using/reports/live-report.md)

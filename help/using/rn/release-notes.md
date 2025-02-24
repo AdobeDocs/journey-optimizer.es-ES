@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 22%
+ht-degree: 27%
 
 ---
 
@@ -114,7 +114,7 @@ A continuación se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>La evaluación de audiencias flexible le permite ejecutar un trabajo de segmentación bajo demanda para audiencias seleccionadas, lo que garantiza que siempre tenga los datos de audiencia más actualizados antes de segmentarlos en recorridos y campañas de Journey Optimizer.</p>
+<p>La evaluación de público flexible le permite ejecutar un trabajo de segmentación bajo demanda para los públicos seleccionados, lo que garantiza que siempre tenga los datos de público más actualizados antes de segmentarlos en recorridos y campañas de Journey Optimizer.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Para obtener más información, consulte la <a href="../audience/creating-a-segment-definition.md#flexible">documentación detallada</a>.</p>
 <p>Esta capacidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
@@ -153,7 +153,7 @@ Las mejoras que se indican a continuación se proporcionan con la actualización
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 
-* **Configuración de correo electrónico**: si administra el consentimiento fuera de Adobe, ahora puede establecer una dirección de correo electrónico personalizada para cancelar la suscripción y una URL personalizada para cancelar la suscripción con un solo clic como parte de la configuración de su canal de correo electrónico. [Más información](../email/list-unsubscribe.md#custom-managed)
+* **Configuración de correo electrónico**: si administra el consentimiento fuera de Adobe, ahora puede establecer una dirección de correo electrónico personalizada para cancelar la suscripción y una URL personalizada para cancelar la suscripción con un solo clic como parte de la configuración de su canal de correo electrónico.[Más información](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 

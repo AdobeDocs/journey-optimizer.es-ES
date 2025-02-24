@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configurar cancelación de suscripción a lista
-description: Obtenga información sobre cómo incluir la URL "Cancelar la suscripción" de un solo clic en el encabezado de los correos electrónicos al establecer la configuración del canal
+description: Obtenga información sobre cómo incluir la URL de cancelación de suscripción de un solo clic en el encabezado de los correos electrónicos al establecer la configuración de canal
 feature: Email, Surface
 topic: Administration
 role: Admin
@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Esta opción está habilitada de forma predeterminada para incluir una URL de ca
 >
 >Si deshabilita esta opción, no se mostrará la URL de cancelación de suscripción con un solo clic en el encabezado del correo electrónico.
 
-El encabezado Cancelación de suscripción a lista ofrece dos opciones, que están habilitadas de forma predeterminada a menos que desmarque una o ambas:
+El encabezado Cancelación de suscripción a lista ofrece dos opciones que están habilitadas de forma predeterminada a menos que desmarque una o ambas:
 
 ![](assets/surface-list-unsubscribe.png){width="80%"}
 
@@ -42,7 +42,7 @@ El encabezado Cancelación de suscripción a lista ofrece dos opciones, que est�
 
   En [!DNL Journey Optimizer], la dirección de correo electrónico de cancelación de suscripción es la dirección predeterminada **[!UICONTROL Mailto (cancelar la suscripción)]** mostrada en la configuración de canal, según el [subdominio seleccionado](#subdomains-and-ip-pools). <!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->.
 
-* La **[!UICONTROL URL de cancelación de suscripción de un solo clic]**, que de forma predeterminada es el encabezado Cancelación de suscripción a lista generado por la URL de exclusión con un solo clic, según el subdominio que haya establecido y configurado en los ajustes de configuración de canal.<!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
+* La **[!UICONTROL URL de cancelación de suscripción de un solo clic]**, que de forma predeterminada es el encabezado Cancelación de suscripción a lista generado por la URL de exclusión en un clic, según el subdominio que haya establecido y configurado en los ajustes de la configuración de canal.<!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
 Puede seleccionar el **[!UICONTROL Nivel de consentimiento]** en la lista desplegable correspondiente. Puede ser específico del canal o de la identidad del perfil. En función de esta configuración, cuando un usuario cancela la suscripción mediante la URL de cancelación de suscripción a lista en el encabezado de un correo electrónico, el consentimiento se actualiza en [!DNL Adobe Journey Optimizer], a nivel de canal o de ID.
 
@@ -58,20 +58,20 @@ Si no desea utilizar la URL de cancelación de suscripción de un solo clic gene
 
 Obtenga más información sobre cómo administrar las funciones de cancelación de suscripción en sus mensajes en [esta sección](../email/email-opt-out.md#unsubscribe-header).
 
-## Administrar externamente los datos de cancelación de suscripción {#custom-managed}
+## Administrar datos de cancelación de suscripción externamente {#custom-managed}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
 >title="Definir cómo se administran los datos de cancelación de suscripción"
 >abstract="**Administrado por Adobe**: es usted quien administra los datos de consentimiento dentro del sistema de Adobe.<br>**Administrado por el cliente**: es usted quien administra los datos de consentimiento en un sistema externo y no se actualizará ninguna sincronización de los datos de consentimiento en el sistema de Adobe a menos que usted la inicie."
 
-Si está administrando el consentimiento fuera de Adobe, seleccione la opción **[!UICONTROL Administrado por el cliente]** para escribir una dirección de correo electrónico de cancelación de suscripción personalizada y su propia URL de cancelación de suscripción con un solo clic. 
+Si está administrando el consentimiento fuera de Adobe, seleccione la opción **[!UICONTROL Administrado por el cliente]** para introducir una dirección de correo electrónico de cancelación de suscripción personalizada y su propia URL de cancelación de suscripción de un solo clic.
 
 ![](assets/surface-list-unsubscribe-custom.png){width="80%"}
 
 >[!WARNING]
 >
->Si usa la opción **[!UICONTROL Administrado por el cliente]**, Adobe no almacenará los datos de cancelación de suscripción o consentimiento. Con la opción **[!UICONTROL Administrado por el cliente]**, las organizaciones optan por utilizar un sistema externo y serán responsables de administrar sus datos de consentimiento en dicho sistema externo. No se realiza ninguna sincronización automática de datos de consentimiento entre el sistema externo y [!DNL Journey Optimizer]. Cualquier sincronización de los datos de consentimiento, originada en el sistema externo para actualizar los datos de consentimiento del usuario en [!DNL Journey Optimizer], deberá iniciarla la organización como una transferencia de datos para insertar los datos de consentimiento de nuevo en [!DNL Journey Optimizer].
+>Si usa la opción **[!UICONTROL Administrado por el cliente]**, Adobe no almacenará los datos de cancelación de suscripción o consentimiento. Con la opción **[!UICONTROL Administrado por el cliente]**, las organizaciones optan por utilizar un sistema externo y serán responsables de administrar sus datos de consentimiento en dicho sistema externo. No se realiza ninguna sincronización automática de datos de consentimiento entre el sistema externo y [!DNL Journey Optimizer]. Cualquier sincronización de los datos de consentimiento, originada en el sistema externo para actualizar los datos de consentimiento del usuario en [!DNL Journey Optimizer], deberá iniciarla la organización como una transferencia de datos para volver a insertar los datos de consentimiento en [!DNL Journey Optimizer].
 
 ### Configuración de la API de descifrado {#configure-decrypt-api}
 
@@ -79,7 +79,7 @@ Con la opción **[!UICONTROL Administrado por el cliente]** seleccionada, si int
 
 Estos parámetros se envían al punto final de forma cifrada. Por lo tanto, el sistema de consentimiento externo necesita implementar una API específica a través de [Adobe Developer](https://developer.adobe.com){target="_blank"} para descifrar los parámetros enviados por Adobe.
 
-La llamada GET para recuperar estos parámetros depende de la opción Cancelación de suscripción a lista que esté usando: **[!UICONTROL URL de cancelación de suscripción de un solo clic]** o **[!UICONTROL Mailto (cancelación de la suscripción)]**.
+La llamada GET para recuperar estos parámetros depende de la opción Cancelación de suscripción a lista que esté usando: **[!UICONTROL URL de cancelación de suscripción de un solo clic]** o **[!UICONTROL Mailto (cancelar la suscripción)]**.
 
 <!--To configure the API to send back the information to [!DNL Adobe Journey Optimizer] when a recipient has unsubscribed using the List unsubscribe option with custom endpoints, follow the steps below.-->
 

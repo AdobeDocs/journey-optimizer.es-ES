@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
 source-wordcount: '6117'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -22,9 +22,9 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 ## Febrero de 2025 {#feb-2025}
 
-* Se ha actualizado, mejorado y movido a una nueva página dedicada la documentación de **[!UICONTROL optimización del tiempo de envío]** y sus preguntas frecuentes relacionadas. [Más información](../building-journeys/send-time-optimization.md)
-* Se han añadido nuevas protecciones para los eventos de recorrido. [Más información](../start/guardrails.md#events-g)
-* Se ha reorganizado la página de acciones de canal integrada. [Más información](../building-journeys/journeys-message.md)
+* Se han actualizado, mejorado y movido a una nueva página dedicada la documentación de **[!UICONTROL optimización del tiempo de envío]** y sus preguntas frecuentes relacionadas. [Más información](../building-journeys/send-time-optimization.md)
+* Se han añadido nuevos mecanismos de protección a los eventos de recorridos. [Más información](../start/guardrails.md#events-g)
+* Se ha reorganizado la página de acciones de canal integradas. [Más información](../building-journeys/journeys-message.md)
 * Se han añadido protecciones y limitaciones en las secciones de Toma de decisiones y Administración de decisiones.
    * [Limitaciones y protecciones de decisiones](../experience-decisioning/decisioning-guardrails.md)
    * [Limitaciones y protecciones de gestión de decisiones](../offers/decision-management-guardrails.md)
@@ -40,15 +40,15 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 * La sección **Correo electrónico de reenvío** se ha actualizado para especificar que todos los correos electrónicos enviados a la dirección **Correo electrónico del remitente** se reenvíen a la dirección de correo electrónico de reenvío. Si no se especifica ningún correo electrónico de reenvío, estos correos electrónicos se descartan. [Más información](../email/email-settings.md#forward-email)
 
-* El tamaño máximo de atributos contextuales pasados a una solicitud de campaña activada por API se ha actualizado a 200 KB. [Más información](../campaigns/api-triggered-campaigns.md#contextual)
+* El tamaño máximo de los atributos contextuales pasados a una solicitud de campaña activada por API se ha actualizado a 200 KB. [Más información](../campaigns/api-triggered-campaigns.md#contextual)
 
-* Se ha agregado una nueva sección a la página **Administrar fragmentos** para describir cómo agregar nuevos atributos a un fragmento activo. También se ha mejorado toda la página. [Más información](../content-management/manage-fragments.md#adding-new-attributes)
+* Se ha añadido una nueva sección a la página **Administrar fragmentos** para describir cómo añadir nuevos atributos a un fragmento activo. También se ha mejorado toda la página. [Más información](../content-management/manage-fragments.md#adding-new-attributes)
 
-* Se ha agregado una sección &quot;Protecciones y limitaciones&quot; a la documentación de las herramientas de administración de conflictos y priorización. [Más información](../conflict-prioritization/gs-conflict-prioritization.md)
+* Se ha añadido una sección “Mecanismos de protección y limitaciones” a la documentación de las herramientas de administración de conflictos y priorizaciones. [Más información](../conflict-prioritization/gs-conflict-prioritization.md)
 
-* Se ha agregado un nuevo caso de uso de extremo a extremo para presentar todos los pasos necesarios para utilizar Decisioning en experimentos de contenido con el canal de experiencia basado en código [!DNL Journey Optimizer]. [Más información](../experience-decisioning/experience-decisioning-uc.md)
+* Se ha añadido un nuevo caso de uso de extremo a extremo para presentar todos los pasos necesarios para utilizar la toma de decisiones en experimentos de contenido con el canal de experiencia basado en código de [!DNL Journey Optimizer]. [Más información](../experience-decisioning/experience-decisioning-uc.md)
 
-* La página **Configurar la configuración del correo electrónico** se ha dividido en varias páginas secundarias para mejorar la legibilidad, incluidas las nuevas páginas independientes dedicadas a [Cancelar la suscripción a una lista](../email/list-unsubscribe.md), [Parámetros de encabezado](../email/header-parameters.md) y [Seguimiento de URL](../email/url-tracking.md).
+* La página **Configuración de correo electrónico** se ha dividido en varias subpáginas para mejorar la legibilidad, incluidas las nuevas páginas independientes dedicadas a [Cancelación de suscripción a lista](../email/list-unsubscribe.md), [Parámetros de encabezado](../email/header-parameters.md) y [Seguimiento de URL](../email/url-tracking.md).
 
 ## Diciembre de 2024 {#nov-2024}
 
