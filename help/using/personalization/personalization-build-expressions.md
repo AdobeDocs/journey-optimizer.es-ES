@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: bc4ce563fe9af30373ba11279d886b598e1fcdcd
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '486'
 ht-degree: 10%
 
 ---
@@ -22,6 +22,12 @@ ht-degree: 10%
 >id="ajo_perso_editor"
 >title="Acerca del editor de personalización"
 >abstract="El editor de personalización permite seleccionar, organizar, personalizar y validar todos los datos para crear una personalización ajustada del contenido."
+
+>[!CONTEXTUALHELP]
+>id="ajo_perso_editor_autocomplete"
+>title="Autocompletar"
+>abstract="Al activar esta opción, el sistema puede completar automáticamente el código y hacer sugerencias mientras escribe la expresión. Esta opción solo está disponible para formatos de HTML y de texto.
+"
 
 El editor de personalización es la pieza central de la personalización en [!DNL Journey Optimizer]. Está disponible en todos los contextos en los que necesita definir la personalización, como correos electrónicos, notificaciones push y ofertas.
 
