@@ -10,9 +10,9 @@ level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -83,13 +83,13 @@ Una vez seleccionado un grupo de IP, la información de PTR se hace visible al p
 
 ## Cancelación de suscripción a lista {#list-unsubscribe}
 
-Al seleccionar un subdominio de la lista, se muestra la opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]**. Está activada de forma predeterminada.
+Tras seleccionar un subdominio de la lista, se muestra la opción **[!UICONTROL Habilitar cancelación de suscripción a lista]**. De forma predeterminada, está habilitada.
 
-Permite incluir una URL de cancelación de suscripción de un clic en el encabezado del correo electrónico. [Más información](list-unsubscribe.md)
+Permite incluir una URL de cancelación de suscripción de un solo clic en el encabezado del correo electrónico. [Más información](list-unsubscribe.md)
 
 ## Parámetros de encabezado {#email-header}
 
-En la sección **[!UICONTROL Parámetros de encabezado]**, escriba los nombres de remitente y las direcciones de correo electrónico asociadas al tipo de correos electrónicos enviados con esa configuración. [Más información](header-parameters.md)
+En la sección **[!UICONTROL Parámetros de encabezado]**, escriba los nombres de los remitentes y las direcciones de correo electrónico asociadas al tipo de correos electrónicos enviados con esa configuración. [Más información](header-parameters.md)
 
 ## Correo electrónico CCO {#bcc-email}
 
