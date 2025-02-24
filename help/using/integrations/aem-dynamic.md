@@ -8,14 +8,16 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+badge: label="Beta" type="Informative"
+exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
+source-git-commit: 962dbbb070bbfe944e174bc330659599a1101ebe
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 0%
+source-wordcount: '436'
+ht-degree: 2%
 
 ---
 
-# Trabajo con Dynamic Media {#aem-dynamic}
+# Trabajar con Dynamic Media {#aem-dynamic}
 
 >[!AVAILABILITY]
 >
@@ -43,33 +45,25 @@ Mejore y optimice el contenido para cualquier pantalla o navegador insertando me
 
 1. Examine los recursos de AEM y seleccione el que desee añadir al contenido.
 
-1. Ajuste los parámetros de la imagen (p. ej., altura, anchura) según sea necesario para que coincidan con los requisitos del recurso.
+1. Ajuste los parámetros de la imagen (por ejemplo, altura, anchura, rotación, giro, brillo, tono, etc.) según sea necesario para que coincidan con los requisitos del recurso.
+
+   Para obtener una lista completa de los parámetros de imagen que se pueden agregar a la dirección URL, consulte [Documentación de Experience Manager](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference).
+
+   ![](assets/dynamic-media-3.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 El contenido ahora incluye medios dinámicos. Las actualizaciones que realice en Experience Manager aparecerán automáticamente en Journey Optimizer.
 
-## Personalization Uso de imágenes con superposición de texto
+## Personalization con superposición de texto
 
-Personalice fácilmente el contenido mediante imágenes con superposición de texto.
-El texto se puede cambiar en el cambio de AJO en la dirección URL como se ha indicado anteriormente
+Personalice fácilmente cualquier medio dinámico reemplazando la superposición de texto existente por el nuevo texto de su elección, lo que permite actualizaciones y personalización sin problemas.
 
-1. Arrastre y suelte un **[!UICONTROL componente de HTML]** en su contenido.
+Por ejemplo, con la funcionalidad de experimentación, puede actualizar la superposición de texto existente reemplazándola con un texto diferente para cada tratamiento, asegurándose de que se personalice para cada perfil cuando abran sus mensajes.
 
-1. Seleccione **[!UICONTROL Mostrar el código fuente]**.
+![](assets/dynamic-media-layout-1.png)
 
-1. Desde el menú **[!UICONTROL Editar HTML]**, accede a **[!UICONTROL Assets]** y luego a **[!UICONTROL Abrir selector de recursos]**.
-
-   También puede copiar y pegar la dirección URL de los recursos.
-
-1. Examine los recursos de AEM y seleccione el que desee añadir al contenido.
-
-## Personalización del tiempo de envío
-
-Parametrizar plantillas en capas de DM con la ayuda del autor de WYSIWYG para personalizar el contenido
-Asignación de atributos contextuales/de perfil mediante el editor de personalización de AJO
-
-1. Arrastre y suelte un **[!UICONTROL componente de HTML]** en su contenido.
+1. Arrastre y suelte un **[!UICONTROL componente de HTML]** en el contenido.
 
 1. Seleccione **[!UICONTROL Mostrar el código fuente]**.
 
@@ -78,3 +72,81 @@ Asignación de atributos contextuales/de perfil mediante el editor de personaliz
    También puede copiar y pegar la dirección URL de los recursos.
 
 1. Examine los recursos de AEM y seleccione el que desee añadir al contenido.
+
+1. Reemplace la superposición con el texto deseado.
+
+   ![](assets/do-not-localize/dynamic_media_layout.gif)
+
+1. Actualice los parámetros de las imágenes:
+
+   * **Capa**: escriba el elemento base donde se coloca el texto.
+   * **Tamaño**: actualice el tamaño del bloque de texto.
+   * **TextAttr**: ajusta el tamaño de la fuente del texto.
+   * **Pos**: establece la posición del texto en la imagen.
+
+   >[!WARNING]
+   >
+   >El parámetro Capa es necesario para actualizar los medios dinámicos.
+
+   ![](assets/dynamic-media-layout-2.png)
+
+1. Haga clic en **[!UICONTROL Guardar]**.
+
+El contenido ahora incluye la superposición de texto actualizada.
+
+![](assets/dynamic-media-layout-3.png)
+
+<!--
+## Personalization with Text Overlay
+
+Easily customize any dynamic media by replacing the existing text overlay with new text of your choice, allowing for seamless updates and personalization.
+
+In this example, our goal is to update the existing text overlay by replacing it with a new validity date and adding a personalization block, ensuring it is customized for each profile when they open their messages.
+
+1. Drag and drop an **[!UICONTROL HTML component]** into your content.
+
+1. Select **[!UICONTROL Show the source code]**.
+
+1. From the **[!UICONTROL Edit HTML]** menu, access **[!UICONTROL Assets]** then **[!UICONTROL Open asset selector]**.
+
+    You can also simply copy and paste your assets URL.
+
+1. Browse through your AEM assets and select the one you want to add to your content.
+
+1. Replace the overlay with the desired text.
+
+    Here we change the validity date from 31st December 2024 to the 1st July 2025.
+
+1. Add the required personalization fields to your image.
+
+1. Click **[!UICONTROL Save]**.
+
+Your content now includes your updated text overlay and personalization.
+
+## Add Dynamic media conditional content
+
+Enable conditional content in your dynamic media to better target your audience and deliver a more personalized experience.
+
+1. Drag and drop an **[!UICONTROL HTML component]** into your content.
+
+1. Select **[!UICONTROL Show the source code]**.
+
+1. From the **[!UICONTROL Edit HTML]** menu, access **[!UICONTROL Assets]** then **[!UICONTROL Open asset selector]**.
+
+    You can also simply copy and paste your assets URL.
+
+1. Browse through your AEM assets and select the one you want to add to your content.
+
+1. Once your dynamic media is inserted to your content, select **[!UICONTROL Enable conditional]** content from your HTML component toolbar to create your different user experiences. 
+
+1. From the Variant - 1, click **[!UICONTROL Select condition]** to fine tune your audience.
+
+1. Choose your condition or create a new one if needed and click **[!UICONTROL Select]**.
+
+    [Learn more on conditions](../personalization/create-conditions.md)
+
+1. Select your **[!UICONTROL Component]** and access the **[!UICONTROL Settings]** menu.
+
+1. In the **[!UICONTROL Custom Attributes]** menu, populate the Dynamic Media text and personalization fields to customize the content for your audience.
+
+-->
