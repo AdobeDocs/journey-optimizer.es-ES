@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 341c5c6a1a451819737797bfa70a8625f900388d
 workflow-type: tm+mt
 source-wordcount: '2333'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -60,9 +60,11 @@ Este cambio se implementará en **zonas protegidas de clientes existentes** en u
 * Actualmente, la sincronización de comentarios de mensajes no está disponible para MMS.
 * La administración de consentimientos funciona en el nivel de canal SMS para MMS.
 
-### Protecciones de canal web {#web-guardrails}
+## Protecciones de canal web {#web-guardrails}
 
-Las campañas web de [!DNL Journey Optimizer] se dirigen a nuevos perfiles que no han interactuado anteriormente en otros canales. Esto aumentará el recuento total de perfiles con los que es posible interactuar, lo que puede tener costes si se supera el número contractual de perfiles adquiridos. Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Las campañas web de [!DNL Journey Optimizer] se dirigen a nuevos perfiles que no han interactuado anteriormente en otros canales. Esto aumentará el recuento total de perfiles atractivos, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles atractivos que ha adquirido.
+
+Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Protecciones de canal basadas en código {#code-based-guardrails}
 
