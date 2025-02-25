@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
+source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '761'
 ht-degree: 26%
 
 ---
@@ -112,4 +112,6 @@ Una vez publicado, puede monitorizar su recorrido mediante las herramientas de s
 
 Obtenga más información acerca de los informes de recorrido en esta [sección](../reports/live-report.md).
 
-Tenga en cuenta que puede duplicar un recorrido existente o crear una nueva versión de un recorrido. Aprenda en [esta página](journey-ui.md)
+>[!NOTE]
+>
+>Si necesita modificarlo a un recorrido **live**, [cree una nueva versión](journey-ui.md#journey-versions) de su recorrido.
