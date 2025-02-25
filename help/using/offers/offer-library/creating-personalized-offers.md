@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b4bd7290fca3221798ce677bdbfb2281e34cec37
+source-git-commit: f30b7c72e98d3676be0885162101c1e9a5eedeaf
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '830'
 ht-degree: 14%
 
 ---
@@ -32,8 +32,7 @@ Se puede acceder a la lista de ofertas personalizadas en el menú **[!UICONTROL 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_details"
 >title="Detalles de la oferta"
->abstract="Rellene el nombre de la oferta y sus fechas de inicio y finalización.
-Outside of these dates, the offer won't be selected by the Decisioning engine."
+>abstract="Rellene el nombre de la oferta y sus fechas de inicio y finalización. Fuera de estas fechas, el motor de decisión no selecciona la oferta."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
