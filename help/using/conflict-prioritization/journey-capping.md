@@ -5,7 +5,7 @@ role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 23%
@@ -120,7 +120,7 @@ Para aplicar una regla de límite a un recorrido, acceda al recorrido y abra sus
 
 >[!IMPORTANT]
 >
->Si un recorrido se activa inmediatamente, el sistema puede tardar hasta 15 minutos en empezar a suprimir clientes. Puede programar su recorrido para que comience al menos 15 minutos en el futuro para evitar esta posibilidad.
+>Si un recorrido se activa inmediatamente, el sistema puede tardar hasta 20 minutos en empezar a suprimir clientes. Puede programar su recorrido para que comience al menos 20 minutos en el futuro para evitar esta posibilidad.
 
 Una vez que el recorrido esté activo, puede registrar en el informe de recorrido si el conjunto de reglas ha dado lugar a alguna exclusión del recorrido, en la tabla **[!UICONTROL Exclusiones de Recorrido]**. [Aprenda a trabajar con informes de recorrido](../reports/journey-global-report-cja.md)
 

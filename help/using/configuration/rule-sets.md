@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6ba6f697060db83e2703bc0ac7cccbbccf816437
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 12%
@@ -311,7 +311,7 @@ Para aplicar una regla de límite a un recorrido, acceda al recorrido y abra sus
 
 >[!IMPORTANT]
 >
->Si un recorrido se activa inmediatamente, el sistema puede tardar hasta 15 minutos en empezar a suprimir clientes. Puede programar su recorrido para que comience al menos 15 minutos en el futuro para evitar esta posibilidad.
+>Si un recorrido se activa inmediatamente, el sistema puede tardar hasta 20 minutos en empezar a suprimir clientes. Puede programar su recorrido para que comience al menos 20 minutos en el futuro para evitar esta posibilidad.
 
 +++
 
