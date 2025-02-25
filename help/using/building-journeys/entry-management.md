@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '702'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 5%
 
 # Administración de la entrada del perfil {#entry-management}
 
-La administración de la entrada del perfil depende del tipo de recorrido. En Adobe Journey Optimizer, están disponibles los siguientes tipos de recorridos:
+La administración de la entrada del perfil depende del tipo de recorrido.
+
+## Tipos de recorridos {#types-of-journeys}
+
+En Adobe Journey Optimizer, están disponibles los siguientes tipos de recorridos:
 
 * **recorridos de evento unitario**: estos recorridos comienzan con un evento unitario. Cuando se recibe el evento, el perfil asociado entra en el recorrido. [Más información](#entry-unitary)
 

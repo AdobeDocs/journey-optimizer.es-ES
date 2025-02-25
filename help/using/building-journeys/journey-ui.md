@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 29%
+source-wordcount: '1124'
+ht-degree: 26%
 
 ---
 
@@ -64,11 +64,19 @@ Además, en los paneles Evento, Fuente de datos y Configuración de acciones, el
 
 ## tipos de recorrido {#journey-types}
 
-El tipo puede ser: **[!UICONTROL Evento unitario]**, **[!UICONTROL Calificación de audiencia]**, **[!UICONTROL Leer audiencia]** o **[!UICONTROL Evento empresarial]**.
+El tipo de recorrido depende de las actividades utilizadas en dicho recorrido. Puede ser:
+
+* **[!UICONTROL Evento unitario]**: los recorridos de eventos unitarios están vinculados a un perfil específico. Los eventos están relacionados con el comportamiento de una persona o con algo que sucede vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). [Más información](../event/about-events.md).
+* **[!UICONTROL Evento empresarial]**. El recorrido de los eventos empresariales comienza con un evento no relacionado con el perfil. La configuración de evento la realiza un usuario técnico y no se puede editar. [Más información](../event/about-events.md).
+* **[!UICONTROL Calificación de audiencias]**: los recorridos en calificación de audiencias escuchan las entradas y salidas de perfiles en audiencias de Adobe Experience Platform para hacer que los individuos entren o avancen en un recorrido. [Más información](audience-qualification-events.md).
+* **[!UICONTROL Leer audiencia]**: en Leer recorridos de audiencia, todas las personas de la audiencia entran al recorrido y reciben los mensajes incluidos en el recorrido.  [Más información](read-audience.md).
+
+
+Obtenga más información acerca de los tipos de recorrido y la administración de entradas asociada en [esta página](entry-management.md).
 
 ## estados de recorrido {#journey-statuses}
 
-El estado del recorrido puede ser:
+El estado del recorrido depende de su ciclo de vida. Puede ser:
 
 * **Cerrado**: el recorrido se ha cerrado con el botón **Cerca de nuevas entradas**. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente.
 * **Borrador**: el recorrido se encuentra en su primera fase. Aún no se ha publicado.

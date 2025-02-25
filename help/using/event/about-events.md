@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: eventos, evento, recorrido, definición, inicio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '986'
 ht-degree: 52%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Eventos de recorrido"
->abstract="Un evento está vinculado a una persona. Hace referencia al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o a algo que sucede vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). Esto es lo que Journey Optimizer escucha en los recorridos para orquestar las mejores próximas acciones."
+>abstract="Un evento está vinculado a una persona. Hace referencia al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o a algo que sucede vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). Journey Optimizer escucha eventos unitarios en recorrido para orquestar las mejores próximas acciones."
 
-La configuración de eventos permite definir la información que [!DNL Journey Optimizer] recibirá como eventos. Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento.
+La configuración de eventos permite definir la información que [!DNL Journey Optimizer] recibe como eventos. Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento.
 
 >[!CAUTION]
 >
@@ -60,7 +60,7 @@ Para los eventos unitarios, existen dos tipos de ID de evento:
 
 >[!NOTE]
 >
->Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos ingeridos en lote o los eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento de correo electrónico, etc.) no se pueden utilizar para almacenar en déclencheur un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en esos eventos y use la actividad **Leer público** en su lugar. Técnicamente, la calificación de audiencias puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas. Estos datos no necesariamente tienen que ir al perfil en tiempo real. Si desea utilizar los eventos para la segmentación o la búsqueda en un recorrido independiente, le recomendamos que habilite el conjunto de datos para el perfil.
+>Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos consumidos por lotes o los eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se pueden utilizar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en esos eventos y use la actividad **Leer público** en su lugar. Técnicamente, la calificación de audiencias puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas. Estos datos no necesariamente tienen que ir al perfil en tiempo real. Si desea utilizar los eventos para la segmentación o la búsqueda en un recorrido independiente, le recomendamos que habilite el conjunto de datos para el perfil.
 
 ## Ciclo de datos {#data-cycle}
 

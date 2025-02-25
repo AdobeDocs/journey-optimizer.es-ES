@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: calificación, eventos, audiencia, recorrido, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 10%
@@ -50,7 +50,7 @@ Este tipo de evento se puede colocar como primer paso o más tarde en el recorri
 
 * Cuando se utiliza una calificación de público en un recorrido, esa actividad de calificación de público puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen del público.
 
-### Configuración de la actividad{#cnfigure-segment-qualification}
+### Configuración de la actividad {#configure-segment-qualification}
 
 Para configurar la actividad **[!UICONTROL Calificación de audiencias]**, siga estos pasos:
 
@@ -130,13 +130,13 @@ No utilice una audiencia por lotes inmediatamente después de su creación en un
 
 ![](assets/segment-error.png)
 
-Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los recorridos para evitar sobrecargarlos. Obtenga más información en [Documentación del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. Tenga en cuenta que la regla de límite no tiene reintento. Si necesita volver a intentarlo, debe usar una ruta alternativa en el recorrido marcando la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** en condiciones o acciones.
+Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los recorridos para evitar sobrecargarlos. Obtenga más información en [Documentación de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. Tenga en cuenta que la regla de límite no tiene reintento. Si necesita volver a intentarlo, debe usar una ruta alternativa en el recorrido marcando la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** en condiciones o acciones.
 
 Antes de usar la audiencia en un recorrido de producción, evalúe siempre primero el volumen de personas que cumplen los requisitos para esta audiencia todos los días. Para ello, puede comprobar el menú **[!UICONTROL Audiencia]**, abrir la audiencia y ver el gráfico de **[!UICONTROL Perfiles a lo largo del tiempo]**.
 
 ![](assets/segment-overload.png)
 
-## Vídeo explicativo {#video}
+## Vídeo práctico {#video}
 
 Comprenda los casos de uso aplicables para los recorridos de calificación de público. Obtenga información sobre cómo crear un recorrido con la calificación de público y qué prácticas recomendadas aplicar.
 
