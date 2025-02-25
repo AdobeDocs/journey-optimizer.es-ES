@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 27c448948b4bcee97f8bbba1a7144bfef796905f
+source-git-commit: 9cab78c89d0885b6da6b43a444754e9ad1e17ae0
 workflow-type: tm+mt
-source-wordcount: '2333'
+source-wordcount: '2335'
 ht-degree: 93%
 
 ---
@@ -33,11 +33,6 @@ También debe tener en cuenta los [mecanismos de protección para los datos del 
 
 La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de forma óptima en la última versión de Google Chrome. Es posible que tenga problemas al utilizar determinadas funciones en versiones anteriores u otros navegadores.
 
-## Mecanismos de protección de mensajes {#message-guardrails}
-
-* No pueden agregar archivos adjuntos a un correo electrónico con [!DNL Journey Optimizer].
-* No puede utilizar el mismo dominio de envío para enviar mensajes desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage], por ejemplo.
-
 ## Mecanismos de protección de los conjuntos de datos {#datasets-guardrails}
 
 A partir de febrero de 2025, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en **nuevos entornos limitados y nuevas organizaciones** de la siguiente manera:
@@ -47,28 +42,35 @@ A partir de febrero de 2025, se implementará una protección de tiempo de vida 
 
 Este cambio se implementará en **zonas protegidas de clientes existentes** en una fase posterior. [Obtenga más información sobre las protecciones de tiempo de salida (TTL) de los conjuntos de datos](../data/datasets-ttl.md)
 
+## Protecciones de canal {#channel-guardrails}
+
+### Protecciones de correo electrónico {#message-guardrails}
+
+* No pueden agregar archivos adjuntos a un correo electrónico con [!DNL Journey Optimizer].
+* No puede utilizar el mismo dominio de envío para enviar mensajes desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage], por ejemplo.
+
+### Protecciones de los SMS {#sms-guardrails}
+
+* Los archivos multimedia para MMS se pueden incluir a través de una dirección URL compatible. Asegúrese de que el archivo multimedia se cargue por separado.
+* Actualmente, la sincronización de comentarios de mensajes no está disponible para MMS.
+* La administración de consentimientos funciona en el nivel de canal SMS para MMS.
+
+### Protecciones de canal web {#web-guardrails}
+
+Las campañas web de [!DNL Journey Optimizer] se dirigen a nuevos perfiles que no han interactuado anteriormente en otros canales. Esto aumentará el recuento total de perfiles atractivos, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles atractivos que ha adquirido.
+
+Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+
+### Protecciones de canal basadas en código {#code-based-guardrails}
+
+Para usar acciones de experiencia basadas en código en [!DNL Journey Optimizer] y entregar carga útil de contenido de código que puedan usar las aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
+
 ## Mecanismos de protección de las páginas de aterrizaje {#lp-guardrails}
 
 * Solo se puede utilizar un componente **Formulario** en una sola página principal.
 * El componente **Formulario** no se puede usar en subpáginas.
 * No puede agregar un preencabezado a una página de aterrizaje.
 * No puede seleccionar la opción **Programar usted mismo** al diseñar una página de aterrizaje principal.
-
-## Protecciones de los SMS {#sms-guardrails}
-
-* Los archivos multimedia para MMS se pueden incluir a través de una dirección URL compatible. Asegúrese de que el archivo multimedia se cargue por separado.
-* Actualmente, la sincronización de comentarios de mensajes no está disponible para MMS.
-* La administración de consentimientos funciona en el nivel de canal SMS para MMS.
-
-## Protecciones de canal web {#web-guardrails}
-
-Las campañas web de [!DNL Journey Optimizer] se dirigen a nuevos perfiles que no han interactuado anteriormente en otros canales. Esto aumentará el recuento total de perfiles atractivos, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles atractivos que ha adquirido.
-
-Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
-
-## Protecciones de canal basadas en código {#code-based-guardrails}
-
-Para usar acciones de experiencia basadas en código en [!DNL Journey Optimizer] y entregar carga útil de contenido de código que puedan usar las aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
 
 ## Protecciones de subdominios {#subdomain-guardrails}
 
@@ -85,7 +87,7 @@ Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios
 
 Puede publicar hasta 10 composiciones de público en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
 
-## Protecciones de toma de decisiones y gestión de decisiones {#decisioning}
+## Protecciones de toma de decisiones y gestión de decisiones {#decisioning-guardrails}
 
 Las protecciones y limitaciones que se deben tener en cuenta al trabajar con Decisioning o Administración de decisiones se detallan en estas secciones de Decisioning y Administración de decisiones:
 
