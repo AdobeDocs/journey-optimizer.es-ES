@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: e9964494fa38a9e693eeb6c8bdfd6dd3d21262e0
+source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '417'
 ht-degree: 38%
 
 ---
@@ -31,6 +31,8 @@ Utilice [!DNL Journey Optimizer] para crear casos de uso de orquestación en tie
 * Con el **diseñador de recorridos**, genere sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de lectura de público, agregue condiciones y envíe mensajes personalizados.
 
 Aprenda a crear y diseñar su primer recorrido en [esta página](journey-gs.md).
+
+➡️ [Descubra Journey Optimizer en vídeo](#video)
 
 ## Casos de uso{#uc-journey}
 

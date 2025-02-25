@@ -9,24 +9,39 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 25%
+source-wordcount: '765'
+ht-degree: 26%
 
 ---
 
-# Creación de su primer recorrido{#jo-quick-start}
+# Creación de su primer recorrido {#jo-quick-start}
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="Creación de recorridos"
 >abstract="Utilice **Adobe Journey Optimizer** para crear casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos."
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="Recorridos"
+>abstract="Diseñar recorridos de clientes para ofrecer experiencias personalizadas y contextuales. Journey Optimizer permite crear casos prácticos de orquestación en tiempo real con información contextual almacenada en eventos o fuentes de datos. La pestaña **Información general** muestra un panel con métricas clave relacionadas con los recorridos. La pestaña **Examinar** muestra la lista de recorridos existentes."
 
-## Requisitos previos{#start-prerequisites}
+Cree recorridos de cliente de varios pasos que inicien una secuencia de interacciones, ofertas y mensajes en varios canales en tiempo real. Este enfoque garantiza que los clientes se involucren en los momentos óptimos en función de sus acciones y señales comerciales relevantes.
 
-Para enviar mensajes con recorridos, se requieren las siguientes configuraciones:
+![muestra de lienzo de recorrido](assets/journey38.png)
+
+Adobe Journey Optimizer incluye un lienzo de orquestación omnicanal que permite a los expertos en marketing armonizar el alcance del marketing con la participación individual del cliente. La interfaz de usuario de le permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo para crear su recorrido. La interfaz de usuario de recorrido se detalla en [esta página](journey-ui.md).
+
+Los pasos principales para crear un recorrido se detallan en esta página. Se racionalizan de la siguiente manera:
+
+![Pasos de creación de recorrido: crear, diseñar, probar y publicar](assets/journey-creation-process.png)
+
+
+## Requisitos previos {#start-prerequisites}
+
+Para enviar mensajes con recorridos, se necesitan los siguientes requisitos previos:
 
 1. **Configurar un evento**: si desea almacenar en déclencheur las recorridos de forma unitaria cuando se recibe un evento, debe configurar un evento. Usted define la información esperada y cómo procesarla. Este paso lo realiza un **usuario técnico**. [Más información](../event/about-events.md).
 
@@ -44,123 +59,57 @@ Para enviar mensajes con recorridos, se requieren las siguientes configuraciones
 
    ![](assets/custom2.png)
 
-## Acceso a recorridos {#journey-access}
 
->[!CONTEXTUALHELP]
->id="ajo_journey_create"
->title="Recorridos"
->abstract="Diseñar recorridos de clientes para ofrecer experiencias personalizadas y contextuales. Journey Optimizer permite crear casos prácticos de orquestación en tiempo real con información contextual almacenada en eventos o fuentes de datos. La pestaña **Información general** muestra un panel con métricas clave relacionadas con los recorridos. La pestaña **Examinar** muestra la lista de recorridos existentes."
 
-### Métricas clave y lista de recorridos {#access-metrics}
+Como ingeniero de datos, los pasos para configurar sus recorridos, incluidas las fuentes de datos, los eventos y las acciones, se detallan en [esta sección](../configuration/about-data-sources-events-actions.md).
 
-En la sección de menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**. Hay dos pestañas disponibles:
-
-**Información general**: en esta pestaña se muestra un panel con métricas clave relacionadas con los recorridos:
-
-* **Perfiles procesados**: número total de perfiles procesados en las últimas 24 horas.
-* **recorridos activos**: número total de recorridos activos con tráfico durante las últimas 24 horas. Los recorridos activos incluyen **recorridos unitarios** (basados en eventos) y **recorridos por lotes** (lectura de audiencia).
-* **Tasa de error**: proporción de todos los perfiles en error comparada con la cantidad total de perfiles que ingresaron en las últimas 24 horas.
-* **Tasa de descarte**: proporción de todos los perfiles descartados en comparación con la cantidad total de perfiles que ingresaron en las últimas 24 horas. Un perfil descartado representa a alguien que no cumple los requisitos para entrar en el recorrido, por ejemplo, debido a un área de nombres incorrecta o a reglas de reentrada.
 
 >[!NOTE]
 >
->Este tablero tiene en cuenta los recorridos con tráfico de las últimas 24 horas. Solo se muestran los recorridos a los que tiene acceso. Las métricas se actualizan cada 30 minutos y solo cuando hay nuevos datos disponibles.
+>En [esta página](../start/guardrails.md) se detallan los mecanismos de protección y limitaciones de los recorridos
 
-![](assets/journeys-dashboard.png)
+## Creación de un recorrido de varios pasos {#jo-build}
 
-**Examinar**: esta ficha muestra la lista de recorridos existentes. Puede buscar recorridos, utilizarlos y realizar acciones básicas en cada elemento. Por ejemplo, puede duplicar o eliminar un elemento. Para obtener más información, consulte [esta sección](../start/user-interface.md#filter-lists).
+Para crear un recorrido de varios pasos, siga estos pasos:
 
-![](assets/journeys-browse.png)
+1. En la sección de menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**.
 
-### Filtrar recorridos {#filter}
+1. Haga clic en el botón **[!UICONTROL Crear Recorrido]** para crear un recorrido nuevo.
 
-En la lista de recorridos, puede aprovechar varios filtros para restringir la lista de recorridos y mejorar la legibilidad.
-
-![](assets/filter-journeys.png)
-
-Estas son las distintas operaciones de filtrado que puede realizar:
-
-Filtre los recorridos según su estado, tipo, versión y etiquetas asignadas de **[!UICONTROL Estado y versión de filtros]**.
-
-El tipo puede ser: **[!UICONTROL Evento unitario]**, **[!UICONTROL Calificación de audiencia]**, **[!UICONTROL Leer audiencia]** o **[!UICONTROL Evento empresarial]**.
-
-El estado puede ser el siguiente:
-
-* **Cerrado**: el recorrido se ha cerrado con el botón **Cerca de nuevas entradas**. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente.
-* **Borrador**: el recorrido se encuentra en su primera fase. Aún no se ha publicado.
-* **Borrador (prueba)**: el modo de prueba se ha activado con el botón **Modo de prueba**.
-* **Finalizado**: el recorrido cambia automáticamente a este estado después del tiempo de espera global de [91 días](journey-properties.md#global_timeout). Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido.
-* **Activo**: el recorrido se ha publicado con el botón **Publish**.
-* **Detenido**: el recorrido se ha desactivado con el botón **Detener**. Todos los individuos abandonan el recorrido al instante.
-
->[!NOTE]
->
->El ciclo de vida de creación de Recorridos también incluye un conjunto de estados intermedios que no están disponibles para el filtrado: &quot;Publicación&quot; (entre &quot;Borrador&quot; y &quot;Activo&quot;), &quot;Activación del modo de prueba&quot; o &quot;Desactivación del modo de prueba&quot; (entre &quot;Borrador&quot; y &quot;Borrador (prueba)&quot;) y &quot;Detención&quot; (entre &quot;Activo&quot; y &quot;Detenido&quot;). Cuando un recorrido está en un estado intermedio, es de solo lectura.
-
-Use **[!UICONTROL filtros de creación]** para filtrar recorridos según su fecha de creación o el usuario que los creó.
-
-Mostrar recorridos que utilizan un evento, un grupo de campos o una acción específicos de **[!UICONTROL Activity Filters]** y **[!UICONTROL Data Filters]**.
-
-Use **[!UICONTROL Filtros de publicación]** para seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer.
-
-Para filtrar recorridos según un intervalo de fechas específico, seleccione **[!UICONTROL Personalizado]** de la lista desplegable **[!UICONTROL Publicado]**.
-
-Además, en los paneles Evento, Fuente de datos y Configuración de acciones, el campo **[!UICONTROL Utilizado en]** muestra el número de recorridos que utilizan ese evento, grupo de campos o acción en particular. Puede hacer clic en el botón **[!UICONTROL Ver recorridos]** para mostrar la lista de los recorridos correspondientes.
-
-![](assets/journey3bis.png)
-
-## Cree su recorrido {#jo-build}
-
-Diseñe recorridos para ofrecer experiencias personalizadas y contextuales. [!DNL Journey Optimizer] permiten crear casos prácticos de orquestación en tiempo real con información contextual almacenada en eventos o fuentes de datos. Diseñe escenarios avanzados de varios pasos con las siguientes capacidades:
-
-* Envíe en tiempo real un **envío unitario** que se activa cuando se recibe un evento, o **en lote** con los públicos de Adobe Experience Platform.
-
-* Aprovechar **datos contextuales** desde eventos, información de Adobe Experience Platform o datos de servicios API de terceros.
-
-* Utilice las **acciones de canal integradas** (correo electrónico, SMS, Push, InApp) para enviar mensajes elaborados en [!DNL Journey Optimizer] o cree **acciones personalizadas** si utiliza un sistema de terceros para enviar mensajes.
-
-* Con el **diseñador de recorridos**, genere sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de lectura de público, agregue condiciones y envíe mensajes personalizados.
-
-➡️ [Descubra esta función en vídeo](journey.md#video)
-
-A continuación se enumeran los pasos para enviar mensajes mediante recorridos:
-
-1. En la ficha **Examinar**, haga clic en **[!UICONTROL Crear Recorrido]** para crear un nuevo recorrido.
-
-1. Edite las propiedades del recorrido en el panel de configuración que se muestra en el lado derecho. Aprenda a establecer las propiedades de su recorrido en esta [esta página](journey-properties.md).
+1. Edite el panel de configuración del recorrido para definir el nombre del recorrido y sus propiedades. Aprenda a establecer las propiedades de su recorrido en [esta página](journey-properties.md).
 
    ![](assets/jo-properties.png)
+
+A continuación, puede empezar a diseñar el recorrido.
+
+## Diseño del recorrido {#jo-design}
+
+El diseñador de recorridos omnicanal le ayuda a crear recorridos de varios pasos con públicos destinatarios, actualizaciones basadas en interacciones comerciales o de clientes en tiempo real y mensajes omnicanal mediante una interfaz intuitiva de arrastrar y soltar.
+
+![](assets/journey38.png)
 
 1. Para empezar, arrastre y suelte un evento o una actividad **Leer audiencia** de la paleta en el lienzo. Para obtener más información sobre el diseño de recorrido, consulte [esta sección](using-the-journey-designer.md).
 
    ![](assets/read-segment.png)
 
-1. Arrastre y suelte los siguientes pasos que seguirá el individuo. Por ejemplo, puede agregar una condición seguida de una acción del canal. Para obtener más información sobre las actividades, consulte [esta sección](using-the-journey-designer.md).
+1. Arrastre y suelte los siguientes pasos que seguirá el individuo. Por ejemplo, puede agregar una condición seguida de una acción del canal. Para obtener más información sobre las actividades, consulte [esta sección](about-journey-activities.md).
 
-1. Pruebe el recorrido con perfiles de prueba. Obtenga más información en esta [sección](testing-the-journey.md)
+## Prueba del recorrido {#jo-test}
 
-1. Publish su recorrido para activarlo. Obtenga más información en esta [sección](publishing-the-journey.md).
+Una vez creado el recorrido, puede probarlo antes de publicarlo. Journey Optimizer ofrece el &quot;Modo de prueba&quot; como una forma de ver los perfiles de prueba a medida que se mueven por el recorrido, detectando posibles errores antes de la activación. La ejecución de pruebas rápidas le permite comprobar que los recorridos funcionan correctamente para que pueda publicarlos con confianza.
 
-   ![](assets/jo-journeyuc2_32bis.png)
+Obtenga más información en esta [sección](testing-the-journey.md)
 
-1. Monitorice su recorrido con las herramientas de sistema de informes específicas para medir la efectividad de su recorrido. Obtenga más información en esta [sección](../reports/live-report.md).
+## Publicar el recorrido {#jo-pub}
 
-   ![](assets/jo-dynamic_report_journey_12.png)
+Debe publicar un recorrido para activarlo y hacer que esté disponible para que los nuevos perfiles lo introduzcan. Antes de publicar el recorrido, compruebe que sea válido y que no haya ningún error. No se puede publicar un recorrido con errores. Obtenga más información acerca de la publicación de recorrido en esta [sección](publishing-the-journey.md).
 
+![](assets/jo-journeyuc2_32bis.png)
 
-## Duplicación de un recorrido {#duplicate-a-journey}
+Una vez publicado, puede monitorizar su recorrido mediante las herramientas de sistema de informes específicas para medir la efectividad de su recorrido.
 
-Puede duplicar un recorrido existente de la ficha **Examinar**. Todos los objetos y configuraciones se duplican en la copia de recorrido.
+![](assets/jo-dynamic_report_journey_12.png)
 
-Para ello, siga los pasos a continuación:
+Obtenga más información acerca de los informes de recorrido en esta [sección](../reports/live-report.md).
 
-1. Vaya al recorrido que desee copiar y haga clic en el icono **Más acciones** (los tres puntos junto al nombre del recorrido).
-1. Seleccione **Duplicar**.
-
-   ![Duplicar un recorrido](assets/duplicate-jo.png)
-
-1. Introduzca el nombre del recorrido y confírmelo. También puede cambiar el nombre en la pantalla de propiedades del recorrido. De manera predeterminada, el nombre se establece de la siguiente manera: `[JOURNEY-NAME]_copy`
-
-   ![](assets/duplicate-jo2.png)
-
-1. El nuevo recorrido se crea y está disponible en la lista de recorridos.
+Tenga en cuenta que puede duplicar un recorrido existente o crear una nueva versión de un recorrido. Aprenda en [esta página](journey-ui.md)
