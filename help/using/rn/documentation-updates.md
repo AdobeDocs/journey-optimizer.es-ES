@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: a35b8005592aa84dc9a3ac674129064d012e3a56
 workflow-type: tm+mt
-source-wordcount: '6117'
+source-wordcount: '6153'
 ht-degree: 97%
 
 ---
@@ -22,6 +22,8 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 ## Febrero de 2025 {#feb-2025}
 
+* Se han detallado los pasos para crear sus primeros recorridos y se han añadido vínculos a la sección de documentación. [Más información](../building-journeys/journey-gs.md)
+* Ahora hay disponible una nueva página para detallar el panel de recorrido y la interfaz de usuario de filtrado. [Más información](../building-journeys/journey-ui.md)
 * Se han actualizado, mejorado y movido a una nueva página dedicada la documentación de **[!UICONTROL optimización del tiempo de envío]** y sus preguntas frecuentes relacionadas. [Más información](../building-journeys/send-time-optimization.md)
 * Se han añadido nuevos mecanismos de protección a los eventos de recorridos. [Más información](../start/guardrails.md#events-g)
 * Se ha reorganizado la página de acciones de canal integradas. [Más información](../building-journeys/journeys-message.md)
