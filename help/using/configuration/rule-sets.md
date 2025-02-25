@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: 6ba6f697060db83e2703bc0ac7cccbbccf816437
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 12%
@@ -258,7 +258,7 @@ Puede aplicar un conjunto de reglas a un mensaje o a un recorrido, según el dom
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. Antes de activar la campaña, asegúrese de programar su ejecución al menos 10 minutos en el futuro.
+1. Antes de activar la campaña, asegúrese de programar su ejecución al menos 20 minutos en el futuro.
 
    Esto permite disponer de tiempo suficiente para rellenar los valores de contador en el perfil para la regla de negocio seleccionada. Si activa la campaña inmediatamente, los valores del contador del conjunto de reglas no se rellenan en los perfiles de los destinatarios y el mensaje no se contabiliza en sus reglas de límite de frecuencia para los conjuntos de reglas personalizadas.
 
