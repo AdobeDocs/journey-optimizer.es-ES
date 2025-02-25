@@ -9,22 +9,25 @@ role: User
 level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 3a1e00ecc74ccca5cba0e15ac642eeb7ddb40ae0
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '305'
 ht-degree: 5%
 
 ---
 
 # Publicación del recorrido {#publishing-the-journey}
 
-Debe publicar un recorrido para activarlo y hacer que esté disponible para que los nuevos perfiles lo introduzcan. Antes de publicar el recorrido, compruebe que sea válido y que no haya ningún error. No se puede publicar un recorrido con errores. Aprenda a probar su recorrido en [esta página](testing-the-journey.md).
+Debe publicar un recorrido para activarlo y hacer que esté disponible para que los nuevos perfiles lo introduzcan. Antes de publicar el recorrido, compruebe que sea válido y que no haya ningún error. No se puede publicar un recorrido con errores.
 
 ➡️ [Descubra esta función en vídeo](#video)
 
 Los pasos para publicar un recorrido se detallan a continuación:
 
-1. Antes de publicar el recorrido, compruebe que sea válido y que no haya ningún error. No podrá publicar un recorrido con errores. Aprenda a solucionar problemas de su recorrido en [esta sección](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+1. Antes de publicar el recorrido, compruebe que sea válido y que no haya ningún error. No podrá publicar un recorrido con errores.
+
+   * Aprenda a probar su recorrido en [esta página](testing-the-journey.md).
+   * Aprenda a solucionar los errores de recorrido en [esta sección](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 1. Para publicar el recorrido, haga clic en la opción **[!UICONTROL Publicar]**, que se encuentra en el menú desplegable superior derecho.
 
