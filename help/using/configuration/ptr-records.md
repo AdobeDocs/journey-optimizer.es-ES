@@ -9,14 +9,14 @@ role: Admin
 level: Experienced
 keywords: subdominio, PTR, registros, DNS, dominio, correo
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '842'
 ht-degree: 10%
 
 ---
 
-# Registros PTR {#ptr-records}
+# Creación y edición de registros PTR {#ptr-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
@@ -36,7 +36,7 @@ Con los registros PTR, los servidores de correo receptores pueden comprobar la a
 
 ## Acceso a los registros PTR de los subdominios {#access-ptr-records}
 
-Una vez que [delegue](delegate-subdomain.md) su primer subdominio al Adobe en [!DNL Journey Optimizer], los registros PTR se crearán automáticamente para sus direcciones IP. Puede acceder a ellos desde el menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Registros PTR]**.
+Una vez que [delegue](delegate-subdomain.md) su primer subdominio a Adobe en [!DNL Journey Optimizer], los registros PTR se crearán automáticamente para sus direcciones IP. Puede acceder a ellos desde el menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** > **[!UICONTROL Registros PTR]**.
 
 ![](assets/ptr-records.png)
 
@@ -50,7 +50,7 @@ Puede abrir un registro PTR de la lista para mostrar el nombre de subdominio y l
 
 ## Edición de un registro PTR {#edit-ptr-record}
 
-En [!DNL Journey Optimizer], no puede crear manualmente registros PTR. En su lugar, una vez que [delegue](delegate-subdomain.md) su primer subdominio al Adobe, los registros PTR se crearán automáticamente para sus direcciones IP.
+En [!DNL Journey Optimizer], no puede crear manualmente registros PTR. En su lugar, una vez que [delegue](delegate-subdomain.md) su primer subdominio a Adobe, los registros PTR se crearán automáticamente para sus direcciones IP.
 
 Cada una de las IP recibe un único registro PTR. Todos los registros PTR tienen el siguiente formato: &#39;rxx.subdomain&#39;, donde &#39;subdomain&#39; es el primer subdominio delegado en [!DNL Journey Optimizer].
 
@@ -64,13 +64,13 @@ Cuando se crean subdominios adicionales, es necesario modificar uno o varios reg
 
 ### Subdominios totalmente delegados {#fully-delegated-subdomains}
 
-Para editar un registro PTR con un subdominio que esté [totalmente delegado](delegate-subdomain.md#full-subdomain-delegation) al Adobe, siga los pasos a continuación.
+Para editar un registro PTR con un subdominio que esté [totalmente delegado](delegate-subdomain.md#full-subdomain-delegation) a Adobe, siga los pasos a continuación.
 
 1. En la lista, haga clic en el nombre de un registro PTR para abrirlo.
 
    ![](assets/ptr-record-select.png)
 
-1. Seleccione un subdominio [totalmente delegado](delegate-subdomain.md#full-subdomain-delegation) al Adobe de la lista.
+1. Seleccione un subdominio [totalmente delegado](delegate-subdomain.md#full-subdomain-delegation) a Adobe de la lista.
 
    ![](assets/ptr-record-subdomain.png)
 
@@ -82,17 +82,17 @@ Para editar un registro PTR con un subdominio que esté [totalmente delegado](de
 
 ### Subdominios delegados mediante el método CNAME {#edit-ptr-subdomains-cname}
 
-Para editar un registro PTR con un subdominio delegado al Adobe mediante el [método CNAME](delegate-subdomain.md#cname-subdomain-delegation), siga los pasos a continuación.
+Para editar un registro PTR con un subdominio delegado a Adobe mediante el [método CNAME](delegate-subdomain.md#cname-subdomain-delegation), siga los pasos a continuación.
 
 1. En la lista, haga clic en el nombre de un registro PTR para abrirlo.
 
    ![](assets/ptr-record-select.png)
 
-1. Seleccione un subdominio delegado al Adobe mediante el [método CNAME](delegate-subdomain.md#cname-subdomain-delegation) de la lista.
+1. Seleccione un subdominio delegado a Adobe mediante el [método CNAME](delegate-subdomain.md#cname-subdomain-delegation) de la lista.
 
    ![](assets/ptr-record-subdomain-cname.png)
 
-1. Debe crear un nuevo registro DNS de reenvío en la plataforma de alojamiento. Para ello, copie el registro generado por el Adobe. Una vez finalizado, marque la casilla &quot;Confirmo...&quot;.
+1. Debe crear un nuevo registro DNS de reenvío en la plataforma de alojamiento. Para ello, copie el registro generado por Adobe. Una vez finalizado, marque la casilla &quot;Confirmo...&quot;.
 
    ![](assets/ptr-record-subdomain-confirm.png)
 

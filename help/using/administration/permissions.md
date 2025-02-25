@@ -9,14 +9,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: producto, perfiles, zona protegida
-source-git-commit: be372f8f80d304067748d539fb8e210df6280721
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 7%
+source-wordcount: '739'
+ht-degree: 6%
 
 ---
 
-# Administración de usuarios y funciones {#manage-permissions}
+# Administrar usuarios y funciones {#manage-permissions}
 
 >[!IMPORTANT]
 >
@@ -75,9 +75,9 @@ Tenga en cuenta que si modifica una **[!UICONTROL función]** predeterminada o p
 
    ![](assets/do-not-localize/access_control_6.png)
 
-1. El menú **[!UICONTROL Recursos]** muestra la lista de recursos que se aplican al producto **[!UICONTROL Experience Cloud - Aplicaciones con tecnología de plataforma]**. Arrastre y suelte los recursos para asignar permisos.
+1. El menú **[!UICONTROL Recursos]** muestra la lista de recursos que se aplican al producto **[!UICONTROL Experience Cloud - Aplicaciones con plataforma]**. Arrastre y suelte los recursos para asignar permisos.
 
-   En la lista desplegable de recursos **[!UICONTROL Recorridos]**, elegimos aquí el recorrido de Publish **[!UICONTROL Permiso]**.
+   Del menú desplegable de recursos **[!UICONTROL Recorridos]**, elegimos aquí el recorrido de publicación **[!UICONTROL Permiso]**.
 
    ![](assets/do-not-localize/access_control_14.png)
 
@@ -125,4 +125,4 @@ Para crear nuestros **Recorridos de solo lectura** **[!UICONTROL Rol]**:
 
 Su **[!UICONTROL función]** se ha creado y configurado. Ahora debe asignarlo a los usuarios.
 
-Para obtener más información sobre la creación y administración de funciones, consulte la [documentación del Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=es).
+Para obtener más información sobre la creación y administración de funciones, consulte la [documentación de Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=es).

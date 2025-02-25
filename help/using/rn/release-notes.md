@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '767'
 ht-degree: 27%
 
 ---
@@ -37,7 +37,7 @@ A continuación se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Crear y administrar reglas de negocio</strong><br/></th>
+<th><strong>Crear y administrar reglas empresariales</strong><br/></th>
 </tr>
 </thead>
 <tbody>

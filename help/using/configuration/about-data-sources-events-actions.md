@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: configuración, recorrido, tablero, fuentes de datos, eventos, acciones
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 65%
+source-wordcount: '408'
+ht-degree: 62%
 
 ---
 
-# Configurar recorridos {#configure-journeys}
+# Configuración de fuentes de datos, eventos y acciones {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
@@ -35,7 +35,7 @@ La configuración de Data Source le permite definir una conexión con un sistema
 
 Los eventos le permiten almacenar en déclencheur sus recorridos de forma unitaria para enviar mensajes, en tiempo real, a la persona que entra en el recorrido.
 
-En la configuración de eventos, se configuran los eventos esperados en los recorridos. Los datos entrantes de los eventos se normalizan siguiendo el modelo de datos de experiencia de Adobe (XDM). Los eventos provienen de las API de ingesta de transmisión para eventos autenticados y no autenticados (como eventos del SDK de Adobe Mobile). [Más información](../../using/event/about-events.md)
+En la configuración de eventos, se configuran los eventos esperados en los recorridos. Los datos entrantes de los eventos se normalizan siguiendo el modelo de datos de Experience de Adobe (XDM). Los eventos provienen de las API de ingesta de transmisión para eventos autenticados y no autenticados (como eventos del SDK de Adobe Mobile). [Más información](../../using/event/about-events.md)
 
 ## Acciones {#actions}
 

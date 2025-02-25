@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2305'
-ht-degree: 95%
+source-wordcount: '2333'
+ht-degree: 94%
 
 ---
 
@@ -64,6 +64,10 @@ Este cambio se implementará en **zonas protegidas de clientes existentes** en u
 
 Las campañas web de [!DNL Journey Optimizer] se dirigen a nuevos perfiles que no han interactuado anteriormente en otros canales. Esto aumentará el recuento total de perfiles con los que es posible interactuar, lo que puede tener costes si se supera el número contractual de perfiles adquiridos. Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
+### Protecciones de canal basadas en código {#code-based-guardrails}
+
+Para usar acciones de experiencia basadas en código en [!DNL Journey Optimizer] y entregar carga útil de contenido de código que puedan usar las aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
+
 ## Protecciones de subdominios {#subdomain-guardrails}
 
 De forma predeterminada, [!DNL Journey Optimizer] permite delegar hasta 10 subdominios en total (que abarcan tanto el correo electrónico como los canales web).
@@ -85,6 +89,7 @@ Las protecciones y limitaciones que se deben tener en cuenta al trabajar con Dec
 
 * [Limitaciones y protecciones de decisiones](../experience-decisioning/decisioning-guardrails.md)
 * [Limitaciones y protecciones de gestión de decisiones](../offers/decision-management-guardrails.md)
+
 
 ## Mecanismos de protección de recorridos {#journeys-guardrails}
 

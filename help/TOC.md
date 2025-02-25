@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2191'
-ht-degree: 98%
+source-wordcount: '2168'
+ht-degree: 92%
 
 ---
 
@@ -42,6 +42,7 @@ ht-degree: 98%
    + [Prácticas recomendadas](using/start/best-practices.md)
 + Recorridos {#orchestrate-journeys}
    + [Introducción a los recorridos](using/building-journeys/journey.md)
+   + [Examinar y filtrar sus recorridos](using/building-journeys/journey-ui.md)
    + Creación de un recorrido{#create-journey}
       + [Creación de su primer recorrido](using/building-journeys/journey-gs.md)
       + [Establecimiento de las propiedades del recorrido](using/building-journeys/journey-properties.md)
@@ -181,8 +182,8 @@ ht-degree: 98%
    + [Asignar puntuaciones de prioridad](using/conflict-prioritization/priority-scores.md)
    + [Límite y arbitraje de recorrido](using/conflict-prioritization/journey-capping.md)
 + Prueba y aprobación {#test}
-   + Vista previa y prueba del contenido {#preview-test}
-      + [Introducción a la vista previa y prueba](using/content-management/preview-test.md)
+   + Previsualizar y probar contenido {#preview-test}
+      + [Introducción a vista previa y pruebas](using/content-management/preview-test.md)
       + [Seleccionar perfiles de prueba](using/content-management/test-profiles.md)
       + [Vista previa del contenido](using/content-management/preview.md)
       + [Envío de pruebas de correo electrónico](using/content-management/proofs.md)
@@ -191,7 +192,7 @@ ht-degree: 98%
       + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
    + Aprobación de recorridos y campañas {#approve}
       + [Introducción a las aprobaciones](using/test-approve/gs-approval.md)
-      + [Creación y administración de políticas de aprobación](using/test-approve/approval-policies.md)
+      + [Crear y administrar directivas de aprobación](using/test-approve/approval-policies.md)
       + [Solicitud de aprobación](using/test-approve/request-approval.md)
       + [Aprobación de una solicitud](using/test-approve/review-approve-request.md)
 + Canales de comunicación {#channels}
@@ -237,7 +238,7 @@ ht-degree: 98%
       + [Introducción a las notificaciones push](using/push/get-started-push.md)
       + [Crear una notificación push](using/push/create-push.md)
       + [Diseño de la notificación push](using/push/design-push.md)
-      + [Comprobación y envío de la notificación push](using/push/send-push.md)
+      + [Compruebe y envíe su notificación push](using/push/send-push.md)
       + Configuración de notificaciones push{#push-config}
          + [Flujo de notificaciones push](using/push/push-gs.md)
          + [Configurar el canal de notificaciones push](using/push/push-configuration.md)
@@ -245,7 +246,7 @@ ht-degree: 98%
    + Canal de SMS/MMS{#sms}
       + [Introducción a la mensajería de texto](using/sms/get-started-sms.md)
       + [Creación de un mensaje de texto (SMS/MMS)](using/sms/create-sms.md)
-      + [Comprobación y envío de los mensajes de texto](using/sms/send-sms.md)
+      + [Compruebe y envíe sus mensajes de texto](using/sms/send-sms.md)
       + [Administración de la exclusión de mensajes de texto](using/sms/sms-opt-out.md)
       + [Configuración de subdominios de SMS](using/sms/sms-subdomains.md)
       + Configuración de canal de SMS/MMS{#configure-sms}
@@ -258,7 +259,7 @@ ht-degree: 98%
    + Correo directo {#direct-mail}
       + [Introducción al correo directo](using/direct-mail/get-started-direct-mail.md)
       + [Creación de un correo directo](using/direct-mail/create-direct-mail.md)
-      + [Comprobación y envío de un mensaje de correo directo](using/direct-mail/test-send-direct-mail.md)
+      + [Comprobación y envío de un mensaje de correo postal](using/direct-mail/test-send-direct-mail.md)
       + [Configuración del correo directo](using/direct-mail/direct-mail-configuration.md)
    + Canal web {#web}
       + [Introducción al canal web](using/web/get-started-web.md)
@@ -276,7 +277,7 @@ ht-degree: 98%
    + Experiencia basada en código {#code-based-experience}
       + [Introducción al canal basado en código](using/code-based/get-started-code-based.md)
       + Configuración del canal basado en código {#configure-code-based-channel}
-         + [Mecanismos de protección y requisitos previos](using/code-based/code-based-prerequisites.md)
+         + [Protecciones y requisitos previos](using/code-based/code-based-prerequisites.md)
          + [Superficies de la experiencia basada en código](using/code-based/code-based-surface.md)
          + [Ejemplos de métodos de implementación](using/code-based/code-based-implementation-samples.md)
          + [Creación de una configuración de experiencia basada en código](using/code-based/code-based-configuration.md)
@@ -371,7 +372,7 @@ ht-degree: 98%
       + [Introducción al contenido dinámico](using/personalization/get-started-dynamic-content.md)
       + [Creación de reglas condicionales](using/personalization/create-conditions.md)
       + [Crear contenido dinámico](using/personalization/dynamic-content.md)
-+ Públicos, perfiles e identidad{#audiences-profiles-identities}
++ Audiencias, perfiles e identidad{#audiences-profiles-identities}
    + Públicos {#audiences}
       + [Introducción a los públicos](using/audience/about-audiences.md)
       + Creación de públicos {#create}
@@ -537,7 +538,7 @@ ht-degree: 98%
          + [Conjunto de datos de reserva](using/offers/export-catalog/export-fallback.md)
       + Referencia de API {#api-reference}
          + [Introducción](using/offers/api-reference/getting-started.md)
-         + Creación y administración de ofertas mediante API {#offers-api}
+         + Crear y administrar ofertas mediante las API {#offers-api}
             + Ubicaciones {#placements}
                + [Enumerar ubicaciones](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [Buscar una ubicación](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -668,7 +669,7 @@ ht-degree: 98%
    + [Configurar reglas empresariales](using/configuration/frequency-rules.md)
    + [Trabajar con conjuntos de reglas](using/configuration/rule-sets.md)
    + Configurar recorridos {#configure-journeys}
-      + [Acerca de las fuentes de datos, los eventos y las acciones](using/configuration/about-data-sources-events-actions.md)
+      + [Configuración de fuentes de datos, eventos y acciones](using/configuration/about-data-sources-events-actions.md)
       + Integración con sistemas externos {#external-systems}
          + [Integración de recorridos con sistemas externos](using/configuration/external-systems.md)
          + [API de límite](using/configuration/capping.md)
@@ -702,7 +703,7 @@ ht-degree: 98%
       + [Funciones integradas](using/administration/ootb-product-profiles.md)
       + [Permisos integrados](using/administration/ootb-permissions.md)
       + [Niveles de permisos](using/administration/high-low-permissions.md)
-   + [Administración de usuarios y funciones](using/administration/permissions.md)
+   + [Administrar usuarios y funciones](using/administration/permissions.md)
    + [Control de acceso basado en atributos](using/administration/attribute-based-access.md)
    + [Control de acceso de nivel de objeto](using/administration/object-based-access.md)
    + [Administración de zonas protegidas](using/administration/sandboxes.md)
@@ -715,4 +716,4 @@ ht-degree: 98%
       + [Administración de la exclusión](using/privacy/opt-out.md)
       + [Trabajar con políticas de consentimiento](using/action/consent.md)
    + [Gobernanza de datos](using/action/action-privacy.md)
-   + [Configurar y administrar claves administradas por el cliente](using/privacy/cmk.md)
+   + [Configuración y administración de claves gestionadas por el cliente](using/privacy/cmk.md)
