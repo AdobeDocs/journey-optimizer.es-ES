@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 341c5c6a1a451819737797bfa70a8625f900388d
+source-git-commit: 27c448948b4bcee97f8bbba1a7144bfef796905f
 workflow-type: tm+mt
 source-wordcount: '2333'
 ht-degree: 93%
@@ -66,7 +66,7 @@ Las campañas web de [!DNL Journey Optimizer] se dirigen a nuevos perfiles que n
 
 Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-### Protecciones de canal basadas en código {#code-based-guardrails}
+## Protecciones de canal basadas en código {#code-based-guardrails}
 
 Para usar acciones de experiencia basadas en código en [!DNL Journey Optimizer] y entregar carga útil de contenido de código que puedan usar las aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
 
