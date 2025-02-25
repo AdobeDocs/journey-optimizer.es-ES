@@ -8,22 +8,24 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
+source-git-commit: 0f09de039d9d9555327413b2d65dda295e971bde
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '950'
 ht-degree: 32%
 
 ---
 
 # Examinar y filtrar sus recorridos {#browse-journeys}
 
-## Acceso a recorridos {#journey-access}
-
-### panel de recorrido {#dashboard-jo}
+## panel de recorrido {#dashboard-jo}
 
 En la sección de menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**. Hay dos fichas disponibles: **[!UICONTROL Información general]** y **[!UICONTROL Examinar]**.
 
-* La pestaña **[!UICONTROL Información general]** muestra un panel con métricas clave relacionadas con tus recorridos:
+
+* La pestaña **[!UICONTROL Información general]** muestra un panel con métricas clave relacionadas con tus recorridos.
+
+  ![Tablero de recorrido que resalta la ficha Información general](assets/journeys-dashboard.png)
 
    * **Perfiles procesados**: número total de perfiles procesados en las últimas 24 horas.
    * **recorridos activos**: número total de recorridos activos con tráfico durante las últimas 24 horas. Los recorridos activos incluyen **recorridos unitarios** (basados en eventos) y **recorridos por lotes** (lectura de audiencia).
@@ -34,36 +36,18 @@ En la sección de menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL
   >
   >Este tablero tiene en cuenta los recorridos con tráfico de las últimas 24 horas. Solo se muestran los recorridos a los que tiene acceso. Las métricas se actualizan cada 30 minutos y solo cuando hay nuevos datos disponibles.
 
-  ![](assets/journeys-dashboard.png)
 
 * La ficha **[!UICONTROL Examinar]** muestra la lista de recorridos existentes. Puede buscar recorridos, utilizarlos y realizar acciones básicas en cada elemento. Por ejemplo, puede duplicar o eliminar un elemento.
 
-  ![](assets/journeys-browse.png)
+  ![Tablero de recorrido que resalta la ficha Examinar](assets/journeys-browse.png)
 
-### Filtrar sus recorridos {#filter}
+## Filtrar sus recorridos {#journey-filter}
 
-En la lista de recorridos, puede aprovechar varios filtros para restringir la lista de recorridos y mejorar la legibilidad.
+En la lista de recorridos, utilice varios filtros para restringir la lista de recorridos.
 
 ![](assets/filter-journeys.png)
 
-Estas son las distintas operaciones de filtrado que puede realizar:
-
-Filtre los recorridos según su estado, tipo, versión y etiquetas asignadas de **[!UICONTROL Estado y versión de filtros]**.
-
-El tipo puede ser: **[!UICONTROL Evento unitario]**, **[!UICONTROL Calificación de audiencia]**, **[!UICONTROL Leer audiencia]** o **[!UICONTROL Evento empresarial]**.
-
-El estado puede ser el siguiente:
-
-* **Cerrado**: el recorrido se ha cerrado con el botón **Cerca de nuevas entradas**. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente.
-* **Borrador**: el recorrido se encuentra en su primera fase. Aún no se ha publicado.
-* **Borrador (prueba)**: el modo de prueba se ha activado con el botón **Modo de prueba**.
-* **Finalizado**: el recorrido cambia automáticamente a este estado después del tiempo de espera global de [91 días](journey-properties.md#global_timeout). Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido.
-* **Activo**: el recorrido se ha publicado con el botón **Publicar**.
-* **Detenido**: el recorrido se ha desactivado con el botón **Detener**. Todos los individuos abandonan el recorrido al instante.
-
->[!NOTE]
->
->El ciclo de vida de creación de Recorridos también incluye un conjunto de estados intermedios que no están disponibles para el filtrado: &quot;Publicación&quot; (entre &quot;Borrador&quot; y &quot;Activo&quot;), &quot;Activación del modo de prueba&quot; o &quot;Desactivación del modo de prueba&quot; (entre &quot;Borrador&quot; y &quot;Borrador (prueba)&quot;) y &quot;Detención&quot; (entre &quot;Activo&quot; y &quot;Detenido&quot;). Cuando un recorrido está en un estado intermedio, es de solo lectura.
+Puede filtrar recorridos según su [estado](#journey-statuses), [tipo](#journey-types), [versión](#journey-versions) y [etiquetas](../start/search-filter-categorize.md#tags) asignadas desde **[!UICONTROL filtros de estado y versión]**.
 
 Use **[!UICONTROL filtros de creación]** para filtrar recorridos según su fecha de creación o el usuario que los creó.
 
@@ -77,6 +61,25 @@ Además, en los paneles Evento, Fuente de datos y Configuración de acciones, el
 
 ![](assets/journey3bis.png)
 
+
+## tipos de recorrido {#journey-types}
+
+El tipo puede ser: **[!UICONTROL Evento unitario]**, **[!UICONTROL Calificación de audiencia]**, **[!UICONTROL Leer audiencia]** o **[!UICONTROL Evento empresarial]**.
+
+## estados de recorrido {#journey-statuses}
+
+El estado del recorrido puede ser:
+
+* **Cerrado**: el recorrido se ha cerrado con el botón **Cerca de nuevas entradas**. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente.
+* **Borrador**: el recorrido se encuentra en su primera fase. Aún no se ha publicado.
+* **Borrador (prueba)**: el modo de prueba se ha activado con el botón **Modo de prueba**.
+* **Finalizado**: el recorrido cambia automáticamente a este estado después del tiempo de espera global de [91 días](journey-properties.md#global_timeout). Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido.
+* **Activo**: el recorrido se ha publicado con el botón **Publicar**.
+* **Detenido**: el recorrido se ha desactivado con el botón **Detener**. Todos los individuos abandonan el recorrido al instante.
+
+>[!NOTE]
+>
+>El ciclo de vida de creación de Recorridos también incluye un conjunto de estados intermedios que no están disponibles para el filtrado: &quot;Publicación&quot; (entre &quot;Borrador&quot; y &quot;Activo&quot;), &quot;Activación del modo de prueba&quot; o &quot;Desactivación del modo de prueba&quot; (entre &quot;Borrador&quot; y &quot;Borrador (prueba)&quot;) y &quot;Detención&quot; (entre &quot;Activo&quot; y &quot;Detenido&quot;). Cuando un recorrido está en un estado intermedio, es de solo lectura.
 
 ## Versiones de recorridos {#journey-versions}
 
@@ -124,4 +127,3 @@ Para ello, siga los pasos a continuación:
    ![](assets/duplicate-jo2.png)
 
 1. El nuevo recorrido se crea y está disponible en la lista de recorridos.
-
