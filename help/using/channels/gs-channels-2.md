@@ -7,14 +7,14 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 51b60b3e0f4026bce0d57eb1e2949e816828135b
+source-git-commit: 66dbaf6b8856b1ce70bccfa504a63f22bf293daf
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '213'
 ht-degree: 9%
 
 ---
 
-# Introducción a [!DNL Adobe Journey Optimizer] canales de comunicación {#get-started-email}
+# Introducción a los canales de comunicación en [!DNL Adobe Journey Optimizer]
 
 En el panorama de marketing dinámico de hoy en día, llegar de forma eficaz a su audiencia en varias plataformas es esencial para crear relaciones duraderas e impulsar la participación. Esta sección proporciona información general completa sobre los canales de comunicación disponibles en [!DNL Adobe Journey Optimizer], lo que le ayuda a comprender cómo utilizar cada canal de forma eficaz en sus estrategias de marketing.
 
