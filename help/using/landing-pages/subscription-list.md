@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, lista, suscripción, servicio
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 0000d5e4a11c316340382ea9b68f8252f109cb61
+source-git-commit: c66fe22f0cf81cf8e14592df1433739735afbe43
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 8%
+source-wordcount: '673'
+ht-degree: 7%
 
 ---
 
@@ -98,7 +98,7 @@ Los estados posibles son los siguientes:
 
 ## Monitorización de las listas de suscripción {#monitor-subscription-lists}
 
-Puede monitorizar el impacto de su lista de suscripciones mediante informes dedicados. Puede acceder a:
+Puede monitorizar el impacto de su lista de suscripciones mediante informes dedicados. Puede acceder a dos tipos de informes:
 
 * Informe en directo de la lista de suscripciones
 
