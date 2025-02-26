@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 25%
@@ -42,19 +42,19 @@ Cree recorridos de cliente de varios pasos para iniciar una secuencia de interac
 
 * Si desea almacenar en déclencheur las recorridos de forma unitaria cuando se reciba un evento, debe **configurar un evento**. Usted define la información esperada y cómo procesarla. [Más información](../event/about-events.md).
 
-  ![](assets/jo-event7bis.png)
+<!--   ![](assets/jo-event7bis.png)  -->
 
 * El recorrido también puede escuchar las audiencias de Adobe Experience Platform para enviar mensajes en lote a un conjunto especificado de perfiles. Para ello, necesita **crear audiencias**. [Más información](../audience/about-audiences.md).
 
-  ![](assets/segment2.png)
+<!--   ![](assets/segment2.png)  -->
 
 * Puede definir una conexión a un sistema para recuperar información adicional que se utilizará en los recorridos, por ejemplo en las condiciones. Esta conexión se basa en un **origen de datos**. [Más información](../datasource/about-data-sources.md)
 
-  ![](assets/jo-datasource.png)
+<!--   ![](assets/jo-datasource.png)  -->
 
 * Journey Optimizer viene con [funciones integradas de mensajes](../building-journeys/journeys-message.md). Si usa un sistema de terceros para enviar mensajes, puede **crear una acción personalizada**. Obtenga más información en esta [sección](../action/action.md).
 
-  ![](assets/custom2.png)
+<!--    ![](assets/custom2.png)  -->
 
 
 Como ingeniero de datos, los pasos para configurar sus recorridos, incluidas las fuentes de datos, los eventos y las acciones, se detallan en [esta sección](../configuration/about-data-sources-events-actions.md).

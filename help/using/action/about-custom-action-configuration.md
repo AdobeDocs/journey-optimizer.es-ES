@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
+source-git-commit: 2af3cef357bf68091d9b8b5d2750e73a290bc682
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1692'
 ht-degree: 17%
 
 ---
@@ -139,7 +139,13 @@ Al configurar una acción personalizada, debe definir los siguientes **[!UICONTR
    >
    >Los encabezados se validan según las reglas de análisis de campos. Obtenga más información en [esta documentación](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## Compatibilidad con el protocolo mTLS {#mtls-protocol-support}
+## Capa de seguridad de transporte {#tls}
+
+### Compatibilidad con el protocolo TLS {#tls-protocol-support}
+
+Adobe Journey Optimizer es compatible con TLS 1.3 de forma predeterminada para acciones personalizadas. Si un cliente también admite TLS 1.3, la comunicación se realiza a través de TLS 1.3. De lo contrario, el proceso de negociación TLS puede volver a TLS 1.2.
+
+### Compatibilidad con el protocolo mTLS {#mtls-protocol-support}
 
 Puede utilizar Mutual Transport Layer Security (mTLS) para garantizar una seguridad mejorada en las conexiones salientes a acciones personalizadas de Adobe Journey Optimizer. mTLS es un método de seguridad de extremo a extremo para la autenticación mutua que garantiza que ambas partes que comparten información son quienes dicen ser antes de que se compartan los datos. mTLS incluye un paso adicional en comparación con TLS, en el que el servidor también solicita el certificado del cliente y lo verifica al final.
 
