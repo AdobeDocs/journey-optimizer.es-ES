@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
+source-git-commit: 5f48c3df14768e699e174e5a3539438e9b774e1a
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 25%
@@ -38,7 +38,9 @@ Los pasos principales para crear un recorrido se detallan en esta página. Se ra
 ![Pasos de creación de recorrido: crear, diseñar, probar y publicar](assets/journey-creation-process.png)
 
 
-Cree recorridos de cliente de varios pasos para iniciar una secuencia de interacciones, ofertas y mensajes en varios canales en tiempo real. Este enfoque garantiza que los clientes se involucren en los momentos óptimos en función de sus acciones y señales comerciales relevantes. Las audiencias de destino se pueden definir según el comportamiento, los datos contextuales y los eventos empresariales. Los requisitos previos dependen de su caso de uso y del [tipo de recorrido](entry-management.md#types-of-journeys) que esté generando. Antes de empezar a diseñar el recorrido, compruebe que se han realizado los pasos de configuración relevantes:
+Cree recorridos de cliente de varios pasos para iniciar una secuencia de interacciones, ofertas y mensajes en varios canales en tiempo real. Este enfoque garantiza que los clientes se involucren en los momentos óptimos en función de sus acciones y señales comerciales relevantes. Las audiencias de destino se pueden definir según el comportamiento, los datos contextuales y los eventos empresariales. Los requisitos previos dependen de su caso de uso y del [tipo de recorrido](entry-management.md#types-of-journeys) que esté generando.
+
+Antes de empezar a crear el recorrido, compruebe que se han realizado los pasos de configuración relevantes:
 
 * Si desea almacenar en déclencheur las recorridos de forma unitaria cuando se reciba un evento, debe **configurar un evento**. Usted define la información esperada y cómo procesarla. [Más información](../event/about-events.md).
 
