@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9cab78c89d0885b6da6b43a444754e9ad1e17ae0
+source-git-commit: 82a73c9e6d03563ce9dcc5bd4eaa8eb1166caf1f
 workflow-type: tm+mt
 source-wordcount: '2335'
 ht-degree: 93%
@@ -42,7 +42,7 @@ A partir de febrero de 2025, se implementará una protección de tiempo de vida 
 
 Este cambio se implementará en **zonas protegidas de clientes existentes** en una fase posterior. [Obtenga más información sobre las protecciones de tiempo de salida (TTL) de los conjuntos de datos](../data/datasets-ttl.md)
 
-## Protecciones de canal {#channel-guardrails}
+## Protecciones de canales {#channel-guardrails}
 
 ### Protecciones de correo electrónico {#message-guardrails}
 
