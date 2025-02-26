@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '2636'
 ht-degree: 16%
@@ -269,7 +269,7 @@ Cada región concentradora está asociada con una o más regiones perimetrales. 
 
 Por ejemplo, consideremos la región central de su organización como *NLD2* y está enviando una solicitud de toma de decisiones desde Europa (*IRL1* región perimetral). En este escenario, la solicitud de toma de decisiones incrementará el contador del perfil, ya que las reglas están disponibles en la región *IRL1* de (Irlanda). Sin embargo, si la solicitud de toma de decisiones se origina en una región como Japón (*JPN3*), que no es una región perimetral vinculada a la región concentradora *NLD2* de (Países Bajos), no se creará ningún contador y no se aplicarán las reglas de límite de frecuencia.
 
-Para obtener más información sobre las regiones centrales y perimetrales asociadas a su organización, póngase en contacto con el representante del Adobe.
+Para obtener más información sobre las regiones de concentrador y perimetral asociadas a su organización, póngase en contacto con su representante de Adobe.
 
 +++
 

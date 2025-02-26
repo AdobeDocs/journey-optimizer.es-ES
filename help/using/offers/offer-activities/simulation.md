@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: e213261a1c2cb3421d59ba6c44c832a5f5929cd1
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 12%
@@ -138,7 +138,7 @@ Para editar la configuración predeterminada de las simulaciones, siga los pasos
 
    >[!NOTE]
    >
-   >De forma predeterminada, todos los indicadores de deduplicación están habilitados para la simulación, lo que significa que el motor de decisión permite duplicados y, por lo tanto, puede realizar la misma propuesta en varias decisiones/ubicaciones. Obtenga más información sobre las propiedades de la solicitud de API [!DNL Decisioning] en [esta sección](../api-reference/offer-delivery-api/decisioning-api.md).
+   >De forma predeterminada, todos los indicadores de deduplicación están habilitados para la simulación, lo que significa que el motor de decisión permite duplicados y, por lo tanto, puede hacer la misma propuesta en varias decisiones/ubicaciones. Obtenga más información sobre las propiedades de la solicitud de API [!DNL Decisioning] en [esta sección](../api-reference/offer-delivery-api/decisioning-api.md).
 
 1. En la sección **[!UICONTROL Formato de respuesta]**, puede optar por incluir metadatos en la vista de código. Marque la opción correspondiente y seleccione los metadatos que desee. Se mostrarán en las cargas útiles de solicitud y respuesta al seleccionar **[!UICONTROL Ver código]**. Obtenga más información en la sección [Ver resultados de simulación](#simulation-results).
 

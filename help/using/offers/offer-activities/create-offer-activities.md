@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 9%
@@ -56,7 +56,7 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
->title="Colocación"
+>title="Ubicación"
 >abstract="Seleccione una ubicación a la que se enviarán las ofertas."
 
 >[!CONTEXTUALHELP]
@@ -396,7 +396,7 @@ Esto le permite acceder a información detallada para esa decisión. Seleccione 
 
 ![](../assets/decision_information.png)
 
-## Vídeo explicativo{#video}
+## Vídeo práctico{#video}
 
 Obtenga información sobre cómo crear actividades de oferta en administración de decisiones.
 
