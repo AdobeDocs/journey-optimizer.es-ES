@@ -9,24 +9,20 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 20%
+source-wordcount: '1723'
+ht-degree: 21%
 
 ---
 
 # Creación y publicación de páginas de destino {#create-lp}
 
->[!CAUTION]
->
->Para poder probar y publicar páginas de aterrizaje, debe tener el permiso **[!UICONTROL Mensajes de Publish]**.
-
 Para dirigir a los clientes a una página web definida que desee mostrar cuando hagan clic en un vínculo específico, cree una página de aterrizaje en [!DNL Journey Optimizer], configure la página principal y las subpáginas, pruébela y publíquela.
 
->[!CAUTION]
->
->No puede acceder a la página de aterrizaje simplemente copiando y pegando en un explorador web la URL definida al [crear la página](#create-landing-page), aunque esté publicada. En su lugar, puede probarlo con la función de vista previa como se describe en [esta sección](#test-landing-page).
+Los pasos principales para crear páginas de aterrizaje son los siguientes:
+
+![](assets/lp-creation-process.png)
 
 ## Acceso a páginas de aterrizaje {#access-landing-pages}
 
@@ -34,29 +30,28 @@ Para acceder a la lista de páginas de aterrizaje, seleccione **[!UICONTROL Admi
 
 ![](assets/lp_access-list.png)
 
-La lista **[!UICONTROL Páginas de destino]** muestra todos los elementos creados. Puede filtrarlos en función de su estado, fecha de modificación o etiquetas.
+La lista **[!UICONTROL Páginas de aterrizaje]** muestra todas las páginas de aterrizaje existentes. Puede filtrarlos en función de su estado, fecha de modificación o etiquetas.
 
 ![](assets/lp_access-list-filter.png)
 
-Desde esta lista, puede acceder a una serie de acciones. Haga clic en los tres puntos junto a una página de aterrizaje para seleccionar la acción que desee:
+Desde esta lista, también puede acceder a los informes de duplicar, eliminar, cancelar la publicación de una página de aterrizaje o acceder a los informes de página de aterrizaje. Para ello, haga clic en los tres puntos junto a una página de aterrizaje y seleccione la acción que desee:
 
 ![](assets/lp_access-list-actions.png)
 
-* Para los elementos publicados, puede acceder a [informe de página de aterrizaje](../reports/lp-report-global-cja.md) o a [informe de las últimas 24 horas](../reports/lp-report-live.md).
 
-* Puede eliminar o duplicar una página de aterrizaje.
+Puede hacer lo siguiente:
 
-  >[!NOTE]
-  >
-  >No puede eliminar una página de aterrizaje [publicada](#publish-landing-page). Para eliminarlo, primero debe cancelar la publicación.
+* Acceda a los siguientes **informes** para páginas de aterrizaje publicadas: [informe de página de aterrizaje](../reports/lp-report-global-cja.md) y [informe de las últimas 24 horas](../reports/lp-report-live.md).
 
-* Puede cancelar la publicación de una página de aterrizaje publicada.
+* **Eliminar** o **duplicar** una página de aterrizaje. No puede eliminar una página de aterrizaje [publicada](#publish-landing-page). Para eliminarlo, primero debe **cancelar la publicación**.
+
+* **Cancelar publicación** de la página de aterrizaje.
 
   >[!CAUTION]
   >
-  >Si cancela la publicación de una página de aterrizaje a la que se hace referencia en un mensaje, el vínculo a la página de aterrizaje se interrumpirá y se mostrará una página de error.
+  >Si cancela la publicación de una página de aterrizaje a la que se hace referencia en un mensaje, el vínculo a la página de aterrizaje se interrumpirá y los usuarios recibirán una página de error si intentan acceder a ella.
 
-* También puede editar las [etiquetas](../start/search-filter-categorize.md#tags) asociadas a una página de aterrizaje.
+* Editar las [etiquetas](../start/search-filter-categorize.md#tags) asociadas a una página de aterrizaje.
 
 ## Creación de una página de aterrizaje {#create-landing-page}
 
@@ -71,9 +66,11 @@ Desde esta lista, puede acceder a una serie de acciones. Haga clic en los tres p
 >abstract="Para proteger los recursos digitales confidenciales, puede definir autorizaciones para administrar el acceso a los datos en la página de aterrizaje mediante etiquetas."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=es" text="Control de acceso de nivel de objeto"
 
-Los pasos principales para crear páginas de aterrizaje son los siguientes:
 
-![](assets/lp-creation-process.png)
+Para crear una página de aterrizaje, debe seleccionar un ajuste preestablecido, configurar la página principal y las subpáginas y, finalmente, probar la página antes de publicarla. Estos pasos se detallan a continuación:
+
+
+1. Vaya a **[!UICONTROL Administración de contenido]** > **[!UICONTROL Páginas de aterrizaje]** desde el menú de la izquierda.
 
 1. En la lista de páginas de aterrizaje, haga clic en **[!UICONTROL Crear página de aterrizaje]**.
 
@@ -223,7 +220,7 @@ Una vez definida la configuración y el contenido de la página de aterrizaje, p
 
 >[!CAUTION]
 >
->Para poder probar las páginas de aterrizaje, debe tener el permiso **[!UICONTROL Mensajes Publish]**.
+>Para poder probar las páginas de aterrizaje, debe tener el permiso **[!UICONTROL Publicar mensajes]**.
 >
 >Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes y enviar pruebas. Aprenda a [crear perfiles de prueba](../audience/creating-test-profiles.md).
 
@@ -289,7 +286,8 @@ Pueden producirse dos tipos de alertas:
 
 >[!CAUTION]
 >
->Para poder publicar páginas de aterrizaje, debe tener el permiso **[!UICONTROL Mensajes Publish]**.
+>Para publicar páginas de aterrizaje, los usuarios deben tener el permiso **[!UICONTROL Publicar mensajes]**.
+
 
 Una vez que la página de aterrizaje esté lista, puede publicarla para que esté disponible para usarla en un mensaje.
 
