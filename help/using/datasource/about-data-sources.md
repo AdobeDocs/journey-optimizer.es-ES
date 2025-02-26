@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: datos, fuente, recorrido, plataforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 66%
+ht-degree: 57%
 
 ---
 
@@ -36,8 +36,8 @@ Esta configuración no es necesaria si los recorridos solo aprovechan los datos 
 
 Existen dos tipos de fuentes de datos:
 
-* Fuente de datos preconfigurada de Adobe Experience Platform que define la conexión al servicio perfil de cliente en tiempo real. Constituye una fuente de datos integrada. Consulte [esta página](../datasource/adobe-experience-platform-data-source.md).
-* Las fuentes de datos externas que permiten definir una conexión con sistemas externos. Estos son los que puede crear. Consulte [esta página](../datasource/external-data-sources.md).
+* La fuente de datos de Adobe Experience Platform **preconfigurada** que define la conexión al servicio Perfil del cliente en tiempo real. Constituye una fuente de datos integrada. Consulte [esta página](../datasource/adobe-experience-platform-data-source.md).
+* Las fuentes de datos **external** que le permiten definir una conexión con sistemas externos. Estos son los que puede crear. Consulte [esta página](../datasource/external-data-sources.md).
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Para cada fuente de datos, se define la información que se recuperará mediante
 
 Para obtener más información sobre cómo configurar un Source de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar datos en un recorrido, vea este [tutorial en vídeo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
-## Vídeo explicativo {#video}
+## Vídeo práctico {#video}
 
 Comprenda qué es una fuente de datos y aprenda a configurar fuentes de datos de Experience Platform y externas.
 

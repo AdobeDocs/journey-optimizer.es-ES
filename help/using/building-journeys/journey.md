@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 38%
@@ -17,8 +17,6 @@ ht-degree: 38%
 
 
 # Introducción a los recorridos{#jo-general-principle}
-
-El diseñador de recorridos de Journey Optimizer proporciona todo lo que los especialistas en marketing y en recorrido necesitan para orquestar recorridos 1:1 de varios pasos en todos los canales. Esto incluye un lienzo intuitivo de arrastrar y soltar para organizar cada paso del recorrido, definir la audiencia de destino e incluir los mensajes, ofertas y contenido en todos los canales que verán los miembros de la audiencia de destino en función del comportamiento, los datos contextuales y los eventos empresariales.
 
 Utilice [!DNL Journey Optimizer] para crear casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos. Puede diseñar escenarios avanzados de varios pasos con las siguientes capacidades:
 
@@ -29,6 +27,8 @@ Utilice [!DNL Journey Optimizer] para crear casos de uso de orquestación en tie
 * Utilice las **acciones integradas** para enviar los mensajes diseñados en [!DNL Journey Optimizer] o crear **acciones personalizadas** si utiliza un sistema de terceros para enviar mensajes.
 
 * Con el **diseñador de recorridos**, genere sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de lectura de público, agregue condiciones y envíe mensajes personalizados.
+
+El diseñador de recorridos de Journey Optimizer proporciona todo lo que los especialistas en marketing y en recorrido necesitan para orquestar recorridos 1:1 de varios pasos en todos los canales. Esto incluye un lienzo intuitivo de arrastrar y soltar para organizar cada paso del recorrido, definir la audiencia de destino e incluir los mensajes, ofertas y contenido en todos los canales que verán los miembros de la audiencia de destino en función del comportamiento, los datos contextuales y los eventos empresariales.
 
 Aprenda a crear y diseñar su primer recorrido en [esta página](journey-gs.md).
 

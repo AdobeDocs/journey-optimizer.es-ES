@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 3984009b7bf78673fa46481e26d75fae1bb007ea
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 26%
+source-wordcount: '711'
+ht-degree: 25%
 
 ---
 
@@ -32,33 +32,29 @@ Adobe Journey Optimizer incluye un lienzo de orquestación omnicanal que permite
 
 ![muestra de lienzo de recorrido](assets/journey38.png)
 
-Cree recorridos de cliente de varios pasos que inicien una secuencia de interacciones, ofertas y mensajes en varios canales en tiempo real. Este enfoque garantiza que los clientes se involucren en los momentos óptimos en función de sus acciones y señales comerciales relevantes.
 
 Los pasos principales para crear un recorrido se detallan en esta página. Se racionalizan de la siguiente manera:
 
 ![Pasos de creación de recorrido: crear, diseñar, probar y publicar](assets/journey-creation-process.png)
 
 
-## Requisitos previos {#start-prerequisites}
+Cree recorridos de cliente de varios pasos para iniciar una secuencia de interacciones, ofertas y mensajes en varios canales en tiempo real. Este enfoque garantiza que los clientes se involucren en los momentos óptimos en función de sus acciones y señales comerciales relevantes. Las audiencias de destino se pueden definir según el comportamiento, los datos contextuales y los eventos empresariales. Los requisitos previos dependen de su caso de uso y del [tipo de recorrido](entry-management.md#types-of-journeys) que esté generando. Antes de empezar a diseñar el recorrido, compruebe que se han realizado los pasos de configuración relevantes:
 
-Para enviar mensajes con recorridos, se necesitan los siguientes requisitos previos:
+* Si desea almacenar en déclencheur las recorridos de forma unitaria cuando se reciba un evento, debe **configurar un evento**. Usted define la información esperada y cómo procesarla. [Más información](../event/about-events.md).
 
-1. **Configurar un evento**: si desea almacenar en déclencheur las recorridos de forma unitaria cuando se recibe un evento, debe configurar un evento. Usted define la información esperada y cómo procesarla. Este paso lo realiza un **usuario técnico**. [Más información](../event/about-events.md).
+  ![](assets/jo-event7bis.png)
 
-   ![](assets/jo-event7bis.png)
+* El recorrido también puede escuchar las audiencias de Adobe Experience Platform para enviar mensajes en lote a un conjunto especificado de perfiles. Para ello, necesita **crear audiencias**. [Más información](../audience/about-audiences.md).
 
-1. **Crear una audiencia**: su recorrido también puede escuchar audiencias de Adobe Experience Platform para enviar mensajes en lote a un conjunto especificado de perfiles. Para ello, debe crear audiencias. [Más información](../audience/about-audiences.md).
+  ![](assets/segment2.png)
 
-   ![](assets/segment2.png)
+* Puede definir una conexión a un sistema para recuperar información adicional que se utilizará en los recorridos, por ejemplo en las condiciones. Esta conexión se basa en un **origen de datos**. [Más información](../datasource/about-data-sources.md)
 
-1. **Configuración del origen de datos**: puede definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos, por ejemplo, en las condiciones. También se configura una fuente de datos integrada de Adobe Experience Platform en el momento del aprovisionamiento. Este paso no es necesario si solo se aprovechan los datos de los eventos durante el recorrido. Este paso lo realiza un **usuario técnico**. [Más información](../datasource/about-data-sources.md)
+  ![](assets/jo-datasource.png)
 
-   ![](assets/jo-datasource.png)
+* Journey Optimizer viene con [funciones integradas de mensajes](../building-journeys/journeys-message.md). Si usa un sistema de terceros para enviar mensajes, puede **crear una acción personalizada**. Obtenga más información en esta [sección](../action/action.md).
 
-1. **Configurar una acción**: si usa un sistema de terceros para enviar mensajes, puede crear una acción personalizada. Obtenga más información en esta [sección](../action/action.md). Este paso lo realiza un **usuario técnico**. Si utiliza las funciones de mensajes integradas de Journey Optimizer, solo necesita añadir una acción de canal al recorrido y diseñar el contenido.
-
-   ![](assets/custom2.png)
-
+  ![](assets/custom2.png)
 
 
 Como ingeniero de datos, los pasos para configurar sus recorridos, incluidas las fuentes de datos, los eventos y las acciones, se detallan en [esta sección](../configuration/about-data-sources-events-actions.md).
@@ -68,7 +64,7 @@ Como ingeniero de datos, los pasos para configurar sus recorridos, incluidas las
 >
 >En [esta página](../start/guardrails.md) se detallan los mecanismos de protección y limitaciones de los recorridos
 
-## Creación de un recorrido de varios pasos {#jo-build}
+## Creación de un recorrido {#jo-build}
 
 Para crear un recorrido de varios pasos, siga estos pasos:
 
