@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: acción, personalizado, API, recorrido, configuración, servicio
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8b96c9d4698dc58abdc5ae0261db92b0ce708597
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 27%
+source-wordcount: '412'
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,11 @@ ht-degree: 27%
 >title="Acciones personalizadas"
 >abstract="Las acciones personalizadas permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API REST con carga útil en formato JSON."
 
-Las acciones personalizadas permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API REST con carga útil en formato JSON.
+Utilice acciones personalizadas para habilitar la conexión a un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API REST con carga útil en formato JSON.
+
+Obtenga más información acerca de las acciones personalizadas en [esta sección](../action/action.md).
+
+Aprenda a crear y configurar una acción personalizada en [esta página](../action/about-custom-action-configuration.md).
 
 ## Consentimiento y control de datos {#privacy}
 
@@ -67,6 +71,3 @@ Para especificar el valor de los campos de encabezado dinámico y parámetro de 
 
 En la sección **[!UICONTROL Parámetros de acción]**, verá los parámetros de mensaje definidos como _&quot;Variable&quot;_. Para estos parámetros, puede definir de dónde obtener esta información (por ejemplo: eventos, fuentes de datos), pasar valores manualmente o utilizar el editor de expresiones avanzadas para casos de uso avanzados. Los casos de uso avanzados pueden ser manipulación de datos y otro uso de funciones. Consulte [esta página](expression/expressionadvanced.md).
 
-**Temas relacionados**
-
-[Configuración de una acción](../action/about-custom-action-configuration.md)
