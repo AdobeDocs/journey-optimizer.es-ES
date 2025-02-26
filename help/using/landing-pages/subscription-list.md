@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, lista, suscripción, servicio
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: a5bcd26ff735fc9656814c0df28fb58db5b3ae37
+source-git-commit: 0000d5e4a11c316340382ea9b68f8252f109cb61
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 10%
+source-wordcount: '669'
+ht-degree: 8%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 Un servicio de suscripción se refiere a los bienes y servicios de marketing proporcionados a los clientes que han elegido recibir comunicaciones sobre un tema/evento/interés/etc específico. de forma continua. En [!DNL Journey Optimizer], estos clientes aceptados se recopilan en una lista de suscripción.
 
-Un servicio de suscripción puede ser:
+Se puede utilizar un servicio de suscripción para:
 
 * un boletín informativo, por ejemplo: &quot;Running series&quot;
 * un evento, por ejemplo: &quot;Summit 2021&quot;
@@ -64,6 +64,27 @@ Para crear una lista de suscripción, siga los pasos a continuación.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
+## Uso de una lista de suscripción {#use-subscription-lists}
+
+Una vez creada la lista de suscripción, puede:
+
+* Adición de perfiles a la lista de suscripción
+
+  Puede invitar a personas a **unirse a la lista**, suscribiéndose a un boletín o registrándose en un evento. También puede **enviar mensajes personalizados** a los suscriptores.
+
+  Por ejemplo, para invitar a una audiencia a registrarse en un evento o suscribirse a un boletín, puede enviarles un mensaje con un vínculo a una página de aterrizaje para que se unan al evento o se suscriban. Los perfiles que realizan la inclusión a través del formulario de página de aterrizaje se agregan a la lista de suscripción que ha creado para este fin.
+
+* Envío de mensajes a los suscriptores
+
+  También puede utilizar las listas de suscripción como audiencias al crear recorridos y añadir personalización.
+
+  Por ejemplo, cuando un cliente se suscribe a un servicio de streaming, puede almacenar en déclencheur el envío inmediato de una serie de correos electrónicos de bienvenida, lo que le anima a iniciar sesión en la aplicación por primera vez y establecer sus preferencias de visualización.
+
+Aprenda a utilizar su lista de suscripción en [este caso de uso](lp-use-cases.md#subscription-to-a-service).
+
+
+## Examen de las listas de suscripción {#browse-subscription-lists}
+
 La lista muestra todas las listas de suscripción creadas. Puede filtrarlos en función de la fecha de creación o de modificación, y de su estado.
 
 ![](assets/lp_subscription-filters.png)
@@ -74,10 +95,15 @@ Los estados posibles son los siguientes:
 * **[!UICONTROL Activo]**: el día actual está comprendido entre la fecha de inicio y la fecha de finalización de la lista de suscripción o no ha definido las fechas de finalización/inicio, lo que significa que la lista de suscripción siempre está activa.
 * **[!UICONTROL Caducado]**: se pasó la fecha de finalización, por lo que la lista de suscripción ya no es válida. Ningún perfil suscrito recibirá más comunicaciones relacionadas con esta lista de suscripción.
 
-Una vez creada la lista de suscripción, puede utilizarla en una página de aterrizaje. Los perfiles que se incluyan en el formulario de página de aterrizaje se añadirán a la lista. [Más información](design-lp.md)
 
-También puede usar listas de suscripción como audiencias al [crear recorridos](../building-journeys/journey-gs.md#jo-build) y agregar personalización.
+## Monitorización de las listas de suscripción {#monitor-subscription-lists}
 
->[!NOTE]
->
->Puede monitorizar el impacto de su lista de suscripciones a través de informes específicos. [Más información](../reports/subscription-report-live.md)
+Puede monitorizar el impacto de su lista de suscripciones mediante informes dedicados. Puede acceder a:
+
+* Informe en directo de la lista de suscripciones
+
+  Los informes en directo, a los que se puede acceder desde la pestaña Últimas 24 horas, muestran los eventos que han tenido lugar en las últimas 24 horas, con un intervalo de tiempo mínimo de dos minutos desde que se produjo el evento. [Más información](../reports/subscription-report-live.md)
+
+* Lista de suscripciones Todos los informes de tiempo, con Customer Journey Analytics
+
+  Estos informes se centran en los eventos que se produjeron hace al menos dos horas y abarcan los eventos que se producen durante un período de tiempo seleccionado. El **informe de suscripciones** ofrece información esencial sobre las suscripciones y bajas de perfiles asociadas con listas particulares, lo que le ayuda a comprender la eficacia de diferentes campañas e iniciativas de suscripción para impulsar la participación y las conversiones. [Más información](../reports/subscription-report-global-cja.md)
