@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: diseño, lienzo, recorrido, interfaz, arrastrar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -59,13 +59,15 @@ De forma predeterminada, los campos de solo lectura están ocultos. Para mostrar
 
 ![](assets/journey59bis.png)
 
-Según el estado del recorrido, puede realizar diferentes acciones en el recorrido mediante los botones disponibles en la esquina superior derecha: **[!UICONTROL Publish]**, **[!UICONTROL Duplicar]**, **[!UICONTROL Eliminar]**, **[!UICONTROL Modo de prueba]**, **[!UICONTROL Administrar el acceso]**, **[!UICONTROL Alertas]**. Estos botones aparecen cuando no se ha seleccionado ninguna actividad. Algunos botones aparecerán en contexto. El botón de registro del modo de prueba aparece cuando se activa el modo de prueba.
+Según el estado del recorrido, puede realizar diferentes acciones en el recorrido mediante los botones disponibles en la esquina superior derecha: **[!UICONTROL Publicar]**, **[!UICONTROL Duplicar]**, **[!UICONTROL Eliminar]**, **[!UICONTROL Modo de prueba]**, **[!UICONTROL Administrar el acceso]**, **[!UICONTROL Alertas]**. Estos botones aparecen cuando no se ha seleccionado ninguna actividad. Algunos botones aparecerán en contexto. El botón de registro del modo de prueba aparece cuando se activa el modo de prueba.
 
 ![](assets/journey41.png)
 
 ## Inicie el recorrido {#start-your-journey}
 
-Al diseñar el recorrido, la primera pregunta que debe hacerse es cómo entran los perfiles en el recorrido. Hay dos posibilidades:
+Al diseñar el recorrido, la primera pregunta que debe hacerse es cómo entran los perfiles en el recorrido.
+
+Hay dos posibilidades:
 
 1. **Empieza con un evento**: cuando un recorrido está configurado para recibir eventos, los usuarios entran al recorrido **unitariamente** en tiempo real. Los mensajes incluidos en su recorrido se envían a la persona que está entrando en el recorrido en ese momento. [Más información sobre los eventos](../event/about-events.md)
 
@@ -97,7 +99,7 @@ Las demás actividades le permiten agregar condiciones al recorrido para definir
 
 ### Acciones{#jo-actions}
 
-Las acciones son lo que desea que ocurra como resultado de algún tipo de déclencheur, como enviar un mensaje. Es el recorrido que el cliente experimenta. Podría ser un correo electrónico, un mensaje SMS o push, o una acción de terceros, como un mensaje del Slack.
+Las acciones son lo que desea que ocurra como resultado de algún tipo de déclencheur, como enviar un mensaje. Es el recorrido que el cliente experimenta. Podría ser un correo electrónico, un mensaje SMS o push, o una acción de terceros, como un mensaje de Slack.
 
 Las actividades de acción de canal le permiten incluir un mensaje diseñado en [!DNL Journey Optimizer]. [Más información acerca de las actividades de acción del canal](journeys-message.md)
 

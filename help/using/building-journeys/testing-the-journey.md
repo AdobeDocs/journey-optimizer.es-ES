@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 66f8943093670b3310a600a77adcd8123bb213ff
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 9%
+source-wordcount: '1671'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 9%
 >title="Prueba del recorrido"
 >abstract="Utilice perfiles de prueba para probar el recorrido antes de publicarlo. Esto permite analizar el flujo de los particulares en el recorrido y solucionar los problemas antes de la publicación."
 
-Utilice perfiles de prueba para probar el recorrido antes de publicarlo. Este modo le permite ejecutar una prueba del recorrido e identificar problemas mediante los perfiles de prueba.
+Una vez creado el recorrido, puede probarlo antes de publicarlo. Journey Optimizer ofrece el &quot;Modo de prueba&quot; como una forma de ver los perfiles de prueba a medida que se mueven por el recorrido, detectando posibles errores antes de la activación. La ejecución de pruebas rápidas le permite comprobar que los recorridos funcionan correctamente para que pueda publicarlos con confianza.
 
 Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba. Puede crear nuevos perfiles de prueba o convertir los perfiles existentes en perfiles de prueba. Obtenga más información acerca de los perfiles de prueba en [esta sección](../audience/creating-test-profiles.md).
 
