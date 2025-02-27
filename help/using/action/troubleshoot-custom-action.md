@@ -9,13 +9,13 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
-source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
+exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
+source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '580'
 ht-degree: 2%
 
 ---
-
 
 # Solución de problemas de acciones personalizadas {#troubleshoot-a-custom-action}
 
@@ -71,7 +71,7 @@ Cuando una acción personalizada incluye autenticación, Adobe Journey Optimizer
 
 * **Autenticación básica:** El usuario debe proporcionar la *contraseña*.
 * **Autenticación de clave API:** El usuario debe escribir la clave API *value*.
-* **Autenticación personalizada:** El usuario debe proporcionar los parámetros de autenticación en la solicitud *bodyParam*. En este caso se agregan dos secciones para completar: **Solicitud de autenticación** y **Respuesta de autenticación**.
+* **Autenticación personalizada:** El usuario debe proporcionar los parámetros de autenticación en la solicitud *bodyParam*. Se han agregado dos secciones en este caso: **Solicitud de autenticación** y **Respuesta de autenticación**.
 
 ## Ventajas principales {#troubleshoot-custom-action-benefits}
 
@@ -94,4 +94,3 @@ Si la solicitud falla, puede comprobar lo siguiente:
 * El método de solicitud (GET frente a POST) y la carga útil correspondiente.
 * El extremo y los encabezados de la API definidos en la acción personalizada.
 * Utilice los datos de respuesta para identificar posibles errores de configuración.
-
