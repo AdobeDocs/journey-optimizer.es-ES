@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
+source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1044'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ Antes de empezar, revise las siguientes restricciones y directrices:
 
 * **Canales compatibles**: Por ahora, esta capacidad solo está disponible para su uso en canales de correo electrónico, SMS y correo directo.
 * **Etiquetado y aplicación del uso de datos** no se impone en este momento para los conjuntos de datos habilitados para la búsqueda.
-* **Fragmentos de expresión**: la personalización de la búsqueda de conjuntos de datos no se puede colocar en fragmentos de expresión en este momento.
+* **Fragmentos**: la personalización de la búsqueda de conjuntos de datos no se puede colocar en fragmentos visuales o de expresión en este momento.
 
 ## Habilitar un conjunto de datos para la búsqueda de datos {#enable}
 
