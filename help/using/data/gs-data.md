@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: datos, administración, plataforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ Puede usar la flexibilidad de datos de [!DNL Journey Optimizer] para satisfacer 
 
 * **Depuraciones y mecanismos de archivado**: la depuración de datos y el archivado se pueden definir y automatizar libremente en [!DNL Adobe Journey Optimizer] para automatizar las políticas de retención de datos. Es posible definir diferentes estrategias de caducidad para las distintas entidades de datos. También se pueden definir mecanismos de exportación para exportar automáticamente los datos de caducidad antes de depurarlos o archivarlos.
 
-  El espacio de trabajo Higiene de datos le permite crear y supervisar varias tareas de higiene de datos, incluida la eliminación de identidades de consumidores y la programación de la caducidad de conjuntos de datos. Este espacio de trabajo está disponible con el Escudo de seguridad y privacidad y con el Escudo de atención sanitaria. Obtenga más información en [esta página](../privacy/data-hygiene.md).
+  El espacio de trabajo Ciclo de vida de datos le permite crear y supervisar varias tareas del ciclo de vida de datos, incluida la eliminación de identidades de consumidores y la programación de caducidades de conjuntos de datos. Este espacio de trabajo está disponible con el Escudo de seguridad y privacidad y con el Escudo de atención sanitaria. Obtenga más información en [esta página](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

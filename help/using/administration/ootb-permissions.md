@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: permisos, creación, mensajes
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Los permisos integrados representan los diferentes permisos que se pueden asigna
 | Paneles | **[!DNL View license usage dashboards]**: acceso de solo lectura al [tablero de uso de licencias](../audience/license-usage.md). </br>**[!DNL Manage custom dashboards]**: permite crear un nuevo tablero o editar uno existente.</br>**[!DNL Manage standard dashboards]**: permite crear widgets personalizados y editar el esquema de widgets a través de la biblioteca de widgets.</br>**[!DNL View custom dashboards]**: acceso de solo lectura a los paneles definidos por el usuario.</br>**[!DNL View standard dashboards]**: acceso de solo lectura a los paneles Perfiles, Destinos y Audiencias. |
 | Recopilación de datos | **[!DNL Manage datastream]**: leer, crear y editar flujos de datos.</br>**[!DNL View datastream]**: acceso de solo lectura a flujos de datos. |
 | Gobernanza de datos | **[!DNL Manage usage labels]**: leer, crear, editar y eliminar etiquetas.</br>**[!DNL Manage data usage policies]**: leer, crear, editar y eliminar directivas de uso de datos.</br>**[!DNL View data usage policies]**: acceso de solo lectura para directivas de uso de datos que pertenecen a su organización.</br>**[!DNL View user activity log]**: acceso de solo lectura para ver los registros de auditoría registrados de las actividades de Platform. |
-| Higiene de datos | **[!DNL Manage data hygiene]**: leer, crear, editar y eliminar la higiene de los datos.</br>**[!DNL View data hygiene]**: acceso de solo lectura para higiene de datos. |
+| Ciclo de datos | **[!DNL Manage data lifecycle]**: leer, crear, editar y eliminar el ciclo de vida de los datos.</br>**[!DNL View data lifecycle]**: acceso de solo lectura para el ciclo vital de datos. |
 | Ingesta de datos | **[!DNL Manage sources]**: leer, crear, editar y deshabilitar orígenes.</br>**[!DNL View sources]**: acceso de sólo lectura a orígenes disponibles en la ficha Catálogo y orígenes autenticados en la ficha Examinar. |
 | Administración de datos | **[!DNL Data monitoring]**: acceso de solo lectura a conjuntos de datos y secuencias de supervisión.</br>**[!DNL Manage datasets]**: leer, crear, editar y eliminar conjuntos de datos. Acceso de solo lectura para esquemas.</br>**[!DNL View datasets]**: acceso de solo lectura para conjuntos de datos y esquemas. |
 | Modelado de datos | **[!DNL Manage identity metadata]**: leer, crear, editar y eliminar metadatos de identidad para esquemas.</br> **[!DNL Manage relationships]**: leer, crear, editar y eliminar relaciones de esquema.</br>**[!DNL Manage schemas]**: leer, crear y editar esquemas XDM (Experience Data Model).</br>**[!DNL View schemas]**: acceso de solo lectura a esquemas. |
