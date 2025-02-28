@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment, function, expression, recorrido
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: be372f8f80d304067748d539fb8e210df6280721
+source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '183'
 ht-degree: 6%
 
 ---
@@ -26,13 +26,12 @@ El nombre de la audiencia debe ser una constante de cadena. No puede ser una ref
 
 Las audiencias se definen en [Adobe Experience Platform](https://platform.adobe.com/audience/overview). El editor de expresiones proporciona una lista autocompletada de audiencias.
 
-Las audiencias pueden tener tres estados:
+Las audiencias pueden tener dos estados:
 
-* existente: la entidad sigue estando en la audiencia.
-* realizado: la entidad se introduce en la audiencia.
-* saliente: la entidad sale de la audiencia.
+* realizado: la entidad cumple los requisitos para la definición del segmento.
+* saliente: la entidad sale de la definición del segmento.
 
-Solo las personas con los estados de participación de audiencia **Realized** y **Existing** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
+Solo las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` significa que tiene un segmentMembership con el estado introducido/existente.
 

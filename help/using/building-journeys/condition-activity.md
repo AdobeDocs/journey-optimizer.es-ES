@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1491'
 ht-degree: 17%
 
 ---
@@ -48,7 +48,7 @@ Haga clic en **[!UICONTROL Agregar una ruta]** si desea definir varias condicion
 
 Tenga en cuenta que el diseño de los recorridos tiene impactos funcionales. Cuando se definen varias rutas después de una condición, solo se ejecuta la primera ruta elegible. Esto significa que puede variar la priorización de las rutas colocándolas una encima o debajo de la otra.
 
-VIP Por ejemplo, veamos el ejemplo de la condición de una primera ruta &quot;La persona es un hombre&quot; y la condición de una segunda ruta &quot;La persona es un hombre&quot;. VIP Si una persona que cumple ambas condiciones (un varón que es un) pasa este paso, se elegirá la primera ruta aunque esta persona también sea elegible para la segunda, porque la primera ruta es &quot;arriba&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
+Por ejemplo, veamos el ejemplo de la condición de una primera ruta &quot;La persona es un VIP&quot; y de una segunda ruta &quot;La persona es un hombre&quot;. Si una persona que cumple ambas condiciones (un hombre que es un VIP) pasa este paso, se elige la primera ruta aunque esta persona también sea elegible para la segunda, ya que la primera ruta es &quot;arriba&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
 
 ![](assets/journey48.png)
 
@@ -167,4 +167,4 @@ Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
 
    >[!NOTE]
    >
-   >Tenga en cuenta que solamente las personas con los estados de participación de audiencia **Realized** y **Existing** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

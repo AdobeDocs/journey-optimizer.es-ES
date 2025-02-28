@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 6%
+source-wordcount: '1633'
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ Veamos como ejemplo la audiencia &quot;Cierre de compra y apertura de la aplicac
 
 ## Protecciones y prácticas recomendadas {#must-read}
 
-* Para los recorridos que usan una actividad **Leer audiencia**, hay un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evitará tener más de cinco recorridos (con **Leer audiencia**, programados o que se inicien &quot;lo antes posible&quot;) que empiecen al mismo tiempo. La práctica recomendada es difundirlas a lo largo del tiempo, por ejemplo, con una diferencia de 5 a 10 minutos.
+* Para los recorridos que utilizan una actividad **Leer público**, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evitará tener más de cinco recorridos (con **Leer audiencia**, programados o que se inicien &quot;lo antes posible&quot;) que empiecen al mismo tiempo. La práctica recomendada es difundirlas a lo largo del tiempo, por ejemplo, con una diferencia de 5 a 10 minutos.
 
 * Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por una actividad de **Leer audiencia**, una actividad de **[calificación de audiencia](audience-qualification-events.md)** o una actividad de evento empresarial.
 
@@ -73,7 +73,7 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes:
 
    >[!NOTE]
    >
-   >Solo las personas con los estados de participación de audiencia **Realized** y **Existing** entrarán en el recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Solo las personas con el estado de participación en la audiencia **Realized** entrarán al recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. En el campo **[!UICONTROL Espacio de nombres]**, elija el espacio de nombres que desea utilizar para identificar a los individuos. De forma predeterminada, el campo está rellenado previamente con el último área de nombres utilizado. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
 
@@ -162,7 +162,7 @@ Después de entrar en el recorrido, puede crear casos de uso de orquestación de
 
 **Segmentación**
 
-Puede usar condiciones para realizar la segmentación con la actividad **Condition**. VIP VIP Por ejemplo, puede hacer que las personas de la zona de trabajo tomen una ruta en particular y que no tengan un flujo de trabajo de la zona de trabajo de otra ruta de acceso que no sea de la zona de trabajo.
+Puede usar condiciones para realizar la segmentación con la actividad **Condition**. Por ejemplo, puede hacer que las personas de VIP sigan una ruta determinada y que los que no son de VIP sigan otra ruta.
 
 La segmentación se puede basar en:
 
@@ -176,7 +176,7 @@ La segmentación se puede basar en:
 
 **Exclusión**
 
-La misma actividad **Condition** utilizada para la segmentación (ver arriba) también le permite excluir parte de la población. VIP Por ejemplo, puede excluir a las personas en cuestión haciendo que fluyan a una rama con un paso final justo después de la exclusión.
+La misma actividad **Condition** utilizada para la segmentación (ver arriba) también le permite excluir parte de la población. Por ejemplo, puede excluir a personas de VIP convirtiéndolas en una rama con un paso final justo después.
 
 Esta exclusión puede producirse justo después de la recuperación de la audiencia, con fines de recuento de población o a lo largo de un recorrido de varios pasos.
 
@@ -188,7 +188,7 @@ Los recorridos le permiten crear N ramas y unirlas después de una segmentación
 
 Como resultado, puede hacer que dos audiencias vuelvan a una experiencia común.
 
-Por ejemplo, después de seguir una experiencia diferente durante diez días en un recorrido VIP VIP, los clientes que no sean de la categoría de cliente y los de la categoría de cliente, pueden volver a la misma ruta de acceso que los demás clientes.
+Por ejemplo, después de seguir una experiencia diferente durante diez días en un recorrido, los clientes de VIP y no de VIP pueden volver a la misma ruta.
 
 Después de una unión, puede volver a dividir la audiencia realizando una segmentación o una exclusión.
 
@@ -197,7 +197,7 @@ Después de una unión, puede volver a dividir la audiencia realizando una segme
 
 ## Reintentos {#read-audience-retry}
 
-Los reintentos se aplican de forma predeterminada en recorridos activados por la audiencia (a partir de **Leer audiencia** o un **Evento empresarial**) al recuperar el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de eso, lo consideraremos como un fracaso. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta 1 hora después de la hora programada.
+Los reintentos ahora se aplican de forma predeterminada en recorridos activados por públicos destinatarios (empezando con una actividad **Leer público** o **Evento empresarial**) cuando se recupera el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada.
 
 Los déclencheur de **Leer audiencia** que no se hayan realizado correctamente se capturan y se muestran en **Alertas**. La **alerta Leer audiencia** le advierte si una actividad de **Leer audiencia** no ha procesado ningún perfil 10 minutos después de la hora programada de ejecución. Este error puede deberse a problemas técnicos o a que la audiencia está vacía. Si este error se debe a problemas técnicos, tenga en cuenta que aún pueden producirse reintentos, según el tipo de problema (p. ej.: si la creación del trabajo de exportación ha fallado, lo volveremos a intentar cada 10 minutos durante 1 h como máximo). [Más información](../reports/alerts.md#alert-read-audiences)
 
