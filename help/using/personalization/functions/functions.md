@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: 9fa5330d766aa6fb1998e668a08d769d3fd1b2cc
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2388'
 ht-degree: 27%
 
 ---
@@ -301,7 +301,7 @@ Haga clic en el icono `...` para ver la descripción de la función y agregarla 
         <td><a href="string.md#doesNotStartWith">No empieza por</a></td><td>Esta función se utiliza para determinar si una cadena no comienza con una subcadena especificada</td>
     </tr>
     <tr>
-        <td><a href="string.md#encode64">Codificar 64</a></td><td>Esta función se utiliza para codificar o descodificar una cadena</td>
+        <td><a href="string.md#encode64">Codificar 64</a></td><td>Esta función se utiliza para codificar una cadena.</td>
     </tr>
     <tr>
         <td><a href="string.md#endsWith">Termina con</a></td><td>Esta función se utiliza para determinar si una cadena termina con una subcadena especificada</td>
