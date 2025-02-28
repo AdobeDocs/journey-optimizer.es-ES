@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 82a73c9e6d03563ce9dcc5bd4eaa8eb1166caf1f
+source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 93%
+source-wordcount: '2346'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ A partir de febrero de 2025, se implementará una protección de tiempo de vida 
 * 90 días para datos en el almacén de perfiles,
 * 13 meses para los datos del lago de datos.
 
-Este cambio se implementará en **zonas protegidas de clientes existentes** en una fase posterior. [Obtenga más información sobre las protecciones de tiempo de salida (TTL) de los conjuntos de datos](../data/datasets-ttl.md)
+Este cambio se implementará en **zonas protegidas de clientes existentes** en una fase posterior. [Obtenga más información sobre las protecciones de tiempo de vida (TTL) de los conjuntos de datos](../data/datasets-ttl.md)
 
 ## Protecciones de canales {#channel-guardrails}
 
@@ -220,4 +220,4 @@ Especifique protecciones específicas de la actividad **[!UICONTROL Saltar]**. S
 Los siguientes mecanismos de protección se aplican a las actividades **[!UICONTROL Campaign v7/v8]** y **[!UICONTROL Campaign Standard]**:
 
 * Las actividades de Adobe Campaign no se pueden utilizar con un público de lectura o una actividad de calificación de público.
-* Estas actividades no se pueden utilizar con actividades en la aplicación.
+* Las actividades de Campaign no se pueden utilizar con las actividades de otros canales: Tarjeta, Experiencia basada en código, Correo electrónico, Push, SMS, Mensajes en la aplicación, Web.
