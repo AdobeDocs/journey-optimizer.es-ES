@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 24e6d2baf3470df402550a031d26ba33887f4fb9
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 26%
+source-wordcount: '621'
+ht-degree: 25%
 
 ---
 
@@ -153,6 +153,10 @@ En una sola llamada de API, puede anular la implementación y eliminar la config
 1. eliminar, con el parámetro forceDelete
 
 Caso de uso n.º 5: **Actualizar una configuración de límite ya implementada**
+
+>[!NOTE]
+>
+>Debe volver a implementar si actualiza una configuración ya implementada.
 
 1. list
 1. get
