@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 26%
+source-wordcount: '501'
+ht-degree: 25%
 
 ---
 
@@ -85,3 +85,4 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 1. **Cree una política de decisión e incrústela en su campaña basada en código**: las políticas de decisión combinan varias estrategias de selección para determinar los elementos de decisión aptos para mostrar a la audiencia deseada.
 
    ➡️ [Aprenda a trabajar con directivas de decisión](create-decision.md)
+➡️ Para entregar correctamente la oferta a través del canal basado en código, siga los pasos de implementación de [esta sección](../code-based/code-based-implementation-samples.md)
