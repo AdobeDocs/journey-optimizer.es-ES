@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zona protegida, recorrido, copiar, entorno
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: bf18b629c23f9ef48d53b0042d466ba7c1f57c78
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1042'
 ht-degree: 4%
 
 ---
@@ -30,8 +30,6 @@ El proceso de copia se lleva a cabo mediante una exportación de paquetes y una 
 
 1. Añada el objeto para exportar como paquete en la zona protegida de origen.
 1. Exporte el paquete a la zona protegida de destino.
-
-Además, puede aprovechar la API de REST del servicio de copia de objetos **Object Copy de Journey Optimizer** para administrar los objetos de las zonas protegidas. [Aprenda a trabajar con la API de REST del servicio de copia de objetos](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## Objetos exportados y prácticas recomendadas {#objects}
 
