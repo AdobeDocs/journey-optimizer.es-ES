@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 88d15684f13b234bcb00227bd609ca387070952a
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 24%
+source-wordcount: '445'
+ht-degree: 21%
 
 ---
 
 # Crear y administrar sus marcas {#brands}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brands_overview"
+>title="Marcas"
+>abstract="Cree y personalice sus propias marcas para definir su identidad visual y verbal única, al tiempo que facilita la generación de contenido que coincida con el estilo y la voz de su marca."
 
 >[!AVAILABILITY]
 >
@@ -56,6 +61,11 @@ Para tener acceso al menú **[!UICONTROL Marcas]** en [!DNL Adobe Journey Optimi
 +++
 
 ## Cree su marca {#create-brand-kit}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brands_create"
+>title="Cree su marca"
+>abstract="Introduzca el nombre de su marca y cargue el archivo de directrices de marca. La herramienta extraerá automáticamente los detalles clave, lo que facilita el mantenimiento de la identidad de su marca."
 
 Para crear y administrar las directrices de marca, siga los pasos a continuación.
 
