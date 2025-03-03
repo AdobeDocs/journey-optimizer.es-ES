@@ -11,7 +11,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
 source-wordcount: '846'
-ht-degree: 75%
+ht-degree: 82%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Asistente de IA en Journey Optimizer"
->abstract="Una vez que haya creado y personalizado su envío, puede utilizar el asistente de IA de Journey Optimizer para mejorar su contenido. Esta función simplifica el proceso de personalización y mejora del contenido al permitirle refinarlo, describiendo lo que desea generar."
+>title="Asistente de IA de Journey Optimizer"
+>abstract="Cuando haya creado y personalizado su envío, puede utilizar el Asistente de IA de Journey Optimizer para mejorar el contenido. Esta función simplifica el proceso de personalización y mejora del contenido al permitirle refinarlo, describiendo lo que desea generar."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Cargar recurso de marca"
->abstract="El menú Cargar recurso de marca le permite añadir cualquier recurso de marca que contenga contenido que pueda proporcionar un contexto adicional para el asistente de IA en Journey Optimizer o seleccionar un recurso cargado anteriormente. Esta opción garantiza que el Asistente de IA tenga acceso a todos los materiales necesarios para mejorar su funcionalidad y relevancia."
+>abstract="El menú Cargar recurso de marca le permite añadir cualquier recurso de marca que incluya contenido que pueda proporcionar un contexto adicional para el Asistente de IA en Journey Optimizer, o seleccionar un recurso cargado anteriormente. Esta opción garantiza que el Asistente de IA tenga acceso a todos los materiales necesarios para mejorar su funcionalidad y relevancia."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"

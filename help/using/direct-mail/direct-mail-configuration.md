@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: f930fd23431d826ba7efc72035811f0023fcf4d1
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -51,7 +51,7 @@ Antes de poder generar este archivo, debe crear lo siguiente:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Seleccionar el tipo de servidor para el archivo"
->abstract="Elija el tipo de servidor que desea utilizar para exportar los archivos de correo postal: Amazon S3, SFTP, Azure o Data Landing Zone."
+>abstract="Elija el tipo de servidor que desea utilizar para exportar los archivos de correo directo: Amazon S3, SFTP, Azure o Data Landing Zone."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
