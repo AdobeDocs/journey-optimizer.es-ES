@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 96f6fe5d1a941a904ecddf66e9b4a51802e5d00b
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -121,7 +121,7 @@ Una vez que haya definido una audiencia por primera vez, los perfiles se añaden
 
 >[!AVAILABILITY]
 >
-La evaluación flexible de audiencias solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+La evaluación de público flexible solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 Adobe Experience Platform Audience Portal le permite ejecutar un trabajo de segmentación bajo demanda para audiencias seleccionadas, lo que garantiza que siempre tenga los datos de audiencia más actualizados antes de segmentarlos en recorridos y campañas de Journey Optimizer.
 
@@ -129,8 +129,7 @@ Con la evaluación flexible de audiencias, puede:
 
 1. Cree un nuevo segmento basado en los datos más recientes.
 1. Evalúe la audiencia en tiempo real para garantizar su precisión. Para ello, elija las audiencias que desea evaluar y seleccione &quot;Evaluar audiencias&quot;, siempre que cumplan criterios específicos (por ejemplo, basados en personas, origen del servicio de segmentación).
-1. Uso de la audiencia evaluada en Adobe Journey Optimizer
-campañas o recorridos para una segmentación precisa.
+1. Utilice la audiencia evaluada en campañas o recorridos de Adobe Journey Optimizer para un direccionamiento preciso.
 
 Puede evaluar hasta 20 audiencias a la vez, y las audiencias que no cumplan los requisitos se excluirán automáticamente. Para obtener más información, consulte la [documentación de Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
 
