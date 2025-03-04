@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principal, ejecución, correo electrónico, destinatario, perfil, optimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
+source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -70,6 +70,11 @@ El campo de ejecución se actualiza y ahora se utiliza como dirección principal
 
 Para casos de uso específicos, puede anular el campo de ejecución establecido globalmente y definir un valor diferente en el nivel de configuración de correo electrónico o en el nivel de recorrido.
 
+Anular este valor puede resultar útil, por ejemplo, para lo siguiente:
+
+* Probar un correo electrónico. Puede añadir su propia dirección de correo electrónico: después de publicar el recorrido, se le envía el correo electrónico.
+* Envíe un correo electrónico a los suscriptores de una lista. Obtenga más información en [este caso de uso](../building-journeys/message-to-subscribers-uc.md).
+
 ### En la configuración de correo electrónico
 
 Puede cambiar el campo de ejecución predeterminado establecido en [configuración general](#admin-settings) al definir una configuración de canal de correo electrónico. [Más información](../email/email-settings.md#execution-address)
@@ -88,8 +93,4 @@ En algunos contextos específicos, puede anular este valor usando el icono **[!U
 >
 >La anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, no es necesario cambiar la dirección de correo electrónico porque el valor definido como la dirección principal en **[!UICONTROL Campos de ejecución]** es el que debería usarse.
 
-Anular este valor puede resultar útil, por ejemplo, para lo siguiente:
-
-* Probar un correo electrónico. Puede añadir su propia dirección de correo electrónico: después de publicar el recorrido, se le envía el correo electrónico.
-* Envíe un correo electrónico a los suscriptores de una lista. Obtenga más información en [este caso de uso](../building-journeys/message-to-subscribers-uc.md).
 
