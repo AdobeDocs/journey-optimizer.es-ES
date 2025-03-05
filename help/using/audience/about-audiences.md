@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 22%
+source-wordcount: '546'
+ht-degree: 19%
 
 ---
 
@@ -60,7 +60,13 @@ Para obtener más información sobre cómo trabajar con audiencias en Audience P
 
 Las audiencias se pueden generar mediante diferentes métodos:
 
-* **Definiciones de segmentos**: Cree una nueva definición de audiencia con el servicio de segmentación de Adobe Experience Platform. [Obtenga información sobre cómo generar definiciones de segmentos](creating-a-segment-definition.md)
+* **Definiciones de segmentos**: Cree una nueva definición de audiencia con el servicio de segmentación de Adobe Experience Platform. Las audiencias se generan a partir de definiciones de segmentos y se actualizan en momentos diferentes según su tipo de evaluación.
+
+   * Segmentación de streaming: las audiencias se actualizan en tiempo real a medida que ingresan nuevos datos, lo que garantiza una relevancia continua basada en la actividad del usuario.
+   * Segmentación por lotes: las audiencias se actualizan cada 24 horas y capturan una instantánea de los perfiles a un intervalo fijo.
+   * Segmentación de Edge: las audiencias se evalúan instantáneamente en el perímetro, lo que permite la personalización en tiempo real.
+
+[Obtenga información sobre cómo generar definiciones de segmentos](creating-a-segment-definition.md)
 
 * **Carga personalizada**: importe una audiencia con un archivo CSV. [Aprenda a crear audiencias de carga personalizadas](custom-upload.md)
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 963bf0ae62664a3aa47639b27f0b39b849d51055
+source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1041'
 ht-degree: 19%
 
 ---
@@ -93,7 +93,9 @@ La segmentación de streaming es un proceso continuo de selección de datos que 
 
 La lista de perfiles de la audiencia se evalúa cada 24 horas.
 
-La segmentación por lotes es una alternativa a la segmentación de streaming que procesa todos los datos de perfil a la vez mediante definiciones de segmento. Esto crea una instantánea del público que se puede guardar y exportar para su uso. Sin embargo, a diferencia de la segmentación por secuencias, la segmentación por lotes no actualiza continuamente la lista de audiencias en tiempo real, y los nuevos datos que llegan después del proceso por lotes no se reflejarán en la audiencia hasta el siguiente proceso por lotes. Para obtener más información, consulte la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
+La segmentación por lotes es una alternativa a la segmentación de streaming que procesa todos los datos de perfil a la vez mediante definiciones de segmento. Esto crea una instantánea del público que se puede guardar y exportar para su uso. Sin embargo, a diferencia de la segmentación por secuencias, la segmentación por lotes no actualiza continuamente la lista de audiencias en tiempo real, y los nuevos datos que llegan después del proceso por lotes no se reflejarán en la audiencia hasta el siguiente proceso por lotes. Un intento de forzar una actualización inmediata no anulará el ciclo diario. Para obtener actualizaciones incrementales inmediatas, considere la posibilidad de utilizar opciones de segmentación por transmisión o bajo demanda.
+
+Para obtener más información, consulte la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
 
 +++
 
