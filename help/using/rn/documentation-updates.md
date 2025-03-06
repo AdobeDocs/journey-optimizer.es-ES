@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
+source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
-source-wordcount: '6193'
+source-wordcount: '6222'
 ht-degree: 96%
 
 ---
@@ -26,6 +26,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 ## Febrero de 2025 {#feb-2025}
 
+* Se han actualizado las protecciones de actividad &quot;Leer audiencia&quot; para especificar que solo se puede utilizar una actividad en un recorrido y que solo se puede dirigir a una audiencia. [Más información](../building-journeys/read-audience.md)
 * Se han actualizado las protecciones de recorrido al utilizar actividades de Campaign. [Más información](../start/guardrails.md#ac-g)
 * Se han detallado los pasos para crear sus primeros recorridos y se han añadido vínculos a la sección de documentación. [Más información](../building-journeys/journey-gs.md)
 * Ahora hay disponible una nueva página para detallar el panel de recorrido y la interfaz de usuario de filtrado. [Más información](../building-journeys/journey-ui.md)
