@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
+source-git-commit: 6480bb7e35d92ba1771b3e5c01310ee93a8c77b1
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '746'
 ht-degree: 27%
 
 ---
@@ -92,7 +92,7 @@ A continuación se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Solucionar problemas de acciones personalizadas (disponibilidad limitada)</strong><br/></th>
+<th><strong>Solución de problemas de acciones personalizadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -100,7 +100,7 @@ A continuación se describen las nuevas funciones incluidas en esta versión.
 <td>
 <p>Ahora puede validar una configuración de acción personalizada realizando llamadas de API reales directamente desde Adobe Journey Optimizer. </p>
 <p>Para obtener más información, consulte la <a href="../action/troubleshoot-custom-action.md">documentación detallada</a>.</p>
-<p> Esta capacidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
 </tr>
 </tbody>
