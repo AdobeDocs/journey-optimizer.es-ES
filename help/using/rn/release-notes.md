@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6480bb7e35d92ba1771b3e5c01310ee93a8c77b1
+source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 27%
+source-wordcount: '863'
+ht-degree: 24%
 
 ---
 
@@ -22,6 +22,20 @@ ht-degree: 27%
 
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión. [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información acerca de estos cambios en [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
+## Actualizaciones de marzo de 2025 {#25-03-rn}
+
+**Mejoras en el editor de Personalization**
+
+El editor de personalización de Journey Optimizer se ha actualizado con nuevas funciones:
+* **Diseño actualizado del editor de código**: una interfaz más limpia y moderna para mejorar la facilidad de uso y el enfoque.
+* **Buscar y reemplazar**: funcionalidad agregada para buscar y reemplazar contenido rápidamente en el editor.
+* **Compatibilidad con Deshacer y Rehacer**: permite revertir o volver a aplicar fácilmente los cambios.
+* **Tamaño de fuente personalizable**: permite ajustar el tamaño de fuente del editor para mejorar la legibilidad.
+* **Validación JSON en línea**: proporciona validación en tiempo real del lado del cliente para el contenido JSON a fin de acelerar la detección de errores.
+* **Completado automático para atributos de perfil y contexto**: ofrece sugerencias inteligentes para optimizar la creación de contenido.
+* **Resalte de sintaxis mejorada**: mejora la legibilidad al hacer que la estructura del código sea más distinta visualmente.
+
+Para obtener más información, consulte la [documentación detallada](../personalization/personalization-build-expressions.md).
 
 ## Notas de la versión de febrero de 2025 {#25-02-rn}
 
