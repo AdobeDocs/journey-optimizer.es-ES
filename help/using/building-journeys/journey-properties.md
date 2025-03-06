@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3331fd2ca9277bb634e3df0dd2e5a262bef459d7
+source-git-commit: 43cf43c6ba92d64836222ce872054b5dec6d11fe
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2259'
 ht-degree: 18%
 
 ---
@@ -279,14 +279,14 @@ Para **crear** un criterio de salida, siga estos pasos:
 
 1. Abra el recorrido.
 
-1. Haga clic en el icono **[!UICONTROL Mostrar criterios de salida]** ubicado en la sección superior derecha del lienzo de recorrido.
-   ![](assets/exitcriteria_icon.png){width="40%" align="left"}
-1. Haga clic en **[!UICONTROL Agregar criterios de salida]**.
-   ![](assets/exitcriteria.png){width="40%" align="left"}
+1. Haga clic en el icono ![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Mostrar criterios de salida]** ubicado en la sección superior derecha del lienzo de recorrido.
+
+1. Seleccione **[!UICONTROL Agregar criterios de salida]**.
+
 1. Escriba una **Etiqueta** y seleccione si los criterios de salida se basan en un **Evento** o en una **Audiencia**.
 
-* Para los criterios de Salida basados en un evento, como descargar una aplicación o agregar un producto al carro de compras, elija solo evento unitario.
-* Para los criterios de Salida basados en una audiencia, como una audiencia que comprueba si un cliente ha realizado compras en las últimas 24 horas, seleccione una audiencia. Nota: Los criterios de salida que utilizan una audiencia pueden tardar hasta 10 minutos en ser efectivos.
+   * Para los criterios de Salida basados en un evento, como descargar una aplicación o agregar un producto al carro de compras, elija solo evento unitario.
+   * Para los criterios de Salida basados en una audiencia, como una audiencia que comprueba si un cliente ha realizado compras en las últimas 24 horas, seleccione una audiencia. Nota: Los criterios de salida que utilizan una audiencia pueden tardar hasta 10 minutos en ser efectivos.
 
 Puede agregar varios criterios de salida.
 
