@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 890d3925a418c117451864558be92030a3a0f87f
+source-git-commit: 9ea7f2c76cc09949bb4467d5b9b2c19550f9975e
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 23%
@@ -22,7 +22,7 @@ ht-degree: 23%
 
 Antes de [crear su experiencia](create-code-based.md), debe crear una configuración de experiencia basada en código en la que defina dónde se enviará y consumirá el contenido dentro de su aplicación.
 
-Una configuración de experiencia basada en código debe hacer referencia a la superficie, que es básicamente la ubicación donde desea procesar los cambios. Según la plataforma seleccionada, se debe introducir una ubicación/ruta o el URI de superficie completo. [Más información](#surface-definition)
+Una configuración de experiencia basada en código debe hacer referencia a la superficie, que es básicamente la ubicación donde desea procesar los cambios. Según la plataforma seleccionada, se debe introducir una ubicación/ruta o el URI de superficie completo. [Más información](code-based-surface.md)
 
 ## Cree una configuración de experiencia basada en código {#create-code-based-configuration}
 
