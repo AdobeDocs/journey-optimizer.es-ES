@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3646c67dd23bb786cf2486c5c43748197ba04f85
+source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 16%
+source-wordcount: '618'
+ht-degree: 15%
 
 ---
 
@@ -28,9 +28,14 @@ ht-degree: 16%
 >abstract="Elija su marca para asegurarse de que todo el contenido generado por IA se adapte a las especificaciones y directrices de su marca."
 
 >[!CONTEXTUALHELP]
+>id="ajo_brand_score_overview"
+>title="Selección de marca"
+>abstract="Seleccione su marca para asegurarse de que el contenido se crea de acuerdo con sus directrices, estándares e identidad específicos, manteniendo la coherencia y la integridad de la marca."
+
+>[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="Puntuación de alineación de marca"
->abstract="La puntuación de alineación de marca mide en qué medida el contenido generado por IA se adhiere a las directrices de la marca, lo que garantiza la coherencia en los colores, las fuentes, el logotipo, las imágenes y el estilo de escritura."
+>abstract="La puntuación de alineación de marca mide en qué medida el contenido se adhiere a las directrices de la marca, lo que garantiza la coherencia en los colores, las fuentes, el logotipo, las imágenes y el estilo de escritura."
 
 
 >[!AVAILABILITY]
