@@ -7,9 +7,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 95d02900fb9686466fa6b20c90e1c425567db145
+source-git-commit: b400b48d6f0429b05be523d4c2f520c383eef514
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 45%
 
 ---
@@ -69,7 +69,7 @@ Para realizar solicitudes de acceso y eliminación de datos para Adobe Journey O
 
 >[!IMPORTANT]
 >
->Al enviar solicitudes de privacidad, asegúrese de especificar &#39;[!DNL '**Adobe Journey Optimizer**]&#39; como nombre de producto de destino y **todas las áreas de nombres de identidad** (como &#39;Correo electrónico&#39;, &#39;ECID&#39; o &#39;ID de fidelidad&#39;) asociadas con los datos de perfil a los que se debe tener acceso o eliminar. En particular, para las solicitudes de eliminación, si no incluye explícitamente el nombre del producto y todas las áreas de nombres aplicables, los datos permanecerán en [!DNL Adobe Journey Optimizer].
+>Al enviar solicitudes de privacidad, asegúrese de especificar &#39;[!DNL '**Adobe Journey Optimizer**]&#39; como nombre de producto de destino y **todas las áreas de nombres de identidad** (como &#39;Correo electrónico&#39;, &#39;ECID&#39; o &#39;ID de fidelidad&#39;) asociadas con los datos de perfil a los que se debe tener acceso o eliminar. En particular, para las solicitudes de eliminación, si no incluye explícitamente el nombre del producto y todas las áreas de nombres aplicables, no se eliminan los datos de [!DNL Adobe Journey Optimizer].
 
 ### Valores de campo requeridos en Journey Optimizer para solicitudes de API
 
