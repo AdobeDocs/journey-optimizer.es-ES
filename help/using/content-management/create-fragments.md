@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
+source-git-commit: 167d42f51bd76d42118b340fe6a1f41962ef9c51
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '635'
 ht-degree: 15%
 
 ---
@@ -27,7 +27,8 @@ ht-degree: 15%
 >id="ajo_create_expression_fragment"
 >title="Selección del tipo de expresión"
 >abstract="Cree un fragmento de expresión independiente para que el contenido se pueda reutilizar en varios recorridos y campañas. Al utilizar el editor de personalización, puede aprovechar todos los fragmentos de expresiones que se han creado en la zona protegida actual."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Aprovechamiento de fragmentos de expresiones"
+<!--
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Leverage expression fragments"-->
 
 Los fragmentos se pueden crear desde cero desde el menú de la izquierda **[!UICONTROL Fragmentos]**. Además, también puede guardar una parte del contenido existente como fragmento al diseñar contenido. [Descubra cómo](#save-as-fragment)
 
@@ -51,7 +52,7 @@ Para crear un fragmento, siga los pasos a continuación.
    >
    >Actualmente, los fragmentos visuales solo están disponibles para el canal **Email**.
 
-1. Si está creando un fragmento de expresión, seleccione el tipo de código que desea utilizar: **[!UICONTROL HTML]**, **[!UICONTROL JSON]** o **[!UICONTROL Texto]**.
+1. Si está creando un fragmento de expresión, seleccione el tipo de código que desea utilizar: **[!UICONTROL HTML]**, **[!UICONTROL JSON]** o **[!UICONTROL Text]**.
 
    ![](assets/fragment-expression-type.png)
 
@@ -77,7 +78,7 @@ Cuando el contenido esté listo, haz clic en el botón **[!UICONTROL Guardar]**.
 
 >[!NOTE]
 >
->Para publicar un fragmento, debe tener el permiso de usuario [Fragmento de Publish](../administration/ootb-product-profiles.md#content-library-manager).
+>Para publicar un fragmento, debe tener el permiso de usuario [Publicar fragmento](../administration/ootb-product-profiles.md#content-library-manager).
 
 Si el fragmento está listo para su publicación, puede previsualizarlo y publicarlo para que esté disponible en sus recorridos y campañas. Para ello, siga los pasos que aparecen a continuación.
 
@@ -87,7 +88,7 @@ Si el fragmento está listo para su publicación, puede previsualizarlo y public
 
    ![](assets/fragment-preview.png)
 
-1. Haga clic en el botón **[!UICONTROL Publish]** en la esquina superior derecha para publicar el fragmento.
+1. Haga clic en el botón **[!UICONTROL Publicar]** en la esquina superior derecha para publicar el fragmento.
 
 1. Si el fragmento se está utilizando en un recorrido activo o en una campaña, se abre un mensaje para informarle. Haga clic en el vínculo **[!UICONTROL Ver más]** para obtener acceso a la lista de recorridos o campañas a los que se hace referencia. [Aprenda a explorar referencias de un fragmento](../content-management/manage-fragments.md#explore-references)
 
