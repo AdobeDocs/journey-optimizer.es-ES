@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 8d477f724b9bddcfd05df62ea236ebbaa25bc549
+source-git-commit: a6a601477e29e558bf4f4e9416187b2db3e15942
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -27,7 +27,7 @@ El selector de recursos ahora es compatible con Dynamic Media, lo que le permite
 
 Para obtener más información sobre Dynamic Media en Adobe Experience Manager as a Cloud Service, consulte [Documentación de Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media).
 
-## Adición y administración de medios dinámicos
+## Adición y administración de medios dinámicos {#dynamic-media}
 
 Mejore y optimice el contenido para cualquier pantalla o navegador insertando medios dinámicos de Adobe Experience Manager as a Cloud Service directamente en el contenido de Journey Optimizer.  A continuación, puede cambiar el tamaño, recortar, mejorar y realizar otros ajustes según sea necesario.
 
@@ -55,7 +55,7 @@ Mejore y optimice el contenido para cualquier pantalla o navegador insertando me
 
 El contenido ahora incluye medios dinámicos. Las actualizaciones que realice en Experience Manager aparecerán automáticamente en Journey Optimizer.
 
-## Personalice la superposición de texto
+## Personalice la superposición de texto {#text-overlay}
 
 Personalice fácilmente cualquier medio dinámico reemplazando la superposición de texto existente por el nuevo texto de su elección, lo que permite actualizaciones y personalización sin problemas.
 
@@ -96,13 +96,13 @@ El contenido ahora incluye la superposición de texto actualizada.
 
 ![](assets/dynamic-media-layout-3.png)
 
-## Agregar y administrar la plantilla de Dynamic Media
+## Agregar y administrar la plantilla de Dynamic Media {#dynamic-media-template}
 
 Agregue fácilmente su plantilla de Dynamic Media en Journey Optimizer y actualice su contenido multimedia siempre que sea necesario. Ahora puede incorporar campos de personalización en los medios, lo que le permite crear contenido más personalizado y atractivo dentro de Journey Optimizer.
 
 Más información sobre [Plantilla de medios dinámicos](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
 
-### Con componente de imagen
+### Con componente de imagen {#image-component}
 
 Puede insertar la plantilla dinámica directamente en el contenido mediante el componente Imagen:
 
@@ -136,7 +136,7 @@ Puede insertar la plantilla dinámica directamente en el contenido mediante el c
 
 Una vez que haya realizado las pruebas y validado el contenido, puede enviar el mensaje a la audiencia.
 
-### Con el componente HTML
+### Con el componente HTML {#html-component}
 
 Puede insertar la plantilla dinámica directamente en el contenido mediante el componente HTML:
 
