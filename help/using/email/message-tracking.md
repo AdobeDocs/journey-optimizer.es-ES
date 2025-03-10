@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
+source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1198'
 ht-degree: 31%
 
 ---
@@ -120,7 +120,7 @@ Para definir el destinatario de un vínculo, siga estos pasos:
 
 1. En un componente de **[!UICONTROL Texto]** donde se inserta un vínculo, seleccione el vínculo.
 
-1. En la ficha **[!UICONTROL Configuración]**, seleccione dónde se abre el vínculo en la lista desplegable **[!UICONTROL Destino]**:
+1. En la ficha **[!UICONTROL Configuración]**, seleccione dónde se abrirá el vínculo en la lista desplegable **[!UICONTROL Destino]**. Los valores posibles se enumeran a continuación:
 
    * **[!UICONTROL Ninguna]**: abre el vínculo en el mismo marco en el que se hizo clic (predeterminado).
    * **[!UICONTROL En blanco]**: abre el vínculo en una nueva ventana o pestaña.
