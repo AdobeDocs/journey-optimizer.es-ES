@@ -9,17 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, sintaxis, personalización
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 7%
+source-wordcount: '571'
+ht-degree: 3%
 
 ---
 
 # Sintaxis de personalización {#personalization-syntax}
 
-Personalization en [!DNL Journey Optimizer] se basa en la sintaxis de creación de plantillas denominada Handlebars.
-Para obtener una descripción completa de la sintaxis de Handlebars, consulte [Documentación de HandlebarsJS](https://handlebarsjs.com/).
+Personalization en [!DNL Journey Optimizer] se basa en la sintaxis de creación de plantillas denominada Handlebars. Para obtener una descripción completa de la sintaxis de Handlebars, consulte [Documentación de HandlebarsJS](https://handlebarsjs.com/).
 
 Utiliza una plantilla y un objeto de entrada para generar HTML u otros formatos de texto. Las plantillas Handlebars se parecen al texto normal con expresiones Handlebars incrustadas.
 
@@ -34,107 +33,96 @@ donde:
 
 ## Sintaxis: reglas generales {#general-rules}
 
-Los identificadores pueden ser cualquier carácter Unicode excepto los siguientes:
+* Los identificadores pueden ser cualquier carácter Unicode excepto los siguientes:
 
-```
-Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
-```
+  ```
+  Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
+  ```
 
-La sintaxis distingue entre mayúsculas y minúsculas.
+* La sintaxis distingue entre mayúsculas y minúsculas.
 
-Las palabras **true**, **false**, **null** y **undefined** solo se permiten en la primera parte de una expresión de ruta.
+* Las palabras **true**, **false**, **null** y **undefined** solo se permiten en la primera parte de una expresión de ruta.
 
-En Handlebars, los valores devueltos por {{expression}} son **HTML-escaped**. Si la expresión contiene `&`, el resultado devuelto con escape de HTML se generará como `&amp;`. Si no desea que Handlebars escape un valor, utilice la &quot;pila triple&quot;.
+* En Handlebars, los valores devueltos por {{expression}} son **HTML-escaped**. Si la expresión contiene `&`, el resultado devuelto con escape de HTML se generará como `&amp;`. Si no desea que Handlebars escape un valor, utilice la &quot;pila triple&quot;.
 
-En cuanto a los argumentos de funciones literales, el analizador de idioma de creación de plantillas no admite un único símbolo de barra invertida sin escape (`\`). Este carácter debe tener un carácter de escape con una barra invertida (`\`) adicional. Ejemplo :
+* En cuanto a los argumentos de funciones literales, el analizador de idioma de creación de plantillas no admite un único símbolo de barra invertida sin escape (`\`). Este carácter debe tener un carácter de escape con una barra invertida (`\`) adicional. Ejemplo :
 
-`{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
+  `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
-## Perfil
+## Áreas de nombres disponibles {#namespaces}
 
-Este espacio de nombres le permite hacer referencia a todos los atributos definidos en el esquema de perfil descrito en [Documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
+* **Perfil**
 
-Es necesario definir los atributos en el esquema antes de hacer referencia a ellos en un bloque personalizado [!DNL Journey Optimizer].
+  Este espacio de nombres le permite hacer referencia a todos los atributos definidos en el esquema de perfil descrito en [Documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 
->[!NOTE]
->
->Aprenda a aprovechar los atributos de perfil en condiciones de [esta sección](functions/helpers.md#if-function).
+  Es necesario definir los atributos en el esquema antes de hacer referencia a ellos en un bloque personalizado [!DNL Journey Optimizer].
 
-**Referencias de muestra:**
+  Para obtener más información sobre cómo aprovechar los atributos de perfil en condiciones, consulte [esta sección](functions/helpers.md#if-function).
 
-`{{profile.person.name.fullName}}`
+  +++Referencias de muestra
 
-`{{profile.person.name.firstName}}`
+   * `{{profile.person.name.fullName}}`
+   * `{{profile.person.name.firstName}}`
+   * `{{profile.person.gender}}`
+   * `{{profile.personalEmail.address}}`
+   * ` {{profile.mobilePhone.number}}`
+   * `{{profile.homeAddress.city}}`
+   * `{{profile.faxPhone.number}}`
 
-`{{profile.person.gender}}`
++++
 
-`{{profile.personalEmail.address}}`
+* **Audiencia**
 
-`{{profile.mobilePhone.number}}`
+  Para obtener más información sobre el servicio de segmentación, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
 
-`{{profile.homeAddress.city}}`
+* **Ofertas**
 
-`{{profile.faxPhone.number}}`
+  Este área de nombres le permite hacer referencia a decisiones de ofertas existentes.
 
-## Públicos{#perso-segments}
+  Para hacer referencia a una oferta, debe declarar una ruta con la diferente información que define una oferta. Esta ruta tiene la siguiente estructura:
 
-Aprenda a aprovechar los atributos de perfil en condiciones de [esta sección](functions/helpers.md#if-function).
+  `offers.Type.[Placement Id].[Activity Id].Attribute`
 
->[!NOTE]
->Para obtener más información sobre el servicio de segmentación, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
+  donde:
 
-## Ofertas {#offers-syntax}
+   * `offers` identifica la expresión de ruta que pertenece al área de nombres de la oferta
+   * `Type` determina el tipo de representación de la oferta. Los valores posibles son: `image`, `html` y `text`
+   * `Placement Id` y `Activity Id` son identificadores de ubicación y actividad
+   * `Attributes` son atributos específicos de la oferta que dependen del tipo de oferta. Ejemplo: `deliveryUrl` para imágenes
 
-Este área de nombres le permite hacer referencia a decisiones de ofertas existentes.
-Para hacer referencia a una oferta, debe declarar una ruta con la diferente información que define una oferta.
+  Para obtener más información sobre la API Decisions y las representaciones Offer, consulte [esta página](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
-Esta ruta tiene la siguiente estructura:
+  Todas las referencias se validan con el esquema de ofertas con un mecanismo de validación descrito en [esta página](../personalization/personalization-build-expressions.md)
 
-`offers.Type.[Placement Id].[Activity Id].Attribute`
+  +++Referencias de muestra
 
-donde:
+   * Ubicación donde se aloja la imagen:
 
-* `offers` identifica la expresión de ruta que pertenece al área de nombres de la oferta
-* `Type` determina el tipo de representación de la oferta. Los valores posibles son: `image`, `html` y `text`
-* `Placement Id` y `Activity Id` son identificadores de ubicación y actividad
-* `Attributes` son atributos específicos de la oferta que dependen del tipo de oferta. Ejemplo: `deliveryUrl` para imágenes
+     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-Para obtener más información sobre la API Decisions y la representación de ofertas, consulte [esta página](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+   * URL de destino al hacer clic en la imagen:
 
-Todas las referencias se validan con el esquema de ofertas con un mecanismo de validación descrito en [esta página](personalization-validation.md)
+     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-**Referencias de muestra:**
+   * Contenido de texto de la oferta procedente del motor de decisión:
 
-* Ubicación donde se aloja la imagen:
+     `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+   * Contenido de HTML de la oferta proveniente del motor de decisión:
 
-* URL de destino al hacer clic en la imagen:
+     `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
-
-* Contenido de texto de la oferta procedente del motor de decisión:
-
-  `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
-
-* Contenido del HTML de la oferta procedente del motor de decisión:
-
-  `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
-
++++
 
 ## Ayudantes{#helpers-all}
 
-Un asistente de Handlebars es un identificador simple que puede ir seguido de parámetros.
-Cada parámetro es una expresión Handlebars. Se puede acceder a estos ayudantes desde cualquier contexto de una plantilla.
+Un asistente de Handlebars es un identificador simple que puede ir seguido de parámetros. Cada parámetro es una expresión Handlebars. Se puede acceder a estos ayudantes desde cualquier contexto de una plantilla.
 
-Estos ayudantes de bloque se identifican con un número que precede al nombre del ayudante y requieren un / de cierre coincidente, del mismo nombre.
-Los bloques son expresiones que tienen una apertura de bloque ({{# }}) and closing ({{/}}).
+Estos ayudantes de bloque se identifican con un `#` antes del nombre del ayudante y requieren un `/` de cierre coincidente, del mismo nombre.
 
+Los bloques son expresiones que tienen un bloque de apertura (`{{# }}`) y cierre (`{{/}}`).
 
->[!NOTE]
->
->Las funciones de ayuda se detallan en [esta sección](functions/helpers.md).
->
+Para obtener más información sobre las funciones de ayuda, consulte [esta sección](functions/helpers.md).
 
 ## Tipos literales {#literal-types}
 
@@ -150,30 +138,3 @@ Los bloques son expresiones que tienen una apertura de bloque ({{# }}) and closi
 >[!CAUTION]
 >
 >El uso de la variable **xEvent** no está disponible en expresiones de personalización. Cualquier referencia a xEvent producirá errores de validación.
-
-## URL de Personalization{#perso-urls}
-
-Las direcciones URL personalizadas llevan a los destinatarios a páginas específicas de un sitio web o a un micrositio personalizado, según los atributos del perfil. En Adobe Journey Optimizer, puede añadir personalización a las direcciones URL en el contenido del mensaje. La personalización de URL se puede aplicar a texto e imágenes, y puede utilizar datos de perfil o datos contextuales.
-
-Journey Optimizer le permite personalizar una o varias direcciones URL del mensaje añadiéndoles campos de personalización. Para personalizar una URL, siga los pasos a continuación:
-
-1. Cree un vínculo en el contenido del mensaje. [Más información](../email/message-tracking.md#insert-links)
-1. En el icono de personalización, seleccione los atributos. El icono de personalización solo está disponible para estos tipos de vínculos: **vínculo externo**, **vínculo de baja** y **exclusión**.
-
-   ![](assets/perso-url.png)
-
->[!NOTE]
->
->En el editor de personalización, cuando se edita una dirección URL personalizada, las funciones de ayuda y la pertenencia a audiencias se desactivan por motivos de seguridad.
->
-
-**URL personalizadas de ejemplo**
-
-* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
-* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
-* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
-* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
-
->[!CAUTION]
->
->No se admiten espacios en los tokens de personalización utilizados dentro de las direcciones URL.

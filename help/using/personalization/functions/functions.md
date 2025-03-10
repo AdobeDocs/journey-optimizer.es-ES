@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 155ae8ef14e5482d94e54b15962afa09aa6826fc
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 27%
@@ -16,8 +16,6 @@ ht-degree: 27%
 # Introducción a las funciones de ayuda{#functions}
 
 Utilice el lenguaje de plantilla [!DNL Journey Optimizer] para realizar operaciones con los datos, como cálculos, conversiones o formato de datos, condiciones y manipularlos en el contexto de la personalización. Conozca las directrices de sintaxis de personalización en [esta página](../personalization-syntax.md).
-
-
 
 ➡️ [Aprenda a utilizar las funciones de ayuda en este vídeo](#video)
 

@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ff31c69255e6d4e0762a57430f112c92f34191c3
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
-source-wordcount: '2280'
-ht-degree: 96%
+source-wordcount: '2266'
+ht-degree: 95%
 
 ---
 
@@ -359,15 +359,11 @@ ht-degree: 96%
          + [Explicación de los cálculos estadísticos en el informe de experimentación](using/content-management/experiment-report-calculations.md)
    + Personalización {#personalization}
       + [Introducción a la personalización](using/personalization/personalize.md)
-      + [Contextos de personalización](using/personalization/personalization-contexts.md)
+      + [Adición de personalización](using/personalization/personalization-build-expressions.md)
       + [Sintaxis de personalización](using/personalization/personalization-syntax.md)
-      + [Uso de datos de Adobe Experience Platform para la personalización (Beta)](using/personalization/lookup-aep-data.md)
-      + Trabajo con el editor de personalización {#expression-editor}
-         + [Acerca del editor de personalización](using/personalization/personalization-build-expressions.md)
-         + [Adición de atributos a favoritos](using/personalization/personalization-favorites.md)
-         + [Usar fragmentos de expresión](using/personalization/use-expression-fragments.md)
-         + [Validación de personalización](using/personalization/personalization-validation.md)
-      + Funciones de ayuda{#functions}
+      + [Reutilizar fragmentos de expresiones](using/personalization/use-expression-fragments.md)
+      + [Usar datos de Adobe Experience Platform para personalización (Beta)](using/personalization/lookup-aep-data.md)
+      + Lista de funciones de ayuda {#functions}
          + [Introducción a las funciones de ayuda](using/personalization/functions/functions.md)
          + [Funciones de agregación](using/personalization/functions/aggregation.md)
          + [Funciones aritméticas](using/personalization/functions/arithmetic-functions.md)
