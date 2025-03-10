@@ -5,10 +5,10 @@ title: Introducción a las campañas de varios pasos
 description: Obtenga información sobre cómo empezar con campañas de varios pasos
 hide: true
 hidefromtoc: true
-source-git-commit: a0bdab445a53521be621ce4ace390f83964a0c79
+source-git-commit: f8c7d2a21f87f558e3bf8ee3da7a46abda97326b
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 25%
+source-wordcount: '419'
+ht-degree: 26%
 
 ---
 
@@ -21,17 +21,12 @@ Las campañas de varios pasos mejoran Adobe Journey Optimizer al introducir func
 
 **Tabla de contenido**
 
-* Introducción a las campañas de varios pasos
-* [Principios clave](gs-campaign-creation.md)
-* [Mecanismos de protección y limitaciones](guardrails.md)
-* [Creación de la campaña](create-ms-campaign.md)
-* [Organización de actividades](orchestrate-activities.md)
-* [Configuración de la campaña](ms-campaign-settings.md)
+* [Principios clave](gs-campaign-creation.md) - [Protecciones y limitaciones](guardrails.md)
+* [Crear una campaña](create-ms-campaign.md) - [Configurar la configuración de la campaña](ms-campaign-settings.md)
 * [Inicio y monitorización de campañas](start-monitor-campaigns.md)
-* [Variables de evento en campañas de varios pasos](event-variables.md)
-* Trabajo con actividades de campaña de varios pasos
-   * [Introducción a las actividades](activities/about-activities.md)
-   * Lista de actividades: [And-join](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Acciones de canal](activities/channels.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Cargar archivo](activities/load-file.md) - [Reconciliación](activities/reconciliation.md) - [Guardar audiencia](activities/save-audience.md) - [Programador](activities/scheduler.md) - [División](activities/split.md) - [Prueba](activities/test.md) - [Actualización de datos](activities/update-data.md) - [Espera](activities/wait.md)
+* [Variables de eventos](event-variables.md)
+* [Introducción a las actividades](activities/about-activities.md) - [Organizar actividades](orchestrate-activities.md)
+* Lista de actividades: [And-join](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Acciones de canal](activities/channels.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Cargar archivo](activities/load-file.md) - [Reconciliación](activities/reconciliation.md) - [Guardar audiencia](activities/save-audience.md) - [Programador](activities/scheduler.md) - [División](activities/split.md) - [Prueba](activities/test.md) - [Actualización de datos](activities/update-data.md) - [Espera](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
