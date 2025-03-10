@@ -1,5 +1,5 @@
 ---
-title: Crear y administrar directivas de aprobación
+title: Creación y administración de políticas de aprobación
 description: Obtenga información sobre cómo crear y administrar directivas de aprobación.
 role: User
 level: Beginner
@@ -8,11 +8,11 @@ exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# Crear y administrar directivas de aprobación {#approval-policies}
+# Creación y administración de políticas de aprobación {#approval-policies}
 
 
 >[!CONTEXTUALHELP]
