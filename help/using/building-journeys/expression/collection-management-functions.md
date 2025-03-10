@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: consulta, colecciones, funciones, carga útil, recorrido
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 1ba767ba8d2ecaabc17b717a983e7ad285dd52bb
+source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 El lenguaje de expresión también introduce un conjunto de funciones para consultar colecciones.
 
-Estas funciones se explican a continuación. En los ejemplos siguientes, vamos a utilizar la carga útil de evento que contiene una colección:
+Estas funciones se explican a continuación. En el siguiente ejemplo, usemos la carga útil de evento que contiene una colección:
 
 ```json
                 { 
