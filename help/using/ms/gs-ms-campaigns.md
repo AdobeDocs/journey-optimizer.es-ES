@@ -5,13 +5,13 @@ title: Introducción a las campañas de varios pasos
 description: Obtenga información sobre cómo empezar con campañas de varios pasos
 hide: true
 hidefromtoc: true
-source-git-commit: f8c7d2a21f87f558e3bf8ee3da7a46abda97326b
+exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
+source-git-commit: 040635e03fe4fa0542eeddbc0a2b87c6c838d339
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 26%
 
 ---
-
 
 # Introducción a las campañas de varios pasos {#ms-camp}
 
@@ -31,7 +31,7 @@ Las campañas de varios pasos mejoran Adobe Journey Optimizer al introducir func
 >[!ENDSHADEBOX]
 
 
-## ¿Qué son las campañas de varios pasos?
+## ¿Qué es una campaña de varios pasos?
 
 El marketing multicanal es esencial para cualquier empresa que busque llegar a sus clientes de forma eficaz. Adobe Journey Optimizer proporciona un entorno gráfico completo que le permite diseñar procesos complejos que pueden ayudarle a administrar sus campañas de marketing con facilidad. Con las campañas de varios pasos, puede orquestar la gama completa de procesos y tareas, mejorar la velocidad y la escala de cada aspecto de sus campañas de marketing, desde la creación de segmentos y la preparación de mensajes hasta la entrega. Además, puede sincronizar sus canales con una interfaz única y fácil de usar para la orquestación de campañas.
 
