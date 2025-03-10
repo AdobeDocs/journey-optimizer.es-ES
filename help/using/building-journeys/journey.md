@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
@@ -28,15 +28,15 @@ Utilice [!DNL Journey Optimizer] para crear casos de uso de orquestación en tie
 
 * Con el **diseñador de recorridos**, genere sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de lectura de público, agregue condiciones y envíe mensajes personalizados.
 
-El diseñador de recorridos de Journey Optimizer proporciona todo lo que los especialistas en marketing y en recorrido necesitan para orquestar recorridos 1:1 de varios pasos en todos los canales. Esto incluye un lienzo intuitivo de arrastrar y soltar para organizar cada paso del recorrido, definir la audiencia de destino e incluir los mensajes, ofertas y contenido en todos los canales que verán los miembros de la audiencia de destino en función del comportamiento, los datos contextuales y los eventos empresariales.
+El diseñador de recorridos de Journey Optimizer proporciona todo lo que los especialistas en marketing y en recorrido necesitan para orquestar recorridos 1:1 de varios pasos en todos los canales. Esto incluye un lienzo intuitivo de arrastrar y soltar para organizar cada paso del recorrido, definir el público destinatario e incluir los mensajes, ofertas y contenido en todos los canales que verán los miembros de la audiencia de destino en función del comportamiento, los datos contextuales y los eventos empresariales.
 
-Aprenda a crear y diseñar su primer recorrido en [esta página](journey-gs.md).
+Aprenda a crear y diseñar el primer recorrido en [esta página](journey-gs.md).
 
 ➡️ [Descubra Journey Optimizer en vídeo](#video)
 
 ## Casos de uso{#uc-journey}
 
-Desde el diseñador de recorrido, los especialistas en marketing pueden enviar mensajes 1:1 activados en tiempo real a través de cualquier canal cuando se produce un evento. Por ejemplo, cuando un cliente se suscribe a un servicio, puede [enviar en déclencheur un correo electrónico de bienvenida](message-to-subscribers-uc.md), alentándolo a iniciar sesión en la aplicación por primera vez y establecer sus preferencias. Acciones como completar la compra, abrir el correo electrónico e iniciar sesión en la aplicación se pueden utilizar para hacer avanzar nuevos clientes a través de sus recorridos.
+Desde el diseñador de recorrido, los especialistas en marketing pueden enviar mensajes 1:1 activados en tiempo real a través de cualquier canal cuando se produce un evento. Por ejemplo, cuando un cliente se suscribe a un servicio, puede [enviar un correo electrónico de bienvenida](message-to-subscribers-uc.md), alentándolo a iniciar sesión en la aplicación por primera vez y establecer sus preferencias. Acciones como completar la compra, abrir el correo electrónico e iniciar sesión en la aplicación se pueden utilizar para hacer avanzar nuevos clientes a través de sus recorridos.
 
 El [diseñador de recorridos](using-the-journey-designer.md) proporciona [acciones de canal integradas](journeys-message.md) que admiten mensajes salientes, como correos electrónicos, notificaciones push y SMS/MMS, así como canales entrantes, incluidas aplicaciones móviles, sitios web y experiencias basadas en código creadas directamente en Journey Optimizer. También puede usar sistemas de terceros para enviar mensajes, ya sea por correo electrónico, texto u otros canales, Journey Optimizer incluye [acciones personalizadas](using-custom-actions.md) para permitir que estos sistemas se integren en los recorridos directamente desde el diseñador de recorrido.
 

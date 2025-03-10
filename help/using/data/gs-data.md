@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción a la administración de datos en Journey Optimizer
+title: Introducción a la gestión de datos en Journey Optimizer
 description: Obtenga información sobre cómo trabajar con datos en Journey Optimizer
 feature: Journeys
 topic: Content Management
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: datos, administración, plataforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Todos los datos se consideran propiedad de los clientes y solo pueden mantenerse
 
 Puede usar la flexibilidad de datos de [!DNL Journey Optimizer] para satisfacer sus requisitos específicos relacionados con la retención, el archivado o la eliminación de datos:
 
-* **Extracción/exportación de datos**: puede iniciar la extracción de los datos de origen en cualquier momento mediante la API de acceso a datos sin penalizaciones ni retrasos. La [API de acceso a datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-access/api){target="_blank"} proporciona a los usuarios una interfaz RESTful centrada en la detección y accesibilidad de conjuntos de datos ingeridos dentro de [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Extracción/exportación de datos**: puede iniciar la extracción de los datos de origen en cualquier momento mediante la API de acceso a datos sin penalizaciones ni retrasos. La [API de acceso a datos](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=es){target="_blank"} proporciona a los usuarios una interfaz RESTful centrada en la detección y accesibilidad de conjuntos de datos ingeridos dentro de [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
   Tenga en cuenta que el contenido utilizado en recorridos o campañas no se puede extraer mediante los métodos API o Destino mencionados anteriormente.
 
@@ -77,7 +77,7 @@ Puede usar la flexibilidad de datos de [!DNL Journey Optimizer] para satisfacer 
 
 * **Depuraciones y mecanismos de archivado**: la depuración de datos y el archivado se pueden definir y automatizar libremente en [!DNL Adobe Journey Optimizer] para automatizar las políticas de retención de datos. Es posible definir diferentes estrategias de caducidad para las distintas entidades de datos. También se pueden definir mecanismos de exportación para exportar automáticamente los datos de caducidad antes de depurarlos o archivarlos.
 
-  El espacio de trabajo Ciclo de vida de datos le permite crear y supervisar varias tareas del ciclo de vida de datos, incluida la eliminación de identidades de consumidores y la programación de caducidades de conjuntos de datos. Este espacio de trabajo está disponible con el Escudo de seguridad y privacidad y con el Escudo de atención sanitaria. Obtenga más información en [esta página](../privacy/data-hygiene.md).
+  El espacio de trabajo Ciclo de vida de datos le permite crear y supervisar varias tareas de ciclo de vida de datos, incluida la eliminación de identidades de consumidores y la programación de la caducidad de conjuntos de datos. Este espacio de trabajo está disponible con el Escudo de seguridad y privacidad y con el Escudo de atención sanitaria. Obtenga más información en [esta página](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
