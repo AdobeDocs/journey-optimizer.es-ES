@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+source-git-commit: ff31c69255e6d4e0762a57430f112c92f34191c3
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2280'
 ht-degree: 96%
 
 ---
@@ -483,7 +483,6 @@ ht-degree: 96%
       + [Introducción a la toma de decisiones](using/experience-decisioning/gs-experience-decisioning.md)
       + [Limitaciones y protecciones de decisiones](using/experience-decisioning/decisioning-guardrails.md)
       + Referencia de la API{#api-reference}
-         + Crear y administrar elementos de oferta {#create-manage}
          + Elementos de decisión{#decision-items}
             + [Creación de elementos de decisión](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [Lista de elementos de decisión](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
