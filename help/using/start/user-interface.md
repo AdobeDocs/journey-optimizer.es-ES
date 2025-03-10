@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
+source-git-commit: 3e9392d65bc4a5cbbb95ed27350c6de56edcbf18
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 96%
+source-wordcount: '1366'
+ht-degree: 95%
 
 ---
 
@@ -248,3 +248,8 @@ Para cambiar el idioma:
 >id="ajo_exd_placements"
 >title="Ubicación"
 >abstract="Una ubicación determina dónde aparecen los elementos devueltos por el motor de decisión en un mensaje. Puede realizar un seguimiento de su rendimiento en diferentes ubicaciones en la creación de informes."
+
+>[!CONTEXTUALHELP]
+>id="ajo_express_menu"
+>title="Integración de Adobe Express"
+>abstract="Adobe Express"
