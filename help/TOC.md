@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 170dd966ae9fe9721a92bdebccd76305ad6fa1dc
 workflow-type: tm+mt
 source-wordcount: '2251'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -168,8 +168,8 @@ ht-degree: 89%
       + Casos de uso técnicos {#technical-use-cases}
          + [Paso de colecciones de forma dinámica mediante acciones personalizadas](using/building-journeys/collections.md)
          + [Aumento de envíos](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Limitar el rendimiento con fuentes de datos externas y acciones personalizadas](using/building-journeys/limit-throughput.md)
-         + [Utilice acciones personalizadas para escribir eventos de recorrido en Experience Platform](using/building-journeys/custom-action-aep.md)
+         + [Limitación del rendimiento con fuentes de datos externas y acciones personalizadas](using/building-journeys/limit-throughput.md)
+         + [Utilice acciones personalizadas para escribir los eventos de recorrido en Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campañas de varios pasos {#ms-campaigns}
    + [Introducción a las campañas de varios pasos](using/ms/gs-ms-campaigns.md)
    + Cree su primera campaña de varios pasos {#create-ms-campaign}
@@ -210,8 +210,8 @@ ht-degree: 89%
    + [Asignar puntuaciones de prioridad](using/conflict-prioritization/priority-scores.md)
    + [Límite y arbitraje de recorrido](using/conflict-prioritization/journey-capping.md)
 + Prueba y aprobación {#test}
-   + Previsualizar y probar contenido {#preview-test}
-      + [Introducción a vista previa y pruebas](using/content-management/preview-test.md)
+   + Vista previa y prueba del contenido {#preview-test}
+      + [Introducción a la vista previa y prueba](using/content-management/preview-test.md)
       + [Seleccionar perfiles de prueba](using/content-management/test-profiles.md)
       + [Vista previa del contenido](using/content-management/preview.md)
       + [Envío de pruebas de correo electrónico](using/content-management/proofs.md)
@@ -220,7 +220,7 @@ ht-degree: 89%
       + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
    + Aprobación de recorridos y campañas {#approve}
       + [Introducción a las aprobaciones](using/test-approve/gs-approval.md)
-      + [Crear y administrar directivas de aprobación](using/test-approve/approval-policies.md)
+      + [Creación y administración de políticas de aprobación](using/test-approve/approval-policies.md)
       + [Solicitud de aprobación](using/test-approve/request-approval.md)
       + [Aprobación de una solicitud](using/test-approve/review-approve-request.md)
 + Canales de comunicación {#channels}
@@ -266,7 +266,7 @@ ht-degree: 89%
       + [Introducción a las notificaciones push](using/push/get-started-push.md)
       + [Crear una notificación push](using/push/create-push.md)
       + [Diseño de la notificación push](using/push/design-push.md)
-      + [Compruebe y envíe su notificación push](using/push/send-push.md)
+      + [Comprobación y envío de la notificación push](using/push/send-push.md)
       + Configuración de notificaciones push{#push-config}
          + [Flujo de notificaciones push](using/push/push-gs.md)
          + [Configurar el canal de notificaciones push](using/push/push-configuration.md)
@@ -274,7 +274,7 @@ ht-degree: 89%
    + Canal de SMS/MMS{#sms}
       + [Introducción a la mensajería de texto](using/sms/get-started-sms.md)
       + [Creación de un mensaje de texto (SMS/MMS)](using/sms/create-sms.md)
-      + [Compruebe y envíe sus mensajes de texto](using/sms/send-sms.md)
+      + [Comprobación y envío de los mensajes de texto](using/sms/send-sms.md)
       + [Administración de la exclusión de mensajes de texto](using/sms/sms-opt-out.md)
       + [Configuración de subdominios de SMS](using/sms/sms-subdomains.md)
       + Configuración de canal de SMS/MMS{#configure-sms}
@@ -287,7 +287,7 @@ ht-degree: 89%
    + Correo directo {#direct-mail}
       + [Introducción al correo directo](using/direct-mail/get-started-direct-mail.md)
       + [Creación de un correo directo](using/direct-mail/create-direct-mail.md)
-      + [Comprobación y envío de un mensaje de correo postal](using/direct-mail/test-send-direct-mail.md)
+      + [Prueba y envío de un mensaje de correo directo](using/direct-mail/test-send-direct-mail.md)
       + [Configuración del correo directo](using/direct-mail/direct-mail-configuration.md)
    + Canal web {#web}
       + [Introducción al canal web](using/web/get-started-web.md)
@@ -400,7 +400,7 @@ ht-degree: 89%
       + [Introducción al contenido dinámico](using/personalization/get-started-dynamic-content.md)
       + [Creación de reglas condicionales](using/personalization/create-conditions.md)
       + [Crear contenido dinámico](using/personalization/dynamic-content.md)
-+ Audiencias, perfiles e identidad{#audiences-profiles-identities}
++ Públicos, perfiles e identidad{#audiences-profiles-identities}
    + Públicos {#audiences}
       + [Introducción a los públicos](using/audience/about-audiences.md)
       + Creación de públicos {#create}
@@ -536,14 +536,14 @@ ht-degree: 89%
             + [Modelo de optimización automática](using/offers/ranking/auto-optimization-model.md)
             + [Modelo de optimización personalizado](using/offers/ranking/personalized-optimization-model.md)
             + [Creación de modelos de IA](using/offers/ranking/create-ranking-strategies.md)
-      + Crear y administrar ofertas {#managing-offers-in-the-offer-library}
+      + Creación y administración de ofertas {#managing-offers-in-the-offer-library}
          + Configurar ofertas {#configure-offers}
             + [Creación de ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
             + [Añadir representaciones](using/offers/offer-library/add-representations.md)
             + [Añadir restricciones](using/offers/offer-library/add-constraints.md)
          + [Crear ofertas de reserva](using/offers/offer-library/creating-fallback-offers.md)
          + [Crear colecciones](using/offers/offer-library/creating-collections.md)
-      + Crear y administrar decisiones {#create-manage-activities}
+      + Creación y administración de decisiones {#create-manage-activities}
          + [Crear decisiones](using/offers/offer-activities/create-offer-activities.md)
          + [Configurar selección de ofertas en decisiones](using/offers/offer-activities/configure-offer-selection.md)
          + [Creación de simulaciones](using/offers/offer-activities/simulation.md)
@@ -552,7 +552,7 @@ ht-degree: 89%
          + [Introducción a la recopilación de datos](using/offers/data-collection/data-collection.md)
          + [Crear un conjunto de datos para recopilar eventos](using/offers/data-collection/create-dataset.md)
          + [Configurar la captura de eventos](using/offers/data-collection/schema-requirement.md)
-      + Aprovechar datos de contexto {#context-data}
+      + Uso de datos de contexto {#context-data}
          + [Introducción a los datos de contexto](using/offers/context-data.md)
          + [Datos de contexto y solicitudes de Edge Decisioning](using/offers/context-data-edge.md)
          + [Solicitud de datos de contexto y toma de decisiones](using/offers/context-data-decisioning.md)
@@ -568,7 +568,7 @@ ht-degree: 89%
          + [Conjunto de datos de reserva](using/offers/export-catalog/export-fallback.md)
       + Referencia de API {#api-reference}
          + [Introducción](using/offers/api-reference/getting-started.md)
-         + Crear y administrar ofertas mediante las API {#offers-api}
+         + Creación y administración de ofertas mediante las API {#offers-api}
             + Ubicaciones {#placements}
                + [Enumerar ubicaciones](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [Buscar una ubicación](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -720,8 +720,8 @@ ht-degree: 89%
       + Configuración de la acción {#action-journeys}
          + [Introducción a las acciones personalizadas](using/action/action.md)
          + [Configuración de una acción personalizada](using/action/about-custom-action-configuration.md)
-         + [Solución de problemas de una acción personalizada](using/action/troubleshoot-custom-action.md)
-         + [Uso de respuestas de llamadas de API en acciones personalizadas](using/action/action-response.md)
+         + [Resolución de una acción personalizada](using/action/troubleshoot-custom-action.md)
+         + [Uso de respuestas de llamadas API en acciones personalizadas](using/action/action-response.md)
          + [Integrar con Adobe Campaign Standard](using/action/acs-action.md)
          + [Integración con las versiones 7 y 8 de Adobe Campaign](using/action/acc-action.md)
          + [Integración con Marketo Engage](using/action/marketo-engage.md)
@@ -733,7 +733,7 @@ ht-degree: 89%
       + [Funciones integradas](using/administration/ootb-product-profiles.md)
       + [Permisos integrados](using/administration/ootb-permissions.md)
       + [Niveles de permisos](using/administration/high-low-permissions.md)
-   + [Administrar usuarios y funciones](using/administration/permissions.md)
+   + [Administración de usuarios y funciones](using/administration/permissions.md)
    + [Control de acceso basado en atributos](using/administration/attribute-based-access.md)
    + [Control de acceso de nivel de objeto](using/administration/object-based-access.md)
    + [Administración de zonas protegidas](using/administration/sandboxes.md)
@@ -741,9 +741,9 @@ ht-degree: 89%
    + [Introducción a la privacidad](using/privacy/get-started-privacy.md)
    + [Solicitudes de privacidad](using/privacy/requests.md)
    + [Acciones de auditoría en recursos](using/privacy/audit-logs.md)
-   + [Realizar operaciones del ciclo vital de datos](using/privacy/data-hygiene.md)
+   + [Realizar operaciones de ciclo de vida de datos](using/privacy/data-hygiene.md)
    + Administración del consentimiento {#consent}
       + [Administración de la exclusión](using/privacy/opt-out.md)
       + [Trabajar con políticas de consentimiento](using/action/consent.md)
    + [Gobernanza de datos](using/action/action-privacy.md)
-   + [Configuración y administración de claves gestionadas por el cliente](using/privacy/cmk.md)
+   + [Configurar y administrar claves administradas por el cliente](using/privacy/cmk.md)

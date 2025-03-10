@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
 source-wordcount: '6222'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -33,10 +33,10 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Se han actualizado, mejorado y movido a una nueva página dedicada la documentación de **[!UICONTROL optimización del tiempo de envío]** y sus preguntas frecuentes relacionadas. [Más información](../building-journeys/send-time-optimization.md)
 * Se han añadido nuevos mecanismos de protección a los eventos de recorridos. [Más información](../start/guardrails.md#events-g)
 * Se ha reorganizado la página de acciones de canal integradas. [Más información](../building-journeys/journeys-message.md)
-* Se han añadido protecciones y limitaciones en las secciones de Toma de decisiones y Administración de decisiones.
+* Se han añadido protecciones y limitaciones en las secciones de toma de decisiones y gestión de decisiones.
    * [Limitaciones y protecciones de decisiones](../experience-decisioning/decisioning-guardrails.md)
-   * [Limitaciones y protecciones de gestión de decisiones](../offers/decision-management-guardrails.md)
-* Se ha añadido una nueva sección sobre datos de contexto en la documentación de gestión de decisiones. Proporciona información sobre cómo aprovechar los datos de contexto en el motor de decisión, por ejemplo para diseñar una regla de decisión que requiera que el clima actual sea de ≥80 grados en el momento en que se realice la solicitud de decisión. [Más información](../offers/context-data.md)
+   * [Limitaciones y mecanismos de protección de gestión de decisiones](../offers/decision-management-guardrails.md)
+* Se ha añadido una nueva sección sobre datos de contexto en la documentación de gestión de decisiones. Proporciona información sobre cómo aprovechar los datos de contexto en el motor de decisión, por ejemplo, para diseñar una regla de decisión que requiera que el clima actual sea de ≥80 grados en el momento en que se realice la solicitud de decisión. [Más información](../offers/context-data.md)
 
 ## Enero de 2025 {#jan-2025}
 
@@ -135,7 +135,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
    * E: método abreviado utilizado para activar un evento en un recorrido basado en eventos.
    * P: método abreviado para activar un evento en un recorrido basado en el público para el cual la opción Un solo perfil a la vez está activada.
    * L: acceso directo designado para mostrar los registros de prueba.
-* La página Reglas de frecuencia de mensaje se ha actualizado con una nueva subsección sobre el límite de frecuencia diario, que está disponible bajo demanda además del límite semanal o mensual.
+* La página Reglas de frecuencia de mensaje se ha actualizado con una nueva subsección sobre el límite de frecuencia diario, que está disponible bajo demanda además del límite semanal o mensual. 
 * Se ha mejorado y actualizado la página Trabajar con directivas de consentimiento con vínculos útiles a la documentación del Experience Platform. [Más información](../action/consent.md)
 * Se ha añadido una nueva sección para reflejar el hecho de que puede mostrar plantillas de contenido de correo electrónico de HTML como miniaturas con el modo de vista de cuadrícula (disponibilidad limitada). [Más información](../content-management/content-templates.md#template-thumbnails)
 * Se ha añadido una nueva sección en la página Entregabilidad para explicar qué son los bucles de comentarios y cómo aprovecharlos. [Más información](../reports/deliverability.md#feedback-loops)
@@ -152,7 +152,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Se ha actualizado la lista de funciones disponibles en el editor de expresiones avanzadas. [Más información](../building-journeys/expression/functions.md)
 * Se ha actualizado la página de la función Split. [Más información](../building-journeys/functions/functioninaudience.md)
 * Se ha añadido información sobre el impacto de la inclusión o la exclusión de notificaciones push en los mensajes en la aplicación. [Más información](../in-app/create-in-app.md)
-* La página Reglas de frecuencia de mensaje se ha actualizado para reflejar las opciones de Duración disponibles en la interfaz de usuario (semanal o mensual).
+* La página de reglas de frecuencia de mensaje se ha actualizado para reflejar las opciones de Duración disponibles en la interfaz de usuario (semanal o mensual). 
 * La sección Editar un registro PTR se ha actualizado para aclarar el hecho de que los registros PTR no se pueden crear manualmente y de que debe editar los registros PTR para asignarles nuevos subdominios. [Más información](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Enero de 2024 {#jan-2024}
@@ -350,7 +350,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 ## Agosto de 2022 {#august-2022}
 
 * Todas las nuevas funciones y mejoras incluidas en la versión de agosto de 2022 de [!DNL Journey Optimizer] se han incluido en la documentación. [Más información](release-notes.md)
-* La sección de reglas de frecuencia se ha actualizado para reflejar el nuevo flujo de mensajería en línea.
+* La sección de reglas de frecuencia se ha actualizado para reflejar el nuevo flujo de mensajería en línea. 
 * Ahora se hace referencia a un vídeo que muestra cómo configurar suscripciones y crear páginas de aterrizaje en la sección Introducción a las páginas de aterrizaje. [Más información](../landing-pages/get-started-lp.md#video)
 * Se ha añadido una limitación para los recorridos que utilizan actividades Leer público. [Más información](../building-journeys/read-audience.md)
 * Se ha mejorado la página de operadores del editor de expresiones. [Más información](../building-journeys/expression/operators.md)

@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
 workflow-type: tm+mt
 source-wordcount: '2346'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -35,12 +35,12 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 
 ## Mecanismos de protección de los conjuntos de datos {#datasets-guardrails}
 
-A partir de febrero de 2025, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en **nuevos entornos limitados y nuevas organizaciones** de la siguiente manera:
+A partir de febrero de 2025, se implementará gradualmente un mecanismo de protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en las **nuevas zonas protegidas y organizaciones** de la siguiente manera:
 
-* 90 días para datos en el almacén de perfiles,
-* 13 meses para los datos del lago de datos.
+* 90 días para los datos en el almacén de perfiles,
+* 13 meses para los datos en el lago de datos.
 
-Este cambio se implementará en **zonas protegidas de clientes existentes** en una fase posterior. [Obtenga más información sobre las protecciones de tiempo de vida (TTL) de los conjuntos de datos](../data/datasets-ttl.md)
+Este cambio se implementará en las **zonas protegidas de clientes existentes** en una fase posterior. [Obtenga más información sobre las protecciones de tiempo de vida (TTL) de los conjuntos de datos](../data/datasets-ttl.md)
 
 ## Protecciones de canales {#channel-guardrails}
 
@@ -57,11 +57,11 @@ Este cambio se implementará en **zonas protegidas de clientes existentes** en u
 
 ### Protecciones de canal web {#web-guardrails}
 
-Las campañas web de [!DNL Journey Optimizer] se dirigen a nuevos perfiles que no han interactuado anteriormente en otros canales. Esto aumentará el recuento total de perfiles atractivos, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles atractivos que ha adquirido.
+Las campañas web de [!DNL Journey Optimizer] se dirigen a nuevos perfiles que no han interactuado anteriormente en otros canales. Esto aumentará el recuento total de perfiles con los que es posible interactuar, lo que puede tener costes si se supera el número contractual de perfiles adquiridos. 
 
 Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-### Protecciones de canal basadas en código {#code-based-guardrails}
+### Protecciones de canal basado en código {#code-based-guardrails}
 
 Para usar acciones de experiencia basadas en código en [!DNL Journey Optimizer] y entregar carga útil de contenido de código que puedan usar las aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
 
@@ -87,12 +87,12 @@ Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios
 
 Puede publicar hasta 10 composiciones de público en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
 
-## Protecciones de toma de decisiones y gestión de decisiones {#decisioning-guardrails}
+## Mecanismos de protección de gestión de decisiones y toma de decisiones {#decisioning-guardrails}
 
-Las protecciones y limitaciones que se deben tener en cuenta al trabajar con Decisioning o Administración de decisiones se detallan en estas secciones de Decisioning y Administración de decisiones:
+Las protecciones y limitaciones que se deben tener en cuenta al trabajar con toma de decisiones o gestión de decisiones se detallan en estas secciones de toma de decisiones y gestión de decisiones:
 
 * [Limitaciones y protecciones de decisiones](../experience-decisioning/decisioning-guardrails.md)
-* [Limitaciones y protecciones de gestión de decisiones](../offers/decision-management-guardrails.md)
+* [Limitaciones y mecanismos de protección de gestión de decisiones](../offers/decision-management-guardrails.md)
 
 
 ## Mecanismos de protección de recorridos {#journeys-guardrails}
@@ -220,4 +220,4 @@ Especifique protecciones específicas de la actividad **[!UICONTROL Saltar]**. S
 Los siguientes mecanismos de protección se aplican a las actividades **[!UICONTROL Campaign v7/v8]** y **[!UICONTROL Campaign Standard]**:
 
 * Las actividades de Adobe Campaign no se pueden utilizar con un público de lectura o una actividad de calificación de público.
-* Las actividades de Campaign no se pueden utilizar con las actividades de otros canales: Tarjeta, Experiencia basada en código, Correo electrónico, Push, SMS, Mensajes en la aplicación, Web.
+* Las actividades de la campaña no se pueden utilizar con las actividades de otros canales: Tarjeta, Experiencia basada en código, Correo electrónico, Push, SMS, Mensajes en la aplicación, Web.

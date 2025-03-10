@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 3e9392d65bc4a5cbbb95ed27350c6de56edcbf18
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ Los conceptos clave al examinar la interfaz de usuario son habituales en Adobe E
 
 >[!NOTE]
 >
->* Los componentes y las funciones disponibles en su entorno dependen de sus [permisos](../administration/permissions.md) y de su [paquete de licencias](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Para cualquier pregunta, póngase en contacto con el administrador de éxito del cliente de Adobe o con su representante de Adobe.
+>* Los componentes y las funciones disponibles en el entorno dependen de los [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Para cualquier pregunta, póngase en contacto con Adobe Customer Success Manager o su representante de Adobe.
 >
 >* Esta documentación se actualiza con frecuencia para reflejar los cambios recientes en la interfaz de usuario del producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz de usuario que ve.
 >
@@ -122,7 +122,7 @@ Controle la administración de la privacidad y las solicitudes desde esta secci�
 
 * **[!UICONTROL Auditoría]**: vaya a esta sección para comprobar los registros de actividad. [Más información](../privacy/audit-logs.md)
 
-* **[!UICONTROL Ciclo de vida de datos]**: esta sección le permite configurar y programar operaciones del ciclo de vida de datos para garantizar que los registros se mantengan correctamente. [Más información](../privacy/data-hygiene.md)
+* **[!UICONTROL Ciclo de vida de datos]**: esta sección le permite configurar y programar operaciones de ciclo de vida de datos, lo que garantiza que sus registros se mantengan correctamente. [Más información](../privacy/data-hygiene.md)
 
 ### [!UICONTROL ADMINISTRACIÓN] {#left-nav-admin}
 
