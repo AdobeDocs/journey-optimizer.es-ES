@@ -7,9 +7,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+mini-toc-levels: 1
 keywords: expresión, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 5884a7d6307e1abf421cc41c1286ac3b538263a2
+source-git-commit: 47b8308030ca73b3383938a4be025e332265540e
 workflow-type: tm+mt
 source-wordcount: '1410'
 ht-degree: 5%
@@ -89,7 +90,7 @@ La parte izquierda de la pantalla muestra un selector de dominio que le permite 
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
->title="Autocompletar"
+>title="Completar automáticamente"
 >abstract="Alternar esta opción permite al sistema sugerir y completar automáticamente el código mientras escribe. Esta función solo está disponible para formatos HTML y Texto y admite atributos de Perfil y Contexto. Si se deshabilita mediante la opción, el editor proporcionará finalización automática de código HTML nativo en su lugar."
 
 En el espacio de trabajo central se crea la sintaxis de personalización. Para utilizar un atributo para personalizar el mensaje, localícelo en el panel de navegación izquierdo y haga clic en el botón `+` para agregarlo a la expresión.
