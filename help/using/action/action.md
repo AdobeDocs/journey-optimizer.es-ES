@@ -12,7 +12,7 @@ exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 25%
+ht-degree: 48%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
 >title="Acciones personalizadas"
->abstract="Las acciones son conexiones a través de las cuales se ofrecen experiencias personalizadas en tiempo real a clientes, como notificaciones push, correo electrónico o cualquier otro medio de participación digital de su negocio."
+>abstract="Las acciones son conexiones a través de las cuales se ofrecen experiencias personalizadas en tiempo real a los clientes, como notificaciones push, correo electrónico u otros medios de participación digital de su empresa."
 
-Las acciones son conexiones a través de las cuales se ofrecen experiencias personalizadas en tiempo real a clientes, como notificaciones push, correo electrónico o cualquier otro medio de participación digital de su negocio.
+Las acciones son conexiones a través de las cuales se ofrecen experiencias personalizadas en tiempo real a los clientes, como notificaciones push, correo electrónico u otros medios de participación digital de su empresa.
 
 
 ➡️ [Descubra esta función en vídeo](#video)

@@ -11,11 +11,11 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 15%
+ht-degree: 22%
 
 ---
 
-# Crear y administrar sus marcas {#brands}
+# Cree y administre sus marcas {#brands}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"
@@ -79,7 +79,7 @@ Para tener acceso al menú **[!UICONTROL Marcas]** en [!DNL Adobe Journey Optimi
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
 >title="Cree su marca"
->abstract="Introduzca el nombre de su marca y cargue el archivo de directrices de marca. La herramienta extraerá automáticamente los detalles clave, lo que facilita el mantenimiento de la identidad de su marca."
+>abstract="Introduzca el nombre de su marca y cargue el archivo de directrices de la marca. La herramienta extraerá automáticamente los detalles clave, lo que facilita el mantenimiento de la identidad de su marca."
 
 Para crear y administrar las directrices de marca, puede introducir los detalles usted mismo o cargar el documento de directrices de marca para que la información se extraiga automáticamente:
 
@@ -122,7 +122,7 @@ Para crear y administrar las directrices de marca, puede introducir los detalles
    * Ver marca
    * Editar
    * Duplicar
-   * Publicar
+   * Publicación
    * Cancelar publicación
    * Eliminar
 

@@ -8,7 +8,7 @@ exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 Las políticas de aprobación permiten a los administradores establecer un proceso de validación para recorridos y campañas. Este sistema describe condiciones específicas que determinan si un recorrido o una campaña requiere aprobación. Estas políticas pueden variar en complejidad, desde requerir que todas las campañas sean revisadas por un usuario o equipo en particular, hasta establecer criterios basados en quién creó la campaña.
 
-## Crear directivas de aprobación {#create-policies}
+## Creación de políticas de aprobación {#create-policies}
 
 >[!CONTEXTUALHELP]
 >id="ajo_permissions_approval_policy"
