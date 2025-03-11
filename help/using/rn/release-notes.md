@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 13bf2bca3997ff85aca619c8b610aaa0be9142f8
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '871'
 ht-degree: 86%
 
 ---
@@ -34,6 +34,8 @@ El editor de personalización de Journey Optimizer se ha actualizado con nuevas 
 * **Validación JSON en línea**: proporciona validación en tiempo real del lado del cliente para el contenido JSON a fin de acelerar la detección de errores.
 * **Completado automático para atributos de perfil y contexto**: ofrece sugerencias inteligentes para optimizar la creación de contenido.
 * **Resalte de sintaxis mejorada**: mejora la legibilidad al hacer que la estructura del código sea más distinta visualmente.
+
+![Vídeo que muestra la nueva función en el editor de Personalization](assets/do-not-localize/personalization-editor.gif)
 
 Para obtener más información, consulte la [documentación detallada](../personalization/personalization-build-expressions.md).
 
