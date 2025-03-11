@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b7cd42f89ea6fb4c0359b2be6c75202d5e1ea001
+source-git-commit: 7658448ad902e2d2d2ef73ee7f71ea2cdda8d497
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '641'
 ht-degree: 15%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 15%
 >id="ajo_create_expression_fragment"
 >title="Selección del tipo de expresión"
 >abstract="Cree un fragmento de expresión independiente para que el contenido se pueda reutilizar en varios recorridos y campañas. Al utilizar el editor de personalización, puede aprovechar todos los fragmentos de expresiones que se han creado en la zona protegida actual."
-
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Trabajo con el editor de personalización"
 
 Los fragmentos se pueden crear desde cero desde el menú de la izquierda **[!UICONTROL Fragmentos]**. Además, también puede guardar una parte del contenido existente como fragmento al diseñar contenido. [Descubra cómo](#save-as-fragment)
 
