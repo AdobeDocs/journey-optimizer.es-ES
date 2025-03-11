@@ -6,20 +6,21 @@ description: Conozca los principios clave de las campañas de varios pasos con A
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 27%
+source-wordcount: '464'
+ht-degree: 24%
 
 ---
 
 # Principios clave de la campaña orquestada {#ms-campaign-creation}
 
+>[!CONTEXTUALHELP]
+>id="ajo_targeting_workflow_list"
+>title="Campaña de varios pasos"
+>abstract="En esta pantalla, puede acceder a la lista completa de campañas de varios pasos, comprobar su estado actual, las fechas de última/siguiente ejecución y crear una nueva campaña de varios pasos."
+
 Con Adobe Journey Optimizer, puede crear campañas de varios pasos en un lienzo visual para diseñar procesos multicanal como segmentación, ejecución de campañas o procesamiento de archivos.
-
-## Creación de una consulta
-
-## Directrices de Personalization
 
 ## ¿Qué hay dentro de una campaña de varios pasos? {#gs-ms-campaign-inside}
 
@@ -43,7 +44,23 @@ Los pasos clave para crear una campaña de varios pasos son los siguientes:
 
 ![](assets/workflow-creation-process.png){zoomable="yes"}
 
-## Estados y ciclo vital
+## Acceso a campañas de varios pasos
+
+En el menú **[!UICONTROL Campañas]**, vaya a la pestaña Varios pasos para acceder a la lista completa de campañas de varios pasos.
+
+Cada campaña de varios pasos en la lista muestra información sobre su [estado](#status) actual, la última vez que se ejecutó o modificó, y la siguiente fecha y hora de ejecución programada.
+
+Puede personalizar las columnas mostradas haciendo clic en el icono **[!UICONTROL Configurar la columna para un diseño personalizado]** situado en la esquina superior derecha de la lista. Esto le permite agregar información adicional a la lista, como la última actividad con error para cada campaña de varios pasos o la dimensión de segmentación aplicada.
+
+Además, hay una barra de búsqueda y filtros disponibles para facilitar la búsqueda dentro de la lista. Por ejemplo, puede filtrar las campañas de varios pasos para mostrar solo las que pertenecen a una campaña o las procesadas durante un intervalo de fechas específico.
+
+Para duplicar o eliminar una campaña de varios pasos, haz clic en el botón de puntos suspensivos y selecciona **[!UICONTROL Duplicar]** o **[!UICONTROL Eliminar]**.
+
+>[!NOTE]
+>
+>Cuando una campaña de varios pasos está en curso, puede duplicarla, pero no puede eliminarla.
+
+## Estados y ciclo vital {#status}
 
 Las campañas pueden tener varios estados:
 
@@ -53,3 +70,7 @@ Las campañas pueden tener varios estados:
 * **[!UICONTROL En pausa]**: la campaña de varios pasos se ha pausado.
 * **[!UICONTROL Erróneo]**: la campaña de varios pasos encontró un error. Abra la campaña de varios pasos y acceda a los registros y tareas para identificar el error y resolverlo.
 
+
+## Creación de una consulta
+
+## Directrices de Personalization
