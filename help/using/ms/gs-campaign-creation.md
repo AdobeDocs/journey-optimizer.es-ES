@@ -5,21 +5,25 @@ title: Principios clave de la creación de campañas de varios pasos
 description: Conozca los principios clave de las campañas de varios pasos con Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 36%
+source-wordcount: '266'
+ht-degree: 27%
 
 ---
 
-
-# Principios clave de la creación de campañas de varios pasos {#ms-campaign-creation}
+# Principios clave de la campaña orquestada {#ms-campaign-creation}
 
 Con Adobe Journey Optimizer, puede crear campañas de varios pasos en un lienzo visual para diseñar procesos multicanal como segmentación, ejecución de campañas o procesamiento de archivos.
 
+## Creación de una consulta
+
+## Directrices de Personalization
+
 ## ¿Qué hay dentro de una campaña de varios pasos? {#gs-ms-campaign-inside}
 
-El diagrama de campaña de varios pasos es una representación de lo que se supone que debe suceder. Describe las diversas tareas que se realizan y cómo se relacionan entre sí.
+El lienzo de campaña de varios pasos es una representación de lo que se supone que debe suceder. Describe las diversas tareas que se realizan y cómo se relacionan entre sí.
 
 ![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
 
@@ -38,4 +42,14 @@ Cada campaña de varios pasos contiene:
 Los pasos clave para crear una campaña de varios pasos son los siguientes:
 
 ![](assets/workflow-creation-process.png){zoomable="yes"}
+
+## Estados y ciclo vital
+
+Las campañas pueden tener varios estados:
+
+* **[!UICONTROL Borrador]**: la campaña de varios pasos se ha creado y guardado.
+* **[!UICONTROL En curso]**: la campaña de varios pasos se está ejecutando.
+* **[!UICONTROL Finalizado]**: la ejecución de la campaña de varios pasos ha finalizado.
+* **[!UICONTROL En pausa]**: la campaña de varios pasos se ha pausado.
+* **[!UICONTROL Erróneo]**: la campaña de varios pasos encontró un error. Abra la campaña de varios pasos y acceda a los registros y tareas para identificar el error y resolverlo.
 

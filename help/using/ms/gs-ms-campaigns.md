@@ -6,30 +6,28 @@ description: Obtenga información sobre cómo empezar con campañas de varios pa
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 040635e03fe4fa0542eeddbc0a2b87c6c838d339
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 26%
+source-wordcount: '404'
+ht-degree: 18%
 
 ---
 
 # Introducción a las campañas de varios pasos {#ms-camp}
 
-Las campañas de varios pasos mejoran Adobe Journey Optimizer al introducir funciones de campaña por lotes iniciadas por la marca, lo que le permite planificar y orquestar campañas en canales múltiples con estrategias de segmentación avanzadas.
-
 >[!BEGINSHADEBOX]
 
 **Tabla de contenido**
 
+* Introducción a las campañas de varios pasos
 * [Principios clave](gs-campaign-creation.md) - [Protecciones y limitaciones](guardrails.md)
-* [Crear una campaña](create-ms-campaign.md) - [Configurar la configuración de la campaña](ms-campaign-settings.md)
-* [Inicio y monitorización de campañas](start-monitor-campaigns.md)
-* [Variables de eventos](event-variables.md)
-* [Introducción a las actividades](activities/about-activities.md) - [Organizar actividades](orchestrate-activities.md)
+* Configuración: [Trabajar con esquemas](ms-schemas.md) - [Trabajar con variables de eventos](event-variables.md)
+* Introducción: [Cree una campaña orquestada](create-ms-campaign.md) - [Configure la configuración de la campaña](ms-campaign-settings.md) - [Inicie y supervise sus campañas](start-monitor-campaigns.md) - [Empiece a usar las actividades](activities/about-activities.md) - [Organice las actividades](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * Lista de actividades: [And-join](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Acciones de canal](activities/channels.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Cargar archivo](activities/load-file.md) - [Reconciliación](activities/reconciliation.md) - [Guardar audiencia](activities/save-audience.md) - [Programador](activities/scheduler.md) - [División](activities/split.md) - [Prueba](activities/test.md) - [Actualización de datos](activities/update-data.md) - [Espera](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
+Las campañas de varios pasos mejoran Adobe Journey Optimizer al introducir funciones de campaña por lotes iniciadas por la marca, lo que le permite planificar y orquestar campañas en canales múltiples con estrategias de segmentación avanzadas.
 
 ## ¿Qué es una campaña de varios pasos?
 
@@ -41,12 +39,10 @@ Las campañas de varios pasos son increíblemente versátiles y se pueden utiliz
 
 Con un entorno gráfico completo, puede diseñar procesos como la segmentación, la ejecución de campañas o el procesamiento de archivos. Las campañas de varios pasos también pueden incluir usuarios asignándoles tareas o haciendo que aprueben tareas realizadas, lo que facilita la administración del trabajo de su equipo y la garantía de que todo se haga correctamente.
 
-A continuación se muestran algunos ejemplos de cómo puede utilizar campañas de varios pasos en Adobe Journey Optimizer:
 
-* Inicie una campaña de seguimiento para clientes inactivos,
-* Envíe un correo electrónico de bienvenida a todos los nuevos suscriptores de un servicio,
-* Personalice los envíos multicanal en función del estado del programa de fidelidad de los clientes o los puntos de interés.
+## orquestación de recorrido y orquestación de campaña
 
+Recorridos frente a campañas: explicar las diferencias, los casos de uso y las prácticas recomendadas
 
 ## Vamos a profundizar
 

@@ -5,10 +5,11 @@ title: Creación de campañas de varios pasos con Journey Optimizer
 description: Obtenga información sobre cómo crear campañas de varios pasos con Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8c80010f-e432-48ea-87cf-af635932d26b
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 12%
+source-wordcount: '265'
+ht-degree: 15%
 
 ---
 
@@ -33,16 +34,6 @@ Para duplicar o eliminar una campaña de varios pasos, haz clic en el botón de 
 >[!NOTE]
 >
 >Puede duplicar una campaña de varios pasos en curso, pero no puede eliminarla.
-
-## Estados de los flujos de trabajo {#status}
-
-Los flujos de trabajo pueden tener varios estados:
-
-* **[!UICONTROL Borrador]**: la campaña de varios pasos se ha creado y guardado.
-* **[!UICONTROL En curso]**: la campaña de varios pasos se está ejecutando.
-* **[!UICONTROL Finalizado]**: la ejecución de la campaña de varios pasos ha finalizado.
-* **[!UICONTROL En pausa]**: la campaña de varios pasos se ha pausado.
-* **[!UICONTROL Erróneo]**: la campaña de varios pasos encontró un error. Abra la campaña de varios pasos y acceda a los registros y tareas para identificar el error y resolverlo.
 
 
 ## Plantillas de campaña de varios pasos {#templates}

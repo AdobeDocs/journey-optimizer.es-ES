@@ -1,18 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Variables de evento de campaña de varios pasos
+title: Trabajo con variables de evento en campañas de varios pasos
 description: Aprenda a aprovechar las variables de eventos en sus campañas de varios pasos
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: f86dd262-0209-42f6-a180-736f1de98d78
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '303'
 ht-degree: 17%
 
 ---
 
-# Variables de evento de campaña de varios pasos {#event-variables}
+# Trabajo con variables de evento {#event-variables}
 
 Algunas actividades de campaña de varios pasos le permiten editar scripts en el editor de expresiones para realizar acciones específicas como recuperar datos procedentes de actividades anteriores, crear condiciones o calcular nombres de archivo basados en variables de evento.
 
