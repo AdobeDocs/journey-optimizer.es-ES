@@ -6,7 +6,7 @@ description: Obtenga información sobre cómo empezar con campañas de varios pa
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
+source-git-commit: 3ecb1691cc8a1c429d9bd9919b06ddc5a316eff7
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 18%
@@ -19,8 +19,7 @@ ht-degree: 18%
 
 **Tabla de contenido**
 
-* Introducción a las campañas de varios pasos
-* [Principios clave](gs-campaign-creation.md)
+* Introducción a campañas de varios pasos: [Principios clave](gs-campaign-creation.md)
 * Configuración: [Trabajar con esquemas](ms-schemas.md) - [Trabajar con variables de eventos](event-variables.md)
 * Introducción: [Cree una campaña orquestada](create-ms-campaign.md) - [Configure la configuración de la campaña](ms-campaign-settings.md) - [Inicie y supervise sus campañas](start-monitor-campaigns.md) - [Empiece a usar las actividades](activities/about-activities.md) - [Organice las actividades](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * Lista de actividades: [And-join](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Acciones de canal](activities/channels.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Cargar archivo](activities/load-file.md) - [Reconciliación](activities/reconciliation.md) - [Guardar audiencia](activities/save-audience.md) - [Programador](activities/scheduler.md) - [División](activities/split.md) - [Prueba](activities/test.md) - [Actualización de datos](activities/update-data.md) - [Espera](activities/wait.md)
