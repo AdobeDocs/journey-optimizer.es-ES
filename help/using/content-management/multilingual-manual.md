@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
+source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 2%
@@ -30,9 +30,9 @@ Siga estos pasos para crear contenido multilingüe con traducción manual:
 
 1. [Agregar configuraciones regionales (opcional)](multilingual-locale.md)
 
-1. [Crear configuración de idioma](#create-language-settings)
+1. [Crear configuración de idioma](#language-settings)
 
-1. [Creación de contenido multilingüe](#create-a-multilingual-campaign)
+1. [Creación de contenido multilingüe](#create-multilingual-campaign)
 
 ## Crear configuración de idioma {#language-settings}
 
@@ -48,7 +48,7 @@ En esta sección, puede establecer las distintas configuraciones regionales para
 
 1. Seleccione las **[!UICONTROL configuraciones regionales]** asociadas a esta configuración. Puede agregar un máximo de 50 configuraciones regionales.
 
-   Si falta una **[!UICONTROL configuración regional]**, puede crearla manualmente de antemano desde el menú **[!UICONTROL Traducción]** o por API. Consulte [Crear nueva configuración regional](#create-locale).
+   Si falta una **[!UICONTROL configuración regional]**, puede crearla manualmente de antemano desde el menú **[!UICONTROL Traducción]** o por API. Consulte [Crear nueva configuración regional](multilingual-locale.md).
 
    ![](assets/multilingual-settings-2.png)
 
@@ -96,7 +96,7 @@ En esta sección, puede establecer las distintas configuraciones regionales para
       * En el panel derecho, seleccione &quot;Tipo de evento XDM es igual a personalización.request&quot;
       * Haga clic en el botón **[!UICONTROL Conservar cambios]** para confirmar.
 
-   3. En la sección **[!UICONTROL THEN]** de la regla, agregue una acción configurada como se muestra a continuación:
+   3. En la sección **[!UICONTROL THEN]** de la regla, agregue una acción configurada de la siguiente manera:
 
       ![](assets/multilingual-experience-events-rule-then.png)
 
@@ -155,7 +155,7 @@ Después de configurar el contenido multilingüe, está listo para crear la camp
 
    ![](assets/multilingual-campaign-2.png)
 
-1. Haga clic en **[!UICONTROL Agregar idiomas]** y seleccione la **[!UICONTROL configuración de idioma]** creada anteriormente. [Más información](#create-language-settings)
+1. Haga clic en **[!UICONTROL Agregar idiomas]** y seleccione la **[!UICONTROL configuración de idioma]** creada anteriormente. [Más información](#language-settings)
 
    ![](assets/multilingual-campaign-3.png)
 
