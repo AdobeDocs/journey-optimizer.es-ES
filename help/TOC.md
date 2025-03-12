@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
+source-git-commit: 6097688141767e85e5180cb0e382d4d130c570f7
 workflow-type: tm+mt
-source-wordcount: '2269'
+source-wordcount: '2267'
 ht-degree: 95%
 
 ---
@@ -440,7 +440,6 @@ ht-degree: 95%
          + [Informe de campaña de tarjeta de contenido](using/reports/campaign-global-report-cja-content.md)
          + [Informe de campaña de correo directo](using/reports/campaign-global-report-cja-direct.md)
          + [Informe de campaña de correo electrónico](using/reports/campaign-global-report-cja-email.md)
-         + [Informe objetivo](using/reports/objective-report.md)
          + [Informe de campaña de experimentación](using/reports/campaign-global-report-cja-experimentation.md)
          + [Informe de campaña in-app](using/reports/campaign-global-report-cja-inapp.md)
          + [Informe de campaña de notificaciones push](using/reports/campaign-global-report-cja-push.md)
