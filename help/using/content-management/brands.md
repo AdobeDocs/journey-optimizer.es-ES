@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
+source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '640'
 ht-degree: 22%
 
 ---
@@ -37,6 +37,30 @@ ht-degree: 22%
 >title="Puntuación de alineación de marca"
 >abstract="La puntuación de alineación de marca mide en qué medida el contenido se adhiere a las directrices de la marca, lo que garantiza la coherencia en los colores, las fuentes, el logotipo, las imágenes y el estilo de escritura."
 
+>[!CONTEXTUALHELP]
+>id="ajo_brand_colors"
+>title="Puntuación de colores"
+>abstract="Puntuación de colores"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_fonts"
+>title="Puntuación de fuentes"
+>abstract="Puntuación de fuentes"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_logos"
+>title="Puntuación de logotipos"
+>abstract="Puntuación de logotipos"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_imagery"
+>title="Puntuación de imágenes"
+>abstract="Puntuación de imágenes"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_writing_style"
+>title="Puntuación de estilo de escritura"
+>abstract="Puntuación de estilo de escritura"
 
 >[!AVAILABILITY]
 >
