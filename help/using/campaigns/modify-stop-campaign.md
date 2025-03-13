@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '598'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,11 @@ Una vez activada una campaña, puede modificarla o detenerla en cualquier moment
 Además, puede duplicar campañas en directo (ejecutadas una vez o con una ejecución recurrente) para crear otras nuevas y archivar las campañas completadas o detenidas.
 
 ## Acceso a campañas {#access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="Vistas Tabla de campañas y Cronología"
+>abstract="Vistas Tabla de campañas y Cronología"
 
 Se puede acceder a las campañas desde el menú **[!UICONTROL Campañas]**.
 

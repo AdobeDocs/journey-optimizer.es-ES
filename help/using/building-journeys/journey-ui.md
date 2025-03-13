@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1134'
 ht-degree: 26%
 
 ---
@@ -20,8 +20,12 @@ ht-degree: 26%
 
 ## panel de recorrido {#dashboard-jo}
 
-En la sección de menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**. Hay dos fichas disponibles: **[!UICONTROL Información general]** y **[!UICONTROL Examinar]**.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_view"
+>title="Vistas Tabla de recorridos y Cronología"
+>abstract="Vistas Tabla de recorridos y Cronología"
 
+En la sección de menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**. Hay dos fichas disponibles: **[!UICONTROL Información general]** y **[!UICONTROL Examinar]**.
 
 * La pestaña **[!UICONTROL Información general]** muestra un panel con métricas clave relacionadas con tus recorridos.
 
@@ -35,7 +39,6 @@ En la sección de menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL
   >[!NOTE]
   >
   >Este tablero tiene en cuenta los recorridos con tráfico de las últimas 24 horas. Solo se muestran los recorridos a los que tiene acceso. Las métricas se actualizan cada 30 minutos y solo cuando hay nuevos datos disponibles.
-
 
 * La ficha **[!UICONTROL Examinar]** muestra la lista de recorridos existentes. Puede buscar recorridos, utilizarlos y realizar acciones básicas en cada elemento. Por ejemplo, puede duplicar o eliminar un elemento.
 
