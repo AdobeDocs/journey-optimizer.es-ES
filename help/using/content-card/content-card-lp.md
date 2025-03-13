@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 9ff7a378fb18c72e7fdcff3c6052dcc428f240c9
+source-git-commit: 163a4cc533b5c24e762b2be95a1f2c7dea0eea96
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 7%
@@ -24,7 +24,7 @@ Consulte las siguientes páginas de documentación para aprender a integrar tarj
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/displaying-content-cards/">
-<img alt="Buscar" src="../assets/do-not-localize/fetch.jpeg">
+<img alt="Buscar" src="assets/do-not-localize/fetch.jpeg">
 </a>
 <div><a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/displaying-content-cards/"><strong>Buscar y mostrar tarjetas de contenido</strong>
 </div>
@@ -32,7 +32,7 @@ Consulte las siguientes páginas de documentación para aprender a integrar tarj
 </td>
 <td>
 <a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/customizing-content-card-templates/">
-<img alt="Personalizar" src="../assets/do-not-localize/sms-create.jpeg">
+<img alt="Personalizar" src="assets/do-not-localize/customize.jpeg">
 </a>
 <div>
 <a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/customizing-content-card-templates/"><strong>Personalizar tarjetas de contenido</strong></a>
@@ -40,7 +40,7 @@ Consulte las siguientes páginas de documentación para aprender a integrar tarj
 <p></td>
 <td>
 <a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/listening-content-card-events/">
-<img alt="Escuchar" src="../assets/do-not-localize/customize.jpeg">
+<img alt="Escuchar" src="assets/do-not-localize/listen.jpeg">
 </a>
 <div>
 <a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/listening-content-card-events/"><strong>Escuchar eventos de tarjetas de contenido</strong></a>
