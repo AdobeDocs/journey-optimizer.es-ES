@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
+source-git-commit: 5af58cd9efc465b30386fad5dc6cd073626c3aed
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1682'
 ht-degree: 21%
 
 ---
@@ -157,9 +157,9 @@ Para definir la configuración de la página principal, siga los pasos a continu
 
    ![](assets/lp_expiry-date.png)
 
-1. En la sección **[!UICONTROL Datos adicionales]**, defina una o más claves y sus valores de parámetro correspondientes. Podrá aprovechar estas claves en el contenido de su página principal y sus subpáginas con el [editor de personalización](../personalization/personalization-build-expressions.md). Obtenga más información en [esta sección](lp-content.md#use-form-component#use-additional-data).
+<!--1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-form-component#use-additional-data).
 
-   ![](assets/lp_create-lp-additional-data.png)
+    ![](assets/lp_create-lp-additional-data.png)-->
 
 1. Si seleccionó una o más listas de suscripción al [diseñar la página principal](design-lp.md), se mostrarán en la sección **[!UICONTROL Lista de suscripción]**.
 
