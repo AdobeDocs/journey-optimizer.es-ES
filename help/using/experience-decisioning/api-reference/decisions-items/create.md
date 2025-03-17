@@ -5,17 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: e60b0eec-29bc-4411-9eab-08eaf738fc79
+source-git-commit: c5370b6bafbe20b9aa5f0e617a47ef32287aee9f
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 8%
 
 ---
 
-
 # Creación de un elemento de decisión {#create-decision-items}
 
-Puede crear un elemento de decisión realizando una solicitud del POST a la API de la biblioteca de ofertas.
+Puede crear un elemento de decisión realizando una petición POST a la API de la biblioteca de ofertas.
 
 **Formato de API**
 
@@ -82,3 +82,4 @@ Una respuesta correcta devuelve los detalles del elemento de decisión recién c
     "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
+
