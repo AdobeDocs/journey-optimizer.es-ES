@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2346'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ A partir de febrero de 2025, se implementará gradualmente un mecanismo de prote
 * 90 días para los datos en el almacén de perfiles,
 * 13 meses para los datos en el lago de datos.
 
-Este cambio se implementará en las **zonas protegidas de clientes existentes** en una fase posterior. [Obtenga más información sobre las protecciones de tiempo de vida (TTL) de los conjuntos de datos](../data/datasets-ttl.md)
+Este cambio se implementará en las **zonas protegidas de clientes existentes** en una fase posterior. [Obtenga más información sobre los mecanismos de protección de tiempo de vida (TTL) de los conjuntos de datos](../data/datasets-ttl.md)
 
 ## Protecciones de canales {#channel-guardrails}
 

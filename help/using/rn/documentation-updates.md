@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6222'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 ## Marzo de 2025 {#mar-2025}
 
-* La página acerca de los eventos de cualificación de audiencias se ha actualizado con nuevas recomendaciones. [Más información](../building-journeys/audience-qualification-events.md)
-* La capacidad de resolución de problemas de acción personalizada ya está disponible para todos los clientes (GA). [Más información](../action/troubleshoot-custom-action.md)
+* La página sobre los eventos de calificación de públicos se ha actualizado con nuevas recomendaciones. [Más información](../building-journeys/audience-qualification-events.md)
+* La capacidad de resolución de problemas de acciones personalizadas ya está disponible para todos los clientes (GA). [Más información](../action/troubleshoot-custom-action.md)
 
 ## Febrero de 2025 {#feb-2025}
 
-* Se han actualizado las protecciones de actividad &quot;Leer audiencia&quot; para especificar que solo se puede utilizar una actividad en un recorrido y que solo se puede dirigir a una audiencia. [Más información](../building-journeys/read-audience.md)
+* Se han actualizado los mecanismos de protección de la actividad “Leer público” para especificar que solo se puede utilizar una actividad en un recorrido y que se puede dirigir a un único público. [Más información](../building-journeys/read-audience.md)
 * Se han actualizado las protecciones de recorrido al utilizar actividades de Campaign. [Más información](../start/guardrails.md#ac-g)
 * Se han detallado los pasos para crear sus primeros recorridos y se han añadido vínculos a la sección de documentación. [Más información](../building-journeys/journey-gs.md)
 * Ahora hay disponible una nueva página para detallar el panel de recorrido y la interfaz de usuario de filtrado. [Más información](../building-journeys/journey-ui.md)
