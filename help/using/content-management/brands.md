@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 22%
+ht-degree: 38%
 
 ---
 
@@ -20,22 +20,22 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"
 >title="Introducción a las marcas"
->abstract="Cree y personalice sus propias marcas para definir su identidad visual y verbal única, al tiempo que facilita la generación de contenido que coincida con el estilo y la voz de su marca."
+>abstract="Cree y personalice sus propias marcas para definir su identidad visual y verbal única, al tiempo que facilita la generación de contenidos que coinciden con el estilo y la voz de su marca."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_ai_menu"
 >title="Seleccione su marca"
->abstract="Elija su marca para asegurarse de que todo el contenido generado por IA se adapte a las especificaciones y directrices de su marca."
+>abstract="Elija su marca para asegurarse de que todo el contenido generado por la IA se adapte a las especificaciones y directrices de su marca."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score_overview"
->title="Selección de marca"
+>title="Selección de la marca"
 >abstract="Seleccione su marca para asegurarse de que el contenido se crea de acuerdo con sus directrices, estándares e identidad específicos, manteniendo la coherencia y la integridad de la marca."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
->title="Puntuación de alineación de marca"
->abstract="La puntuación de alineación de marca mide en qué medida el contenido se adhiere a las directrices de la marca, lo que garantiza la coherencia en los colores, las fuentes, el logotipo, las imágenes y el estilo de escritura."
+>title="Puntuación de alineación de la marca"
+>abstract="La puntuación de alineación de su marca mide el grado de cumplimiento de su contenido con las directrices de la marca, lo que garantiza la coherencia en los colores, las fuentes, el logotipo, las imágenes y el estilo de redacción."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"

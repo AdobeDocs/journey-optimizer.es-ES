@@ -5,10 +5,11 @@ title: Uso de la actividad Enrichment
 description: Aprenda a utilizar la actividad de enriquecimiento
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 31%
+ht-degree: 39%
 
 ---
 
@@ -49,12 +50,12 @@ Siga estos pasos para configurar la actividad **Enriquecimiento**:
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="Datos de enriquecimiento"
->abstract="Seleccione los datos que desea utilizar para enriquecer la campaña de varios pasos. Se pueden seleccionar dos tipos de datos de enriquecimiento: un único atributo de enriquecimiento de la dimensión de público destinatario o un vínculo de recopilación, que es un vínculo con una cardinalidad 1-N entre las tablas."
+>abstract="Seleccione los datos que desee utilizar para enriquecer la campaña de varios pasos. Puede seleccionar dos tipos de datos de enriquecimiento: un único atributo de enriquecimiento de la dimensión de destino o un vínculo de recopilación, que es un vínculo con una cardinalidad 1-N entre las tablas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="Actividad de enriquecimiento"
->abstract="Una vez añadidos los datos de enriquecimiento a la campaña de varios pasos, se pueden utilizar en las actividades añadidas después de la actividad de enriquecimiento para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y necesidades, o para crear mensajes de marketing personalizados y campañas que tengan más probabilidades de interesar a la audiencia de destino."
+>abstract="Una vez añadidos los datos de enriquecimiento a la campaña de varios pasos, se pueden utilizar en las actividades añadidas después de la actividad Enriquecimiento para segmentar a los clientes en distintos grupos según sus comportamientos, preferencias y necesidades o bien para crear mensajes y campañas de marketing personalizados que tengan más probabilidades de resonar con el público destinatario."
 
 1. Haga clic en **Agregar datos de enriquecimiento** y seleccione el atributo que se utilizará para enriquecer los datos.
 
@@ -73,9 +74,9 @@ Siga estos pasos para configurar la actividad **Enriquecimiento**:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_simplejoin"
 >title="Definición de vínculo"
->abstract="Cree un vínculo entre los datos de la tabla de trabajo y Adobe Journey Optimizer. Por ejemplo, si carga datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, debe crear un vínculo hacia la tabla del país para actualizar esta información en sus perfiles."
+>abstract="Cree un vínculo entre los datos de la tabla de trabajo y la base de datos de Adobe Journey Optimizer. Por ejemplo, si carga datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, debe crear un vínculo con la tabla del país para poder actualizar esta información en sus perfiles."
 
-La sección **[!UICONTROL Link definition]** le permite crear un vínculo entre los datos de la tabla de trabajo y Adobe Journey Optimizer. Por ejemplo, si carga datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, debe crear un vínculo hacia la tabla del país para actualizar esta información en sus perfiles.
+La sección **[!UICONTROL Link definition]** le permite crear un vínculo entre los datos de la tabla de trabajo y Adobe Journey Optimizer. Por ejemplo, si carga datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, debe crear un vínculo con la tabla del país para poder actualizar esta información en sus perfiles.
 
 Hay varios tipos de vínculos disponibles:
 
@@ -108,9 +109,9 @@ Hay disponible un ejemplo de flujo de trabajo con vínculos en la sección [Ejem
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_reconciliation"
 >title="Reconciliación"
->abstract="La actividad **Enrichment** se puede usar para reconciliar datos del esquema de Journey Optimizer con datos de otro esquema o con datos procedentes de un esquema temporal como datos cargados mediante una actividad de archivo de carga. Este tipo de vínculo define una reconciliación hacia un registro único. Journey Optimizer crea un vínculo a una tabla de destino agregando una clave externa para almacenar una referencia al registro único."
+>abstract="La actividad **Enriquecimiento** se puede utilizar para reconciliar los datos del esquema de Journey Optimizer con los datos de otro esquema o con los datos procedentes de un esquema temporal como, por ejemplo, los datos cargados mediante una actividad Cargar archivo. Este tipo de vínculo define una reconciliación hacia un registro único. Journey Optimizer crea un vínculo a una tabla de destino añadiendo una clave externa en ella para almacenar una referencia al registro único."
 
-La actividad **Enriquecimiento** ahora se puede utilizar para reconciliar los datos del esquema de la base de datos de Campaign con los datos de otro esquema o con los datos procedentes de un esquema temporal como, por ejemplo, los datos cargados mediante una actividad Carga de archivo. Este tipo de vínculo define una reconciliación hacia un registro único. Journey Optimizer crea un vínculo a una tabla de destino agregando una clave externa para almacenar una referencia al registro único.
+La actividad **Enriquecimiento** ahora se puede utilizar para reconciliar los datos del esquema de la base de datos de Campaign con los datos de otro esquema o con los datos procedentes de un esquema temporal como, por ejemplo, los datos cargados mediante una actividad Carga de archivo. Este tipo de vínculo define una reconciliación hacia un registro único. Journey Optimizer crea un vínculo a una tabla de destino añadiendo una clave externa en ella para almacenar una referencia al registro único.
 
 Por ejemplo, puede utilizar esta opción para reconciliar el país de un perfil, especificado en un archivo cargado, con uno de los países disponibles en la tabla dedicada de la base de datos de Campaign.
 
@@ -268,4 +269,3 @@ El ejemplo siguiente muestra una campaña de varios pasos configurada para crear
 * Se agrega una segunda actividad **Enrichment** para enriquecer los datos de la tabla de campaña de varios pasos con los datos de compra procedentes de la actividad **Cargar archivo**. Esto nos permite utilizar esos datos en actividades adicionales, por ejemplo, para personalizar mensajes enviados a los clientes con información sobre su compra.
 
   ![](../assets/enrichment-uc-link-data.png)
-

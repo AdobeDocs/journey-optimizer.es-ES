@@ -5,10 +5,11 @@ title: Uso de la actividad Guardar audiencia
 description: Aprenda a utilizar la actividad Bifurcación en una campaña de varios pasos
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 84e34d21-dca1-4203-8539-f2b20e461936
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
 >title="Guardar un público"
->abstract="Utilice esta actividad para actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en la campaña de varios pasos. Los públicos creados se añaden a la lista de públicos y están disponibles en el menú **Públicos**."
+>abstract="Utilice esta actividad para actualizar un público existente o crear uno nuevo a partir de la población calculada en sentido ascendente en la campaña de varios pasos. Los públicos creados se añaden a la lista de públicos y están disponibles en el menú **Públicos**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_saveaudience_outbound"

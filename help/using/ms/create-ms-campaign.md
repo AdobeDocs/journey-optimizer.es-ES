@@ -9,16 +9,16 @@ exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 1%
+ht-degree: 19%
 
 ---
 
-# Creación de una campaña organizada {#create-first-campaign}
+# Creación de una campaña orquestada {#create-first-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="Lista de campañas de varios pasos"
->abstract="La pestaña **varios pasos** enumera toda la campaña de varios pasos. Haga clic en el nombre de una campaña de varios pasos para editarla. Use el botón **Crear campaña de varios pasos** para agregar una nueva campaña de varios pasos."
+>abstract="La pestaña **varios pasos** enumera todas las campañas de varios pasos. Haga clic en el nombre de una campaña de varios pasos para editarla. Utilice el botón **Crear campaña de varios pasos** para añadir una campaña de varios pasos."
 
 ## Requisitos previos
 
@@ -47,19 +47,19 @@ Para crear una campaña de varios pasos, siga estos pasos:
 
 La campaña de varios pasos ya está creada y disponible en la lista de flujos de trabajo. Ahora puede acceder a su lienzo visual y empezar a agregar, configurar y organizar las tareas que va a realizar. [Aprenda a organizar actividades de campañas de varios pasos](orchestrate-activities.md).
 
-## Uso de plantillas de campaña de varios pasos {#campaign-templates}
+## Uso de plantillas de campañas de varios pasos {#campaign-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_for_campaign"
->title="Plantillas de campaña de varios pasos"
->abstract="Las plantillas de campaña de varios pasos contienen configuraciones y actividades preconfiguradas que se pueden reutilizar para crear una nueva campaña de varios pasos."
+>title="Plantillas de campañas de varios pasos"
+>abstract="Las plantillas de campañas de varios pasos contienen ajustes y actividades preconfiguradas que se pueden reutilizar para crear nuevas campañas de varios pasos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_creation_properties"
->title="Propiedades de campaña de varios pasos"
->abstract="Las plantillas de campaña de varios pasos contienen configuraciones y actividades preconfiguradas que se pueden reutilizar para crear nuevas campañas de varios pasos. En esta pantalla, introduzca la etiqueta de la plantilla de campaña de varios pasos y configure sus opciones, como el nombre interno, las carpetas de carpeta y ejecución, la zona horaria y el grupo del supervisor."
+>title="Propiedades de las campañas de varios pasos"
+>abstract="Las plantillas de campañas de varios pasos contienen ajustes y actividades preconfiguradas que se pueden reutilizar para crear nuevas campañas de varios pasos. En esta pantalla, introduzca la etiqueta de la plantilla de campaña de varios pasos y configure sus ajustes, como el nombre interno, la carpeta y las carpetas de ejecución, la zona horaria y el grupo de supervisores."
 
-Las plantillas de campaña de varios pasos contienen configuraciones y actividades preconfiguradas que se pueden reutilizar para crear nuevas campañas de varios pasos. Puede seleccionar la plantilla de la campaña de varios pasos en las propiedades de campaña de varios pasos al crear una campaña de varios pasos. De forma predeterminada, se proporciona una plantilla vacía.
+Las plantillas de campañas de varios pasos contienen ajustes y actividades preconfiguradas que se pueden reutilizar para crear nuevas campañas de varios pasos. Puede seleccionar la plantilla de la campaña de varios pasos en las propiedades de campaña de varios pasos al crear una campaña de varios pasos. De forma predeterminada, se proporciona una plantilla vacía.
 
 Puede crear una plantilla a partir de una campaña existente de varios pasos o crear una nueva plantilla desde cero. Ambos métodos se detallan a continuación.
 

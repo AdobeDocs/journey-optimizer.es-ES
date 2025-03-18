@@ -5,10 +5,11 @@ title: Uso de la actividad AND-join
 description: Aprenda a utilizar la actividad AND-join en una campaña de varios pasos
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 65%
+ht-degree: 77%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="Actividad AND-join"
->abstract="La actividad **And-join** le permite sincronizar varias ramas de ejecución de una campaña de varios pasos. Se activa una vez que han finalizado todas las actividades anteriores. Esto le permite asegurarse de que ciertas actividades han finalizado antes de continuar ejecutando la campaña de varios pasos."
+>abstract="La actividad **And-join** le permite sincronizar varias ramas de ejecución de una campaña con varios pasos. Se activa una vez que han finalizado todas las actividades anteriores. Esto le permite asegurarse de que determinadas actividades se han completado antes de continuar con la ejecución de la campaña de varios pasos."
 
 La actividad **Combinación-Y** es una actividad de **Control de flujo**. Permite sincronizar varias ramas de ejecución de una campaña de varios pasos.
 

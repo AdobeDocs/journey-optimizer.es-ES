@@ -5,13 +5,13 @@ title: Trabajo con actividades de campaña de varios pasos
 description: Aprenda a realizar actividades de campaña de varios pasos
 hide: true
 hidefromtoc: true
-source-git-commit: 658d82820d3f307481c44a142c38727f777fd879
+exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
-
 
 # Acerca de las actividades de campaña de varios pasos {#ms-campaign-activities}
 
@@ -53,8 +53,8 @@ Adobe Journey Optimizer le permite automatizar y ejecutar campañas de marketing
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
->title="Actividad final"
->abstract="La actividad **End** le permite marcar de forma gráfica el final de una campaña de varios pasos. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
+>title="Actividad Finalizar"
+>abstract="La actividad **Finalizar** le permite marcar de forma gráfica el final de una campaña con varios pasos. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
 
 Las siguientes actividades son específicas para organizar y ejecutar campañas de varios pasos. Su tarea principal es coordinar las otras actividades:
 

@@ -5,10 +5,11 @@ title: Uso de la actividad Prueba en las campañas de varios pasos
 description: Descubra más información sobre cómo utilizar la actividad Test
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 16%
+ht-degree: 31%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test_conditions"
 >title="Condiciones"
->abstract="La actividad **Prueba** puede tener varias transiciones de salida. Durante la ejecución de una campaña en varios pasos, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, la campaña de varios pasos continúa en la ruta de la **[!UICONTROL condición predeterminada]**. Si no se activa ninguna condición predeterminada, la campaña de varios pasos se detiene en este punto."
+>abstract="La actividad **Prueba** puede tener varias transiciones de salida. Durante la ejecución de la campaña de varios pasos, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, la campaña de varios pasos continúa por la ruta de la **[!UICONTROL Condición predeterminada]**. Si no se activa ninguna condición predeterminada, la campaña de varios pasos se detiene en este punto."
 
 La actividad **Prueba** es una actividad de **Control de flujo**. Permite habilitar transiciones en función de condiciones especificadas.
 
@@ -42,7 +43,7 @@ Siga estos pasos para configurar la actividad **Test**:
 
 1. Puede agregar varias transiciones de salida a una actividad **[!UICONTROL Test]**. Para ello, haga clic en el botón **[!UICONTROL Agregar condición]** y configure la etiqueta y la condición asociada para cada transición.
 v
-1. Durante la ejecución de una campaña en varios pasos, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, las campañas de varios pasos continúan en la ruta de la **[!UICONTROL condición predeterminada]**. Si no se activa ninguna condición predeterminada, el flujo de trabajo se detienen en este punto.
+1. Durante la ejecución de la campaña de varios pasos, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, las campañas de varios pasos continúan en la ruta de la **[!UICONTROL condición predeterminada]**. Si no se activa ninguna condición predeterminada, el flujo de trabajo se detienen en este punto.
 
 ## Ejemplo {#example}
 

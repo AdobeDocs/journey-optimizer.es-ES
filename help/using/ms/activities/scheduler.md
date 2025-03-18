@@ -5,10 +5,11 @@ title: Uso de la actividad Planificador
 description: Aprenda a utilizar la actividad Planificador en una campaña de varios pasos
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: da77a0bf-7b17-40fc-b2cb-2f0940152e64
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 20%
+ht-degree: 27%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Actividad planificador"
->abstract="La actividad **Scheduler** le permite programar el inicio de la campaña de varios pasos. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como la primera actividad de la campaña de varios pasos."
+>abstract="La actividad **Planificador** le permite programar cuándo se inicia una campaña de varios pasos. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como la primera actividad de la campaña de varios pasos."
 
 
 La actividad **Scheduler** es una actividad **Flow control**. Le permite programar cuándo se inicia la campaña de varios pasos. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como la primera actividad de la campaña de varios pasos.

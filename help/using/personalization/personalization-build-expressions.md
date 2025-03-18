@@ -13,7 +13,7 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 47b8308030ca73b3383938a4be025e332265540e
 workflow-type: tm+mt
 source-wordcount: '1410'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -91,7 +91,7 @@ La parte izquierda de la pantalla muestra un selector de dominio que le permite 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="Completar automáticamente"
->abstract="Alternar esta opción permite al sistema sugerir y completar automáticamente el código mientras escribe. Esta función solo está disponible para formatos HTML y Texto y admite atributos de Perfil y Contexto. Si se deshabilita mediante la opción, el editor proporcionará finalización automática de código HTML nativo en su lugar."
+>abstract="Al activar esta opción el sistema sugiere y completa automáticamente el código mientras se escribe. Esta función solo está disponible en los formatos HTML y texto, y admite atributos de perfil y contexto. Si se desactiva mediante el conmutador, el editor proporcionará la finalización automática de código HTML nativo en su lugar."
 
 En el espacio de trabajo central se crea la sintaxis de personalización. Para utilizar un atributo para personalizar el mensaje, localícelo en el panel de navegación izquierdo y haga clic en el botón `+` para agregarlo a la expresión.
 
@@ -115,7 +115,7 @@ Entre las opciones disponibles se encuentran:
 
 1. **[!UICONTROL Buscar]** / **[!UICONTROL Buscar y reemplazar]**: Busca a través de tu expresión y reemplaza automáticamente partes de código.
 1. **[!UICONTROL Deshacer]** / **[!UICONTROL Rehacer]**: Deshacer / Rehacer la última operación.
-1. **[!UICONTROL Completar automáticamente]**: sugiere y completa automáticamente el código mientras escribe. Esta función solo está disponible para formatos HTML y Texto y admite atributos de Perfil y Contexto. Si se deshabilita mediante la opción, el editor proporcionará finalización automática de código HTML nativo en su lugar.
+1. **[!UICONTROL Completar automáticamente]**: sugiere y completa automáticamente el código mientras escribe. Esta función solo está disponible en los formatos HTML y texto, y admite atributos de perfil y contexto. Si se desactiva mediante el conmutador, el editor proporcionará la finalización automática de código HTML nativo en su lugar.
 
    ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"}
 

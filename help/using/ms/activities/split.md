@@ -5,10 +5,11 @@ title: Uso de la actividad División
 description: Aprenda a utilizar la actividad Split en una campaña de varios pasos
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 79%
+ht-degree: 81%
 
 ---
 
@@ -26,7 +27,7 @@ La actividad **División** es una actividad **Segmentación** que permite segmen
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="Segmentos para la actividad división"
->abstract="Añada todos los subconjuntos que quiera para segmentar la población entrante.<br/></br>Cuando se ejecuta la actividad **División**, la población se segmenta en los diferentes subconjuntos en el orden en el que se añaden a la actividad. Antes de iniciar la campaña de varios pasos, asegúrese de haber ordenado los subconjuntos en el orden que se adapte a sus necesidades mediante los botones de flecha."
+>abstract="Añada todos los subconjuntos que quiera para segmentar la población entrante.<br/></br>Cuando se ejecuta la actividad **División**, la población se segmenta en los diferentes subconjuntos en el orden en el que se añaden a la actividad. Antes de iniciar la campaña de varios pasos, asegúrese de haber ordenado los subconjuntos en el orden que mejor se adapte a sus necesidades mediante los botones de flecha."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"

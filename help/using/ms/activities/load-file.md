@@ -5,10 +5,11 @@ title: Uso de la actividad Cargar archivo
 description: Aprenda a utilizar la actividad Cargar archivo en una campaña de varios pasos
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: ae0dc980-2361-4c3b-a68e-ae0bb5dc0a26
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '1178'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
@@ -105,7 +106,7 @@ Siga estos pasos para configurar el archivo de muestra utilizado para definir la
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_targetdb"
 >title="Base de datos de destino"
->abstract="Si accede a una actividad **[!UICONTROL Cargar archivo]** que ya se ha configurado, hay disponible una sección **[!UICONTROL Base de datos de destino]** adicional si ha configurado la actividad para cargar el archivo en una base de datos externa."
+>abstract="Si accede a una actividad **[!UICONTROL Cargar archivo]** que ya se ha configurado, hay disponible una sección adicional **[!UICONTROL Base de datos de destino]** si ha configurado la actividad para cargar el archivo en una base de datos externa."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_command"

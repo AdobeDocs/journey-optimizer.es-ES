@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Actividad final
+title: Actividad Finalizar
 description: Aprenda a utilizar la actividad final
 feature: Journeys, Activities
 topic: Content Management
@@ -16,11 +16,11 @@ ht-degree: 57%
 
 ---
 
-# Actividad final{#end-activity}
+# Actividad Finalizar{#end-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_end"
->title="Actividad final"
+>title="Actividad Finalizar"
 >abstract="La actividad final permite marcar el final de cada ruta del recorrido. No es obligatorio, pero se recomienda para la claridad visual. De hecho, si el recorrido tiene varias actividades finales, le recomendamos que agregue una etiqueta en cada final para facilitar la lectura de los informes."
 
 La actividad **[!UICONTROL End]** le permite marcar el final de cada ruta de acceso del recorrido. No es obligatorio, pero se recomienda para la claridad visual. De hecho, si el recorrido tiene varias actividades finales, le recomendamos que agregue una etiqueta a cada extremo para facilitar la lectura de los informes. Consulte [esta página](../reports/live-report.md).

@@ -5,10 +5,11 @@ title: Uso de la actividad de reconciliación
 description: Aprenda a utilizar la actividad de reconciliación en una campaña de varios pasos
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 39%
+ht-degree: 42%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation"
 >title="Actividad de reconciliación"
->abstract="La actividad **Reconciliation** es una actividad **Targeting** que permite definir el vínculo entre Adobe Journey Optimizer y los datos de una tabla de trabajo."
+>abstract="La actividad **Reconciliación** es una actividad de **Segmentación** que le permite definir el vínculo entre Adobe Journey Optimizer y los datos de una tabla de trabajo. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_field"
@@ -121,4 +122,3 @@ Se crea con las siguientes actividades:
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
 * Una actividad [Guardar audiencia](save-audience.md) para crear una audiencia nueva basada en estas actualizaciones. También puede reemplazar la actividad **Guardar audiencia** por una actividad **Finalizar** si no es necesario crear o actualizar una audiencia específica. Los perfiles de destinatario se actualizan en cualquier caso al ejecutar la campaña de varios pasos.
-
