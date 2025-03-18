@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a0e657842ba67b8e96996bcb95e2170da6fcbb97
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 81%
+ht-degree: 94%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 81%
 
 ## Actualizaciones de marzo de 2025 {#25-03-rn}
 
-**Mejoras en el editor de Personalization**
+**Mejoras del editor de personalización**
 
 El editor de personalización de Journey Optimizer se ha actualizado con nuevas funciones:
-* **Diseño actualizado del editor de código**: una interfaz más limpia y moderna para mejorar la facilidad de uso y el enfoque.
-* **Buscar y reemplazar**: funcionalidad agregada para buscar y reemplazar contenido rápidamente en el editor.
+* **Diseño actualizado del editor de código**: una interfaz más clara y moderna para mejorar la facilidad de uso y el enfoque.
+* **Buscar y reemplazar**: funcionalidad añadida para buscar y reemplazar contenido rápidamente en el editor.
 * **Compatibilidad con Deshacer y Rehacer**: permite revertir o volver a aplicar fácilmente los cambios.
-* **Tamaño de fuente personalizable**: permite ajustar el tamaño de fuente del editor para mejorar la legibilidad.
+* **Tamaño de fuente personalizable**: habilita el ajuste del tamaño de fuente del editor para mejorar la legibilidad.
 * **Validación JSON en línea**: proporciona validación en tiempo real del lado del cliente para el contenido JSON a fin de acelerar la detección de errores.
-* **Completado automático para atributos de perfil y contexto**: ofrece sugerencias inteligentes para optimizar la creación de contenido.
-* **Resalte de sintaxis mejorada**: mejora la legibilidad al hacer que la estructura del código sea más distinta visualmente.
+* **Completar automáticamente atributos de perfil y contexto**: ofrece sugerencias inteligentes para optimizar la creación de contenido.
+* **Resaltado de sintaxis mejorado**: mejora la legibilidad al hacer que la estructura del código quede visualmente más diferenciada.
 
 ![Vídeo que muestra la nueva función en el editor de Personalization](assets/do-not-localize/personalization-editor.gif)
 
@@ -60,7 +60,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear reglas de negocio utilizando conjuntos de reglas. Los conjuntos de reglas son grupos de reglas que ayudan a limitar los mensajes enviados dentro de las campañas y las acciones de recorrido entre canales, así como para controlar las entradas de perfiles en los recorridos.<p>
+<p>Ahora puede crear reglas empresariales utilizando conjuntos de reglas. Los conjuntos de reglas son grupos de reglas que ayudan a limitar los mensajes enviados dentro de las campañas y las acciones de recorrido entre canales, así como para controlar las entradas de perfiles en los recorridos.<p>
 <p><ul><li>Cree conjuntos de reglas de canal para restringir el número de mensajes enviados a través de uno o varios canales. Aplíquelas a campañas o acciones de recorrido para aplicar las reglas definidas en el conjunto de reglas. El conjunto de reglas de canal le permite aplicar reglas de límite basadas en tipos de comunicación. Por ejemplo, defina una regla para limitar los “mensajes promocionales” y otra para los “boletines”. Aplique el conjunto de reglas adecuado en la campaña o acción de recorrido según el tipo de comunicación que envíe.</li>
 <li> Cree conjuntos de reglas de recorrido para controlar las entradas de perfil en los recorridos. Limite la frecuencia con la que un perfil puede entrar en un recorrido dentro de un período determinado o el número de recorridos en los que se puede inscribir un perfil simultáneamente. Aplíquelas en el nivel de recorrido para garantizar una administración de entrada adecuada.</li></p>
 <p>Anteriormente disponibles para un conjunto de organizaciones (LA), las reglas empresariales ya están disponibles para todos los usuarios (GA).</p>
@@ -108,7 +108,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Solución de problemas de acciones personalizadas</strong><br/></th>
+<th><strong>Resolución de problemas de acciones personalizadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>

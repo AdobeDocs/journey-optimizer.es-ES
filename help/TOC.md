@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
 workflow-type: tm+mt
 source-wordcount: '2279'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -179,10 +179,10 @@ ht-degree: 94%
    + Cree su primera campaña de varios pasos {#create-ms-campaign}
       + [Creación de una campaña organizada](using/ms/create-ms-campaign.md)
       + [Organización de actividades](using/ms/orchestrate-activities.md)
-      + [Configuración de la campaña](using/ms/ms-campaign-settings.md)
-      + [Inicio y monitorización de campañas](using/ms/start-monitor-campaigns.md)
+      + [Configuración de campaña](using/ms/ms-campaign-settings.md)
+      + [Iniciar y monitorizar campañas](using/ms/start-monitor-campaigns.md)
       + [Administrar personalización](using/ms/ms-personalization.md)
-   + Actividades de campaña de varios pasos {#design-campaigns}
+   + Actividades de campañas de varios pasos {#design-campaigns}
       + [Acerca de las actividades de campaña de varios pasos](using/ms/activities/about-activities.md)
       + [And-join](using/ms/activities/and-join.md)
       + [Generar público](using/ms/activities/build-audience.md)
@@ -364,9 +364,9 @@ ht-degree: 94%
       + [Introducción a la personalización](using/personalization/personalize.md)
       + [Adición de personalización](using/personalization/personalization-build-expressions.md)
       + [Sintaxis de personalización](using/personalization/personalization-syntax.md)
-      + [Reutilizar fragmentos de expresiones](using/personalization/use-expression-fragments.md)
-      + [Usar datos de Adobe Experience Platform para personalización (Beta)](using/personalization/lookup-aep-data.md)
-      + Lista de funciones de ayuda {#functions}
+      + [Reutilización de fragmentos de expresión](using/personalization/use-expression-fragments.md)
+      + [Uso de datos de Adobe Experience Platform para la personalización (Beta)](using/personalization/lookup-aep-data.md)
+      + Lista de funciones del asistente {#functions}
          + [Introducción a las funciones de ayuda](using/personalization/functions/functions.md)
          + [Funciones de agregación](using/personalization/functions/aggregation.md)
          + [Funciones aritméticas](using/personalization/functions/arithmetic-functions.md)
@@ -501,19 +501,19 @@ ht-degree: 94%
                + [Búsqueda de estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
                + [Lista de estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
                + [Actualización de estrategias de selección](using/experience-decisioning/api-reference/selection-strategies/update.md)
-            + Clasificar fórmulas{#ranking-formulas}
+            + Fórmulas de clasificación{#ranking-formulas}
                + [Crear fórmulas de clasificación](using/experience-decisioning/api-reference/ranking-formulas/create.md)
                + [Eliminar fórmulas de clasificación](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
-               + [Buscar fórmulas de clasificación](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
-               + [Fórmulas de clasificación de selección](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+               + [Consultar fórmulas de clasificación](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+               + [Selección de fórmulas de clasificación](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
                + [Actualizar fórmulas de clasificación](using/experience-decisioning/api-reference/ranking-formulas/update.md)
             + Reglas de elegibilidad{#eligibility-rules}
                + [Crear reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/create.md)
                + [Eliminar reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
-               + [Buscar reglas de idoneidad](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
+               + [Consultar reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
                + [Lista de reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [Actualizar reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/update.md)
-         + [Entrega de ofertas mediante el canal de experiencia basada en código](using/experience-decisioning/api-reference/deliver.md)
+         + [Entregar ofertas mediante el canal de experiencia basada en código](using/experience-decisioning/api-reference/deliver.md)
       + Administrar elementos de decisión {#decision-items}
          + [Configuración del catálogo de elementos](using/experience-decisioning/catalogs.md)
          + [Creación de elementos de decisión](using/experience-decisioning/items.md)
