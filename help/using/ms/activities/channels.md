@@ -1,14 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Uso de una actividad de canal
-description: Obtenga información sobre cómo añadir una actividad de canal
+title: Añadir una actividad de canal en una campaña de varios pasos
+description: Obtenga información sobre cómo añadir una actividad de canal en una campaña de varios pasos
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
+source-git-commit: 040c8387c73f9d867840225ddff6cf940cc96ac5
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 48%
+source-wordcount: '899'
+ht-degree: 18%
 
 ---
 
@@ -28,32 +29,32 @@ Comience a crear su campaña de varios pasos con las actividades relevantes:
 
 * Para realizar una entrega recurrente, inicie su campaña de varios pasos con una actividad de **Planificador**. También puede usar una actividad **Scheduler** para envíos únicos de una sola toma a fin de establecer la fecha de contacto para ese envío. Esa fecha de contacto también se puede establecer en la configuración de envío. Consulte [esta sección](scheduler.md).
 
-## Configuración de la actividad de canal {#create-a-delivery-in-a-workflow}
+## Configuración de una actividad de canal {#create-a-delivery-in-a-workflow}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="Actividad de correo electrónico"
->abstract="La actividad Correo electrónico facilita el envío de correos electrónicos dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Sirve para automatizar el proceso de envío de correos electrónicos a un destinatario calculado dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad Correo electrónico permite enviar correos electrónicos dentro de la campaña de varios pasos, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de envío de correos electrónicos a un destinatario calculado dentro de la misma campaña de varios pasos. Puede combinar actividades de canal en un lienzo de campaña de varios pasos para crear campañas en canales múltiples que puedan almacenar en déclencheur acciones basadas en la conducta y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="Actividad de SMS"
->abstract="La actividad de SMS facilita el envío de SMS dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Sirve para automatizar el proceso de envío de SMS a un destinatario calculado dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad SMS permite enviar SMS dentro de la campaña de varios pasos, para mensajes únicos y recurrentes. Sirve para automatizar el proceso de envío de SMS a un destinatario calculado dentro de la misma campaña de varios pasos. Puede combinar actividades de canal en el lienzo de campaña de varios pasos para crear campañas en canales múltiples que puedan almacenar en déclencheur acciones basadas en la conducta y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
 >title="Actividad de push iOS"
->abstract="La actividad Push de iOS optimiza el proceso de envío de notificaciones Push de iOS como parte del flujo de trabajo. Permite la entrega de mensajes recurrentes y únicos, lo que automatiza el envío de notificaciones Push de iOS a un destino predefinido dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad Push iOS permite enviar notificaciones push de iOS como parte de una campaña de varios pasos. Permite la entrega de campañas de varios pasos únicas y recurrentes, lo que automatiza el envío de notificaciones push de iOS a un objetivo predefinido dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="Actividad de mensajería push de Android"
->abstract="La actividad Push de Android optimiza el proceso de envío de notificaciones Push de Android como parte del flujo de trabajo. Permite enviar mensajes recurrentes y únicos, lo que automatiza el envío de notificaciones Push de Android a un destino predefinido dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad Push Android permite enviar notificaciones push a Android como parte de una campaña de varios pasos. Permite la entrega de mensajes recurrentes y únicos, lo que automatiza el envío de notificaciones push de Android a un destinatario predefinido dentro de la misma campaña de varios pasos. Puede combinar actividades de canal en el lienzo de campaña de varios pasos para crear campañas en canales múltiples que puedan almacenar en déclencheur acciones basadas en la conducta y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="Actividad de correo directo"
->abstract="La actividad de correo directo facilita el envío de correo directo dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Sirve para automatizar el proceso de generación del archivo de extracción requerido por los proveedores de correo directo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad de correo postal facilita el envío de correo postal dentro de la campaña de varios pasos, tanto para mensajes recurrentes como únicos. Sirve para automatizar el proceso de generación del archivo de extracción requerido por los proveedores de correo directo. Puede combinar actividades de canal en el lienzo de campaña de varios pasos para crear campañas en canales múltiples que puedan almacenar en déclencheur acciones basadas en la conducta y los datos del cliente."
 
 Para configurar una entrega en el contexto de una campaña de varios pasos, siga los pasos a continuación:
 
