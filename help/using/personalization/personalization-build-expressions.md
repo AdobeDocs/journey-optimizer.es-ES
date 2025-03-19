@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expresión, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 47b8308030ca73b3383938a4be025e332265540e
+source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1406'
 ht-degree: 11%
 
 ---
@@ -32,9 +32,9 @@ En la interfaz del editor de personalización, puede seleccionar, organizar, per
 
 ## ¿Dónde puedo añadir la personalización?
 
-Puede agregar personalización en **[!DNL Journey Optimizer]** en todos los campos con el icono ![agregar personalización](assets/do-not-localize/add-perso-icon.svg).
+Puede agregar personalización en **[!DNL Journey Optimizer]** en todos los campos con el icono ![agregar personalización](assets/do-not-localize/add-perso-icon.svg). Expanda las secciones siguientes para obtener más detalles.
 
-### Mensajes
++++Mensajes
 
 En los mensajes, la personalización se puede agregar en diferentes ubicaciones de los mensajes, como en el campo **[!UICONTROL Línea de asunto]**.
 
@@ -42,28 +42,32 @@ En los mensajes, la personalización se puede agregar en diferentes ubicaciones 
 
 También se puede añadir en otras secciones del contenido. Por ejemplo, para [notificaciones push](../push/push-gs.md), se puede agregar personalización en los campos **Título**, **Cuerpo**, **Sonido personalizado**, **Insignias** y **Datos personalizados**.
 
-### Diseñador de correos electrónicos
++++
+
++++Email Designer
 
 Al editar el contenido del correo electrónico en [Email Designer](../email/get-started-email-design.md), puede añadir personalización en bloques de texto y en direcciones URL mediante el icono de la barra de herramientas contextual.
 
 ![](assets/perso_insert.png)
 
-### Ofertas
++++
+
++++Ofertas
 
 Puede agregar personalización al usar contenido de tipo texto en las representaciones de **ofertas**. [Aprenda a crear ofertas personalizadas](../offers/offer-library/creating-personalized-offers.md)
 
-### URL
++++
+
++++direcciones URL
 
 Journey Optimizer también le permite personalizar **URL** en su mensaje.  Las direcciones URL personalizadas llevan a los destinatarios a páginas específicas de un sitio web o a un micrositio personalizado, según los atributos del perfil. La personalización de URL está disponible para estos tipos de vínculos: **Vínculo externo**, **Vínculo de baja** y **Exclusión**.
 
-+++Consulte URL personalizadas de ejemplo
+URL personalizadas de ejemplo:
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}`
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
 * `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
 * `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
-
-+++
 
 ![](assets/perso-url.png){width="50%"}
 
@@ -73,9 +77,11 @@ Journey Optimizer también le permite personalizar **URL** en su mensaje.  Las d
 >
 >No se admiten espacios en los tokens de personalización utilizados dentro de las direcciones URL.
 
++++
+
 ## Fuentes de Personalization {#sources}
 
-La parte izquierda de la pantalla muestra un selector de dominio que le permite seleccionar el origen de la personalización. Los orígenes disponibles son:
+El panel de navegación permite seleccionar el origen de la personalización. Los orígenes disponibles son:
 
 * **[!UICONTROL Atributos de perfil]** : enumera todas las referencias asociadas al esquema de perfil que se describen en [Documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 * **[!UICONTROL Audiencias]** : enumera todas las audiencias creadas en el servicio de segmentación de Adobe Experience Platform. Más información sobre la segmentación disponible [aquí](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
@@ -93,9 +99,9 @@ La parte izquierda de la pantalla muestra un selector de dominio que le permite 
 >title="Completar automáticamente"
 >abstract="Al activar esta opción el sistema sugiere y completa automáticamente el código mientras se escribe. Esta función solo está disponible en los formatos HTML y texto, y admite atributos de perfil y contexto. Si se desactiva mediante el conmutador, el editor proporcionará la finalización automática de código HTML nativo en su lugar."
 
-En el espacio de trabajo central se crea la sintaxis de personalización. Para utilizar un atributo para personalizar el mensaje, localícelo en el panel de navegación izquierdo y haga clic en el botón `+` para agregarlo a la expresión.
+En el espacio de trabajo central se crea la sintaxis de personalización. Para utilizar un atributo para personalizar el mensaje, localícelo en el panel de navegación y haga clic en el botón `+` para agregarlo a la expresión.
 
-El menú de los tres puntos situado junto al icono `+` le permite obtener más información sobre cada atributo y agregar a los favoritos los atributos utilizados con más frecuencia. Se puede acceder a los atributos agregados a favoritos desde el menú **[!UICONTROL Favoritos]** del panel de navegación izquierdo.
+El menú de los tres puntos situado junto al icono `+` le permite obtener más información sobre cada atributo y agregar a los favoritos los atributos utilizados con más frecuencia. Se puede acceder a los atributos agregados a favoritos desde el menú **[!UICONTROL Favoritos]** del panel de navegación.
 
 Además, puede definir el texto de reserva predeterminado que se mostrará si un atributo de perfil de tipo cadena está vacío. Para ello, haga clic en el botón de puntos suspensivos situado junto al atributo y seleccione **[!UICONTROL Insertar con texto de reserva]**. Escriba el texto que debería mostrarse de forma predeterminada si el valor del atributo está vacío para un perfil y, a continuación, haga clic en **[!UICONTROL Agregar]**.
 
