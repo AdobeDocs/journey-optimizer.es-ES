@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b3fed5a48480647010f59fa471c505b4031b8701
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 8%
+source-wordcount: '283'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 8%
 
 Una oferta personalizada es un mensaje de marketing personalizable basado en reglas de elegibilidad y restricciones.
 
-GET Puede ver una lista de todas las ofertas personalizadas realizando una sola solicitud a la API [!DNL Offer Library].
+Puede ver una lista de todas las ofertas personalizadas realizando una sola petición GET a la API [!DNL Offer Library].
 
 **Formato de API**
 
@@ -123,6 +123,76 @@ Una respuesta correcta devuelve una lista de ofertas personalizadas que están p
         "self": {
             "href": "/offers?offer-type=personalized&href={SELF_HREF}",
             "type": "application/json"
+        }
+    }
+}
+```
+
+Realice la paginación si faltan varias ofertas personalizadas en la respuesta.
+
+**Respuesta**
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {
+        "href": "/offers?orderby=-modified&limit=2&offer-type=PERSONALIZED",
+        "type": "application/json"
+        },
+        "next": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
+        }
+    }
+    }
+```
+
+| Métrica | Descripción |
+|---------|-------------|
+| `total` | El número de ofertas personalizadas. |
+| `count` | El número de ofertas devueltas en esta respuesta. |
+
+Recupere el extremo de `_links.next.href`, como `/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED`, y anexe a la API.
+
+**Formato de API**
+
+```http
+GET /{ENDPOINT_PATH}/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED
+```
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {...},
+        "next": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
+        }
+    }
+}
+```
+
+Del mismo modo, si no se encuentra en la primera página y necesita recuperar la página anterior de ofertas personalizadas, utilice el valor `href` de `_links.prev`. Realice una solicitud a la dirección URL para recuperar el conjunto de resultados anterior, como se muestra en el ejemplo siguiente.
+
+**Respuesta**
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {...},
+        "next": {...},
+        "prev": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
         }
     }
 }
