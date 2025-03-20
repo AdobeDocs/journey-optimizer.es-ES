@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1badd589ee3722b28e9a404a9ffbe53eb0ae7c69
+source-git-commit: 636c1f6e03017f166da70707d03835feceab1a00
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 57%
+source-wordcount: '659'
+ht-degree: 40%
 
 ---
 
@@ -50,6 +50,48 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Vista de calendario para recorridos (disponibilidad limitada)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora, una vista de calendario le permite visualizar todas las activaciones de recorridos. Esta capacidad se presenta como una disponibilidad limitada para un grupo selecto de clientes.<p>
+<p>Este cambio solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Integración con Dynamic Media (disponibilidad limitada)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Los recursos de Dynamic Media ahora están disponibles y accesibles directamente en Journey Optimizer. Esta integración le permite:
+<ul>
+<li>Administración centralizada de recursos con actualizaciones en tiempo real</li>
+<li>Modifique la configuración de los recursos, como la anchura y la altura, al instante</li>
+<li>Personalice el contenido mediante imágenes con superposiciones de texto</li>
+<li>Personalice las plantillas de Dynamic Media actualizando el contenido y añadiendo campos de personalización</li>
+</ul>
+<p>
+<p>Esta integración solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 
 <table>
@@ -103,3 +145,25 @@ El editor de personalización de Journey Optimizer se ha actualizado con nuevas 
 ![Vídeo que muestra la nueva función en el editor de Personalization](assets/do-not-localize/personalization-editor.gif)
 
 Para obtener más información, consulte la [documentación detallada](../personalization/personalization-build-expressions.md).
+
+
+**Campañas**
+
+* En la lista de campañas, al seleccionar una campaña, se abre un panel que muestra sus detalles.
+* Ahora puede copiar sus campañas de una zona protegida a otra.
+
+**Personalización**
+
+Se ha agregado un nuevo botón &quot;Píldoras&quot; al editor de personalización. Cuando se habilita, los atributos contextuales y de perfil se muestran como píldoras, lo que mejora la legibilidad del código.
+
+**Aprobaciones**
+
+Al definir las condiciones de una directiva de aprobación, ahora tiene la opción de filtrar por Etiqueta o Categoría de objeto.
+
+**Configuración de canal**
+
+Ahora puede asignar etiquetas unificadas de Adobe Experience Platform a las configuraciones de canal. Esto le permite clasificarlas fácilmente y mejorar la búsqueda y la navegación en todas las listas.
+
+**Capacidad de entrega**
+
+Ahora puede delegar subdominios con DMARC administrado desde el lado principal.
