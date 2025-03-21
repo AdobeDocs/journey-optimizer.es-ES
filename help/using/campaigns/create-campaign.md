@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: c1ca6175e504dff5e89aaddc2105d150992a8b28
+source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 21%
