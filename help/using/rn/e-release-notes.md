@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d2039ce0efdefaa0708a790135599d2ce97e48f1
+source-git-commit: c4961af2653e8135c72dd57997131c56f54b24a5
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 40%
+source-wordcount: '713'
+ht-degree: 37%
 
 ---
 
@@ -167,3 +167,7 @@ Ahora puede asignar etiquetas unificadas de Adobe Experience Platform a las conf
 **Capacidad de entrega**
 
 Ahora puede delegar subdominios con DMARC administrado desde el lado principal.
+
+**Reglas de negocio**
+
+Ahora puede utilizar un límite de frecuencia diario en recorridos y campañas con segmentación por lotes. Para garantizar la precisión de las reglas de límite de frecuencia diarias, asegúrese de elegir el área de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información sobre la prioridad del área de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
