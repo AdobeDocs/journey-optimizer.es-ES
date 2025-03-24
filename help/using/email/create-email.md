@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: creación, correo electrónico, inicio, recorrido, campaña
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: e052e7bfea5381583ad8d2d7b785d44486cb9975
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '969'
 ht-degree: 9%
 
 ---
@@ -89,6 +89,12 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
    ![](assets/email_designer_edit_content_header.png)
 
 1. Añada una línea de asunto al mensaje. Para configurar y personalizar la línea de asunto con el editor de personalización, haga clic en el icono **[!UICONTROL Abrir diálogo de personalización]**. [Más información](../personalization/personalization-build-expressions.md)
+
+   >[!NOTE]
+   >
+   >* La línea de asunto es obligatoria.
+   >
+   >* La línea de asunto no debe incluir saltos de línea.
 
 1. Haga clic en el botón **[!UICONTROL Editar cuerpo del correo electrónico]** para acceder al Designer de correo electrónico y comenzar a crear su contenido. [Más información](get-started-email-design.md)
 
