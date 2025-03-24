@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
+source-git-commit: 55cc584e2dfcfb9de8784069c7d635a8e4e47929
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 90%
@@ -30,17 +30,19 @@ Una vez definido el contenido, puede obtener una vista previa del mismo antes de
 
 También puede realizar envíos de prueba de sus mensajes de correo electrónico a destinatarios o suscriptores específicos para realizar pruebas y validarlos, y comprobar cómo se representan en los clientes de escritorio, móviles y basados en web más conocidos.
 
+Todas estas acciones se pueden realizar con el botón **[!UICONTROL Simular contenido]**, al que se puede acceder desde la pantalla de edición de contenido del mensaje, o desde el correo electrónico y los diseñadores web de los canales web y de correo electrónico.
+
+![](../email/assets/email-preview-button.png)
+
+Tenga en cuenta que necesita tener el permiso **[!DNL Manage Simulate Content]** incluido en el perfil de producto **[!DNL Content Library Manager]**. [Más información](../administration/ootb-product-profiles.md#content-library-manager).
+
+
 >[!CAUTION]
 >
 >* Al obtener una vista previa de un mensaje o enviar pruebas, solo se muestran los datos de personalización del perfil. La personalización basada en datos de contexto, como la información del evento, solo se puede probar en el contexto de un recorrido. Obtenga información sobre cómo probar la personalización en [este caso de uso](../personalization/personalization-use-case.md).
 >
 >* Al simular o procesar pruebas para correos electrónicos que contienen varias variantes condicionales, Journey Optimizer puede requerir más tiempo de procesamiento. Si experimenta tiempos de espera o mensajes de error, considere la posibilidad de reducir la cantidad total de variantes o simplificar las reglas condicionales. Obtenga más información acerca del contenido condicional en [esta página](../personalization/dynamic-content.md).
 
-Todas estas acciones se pueden realizar con el botón **[!UICONTROL Simular contenido]**, al que se puede acceder desde la pantalla de edición de contenido del mensaje, o desde el correo electrónico y los diseñadores web de los canales web y de correo electrónico.
-
-![](../email/assets/email-preview-button.png)
-
-Tenga en cuenta que necesita tener el permiso **[!DNL Manage Simulate Content]** incluido en el perfil de producto **[!DNL Content Library Manager]**. [Más información](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Pruebas con perfiles de prueba o datos de entrada de muestra {#methods}
 
