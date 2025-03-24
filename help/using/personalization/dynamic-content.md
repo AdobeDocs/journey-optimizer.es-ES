@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, dinámico, contenido
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 10%
+source-wordcount: '608'
+ht-degree: 9%
 
 ---
 
@@ -87,9 +87,13 @@ Los pasos para crear variantes de un componente de contenido en el Designer de c
 1. Añada tantas variantes como sea necesario para el componente de contenido. Puede cambiar en cualquier momento entre las distintas variantes para comprobar cómo se mostrará el componente de contenido en función de las reglas condicionales.
 
    >[!NOTE]
-   >Si ninguna de las reglas definidas en las variantes se cumple al enviar el mensaje, el componente de contenido mostrará el contenido definido en la **[!UICONTROL variante predeterminada]**.
    >
-   >El contenido condicional se evaluará según las reglas asociadas en el orden en que se muestran las variantes. La variante predeterminada siempre se muestra si no se cumplen otras condiciones.
+   >* Si ninguna de las reglas definidas en las variantes se cumple al enviar el mensaje, el componente de contenido mostrará el contenido definido en la **[!UICONTROL variante predeterminada]**.
+   >
+   >* El contenido condicional se evaluará según las reglas asociadas en el orden en que se muestran las variantes. La variante predeterminada siempre se muestra si no se cumplen otras condiciones.
+   >
+   >* Al simular o procesar pruebas para correos electrónicos que contienen varias variantes condicionales, Journey Optimizer puede requerir más tiempo de procesamiento. Si experimenta tiempos de espera o mensajes de error, considere la posibilidad de reducir la cantidad total de variantes o simplificar las reglas condicionales. Más información sobre cómo probar el contenido en [esta página](../content-management/preview-test.md).
+
 
 1. Para eliminar una variante, haga clic en el icono Más acciones que está junto a la variante deseada y seleccione **[!UICONTROL Eliminar]**.
 

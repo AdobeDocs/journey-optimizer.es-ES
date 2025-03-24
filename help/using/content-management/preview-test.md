@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: ht
-source-wordcount: '436'
-ht-degree: 100%
+source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,9 @@ También puede realizar envíos de prueba de sus mensajes de correo electrónico
 
 >[!CAUTION]
 >
->Al obtener una vista previa de un mensaje o enviar pruebas, solo se muestran los datos de personalización del perfil. La personalización basada en datos de contexto, como la información del evento, solo se puede probar en el contexto de un recorrido. Obtenga información sobre cómo probar la personalización en [este caso de uso](../personalization/personalization-use-case.md).
+>* Al obtener una vista previa de un mensaje o enviar pruebas, solo se muestran los datos de personalización del perfil. La personalización basada en datos de contexto, como la información del evento, solo se puede probar en el contexto de un recorrido. Obtenga información sobre cómo probar la personalización en [este caso de uso](../personalization/personalization-use-case.md).
+>
+>* Al simular o procesar pruebas para correos electrónicos que contienen varias variantes condicionales, Journey Optimizer puede requerir más tiempo de procesamiento. Si experimenta tiempos de espera o mensajes de error, considere la posibilidad de reducir la cantidad total de variantes o simplificar las reglas condicionales. Obtenga más información acerca del contenido condicional en [esta página](../personalization/dynamic-content.md).
 
 Todas estas acciones se pueden realizar con el botón **[!UICONTROL Simular contenido]**, al que se puede acceder desde la pantalla de edición de contenido del mensaje, o desde el correo electrónico y los diseñadores web de los canales web y de correo electrónico.
 
