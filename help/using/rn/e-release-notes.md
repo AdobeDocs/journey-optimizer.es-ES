@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c4961af2653e8135c72dd57997131c56f54b24a5
+source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 37%
+source-wordcount: '738'
+ht-degree: 36%
 
 ---
 
@@ -171,3 +171,7 @@ Ahora puede delegar subdominios con DMARC administrado desde el lado principal.
 **Reglas de negocio**
 
 Ahora puede utilizar un límite de frecuencia diario en recorridos y campañas con segmentación por lotes. Para garantizar la precisión de las reglas de límite de frecuencia diarias, asegúrese de elegir el área de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información sobre la prioridad del área de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+
+**Administración de contenido**
+
+Para administrar fácilmente los fragmentos y las plantillas de contenido, ahora puede utilizar carpetas para organizarlos de forma más eficaz en una jerarquía estructurada.
