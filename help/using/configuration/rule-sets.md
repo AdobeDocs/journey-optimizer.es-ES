@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
+source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
 workflow-type: tm+mt
-source-wordcount: '2036'
-ht-degree: 13%
+source-wordcount: '2066'
+ht-degree: 12%
 
 ---
 
@@ -155,6 +155,8 @@ Los parámetros disponibles para la regla dependen del dominio del conjunto de r
      >[!CAUTION]
      >
      >Para garantizar la precisión de las reglas de límite de frecuencia diarias, es obligatorio usar [segmentación de transmisión](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}. Obtenga más información sobre los métodos de evaluación de audiencia en [esta sección](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+     >
+     >También debe asegurarse de elegir el área de nombres de mayor prioridad al crear una campaña o recorrido. Obtenga más información sobre la prioridad del área de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
    Tenga en cuenta que el valor del contador de perfiles se actualiza una vez que se envía la comunicación. Tenga esto en cuenta cuando envíe grandes volúmenes de comunicaciones, ya que el rendimiento podría provocar que el destinatario reciba el correo electrónico minutos o incluso horas después del inicio de la comunicación (en el caso de que envíe millones de comunicaciones simultáneamente).
 
