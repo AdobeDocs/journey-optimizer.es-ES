@@ -12,13 +12,13 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
 # Examinar y filtrar sus recorridos {#browse-journeys}
 
-## panel de recorrido {#dashboard-jo}
+## Panel del recorrido {#dashboard-jo}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
