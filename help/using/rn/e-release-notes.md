@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
+source-git-commit: 80376fda31f1e24ed3443e6ae1c5bde7ca700311
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 36%
+source-wordcount: '768'
+ht-degree: 35%
 
 ---
 
@@ -45,6 +45,22 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tr>
 <td>
 <p>La integración de Adobe Express en Adobe Journey Optimizer permite utilizar las herramientas de edición de Adobe Express directamente durante la creación de contenido, lo que permite cambiar el tamaño, eliminar fondos, recortar y convertir recursos a JPEG o PNG.<p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>métricas de recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Las métricas de recorrido le permitirán medir el impacto de sus actividades en las métricas más importantes para su empresa y proporcionar una perspectiva más clara de su rendimiento.</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
