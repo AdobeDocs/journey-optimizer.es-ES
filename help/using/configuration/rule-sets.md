@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '2013'
 ht-degree: 12%
 
 ---
@@ -35,7 +35,7 @@ Por ejemplo, puede crear un conjunto de reglas para limitar el número de **comu
 
 ### Conjuntos de reglas globales y personalizadas {#global-custom}
 
-Al obtener acceso a los conjuntos de reglas por primera vez desde el menú **[!UICONTROL Administración]** > **[!UICONTROL Reglas de negocio (Beta)]**, se crea previamente y se activa un conjunto de reglas predeterminado: **Conjunto de reglas predeterminado global**.
+Al obtener acceso a los conjuntos de reglas por primera vez desde el menú **[!UICONTROL Administración]** > **[!UICONTROL Reglas de negocio]**, ya se ha creado y activado un conjunto de reglas predeterminado: **Conjunto de reglas predeterminado global**.
 
 Este conjunto de reglas contiene reglas globales que puede aplicar para controlar la frecuencia con la que los usuarios reciben mensajes a través de uno o varios canales, de forma similar a como funcionan las reglas empresariales actuales. Todas las reglas definidas en este conjunto de reglas se aplican a todos los canales seleccionados, independientemente de si las comunicaciones se envían desde un recorrido o desde una campaña. [Aprenda a trabajar con reglas empresariales](../configuration/rule-sets.md)
 
@@ -55,6 +55,10 @@ Al crear un conjunto de reglas, debe especificar si las reglas dentro del conjun
 * Dominio **Channel**: aplique reglas de límite para los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día.
 * Dominio **Recorrido**: aplique reglas de límite de entrada y concurrencia a un recorrido. Por ejemplo, no introduzca perfiles en más de un recorrido simultáneamente.
 
+>[!AVAILABILITY]
+>
+>Mientras que los conjuntos de reglas de dominio **Channel** están disponibles para todos los usuarios, los conjuntos de reglas de dominio **Recorrido** solo están disponibles para un conjunto limitado de usuarios (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+
 ## Creación de su primer conjunto de reglas personalizadas {#create-rule-set}
 
 ### Cree el conjunto de reglas y seleccione su dominio {#create}
@@ -62,6 +66,8 @@ Al crear un conjunto de reglas, debe especificar si las reglas dentro del conjun
 Para crear un conjunto de reglas, siga los pasos a continuación.
 
 >[!NOTE]
+>
+>Para crear un conjunto de reglas, necesita tener el permiso `Manage Messages Presets`. [Más información sobre la administración de usuarios](../administration/permissions-overview.md)
 >
 >Puede crear hasta 3 conjuntos de reglas locales de dominio de canal y hasta 5 conjuntos de reglas locales de dominio de recorrido.
 
@@ -74,6 +80,10 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 1. Seleccione el dominio del conjunto de reglas. El dominio le permite especificar si el conjunto de reglas contendrá reglas de límite específicas para los canales de comunicación o para los recorridos. [Más información sobre las reglas de límite de recorrido y canal](#domain)
 
    ![](assets/rule-sets-create.png)
+
+   >[!AVAILABILITY]
+   >
+   >Mientras que los conjuntos de reglas de dominio **Channel** están disponibles para todos los usuarios, los conjuntos de reglas de dominio **Recorrido** solo están disponibles para un conjunto limitado de usuarios (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -208,7 +218,7 @@ Su estado cambiará a **[!UICONTROL Inactivo]** y la regla no se aplicará a fut
 
 ## Acceso y administración de conjuntos de reglas {#access-rule-sets}
 
-Todos los conjuntos de reglas creados se muestran en el menú **[!UICONTROL Administración]** > **[!UICONTROL Reglas de negocio (Beta)]**. Se ordenan por fecha de la última modificación.
+Todos los conjuntos de reglas creados se muestran en el menú **[!UICONTROL Administración]** > **[!UICONTROL Reglas de negocio]**. Se ordenan por fecha de la última modificación.
 
 ![](assets/rule-sets-list.png)
 

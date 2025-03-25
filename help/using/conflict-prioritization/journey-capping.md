@@ -5,9 +5,9 @@ role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '941'
 ht-degree: 23%
 
 ---
@@ -25,6 +25,10 @@ La restricción de recorrido le ayuda a limitar el número de recorridos en los 
 
 Ambos tipos de límite de recorrido aprovechan las puntuaciones de prioridad para arbitrar entradas.
 
+>[!AVAILABILITY]
+>
+>Los conjuntos de reglas de dominio **Recorrido** solo están disponibles para un conjunto limitado de usuarios (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+
 ➡️ [Descubra esta función en vídeo](#video)
 
 ## Crear una regla de restricción de recorrido {#create-rule}
@@ -41,7 +45,7 @@ Ambos tipos de límite de recorrido aprovechan las puntuaciones de prioridad par
 
 Para crear una regla de límite de recorrido, siga estos pasos:
 
-1. Vaya al menú **[!UICONTROL Reglas de negocio (Beta)]** para acceder al inventario de conjuntos de reglas.
+1. Vaya al menú **[!UICONTROL Reglas de negocio]** para acceder al inventario de conjuntos de reglas.
 
 1. Seleccione el conjunto de reglas en el que desea agregar la regla de límite o cree un nuevo conjunto de reglas:
 
