@@ -5,10 +5,10 @@ role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 23%
+source-wordcount: '944'
+ht-degree: 24%
 
 ---
 
@@ -77,7 +77,7 @@ Para crear una regla de límite de recorrido, siga estos pasos:
 
      >[!AVAILABILITY]
      >
-     >La duración &quot;Diaria&quot; solo está disponible bajo demanda. Para obtener acceso, póngase en contacto con su representante de Adobe.
+     >La duración &quot;Diaria&quot; solo está disponible para un conjunto de organizaciones (Disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
      En este ejemplo, queremos restringir la entrada de perfiles en más de &quot;5&quot; recorridos en un mes.
 
