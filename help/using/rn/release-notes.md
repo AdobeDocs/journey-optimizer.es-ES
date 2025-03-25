@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
+source-git-commit: d023eaba1205ea8bfb402b195bfd341dae4f59d3
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1410'
 ht-degree: 64%
 
 ---
@@ -82,7 +82,6 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <ul>
 <li>Administración centralizada de recursos con actualizaciones en tiempo real</li>
 <li>Modifique la configuración de los recursos, como la anchura y la altura, al instante</li>
-<li>Personalice el contenido mediante imágenes con superposiciones de texto</li>
 <li>Personalice las plantillas de Dynamic Media actualizando el contenido y añadiendo campos de personalización</li>
 </ul>
 <p>
@@ -135,6 +134,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 **Editor de Personalization** (fecha de disponibilidad: 12 de marzo)
 
 El editor de personalización de Journey Optimizer se ha actualizado con nuevas funciones:
+
 * **Diseño actualizado del editor de código**: una interfaz más clara y moderna para mejorar la facilidad de uso y el enfoque.
 * **Buscar y reemplazar**: funcionalidad añadida para buscar y reemplazar contenido rápidamente en el editor.
 * **Compatibilidad con Deshacer y Rehacer**: permite revertir o volver a aplicar fácilmente los cambios.
@@ -174,7 +174,7 @@ Ahora puede utilizar un límite de frecuencia diario en recorridos y campañas c
 
 **Administración de contenido**
 
-Para administrar fácilmente los fragmentos y las plantillas de contenido, ahora puede utilizar carpetas para organizarlos de forma más eficaz en una jerarquía estructurada.
+Para administrar fácilmente los fragmentos y las plantillas de contenido, ahora puede utilizar carpetas para organizarlos de forma más eficaz en una jerarquía estructurada. Esta mejora solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 
 ## Notas de la versión de febrero de 2025 {#25-02-rn}
