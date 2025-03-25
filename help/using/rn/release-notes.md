@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
+source-git-commit: 1776d9fa7352fc41d52f685c0a402e60bced348d
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 62%
+source-wordcount: '1441'
+ht-degree: 61%
 
 ---
 
@@ -160,13 +160,11 @@ Se ha agregado un nuevo botón &quot;Píldoras&quot; al editor de personalizaci�
 
 Al definir las condiciones de una directiva de aprobación, ahora tiene la opción de filtrar por Etiqueta o Categoría de objeto.
 
-**Configuración de canal**
+Configuración de ****
 
-Ahora puede asignar etiquetas unificadas de Adobe Experience Platform a las configuraciones de canal. Esto le permite clasificarlas fácilmente y mejorar la búsqueda y la navegación en todas las listas.
+* Ahora puede asignar etiquetas unificadas de Adobe Experience Platform a las configuraciones de canal. Esto le permite clasificarlas fácilmente y mejorar la búsqueda y la navegación en todas las listas.
 
-**Capacidad de entrega**
-
-Ahora puede delegar subdominios con DMARC administrado desde el lado principal.
+* Al configurar o editar un subdominio de correo electrónico en Journey Optimizer, ahora puede elegir administrar el registro de DMARC asociado por su cuenta, si está disponible en el dominio principal.
 
 **Reglas de negocio**
 
