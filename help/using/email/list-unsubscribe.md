@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
-workflow-type: ht
-source-wordcount: '765'
-ht-degree: 100%
+source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+workflow-type: tm+mt
+source-wordcount: '1294'
+ht-degree: 51%
 
 ---
 
@@ -20,15 +20,44 @@ ht-degree: 100%
 
 <!--Do not modify - Legal Review Done -->
 
-Al establecer una nueva configuración de canal de correo electrónico, tras [seleccionar un subdominio](email-settings.md#subdomains-and-ip-pools) en la lista, aparece la opción **[!UICONTROL Habilitar cancelación de suscripción a lista]**.
+En [!DNL Adobe Journey Optimizer], al configurar un nuevo canal de correo electrónico, al [seleccionar un subdominio](email-settings.md#subdomains-and-ip-pools) de la lista, se muestra la opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]**. De forma predeterminada, está habilitada.
 
 ![](assets/preset-list-unsubscribe.png)
 
-## Habilitar cancelación de suscripción a lista {#enable-list-unsubscribe}
+La URL &quot;Cancelar la suscripción&quot; de una lista con un solo clic es un vínculo o botón &quot;Cancelar la suscripción&quot; que se muestra junto a la información del remitente del correo electrónico y permite a los destinatarios excluirse instantáneamente de sus listas de correo con un solo clic.
 
-Esta opción está habilitada de forma predeterminada para incluir una URL de cancelación de suscripción con un solo clic en el encabezado del correo electrónico, como por ejemplo:
+Por ejemplo, la URL de cancelación de suscripción de un clic muestra un vínculo como el siguiente en Gmail:
 
 ![](assets/preset-list-unsubscribe-header.png)
+
+>[!IMPORTANT]
+>
+>Para mostrar la URL &quot;Cancelar la suscripción&quot; con un solo clic en el encabezado del correo electrónico, el cliente de correo electrónico de los destinatarios debe admitir esta función.
+
+Según el cliente de correo electrónico y la configuración de correo electrónico para la cancelación de la suscripción, hacer clic en el vínculo de cancelación de suscripción en el encabezado del correo electrónico puede tener los siguientes impactos:
+
+* Cuando la característica **Mailto (cancelar la suscripción)** está habilitada, la solicitud de cancelación de suscripción se envía a la dirección de cancelación de suscripción predeterminada según el subdominio que haya configurado.
+* Cuando la función **Cancelar la suscripción con un solo clic** está habilitada (o si insertó una URL de cancelación de suscripción en el contenido del cuerpo del correo electrónico), el destinatario se excluye directamente, ya sea en el nivel de canal o en el nivel de ID (según cómo se configure el consentimiento), cuando el destinatario hace clic en la URL de cancelación de suscripción con un solo clic (según el subdominio que haya configurado).
+
+>[!NOTE]
+>
+>Aprenda a administrar la configuración de cancelación de suscripción en [esta sección](#enable-list-unsubscribe) a continuación.
+
+En ambos casos, el perfil correspondiente del destinatario se excluye inmediatamente y esta opción se actualiza en [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
+
+>[!NOTE]
+>
+>En [!DNL Journey Optimizer], el consentimiento se gestiona mediante el [Esquema de consentimiento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"} de Experience Platform. De forma predeterminada, el valor del campo de consentimiento está vacío y se trata como consentimiento para recibir sus comunicaciones. Puede modificar este valor predeterminado al incorporar uno de los posibles valores enumerados [aquí](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=es#choice-values){target="_blank"}, o usar [directivas de consentimiento](../action/consent.md) para anular la lógica predeterminada.
+
+## Habilitar cancelación de suscripción a lista {#enable-list-unsubscribe}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_unsubscribe"
+>title="Añadir una URL de cancelación de suscripción a los correos electrónicos"
+>abstract="Active esta opción para añadir automáticamente una URL de cancelación de suscripción al encabezado del correo electrónico. También puede establecer una URL de cancelación de suscripción en un mensaje, insertando un vínculo de no participación con un solo clic en el contenido del correo electrónico."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Configuración de la exclusión en un clic del contenido del correo electrónico"
+
+Cuando la opción **[!UICONTROL Enable List-Unsubscribe]** está habilitada, si es compatible con el cliente de correo electrónico de los destinatarios, el encabezado del correo electrónico incluye un mailto y/o una URL de forma predeterminada que los destinatarios pueden usar para cancelar la suscripción a su lista de correo.
 
 >[!NOTE]
 >
@@ -38,23 +67,27 @@ El encabezado Cancelación de suscripción a lista ofrece dos opciones que está
 
 ![](assets/surface-list-unsubscribe.png){width="80%"}
 
-* Una dirección **[!UICONTROL Mailto (cancelar la suscripción)]**, que es la dirección de destino a la que se dirigen las solicitudes de cancelación de suscripción para el procesamiento automático.
+* Una dirección **[!UICONTROL Mailto (cancelación de suscripción)]**, que es la dirección de destino a la que se dirigen las solicitudes de cancelación de suscripción para el procesamiento automático. En [!DNL Journey Optimizer], la dirección de correo electrónico para cancelar la suscripción es la dirección predeterminada **[!UICONTROL Mailto (cancelar la suscripción)]** mostrada en la configuración del canal, según el [subdominio seleccionado](email-settings.md#subdomains). <!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
 
-  En [!DNL Journey Optimizer], la dirección de correo electrónico de cancelación de suscripción es la dirección predeterminada **[!UICONTROL Mailto (cancelar la suscripción)]** mostrada en la configuración de canal, según el [subdominio seleccionado](#subdomains-and-ip-pools). <!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->.
-
-* La **[!UICONTROL URL de cancelación de suscripción de un solo clic]**, que de forma predeterminada es el encabezado Cancelación de suscripción a lista generado por la URL de exclusión en un clic, según el subdominio que haya establecido y configurado en los ajustes de la configuración de canal.<!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
+* La URL **[!UICONTROL Cancelar la suscripción con un solo clic]**, que de forma predeterminada es el encabezado de cancelación de la suscripción a la lista generado por la URL de exclusión con un solo clic, basado en el [subdominio seleccionado](email-settings.md#subdomains). <!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
 Puede seleccionar el **[!UICONTROL Nivel de consentimiento]** en la lista desplegable correspondiente. Puede ser específico del canal o de la identidad del perfil. En función de esta configuración, cuando un usuario cancela la suscripción mediante la URL de cancelación de suscripción a lista en el encabezado de un correo electrónico, el consentimiento se actualiza en [!DNL Adobe Journey Optimizer], a nivel de canal o de ID.
 
+## Protecciones y recomendaciones {#list-unsubscribe-guardrails}
+
+La función de cancelación de suscripción de URL de lista de un solo clic permite a los destinatarios excluirse fácilmente de sus comunicaciones. Sin embargo, como no todos los clientes de correo electrónico admiten este vínculo en el encabezado del correo electrónico, Adobe recomienda que también agregue un [vínculo de no participación de un solo clic](email-opt-out.md#one-click-opt-out) o un [vínculo para cancelar la suscripción](email-opt-out.md#add-unsubscribe-link) al cuerpo del correo electrónico.
+
 La función **[!UICONTROL Mailto (cancelar la suscripción)]** y la función **[!UICONTROL URL de cancelación de suscripción de un solo clic]** son opcionales.
 
-Si no desea utilizar la URL de cancelación de suscripción de un solo clic generada predeterminada, puede desactivar la función. En el escenario donde la opción **[!UICONTROL Habilitar cancelación de suscripción a lista]** está activada y la función **[!UICONTROL URL de cancelación de suscripción de un solo clic]** está desactivada, si añade un [vínculo de no participación de un solo clic](../email/email-opt-out.md#one-click-opt-out) a un mensaje creado con esta configuración, el encabezado Cancelación de suscripción a lista recupera el vínculo de no participación de un solo clic que ha insertado en el cuerpo del correo electrónico y lo utiliza como valor de URL de cancelación de suscripción de un solo clic.
+* Si ha activado la opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]** en la [configuración de correo electrónico](email-settings.md), le recomendamos que habilite ambos métodos: **Mailto (cancelación de suscripción)** y **URL de cancelación de suscripción con un solo clic**. No todos los clientes de correo electrónico admiten el método HTTP. Con la función de cancelación de suscripción a una lista Mailto que se proporciona para que seleccione una alternativa, su reputación de remitente puede estar mejor protegida y todos sus destinatarios pueden tener acceso para utilizar la funcionalidad de cancelación de suscripción.
 
-![](assets/preset-list-unsubscribe-opt-out-url.png)
+* Si no desea utilizar la URL de cancelación de suscripción generada de un solo clic predeterminada, puede desactivar la función.
 
->[!NOTE]
->
->Si no añade un vínculo de no participación de un solo clic al contenido del mensaje y la opción predeterminada **[!UICONTROL URL de cancelación de suscripción de un solo clic]** no está marcada en la configuración de canal, no se pasa ninguna dirección URL al encabezado del correo electrónico como parte del encabezado Cancelación de suscripción a lista.
+   * En el escenario donde la opción **[!UICONTROL Habilitar cancelación de suscripción a lista]** está activada y la función **[!UICONTROL URL de cancelación de suscripción de un solo clic]** está desactivada, si añade un [vínculo de no participación de un solo clic](../email/email-opt-out.md#one-click-opt-out) a un mensaje creado con esta configuración, el encabezado Cancelación de suscripción a lista recupera el vínculo de no participación de un solo clic que ha insertado en el cuerpo del correo electrónico y lo utiliza como valor de URL de cancelación de suscripción de un solo clic.
+
+     ![](assets/preset-list-unsubscribe-opt-out-url.png)
+
+   * Si no añade un vínculo de no participación de un solo clic al contenido del mensaje y la opción predeterminada **[!UICONTROL URL de cancelación de suscripción de un solo clic]** no está marcada en la configuración de canal, no se pasa ninguna dirección URL al encabezado del correo electrónico como parte del encabezado Cancelación de suscripción a lista.
 
 Obtenga más información sobre cómo administrar las funciones de cancelación de suscripción en sus mensajes en [esta sección](../email/email-opt-out.md#unsubscribe-header).
 
@@ -65,9 +98,16 @@ Obtenga más información sobre cómo administrar las funciones de cancelación 
 >title="Definir cómo se administran los datos de cancelación de suscripción"
 >abstract="**Administrado por Adobe**: es usted quien administra los datos de consentimiento dentro del sistema de Adobe.<br>**Administrado por el cliente**: es usted quien administra los datos de consentimiento en un sistema externo y no se actualizará ninguna sincronización de los datos de consentimiento en el sistema de Adobe a menos que usted la inicie."
 
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_unsubscribe_custom_url"
+>title="Introduzca su propia URL de cancelación de suscripción con un solo clic"
+>abstract="La URL **Cancelar suscripción con un solo clic** debe usar el método de petición POST."
+
 Si está administrando el consentimiento fuera de Adobe, seleccione la opción **[!UICONTROL Administrado por el cliente]** para introducir una dirección de correo electrónico de cancelación de suscripción personalizada y su propia URL de cancelación de suscripción de un solo clic.
 
 ![](assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+La URL para cancelar la suscripción de **[!UICONTROL un clic]** debe ser una URL de POST.
 
 >[!WARNING]
 >
@@ -75,7 +115,7 @@ Si está administrando el consentimiento fuera de Adobe, seleccione la opción *
 
 ### Configuración de la API de descifrado {#configure-decrypt-api}
 
-Con la opción **[!UICONTROL Administrado por el cliente]** seleccionada, si introduce puntos finales personalizados y los utiliza en una campaña o un recorrido, [!DNL Journey Optimizer] añade algunos parámetros específicos de perfil predeterminados al evento de actualización de consentimiento <!--sent to the custom endpoint -->cuando los destinatarios hacen clic en el vínculo Cancelar la suscripción.
+Con la opción **[!UICONTROL Administrado por el cliente]** seleccionada, si introduce puntos de conexión personalizados y los utiliza en una campaña o recorrido, [!DNL Journey Optimizer] adjunta algunos parámetros específicos de perfil predeterminados al evento de actualización de consentimiento <!--sent to the custom endpoint -->cuando los destinatarios hacen clic en el vínculo de cancelación de suscripción.
 
 Estos parámetros se envían al punto final de forma cifrada. Por lo tanto, el sistema de consentimiento externo necesita implementar una API específica a través de [Adobe Developer](https://developer.adobe.com){target="_blank"} para descifrar los parámetros enviados por Adobe.
 
@@ -104,6 +144,28 @@ Requisitos de encabezado:
 * x-gw-ims-org-id
 * authorization (token de usuario de su cuenta técnica)
 
+A continuación se muestran parámetros de ejemplo y la respuesta de consentimiento:
+
+| Parámetro de consulta | Carga útil de ejemplo |
+|---------|----------|
+| pid | {<br>&quot;pid&quot; : &quot;5142733041546020095851529937068211571&quot;,<br>&quot;pns&quot; : &quot;CRMID&quot;,<br>&quot;e&quot;    : &quot;john@google.com&quot;,<br>&quot;ens&quot; : &quot;Correo electrónico&quot;,<br>} |
+| parámetros | {<br>&quot;m&quot; : &quot;messageExecutionId&quot;,<br>&quot;ci&quot; : &quot;campaignId&quot;,<br>&quot;jv&quot; : &quot;journeyVersionId&quot;,<br>&quot;ja&quot; : &quot;journeyActionId&quot;,<br>&quot;s&quot; : &quot;sandboxId&quot;,<br>&quot;us&quot; : &quot;unsubscribeScope&quot;<br>} |
+
+Respuesta de consentimiento:
+
+```
+{
+    "profileNameSpace": " CRMID ",
+    "profileId": "5142733041546020095851529937068211571",
+    "emailAddress": "john@google.com",
+    "emailNameSpace": "Email",
+    "sandboxId": "sandboxId",
+    "optOutLevel": "channel",
+    "channelType": "email",
+    "timestamp": "2024-11-26T14:25:09.316930Z"
+}
+```
+
 +++
 
 +++ Mailto (cancelar la suscripción)
@@ -125,5 +187,26 @@ Requisitos de encabezado:
 * x-api-key
 * x-gw-ims-org-id
 * authorization (token de usuario de su cuenta técnica)
+
+A continuación se muestran parámetros de ejemplo y la respuesta de consentimiento:
+
+| Parámetro de consulta | Carga útil de ejemplo |
+|---------|----------|
+| emailParams | {<br>&quot;p&quot; : &quot;profileId&quot;,<br>&quot;pn&quot; : &quot;profileNamespace&quot;,<br>&quot;en&quot; : &quot;emailNamespace&quot;,<br>&quot;ci&quot; : &quot;campaignId&quot;,<br>&quot;jv&quot; : &quot;journeyVersionId&quot;,<br>&quot;ja&quot; : &quot;journeyActionId&quot;,<br>&quot;si&quot; : &quot;sandboxId&quot;,<br>&quot;us&quot;: &quot;unsubscribeScope&quot;<br>} |
+
+Respuesta de consentimiento:
+
+```
+{
+    "profileNameSpace": " CRMID ",
+    "profileId": "5142733041546020095851529937068211571",
+    "emailAddress": "john@google.com",
+    "emailNameSpace": "Email",
+    "sandboxId": "sandboxId",
+    "optOutLevel": "channel",
+    "channelType": "email",
+    "timestamp": "2024-11-26T14:25:09.316930Z"
+}
+```
 
 +++
