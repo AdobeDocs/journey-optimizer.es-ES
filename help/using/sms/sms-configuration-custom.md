@@ -8,14 +8,34 @@ badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
+source-git-commit: 201d7d367540f7b36f27ca4a09b6f0ce12e3e22f
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 1%
+source-wordcount: '376'
+ht-degree: 2%
 
 ---
 
 # Configuración de un proveedor personalizado {#sms-configuration-custom}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_provider_url"
+>title="URL del proveedor"
+>abstract="Especifique la URL de la API externa a la que desea conectarse. Esta URL sirve como punto final para acceder a las funciones y características de la API."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_auth_type"
+>title="Tipo de autenticación"
+>abstract="Especifique el método de autenticación necesario para acceder a la API, como OAuth o tokens de portador. Esto garantiza una comunicación segura y autorizada con el servicio externo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_header_parameters"
+>title="Parámetros de encabezado"
+>abstract="Especifique la etiqueta, el tipo y el valor de los encabezados adicionales para habilitar la autenticación adecuada, el formato del contenido y la comunicación eficaz de la API. "
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_provider_payload"
+>title="Carga útil del proveedor"
+>abstract="Proporcione la carga útil de solicitud para garantizar que se envían los datos correctos para el procesamiento y la generación de respuestas."
 
 >[!AVAILABILITY]
 >
