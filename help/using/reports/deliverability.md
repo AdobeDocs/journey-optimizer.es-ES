@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 19%
+source-wordcount: '1138'
+ht-degree: 18%
 
 ---
 
@@ -90,7 +90,7 @@ Adobe Journey Optimizer ofrece una forma estandarizada y eficaz de añadir las d
 
 ## Implementación de DMARC {#dmarc}
 
-Para ayudarle a mitigar el riesgo de que los correos electrónicos legítimos se marquen como correo no deseado o se rechacen, y para evitar problemas de envío, [!DNL Journey Optimizer] le permite configurar el registro de DMARC para todos los subdominios que delega en el Adobe.
+Para ayudarle a mitigar el riesgo de que los correos electrónicos legítimos se marquen como correo no deseado o se rechacen, y para evitar problemas de envío, [!DNL Journey Optimizer] le permite configurar el registro de DMARC para todos los subdominios que delega a Adobe.
 
 Autenticación de mensajes, creación de informes y conformidad basados en dominio (DMARC) es un método de autenticación por correo electrónico que permite a los propietarios de dominios proteger su dominio contra el uso no autorizado por parte de agentes malintencionados.
 
@@ -106,7 +106,7 @@ Autenticación de mensajes, creación de informes y conformidad basados en domin
 
 Un bucle de comentarios (FBL) es un servicio ofrecido por algunos ISP que permite notificar automáticamente al remitente del correo electrónico cuando el usuario que lo recibe decide marcarlo como correo no deseado (también conocido como &quot;queja&quot;).
 
-Una vez que un usuario final genera una queja que el ISP devuelve al Adobe, la dirección de correo electrónico se agrega automáticamente a la [lista de supresión](../reports/suppression-list.md) y se excluye de futuros envíos. De hecho, enviar correos electrónicos a usuarios que los marcaron como correo no deseado afecta negativamente a la reputación del remitente y puede causar problemas de envío. [Más información sobre quejas por spam](../reports/suppression-list.md#spam-complaints)
+Una vez que un usuario final genera una queja que el ISP devuelve a Adobe, la dirección de correo electrónico se agrega automáticamente a la [lista de supresión](../reports/suppression-list.md) y se excluye de futuros envíos. De hecho, enviar correos electrónicos a usuarios que los marcaron como correo no deseado afecta negativamente a la reputación del remitente y puede causar problemas de envío. [Más información sobre quejas por spam](../reports/suppression-list.md#spam-complaints)
 
 >[!IMPORTANT]
 >
@@ -170,4 +170,14 @@ Todos los clientes de Adobe se inscriben automáticamente en los FBL tradicional
 
 * Ziggo
 
-El Adobe audita estos FBL regularmente para asegurarse de que se añaden los últimos FBL disponibles.
+Adobe audita estos FBL regularmente para asegurarse de que se añaden los FBL más recientes disponibles.
+
+## Usar retransmisión SMTP {#smtp-relay}
+
+[!DNL Journey Optimizer] utiliza agentes de transferencia de correo (MTA) e IP propiedad de Adobe para entregar sus correos electrónicos a los proveedores de servicios de Internet (ISP). Sin embargo, en algunos casos puede que desee enrutar los envíos de correo electrónico finales a través de sus propios MTA e IP, o para realizar validaciones finales en los correos electrónicos antes de enviarlos a sus destinatarios.
+
+En este caso, puede elegir que los correos electrónicos se retransmitan a servidores SMTP alojados por su organización en lugar de enviarse directamente desde Journey Optimizer a los ISP.
+
+>[!AVAILABILITY]
+>
+>La capacidad de retransmisión SMTP está disponible bajo demanda: póngase en contacto con su representante de Adobe.

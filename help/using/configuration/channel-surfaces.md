@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1737'
-ht-degree: 13%
+source-wordcount: '1800'
+ht-degree: 12%
 
 ---
 
@@ -271,6 +271,19 @@ No puede editar directamente una configuración de canal desactivada. Sin embarg
 
 ![](assets/preset-activate.png)
 
+## Añadir etiquetas a una configuración de canal {#channel-config-tags}
+
+1. Acceda a la lista de configuraciones de canal.
+
+1. Para la configuración activa que elija, haga clic en el botón **[!UICONTROL Más acciones]**.
+
+1. Haga clic en **[!UICONTROL Editar etiquetas]**.
+
+1. Seleccione Adobe Experience Platform tags de la lista para categorizar la configuración del canal y mejorar la búsqueda. [Aprenda a trabajar con etiquetas unificadas](../start/search-filter-categorize.md#tags)
+
+   ![](assets/config-edit-tags.png)
+
+1. Una vez que haya asignado etiquetas a las configuraciones de canal, puede [filtrarlas](../start/search-filter-categorize.md#filter-on-tags) en las etiquetas.
 
 ## Vídeo práctico{#video-presets}
 

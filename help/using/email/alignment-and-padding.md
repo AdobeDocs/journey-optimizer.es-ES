@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: alineación vertical, editor de correo electrónico, relleno
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 14%
+source-wordcount: '199'
+ht-degree: 12%
 
 ---
 
@@ -41,3 +41,7 @@ En este ejemplo, se ajusta el relleno y la alineación vertical dentro de un com
 1. Proceda de forma similar para ajustar la alineación y el relleno de las demás columnas.
 
 1. Guarde los cambios.
+
+>[!TIP]
+>
+>Al diseñar contenido de correo electrónico para Gmail en dispositivos Android, asegúrese de que las imágenes y los divisores utilicen relleno de columna en lugar de márgenes fijos y grandes. Gmail en Android a menudo procesa imágenes y márgenes de gran tamaño incorrectamente, lo que provoca desbordamientos de diseño o líneas divisorias reducidas. Utilice un ancho de imagen menor o confíe en el relleno basado en columnas para lograr una visualización uniforme.

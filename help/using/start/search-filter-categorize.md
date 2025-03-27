@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: cbd121dda4093fdea6f6bded02e8ae3e188e827d
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 99%
 
 ---
 
@@ -69,6 +69,7 @@ El campo **[!UICONTROL Etiquetas]** le permite definir etiquetas para el objeto.
 * [Páginas de aterrizaje](../landing-pages/create-lp.md)
 * [Listas de suscripciones](../landing-pages/subscription-list.md)
 * [Plantillas](../content-management/content-templates.md)
+* [Configuraciones de canal](../configuration/channel-surfaces.md#channel-config-tags)
 
 Puede seleccionar una etiqueta existente o crear una nueva. Para ello, siga los pasos que aparecen a continuación.
 

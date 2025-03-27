@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 99%
+source-wordcount: '2314'
+ht-degree: 97%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 99%
    + Creación de un recorrido{#create-journey}
       + [Creación de su primer recorrido](using/building-journeys/journey-gs.md)
       + [Establecimiento de las propiedades del recorrido](using/building-journeys/journey-properties.md)
+      + [Configuración y seguimiento de la métrica de recorridos](using/building-journeys/success-metrics.md)
       + [Diseño de un recorrido](using/building-journeys/using-the-journey-designer.md)
       + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
       + [Simulación del recorrido](using/building-journeys/journey-simulation.md)
@@ -324,6 +325,11 @@ ht-degree: 99%
          + [Configuración de la compatibilidad con tarjetas de contenido en SDK web](using/content-card/content-card-configuration-sdk.md)
       + [Creación de tarjetas de contenido](using/content-card/create-content-card.md)
       + [Diseño de tarjetas de contenido](using/content-card/design-content-card.md)
+   + WhatsApp{#whatsapp}
+      + [Introducción a los mensajes de WhatsApp](using/whatsapp/get-started-whatsapp.md)
+      + [Configuración del canal de WhatsApp en Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
+      + [Crear un mensaje de WhatsApp](using/whatsapp/create-whatsapp.md)
+      + [Comprueba y envía tus mensajes de WhatsApp](using/whatsapp/send-whatsapp.md)
 + Páginas de aterrizaje {#landing-pages}
    + [Introducción a las páginas de aterrizaje](using/landing-pages/get-started-lp.md)
    + [Creación de una página de aterrizaje](using/landing-pages/create-lp.md)
@@ -419,9 +425,11 @@ ht-degree: 99%
    + [Integraciones con otras soluciones](using/integrations/ajo-integrations.md)
    + [Trabajar con Experience Manager Assets](using/integrations/assets.md)
    + [Trabajar con Adobe Stock](using/integrations/stock.md)
+   + [Trabajo con Adobe Express](using/integrations/express.md)
    + [Trabajar con plantillas de Experience Manager](using/integrations/aem-templates.md)
    + [Trabajar con fragmentos de contenido de Experience Manager](using/integrations/aem-fragments.md)
    + [Trabajar con Dynamic Media](using/integrations/aem-dynamic.md)
+   + [Trabajo con GenStudio](using/integrations/genstudio.md)
 + Seguimiento y monitorización {#reporting}
    + Informe en vivo {#live-report}
       + [Introducción al Informe activo](using/reports/live-report.md)
