@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 21%
+source-wordcount: '733'
+ht-degree: 20%
 
 ---
 
@@ -114,6 +114,11 @@ Una vez creada, puede utilizar esta fórmula en una estrategia de selección. Si
 
 ### Clasificación de IA {#ai-ranking}
 
-También puede utilizar un sistema de modelos entrenado que clasifique automáticamente las ofertas para un perfil determinado seleccionando un modelo de IA. Aprenda a crear un modelo de IA en [esta sección](ranking.md).
+También puede utilizar un sistema de modelos entrenado que clasifique automáticamente las ofertas para un perfil determinado seleccionando un modelo de IA. Aprenda a crear un modelo de IA en [esta sección](../offers/ranking/ai-models.md).
 
 Una vez creado un modelo de IA, puede utilizarlo en una estrategia de selección. Si se admiten varias ofertas, el sistema de modelos entrenado determinará qué oferta debe presentarse primero para esta estrategia de selección.
+
+>[!NOTE]
+>
+>Actualmente, el informe [Medición de alza](../offers/ranking/auto-optimization-model.md#lift) solo está disponible para el modelo de IA de [Optimización personalizada](../offers/ranking/personalized-optimization-model.md).
+

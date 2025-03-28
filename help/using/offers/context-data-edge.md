@@ -6,13 +6,13 @@ description: Obtenga información sobre cómo pasar datos de contexto en solicit
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # Datos de contexto y solicitudes de Edge Decisioning {#edge}
 
@@ -21,7 +21,7 @@ Esta sección le guía a través del paso de datos de contexto en solicitudes de
 Este caso de uso implica varios pasos clave:
 
 1. [Configurar requisitos previos](#prerequisites): Asegúrese de que se hayan completado todos los pasos necesarios para pasar los datos de contexto en sus solicitudes.
-1. [Usar datos de contexto en las reglas de idoneidad](#rule): cree reglas que determinen qué ofertas mostrar en función del tipo de dispositivo del usuario.
+1. [Usar datos de contexto en reglas de idoneidad](#rules): cree reglas que determinen qué ofertas mostrar en función del tipo de dispositivo del usuario.
 1. [Diseñar ofertas específicas del dispositivo](#offers): cree ofertas adaptadas para cada tipo de dispositivo y vincúlelas a las reglas correspondientes.
 1. [Crear una colección de ofertas](#collection): Agrupe todas las ofertas en una colección estática.
 1. [Configurar una decisión](#decision) : Cree una nueva decisión que aproveche el motor de decisión de ofertas para elegir la mejor oferta y presentarla a los usuarios según su tipo de dispositivo.
@@ -149,33 +149,33 @@ Este es un ejemplo de una solicitud que pasa datos de contexto.
 
 ```
 {
-	"events": [{
-		"xdm": {
-			"identityMap": {
-				"customerId": [{
-					"id": "0000158216",
-					"authenticatedState": "authenticated",
-					"primary": true
-				}]
-			},
-			"_experienceplatform": {
-				"identity": {
-					"core": {
-						"customerId": "0000158216"
-					}
-				},
+    "events": [{
+        "xdm": {
+            "identityMap": {
+                "customerId": [{
+                    "id": "0000158216",
+                    "authenticatedState": "authenticated",
+                    "primary": true
+                }]
+            },
+            "_experienceplatform": {
+                "identity": {
+                    "core": {
+                        "customerId": "0000158216"
+                    }
+                },
                 "offerContextData" : {
                     "language" : "NL",
                     "deviceType" : "iphone"
                 }
-			}
-		}
-	}],
-	"query": {
-		"personalization": {
-			"decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
-		}
-	}
+            }
+        }
+    }],
+    "query": {
+        "personalization": {
+            "decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
+        }
+    }
 }
 ```
 

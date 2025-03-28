@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
-source-wordcount: '2636'
-ht-degree: 16%
+source-wordcount: '2719'
+ht-degree: 15%
 
 ---
 
@@ -223,7 +223,7 @@ Puede especificar si desea que el límite se aplique a todos los usuarios o a un
 
 * Seleccione **[!UICONTROL En total]** para definir cuántas veces se puede proponer una oferta en la audiencia de destinatario combinada, es decir, en todos los usuarios.
 
-  Por ejemplo, si es un minorista de electrónica con una &quot;oferta de venta de televisores&quot;, quiere que la oferta solo se devuelva 200 veces en todos los perfiles.
+  Por ejemplo, si es un retailer de electrónica con una &quot;oferta de venta de televisores&quot;, quiere que la oferta solo se devuelva 200 veces en todos los perfiles.
 
 * Seleccione **[!UICONTROL Por perfil]** para definir cuántas veces se puede proponer una oferta al mismo usuario.
 
@@ -258,9 +258,9 @@ El campo **[!UICONTROL Restablecer frecuencia límite]** le permite definir la f
 >
 >Después de publicar la oferta, no podrá cambiar el período de tiempo (mensual, semanal o diario) seleccionado para la frecuencia. Puede seguir editando la restricción de frecuencia si la oferta tiene el estado **[!UICONTROL Borrador]** y nunca antes se había publicado con la restricción de frecuencia habilitada.
 
-+++ **Lectura obligatoria: Límite de frecuencia y API de decisiones de Edge**
++++ **Lectura obligatoria: límite de frecuencia y API de administración de decisiones**
 
-El contador de límite de frecuencia se actualiza y está disponible en una decisión de API de Edge Decisioning en menos de 3 segundos.
+El contador de restricción de frecuencia se ha actualizado y está disponible en una decisión de la [API de Edge Decisioning](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge) en menos de 3 segundos.
 
 Cada región concentradora está asociada con una o más regiones perimetrales. Las reglas de límite de frecuencia se generan y exportan desde cada región de concentrador a sus regiones de límite asociadas. Siempre que se toma una decisión mediante la API de Edge Decisioning, el sistema aplica las reglas disponibles en la misma región perimetral:
 
@@ -269,7 +269,17 @@ Cada región concentradora está asociada con una o más regiones perimetrales. 
 
 Por ejemplo, consideremos la región central de su organización como *NLD2* y está enviando una solicitud de toma de decisiones desde Europa (*IRL1* región perimetral). En este escenario, la solicitud de toma de decisiones incrementará el contador del perfil, ya que las reglas están disponibles en la región *IRL1* de (Irlanda). Sin embargo, si la solicitud de toma de decisiones se origina en una región como Japón (*JPN3*), que no es una región perimetral vinculada a la región concentradora *NLD2* de (Países Bajos), no se creará ningún contador y no se aplicarán las reglas de límite de frecuencia.
 
+>[!NOTE]
+>
+>Cuando los contadores se propagan de un extremo a otro o de una región a otra, puede producirse un retraso de unos minutos.
+
 Para obtener más información sobre las regiones de concentrador y perimetral asociadas a su organización, póngase en contacto con su representante de Adobe.
+
+Con las otras API, el contador de límite de frecuencia se actualiza de la siguiente manera:
+
+* En una decisión de la [API de decisiones](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning), el contador de límite de frecuencia se puede actualizar con unos minutos de retraso, según el tráfico.
+
+* En una decisión de la [API de decisiones por lotes](../api-reference/offer-delivery-api/batch-decisioning-api.md), se usan instantáneas donde el contador de límite de frecuencia permanece fijo. Siempre que se utilice la misma instantánea, el contador permanece sin cambios.
 
 +++
 
