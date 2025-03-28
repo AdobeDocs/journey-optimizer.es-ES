@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
+source-git-commit: 1e35c2ea2b0a6c8edd5b870311bb32b4b4b58e9a
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '488'
 ht-degree: 5%
 
 ---
@@ -22,7 +23,7 @@ Al rastrear estas métricas, puede ver el rendimiento de su recorrido, identific
 
 ## Requisitos previos {#prerequisites}
 
-Antes de usar la métrica de recorridos, debe agregar un conjunto de datos que incluya el `Commerce Details` [grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"}.
+Antes de usar la métrica de recorridos, debe agregar un conjunto de datos que incluya los `Commerce Details`, `Web`y `Mobile` [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"}.
 
 ## Métricas disponibles {#metrics}
 
