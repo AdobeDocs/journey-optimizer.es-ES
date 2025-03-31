@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 19%
@@ -81,6 +81,7 @@ La segmentación de streaming es un proceso continuo de selección de datos que 
 >[!IMPORTANT]
 >
 >A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admitirá el uso de eventos **send** y **open** de los conjuntos de datos de comentarios y seguimiento de Journey Optimizer.
+>
 >* Este cambio se aplica a todas las zonas protegidas y organizaciones de clientes.
 >* Solo se ven afectados los eventos de envío y apertura: Los clics y otros eventos de seguimiento permanecen disponibles para la segmentación de flujo continuo.
 >* Este cambio solo se aplica a la segmentación por streaming. Los eventos de envío y apertura se pueden seguir utilizando en segmentos por lotes, pero si se incluyen en un segmento de flujo continuo, se evaluarán por lotes. Además, los eventos de exclusión y los eventos de devolución/retraso resultantes de los eventos de envío también se ven afectados por este cambio.
