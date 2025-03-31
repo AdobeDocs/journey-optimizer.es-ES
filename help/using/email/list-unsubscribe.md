@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 51%
+source-wordcount: '1371'
+ht-degree: 48%
 
 ---
 
@@ -43,11 +43,11 @@ Según el cliente de correo electrónico y la configuración de correo electrón
 >
 >Aprenda a administrar la configuración de cancelación de suscripción en [esta sección](#enable-list-unsubscribe) a continuación.
 
-En ambos casos, el perfil correspondiente del destinatario se excluye inmediatamente y esta opción se actualiza en [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
+En ambos casos, cuando un destinatario hace clic en el vínculo de no participación, su solicitud de cancelación de suscripción se procesa en consecuencia. El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
 
 >[!NOTE]
 >
->En [!DNL Journey Optimizer], el consentimiento se gestiona mediante el [Esquema de consentimiento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"} de Experience Platform. De forma predeterminada, el valor del campo de consentimiento está vacío y se trata como consentimiento para recibir sus comunicaciones. Puede modificar este valor predeterminado al incorporar uno de los posibles valores enumerados [aquí](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=es#choice-values){target="_blank"}, o usar [directivas de consentimiento](../action/consent.md) para anular la lógica predeterminada.
+>En ocasiones, los eventos de cancelación de suscripción pueden tardar más en reflejarse en el nivel de perfil debido al procesamiento de datos descendente. Espere un poco para que se actualice el sistema.
 
 ## Habilitar cancelación de suscripción a lista {#enable-list-unsubscribe}
 
@@ -89,7 +89,13 @@ La función **[!UICONTROL Mailto (cancelar la suscripción)]** y la función **[
 
    * Si no añade un vínculo de no participación de un solo clic al contenido del mensaje y la opción predeterminada **[!UICONTROL URL de cancelación de suscripción de un solo clic]** no está marcada en la configuración de canal, no se pasa ninguna dirección URL al encabezado del correo electrónico como parte del encabezado Cancelación de suscripción a lista.
 
-Obtenga más información sobre cómo administrar las funciones de cancelación de suscripción en sus mensajes en [esta sección](../email/email-opt-out.md#unsubscribe-header).
+  >[!NOTE]
+  >
+  >Obtenga más información sobre cómo administrar las funciones de cancelación de suscripción en sus mensajes en [esta sección](../email/email-opt-out.md#unsubscribe-header).
+
+En [!DNL Journey Optimizer], el consentimiento se gestiona mediante el [Esquema de consentimiento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"} de Experience Platform. De forma predeterminada, el valor del campo de consentimiento está vacío y se trata como consentimiento para recibir sus comunicaciones. Puede modificar este valor predeterminado al incorporar uno de los posibles valores enumerados [aquí](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=es#choice-values){target="_blank"}, o usar [directivas de consentimiento](../action/consent.md) para anular la lógica predeterminada.
+
+Actualmente, [!DNL Journey Optimizer] no anexa una etiqueta específica para cancelar la suscripción a los eventos desencadenados por la característica Cancelar la suscripción a una lista. Si necesita diferenciar los clics de cancelación de suscripción a una lista de otras acciones de cancelación de suscripción, debe implementar el etiquetado personalizado de forma externa o aprovechar una página de aterrizaje externa para el seguimiento.
 
 ## Administrar datos de cancelación de suscripción externamente {#custom-managed}
 

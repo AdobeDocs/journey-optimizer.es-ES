@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: exclusión, correo electrónico, vínculo, cancelación de suscripción
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: 564dcb691d61a2f48694d208644847d7bb65d664
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 29%
+source-wordcount: '991'
+ht-degree: 24%
 
 ---
 
@@ -32,12 +32,19 @@ Para insertar un vínculo de baja en el contenido del correo electrónico, puede
 
 * Insertar un **vínculo a una página de aterrizaje**. [Aprenda a agregar una página de aterrizaje de exclusión](#opt-out-external-lp)
 
+Cuando un destinatario hace clic en el vínculo de no participación, su solicitud de cancelación de suscripción se procesa en consecuencia.
+
+Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y [busque ese perfil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). En la ficha **[!UICONTROL Atributos]**, puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+
+![](assets/opt-out-profile-choice.png)
+
+>[!NOTE]
+>
+>En ocasiones, los eventos de cancelación de suscripción pueden tardar más en reflejarse en el nivel de perfil debido al procesamiento de datos descendente. Espere un poco para que se actualice el sistema.
 
 ## Opción de exclusión en un solo paso {#opt-out-one-step}
 
 Con [!DNL Adobe Journey Optimizer], puede configurar sus [opciones de configuración del correo electrónico](email-settings.md#list-unsubscribe) con una dirección de correo electrónico de cancelación de suscripción y cancelación de suscripción generada automáticamente con un solo clic en el encabezado del correo electrónico, o incluir una dirección URL de exclusión con un solo clic en el cuerpo del correo electrónico.
-
-Cuando un destinatario hace clic en el vínculo de no participación de un solo clic, la solicitud de cancelación de suscripción de ese destinatario se procesa en consecuencia.
 
 ### URL de cancelación de suscripción de un solo clic en el encabezado del correo electrónico {#unsubscribe-header}
 
@@ -170,10 +177,4 @@ Una vez configurado el vínculo &quot;Cancelar la suscripción&quot; a la págin
    ![](assets/opt-out-confirmation-example.png)
 
    Como resultado, este usuario no recibirá comunicaciones de su marca a menos que se vuelva a suscribir.
-
-1. Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
-
-   ![](assets/opt-out-profile-choice.png)
-
-   En la pestaña **[!UICONTROL Atributos]**, puede ver que el valor de **[!UICONTROL elección]** ha cambiado a **[!UICONTROL no]**.
 
