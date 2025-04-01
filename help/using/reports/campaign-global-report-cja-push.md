@@ -7,10 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '495'
+ht-degree: 3%
 
 ---
 
@@ -24,15 +25,13 @@ La tabla **[!UICONTROL Estadísticas de envío]** proporciona un resumen complet
 
 +++ Más información sobre el envío de métricas de estadísticas
 
-* **[!UICONTROL Personas]**: Número de perfiles de usuario que cumplen los requisitos como perfiles de destino para sus notificaciones push.
-
 * **[!UICONTROL Objetivos]**: Número total de notificaciones push procesadas durante el análisis.
 
 * **[!UICONTROL Envíos]**: Número total de envíos para la notificación push.
 
 * **[!UICONTROL Entregado]**: Número de notificaciones push enviadas correctamente, en relación con el número total de notificaciones push enviadas.
 
-* **[!UICONTROL Devoluciones para canales salientes]**: Total de errores acumulados durante el proceso de envío y procesamiento automático de devoluciones en relación con el número total de notificaciones push.
+* **[!UICONTROL Único entregado]**: Número de perfiles que recibieron correctamente al menos una notificación push.
 
 * **[!UICONTROL Errores salientes]**: Número total de errores que impidieron que se enviara a los perfiles.
 
@@ -50,18 +49,15 @@ La tabla **[!UICONTROL Estadísticas de seguimiento]** ofrece una instantánea d
 
 * **[!UICONTROL Tasa de clics (CTR)]**: Porcentaje de usuarios que interactuaron con las notificaciones push.
 
-* **[!UICONTROL Tasa de apertura de clics (CTOR)]**: Número de veces que se abrieron las notificaciones push.
-
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en las notificaciones push.
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido en sus notificaciones push.
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL Acciones personalizadas de inserción]**: Número de acciones personalizadas realizadas por perfiles en respuesta a las notificaciones push.
+
 +++
 
-## Etiquetas de vínculos rastreados {#track-link-label-push}
+## Etiquetas rastreadas {#track-link-label-push}
 
 ![](assets/cja-campaign-push-link-labels.png)
 

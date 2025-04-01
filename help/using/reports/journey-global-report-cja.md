@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 0%
+source-wordcount: '887'
+ht-degree: 1%
 
 ---
 
@@ -43,8 +43,6 @@ Los indicadores clave de rendimiento (KPI) **[!UICONTROL Recorrido]** funcionan 
 
 * **[!UICONTROL Salidas de Recorrido]**: Número total de personas que salieron del recorrido.
 
-* **[!UICONTROL Errores de Recorrido]**: Número total de recorridos individuales que no se ejecutaron correctamente.
-
 +++
 
 ### estadísticas de recorrido {#journey-stats}
@@ -54,6 +52,8 @@ Los indicadores clave de rendimiento (KPI) **[!UICONTROL Recorrido]** funcionan 
 La tabla **[!UICONTROL Estadísticas de Recorrido]** ofrece un resumen detallado de datos cruciales sobre tus recorridos. Incluye métricas clave como el número de errores y las entradas exitosas, lo que proporciona una valiosa perspectiva del rendimiento y el alcance de sus correos electrónicos y recorridos.
 
 +++ Más información sobre las métricas de Estadísticas de Recorrido
+
+* **[!UICONTROL Exclusión de Recorridos]**: Número total de personas que se excluyeron del recorrido debido a criterios predefinidos o reglas de supresión.
 
 * **[!UICONTROL Participación en el Recorrido]**: Número total de individuos únicos que recibieron mensajes enviados a través del recorrido, que representan perfiles distintos que alcanzaron un punto de acción designado en el recorrido.
 
@@ -71,11 +71,21 @@ La tabla **[!UICONTROL Estadísticas de Recorrido]** ofrece un resumen detallado
 
 +++
 
-## lienzo de recorrido {#journey-canvas}
+## exclusión de recorrido {#journey-exclusion}
+
+La tabla **[!UICONTROL exclusión de Recorrido]** presenta una vista completa de los diferentes factores que resultaron en la exclusión de perfiles de usuario.
+
+## Error de acción {#action-error}
+
+![](assets/cja-journey-action-error.png)
+
+El widget **[!UICONTROL Errores de acción]** detalla los diferentes errores que se produjeron para las acciones de su recorrido.
+
+## Lienzo del recorrido  {#journey-canvas}
 
 ![](assets/cja-journey-canvas.png)
 
-El widget **[!UICONTROL Lienzo de Recorrido]** le permite rastrear visualmente la trayectoria de sus perfiles de destino a medida que navegan por su recorrido. [Obtenga más información en la documentación del Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+El widget **[!UICONTROL Lienzo de Recorrido]** le permite rastrear visualmente la trayectoria de sus perfiles de destino a medida que navegan por su recorrido. [Obtenga más información en la documentación de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Mejore la personalización del lienzo con las siguientes opciones:
 
@@ -106,9 +116,11 @@ La tabla **[!UICONTROL Descripción general de la acción]** sirve como un panel
 
 +++ Más información sobre las Métricas de resumen de la acción
 
-* **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus acciones.
+* **[!UICONTROL El nodo ingresa]**: Número total de individuos que han ingresado un nodo específico dentro del recorrido.
 
-* **[!UICONTROL Tasa de clics]**: Porcentaje de usuarios que interactuaron con la acción.
+* **[!UICONTROL Error de Recorrido]**: Número total de recorridos individuales que no se ejecutaron correctamente.
+
+* **[!UICONTROL Tasa de pulsaciones]**: Porcentaje de usuarios que interactuaron con la acción.
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus acciones.
 

@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '540'
+ht-degree: 2%
 
 ---
 
-# Informe de campaña en la aplicación {#campaign-global-report-cja-inapp}
+# Informe de campaña in-app {#campaign-global-report-cja-inapp}
 
-## Tendencia de impresión y clics {#impression-click-trend}
+## Tendencia de visualización y clics {#impression-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
@@ -34,6 +34,8 @@ El gráfico **[!UICONTROL Tendencia de impresión y clics]** presenta un anális
 
 ## Clics {#clicks-inapp}
 
+![](assets/cja-campaign-inapp-clicks.png)
+
 El gráfico **[!UICONTROL Clics]** muestra las métricas de clics en la aplicación, ilustrando tanto la cantidad total de clics en el contenido como el número de perfiles únicos que hicieron clic en el contenido.
 
 +++ Más información sobre las métricas de Clics
@@ -46,6 +48,8 @@ El gráfico **[!UICONTROL Clics]** muestra las métricas de clics en la aplicaci
 
 ## Mostrar {#display-inapp}
 
+![](assets/cja-campaign-inapp-displays.png)
+
 El gráfico **[!UICONTROL Muestra]** le ayuda a comprender el alcance general del mensaje y la cantidad de perfiles únicos que interactúan con él.
 
 +++ Más información sobre las Métricas de visualización
@@ -57,6 +61,8 @@ El gráfico **[!UICONTROL Muestra]** le ayuda a comprender el alcance general de
 +++
 
 ## Datos de seguimiento {#tracking-data-inapp}
+
+![](assets/cja-campaign-inapp-tracking-data.png)
 
 La tabla **[!UICONTROL Datos de seguimiento]** ofrece una instantánea detallada de la actividad del perfil vinculada a los mensajes en la aplicación, lo que proporciona información esencial sobre la participación y la eficacia de los mensajes en la aplicación.
 
@@ -78,11 +84,11 @@ La tabla **[!UICONTROL Datos de seguimiento]** ofrece una instantánea detallada
 
 * **[!UICONTROL Envíos]**: Número total de envíos para sus mensajes en la aplicación.
 
-<!--
-* **[!UICONTROL Inbound triggered]**: 
+* **[!UICONTROL Activado entrante]**: Número de veces que un mensaje en la aplicación se activó mediante una interacción de usuario o un evento predefinido.
 
-* **[!UICONTROL Inbound dismisses]**: 
--->
+* **[!UICONTROL Descartes entrantes]**: Cantidad de veces que los usuarios descartaron el mensaje en la aplicación sin interactuar con él.
+
+
 +++
 
 ## Etiquetas de vínculos rastreados {#track-link-label-inapp}

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: 32f34b6e2a5cd3eda6de9177c5a4b5c2be7b8058
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1056'
 ht-degree: 2%
 
 ---
@@ -65,13 +65,13 @@ La tabla **[!UICONTROL Estadísticas de envío]** proporciona un resumen complet
 
 +++ Más información sobre el envío de métricas de estadísticas
 
-* **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus mensajes.
-
 * **[!UICONTROL Destinatarios]**: Número total de correos electrónicos procesados durante el proceso de envío.
 
 * **[!UICONTROL Envíos]**: Número total de envíos del correo electrónico.
 
 * **[!UICONTROL Entregado]**: número de correos electrónicos enviados correctamente en relación con el número total de mensajes enviados.
+
+* **[!UICONTROL Entrega única]**: Número de perfiles que recibieron correctamente al menos un correo electrónico.
 
 * **[!UICONTROL Devoluciones para canales salientes]**: Total de errores acumulados durante el proceso de envío y procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
@@ -99,12 +99,13 @@ La tabla **[!UICONTROL Correo electrónico: estadísticas de seguimiento]** ofre
 
 * **[!UICONTROL Aperturas de correo electrónico]**: Número de veces que se abrieron los mensajes de correo electrónico en una campaña.
 
-* **[!UICONTROL Aperturas únicas de correo electrónico]**: Porcentaje de correos electrónicos abiertos.
+* **[!UICONTROL Aperturas únicas de correo electrónico]**: Número de perfiles que abrieron correos electrónicos.
 
 * **[!UICONTROL Quejas por correo no deseado]**: Número de veces que un mensaje se declaró como correo no deseado.
 
 * **[!UICONTROL Cancelaciones de suscripción]**: número de clics en el vínculo de cancelación de suscripción.
 
+* **[!UICONTROL Cancelaciones de suscripción de correo electrónico único]**: Número de perfiles que cancelaron la suscripción a sus correos electrónicos.
 +++
 
 ## Dominios de correo electrónico {#email-domains}
@@ -119,13 +120,12 @@ La tabla **[!UICONTROL Dominios de correo electrónico]** ofrece un desglose det
 
 * **[!UICONTROL Entregado]**: Número de correos electrónicos enviados correctamente, en relación con el número total de correos electrónicos enviados.
 
-* **[!UICONTROL Aperturas de correo electrónico]**: Número de veces que se abrieron los mensajes de correo electrónico en una campaña.
-
-* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus correos electrónicos.
-
 * **[!UICONTROL Devoluciones para canales salientes]**: Número total de errores acumulados durante el proceso de envío y procesamiento automático de devoluciones en relación con el número total de correos electrónicos enviados.
 
 * **[!UICONTROL Errores salientes]**: Número total de errores que se produjeron durante el proceso de envío para evitar que se enviara a los perfiles.
+
+* **[!UICONTROL Exclusiones salientes]**: número de perfiles que han sido excluidos por Adobe Journey Optimizer.
+
 +++
 
 ## Etiquetas de vínculos rastreados {#track-link-label}
@@ -154,10 +154,6 @@ La tabla **[!UICONTROL URL de vínculos rastreados]** proporciona una visión ge
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus correos electrónicos.
 
-* **[!UICONTROL Pantallas]**: Número de veces que se abrió el correo electrónico.
-
-* **[!UICONTROL Únicas pantallas]**: Número de veces que se abrió el correo electrónico, no se tienen en cuenta las interacciones múltiples de un perfil.
-
 +++
 
 ## Asuntos de correo electrónico {#email-subjects}
@@ -168,8 +164,9 @@ La tabla **[!UICONTROL Temas de correo electrónico]** presenta una descripción
 
 +++ Más información sobre las métricas de Temas de correo electrónico
 
-* **[!UICONTROL Personas]**: Número de perfiles de usuario que cumplen los requisitos como perfiles de destino para sus correos electrónicos.
+* **[!UICONTROL Entregado]**: Número de correos electrónicos enviados correctamente, en relación con el número total de correos electrónicos enviados.
 
+* **[!UICONTROL Entrega única]**: Número de perfiles distintos que recibieron correctamente al menos un correo electrónico, lo que garantiza que no se cuenten los duplicados.
 +++
 
 ## Motivos excluidos {#excluded-reasons}

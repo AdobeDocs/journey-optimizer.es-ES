@@ -7,9 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
+exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1362'
 ht-degree: 2%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 2%
 
 Las siguientes tablas proporcionan la lista de métricas utilizadas en los informes y sus definiciones según el tipo de envío.
 
-## métricas de recorrido {#journey-metrics}
+## Métricas de recorrido {#journey-metrics}
 
 <table> 
  <thead> 
@@ -28,149 +29,181 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
 </tr>
  </thead> 
  <tbody> 
-  <tr> 
-   <td>Acciones ejecutadas correctamente<br/> </td> 
-   <td> Número total de acciones ejecutadas correctamente para un recorrido.<br/> </td> 
+<tr> 
+<td>participación de recorrido</td> 
+<td>Número total de individuos únicos que recibieron mensajes enviados a través del recorrido, que representan perfiles distintos que alcanzaron un punto de acción designado en el recorrido.</td> 
 </tr> 
-  <tr> 
-   <td> Perfiles especificados<br/> </td> 
-   <td> Número total de personas que llegaron al evento de entrada del recorrido.<br/> </td> 
+<tr> 
+<td>el recorrido entra</td> 
+<td>Número total de personas que llegaron al evento de entrada del recorrido.</td> 
 </tr>
-  <tr> 
-   <td> Error en la acción <br/> </td> 
-   <td>Número total de errores que se produjeron para las acciones.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Perfiles abandonados<br/> </td> 
-   <td> Número total de personas que salieron del recorrido.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Error en el recorrido individual <br/> </td> 
-   <td> Número total de recorridos individuales que no se ejecutaron correctamente.<br/> </td> 
-</tr> 
+<tr> 
+<td>salidas de recorrido</td> 
+<td>Número total de personas que salieron del recorrido.</td> 
+</tr>
+<tr> 
+<td>errores de recorrido</td> 
+<td>Número total de recorridos individuales que no se ejecutaron correctamente.</td> 
+</tr>
+<tr> 
+<td>Ingresa un Recorrido único</td> 
+<td>Número total de individuos que llegaron al evento de entrada del recorrido, sin tener en cuenta varias interacciones del mismo perfil.</td> 
+</tr>
+<tr> 
+<td>Salidas de Recorrido únicas</td> 
+<td>Número total de individuos que abandonaron el recorrido, sin tener en cuenta varias interacciones del mismo perfil.</td> 
+</tr>
+<tr> 
+<td>Errores de Recorrido único</td> 
+<td>Número total de recorridos individuales que no se ejecutaron correctamente, sin tener en cuenta las interacciones múltiples del mismo perfil.</td> 
+</tr>
  </tbody> 
 </table>
 
-## Dimensiones y métricas de correo electrónico y SMS {#email-and-sms-metrics}
+## Métricas de correo electrónico {#email-metrics}
 
 <table> 
  <thead> 
   <tr> 
    <th> Métrica <br/> </th> 
    <th> Definición <br/> </th> 
-</tr>
+  </tr>
  </thead> 
  <tbody>
   <tr> 
    <td> Devoluciones<br/> </td> 
    <td> Total de errores acumulados durante el proceso de envío y el procesamiento automático de devolución en relación con el número total de mensajes enviados.<br/> </td> 
-</tr> 
+  </tr> 
   <tr> 
-   <td> Tasa de devoluciones<br/> </td> 
-   <td> Porcentaje de correos electrónicos devueltos en comparación con los enviados.<br/> </td> 
-</tr>
+   <td> Tasa de apertura de clics (CTOR)<br/> </td> 
+   <td> Número de veces que se abrió el correo electrónico.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Tasa de clics (CTR)<br/> </td> 
+   <td> Porcentaje de usuarios que interactuaron con el correo electrónico.<br/> </td> 
+  </tr>
   <tr> 
    <td> Clics<br/> </td> 
    <td> Número de veces que se hizo clic en un contenido en un mensaje de correo electrónico.<br/> </td> 
-</tr> 
+  </tr> 
   <tr> 
    <td> Entregado <br/> </td> 
    <td> Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.<br/></td> 
-</tr> 
+  </tr> 
   <tr> 
    <td> Tasa de entrega<br/> </td> 
    <td> Porcentaje de mensajes enviados correctamente.<br/> </td> 
-</tr>
-  <tr> 
-   <td> Errores<br/> </td> 
-   <td> Número total de errores que se produjeron durante el proceso de envío para evitar que se enviara a los perfiles.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Tasa de error <br/> </td> 
-   <td> Porcentaje de errores que se produjeron durante el proceso de envío y que impiden su envío en comparación con los mensajes de correo electrónico enviados.<br/> </td> 
-</tr>
-</tr> 
+  </tr>
   <tr> 
    <td> Motivo del error <br/> </td> 
    <td> Nombre de la causa original específica del error. <a href="exclusion-list.md">Más información sobre motivos de error</a>.<br/> </td> 
-</tr>
+  </tr>
   <tr> 
-   <td> Excluido<br/> </td> 
-   <td> Número de perfiles que Adobe Journey Optimizer ha excluido.<br/> </td> 
-</tr>
+   <td> Tasa de clics en ofertas<br/> </td> 
+   <td> Porcentaje de usuarios que interactuaron con la oferta.<br/> </td> 
+  </tr>
   <tr> 
-   <td> Rechazo duro<br/> </td> 
-   <td> Número total de errores permanentes, como una dirección de correo electrónico incorrecta. Esto implica un mensaje de error que indica explícitamente que la dirección no es válida, como Usuario desconocido.<br/> </td>
-</tr>
+   <td> Tasa de impresión de la oferta<br/> </td> 
+   <td> Porcentaje de ofertas abiertas en comparación con el número de ofertas enviadas.<br/> </td> 
+  </tr>
   <tr> 
-   <td> Ignorado<br/> </td> 
-   <td> Número total de mensajes temporales, como Fuera de la oficina, o un error técnico, por ejemplo, si el tipo de remitente es administrador de correo.<br/> </td> 
-</tr>
-   <tr> 
-   <td>Tasa de clics en ofertas<br/> </td> 
-   <td>Porcentaje de usuarios que interactuaron con la oferta.<br/> </td> 
-</tr>
-   <tr> 
-   <td>Tasa de impresión de la oferta<br/> </td> 
-   <td>Porcentaje de ofertas abiertas en comparación con el número de ofertas enviadas.<br/> </td> 
-</tr>
-   <tr> 
-   <td>Nombre de oferta<br/> </td> 
+   <td> Nombre de oferta<br/> </td> 
    <td> Nombre de la oferta añadida en la entrega. Para obtener más información sobre la ubicación, consulte esta <a href="../offers/offer-library/creating-personalized-offers.md">página</a>.<br/> </td> 
-</tr>
-   <tr> 
-   <td>Se envió la oferta<br/> </td> 
-   <td>Número total de envíos para la oferta.<br/> </td> 
-</tr> 
-  <tr>
-   <td>Aperturas<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Se envió la oferta<br/> </td> 
+   <td> Número total de envíos para la oferta.<br/> </td> 
+  </tr> 
+  <tr> 
+   <td> Aperturas<br/> </td> 
    <td> Número de veces que se abrió el mensaje.<br/> </td> 
-</tr> 
+  </tr> 
   <tr> 
-   <td> Tasa de apertura<br/> </td> 
-   <td> Número total de correos electrónicos abiertos en comparación con el número de correos electrónicos enviados.<br/> </td> 
-</tr>
+   <td> Errores de salida <br/> </td> 
+   <td> Número total de errores que se produjeron durante el proceso de envío para evitar que se enviara a los perfiles.<br/> </td> 
+  </tr> 
   <tr> 
-   <td>Nombre de ubicación<br/> </td> 
+   <td> Exclusiones salientes<br/> </td> 
+   <td> Número de perfiles que Adobe Journey Optimizer ha excluido.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Nombre de ubicación<br/> </td> 
    <td> Nombre de la ubicación utilizada para mostrar la oferta. Para obtener más información sobre la ubicación, consulte esta <a href="../offers/offer-library/creating-placements.md">página</a>. </td> 
-</tr> 
-  <tr> 
-   <td> Reintentos<br/> </td> 
-   <td> Número de mensajes de correo electrónico en la cola para reintentos.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Enviado<br/> </td> 
-   <td> Número total de envíos para el envío.<br/> </td> 
-</tr>
-  <tr> 
-   <td> Devolución suave<br/> </td> 
-   <td> Número total de errores temporales, como una bandeja de entrada completa.<br/> </td> 
-</tr>
+  </tr>
   <tr> 
    <td> Quejas de spam<br/> </td> 
    <td> Número de veces que se declaró un mensaje como correo no deseado.<br/> </td> 
-</tr>
+  </tr> 
   <tr> 
    <td> Segmentado<br/> </td> 
    <td> Número total de mensajes procesados durante el análisis de entregas.<br/> </td> 
-</tr> 
+  </tr> 
   <tr> 
    <td> Clics únicos<br/> </td> 
-   <td> Número de destinatarios que hicieron clic en un contenido de un correo electrónico.<br> Tenga en cuenta que al calcular clics únicos, se tienen en cuenta los últimos 10 días. Si un perfil registra varios clics dentro del periodo de 10 días, se contarán como clics únicos. Sin embargo, si un perfil tiene 2 clics separados por más de 10 días, no se considerarán clics únicos.<br/> </td> 
-</tr> 
+   <td> Número de perfiles que hicieron clic en un contenido de un correo electrónico.<br> Tenga en cuenta que al calcular clics únicos, se tienen en cuenta los últimos 10 días. Si un perfil registra varios clics dentro del periodo de 10 días, se contarán como clics únicos. Sin embargo, si un perfil tiene 2 clics separados por más de 10 días, no se considerarán clics únicos.<br/> </td> 
+  </tr>
   <tr> 
-   <td>Tasa de clics únicos<br/> </td> 
-   <td> Porcentaje de usuarios que interactuaron con el envío.<br/> </td> 
-</tr>
+   <td> Cancelaciones de suscripción de correo electrónico único<br/> </td> 
+   <td> Número de perfiles que cancelaron la suscripción a sus correos electrónicos.<br/> </td> 
+  </tr>
   <tr> 
    <td> Aperturas únicas<br/> </td> 
-   <td>Número de destinatarios que abrieron la entrega. <br> Tenga en cuenta que al calcular las aperturas únicas, se tienen en cuenta los últimos 10 días. Si un perfil registra varias aperturas dentro del periodo de 10 días, se contarán como aperturas únicas. Sin embargo, si un perfil tiene 2 aperturas separadas por más de 10 días, no se considerarán como aperturas únicas.<br/> </td> 
-</tr> 
+   <td> Número de perfiles que abrieron el envío. <br> Tenga en cuenta que al calcular las aperturas únicas, se tienen en cuenta los últimos 10 días. Si un perfil registra varias aperturas dentro del periodo de 10 días, se contarán como aperturas únicas. Sin embargo, si un perfil tiene 2 aperturas separadas por más de 10 días, no se considerarán como aperturas únicas.<br/> </td> 
+  </tr> 
   <tr> 
-   <td> Bajas<br/> </td> 
+   <td> Cancela la suscripción de <br/> </td> 
    <td> Número de clics en el vínculo de baja de suscripción.<br/> </td> 
-</tr> 
+  </tr> 
  </tbody> 
+</table>
+
+## Métricas de SMS
+
+<table> 
+  <thead> 
+    <tr> 
+      <th> Métrica de SMS </th> 
+      <th> Definición </th> 
+    </tr>
+  </thead> 
+  <tbody> 
+    <tr> 
+      <td>Entregados</td> 
+      <td>Número de mensajes SMS enviados correctamente en relación con el número total de mensajes SMS.</td> 
+    </tr>
+    <tr> 
+      <td>Clics</td> 
+      <td>Número de veces que se hizo clic en un vínculo de un mensaje SMS.</td> 
+    </tr>
+    <tr> 
+      <td>Devoluciones para mensajes SMS salientes</td> 
+      <td>Número total de errores acumulados durante el proceso de envío y el procesamiento automático de devoluciones en relación con el número total de mensajes SMS enviados.</td> 
+    </tr>
+    <tr> 
+      <td>Errores de SMS salientes</td> 
+      <td>Número total de errores que se han producido para evitar que el mensaje SMS se envíe a los destinatarios.</td> 
+    </tr>
+    <tr> 
+      <td>Exclusiones de SMS salientes</td> 
+      <td>Número de perfiles que Adobe Journey Optimizer excluyó de la recepción de mensajes SMS.</td> 
+    </tr>
+    <tr> 
+      <td>Clics únicos</td> 
+      <td>Número de destinatarios únicos que hicieron clic en un vínculo de un mensaje SMS.</td> 
+    </tr>
+    <tr> 
+      <td>Visualizaciones</td> 
+      <td>Número de veces que se ha mostrado o abierto un mensaje SMS.</td> 
+    </tr>
+    <tr> 
+      <td>Pantallas únicas</td> 
+      <td>Número de destinatarios únicos que abrieron el mensaje SMS, excluidas varias interacciones del mismo usuario.</td> 
+    </tr>
+    <tr> 
+      <td>Personas</td> 
+      <td>Número de perfiles de usuario únicos que recibieron o interactuaron con un mensaje SMS.</td> 
+    </tr>
+  </tbody> 
 </table>
 
 <!--
@@ -229,11 +262,11 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
 </tr>
   <tr> 
    <td>Unique email opens<br/> </td> 
-   <td>Number of recipients who opened the email.<br/> </td>
+   <td>Number of profiles who opened the email.<br/> </td>
 <tr>
   <tr> 
    <td>Unique email unsubscribes<br/> </td> 
-   <td>Number of recipients who clicked on the unsubscription link.<br/> </td>
+   <td>Number of profiles who clicked on the unsubscription link.<br/> </td>
 </tr>
   <tr> 
    <td>Unique installs<br/> </td> 
@@ -259,35 +292,70 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
 -->
 
 ## Métricas en la aplicación {#inapp-metrics}
-
 <table> 
  <thead> 
   <tr> 
    <th> Métrica <br/> </th> 
    <th> Definición <br/> </th> 
-</tr>
+  </tr>
  </thead> 
  <tbody>
- <tr> 
+  <tr> 
    <td>Clics<br/> </td> 
-   <td>Número total de destinatarios que interactuaron con los botones incluidos en el mensaje en la aplicación.<br/> </td> 
-</tr>
+   <td>Número total de perfiles que interactuaron con los botones incluidos en el mensaje en la aplicación.<br/> </td> 
+  </tr>
   <tr> 
    <td>Tasa de clics<br/> </td> 
    <td>Porcentaje de usuarios que interactuaron con los botones incluidos en el mensaje en la aplicación en comparación con los usuarios que vieron el mensaje.<br/> </td> 
-</tr> 
+  </tr>
   <tr> 
    <td>Tasa de descarte <br/> </td> 
-   <td> Porcentaje de mensajes en la aplicación que los destinatarios descartaron.<br/> </td> 
-</tr> 
+   <td>Porcentaje de mensajes en la aplicación cuyos perfiles se descartaron.<br/> </td> 
+  </tr>
   <tr> 
    <td>Impresiones<br/> </td> 
-   <td> Número total de mensajes en la aplicación entregados a todos los usuarios.<br/> </td>
-</tr>
+   <td>Número total de mensajes en la aplicación entregados a todos los usuarios.<br/> </td>
+  </tr>
   <tr> 
    <td>Impresiones únicas<br/> </td> 
    <td>Número de usuarios únicos a los que se entregó el mensaje en la aplicación.<br/> </td>
-</tr>
+  </tr>
+  <tr> 
+   <td>Muestra<br/> </td>
+   <td>Número de veces que se abrió el mensaje en la aplicación.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Visualizaciones únicas<br/> </td>
+   <td>Número de veces que se abrió el mensaje en la aplicación, excluidas varias interacciones del mismo perfil.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Clics únicos<br/> </td>
+   <td>Número de perfiles que hicieron clic en el contenido de sus mensajes en la aplicación.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Clics<br/> </td>
+   <td>Número de veces que se hizo clic en el contenido en los mensajes en la aplicación.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Tasa de clics (CTR)<br/> </td>
+   <td>Porcentaje de usuarios que interactuaron con los mensajes en la aplicación.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Tasa de apertura de clics (CTOR)<br/> </td>
+   <td>Número de veces que se abrió el mensaje en la aplicación.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Envíos<br/> </td>
+   <td>Número total de mensajes en la aplicación enviados.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Activado entrante<br/> </td>
+   <td>Número de veces que un mensaje en la aplicación se activó por una interacción del usuario o un evento predefinido.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Rechazos entrantes<br/> </td>
+   <td>Cantidad de veces que los usuarios descartaron el mensaje en la aplicación sin interactuar con él.<br/> </td>
+  </tr>
  </tbody> 
 </table>
 
@@ -352,7 +420,11 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
   <tr> 
    <td> Tasa de apertura<br/> </td> 
    <td> Porcentaje de notificaciones push abiertas.<br/> </td> 
-</tr> 
+</tr>
+  <tr> 
+   <td> Acciones personalizadas push<br/> </td> 
+   <td>Número de acciones personalizadas realizadas por perfiles en respuesta a las notificaciones push.<br/> </td> 
+</tr>
   <tr> 
    <td> Enviado<br/> </td> 
    <td> Número total de envíos para el envío.<br/> </td> 
@@ -409,15 +481,15 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
 </tr>
  <tr> 
    <td>Total de visitas<br/> </td> 
-   <td> Número total de visitas a la página de aterrizaje procedentes de recorridos y fuentes externas, incluidas las visitas múltiples de un destinatario.<br/> </td> 
+   <td> Número total de visitas a la página de aterrizaje procedentes de recorridos y fuentes externas, incluidas las visitas múltiples de un perfil.<br/> </td> 
 </tr>
  <tr> 
    <td>Visitantes únicos<br/> </td> 
-   <td>Número de personas que visitaron la página de aterrizaje; no se tienen en cuenta las visitas múltiples de un destinatario.<br/> </td> 
+   <td>Número de personas que visitaron la página de aterrizaje; no se tienen en cuenta las visitas múltiples de un perfil.<br/> </td> 
 </tr>
  <tr> 
    <td>Visitas<br/> </td> 
-   <td>Número de visitas a la página de aterrizaje, incluidas las visitas múltiples de un destinatario.<br/> </td> 
+   <td>Número de visitas a la página de aterrizaje, incluidas las visitas múltiples de un perfil.<br/> </td> 
 </tr>
  </tbody> 
 </table>
