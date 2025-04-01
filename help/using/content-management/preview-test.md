@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 55cc584e2dfcfb9de8784069c7d635a8e4e47929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Tenga en cuenta que necesita tener el permiso **[!DNL Manage Simulate Content]**
 >
 >* Al obtener una vista previa de un mensaje o enviar pruebas, solo se muestran los datos de personalización del perfil. La personalización basada en datos de contexto, como la información del evento, solo se puede probar en el contexto de un recorrido. Obtenga información sobre cómo probar la personalización en [este caso de uso](../personalization/personalization-use-case.md).
 >
->* Al simular o procesar pruebas para correos electrónicos que contienen varias variantes condicionales, Journey Optimizer puede requerir más tiempo de procesamiento. Si experimenta tiempos de espera o mensajes de error, considere la posibilidad de reducir la cantidad total de variantes o simplificar las reglas condicionales. Obtenga más información acerca del contenido condicional en [esta página](../personalization/dynamic-content.md).
+>* Al simular o procesar pruebas de correos electrónicos que contienen varias variantes condicionales, Journey Optimizer puede precisar de más tiempo de procesamiento. Si experimenta tiempos de espera o mensajes de error, considere la posibilidad de reducir la cantidad total de variantes o simplificar las reglas condicionales. Obtenga más información sobre el contenido condicional en [esta página](../personalization/dynamic-content.md).
 
 
 ## Pruebas con perfiles de prueba o datos de entrada de muestra {#methods}

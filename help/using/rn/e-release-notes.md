@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 35%
 **Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento**. Los vínculos, las pantallas y la documentación actualizada se publican en las [notas de la versión](release-notes.md) y en la fecha.
 
 
-## Notas de la versión anteriores de marzo de 2025 {#25-3-rn}
+## Notas de la versión preliminar de marzo de 2025 {#25-3-rn}
 
 
 **Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento**. Los vínculos, las pantallas y la documentación actualizada se publican en la fecha de la versión.
 
-**Fecha de la versión**: 26 y 27 de marzo de 2025
+**Fecha de lanzamiento**: 26-27 de marzo de 2025
 
 
 ### Nuevas funciones {#25-03-features}
@@ -54,7 +54,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>métricas de recorrido</strong><br/></th>
+<th><strong>Métricas de recorrido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -76,7 +76,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora, una vista de calendario le permite visualizar todas las activaciones de recorridos. Esta capacidad se presenta como una disponibilidad limitada para un grupo selecto de clientes.<p>
+<p>Ahora, una vista de calendario le permite visualizar todas las activaciones de los recorridos. Esta funcionalidad está disponible de forma limitada para un grupo selecto de clientes.<p>
 <p>Este cambio solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
@@ -93,12 +93,12 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Los recursos de Dynamic Media ahora están disponibles y accesibles directamente en Journey Optimizer. Esta integración le permite:
+<p>Los recursos de Dynamic Media ahora están disponibles y son accesibles directamente en Journey Optimizer. Esta actividad le permite lo siguiente:
 <ul>
-<li>Administración centralizada de recursos con actualizaciones en tiempo real</li>
-<li>Modifique la configuración de los recursos, como la anchura y la altura, al instante</li>
-<li>Personalice el contenido mediante imágenes con superposiciones de texto</li>
-<li>Personalice las plantillas de Dynamic Media actualizando el contenido y añadiendo campos de personalización</li>
+<li>Administrar centralmente los recursos con actualizaciones en tiempo real</li>
+<li>Modificar la configuración de los recursos, como la anchura y la altura, al instante</li>
+<li>Personalizar el contenido mediante imágenes con superposiciones de texto</li>
+<li>Personalizar las plantillas de Dynamic Media actualizando el contenido y añadiendo campos de personalización</li>
 </ul>
 <p>
 <p>Esta integración solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
@@ -119,8 +119,8 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Para mejorar la eficacia del marketing y mantener la coherencia de la marca, ahora puede integrar sin problemas las experiencias de GenStudio for Performance Marketing con Journey Optimizer. Esto le permite aprovechar la creación de contenido con potencia IA de GenStudio junto con las funcionalidades de orquestación avanzadas de Journey Optimizer.<p>
-<p>El uso de la integración de GenStudio en Journey Optimizer no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield (disponibilidad limitada).</p>
+<p>Para mejorar la eficacia del marketing y mantener la coherencia de marca, ahora puede integrar sin problemas las experiencias de GenStudio for Performance Marketing con Journey Optimizer. Esto le permite aprovechar la creación de contenido con tecnología de IA de GenStudio junto con las funcionalidades de orquestación avanzadas de Journey Optimizer.<p>
+<p>El uso de la integración de GenStudio en Journey Optimizer no está disponible actualmente con Healthcare Shield o Privacy and Security Shield (disponibilidad limitada).</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -136,7 +136,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ha ampliado sus funciones en canales múltiples para incluir compatibilidad con el canal LINE. Esta mejora le permite crear, editar y previsualizar experiencias de LINE, lo que permite interacciones más personalizadas y atractivas. Con LINE, puede conectarse con más clientes, enviar contenido relevante y mejorar su participación.<p>
+<p>Adobe Journey Optimizer ha ampliado sus funcionalidades en canales múltiples para incluir la compatibilidad con el canal LINE. Esta mejora le permite crear, editar y previsualizar experiencias de LINE, permitiendo interacciones más personalizadas y atractivas. Con LINE, puede conectarse con más clientes, enviar contenido relevante y mejorar su participación.<p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
@@ -146,7 +146,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 
 ### Mejoras {#25-03-improv}
 
-**Editor de Personalization** (fecha de disponibilidad: 12 de marzo)
+**Editor de personalización** (fecha de disponibilidad: 12 de marzo)
 
 El editor de personalización de Journey Optimizer se ha actualizado con nuevas funciones:
 
@@ -158,35 +158,35 @@ El editor de personalización de Journey Optimizer se ha actualizado con nuevas 
 * **Completar automáticamente atributos de perfil y contexto**: ofrece sugerencias inteligentes para optimizar la creación de contenido.
 * **Resaltado de sintaxis mejorado**: mejora la legibilidad al hacer que la estructura del código quede visualmente más diferenciada.
 
-![Vídeo que muestra la nueva función en el editor de Personalization](assets/do-not-localize/personalization-editor.gif)
+![Vídeo que muestra la nueva función en el editor de personalización](assets/do-not-localize/personalization-editor.gif)
 
 Para obtener más información, consulte la [documentación detallada](../personalization/personalization-build-expressions.md).
 
 
 **Campañas**
 
-* En la lista de campañas, al seleccionar una campaña, se abre un panel que muestra sus detalles.
+* En la lista de campañas, al seleccionar una campaña, ahora se abre un panel que muestra sus detalles.
 * Ahora puede copiar sus campañas de una zona protegida a otra.
 
 **Personalización**
 
-Se ha agregado un nuevo botón &quot;Píldoras&quot; al editor de personalización. Cuando se habilita, los atributos contextuales y de perfil se muestran como píldoras, lo que mejora la legibilidad del código.
+Se ha añadido un nuevo botón “Cápsulas” al editor de personalización. Cuando se habilita, los atributos contextuales y de perfil se muestran como cápsulas, lo que mejora la legibilidad del código.
 
 **Aprobaciones**
 
-Al definir las condiciones de una directiva de aprobación, ahora tiene la opción de filtrar por Etiqueta o Categoría de objeto.
+Al definir las condiciones de una directiva de aprobación, ahora tiene la opción de filtrar por etiqueta o categoría de objeto.
 
 **Configuración de canal**
 
-Ahora puede asignar etiquetas unificadas de Adobe Experience Platform a las configuraciones de canal. Esto le permite clasificarlas fácilmente y mejorar la búsqueda y la navegación en todas las listas.
+Ahora puede asignar las etiquetas unificadas de Adobe Experience Platform a las configuraciones de canal. Esto le permite clasificarlas fácilmente y mejorar la búsqueda y la navegación en todas las listas.
 
-**Capacidad de entrega**
+**Entregabilidad**
 
 Ahora puede delegar subdominios con DMARC administrado desde el lado principal.
 
-**Reglas de negocio**
+**Reglas empresariales**
 
-Ahora puede usar límites de frecuencia diarios en recorridos y campañas con segmentación **batch**. Para garantizar la precisión de las reglas de límite de frecuencia diarias, asegúrese de elegir el área de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información sobre la prioridad del área de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Ahora puede usar la restricción de frecuencia diaria en recorridos y campañas con la segmentación **por lotes**. Para garantizar la precisión de las reglas de restricción de frecuencia diaria, asegúrese de elegir el espacio de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información sobre la prioridad del espacio de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 **Administración de contenido**
 
