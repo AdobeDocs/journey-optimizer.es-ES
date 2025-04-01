@@ -9,9 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '461'
 ht-degree: 4%
 
 ---
@@ -42,7 +43,7 @@ Estos pasos debe realizarlos un administrador del sistema [de Adobe Journey Opti
 
 1. Configure las credenciales de la API como se detalla a continuación:
 
-   * **Token de API**: https://developers.facebook.com/docs/facebook-login/guides/access-tokens/
+   * **Token de API**: escriba el token de API. Obtenga más información en [Documentación de metadatos](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/)
    * **ID de cuenta empresarial**: escriba el número único relacionado con su portafolio empresarial. Obtenga más información en [Documentación de metadatos](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
    ![](assets/whatsapp-api.png)
@@ -88,7 +89,7 @@ Después de crear y configurar las credenciales de la API, debe crear una config
 
 1. Seleccione **[!UICONTROL Acciones de marketing]** para asociar directivas de consentimiento a los mensajes que usan esta configuración. Todas las políticas de consentimiento asociadas con la acción de marketing se aprovechan para respetar las preferencias de los clientes. Más información
 
-1. Seleccione la **[!UICONTROL configuración de WhatsApp]** creada anteriormente.
+1. Seleccione la **[!UICONTROL configuración de la API de WhatsApp]** creada anteriormente.
 
    ![](assets/whatsapp-config-3.png)
 
