@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2318'
 ht-degree: 97%
 
 ---
@@ -434,13 +434,14 @@ ht-degree: 97%
 + Seguimiento y monitorización {#reporting}
    + Informe en vivo {#live-report}
       + [Introducción al Informe activo](using/reports/live-report.md)
-      + [Lista de componentes](using/reports/live-report-components.md)
+      + [Lista de métricas](using/reports/live-report-components.md)
       + [Informe activo de recorrido](using/reports/journey-live-report.md)
       + [Informe en vivo de la campaña](using/reports/campaign-live-report.md)
       + [Informe en directo de la página de aterrizaje](using/reports/lp-report-live.md)
       + [Informe en directo de la lista de suscripciones](using/reports/subscription-report-live.md)
    + Informe de todo el tiempo{#channel-report}
       + [Introducción al Informe de todo el tiempo](using/reports/report-gs-cja.md)
+      + [Lista de métricas](using/reports/global-report-components-cja.md)
       + [Configurar Customer Journey Analytics manualmente](using/reports/cja-ajo.md)
       + [Administración de informes](using/reports/report-cja-manage.md)
       + [Requisitos previos de creación de informes y experimentación](using/reports/reporting-configuration.md)

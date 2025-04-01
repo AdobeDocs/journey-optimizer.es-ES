@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Lista de componentes
-description: Aprenda a utilizar los datos del informe global
+description: Aprenda a utilizar los datos del informe
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1109'
 ht-degree: 2%
 
 ---
