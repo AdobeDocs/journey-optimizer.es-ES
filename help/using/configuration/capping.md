@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: fd89412703d015fa173f58fa117f65323b954fec
+source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 25%
+source-wordcount: '725'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,9 @@ La API de límite le ayuda a crear, configurar y supervisar sus configuraciones 
 
 Esta sección proporciona información global sobre cómo trabajar con la API. Hay disponible una descripción detallada de la API en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
 
-## Descripción de API de límite
+## Descripción de la API de límite y colección de Postman {#description}
+
+En la tabla siguiente se enumeran los comandos disponibles para la API de límite. Encontrará información detallada, incluidos ejemplos de solicitudes, parámetros y formatos de respuesta, en la [documentación de API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
 
 | Método | Ruta | Descripción |
 |---|---|---|
@@ -36,6 +38,15 @@ Esta sección proporciona información global sobre cómo trabajar con la API. H
 
 Cuando se crea o actualiza una configuración, se realiza automáticamente una comprobación para garantizar la sintaxis y la integridad de la carga útil.
 Si se producen algunos problemas, la operación devuelve advertencias o errores para ayudarle a corregir la configuración.
+
+Además, hay disponible una colección de Postman [aquí](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json) que le ayudará en la configuración de las pruebas.
+
+Esta colección se ha configurado para compartir la colección Variable de Postman generada mediante __[Integraciones de la consola de Adobe I/O](https://console.adobe.io/integrations) > Probarla > Descargar para Postman__, que genera un archivo de entorno de Postman con los valores de integraciones seleccionados.
+
+Una vez descargado y cargado en Postman, debe añadir tres variables: `{JO_HOST}`,`{BASE_PATH}` y `{SANDBOX_NAME}`.
+* `{JO_HOST}` : URL de puerta de enlace [!DNL Journey Optimizer].
+* `{BASE_PATH}` : punto de entrada para la API.
+* `{SANDBOX_NAME}`: el encabezado **x-sandbox-name** (por ejemplo, “prod”) correspondiente al nombre de la zona protegida donde se realizarán las operaciones de API. Consulte la [información general sobre las zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) para obtener más detalles.
 
 ## Configuración de extremo
 
@@ -66,7 +77,7 @@ Esta es la estructura básica de una configuración de extremo:
 >
 >Cuando se implementa la configuración de límite, si no se ha proporcionado ningún valor &quot;maxHttpConnection&quot;, se agrega un valor predeterminado &quot;maxHttpConnection = -1&quot; a la configuración implementada, lo que significa que Journey Optimizer utilizará el valor predeterminado del sistema.
 
-### Por ejemplo:
+Por ejemplo:
 
 ```
 `{
@@ -112,55 +123,66 @@ La advertencia potencial es:
 
 ## Casos de uso
 
-En esta sección, encontrará los cinco casos de uso principales que puede realizar para administrar la configuración de límite en [!DNL Journey Optimizer].
+En esta sección se enumeran los casos de uso clave para administrar las configuraciones de límite en [!DNL Journey Optimizer] y los comandos de API asociados necesarios para implementar el caso de uso.
 
-Para ayudarle en las pruebas y la configuración, hay una colección de Postman disponible [aquí](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json).
+Encontrará detalles sobre cada comando de API en [Descripción de la API y recopilación de Postman](#description).
 
-Esta colección de Postman se ha configurado para compartir la colección de variables de Postman generada mediante __[Integraciones de la consola de Adobe I/O](https://console.adobe.io/integrations) > Pruébelo > Descargar para Postman__, que genera un archivo de entorno de Postman con los valores de integraciones seleccionados.
++++Cree e implemente una nueva configuración de límite
 
-Una vez descargado y cargado en Postman, debe añadir tres variables: `{JO_HOST}`,`{BASE_PATH}` y `{SANDBOX_NAME}`.
-* `{JO_HOST}`: URL de puerta de enlace de [!DNL Journey Optimizer]
-* `{BASE_PATH}` : punto de entrada para la API.
-* `{SANDBOX_NAME}`: el encabezado **x-sandbox-name** (por ejemplo, “prod”) correspondiente al nombre de la zona protegida donde se realizarán las operaciones de API. Consulte la [información general sobre las zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) para obtener más detalles.
+Llamadas de API para utilizar:
 
-En la siguiente sección, encontrará la lista ordenada de llamadas a la API de REST para ejecutar el caso de uso.
+1. **`list`** - Recupera configuraciones existentes.
+1. **`create`** - Crea una nueva configuración.
+1. **`candeploy`**: comprueba si se puede implementar la configuración.
+1. **`deploy`** - Implementa la configuración.
 
-Caso de uso n.º 1: **Creación e implementación de una nueva configuración de límite**
++++
 
-1. list
-1. create
-1. candeploy
-1. deploy
++++Actualizar e implementar una configuración de límite (aún no implementada)
 
-Caso de uso n.º 2: **Actualizar e implementar una configuración de límite aún no implementada**
+Llamadas de API para utilizar:
 
-1. list
-1. get
-1. update
-1. candeploy
-1. deploy
+1. **`list`** - Recupera configuraciones existentes.
+1. **`get`**: obtiene detalles de una configuración específica.
+1. **`update`** - Modifica la configuración.
+1. **`candeploy`** - Comprueba la idoneidad de la implementación.
+1. **`deploy`** - Implementa la configuración.
 
-Caso de uso n.º 3: **Anule la implementación y elimine una configuración de límite implementada**
++++
 
-1. list
-1. undeploy
-1. delete
++++Anule la implementación y elimine una configuración de límite implementada
 
-Caso de uso n.º 4: **Eliminar una configuración de límite implementada.**
+Llamadas de API para utilizar:
 
-En una sola llamada de API, puede anular la implementación y eliminar la configuración con el uso del parámetro forceDelete.
-1. list
-1. eliminar, con el parámetro forceDelete
+1. **`list`** - Recupera configuraciones existentes.
+1. **`undeploy`** - Anula la implementación de la configuración.
+1. **`delete`** - Quita la configuración.
 
-Caso de uso n.º 5: **Actualizar una configuración de límite ya implementada**
++++
+
++++Elimine una configuración de límite implementada en un paso
+
+Solo en una llamada de API puede anular la implementación y eliminar la configuración con el parámetro `forceDelete`.
+
+Llamadas de API para utilizar:
+
+1. **`list`** - Recupera configuraciones existentes.
+1. **`delete`(con `forceDelete` parámetro)** - Fuerza la eliminación de una configuración implementada en un solo paso.
+
++++
+
++++Actualizar una configuración de límite ya implementada
 
 >[!NOTE]
 >
->Debe volver a implementar si actualiza una configuración ya implementada.
+>Se requiere una nueva implementación después de actualizar una configuración ya implementada.
 
-1. list
-1. get
-1. update
-1. undeploy
-1. candeploy
-1. deploy
+Llamadas de API para utilizar:
+1. **`list`** - Recupera configuraciones existentes.
+1. **`get`**: obtiene detalles de una configuración específica.
+1. **`update`** - Modifica la configuración.
+1. **`undeploy`**: anula la implementación de la configuración antes de aplicar los cambios.
+1. **`candeploy`** - Comprueba la idoneidad de la implementación.
+1. **`deploy`** - Implementa la configuración actualizada.
+
++++
