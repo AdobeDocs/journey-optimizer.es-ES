@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 48ef8d42057ffe51c27221c2176192d4e637fb96
+source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 41%
+source-wordcount: '564'
+ht-degree: 45%
 
 ---
 
@@ -30,24 +30,24 @@ ht-degree: 41%
 
 A continuación, se describen las nuevas funciones incluidas en esta versión.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Integración con Adobe Express (disponibilidad limitada)</strong><br/></th>
+<th><strong>Integration with Adobe Express (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La integración de Adobe Express en Adobe Journey Optimizer permite utilizar las herramientas de edición de Adobe Express directamente durante la creación de contenido, lo que permite cambiar el tamaño, eliminar fondos, recortar y convertir recursos a JPEG o PNG.<p>
-<p>Actualmente, la integración de Adobe Express en Adobe Journey Optimizer solo está disponible para un conjunto de organizaciones (disponibilidad limitada). No se puede implementar para su uso con Healthcare Shield o Privacy and Security Shield.</p>
-<p>Para obtener más información, consulte la <a href="../integrations/express.md">documentación detallada</a>.</p>
+<p>The Adobe Express integration in Adobe Journey Optimizer lets you use Adobe Express's editing tools directly during content creation, enabling you to resize, remove backgrounds, crop, and convert assets to JPEG or PNG.<p>
+<p>Adobe Express integration in Adobe Journey Optimizer is currently only available for a set of organizations (Limited Availability). It cannot be deployed for use with Healthcare Shield or Privacy and Security Shield.</p>
+<p>For more information, refer to the <a href="../integrations/express.md">detailed documentation</a>.</p>
 </br>
 <img src="assets/do-not-localize/express_resize.gif"/>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <!--table>
