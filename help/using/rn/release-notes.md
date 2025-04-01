@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+source-git-commit: 48ef8d42057ffe51c27221c2176192d4e637fb96
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 40%
+source-wordcount: '643'
+ht-degree: 41%
 
 ---
 
@@ -50,22 +50,22 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>métricas de recorrido</strong><br/></th>
+<th><strong>Journey metrics</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ya están disponibles las métricas de recorridos, lo que le permite medir el impacto de sus actividades en las métricas clave de su empresa y proporcionar información más clara sobre su rendimiento.</p>
-<p>Para obtener más información, consulte la <a href="../building-journeys/success-metrics.md">documentación detallada</a>.</p>
+<p>Journey metrics are now available, allowing you to measure the impact of your activities across the key metrics of your business and to provide clearer insights into your performance.</p>
+<p>For more information, refer to the <a href="../building-journeys/success-metrics.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/success-metric.gif"/>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!-- table>
 <thead>
