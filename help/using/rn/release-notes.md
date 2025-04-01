@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 45%
+ht-degree: 85%
 
 ---
 
@@ -93,11 +93,11 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Los recursos de Dynamic Media ahora están disponibles y accesibles directamente en Journey Optimizer. Esta integración le permite:
+<p>Los recursos de Dynamic Media ahora están disponibles y son accesibles directamente en Journey Optimizer. Esta actividad le permite lo siguiente:
 <ul>
-<li>Administración centralizada de recursos con actualizaciones en tiempo real</li>
-<li>Modifique la configuración de los recursos, como la anchura y la altura, al instante</li>
-<li>Personalice las plantillas de Dynamic Media actualizando el contenido y añadiendo campos de personalización</li>
+<li>Administrar centralmente los recursos con actualizaciones en tiempo real</li>
+<li>Modificar la configuración de los recursos, como la anchura y la altura, al instante</li>
+<li>Personalizar las plantillas de Dynamic Media actualizando el contenido y añadiendo campos de personalización</li>
 </ul>
 <p>
 <p>Esta integración solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
@@ -118,8 +118,8 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Para mejorar la eficacia del marketing y mantener la coherencia de la marca, ahora puede integrar sin problemas las experiencias de GenStudio for Performance Marketing con Journey Optimizer. Esto le permite aprovechar la creación de contenido con potencia IA de GenStudio junto con las funcionalidades de orquestación avanzadas de Journey Optimizer.<p>
-<p>El uso de la integración de GenStudio en Journey Optimizer no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield (disponibilidad limitada).</p>
+<p>Para mejorar la eficacia del marketing y mantener la coherencia de marca, ahora puede integrar sin problemas las experiencias de GenStudio for Performance Marketing con Journey Optimizer. Esto le permite aprovechar la creación de contenido con tecnología de IA de GenStudio junto con las funcionalidades de orquestación avanzadas de Journey Optimizer.<p>
+<p>El uso de la integración de GenStudio en Journey Optimizer no está disponible actualmente con Healthcare Shield o Privacy and Security Shield (disponibilidad limitada).</p>
 <p>Para obtener más información, consulte la <a href="../integrations/genstudio.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/genstudio.gif"/>
 </td>
@@ -148,7 +148,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 
 ### Mejoras {#25-03-improv}
 
-**Editor de Personalization** (fecha de disponibilidad: 12 de marzo)
+**Editor de personalización** (fecha de disponibilidad: 12 de marzo)
 
 El editor de personalización de Journey Optimizer se ha actualizado con nuevas funciones:
 * **Diseño actualizado del editor de código**: una interfaz más clara y moderna para mejorar la facilidad de uso y el enfoque.
@@ -159,25 +159,25 @@ El editor de personalización de Journey Optimizer se ha actualizado con nuevas 
 * **Completar automáticamente atributos de perfil y contexto**: ofrece sugerencias inteligentes para optimizar la creación de contenido.
 * **Resaltado de sintaxis mejorado**: mejora la legibilidad al hacer que la estructura del código quede visualmente más diferenciada.
 
-![Vídeo que muestra la nueva función en el editor de Personalization](assets/do-not-localize/personalization-editor.gif)
+![Vídeo que muestra la nueva función en el editor de personalización](assets/do-not-localize/personalization-editor.gif)
 
 Para obtener más información, consulte la [documentación detallada](../personalization/personalization-build-expressions.md).
 
 **Aprobaciones**
 
-Al definir las condiciones de una directiva de aprobación, ahora tiene la opción de filtrar por Etiqueta o Categoría de objeto.
+Al definir las condiciones de una directiva de aprobación, ahora tiene la opción de filtrar por etiqueta o categoría de objeto.
 
 Para obtener más información, consulte la [documentación detallada](../test-approve/approval-policies.md).
 
 Configuración de ****
 
-* Ahora puede asignar etiquetas unificadas de Adobe Experience Platform a las configuraciones de canal. Esto le permite clasificarlas fácilmente y mejorar la búsqueda y la navegación en todas las listas. [Más información](../configuration/channel-surfaces.md#channel-config-tags)
+* Ahora puede asignar las etiquetas unificadas de Adobe Experience Platform a las configuraciones de canal. Esto le permite clasificarlas fácilmente y mejorar la búsqueda y la navegación en todas las listas. [Más información](../configuration/channel-surfaces.md#channel-config-tags)
 
 * Al configurar o editar un subdominio de correo electrónico en Journey Optimizer, ahora puede elegir administrar el registro de DMARC asociado por su cuenta, si está disponible en el dominio principal. [Más información](../configuration/dmarc-record.md#set-up-dmarc)
 
-**Reglas de negocio**
+**Reglas empresariales**
 
-Ahora puede utilizar un límite de frecuencia diario en recorridos y campañas con segmentación por lotes. Para garantizar la precisión de las reglas de límite de frecuencia diarias, asegúrese de elegir el área de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información sobre la prioridad del área de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Ahora puede usar la restricción de frecuencia diaria en recorridos y campañas con la segmentación por lotes. Para garantizar la precisión de las reglas de restricción de frecuencia diaria, asegúrese de elegir el espacio de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información sobre la prioridad del espacio de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Como recordatorio, el límite de frecuencia diario en los conjuntos de reglas solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 

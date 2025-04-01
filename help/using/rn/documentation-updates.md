@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b441c1edaf50104ae63f4cd9f14f3c268dee02dd
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
@@ -23,19 +23,19 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 * La página sobre los eventos de calificación de públicos se ha actualizado con nuevas recomendaciones. [Más información](../building-journeys/audience-qualification-events.md)
 * La capacidad de resolución de problemas de acciones personalizadas ya está disponible para todos los clientes (GA). [Más información](../action/troubleshoot-custom-action.md)
-* Higiene de datos ahora es Ciclo de vida de datos en la interfaz de usuario del producto. La documentación se ha actualizado para reflejar este cambio. [Más información](../privacy/data-hygiene.md)
-* Los permisos integrados de la página de aterrizaje que faltan se han agregado a la documentación. [Más información](../administration/ootb-permissions.md)
+* La higiene de datos ahora es el ciclo de vida de datos en la interfaz de usuario del producto. La documentación se ha actualizado para reflejar este cambio. [Más información](../privacy/data-hygiene.md)
+* Los permisos integrados de la página de aterrizaje que faltan se han añadido a la documentación. [Más información](../administration/ootb-permissions.md)
 * Se ha añadido una nota sobre la programación de campañas recurrentes. [Más información](../campaigns/create-campaign.md)
 * Se ha actualizado y reorganizado la sección sobre la inserción de vínculos y la activación del seguimiento en un mensaje de correo electrónico. [Más información](../email/message-tracking.md)
 * Se ha reorganizado y mejorado la sección sobre funcionalidades de personalización en Adobe Journey Optimizer. [Más información](../personalization/personalize.md)
-* La API de Administración de decisiones para enumerar ofertas personalizadas se ha actualizado con una muestra para realizar la paginación si faltan varias ofertas personalizadas en la respuesta. [Más información](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+* La API de gestión de decisiones para enumerar ofertas personalizadas se ha actualizado con una muestra para realizar la paginación si faltan varias ofertas personalizadas en la respuesta. [Más información](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * Se ha creado una nueva página con toda la información relativa a la función Cancelar la suscripción a una lista para una mayor claridad. [Más información](../email/list-unsubscribe.md)
 * La sección Restricción de frecuencia se ha actualizado con información sobre cómo se actualiza el contador de restricción de frecuencia para las API de decisiones y decisiones por lotes, además de la API de decisiones de Edge. [Más información](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## Febrero de 2025 {#feb-2025}
 
-* Se han actualizado los protecciones de actividad Leer audiencia para especificar que solo se puede utilizar una actividad en un recorrido y que solo se puede dirigir a una audiencia. [Más información](../building-journeys/read-audience.md)
-* Se han actualizado las protecciones de recorrido al utilizar actividades de Adobe Campaign. [Más información](../start/guardrails.md#ac-g)
+* Se han actualizado los mecanismos de protección de la actividad “Leer público” para especificar que solo se puede utilizar una actividad en un recorrido y dirigirla a un único público. [Más información](../building-journeys/read-audience.md)
+* Se han actualizado los mecanismos de protección de recorrido cuando se utilizan actividades de Adobe Campaign. [Más información](../start/guardrails.md#ac-g)
 * Se han detallado los pasos para crear sus primeros recorridos y se han añadido vínculos a la sección de documentación. [Más información](../building-journeys/journey-gs.md)
 * Ahora hay disponible una nueva página para detallar el panel de recorrido y la interfaz de usuario de filtrado. [Más información](../building-journeys/journey-ui.md)
 * Se han actualizado, mejorado y movido a una nueva página dedicada la documentación de **[!UICONTROL optimización del tiempo de envío]** y sus preguntas frecuentes relacionadas. [Más información](../building-journeys/send-time-optimization.md)
