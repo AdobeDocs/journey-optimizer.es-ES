@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
+source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 3%
@@ -99,7 +99,7 @@ Ten en cuenta que tu plantilla de WhatsApp primero debe ser aprobada por Meta an
 1. En la pantalla de configuración del recorrido o la campaña, haz clic en el botón **[!UICONTROL Editar contenido]** para configurar el contenido del mensaje de WhatsApp.
 
 <!--
-1. Select **[!UICONTROL Template message]**. 
+1. Select **[!UICONTROL Template message]**.
 -->
 
 1. Elija su **categoría de plantilla**:
