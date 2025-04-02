@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+source-git-commit: a82c9e2d999b28ed97374f3a3804e11d4acd7983
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1756'
 ht-degree: 11%
 
 ---
@@ -227,27 +227,26 @@ Una vez creada, la directiva de decisión se puede usar en el [editor de persona
 
 Siga los pasos a continuación para finalizar su experiencia basada en código y realizar los cambios en directo.
 
-1. Antes de publicar, muestre una vista previa de la experiencia basada en código para probarla.
-
-   >[!CAUTION]
-   >
-   >Actualmente no puedes simular contenido desde la interfaz de usuario en una campaña o recorrido de [experiencia basada en código](../code-based/create-code-based.md) usando decisiones.
-
-   Para probar la toma de decisiones, puede agregar el indicador `dryRun` al bloque de evento XDM `data` en la implementación del cliente:
-
-   ```
-   {
-   "data": {
-       "__adobe": {
-       "ajo":
-   {         "dryRun": true       }
-       }
-   }
-   }
-   ```
-
 1. Revise y publique su campaña o recorrido de experiencias basado en código. [Descubra cómo](../code-based/publish-code-based.md)
 
    Ahora, tan pronto como el desarrollador realice una API o una llamada de SDK para recuperar contenido para la superficie definida en la configuración de canal, los cambios se aplicarán a su página web o aplicación.
 
+1. Actualmente no puedes simular contenido desde la interfaz de usuario en una campaña o recorrido de [experiencia basada en código](../code-based/create-code-based.md) usando decisiones.
+
+   Como solución alternativa, puede probar la toma de decisiones después de publicar la campaña añadiendo el indicador `dryRun` al bloque de evento XDM `data` en la implementación del cliente:
+
+   ```
+   {
+       "data": {
+           "__adobe": {
+               "ajo": {
+                   "dryRun": true
+               }
+           }
+       }
+   }
+   ```
+
 1. Para ver el rendimiento de sus decisiones, ahora puede crear [paneles personalizados de informes de Customer Journey Analytics](cja-reporting.md).
+
+
