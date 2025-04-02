@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
+source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '787'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Para acceder a tus informes, selecciona **[!UICONTROL Informe]** en el menú ava
 
 ![](assets/cja-lp.png)
 
-Para obtener más información sobre el espacio de trabajo del Customer Journey Analytics y cómo filtrar y analizar los datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Tasa de conversión de página de aterrizaje {#lp-conversion}
 
@@ -65,7 +65,7 @@ El gráfico **[!UICONTROL Rendimiento de la página de aterrizaje con el paso de
 
 * **[!UICONTROL Vistas de página de aterrizaje]**: Número total de visitas a su página de aterrizaje provenientes de recorridos y fuentes externas, incluidas las visitas múltiples de un perfil.
 
-* **[!UICONTROL Tasa de conversión de página de aterrizaje]**: Número de personas que interactuaron con la página de aterrizaje (por ejemplo, se suscribieron a un formulario) en relación con el número total de visitas.
+* **[!UICONTROL Conversión de página de aterrizaje]**: Número de personas que interactuaron con la página de aterrizaje (por ejemplo, se suscribieron a un formulario) en relación con el número total de visitas.
 
 ## Rendimiento de la página de aterrizaje {#lp-performance}
 
@@ -79,7 +79,7 @@ La tabla **[!UICONTROL Rendimiento de la página de aterrizaje]** sirve como un 
 
 * **[!UICONTROL Vistas únicas de la página de aterrizaje]**: Número de personas que visitaron su página de aterrizaje; no se tienen en cuenta las visitas múltiples de un perfil.
 
-* **[!UICONTROL Tasa de conversión de página de aterrizaje única]**: número de personas que interactuaron con la página de aterrizaje; no se tienen en cuenta las interacciones múltiples de un perfil.
+* **[!UICONTROL Conversión de página de aterrizaje única]**: número de personas que interactuaron con la página de aterrizaje; no se tienen en cuenta las interacciones múltiples de un perfil.
 
 * **[!UICONTROL Vistas de página de aterrizaje]**: Número total de visitas a su página de aterrizaje provenientes de recorridos y fuentes externas, incluidas las visitas múltiples de un perfil.
 
