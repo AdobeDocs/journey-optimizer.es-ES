@@ -6,9 +6,10 @@ description: Aprenda a bloquear contenido en las plantillas de correo electróni
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
+exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1285'
 ht-degree: 32%
 
 ---
@@ -63,6 +64,8 @@ El bloqueo de contenido se puede aplicar en el nivel **structure** o en el nivel
 >[!AVAILABILITY]
 >
 >Los usuarios con permisos para crear plantillas de contenido pueden activar el bloqueo de contenido.
+
+➡️ [Descubra esta función en vídeo](#video)
 
 ## Bloquear una plantilla de correo electrónico {#define}
 
@@ -189,3 +192,9 @@ Estos son algunos ejemplos de edición de correos electrónicos y de la configur
 | Estructura bloqueada que no se puede eliminar | ![](assets/locking-sample-structure-locked-conf.png){zoomable="yes"} | ![](assets/locking-sample-structure-locked.png){zoomable="yes"} |
 | Componente con estilos bloqueados y que no se puede eliminar. Los usuarios solo pueden modificar el contenido. | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | Componente editable dentro de una estructura bloqueada. | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
+
+## Vídeo práctico {#video}
+
+Aprenda a bloquear contenido en plantillas de correo electrónico.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

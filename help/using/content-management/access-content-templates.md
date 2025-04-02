@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 5%
+source-wordcount: '626'
+ht-degree: 3%
 
 ---
 
@@ -24,6 +24,16 @@ Para acceder a la lista de plantillas de contenido, seleccione **[!UICONTROL Adm
 
 Se muestran todas las plantillas que se crearon en la zona protegida actual, ya sea desde un recorrido o desde una campaña con la opción **[!UICONTROL Guardar como plantilla]**, ya sea desde el menú **[!UICONTROL Plantillas de contenido]**. [Aprenda a crear plantillas](#create-content-templates)
 
+El panel de la izquierda le permite organizar las plantillas de contenido en carpetas. De forma predeterminada, se muestran todas las plantillas. Al seleccionar una carpeta, solo se muestran las plantillas y carpetas incluidas en la carpeta seleccionada. [Más información](#folders)
+
+>[!NOTE]
+>
+>Las carpetas de plantillas de contenido solo están disponibles para un conjunto de organizaciones (disponibilidad limitada) y se implementarán gradualmente para más usuarios.
+
+![](assets/content-template-list-folders.png)
+
+Para encontrar un elemento específico, empiece a escribir un nombre en el campo de búsqueda. Cuando se selecciona una [carpeta](#folders), la búsqueda se aplica a todas las plantillas de contenido o carpetas del primer nivel de jerarquía de esa carpeta<!--(not nested items)-->.
+
 Puede ordenar las plantillas de contenido por:
 * Tipo
 * Canal
@@ -33,6 +43,44 @@ Puede ordenar las plantillas de contenido por:
 También puede elegir mostrar únicamente los elementos que ha creado o modificado.
 
 ![](assets/content-template-list-filters.png)
+
+## Uso de carpetas para administrar plantillas de contenido {#folders}
+
+>[!AVAILABILITY]
+>
+>Las carpetas de plantillas de contenido solo están disponibles para un conjunto de organizaciones (disponibilidad limitada) y se implementarán gradualmente para más usuarios.
+
+Para desplazarse fácilmente por las plantillas de contenido, puede utilizar carpetas para organizarlas de forma más eficaz en una jerarquía estructurada. Esto le permite clasificar y administrar los elementos según las necesidades de su organización.
+
+![](assets/content-template-folders.png)
+
+1. Haga clic en el botón **[!UICONTROL Todas las plantillas de contenido]** para mostrar todos los elementos creados anteriormente sin la agrupación de carpetas.
+
+1. Haga clic en la carpeta **[!UICONTROL Root]** para mostrar todas las carpetas creadas.
+
+   >[!NOTE]
+   >
+   >Si aún no ha creado carpetas, se muestran todas las plantillas de contenido.
+
+1. Haga clic en cualquier carpeta dentro de la carpeta **[!UICONTROL Root]** para mostrar su contenido.
+
+1. Al hacer clic en la carpeta **[!UICONTROL Root]** o en cualquier otra carpeta, se muestra el botón **[!DNL Create folder]**. Selecciónelo.
+
+   ![](assets/content-template-create-folder.png)
+
+1. Escriba un nombre para la nueva carpeta y haga clic en **[!UICONTROL Guardar]**. La nueva carpeta se muestra en la parte superior de la lista de plantillas de contenido dentro de la carpeta **[!UICONTROL Root]** o dentro de la carpeta seleccionada actualmente.
+
+1. Puede hacer clic en el botón **[!UICONTROL Más acciones]** para cambiar el nombre de la carpeta o eliminarla.
+
+   ![](assets/content-template-folder-more-actions.png)
+
+1. Con el botón **[!UICONTROL Más acciones]**, también puede mover la plantilla de contenido a otra carpeta existente.
+
+   ![](assets/content-template-folder-moved.png)
+
+1. Ahora puede desplazarse a la carpeta que acaba de crear. Cada nueva plantilla de contenido que [cree](create-content-templates.md) desde aquí se guardará en la carpeta actual.
+
+   ![](assets/content-template-folder-create.png)
 
 ## Editar y eliminar plantillas de contenido {#edit}
 

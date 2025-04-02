@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 22%
+source-wordcount: '1469'
+ht-degree: 17%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 22%
 Para administrar los fragmentos, acceda a la lista de fragmentos desde el menú de la izquierda **[!UICONTROL Administración de contenido]** > **[!UICONTROL Fragmentos]**.
 
 Se muestran todos los fragmentos que se crearon en la zona protegida actual: [del menú **[!UICONTROL Fragmentos]**](#create-fragments), o bien utilizando la opción [Guardar como fragmento](#save-as-fragment).
+
+El panel de la izquierda le permite organizar fragmentos en carpetas. De forma predeterminada, se muestran todos los fragmentos. Al seleccionar una carpeta, solo se muestran los fragmentos y carpetas incluidos en la carpeta seleccionada. [Más información](#folders)
+
+>[!NOTE]
+>
+>Las carpetas de fragmentos solo están disponibles para un conjunto de organizaciones (disponibilidad limitada) y se implementarán gradualmente para más usuarios.
+
+![](assets/fragment-list-folders.png)
+
+Para encontrar un elemento específico, empiece a escribir un nombre en el campo de búsqueda. Cuando se selecciona una [carpeta](#folders), la búsqueda se aplica a todos los fragmentos o carpetas del primer nivel de jerarquía de esa carpeta<!--(not nested items)-->.
 
 Puede filtrar fragmentos según sus características:
 
@@ -43,10 +53,54 @@ Desde el botón **[!UICONTROL Más acciones]** situado junto a cada fragmento, p
 * Use la opción **[!UICONTROL Explorar referencias]** para ver los recorridos, campañas o plantillas donde se usa. [Más información](#explore-references)
 * Archivar el fragmento. [Más información](#archive-fragments)
 * Edite las etiquetas del fragmento. [Aprenda a trabajar con etiquetas unificadas](../start/search-filter-categorize.md#tags)
+* Mueva el fragmento a una carpeta. [Más información](#folders)
 
-![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+![](assets/fragment-list-more-actions.png)
 
-## Estados de los fragmentos
+## Uso de carpetas para administrar fragmentos {#folders}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_folders"
+>title="Organizar los fragmentos en carpetas"
+>abstract="Utilice carpetas para categorizar y administrar los fragmentos según las necesidades de su organización."
+
+>[!AVAILABILITY]
+>
+>Las carpetas de fragmentos solo están disponibles para un conjunto de organizaciones (disponibilidad limitada) y se implementarán gradualmente para más usuarios.
+
+Para desplazarse fácilmente por los fragmentos, puede utilizar carpetas para organizarlos de forma más eficaz en una jerarquía estructurada. Esto le permite clasificar y administrar los elementos según las necesidades de su organización.
+
+![](assets/fragment-folders.png)
+
+1. Haga clic en el botón **[!UICONTROL Todos los fragmentos]** para mostrar todos los elementos creados anteriormente sin la agrupación de carpetas.
+
+1. Haga clic en la carpeta **[!UICONTROL Root]** para mostrar todas las carpetas creadas.
+
+   >[!NOTE]
+   >
+   >Si aún no ha creado carpetas, se muestran todos los fragmentos.
+
+1. Haga clic en cualquier carpeta dentro de la carpeta **[!UICONTROL Root]** para mostrar su contenido.
+
+1. Al hacer clic en la carpeta **[!UICONTROL Root]** o en cualquier otra carpeta, se muestra el botón **[!DNL Create folder]**. Selecciónelo.
+
+   ![](assets/fragment-create-folder.png)
+
+1. Escriba un nombre para la nueva carpeta y haga clic en **[!UICONTROL Guardar]**. La nueva carpeta se muestra en la parte superior de la lista de fragmentos dentro de la carpeta **[!UICONTROL Root]** o dentro de la carpeta seleccionada actualmente.
+
+1. Puede hacer clic en el botón **[!UICONTROL Más acciones]** para cambiar el nombre de la carpeta o eliminarla.
+
+   ![](assets/fragment-folder-more-actions.png)
+
+1. Con el botón **[!UICONTROL Más acciones]**, también puede mover el fragmento a otra carpeta existente.
+
+   ![](assets/fragment-folder-moved.png)
+
+1. Ahora puede desplazarse a la carpeta que acaba de crear. Cada fragmento nuevo que [cree](create-fragments.md) desde aquí se guardará en la carpeta actual.
+
+   ![](assets/fragment-folder-create.png)
+
+## Estados de los fragmentos {#fragments-statuses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"

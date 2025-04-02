@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 85%
+source-wordcount: '613'
+ht-degree: 79%
 
 ---
 
@@ -22,6 +22,20 @@ ht-degree: 85%
 
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión. [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información acerca de estos cambios en [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
+
+## Actualizaciones del 25 de abril
+
+### Mejoras {#25-04-improv}
+
+**Administración de contenido**
+
+Para administrar fácilmente las plantillas de contenido y los fragmentos, ahora puede utilizar carpetas para organizarlos de forma más eficaz en una jerarquía estructurada.
+
+Obtenga más información en las secciones [Plantillas de contenido](../content-management/access-content-templates.md#folders) y [Fragmentos](../content-management/manage-fragments.md#folders).
+
+>[!AVAILABILITY]
+>
+>Esta mejora solo está disponible para un conjunto de organizaciones (disponibilidad limitada).
 
 ## Notas de la versión de marzo de 2025 {#25-3-rn}
 
@@ -183,11 +197,7 @@ Como recordatorio, el límite de frecuencia diario en los conjuntos de reglas so
 
 Para obtener más información sobre las reglas de negocio, consulte la [documentación detallada](../configuration/rule-sets.md).
 
-<!--**Content management**
-
-To easily manage your fragments and your content templates, you can now use folders to organize them more effectively into a structured hierarchy. This improvement is only available for a set of organizations (Limited Availability). <!--To gain access, contact your Adobe representative.
-
-**Deliverability**
+<!--**Deliverability**
 
 You can now choose to have your emails relayed to your SMTP servers instead of being sent directly from Journey Optimizer to ISPs. This allows you to route final email deliveries through your own Mail Transfer Agents and IPs, or to perform final validations on the emails before sending them to your recipients. The SMTP relay capacity is available on demand - contact your Adobe representative.-->
 
