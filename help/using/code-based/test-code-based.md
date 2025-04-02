@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 25%
+source-wordcount: '732'
+ht-degree: 24%
 
 ---
 
@@ -37,6 +37,11 @@ Para mostrar una previsualización de la experiencia basada en código modificad
 1. Se muestra una previsualización de la experiencia modificada basada en código.
 
 Encontrará información detallada sobre cómo seleccionar perfiles de prueba y obtener una vista previa del contenido en [esta sección](../content-management/preview.md).
+
+>[!NOTE]
+>
+>Actualmente no puedes simular contenido desde la interfaz de usuario en una campaña o recorrido de experiencia basado en código usando [Decisioning](../experience-decisioning/gs-experience-decisioning.md). Hay una solución disponible en [esta sección](../experience-decisioning/create-decision.md).
+
 
 ## Previsualización en el dispositivo {#preview-on-device}
 
