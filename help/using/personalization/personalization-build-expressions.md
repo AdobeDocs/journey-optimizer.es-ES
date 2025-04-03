@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expresión, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
+source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 11%
+source-wordcount: '1436'
+ht-degree: 10%
 
 ---
 
@@ -99,9 +99,15 @@ El panel de navegación permite seleccionar el origen de la personalización. Lo
 >title="Completar automáticamente"
 >abstract="Al activar esta opción el sistema sugiere y completa automáticamente el código mientras se escribe. Esta función solo está disponible en los formatos HTML y texto, y admite atributos de perfil y contexto. Si se desactiva mediante el conmutador, el editor proporcionará la finalización automática de código HTML nativo en su lugar."
 
-En el espacio de trabajo central se crea la sintaxis de personalización. Para utilizar un atributo para personalizar el mensaje, localícelo en el panel de navegación y haga clic en el botón `+` para agregarlo a la expresión.
+En el espacio de trabajo central se crea la sintaxis de personalización. Para utilizar un atributo para personalizar el mensaje, localícelo en el panel de atributos y haga clic en el botón `+` para agregarlo a la expresión.
+
+![](assets/personalization-add-attribute.png)
 
 El menú de los tres puntos situado junto al icono `+` le permite obtener más información sobre cada atributo y agregar a los favoritos los atributos utilizados con más frecuencia. Se puede acceder a los atributos agregados a favoritos desde el menú **[!UICONTROL Favoritos]** del panel de navegación.
+
+>[!NOTE]
+>
+>De forma predeterminada, el panel Atributos solo muestra los atributos rellenados. Para mostrar todos los atributos, seleccione el botón ![](assets/do-not-localize/settings-icon.svg) situado encima del campo de búsqueda y active la opción **[!UICONTROL Mostrar solo atributos rellenados]**.
 
 Además, puede definir el texto de reserva predeterminado que se mostrará si un atributo de perfil de tipo cadena está vacío. Para ello, haga clic en el botón de puntos suspensivos situado junto al atributo y seleccione **[!UICONTROL Insertar con texto de reserva]**. Escriba el texto que debería mostrarse de forma predeterminada si el valor del atributo está vacío para un perfil y, a continuación, haga clic en **[!UICONTROL Agregar]**.
 
