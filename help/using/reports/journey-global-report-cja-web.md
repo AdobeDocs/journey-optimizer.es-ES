@@ -8,18 +8,24 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7591a07b-1680-4081-a745-192755d35371
-source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
 
 # Informe de recorrido web {#journey-global-report}
 
+>[!INFO]
+>
+>Su informe de recorrido puede mostrar información de varios recorridos simultáneamente, ya que los usuarios pueden participar en más de un recorrido a la vez. Como resultado, las comunicaciones entrantes (basadas en la aplicación, en la web y en el código) pueden mostrarse en varios recorridos si se activan para un usuario que participa en recorridos activos simultáneos, lo que puede dar como resultado datos superpuestos.
+
 >[!BEGINSHADEBOX]
 
-Su informe de recorrido puede mostrar información de varios recorridos simultáneamente, ya que los usuarios pueden participar en más de un recorrido a la vez. Como resultado, las comunicaciones entrantes (basadas en la aplicación, en la web y en el código) pueden mostrarse en varios recorridos si se activan para un usuario que participa en recorridos activos simultáneos, lo que puede dar como resultado datos superpuestos.
+Puede acceder a su informe de recorrido web si hace clic en el botón **[!UICONTROL Ver informe]** del recorrido. [Más información](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
 

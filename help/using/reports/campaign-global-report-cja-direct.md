@@ -7,14 +7,23 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
 
 # Informe de campaña de correo directo {#campaign-global-report-cja-direct}
+
+>[!BEGINSHADEBOX]
+
+Puede acceder a su informe de campaña de correo postal haciendo clic en el botón **[!UICONTROL Informes]** de su campaña y después seleccionando **[!UICONTROL Ver informe de todo el tiempo]**. [Más información](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## Estadísticas de envío {#sending-statistics-directmail}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3492'
 ht-degree: 27%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 27%
 >title="Informe en vivo de la campaña"
 >abstract="El informe en vivo de la campaña permite medir y visualizar en tiempo real el impacto y el rendimiento de las campañas solo durante las últimas 24 horas. El informe se divide en distintos widgets que detallan el éxito y los errores de la campaña. Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
 
-Los informes en directo, a los que se puede acceder desde la pestaña Últimas 24 horas, muestran los eventos que han tenido lugar en las últimas 24 horas, con un intervalo de tiempo mínimo de dos minutos desde que se produjo el evento. En comparación, los informes de Customer Journey Analytics se centran en eventos que se produjeron hace al menos dos horas y abarcan eventos de un periodo de tiempo seleccionado.
+Los informes en directo, a los que se puede acceder desde la pestaña Últimas 24 horas, muestran los eventos que han tenido lugar en las últimas 24 horas, con un intervalo de tiempo mínimo de dos minutos desde que se produjo el evento. En comparación, los informes de Customer Journey Analytics se centran en eventos que ocurrieron al menos hace dos horas y cubren eventos que se produjeron durante un período de tiempo seleccionado.
 
-Se puede acceder directamente al informe de Campaign Live desde la campaña con el botón **[!UICONTROL Live view]**.
+Puede acceder al informe de campaña en directo directamente desde su campaña haciendo clic en el botón **[!UICONTROL Informes]** y luego seleccionando **[!UICONTROL Ver el informe de las últimas 24 horas]**.
 
 La página de la campaña **[!UICONTROL Informe en vivo]** se mostrará con las siguientes pestañas:
 

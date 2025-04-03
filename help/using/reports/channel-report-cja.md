@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,11 @@ Al hacer clic en el nombre de cualquier campaña enumerada en esta tabla, puede 
 
 * **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus mensajes.
 
+* **[!UICONTROL Tasa de clics (CTR)]**: porcentaje de clics en los mensajes.
+
 * **[!UICONTROL Envíos]**: Número total de envíos para cada campaña.
+
+* **[!UICONTROL Entregado]**: número de mensajes enviados correctamente.
 
 * **[!UICONTROL Pantallas]**: Número de veces que se abrió el mensaje.
 
@@ -107,9 +111,9 @@ La tabla **[!UICONTROL Canales]** proporciona un desglose detallado de la partic
 
 * **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus mensajes.
 
-* **[!UICONTROL Tasa de clics]**: Porcentaje de clics en los mensajes.
+* **[!UICONTROL Tasa de clics (CTR)]**: porcentaje de clics en los mensajes.
 
-* **[!UICONTROL Envíos]**: Número total de envíos para cada campaña.
+* **[!UICONTROL Entregado]**: número de mensajes enviados correctamente.
 
 * **[!UICONTROL Pantallas]**: Número de veces que se abrió el mensaje.
 

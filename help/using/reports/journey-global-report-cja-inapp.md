@@ -8,28 +8,34 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '611'
 ht-degree: 2%
 
 ---
 
 # Informe de recorrido in-app {#journey-global-report}
 
+>[!INFO]
+>
+>Su informe de recorrido puede mostrar información de varios recorridos simultáneamente, ya que los usuarios pueden participar en más de un recorrido a la vez. Como resultado, las comunicaciones entrantes (basadas en la aplicación, en la web y en el código) pueden mostrarse en varios recorridos si se activan para un usuario que participa en recorridos activos simultáneos, lo que puede dar como resultado datos superpuestos.
+
 >[!BEGINSHADEBOX]
 
-Su informe de recorrido puede mostrar información de varios recorridos simultáneamente, ya que los usuarios pueden participar en más de un recorrido a la vez. Como resultado, las comunicaciones entrantes (basadas en la aplicación, en la web y en el código) pueden mostrarse en varios recorridos si se activan para un usuario que participa en recorridos activos simultáneos, lo que puede dar como resultado datos superpuestos.
+Puede acceder al informe de recorrido en la aplicación si hace clic en el botón **[!UICONTROL Informes]** del recorrido. [Más información](report-gs-cja.md)
+
+![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
 
-## Tendencia de impresión y clics {#impression-click-trend}
+## Tendencia de visualización y clics {#display-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
-El gráfico **[!UICONTROL Tendencia de impresión y clics]** presenta un análisis detallado de la participación de sus perfiles con los mensajes en la aplicación, lo que ofrece información valiosa sobre cómo los perfiles interactúan con el contenido.
+El gráfico **[!UICONTROL Tendencia de visualización y clics]** presenta un análisis detallado de la participación de sus perfiles con los mensajes en la aplicación, lo que ofrece información valiosa sobre cómo los perfiles interactúan con el contenido.
 
-+++ Obtenga más información sobre las métricas de tendencias de impresión y clics
++++ Obtenga más información sobre las métricas de tendencias de Mostrar y hacer clic
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en los mensajes en la aplicación.
 

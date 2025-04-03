@@ -7,14 +7,23 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 39441fe9-5cdc-4787-9267-798de80e3af2
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '538'
+ht-degree: 3%
 
 ---
 
 # Informe de campaña web {#campaign-global-report-cja-web}
+
+>[!BEGINSHADEBOX]
+
+Puede acceder a su informe de campaña web haciendo clic en el botón **[!UICONTROL Informes]** de su campaña y seleccionando **[!UICONTROL Ver informe de todo el tiempo]**. [Más información](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## Tendencia de impresión y clics {#impressions-web}
 
