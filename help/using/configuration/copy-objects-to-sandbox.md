@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zona protegida, recorrido, copiar, entorno
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: bf18b629c23f9ef48d53b0042d466ba7c1f57c78
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1101'
 ht-degree: 4%
 
 ---
@@ -50,6 +50,21 @@ Journey Optimizer permite exportar recorridos, plantillas de contenido y fragmen
 * Los objetos copiados en la zona protegida de destino son únicos y no hay riesgo de sobrescribir elementos existentes. Tanto el recorrido como los mensajes dentro del recorrido se transfieren en modo de borrador. Esto le permite realizar una validación completa antes de la publicación en la zona protegida de destino.
 
 * El proceso de copia solo copia los metadatos sobre el recorrido y los objetos de ese Recorrido. No se están copiando datos de perfil o conjunto de datos como parte de este proceso.
+
+### Campañas (#campaigns)
+
+Las campañas se copian junto con todos los elementos relacionados con el perfil, la audiencia, el esquema, los mensajes en línea y los objetos dependientes.
+
+Sin embargo, los siguientes elementos se **no** copiaron:
+
+* Variantes multilingües y configuración de idioma
+* Variantes de experimento
+* Directivas y elementos de decisión
+* Reglas empresariales
+* Etiquetas
+* Etiquetado y aplicación del uso de datos (Data Usage Labeling and Enforcement, DULE)
+
+Una vez copiadas las campañas, las configuraciones de canal deben seleccionarse manualmente.
 
 ### Plantillas de contenido {#content-templates}
 
