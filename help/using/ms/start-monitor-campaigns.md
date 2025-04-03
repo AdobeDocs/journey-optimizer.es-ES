@@ -5,16 +5,25 @@ title: Inicio y monitorización de campañas de varios pasos con Adobe Journey O
 description: Obtenga información sobre cómo iniciar y supervisar campañas de varios pasos con Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f73d847c1d335260a0198e844d237a652e346729
+exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
+source-git-commit: 70864a3e14a748562518c699513184e0f63c1139
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 0%
+source-wordcount: '579'
+ht-degree: 1%
 
 ---
 
-# Inicio y monitorización de campañas de varios pasos {#start-monitor}
+# Inicio y monitorización de sus campañas orquestadas {#start-monitor}
 
-Una vez creado el flujo de trabajo y diseñado las tareas que se realizan en el lienzo, puede iniciarlo y monitorizar cómo se está ejecutando.
+<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Su navegador no soporta el elemento de audio.</audio>
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_publication"
+>title="Publicar campaña organizada"
+>abstract="Para iniciar la campaña, debe publicarla. Asegúrese de que todas las advertencias se borren antes de la publicación."
+
+
+Una vez que haya creado las tareas orquestadas y diseñadas para realizarlas en el lienzo, puede publicarlas y monitorizar cómo se ejecutan.
 
 ## Inicio de una campaña de varios pasos {#start}
 
