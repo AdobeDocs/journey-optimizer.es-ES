@@ -11,7 +11,7 @@ exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: 201d7d367540f7b36f27ca4a09b6f0ce12e3e22f
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 2%
+ht-degree: 27%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
 >title="URL del proveedor"
->abstract="Especifique la URL de la API externa a la que desea conectarse. Esta URL sirve como punto final para acceder a las funciones y características de la API."
+>abstract="Especifique la URL de la API externa a la que desea conectarse. Esta URL sirve como punto final para acceder a las funciones y funcionalidades de la API."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_auth_type"
@@ -35,7 +35,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_payload"
 >title="Carga útil del proveedor"
->abstract="Proporcione la carga útil de solicitud para garantizar que se envían los datos correctos para el procesamiento y la generación de respuestas."
+>abstract="Proporcione la carga útil de la solicitud para garantizar que se envían los datos correctos para el procesamiento y la generación de respuestas."
 
 >[!AVAILABILITY]
 >

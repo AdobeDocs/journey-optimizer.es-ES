@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 48%
+ht-degree: 51%
 
 ---
 
@@ -54,8 +54,8 @@ En ambos casos, cuando un destinatario hace clic en el vínculo de no participac
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Añadir una URL de cancelación de suscripción a los correos electrónicos"
->abstract="Active esta opción para añadir automáticamente una URL de cancelación de suscripción al encabezado del correo electrónico. También puede establecer una URL de cancelación de suscripción en un mensaje, insertando un vínculo de no participación con un solo clic en el contenido del correo electrónico."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Configuración de la exclusión en un clic del contenido del correo electrónico"
+>abstract="Habilite esta opción para añadir automáticamente una URL de cancelación de suscripción al encabezado del correo electrónico. También puede establecer una URL de cancelación de suscripción en un mensaje, insertando un vínculo de no participación con un solo clic en el contenido del correo electrónico."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Establecer la exclusión con un clic del contenido del correo electrónico"
 
 Cuando la opción **[!UICONTROL Enable List-Unsubscribe]** está habilitada, si es compatible con el cliente de correo electrónico de los destinatarios, el encabezado del correo electrónico incluye un mailto y/o una URL de forma predeterminada que los destinatarios pueden usar para cancelar la suscripción a su lista de correo.
 
@@ -107,7 +107,7 @@ Actualmente, [!DNL Journey Optimizer] no anexa una etiqueta específica para can
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom_url"
 >title="Introduzca su propia URL de cancelación de suscripción con un solo clic"
->abstract="La URL **Cancelar suscripción con un solo clic** debe usar el método de petición POST."
+>abstract="La **URL de cancelación de suscripción con un solo clic** debe usar el método de petición POST."
 
 Si está administrando el consentimiento fuera de Adobe, seleccione la opción **[!UICONTROL Administrado por el cliente]** para introducir una dirección de correo electrónico de cancelación de suscripción personalizada y su propia URL de cancelación de suscripción de un solo clic.
 

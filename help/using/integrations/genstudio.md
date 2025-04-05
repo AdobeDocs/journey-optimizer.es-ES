@@ -11,11 +11,11 @@ exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: e5edb719c4ff30385242700217c9c4c07ff28373
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
-# Introducción a la integración con GenStudio {#gs-genstudio}
+# Introducción a la integración de GenStudio {#gs-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
