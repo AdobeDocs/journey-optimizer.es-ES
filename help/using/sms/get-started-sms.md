@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ Utilice [!DNL Journey Optimizer] para enviar mensajes de texto (SMS/MMS) a sus c
 
 Los mensajes de texto se pueden crear y enviar en un recorrido o en una campaña. Para MMS y SMS, utilice la acción SMS.
 
-* En un **recorrido**. Cree un recorrido, añada una actividad de SMS, defina la configuración básica y, a continuación, vaya al panel **[!UICONTROL Acciones: SMS]** para crear el contenido del mensaje SMS/MMS. Aprenda a crear un recorrido en [esta página](../building-journeys/journey-gs.md)
+* En un **recorrido**. Cree un recorrido, añada una actividad de SMS, defina la configuración básica y, a continuación, vaya al panel **[!UICONTROL Acciones: SMS]** para crear el contenido del mensaje SMS/MMS. Aprenda a crear un recorrido en [esta página](../building-journeys/journey-gs.md).
 
 * En una **campaña**. Cree una campaña, seleccione SMS como acción, defina la configuración básica y, a continuación, edite el contenido del mensaje para definir el mensaje SMS/MMS que desea enviar. Aprenda a crear una campaña en [esta página](../campaigns/create-campaign.md#configure).
 

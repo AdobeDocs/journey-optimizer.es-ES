@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Al crear sus recorridos y campañas, utilice el botón **Alerts** para comprobar y resolver los errores antes de ejecutarlos o publicarlos. Aprenda a solucionar problemas de sus recorridos en [esta página](../building-journeys/troubleshooting.md). Aprenda a revisar sus campañas en [esta página](../campaigns/review-activate-campaign.md).
 
-También puede suscribirse a las alertas del sistema de Adobe Journey Optimizer, tal como se detalla en esta página.
+También puede suscribirse a las alertas del sistema de Adobe Journey Optimizer, tal y como se detalla en esta página.
 
 ## Alertas de acceso y suscripción {#alerting-capabilities}
 
@@ -75,7 +75,7 @@ El nombre de suscripción de evento de E/S correspondiente a la alerta **Leer D�
 
 ## Resolución de problemas {#alert-troubleshooting}
 
-Para solucionar problemas de las alertas de **Leer audiencia**, compruebe el recuento de audiencias en la interfaz del Experience Platform.
+Para solucionar problemas de las alertas de **Leer audiencia**, compruebe su recuento de audiencias en la interfaz de Experience Platform.
 
 ![](assets/alert-troubleshooting-0.png)
 

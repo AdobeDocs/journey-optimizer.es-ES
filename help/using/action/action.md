@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acciones, recorrido, mensajes, envío, conexiones
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 48%
+ht-degree: 46%
 
 ---
 
@@ -38,7 +38,7 @@ Las acciones son conexiones a través de las cuales se ofrecen experiencias pers
 >
 >La configuración de las acciones personalizadas debe realizarla un **usuario técnico**.
 
-Las acciones personalizadas son acciones adicionales definidas por usuarios técnicos y que se ponen a disposición de los especialistas en marketing: una vez configuradas, aparecen en la paleta izquierda del recorrido, en la categoría **[!UICONTROL Acción]**. Obtenga más información en [esta página](../building-journeys/about-journey-activities.md#action-activities).
+Las acciones personalizadas son acciones adicionales definidas por usuarios técnicos y que se ponen a disposición de los especialistas en marketing: una vez configuradas, aparecen en la paleta izquierda del recorrido, en la categoría **[!UICONTROL Acción]**. Más información sobre [esta página](../building-journeys/about-journey-activities.md#action-activities).
 
 Para ver la lista de acciones o configurar una nueva acción, seleccione **[!UICONTROL Configuraciones]** en la sección del menú ADMINISTRACIÓN. En la sección **[!UICONTROL Acciones]**, haga clic en **[!UICONTROL Administrar]**. Se muestra la lista de acciones. Consulte [esta página](../start/user-interface.md) para obtener más información sobre la interfaz.
 

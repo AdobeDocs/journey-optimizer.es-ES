@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 18%
@@ -76,7 +76,7 @@ Cuando se activa la opción **Permitir la reentrada**, se muestra el campo **Per
 
 ## Administrar acceso {#manage-access}
 
-Para asignar etiquetas de uso de datos principales o personalizados al recorrido, haz clic en el botón **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
+Para asignar etiquetas de uso de datos principales o personalizados al recorrido, haz clic en el botón **[!UICONTROL Administrar acceso]**. [Más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
 
 ![](assets/journeys-manage-access.png)
 

@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: permisos, creación, mensajes
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 5c84bc726d50df555b9a156233c70f08f3febaba
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Permisos integrados {#ootb-permissions}
 
-Los permisos integrados representan los diferentes permisos que se pueden asignar a **[!UICONTROL Rol]** para ajustar el acceso de los usuarios a Journey Optimizer. Los permisos de alto nivel abarcan permisos de bajo nivel, detallados en [esta página](high-low-permissions.md).
+Los permisos integrados representan los diferentes permisos que se pueden asignar a **[!UICONTROL Rol]** para ajustar el acceso de los usuarios a Journey Optimizer. Los permisos de alto nivel comprenden permisos de bajo nivel, detallados en [esta página](high-low-permissions.md).
 
 | Capacidad | Permisos |
 |-|-|

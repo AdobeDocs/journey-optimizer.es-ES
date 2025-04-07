@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 9%
@@ -69,7 +69,7 @@ Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el botón **
 
 1. En la sección **[!UICONTROL Acciones]**, elija el **[!UICONTROL SMS]** y seleccione o cree una nueva configuración.
 
-   Obtenga más información acerca de la configuración de SMS en [esta página](sms-configuration.md).
+   Más información acerca de la configuración de SMS en [esta página](sms-configuration.md).
 
    ![](assets/sms_create_3.png)
 
@@ -131,11 +131,11 @@ Para configurar el contenido del SMS, siga los pasos a continuación. La configu
 
 ## Definición del contenido de MMS{#mms-content}
 
-Puede mejorar su comunicación enviando mensajes del Servicio de mensajes multimedia (MMS), lo que permite compartir contenidos como vídeos, imágenes, clips de audio y GIF, etc. Además, el MMS admite hasta 1600 caracteres de texto en el mensaje.
+Puede mejorar su comunicación enviando mensajes del Servicio de mensajes multimedia (MMS), lo que permite compartir medios como vídeos, imágenes, clips de audio y GIF, etc. Además, el MMS admite hasta 1600 caracteres de texto en el mensaje.
 
 >[!NOTE]
 >
-> El canal MMS incluye algunas limitaciones enumeradas en [esta página](../start/guardrails.md#sms-guardrails).
+> El canal MMS incluye algunas limitaciones en [esta página](../start/guardrails.md#sms-guardrails).
 
 Para crear contenido MMS, siga estos pasos:
 

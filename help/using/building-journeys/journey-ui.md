@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -128,7 +128,7 @@ Cuando se publica una nueva versión de un recorrido, la versión anterior final
 
 >[!NOTE]
 >
->Se aplican limitaciones y protecciones específicas al control de versiones de los recorridos. Obtenga más información en [esta página](../start/guardrails.md#journey-versions-journey-versions-g).
+>Se aplican limitaciones y protecciones específicas al control de versiones de los recorridos. Más información sobre [esta página](../start/guardrails.md#journey-versions-journey-versions-g).
 
 ## Duplicación de un recorrido {#duplicate-a-journey}
 

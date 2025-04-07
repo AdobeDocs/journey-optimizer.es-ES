@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 4%
@@ -126,7 +126,7 @@ Ahora puede crear y configurar sus ofertas. En este ejemplo, creará cuatro ofer
    >
    >Una oferta se puede mostrar en diferentes lugares de un mensaje para crear más oportunidades de utilizar la oferta en diferentes contextos de colocación.
 
-   Obtenga más información sobre las representaciones en [esta sección](../../using/offers/offer-library/creating-personalized-offers.md#representations).
+   Obtenga más información acerca de las representaciones en [esta sección](../../using/offers/offer-library/creating-personalized-offers.md#representations).
 
 1. Seleccione una imagen adecuada para las dos primeras ubicaciones. Escriba texto personalizado para la ubicación *No digital - Texto*.
 

@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: exclusión, correo electrónico, vínculo, cancelación de suscripción
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 564dcb691d61a2f48694d208644847d7bb65d664
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 24%
+ht-degree: 23%
 
 ---
 
 # Administración de exclusión de correo electrónico {#email-opt-out}
 
-Al enviar mensajes desde recorridos o campañas, siempre debe asegurarse de que los clientes puedan cancelar la suscripción a comunicaciones futuras. Una vez cancelada la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing.  [Más información sobre la administración de la privacidad y la exclusión](../privacy/opt-out.md)
+Al enviar mensajes desde recorridos o campañas, siempre debe asegurarse de que los clientes puedan cancelar la suscripción a comunicaciones futuras. Una vez cancelada la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing.  [Más información acerca de la administración de la privacidad y la exclusión](../privacy/opt-out.md)
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Al enviar mensajes desde recorridos o campañas, siempre debe asegurarse de que 
 
 Para insertar un vínculo de baja en el contenido del correo electrónico, puede:
 
-* Añada una URL de cancelación de suscripción de un clic en el encabezado del correo electrónico. La opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]** en el nivel de configuración de canal agrega un vínculo de no participación al encabezado del correo electrónico. [Obtenga más información sobre la exclusión en el encabezado del correo electrónico](#unsubscribe-header)
+* Añada una URL de cancelación de suscripción de un clic en el encabezado del correo electrónico. La opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]** en el nivel de configuración de canal agrega un vínculo de no participación al encabezado del correo electrónico. [Obtenga más información acerca de la exclusión en el encabezado del correo electrónico](#unsubscribe-header)
 
 * Habilite el **vínculo de no participación de un clic** para su correo electrónico.  [Aprenda a agregar un vínculo de no participación de un clic](#one-click-opt-out)
 
@@ -67,7 +67,7 @@ Para establecer una URL de cancelación de suscripción personalizada, inserte u
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-   Puede personalizar los vínculos. Obtenga más información sobre las URL personalizadas en [esta sección](../personalization/personalization-syntax.md).
+   Puede personalizar los vínculos. Obtenga más información acerca de las direcciones URL personalizadas en [esta sección](../personalization/personalization-syntax.md).
 
 1. Seleccione cómo desea aplicar la exclusión: en el nivel de canal o de identidad.
 

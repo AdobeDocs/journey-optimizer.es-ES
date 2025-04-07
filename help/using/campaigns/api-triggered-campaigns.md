@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 2%
@@ -58,7 +58,7 @@ Para crear una campaña activada por API, siga los pasos a continuación. Encont
 
 1. En la sección **[!UICONTROL Audience]**, especifique el área de nombres que se utilizará para identificar a los individuos.
 
-   * Si está creando una campaña del tipo **transaccional**, los perfiles de destino deben definirse en la llamada de API. La opción **[!UICONTROL Crear nuevos perfiles]** le permite crear automáticamente perfiles que no existen en la base de datos. [Obtenga más información sobre la creación de perfiles en la ejecución de la campaña](#profile-creation)
+   * Si está creando una campaña del tipo **transaccional**, los perfiles de destino deben definirse en la llamada de API. La opción **[!UICONTROL Crear nuevos perfiles]** le permite crear automáticamente perfiles que no existen en la base de datos. [Obtenga más información acerca de la creación de perfiles en la ejecución de la campaña](#profile-creation)
 
      >[!NOTE]
      >
@@ -112,7 +112,7 @@ La sintaxis `{{context.<contextualAttribute>}}` solo está asignada a un tipo de
 >
 >Los atributos contextuales pasados a la solicitud no pueden superar los 200 KB y siempre se consideran de tipo cadena.
 >
->La sintaxis `context.system` está restringida únicamente al uso interno del Adobe y no debe usarse para pasar atributos contextuales.
+>La sintaxis `context.system` está restringida únicamente al uso interno de Adobe y no debe usarse para pasar atributos contextuales.
 
 Tenga en cuenta que, por ahora, no hay ningún atributo contextual disponible para su uso en el menú del carril izquierdo. Los atributos deben escribirse directamente en la expresión personalizada, sin que [!DNL Journey Optimizer] realice ninguna comprobación.
 

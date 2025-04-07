@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 14%
@@ -94,7 +94,7 @@ Use una **[!UICONTROL condición horaria]** para realizar diferentes acciones se
 
 >[!NOTE]
 >
->* La zona horaria no es específica de una condición y se define en el nivel de recorrido en las propiedades del recorrido. Obtenga más información en [esta página](../building-journeys/timezone-management.md).
+>* La zona horaria no es específica de una condición y se define en el nivel de recorrido en las propiedades del recorrido. Más información sobre [esta página](../building-journeys/timezone-management.md).
 >
 >* De manera predeterminada, la **[!UICONTROL condición horaria]** se establece por hora, de 00:00 a 12:00.
 

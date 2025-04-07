@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 38%
+ht-degree: 37%
 
 ---
 
@@ -57,6 +57,6 @@ El uso de los servicios de mensajería de texto y MMS está sujeto a términos y
 
 >[!CAUTION]
 >
->Para acceder y editar subdominios SMS, debe tener el permiso **[!UICONTROL Administrar subdominios SMS]** en la zona protegida de producción. Obtenga más información acerca de los permisos en [esta página](../administration/high-low-permissions.md#administration-permissions).
+>Para acceder y editar subdominios SMS, debe tener el permiso **[!UICONTROL Administrar subdominios SMS]** en la zona protegida de producción. Más información sobre los permisos de [esta página](../administration/high-low-permissions.md#administration-permissions).
 >
 

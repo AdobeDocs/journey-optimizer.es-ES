@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->La experiencia actual de creación de informes se eliminará a partir de enero de 2025. Después de esta fecha, la nueva experiencia de creación de informes pasará a ser el estándar. Recomendamos que se familiarice con las nuevas funciones y características para garantizar una transición sin problemas. [Introducción a la nueva interfaz de informes de Journey Optimizer.](report-gs-cja.md)
+>La experiencia actual de creación de informes se eliminará a partir de enero de 2025. Después de esta fecha, la nueva experiencia de creación de informes pasará a ser el estándar. Le recomendamos que se familiarice con las nuevas características y funcionalidades para garantizar una transición sin problemas. [Introducción a la nueva interfaz de informes de Journey Optimizer.](report-gs-cja.md)
 
 Los informes de canal sirven como una potente herramienta que proporciona una visión general completa de las métricas de tráfico y participación en un informe unificado para cada canal, que incluye todas las acciones de todas las campañas y Recorridos. Se divide en diferentes widgets, cada uno de los cuales proporciona una vista específica del rendimiento de la campaña o del recorrido.
 
-Los informes de canal son totalmente personalizables, por lo que puede cambiar el tamaño de los widgets o eliminarlos para crear un tablero que satisfaga sus necesidades específicas. También puede exportar los datos del informe a un PDF o archivo CSV para su posterior análisis.
+Los informes de canal son totalmente personalizables, por lo que puede cambiar el tamaño de los widgets o eliminarlos para crear un tablero que satisfaga sus necesidades específicas. También puede exportar los datos del informe a un archivo PDF o CSV para su posterior análisis.
 
-Obtenga más información sobre las distintas métricas y widgets disponibles para los informes de canal en esta [página](channel-report.md).
+Obtenga más información acerca de las distintas métricas y widgets disponibles para los informes de canal en [esta página](channel-report.md).
 
 ## Antes de empezar {#manage-reports-prereq}
 
@@ -89,9 +89,9 @@ Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo q
 
 >[!BEGINTABS]
 
->[!TAB Exporte su informe como archivo de PDF]
+>[!TAB Exporte su informe como archivo PDF]
 
-1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL archivo de PDF]**.
+1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL archivo PDF]**.
 
 1. En la ventana Imprimir, configure el documento según sea necesario. Tenga en cuenta que las opciones pueden variar según el explorador.
 

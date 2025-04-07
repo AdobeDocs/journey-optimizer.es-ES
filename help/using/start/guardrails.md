@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2471'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ A partir de febrero de 2025, se implementará gradualmente un mecanismo de prote
 * 90 días para los datos en el almacén de perfiles,
 * 13 meses para los datos en el lago de datos.
 
-Este cambio se implementará en las **zonas protegidas de clientes existentes** en una fase posterior. [Obtenga más información sobre los mecanismos de protección de tiempo de vida (TTL) de los conjuntos de datos](../data/datasets-ttl.md)
+Este cambio se implementará en las **zonas protegidas de clientes existentes** en una fase posterior. [Obtenga más información acerca de las protecciones de tiempo de vida (TTL) de los conjuntos de datos](../data/datasets-ttl.md)
 
 ## Protecciones de canales {#channel-guardrails}
 
@@ -83,7 +83,7 @@ De forma predeterminada, [!DNL Journey Optimizer] permite delegar hasta 10 subdo
 
 Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios. Póngase en contacto con la persona de contacto de Adobe para obtener más información sobre el número de subdominios a los que tiene derecho.
 
-Obtenga más información acerca de la delegación de dominios en [esta página](../configuration/delegate-subdomain.md).
+Más información sobre la delegación de dominios en [esta página](../configuration/delegate-subdomain.md).
 
 ## Protecciones de fragmentos {#fragments-guardrails}
 
@@ -122,7 +122,7 @@ Las protecciones y limitaciones que se deben tener en cuenta al trabajar con tom
 Las siguientes protecciones se aplican a [Acciones](../building-journeys/about-journey-activities.md) en sus recorridos:
 
 * En caso de error, se realizan tres reintentos de forma sistemática. No puede ajustar el número de reintentos según el mensaje de error recibido. Los reintentos se realizan para todos los errores HTTP excepto para HTTP 401, 403 y 404.
-* El evento **Reacción** le permite reaccionar a las acciones predeterminadas. Obtenga más información en [esta página](../building-journeys/reaction-events.md). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado.
+* El evento **Reacción** le permite reaccionar a las acciones predeterminadas. Más información sobre [esta página](../building-journeys/reaction-events.md). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado.
 * No puede colocar dos acciones en paralelo, debe agregarlas una tras otra.
 * Normalmente, un perfil no puede estar presente varias veces en el mismo recorrido y al mismo tiempo. Si la reentrada está activada, un perfil puede volver a entrar en un recorrido, pero no puede hacerlo hasta que salga por completo de la instancia anterior del recorrido. [Más información](../building-journeys/end-journey.md)
 
@@ -190,7 +190,7 @@ Puede elegir entre una de estas dos soluciones:
 
 ### Actualización de perfil {#update-profile-g}
 
-Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL Actualizar perfil]**. Se muestran [en esta página](../building-journeys/update-profiles.md).
+Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL Actualizar perfil]**. Están listados en [esta página](../building-journeys/update-profiles.md).
 
 ### Público de lectura {#read-segment-g}
 
@@ -201,7 +201,7 @@ Las siguientes limitaciones se aplican a la actividad de recorrido [Leer audienc
 * La actividad **Leer público** no se puede utilizar con actividades de Adobe Campaign.
 * La actividad **Leer público** solo puede utilizarse como primera actividad en un recorrido o después de una actividad de evento empresarial.
 * Un recorrido solo puede tener una actividad **Leer público**.
-* Vea también las recomendaciones acerca de cómo usar la actividad **Leer público** en [esta página](../building-journeys/read-audience.md).
+* Vea también recomendaciones sobre cómo usar la actividad **Leer audiencia** en [esta página](../building-journeys/read-audience.md).
 * Los reintentos ahora se aplican de forma predeterminada en recorridos activados por públicos destinatarios (empezando con una actividad **Leer público** o **Evento empresarial**) cuando se recupera el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada.
 
 ### Calificación de audiencias {#audience-qualif-g}
@@ -218,7 +218,7 @@ La siguiente protección se aplica al [editor de expresiones de recorrido](../bu
 
 ### Actividad en la aplicación {#in-app-activity-limitations}
 
-Las siguientes protecciones se aplican a la acción **[!UICONTROL Mensaje en la aplicación]**. Obtenga más información acerca de los mensajes en la aplicación en [esta página](../in-app/create-in-app.md).
+Las siguientes protecciones se aplican a la acción **[!UICONTROL Mensaje en la aplicación]**. Obtenga más información sobre los mensajes en la aplicación en [esta página](../in-app/create-in-app.md).
 
 * Actualmente, esta función no está disponible para los clientes de Asistencia sanitaria.
 
@@ -238,7 +238,7 @@ Las siguientes protecciones se aplican a la acción **[!UICONTROL Mensaje en la 
 
 ### Actividad de salto {#jump-g}
 
-Especifique protecciones específicas de la actividad **[!UICONTROL Saltar]**. Se muestran [en esta página](../building-journeys/jump.md#jump-limitations).
+Especifique protecciones específicas de la actividad **[!UICONTROL Saltar]**. Están listados en [esta página](../building-journeys/jump.md#jump-limitations).
 
 ### Actividades de campaña {#ac-g}
 

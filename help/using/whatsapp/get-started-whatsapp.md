@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 13%
+ht-degree: 7%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 13%
 
 Ahora puede enviar mensajes de WhatsApp directamente a través de Journey Optimizer. Esta función permite la integración perfecta de WhatsApp en recorridos y campañas, lo que mejora la comunicación y la participación con los destinatarios.
 
-* En un **recorrido**. Crea un recorrido, agrega una actividad **WhatsApp**, define la configuración básica y luego ve al panel derecho **[!UICONTROL Acciones: WhatsApp]** para crear el contenido del mensaje de WhatsApp. Aprenda a crear un recorrido en [esta página](../building-journeys/journey-gs.md)
+* En un **recorrido**. Crea un recorrido, agrega una actividad **WhatsApp**, define la configuración básica y luego ve al panel derecho **[!UICONTROL Acciones: WhatsApp]** para crear el contenido del mensaje de WhatsApp. Aprenda a crear un recorrido en [esta página](../building-journeys/journey-gs.md).
 
 * En una **campaña**. Crea una campaña, selecciona **WhatsApp** como acción y define la configuración básica; luego, edita el contenido del mensaje para definir el mensaje de WhatsApp que se enviará. Aprenda a crear una campaña en [esta página](../campaigns/create-campaign.md#configure).
 

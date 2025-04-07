@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 1004a1919e1e043a42d389395030dd85e5a94062
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 14%
+ht-degree: 45%
 
 ---
 
@@ -26,7 +26,7 @@ Para acceder al asistente de IA, haga clic en el icono de la barra superior. El 
 
 >[!CAUTION]
 >
->Debe aceptar las Directrices del usuario de IA generativa de Adobe Experience Cloud para poder utilizar el asistente de IA. Obtenga más información acerca del acuerdo en [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Debe aceptar las directrices del usuario de IA generativa de Adobe Experience Cloud para poder utilizar el asistente de IA. Más información sobre el acuerdo de [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 En Adobe Journey Optimizer, tiene acceso a los siguientes casos de uso:
 
@@ -41,7 +41,7 @@ En Adobe Journey Optimizer, tiene acceso a los siguientes casos de uso:
 
 * **Datos operativos** en recorrido (Beta)
 
-  Las preguntas de perspectiva operativa se refieren a los objetos de recorrido de la zona protegida de su organización. Algunos ejemplos de preguntas o mensajes de perspectiva operativa son los siguientes:
+  Las preguntas operativas de insight se refieren a los objetos de recorrido de la zona protegida de su organización. Algunos ejemplos de preguntas o mensajes operativos de insight son los siguientes:
 
    * ¿Cuántos recorridos en directo tengo en Adobe Journey Optimizer?
    * Dame una lista de todos los recorridos programados
@@ -56,10 +56,10 @@ Para hacer una pregunta, introdúzcala en el campo situado en la parte inferior 
 
 ![](assets/do-not-localize/ai-assistant-ask.png){width="30%" align="left"}
 
-Comprueba la respuesta y usa el botón **Mostrar fuentes** para obtener vínculos directos a la documentación del producto y obtener más información.
+Compruebe la respuesta y use el botón **Mostrar fuentes** para obtener vínculos directos a la documentación del producto y obtener más información.
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="30%" align="left"}
 
 Utilice el pulgar hacia arriba o hacia abajo para valorar la respuesta.
 
-Para aprender a utilizar el Asistente de IA, vea los objetivos de ejemplo que puede lograr con el Asistente de IA y cómo funciona el Asistente de IA, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Para aprender a utilizar el Asistente de IA, vea los objetivos de ejemplo que puede lograr con el Asistente de IA y obtenga información sobre cómo funciona el Asistente de IA en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home){target="_blank"}.

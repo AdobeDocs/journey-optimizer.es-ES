@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Utilice [!DNL Journey Optimizer] para crear casos de uso de orquestación en tie
 
 El diseñador de recorridos de Journey Optimizer proporciona todo lo que los especialistas en marketing y en recorrido necesitan para orquestar recorridos 1:1 de varios pasos en todos los canales. Esto incluye un lienzo intuitivo de arrastrar y soltar para organizar cada paso del recorrido, definir el público destinatario e incluir los mensajes, ofertas y contenido en todos los canales que verán los miembros de la audiencia de destino en función del comportamiento, los datos contextuales y los eventos empresariales.
 
-Aprenda a crear y diseñar el primer recorrido en [esta página](journey-gs.md).
+Aprenda a crear y diseñar su primer recorrido en [esta página](journey-gs.md).
 
 ➡️ [Descubra Journey Optimizer en vídeo](#video)
 
@@ -50,7 +50,7 @@ Obtenga información sobre cómo crear recorridos en los siguientes casos de uso
 
 >[!NOTE]
 >
->En [esta página](../start/guardrails.md) se detallan los mecanismos de protección y limitaciones de los recorridos
+>Las limitaciones y protecciones de recorrido se detallan en [esta página](../start/guardrails.md)
 
 ## Vídeo explicativo {#video}
 

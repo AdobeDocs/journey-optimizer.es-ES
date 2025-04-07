@@ -9,7 +9,7 @@ role: User
 level: Experienced
 keywords: contenido, experimento, estadística, cálculo
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -22,7 +22,7 @@ En este artículo se describen los cálculos estadísticos utilizados al ejecuta
 
 La experimentación usa [métodos estadísticos avanzados](../content-management/assets/confidence_sequence_technical_details.pdf) para calcular **secuencias de confianza** y **confianza**, lo que le permite ejecutar los experimentos durante el tiempo que sea necesario y supervisar los resultados de forma continua.
 
-Este artículo describe cómo funciona la experimentación y proporciona una introducción intuitiva a las **secuencias de confianza válidas en cualquier momento** de Adobe.
+Este artículo describe cómo funciona la experimentación y proporciona una introducción intuitiva a las **Secuencias de confianza válidas en cualquier momento** de Adobe.
 
 Para usuarios expertos, los detalles técnicos y las referencias se detallan en [esta página](../content-management/assets/confidence_sequence_technical_details.pdf).
 
@@ -50,7 +50,7 @@ La tabla anterior ilustra los diferentes tipos de errores:
 
 La mayoría de las técnicas de inferencia estadística requerirán que corrija el tamaño de la muestra con antelación, según el tamaño del efecto que desee determinar, así como su tolerancia a errores (`\alpha` y `\beta`) con antelación. Sin embargo, la metodología de Adobe Journey Optimizer está diseñada para permitirle observar continuamente sus resultados, para cualquier tamaño de muestra.
 
-## Metodología Estadística Del Adobe: Secuencias De Confianza Válidas En Cualquier Momento
+## Metodología estadística de Adobe: Secuencias de confianza válidas en cualquier momento
 
 Una **secuencia de confianza** es un análogo secuencial de un **intervalo de confianza**, por ejemplo, si repite los experimentos cien veces y calcula una estimación de la métrica media y su secuencia de confianza del 95 % asociada para cada nuevo usuario que entra en el experimento. Una secuencia de confianza del 95 % incluirá el valor verdadero de la métrica en 95 de los 100 experimentos que ejecutó. Un intervalo de confianza del 95 % solo se podía calcular una vez por experimento para ofrecer la misma garantía de cobertura del 95 %; no con cada nuevo usuario. Por lo tanto, las secuencias de confianza le permiten monitorizar continuamente los experimentos, sin aumentar las tasas de error de los falsos positivos.
 
@@ -60,7 +60,7 @@ La diferencia entre las secuencias de confianza y los intervalos de confianza pa
 
 **Secuencias de confianza** desplazan el enfoque de Experimentos a la estimación en lugar de a las pruebas de hipótesis; es decir, se centran en la estimación precisa de la diferencia en las medias entre tratamientos, en lugar de rechazar o no una hipótesis nula basada en un umbral de relevancia estadística.
 
-Sin embargo, de manera similar a la relación entre `p-values`, o **Confianza** e **Intervalos de confianza**, también existe una relación entre **Secuencias de confianza** y cualquier momento válido `p-values`, o cualquier momento válido Confianza. Dada la familiaridad de cantidades como Confianza, Adobe proporciona tanto las **Secuencias de Confianza** como la confianza válida en cualquier momento en sus informes.
+Sin embargo, de manera similar a la relación entre `p-values`, o **Confianza** e **Intervalos de confianza**, también existe una relación entre **Secuencias de confianza** y cualquier momento válido `p-values`, o cualquier momento válido Confianza. Dada la familiaridad de cantidades como la Confianza, Adobe proporciona tanto las **Secuencias de Confianza** como confianza válida en cualquier momento en sus informes.
 
 Los fundamentos teóricos de **Secuencias de Confianza** provienen del estudio de secuencias de variables aleatorias conocidas como martingales. A continuación se incluyen algunos resultados principales para lectores expertos, pero las conclusiones de los profesionales son claras:
 

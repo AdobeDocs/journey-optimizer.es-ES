@@ -5,7 +5,7 @@ feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -42,7 +42,7 @@ El alza entre una variante ** y la variante de control *<sub>0</sub>* es el &quo
 
 El panel Experimentación con Recorridos muestra intervalos de confianza &quot;válidos en cualquier momento&quot; (secuencias de confianza) para tratamientos individuales en un experimento.
 
-La secuencia de confianza para una variante individual `ν` es fundamental para la metodología estadística utilizada por el Adobe. Puede encontrar su definición en [esta página](https://doi.org/10.48550/arXiv.2103.06476) (reproducida de [Waudby-Smith y otros]).
+La secuencia de confianza para una variante individual `ν` es fundamental para la metodología estadística utilizada por Adobe. Puede encontrar su definición en [esta página](https://doi.org/10.48550/arXiv.2103.06476) (reproducida de [Waudby-Smith y otros]).
 
 Si le interesa estimar un parámetro de destino `ψ`, como la tasa de conversión de una variante en un experimento, la dicotomía entre una secuencia de intervalos de confianza (CI) de tiempo fijo y una secuencia de confianza uniforme en el tiempo (CS) se puede resumir de la siguiente manera:
 
@@ -56,7 +56,7 @@ Esto tiene algunas implicaciones profundas que son muy importantes para las prue
 * Los experimentos pueden monitorizarse continuamente, detenerse de forma adaptativa o continuar.
 * El error de tipo I se controla en todos los momentos de detención, incluidos los tiempos que dependen de los datos.
 
-El Adobe utiliza secuencias de confianza asintóticas, que para una variante individual con estimación media `μ` tienen la forma:
+Adobe utiliza secuencias de confianza asintóticas, que para una variante individual con estimación media `μ` tienen la forma:
 
 ![](assets/statistical_5.png){width="300" align="center"}
 
@@ -65,11 +65,11 @@ Donde:
 * `N` es el número de unidades de esa variante.
 * `σ` es una estimación de muestra de la desviación estándar (definida anteriormente).
 * `α` es el nivel deseado de error de tipo I (o probabilidad de cobertura incorrecta). Siempre se establece en 0,05.
-* La constante <sup>2</sup> es una constante que ajusta el tamaño de muestra con el que el CS es más ajustado. El Adobe ha elegido un valor universal de los valores de los valores de los valores de los valores de los valores de los valores de los valores de los valores de los valores de los valores de los valores de los valores de los valores de los valores de los valores de los valores de los valores de los valores de los valores de los experimentos en línea es de los siguientes:<sup></sup><sup></sup>
+* La constante <sup>2</sup> es una constante que ajusta el tamaño de muestra con el que el CS es más ajustado. Adobe ha elegido un valor universal de los valores siguientes: <sup>2</sup> = 10<sup>-2.8</sup>, que es apropiado para los tipos de tasas de conversión que se ven en los experimentos en línea.
 
 ## Confianza {#confidence}
 
-La confianza utilizada por el Adobe es una confianza &quot;válida en cualquier momento&quot;, que se obtiene invirtiendo la secuencia de confianza para el efecto medio del tratamiento.
+La confianza utilizada por Adobe es una confianza &quot;válida en cualquier momento&quot;, que se obtiene invirtiendo la secuencia de confianza del efecto medio del tratamiento.
 
 Para ser precisos, en una prueba de dos muestras *t* para la diferencia de medias entre dos variantes, hay una asignación 1:1 entre el valor *p* de esta prueba y el intervalo de confianza para la diferencia de medias. Por analogía, se puede obtener un valor *p* válido en cualquier momento invirtiendo la secuencia de confianza (válida en cualquier momento) para el estimador de efecto de tratamiento promedio:
 
