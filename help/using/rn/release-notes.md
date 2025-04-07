@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 88c938199412e38a08b4c94f283cb4d4e09ded2f
+source-git-commit: b7148ebeedf8bfce8d244f676fe96172ea8904e0
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 70%
+source-wordcount: '708'
+ht-degree: 69%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 70%
 
 ### Mejoras {#25-04-improv}
 
-**Herramientas de la zona protegida**
+**Herramientas de espacio aislado** - Fecha de disponibilidad: 3 de abril de 2025
 
 Ahora puede copiar campañas en varios entornos limitados mediante las funciones de exportación e importación de paquetes. Las campañas se copian junto con todos los elementos relacionados con el perfil, la audiencia, el esquema, los mensajes en línea y los objetos dependientes. Algunos elementos no se copian, como los elementos de decisión, las etiquetas de uso de datos y la configuración de idioma. [Más información](../configuration/copy-objects-to-sandbox.md)
 
-**Personalización**
+**Personalization** - Fecha de disponibilidad: 2 de abril de 2025
 
 El panel de atributos del editor de personalización ahora muestra solo los atributos rellenados de forma predeterminada. Para ver todos los atributos, use el botón de configuración para desactivar la opción **[!UICONTROL Mostrar solo atributos rellenados]**. [Más información](../personalization/personalization-build-expressions.md)
 
