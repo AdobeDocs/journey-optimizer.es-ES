@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+source-git-commit: 88c938199412e38a08b4c94f283cb4d4e09ded2f
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '702'
 ht-degree: 70%
 
 ---
@@ -34,11 +34,9 @@ Ahora puede copiar campañas en varios entornos limitados mediante las funciones
 
 El panel de atributos del editor de personalización ahora muestra solo los atributos rellenados de forma predeterminada. Para ver todos los atributos, use el botón de configuración para desactivar la opción **[!UICONTROL Mostrar solo atributos rellenados]**. [Más información](../personalization/personalization-build-expressions.md)
 
-**Administración de contenido**
+**Administración de contenido** - Fecha de disponibilidad: 2 de abril de 2025
 
-Para administrar fácilmente las plantillas de contenido y los fragmentos, ahora puede utilizar carpetas para organizarlos de forma más eficaz en una jerarquía estructurada.
-
-Obtenga más información en las secciones [Plantillas de contenido](../content-management/access-content-templates.md#folders) y [Fragmentos](../content-management/manage-fragments.md#folders).
+Para administrar fácilmente las plantillas de contenido y los fragmentos, ahora puede utilizar carpetas para organizarlos de forma más eficaz en una jerarquía estructurada. Obtenga más información en las secciones [Plantillas de contenido](../content-management/access-content-templates.md#folders) y [Fragmentos](../content-management/manage-fragments.md#folders).
 
 >[!AVAILABILITY]
 >
