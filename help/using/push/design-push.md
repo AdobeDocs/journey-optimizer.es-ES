@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 1a4c452adeb6bca876d5c108065e0219353a2540
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1362'
 ht-degree: 17%
 
 ---
@@ -107,7 +107,7 @@ Utilice la sección **[!UICONTROL Datos personalizados]** para agregar pares cla
 >title="Configure los datos personalizados para la notificación push."
 >abstract="Añada variables personalizadas a la carga útil, según la configuración de su aplicación móvil."
 
-En la sección **[!UICONTROL Datos personalizados]**, puede agregar variables personalizadas a la carga, según la configuración de su aplicación móvil. Para obtener más información sobre cómo configurar notificaciones push en Adobe Experience Platform y Adobe Launch, consulte [esta sección](push-gs.md)
+En la sección **[!UICONTROL Datos personalizados]**, puede agregar variables personalizadas a la carga, según la configuración de su aplicación móvil. Para obtener más información sobre cómo configurar notificaciones push en Adobe Experience Platform, consulte [esta sección](push-gs.md)
 
 ## Opciones avanzadas {#advanced-options-push}
 
