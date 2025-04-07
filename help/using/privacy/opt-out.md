@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -103,7 +103,7 @@ Sin embargo, el uso de etiquetas de control de acceso basadas en los derechos pe
 
 >[!NOTE]
 >
->Obtenga más información sobre el control de acceso de nivel de objeto (OLAC) en [esta sección](../administration/object-based-access.md).
+>Obtenga más información acerca del control de acceso de nivel de objeto (OLAC) en [esta sección](../administration/object-based-access.md).
 
 En las campañas de [!DNL Journey Optimizer], la política de consentimiento se aplica del siguiente modo:
 
@@ -137,7 +137,7 @@ Ahora puede utilizar este público para filtrar los perfiles que no hayan dado s
 
 También puede añadir una comprobación de consentimiento de personalización a un público añadiendo una actividad de división a un flujo de trabajo de composición.
 
-1. Cree un público con la opción **[!UICONTROL Componer público]**. [Más información sobre la creación de un flujo de trabajo de composición](../audience/get-started-audience-orchestration.md)
+1. Cree un público con la opción **[!UICONTROL Componer público]**. [Más información sobre cómo crear un flujo de trabajo de composición](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 

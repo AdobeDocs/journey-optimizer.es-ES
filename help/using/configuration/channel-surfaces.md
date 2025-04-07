@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1800'
 ht-degree: 12%
@@ -75,7 +75,7 @@ Para crear una configuración de canal, siga estos pasos:
    >
    > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto `.` y guion `-`.
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Obtenga más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
 1. Seleccione el canal.
 
@@ -219,7 +219,7 @@ Se realizarán varias comprobaciones de entrega para comprobar que la configurac
 >
 >Si solo edita los campos **[!UICONTROL Descripción]**, **[!UICONTROL Tipo de correo electrónico]** o **[!UICONTROL Parámetros de reintento de correo electrónico]**, la actualización es instantánea.
 
-El tiempo de procesamiento puede ser de **3 horas**. Obtenga más información sobre las comprobaciones realizadas durante el ciclo de validación en [esta sección](#create-channel-surface).
+El tiempo de procesamiento puede ser de **3 horas**. Obtenga más información acerca de las comprobaciones realizadas durante el ciclo de validación en [esta sección](#create-channel-surface).
 
 Si edita una configuración que ya estaba activa:
 
@@ -243,7 +243,7 @@ Una vez que el proceso de validación se realiza correctamente, la nueva versió
 
 Si el proceso de validación falla, se seguirá utilizando la versión anterior de la configuración.
 
-Obtenga más información sobre los posibles motivos de error en [esta sección](#monitor-channel-surfaces).
+Obtenga más información acerca de los posibles motivos de error en [esta sección](#monitor-channel-surfaces).
 
 Si la actualización falla, la configuración vuelve a poder editarse. Puede hacer clic en su nombre y actualizar la configuración que debe corregirse.
 
@@ -253,7 +253,7 @@ Para que una configuración de canal **[!UICONTROL Active]** no esté disponible
 
 >[!NOTE]
 >
->No se puede desactivar una configuración de canal mientras se esté procesando una actualización. Debe esperar hasta que la actualización se haya realizado correctamente o haya fallado. Más información sobre [editar configuraciones de canal](#edit-channel-surface) y sobre los [estados de actualización](#update-statuses).
+>No se puede desactivar una configuración de canal mientras se esté procesando una actualización. Debe esperar hasta que la actualización se haya realizado correctamente o haya fallado. Obtenga más información acerca de [editar configuraciones de canal](#edit-channel-surface) y sobre los [estados de actualización](#update-statuses).
 
 1. Acceda a la lista de configuraciones de canal.
 

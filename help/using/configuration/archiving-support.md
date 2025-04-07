@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: archivo, mensajes, HIPAA, CCO, correos electrónicos
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 6%
@@ -35,13 +35,13 @@ Las regulaciones como HIPAA requieren que [!DNL Journey Optimizer] proporcione u
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Definir una dirección de correo electrónico CCO"
->abstract="Puede conservar una copia de los correos electrónicos enviados enviándolos a una bandeja de entrada CCO. Escriba la dirección de correo electrónico que desee para que cada correo electrónico enviado se copie de forma oculta a esta dirección de CCO. Tenga en cuenta que el dominio de la dirección CCO debe ser diferente de cualquier subdominio delegado a Adobe. Esta funcionalidad es opcional."
+>abstract="Puede conservar una copia de los correos electrónicos enviados enviándolos a una bandeja de entrada CCO. Escriba la dirección de correo electrónico que desee para que cada correo electrónico enviado se copie de forma oculta a esta dirección de CCO. Tenga en cuenta que el dominio de la dirección CCO debe ser diferente de cualquier subdominio delegado a Adobe. Esta función es opcional."
 
 Puede enviar una copia oculta (CCO) de un correo electrónico enviado por [!DNL Journey Optimizer] a una dirección CCO dedicada. Esta función opcional le permite conservar copias de las comunicaciones por correo electrónico que envía a sus usuarios para fines de conformidad o archivo. La dirección CCO no es visible para otros destinatarios del mensaje.
 
 ### Habilitar correo electrónico CCO {#enable-bcc}
 
-Para habilitar la opción **[!UICONTROL correo electrónico CCO]**, escriba la dirección de correo electrónico que desee en el campo dedicado de la [configuración del canal](channel-surfaces.md) (es decir, el ajuste preestablecido de mensaje). Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en un subdominio delegado al Adobe. Por ejemplo, si delegó el subdominio *marketing.luma.com* al Adobe, cualquier dirección como *abc@marketing.luma.com* está prohibida.
+Para habilitar la opción **[!UICONTROL correo electrónico CCO]**, escriba la dirección de correo electrónico que desee en el campo dedicado de la [configuración del canal](channel-surfaces.md) (es decir, el ajuste preestablecido de mensaje). Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en un subdominio delegado a Adobe. Por ejemplo, si delegó el subdominio *marketing.luma.com* a Adobe, cualquier dirección como *abc@marketing.luma.com* está prohibida.
 
 >[!CAUTION]
 >
@@ -67,7 +67,7 @@ La configuración de la dirección de correo electrónico CCO se guarda y proces
 
 Sin embargo, la dirección de CCO se recoge para enviar comunicaciones siguiendo la lógica descrita [aquí](../email/email-settings.md).
 
-### Recommendations y limitaciones {#bcc-recommendations-limitations}
+### Recomendaciones y limitaciones {#bcc-recommendations-limitations}
 
 * Para garantizar el cumplimiento de la privacidad, los correos electrónicos CCO deben procesarse mediante un sistema de archivado capaz de almacenar información de identificación personal (PII) de forma segura.
 
@@ -113,13 +113,13 @@ Para realizar esto, siga los pasos a continuación.
 
 >[!NOTE]
 >
->Obtenga más información sobre la administración de la privacidad y las regulaciones aplicables en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target="_blank"}.
+>Obtenga más información acerca de la administración de la privacidad y las regulaciones aplicables en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target="_blank"}.
 
 ### Datos de informes de CCO {#bcc-reporting}
 
 La creación de informes como tal en CCO no está disponible en los informes de recorrido y mensaje. Sin embargo, la información se almacena en un conjunto de datos del sistema llamado **[!UICONTROL Conjunto de datos de evento de comentarios CCO de AJO]**. Puede ejecutar consultas en este conjunto de datos para encontrar información útil para la depuración, por ejemplo.
 
-Para obtener acceso a este conjunto de datos a través de la interfaz de usuario, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Conjuntos de datos]** > **[!UICONTROL Examinar]**. Obtenga más información sobre cómo obtener acceso a los conjuntos de datos en [esta sección](../data/get-started-datasets.md#access-datasets).
+Para obtener acceso a este conjunto de datos a través de la interfaz de usuario, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Conjuntos de datos]** > **[!UICONTROL Examinar]**. Obtenga más información acerca de cómo obtener acceso a los conjuntos de datos en [esta sección](../data/get-started-datasets.md#access-datasets).
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
@@ -232,7 +232,7 @@ Cada mensaje de correo electrónico contiene ahora un encabezado denominado `x-m
 
 El encabezado `x-message-profile-id` también se almacena en los siguientes conjuntos de datos del sistema: [Conjunto de datos de evento de comentarios de mensajes de AJO](../data/datasets-query-examples.md#message-feedback-event-dataset) (correos electrónicos enviados) y [Conjunto de datos de evento de comentarios de CCO de AJO](#bcc-reporting) (copias de CCO). Puede consultar estos conjuntos de datos para reconciliar la copia de CCO y el correo electrónico real correspondiente.
 
-* Para acceder a estos conjuntos de datos a través de la interfaz de usuario, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Conjuntos de datos]** > **[!UICONTROL Examinar]**. Obtenga más información sobre cómo obtener acceso a los conjuntos de datos en [esta sección](../data/get-started-datasets.md#access-datasets).
+* Para acceder a estos conjuntos de datos a través de la interfaz de usuario, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Conjuntos de datos]** > **[!UICONTROL Examinar]**. Obtenga más información acerca de cómo obtener acceso a los conjuntos de datos en [esta sección](../data/get-started-datasets.md#access-datasets).
 
 * Use el Editor de consultas proporcionado por [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 13%
@@ -57,7 +57,7 @@ Una política de decisión admite hasta 10 estrategias de selección y elementos
 >
 >Esta capacidad solo está disponible para [!DNL Customer Journey Analytics] clientes con derechos de administrador.
 >
->Antes de empezar, asegúrese de haber integrado Journey Optimizer con Customer Journey Analytics para exportar los conjuntos de datos de Journey Optimizer a las vistas de datos predeterminadas. [Aprenda a aprovechar [!DNL Journey Optmizer] los datos en [!DNL Customer Journey Analytics]](../reports/cja-ajo.md)
+>Antes de empezar, asegúrese de que ha integrado Journey Optimizer con Customer Journey Analytics para exportar los conjuntos de datos de Journey Optimizer a sus vistas de datos predeterminadas. [Aprenda a aprovechar [!DNL Journey Optmizer] los datos en [!DNL Customer Journey Analytics]](../reports/cja-ajo.md)
 
 Los modelos de optimización personalizados son un tipo de modelo de IA que le permite definir objetivos comerciales y utiliza datos de clientes para entrenar modelos orientados a negocios para servir ofertas personalizadas y maximizar KPI. Encontrará información detallada sobre cómo crear un modelo de IA personalizado en la [documentación de administración de decisiones](../offers/ranking/personalized-optimization-model.md).
 

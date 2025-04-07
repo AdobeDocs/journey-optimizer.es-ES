@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 9%
@@ -45,7 +45,7 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
    ![](../assets/activities-name.png)
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la decisión, selecciona **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../../administration/object-based-access.md)
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la decisión, selecciona **[!UICONTROL Administrar acceso]**. [Más información acerca del Control de acceso de nivel de objeto (OLAC)](../../administration/object-based-access.md)
 
 ## Definir ámbitos de decisión {#add-decision-scopes}
 

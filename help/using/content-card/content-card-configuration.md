@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 50e47e83-4b9e-4088-aa09-dea76393c035
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 47%
+ht-degree: 49%
 
 ---
 
@@ -70,9 +70,9 @@ En la tabla siguiente se muestran algunos ejemplos de definiciones de URI de sup
 
    >[!NOTE]
    >
-   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto`.` y guión `-`.
+   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto `.` y guion `-`.
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Obtenga más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
 1. Seleccione el canal **[!UICONTROL Tarjeta de contenido]**.
 

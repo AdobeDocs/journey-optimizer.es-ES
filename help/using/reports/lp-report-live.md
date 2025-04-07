@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 13%
@@ -22,7 +22,7 @@ ht-degree: 13%
 >title="Informe en vivo de la página de aterrizaje"
 >abstract="El informe en vivo de la página de aterrizaje permite medir y visualizar en tiempo real el impacto y el rendimiento de la página de aterrizaje solo durante las últimas 24 horas. El informe se divide en distintos widgets que detallan el éxito y los errores de la página de aterrizaje. Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
 
-Los informes en directo, a los que se puede acceder desde la pestaña Últimas 24 horas, muestran los eventos que han tenido lugar en las últimas 24 horas, con un intervalo de tiempo mínimo de dos minutos desde que se produjo el evento. En comparación, los informes de Customer Journey Analytics se centran en eventos que se produjeron hace al menos dos horas y abarcan eventos de un periodo de tiempo seleccionado.
+Los informes en directo, a los que se puede acceder desde la pestaña Últimas 24 horas, muestran los eventos que han tenido lugar en las últimas 24 horas, con un intervalo de tiempo mínimo de dos minutos desde que se produjo el evento. En comparación, los informes de Customer Journey Analytics se centran en eventos que ocurrieron al menos hace dos horas y cubren eventos que se produjeron durante un período de tiempo seleccionado.
 
 Para acceder a tus informes, selecciona **[!UICONTROL Ver el informe de las últimas 24 horas]** en el menú avanzado de la página de aterrizaje seleccionada.
 
@@ -30,7 +30,7 @@ Para acceder a tus informes, selecciona **[!UICONTROL Ver el informe de las últ
 
 La página de aterrizaje **[!UICONTROL Informe en vivo]** está dividida en diferentes widgets que detallan el éxito y los errores de su entrega. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte esta [sección](live-report.md).
 
-+++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe en directo de la página de aterrizaje.
++++Obtenga más información acerca de las diferentes métricas y widgets disponibles para el informe en directo de la página de aterrizaje.
 
 El widget **[!UICONTROL Rendimiento de la página de aterrizaje]** detalla la información principal relacionada con su mensaje en las últimas 24 horas mediante KPI:
 

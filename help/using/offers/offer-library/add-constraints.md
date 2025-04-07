@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2719'
 ht-degree: 15%
@@ -85,7 +85,7 @@ La sección **[!UICONTROL idoneidad de la oferta]** le permite restringir la ofe
 
 >[!NOTE]
 >
->Más información sobre cómo usar **audiencias** en comparación con **reglas de decisión** en [esta sección](#segments-vs-decision-rules).
+>Obtenga más información sobre cómo usar **audiencias** en comparación con **reglas de decisión** en [esta sección](#segments-vs-decision-rules).
 
 * De manera predeterminada, la opción **[!UICONTROL Todos los visitantes]** está seleccionada, lo que significa que cualquier perfil podrá recibir la oferta.
 
@@ -123,13 +123,13 @@ Básicamente, el resultado de una audiencia es una lista de perfiles, mientras q
 
   Por un lado, las audiencias son un grupo de perfiles de Adobe Experience Platform que coinciden con una lógica determinada en función de atributos de perfil y eventos de experiencia. Sin embargo, Administración de ofertas no vuelve a calcular la audiencia, que puede no estar actualizada al presentar la oferta.
 
-  Obtenga más información sobre las audiencias en [esta sección](../../audience/about-audiences.md).
+  Puede obtener más información sobre los públicos en [esta sección](../../audience/about-audiences.md).
 
 * **Reglas de decisión**
 
   Por otro lado, una regla de decisión se basa en los datos disponibles en Adobe Experience Platform y determina a quién se puede mostrar una oferta. Una vez seleccionada en una oferta o una decisión para una ubicación determinada, la regla se ejecuta cada vez que se toma una decisión, lo que garantiza que cada perfil obtenga la última y la mejor oferta.
 
-  Obtenga más información sobre las reglas de decisión en [esta sección](creating-decision-rules.md).
+  Obtenga más información acerca de las reglas de decisión en [esta sección](creating-decision-rules.md).
 
 ## Límite {#capping}
 

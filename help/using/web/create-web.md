@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 19%
@@ -83,7 +83,7 @@ Para empezar a crear una experiencia web a través de una campaña, siga los pas
 
 1. Seleccione la acción **[!UICONTROL Web]**.
 
-1. Seleccione o cree la configuración web. [Más información sobre la configuración web](web-configuration.md)
+1. Seleccione o cree la configuración web. [Más información acerca de la configuración web](web-configuration.md)
 
    ![](assets/web-campaign-steps.png)
 
@@ -169,13 +169,13 @@ También puede obtener una vista previa del contenido de la experiencia web ante
 >
 >Si varios recorridos o campañas actualizan los mismos elementos del sitio web, la prioridad más alta de recorrido/campaña tiene prioridad.
 
-### Publish un recorrido web {#activate-web-journey}
+### Publicación de un recorrido web {#activate-web-journey}
 
 Para que la experiencia web se active desde un recorrido, siga los pasos a continuación.
 
 1. Compruebe que el recorrido sea válido y que no haya ningún error. [Más información](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 
-1. En el recorrido, seleccione la opción **[!UICONTROL Publish]**, que se encuentra en el menú desplegable superior derecho.
+1. En el recorrido, seleccione la opción **[!UICONTROL Publicar]**, que se encuentra en el menú desplegable superior derecho.
 
    ![](assets/web-journey-publish.png)
 
@@ -187,7 +187,7 @@ El recorrido web toma el estado **[!UICONTROL Activo]** y ahora es de solo lectu
 
 >[!NOTE]
 >
->Después de hacer clic en **[!UICONTROL Publish]**, los cambios pueden tardar hasta 15 minutos en estar disponibles en el sitio web.
+>Después de hacer clic en **[!UICONTROL Publicar]**, los cambios pueden tardar hasta 15 minutos en estar disponibles en el sitio web.
 
 ### Activación de una campaña web {#activate-web-campaign}
 
@@ -203,7 +203,7 @@ Una vez que haya definido la configuración de la campaña web y haya editado el
 
    >[!NOTE]
    >
-   >Más información sobre cómo activar campañas en [esta sección](../campaigns/review-activate-campaign.md).
+   >Obtenga más información acerca de la activación de campañas en [esta sección](../campaigns/review-activate-campaign.md).
 
 La campaña web toma el estado **[!UICONTROL Activo]** y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al sitio web.
 
@@ -237,7 +237,7 @@ Cuando un recorrido web o una campaña están activos, puede detenerlos para evi
 >
 >Una vez que se ha detenido un recorrido web o una campaña, no se puede editar ni activar de nuevo. Solo puede duplicarlo y activar la campaña o el recorrido duplicados.
 
-## Vídeo explicativo{#video}
+## Vídeo práctico{#video}
 
 El siguiente vídeo muestra cómo crear una campaña web, configurar sus propiedades, revisarla y publicarla.
 

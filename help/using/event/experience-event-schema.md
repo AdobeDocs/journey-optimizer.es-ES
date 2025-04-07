@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: esquemas, XDM, plataforma, flujo, ingesta, recorrido
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ Este es el esquema de compra con la relación definida en el campo ID de product
 
 >[!NOTE]
 >
->Obtenga más información sobre las relaciones de esquema en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=es).
+>Obtenga más información acerca de las relaciones de esquema en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=es).
 
 En Journey Optimizer, puede aprovechar todos los campos de las tablas vinculadas:
 
@@ -87,7 +87,7 @@ Puede definir una relación de esquema en una matriz de cadenas como, por ejempl
 
 ![](assets/schema15.png)
 
-También puede definir una relación de esquema con un atributo dentro de una matriz de objetos, por ejemplo, una lista de información de compra (ID de producto, nombre de producto, precio, descuento). Los valores de búsqueda estarán disponibles en los recorridos (condiciones, acciones personalizadas, etc.) y personalización de mensajes.
+También puede definir una relación de esquema con un atributo dentro de una matriz de objetos, por ejemplo, una lista de información de compra (ID de producto, nombre de producto, precio, descuento). Los valores de búsqueda estarán disponibles en recorridos (condiciones, acciones personalizadas, etc.) y personalización de mensajes.
 
 ![](assets/schema16.png)
 

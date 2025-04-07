@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: configuración, experimentación, informes, optimizador
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 29%
@@ -62,7 +62,7 @@ Antes de poder agregar un conjunto de datos a la configuración de creación de 
 
 >[!NOTE]
 >
->Obtenga más información sobre esquemas XDM y grupos de campos en la [documentación de información general del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
+>Obtenga más información acerca de esquemas XDM y grupos de campos en la [documentación de información general del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 
 <!--
 ## Objectives corresponding to each field group {#objective-list}
@@ -104,7 +104,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-datasets.png)
 
-   Obtenga más información sobre los conjuntos de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target="_blank"}.
+   Obtenga más información acerca de los conjuntos de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target="_blank"}.
 
 1. En la lista desplegable **[!UICONTROL ID de perfil]**, seleccione el atributo de campo del conjunto de datos que se utilizará para identificar cada perfil en los informes.
 

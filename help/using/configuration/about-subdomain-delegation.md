@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdominio, optimizador, delegación
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 30%
@@ -44,7 +44,7 @@ Al hacerlo, ayudará a preservar la reputación de su dominio y otros subdominio
 
 Al implementar una solución, existen requisitos para los componentes externos, como configurar vínculos y páginas web para rastrear, mostrar páginas espejo, etc.
 
-Aunque estos requisitos se administran mediante componentes alojados por el Adobe y el cliente, incluyen direcciones URL que pueden ver los destinatarios de los correos electrónicos. Para evitar tener direcciones URL que indiquen la solución técnica subyacente o el proveedor de alojamiento, se pueden configurar subdominios para que esto sea transparente para los destinatarios de los correos electrónicos.
+Aunque estos requisitos se administran mediante componentes alojados por Adobe y el cliente, incluyen direcciones URL que pueden ver los destinatarios de los correos electrónicos. Para evitar tener direcciones URL que indiquen la solución técnica subyacente o el proveedor de alojamiento, se pueden configurar subdominios para que esto sea transparente para los destinatarios de los correos electrónicos.
 
 **Más información**
 
@@ -56,7 +56,7 @@ Aunque estos requisitos se administran mediante componentes alojados por el Adob
 
 La configuración de subdominios le permite configurar una subsección de su dominio (técnicamente, una &quot;zona DNS&quot;) para utilizarla con Adobe Campaign. Los métodos de configuración disponibles son estos:
 
-* **Delegación de subdominios completa al Adobe** (recomendado): el subdominio se ha delegado completamente al Adobe. El Adobe puede controlar y mantener todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes. [Más información sobre la delegación de subdominios completa](delegate-subdomain.md#full-subdomain-delegation)
+* **Delegación de subdominios completa a Adobe** (recomendado): el subdominio se ha delegado completamente a Adobe. Adobe puede controlar y mantener todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes. [Más información sobre la delegación de subdominios completa](delegate-subdomain.md#full-subdomain-delegation)
 
 * **Uso de CNAME**: cree un subdominio y utilice CNAME para señalar registros específicos de Adobe. Con esta configuración, tanto usted como Adobe comparten la responsabilidad de mantener DNS. [Más información sobre la delegación de subdominios CNAME](delegate-subdomain.md#cname-subdomain-delegation)
 
@@ -64,7 +64,7 @@ La configuración de subdominios le permite configurar una subsección de su dom
 >
 >* La delegación completa de subdominios es el método preferido.
 >
->* Se recomienda el método CNAME si las políticas de su organización restringen el método de delegación de subdominios completo. Este enfoque requiere que mantenga y administre los registros DNS por su cuenta. El Adobe no podrá ayudarle a cambiar, mantener o administrar DNS para un subdominio configurado mediante el método CNAME.
+>* Se recomienda el método CNAME si las políticas de su organización restringen el método de delegación de subdominios completo. Este enfoque requiere que mantenga y administre los registros DNS por su cuenta. Adobe no podrá ayudarle a cambiar, mantener o administrar DNS para un subdominio configurado mediante el método CNAME.
 
 En el cuadro que figura a continuación se ofrece un resumen del funcionamiento de estos métodos, así como el nivel de esfuerzo que suponen:
 
@@ -75,7 +75,7 @@ En el cuadro que figura a continuación se ofrece un resumen del funcionamiento 
 
 Encontrará más información sobre la configuración de dominios en [esta documentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=es).
 
-Si tiene alguna pregunta acerca de los métodos de configuración de subdominios, póngase en contacto con el Adobe de o, finalmente, póngase en contacto con el Servicio de atención al cliente para solicitar consultoría de capacidad de entrega.
+Si tiene alguna pregunta acerca de los métodos de configuración de subdominios, póngase en contacto con Adobe o póngase en contacto con el Servicio de atención al cliente para solicitar consultoría de capacidad de entrega.
 
 ## Acceder a subdominios delegados {#access-delegated-subdomains}
 

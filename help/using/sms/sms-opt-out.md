@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 478706e893354d59be5d2010da84546aa4385d99
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 18%
@@ -17,7 +17,7 @@ ht-degree: 18%
 
 # Administración de la exclusión para mensajes de texto {#sms-opt-out}
 
-De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS sobre marketing deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. [Más información sobre la administración de la privacidad y la exclusión](../privacy/opt-out.md)
+De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS sobre marketing deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. [Más información acerca de la administración de la privacidad y la exclusión](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >

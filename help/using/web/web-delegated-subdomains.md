@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, subdominios, configuración
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 24%
@@ -34,7 +34,7 @@ ht-degree: 24%
 
 Al crear experiencias web, si agrega contenido proveniente de la biblioteca [Adobe Experience Manager Assets](../integrations/assets.md), debe configurar el subdominio que se utilizará para publicar este contenido.
 
-Puede utilizar un subdominio que ya se haya delegado a Adobe o configurar otro. Obtenga más información sobre la delegación de subdominios a Adobe en [esta sección](../configuration/delegate-subdomain.md).
+Puede utilizar un subdominio que ya se haya delegado a Adobe o configurar otro. Obtenga más información acerca de la delegación de subdominios a Adobe en [esta sección](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >

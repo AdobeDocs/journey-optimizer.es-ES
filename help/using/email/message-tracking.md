@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -65,7 +65,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
    * Seleccione **[!UICONTROL Inclusión/suscripción externa]** para insertar un vínculo que acepte recibir comunicaciones de su marca.
 
-   * Seleccione **[!UICONTROL Exclusión/baja externa]** para insertar un vínculo para cancelar la suscripción y evitar recibir comunicaciones de su marca. Obtenga más información sobre la administración de exclusiones en [esta sección](email-opt-out.md#opt-out-management).
+   * Seleccione **[!UICONTROL Exclusión/baja externa]** para insertar un vínculo para cancelar la suscripción y evitar recibir comunicaciones de su marca. Obtenga más información acerca de la administración de la exclusión en [esta sección](email-opt-out.md#opt-out-management).
 
    * Seleccione **[!UICONTROL Página espejo]** para agregar un vínculo a la página espejo de correo electrónico. [Más información](#mirror-page)
 

@@ -1,18 +1,19 @@
 ---
-title: Publish y administración de experiencias basadas en código
+title: Publicar y administrar experiencias basadas en código
 description: Obtenga información sobre cómo publicar y detener experiencias basadas en código en Journey Optimizer
 feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 1%
 
 ---
 
-# Administrar experiencias basadas en código {#publish-code-based}
+# Administración de experiencias basadas en código {#publish-code-based}
 
 ## Publique su experiencia basada en código {#code-based-experience-live}
 
@@ -30,15 +31,15 @@ También puede obtener una vista previa del contenido de la experiencia basado e
 >
 >Si varios recorridos o campañas basados en código actualizan los mismos elementos del contenido, la campaña o el recorrido de mayor prioridad tiene prioridad.
 
-Una vez que el recorrido o la campaña basados en código estén activos, el equipo de implementación de la aplicación será responsable de realizar llamadas explícitas de API o SDK para recuperar contenido para las superficies definidas en la [configuración de experiencia basada en código](code-based-configuration.md) seleccionada. Obtenga más información sobre las diferentes implementaciones de clientes en [esta sección](code-based-implementation-samples.md).
+Una vez que el recorrido o la campaña basados en código estén activos, el equipo de implementación de la aplicación será responsable de realizar llamadas explícitas de API o SDK para recuperar contenido para las superficies definidas en la [configuración de experiencia basada en código](code-based-configuration.md) seleccionada. Obtenga más información acerca de las diferentes implementaciones de clientes en [esta sección](code-based-implementation-samples.md).
 
-### Publish es un recorrido basado en código {#publish-code-based-journey}
+### Publicación de un recorrido basado en código {#publish-code-based-journey}
 
 Para que la experiencia basada en código esté activa desde un recorrido, siga los pasos a continuación.
 
 1. Compruebe que el recorrido sea válido y que no haya ningún error. [Más información](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 
-1. En el recorrido, seleccione la opción **[!UICONTROL Publish]**, que se encuentra en el menú desplegable superior derecho.
+1. En el recorrido, seleccione la opción **[!UICONTROL Publicar]**, que se encuentra en el menú desplegable superior derecho.
 
    ![](assets/code-based-journey-publish.png)
 
@@ -50,7 +51,7 @@ El recorrido basado en código toma el estado **[!UICONTROL Activo]** y ahora es
 
 >[!NOTE]
 >
->Después de hacer clic en **[!UICONTROL Publish]**, los cambios pueden tardar hasta 15 minutos en estar disponibles.
+>Después de hacer clic en **[!UICONTROL Publicar]**, los cambios pueden tardar hasta 15 minutos en estar disponibles.
 
 ### Activación de una campaña basada en código {#activate-code-based-campaign}
 
@@ -66,7 +67,7 @@ El recorrido basado en código toma el estado **[!UICONTROL Activo]** y ahora es
 
    >[!NOTE]
    >
-   >Más información sobre cómo activar campañas en [esta sección](../campaigns/review-activate-campaign.md).
+   >Obtenga más información acerca de la activación de campañas en [esta sección](../campaigns/review-activate-campaign.md).
 
 Su campaña basada en código obtiene el estado **[!UICONTROL Live]** y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al contenido.
 
@@ -112,9 +113,9 @@ Global reports display events that occurred at least two hours ago and cover eve
 
 ### Code-based live report {#live-report-code-based}
 
-From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more on live report](../reports/campaign-live-report.md)
+From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more about live report](../reports/campaign-live-report.md)
 
-+++Learn more on the different metrics and widgets available for the Code-based experience report.
++++Learn more about the different metrics and widgets available for the Code-based experience report.
 
 The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your code-based experiences, such as:
 
@@ -129,7 +130,7 @@ TBC: The **[!UICONTROL Interactions by element]** table details the main informa
 
 ### Code-based global report {#global-report-code-based}
 
-Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more on global report](../reports/campaign-global-report-cja.md)
+Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more about global report](../reports/campaign-global-report-cja.md)
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages.
 
@@ -137,7 +138,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based 
 
 Add image TBC
 
-+++Learn more on the different metrics and widgets available for the Code-based experience report.
++++Learn more about the different metrics and widgets available for the Code-based experience report.
 
 The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your experiences, such as:
 
@@ -153,4 +154,3 @@ TBC: The **[!UICONTROL Interactions by element]** table details the main informa
 +++
 
 -->
-

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 90328ba9-e6b0-4105-abcf-3e3a9ed41aa6
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 8%
@@ -30,6 +30,6 @@ uso de los datos y optimización de las inversiones en TI para complementar los 
 
 Para obtener más información, lea la guía de [Composición de audiencias federada](https://experienceleague.adobe.com/es/docs/federated-audience-composition/using/home){target="_blank"}.
 
-Obtenga más información sobre la composición de audiencias federadas en vídeo:
+Obtenga más información acerca de la composición de audiencias federadas en vídeo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)

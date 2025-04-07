@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, página, formulario, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 9%
@@ -152,7 +152,7 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Puede obtener una vista previa de algunos de los ajustes, como el color de la etiqueta del botón al pasar el ratón por encima, usando el botón **[!UICONTROL Simular contenido]**. Obtenga más información sobre las páginas de aterrizaje de prueba [aquí](create-lp.md#test-landing-page).
+   Puede obtener una vista previa de algunos de los ajustes, como el color de la etiqueta del botón al pasar el ratón por encima, usando el botón **[!UICONTROL Simular contenido]**. Obtenga más información acerca de las páginas de aterrizaje de prueba [aquí](create-lp.md#test-landing-page).
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 

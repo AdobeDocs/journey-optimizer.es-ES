@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración, subdominio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 7%
@@ -193,4 +193,4 @@ Para evitar este tipo de error, asegúrese de que los parámetros de encabezado 
 
 >[!NOTE]
 >
->Obtenga más información sobre la capacidad de entrega en [esta sección](../reports/deliverability.md)
+>Obtenga más información acerca de la capacidad de entrega en [esta sección](../reports/deliverability.md)

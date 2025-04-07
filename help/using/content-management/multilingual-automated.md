@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: eea6cbaf29f3558f85b462d3dd3750d7f716bbcc
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 20%
@@ -295,9 +295,9 @@ Ahora puede activar la campaña o el recorrido. Una vez enviada, puede medir el 
 >title="Externalización de un proyecto de traducción"
 >abstract="La externalización de un proyecto de traducción le permite administrar y ejecutar traducciones directamente en su proyecto de traducción, lo que optimiza el proceso y mantiene un mayor control sobre la calidad y la coherencia de la traducción."
 
-Si seleccionó la opción Abastecimiento al configurar los ajustes de Idioma, puede traducir el contenido directamente en el proyecto de traducción.
+Si seleccionó Insourcing al configurar el idioma, puede traducir el contenido directamente en el proyecto de traducción.
 
-1. Desde tu **[!UICONTROL proyecto de traducción]**, accede al menú **[!UICONTROL Más acciones]** y selecciona **[!UICONTROL Abastecimiento]**.
+1. Desde tu **[!UICONTROL proyecto de traducción]**, accede al menú **[!UICONTROL Más acciones]** y selecciona **[!UICONTROL Insourcing]**.
 
    ![](assets/inhouse-translation-1.png)
 
@@ -325,7 +325,7 @@ Si seleccionó la opción Abastecimiento al configurar los ajustes de Idioma, pu
 
 Si seleccionó **[!UICONTROL Habilitar flujo de trabajo de revisión]** en su **[!UICONTROL proyecto de traducción]**, puede revisar la traducción directamente en Journey Optimizer después de que el proveedor de traducción seleccionado la haya completado.
 
-Tenga en cuenta que si esta opción está deshabilitada, una vez que su proveedor haya finalizado la traducción, el estado de la tarea de traducción se establece automáticamente en **[!UICONTROL Revisado]**, lo que le permite continuar rápidamente haciendo clic en **[!UICONTROL Publish]**.
+Tenga en cuenta que si esta opción está deshabilitada, una vez que su proveedor haya finalizado la traducción, el estado de la tarea de traducción se establece automáticamente en **[!UICONTROL Revisado]**, lo que le permite continuar rápidamente haciendo clic en **[!UICONTROL Publicar]**.
 
 1. Una vez que tu proveedor de servicios haya completado la traducción, puedes acceder a la traducción para revisarla desde tu **[!UICONTROL proyecto de traducción]** o directamente desde tu **[!UICONTROL Campaña]**.
 
@@ -361,7 +361,7 @@ Tenga en cuenta que si esta opción está deshabilitada, una vez que su proveedo
 
 1. Una vez que el estado de **[!UICONTROL proyecto de traducción]** se haya establecido en Revisado, puede enviarlo a su campaña.
 
-   En el menú **[!UICONTROL Más acciones]**, haga clic en **[!UICONTROL Publish]**.
+   En el menú **[!UICONTROL Más acciones]**, haga clic en **[!UICONTROL Publicar]**.
 
    ![](assets/translation_review_7.png)
 

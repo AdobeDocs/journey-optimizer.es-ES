@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: supresión, lista, rechazo, correo electrónico, optimizador, cuarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 22%
@@ -22,11 +22,11 @@ Con [!DNL Journey Optimizer], puede supervisar todas las direcciones de correo e
 
 Estas direcciones de correo electrónico se recopilan automáticamente en la **lista de supresión** de Journey Optimizer. Una lista de supresión consiste en direcciones y dominios que se excluirán de las audiencias. Recopila direcciones de correo electrónico y dominios que se suprimen en todos los correos en un solo entorno de cliente, lo que significa específico de un ID de organización asociado a un ID de zona protegida.
 
-Obtenga más información sobre el concepto y uso de la lista de supresión en [esta sección](../reports/suppression-list.md).
+Obtenga más información acerca del concepto y uso de la lista de supresión en [esta sección](../reports/suppression-list.md).
 
 >[!NOTE]
 >
->El Adobe mantiene una lista actualizada de direcciones incorrectas conocidas que han demostrado ser perjudiciales para la participación y la reputación de correo electrónico, y garantiza que no se les envíen correos electrónicos. Esta lista se administra en una lista de supresión global que es común para todos los clientes de Adobe. Las direcciones y los nombres de dominio contenidos en la lista de supresión global están ocultos. En los informes de envío solo se indica el número de destinatarios excluidos.
+>Adobe mantiene una lista actualizada de direcciones incorrectas conocidas que han demostrado ser perjudiciales para la participación y la reputación de correo electrónico, y garantiza que no se les envíen correos electrónicos. Esta lista se administra en una lista de supresión global que es común para todos los clientes de Adobe. Las direcciones y los nombres de dominio contenidos en la lista de supresión global están ocultos. En los informes de envío solo se indica el número de destinatarios excluidos.
 
 Además, puede aprovechar la API de REST de supresión **1 de Journey Optimizer para controlar los mensajes salientes mediante la supresión y las listas de permitidos.** [Obtenga información sobre cómo trabajar con la API de REST de supresión](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
@@ -39,7 +39,7 @@ Para acceder a la lista detallada de dominios y direcciones de correo electróni
 
 >[!CAUTION]
 >
->Los permisos para ver, exportar y administrar la lista de supresión están restringidos a [Administradores de Recorrido](../administration/ootb-product-profiles.md#journey-administrator). Obtenga más información sobre la administración de los derechos de acceso de los usuarios de [!DNL Journey Optimizer] en [esta sección](../administration/permissions-overview.md).
+>Los permisos para ver, exportar y administrar la lista de supresión están restringidos a [Administradores de Recorrido](../administration/ootb-product-profiles.md#journey-administrator). Obtenga más información acerca de la administración de los derechos de acceso de los usuarios de [!DNL Journey Optimizer] en [esta sección](../administration/permissions-overview.md).
 
 
 Hay filtros a su disposición para ayudarle a navegar por la lista.
@@ -81,7 +81,7 @@ Los posibles motivos de un error de entrega son:
 
 >[!NOTE]
 >
->Los usuarios que cancelaron la suscripción no reciben mensajes de correo electrónico de [!DNL Journey Optimizer], por lo que sus direcciones de correo electrónico no se pueden enviar a la lista de supresión. Su elección se gestiona a nivel de Experience Platform. [Más información sobre la exclusión](../privacy/opt-out.md)
+>Los usuarios que cancelaron la suscripción no reciben mensajes de correo electrónico de [!DNL Journey Optimizer], por lo que sus direcciones de correo electrónico no se pueden enviar a la lista de supresión. Su elección se gestiona en el nivel de Experience Platform. [Más información sobre la exclusión](../privacy/opt-out.md)
 
 
 ### Reglas de supresión  {#suppression-rules}

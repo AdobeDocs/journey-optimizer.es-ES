@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 15%
@@ -21,7 +21,7 @@ ht-degree: 15%
 >abstract="Journey Optimizer le permite crear ofertas de marketing, conocidas como elementos de decisión, que puede crear y organizar en un catálogo y colecciones centralizados. Actualmente, todos los elementos de decisión creados se consolidan dentro de un único catálogo &quot;Ofertas&quot;. Desde esta pantalla, también puede acceder al esquema del catálogo mediante el botón **Editar esquema** y crear atributos personalizados para los elementos de decisión."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=es" text="Configuración del catálogo de elementos"
 
-Journey Optimizer le permite crear ofertas de marketing, conocidas como elementos de decisión, que puede crear y organizar en un catálogo y colecciones centralizados. Se componen de atributos estándar y personalizados diseñados para alinearse con precisión con sus necesidades. Además, incorporan restricciones de perfil que le permiten definir a quién se puede mostrar un elemento de decisión.
+Journey Optimizer le permite crear ofertas de marketing, conocidas como elementos de decisión, que puede crear y organizar en un catálogo y colecciones centralizados. Están formadas por atributos estándar y personalizados diseñados para ajustarse con precisión a sus necesidades. Además, incorporan restricciones de perfil que le permiten definir a quién se puede mostrar un elemento de decisión.
 
 Antes de crear un elemento de decisión, asegúrese de haber creado una **regla de decisión** si desea establecer condiciones para determinar a quién se puede mostrar el elemento de decisión. [Aprenda a crear reglas de decisión](rules.md).
 
@@ -40,7 +40,7 @@ Para crear un elemento de decisión, vaya a **[!UICONTROL Decisioning]** > **[!U
 >abstract="Los atributos personalizados son atributos específicos adaptados a sus necesidades que puede asignar a un elemento de decisión. Se crean en el esquema de catálogo de los elementos de decisión. Esta sección solo se muestra si ha añadido al menos un atributo personalizado al esquema del catálogo."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=es" text="Configuración del catálogo de elementos"
 
-Inicio definiendo los atributos estándar y personalizados del elemento de decisión:
+Comience por definir los atributos estándar y personalizados del elemento de decisión:
 
 ![](assets/item-attributes.png)
 
@@ -52,9 +52,9 @@ Inicio definiendo los atributos estándar y personalizados del elemento de decis
    >
    >La prioridad es un tipo de datos entero. Todos los atributos que son tipos de datos enteros deben contener valores enteros (sin decimales).
 
-1. El **campo Etiquetas** permite asignar Adobe Experience Platform etiquetas unificadas a los elementos de decisión. Esto le permite clasificarlos fácilmente y mejorar búsqueda. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
+1. El campo **Etiquetas** le permite asignar etiquetas unificadas de Adobe Experience Platform a los elementos de decisión. Esto le permite clasificarlos fácilmente y mejorar la búsqueda. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
 
-1. Especifique atributos personalizados (opcional). Los atributos personalizados son atributos específicos adaptados a sus necesidades que puede asignar a un elemento de decisión. Se definen en el esquema del catálogo de artículos de decisión. [Aprenda a trabajar con catálogos](catalogs.md)
+1. Especifique atributos personalizados (opcional). Los atributos personalizados son atributos específicos adaptados a sus necesidades que puede asignar a un elemento de decisión. Se definen en el esquema de catálogo de los elementos de decisión. [Aprenda a trabajar con catálogos](catalogs.md)
 
 1. Una vez definidos los atributos del elemento de decisión, haga clic en **[!UICONTROL Siguiente]**.
 
@@ -71,7 +71,7 @@ De forma predeterminada, todos los perfiles pueden recibir el elemento de decisi
 
 +++Uso de audiencias frente a reglas de decisión
 
-Básicamente, el resultado de un audiencia es un lista de perfiles, mientras que un regla de decisión es una función ejecutada bajo demanda contra un solo perfil durante el proceso de decisión.
+Básicamente, el resultado de una audiencia es una lista de perfiles, mientras que una regla de decisión es una función ejecutada a petición en un único perfil durante el proceso de toma de decisiones.
 
 * **Audiencias**: Por un lado, las audiencias son un grupo de perfiles de Adobe Experience Platform que coinciden con una determinada lógica en función de atributos de perfil y eventos de experiencia. Sin embargo, Administración de ofertas no vuelve a calcular la audiencia, que puede no estar actualizada al presentar la oferta.
 
@@ -79,7 +79,7 @@ Básicamente, el resultado de un audiencia es un lista de perfiles, mientras que
 
 +++
 
-* Para limitar la presentación del elemento de decisión a los miembros de una o varias audiencias de Adobe Experience Platform, seleccione la opción **[!UICONTROL Visitantes que pertenecen a una o varias audiencias]**, luego agregue una o varias audiencias desde el panel izquierdo y combínelas con los operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]**. [Más información sobre audiencias](../audience/about-audiences.md).
+* Para limitar la presentación del elemento de decisión a los miembros de una o varias audiencias de Adobe Experience Platform, seleccione la opción **[!UICONTROL Visitantes que pertenecen a una o varias audiencias]**, luego agregue una o varias audiencias desde el panel izquierdo y combínelas con los operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]**. [Más información sobre las audiencias](../audience/about-audiences.md).
 
 * Para asociar una regla de decisión específica al elemento de decisión, seleccione **[!UICONTROL By rule]** y, a continuación, arrastre la regla deseada desde el panel izquierdo al área central. [Más información sobre las reglas de decisión](rules.md).
 
@@ -104,22 +104,22 @@ El límite se utiliza como restricción para definir el número máximo de veces
 
 Para establecer reglas de límite para el elemento de decisión, haga clic en el botón **[!UICONTROL Crear límite]** y siga estos pasos:
 
-1. Defina qué **[!UICONTROL evento]** de limitación se tomarán en cuenta para aumentar el contador.
+1. Defina qué **[!UICONTROL evento de límite]** se tendrá en cuenta para aumentar el contador.
 
-   * **[!UICONTROL Decision evento]** (valor predeterminado): Número máximo de veces que se puede presentar un oferta.
+   * **[!UICONTROL Evento de decisión]** (valor predeterminado): Número máximo de veces que se puede presentar una oferta.
    * **[!UICONTROL Impresión]** (solo canales entrantes): Número máximo de veces que la oferta se puede mostrar a un usuario.
    * **[!UICONTROL Clics]**: Número máximo de veces que un usuario puede hacer clic en el elemento de decisión.
    * **[!UICONTROL Evento personalizado]**: puede definir un evento personalizado que se utilizará para limitar el número de veces que se enviará el elemento. Por ejemplo, puede limitar el número de canjes hasta que sean iguales a 10000 o hasta que un perfil determinado se haya canjeado 1 vez. Para ello, use [esquemas XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} de Adobe Experience Platform para generar una regla de evento personalizada.
 
    >[!NOTE]
    >
-   >Para todos los eventos de limitación, excepto la evento de decisión, es posible que los comentarios de la administración de decisiones no se recopilen automáticamente, lo que podría resultar en que el contador de restricciones no se incremente correctamente. Para asegurarse de que cada evento de limitación se rastrea y contabiliza en el contador de restricciones, asegúrese de que la esquema utilizada para recopilar experiencia eventos incluya el grupo de campo correcto para ese evento. Puede encontrar información detallada sobre recopilación de datos en la documentación de Journey Optimizer Decision management:
-   >* [Gestión de decisiones recopilación de datos](../offers/data-collection/data-collection.md)
-   >* [Configurar recopilación de datos](../offers/data-collection/schema-requirement.md)
+   >Para todos los eventos de límite, excepto el evento de decisión, es posible que los comentarios de la administración de decisiones no se recopilen automáticamente, lo que podría provocar que el contador de límite no se incremente correctamente. Para asegurarse de que se rastrea y contabiliza cada evento de límite en el contador de límite, asegúrese de que el esquema utilizado para recopilar eventos de experiencia incluya el grupo de campos correcto para ese evento. Encontrará información detallada sobre la recopilación de datos en la documentación de gestión de decisiones de Journey Optimizer:
+   >* [Recopilación de datos de administración de decisiones](../offers/data-collection/data-collection.md)
+   >* [Configurar la recopilación de datos](../offers/data-collection/schema-requirement.md)
 
-1. Elija el tipo de tapón:
+1. Elija el tipo de límite:
 
-   * Seleccione **[!UICONTROL En total]** para definir cuántas veces se puede proponer el elemento en la audiencia de destino combinada, es decir, en todos los usuarios. Por ejemplo, si es un minorista de electrónica con una &quot;oferta de venta de televisores&quot;, quiere que la oferta solo se devuelva 200 veces en todos los perfiles.
+   * Seleccione **[!UICONTROL En total]** para definir cuántas veces se puede proponer el elemento en la audiencia de destino combinada, es decir, en todos los usuarios. Por ejemplo, si es un retailer de electrónica con una &quot;oferta de venta de televisores&quot;, quiere que la oferta solo se devuelva 200 veces en todos los perfiles.
 
    * Seleccione **[!UICONTROL Por perfil]** para definir cuántas veces se puede proponer la oferta al mismo usuario. Por ejemplo, si es un banco con una oferta de &quot;tarjeta de crédito Platinum&quot;, no desea que esta oferta se muestre más de 5 veces por perfil. De hecho, cree que si el usuario ha visto la oferta 5 veces y no ha actuado en consecuencia, tiene una mayor oportunidad de actuar en la siguiente mejor oferta.
 
@@ -133,9 +133,9 @@ Para establecer reglas de límite para el elemento de decisión, haga clic en el
    >
    >El restablecimiento del contador de límite de frecuencia se produce a las **12 a. m. UTC**, el día que haya definido o el primer día de la semana o del mes, según corresponda. El día de inicio de la semana es **domingo**. Cualquier duración que elija no puede exceder de **2 años** (es decir, el número correspondiente de meses, semanas o días).
    >
-   >Después de publicar el elemento de decisión, no podrá cambiar el período de tiempo (mensual, semanal o diario) seleccionado para la frecuencia. Aún puede editar el restricción de frecuencia si el elemento tiene el estado de **[!UICONTROL borrador]** y nunca se publicó antes con restricción de frecuencia habilitado.
+   >Después de publicar el elemento de decisión, no podrá cambiar el período de tiempo (mensual, semanal o diario) seleccionado para la frecuencia. Puede seguir editando el límite de frecuencia si el elemento tiene el estado **[!UICONTROL Borrador]** y nunca antes se había publicado con el límite de frecuencia habilitado.
 
-1. Haga clic en **[!UICONTROL Crear]** para confirmar la creación del regla de limitación. Puede crear hasta 10 reglas para un solo elemento de decisión. Para ello, haga clic en el botón **[!UICONTROL Crear límite]** y repita los pasos anteriores.
+1. Haga clic en **[!UICONTROL Crear]** para confirmar la creación de la regla de límite. Puede crear hasta 10 reglas para un solo elemento de decisión. Para ello, haga clic en el botón **[!UICONTROL Crear límite]** y repita los pasos anteriores.
 
    ![](assets/item-capping-rules.png)
 
@@ -150,14 +150,14 @@ If a marketer wants to determine how many times a specific customer has been sho
 
 ## Administración de elementos de decisión {#manage}
 
-Desde el lista Elementos de decisión, puede editar un elemento de decisión, cambiar su estado (Borrador **,** Aprobado **,** Archivado **), duplicado** o eliminarlo.
+Desde la lista de elementos de decisión, puede editar un elemento de decisión, cambiar su estado (**Borrador**, **Aprobado**, **Archivado**), duplicarlo o eliminarlo.
 
 Para modificar un elemento de decisión, ábralo, realice las modificaciones y guárdelo.
 
-Si se selecciona un elemento de decisión o se hace clic en los puntos suspensivos botón se habilitan las acciones que se describen a continuación.
+Al seleccionar un elemento de decisión o hacer clic en el botón de puntos suspensivos, se habilitan las acciones que se describen a continuación.
 
-* **[!UICONTROL Aprobar]**: establece el estado del elemento de decisión como Aprobado.
-* **[!UICONTROL Deshacer aprobar]**: devuelve el estado del elemento de decisión a **[!UICONTROL Borrador]**.
+* **[!UICONTROL Aprobar]**: establece el estado del elemento de decisión en Aprobado.
+* **[!UICONTROL Deshacer aprobación]**: vuelve a establecer el estado del elemento de decisión en **[!UICONTROL Borrador]**.
 * **[!UICONTROL Duplicate]**: crea un elemento de decisión con atributos y restricciones idénticos. De manera predeterminada, el nuevo elemento tiene el estado **[!UICONTROL Borrador]**.
 * **[!UICONTROL Eliminar]**: quita el elemento de decisión de la lista.
 

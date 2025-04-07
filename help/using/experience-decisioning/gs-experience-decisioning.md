@@ -1,12 +1,12 @@
 ---
 title: Introducción a la toma de decisiones
-description: Más información sobre las Decisiones
+description: Más información sobre la Toma de decisiones
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 25%

@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 3%
@@ -38,7 +38,7 @@ Puede ordenar las plantillas de contenido por:
 * Tipo
 * Canal
 * Fecha de creación o modificación
-* Etiquetas: [Más información sobre las etiquetas](../start/search-filter-categorize.md#tags)
+* Etiquetas: [Más información acerca de las etiquetas](../start/search-filter-categorize.md#tags)
 
 También puede elegir mostrar únicamente los elementos que ha creado o modificado.
 

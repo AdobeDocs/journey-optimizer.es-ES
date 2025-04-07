@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 173d73996a676be4ebcad471f396b5f5256b80a5
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2045'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -84,7 +84,7 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 
 1. Defina un nombre único para el conjunto de reglas y añada una descripción.
 
-1. Seleccione el dominio del conjunto de reglas. El dominio le permite especificar si el conjunto de reglas contendrá reglas de límite específicas para los canales de comunicación o para los recorridos. [Más información sobre las reglas de límite de recorrido y canal](#domain)
+1. Seleccione el dominio del conjunto de reglas. El dominio le permite especificar si el conjunto de reglas contendrá reglas de límite específicas para los canales de comunicación o para los recorridos. [Más información acerca de las reglas de límite de recorrido y canal](#domain)
 
    ![](assets/rule-sets-create.png)
 
@@ -154,7 +154,7 @@ Los parámetros disponibles para la regla dependen del dominio del conjunto de r
 
      >[!CAUTION]
      > 
-     >Para garantizar la precisión de las reglas de límite de frecuencia diarias, asegúrese de elegir el área de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información sobre la prioridad del área de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+     >Para garantizar la precisión de las reglas de restricción de frecuencia diaria, asegúrese de elegir el espacio de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información acerca de la prioridad del área de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
    Tenga en cuenta que el valor del contador de perfiles se actualiza una vez que se envía la comunicación. Tenga esto en cuenta cuando envíe grandes volúmenes de comunicaciones, ya que el rendimiento podría provocar que el destinatario reciba el correo electrónico minutos o incluso horas después del inicio de la comunicación (en el caso de que envíe millones de comunicaciones simultáneamente).
 

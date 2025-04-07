@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 5%
@@ -19,20 +19,20 @@ Para que Adobe Journey Optimizer muestre correctamente las tarjetas de contenido
 
 * **Recopilación de datos de Adobe Experience Platform**
 
-  [Cree una secuencia de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) y [agregue el servicio de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep). Habilite las opciones **[!UICONTROL Segmentación de Edge]** y **[!UICONTROL Adobe Journey Optimizer]**. Esto garantiza que el Edge Network de Adobe Experience Platform gestione los eventos de Journey Optimizer.
+  [Cree una secuencia de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) y [agregue el servicio Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep). Habilite las opciones **[!UICONTROL Segmentación de Edge]** y **[!UICONTROL Adobe Journey Optimizer]**. Esto garantiza que Adobe Experience Platform Edge Network gestione los eventos de Journey Optimizer.
 Agregue el grupo de campos **Evento de experiencia - Interacción de propuesta** al conjunto de datos para incluir estos datos en los informes. [Más información sobre las secuencias de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * **Adobe Experience Platform**
 
-  Asegúrese de que la política de combinación predeterminada tenga habilitada la **Política de combinación activa en Edge** en el menú del Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Perfiles]** > **[!UICONTROL Políticas de combinación]**. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+  Asegúrese de que la política de combinación predeterminada tenga habilitada la **Política de combinación activa en Edge** en **[!UICONTROL Cliente]** > **[!UICONTROL Perfiles]** > **[!UICONTROL Políticas de combinación]** en el menú de Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   >[!NOTE]
   >
   >Cuando use una directiva de combinación personalizada de **[!UICONTROL preferencias del conjunto de datos]**, asegúrese de agregar el conjunto de datos **[!UICONTROL Recorrido entrante]** dentro de la directiva de combinación especificada.
 
-* **SDK web de Adobe Experience Platform Mobile o Platform**
+* **Adobe Experience Platform Mobile o Platform Web SDK**
 
-  Para aplicaciones móviles y web, para agregar modificaciones a tus páginas web o aplicaciones móviles, debes implementar el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/platform-learn/implement-web-sdk/overview) en tu sitio web o el [SDK móvil de Adobe Experience Platform](https://developer.adobe.com/client-sdks/home/) en tus aplicaciones móviles.
+  Para aplicaciones móviles y web, para agregar modificaciones a tus páginas web o aplicaciones móviles, debes implementar [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/platform-learn/implement-web-sdk/overview) en tu sitio web o [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/) en tus aplicaciones móviles.
 
 * **Journey Optimizer**
 

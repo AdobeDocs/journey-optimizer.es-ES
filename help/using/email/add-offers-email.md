@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ofertas, decisión, correos electrónicos, personalización, decisión
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -97,9 +97,9 @@ Para mostrar las diferentes ofertas que forman parte de la decisión con un perf
 
    Puede seleccionar otros perfiles de prueba para previsualizar el contenido de correo electrónico de cada variante del mensaje. En el contenido del mensaje, ahora se muestra la oferta correspondiente al perfil de prueba seleccionado (ahora un hombre).
 
-Obtenga más información sobre los pasos detallados para comprobar la vista previa del mensaje en [esta sección](#preview-your-messages).
+Obtenga más información acerca de los pasos detallados para comprobar la vista previa del mensaje en [esta sección](#preview-your-messages).
 
-## Vídeo explicativo{#video-offers}
+## Vídeo práctico{#video-offers}
 
 Aprenda a agregar un componente de administración de decisiones a los mensajes de [!DNL Journey Optimizer].
 

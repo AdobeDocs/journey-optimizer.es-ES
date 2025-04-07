@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 53%
@@ -72,23 +72,23 @@ En la tabla siguiente se muestran algunos ejemplos de definiciones de URI de sup
 
 En [!DNL Journey Optimizer], el canal de experiencia basado en código admite dos tipos de implementaciones de clientes:
 
-* Basado en el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"} para sus sitios web o en el [SDK móvil de Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} para sus aplicaciones móviles;
-* Lado del servidor o híbrido que usa [API del servidor Edge Network de AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es){target="_blank"}.
+* Basado en [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"} para sus sitios web o en [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} para sus aplicaciones móviles;
+* Lado del servidor o híbrido que usa [API de servidor de AEP Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es){target="_blank"}.
 
 >[!NOTE]
 >
->Obtenga más información sobre los requisitos previos de implementación en [esta sección](code-based-prerequisites.md#implementation-prerequisites).
+>Obtenga más información acerca de los requisitos previos de implementación en [esta sección](code-based-prerequisites.md#implementation-prerequisites).
 
 Con experiencias basadas en código, puede modificar el contenido en ubicaciones granulares <!--(such as a specific location on a page, or inside a mobile native app)-->que han sido identificadas de forma exclusiva por [!DNL Journey Optimizer] mediante [URI de superficie](#surface-uri).
 
 Estos URI de superficie se componen y gestionan según el método de implementación:
 
-* **SDK web/móvil**: El desarrollador web/móvil debe definir estas ubicaciones granulares como cadenas simples, ya que el SDK web/móvil es capaz de componer automáticamente el URI de superficie en función de la URL/ID de aplicación actuales y la cadena de ubicación.
+* **Web/Mobile SDK**: el desarrollador web/móvil debe definir estas ubicaciones granulares como cadenas simples, ya que Web/Mobile SDK es capaz de componer automáticamente el URI de superficie basándose en la dirección URL/ID de aplicación actuales y en la cadena de ubicación.
 
-* **API de Edge Network**: el desarrollador de aplicaciones/páginas debe definir URI de superficie completos que incluyan la ruta de acceso completa y la ubicación donde se consumirá el contenido, ya que los URI completos son necesarios en este tipo de implementación.
+* **API de Edge Network**: el desarrollador de la aplicación/página debe definir URI de superficie completos que incluyan la ruta de acceso completa y la ubicación donde se consumirá el contenido, ya que los URI completos son necesarios en este tipo de implementación.
 
 Por este motivo, al crear una [configuración de canal de experiencia basada en código](code-based-configuration.md), tiene dos maneras de especificar la superficie según la plataforma seleccionada:
 
-* Para las plataformas **[!UICONTROL Web]**, **[!UICONTROL iOS]** y **[!UICONTROL Android]**, debe introducir la **URL/ID de aplicación** y una **ubicación o ruta** para componer la superficie. Más información sobre cómo configurar experiencias basadas en código para las plataformas [web](code-based-configuration.md#web) y [móvil](code-based-configuration.md#mobile)
+* Para las plataformas **[!UICONTROL Web]**, **[!UICONTROL iOS]** y **[!UICONTROL Android]**, debe introducir la **URL/ID de aplicación** y una **ubicación o ruta** para componer la superficie. Obtenga más información sobre cómo configurar experiencias basadas en código para las plataformas [web](code-based-configuration.md#web) y [móvil](code-based-configuration.md#mobile)
 
-* Si la plataforma es **[!UICONTROL Other]**, debes ingresar el **URI de superficie** completo, como en los ejemplos [anteriores](#surface-uri). Más información sobre cómo configurar experiencias basadas en código para [otras](code-based-configuration.md#other) plataformas
+* Si la plataforma es **[!UICONTROL Other]**, debes ingresar el **URI de superficie** completo, como en los ejemplos [anteriores](#surface-uri). Obtenga más información sobre cómo configurar experiencias basadas en código para [otras](code-based-configuration.md#other) plataformas

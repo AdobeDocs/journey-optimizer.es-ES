@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdominios, configuración
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '743'
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 23%
 
 Para poder acortar las URL agregadas a tus mensajes SMS/MMS, debes configurar el subdominio que seleccionarás al [crear una configuración de SMS](sms-configuration.md#message-preset-sms).
 
-Puede utilizar un subdominio que ya se haya delegado a Adobe o configurar otro. Obtenga más información sobre la delegación de subdominios a Adobe en [esta sección](../configuration/delegate-subdomain.md).
+Puede utilizar un subdominio que ya se haya delegado a Adobe o configurar otro. Obtenga más información acerca de la delegación de subdominios a Adobe en [esta sección](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >

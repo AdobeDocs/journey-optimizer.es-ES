@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 2%
@@ -89,7 +89,7 @@ Una vez que la plantilla de Experience Manager esté disponible en Journey Optim
 
    ![](assets/aem_ajo_2.png)
 
-1. En la ventana **[!UICONTROL Propiedades de plantilla]**, haga clic en el botón **[!UICONTROL Administrar acceso]** para asignar etiquetas de uso de datos principales o personalizadas a su plantilla. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
+1. En la ventana **[!UICONTROL Propiedades de plantilla]**, haga clic en el botón **[!UICONTROL Administrar acceso]** para asignar etiquetas de uso de datos principales o personalizadas a su plantilla. [Más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
 
 1. Para personalizar aún más la plantilla de Experience Manager y agregar una personalización personalizada al contenido, haz clic en **[!UICONTROL Editar contenido]**. Esto le permitirá realizar cambios fácilmente y adaptar la plantilla a sus necesidades específicas. [Más información](../email/get-started-email-design.md)
 

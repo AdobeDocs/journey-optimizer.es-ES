@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 6%
@@ -67,7 +67,7 @@ Encontrará información detallada sobre cada paso en [Documentación de Adobe E
    >
    >Si usa Adobe Journey Optimizer junto con perfiles de clientes en tiempo real, las tarjetas de destino mostrarán un botón **Activar**, que le permitirá exportar conjuntos de datos y activar audiencias para este destino, según los permisos que haya habilitado.
 
-1. **Seleccione los conjuntos de datos** que desea exportar al destino seleccionado. [Obtenga más información sobre los conjuntos de datos de Journey Optimizer disponibles para la exportación](#datasets)
+1. **Seleccione los conjuntos de datos** que desea exportar al destino seleccionado. [Obtenga más información acerca de los conjuntos de datos de Journey Optimizer disponibles para exportar](#datasets)
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 

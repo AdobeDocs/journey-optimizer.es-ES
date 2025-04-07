@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 4%
@@ -71,7 +71,7 @@ La tabla **[!UICONTROL Estadísticas de seguimiento]** ofrece una instantánea d
 
 La tabla **[!UICONTROL Etiquetas de vínculos rastreados]** ofrece una descripción general completa de las etiquetas de vínculos dentro de las notificaciones push, destacando las que generan el mayor tráfico de visitantes. Esta función le permite identificar y priorizar los vínculos más populares.
 
-+++ Obtenga más información sobre las métricas de etiquetas de vínculos rastreados
++++ Obtenga más información acerca de las métricas de etiquetas de vínculos rastreados
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido en sus notificaciones push.
 
@@ -85,7 +85,7 @@ La tabla **[!UICONTROL Etiquetas de vínculos rastreados]** ofrece una descripci
 
 La tabla **[!UICONTROL URL de vínculos rastreados]** proporciona una visión general de las URL de las notificaciones push que atraen el tráfico de visitantes más alto. Esto le permite identificar y priorizar los vínculos más populares, lo que le permite comprender mejor la participación del perfil con contenido específico en las notificaciones push.
 
-+++ Más información sobre las métricas de URL de vínculos rastreados
++++ Obtenga más información acerca de las métricas de URL de vínculos rastreados
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido en sus notificaciones push.
 

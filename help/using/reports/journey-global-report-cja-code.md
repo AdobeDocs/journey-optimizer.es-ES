@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 3%
@@ -35,7 +35,7 @@ Puede acceder a su informe de recorrido basado en código haciendo clic en el bo
 
 Los gráficos **[!UICONTROL Display &amp; Click]** presentan un análisis detallado de la participación de sus perfiles con sus experiencias basadas en código, lo que ofrece información valiosa sobre cómo los perfiles interactúan con su contenido.
 
-+++ Más información sobre las Métricas de impresión y clics
++++ Más información sobre las métricas de impresión y clics
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus experiencias.
 
@@ -73,7 +73,7 @@ La tabla **[!UICONTROL Datos de seguimiento]** ofrece una instantánea detallada
 
 La tabla **[!UICONTROL Etiquetas de vínculos rastreados]** ofrece una descripción general completa de las etiquetas de vínculos dentro de las experiencias basadas en código, destacando las que generan el mayor tráfico de visitantes. Esta función le permite identificar y priorizar los vínculos más populares.
 
-+++ Obtenga más información sobre las métricas de etiquetas de vínculos rastreados
++++ Obtenga más información acerca de las métricas de etiquetas de vínculos rastreados
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus experiencias basadas en código.
 

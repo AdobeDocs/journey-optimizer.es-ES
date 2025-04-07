@@ -7,7 +7,7 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 260b9ec0a70526ac37da444e183fc1d01b97b22b
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 14%
@@ -52,6 +52,6 @@ Los pasos principales para crear y utilizar modelos de IA son los siguientes:
 
    >[!IMPORTANT]
    >
-   >Los modelos de clasificación requieren que los eventos de comentarios se envíen como eventos de experiencia para que se recopilen. [Más información sobre la recopilación de datos de Administración de decisiones](../data-collection/data-collection.md)
+   >Los modelos de clasificación requieren que los eventos de comentarios se envíen como eventos de experiencia para que se recopilen. [Más información acerca de la recopilación de datos de Administración de decisiones](../data-collection/data-collection.md)
 
 1. Asigne el modelo de IA a una ubicación en una decisión para clasificar las ofertas elegibles. [Más información](../offer-activities/configure-offer-selection.md)

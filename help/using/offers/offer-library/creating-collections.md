@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 31%
@@ -76,7 +76,7 @@ Para crear una colección, siga estos pasos:
    >
    >Las colecciones estáticas no se actualizan automáticamente. Para añadir ofertas a una colección estática, debe editarlas y añadirlas manualmente.
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a una colección estática, selecciona **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../../administration/object-based-access.md)
+1. Para asignar etiquetas de uso de datos principales o personalizadas a una colección estática, selecciona **[!UICONTROL Administrar acceso]**. [Más información acerca del Control de acceso de nivel de objeto (OLAC)](../../administration/object-based-access.md)
 
    >[!NOTE]
    >
@@ -86,7 +86,7 @@ Para crear una colección, siga estos pasos:
 
    ![](../assets/collection_created.png)
 
-## Vídeo explicativo {#video}
+## Vídeo práctico {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 

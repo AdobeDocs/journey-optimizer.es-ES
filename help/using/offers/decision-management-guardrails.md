@@ -1,18 +1,18 @@
 ---
-title: Limitaciones y protecciones de gestión de decisiones
-description: Obtenga más información sobre las limitaciones y protecciones de administración de decisiones.
+title: Limitaciones y mecanismos de protección de gestión de decisiones
+description: Obtenga más información acerca de las limitaciones y protecciones de administración de decisiones.
 feature: Decisioning
 role: User
 level: Intermediate
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 
-
-# Limitaciones y protecciones de gestión de decisiones {#decision-management-guardrails}
+# Limitaciones y mecanismos de protección de gestión de decisiones {#decision-management-guardrails}
 
 Para garantizar un uso óptimo de la administración de decisiones, tenga en cuenta las siguientes limitaciones y protecciones.
 

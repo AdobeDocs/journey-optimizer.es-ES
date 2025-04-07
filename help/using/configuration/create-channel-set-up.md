@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -74,7 +74,7 @@ Esta configuración simplifica la configuración rápida de los canales de marke
 
 1. Para optimizar el proceso de configuración, se crean de forma automática los recursos necesarios para ayudarle a empezar. Esto incluye la creación de una nueva **[!UICONTROL propiedad de etiquetas móviles]** y la instalación de extensiones.
 
-[Más información sobre los recursos generados automáticamente](set-mobile-config.md#auto-create-resources)
+[Obtenga más información sobre los recursos generados automáticamente](set-mobile-config.md#auto-create-resources)
 
 1. Una vez completada la generación de recursos, siga las instrucciones de la interfaz de usuario para configurar y validar los SDK y los canales.
 

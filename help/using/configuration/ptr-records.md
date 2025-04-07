@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdominio, PTR, registros, DNS, dominio, correo
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -118,7 +118,7 @@ Una vez confirmada la edición del registro PTR, se mostrará el icono **[!UICON
 >
 >El [procesamiento de la actualización](#processing) puede tardar hasta tres horas.
 
-Para comprobar los detalles de actualización del registro PTR, haga clic en el icono situado junto a él. Obtenga más información sobre los estados asociados con los diferentes iconos de [esta sección](#ptr-record-update-statuses).
+Para comprobar los detalles de actualización del registro PTR, haga clic en el icono situado junto a él. Obtenga más información acerca de los estados asociados con los diferentes iconos de [esta sección](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 

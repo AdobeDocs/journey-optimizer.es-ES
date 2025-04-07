@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: lista de semillas, lista de semillas, semillas, configuración
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -57,7 +57,7 @@ Para acceder a las listas semilla ya creadas, ve a **[!UICONTROL Administración
 <!--
 >[!CAUTION]
 >
->Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+>Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more about managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
 
 >[!CAUTION]
 >
@@ -73,7 +73,7 @@ Use el botón **[!UICONTROL Eliminar]** para quitar una entrada de forma permane
 
 >[!CAUTION]
 >
->No es posible eliminar una lista semilla que se use en una [campaña](../campaigns/review-activate-campaign.md) o [recorrido](../building-journeys/publishing-the-journey.md) activos. Debe desactivar la campaña o el recorrido, o editarlo para utilizar otra configuración que no tenga seleccionada la lista semilla. [Más información sobre cómo usar una lista semilla](#use-seed-list)
+>No es posible eliminar una lista semilla que se use en una [campaña](../campaigns/review-activate-campaign.md) o [recorrido](../building-journeys/publishing-the-journey.md) activos. Debe desactivar la campaña o el recorrido, o editarlo para utilizar otra configuración que no tenga seleccionada la lista semilla. [Más información acerca del uso de una lista semilla](#use-seed-list)
 
 Puede hacer clic en el nombre de una lista semilla para editarla. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 

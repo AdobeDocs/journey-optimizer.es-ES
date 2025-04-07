@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Mejore su experiencia de análisis de datos con la licencia de **[!DNL Customer 
 
 Esta potente opción le redirige sin problemas a su entorno de **[!DNL Customer Journey Analytics]**, lo que le permite personalizar sus informes exhaustivamente. Puede enriquecer sus widgets con métricas de Customer Journey Analytics especializadas, llevando sus perspectivas a un nivel completamente nuevo.
 
-[Más información sobre la interfaz de Customer Journey Analytics.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[Más información acerca de la interfaz de Customer Journey Analytics.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## Definición del período de informe {#report-period}
 
@@ -59,7 +59,7 @@ Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo q
 
    Si ha generado el archivo en el nivel de informe, contiene información detallada para cada widget, incluidos su título y datos.
 
->[!TAB Exporte su informe como archivo de PDF]
+>[!TAB Exporte su informe como archivo PDF]
 
 1. En el informe, haga clic en **[!UICONTROL Compartir]** y seleccione **[!UICONTROL Descargar PDF]**.
 
@@ -137,7 +137,7 @@ Puede crear métricas calculadas personalizadas directamente en los informes. Pu
 
    >[!NOTE]
    >
-   >Si tiene un Customer Journey Analytics, puede personalizar aún más las métricas con opciones adicionales. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+   >Si tiene Customer Journey Analytics, puede personalizar aún más las métricas con opciones adicionales. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
 
 1. Elija los **[!UICONTROL lugares decimales]** adecuados y seleccione un **[!UICONTROL formato]** (decimal, hora, porcentaje o moneda) en función de cómo desee que se muestre su métrica.
 
@@ -157,7 +157,7 @@ La métrica que acaba de crear se incluirá al exportar el informe como PDF o CS
 
 ## Exploración de datos con el análisis exploratorio {#exploratory}
 
-Use la herramienta de análisis exploratorio para crear fácilmente tablas y visualizaciones a partir de los **[!UICONTROL Dimension]** y las **[!UICONTROL métricas]** que haya seleccionado. Esta herramienta optimiza la exploración de datos, lo que le permite personalizar y analizar automáticamente la información con facilidad. Obtenga más información en [esta documentación](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
+Use la herramienta de análisis exploratorio para crear fácilmente tablas y visualizaciones a partir de las **[!UICONTROL dimensiones]** y **[!UICONTROL métricas]** que haya seleccionado. Esta herramienta optimiza la exploración de datos, lo que le permite personalizar y analizar automáticamente la información con facilidad. Obtenga más información en [esta documentación](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
 
 1. Comience por acceder al informe donde desee utilizar el análisis exploratorio.
 
@@ -165,7 +165,7 @@ Use la herramienta de análisis exploratorio para crear fácilmente tablas y vis
 
    ![](assets/exploratory_analysis_1.png)
 
-1. Cree una consulta eligiendo un **[!UICONTROL Dimension]** y una **[!UICONTROL Métrica]** mediante los menús desplegables. También puede seleccionar un **[!UICONTROL segmento]** si es necesario.
+1. Cree una consulta eligiendo una **[!UICONTROL Dimension]** y una **[!UICONTROL métrica]** mediante los menús desplegables. También puede seleccionar un **[!UICONTROL segmento]** si es necesario.
 
    ![](assets/exploratory_analysis_2.png)
 
@@ -173,13 +173,13 @@ Use la herramienta de análisis exploratorio para crear fácilmente tablas y vis
 
 1. Use las opciones **[!UICONTROL Agregar desglose]** o **[!UICONTROL Agregar métrica]** para incluir dimensiones adicionales, lo que permite un desglose de datos más detallado.
 
-   Tenga en cuenta que solo puede agregar hasta tres **[!UICONTROL Dimension]**, **[!UICONTROL Métricas]** y **[!UICONTROL Segmentos]**.
+   Tenga en cuenta que solo puede agregar hasta tres **[!UICONTROL dimensiones]**, **[!UICONTROL métricas]** y **[!UICONTROL segmentos]**.
 
 Ahora puede analizar los datos con las herramientas de visualización y tabla personalizadas.
 
 <!--## Create a down-funnel metric {#down-funnel}
 
-1. Create a new journey or open an existing one. [Learn more on journey creation](../building-journeys/journey-gs.md)
+1. Create a new journey or open an existing one. [Learn more about journey creation](../building-journeys/journey-gs.md)
 
 1. On the canvas editor, select the option to "add a metric".
 
@@ -207,7 +207,7 @@ Ahora puede seleccionar datos específicos dentro de la tabla y crear directamen
 
    >[!NOTE]
    >
-   >Si tiene un Customer Journey Analytics, puede personalizar aún más las métricas con opciones adicionales. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+   >Si tiene Customer Journey Analytics, puede personalizar aún más las métricas con opciones adicionales. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
 
    ![](assets/audience_1.png)
 
@@ -221,11 +221,11 @@ Ahora puede utilizar la audiencia recién creada con un Recorrido o una campaña
 >
 > La funcionalidad **Template** se está implementando progresivamente por fases, con una disponibilidad general completa planificada para finales de enero y disponible exclusivamente para los usuarios con una licencia de [!DNL Customer Journey Analytics].
 
-Ahora tiene la opción de mejorar los informes de Journey Optimizer mediante plantillas de Customer Journey Analytics. [Más información sobre la plantilla de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+Ahora tiene la opción de mejorar los informes de Journey Optimizer mediante plantillas de Customer Journey Analytics. [Más información sobre la plantilla Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 Al acceder a los informes, puede elegir entre dos tipos de plantilla en la lista desplegable **[!UICONTROL Seleccionar una plantilla]**:
 
-* Plantilla predeterminada proporcionada por el Adobe
+* Plantilla predeterminada proporcionada por Adobe
 * Plantillas generadas por el cliente
 
 ![](assets/cja_template_5.png)
@@ -234,19 +234,19 @@ Si no se ha creado ninguna plantilla, la lista desplegable **[!UICONTROL Selecci
 
 Para crear una plantilla, siga los pasos a continuación:
 
-1. En [!DNL Customer Journey Analytics], vaya al menú **[!UICONTROL Workspace]** y seleccione **[!UICONTROL plantillas de Adobe]**. [Más información sobre las plantillas disponibles](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+1. En [!DNL Customer Journey Analytics], vaya al menú **[!UICONTROL Workspace]** y seleccione **[!UICONTROL Adobe templates]**. [Más información sobre las plantillas disponibles](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
 
 1. Examine las plantillas creadas previamente disponibles y haga clic en **[!UICONTROL Usar plantilla]** para seleccionar una.
 
    ![](assets/cja_template_1.png)
 
-1. Ajuste el informe para adaptarlo a sus necesidades. Consulte [documentación del Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+1. Ajuste el informe para adaptarlo a sus necesidades. Consulte [Documentación de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 1. Una vez completada la plantilla personalizada, accede al menú **[!UICONTROL Proyecto]** y selecciona **[!UICONTROL Guardar como plantilla]**.
 
    ![](assets/cja_template_2.png)
 
-1. Proporcione los detalles necesarios para la plantilla. Consulte [documentación del Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template) para obtener información detallada.
+1. Proporcione los detalles necesarios para la plantilla. Consulte [Documentación de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template) para obtener información detallada.
 
    >[!IMPORTANT]
    >
@@ -258,4 +258,4 @@ Para crear una plantilla, siga los pasos a continuación:
 
    ![](assets/cja_template_4.png)
 
-Para crear directamente una plantilla a partir del informe de Recorrido Optimizer, simplemente acceda a su campaña o informe de recorrido, seleccione **[!UICONTROL Analizar en CJA]** y personalice la plantilla predeterminada siguiendo los pasos descritos anteriormente.
+Para crear directamente una plantilla a partir del informe de Recorrido Optimizer, simplemente accede a tu campaña o informe de recorrido, selecciona **[!UICONTROL Analizar en CJA]** y personaliza la plantilla predeterminada siguiendo los pasos descritos anteriormente.

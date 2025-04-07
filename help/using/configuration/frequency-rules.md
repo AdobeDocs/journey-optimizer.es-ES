@@ -13,7 +13,7 @@ robots: noindex
 googlebot: noindex
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1267'
 ht-degree: 14%
@@ -134,7 +134,7 @@ El límite de frecuencia diaria es válido para el día hasta el 23:59:59 UTC y 
 
 >[!NOTE]
 >
->Para garantizar la precisión de las reglas de límite de frecuencia diarias, se recomienda el uso de [segmentación de transmisión](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}. Obtenga más información sobre los métodos de evaluación de audiencia en [esta sección](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Para garantizar la precisión de las reglas de límite de frecuencia diarias, se recomienda el uso de [segmentación de transmisión](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}. Obtenga más información acerca de los métodos de evaluación de audiencia en [esta sección](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Activar una regla de negocio {#activate-rule}
 

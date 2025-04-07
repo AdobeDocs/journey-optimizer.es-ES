@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 ## Requisitos previos {#prerequisites}
 
-* Compruebe que está utilizando la versión más reciente de su extensión **Adobe Experience Platform Web SDK**.
+* Asegúrese de que está utilizando la versión más reciente para su extensión **Adobe Experience Platform Web SDK**.
 
-* Instale la extensión **Adobe Experience Platform Web SDK** en sus **propiedades de etiquetas** y habilite la opción **Personalization Storage**.
+* Instale la extensión **Adobe Experience Platform Web SDK** en sus **propiedades de etiquetas** y habilite la opción **Almacenamiento de Personalization**.
 
   Esta configuración es esencial para almacenar historiales de eventos en el cliente, un requisito previo para implementar Reglas de frecuencia en el Generador de reglas. [Más información](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 ## Configurar los datos enviados a la regla de plataforma {#configure-sent-data-trigger}
 
-1. Acceda a su instancia de **recopilación de datos de Adobe Experience Platform** y vaya a **Propiedades de etiquetas** configuradas con la extensión **SDK web de Adobe Experience Platform**.
+1. Acceda a su instancia de **recopilación de datos de Adobe Experience Platform** y vaya a **Propiedades de etiquetas** configuradas con la extensión **Adobe Experience Platform Web SDK**.
 
 1. En el menú **Creación**, seleccione **Reglas** y luego **Crear nueva regla** o **Agregar regla**.
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 1. En la sección **Acciones**, haga clic en **Agregar** y configúrelo de la siguiente manera:
 
-   * **Extensión**: SDK web de Adobe Experience Platform
+   * **Extensión**: Adobe Experience Platform Web SDK
 
    * **Tipo de acción**: Enviar evento
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 ## Configurar regla manual {#configure-manual-trigger}
 
-1. Acceda a su instancia de **recopilación de datos de Adobe Experience Platform** y vaya a **Propiedades de etiquetas** configuradas con la extensión **SDK web de Adobe Experience Platform**.
+1. Acceda a su instancia de **recopilación de datos de Adobe Experience Platform** y vaya a **Propiedades de etiquetas** configuradas con la extensión **Adobe Experience Platform Web SDK**.
 
 1. En el menú **Creación**, seleccione **Reglas** y luego **Crear nueva regla** o **Agregar regla**.
 
@@ -92,7 +92,7 @@ ht-degree: 2%
 
 1. En la sección **Acciones**, haga clic en **Agregar** y configúrelo de la siguiente manera:
 
-   * **Extensión**: SDK web de Adobe Experience Platform
+   * **Extensión**: Adobe Experience Platform Web SDK
 
    * **Tipo de acción**: Evaluar conjuntos de reglas
 
@@ -120,9 +120,9 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto`.` y guión `-`.
+   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto `.` y guion `-`.
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Obtenga más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
 1. Seleccione **[!UICONTROL Acciones de marketing]** para asociar directivas de consentimiento a los mensajes que usan esta configuración. Todas las políticas de consentimiento asociadas con la acción de marketing se aprovechan para respetar las preferencias de los clientes. [Más información](../action/consent.md#surface-marketing-actions)
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdominios, capacidad de entrega
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 6%
@@ -301,7 +301,7 @@ Para crear un plan de calentamiento de IP, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >En caso de que la carga falle, asegúrese de que está utilizando el formato y el formato de archivo correctos (.xls o .xlsx). Use la [plantilla](assets/IPWarmupPlan-Template.xlsx) que le proporcionó el Adobe.
+   >En caso de que la carga falle, asegúrese de que está utilizando el formato y el formato de archivo correctos (.xls o .xlsx). Use la [plantilla](assets/IPWarmupPlan-Template.xlsx) que le proporcionó Adobe.
 
 1. Haga clic en **[!UICONTROL Crear]**. Todas las fases, ejecuciones, columnas y su contenido definido en el archivo cargado se muestran automáticamente en la interfaz [!DNL Journey Optimizer].
 

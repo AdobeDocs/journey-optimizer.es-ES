@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f68df6ee-d74e-46b4-a53f-b0eb50101e85
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 3%
@@ -69,7 +69,7 @@ La tabla **[!UICONTROL Datos de seguimiento]** ofrece una instantánea detallada
 
 La tabla **[!UICONTROL Etiquetas de vínculos rastreados]** ofrece una descripción general completa de las etiquetas de vínculos de las tarjetas de contenido, en la que se destacan las que generan el mayor tráfico de visitantes. Esta función le permite identificar y priorizar los vínculos más populares.
 
-+++ Obtenga más información sobre las métricas de etiquetas de vínculos rastreados
++++ Obtenga más información acerca de las métricas de etiquetas de vínculos rastreados
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus tarjetas de contenido.
 

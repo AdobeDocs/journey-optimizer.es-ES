@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 7658448ad902e2d2d2ef73ee7f71ea2cdda8d497
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 16%
@@ -55,7 +55,7 @@ Para crear un fragmento, siga los pasos a continuación.
 
    ![](assets/fragment-expression-type.png)
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas al fragmento, haga clic en el botón **[!UICONTROL Administrar acceso]** en la sección superior de la pantalla. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
+1. Para asignar etiquetas de uso de datos principales o personalizadas al fragmento, haga clic en el botón **[!UICONTROL Administrar acceso]** en la sección superior de la pantalla. [Obtenga más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
 1. Haga clic en **[!UICONTROL Crear]** para diseñar el contenido del fragmento.
 

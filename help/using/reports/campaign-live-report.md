@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '3492'
 ht-degree: 27%
@@ -48,7 +48,7 @@ Para obtener una lista detallada de todas las métricas disponibles en Adobe Jou
 
 Los KPI de **[!UICONTROL Estadísticas de campaña]** sirven como un panel completo, que ofrece un desglose detallado de las métricas clave de las últimas 24 horas relacionadas con su campaña. Esto incluye información esencial, como la cantidad de perfiles y las acciones entregadas, lo que proporciona una comprensión exhaustiva del rendimiento y la participación de su campaña.
 
-+++ Obtenga más información sobre las métricas de estadísticas de Campaign
++++ Obtenga más información sobre las métricas de Estadísticas de Campaign
 
 * **[!UICONTROL Audiencia]**: Número de perfiles de destino.
 
@@ -196,7 +196,7 @@ El widget **[!UICONTROL Correo electrónico - Rendimiento por fecha]** ofrece un
 
 ![](assets/campaign_email_live_error.png)
 
-Los gráficos y tablas de **[!UICONTROL Motivos del error]** proporcionan una perspectiva de los errores específicos que se produjeron durante el proceso de envío en las últimas 24 horas. Esta información es valiosa para comprender la naturaleza y la frecuencia de los errores.
+Los gráficos y tablas **[!UICONTROL Motivos del error]** proporcionan a insight los errores específicos que se produjeron durante el proceso de envío en las últimas 24 horas. Esta información es valiosa para comprender la naturaleza y la frecuencia de los errores.
 
 ### Motivos excluidos {#email-exclude-reasons}
 
@@ -270,7 +270,7 @@ Los KPI de **[!UICONTROL rendimiento en la aplicación]** proporcionan informaci
 
 El gráfico **[!UICONTROL Resumen en la aplicación]** ilustra la progresión de las impresiones e interacciones en la aplicación en las últimas 24 horas, y proporciona una visión general del rendimiento de los mensajes en la aplicación.
 
-+++ Más información sobre las Métricas de resumen en la aplicación
++++ Obtenga más información sobre las métricas de resumen en la aplicación
 
 * **[!UICONTROL Impresiones]**: número total de mensajes en la aplicación entregados a todos los usuarios.
 
@@ -395,7 +395,7 @@ La tabla y los gráficos de **[!UICONTROL Motivos del error]** le permiten ident
 
 El gráfico y la tabla de **[!UICONTROL Notificación push: desglose por plataforma]** proporcionan un análisis detallado del éxito de las notificaciones push en las últimas 24 horas, con información basada en el sistema operativo de su perfil. Este desglose mejora su comprensión del rendimiento de las notificaciones push en las distintas plataformas.
 
-+++ Más información sobre las notificaciones push: desglose por métricas de plataforma
++++ Más información sobre las Notificaciones push: desglose por métricas de plataforma
 
 * **[!UICONTROL Objetivos]**: número total de mensajes procesados durante el análisis.
 
@@ -513,7 +513,7 @@ Desde su **[!UICONTROL informe en vivo]** de Campaign, la ficha **[!UICONTROL We
 
 Los KPI de **[!UICONTROL rendimiento web]** ofrecen una perspectiva completa de la participación de los visitantes en sus páginas web en las últimas 24 horas, e incluyen métricas clave como Impresiones e Interacciones.
 
-+++ Más información sobre las métricas de rendimiento web
++++ Más información acerca de las métricas de rendimiento web
 
 * **[!UICONTROL Impresiones]**: número total de experiencias web entregadas a todos los usuarios.
 

@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 4%
@@ -64,7 +64,7 @@ La ficha **[!UICONTROL Experimentación]** proporciona información clave sobre 
 
 Tenga en cuenta que la definición del mejor ejecutante puede tardar algún tiempo, se representará mediante este icono ![](assets/experimentation_report_1.png).
 
-+++Obtenga más información sobre las distintas métricas y widgets disponibles para el informe Experimentación.
++++Obtenga más información acerca de las distintas métricas y widgets disponibles para el informe Experimentación.
 
 El widget **[!UICONTROL Resultado del experimento]** detalla el rendimiento de cada variante. Puede cambiar la línea de base seleccionando uno de los tratamientos en la lista desplegable **[!UICONTROL Línea de base]**. El mejor tratamiento se representará con un icono de estrella.
 

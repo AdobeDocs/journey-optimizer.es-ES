@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -91,7 +91,7 @@ La tabla **[!UICONTROL Etiquetas rastreadas]** ofrece una visión general de las
 
 La tabla **[!UICONTROL URL de vínculos rastreados]** proporciona una visión general de las direcciones URL de las tarjetas de contenido que atraen el mayor tráfico de visitantes. Esto le permite identificar y priorizar los vínculos más populares, lo que mejora su comprensión de la participación del perfil con contenido específico en las tarjetas de contenido.
 
-+++ Más información sobre las métricas de URL de vínculos rastreados
++++ Obtenga más información acerca de las métricas de URL de vínculos rastreados
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus tarjetas de contenido.
 

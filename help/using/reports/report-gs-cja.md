@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Experiencia actualizada de creación de informes
-description: Introducción al informe de todo el tiempo
+description: Introducción al Informe de todo el tiempo
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
-# Introducción al informe de todo el tiempo {#channel-report-gs-cja}
+# Introducción al Informe de todo el tiempo {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >
@@ -31,27 +31,27 @@ La creación de informes en Journey Optimizer cuenta con una interoperabilidad m
 
 * Si desea segmentar una campaña, en el menú **[!UICONTROL Campañas]**, acceda a su campaña y haga clic en el botón **[!UICONTROL Informes]**; a continuación, **[!UICONTROL Ver informe de todo el tiempo]**.
 
-  En la lista de campañas existentes, también puedes seleccionar **[!UICONTROL Informe]** del menú avanzado de la campaña seleccionada. [Más información sobre el informe de campaña](campaign-global-report-cja.md)
+  En la lista de campañas existentes, también puedes seleccionar **[!UICONTROL Informe]** del menú avanzado de la campaña seleccionada. [Más información sobre el informe de Campaign](campaign-global-report-cja.md)
 
   ![](assets/gs-cja-report-2.png)
 
-* Si desea establecer como objetivo métricas para todas las campañas y recorridos de su entorno, acceda al informe **Información general** navegando al menú **[!UICONTROL Informes]** dentro de la sección **[!UICONTROL Administración de Recorrido]**. [Obtenga más información sobre el informe de información general](channel-report-cja.md)
+* Si desea establecer como objetivo métricas para todas las campañas y recorridos de su entorno, acceda al informe **Información general** navegando al menú **[!UICONTROL Informes]** dentro de la sección **[!UICONTROL Administración de Recorrido]**. [Más información acerca del informe de información general](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
 
 ## Requisitos previos {#prerequisites}
 
-* Si **no** tiene Customer Journey Analytics propio, o si es suyo pero **no** tiene acceso a ningún perfil de producto de Customer Journey Analytics, los permisos se administran en Journey Optimizer. En este caso, necesitará lo siguiente:
+* Si **no** es propietario de Customer Journey Analytics, o si es propietario pero **no** tiene acceso a ningún perfil de producto de Customer Journey Analytics, los permisos se administran en Journey Optimizer. En este caso, necesitará lo siguiente:
 
    * Permiso de **[!UICONTROL Ver informes de canal]** para roles relacionados. [Más información](../administration/permissions.md)
 
-* Si usted es el Customer Journey Analytics **propietario** y tiene acceso a un perfil de producto de Customer Journey Analytics, necesitará:
+* Si usted **posee** Customer Journey Analytics y tiene acceso a un perfil de producto de Customer Journey Analytics, necesitará:
 
-   * Permisos de **[!UICONTROL Creación de audiencias]** y **[!UICONTROL Vista de audiencias]** para el Customer Journey Analytics. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
+   * Permisos de **[!UICONTROL Creación de audiencias]** y **[!UICONTROL Vista de audiencias]** para Customer Journey Analytics. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
 
    * Permiso de **[!UICONTROL Administrar perfiles]** para Adobe Journey Optimizer. [Más información](../administration/permissions.md)
 
-* Las vistas de datos del Customer Journey Analytics deben configurarse con la siguiente configuración: **Establecer como vista de datos predeterminada en Adobe Journey Optimizer**. [Más información sobre las vistas de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+* Las vistas de datos de Customer Journey Analytics deben configurarse con la siguiente configuración: **Establecer como vista de datos predeterminada en Adobe Journey Optimizer**. [Más información sobre las vistas de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
 ## Vídeo práctico{#video}
 

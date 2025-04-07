@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '3712'
 ht-degree: 30%
@@ -66,7 +66,7 @@ Tenga en cuenta que el recuento de perfiles de un nodo solo se actualiza una vez
 
 ![](assets/journey_live_statistics.png)
 
-Las **[!UICONTROL Estadísticas de Recorrido]** Indicadores clave de rendimiento (KPI) funcionan como un tablero integral que ofrece un análisis de las métricas esenciales asociadas con su recorrido en las últimas 24 horas. Esto incluye detalles como el recuento de perfiles introducidos y los casos de recorridos individuales fallidos, lo que ofrece una perspectiva completa de la eficacia y el nivel de participación de su recorrido.
+Las **[!UICONTROL Estadísticas de Recorrido]** Indicadores clave de rendimiento (KPI) funcionan como un tablero integral que ofrece un análisis de las métricas esenciales asociadas con su recorrido en las últimas 24 horas. Esto incluye detalles como el recuento de perfiles introducidos y los casos de recorridos individuales fallidos, lo que ofrece un insight completo de la eficacia y el nivel de participación de su recorrido.
 
 +++ Más información sobre las métricas de estadísticas de Recorrido
 
@@ -107,7 +107,7 @@ La **[!UICONTROL acción ejecutada en las últimas 24 horas]** representa la acc
 
 El widget **[!UICONTROL Acciones ejecutadas y errores]** representa la acción y los errores que se produjeron con mayor éxito cuando las acciones se activaron en las últimas 24 horas.
 
-+++ Más información sobre las Métricas de acciones ejecutadas y errores
++++ Más información sobre las Acciones ejecutadas y las métricas de error
 
 * **[!UICONTROL Acciones ejecutadas]**: Número total de acciones ejecutadas correctamente para un recorrido.
 
@@ -208,7 +208,7 @@ El gráfico **[!UICONTROL Correo electrónico: rendimiento de envío]** proporci
 
 La tabla **[!UICONTROL Correo electrónico: estadísticas]** proporciona un resumen completo de los datos esenciales relacionados con los correos electrónicos de los recorridos durante las últimas 24 horas. Detalla métricas clave como el tamaño de la audiencia objetivo y la cantidad de correos electrónicos enviados correctamente, lo que ofrece perspectivas valiosas sobre la eficacia y el alcance de los correos electrónicos y recorridos.
 
-+++ Más información sobre las métricas de estadísticas de envío de correo electrónico
++++ Más información sobre las métricas de Estadísticas de envío de correo electrónico
 
 * **[!UICONTROL Destinatarios]**: Número total de mensajes procesados durante el proceso de envío.
 
@@ -622,7 +622,7 @@ Los KPI de **[!UICONTROL rendimiento en la aplicación]** proporcionan informaci
 
 El gráfico **[!UICONTROL Resumen en la aplicación]** ilustra la progresión de las impresiones e interacciones en la aplicación durante las últimas 24 horas, y proporciona una visión general del rendimiento de los mensajes en la aplicación.
 
-+++ Más información sobre las Métricas de resumen en la aplicación
++++ Obtenga más información sobre las métricas de resumen en la aplicación
 
 * **[!UICONTROL Impresiones]**: número total de mensajes en la aplicación entregados a todos los usuarios.
 

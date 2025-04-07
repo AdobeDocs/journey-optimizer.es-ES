@@ -5,13 +5,13 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 7cf58ae33c0b3e6d6b9ce19aa71ba105db40c602
+exl-id: 98e99978-8538-40b4-92ac-7184864017eb
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 8%
 
 ---
-
 
 # Trabajar con el diseñador web {#work-with-web-designer}
 
@@ -41,7 +41,7 @@ Para empezar a crear la experiencia web con el diseñador web visual, siga los p
 
 >[!CAUTION]
 >
->El [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"} debe incluirse en la página web. [Más información](web-prerequisites.md#implementation-prerequisites)
+>[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"} debe incluirse en la página web. [Más información](web-prerequisites.md#implementation-prerequisites)
 
 1. En la pantalla **[!UICONTROL Editar contenido]**, haga clic en **[!UICONTROL Editar página web]** para abrir el diseñador web.
 
@@ -166,7 +166,7 @@ La capacidad de cambiar el tamaño del dispositivo está diseñada para sitios a
 >
 >Actualmente, [!DNL Journey Optimizer] no admite cambios de página específicos de tamaño de dispositivo. Esto significa que, por ejemplo, si tiene un sitio web móvil independiente con otra estructura de sitio, debe realizar los cambios específicos del sitio móvil en una campaña diferente.
 
-## Vídeo explicativo{#video}
+## Vídeo práctico{#video}
 
 El siguiente vídeo muestra cómo crear una experiencia web con el diseñador web en [!DNL Journey Optimizer] campañas.
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5af58cd9efc465b30386fad5dc6cd073626c3aed
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1682'
 ht-degree: 21%
@@ -80,7 +80,7 @@ Para crear una página de aterrizaje, debe seleccionar un ajuste preestablecido,
 
    ![](assets/lp_create-lp-details.png)
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la página de aterrizaje, seleccione **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la página de aterrizaje, seleccione **[!UICONTROL Administrar acceso]**. [Más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
 
 1. Seleccione o cree etiquetas Adobe Experience Platform en el campo **[!UICONTROL Etiquetas]** para categorizar la página de aterrizaje y mejorar la búsqueda. [Más información](../start/search-filter-categorize.md#tags)
 

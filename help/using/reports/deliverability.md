@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 18%
@@ -62,7 +62,7 @@ Los informes de campaña e recorrido permiten comprobar el rendimiento de las en
 * Número de mensajes que se ejecutan, envían y entregan correctamente.
 * El número de mensajes que se han abierto y el número de mensajes/vínculos en los que se ha hecho clic.
 
-Más información sobre [informe en vivo](../reports/live-report.md) y [informe en todo momento](../reports/report-gs-cja.md)
+Obtenga más información sobre [informe en vivo](../reports/live-report.md) y [informe en todo momento](../reports/report-gs-cja.md)
 
 ## Adaptación del contenido del mensaje {#adapt-message-content}
 
@@ -94,7 +94,7 @@ Para ayudarle a mitigar el riesgo de que los correos electrónicos legítimos se
 
 Autenticación de mensajes, creación de informes y conformidad basados en dominio (DMARC) es un método de autenticación por correo electrónico que permite a los propietarios de dominios proteger su dominio contra el uso no autorizado por parte de agentes malintencionados.
 
-[Obtenga más información sobre el registro de DMARC](../configuration/dmarc-record.md)
+[Más información sobre el registro de DMARC](../configuration/dmarc-record.md)
 
 ## Información sobre los bucles de comentarios {#feedback-loops}
 
@@ -106,7 +106,7 @@ Autenticación de mensajes, creación de informes y conformidad basados en domin
 
 Un bucle de comentarios (FBL) es un servicio ofrecido por algunos ISP que permite notificar automáticamente al remitente del correo electrónico cuando el usuario que lo recibe decide marcarlo como correo no deseado (también conocido como &quot;queja&quot;).
 
-Una vez que un usuario final genera una queja que el ISP devuelve a Adobe, la dirección de correo electrónico se agrega automáticamente a la [lista de supresión](../reports/suppression-list.md) y se excluye de futuros envíos. De hecho, enviar correos electrónicos a usuarios que los marcaron como correo no deseado afecta negativamente a la reputación del remitente y puede causar problemas de envío. [Más información sobre quejas por spam](../reports/suppression-list.md#spam-complaints)
+Una vez que un usuario final genera una queja que el ISP devuelve a Adobe, la dirección de correo electrónico se agrega automáticamente a la [lista de supresión](../reports/suppression-list.md) y se excluye de futuros envíos. De hecho, enviar correos electrónicos a usuarios que los marcaron como correo no deseado afecta negativamente a la reputación del remitente y puede causar problemas de envío. [Más información sobre quejas por correo no deseado](../reports/suppression-list.md#spam-complaints)
 
 >[!IMPORTANT]
 >

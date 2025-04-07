@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7591a07b-1680-4081-a745-192755d35371
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Puede acceder a su informe de recorrido web si hace clic en el botón **[!UICONT
 
 El gráfico **[!UICONTROL Tendencia de impresión y clics]** presenta un análisis detallado de la participación de sus perfiles con sus páginas web, lo que ofrece información valiosa sobre cómo los perfiles interactúan con su contenido.
 
-+++ Obtenga más información sobre las métricas de tendencias de impresión y clics
++++ Más información sobre las métricas de tendencias de impresión y clics
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido de sus páginas web.
 
@@ -99,7 +99,7 @@ La tabla **[!UICONTROL Datos de seguimiento]** ofrece una instantánea detallada
 
 La tabla **[!UICONTROL Etiquetas de vínculos rastreados]** ofrece una descripción general completa de las etiquetas de vínculos de sus páginas web, en la que se destacan las que generan el mayor tráfico de visitantes. Esta función le permite identificar y priorizar los vínculos más populares.
 
-+++ Obtenga más información sobre las métricas de etiquetas de vínculos rastreados
++++ Obtenga más información acerca de las métricas de etiquetas de vínculos rastreados
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus páginas web.
 
@@ -117,7 +117,7 @@ La tabla **[!UICONTROL Etiquetas de vínculos rastreados]** ofrece una descripci
 
 La tabla **[!UICONTROL URL de vínculos rastreados]** proporciona una visión general de las direcciones URL de las páginas web que atraen el mayor tráfico de visitantes. Esto le permite identificar y priorizar los vínculos más populares, lo que le permite comprender mejor la participación de perfiles con contenido específico en las páginas web.
 
-+++ Más información sobre las métricas de URL de vínculos rastreados
++++ Obtenga más información acerca de las métricas de URL de vínculos rastreados
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus páginas web.
 

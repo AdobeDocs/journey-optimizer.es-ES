@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 51%
+ht-degree: 50%
 
 ---
 
@@ -91,7 +91,7 @@ La función **[!UICONTROL Mailto (cancelar la suscripción)]** y la función **[
 
   >[!NOTE]
   >
-  >Obtenga más información sobre cómo administrar las funciones de cancelación de suscripción en sus mensajes en [esta sección](../email/email-opt-out.md#unsubscribe-header).
+  >Obtenga más información acerca de la administración de las funciones de cancelación de suscripción en sus mensajes en [esta sección](../email/email-opt-out.md#unsubscribe-header).
 
 En [!DNL Journey Optimizer], el consentimiento se gestiona mediante el [Esquema de consentimiento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"} de Experience Platform. De forma predeterminada, el valor del campo de consentimiento está vacío y se trata como consentimiento para recibir sus comunicaciones. Puede modificar este valor predeterminado al incorporar uno de los posibles valores enumerados [aquí](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=es#choice-values){target="_blank"}, o usar [directivas de consentimiento](../action/consent.md) para anular la lógica predeterminada.
 

@@ -7,7 +7,7 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: f930fd23431d826ba7efc72035811f0023fcf4d1
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 23%
@@ -140,7 +140,7 @@ Si seleccionó **[!UICONTROL Zona de aterrizaje de datos]** como **[!UICONTROL t
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información sobre la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información acerca de la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -183,7 +183,7 @@ Una configuración de correo postal también debe incluir la configuración de e
    >
    > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto `.` y guion `-`.
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Obtenga más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
 1. Seleccione el canal **[!UICONTROL Correo directo]**.
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 12%
@@ -48,7 +48,7 @@ Por ejemplo, supongamos que organiza un evento el mes que viene y que desea inic
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [Publish](create-lp.md#publish) la página de aterrizaje.
+1. [Publicar](create-lp.md#publish) la página de aterrizaje.
 
 1. En un [recorrido](../building-journeys/journey.md), agregue una actividad **Correo electrónico** para dirigir el tráfico a la página de aterrizaje de registro.
 
@@ -94,7 +94,7 @@ Para permitir que los destinatarios cancelen su suscripción a las comunicacione
 
 >[!NOTE]
 >
->Obtenga más información sobre cómo administrar el consentimiento de los destinatarios y por qué esto es importante en [esta sección](../privacy/opt-out.md).
+>Obtenga más información acerca de cómo administrar el consentimiento de los destinatarios y por qué esto es importante en [esta sección](../privacy/opt-out.md).
 
 ### Administración de exclusiones {#opt-out-management}
 
@@ -141,7 +141,7 @@ Para permitir que los destinatarios de un correo electrónico cancelen su suscri
    >
    >Para poder enviar el mensaje, asegúrese de que la página de aterrizaje seleccionada aún no haya caducado. Aprenda a actualizar la fecha de caducidad [en esta sección](create-lp.md#configure-primary-page).
 
-1. Publish y ejecute el recorrido. [Más información](../building-journeys/journey.md).
+1. Publique y ejecute el recorrido. [Más información](../building-journeys/journey.md).
 
 1. Una vez recibido el mensaje, si un destinatario hace clic en el vínculo para cancelar la suscripción del correo electrónico, se muestra la página de aterrizaje.
 
@@ -153,13 +153,13 @@ Para permitir que los destinatarios de un correo electrónico cancelen su suscri
 
    * Los datos del perfil se actualizan y no recibirán comunicaciones de su marca a menos que se vuelva a suscribir.
 
-Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [documentación para Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
+Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 
 En la ficha **[!UICONTROL Atributos]**, puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**.
 
-La información de exclusión se almacena en el **conjunto de datos del servicio de consentimiento**. [Más información sobre conjuntos de datos](../data/get-started-datasets.md)
+La información de exclusión se almacena en el **conjunto de datos del servicio de consentimiento**. [Más información sobre los conjuntos de datos](../data/get-started-datasets.md)
 
 >[!NOTE]
 >

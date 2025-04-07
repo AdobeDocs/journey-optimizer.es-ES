@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: lista de permitidos, lista, seguro, configuración
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: a7347c57bb82de5181df87e8ab816de392ef97a3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 16%
@@ -40,7 +40,7 @@ Para acceder a la lista detallada de dominios y direcciones de correo electróni
 
 >[!CAUTION]
 >
->Los permisos para ver, exportar y administrar la lista de permitidos están restringidos a [Administradores de Recorrido](../administration/ootb-product-profiles.md#journey-administrator). Obtenga más información sobre la administración de los derechos de acceso de los usuarios de [!DNL Journey Optimizer] en [esta sección](../administration/permissions-overview.md).
+>Los permisos para ver, exportar y administrar la lista de permitidos están restringidos a [Administradores de Recorrido](../administration/ootb-product-profiles.md#journey-administrator). Obtenga más información acerca de la administración de los derechos de acceso de los usuarios de [!DNL Journey Optimizer] en [esta sección](../administration/permissions-overview.md).
 
 Para exportar la lista de permitidos como archivo CSV, seleccione el botón **[!UICONTROL Descargar CSV]**.
 
@@ -152,7 +152,7 @@ Para rellenar la lista de permitidos, también puede llamar a la API de supresi�
 
 Puede realizar las operaciones **Agregar**, **Eliminar** y **Obtener**.
 
-Obtenga más información sobre cómo realizar llamadas de API en la [documentación de referencia de las API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
+Obtenga más información sobre cómo realizar llamadas API en la documentación de referencia de [API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
 
 ## Descargar la lista de permitidos {#download-allowed-list}
 
@@ -201,7 +201,7 @@ Cuando la lista de permitidos está [activa](#enable-allow-list), se aplica la s
 >
 >Los perfiles con el estado **[!UICONTROL No permitido]** se excluyen durante el proceso de envío de mensajes. Por lo tanto, aunque los **informes de Recorrido** mostrarán que estos perfiles se han movido a través del recorrido ([Leer audiencia](../building-journeys/read-audience.md) y [actividades de mensajes](../building-journeys/journeys-message.md)), los **informes de correo electrónico** no los incluirán en las métricas de **[!UICONTROL Enviados]**, ya que se filtran antes del envío de correo electrónico.
 >
->Obtenga más información sobre [Informe en vivo](../reports/live-report.md) y [Informe del Customer Journey Analytics](../reports/report-gs-cja.md).
+>Obtenga más información sobre [el informe en vivo](../reports/live-report.md) y [el informe de Customer Journey Analytics](../reports/report-gs-cja.md).
 
 Cuando la lista de permitidos está [desactivada](#deactivate-allow-list), todos los correos electrónicos que envía desde la zona protegida actual se envían a todos los destinatarios (siempre que no estén en la lista de supresión), incluidas las direcciones de clientes reales.
 

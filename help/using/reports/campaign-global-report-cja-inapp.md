@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 3%
@@ -32,7 +32,7 @@ Para acceder al informe de campaña en la aplicación, haga clic en el botón **
 
 El gráfico **[!UICONTROL Tendencia de impresión y clics]** presenta un análisis detallado de la participación de sus perfiles con los mensajes en la aplicación, lo que ofrece información valiosa sobre cómo los perfiles interactúan con el contenido.
 
-+++ Obtenga más información sobre las métricas de tendencias de impresión y clics
++++ Más información sobre las métricas de tendencias de impresión y clics
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en los mensajes en la aplicación.
 
@@ -105,7 +105,7 @@ La tabla **[!UICONTROL Datos de seguimiento]** ofrece una instantánea detallada
 
 La tabla **[!UICONTROL Etiquetas de vínculos rastreados]** ofrece una descripción general completa de las etiquetas de vínculos de los mensajes en la aplicación, en la que se destacan las que generan el mayor tráfico de visitantes. Esta función le permite identificar y priorizar los vínculos más populares.
 
-+++ Obtenga más información sobre las métricas de etiquetas de vínculos rastreados
++++ Obtenga más información acerca de las métricas de etiquetas de vínculos rastreados
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus mensajes en la aplicación.
 
@@ -123,7 +123,7 @@ La tabla **[!UICONTROL Etiquetas de vínculos rastreados]** ofrece una descripci
 
 La tabla **[!UICONTROL URL de vínculos rastreados]** proporciona una visión general de las URL de los mensajes en la aplicación que atraen el mayor tráfico de visitantes. Esto le permite identificar y priorizar los vínculos más populares, lo que le permite comprender mejor la participación del perfil con contenido específico en los mensajes en la aplicación.
 
-+++ Más información sobre las métricas de URL de vínculos rastreados
++++ Obtenga más información acerca de las métricas de URL de vínculos rastreados
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus mensajes en la aplicación.
 

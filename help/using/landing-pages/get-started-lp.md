@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, inicio, introducción
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ Una página de aterrizaje es una página web independiente a la que se dirige a 
 
 [!DNL Journey Optimizer] le permite crear y diseñar páginas de aterrizaje para dirigir a los usuarios a formularios en línea, donde pueden optar por recibir o rechazar la recepción de comunicaciones, o suscribirse a un servicio específico, como un Newsletter.
 
-➡️ [Obtenga más información sobre la configuración de suscripciones y la creación de páginas de aterrizaje en este vídeo](#video)
+➡️ [Obtenga más información acerca de cómo configurar suscripciones y crear páginas de aterrizaje en este vídeo](#video)
 
 * Aproveche las [!DNL Journey Optimizer]funciones de diseño de contenido para crear fácilmente **páginas de aterrizaje adaptables**.
 * Configure **flujos de inclusión y exclusión** rápidamente y sin problemas.

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdominio, delegación, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 23%

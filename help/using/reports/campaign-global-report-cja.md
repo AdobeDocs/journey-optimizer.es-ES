@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Puede acceder a su informe de Campaign haciendo clic en el botón **[!UICONTROL 
 
 ![](assets/cja-email-kpis.png)
 
-Los indicadores clave de rendimiento (KPI) **[!UICONTROL Campaign]** funcionan como un tablero integral que ofrece un análisis de las métricas esenciales asociadas con su campaña. Esto incluye detalles como el recuento de clics y la cantidad de mensajes enviados, lo que ofrece una perspectiva completa de la eficacia y el nivel de participación de su campaña.
+Los indicadores clave de rendimiento (KPI) **[!UICONTROL Campaign]** funcionan como un tablero integral que ofrece un análisis de las métricas esenciales asociadas con su campaña. Esto incluye detalles como el recuento de clics y la cantidad de mensajes enviados, lo que ofrece una insight completa sobre la eficacia y el nivel de participación de su campaña.
 
 Los KPI variarán según los canales utilizados en la campaña.
 

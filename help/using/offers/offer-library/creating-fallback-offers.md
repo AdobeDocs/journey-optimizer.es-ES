@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 4%
@@ -37,7 +37,7 @@ Para crear una oferta de reserva, siga estos pasos:
 
    ![](../assets/fallback_details.png)
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la oferta, seleccione **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../../administration/object-based-access.md)
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la oferta, seleccione **[!UICONTROL Administrar acceso]**. [Más información acerca del Control de acceso de nivel de objeto (OLAC)](../../administration/object-based-access.md)
 
 1. Cree una o varias representaciones para la oferta de reserva. Para ello, arrastre y suelte las ubicaciones desde el panel izquierdo, como cuando crea una oferta personalizada. Ver [Crear ofertas personalizadas](../offer-library/creating-personalized-offers.md).
 
@@ -55,7 +55,7 @@ Para crear una oferta de reserva, siga estos pasos:
 
    ![](../assets/fallback_created.png)
 
-## Vídeo explicativo {#video}
+## Vídeo práctico {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

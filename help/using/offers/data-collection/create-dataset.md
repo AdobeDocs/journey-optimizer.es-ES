@@ -7,7 +7,7 @@ feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 7%
@@ -28,7 +28,7 @@ Comience creando el esquema que se utilizará en el conjunto de datos:
 
    >[!NOTE]
    >
-   >Obtenga más información sobre esquemas XDM y grupos de campos en la [documentación de información general del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
+   >Obtenga más información acerca de esquemas XDM y grupos de campos en la [documentación de información general del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 
 1. Escriba un nombre y una descripción para el esquema y haga clic en **Finalizar**.
    ![](../assets/ai-ranking-xdm-event-2.png)
@@ -51,7 +51,7 @@ Comience creando el esquema que se utilizará en el conjunto de datos:
 
 >[!NOTE]
 >
->Obtenga más información sobre la creación de esquemas en [Aspectos básicos de la composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
+>Obtenga más información acerca de la creación de esquemas en [Aspectos básicos de la composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
 Ya está listo para crear un conjunto de datos con este esquema. Para realizar esto, siga los pasos a continuación:
 

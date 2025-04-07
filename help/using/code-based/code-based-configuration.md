@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 9ea7f2c76cc09949bb4467d5b9b2c19550f9975e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 23%
@@ -48,7 +48,7 @@ Para crear una configuración de canal de experiencia basada en código, siga es
    >
    > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto `.` y guion `-`.
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
 
 1. Seleccione **[!UICONTROL Acciones de marketing]** para asociar directivas de consentimiento a los mensajes que usan esta configuración. Todas las políticas de consentimiento asociadas con la acción de marketing se aprovechan para respetar las preferencias de los clientes. [Más información](../action/consent.md#surface-marketing-actions)
 
@@ -76,7 +76,7 @@ Ahora puede seleccionar esta configuración al [crear una experiencia basada en 
 
 >[!NOTE]
 >
->El equipo de implementación de la aplicación es responsable de realizar llamadas explícitas de API o SDK para recuperar contenido para las superficies definidas en la configuración de experiencia basada en código seleccionada. Obtenga más información sobre las diferentes implementaciones de clientes en [esta sección](code-based-implementation-samples.md).
+>El equipo de implementación de la aplicación es responsable de realizar llamadas explícitas de API o SDK para recuperar contenido para las superficies definidas en la configuración de experiencia basada en código seleccionada. Obtenga más información acerca de las diferentes implementaciones de clientes en [esta sección](code-based-implementation-samples.md).
 
 ### Plataformas web {#web}
 

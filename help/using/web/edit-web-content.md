@@ -1,19 +1,19 @@
 ---
-title: Edición de contenido web
+title: Editar contenido web
 description: Obtenga información sobre cómo crear una página web y editar su contenido en Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 16%
 
 ---
 
-# Edición de contenido web {#edit-web-content}
+# Editar contenido web {#edit-web-content}
 
 Una vez que [agregaste una experiencia web](create-web.md#create-web-experience) a un recorrido o a una campaña, puedes editar el contenido de tu sitio usando el diseñador web.
 
@@ -180,7 +180,7 @@ La capacidad de cambiar el tamaño del dispositivo está diseñada para sitios a
 >
 >Actualmente, [!DNL Journey Optimizer] no admite cambios de página específicos de tamaño de dispositivo. Esto significa que, por ejemplo, si tiene un sitio web móvil independiente con otra estructura de sitio, debe realizar los cambios específicos del sitio móvil en una campaña diferente.
 
-## Vídeo explicativo{#video}
+## Vídeo práctico{#video}
 
 El siguiente vídeo muestra cómo crear una experiencia web con el diseñador web en [!DNL Journey Optimizer] campañas.
 

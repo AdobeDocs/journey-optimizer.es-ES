@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: creación, correo electrónico, inicio, recorrido, campaña
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: e052e7bfea5381583ad8d2d7b785d44486cb9975
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 9%
@@ -144,7 +144,7 @@ Pueden producirse dos tipos de alertas:
 
    * **[!UICONTROL La versión de correo electrónico del mensaje está vacía]**: este error se muestra cuando no se ha configurado el contenido del correo electrónico. Aprenda a diseñar contenido de correo electrónico en [esta sección](get-started-email-design.md).
 
-   * **[!UICONTROL la configuración no existe]**: no puede usar el mensaje si la configuración seleccionada se elimina después de la creación del mensaje. Si se produce este error, seleccione otra configuración en el mensaje **[!UICONTROL Propiedades]**. Obtenga más información sobre las configuraciones de canal en [esta sección](../configuration/channel-surfaces.md).
+   * **[!UICONTROL la configuración no existe]**: no puede usar el mensaje si la configuración seleccionada se elimina después de la creación del mensaje. Si se produce este error, seleccione otra configuración en el mensaje **[!UICONTROL Propiedades]**. Obtenga más información acerca de las configuraciones de canal en [esta sección](../configuration/channel-surfaces.md).
 
 >[!CAUTION]
 >

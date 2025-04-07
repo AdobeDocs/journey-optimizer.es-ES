@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdominios, capacidad de entrega
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 0c128feac32baff14f1b71aed688e3bde4c67d35
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2634'
 ht-degree: 11%

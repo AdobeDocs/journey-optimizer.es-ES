@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: e5edb719c4ff30385242700217c9c4c07ff28373
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 9%
@@ -30,7 +30,7 @@ ht-degree: 9%
 
 [Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio-for-performance-marketing.html?lang=es){target="_blank"} es una aplicación generativa con prioridad de IA que permite a los equipos de marketing crear sus propios anuncios y correos electrónicos para impulsar campañas de marketing personalizadas e impactantes que se ajusten a los estándares de su marca y cumplan con las políticas empresariales. Al aprovechar la tecnología de IA de Adobe, proporciona un conjunto completo de herramientas que simplifican las complejidades de la creación y administración de contenido para que los creativos puedan centrarse en la innovación.
 
-Obtenga más información sobre [!DNL GenStudio for Performance Marketing] en la [documentación](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} dedicada.
+Obtenga más información acerca de [!DNL GenStudio for Performance Marketing] en la [documentación](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} dedicada.
 
 >[!INFO]
 >

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -35,11 +35,11 @@ Para guardar contenido del Designer de correo electrónico como fragmento, siga 
 
    >[!CAUTION]
    >
-   >Sólo se pueden seleccionar secciones adyacentes entre sí. No puede seleccionar una estructura vacía u otro fragmento.
+   >Solo se pueden seleccionar secciones adyacentes entre sí. No puede seleccionar una estructura vacía u otro fragmento.
 
 1. Haga clic en **[!UICONTROL Crear]** y rellene el nombre y la descripción del fragmento (si es necesario).
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas al fragmento, haga clic en el botón **[!UICONTROL Administrar acceso]** en la sección superior de la pantalla. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
+1. Para asignar etiquetas de uso de datos principales o personalizadas al fragmento, haga clic en el botón **[!UICONTROL Administrar acceso]** en la sección superior de la pantalla. [Obtenga más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
 1. Seleccione o cree etiquetas Adobe Experience Platform en el campo **Etiquetas** para categorizar la plantilla y mejorar la búsqueda. [Más información](../start/search-filter-categorize.md#tags)
 

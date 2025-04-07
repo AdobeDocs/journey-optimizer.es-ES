@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 2acb883b66e5da9c06ba1551f708bb8ab47ce343
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Los beneficios incluyen:
 * Flujos de trabajo mejorados: En lugar de crear varios envíos o campañas, los equipos de marketing pueden mejorar los flujos de trabajo creando un único envío y variar las ofertas en diferentes partes de la plantilla,
 * Controle la cantidad de veces que se muestra una oferta entre campañas y clientes.
 
-➡️ [Obtenga más información sobre la administración de decisiones en estos vídeos](#video)
+➡️ [Obtenga más información acerca de Administración de decisiones en estos vídeos](#video)
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Las funciones y la integración de Gestión de decisiones con Adobe Experience P
 
 Los permisos para acceder y utilizar las funcionalidades de decisiones de uso se administran mediante [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html){target="_blank"}.
 
-Para conceder acceso a la funcionalidad de Gestión de decisiones, debe crear un **[!UICONTROL Perfil de producto]** y asignar los permisos correspondientes a sus usuarios. Más información sobre la administración de usuarios y permisos de [!DNL Journey Optimizer] en [esta sección](../../administration/permissions.md).
+Para conceder acceso a la funcionalidad de Gestión de decisiones, debe crear un **[!UICONTROL Perfil de producto]** y asignar los permisos correspondientes a sus usuarios. Obtenga más información acerca de la administración de usuarios y permisos de [!DNL Journey Optimizer] en [esta sección](../../administration/permissions.md).
 
 Los permisos específicos de Gestión de decisiones se enumeran en [esta sección](../../administration/high-low-permissions.md#decisions-permissions).
 

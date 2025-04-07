@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 12%
@@ -30,7 +30,7 @@ Esto permite probar y perfeccionar varias versiones de las ofertas sin afectar a
 
 >[!NOTE]
 >
->Esta capacidad simula una sola solicitud a la API [!DNL Decisioning]. Más información sobre [Entregar ofertas usando la API de decisiones](../api-reference/offer-delivery-api/decisioning-api.md).
+>Esta capacidad simula una sola solicitud a la API [!DNL Decisioning]. Obtenga más información sobre [Enviar ofertas mediante la API de decisiones](../api-reference/offer-delivery-api/decisioning-api.md).
 
 Para acceder a esta función, selecciona la pestaña **[!UICONTROL Simulación]** del menú **[!UICONTROL Administración de decisiones]** > **[!UICONTROL Ofertas]**.
 
@@ -138,7 +138,7 @@ Para editar la configuración predeterminada de las simulaciones, siga los pasos
 
    >[!NOTE]
    >
-   >De forma predeterminada, todos los indicadores de deduplicación están habilitados para la simulación, lo que significa que el motor de decisión permite duplicados y, por lo tanto, puede hacer la misma propuesta en varias decisiones/ubicaciones. Obtenga más información sobre las propiedades de la solicitud de API [!DNL Decisioning] en [esta sección](../api-reference/offer-delivery-api/decisioning-api.md).
+   >De forma predeterminada, todos los indicadores de deduplicación están habilitados para la simulación, lo que significa que el motor de decisión permite duplicados y, por lo tanto, puede hacer la misma propuesta en varias decisiones/ubicaciones. Obtenga más información acerca de las propiedades de solicitud de API [!DNL Decisioning] en [esta sección](../api-reference/offer-delivery-api/decisioning-api.md).
 
 1. En la sección **[!UICONTROL Formato de respuesta]**, puede optar por incluir metadatos en la vista de código. Marque la opción correspondiente y seleccione los metadatos que desee. Se mostrarán en las cargas útiles de solicitud y respuesta al seleccionar **[!UICONTROL Ver código]**. Obtenga más información en la sección [Ver resultados de simulación](#simulation-results).
 

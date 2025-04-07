@@ -7,13 +7,13 @@ feature: Templates
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 15%
 
 ---
-
 
 # Creación de plantillas de contenido {#create-content-templates}
 
@@ -62,7 +62,7 @@ Para crear una plantilla de contenido desde cero, siga los pasos a continuación
 
 1. Seleccione o cree etiquetas Adobe Experience Platform en el campo **[!UICONTROL Etiquetas]** para categorizar la plantilla y mejorar la búsqueda. [Más información](../start/search-filter-categorize.md#tags)
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la plantilla, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la plantilla, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Obtenga más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
 1. Haga clic en **[!UICONTROL Crear]** y diseñe el contenido según sea necesario, del mismo modo que lo haría para cualquier contenido dentro de un recorrido o una campaña, según el canal que haya seleccionado.
 
