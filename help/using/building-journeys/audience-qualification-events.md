@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: calificación, eventos, audiencia, recorrido, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: ce05723342af3e0016965df7fb7a2e0b79856f6f
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 5%
@@ -18,12 +18,12 @@ ht-degree: 5%
 
 # Eventos de calificación de audiencias {#segment-qualification}
 
-## Acerca de los eventos de calificación de público{#about-segment-qualification}
-
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Eventos de calificación de público"
 >abstract="Esta actividad permite que un recorrido escuche las entradas y salidas de perfiles en públicos de Adobe Experience Platform para que los particulares entren o avancen en un recorrido."
+
+## Acerca de los eventos de calificación de público{#about-segment-qualification}
 
 Esta actividad permite al recorrido escuchar las entradas y salidas de perfiles en audiencias de Adobe Experience Platform para hacer que los individuos entren o avancen en un recorrido. Para obtener más información sobre la creación de audiencias, consulte esta [sección](../audience/about-audiences.md).
 
