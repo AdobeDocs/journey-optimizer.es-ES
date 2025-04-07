@@ -7,10 +7,10 @@ feature: Get Started
 role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 Como **Ingeniero de datos de Adobe Journey Optimizer**, prepare y mantenga datos de perfil del cliente para potenciar las experiencias orquestadas por [!DNL Journey Optimizer], modele los datos de cliente y empresa en esquemas y configure los conectores de origen para la ingesta de datos. Puede comenzar a trabajar con [!DNL Adobe Journey Optimizer] una vez que el [Administrador de sistemas](administrator.md) le conceda acceso y prepare su entorno.
 
 
-Obtenga información sobre cómo **identificar datos y crear esquemas y conjuntos de datos** para introducir sus datos en Adobe Experience Platform en esta página.
+Aprenda a **identificar datos y crear esquemas y conjuntos de datos** para introducir sus datos en Adobe Experience Platform en esta página.
 
 >[!NOTE]
 >
@@ -31,9 +31,9 @@ Los pasos para crear un área de nombres de identidad y un conjunto de datos hab
 
 1. **Cree un esquema** y actívelo para los perfiles. Un esquema es un conjunto de reglas que representan y validan la estructura y el formato de los datos. En un nivel superior, los esquemas proporcionan una definición abstracta de un objeto del mundo real (como una persona) y describen qué datos deben incluirse en cada instancia de ese objeto (como nombre, apellido, cumpleaños, etc.).  Obtenga más información acerca de los esquemas [en esta página](../../data/get-started-schemas.md).
 
-1. **Cree conjuntos de datos** y actívelos para los perfiles. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas). Los conjuntos de datos también contienen metadatos que describen varios aspectos de los datos que almacenan. Una vez creado un conjunto de datos, puede asignarlo a un esquema existente y agregarle datos. Más información acerca de los conjuntos de datos [en esta página](../../data/get-started-datasets.md).
+1. **Cree conjuntos de datos** y actívelos para los perfiles. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas). Los conjuntos de datos también contienen metadatos que describen varios aspectos de los datos que almacenan. Una vez creado un conjunto de datos, puede asignarlo a un esquema existente y agregarle datos. Obtenga más información acerca de los conjuntos de datos [en esta página](../../data/get-started-datasets.md).
 
-1. **Configure conectores de fuentes**. Adobe Journey Optimizer permite la ingesta de datos desde fuentes externas, al tiempo que le ofrece la capacidad de estructurar, etiquetar y mejorar los datos entrantes mediante los servicios de Platform. Puede ingerir datos de una variedad de fuentes, como aplicaciones de Adobe, almacenamiento basado en la nube, bases de datos y muchas otras. Obtenga más información acerca de los conectores de fuentes [en esta página](../get-started-sources.md).
+1. **Configure conectores de fuentes**. Adobe Journey Optimizer permite la ingesta de datos desde fuentes externas, al tiempo que le ofrece la capacidad de estructurar, etiquetar y mejorar los datos entrantes mediante los servicios de Platform. Puede ingerir datos de una variedad de fuentes, como aplicaciones de Adobe, almacenamiento basado en la nube, bases de datos y muchas otras. Obtenga más información acerca de los conectores de Source [en esta página](../get-started-sources.md).
 
 1. **Creación de perfiles de prueba**. Los perfiles de prueba son obligatorios al usar el [modo de prueba](../../building-journeys/testing-the-journey.md) en un recorrido y para [previsualizar y probar los mensajes](../../content-management/preview-test.md) antes de enviarlos. Los pasos para crear perfiles de prueba se detallan [en esta página](../../audience/creating-test-profiles.md).
 

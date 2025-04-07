@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 La construcción de creación para tarjetas proporciona una experiencia de creación basada en formularios que proporciona a los especialistas en marketing entradas básicas que el desarrollador puede utilizar para representar.
 
-Una vez definido y personalizado el contenido, puede revisarlo y activarlo. Su campaña se enviará de acuerdo con la programación establecida. [Obtenga más información en esta página](../campaigns/review-activate-campaign.md).
+Una vez definido y personalizado el contenido, puede revisarlo y activarlo. Su campaña se enviará de acuerdo con la programación establecida. [Más información en esta página](../campaigns/review-activate-campaign.md).
 
 ## Pestaña Contenido {#content-tab}
 

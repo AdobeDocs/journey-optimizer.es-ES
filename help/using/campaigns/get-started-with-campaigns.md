@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
-workflow-type: ht
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -61,8 +61,8 @@ Compruebe los siguientes requisitos previos antes de empezar a crear la primera 
 
 +++
 
-1. **Necesita un público**. Los públicos deben estar disponibles antes de crear la campaña. Más información sobre los públicos [en esta página](../audience/about-audiences.md).
-1. **Necesita una configuración de canal**. Para poder seleccionar un canal, debe tener la configuración del canal correspondiente (es decir, preestablecida) creada y disponible. Más información sobre las configuraciones de canal [en esta página](../configuration/channel-surfaces.md).
+1. **Necesita un público**. Los públicos deben estar disponibles antes de crear la campaña. Obtenga más información acerca de las audiencias [en esta página](../audience/about-audiences.md).
+1. **Necesita una configuración de canal**. Para poder seleccionar un canal, debe tener la configuración del canal correspondiente (es decir, preestablecida) creada y disponible. Obtenga más información acerca de las configuraciones de canal [en esta página](../configuration/channel-surfaces.md).
 
 ## Vídeo explicativo {#video}
 
