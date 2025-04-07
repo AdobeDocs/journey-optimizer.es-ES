@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Informe de recorrido {#journey-global-report}
 
-El **informe de Recorrido** funciona como un tablero que abarca todo, y ofrece un análisis de las métricas esenciales asociadas con el recorrido. Esto incluye detalles como el recuento de perfiles introducidos y los casos de recorridos individuales fallidos, lo que ofrece una perspectiva completa de la eficacia y el nivel de participación de su recorrido.
+El **informe de Recorrido** funciona como un tablero que abarca todo, y ofrece un análisis de las métricas esenciales asociadas con el recorrido. Esto incluye detalles como el recuento de perfiles introducidos y los casos de recorridos individuales fallidos, lo que ofrece un insight completo de la eficacia y el nivel de participación de su recorrido.
 
 Se puede acceder directamente al **informe de Recorrido** desde su recorrido con el botón **[!UICONTROL Ver informe]**.
 
@@ -33,7 +33,7 @@ El informe **[!UICONTROL Recorrido]** le ofrece una visión clara de los datos d
 
 ![](assets/cja-journey-kpis.png)
 
-Los indicadores clave de rendimiento (KPI) **[!UICONTROL Recorrido]** funcionan como un tablero que abarca todo, y ofrecen un análisis de las métricas esenciales asociadas con el recorrido. Esto incluye detalles como el recuento de perfiles introducidos y los casos de recorridos individuales fallidos, lo que ofrece una perspectiva completa de la eficacia y el nivel de participación de su recorrido.
+Los indicadores clave de rendimiento (KPI) **[!UICONTROL Recorrido]** funcionan como un tablero que abarca todo, y ofrecen un análisis de las métricas esenciales asociadas con el recorrido. Esto incluye detalles como el recuento de perfiles introducidos y los casos de recorridos individuales fallidos, lo que ofrece un insight completo de la eficacia y el nivel de participación de su recorrido.
 
 +++ Más información sobre las métricas de KPI de Recorrido
 
@@ -114,7 +114,7 @@ El gráfico **[!UICONTROL Rendimiento con el tiempo]** le permite identificar y 
 
 La tabla **[!UICONTROL Descripción general de la acción]** sirve como un panel completo, que ofrece un análisis de las métricas clave relacionadas con las acciones del recorrido. Esto incluye detalles cruciales como el número de interacciones y la tasa de clics
 
-+++ Más información sobre las Métricas de resumen de la acción
++++ Más información sobre las métricas de resumen de acción
 
 * **[!UICONTROL El nodo ingresa]**: Número total de individuos que han ingresado un nodo específico dentro del recorrido.
 

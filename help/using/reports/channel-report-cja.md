@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 1%
@@ -35,7 +35,7 @@ Para obtener más información sobre Customer Journey Analytics Workspace y cóm
 
 Los KPI **[!UICONTROL Características destacadas]** sirven como un tablero completo, que ofrece un desglose detallado de las métricas clave para todas las campañas y recorridos dentro de su entorno, lo que le permite evaluar rápidamente el rendimiento e identificar áreas para la mejora.
 
-+++ Más información sobre las métricas de Elementos destacados
++++ Más información sobre las Métricas de resaltados
 
 * **[!UICONTROL Participación en el Recorrido]**: Número total de individuos únicos que recibieron mensajes enviados a través del recorrido, que representan perfiles distintos que alcanzaron un punto de acción designado en el recorrido.
 
@@ -79,7 +79,7 @@ Al hacer clic en el nombre de cualquier recorrido enumerado en esta tabla, puede
 
 ![](assets/cja-channel-campaigns.png)
 
-La tabla **[!UICONTROL Campaign]** funciona como un panel que abarca todo, y presenta una descripción detallada de las métricas críticas para su campaña. Incluye datos esenciales como el número de perfiles y envíos, lo que le ofrece una perspectiva completa del rendimiento y los niveles de participación de su campaña.
+La tabla **[!UICONTROL Campaign]** funciona como un panel que abarca todo, y presenta una descripción detallada de las métricas críticas para su campaña. Incluye datos esenciales como el número de perfiles y envíos, lo que le ofrece una insight completa de los niveles de rendimiento y participación de su campaña.
 
 Al hacer clic en el nombre de cualquier campaña enumerada en esta tabla, puede explorar fácilmente cada campaña individualmente y obtener acceso inmediato a su informe completo en una nueva pestaña.
 
@@ -107,7 +107,7 @@ Al hacer clic en el nombre de cualquier campaña enumerada en esta tabla, puede 
 
 La tabla **[!UICONTROL Canales]** proporciona un desglose detallado de la participación de sus perfiles con sus mensajes en el nivel de canal. Esto le permite obtener información más detallada sobre el rendimiento de los distintos canales.
 
-+++ Más información sobre las Métricas de canales
++++ Más información sobre las métricas de Canales
 
 * **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus mensajes.
 
