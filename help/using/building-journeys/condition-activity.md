@@ -9,21 +9,27 @@ role: User
 level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 17%
+source-wordcount: '1541'
+ht-degree: 14%
 
 ---
 
-# Actividad de condición{#condition-activity}
+# Actividad de condición {#condition-activity}
+
+## Añadir una actividad de condición {#add-condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Actividad de condición"
->abstract="Esta actividad permite definir cómo fluirá el particular en el recorrido. Se crearán varias rutas basadas en distintos criterios. También puede crear una ruta alternativa en caso de que se agote el tiempo de espera o se produzca un error."
+>abstract="La actividad **Condición** le permite definir cómo progresan los individuos a través de su recorrido creando múltiples rutas basadas en criterios específicos. También puede configurar una ruta alternativa para gestionar tiempos de espera o errores, lo que garantiza una experiencia sin problemas."
 
-Estos tipos de condiciones están disponibles:
+La actividad **Condición** le permite definir cómo progresan los individuos a través de su recorrido creando múltiples rutas basadas en criterios específicos. También puede configurar una ruta alternativa para gestionar tiempos de espera o errores, lo que garantiza una experiencia sin problemas.
+
+![](assets/journey49.png)
+
+Los siguientes tipos de condiciones están disponibles:
 
 * [Condición de Source de datos](#data_source_condition)
 * [Condición de tiempo](#time_condition)
@@ -31,9 +37,9 @@ Estos tipos de condiciones están disponibles:
 * [Condición de fecha](#date_condition)
 * [Límite de perfil](#profile_cap)
 
-![](assets/journey49.png)
+También puede utilizar una audiencia en una condición de recorrido. [Más información](#using-a-segment)
 
-## Acerca de la actividad Condición {#about_condition}
+## Adición y administración de rutas de condición {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
@@ -48,7 +54,7 @@ Haga clic en **[!UICONTROL Agregar una ruta]** si desea definir varias condicion
 
 Tenga en cuenta que el diseño de los recorridos tiene impactos funcionales. Cuando se definen varias rutas después de una condición, solo se ejecuta la primera ruta elegible. Esto significa que puede variar la priorización de las rutas colocándolas una encima o debajo de la otra.
 
-Por ejemplo, veamos el ejemplo de la condición de una primera ruta &quot;La persona es un VIP&quot; y de una segunda ruta &quot;La persona es un hombre&quot;. Si una persona que cumple ambas condiciones (un hombre que es un VIP) pasa este paso, se elige la primera ruta aunque esta persona también sea elegible para la segunda, ya que la primera ruta es &quot;arriba&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
+Veamos el ejemplo de la condición de una primera ruta &quot;La persona es un VIP&quot; y de una segunda ruta &quot;La persona es un hombre&quot;. Si una persona que cumple ambas condiciones (un hombre que es un VIP) pasa este paso, se elige la primera ruta aunque esta persona también sea elegible para la segunda, ya que la primera ruta es &quot;arriba&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
 
 ![](assets/journey48.png)
 
@@ -102,7 +108,7 @@ Hay tres opciones de filtrado disponibles:
 
 ## División porcentual {#percentage_split}
 
-Esta opción le permite dividir aleatoriamente la audiencia para definir una acción diferente para cada grupo. Defina el número de divisiones y la repartición para cada ruta. El cálculo de la división es estadístico, ya que el sistema no puede anticipar cuántas personas fluirán en esta actividad del recorrido. Como resultado, la división tiene un margen de error muy bajo. Esta función se basa en un mecanismo aleatorio de Java (consulte esta [página](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+Esta opción le permite dividir aleatoriamente la audiencia para definir una acción diferente para cada grupo. Defina el número de divisiones y la repartición para cada ruta. El cálculo de la división es estadístico, ya que el sistema no puede anticipar cuántas personas fluirán en esta actividad del recorrido. Como resultado, la división tiene un margen de error muy bajo. Esta función se basa en un mecanismo aleatorio de Java (consulte esta [página](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"}).
 
 En el modo de prueba, al alcanzar una división, siempre se elige la rama superior. Puede reorganizar la posición de las ramas divididas si desea que la prueba elija una ruta diferente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
