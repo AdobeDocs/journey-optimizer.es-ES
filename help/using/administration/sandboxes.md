@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: zonas protegidas, virtual, entornos, organización, plataforma
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
+source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 55%
+ht-degree: 60%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 55%
 Las zonas protegidas se asignan mediante funciones en Permisos. [Aprenda a asignar zonas protegidas](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] refleja las zonas protegidas de Adobe Experience Platform creadas para una organización determinada.
-Las zonas protegidas de Adobe Experience Platform se pueden crear o restablecer desde la instancia de Adobe Experience Platform. [Obtenga más información en la guía de usuario de espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target="_blank"}.
+Las zonas protegidas de Adobe Experience Platform se pueden crear o restablecer desde la instancia de Adobe Experience Platform. [Obtenga más información en la Guía del usuario de zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target="_blank"}.
 
 Puede encontrar el control del conmutador de simulador de pruebas en la parte superior derecha de la pantalla junto al nombre de la organización. Para cambiar de una zona protegida a otra, haga clic en la zona protegida activa y seleccione otra zona protegida en la lista desplegable.
 
 ![](assets/sandbox_5.png)
 
-➡️ [Obtenga más información sobre las zonas protegidas con este vídeo](#video)
+➡️ [Obtenga más información acerca de las zonas protegidas en este vídeo](#video)
 
 ## Asignar zonas protegidas {#assign-sandboxes}
 
@@ -66,9 +66,9 @@ Para configurar la accesibilidad del contenido, debe asignar una carpeta compart
 
 Tenga en cuenta que para que el contenido se sincronice con la zona protegida correcta, debe seguir la misma sintaxis que esta; por ejemplo, si la zona protegida se llama desarrollo, la carpeta compartida debe tener el mismo nombre.
 
-[Más información sobre cómo administrar carpetas compartidas](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
+[Obtenga información sobre cómo administrar carpetas](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"} compartidas.
 
-## Vídeo explicativo{#video}
+## Vídeo práctico{#video}
 
 Comprenda qué son las zonas protegidas y cómo distinguir entre las zonas protegidas de desarrollo y producción. Obtenga información sobre cómo crear, restablecer y eliminar zonas protegidas.
 
