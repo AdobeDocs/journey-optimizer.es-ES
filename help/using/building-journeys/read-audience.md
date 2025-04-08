@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1786'
 ht-degree: 11%
 
 ---
@@ -24,6 +24,41 @@ ht-degree: 11%
 >id="ajo_journey_read_segment"
 >title="Actividad Leer público"
 >abstract="La actividad Leer público permite hacer que todos los particulares que pertenecen a un público de Adobe Experience Platform entren en un recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="Fecha y hora de inicio"
+>abstract="Defina la fecha y la hora en la que desea almacenar en déclencheur este recorrido."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="Repetir hasta"
+>abstract="Defina la fecha de finalización de la actividad recurrente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="Repetir cada"
+>abstract="Defina una frecuencia de repetición del planificador."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="Lectura incremental"
+>abstract="Solo permiten la entrada al recorrido de perfiles nuevos desde la última lectura."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="Forzar reentrada"
+>abstract="Suelte todos los participantes del recorrido antes de leer cada audiencia."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="Sincronizar ejecución de recorrido con exportación de audiencia"
+>abstract="Active esta opción para almacenar en déclencheur el recorrido una vez que esté disponible una nueva exportación de la audiencia."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="Sincronizar ejecución de recorrido con exportación de audiencia"
+>abstract="Especifique el tiempo que el recorrido esperará para garantizar que haya una nueva exportación de la audiencia disponible."
 
 Utilice la actividad **Leer audiencia** para hacer que todos los individuos de una audiencia ingresen al recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular.
 
