@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
+source-git-commit: 9fcf0e07edad27ab1eac3c29b26888fd99e26751
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 19%
+source-wordcount: '1017'
+ht-degree: 17%
 
 ---
 
@@ -120,11 +120,7 @@ Si sabe qué método de evaluación desea utilizar, selecciónelo en la lista de
 
 Una vez que haya definido una audiencia por primera vez, los perfiles se añaden a la audiencia cuando cumplen los requisitos. Rellenar el público a partir de datos anteriores puede tardar hasta 24 horas. Una vez que se ha rellenado el público, se mantiene actualizado continuamente y siempre está listo para la segmentación.
 
-## [!BADGE Disponibilidad limitada]{type=Informative} Evaluación de público flexible {#flexible}
-
->[!AVAILABILITY]
->
-La evaluación de público flexible solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+## Evaluación flexible de audiencias {#flexible}
 
 Adobe Experience Platform Audience Portal le permite ejecutar un trabajo de segmentación bajo demanda para audiencias seleccionadas, lo que garantiza que siempre tenga los datos de audiencia más actualizados antes de segmentarlos en recorridos y campañas de Journey Optimizer.
 
