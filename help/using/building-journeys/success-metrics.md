@@ -8,17 +8,15 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
-hide: true
-hidefromtoc: true
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
 workflow-type: tm+mt
 source-wordcount: '488'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# Configuración y seguimiento de la métrica de recorridos {#success-metrics}
+# Configuración y seguimiento de la métrica de recorrido {#success-metrics}
 
 Con las métricas de recorridos, puede medir de manera eficaz el impacto de sus actividades realizando un seguimiento de su rendimiento con respecto a las métricas predefinidas.
 Al rastrear estas métricas, puede ver el rendimiento de su recorrido, identificar áreas que se pueden mejorar y tomar decisiones informadas para mejorar la participación de los clientes.
