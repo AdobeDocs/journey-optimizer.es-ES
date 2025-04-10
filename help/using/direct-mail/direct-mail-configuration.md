@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 23%
+source-wordcount: '1344'
+ht-degree: 22%
 
 ---
 
@@ -24,11 +24,14 @@ Antes de poder generar este archivo, debe crear lo siguiente:
 
 1. [Una configuración de enrutamiento de archivos](#file-routing-configuration) para especificar el servidor donde se exportará el archivo y cifrar el archivo, si es necesario.
 
-   >[!CAUTION]
-   >
-   >Para crear una configuración de enrutamiento de archivos, necesita tener el permiso integrado **[!DNL Manage file routing]**. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. [Una configuración de correo postal](#direct-mail-configuration) que hará referencia a la configuración de enrutamiento de archivos. Si no ha configurado ninguna opción de enrutamiento de archivos, no podrá crear una configuración de correo postal.
+
+
+>[!CAUTION]
+>
+>* Para crear una configuración de enrutamiento de archivos, necesita tener el permiso integrado **[!DNL Manage file routing]**. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
+>
+>* Los archivos de correo postal solo se generan en el momento de la exportación; el sistema no almacena indefinidamente las exportaciones más antiguas. Para copias de seguridad más largas o permanentes, configure una opción de enrutamiento de archivos (SFTP o almacenamiento en la nube).
 
 ## Configurar el enrutamiento de archivos {#file-routing-configuration}
 

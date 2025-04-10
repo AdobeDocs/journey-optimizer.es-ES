@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 5%
 
 ---
@@ -44,7 +44,7 @@ Antes de activar la campaña de correo postal, asegúrese de que la campaña y e
 
 Cuando la campaña de correo postal esté lista, haga clic en el botón **[!UICONTROL Activar]**. Cuando se inicie la campaña, el archivo de extracción se generará automáticamente y se exportará al servidor especificado en la [configuración de enrutamiento de archivos](../direct-mail/direct-mail-configuration.md).
 
-Una vez enviada, puede medir el impacto de la campaña de correo postal dentro de los informes de campaña. Para obtener más información sobre los informes, consulte esta sección.
+Una vez enviada, puede medir el impacto de la campaña de correo postal dentro de los informes de campaña. Para obtener más información sobre los informes de correo postal, consulte [esta sección](../reports/campaign-global-report-cja-direct.md).
 
 ## Administración del consentimiento para correo postal {#dm-consent-management}
 
