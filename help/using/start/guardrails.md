@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '2471'
-ht-degree: 91%
+source-wordcount: '2477'
+ht-degree: 95%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 91%
 
 A continuación, encontrará limitaciones y mecanismos de protección adicionales al utilizar [!DNL Adobe Journey Optimizer].
 
-Los derechos, limitaciones de productos y mecanismos de protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Los derechos, limitaciones de productos y protecciones del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}{target=&quot;_blank&quot;}.
 
-También debe tener en cuenta los [mecanismos de protección para los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"} antes de comenzar.
+También debe tener en cuenta las [protecciones para los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"}{target=&quot;_blank&quot;} antes de comenzar.
 
 ## Navegadores admitidos {#browsers}
 
@@ -45,14 +45,14 @@ Este cambio se implementará en las **zonas protegidas de clientes existentes** 
 
 ### Protecciones de correo electrónico {#message-guardrails}
 
-Las siguientes protecciones se aplican al [canal de correo electrónico](../email/get-started-email.md):
+Las siguientes limitaciones se aplican a la actividad [canal de correo electrónico](../email/get-started-email.md):
 
 * No pueden agregar archivos adjuntos a un correo electrónico con [!DNL Journey Optimizer].
 * No puede utilizar el mismo dominio de envío para enviar mensajes desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage], por ejemplo.
 
 ### Protecciones de los SMS {#sms-guardrails}
 
-Las siguientes protecciones se aplican al [canal SMS](../sms/get-started-sms.md):
+Las siguientes limitaciones se aplican a la actividad [canal de SMS](../sms/get-started-sms.md):
 
 * Los archivos multimedia para MMS se pueden incluir a través de una dirección URL compatible. Asegúrese de que el archivo multimedia se cargue por separado.
 * Actualmente, la sincronización de comentarios de mensajes no está disponible para MMS.
@@ -60,9 +60,9 @@ Las siguientes protecciones se aplican al [canal SMS](../sms/get-started-sms.md)
 
 ### Protecciones de canal web {#web-guardrails}
 
-[!DNL Journey Optimizer] [campañas web](../web/get-started-web.md) se dirigen a nuevos perfiles que no se han utilizado anteriormente en otros canales. Esto aumentará el recuento total de perfiles con los que es posible interactuar, lo que puede tener costes si se supera el número contractual de perfiles adquiridos. 
+[Las campañas web de](../web/get-started-web.md) [!DNL Journey Optimizer] se dirigen a nuevos perfiles que no han interactuado antes en otros canales. Esto aumentará el recuento total de perfiles con los que es posible interactuar, lo que puede tener costes si se supera el número contractual de perfiles adquiridos. 
 
-Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}{target=&quot;_blank&quot;}.
 
 ### Protecciones de canal basado en código {#code-based-guardrails}
 
@@ -70,7 +70,7 @@ Para usar acciones de experiencia basadas en código en [!DNL Journey Optimizer]
 
 ## Mecanismos de protección de las páginas de aterrizaje {#lp-guardrails}
 
-Las siguientes protecciones se aplican a [páginas de aterrizaje](../landing-pages/get-started-lp.md):
+Las siguientes limitaciones se aplican a las [páginas de aterrizaje](../landing-pages/get-started-lp.md):
 
 * Solo se puede utilizar un componente **Formulario** en una sola página principal.
 * El componente **Formulario** no se puede usar en subpáginas.
@@ -87,7 +87,7 @@ Más información sobre la delegación de dominios en [esta página](../configur
 
 ## Protecciones de fragmentos {#fragments-guardrails}
 
-Las siguientes protecciones se aplican a los [fragmentos](../content-management/fragments.md):
+Las siguientes limitaciones se aplican a los [fragmentos](../content-management/fragments.md):
 
 * Los fragmentos visuales solo están disponibles para el canal de correo electrónico.
 * Los fragmentos de expresiones no están disponibles para el canal en la aplicación.
@@ -119,7 +119,7 @@ Las protecciones y limitaciones que se deben tener en cuenta al trabajar con tom
 
 ### Acciones generales {#general-actions-g}
 
-Las siguientes protecciones se aplican a [Acciones](../building-journeys/about-journey-activities.md) en sus recorridos:
+Las siguientes limitaciones se aplican a las [Acciones](../building-journeys/about-journey-activities.md) en sus recorridos:
 
 * En caso de error, se realizan tres reintentos de forma sistemática. No puede ajustar el número de reintentos según el mensaje de error recibido. Los reintentos se realizan para todos los errores HTTP excepto para HTTP 401, 403 y 404.
 * El evento **Reacción** le permite reaccionar a las acciones predeterminadas. Más información sobre [esta página](../building-journeys/reaction-events.md). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado.
@@ -128,7 +128,7 @@ Las siguientes protecciones se aplican a [Acciones](../building-journeys/about-j
 
 ### Versiones de recorridos {#journey-versions-g}
 
-Las siguientes protecciones se aplican a [versiones de Recorrido](../start/user-interface.md):
+Las siguientes limitaciones se aplican a las [versiones del recorrido](../start/user-interface.md):
 
 * Un recorrido que se inicia con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No puede iniciar un recorrido con un evento de **Calificación de público**.
 * Un recorrido que se inicia con una actividad de **Calificación de público** en la versión 1 siempre debe comenzar con una **Calificación de público** en versiones posteriores.
@@ -139,7 +139,7 @@ Las siguientes protecciones se aplican a [versiones de Recorrido](../start/user-
 
 ### Acciones personalizadas {#custom-actions-g}
 
-Las siguientes protecciones se aplican a [Acciones personalizadas](../action/action.md) en sus recorridos:
+Las siguientes limitaciones se aplican a las [Acciones personalizadas](../action/action.md) en sus recorridos:
 
 * Se define un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. Consulte [esta página](../action/about-custom-action-configuration.md). Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tenerlo en cuenta en los recorridos basados en públicos definiendo una tasa de lectura adecuada (5000 perfiles por segundo cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
 * La URL de acción personalizada no admite parámetros dinámicos.
@@ -156,7 +156,7 @@ Las siguientes protecciones se aplican a [Acciones personalizadas](../action/act
 
 ### Eventos {#events-g}
 
-Las siguientes protecciones se aplican a [Eventos](../event/about-events.md) en sus recorridos:
+Las siguientes limitaciones se aplican a los [Eventos](../event/about-events.md) en sus recorridos:
 
 * Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido entrantes por segundo.
 * Los recorridos activados por eventos pueden tardar hasta 5 minutos en procesar la primera acción del recorrido.
@@ -167,7 +167,7 @@ Las siguientes protecciones se aplican a [Eventos](../event/about-events.md) en 
 
 ### Fuentes de datos {#data-sources-g}
 
-Las siguientes protecciones se aplican a [Fuentes de datos](../datasource/about-data-sources.md) en sus recorridos:
+Las siguientes limitaciones se aplican a las [Fuentes de datos](../datasource/about-data-sources.md) en sus recorridos:
 
 * Las fuentes de datos externas se pueden aprovechar dentro de un recorrido del cliente para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
 * Las direcciones de Adobe internas (`.adobe.*`) no están permitidas en las direcciones URL y las API.
@@ -194,7 +194,7 @@ Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL A
 
 ### Público de lectura {#read-segment-g}
 
-Las siguientes limitaciones se aplican a la actividad de recorrido [Leer audiencia](../building-journeys/read-audience.md):
+Las siguientes limitaciones se aplican a la actividad de recorrido [Público de lectura](../building-journeys/read-audience.md):
 
 * Los públicos transmitidos siempre están actualizados, pero los públicos por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.
 * Para los recorridos que utilizan una actividad **Leer público**, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con **Leer público**, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
@@ -204,21 +204,21 @@ Las siguientes limitaciones se aplican a la actividad de recorrido [Leer audienc
 * Vea también recomendaciones sobre cómo usar la actividad **Leer audiencia** en [esta página](../building-journeys/read-audience.md).
 * Los reintentos ahora se aplican de forma predeterminada en recorridos activados por públicos destinatarios (empezando con una actividad **Leer público** o **Evento empresarial**) cuando se recupera el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada.
 
-### Calificación de audiencias {#audience-qualif-g}
+### Calificación de público {#audience-qualif-g}
 
-La siguiente protección se aplica a la actividad de recorrido [Calificación de audiencias](../building-journeys/audience-qualification-events.md):
+El siguiente mecanismo de protección se aplica a la actividad de recorrido [Calificación de público](../building-journeys/audience-qualification-events.md):
 
 * La actividad de calificación de público no se puede utilizar con actividades de Adobe Campaign.
 
 ### Editor de expresiones {#expression-editor}
 
-La siguiente protección se aplica al [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md):
+El siguiente mecanismo de protección se aplica al [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md):
 
 * Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer público, Calificación de público o una actividad de evento empresarial. Debe crear un público nuevo y utilizar una condición dentro del público en el recorrido.
 
 ### Actividad en la aplicación {#in-app-activity-limitations}
 
-Las siguientes protecciones se aplican a la acción **[!UICONTROL Mensaje en la aplicación]**. Obtenga más información sobre los mensajes en la aplicación en [esta página](../in-app/create-in-app.md).
+Las siguientes limitaciones se aplican a la acción **[!UICONTROL Mensaje en la aplicación]**. Obtenga más información sobre los mensajes en la aplicación en [esta página](../in-app/create-in-app.md).
 
 * Actualmente, esta función no está disponible para los clientes de Asistencia sanitaria.
 

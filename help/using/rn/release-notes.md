@@ -8,8 +8,8 @@ description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 61%
+source-wordcount: '765'
+ht-degree: 76%
 
 ---
 
@@ -20,32 +20,32 @@ ht-degree: 61%
 >title="Novedades"
 >abstract="**Adobe Journey Optimizer** ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión."
 
-[!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión. [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
+[!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión. [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información acerca de estos cambios en [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target=&quot;_blank&quot;}.
 
-## Actualizaciones del 25 de abril
+## Actualizaciones de abril de 2025
 
 ### Mejoras {#25-04-improv}
 
 
-* **Herramientas de espacio aislado** - Fecha de disponibilidad: 3 de abril de 2025
+* **Herramientas Sandbox - Fecha de** disponibilidad: 3 de abril de 2025
 
-  Ahora puede copiar campañas en varios entornos limitados mediante las funciones de exportación e importación de paquetes. Las campañas se copian junto con todos los elementos relacionados con el perfil, la audiencia, el esquema, los mensajes en línea y los objetos dependientes. Algunos elementos no se copian, como los elementos de decisión, las etiquetas de uso de datos y la configuración de idioma. [Más información](../configuration/copy-objects-to-sandbox.md)
+  Ahora puede copiar campañas en varios entornos limitados mediante las capacidades de exportación e importación de paquetes. Las campañas se copian junto con todos los elementos relacionados con el perfil, el audiencia, el esquema, los mensajes en línea y los objetos dependientes. Algunos elementos no se copian, como los elementos de decisión, las etiquetas de uso de datos y la configuración de idioma. [Más información](../configuration/copy-objects-to-sandbox.md)
 
-* **Personalization** - Fecha de disponibilidad: 2 de abril de 2025
+* **Personalización** : Fecha de disponibilidad: 2 de abril de 2025
 
-  El panel de atributos del editor de personalización ahora muestra solo los atributos rellenados de forma predeterminada. Para ver todos los atributos, use el botón de configuración para desactivar la opción **[!UICONTROL Mostrar solo atributos rellenados]**. [Más información](../personalization/personalization-build-expressions.md)
+  El panel Atributos del editor personalización muestra ahora solo los atributos completados de forma predeterminada. Para vista todos los atributos, utilice el botón de configuración para desactivar la opción Mostrar **[!UICONTROL solo atributos]** completados. [Más información](../personalization/personalization-build-expressions.md)
 
-* **Administración de contenido** - Fecha de disponibilidad: 2 de abril de 2025
+* **Gestión de** contenido - Fecha de disponibilidad: 2 de abril de 2025
 
-  Para administrar fácilmente las plantillas de contenido y los fragmentos, ahora puede utilizar carpetas para organizarlos de forma más eficaz en una jerarquía estructurada. Obtenga más información en las secciones [Plantillas de contenido](../content-management/access-content-templates.md#folders) y [Fragmentos](../content-management/manage-fragments.md#folders).
+  Para administrar fácilmente sus plantillas y fragmentos de contenido, ahora puede usar carpetas para organizarlos de manera más efectiva en un jerarquía estructurado. Obtenga más información en las secciones [Fragmentos](../content-management/manage-fragments.md#folders) y [Plantillas de contenido](../content-management/access-content-templates.md#folders)
 
   >[!AVAILABILITY]
   >
   >Esta mejora solo está disponible para un conjunto de organizaciones (disponibilidad limitada).
 
-* **Correo electrónico Designer** - Fecha de disponibilidad: 1 de abril de 2025
+* **Email Designer** - Fecha de disponibilidad: 1 de abril de 2025
 
-  Para mejorar la accesibilidad en Journey Optimizer, ahora hay dos campos nuevos disponibles en Email Designer: se corresponden con el elemento `<title>` y el atributo `lang` en el elemento `<html>` del contenido del correo electrónico. Puede definir esta configuración además del campo **[!UICONTROL Encabezado previo]**, en la sección **[!UICONTROL Cuerpo]** del correo electrónico. [Más información](../email/email-metadata.md)
+  Para mejorar la accesibilidad en Journey Optimizer, ahora hay dos campos nuevos disponibles en Email Designer: Corresponden al elemento y `lang` al `<title>` `<html>` atributo del elemento de su correo electrónico contenido. Puede definir esta configuración además del **[!UICONTROL campo Preencabezado]** , en la sección correo electrónico **[!UICONTROL cuerpo]** . [Más información](../email/email-metadata.md)
 
 
 ## Notas de la versión de marzo de 2025 {#25-3-rn}
@@ -194,19 +194,19 @@ Al definir las condiciones de una directiva de aprobación, ahora tiene la opci�
 
 Para obtener más información, consulte la [documentación detallada](../test-approve/approval-policies.md).
 
-Configuración de ****
+**Configuración**
 
-* Ahora puede asignar las etiquetas unificadas de Adobe Experience Platform a las configuraciones de canal. Esto le permite clasificarlas fácilmente y mejorar la búsqueda y la navegación en todas las listas. [Más información](../configuration/channel-surfaces.md#channel-config-tags)
+* Ahora puede asignar las etiquetas unificadas de Adobe Experience Platform a las configuraciones de canal. Esto le permite clasificarlas con facilidad y mejorar la búsqueda y la navegación en todas las listas. [Más información](../configuration/channel-surfaces.md#channel-config-tags)
 
-* Al configurar o editar un subdominio de correo electrónico en Journey Optimizer, ahora puede elegir administrar el registro de DMARC asociado por su cuenta, si está disponible en el dominio principal. [Más información](../configuration/dmarc-record.md#set-up-dmarc)
+* Al configurar o editar un subdominio de correo electrónico en Journey Optimizer, ahora puede elegir administrar el registro DMARC asociado por su cuenta, si está disponible en el dominio principal. [Más información](../configuration/dmarc-record.md#set-up-dmarc)
 
 **Reglas empresariales**
 
-Ahora puede usar la restricción de frecuencia diaria en recorridos y campañas con la segmentación por lotes. Para garantizar la precisión de las reglas de restricción de frecuencia diaria, asegúrese de elegir el espacio de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información acerca de la prioridad del área de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Ahora puede usar la restricción de frecuencia diaria en recorridos y campañas con la segmentación por lotes. Para garantizar la precisión de las reglas de restricción de frecuencia diaria, asegúrese de elegir el espacio de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información sobre la prioridad de los espacios de nombres en el Servicio de identidad de [Platform guía](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){destino=&quot;_blank&quot;}
 
-Como recordatorio, el límite de frecuencia diario en los conjuntos de reglas solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+Como recordatorio, la restricción de frecuencia diaria en los conjuntos de reglas solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
-Para obtener más información sobre las reglas de negocio, consulte la [documentación detallada](../configuration/rule-sets.md).
+Para obtener más información sobre las reglas empresariales, consulte la [documentación detallada](../configuration/rule-sets.md).
 
 <!--**Deliverability**
 
