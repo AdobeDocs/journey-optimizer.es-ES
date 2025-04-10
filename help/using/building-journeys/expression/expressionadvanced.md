@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: editor de expresiones, datos, recorrido
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 63%
+source-wordcount: '692'
+ht-degree: 60%
 
 ---
 
@@ -47,9 +47,9 @@ Si es posible, puede cambiar entre los dos modos con el botón **[!UICONTROL Mod
 
 >[!NOTE]
 >
->Las condiciones se pueden definir en el editor de expresiones simples o avanzadas. Siempre devuelven un tipo booleano.
+>* Las condiciones se pueden definir en el editor de expresiones simples o avanzadas. Siempre devuelven un tipo booleano.
 >
->Los parámetros de acción se pueden definir seleccionando campos o mediante el editor de expresiones avanzadas. Devuelven un tipo de datos específico según su expresión.
+>* Los parámetros de acción se pueden definir seleccionando campos o mediante el editor de expresiones avanzadas. Devuelven un tipo de datos específico según su expresión.
 
 Puede acceder al editor de expresiones avanzadas de diferentes maneras:
 
@@ -84,9 +84,15 @@ Un mecanismo de validación de sintaxis comprueba la integridad del código. Los
 
 ![](../assets/journey69.png)
 
+
+>[!TIP]
+>
+>Al crear condiciones en el editor de expresiones avanzadas, asegúrese de que las expresiones no contengan caracteres ocultos o no imprimibles. Además, utilice expresiones de una sola línea para evitar errores de análisis.
+
+
 **Necesidad de parámetros al crear condiciones con el editor de expresiones avanzadas**
 
-Si selecciona un campo de un origen de datos externo que requiere que se llame a un parámetro (consulte [esta página](../../datasource/external-data-sources.md)), aparecerá una nueva pestaña a la derecha que le permitirá especificar este parámetro. El valor del parámetro puede proceder de los eventos colocados en el recorrido o en la fuente de datos del Experience Platform (y no de otras fuentes de datos externas). Por ejemplo, en una fuente de datos relacionada con el tiempo, un parámetro utilizado frecuentemente será &quot;city&quot; (ciudad). Como resultado, debe seleccionar dónde desea obtener este parámetro de ciudad. Las funciones también se pueden aplicar a parámetros para realizar cambios de formato o concatenaciones.
+Si selecciona un campo de un origen de datos externo que requiere que se llame a un parámetro (consulte [esta página](../../datasource/external-data-sources.md)), aparecerá una nueva pestaña a la derecha que le permitirá especificar este parámetro. El valor del parámetro puede proceder de los eventos colocados en el recorrido o en la fuente de datos de Experience Platform (y no de otras fuentes de datos externas). Por ejemplo, en una fuente de datos relacionada con el tiempo, un parámetro utilizado frecuentemente será &quot;city&quot; (ciudad). Como resultado, debe seleccionar dónde desea obtener este parámetro de ciudad. Las funciones también se pueden aplicar a parámetros para realizar cambios de formato o concatenaciones.
 
 ![](../assets/journeyuc2_19.png)
 
