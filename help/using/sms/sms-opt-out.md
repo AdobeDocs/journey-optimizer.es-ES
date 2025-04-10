@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 18%
+source-wordcount: '568'
+ht-degree: 16%
 
 ---
 
@@ -43,6 +43,12 @@ Cuando utilice Infobip, asegúrese de que la acción Reenvío está establecida 
 No se requiere ningún paso para garantizar que las funcionalidades de exclusión de SMS funcionen en Adobe Journey Optimizer, ya que STOP, UNSTOP, START, QUIT, CANCEL, END y UNSUBSCRIBE de las respuestas de palabras clave se reconocen automáticamente. Los estados de exclusión de perfiles se actualizan en tiempo real en Adobe Journey Optimizer.
 
 Tenga en cuenta que si un cliente responde STOP a un mensaje de texto, el proveedor bloquea todos los SMS posteriores a partir de ese ID de remitente específico (código corto o número largo), incluidos los mensajes transaccionales. Para garantizar el envío ininterrumpido de SMS transaccionales, utilice un ID de remitente independiente que no se haya excluido anteriormente.
+
+
+>[!NOTE]
+>
+>Si planea utilizar SMS bidireccionales (responder con STOP, QUIT, etc.), asegúrese de que ha enviado primero al menos un SMS unidireccional para establecer el número de teléfono de asignación de perfiles. Las credenciales de proveedor caducadas o mal configuradas evitarán que las palabras clave entrantes actualicen el perfil del usuario, lo que dará como resultado registros de exclusión ausentes o retrasados.
+
 
 ## Listas de bloqueados {#sms-blocklists}
 
