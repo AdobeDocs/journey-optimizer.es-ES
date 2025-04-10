@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inAudience, función, expresión, recorrido
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 6e733e94e492fb46014e140b90e2aa47d64d584f
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 6%
+source-wordcount: '231'
+ht-degree: 5%
 
 ---
 
@@ -64,3 +64,8 @@ Devuelve un valor booleano.
 Explicación:
 
 La función devolverá **[!UICONTROL true]** si el individuo de la instancia de recorrido es parte de la audiencia de Adobe Experience Platform denominada &quot;hombres de más de 50 años&quot;, **[!UICONTROL false]** en caso contrario.
+
+
+>[!CAUTION]
+>
+>Al cambiar el nombre de una audiencia existente, no se actualiza automáticamente ninguna referencia a esa audiencia en las expresiones de recorrido. Si el nodo de condición utiliza inAudience(&#39;oldAudienceName&#39;), debe editar manualmente la expresión para utilizar el nuevo nombre. De lo contrario, se romperá el estado del recorrido.
