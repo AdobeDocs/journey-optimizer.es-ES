@@ -11,7 +11,7 @@ exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1469'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -61,8 +61,8 @@ Desde el botón **[!UICONTROL Más acciones]** situado junto a cada fragmento, p
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_folders"
->title="Organizar los fragmentos en carpetas"
->abstract="Utilice carpetas para categorizar y administrar los fragmentos según las necesidades de su organización."
+>title="Organice sus fragmentos en carpetas"
+>abstract="Utilice carpetas para clasificar y administrar sus fragmentos según las necesidades de su organización."
 
 >[!AVAILABILITY]
 >

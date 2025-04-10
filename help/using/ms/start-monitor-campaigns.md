@@ -9,19 +9,19 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 990d49202a790b5a117a7da665ed32f52f27b554
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Inicio y monitorización de sus campañas orquestadas {#start-monitor}
+# Inicio y monitorización de las campañas orquestadas {#start-monitor}
 
 <!--
 <audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
->title="Publicar campaña organizada"
->abstract="Para iniciar la campaña, debe publicarla. Asegúrese de que todas las advertencias se borren antes de la publicación."
+>title="Publicación de la campaña orquestada"
+>abstract="Para iniciar su campaña, debe publicarla. Asegúrese de que todas las advertencias se borran antes de la publicación."
 
 
 Una vez que haya creado las tareas orquestadas y diseñadas para realizarlas en el lienzo, puede publicarlas y monitorizar cómo se ejecutan.
