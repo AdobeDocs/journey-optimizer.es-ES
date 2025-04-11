@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inAudience, función, expresión, recorrido
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 6e733e94e492fb46014e140b90e2aa47d64d584f
+source-git-commit: 385e27fd4ea34f6a10b8da6b99a2c888edf9d57e
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '229'
 ht-degree: 5%
 
 ---
@@ -36,6 +36,11 @@ Solo las personas con el estado de participación de audiencia **Realized** se c
 `inAudience('audienceName') == true` significa que tiene un segmentMembership con el estado introducido.
 
 `inAudience('audienceName') == false` significa que usted tiene un segmentMembership del estado saliente.
+
+
+>[!IMPORTANT]
+>
+>Al cambiar el nombre de una audiencia existente, no se actualiza automáticamente ninguna referencia a esa audiencia en las expresiones de recorrido. Si el nodo de condición utiliza `inAudience('oldAudienceName')`, debe editar manualmente la expresión para utilizar el nuevo nombre. De lo contrario, se romperá el estado del recorrido.
 
 ## Categoría
 
@@ -65,7 +70,3 @@ Explicación:
 
 La función devolverá **[!UICONTROL true]** si el individuo de la instancia de recorrido es parte de la audiencia de Adobe Experience Platform denominada &quot;hombres de más de 50 años&quot;, **[!UICONTROL false]** en caso contrario.
 
-
->[!CAUTION]
->
->Al cambiar el nombre de una audiencia existente, no se actualiza automáticamente ninguna referencia a esa audiencia en las expresiones de recorrido. Si el nodo de condición utiliza inAudience(&#39;oldAudienceName&#39;), debe editar manualmente la expresión para utilizar el nuevo nombre. De lo contrario, se romperá el estado del recorrido.
