@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, grupos, grupo, subdominios, capacidad de entrega
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 11%
@@ -68,7 +68,7 @@ Al seleccionar direcciones IP, puede ver en la lista los registros PTR asociados
 
 >[!NOTE]
 >
->Si no se ha configurado ningún registro PTR para una IP, no se puede seleccionar esa IP. Póngase en contacto con su representante de Adobe para configurar el registro PTR de esa IP.
+>Si no se ha configurado ningún registro PTR para una IP, no se puede seleccionar esa IP. Póngase en contacto con su representante de Adobe para configurar el registro PTR de esa IP.<!--Now this only happens when first subdomain delegated to Adobe is with CNAME method.-->
 
 Después de crear un grupo de IP, la información de PTR se ve al pasar el ratón por encima de las direcciones IP que se muestran debajo de la lista desplegable del grupo de IP.
 
