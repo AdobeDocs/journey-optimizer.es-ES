@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Creación de un mensaje de texto"
->abstract="Para crear un mensaje de texto (SMS/MMS), añada una acción SMS en un recorrido o una campaña, y comience a personalizarlo con el editor de personalización."
+>abstract="Para crear un mensaje de texto (SMS/MMS), añada una acción de SMS en un recorrido o una campaña, y comience a personalizarlo con el editor de personalización."
 
 Puede diseñar y enviar mensajes de texto (SMS) y multimedia (MMS) con Adobe Journey Optimizer. Primero debe agregar una acción SMS en un recorrido o una campaña y luego definir el contenido del mensaje de texto, como se detalla a continuación. Adobe Journey Optimizer también ofrece funciones para probar los mensajes de texto antes de enviarlos, de modo que pueda comprobar el procesamiento, los atributos de personalización y todos los demás ajustes.
 

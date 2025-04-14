@@ -39,7 +39,7 @@ Comience a crear su campaña de varios pasos con las actividades relevantes:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="Actividad de SMS"
->abstract="La actividad de SMS facilita el envío de SMS dentro de la campaña de varios pasos, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de envío de SMS a un destinatario calculado dentro de la misma campaña de varios pasos. Puede combinar actividades del canal en el lienzo de la campaña de varios pasos para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad de SMS facilita el envío de SMS dentro de la campaña de varios pasos, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de envío de SMS a un destinatario calculado dentro de la misma campaña de varios pasos. Puede combinar actividades de canal en el lienzo de la campaña de varios pasos para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
@@ -49,12 +49,12 @@ Comience a crear su campaña de varios pasos con las actividades relevantes:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="Actividad de mensajería push de Android"
->abstract="La actividad Push de Android le permite enviar notificaciones push a Android como parte de una campaña de varios pasos. Permite enviar mensajes tanto únicos como recurrentes, lo que automatiza el envío de notificaciones push de Android a un destino predefinido dentro de la misma campaña de varios pasos. Puede combinar actividades del canal en el lienzo de la campaña de varios pasos para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad Push de Android le permite enviar notificaciones push a Android como parte de una campaña de varios pasos. Permite enviar mensajes tanto únicos como recurrentes, lo que automatiza el envío de notificaciones push de Android a un destino predefinido dentro de la misma campaña de varios pasos. Puede combinar actividades de canal en el lienzo de la campaña de varios pasos para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="Actividad de correo directo"
->abstract="La actividad de correo directo facilita el envío de correo directo dentro de la campaña de varios pasos, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de generación del archivo de extracción requerido por los proveedores de correo directo. Puede combinar actividades del canal en el lienzo de la campaña de varios pasos para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad de correo directo facilita el envío de correo directo dentro de la campaña de varios pasos, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de generación del archivo de extracción requerido por los proveedores de correo directo. Puede combinar actividades de canal en el lienzo de la campaña de varios pasos para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 Para configurar una entrega en el contexto de una campaña de varios pasos, siga los pasos a continuación:
 
