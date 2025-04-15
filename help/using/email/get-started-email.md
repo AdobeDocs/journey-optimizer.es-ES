@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: correo electrónico, inicio, creación, vista previa
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
+source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '190'
+ht-degree: 88%
 
 ---
 
@@ -68,6 +68,43 @@ Se pueden crear envíos de correo electrónico:
 </a>
 <div>
 <a href="email-settings.md"><strong>Configurar canal de correo electrónico</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../content-management/generative-email.md">
+<img alt="Asistente de IA" src="../assets/do-not-localize/email-generate.jpg">
+</a>
+<div><a href="../content-management/generative-email.md"><strong>AI Assistant para la generación de contenido</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="../content-management/fragments.md">
+<img alt="Fragmentos de contenido" src="../assets/do-not-localize/patterns.jpg">
+</a>
+<div>
+<a href="../content-management/fragments.md"><strong>Uso correo electrónico fragmentos contenido</strong></a>
+</div>
+<p></td>
+<td>
+<a href="../personalization/personalize.md">
+<img alt="Personalización de su contenido" src="../assets/do-not-localize/personalize.jpg">
+</a>
+<div>
+<a href="../personalization/personalize.md"><strong>Personaliza tu contenido correo electrónico</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../integrations/assets.md">
+<img alt="Combine sus soluciones" src="../assets/do-not-localize/colors.jpeg">
+</a>
+<div>
+<a href="../integrations/assets.md"><strong>Combinación Adobe Systems aplicaciones y soluciones</strong></a>
 </div>
 <p>
 </td>
