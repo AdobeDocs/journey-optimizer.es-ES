@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: consulta, colecciones, funciones, carga útil, recorrido
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '739'
 ht-degree: 1%
 
 ---
@@ -72,6 +72,13 @@ La función **[!UICONTROL all]** habilita la definición de un filtro en una col
 Por ejemplo, entre todos los usuarios de la aplicación, puede obtener los que usan IOS 13 (expresión booleana &quot;app used == IOS 13&quot;). El resultado de esta función es la lista filtrada que contiene elementos que coinciden con la expresión booleana (ejemplo: usuario de aplicación 1, usuario de aplicación 34, usuario de aplicación 432).
 
 En una actividad de condición de Data Source puede comprobar si el resultado de la función **[!UICONTROL all]** es nulo o no. También puede combinar esta función **[!UICONTROL all]** con otras funciones como **[!UICONTROL count]**. Para obtener más información, consulte [Actividad de la condición de Data Source](../condition-activity.md#data_source_condition).
+
+
+## Ejemplos
+
+>[!CAUTION]
+>
+>Se admite el uso de eventos de experiencia en expresiones/condiciones de recorrido, pero no se recomienda. Si su caso de uso requiere el uso de eventos de experiencia, considere métodos alternativos como [atributos calculados](../../audience/computed-attributes.md) o la creación de un segmento utilizando los eventos e incorporando ese segmento en [`inAudience` expresiones](../../building-journeys/functions/functioninaudience.md).
 
 **Ejemplo 1:**
 

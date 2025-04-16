@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expresión, condición, casos de uso, eventos
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '535'
 ht-degree: 1%
 
 ---
@@ -19,13 +19,18 @@ ht-degree: 1%
 
 El editor de expresiones avanzadas se puede utilizar para crear condiciones que le permitan filtrar a los usuarios en sus recorridos. Estas condiciones le permiten dirigirse a los usuarios en función del tiempo, la fecha, la ubicación, la duración o las acciones como la compra o el abandono de carros de compras para que se puedan reorientar en el recorrido.
 
->[!NOTE]
+>[!CAUTION]
 >
->Los eventos comienzan por @, las fuentes de datos con #.
+>Se admite el uso de eventos de experiencia en expresiones/condiciones de recorrido, pero no se recomienda. Si su caso de uso requiere el uso de eventos de experiencia, considere métodos alternativos como [atributos calculados](../../audience/computed-attributes.md) o la creación de un segmento utilizando los eventos e incorporando ese segmento en [`inAudience` expresiones](../../building-journeys/functions/functioninaudience.md).
+
 
 ## Creación de condiciones en eventos de experiencia
 
 El editor de expresiones avanzadas es obligatorio para realizar consultas en series temporales como una lista de compras o clics pasados en mensajes. Estas consultas no se pueden realizar con el editor simple.
+
+>[!NOTE]
+>
+>Los eventos comienzan por @, las fuentes de datos con #.
 
 Los eventos de experiencia se recuperan de Adobe Experience Platform como una colección en orden cronológico inverso, por lo tanto:
 
@@ -40,7 +45,7 @@ En primer lugar, los clientes de destino que navegaron por la tienda en línea, 
 
 <!--**This expression looks for a specified value in a string value:**
 
-`In (“addToCart”, #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`-->
 
 **Esta expresión busca todos los eventos de este usuario especificados en los últimos siete días:**
 

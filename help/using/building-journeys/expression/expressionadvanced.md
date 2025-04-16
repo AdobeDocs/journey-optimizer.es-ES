@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: editor de expresiones, datos, recorrido
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 60%
+source-wordcount: '734'
+ht-degree: 57%
 
 ---
 
@@ -69,6 +69,11 @@ Esta pantalla le permite escribir manualmente su expresión.
 En la parte izquierda de la pantalla se muestran los campos y las funciones disponibles:
 
 * **[!UICONTROL Eventos]**: elija uno de los campos recibidos del evento entrante. La lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido. [Más información](../../event/about-events.md)
+
+  >[!CAUTION]
+  >
+  >Se admite el uso de eventos de experiencia en expresiones/condiciones de recorrido, pero no se recomienda. Si su caso de uso requiere el uso de eventos de experiencia, considere métodos alternativos como [atributos calculados](../../audience/computed-attributes.md) o la creación de un segmento utilizando los eventos e incorporando ese segmento en [`inAudience` expresiones](../../building-journeys/functions/functioninaudience.md).
+
 * **[!UICONTROL Audiencias]**: si ha eliminado un evento de **[!UICONTROL calificación de audiencias]**, elija la audiencia que desee utilizar en la expresión. [Más información](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Fuentes de datos]**: elija entre la lista de campos disponibles en los grupos de campos de las fuentes de datos. [Más información](../../datasource/about-data-sources.md)
 * **[!UICONTROL propiedades de Recorrido]**: esta sección reagrupa los campos técnicos relacionados con el recorrido de un perfil determinado. [Más información](journey-properties.md)
