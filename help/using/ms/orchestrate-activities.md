@@ -1,26 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creación de campañas de varios pasos con Adobe Journey Optimizer
-description: Obtenga información sobre cómo crear campañas de varios pasos con Adobe Journey Optimizer
+title: Creación de campañas orquestadas con Adobe Journey Optimizer
+description: Aprenda a crear campañas orquestadas con Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f73d847c1d335260a0198e844d237a652e346729
+exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 1%
 
 ---
 
-# Organización de actividades de campaña de varios pasos {#orchestrate}
+# Organización de actividades de campaña orquestadas {#orchestrate}
 
-Una vez que haya [creado una campaña de varios pasos](gs-campaign-creation.md), ya sea desde el menú de campaña de varios pasos o dentro de una campaña, puede empezar a orquestar las diferentes tareas que realizará. Para ello, se proporciona un lienzo visual, que le permite construir un diagrama de campaña de varios pasos. Dentro de este diagrama, puede añadir varias actividades y conectarlas en un orden secuencial.
+Una vez que haya [creado una campaña orquestada](gs-campaign-creation.md), ya sea desde el menú de campaña orquestada o dentro de una campaña, puede empezar a orquestar las diferentes tareas que realizará. Para ello, se proporciona un lienzo visual, que le permite construir un diagrama de campaña orquestado. Dentro de este diagrama, puede añadir varias actividades y conectarlas en un orden secuencial.
 
 ## Añadir actividades {#add}
 
-En esta fase de la configuración, el diagrama se muestra con un icono de inicio que representa el principio de la campaña de varios pasos. Para agregar su primera actividad, haga clic en el botón **+** conectado al icono de inicio.
+En esta fase de la configuración, el diagrama se muestra con un icono de inicio que representa el principio de la campaña orquestada. Para agregar su primera actividad, haga clic en el botón **+** conectado al icono de inicio.
 
-Aparecerá una lista de actividades que se pueden agregar al diagrama. Las actividades disponibles dependen de su posición en el diagrama de campaña de varios pasos. Por ejemplo, al agregar la primera actividad, puede iniciar la campaña de varios pasos segmentando una audiencia, dividiendo la ruta de la campaña de varios pasos o configurando una actividad **Wait** para retrasar la ejecución de la campaña de varios pasos. Por otro lado, después de una actividad **Generar audiencia**, puede refinar el segmento con actividades de segmentación, enviar una entrega a su audiencia con actividades de canal u organizar el proceso de campaña de varios pasos con actividades de control de flujo.
+Aparecerá una lista de actividades que se pueden agregar al diagrama. Las actividades disponibles dependen de su posición dentro del diagrama de campaña orquestada. Por ejemplo, al agregar la primera actividad, puede iniciar la campaña orquestada segmentando una audiencia, dividiendo la ruta de la campaña orquestada o estableciendo una actividad **Wait** para retrasar la ejecución de la campaña orquestada. Por otro lado, después de una actividad **Generar audiencia**, puede refinar el segmento con actividades de segmentación, enviar una entrega a la audiencia con actividades de canal u organizar el proceso de campaña orquestado con actividades de control de flujo.
 
 ![](assets/workflow-start.png){zoomable="yes"}
 
@@ -28,13 +29,13 @@ Una vez que se ha agregado una actividad al diagrama, aparece un panel derecho q
 
 ![](assets/workflow-configure-activities.png){zoomable="yes"}
 
-Repita este proceso para agregar tantas actividades como desee según las tareas que desee que realice la campaña de varios pasos. Tenga en cuenta que también puede insertar una nueva actividad entre dos actividades. Para ello, haga clic en el botón **+** en la transición entre las actividades, seleccione la actividad deseada y configúrela en el panel derecho.
+Repita este proceso para agregar tantas actividades como desee según las tareas que desee que realice la campaña orquestada. Tenga en cuenta que también puede insertar un nuevo actividad entre dos actividades. Para ello, haga clic en el botón **+** en la transición entre las actividades, seleccione la actividad deseada y configúrela en el panel derecho.
 
-Para quitar una actividad, selecciónela en el lienzo y haga clic en el icono **Eliminar** en las propiedades de la actividad.
+Para eliminar un actividad, selecciónelo en el lienzo y haga clic en el icono Eliminar **** ubicado en las propiedades de actividad.
 
 >[!TIP]
 >
->Tiene la opción de personalizar el nombre de las transiciones entre cada actividad. Para ello, seleccione la transición y cambie su etiqueta en el panel derecho.
+>Tiene la opción de personalizar el nombre de las transiciones entre cada actividad. Para ello, seleccione el transición y cambie su etiqueta en el panel derecho.
 
 ## La barra de herramientas {#toolbar}
 
@@ -57,14 +58,14 @@ Al agregar actividades, los botones de acción están disponibles en el panel de
 Puede hacer lo siguiente:
 
 * **Eliminar** la actividad del lienzo.
-* **Deshabilitar/Habilitar** la actividad. Cuando se ejecuta la campaña de varios pasos, las actividades deshabilitadas y las siguientes actividades en la misma ruta no se ejecutan y la campaña de varios pasos se detiene.
-* **Pausar/reanudar** la actividad. Cuando se ejecuta la campaña de varios pasos, se pausa en la actividad pausada. No se ejecutan la tarea correspondiente ni todas las que la siguen en la misma ruta.
+* **Deshabilitar/Habilitar** la actividad. Cuando se ejecuta la campaña orquestada, las actividades deshabilitadas y las siguientes actividades en la misma ruta no se ejecutan y la campaña orquestada se detiene.
+* **Pausar/reanudar** la actividad. Cuando se ejecuta la campaña orquestada, se pausa en la actividad pausada. No se ejecutan la tarea correspondiente ni todas las que la siguen en la misma ruta.
 * **Copie** la actividad. Consulte [esta sección](#copy).
 * **Mover** una actividad y todos sus nodos secundarios a otra transición. Ver [esta sección](#move)
-* Acceda a las **opciones de ejecución** de la actividad.
-* Acceda a los **registros y tareas** de la actividad.
+* Acceda a las opciones **de ejecución de** la actividad.
+* Acceda a los &quot;Logs&quot; y a las **tareas** del actividad.
 
-Varias actividades **Targeting**, como **Combine** o **Deduplication**, le permiten procesar la población restante e incluirla en una transición saliente adicional. Por ejemplo, si está usando una actividad **Split**, el complemento consiste en la población que no coincide con ninguno de los subconjuntos definidos anteriormente. Para usar esta capacidad, active la opción **Generar complemento**.
+Varias **actividades de segmentación** , como **Combinar** o **Deduplicar,** le permiten procesar la población restante e incluirla en una transición saliente adicional. Por ejemplo, si está utilizando un **actividad dividido** , el complemento consiste en la población que no coincide con ninguno de los subconjuntos definidos anteriormente. Para utilizar esta capacidad, active la **opción Generar complemento** .
 
 ![](assets/workflow-split-complement.png)
 
@@ -72,7 +73,7 @@ Varias actividades **Targeting**, como **Combine** o **Deduplication**, le permi
 
 ### Copiar y pegar actividades {#copy}
 
-Puede copiar actividades de campaña de varios pasos y pegarlas en cualquier flujo de trabajo. La campaña de varios pasos de destino puede estar en una pestaña diferente del explorador.
+Puede copiar actividades de campañas orquestadas y pegarlas en cualquier flujo de trabajo. La campaña orquestada de destino puede estar en una pestaña diferente del explorador.
 
 Para copiar actividades, tiene dos opciones:
 
@@ -90,15 +91,15 @@ Para pegar las actividades copiadas, haga clic en el botón **+** de una transic
 
 ### Mover actividades y sus nodos secundarios {#move}
 
-Journey Optimizer le permite mover una actividad junto con todo el contenido de sus nodos secundarios (incluidas todas las transiciones y actividades dentro de ella) al final de otra transición dentro de la misma campaña de varios pasos.
+Journey Optimizer le permite mover una actividad junto con todo el contenido de sus nodos secundarios (incluidas todas las transiciones y actividades dentro de ella) al final de otra transición dentro de la misma campaña orquestada.
 
 Este proceso desconecta la actividad y todo lo que se encuentra en su transición saliente de la ubicación inicial, lo que la mueve a la nueva transición objetivo.
 
 Para mover una actividad:
 
 1. Seleccione la actividad que desee mover.
-1. En el panel de propiedades de la actividad, haga clic en el botón **Mover**.
-1. Seleccione la transición en la que desea colocar la actividad y su transición saliente y, a continuación, confirme la selección.
+1. En el panel de propiedades del actividad, haga clic en el botón **Mover** botón.
+1. Seleccione la transición donde desea colocar el actividad y su transición saliente y, a continuación, confirme la selección.
 
 ![](assets/activity-move.png)
 
@@ -112,11 +113,11 @@ Todas las actividades permiten administrar sus opciones de ejecución. Seleccion
 
 El campo **Execution** le permite definir la acción que debe llevarse a cabo cuando se inicia la tarea.
 
-El campo **Duración máxima de la ejecución** le permite especificar una duración como &quot;30 segundos&quot; o &quot;1h&quot;. Si la actividad no termina después de que haya transcurrido la duración especificada, se activa una alerta. Esto no afecta al funcionamiento de la campaña de varios pasos.
+El campo **Duración máxima de la ejecución** le permite especificar una duración como &quot;30 segundos&quot; o &quot;1h&quot;. Si la actividad no termina después de que haya transcurrido la duración especificada, se activa una alerta. Esto no afecta al funcionamiento de la campaña orquestada.
 
 El campo **Zona horaria** le permite seleccionar la zona horaria de la actividad. Adobe Journey Optimizer le permite administrar las diferencias horarias entre varios países en la misma instancia. La configuración aplicada se configura cuando se crea la instancia.
 
-**El campo Afinidad** le permite forzar la ejecución de una campaña de varios pasos o de una actividad de campaña de varios pasos en un equipo concreto. Para ello, debe especificar una o varias afinidades para la campaña o actividad de varios pasos en cuestión.
+**El campo Afinidad** le permite forzar la ejecución de una campaña orquestada o de una actividad de campaña orquestada en un equipo concreto. Para ello, debe especificar una o varias afinidades para la campaña o actividad orquestada en cuestión.
 
 El campo **Comportamiento** le permite definir el procedimiento a seguir si se utilizan tareas asincrónicas.
 
@@ -130,23 +131,23 @@ El **script de inicialización** le permite inicializar variables o modificar pr
 
 ## Ejemplo {#example}
 
-Este es un ejemplo de campaña de varios pasos diseñada para enviar un correo electrónico a todos los clientes (que no sean clientes de VIP) con un correo electrónico que estén interesados en las máquinas de café.
+Este es un ejemplo de campaña orquestada diseñada para enviar un correo electrónico a todos los clientes (que no sean clientes de VIP) con un correo electrónico que estén interesados en las máquinas de café.
 
 ![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
 Para ello, se han añadido las actividades siguientes:
 
-* Una actividad **[!UICONTROL Fork]** que divide la campaña de varios pasos en tres rutas (una para cada conjunto de clientes),
-* **[!UICONTROL Cree audiencias]** para segmentar los tres grupos de clientes:
+* Una actividad **[!UICONTROL Fork]** que divide la campaña orquestada en tres rutas (una para cada conjunto de clientes),
+* **[!UICONTROL Cree audiencia]** actividades para destino los tres grupos de clientes:
 
    * Clientes con un correo electrónico,
-   * Clientes que pertenecen a la audiencia preexistente &quot;Interesado en las máquinas de café&quot;,
+   * Clientes pertenecientes a la(s) máquina(s) preexistente &quot;Interrested in Coffee Machine(s)&quot; audiencia,
    * Clientes que pertenecen a la audiencia preexistente &quot;VIP o premio&quot;.
 
 * Una actividad **[!UICONTROL Combine]** que agrupa a clientes con un mensaje de correo electrónico y a aquellos interesados en las máquinas de café,
 * Una actividad **[!UICONTROL Combine]** que excluye clientes de VIP,
 * Una actividad **[!UICONTROL Email delivery]** que envía un mensaje de correo electrónico a los clientes resultantes.
 
-Una vez que haya completado la campaña de varios pasos, agregue una actividad **[!UICONTROL End]** al final del diagrama. Esta actividad le permite marcar visualmente el final de un flujo de trabajo y no tiene impacto funcional.
+Una vez que haya completado la campaña orquestada, agregue una actividad **[!UICONTROL End]** al final del diagrama. Esta actividad le permite marcar visualmente el final de un flujo de trabajo y no tiene impacto funcional.
 
-Después de diseñar correctamente el diagrama de campaña de varios pasos, puede ejecutar la campaña de varios pasos y realizar un seguimiento del progreso de sus diversas tareas. [Aprenda a iniciar una campaña de varios pasos y monitorice su ejecución](start-monitor-campaigns.md)
+Después de diseñar correctamente el diagrama de campaña orquestada, puede ejecutar la campaña orquestada y realizar un seguimiento del progreso de sus distintas tareas. [Aprenda a iniciar una campaña orquestada y a supervisar su ejecución](start-monitor-campaigns.md)

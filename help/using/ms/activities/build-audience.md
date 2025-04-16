@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Uso de la actividad Generar audiencia
-description: Aprenda a utilizar la actividad Generar audiencia en una campaña de varios pasos
+description: Aprenda a utilizar la actividad Generar audiencia en una campaña organizada
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 64%
+ht-degree: 45%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Actividad generar público"
->abstract="La actividad **Crear público** le permite definir el público que participará en la campaña de varios pasos. Cuando se envían mensajes en el contexto de una campaña de varios pasos, el público del mensaje no se define en la actividad del canal, sino en la actividad **Crear publico**."
+>abstract="La actividad **Generar audiencia** le permite definir la audiencia que entrará en la campaña orquestada. Cuando se envían mensajes en el contexto de una campaña orquestada, la audiencia del mensaje no se define en la actividad del canal, sino en la actividad **Generar audiencia**."
 
-La actividad **Generar público destinatario** es una actividad de **Segmentación**. Esta actividad le permite definir la audiencia que entra en la campaña de varios pasos. Cuando se envían mensajes en el contexto de una campaña de varios pasos, el público del mensaje no se define en la actividad del canal, sino en la actividad **Crear publico**.
+La actividad **Generar público destinatario** es una actividad de **Segmentación**. Esta actividad le permite definir la audiencia que entra en la campaña orquestada. Cuando se envían mensajes en el contexto de una campaña orquestada, la audiencia del mensaje no se define en la actividad del canal, sino en la actividad **Generar audiencia**.
 
 Para definir la población del público destinatario, puede hacer lo siguiente:
 
@@ -74,6 +74,6 @@ Para seleccionar un público destinatario existente, siga estos pasos:
 
 ## Ejemplos{#build-audience-examples}
 
-Este es un ejemplo de una campaña de varios pasos con dos actividades **Generar audiencia**. El primero se dirige al público de jugadores de póquer, seguido de un envío por correo electrónico. El segundo se dirige al público de clientes VIP, seguido de un envío por SMS.
+Este es un ejemplo de una campaña orquestada con dos actividades **Generar audiencia**. El primero se dirige al público de jugadores de póquer, seguido de un envío por correo electrónico. El segundo se dirige al público de clientes VIP, seguido de un envío por SMS.
 
 ![](../assets/workflow-audience-example.png)

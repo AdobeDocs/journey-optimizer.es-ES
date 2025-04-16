@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabajo con esquemas en campañas de varios pasos
-description: Aprenda a crear y administrar esquemas en sus campañas de varios pasos
+title: Trabajo con esquemas en campañas orquestadas
+description: Aprenda a crear y administrar esquemas en sus campañas orquestadas
 hide: true
 hidefromtoc: true
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 5%
 
 ---
-
 
 # Usar esquemas {#ms-schemas}
 

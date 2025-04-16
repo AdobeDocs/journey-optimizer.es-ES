@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Uso de la actividad División
-description: Aprenda a utilizar la actividad Split en una campaña de varios pasos
+description: Aprenda a utilizar la actividad Split en una campaña orquestada
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 81%
+ht-degree: 79%
 
 ---
 
@@ -27,7 +27,7 @@ La actividad **División** es una actividad **Segmentación** que permite segmen
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="Segmentos para la actividad división"
->abstract="Añada todos los subconjuntos que quiera para segmentar la población entrante.<br/></br>Cuando se ejecuta la actividad **División**, la población se segmenta en los diferentes subconjuntos en el orden en el que se añaden a la actividad. Antes de iniciar la campaña de varios pasos, asegúrese de haber ordenado los subconjuntos en el orden que mejor se adapte a sus necesidades mediante los botones de flecha."
+>abstract="Añada todos los subconjuntos que quiera para segmentar la población entrante.<br/></br>Cuando se ejecuta la actividad **División**, la población se segmenta en los diferentes subconjuntos en el orden en el que se añaden a la actividad. Antes de iniciar la campaña orquestada, asegúrese de haber ordenado los subconjuntos en el orden que se adapte a sus necesidades mediante los botones de flecha."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
@@ -66,7 +66,7 @@ La actividad **División** es una actividad **Segmentación** que permite segmen
 
 Siga estos pasos para configurar la actividad **División**:
 
-1. Agregue una actividad **Split** a su campaña de varios pasos.
+1. Agregue una actividad **Split** a su campaña orquestada.
 
 1. El panel de configuración de actividad se abre con un subconjunto predeterminado. Haga clic en el botón **Añadir segmento** para añadir tantos subconjuntos como desee para segmentar la población entrante.
 
@@ -76,9 +76,9 @@ Siga estos pasos para configurar la actividad **División**:
    >
    >Cuando se ejecuta la actividad **Split**, la población se segmenta en los diferentes subconjuntos en el orden en que se agregan a la actividad. Por ejemplo, si el primer subconjunto recupera el 70 % de la población inicial, el siguiente subconjunto añadido aplicará sus criterios de selección solo al 30 % restante, y así sucesivamente.
    >
-   >Antes de iniciar la campaña de varios pasos, asegúrese de haber solicitado los subconjuntos en el orden que se adapte a sus necesidades. Para ello, utilice los botones de flecha para cambiar la posición de un subconjunto.
+   >Antes de iniciar la campaña orquestada, asegúrese de haber encargado los subconjuntos en el orden que se adapte a sus necesidades. Para ello, utilice los botones de flecha para cambiar la posición de un subconjunto.
 
-1. Una vez creados los subconjuntos, la actividad muestra de forma predeterminada tantas transiciones de salida como subconjuntos. Se recomienda encarecidamente cambiar la etiqueta de cada subconjunto para identificarlo fácilmente en el lienzo de campaña de varios pasos.
+1. Una vez creados los subconjuntos, la actividad muestra de forma predeterminada tantas transiciones de salida como subconjuntos. Se recomienda encarecidamente cambiar la etiqueta de cada subconjunto para identificarlo fácilmente en el lienzo de campaña orquestado.
 
 1. Configure cómo debe filtrar cada subconjunto la población entrante. Para ello, siga estos pasos:
 
@@ -88,7 +88,7 @@ Siga estos pasos para configurar la actividad **División**:
 
    1. Para limitar el número de perfiles seleccionados por el subconjunto, active la opción **[!UICONTROL Habilitar límite]** y especifique el número o los porcentajes de la población que desea incluir.
 
-   1. Para deshabilitar una transición si la población entrante está vacía, active la opción **[!UICONTROL Omitir transición vacía]**. Si ningún perfil coincide con el subconjunto, la campaña de varios pasos no pasará a la siguiente actividad.
+   1. Para deshabilitar una transición si la población entrante está vacía, active la opción **[!UICONTROL Omitir transición vacía]**. Si ningún perfil coincide con el subconjunto, la campaña orquestada no pasará a la siguiente actividad.
 
       ![](../assets/workflow-split-subset.png)
 
@@ -105,7 +105,7 @@ Siga estos pasos para configurar la actividad **División**:
    * Cuando el cuadro no está marcado, la actividad de división garantiza que los destinatarios no puedan estar presentes en varias transiciones de salida, aunque cumplan los criterios de varios subconjuntos. Los destinatarios se encuentran en el destino de la primera pestaña con criterios coincidentes.
    * Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. La práctica recomendada es utilizar criterios exclusivos.
 
-La actividad está configurada. En la ejecución de la campaña en varios pasos, la población se segmenta en los diferentes subconjuntos, en el orden en que se hayan agregado a la actividad.
+La actividad está configurada. En la ejecución de la campaña orquestada, la población se segmenta en los diferentes subconjuntos, en el orden en que se hayan agregado a la actividad.
 
 ## Ejemplo{#split-example}
 

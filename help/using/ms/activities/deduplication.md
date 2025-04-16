@@ -5,7 +5,8 @@ title: Uso de la actividad de anulación de duplicación
 description: Aprenda a utilizar la actividad de anulación de duplicación
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 57%
@@ -42,7 +43,7 @@ Siga estos pasos para configurar la actividad **Deduplication**:
 
 ![](../assets/workflow-deduplication.png)
 
-1. Agregue una actividad **Deduplication** a su campaña de varios pasos.
+1. Agregue una actividad **Deduplication** a su campaña orquestada.
 
 1. En la sección **Campos para identificar duplicados**, haga clic en el botón **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán en primer lugar.
 

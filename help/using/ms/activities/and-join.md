@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Uso de la actividad AND-join
-description: Aprenda a utilizar la actividad AND-join en una campaña de varios pasos
+description: Aprenda a utilizar la actividad AND-join en una campaña organizada
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 77%
+ht-degree: 65%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="Actividad AND-join"
->abstract="La actividad **And-join** le permite sincronizar varias ramas de ejecución de una campaña con varios pasos. Se activa una vez que han finalizado todas las actividades anteriores. Esto le permite asegurarse de que determinadas actividades se han completado antes de continuar con la ejecución de la campaña de varios pasos."
+>abstract="La actividad **And-join** le permite sincronizar varias ramas de ejecución de una campaña orquestada. Se activa una vez que han finalizado todas las actividades anteriores. Esto le permite asegurarse de que ciertas actividades han finalizado antes de continuar ejecutándose la campaña orquestada."
 
-La actividad **Combinación-Y** es una actividad de **Control de flujo**. Permite sincronizar varias ramas de ejecución de una campaña de varios pasos.
+La actividad **Combinación-Y** es una actividad de **Control de flujo**. Permite sincronizar varias ramas de ejecución de una campaña orquestada.
 
-Esta actividad solo activa su transición saliente una vez que se activan todas las transiciones entrantes; es decir, una vez que todas las actividades anteriores han finalizado. Esto le permite asegurarse de que ciertas actividades han finalizado antes de continuar ejecutando la campaña de varios pasos.
+Esta actividad solo activa su transición saliente una vez que se activan todas las transiciones entrantes; es decir, una vez que todas las actividades anteriores han finalizado. Esto le permite asegurarse de que ciertas actividades han finalizado antes de continuar ejecutándose la campaña orquestada.
 
 ## Configuración de la actividad And-join{#and-join-configuration}
 
@@ -42,6 +42,6 @@ Siga estos pasos para configurar la actividad **Combinación-Y**:
 
 ## Ejemplo{#and-join-example}
 
-El siguiente ejemplo muestra dos ramas de campaña de varios pasos con un envío de correo electrónico y SMS. La actividad Combinación-Y se activará cuando ambas transiciones entrantes estén habilitadas. Las notificaciones push solo se envían una vez finalizados ambos envíos.
+El siguiente ejemplo muestra dos ramas de campaña orquestadas con un envío de correo electrónico y SMS. La actividad Combinación-Y se activará cuando ambas transiciones entrantes estén habilitadas. Las notificaciones push solo se envían una vez finalizados ambos envíos.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}

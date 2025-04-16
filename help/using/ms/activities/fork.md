@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Uso de la actividad Fork
-description: Aprenda a utilizar la actividad Bifurcación en una campaña de varios pasos
+description: Aprenda a utilizar la actividad Fork en una campaña orquestada
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 70%
@@ -33,7 +34,7 @@ Siga estos pasos para configurar la actividad **Tenedor**:
 
 ![](../assets/workflow-fork.png)
 
-1. Agregue una actividad **Fork** a su campaña de varios pasos.
+1. Agregue una actividad **Fork** a su campaña orquestada.
 1. Haga clic en **Agregar transición** para añadir una nueva transición saliente. De forma predeterminada, se definen dos transiciones.
 1. Añada una etiqueta a cada una de las transiciones.
 

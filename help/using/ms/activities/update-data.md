@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilice la actividad Update data en sus campañas de varios pasos
+title: Utilice la actividad Update data en sus campañas orquestadas
 description: Aprenda a utilizar la actividad de actualización de datos
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 68e7c929-5f07-4d5a-9831-690e071947f8
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 24%
@@ -32,7 +33,7 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ## Configure la actividad Update data{#update-data-configuration}
 
-Para configurar la actividad **Actualizar datos**, comience agregando la actividad a la campaña de varios pasos y defina una etiqueta.
+Para configurar la actividad **Actualizar datos**, comience agregando la actividad a la campaña orquestada y defina una etiqueta.
 
 ![](../assets/workflow-update-data.png)
 
@@ -77,6 +78,6 @@ Durante un tipo de operación **Insert or update**, puede seleccionar individual
 
 Las dos últimas opciones permiten realizar acciones específicas:
 
-* **Generar una transición saliente**: crea una transición saliente que se activará al final de la ejecución. La actualización normalmente indica el final de una campaña de objetivos de varios pasos y, por lo tanto, la opción no está activada de forma predeterminada.
+* **Generar una transición saliente**: crea una transición saliente que se activará al final de la ejecución. La actualización normalmente indica el final de una campaña orquestada de objetivos y, por lo tanto, la opción no se activa de forma predeterminada.
 
-* **Generar una transición saliente para los rechazos**: crea una transición saliente que contiene registros que no se han procesado correctamente después de la actualización (por ejemplo, si hay un duplicado). Por lo general, la actualización marca el final de una campaña de objetivos en varios pasos y, por lo tanto, la opción no está activada de forma predeterminada.
+* **Generar una transición saliente para los rechazos**: crea una transición saliente que contiene registros que no se han procesado correctamente después de la actualización (por ejemplo, si hay un duplicado). Por lo general, la actualización marca el final de una campaña orquestada de objetivos y, por lo tanto, la opción no está activada de forma predeterminada.

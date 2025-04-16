@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Uso de la actividad Cargar archivo
-description: Aprenda a utilizar la actividad Cargar archivo en una campaña de varios pasos
+description: Aprenda a utilizar la actividad Cargar archivo en una campaña orquestada
 hide: true
 hidefromtoc: true
 exl-id: ae0dc980-2361-4c3b-a68e-ae0bb5dc0a26
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 41%
@@ -63,7 +63,7 @@ La configuración de la actividad **Cargar archivo** implica dos pasos. En prime
 
 Siga estos pasos para configurar el archivo de muestra utilizado para definir la estructura de archivos esperada:
 
-1. Agregue una actividad **Cargar archivo** a su campaña de varios pasos.
+1. Agregue una actividad **Cargar archivo** a su campaña orquestada.
 
 1. Seleccione el archivo de muestra que se utilizará para definir la estructura de archivos esperada. Para ello, haga clic en el botón **Seleccionar archivo** en la sección **[!UICONTROL Archivo de muestra]** y seleccione el archivo local que desea utilizar.
 
@@ -115,7 +115,7 @@ Siga estos pasos para configurar el archivo de muestra utilizado para definir la
 
 >[!CAUTION]
 >
->Antes de cargar el archivo de destino, asegúrese de que se adhiera al formato del archivo de muestra. Cualquier discrepancia en el formato de archivo, la estructura de columnas o el número de columnas puede provocar errores durante la ejecución de la campaña en varios pasos.
+>Antes de cargar el archivo de destino, asegúrese de que se adhiera al formato del archivo de muestra. Cualquier discrepancia en el formato de archivo, la estructura de columnas o el número de columnas puede provocar errores durante la ejecución de la campaña organizada.
 
 Para definir el archivo de destino que se va a cargar, siga estos pasos:
 
@@ -150,13 +150,13 @@ Para definir el archivo de destino que se va a cargar, siga estos pasos:
 
 1. En la sección **Reject management**, especifique cómo debe comportarse la actividad en caso de errores:
 
-   * En el campo **[!UICONTROL Número de errores permitidos]**, especifique el número máximo de errores autorizados al procesar el archivo que se va a cargar. Por ejemplo, si el valor se establece en &quot;20&quot;, la ejecución de la campaña de varios pasos fallará si hay más de 20 errores al cargar el archivo.
+   * En el campo **[!UICONTROL Número de errores permitidos]**, especifique el número máximo de errores autorizados al procesar el archivo que se va a cargar. Por ejemplo, si el valor se establece en &quot;20&quot;, la ejecución de la campaña orquestada falla si hay más de 20 errores al cargar el archivo.
 
    * Para evitar errores al cargar el archivo, active la opción **[!UICONTROL Conservar rechazos en un archivo]** y especifique el nombre que desee para el archivo en el campo **[!UICONTROL Archivo rechazado]**.
 
      Después de activar esta opción, se agrega una transición de salida adicional denominada &quot;Complemento&quot; después de la actividad. Cualquier error que se produzca durante la importación se almacenará en el archivo especificado del servidor.
 
-1. Para eliminar el archivo cargado del servidor después de ejecutar la campaña de varios pasos, active la opción **[!UICONTROL Eliminar archivo después de importar]**.
+1. Para eliminar el archivo cargado del servidor después de ejecutar la campaña orquestada, active la opción **[!UICONTROL Eliminar archivo después de importar]**.
 
    ![](../assets/workflow-load-file-options.png)
 

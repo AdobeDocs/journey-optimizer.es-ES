@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Uso de la actividad de reconciliación
-description: Aprenda a utilizar la actividad de reconciliación en una campaña de varios pasos
+description: Aprenda a utilizar la actividad de reconciliación en una campaña organizada
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 42%
@@ -39,7 +39,7 @@ La actividad **Reconciliation** es una actividad **Targeting** que permite defin
 
 ## Prácticas recomendadas {#reconciliation-best-practices}
 
-Aunque la actividad **Enrichment** le permite definir datos adicionales para procesarlos en su campaña de varios pasos (puede usar una actividad **Enrichment** para combinar datos procedentes de varios conjuntos o para crear vínculos a un recurso temporal), la actividad **Reconciliation** le permite vincular datos no identificados a recursos existentes.
+Aunque la actividad **Enrichment** le permite definir datos adicionales para procesarlos en su campaña orquestada (puede usar una actividad **Enrichment** para combinar datos procedentes de varios conjuntos o para crear vínculos a un recurso temporal), la actividad **Reconciliation** le permite vincular datos no identificados a recursos existentes.
 
 >[!NOTE]
 >La operación de reconciliación implica que los datos de las dimensiones vinculadas ya están en la base de datos.  Por ejemplo, si importa un archivo de compras que muestre qué producto se compró, a qué hora, por qué cliente, etc., el producto y el cliente ya deben existir en la base de datos.
@@ -75,7 +75,7 @@ Aunque la actividad **Enrichment** le permite definir datos adicionales para pro
 
 Siga estos pasos para configurar la actividad **Reconciliation**:
 
-1. Agregue una actividad **Reconciliación** a su campaña de varios pasos.
+1. Agregue una actividad **Reconciliation** a su campaña orquestada.
 
 1. Seleccionar la nueva dimensión de segmentación. Una dimensión permite definir la población objetivo: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc.
 
@@ -95,9 +95,9 @@ De forma predeterminada, los datos no conciliados se mantienen en la transición
 
 ## Ejemplo {#reconciliation-example}
 
-En el siguiente ejemplo se muestra una campaña de varios pasos que crea una audiencia de perfiles directamente desde un archivo importado que contiene nuevos clientes. Se compone de las siguientes actividades:
+En el siguiente ejemplo se muestra una campaña orquestada que crea una audiencia de perfiles directamente a partir de un archivo importado que contiene nuevos clientes. Se compone de las siguientes actividades:
 
-La campaña de varios pasos está diseñada de la siguiente manera:
+La campaña orquestada está diseñada de la siguiente manera:
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)
 
@@ -121,4 +121,4 @@ Se crea con las siguientes actividades:
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
-* Una actividad [Guardar audiencia](save-audience.md) para crear una audiencia nueva basada en estas actualizaciones. También puede reemplazar la actividad **Guardar audiencia** por una actividad **Finalizar** si no es necesario crear o actualizar una audiencia específica. Los perfiles de destinatario se actualizan en cualquier caso al ejecutar la campaña de varios pasos.
+* Una actividad [Guardar audiencia](save-audience.md) para crear una audiencia nueva basada en estas actualizaciones. También puede reemplazar la actividad **Guardar audiencia** por una actividad **Finalizar** si no es necesario crear o actualizar una audiencia específica. Los perfiles de destinatario se actualizan en cualquier caso al ejecutar la campaña orquestada.
