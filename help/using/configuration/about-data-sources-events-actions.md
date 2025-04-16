@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configuración, recorrido, tablero, fuentes de datos, eventos, acciones
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 62%
+source-wordcount: '457'
+ht-degree: 58%
 
 ---
 
@@ -23,9 +23,11 @@ ht-degree: 62%
 >title="Acerca de la configuración de recorrido"
 >abstract="Para enviar mensajes con recorridos, debe configurar fuentes de datos, eventos y acciones. Las fuentes de datos permiten definir una conexión a un sistema para recuperar información adicional que se utilizará en los recorridos como, por ejemplo, en las condiciones. Los eventos permiten activar sus recorridos cuando se recibe un evento. Las acciones personalizadas permiten conectarse a un sistema de terceros para enviar sus mensajes. Si utiliza las funciones de mensaje integradas de Journey Optimizer, no es necesario configurar una acción."
 
-Para enviar mensajes con recorridos, debes configurar **[!UICONTROL Fuentes de datos]**, **[!UICONTROL Eventos]** y **[!UICONTROL Acciones]**.
+Para enviar mensajes con recorridos, es necesario configurar **[!UICONTROL Fuentes de datos]**, **[!UICONTROL Eventos]** y **[!UICONTROL Acciones]**.
 
 ![](assets/admin-menu.png)
+
+También puede configurar conexiones a sistemas externos mediante fuentes de datos y acciones personalizadas. Esto le permite, por ejemplo, enriquecer sus recorridos con datos procedentes de un sistema de reservas externo o enviar mensajes mediante un sistema de terceros como Epsilon o Facebook. Aprenda a [integrar Journey Optimizer con sistemas externos](external-systems.md).
 
 ## Fuentes de datos {#data-sources}
 

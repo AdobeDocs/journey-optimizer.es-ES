@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: analytics, integración, sdk web, plataforma
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 5%
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 # Trabajo con datos de Adobe Analytics {#analytics-data}
 
-Puede aprovechar todos los datos de evento de comportamiento web que ya está capturando mediante Adobe Analytics o SDK web y la transmisión a Adobe Experience Platform para almacenar en déclencheur los recorridos y automatizar las experiencias para sus clientes.
+Puede aprovechar todos los datos de evento de comportamiento web que ya está capturando a través de Adobe Analytics o Web SDK y transmitirlos a Adobe Experience Platform para almacenar en déclencheur los recorridos y automatizar las experiencias para sus clientes.
 
 Para que esto funcione con Adobe Analytics, debe:
 
@@ -28,14 +28,14 @@ Para que esto funcione con Adobe Analytics, debe:
 
 >[!NOTE]
 >
->Esta sección solo se aplica a los eventos basados en reglas y a los clientes que necesitan utilizar datos de Adobe Analytics o SDK web.
+>Esta sección solo se aplica a los eventos basados en reglas y a los clientes que necesitan utilizar datos de Adobe Analytics o Web SDK.
 > 
 >Si usa Adobe Customer Journey Analytics, consulte [esta página](../reports/cja-ajo.md).
 >
 
-## Configuración de datos de Adobe Analytics o SDK web {#leverage-analytics-data}
+## Configuración de datos de Adobe Analytics o Web SDK {#leverage-analytics-data}
 
-Los datos procedentes del SDK web de Adobe Analytics o Adobe Experience Platform deben habilitarse para que se utilicen en los recorridos.
+Los datos procedentes de Adobe Analytics o Adobe Experience Platform Web SDK deben habilitarse para que se utilicen en los recorridos.
 
 Para realizar esto, siga los pasos a continuación:
 
@@ -65,7 +65,7 @@ Obtenga más información acerca del conector de origen de Adobe Analytics en [D
 
 ## Activar esta configuración {#activate-analytics-data}
 
-Una vez completada esta configuración, póngase en contacto con el Adobe de para permitir que su entorno de Journey Optimizer utilice esta fuente de datos. Este paso solo es necesario para las fuentes de datos de Adobe Analytics. Para realizar esto:
+Una vez completada esta configuración, póngase en contacto con Adobe para permitir que su entorno de Journey Optimizer utilice esta fuente de datos. Este paso solo es necesario para las fuentes de datos de Adobe Analytics. Para realizar esto:
 
 1. Obtenga el ID de la fuente de datos. Esta información está disponible en la interfaz de usuario: vaya a la fuente de datos que creó desde la ficha **Flujos de datos** del menú **Fuentes**. La forma más sencilla de encontrarlo es filtrar por fuentes de Adobe Analytics.
 1. Póngase en contacto con el Servicio de atención al cliente de Adobe con los siguientes detalles:
@@ -80,9 +80,9 @@ Una vez completada esta configuración, póngase en contacto con el Adobe de par
 
 1. Una vez que tenga la confirmación de que su entorno está listo, puede utilizar los datos de Adobe Analytics en sus recorridos.
 
-## Creación de un recorrido con un evento mediante datos de Adobe Analytics o SDK web {#event-analytics}
+## Creación de un recorrido con un evento mediante datos de Adobe Analytics o Web SDK {#event-analytics}
 
-Ahora puede crear un evento basado en datos del SDK web de Adobe Analytics o Adobe Experience Platform para utilizarlo en un recorrido.
+Ahora puede crear un evento basado en datos de Adobe Analytics o Adobe Experience Platform Web SDK para utilizarlo en un recorrido.
 
 En el siguiente ejemplo, aprenda a segmentar usuarios que agregaron un producto a sus carros de compras:
 
