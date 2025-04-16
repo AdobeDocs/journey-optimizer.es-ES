@@ -24,7 +24,7 @@ Los conceptos clave al examinar la interfaz de usuario son habituales en Adobe E
 
 >[!NOTE]
 >
->* Los componentes y capacidades disponibles en su entorno dependen de sus [permisos](../administration/permissions.md) y de su [paquete de licencias](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Para cualquier pregunta, póngase en contacto con Adobe Customer Success Manager o su representante de Adobe.
+>* Los componentes y las funciones disponibles en su entorno dependen de sus [permisos](../administration/permissions.md) y de su [paquete de licencias](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Para cualquier pregunta, póngase en contacto con Adobe Customer Success Manager o su representante de Adobe.
 >
 >* Esta documentación se actualiza con frecuencia para reflejar los cambios recientes en la interfaz de usuario del producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz de usuario que ve.
 >
@@ -90,7 +90,7 @@ Administre sus datos desde esta sección.
 
 * **[!UICONTROL Consultas]**: utilice el servicio de consulta de Adobe Experience Platform para escribir y ejecutar consultas, ver consultas ejecutadas anteriormente y acceder a las guardadas por usuarios de su organización. [Más información](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitorización]**: utilice este menú para monitorizar la ingesta de datos en la interfaz de usuario de Adobe Experience Platform. Obtenga más información en [Adobe Experience Platform documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=es){target="_blank"}
+* **[!UICONTROL Monitorización]**: utilice este menú para monitorizar la ingesta de datos en la interfaz de usuario de Adobe Experience Platform. Obtenga más información en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=es){target="_blank"}
 
 ### [!UICONTROL CONEXIONES] {#left-nav-connections}
 
@@ -253,8 +253,8 @@ Para cambiar el idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="Ejecuta tu viaje en seco"
->abstract="Una vez que haya diseñado su viaje, ejecute una carrera en seco para confirmar que es funcional y asegurarse de que los pasos sean correctos. Este modo de publicación le permite fumar prueba un viaje, sin enviar comunicación a ningún perfil."
+>title="Seca el recorrido"
+>abstract="Una vez que haya diseñado el recorrido, ejecute una ejecución en seco para confirmar que funciona y asegurarse de que los pasos son correctos. Este modo de publicación permite fumar o probar un recorrido sin enviar comunicaciones a ningún perfil."
 
 
 
@@ -262,5 +262,5 @@ Para cambiar el idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
->title="Definir un directiva de decisión"
->abstract="Un directiva de decisión le permite elegir los mejores artículos del motor de decisiones y entregarlos al audiencia correcto."
+>title="Definir una directiva de decisión"
+>abstract="Una directiva de decisión le permite elegir los mejores elementos del motor de decisión y enviarlos a la audiencia correcta."

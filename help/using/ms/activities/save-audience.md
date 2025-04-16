@@ -56,4 +56,4 @@ El contenido de la audiencia guardada está disponible en la vista de detalles d
 
 ## Ejemplo{#save-audience-example}
 
-El siguiente ejemplo ilustra una actualización de audiencia simple desde la segmentación. Se agrega un planificador para ejecutar la campaña orquestada una vez al mes. Una consulta recupera todos los perfiles suscritos a las diferentes aplicaciones disponibles. La actividad **Guardar audiencia** actualiza la audiencia eliminando perfiles que han cancelado la suscripción al servicio desde la última ejecución de campaña orquestada y agregando los perfiles recién suscritos.
+The following example illustrates a simple audience update from targeting. A scheduler is added to run the orchestrated campaign once a month. Una consulta recupera todos los perfiles suscritos a las diferentes aplicaciones disponibles. La actividad **Guardar audiencia** actualiza la audiencia eliminando perfiles que han cancelado la suscripción al servicio desde la última ejecución de campaña orquestada y agregando los perfiles recién suscritos.

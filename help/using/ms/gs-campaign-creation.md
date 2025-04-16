@@ -18,7 +18,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="Campaña organizada"
->abstract="En esta pantalla, puede acceder a la lista completa de campañas orquestadas, comprobar su estado actual, las fechas de última/siguiente ejecución y crear una nueva campaña orquestada."
+>abstract="En esta pantalla, puede acceder a la lista completa de campañas orquestadas, verificar su estado actual, fechas de ejecución últimas/siguientes y crear una nueva campaña orquestada."
 
 Con Adobe Journey Optimizer, puede crear campañas orquestadas en un lienzo visual para diseñar procesos multicanal como segmentación, ejecución de campañas o procesamiento de archivos.
 
@@ -36,7 +36,7 @@ Cada campaña orquestada contiene:
 
 * **Transiciones**: las transiciones vinculan una actividad de origen a una actividad de destino y definen su secuencia.
 
-* **Tablas de trabajo**: la tabla de trabajo contiene toda la información que transmite la transición. Cada campaña orquestada utiliza varias tablas de trabajo. Los datos transmitidos en estas tablas se pueden utilizar en todo el ciclo de vida de la campaña organizada.
+* **Tablas de trabajo**: la tabla de trabajo contiene toda la información que transmite la transición. Cada campaña orquestada utiliza varias tablas de trabajo. Los datos transmitidos en estas tablas se pueden utilizar a lo largo del ciclo de vida del campaña orquestado.
 
 ## Pasos clave para crear una campaña organizada {#gs-ms-campaign-steps}
 
@@ -58,7 +58,7 @@ Para duplicar o eliminar una campaña orquestada, haga clic en el botón de punt
 
 >[!NOTE]
 >
->Cuando una campaña orquestada está en curso, puede duplicarla, pero no puede eliminarla.
+>Cuando una campaña orquestada que está en curso, puede duplicado pero no puede eliminarla.
 
 ## Estados y ciclo vital {#status}
 

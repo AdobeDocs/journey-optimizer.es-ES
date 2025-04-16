@@ -37,7 +37,7 @@ Una vez que los datos de enriquecimiento se hayan agregado a la campaña orquest
 
 Por ejemplo, puede añadir a la tabla de trabajo de la campaña orquestada información relacionada con las compras de los clientes y utilizar estos datos para personalizar los correos electrónicos con su última compra o la cantidad gastada en estas compras.
 
-## añadir un actividad de enriquecimiento {#enrichment-configuration}
+## Añadir una actividad de enriquecimiento {#enrichment-configuration}
 
 Siga estos pasos para configurar la actividad **Enriquecimiento**:
 
@@ -80,7 +80,7 @@ La sección **[!UICONTROL Link definition]** le permite crear un vínculo entre 
 
 Hay varios tipos de vínculos disponibles:
 
-* **[!UICONTROL 1 cardinalidad vincular]** simple: Cada registro del conjunto primario se puede asociar con uno y solo un registro de los datos vinculados.
+* **[!UICONTROL 1 vínculo simple de cardinalidad]**: cada registro del conjunto principal se puede asociar con un registro de los datos vinculados y solo con uno.
 * **[!UICONTROL 0 o 1 vínculo simple de cardinalidad]**: cada registro del conjunto principal puede asociarse con 0 o 1 registro de los datos vinculados, pero no más de uno.
 * **[!UICONTROL Vínculo de recopilación de cardinalidad N]**: Cada registro del conjunto principal puede asociarse con 0, 1 o más registros (N) de los datos vinculados.
 
@@ -148,7 +148,7 @@ El ejemplo siguiente muestra una campaña orquestada configurada para crear un v
 
 La actividad **[!UICONTROL Enrichment]** le permite agregar ofertas para cada perfil.
 
-Para ello, siga seguir los pasos para configurar una **[!UICONTROL actividad de enriquecimiento]** con un oferta:
+Para ello, siga los pasos para configurar una actividad **[!UICONTROL Enrichment]** con una oferta:
 
 1. En la actividad **[!UICONTROL Enrichment]**, en la sección **[!UICONTROL Propuesta de oferta]**, haga clic en el botón **[!UICONTROL Agregar oferta]**
 
@@ -231,7 +231,7 @@ A continuación, defina cómo se recopilan los datos y el número de registros q
 
 Si desea, por ejemplo, obtener la cantidad promedio de compras para un cliente, seleccione **Datos acumulados** en su lugar y seleccione **Promedio** en el menú desplegable **Función de acumulado**.
 
-Utilice los **campos Etiquetar** y **Alias** de su atributo para hacerlo más comprensible, como se muestra a continuación.
+Utilice los campos **Etiqueta** y **Alias** de su atributo para que sea más comprensible, como se muestra a continuación.
 
 ![](../assets/workflow-enrichment5bis.png)
 

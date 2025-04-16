@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Actividad de condición
-description: Descubra más información sobre la actividad de condición
+description: Obtenga información sobre la condición actividad
 feature: Journeys, Activities
 topic: Content Management
 role: User
@@ -25,21 +25,21 @@ ht-degree: 14%
 >title="Actividad de condición"
 >abstract="La actividad **Condición** le permite definir cómo progresan los individuos a través de su recorrido creando múltiples rutas basadas en criterios específicos. También puede configurar una ruta alternativa para gestionar tiempos de espera o errores, lo que garantiza una experiencia sin problemas."
 
-La actividad **Condición** le permite definir cómo progresan los individuos a través de su recorrido creando múltiples rutas basadas en criterios específicos. También puede configurar una ruta alternativa para gestionar tiempos de espera o errores, lo que garantiza una experiencia sin problemas.
+El **actividad condición** le permite definir cómo progresan las personas a lo largo de su viaje mediante la creación de múltiples rutas basadas en criterios específicos. También puede configurar una ruta alternativa para gestionar tiempos de espera o errores, lo que garantiza un experiencia sin problemas.
 
 ![](assets/journey49.png)
 
 Los siguientes tipos de condiciones están disponibles:
 
-* [Condición de Source de datos](#data_source_condition)
-* [Condición de tiempo](#time_condition)
+* [Condición Origen datos](#data_source_condition)
+* [Condición temporal](#time_condition)
 * [División porcentual](#percentage_split)
 * [Condición de fecha](#date_condition)
 * [Límite de perfil](#profile_cap)
 
-También puede utilizar una audiencia en una condición de recorrido. [Más información](#using-a-segment)
+También puede utilizar un audiencia en una condición de recorrido. [Más información](#using-a-segment)
 
-## Adición y administración de rutas de condición {#about_condition}
+## añadir y administrar rutas de condición {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
@@ -67,7 +67,7 @@ El modo simple permite realizar consultas simples basadas en una combinación de
 
 ![](assets/journey64.png)
 
-Si usa el [servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"} para crear audiencias, puede aprovecharlas en sus condiciones de recorrido. Consulte [Uso de la audiencia en condiciones](../building-journeys/condition-activity.md#using-a-segment).
+Si estás usando el [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"} para crear tus audiencias, puedes aprovecharlas en tus condiciones de recorrido. Consulte [Uso de la audiencia en condiciones](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -80,7 +80,7 @@ En el editor simple, también encontrará la categoría Propiedades del Recorrid
 
 ## Condición de Data Source {#data_source_condition}
 
-Use una **[!UICONTROL condición de Data Source]** para definir una condición basada en los campos de las fuentes de datos o en los eventos previamente colocados en el recorrido. Este tipo de condición se define con el editor de expresiones. Aprenda a utilizar el editor de expresiones en [esta sección](expression/expressionadvanced.md).
+Utilice una **[!UICONTROL condición]** de Origen de datos para definir una condición basada en los campos de los orígenes de datos o en los eventos posicionados previamente en el recorrido. Este tipo de condición se define con el editor de expresiones. Aprenda a utilizar el editor de expresiones en [esta sección](expression/expressionadvanced.md).
 
 Por ejemplo, si va a segmentar una audiencia con atributos de enriquecimiento generados mediante un flujo de trabajo de composición o una carga personalizada (archivo CSV), puede aprovechar estos atributos de enriquecimiento para crear la condición.
 
@@ -108,19 +108,19 @@ Hay tres opciones de filtrado disponibles:
 
 ## División porcentual {#percentage_split}
 
-Esta opción le permite dividir aleatoriamente la audiencia para definir una acción diferente para cada grupo. Defina el número de divisiones y la repartición para cada ruta. El cálculo de la división es estadístico, ya que el sistema no puede anticipar cuántas personas fluirán en esta actividad del recorrido. Como resultado, la división tiene un margen de error muy bajo. Esta función se basa en un mecanismo aleatorio de Java (consulte esta [página](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"}).
+Esta opción permite dividir aleatoriamente los audiencia definir una acción diferente para cada grupo. Definir el número de divisiones y la repartición para cada ruta. El cálculo de la división es estadístico, ya que el sistema no puede anticipar cuántas personas fluirán en esta actividad del recorrido. Como resultado, la división tiene un margen de error muy bajo. Esta función se basa en un mecanismo aleatorio de Java (consulte esta [página](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"}).
 
 En el modo de prueba, al alcanzar una división, siempre se elige la rama superior. Puede reorganizar la posición de las ramas divididas si desea que la prueba elija una ruta diferente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >
->Tenga en cuenta que no hay ningún botón para añadir una ruta en la condición de división de porcentaje. El número de rutas dependerá del número de divisiones. En condiciones de división, no se puede añadir una ruta para otros casos, ya que no puede ocurrir. La gente siempre irá en uno de los caminos divididos.
+>Tenga en cuenta que no hay ningún botón para añadir una ruta en la condición de división de porcentaje. El número de rutas dependerá del número de divisiones. En condiciones de división, no se puede añadir una ruta para otros casos, ya que no puede ocurrir. La gente siempre entrará en uno de los caminos divididos.
 
 ![](assets/journey52.png)
 
 ## Condición de fecha {#date_condition}
 
-Esto le permite definir un flujo diferente en función de la fecha. Por ejemplo, si la persona introduce el paso durante el periodo de &quot;ventas&quot;, se le envía un mensaje específico. El resto del año, enviarás otro mensaje.
+Esto permite definir un flujo diferente en función de la fecha. Por ejemplo, si la persona ingresa el paso durante el período de &quot;ventas&quot;, le enviarás un mensaje específico. El resto del año, enviarás otro mensaje.
 
 >[!NOTE]
 >
@@ -130,15 +130,15 @@ Esto le permite definir un flujo diferente en función de la fecha. Por ejemplo,
 
 ## Límite de perfil {#profile_cap}
 
-Utilice este tipo de condición para establecer un número máximo de perfiles para una ruta de recorrido. Cuando se alcanza este límite, los perfiles que se introducen toman una ruta alternativa. Esto garantiza que los recorridos nunca superen el límite definido.
+Utilice este tipo de condición para establecer un número máximo de perfiles para una ruta de recorrido. Cuando se alcanza este límite, los perfiles que se introducen toman una ruta alternativa. Esto garantiza que sus viajes nunca excedan el límite definido.
 
 >[!NOTE]
 >
->Le recomendamos que defina un límite de perfil de alto valor. La precisión y la probabilidad de que una población alcance el número máximo exacto solo aumentan a medida que aumenta el límite. En el caso de los números pequeños (por ejemplo, un máximo de 50), los números no siempre coinciden, ya que es posible que no se alcance el límite antes de que los perfiles sigan una ruta alternativa.
+>Le recomendamos que defina un valor máximo perfil límite. La precisión y la probabilidad de que una población alcance el número máximo exacto solo aumenta a medida que aumenta el límite. Para números pequeños (por ejemplo, un límite de 50), los números no siempre coincidirán ya que es posible que no se alcance el límite antes de que los perfiles tomen una ruta alternativa.
 
 <!--You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).-->
 
-El límite predeterminado es 1000.
+El límite predeterminado es 1.000.
 
 El contador sólo se aplica a la versión de recorrido seleccionada. El contador se restablece en cero cuando se duplica el recorrido o cuando se crea una nueva versión. Después de un restablecimiento, los perfiles que se introducen vuelven a tomar la ruta nominal hasta que se alcanza el límite del contador.
 
