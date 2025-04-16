@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: consulta, colecciones, funciones, carga útil, recorrido
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -190,7 +190,7 @@ _`<listExpression>.last(<condition>)`_
 
 **Ejemplo 1:**
 
-Esta expresión devuelve el primer token de notificación push asociado a aplicaciones móviles para las que la versión es 1.0.
+Este expresión devuelve el primer token de notificación push asociado a las aplicaciones móviles cuya versión es 1.0.
 
 ```json
 @event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
@@ -243,7 +243,7 @@ El resultado es &quot;token_2&quot;.
 
 **Otros ejemplos**
 
-Esta expresión devuelve los nombres de producto en función del valor SKU. La lista de estos productos se incluye en la lista de eventos, con la condición de que sea el ID de evento.
+Este expresión devuelve los nombres del producto en función del valor unidad de almacén. El lista de estos productos está incluido en los eventos lista, siendo la condición el ID de evento.
 
 ```json
 #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 

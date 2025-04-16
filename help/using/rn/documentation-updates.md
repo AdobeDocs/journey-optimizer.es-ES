@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 86%
+source-wordcount: '1162'
+ht-degree: 83%
 
 ---
 
@@ -22,13 +22,16 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 
 ## Abril de 2025 {#apr-2025}
 
-* Se ha añadido una nota en la página de configuración de correo postal sobre el almacenamiento temporal del archivo de salida. [Más información](../direct-mail/direct-mail-configuration.md)
-* Se ha añadido una sugerencia en la sección del editor de expresiones avanzadas de recorrido sobre las directrices de formato de condición. [Más información](../building-journeys/expression/expressionadvanced.md)
-* Se ha agregado una nota de precaución en la sección de funciones `inAudience` acerca de los impactos y las prácticas recomendadas al cambiar el nombre de una audiencia. [Más información](../building-journeys/functions/functioninaudience.md)
-* Se ha agregado una recomendación sobre el uso de palabras clave nativas al usar SMS bidireccionales. [Más información](../sms/sms-opt-out.md)
-* Se ha actualizado la página de prueba de recorrido con una nota sobre la necesidad de incluir un área de nombres de identidad en el evento utilizado. [Más información](../building-journeys/testing-the-journey.md)
-* Actualmente, no puede anular la delegación de subdominios a través de la interfaz de usuario de [!UICONTROL Journey Optimizer]; debe ponerse en contacto con su representante de Adobe. Las secciones de correo electrónico, página de aterrizaje, SMS y subdominio web se han actualizado con esta información y los pasos a seguir antes de ponerse en contacto con Adobe. [Más información](../configuration/delegate-subdomain.md#undelegate-subdomain)
-* Se agregó una aclaración sobre el parámetro opcional `maxHttpConnections` en la API de límite de recorrido, incluida una guía sobre cómo utilizarlo junto con las configuraciones de restricción para el mismo extremo. [Más información](../configuration/throttling.md)
+* El capítulo Configuración ahora se divide en tres capítulos: Configuración del](../configuration/get-started-configuration.md) canal, [Configuración del](../configuration/about-data-sources-events-actions.md) recorrido y [Conectar los sistemas](../configuration/ajo-apis.md). [
+* Se ha agregado una nota de precaución sobre el uso de eventos experiencia en expresiones y condiciones de recorrido. [Más información](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
+* Los pasos para desdelegar un subdominio ahora se detallan para [correos electrónicos](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-a-subdomain-undelegate-subdomain), [experiencias](../web/web-delegated-subdomains.md#undelegate-a-subdomain-undelegate-subdomain) web y [páginas de destino](../landing-pages/lp-subdomains.md#undelegate-subdomain).
+* Se ha agregado una nota sobre el Página de configuración de correo postal sobre el almacenamiento temporal del archivo de salida. [Más información](../direct-mail/direct-mail-configuration.md)
+* Se agregó un consejo en el recorrido avanzado expresión editor sección sobre la condición formato las pautas. [Más información](../building-journeys/expression/expressionadvanced.md)
+* Se ha añadido una nota de precaución en la sección de funciones sobre los efectos y las prácticas recomendadas al cambiar el `inAudience` nombre de una audiencia. [Más información](../building-journeys/functions/functioninaudience.md)
+* Se agregó un recomendación sobre el uso de palabras clave nativa cuando se usan SMS bidireccionales. [Más información](../sms/sms-opt-out.md)
+* Se ha actualizado el recorrido prueba Página con una nota sobre la necesidad de incluir un espacio de nombres de identidad en el evento utilizado. [Más información](../building-journeys/testing-the-journey.md)
+* Actualmente, no puede desdelegar subdominios a través de la interfaz de [!UICONTROL usuario de Journey Optimizer] ; debe ponerse en contacto con su representante de Adobe. Las secciones correo electrónico, página de aterrizaje, SMS y subdominio web se han actualizado con esta información y los pasos a seguir antes de comunicarse con Adobe Systems. [Más información](../configuration/delegate-subdomain.md#undelegate-subdomain)
+* Se ha añadido una aclaración sobre el parámetro opcional `maxHttpConnections` en la API de limitación de recorridos, incluida la orientación sobre cómo usarlo junto con las configuraciones de limitación para el mismo punto de conexión. [Más información](../configuration/throttling.md)
 
 ## Marzo de 2025 {#mar-2025}
 

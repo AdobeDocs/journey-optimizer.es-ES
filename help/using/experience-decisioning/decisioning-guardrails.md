@@ -1,11 +1,11 @@
 ---
 title: Limitaciones y protecciones de decisiones
-description: Obtenga más información acerca de las limitaciones y protecciones de Decisioning.
+description: Obtenga más información sobre las barreras y limitaciones de Decisioning.
 feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 17%
@@ -20,30 +20,30 @@ La lista completa de [!DNL Journey Optimizer] protecciones y limitaciones está 
 
 ## Solicitudes de decisión
 
-| Barrera | Límite |
+| Barandilla | Límite |
 | ------- | ------- |
-| Solicitud de API de experiencia basada en código con política de decisión que utiliza la segmentación de Edge | 1500 |
-| Solicitud de API de experiencia basada en código con política de decisión que no utiliza la segmentación de Edge | 5000 |
+| solicitud de API de experiencia basadas en Code con directiva de decisión que usan Edge segmentación | 1500 |
+| solicitud de API de experiencia basadas en Code con decisión directiva no usar Edge segmentación | 5000 |
 
 ## Colecciones de elementos
 
-| Barrera | Límite |
+| Barandilla | Límite |
 | ------- | ------- |
 | Colecciones de elementos | 10K |
-| Total de elementos de oferta por colección de elementos | 500 |
+| Total oferta elementos por elemento colección | 500 |
 
 ## Política de decisión
 
-| Barrera | Límite |
+| Barandilla | Límite |
 | ------- | ------- |
-| Número de estrategias de selección y elementos manuales por política de decisión | 10 |
+| Número de estrategias de selección y elementos manuales por decisión directiva | 10 |
 | Máximo de elementos de oferta devueltos por política de decisión | 30 |
 
-## Reglas de elegibilidad
+## Reglas de idoneidad
 
-| Barrera | Límite |
+| Barandilla | Límite |
 | ------- | ------- |
-| Total de reglas de decisión y fórmulas de clasificación | 10K combinado |
+| Reglas de decisión totales y fórmulas de clasificación | 10K combinados |
 | Número máximo de atributos de perfil por regla | 25 |
 | Número máximo de atributos de datos de contexto por regla | 30 |
 | Tamaño máximo de la regla pql | 15K (UTF-8) |
@@ -51,19 +51,19 @@ La lista completa de [!DNL Journey Optimizer] protecciones y limitaciones está 
 
 ## Fórmulas de clasificación
 
-| Barrera | Límite |
+| Barandilla | Límite |
 | ------- | ------- |
-| Tamaño máximo de la fórmula de clasificación PQL | 8 K (UTF-8) |
+| Tamaño máximo de clasificación fórmula PQL | 8 K (UTF-8) |
 | Número máximo de atributos de perfil | 25 |
 | Número máximo de atributos de datos de contexto | 30 |
 | Número máximo de niveles de anidación | 30 |
 
 ## Otros
 
-| Barrera | Límite |
+| Barandilla | Límite |
 | ------- | ------- |
 | Número de atributos personalizados por esquema del catálogo de ofertas | 100 |
-| Total de elementos de oferta | 10K |
-| Ubicaciones totales | 1K |
+| Total de elementos de la oferta | 10K |
+| Colocaciones totales | 1K |
 | Modelo de clasificación de IA | 5 |
-| Reglas de frecuencia: número máximo de reglas de límite por oferta | 10 |
+| Reglas de frecuencia - Número máximo de reglas de limitación por oferta | 10 |
