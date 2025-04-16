@@ -8,9 +8,9 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdominios, configuración
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '924'
 ht-degree: 20%
 
 ---
@@ -36,16 +36,14 @@ ht-degree: 20%
 
 Para poder acortar las URL agregadas a tus mensajes SMS/MMS, debes configurar el subdominio que seleccionarás al [crear una configuración de SMS](sms-configuration.md#message-preset-sms).
 
-Puede utilizar un subdominio que ya se haya delegado a Adobe o configurar otro. Obtenga más información acerca de la delegación de subdominios a Adobe en [esta sección](../configuration/delegate-subdomain.md).
+Puede utilizar un subdominio que ya esté delegado en Adobe Systems, o puede configurar otro subdominio. En esta sección](../configuration/delegate-subdomain.md), encontrará [más información sobre cómo delegar subdominios a Adobe Systems.
 
->[!CAUTION]
->
->* La configuración del subdominio SMS se comparte entre todos los entornos. Por lo tanto, cualquier modificación en un subdominio de SMS también afecta a otros entornos limitados de producción.
->
->* Para acceder y editar subdominios SMS, debe tener el permiso **[!UICONTROL Administrar subdominios SMS]** en la zona protegida de producción. Puede obtener más información sobre permisos en [esta sección](../administration/high-low-permissions.md).
->
+La configuración del subdominio SMS se **comparte entre todos los entornos**. Por lo tanto, cualquier modificación en un subdominio de SMS también afecta a otros entornos limitados de producción.
 
-## Usar un subdominio existente {#sms-use-existing-subdomain}
+Para acceder a los subdominios de SMS y editarlos, debe tener la **[!UICONTROL permiso Administrar subdominios de]** SMS en el entorno de pruebas de producción. Puede obtener más información sobre permisos en [esta sección](../administration/high-low-permissions.md).
+
+
+## Uso de un subdominio existente {#sms-use-existing-subdomain}
 
 Para utilizar un subdominio que ya se haya delegado a Adobe, siga los pasos a continuación.
 
@@ -61,15 +59,11 @@ Para utilizar un subdominio que ya se haya delegado a Adobe, siga los pasos a co
 
 1. Introduzca el prefijo que se mostrará en la dirección URL de su SMS.
 
-   >[!NOTE]
-   >
-   >Solo se permiten caracteres alfanuméricos y guiones.
+   Solo se permiten caracteres alfanuméricos y guiones.
 
 1. Seleccione un subdominio delegado de la lista.
 
-   >[!NOTE]
-   >
-   >No puede seleccionar un subdominio que ya se esté utilizando como subdominio SMS.
+   No puede seleccionar un subdominio que ya se esté utilizando como subdominio SMS.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -83,7 +77,7 @@ Para utilizar un subdominio que ya se haya delegado a Adobe, siga los pasos a co
 
 1. Haga clic en **[!UICONTROL Enviar]**.
 
-1. Una vez enviado, el subdominio se muestra en la lista con el estado **[!UICONTROL Procesando]**. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Una vez enviado, el subdominio se muestra en la lista con el **[!UICONTROL estado Procesando]** . Para obtener más información sobre los estados de los subdominios, consulte [esta sección](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    >[!NOTE]
    >
@@ -98,9 +92,9 @@ Para utilizar un subdominio que ya se haya delegado a Adobe, siga los pasos a co
 >title="Generar el registro DNS coincidente"
 >abstract="Para configurar un nuevo subdominio de SMS, debe copiar la información del servidor de nombres de Adobe que se muestra en la interfaz de Journey Optimizer y pegarla en la solución de alojamiento de dominios para generar el registro DNS coincidente. Una vez realizadas las comprobaciones correctamente, el subdominio está listo para utilizarse para crear configuraciones de SMS."
 
-Para configurar un nuevo subdominio, siga los pasos a continuación.
+Para configurar un nuevo subdominio, seguir los pasos que se describen a continuación.
 
-1. Vaya al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** y, a continuación, seleccione **[!UICONTROL Configuración de SMS]** > **[!UICONTROL subdominios de SMS]**.
+1. Examinar al menú Administración > canales ]**y, a**[!UICONTROL  continuación, seleccione **[!UICONTROL Configuración]** de **[!UICONTROL SMS >**[!UICONTROL  subdominios de SMS ]**.]**
 
 1. Haga clic en **[!UICONTROL Configurar subdominio]**.
 
@@ -120,27 +114,23 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
 
    No se permite delegar un subdominio no válido a Adobe. Asegúrese de introducir un subdominio válido que sea propiedad de su organización, como marketing.yourcompany.com.
 
-   >[!NOTE]
-   >
-   >Se admiten subdominios de varios niveles (del mismo dominio principal). Por ejemplo, puede utilizar &quot;sms.marketing.yourcompany.com&quot;.
+   Se admiten subdominios de varios niveles (del mismo dominio principal). Por ejemplo, puede utilizar &quot;sms.marketing.yourcompany.com&quot;.
 
-1. Se muestra el registro que se va a colocar en los servidores DNS. Copie este registro o descargue un archivo CSV y, a continuación, vaya a la solución de alojamiento de dominios para generar el registro DNS correspondiente.
+1. Se muestra el registro que se va a colocar en los servidores DNS. Copie este registro, o descargar un archivo CSV y, a continuación, navegue hasta la solución de hospedaje de dominio para generar el registro DNS correspondiente.
 
-1. Asegúrese de que se ha generado un registro DNS en la solución de alojamiento de dominios. Si todo está configurado correctamente, marque la casilla &quot;Confirmo...&quot; y luego haga clic en **[!UICONTROL Enviar]**.
+1. Asegúrese de que se ha generado un registro DNS en la solución de alojamiento de dominios. Si todo está configurado correctamente, marque la casilla &quot;Confirmo...&quot;, luego haga clic en **[!UICONTROL Enviar]**.
 
    ![](assets/sms_add-your-own-subdomain-confirm.png)
 
-   >[!NOTE]
-   >
-   >Al configurar un nuevo subdominio de SMS, siempre apuntará a un registro CNAME.
+   Al configurar un nuevo subdominio de SMS, siempre apunta a un registro CNAME.
 
-1. Una vez enviada la delegación del subdominio, este se muestra en la lista con el estado **[!UICONTROL Procesando]**. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Una vez enviada la delegación de subdominio, el subdominio se muestra en la lista con el **[!UICONTROL estado Procesando]** . Para obtener más información sobre los estados de los subdominios, consulte [esta sección](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-Antes de usar un subdominio para enviar mensajes SMS, debe esperar hasta que Adobe realice las comprobaciones necesarias, que pueden tardar hasta cuatro horas.<!--Learn more in [this section](#subdomain-validation).--> Una vez que las comprobaciones son correctas, el subdominio obtiene el estado **[!UICONTROL Correcto]**. Está listo para utilizarse para crear configuraciones de canal SMS.
+Antes de usar un subdominio para enviar mensajes SMS, debe esperar hasta que Adobe Systems realice las comprobaciones requeridas, lo que puede demorar hasta 4 horas.<!--Learn more in [this section](#subdomain-validation).--> Una vez realizadas las comprobaciones correctamente, el subdominio obtiene el **[!UICONTROL estado Success]** . Está listo para utilizarse para crear configuraciones de canal SMS.
 
-Tenga en cuenta que el subdominio se marcará como **[!UICONTROL Error]** si no crea el registro de validación en la solución de alojamiento.
+Tenga en cuenta que el subdominio se marcará como **[!UICONTROL Error]** si no puede crear el registro validación en su solución de alojamiento.
 
-## Anular la delegación de un subdominio {#undelegate-subdomain}
+## Desdelegar un subdominio {#undelegate-subdomain}
 
 Si desea desdelegar un subdominio de SMS, póngase en contacto con su representante de Adobe.
 
@@ -165,11 +155,11 @@ Primero, realice los siguientes pasos en [!DNL Journey Optimizer]:
 
 Una vez finalizado, póngase en contacto con el representante de Adobe con el subdominio que desee desdelegar.
 
-Una vez que Adobe administra la solicitud, el dominio no delegado ya no se muestra en la página de inventario de subdominios.
+Después de que Adobe Systems gestione solicitud, el dominio no delegado ya no se mostrará en el Página de inventario subdominio.
 
 >[!CAUTION]
 >
->Después de anular la delegación de un subdominio:
+>Después de que un subdominio sea desdelegado:
 >
->   * No puede reactivar las configuraciones de canal que utilizaban ese subdominio.
+>   * No puede reactivar las configuraciones de canal que usaban ese subdominio.
 >   * No puede volver a delegar el subdominio exacto a través de la interfaz de usuario. Si desea hacerlo, póngase en contacto con su representante de Adobe.
