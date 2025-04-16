@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 24cb77484172117f2308d2949588ee98fa8421dd
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '852'
 ht-degree: 2%
 
 ---
@@ -49,9 +49,9 @@ Los gráficos **[!UICONTROL Display &amp; Click]** presentan un análisis detall
 
 La tabla **[!UICONTROL Datos de seguimiento]** ofrece una instantánea detallada de la actividad del perfil vinculada a sus experiencias basadas en código, lo que proporciona información esencial sobre la participación y la eficacia de las experiencias.
 
-+++ Más información sobre el Seguimiento de métricas de datos
++++ Más información sobre el seguimiento de métricas de datos
 
-* **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus experiencias.
+* **[!UICONTROL Personas]**: número de usuario perfiles que califican como perfiles destino para sus experiencias.
 
 * **[!UICONTROL Tasa de clics (CTR)]**: Porcentaje de usuarios que interactuaron con sus experiencias.
 
@@ -95,15 +95,15 @@ Los KPI de **toma de decisiones** proporcionan información clave sobre la parti
 
 * **[!UICONTROL Tasa de reserva]**: porcentaje de instancias en las que no se calificó ninguna estrategia de selección, lo que da como resultado la visualización de una opción genérica o menos específica.
 
-## Canal de participación {#engagement-funnel}
+## canal de participación {#engagement-funnel}
 
 ![](assets/cja-engagement-funnel.png)
 
-La tabla **[!UICONTROL Canal de participación]** supervisa el rendimiento de las experiencias personalizadas mediante la evaluación de la eficacia con que cada fase del canal impulsa las interacciones del usuario.
+La **[!UICONTROL tabla Embudo]** de interacción supervisa el rendimiento de las experiencias personalizadas mediante la evaluación de la eficacia de cada fase de los canal usuario interacciones.
 
 * **[!UICONTROL Pantallas]**: número total de veces que se mostraron o presentaron experiencias personalizadas a los usuarios en varios puntos de contacto.
 
-* **[!UICONTROL Clics]**: número total de veces que los usuarios hicieron clic en experiencias personalizadas que se les mostraron.
+* **[!UICONTROL Clics]**: número total de veces que los usuarios hicieron clic en las experiencias personalizadas que se les mostraron.
 
 ## Elementos de decisión principales por tasa de clics {#top-decision}
 
@@ -137,15 +137,15 @@ La tabla **[!UICONTROL Rendimiento de elementos de decisión]** evalúa el rendi
 
 >[!NOTE]
 >
->La tabla **[!UICONTROL Estrategia de clasificación]** solo estará disponible cuando se incorpore un modelo de IA a la campaña. [Más información](../experience-decisioning/ranking.md)
+>La **[!UICONTROL tabla Estrategia de clasificación]** solo está disponible cuando se incorpora un modelo de IA al campaña. [Más información](../experience-decisioning/ranking.md)
 
 ![](assets/cja-decision-ranking-strategy.png)
 
-La tabla **[!UICONTROL Estrategia de clasificación]** proporciona perspectivas sobre el rendimiento de los modelos de clasificación impulsados por IA dentro de experiencias personalizadas que comparan dos tipos de tráfico:
+La **[!UICONTROL tabla Estrategia de clasificación]** proporciona información sobre el rendimiento de los modelos de clasificación impulsados por IA dentro de experiencias personalizadas que comparan dos tipos de tráfico:
 
-* **Impulsado por modelo**: los usuarios reciben contenido clasificado por el modelo de IA, optimizado para relevancia y participación.
+* **Basado en modelos**: los usuarios reciben contenido clasificados según el modelo de IA, optimizados por su relevancia y participación.
 
-* **Holdout**: los usuarios ven una versión genérica del contenido, que sirve como grupo de control para medir la eficacia del modelo de IA.
+* **Holdout**: los usuarios reciben contenido servido aleatoriamente durante la fase de exploración del modelo.
 
 Las métricas clave mostradas incluyen:
 
@@ -167,4 +167,4 @@ El gráfico **[!UICONTROL Tasa de conversión para tráfico controlado por model
 
 * **Impulsado por modelo**: los usuarios reciben contenido clasificado por el modelo de IA, optimizado para relevancia y participación.
 
-* **Holdout**: los usuarios ven una versión genérica del contenido, que sirve como grupo de control para medir la eficacia del modelo de IA.
+* **Holdout**: los usuarios reciben contenido servido aleatoriamente durante la fase de exploración del modelo.
