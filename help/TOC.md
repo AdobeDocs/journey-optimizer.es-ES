@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 31e88f02ed2569357a31552db717225d7f37a1eb
+source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
 workflow-type: tm+mt
-source-wordcount: '2329'
-ht-degree: 90%
+source-wordcount: '2330'
+ht-degree: 89%
 
 ---
 
@@ -163,7 +163,7 @@ ht-degree: 90%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [UUID](using/building-journeys/functions/functionuuid.md)
    + Casos de uso {#journey-use-cases}
-      + Empresa casos de uso {#business-use-cases}
+      + Casos de uso empresariales {#business-use-cases}
          + [Envío de mensajes multicanal](using/building-journeys/journeys-uc.md)
          + [Envío de un mensaje mediante Campaign v7/v8](using/building-journeys/ajo-ac.md)
          + [Envío de un mensaje a los suscriptores](using/building-journeys/message-to-subscribers-uc.md)
@@ -184,7 +184,7 @@ ht-degree: 90%
       + [Configuración de campaña](using/ms/ms-campaign-settings.md)
       + [Iniciar y monitorizar campañas](using/ms/start-monitor-campaigns.md)
       + [Administrar personalización](using/ms/ms-personalization.md)
-   + Actividades de campaña orquestadas {#design-campaigns}
+   + Actividades de campaña organizadas {#design-campaigns}
       + [Acerca de las actividades de campaña orquestadas](using/ms/activities/about-activities.md)
       + [And-join](using/ms/activities/and-join.md)
       + [Generar público](using/ms/activities/build-audience.md)
@@ -222,7 +222,7 @@ ht-degree: 90%
       + [Prueba del procesamiento de correo electrónico](using/content-management/rendering.md)
       + [Prueba del contenido con datos de entrada de muestra (Beta)](using/test-approve/simulate-sample-input.md)
       + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
-   + Aprobación de campañas y recorridos {#approve}
+   + Aprobar recorridos y campañas {#approve}
       + [Introducción a las aprobaciones](using/test-approve/gs-approval.md)
       + [Creación y administración de políticas de aprobación](using/test-approve/approval-policies.md)
       + [Solicitud de aprobación](using/test-approve/request-approval.md)
@@ -245,7 +245,7 @@ ht-degree: 90%
             + [Adición de vínculos y seguimiento de mensajes](using/email/message-tracking.md)
             + [Inserción de ofertas personalizadas](using/email/add-offers-email.md)
             + [Generar la versión de texto](using/email/text-version-email.md)
-            + [añadir metadatos](using/email/email-metadata.md)
+            + [Añadir metadatos](using/email/email-metadata.md)
          + Editar estilo {#edit-style}
             + [Introducción al diseño de correo electrónico](using/email/get-started-email-style.md)
             + [Editar configuración de fondo](using/email/backgrounds.md)
@@ -281,7 +281,7 @@ ht-degree: 90%
       + [Comprobación y envío de los mensajes de texto](using/sms/send-sms.md)
       + [Administración de la exclusión de mensajes de texto](using/sms/sms-opt-out.md)
       + [Configuración de subdominios de SMS](using/sms/sms-subdomains.md)
-      + Configurar SMS / MMS canal{#configure-sms}
+      + Configuración del canal SMS/MMS{#configure-sms}
          + [Introducción a la configuración de SMS](using/sms/sms-configuration.md)
          + [Configuración del proveedor Sinch](using/sms/sms-configuration-sinch.md)
          + [Configuración del proveedor Infobip](using/sms/sms-configuration-infobip.md)
@@ -319,7 +319,7 @@ ht-degree: 90%
          + [Administración de experiencias basadas en código](using/code-based/publish-code-based.md)
    + Tarjetas de contenido{#content-card}
       + [Introducción a las tarjetas de contenido](using/content-card/get-started-content-card.md)
-      + Configurar contenido tarjeta canal {#configure}
+      + Configurar el canal de la tarjeta de contenido {#configure}
          + [Requisitos previos de tarjetas de contenido](using/content-card/content-card-configuration-prereq.md)
          + [Configuración del canal de tarjetas de contenido en Journey Optimizer](using/content-card/content-card-configuration.md)
          + [Configuración de la compatibilidad con tarjetas de contenido en el SDK para dispositivos móviles](using/content-card/content-card-lp.md)
@@ -361,7 +361,7 @@ ht-degree: 90%
       + [Creación de un proveedor de idiomas](using/content-management/multilingual-provider.md)
       + [Creación de contenido multilingüe con traducción manual](using/content-management/multilingual-manual.md)
       + [Creación de contenido multilingüe con traducción automática](using/content-management/multilingual-automated.md)
-   + Experimento Trabajar con contenido {#content-experiment}
+   + Trabajo con el experimento de contenido {#content-experiment}
       + [Introducción al experimento de contenido](using/content-management/get-started-experiment.md)
       + [Creación de un experimento de contenido](using/content-management/content-experiment.md)
       + Notas técnicas {#technotes}
@@ -402,7 +402,7 @@ ht-degree: 90%
       + [Guardar contenido existente como fragmento](using/content-management/save-fragments.md)
       + [Fragmentos personalizables](using/content-management/customizable-fragments.md)
       + [Administración de fragmentos](using/content-management/manage-fragments.md)
-   + contenido dinámico {#dynamic}
+   + Contenido dinámico {#dynamic}
       + [Introducción al contenido dinámico](using/personalization/get-started-dynamic-content.md)
       + [Creación de reglas condicionales](using/personalization/create-conditions.md)
       + [Crear contenido dinámico](using/personalization/dynamic-content.md)
@@ -439,7 +439,7 @@ ht-degree: 90%
       + [Informe en vivo de la campaña](using/reports/campaign-live-report.md)
       + [Informe en directo de la página de aterrizaje](using/reports/lp-report-live.md)
       + [Informe en directo de la lista de suscripciones](using/reports/subscription-report-live.md)
-   + Informe de todos los tiempos{#channel-report}
+   + Informe de todo el tiempo{#channel-report}
       + [Introducción al Informe de todo el tiempo](using/reports/report-gs-cja.md)
       + [Lista de métricas](using/reports/global-report-components-cja.md)
       + [Configurar Customer Journey Analytics manualmente](using/reports/cja-ajo.md)
@@ -569,7 +569,7 @@ ht-degree: 90%
          + [Configurar selección de ofertas en decisiones](using/offers/offer-activities/configure-offer-selection.md)
          + [Creación de simulaciones](using/offers/offer-activities/simulation.md)
       + [Usar toma de decisiones por lotes](using/offers/batch-delivery.md)
-      + Recopilar datos de evento {#collect-event-data}
+      + Recopilación de datos de evento {#collect-event-data}
          + [Introducción a la recopilación de datos](using/offers/data-collection/data-collection.md)
          + [Crear un conjunto de datos para recopilar eventos](using/offers/data-collection/create-dataset.md)
          + [Configurar la captura de eventos](using/offers/data-collection/schema-requirement.md)
@@ -589,7 +589,7 @@ ht-degree: 90%
          + [Conjunto de datos de reserva](using/offers/export-catalog/export-fallback.md)
       + Referencia de API {#api-reference}
          + [Introducción](using/offers/api-reference/getting-started.md)
-         + Ofertas de Crear &amp; administrar utilizando API {#offers-api}
+         + Creación y administración de ofertas mediante API {#offers-api}
             + Ubicaciones {#placements}
                + [Enumerar ubicaciones](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [Buscar una ubicación](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -725,10 +725,10 @@ ht-degree: 90%
       + [Trabajo con eventos de recorrido](using/event/about-events.md)
       + [Configuración de un evento unitario](using/event/about-creating.md)
       + [Acerca de los esquemas de ExperienceEvent](using/event/experience-event-schema.md)
-      + [Trabajar con datos Adobe Analytics](using/event/about-analytics.md)
+      + [Trabajo con datos de Adobe Analytics](using/event/about-analytics.md)
       + [Configuración de un evento empresarial](using/event/about-creating-business.md)
       + [Pasos adicionales para enviar eventos](using/event/additional-steps-to-send-events-to-journey.md)
-   + Configuración de origen de datos{#data-source-journeys}
+   + Configuración de fuente de datos{#data-source-journeys}
       + [Introducción a las fuentes de datos](using/datasource/about-data-sources.md)
       + [Configuración de una fuente de datos](using/datasource/configure-data-sources.md)
       + [Fuente de datos de Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
@@ -739,16 +739,16 @@ ht-degree: 90%
       + [Resolución de una acción personalizada](using/action/troubleshoot-custom-action.md)
       + [Uso de respuestas de llamadas API en acciones personalizadas](using/action/action-response.md)
 + Conecte sus sistemas {#connect-systems}&quot;
-   + [API de Adobe Journey Optimizer](using/configuration/ajo-apis.md)
-   + Uso de API de recorrido {#external-systems}
-      + [Integración de recorridos con sistemas externos](using/configuration/external-systems.md)
+   + [Trabajo con las API de Journey Optimizer](using/configuration/ajo-apis.md)
+   + Integración de los recorridos con sistemas externos {#external-systems}
+      + [Recorrido de integración con sistemas externos](using/configuration/external-systems.md)
       + [API de límite](using/configuration/capping.md)
       + [API de limitación](using/configuration/throttling.md)
    + Envío con soluciones de Adobe {#adobe-solutions}
-      + [Integración de Recorrido con Adobe Campaign Standard](using/action/acs-action.md)
-      + [Integración de Journeys con Adobe Campaign v7/v8](using/action/acc-action.md)
-      + [Integración de viajes con Marketo Engage](using/action/marketo-engage.md)
-   + [Configure el conector de orígenes](using/start/get-started-sources.md)
+      + [Integración de recorrido con Campaign Standard](using/action/acs-action.md)
+      + [Integración de recorrido con las versiones 7 y 8 de Campaign](using/action/acc-action.md)
+      + [Integración de recorrido con Marketo Engage](using/action/marketo-engage.md)
+   + [Configuración del conector de fuentes](using/start/get-started-sources.md)
    + [Exportación de objetos a otra zona protegida](using/configuration/copy-objects-to-sandbox.md)
 + Control de acceso {#access-control}
    + Información general sobre el control de acceso {#privacy}
