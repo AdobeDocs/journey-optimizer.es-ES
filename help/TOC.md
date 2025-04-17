@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2335'
 ht-degree: 89%
 
 ---
@@ -738,7 +738,7 @@ ht-degree: 89%
       + [Configuración de una acción personalizada](using/action/about-custom-action-configuration.md)
       + [Resolución de una acción personalizada](using/action/troubleshoot-custom-action.md)
       + [Uso de respuestas de llamadas API en acciones personalizadas](using/action/action-response.md)
-+ Conecte sus sistemas {#connect-systems}&quot;
++ Conectar sus sistemas y entornos {#connect-systems}
    + [Trabajo con las API de Journey Optimizer](using/configuration/ajo-apis.md)
    + Integración de los recorridos con sistemas externos {#external-systems}
       + [Recorrido de integración con sistemas externos](using/configuration/external-systems.md)
@@ -748,8 +748,10 @@ ht-degree: 89%
       + [Integración de recorrido con Campaign Standard](using/action/acs-action.md)
       + [Integración de recorrido con las versiones 7 y 8 de Campaign](using/action/acc-action.md)
       + [Integración de recorrido con Marketo Engage](using/action/marketo-engage.md)
+   + Administración de zonas protegidas {#sandbox}
+      + [Uso y asignación de entornos limitados](using/administration/sandboxes.md)
+      + [Exportación de objetos a otra zona protegida](using/configuration/copy-objects-to-sandbox.md)
    + [Configuración del conector de fuentes](using/start/get-started-sources.md)
-   + [Exportación de objetos a otra zona protegida](using/configuration/copy-objects-to-sandbox.md)
 + Control de acceso {#access-control}
    + Información general sobre el control de acceso {#privacy}
       + [Introducción a la administración de usuarios](using/administration/permissions-overview.md)
@@ -759,7 +761,6 @@ ht-degree: 89%
    + [Administración de usuarios y funciones](using/administration/permissions.md)
    + [Control de acceso basado en atributos](using/administration/attribute-based-access.md)
    + [Control de acceso de nivel de objeto](using/administration/object-based-access.md)
-   + [Administración de zonas protegidas](using/administration/sandboxes.md)
 + Privacidad {#privacy}
    + [Introducción a la privacidad](using/privacy/get-started-privacy.md)
    + [Solicitudes de privacidad](using/privacy/requests.md)

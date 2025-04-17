@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a2d23466d62b3b1df6f8024e3f68414b18bf0b88
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 80%
+source-wordcount: '1251'
+ht-degree: 77%
 
 ---
 
@@ -33,6 +33,7 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Actualmente, no puede anular la delegación de subdominios a través de la interfaz de usuario de [!UICONTROL Journey Optimizer]; debe ponerse en contacto con su representante de Adobe. Las secciones de correo electrónico, página de aterrizaje, SMS y subdominio web se han actualizado con esta información y los pasos a seguir antes de ponerse en contacto con Adobe. [Más información](../configuration/delegate-subdomain.md#undelegate-subdomain)
 * Se agregó una aclaración sobre el parámetro opcional `maxHttpConnections` en la API de límite de recorrido, incluida una guía sobre cómo utilizarlo junto con las configuraciones de restricción para el mismo extremo. [Más información](../configuration/throttling.md)
 * En la sección Experience Decisioning, se han añadido directrices que explican que los elementos de oferta aprobados no se pueden eliminar si se utilizan en una colección o una decisión. Se han incluido pasos para cambiar su estado a &quot;Borrador&quot; usando la opción **[!UICONTROL Deshacer aprobación]**. [Más información](../experience-decisioning/items.md#manage)
+* La información sobre los entornos limitados se ha agrupado en una nueva sección &quot;Administración de entornos limitados&quot;. Esta nueva sección proporciona información sobre cómo utilizar y asignar entornos limitados, y cómo utilizar las capacidades de exportación e importación de paquetes para copiar objetos como recorridos, plantillas de contenido o fragmentos en varios entornos limitados. [Más información](../administration/sandboxes.md)
 
 ## Marzo de 2025 {#mar-2025}
 

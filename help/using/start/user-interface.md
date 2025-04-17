@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: f15962bf68c7ea5087e0def33888b06f52d580cd
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 94%
+source-wordcount: '1440'
+ht-degree: 92%
 
 ---
 
@@ -134,7 +134,7 @@ Controle la administración de la privacidad y las solicitudes desde esta secci�
 
 * **[!UICONTROL Alertas]**: la interfaz de usuario le permite ver un historial de alertas recibidas en función de las métricas reveladas por Adobe Experience Platform Observability Insights. La IU también le permite ver, habilitar y deshabilitar las reglas de alerta disponibles. [Más información](../reports/alerts.md)
 
-* **[!UICONTROL Zonas protegidas]**: Adobe Experience Platform proporciona entornos limitados que dividen una sola instancia en entornos virtuales independientes para ayudarle a desarrollar aplicaciones de experiencia digital y hacer que evolucionen. Examine esta sección para administrar las zonas protegidas. [Más información](../administration/sandboxes.md)
+* **[!UICONTROL Zonas protegidas]**: Adobe Experience Platform proporciona entornos limitados que dividen una sola instancia en entornos virtuales independientes para ayudarle a desarrollar aplicaciones de experiencia digital y hacer que evolucionen. Además, [!DNL Journey Optimizer] le permite utilizar las capacidades de exportación e importación de paquetes para copiar objetos como recorridos, plantillas de contenido o fragmentos en varios entornos limitados. [Más información](../administration/sandboxes.md)
 
 * **[!UICONTROL Canales]**: utilice esta sección para configurar los canales, incluidos los subdominios, las configuraciones y la configuración de entregabilidad. [Más información](../configuration/get-started-configuration.md)
 

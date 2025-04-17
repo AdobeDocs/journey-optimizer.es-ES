@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Administración de zonas protegidas
+title: Uso y asignación de entornos limitados
 description: Obtenga información sobre cómo administrar zonas protegidas
 feature: Sandboxes
 topic: Administration
@@ -9,14 +9,14 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: zonas protegidas, virtual, entornos, organización, plataforma
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 52%
+source-wordcount: '329'
+ht-degree: 50%
 
 ---
 
-# Administración de zonas protegidas {#sandboxes}
+# Uso y asignación de entornos limitados {#sandboxes}
 
 ## Usar zonas protegidas {#using-sandbox}
 
