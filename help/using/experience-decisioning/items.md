@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ab70ce5b686a54dc1be7336411c5b0959fc3c584
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1752'
 ht-degree: 15%
 
 ---
@@ -163,6 +163,10 @@ Al seleccionar un elemento de decisión o hacer clic en el botón de puntos susp
 
   >[!IMPORTANT]
   >
-  >Una vez eliminado, el elemento de decisión y su contenido ya no son accesibles. Esta acción no se puede deshacer. Si el elemento de decisión se utiliza en una colección o una decisión, no se puede eliminar. Primero debe quitar el elemento de decisión de los objetos.
+  >Una vez eliminado, el elemento de decisión y su contenido ya no son accesibles. Esta acción no se puede deshacer.
+
+  Los elementos de oferta aprobados no se pueden eliminar si se utilizan en una colección o una decisión. Para eliminarlos, cambie su estado a Borrador. Para ello, haga clic en el botón de los tres puntos y seleccione **[!UICONTROL Deshacer aprobación]**.
+
+  ![](assets/item-undo.png)
 
 * **[!UICONTROL Archivo]**: Establece el estado del elemento de decisión en **[!UICONTROL Archivado]**. El elemento de decisión aún está disponible en la lista, pero no puedes volver a establecer su estado en **[!UICONTROL Borrador]** o **[!UICONTROL Aprobado]**. Solo puede duplicarlo o eliminarlo.
