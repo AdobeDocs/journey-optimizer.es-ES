@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo empezar con campañas orquestadas
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 18%
+source-wordcount: '527'
+ht-degree: 14%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 18%
 **Tabla de contenido**
 
 * Introducción a campañas orquestadas: [Principios clave](gs-campaign-creation.md)
-* Configuración: [Trabajar con esquemas](ms-schemas.md) - [Trabajar con variables de eventos](event-variables.md)
-* Introducción: [Cree una campaña orquestada](create-ms-campaign.md) - [Configure la configuración de la campaña](ms-campaign-settings.md) - [Inicie y supervise sus campañas](start-monitor-campaigns.md) - [Empiece a usar las actividades](activities/about-activities.md) - [Organice las actividades](orchestrate-activities.md) - [Personalization](ms-personalization.md)
+* Configuración: [Configure sus campañas orquestadas](gs-campaign-config.md) - [Trabaje con esquemas](ms-schemas.md) - [Trabaje con variables de eventos](event-variables.md)
+* Introducción: [Crear una campaña orquestada](create-ms-campaign.md) - [Configurar la configuración de la campaña](ms-campaign-settings.md) - [Programar e iniciar sus campañas](start-monitor-campaigns.md) - [Comenzar con actividades](activities/about-activities.md) - [Organizar actividades](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * Lista de actividades: [And-join](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Acciones de canal](activities/channels.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Cargar archivo](activities/load-file.md) - [Reconciliación](activities/reconciliation.md) - [Guardar audiencia](activities/save-audience.md) - [Programador](activities/scheduler.md) - [División](activities/split.md) - [Prueba](activities/test.md) - [Actualización de datos](activities/update-data.md) - [Espera](activities/wait.md)
 
 >[!ENDSHADEBOX]
@@ -41,8 +41,11 @@ Con un entorno gráfico completo, puede diseñar procesos como la segmentación,
 
 ## orquestación de recorrido y orquestación de campaña
 
-Recorridos frente a campañas: explicar las diferencias, los casos de uso y las prácticas recomendadas
+Campaign Orchestration es el módulo principal para diseñar, enviar y rastrear comunicaciones de marca a escala. Permite la distribución automatizada de mensajes de marketing a audiencias de destino, aprovechando los segmentos de datos existentes para una personalización eficaz, combinando entidades de perfil y no de perfil. Ideal para la difusión impulsada por campañas, Campaign Orchestration garantiza una entrega de mensajes coherente y eficaz (a menudo programada con antelación) para impulsar la participación de los clientes y apoyar los objetivos clave de marketing.
 
+Campaign Orchestration redefine la segmentación de audiencia habilitando la función multientidad en Adobe Journey Optimizer y facilita la mensajería segmentada en función, por ejemplo, de estados, eventos, contratos o reservas específicos. Como puede enviar comunicaciones a entidades que no sean perfiles o crear consultas en cualquier entidad, puede tener una vista integral y capturar una gran cantidad de perspectivas para crear sus audiencias.
+
+Al potenciar las decisiones basadas en datos, Campaign Orchestration aprovecha varias fuentes para un conjunto de datos dinámico enriquecido.
 
 
 ## Vamos a profundizar
@@ -55,7 +58,7 @@ Ahora que conoce qué son los flujos de trabajo y qué puede hacer con ellos en 
 <img alt="Acceso y administración de flujos de trabajo" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="gs-campaign-creation.md"><strong>Principios clave</strong></a>
+<a href="gs-campaign-creation.md"><strong>Pasos de configuración</strong></a>
 </div>
 <p>
 </td>
@@ -63,7 +66,7 @@ Ahora que conoce qué son los flujos de trabajo y qué puede hacer con ellos en 
 <a href="create-ms-campaign.md">
 <img alt="Posible cliente" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-ms-campaign.md"><strong>Crear una campaña de varios pasos</strong>
+<div><a href="create-ms-campaign.md"><strong>Crear una campaña orquestada</strong>
 </div>
 <p>
 </td>
