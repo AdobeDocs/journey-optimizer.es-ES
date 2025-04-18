@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8998e4c6c1eca4e0cd6c0336df781eb6628b118d
+source-git-commit: d4d7cab6b6841c2122d901f55c3162f0549ad5ff
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2342'
 ht-degree: 89%
 
 ---
@@ -177,13 +177,14 @@ ht-degree: 89%
    + [Principios clave](using/ms/gs-campaign-creation.md)
    + Configuración {#ms-config}
       + [Pasos de configuración](using/ms/gs-campaign-config.md)
-      + [Esquemas](using/ms/ms-schemas.md)
+      + [Creación de esquemas relacionales](using/ms/ms-schemas.md)
       + [Trabajo con variables de evento](using/ms/event-variables.md)
    + Creación de la primera campaña orquestada {#create-ms-campaign}
       + [Creación de una campaña organizada](using/ms/create-ms-campaign.md)
       + [Organización de actividades](using/ms/orchestrate-activities.md)
       + [Configuración de campaña](using/ms/ms-campaign-settings.md)
-      + [Iniciar y monitorizar campañas](using/ms/start-monitor-campaigns.md)
+      + [Programación e inicio de campañas](using/ms/start-monitor-campaigns.md)
+      + [Informes de campañas organizadas](using/ms/reporting-campaigns.md)
       + [Administrar personalización](using/ms/ms-personalization.md)
    + Actividades de campaña organizadas {#design-campaigns}
       + [Acerca de las actividades de campaña orquestadas](using/ms/activities/about-activities.md)
