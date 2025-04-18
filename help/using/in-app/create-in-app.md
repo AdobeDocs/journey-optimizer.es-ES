@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2056'
 ht-degree: 12%
 
 ---
@@ -118,6 +118,10 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 1. Una vez que el mensaje en la aplicación esté listo, finalice la configuración y publique el recorrido para activarlo.
 
 Para obtener más información sobre cómo configurar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
+
+>[!NOTE]
+>
+>Si desea mostrar un mensaje en la aplicación poco después de enviar una notificación push, utilice una actividad **Wait** para permitir que se propague el tiempo de carga del mensaje en la aplicación. Normalmente se recomienda una espera de 5 a 15 minutos, pero los tiempos exactos pueden variar según la complejidad de la carga útil y las necesidades de personalización.
 
 >[!TAB Agregar un mensaje en la aplicación a una campaña]
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 15%
 
 ---
 
@@ -47,9 +47,13 @@ Un individuo puede ingresar a una actividad **Wait** solo si le queda tiempo suf
 
 Una práctica recomendada es no usar las actividades **Wait** para bloquear la reentrada. En su lugar, use la opción **Permitir la reentrada** en el nivel de propiedades de recorrido. Más información sobre [esta página](../building-journeys/journey-properties.md#entrance).
 
-### Modo de espera y prueba {#wait-test-modd}
+### Modo de espera y prueba {#wait-test-mode}
 
 En el modo de prueba, el parámetro **[!UICONTROL Tiempo de espera en prueba]** le permite definir el tiempo que durará cada actividad de **Wait**. El tiempo predeterminado es 10 segundos. Esto garantizará que obtenga los resultados de la prueba rápidamente. Más información sobre [esta página](../building-journeys/testing-the-journey.md).
+
+### Canales de espera y móviles {#wait-mobile-channels}
+
+Si desea mostrar un [mensaje en la aplicación](../in-app/create-in-app.md) poco después de enviar una [notificación push](../push/get-started-push.md), use una actividad de **Espera** para permitir que se propague el tiempo de carga del mensaje en la aplicación. Normalmente se recomienda una espera de 5 a 15 minutos, pero los tiempos exactos pueden variar según la complejidad de la carga útil y las necesidades de personalización.
 
 ## Configuración {#wait-configuration}
 
