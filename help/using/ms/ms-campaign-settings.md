@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configuración de la campaña orquestada
 description: Obtenga información sobre cómo configurar ajustes de campañas orquestadas con Adobe Journey Optimizer
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1083'
 ht-degree: 8%
 
 ---

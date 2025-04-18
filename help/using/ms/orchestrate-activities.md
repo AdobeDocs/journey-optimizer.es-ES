@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Creación de campañas orquestadas con Adobe Journey Optimizer
 description: Aprenda a crear campañas orquestadas con Adobe Journey Optimizer
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1213'
 ht-degree: 1%
 
 ---
@@ -29,13 +30,13 @@ Una vez que se ha agregado una actividad al diagrama, aparece un panel derecho q
 
 ![](assets/workflow-configure-activities.png){zoomable="yes"}
 
-Repita este proceso para agregar tantas actividades como desee según las tareas que desee que realice la campaña orquestada. Tenga en cuenta que también puede insertar un nuevo actividad entre dos actividades. Para ello, haga clic en el botón **+** en la transición entre las actividades, seleccione la actividad deseada y configúrela en el panel derecho.
+Repita este proceso para agregar tantas actividades como desee según las tareas que desee que realice la campaña orquestada. Tenga en cuenta que también puede insertar una nueva actividad entre dos actividades. Para ello, haga clic en el botón **+** en la transición entre las actividades, seleccione la actividad deseada y configúrela en el panel derecho.
 
-Para eliminar un actividad, selecciónelo en el lienzo y haga clic en el icono Eliminar **** ubicado en las propiedades de actividad.
+Para quitar una actividad, selecciónela en el lienzo y haga clic en el icono **Eliminar** en las propiedades de la actividad.
 
 >[!TIP]
 >
->Tiene la opción de personalizar el nombre de las transiciones entre cada actividad. Para ello, seleccione el transición y cambie su etiqueta en el panel derecho.
+>Tiene la opción de personalizar el nombre de las transiciones entre cada actividad. Para ello, seleccione la transición y cambie su etiqueta en el panel derecho.
 
 ## La barra de herramientas {#toolbar}
 
@@ -62,10 +63,10 @@ Puede hacer lo siguiente:
 * **Pausar/reanudar** la actividad. Cuando se ejecuta la campaña orquestada, se pausa en la actividad pausada. No se ejecutan la tarea correspondiente ni todas las que la siguen en la misma ruta.
 * **Copie** la actividad. Consulte [esta sección](#copy).
 * **Mover** una actividad y todos sus nodos secundarios a otra transición. Ver [esta sección](#move)
-* Acceda a las opciones **de ejecución de** la actividad.
-* Acceda a los &quot;Logs&quot; y a las **tareas** del actividad.
+* Acceda a las **opciones de ejecución** de la actividad.
+* Acceda a los **registros y tareas** de la actividad.
 
-Varias **actividades de segmentación** , como **Combinar** o **Deduplicar,** le permiten procesar la población restante e incluirla en una transición saliente adicional. Por ejemplo, si está utilizando un **actividad dividido** , el complemento consiste en la población que no coincide con ninguno de los subconjuntos definidos anteriormente. Para utilizar esta capacidad, active la **opción Generar complemento** .
+Varias actividades **Targeting**, como **Combine** o **Deduplication**, le permiten procesar la población restante e incluirla en una transición saliente adicional. Por ejemplo, si está usando una actividad **Split**, el complemento consiste en la población que no coincide con ninguno de los subconjuntos definidos anteriormente. Para usar esta capacidad, active la opción **Generar complemento**.
 
 ![](assets/workflow-split-complement.png)
 
@@ -98,8 +99,8 @@ Este proceso desconecta la actividad y todo lo que se encuentra en su transició
 Para mover una actividad:
 
 1. Seleccione la actividad que desee mover.
-1. En el panel de propiedades del actividad, haga clic en el botón **Mover** botón.
-1. Seleccione la transición donde desea colocar el actividad y su transición saliente y, a continuación, confirme la selección.
+1. En el panel de propiedades de la actividad, haga clic en el botón **Mover**.
+1. Seleccione la transición en la que desea colocar la actividad y su transición saliente y, a continuación, confirme la selección.
 
 ![](assets/activity-move.png)
 
@@ -138,10 +139,10 @@ Este es un ejemplo de campaña orquestada diseñada para enviar un correo electr
 Para ello, se han añadido las actividades siguientes:
 
 * Una actividad **[!UICONTROL Fork]** que divide la campaña orquestada en tres rutas (una para cada conjunto de clientes),
-* **[!UICONTROL Cree audiencia]** actividades para destino los tres grupos de clientes:
+* **[!UICONTROL Cree audiencias]** para segmentar los tres grupos de clientes:
 
    * Clientes con un correo electrónico,
-   * Clientes pertenecientes a la(s) máquina(s) preexistente &quot;Interrested in Coffee Machine(s)&quot; audiencia,
+   * Clientes que pertenecen a la audiencia preexistente &quot;Interesado en las máquinas de café&quot;,
    * Clientes que pertenecen a la audiencia preexistente &quot;VIP o premio&quot;.
 
 * Una actividad **[!UICONTROL Combine]** que agrupa a clientes con un mensaje de correo electrónico y a aquellos interesados en las máquinas de café,

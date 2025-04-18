@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a las campañas orquestadas
 description: Obtenga información sobre cómo empezar con campañas orquestadas
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 14%
+source-wordcount: '531'
+ht-degree: 17%
 
 ---
 
@@ -19,12 +20,21 @@ ht-degree: 14%
 
 **Tabla de contenido**
 
-* Introducción a campañas orquestadas: [Principios clave](gs-campaign-creation.md)
-* Configuración: [Configure sus campañas orquestadas](gs-campaign-config.md) - [Trabaje con esquemas](ms-schemas.md) - [Trabaje con variables de eventos](event-variables.md)
-* Introducción: [Crear una campaña orquestada](create-ms-campaign.md) - [Configurar la configuración de la campaña](ms-campaign-settings.md) - [Introducción a las actividades](activities/about-activities.md) - [Organizar actividades](orchestrate-activities.md) - [Personalization](ms-personalization.md)
-* Lista de actividades: [And-join](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Acciones de canal](activities/channels.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Cargar archivo](activities/load-file.md) - [Reconciliación](activities/reconciliation.md) - [Guardar audiencia](activities/save-audience.md) - [Programador](activities/scheduler.md) - [División](activities/split.md) - [Prueba](activities/test.md) - [Actualización de datos](activities/update-data.md) - [Espera](activities/wait.md)
+* Introducción a las campañas orquestadas
+* Configuración
+   * [Configurar sus campañas orquestadas](gs-campaign-config.md)
+   * [Creación de esquemas relacionales](ms-schemas.md)
+* Creación de la primera campaña orquestada
+   * [Principios clave](gs-campaign-creation.md)
+   * [Creación de una campaña organizada](create-ms-campaign.md)
+   * [Configuración de campaña](ms-campaign-settings.md)
+   * [Introducción a las actividades](activities/about-activities.md)
+   * [Organización de actividades](orchestrate-activities.md)
+* [Personalización](ms-personalization.md)
+* [Prueba y validación de mensajes](ms-proofs.md)
 * [Programación e inicio de campañas](start-monitor-campaigns.md)
-* [Monitorización e informes](reporting-campaigns.md)
+* Lista de actividades: [And-join](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Acciones de canal](activities/channels.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Cargar archivo](activities/load-file.md) - [Reconciliación](activities/reconciliation.md) - [Guardar audiencia](activities/save-audience.md) - [Dividir](activities/split.md) [Prueba](activities/test.md) - [Actualizar datos](activities/update-data.md) - [Espera](activities/wait.md)
+* [Informes](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 
