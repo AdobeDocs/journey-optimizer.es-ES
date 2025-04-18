@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 7243da6ecab9bce2afeb86a35d35b7bc94d4d196
+source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 18%
+source-wordcount: '678'
+ht-degree: 17%
 
 ---
 
@@ -22,7 +22,7 @@ A partir de febrero de 2025, se implementará gradualmente un mecanismo de prote
 * 90 días para los datos en el almacén de perfiles,
 * 13 meses para los datos en el lago de datos.
 
-Este cambio se implementará en **zonas protegidas de clientes existentes** en una fase posterior.
+Este cambio se está implementando en **zonas protegidas de clientes existentes** en una fase posterior.
 
 ## Conjuntos de datos afectados {#datasets}
 
@@ -75,13 +75,13 @@ Actualmente no se admiten extensiones TTL. Sin embargo, se ha planificado trabaj
 
 >[!NOTE]
 >
->Los datos almacenados en el perfil están sujetos al derecho Volumen total de datos. Por lo tanto, cualquier aumento del almacenamiento de datos en el perfil como resultado de una extensión TTL se contaría con el derecho Volumen de datos total. [Más información](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target="_blank}
+>Los datos almacenados en el perfil están sujetos al derecho Volumen total de datos. Por lo tanto, cualquier aumento del almacenamiento de datos en el perfil como resultado de una extensión TTL se contaría con el derecho Volumen de datos total. [Más información](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++¿Pueden los clientes aumentar el TTL para los datos del conjunto de datos del sistema [!DNL Journey Optimizer] en el lago de datos?
 
-Actualmente no se admiten extensiones TTL. Los clientes pueden exportar datos a través de Destinos para conservar los datos durante más tiempo. [Más información](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank}. Además, los clientes con un derecho de **[!DNL Data Distiller]** pueden crear conjuntos de datos derivados para almacenar los datos en el lago de datos sin un TTL. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank}
+Actualmente no se admiten extensiones TTL. Los clientes pueden exportar datos a través de Destinos para conservar los datos durante más tiempo. [Más información](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}. Además, los clientes con un derecho de **[!DNL Data Distiller]** pueden crear conjuntos de datos derivados para almacenar los datos en el lago de datos sin un TTL. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
