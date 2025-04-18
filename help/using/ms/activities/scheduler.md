@@ -19,7 +19,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Actividad planificador"
->abstract="La **actividad del programador** le permite programar cuándo se inicia la campaña orquestada. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como la primera actividad de la campaña orquestada."
+>abstract="La actividad **Scheduler** le permite programar el inicio de la campaña orquestada. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como la primera actividad de la campaña orquestada."
 
 
 La actividad **Scheduler** es una actividad **Flow control**. Le permite programar cuándo se inicia la campaña orquestada. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como la primera actividad de la campaña orquestada.
@@ -55,9 +55,9 @@ Siga estos pasos para configurar la actividad **Planificador**:
 
    * **Diario**: la campaña orquestada se ejecuta a una hora específica una vez al día.
 
-   * **Varias veces al día:** el campaña orquestado se ejecuta regularmente varias veces al día. Puede configurar ejecuciones en momentos específicos o de forma periódica.
+   * **Varias veces al día:** la campaña orquestada se ejecuta regularmente varias veces al día. Puede configurar ejecuciones en momentos específicos o de forma periódica.
 
-   * **Semanal:** el campaña orquestado se ejecuta en un momento determinado, una o varias veces por semana.
+   * **Semanal**: la campaña orquestada se ejecuta en un momento determinado una o varias veces a la semana.
 
    * **Mensual**: la campaña orquestada se ejecuta en un momento determinado una o varias veces al mes. Puede seleccionar meses cuando necesite que se ejecute la campaña orquestada. También puede configurar ejecuciones en días de semana del mes específicos, como el segundo martes de mes.
 
@@ -73,7 +73,7 @@ Siga estos pasos para configurar la actividad **Planificador**:
 
 >[!NOTE]
 >
->Si desea inicio la campaña orquestada de inmediato, puede hacer clic en el **tarea** Ejecutar pendiente en la barra de acciones superior del planificador. Este botón solo está disponible cuando se ha iniciado el campaña orquestado.
+>Si desea iniciar la campaña orquestada de inmediato, puede hacer clic en **Ejecutar tarea pendiente** en la barra de acciones superior del planificador. Este botón solo está disponible cuando ha iniciado la campaña orquestada.
 
 ## Ejemplo{#scheduler-example}
 
