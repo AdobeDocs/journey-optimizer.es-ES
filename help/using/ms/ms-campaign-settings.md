@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1040'
 ht-degree: 8%
 
 ---
@@ -104,6 +104,4 @@ Los valores posibles son:
 
 * **[!UICONTROL Errores consecutivos]**: Este campo está disponible cuando el valor **[!UICONTROL Ignorar]** está seleccionado en el campo **[!UICONTROL En caso de errores]**. Puede especificar el número de errores que se pueden omitir antes de que se detenga el proceso. Una vez alcanzado este número, el estado de la campaña orquestada cambia a **[!UICONTROL Failed]**. Si el valor de este campo es 0, la campaña orquestada nunca se detiene, independientemente del número de errores.
 
-## Script de inicialización {#initialization-script}
 
-El **script de inicialización** le permite inicializar variables o modificar propiedades de actividad. Haga clic en el botón **Editar código** y escriba el fragmento de código que desea ejecutar. Se llama al script cuando se ejecuta la campaña orquestada. Consulte la sección relacionada con [variables de eventos](event-variables.md).
