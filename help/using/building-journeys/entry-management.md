@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -22,11 +22,11 @@ La administración de la entrada del perfil depende del tipo de recorrido.
 
 ## Tipos de recorridos {#types-of-journeys}
 
-En Adobe Journey Optimizer, están disponibles los siguientes tipos de recorridos:
+Con Adobe Journey Optimizer, puede crear los siguientes tipos de recorridos:
 
 * **recorridos de evento unitario**: estos recorridos comienzan con un evento unitario. Cuando se recibe el evento, el perfil asociado entra en el recorrido. [Más información](#entry-unitary)
 
-* recorridos de **evento empresarial**: estos recorridos comienzan con un evento empresarial seguido inmediatamente por una actividad de **lectura de audiencia**. Cuando se recibe el evento, los perfiles pertenecientes a la audiencia de destino entran en el recorrido. Se crea una instancia de este recorrido para cada perfil. [Más información](#entry-business)
+* recorridos de **evento empresarial**: estos recorridos comienzan con un evento empresarial seguido inmediatamente de una actividad de **lectura de audiencia**. Cuando se recibe el evento, los perfiles pertenecientes a la audiencia de destino entran en el recorrido. Se crea una instancia de este recorrido para cada perfil. [Más información](#entry-business)
 
 * **Leer audiencia** recorridos: estos recorridos comienzan con una actividad de **Leer audiencia**. Cuando se ejecuta el recorrido, los perfiles pertenecientes a la audiencia de destino entran en el recorrido. Se crea una instancia de este recorrido para cada perfil. Estos recorridos pueden ser recurrentes o &quot;únicos&quot;. [Más información](#entry-read-audience)
 
