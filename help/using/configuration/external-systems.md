@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1374'
 ht-degree: 28%
 
 ---
@@ -29,7 +29,11 @@ Cuando Journey Optimizer ejecuta una llamada a una API externa, las protecciones
 
 1. Se aplican reglas de límite o restricción: si se alcanza la tasa máxima, las llamadas restantes se descartan o se ponen en cola.
 
-2. Tiempo de espera y reintento: si se cumple la regla de límite o regulación, Journey Optimizer intenta realizar la llamada hasta que se alcanza el final de la duración del tiempo de espera.
+1. Tiempo de espera y reintento: si se cumple la regla de límite o regulación, Journey Optimizer intenta realizar la llamada hasta que se alcanza el final de la duración del tiempo de espera.
+
+>[!TIP]
+>
+>Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` ](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
 
 ## API de límite y restricción {#capping}
 
@@ -98,7 +102,7 @@ Veamos un ejemplo para un tiempo de espera de 5 segundos.
 
 **¿Cómo puedo configurar una regla de restricción o límite? ¿Hay una regla predeterminada?**
 
-Para crear reglas de restricción o límite, consulte [esta sección](../configuration/external-systems.md#capping). De forma predeterminada, no hay ninguna regla de restricción, pero se establece un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tenerlo en cuenta en los recorridos basados en públicos definiendo una tasa de lectura adecuada (5.000 perfiles cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción.
+Para crear reglas de restricción o límite, consulte [esta sección](../configuration/external-systems.md#capping). De forma predeterminada, no hay ninguna regla de restricción, pero se establece un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tenerlo en cuenta en los recorridos basados en públicos definiendo una tasa de lectura adecuada (5000 perfiles por segundo cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción.
 
 **¿Cuántos reintentos se realizan? ¿Puedo cambiar el número de reintentos o definir un período de espera mínimo entre reintentos?**
 
