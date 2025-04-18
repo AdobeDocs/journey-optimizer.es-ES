@@ -6,17 +6,16 @@ description: Obtenga información sobre cómo programar e iniciar campañas orqu
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 3%
+source-wordcount: '1102'
+ht-degree: 9%
 
 ---
 
 # Programación e inicio de campañas orquestadas {#start-monitor}
 
-<!--
-<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
@@ -25,9 +24,80 @@ ht-degree: 3%
 
 Una vez que haya creado las tareas orquestadas y diseñadas para realizarlas en el lienzo, puede publicarlas y monitorizar cómo se ejecutan.
 
+## Opciones de programación
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_scheduler"
+>title="Actividad planificador"
+>abstract="El **Programador** de la campaña le permite programar cuándo se inicia la campaña orquestada. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como la primera actividad de la campaña orquestada."
+
+Como administrador de campañas, puede programar campañas para que se inicien automáticamente en momentos específicos, lo que permite un tiempo preciso y datos de segmentación precisos para las comunicaciones de marketing.
+
+### Prácticas recomendadas {#scheduler-best-practices}
+
+* No programe una campaña orquestada para que se ejecute durante más de 15 minutos, ya que podría limitar el rendimiento general del sistema y crear bloques en la base de datos.
+* Si desea enviar un mensaje de una sola vez en la campaña orquestada, puede configurarlo para que se ejecute **Una vez**.
+* Si desea enviar un mensaje recurrente en la campaña orquestada, debe utilizar una opción **Scheduling** y establecer la frecuencia de ejecución. La actividad de entrega recurrente no permite definir una programación.
+
+### Configuración de la programación de campañas {#scheduler-configuration}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_validity"
+>title="Validez del planificador"
+>abstract="Puede definir un período de validez para el planificador. Puede ser permanente (predeterminado) o válido hasta una fecha específica."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_options"
+>title="Opciones del planificador"
+>abstract="Defina la frecuencia del planificador. Se puede ejecutar en un momento específico, una o varias veces al día, a la semana o al mes."
+
+![Pantalla del programador con opciones mensuales](assets/scheduler-screen.png)
+
+Siga estos pasos para configurar la **programación de campaña orquestada**:
+
+1. Seleccione el botón **Lo antes posible** en la parte superior del lienzo de la campaña orquestada.
+
+1. Configure **Frecuencia de ejecución**:
+
+   * **Una vez**: la campaña orquestada se ejecuta una sola vez.
+
+   * **Diario**: la campaña orquestada se ejecuta a una hora específica una vez al día.
+
+   * **Varias veces al día:** la campaña orquestada se ejecuta regularmente varias veces al día. Puede configurar ejecuciones en momentos específicos o de forma periódica.
+
+   * **Semanal**: la campaña orquestada se ejecuta en un momento determinado una o varias veces a la semana.
+
+   * **Mensual**: la campaña orquestada se ejecuta en un momento determinado una o varias veces al mes. Puede seleccionar meses cuando necesite que se ejecute la campaña orquestada. También puede configurar ejecuciones en días de semana del mes específicos, como el segundo martes de mes.
+
+     ![Pantalla del programador con muestra de ejecución diaria](assets/scheduler-daily-sample.png){width="50%" align="left"}
+
+1. Defina los detalles de ejecución según la frecuencia seleccionada. Los campos de detalle varían según la frecuencia utilizada (tiempo, frecuencia de repetición, días especificados, etc.).
+
+1. Haga clic en **Previsualizar horas de inicio** para comprobar la programación de las siguientes diez ejecuciones de la campaña orquestada.
+
+1. Defina el periodo de validez del planificador:
+
+   * **Permanente (nunca caduca)**: la campaña orquestada se ejecuta según la frecuencia especificada, sin límites en el lapso de tiempo ni número de iteraciones.
+
+   * **Período de validez**: la campaña orquestada se ejecuta según la frecuencia especificada, hasta una fecha específica. Debe especificar las fechas de inicio y finalización.
+
+1. Seleccione **Confirmar** para guardar la configuración. La frecuencia de ejecución se muestra encima del lienzo de campaña orquestado.
+
+>[!TIP]
+>
+>Si desea iniciar la campaña orquestada de inmediato, mantenga el valor predeterminado **Lo antes posible**.
+
+## Ejemplo {#scheduler-example}
+
+En el siguiente ejemplo, la actividad se configura de modo que la campaña orquestada se ejecute dos veces al día a las 9 y las 12 de la mañana, todos los días de la semana del 1 de octubre de 2025 al 1 de enero de 2026.
+
+![Programador configurado para ejecutar la campaña dos veces al día a las 09:00 y a las 12:00](assets/scheduler-sample.png){width="50%" align="left"}
+
+
 ## Inicio de una campaña orquestada {#start}
 
-Para iniciar una campaña orquestada, vaya a la pestaña **[!UICONTROL Varios pasos]** en el menú de **[!UICONTROL Campaña]**, seleccione la campaña que desee iniciar y, a continuación, haga clic en el botón **[!UICONTROL Iniciar]** en la esquina superior derecha del lienzo.
+Para iniciar una campaña orquestada, vaya a la pestaña **[!UICONTROL Orchestration]** del menú **[!UICONTROL Campaigns]**, seleccione la campaña que desee iniciar y, a continuación, haga clic en el botón **[!UICONTROL Play]** en la esquina superior derecha del lienzo.
 
 Una vez que se está ejecutando la campaña orquestada, cada actividad del lienzo se ejecuta en un orden secuencial, hasta que se llega al final de la campaña orquestada.
 
