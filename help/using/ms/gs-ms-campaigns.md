@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo empezar con campañas orquestadas
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
+source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '529'
 ht-degree: 14%
 
 ---
@@ -21,8 +21,10 @@ ht-degree: 14%
 
 * Introducción a campañas orquestadas: [Principios clave](gs-campaign-creation.md)
 * Configuración: [Configure sus campañas orquestadas](gs-campaign-config.md) - [Trabaje con esquemas](ms-schemas.md) - [Trabaje con variables de eventos](event-variables.md)
-* Introducción: [Crear una campaña orquestada](create-ms-campaign.md) - [Configurar la configuración de la campaña](ms-campaign-settings.md) - [Programar e iniciar sus campañas](start-monitor-campaigns.md) - [Comenzar con actividades](activities/about-activities.md) - [Organizar actividades](orchestrate-activities.md) - [Personalization](ms-personalization.md)
+* Introducción: [Crear una campaña orquestada](create-ms-campaign.md) - [Configurar la configuración de la campaña](ms-campaign-settings.md) - [Introducción a las actividades](activities/about-activities.md) - [Organizar actividades](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * Lista de actividades: [And-join](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Acciones de canal](activities/channels.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Cargar archivo](activities/load-file.md) - [Reconciliación](activities/reconciliation.md) - [Guardar audiencia](activities/save-audience.md) - [Programador](activities/scheduler.md) - [División](activities/split.md) - [Prueba](activities/test.md) - [Actualización de datos](activities/update-data.md) - [Espera](activities/wait.md)
+* [Programación e inicio de campañas](start-monitor-campaigns.md)
+* [Monitorización e informes](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 
