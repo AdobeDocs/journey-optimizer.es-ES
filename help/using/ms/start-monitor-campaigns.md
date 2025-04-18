@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo programar e iniciar campañas orqu
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1124'
 ht-degree: 9%
 
 ---
@@ -127,9 +127,15 @@ Los indicadores visuales de la esquina superior derecha de cada cuadro de activi
 
 ## Monitorización de registros y tareas {#logs-tasks}
 
-La monitorización de registros y tareas de flujos de trabajo es un paso clave para analizar las campañas orquestadas y asegurarse de que se ejecutan correctamente. Se puede acceder a ellos desde el icono **[!UICONTROL Logs]** que está disponible en la barra de herramientas de acciones y en el panel de propiedades de cada actividad.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_logs"
+>title="Registros y tareas"
+>abstract="La pantalla **Registros y tareas** proporciona un historial de la ejecución de la campaña orquestada, registrando todas las acciones del usuario y los errores encontrados."
+
+La monitorización de registros y tareas es un paso clave para analizar las campañas orquestadas y asegurarse de que se ejecutan correctamente. Se puede acceder a ellos desde el icono **[!UICONTROL Logs]** que está disponible en la barra de herramientas de acciones y en el panel de propiedades de cada actividad.
 
 El menú **[!UICONTROL Registros y tareas]** proporciona un historial de la ejecución de la campaña orquestada, registrando todas las acciones del usuario y los errores encontrados.
+
 ![](assets/workflow-logs.png){zoomable="yes"}
 
 Hay dos tipos de información disponibles:
