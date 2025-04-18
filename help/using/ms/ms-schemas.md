@@ -1,22 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabajo con esquemas en campañas orquestadas
-description: Aprenda a crear y administrar esquemas en sus campañas orquestadas
+title: Creación de esquemas relacionales para campañas orquestadas
+description: Aprenda a crear y administrar esquemas relacionales para sus campañas organizadas
 hide: true
 hidefromtoc: true
 exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
-source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
+source-git-commit: c26cf974525ac6f7de0b93a5e50e85a111b2a475
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 5%
+source-wordcount: '72'
+ht-degree: 61%
 
 ---
 
-# Usar esquemas {#ms-schemas}
+# Creación de esquemas relacionales {#ms-schemas}
 
-Explicar los principios básicos del almacén relacional de TIPO II desde el modelado del esquema de datos hasta la ingesta de datos, destacando la interacción entre UPS y el modelo relacional
+Un esquema representa y valida la estructura y el formato de los datos. Proporciona una definición abstracta de un objeto del mundo real (como, por ejemplo, una persona) y describe qué datos deben incluirse en cada instancia de ese objeto (como, por ejemplo, nombre, cumpleaños, etc.).
 
-Mostrar ruta para crear esquemas relacionales
-
-Mostrar ruta para introducir datos en esquemas relacionales
+![Botón Crear esquema con la opción Relacional seleccionada](assets/create-relational-schema.png)
