@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: f0213f1270e9821b61a5dc396e39f5707f8f4b42
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 26%
+source-wordcount: '332'
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,9 @@ ht-degree: 26%
 >title="Actividad cambiar dimensión"
 >abstract="Esta actividad le permite cambiar la dimensión de segmentación a medida que genera un público. Desplace el eje en función de la plantilla de datos y la dimensión de entrada. Por ejemplo, puede cambiar de la dimensión “contratos” a la dimensión “clientes”."
 
-La actividad **Cambiar dimensión** es una actividad **Segmentación**. Esta actividad le permite cambiar la dimensión de segmentación mientras crea la campaña orquestada. Desplaza el eje en función de la plantilla de datos y la dimensión de entrada.
+Como especialista en marketing, puede cambiar la dimensión objetivo de una entidad a otra entidad vinculada dentro de una campaña orquestada y refinar la segmentación de audiencia en función de diferentes conjuntos de datos, como pasar de la generación de perfiles de usuarios a la segmentación de sus acciones o reservas específicas.
+
+Para ello, usa la actividad de segmentación **Change dimension**. Esta actividad le permite cambiar la dimensión de segmentación mientras crea la campaña orquestada. Desplaza el eje en función de la plantilla de datos y la dimensión de entrada.
 
 Por ejemplo, puede cambiar la dimensión de segmentación de una campaña orquestada de &quot;Perfil&quot; a &quot;Contratos&quot; para enviar mensajes al propietario del contrato de destino.
 
@@ -41,7 +43,7 @@ Siga estos pasos para configurar la actividad **Cambiar dimensión**:
 
 1. Agregue una actividad **Change dimension** a su campaña orquestada.
 
-   ![](assets/change-dimension.png)
+   ![](../assets/change-dimension.png)
 
 1. Defina **Nueva dimensión de destino**. Durante el cambio de dimensión, se guardan todos los registros.
 
@@ -53,4 +55,4 @@ En este ejemplo, deseamos enviar un envío SMS a todos los perfiles que han real
 
 Luego usamos una actividad **[!UICONTROL Change dimension]** para cambiar la dimensión de segmentación de la campaña orquestada a &quot;Destinatarios&quot;. Esto nos permite segmentar los destinatarios que coincidan con la consulta.
 
-![](assets/change-dimension-example.png)
+![](../assets/change-dimension-example.png)

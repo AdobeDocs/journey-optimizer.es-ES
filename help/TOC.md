@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '2337'
-ht-degree: 89%
+source-wordcount: '2342'
+ht-degree: 88%
 
 ---
 
@@ -182,6 +182,7 @@ ht-degree: 89%
       + [Creación de una campaña organizada](using/ms/create-ms-campaign.md)
       + [Organización de actividades](using/ms/orchestrate-activities.md)
       + [Configuración de campaña](using/ms/ms-campaign-settings.md)
+      + [Prueba y validación de mensajes](using/ms/ms-proofs.md)
       + [Programación e inicio de campañas](using/ms/start-monitor-campaigns.md)
       + [Informes de campañas organizadas](using/ms/reporting-campaigns.md)
       + [Administrar personalización](using/ms/ms-personalization.md)

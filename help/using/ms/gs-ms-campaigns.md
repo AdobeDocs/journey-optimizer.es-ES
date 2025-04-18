@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 17%
+source-wordcount: '535'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,8 @@ ht-degree: 17%
    * [Configuración de campaña](ms-campaign-settings.md)
    * [Introducción a las actividades](activities/about-activities.md)
    * [Organización de actividades](orchestrate-activities.md)
-* [Personalización](ms-personalization.md)
+* [Personaliza tus mensajes](ms-personalization.md)*
+* [Creación de consultas](ms-query-modeler.md)
 * [Prueba y validación de mensajes](ms-proofs.md)
 * [Programación e inicio de campañas](start-monitor-campaigns.md)
 * Lista de actividades: [And-join](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Acciones de canal](activities/channels.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Cargar archivo](activities/load-file.md) - [Reconciliación](activities/reconciliation.md) - [Guardar audiencia](activities/save-audience.md) - [Dividir](activities/split.md) [Prueba](activities/test.md) - [Actualizar datos](activities/update-data.md) - [Espera](activities/wait.md)
