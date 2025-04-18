@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
+source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1768'
 ht-degree: 8%
 
 ---
@@ -72,7 +72,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 * Para optimizar el rendimiento y evitar el uso de recursos obsoletos, todos los recorridos en modo de prueba que no se hayan activado durante una semana volverán al estado **Borrador**.
 * Los eventos activados por el modo de prueba se almacenan en conjuntos de datos dedicados. Estos conjuntos de datos están etiquetados de la siguiente manera: `JOtestmode - <schema of your event>`
 * Al probar recorridos que incluyen varios eventos, debe almacenar en déclencheur cada evento en secuencia. Si se envía un evento demasiado pronto (antes de que termine el primer nodo de espera) o demasiado tarde (después del tiempo de espera configurado), se descartará el evento y se enviará el perfil a una ruta de tiempo de espera. Confirme siempre que las referencias a los campos de carga útil de evento sigan siendo válidas enviando la carga útil dentro de la ventana definida
-
+* Asegúrese de que la ventana del recorrido Elegir [fechas/hora de inicio y finalización](journey-properties.md#dates) incluya la hora actual al iniciar el modo de prueba. De lo contrario, los eventos de prueba activados se descartan silenciosamente.
 
 <!--
 * Fields from related entities are hidden from the test mode.
