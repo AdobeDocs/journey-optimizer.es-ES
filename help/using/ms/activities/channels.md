@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '892'
 ht-degree: 48%
 
 ---
@@ -28,7 +28,7 @@ Comience a crear su campaña orquestada con las actividades relevantes:
 
 * Antes de insertar una actividad de canal, debe definir la audiencia. La audiencia es el destinatario principal del envío: los perfiles que reciben los mensajes.
 
-* Para realizar una entrega recurrente, inicie la campaña orquestada con una actividad **Scheduler**. También puede usar una actividad **Scheduler** para envíos únicos de una sola toma a fin de establecer la fecha de contacto para ese envío. Esa fecha de contacto también se puede establecer en la configuración de envío. Consulte [esta sección](scheduler.md).
+* Para realizar una entrega recurrente, inicie la campaña orquestada con una actividad **Scheduler**. También puede usar una actividad **Scheduler** para envíos únicos de una sola toma a fin de establecer la fecha de contacto para ese envío. Esa fecha de contacto también se puede establecer en la configuración de envío.
 
 ## Configuración de una actividad de canal {#create-a-delivery-in-a-workflow}
 
@@ -64,7 +64,7 @@ Para configurar una entrega en el contexto de una campaña orquestada, siga los 
 1. Seleccione **Tipo de entrega**: individual o recurrente.
 
    * Una **entrega única** es una entrega de una sola toma que se envía una sola vez, por ejemplo un correo electrónico de Black Friday.
-   * Se realiza **una entrega recurrente** varias veces según su frecuencia de ejecución definida en una [actividad de planificador](scheduler.md). Cada vez que se ejecuta la campaña orquestada, la audiencia se recalcula y la entrega se envía a la audiencia actualizada, con el contenido actualizado. Puede ser un boletín semanal o un correo electrónico de cumpleaños recurrente, por ejemplo.
+   * Se realiza **una entrega recurrente** varias veces según su frecuencia de ejecución. Cada vez que se ejecuta la campaña orquestada, la audiencia se recalcula y la entrega se envía a la audiencia actualizada, con el contenido actualizado. Puede ser un boletín semanal o un correo electrónico de cumpleaños recurrente, por ejemplo.
 
 1. Seleccione una **Plantilla** de envío. Las plantillas son opciones de envío preconfigurados específicos de un canal. Hay disponible una plantilla integrada para cada canal que se rellena previamente de forma predeterminada.
 
