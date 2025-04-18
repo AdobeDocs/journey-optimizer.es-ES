@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
+source-git-commit: 8998e4c6c1eca4e0cd6c0336df781eb6628b118d
 workflow-type: tm+mt
-source-wordcount: '2339'
+source-wordcount: '2337'
 ht-degree: 89%
 
 ---
@@ -174,7 +174,6 @@ ht-degree: 89%
          + [Utilice acciones personalizadas para escribir los eventos de recorrido en Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campañas organizadas {#orchestrated-campaigns}
    + [Introducción a las campañas orquestadas](using/ms/gs-ms-campaigns.md)
-   + [Pasos de configuración](using/ms/gs-campaign-config.md)
    + [Principios clave](using/ms/gs-campaign-creation.md)
    + Configuración {#ms-config}
       + [Pasos de configuración](using/ms/gs-campaign-config.md)
