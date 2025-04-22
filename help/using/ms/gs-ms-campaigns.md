@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 17%
+source-wordcount: '524'
+ht-degree: 16%
 
 ---
 
@@ -20,22 +20,19 @@ ht-degree: 17%
 
 **Tabla de contenido**
 
-* Introducción a las campañas orquestadas
-* Configuración
-   * [Configurar sus campañas orquestadas](gs-campaign-config.md)
-   * [Creación de esquemas relacionales](ms-schemas.md)
-* Creación de la primera campaña orquestada
-   * [Principios clave](gs-campaign-creation.md)
-   * [Creación de una campaña organizada](create-ms-campaign.md)
-   * [Configuración de campaña](ms-campaign-settings.md)
-   * [Introducción a las actividades](activities/about-activities.md)
-   * [Organización de actividades](orchestrate-activities.md)
+* Configuración: [Configure sus campañas orquestadas](gs-campaign-config.md)
+* Configuración: [Crear esquemas relacionales](ms-schemas.md)
+* Cree su primera campaña organizada: [Principios clave](gs-campaign-creation.md)
+* [Creación de una campaña organizada](create-ms-campaign.md)
+* [Configuración de campaña](ms-campaign-settings.md)
 * [Personalizar los mensajes](ms-personalization.md)
 * [Creación de consultas](ms-query-modeler.md)
 * [Prueba y validación de mensajes](ms-proofs.md)
 * [Programación e inicio de campañas](start-monitor-campaigns.md)
-* Lista de actividades: [And-join](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Acciones de canal](activities/channels.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [División](activities/split.md) - [Prueba](activities/test.md) - [Espera](activities/wait.md)
-* [Informes](reporting-campaigns.md)
+* Actividades: [Introducción a las actividades](activities/about-activities.md)
+* [Organización de actividades](orchestrate-activities.md)
+* [And-join](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Anulación de duplicación](activities/deduplication.md) - [Acciones de canal](activities/channels.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [División](activities/split.md) - &lt;!—[Prueba](activities/test.md) —> [Espera](activities/wait.md)
+* Supervisión: [Informes](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 
