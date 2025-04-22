@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 733b08dff82f0d6f0f62d2e7644aeee493a69503
+source-git-commit: b620d479548791df97912b143e7dbe7557ab4acc
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '389'
 ht-degree: 27%
 
 ---
@@ -53,11 +53,12 @@ Adobe Journey Optimizer le permite automatizar y ejecutar campañas de marketing
 
 ![Lista de actividades de control de flujo](../assets/flow-control-activities.png){width="30%" align="left"}
 
-
 Las siguientes actividades son específicas para organizar y ejecutar campañas orquestadas. Su tarea principal es coordinar las otras actividades:
 
 * [And-join](and-join.md): sincronice varias ramas de ejecución de una campaña orquestada.
-* **Fin**: Marca gráficamente el final de una campaña orquestada. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional
 * [Bifurcación](fork.md): cree transiciones salientes para iniciar varias actividades al mismo tiempo.
-* [Prueba](test.md): habilita transiciones basadas en condiciones especificadas.
+  <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 * [Espera](wait.md): Pone en pausa momentáneamente la ejecución de una parte de una campaña orquestada.
+
+>[!NOTE]
+>La actividad **End** marca de forma gráfica el final de una campaña orquestada. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional
