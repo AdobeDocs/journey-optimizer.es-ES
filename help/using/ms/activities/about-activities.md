@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
+source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 24%
+source-wordcount: '426'
+ht-degree: 25%
 
 ---
 
@@ -44,7 +44,6 @@ Estas actividades son específicas de la segmentación. Le permiten crear uno o 
 Estas actividades son específicas para manipular y enriquecer datos de población.
 
 * [Cargar archivo](load-file.md): Trabaje con perfiles y datos almacenados en un archivo externo.
-* [Actualizar datos](update-data.md): realice actualizaciones masivas en los campos de la base de datos. Varias opciones permiten personalizar la actualización de datos.
 
 ## Actividades del canal {#channel}
 
