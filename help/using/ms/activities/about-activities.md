@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
+source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 26%
+source-wordcount: '394'
+ht-degree: 27%
 
 ---
 
@@ -20,15 +20,17 @@ Las actividades de campaña organizadas se agrupan en tres categorías. Dependie
 
 Todas las actividades se detallan en las secciones siguientes:
 
-* [Actividades de segmentación y administración de datos](#targeting)
+* [Actividades de segmentación](#targeting)
 * [Actividades del canal](#channel)
 * [Actividades de control de flujo](#flow-control)
 
-![](../assets/workflow-activities.png)
+![Lista de actividades disponibles en el lienzo](../assets/workflow-activities.png){width="70%" align="left"}
 
 ## Actividades de segmentación {#targeting}
 
 Estas actividades son específicas de la segmentación. Le permiten crear uno o más públicos destinatarios al definir públicos y dividirlos o combinarlos mediante operaciones de intersección, unión o exclusión.
+
+![Lista de actividades de segmentación](../assets/targeting-activities.png){width="50%" align="left"}
 
 * [Generar audiencia](build-audience.md): defina la población objetivo. Puede seleccionar una audiencia existente o utilizar el modelador de consultas para definir su propia consulta.
 * [Cambiar dimensión](change-dimension.md): cambie la dimensión de segmentación mientras crea la campaña orquestada.
@@ -36,12 +38,11 @@ Estas actividades son específicas de la segmentación. Le permiten crear uno o 
 * [Anulación de duplicación](deduplication.md): elimine duplicados en los resultados de las actividades entrantes.
 * [Enrichment](enrichment.md): defina datos adicionales para procesar en su campaña orquestada. Con esta actividad, puede aprovechar la transición entrante y configurar la actividad para completar la transición saliente con datos adicionales.
 * [Reconciliación](reconciliation.md): defina el vínculo entre los datos de Journey Optimizer y los datos de una tabla de trabajo, por ejemplo, los datos cargados desde un archivo externo.
-* [Guardar audiencia](save-audience.md): actualice una audiencia existente o cree una nueva a partir de la población calculada en sentido ascendente en una campaña orquestada.
 * [Split](split.md): Segmente la población entrante en varios subconjuntos.
 
 ## Actividades del canal {#channel}
 
-Adobe Journey Optimizer le permite automatizar y ejecutar campañas de marketing en varios canales. Puede combinar actividades de canal en el lienzo para crear campañas orquestadas en canales múltiples que puedan almacenar en déclencheur acciones basadas en el comportamiento del cliente. Las siguientes actividades **Channel** están disponibles: notificaciones push por correo electrónico, SMS, Android y iOS. [Aprenda a configurar una entrega en el contexto de una campaña orquestada](channels.md).
+Adobe Journey Optimizer le permite automatizar y ejecutar campañas de marketing en varios canales. Puede combinar actividades de canal en el lienzo para crear campañas orquestadas en canales múltiples que puedan almacenar en déclencheur acciones basadas en el comportamiento del cliente. Las siguientes actividades **Channel** están disponibles: notificaciones push por correo electrónico, SMS, Android y iOS. [Aprenda a crear una acción de canal en el contexto de una campaña organizada](channels.md).
 
 ## Actividades de control de flujo {#flow-control}
 
@@ -49,6 +50,9 @@ Adobe Journey Optimizer le permite automatizar y ejecutar campañas de marketing
 >id="ajo_orchestration_end"
 >title="Actividad Finalizar"
 >abstract="La actividad **End** le permite marcar de forma gráfica el final de una campaña orquestada. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
+
+![Lista de actividades de control de flujo](../assets/flow-control-activities.png){width="50%" align="left"}
+
 
 Las siguientes actividades son específicas para organizar y ejecutar campañas orquestadas. Su tarea principal es coordinar las otras actividades:
 
