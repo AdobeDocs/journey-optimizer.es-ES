@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
+source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1783'
 ht-degree: 11%
 
 ---
@@ -52,13 +52,13 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="Sincronizar ejecución de recorrido con exportación de audiencia"
->abstract="Active esta opción para almacenar en déclencheur el recorrido una vez que esté disponible una nueva exportación de la audiencia."
+>title="Déclencheur tras la evaluación de audiencia por lotes"
+>abstract="Active esta opción para almacenar en déclencheur la ejecución del recorrido después de una nueva evaluación de la audiencia por lotes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="Sincronizar ejecución de recorrido con exportación de audiencia"
->abstract="Especifique el tiempo que el recorrido esperará para garantizar que haya una nueva exportación de la audiencia disponible."
+>title="Tiempo de espera para una nueva evaluación de audiencia"
+>abstract="Especifique el tiempo que el recorrido esperará a que la audiencia por lotes se evalúe recientemente."
 
 Utilice la actividad **Leer audiencia** para hacer que todos los individuos de una audiencia ingresen al recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular.
 
