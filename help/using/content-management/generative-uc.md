@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 3%
+source-wordcount: '523'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 1. Abra la sección **[!UICONTROL Asistente de IA]**.
 
-1. Activa la función **[!UICONTROL Usar contenido original]** del asistente de IA para adaptar el nuevo contenido según los detalles de la campaña, incluidos el nombre de la campaña y la audiencia de destino.
+1. Active la función **[!UICONTROL Usar contenido original]** del asistente de IA para adaptar el nuevo contenido según los detalles de la campaña, incluidos el nombre de la campaña y la audiencia de destino.
 
 1. Ajuste el contenido especificando la solicitud en el cuadro **[!UICONTROL Preguntar]** y personalice la configuración según sea necesario.
 
@@ -57,13 +57,13 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
    * **[!UICONTROL Usar como contenido de referencia]**: la variación seleccionada actuará como referencia para generar más contenido.
 
-   * **[!UICONTROL Elaborar]**: permita que el asistente de IA expanda ciertos puntos y ofrezca más profundidad y detalle para una mejor participación.
+   * **[!UICONTROL Elaborar]**: permita que el Asistente de IA se expanda en ciertos puntos y ofrezca más profundidad y detalle para una mejor participación.
 
-   * **[!UICONTROL Resumir]**: para obtener información detallada, use el Asistente de IA para crear resúmenes concisos que sean más fáciles de asimilar para los destinatarios de correo electrónico.
+   * **[!UICONTROL Resumir]**: Para obtener información detallada, use el Asistente para IA para crear resúmenes concisos que sean más fáciles de asimilar para los destinatarios de correo electrónico.
 
    * **[!UICONTROL Reformular]**: el Asistente de IA puede presentar el mensaje de diferentes maneras, lo que ayuda a mantener el contenido actualizado para una variedad de audiencias.
 
-   * **[!UICONTROL Use un idioma más sencillo]**: Simplifique el idioma con el Asistente de IA para garantizar que el mensaje sea claro y accesible para todos los lectores.
+   * **[!UICONTROL Use un idioma más sencillo]**: Simplifique el idioma con el Asistente de IA para asegurarse de que el mensaje sea claro y accesible para todos los lectores.
 
    Además, puedes ajustar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu contenido.
 
@@ -95,7 +95,7 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
 1. Después de configurar su campaña de correo electrónico, haga clic en **[!UICONTROL Editar contenido]**.
 
-1. Seleccione el recurso que desea modificar con el asistente de IA.
+1. Seleccione el recurso que desea modificar mediante el Asistente de IA.
 
 1. En el menú del panel derecho, elija **[!UICONTROL Asistente de IA]**.
 

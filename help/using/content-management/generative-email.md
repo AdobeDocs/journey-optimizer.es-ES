@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1701'
 ht-degree: 2%
 
 ---
 
-# Generación de correo electrónico con el Asistente de IA  {#generative-email}
+# Generación de correo electrónico con el asistente de IA  {#generative-email}
 
 >[!IMPORTANT]
 >
@@ -24,9 +24,9 @@ ht-degree: 2%
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
-Después de crear y personalizar los correos electrónicos, aproveche la potencia del asistente de IA en Journey Optimizer, alimentado por IA generativa, para elevar el contenido.
+Después de crear y personalizar los correos electrónicos, aproveche el poder del asistente de IA en Journey Optimizer, alimentado por IA generativa, para elevar el contenido.
 
-Utilice el asistente de IA de Journey Optimizer para mejorar la eficacia de sus campañas mediante la creación de correos electrónicos completos, fragmentos de texto personalizados e imágenes personalizadas que hablen directamente con su audiencia, lo que aumenta la participación y la interacción.
+Utilice el asistente de IA en Journey Optimizer para mejorar la eficacia de sus campañas mediante la creación de correos electrónicos completos, fragmentos de texto personalizados e imágenes personalizadas que hablen directamente con su audiencia, lo que aumenta la participación y la interacción.
 
 Explore las pestañas siguientes para aprender a utilizar el asistente de IA en Journey Optimizer.
 
@@ -44,7 +44,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para refinar una planti
 
    ![](assets/full-email-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
+1. Habilite la opción **[!UICONTROL Usar contenido original]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
 1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
 
@@ -76,7 +76,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para refinar una planti
 
    ![](assets/full-email-6.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el asistente de IA o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
@@ -90,7 +90,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para refinar una planti
 
    * **[!UICONTROL Reformular]**: el Ayudante de IA puede reformular el mensaje de diferentes maneras, lo que mantiene la escritura fresca y atractiva para diversas audiencias.
 
-   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el asistente de IA para simplificar el lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
+   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el Asistente para IA a fin de simplificar su lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
@@ -116,7 +116,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para mejorar el conteni
 
    ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
+1. Habilite la opción **[!UICONTROL Usar contenido original]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
 1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
 
@@ -137,7 +137,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para mejorar el conteni
 
    ![](assets/text-genai-4.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el asistente de IA o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
@@ -157,7 +157,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para mejorar el conteni
 
    * **[!UICONTROL Reformular]**: el Asistente de IA puede reformular su mensaje de diferentes maneras, manteniendo su escritura fresca y atractiva para diversas audiencias.
 
-   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el asistente de IA para simplificar el lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
+   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el Asistente para IA a fin de simplificar su lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
@@ -185,7 +185,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
 
    ![](assets/image-genai-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el asistente de IA personalice el nuevo contenido en función del contenido de referencia. También puede cargar una imagen para añadir contexto a la variación.
+1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el Asistente de IA personalice el nuevo contenido en función del contenido de referencia. También puede cargar una imagen para añadir contexto a la variación.
 
 1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
 
@@ -208,7 +208,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
 
    ![](assets/image-genai-4.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el asistente de IA o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
 

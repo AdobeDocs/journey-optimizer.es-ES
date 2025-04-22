@@ -7,9 +7,10 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 099c0955e9ad2b1abe345d0256d656d41fc0748e
+exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1524'
 ht-degree: 2%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 2%
 >
 >* Debe aceptar el [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
-Transforme sus páginas de aterrizaje con el asistente de IA de Journey Optimizer, con tecnología de IA generativa.
+Transforme sus páginas de aterrizaje con el Asistente de IA en Journey Optimizer, con tecnología de IA generativa.
 
 Cree contenido impactante sin esfuerzo, incluidas páginas completas, fragmentos de texto personalizados y elementos visuales personalizados que resuenen con su audiencia, lo que aumenta la participación y la interacción.
 
@@ -43,7 +44,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para refinar una planti
 
    ![](assets/lp-full-gen-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
+1. Habilite la opción **[!UICONTROL Usar contenido original]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
@@ -69,7 +70,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para refinar una planti
 
    ![](assets/lp-full-gen-4.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el asistente de IA o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
@@ -83,7 +84,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para refinar una planti
 
    * **[!UICONTROL Reformular]**: el Ayudante de IA puede reformular el mensaje de diferentes maneras, lo que mantiene la escritura fresca y atractiva para diversas audiencias.
 
-   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el asistente de IA para simplificar el lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
+   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el Asistente para IA a fin de simplificar su lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
@@ -107,7 +108,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para mejorar el conteni
 
    ![](assets/lp-text-gen-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
+1. Habilite la opción **[!UICONTROL Usar contenido original]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
@@ -124,7 +125,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para mejorar el conteni
 
    ![](assets/lp-text-gen-3.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el asistente de IA o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
@@ -144,7 +145,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para mejorar el conteni
 
    * **[!UICONTROL Reformular]**: el Asistente de IA puede reformular su mensaje de diferentes maneras, manteniendo su escritura fresca y atractiva para diversas audiencias.
 
-   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el asistente de IA para simplificar el lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
+   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el Asistente para IA a fin de simplificar su lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
@@ -170,7 +171,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
 
    ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el asistente de IA personalice el nuevo contenido en función del contenido de referencia. También puede cargar una imagen para añadir contexto a la variación.
+1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el Asistente de IA personalice el nuevo contenido en función del contenido de referencia. También puede cargar una imagen para añadir contexto a la variación.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
@@ -189,7 +190,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
 
    ![](assets/lp-image-gen-3.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el asistente de IA o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
 

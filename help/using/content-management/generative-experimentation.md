@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 11%
+source-wordcount: '249'
+ht-degree: 9%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 11%
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
-Una vez que haya creado y personalizado sus mensajes, eleve su contenido con el asistente de IA en Adobe Journey Optimizer, que incluye la función Experimento de contenido. Esta herramienta le permite definir varios tratamientos de entrega, con contenido variable, para medir el rendimiento de la audiencia de destino.
+Una vez que haya creado y personalizado sus mensajes, eleve su contenido con AI Assistant en Adobe Journey Optimizer, que incluye la función Experimento de contenido. Esta herramienta le permite definir varios tratamientos de entrega, con contenido variable, para medir el rendimiento de la audiencia de destino.
 
-1. Cree su campaña y utilice el asistente de IA para generar sus variantes.
+1. Cree su campaña y utilice el Asistente de IA para generar sus variantes.
 
    En este ejemplo, se ha generado un correo electrónico de confirmación de suscripción con un código de promoción.
 

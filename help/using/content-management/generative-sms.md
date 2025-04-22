@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generación de SMS con el Asistente de IA
+title: Generación de SMS con el asistente de IA
 description: Empiece a generar contenido SMS con el asistente de IA en Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '989'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 4%
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
-Después de crear y adaptar los mensajes SMS para que coincidan con las preferencias de su audiencia, aumente su comunicación con el asistente de IA en Journey Optimizer.
+Después de crear y adaptar los mensajes SMS para que coincidan con las preferencias de su audiencia, eleve su comunicación con AI Assistant en Journey Optimizer.
 
 Este recurso ofrece recomendaciones interesantes para ajustar el contenido, lo que ayuda a que los mensajes resuenen y promuevan la máxima participación.
 
@@ -65,7 +65,7 @@ Explore las pestañas siguientes para aprender a utilizar el asistente de IA en 
 
    ![](assets/sms-genai-3.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el asistente de IA o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
@@ -79,7 +79,7 @@ Explore las pestañas siguientes para aprender a utilizar el asistente de IA en 
 
    * **[!UICONTROL Reformular]**: el Asistente de IA puede reformular su mensaje de diferentes maneras, manteniendo su escritura fresca y atractiva para diversas audiencias.
 
-   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el asistente de IA para simplificar el lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
+   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el Asistente para IA a fin de simplificar su lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
@@ -109,7 +109,7 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
    ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Usar contenido de referencia]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
+1. Habilite la opción **[!UICONTROL Usar contenido de referencia]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
 1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
 
@@ -130,7 +130,7 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
    ![](assets/sms-text-genai-3.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el asistente de IA o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
@@ -144,7 +144,7 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
    * **[!UICONTROL Reformular]**: el Asistente de IA puede reformular su mensaje de diferentes maneras, manteniendo su escritura fresca y atractiva para diversas audiencias.
 
-   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el asistente de IA para simplificar el lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
+   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el Asistente para IA a fin de simplificar su lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
 
    ![](assets/sms-text-genai-4.png){zoomable="yes"}
 

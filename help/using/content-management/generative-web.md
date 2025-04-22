@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Generación de páginas web con el asistente de IA
-description: Empiece a generar contenido y recursos de página web con el asistente de IA de Journey Optimizer.
+description: Empiece a generar contenido y recursos de página web con el asistente de IA en Journey Optimizer.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1066'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
-Una vez que haya creado y personalizado sus páginas web, utilice el asistente de IA de Journey Optimizer con tecnología de IA generativa para llevar el contenido al siguiente nivel.
+Una vez que haya creado y personalizado sus páginas web, utilice el asistente de IA en Journey Optimizer con tecnología de IA generativa para llevar el contenido al siguiente nivel.
 
 El asistente de IA de Journey Optimizer puede ayudarle a optimizar el impacto de las entregas sugiriendo contenido diferente que probablemente interesará más a su audiencia.
 
@@ -40,7 +40,7 @@ El asistente de IA de Journey Optimizer puede ayudarle a optimizar el impacto de
 
    ![](assets/web-gen-full-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
+1. Habilite la opción **[!UICONTROL Usar contenido original]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
 1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
 
@@ -61,7 +61,7 @@ El asistente de IA de Journey Optimizer puede ayudarle a optimizar el impacto de
 
    ![](assets/web-gen-full-3.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el asistente de IA o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
@@ -79,7 +79,7 @@ El asistente de IA de Journey Optimizer puede ayudarle a optimizar el impacto de
 
    * **[!UICONTROL Reformular]**: el Asistente de IA puede reformular su mensaje de diferentes maneras, manteniendo su escritura fresca y atractiva para diversas audiencias.
 
-   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el asistente de IA para simplificar el lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
+   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el Asistente para IA a fin de simplificar su lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
@@ -105,7 +105,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA en Journey Opti
 
    ![](assets/web-gen-img-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el asistente de IA personalice el nuevo contenido en función del contenido de referencia. También puede cargar una imagen para añadir contexto a la variación.
+1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el Asistente de IA personalice el nuevo contenido en función del contenido de referencia. También puede cargar una imagen para añadir contexto a la variación.
 
 1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
 
@@ -128,7 +128,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA en Journey Opti
 
    ![](assets/web-gen-img-3.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el asistente de IA o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
 

@@ -7,10 +7,11 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 89%
+source-wordcount: '674'
+ht-degree: 94%
 
 ---
 
@@ -39,7 +40,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <p>Ahora puede crear reglas empresariales utilizando conjuntos de reglas. Los conjuntos de reglas son grupos de reglas que ayudan a limitar los mensajes enviados dentro de las campañas y las acciones de recorrido entre canales, así como para controlar las entradas de perfiles en los recorridos.<p>
 <p><ul><li>Cree conjuntos de reglas de canal para restringir el número de mensajes enviados a través de uno o varios canales. Aplíquelas a campañas o acciones de recorrido para aplicar las reglas definidas en el conjunto de reglas. El conjunto de reglas de canal le permite aplicar reglas de límite basadas en tipos de comunicación. Por ejemplo, defina una regla para limitar los “mensajes promocionales” y otra para los “boletines”. Aplique el conjunto de reglas adecuado en la campaña o acción de recorrido según el tipo de comunicación que envíe.</li>
 <li> Cree conjuntos de reglas de recorrido para controlar las entradas de perfil en los recorridos. Limite la frecuencia con la que un perfil puede entrar en un recorrido dentro de un período determinado o el número de recorridos en los que se puede inscribir un perfil simultáneamente. Aplíquelas en el nivel de recorrido para garantizar una administración de entrada adecuada.</li></ul></p>
-<p>Anteriormente disponibles para un conjunto de organizaciones (LA), las reglas empresariales ahora están disponibles para todos los usuarios (GA). Las reglas empresariales del dominio de recorrido solo siguen estando disponibles para un conjunto limitado de organizaciones (LA).</p>
+<p>Las reglas empresariales, que anteriormente estaban disponibles para un conjunto de organizaciones (LA), ya están disponibles para todos los usuarios (GA). Las reglas empresariales del dominio de recorrido siguen estando disponibles únicamente para un conjunto limitado de organizaciones (LA).</p>
 <p>Para obtener más información, consulte la <a href="../configuration/rule-sets.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -49,13 +50,13 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Generación de páginas de aterrizaje con el Asistente de IA</strong><br/></th>
+<th><strong>Generación de páginas de aterrizaje con el asistente de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear contenido atractivo para sus páginas de aterrizaje, incluidos diseños de página completa, texto personalizado e imágenes personalizadas, con la ayuda del Asistente de IA.</p>
+<p>Ahora puede crear contenido atractivo para sus páginas de aterrizaje, incluidos diseños de página completa, texto personalizado y imágenes personalizadas, con la ayuda del asistente de IA.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Para obtener más información, consulte la <a href="../content-management/generative-lp.md">documentación detallada</a>.</p>
 </td>
@@ -67,7 +68,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Marcas con el asistente de IA (Beta)</strong><br/></th>
+<th><strong>Marcas con AI Assistant (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -90,7 +91,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede validar una configuración de acción personalizada realizando llamadas de API reales directamente desde Adobe Journey Optimizer. Esta nueva funcionalidad le ayuda a solucionar problemas de las acciones personalizadas antes o después de utilizarlas en un recorrido. </p>
+<p>Ahora puede validar una configuración de acción personalizada realizando llamadas de API reales directamente desde Adobe Journey Optimizer. Esta nueva funcionalidad le ayuda a solucionar los problemas de las acciones personalizadas antes o después de utilizarlas en un recorrido.  </p>
 <p>Para obtener más información, consulte la <a href="../action/troubleshoot-custom-action.md">documentación detallada</a>.</p>
 <!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
@@ -149,4 +150,3 @@ Las mejoras que se muestran a continuación están incluidas en la actualizació
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
 * **Toma de decisiones** (fecha de disponibilidad: 28 de enero de 2025): la toma de decisiones ahora admite tipos de datos de objeto al editar el esquema del catálogo de elementos. [Más información](../experience-decisioning/catalogs.md)
-

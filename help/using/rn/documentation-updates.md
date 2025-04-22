@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 77%
+source-wordcount: '1249'
+ht-degree: 75%
 
 ---
 
@@ -103,8 +103,8 @@ Esta página enumera todas las últimas actualizaciones de la documentación de 
 * Todas las nuevas funciones y mejoras incluidas en la versión de [!DNL Journey Optimizer] de septiembre de 2024 se han detallado en la documentación. [Más información](release-notes.md)
 * Se ha añadido una sección sobre la administración de reintentos de recorrido. [Más información](../building-journeys/read-audience.md#read-audience-retry)
 * Se ha actualizado la pregunta frecuente sobre la regla de límite/restricción para las acciones personalizadas con el fin de mencionar la regla de límite predeterminada. [Más información](../configuration/external-systems.md#faq)
-* La sección Control de acceso se ha actualizado con permisos relacionados con el generador de contenido del Asistente de IA. [Más información](../administration/high-low-permissions.md#ai-permission)
-* Se ha añadido un vídeo sobre el generador de contenido del Asistente de IA para la generación de correo electrónico. [Más información](../content-management/generative-email.md#video)
+* La sección Control de acceso se ha actualizado con permisos relacionados con el generador de contenido del asistente de IA. [Más información](../administration/high-low-permissions.md#ai-permission)
+* Se ha añadido un vídeo sobre el Generador de contenido del asistente de IA para la generación de correo electrónico. [Más información](../content-management/generative-email.md#video)
 
 <!--
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '637'
 ht-degree: 42%
 
 ---
@@ -131,7 +131,7 @@ Para crear y administrar las directrices de marca, puede introducir los detalles
 
    ![](assets/brands-4.png)
 
-1. Una vez configurada, haz clic en **[!UICONTROL Guardar]** y luego en **[!UICONTROL Publicar]** para que la guía de marca esté disponible en el asistente de IA.
+1. Una vez configurada, haz clic en **[!UICONTROL Guardar]** y luego en **[!UICONTROL Publicar]** para que la guía de marca esté disponible en el Asistente de IA.
 
 1. Para hacer modificaciones a tu marca publicada, haz clic en **[!UICONTROL Editar marca]**.
 
@@ -152,6 +152,6 @@ Para crear y administrar las directrices de marca, puede introducir los detalles
 
    ![](assets/brands-6.png)
 
-Ahora se puede acceder a las directrices de marca desde la lista desplegable **[!UICONTROL Marca]** del menú del asistente de IA, lo que le permite generar contenido y recursos alineados con las especificaciones. [Más información sobre el asistente de IA](gs-generative.md)
+Ahora se puede acceder a las directrices de marca desde la lista desplegable **[!UICONTROL Marca]** del menú Asistente de IA, lo que le permite generar contenido y recursos alineados con las especificaciones. [Más información sobre el Asistente de IA](gs-generative.md)
 
 ![](assets/brands-7.png)
