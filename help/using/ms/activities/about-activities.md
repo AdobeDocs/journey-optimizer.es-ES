@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 733b08dff82f0d6f0f62d2e7644aeee493a69503
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 27%
@@ -24,13 +24,13 @@ Todas las actividades se detallan en las secciones siguientes:
 * [Actividades del canal](#channel)
 * [Actividades de control de flujo](#flow-control)
 
-![Lista de actividades disponibles en el lienzo](../assets/workflow-activities.png){width="70%" align="left"}
+![Lista de actividades disponibles en el lienzo](../assets/workflow-activities.png){width="80%" align="left"}
 
 ## Actividades de segmentación {#targeting}
 
 Estas actividades son específicas de la segmentación. Le permiten crear uno o más públicos destinatarios al definir públicos y dividirlos o combinarlos mediante operaciones de intersección, unión o exclusión.
 
-![Lista de actividades de segmentación](../assets/targeting-activities.png){width="50%" align="left"}
+![Lista de actividades de segmentación](../assets/targeting-activities.png){width="40%" align="left"}
 
 * [Generar audiencia](build-audience.md): defina la población objetivo. Puede seleccionar una audiencia existente o utilizar el modelador de consultas para definir su propia consulta.
 * [Cambiar dimensión](change-dimension.md): cambie la dimensión de segmentación mientras crea la campaña orquestada.
@@ -51,7 +51,7 @@ Adobe Journey Optimizer le permite automatizar y ejecutar campañas de marketing
 >title="Actividad Finalizar"
 >abstract="La actividad **End** le permite marcar de forma gráfica el final de una campaña orquestada. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
 
-![Lista de actividades de control de flujo](../assets/flow-control-activities.png){width="50%" align="left"}
+![Lista de actividades de control de flujo](../assets/flow-control-activities.png){width="30%" align="left"}
 
 
 Las siguientes actividades son específicas para organizar y ejecutar campañas orquestadas. Su tarea principal es coordinar las otras actividades:
