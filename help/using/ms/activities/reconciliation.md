@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 42%
+source-wordcount: '560'
+ht-degree: 47%
 
 ---
 
@@ -93,33 +93,3 @@ Siga estos pasos para configurar la actividad **Reconciliation**:
 1. Puede filtrar los datos para conciliarlos usando el botón **Crear filtro**. Esto permite crear una condición personalizada mediante el modelador de consultas.
 
 De forma predeterminada, los datos no conciliados se mantienen en la transición saliente y están disponibles en la tabla de trabajo para su uso futuro. Para quitar los datos no reconciliados, desactive la opción **Mantener datos no reconciliados**.
-
-## Ejemplo {#reconciliation-example}
-
-En el siguiente ejemplo se muestra una campaña orquestada que crea una audiencia de perfiles directamente a partir de un archivo importado que contiene nuevos clientes. Se compone de las siguientes actividades:
-
-La campaña orquestada está diseñada de la siguiente manera:
-
-![](../assets/workflow-reconciliation-sample-1.0.png)
-
-
-Se crea con las siguientes actividades:
-
-* Una actividad de [Cargar archivos](load-file.md) carga un archivo que contiene datos de perfiles extraídos de una herramienta externa.
-
-  Por ejemplo:
-
-  ```
-  lastname;firstname;email;birthdate;
-  JACKMAN;Megan;megan.jackman@testmail.com;07/08/1975;
-  PHILLIPS;Edward;phillips@testmail.com;09/03/1986;
-  WEAVER;Justin;justin_w@testmail.com;11/15/1990;
-  MARTIN;Babe;babeth_martin@testmail.net;11/25/1964;
-  REESE;Richard;rreese@testmail.com;02/08/1987;
-  ```
-
-* Una actividad **Reconciliation** que identifica los datos entrantes como perfiles, usando los campos **email** y **Date of birth** como criterios de reconciliación.
-
-  ![](../assets/workflow-reconciliation-sample-1.1.png)
-
-* Una actividad [Guardar audiencia](save-audience.md) para crear una audiencia nueva basada en estas actualizaciones. También puede reemplazar la actividad **Guardar audiencia** por una actividad **Finalizar** si no es necesario crear o actualizar una audiencia específica. Los perfiles de destinatario se actualizan en cualquier caso al ejecutar la campaña orquestada.

@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 25%
+source-wordcount: '401'
+ht-degree: 26%
 
 ---
 
@@ -38,12 +38,6 @@ Estas actividades son específicas de la segmentación. Le permiten crear uno o 
 * [Reconciliación](reconciliation.md): defina el vínculo entre los datos de Journey Optimizer y los datos de una tabla de trabajo, por ejemplo, los datos cargados desde un archivo externo.
 * [Guardar audiencia](save-audience.md): actualice una audiencia existente o cree una nueva a partir de la población calculada en sentido ascendente en una campaña orquestada.
 * [Split](split.md): Segmente la población entrante en varios subconjuntos.
-
-## Actividades de administración de datos {#data}
-
-Estas actividades son específicas para manipular y enriquecer datos de población.
-
-* [Cargar archivo](load-file.md): Trabaje con perfiles y datos almacenados en un archivo externo.
 
 ## Actividades del canal {#channel}
 
