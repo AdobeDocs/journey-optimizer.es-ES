@@ -14,12 +14,12 @@ ht-degree: 78%
 
 ---
 
-# Espera {#wait}
+# Esperar {#wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_wait"
->title="Actividad de espera"
->abstract="La actividad **Espera** se utiliza para retrasar la transición de una actividad a otra."
+>title="Actividad Esperar"
+>abstract="La actividad **Esperar** se utiliza para retrasar la transición de una actividad a otra."
 
 La actividad **Esperar** es una actividad de **Control de flujo**. Se utiliza para permitir que transcurra un cierto tiempo entre dos actividades que se están ejecutando. Por ejemplo, para esperar varios días después de una actividad de envío de correo electrónico y, después, analizar las aperturas y los clics generados durante este período antes de realizar cualquier operación de seguimiento (correo electrónico recordatorio, creación de un público, etc.).
 

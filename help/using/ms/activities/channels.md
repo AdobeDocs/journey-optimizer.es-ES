@@ -34,8 +34,8 @@ Comience a crear su campaña orquestada con las actividades relevantes:
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
->title="Actividad de correo electrónico"
->abstract="La actividad de Correo electrónico permite enviar correos electrónicos dentro de la campaña de varios pasos, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de envío de correos electrónicos a un destinatario calculado dentro de la misma campaña de varios pasos. Puede combinar actividades del canal en el lienzo de la campaña de varios pasos para crear campañas en canales múltiles que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>title="Actividad de Correo electrónico"
+>abstract="La actividad de Correo electrónico permite enviar correos electrónicos dentro de la campaña de varios pasos, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de envío de correos electrónicos a un destinatario calculado dentro de la misma campaña de varios pasos. Puede combinar actividades de canal en el lienzo de la campaña de varios pasos para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
