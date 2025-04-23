@@ -26,7 +26,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campañas"
->abstract="Cree campañas para ofrecer contenido de una sola vez a un público específico en varios canales. Antes de crear la campaña, asegúrese de que tiene una configuración de canal (es decir, un ajuste preestablecido de mensaje) y un público de Adobe Experience Platform listos para usar."
+>abstract="Cree campañas para ofrecer contenido de una sola vez a un público específico en varios canales. Antes de crear la campaña, asegúrese de que tiene una configuración de canal y un público de Adobe Experience Platform listos para usar."
 
 Utilice las campañas de Journey Optimizer para ofrecer contenido único a un público específico mediante varios canales. Cuando se utilizan recorridos, las acciones se ejecutan en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada.
 
