@@ -10,7 +10,7 @@ exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 52%
+ht-degree: 66%
 
 ---
 
@@ -22,7 +22,7 @@ Como Desarrollador, es necesario que **configure su aplicación móvil** para po
 
 [!DNL Journey Optimizer] le permite crear sus recorridos y enviar mensajes a su audiencia de destino. Antes de empezar a enviar notificaciones push con [!DNL Journey Optimizer], asegúrese de que las configuraciones e integraciones estén implementadas en la aplicación móvil, y en [!DNL Adobe Experience Platform] y [!DNL Adobe Experience Platform Launch]. Para comprender el flujo de datos de notificaciones push en [!DNL Adobe Journey Optimizer] consulte [esta página](../../push/push-gs.md).
 
-Los pasos para configurar el canal de notificaciones push y probar la integración de la aplicación móvil se detallan en [esta página](../../push/push-configuration.md).
+Los pasos para configurar el canal de notificaciones push y probar la integración de aplicaciones móvil se detallan en [esta página](../../push/push-configuration.md).
 
 ## Uso de las API {#work-apis}
 

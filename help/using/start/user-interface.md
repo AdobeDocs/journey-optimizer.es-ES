@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
 source-wordcount: '1440'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -253,8 +253,8 @@ Para cambiar el idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="Seca el recorrido"
->abstract="Una vez que haya diseñado el recorrido, ejecute una ejecución en seco para confirmar que funciona y asegurarse de que los pasos son correctos. Este modo de publicación permite fumar o probar un recorrido sin enviar comunicaciones a ningún perfil."
+>title="Probar el recorrido"
+>abstract="Una vez que haya diseñado su recorrido, pruébelo para confirmar que es funcional y asegurarse de que los pasos sean correctos. Este modo de publicación le permite probar un recorrido sin enviar comunicaciones a los perfiles."
 
 
 

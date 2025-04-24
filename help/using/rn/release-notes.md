@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 66%
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 66%
 <tbody>
 <tr>
 <td>
-<p>Ya están disponibles las métricas de recorridos, lo que le permite medir el impacto de sus actividades en las métricas clave de su empresa y proporcionar información más clara sobre su rendimiento.</p>
+<p>Las métricas de recorrido ya están disponibles, lo que le permite medir el impacto de sus actividades en las métricas clave de su empresa y proporcionar una perspectiva más clara de su rendimiento.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/success-metrics.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 9 de abril de 2025</p>
 </br>
@@ -47,25 +47,25 @@ ht-degree: 66%
 
 ### Mejoras {#25-04-improv}
 
-* **Herramientas de espacio aislado** - Fecha de disponibilidad: 3 de abril de 2025
+* **Herramientas de zona protegida**. Fecha de disponibilidad: 3 de abril de 2025
 
-  Ahora puede copiar campañas en varios entornos limitados mediante las funciones de exportación e importación de paquetes. Las campañas se copian junto con todos los elementos relacionados con el perfil, la audiencia, el esquema, los mensajes en línea y los objetos dependientes. Algunos elementos no se copian, como los elementos de decisión, las etiquetas de uso de datos y la configuración de idioma. [Más información](../configuration/copy-objects-to-sandbox.md)
+  Ahora puede copiar campañas en varias zonas protegidas mediante las funciones de exportación e importación de paquetes. Las campañas se copian junto con todos los elementos relacionados con el perfil, el público, el esquema, los mensajes en línea y los objetos dependientes. Algunos elementos no se copian, como los elementos de decisión, las etiquetas de uso de datos y la configuración de idioma. [Más información](../configuration/copy-objects-to-sandbox.md)
 
-* **Personalization** - Fecha de disponibilidad: 2 de abril de 2025
+* **Personalización**. Fecha de disponibilidad: 2 de abril de 2025
 
   El panel de atributos del editor de personalización ahora muestra solo los atributos rellenados de forma predeterminada. Para ver todos los atributos, use el botón de configuración para desactivar la opción **[!UICONTROL Mostrar solo atributos rellenados]**. [Más información](../personalization/personalization-build-expressions.md)
 
-* **Administración de contenido** - Fecha de disponibilidad: 2 de abril de 2025
+* **Administración de contenido**. Fecha de disponibilidad: 2 de abril de 2025
 
-  Para administrar fácilmente las plantillas de contenido y los fragmentos, ahora puede utilizar carpetas para organizarlos de forma más eficaz en una jerarquía estructurada. Obtenga más información en las secciones [Fragmentos](../content-management/manage-fragments.md#folders) y [Plantillas de contenido](../content-management/access-content-templates.md#folders)
+  Para administrar con facilidad los fragmentos y las plantillas de contenido, ahora puede utilizar carpetas para organizarlos de forma más eficaz en una jerarquía estructurada. Obtenga más información en las secciones [Fragmentos](../content-management/manage-fragments.md#folders) y [Plantillas de contenido](../content-management/access-content-templates.md#folders)
 
   >[!AVAILABILITY]
   >
   >Esta mejora solo está disponible para un conjunto de organizaciones (disponibilidad limitada).
 
-* **Correo electrónico Designer** - Fecha de disponibilidad: 1 de abril de 2025
+* **Diseñador de correo electrónico**. Fecha de disponibilidad: 1 de abril de 2025
 
-  Para mejorar la accesibilidad en Journey Optimizer, ahora hay dos campos nuevos disponibles en Email Designer: se corresponden con el elemento `<title>` y el atributo `lang` en el elemento `<html>` del contenido del correo electrónico. Puede definir esta configuración además del campo **[!UICONTROL Encabezado previo]**, en la sección **[!UICONTROL Cuerpo]** del correo electrónico. [Más información](../email/email-metadata.md)
+  Para mejorar la accesibilidad en Journey Optimizer, ahora hay dos campos nuevos disponibles en Diseñador de correo electrónico: se corresponden con el elemento `<title>` y el atributo `lang` en el elemento `<html>` del contenido del correo electrónico. Puede definir esta configuración, además del campo **[!UICONTROL Preencabezado]**, en la sección **[!UICONTROL Cuerpo]** del correo electrónico. [Más información](../email/email-metadata.md)
 
 
 ## Notas de la versión de marzo de 2025 {#25-3-rn}
@@ -175,13 +175,13 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Evaluación flexible de audiencias (GA)</strong><br/></th>
+<th><strong>Evaluación de público flexible (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Anteriormente disponible para un conjunto de organizaciones (LA), la evaluación de audiencia flexible ya está disponible para todos los usuarios (GA). Esta función le permite ejecutar un trabajo de segmentación bajo demanda para audiencias seleccionadas, lo que garantiza que siempre tenga los datos de audiencia más actualizados antes de segmentarlos en recorridos y campañas de Journey Optimizer.</p>
+<p>Anteriormente disponible para un conjunto de organizaciones (LA), la evaluación de público flexible ya está disponible para todos los usuarios (GA). Esta función le permite ejecutar un trabajo de segmentación bajo demanda para los públicos seleccionados, lo que garantiza que siempre tenga los datos de público más actualizados antes de segmentarlos en recorridos y campañas de Journey Optimizer.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Para obtener más información, consulte la <a href="../audience/creating-a-segment-definition.md#flexible">documentación detallada</a>.</p>
 </tr>
