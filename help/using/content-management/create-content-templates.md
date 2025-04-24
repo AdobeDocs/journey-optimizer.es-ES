@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 15%
+source-wordcount: '633'
+ht-degree: 16%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 15%
 
 Existen dos formas de crear plantillas de contenido:
 
-* Cree una plantilla de contenido desde cero utilizando el menú **[!UICONTROL Plantillas de contenido]** del carril izquierdo. [Descubra cómo](#create-template-from-scratch)
+* Cree una plantilla de contenido desde cero mediante el carril izquierdo del menú **[!UICONTROL Plantillas de contenido]**. [Descubra cómo](#create-template-from-scratch)
 
 * Al diseñar el contenido dentro de una campaña o un recorrido, guárdelo como una plantilla. [Descubra cómo](#save-as-template)
 
@@ -37,6 +37,10 @@ Una vez guardada, la plantilla de contenido está disponible para usarla en una 
 >* Del mismo modo, cuando las plantillas se utilizan en una campaña o un recorrido, las ediciones que realice en el contenido de la campaña y del recorrido no afectan a la plantilla de contenido utilizada anteriormente.
 
 ## Crear una plantilla desde cero {#create-template-from-scratch}
+
+>[!NOTE]
+>
+>A partir de marzo de 2025, las plantillas de contenido de tipo HTML quedarán obsoletas. Puede seguir utilizando las plantillas de contenido de HTML existentes creadas anteriormente en [!DNL Journey Optimizer].
 
 Para crear una plantilla de contenido desde cero, siga los pasos a continuación.
 
@@ -51,14 +55,6 @@ Para crear una plantilla de contenido desde cero, siga los pasos a continuación
    >[!NOTE]
    >
    >Actualmente, todos los canales están disponibles excepto la web.
-
-1. Elija un **[!UICONTROL Tipo]** para el canal seleccionado.
-
-   ![](assets/content-template-type.png)
-
-   * Para **[!UICONTROL Correo electrónico]**, si selecciona **[!UICONTROL Contenido]**, puede definir la [línea de asunto](../email/create-email.md#define-email-content) como parte de la plantilla. Si selecciona **[!UICONTROL HTML]**, solo puede definir el contenido del cuerpo del correo electrónico.
-
-   * Para **[!UICONTROL SMS]**, **[!UICONTROL Push]**, **[!UICONTROL In-App]** y **[!UICONTROL Correo directo]**, solo el tipo predeterminado está disponible para el canal actual. Aún debe seleccionarlo.
 
 1. Seleccione o cree etiquetas Adobe Experience Platform en el campo **[!UICONTROL Etiquetas]** para categorizar la plantilla y mejorar la búsqueda. [Más información](../start/search-filter-categorize.md#tags)
 
@@ -75,7 +71,7 @@ Para crear una plantilla de contenido desde cero, siga los pasos a continuación
    * [Definición del contenido de correo directo](../direct-mail/create-direct-mail.md)
    * [Definición del contenido en la aplicación](../in-app/design-in-app.md)
 
-1. Si está creando una plantilla de **[!UICONTROL correo electrónico]** con el tipo **[!UICONTROL HTML]**, puede probar el contenido. [Descubra cómo](#test-template)
+1. Puede probar el contenido. [Descubra cómo](#test-template)
 
 1. Una vez que la plantilla esté lista, haz clic en **[!UICONTROL Guardar]**.
 
@@ -110,7 +106,7 @@ Al diseñar cualquier contenido en una campaña o un recorrido, puede guardarlo 
 
    >[!NOTE]
    >
-   >El canal y el tipo actuales se rellenan automáticamente y no se pueden editar. Para las plantillas de correo electrónico creadas a partir de [Email Designer](../email/get-started-email-design.md), el tipo **[!UICONTROL HTML]** se selecciona automáticamente.
+   >El canal actual se rellena automáticamente y no se puede editar.
 
 1. Seleccione o cree una etiqueta Adobe Experience Platform en el campo **Etiquetas** para categorizar la plantilla. [Más información](../start/search-filter-categorize.md#tags)
 

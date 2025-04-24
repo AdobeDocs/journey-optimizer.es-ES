@@ -8,15 +8,19 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 7%
+source-wordcount: '236'
+ht-degree: 6%
 
 ---
 
 
 # Introducción a las plantillas de contenido {#content-templates}
+
+>[!NOTE]
+>
+>A partir de marzo de 2025, las plantillas de contenido de tipo HTML quedarán obsoletas. Puede seguir utilizando las plantillas de contenido de HTML existentes creadas anteriormente en [!DNL Journey Optimizer].
 
 Para un proceso de diseño acelerado y mejorado, puede crear plantillas independientes para reutilizar fácilmente el contenido personalizado en [!DNL Journey Optimizer] campañas y recorridos.
 
@@ -40,7 +44,7 @@ Para crear, editar y eliminar plantillas de contenido, debe incluir el permiso *
 >
 >También puede crear y administrar plantillas de contenido mediante API. Para obtener más información, consulte la [documentación de las API de Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
-## Vídeo explicativo {#video-templates}
+## Vídeo práctico {#video-templates}
 
 Aprenda a crear, editar y utilizar plantillas de contenido en [!DNL Journey Optimizer].
 

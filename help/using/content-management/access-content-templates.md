@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '647'
 ht-degree: 3%
 
 ---
@@ -43,6 +43,10 @@ Puede ordenar las plantillas de contenido por:
 También puede elegir mostrar únicamente los elementos que ha creado o modificado.
 
 ![](assets/content-template-list-filters.png)
+
+>[!NOTE]
+>
+>A partir de marzo de 2025, las plantillas de contenido de tipo HTML quedarán obsoletas. Puede seguir teniendo acceso a las plantillas de contenido de HTML existentes creadas anteriormente en [!DNL Journey Optimizer].
 
 ## Uso de carpetas para administrar plantillas de contenido {#folders}
 
@@ -96,19 +100,19 @@ Para desplazarse fácilmente por las plantillas de contenido, puede utilizar car
 >
 >Cuando se edita o elimina una plantilla, las campañas o los recorridos, incluido el contenido creado con esta plantilla, no se ven afectados.
 
-## [!BADGE Disponibilidad limitada]{type=Informative} Mostrar las plantillas como miniaturas {#template-thumbnails}
+## [!BADGE Disponibilidad limitada]{type=Informative} Muestra las plantillas como miniaturas {#template-thumbnails}
 
 Seleccione el modo **[!UICONTROL Grid view]** para mostrar cada plantilla como una miniatura.
 
 >[!AVAILABILITY]
 >
-Esta capacidad se lanza con disponibilidad limitada (LA) para un pequeño conjunto de clientes.
+>Esta capacidad se lanza con disponibilidad limitada (LA) para un pequeño conjunto de clientes.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
-Actualmente solo se pueden generar las miniaturas adecuadas para el tipo HTML email plantillas de contenido.
+>Actualmente, solo se pueden generar las miniaturas adecuadas para plantillas de contenido de correo electrónico de tipo HTML.
 
 Al actualizar un contenido, es posible que tenga que esperar unos segundos antes de que los cambios se reflejen en la miniatura.
 
