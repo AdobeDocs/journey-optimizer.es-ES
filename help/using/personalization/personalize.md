@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: expresión, editor, inicio, personalización
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 30%
+source-wordcount: '489'
+ht-degree: 26%
 
 ---
 
@@ -29,7 +29,7 @@ Las funcionalidades de personalización de [!DNL Adobe Journey Optimizer] le per
 
 Con el **editor de personalización**, puede seleccionar, organizar, personalizar y validar todos los datos para crear una personalización personalizada para el contenido y aprovechar varias herramientas, como funciones de ayuda o expresiones predefinidas, para adaptar los mensajes de forma eficaz.
 
-Journey Optimizer emplea una sintaxis de personalización en línea basada en Handlebars, que le permite crear expresiones con contenido entre llaves dobles **{{}}**.
+Journey Optimizer emplea una sintaxis de personalización en línea basada en Handlebars, que le permite crear expresiones con contenido entre llaves dobles **{{}}{{}}**.
 
 Al procesar el mensaje, Journey Optimizer reemplaza la expresión por los datos contenidos en el conjunto de datos de Experience Platform. Por ejemplo, `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` se convierte dinámicamente en `Hello John Doe`.
 
@@ -37,11 +37,21 @@ Con esta sintaxis, puede personalizar los mensajes en varios campos, incluidas l
 
 ## Datos utilizados para la personalización
 
-Personalization se basa en los datos de perfil que administra el esquema **XDM Individual Profile** definido en Adobe Experience Platform. El esquema **XDM Individual Profile** es el único esquema que puede usar para personalizar el contenido en [!DNL Journey Optimizer]. Obtenga más información en la [documentación del modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
+Personalization se basa en los datos de perfil que administra el esquema **XDM Individual Profile** definido en Adobe Experience Platform. El esquema **XDM Individual Profile** es el único esquema que puede usar para personalizar el contenido en [!DNL Journey Optimizer]. Obtenga más información en [Documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 
 También puede aprovechar **atributos calculados** para personalizar su contenido. Los atributos calculados permiten resumir eventos de comportamiento individuales en atributos de perfil calculados disponibles en Adobe Experience Platform. [Aprenda a trabajar con atributos calculados](../audience/computed-attributes.md)
 
 Además, [!DNL Journey Optimizer] le permite aprovechar datos de Adobe Experience Platform en el editor de personalización para personalizar su contenido. Para ello, los conjuntos de datos necesarios para la personalización de la búsqueda deben habilitarse primero mediante una llamada de la API. Una vez finalizado, puede utilizar sus datos para personalizar el contenido en Journey Optimizer. Actualmente, esta funcionalidad está disponible en la versión beta. [Más información](../personalization/lookup-aep-data.md)
+
+## Aprenda y experimente con la personalización {#playground}
+
+**[!DNL Adobe Journey Optimizer]** incluye una herramienta interactiva diseñada para ayudarle a aprender y experimentar con las capacidades de personalización.
+
+Este área de reproducción proporciona un entorno simulado para escribir y probar código de personalización mediante datos de muestra sin requerir conjuntos de datos en directo. Puede aprovechar muestras de código predefinidas, editar cargas útiles de perfil ficticio y previsualizar la salida del código de personalización en tiempo real.
+
+![área de reproducción de personalización](assets/playground.png)
+
+➡️ [Acceso al área de reproducción de personalización](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Vamos a profundizar
 
