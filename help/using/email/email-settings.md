@@ -10,9 +10,9 @@ level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -179,7 +179,7 @@ Debe introducir un valor entero (en horas o minutos) dentro del siguiente interv
 * Para los correos electrónicos transaccionales, el período mínimo de reintento es de 10 minutos.
 * Para ambos tipos de correo electrónico, el período máximo de reintento es de 84 horas (o 5040 minutos).
 
-Obtenga más información acerca de los reintentos en [esta sección](../configuration/retries.md).
+Obtenga más información sobre los reintentos en [esta sección](../configuration/retries.md).
 
 ## Seguimiento de URL {#url-tracking}
 

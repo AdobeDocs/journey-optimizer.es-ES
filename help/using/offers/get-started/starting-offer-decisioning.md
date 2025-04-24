@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Los beneficios incluyen:
 * Flujos de trabajo mejorados: En lugar de crear varios envíos o campañas, los equipos de marketing pueden mejorar los flujos de trabajo creando un único envío y variar las ofertas en diferentes partes de la plantilla,
 * Controle la cantidad de veces que se muestra una oferta entre campañas y clientes.
 
-➡️ [Obtenga más información acerca de Administración de decisiones en estos vídeos](#video)
+➡️ [Obtenga más información sobre la gestión de decisiones en estos vídeos](#video)
 
 >[!NOTE]
 >
@@ -40,9 +40,9 @@ Los beneficios incluyen:
 
 ## Acerca de las ofertas y las decisiones {#about-offers-and-decisions}
 
-Una **oferta** está formada por contenido, reglas de elegibilidad y restricciones que definen las condiciones en las que se presenta a sus clientes.
+Una **oferta** está formada por contenido, reglas de idoneidad y restricciones que definen las condiciones en las que se presenta a sus clientes.
 
-Se crea mediante la **Biblioteca de ofertas**, que proporciona un catálogo de ofertas central donde puede asociar reglas de elegibilidad y restricciones con varios fragmentos de contenido para crear y publicar ofertas (consulte la [interfaz de usuario de la Biblioteca de ofertas](../get-started/user-interface.md)).
+Se crea mediante la **Biblioteca de ofertas**, que proporciona un catálogo de ofertas central donde puede asociar reglas de idoneidad y restricciones con varios fragmentos de contenido para crear y publicar ofertas (consulte la [interfaz de usuario de la Biblioteca de ofertas](../get-started/user-interface.md)).
 
 ![](../assets/offer_structure.png)
 
@@ -70,7 +70,7 @@ Las funciones y la integración de Gestión de decisiones con Adobe Experience P
 
 Los permisos para acceder y utilizar las funcionalidades de decisiones de uso se administran mediante [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html){target="_blank"}.
 
-Para conceder acceso a la funcionalidad de Gestión de decisiones, debe crear un **[!UICONTROL Perfil de producto]** y asignar los permisos correspondientes a sus usuarios. Obtenga más información acerca de la administración de usuarios y permisos de [!DNL Journey Optimizer] en [esta sección](../../administration/permissions.md).
+Para conceder acceso a la funcionalidad de Gestión de decisiones, debe crear un **[!UICONTROL Perfil de producto]** y asignar los permisos correspondientes a sus usuarios. Más información sobre la administración de usuarios y permisos de [!DNL Journey Optimizer] en [esta sección](../../administration/permissions.md).
 
 Los permisos específicos de Gestión de decisiones se enumeran en [esta sección](../../administration/high-low-permissions.md#decisions-permissions).
 
@@ -84,7 +84,7 @@ A continuación, se muestra la lista de los conceptos principales con los que tr
 
 * **Decisión**: una decisión contiene la lógica que indica la selección de una oferta.
 
-* **Regla de decisión**: las reglas de decisión son restricciones añadidas a una oferta personalizada y aplicadas a un perfil para determinar la elegibilidad.
+* **Regla de decisión**: las reglas de decisión son restricciones añadidas a una oferta personalizada y aplicadas a un perfil para determinar la idoneidad.
 
 * **Oferta elegible**: una oferta elegible cumple con las restricciones definidas por adelantado que pueden ofrecerse de forma coherente a un perfil.
 
@@ -100,7 +100,7 @@ A continuación, se muestra la lista de los conceptos principales con los que tr
 
 * **Ubicaciones**: una ubicación es la ubicación o el contexto en el que aparece una oferta para un usuario final.
 
-* **Prioridad**: la prioridad se utiliza para clasificar ofertas que cumplen todas las restricciones, como elegibilidad, calendario y límite.
+* **Prioridad**: la prioridad se utiliza para clasificar ofertas que cumplen todas las restricciones, como idoneidad, calendario y límite.
 
 * **Representaciones**: una representación es información utilizada por un canal, como la ubicación o el idioma para mostrar una oferta.
 

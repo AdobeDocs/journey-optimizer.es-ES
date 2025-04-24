@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Como **Experto en marketing** o **en Journey** es responsable de crear ofertas y
 
 Consulte las secciones siguientes para configurar su primer recorrido, agregar ofertas y recursos, y enviar mensajes:
 
-1. **Crear públicos**. Journey Optimizer le permite crear públicos mediante definiciones de segmentos directamente desde el menú **Públicos** y aprovecharlos en sus recorridos.  Obtenga más información acerca de las audiencias [en esta página](../../audience/about-audiences.md). Descubra cómo generar segmentos [en esta muestra](../../audience/creating-a-segment-definition.md).
+1. **Crear públicos**. Journey Optimizer le permite crear públicos mediante definiciones de segmentos directamente desde el menú **Públicos** y aprovecharlos en sus recorridos.  Más información sobre los públicos [en esta página](../../audience/about-audiences.md). Descubra cómo generar segmentos [en esta muestra](../../audience/creating-a-segment-definition.md).
 
 1. **Añadir personalización y contenido dinámico**. Aproveche las funcionalidades de personalización y contenido dinámico de Journey Optimizer para adaptar el mensaje a su público. Más información sobre [personalización](../../personalization/personalize.md) y [contenido dinámico](../../personalization/get-started-dynamic-content.md).
 

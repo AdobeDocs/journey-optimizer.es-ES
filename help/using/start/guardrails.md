@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '2471'
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 95%
 
 A continuación, encontrará limitaciones y mecanismos de protección adicionales al utilizar [!DNL Adobe Journey Optimizer].
 
-Los derechos, limitaciones de productos y protecciones del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}{target=&quot;_blank&quot;}.
+Los derechos, limitaciones de productos y mecanismos de protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-También debe tener en cuenta las [protecciones para los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"}{target=&quot;_blank&quot;} antes de comenzar.
+También debe tener en cuenta los [mecanismos de protección para los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"} antes de comenzar.
 
 ## Navegadores admitidos {#browsers}
 
@@ -34,7 +34,7 @@ A partir de febrero de 2025, se implementará gradualmente un mecanismo de prote
 * 90 días para los datos en el almacén de perfiles,
 * 13 meses para los datos en el lago de datos.
 
-Este cambio se implementará en las **zonas protegidas de clientes existentes** en una fase posterior. [Obtenga más información acerca de las protecciones de tiempo de vida (TTL) de los conjuntos de datos](../data/datasets-ttl.md)
+Este cambio se implementará en las **zonas protegidas de clientes existentes** en una fase posterior. [Obtenga más información sobre los mecanismos de protección de tiempo de vida (Time-To-Live, TTL) de los conjuntos de datos](../data/datasets-ttl.md)
 
 ## Protecciones de canales {#channel-guardrails}
 
@@ -62,11 +62,11 @@ Las siguientes limitaciones se aplican a la actividad [canal de SMS](../sms/get-
 
 [Las campañas web de](../web/get-started-web.md) [!DNL Journey Optimizer] se dirigen a nuevos perfiles que no han interactuado antes en otros canales. Esto aumentará el recuento total de perfiles con los que es posible interactuar, lo que puede tener costes si se supera el número contractual de perfiles adquiridos. 
 
-Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}{target=&quot;_blank&quot;}.
+Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Protecciones de canal basado en código {#code-based-guardrails}
 
-Para usar acciones de experiencia basadas en código en [!DNL Journey Optimizer] y entregar carga útil de contenido de código que puedan usar las aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
+Para usar acciones de experiencia basada en código en [!DNL Journey Optimizer] y entregar carga útil de contenido de código que puedan usar las aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
 
 ## Mecanismos de protección de las páginas de aterrizaje {#lp-guardrails}
 
@@ -83,7 +83,7 @@ De forma predeterminada, [!DNL Journey Optimizer] permite delegar hasta 10 subdo
 
 Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios. Póngase en contacto con la persona de contacto de Adobe para obtener más información sobre el número de subdominios a los que tiene derecho.
 
-Más información sobre la delegación de dominios en [esta página](../configuration/delegate-subdomain.md).
+Obtenga más información sobre la delegación de dominios en [esta página](../configuration/delegate-subdomain.md).
 
 ## Protecciones de fragmentos {#fragments-guardrails}
 
@@ -96,7 +96,7 @@ Las siguientes limitaciones se aplican a los [fragmentos](../content-management/
 
 Puede publicar hasta 10 composiciones de público en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
 
-Obtenga más información acerca de las composiciones de audiencias en [esta página](../audience/get-started-audience-orchestration.md).
+Más información sobre la composición de públicos en [esta página](../audience/get-started-audience-orchestration.md).
 
 ## Mecanismos de protección de gestión de decisiones y toma de decisiones {#decisioning-guardrails}
 
@@ -122,7 +122,7 @@ Las protecciones y limitaciones que se deben tener en cuenta al trabajar con tom
 Las siguientes limitaciones se aplican a las [Acciones](../building-journeys/about-journey-activities.md) en sus recorridos:
 
 * En caso de error, se realizan tres reintentos de forma sistemática. No puede ajustar el número de reintentos según el mensaje de error recibido. Los reintentos se realizan para todos los errores HTTP excepto para HTTP 401, 403 y 404.
-* El evento **Reacción** le permite reaccionar a las acciones predeterminadas. Más información sobre [esta página](../building-journeys/reaction-events.md). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado.
+* El evento **Reacción** integrado le permite reaccionar a las acciones predeterminadas. Obtenga más información en [esta página](../building-journeys/reaction-events.md). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado.
 * No puede colocar dos acciones en paralelo, debe agregarlas una tras otra.
 * Normalmente, un perfil no puede estar presente varias veces en el mismo recorrido y al mismo tiempo. Si la reentrada está activada, un perfil puede volver a entrar en un recorrido, pero no puede hacerlo hasta que salga por completo de la instancia anterior del recorrido. [Más información](../building-journeys/end-journey.md)
 
@@ -190,9 +190,9 @@ Puede elegir entre una de estas dos soluciones:
 
 ### Actualización de perfil {#update-profile-g}
 
-Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL Actualizar perfil]**. Están listados en [esta página](../building-journeys/update-profiles.md).
+Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL Actualizar perfil]**. Se muestran en [esta página](../building-journeys/update-profiles.md).
 
-### Público de lectura {#read-segment-g}
+### Leer público {#read-segment-g}
 
 Las siguientes limitaciones se aplican a la actividad de recorrido [Público de lectura](../building-journeys/read-audience.md):
 
@@ -201,7 +201,7 @@ Las siguientes limitaciones se aplican a la actividad de recorrido [Público de 
 * La actividad **Leer público** no se puede utilizar con actividades de Adobe Campaign.
 * La actividad **Leer público** solo puede utilizarse como primera actividad en un recorrido o después de una actividad de evento empresarial.
 * Un recorrido solo puede tener una actividad **Leer público**.
-* Vea también recomendaciones sobre cómo usar la actividad **Leer audiencia** en [esta página](../building-journeys/read-audience.md).
+* Vea también las recomendaciones acerca de cómo usar la actividad **Leer público** en [esta página](../building-journeys/read-audience.md).
 * Los reintentos ahora se aplican de forma predeterminada en recorridos activados por públicos destinatarios (empezando con una actividad **Leer público** o **Evento empresarial**) cuando se recupera el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada.
 
 ### Calificación de público {#audience-qualif-g}
@@ -218,7 +218,7 @@ El siguiente mecanismo de protección se aplica al [editor de expresiones de rec
 
 ### Actividad en la aplicación {#in-app-activity-limitations}
 
-Las siguientes limitaciones se aplican a la acción **[!UICONTROL Mensaje en la aplicación]**. Obtenga más información sobre los mensajes en la aplicación en [esta página](../in-app/create-in-app.md).
+Las siguientes limitaciones se aplican a la acción **[!UICONTROL Mensaje en la aplicación]**. Obtenga más información sobre los mensajes in-app en [esta página](../in-app/create-in-app.md).
 
 * Actualmente, esta función no está disponible para los clientes de Asistencia sanitaria.
 
@@ -238,7 +238,7 @@ Las siguientes limitaciones se aplican a la acción **[!UICONTROL Mensaje en la 
 
 ### Actividad de salto {#jump-g}
 
-Especifique protecciones específicas de la actividad **[!UICONTROL Saltar]**. Están listados en [esta página](../building-journeys/jump.md#jump-limitations).
+Especifique protecciones específicas de la actividad **[!UICONTROL Saltar]**. Se muestran en [esta página](../building-journeys/jump.md#jump-limitations).
 
 ### Actividades de campaña {#ac-g}
 

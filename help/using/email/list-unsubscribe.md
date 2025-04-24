@@ -10,9 +10,9 @@ level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '1371'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Según el cliente y la configuración de correo electrónico para cancelar la su
 >
 >Aprenda a administrar la configuración de cancelación de suscripción en [esta sección](#enable-list-unsubscribe) a continuación.
 
-En ambos casos, cuando un destinatario hace clic en el vínculo de no participación, su solicitud de cancelar la suscripción se procesa en consecuencia. El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}{target=&quot;_blank&quot;}.
+En ambos casos, cuando un destinatario hace clic en el vínculo de no participación, su solicitud de cancelar la suscripción se procesa en consecuencia. El perfil correspondiente se excluye de inmediato y esta opción se actualiza en [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Cuando la opción **[!UICONTROL Habilitar cancelación de suscripción a la list
 
 El encabezado Cancelación de suscripción a lista ofrece dos opciones que están habilitadas de forma predeterminada a menos que desmarque una o ambas:
 
-![](assets/surface-list-unsubscribe.png){width="80%"}{width=&quot;80%&quot;}
+![](assets/surface-list-unsubscribe.png){width="80%"}
 
 * Una dirección **[!UICONTROL Mailto (cancelar la suscripción)]**, que es la dirección de destino a la que se dirigen las solicitudes de cancelación de suscripción para el procesamiento automático. En [!DNL Journey Optimizer], la dirección de correo electrónico de cancelación de suscripción es la dirección predeterminada **[!UICONTROL Mailto (cancelar la suscripción)]** mostrada en la configuración de canal, según el [subdominio seleccionado](email-settings.md#subdomains). <!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
 
@@ -91,9 +91,9 @@ La función **[!UICONTROL Mailto (cancelar la suscripción)]** y la de **[!UICON
 
   >[!NOTE]
   >
-  >Obtenga más información acerca de la administración de las funciones de cancelación de suscripción en sus mensajes en [esta sección](../email/email-opt-out.md#unsubscribe-header).
+  >Obtenga más información sobre cómo administrar las funciones de cancelación de suscripción en sus mensajes en [esta sección](../email/email-opt-out.md#unsubscribe-header).
 
-En [!DNL Journey Optimizer], Experience Platform gestiona el consentimiento [Esquema de consentimiento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"}{target=&quot;_blank&quot;}. De forma predeterminada, el valor del campo de consentimiento está vacío y se trata como consentimiento para recibir sus comunicaciones. Puede modificar este valor predeterminado al incorporar uno de los posibles valores enumerados [aquí](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=es#choice-values){target="_blank"}{target=&quot;_blank&quot;}, o usar [directivas de consentimiento](../action/consent.md) para anular la lógica predeterminada.
+En [!DNL Journey Optimizer], el consentimiento se gestiona mediante el [Esquema de consentimiento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"} de Experience Platform. De forma predeterminada, el valor del campo de consentimiento está vacío y se trata como consentimiento para recibir sus comunicaciones. Puede modificar este valor predeterminado al incorporar uno de los posibles valores enumerados [aquí](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=es#choice-values){target="_blank"}, o usar [directivas de consentimiento](../action/consent.md) para anular la lógica predeterminada.
 
 En la actualidad, [!DNL Journey Optimizer] no anexa una etiqueta específica para cancelar la suscripción a los eventos desencadenados por la característica Cancelar la suscripción a una lista. Si necesita diferenciar los clics de cancelación de suscripción a una lista de otras acciones de cancelación de suscripción, debe implementar el etiquetado personalizado de forma externa o usar una página de aterrizaje externa para el seguimiento.
 
@@ -111,7 +111,7 @@ En la actualidad, [!DNL Journey Optimizer] no anexa una etiqueta específica par
 
 Si está administrando el consentimiento fuera de Adobe, seleccione la opción **[!UICONTROL Administrado por el cliente]** para introducir una dirección de correo electrónico de cancelación de suscripción personalizada y su propia URL de cancelación de suscripción de un solo clic.
 
-![](assets/surface-list-unsubscribe-custom.png){width="80%"}{width=&quot;80%&quot;}
+![](assets/surface-list-unsubscribe-custom.png){width="80%"}
 
 La **[!UICONTROL URL para cancelar la suscripción con un solo clic]** debe ser una URL de POST.
 
@@ -123,7 +123,7 @@ La **[!UICONTROL URL para cancelar la suscripción con un solo clic]** debe ser 
 
 Con la opción **[!UICONTROL Administrado por el cliente]** seleccionada, si introduce puntos finales personalizados y los utiliza en una campaña o un recorrido, [!DNL Journey Optimizer] añade algunos parámetros específicos de perfil predeterminados al evento de actualización de consentimiento <!--sent to the custom endpoint -->cuando los destinatarios hacen clic en el vínculo para cancelar la suscripción.
 
-Estos parámetros se envían al punto final de forma cifrada. Por lo tanto, el sistema de consentimiento externo necesita implementar una API específica a través de [Adobe Developer](https://developer.adobe.com){target="_blank"}{target=&quot;_blank&quot;} para descifrar los parámetros enviados por Adobe.
+Estos parámetros se envían al punto final de forma cifrada. Por lo tanto, el sistema de consentimiento externo necesita implementar una API específica a través de [Adobe Developer](https://developer.adobe.com){target="_blank"} para descifrar los parámetros enviados por Adobe.
 
 La llamada GET para recuperar estos parámetros depende de la opción Cancelación de suscripción a lista que esté usando: **[!UICONTROL URL de cancelación de suscripción de un solo clic]** o **[!UICONTROL Mailto (cancelar la suscripción)]**.
 

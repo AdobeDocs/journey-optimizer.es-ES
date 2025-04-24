@@ -10,9 +10,9 @@ level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
