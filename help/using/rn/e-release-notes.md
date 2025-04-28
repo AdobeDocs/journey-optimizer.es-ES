@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
+source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 16%
 
 ---
@@ -52,7 +52,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Vista de calendario para el inventario de campañas e Recorridos (disponibilidad limitada)</strong><br/></th>
+<th><strong>Vista de calendario para el inventario de campañas e recorridos (disponibilidad limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -82,7 +82,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Personalization Playground en Experience League</strong><br/></th>
+<th><strong>Personalization playground en Experience League</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -217,7 +217,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 
 **Públicos**
 
-- **Quitar limitación para atributos de enriquecimiento**
+- **Quitar limitación de atributos de enriquecimiento de Composición de audiencia**
 
   El uso de audiencias y atributos de composición de audiencia ya está disponible para su uso con Healthcare Shield o Privacy and Security Shield.
 
@@ -233,7 +233,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 
 **Herramientas de espacio aislado**
 
-- **Copia de zona protegida de decisiones**
+- **Copia de la zona protegida de decisiones**
 
   Ahora, los objetos de decisión se pueden copiar entre entornos limitados, lo que optimiza los flujos de trabajo de prueba e implementación.
 
@@ -247,11 +247,11 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 
 **Personalización**
 
-- **Editor de Personalization - Activación de píldoras**
+- **Activación de píldoras**
 
   Se ha añadido un nuevo botón “Cápsulas” al editor de personalización. Cuando se habilita, los atributos contextuales y de perfil se muestran como cápsulas, lo que mejora la legibilidad del código.
 
-- **Personalization - Esquema observable**
+- **Atributos rellenados en el panel de atributos**
 
   El panel de atributos del editor de personalización ahora muestra solo los atributos rellenados de forma predeterminada. Para ver todos los atributos, utilice el botón de configuración para desactivar la opción Mostrar solo atributos rellenados.
 
