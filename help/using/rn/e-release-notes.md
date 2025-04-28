@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b7549bb2ec9e3af4c08def9d46cde0b574df3d3a
+source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 17%
+source-wordcount: '954'
+ht-degree: 16%
 
 ---
 
@@ -223,18 +223,13 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 
 **Canal de correo electrónico**
 
-- **Campos adicionales para admitir la accesibilidad**
+- **Seguimiento personalizado de URL**
 
-  Se han agregado dos nuevos campos al editor de correo electrónico para admitir la accesibilidad: el elemento `<title>` para los títulos de los documentos y el atributo `lang` para la especificación del idioma en la etiqueta `<html>`.
+  Para obtener una mayor flexibilidad y control sobre la configuración del correo electrónico, ahora puede personalizar todos los parámetros de seguimiento de URL a la vez en el nivel de configuración del canal de correo electrónico, en lugar de hacerlo en el Diseñador de correo electrónico para cada vínculo del contenido.
 
-- **Mejoras en Email Surface Personalization - Seguimiento de URL**
+- **Temas del diseñador de correo electrónico** (Beta) - Fecha de disponibilidad: 5 de mayo de 2025
 
-  Se ha mejorado el seguimiento de URL en la personalización del correo electrónico, lo que permite un seguimiento y un sistema de informes más granulares. Las actualizaciones incluyen opciones de configuración mejoradas para la configuración de correo electrónico personalizada.
-
-
-- **[Mejoras en el editor de correo electrónico de Beta] con temas**
-
-  Una nueva función beta introduce temáticas en el editor de correo electrónico, lo que le permite definir estilos reutilizables y crear correos electrónicos más rápido mediante módulos preconfigurados.
+  Ahora puede aplicar rápidamente temas de estilo preaprobados al contenido del correo electrónico para garantizar la coherencia de la marca en todos los correos electrónicos, acelerar el proceso de creación de campañas y producir correos electrónicos de alta calidad de forma independiente, al tiempo que reduce la dependencia en los equipos de diseño.
 
 **Herramientas de espacio aislado**
 
@@ -260,39 +255,29 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 
   El panel de atributos del editor de personalización ahora muestra solo los atributos rellenados de forma predeterminada. Para ver todos los atributos, utilice el botón de configuración para desactivar la opción Mostrar solo atributos rellenados.
 
-- **Nueva variable de contexto del sistema**
+- **Nuevo atributo contextual**
 
-  Se ha introducido una nueva variable de contexto del sistema para identificar de forma exclusiva cada mensaje enviado a un perfil de destino. Esta variable se puede utilizar con fines de seguimiento y personalización.
-
-
+  Ahora hay disponible un nuevo atributo contextual, **Id. de perfil de mensaje**, que se puede seleccionar del editor de personalización. Es un atributo orientado a mensajes que identifica de forma exclusiva cada mensaje enviado a cada perfil de destino en una entrega. Este identificador único se puede utilizar, por ejemplo, como parámetro de seguimiento de URL para distinguir cada vínculo abierto o en el que los destinatarios hacen clic.
 
 **Toma de decisiones**
 
-- **Modelo de IA - Unificar clasificación - Nuevo generador de fórmulas**
+- **Fórmulas de clasificación**
 
-  Ahora puede ajustar las puntuaciones en tiempo real de los modelos de IA de Adobe Decisioning con un nuevo generador de fórmulas. Esta función centraliza los ajustes de clasificación para prioridades y puntuaciones de modelos.
+  Ahora puede crear fórmulas de clasificación de Decisioning específicas definiendo y combinando criterios a partir de una nueva interfaz mejorada. Las fórmulas de clasificación permiten definir reglas que determinan qué elementos de decisión se deben presentar primero, en lugar de tener en cuenta las puntuaciones de prioridad.
 
 **Navegación**
 
-- **Carpetas - Páginas de aterrizaje**
+- **Carpetas para plantillas y fragmentos de contenido** - Fecha de disponibilidad: 5 de mayo de 2025
 
-  Administración de carpetas mejorada para páginas de aterrizaje en Adobe Journey Optimizer, incluidos cambios en la interfaz de usuario, flujos y actualizaciones de la API.
+  Antes disponibles para un conjunto de organizaciones (LA), las carpetas ya están disponibles para todos los usuarios (GA) para administrar sus plantillas de contenido y fragmentos. Las carpetas permiten organizar las plantillas y los fragmentos de contenido de forma más fácil y eficaz en una jerarquía estructurada.
 
-- **Carpetas - Plantillas y fragmentos**
+- **Carpetas para páginas de aterrizaje** - Fecha de disponibilidad: 5 de mayo de 2025
 
-  La mención Disponibilidad limitada se ha eliminado para carpetas en plantillas y fragmentos, lo que indica que esta función ya está disponible de forma general.
+  Para administrar fácilmente las páginas de aterrizaje, ahora también puede utilizar carpetas para organizarlas de forma más eficaz en una jerarquía optimizada.
 
 - **Carril derecho en la lista de campañas**
 
   Se ha añadido un carril derecho a la lista de campañas, que proporciona información detallada cuando se selecciona una campaña.
-
-
-
-**Entregabilidad**
-
-- **Flujo de trabajo mejorado para IP de recarga y eliminación de subdominios delegados**
-
-  Se ha mejorado el flujo de trabajo para administrar IP de recarga y subdominios delegados, lo que simplifica el proceso para los usuarios.
 
 **Libros de reproducción**
 
