@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 18%
+source-wordcount: '2344'
+ht-degree: 17%
 
 ---
 
@@ -73,7 +73,6 @@ De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desm
 
 Cuando se activa la opción **Permitir la reentrada**, se muestra el campo **Período de espera de reentrada**. Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en el caso de recorridos unitarios (empezando con un evento o una calificación de público). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. La duración máxima es de 90 días.
 
-
 ## Administrar acceso {#manage-access}
 
 Para asignar etiquetas de uso de datos principales o personalizados al recorrido, haz clic en el botón **[!UICONTROL Administrar acceso]**. [Más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
@@ -130,7 +129,6 @@ Este tiempo de espera global detiene el progreso de los individuos en el recorri
 Debido al tiempo de espera de recorrido de 91 días, cuando no se permite la reentrada al recorrido, no podemos asegurarnos de que el bloqueo de reentrada funcione más de 91 días. De hecho, al eliminar toda la información sobre las personas que ingresaron al recorrido 91 días después de su entrada, no podemos saber la persona ingresada anteriormente, hace más de 91 días.
 
 Una persona solo puede entrar en una actividad de espera si le queda tiempo suficiente en el recorrido recorrido para completar la duración de la espera antes del tiempo de espera de 91 días. Consulte [esta página](../building-journeys/wait-activity.md).
-
 
 #### Preguntas frecuentes sobre el tiempo de vida (TTL) y la retención de datos {#timeout-faq}
 
@@ -301,6 +299,10 @@ Las siguientes barreras y limitaciones se aplican a la capacidad de criterios de
 
 * Los criterios de salida solo se definen en estado de borrador
 * Recorrido de coherencia de área de nombres entre eventos y criterios de salida basados en eventos
+
+## programación de recorrido {#schedule}
+
+La sección **[!UICONTROL Programar]** solo está disponible cuando se ha quitado una actividad **[!UICONTROL Leer audiencia]** en el lienzo. Permite definir una fecha/hora y una frecuencia específicas en las que se debe ejecutar el recorrido. [Aprenda a programar un recorrido de lectura-audiencia](../building-journeys/read-audience.md)
 
 ## Administración de conflictos {#conflict}
 

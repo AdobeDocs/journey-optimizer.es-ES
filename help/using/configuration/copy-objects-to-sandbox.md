@@ -9,16 +9,16 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zona protegida, recorrido, copiar, entorno
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: ead10229b82aa8cb2e638ac9c26539de766f3497
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 5%
+source-wordcount: '1212'
+ht-degree: 4%
 
 ---
 
 # Exportación de objetos a otra zona protegida {#copy-to-sandbox}
 
-Puede copiar objetos, como recorridos, plantillas de contenido o fragmentos, en varios entornos limitados mediante las funciones de exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.
+Puede copiar objetos, como recorridos, acciones personalizadas, plantillas de contenido o fragmentos, en varios entornos limitados mediante las funciones de exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.
 
 En esta página se describe el caso de uso de las herramientas de entorno limitado en el contexto de Journey Optimizer. Para obtener más información sobre la característica en sí, consulte la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
@@ -26,30 +26,38 @@ En esta página se describe el caso de uso de las herramientas de entorno limita
 >
 >Esta característica requiere los siguientes permisos de la funcionalidad **Administración de espacio aislado**: Administrar espacios aislados (o Ver espacios aislados) y Administrar paquetes. [Más información](../administration/ootb-permissions.md)
 
-The copy process is carried via a package export and import between the source and target sandboxes. Here are the general steps to copy a journey from one sandbox to another:
+El proceso de copia se lleva a cabo mediante una exportación de paquetes y una importación entre las zonas protegidas de origen y destino. Estos son los pasos generales para copiar un recorrido de una zona protegida a otra:
 
-1. Add the object to export as a package in the source sandbox.
-1. Export the package to the target sandbox.
+1. Añada el objeto para exportar como paquete en la zona protegida de origen.
+1. Exporte el paquete a la zona protegida de destino.
 
 ## Objetos exportados y prácticas recomendadas {#objects}
 
-Journey Optimizer permite exportar recorridos, plantillas de contenido y fragmentos a otra zona protegida. Las secciones siguientes proporcionan información y prácticas recomendadas para cada tipo de objeto.
+Journey Optimizer permite exportar recorridos, acciones personalizadas, plantillas de contenido y fragmentos a otra zona protegida. Las secciones siguientes proporcionan información y prácticas recomendadas para cada tipo de objeto.
 
 ### Prácticas recomendadas generales {#global}
 
 * Al copiar un objeto, cualquier dependencia (como fragmentos anidados, audiencias de recorrido o acciones) se actualiza correctamente en el objeto principal, lo que garantiza una asignación adecuada en la zona protegida de destino.
 
-* If an exported object contains profile personalization, make sure that the appropriate schema exists in the target sandbox to avoid any personalization issue.
+* Si un objeto exportado contiene personalización de perfiles, asegúrese de que el esquema adecuado existe en la zona protegida de Target para evitar cualquier problema de personalización.
 
 ### Recorridos {#journeys}
 
-* Al exportar un recorrido, además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: audiencias, esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte esta [sección](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
+* Al exportar un recorrido, además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: audiencias, acciones personalizadas, esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte esta [sección](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
 
 * No garantizamos que todos los elementos vinculados se copien en la zona protegida de destino. Le recomendamos encarecidamente que realice una comprobación exhaustiva, por ejemplo, antes de publicar un recorrido. Esto le permite identificar cualquier posible objeto que falte.
 
 * Los objetos copiados en la zona protegida de destino son únicos y no hay riesgo de sobrescribir elementos existentes. Tanto el recorrido como los mensajes dentro del recorrido se transfieren en modo de borrador. Esto le permite realizar una validación completa antes de la publicación en la zona protegida de destino.
 
 * El proceso de copia solo copia los metadatos sobre el recorrido y los objetos de ese Recorrido. No se están copiando datos de perfil o conjunto de datos como parte de este proceso.
+
+### Acciones personalizadas {#custom-actions}
+
+* Al exportar acciones personalizadas, la configuración de URL y los parámetros de carga útil se copian. Sin embargo, por motivos de seguridad, los parámetros de autenticación no se copian y, en su lugar, se sustituyen por &quot;INSERTAR SECRETO AQUÍ&quot;. Los valores de encabezado de solicitud constante y parámetro de consulta también se sustituyen por &quot;INSERTAR SECRETO AQUÍ&quot;.
+
+  Esto incluye las acciones personalizadas de propósito especial ([!DNL Adobe Campaign Standard], [!DNL Campaign Classic], [!DNL Marketo Engage]).
+
+* Al copiar un recorrido en otra zona protegida, si selecciona &quot;Usar existente&quot; para una acción personalizada durante el proceso de importación, la acción personalizada existente que seleccione debe ser la misma que la acción personalizada de origen (es decir, la misma configuración, parámetros, etc.). De lo contrario, la nueva copia de recorrido tendrá errores que no se podrán resolver en el lienzo.
 
 ### Campañas {#campaigns}
 
@@ -58,21 +66,21 @@ Las campañas se copian junto con todos los elementos relacionados con el perfil
 Sin embargo, los siguientes elementos se **no** copiaron:
 
 * Variantes multilingües y configuración de idioma
-* Experiment variants
-* Decision policies and decision items
+* Variantes de experimento
+* Directivas y elementos de decisión
 * Reglas empresariales
 * Etiquetas
-* Data Usage Labelling and Enforcement(DULE) labels
+* Etiquetado y aplicación del uso de datos (Data Usage Labeling and Enforcement, DULE)
 
-After campaigns are copied, channel configurations must be selected manually.
+Una vez copiadas las campañas, las configuraciones de canal deben seleccionarse manualmente.
 
 ### Plantillas de contenido {#content-templates}
 
 * Al exportar una plantilla de contenido, todos los fragmentos anidados también se copian junto con ella.
 
-* Exporting content templates can sometimes result in fragment duplication. For example, if two templates share the same fragment and are copied in separate packages, both templates will need to reuse the same fragment in the target sandbox. To avoid duplication, select the &quot;Use existing&quot; option during the import process. [Learn how to import a package](#import)
+* La exportación de plantillas de contenido a veces puede provocar la duplicación de fragmentos. Por ejemplo, si dos plantillas comparten el mismo fragmento y se copian en paquetes separados, ambas plantillas deberán reutilizar el mismo fragmento en la zona protegida de destino. Para evitar duplicaciones, seleccione la opción &quot;Usar existente&quot; durante el proceso de importación. [Obtenga información sobre cómo importar un paquete](#import)
 
-* To further avoid duplication, it is recommended to export content templates in a single package. Esto garantiza que el sistema gestione la deduplicación de forma eficaz.
+* Para evitar duplicaciones, se recomienda exportar las plantillas de contenido en un solo paquete. Esto garantiza que el sistema gestione la deduplicación de forma eficaz.
 
 ### Fragmentos {#fragments}
 
@@ -84,16 +92,16 @@ After campaigns are copied, channel configurations must be selected manually.
 
 Para copiar objetos en otra zona protegida, primero debe añadirlos como paquete en la zona protegida de origen. Siga estos pasos:
 
-1. Navigate to the inventory where the first object you want to copy is stored, such as the journeys list. Click the **More actions** icon (the three dots next to the object name) and click **Add to package**.
+1. Vaya al inventario donde está almacenado el primer objeto que desea copiar, como la lista recorridos. Haga clic en el icono **Más acciones** (los tres puntos junto al nombre del objeto) y haga clic en **Agregar al paquete**.
 
    ![](assets/journey-sandbox1.png)
 
-1. In the **Add to package** window, choose if you want to add the object to an existing package or create a new package:
+1. En la ventana **Agregar al paquete**, elija si desea agregar el objeto a un paquete existente o crear un nuevo paquete:
 
    ![](assets/journey-sandbox2.png)
 
-   * **Existing package**: select the package from the drop-down menu.
-   * **Create a new package**: type the package name. También puede añadir una descripción.
+   * **Paquete existente**: seleccione el paquete en el menú desplegable.
+   * **Crear nuevo paquete**: escriba el nombre del paquete. También puede añadir una descripción.
 
 1. Repita estos pasos para añadir todos los objetos que desee exportar con el paquete.
 
@@ -135,13 +143,13 @@ Una vez publicado el paquete, debe importarlo en la zona protegida de destino. S
 
    ![](assets/journey-sandbox6.png)
 
-1. Review the package objects and dependencies. This is the list of objects that have been added to the package, along with other objects journeys depend on such as audiences, schemas, events or actions.
+1. Revise los objetos de paquete y las dependencias. Esta es la lista de objetos que se han añadido al paquete, junto con otros objetos de los que dependen los recorridos, como audiencias, esquemas, eventos o acciones.
 
-   For each object, you can choose to create a new one or use an existing one in the target sandbox. This allows you, for example, to avoid fragment duplication which may happen when importing content templates using common fragments.
+   Para cada objeto, puede elegir crear uno nuevo o utilizar uno existente en la zona protegida de destino. Esto le permite, por ejemplo, evitar la duplicación de fragmentos que puede ocurrir al importar plantillas de contenido utilizando fragmentos comunes.
 
    ![](assets/journey-sandbox7.png)
 
-1. Click the **Finish** button, in the top-right corner to start copying the package to the target sandbox. The copying process varies based on the complexity of the objects and how many objects need to be copied over.
+1. Haga clic en el botón **Finalizar**, en la esquina superior derecha, para comenzar a copiar el paquete en la zona protegida de destino. El proceso de copia varía según la complejidad de los objetos y la cantidad de objetos que deben copiarse.
 
 1. Haga clic en el trabajo de importación para revisar el resultado de la copia:
 

@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 5%
+source-wordcount: '566'
+ht-degree: 6%
 
 ---
 
@@ -79,19 +79,7 @@ Para obtener más información, consulte esta [sección](../event/about-creating
 
 * Para recorridos recurrentes: de forma predeterminada, todos los perfiles pertenecientes a la audiencia introducen el recorrido en cada periodicidad. Deben finalizar el recorrido antes de poder volver a entrar en otra ocurrencia.
 
-Hay dos opciones disponibles para los recorridos de lectura de audiencia recurrentes:
-
-* Opción **Lectura incremental**: cuando se ejecuta por primera vez un recorrido con una **Audiencia de lectura** recurrente, todos los perfiles de la audiencia entran en el recorrido. Esta opción le permite dirigirse, después de la primera incidencia, solo a las personas que ingresaron a la audiencia desde la última ejecución del recorrido.
-
-  >[!NOTE]
-  >
-  >Si va a segmentar una [audiencia de carga personalizada](../audience/about-audiences.md#segments-in-journey-optimizer) en su recorrido, los perfiles solo se recuperan en la primera periodicidad si esta opción está habilitada en un recorrido recurrente, ya que estas audiencias son fijas.
-
-* **Forzar reentrada en repetición**: esta opción le permite hacer que todos los perfiles que aún están presentes en el recorrido se cierren automáticamente en la siguiente ejecución. Si la duración de los perfiles en este recorrido puede ser mayor que la periodicidad (por ejemplo, si utiliza actividades de espera), no active esta opción para asegurarse de que los perfiles puedan finalizar su recorrido.
-
-![](assets/read-audience-options.png)
-
-Para obtener más información, consulte esta [sección](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+Hay varias opciones disponibles para los recorridos de lectura de audiencia recurrentes. Para obtener más información, consulte la sección [Usar una audiencia en un recorrido](../building-journeys/read-audience.md).
 
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 

@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 11%
+source-wordcount: '2195'
+ht-degree: 9%
 
 ---
 
 # Uso de una audiencia en un recorrido {#segment-trigger-activity}
 
-## Añadir una actividad Generar público {#about-segment-trigger-actvitiy}
+## Acerca de la actividad Leer audiencia {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
@@ -38,7 +38,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Repetir cada"
->abstract="Defina una frecuencia de repetición del planificador."
+>abstract="Defina una frecuencia de planificador recurrente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -58,7 +58,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="Tiempo de espera para una nueva evaluación de audiencia"
->abstract="Especifique el tiempo que el recorrido esperará a que la audiencia por lotes se evalúe recientemente."
+>abstract="Especifique el tiempo que el recorrido esperará a que la audiencia por lotes se evalúe recientemente. El período de espera está limitado a valores enteros, se puede especificar en minutos u horas y debe estar entre 1 y 6 horas."
 
 Utilice la actividad **Leer audiencia** para hacer que todos los individuos de una audiencia ingresen al recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular.
 
@@ -80,13 +80,13 @@ Veamos como ejemplo la audiencia &quot;Cierre de compra y apertura de la aplicac
 
 * Las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) se pueden seleccionar en la actividad **Leer audiencia**. Estas audiencias no están disponibles en la actividad **Calificación de audiencias**.
 
-
 Las protecciones relacionadas con la actividad **Leer audiencia** se enumeran en [esta página](../start/guardrails.md#read-segment-g).
-
 
 ## Configuración de la actividad {#configuring-segment-trigger-activity}
 
-Los pasos para configurar la actividad Leer audiencia son los siguientes:
+Los pasos para configurar la actividad Leer audiencia son los siguientes.
+
+### Añada una actividad Read audience y seleccione la audiencia
 
 1. Despliegue la categoría **[!UICONTROL Orchestration]** y suelte una actividad **[!UICONTROL Leer audiencia]** en el lienzo.
 
@@ -120,33 +120,78 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes:
    >
    >Las personas que pertenecen a una audiencia que no tiene la identidad seleccionada (área de nombres) entre sus diferentes identidades no pueden entrar en el recorrido. Solo puede seleccionar un área de nombres de identidad basada en personas. Si ha definido un área de nombres para una tabla de búsqueda (por ejemplo: área de nombres ProductID para una búsqueda de productos), no estará disponible en la lista desplegable **Área de nombres**.
 
-1. Establezca **[!UICONTROL tasa de lectura]**. Es el número máximo de perfiles que pueden entrar en el recorrido por segundo. Esta tasa se aplica solamente a esta actividad y a ninguna otra en el recorrido. Si desea definir una tasa de regulación en acciones personalizadas, por ejemplo, debe utilizar la API de regulación. Consulte [esta página](../configuration/throttling.md).
+### Administración de la entrada de perfiles en el recorrido
 
-   Este valor se almacena en la carga útil de la versión de recorrido. El valor predeterminado es de 5000 perfiles por segundo. Puede modificar este valor de 500 a 20 000 perfiles por segundo.
+Establezca **[!UICONTROL tasa de lectura]**. Es el número máximo de perfiles que pueden entrar en el recorrido por segundo. Esta tasa se aplica solamente a esta actividad y a ninguna otra en el recorrido. Si desea definir una tasa de regulación en acciones personalizadas, por ejemplo, debe utilizar la API de regulación. Consulte [esta página](../configuration/throttling.md).
 
-   >[!NOTE]
-   >
-   >La tasa de lectura general por zona protegida se establece en 20 000 perfiles por segundo. Por lo tanto, la tasa de lectura de todas las audiencias de lectura que se ejecutan simultáneamente en la misma zona protegida suma como máximo 20 000 perfiles por segundo. No puede modificar este límite.
+Este valor se almacena en la carga útil de la versión de recorrido. El valor predeterminado es de 5000 perfiles por segundo. Puede modificar este valor de 500 a 20 000 perfiles por segundo.
 
-1. La actividad **[!UICONTROL Leer audiencia]** le permite especificar la hora a la que la audiencia ingresará al recorrido. Para ello, haga clic en el vínculo **[!UICONTROL Editar programación de recorrido]** para acceder a las propiedades del recorrido y, a continuación, configure el campo **[!UICONTROL Tipo de programador]**.
+>[!NOTE]
+>
+>La tasa de lectura general por zona protegida se establece en 20 000 perfiles por segundo. Por lo tanto, la tasa de lectura de todas las audiencias de lectura que se ejecutan simultáneamente en la misma zona protegida suma como máximo 20 000 perfiles por segundo. No puede modificar este límite.
+
+### Programar el recorrido {#schedule}
+
+De forma predeterminada, los recorridos están configurados para ejecutarse una vez. Para definir una fecha/hora y una frecuencia específicas en las que debe ejecutarse el recorrido, siga los pasos a continuación.
+
+>[!NOTE]
+>
+>Los recorridos de audiencia de lectura de una sola toma pasan al estado **Finalizado** 91 días ([tiempo de espera global de recorrido](journey-properties.md#global_timeout)) después de la ejecución del recorrido. Para audiencias de lectura programadas, son 91 días después de la ejecución de la última ocurrencia.
+
+1. En las propiedades de la actividad **[!UICONTROL Leer audiencia]**, pa,e seleccione **[!UICONTROL Editar programación de recorrido]**.
 
    ![](assets/read-segment-schedule.png)
 
-   De manera predeterminada, las audiencias ingresan al recorrido **[!UICONTROL Lo antes posible]**. Si desea que la audiencia introduzca el recorrido en una fecha/hora específica o de forma recurrente, seleccione el valor deseado en la lista.
-
-   >[!NOTE]
-   >
-   >Tenga en cuenta que la sección **[!UICONTROL Programar]** solo está disponible cuando se ha colocado una actividad **[!UICONTROL Leer audiencia]** en el lienzo.
+1. Se muestran las propiedades del recorrido. En la lista desplegable **[!UICONTROL Tipo de programador]**, seleccione la frecuencia con la que desea que se ejecute el recorrido.
 
    ![](assets/read-segment-schedule-list.png)
 
-   Opción **Lectura incremental**: cuando se ejecuta por primera vez un recorrido con una **Audiencia de lectura** recurrente, todos los perfiles de la audiencia entran en el recorrido. Esta opción le permite dirigirse, después de la primera aparición, solo a las personas que ingresaron a la audiencia desde la última ejecución del recorrido.
+En el caso de los recorridos recurrentes, hay opciones específicas disponibles para ayudarle a administrar la entrada de perfiles en el recorrido. Expanda las secciones siguientes para obtener más información sobre cada opción.
 
-       >[!NOTA]
-       >
-       >Si va a segmentar una [audiencia de carga personalizada](../audience/about-audiences.md#segments-in-recorrido-optimizer) en su recorrido, los perfiles solo se recuperan en la primera periodicidad si esta opción está habilitada en un recorrido recurrente, ya que estas audiencias están fijas.
-   
-   **Forzar reentrada en repetición**: esta opción le permite hacer que todos los perfiles que aún están presentes en el recorrido se cierren automáticamente en la siguiente ejecución. Por ejemplo, si tiene una espera de 2 días en un recorrido diario recurrente, al activar esta opción, los perfiles siempre se moverán en la siguiente ejecución de recorrido (por lo que al día siguiente), estén o no en la siguiente audiencia de ejecución. Si la duración de los perfiles en este recorrido puede ser mayor que la periodicidad, no active esta opción para asegurarse de que los perfiles puedan finalizar su recorrido.
+![](assets/read-audience-options.png)
+
++++**[!UICONTROL Lectura incremental]**
+
+Cuando se ejecuta por primera vez un recorrido con una **audiencia de lectura** recurrente, todos los perfiles de la audiencia entran en el recorrido.
+
+Esta opción le permite dirigirse, después de la primera aparición, solo a las personas que ingresaron a la audiencia desde la última ejecución del recorrido.
+
+>[!NOTE]
+>
+>Si va a segmentar una [audiencia de carga personalizada](../audience/about-audiences.md#segments-in-journey-optimizer) en su recorrido, los perfiles solo se recuperan en la primera periodicidad si esta opción está habilitada en un recorrido recurrente, ya que estas audiencias son fijas.
+
++++
+
++++**[!UICONTROL Forzar reentrada en repetición]**
+
+Esta opción le permite hacer que todos los perfiles que aún están presentes en la recorrido se cierren automáticamente en la siguiente ejecución.
+
+Por ejemplo, si tiene una espera de 2 días en un recorrido diario recurrente, al activar esta opción, los perfiles siempre se moverán en la siguiente ejecución de recorrido (por lo que al día siguiente), estén o no en la siguiente audiencia de ejecución.
+
+Si la duración de los perfiles en este recorrido puede ser mayor que la periodicidad, no active esta opción para asegurarse de que los perfiles puedan finalizar su recorrido.
+
++++
+
++++**[!UICONTROL Déclencheur después de la evaluación de audiencia por lotes]** (disponibilidad limitada)
+
+>[!AVAILABILITY]
+>
+>La opción **[!UICONTROL Déclencheur después de la evaluación de audiencia por lotes]** solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+
+Para los recorridos programados a diario y dirigidos a audiencias por lotes, puede definir un período de tiempo de hasta 6 horas para que el recorrido espere datos de audiencia nuevos de los trabajos de segmentación por lotes. Si el trabajo de segmentación se completa dentro del intervalo temporal, el recorrido se compensa con un déclencheur. De lo contrario, omite el recorrido hasta su siguiente aparición. Esta opción garantiza que los recorridos se ejecuten con datos de audiencia precisos y actualizados.
+
+Por ejemplo, si un recorrido está programado para las 18:00 diariamente, puede especificar un número de minutos u horas de espera antes de que se ejecute el recorrido. Cuando el recorrido se despierta a las 18:00, comprueba si hay una audiencia nueva, es decir, una audiencia más reciente que la utilizada en la ejecución de recorrido anterior. Durante el período de tiempo especificado, el recorrido se ejecutará inmediatamente al detectar la audiencia nueva. Sin embargo, si no se detecta ninguna audiencia nueva, la ejecución del recorrido se omitirá ese día.
+
+**Período retroactivo para recorridos de lectura incrementales**
+
+Cuando se selecciona el **[!UICONTROL Déclencheur después de la evaluación de audiencia por lotes]**, [!DNL Journey Optimizer] busca una nueva evaluación de audiencia. Para el punto de partida del periodo retrospectivo, el sistema utiliza el tiempo de la última ejecución correcta del recorrido, incluso si se produjo hace más de 24 horas. Esto es significativo para los recorridos de lectura incrementales que generalmente tienen un periodo retrospectivo de 24 horas.
+
+Ejemplos de recorridos de lectura incrementales diarios:
+
+* Con &quot;Déclencheur después de la evaluación de audiencia por lotes&quot; activo: Si han transcurrido tres días desde que los perfiles incrementales han entrado en el recorrido, el período retroactivo se extendería tres días atrás cuando se busquen perfiles incrementales.
+* Con la opción &quot;Déclencheur después de la evaluación de audiencia por lotes&quot; no activa: si han transcurrido tres días desde que los perfiles incrementales han entrado en la recorrido, el periodo retroactivo solo se remontaría 24 horas al buscar perfiles incrementales.
+
++++
 
 <!--
 
@@ -166,10 +211,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 **Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
 
 -->
-
->[!NOTE]
->
->Los recorridos de audiencia de lectura de una sola toma pasan al estado **Finalizado** 91 días ([tiempo de espera global de recorrido](journey-properties.md#global_timeout)) después de la ejecución del recorrido. Para audiencias de lectura programadas, son 91 días después de la ejecución de la última ocurrencia.
 
 ## Prueba y publicación del recorrido {#testing-publishing}
 
@@ -213,6 +254,12 @@ La segmentación se puede basar en:
 
 ![](assets/read-segment-audience1.png)
 
+>[!NOTE]
+>
+>Al utilizar el tipo de planificador &quot;Daily&quot; con una actividad **[!UICONTROL Read Audience]**, puede definir un intervalo de tiempo para que el recorrido espere datos de audiencia nuevos. Esto garantiza una segmentación precisa y evita problemas causados por retrasos en los trabajos de segmentación por lotes. [Aprenda a programar un recorrido](#schedule)
+>
+>La opción **[!UICONTROL Déclencheur después de la evaluación de audiencia por lotes]** solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+
 **Exclusión**
 
 La misma actividad **Condition** utilizada para la segmentación (ver arriba) también le permite excluir parte de la población. Por ejemplo, puede excluir a personas de VIP convirtiéndolas en una rama con un paso final justo después.
@@ -223,16 +270,11 @@ Esta exclusión puede producirse justo después de la recuperación de la audien
 
 **Unión**
 
-Los recorridos le permiten crear N ramas y unirlas después de una segmentación.
+Los recorridos le permiten crear N ramas y unirlas después de una segmentación. Como resultado, puede hacer que dos audiencias vuelvan a una experiencia común.
 
-Como resultado, puede hacer que dos audiencias vuelvan a una experiencia común.
-
-Por ejemplo, después de seguir una experiencia diferente durante diez días en un recorrido, los clientes de VIP y no de VIP pueden volver a la misma ruta.
-
-Después de una unión, puede volver a dividir la audiencia realizando una segmentación o una exclusión.
+Por ejemplo, después de seguir una experiencia diferente durante diez días en un recorrido, los clientes de VIP y no de VIP pueden volver a la misma ruta. Después de una unión, puede volver a dividir la audiencia realizando una segmentación o una exclusión.
 
 ![](assets/read-segment-audience3.png)
-
 
 ## Reintentos {#read-audience-retry}
 
