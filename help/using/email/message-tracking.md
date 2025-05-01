@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1200'
 ht-degree: 30%
 
 ---
@@ -73,7 +73,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
    >[!NOTE]
    >
-   >Para interpretar las direcciones URL, [!DNL Journey Optimizer] cumple con la sintaxis de URI ([estándar RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), que deshabilita algunos caracteres internacionales especiales en las direcciones URL. Al intentar enviar la prueba o el correo electrónico, si se le devuelve un error que implica una dirección URL añadida al contenido, puede codificar la cadena como una solución alternativa.
+   >Para interpretar direcciones URL, [!DNL Journey Optimizer] cumple con la sintaxis de URI ([estándar RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), que deshabilita algunos caracteres internacionales especiales en las direcciones URL. Al intentar enviar la prueba o el correo electrónico, si se le devuelve un error que implica una dirección URL añadida al contenido, puede codificar la cadena como una solución alternativa.
 
 1. Puede personalizar los vínculos. [Más información](../personalization/personalization-syntax.md#perso-urls)
 
@@ -171,9 +171,9 @@ Los informes sobre aperturas y clics están disponibles en [Live Report](../repo
 
 ## Personalizar seguimiento de URL {#url-tracking}
 
-Normalmente [el seguimiento de URL](email-settings.md#url-tracking) se administra en el nivel de configuración, pero no se admiten atributos de perfil. Actualmente, la única manera de hacerlo es [personalizar las direcciones URL](../personalization/personalization-syntax.md#perso-urls) en el diseñador de correo electrónico.
+[El seguimiento de URL](email-settings.md#url-tracking) se administra en el nivel de configuración y se aplica a todas las URL incluidas en el contenido del mensaje.
 
-Para añadir parámetros de seguimiento de URL personalizados a los vínculos, siga los pasos a continuación.
+También puede [personalizar direcciones URL individuales](../personalization/personalization-syntax.md#perso-urls) en el diseñador de correo electrónico. Para añadir parámetros de seguimiento de URL personalizados a un solo vínculo del contenido, siga los pasos a continuación.
 
 1. Seleccione un vínculo y haga clic en **[!UICONTROL Insertar vínculo]** en la barra de herramientas contextual.
 
