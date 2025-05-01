@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 50fb18210bd589f551efdaf161844251b5bef758
+source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 52%
+source-wordcount: '906'
+ht-degree: 48%
 
 ---
 
@@ -269,15 +269,17 @@ A continuación, se enumeran las nuevas funciones incluidas en esta versión.
 
 **Canal de correo electrónico**
 
-<!--* **Personalized URL tracking**
+* **Seguimiento personalizado de URL** Fecha de disponibilidad: 30 de abril de 2025
 
-  For increased flexibility and control over your email settings, you can now personalize all your URL tracking parameters at once at the email channel configuration level, instead of doing it in the Email designer for each link in your content. -->
+  Para obtener una mayor flexibilidad y control sobre la configuración del correo electrónico, ahora puede personalizar todos los parámetros de seguimiento de URL a la vez en el nivel de configuración del canal de correo electrónico, en lugar de hacerlo en el Diseñador de correo electrónico para cada vínculo del contenido. [Más información](../email/surface-personalization.md#personalize-url-tracking)
 
 * **Diseñador de correo electrónico**. Fecha de disponibilidad: 1 de abril de 2025
 
   Para mejorar la accesibilidad en Journey Optimizer, ahora hay dos campos nuevos disponibles en Diseñador de correo electrónico: se corresponden con el elemento `<title>` y el atributo `lang` en el elemento `<html>` del contenido del correo electrónico. Puede definir esta configuración, además del campo **[!UICONTROL Preencabezado]**, en la sección **[!UICONTROL Cuerpo]** del correo electrónico. [Más información](../email/email-metadata.md)
 
+**Libros de casos de uso**
 
+* **Creación y uso compartido de libros de reproducción (Beta)**: ahora puede crear, administrar y compartir sus propios libros de reproducción de casos de uso. Actualmente, todos los clientes tienen esta capacidad como una versión beta pública. [Más información](../start/playbooks.md)
 
 **Navegación**
 
