@@ -86,7 +86,7 @@ Para añadir una variante desde un archivo, siga estos pasos:
    }
    ```
 
-+++
+   +++
 
 1. Cuando el archivo esté listo, haga clic en **[!UICONTROL Cargar datos de entrada]** para cargarlo y probar el contenido.
 1. Una vez cargado el archivo, se agrega una casilla en el panel izquierdo para cada línea del archivo. Cada cuadro contiene todos los atributos de perfil utilizados en el contenido para la personalización. Ahora puede usar las variantes para usarlas para obtener una vista previa del contenido en el panel derecho y enviar pruebas.

@@ -27,7 +27,7 @@ ht-degree: 11%
 
 La autenticación de mensajes basada en dominios, sistemas de informes y conformidad (DMARC) es un método de autenticación por correo electrónico que permite a los propietarios de dominios proteger su dominio contra el uso no autorizado. Al ofrecer un directiva claro a los proveedores de correo electrónico y proveedores de servicios de Internet (ISP), ayuda a evitar que actores malintencionados envíen correos electrónicos que afirman ser de su dominio. La implementación de DMARC reduce el riesgo de que los correos electrónicos legítimos se marquen como correo no deseado o se rechacen y mejora su entregabilidad
 
-DMARC también ofrece sistema de informes en los mensajes que fallan la autenticación, junto con control sobre el manejo de correos electrónicos que no pasan la validación DMARC. Según el directiva](#dmarc-policies) de DMARC implementado[, estos correos electrónicos se pueden supervisar, poner en cuarentena o rechazar. Estas capacidades le permiten tomar medidas para mitigar y abordar posibles errores.
+DMARC también ofrece sistema de informes en los mensajes que fallan la autenticación, junto con control sobre el manejo de correos electrónicos que no pasan la validación DMARC. Según el directiva[&#128279;](#dmarc-policies) de DMARC implementado, estos correos electrónicos se pueden supervisar, poner en cuarentena o rechazar. Estas capacidades le permiten tomar medidas para mitigar y abordar posibles errores.
 
 Para ayudarle a evitar problemas de entregabilidad mientras obtiene control sobre el correo que falla la autenticación, [!DNL Journey Optimizer] ahora es compatible con la tecnología DMARC directamente en su interfaz de administración. [Más información](#implement-dmarc)
 
@@ -82,7 +82,7 @@ La [!DNL Journey Optimizer] interfaz de administración le permite configurar el
 
 Para asegurarse de que tiene un registro DMARC configurado para todos los subdominios que ha delegado en [!DNL Journey Optimizer], seguir los pasos siguientes.
 
-1. Acceda al **[!UICONTROL menú Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL configuración]** de ]**correo electrónico >**[!UICONTROL  subdominios y, a continuación, haga clic en **[!UICONTROL Configurar subdominio]**.
+1. Acceda al **[!UICONTROL menú Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL configuración]** de **correo electrónico >** subdominios y, a continuación, haga clic en **[!UICONTROL Configurar subdominio]**.
 
 1. Para cada subdominio delegado, compruebe la **[!UICONTROL columna Registro]** DMARC. Si no se encuentra ningún registro para un subdominio determinado, se elimina la reproducción de la alerta.
 

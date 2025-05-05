@@ -145,7 +145,7 @@ Este es un ejemplo de una solicitud que pasa datos de contexto.
 
   ![](assets/context-edge-copy-scope.png)
 
-+++
+  +++
 
 ```
 {

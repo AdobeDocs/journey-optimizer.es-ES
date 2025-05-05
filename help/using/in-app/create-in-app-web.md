@@ -65,7 +65,7 @@ Para configurar el canal web en la aplicación, siga los pasos a continuación:
       | Plataforma | Datos enviados a Platform | Se activa cuando la aplicación móvil emite un evento de experiencia Edge para enviar datos a Adobe Experience Platform. Normalmente, la llamada de API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) procede de la extensión de AEP Edge. |
       | Manual | Déclencheur manual | Dos elementos de datos asociados: una clave, que es una constante que define el conjunto de datos (por ejemplo, sexo, color, precio), y un valor, que es una variable que pertenece al conjunto (por ejemplo, hombre/mujer, verde, 100). |
 
-+++
+      +++
 
    1. Haga clic en **[!UICONTROL Agregar condición]** si desea que el déclencheur tenga en cuenta varios eventos o criterios.
 
@@ -82,7 +82,7 @@ Para configurar el canal web en la aplicación, siga los pasos a continuación:
       | Plataforma | Tipo de evento de XDM | Se activa cuando se cumple el tipo de evento especificado. |
       | Plataforma | Valor XDM | Se activa cuando se cumple el valor XDM especificado. |
 
-+++
+      +++
 
       ![](assets/in_app_web_surface_9.png)
 

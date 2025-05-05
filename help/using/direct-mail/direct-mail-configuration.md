@@ -95,7 +95,7 @@ Si seleccionó **[!UICONTROL Amazon S3]** como **[!UICONTROL tipo de servidor]**
 
 * **Clave** secreta de AWS: para saber dónde encontrar su clave secreta de AWS, consulte [este Página](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
-* **AWS área geográfica**: elija la área geográfica ]**de**[!UICONTROL  AWS donde se ubicará la infraestructura del servidor. Las regiones de AWS son áreas geográficas que AWS utiliza para host sus infraestructuras nube. Como práctica general, se prefiere elegir la área geográfica que esté más cerca de usted correo directo ubicación del proveedor.
+* **AWS área geográfica**: elija la área geográfica **de** AWS donde se ubicará la infraestructura del servidor. Las regiones de AWS son áreas geográficas que AWS utiliza para host sus infraestructuras nube. Como práctica general, se prefiere elegir la área geográfica que esté más cerca de usted correo directo ubicación del proveedor.
 
 ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
@@ -133,7 +133,7 @@ Si seleccionó **[!UICONTROL Azure]** como el **[!UICONTROL tipo de servidor]**,
 
   >[!NOTE]
   >
-  >Para especificar una ruta dentro del contenedor para guardar el archivo, actualice el campo Nombre de archivo del **** correo directo del campaña para incluir la ruta deseada. [Más información](create-direct-mail.md#extraction-file)
+  >Para especificar una ruta dentro del contenedor para guardar el archivo, actualice el campo Nombre de archivo del **&#x200B;**&#x200B;correo directo del campaña para incluir la ruta deseada. [Más información](create-direct-mail.md#extraction-file)
 
   ![](assets/file-routing-config-azure-detail.png)
 
@@ -147,7 +147,7 @@ A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado
 
 >[!ENDTABS]
 
-Para cifrar el archivo, copie y pegue su clave de cifrado en el campo de clave ]**de**[!UICONTROL  cifrado PGP/GPG.
+Para cifrar el archivo, copie y pegue su clave de cifrado en el campo de clave **de** cifrado PGP/GPG.
 
 Una vez que haya completado los detalles de su tipo de servidor, seleccione **[!UICONTROL Enviar]**. El archivo enrutamiento configuración se crea con el **[!UICONTROL estado Activo]** . Ahora está listo para utilizarse en una [configuración](#direct-mail-surface) correo directo.
 

@@ -89,7 +89,7 @@ Para crear una regla de límite de recorrido, siga estos pasos:
      >
      >En este ejemplo, si el especialista en marketing ya ha introducido 4 recorridos y hay otro recorrido programado para este mes con una prioridad más alta, se impedirá que los clientes entren en el recorrido de prioridad más baja.
 
-+++
+     +++
 
      +++Configuración de una regla de límite de concurrencia de recorrido
 
@@ -101,7 +101,7 @@ Para crear una regla de límite de recorrido, siga estos pasos:
 
      ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-+++
+     +++
 
 1. Cuando la regla de límite esté lista para aplicarse a los recorridos, actívela haciendo clic en el botón de puntos suspensivos situado junto a su nombre.
 

@@ -43,7 +43,7 @@ Puede utilizar un plantilla de mensajería evento (también conocido como tiempo
 >
 >Cuando enviamos mensajes transaccionales en tiempo real (rtEvent) o cuando enrutamos mensajes con un sistema terceros gracias a una acción personalizada, se requiere una configuración específica para la fatiga, el bloqueo lista o la gestión baja. Por ejemplo, si un atributo &quot;cancelar la suscripción&quot; se almacena en el Adobe Experience Platform o en un sistema terceros, se deberá agregar una condición antes del envío del mensaje para verificar esta condición.
 
-Cuando selecciona un plantilla, todos los campos previstos en la carga útil del mensaje se muestran en el panel de configuración de actividad en **** Dirección y **[!UICONTROL datos]** de personalización. Debe asignar cada uno de estos campos al campo que desee utilizar, ya sea desde el evento o desde el fuente de datos. También puede usar el editor expresión avanzado para pasar un valor manualmente, realizar la manipulación de datos en la información recuperada (por ejemplo, convertir una cadena en mayúsculas) o usar funciones como &quot;si, entonces, más&quot;. Consulte [esta página](expression/expressionadvanced.md).
+Cuando selecciona un plantilla, todos los campos previstos en la carga útil del mensaje se muestran en el panel de configuración de actividad en **&#x200B;**&#x200B;Dirección y **[!UICONTROL datos]** de personalización. Debe asignar cada uno de estos campos al campo que desee utilizar, ya sea desde el evento o desde el fuente de datos. También puede usar el editor expresión avanzado para pasar un valor manualmente, realizar la manipulación de datos en la información recuperada (por ejemplo, convertir una cadena en mayúsculas) o usar funciones como &quot;si, entonces, más&quot;. Consulte [esta página](expression/expressionadvanced.md).
 
 ![](assets/journey60.png)
 
@@ -65,7 +65,7 @@ Puede definir fácilmente dónde recuperar la **[!UICONTROL dirección]** o los 
 
 >[!NOTE]
 >
->Este categoría sólo está visible si selecciona un mensaje transaccional &quot;evento&quot;. Para los mensajes de &quot;perfil&quot;, el sistema recupera automáticamente el **** campo Dirección de Adobe Campaign Standard.
+>Este categoría sólo está visible si selecciona un mensaje transaccional &quot;evento&quot;. Para los mensajes de &quot;perfil&quot;, el sistema recupera automáticamente el **&#x200B;**&#x200B;campo Dirección de Adobe Campaign Standard.
 
 Estos son los campos que el sistema necesita para saber dónde enviar el mensaje. Para un correo electrónico plantilla, es la dirección correo electrónico. Para un SMS, es el número de teléfono móvil.
 
@@ -95,11 +95,11 @@ Hay dos categorías disponibles: **[!UICONTROL Target]** y **[!UICONTROL Datos]*
 
 >[!NOTE]
 >
->Este categoría solo está visible si selecciona un mensaje evento. Para perfil mensajes, el sistema recupera automáticamente los campos Target **** mediante la reconciliación realizada por Adobe Campaign Standard.
+>Este categoría solo está visible si selecciona un mensaje evento. Para perfil mensajes, el sistema recupera automáticamente los campos Target **&#x200B;**&#x200B;mediante la reconciliación realizada por Adobe Campaign Standard.
 
 En esta sección, debe definir la **[!UICONTROL plataforma]** Push. La lista desplegable le permite seleccionar **[!UICONTROL Apple Push Notification Server]** (iOS) o **[!UICONTROL Firebase Cloud Messaging]** (Android). También puede seleccionar un campo específico de una evento o una fuente de datos, o definir una expresión avanzada.
 
-También debe definir el token ]**de**[!UICONTROL  registro. El expresión depende de cómo se defina el token en la carga evento o en otra [!DNL Journey Optimizer] información. Puede ser un campo simple o un expresión más complejo en caso de que el token se defina en un colección para instancia:
+También debe definir el token **de** registro. El expresión depende de cómo se defina el token en la carga evento o en otra [!DNL Journey Optimizer] información. Puede ser un campo simple o un expresión más complejo en caso de que el token se defina en un colección para instancia:
 
 ```
 @event{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}

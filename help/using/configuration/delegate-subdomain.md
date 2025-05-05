@@ -132,7 +132,7 @@ La configuración del subdominio CNAME le permite crear un subdominio y utilizar
 
 Para configurar un subdominio mediante CNAMEs, seguir los pasos a continuación:
 
-1. Acceda al **[!UICONTROL menú Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL configuración]** de ]**correo electrónico >**[!UICONTROL  subdominios y, a continuación, haga clic en **[!UICONTROL Configurar subdominio]**.
+1. Acceda al **[!UICONTROL menú Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL configuración]** de **correo electrónico >** subdominios y, a continuación, haga clic en **[!UICONTROL Configurar subdominio]**.
 
 1. Seleccione el método **[!UICONTROL CNAME configurado]**.
 

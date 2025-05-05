@@ -93,7 +93,7 @@ Si es necesario, también puede crear una nueva función con permisos específic
 
 Para obtener más información sobre cómo crear y administrar zonas protegidas, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target="_blank"}.
 
-En este ejemplo, crearemos una función denominada **Recorridos de solo lectura** en la que otorgaremos derechos de solo lectura a la función de Recorrido. Los usuarios solamente podrán acceder y ver recorridos y no podrán acceder a otras características como **[!DNL  Decision management]** en [!DNL Journey Optimizer].
+En este ejemplo, crearemos una función denominada **Recorridos de solo lectura** en la que otorgaremos derechos de solo lectura a la función de Recorrido. Los usuarios solamente podrán acceder y ver recorridos y no podrán acceder a otras características como **[!DNL &#x200B; Decision management]** en [!DNL Journey Optimizer].
 
 Para crear nuestros **Recorridos de solo lectura** **[!UICONTROL Rol]**:
 

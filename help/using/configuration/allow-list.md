@@ -42,7 +42,7 @@ Para acceder a la lista detallada de dominios y direcciones de correo electróni
 >
 >Los permisos para ver, exportar y administrar la lista de permitidos están restringidos a [Administradores de Recorrido](../administration/ootb-product-profiles.md#journey-administrator). Obtenga más información acerca de la administración de los derechos de acceso de los usuarios de [!DNL Journey Optimizer] en [esta sección](../administration/permissions-overview.md).
 
-Para exportar las lista permitidas como un archivo CSV, seleccione la botón Descargar CSV ****.
+Para exportar las lista permitidas como un archivo CSV, seleccione la botón Descargar CSV **&#x200B;**.
 
 Utilice el **[!UICONTROL botón Eliminar]** para eliminar una entrada de forma permanente.
 
@@ -78,7 +78,7 @@ La lógica de lista de permitidos se aplica cuando la función está activa. Obt
 
 Para desactivar los lista permitidos, seguir los pasos que se describen a continuación.
 
-1. Acceda a la configuración Canales **[!UICONTROL > correo electrónico >**[!UICONTROL  menú Permitir lista ]**.****]**
+1. Acceda a la configuración Canales **[!UICONTROL > correo electrónico >**&#x200B;[!UICONTROL &#x200B; menú Permitir lista &#x200B;]&#x200B;**.**&#x200B;**]**
 
 1. Seleccione el botón de alternancia.
 
@@ -96,7 +96,7 @@ La lógica de lista de permitidos no se aplica cuando la función está desactiv
 
 ## añadir entidades al lista permitido {#add-entities}
 
-Para agregar nuevas direcciones correo electrónico o dominios al lista permitido para un entorno limitado específico, puede [rellenar manualmente el lista](#manually-populate-list) o usar una llamada](#api-call-allowed-list) API[.
+Para agregar nuevas direcciones correo electrónico o dominios al lista permitido para un entorno limitado específico, puede [rellenar manualmente el lista](#manually-populate-list) o usar una llamada[&#128279;](#api-call-allowed-list) API.
 
 >[!NOTE]
 >

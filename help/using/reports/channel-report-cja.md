@@ -57,7 +57,7 @@ Los KPI **[!UICONTROL Características destacadas]** sirven como un tablero comp
 
 +++
 
-##  Recorrido  {#journey}
+## Recorrido  {#journey}
 
 ![](assets/cja-channel-journeys.png)
 

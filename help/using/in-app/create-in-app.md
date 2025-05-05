@@ -67,7 +67,7 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
       | Places | Introducir POI | Se activa mediante la SDK de Places cuando el cliente introduce el punto de interés (PDI) que ha configurado. |
       | Places | POI de salida | Se activa mediante la SDK de Places cuando el cliente sale del punto de interés (PDI) que ha configurado. |
 
-+++
+      +++
 
    1. Haga clic en **[!UICONTROL Agregar condición]** si desea que el déclencheur tenga en cuenta varios eventos o criterios.
 
@@ -99,7 +99,7 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
       | Places | Último punto de interés | Activado por el SDK de Places en función del último punto de interés (PDI) introducido por el cliente. |
       | Places | Último PDI de salida | Se activa mediante la SDK de Places en función del último punto de interés (PDI) de salida del cliente. |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -173,7 +173,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
       | Places | Introducir POI | Se activa mediante la SDK de Places cuando el cliente introduce el punto de interés (PDI) que ha configurado. |
       | Places | POI de salida | Se activa mediante la SDK de Places cuando el cliente sale del punto de interés (PDI) que ha configurado. |
 
-+++
+      +++
 
    1. Haga clic en **[!UICONTROL Agregar condición]** si desea que el déclencheur tenga en cuenta varios eventos o criterios.
 
@@ -205,7 +205,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
       | Places | Último punto de interés | Activado por el SDK de Places en función del último punto de interés (PDI) introducido por el cliente. |
       | Places | Último PDI de salida | Se activa mediante la SDK de Places en función del último punto de interés (PDI) de salida del cliente. |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -238,7 +238,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-+++
+  +++
 
 * El siguiente vídeo muestra cómo configurar y analizar experimentos de contenido para probar mensajes en la aplicación A/B.
 
@@ -246,7 +246,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
-+++
+  +++
 
 * El siguiente vídeo muestra cómo crear un mensaje en la aplicación en un recorrido y cómo probar y publicar el recorrido.
 
@@ -254,7 +254,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
   >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
-+++
+  +++
 
 **Temas relacionados:**
 

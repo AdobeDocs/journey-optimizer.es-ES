@@ -21,7 +21,7 @@ La editor expresión Avanzadas se puede utilizar para crear condiciones que le p
 
 >[!CAUTION]
 >
->Se admite el uso de eventos de experiencia en expresiones o condiciones de recorrido, pero no se recomienda. Si su caso de uso requiere el uso de eventos de experiencia, considere métodos alternativos como [atributos calculados o crear un segmento usar los eventos e incorporar ese segmento en [`inAudience` las expresiones](../../building-journeys/functions/functioninaudience.md).](../../audience/computed-attributes.md)
+>Se admite el uso de eventos de experiencia en expresiones o condiciones de recorrido, pero no se recomienda. Si su caso de uso requiere el uso de eventos de experiencia, considere métodos alternativos como [&#128279;](../../audience/computed-attributes.md)atributos calculados o crear un segmento usar los eventos e incorporar ese segmento en [`inAudience` las expresiones](../../building-journeys/functions/functioninaudience.md).
 
 
 ## Condiciones de construcción en eventos de experiencia
