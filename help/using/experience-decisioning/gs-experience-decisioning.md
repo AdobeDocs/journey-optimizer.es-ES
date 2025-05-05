@@ -24,7 +24,7 @@ ht-degree: 25%
 
 Decisioning simplifica la personalización al ofrecer un catálogo centralizado de ofertas de marketing conocidas como “elementos de decisión” y un motor de decisión sofisticado. Este motor aprovecha las reglas y los criterios de clasificación para seleccionar y presentar a cada persona los elementos de decisión más relevantes.
 
-Estos elementos de decisión se integran a la perfección en una amplia gama de superficies de entrada a través del [nuevo canal de experiencia basado en código](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), ahora accesible desde las campañas de Journey Optimizer.
+Estos elementos de decisión se integran a la perfección en una amplia gama de superficies de entrada a través del [nuevo canal de experiencia basado en código](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/code-based-experience/get-started-code-based), ahora accesible desde las campañas de Journey Optimizer.
 
 >[!IMPORTANT]
 >

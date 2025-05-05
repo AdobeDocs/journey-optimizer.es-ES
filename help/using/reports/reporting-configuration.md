@@ -40,7 +40,7 @@ Tenga en cuenta que para los canales web, basados en código y en la aplicación
 
 ## Requisitos previos
 
-Antes de poder agregar un conjunto de datos a la configuración de creación de informes, debe crearlo. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
+Antes de poder agregar un conjunto de datos a la configuración de creación de informes, debe crearlo. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es#create){target="_blank"}.
 
 * Solo puede añadir conjuntos de datos de tipo evento.
 

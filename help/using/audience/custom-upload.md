@@ -27,7 +27,7 @@ Durante el proceso de carga personalizado, especifique el atributo CSV que se ut
 
 ![](assets/import-audience.png)
 
-Encontrará información detallada sobre cómo importar audiencias en [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}.
+Encontrará información detallada sobre cómo importar audiencias en [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}.
 
 Obtenga información sobre cómo cargar audiencias en formato CSV en vídeo:
 

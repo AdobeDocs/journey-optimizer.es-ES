@@ -39,7 +39,7 @@ Si tiene una implementación del lado del cliente, puede utilizar uno de los SDK
 
 ### Cómo funciona: SDK web {#client-side-how}
 
-1. [El SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} se incluye en la página.
+1. [El SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"} se incluye en la página.
 
 1. Debe usar el comando `sendEvent` y especificar el [URI de superficie](code-based-surface.md)<!--( or location/path)--> para recuperar contenido de personalización.
 
@@ -145,7 +145,7 @@ Los pasos siguientes describen el proceso de recuperar el contenido publicado en
 ### Funcionamiento
 
 1. Se solicita la página web y se incluyen todas las cookies almacenadas anteriormente por el explorador con el prefijo `kndctr_`.
-1. Cuando se solicita la página desde el servidor de aplicaciones, se envía un evento al [extremo interactivo de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) para recuperar el contenido de personalización. Esta aplicación de ejemplo utiliza algunos métodos de ayuda para simplificar la generación y el envío de solicitudes a la API (consulte [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Pero la solicitud es simplemente un `POST` con una carga útil que contiene un evento y una consulta. Las cookies (si están disponibles) del paso anterior se incluyen con la solicitud en la matriz `meta>state>entries`.
+1. Cuando se solicita la página desde el servidor de aplicaciones, se envía un evento al [extremo interactivo de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es) para recuperar el contenido de personalización. Esta aplicación de ejemplo utiliza algunos métodos de ayuda para simplificar la generación y el envío de solicitudes a la API (consulte [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Pero la solicitud es simplemente un `POST` con una carga útil que contiene un evento y una consulta. Las cookies (si están disponibles) del paso anterior se incluyen con la solicitud en la matriz `meta>state>entries`.
 
    ```javascript
    fetch(
@@ -306,4 +306,4 @@ Las solicitudes a la API de Adobe Experience Platform son necesarias para obtene
 Si tiene una implementación híbrida, consulte los vínculos siguientes.
 
 * Blog técnico de Adobe: [Personalization híbrido en el SDK web de Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* Documentación del SDK: [Personalización híbrida mediante SDK web y API de servidor Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* Documentación del SDK: [Personalización híbrida mediante SDK web y API de servidor Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=es){target="_blank"}

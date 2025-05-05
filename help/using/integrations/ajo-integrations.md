@@ -82,7 +82,7 @@ Más información sobre [Journey Optimizer + Campaign Standard](../building-jour
 
 Utilice los módulos de Adobe Journey Optimizer en Adobe Workfront para crear, leer, actualizar o eliminar registros, o realizar una llamada de API personalizada a la API de Adobe Journey Optimizer.
 
-An overview of the key step of this integration is available [in this blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
+An overview of the key step of this integration is available [in this blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=es){target="_blank"}.
 
 Learn more about Journey Optimizer + Adobe Workfront [in Adobe Workfront documentation](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=es){target="_blank"}.
 

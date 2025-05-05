@@ -59,7 +59,7 @@ Para exportar una plantilla de Adobe Experience Manager a Adobe Journey Optimize
 
    ![](assets/aem-outbound-menu.png)
 
-1. Desde la biblioteca de contenido, puede utilizar plantillas configuradas anteriormente o crear una desde cero. [Más información](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
+1. Desde la biblioteca de contenido, puede utilizar plantillas configuradas anteriormente o crear una desde cero. [Más información](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=es#creating-a-new-page)
 
 1. Al incorporar la sintaxis de personalización de Journey Optimizer en la plantilla, puede mejorar sus capacidades de personalización. [Más información](../personalization/personalization-syntax.md)
 

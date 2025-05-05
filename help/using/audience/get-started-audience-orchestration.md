@@ -146,7 +146,7 @@ Para crear un flujo de trabajo de maquetación, siga estos pasos:
 
    ![](assets/audiences-properties.png)
 
-1. Configure su composición agregando tantas actividades como sea necesario entre las actividades **[!UICONTROL Audience]** y **[!UICONTROL Save]**. Para obtener más información sobre cómo crear una composición, consulte la [documentación de composición de audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition).
+1. Configure su composición agregando tantas actividades como sea necesario entre las actividades **[!UICONTROL Audience]** y **[!UICONTROL Save]**. Para obtener más información sobre cómo crear una composición, consulte la [documentación de composición de audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-composition).
 
    ![](assets/audiences-publish.png)
 
@@ -179,4 +179,4 @@ Las composiciones pueden tener varios estados:
 
 >[!NOTE]
 >
->La composición de audiencia no está integrada actualmente con la capacidad de restablecimiento de la zona protegida. Antes de iniciar el restablecimiento de una zona protegida, debe eliminar las composiciones manualmente para asegurarse de que los datos de audiencia asociados se limpien correctamente. Encontrará información detallada en [Documentación de espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions) de Adobe Experience Platform
+>La composición de audiencia no está integrada actualmente con la capacidad de restablecimiento de la zona protegida. Antes de iniciar el restablecimiento de una zona protegida, debe eliminar las composiciones manualmente para asegurarse de que los datos de audiencia asociados se limpien correctamente. Encontrará información detallada en [Documentación de espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es#delete-audience-compositions) de Adobe Experience Platform

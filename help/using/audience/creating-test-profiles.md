@@ -32,7 +32,7 @@ Existen varias formas de crear perfiles de prueba. Puede encontrar en esta pági
 
   Además de estos dos métodos, Adobe Journey Optimizer incluye un [caso de uso específico en el producto](#use-case-1) para facilitar la creación del perfil de prueba.
 
-También puede cargar un archivo json en un conjunto de datos existente. Para obtener más información, consulte la [documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
+También puede cargar un archivo json en un conjunto de datos existente. Para obtener más información, consulte la [documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=es#add-data-to-dataset){target="_blank"}.
 
 Tenga en cuenta que la creación de un perfil de prueba es similar a la creación de perfiles normales en Adobe Experience Platform. Para obtener más información, consulte la [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
 
@@ -69,7 +69,7 @@ Una vez finalizado, haga clic en **[!UICONTROL Agregar grupos de campos]**: la l
 
 >[!NOTE]
 >
->Para obtener más información sobre la creación de esquemas, consulte la [documentación de XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
+>Para obtener más información sobre la creación de esquemas, consulte la [documentación de XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=es#prerequisites){target="_blank"}.
 
 Entonces necesita **crear el conjunto de datos** en el que se importarán los perfiles. Siga estos pasos:
 
@@ -86,7 +86,7 @@ Entonces necesita **crear el conjunto de datos** en el que se importarán los pe
 
 >[!NOTE]
 >
-> Para obtener más información sobre la creación de conjuntos de datos, consulte la [documentación del servicio de catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
+> Para obtener más información sobre la creación de conjuntos de datos, consulte la [documentación del servicio de catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es#getting-started){target="_blank"}.
 
 ## Caso de uso dentro del producto{#use-case-1}
 
@@ -183,7 +183,7 @@ Los perfiles de prueba se han añadido y ahora se pueden utilizar para probar un
 
 >[!NOTE]
 >
->Para obtener más información sobre las importaciones de csv, consulte la [documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
+>Para obtener más información sobre las importaciones de csv, consulte la [documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=es#tutorials){target="_blank"}.
 >
 
 

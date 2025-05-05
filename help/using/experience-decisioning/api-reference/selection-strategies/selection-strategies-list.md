@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Estrategias de selección de lista {#list-selection-strategies}
 
-Una estrategia de selección consiste en una colección asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se mostrarán cuando se seleccionen en una [política de decisión](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision).
+Una estrategia de selección consiste en una colección asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se mostrarán cuando se seleccionen en una [política de decisión](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision).
 
 GET Puede ver una lista de todas las estrategias de selección realizando una sola solicitud a la API de la biblioteca de ofertas.
 
