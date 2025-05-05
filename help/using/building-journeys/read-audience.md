@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3da510cffe6fddc644c867fe8d89da9d9c5861d1
 workflow-type: tm+mt
 source-wordcount: '2195'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -24,41 +24,6 @@ ht-degree: 9%
 >id="ajo_journey_read_segment"
 >title="Actividad Leer público"
 >abstract="La actividad Leer público permite hacer que todos los particulares que pertenecen a un público de Adobe Experience Platform entren en un recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_start_date"
->title="Fecha y hora de inicio"
->abstract="Defina la fecha y la hora en la que desea almacenar en déclencheur este recorrido."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_until"
->title="Repetir hasta"
->abstract="Defina la fecha de finalización de la actividad recurrente."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_every"
->title="Repetir cada"
->abstract="Defina una frecuencia de planificador recurrente."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_incremental_read"
->title="Lectura incremental"
->abstract="Solo permiten la entrada al recorrido de perfiles nuevos desde la última lectura."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_force_reentrance"
->title="Forzar reentrada"
->abstract="Suelte todos los participantes del recorrido antes de leer cada audiencia."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="Déclencheur tras la evaluación de audiencia por lotes"
->abstract="Active esta opción para almacenar en déclencheur la ejecución del recorrido después de una nueva evaluación de la audiencia por lotes."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="Tiempo de espera para una nueva evaluación de audiencia"
->abstract="Especifique el tiempo que el recorrido esperará a que la audiencia por lotes se evalúe recientemente. El período de espera está limitado a valores enteros, se puede especificar en minutos u horas y debe estar entre 1 y 6 horas."
 
 Utilice la actividad **Leer audiencia** para hacer que todos los individuos de una audiencia ingresen al recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular.
 
@@ -131,6 +96,41 @@ Este valor se almacena en la carga útil de la versión de recorrido. El valor p
 >La tasa de lectura general por zona protegida se establece en 20 000 perfiles por segundo. Por lo tanto, la tasa de lectura de todas las audiencias de lectura que se ejecutan simultáneamente en la misma zona protegida suma como máximo 20 000 perfiles por segundo. No puede modificar este límite.
 
 ### Programar el recorrido {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="Fecha y hora de inicio"
+>abstract="Defina la fecha y la hora a las que desea activar este recorrido."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="Repetir hasta"
+>abstract="Defina la fecha de finalización de recurrente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="Repetir cada"
+>abstract="Defina una frecuencia de planificador recurrente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="Lectura incremental"
+>abstract="Permitir solo la entrada al recorrido de nuevos perfiles desde la última lectura."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="Forzar reentrada"
+>abstract="Suelte todos los participantes del recorrido antes de le lectura de cada público."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="Déclencheur tras la evaluación de audiencia por lotes"
+>abstract="Active esta opción para almacenar en déclencheur la ejecución del recorrido después de una nueva evaluación de la audiencia por lotes."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="Tiempo de espera para una nueva evaluación de audiencia"
+>abstract="Especifique el tiempo que el recorrido esperará a que la audiencia por lotes se evalúe recientemente. El período de espera está limitado a valores enteros, se puede especificar en minutos u horas y debe estar entre 1 y 6 horas."
 
 De forma predeterminada, los recorridos están configurados para ejecutarse una vez. Para definir una fecha/hora y una frecuencia específicas en las que debe ejecutarse el recorrido, siga los pasos a continuación.
 
