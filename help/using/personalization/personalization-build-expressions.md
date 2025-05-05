@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expresión, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1458'
 ht-degree: 10%
 
 ---
@@ -76,6 +76,12 @@ URL personalizadas de ejemplo:
 >Al editar una URL personalizada en el editor de personalización, las funciones de ayuda y la pertenencia a audiencias se desactivan por motivos de seguridad.
 >
 >No se admiten espacios en los tokens de personalización utilizados dentro de las direcciones URL.
+
++++
+
++++Configuración de correo electrónico
+
+Al crear una configuración de canal de correo electrónico, puede definir valores personalizados para subdominios, encabezados y parámetros de seguimiento de URL. [Más información](../email/surface-personalization.md)
 
 +++
 
@@ -187,7 +193,7 @@ En este caso **product** no es una matriz:
 {{/each}}
 ```
 
-* **Sintaxis de handlebars no válida. Se encontró`‘[XYZ}}’`**
+* **Sintaxis de handlebars no válida. Se encontró`'[XYZ}}'`**
 
 Cuando se utiliza sintaxis de handlebars no válida.
 
