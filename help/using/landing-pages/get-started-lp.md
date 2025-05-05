@@ -71,4 +71,4 @@ Una página de aterrizaje es una página web independiente a la que se dirige a 
 
 El siguiente vídeo muestra cómo crear una lista de suscripción, configurar páginas de aterrizaje para ofrecer suscripciones a un servicio o cancelar su suscripción, integrar la opción de suscripción a un mensaje y configurar los recorridos relevantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344397?quality=12&learn=on&captions=spa)

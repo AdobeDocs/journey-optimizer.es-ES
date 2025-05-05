@@ -44,4 +44,4 @@ Para crear un cualificador de recopilación, siga estos pasos:
 
 ## Vídeo explicativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341364?quality=12&captions=spa)

@@ -51,4 +51,4 @@ Cuando se detiene un recorrido, se detiene permanentemente: todas las personas q
 
 Obtenga información sobre cómo publicar un recorrido en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427933?quality=12&captions=spa)

@@ -68,4 +68,4 @@ Compruebe los siguientes requisitos previos antes de empezar a crear la primera 
 
 Aprenda a crear su primera campaña.
 
->[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3412402?quality=12&captions=spa)

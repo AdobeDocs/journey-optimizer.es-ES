@@ -31,4 +31,4 @@ Encontrará información detallada sobre cómo importar audiencias en [Documenta
 
 Obtenga información sobre cómo cargar audiencias en formato CSV en vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3423362?quality=12&captions=spa)

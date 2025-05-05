@@ -83,4 +83,4 @@ Una vez configuradas, puede aprovechar todas las funcionalidades de canal integr
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+>[!VIDEO](https://video.tv.adobe.com/v/3443609?captions=spa)

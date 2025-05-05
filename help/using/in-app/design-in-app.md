@@ -250,4 +250,4 @@ Si el **[!UICONTROL modo de formato avanzado]** está activado, puede personaliz
 
 El siguiente vídeo muestra cómo crear y probar los mensajes en la aplicación.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422076?quality=12&learn=on&captions=spa)

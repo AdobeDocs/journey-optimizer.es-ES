@@ -344,4 +344,4 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 Aprenda a utilizar las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416643?quality=12&captions=spa)

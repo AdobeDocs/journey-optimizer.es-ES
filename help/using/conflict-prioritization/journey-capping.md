@@ -132,4 +132,4 @@ Una vez que el recorrido esté activo, puede registrar en el informe de recorrid
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447617?quality=12&captions=spa)
