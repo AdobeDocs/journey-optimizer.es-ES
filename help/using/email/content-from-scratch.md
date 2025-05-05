@@ -12,11 +12,11 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 53%
+ht-degree: 55%
 
 ---
 
-# Diseño del contenido desde cero con Email Designer {#content-from-scratch}
+# Diseño del contenido desde cero con el Diseñador de correo electrónico {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"

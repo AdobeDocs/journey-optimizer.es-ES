@@ -26,7 +26,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
 >title="Selección del público de la campaña"
->abstract="Esta lista muestra todos los públicos de Adobe Experience Platform disponibles. Seleccione el público al que se dirige la campaña. El mensaje configurado en la campaña se envía a todas las personas que pertenecen al público seleccionado. [Más información sobre las audiencias](../audience/about-audiences.md)"
+>abstract="Esta lista muestra todos los públicos de Adobe Experience Platform disponibles. Seleccione el público al que se dirige la campaña. El mensaje configurado en la campaña se envía a todas las personas que pertenecen al público seleccionado. [Más información sobre los públicos](../audience/about-audiences.md)"
 
 Las audiencias son colecciones de personas que comparten comportamientos o características similares. Se configuran y mantienen de forma centralizada en Adobe Experience Platform mediante el servicio de segmentación de Adobe Experience Platform y son fácilmente accesibles desde Journey Optimizer para su activación en recorridos y campañas.
 

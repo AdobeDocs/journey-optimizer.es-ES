@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Eventos de calificación de audiencias
+title: Eventos de calificación de público
 description: Aprenda a utilizar y configurar eventos de cualificación de audiencias
 feature: Journeys, Activities, Audiences
 topic: Content Management
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 ---
 
-# Eventos de calificación de audiencias {#segment-qualification}
+# Eventos de calificación de público {#segment-qualification}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
