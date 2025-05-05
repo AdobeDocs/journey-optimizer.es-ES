@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: objeto, nivel, acceso, control, etiquetas, olac, autorización
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 15%
+source-wordcount: '472'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,9 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Etiquetas de administración de acceso"
->abstract="Puede limitar el acceso a esta campaña en función de las etiquetas de acceso. Para añadir una limitación de acceso, vaya al botón **Administrar acceso** en la parte superior de esta página. Asegúrese de seleccionar solo las etiquetas para las que tenga permiso."
+>abstract="Puede limitar el acceso a un objeto en función de las etiquetas de acceso. Su objetivo es proteger los activos digitales confidenciales de usuarios no autorizados, lo que permite una mayor protección de los datos personales. **Asegúrese de seleccionar solo las etiquetas para las que tenga permiso.**"
+
+Puede limitar el acceso a un objeto en función de las etiquetas de acceso. Su objetivo es proteger los activos digitales confidenciales de usuarios no autorizados, lo que permite una mayor protección de los datos personales.
 
 La capacidad Control de acceso a nivel de objeto (OLAC) permite definir autorizaciones para administrar el acceso a datos a una selección de objetos:
 
@@ -36,7 +38,6 @@ La capacidad Control de acceso a nivel de objeto (OLAC) permite definir autoriza
 * Configuración de canal
 * plan de calentamiento de IP
 
-Su objetivo es proteger los activos digitales confidenciales de usuarios no autorizados, lo que permite una mayor protección de los datos personales.
 
 ## Requisitos previos {#prereq-labels}
 
@@ -85,7 +86,7 @@ Para asignar etiquetas de uso de datos personalizadas o principales a los objeto
 
 1. En la ventana **[!UICONTROL Administrar acceso]**, seleccione las etiquetas personalizadas o de uso de datos principales para administrar el acceso a este objeto.
 
-   Para obtener más información sobre las etiquetas de uso de datos principales, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html){target="_blank"}.
+   Para obtener más información sobre las etiquetas de uso de datos principales, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=es){target="_blank"}.
 
    ![](assets/olac_4.png)
 

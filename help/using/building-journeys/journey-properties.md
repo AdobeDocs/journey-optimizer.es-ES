@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '2344'
-ht-degree: 17%
+source-wordcount: '2395'
+ht-degree: 13%
 
 ---
 
@@ -27,17 +27,20 @@ ht-degree: 17%
 
 Las propiedades de un recorrido están centralizadas en el carril derecho. Esta sección se muestra de forma predeterminada al crear un nuevo recorrido. Para los recorridos existentes, haga clic en el icono de lápiz situado junto al nombre del recorrido para abrirlo.
 
-Desde esta sección, puede definir el nombre del recorrido, añadir una descripción y:
+En esta sección, defina el nombre del recorrido, añada una descripción y defina las propiedades globales del recorrido.
 
-* administrar [entrada y reentrada](#entrance),
-* elegir las [fechas](#dates) de inicio y finalización,
-* administrar [acceso a datos](#manage-access),
-* definir [timeout duration](#timeout) en las actividades de recorrido (solo para usuarios administradores),
-* seleccione el recorrido y el perfil [husos horarios](#timezone)
-* asigne etiquetas unificadas de Adobe Experience Platform a su recorrido para clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
-* supervise conflictos y dé prioridad a sus recorridos con [herramientas de administración de conflictos](#conflict).
+Puede hacer lo siguiente:
 
-![](assets/journey32.png)
+* Asigne etiquetas unificadas de Adobe Experience Platform a su recorrido para clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
+* Seleccione las métricas de recorridos. [Aprenda a configurar y rastrear sus métricas de recorridos](success-metrics.md)
+* Administrar [entrada y reentrada](#entrance). La administración de la entrada del perfil depende del tipo de recorridos. Los detalles están disponibles en [esta página](entry-management.md)
+* Administrar [acceso a datos](#manage-access)
+* Seleccione el recorrido y el perfil [husos horarios](#timezone)
+* Elija [fechas de inicio y finalización](#dates) personalizadas
+* Defina un tiempo de espera de [timeout duration](#timeout) en las actividades de recorrido (solo para usuarios administradores)
+* Supervise los conflictos y dé prioridad a sus recorridos con [herramientas de administración de conflictos](#conflict)
+
+![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -75,46 +78,46 @@ Cuando se activa la opción **Permitir la reentrada**, se muestra el campo **Per
 
 ## Administrar acceso {#manage-access}
 
-Para asignar etiquetas de uso de datos principales o personalizados al recorrido, haz clic en el botón **[!UICONTROL Administrar acceso]**. [Más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
+Puede limitar el acceso a un recorrido en función de las etiquetas de acceso.
 
-![](assets/journeys-manage-access.png)
+Para asignar al recorrido etiquetas de uso de datos personalizadas, haga clic en el icono **[!UICONTROL Administrar etiquetas de acceso]** y seleccione una o varias etiquetas.
+
+[Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
 
 ## Zonas horarias de recorrido y perfil {#timezone}
 
 La zona horaria se define en el nivel de recorrido. Puede introducir una zona horaria fija o utilizar perfiles de Adobe Experience Platform para definir la zona horaria de recorrido. Si se define una zona horaria en el perfil de Adobe Experience Platform, se puede recuperar en la recorrido.
 
-Para obtener más información sobre la administración de huso horario, consulte [esta página](../building-journeys/timezone-management.md).
+[Más información sobre la administración de huso horario](../building-journeys/timezone-management.md)
 
 ## Fecha de inicio y de finalización {#dates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Fecha de inicio"
->abstract="Elija la fecha en la que puede empezar la entrada en el recorrido. Si no se especifica ninguna fecha de inicio, se establece automáticamente en el momento de la publicación."
-
+>abstract="Seleccione la fecha en la que los perfiles pueden empezar a introducir el recorrido. Si no se establece ninguna fecha de inicio, la predeterminada es la fecha de publicación del recorrido."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Fecha final"
->abstract="Elija la fecha de finalización del recorrido. Cuando llega esa fecha, los perfiles de ese recorrido lo abandonan automáticamente y los nuevos ya no pueden entrar en él."
+>abstract="Establezca la fecha en la que termina el recorrido. En esta fecha, los perfiles activos abandonarán automáticamente la recorrido y no se permitirán nuevas entradas."
 
-Puede definir una **fecha de inicio**. Si no ha especificado ninguna, se definirá automáticamente en el momento de la publicación.
+De forma predeterminada, los perfiles pueden entrar en el recorrido en cuanto se publique y pueden permanecer hasta que se alcance el [tiempo de espera de recorrido global](#global_timeout). La única excepción son los recorridos de lectura recurrentes con **Forzar reentrada en repetición** activada, que terminan en la fecha de inicio de la siguiente ocurrencia.
 
-También puede agregar una **fecha de finalización**. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. Si no se especifica una fecha de finalización, los perfiles pueden permanecer hasta el [tiempo de espera de recorrido global](#global_timeout) (que suele ser de 91 días). La única excepción son los recorridos de lectura recurrentes con **Forzar reentrada en repetición** activada, que terminan en la fecha de inicio de la siguiente ocurrencia.
+Si es necesario, puede definir **fecha de inicio** y **fecha de finalización** personalizadas. Esto permite a los perfiles introducir el recorrido en una fecha específica y salir automáticamente cuando se llega a la fecha de finalización.
 
 ## Tiempo de espera {#timeout}
 
-### Tiempo de espera o error en actividades de recorrido {#timeout_and_error}
+### Tiempo de espera en actividades de recorrido {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
->title="Tiempo de espera"
->abstract="Defina la cantidad de tiempo durante la cual el recorrido intentará ejecutar una acción o comprobar una condición antes de considerarla como tiempo de espera."
-
+>title="Tiempo de espera o error"
+>abstract="Especifique cuánto tiempo debe intentar el recorrido realizar una acción o evaluar una condición antes de tratarla como con tiempo de espera agotado. Los valores recomendados están entre 1 y 30 segundos."
 
 Al editar una actividad de acción o condición, puede definir una ruta alternativa en caso de error o tiempo de espera. Si el procesamiento de la actividad que busca un sistema de terceros supera el tiempo de espera definido en el campo **[!UICONTROL Tiempo de espera o error]** de las propiedades del recorrido, se elegirá la segunda ruta para realizar una posible acción de reserva.
 
-Los valores autorizados están entre 1 y 30 segundos.
+Los valores recomendados están entre 1 y 30 segundos.
 
 Le recomendamos que defina un valor muy corto de **[!UICONTROL Tiempo de espera o error]** si su recorrido distingue entre tiempo y minúsculas (por ejemplo: reacción a la ubicación en tiempo real de una persona) porque no puede retrasar su acción más de unos segundos. Si el recorrido distingue menos del tiempo, puede utilizar un valor más largo para dar más tiempo al sistema llamado para enviar una respuesta válida.
 

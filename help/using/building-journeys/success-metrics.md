@@ -2,28 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Publicar el recorrido
-description: Obtenga información sobre cómo informar sobre la métrica de recorridos elegida
+description: Obtenga información sobre cómo informar sobre las métricas de recorridos
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 7%
+source-wordcount: '495'
+ht-degree: 5%
 
 ---
 
-# Configuración y seguimiento de la métrica de recorrido {#success-metrics}
+# Configuración y seguimiento de las métricas de recorridos {#success-metrics}
 
-Con las métricas de recorridos, puede medir de manera eficaz el impacto de sus actividades realizando un seguimiento de su rendimiento con respecto a las métricas predefinidas.
-Al rastrear estas métricas, puede ver el rendimiento de su recorrido, identificar áreas que se pueden mejorar y tomar decisiones informadas para mejorar la participación de los clientes.
+Obtenga una visibilidad clara de la eficacia de los recorridos de sus clientes con las métricas de recorridos. Esta función le permite realizar un seguimiento del rendimiento con respecto a los KPI definidos, descubrir información sobre lo que funciona e identificar áreas para la optimización. Si mide el impacto en tiempo real, puede impulsar una mejora continua y tomar decisiones basadas en datos que aumenten la participación de los clientes.
 
 ## Requisitos previos {#prerequisites}
 
-Antes de usar la métrica de recorridos, debe agregar un conjunto de datos que incluya los `Commerce Details`, `Web`y `Mobile` [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"}.
+Antes de usar las métricas de recorrido, debe agregar un conjunto de datos que incluya los `Commerce Details`, `Web` y `Mobile` [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"}.
 
 ## Métricas disponibles {#metrics}
 
@@ -70,9 +69,9 @@ Cada métrica viene con una atribución de conjunto que determina qué puntos de
 
   Más información sobre [modelos de atribución](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
-## Asignar la métrica de Recorridos {#assign}
+## Asignar las métricas de recorrido {#assign}
 
-Para empezar a rastrear la métrica de recorridos, siga los pasos descritos a continuación:
+Para empezar a rastrear las métricas de recorridos, siga los pasos descritos a continuación:
 
 1. En el menú de **[!UICONTROL Recorridos]**, haz clic en **[!UICONTROL Crear Recorrido]**.
 
@@ -90,8 +89,8 @@ Para empezar a rastrear la métrica de recorridos, siga los pasos descritos a co
 
 1. Pruebe y publique el recorrido.
 
-1. Abra el informe de recorridos para rastrear el rendimiento de la métrica de éxito asignada.
+1. Abra el informe de recorridos para realizar un seguimiento del rendimiento de las métricas de éxito asignadas.
 
-   La métrica que haya elegido se mostrará en la tabla KPI y estadísticas de Recorrido del informe.
+   Las métricas seleccionadas se muestran en la tabla KPI y estadísticas de Recorrido del informe.
 
    ![](assets/success_metric_2.png)
