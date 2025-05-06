@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
+source-git-commit: 5287b117a4fdba9912eb2bc7a1a2bfedcbda0b51
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '977'
 ht-degree: 46%
 
 ---
@@ -253,6 +253,9 @@ A continuación, se enumeran las nuevas funciones incluidas en esta versión.
 
 ### Mejoras {#25-04-improv}
 
+**API de vista previa de campañas**
+
+Hay nuevas API disponibles para previsualizar campañas, además de las capacidades de envío de pruebas existentes. [Más información](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}.
 
 **Herramientas de espacio aislado**
 
