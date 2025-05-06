@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6b7ec8d97a9b8156c615adf19774dab70d2b7451
+source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 48%
+source-wordcount: '958'
+ht-degree: 46%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 48%
 
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión. [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
+## Actualizaciones de mayo de 2025 {#25-5-rn}
+
+* Activación de **píldoras para personalización** - Fecha de disponibilidad: 5 de mayo de 2025
+
+  Se ha añadido un nuevo botón “Cápsulas” al editor de personalización. Cuando se habilita, los atributos contextuales y de perfil se muestran como píldoras, lo que mejora la legibilidad del código. [Más información](../personalization/personalization-build-expressions.md#options)
+
+  >[!AVAILABILITY]
+  >
+  >Esta capacidad se implementará gradualmente en todos los entornos en los próximos 30 días.
 
 ## Notas de la versión de abril de 2025 {#25-4-rn}
 
@@ -260,10 +269,6 @@ A continuación, se enumeran las nuevas funciones incluidas en esta versión.
   Ahora puede copiar campañas en varias zonas protegidas mediante las funciones de exportación e importación de paquetes. Las campañas se copian junto con todos los elementos relacionados con el perfil, el público, el esquema, los mensajes en línea y los objetos dependientes. Algunos elementos no se copian, como los elementos de decisión, las etiquetas de uso de datos y la configuración de idioma. [Más información](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
 **Personalización**
-
-<!--- **Pills activation**  
-
-  A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
 * **Nuevo atributo contextual**
 

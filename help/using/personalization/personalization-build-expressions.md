@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expresión, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
+source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1510'
 ht-degree: 10%
 
 ---
@@ -105,7 +105,7 @@ El panel de navegación permite seleccionar el origen de la personalización. Lo
 >title="Completar automáticamente"
 >abstract="Al activar esta opción el sistema sugiere y completa automáticamente el código mientras se escribe. Esta función solo está disponible en los formatos HTML y texto, y admite atributos de perfil y contexto. Si se desactiva mediante el conmutador, el editor proporcionará la finalización automática de código HTML nativo en su lugar."
 
-En el espacio de trabajo central se crea la sintaxis de personalización. Para utilizar un atributo para personalizar el mensaje, localícelo en el panel de atributos y haga clic en el botón `+` para agregarlo a la expresión.
+En el espacio de trabajo central se crea la sintaxis de personalización. Para utilizar un atributo para personalizar el mensaje, localícelo en el panel de navegación izquierdo y haga clic en el botón `+` para agregarlo a la expresión.
 
 ![](assets/personalization-add-attribute.png)
 
@@ -123,7 +123,7 @@ En el siguiente ejemplo, el editor de personalización le permite seleccionar lo
 
 ![](assets/perso_ee2.png)
 
-## Herramientas para editar expresiones
+## Opciones para la edición de expresiones {#options}
 
 El espacio de trabajo central proporciona varias herramientas para ayudarle a escribir su expresión de personalización.
 
@@ -146,6 +146,13 @@ Entre las opciones disponibles se encuentran:
    * **Activado**: ajusta líneas en la anchura del editor.
    * **Columna de ajuste de línea**: ajusta las líneas cuando los caracteres de una línea alcanzan los 80 caracteres.
    * **Redondeado**: ajusta las líneas en la anchura del editor o en 80 caracteres, el valor que sea menor.
+1. **[!UICONTROL Pills]**: muestra los atributos como &quot;píldoras&quot; compactas para mejorar la legibilidad al ocultar rutas de atributos largas. Haga clic en un atributo para mostrar su ruta completa.
+
+   >[!NOTE]
+   >
+   >La visualización de pastillas se implementará gradualmente en todos los entornos durante los próximos 30 días.
+   >
+   >Esta opción solo está disponible para atributos de perfil, atributos contextuales y medios dinámicos.
 
 En el panel de navegación, hay disponibles funciones adicionales que le ayudarán a crear su expresión de personalización.
 
