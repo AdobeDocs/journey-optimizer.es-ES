@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 55717a2063a61c3eda62d0e09a0c67656c3e3bb1
+source-git-commit: 5873d3dfde3ff7e7e2ac94c7d9b62aa1245c707b
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 46%
@@ -226,6 +226,7 @@ A continuación, se enumeran las nuevas funciones incluidas en esta versión.
 <td>
 <p>La función de puntuación de alineación de marca proporciona comentarios claros directamente en el diseñador de correo electrónico, lo que le ayuda a ver si el contenido se ajusta al tono, el estilo y las directrices de la marca. Esta función está disponible en Beta.</p>
 <p>Para obtener más información, consulte la <a href="../content-management/brands-score.md">documentación detallada</a>.</p>
+<img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
 </tbody>
