@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: recursos, integración
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: f2c072cd410afac79604cfad532fbd75591b34fa
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 8%
+source-wordcount: '517'
+ht-degree: 7%
 
 ---
 
@@ -34,6 +34,25 @@ Para obtener más información sobre Adobe Express, consulte [esta documentació
 Para acceder al menú **[!DNL Adobe Express]**, accede a tu **configuración de imagen** desde el Diseñador de correo electrónico y haz clic en **[!UICONTROL Editar en Adobe Express]**.
 
 ![](assets/express_1.png)
+
+## Licencia de Adobe Express Enterprise {#licence}
+
+Los usuarios sin licencia de Adobe Express Enterprise pueden acceder a las funciones detalladas en las secciones siguientes.
+
+Con una licencia Enterprise, los usuarios obtienen acceso completo al editor de Adobe Express, lo que les permite modificar las imágenes ajustando el color, el brillo, la nitidez, el contraste, las dimensiones y la configuración adicional.
+
+![](assets/express-licence.png)
+
++++Casos de uso disponibles para usuarios con una licencia Enterprise para Adobe Express
+
+* [Quitar fondo](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [Quitar objetos](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [Borrar](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [Insertar objeto](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [Recortar](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [Efectos](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+
++++
 
 ## Redimensionar imagen {#resize}
 
