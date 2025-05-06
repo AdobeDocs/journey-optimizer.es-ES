@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+source-git-commit: c6553c3012b1be39d8ade96444e3c1b9ded63fa5
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2360'
 ht-degree: 87%
 
 ---
@@ -335,44 +335,20 @@ ht-degree: 87%
       + [Configuración del canal LINE en Journey Optimizer](using/line/line-configuration.md)
       + [Creación de un mensaje de LINE](using/line/create-line.md)
       + [Compruebe y envíe sus mensajes de LINE](using/line/send-line.md)
-+ Páginas de aterrizaje {#landing-pages}
-   + [Introducción a las páginas de aterrizaje](using/landing-pages/get-started-lp.md)
-   + [Creación de una página de aterrizaje](using/landing-pages/create-lp.md)
-   + Diseño de contenido {#landing-pages-design}
-      + [Acerca del diseño de página de aterrizaje](using/landing-pages/design-lp.md)
-      + [Creación del contenido de la página de aterrizaje](using/landing-pages/lp-content.md)
-      + [Crear plantillas](using/landing-pages/lp-templates.md)
-      + [Agregar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
-   + [Creación de una lista de suscripción](using/landing-pages/subscription-list.md)
-   + [Descubra los casos de uso](using/landing-pages/lp-use-cases.md)
-   + Configuración de las páginas de aterrizaje {#lp-configuration}
++ Gestión de contenido {#content-management}
+   + Páginas de aterrizaje {#landing-pages}
+      + [Introducción a las páginas de aterrizaje](using/landing-pages/get-started-lp.md)
+      + [Creación de una página de aterrizaje](using/landing-pages/create-lp.md)
+      + Diseño de contenido {#landing-pages-design}
+         + [Acerca del diseño de página de aterrizaje](using/landing-pages/design-lp.md)
+         + [Creación del contenido de la página de aterrizaje](using/landing-pages/lp-content.md)
+         + [Crear plantillas](using/landing-pages/lp-templates.md)
+         + [Agregar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
+      + [Creación de una lista de suscripción](using/landing-pages/subscription-list.md)
+      + [Descubra los casos de uso](using/landing-pages/lp-use-cases.md)
+      + Configuración de las páginas de aterrizaje {#lp-configuration}
       + [Configurar subdominios de página de aterrizaje](using/landing-pages/lp-subdomains.md)
       + [Definir ajustes preestablecidos de página de aterrizaje](using/landing-pages/lp-presets.md)
-+ Gestión de contenido {#content-management}
-   + Asistente de IA para la generación de contenido{#ai-assistant}
-      + [Introducción al asistente de IA](using/content-management/gs-generative.md)
-      + [Generación de correo electrónico con IA](using/content-management/generative-email.md)
-      + [Generación de push con IA](using/content-management/generative-push.md)
-      + [Generación de SMS con IA](using/content-management/generative-sms.md)
-      + [Generación de web con IA](using/content-management/generative-web.md)
-      + [Experimento de contenido con IA](using/content-management/generative-experimentation.md)
-      + [Página de aterrizaje con IA](using/content-management/generative-lp.md)
-      + [Casos de uso del Asistente de IA](using/content-management/generative-uc.md)
-      + Marcas (beta){#brands}
-         + [Crear y administrar sus marcas](using/content-management/brands.md)
-         + [Evaluar la puntuación de alineación de la marca](using/content-management/brands-score.md)
-   + Trabajo con contenido multilingüe{#content-multilingual}
-      + [Introducción al contenido multilingüe](using/content-management/multilingual-gs.md)
-      + [Creación de una configuración regional](using/content-management/multilingual-locale.md)
-      + [Creación de un proveedor de idiomas](using/content-management/multilingual-provider.md)
-      + [Creación de contenido multilingüe con traducción manual](using/content-management/multilingual-manual.md)
-      + [Creación de contenido multilingüe con traducción automática](using/content-management/multilingual-automated.md)
-   + Trabajo con el experimento de contenido {#content-experiment}
-      + [Introducción al experimento de contenido](using/content-management/get-started-experiment.md)
-      + [Creación de un experimento de contenido](using/content-management/content-experiment.md)
-      + Notas técnicas {#technotes}
-         + [Comprensión de los cálculos estadísticos](using/content-management/experiment-calculations.md)
-         + [Explicación de los cálculos estadísticos en el informe de experimentación](using/content-management/experiment-report-calculations.md)
    + Personalización {#personalization}
       + [Introducción a la personalización](using/personalization/personalize.md)
       + [Adición de personalización](using/personalization/personalization-build-expressions.md)
@@ -412,6 +388,30 @@ ht-degree: 87%
       + [Introducción al contenido dinámico](using/personalization/get-started-dynamic-content.md)
       + [Creación de reglas condicionales](using/personalization/create-conditions.md)
       + [Crear contenido dinámico](using/personalization/dynamic-content.md)
+   + Asistente de IA para la generación de contenido{#ai-assistant}
+      + [Introducción al asistente de IA](using/content-management/gs-generative.md)
+      + [Generación de correo electrónico con IA](using/content-management/generative-email.md)
+      + [Generación de push con IA](using/content-management/generative-push.md)
+      + [Generación de SMS con IA](using/content-management/generative-sms.md)
+      + [Generación de web con IA](using/content-management/generative-web.md)
+      + [Experimento de contenido con IA](using/content-management/generative-experimentation.md)
+      + [Página de aterrizaje con IA](using/content-management/generative-lp.md)
+      + [Casos de uso del Asistente de IA](using/content-management/generative-uc.md)
+      + Marcas (beta){#brands}
+         + [Crear y administrar sus marcas](using/content-management/brands.md)
+         + [Evaluar la puntuación de alineación de la marca](using/content-management/brands-score.md)
+   + Contenido multilingüe{#content-multilingual}
+      + [Introducción al contenido multilingüe](using/content-management/multilingual-gs.md)
+      + [Creación de una configuración regional](using/content-management/multilingual-locale.md)
+      + [Creación de un proveedor de idiomas](using/content-management/multilingual-provider.md)
+      + [Creación de contenido multilingüe con traducción manual](using/content-management/multilingual-manual.md)
+      + [Creación de contenido multilingüe con traducción automática](using/content-management/multilingual-automated.md)
+   + Experimento de contenido {#content-experiment}
+      + [Introducción al experimento de contenido](using/content-management/get-started-experiment.md)
+      + [Creación de un experimento de contenido](using/content-management/content-experiment.md)
+      + Notas técnicas {#technotes}
+         + [Comprensión de los cálculos estadísticos](using/content-management/experiment-calculations.md)
+         + [Explicación de los cálculos estadísticos en el informe de experimentación](using/content-management/experiment-report-calculations.md)
 + Audiencias, perfiles e identidad{#audiences-profiles-identities}
    + Públicos {#audiences}
       + [Introducción a los públicos](using/audience/about-audiences.md)
