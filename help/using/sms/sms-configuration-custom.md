@@ -162,4 +162,4 @@ Una vez creadas las credenciales de la API, complete los campos necesarios para 
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+>[!VIDEO](https://video.tv.adobe.com/v/3443609?captions=spa)
