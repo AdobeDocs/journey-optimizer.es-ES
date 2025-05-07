@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5873d3dfde3ff7e7e2ac94c7d9b62aa1245c707b
+source-git-commit: 72553cb3570b375b5bdf9cdebbfbf17e52c805da
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '926'
 ht-degree: 46%
 
 ---
@@ -171,7 +171,7 @@ A continuación, se enumeran las nuevas funciones incluidas en esta versión.
 <tr>
 <td>
 <p>Adobe Journey Optimizer ahora se integra con Adobe Express, lo que le permite conectar sin problemas sus recursos creativos con la orquestación de recorrido. Esta integración simplifica el proceso de diseño e implementación de contenido personalizado en todas las campañas. </p>
-<p>Esta integración solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe</p>
+<p>Actualmente, esta integración no está disponible para su uso con Healthcare Shield o Privacy and Security Shield.</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>Para obtener más información, consulte la <a href="../integrations/express.md">documentación detallada</a>.</p>
 </td>
