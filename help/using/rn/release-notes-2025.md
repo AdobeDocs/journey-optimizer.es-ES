@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '1237'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -188,7 +188,7 @@ Para obtener más información, consulte la [documentación detallada](../test-a
 
 **Reglas empresariales**
 
-Ahora puede usar la restricción de frecuencia diaria en recorridos y campañas con la segmentación por lotes. Para garantizar la precisión de las reglas de restricción de frecuencia diaria, asegúrese de elegir el espacio de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información acerca de la prioridad del área de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Ahora puede usar la restricción de frecuencia diaria en recorridos y campañas con la segmentación por lotes. Para garantizar la precisión de las reglas de restricción de frecuencia diaria, asegúrese de elegir el espacio de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información sobre la prioridad del espacio de nombres en la [guía del servicio de identidad de Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Como recordatorio, la restricción de frecuencia diaria en los conjuntos de reglas solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
@@ -237,13 +237,13 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Generación de páginas de aterrizaje con el asistente de IA</strong><br/></th>
+<th><strong>Generación de páginas de aterrizaje con el Asistente de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear contenido atractivo para sus páginas de aterrizaje, incluidos diseños de página completa, texto personalizado y imágenes personalizadas, con la ayuda del asistente de IA.</p>
+<p>Ahora puede crear contenido atractivo para sus páginas de aterrizaje, incluidos diseños de página completa, texto personalizado y elementos visuales personalizados, con la ayuda del Asistente de IA.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Para obtener más información, consulte la <a href="../content-management/generative-lp.md">documentación detallada</a>.</p>
 </td>
@@ -255,7 +255,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Marcas con AI Assistant (Beta)</strong><br/></th>
+<th><strong>Marcas con el Asistente de IA (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
