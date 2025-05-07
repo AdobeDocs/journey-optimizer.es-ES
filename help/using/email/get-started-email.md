@@ -10,9 +10,9 @@ level: Beginner
 keywords: correo electrónico, inicio, creación, vista previa
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Se pueden crear envíos de correo electrónico:
 <a href="../content-management/generative-email.md">
 <img alt="Asistente de IA" src="../assets/do-not-localize/email-generate.jpg">
 </a>
-<div><a href="../content-management/generative-email.md"><strong>AI Assistant para la generación de contenido</strong>
+<div><a href="../content-management/generative-email.md"><strong>Asistente de IA para la generación de contenido</strong>
 </div>
 <p>
 </td>
@@ -87,7 +87,7 @@ Se pueden crear envíos de correo electrónico:
 <img alt="Fragmentos de contenido" src="../assets/do-not-localize/patterns.jpg">
 </a>
 <div>
-<a href="../content-management/fragments.md"><strong>Uso correo electrónico fragmentos contenido</strong></a>
+<a href="../content-management/fragments.md"><strong>Uso de fragmentos de contenido de correo electrónico</strong></a>
 </div>
 <p></td>
 <td>
@@ -95,16 +95,16 @@ Se pueden crear envíos de correo electrónico:
 <img alt="Personalización de su contenido" src="../assets/do-not-localize/personalize.jpg">
 </a>
 <div>
-<a href="../personalization/personalize.md"><strong>Personaliza tu contenido correo electrónico</strong></a>
+<a href="../personalization/personalize.md"><strong>Personalización del contenido del correo electrónico</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="../integrations/assets.md">
-<img alt="Combine sus soluciones" src="../assets/do-not-localize/colors.jpeg">
+<img alt="Combinación de soluciones" src="../assets/do-not-localize/colors.jpeg">
 </a>
 <div>
-<a href="../integrations/assets.md"><strong>Combinación Adobe Systems aplicaciones y soluciones</strong></a>
+<a href="../integrations/assets.md"><strong>Combinación de aplicaciones y soluciones de Adobe</strong></a>
 </div>
 <p>
 </td>

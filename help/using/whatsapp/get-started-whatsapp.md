@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a los mensajes de WhatsApp
-description: Aprenda a crear y enviar mensajes de WhatsApp en Journey Optimizer
+description: Obtenga información sobre la creación y el envío mensajes de WhatsApp en Journey Optimizer
 feature: Whatsapp
 topic: Content Management
 role: User
@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
@@ -22,58 +22,58 @@ ht-degree: 7%
 
 >[!BEGINSHADEBOX]
 
-**Tabla de contenido**
+**Tabla de contenidos**
 
 * **[Introducción a los mensajes de WhatsApp](get-started-whatsapp.md)**
 * [Introducción a la configuración de WhatsApp](whatsapp-configuration.md)
-* [Crear un mensaje de WhatsApp](create-whatsapp.md)
-* [Comprueba y envía tus mensajes de WhatsApp](send-whatsapp.md)
+* [Creación de un mensaje de WhatsApp](create-whatsapp.md)
+* [Comprobación y envío de los mensajes de WhatsApp](send-whatsapp.md)
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Esta capacidad se presenta como una versión beta privada. Estará disponible de forma progresiva para todos los clientes en futuras versiones.
+>Esta funcionalidad se presenta como una versión Private Beta. Estará disponible de forma progresiva para todos los clientes en futuras versiones.
 
 Ahora puede enviar mensajes de WhatsApp directamente a través de Journey Optimizer. Esta función permite la integración perfecta de WhatsApp en recorridos y campañas, lo que mejora la comunicación y la participación con los destinatarios.
 
-* En un **recorrido**. Crea un recorrido, agrega una actividad **WhatsApp**, define la configuración básica y luego ve al panel derecho **[!UICONTROL Acciones: WhatsApp]** para crear el contenido del mensaje de WhatsApp. Aprenda a crear un recorrido en [esta página](../building-journeys/journey-gs.md).
+* En un **recorrido**. Cree un recorrido, añada una actividad de **WhatsApp**, defina la configuración básica y, a continuación, vaya al panel **[!UICONTROL Acciones: WhatsApp]** para crear el contenido del mensaje de WhatsApp. Aprenda a crear un recorrido en [esta página](../building-journeys/journey-gs.md).
 
-* En una **campaña**. Crea una campaña, selecciona **WhatsApp** como acción y define la configuración básica; luego, edita el contenido del mensaje para definir el mensaje de WhatsApp que se enviará. Aprenda a crear una campaña en [esta página](../campaigns/create-campaign.md#configure).
+* En una **campaña**. Para crear una campaña, seleccione **WhatsApp** como acción, defina la configuración básica y, a continuación, edite el contenido del mensaje de WhatsApp que desea enviar. Aprenda a crear una campaña en [esta página](../campaigns/create-campaign.md#configure).
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 
-## Requisitos previos {#prereq}
+## Requisitos previos  {#prereq}
 
 La integración de WhatsApp con Journey Optimizer requiere lo siguiente:
 
-* Cuenta de Meta Business Manager
-* Cuenta de WhatsApp Business
-* Número de teléfono de WhatsApp
+* Una cuenta de Meta Business Manager
+* Una cuenta de WhatsApp Business
+* Un número de teléfono de WhatsApp
 
 También debe tener en cuenta lo siguiente antes de continuar con la integración:
 
-* [Reglas de contenido de WhatsApp](https://www.whatsapp.com/legal/messaging-guidelines)
-* [Cumplimiento de las metapolíticas](https://www.whatsapp.com/legal)
-* [Límites para las conversaciones de 24 horas](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
-* [Plantillas de metadatos aprobadas](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+* [Las reglas de contenido de WhatsApp](https://www.whatsapp.com/legal/messaging-guidelines)
+* [El cumplimiento de las políticas de Meta](https://www.whatsapp.com/legal)
+* [Los límites para las conversaciones de 24 horas](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [Las plantillas de Meta aprobadas](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
-## Limitaciones de Beta {#limitations}
+## Las limitaciones de Beta {#limitations}
 
-Las siguientes funciones no se incluirán en esta versión beta:
+Las siguientes funciones no se incluirán en esta versión Beta:
 
-* **Informes**: La capacidad para generar y ver informes no estará disponible en esta versión.
+* **Sistema de informes**: la posibilidad de generar y ver informes no está disponible en esta versión.
 
-* **Palabras clave de inclusión/exclusión**: los usuarios no tendrán la opción de suscribirse o cancelar la suscripción con palabras clave específicas en este momento.
+* **Palabras clave de inclusión/exclusión**: los usuarios no tendrán la opción de suscribirse o cancelar la suscripción con palabras clave específicas en esta fase.
 
-* **Mensajes de respuesta**: no se admitirán mensajes de respuesta automatizados o predefinidos en esta versión.
+* **Mensajes de respuesta**: en esta versión, no se admitirán mensajes de respuesta automatizados o predefinidos.
 
 ## Vídeo práctico {#video}
 
 
-El siguiente vídeo muestra cómo crear un recorrido con una acción de WhatsApp.
+En el siguiente vídeo se muestra cómo crear un recorrido con una acción de WhatsApp.
 
-+++ Ver vídeo
++++ Vea el vídeo
 
 >[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
 
