@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: ce76c1b7c60ad3a3ffba7350fd61cf80eb6dad49
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2369'
 ht-degree: 99%
 
 ---
@@ -339,6 +339,7 @@ ht-degree: 99%
    + Páginas de aterrizaje {#landing-pages}
       + [Introducción a las páginas de aterrizaje](using/landing-pages/get-started-lp.md)
       + [Creación de una página de aterrizaje](using/landing-pages/create-lp.md)
+      + [Administrar las páginas de aterrizaje](using/landing-pages/manage-lp.md)
       + Diseño de contenido {#landing-pages-design}
          + [Acerca del diseño de página de aterrizaje](using/landing-pages/design-lp.md)
          + [Creación del contenido de la página de aterrizaje](using/landing-pages/lp-content.md)
@@ -347,8 +348,8 @@ ht-degree: 99%
       + [Creación de una lista de suscripción](using/landing-pages/subscription-list.md)
       + [Descubra los casos de uso](using/landing-pages/lp-use-cases.md)
       + Configuración de las páginas de aterrizaje {#lp-configuration}
-      + [Configurar subdominios de página de aterrizaje](using/landing-pages/lp-subdomains.md)
-      + [Definir ajustes preestablecidos de página de aterrizaje](using/landing-pages/lp-presets.md)
+         + [Configurar subdominios de página de aterrizaje](using/landing-pages/lp-subdomains.md)
+         + [Definir ajustes preestablecidos de página de aterrizaje](using/landing-pages/lp-presets.md)
    + Personalización {#personalization}
       + [Introducción a la personalización](using/personalization/personalize.md)
       + [Adición de personalización](using/personalization/personalization-build-expressions.md)

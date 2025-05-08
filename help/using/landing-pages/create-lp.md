@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 877a4d148966bf7d872f762ac78e5c725676a54f
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 21%
+source-wordcount: '1524'
+ht-degree: 23%
 
 ---
 
@@ -23,35 +23,6 @@ Para dirigir a los clientes a una página web definida que desee mostrar cuando 
 Los pasos principales para crear páginas de aterrizaje son los siguientes:
 
 ![](assets/lp-creation-process.png)
-
-## Acceso a páginas de aterrizaje {#access-landing-pages}
-
-Para acceder a la lista de páginas de aterrizaje, seleccione **[!UICONTROL Administración de contenido]** > **[!UICONTROL Páginas de aterrizaje]** en el menú de la izquierda.
-
-![](assets/lp_access-list.png)
-
-La lista **[!UICONTROL Páginas de aterrizaje]** muestra todas las páginas de aterrizaje existentes. Puede filtrarlos en función de su estado, fecha de modificación o etiquetas.
-
-![](assets/lp_access-list-filter.png)
-
-Desde esta lista, también puede acceder a los informes de duplicar, eliminar, cancelar la publicación de una página de aterrizaje o acceder a los informes de página de aterrizaje. Para ello, haga clic en los tres puntos junto a una página de aterrizaje y seleccione la acción que desee:
-
-![](assets/lp_access-list-actions.png)
-
-
-Puede hacer lo siguiente:
-
-* Acceda a los siguientes **informes** para páginas de aterrizaje publicadas: [informe de página de aterrizaje](../reports/lp-report-global-cja.md) y [informe de las últimas 24 horas](../reports/lp-report-live.md).
-
-* **Eliminar** o **duplicar** una página de aterrizaje. No puede eliminar una página de aterrizaje [publicada](#publish-landing-page). Para eliminarlo, primero debe **cancelar la publicación**.
-
-* **Cancelar publicación** de la página de aterrizaje.
-
-  >[!CAUTION]
-  >
-  >Si cancela la publicación de una página de aterrizaje a la que se hace referencia en un mensaje, el vínculo a la página de aterrizaje se interrumpirá y los usuarios recibirán una página de error si intentan acceder a ella.
-
-* Editar las [etiquetas](../start/search-filter-categorize.md#tags) asociadas a una página de aterrizaje.
 
 ## Creación de una página de aterrizaje {#create-landing-page}
 

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: f8c08461b82aea5680c3fa9631f5361b78daafe6
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 75%
+source-wordcount: '1015'
+ht-degree: 73%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 75%
 
   ![](assets/do-not-localize/formula-builder.gif)
 
+
+* **Carpetas para páginas de aterrizaje**: fecha de disponibilidad: jueves, 07 de mayo de 2025
+
+  Para administrar fácilmente las páginas de aterrizaje, ahora también puede utilizar carpetas para organizarlas de forma más eficaz en una jerarquía optimizada.  [Más información](../landing-pages/manage-lp.md)
 
 * Activación de **píldoras para personalización** - Fecha de disponibilidad: 5 de mayo de 2025
 
@@ -319,9 +323,7 @@ Hay nuevas API disponibles para previsualizar campañas, además de las capacida
 
   Previously available for a set of organizations (LA), folders are now available to all users (GA) to manage their content templates and fragments. Folders let you organize your content templates and fragments more easily and effectively into a structured hierarchy.
 
-- **Folders for landing pages** - Availability date: May 5, 2025
 
-  To easily manage your landing pages, you can now also use folders to organize them more effectively into a streamlined hierarchy.  -->
 
 <!--- **Right rail in campaigns list**  
 
