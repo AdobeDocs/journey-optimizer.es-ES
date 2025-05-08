@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c6553c3012b1be39d8ade96444e3c1b9ded63fa5
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '2360'
-ht-degree: 87%
+source-wordcount: '2365'
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 87%
       + [Simulación del recorrido](using/building-journeys/journey-simulation.md)
       + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
       + [Informe en vivo en el recorrido](using/building-journeys/report-journey.md)
-   + Administrar los recorridos{#manage-journey}
+   + Administración de sus recorridos{#manage-journey}
       + [Examinar y filtrar sus recorridos](using/building-journeys/journey-ui.md)
       + [Administración de la entrada del perfil](using/building-journeys/entry-management.md)
       + [Administración de husos horarios](using/building-journeys/timezone-management.md)
@@ -67,7 +67,7 @@ ht-degree: 87%
       + [Reacción](using/building-journeys/reaction-events.md)
       + [Calificación de público](using/building-journeys/audience-qualification-events.md)
       + [Condición](using/building-journeys/condition-activity.md)
-      + [Esperar](using/building-journeys/wait-activity.md)
+      + [Espera](using/building-journeys/wait-activity.md)
       + [Leer público](using/building-journeys/read-audience.md)
       + [Acciones de canal integradas](using/building-journeys/journeys-message.md)
       + [Acciones personalizadas](using/building-journeys/using-custom-actions.md)
@@ -173,11 +173,11 @@ ht-degree: 87%
          + [Limitación del rendimiento con fuentes de datos externas y acciones personalizadas](using/building-journeys/limit-throughput.md)
          + [Utilice acciones personalizadas para escribir los eventos de recorrido en Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campañas organizadas {#orchestrated-campaigns}
-   + [Introducción a las campañas orquestadas](using/ms/gs-ms-campaigns.md)
+   + [Introducción a las campañas organizadas](using/ms/gs-ms-campaigns.md)
    + Configuración {#ms-config}
       + [Pasos de configuración](using/ms/gs-campaign-config.md)
-      + [Creación de esquemas relacionales](using/ms/ms-schemas.md)
-   + Creación de la primera campaña orquestada {#create-ms-campaign}
+      + [Creación de esquemas adicionales](using/ms/ms-schemas.md)
+   + Creación de su primera campaña organizada {#create-ms-campaign}
       + [Principios clave](using/ms/gs-campaign-creation.md)
       + [Creación de una campaña organizada](using/ms/create-ms-campaign.md)
       + [Organización de actividades](using/ms/orchestrate-activities.md)
@@ -185,10 +185,10 @@ ht-degree: 87%
       + [Consultas de compilación](using/ms/ms-query-modeler.md)
       + [Prueba y validación de mensajes](using/ms/ms-proofs.md)
       + [Programación e inicio de campañas](using/ms/start-monitor-campaigns.md)
-      + [Informes de campañas organizadas](using/ms/reporting-campaigns.md)
+      + [Creación de informes de campañas organizadas](using/ms/reporting-campaigns.md)
       + [Administrar personalización](using/ms/ms-personalization.md)
    + Actividades de campaña organizadas {#design-campaigns}
-      + [Acerca de las actividades de campaña orquestadas](using/ms/activities/about-activities.md)
+      + [Acerca de las actividades de campaña organizadas](using/ms/activities/about-activities.md)
       + [And-join](using/ms/activities/and-join.md)
       + [Generar público](using/ms/activities/build-audience.md)
       + [Cambiar dimensión](using/ms/activities/change-dimension.md)
@@ -200,20 +200,20 @@ ht-degree: 87%
       + [Reconciliación](using/ms/activities/reconciliation.md)
       + [División](using/ms/activities/split.md)
       + [Prueba](using/ms/activities/test.md)
-      + [Esperar](using/ms/activities/wait.md)
+      + [Espera](using/ms/activities/wait.md)
 + Campañas {#campaigns}
    + [Introducción a las campañas](using/campaigns/get-started-with-campaigns.md)
    + [Creación de una campaña](using/campaigns/create-campaign.md)
    + [Revisión y activación de una campaña](using/campaigns/review-activate-campaign.md)
    + [Administración de campañas](using/campaigns/modify-stop-campaign.md)
    + [Activación de campañas mediante las API](using/campaigns/api-triggered-campaigns.md)
-+ Administración de conflictos y priorización {#conflict-prioritization}
++ Administración y priorización de conflictos {#conflict-prioritization}
    + [Introducción a la administración y priorización de conflictos](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificar posibles conflictos](using/conflict-prioritization/conflicts.md)
    + [Asignar puntuaciones de prioridad](using/conflict-prioritization/priority-scores.md)
    + [Límite y arbitraje de recorrido](using/conflict-prioritization/journey-capping.md)
-+ Probar y aprobar {#test}
-   + Previsualización y prueba del contenido {#preview-test}
++ Prueba y aprobación  {#test}
+   + Vista previa y prueba del contenido  {#preview-test}
       + [Introducción a la vista previa y prueba](using/content-management/preview-test.md)
       + [Seleccionar perfiles de prueba](using/content-management/test-profiles.md)
       + [Vista previa del contenido](using/content-management/preview.md)
@@ -221,7 +221,7 @@ ht-degree: 87%
       + [Prueba del procesamiento de correo electrónico](using/content-management/rendering.md)
       + [Prueba del contenido con datos de entrada de muestra (Beta)](using/test-approve/simulate-sample-input.md)
       + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
-   + Aprobar recorridos y campañas {#approve}
+   + Aprobación de recorridos y campañas  {#approve}
       + [Introducción a las aprobaciones](using/test-approve/gs-approval.md)
       + [Creación y administración de políticas de aprobación](using/test-approve/approval-policies.md)
       + [Solicitud de aprobación](using/test-approve/request-approval.md)
@@ -231,9 +231,9 @@ ht-degree: 87%
    + Canal de correo electrónico {#email}
       + [Empezar con correos electrónicos](using/email/get-started-email.md)
       + [Crear un correo electrónico](using/email/create-email.md)
-      + Diseño del contenido del correo electrónico {#design-email}
+      + Diseño del contenido del correo electrónico  {#design-email}
          + [Introducción al diseño de correo electrónico](using/email/get-started-email-design.md)
-         + Empezar a crear contenido {#start-creating-content}
+         + Empezar a crear contenido  {#start-creating-content}
             + [Diseño de contenido desde cero](using/email/content-from-scratch.md)
             + [Importe el contenido](using/email/existing-content.md)
             + [Codifique su propio contenido](using/email/code-content.md)
@@ -245,14 +245,14 @@ ht-degree: 87%
             + [Inserción de ofertas personalizadas](using/email/add-offers-email.md)
             + [Generar la versión de texto](using/email/text-version-email.md)
             + [Añadir metadatos](using/email/email-metadata.md)
-         + Editar estilo {#edit-style}
+         + Editar estilo  {#edit-style}
             + [Introducción al diseño de correo electrónico](using/email/get-started-email-style.md)
             + [Editar configuración de fondo](using/email/backgrounds.md)
             + [Ajustar alineación vertical y relleno](using/email/alignment-and-padding.md)
             + [Añadir atributos de estilo en línea](using/email/inline-styling.md)
       + [Administrar la exclusión de correo electrónico](using/email/email-opt-out.md)
       + Configurar canal de correo electrónico {#configure-email}
-         + [Empezar a configurar el correo electrónico](using/email/get-started-email-config.md)
+         + [Empezar con la configuración de correo electrónico](using/email/get-started-email-config.md)
          + [Definir la configuración de correo electrónico](using/email/email-settings.md)
          + [Habilitar la cancelación de suscripción a una lista](using/email/list-unsubscribe.md)
          + [Parámetros de encabezado](using/email/header-parameters.md)
@@ -280,7 +280,7 @@ ht-degree: 87%
       + [Comprobación y envío de los mensajes de texto](using/sms/send-sms.md)
       + [Administración de la exclusión de mensajes de texto](using/sms/sms-opt-out.md)
       + [Configuración de subdominios de SMS](using/sms/sms-subdomains.md)
-      + Configuración del canal SMS/MMS{#configure-sms}
+      + Configuración de canal de SMS/MMS{#configure-sms}
          + [Introducción a la configuración de SMS](using/sms/sms-configuration.md)
          + [Configuración del proveedor Sinch](using/sms/sms-configuration-sinch.md)
          + [Configuración del proveedor Infobip](using/sms/sms-configuration-infobip.md)
@@ -294,7 +294,7 @@ ht-degree: 87%
       + [Configuración del correo directo](using/direct-mail/direct-mail-configuration.md)
    + Canal web {#web}
       + [Introducción al canal web](using/web/get-started-web.md)
-      + Configuración del canal web {#configure-web-channel}
+      + Configuración del canal web  {#configure-web-channel}
          + [Requisitos previos de canal web](using/web/web-prerequisites.md)
          + [Configuración de subdominios web](using/web/web-delegated-subdomains.md)
          + [Creación de una configuración de canal web](using/web/web-configuration.md)
@@ -307,7 +307,7 @@ ht-degree: 87%
          + [Creación de aplicaciones de una sola página](using/web/web-spa.md)
    + Experiencia basada en código {#code-based-experience}
       + [Introducción al canal basado en código](using/code-based/get-started-code-based.md)
-      + Configuración del canal basado en código {#configure-code-based-channel}
+      + Configuración del canal basado en código  {#configure-code-based-channel}
          + [Protecciones y requisitos previos](using/code-based/code-based-prerequisites.md)
          + [Superficies de la experiencia basada en código](using/code-based/code-based-surface.md)
          + [Ejemplos de métodos de implementación](using/code-based/code-based-implementation-samples.md)
@@ -318,7 +318,7 @@ ht-degree: 87%
          + [Administración de experiencias basadas en código](using/code-based/publish-code-based.md)
    + Tarjetas de contenido{#content-card}
       + [Introducción a las tarjetas de contenido](using/content-card/get-started-content-card.md)
-      + Configurar el canal de la tarjeta de contenido {#configure}
+      + Configuración del canal de tarjetas de contenido {#configure}
          + [Requisitos previos de tarjetas de contenido](using/content-card/content-card-configuration-prereq.md)
          + [Configuración del canal de tarjetas de contenido en Journey Optimizer](using/content-card/content-card-configuration.md)
          + [Configuración de la compatibilidad con tarjetas de contenido en el SDK para dispositivos móviles](using/content-card/content-card-lp.md)
@@ -332,10 +332,10 @@ ht-degree: 87%
       + [Comprobación y envío de los mensajes de WhatsApp](using/whatsapp/send-whatsapp.md)
    + LINE {#line}
       + [Introducción al canal LINE](using/line/get-started-line.md)
-      + [Configuración del canal LINE en Journey Optimizer](using/line/line-configuration.md)
+      + [Configuración del canal de LINE en Journey Optimizer](using/line/line-configuration.md)
       + [Creación de un mensaje de LINE](using/line/create-line.md)
-      + [Compruebe y envíe sus mensajes de LINE](using/line/send-line.md)
-+ Gestión de contenido {#content-management}
+      + [Comprobación y envío de los mensajes de LINE](using/line/send-line.md)
++ Gestión de contenidos {#content-management}
    + Páginas de aterrizaje {#landing-pages}
       + [Introducción a las páginas de aterrizaje](using/landing-pages/get-started-lp.md)
       + [Creación de una página de aterrizaje](using/landing-pages/create-lp.md)
@@ -367,7 +367,7 @@ ht-degree: 87%
          + [Funciones matemáticas](using/personalization/functions/math.md)
          + [Funciones de objeto](using/personalization/functions/objects.md)
          + [Funciones de cadena](using/personalization/functions/string.md)
-      + Casos de uso de Personalization{#personalization-use-cases}
+      + Casos de uso de personalización{#personalization-use-cases}
          + [Notificación del estado del pedido](using/personalization/personalization-use-case.md)
          + [Correo electrónico de abandono del carro de compras](using/personalization/personalization-use-case-helper-functions.md)
          + [Correo electrónico de prescripciones del plan de salud](using/personalization/perso-uc-plan-prescriptions.md)
@@ -378,18 +378,18 @@ ht-degree: 87%
       + [Bloquear contenido en plantillas de correo electrónico](using/content-management/content-locking.md)
       + [Plantillas de contenido de prueba](using/content-management/test-content-templates.md)
       + [Uso de plantillas de contenido](using/content-management/use-content-templates.md)
-   + Fragmentos de contenido reutilizables {#fragments}
+   + Fragmentos de contenido reutilizables  {#fragments}
       + [Introducción a los fragmentos](using/content-management/fragments.md)
       + [Crear un fragmento](using/content-management/create-fragments.md)
       + [Guardar contenido existente como fragmento](using/content-management/save-fragments.md)
       + [Fragmentos personalizables](using/content-management/customizable-fragments.md)
       + [Administración de fragmentos](using/content-management/manage-fragments.md)
-   + Contenido dinámico {#dynamic}
+   + Contenido dinámico  {#dynamic}
       + [Introducción al contenido dinámico](using/personalization/get-started-dynamic-content.md)
       + [Creación de reglas condicionales](using/personalization/create-conditions.md)
       + [Crear contenido dinámico](using/personalization/dynamic-content.md)
    + Asistente de IA para la generación de contenido{#ai-assistant}
-      + [Introducción al asistente de IA](using/content-management/gs-generative.md)
+      + [Introducción al Asistente de IA](using/content-management/gs-generative.md)
       + [Generación de correo electrónico con IA](using/content-management/generative-email.md)
       + [Generación de push con IA](using/content-management/generative-push.md)
       + [Generación de SMS con IA](using/content-management/generative-sms.md)
@@ -397,9 +397,9 @@ ht-degree: 87%
       + [Experimento de contenido con IA](using/content-management/generative-experimentation.md)
       + [Página de aterrizaje con IA](using/content-management/generative-lp.md)
       + [Casos de uso del Asistente de IA](using/content-management/generative-uc.md)
-      + Marcas (beta){#brands}
-         + [Crear y administrar sus marcas](using/content-management/brands.md)
-         + [Evaluar la puntuación de alineación de la marca](using/content-management/brands-score.md)
+      + Marcas (Beta){#brands}
+         + [Creación y administración de las marcas](using/content-management/brands.md)
+         + [Evaluación de la puntuación de alineación con la marca](using/content-management/brands-score.md)
    + Contenido multilingüe{#content-multilingual}
       + [Introducción al contenido multilingüe](using/content-management/multilingual-gs.md)
       + [Creación de una configuración regional](using/content-management/multilingual-locale.md)
@@ -412,7 +412,7 @@ ht-degree: 87%
       + Notas técnicas {#technotes}
          + [Comprensión de los cálculos estadísticos](using/content-management/experiment-calculations.md)
          + [Explicación de los cálculos estadísticos en el informe de experimentación](using/content-management/experiment-report-calculations.md)
-+ Audiencias, perfiles e identidad{#audiences-profiles-identities}
++ Públicos, perfiles e identidad{#audiences-profiles-identities}
    + Públicos {#audiences}
       + [Introducción a los públicos](using/audience/about-audiences.md)
       + Creación de públicos {#create}
@@ -462,7 +462,7 @@ ht-degree: 87%
          + [Informe de campaña de notificaciones push](using/reports/campaign-global-report-cja-push.md)
          + [Informe de campaña de SMS](using/reports/campaign-global-report-cja-sms.md)
          + [Informe de campaña web](using/reports/campaign-global-report-cja-web.md)
-      + informes de recorrido{#reporting}
+      + Informes de recorrido{#reporting}
          + [Informe de recorrido](using/reports/journey-global-report-cja.md)
          + [Informe de recorrido basado en código](using/reports/journey-global-report-cja-code.md)
          + [Informe de recorrido de tarjeta de contenido](using/reports/journey-global-report-cja-content.md)
@@ -475,10 +475,10 @@ ht-degree: 87%
       + [Informe de información general](using/reports/channel-report-cja.md)
       + [Informe de página de aterrizaje](using/reports/lp-report-global-cja.md)
       + [Informe de la lista de suscripciones](using/reports/subscription-report-global-cja.md)
-   + informes de recorrido {#reports}
+   + Informes de recorrido {#reports}
       + [Creación de informes de recorrido](using/reports/sharing-overview.md)
       + [Lista de campos de eventos de paso](using/reports/sharing-field-list.md)
-      + Campos de eventos de paso heredados {#legacy-step-event-fields}
+      + Campos de eventos de paso heredados  {#legacy-step-event-fields}
          + [Acerca de los campos heredados](using/reports/sharing-legacy-fields.md)
          + [Campos del recorrido](using/reports/sharing-journey-fields.md)
          + [Campos comunes](using/reports/sharing-common-fields.md)
@@ -486,19 +486,19 @@ ht-degree: 87%
          + [Campos de captura de datos](using/reports/sharing-fetch-fields.md)
          + [Campos de identidad](using/reports/sharing-identity-fields.md)
       + [Ejemplos de consultas](using/reports/query-examples.md)
-   + Estrategia y definición {#deliverability}
+   + Entregabilidad {#deliverability}
       + [Introducción a la Entregabilidad](using/reports/deliverability.md)
       + [Explicación de la lista de supresión](using/reports/suppression-list.md)
       + [Nuevo requisito de DMARC](using/configuration/dmarc-record-update.md)
    + [Alertas](using/reports/alerts.md)
    + [Motivos de exclusión](using/reports/exclusion-list.md)
-+ Capacidades de decisión {#decisioning}
++ Capacidades de decisiones {#decisioning}
    + [Introducción a las capacidades de decisiones](using/experience-decisioning/gs-decision.md)
    + Toma de decisiones {#experience-decisioning}
       + [Introducción a la toma de decisiones](using/experience-decisioning/gs-experience-decisioning.md)
       + [Limitaciones y protecciones de decisiones](using/experience-decisioning/decisioning-guardrails.md)
       + Referencia de la API{#api-reference}
-         + Creación y administración de elementos de oferta {#create-manage}
+         + Creación y administración de artículos de oferta  {#create-manage}
             + Elementos de decisión{#decision-items}
                + [Creación de elementos de decisión](using/experience-decisioning/api-reference/decisions-items/create.md)
                + [Lista de elementos de decisión](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
@@ -534,37 +534,38 @@ ht-degree: 87%
          + [Configuración del catálogo de elementos](using/experience-decisioning/catalogs.md)
          + [Creación de elementos de decisión](using/experience-decisioning/items.md)
          + [Administración de colecciones de elementos](using/experience-decisioning/collections.md)
-      + Configurar la selección de elementos {#selection}
+      + Configuración de la selección de elementos  {#selection}
          + [Crear reglas de decisión](using/experience-decisioning/rules.md)
          + [Creación de métodos de clasificación](using/experience-decisioning/ranking.md)
+         + [Usar el generador de fórmulas de IA](using/experience-decisioning/exd-ranking-formulas.md)
          + [Uso de datos de contexto](using/experience-decisioning/context-data.md)
       + [Creación de estrategias de selección](using/experience-decisioning/selection-strategies.md)
       + [Creación de políticas de decisión](using/experience-decisioning/create-decision.md)
       + [Informe sobre la toma de decisiones](using/experience-decisioning/cja-reporting.md)
       + [Caso de uso sobre la toma de decisiones](using/experience-decisioning/experience-decisioning-uc.md)
-   + Administración de decisiones {#offer-decisioning}
-      + Introducción a Administración de decisiones {#get-started-decision}
+   + Gestión de decisiones {#offer-decisioning}
+      + Introducción a la gestión de decisiones {#get-started-decision}
          + [Acerca de la Gestión de decisiones](using/offers/get-started/starting-offer-decisioning.md)
          + [Limitaciones y protecciones de gestión de decisiones](using/offers/decision-management-guardrails.md)
          + [Interfaz de usuario](using/offers/get-started/user-interface.md)
          + [Pasos clave para crear y administrar ofertas](using/offers/offer-library/key-steps.md)
          + [Aprovechamiento de los públicos de carga personalizados para la toma de decisiones](using/offers/custom-upload-decisioning.md)
          + [Caso práctico: insertar ofertas en un correo electrónico](using/offers/offers-e2e.md)
-      + Creación de componentes {#create-components}
+      + Creación de componentes  {#create-components}
          + [Crear ubicaciones](using/offers/offer-library/creating-placements.md)
          + [Crear reglas de decisión](using/offers/offer-library/creating-decision-rules.md)
          + [Crear calificadores de colección](using/offers/offer-library/creating-tags.md)
-      + Crear clasificaciones {#rankings}
+      + Creación de clasificaciones {#rankings}
          + [Introducción a las clasificaciones](using/offers/ranking/get-started-rankings.md)
          + [Fórmulas de clasificación](using/offers/ranking/create-ranking-formulas.md)
-         + modelos de IA {#ai-models}
+         + Modelos de IA {#ai-models}
             + [Acerca de los modelos de IA](using/offers/ranking/ai-models.md)
             + Tipos de modelos de IA {#ai-model-types}
             + [Modelo de optimización automática](using/offers/ranking/auto-optimization-model.md)
             + [Modelo de optimización personalizado](using/offers/ranking/personalized-optimization-model.md)
             + [Creación de modelos de IA](using/offers/ranking/create-ranking-strategies.md)
-      + Crear y administrar ofertas {#managing-offers-in-the-offer-library}
-         + Configuración de ofertas {#configure-offers}
+      + Creación y administración de ofertas {#managing-offers-in-the-offer-library}
+         + Configuración de ofertas  {#configure-offers}
             + [Creación de ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
             + [Añadir representaciones](using/offers/offer-library/add-representations.md)
             + [Añadir restricciones](using/offers/offer-library/add-constraints.md)
@@ -575,7 +576,7 @@ ht-degree: 87%
          + [Configurar selección de ofertas en decisiones](using/offers/offer-activities/configure-offer-selection.md)
          + [Creación de simulaciones](using/offers/offer-activities/simulation.md)
       + [Usar toma de decisiones por lotes](using/offers/batch-delivery.md)
-      + Recopilación de datos de evento {#collect-event-data}
+      + Recopilación de datos de evento  {#collect-event-data}
          + [Introducción a la recopilación de datos](using/offers/data-collection/data-collection.md)
          + [Crear un conjunto de datos para recopilar eventos](using/offers/data-collection/create-dataset.md)
          + [Configurar la captura de eventos](using/offers/data-collection/schema-requirement.md)
@@ -583,19 +584,19 @@ ht-degree: 87%
          + [Introducción a los datos de contexto](using/offers/context-data.md)
          + [Datos de contexto y solicitudes de Edge Decisioning](using/offers/context-data-edge.md)
          + [Solicitud de datos de contexto y toma de decisiones](using/offers/context-data-decisioning.md)
-      + Creación de informes de Administración de decisiones {#create-reports}
+      + Creación de informes de gestión de decisiones  {#create-reports}
          + [Trabajar con eventos de gestión de decisiones](using/offers/reports/get-started-events.md)
          + [Campos XDM de eventos de acceso](using/offers/reports/xdm-fields.md)
-      + Exportación del catálogo de ofertas {#export-catalog}
+      + Exportación del catálogo de ofertas  {#export-catalog}
          + [Introducción a la exportación del catálogo de ofertas](using/offers/export-catalog/get-started-export.md)
          + [Acceder al catálogo de ofertas exportado](using/offers/export-catalog/access-dataset.md)
          + [Conjunto de datos de ofertas personalizadas](using/offers/export-catalog/export-offers.md)
          + [Conjunto de datos de decisiones](using/offers/export-catalog/export-decisions.md)
          + [Conjunto de datos de ubicaciones](using/offers/export-catalog/export-placements.md)
          + [Conjunto de datos de reserva](using/offers/export-catalog/export-fallback.md)
-      + Referencia de API {#api-reference}
+      + Referencia de la API {#api-reference}
          + [Introducción](using/offers/api-reference/getting-started.md)
-         + Creación y administración de ofertas mediante API {#offers-api}
+         + Creación y administración de ofertas mediante las API  {#offers-api}
             + Ubicaciones {#placements}
                + [Enumerar ubicaciones](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [Buscar una ubicación](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -608,7 +609,7 @@ ht-degree: 87%
                + [Crear una regla de decisión](using/offers/api-reference/offers-api/decision-rules/create.md)
                + [Actualizar una regla de decisión](using/offers/api-reference/offers-api/decision-rules/update.md)
                + [Eliminar una regla de decisión](using/offers/api-reference/offers-api/decision-rules/delete.md)
-            + Calificadores de colección {#tags}
+            + Cualificadores de colección {#tags}
                + [Cualificadores de colección de lista](using/offers/api-reference/offers-api/tags/tags-list.md)
                + [Búsqueda de un cualificador de colección](using/offers/api-reference/offers-api/tags/lookup.md)
                + [Creación de un cualificador de colección](using/offers/api-reference/offers-api/tags/create.md)
@@ -638,7 +639,7 @@ ht-degree: 87%
                + [Crear una decisión](using/offers/api-reference/activities-api/activities/create.md)
                + [Actualizar una decisión](using/offers/api-reference/activities-api/activities/update.md)
                + [Eliminar una decisión](using/offers/api-reference/activities-api/activities/delete.md)
-            + API heredadas {#legacy-api}
+            + API heredadas  {#legacy-api}
                + [Acerca de las API heredadas](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
                + Ubicaciones {#placements}
                   + [Enumerar ubicaciones](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
@@ -652,7 +653,7 @@ ht-degree: 87%
                   + [Crear una regla de decisión](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
                   + [Actualizar una regla de decisión](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
                   + [Eliminar una regla de decisión](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
-               + Calificadores de colección {#tags}
+               + Cualificadores de colección {#tags}
                   + [Cualificadores de colección de lista](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
                   + [Búsqueda de un cualificador de colección](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
                   + [Creación de un cualificador de colección](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
@@ -682,15 +683,15 @@ ht-degree: 87%
                   + [Crear una decisión](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
                   + [Actualizar una decisión](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
                   + [Eliminar una decisión](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
-         + Entrega de ofertas mediante API {#offer-delivery-api}
+         + Envío de ofertas mediante las API  {#offer-delivery-api}
             + [Introducción a las API de envío de ofertas](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
             + [API de decisiones](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [API de Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [API de decisiones por lotes](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ Administración de datos {#data-management}
++ Gestión de datos {#data-management}
    + [Introducción a la administración de datos](using/data/gs-data.md)
    + [Usar esquemas](using/data/get-started-schemas.md)
-   + Conjuntos de datos Journey Optimizer {#datasets}
+   + Conjuntos de datos de Journey Optimizer  {#datasets}
       + [Introducción a los conjuntos de datos](using/data/get-started-datasets.md)
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
@@ -698,25 +699,25 @@ ht-degree: 87%
       + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
-   + [Configuración de los canales](using/configuration/get-started-configuration.md)
+   + [Configuración de canales](using/configuration/get-started-configuration.md)
    + [Creación de configuraciones de canal](using/configuration/channel-surfaces.md)
    + Configuración de canales guiada {#guided-setup}
       + [Introducción a la configuración de canales guiada](using/configuration/set-mobile-config.md)
       + [Creación de una configuración de canal](using/configuration/create-channel-set-up.md)
-   + Delegar subdominios de correo electrónico {#delegate-subdomains}
+   + Delegación de subdominios de correo electrónico  {#delegate-subdomains}
       + [Introducción a la delegación de subdominios](using/configuration/about-subdomain-delegation.md)
       + [Delegar un subdominio](using/configuration/delegate-subdomain.md)
       + [Configurar el registro DMARC](using/configuration/dmarc-record.md)
       + [Añadir un registro TXT de Google](using/configuration/google-txt.md)
       + [Acceso y edición de registros PTR](using/configuration/ptr-records.md)
       + [Crear grupos de IP](using/configuration/ip-pools.md)
-   + Implementación de un plan de calentamiento de IP {#implement-ip-warmup-plan}
+   + Implementación de un plan de calentamiento de IP  {#implement-ip-warmup-plan}
       + [Introducción a los planes de calentamiento de IP](using/configuration/ip-warmup-gs.md)
       + [Creación de campañas de calentamiento de IP](using/configuration/ip-warmup-campaign.md)
       + [Creación de un plan de calentamiento de IP](using/configuration/ip-warmup-plan.md)
       + [Ejecución del plan de calentamiento de IP](using/configuration/ip-warmup-execution.md)
       + [Archivos de plan de calentamiento de IP](using/configuration/ip-warmup-plan-files.md)
-   + Supervisión de direcciones de correo electrónico {#monitor-reputation}
+   + Supervisión de las direcciones de correo electrónico  {#monitor-reputation}
       + [Lista de supresión](using/configuration/manage-suppression-list.md)
       + [Reintentos](using/configuration/retries.md)
       + [Lista de permitidos](using/configuration/allow-list.md)
@@ -725,39 +726,39 @@ ht-degree: 87%
    + [Cambio de direcciones de ejecución](using/configuration/primary-email-addresses.md)
    + [Configurar reglas empresariales](using/configuration/frequency-rules.md)
    + [Trabajar con conjuntos de reglas](using/configuration/rule-sets.md)
-+ configuración de recorrido {#configure-journeys}
++ Configuración de recorrido {#configure-journeys}
    + [Configuración de fuentes de datos, eventos y acciones](using/configuration/about-data-sources-events-actions.md)
-   + Configuración de eventos {#events-journeys}
+   + Configuración de evento {#events-journeys}
       + [Trabajo con eventos de recorrido](using/event/about-events.md)
       + [Configuración de un evento unitario](using/event/about-creating.md)
       + [Acerca de los esquemas de ExperienceEvent](using/event/experience-event-schema.md)
       + [Trabajo con datos de Adobe Analytics](using/event/about-analytics.md)
       + [Configuración de un evento empresarial](using/event/about-creating-business.md)
       + [Pasos adicionales para enviar eventos](using/event/additional-steps-to-send-events-to-journey.md)
-   + Configuración de fuente de datos{#data-source-journeys}
+   + Configuración de la fuente de datos{#data-source-journeys}
       + [Introducción a las fuentes de datos](using/datasource/about-data-sources.md)
       + [Configuración de una fuente de datos](using/datasource/configure-data-sources.md)
       + [Fuente de datos de Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
       + [Fuentes de datos externas](using/datasource/external-data-sources.md)
-   + Configuración de acción {#action-journeys}
+   + Configuración de la acción {#action-journeys}
       + [Introducción a las acciones personalizadas](using/action/action.md)
       + [Configuración de una acción personalizada](using/action/about-custom-action-configuration.md)
       + [Resolución de una acción personalizada](using/action/troubleshoot-custom-action.md)
       + [Uso de respuestas de llamadas API en acciones personalizadas](using/action/action-response.md)
-+ Conectar sus sistemas y entornos {#connect-systems}
++ Conexión de los sistemas y entornos {#connect-systems}
    + [Trabajo con las API de Journey Optimizer](using/configuration/ajo-apis.md)
    + Integración de los recorridos con sistemas externos {#external-systems}
-      + [Recorrido de integración con sistemas externos](using/configuration/external-systems.md)
+      + [Integración del recorrido con sistemas externos](using/configuration/external-systems.md)
       + [API de límite](using/configuration/capping.md)
       + [API de limitación](using/configuration/throttling.md)
-   + Envío con soluciones de Adobe {#adobe-solutions}
-      + [Integración de recorrido con Campaign Standard](using/action/acs-action.md)
-      + [Integración de recorrido con las versiones 7 y 8 de Campaign](using/action/acc-action.md)
-      + [Integración de recorrido con Marketo Engage](using/action/marketo-engage.md)
+   + Envío de soluciones de Adobe {#adobe-solutions}
+      + [Integración del recorrido con Campaign Standard](using/action/acs-action.md)
+      + [Integración del recorrido con las versiones 7 y 8 de Campaign](using/action/acc-action.md)
+      + [Integración del recorrido con Marketo Engage](using/action/marketo-engage.md)
    + Administración de zonas protegidas {#sandbox}
-      + [Uso y asignación de entornos limitados](using/administration/sandboxes.md)
+      + [Uso y asignación de zonas protegidas](using/administration/sandboxes.md)
       + [Exportación de objetos a otra zona protegida](using/configuration/copy-objects-to-sandbox.md)
-   + [Configuración del conector de fuentes](using/start/get-started-sources.md)
+   + [Configuración del conector de orígenes](using/start/get-started-sources.md)
 + Control de acceso {#access-control}
    + Información general sobre el control de acceso {#privacy}
       + [Introducción a la administración de usuarios](using/administration/permissions-overview.md)

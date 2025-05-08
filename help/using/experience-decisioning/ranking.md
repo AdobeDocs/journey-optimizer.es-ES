@@ -6,19 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 13%
+source-wordcount: '604'
+ht-degree: 5%
 
 ---
 
 # Métodos de clasificación {#rankings}
-
->[!CONTEXTUALHELP]
->id="ajo_exd_config_formulas"
->title="Crear fórmulas de clasificación"
->abstract="Las fórmulas le permiten definir reglas que determinarán qué elemento se debe presentar primero, en lugar de tener en cuenta las puntuaciones de prioridad del elemento. Una vez creado un método de clasificación, puede asignarlo a una estrategia de selección para definir qué elementos se deben seleccionar primero."
 
 Los métodos de clasificación permiten clasificar los elementos que se muestran en un perfil determinado. Una vez creado un método de clasificación, puede asignarlo a una estrategia de selección para definir qué elementos se deben seleccionar primero.
 
@@ -42,8 +37,8 @@ Para crear un método de clasificación, siga estos pasos:
 
    Encontrará información detallada sobre cómo crear fórmulas de clasificación y modelos de IA en la documentación de administración de decisiones:
 
-   * [Fórmulas de clasificación](../offers/ranking/create-ranking-formulas.md)
-   * [modelos de IA](../offers/ranking/ai-models.md)
+   * [Fórmulas de clasificación](exd-ranking-formulas.md)
+   * [Modelos de IA](../offers/ranking/ai-models.md)
 
    >[!NOTE]
    >
@@ -63,7 +58,7 @@ Los modelos de optimización personalizados son un tipo de modelo de IA que le p
 
 De forma predeterminada, los modelos de optimización personalizados utilizan **clics en ofertas** como métrica de optimización. Si está trabajando con [!DNL Customer Journey Analytics], [!DNL Decisioning] le permite aprovechar sus propias métricas personalizadas para optimizar su modelo en.
 
-Para ello, acceda a la pantalla de creación personalizada del modelo de IA y expanda la lista desplegable **[!UICONTROL Evento de conversión]**. Todas las métricas de su [!DNL Customer Journey Analytics] [vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predeterminada se muestran en la lista. Seleccione la métrica en la que desea optimizar el modelo y, a continuación, complete la creación del modelo de IA como de costumbre.
+Para ello, acceda a la pantalla de creación personalizada del modelo de IA y expanda la lista desplegable **[!UICONTROL Evento de conversión]**. Todas las métricas de su [!DNL Customer Journey Analytics] [vista de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predeterminada se muestran en la lista. Seleccione la métrica en la que desea optimizar el modelo y, a continuación, complete la creación del modelo de IA como de costumbre.
 
 ![](assets/ai-ranking-custom-metrics.png)
 
@@ -73,13 +68,17 @@ Para ello, acceda a la pantalla de creación personalizada del modelo de IA y ex
 >
 >Aunque es posible modificar el modelo de atribución, no todos los modelos de atribución son ideales para la optimización del modelo de IA. Recomendamos seleccionar cuidadosamente un modelo de atribución que se ajuste a sus objetivos de optimización para garantizar la precisión y el rendimiento del modelo.
 >
->Para obtener más información sobre los modelos de atribución disponibles y las instrucciones de uso, consulte la [[!DNL Customer Journey Analytics] documentación](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+>Para obtener más información sobre los modelos de atribución disponibles y las instrucciones de uso, consulte la [[!DNL Customer Journey Analytics] documentación](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
 
 +++
 
 ## Aprovechamiento de atributos de elementos de decisión en fórmulas {#items}
 
 Las fórmulas de clasificación se expresan en **sintaxis de PQL** y pueden aprovechar varios atributos, como atributos de perfil, [datos de contexto](context-data.md) y atributos relacionados con los elementos de decisión.
+
+>[!NOTE]
+>
+>Para obtener más información sobre cómo usar la sintaxis de PQL, consulte la [documentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=es)
 
 Para aprovechar los atributos relacionados con los elementos de decisión en las fórmulas, asegúrese de seguir la sintaxis siguiente en el código de la fórmula de clasificación. Expanda cada sección para obtener más información:
 

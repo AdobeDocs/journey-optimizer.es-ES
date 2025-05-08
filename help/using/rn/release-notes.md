@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 72553cb3570b375b5bdf9cdebbfbf17e52c805da
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 46%
+source-wordcount: '985'
+ht-degree: 75%
 
 ---
 
@@ -24,6 +24,15 @@ ht-degree: 46%
 
 ## Actualizaciones de mayo de 2025 {#25-5-rn}
 
+* **Decisioning - Nuevo generador de fórmulas de IA** - Fecha de disponibilidad: 7 de mayo de 2025
+
+  Ahora puede crear fórmulas de clasificación de toma de decisiones específicas al definir y combinar criterios a partir de una nueva interfaz mejorada. Las fórmulas de clasificación le permiten definir reglas que determinarán qué elementos de decisión se deben presentar primero, en lugar de tener en cuenta las puntuaciones de prioridad.
+
+  Para obtener más información, consulte la [documentación detallada](../experience-decisioning/exd-ranking-formulas.md)
+
+  ![](assets/do-not-localize/formula-builder.gif)
+
+
 * Activación de **píldoras para personalización** - Fecha de disponibilidad: 5 de mayo de 2025
 
   Se ha añadido un nuevo botón &quot;Píldoras&quot; al editor de personalización. Cuando se habilita, los atributos contextuales y de perfil se muestran como píldoras, lo que mejora la legibilidad del código. [Más información](../personalization/personalization-build-expressions.md#options)
@@ -34,7 +43,7 @@ ht-degree: 46%
 
 ## Notas de la versión de abril de 2025 {#25-4-rn}
 
-**Fecha de publicación**: 29 y 30 de abril de 2025
+**Fecha de lanzamiento**: 29-30 de abril de 2025
 
 ### Nuevas funciones {#25-04-features}
 
@@ -43,15 +52,15 @@ A continuación, se enumeran las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Editor de Personalization: Aprenda haciendo</strong><br/></th>
+<th><strong>Editor de personalización: aprendizaje práctico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ya está disponible un área de reproducción de personalización, donde puede experimentar con expresiones de personalización. Le permite explorar plantillas y cargas útiles de ejemplo para ayudarle a empezar y probar sus propias expresiones de personalización.</p>
+<p>Ya está disponible un sitio de prueba de personalización, donde puede experimentar con expresiones de personalización. Le permite explorar plantillas y cargas útiles de muestra para empezar a probar sus propias expresiones de personalización.</p>
 <p>Para obtener más información, consulte la <a href="../personalization/personalize.md#playground">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: viernes, 24 de abril de 2025</p>
+<p>Fecha de disponibilidad: 24 de abril de 2025</p>
 <img src="assets/do-not-localize/templating-playground.gif"/>
 </td>
 </tr>
@@ -182,13 +191,13 @@ A continuación, se enumeran las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>El recorrido diario de déclencheur se ejecuta después de la finalización de la segmentación por lotes (disponibilidad limitada)</strong><br/></th>
+<th><strong>Activar las ejecuciones diarias después de la finalización de la segmentación por lotes (disponibilidad limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>En el caso de los recorridos programados diariamente, una nueva opción le permite definir un intervalo de tiempo de hasta 6 horas para esperar los datos de audiencia de los trabajos de segmentación por lotes, lo que garantiza que los recorridos se ejecuten con los datos más actualizados o se omitan si no están listos. La opción Déclencheur después de la evaluación de audiencias por lotes solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>En el caso de los recorridos programados diariamente, una nueva opción le permite definir un intervalo de tiempo de hasta 6 horas para esperar los datos del público procedentes de los trabajos de segmentación por lotes, lo que garantiza que los recorridos se ejecuten con los datos más actualizados o se omitan si no están listos. La opción Activar después de la evaluación del público por lotes solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/read-audience.md#schedule">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -218,7 +227,7 @@ A continuación, se enumeran las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Puntuación de alineación de marca (Beta)</strong><br/></th>
+<th><strong>Puntuación de alineación con la marca (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -258,17 +267,17 @@ A continuación, se enumeran las nuevas funciones incluidas en esta versión.
 
 Hay nuevas API disponibles para previsualizar campañas, además de las capacidades de envío de pruebas existentes. [Más información](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}.
 
-**Herramientas de espacio aislado**
+**Herramientas de la zona protegida**
 
 <!--- **Decisioning sandbox copy**
 
   Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
-* **Herramientas de espacio aislado para acciones personalizadas**
+* **Herramientas de la zona protegida para acciones personalizadas**
 
-  Las acciones personalizadas ahora se incluyen en la lista de objetos de Adobe Journey Optimizer que se pueden copiar mediante la función de herramientas de zona protegida, lo que optimiza las pruebas y la implementación. [Más información](../configuration/copy-objects-to-sandbox.md)
+  Las acciones personalizadas ahora se incluyen en la lista de objetos de Adobe Journey Optimizer que se pueden copiar mediante la función de herramientas de la zona protegida, lo que optimiza las pruebas y la implementación. [Más información](../configuration/copy-objects-to-sandbox.md)
 
-* **Herramientas de espacio aislado para campañas** - Fecha de disponibilidad: 3 de abril de 2025
+* **Herramientas de la zona protegida para campañas**. Fecha de disponibilidad: 3 de abril de 2025
 
   Ahora puede copiar campañas en varias zonas protegidas mediante las funciones de exportación e importación de paquetes. Las campañas se copian junto con todos los elementos relacionados con el perfil, el público, el esquema, los mensajes en línea y los objetos dependientes. Algunos elementos no se copian, como los elementos de decisión, las etiquetas de uso de datos y la configuración de idioma. [Más información](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -276,9 +285,9 @@ Hay nuevas API disponibles para previsualizar campañas, además de las capacida
 
 * **Nuevo atributo contextual**
 
-  Ahora hay disponible un nuevo atributo contextual, **Id. de perfil de mensaje**, que se puede seleccionar del editor de personalización. Es un atributo orientado a mensajes que identifica de forma exclusiva cada mensaje enviado a cada perfil de destino en una entrega. Este identificador único se puede utilizar, por ejemplo, como parámetro de seguimiento de URL para distinguir cada vínculo abierto o en el que los destinatarios hacen clic.
+  Ahora hay disponible un nuevo atributo contextual, **ID de perfil de mensaje**, que se puede seleccionar en el editor de personalización. Es un atributo orientado a los mensajes que identifica de forma exclusiva cada mensaje enviado a cada perfil de destinatario en un envío. Este identificador único se puede utilizar, por ejemplo, como parámetro de seguimiento de URL para distinguir cada vínculo abierto o en el que los destinatarios hacen clic.
 
-* **Atributos rellenados en el panel de atributos** - Fecha de disponibilidad: 2 de abril de 2025
+* **Atributos rellenados en el panel de atributos**. Fecha de disponibilidad: 2 de abril de 2025
 
   El panel de atributos del editor de personalización ahora muestra solo los atributos rellenados de forma predeterminada. Para ver todos los atributos, use el botón de configuración para desactivar la opción **[!UICONTROL Mostrar solo atributos rellenados]**. [Más información](../personalization/personalization-build-expressions.md)
 
