@@ -56,7 +56,7 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
    El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 
-+++
+   +++
 
 1. **Configurar atributos personalizados**: adapte el catálogo de artículos a sus necesidades específicas configurando atributos personalizados en el esquema del catálogo.
 
