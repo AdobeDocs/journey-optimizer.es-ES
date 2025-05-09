@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1777'
 ht-degree: 11%
 
 ---
@@ -246,6 +246,10 @@ Siga los pasos a continuación para finalizar su experiencia basada en código y
        }
    }
    ```
+
+   >[!CAUTION]
+   >
+   >Si agrega la marca `dryRun` a su solicitud, se evitará que se recopilen comentarios para los contadores de informes y frecuencia que se agreguen a.
 
 1. Para ver el rendimiento de sus decisiones, ahora puede crear [paneles personalizados de informes de Customer Journey Analytics](cja-reporting.md).
 
