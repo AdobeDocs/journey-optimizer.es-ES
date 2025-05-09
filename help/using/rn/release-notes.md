@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f8c08461b82aea5680c3fa9631f5361b78daafe6
+source-git-commit: 942fa8e40768f7252702fbf9bc5fc23bdaff40ac
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 73%
+source-wordcount: '1022'
+ht-degree: 70%
 
 ---
 
@@ -24,18 +24,17 @@ ht-degree: 73%
 
 ## Actualizaciones de mayo de 2025 {#25-5-rn}
 
+* **Carpetas para páginas de aterrizaje**: fecha de disponibilidad: sábado, 09 de mayo de 2025
+
+  Para administrar fácilmente las páginas de aterrizaje, ahora puede utilizar carpetas para organizarlas de forma más eficaz en una jerarquía optimizada.  [Más información](../landing-pages/manage-lp.md)
+
 * **Decisioning - Nuevo generador de fórmulas de IA** - Fecha de disponibilidad: 7 de mayo de 2025
 
-  Ahora puede crear fórmulas de clasificación de toma de decisiones específicas al definir y combinar criterios a partir de una nueva interfaz mejorada. Las fórmulas de clasificación le permiten definir reglas que determinarán qué elementos de decisión se deben presentar primero, en lugar de tener en cuenta las puntuaciones de prioridad.
+  Ahora puede crear fórmulas de clasificación de toma de decisiones específicas al definir y combinar criterios a partir de una nueva interfaz mejorada. En lugar de depender únicamente de una prioridad de oferta estática, puede definir fórmulas de clasificación personalizadas que combinen puntuaciones del modelo de IA, prioridades de oferta, atributos de perfil, atributos de oferta y señales contextuales a través de una interfaz guiada.
 
   Para obtener más información, consulte la [documentación detallada](../experience-decisioning/exd-ranking-formulas.md)
 
   ![](assets/do-not-localize/formula-builder.gif)
-
-
-* **Carpetas para páginas de aterrizaje**: fecha de disponibilidad: jueves, 07 de mayo de 2025
-
-  Para administrar fácilmente las páginas de aterrizaje, ahora también puede utilizar carpetas para organizarlas de forma más eficaz en una jerarquía optimizada.  [Más información](../landing-pages/manage-lp.md)
 
 * Activación de **píldoras para personalización** - Fecha de disponibilidad: 5 de mayo de 2025
 
