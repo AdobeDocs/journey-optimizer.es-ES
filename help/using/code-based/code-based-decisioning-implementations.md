@@ -26,13 +26,13 @@ Actualmente no puedes simular contenido desde la interfaz de usuario en una camp
 Como solución alternativa, puede probar la toma de decisiones después de publicar la campaña añadiendo el indicador `dryRun` al bloque de evento XDM `data` en la implementación del cliente:
 
     &quot;
-    {
-    &quot;data&quot;: {
-    &quot;__adobe&quot;: {
-    &quot;ajo&quot;: {
+    &lbrace;
+    &quot;data&quot;: &lbrace;
+    &quot;__adobe&quot;: &lbrace;
+    &quot;ajo&quot;: &lbrace;
     &quot;dryRun&quot;: true
-    }
-    }
+    &rbrace;
+    &rbrace;
     
     
     &quot;
