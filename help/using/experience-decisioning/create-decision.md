@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
+source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 11%
+source-wordcount: '1718'
+ht-degree: 12%
 
 ---
 
@@ -223,34 +223,14 @@ Una vez creada, la directiva de decisión se puede usar en el [editor de persona
 
 1. Haga clic en **[!UICONTROL Guardar y cerrar]** para confirmar los cambios.
 
-## Prueba y publicación de una experiencia basada en código {#test-and-publish}
-
-Siga los pasos a continuación para finalizar su experiencia basada en código y realizar los cambios en directo.
-
 1. Revise y publique su campaña o recorrido de experiencias basado en código. [Descubra cómo](../code-based/publish-code-based.md)
 
    Ahora, tan pronto como el desarrollador realice una API o una llamada de SDK para recuperar contenido para la superficie definida en la configuración de canal, los cambios se aplicarán a su página web o aplicación.
 
-1. Actualmente no puedes simular contenido desde la interfaz de usuario en una campaña o recorrido de [experiencia basada en código](../code-based/create-code-based.md) usando decisiones.
-
-   Como solución alternativa, puede probar la toma de decisiones después de publicar la campaña añadiendo el indicador `dryRun` al bloque de evento XDM `data` en la implementación del cliente:
-
-   ```
-   {
-       "data": {
-           "__adobe": {
-               "ajo": {
-                   "dryRun": true
-               }
-           }
-       }
-   }
-   ```
-
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >Si agrega la marca `dryRun` a su solicitud, se evitará que se recopilen comentarios para los contadores de informes y frecuencia que se agreguen a.
+   >Actualmente no puedes simular contenido desde la interfaz de usuario en una campaña o recorrido de [experiencia basada en código](../code-based/create-code-based.md) usando decisiones. Hay una solución disponible en [esta sección](../code-based/code-based-decisioning-implementations.md).
 
-1. Para ver el rendimiento de sus decisiones, ahora puede crear [paneles personalizados de informes de Customer Journey Analytics](cja-reporting.md).
+1. Para ver el rendimiento de sus decisiones, puede crear [paneles personalizados de informes de Customer Journey Analytics](cja-reporting.md).
 
 
