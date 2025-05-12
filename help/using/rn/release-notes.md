@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 942fa8e40768f7252702fbf9bc5fc23bdaff40ac
+source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 70%
+source-wordcount: '955'
+ht-degree: 73%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 70%
 * **Carpetas para páginas de aterrizaje**: fecha de disponibilidad: sábado, 09 de mayo de 2025
 
   Para administrar fácilmente las páginas de aterrizaje, ahora puede utilizar carpetas para organizarlas de forma más eficaz en una jerarquía optimizada.  [Más información](../landing-pages/manage-lp.md)
+<!--
+* **Decisioning - New AI formula builder**  - Availability date: May 7, 2025
 
-* **Decisioning - Nuevo generador de fórmulas de IA** - Fecha de disponibilidad: 7 de mayo de 2025
+  You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Instead of relying only on a static offer priority, you can define custom ranking formulas that combine AI model scores, offer priorities, profile attributes, offer attributes, and contextual signals through a guided interface.
+  
+  For more information, refer to the [detailed documentation](../experience-decisioning/exd-ranking-formulas.md)
 
-  Ahora puede crear fórmulas de clasificación de toma de decisiones específicas al definir y combinar criterios a partir de una nueva interfaz mejorada. En lugar de depender únicamente de una prioridad de oferta estática, puede definir fórmulas de clasificación personalizadas que combinen puntuaciones del modelo de IA, prioridades de oferta, atributos de perfil, atributos de oferta y señales contextuales a través de una interfaz guiada.
-
-  Para obtener más información, consulte la [documentación detallada](../experience-decisioning/exd-ranking-formulas.md)
-
-  ![](assets/do-not-localize/formula-builder.gif)
+  ![](assets/do-not-localize/formula-builder.gif)-->
 
 * Activación de **píldoras para personalización** - Fecha de disponibilidad: 5 de mayo de 2025
 
