@@ -1,44 +1,65 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción a las campañas orquestadas
+title: Introducción a las campañas organizadas
 description: Obtenga información sobre cómo empezar con campañas orquestadas
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 16%
+source-wordcount: '529'
+ht-degree: 21%
 
 ---
 
-# Introducción a las campañas orquestadas {#ms-camp}
+# Introducción a las campañas organizadas {#ms-camp}
 
->[!BEGINSHADEBOX]
 
-**Tabla de contenido**
++++Tabla de contenido
 
-* Configuración: [Configure sus campañas orquestadas](gs-campaign-config.md)
-* Configuración: [Crear esquemas relacionales](ms-schemas.md)
-* Cree su primera campaña organizada: [Principios clave](gs-campaign-creation.md)
+¡Le damos la bienvenida!
+
+* Introducción a las campañas organizadas
+* [Principios clave](gs-campaign-creation.md)
+* [Pasos para crear campañas orquestadas](gs-campaign-steps.md)
+
+
+Pasos de configuración
+
+* [Creación de esquemas adicionales](ms-schemas.md)
+
+Pasos para la creación
+
 * [Creación de una campaña organizada](create-ms-campaign.md)
 * [Configuración de campaña](ms-campaign-settings.md)
-* [Personalizar los mensajes](ms-personalization.md)
-* [Creación de consultas](ms-query-modeler.md)
-* [Prueba y validación de mensajes](ms-proofs.md)
 * [Programación e inicio de campañas](start-monitor-campaigns.md)
-* Actividades: [Introducción a las actividades](activities/about-activities.md)
+* [Creación de consultas](ms-query-modeler.md)
+
+Actividades
+
+* [Introducción a las actividades](activities/about-activities.md)
 * [Organización de actividades](orchestrate-activities.md)
-* [And-join](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Anulación de duplicación](activities/deduplication.md) - [Acciones de canal](activities/channels.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [División](activities/split.md) - &lt;!—[Prueba](activities/test.md) —> [Espera](activities/wait.md)
-* Supervisión: [Informes](reporting-campaigns.md)
+* [And-join](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [División](activities/split.md) - <!--[Test](activities/test.md) --> [Espera](activities/wait.md)
 
->[!ENDSHADEBOX]
 
-Las campañas orquestadas mejoran Adobe Journey Optimizer al introducir funciones de campaña por lotes iniciadas por la marca que le permiten planificar y orquestar campañas en canales múltiples con estrategias de segmentación avanzadas.
+Mensajes
+
+* [Acciones de canal](activities/channels.md)
+* [Personalizar los mensajes](ms-personalization.md)
+* [Prueba y validación de mensajes](ms-proofs.md)
+
+Informes y monitorización
+
+* [Informes](reporting-campaigns.md)
+
++++
+
 
 ## ¿Qué es una campaña orquestada?
+
+Las campañas orquestadas mejoran Adobe Journey Optimizer al introducir funciones de campaña por lotes iniciadas por la marca que le permiten planificar y orquestar campañas en canales múltiples con estrategias de segmentación avanzadas.
 
 El marketing multicanal es esencial para cualquier empresa que busque llegar a sus clientes de forma eficaz. Adobe Journey Optimizer proporciona un entorno gráfico completo que le permite diseñar procesos complejos que pueden ayudarle a administrar sus campañas de marketing con facilidad. Con las campañas orquestadas, puede organizar la gama completa de procesos y tareas, mejorar la velocidad y la escala de cada aspecto de sus campañas de marketing, desde la creación de segmentos y la preparación de mensajes hasta la entrega. Además, puede sincronizar sus canales con una interfaz única y fácil de usar para la orquestación de campañas.
 
