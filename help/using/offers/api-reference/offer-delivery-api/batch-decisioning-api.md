@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '729'
 ht-degree: 4%
 
 ---
@@ -24,13 +24,13 @@ Para ello, la organización debería:
 
 * Ejecute la API [!DNL Batch Decisioning], que contiene dos solicitudes:
 
-   1. Una **solicitud de POST por lotes** para iniciar una carga de trabajo para procesar por lotes las selecciones de ofertas.
+   1. Una **solicitud POST por lotes** para iniciar una carga de trabajo para procesar por lotes las selecciones de ofertas.
 
-   2. Una **solicitud de GET por lotes** para obtener el estado de carga de trabajo por lotes.
+   2. Una **solicitud GET por lotes** para obtener el estado de la carga de trabajo por lotes.
 
 * Exporte el conjunto de datos a la API del proveedor de entrega de mensajes.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=es) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ Todas las [!DNL Batch Decisioning] solicitudes requieren los siguientes encabeza
 
 ## Iniciar un proceso por lotes {#start-a-batch-process}
 
-Para iniciar una carga de trabajo para procesar decisiones por lotes, realice una solicitud de POST al extremo `/workloads/decisions`.
+Para iniciar una carga de trabajo para procesar decisiones por lotes, realice una petición POST al extremo `/workloads/decisions`.
 
 >[!NOTE]
 >
@@ -104,7 +104,6 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:activityId` | El identificador único de la decisión. |
 | `xdm:dataSetId` | Conjunto de datos de salida en el que se pueden escribir los eventos de decisión. | `6196b4a1a63bd118dafe093c` |
-| `xdm:enrichedAudience` | Añada este parámetro y configúrelo como &quot;true&quot; si va a enviar un mensaje a una audiencia CSV | `true` |
 | `xdm:includeContent` | Este es un campo opcional y es `false` de manera predeterminada. Si `true`, el contenido de la oferta se incluye en los eventos de decisión del conjunto de datos. | `false` |
 | `xdm:itemCount` | Es un campo opcional que muestra el número de elementos, como las opciones solicitadas para el ámbito de toma de decisiones. De forma predeterminada, la API devuelve una opción por ámbito, pero puede solicitar explícitamente más opciones especificando este campo. Se pueden solicitar un mínimo de 1 y un máximo de 30 opciones por ámbito. | `1` | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | El identificador de ubicación único. | `xcore:offer-placement:1410c4117306488a` |
@@ -133,7 +132,7 @@ Consulte la [documentación de Administración de decisiones](../../get-started/
 
 ## Recuperar información sobre una decisión por lotes {#retrieve-information-on-a-batch-decision}
 
-Para recuperar información sobre una decisión específica, realice una solicitud de GET al extremo `/workloads/decisions` y proporcione el valor de ID de carga de trabajo correspondiente para su decisión.
+Para recuperar información sobre una decisión específica, realice una petición GET al extremo `/workloads/decisions` y proporcione el valor de ID de carga de trabajo correspondiente para su decisión.
 
 **Formato de API**
 

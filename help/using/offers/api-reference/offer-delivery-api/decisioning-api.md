@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: f415209a7a62c8b7936abdb474b1b5b70c788973
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Con Administración de decisiones, puede crear y ofrecer experiencias de oferta personalizadas para el usuario final en varios canales y aplicaciones mediante la lógica empresarial y las reglas de decisión. Una oferta es un mensaje de marketing que puede tener reglas asociadas que especifican quién puede ver la oferta.
 
-Puede crear y enviar ofertas realizando una solicitud de POST a la API [!DNL Decisioning].
+Puede crear y enviar ofertas realizando una petición POST a la API [!DNL Decisioning].
 
 Este tutorial requiere una comprensión práctica de las API, específicamente en lo que respecta a la administración de decisiones. Para obtener más información, consulte la [Guía para desarrolladores de API de administración de decisiones](../getting-started.md). Este tutorial también requiere que tenga un ID de ubicación único y un valor de ID de decisión disponibles. Si no ha adquirido estos valores, consulte los tutoriales de [creación de una ubicación](../offers-api/placements/create.md) y [creación de una decisión](../activities-api/activities/create.md).
 
@@ -112,6 +112,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:allowDuplicatePropositions` | Este objeto define la estructura de control de las reglas de deduplicación. Consiste en una serie de indicadores que indican si la misma opción se puede proponer en una dimensión determinada. Un indicador que se establece en true significa que se permiten duplicados y no deben eliminarse en la categoría indicada por el indicador. Un indicador establecido en false significa que el motor de decisión no debe hacer la misma propuesta en toda la dimensión y elegir la siguiente mejor opción para una de las subdecisiones. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Si se establece en true, es posible que se asignen varias decisiones a la misma opción. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | Si se establece en true, es posible que se asignen varias ubicaciones a la misma opción. | `"xdm:acrossPlacements": true` |
+| `xdm:enrichedAudience` | Añada este parámetro y configúrelo como &quot;true&quot; si va a enviar un mensaje a una audiencia CSV | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | Identifica la política de combinación por la que se rigen los datos devueltos por el servicio de acceso a perfiles. Si no se especifica uno en la solicitud, Administración de decisiones no transmitirá ningún servicio de acceso a perfiles; de lo contrario, transmitirá el ID proporcionado por el llamador. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | Conjunto de indicadores que da formato al contenido de la respuesta. |
 | `xdm:responseFormat.xdm:includeContent` | Un valor booleano que, si se establece en `true`, incluye contenido en la respuesta. | `"xdm:includeContent": true` |
@@ -213,7 +214,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342828/?quality=12&captions=spa) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Pasos siguientes {#next-steps}
 

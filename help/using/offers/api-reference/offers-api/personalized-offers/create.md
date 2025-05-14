@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 12%
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 Una oferta personalizada es un mensaje de marketing personalizable basado en reglas de elegibilidad y restricciones.
 
-Puede crear una oferta personalizada realizando una solicitud de POST a la API [!DNL Offer Library].
+Puede crear una oferta personalizada realizando una petición POST a la API [!DNL Offer Library].
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 
@@ -30,7 +30,7 @@ La siguiente tabla muestra los valores válidos que comprenden el campo *Content
 **Formato de API**
 
 ```http
-POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
+POST /{ENDPOINT_PATH}/offers/offers?offer-type=personalized
 ```
 
 | Parámetro | Descripción | Ejemplo |
