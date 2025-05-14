@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -39,17 +39,17 @@ Puede establecer dos tipos de actividad **Wait**:
 
 ### Varias actividades de espera {#multiple-wait-activities}
 
-Cuando use varias actividades **Wait** en un recorrido, tenga en cuenta que el tiempo de espera [global](journey-properties.md#global_timeout) para recorridos es de 91 días, lo que significa que los perfiles siempre abandonan el máximo de recorrido 91 días después de que ingresaron al mismo. Más información sobre [esta página](journey-properties.md#global_timeout).
+Cuando use varias actividades **Wait** en un recorrido, tenga en cuenta que el tiempo de espera [global](journey-properties.md#global_timeout) para recorridos es de 91 días, lo que significa que los perfiles siempre abandonan el máximo de recorrido 91 días después de que ingresaron al mismo. Obtenga más información en [esta página](journey-properties.md#global_timeout).
 
 Un individuo puede ingresar a una actividad **Wait** solo si le queda tiempo suficiente en el recorrido recorrido para completar la espera antes del tiempo de espera de 91 días.
 
 ### Espera y reentrada {#wait-reentrance}
 
-Una práctica recomendada es no usar las actividades **Wait** para bloquear la reentrada. En su lugar, use la opción **Permitir la reentrada** en el nivel de propiedades de recorrido. Más información sobre [esta página](../building-journeys/journey-properties.md#entrance).
+Una práctica recomendada es no usar las actividades **Wait** para bloquear la reentrada. En su lugar, use la opción **Permitir la reentrada** en el nivel de propiedades de recorrido. Obtenga más información en [esta página](../building-journeys/journey-properties.md#entrance).
 
 ### Modo de espera y prueba {#wait-test-mode}
 
-En el modo de prueba, el parámetro **[!UICONTROL Tiempo de espera en prueba]** le permite definir el tiempo que durará cada actividad de **Wait**. El tiempo predeterminado es 10 segundos. Esto garantizará que obtenga los resultados de la prueba rápidamente. Más información sobre [esta página](../building-journeys/testing-the-journey.md).
+En el modo de prueba, el parámetro **[!UICONTROL Tiempo de espera en prueba]** le permite definir el tiempo que durará cada actividad de **Wait**. El tiempo predeterminado es 10 segundos. Esto garantizará que obtenga los resultados de la prueba rápidamente. Obtenga más información en [esta página](../building-journeys/testing-the-journey.md).
 
 ### Canales de espera y móviles {#wait-mobile-channels}
 
@@ -100,4 +100,4 @@ Para validar que la actividad de espera funciona según lo esperado, puede utili
 >title="Acerca del nodo de espera automático"
 >abstract="Se agrega automáticamente una actividad de **Espera** después de esta actividad. Se establece para 3 días. Puede eliminarla o configurarla según sea necesario."
 
-Cada actividad de mensaje entrante (mensaje en la aplicación, experiencia basada en código o tarjeta) viene con una actividad de **Espera** de 3 días. Como los mensajes entrantes finalizan automáticamente cuando un perfil llega al final del recorrido, suponemos que desea que los usuarios lo vean al menos durante 3 días. Puede quitar esta actividad **Wait** o cambiar su configuración si es necesario.
+Cada actividad de experiencia entrante (mensaje en la aplicación, experiencia basada en código o tarjeta) viene con una actividad de **Espera** de 3 días. Como los mensajes entrantes finalizan automáticamente cuando un perfil llega al final del recorrido, suponemos que desea que los usuarios lo vean al menos durante 3 días. Puede quitar esta actividad **Wait** o cambiar su configuración si es necesario.
