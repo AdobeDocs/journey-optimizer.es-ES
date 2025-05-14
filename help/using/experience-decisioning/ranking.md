@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 5%
@@ -37,8 +37,7 @@ Para crear un método de clasificación, siga estos pasos:
 
    Encontrará información detallada sobre cómo crear fórmulas de clasificación y modelos de IA en la documentación de administración de decisiones:
 
-   <!--* [Ranking formulas](exd-ranking-formulas.md)-->
-   * [Fórmulas de clasificación](../offers/ranking/create-ranking-formulas.md)
+   * [Fórmulas de clasificación](exd-ranking-formulas.md)
    * [Modelos de IA](../offers/ranking/ai-models.md)
 
    >[!NOTE]
@@ -59,7 +58,7 @@ Los modelos de optimización personalizados son un tipo de modelo de IA que le p
 
 De forma predeterminada, los modelos de optimización personalizados utilizan **clics en ofertas** como métrica de optimización. Si está trabajando con [!DNL Customer Journey Analytics], [!DNL Decisioning] le permite aprovechar sus propias métricas personalizadas para optimizar su modelo en.
 
-Para ello, acceda a la pantalla de creación personalizada del modelo de IA y expanda la lista desplegable **[!UICONTROL Evento de conversión]**. Todas las métricas de su [!DNL Customer Journey Analytics] [vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predeterminada se muestran en la lista. Seleccione la métrica en la que desea optimizar el modelo y, a continuación, complete la creación del modelo de IA como de costumbre.
+Para ello, acceda a la pantalla de creación personalizada del modelo de IA y expanda la lista desplegable **[!UICONTROL Evento de conversión]**. Todas las métricas de su [!DNL Customer Journey Analytics] [vista de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predeterminada se muestran en la lista. Seleccione la métrica en la que desea optimizar el modelo y, a continuación, complete la creación del modelo de IA como de costumbre.
 
 ![](assets/ai-ranking-custom-metrics.png)
 
@@ -69,7 +68,7 @@ Para ello, acceda a la pantalla de creación personalizada del modelo de IA y ex
 >
 >Aunque es posible modificar el modelo de atribución, no todos los modelos de atribución son ideales para la optimización del modelo de IA. Recomendamos seleccionar cuidadosamente un modelo de atribución que se ajuste a sus objetivos de optimización para garantizar la precisión y el rendimiento del modelo.
 >
->Para obtener más información sobre los modelos de atribución disponibles y las instrucciones de uso, consulte la [[!DNL Customer Journey Analytics] documentación](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+>Para obtener más información sobre los modelos de atribución disponibles y las instrucciones de uso, consulte la [[!DNL Customer Journey Analytics] documentación](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
 
 +++
 

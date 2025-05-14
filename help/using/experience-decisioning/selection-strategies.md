@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 21%
+source-wordcount: '733'
+ht-degree: 20%
 
 ---
 
@@ -108,7 +108,7 @@ Las puntuaciones de prioridad de las ofertas se asignan al crear [elemento de de
 
 Además de la prioridad de ofertas, Journey Optimizer permite crear **fórmulas de clasificación**. Son fórmulas que determinan qué oferta debe presentarse primero para una ubicación determinada, en lugar de tener en cuenta las puntuaciones de prioridad de las ofertas.
 
-Por ejemplo, puede aumentar la prioridad de todas las ofertas en las que la fecha de finalización sea inferior a 24 horas a partir de ahora o aumentar las ofertas de la categoría &quot;en ejecución&quot; si el punto de interés del perfil es &quot;en ejecución&quot;. <!--Learn how to create a ranking formula in [this section](exd-ranking-formulas.md).-->
+Por ejemplo, puede aumentar la prioridad de todas las ofertas en las que la fecha de finalización sea inferior a 24 horas a partir de ahora o aumentar las ofertas de la categoría &quot;en ejecución&quot; si el punto de interés del perfil es &quot;en ejecución&quot;. Aprenda a crear una fórmula de clasificación en [esta sección](exd-ranking-formulas.md).
 
 Una vez creada, puede utilizar esta fórmula en una estrategia de selección. Si se pueden presentar varias ofertas al utilizar esta estrategia de selección, la decisión utilizará la fórmula seleccionada para calcular qué oferta se ofrece primero.
 
