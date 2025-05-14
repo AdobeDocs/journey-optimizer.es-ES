@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, crear, recorrido
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c403769a872ac6b4720ec6aaae9eda5d68da96c5
+source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 10%
+source-wordcount: '1733'
+ht-degree: 9%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 10%
 >id="ajo_journey_event_unitary"
 >title="Eventos unitarios"
 >abstract="La configuración de evento permite definir la información que Journey Optimizer recibirá como eventos. Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento. Los eventos unitarios están vinculados a un perfil específico. Pueden basarse en reglas o generarse en el sistema."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_parameters"
+>title="Parámetros"
+>abstract="Defina los parámetros del evento, como los campos esquema y carga útil. Para los eventos basados en reglas, use la **[!UICONTROL condición de ID de evento]** para definir la condición que el sistema usará para identificar los eventos que almacenarán en déclencheur su recorrido. Añada un tipo de identidad y un identificador de perfil para usar en el evento."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
