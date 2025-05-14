@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 13%
 
 ---
@@ -31,12 +31,12 @@ Un fragmento es un componente reutilizable al que se puede hacer referencia en u
 
 Para aprovechar al máximo los fragmentos:
 
-* **Crear sus propios fragmentos**: cree fragmentos visuales o de expresión, ya sea desde cero o guardando el contenido como fragmento. [Aprenda a crear un fragmento](#create-fragments). Además, puede aprovechar Journey Optimizer **API de REST de contenido** para administrar fragmentos de contenido. Para obtener más información, consulte la [documentación de las API de Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+* **Crear sus propios fragmentos**: cree fragmentos visuales o de expresión, ya sea desde cero o guardando el contenido como fragmento. [Aprenda a crear un fragmento](create-fragments.md). Además, puede aprovechar Journey Optimizer **API de REST de contenido** para administrar fragmentos de contenido. Para obtener más información, consulte la [documentación de las API de Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 * **Reutilice sus fragmentos:** Úselos tantas veces como sea necesario en su contenido. Ver [Agregar fragmentos visuales](../email/use-visual-fragments.md) y [Aprovechar fragmentos de expresiones](../personalization/use-expression-fragments.md)
 
 ## Antes de empezar {#fragment-prerequisites}
 
-Para crear, editar, archivar y publicar fragmentos, necesita los permisos **[!DNL Manage library items]** y **[Fragmento de Publish]** incluidos en el perfil de producto **[!DNL Content Library Manager]**. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
+Para crear, editar, archivar y publicar fragmentos, necesita los permisos **[!DNL Manage library items]** y **[Publicar fragmento]** incluidos en el perfil de producto **[!DNL Content Library Manager]**. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
 
 En esta versión, se aplican las siguientes limitaciones:
 
@@ -62,4 +62,4 @@ Aprenda a administrar, crear y usar **fragmentos visuales** en [!DNL Journey Opt
 
 Obtenga información sobre cómo administrar, crear y usar **fragmentos de expresiones** en [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438920/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
