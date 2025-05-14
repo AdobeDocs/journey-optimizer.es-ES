@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 86%
@@ -67,15 +67,13 @@ Las funcionalidades clave incluyen:
 
 Comprenda la arquitectura básica de [!DNL Adobe Journey Optimizer], los puntos de integración y la relación entre [!DNL Journey Optimizer] y [!DNL Experience Platform] en el diagrama siguiente.
 
-Adobe Experience Platform es una base de datos potente, flexible, abierta y centralizada que recopila, estandariza, gobierna, aplica las perspectivas de IA a y unifica los datos para ofrecer a los clientes digitales reflexivos y relevantes
-experiencias.
+Adobe Experience Platform es una base de datos potente, flexible, abierta y centralizada que recopila, estandariza, gobierna, aplica las perspectivas de IA a y unifica los datos para ofrecer experiencias de cliente digitales reflexivas y relevantes.
 
 ![](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}
 
 Hay cuatro aplicaciones creadas de forma nativa en Experience Platform: Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics y Adobe Mix Modeler.
 
-La funcionalidad y los servicios principales de Journey Optimizer funcionan con los componentes básicos de Adobe Experience Platform, que incluyen el Perfil del cliente en tiempo real. Aunque Journey Optimizer funciona sin problemas y es interoperable con Real-Time CDP y Customer Journey Analytics, puede
-también funcionan de forma independiente como una aplicación independiente.
+La funcionalidad y los servicios principales de Journey Optimizer funcionan con los componentes básicos de Adobe Experience Platform, que incluyen el Perfil del cliente en tiempo real. Aunque Journey Optimizer funciona sin problemas y es interoperable con Real-Time CDP y Customer Journey Analytics, también puede funcionar de forma independiente como aplicación independiente.
 
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 
