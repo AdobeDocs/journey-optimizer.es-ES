@@ -61,4 +61,4 @@ Además de aprovechar los libros de reproducción predefinidos, puede crear y co
 
 Puede definir metadatos mediante la asistencia de IA o entradas manuales, asociar activos técnicos como esquemas, segmentos y compartir libros de reproducción entre diferentes organizaciones de IMS.
 
-Para obtener más información sobre cómo crear y compartir libros de reproducción, consulte la documentación de libros de reproducción de casos de uso: [Cree y comparta sus propios libros de reproducción con el Asistente para IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}.
+Para obtener más información sobre cómo crear y compartir libros de reproducción, consulte la documentación de libros de reproducción de casos de uso: [Cree y comparta sus propios libros de reproducción con el Asistente para IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=es#sharing-playbooks-sandboxes){target="_blank"}.
