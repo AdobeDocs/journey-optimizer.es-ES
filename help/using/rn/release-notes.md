@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 69%
+source-wordcount: '1011'
+ht-degree: 70%
 
 ---
 
@@ -24,25 +24,17 @@ ht-degree: 69%
 
 ## Actualizaciones de mayo de 2025 {#25-5-rn}
 
-* **Temas en el Designer de correo electrónico (Beta)** - Fecha de disponibilidad: 14 de mayo de 2025
-
-  Ahora puede aplicar rápidamente temas de estilo preaprobados al contenido del correo electrónico para garantizar la coherencia de la marca en todos los correos electrónicos, acelerar el proceso de creación de campañas y producir correos electrónicos de alta calidad de forma independiente, al tiempo que reduce la dependencia en los equipos de diseño. [Más información](../email/apply-email-themes.md)
-
-  >[!AVAILABILITY]
-  >
-  >Actualmente, esta función está en versión beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con su representante de Adobe.
-
-  ![](assets/do-not-localize/themes.gif)
-
-* **Decisioning - Nuevo generador de fórmulas de IA** - Fecha de disponibilidad: 14 de mayo de 2025
-
-  Ahora puede crear fórmulas de clasificación de toma de decisiones específicas al definir y combinar criterios a partir de una nueva interfaz mejorada. En lugar de depender únicamente de una prioridad de oferta estática, puede definir fórmulas de clasificación personalizadas que combinen puntuaciones del modelo de IA, prioridades de oferta, atributos de perfil, atributos de oferta y señales contextuales a través de una interfaz guiada. [Más información](../experience-decisioning/exd-ranking-formulas.md)
-
-  ![](assets/do-not-localize/formula-builder.gif)
-
 * **Carpetas para páginas de aterrizaje**: fecha de disponibilidad: sábado, 09 de mayo de 2025
 
   Para administrar fácilmente las páginas de aterrizaje, ahora puede utilizar carpetas para organizarlas de forma más eficaz en una jerarquía optimizada.  [Más información](../landing-pages/manage-lp.md)
+<!--
+* **Decisioning - New AI formula builder**  - Availability date: May 7, 2025
+
+  You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Instead of relying only on a static offer priority, you can define custom ranking formulas that combine AI model scores, offer priorities, profile attributes, offer attributes, and contextual signals through a guided interface.
+  
+  For more information, refer to the [detailed documentation](../experience-decisioning/exd-ranking-formulas.md)
+
+  ![](assets/do-not-localize/formula-builder.gif)-->
 
 * Activación de **píldoras para personalización** - Fecha de disponibilidad: 5 de mayo de 2025
 
@@ -51,6 +43,10 @@ ht-degree: 69%
   >[!AVAILABILITY]
   >
   >Esta capacidad se implementará gradualmente en todos los entornos en los próximos 30 días.
+
+* **Nueva compatibilidad con objetos de campaña para la copia de zona protegida** <!-- - Availability date: -->
+
+  Al copiar campañas en varios entornos limitados mediante las funciones de exportación e importación de paquetes, ahora también se copian las siguientes dependencias: configuraciones de canal, variantes y configuración de experimento, políticas de decisión y elementos. [Más información](../configuration/copy-objects-to-sandbox.md)
 
 ## Notas de la versión de abril de 2025 {#25-4-rn}
 
@@ -314,7 +310,9 @@ Hay nuevas API disponibles para previsualizar campañas, además de las capacida
 
 **Libros de casos de uso**
 
-* **Creación y uso compartido de libros de reproducción (Beta)**: ahora puede crear, administrar y compartir sus propios libros de reproducción de casos de uso. Actualmente, todos los clientes tienen esta capacidad como una versión beta pública. [Más información](../start/playbooks.md)
+* **Creación y uso compartido de libros de reproducción (beta privada)**: ahora puede crear, administrar y compartir sus propios libros de reproducción de casos de uso. Actualmente, esta funcionalidad solo está disponible para un conjunto de organizaciones como una versión beta privada. Para obtener acceso, póngase en contacto con su representante de Adobe.
+
+todos los clientes como una versión beta pública. [Más información](../start/playbooks.md)
 
 **Navegación**
 
