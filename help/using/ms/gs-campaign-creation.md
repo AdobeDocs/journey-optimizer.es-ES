@@ -10,7 +10,7 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 26%
+ht-degree: 32%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
->title="Campaña organizada"
->abstract="En esta pantalla, puede acceder a la lista completa de campañas orquestadas, comprobar su estado actual, las fechas de última/siguiente ejecución y crear una nueva campaña orquestada."
+>title="Campaña orquestada"
+>abstract="En esta pantalla, puede acceder a la lista completa de campañas orquestadas, comprobar su estado actual, las fechas de la última/próxima ejecución y crear una nueva campaña orquestada."
 
 Puede crear campañas orquestadas en un lienzo visual para diseñar procesos multicanal como segmentación, ejecución de campañas o procesamiento de archivos.
 

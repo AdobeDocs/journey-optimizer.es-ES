@@ -10,7 +10,7 @@ exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 65%
+ht-degree: 77%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="Actividad AND-join"
->abstract="La actividad **And-join** le permite sincronizar varias ramas de ejecución de una campaña orquestada. Se activa una vez que han finalizado todas las actividades anteriores. Esto le permite asegurarse de que ciertas actividades han finalizado antes de continuar ejecutándose la campaña orquestada."
+>abstract="La actividad **And-join** le permite sincronizar varias ramas de ejecución de una campaña orquestada. Se activa una vez que hayan finalizado todas las actividades anteriores. Esto le permite asegurarse de que determinadas actividades se completen antes de continuar con la ejecución de la campaña orquestada."
 
 La actividad **Combinación-Y** es una actividad de **Control de flujo**. Permite sincronizar varias ramas de ejecución de una campaña orquestada.
 

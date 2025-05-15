@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '883'
 ht-degree: 12%
 
 ---
@@ -49,7 +49,7 @@ Para acceder a esta función, selecciona la pestaña **[!UICONTROL Simulación]*
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"
 >title="Añadir perfiles de prueba"
->abstract="Puede añadir un perfil de prueba seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Debe tener perfiles de prueba ya disponibles para poder utilizarlos en la simulación."
+>abstract="Puede añadir un perfil de prueba seleccionando un espacio de nombres de identidad y un valor de identidad correspondiente. Debe tener perfiles de prueba ya disponibles para poder utilizarlos en la simulación."
 
 En primer lugar, se deben seleccionar los perfiles de prueba que se van a utilizar para la simulación.
 

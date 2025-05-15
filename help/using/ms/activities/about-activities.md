@@ -10,11 +10,11 @@ exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 source-git-commit: b620d479548791df97912b143e7dbe7557ab4acc
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 27%
+ht-degree: 32%
 
 ---
 
-# Acerca de las actividades de campaña orquestadas {#ms-campaign-activities}
+# Acerca de las actividades de campaña organizadas {#ms-campaign-activities}
 
 Las actividades de campaña organizadas se agrupan en tres categorías. Dependiendo del contexto, las actividades disponibles pueden diferir.
 
@@ -49,7 +49,7 @@ Adobe Journey Optimizer le permite automatizar y ejecutar campañas de marketing
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Actividad Finalizar"
->abstract="La actividad **End** le permite marcar de forma gráfica el final de una campaña orquestada. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
+>abstract="La actividad **Finalizar** le permite marcar de forma gráfica el final de una campaña orquestada. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
 
 ![Lista de actividades de control de flujo](../assets/flow-control-activities.png){width="30%" align="left"}
 

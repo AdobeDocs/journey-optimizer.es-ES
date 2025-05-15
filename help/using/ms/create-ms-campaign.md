@@ -10,7 +10,7 @@ exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 2%
+ht-degree: 19%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
->title="Lista de campañas organizadas"
->abstract="La pestaña **multi-step** enumera todas las campañas orquestadas. Haga clic en el nombre de una campaña orquestada para editarla. Utilice el botón **Crear campaña orquestada** para agregar una nueva campaña orquestada."
+>title="Lista de campañas de orquestadas"
+>abstract="La pestaña de **varios pasos** enumera todas las campañas orquestadas. Haga clic en el nombre de una campaña orquestada para editarla. Utilice el botón **Crear campaña orquestada** para añadir una nueva campaña orquestada."
 
 ## Requisitos previos
 
@@ -48,19 +48,19 @@ Para crear una campaña orquestada, siga estos pasos:
 
 La campaña orquestada se habrá creado y estará disponible en la lista de flujos de trabajo. Ahora puede acceder a su lienzo visual y empezar a agregar, configurar y organizar las tareas que va a realizar. [Aprenda a organizar actividades de campañas orquestadas](orchestrate-activities.md).
 
-## Uso de plantillas de campaña orquestadas {#campaign-templates}
+## Uso de plantillas de campañas orquestadas {#campaign-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_for_campaign"
->title="Plantillas de campaña organizadas"
->abstract="Las plantillas de campaña orquestadas contienen configuraciones y actividades preconfiguradas que se pueden reutilizar para crear una nueva campaña orquestada."
+>title="Plantillas de campañas orquestadas"
+>abstract="Las plantillas de campañas orquestadas contienen ajustes y actividades preconfiguradas que se pueden reutilizar para crear nuevas campañas orquestadas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_creation_properties"
->title="Propiedades de campaña organizadas"
->abstract="Las plantillas de campaña orquestadas contienen configuraciones y actividades preconfiguradas que se pueden reutilizar para crear nuevas campañas orquestadas. En esta pantalla, introduzca la etiqueta de la plantilla de campaña orquestada y configure sus opciones, como el nombre interno, las carpetas de carpeta y ejecución, la zona horaria y el grupo del supervisor."
+>title="Propiedades de la campaña orquestada"
+>abstract="Las plantillas de campañas orquestadas contienen ajustes y actividades preconfiguradas que se pueden reutilizar para crear nuevas campañas orquestadas. En esta pantalla, introduzca la etiqueta de la plantilla de campaña orquestada y configure sus ajustes, como el nombre interno, la carpeta y las carpetas de ejecución, la zona horaria y el grupo de supervisores."
 
-Las plantillas de campaña orquestadas contienen configuraciones y actividades preconfiguradas que se pueden reutilizar para crear nuevas campañas orquestadas. Puede seleccionar la plantilla de la campaña orquestada desde las propiedades de la campaña orquestada al crear una campaña orquestada. De forma predeterminada, se proporciona una plantilla vacía.
+Las plantillas de campañas orquestadas contienen ajustes y actividades preconfiguradas que se pueden reutilizar para crear nuevas campañas orquestadas. Puede seleccionar la plantilla de la campaña orquestada desde las propiedades de la campaña orquestada al crear una campaña orquestada. De forma predeterminada, se proporciona una plantilla vacía.
 
 Puede crear una plantilla a partir de una campaña orquestada existente o crear una nueva plantilla desde cero. Ambos métodos se detallan a continuación.
 

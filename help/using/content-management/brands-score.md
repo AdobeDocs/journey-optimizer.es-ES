@@ -9,7 +9,7 @@ exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 source-git-commit: d5dd842d4fc906b454e1601ae850a12f457bcd7b
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 11%
+ht-degree: 24%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
->title="Puntuación de alineación de marca"
->abstract="La puntuación de alineación de marca mide en qué medida el contenido se adhiere a las directrices de la marca, lo que garantiza la coherencia en los colores, las fuentes, el logotipo, las imágenes y el estilo de escritura."
+>title="Puntuación de la alineación de marca"
+>abstract="La puntuación de la alineación de su marca mide el grado de cumplimiento de su contenido con las directrices de la marca, lo que garantiza la coherencia en los colores, las fuentes, el logotipo, las imágenes y el estilo de escritura."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"
@@ -37,7 +37,7 @@ ht-degree: 11%
 
 >[!AVAILABILITY]
 >
->Esta capacidad se presenta como una versión beta privada. Estará disponible de forma progresiva para todos los clientes en futuras versiones.
+>Esta funcionalidad se presenta como una versión Private Beta. Estará disponible de forma progresiva para todos los clientes en futuras versiones.
 >Debe aceptar el [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar el Asistente de IA en Adobe Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
 La función Alineación de marca se ha creado para ayudarle a crear, revisar y administrar contenido que se ajuste a las directrices de marca. Garantiza coherencia en el tono, la mensajería y la identidad visual en todas las campañas de correo electrónico, a la vez que sirve como una comprobación de calidad antes de que el contenido se publique.

@@ -11,14 +11,14 @@ keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 3da510cffe6fddc644c867fe8d89da9d9c5861d1
 workflow-type: tm+mt
-source-wordcount: '2195'
-ht-degree: 11%
+source-wordcount: '2194'
+ht-degree: 14%
 
 ---
 
 # Uso de una audiencia en un recorrido {#segment-trigger-activity}
 
-## Acerca de la actividad Leer audiencia {#about-segment-trigger-actvitiy}
+## Acerca de la actividad Leer público {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
@@ -29,7 +29,7 @@ Utilice la actividad **Leer audiencia** para hacer que todos los individuos de u
 
 Veamos como ejemplo la audiencia &quot;Cierre de compra y apertura de la aplicación Luma&quot; creada en el caso de uso [Crear audiencias](../audience/about-audiences.md). Con la actividad Leer audiencia, puede hacer que todas las personas que pertenecen a esta audiencia entren en un recorrido y se conviertan en recorridos individualizados que aprovecharán todas las funcionalidades del recorrido: condiciones, temporizadores, eventos y acciones.
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 ## Protecciones y prácticas recomendadas {#must-read}
 
@@ -43,7 +43,7 @@ Veamos como ejemplo la audiencia &quot;Cierre de compra y apertura de la aplicac
 
 * Como práctica recomendada, recomendamos que solo use audiencias por lotes en una actividad **Leer audiencia**. Esto proporciona un recuento fiable y coherente de las audiencias utilizadas en un recorrido. La audiencia de lectura está diseñada para casos de uso por lotes. Si su caso de uso necesita datos en tiempo real, utilice la actividad **[Calificación de audiencias](audience-qualification-events.md)**.
 
-* Las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) se pueden seleccionar en la actividad **Leer audiencia**. Estas audiencias no están disponibles en la actividad **Calificación de audiencias**.
+* Las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) se pueden seleccionar en la actividad **Leer audiencia**. Estas audiencias no están disponibles en la actividad **Calificación de audiencias**.
 
 Las protecciones relacionadas con la actividad **Leer audiencia** se enumeran en [esta página](../start/guardrails.md#read-segment-g).
 
@@ -63,7 +63,7 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes.
 
    >[!NOTE]
    >
-   >Además, también puede segmentar audiencias de Adobe Experience Platform creadas con [composiciones de audiencias](../audience/get-started-audience-orchestration.md) o [cargadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#import-audience){target="_blank"}.
+   >Además, también puede segmentar audiencias de Adobe Experience Platform creadas con [composiciones de audiencias](../audience/get-started-audience-orchestration.md) o [cargadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Tenga en cuenta que puede personalizar las columnas mostradas en la lista y ordenarlas.
 
@@ -77,7 +77,7 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes.
 
    >[!NOTE]
    >
-   >Solo las personas con el estado de participación en la audiencia **Realized** entrarán al recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Solo las personas con el estado de participación en la audiencia **Realized** entrarán al recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. En el campo **[!UICONTROL Espacio de nombres]**, elija el espacio de nombres que desea utilizar para identificar a los individuos. De forma predeterminada, el campo está rellenado previamente con el último área de nombres utilizado. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
 
@@ -110,7 +110,7 @@ Este valor se almacena en la carga útil de la versión de recorrido. El valor p
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Repetir cada"
->abstract="Defina una frecuencia de planificador recurrente."
+>abstract="Defina una frecuencia del panificador recurrente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -124,13 +124,13 @@ Este valor se almacena en la carga útil de la versión de recorrido. El valor p
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="Déclencheur tras la evaluación de audiencia por lotes"
->abstract="Active esta opción para almacenar en déclencheur la ejecución del recorrido después de una nueva evaluación de la audiencia por lotes."
+>title="Activar tras la evaluación de público por lotes"
+>abstract="Active esta opción para activar la ejecución del recorrido después de una nueva evaluación del público por lotes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="Tiempo de espera para una nueva evaluación de audiencia"
->abstract="Especifique el tiempo que el recorrido esperará a que la audiencia por lotes se evalúe recientemente. El período de espera está limitado a valores enteros, se puede especificar en minutos u horas y debe estar entre 1 y 6 horas."
+>title="Tiempo de espera para una nueva evaluación de público"
+>abstract="Especifique el tiempo que el recorrido esperará hasta que el público por lotes se evalúe de nuevo. El período de espera está limitado a valores enteros, se puede especificar en minutos u horas y debe estar entre 1 y 6 horas."
 
 De forma predeterminada, los recorridos están configurados para ejecutarse una vez. Para definir una fecha/hora y una frecuencia específicas en las que debe ejecutarse el recorrido, siga los pasos a continuación.
 
@@ -286,4 +286,4 @@ Los déclencheur de **Leer audiencia** que no se hayan realizado correctamente s
 
 Comprenda los casos de uso pertinentes para un recorrido que se desencadena por la actividad de lectura del público. Obtenga información sobre cómo crear recorridos basados en lotes y qué prácticas recomendadas aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430360?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

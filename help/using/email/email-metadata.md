@@ -12,7 +12,7 @@ exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 22%
+ht-degree: 26%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Definir un encabezado previo"
+>title="Definir un preencabezado"
 >abstract="Un preencabezado es un breve texto de resumen que sigue a la línea del asunto cuando se visualiza un correo electrónico desde su cliente de correo electrónico. En muchos casos, proporciona un breve resumen del correo electrónico y suele contener una frase."
 
 Al diseñar los correos electrónicos, para mejorar la legibilidad y la accesibilidad, puede definir metaatributos adicionales para el contenido. El [!DNL Journey Optimizer] [Designer de correo electrónico](get-started-email-design.md) le permite especificar los siguientes elementos:

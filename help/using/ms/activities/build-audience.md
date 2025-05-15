@@ -10,7 +10,7 @@ exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 34%
+ht-degree: 52%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Actividad generar público"
->abstract="La actividad **Generar audiencia** le permite definir la audiencia que entrará en la campaña orquestada. Cuando se envían mensajes en el contexto de una campaña orquestada, la audiencia del mensaje no se define en la actividad del canal, sino en la actividad **Generar audiencia**."
+>abstract="La actividad **Crear público** le permite definir el público que participará en la campaña orquestada. Cuando se envían mensajes en el contexto de una campaña orquestada, el público del mensaje no se define en la actividad del canal, sino en la actividad **Crear publico**."
 
 Como especialista en marketing, puede crear fácilmente consultas complejas mediante una interfaz fácil de usar, lo que me permite segmentar la audiencia en función de una amplia gama de criterios y comportamientos para adaptar las campañas de forma más eficaz.
 
-Para ello, use la actividad de segmentación **Generar audiencia**. Esta actividad le permite definir la audiencia que entra en la campaña orquestada. Cuando se envían mensajes en el contexto de una campaña orquestada, la audiencia del mensaje no se define en la actividad del canal, sino en la actividad **Generar audiencia**.
+Para ello, use la actividad de segmentación **Generar audiencia**. Esta actividad le permite definir la audiencia que entra en la campaña orquestada. Cuando se envían mensajes en el contexto de una campaña orquestada, el público del mensaje no se define en la actividad del canal, sino en la actividad **Crear publico**.
 
 Para definir la población del público destinatario, puede hacer lo siguiente:
 

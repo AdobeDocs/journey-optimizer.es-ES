@@ -44,12 +44,12 @@ Comience a crear su campaña orquestada con las actividades relevantes:
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
->title="Actividad push de iOS"
+>title="Actividad Push de iOS"
 >abstract="La actividad Push de iOS le permite enviar notificaciones push de iOS como parte de una campaña de varios pasos. Permite el envío de campañas de varios pasos recurrentes y únicas, lo que automatiza el envío de notificaciones push de iOS a un destino predefinido dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
->title="Actividad de mensajería push de Android"
+>title="Actividad de mensajería Push de Android"
 >abstract="La actividad Push de Android le permite enviar notificaciones push a Android como parte de una campaña de varios pasos. Permite enviar mensajes tanto únicos como recurrentes, lo que automatiza el envío de notificaciones push de Android a un destino predefinido dentro de la misma campaña de varios pasos. Puede combinar actividades de canal en el lienzo de la campaña de varios pasos para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 >[!CONTEXTUALHELP]

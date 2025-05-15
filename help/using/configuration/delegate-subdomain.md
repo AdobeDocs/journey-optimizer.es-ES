@@ -11,7 +11,7 @@ keywords: subdominio, delegación, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 229f335f4a5880bd310fe2d522ab6b3d3160d72b
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2008'
 ht-degree: 21%
 
 ---
@@ -108,7 +108,7 @@ Para delegar completamente un nuevo subdominio a Adobe, siga los pasos a continu
 Una vez delegado un subdominio a Adobe en [!DNL Journey Optimizer], se crea automáticamente un registro PTR y se asocia a este subdominio. [Más información](ptr-records.md)
 
 
-## Configuración de un subdominio con CNAME {#cname-subdomain-delegation}
+## Configurar un subdominio con CNAME {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -128,7 +128,7 @@ La configuración del subdominio CNAME le permite crear un subdominio y utilizar
 >
 >Se recomienda el método CNAME si las políticas de su organización restringen el método de delegación de subdominios completo. Este enfoque requiere que mantenga y administre los registros DNS por su cuenta. Adobe no podrá ayudarle a cambiar, mantener o administrar DNS para un subdominio configurado mediante el método CNAME.
 
-➡️ [Aprenda a crear un subdominio con CNAME para que apunte a registros específicos de Adobe en este vídeo](#video)
+➡️ [Aprenda a crear un subdominio mediante CNAME para que apunte a registros específicos de Adobe en este vídeo](#video)
 
 Para configurar un subdominio mediante CNAME, siga los pasos a continuación:
 

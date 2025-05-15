@@ -11,11 +11,11 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '1463'
-ht-degree: 16%
+ht-degree: 23%
 
 ---
 
-# Cree y administre sus marcas {#brands}
+# Creación y administración de sus marcas {#brands}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"
@@ -34,7 +34,7 @@ ht-degree: 16%
 
 >[!AVAILABILITY]
 >
->Esta capacidad se presenta como una versión beta privada. Estará disponible de forma progresiva para todos los clientes en futuras versiones.
+>Esta funcionalidad se presenta como una versión Private Beta. Estará disponible de forma progresiva para todos los clientes en futuras versiones.
 >Debe aceptar el [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar el Asistente de IA en Adobe Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
 Las directrices de marca son un conjunto detallado de reglas y estándares que establecen la identidad visual y verbal de una marca. Actúan como referencia para mantener una representación de marca coherente en todas las plataformas de marketing y comunicación.
@@ -69,7 +69,7 @@ Para acceder al menú de **[!UICONTROL Marcas]** en [!DNL Adobe Journey Optimize
 
 +++
 
-## Cree y gestione su marca {#create-brand-kit}
+## Creación y administración de la marca {#create-brand-kit}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
@@ -183,7 +183,7 @@ Ahora puedes personalizar aún más tu marca o [publicar tu marca](#create-brand
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
->title="Escribiendo puntuación de alineación de estilo"
+>title="Puntuación del estilo de escritura"
 >abstract="La sección Estilo de escritura define los estándares de lenguaje, formato y estructura para garantizar un contenido claro y coherente. La puntuación de alineación, clasificada de alta a baja, muestra en qué medida el contenido sigue estas directrices y resalta las áreas de mejora."
 
 La sección **[!UICONTROL Estilo de escritura]** describe los estándares para escribir contenido, y detalla cómo se debe usar el idioma, el formato y la estructura para mantener la claridad, la coherencia y la consistencia en todos los materiales.
@@ -290,7 +290,7 @@ Ahora puedes personalizar aún más tu marca o [publicar tu marca](#create-brand
 >[!CONTEXTUALHELP]
 >id="ajo_brand_imagery"
 >title="Puntuación de alineación del contenido visual"
->abstract="La puntuación de alineación de contenido visual indica la adecuación del contenido a las directrices de marca configuradas. Puntuado de alto a bajo, le ayuda a evaluar la alineación de un vistazo. Explore las diferentes categorías para identificar áreas de mejora y localizar elementos que puedan estar fuera de la marca."
+>abstract="La puntuación de alineación de contenido visual indica la adecuación del contenido a las directrices de marca configuradas. Puntuado de alto a bajo, le ayuda a evaluar la alineación de un vistazo. Explore las diferentes categorías para identificar las áreas de mejora y localizar elementos que puedan estar fuera de la marca."
 
 La sección **[!UICONTROL Contenido visual]** define los estándares para imágenes y diseño, detallando las especificaciones necesarias para mantener un aspecto de marca unificado y coherente.
 

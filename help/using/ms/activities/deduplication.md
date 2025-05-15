@@ -18,7 +18,7 @@ ht-degree: 57%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_deduplication_fields"
->title="Campos para identificar los duplicados"
+>title="Campos para identificar duplicados"
 >abstract="En la sección **Campos para identificar duplicados**, haga clic en el botón **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán en primer lugar."
 
 >[!CONTEXTUALHELP]

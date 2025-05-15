@@ -10,7 +10,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '999'
-ht-degree: 79%
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,7 @@ La actividad **División** es una actividad **Segmentación** que permite segmen
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="Segmentos para la actividad división"
->abstract="Añada todos los subconjuntos que quiera para segmentar la población entrante.<br/></br>Cuando se ejecuta la actividad **División**, la población se segmenta en los diferentes subconjuntos en el orden en el que se añaden a la actividad. Antes de iniciar la campaña orquestada, asegúrese de haber ordenado los subconjuntos en el orden que se adapte a sus necesidades mediante los botones de flecha."
+>abstract="Añada todos los subconjuntos que quiera para segmentar la población entrante.<br/></br>Cuando se ejecuta la actividad **División**, la población se segmenta en los diferentes subconjuntos en el orden en el que se añaden a la actividad. Antes de iniciar la campaña orquestada, asegúrese de haber ordenado los subconjuntos en el orden que mejor se adapte a sus necesidades mediante los botones de flecha."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
@@ -75,7 +75,7 @@ Siga estos pasos para configurar la actividad **División**:
 
    >[!IMPORTANT]
    >
-   >Cuando se ejecuta la actividad **Split**, la población se segmenta en los diferentes subconjuntos en el orden en que se agregan a la actividad. Por ejemplo, si el primer subconjunto recupera el 70 % de la población inicial, el siguiente subconjunto añadido aplicará sus criterios de selección solo al 30 % restante, y así sucesivamente.
+   >Cuando se ejecuta la actividad **División**, la población se segmenta en los diferentes subconjuntos en el orden en el que se añaden a la actividad. Por ejemplo, si el primer subconjunto recupera el 70 % de la población inicial, el siguiente subconjunto añadido aplicará sus criterios de selección solo al 30 % restante, y así sucesivamente.
    >
    >Antes de iniciar la campaña orquestada, asegúrese de haber encargado los subconjuntos en el orden que se adapte a sus necesidades. Para ello, utilice los botones de flecha para cambiar la posición de un subconjunto.
 

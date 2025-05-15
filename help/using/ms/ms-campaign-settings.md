@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuración de la campaña orquestada
+title: Configuración de los ajustes de la campaña orquestada
 description: Obtenga información sobre cómo configurar ajustes de campañas orquestadas con Adobe Journey Optimizer
 badge: label="Alpha"
 hide: true
@@ -10,16 +10,16 @@ exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
 source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
 source-wordcount: '1040'
-ht-degree: 8%
+ht-degree: 28%
 
 ---
 
-# Configuración de la campaña orquestada {#workflow-settings}
+# Configuración de los ajustes de la campaña orquestada {#workflow-settings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_creation_properties"
->title="Propiedades de campaña organizadas"
->abstract="En esta pantalla, elija la plantilla que desea utilizar para crear la campaña orquestada y especifique una etiqueta. Expanda la sección **Opciones adicionales** para configurar más opciones, como el nombre interno de la campaña orquestada, su carpeta, zona horaria y grupo de supervisor. Se recomienda muy especialmente seleccionar un grupo de supervisores para que los operadores sean advertidos si se produce un error."
+>title="Propiedades de la campaña orquestada"
+>abstract="En esta pantalla, elija la plantilla que desea utilizar para crear la campaña orquestada y especifique una etiqueta. Expanda la sección **Opciones adicionales** para configurar más ajustes, como el nombre interno de la campaña de varios pasos, su carpeta, zona horaria y grupo de supervisores. Se recomienda muy especialmente seleccionar un grupo de supervisores para que los operadores sean advertidos si se produce un error."
 
 Al crear una campaña orquestada u organizar actividades de campaña orquestadas en el lienzo, puede acceder a la configuración avanzada relacionada con la campaña orquestada. Por ejemplo, puede establecer una zona horaria específica para la campaña orquestada, administrar cómo debe comportarse la campaña orquestada en caso de error o administrar el retraso después del cual debe purgarse el historial de campañas orquestadas.
 
@@ -27,12 +27,12 @@ Estos ajustes están preconfigurados en la plantilla seleccionada al crear la ca
 
 ![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
-## Propiedades de campaña organizadas {#properties}
+## Propiedades de la campaña orquestada {#properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_properties"
->title="Propiedades de campaña organizadas"
->abstract="Esta sección proporciona propiedades de campaña orquestadas genéricas a las que también se puede acceder al crear la campaña orquestada. Puede elegir la plantilla que desea utilizar para crear la campaña orquestada y especificar una etiqueta. Expanda la sección Opciones adicionales para configurar opciones específicas, como la carpeta de almacenamiento o la zona horaria de la campaña organizada."
+>title="Propiedades de la campaña orquestada"
+>abstract="En esta sección se proporcionan propiedades genéricas de la campaña orquestada que son accesibles cuando se crea la campaña orquestada. Puede elegir la plantilla que desea utilizar para crear la campaña orquestada y especificar una etiqueta. Expanda la sección Opciones adicionales para configurar ajustes específicos, como la carpeta de almacenamiento de la campaña orquestada o la zona horaria."
 
 La sección **[!UICONTROL Properties]** proporciona una configuración genérica que se puede configurar al crear una campaña orquestada. Para acceder a las propiedades de una campaña orquestada existente, haga clic en el botón **[!UICONTROL Configuración]** disponible en la barra de acciones situada encima del lienzo de la campaña orquestada.
 
@@ -59,7 +59,7 @@ Los valores posibles son:
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_segmentation"
 >title="Configuración de la segmentación"
->abstract="En esta sección, puede seleccionar la dimensión objetivo para los perfiles objetivo en la campaña orquestada y elegir mantener los resultados del flujo de trabajo entre dos ejecuciones. Esta opción solo debe utilizarse con fines de prueba y nunca debe habilitarse en una campaña orquestada de producción."
+>abstract="En esta sección, puede seleccionar la dimensión de segmentación para segmentar los perfiles de la campaña orquestada y elegir mantener los resultados del flujo de trabajo entre dos ejecuciones. Esta opción solo debe utilizarse parar realizar pruebas y nunca debe habilitarse en una campaña orquestada de producción."
 
 * **[!UICONTROL Dimensión de segmentación]**: Seleccione la dimensión de segmentación que se utilizará para segmentar los perfiles: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc.
 
@@ -72,7 +72,7 @@ Los valores posibles son:
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_execution"
 >title="Configuración de ejecución"
->abstract="En esta sección, puede configurar las opciones relacionadas con la ejecución del flujo de trabajo, como el número de días que se mantiene el historial de campañas orquestadas."
+>abstract="En esta sección, puede configurar las opciones relacionadas con la ejecución del flujo de trabajo, como el número de días que se mantiene el historial de la campaña orquestada."
 
 * **[!UICONTROL Historial en días]**: especifica el número de días después de los cuales se debe purgar el historial. El historial contiene elementos relacionados con la campaña orquestada: registros, tareas, eventos (objetos técnicos vinculados a la operación de campaña orquestada). El valor predeterminado es de 30 días para las plantillas de campaña orquestadas listas para usar. La depuración del historial la realiza la campaña técnica orquestada Database cleanup, que se ejecuta de forma predeterminada todos los días
 
@@ -94,7 +94,7 @@ Los valores posibles son:
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_error"
 >title="Configuración de la administración de errores"
->abstract="En esta sección, puede definir cómo la campaña orquestada debe administrar los errores durante su ejecución. Puede optar por pausar el proceso, ignorar un determinado número de errores o detener la ejecución de la campaña orquestada."
+>abstract="En esta sección, puede definir cómo la campaña orquestada debe administrar los errores durante su ejecución. Puede optar por poner en pausa el proceso, ignorar un determinado número de errores o detener la ejecución de la campaña orquestada."
 
 * **[!UICONTROL Administración de errores]**: Este campo permite definir las acciones que deben realizarse si una tarea de campaña orquestada tiene errores. Hay tres opciones posibles:
 

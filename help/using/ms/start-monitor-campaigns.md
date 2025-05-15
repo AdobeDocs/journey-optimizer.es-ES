@@ -9,11 +9,11 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 9%
+ht-degree: 14%
 
 ---
 
-# Programación e inicio de campañas orquestadas {#start-monitor}
+# Planificación e inicio de las campañas orquestadas {#start-monitor}
 
 
 
@@ -29,7 +29,7 @@ Una vez que haya creado las tareas orquestadas y diseñadas para realizarlas en 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Actividad planificador"
->abstract="El **Programador** de la campaña le permite programar cuándo se inicia la campaña orquestada. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como la primera actividad de la campaña orquestada."
+>abstract="La campaña **Planificador** le permite programar cuándo se inicia una campaña orquestada. Esta actividad debe considerarse como un inicio programado. Solo se puede utilizar como la primera actividad de la campaña orquestada."
 
 Como administrador de campañas, puede programar campañas para que se inicien automáticamente en momentos específicos, lo que permite un tiempo preciso y datos de segmentación precisos para las comunicaciones de marketing.
 
@@ -39,7 +39,7 @@ Como administrador de campañas, puede programar campañas para que se inicien a
 * Si desea enviar un mensaje de una sola vez en la campaña orquestada, puede configurarlo para que se ejecute **Una vez**.
 * Si desea enviar un mensaje recurrente en la campaña orquestada, debe utilizar una opción **Scheduling** y establecer la frecuencia de ejecución. La actividad de entrega recurrente no permite definir una programación.
 
-### Configuración de la programación de campañas {#scheduler-configuration}
+### Configuración de la programación de la campaña {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
