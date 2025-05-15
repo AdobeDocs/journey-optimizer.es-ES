@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
+source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '499'
 ht-degree: 69%
 
 ---
@@ -51,14 +51,14 @@ Para implementar su caso de uso, puede navegar a cada objeto para adaptarlo a su
 
 Además, puede importar los recursos de los manuales de tácticas a otras zonas protegidas. Esto le permite alinear los recursos generados con los existentes y asegurarse de que sean compatibles con los datos, en caso de que ya haya configurado sus propios esquemas, campos y grupos de campos. Estos pasos se detallan en la documentación de libros de reproducción de casos de uso: [Publicar recursos generados por libros de reproducción en otras zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=es){target="_blank"}.
 
-## Crear sus propios libros de reproducción (Beta) {#create}
+## Cree sus propios libros de reproducción (beta privada) {#create}
 
 >[!AVAILABILITY]
 >
->La creación de manuales de casos de uso está disponible actualmente para todos los clientes como una versión beta pública.
+>En la actualidad, la creación de libros de reproducción de casos de uso solo está disponible para un conjunto de organizaciones como una versión beta privada. Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 Además de aprovechar los libros de reproducción predefinidos, puede crear y compartir sus propios libros de reproducción en Adobe Experience Platform.
 
 Puede definir metadatos mediante la asistencia de IA o entradas manuales, asociar activos técnicos como esquemas, segmentos y compartir libros de reproducción entre diferentes organizaciones de IMS.
 
-Para obtener más información sobre cómo crear y compartir libros de reproducción, consulte la documentación de libros de reproducción de casos de uso: [Cree y comparta sus propios libros de reproducción con el Asistente para IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=es#sharing-playbooks-sandboxes){target="_blank"}.
+Para obtener más información sobre cómo crear y compartir libros de reproducción, consulte la documentación de libros de reproducción de casos de uso: [Cree y comparta sus propios libros de reproducción con el Asistente para IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}.
