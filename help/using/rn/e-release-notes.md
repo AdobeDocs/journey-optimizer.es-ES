@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f22c2cd744cb9016f48a5df46c0c903ccce617d
+source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 25%
+source-wordcount: '1554'
+ht-degree: 23%
 
 ---
 
@@ -229,6 +229,24 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 </table>
 
 
+<table>
+<thead>
+<tr>
+<th><strong>ID suplementario para recorridos activados por eventos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede almacenar en déclencheur los recorridos utilizando un ID de perfil junto con otro identificador, como un ID de pedido, un ID de suscripción o un ID de prescripción, lo que permite que el mismo perfil esté en el mismo recorrido varias veces a la vez. Esto permite situaciones como administrar varios pedidos o suscripciones en paralelo, y cada instancia sigue su propia ruta a través del recorrido.</p>
+<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
 ### Mejoras {#25-05-improv}
 
 Las mejoras incluidas en esta versión se enumeran a continuación.
@@ -250,12 +268,11 @@ Para administrar fácilmente las páginas de aterrizaje, ahora puede utilizar ca
 * **Toma de decisiones - Aprovechar conjuntos de datos de Adobe Experience Platform**\
   Journey Optimizer ahora le permite aprovechar los conjuntos de datos de Adobe Experience Platform en los siguientes objetos de Decisioning: reglas de idoneidad, fórmulas de clasificación y reglas de límite.
 
-* **Carpetas en plantillas y fragmentos (disponibilidad general)**\
-  Las carpetas, que antes solo estaban disponibles para un conjunto de organizaciones (LA), ahora lo están para que todos los usuarios (GA) administren sus plantillas y fragmentos de contenido. Las carpetas permiten organizar las plantillas y los fragmentos de contenido de forma más fácil y eficaz en una jerarquía estructurada.
+* **Carpetas en plantillas y fragmentos**\
+  Las carpetas permiten organizar las plantillas y los fragmentos de contenido de forma más fácil y eficaz en una jerarquía estructurada. Antes disponibles para un conjunto de organizaciones (LA), las carpetas ya están disponibles para todos los usuarios (GA) para administrar sus plantillas de contenido y fragmentos.
 
 * **Nueva compatibilidad con objetos de campaña para la copia de zona protegida** <!-- - Availability date: -->
-
-  Al copiar campañas en varios entornos limitados mediante las funciones de exportación e importación de paquetes, ahora también se copian las siguientes dependencias: configuraciones de canal, variantes y configuración de experimento, políticas de decisión y elementos. [Más información](../configuration/copy-objects-to-sandbox.md)
+Al copiar campañas en varios entornos limitados mediante las funciones de exportación e importación de paquetes, ahora también se copian las siguientes dependencias: configuraciones de canal, variantes y configuración de experimento, políticas de decisión y elementos. [Más información](../configuration/copy-objects-to-sandbox.md)
 
 * Compatibilidad con **&#39;Redireccionar a dirección URL&#39; en el canal Web**\
   El canal Web de Journey Optimizer ahora permite redirigir a los visitantes a otra URL existente, en lugar de crear una nueva variación en el editor visual. Esta capacidad se puede utilizar para ejecutar experimentos comparando dos páginas completamente diferentes en lugar de cambiar solo unos pocos elementos dentro de una página.
@@ -272,11 +289,12 @@ Para administrar fácilmente las páginas de aterrizaje, ahora puede utilizar ca
 * **Compatibilidad con atributos de elementos de decisión para reglas de toma de decisiones**\
   Ahora puede aprovechar los atributos de elementos de decisión para crear reglas de toma de decisiones.
 
-* **Nueva Entrada De Recorrido Múltiple**\
-  Ahora puede almacenar en déclencheur los recorridos utilizando un ID de perfil junto con otro identificador, como un ID de pedido, un ID de suscripción o un ID de prescripción, lo que permite que el mismo perfil esté en el mismo recorrido varias veces a la vez. Esto permite situaciones como administrar varios pedidos o suscripciones en paralelo, y cada instancia sigue su propia ruta a través del recorrido.
 
 * **Subdominios - método &#39;Sin delegación&#39;**\
   Además de la delegación completa y del método CNAME, ahora hay disponible un nuevo método de configuración de subdominios: el método de delegación No, que le permite ser el propietario total del control y el mantenimiento de todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes.
 
 * **Compatibilidad con orígenes de datos personalizados en Personalization**\
   Ahora puede crear una consulta y obtener datos de una fuente externa (es decir, no almacenada en Adobe Experience Platform) para utilizarlos en las superficies entrantes y salientes de Journey Optimizer para la personalización y la orquestación de recorrido.
+
+* **Correo directo - Soporte SSH**\
+  Además del SFTP existente con tipo de autenticación por contraseña, ahora puede exportar el archivo de correo postal a un servidor SFTP con autenticación por clave SSH.
