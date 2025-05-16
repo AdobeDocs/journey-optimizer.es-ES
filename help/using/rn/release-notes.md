@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d7ac73800a793fa5fec5d402e15e4f84db084f89
+source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 65%
+source-wordcount: '1157'
+ht-degree: 68%
 
 ---
 
@@ -52,9 +52,15 @@ ht-degree: 65%
   >
   >Esta capacidad se implementará gradualmente en todos los entornos en los próximos 30 días.
 
-* **Nueva compatibilidad con objetos de campaña para la copia de zona protegida**. Fecha de disponibilidad: 15 de mayo de 2025
+* **Compatibilidad con nuevos objetos para la copia de zona protegida**
 
-  Al copiar campañas en varios entornos limitados mediante las funciones de exportación e importación de paquetes, ahora también se copian las siguientes dependencias: configuraciones de canal, variantes y configuración de experimento, políticas de decisión y elementos. [Más información](../configuration/copy-objects-to-sandbox.md)
+   * **Campañas** - Fecha de disponibilidad: 15 de mayo de 2025
+
+     Al copiar campañas en varios entornos limitados mediante las funciones de exportación e importación de paquetes, ahora también se copian las siguientes dependencias: configuraciones de canal, variantes y configuración de experimento, políticas de decisión y elementos. [Más información](../configuration/copy-objects-to-sandbox.md)
+
+   * **Decisión** - Fecha de disponibilidad: 16 de mayo de 2025
+
+     Ahora, los objetos de decisión se pueden copiar entre entornos limitados, lo que optimiza los flujos de trabajo de prueba e implementación. [Más información](../configuration/copy-objects-to-sandbox.md#decisioning)
 
 ## Notas de la versión de abril de 2025 {#25-4-rn}
 
@@ -248,7 +254,7 @@ A continuación, se enumeran las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>La función de puntuación de alineación de marca proporciona comentarios claros directamente en el diseñador de correo electrónico, lo que le ayuda a ver si el contenido se ajusta al tono, el estilo y las directrices de la marca. Esta función está disponible en Beta.</p>
+<p>La función de puntuación de alineación con la marca proporciona comentarios claros directamente en el diseñador de correo electrónico, lo que le ayuda a ver si el contenido se ajusta al tono, el estilo y las directrices de la marca. Esta función está disponible en Beta.</p>
 <p>Para obtener más información, consulte la <a href="../content-management/brands-score.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -283,10 +289,6 @@ A continuación, se enumeran las nuevas funciones incluidas en esta versión.
 Hay nuevas API disponibles para previsualizar campañas, además de las capacidades de envío de pruebas existentes. [Más información](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}.
 
 **Herramientas de la zona protegida**
-
-<!--- **Decisioning sandbox copy**
-
-  Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
 * **Herramientas de la zona protegida para acciones personalizadas**
 
