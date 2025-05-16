@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
+source-git-commit: 7347adf8b40942408042c8b09572beed67425899
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 23%
+source-wordcount: '1485'
+ht-degree: 24%
 
 ---
 
@@ -216,22 +216,6 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Decisiones de contenido en recorridos</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede agregar ofertas a sus recorridos a través de una acción de toma de decisiones específica en el lienzo de recorrido y utilizarlas en sus acciones personalizadas.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
 <th><strong>ID suplementario para recorridos activados por eventos</strong><br/></th>
 </tr>
 </thead>
@@ -290,8 +274,8 @@ Al copiar campañas en varios entornos limitados mediante las funciones de expor
   Ahora puede aprovechar los atributos de elementos de decisión para crear reglas de toma de decisiones.
 
 
-* **Subdominios - método &#39;Sin delegación&#39;**\
-  Además de la delegación completa y del método CNAME, ahora hay disponible un nuevo método de configuración de subdominios: el método de delegación No, que le permite ser el propietario total del control y el mantenimiento de todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes.
+* **Subdominios - método de &#39;delegación personalizada&#39;**\
+  Además de la delegación completa y del método CNAME, ahora hay disponible un nuevo método de configuración de subdominios: el método de delegación personalizado, que le permite ser el propietario total del control y el mantenimiento de todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes.
 
 * **Correo directo - Soporte SSH**\
   Además del SFTP existente con tipo de autenticación por contraseña, ahora puede exportar el archivo de correo postal a un servidor SFTP con autenticación por clave SSH.
