@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
+source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1513'
 ht-degree: 23%
 
 ---
@@ -292,9 +292,6 @@ Al copiar campañas en varios entornos limitados mediante las funciones de expor
 
 * **Subdominios - método &#39;Sin delegación&#39;**\
   Además de la delegación completa y del método CNAME, ahora hay disponible un nuevo método de configuración de subdominios: el método de delegación No, que le permite ser el propietario total del control y el mantenimiento de todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes.
-
-* **Compatibilidad con orígenes de datos personalizados en Personalization**\
-  Ahora puede crear una consulta y obtener datos de una fuente externa (es decir, no almacenada en Adobe Experience Platform) para utilizarlos en las superficies entrantes y salientes de Journey Optimizer para la personalización y la orquestación de recorrido.
 
 * **Correo directo - Soporte SSH**\
   Además del SFTP existente con tipo de autenticación por contraseña, ahora puede exportar el archivo de correo postal a un servidor SFTP con autenticación por clave SSH.
