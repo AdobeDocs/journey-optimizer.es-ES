@@ -1,22 +1,22 @@
 ---
 title: Configuración de correo directo
-description: Obtenga información sobre cómo configurar correo directo canal en Journey Optimizer
+description: Obtenga información sobre cómo configurar el canal de correo postal en Journey Optimizer
 feature: Direct Mail, Surface
 topic: Content Management
 role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
+source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1365'
 ht-degree: 22%
 
 ---
 
 # Configuración de correo directo {#direct-mail-configuration}
 
-[!DNL Journey Optimizer] Le permite personalizar y generar los archivos requeridos por los proveedores de correo directo para enviar correo a sus clientes.
+[!DNL Journey Optimizer] le permite personalizar y generar los archivos necesarios para que los proveedores de correo postal envíen correo a sus clientes.
 
 Al [crear un mensaje de correo postal](../direct-mail/create-direct-mail.md), usted define los datos de la audiencia de destino, incluida la información de contacto elegida (por ejemplo, la dirección postal). A continuación, se genera y exporta automáticamente un archivo que contiene estos datos a un servidor, donde su proveedor de correo postal podrá recuperarlo y encargarse del envío real.
 
@@ -91,11 +91,11 @@ Si seleccionó **[!UICONTROL Amazon S3]** como **[!UICONTROL tipo de servidor]**
 
 * **Nombre del contenedor de AWS**:Para saber dónde encontrar el nombre del contenedor de AWS, consulte [esta página](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-* **Clave** de acceso de AWS: para saber dónde encontrar su ID de clave de acceso de AWS, consulte [este Página](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
+* **Clave de acceso de AWS**: Para saber dónde encontrar la clave de acceso de AWS, consulte [esta página](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-* **Clave** secreta de AWS: para saber dónde encontrar su clave secreta de AWS, consulte [este Página](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+* **clave secreta de AWS**: para saber dónde encontrar la clave secreta de AWS, consulte [esta página](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
-* **AWS área geográfica**: elija la área geográfica **de** AWS donde se ubicará la infraestructura del servidor. Las regiones de AWS son áreas geográficas que AWS utiliza para host sus infraestructuras nube. Como práctica general, se prefiere elegir la área geográfica que esté más cerca de usted correo directo ubicación del proveedor.
+* **Región de AWS**: elija la **[!UICONTROL Región de AWS]** donde se ubicará la infraestructura del servidor. Las regiones de AWS son áreas geográficas que AWS utiliza para alojar su infraestructura en la nube. Como práctica general, se prefiere elegir la región más cercana a la ubicación de su proveedor de correo postal.
 
 ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
@@ -103,13 +103,15 @@ Si seleccionó **[!UICONTROL Amazon S3]** como **[!UICONTROL tipo de servidor]**
 
 Si seleccionó **[!UICONTROL SFTP]** como **[!UICONTROL tipo de servidor]**, indique los detalles y las credenciales de su servidor:
 
-* **Cuenta**: Nombre de cuenta utilizado para conectarse al servidor SFTP.
+* **[!UICONTROL Tipo de autenticación]**: seleccione el tipo de autenticación utilizada para conectarse al servidor (contraseña o clave SSH).
 
-* **Dirección del servidor**: &#x200B;URL del servidor SFTP.
+* **[!UICONTROL Cuenta]**: Nombre de cuenta utilizado para conectarse al servidor SFTP.
 
-* **Puerto**: número de puerto de conexión FTP.
+* **[!UICONTROL Dirección del servidor]**: &#x200B;URL del servidor SFTP.
 
-* **Contraseña**:&#x200B; Contraseña utilizada para conectarse al servidor SFTP.
+* **[!UICONTROL Puerto]**: número de puerto de conexión SFTP.
+
+* **[!UICONTROL Contraseña]** / **[!UICONTROL Clave SSH]**:&#x200B; Contraseña o clave SSH utilizada para conectarse al servidor SFTP.
 
 ![](assets/file-routing-config-sftp-detail.png)
 
@@ -129,29 +131,29 @@ Si seleccionó **[!UICONTROL Azure]** como el **[!UICONTROL tipo de servidor]**,
 
 * **Nombre de contenedor**: Para encontrar su **Nombre de contenedor**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
 
-  El **nombre** del contenedor debe contener únicamente el nombre del contenedor sin ninguna barra oblicua.
+  **Nombre de contenedor** debe contener solamente el nombre del contenedor sin barras oblicuas.
 
   >[!NOTE]
   >
-  >Para especificar una ruta dentro del contenedor para guardar el archivo, actualice el campo Nombre de archivo del **&#x200B;**&#x200B;correo directo del campaña para incluir la ruta deseada. [Más información](create-direct-mail.md#extraction-file)
+  >Para especificar una ruta de acceso dentro del contenedor para guardar el archivo, actualice el campo **[!UICONTROL Nombre de archivo]** de la campaña de correo postal para incluir la ruta de acceso deseada. [Más información](create-direct-mail.md#extraction-file)
 
   ![](assets/file-routing-config-azure-detail.png)
 
 >[!TAB Zona de aterrizaje de datos]
 
-Si seleccionó **[!UICONTROL Zona de aterrizaje]** de datos como tipo de **[!UICONTROL Servidor]**, no se requieren detalles específicos.
+Si seleccionó **[!UICONTROL Zona de aterrizaje de datos]** como **[!UICONTROL tipo de servidor]**, no se requieren detalles específicos.
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información acerca de la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información acerca de la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
-Para cifrar el archivo, copie y pegue su clave de cifrado en el campo de clave **de** cifrado PGP/GPG.
+Para cifrar el archivo, copie y pegue la clave de cifrado en el campo **[!UICONTROL Clave de cifrado PGP/GPG]**.
 
-Una vez que haya completado los detalles de su tipo de servidor, seleccione **[!UICONTROL Enviar]**. El archivo enrutamiento configuración se crea con el **[!UICONTROL estado Activo]** . Ahora está listo para utilizarse en una [configuración](#direct-mail-surface) correo directo.
+Una vez que hayas completado los detalles del tipo de servidor, selecciona **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se creó con el estado **[!UICONTROL Activo]**. Ahora está listo para usarse en una [configuración de correo directo](#direct-mail-surface).
 
-También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear el archivo enrutamiento configuración, pero no podrá seleccionarlo en una configuración hasta que esté **[!UICONTROL activo]**.
+También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la configuración de enrutamiento de archivos, pero no podrá seleccionarla en una configuración hasta que esté **[!UICONTROL Activo]**.
 
 ## Crear una configuración de correo directo {#direct-mail-surface}
 
@@ -180,29 +182,29 @@ Una configuración de correo postal también debe incluir la configuración de e
 
    ![](assets/direct-mail-config-1.png)
 
-1. Introduzca un nombre y una descripción (opcional) para la configuración y, a continuación, seleccione la canal que desea configurar.
+1. Introduzca un nombre y una descripción (opcional) para la configuración y, a continuación, seleccione el canal que desea configurar.
 
    >[!NOTE]
    >
-   > Los nombres deben comenzar con una letra (A-Z). Sólo puede contener caracteres alfanuméricos numérica. También puede utilizar caracteres de guion bajo `_`, punto `.` y guion `-`.
+   > Los nombres deben comenzar por una letra (A-Z). Solo puede contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto `.` y guion `-`.
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Obtenga más información sobre el control de acceso a nivel de objetos (OLAC).](../administration/object-based-access.md)
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la configuración, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Obtenga más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
 1. Seleccione el canal **[!UICONTROL Correo directo]**.
 
    ![](assets/direct-mail-config-2.png)
 
-1. Seleccione **[!UICONTROL Acciones]** de marketing para asociar políticas de consentimiento a los mensajes que utilizan esta configuración. Todas las políticas de consentimiento asociadas con la acción marketing se aprovechan para respetar las preferencias de sus clientes. [Más información](../action/consent.md#surface-marketing-actions)
+1. Seleccione **[!UICONTROL Acciones de marketing]** para asociar directivas de consentimiento a los mensajes que usan esta configuración. Todas las políticas de consentimiento asociadas con la acción de marketing se aprovechan para respetar las preferencias de los clientes. [Más información](../action/consent.md#surface-marketing-actions)
 
-1. Defina los ajustes de correo directo en la sección dedicada de la configuración de canal.
+1. Defina la configuración de correo postal en la sección dedicada de la configuración de canal.
 
    ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
-1. Seleccione el archivo formato: **[!UICONTROL CSV]** o **[!UICONTROL delimitado por]** texto.
+1. Seleccione el formato de archivo: **[!UICONTROL CSV]** o **[!UICONTROL Delimitado por texto]**.
 
-1. Si selecciona **[!UICONTROL Delimitado por]** texto, defina el separador de columnas de su elección: tabulación, punto y coma, barra vertical o ampersand.
+1. Si selecciona **[!UICONTROL Delimitado por texto]**, defina el separador de columnas que desee: tabulación, punto y coma, barra vertical o signo ampersand.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
