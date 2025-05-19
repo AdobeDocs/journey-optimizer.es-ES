@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: volver a entrar, recorrido, finalizar, en directo, detener
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
+source-git-commit: e435a4bf9d284845f27021b3d36c555def749fbe
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Cómo termina un recorrido en directo
 
-Los recorridos se cierran cuando se alcanza el tiempo de espera de recorrido global o después de la última aparición de un recorrido recurrente basado en audiencias. [Descubra cómo se cierran los recorridos](#close-journey).
+Los recorridos se cierran cuando se alcanza el tiempo de espera de la recorrido global o después de la última aparición de un recorrido recurrente basado en audiencias. [Descubra cómo se cierran los recorridos](#close-journey).
 
 Si necesita finalizar un recorrido activo, le recomendamos que [lo cierre](#close-to-new-entrances) manualmente. La llegada de nuevos clientes al recorrido queda entonces bloqueada. Los perfiles que ya han introducido en el recorrido pueden experimentarlo hasta el final.
 
