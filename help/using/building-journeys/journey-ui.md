@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 27%
+source-wordcount: '922'
+ht-degree: 12%
 
 ---
 
@@ -43,6 +43,10 @@ En la sección de menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL
 * La ficha **[!UICONTROL Examinar]** muestra la lista de recorridos existentes. Puede buscar recorridos, utilizarlos y realizar acciones básicas en cada elemento. Por ejemplo, puede duplicar o eliminar un elemento.
 
   ![Tablero de recorrido que resalta la ficha Examinar](assets/journeys-browse.png)
+
+En la lista de recorridos, todas las versiones del recorrido se muestran con el número de versión. Cuando busca un recorrido, las versiones más recientes aparecen en la parte superior de la lista la primera vez que se abre la aplicación. A continuación, puede definir la clasificación que desee y la aplicación la mantendrá como preferencia del usuario. La versión del recorrido también se muestra en la parte superior de la interfaz de la edición de recorrido, encima del lienzo. Más información acerca de [administración de versiones de recorrido](publishing-the-journey.md#journey-versions-journey-versions).
+
+
 
 ## Filtrar sus recorridos {#journey-filter}
 
@@ -94,41 +98,6 @@ El estado del recorrido depende de su ciclo de vida. Puede ser:
 >
 >* Si necesita modificarlo a un recorrido **live**, [cree una nueva versión](#journey-versions) de su recorrido.
 
-
-## Versiones de recorridos {#journey-versions}
-
-En la lista de recorridos, todas las versiones del recorrido se muestran con el número de versión. Cuando busca un recorrido, las versiones más recientes aparecen en la parte superior de la lista la primera vez que se abre la aplicación. A continuación, puede definir la clasificación que desee y la aplicación la mantendrá como preferencia del usuario. La versión del recorrido también se muestra en la parte superior de la interfaz de la edición de recorrido, encima del lienzo.
-
-![](assets/journeyversions1.png)
-
->[!NOTE]
->
->Normalmente, un perfil no puede estar presente varias veces en el mismo recorrido y al mismo tiempo. Si la reentrada está activada, un perfil puede volver a entrar en un recorrido, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido. [Más información](end-journey.md).
-
-### Crear una nueva versión de un recorrido {#journey-create-new-version}
-
-Si necesita modificar a un recorrido activo, cree una nueva versión del recorrido. Para crear una nueva versión de un recorrido existente, siga los pasos a continuación:
-
-1. Abra la última versión del recorrido activo, haga clic en **[!UICONTROL Crear una nueva versión]** y confirme.
-
-   ![](assets/journeyversions2.png)
-
-   >[!NOTE]
-   >
-   >Solo puede crear una nueva versión a partir de la última versión de un recorrido.
-
-1. Realice las modificaciones necesarias, haga clic en **[!UICONTROL Publicar]** y confirme.
-
-Desde el momento en que se publique el recorrido, las personas empezarán a fluir hacia la última versión del recorrido. Las personas que ya han accedido a una versión anterior permanecerán en ella hasta que finalicen el recorrido. Si más tarde vuelven a entrar en el mismo recorrido, accederán a la versión más reciente.
-
-Las versiones de recorrido se pueden detener individualmente. Todas las versiones de los recorridos tienen el mismo nombre.
-
-Cuando se publica una nueva versión de un recorrido, la versión anterior finaliza automáticamente y cambia al estado **Cerrado.**. No puede haber ninguna entrada en el recorrido. Aunque detenga la versión más reciente, la versión anterior permanecerá cerrada.
-
-
->[!NOTE]
->
->Se aplican limitaciones y protecciones específicas al control de versiones de los recorridos. Más información sobre [esta página](../start/guardrails.md#journey-versions-journey-versions-g).
 
 ## Duplicación de un recorrido {#duplicate-a-journey}
 
