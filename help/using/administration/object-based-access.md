@@ -27,7 +27,7 @@ Puede limitar el acceso a un objeto en función de las etiquetas de acceso. Su o
 
 La capacidad Control de acceso a nivel de objeto (OLAC) permite definir autorizaciones para administrar el acceso a datos a una selección de objetos:
 
-*  Recorrido 
+* Recorrido 
 * Campaign
 * Plantilla
 * Fragmento
