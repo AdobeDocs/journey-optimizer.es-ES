@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: integrado, fuente, datos, plataforma, integración
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: f5ea4455fc0a8ed9e2819a260a8691fc1237844c
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '422'
 ht-degree: 31%
 
 ---
@@ -33,20 +33,22 @@ Puede editar el grupo de campos preconfigurado denominado &quot;ProfileFieldGrou
 >
 >Puede recuperar los 1000 eventos de experiencia más recientes creados hace menos de un año.
 
-Estos son los pasos principales para agregar grupos de campos a la fuente de datos integrada.
+A continuación se detallan los pasos principales para agregar grupos de campos a la fuente de datos integrada:
 
-1. En la lista de fuentes de datos, seleccione la fuente de datos integrada de Adobe Experience Platform.
+1. En la lista de orígenes de datos, seleccione el origen de datos integrado **Adobe Experience Platform**.
 
    Se abre el panel de configuración de la fuente de datos en el lado derecho de la pantalla.
 
    ![](assets/journey23.png)
 
-1. Haga clic en **[!UICONTROL Agregar un nuevo grupo de campos]** para definir una nueva serie de campos que recuperar. [Más información](../datasource/configure-data-sources.md#define-field-groups).
+1. Seleccione **[!UICONTROL Agregar un nuevo grupo de campos]** para definir una [nueva serie de campos que recuperar](../datasource/configure-data-sources.md#define-field-groups).
 
    ![](assets/journey24.png)
 
-1. Seleccione un esquema de la lista desplegable **[!UICONTROL Esquema]**. Este campo enumera los esquemas de Perfil y Eventos de experiencia disponibles en Adobe Experience Platform. No se creó el esquema en [!DNL Journey Optimizer]. Se realiza en Adobe Experience Platform.
-1. Seleccione los campos que desee utilizar.
-1. Haz clic en **[!UICONTROL Guardar]**.
+1. Seleccione un esquema de la lista desplegable **[!UICONTROL Esquema]**. Este campo lista los esquemas **Perfil** y **Eventos de experiencia** disponibles en Adobe Experience Platform. La creación de esquemas se realiza en Adobe Experience Platform, no en Adobe Journey Optimizer.
+1. Seleccione los campos que desea utilizar y guarde los cambios.
 
-Cuando coloque el cursor en el nombre de un grupo de campos, verá dos iconos a la derecha. Permiten eliminar y duplicar el grupo de campos. Tenga en cuenta que el icono **[!UICONTROL Delete]** solo está disponible si el grupo de campos no se utiliza en ningún recorrido activo o borrador (la información se muestra en el campo **[!UICONTROL Utilizado en]**).
+
+>[!TIP]
+>
+>Pase el ratón sobre el nombre de un grupo de campos para ver dos iconos a la derecha. Use esto para **duplicar** o **eliminar** el grupo de campos. Tenga en cuenta que el icono **[!UICONTROL Delete]** solo está disponible si el grupo de campos no se usa en ningún recorrido de **Live**, **Draft** o **Finished**. Consulte el campo **[!UICONTROL Utilizado en]** para comprobar si este es el caso.
