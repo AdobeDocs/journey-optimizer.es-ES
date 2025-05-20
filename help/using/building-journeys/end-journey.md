@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: volver a entrar, recorrido, finalizar, en directo, detener
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: e435a4bf9d284845f27021b3d36c555def749fbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -27,7 +27,7 @@ También puede [detener un recorrido](#stop-journey), solo en caso de que se pro
 
 >[!IMPORTANT]
 >
->* No puede reiniciar ni eliminar un recorrido [cerrado](#close-journey) o [detenido](#stop-journey). Puede crear una nueva versión del mismo o duplicarlo.
+>* No puede reiniciar ni eliminar un recorrido [cerrado](#close-journey) o [detenido](#stop-journey). Puede [crear una nueva versión](publishing-the-journey.md#journey-versions-journey-versions) o [duplicarla](journey-ui.md#duplicate-a-journey-duplicate-a-journey).
 >
 >* Solo se pueden eliminar los recorridos finalizados.
 

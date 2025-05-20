@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 97%
+source-wordcount: '2504'
+ht-degree: 95%
 
 ---
 
@@ -212,9 +212,11 @@ El siguiente mecanismo de protección se aplica a la actividad de recorrido [Cal
 
 ### Editor de expresiones {#expression-editor}
 
-El siguiente mecanismo de protección se aplica al [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md):
+Las siguientes protecciones se aplican al [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md):
 
 * Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer público, Calificación de público o una actividad de evento empresarial. Debe crear un público nuevo y utilizar una condición dentro del público en el recorrido.
+* Los atributos `timeSeriesEvents` no se pueden usar en el editor de expresiones. Para acceder a los eventos de experiencia en un nivel de perfil, cree un nuevo grupo de campos basado en un esquema `XDM ExperienceEvent`.
+
 
 ### Actividad en la aplicación {#in-app-activity-limitations}
 

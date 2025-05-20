@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
+source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '460'
 ht-degree: 5%
 
 ---
@@ -42,13 +42,18 @@ Antes de activar la campaña de correo postal, asegúrese de que la campaña y e
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-Cuando la campaña de correo postal esté lista, haga clic en el botón **[!UICONTROL Activar]**. Cuando se inicie la campaña, el archivo de extracción se generará automáticamente y se exportará al servidor especificado en la [configuración de enrutamiento de archivos](../direct-mail/direct-mail-configuration.md).
+Cuando la campaña de correo postal esté lista, haga clic en el botón **[!UICONTROL Activar]**. Cuando se inicia la campaña, el archivo de extracción se genera automáticamente y se exporta al servidor especificado en la [configuración de enrutamiento de archivos](../direct-mail/direct-mail-configuration.md).
+
+>[!NOTE]
+>
+>El archivo exportado finaliza con una nueva línea de forma predeterminada. Esto garantiza la compatibilidad con las herramientas de procesamiento de datos estándar.
+
 
 Una vez enviada, puede medir el impacto de la campaña de correo postal dentro de los informes de campaña. Para obtener más información sobre los informes de correo postal, consulte [esta sección](../reports/campaign-global-report-cja-direct.md).
 
 ## Administración del consentimiento para correo postal {#dm-consent-management}
 
-En [!DNL Journey Optimizer], el consentimiento se gestiona mediante el [Esquema de consentimiento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"} de Experience Platform. De forma predeterminada, el valor del campo de consentimiento está vacío y se trata como consentimiento para recibir sus comunicaciones.
+En [!DNL Journey Optimizer], el consentimiento se administra mediante el esquema de consentimiento [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"}. De forma predeterminada, el valor del campo de consentimiento está vacío y se trata como consentimiento para recibir sus comunicaciones.
 
 Si un perfil se ha excluido de la recepción de correo postal, en los atributos de perfil de Experience Platform correspondientes, el valor de `consents.marketing.postalMail.val` será `n` y el perfil correspondiente se excluirá de las entregas posteriores.
 

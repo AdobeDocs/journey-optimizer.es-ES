@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '935'
 ht-degree: 12%
 
 ---
@@ -52,9 +52,9 @@ En la lista de recorridos, todas las versiones del recorrido se muestran con el 
 
 En la lista de recorridos, utilice varios filtros para restringir la lista de recorridos.
 
-![](assets/filter-journeys.png)
+![Pantalla que muestra una muestra del filtrado de recorrido con dos tipos de recorridos seleccionados](assets/filter-journeys.png)
 
-Puede filtrar recorridos según su [estado](#journey-statuses), [tipo](#journey-types), [versión](#journey-versions) y [etiquetas](../start/search-filter-categorize.md#tags) asignadas desde **[!UICONTROL filtros de estado y versión]**.
+Puede filtrar recorridos según su [estado](#journey-statuses), [tipo](#journey-types), [versión](publishing-the-journey.md#journey-versions-journey-versions) y [etiquetas](../start/search-filter-categorize.md#tags) asignadas desde **[!UICONTROL filtros de estado y versión]**.
 
 Use **[!UICONTROL filtros de creación]** para filtrar recorridos según su fecha de creación o el usuario que los creó.
 
