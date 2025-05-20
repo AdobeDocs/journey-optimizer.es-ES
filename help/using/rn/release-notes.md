@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ef93f92e717815a89e03e4ba85331aac6a041ee8
+source-git-commit: 4363928c54b42cff259df63b24636b48c3bd1433
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 25%
+source-wordcount: '1268'
+ht-degree: 26%
 
 ---
 
@@ -189,20 +189,20 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Escalar el ganador de la experimentación</strong><br/></th>
+<th><strong>Scale your Experimentation winner</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Escalar el ganador permite desplegar automática o manualmente la variación ganadora de un experimento para toda la audiencia. Esta función garantiza que, una vez que se identifique a un usuario de mayor rendimiento, pueda maximizar su alcance y eficacia sin una supervisión manual constante.</p>
+<p>Scale the Winner enables you to automatically or manually roll out the winning variation of an experiment to your full audience. This feature ensures that, once a top performer is identified, you can maximize its reach and effectiveness without constant manual oversight.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -246,7 +246,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 Las mejoras incluidas en esta versión se enumeran a continuación.
 
 
-* **Compatibilidad con nuevos objetos para la copia de zona protegida**
+* **Compatibilidad con objetos nuevos para la copia de zona protegida**
 
    * **Campañas** - Fecha de disponibilidad: 15 de mayo de 2025
 
