@@ -9,22 +9,24 @@ role: User
 level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: 5bdacef2196592776c6b37708b0df0986460ca1f
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '613'
 ht-degree: 41%
 
 ---
 
 # Publicación del recorrido {#publishing-the-journey}
 
-Debe publicar un recorrido para activarlo y hacer que esté disponible para que los nuevos perfiles lo introduzcan. Antes de publicar el recorrido, compruebe que sea válido y que no haya ningún error. No se puede publicar un recorrido con errores.
+Para activar un recorrido y permitir que nuevos perfiles entren en él, debe publicarlo. La publicación hace que el recorrido esté activo y en funcionamiento. Antes de publicar, debe asegurarse de que la recorrido esté completa y sea válida, y corregir los errores, ya que un recorrido no se puede publicar si contiene errores.
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
+## Proceso de publicación {#journey-publication}
+
 Los pasos para publicar un recorrido se detallan a continuación:
 
-1. Antes de publicar el recorrido, compruebe que sea válido y que no haya ningún error. No podrá publicar un recorrido con errores.
+1. Antes de publicar el recorrido, asegúrese de que sea válido y esté libre de errores. Los recorridos no se pueden publicar si contienen errores.
 
    * Aprenda a probar su recorrido en [esta página](testing-the-journey.md).
    * Aprenda a solucionar los errores de recorrido en [esta sección](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
@@ -33,7 +35,7 @@ Los pasos para publicar un recorrido se detallan a continuación:
 
    >[!NOTE]
    >
-   > Si el recorrido está sujeto a una directiva de aprobación, debe solicitar la aprobación para poder publicar el recorrido. [Más información](../test-approve/gs-approval.md)
+   > Si el recorrido está sujeto a una directiva de aprobación, debe solicitar la aprobación para poder publicarlo. [Más información](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)
@@ -88,4 +90,4 @@ Cuando se publica una nueva versión de un recorrido, la versión anterior final
 
 Obtenga información sobre cómo publicar un recorrido en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427933?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
