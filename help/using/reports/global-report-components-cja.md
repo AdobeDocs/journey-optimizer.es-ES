@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '2134'
 ht-degree: 2%
 
 ---
@@ -73,6 +73,10 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
   <tr> 
    <td> Devoluciones<br/> </td> 
    <td> Total de errores acumulados durante el proceso de envío y el procesamiento automático de devolución en relación con el número total de mensajes enviados.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Tasa de salida hacia otro sitio <br/> </td> 
+   <td> Porcentaje de correos electrónicos que resultaron en una devolución, en relación con el número total de correos electrónicos enviados.<br/> </td> 
   </tr> 
   <tr> 
    <td> Tasa de apertura de clics (CTOR)<br/> </td> 
@@ -99,6 +103,10 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Nombre de la causa original específica del error. <a href="exclusion-list.md">Más información sobre los motivos de error</a>.<br/> </td> 
   </tr>
   <tr> 
+   <td>Aperturas estimadas de correo electrónico<br/> </td> 
+   <td>Estimación del total de aperturas de correo electrónico que corresponden a aperturas directas de perfiles y aperturas automatizadas activadas por servidores de correo. Esta métrica ajusta las aperturas activadas por los servidores de correo para el análisis de privacidad o seguridad aplicando una tasa de apertura calculada a partir de los destinatarios que abrieron manualmente el correo electrónico a aquellos cuyos correos electrónicos solo abrieron los servidores de correo.<br/> </td> 
+  </tr>
+  <tr> 
    <td> Tasa de clics en ofertas<br/> </td> 
    <td> Porcentaje de usuarios que interactuaron con la oferta.<br/> </td> 
   </tr>
@@ -119,11 +127,11 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Número de veces que se abrió el mensaje.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Errores de salida <br/> </td> 
+   <td> Enviar errores<br/> </td> 
    <td> Número total de errores que se produjeron durante el proceso de envío para evitar que se enviara a los perfiles.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Exclusiones salientes<br/> </td> 
+   <td> Enviar exclusiones<br/> </td> 
    <td> Número de perfiles que Adobe Journey Optimizer ha excluido.<br/> </td> 
   </tr>
   <tr> 
@@ -137,18 +145,59 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
   <tr> 
    <td> Segmentado<br/> </td> 
    <td> Número total de mensajes procesados durante el análisis de entregas.<br/> </td> 
-  </tr> 
+  </tr>
+  <tr> 
+   <td>Devoluciones únicas<br/> </td> 
+   <td> Número de perfiles únicos para los que al menos un correo electrónico resultó en una devolución.</td> 
+  </tr>
+  <tr> 
+   <td>Tasa de devoluciones únicas<br/> </td> 
+   <td>Porcentaje de perfiles únicos cuyo correo electrónico rebotó al menos una vez, según el número total de envíos únicos.</td> 
+  </tr>
   <tr> 
    <td> Clics únicos<br/> </td> 
    <td> Número de perfiles que hicieron clic en un contenido de un correo electrónico.<br> Tenga en cuenta que al calcular clics únicos, se tienen en cuenta los últimos 10 días. Si un perfil registra varios clics dentro del periodo de 10 días, se contarán como clics únicos. Sin embargo, si un perfil tiene 2 clics separados por más de 10 días, no se considerarán clics únicos.<br/> </td> 
+  </tr>
+  <tr> 
+   <td>Clic único mediante tasa de apertura<br/> </td> 
+   <td> Porcentaje de perfiles únicos que hicieron clic en un vínculo después de abrir el correo electrónico, según las aperturas únicas. </td> 
+  </tr>
+  <tr> 
+   <td> Tasa de clics únicos<br/> </td> 
+   <td> Porcentaje de perfiles únicos que hicieron clic en al menos un vínculo del correo electrónico, en relación con el número de correos electrónicos enviados únicos. </td> 
+  </tr>
+  <tr> 
+   <td> Entregado(a) único<br/> </td> 
+   <td> Número de perfiles únicos que recibieron correctamente al menos un correo electrónico.</td> 
   </tr>
   <tr> 
    <td> Cancelaciones de suscripción de correo electrónico único<br/> </td> 
    <td> Número de perfiles que cancelaron la suscripción a sus correos electrónicos.<br/> </td> 
   </tr>
   <tr> 
+   <td> Aperturas de correo electrónico estimadas únicas<br/> </td> 
+   <td> Estimación del número de destinatarios de correo electrónico únicos que probablemente abrieron el correo electrónico. Esta métrica tiene como objetivo proporcionar un recuento más preciso de la participación individual desencadenada por los servidores de correo para el análisis de privacidad o seguridad mediante la aplicación de una tasa de apertura única calculada a partir de perfiles únicos que abrieron manualmente el correo electrónico a aquellos cuyos correos electrónicos solo los abrieron los servidores de correo.<br/> </td> 
+  </tr>
+  <tr> 
    <td> Aperturas únicas<br/> </td> 
    <td> Número de perfiles que abrieron el envío. <br> Tenga en cuenta que al calcular las aperturas únicas, se tienen en cuenta los últimos 10 días. Si un perfil registra varias aperturas dentro del periodo de 10 días, se contarán como aperturas únicas. Sin embargo, si un perfil tiene 2 aperturas separadas por más de 10 días, no se considerarán como aperturas únicas.<br/> </td> 
+  </tr> 
+  <tr>
+  <tr> 
+   <td> Envíos únicos<br/> </td> 
+   <td>Número de perfiles únicos a los que se intentó enviar al menos un correo electrónico.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Errores de envío únicos<br/> </td> 
+   <td>Número de perfiles únicos que encontraron al menos un error de envío durante el proceso saliente.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Exclusiones de envío únicas<br/> </td> 
+   <td>Número de perfiles únicos excluidos de la recepción de mensajes debido a reglas de idoneidad, segmentación de audiencia o estado del perfil.<br/> </td> 
+  </tr>
+  <tr> 
+   <td>Destino único<br/> </td> 
+   <td>Número de perfiles únicos dirigidos durante el proceso de envío.<br/> </td> 
   </tr> 
   <tr> 
    <td> Cancela la suscripción de <br/> </td> 
