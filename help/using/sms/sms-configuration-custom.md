@@ -11,7 +11,7 @@ exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: fc78fcfb0f2ce3616cb8b1df44dda2cfd66262fe
 workflow-type: tm+mt
 source-wordcount: '738'
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
@@ -108,7 +108,7 @@ Una vez configuradas, puede aprovechar todas las funcionalidades de canal integr
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_auth_type"
 >title="Tipo de autenticación"
->abstract="Especifique el método de autenticación necesario para acceder a la API, esto garantiza una comunicación segura y autorizada con el servicio externo."
+>abstract="Especifique el método de autenticación necesario para acceder a la API: esto garantiza una comunicación segura y autorizada con el servicio externo."
 
 >[!BEGINTABS]
 
@@ -162,4 +162,4 @@ Una vez creadas las credenciales de la API, complete los campos necesarios para 
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443609?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3431625)

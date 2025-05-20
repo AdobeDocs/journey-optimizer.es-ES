@@ -9,7 +9,7 @@ exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,12 +23,12 @@ Este enfoque le permite ajustar dinámicamente la clasificación de la oferta en
 
 Una vez creada una fórmula de clasificación, puede asignarla a una [estrategia de selección](selection-strategies.md). Si se pueden presentar varias ofertas al utilizar esta estrategia de selección, el motor de decisión utilizará la fórmula seleccionada para calcular qué oferta se ofrece primero.
 
-## Crear una fórmula de clasificación {#create-ranking-formula}
+## Crear fórmula de clasificación {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="Crear fórmulas de clasificación"
->abstract="Las fórmulas permiten definir reglas que determinan qué elemento de decisión debe presentarse primero, en lugar de tener en cuenta las puntuaciones de prioridad de los elementos. Una vez creada una fórmula de clasificación, puede asignarla a una estrategia de selección."
+>abstract="Las fórmulas le permiten definir reglas que determinarán qué elemento decisión se debe presentar primero, en lugar de tener en cuenta las puntuaciones de prioridad del elemento. Una vez creada una fórmula de clasificación, puede asignarla a una estrategia de selección."
 
 Para crear una fórmula de clasificación, siga los pasos a continuación.
 

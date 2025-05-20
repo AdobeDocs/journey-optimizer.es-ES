@@ -22,7 +22,7 @@ ht-degree: 7%
 >id="ajo_subscription_list"
 >title="Configurar una lista de suscripción"
 >abstract="Cree una lista de suscripción para recopilar perfiles que hayan optado por recibir comunicaciones sobre un asunto o evento específico. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=es#define-subscription-list" text="Creación de una lista de suscripción"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/landing-pages/subscription-list#define-subscription-list" text="Creación de una lista de suscripción"
 
 Un servicio de suscripción se refiere a los bienes y servicios de marketing proporcionados a los clientes que han elegido recibir comunicaciones sobre un tema/evento/interés/etc específico. de forma continua. En [!DNL Journey Optimizer], estos clientes aceptados se recopilan en una lista de suscripción.
 

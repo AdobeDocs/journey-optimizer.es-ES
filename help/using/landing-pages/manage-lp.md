@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: landing, landing page
-source-git-commit: 38ed45222aad458bb581e714a9a2a0e5ed088c3f
+exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
+source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -57,8 +58,8 @@ En esta lista, puede hacer clic en los tres puntos junto a una página de aterri
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_folders"
->title="Organizar las páginas de aterrizaje en carpetas"
->abstract="Utilice carpetas para categorizar y administrar las páginas de aterrizaje según las necesidades de su organización."
+>title="Organice las páginas de aterrizaje en carpetas"
+>abstract="Utilice carpetas para clasificar y administrar sus páginas de aterrizaje según las necesidades de su organización."
 
 Para navegar fácilmente por las páginas de aterrizaje, puede utilizar carpetas para organizarlas de forma más eficaz en una jerarquía estructurada. Esto le permite clasificar y administrar los elementos según las necesidades de su organización.
 

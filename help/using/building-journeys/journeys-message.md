@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 12%
+ht-degree: 18%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Acción de canal integrada"
->abstract="Journey Optimizer incluye funcionalidades de acción de canal integradas. Puede simplemente añadir a su recorrido una actividad de mensaje (correo electrónico, mensaje de texto (SMS/MMS) o push) o de experiencia entrante (aplicación, web, experiencia basada en código, tarjeta de contenido) y definir la configuración y el contenido. A continuación, se ejecuta y envía en el contexto del recorrido."
+>abstract="Journey Optimizer incluye funcionalidades de acción de canal integradas. Basta con añadir a su recorrido una actividad de mensaje (correo electrónico, mensaje de texto SMS/MMS, push) o de experiencia entrante (in-app, web, experiencia basada en código, tarjeta de contenido) y definir la configuración y el contenido. A continuación, se ejecuta y envía en el contexto del recorrido."
 
 [!DNL Journey Optimizer] viene con funcionalidades de acción de canal integradas que se utilizan para enviar mensajes: cuando un perfil entra en esta actividad, se les envía un mensaje.
 

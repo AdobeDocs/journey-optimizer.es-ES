@@ -12,7 +12,7 @@ exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
 workflow-type: tm+mt
 source-wordcount: '1733'
-ht-degree: 9%
+ht-degree: 15%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_parameters"
 >title="Parámetros"
->abstract="Defina los parámetros del evento, como los campos esquema y carga útil. Para los eventos basados en reglas, use la **[!UICONTROL condición de ID de evento]** para definir la condición que el sistema usará para identificar los eventos que almacenarán en déclencheur su recorrido. Añada un tipo de identidad y un identificador de perfil para usar en el evento."
+>abstract="Defina los parámetros del evento, como los campos de esquema y carga útil. Para los eventos basados en reglas, use el campo **[!UICONTROL condición de ID de evento]** para definir la condición que el sistema usará para identificar los eventos que activarán su recorrido. Añada un tipo de identidad y un identificador de perfil para usar en el evento."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="Usar identificador suplementario"
->abstract="El identificador suplementario es un identificador secundario que proporciona contexto adicional para la ejecución de un recorrido. Para definirlo, seleccione el campo que desea utilizar como identificador suplementario y elija un área de nombres para asociarlo."
+>abstract="El identificador suplementario es un identificador secundario que proporciona contexto adicional para la ejecución de un recorrido. Para definirlo, seleccione el campo que desea utilizar como identificador suplementario y elija un espacio de nombres al que asociarlo."
 
 Los eventos unitarios están vinculados a un perfil específico. Pueden basarse en reglas o en sistemas generados.  Más información sobre el evento unitario [esta sección](../event/about-events.md).
 

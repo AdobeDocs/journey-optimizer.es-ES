@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
 >title="Personalice la notificación push."
->abstract="Para redactar el mensaje, escribe el contenido en los campos **Título** y **Cuerpo**. Para incluir tókenes de personalización, abra el cuadro de diálogo de personalización."
+>abstract="Para redactar el mensaje, introduzca el contenido en los campos **Título** y **Cuerpo**. Para incluir tókenes de personalización, abra el cuadro de diálogo de personalización."
 
 Para redactar el mensaje, haga clic en los campos **[!UICONTROL Título]** y **[!UICONTROL Cuerpo]**. Utilice el editor de personalización para definir contenido, personalizar datos y añadir contenido dinámico. Obtenga más información acerca de la [personalización](../personalization/personalize.md) y el [contenido dinámico](../personalization/get-started-dynamic-content.md) en el editor de personalización.
 
@@ -71,7 +71,7 @@ Una vez añadidos, los contenidos se muestran a la derecha del cuerpo de la noti
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="Añada botones para que los usuarios interactúen con la notificación push."
->abstract="En esta sección, añada botones de call-to-action al mensaje. Para Apple iOS, especifique un identificador de categoría de notificación. Para Google Android, puede incluir texto personalizado y destinos para cada botón."
+>abstract="En esta sección, añada botones de llamada a la acción al mensaje. Para Apple iOS, especifique un identificador de categoría de notificación. Para Google Android, puede incluir texto personalizado y destinos para cada botón."
 
 Cree una notificación procesable añadiendo botones al contenido push.
 

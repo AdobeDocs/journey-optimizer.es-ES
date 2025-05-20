@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
 source-wordcount: '2395'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -95,12 +95,12 @@ La zona horaria se define en el nivel de recorrido. Puede introducir una zona ho
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Fecha de inicio"
->abstract="Seleccione la fecha en la que los perfiles pueden empezar a introducir el recorrido. Si no se establece ninguna fecha de inicio, la predeterminada es la fecha de publicación del recorrido."
+>abstract="Seleccione la fecha en la que los perfiles pueden empezar a entrar en el recorrido. Si no se establece ninguna fecha de inicio, la predeterminada es la fecha de publicación del recorrido."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Fecha final"
->abstract="Establezca la fecha en la que termina el recorrido. En esta fecha, los perfiles activos abandonarán automáticamente la recorrido y no se permitirán nuevas entradas."
+>abstract="Establezca la fecha en la que termina el recorrido. En esta fecha, los perfiles activos saldrán automáticamente del recorrido y no se permitirán nuevas entradas."
 
 De forma predeterminada, los perfiles pueden entrar en el recorrido en cuanto se publique y pueden permanecer hasta que se alcance el [tiempo de espera de recorrido global](#global_timeout). La única excepción son los recorridos de lectura recurrentes con **Forzar reentrada en repetición** activada, que terminan en la fecha de inicio de la siguiente ocurrencia.
 
@@ -252,7 +252,7 @@ Adobe Journey Optimizer utiliza políticas de combinación al recuperar datos de
 
 Adobe Journey Optimizer aplica la política de combinación utilizada en todo el recorrido. Por lo tanto, si se usan varias audiencias en un recorrido (por ejemplo, usando en [`inAudience` funciones](functions/functioninaudience.md)), se crean incoherencias con la política de combinación utilizada por el recorrido, se genera un error y se bloquea la publicación. Sin embargo, si se utiliza una audiencia incoherente en la personalización de mensajes, no se genera una alerta, a pesar de la incoherencia. Por este motivo, es muy recomendable comprobar la política de combinación asociada a su audiencia cuando esta audiencia se utiliza en la personalización de mensajes.
 
-Para obtener más información sobre las políticas de combinación, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Para obtener más información sobre las políticas de combinación, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >
@@ -311,7 +311,7 @@ La sección **[!UICONTROL Programar]** solo está disponible cuando se ha quitad
 
 La sección **[!UICONTROL Administración de conflictos]** de las propiedades del recorrido le permite supervisar los conflictos y priorizar los recorridos. Puede hacer lo siguiente:
 
-* Aplique un **conjunto de reglas** para excluir este recorrido a parte de su audiencia según las reglas de límite. [Aprenda a trabajar con conjuntos de reglas](../configuration/rule-sets.md)
+* Aplique un **conjunto de reglas** para excluir este recorrido a parte de su audiencia según las reglas de límite. [Descubra cómo trabajar con conjuntos de reglas](../configuration/rule-sets.md)
 
 * Asigne una **puntuación de prioridad** al recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. El valor de prioridad insertado aquí lo heredan las acciones entrantes (como in-app) contenidas en este recorrido. [aprenda a trabajar con puntuaciones de prioridad](../conflict-prioritization/priority-scores.md)
 
