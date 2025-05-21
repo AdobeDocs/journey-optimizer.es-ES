@@ -117,4 +117,4 @@ Además, también puede aprovechar Adobe Experience Platform **Query service** p
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447617?quality=12&captions=spa)

@@ -312,4 +312,4 @@ Para aplicar una regla de límite a un recorrido, acceda al recorrido y abra sus
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444729?quality=12&captions=spa)
