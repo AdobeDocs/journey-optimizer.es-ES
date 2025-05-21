@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuración, configurar, mensajes, canal, zona protegida, optimizador
-source-git-commit: e052cf9bcd42cecbaaeb9047990ed603dd0730a0
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 48%
+ht-degree: 54%
 
 ---
 
@@ -27,24 +27,24 @@ Para poder enviar mensajes, debe seguir los pasos de configuración que se enume
 1. Como [administrador del sistema de Adobe Journey Optimizer](../start/path/administrator.md), defina las configuraciones de canal. Obtenga información sobre cómo configurar estas configuraciones en las siguientes páginas:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../email/get-started-email-config.md"><img alt="email" src="../channels/assets/do-not-localize/email.png"></a>
+<td><a href="../email/get-started-email-config.md"><img alt="Correo electrónico" src="../channels/assets/do-not-localize/email.png"></a>
 <div align="center"><a href="../email/get-started-email-config.md"><strong>Correo electrónico</strong></a></div></td>
-<td><a href="../sms/sms-configuration.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
+<td><a href="../sms/sms-configuration.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><a href="../sms/sms-configuration.md"><strong>SMS</strong></a></div></td>
 <td><a href="../push/push-configuration.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../push/push-configuration.md"><strong>Notificación push</strong></a></div></td>
-<td><a href="../direct-mail/direct-mail-configuration.md"><img alt="correo directo" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<td><a href="../direct-mail/direct-mail-configuration.md"><img alt="Correo directo" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
 <div align="center"><a href="../direct-mail/direct-mail-configuration.md"><strong>Correo directo</strong></a></div></td>
 </tr></table>
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../in-app/inapp-configuration.md"><img alt="en la aplicación" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<td><a href="../in-app/inapp-configuration.md"><img alt="En la aplicación" src="../channels/assets/do-not-localize/inapp.jpg"></a>
 <div align="center"><a href="../in-app/inapp-configuration.md"><strong>En la aplicación</strong></a></div></td>
-<td><a href="../web/web-configuration.md"><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></a>
+<td><a href="../web/web-configuration.md"><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></a>
 <div align="center"><a href="../web/web-configuration.md"><strong>Web</strong></a></div></td>
-<td><a href="../code-based/code-based-configuration.md"><img alt="experiencia basada en código" src="../channels/assets/do-not-localize/code.png"></a>
+<td><a href="../code-based/code-based-configuration.md"><img alt="Experiencia basada en código" src="../channels/assets/do-not-localize/code.png"></a>
 <div align="center"><a href="../code-based/code-based-configuration.md"><strong>Experiencia basada en código</strong></a></div></td>
-<td><a href="../content-card/content-card-configuration-prereq.md"><img alt="tarjetas de contenido" src="../channels/assets/do-not-localize/cards.png"></a>
+<td><a href="../content-card/content-card-configuration-prereq.md"><img alt="Tarjetas de contenido" src="../channels/assets/do-not-localize/cards.png"></a>
 <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Tarjetas de contenido</strong></a></div></td>
 </tr></table>
 
@@ -60,6 +60,6 @@ Para poder enviar mensajes, debe seguir los pasos de configuración que se enume
 
    * Active la **Opción de correo electrónico de BBC** para mantener una copia de los mensajes enviados a personas. [Más información](archiving-support.md#enable-bcc)
 
-   * Configure **reglas comerciales** para evitar saturar a los destinatarios. [Más información](../configuration/rule-sets.md)
+   * Configure **reglas comerciales** para evitar saturar a los destinatarios. [Más información](../conflict-prioritization/rule-sets.md)
 
    * Determine la dirección de correo electrónico o el número de teléfono que se utilizará con prioridad para los destinatarios cuando haya varias direcciones o números disponibles en Adobe Experience Platform. [Más información](primary-email-addresses.md)

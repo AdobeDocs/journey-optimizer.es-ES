@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
 
@@ -261,7 +261,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <td>
 <p>Utilice las campañas de Journey Optimizer para ofrecer contenido único a un público específico mediante varios canales. Cuando se utilizan recorridos, las acciones están diseñadas para ejecutarse en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Obtenga información sobre cómo crear una campaña en <a href="../campaigns/get-started-with-campaigns.md">documentación detallada</a> y <a href="https://video.tv.adobe.com/v/3412402?captions=spa">vídeo de funciones</a>.
+<p>Obtenga información sobre cómo crear una campaña en <a href="../campaigns/get-started-with-campaigns.md">documentación detallada</a> y <a href="https://video.tv.adobe.com/v/346680">vídeo de funciones</a>.
 </td>
 </tr>
 </tbody>
@@ -545,7 +545,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tr>
 <td>
 <p>Ahora puede establecer reglas empresariales multicanal que excluyan automáticamente los perfiles saturados de mensajes y acciones.</p>
-<p>Para obtener más información, consulte la <a href="../configuration/rule-sets.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../conflict-prioritization/rule-sets.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -831,4 +831,4 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **Personalización**
 
-* **Agregar a favoritos**: para ayudar a mejorar la eficacia al trabajar con la personalización, hemos introducido el concepto de guardado de favoritos. Añadir atributos diferentes al menú de favoritos permite acceder rápidamente a los elementos más utilizados. [Más información](../personalization/personalize.md#fav)
+* **Agregar a favoritos**: para ayudar a mejorar la eficacia al trabajar con la personalización, hemos introducido el concepto de guardado de favoritos. Añadir atributos diferentes al menú de favoritos permite acceder rápidamente a los elementos más frecuentes. [Más información](../personalization/personalize.md#fav)

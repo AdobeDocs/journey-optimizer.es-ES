@@ -4,14 +4,13 @@ product: journey optimizer
 title: Configuración del proveedor personalizado
 description: Aprenda a configurar su entorno para enviar mensajes de texto con Journey Optimizer con un proveedor personalizado
 feature: SMS, Channel Configuration
-badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: fc78fcfb0f2ce3616cb8b1df44dda2cfd66262fe
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 13%
+source-wordcount: '1012'
+ht-degree: 9%
 
 ---
 
@@ -32,25 +31,22 @@ ht-degree: 13%
 >title="Carga útil del proveedor"
 >abstract="Proporcione la carga útil de la solicitud para garantizar que se envían los datos correctos para el procesamiento y la generación de respuestas."
 
->[!AVAILABILITY]
->
->Actualmente, los proveedores personalizados solo están disponibles como una versión beta para los usuarios seleccionados. Póngase en contacto con su representante de Adobe para que se le incluya en el Beta.
->Tenga en cuenta que este Beta no admite mensajes entrantes para la administración del consentimiento de inclusión/exclusión ni para los informes de envío.
-
-
 Esta función le permite integrar y configurar sus propios proveedores de SMS, lo que ofrece flexibilidad más allá de los proveedores predeterminados (Sinch, Twilio e Infobip). Esto permite la creación, entrega, creación de informes y administración de consentimiento de SMS sin problemas.
 
-Con la configuración de proveedor personalizada para SMS, puede:
+Con la configuración de proveedor personalizada para SMS, puede configurar proveedores de SMS personalizados directamente en Journey Optimizer, utilizar la personalización avanzada de la carga útil para la mensajería dinámica y administrar las preferencias de consentimiento (inclusión/exclusión) para garantizar el cumplimiento.
 
-* Configure proveedores de SMS personalizados directamente en Journey Optimizer.
-* Utilice la personalización avanzada de la carga útil para la mensajería dinámica.
-* Administre las preferencias de consentimiento (inclusión/exclusión) para garantizar el cumplimiento.
+Para configurar su proveedor de SMS personalizado, siga los pasos a continuación:
+
+1. [Crear credencial de API](#api-credential)
+1. [Crear webhook](#webhook)
+1. [Crear configuración de canal](sms-configuration-surface.md)
+1. [Creación de un Recorrido o una campaña con una acción de canal SMS](create-sms.md)
 
 ## Cree sus credenciales de API {#api-credential}
 
 Para enviar mensajes en Journey Optimizer utilizando un proveedor personalizado no disponible de forma predeterminada por Adobe (por ejemplo, Sinch, Infobip, Twilio), siga estos pasos:
 
-1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** `>` **[!UICONTROL Canales]**, seleccione el menú **[!UICONTROL Credenciales de API]** y haga clic en el botón **[!UICONTROL Crear nuevas credenciales de API]**.
+1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** `>` **[!UICONTROL Canales]**, seleccione el menú **[!UICONTROL Credenciales de API]** en **[!UICONTROL Configuración de SMS]** y haga clic en el botón **[!UICONTROL Crear nuevas credenciales de API]**.
 
    ![](assets/sms_byo_1.png)
 
@@ -78,20 +74,9 @@ Para enviar mensajes en Journey Optimizer utilizando un proveedor personalizado 
 
 1. Agregue su **[!UICONTROL carga útil del proveedor]** para validar y personalizar las cargas útiles de solicitud.
 
-   Puede personalizar dinámicamente la carga útil mediante atributos de perfil y garantizar que se envíen datos precisos para el procesamiento y la generación de respuestas con la ayuda de funciones de ayuda integradas.
-<!--
-1. Add your **Inbound settings** to determine how your system handles incoming messages and subscriber preferences: 
-
-    * **[!UICONTROL Inbound Webhook URL]**: Specify the endpoint URL where inbound messages (e.g. replies or new messages from users) are sent.
-    * **[!UICONTROL Opt-in Keywords]**: Enter the default or custom keywords that will automatically trigger your Opt-In Message. For multiple keywords, use comma-separated values.
-    * **[!UICONTROL Opt-in Message]**: Enter the custom response that is automatically sent as your Opt-In Message.
-    * **[!UICONTROL Opt-out Keywords]**: Enter the default or custom keywords that will automatically trigger your Opt-Out Message. For multiple keywords, use comma-separated values.
-    * **[!UICONTROL Opt-out Message]**: Enter the custom response that is automatically sent as your Opt-Out Message.
--->
-
 1. Haga clic en **[!UICONTROL Enviar]** cuando termine de configurar las credenciales de la API.
 
-1. En el menú **[!UICONTROL Credenciales de API]**, haga clic en el icono bin para eliminar sus credenciales de API.
+1. En el menú **[!UICONTROL Credenciales de API]**, haga clic en el ![icono bin](assets/do-not-localize/Smock_Delete_18_N.svg) para eliminar sus credenciales de API.
 
    ![](assets/sms_byo_3.png)
 
@@ -99,9 +84,7 @@ Para enviar mensajes en Journey Optimizer utilizando un proveedor personalizado 
 
    ![](assets/sms_byo_4.png)
 
-Después de crear y configurar las credenciales de la API, debe crear una superficie de canal para los mensajes SMS. [Más información](sms-configuration-surface.md)
-
-Una vez configuradas, puede aprovechar todas las funcionalidades de canal integradas, como la creación de mensajes, la personalización, el seguimiento de vínculos y la creación de informes.
+Después de crear y configurar las credenciales de la API, debes establecer [la configuración de entrada del webhook](#webhook) para los mensajes SMS.
 
 ### Opciones de autenticación para proveedores de SMS personalizados {#auth-options}
 
@@ -160,6 +143,59 @@ Una vez creadas las credenciales de la API, complete los campos necesarios para 
 
 >[!ENDTABS]
 
-## Vídeo práctico {#video}
+## Crear webhook {#webhook}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443609?captions=spa)
+>[!BEGINSHADEBOX]
+
+Si no se proporcionan las palabras clave de inclusión u exclusión, se utilizan mensajes de consentimiento estándar para respetar la privacidad del usuario. Añadir palabras clave personalizadas anula automáticamente los valores predeterminados.
+
+**Palabras clave predeterminadas:**
+
+* **Inclusión**: SUSCRIBIRSE, SÍ, NO DETENER, INICIAR, CONTINUAR, REANUDAR, INICIAR
+* **Exclusión**: DETENER, SALIR, CANCELAR, FINALIZAR, CANCELAR SUSCRIPCIÓN, NO
+* **Ayuda**: AYUDA
+
+>[!ENDSHADEBOX]
+
+Una vez que las credenciales de la API se hayan creado correctamente, el siguiente paso es crear un webhook y configurar los ajustes de entrada. Esta configuración garantiza que el sistema pueda recibir y procesar correctamente los datos o mensajes entrantes.
+
+1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** `>` **[!UICONTROL Canales]**, seleccione el menú **[!UICONTROL Webhooks de SMS]** en **[!UICONTROL Configuración de SMS]** y haga clic en el botón **[!UICONTROL Crear webhook]**.
+
+   ![](assets/sms_byo_5.png)
+
+1. Configure las opciones de webhook, tal y como se detalla a continuación:
+
+   * **[!UICONTROL Nombre]**: escribe un nombre para tu webhook.
+
+   * **[!UICONTROL Seleccionar proveedor de SMS]**: personalizado.
+
+   * **[!UICONTROL Seleccione las credenciales de la API]**: elija en la lista desplegable las [credenciales de la API configuradas anteriormente](#api-credential).
+
+   * **[!UICONTROL Palabras clave de inclusión]**: escriba las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su mensaje de inclusión. Para varias palabras clave, utilice valores separados por comas.
+
+   * **[!UICONTROL Mensaje de inclusión]**: escriba la respuesta personalizada que se enviará automáticamente como mensaje de inclusión.
+
+   * **[!UICONTROL Palabras clave de exclusión]**: escriba las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su mensaje de exclusión. Para varias palabras clave, utilice valores separados por comas.
+
+   * **[!UICONTROL Mensaje de exclusión]**: escriba la respuesta personalizada que se enviará automáticamente como mensaje de exclusión.
+
+   ![](assets/sms_byo_6.png)
+
+1. Haga clic en **[!UICONTROL Ver editor de carga útil]** para validar y personalizar las cargas útiles de solicitud.
+
+   Puede personalizar dinámicamente la carga útil mediante atributos de perfil y garantizar que se envíen datos precisos para el procesamiento y la generación de respuestas con la ayuda de funciones de ayuda integradas.
+
+1. Haga clic en **[!UICONTROL Enviar]** cuando termine de configurar su webhook.
+
+1. En el menú de **[!UICONTROL Webhooks]**, haz clic en el ![icono de bin](assets/do-not-localize/Smock_Delete_18_N.svg) para eliminar tu webhook.
+
+1. Para modificar la configuración existente, busque el webhook deseado y haga clic en la opción **[!UICONTROL Editar]** para realizar los cambios necesarios.
+
+1. Acceda y copie su nueva **[!UICONTROL URL de webhook]** desde el **[!UICONTROL webhook]** que envió anteriormente.
+
+   ![](assets/sms_byo_7.png)
+
+Después de crear y configurar las opciones de entrada para el webhook, debes crear una [configuración de canal](sms-configuration-surface.md) para los mensajes SMS.
+
+Una vez configuradas, puede aprovechar todas las funcionalidades de canal integradas, como la creación de mensajes, la personalización, el seguimiento de vínculos y la creación de informes.
+

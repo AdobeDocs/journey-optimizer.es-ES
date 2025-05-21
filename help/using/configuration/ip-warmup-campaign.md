@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, grupos, capacidad de entrega
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 84cbaebc9c274f620ee707cb0d9320673ae24b71
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -57,7 +57,7 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
    >[!IMPORTANT]
    >
-   >Las audiencias permitidas en una campaña de calentamiento de IP deben estar [basadas en segmentos](../audience/creating-a-segment-definition.md) y creadas mediante la [política de combinación predeterminada](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >Las audiencias permitidas en una campaña de calentamiento de IP deben estar [basadas en segmentos](../audience/creating-a-segment-definition.md) y creadas con la [política de combinación predeterminada](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
 
    Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
@@ -65,7 +65,7 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >[Las reglas de negocio](rule-sets.md#apply-frequency-rule) no deben usarse en planes de calentamiento de IP. La aplicación de estas reglas podría dificultar el logro del número deseado de perfiles objetivo para las campañas.
+   >[Las reglas de negocio](../conflict-prioritization/rule-sets.md#apply-frequency-rule) no deben usarse en planes de calentamiento de IP. La aplicación de estas reglas podría dificultar el logro del número deseado de perfiles objetivo para las campañas.
 
    Para una campaña en vivo con el plan de calentamiento de IP activado, el botón **[!UICONTROL Eliminar]** está disponible hasta que se asocie con un plan de calentamiento de IP. Una vez utilizada en un plan, la campaña ya no se puede eliminar.
 

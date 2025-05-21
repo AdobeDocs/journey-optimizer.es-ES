@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4363928c54b42cff259df63b24636b48c3bd1433
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 26%
+source-wordcount: '815'
+ht-degree: 29%
 
 ---
 
@@ -22,14 +22,9 @@ ht-degree: 26%
 
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión. [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
-
-## Notas de la versión anteriores de mayo de 2025 {#25-5-rn}
-
-
-**Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento**. Los vínculos, las pantallas y la documentación actualizada se publican en la fecha de la versión.
+## Notas de la versión de mayo de 2025 {#25-5-rn}
 
 **Fecha de la versión**: 20-21 de mayo de 2025
-
 
 ### Nuevas funciones {#25-05-features}
 
@@ -72,43 +67,44 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 </tbody>
 </table>
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>Sincronizar programación de lectura de audiencia con trabajo de segmentación por lotes</strong><br/></th>
+<th><strong>Synchronize read audience schedule with batch segmentation job</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede almacenar en déclencheur las ejecuciones de recorridos diarias después de la finalización de la segmentación por lotes. Esta opción ahora está disponible en recorridos programados diariamente para todos los clientes. Permite definir para una ventana de tiempo de hasta 6 horas a la espera de datos de audiencia de trabajos de segmentación por lotes, lo que garantiza que los recorridos se ejecuten con los datos más actualizados o se omitan si no están listos.</p>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>You can now trigger daily journey runs after batch segmentation completion. This option is now available in daily-scheduled journeys to all customers. It allows you to define for a time window of up to 6 hours to wait for audience data from batch segmentation jobs, ensuring journeys run with the most up-to-date data or are skipped if not ready.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
-<!--<p>For more information, refer to the <a href="../building-journeys/read-audience.md#schedule">detailed documentation</a>.</p>-->
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#schedule">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Integración de fragmentos de contenido de Adobe Experience Manager</strong><br/></th>
+<th><strong>Adobe Experience Manager Content fragment integration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con la integración de Adobe Experience Manager y Adobe Journey Optimizer, ahora puede utilizar sin esfuerzo fragmentos de contenido de Adobe Experience Manager dentro de su contenido de Journey Optimizer. Esta conexión perfecta facilita el acceso y el uso del contenido de AEM directamente en Journey Optimizer.</p>
-<p>Esta capacidad, que antes estaba disponible para un conjunto limitado de organizaciones (LA), ahora es GA con las siguientes mejoras:</p>
+<p>With the integration of Adobe Experience Manager and Adobe Journey Optimizer, you can now effortlessly use Adobe Experience Manager Content Fragments within your Journey Optimizer content. This seamless connection makes it easier to access and use your AEM content directly in Journey Optimizer.</p>
+<p>Previously available for a limited set of organizations (LA), this capability is now GA with the following enhancements:</p>
 <ul>
-<li>Cree ofertas seleccionando directamente un fragmento de contenido de AEM.</li>
-<li>Defina los marcadores de posición y asigne los valores de personalización dentro de la firma del fragmento con el modo Editor.</li>
+<li>Create offers by directly selecting an AEM Content Fragment.</li>
+<li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li>
 </ul>
+<img src="assets/do-not-localize/content-fragment.gif">
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--<table>
 <thead>
@@ -128,26 +124,27 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 </tbody>
 </table>-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Integración de Dynamic Media de Adobe Experience Manager</strong><br/></th>
+<th><strong>Adobe Experience Manager Dynamic media integration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Los recursos de Dynamic Media ahora están disponibles y son accesibles directamente en Journey Optimizer. Esta actividad le permite lo siguiente:</p>
+<p>Dynamic media assets are now directly available and accessible in Journey Optimizer. This integration enables you to:</p>
 <ul>
-<li>Administre los recursos de forma centralizada con actualizaciones en tiempo real.</li>
-<li>Modifique la configuración de los recursos, como la anchura y la altura, instantáneamente.</li>
-<li>Personalice las plantillas de Dynamic Media actualizando el contenido y añadiendo campos de personalización.</li>
+<li>Centrally manage assets with real-time updates.</li>
+<li>Modify your assets settings such as width and height instantly.</li>
+<li>Customize Dynamic Media templates by updating your content and adding personalization fields.</li>
 </ul>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<img src="assets/do-not-localize/dynamic_media_template_html.gif">
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -165,29 +162,29 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <li>Solución de problemas mejorada: ahora hay dos nuevos campos de evento de paso disponibles en el servicio de consultas, lo que permite analizar por qué se rechazó un perfil de un recorrido o una campaña.</li>
 <li>Informes mejorados: ahora los informes indican qué regla específica excluyó un perfil de un recorrido o campaña, lo que proporciona una mayor transparencia y perspectivas procesables.</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
-<!--<p>For more information, refer to the <a href="../conflict-prioritization/gs-conflict-prioritization.md">detailed documentation</a>.</p>-->
+<p>Para obtener más información, consulte la <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>Simular variaciones de contenido</strong><br/></th>
+<th><strong>Simulate content variations</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Anteriormente disponible en la versión Beta, ahora la simulación de variaciones de contenido ya está disponible de forma general (GA). Le permite obtener una vista previa de diferentes variaciones del contenido usando los datos de entrada de muestra cargados desde un archivo CSV o JSON o añadidos manualmente. El sistema detecta automáticamente todos los atributos utilizados en el contenido para la personalización y los puede utilizar en las pruebas para crear varias variantes.</p>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos. Con esta versión de Disponibilidad general, la función ahora es compatible con experimentos de contenido y contenido multilingües, lo que le permite probar variaciones en diferentes idiomas y tratamientos. Además, ahora admite atributos contextuales (además de los atributos de perfil), lo que permite realizar pruebas de contenido aún más dinámicas y adaptadas a cada situación.</p>
+<p>Previously available in beta, content variations simulation is now generally available (GA). It allows you to preview different variations of your content using sample input data uploaded from a CSV or JSON file or added manually. All the attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments. With this General Availability release, the feature now includes support for multilingual content and content experiments, enabling you to test variations across different languages and treatments. Additionally, it now supports contextual attributes (in addition to profile attributes), allowing for even more dynamic and situational content testing.</p>
 <img src="assets/do-not-localize/variants.gif">
-<!--<p>For more information, refer to the <a href="../test-approve/simulate-sample-input.md">detailed documentation</a>.</p>-->
+<p>For more information, refer to the <a href="../test-approve/simulate-sample-input.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 <!--table>
 <thead>
@@ -239,8 +236,6 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 </table>
 -->
 
-
-
 ### Mejoras {#25-05-improv}
 
 Las mejoras incluidas en esta versión se enumeran a continuación.
@@ -272,35 +267,36 @@ Las mejoras incluidas en esta versión se enumeran a continuación.
   >
   >Esta capacidad se implementará gradualmente en todos los entornos en los próximos 30 días.
 
-* **Seguimiento de clics en plantillas de correo electrónico**
+* Compatibilidad con **&#39;Redireccionar a dirección URL&#39; en el canal Web**
 
-  El rastreo de clics en `<area>` elementos dentro de mapas de imagen en plantillas de correo electrónico ahora se admite de forma nativa en Journey Optimizer. Esto sirve para garantizar que las áreas de mapa de imagen reciban el mismo ajuste de seguimiento, datos de seguimiento y parámetros añadidos que los hipervínculos estándar.
-
-* **Toma de decisiones - Aprovechar conjuntos de datos de Adobe Experience Platform**
-
-  Journey Optimizer ahora le permite aprovechar los conjuntos de datos de Adobe Experience Platform en los siguientes objetos de Decisioning: reglas de idoneidad, fórmulas de clasificación y reglas de límite.
+  El canal Web de Journey Optimizer ahora permite redirigir a los visitantes a otra URL existente, en lugar de crear una nueva variación en el editor visual. Esta capacidad se puede utilizar para ejecutar experimentos comparando dos páginas completamente diferentes en lugar de cambiar solo unos pocos elementos dentro de una página. [Más información](../web/create-web.md#web-redirect-to-url)
 
 * **Carpetas para plantillas y fragmentos**
 
-  Las carpetas permiten organizar las plantillas y los fragmentos de contenido de forma más fácil y eficaz en una jerarquía estructurada. Antes disponibles para un conjunto de organizaciones (LA), las carpetas ya están disponibles para todos los usuarios (GA) para administrar sus plantillas de contenido y fragmentos.
+  Las carpetas permiten organizar los objetos de forma más fácil y eficaz en una jerarquía estructurada. Las carpetas, que antes solo estaban disponibles para un conjunto de organizaciones (LA), ahora lo están para que todos los usuarios (GA) administren sus plantillas y fragmentos de contenido. Obtenga más información en las secciones [Plantillas de contenido](../content-management/access-content-templates.md#folders) y [Fragmentos](../content-management/manage-fragments.md#folders).
 
-* Compatibilidad con **&#39;Redireccionar a dirección URL&#39; en el canal Web**
+* **Seguimiento de clics en plantillas de correo electrónico**
 
-  El canal Web de Journey Optimizer ahora permite redirigir a los visitantes a otra URL existente, en lugar de crear una nueva variación en el editor visual. Esta capacidad se puede utilizar para ejecutar experimentos comparando dos páginas completamente diferentes en lugar de cambiar solo unos pocos elementos dentro de una página.
-
-<!--* **Right rail in campaigns list**
-
-  In the campaign list, selecting a campaign now opens a pane displaying its details.-->
-
-* **Campos de formulario en contenido de experiencia basado en código**
-
-  En las plantillas de contenido, ahora puede definir campos JSON o HTML específicos que permitan a los usuarios no técnicos editar fácilmente el contenido en experiencias basadas en código sin necesidad de manipular el código.
-
-* **Compatibilidad con atributos de elementos de decisión para reglas de toma de decisiones**
-
-  Ahora puede aprovechar los atributos de elementos de decisión para crear reglas de toma de decisiones.
+  El rastreo de clics en `<area>` elementos dentro de los mapas de imagen en el contenido del correo electrónico ahora se admite de forma nativa en [!DNL Journey Optimizer]. Esto sirve para garantizar que las áreas de mapa de imagen reciban el mismo ajuste de seguimiento, datos de seguimiento y parámetros añadidos que los hipervínculos estándar. [Más información sobre el seguimiento de mensajes](../email/message-tracking.md#manage-tracking)
 
 <!--
+* **Decisioning - Leverage Adobe Experience Platform datasets** 
+  
+  Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.
+
+* **Right rail in campaigns list**
+
+  In the campaign list, selecting a campaign now opens a pane displaying its details.
+
+* **Form fields in code-based experience content**
+
+  In content templates, you can now define specific JSON or HTML fields which enable non-technical users to easily edit content in code-based experiences without the need to manipulate code.
+
+* **Decision item attribute support for decisioning rules**
+  
+  You can now leverage decision item attributes to create decisioning rules.
+
 * **Subdomains - 'Custom delegation' method**  
-  In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering, and tracking messages.-->
+  In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering, and tracking messages.
+  -->
 

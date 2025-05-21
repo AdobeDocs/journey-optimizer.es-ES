@@ -7,14 +7,26 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 4%
+source-wordcount: '528'
+ht-degree: 3%
 
 ---
 
 # Configuración del proveedor Infobip {#sms-configuration-infobip}
+
+>[!BEGINSHADEBOX]
+
+Si no se proporcionan las palabras clave de inclusión u exclusión, se utilizan mensajes de consentimiento estándar para respetar la privacidad del usuario. Añadir palabras clave personalizadas anula automáticamente los valores predeterminados.
+
+**Palabras clave predeterminadas:**
+
+* **Inclusión**: SUSCRIBIRSE, SÍ, NO DETENER, INICIAR, CONTINUAR, REANUDAR, INICIAR
+* **Exclusión**: DETENER, SALIR, CANCELAR, FINALIZAR, CANCELAR SUSCRIPCIÓN, NO
+* **Ayuda**: AYUDA
+
+>[!ENDSHADEBOX]
 
 Para configurar Infobip con Journey Optimizer, siga estos pasos:
 

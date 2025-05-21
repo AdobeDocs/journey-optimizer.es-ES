@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1427'
 ht-degree: 19%
 
 ---
@@ -24,10 +24,6 @@ Para administrar los fragmentos, acceda a la lista de fragmentos desde el menú 
 Se muestran todos los fragmentos que se crearon en la zona protegida actual: [del menú **[!UICONTROL Fragmentos]**](#create-fragments), o bien utilizando la opción [Guardar como fragmento](#save-as-fragment).
 
 El panel de la izquierda le permite organizar fragmentos en carpetas. De forma predeterminada, se muestran todos los fragmentos. Al seleccionar una carpeta, solo se muestran los fragmentos y carpetas incluidos en la carpeta seleccionada. [Más información](#folders)
-
->[!NOTE]
->
->Las carpetas de fragmentos solo están disponibles para un conjunto de organizaciones (disponibilidad limitada) y se implementarán gradualmente para más usuarios.
 
 ![](assets/fragment-list-folders.png)
 
@@ -63,10 +59,6 @@ Desde el botón **[!UICONTROL Más acciones]** situado junto a cada fragmento, p
 >id="ajo_fragments_folders"
 >title="Organice sus fragmentos en carpetas"
 >abstract="Utilice carpetas para clasificar y administrar sus fragmentos según las necesidades de su organización."
-
->[!AVAILABILITY]
->
->Las carpetas de fragmentos solo están disponibles para un conjunto de organizaciones (disponibilidad limitada) y se implementarán gradualmente para más usuarios.
 
 Para desplazarse fácilmente por los fragmentos, puede utilizar carpetas para organizarlos de forma más eficaz en una jerarquía estructurada. Esto le permite clasificar y administrar los elementos según las necesidades de su organización.
 

@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '603'
 ht-degree: 3%
 
 ---
@@ -25,10 +25,6 @@ Para acceder a la lista de plantillas de contenido, seleccione **[!UICONTROL Adm
 Se muestran todas las plantillas que se crearon en la zona protegida actual, ya sea desde un recorrido o desde una campaña con la opción **[!UICONTROL Guardar como plantilla]**, ya sea desde el menú **[!UICONTROL Plantillas de contenido]**. [Aprenda a crear plantillas](#create-content-templates)
 
 El panel de la izquierda le permite organizar las plantillas de contenido en carpetas. De forma predeterminada, se muestran todas las plantillas. Al seleccionar una carpeta, solo se muestran las plantillas y carpetas incluidas en la carpeta seleccionada. [Más información](#folders)
-
->[!NOTE]
->
->Las carpetas de plantillas de contenido solo están disponibles para un conjunto de organizaciones (disponibilidad limitada) y se implementarán gradualmente para más usuarios.
 
 ![](assets/content-template-list-folders.png)
 
@@ -49,10 +45,6 @@ También puede elegir mostrar únicamente los elementos que ha creado o modifica
 >A partir de marzo de 2025, las plantillas de contenido de tipo HTML quedarán obsoletas. Puede seguir teniendo acceso a las plantillas de contenido de HTML existentes creadas anteriormente en [!DNL Journey Optimizer].
 
 ## Uso de carpetas para administrar plantillas de contenido {#folders}
-
->[!AVAILABILITY]
->
->Las carpetas de plantillas de contenido solo están disponibles para un conjunto de organizaciones (disponibilidad limitada) y se implementarán gradualmente para más usuarios.
 
 Para desplazarse fácilmente por las plantillas de contenido, puede utilizar carpetas para organizarlas de forma más eficaz en una jerarquía estructurada. Esto le permite clasificar y administrar los elementos según las necesidades de su organización.
 

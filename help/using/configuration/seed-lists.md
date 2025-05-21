@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: lista de semillas, lista de semillas, semillas, configuración
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 22%
@@ -96,7 +96,7 @@ Para crear una lista semilla, siga los pasos a continuación.
 
 1. Seleccione el botón **[!UICONTROL Crear lista semilla]**.
 
-   ![](assets/seed-list-create-button.png)
+   <!--![](assets/seed-list-create-button.png)-->
 
 1. Complete los detalles. Comience agregando un nombre.
 
@@ -120,7 +120,7 @@ Para crear una lista semilla, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Puede combinar ambas opciones, pero el número total de direcciones en una lista semilla no puede superar las 50.
+   >Puede combinar ambas opciones, pero el número total de direcciones en una lista semilla no puede superar las 300.
 
 1. Haga clic en **[!UICONTROL Crear]** para confirmar. La lista semilla recién creada se muestra en la [pantalla Lista semilla](#access-seed-lists).
 
