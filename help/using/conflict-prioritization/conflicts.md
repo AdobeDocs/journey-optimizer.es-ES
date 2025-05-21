@@ -3,15 +3,20 @@ title: Identificar posibles conflictos en recorridos y campañas
 description: Aprenda a identificar conflictos potenciales en recorridos y campañas.
 role: User
 level: Beginner
+badge: label="Disponibilidad limitada"
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 16%
+source-wordcount: '816'
+ht-degree: 21%
 
 ---
 
 # Detección de posibles conflictos en recorridos y campañas {#conflict}
+
+>[!AVAILABILITY]
+>
+>Las funciones de conflictos y priorización están disponibles en Disponibilidad limitada para un grupo selecto de clientes. Tenga en cuenta que estas funciones se implementarán gradualmente para más usuarios en el futuro. Póngase en contacto con el equipo de la cuenta si está interesado en que se le añada a la lista de espera de estas funciones.
 
 A medida que los especialistas en marketing aumentan el volumen de campañas y Recorridos en Journey Optimizer, se hace cada vez más difícil para un experto en marketing saber si está bombardeando a sus clientes con demasiadas interacciones de marketing. por lo tanto, es esencial identificar fácilmente cuándo hay campañas y recorridos superpuestos para garantizar que logren el equilibrio adecuado en las comunicaciones de marketing y, al mismo tiempo, mitigar el riesgo de fatiga de los clientes.
 
@@ -22,6 +27,10 @@ Las áreas clave para monitorizar la posible superposición son las siguientes:
 * **Canal**: ¿Hay otras comunicaciones programadas para el mismo periodo de tiempo y, si es así, cuántas?
 * **Conjunto de reglas de límite**: ¿Qué tipos de recorridos limito y hay superposición dentro de ellos?
 * **Configuración del canal**: ¿Hay otros recorridos o campañas que usan alguna configuración de canal que se esté usando en el mismo recorrido o campaña y que podrían impedir que el recorrido o la campaña se muestre al usuario final?
+
+>[!NOTE]
+>
+>En las campañas, la puntuación de prioridad solo está disponible para los canales entrantes web, en la aplicación y basados en código.
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
@@ -65,7 +74,7 @@ Al crear un recorrido o una campaña, Journey Optimizer le permite comprobar si 
 
    >[!NOTE]
    >
-   >Debido a que el almacenamiento en caché ha implementado, es posible que las campañas y los recorridos publicados recientemente tarden entre tres y siete minutos en mostrarse en el visor de conflictos.
+   >Las campañas recién publicadas pueden tardar hasta 5 minutos en mostrarse en el visor de conflictos debido al almacenamiento en caché implementado
 
 Para restringir aún más la búsqueda de posibles superposiciones, puede filtrar la lista de campañas y recorridos en función de los campos que sean relevantes. Para ello, seleccione el icono de filtro en la vista de inventario. [Aprenda a trabajar con filtros](../start/search-filter-categorize.md#filter-lists)
 

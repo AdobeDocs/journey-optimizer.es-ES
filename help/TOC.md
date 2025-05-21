@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '2390'
-ht-degree: 97%
+source-wordcount: '2378'
+ht-degree: 98%
 
 ---
 
@@ -213,10 +213,7 @@ ht-degree: 97%
    + [Introducción a la administración y priorización de conflictos](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificar posibles conflictos](using/conflict-prioritization/conflicts.md)
    + [Asignar puntuaciones de prioridad](using/conflict-prioritization/priority-scores.md)
-Establecer reglas de límite de mensajes y recorridos {#capping-rules}
-      + [Trabajar con conjuntos de reglas](using/conflict-prioritization/rule-sets.md)
-      + [Límite y arbitraje de recorrido](using/conflict-prioritization/journey-capping.md)
-      + [Límite de frecuencia por canal y tipo de comunicación](using/conflict-prioritization/channel-capping.md)
+   + [Límite y arbitraje de recorrido](using/conflict-prioritization/journey-capping.md)
 + Prueba y aprobación  {#test}
    + Vista previa y prueba del contenido  {#preview-test}
       + [Introducción a la vista previa y prueba](using/content-management/preview-test.md)
@@ -733,6 +730,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
    + [Asistencia para el archivado](using/configuration/archiving-support.md)
    + [Cambio de direcciones de ejecución](using/configuration/primary-email-addresses.md)
    + [Configurar reglas empresariales](using/configuration/frequency-rules.md)
+   + [Trabajar con conjuntos de reglas](using/configuration/rule-sets.md)
 + Configuración de recorrido {#configure-journeys}
    + [Configuración de fuentes de datos, eventos y acciones](using/configuration/about-data-sources-events-actions.md)
    + Configuración de evento {#events-journeys}

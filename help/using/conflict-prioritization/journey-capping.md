@@ -3,15 +3,20 @@ title: Límite y arbitraje de recorrido
 description: Obtenga información sobre cómo crear reglas de límite para los recorridos y cómo arbitrar la entrada de recorridos
 role: User
 level: Beginner
+badge: label="Disponibilidad limitada"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 19%
+source-wordcount: '943'
+ht-degree: 25%
 
 ---
 
 # Límite y arbitraje de recorrido {#journey-capping}
+
+>[!AVAILABILITY]
+>
+>Las funciones de conflictos y priorización están disponibles en Disponibilidad limitada para un grupo selecto de clientes. Tenga en cuenta que estas funciones se implementarán gradualmente para más usuarios en el futuro. Póngase en contacto con el equipo de la cuenta si está interesado en que se le añada a la lista de espera de estas funciones.
 
 La restricción de recorrido le ayuda a limitar el número de recorridos en los que se puede inscribir un perfil, lo que evita la sobrecarga de comunicaciones. En Journey Optimizer, puede establecer dos tipos de reglas de límite:
 
@@ -19,6 +24,10 @@ La restricción de recorrido le ayuda a limitar el número de recorridos en los 
 * **Límite de concurrencia** limita la cantidad de recorridos en los que se puede inscribir un perfil simultáneamente.
 
 Ambos tipos de límite de recorrido aprovechan las puntuaciones de prioridad para arbitrar entradas.
+
+>[!AVAILABILITY]
+>
+>Los conjuntos de reglas de dominio **Recorrido** solo están disponibles para un conjunto limitado de usuarios (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
@@ -48,49 +57,59 @@ Para crear una regla de límite de recorrido, siga estos pasos:
 
      ![](assets/journey-capping-rule-set.png)
 
-1. En la pantalla del conjunto de reglas, haga clic en el botón **[!UICONTROL Agregar regla]** y proporcione un nombre único para la regla.
-
-1. En la lista desplegable **[!UICONTROL Tipo de regla]**, especifique el tipo de límite para la regla.
-
-   * **[!UICONTROL Límite de entrada de Recorrido]**: Limita el número de entradas en el recorrido durante un período determinado para un perfil.
-   * **[!UICONTROL Límite de concurrencia de Recorrido]**: Limita la cantidad de recorridos en los que se puede inscribir un perfil simultáneamente.
+1. En la pantalla del conjunto de reglas, haga clic en el botón **[!UICONTROL Agregar regla]** y, a continuación, configure la regla para adaptarla a sus necesidades:
 
    ![](assets/journey-capping-concurrency.png)
 
-1. Expanda las secciones siguientes para aprender a configurar cada tipo de límite:
+   * Proporcione un nombre único para la regla.
 
-   +++Configuración de una regla de límite de entrada de recorrido
+   * En la lista desplegable **[!UICONTROL Tipo de regla]**, especifique el tipo de límite para la regla.
 
-   1. En el campo **[!UICONTROL Límite]**, establezca el número máximo de recorridos que puede ingresar un perfil.
-   1. En el campo **[!UICONTROL Duración]**, defina el período de tiempo que debe tenerse en cuenta. Tenga en cuenta que la duración se basa en la zona horaria UTC. Por ejemplo, el Límite diario se restablecerá a medianoche UTC.
+      * **[!UICONTROL Límite de entrada de Recorrido]**: Limita el número de entradas en el recorrido durante un período determinado para un perfil.
+      * **[!UICONTROL Límite de concurrencia de Recorrido]**: Limita la cantidad de recorridos en los que se puede inscribir un perfil simultáneamente.
 
-   En este ejemplo, queremos restringir la entrada de perfiles en más de &quot;5&quot; recorridos en un mes.
+   * Expanda las secciones siguientes para aprender a configurar cada tipo de límite:
 
-   ![](assets/journey-capping-entry-example.png)
+     +++Configuración de una regla de límite de entrada de recorrido
 
-   >[!NOTE]
-   >
-   >El sistema tendrá en cuenta la prioridad de los próximos recorridos programados que tengan aplicada esta misma regla.
-   >
-   >En este ejemplo, si el especialista en marketing ya ha introducido 4 recorridos y hay otro recorrido programado para este mes con una prioridad más alta, se impedirá que los clientes entren en el recorrido de prioridad más baja.
+      1. En el campo **[!UICONTROL Límite]**, establezca el número máximo de recorridos que puede ingresar un perfil.
+      1. En el campo **[!UICONTROL Duración]**, defina el período de tiempo que debe tenerse en cuenta. Tenga en cuenta que la duración se basa en la zona horaria UTC. Por ejemplo, el Límite diario se restablecerá a medianoche UTC.
 
-   +++
+     >[!AVAILABILITY]
+     >
+     >La duración &quot;Diaria&quot; solo está disponible para un conjunto de organizaciones (Disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
-   +++Configuración de una regla de límite de concurrencia de recorrido
+     En este ejemplo, queremos restringir la entrada de perfiles en más de &quot;5&quot; recorridos en un mes.
 
-   1. En el campo **[!UICONTROL Límite]**, establezca el número máximo de recorridos en los que se puede inscribir un perfil simultáneamente.
+     ![](assets/journey-capping-entry-example.png)
 
-   1. Utilice el campo **[!UICONTROL Establecimiento de prioridades para mirar hacia delante]** para arbitrar las entradas de recorridos en función de las puntuaciones de prioridad durante un período elegido (por ejemplo, 1 día, 7 días, 30 días). Esto ayuda a priorizar la entrada en recorridos de mayor valor si un perfil es apto para varios recorridos.
+     >[!NOTE]
+     >
+     >El sistema tendrá en cuenta la prioridad de los próximos recorridos programados que tengan aplicada esta misma regla.
+     >
+     >En este ejemplo, si el especialista en marketing ya ha introducido 4 recorridos y hay otro recorrido programado para este mes con una prioridad más alta, se impedirá que los clientes entren en el recorrido de prioridad más baja.
 
-   En este ejemplo, queremos restringir la entrada de perfiles en la recorrido si ya están inscritos en otro recorrido que contenga el mismo conjunto de reglas. Si otro recorrido en los próximos 7 días tiene una puntuación de prioridad más alta, el perfil no entrará en este recorrido.
++++
 
-   ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
+     +++Configuración de una regla de límite de concurrencia de recorrido
 
-   +++
+      1. En el campo **[!UICONTROL Límite]**, establezca el número máximo de recorridos en los que se puede inscribir un perfil simultáneamente.
 
-1. Repita los pasos anteriores para agregar tantas reglas como sea necesario al conjunto de reglas.
+      1. Utilice el campo **[!UICONTROL Establecimiento de prioridades para mirar hacia delante]** para arbitrar las entradas de recorridos en función de las puntuaciones de prioridad durante un período elegido (por ejemplo, 1 día, 7 días, 30 días). Esto ayuda a priorizar la entrada en recorridos de mayor valor si un perfil es apto para varios recorridos.
 
-1. Cuando la regla de límite esté lista para aplicarse a los recorridos, active la regla y el conjunto de reglas donde se ha agregado. [Aprenda a activar conjuntos de reglas](../conflict-prioritization/rule-sets.md#create)
+     En este ejemplo, queremos restringir la entrada de perfiles en la recorrido si ya están inscritos en otro recorrido que contenga el mismo conjunto de reglas. Si otro recorrido en los próximos 7 días tiene una puntuación de prioridad más alta, el perfil no entrará en este recorrido.
+
+     ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
+
++++
+
+1. Cuando la regla de límite esté lista para aplicarse a los recorridos, actívela haciendo clic en el botón de puntos suspensivos situado junto a su nombre.
+
+   ![](assets/journey-capping-activate-rule.png)
+
+1. Active todo el conjunto de reglas haciendo clic en el botón de puntos suspensivos situado junto al botón Agregar regla en la esquina superior derecha de la pantalla.
+
+   ![](assets/journey-capping-activate-rule-set.png)
 
 ## Aplicación de reglas de restricción a los recorridos {#apply-capping}
 
@@ -103,18 +122,14 @@ Para aplicar una regla de límite a un recorrido, acceda al recorrido y abra sus
 
 ![](assets/journey-capping-apply.png)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Si un recorrido se activa inmediatamente, el sistema puede tardar hasta 10 minutos en empezar a suprimir clientes. Como resultado, se muestra un mensaje si intenta publicar un recorrido con una hora de inicio inferior a 10 minutos.
+>Si un recorrido se activa inmediatamente, el sistema puede tardar hasta 20 minutos en empezar a suprimir clientes. Puede programar su recorrido para que comience al menos 20 minutos en el futuro para evitar esta posibilidad.
 
-## Supervisar exclusiones de conjuntos de reglas {#monitor}
-
-Una vez que un recorrido está activo, puede registrar en el informe de recorrido si el conjunto de reglas ha dado lugar a alguna exclusión del recorrido, en la tabla **[!UICONTROL Exclusiones de Recorrido]**. La tabla Exclusiones de Recorrido incluye desgloses detallados de las exclusiones por conjunto de reglas y nombre de regla, lo que proporciona información sobre por qué se descartaron los perfiles. [Aprenda a trabajar con informes de recorrido](../reports/journey-global-report-cja.md)
+Una vez que el recorrido esté activo, puede registrar en el informe de recorrido si el conjunto de reglas ha dado lugar a alguna exclusión del recorrido, en la tabla **[!UICONTROL Exclusiones de Recorrido]**. [Aprenda a trabajar con informes de recorrido](../reports/journey-global-report-cja.md)
 
 ![](assets/journey-report.png)
 
-Además, también puede aprovechar Adobe Experience Platform **Query service** para generar consultas a fin de identificar qué regla impidió que un perfil entrara en un recorrido determinado. Hay un ejemplo de consulta disponible en [esta sección](../reports/query-examples.md#common-queries).
-
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447617?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
