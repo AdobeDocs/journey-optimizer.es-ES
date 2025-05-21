@@ -5,16 +5,14 @@ role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: f55f985375cf360ce55074cb227b6c424db05b5c
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '677'
 ht-degree: 94%
 
 ---
 
 # Administración y priorización de conflictos {#conflict-prioritization}
-
-## Herramientas de administración y priorización de conflictos {#tools}
 
 >[!AVAILABILITY]
 >
