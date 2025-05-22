@@ -136,4 +136,4 @@ Puede evaluar hasta 20 audiencias a la vez, y las audiencias que no cumplan los 
 
 Descubra cómo Journey Optimizer utiliza reglas para generar público y aprenda a utilizar atributos, eventos y audiencias existentes para crear público.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430332?quality=12&captions=spa)
