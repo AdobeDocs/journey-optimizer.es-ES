@@ -8,8 +8,8 @@ description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 29%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -261,7 +261,7 @@ Las mejoras incluidas en esta versión se enumeran a continuación.
 
 * Activación de **píldoras para personalización** - Fecha de disponibilidad: 5 de mayo de 2025
 
-  Se ha añadido un nuevo botón &quot;Píldoras&quot; al editor de personalización. Cuando se habilita, los atributos contextuales y de perfil se muestran como píldoras, lo que mejora la legibilidad del código. [Más información](../personalization/personalization-build-expressions.md#options)
+  Se ha añadido el nuevo botón “píldoras” al editor de personalización. Cuando se habilita, los atributos contextuales y de perfil se muestran como píldoras, lo que mejora la legibilidad del código. [Más información](../personalization/personalization-build-expressions.md#options)
 
   >[!AVAILABILITY]
   >

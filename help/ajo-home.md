@@ -7,8 +7,8 @@ product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 82%
 
 ## Novedades
 
-Eche un vistazo a las mejoras más recientes del producto y a la documentación de Journey Optimizer. Para obtener una lista completa de funciones, mejoras y correcciones, consulte los detalles de las [Notas de la versión](using/rn/release-notes.md). Visite la [página de actualizaciones de la documentación](using/rn/documentation-updates.md) para mantenerse al día de los últimos cambios en la documentación del producto.
+Eche un vistazo a las mejoras más recientes del producto y a la documentación de Journey Optimizer. Para obtener una lista completa de funciones, mejoras y correcciones, consulte los detalles de las [Notas de la versión](using/rn/release-notes.md). Visite la [página de actualizaciones de la documentación](using/rn/documentation-updates.md) para mantenerse al día con los cambios más recientes en la documentación del producto.
 
 >[!BEGINTABS]
 
@@ -26,7 +26,7 @@ La versión de mayo ya está activa. Consulte las Notas de la versión para desc
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Integración de Adobe Express]
+>[!TAB Integración con Adobe Express]
 
 Adobe Journey Optimizer ahora se integra con Adobe Express, lo que le permite conectar sin problemas sus recursos creativos con la orquestación de recorrido.
 

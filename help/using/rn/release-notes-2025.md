@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,22 +22,22 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 ## Notas de la versión de abril de 2025 {#25-4-rn}
 
-**Fecha de lanzamiento**: 29-30 de abril de 2025
+**Fecha de lanzamiento**: del 29 al 30 de abril de 2025
 
 ### Nuevas funciones {#25-04-features}
 
-A continuación, se enumeran las nuevas funciones incluidas en esta versión.
+A continuación, se describen las nuevas funciones incluidas en esta versión.
 
 <table>
 <thead>
 <tr>
-<th><strong>Editor de personalización: aprendizaje práctico</strong><br/></th>
+<th><strong>Editor de personalización: Aprenda haciendo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ya está disponible un sitio de prueba de personalización, donde puede experimentar con expresiones de personalización. Le permite explorar plantillas y cargas útiles de muestra para empezar a probar sus propias expresiones de personalización.</p>
+<p>Ya está disponible un área de reproducción de personalización, donde puede experimentar con expresiones de personalización. Le permite explorar plantillas y cargas útiles de ejemplo para ayudarle a empezar y probar sus propias expresiones de personalización.</p>
 <p>Para obtener más información, consulte la <a href="../personalization/personalize.md#playground">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 24 de abril de 2025</p>
 <img src="assets/do-not-localize/templating-playground.gif"/>
@@ -89,7 +89,7 @@ A continuación, se enumeran las nuevas funciones incluidas en esta versión.
 <tr>
 <td>
 <p>Adobe Journey Optimizer ha ampliado sus funcionalidades en canales múltiples para incluir la compatibilidad con el canal LINE. Esta mejora le permite crear, editar y previsualizar experiencias de LINE, permitiendo interacciones más personalizadas y atractivas. Con LINE, puede conectarse con más clientes, enviar contenido relevante y mejorar su participación.</p>
-<p>El canal LINE está habilitado para los clientes de Adobe Journey Optimizer bajo petición. Póngase en contacto con el Servicio de atención al cliente de Adobe o con su representante de Adobe para activar la función para su organización.</p>
+<p>El canal LINE está habilitado para los clientes de Adobe Journey Optimizer previa solicitud. Póngase en contacto con el Servicio de atención al cliente de Adobe o con su representante de Adobe para activar la función para su organización.</p>
 <p>Para obtener más información, consulte la <a href="../line/get-started-line.md">documentación detallada</a>.</p></td>
 </tr>
 </tbody>
@@ -170,13 +170,13 @@ A continuación, se enumeran las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Activar las ejecuciones diarias después de la finalización de la segmentación por lotes (disponibilidad limitada)</strong><br/></th>
+<th><strong>Activación de ejecuciones de recorrido diarias tras la finalización de la segmentación por lotes (disponibilidad limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>En el caso de los recorridos programados diariamente, una nueva opción le permite definir un intervalo de tiempo de hasta 6 horas para esperar los datos del público procedentes de los trabajos de segmentación por lotes, lo que garantiza que los recorridos se ejecuten con los datos más actualizados o se omitan si no están listos. La opción Activar después de la evaluación del público por lotes solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>En el caso de los recorridos programados diariamente, una nueva opción le permite definir un intervalo de tiempo de hasta 6 horas para esperar los datos de audiencia de los trabajos de segmentación por lotes, lo que garantiza que los recorridos se ejecuten con los datos más actualizados o se omitan si no están listos. La opción Activar tras evaluación de público por lotes solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/read-audience.md#schedule">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -206,13 +206,13 @@ A continuación, se enumeran las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Puntuación de alineación con la marca (Beta)</strong><br/></th>
+<th><strong>Puntuación de alineación con la marca (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La función de puntuación de alineación con la marca proporciona comentarios claros directamente en el diseñador de correo electrónico, lo que le ayuda a ver si el contenido se ajusta al tono, el estilo y las directrices de la marca. Esta función está disponible en Beta.</p>
+<p>La función de puntuación de alineación de marca proporciona comentarios claros directamente en el diseñador de correo electrónico, lo que le ayuda a ver si el contenido se ajusta al tono, al estilo y a las directrices de la marca. Esta función está disponible en Beta.</p>
 <p>Para obtener más información, consulte la <a href="../content-management/brands-score.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -248,11 +248,11 @@ Hay nuevas API disponibles para previsualizar campañas, además de las capacida
 
 **Herramientas de la zona protegida**
 
-* **Herramientas de la zona protegida para acciones personalizadas**
+* **Herramientas de zona protegida para acciones personalizadas**
 
-  Las acciones personalizadas ahora se incluyen en la lista de objetos de Adobe Journey Optimizer que se pueden copiar mediante la función de herramientas de la zona protegida, lo que optimiza las pruebas y la implementación. [Más información](../configuration/copy-objects-to-sandbox.md)
+  Las acciones personalizadas ahora se incluyen en la lista de objetos de Adobe Journey Optimizer que se pueden copiar mediante la función de herramientas de zona protegida, lo que optimiza las pruebas y la implementación. [Más información](../configuration/copy-objects-to-sandbox.md)
 
-* **Herramientas de la zona protegida para campañas**. Fecha de disponibilidad: 3 de abril de 2025
+* **Herramientas de zona protegida para campañas**. Fecha de disponibilidad: 3 de abril de 2025
 
   Ahora puede copiar campañas en varias zonas protegidas mediante las funciones de exportación e importación de paquetes. Las campañas se copian junto con todos los elementos relacionados con el perfil, el público, el esquema, los mensajes en línea y los objetos dependientes. Algunos elementos no se copian, como los elementos de decisión, las etiquetas de uso de datos y la configuración de idioma. [Más información](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -260,7 +260,7 @@ Hay nuevas API disponibles para previsualizar campañas, además de las capacida
 
 * **Nuevo atributo contextual**
 
-  Ahora hay disponible un nuevo atributo contextual, **ID de perfil de mensaje**, que se puede seleccionar en el editor de personalización. Es un atributo orientado a los mensajes que identifica de forma exclusiva cada mensaje enviado a cada perfil de destinatario en un envío. Este identificador único se puede utilizar, por ejemplo, como parámetro de seguimiento de URL para distinguir cada vínculo abierto o en el que los destinatarios hacen clic.
+  Ahora hay disponible un nuevo atributo contextual, **ID de perfil de mensaje**, que se puede seleccionar en el editor de personalización. Es un atributo orientado a mensajes que identifica de forma exclusiva cada mensaje enviado a cada perfil de destino en un envío. Este identificador único se puede utilizar, por ejemplo, como parámetro de seguimiento de URL para distinguir cada vínculo abierto o en el que los destinatarios hacen clic.
 
 * **Atributos rellenados en el panel de atributos**. Fecha de disponibilidad: 2 de abril de 2025
 
@@ -268,7 +268,7 @@ Hay nuevas API disponibles para previsualizar campañas, además de las capacida
 
 **Canal de correo electrónico**
 
-* **Seguimiento personalizado de URL** - Fecha de disponibilidad: 30 de abril de 2025
+* **Seguimiento personalizado de URL**. Fecha de disponibilidad: 30 de abril de 2025
 
   Para obtener una mayor flexibilidad y control sobre la configuración del correo electrónico, ahora puede personalizar todos los parámetros de seguimiento de URL a la vez en el nivel de configuración del canal de correo electrónico, en lugar de hacerlo en el Diseñador de correo electrónico para cada vínculo del contenido. [Más información](../email/surface-personalization.md#personalize-url-tracking)
 
@@ -276,7 +276,7 @@ Hay nuevas API disponibles para previsualizar campañas, además de las capacida
 
   Para mejorar la accesibilidad en Journey Optimizer, ahora hay dos campos nuevos disponibles en Diseñador de correo electrónico: se corresponden con el elemento `<title>` y el atributo `lang` en el elemento `<html>` del contenido del correo electrónico. Puede definir esta configuración, además del campo **[!UICONTROL Preencabezado]**, en la sección **[!UICONTROL Cuerpo]** del correo electrónico. [Más información](../email/email-metadata.md)
 
-**Libros de casos de uso**
+**Manuales de tácticas de casos de uso**
 
 * **Creación y uso compartido de libros de reproducción (beta privada)**: ahora puede crear, administrar y compartir sus propios libros de reproducción de casos de uso. Actualmente, esta funcionalidad solo está disponible para un conjunto de organizaciones como una versión beta privada. Para obtener acceso, póngase en contacto con su representante de Adobe. [Más información](../start/playbooks.md)
 
@@ -477,7 +477,7 @@ Para obtener más información, consulte la [documentación detallada](../test-a
 
 **Reglas empresariales**
 
-Ahora puede usar la restricción de frecuencia diaria en recorridos y campañas con la segmentación por lotes. Para garantizar la precisión de las reglas de restricción de frecuencia diaria, asegúrese de elegir el espacio de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información sobre la prioridad del espacio de nombres en la [guía del servicio de identidad de Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Ahora puede usar la restricción de frecuencia diaria en recorridos y campañas con la segmentación por lotes. Para garantizar la precisión de las reglas de restricción de frecuencia diaria, asegúrese de elegir el espacio de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información sobre la prioridad del espacio de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Como recordatorio, la restricción de frecuencia diaria en los conjuntos de reglas solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
@@ -532,7 +532,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear contenido atractivo para sus páginas de aterrizaje, incluidos diseños de página completa, texto personalizado y elementos visuales personalizados, con la ayuda del Asistente de IA.</p>
+<p>Ahora puede crear contenido atractivo para sus páginas de aterrizaje, incluidos diseños de página completa, texto personalizado e imágenes personalizadas, con la ayuda del Asistente de IA.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Para obtener más información, consulte la <a href="../content-management/generative-lp.md">documentación detallada</a>.</p>
 </td>
@@ -544,7 +544,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Marcas con el Asistente de IA (Beta)</strong><br/></th>
+<th><strong>Marcas con el asistente de IA (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
