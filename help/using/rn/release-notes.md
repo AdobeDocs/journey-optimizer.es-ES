@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
+source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '926'
+ht-degree: 32%
 
 ---
 
@@ -29,6 +29,56 @@ ht-degree: 0%
 ### Nuevas funciones {#25-05-features}
 
 A continuación, se describen las nuevas funciones incluidas en esta versión.
+
+<table>
+<thead>
+<tr>
+<th><strong>Integración de fragmentos de contenido de Adobe Experience Manager</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con la integración de Adobe Experience Manager y Adobe Journey Optimizer, ahora puede utilizar sin esfuerzo fragmentos de contenido de Adobe Experience Manager dentro de su contenido de Journey Optimizer. Esta conexión perfecta facilita el acceso y el uso del contenido de AEM directamente en Journey Optimizer.</p>
+<p>Esta capacidad, que antes estaba disponible para un conjunto limitado de organizaciones (LA), ahora es GA con la siguiente mejora:</p>
+<ul>
+<!--li>Create offers by directly selecting an AEM Content Fragment.</li-->
+<li>Defina los marcadores de posición y asigne los valores de personalización dentro de la firma del fragmento con el modo Editor.</li>
+</ul>
+
+<p>Para obtener más información, consulte la <a href="../integrations/aem-fragments.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: sábado, 23 de mayo de 2025</p>
+</br>
+<img src="assets/do-not-localize/content-fragment.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Integración de Dynamic Media de Adobe Experience Manager</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Los recursos de Dynamic Media ahora están disponibles y son accesibles directamente en Journey Optimizer. Esta actividad le permite lo siguiente:</p>
+<ul>
+<li>Administre los recursos de forma centralizada con actualizaciones en tiempo real.</li>
+<li>Modifique la configuración de los recursos, como la anchura y la altura, instantáneamente.</li>
+<li>Personalice las plantillas de Dynamic Media actualizando el contenido y añadiendo campos de personalización.</li>
+</ul>
+<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Para obtener más información, consulte la <a href="../integrations/aem-dynamic.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: sábado, 23 de mayo de 2025</p>
+</br>
+<img src="assets/do-not-localize/dynamic_media_template_html.gif">
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -85,27 +135,6 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Adobe Experience Manager Content fragment integration</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the integration of Adobe Experience Manager and Adobe Journey Optimizer, you can now effortlessly use Adobe Experience Manager Content Fragments within your Journey Optimizer content. This seamless connection makes it easier to access and use your AEM content directly in Journey Optimizer.</p>
-<p>Previously available for a limited set of organizations (LA), this capability is now GA with the following enhancements:</p>
-<ul>
-<li>Create offers by directly selecting an AEM Content Fragment.</li>
-<li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li>
-</ul>
-<img src="assets/do-not-localize/content-fragment.gif">
-</td>
-</tr>
-</tbody>
-</table-->
-
 <!--<table>
 <thead>
 <tr>
@@ -123,28 +152,6 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 </tr>
 </tbody>
 </table>-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Adobe Experience Manager Dynamic media integration</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Dynamic media assets are now directly available and accessible in Journey Optimizer. This integration enables you to:</p>
-<ul>
-<li>Centrally manage assets with real-time updates.</li>
-<li>Modify your assets settings such as width and height instantly.</li>
-<li>Customize Dynamic Media templates by updating your content and adding personalization fields.</li>
-</ul>
-<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<img src="assets/do-not-localize/dynamic_media_template_html.gif">
-</td>
-</tr>
-</tbody>
-</table-->
 
 <!--<table>
 <thead>
