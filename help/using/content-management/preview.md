@@ -5,26 +5,18 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 4%
 
 ---
 
 # Vista previa del contenido mediante perfiles de prueba {#preview}
 
-<!--## Preview your content {#preview-content}-->
+Una vez que se hayan seleccionado [perfiles de prueba](test-profiles.md), puede obtener una vista previa del contenido usando sus datos. Siga estos pasos:
 
-Una vez definidos los [perfiles de prueba](test-profiles.md), puede obtener una vista previa del contenido.
-
->[!NOTE]
->
->[!DNL Journey optimizer] también le permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV / JSON, o añadidos manualmente. [Aprenda a probar el contenido con datos de entrada de ejemplo](../test-approve/simulate-sample-input.md)
-
-Para obtener una vista previa del contenido mediante perfiles de prueba, siga estos pasos:
-
-1. En la pantalla Editar contenido del mensaje o en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]**.
+1. En la pantalla de edición de contenido del mensaje o en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]** y seleccione **[!UICONTROL Contenido de sumulaye]**.
 
 1. Seleccione un perfil de prueba. Puede comprobar los valores disponibles en las columnas. Utilice las flechas derecha e izquierda para examinar los datos.
 
@@ -46,9 +38,12 @@ Para obtener una vista previa del contenido mediante perfiles de prueba, siga es
 
 1. Seleccione otros perfiles de prueba para previsualizar el correo electrónico para cada variante del mensaje.
 
->[!NOTE]
->
->Si se encuentra un error en los detalles de configuración, haga clic en el botón **[!UICONTROL Ver detalles de configuración]**. [Más información](../email/surface-personalization.md#check-configuration)
+   >[!NOTE]
+   >
+   >Si se encuentra un error en los detalles de configuración, haga clic en el botón **[!UICONTROL Ver detalles de configuración]**. [Más información](../email/surface-personalization.md#check-configuration)
 
 Al crear experiencias basadas en código, puede obtener una vista previa del contenido personalizado directamente en el explorador o en los dispositivos móviles para una simulación en tiempo real. [Más información](../code-based/test-code-based.md#preview-on-device)
 
+>[!NOTE]
+>
+>[!DNL Journey optimizer] también le permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV / JSON, o añadidos manualmente. [Aprenda a simular variaciones de contenido](../test-approve/simulate-sample-input.md)

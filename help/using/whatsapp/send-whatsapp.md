@@ -10,29 +10,30 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 2%
+source-wordcount: '266'
+ht-degree: 9%
 
 ---
 
-# Comprueba y envía tus mensajes de WhatsApp {#send-whatsapp}
+# Comprobación y envío de los mensajes de WhatsApp {#send-whatsapp}
 
 >[!BEGINSHADEBOX]
 
-**Tabla de contenido**
+**Tabla de contenidos**
 
 * [Introducción a los mensajes de WhatsApp](get-started-whatsapp.md)
 * [Introducción a la configuración de WhatsApp](whatsapp-configuration.md)
-* [Crear un mensaje de WhatsApp](create-whatsapp.md)
+* [Creación de un mensaje de WhatsApp](create-whatsapp.md)
 * **[Comprueba y envía tus mensajes de WhatsApp](send-whatsapp.md)**
 
 >[!ENDSHADEBOX]
 
 ## Previsualiza tu mensaje de WhatsApp {#preview-whatsapp}
 
-Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba o datos de entrada de muestra cargados desde un archivo CSV/JSON, o añadidos manualmente para previsualizar su contenido. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje. [Aprenda a probar el contenido con datos de entrada de ejemplo](../test-approve/simulate-sample-input.md)
+Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba o datos de entrada de muestra cargados desde un archivo CSV/JSON, o añadidos manualmente para previsualizar su contenido. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje.
 
 Para ello, haga clic en **[!UICONTROL Simular contenido]** y compruebe su mensaje con los datos del perfil de prueba.
 

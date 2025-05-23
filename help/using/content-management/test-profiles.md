@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: bc433a215021b9c5c6a8948468468808e7121712
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 13%
+source-wordcount: '276'
+ht-degree: 10%
 
 ---
 
@@ -19,15 +19,11 @@ ht-degree: 13%
 >title="Utilice perfiles de prueba para comprobar el contenido"
 >abstract="Utilice perfiles de prueba para previsualizar y probar el contenido. Si ha añadido campos personalizados, puede comprobar cómo se muestran utilizando datos de perfil de prueba."
 
-Antes de previsualizar o probar el contenido, primero debe seleccionar perfiles de prueba, que son destinatarios adicionales que no coinciden con los criterios de objetivo definidos. [Aprenda a crear perfiles de prueba](../audience/creating-test-profiles.md)
+Los perfiles de prueba son destinatarios adicionales que no coinciden con los criterios de objetivo definidos. [Aprenda a crear perfiles de prueba](../audience/creating-test-profiles.md)
 
->[!NOTE]
->
->Además de los perfiles de prueba, [!DNL Journey optimizer] también le permite probar distintas variantes del contenido mediante la vista previa y el envío de pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV/JSON, o agregados manualmente. [Aprenda a probar el contenido con datos de entrada de ejemplo](../test-approve/simulate-sample-input.md)
+Antes de usar perfiles de prueba para probar el contenido, primero debe seleccionarlos. Para ello, siga estos pasos:
 
-Para seleccionar perfiles de prueba, siga estos pasos:
-
-1. En la pantalla Editar contenido del mensaje o en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]**.
+1. En la pantalla de edición de contenido del mensaje o en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]** y seleccione **[!UICONTROL Contenido de sumulaye]**.
 
 1. Haga clic en el botón **[!UICONTROL Administrar perfiles de prueba]** y, a continuación, seleccione el área de nombres que se utilizará para identificar los perfiles de prueba haciendo clic en el icono de selección **[!UICONTROL Área de nombres de identidad]**. [Obtenga más información acerca de áreas de nombres de identidad de Adobe Experience Platform](../audience/get-started-identity.md).
 
@@ -48,3 +44,7 @@ Para seleccionar perfiles de prueba, siga estos pasos:
    ![](../email/assets/preview-profile-list.png)
 
    En función de los elementos de personalización de mensajes, esta lista muestra los datos de cada perfil de prueba en las columnas relacionadas.
+
+>[!NOTE]
+>
+>Además de los perfiles de prueba, [!DNL Journey optimizer] también le permite probar distintas variantes del contenido mediante la vista previa y el envío de pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV/JSON, o agregados manualmente. [Aprenda a simular variaciones de contenido](../test-approve/simulate-sample-input.md)

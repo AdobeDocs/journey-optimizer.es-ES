@@ -5,25 +5,22 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 80935cc31ef88a322c2dd555fc8998935c6e5621
+source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 15%
+source-wordcount: '286'
+ht-degree: 16%
 
 ---
 
-# Envío de pruebas de correo electrónico {#send-proofs}
+# Envío de pruebas mediante datos de perfiles de prueba {#send-proofs}
 
 Una prueba es un mensaje específico que le permite probar un mensaje antes de enviarlo al público principal. Los destinatarios de la prueba se encargan de aprobar el mensaje: procesamiento, contenido, valores de ajuste de personalización, configuración.
 
-Tenga en cuenta que [!DNL Journey optimizer] también le permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV/JSON, o añadidos manualmente. [Aprenda a probar el contenido con datos de entrada de ejemplo](../test-approve/simulate-sample-input.md)
-
->[!PREREQUISITES]
+>[!NOTE]
 >
->Para enviar pruebas, debe tener los permisos de **Aprobar y publicar** para el recurso específico (campaña o recorrido) asociado al correo electrónico. Además, para enviar pruebas en un recorrido, también se requiere el permiso **Publicar recorrido**. [Más información sobre los permisos](../administration/ootb-permissions.md).
+>[!DNL Journey optimizer] también le permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV / JSON, o añadidos manualmente. [Aprenda a simular variaciones de contenido](../test-approve/simulate-sample-input.md)
 
-
-Para enviar pruebas por correo electrónico, primero debe seleccionar [perfiles de prueba](test-profiles.md). A continuación, siga estos pasos:
+Para enviar pruebas de correo electrónico utilizando datos de perfiles de prueba, primero debe seleccionar [perfiles de prueba](test-profiles.md). A continuación, siga estos pasos:
 
 1. En la pantalla **[!UICONTROL Simular]**, haga clic en el botón **[!UICONTROL Enviar revisión]**.
 

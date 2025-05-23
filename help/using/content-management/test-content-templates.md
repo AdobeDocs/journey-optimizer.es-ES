@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 5%
+source-wordcount: '252'
+ht-degree: 4%
 
 ---
 
@@ -26,6 +26,10 @@ Puede probar la renderización de algunas de las plantillas de correo electróni
 1. Haga clic en **[!UICONTROL Simular contenido]** y seleccione un perfil de prueba para comprobar su renderización. [Más información](../content-management/preview-test.md)
 
    ![](assets/content-template-stimulate.png)
+
+   >[!NOTE]
+   >
+   >[!DNL Journey optimizer] también le permite probar diferentes variantes de sus plantillas de contenido previsualizándolas y enviando pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV/JSON, o añadidos manualmente. [Aprenda a simular variaciones de contenido](../test-approve/simulate-sample-input.md)
 
 1. Puede enviar una prueba para probar el contenido y que sea aprobado por algunos usuarios internos antes de utilizarlo en un recorrido o una campaña.
 
