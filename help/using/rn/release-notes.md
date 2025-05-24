@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b086b442be958108d66f7fff37a676f3a1c15ab3
+source-git-commit: 261f93625def59b787894f38877ee1cf5c543748
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 36%
+source-wordcount: '1154'
+ht-degree: 37%
 
 ---
 
@@ -237,6 +237,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <p>Ahora puede almacenar en déclencheur los recorridos utilizando un ID de perfil junto con otro identificador, como un ID de pedido, un ID de suscripción o un ID de prescripción, lo que permite que el mismo perfil esté en el mismo recorrido varias veces a la vez. Esto permite situaciones como administrar varios pedidos o suscripciones en paralelo, y cada instancia sigue su propia ruta a través del recorrido.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/supplemental-identifier.md">documentación detallada</a>.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>Fecha de disponibilidad: sábado, 23 de mayo de 2025</p>
 </td>
 </tr>
 </tbody>
