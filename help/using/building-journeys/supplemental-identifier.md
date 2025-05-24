@@ -2,9 +2,9 @@
 title: Identificador suplementario en recorridos activados por eventos
 description: Aprenda a utilizar un identificador suplementario en recorridos activados por eventos.
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: bfff5bfe0a87d65c453018c4f1af01e9b1456052
+source-git-commit: c4b9ee59fe22bad97975cce01a84002541d8c9df
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '803'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,7 @@ Para utilizar un identificador suplementario en un recorrido, siga estos pasos:
 
 +++ Ver ejemplos
 
-   En una matriz de objetos con el ID suplementario como &quot;bookingNum&quot; y un atributo en el mismo nivel denominado &quot;bookingCountry&quot;, el recorrido se iterará a través del objeto de matriz basado en bookingNum y creará una instancia de recorrido para cada objeto.
+   En una matriz de objetos con el Id. suplementario como `bookingNum` y un atributo en el mismo nivel denominado `bookingCountry`, el recorrido se iterará a través del objeto de matriz basado en bookingNum y creará una instancia de recorrido para cada objeto.
 
    * La siguiente expresión en la actividad de condición iterará a través de la matriz de objetos y comprobará si el valor de `bookingCountry` es igual a &quot;FR&quot;:
 
@@ -112,7 +112,7 @@ Para utilizar un identificador suplementario en un recorrido, siga estos pasos:
      @event{<event_name>.<object_path>.<object_array_name>.all(currentEventField.<attribute_path>.bookingNum==${supplementalId}).at(0).<attribute_path>.bookingCountry}=="FR"
      ```
 
-   * La siguiente expresión en el editor de personalización de correo electrónico se iterará a través de la matriz de objetos, extraerá el elemento bookingCountry aplicable a la instancia de recorrido actual y lo mostrará en el contenido:
+   * La siguiente expresión en el editor de personalización de correo electrónico se iterará a través de la matriz de objetos, extraerá el `bookingCountry` aplicable a la instancia de recorrido actual y lo mostrará en el contenido:
 
      ```
      {{#each context.journey.events.<event_ID>.<object_path>.<object_array_name> as |l|}} 
