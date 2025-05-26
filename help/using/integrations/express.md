@@ -145,7 +145,7 @@ La imagen ya está lista para utilizarse en el contenido.
 
 Obtenga información sobre cómo editar los recursos en Adobe Journey Optimizer con las herramientas de Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455526/?quality=12&captions=spa)
 
 
 
