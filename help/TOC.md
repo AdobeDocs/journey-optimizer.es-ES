@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 33ebde5ef42519137c3ef057e6c95a71f1c45a6c
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '2382'
-ht-degree: 97%
+source-wordcount: '2393'
+ht-degree: 96%
 
 ---
 
@@ -394,6 +394,15 @@ ht-degree: 97%
       + [Introducción al contenido dinámico](using/personalization/get-started-dynamic-content.md)
       + [Creación de reglas condicionales](using/personalization/create-conditions.md)
       + [Crear contenido dinámico](using/personalization/dynamic-content.md)
+   + Casos de uso entre soluciones {#combine}
+      + [Combinar soluciones para administrar el contenido](using/integrations/content-integrations.md)
+      + [Trabajar con Experience Manager Assets](using/integrations/assets.md)
+      + [Trabajar con Adobe Stock](using/integrations/stock.md)
+      + [Trabajar con Adobe Express](using/integrations/express.md)
+      + [Trabajar con plantillas de Experience Manager](using/integrations/aem-templates.md)
+      + [Trabajo con fragmentos de contenido de Experience Manager](using/integrations/aem-fragments.md)
+      + [Trabajar con Dynamic Media](using/integrations/aem-dynamic.md)
+      + [Trabajo con GenStudio for Performance Marketing](using/integrations/genstudio.md)
    + Asistente de IA para la generación de contenido{#ai-assistant}
       + [Introducción al asistente de IA](using/content-management/gs-generative.md)
       + [Generación de correo electrónico con IA](using/content-management/generative-email.md)
@@ -434,15 +443,6 @@ ht-degree: 97%
       + [Trabajo con atributos de varios valores](using/audience/computed-attributes.md)
    + [Identidades](using/audience/get-started-identity.md)
    + [Uso de licencias](using/audience/license-usage.md)
-+ Integraciones{#integrations}
-   + [Integraciones con otras soluciones](using/integrations/ajo-integrations.md)
-   + [Trabajar con Experience Manager Assets](using/integrations/assets.md)
-   + [Trabajar con Adobe Stock](using/integrations/stock.md)
-   + [Trabajar con Adobe Express](using/integrations/express.md)
-   + [Trabajar con plantillas de Experience Manager](using/integrations/aem-templates.md)
-   + [Trabajar con fragmentos de contenido de Experience Manager](using/integrations/aem-fragments.md)
-   + [Trabajar con Dynamic Media](using/integrations/aem-dynamic.md)
-   + [Trabajo con GenStudio](using/integrations/genstudio.md)
 + Seguimiento y monitorización {#reporting}
    + Informe en vivo {#live-report}
       + [Introducción al Informe activo](using/reports/live-report.md)
@@ -752,6 +752,7 @@ ht-degree: 97%
       + [Resolución de una acción personalizada](using/action/troubleshoot-custom-action.md)
       + [Uso de respuestas de llamadas API en acciones personalizadas](using/action/action-response.md)
 + Conectar sus sistemas y entornos {#connect-systems}
+   + [Integración con otras soluciones](using/integrations/ajo-integrations.md)
    + [Trabajo con las API de Journey Optimizer](using/configuration/ajo-apis.md)
    + Integración de los recorridos con sistemas externos {#external-systems}
       + [Integración de recorridos con sistemas externos](using/configuration/external-systems.md)

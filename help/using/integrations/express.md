@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: recursos, integración
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: f2c072cd410afac79604cfad532fbd75591b34fa
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 7%
+source-wordcount: '538'
+ht-degree: 10%
 
 ---
 
@@ -35,6 +35,8 @@ Para acceder al menú **[!DNL Adobe Express]**, accede a tu **configuración de 
 
 ![](assets/express_1.png)
 
+➡️ [Descubra esta funcionalidad en vídeo](#video)
+
 ## Licencia de Adobe Express Enterprise {#licence}
 
 Los usuarios sin licencia de Adobe Express Enterprise pueden acceder a las funciones detalladas en las secciones siguientes.
@@ -45,12 +47,12 @@ Con una licencia Enterprise, los usuarios obtienen acceso completo al editor de 
 
 +++Casos de uso disponibles para usuarios con una licencia Enterprise para Adobe Express
 
-* [Quitar fondo](https://helpx.adobe.com/es/express/create-and-edit-images/edit-images/remove-background.html)
-* [Quitar objetos](https://helpx.adobe.com/es/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [Borrar](https://helpx.adobe.com/es/express/create-and-edit-images/edit-images/eraser.html)
-* [Insertar objeto](https://helpx.adobe.com/es/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [Recortar](https://helpx.adobe.com/es/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [Efectos](https://helpx.adobe.com/es/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+* [Quitar fondo](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [Quitar objetos](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [Borrar](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [Insertar objeto](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [Recortar](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [Efectos](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
 +++
 
@@ -137,3 +139,13 @@ La imagen ya está lista para utilizarse en el contenido.
    A continuación, haga clic en **[!UICONTROL Importar]**.
 
 La imagen ya está lista para utilizarse en el contenido.
+
+
+## Vídeo práctico {#video}
+
+Obtenga información sobre cómo editar los recursos en Adobe Journey Optimizer con las herramientas de Adobe Express.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
+
+
+
