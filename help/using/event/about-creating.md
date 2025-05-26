@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, crear, recorrido
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
+source-git-commit: dad3dc0022d04c9f9c82477d75a6fb8de7e85a6a
 workflow-type: tm+mt
-source-wordcount: '1733'
-ht-degree: 15%
+source-wordcount: '1692'
+ht-degree: 13%
 
 ---
 
@@ -27,11 +27,6 @@ ht-degree: 15%
 >id="ajo_journey_event_parameters"
 >title="Parámetros"
 >abstract="Defina los parámetros del evento, como los campos de esquema y carga útil. Para los eventos basados en reglas, use el campo **[!UICONTROL condición de ID de evento]** para definir la condición que el sistema usará para identificar los eventos que activarán su recorrido. Añada un tipo de identidad y un identificador de perfil para usar en el evento."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_parameters_supplemental_identifier"
->title="Usar identificador suplementario"
->abstract="El identificador suplementario es un identificador secundario que proporciona contexto adicional para la ejecución de un recorrido. Para definirlo, seleccione el campo que desea utilizar como identificador suplementario y elija un espacio de nombres al que asociarlo."
 
 Los eventos unitarios están vinculados a un perfil específico. Pueden basarse en reglas o en sistemas generados.  Más información sobre el evento unitario [esta sección](../event/about-events.md).
 
