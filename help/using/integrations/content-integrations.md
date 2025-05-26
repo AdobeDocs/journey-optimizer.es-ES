@@ -8,10 +8,10 @@ topic: Content Management, Integrations
 role: User
 level: Beginner
 keywords: recursos, integración
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 16%
+source-wordcount: '693'
+ht-degree: 18%
 
 ---
 
@@ -36,11 +36,12 @@ Assets Essentials se conecta a Adobe Express y Adobe Photoshop Express en Adobe 
 
 Más información sobre [Journey Optimizer + Adobe Experience Manager Assets](../integrations/assets.md).
 
-### Plantillas
+<!--
+### Templates
 
-Con Adobe Journey Optimizer, puede crear mensajes personalizados a través de los sitios de Adobe Experience Manager. Comience por diseñar las plantillas utilizando las fuentes de contenido de Adobe Experience Manager y, a continuación, envíelas a Adobe Journey Optimizer. Una vez compartidas, se puede acceder a estas plantillas en el diseñador de correo electrónico de Adobe Journey Optimizer, lo que simplifica el proceso de creación y envío de mensajes a la audiencia deseada.
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
 
-Más información sobre [plantillas de Journey Optimizer + Adobe Experience Manager](../integrations/aem-templates.md).
+Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).-->
 
 ### Fragmentos
 
