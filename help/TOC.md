@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
-source-wordcount: '2393'
+source-wordcount: '2390'
 ht-degree: 96%
 
 ---
@@ -759,9 +759,9 @@ ht-degree: 96%
       + [API de límite](using/configuration/capping.md)
       + [API de limitación](using/configuration/throttling.md)
    + Enviar con las soluciones de Adobe {#adobe-solutions}
-      + [Integración de recorrido con Campaign Standard](using/action/acs-action.md)
-      + [Integración de recorrido con las versiones 7 y 8 de Campaign](using/action/acc-action.md)
-      + [Integración de recorrido con Marketo Engage](using/action/marketo-engage.md)
+      + [Campaign Standard en recorrido](using/action/acs-action.md)
+      + [Campaign v7/v8 en recorrido](using/action/acc-action.md)
+      + [Marketo Engage en recorrido](using/action/marketo-engage.md)
    + Administración de zonas protegidas {#sandbox}
       + [Uso y asignación de zonas protegidas](using/administration/sandboxes.md)
       + [Exportación de objetos a otra zona protegida](using/configuration/copy-objects-to-sandbox.md)

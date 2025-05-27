@@ -2,21 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Integración con Marketo Engage
-description: Aprenda a utilizar la acción del Marketo Engage
+description: Aprenda a utilizar la acción de Marketo Engage
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: integración de marketo, marketo engage
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 4%
+source-wordcount: '266'
+ht-degree: 3%
 
 ---
 
 # Integración con Marketo Engage {#integrating-with-marketo-engage}
+
+Hay una acción personalizada específica disponible en sus recorridos para integrar Adobe Journey Optimizer y Marketo Engage.
 
 Empiece con un recorrido de integración de datos perfecta con Marketo Engage. Esta acción personalizada específica en Journey Optimizer admite la ingesta de dos tipos de datos clave:
 
@@ -42,7 +44,7 @@ Empiece con un recorrido de integración de datos perfecta con Marketo Engage. E
 
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
-* Inspect y configuración de valores de carga útil
+* Inspeccionar y configurar valores de carga útil
 Nota: Para pasar valores dinámicamente, cambie **Constant** a **Variable** para cada campo.
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
