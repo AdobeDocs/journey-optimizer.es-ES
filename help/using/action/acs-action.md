@@ -9,18 +9,16 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaña, estándar, integración, límite, acción
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 3%
 
 ---
 
 # Integrar con Adobe Campaign Standard {#using_adobe_campaign_standard}
 
-Si tiene Adobe Campaign Standard, hay una acción integrada disponible para permitir la conexión a Adobe Campaign Standard.
-
-Puede enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign Standard.
+Si tiene Adobe Campaign Standard, hay una acción integrada disponible para permitir la conexión a Adobe Campaign Standard. Puede enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign Standard.
 
 El mensaje transaccional de Campaign Standard y su evento asociado deben publicarse para poder utilizarse en Journey Optimizer. Si el evento se publica pero el mensaje no, no será visible en la interfaz de Journey Optimizer. Si el mensaje se publica pero su evento asociado no, estará visible en la interfaz de Journey Optimizer, pero no se podrá utilizar.
 
@@ -34,11 +32,13 @@ El mensaje transaccional de Campaign Standard y su evento asociado deben publica
 
 * Un recorrido no puede utilizar tanto mensajes como acciones de Campaign Standard.
 
-## Configuración de la acción {#configure-action}
+## Configurar la acción {#configure-action}
 
-Estos son los pasos para configurarlo:
+En Journey Optimizer, debe configurar una acción por mensaje transaccional. Siga estos pasos:
 
-1. Seleccione **[!UICONTROL Configuraciones]** en la sección del menú ADMINISTRACIÓN. En la sección **[!UICONTROL Acciones]**, haga clic en **[!UICONTROL Administrar]**. Se muestra la lista de acciones.
+1. Seleccione **[!UICONTROL Configuraciones]** en la sección del menú ADMINISTRACIÓN.
+
+1. En la sección **[!UICONTROL Acciones]**, haga clic en **[!UICONTROL Administrar]**. Se muestra la lista de acciones.
 
 1. Seleccione la acción integrada **[!UICONTROL AdobeCampaignStandard]**. El panel de configuración de acción se abre en el lado derecho de la pantalla.
 
@@ -52,16 +52,22 @@ Estos son los pasos para configurarlo:
    >
    >Esta prueba comprueba lo siguiente:
    >
-   >El host es &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot;, &quot;.campaign-demo.adobe.com&quot;, &quot;.ats.adobe.com&quot; o &quot;.adls.adobe.com&quot;.
+   >* El host es &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot;, &quot;.campaign-demo.adobe.com&quot;, &quot;.ats.adobe.com&quot; o &quot;.adls.adobe.com&quot;
    >
-   >La dirección URL comienza con https,
+   >* La dirección URL comienza con https
    >
-   >La ORG asociada a la instancia de este Adobe Campaign Standard es la misma que la ORG de Journey Optimizer.
+   >* La organización asociada a la instancia de Adobe Campaign Standard es la misma que OrganizationRG de Journey Optimizer
 
-Al diseñar el recorrido, habrá tres acciones disponibles en la categoría **[!UICONTROL Acción]**: **[!UICONTROL Correo electrónico]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de acciones de Adobe Campaign](../building-journeys/using-adobe-campaign-standard.md)).
+Una vez completada esta configuración, hay tres acciones disponibles en la categoría **[!UICONTROL Acción]** al diseñar un recorrido: **[!UICONTROL Correo electrónico]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]**. [Aprenda a utilizarlos](../building-journeys/using-adobe-campaign-standard.md).
 
 ![](assets/journey58.png)
 
-Puede usar un evento **Reactions** para reaccionar ante los datos de seguimiento relacionados con un mensaje de Campaign Standard enviado dentro del mismo recorrido. Para las notificaciones push, puede reaccionar a los mensajes en los que se ha hecho clic, enviados o fallidos. En el caso de los mensajes SMS, puede reaccionar a los mensajes enviados o fallidos. En el caso de los correos electrónicos, puede reaccionar a los mensajes en los que se ha hecho clic, enviados, abiertos o fallidos. Ver [eventos de reacción](../building-journeys/reaction-events.md).
+Use un evento **Reactions** para reaccionar ante los datos de seguimiento relacionados con un mensaje de Campaign Standard enviado dentro del mismo recorrido:
 
-Si utiliza un sistema de terceros para enviar mensajes, debe agregar y configurar una acción personalizada. Consulte [Acerca de la configuración de acciones personalizadas](../action/about-custom-action-configuration.md).
+* Para las notificaciones push, los recorridos pueden reaccionar a los mensajes en los que se hace clic, los que se envían o los que generan errores.
+
+* En los mensajes SMS, los recorridos pueden reaccionar a los mensajes enviados o fallidos.
+
+* En el caso de los correos electrónicos, los recorridos pueden reaccionar a los mensajes en los que se hizo clic, enviados, abiertos o fallidos. [Más información sobre las reacciones y eventos](../building-journeys/reaction-events.md).
+
+Cuando utilice un sistema de terceros para enviar mensajes, debe agregar y configurar una acción personalizada. [Más información acerca de la configuración de acciones personalizadas](../action/about-custom-action-configuration.md).
