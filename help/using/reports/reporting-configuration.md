@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configuración, experimentación, informes, optimizador
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 29%
+source-wordcount: '585'
+ht-degree: 28%
 
 ---
 
@@ -40,11 +40,11 @@ Tenga en cuenta que para los canales web, basados en código y en la aplicación
 
 ## Requisitos previos
 
-Antes de poder agregar un conjunto de datos a la configuración de creación de informes, debe crearlo. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es#create){target="_blank"}.
+Antes de poder agregar un conjunto de datos a la configuración de creación de informes, debe crearlo. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * Solo puede añadir conjuntos de datos de tipo evento.
 
-* Estos conjuntos de datos deben incluir `Experience Event - Proposition Interactions` [grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"}.
+* Estos conjuntos de datos deben incluir el `Experience Event - Proposition Interactions` [grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"}.
 
 * Estos conjuntos de datos también pueden contener uno de los siguientes [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"}: `Application Details`, `Commerce Details`, `Web Details`.
 
@@ -86,7 +86,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-menu.png)
 
-   Se muestra la lista de conjuntos de datos que ya se han añadido.
+   Se muestra la lista de conjuntos de datos que ya se han agregado.
 
 1. En la ficha **[!UICONTROL Conjunto de datos]**, haga clic en **[!UICONTROL Agregar conjunto de datos]**.
 
