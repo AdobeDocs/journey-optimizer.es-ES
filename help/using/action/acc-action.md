@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, integration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bf4044bc23b0e7c0ef74e5b612d93cb45ec20242
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 13%
+source-wordcount: '543'
+ht-degree: 14%
 
 ---
 
@@ -50,13 +50,13 @@ Cuando se solicita, Adobe configura la conexión entre los entornos de Journey O
 >[!ENDTABS]
 
 
-## Notas importantes {#important-notes}
+## Mecanismos de protección y limitaciones {#important-notes}
 
 * No se restringen los mensajes. El sistema limita el número de mensajes que se pueden enviar a 4000 cada 5 minutos, según la versión actual de Campaign SLA. Por este motivo, Journey Optimizer solo debe utilizarse en casos de uso unitarios (eventos individuales, no audiencias).
 
-* Debe configurar una acción en el lienzo por plantilla que desee utilizar. Debe configurar una acción en Journey Optimizer para cada plantilla que desee utilizar desde Adobe Campaign.
+* Debe configurar una acción en el lienzo por plantilla para utilizar. Debe configurar una acción en Journey Optimizer para cada plantilla que desee utilizar desde Adobe Campaign.
 
-* Le recomendamos que utilice una instancia del Centro de mensajes dedicada que esté alojada para esta integración para evitar afectar a otras operaciones de Campaign que pueda tener en marcha. El servidor de marketing puede estar alojado o ser local. La versión requerida es 21.1 Release Candidate o superior.
+* Le recomendamos que utilice una instancia específica del Centro de mensajes alojada o de Managed Services para esta integración con el fin de evitar afectar a otras operaciones de Campaign que pueda tener en marcha. El servidor de marketing puede estar alojado o ser local.<!--The build required is 21.1 Release Candidate or greater. -->
 
 * No se ha validado que la carga útil o el mensaje de Campaign sean correctos.
 
@@ -64,13 +64,13 @@ Cuando se solicita, Adobe configura la conexión entre los entornos de Journey O
 
 ## Requisitos previos {#prerequisites}
 
-En Adobe Campaign, debe crear y publicar un mensaje transaccional y su evento asociado. Consulte la [documentación de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+En Adobe Campaign, debe crear y publicar un mensaje transaccional y su evento asociado. Consulte la [documentación de Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 Puede crear la carga útil JSON correspondiente a cada mensaje siguiendo el patrón siguiente. Luego pegará esta carga útil al configurar la acción en Journey Optimizer (a continuación).
 
 Vea el siguiente ejemplo:
 
-```JSON
+```json
 {
     "channel": "email",
     "eventType": "welcome",
