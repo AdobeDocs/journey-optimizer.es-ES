@@ -3,9 +3,9 @@ title: Identificador suplementario en recorridos activados por eventos
 description: Aprenda a utilizar un identificador suplementario en recorridos activados por eventos.
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 3ed75f1193b1a580183d8ee148792ec136d281cd
+source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '861'
 ht-degree: 7%
 
 ---
@@ -164,11 +164,11 @@ Para utilizar un identificador suplementario en un recorrido, siga estos pasos:
 
 ### **Administración de suscripciones**
 
-* **Escenario**: un servicio de suscripción envía mensajes personalizados para cada suscripción vinculada a un perfil de cliente.
+* **Escenario**: un servicio de suscripción envía mensajes personalizados para cada suscripción cuando se activa un evento para esa suscripción.
 * **Ejecución**:
    * Perfil: &quot;Jane&quot;.
-   * Identificadores suplementarios: `"Luma Yoga Program ", "Luma Fitness PlPrograman"`.
-   * El recorrido se ejecuta por separado para cada suscripción, con ofertas de renovación personalizadas.
+   * Identificadores suplementarios: `"Luma Yoga Program ", "Luma Fitness Program"`.
+   * Cada evento incluye un ID de suscripción y detalles sobre dicha suscripción. El recorrido se ejecuta por separado para cada evento/suscripción, lo que permite ofertas de renovación personalizadas por suscripción.
 
 ### **Recomendaciones de productos**
 
