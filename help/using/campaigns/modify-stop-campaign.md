@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
+source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -26,8 +26,8 @@ Además, puede duplicar campañas en directo (ejecutadas una vez o con una ejecu
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="Vistas Tabla de campañas y Cronología"
->abstract="Vistas Tabla de campañas y Cronología"
+>title="Vistas de lista y calendario de campañas"
+>abstract="Además de la lista de campañas, [!DNL Journey Optimizer] proporciona una vista de calendario de sus campañas, lo que ofrece una representación visual clara de sus programaciones. Puede cambiar entre las vistas de lista y calendario en cualquier momento mediante estos botones."
 
 Se puede acceder a las campañas desde el menú **[!UICONTROL Campañas]**.
 
@@ -35,7 +35,35 @@ De manera predeterminada, la lista muestra todas las campañas con los estados *
 
 ![](assets/create-campaign-list.png)
 
-Además, puede filtrar la lista en función del tipo de campaña y canal, o las etiquetas que se hayan asignado a las campañas al crearlas. [Aprenda a asignar etiquetas a una campaña](create-campaign.md#create)
+También puede filtrar la lista en función del tipo de campaña y canal, o de las etiquetas que se hayan asignado a las campañas al crearlas. [Aprenda a asignar etiquetas a una campaña](create-campaign.md#create)
+
+## Calendario de campañas {#calendar}
+
+Además de la lista de campañas, [!DNL Journey Optimizer] proporciona una vista de calendario de sus campañas, lo que ofrece una representación visual clara de sus programaciones.
+
+>[!AVAILABILITY]
+>
+>Actualmente, la vista de calendario solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para solicitar acceso, use [este formulario](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>
+>Esta función está en desarrollo activo. Agradecemos sus comentarios y solicitudes con el botón **[!UICONTROL Comentarios de Beta]** del menú superior.
+
+El calendario muestra todas las campañas programadas para la semana actual. Utilice los botones de flecha encima del calendario para desplazarse entre semanas.
+
+![vista de calendario que muestra campañas en vivo](assets/campaigns-timeline.png)
+
+Representación de las campañas:
+
+* De forma predeterminada, la cuadrícula del calendario muestra todas las campañas en directo y programadas de la semana seleccionada. Las opciones de filtro adicionales pueden mostrar activaciones o activaciones completadas, detenidas y finalizadas de un tipo o canal determinado.
+* No se muestran los borradores de campañas.
+* Las campañas que abarcan varios días aparecen en la parte superior de la cuadrícula del calendario.
+* Si no se especifica ninguna hora de inicio, se utiliza la hora de activación manual más cercana para colocarla en el calendario.
+* Las campañas se muestran como intervalos de tiempo de 1 hora, pero esto no refleja la hora de envío o finalización real.
+
+Para obtener más información sobre una campaña, haga clic en su bloque visual para abrir los detalles.
+
+Para ver los detalles de una campaña específica, selecciónela en la lista. Se abrirá un panel de información con información diversa sobre la campaña, como su tipo, el acceso a los informes o las etiquetas asignadas.
+
+![lista de campañas con el panel de información abierto](assets/campaign-rail.png)
 
 ## Estados de campaña y alertas {#statuses}
 

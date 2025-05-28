@@ -9,40 +9,70 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
+source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 12%
+source-wordcount: '1179'
+ht-degree: 9%
 
 ---
 
 # Examinar y filtrar sus recorridos {#browse-journeys}
 
-## Panel del recorrido {#dashboard-jo}
-
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="Vistas Tabla de recorridos y Cronología"
->abstract="Vistas Tabla de recorridos y Cronología"
+>title="Vistas de lista de recorridos y calendario"
+>abstract="Además de la lista de recorridos, [!DNL Journey Optimizer] proporciona una vista de calendario de sus recorridos, lo que ofrece una representación visual clara de sus programaciones. Puede cambiar entre las vistas de lista y calendario en cualquier momento mediante estos botones."
+
+## Panel del recorrido {#dashboard-jo}
 
 En la sección de menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**. Hay dos fichas disponibles: **[!UICONTROL Información general]** y **[!UICONTROL Examinar]**.
 
-* La pestaña **[!UICONTROL Información general]** muestra un panel con métricas clave relacionadas con tus recorridos.
+### Información general sobre Recorrido
 
-  ![Tablero de recorrido que resalta la ficha Información general](assets/journeys-dashboard.png)
+La pestaña **[!UICONTROL Información general]** muestra un panel con métricas clave relacionadas con tus recorridos.
 
-   * **Perfiles procesados**: número total de perfiles procesados en las últimas 24 horas.
-   * **recorridos activos**: número total de recorridos activos con tráfico durante las últimas 24 horas. Los recorridos activos incluyen **recorridos unitarios** (basados en eventos) y **recorridos por lotes** (lectura de audiencia).
-   * **Tasa de error**: proporción de todos los perfiles en error comparada con la cantidad total de perfiles que ingresaron en las últimas 24 horas.
-   * **Tasa de descarte**: proporción de todos los perfiles descartados en comparación con la cantidad total de perfiles que ingresaron en las últimas 24 horas. Un perfil descartado representa a alguien que no cumple los requisitos para entrar en el recorrido, por ejemplo, debido a un área de nombres incorrecta o a reglas de reentrada.
+![Tablero de recorrido que resalta la ficha Información general](assets/journeys-dashboard.png)
 
-  >[!NOTE]
-  >
-  >Este tablero tiene en cuenta los recorridos con tráfico de las últimas 24 horas. Solo se muestran los recorridos a los que tiene acceso. Las métricas se actualizan cada 30 minutos y solo cuando hay nuevos datos disponibles.
+* **Perfiles procesados**: número total de perfiles procesados en las últimas 24 horas.
+* **recorridos activos**: número total de recorridos activos con tráfico durante las últimas 24 horas. Los recorridos activos incluyen **recorridos unitarios** (basados en eventos) y **recorridos por lotes** (lectura de audiencia).
+* **Tasa de error**: proporción de todos los perfiles en error comparada con la cantidad total de perfiles que ingresaron en las últimas 24 horas.
+* **Tasa de descarte**: proporción de todos los perfiles descartados en comparación con la cantidad total de perfiles que ingresaron en las últimas 24 horas. Un perfil descartado representa a alguien que no cumple los requisitos para entrar en el recorrido, por ejemplo, debido a un área de nombres incorrecta o a reglas de reentrada.
 
-* La ficha **[!UICONTROL Examinar]** muestra la lista de recorridos existentes. Puede buscar recorridos, utilizarlos y realizar acciones básicas en cada elemento. Por ejemplo, puede duplicar o eliminar un elemento.
+>[!NOTE]
+>
+>Este tablero tiene en cuenta los recorridos con tráfico de las últimas 24 horas. Solo se muestran los recorridos a los que tiene acceso. Las métricas se actualizan cada 30 minutos y solo cuando hay nuevos datos disponibles.
 
-  ![Tablero de recorrido que resalta la ficha Examinar](assets/journeys-browse.png)
+### lista de recorridos
+
+La ficha **[!UICONTROL Examinar]** muestra la lista de recorridos existentes. Puede buscar recorridos, utilizarlos y realizar acciones básicas en cada elemento. Por ejemplo, puede duplicar o eliminar un elemento.
+
+![Tablero de recorrido que resalta la ficha Examinar](assets/journeys-browse.png)
+
+### calendario de Recorrido {#calendar}
+
+Además de la lista de recorridos, [!DNL Journey Optimizer] proporciona una vista de calendario de sus recorridos, lo que ofrece una representación visual clara de sus programaciones.
+
+>[!AVAILABILITY]
+>
+>Actualmente, la vista de calendario solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para solicitar acceso, use [este formulario](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>
+>Esta función está en desarrollo activo. Agradecemos sus comentarios y solicitudes con el botón **[!UICONTROL Comentarios de Beta]** del menú superior.
+
+Para acceder a la vista de calendario, abre la lista de recorridos y haz clic en el icono ![calendario](assets/do-not-localize/timeline-icon.svg).
+
+El calendario muestra todos los recorridos programados para la semana actual. Utilice los botones de flecha encima del calendario para desplazarse entre semanas.
+
+![vista de calendario que muestra recorridos activos](assets/timeline-journeys.png)
+
+Representación de los recorridos:
+
+* De forma predeterminada, la cuadrícula del calendario muestra todos los recorridos activos y programados de la semana seleccionada. Las opciones de filtro adicionales pueden mostrar activaciones o activaciones completadas, detenidas y finalizadas.
+* No se muestran los recorridos de borrador ni los recorridos en el modo de prueba.
+* Los recorridos que abarcan varios días aparecen en la parte superior de la cuadrícula del calendario.
+* Si no se especifica ninguna hora de inicio, se utiliza la hora de activación manual más cercana para colocarla en el calendario.
+* Los recorridos se muestran como intervalos de tiempo de 1 hora, pero esto no refleja la hora real de envío o finalización.
+
+Para obtener más información sobre un recorrido, haga clic en su bloque visual para abrir y explorar sus detalles.
 
 En la lista de recorridos, todas las versiones del recorrido se muestran con el número de versión. Cuando busca un recorrido, las versiones más recientes aparecen en la parte superior de la lista la primera vez que se abre la aplicación. A continuación, puede definir la clasificación que desee y la aplicación la mantendrá como preferencia del usuario. La versión del recorrido también se muestra en la parte superior de la interfaz de la edición de recorrido, encima del lienzo. Más información acerca de [administración de versiones de recorrido](publishing-the-journey.md#journey-versions-journey-versions).
 
@@ -67,7 +97,6 @@ Para filtrar recorridos según un intervalo de fechas específico, seleccione **
 Además, en los paneles Evento, Fuente de datos y Configuración de acciones, el campo **[!UICONTROL Utilizado en]** muestra el número de recorridos que utilizan ese evento, grupo de campos o acción en particular. Puede hacer clic en el botón **[!UICONTROL Ver recorridos]** para mostrar la lista de los recorridos correspondientes.
 
 ![](assets/journey3bis.png)
-
 
 ## tipos de recorrido {#journey-types}
 
