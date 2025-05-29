@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 48%
@@ -101,7 +101,7 @@ Al crear o actualizar una configuración, el proceso aprueba la dada y devuelve 
 Al crear, eliminar o implementar la configuración de limitación, pueden producirse los siguientes errores:
 
 * **ERR_THROTTLING_CONFIG_100**: configuración de limitación: `<mandatory attribute>` obligatorio
-* **ERR_THROTTLING_CONFIG_101**: configuración de limitación: maxThroughput es obligatorio y debe ser mayor o igual que 200 y menor o igual que 5000.
+* **ERR_THROTTLING_CONFIG_101**: configuración de limitación: maxThroughput es obligatorio y debe ser mayor o igual que 200 y menor o igual que 5.000.
 * **ERR_THROTTLING_CONFIG_104**: configuración de limitación: patrón de URL incorrecto
 * **ERR_THROTTLING_CONFIG_105**: configuración de limitación: no se permiten comodines en la parte host del patrón de URL
 * **ERR_THROTTLING_CONFIG_106**: configuración de limitación: carga útil no válida

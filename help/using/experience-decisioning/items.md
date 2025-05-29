@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: ab70ce5b686a54dc1be7336411c5b0959fc3c584
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '1752'
 ht-degree: 15%
@@ -109,7 +109,7 @@ Para establecer reglas de límite para el elemento de decisión, haga clic en el
    * **[!UICONTROL Evento de decisión]** (valor predeterminado): Número máximo de veces que se puede presentar una oferta.
    * **[!UICONTROL Impresión]** (solo canales entrantes): Número máximo de veces que la oferta se puede mostrar a un usuario.
    * **[!UICONTROL Clics]**: Número máximo de veces que un usuario puede hacer clic en el elemento de decisión.
-   * **[!UICONTROL Evento personalizado]**: puede definir un evento personalizado que se utilizará para limitar el número de veces que se enviará el elemento. Por ejemplo, puede limitar el número de canjes hasta que sean iguales a 10000 o hasta que un perfil determinado se haya canjeado 1 vez. Para ello, use [esquemas XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} de Adobe Experience Platform para generar una regla de evento personalizada.
+   * **[!UICONTROL Evento personalizado]**: puede definir un evento personalizado que se utilizará para limitar el número de veces que se enviará el elemento. Por ejemplo, puede limitar el número de canjes hasta que sean iguales a 10 000 o hasta que un perfil determinado se haya canjeado 1 vez. Para ello, use [esquemas XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} de Adobe Experience Platform para generar una regla de evento personalizada.
 
    >[!NOTE]
    >

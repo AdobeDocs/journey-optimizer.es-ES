@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: e63a21b5dcc8f227d56c696c8fd0825c75684189
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '2715'
 ht-degree: 15%
@@ -75,7 +75,7 @@ Por ejemplo, si establece las restricciones siguientes:
 >title="Acerca de la idoneidad de la oferta"
 >abstract="En esta sección, puede utilizar reglas de decisión para determinar qué usuarios podrán recibir la oferta."
 
-<!--additional-url="https://video.tv.adobe.com/v/341365?captions=spa" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -104,7 +104,7 @@ La sección **[!UICONTROL idoneidad de la oferta]** le permite restringir la ofe
 
   >[!CAUTION]
   >
-  >Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es#events){target="_blank"}, no podrá aprovecharla en una oferta.
+  >Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, no podrá aprovecharla en una oferta.
 
 Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
 
@@ -143,7 +143,7 @@ Básicamente, el resultado de una audiencia es una lista de perfiles, mientras q
 >id="ajo_decisioning_capping"
 >title="Usar límite"
 >abstract="Para evitar un exceso de solicitudes a sus clientes, utilice la función de límite para definir el número máximo de veces que se puede presentar una oferta. Se pueden crear hasta 10 reglas de límite para una oferta determinada."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping-change-date" text="Cambiar las fechas puede afectar al límite"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping-change-date" text="Cambiar las fechas puede afectar al límite"
 
 El límite se utiliza como restricción para definir el número máximo de veces que se puede presentar una oferta. Limitar el número de veces que los usuarios obtienen ofertas específicas le permite evitar saturar a sus clientes y, por lo tanto, optimizar cada punto de contacto con la mejor oferta.
 
@@ -192,9 +192,9 @@ El campo **[!UICONTROL Elegir evento de límite]** le permite definir qué event
   >
   >El uso de impresiones como eventos de límite solo está disponible para **canales entrantes**.
 
-* **[!UICONTROL Evento personalizado]**: puede definir un evento personalizado que se utilizará para limitar el número de ofertas enviadas. Por ejemplo, puede limitar el número de canjes hasta que sean iguales a 10000 o hasta que un perfil determinado se haya canjeado 1 vez. Para ello, use [esquemas XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} de Adobe Experience Platform para generar una regla de evento personalizada.
+* **[!UICONTROL Evento personalizado]**: puede definir un evento personalizado que se utilizará para limitar el número de ofertas enviadas. Por ejemplo, puede limitar el número de canjes hasta que sean iguales a 10 000 o hasta que un perfil determinado se haya canjeado 1 vez. Para ello, use [esquemas XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} de Adobe Experience Platform para generar una regla de evento personalizada.
 
-  <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
+  <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10,000. You can only select XDM ExperienceEvents. -->
 
   En el siguiente ejemplo, desea limitar el número de cierres de compra.
 

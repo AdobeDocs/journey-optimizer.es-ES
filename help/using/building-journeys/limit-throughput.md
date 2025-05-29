@@ -8,7 +8,7 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: recorrido, fuentes de datos, límite, rendimiento, personalizado, acciones
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 3%
@@ -31,7 +31,7 @@ Esto se puede hacer con:
 >
 >Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte esta [sección](../action/action-response.md)
 
-Si está trabajando con fuentes de datos externas o acciones personalizadas, es posible que desee proteger los sistemas externos limitando el rendimiento de recorrido: hasta 5000 instancias/segundo para recorridos unitarios y hasta 20000 instancias/segundo para los activados por audiencia.
+Si está trabajando con fuentes de datos externas o acciones personalizadas, es posible que desee proteger los sistemas externos limitando el rendimiento de recorrido: hasta 5000 instancias/segundo para recorridos unitarios y hasta 20 000 instancias/segundo para los activados por audiencia.
 
 Para las acciones personalizadas, las funcionalidades de restricción están disponibles en el nivel de producto. Consulte [esta página](../configuration/external-systems.md#capping).
 

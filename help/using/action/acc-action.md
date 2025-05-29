@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, integration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 14a10c742ab40c5e3bdb545f595d28e25b535fdc
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 13%
+source-wordcount: '546'
+ht-degree: 12%
 
 ---
 
@@ -61,11 +61,11 @@ Cuando se solicita, Adobe configura la conexión entre los entornos de Journey O
 
 ## Requisitos previos {#prerequisites}
 
-En Adobe Campaign, debe crear y publicar un mensaje transaccional y su evento asociado. Consulte la [documentación de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+En Adobe Campaign, debe crear y publicar un mensaje transaccional y su evento asociado. Consulte la [documentación de Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 Puede crear la carga útil JSON correspondiente a cada mensaje siguiendo el patrón siguiente. Luego pegará esta carga útil al configurar la acción en Journey Optimizer (a continuación).
 
-Vea el siguiente ejemplo:
++++ Ejemplo
 
 ```json
 {
@@ -82,15 +82,19 @@ Vea el siguiente ejemplo:
 * **eventType**: el nombre interno del evento de Campaign
 * **ctx**: variable basada en la personalización que tiene en el mensaje
 
++++
+
 ## Configurar la acción {#configure-action}
 
-En Journey Optimizer, debe configurar una acción por mensaje transaccional. Siga estos pasos:
+En Journey Optimizer, debe configurar una acción por mensaje transaccional.
 
-1. Cree una nueva acción. [Más información sobre las acciones personalizadas](../action/action.md).
+Para crear una acción de campaña, siga estos pasos:
+
+1. Cree una nueva acción. [Aprenda a crear acciones personalizadas](../action/action.md).
 1. Introduzca un nombre y una descripción.
 1. En el campo **Tipo de acción**, seleccione **Adobe Campaign Classic**.
+   ![](assets/accintegration1.png)
 1. Haga clic en el campo **Carga útil** y pegue un ejemplo de la carga útil JSON correspondiente al mensaje de Campaign. Póngase en contacto con Adobe para obtener esta carga útil.
-1. Ajuste los distintos campos para que sean estáticos o variables, según si desea asignarlos en el lienzo de Recorrido. Algunos campos, como los parámetros de canal para la dirección de correo electrónico y los campos de personalización (ctx), probablemente desee definirlos como variables para su asignación en el contexto del recorrido.
+1. Establezca cada campo como estático o variable en función de si desea que se asigne en el lienzo de Recorrido. Por ejemplo, los campos como los parámetros de canal de correo electrónico y los campos personalizados (`ctx`) suelen configurarse como variables para que se puedan adaptar dinámicamente dentro del recorrido.
 1. Haga clic en **Guardar**.
 
-![](assets/accintegration1.png)
