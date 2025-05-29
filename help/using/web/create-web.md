@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '1543'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -157,7 +157,7 @@ Encontrará información detallada sobre cómo seleccionar perfiles de prueba y 
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_redirect"
->title="Redirigir a otra dirección URL"
+>title="Redirigir a otra URL"
 >abstract="Introduzca una URL existente a la que desee redirigir a los visitantes de su página."
 
 Al crear una experiencia web, puede redirigir a los visitantes a otra URL existente en lugar de crear una nueva variación en el diseñador web.
@@ -266,4 +266,4 @@ Cuando un recorrido web o una campaña están activos, puede detenerlos para evi
 
 El siguiente vídeo muestra cómo crear una campaña web, configurar sus propiedades, revisarla y publicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449984/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

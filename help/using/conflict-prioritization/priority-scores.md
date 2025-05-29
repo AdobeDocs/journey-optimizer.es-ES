@@ -8,7 +8,7 @@ exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 39%
+ht-degree: 48%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioridad"
->abstract="Asigne una puntuación de prioridad al recorrido. La prioridad es esencial para priorizar un recorrido cuando hay una restricción impuesta, como un límite de frecuencia. Introduzca un valor numérico (de 0 a 100). Tenga en cuenta que, cuanto mayor sea el número, mayor será la prioridad."
+>abstract="Asigne una puntuación de prioridad al recorrido. La prioridad es esencial para dar prioridad a un recorrido cuando hay una restricción impuesta, como un límite de frecuencia. Introduzca un valor numérico (de 0 a 100). Tenga en cuenta que, cuanto mayor sea el número, mayor será la prioridad."
 
 >[!AVAILABILITY]
 >
@@ -48,4 +48,4 @@ Para asignar una puntuación de prioridad a un recorrido o campaña, escriba un 
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445004?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

@@ -8,7 +8,7 @@ exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 source-git-commit: bc433a215021b9c5c6a8948468468808e7121712
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 10%
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
 >title="Utilice perfiles de prueba para comprobar el contenido"
->abstract="Utilice perfiles de prueba para previsualizar y probar el contenido. Si ha añadido campos personalizados, puede comprobar cómo se muestran utilizando datos de perfil de prueba."
+>abstract="Utilice perfiles de prueba para previsualizar y probar el contenido. Si ha añadido campos personalizados, puede comprobar cómo se muestran utilizando los datos del perfil de prueba."
 
 Los perfiles de prueba son destinatarios adicionales que no coinciden con los criterios de objetivo definidos. [Aprenda a crear perfiles de prueba](../audience/creating-test-profiles.md)
 
