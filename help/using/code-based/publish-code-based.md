@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ También puede obtener una vista previa del contenido de la experiencia basado e
 >
 >Si activa un recorrido o una campaña basada en código que afecte a las mismas páginas que otro recorrido o campaña que ya está activo, todos los cambios se aplicarán al contenido.
 >
->Si varios recorridos o campañas basados en código actualizan los mismos elementos del contenido, la campaña o el recorrido de mayor prioridad tiene prioridad.
+>Si varios recorridos o campañas basados en código actualizan los mismos elementos del contenido, la campaña o el recorrido de mayor prioridad tiene prioridad. [Más información sobre las puntuaciones de prioridad](../conflict-prioritization/priority-scores.md)
 
 Una vez que el recorrido o la campaña basados en código estén activos, el equipo de implementación de la aplicación será responsable de realizar llamadas explícitas de API o SDK para recuperar contenido para las superficies definidas en la [configuración de experiencia basada en código](code-based-configuration.md) seleccionada. Obtenga más información acerca de las diferentes implementaciones de clientes en [esta sección](code-based-implementation-samples.md).
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 53%
+source-wordcount: '766'
+ht-degree: 50%
 
 ---
 
@@ -32,6 +32,10 @@ Una superficie puede verse como un contenedor en cualquier nivel de jerarquía c
 * También se puede ampliar a fragmentos específicos de contenedores de contenido para fines de no visualización o de visualización abstracta (por ejemplo, blobs JSON entregados a servicios).
 
 * También puede ser una superficie comodín que coincida con una variedad de definiciones de superficie de cliente (por ejemplo, una ubicación de imagen principal en cada página del sitio web podría traducirse en un URI de superficie como: web://mydomain.com/*#hero_image).
+
+>[!NOTE]
+>
+>Cuando se ejecutan varias acciones de experiencia basadas en código en la misma superficie, la **[!UICONTROL puntuación de prioridad]** de la campaña o el recorrido determina qué se envía al usuario final si cumple los requisitos para más de una acción. [Más información sobre las puntuaciones de prioridad](../conflict-prioritization/priority-scores.md)
 
 ## Identificador de superficie {#surface-uri}
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '698'
 ht-degree: 10%
 
 ---
@@ -41,9 +41,13 @@ Para agregar una actividad de **experiencia basada en código** a un recorrido, 
 
 1. Escriba una **[!UICONTROL Etiqueta]** y **[!UICONTROL Descripción]** para su mensaje.
 
-1. Seleccione o cree la [configuración de experiencia basada en código](code-based-configuration.md) que quiera usar.
+1. Seleccione o cree la configuración de experiencia basada en código que desee utilizar. [Más información](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
+
+   >[!NOTE]
+   >
+   >Cuando tiene varias acciones de experiencia basadas en código que utilizan la misma configuración de canal, la **[!UICONTROL puntuación de prioridad]** del recorrido determina qué se envía al usuario final si cumple los requisitos para más de una acción. [Más información sobre las puntuaciones de prioridad](../conflict-prioritization/priority-scores.md)
 
 1. Seleccione el botón **[!UICONTROL Editar contenido]** y edite el contenido como desee con el editor de personalización. [Más información](#edit-code)
 
@@ -67,9 +71,13 @@ Para empezar a crear tu **experiencia basada en código** a través de una campa
 
 1. Seleccione la acción **[!UICONTROL Experiencia basada en código]**.
 
-1. Seleccione o cree la configuración de experiencia basada en código. [Más información](code-based-configuration.md)
+1. Seleccione o cree la configuración de experiencia basada en código que desee utilizar. [Más información](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
+
+   >[!NOTE]
+   >
+   >Cuando tiene varias acciones de experiencia basadas en código que utilizan la misma configuración de canal, la **[!UICONTROL puntuación de prioridad]** de la campaña determina qué se envía al usuario final si cumple los requisitos para más de una acción. [Más información sobre las puntuaciones de prioridad](../conflict-prioritization/priority-scores.md)
 
 1. Edite el contenido como desee mediante el editor de personalización. [Más información](#edit-code)
 
@@ -123,4 +131,4 @@ Ahora, tan pronto como el desarrollador realice una API o una llamada de SDK par
 
 El siguiente vídeo muestra cómo crear una campaña de experiencia basada en código, configurar sus propiedades, probarla y publicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449456/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

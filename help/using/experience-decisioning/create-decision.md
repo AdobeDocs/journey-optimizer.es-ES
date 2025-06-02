@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 0b7f76ca43ef8dda3861abf2c3b058cef725e967
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1735'
 ht-degree: 12%
 
 ---
@@ -215,6 +215,10 @@ Una vez creada, la directiva de decisión se puede usar en el [editor de persona
 1. Haga clic en cada carpeta para expandirla. Coloque el cursor del ratón en la ubicación deseada y haga clic en el icono + situado junto al atributo que desee añadir. Puede agregar todos los atributos que desee al código.
 
    ![](assets/decision-code-based-add-decision-attributes.png)
+
+1. Asegúrese de envolver el bucle `#each` dentro de un par de corchetes `[ ]` y agregue una coma justo antes de cerrar `/each`.
+
+   ![](assets/decision-code-based-wrap-code.png)
 
 1. También puede añadir cualquier otro atributo disponible en el editor de personalización, como atributos de perfil.
 

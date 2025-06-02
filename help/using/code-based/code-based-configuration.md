@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 23%
+source-wordcount: '1118'
+ht-degree: 22%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 23%
 Antes de [crear su experiencia](create-code-based.md), debe crear una configuración de experiencia basada en código en la que defina dónde se enviará y consumirá el contenido dentro de su aplicación.
 
 Una configuración de experiencia basada en código debe hacer referencia a la superficie, que es básicamente la ubicación donde desea procesar los cambios. Según la plataforma seleccionada, se debe introducir una ubicación/ruta o el URI de superficie completo. [Más información](code-based-surface.md)
+
+>[!NOTE]
+>
+>Cuando tiene varias acciones de experiencia basadas en código que utilizan la misma configuración de canal (y, por lo tanto, se ejecutan en la misma superficie), la **[!UICONTROL puntuación de prioridad]** de la campaña o el recorrido determina qué se envía al usuario final si cumple los requisitos para más de una acción. [Más información sobre las puntuaciones de prioridad](../conflict-prioritization/priority-scores.md)
 
 ## Cree una configuración de experiencia basada en código {#create-code-based-configuration}
 
@@ -156,7 +160,7 @@ Para definir los ajustes de configuración de la experiencia basada en código p
 
    >[!NOTE]
    >
-   >Si encuentra problemas al obtener una vista previa de la experiencia, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
+   >Si encuentra problemas al obtener una vista previa de la experiencia, consulte [esta documentación](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 ### Otras plataformas {#other}
 
