@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1182'
 ht-degree: 4%
 
 ---
@@ -42,11 +42,17 @@ Para crear una fórmula de clasificación, siga los pasos a continuación.
 
    ![](assets/create-formula.png){width="80%"}
 
-1. Si lo desea, haga clic en **[!UICONTROL Seleccionar modelo de IA]** para establecer el modelo que se utilizará como referencia para generar la fórmula de clasificación. Cada vez que haga referencia a una puntuación de modelo al definir la fórmula a continuación, se utilizará el modelo de IA seleccionado.
+1. Si lo desea, haga clic en **[!UICONTROL Seleccionar modelo de IA]** para establecer el modelo que se utilizará como referencia para generar la fórmula de clasificación.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >Cuando se usa un modelo de IA incorporado a una fórmula de clasificación, los datos no se reflejan en el informe [Tasa de conversión de tráfico controlado por modelo y Holdout](../reports/campaign-global-report-cja-code.md#conversion-rate).
+   >[Los modelos de optimización personalizados](../offers/ranking/personalized-optimization-model.md) que usan métricas continuas no son compatibles con el generador de fórmulas de IA.
+
+Cada vez que haga referencia a una puntuación de modelo al definir la fórmula a continuación, se utilizará el modelo de IA seleccionado.
+
+    >[!CAUTION]
+    >
+    >Al utilizar un modelo de IA incorporado a una fórmula de clasificación, los datos no se reflejan en el informe [Tasa de conversión para tráfico controlado por modelo y en espera](../reports/campaign-global-report-cja-code.md#conversion-rate).
 
 1. Defina las condiciones que determinarán la puntuación de clasificación para los elementos de decisión coincidentes. Puede hacer lo siguiente
 
