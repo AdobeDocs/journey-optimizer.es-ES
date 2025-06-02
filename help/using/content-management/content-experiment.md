@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
+source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 12%
+source-wordcount: '1218'
+ht-degree: 7%
 
 ---
 
@@ -102,6 +102,8 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 
    ![](assets/content_experiment_13.png)
 
+1. Habilite el experimento de escalado automático para desplegar automáticamente la variación ganadora del experimento. [Más información sobre cómo escalar al ganador](#scale-winner)
+
 1. Haga clic en **[!UICONTROL Crear]** cuando se establezca la configuración.
 
 ## Diseña tus tratamientos {#treatment-experiment}
@@ -127,4 +129,80 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 1. Una vez definido el contenido del mensaje, haga clic en el botón **[!UICONTROL Simular contenido]** para controlar la renderización del envío y comprobar la configuración de personalización con perfiles de prueba. [Más información](../content-management/preview-test.md)
 
 Después de configurar la experimentación, puede realizar un seguimiento del éxito de su envío con el informe. [Más información](../reports/campaign-global-report-cja-experimentation.md)
+
+## Escalar el ganador {#scale-winner}
+
+>[!AVAILABILITY]
+>
+>La función Escalar el ganador (Scale the Winner) es compatible actualmente con los siguientes canales:
+>
+>* Canales entrantes (por ejemplo, web, mensaje en la aplicación o experiencia basada en código) en cualquier recorrido o campaña.
+>* Canales salientes (por ejemplo, correo electrónico, notificaciones push, SMS) en campañas transaccionales activadas por API.
+
+Escalar el ganador permite desplegar automática o manualmente la variación ganadora de un experimento para toda la audiencia. Esta función garantiza que, una vez que se determina un ganador, puede amplificar su alcance y efectividad sin monitorizar constantemente el experimento.
+
+Puede elegir entre dos modos:
+
+* **Escalado automático**: configure las opciones de escalado automático al crear su experimento eligiendo el momento y las condiciones para escalar el tratamiento ganador o una opción de reserva si no aparece ningún ganador.
+
+* **Escalado manual**: revise manualmente los resultados del experimento e inicie el despliegue del tratamiento ganador, manteniendo un control total sobre el tiempo y las decisiones.
+
+
+### Escalado automático {#autoscaling}
+
+El escalado automático permite establecer reglas predefinidas sobre cuándo implementar el tratamiento ganador o una alternativa, en función de los resultados del experimento.
+
+Tenga en cuenta que una vez que se ha producido el escalado automático, el escalado manual ya no está disponible.
+
+Para habilitar el escalado automático en los experimentos:
+
+1. Configure la campaña o el recorrido y configure el experimento según sea necesario. [Más información](#configure-experiment)
+
+1. Active la opción de escalado automático al configurar el experimento.
+
+   ![](assets/scale-winner-1.png)
+
+1. Seleccione cuándo se debe escalar el ganador:
+
+   * En cuanto se encuentre el ganador.
+   * Después de que el experimento esté activo durante el tiempo seleccionado.
+
+     La hora de escalado automático debe programarse antes de la fecha de finalización del experimento. Si se establece para una hora después de la fecha de finalización, aparece una advertencia de validación y la campaña o el recorrido no se publican.
+
+   ![](assets/scale-winner-2.png)
+
+1. Elija el comportamiento de reserva si no se encuentra ningún ganador por tiempo de escala:
+
+   * Continuar el experimento hasta que termine según lo programado.
+   * Escalar el tratamiento alternativo después de un tiempo especificado.
+
+Una vez cumplidos todos los parámetros, el tratamiento ganador o alternativo se envía a su audiencia.
+
+### Escalado manual {#manual-scaling}
+
+La escala manual le permite revisar los resultados de los experimentos y decidir cuándo implementar el tratamiento ganador según su propia programación.
+
+Tenga en cuenta que si escala manualmente al ganador antes de la hora programada de escalado automático, se cancela la escala automática.
+
+Para escalar manualmente el ganador de los experimentos:
+
+1. Configure la campaña o el recorrido y configure el experimento según sea necesario. [Más información](#configure-experiment)
+
+1. Deje que el experimento se ejecute hasta que se identifique un ganador o se alcance la relevancia estadística.
+
+1. Abra el panel de campañas o seleccione la actividad de canal en el recorrido.
+
+   Revise los resultados en el menú **[!UICONTROL Experimento de contenido]** para identificar el tratamiento de mayor rendimiento.
+
+   ![](assets/scale-winner-jo.png)
+
+1. Haga clic en **[!UICONTROL Escalar tratamiento]** para insertar el tratamiento ganador al resto de la audiencia.
+
+   ![](assets/scale-winner-campaign.png)
+
+1. Seleccione el tratamiento que desee escalar en el menú desplegable y haga clic en **[!UICONTROL Escalar]**.
+
+   ![](assets/scale-winner-3.png)
+
+Tenga en cuenta que escalar el tratamiento puede tomar hasta una hora. Recibirá una notificación una vez que finalice el proceso de escalado manual.
 
