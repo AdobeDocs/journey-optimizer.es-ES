@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
+source-git-commit: 2f2caf8615af8e3526124e0d7ed91873ccb6edc3
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 4%
+source-wordcount: '1179'
+ht-degree: 5%
 
 ---
 
-# Usar el generador de fórmulas de IA {#create-ranking-formulas}
+# Uso del generador de fórmulas de IA {#create-ranking-formulas}
 
 **Las fórmulas de clasificación** le permiten definir reglas que determinan qué oferta debe presentarse primero, en lugar de tener en cuenta las puntuaciones de prioridad.
 
@@ -48,11 +48,11 @@ Para crear una fórmula de clasificación, siga los pasos a continuación.
    >
    >[Los modelos de optimización personalizados](../offers/ranking/personalized-optimization-model.md) que usan métricas continuas no son compatibles con el generador de fórmulas de IA.
 
-Cada vez que haga referencia a una puntuación de modelo al definir la fórmula a continuación, se utilizará el modelo de IA seleccionado.
+   Cada vez que haga referencia a una puntuación de modelo al definir la fórmula a continuación, se utilizará el modelo de IA seleccionado.
 
-    >[!CAUTION]
-    >
-    >Al utilizar un modelo de IA incorporado a una fórmula de clasificación, los datos no se reflejan en el informe [Tasa de conversión para tráfico controlado por modelo y en espera](../reports/campaign-global-report-cja-code.md#conversion-rate).
+   >[!CAUTION]
+   >
+   >Cuando se usa un modelo de IA incorporado a una fórmula de clasificación, los datos no se reflejan en el informe [Tasa de conversión de tráfico controlado por modelo y Holdout](../reports/campaign-global-report-cja-code.md#conversion-rate).
 
 1. Defina las condiciones que determinarán la puntuación de clasificación para los elementos de decisión coincidentes. Puede hacer lo siguiente
 
