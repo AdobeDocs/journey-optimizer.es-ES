@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2504'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 95%
 
 A continuación, encontrará limitaciones y mecanismos de protección adicionales al utilizar [!DNL Adobe Journey Optimizer].
 
-Los derechos, limitaciones de productos y protecciones de rendimiento se enumeran en [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Los derechos, limitaciones de productos y protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-También debe tener en cuenta las [protecciones para los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"} antes de comenzar.
+También debe tener en cuenta los [mecanismos de protección para los datos del perfil del cliente en tiempo real antes de comenzar](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"}.
 
 ## Navegadores admitidos {#browsers}
 
@@ -62,7 +62,7 @@ Las siguientes limitaciones se aplican a la actividad [canal de SMS](../sms/get-
 
 [Las campañas web de](../web/get-started-web.md) [!DNL Journey Optimizer] se dirigen a nuevos perfiles que no han interactuado antes en otros canales. Esto aumentará el recuento total de perfiles con los que es posible interactuar, lo que puede tener costes si se supera el número contractual de perfiles adquiridos. 
 
-Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Protecciones de canal basado en código {#code-based-guardrails}
 
@@ -212,10 +212,10 @@ El siguiente mecanismo de protección se aplica a la actividad de recorrido [Cal
 
 ### Editor de expresiones {#expression-editor}
 
-Las siguientes protecciones se aplican al [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md):
+Los siguientes mecanismos de protección se aplican al [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md):
 
 * Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer público, Calificación de público o una actividad de evento empresarial. Debe crear un público nuevo y utilizar una condición dentro del público en el recorrido.
-* Los atributos `timeSeriesEvents` no se pueden usar en el editor de expresiones. Para acceder a los eventos de experiencia en un nivel de perfil, cree un nuevo grupo de campos basado en un esquema `XDM ExperienceEvent`.
+* Los atributos `timeSeriesEvents` no se pueden usar en el editor de expresiones. Para acceder a los eventos de experiencia a nivel de perfil, cree un nuevo grupo de campos basado en un esquema `XDM ExperienceEvent`.
 
 
 ### Actividad en la aplicación {#in-app-activity-limitations}

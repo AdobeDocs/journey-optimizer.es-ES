@@ -7,21 +7,21 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# Introducción a [!DNL Adobe Journey Optimizer] canales {#get-started-email}
+# Introducción a los canales de [!DNL Adobe Journey Optimizer] {#get-started-email}
 
 En el panorama de marketing dinámico de hoy en día, llegar de forma eficaz a su público en varias plataformas es esencial para crear relaciones duraderas e impulsar la participación. En esta sección se ofrece información general completa sobre los canales de comunicación disponibles en [!DNL Adobe Journey Optimizer], lo que le ayuda a comprender cómo utilizar cada canal de forma eficaz en sus estrategias de marketing.
 
-Adobe Journey Optimizer ofrece una variedad de canales nativos para interactuar con su audiencia de forma eficaz. Puede combinar la entrega de mensajes salientes y las experiencias entrantes.
+Adobe Journey Optimizer ofrece una variedad de canales nativos para interactuar eficazmente con su público. Puede combinar el envío de mensajes de salida y las experiencias de entrada.
 
-## Canales salientes para la entrega de mensajes {#outbound-channels}
+## Canales de salida para el envío de mensajes {#outbound-channels}
 
-Los canales de entrega de mensajes salientes implican el envío de mensajes a los clientes sin interacción previa. Algunos ejemplos son las campañas de correo electrónico y las notificaciones push, donde puede ponerse en contacto de forma proactiva con su público. En [!DNL Adobe Journey Optimizer], los canales de salida admitidos son los siguientes:
+Los canales de envío de los mensajes de salida implican enviar mensajes a los clientes sin interacción previa. Algunos ejemplos son las campañas de correo electrónico y las notificaciones push, donde puede ponerse en contacto de forma proactiva con su público. En [!DNL Adobe Journey Optimizer], los canales de salida admitidos son los siguientes:
 
 * **Correo electrónico**: envíe mensajes personalizados directamente a las bandejas de entrada de sus clientes.
 * **SMS/MMS**: envíe mensajes de texto para llegar a los usuarios en sus dispositivos móviles.
@@ -41,9 +41,9 @@ Seleccione un canal para profundizar y descubrir cómo aprovecharlo de forma efi
 <div align="center"><a href="../direct-mail/get-started-direct-mail.md"><strong>Correo directo</strong></a></div></td>
 </tr></table>
 
-## Experiencias entrantes {#inbound-channels}
+## Experiencias de entrada {#inbound-channels}
 
-Con experiencias entrantes, los clientes deben iniciar interacciones. Algunos ejemplos son la mensajería en la aplicación y las experiencias basadas en la web, en las que los usuarios pueden interactuar con el contenido según sus propios términos. En [!DNL Adobe Journey Optimizer], los canales de entrada admitidos son los siguientes:
+Con las experiencias de entrada, los clientes inician las interacciones. Algunos ejemplos son la mensajería in-app y las interacciones basadas en la web, en las que los usuarios pueden interactuar con el contenido según sus propios términos. En [!DNL Adobe Journey Optimizer], los canales de entrada admitidos son los siguientes:
 
 * **En la aplicación**: comuníquese con los usuarios de sus aplicaciones móviles o web para mejorar su experiencia.
 * **Web**: utilice la mensajería basada en la web para interactuar con los usuarios que exploran su sitio.

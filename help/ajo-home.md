@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '334'
+ht-degree: 100%
 
 ---
 
@@ -22,19 +22,19 @@ Eche un vistazo a las mejoras más recientes del producto y a la documentación 
 
 >[!TAB Versión de mayo de 2025]
 
-La versión de mayo ya está activa. Consulte las Notas de la versión para descubrir los cambios y mejoras y las funciones nuevas.
+Ya está aquí la versión de mayo. Consulte las Notas de la versión para descubrir los cambios y mejoras y las funciones nuevas.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB Integración con Adobe Express]
 
-Adobe Journey Optimizer ahora se integra con Adobe Express, lo que le permite conectar sin problemas sus recursos creativos con la orquestación de recorrido.
+Adobe Journey Optimizer ahora se integra con Adobe Express, lo que le permite conectar sin problemas sus recursos creativos con la orquestación de recorrido. 
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB Asistente de IA]
 
-✨ sumérjase en una experiencia práctica con nuestro [Asistente de IA](../help/using/content-management/gs-generative.md), que está diseñado para que explore sus características de primera mano y comprenda sus capacidades.
+✨Láncese a una experiencia práctica inmersiva con la vista previa en directo de nuestro [Asistente de IA](../help/using/content-management/gs-generative.md), diseñado para permitirle explorar sus funciones en primera persona y comprender plenamente sus capacidades.
 
 [![Más información](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
@@ -47,7 +47,7 @@ La creación de informes en Journey Optimizer cuentan con una interoperabilidad 
 
 >[!ENDTABS]
 
-## Empiece con lo básico.
+## Empiece con los conceptos básicos.
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">

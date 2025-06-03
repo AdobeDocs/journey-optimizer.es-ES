@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '499'
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ Para implementar su caso de uso, puede navegar a cada objeto para adaptarlo a su
 
 Además, puede importar los recursos de los manuales de tácticas a otras zonas protegidas. Esto le permite alinear los recursos generados con los existentes y asegurarse de que sean compatibles con los datos, en caso de que ya haya configurado sus propios esquemas, campos y grupos de campos. Estos pasos se detallan en la documentación de manuales de tácticas de casos de uso: [Publicar recursos generados por manuales de tácticas en otras zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=es){target="_blank"}.
 
-## Cree sus propios libros de reproducción (beta privada) {#create}
+## Crear sus propios manuales de tácticas (Private Beta) {#create}
 
 >[!AVAILABILITY]
 >
->En la actualidad, la creación de libros de reproducción de casos de uso solo está disponible para un conjunto de organizaciones como una versión beta privada. Para obtener acceso, póngase en contacto con su representante de Adobe.
+>La creación de manuales de tácticas de casos de uso solo está disponible en la actualidad para un conjunto de organizaciones como Private Beta. Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 Además de aprovechar los manuales de tácticas predefinidos, puede crear y compartir sus propios manuales de tácticas en Adobe Experience Platform.
 

@@ -6,9 +6,9 @@ level: Beginner
 badge: label="Disponibilidad limitada"
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: f55f985375cf360ce55074cb227b6c424db05b5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 94%
 >
 >Las funciones de conflictos y priorización están disponibles en Disponibilidad limitada para un grupo selecto de clientes. Tenga en cuenta que estas funciones se implementarán gradualmente para más usuarios en el futuro. Póngase en contacto con el equipo de la cuenta si está interesado en que se le añada a la lista de espera de estas funciones.
 
-En Journey Optimizer, la administración del volumen y la sincronización de las campañas y los recorridos tiene vital importancia, ya que reducen las interacciones para los clientes. Journey Optimizer ahora ofrece varias herramientas para la administración y priorización de conflictos.
+En Journey Optimizer, administrar el volumen y la cronología de las campañas y los recorridos es esencial para evitar abrumar a los clientes con demasiadas interacciones. Journey Optimizer ahora ofrece varias herramientas para la administración y priorización de conflictos.
 
-Estas herramientas están disponibles para campañas y recorridos unitarios, de calificación de audiencias y de lectura de audiencias.
+Estas herramientas están disponibles en campañas y recorridos unitarios, de calificación de público y de público de lectura.
 
-Al aprovechar estas herramientas, puede garantizar esfuerzos de marketing más fluidos y orientados, enviando el mensaje correcto en el momento adecuado y evitando conflictos y sobrecargas.
+Aprovechando estas herramientas, puede garantizar unos esfuerzos de marketing más fluidos y específicos, enviando el mensaje correcto en el momento adecuado y evitando conflictos y sobrecargas.
 
 ## Herramientas de administración y priorización de conflictos {#tools}
 

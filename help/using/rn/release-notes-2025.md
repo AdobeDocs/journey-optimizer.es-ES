@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2031'
+ht-degree: 100%
 
 ---
 
@@ -159,7 +159,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tr>
 <td>
 <p>Adobe Journey Optimizer ahora se integra con Adobe Express, lo que le permite conectar sin problemas sus recursos creativos con la orquestación de recorrido. Esta integración simplifica el proceso de diseño e implementación de contenido personalizado en todas las campañas. </p>
-<p>Actualmente, esta integración no está disponible para su uso con Healthcare Shield o Privacy and Security Shield.</p>
+<p>Esta integración no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield.</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>Para obtener más información, consulte la <a href="../integrations/express.md">documentación detallada</a>.</p>
 </td>
@@ -278,7 +278,7 @@ Hay nuevas API disponibles para previsualizar campañas, además de las capacida
 
 **Manuales de tácticas de casos de uso**
 
-* **Creación y uso compartido de libros de reproducción (beta privada)**: ahora puede crear, administrar y compartir sus propios libros de reproducción de casos de uso. Actualmente, esta funcionalidad solo está disponible para un conjunto de organizaciones como una versión beta privada. Para obtener acceso, póngase en contacto con su representante de Adobe. [Más información](../start/playbooks.md)
+* **Creación y uso compartido de manuales de tácticas (Private Beta)**: ahora puede crear, administrar y compartir sus propios manuales de tácticas de casos de uso. Ahora mismo, esta función solo está disponible para un conjunto de organizaciones como Private Beta. Para obtener acceso, póngase en contacto con su representante de Adobe. [Más información](../start/playbooks.md)
 
 **Navegación**
 
