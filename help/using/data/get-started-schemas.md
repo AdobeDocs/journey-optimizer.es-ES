@@ -40,7 +40,7 @@ Consulte el [diccionario de esquemas de Journey Optimizer](https://experiencelea
 
 Obtenga información sobre cómo crear un esquema, añadir grupos de campos, crear y configurar grupos de campos personalizados.
 
->[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416869?quality=12&captions=spa)
 
 >[!MORELIKETHIS]
 >
