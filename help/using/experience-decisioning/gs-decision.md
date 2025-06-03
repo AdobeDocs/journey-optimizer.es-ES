@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '287'
 ht-degree: 20%
 
 ---
 
-# Introducción a las capacidades de decisión de [!DNL Journey Optimizer] {#gs-decision}
+# Introducción a las capacidades de decisión en [!DNL Journey Optimizer] {#gs-decision}
 
 Las capacidades de decisión de [!DNL Journey Optimizer] le permiten ofrecer las mejores ofertas y experiencias personalizadas a sus clientes en todos los puntos de contacto, en los momentos precisos. Estas funcionalidades simplifican la personalización a través de un catálogo centralizado de ofertas de marketing y un motor de decisión avanzado, que utiliza reglas y criterios de clasificación para ofrecer el contenido más relevante para cada individuo.
 
@@ -38,9 +38,9 @@ Nuestro marco de decisión de próxima generación, diseñado para unificar los 
 
 Por ahora, Experience Decisioning es compatible con el canal de experiencia basado en código.
 
-➡️ [Introducción a Decisioning](../experience-decisioning/gs-experience-decisioning.md)
+➡️ [Introducción a la toma de decisiones](../experience-decisioning/gs-experience-decisioning.md)
 
-## Administración de decisiones {#decision-management}
+## Gestión de decisiones {#decision-management}
 
 ![](assets/gs-decision-management.png)
 
