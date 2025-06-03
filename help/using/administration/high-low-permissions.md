@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: permiso, alto nivel, bajo nivel, perfil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 49a607e8e4b4cce7bcf41d92abe6b9fa54dfb411
+source-git-commit: 3e106b971f5ce301584869e85efeaeb941237ac8
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -156,7 +156,7 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
 
 * El permiso de alto nivel **[!DNL Export suppression list]** permite a los usuarios descargar la lista de supresión como archivo CSV.
 
-+++ Incluye los siguientes permisos de bajo nivel:
++++ Este permiso incluye los siguientes permisos de bajo nivel:
 
    * Específico de Journey Optimizer:
       * suppression_list.export
@@ -184,7 +184,7 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
 
 * El permiso de alto nivel **[!DNL Publish campaigns]** permite a los usuarios publicar campañas.
 
-+++ Incluye los siguientes permisos de bajo nivel:
++++ Este permiso incluye los siguientes permisos de bajo nivel:
 
    * Específico de Journey Optimizer:
 
@@ -334,7 +334,7 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
 
 * El permiso de alto nivel **[!DNL Manage landing page settings]** permite a los usuarios leer, crear y editar subdominios de páginas de aterrizaje y ajustes preestablecidos.
 
-+++ Incluye los siguientes permisos de bajo nivel:
++++ Este permiso incluye los siguientes permisos de bajo nivel:
 
    * Específico de Journey Optimizer:
 
@@ -363,7 +363,7 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
 
 * El permiso de alto nivel **[!DNL Manage messages presets]** permite a los usuarios leer, crear, editar y eliminar configuraciones de canal en varios canales en el nivel de zona protegida.
 
-+++ Incluye los siguientes permisos de bajo nivel:
++++ Este permiso incluye los siguientes permisos de bajo nivel:
 
    * Específico de Journey Optimizer:
       * messages_presets.read
@@ -379,7 +379,7 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
 
 * El permiso de alto nivel **[!DNL Manage PTR records]** permite a los usuarios leer y editar registros PTR que se hayan configurado en función del subdominio.
 
-+++ Incluye los siguientes permisos de bajo nivel:
++++ Este permiso incluye los siguientes permisos de bajo nivel:
 
    * Específico de Journey Optimizer:
       * PTR_records.read
@@ -390,7 +390,7 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
 
 * El permiso de alto nivel **[!DNL Manage Seedlist]** permite a los usuarios leer, crear, editar y eliminar Seedlist.
 
-+++ Incluye los siguientes permisos de bajo nivel:
++++ Este permiso incluye los siguientes permisos de bajo nivel:
 
    * Específico de Journey Optimizer:
       * seedlist.read
@@ -401,7 +401,7 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
 
 * El permiso de alto nivel **[!DNL Manage SMS subdomains]** permite a los usuarios leer, crear, editar y eliminar subdominios de SMS.
 
-+++ Incluye los siguientes permisos de bajo nivel:
++++ Este permiso incluye los siguientes permisos de bajo nivel:
 
    * Específico de Journey Optimizer:
       * sms_subdomains.read
@@ -444,7 +444,7 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
 
 * El permiso de alto nivel **[!DNL View messages general settings]** permite a los usuarios ver los mensajes en la configuración general, como la dirección de ejecución.
 
-+++ Incluye los siguientes permisos de bajo nivel:
++++ Este permiso incluye los siguientes permisos de bajo nivel:
 
    * Específico de Journey Optimizer:
       * messages_general_settings.read
@@ -456,7 +456,7 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
 
 * El permiso de alto nivel **[!DNL View messages presets]** permite a los usuarios ver los ajustes preestablecidos de los mensajes.
 
-+++ Incluye los siguientes permisos de bajo nivel:
++++ Este permiso incluye los siguientes permisos de bajo nivel:
 
    * Específico de Journey Optimizer:
       * messages_presets.read
@@ -470,7 +470,7 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
 
 * El permiso de alto nivel **[!DNL View PTR records]** permite a los usuarios ver los registros PTR que se han configurado en función del subdominio.
 
-+++ Incluye los siguientes permisos de bajo nivel:
++++ Este permiso incluye los siguientes permisos de bajo nivel:
    * Específico de Journey Optimizer:
 
       * PTR_records.read
@@ -509,7 +509,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
 The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
 
-  +++ It includes the following low-level permissions: 
+  +++ This permission includes the following low-level permissions: 
 -->
 
 ## recurso de asistencia de IA {#ai-permissions}
