@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: objeto, nivel, acceso, control, etiquetas, olac, autorización
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+source-git-commit: 5f0fbd71d5dd49bb192774db653db35763507df9
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 19%
+source-wordcount: '479'
+ht-degree: 13%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Etiquetas de administración de acceso"
->abstract="Puede limitar el acceso a un objeto en función de las etiquetas de acceso. Su objetivo es proteger los recursos digitales confidenciales de usuarios no autorizados, lo que permite una mayor protección de los datos personales. **Asegúrese de seleccionar solo las etiquetas para las que tenga permiso.**"
+>abstract="Puede limitar el acceso a un objeto en función de las etiquetas de acceso. Este enfoque protege los activos digitales confidenciales de los usuarios no autorizados y garantiza una mayor protección de los datos personales. **Asegúrese de seleccionar solo las etiquetas para las que tenga permiso.**"
 
-Puede limitar el acceso a un objeto en función de las etiquetas de acceso. Su objetivo es proteger los activos digitales confidenciales de usuarios no autorizados, lo que permite una mayor protección de los datos personales.
+Puede limitar el acceso a un objeto en función de las etiquetas de acceso. Este enfoque protege los activos digitales confidenciales de los usuarios no autorizados y garantiza una mayor protección de los datos personales.
 
-La capacidad Control de acceso a nivel de objeto (OLAC) permite definir autorizaciones para administrar el acceso a datos a una selección de objetos:
+La capacidad Control de acceso a nivel de objeto (OLAC) permite definir autorizaciones para administrar el acceso a datos para una selección de objetos:
 
-* Recorrido 
+*  Recorrido 
 * Campaign
 * Plantilla
 * Fragmento
@@ -41,36 +41,37 @@ La capacidad Control de acceso a nivel de objeto (OLAC) permite definir autoriza
 
 ## Requisitos previos {#prereq-labels}
 
-Para poder [crear etiquetas](#create-labels), debe formar parte de un rol con el permiso **[!UICONTROL Administrar etiquetas de uso]**.
+Para poder [crear etiquetas](#create-labels), debe pertenecer a un rol con el permiso **[!UICONTROL Administrar etiquetas de uso]**.
 
-Para poder [asignar etiquetas](#assign-labels), debe ser parte de un rol con un permiso de **Administrar**, es decir, [!DNL Manage journeys], [!DNL Manage Campaigns] o [!DNL Manage decisions]. Sin este permiso, el botón **[!UICONTROL Administrar acceso]** aparece atenuado.
+Para poder [asignar etiquetas](#assign-labels), debe pertenecer a un rol con el permiso **Administrar**, es decir, [!DNL Manage journeys], [!DNL Manage Campaigns] o [!DNL Manage decisions]. Sin este permiso, el botón **[!UICONTROL Administrar acceso]** aparece atenuado.
 
 Puede obtener más información sobre permisos en [esta sección](../administration/permissions.md).
 
 ## Creación de etiquetas {#create-labels}
 
-Las **[!UICONTROL etiquetas]** le permiten categorizar conjuntos de datos y campos según las políticas de uso que se aplican a esos datos. **[!UICONTROL Las etiquetas]** se pueden aplicar en cualquier momento, lo que proporciona flexibilidad en la forma en que elige administrar los datos.
+Las **[!UICONTROL etiquetas]** le permiten categorizar conjuntos de datos y campos según las políticas de uso que se aplican a esos datos. **[!UICONTROL Las etiquetas]** se pueden aplicar en cualquier momento, lo que proporciona flexibilidad en la forma en que se gestionan los datos.
 
-Utilice etiquetas para proporcionar acceso a los usuarios, así como para aplicar políticas de consentimiento y gobernanza de datos. Estas etiquetas de gobernanza pueden afectar al consumo descendente.
+Utilice etiquetas para proporcionar acceso a los usuarios y aplicar políticas de consentimiento y gobernanza de datos. Estas etiquetas de gobernanza pueden afectar al consumo descendente.
 
-Puede crear etiquetas en el producto [!DNL Permissions]. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html?lang=es){target="_blank"}.
+Puede crear etiquetas en el producto [!DNL Permissions]. Para obtener más información, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html){target="_blank"}.
 
 También puede crear **[!UICONTROL Etiquetas]** directamente en Journey Optimizer. Para crear una etiqueta, siga estos pasos:
 
-1. Desde un objeto de Adobe Journey Optimizer, aquí una **[!UICONTROL Campaña]** recién creada, haga clic en el botón **[!UICONTROL Administrar acceso]**.
+1. Desde un objeto de Adobe Journey Optimizer, como una **[!UICONTROL Campaña]** recién creada, haz clic en el botón **[!UICONTROL Administrar acceso]**.
 
-   ![](assets/olac_1.png)
+   ![Botón Administrar acceso en Adobe Journey Optimizer](assets/olac_1.png)
 
 1. En la ventana **[!UICONTROL Administrar acceso]**, haga clic en **[!UICONTROL Crear etiqueta]**.
 
    ![](assets/olac_2.png)
 
-1. Configure la etiqueta y debe especificar:
+1. Configure la etiqueta. Debe especificar:
+
    * **[!UICONTROL Nombre]**
    * **[!UICONTROL Nombre descriptivo]**
    * **[!UICONTROL Descripción]**
 
-   ![](assets/olac_3.png)
+   ![Campos de configuración de etiquetas](assets/olac_3.png)
 
 1. Haga clic en **[!UICONTROL Crear]** para guardar la **[!UICONTROL etiqueta]**.
 
@@ -80,9 +81,9 @@ La **[!UICONTROL etiqueta]** recién creada ya está disponible en la lista. Si 
 
 Para asignar etiquetas de uso de datos personalizadas o principales a los objetos de Journey Optimizer:
 
-1. Desde un objeto de Adobe Journey Optimizer, aquí una **[!UICONTROL Campaña]** recién creada, haga clic en el botón **[!UICONTROL Administrar acceso]**.
+1. Desde un objeto de Adobe Journey Optimizer, como una **[!UICONTROL Campaña]** recién creada, haz clic en el botón **[!UICONTROL Administrar acceso]**.
 
-   ![](assets/olac_1.png)
+   ![Botón Administrar acceso en Adobe Journey Optimizer](assets/olac_1.png)
 
 1. En la ventana **[!UICONTROL Administrar acceso]**, seleccione las etiquetas personalizadas o de uso de datos principales para administrar el acceso a este objeto.
 
@@ -92,7 +93,6 @@ Para asignar etiquetas de uso de datos personalizadas o principales a los objeto
 
 1. Haga clic en **[!UICONTROL Guardar]** para aplicar esta restricción de etiqueta.
 
-Para tener acceso a este objeto, los usuarios deberán incluir la **[!UICONTROL etiqueta]** específica en sus **[!UICONTROL roles]**.
-Por ejemplo, un usuario con la etiqueta C1 solo tendrá acceso a los objetos con o sin etiqueta C1.
+Para tener acceso a este objeto, los usuarios deben tener la **[!UICONTROL Etiqueta]** específica incluida en sus **[!UICONTROL Roles]**. Por ejemplo, un usuario con la etiqueta C1 solo tendrá acceso a objetos con etiquetas C1 o sin etiquetas.
 
-Para obtener más información sobre cómo asignar **[!UICONTROL Label]** a un **[!UICONTROL Rol]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=es#manage-labels-for-a-role){target="_blank"}.
+Para obtener más información sobre cómo asignar una **[!UICONTROL etiqueta]** a un **[!UICONTROL rol]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role){target="_blank"}.
