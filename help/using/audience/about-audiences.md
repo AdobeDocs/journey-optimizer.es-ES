@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '541'
 ht-degree: 19%
 
 ---
@@ -32,13 +32,13 @@ Las audiencias son colecciones de personas que comparten comportamientos o carac
 
 Adobe Journey Optimizer proporciona herramientas sólidas para crear, administrar y enriquecer audiencias a fin de mejorar los esfuerzos de marketing. Cuando se combina con Adobe Real-Time Customer Data Platform, Journey Optimizer le permite crear capas de audiencias para una segmentación más compleja y compartir audiencias bidireccionalmente con otras soluciones de Adobe Experience Cloud.
 
-A medida que los flujos de datos en tiempo real o se cargan por lotes, los conjuntos de datos se actualizan y Journey Optimizer mueve dinámicamente a los individuos dentro y fuera de las audiencias y los recorridos en tiempo real.
+A medida que se producen flujos de datos en tiempo real o cargas por lotes, los conjuntos de datos se actualizan y Journey Optimizer mueve dinámicamente a los individuos dentro y fuera de las audiencias y los recorridos en tiempo real.
 
 >[!BEGINSHADEBOX]
 
 Esta documentación proporciona información sobre cómo trabajar con audiencias dentro de [!DNL Adobe Journey Optimizer]. Encontrará información detallada sobre Audience Portal y las audiencias en la documentación del servicio de segmentación de Adobe Experience Platform. Consulte estas secciones para obtener más información:
 
-* [Guía de interfaz de usuario del servicio de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Guía de interfaz de usuario del servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [Servicio de segmentación - Preguntas más frecuentes](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -48,7 +48,7 @@ Esta documentación proporciona información sobre cómo trabajar con audiencias
 
 Las audiencias están disponibles en el menú **[!UICONTROL Cliente]** > **[!UICONTROL Audiencias]**.
 
-Un panel muestra visualmente las superposiciones entre audiencias importantes y admite la exploración de tendencias de audiencia valiosas, como los cambios de tamaño de audiencia en un período de tiempo determinado o los picos repentinos de audiencias pueden resaltar eventos o acciones que redujeron una audiencia, pero también aquellos que dieron como resultado un crecimiento de audiencia, como una oferta exitosa.
+Un panel muestra visualmente superposiciones entre audiencias importantes y admite la exploración de tendencias de audiencia valiosas. Por ejemplo, los cambios de tamaño de audiencia durante un periodo determinado o los picos repentinos de audiencia pueden resaltar eventos o acciones que hicieron que una audiencia se achicara o aumentara, como una oferta exitosa.
 
 ![](assets/audiences-overview.png)
 
