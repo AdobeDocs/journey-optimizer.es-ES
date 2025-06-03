@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
-source-wordcount: '2044'
+source-wordcount: '1960'
 ht-degree: 14%
 
 ---
@@ -46,7 +46,7 @@ Puede obtener más información sobre permisos en [esta sección](../administrat
 
 Al obtener acceso a los conjuntos de reglas por primera vez desde el menú **[!UICONTROL Administración]** > **[!UICONTROL Reglas de negocio]**, ya se ha creado y activado un conjunto de reglas predeterminado: **Conjunto de reglas predeterminado global**.
 
-Este conjunto de reglas contiene reglas globales que puede aplicar para controlar la frecuencia con la que los usuarios reciben mensajes a través de uno o varios canales, de forma similar a como funcionan las reglas empresariales actuales. Todas las reglas definidas en este conjunto de reglas se aplican a todos los canales seleccionados, independientemente de si las comunicaciones se envían desde un recorrido o desde una campaña. [Aprenda a trabajar con reglas empresariales](../configuration/rule-sets.md)
+Este conjunto de reglas contiene reglas globales que puede aplicar para controlar la frecuencia con la que los usuarios reciben mensajes a través de uno o varios canales, de forma similar a como funcionan las reglas empresariales actuales. Todas las reglas definidas en este conjunto de reglas se aplican a todos los canales seleccionados, independientemente de si las comunicaciones se envían desde un recorrido o desde una campaña. [Aprenda a trabajar con reglas empresariales](../conflict-prioritization/rule-sets.md)
 
 Además de este conjunto de reglas predeterminado global, puede crear **conjuntos de reglas personalizadas** que puede aplicar a cualquier campaña para restringir el número de mensajes enviados dentro de esa campaña. [Aprenda a crear conjuntos de reglas personalizados](#create)
 
@@ -63,10 +63,6 @@ Al crear un conjunto de reglas, debe especificar si las reglas dentro del conjun
 
 * Dominio **Channel**: aplique reglas de límite para los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día.
 * Dominio **Recorrido**: aplique reglas de límite de entrada y concurrencia a un recorrido. Por ejemplo, no introduzca perfiles en más de un recorrido simultáneamente.
-
->[!AVAILABILITY]
->
->Mientras que los conjuntos de reglas de dominio **Channel** están disponibles para todos los usuarios, los conjuntos de reglas de dominio **Recorrido** solo están disponibles para un conjunto limitado de usuarios (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 ## Creación de su primer conjunto de reglas personalizadas {#create-rule-set}
 
@@ -87,10 +83,6 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 1. Seleccione el dominio del conjunto de reglas. El dominio le permite especificar si el conjunto de reglas contendrá reglas de límite específicas para los canales de comunicación o para los recorridos. [Más información acerca de las reglas de límite de recorrido y canal](#domain)
 
    ![](assets/rule-sets-create.png)
-
-   >[!AVAILABILITY]
-   >
-   >Mientras que los conjuntos de reglas de dominio **Channel** están disponibles para todos los usuarios, los conjuntos de reglas de dominio **Recorrido** solo están disponibles para un conjunto limitado de usuarios (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -140,10 +132,6 @@ Los parámetros disponibles para la regla dependen del dominio del conjunto de r
 
    ![](assets/rule-set-capping-duration.png)
 
-   >[!AVAILABILITY]
-   >
-   >La duración &quot;Diaria&quot; solo está disponible para un conjunto de organizaciones (Disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
-
    La caducidad del contador para cada período es la siguiente:
 
    * **[!UICONTROL Mensual]**: el límite de frecuencia es válido hasta el último día del mes a las 23:59:59 UTC. Por ejemplo, la caducidad mensual para enero es del 01 al 31 23:59:59 UTC.
@@ -154,7 +142,7 @@ Los parámetros disponibles para la regla dependen del dominio del conjunto de r
 
      >[!CAUTION]
      > 
-     >Para garantizar la precisión de las reglas de restricción de frecuencia diaria, asegúrese de elegir el espacio de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información sobre la prioridad del espacio de nombres en la [guía del servicio de identidad de Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+     >Para garantizar la precisión de las reglas de restricción de frecuencia diaria, asegúrese de elegir el espacio de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información sobre la prioridad del espacio de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
    Tenga en cuenta que el valor del contador de perfiles se actualiza una vez que se envía la comunicación. Tenga esto en cuenta cuando envíe grandes volúmenes de comunicaciones, ya que el rendimiento podría provocar que el destinatario reciba el correo electrónico minutos o incluso horas después del inicio de la comunicación (en el caso de que envíe millones de comunicaciones simultáneamente).
 
@@ -324,4 +312,4 @@ Para aplicar una regla de límite a un recorrido, acceda al recorrido y abra sus
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444729?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

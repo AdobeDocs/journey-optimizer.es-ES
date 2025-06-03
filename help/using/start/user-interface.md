@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ Controle la administración de la privacidad y las solicitudes desde esta secci�
 
   También puede acceder a la sección **Creación de informes** para configurar la creación de informes para la experimentación de campañas y web/móvil. [Más información](../reports/reporting-configuration.md)
 
-* **[!UICONTROL Reglas empresariales]**: utilice esta sección para crear reglas empresariales entre canales para controlar la frecuencia con la que los usuarios reciben un mensaje o entran en un recorrido. [Más información](../configuration/rule-sets.md)
+* **[!UICONTROL Reglas empresariales]**: utilice esta sección para crear reglas empresariales entre canales para controlar la frecuencia con la que los usuarios reciben un mensaje o entran en un recorrido. [Más información](../conflict-prioritization/rule-sets.md)
 
 * **[!UICONTROL Alertas]**: la interfaz de usuario le permite ver un historial de alertas recibidas en función de las métricas reveladas por Adobe Experience Platform Observability Insights. La IU también le permite ver, habilitar y deshabilitar las reglas de alerta disponibles. [Más información](../reports/alerts.md)
 

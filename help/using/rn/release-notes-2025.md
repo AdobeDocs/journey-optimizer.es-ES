@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
 source-wordcount: '2031'
 ht-degree: 100%
 
@@ -362,7 +362,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <td>
 <p>A calendar view is now available in Journey Optimizer to visualize all journeys activations. From this view, you can browse your journeys and check details and properties.<p>
 <p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../conflict-prioritization/rule-sets.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -439,7 +439,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <td>
 <p>Adobe Journey Optimizer has expanded its cross-channel capabilities to include support for the LINE channel. This enhancement allows you to create, edit, and preview LINE experiences enabling more personalized and engaging interactions. With LINE, you can connect with more customers, send relevant content, and improve your engagement.<p>
 <p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../conflict-prioritization/rule-sets.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -481,7 +481,7 @@ Ahora puede usar la restricción de frecuencia diaria en recorridos y campañas 
 
 Como recordatorio, la restricción de frecuencia diaria en los conjuntos de reglas solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
-Para obtener más información sobre las reglas empresariales, consulte la [documentación detallada](../configuration/rule-sets.md).
+Para obtener más información sobre las reglas empresariales, consulte la [documentación detallada](../conflict-prioritization/rule-sets.md).
 
 **Plantillas de contenido**
 
@@ -517,7 +517,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <p><ul><li>Cree conjuntos de reglas de canal para restringir el número de mensajes enviados a través de uno o varios canales. Aplíquelas a campañas o acciones de recorrido para aplicar las reglas definidas en el conjunto de reglas. El conjunto de reglas de canal le permite aplicar reglas de límite basadas en tipos de comunicación. Por ejemplo, defina una regla para limitar los “mensajes promocionales” y otra para los “boletines”. Aplique el conjunto de reglas adecuado en la campaña o acción de recorrido según el tipo de comunicación que envíe.</li>
 <li> Cree conjuntos de reglas de recorrido para controlar las entradas de perfil en los recorridos. Limite la frecuencia con la que un perfil puede entrar en un recorrido dentro de un período determinado o el número de recorridos en los que se puede inscribir un perfil simultáneamente. Aplíquelas en el nivel de recorrido para garantizar una administración de entrada adecuada.</li></ul></p>
 <p>Las reglas empresariales, que anteriormente estaban disponibles para un conjunto de organizaciones (LA), ya están disponibles para todos los usuarios (GA). Las reglas empresariales del dominio de recorrido siguen estando disponibles únicamente para un conjunto limitado de organizaciones (LA).</p>
-<p>Para obtener más información, consulte la <a href="../configuration/rule-sets.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../conflict-prioritization/rule-sets.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>

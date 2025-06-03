@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuración, configurar, mensajes, canal, zona protegida, optimizador
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 54%
@@ -60,6 +60,6 @@ Para poder enviar mensajes, debe seguir los pasos de configuración que se enume
 
    * Active la **Opción de correo electrónico de BBC** para mantener una copia de los mensajes enviados a personas. [Más información](archiving-support.md#enable-bcc)
 
-   * Configure **reglas comerciales** para evitar saturar a los destinatarios. [Más información](../configuration/rule-sets.md)
+   * Configure **reglas comerciales** para evitar saturar a los destinatarios. [Más información](../conflict-prioritization/rule-sets.md)
 
    * Determine la dirección de correo electrónico o el número de teléfono que se utilizará con prioridad para los destinatarios cuando haya varias direcciones o números disponibles en Adobe Experience Platform. [Más información](primary-email-addresses.md)

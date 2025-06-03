@@ -3,12 +3,11 @@ title: Asignar puntuaciones de prioridad a recorridos y campañas
 description: Aprenda a asignar puntuaciones de prioridad a recorridos y campañas.
 role: User
 level: Beginner
-badge: label="Disponibilidad limitada"
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 48%
+source-wordcount: '375'
+ht-degree: 35%
 
 ---
 
@@ -23,10 +22,6 @@ ht-degree: 48%
 >id="ajo_journey_priority"
 >title="Prioridad"
 >abstract="Asigne una puntuación de prioridad al recorrido. La prioridad es esencial para dar prioridad a un recorrido cuando hay una restricción impuesta, como un límite de frecuencia. Introduzca un valor numérico (de 0 a 100). Tenga en cuenta que, cuanto mayor sea el número, mayor será la prioridad."
-
->[!AVAILABILITY]
->
->Las funciones de conflictos y priorización están disponibles en Disponibilidad limitada para un grupo selecto de clientes. Tenga en cuenta que estas funciones se implementarán gradualmente para más usuarios en el futuro. Póngase en contacto con el equipo de la cuenta si está interesado en que se le añada a la lista de espera de estas funciones.
 
 Journey Optimizer le permite asignar una puntuación de prioridad a un recorrido o campaña. La prioridad es esencial para priorizar un recorrido, una campaña o una acción cuando hay una restricción impuesta (como un límite de frecuencia). En situaciones en las que un cliente cumple los requisitos para muchos recorridos, campañas o comunicaciones y desea ser selectivo sobre qué debe introducir y recibir, debe utilizar este campo.
 
@@ -44,8 +39,8 @@ Para asignar una puntuación de prioridad a un recorrido o campaña, escriba un 
 
 >[!IMPORTANT]
 >
->En situaciones en las que dos campañas tienen la misma puntuación de prioridad, se muestra la campaña que se activó primero.
+>Si dos recorridos o campañas tienen la misma puntuación de prioridad, el sistema no tiene un mecanismo de desempate. Asegúrese de que las puntuaciones de prioridad sean únicas para evitar conflictos.
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445004?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

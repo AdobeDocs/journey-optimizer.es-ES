@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
 source-wordcount: '2395'
 ht-degree: 18%
@@ -252,7 +252,7 @@ Adobe Journey Optimizer utiliza políticas de combinación al recuperar datos de
 
 Adobe Journey Optimizer aplica la política de combinación utilizada en todo el recorrido. Por lo tanto, si se usan varias audiencias en un recorrido (por ejemplo, usando en [`inAudience` funciones](functions/functioninaudience.md)), se crean incoherencias con la política de combinación utilizada por el recorrido, se genera un error y se bloquea la publicación. Sin embargo, si se utiliza una audiencia incoherente en la personalización de mensajes, no se genera una alerta, a pesar de la incoherencia. Por este motivo, es muy recomendable comprobar la política de combinación asociada a su audiencia cuando esta audiencia se utiliza en la personalización de mensajes.
 
-Para obtener más información sobre las políticas de combinación, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Para obtener más información sobre las políticas de combinación, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >
@@ -311,7 +311,7 @@ La sección **[!UICONTROL Programar]** solo está disponible cuando se ha quitad
 
 La sección **[!UICONTROL Administración de conflictos]** de las propiedades del recorrido le permite supervisar los conflictos y priorizar los recorridos. Puede hacer lo siguiente:
 
-* Aplique un **conjunto de reglas** para excluir este recorrido a parte de su audiencia según las reglas de límite. [Descubra cómo trabajar con conjuntos de reglas](../configuration/rule-sets.md)
+* Aplique un **conjunto de reglas** para excluir este recorrido a parte de su audiencia según las reglas de límite. [Descubra cómo trabajar con conjuntos de reglas](../conflict-prioritization/rule-sets.md)
 
 * Asigne una **puntuación de prioridad** al recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. El valor de prioridad insertado aquí lo heredan las acciones entrantes (como in-app) contenidas en este recorrido. [aprenda a trabajar con puntuaciones de prioridad](../conflict-prioritization/priority-scores.md)
 

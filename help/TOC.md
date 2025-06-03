@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '2406'
 ht-degree: 98%
 
 ---
@@ -215,7 +215,10 @@ ht-degree: 98%
    + [Introducción a la administración y priorización de conflictos](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificar posibles conflictos](using/conflict-prioritization/conflicts.md)
    + [Asignar puntuaciones de prioridad](using/conflict-prioritization/priority-scores.md)
-   + [Límite y arbitraje de recorrido](using/conflict-prioritization/journey-capping.md)
+Establecer reglas de límite de mensajes y recorridos {#capping-rules}
+      + [Trabajar con conjuntos de reglas](using/conflict-prioritization/rule-sets.md)
+      + [Límite y arbitraje de recorrido](using/conflict-prioritization/journey-capping.md)
+      + [Límite de frecuencia por canal y tipo de comunicación](using/conflict-prioritization/channel-capping.md)
 + Prueba y aprobación {#test}
    + Vista previa y prueba del contenido {#preview-test}
       + [Introducción a la vista previa y prueba](using/content-management/preview-test.md)
@@ -732,7 +735,6 @@ ht-degree: 98%
    + [Asistencia para el archivado](using/configuration/archiving-support.md)
    + [Cambio de direcciones de ejecución](using/configuration/primary-email-addresses.md)
    + [Configurar reglas empresariales](using/configuration/frequency-rules.md)
-   + [Trabajar con conjuntos de reglas](using/configuration/rule-sets.md)
 + Configuración de recorrido {#configure-journeys}
    + [Configuración de fuentes de datos, eventos y acciones](using/configuration/about-data-sources-events-actions.md)
    + Configuración de evento {#events-journeys}

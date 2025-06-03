@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -1004,7 +1004,7 @@ Desde la versión beta hasta esta, se han añadido las siguientes mejoras:
 
   >[!AVAILABILITY]
   >
-  >Actualmente, esta función está en versión beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con su representante de Adobe.
+  >Actualmente, esta función está en versión Beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con su representante de Adobe.
 
 <!--
 **Audiences**
@@ -1266,7 +1266,7 @@ Las siguientes mejoras, anteriormente disponibles como versión beta, ya están 
 
 **Reglas de frecuencia**
 
-* Además de correo electrónico y push, ahora puede crear reglas de frecuencia para canales de SMS y de correo directo. Las reglas de frecuencia excluyen automáticamente los perfiles saturados de los mensajes y las acciones cuando se alcanza el límite de frecuencia. [Más información](../configuration/rule-sets.md)
+* Además de correo electrónico y push, ahora puede crear reglas de frecuencia para canales de SMS y de correo directo. Las reglas de frecuencia excluyen automáticamente los perfiles saturados de los mensajes y las acciones cuando se alcanza el límite de frecuencia. [Más información](../conflict-prioritization/rule-sets.md)
 
 <!--**Decision management**
 
@@ -1342,7 +1342,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Reglas de frecuencia**
 
-* **Límite de frecuencia semanal**: ahora puede especificar el número máximo de mensajes enviados a un perfil de cliente en una semana, además del mes. El límite de frecuencia se basa en el período de calendario seleccionado y se restablece al principio del lapso de tiempo correspondiente. [Más información](../configuration/rule-sets.md)
+* **Límite de frecuencia semanal**: ahora puede especificar el número máximo de mensajes enviados a un perfil de cliente en una semana, además del mes. El límite de frecuencia se basa en el período de calendario seleccionado y se restablece al principio del lapso de tiempo correspondiente. [Más información](../conflict-prioritization/rule-sets.md)
 
   >[!NOTE]
   >
