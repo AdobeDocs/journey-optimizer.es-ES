@@ -155,4 +155,4 @@ Estas son algunas prácticas recomendadas para evitar sobrecargar sistemas aprov
 
 Comprenda los casos de uso aplicables para los recorridos de calificación de audiencias en este vídeo. Obtenga información sobre cómo crear un recorrido con la calificación de audiencias y las prácticas recomendadas que se deben aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3446207?quality=12&captions=spa)
