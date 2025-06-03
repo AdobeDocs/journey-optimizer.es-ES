@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
+source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 22%
@@ -27,7 +27,7 @@ Puede seleccionar en campañas y recorridos cualquier audiencia generada mediant
 
 Las audiencias están listas para usarse en Journey Optimizer justo después de completarse la ingesta. Aunque esto suele ocurrir en menos de una hora, está sujeto a cierta variabilidad. Las audiencias resultantes de las composiciones deben estar disponibles 24 horas después de la publicación.
 
-Para las audiencias resultantes de los trabajos de segmentación por lotes, la activación puede retrasarse debido a la variabilidad de la ingesta por lotes. Para los recorridos de lectura-audiencia programados a diario, puede definir un intervalo de tiempo en las propiedades del recorrido para garantizar que los datos de audiencia nuevos estén disponibles antes de la ejecución del recorrido. Si el trabajo de segmentación no se completa en el intervalo de tiempo definido, el recorrido se omitirá hasta la siguiente aparición. [Aprenda a programar un recorrido de lectura-audiencia](../building-journeys/read-audience.md)
+Para las audiencias resultantes de los trabajos de segmentación por lotes, la activación puede retrasarse debido a la variabilidad de la ingesta por lotes. Para los recorridos de lectura-audiencia programados a diario, puede definir un intervalo de tiempo en las propiedades del recorrido para garantizar que los datos de audiencia nuevos estén disponibles antes de la ejecución del recorrido. Si el trabajo de segmentación no se completa en el intervalo de tiempo definido, el recorrido se omitirá hasta la siguiente ocurrencia. [Aprenda a programar un recorrido de lectura-audiencia](../building-journeys/read-audience.md)
 
 ## Carga personalizada y composición de audiencia federada
 
