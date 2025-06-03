@@ -9,18 +9,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: producto, perfiles, zona protegida
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '710'
 ht-degree: 5%
 
 ---
 
 # Administración de usuarios y funciones {#manage-permissions}
-
->[!IMPORTANT]
->
-> Cada uno de los procedimientos detallados a continuación solamente lo puede realizar un administrador de **[!UICONTROL Product]** o **[!UICONTROL System]**.
 
 **[!UICONTROL Los roles]** hacen referencia a una colección de usuarios que comparten los mismos permisos y zonas protegidas. Estas funciones le permiten administrar fácilmente el acceso y los permisos para diferentes grupos de usuarios dentro de su organización.
 
@@ -29,6 +25,12 @@ Con el producto [!DNL Journey Optimizer], puede elegir entre una serie de **[!UI
 Cuando un usuario pertenece a un **[!UICONTROL Rol]**, obtiene acceso a las aplicaciones y los servicios de Adobe contenidos en el producto.
 
 Si las funciones preexistentes no satisfacen las necesidades específicas de su organización, también puede crear **[!UICONTROL funciones]** personalizadas para ajustar el acceso a ciertas funcionalidades u objetos de la interfaz. De este modo, se asegura de que cada usuario tenga acceso únicamente a los recursos y las herramientas que necesita para realizar sus tareas de forma eficaz.
+
+
+>[!IMPORTANT]
+>
+>Los pasos y procedimientos detallados a continuación solamente los puede realizar un administrador de **[!UICONTROL Product]** o **[!UICONTROL System]**.
+
 
 ## Asignar un rol {#assigning-role}
 
@@ -48,7 +50,7 @@ Para asignar un **[!UICONTROL rol]**:
 
 1. Escriba el nombre o la dirección de correo electrónico del usuario o selecciónelo en la lista y haga clic en **[!UICONTROL Guardar]**.
 
-   Si el usuario no se creó anteriormente en [!DNL Admin Console], consulte la [Documentación para agregar usuarios](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=es){target="_blank"}.
+   Si el usuario no se creó anteriormente en [!DNL Admin Console], consulte la [Documentación para agregar usuarios](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}.
 
    ![](assets/do-not-localize/access_control_4.png)
 
@@ -62,13 +64,15 @@ Al acceder a la instancia, el usuario ve una vista específica según los permis
 
 ## Editar una función existente {#edit-product-profile}
 
-Para los **[!UICONTROL roles]** predeterminados o personalizados, puede decidir en cualquier momento agregar o eliminar permisos.
+Para los **[!UICONTROL roles]** integrados o personalizados, puede decidir en cualquier momento agregar o eliminar permisos.
 
-En este ejemplo, queremos agregar **[!UICONTROL Permisos]** relacionados con el recurso **[!UICONTROL Recorridos]** para los usuarios asignados al visor de Recorrido **[!UICONTROL Rol]**. Los usuarios podrán entonces publicar recorridos.
+En el ejemplo siguiente, queremos agregar **[!UICONTROL Permisos]** relacionados con el recurso **[!UICONTROL Recorridos]** para los usuarios asignados al visor de Recorrido **[!UICONTROL Rol]**. Los usuarios podrán entonces publicar recorridos.
 
-Tenga en cuenta que si modifica una **[!UICONTROL función]** predeterminada o personalizada, afectará a todos los usuarios asignados a esta **[!UICONTROL función]**.
+>[!IMPORTANT]
+>
+>Los cambios realizados en una función integrada o personalizada afectarán a todos los usuarios asignados a esa función.
 
-1. Para asignar una función a un usuario en el producto [!DNL Permissions], vaya a la pestaña **[!UICONTROL Funciones]** y seleccione la función que desee, aquí el visualizador de Recorrido **[!UICONTROL Función]**.
+1. Para editar un rol en el producto [!DNL Permissions], vaya a la pestaña **[!UICONTROL Roles]** y seleccione el rol que desee, aquí el visualizador de Recorrido **[!UICONTROL Rol]**.
    ![](assets/do-not-localize/access_control_5.png)
 
 1. En el panel **[!UICONTROL Rol]**, haga clic en **[!UICONTROL Editar]**.
@@ -85,7 +89,7 @@ Tenga en cuenta que si modifica una **[!UICONTROL función]** predeterminada o p
 
 1. Cuando termine, haga clic en **[!UICONTROL Guardar]**.
 
-Si es necesario, también puede crear una función nueva con permisos específicos. Para obtener más información, consulte [Crear un nuevo rol](#create-product-profile).
+Si es necesario, también puede crear una función nueva con permisos específicos.
 
 ## Crear una nueva función {#create-product-profile}
 
