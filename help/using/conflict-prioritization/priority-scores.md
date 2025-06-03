@@ -43,4 +43,4 @@ Para asignar una puntuación de prioridad a un recorrido o campaña, escriba un 
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445004?quality=12&captions=spa)
