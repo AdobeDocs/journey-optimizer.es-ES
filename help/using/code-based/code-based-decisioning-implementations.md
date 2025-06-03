@@ -5,17 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 0%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
-# Toma de decisiones en implementaciones de experiencias basadas en código
+# Decisiones en las implementaciones de experiencias basadas en código
 
 Cuando utilice Decisioning en experiencias basadas en código, considere la posibilidad de agregar los siguientes indicadores a la implementación de su cliente en los casos que se describen a continuación.
 
@@ -28,13 +26,13 @@ Al probar la [experiencia basada en código](create-code-based.md) con toma de d
 Después de publicar la campaña, agregue el indicador `dryRun` al bloque de evento XDM `data` en la implementación del cliente:
 
     &quot;
-    &lbrace;
-    &quot;data&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    {
+    &quot;data&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
-    &rbrace;
+    }
+    }
     
     
     &quot;
@@ -46,7 +44,7 @@ Después de publicar la campaña, agregue el indicador `dryRun` al bloque de eve
 
 ## Deduplicación de elementos de decisión en implementaciones basadas en código {#code-based-decisioning-deduplication}
 
-Al usar [políticas de decisión](../experience-decisioning/create-decision.md) en sus experiencias basadas en código, aprenda a aplicar la anulación de duplicación a sus solicitudes de toma de decisiones en la implementación de su cliente.
+Al usar [políticas de decisión](../experience-decisioning/create-decision.md) en sus experiencias basadas en código, puede aplicar la anulación de duplicación a sus solicitudes de toma de decisiones en su implementación de cliente.
 
 Las solicitudes de decisión (a través de Konductor) aceptan el indicador de deduplicación, que administra la exclusividad de los elementos de decisión en una sola solicitud compuesta de varias políticas de decisión o ubicaciones.
 
