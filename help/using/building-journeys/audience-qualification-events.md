@@ -92,7 +92,7 @@ Para configurar la actividad **[!UICONTROL Calificación de audiencias]**, siga 
 
    >[!NOTE]
    >
-   >Tenga en cuenta que **[!UICONTROL Enter]** y **[!UICONTROL Exit]** corresponden a los estados de participación de audiencia **Realized** y **Exited** de Adobe Experience Platform. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que **[!UICONTROL Enter]** y **[!UICONTROL Exit]** corresponden a los estados de participación de audiencia **Realized** y **Exited** de Adobe Experience Platform. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
 
 1. Seleccione un área de nombres. Esto solo es necesario si el evento se coloca como el primer paso del recorrido. De forma predeterminada, el campo está rellenado previamente con el último área de nombres utilizado.
 
@@ -134,7 +134,7 @@ Al utilizar la calificación de audiencia para audiencias transmitidas, hay meno
 
 Evite utilizar la apertura y el envío de eventos con la segmentación de flujo continuo. En su lugar, utilice señales reales de actividad del usuario como clics, compras o datos de señalizaciones. Para la lógica de frecuencia o supresión, utilice reglas empresariales en lugar de enviar eventos. [Más información](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-Para obtener más información sobre la segmentación de transmisión, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Para obtener más información sobre la segmentación de transmisión, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 ### Cómo evitar sobrecargas {#overloads-speed-segment-qualification}
 
