@@ -9,14 +9,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: producto, perfiles, zona protegida
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 6%
+source-wordcount: '726'
+ht-degree: 5%
 
 ---
 
-# Administrar usuarios y funciones {#manage-permissions}
+# Administración de usuarios y funciones {#manage-permissions}
 
 >[!IMPORTANT]
 >
@@ -26,15 +26,15 @@ ht-degree: 6%
 
 Con el producto [!DNL Journey Optimizer], puede elegir entre una serie de **[!UICONTROL roles]** preexistentes, cada uno con diferentes niveles de permisos, para asignarlos a los usuarios. Para obtener más información sobre los **[!UICONTROL roles]** disponibles, consulte esta [página](ootb-product-profiles.md).
 
-Cuando un usuario pertenece a un **[!UICONTROL Rol]**, se le concede acceso a las aplicaciones y servicios de Adobe contenidos en el producto.
+Cuando un usuario pertenece a un **[!UICONTROL Rol]**, obtiene acceso a las aplicaciones y los servicios de Adobe contenidos en el producto.
 
-Si las funciones preexistentes no satisfacen las necesidades específicas de su organización, también puede crear **[!UICONTROL funciones]** personalizadas para ajustar el acceso a ciertas funcionalidades u objetos de la interfaz. De este modo, puede asegurarse de que cada usuario tenga acceso únicamente a los recursos y las herramientas que necesita para realizar sus tareas de forma eficaz.
+Si las funciones preexistentes no satisfacen las necesidades específicas de su organización, también puede crear **[!UICONTROL funciones]** personalizadas para ajustar el acceso a ciertas funcionalidades u objetos de la interfaz. De este modo, se asegura de que cada usuario tenga acceso únicamente a los recursos y las herramientas que necesita para realizar sus tareas de forma eficaz.
 
 ## Asignar un rol {#assigning-role}
 
-Puede elegir asignar una **[!UICONTROL función]** predeterminada o personalizada a los usuarios.
+Puede asignar una **[!UICONTROL función]** predeterminada o personalizada a los usuarios.
 
-La lista de todos los roles predeterminados con permisos asignados se encuentra en la sección [Roles integrados](ootb-product-profiles.md).
+La lista de todas las funciones predeterminadas con permisos asignados está disponible en la sección [Funciones integradas](ootb-product-profiles.md).
 
 Para asignar un **[!UICONTROL rol]**:
 
@@ -46,17 +46,17 @@ Para asignar un **[!UICONTROL rol]**:
 
    ![](assets/do-not-localize/access_control_3.png)
 
-1. Introduzca el nombre o la dirección de correo electrónico del usuario o selecciónelo de la lista y haga clic en **[!UICONTROL Guardar]**.
+1. Escriba el nombre o la dirección de correo electrónico del usuario o selecciónelo en la lista y haga clic en **[!UICONTROL Guardar]**.
 
-   Si el usuario no se creó anteriormente en [!DNL Admin Console], consulte la [Documentación para agregar usuarios](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=es).
+   Si el usuario no se creó anteriormente en [!DNL Admin Console], consulte la [Documentación para agregar usuarios](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}.
 
    ![](assets/do-not-localize/access_control_4.png)
 
-El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
+El usuario recibe un correo electrónico que lo redirige a su instancia.
 
-Para obtener más información sobre la administración de usuarios, consulte la [documentación de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es).
+Para obtener más información sobre la administración de usuarios, consulte la [documentación de control de acceso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es){target="_blank"}.
 
-Al acceder a la instancia, el usuario verá una vista específica según los permisos asignados en la **[!UICONTROL función]**. Si el usuario no tiene acceso correcto a una función, aparecerá el siguiente mensaje:
+Al acceder a la instancia, el usuario ve una vista específica según los permisos asignados en la **[!UICONTROL función]**. Si el usuario no tiene el acceso correcto a una función, aparece el siguiente mensaje:
 
 `You don't have permission to access this feature. Permission needed: XX.`
 
@@ -85,15 +85,15 @@ Tenga en cuenta que si modifica una **[!UICONTROL función]** predeterminada o p
 
 1. Cuando termine, haga clic en **[!UICONTROL Guardar]**.
 
-Si es necesario, también puede crear una nueva función con permisos específicos. Para obtener más información, consulte [Crear un nuevo rol](#create-product-profile).
+Si es necesario, también puede crear una función nueva con permisos específicos. Para obtener más información, consulte [Crear un nuevo rol](#create-product-profile).
 
 ## Crear una nueva función {#create-product-profile}
 
 [!DNL Journey Optimizer] le permite crear sus propios **[!UICONTROL roles]** y asignar un conjunto de permisos y zonas protegidas a los usuarios. Con **[!UICONTROL Roles]**, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
 
-Para obtener más información sobre cómo crear y administrar zonas protegidas, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target="_blank"}.
+Para obtener más información sobre cómo crear y administrar zonas protegidas, consulte la documentación de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target="_blank"}.
 
-En este ejemplo, crearemos una función denominada **Recorridos de solo lectura** en la que otorgaremos derechos de solo lectura a la función de Recorrido. Los usuarios solamente podrán acceder y ver recorridos y no podrán acceder a otras características como **[!DNL &#x200B; Decision management]** en [!DNL Journey Optimizer].
+En este ejemplo, creamos una función denominada **Recorridos de solo lectura**, donde concedemos derechos de solo lectura a la función de Recorrido. Los usuarios solamente podrán acceder y ver recorridos y no podrán acceder a otras características como **[!DNL Decision management]** en [!DNL Journey Optimizer].
 
 Para crear nuestros **Recorridos de solo lectura** **[!UICONTROL Rol]**:
 
@@ -125,4 +125,4 @@ Para crear nuestros **Recorridos de solo lectura** **[!UICONTROL Rol]**:
 
 Su **[!UICONTROL función]** se ha creado y configurado. Ahora debe asignarlo a los usuarios.
 
-Para obtener más información sobre la creación y administración de funciones, consulte la [documentación de Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=es).
+Para obtener más información sobre la creación y administración de funciones, consulte la [documentación de Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=es){target="_blank"}.

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Uso y asignación de entornos limitados
+title: Uso y asignación de zonas protegidas
 description: Obtenga información sobre cómo administrar zonas protegidas
 feature: Sandboxes
 topic: Administration
@@ -9,22 +9,22 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: zonas protegidas, virtual, entornos, organización, plataforma
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
+source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 50%
+source-wordcount: '321'
+ht-degree: 29%
 
 ---
 
-# Uso y asignación de entornos limitados {#sandboxes}
+# Uso y asignación de zonas protegidas {#sandboxes}
 
 ## Usar zonas protegidas {#using-sandbox}
 
-[!DNL Journey Optimizer] le permite particionar su instancia en entornos virtuales separados, llamados entornos limitados. Las zonas protegidas se asignan mediante funciones en Permisos. [Aprenda a asignar zonas protegidas](permissions.md#create-product-profile).
+[!DNL Journey Optimizer] le permite particionar su instancia en entornos virtuales independientes llamados zonas protegidas. Las zonas protegidas se asignan mediante funciones en Permisos. [Aprenda a asignar zonas protegidas](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] refleja los entornos limitados de Adobe Experience Platform creados para una organización determinada. Las zonas protegidas de Adobe Experience Platform se pueden crear o restablecer desde la instancia de Adobe Experience Platform. [Obtenga más información en la Guía del usuario de zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es){target="_blank"}.
 
-Puede encontrar el control del conmutador de simulador de pruebas en la parte superior derecha de la pantalla junto al nombre de la organización. Para cambiar de una zona protegida a otra, haga clic en la zona protegida activa y seleccione otra zona protegida en la lista desplegable.
+Puede encontrar el control del conmutador de simulador de pruebas en la parte superior derecha de la pantalla, junto al nombre de la organización. Para cambiar de una zona protegida a otra, haga clic en la zona protegida activa y seleccione otra zona protegida en la lista desplegable.
 
 ![](assets/sandbox_5.png)
 
@@ -34,7 +34,7 @@ Puede encontrar el control del conmutador de simulador de pruebas en la parte su
 
 >[!IMPORTANT]
 >
-> La administración de las zonas protegidas solamente la puede realizar un administrador de **[!UICONTROL Product]** o **[!UICONTROL System]**.
+> Solo un administrador de **[!UICONTROL Product]** o **[!UICONTROL System]** puede llevar a cabo la administración de la zona protegida.
 
 Puede elegir asignar diferentes zonas protegidas a **[!UICONTROL roles]** predeterminados o personalizados.
 
@@ -58,11 +58,11 @@ Para asignar zonas protegidas:
 
 ## Acceso al contenido {#content-access}
 
-Para configurar la accesibilidad del contenido, debe asignar una carpeta compartida de contenido a cada una de las zonas protegidas. Puede crear y configurar su carpeta compartida en la ficha **[!UICONTROL Almacenamiento]** que se muestra en [!DNL Admin Console] para administradores. Si tiene acceso a [!DNL Admin Console] como administrador del sistema, puede crear carpetas compartidas y añadir delegados con un nivel de acceso diferente a las carpetas compartidas.
+Para configurar la accesibilidad del contenido, asigne una carpeta compartida de contenido a cada uno de los entornos limitados. Puede crear y configurar carpetas compartidas en la ficha **[!UICONTROL Almacenamiento]** que se muestra en [!DNL Admin Console] para los administradores. Si tiene acceso a [!DNL Admin Console] como administrador del sistema, puede crear carpetas compartidas y agregar delegados con diferentes niveles de acceso a las carpetas compartidas.
 
 ![](assets/do-not-localize/content_access.png)
 
-Tenga en cuenta que para que el contenido se sincronice con la zona protegida correcta, debe seguir la misma sintaxis que esta; por ejemplo, si la zona protegida se llama desarrollo, la carpeta compartida debe tener el mismo nombre.
+Tenga en cuenta que para que el contenido se sincronice con la zona protegida correcta, debe seguir la misma sintaxis que esta. Por ejemplo, si la zona protegida se llama &quot;desarrollo&quot;, la carpeta compartida debe tener el mismo nombre.
 
 [Obtenga información sobre cómo administrar carpetas](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"} compartidas.
 
@@ -70,4 +70,4 @@ Tenga en cuenta que para que el contenido se sincronice con la zona protegida co
 
 Comprenda qué son las zonas protegidas y cómo distinguir entre las zonas protegidas de desarrollo y producción. Obtenga información sobre cómo crear, restablecer y eliminar zonas protegidas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416653?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)
