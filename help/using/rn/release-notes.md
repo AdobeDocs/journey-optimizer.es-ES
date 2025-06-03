@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 31%
+ht-degree: 88%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 31%
 <tbody>
 <tr>
 <td>
-<p>Escalar el ganador de un experimento permite desplegar automática o manualmente la variación ganadora de un experimento en toda la audiencia. Esta función garantiza que, una vez que se identifique a un usuario de mayor rendimiento, pueda maximizar su alcance y eficacia sin una supervisión manual constante.</p>
+<p>Escalar el ganador de un experimento permite desplegar automática o manualmente la variación ganadora de un experimento en toda la audiencia. Esta función garantiza que, una vez que se identifique al que tenga el mayor rendimiento, pueda maximizar su alcance y eficacia sin una supervisión manual constante.</p>
 <p>Para obtener más información, consulte la <a href="../content-management/content-experiment.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 2 de junio de 2025</p></td>
 </tr>
@@ -53,7 +53,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Vista de calendario para el inventario de campañas y Recorridos</strong><br/></th>
+<th><strong>Vista de calendario para el inventario de campañas y recorridos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -87,7 +87,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 </br>
 <img src="assets/do-not-localize/content-fragment.gif">
 <p>Para obtener más información, consulte la <a href="../integrations/aem-fragments.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: sábado, 23 de mayo de 2025</p>
+<p>Fecha de disponibilidad: 23 de mayo de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -104,15 +104,15 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <td>
 <p>Los recursos de Dynamic Media ahora están disponibles y son accesibles directamente en Journey Optimizer. Esta actividad le permite lo siguiente:</p>
 <ul>
-<li>Administre los recursos de forma centralizada con actualizaciones en tiempo real.</li>
-<li>Modifique la configuración de los recursos, como la anchura y la altura, instantáneamente.</li>
-<li>Personalice las plantillas de Dynamic Media actualizando el contenido y añadiendo campos de personalización.</li>
+<li>Administrar centralmente los recursos con actualizaciones en tiempo real.</li>
+<li>Modificar la configuración de los recursos, como la anchura y la altura, al instante.</li>
+<li>Personalizar las plantillas de Dynamic Media actualizando el contenido y añadiendo campos de personalización.</li>
 </ul>
 </br>
 <img src="assets/do-not-localize/dynamic_media_template_html.gif">
 <p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Para obtener más información, consulte la <a href="../integrations/aem-dynamic.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: sábado, 23 de mayo de 2025</p>
+<p>Fecha de disponibilidad: 23 de mayo de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -127,10 +127,10 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede almacenar en déclencheur los recorridos utilizando un ID de perfil junto con otro identificador, como un ID de pedido, un ID de suscripción o un ID de prescripción, lo que permite que el mismo perfil esté en el mismo recorrido varias veces a la vez. Esto permite situaciones como administrar varios pedidos o suscripciones en paralelo, y cada instancia sigue su propia ruta a través del recorrido.</p>
+<p>Ahora puede activar recorridos utilizando un ID de perfil junto con otro identificador, como un ID de pedido, un ID de suscripción o un ID de prescripción, lo que permite que el mismo perfil esté en el mismo recorrido varias veces a la vez. Esto permite situaciones como administrar varios pedidos o suscripciones en paralelo, y que cada instancia siga su propia ruta a través del recorrido.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/supplemental-identifier.md">documentación detallada</a>.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Fecha de disponibilidad: sábado, 23 de mayo de 2025</p>
+<p>Fecha de disponibilidad: 23 de mayo de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -139,17 +139,17 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Simular variaciones de contenido</strong><br/></th>
+<th><strong>Simulación de variaciones de contenido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <!--p>Previously available in beta, content variations simulation is now generally available (GA). It allows you to preview different variations of your content using sample input data uploaded from a CSV or JSON file or added manually. All the attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p-->
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos. Con esta versión de Disponibilidad general, la función ahora es compatible con experimentos de contenido y contenido multilingües, lo que le permite probar variaciones en diferentes idiomas y tratamientos. Además, ahora admite atributos contextuales (además de los atributos de perfil), lo que permite realizar pruebas de contenido aún más dinámicas y adaptadas a cada situación.</p>
+<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos. Con la versión de Disponibilidad general, la función ahora incluye compatibilidad con el contenido multilingüe y experimentos de contenido, lo que permite probar variaciones en diferentes idiomas y tratamientos. Además, ahora admite atributos contextuales (además de los atributos de perfil), lo que permite realizar pruebas de contenido aún más dinámicas y adaptadas a cada situación.</p>
 <img src="assets/do-not-localize/variants.gif">
 <p>Para obtener más información, consulte la <a href="../test-approve/simulate-sample-input.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: sábado, 23 de mayo de 2025</p>
+<p>Fecha de disponibilidad: 23 de mayo de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -158,13 +158,13 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Sincronizar programación de lectura de audiencia con trabajo de segmentación por lotes</strong><br/></th>
+<th><strong>Sincronización de la programación de público de lectura con el trabajo de segmentación por lotes</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede almacenar en déclencheur las ejecuciones de recorridos diarias después de la finalización de la segmentación por lotes. Esta opción ahora está disponible en recorridos programados diariamente para todos los clientes. Permite definir para una ventana de tiempo de hasta 6 horas a la espera de datos de audiencia de trabajos de segmentación por lotes, lo que garantiza que los recorridos se ejecuten con los datos más actualizados o se omitan si no están listos.</p>
+<p>Ahora puede activar ejecuciones de recorrido diarias tras la finalización de la segmentación por lotes. Esta opción ahora está disponible en los recorridos programados diariamente para todos los clientes. Le permite definir un período de tiempo de hasta 6 horas de espera de los datos del público procedentes de los trabajos de segmentación por lotes, lo que garantiza que los recorridos se ejecuten con los datos más actualizados o se omitan si no están listos. </p>
 <p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>Para obtener más información, consulte la <a href="../building-journeys/read-audience.md#schedule">documentación detallada</a>.</p>
@@ -183,7 +183,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ahora le permite configurar proveedores de SMS adicionales más allá de las opciones predeterminadas: Sinch, Infobip y Twilio. Con la configuración personalizada del proveedor de SMS, puede integrar proveedores de terceros directamente, aprovechar la personalización avanzada de la carga útil para la mensajería dinámica y administrar las preferencias de consentimiento (inclusión/exclusión) para garantizar el cumplimiento.</p>
+<p>Journey Optimizer ahora permite configurar proveedores de SMS adicionales más allá de las opciones predeterminadas: Sinch, Infobip y Twilio. Con la configuración personalizada del proveedor de SMS, puede integrar proveedores de terceros directamente, aprovechar la personalización avanzada de la carga útil para la mensajería dinámica y administrar las preferencias de consentimiento (inclusión/exclusión) para garantizar el cumplimiento.</p>
 <p>Para obtener más información, consulte la <a href="../sms/sms-configuration-custom.md">documentación detallada</a>.</p>
 <p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Fecha de disponibilidad: miércoles, 20 de mayo de 2025</p>
@@ -196,17 +196,17 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Temas en el Designer de correo electrónico</strong><br/></th>
+<th><strong>Temas del Diseñador de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede aplicar rápidamente temas preaprobados para garantizar la coherencia de la marca en todos los correos electrónicos, acelerar el proceso de creación de campañas y producir correos electrónicos de alta calidad de forma independiente, al tiempo que reduce la dependencia en los equipos de diseño.</p>
-<p>Actualmente, esta función está en versión beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con su representante de Adobe.</p>
+<p>Ahora puede aplicar rápidamente temas aprobados anteriormente para garantizar la coherencia de marca en todos los correos electrónicos, acelerar el proceso de creación de campañas y producir de forma independiente correos electrónicos de alta calidad, al tiempo que se reduce la dependencia en los equipos de diseño.</p>
+<p>Actualmente, esta función está en versión Beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con su representante de Adobe.</p>
 <img src="assets/do-not-localize/themes.gif">
 <p>Para obtener más información, consulte la <a href="../email/apply-email-themes.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: jueves, 14 de mayo de 2025</p>
+<p>Fecha de disponibilidad: 14 de mayo de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -215,16 +215,16 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Decisioning: nuevo generador de fórmulas de IA</strong><br/></th>
+<th><strong>Decisiones: nuevo generador de fórmulas de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear fórmulas de clasificación de toma de decisiones específicas al definir y combinar criterios a partir de una nueva interfaz mejorada. En lugar de depender únicamente de una prioridad de oferta estática, puede definir fórmulas de clasificación personalizadas que combinen puntuaciones del modelo de IA, prioridades de oferta, atributos de perfil, atributos de oferta y señales contextuales a través de una interfaz guiada.</p>
+<p>Ahora puede crear fórmulas de clasificación de decisiones específicas definiendo y combinando criterios a partir de una nueva interfaz mejorada. En lugar de depender únicamente de una prioridad de oferta estática, puede definir fórmulas de clasificación personalizadas que combinen puntuaciones del modelo de IA, prioridades de oferta, atributos de perfil, atributos de oferta y señales contextuales a través de una interfaz guiada.</p>
 <img src="assets/do-not-localize/formula-builder.gif">
 <p>Para obtener más información, consulte la <a href="../experience-decisioning/exd-ranking-formulas.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: jueves, 14 de mayo de 2025</p>
+<p>Fecha de disponibilidad: 14 de mayo de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -256,26 +256,26 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 
 ### Mejoras {#25-05-improv}
 
-Las mejoras incluidas en esta versión se enumeran a continuación.
+A continuación, se describen las mejoras incluidas en esta versión.
 
 
 * **Nueva compatibilidad con objetos de campaña para la copia de zona protegida**. Fecha de disponibilidad: 15 de mayo de 2025
 
-  Al copiar campañas en varios entornos limitados mediante las funciones de exportación e importación de paquetes, ahora también se copian las siguientes dependencias: configuraciones de canal, variantes y configuración de experimento, políticas de decisión y elementos. [Más información](../configuration/copy-objects-to-sandbox.md)
+  Cuando se copian campañas en varias zonas protegidas limitadas mediante las funciones de exportación e importación de paquetes, ahora también se copian las siguientes dependencias: configuraciones de canal, variantes y configuración de experimento, políticas de decisión y elementos. [Más información](../configuration/copy-objects-to-sandbox.md)
 
   <!--* **Decisioning** - Availability date: May 16, 2025
 
     Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows. [Read more](../configuration/copy-objects-to-sandbox.md#decisioning)-->
 
-* **Carpetas para páginas de aterrizaje** - Fecha de disponibilidad: 9 de mayo de 2025
+* **Carpetas para páginas de aterrizaje**. Fecha de disponibilidad: 9 de mayo de 2025
 
-  Para administrar fácilmente las páginas de aterrizaje, ahora puede utilizar carpetas para organizarlas de forma más eficaz en una jerarquía estructurada. [Más información](../landing-pages/manage-lp.md)
+  Para administrar con facilidad las páginas de aterrizaje, ahora puede utilizar las carpetas para organizarlas de forma más eficaz en una jerarquía estructurada. [Más información](../landing-pages/manage-lp.md)
 
 * **Correo directo: compatibilidad con claves SSH para conexiones SFTP**. Fecha de disponibilidad: 5 de mayo de 2025
 
-  En la configuración de enrutamiento de archivos de correo postal, además del SFTP existente con tipo de autenticación por contraseña, ahora puede exportar el archivo de correo postal a un servidor SFTP con autenticación por clave SSH. [Más información](../direct-mail/direct-mail-configuration.md)
+  En la configuración de enrutamiento del archivo de correo directo, además del SFTP existente con el tipo de autenticación por contraseña, ahora puede exportar el archivo de correo directo a un servidor SFTP con la autenticación por clave SSH. [Más información](../direct-mail/direct-mail-configuration.md)
 
-* Activación de **píldoras para personalización** - Fecha de disponibilidad: 5 de mayo de 2025
+* **Activación de cápsulas para la personalización**. Fecha de disponibilidad: 5 de mayo de 2025
 
   Se ha añadido el nuevo botón “píldoras” al editor de personalización. Cuando se habilita, los atributos contextuales y de perfil se muestran como píldoras, lo que mejora la legibilidad del código. [Más información](../personalization/personalization-build-expressions.md#options)
 
@@ -285,7 +285,7 @@ Las mejoras incluidas en esta versión se enumeran a continuación.
 
 * Compatibilidad con **&#39;Redireccionar a dirección URL&#39; en el canal Web** - Fecha de disponibilidad: 20 de mayo de 2025
 
-  El canal Web de Journey Optimizer ahora permite redirigir a los visitantes a otra URL existente, en lugar de crear una nueva variación en el editor visual. Esta capacidad se puede utilizar para ejecutar experimentos comparando dos páginas completamente diferentes en lugar de cambiar solo unos pocos elementos dentro de una página. [Más información](../web/create-web.md#web-redirect-to-url)
+  El canal web de Journey Optimizer ahora le permite redirigir a los visitantes a otra URL existente, en lugar de crear una nueva variación en el editor visual. Esta funcionalidad se puede utilizar para ejecutar experimentos comparando dos páginas completamente diferentes en lugar de cambiar solo unos pocos elementos dentro de una página. [Más información](../web/create-web.md#web-redirect-to-url)
 
 * **Carpetas para plantillas y fragmentos** - Fecha de disponibilidad: 20 de mayo de 2025
 
@@ -293,7 +293,7 @@ Las mejoras incluidas en esta versión se enumeran a continuación.
 
 * **Seguimiento de clics en plantillas de correo electrónico** - Fecha de disponibilidad: 20 de mayo de 2025
 
-  El rastreo de clics en `<area>` elementos dentro de los mapas de imagen en el contenido del correo electrónico ahora se admite de forma nativa en [!DNL Journey Optimizer]. Esto sirve para garantizar que las áreas de mapa de imagen reciban el mismo ajuste de seguimiento, datos de seguimiento y parámetros añadidos que los hipervínculos estándar. [Más información sobre el seguimiento de mensajes](../email/message-tracking.md#manage-tracking)
+  El rastreo de clics en elementos `<area>` dentro de mapas de imagen en el contenido de correo electrónico ahora se admite de forma nativa en [!DNL Journey Optimizer]. Esto sirve para garantizar que las áreas de mapa de imagen reciban el mismo encapsulado de seguimiento, datos de seguimiento y parámetros añadidos que los hipervínculos estándar. [Obtenga más información sobre el seguimiento de mensajes](../email/message-tracking.md#manage-tracking).
 
 <!--
 * **Decisioning - Leverage Adobe Experience Platform datasets** 

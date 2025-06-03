@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
 source-wordcount: '2398'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -201,10 +201,10 @@ ht-degree: 95%
       + [Espere](using/ms/activities/wait.md)
    + Mensajes {#messages}
       + [Acciones de canal](using/ms/activities/channels.md)
-      + [Personaliza tu contenido](using/ms/ms-personalization.md)
+      + [Personalizar el contenido](using/ms/ms-personalization.md)
       + [Prueba y validación de mensajes](using/ms/ms-proofs.md)
-   + Informes y monitorización {#report}
-      + [Informes](using/ms/reporting-campaigns.md)
+   + Sistema de informes y monitorización {#report}
+      + [Sistema de informes](using/ms/reporting-campaigns.md)
 + Campañas {#campaigns}
    + [Introducción a las campañas](using/campaigns/get-started-with-campaigns.md)
    + [Creación de una campaña](using/campaigns/create-campaign.md)
@@ -220,10 +220,10 @@ ht-degree: 95%
    + Vista previa y prueba del contenido {#preview-test}
       + [Introducción a la vista previa y prueba](using/content-management/preview-test.md)
       + [Seleccionar perfiles de prueba](using/content-management/test-profiles.md)
-      + [Vista previa con perfiles de prueba](using/content-management/preview.md)
-      + [Envío de pruebas mediante datos de perfil de prueba](using/content-management/proofs.md)
+      + [Vista previa usando perfiles de prueba](using/content-management/preview.md)
+      + [Enviar pruebas mediante datos de perfil de prueba](using/content-management/proofs.md)
       + [Prueba del procesamiento de correo electrónico](using/content-management/rendering.md)
-      + [Simular variaciones de contenido](using/test-approve/simulate-sample-input.md)
+      + [Simulación de variaciones de contenido](using/test-approve/simulate-sample-input.md)
       + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
    + Aprobación de recorridos y campañas {#approve}
       + [Introducción a las aprobaciones](using/test-approve/gs-approval.md)
@@ -316,7 +316,7 @@ ht-degree: 95%
          + [Protecciones y requisitos previos](using/code-based/code-based-prerequisites.md)
          + [Superficies de la experiencia basada en código](using/code-based/code-based-surface.md)
          + [Ejemplos de métodos de implementación](using/code-based/code-based-implementation-samples.md)
-         + [Toma de decisiones en implementaciones de experiencias basadas en código](using/code-based/code-based-decisioning-implementations.md)
+         + [Decisiones en las implementaciones de experiencias basadas en código](using/code-based/code-based-decisioning-implementations.md)
          + [Creación de una configuración de experiencia basada en código](using/code-based/code-based-configuration.md)
       + Creación de experiencias basadas en código {#create-code-based-experiences}
          + [Crear y componer experiencias basadas en código](using/code-based/create-code-based.md)
@@ -345,7 +345,7 @@ ht-degree: 95%
    + Páginas de aterrizaje {#landing-pages}
       + [Introducción a las páginas de aterrizaje](using/landing-pages/get-started-lp.md)
       + [Creación de una página de aterrizaje](using/landing-pages/create-lp.md)
-      + [Administrar las páginas de aterrizaje](using/landing-pages/manage-lp.md)
+      + [Administración de la páginas de aterrizaje](using/landing-pages/manage-lp.md)
       + Diseño de contenido {#landing-pages-design}
          + [Acerca del diseño de página de aterrizaje](using/landing-pages/design-lp.md)
          + [Creación del contenido de la página de aterrizaje](using/landing-pages/lp-content.md)
@@ -401,9 +401,9 @@ ht-degree: 95%
       + [Trabajar con Adobe Stock](using/integrations/stock.md)
       + [Trabajar con Adobe Express](using/integrations/express.md)
       + [Trabajar con plantillas de Experience Manager](using/integrations/aem-templates.md)
-      + [Trabajo con fragmentos de contenido de Experience Manager](using/integrations/aem-fragments.md)
+      + [Trabajar con fragmentos de contenido de Experience Manager](using/integrations/aem-fragments.md)
       + [Trabajar con Dynamic Media](using/integrations/aem-dynamic.md)
-      + [Trabajo con GenStudio for Performance Marketing](using/integrations/genstudio.md)
+      + [Trabajar con GenStudio for Performance Marketing](using/integrations/genstudio.md)
    + Asistente de IA para la generación de contenido{#ai-assistant}
       + [Introducción al asistente de IA](using/content-management/gs-generative.md)
       + [Generación de correo electrónico con IA](using/content-management/generative-email.md)
@@ -544,7 +544,7 @@ ht-degree: 95%
       + Configuración de la selección de elementos {#selection}
          + [Crear reglas de decisión](using/experience-decisioning/rules.md)
          + [Creación de métodos de clasificación](using/experience-decisioning/ranking.md)
-         + [Usar el generador de fórmulas de IA](using/experience-decisioning/exd-ranking-formulas.md)
+         + [Uso del generador de fórmulas de IA](using/experience-decisioning/exd-ranking-formulas.md)
          + [Uso de datos de contexto](using/experience-decisioning/context-data.md)
       + [Creación de estrategias de selección](using/experience-decisioning/selection-strategies.md)
       + [Creación de políticas de decisión](using/experience-decisioning/create-decision.md)
