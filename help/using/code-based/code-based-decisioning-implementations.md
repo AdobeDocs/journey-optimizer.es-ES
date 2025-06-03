@@ -26,13 +26,13 @@ Al probar la [experiencia basada en código](create-code-based.md) con toma de d
 Después de publicar la campaña, agregue el indicador `dryRun` al bloque de evento XDM `data` en la implementación del cliente:
 
     &quot;
-    {
-    &quot;data&quot;: {
-    &quot;__adobe&quot;: {
-    &quot;ajo&quot;: {
+    &lbrace;
+    &quot;data&quot;: &lbrace;
+    &quot;__adobe&quot;: &lbrace;
+    &quot;ajo&quot;: &lbrace;
     &quot;dryRun&quot;: true
-    }
-    }
+    &rbrace;
+    &rbrace;
     
     
     &quot;
