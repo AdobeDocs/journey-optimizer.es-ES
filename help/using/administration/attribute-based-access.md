@@ -9,22 +9,22 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, atributo, autorizaciones, datos, acceso, confidencial, recursos
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 0%
+source-wordcount: '1006'
+ht-degree: 2%
 
 ---
 
 # Control de acceso basado en atributos {#attribute-based-access}
 
-La capacidad Control de acceso basado en atributos permite definir autorizaciones para administrar el acceso a datos para equipos o grupos de usuarios específicos. Su objetivo es proteger los activos digitales confidenciales de usuarios no autorizados, lo que permite una mayor protección de los datos personales.
+La capacidad de control de acceso basado en atributos le permite definir autorizaciones para administrar el acceso a datos para equipos o grupos de usuarios específicos. Su objetivo es proteger los activos digitales confidenciales de usuarios no autorizados, lo que proporciona una mayor protección de los datos personales.
 
 Utilice el control de acceso basado en atributos en Adobe Journey Optimizer para proteger datos y conceder acceso específico a elementos de campo específicos, incluidos esquemas XDM (Experience Data Model), atributos de perfil y audiencias.
 
 Para obtener una lista más detallada de la terminología utilizada con el control de acceso basado en atributos, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=es){target="_blank"}.
 
-En este ejemplo, queremos agregar una etiqueta al campo de esquema **Nationality** para restringir el uso de usuarios no autorizados. Para que esto funcione, debe realizar los siguientes pasos:
+En este ejemplo, se agrega una etiqueta al campo de esquema **Nationality** para impedir que lo utilicen usuarios no autorizados. Para que esto funcione, realice los siguientes pasos:
 
 1. Cree un nuevo **[!UICONTROL Rol]** y asígnelo con la **[!UICONTROL Etiqueta]** correspondiente para que los usuarios puedan acceder y utilizar el campo de esquema.
 
@@ -32,22 +32,21 @@ En este ejemplo, queremos agregar una etiqueta al campo de esquema **Nationality
 
 1. Utilice el **[!UICONTROL campo de esquema]** en Adobe Journey Optimizer.
 
-Tenga en cuenta que también se puede tener acceso a **[!UICONTROL Roles]**, **[!UICONTROL Políticas]** y **[!UICONTROL Productos]** con la API de control de acceso basada en atributos. Para obtener más información, consulte esta [documentación](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=es){target="_blank"}.
+Tenga en cuenta que también se puede tener acceso a **[!UICONTROL Roles]**, **[!UICONTROL Políticas]** y **[!UICONTROL Productos]** con la API de control de acceso basada en atributos. Para obtener más información, consulte esta [documentación](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"}.
 
 ## Crear una función y asignar etiquetas {#assign-role}
 
 >[!IMPORTANT]
 >
->Antes de administrar permisos para una función, primero deberá crear una directiva. Para obtener más información, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=es){target="_blank"}.
+>>Antes de administrar permisos para una función, cree una directiva. Para obtener más información, consulte la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=es){target="_blank"}.
 
-**[!UICONTROL Las funciones]** son un conjunto de usuarios que comparten los mismos permisos, etiquetas y zonas protegidas dentro de su organización. Cada usuario que pertenece a un **[!UICONTROL Rol]** tiene derecho a las aplicaciones y servicios de Adobe contenidos en el producto.
-También puede crear sus propios **[!UICONTROL roles]** si desea ajustar el acceso de los usuarios a ciertas funcionalidades u objetos de la interfaz.
+**[!UICONTROL Las funciones]** son un conjunto de usuarios que comparten los mismos permisos, etiquetas y zonas protegidas dentro de su organización. Cada usuario que pertenece a un **[!UICONTROL Rol]** tiene derecho a las aplicaciones y servicios de Adobe contenidos en el producto. También puede crear sus propios **[!UICONTROL roles]** para ajustar el acceso de los usuarios a ciertas funcionalidades u objetos de la interfaz.
 
-Ahora queremos otorgar a los usuarios seleccionados acceso al campo **Nacionalidad**, etiquetado como C2. Para ello, necesitamos crear un nuevo **[!UICONTROL Rol]** con un conjunto específico de usuarios y concederles la etiqueta C2 que les permita usar los detalles de **Nacionalidad** en un **[!UICONTROL Recorrido]**.
+Para conceder a los usuarios seleccionados acceso al campo **Nacionalidad** etiquetado como C2, cree un nuevo **[!UICONTROL Rol]** con un conjunto específico de usuarios y asígneles la etiqueta C2, permitiéndoles usar los detalles de **Nacionalidad** en un **[!UICONTROL Recorrido]**.
 
 1. En el producto [!DNL Permissions], seleccione **[!UICONTROL Rol]** en el menú del panel izquierdo y haga clic en **[!UICONTROL Crear rol]**. Tenga en cuenta que también puede agregar **[!UICONTROL Label]** a los roles integrados.
 
-   ![](assets/role_1.png)
+   ![Crear una función nueva en el producto Permisos](assets/role_1.png)
 
 1. Agregue un **[!UICONTROL Nombre]** y una **[!UICONTROL Descripción]** a su nuevo **[!UICONTROL Rol]**, aquí: Demografía de rol restringida.
 
@@ -75,20 +74,19 @@ Ahora queremos otorgar a los usuarios seleccionados acceso al campo **Nacionalid
 
    ![](assets/role_9.png)
 
-1. Seleccione las **[!UICONTROL Etiquetas]** que desee agregar a su rol y haga clic en **[!UICONTROL Guardar]**. Para este ejemplo, concedemos la etiqueta C2 para que los usuarios tengan acceso al campo del esquema restringido anteriormente.
+1. Seleccione las **[!UICONTROL Etiquetas]** que desee agregar a su rol y haga clic en **[!UICONTROL Guardar]**. Para este ejemplo, conceda la etiqueta C2 para que los usuarios accedan al campo del esquema restringido anteriormente.
 
-   ![](assets/role_4.png)
+   ![Guardar la configuración de la etiqueta](assets/role_4.png)
 
-Los usuarios con el rol **demográfico de rol restringido** tienen ahora acceso a los objetos etiquetados como C2.
+Los usuarios con el rol **demográfico de rol restringido** ahora tienen acceso a los objetos etiquetados como C2.
 
 ## Asignación de etiquetas a un objeto en Adobe Experience Platform {#assign-label}
 
 >[!WARNING]
 >
->El uso incorrecto de las etiquetas puede interrumpir el acceso a las personas y las infracciones de las directivas de déclencheur.
+>El uso incorrecto de las etiquetas puede interrumpir el acceso de las personas y las infracciones de las directivas de déclencheur.
 
-**[!UICONTROL Etiquetas]** se puede usar para asignar áreas de características específicas mediante el control de acceso basado en atributos.
-En este ejemplo, queremos restringir el acceso al campo **Nacionalidad**. Este campo solamente será accesible para los usuarios con la **[!UICONTROL Etiqueta]** correspondiente a su **[!UICONTROL Rol]**.
+**[!UICONTROL Las etiquetas]** se pueden usar para asignar áreas de características específicas mediante el control de acceso basado en atributos. En este ejemplo, el acceso al campo **Nationality** está restringido. Solo podrán acceder a este campo los usuarios que tengan la **[!UICONTROL Etiqueta]** correspondiente asignada a su **[!UICONTROL Rol]**.
 
 Tenga en cuenta que también puede agregar **[!UICONTROL Label]** a **[!UICONTROL Schema]**, **[!UICONTROL Datasets]** y **[!UICONTROL Audiences]**.
 
@@ -102,31 +100,33 @@ Tenga en cuenta que también puede agregar **[!UICONTROL Label]** a **[!UICONTRO
 
 1. En la ficha **[!UICONTROL Etiquetas]**, compruebe el nombre del campo restringido, aquí **Nacionalidad**. A continuación, en el menú del panel derecho, seleccione **[!UICONTROL Editar etiquetas de control]**.
 
-   ![](assets/label_3.png)
+   ![Editar etiquetas de gobernanza para el campo](assets/label_3.png)
 
-1. Seleccione la **[!UICONTROL Etiqueta]** correspondiente, en este caso, C2 - Los datos no se pueden exportar a terceros. Para obtener la lista detallada de las etiquetas disponibles, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=es#contract-labels){target="_blank"}.
+1. Seleccione la **[!UICONTROL Etiqueta]** correspondiente, en este caso, C2 - Los datos no se pueden exportar a terceros. Para obtener la lista detallada de las etiquetas disponibles, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"}.
 
    ![](assets/label_4.png)
 
-1. Personalice aún más el esquema si es necesario y, a continuación, actívelo. Para ver los pasos detallados sobre cómo habilitar el esquema, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=es#profile){target="_blank"}.
+1. Personalice aún más el esquema si es necesario y, a continuación, actívelo. Para ver los pasos detallados sobre cómo habilitar el esquema, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}.
 
-El campo del esquema ahora solo estará visible y ahora solo lo pueden utilizar los usuarios que formen parte de un conjunto de funciones con la etiqueta C2.
-Al aplicar una **[!UICONTROL Etiqueta]** a su **[!UICONTROL Nombre de campo]**, tenga en cuenta que la **[!UICONTROL Etiqueta]** se aplicará automáticamente al campo **Nacionalidad** en cada esquema creado.
+El campo del esquema ahora solo lo podrán ver y utilizar los usuarios que formen parte de un conjunto de funciones con la etiqueta C2. Al aplicar una **[!UICONTROL Etiqueta]** a su **[!UICONTROL Nombre de campo]**, la **[!UICONTROL Etiqueta]** se aplicará automáticamente al campo **Nacionalidad** en cada esquema creado.
 
 ![](assets/label_5.png)
 
 ## Acceso a objetos etiquetados en Adobe Journey Optimizer {#attribute-access-ajo}
 
-Después de etiquetar el nombre de campo de **Nacionalidad** en un nuevo esquema y la nueva función, ahora podemos ver el impacto de esta restricción en Adobe Journey Optimizer.
-Para nuestro ejemplo, un primer usuario X con acceso a objetos etiquetados como C2 creará un Recorrido con una condición dirigida al **[!UICONTROL nombre de campo]** restringido. Un segundo usuario Y sin acceso a los objetos etiquetados como C2 tendrá que publicar el Recorrido.
+Después de etiquetar el nombre del campo **Nationality** en un nuevo esquema y rol, el impacto de esta restricción se puede observar en Adobe Journey Optimizer. Para este ejemplo:
 
-1. Desde Adobe Journey Optimizer, primero debes configurar la **[!UICONTROL fuente de datos]** con tu nuevo esquema.
+* El usuario X, con acceso a los objetos etiquetados como C2, crea un recorrido con una condición dirigida al **[!UICONTROL nombre de campo]** restringido.
+* El usuario Y, sin acceso a los objetos etiquetados como C2, intenta publicar el recorrido.
 
-   ![](assets/journey_1.png)
+
+1. En Adobe Journey Optimizer, configure **[!UICONTROL Fuente de datos]** con su nuevo esquema.
+
+   ![Configuración de la fuente de datos](assets/journey_1.png)
 
 1. Agregue un nuevo **[!UICONTROL grupo de campos]** de su **[!UICONTROL esquema]** recién creado al **[!UICONTROL origen de datos]** integrado. También puede crear un nuevo **[!UICONTROL origen de datos]** externo y **[!UICONTROL grupos de campos]** asociados.
 
-   ![](assets/journey_2.png)
+   ![Agregar un grupo de campos al origen de datos](assets/journey_2.png)
 
 1. Después de seleccionar el **[!UICONTROL esquema]** creado anteriormente, haga clic en **[!UICONTROL Editar]** en la categoría **[!UICONTROL Campos]**.
 
@@ -136,7 +136,7 @@ Para nuestro ejemplo, un primer usuario X con acceso a objetos etiquetados como 
 
    ![](assets/journey_4.png)
 
-1. A continuación, cree un Recorrido que envíe un correo electrónico a los usuarios con una nacionalidad específica. Agregue un **[!UICONTROL Evento]** y después una **[!UICONTROL Condición]**.
+1. Cree un recorrido que envíe un correo electrónico a los usuarios con una nacionalidad específica. Agregar un **[!UICONTROL evento]** y una **[!UICONTROL condición]**.
 
    ![](assets/journey_5.png)
 
@@ -150,16 +150,12 @@ Para nuestro ejemplo, un primer usuario X con acceso a objetos etiquetados como 
 
 1. Personalice su recorrido según sea necesario. Aquí agregamos una acción **[!UICONTROL Correo electrónico]**.
 
-   ![](assets/journey_8.png)
+   ![Agregar una acción de correo electrónico al recorrido](assets/journey_8.png)
 
-Si el usuario Y sin acceso a los objetos de la etiqueta C2 necesita acceder a este recorrido con este campo restringido:
+Si el usuario Y, sin acceso a los objetos de la etiqueta C2, necesita acceder a este recorrido con el campo restringido:
 
 * El usuario Y no podrá utilizar el nombre de campo restringido, ya que no será visible.
-
-* El usuario Y no podrá editar la expresión con el nombre de campo restringido en modo avanzado. El siguiente error aparecerá `The expression is invalid. Field is no longer available or you don't have enough permission to see it`.
-
+* El usuario Y no podrá editar la expresión con el nombre de campo restringido en modo avanzado. Aparecerá el siguiente error: `The expression is invalid. Field is no longer available or you don't have enough permission to see it`.
 * El usuario Y puede eliminar la expresión.
-
-* El usuario Y no podrá probar el Recorrido.
-
-* El usuario Y no podrá publicar el Recorrido.
+* El usuario Y no podrá probar el recorrido.
+* El usuario Y no podrá publicar el recorrido.

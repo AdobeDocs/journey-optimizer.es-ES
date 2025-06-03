@@ -9,16 +9,16 @@ role: Admin, User
 level: Intermediate
 keywords: permisos, creación, mensajes
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '932'
 ht-degree: 2%
 
 ---
 
 # Permisos integrados {#ootb-permissions}
 
-Los permisos integrados representan los diferentes permisos que se pueden asignar a **[!UICONTROL Rol]** para ajustar el acceso de los usuarios a Journey Optimizer. Los permisos de alto nivel comprenden permisos de bajo nivel, detallados en [esta página](high-low-permissions.md).
+Los permisos integrados representan los diferentes permisos que se pueden asignar a una **[!UICONTROL función]** para ajustar el acceso de los usuarios a Journey Optimizer. Los permisos de alto nivel abarcan permisos de bajo nivel, detallados en [esta página](high-low-permissions.md).
 
 | Capacidad | Permisos |
 |-|-|
@@ -30,9 +30,9 @@ Los permisos integrados representan los diferentes permisos que se pueden asigna
 | Gobernanza de datos | **[!DNL Manage usage labels]**: leer, crear, editar y eliminar etiquetas.</br>**[!DNL Manage data usage policies]**: leer, crear, editar y eliminar directivas de uso de datos.</br>**[!DNL View data usage policies]**: acceso de solo lectura para directivas de uso de datos que pertenecen a su organización.</br>**[!DNL View user activity log]**: acceso de solo lectura para ver los registros de auditoría registrados de las actividades de Platform. |
 | Ciclo de datos | **[!DNL Manage data lifecycle]**: leer, crear, editar y eliminar el ciclo de vida de los datos.</br>**[!DNL View data lifecycle]**: acceso de solo lectura para el ciclo vital de datos. |
 | Ingesta de datos | **[!DNL Manage sources]**: leer, crear, editar y deshabilitar orígenes.</br>**[!DNL View sources]**: acceso de sólo lectura a orígenes disponibles en la ficha Catálogo y orígenes autenticados en la ficha Examinar. |
-| Administración de datos | **[!DNL Data monitoring]**: acceso de solo lectura a conjuntos de datos y secuencias de supervisión.</br>**[!DNL Manage datasets]**: leer, crear, editar y eliminar conjuntos de datos. Acceso de solo lectura para esquemas.</br>**[!DNL View datasets]**: acceso de solo lectura para conjuntos de datos y esquemas. |
+| Gestión de datos | **[!DNL Data monitoring]**: acceso de solo lectura a conjuntos de datos y secuencias de supervisión.</br>**[!DNL Manage datasets]**: leer, crear, editar y eliminar conjuntos de datos. Acceso de solo lectura para esquemas.</br>**[!DNL View datasets]**: acceso de solo lectura para conjuntos de datos y esquemas. |
 | Modelado de datos | **[!DNL Manage identity metadata]**: leer, crear, editar y eliminar metadatos de identidad para esquemas.</br> **[!DNL Manage relationships]**: leer, crear, editar y eliminar relaciones de esquema.</br>**[!DNL Manage schemas]**: leer, crear y editar esquemas XDM (Experience Data Model).</br>**[!DNL View schemas]**: acceso de solo lectura a esquemas. |
-| Administración de decisiones | **[!DNL Manage decisions]**: leer, crear, editar y eliminar entidades de toma de decisiones.</br>**[!DNL Manage offers]**: leer, crear, editar y eliminar todas las ofertas, componentes, leer decisiones y colecciones.</br>**[!DNL Manage ranking strategies]**: leer, crear, editar y eliminar informes personalizados y usar características de acción.</br>**[!DNL View decisions]**: acceso de solo lectura a entidades de ofertas.<!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Decisioning entities.</br>--> |
+| Gestión de decisiones | **[!DNL Manage decisions]**: leer, crear, editar y eliminar entidades de toma de decisiones.</br>**[!DNL Manage offers]**: leer, crear, editar y eliminar todas las ofertas, componentes, leer decisiones y colecciones.</br>**[!DNL Manage ranking strategies]**: leer, crear, editar y eliminar informes personalizados y usar características de acción.</br>**[!DNL View decisions]**: acceso de solo lectura a entidades de ofertas.<!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Decisioning entities.</br>--> |
 | Destinos | **[!DNL Activate destinations]**: permite a los usuarios activar audiencias en destinos existentes.</br>**[!DNL Activate segment without mapping]**: permite a los usuarios activar audiencias en destinos existentes, sin mostrar el paso de asignación. Los usuarios pueden agregar y eliminar audiencias en flujos de trabajo de activación, pero no pueden agregar ni eliminar atributos o identidades asignados.</br>**[!DNL Destination authoring]**: destinos de autor que utilizan Adobe Experience Platform Destination SDK.</br>**[!DNL Manage and activate dataset destination]**: leer, crear, editar y deshabilitar flujos de exportación de conjuntos de datos. Capacidad para activar también datos en conjuntos de datos activos que se han creado.</br>**[!DNL Manage destinations]**: leer, crear y eliminar flujos de activación de destino y cuentas de destino.</br>**[!DNL View destinations]**: acceso de solo lectura a los destinos disponibles en la pestaña Catálogo y a los destinos autenticados en la pestaña Examinar. |
 | Administración de identidad | **[!DNL Manage identity namespaces]**: leer, crear y editar áreas de nombres de identidad.</br>**[!DNL Manage identity settings]**: leer, crear y editar la configuración de identidad.</br>**[!DNL View identity namespaces]**: acceso de solo lectura a áreas de nombres de identidad.</br>**[!DNL View identity settings]**: acceso de solo lectura a la configuración de identidad.</br>**[!DNL View identity graph]**: acceso de solo lectura para gráficos de identidad. |
 | Configuraciones de calentamiento de IP | **[!DNL Manage IP warmup plans]**: leer, crear y editar planes de calentamiento de IP.</br>**[!DNL View IP warmup plans]**: acceso de solo lectura a planes de calentamiento de IP.</br>**[!DNL View IP warmup reports]**: leer y editar informes de calentamiento de IP. |
