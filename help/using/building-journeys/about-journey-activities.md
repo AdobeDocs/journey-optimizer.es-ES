@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: recorridos, actividades, introducción, eventos, acción
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 12%
+source-wordcount: '597'
+ht-degree: 13%
 
 ---
 
@@ -22,35 +22,35 @@ Combine las distintas actividades de evento, orquestación y acción para crear 
 
 ## Actividades de eventos {#event-activities}
 
-Los recorridos personalizados se activan mediante eventos, como una compra en línea. Una vez que un perfil entra en un recorrido, se mueve como un individuo y no hay dos individuos que se muevan a la misma velocidad o por el mismo camino. Cuando se inicia el recorrido con un evento, el recorrido se activa cuando se recibe el evento. Cada persona del recorrido sigue, individualmente, los siguientes pasos definidos en el recorrido.
+Los recorridos personalizados se activan mediante eventos, como una compra en línea. Una vez que un perfil entra en un recorrido, se mueve como individuo y no hay dos individuos que se muevan a la misma velocidad o por el mismo camino. Cuando se inicia el recorrido con un evento, el recorrido entra en déclencheur cuando se recibe el evento. Cada persona del recorrido sigue, individualmente, los siguientes pasos definidos en el recorrido.
 
-Los eventos configurados por el usuario técnico (vea [esta página](../event/about-events.md)) se muestran todos en la primera categoría de la paleta, a la izquierda de la pantalla. Las siguientes actividades de eventos están disponibles:
+Los eventos configurados por el usuario técnico (vea [esta página](../event/about-events.md)) se muestran todos en la primera categoría de la paleta, a la izquierda de la pantalla. Estas son las actividades de evento disponibles:
 
 * [Eventos generales](../building-journeys/general-events.md)
 * [Reacción](../building-journeys/reaction-events.md)
-* [Calificación de audiencias](../building-journeys/audience-qualification-events.md)
+* [Calificación de público](../building-journeys/audience-qualification-events.md)
 
-![](assets/journey43.png)
+![Paleta de actividades de eventos en el diseñador de recorrido](assets/journey43.png)
 
-Inicie el recorrido arrastrando y soltando una actividad de evento. También puede hacer doble clic en él.
+Para iniciar el recorrido, arrastre y suelte una actividad de evento. También puede hacer doble clic en él.
 
-![](assets/journey44.png)
+![Arrastre y suelte la actividad de evento en el diseñador de recorrido](assets/journey44.png)
 
 ## Actividades de orquestación {#orchestration-activities}
 
-Las actividades de orquestación son condiciones diferentes que ayudan a determinar el siguiente paso del recorrido. Puede ser si la persona tiene un caso de soporte abierto o no, la previsión meteorológica en su ubicación actual, si completó una compra o no, o alcanzó los 10 000 puntos de lealtad.
+Las actividades de orquestación son condiciones diferentes que ayudan a determinar el siguiente paso del recorrido. Estas condiciones pueden incluir si la persona tiene un caso de soporte abierto, el pronóstico del tiempo en su ubicación actual, si completó una compra o si alcanzó los 10 000 puntos de lealtad.
 
 En la paleta, en el lado izquierdo de la pantalla, están disponibles las siguientes actividades de orquestación:
 
 * [Condición](../building-journeys/condition-activity.md)
-* [Espera](../building-journeys/wait-activity.md)
+* [Espere](../building-journeys/wait-activity.md)
 * [Leer audiencia](../building-journeys/read-audience.md)
 
-![](assets/journey49.png)
+![Paleta de actividades de orquestación en el diseñador de recorrido](assets/journey49.png)
 
 ## Actividades de acción {#action-activities}
 
-Las acciones son lo que desea que ocurra como resultado de algún tipo de déclencheur, como enviar un mensaje. Es el recorrido que el cliente experimenta.
+Las acciones son lo que desea que ocurra como resultado de algún tipo de déclencheur, como enviar un mensaje. Es la parte del recorrido que el cliente experimenta.
 
 En la paleta, en la parte izquierda de la pantalla, debajo de **[!UICONTROL Eventos]** y **[!UICONTROL Orquestación]**, se encuentra la categoría **[!UICONTROL Acciones]**. Estas son las actividades de acción disponibles:
 
@@ -58,13 +58,13 @@ En la paleta, en la parte izquierda de la pantalla, debajo de **[!UICONTROL Even
 * [Acciones personalizadas](../building-journeys/using-custom-actions.md)
 * [Salto](../building-journeys/jump.md)
 
-![](assets/journey58.png)
+![Paleta de actividades de acción en el diseñador de recorrido](assets/journey58.png)
 
 Estas actividades representan los diferentes canales de comunicación disponibles. Puede combinarlas para crear un escenario de canales cruzados.
 
 <!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
 
-También puede configurar acciones específicas para enviarle mensajes:
+También puede configurar acciones específicas para enviar mensajes:
 
 * Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada específica. [Más información](../action/action.md)
 
@@ -77,7 +77,7 @@ También puede configurar acciones específicas para enviarle mensajes:
 
 ### Añadir una etiqueta
 
-La mayoría de las actividades le permiten definir **[!UICONTROL Label]**. Esto añade un sufijo al nombre que aparecerá bajo su actividad en el lienzo. Esto resulta útil si utiliza la misma actividad varias veces en el recorrido y desea identificarla más fácilmente. También facilita la depuración en caso de errores y la lectura de los informes. También puede agregar una **[!UICONTROL descripción]** opcional.
+La mayoría de las actividades le permiten definir **[!UICONTROL Label]**. Esto añade un sufijo al nombre que aparece debajo de la actividad en el lienzo. Esto resulta útil si utiliza la misma actividad varias veces en el recorrido y desea identificarla más fácilmente. También facilita la depuración en caso de errores y la lectura de los informes. También puede agregar una **[!UICONTROL descripción]** opcional.
 
 ![](assets/journey-action-label.png)
 
@@ -91,7 +91,7 @@ La mayoría de las actividades muestran una serie de parámetros avanzados o té
 
 ![](assets/journey-advanced-parameters.png)
 
-Para mejorar la legibilidad, puede ocultar estos parámetros con el botón **[!UICONTROL Ocultar campos de solo lectura]**.
+Para mejorar la legibilidad, oculte estos parámetros con el botón **[!UICONTROL Ocultar campos de solo lectura]**.
 
 ![](assets/journey-hide-read-only-fields.png)
 

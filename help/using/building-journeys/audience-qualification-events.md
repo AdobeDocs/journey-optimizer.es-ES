@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: calificación, eventos, audiencia, recorrido, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
+source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1191'
 ht-degree: 5%
 
 ---
@@ -38,20 +38,21 @@ Este tipo de evento se puede colocar como primer paso o más tarde en el recorri
 Siga las protecciones y recomendaciones que se indican a continuación para crear recorridos de calificación de audiencias. Consulte también [Prácticas recomendadas de calificación de audiencias](#best-practices-segments).
 
 
-* Los recorridos de cualificación de audiencias están diseñados principalmente para trabajar con audiencias de streaming: esta combinación garantiza una mejor experiencia en tiempo real. Le recomendamos encarecidamente que solo use **audiencia de transmisión** en la actividad de Calificación de audiencias.
+* Los recorridos de cualificación de audiencias están diseñados principalmente para trabajar con audiencias de streaming. Esta combinación garantiza una mejor experiencia en tiempo real. Se recomienda encarecidamente usar **audiencias de streaming** en la actividad de calificación de audiencias.
 
-  Sin embargo, si desea utilizar atributos basados en la ingesta por lotes en su audiencia de streaming, o una audiencia por lotes para un recorrido de calificación de audiencias, considere el lapso de tiempo para la evaluación/activación de audiencias: una audiencia por lotes o una audiencia de streaming que utilice atributos ingeridos por lotes debe estar lista para usarla en la actividad **Calificación de audiencias** en aproximadamente **2 horas** después de completar su trabajo de segmentación (este trabajo se ejecuta una vez al día a la hora definida por el administrador de su organización de Adobe).
+  Sin embargo, si desea utilizar atributos basados en la ingesta por lotes en la audiencia de flujo continuo o en una audiencia por lotes para un recorrido de calificación de audiencias, considere el lapso de tiempo para la evaluación/activación de audiencias. Una audiencia por lotes o una audiencia de streaming que use atributos ingeridos por lotes estará lista para usar en la actividad **Calificación de audiencias** aproximadamente **2 horas** después de que finalice el trabajo de segmentación. Este trabajo se ejecuta una vez al día a la hora definida por el administrador de la organización de Adobe.
 
-* Tenga en cuenta que las audiencias de Adobe Experience Platform se calculan una vez al día (**audiencias por lotes**) o en tiempo real (para audiencias de **transmisión**, con la opción Audiencias de alta frecuencia de Adobe Experience Platform).
+* Las audiencias de Adobe Experience Platform se calculan una vez al día (**audiencias por lotes**) o en tiempo real (para audiencias de **emisión**, con la opción Audiencias de alta frecuencia de Adobe Experience Platform).
 
-   * Si la audiencia seleccionada se transmite por secuencias, las personas que pertenecen a esta audiencia podrían entrar en el recorrido en tiempo real.
+   * Si la audiencia seleccionada se transmite por secuencias, las personas que pertenecen a esta audiencia pueden entrar en el recorrido en tiempo real.
    * Si la audiencia es por lotes, las personas recién cualificadas para esta audiencia podrían entrar en el recorrido cuando el cálculo de audiencia se ejecute en Adobe Experience Platform.
 
-  Como práctica recomendada, recomendamos usar solamente audiencias de streaming en una actividad **Calificación de audiencias**. Para los casos de uso por lotes, utilice una actividad **[Leer audiencia](read-audience.md)**.
+  Se recomienda usar audiencias de streaming en una actividad **Calificación de audiencias**. Para los casos de uso por lotes, utilice una actividad **[Leer audiencia](read-audience.md)**.
 
   >[!NOTE]
   >
-  >Debido a la naturaleza de lote de las audiencias creadas mediante flujos de trabajo de composición y carga personalizada, no puede dirigirse a estas audiencias en una actividad &quot;Calificación de audiencias&quot;. En esta actividad solo se pueden aprovechar las audiencias creadas con definiciones de segmento.
+  >Debido a la naturaleza de lote de las audiencias creadas mediante flujos de trabajo de composición y cargas personalizadas, estas audiencias no pueden segmentarse en una actividad &quot;Calificación de audiencias&quot;. En esta actividad solo se pueden aprovechar las audiencias creadas con definiciones de segmento.
+
 
 * Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por una actividad de **Leer audiencia**, una **calificación de audiencia** o un **evento empresarial**.
 
@@ -78,7 +79,7 @@ Para configurar la actividad **[!UICONTROL Calificación de audiencias]**, siga 
 
    >[!NOTE]
    >
-   >Tenga en cuenta que puede personalizar las columnas mostradas en la lista y ordenarlas.
+   >Puede personalizar las columnas mostradas en la lista y ordenarlas.
 
    ![](assets/segment6.png)
 
@@ -92,7 +93,7 @@ Para configurar la actividad **[!UICONTROL Calificación de audiencias]**, siga 
 
    >[!NOTE]
    >
-   >Tenga en cuenta que **[!UICONTROL Enter]** y **[!UICONTROL Exit]** corresponden a los estados de participación de audiencia **Realized** y **Exited** de Adobe Experience Platform. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >**[!UICONTROL Entrar]** y **[!UICONTROL Salir]** corresponden a los estados de participación de audiencia **Realizado** y **Salido** de Adobe Experience Platform. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Seleccione un área de nombres. Esto solo es necesario si el evento se coloca como el primer paso del recorrido. De forma predeterminada, el campo está rellenado previamente con el último área de nombres utilizado.
 
@@ -114,44 +115,44 @@ Consulte [Actividad de condición](../building-journeys/condition-activity.md#ab
 
 ![](assets/segment8.png)
 
-Un nuevo recorrido que incluye un evento de **Calificación de audiencias** está en funcionamiento diez minutos después de su publicación. Este intervalo de tiempo corresponde al intervalo de actualización de caché del servicio dedicado. Por lo tanto, debe esperar diez minutos antes de utilizar este recorrido.
+Un nuevo recorrido que incluye un evento de **Calificación de audiencias** entrará en funcionamiento diez minutos después de su publicación. Este intervalo de tiempo corresponde al intervalo de actualización de caché del servicio dedicado. Por lo tanto, debe esperar diez minutos antes de utilizar este recorrido.
 
 ## Prácticas recomendadas {#best-practices-segments}
 
-La actividad **[!UICONTROL Calificación de audiencias]** permite la entrada inmediata de recorridos de personas que cumplen o no los requisitos de una audiencia de Adobe Experience Platform.
+La actividad **[!UICONTROL Calificación de audiencias]** permite la entrada inmediata a recorridos de personas que cumplen o no los requisitos de una audiencia de Adobe Experience Platform.
 
-La velocidad de recepción de esta información es alta. Las mediciones realizadas muestran una velocidad de 10 000 eventos recibidos por segundo. Como resultado, debe asegurarse de comprender cómo pueden producirse los picos de entrada, cómo evitarlos y cómo preparar su recorrido para ellos.
+La velocidad de recepción de esta información es alta. Las mediciones muestran una velocidad de 10 000 eventos recibidos por segundo. Como resultado, asegúrese de comprender cómo pueden producirse los picos de entrada, cómo evitarlos y cómo preparar su recorrido para ellos.
 
 ### Audiencias por lotes {#batch-speed-segment-qualification}
 
-Cuando utilice la calificación de audiencia para una audiencia por lotes, tenga en cuenta que se producirá un pico de entrada en el momento del cálculo diario. El tamaño del pico dependerá del número de personas que entren (o salgan) diariamente de la audiencia.
+Cuando utilice la calificación de audiencia para una audiencia por lotes, tenga en cuenta que se produce un pico de entrada en el momento del cálculo diario. El tamaño del pico depende del número de individuos que entran (o salen) de la audiencia diariamente.
 
 Además, si la audiencia por lotes se crea recientemente y se utiliza inmediatamente en un recorrido, el primer lote de cálculo puede hacer que un gran número de personas entre en el recorrido.
 
 ### Audiencias transmitidas {#streamed-speed-segment-qualification}
 
-Al utilizar la calificación de audiencia para audiencias transmitidas, hay menos riesgo de obtener grandes picos de entradas/salidas debido a la evaluación continua de la audiencia. Sin embargo, si la definición de audiencia conduce a que un gran volumen de clientes cumpla los requisitos al mismo tiempo, puede haber un pico también.
+Cuando se utiliza la calificación de audiencia para audiencias transmitidas, hay menos riesgo de grandes picos de entradas/salidas debido a la evaluación continua de la audiencia. Sin embargo, si la definición de audiencia hace que un gran volumen de clientes se clasifique simultáneamente, podría seguir ocurriendo un pico.
 
 Evite utilizar la apertura y el envío de eventos con la segmentación de flujo continuo. En su lugar, utilice señales reales de actividad del usuario como clics, compras o datos de señalizaciones. Para la lógica de frecuencia o supresión, utilice reglas empresariales en lugar de enviar eventos. [Más información](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-Para obtener más información sobre la segmentación de transmisión, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Para obtener más información sobre la segmentación de transmisión, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 ### Cómo evitar sobrecargas {#overloads-speed-segment-qualification}
 
-Estas son algunas prácticas recomendadas que ayudarán a evitar la sobrecarga de sistemas aprovechados en los recorridos (fuentes de datos, acciones personalizadas, actividades de acción del canal).
+Estas son algunas prácticas recomendadas para evitar sobrecargar sistemas aprovechados en recorridos (fuentes de datos, acciones personalizadas, actividades de acción del canal):
 
-No utilice una audiencia por lotes inmediatamente después de su creación en una actividad **[!UICONTROL Calificación de audiencias]**. Evitará el primer pico de cálculo. Tenga en cuenta que si está a punto de usar una audiencia que nunca se ha calculado, aparecerá una advertencia amarilla en el lienzo de recorrido.
+* No utilice una audiencia por lotes inmediatamente después de crearla en una actividad **[!UICONTROL Calificación de audiencias]**. Esto evita el primer pico de cálculo. Si está a punto de usar una audiencia que nunca se ha calculado, aparecerá una advertencia amarilla en el lienzo de recorrido.
 
-![](assets/segment-error.png)
+  ![](assets/segment-error.png)
 
-Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los recorridos para evitar sobrecargarlos. Más información sobre [la API de límite de Journey Optimizer](../configuration/capping.md). Tenga en cuenta que la regla de límite no tiene reintento. Si necesita volver a intentarlo, debe usar una ruta alternativa en el recorrido marcando la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** en condiciones o acciones.
+* Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los recorridos para evitar sobrecargarlos. Obtenga más información en [Documentación de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. Tenga en cuenta que la regla de límite no tiene reintento. Si necesita volver a intentarlo, use una ruta alternativa en el recorrido marcando la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** en condiciones o acciones.
 
-Antes de usar la audiencia en un recorrido, evalúe siempre primero el volumen de personas que cumplen los requisitos para esta audiencia todos los días. Para ello, puede comprobar el menú **[!UICONTROL Audiencia]**, abrir la audiencia y ver el gráfico de **[!UICONTROL Perfiles a lo largo del tiempo]**.
+* Antes de usar la audiencia en un recorrido de producción, evalúe el volumen de personas que cumplen los requisitos para esta audiencia diariamente. Para ello, compruebe el menú **[!UICONTROL Audiencia]**, abra la audiencia y observe el gráfico de **[!UICONTROL Perfiles a lo largo del tiempo]**.
 
-![](assets/segment-overload.png)
+  ![](assets/segment-overload.png)
 
 ## Vídeo práctico {#video}
 
 Comprenda los casos de uso aplicables para los recorridos de calificación de audiencias en este vídeo. Obtenga información sobre cómo crear un recorrido con la calificación de audiencias y las prácticas recomendadas que se deben aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446207?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

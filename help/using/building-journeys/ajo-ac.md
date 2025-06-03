@@ -9,22 +9,22 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: recorrido, mensaje, campaña, integración
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '389'
 ht-degree: 2%
 
 ---
 
 # Caso de uso: Envío de un mensaje mediante Campaign v7/v8 {#campaign-v7-v8-use-case}
 
-Este caso de uso presenta todos los pasos necesarios para enviar un correo electrónico mediante la integración con Adobe Campaign v7 y Adobe Campaign v8.
+Este caso de uso explica todos los pasos necesarios para enviar un correo electrónico mediante la integración con Adobe Campaign v7 y Adobe Campaign v8.
 
 >[!NOTE]
 >
 >Para utilizar esta integración, debe tener Campaign v7/v8 compilación 9125 o superior.
 
-Primero crearemos una plantilla de correo electrónico transaccional en Campaign. A continuación, en Journey Optimizer, crearemos el evento, la acción y diseñaremos el recorrido.
+En primer lugar, cree una plantilla de correo electrónico transaccional en Campaign. A continuación, en Journey Optimizer, cree el evento, la acción y diseñe el recorrido.
 
 Para obtener más información sobre la integración de Campaign, consulte estas páginas:
 
@@ -33,21 +33,21 @@ Para obtener más información sobre la integración de Campaign, consulte estas
 
 **Adobe Campaign**
 
-La instancia de Campaign debe estar aprovisionada para esta integración. Es necesario configurar la función Mensajería transaccional.
+La instancia de Campaign debe estar aprovisionada para esta integración. Se debe configurar la función Mensajería transaccional.
 
 1. Inicie sesión en la instancia de control de Campaign.
 
-1. En **Administración** > **Plataforma** > **Enumeraciones**, seleccione la enumeración **Tipo de evento** (eventType). Cree un nuevo tipo de evento (&quot;evento de recorrido&quot;, en nuestro ejemplo). Tendrá que utilizar el nombre interno del tipo de evento al escribir el archivo JSON más adelante.
+1. En **Administración** > **Plataforma** > **Enumeraciones**, seleccione la enumeración **Tipo de evento** (eventType). Cree un nuevo tipo de evento (&quot;evento de recorrido&quot;, en nuestro ejemplo). Utilice el nombre interno del tipo de evento al escribir el archivo JSON más adelante.
 
    ![](assets/accintegration-uc-1.png)
 
-1. Desconecte y vuelva a conectarse a la instancia para que la creación sea eficaz.
+1. Desconecte y vuelva a conectarse a la instancia para que la creación surta efecto.
 
 1. En **Centro de mensajes** > **Plantillas de mensajes transaccionales**, cree una nueva plantilla de correo electrónico basada en el tipo de evento creado anteriormente.
 
    ![](assets/accintegration-uc-2.png)
 
-1. Diseñe la plantilla. En este ejemplo, utilizamos la personalización del nombre del perfil y el número de pedido. El nombre está en la fuente de datos de Adobe Experience Platform y el número de pedido es un campo de nuestro evento de Journey Optimizer. Asegúrese de utilizar los nombres de campo correctos en Campaign.
+1. Diseñe la plantilla. En este ejemplo, la personalización se aplica al nombre del perfil y al número de pedido. El nombre se encuentra en la fuente de datos de Adobe Experience Platform y el número de pedido es un campo del evento de Journey Optimizer. Asegúrese de utilizar los nombres de campo correctos en Campaign.
 
    ![](assets/accintegration-uc-3.png)
 
@@ -55,7 +55,7 @@ La instancia de Campaign debe estar aprovisionada para esta integración. Es nec
 
    ![](assets/accintegration-uc-4.png)
 
-1. Ahora debe escribir la carga útil JSON correspondiente a la plantilla.
+1. Escriba la carga útil JSON correspondiente a la plantilla.
 
 ```
 {
@@ -75,11 +75,11 @@ La instancia de Campaign debe estar aprovisionada para esta integración. Es nec
 
 **Journey Optimizer**
 
-1. En primer lugar, debe crear un evento. Asegúrese de incluir el campo purchaseOrderNumber.
+1. Cree un evento. Incluya el campo purchaseOrderNumber.
 
    ![](assets/accintegration-uc-5.png)
 
-1. A continuación, debe crear en Journey Optimizer una acción que corresponda a la plantilla de Campaign. En la lista desplegable **Tipo de acción**, seleccione **Adobe Campaign Classic**.
+1. Cree una acción en Journey Optimizer correspondiente a la plantilla de Campaign. En la lista desplegable **Tipo de acción**, seleccione **Adobe Campaign Classic**.
 
    ![](assets/accintegration-uc-6.png)
 
