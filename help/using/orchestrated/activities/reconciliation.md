@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 01fbf78d15e620fa7b540e3a1a6972949a0c4795
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 42%
+source-wordcount: '621'
+ht-degree: 37%
 
 ---
 
@@ -50,12 +50,9 @@ ht-degree: 42%
 
 La actividad **Reconciliation** es una actividad **Targeting** que permite definir el vínculo entre los datos de Adobe Journey Optimizer y los de una tabla de trabajo; por ejemplo, los datos cargados de un archivo externo.
 
-## Prácticas recomendadas {#reconciliation-best-practices}
+La actividad Enrichment permite agregar datos adicionales a la campaña orquestada; por ejemplo, combinando datos de varias fuentes o vinculándolos a un recurso temporal. Por el contrario, la actividad Reconciliación se utiliza para hacer coincidir datos externos o no identificados con los recursos existentes en la base de datos.
 
-Aunque la actividad **Enrichment** le permite definir datos adicionales para procesarlos en su campaña orquestada (puede usar una actividad **Enrichment** para combinar datos procedentes de varios conjuntos o para crear vínculos a un recurso temporal), la actividad **Reconciliation** le permite vincular datos no identificados a recursos existentes.
-
->[!NOTE]
->La operación de reconciliación implica que los datos de las dimensiones vinculadas ya están en la base de datos.  Por ejemplo, si importa un archivo de compras que muestre qué producto se compró, a qué hora, por qué cliente, etc., el producto y el cliente ya deben existir en la base de datos.
+La reconciliación requiere que los registros relacionados ya existan en el sistema. Por ejemplo, si importa un archivo de compra que enumera productos, marcas de tiempo e información de clientes, tanto los productos como los clientes deben estar presentes en la base de datos para establecer el vínculo.
 
 ## Configuración de la actividad Reconciliación {#reconciliation-configuration}
 
