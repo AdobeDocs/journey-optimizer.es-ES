@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 52226a4374fa6321b31ac2d57f76a48594df1c51
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 49%
+source-wordcount: '216'
+ht-degree: 27%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 49%
 >id="ajo_orchestration_fork"
 >title="Actividad de bifurcación"
 >abstract="La actividad de **bifurcación** permite crear transiciones salientes para iniciar varias actividades al mismo tiempo."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_fork_transitions"
@@ -39,7 +38,7 @@ ht-degree: 49%
 
 <br/>
 
-La actividad **Fork** es una actividad de **control de flujo**. Permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo.
+La actividad **Fork** es un componente de **control de flujo** que le permite crear varias transiciones salientes, lo que permite que varias actividades se ejecuten en paralelo.
 
 ## Configuración de la actividad Fork{#fork-configuration}
 
@@ -48,14 +47,11 @@ Siga estos pasos para configurar la actividad **Tenedor**:
 ![](../assets/workflow-fork.png)
 
 1. Agregue una actividad **Fork** a su campaña orquestada.
-1. Haga clic en **Agregar transición** para añadir una nueva transición saliente. De forma predeterminada, se definen dos transiciones.
-1. Añada una etiqueta a cada una de las transiciones.
 
-## Ejemplo{#fork-example}
+1. Definir una **etiqueta**.
 
-En el siguiente ejemplo, utilizamos dos actividades **Tenedor**:
+1. Asigne una etiqueta a cada transición saliente. De forma predeterminada, se proporcionan dos transiciones.
 
-* Una antes de las dos consultas, para ejecutarlas al mismo tiempo.
-* Una después de la intersección, para enviar un correo electrónico y un SMS simultáneamente a la población objetivo.
+1. Para quitar una transición, haga clic en el icono ![](../assets/do-not-localize/Smock_Delete_18_N.svg).
 
-![](../assets/workflow-fork-example.png)
+1. Si es necesario, haga clic en **Agregar transición** para agregar una transición saliente adicional.

@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 52226a4374fa6321b31ac2d57f76a48594df1c51
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 44%
+source-wordcount: '370'
+ht-degree: 33%
 
 ---
 
@@ -33,20 +33,9 @@ ht-degree: 44%
 
 <br/>
 
-Como especialista en marketing, puede crear fácilmente consultas complejas mediante una interfaz fácil de usar, lo que me permite segmentar la audiencia en función de una amplia gama de criterios y comportamientos para adaptar las campañas de forma más eficaz.
+Como especialista en marketing, puede crear segmentos de audiencia complejos a través de una interfaz intuitiva, lo que le permite dirigirse a los usuarios en función de una amplia gama de criterios y comportamientos para adaptar las campañas de forma más eficaz.
 
-Para ello, use la actividad de segmentación **Generar audiencia**. Esta actividad le permite definir la audiencia que entra en la campaña orquestada. Cuando se envían mensajes en el contexto de una campaña orquestada, el público del mensaje no se define en la actividad del canal, sino en la actividad **Crear publico**.
-
-Para definir la población del público destinatario, puede hacer lo siguiente:
-
-* Seleccione una audiencia existente.
-* Seleccione un filtro predefinido.
-* Cree una nueva audiencia con el modelador de consultas definiendo y combinando criterios de filtrado.
-
->[!NOTE]
->
->Las audiencias cargadas desde un archivo no se pueden segmentar con una actividad Generar audiencia. Para ello, necesita usar una actividad **Cargar archivo** seguida de una actividad **Reconciliación**.
-
+Para ello, use la actividad de segmentación **Generar audiencia**. Esta actividad define la audiencia que entra en la campaña orquestada. Al enviar mensajes como parte de una campaña orquestada, la audiencia se define en la actividad **Generar audiencia**, no dentro de la campaña orquestada.
 
 ## Configuración de la actividad Generar público {#build-audience-configuration}
 
@@ -57,23 +46,24 @@ Para definir la población del público destinatario, puede hacer lo siguiente:
 
 Siga estos pasos para configurar la actividad **Generar público destinatario**:
 
-![](../assets/build-audience.png)
-
 1. Añadir una actividad **Generar público destinatario**.
+
+   ![](../assets/build-audience.png)
+
 1. Defina una etiqueta.
-1. Defina el tipo de público destinatario: **Crear la suya propia** o **Leer público destinatario**.
+
 1. Configure su audiencia siguiendo los pasos detallados en las pestañas a continuación.
 
-
-Para crear su propia consulta, siga estos pasos:
-
-1. Seleccione **Crear su propia (consulta)**.
 1. Elija la **Dimensión de segmentación**. La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el público destinatario se selecciona entre los destinatarios.
+
 1. Haga clic en **Continuar**.
+
 1. Utilice el modelador de consultas para definir la consulta. [Obtenga más información acerca del modelador de consultas en esta sección](../orchestrated-query-modeler.md)
+
+1. Especifique si se debe generar una transición saliente cuando la audiencia está vacía.
 
 ## Ejemplos{#build-audience-examples}
 
-Este es un ejemplo de una campaña orquestada con dos actividades **Generar audiencia**. El primero se dirige al público de jugadores de póquer, seguido de un envío por correo electrónico. El segundo se dirige al público de clientes VIP, seguido de un envío por SMS.
+Este es un ejemplo de una campaña orquestada con dos actividades **Generar audiencia**. El primer segmenta a los perfiles que tienen artículos en el carro, seguidos de un envío de correo electrónico. El segundo segmenta los perfiles con una lista de deseos, seguida de una entrega de SMS.
 
-![](../assets/workflow-audience-example.png)
+![](../assets/build-audience-2.png)

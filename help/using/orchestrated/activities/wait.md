@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 52226a4374fa6321b31ac2d57f76a48594df1c51
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 55%
+source-wordcount: '273'
+ht-degree: 11%
 
 ---
 
@@ -33,7 +33,9 @@ ht-degree: 55%
 
 <br/>
 
-La actividad **Esperar** es una actividad de **Control de flujo**. Se utiliza para permitir que transcurra un cierto tiempo entre dos actividades que se están ejecutando. Por ejemplo, para esperar varios días después de una actividad de envío de correo electrónico y, después, analizar las aperturas y los clics generados durante este período antes de realizar cualquier operación de seguimiento (correo electrónico recordatorio, creación de un público, etc.).
+La actividad **Wait** es un componente **Flow control** que se usa para producir un retraso entre dos actividades en una campaña orquestada. Esto le ayuda a garantizar que las actividades de seguimiento se realicen mejor a tiempo y sean más relevantes para la participación del usuario.
+
+Por ejemplo, puede esperar unos días después de una entrega de correo electrónico para rastrear aperturas y clics antes de enviar un mensaje de seguimiento.
 
 ## Configuración{#wait-configuration}
 
@@ -41,12 +43,16 @@ Siga estos pasos para configurar la actividad **Esperar**:
 
 1. Agregue una actividad **Wait** a su campaña orquestada.
 
-1. Especifique la **Duración** de la espera entre las transiciones entrantes y salientes.
+1. Seleccione el tipo de espera que mejor se adapte a sus necesidades:
 
-1. Seleccione la unidad de tiempo en el campo **Periodos**: segundos, minutos, horas, días.
+   * **Duración**: especifique un retraso en segundos, minutos, horas o días antes de continuar con la siguiente actividad.
+
+   * **Tiempo fijo**: establezca una fecha y hora específicas después de la cual comienza la siguiente actividad.
+
+   ![](../assets/wait_activity.png)
 
 ## Ejemplo{#wait-example}
 
-El siguiente ejemplo ilustra la actividad **Esperar** en un caso de uso típico. Se envía una invitación por correo electrónico a un evento. 24 horas después de su envío, se realiza un envío de SMS a la misma población.
+El siguiente ejemplo ilustra la actividad **Wait** en un caso de uso típico.  Se envía un correo electrónico con un código promocional a los perfiles que celebran su cumpleaños. Después de 29 días, se envía un SMS al mismo grupo como recordatorio de que el código de promoción de cumpleaños está a punto de caducar.
 
-![](../assets/workflow-wait-example.png)
+![](../assets/wait-example.png)
