@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 54d8b2fb-745d-459c-85d6-c224aa5e352e
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '148'
 ht-degree: 6%
 
 ---
@@ -26,4 +26,11 @@ ht-degree: 6%
 
 +++
 
-Como administrador de campañas, puede enviar **versiones de prueba** de nuestros mensajes personalizados a una lista predefinida de revisores internos, asegurándose de que todo el contenido, la personalización y los vínculos funcionen según lo esperado antes del lanzamiento a gran escala.
+<br/><br/>
+
+>[!BEGINSHADEBOX]
+
+Documentación en curso
+
+>[!ENDSHADEBOX]
+>Como administrador de campañas, puede enviar **versiones de prueba** de nuestros mensajes personalizados a una lista predefinida de revisores internos, asegurándose de que todo el contenido, la personalización y los vínculos funcionen según lo esperado antes del lanzamiento a gran escala.

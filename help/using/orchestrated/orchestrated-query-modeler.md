@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,13 @@ ht-degree: 2%
 
 +++
 
-*En curso*
+<br/><br/>
+
+>[!BEGINSHADEBOX]
+
+Documentación en curso
+
+>[!ENDSHADEBOX]
 
 Las campañas organizadas incluyen un modelador de consultas que simplifica el proceso de filtrado de la base de datos en función de varios criterios. El modelador de consultas administra consultas muy complejas y largas de forma eficaz, lo que ofrece una mayor flexibilidad y precisión. También admite filtros predefinidos dentro de las condiciones, lo que permite a los usuarios refinar las consultas con facilidad mientras utiliza expresiones avanzadas y operadores para estrategias completas de segmentación y segmentación de audiencia.
 

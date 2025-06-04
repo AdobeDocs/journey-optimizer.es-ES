@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 52%
+source-wordcount: '445'
+ht-degree: 44%
 
 ---
 
@@ -20,6 +20,18 @@ ht-degree: 52%
 >id="ajo_orchestration_build_audience"
 >title="Actividad generar público"
 >abstract="La actividad **Crear público** le permite definir el público que participará en la campaña orquestada. Cuando se envían mensajes en el contexto de una campaña orquestada, el público del mensaje no se define en la actividad del canal, sino en la actividad **Crear publico**."
+
++++ Tabla de contenido
+
+| Bienvenido a campañas orquestadas | Inicie su primera campaña orquestada | Consultar la base de datos | Actividades de campañas organizadas |
+|---|---|---|---|
+| [Introducción a las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>[Pasos de configuración](configuration-steps.md)<br/><br/>[Pasos clave para la creación de campañas orquestadas](gs-campaign-creation.md) | [Crear una campaña orquestada](create-orchestrated-campaign.md)<br/><br/>[Organizar actividades](orchestrate-activities.md)<br/><br/>[Enviar mensajes con campañas orquestadas](send-messages.md)<br/><br/>[Iniciar y supervisar la campaña](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabaje con el Modeler de consultas](orchestrated-query-modeler.md)<br/><br/>[Cree su primera consulta](build-query.md)<br/><br/>[Editar expresiones](edit-expressions.md) | [Empiece con las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[Y únase](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Anulación de duplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [División](activities/split.md) - [Espera](activities/wait.md) |
+
+{style="table-layout:fixed"}
+
++++
+
+<br/><br/>
 
 Como especialista en marketing, puede crear fácilmente consultas complejas mediante una interfaz fácil de usar, lo que me permite segmentar la audiencia en función de una amplia gama de criterios y comportamientos para adaptar las campañas de forma más eficaz.
 

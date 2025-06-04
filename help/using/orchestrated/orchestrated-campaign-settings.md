@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 27%
@@ -30,6 +30,8 @@ ht-degree: 27%
 {style="table-layout:fixed"}
 
 +++
+
+<br/><br/>
 
 Al crear una campaña orquestada u organizar actividades de campaña orquestadas en el lienzo, puede acceder a la configuración avanzada relacionada con la campaña orquestada. Por ejemplo, puede establecer una zona horaria específica para la campaña orquestada, administrar cómo debe comportarse la campaña orquestada en caso de error o administrar el retraso después del cual debe purgarse el historial de campañas orquestadas.
 

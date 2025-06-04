@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 17%
@@ -16,6 +16,11 @@ ht-degree: 17%
 
 
 # Creación de una campaña organizada {#create-first-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_creation_workflow"
+>title="Lista de campañas de orquestadas"
+>abstract="La pestaña de **varios pasos** enumera todas las campañas orquestadas. Haga clic en el nombre de una campaña orquestada para editarla. Utilice el botón **Crear campaña orquestada** para añadir una nueva campaña orquestada."
 
 +++ Tabla de contenido
 
@@ -27,10 +32,7 @@ ht-degree: 17%
 
 +++
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_creation_workflow"
->title="Lista de campañas de orquestadas"
->abstract="La pestaña de **varios pasos** enumera todas las campañas orquestadas. Haga clic en el nombre de una campaña orquestada para editarla. Utilice el botón **Crear campaña orquestada** para añadir una nueva campaña orquestada."
+<br/><br/>
 
 ## Creación de la campaña
 

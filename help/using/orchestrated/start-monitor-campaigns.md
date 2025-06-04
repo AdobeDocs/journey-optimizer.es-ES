@@ -6,7 +6,7 @@ description: Obtenga información sobre cómo programar e iniciar campañas orqu
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 14%
@@ -29,6 +29,8 @@ ht-degree: 14%
 {style="table-layout:fixed"}
 
 +++
+
+<br/><br/>
 
 Una vez que haya creado las tareas orquestadas y diseñadas para realizarlas en el lienzo, puede publicarlas y monitorizar cómo se ejecutan.
 

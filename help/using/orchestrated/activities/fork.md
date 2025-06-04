@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 70%
+source-wordcount: '244'
+ht-degree: 49%
 
 ---
 
@@ -26,6 +26,18 @@ ht-degree: 70%
 >id="ajo_orchestration_fork_transitions"
 >title="Transiciones de la actividad de bifurcación"
 >abstract="De forma predeterminada, se crean dos transiciones con una actividad de **bifurcación**. Haga clic en el botón **Añadir transición** para definir una transición de salida adicional e introducir su etiqueta."
+
++++ Tabla de contenido
+
+| Bienvenido a campañas orquestadas | Inicie su primera campaña orquestada | Consultar la base de datos | Actividades de campañas organizadas |
+|---|---|---|---|
+| [Introducción a las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>[Pasos de configuración](configuration-steps.md)<br/><br/>[Pasos clave para la creación de campañas orquestadas](gs-campaign-creation.md) | [Crear una campaña orquestada](create-orchestrated-campaign.md)<br/><br/>[Organizar actividades](orchestrate-activities.md)<br/><br/>[Enviar mensajes con campañas orquestadas](send-messages.md)<br/><br/>[Iniciar y supervisar la campaña](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabaje con el Modeler de consultas](orchestrated-query-modeler.md)<br/><br/>[Cree su primera consulta](build-query.md)<br/><br/>[Editar expresiones](edit-expressions.md) | [Empiece con las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[Y únase](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Anulación de duplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [División](activities/split.md) - [Espera](activities/wait.md) |
+
+{style="table-layout:fixed"}
+
++++
+
+<br/><br/>
 
 La actividad **Fork** es una actividad de **control de flujo**. Permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo.
 
