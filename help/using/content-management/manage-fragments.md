@@ -97,8 +97,8 @@ Para desplazarse fácilmente por los fragmentos, puede utilizar carpetas para or
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nuevos estados de fragmentos"
->abstract="Al haberse introducido los estados **Borrador** y **Activo** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tendrán el estado **Borrador**, incluso si se utilizan en un recorrido o una campaña. Si realiza algún cambio en estos fragmentos, debe publicarlos para que tengan el estado **Activo** y propagarlos a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. <br/>La publicación requiere el permiso de usuario para <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">Publicar fragmento</a>."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="Más información sobre los permisos de fragmentos de contenido"
+>abstract="Al haberse introducido los estados **Borrador** y **Activo** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tendrán el estado **Borrador**, incluso si se utilizan en un recorrido o una campaña. Si realiza algún cambio en estos fragmentos, debe publicarlos para que tengan el estado **Activo** y propagarlos a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. <br/>La publicación requiere el permiso de usuario para <a href="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">Publicar fragmento</a>."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="Más información sobre los permisos de fragmentos de contenido"
 
 Los fragmentos pueden tener varios estados:
 
