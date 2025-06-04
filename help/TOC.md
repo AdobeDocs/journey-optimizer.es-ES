@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
 workflow-type: tm+mt
-source-wordcount: '2406'
-ht-degree: 98%
+source-wordcount: '2411'
+ht-degree: 96%
 
 ---
 
@@ -175,36 +175,33 @@ ht-degree: 98%
          + [Limitación del rendimiento con fuentes de datos externas y acciones personalizadas](using/building-journeys/limit-throughput.md)
          + [Utilice acciones personalizadas para escribir los eventos de recorrido en Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campañas organizadas {#orchestrated-campaigns}
-   + [Introducción a las campañas organizadas](using/ms/gs-ms-campaigns.md)
-   + [Principios clave](using/ms/gs-campaign-creation.md)
-   + [Pasos para crear campañas orquestadas](using/ms/gs-campaign-steps.md)
-   + Pasos de configuración {#ms-config}
-      + [Creación de esquemas relacionales](using/ms/ms-schemas.md)
-   + Pasos para la creación{#create-ms-campaign}
-      + [Creación de una campaña organizada](using/ms/create-ms-campaign.md)
-      + [Configuración de campaña](using/ms/ms-campaign-settings.md)
-      + [Programación e inicio de campañas](using/ms/start-monitor-campaigns.md)
-      + [Consultas de compilación](using/ms/ms-query-modeler.md)
-   + Actividades {#design-campaigns}
-      + [Introducción a las actividades](using/ms/activities/about-activities.md)
-      + [Organización de actividades](using/ms/orchestrate-activities.md)
-      + [And-join](using/ms/activities/and-join.md)
-      + [Generar público](using/ms/activities/build-audience.md)
-      + [Cambiar dimensión](using/ms/activities/change-dimension.md)
-      + [Combinar](using/ms/activities/combine.md)
-      + [Deduplicación](using/ms/activities/deduplication.md)
-      + [Enriquecimiento](using/ms/activities/enrichment.md)
-      + [Bifurcación](using/ms/activities/fork.md)
-      + [Reconciliación](using/ms/activities/reconciliation.md)
-      + [División](using/ms/activities/split.md)
-      + [Prueba](using/ms/activities/test.md)
-      + [Espere](using/ms/activities/wait.md)
-   + Mensajes {#messages}
-      + [Acciones de canal](using/ms/activities/channels.md)
-      + [Personalizar el contenido](using/ms/ms-personalization.md)
-      + [Prueba y validación de mensajes](using/ms/ms-proofs.md)
-   + Sistema de informes y monitorización {#report}
-      + [Sistema de informes](using/ms/reporting-campaigns.md)
+   + [Introducción a las campañas organizadas](using/orchestrated/gs-orchestrated-campaigns.md)
+   + [Pasos de configuración](using/orchestrated/configuration-steps.md)
+   + [Pasos clave para la creación de campañas orquestadas](using/orchestrated/gs-campaign-creation.md)
+   + Inicie su primera campaña orquestada{#launch}
+      + [Creación de una campaña organizada](using/orchestrated/create-orchestrated-campaign.md)
+      + [Organización de actividades](using/orchestrated/orchestrate-activities.md)
+      + [Envío de mensajes con campañas organizadas](using/orchestrated/send-messages.md)
+      + [Inicio y monitorización de la campaña](using/orchestrated/start-monitor-campaigns.md)
+      + [Creación de informes](using/orchestrated/reporting-campaigns.md)
+   + Consultar la base de datos {#query-database}
+      + [Trabajar con el Modeler de consultas](using/orchestrated/orchestrated-query-modeler.md)
+      + [Cree su primera consulta](using/orchestrated/build-query.md)
+      + [Editar expresiones](using/orchestrated/edit-expressions.md)
+   + Actividades de campañas organizadas {#design-campaigns}
+      + [Introducción a las actividades](using/orchestrated/activities/about-activities.md)
+      + [And-join](using/orchestrated/activities/and-join.md)
+      + [Generar público](using/orchestrated/activities/build-audience.md)
+      + [Cambiar dimensión](using/orchestrated/activities/change-dimension.md)
+      + [Combinar](using/orchestrated/activities/combine.md)
+      + [Deduplicación](using/orchestrated/activities/deduplication.md)
+      + [Enriquecimiento](using/orchestrated/activities/enrichment.md)
+      + [Bifurcación](using/orchestrated/activities/fork.md)
+      + [Reconciliación](using/orchestrated/activities/reconciliation.md)
+      + [División](using/orchestrated/activities/split.md)
+      + [Prueba](using/orchestrated/activities/test.md)
+      + [Espere](using/orchestrated/activities/wait.md)
+      + [Actividades del canal](using/orchestrated/activities/channels.md)
 + Campañas {#campaigns}
    + [Introducción a las campañas](using/campaigns/get-started-with-campaigns.md)
    + [Creación de una campaña](using/campaigns/create-campaign.md)
