@@ -6,13 +6,13 @@ description: Obtenga información sobre cómo editar expresiones.
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 8%
 
 ---
-
 
 # Editar expresiones {#edit-expressions}
 
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 +++
 
-<br/><br/>
+<br/>
 
 >[!BEGINSHADEBOX]
 
