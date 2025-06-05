@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 23b0054d08b4568df3a5cb829fc354213efbbe37
 workflow-type: tm+mt
-source-wordcount: '2289'
-ht-degree: 40%
+source-wordcount: '89'
+ht-degree: 8%
 
 ---
 
@@ -34,808 +34,793 @@ Documentación en curso
 
 >[!ENDSHADEBOX]
 
-<!--rapatrier docs utiles de la doc Web UI -->
 
+<!--
+# Edit expressions {#expression}
 
-
-
-
-
-&#x200B;---
-audience: end-user
-title: Cree su primera consulta con el modelador de consultas
-description: Descubra cómo crear su primera consulta en el modelador de consultas web de Adobe Campaign.
-exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
----
-
-&#x200B;# Editar expresiones {#expression}
-
-La edición de una expresión implica la introducción manual de condiciones para formar una regla. Este modo permite utilizar funciones avanzadas, que permiten manipular los valores utilizados para llevar a cabo consultas específicas, como la manipulación de fechas, cadenas, campos numéricos y ordenación.
+Editing an expression involves manually entering conditions to form a rule. This mode allows you to use advanced functions, which let you manipulate the values used to carry out specific queries, such as manipulating dates, strings, numerical fields, and sorting.
 
 >[!NOTE]
 >
->La sección siguiente proporciona información sobre cómo trabajar con el editor de expresiones para generar reglas. Tenga en cuenta que la sintaxis utilizada para generar reglas difiere de la utilizada para agregar personalización.
+>The section below provides information on how to work with the expression editor to build rules. Keep in mind that the syntax used to build rules differs from the one used to add personalization.
 
 >[!IMPORTANT]
 >
->Hay disponible una nueva interfaz para el modelador de consultas. Para cambiar a esta nueva experiencia del generador de reglas, presione el botón de alternancia en la esquina superior derecha. Puede volver al modelador de consultas clásico en cualquier momento simplemente pulsando la tecla de retroceso para desactivar la nueva interfaz. Puede aplicar los mismos principios que el modelador de consultas en esta nueva interfaz.
->&#x200B;>![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
+>A brand new interface for the Query modeler is available, to switch to this new rule builder experience, press the toggle button in the top-right corner. You can go back to the classic Query modeler anytime you want by simply pressing the toggle back to disable the new interface. You can apply the same principles as the query modeler in this new interface.
+>![Image showing the toggle for the new rule builder interface](assets/query-modeler-toggle.png){zoomable="yes"} 
 
-## Trabajo con el editor de expresiones {#edit}
+## Work with the expression editor {#edit}
 
-El editor de expresiones está disponible en el botón del modelador de consultas **[!UICONTROL Editar expresión]**, disponible para los campos **[!UICONTROL Atributo]** y **[!UICONTROL Valor]** al configurar una condición personalizada.
+The expression editor is available from the query modeler **[!UICONTROL Edit expression]** button, available for the **[!UICONTROL Attribute]** and **[!UICONTROL Value]** fields when configuring a custom condition.
 
-| Acceso desde el campo **Atributo** | Acceso desde el campo **Value** |
+| Access from the **Attribute** field | Access from the **Value** field |
 | --- | --- |
-| ![Editor de expresiones para el campo de atributos](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![Editor de expresiones para el campo Valor](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| ![Expression editor for Attribute field](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![Expression editor for Value field](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-El editor de expresiones proporciona lo siguiente:
+The expression editor provides:
 
-* Un **campo de entrada (1)** donde se define la expresión.
-* Una lista de **campos (2)** disponibles que se pueden usar en la expresión y que corresponden a la dimensión de segmentación de la consulta.
-* **Funciones de ayuda (3)**, ordenadas por categoría.
+* An **input field (1)** where the expression is defined.
+* A list of available **fields (2)** that can be used in the expression and correspond to the targeting dimension of the query.
+* **Helper functions (3)**, sorted by category.
 
-Edite la expresión introduciendo una expresión directamente en el campo de entrada. Para añadir un campo o una función de ayuda, coloque el cursor en la expresión donde desee añadirla y haga clic en el botón +.
+Edit the expression by entering an expression directly in the input field. To add a field or a helper function, place your cursor in the expression where you want to add it and click the + button.
 
-![Interfaz del editor de expresiones](assets/expression-editor.png){zoomable="yes"}
+![Expression editor interface](assets/expression-editor.png){zoomable="yes"}
 
-Cuando la expresión esté lista, haga clic en el botón **[!UICONTROL Confirmar]**. La expresión se muestra en el campo seleccionado. Para editarlo, abra el editor de expresiones y realice los cambios deseados.
+When your expression is ready, click the **[!UICONTROL Confirm]** button. The expression displays in the selected field. To edit it, open the expression editor and make the desired changes.
 
-El ejemplo siguiente muestra una expresión configurada para el campo **[!UICONTROL Value]**. Para editarlo, abra el editor de expresiones con el botón **[!UICONTROL Editar expresión]**.
+The example below shows an expression configured for the **[!UICONTROL Value]** field. To edit it, open the expression editor using the **[!UICONTROL Edit expression]** button.
 
 >[!BEGINTABS]
 
->[!TAB Modelador de consultas clásico]
+>[!TAB Classic query modeler]
 
-![Ejemplo de expresión de edición para el campo Valor](assets/edit-expression-value.png){zoomable="yes"}
+![Example of editing expression for Value field](assets/edit-expression-value.png){zoomable="yes"}
 
->[!TAB Nuevo generador de reglas]
+>[!TAB New rule builder]
 
-![Ejemplo de expresión de edición para el campo Valor](assets/ruleb-12.png){zoomable="yes"}
+![Example of editing expression for Value field](assets/ruleb-12.png){zoomable="yes"}
 
 >[!ENDTABS]
 
-## Funciones de ayuda
+## Helper functions
 
-La herramienta de edición de consultas le permite utilizar funciones avanzadas para realizar filtros complejos según los resultados deseados y los tipos de datos manipulados. Estas son las funciones disponibles:
+The query editing tool allows you to use advanced functions to carry out complex filtering depending on the desired results and the types of manipulated data. The following functions are available:
 
-### Agregado
+### Aggregate
 
-Las funciones agregadas realizan cálculos en un conjunto de valores.
+Aggregate functions perform calculations on a set of values.
 
 <table>
 <tbody>
 <tr>
-<td><strong>Nombre</strong></td>
-<td><strong>Descripción</strong></td>
-<td><strong>Sintaxis</strong></td>
+<td><strong>Name</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Syntax</strong></td>
 </tr>
 <tr>
 <td><strong>Avg</strong></td>
-<td>Devuelve el promedio de una columna de tipo numérico</td>
+<td>Returns the average of a number type column</td>
 <td>Avg(&lt;value&gt;)</td>
 </tr>
 <tr>
-<td><strong>Recuento</strong></td>
-<td>Cuenta los valores no nulos de una columna</td>
+<td><strong>Count</strong></td>
+<td>Counts the non-null values of a column</td>
 <td>Count(&lt;value&gt;)</td>
 </tr>
 <tr>
 <td><strong>CountAll</strong></td>
-<td>Cuenta los valores devueltos (todos los campos)</td>
+<td>Counts the values returned (all fields)</td>
 <td>CountAll()</td>
 </tr>
 <tr>
 <td><strong>Countdistinct</strong></td>
-<td>Cuenta los distintos valores no nulos de una columna</td>
+<td>Counts the distinct non-null values of a column</td>
 <td>Countdistinct(&lt;value&gt;)</td>
 </tr>
 <tr>
-<td><strong>Máx.</strong></td>
-<td>Devuelve el valor máximo de una columna de número, cadena o tipo de fecha</td>
+<td><strong>Max</strong></td>
+<td>Returns the maximum value of a number, string, or date type column</td>
 <td>Max(&lt;value&gt;)</td>
 </tr>
 <tr>
-<td><strong>Mín.</strong></td>
-<td>Devuelve el valor mínimo de una columna de número, cadena o tipo de fecha</td>
+<td><strong>Min</strong></td>
+<td>Returns the minimum value of a number, string, or date type column</td>
 <td>Min(&lt;value&gt;)</td>
 </tr>
 <tr>
 <td><strong>StdDev</strong></td>
-<td>Devuelve la desviación estándar de una columna de número, cadena o fecha</td>
+<td>Returns the standard deviation of a number, string, or date column</td>
 <td>StdDev(&lt;value&gt;)</td>
 </tr>
 <tr>
 <td><strong>StringAgg</strong></td>
-<td>Devuelve la concatenación de los valores de una columna de tipo cadena, separados por el carácter del segundo argumento</td>
-<td>StringAgg(&lt;Valor&gt;, &lt;Cadena&gt;)</td>
+<td>Returns the concatenation of the values of a string type column, separated by the character in the second argument</td>
+<td>StringAgg(&lt;Value&gt;, &lt;String&gt;)</td>
 </tr>
 <tr>
 <td><strong>Sum</strong></td>
-<td>Devuelve la suma de los valores de una columna de número, cadena o fecha</td>
+<td>Returns the sum of the values of a number, string, or date type column</td>
 <td>Sum(&lt;value&gt;)</td>
 </tr>
 </tbody>
 </table>
 
-### Fecha
+### Date
 
-Las funciones de fecha manipulan los valores de fecha y hora.
+Date functions manipulate date or time values.
 
 <table>
 <tbody>
 <tr>
-<td><strong>Nombre</strong></td>
-<td><strong>Descripción</strong></td>
-<td><strong>Sintaxis</strong></td>
+<td><strong>Name</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Syntax</strong></td>
 </tr>
 <tr>
 <td><strong>AddDays</strong></td>
-<td>Añade un número de días a una fecha</td>
-<td>AddDays(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Adds a number of days to a date</td>
+<td>AddDays(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddHours</strong></td>
-<td>Agrega un número de horas a una fecha</td>
-<td>AddHours(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Adds a number of hours to a date</td>
+<td>AddHours(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddMinutes</strong></td>
-<td>Añade un número de minutos a una fecha</td>
-<td>AddMinutes(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Adds a number of minutes to a date</td>
+<td>AddMinutes(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddMonths</strong></td>
-<td>Añade un número de meses a una fecha</td>
-<td>AddMonths(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Adds a number of months to a date</td>
+<td>AddMonths(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddSeconds</strong></td>
-<td>Añade un número de segundos a una fecha</td>
-<td>AddSeconds(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Adds a number of seconds to a date</td>
+<td>AddSeconds(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddYears</strong></td>
-<td>Añade un número de años a una fecha</td>
-<td>AddYears(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Adds a number of years to a date</td>
+<td>AddYears(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>ConvertNTZ</strong></td>
-<td>Convierte la marca de tiempo NTZ (marca de tiempo sin zona horaria) en TZ (marca de tiempo con zona horaria) aplicando la TZ de sesión definida</td>
-<td>ConvertNTZ(&lt;fecha+hora&gt;)</td>
+<td>Converts timestamp NTZ (timestamp without timezone) into TZ (timestamp with timezone) applying defined session TZ</td>
+<td>ConvertNTZ(&lt;date+time&gt;)</td>
 </tr>
 <tr>
 <td><strong>DateCmp</strong></td>
-<td>Compara dos fechas</td>
-<td>DateCmp(&lt;fecha&gt;, &lt;fecha&gt;)</td>
+<td>Compares two dates</td>
+<td>DateCmp(&lt;date&gt;, &lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>DateOnly</strong></td>
-<td>Devuelve solo la fecha (con hora 00:00)</td>
-<td>DateOnly(&lt;fecha&gt;)</td>
+<td>Returns the date only (with time at 00:00)</td>
+<td>DateOnly(&lt;date&gt;)</td>
 </tr>
 <tr>
-<td><strong>Día</strong></td>
-<td>Devuelve el número que representa el día de la fecha</td>
-<td>Day(&lt;fecha&gt;)</td>
+<td><strong>Day</strong></td>
+<td>Returns the number representing the day of the date</td>
+<td>Day(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>DayOfYear</strong></td>
-<td>Devuelve el número de día del año de la fecha</td>
-<td>DayOfYear(&lt;fecha&gt;)</td>
+<td>Returns the number of the day in the year of the date</td>
+<td>DayOfYear(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>DaysAgo</strong></td>
-<td>Devuelve la fecha correspondiente a la fecha actual menos n días</td>
-<td>DaysAgo(&lt;número&gt;)</td>
+<td>Returns the date corresponding to the current date minus n days</td>
+<td>DaysAgo(&lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>DaysAgoInt</strong></td>
-<td>Devuelve la fecha (entero aaaammdd) correspondiente a la fecha actual menos n días</td>
-<td>DaysAgoInt(&lt;número&gt;)</td>
+<td>Returns the date (integer yyyymmdd) corresponding to the current date minus n days</td>
+<td>DaysAgoInt(&lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>DaysDiff</strong></td>
-<td>Devuelve el número de días entre dos fechas</td>
-<td>DaysDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)</td>
+<td>Returns the number of days between two dates</td>
+<td>DaysDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
 </tr>
 <tr>
 <td><strong>DaysOld</strong></td>
-<td>Devuelve la edad en días de una fecha</td>
-<td>DaysOld(&lt;fecha&gt;)</td>
+<td>Returns the age in days of a date</td>
+<td>DaysOld(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>GetDate</strong></td>
-<td>Devuelve la fecha actual del sistema del servidor</td>
+<td>Returns the current system date of the server</td>
 <td>GetDate()</td>
 </tr>
 <tr>
-<td><strong>Hora</strong></td>
-<td>Devuelve la hora de la fecha</td>
-<td>Hour(&lt;fecha&gt;)</td>
+<td><strong>Hour</strong></td>
+<td>Returns the hour of the date</td>
+<td>Hour(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>HoursDiff</strong></td>
-<td>Devuelve la cantidad de horas entre dos fechas</td>
-<td>HoursDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)</td>
+<td>Returns the number of hours between two dates</td>
+<td>HoursDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
 </tr>
 <tr>
-<td><strong>Minuto</strong></td>
-<td>Devuelve los minutos de la fecha</td>
-<td>Minute(&lt;fecha&gt;)</td>
+<td><strong>Minute</strong></td>
+<td>Returns the minutes of the date</td>
+<td>Minute(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>MinutesDiff</strong></td>
-<td>Devuelve el número de minutos entre dos fechas</td>
-<td>MinutesDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)</td>
+<td>Returns the number of minutes between two dates</td>
+<td>MinutesDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
 </tr>
 <tr>
-<td><strong>Mes</strong></td>
-<td>Devuelve el número que representa el mes de la fecha</td>
-<td>Month(&lt;fecha&gt;)</td>
+<td><strong>Month</strong></td>
+<td>Returns the number representing the month of the date</td>
+<td>Month(&lt;date&gt;)</td>
 </tr>
 <tr>
-<td><strong>Meses atrás</strong></td>
-<td>Devuelve la fecha correspondiente a la fecha actual menos n meses</td>
-<td>MonthsAgo(&lt;número&gt;)</td>
+<td><strong>MonthsAgo</strong></td>
+<td>Returns the date corresponding to the current date minus n months</td>
+<td>MonthsAgo(&lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>MonthsDiff</strong></td>
-<td>Devuelve el número de meses entre dos fechas</td>
-<td>MonthsDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)</td>
+<td>Returns the number of months between two dates</td>
+<td>MonthsDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
 </tr>
 <tr>
 <td><strong>MonthsOld</strong></td>
-<td>Devuelve la edad en meses de una fecha</td>
-<td>MonthsOld(&lt;fecha&gt;)</td>
+<td>Returns the age in months of a date</td>
+<td>MonthsOld(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>Oldest</strong></td>
-<td>Devuelve la fecha más antigua de un intervalo</td>
-<td>Oldest(&lt;fecha, fecha&gt;)</td>
+<td>Returns the oldest date in a range</td>
+<td>Oldest(&lt;date, date&gt;)</td>
 </tr>
 <tr>
-<td><strong>Segundo</strong></td>
-<td>Devuelve los segundos de la fecha</td>
-<td>Second(&lt;fecha&gt;)</td>
+<td><strong>Second</strong></td>
+<td>Returns the seconds of the date</td>
+<td>Second(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>SecondsDiff</strong></td>
-<td>Devuelve el número de segundos entre dos fechas</td>
-<td>SecondsDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)</td>
+<td>Returns the number of seconds between two dates</td>
+<td>SecondsDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubDays</strong></td>
-<td>Resta un número de días desde una fecha</td>
-<td>SubDays(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Subtracts a number of days from a date</td>
+<td>SubDays(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubHours</strong></td>
-<td>Resta un número de horas desde una fecha</td>
-<td>SubHours(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Subtracts a number of hours from a date</td>
+<td>SubHours(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubMinutes</strong></td>
-<td>Resta un número de minutos desde una fecha</td>
-<td>SubMinutes(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Subtracts a number of minutes from a date</td>
+<td>SubMinutes(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubMonths</strong></td>
-<td>Resta un número de meses desde una fecha</td>
-<td>SubMonths(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Subtracts a number of months from a date</td>
+<td>SubMonths(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
-<td><strong>Subsegundos</strong></td>
-<td>Resta un número de segundos desde una fecha</td>
-<td>SubSeconds(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td><strong>SubSeconds</strong></td>
+<td>Subtracts a number of seconds from a date</td>
+<td>SubSeconds(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubYears</strong></td>
-<td>Resta un número de años desde una fecha</td>
-<td>SubYears(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Subtracts a number of years from a date</td>
+<td>SubYears(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToDate</strong></td>
-<td>Convierte una fecha y hora como fecha</td>
-<td>ToDate(&lt;fecha + hora&gt;)</td>
+<td>Converts a date + time as a date</td>
+<td>ToDate(&lt;date + time&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToDateTime</strong></td>
-<td>Convierte una cadena en una fecha + hora</td>
-<td>ToDateTime(&lt;cadena&gt;)</td>
+<td>Converts a string to a date + time</td>
+<td>ToDateTime(&lt;string&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToTimestamp</strong></td>
-<td>Convierte una cadena en una marca de tiempo</td>
-<td>ToTimestamp(&lt;cadena&gt;)</td>
+<td>Converts a string to a timestamp</td>
+<td>ToTimestamp(&lt;string&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToTimeZone</strong></td>
-<td>Convierte una fecha y hora en una zona horaria</td>
-<td>ToTimeZone(&lt;fecha&gt;, &lt;zona horaria&gt;)</td>
+<td>Converts a date + time to a time zone</td>
+<td>ToTimeZone(&lt;date&gt;, &lt;time zone&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncDate</strong></td>
-<td>Redondea una fecha y hora al segundo más cercano</td>
+<td>Rounds a date + time to the nearest second</td>
 <td>TruncDate(@lastModified, &lt;number of seconds&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncDateTZ</strong></td>
-<td>Redondea una fecha y hora con una precisión determinada expresada en segundos</td>
-<td>TruncDateTZ(&lt;fecha&gt;, &lt;número de segundos&gt;, &lt;zona horaria&gt;)</td>
+<td>Rounds a date + time to a given precision expressed in seconds</td>
+<td>TruncDateTZ(&lt;date&gt;, &lt;number of seconds&gt;, &lt;time zone&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncQuarter</strong></td>
-<td>Redondea una fecha al trimestre</td>
-<td>TruncQuarter(&lt;fecha&gt;)</td>
+<td>Rounds a date off to the quarter</td>
+<td>TruncQuarter(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncTime</strong></td>
-<td>Redondea la parte de tiempo hacia arriba hasta el segundo más cercano</td>
-<td>TruncTime(&lt;fecha&gt;, &lt;número de segundos&gt;)</td>
+<td>Rounds the time part up to the nearest second</td>
+<td>TruncTime(&lt;date&gt;, &lt;number of seconds&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncWeek</strong></td>
-<td>Redondea una fecha a la semana</td>
-<td>TruncWeek(&lt;fecha&gt;)</td>
+<td>Rounds a date off to the week</td>
+<td>TruncWeek(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncYear</strong></td>
-<td>Redondea una fecha y hora al 1 de enero del año</td>
-<td>TruncYear(&lt;fecha&gt;)</td>
+<td>Rounds a date + time to January 1st of the year</td>
+<td>TruncYear(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>WeekDay</strong></td>
-<td>Devuelve un número que representa el día de la semana de la fecha (0=lunes, 6=domingo)</td>
-<td>WeekDay(&lt;fecha&gt;)</td>
+<td>Returns a number representing the day in the week of the date (0=Monday, 6=Sunday)</td>
+<td>WeekDay(&lt;date&gt;)</td>
 </tr>
 <tr>
-<td><strong>Año</strong></td>
-<td>Devuelve el número que representa el año de la fecha</td>
-<td>Year(&lt;fecha&gt;)</td>
+<td><strong>Year</strong></td>
+<td>Returns the number representing the year of the date</td>
+<td>Year(&lt;date&gt;)</td>
 </tr>
 <tr>
-<td><strong>AñoYMes</strong></td>
-<td>Devuelve el número que representa el año y el mes de la fecha</td>
-<td>YearAndMonth(&lt;fecha&gt;)</td>
+<td><strong>YearAndMonth</strong></td>
+<td>Returns the number representing the year and month of the date</td>
+<td>YearAndMonth(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>YearsAgo</strong></td>
-<td>Devuelve el número de años entre una fecha determinada y la fecha actual</td>
-<td>YearsAgo(&lt;fecha&gt;)</td>
+<td>Returns the number of years between a given date and the current date</td>
+<td>YearsAgo(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>YearsDiff</strong></td>
-<td>Devuelve el número de años entre dos fechas</td>
-<td>YearsDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)</td>
+<td>Returns the number of years between two dates</td>
+<td>YearsDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
 </tr>
 <tr>
 <td><strong>YearsOld</strong></td>
-<td>Devuelve la edad en años de una fecha</td>
-<td>YearsOld(&lt;fecha&gt;)</td>
+<td>Returns the age in years of a date</td>
+<td>YearsOld(&lt;date&gt;)</td>
 </tr>
 </tbody>
 </table>
 
 >[!NOTE]
 >
->Tenga en cuenta que la función **DateOnly** tiene en cuenta la zona horaria del servidor, no la del operador.
+>Note that the **DateOnly** function takes into account the server's timezone, not the operator's.
 
 
 ### Geomarketing
 
-Las funciones de geomarketing se utilizan para manipular los valores geográficos.
+The geomarketing functions are used to manipulate geographical values. 
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Nombre</strong><br /> </td> 
-   <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
-   <td> Devuelve la distancia entre dos puntos definidos por su longitud y latitud, expresada en grados<br /> </td> 
+   <td> Returns the distance between two points defined by their longitude and latitude, expressed in degrees.<br /> </td> 
    <td> Distance(&lt;Longitude A&gt;, &lt;Latitude A&gt;, &lt;Longitude B&gt;, &lt;Latitude B&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
 
-### Numérico
+### Numeric
 
-Las funciones numéricas se utilizan para convertir texto en números.
+The numeric functions are used to convert text to numbers. 
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Nombre</strong><br /> </td> 
-   <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Abs</strong><br /> </td> 
-   <td> Devuelve el valor absoluto de un número<br /> </td> 
-   <td> Abs(&lt;número&gt;)<br /> </td>  
+   <td> Returns the absolute value of a number<br /> </td> 
+   <td> Abs(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Ceil</strong><br /> </td> 
-   <td> Devuelve el menor entero que sea mayor o igual que un número<br /> </td> 
-   <td> Ceil(&lt;número&gt;)<br /> </td>  
+   <td> Returns the lowest integer greater than or equal to a number<br /> </td> 
+   <td> Ceil(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> Devuelve el mayor entero que sea mayor o igual que un número<br /> </td> 
+   <td> Returns the greatest integer greater than or equal to a number<br /> </td> 
    <td> Floor(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Greatest</strong><br /> </td> 
-   <td> Devuelve el número mayor de dos números<br /> </td> 
-   <td> Greatest(&lt;número 1&gt;, &lt;número 2&gt;)<br /> </td>  
+   <td> Returns the greater of two numbers<br /> </td> 
+   <td> Greatest(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Least</strong><br /> </td> 
-   <td> Devuelve el número menor de dos números<br /> </td> 
-   <td> Least(&lt;número 1&gt;, &lt;número 2&gt;)<br /> </td>  
+   <td> Returns the smaller of two numbers<br /> </td> 
+   <td> Least(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
-   <td> Devuelve el resto de la división del entero “n1” entre “n2”<br /> </td> 
+   <td> Returns the remainder of the integer division of n1 by n2<br /> </td> 
    <td> Mod(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Percent</strong><br /> </td> 
-   <td> Devuelve la proporción de dos números expresado como un porcentaje<br /> </td> 
-   <td> Percent(&lt;número 1&gt;, &lt;número 2&gt;)<br /> </td>  
+   <td> Returns the ratio of two numbers expressed as a percentage<br /> </td> 
+   <td> Percent(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>Aleatorio</strong><br /> </td> 
-   <td> Devuelve un valor aleatorio<br /> </td> 
-   <td> Aleatorio()<br /> </td> 
+   <td> <strong>Random</strong><br /> </td> 
+   <td> Returns the random value<br /> </td> 
+   <td> Random()<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Round</strong><br /> </td> 
-   <td> Redondea un número a “n” decimales<br /> </td> 
-   <td> Redondeo(&lt;número&gt;, &lt;número de decimales&gt;)<br /> </td>  
+   <td> Rounds off a number to n decimals<br /> </td> 
+   <td> Round(&lt;number&gt;, &lt;number of decimals&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Sign</strong><br /> </td> 
-   <td> Devuelve el signo del número<br /> </td> 
-   <td> Sign(&lt;número&gt;)<br /> </td>  
+   <td> Returns the sign of the number<br /> </td> 
+   <td> Sign(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToDouble</strong><br /> </td> 
-   <td> Convierte un entero en flotante<br /> </td> 
-   <td> ToDouble(&lt;número&gt;)<br /> </td>  
+   <td> Converts an integer to a float<br /> </td> 
+   <td> ToDouble(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToInt64</strong><br /> </td> 
-   <td> Convierte un flotante en un entero de 64 bits<br /> </td> 
-   <td> ToInt64(&lt;número&gt;)<br /> </td>  
+   <td> Converts a float to a 64 bit integer<br /> </td> 
+   <td> ToInt64(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToInteger</strong><br /> </td> 
-   <td> Convierte un flotante en un entero<br /> </td> 
-   <td> ToInteger(&lt;número&gt;)<br /> </td>  
+   <td> Converts a float to an integer<br /> </td> 
+   <td> ToInteger(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Trunc</strong><br /> </td> 
-   <td> Trunca decimales de “n1” a “n2”<br /> </td> 
+   <td> Truncates n1 to n2 decimals<br /> </td> 
    <td> Trunc(&lt;n1&gt;, &lt;n2&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
 
-### Otros
+### Others
 
-Esta tabla contiene las funciones restantes disponibles.
+This table contains the remaining functions available. 
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Nombre</strong><br /> </td> 
-   <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Cifrar la cadena proporcionada en el argumento <br /> </td> 
-   <td> AESEncrypt(&lt;valor&gt;)<br /> </td> 
+   <td> Encrypt string provided in argument<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
-   <td> Devuelve el valor 1 si la condición es verdadera. Si no es así, devuelve el valor 2.<br /> </td> 
+   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
    <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
-   <td> Elimina el indicador del valor<br /> </td> 
-   <td> ClearBit(&lt;identificador&gt;, &lt;indicador&gt;)<br /> </td>  
+   <td> Deletes the Flag in the value<br /> </td> 
+   <td> ClearBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Coalesce</strong><br /> </td> 
-   <td> Devuelve el valor 2 si el valor 1 es cero o nulo, de lo contrario devuelve el valor 1<br /> </td> 
-   <td> Coalesce(&lt;valor 1&gt;, &lt;valor 2&gt;)<br /> </td>  
+   <td> Returns value 2 if value 1 is zero or null, otherwise returns value 1<br /> </td> 
+   <td> Coalesce(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> Devuelve el valor 3 si el valor 1 = valor 2. Si no devuelve el valor 4.<br /> </td> 
-   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
-  </tr> 
-  <!--<tr> 
-   <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
-  </tr> -->
+  </tr> 
+
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
-   <td> Devuelve el valor 1 (solo puede utilizarse como parámetro de la función case)<br /> </td> 
+   <td> Returns value 1 (may only be used as a parameter of the case function)<br /> </td> 
    <td> Else(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
-   <td> Extrae el dominio de una dirección de correo electrónico<br /> </td> 
-   <td> GetEmailDomain(&lt;valor&gt;)<br /> </td>  
+   <td> Extracts the domain from an email address<br /> </td> 
+   <td> GetEmailDomain(&lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetMirrorURL</strong><br /> </td> 
-   <td> Recupera la URL del servidor de la página espejo<br /> </td> 
-   <td> GetMirrorURL(&lt;valor&gt;)<br /> </td>  
+   <td> Retrieves the URL of the mirror page server<br /> </td> 
+   <td> GetMirrorURL(&lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> Devuelve el valor 1 si la expresión es verdadera. Si no es así, devuelve el valor 2<br /> </td> 
+   <td> Returns value 1 if the expression is true. If not, returns value 2<br /> </td> 
    <td> Iif(&lt;condition&gt;, &lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>IsBitSet</strong><br /> </td> 
-   <td> Indica si el indicador se encuentra en el valor<br /> </td> 
-   <td> IsBitSet(&lt;identificador&gt;, &lt;indicador&gt;)<br /> </td>  
+   <td> Indicates whether the Flag is in the value<br /> </td> 
+   <td> IsBitSet(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
-   <td> Devuelve el valor 2 si la cadena 1 está vacía; en caso contrario, devuelve el valor 3<br /> </td> 
+   <td> Returns value 2 if string 1 is empty, otherwise returns value 3<br /> </td> 
    <td> IsEmptyString(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>NuevoUUID</strong><br /> </td> 
-   <td> Devuelve un identificador único <br /> </td> 
+   <td> <strong>NewUUID</strong><br /> </td> 
+   <td> Returns a unique ID<br /> </td> 
    <td> NewUUID()<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
-   <td> Devuelve la cadena vacía si el argumento es NULL<br /> </td> 
-   <td> NoNull(&lt;valor&gt;)<br /> </td>   
+   <td> Returns the empty string if the argument is NULL<br /> </td> 
+   <td> NoNull(&lt;value&gt;)<br /> </td>   
   </tr> 
   <tr> 
    <td> <strong>RowId</strong><br /> </td> 
-   <td> Devuelve el número de línea<br /> </td> 
+   <td> Returns the line number<br /> </td> 
    <td> RowId<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>SetBit</strong><br /> </td> 
-   <td> Fuerza la marca en el valor<br /> </td> 
-   <td> SetBit(&lt;identificador&gt;, &lt;indicador&gt;)<br /> </td>  
+   <td> Forces the Flag in the value<br /> </td> 
+   <td> SetBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToBoolean</strong><br /> </td> 
-   <td> Convierte un número en Boolean<br /> </td> 
-   <td> ToBoolean(&lt;número&gt;)<br /> </td>   
+   <td> Converts a number into a Boolean<br /> </td> 
+   <td> ToBoolean(&lt;number&gt;)<br /> </td>   
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> Devuelve el valor 1 si la expresión es verdadera. Si no es así, devuelve el valor 2 (solo puede utilizarse como parámetro de la función case)<br /> </td> 
+   <td> Returns value 1 if the expression is true. If not, it returns value 2 (may only be used as a parameter of the case function)<br /> </td> 
    <td> When(&lt;condition&gt;, &lt;value 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
 
-### Cadena
+### String
 
-Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
+The string functions are used to manipulate a set of strings.
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Nombre</strong><br /> </td> 
-   <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
-   <td> Indica si todos los parámetros no son nulos y no están vacíos.<br /> </td> 
+   <td> Indicates if all parameters are non-null and not empty<br /> </td> 
    <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
-   <td> Indica si todos los parámetros no son nulos y no están vacíos.<br /> </td> 
+   <td> Indicates if all parameters are non-null and not empty<br /> </td> 
    <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ascii</strong><br /> </td> 
-   <td> Devuelve el valor ASCII del primer carácter de la cadena.<br /> </td> 
+   <td> Returns the ASCII value of the first character in the string.<br /> </td> 
    <td> Ascii(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
-   <td> Devuelve el carácter correspondiente al código ASCII “n”.<br /> </td> 
+   <td> Returns the character corresponding to the 'n' ASCII code<br /> </td> 
    <td> Char(&lt;number&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
-   <td> Devuelve la posición de la cadena 2 en la cadena 1.<br /> </td> 
+   <td> Returns the position of string 2 in string 1.<br /> </td> 
    <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
-   <td> Devuelve el tamaño en bytes de la cadena <br /> </td> 
+   <td> Returns the size in bytes of the string<br /> </td> 
    <td> dataLength(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
-   <td> Muestra la línea nth (de 1 a n) de la cadena.<br /> </td> 
+   <td> Returns the nth (from 1 to n) line of the string<br /> </td> 
    <td> GetLine(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
-   <td> Devuelve el tercer parámetro si los dos primeros parámetros son iguales. Si no es así, devuelve el último parámetro<br /> </td> 
+   <td> Returns the third parameter if the first two parameters are equal. If not, returns the last parameter<br /> </td> 
    <td> IfEquals(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IsMemoNull</strong><br /> </td> 
-   <td> Indica si la nota transferida como parámetro es nula<br /> </td> 
+   <td> Indicates if the memo passed as a parameter is null<br /> </td> 
    <td> IsMemoNull(&lt;memo&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> Concatena las cadenas transferidas como parámetros. Añade espacios entre las cadenas si es necesario.<br /> </td> 
+   <td> Concatenates the strings passed as parameters. Adds spaces between the strings if necessary.<br /> </td> 
    <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> Concatena las cadenas transferidas como parámetros. Añade espacios entre las cadenas si es necesario<br /> </td> 
+   <td> Concatenates the strings passed as parameters. Adds spaces between the strings if necessary<br /> </td> 
    <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
-   <td> Devuelve los primeros “n” caracteres de la cadena<br /> </td> 
+   <td> Returns the first n characters of the string<br /> </td> 
    <td> Left(&lt;string&gt;, &lt;number&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
-   <td> Devuelve la longitud de la cadena<br /> </td> 
+   <td> Returns the length of the string<br /> </td> 
    <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Línea</strong><br /> </td> 
-   <td> Extraer línea n de la cadena <br /> </td> 
+   <td> <strong>Line</strong><br /> </td> 
+   <td> Extract line n from string<br /> </td> 
    <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
-   <td> Devuelve la cadena en minúscula<br /> </td> 
-   <td> Lower(&lt;cadena&gt;)<br /></td> 
+   <td> Returns the string in lowercase<br /> </td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
-   <td> Devuelve la cadena completa a la izquierda<br /> </td> 
-   <td> LPad (&lt;Cadena&gt;, &lt;Número&gt;, &lt;Carácter&gt;)<br /></td> 
+   <td> Returns the completed string on the left<br /> </td> 
+   <td> LPad (&lt;String&gt;, &lt;Number&gt;, &lt;Char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
-   <td> Elimina los espacios a la izquierda de la cadena<br /> </td> 
+   <td> Removes spaces to the left of the string<br /> </td> 
    <td> Ltrim(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
-   <td> Devuelve una representación hexadecimal de la clave MD5 de una cadena<br /> </td> 
+   <td> Returns an hexadecimal representation of the MD5 key of a string<br /> </td> 
    <td> Md5Digest(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
-   <td> Especifica si la nota contiene la cadena transferida como parámetro<br /> </td> 
-   <td> MemoContains(&lt;memo&gt;, &lt;cadena&gt;)<br /></td> 
+   <td> Specifies whether the memo contains the string passed as a parameter<br /> </td> 
+   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>ValorNodo</strong><br /> </td> 
-   <td> Extrae el valor de un campo XML de su XPath y de los datos de campo <br /> </td> 
+   <td> <strong>NodeValue</strong><br /> </td> 
+   <td> Extracts the value of an XML field from its XPath and the field data<br /> </td> 
    <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> Reemplaza todas las apariciones de un valor de cadena especificado por otro valor de cadena.<br /> </td> 
-   <td> Replace(&lt;cadena&gt;,&lt;cadena&gt;,&lt;cadena&gt;)<br /></td> 
+   <td> Replaces all occurrences of a specified string value with another string value.<br /> </td> 
+   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
-   <td> Devuelve los últimos “n” caracteres de la cadena<br /> </td> 
-   <td> Right(&lt;cadena&gt;)<br /> </td> 
+   <td> Returns the last n characters of the string<br /> </td> 
+   <td> Right(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
-   <td> Devuelve la cadena completa a la derecha<br /> </td> 
-   <td> RPad(&lt;cadena&gt;, &lt;número&gt;, &lt;carácter&gt;)<br /></td> 
+   <td> Returns the completed string on the right<br /> </td> 
+   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
-   <td> Elimina los espacios a la derecha de la cadena<br /> </td> 
-   <td> Rtrim(&lt;cadena&gt;)<br /> </td> 
+   <td> Removes spaces to the right of the string<br /> </td> 
+   <td> Rtrim(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
-   <td> Representación hexadecimal de la clave SHA256 de una cadena.<br /> </td> 
-   <td> Sha256Digest (&lt;cadena&gt;)<br /> </td> 
+   <td> Hexadecimal representation of the SHA256 key of a string.<br /> </td> 
+   <td> Sha256Digest (&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
-   <td> Representación hexadecimal de la clave SHA512 de una cadena.<br /> </td> 
-   <td> Sha512Digest (&lt;cadena&gt;)<br /> </td> 
+   <td> Hexadecimal representation of the SHA512 key of a string.<br /> </td> 
+   <td> Sha512Digest (&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
-   <td> Devuelve la cadena con la primera letra de cada palabra en mayúscula<br /> </td> 
-   <td> Smart(&lt;cadena&gt;)<br /> </td> 
+   <td> Returns the string with the first letter of each word in capitals<br /> </td> 
+   <td> Smart(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
-   <td> Extrae la subcadena que comienza en el carácter “n1” de la cadena y de longitud “n2”<br /> </td> 
+   <td> Extracts the substring starting at character n1 of the string and of length n2<br /> </td> 
    <td> Substring(&lt;string&gt;, &lt;offset&gt;, &lt;length&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
-   <td> Convierte el número en una cadena<br /> </td> 
+   <td> Converts the number to a string<br /> </td> 
    <td> ToString(&lt;number&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
-   <td> Devuelve la cadena en mayúsculas<br /> </td> 
-   <td> Upper(&lt;cadena&gt;)<br /> </td>  
+   <td> Returns the string in capitals<br /> </td> 
+   <td> Upper(&lt;string&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>VirtualLink</strong><br /> </td> 
-   <td> Devuelve la clave externa de un vínculo transferido como parámetro si los otros dos parámetros son iguales<br /> </td> 
-   <td> VirtualLink(&lt;número&gt;, &lt;número&gt;, &lt;número&gt;)<br /> </td>  
+   <td> Returns the foreign key of a link passed as a parameter if the other two parameters are equal<br /> </td> 
+   <td> VirtualLink(&lt;number&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>VirtualLinkStr</strong><br /> </td> 
-   <td> Devuelve la clave externa (texto) de un enlace transferido como parámetro si los otros dos parámetros son iguales<br /> </td> 
-   <td> VirtualLinkStr(&lt;cadena&gt;, &lt;número&gt;, &lt;número&gt;)<br /> </td>  
+   <td> Returns the foreign (text) key of a link passed as a parameter if the other two parameters are equal<br /> </td> 
+   <td> VirtualLinkStr(&lt;string&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
 
-### Ventana
+### Window
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Nombre</strong><br /> </td> 
-   <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
-   <td> Ejecute la llamada a la función SQL introducida como primer parámetro, sobre Partición u Ordenar por los campos introducidos como segundo parámetro<br /> </td> 
-   <td> _Over_ (&lt;Valor&gt;, &lt;Valor&gt;)<br /> </td>  
+   <td> Execute the SQL function call entered as 1st parameter, over Partition or Order By the fields entered as 2nd parameter<br /> </td> 
+   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
-   <td> Aplica un orden descendente<br /> </td> 
-   <td> Desc(&lt;valor 1&gt;)<br /> </td>  
+   <td> Applies a descending sort<br /> </td> 
+   <td> Desc(&lt;value 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>OrderBy</strong><br /> </td> 
-   <td> Ordena el resultado dentro de la partición<br /> </td> 
-   <td> OrderBy(&lt;valor 1&gt;)<br /> </td>  
+   <td> Sorts the result within the partition<br /> </td> 
+   <td> OrderBy(&lt;value 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>PartitionBy</strong><br /> </td> 
-   <td> Particiona el resultado de una consulta en una tabla<br /> </td> 
-   <td> PartitionBy(&lt;valor 1&gt;)<br /> </td>  
+   <td> Partitions the result of a query on a table<br /> </td> 
+   <td> PartitionBy(&lt;value 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
-   <td> Genera un número de línea basado en la partición de tabla y en una secuencia de ordenación.<br /> </td> 
+   <td> Generates a line number based on the table partition and on a sorting sequence.<br /> </td> 
    <td> RowNum(PartitionBy(&lt;value 1&gt;), OrderBy(&lt;value 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 
 </table>
+-->
