@@ -41,14 +41,14 @@ Documentación en curso
 
 
 
----
+&#x200B;---
 audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Descubra cómo crear su primera consulta en el modelador de consultas web de Adobe Campaign.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 ---
 
-# Editar expresiones {#expression}
+&#x200B;# Editar expresiones {#expression}
 
 La edición de una expresión implica la introducción manual de condiciones para formar una regla. Este modo permite utilizar funciones avanzadas, que permiten manipular los valores utilizados para llevar a cabo consultas específicas, como la manipulación de fechas, cadenas, campos numéricos y ordenación.
 
@@ -59,7 +59,7 @@ La edición de una expresión implica la introducción manual de condiciones par
 >[!IMPORTANT]
 >
 >Hay disponible una nueva interfaz para el modelador de consultas. Para cambiar a esta nueva experiencia del generador de reglas, presione el botón de alternancia en la esquina superior derecha. Puede volver al modelador de consultas clásico en cualquier momento simplemente pulsando la tecla de retroceso para desactivar la nueva interfaz. Puede aplicar los mismos principios que el modelador de consultas en esta nueva interfaz.
->>![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
+>&#x200B;>![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Trabajo con el editor de expresiones {#edit}
 
