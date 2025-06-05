@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 8418b0c9251e090575671acb65f83bee911cd039
+source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 20%
 
 ---
@@ -42,13 +42,16 @@ Para crear una regla de decisión, siga estos pasos:
 
 1. Se abre la pantalla de creación de reglas de decisión. Especifique un nombre para la regla y una descripción.
 
-1. Cree la regla de decisión que se adapte a sus necesidades con el Generador de segmentos de Adobe Experience Platform. Para ello, puede aprovechar varias fuentes de datos, como atributos de perfil, audiencias o datos de contexto procedentes de Adobe Experience Platform. [Aprenda a aprovechar los datos de contexto](#context-data)
+1. Cree la regla de decisión que se adapte a sus necesidades con el Generador de segmentos de Adobe Experience Platform. Para ello, puede aprovechar varias fuentes de datos, como:
+   * Atributos de perfil y elemento de decisión,
+   * Audiencias,
+   * Datos de contexto procedentes de Adobe Experience Platform. [Aprenda a aprovechar los datos de contexto](#context-data)
 
    ![](assets/decision-rules-build.png)
 
    >[!NOTE]
    >
-   >El Generador de segmentos que se proporciona para crear reglas de decisión presenta algunas particularidades en comparación con el que se utiliza con el servicio de segmentación de Adobe Experience Platform.  Sin embargo, el proceso global descrito en la documentación sigue siendo válido para generar reglas de decisiones. [Obtenga información sobre cómo generar definiciones de segmentos](../audience/creating-a-segment-definition.md)
+   >El Generador de segmentos que se proporciona para crear reglas de decisión presenta algunas particularidades en comparación con el que se utiliza con el servicio de segmentación de Adobe Experience Platform. Sin embargo, el proceso global descrito en la documentación sigue siendo válido para generar reglas de decisiones. [Obtenga información sobre cómo generar definiciones de segmentos](../audience/creating-a-segment-definition.md)
 
 1. A medida que agrega y configura nuevos campos en el área de trabajo, el panel **[!UICONTROL Propiedades de la audiencia]** muestra información sobre los perfiles estimados que pertenecen a la audiencia. Haga clic en **[!UICONTROL Actualizar estimación]** para actualizar los datos.
 
