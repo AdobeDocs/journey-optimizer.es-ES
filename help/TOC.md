@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
+source-git-commit: 5200004e027116416355a5374980edc224ec8ebb
 workflow-type: tm+mt
-source-wordcount: '2417'
+source-wordcount: '2420'
 ht-degree: 96%
 
 ---
@@ -182,6 +182,7 @@ ht-degree: 96%
    + [Pasos clave para la creación de campañas orquestadas](using/orchestrated/gs-campaign-creation.md)
    + Inicie su primera campaña orquestada{#launch}
       + [Creación de una campaña organizada](using/orchestrated/create-orchestrated-campaign.md)
+      + [Configuración de campañas organizadas](using/orchestrated/orchestrated-campaign-settings.md)
       + [Organización de actividades](using/orchestrated/orchestrate-activities.md)
       + [Envío de mensajes con campañas organizadas](using/orchestrated/send-messages.md)
       + [Inicio y monitorización de la campaña](using/orchestrated/start-monitor-campaigns.md)
