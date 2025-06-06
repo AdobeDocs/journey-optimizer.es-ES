@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
+source-git-commit: c34aa14f34759e9094df2eead1c784c0c23da356
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '743'
 ht-degree: 8%
 
 ---
@@ -90,7 +90,7 @@ Para cada actividad, puede comprobar lo siguiente:
 
 * **[!UICONTROL Ingresado]**: Cantidad total de personas que ingresaron a esta actividad.
 * **[!UICONTROL Salidas (se cumplen los criterios de salida)]**: Número total de personas que salieron del recorrido de esa actividad debido a un criterio de salida.
-* **[!UICONTROL Salida forzada]**: Número total de personas que salieron cuando se detuvo el recorrido.
+* **[!UICONTROL Salida forzada]**: Número total de personas que salieron cuando se detuvo el recorrido. Esta métrica siempre es igual a cero para los recorridos en el modo de ejecución en seco.
 * **[!UICONTROL Error]**: Número total de personas que tuvieron un error en esa actividad.
 
 
