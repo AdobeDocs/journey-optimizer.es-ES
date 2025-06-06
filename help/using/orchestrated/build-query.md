@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 450f83eb53068df10a63d39d1a43483ad3c7e803
+source-git-commit: 04a21534d91e4fcfa550af50450ea241c9b1235c
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1798'
 ht-degree: 8%
 
 ---
@@ -44,6 +44,8 @@ Para agregar condiciones en la consulta, siga estos pasos:
 
    También puede iniciar la consulta utilizando un filtro predefinido. Para ello, haga clic en el botón **[!UICONTROL Seleccionar o guardar filtro]** y elija **[!UICONTROL Seleccionar filtro predefinido]**.
 
+   ![imagen que muestra el generador de reglas](assets/rule-builder-add.png)
+
 1. Identifique el atributo de la base de datos para utilizarlo como criterio para la condición. El icono &quot;i&quot; junto a un atributo proporciona información sobre la tabla donde se almacena y su tipo de datos.
 
    ![imagen que muestra la selección de un atributo](assets/rule-builder-select-attribute.png)
@@ -76,13 +78,11 @@ Para agregar condiciones en la consulta, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Confirmar]** para agregar el atributo seleccionado a la condición.
 
-1. Se muestra un panel de propiedades, donde puede configurar los valores deseados para el atributo.
+1. Se muestra un panel de propiedades, donde puede configurar el valor deseado para el atributo.
 
    ![imagen que muestra el generador de reglas con una condición agregada](assets/rule-builder-condition.png)
 
-1. Seleccione el **[!UICONTROL Operador]** que se aplicará en la lista desplegable.
-
-   Hay varios operadores disponibles. Los operadores disponibles en la lista desplegable dependen del tipo de datos del atributo.
+1. Seleccione el **[!UICONTROL Operador]** que se aplicará en la lista desplegable. Hay varios operadores disponibles. Los operadores disponibles en la lista desplegable dependen del tipo de datos del atributo.
 
    +++Lista de operadores disponibles
 
@@ -105,7 +105,7 @@ Para agregar condiciones en la consulta, siga estos pasos:
    | Como | De forma similar al operador Contains, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) como &quot;Jon%s&quot;. El carácter comodín actúa como un &quot;joker&quot; para encontrar nombres como &quot;Jones&quot;. |
    | Not like | De forma similar al operador Contains, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) como &quot;Smi%h&quot;. Los destinatarios cuyo apellido sea &quot;Smith&quot; no se devolverán. |
 
-   +++
++++
 
 1. En el campo **Value**, defina el valor esperado. También puede utilizar el editor de expresiones para definir manualmente una expresión utilizando los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en la imagen ![que muestra el icono del editor de expresiones](assets/do-not-localize/rule-builder-icon-editor.svg). [Obtenga información sobre cómo editar expresiones](../orchestrated/edit-expressions.md)
 
@@ -115,7 +115,7 @@ Para agregar condiciones en la consulta, siga estos pasos:
 
    ![imagen que muestra la opción de ajuste preestablecido](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### Condiciones personalizadas en las tablas vinculadas (vínculos 1-1 y 1-N){#links}
 
@@ -220,8 +220,10 @@ Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel
 * **Calcular**: actualiza y muestra el número de registros dirigidos por la regla.
 * **Seleccione o guarde el filtro**: elija un filtro predefinido existente para utilizarlo en el lienzo o guarde la consulta como un filtro predefinido para reutilizarlo en el futuro.
 
-  >[!IMPORTANT]
-  >
-  >Seleccione un filtro predefinido en el panel de propiedades de la regla para reemplazar la regla que se ha creado en el lienzo con el filtro seleccionado.
+<br/>
+
+    >[!IMPORTANT]
+    >
+    >Seleccione un filtro predefinido en el panel Propiedades de regla para reemplazar la regla que se ha creado en el lienzo por el filtro seleccionado.
 
 Cuando la regla esté lista, haga clic en el botón **[!UICONTROL Confirmar]** de para guardarla.
