@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: d2d9847347a41579e5f66d331b6769efa0ef5b21
+source-git-commit: d015c386e4f2b1a15bf97ab444a368ee39ae5ea9
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 8%
@@ -50,7 +50,7 @@ Para agregar condiciones en la consulta, siga estos pasos:
 
    >[!NOTE]
    >
-   >El botón **Editar expresión** le permite utilizar el editor de expresiones para definir manualmente una expresión con campos de la base de datos y funciones de ayuda. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
+   >El botón **Editar expresión** le permite utilizar el editor de expresiones para definir manualmente una expresión con campos de la base de datos y funciones de ayuda. [Obtenga información sobre cómo editar expresiones](../orchestrated/edit-expressions.md)
 
 1. Haga clic en la imagen ![que muestra el botón Más acciones](assets/do-not-localize/rule-builder-icon-more.svg) junto a un atributo para acceder a estas opciones adicionales:
 
@@ -105,9 +105,9 @@ Para agregar condiciones en la consulta, siga estos pasos:
    | Como | De forma similar al operador Contains, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) como &quot;Jon%s&quot;. El carácter comodín actúa como un &quot;joker&quot; para encontrar nombres como &quot;Jones&quot;. |
    | Not like | De forma similar al operador Contains, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) como &quot;Smi%h&quot;. Los destinatarios cuyo apellido sea &quot;Smith&quot; no se devolverán. |
 
-   +++
++++
 
-1. En el campo **Value**, defina el valor esperado. También puede utilizar el editor de expresiones para definir manualmente una expresión utilizando los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en la imagen ![que muestra el icono del editor de expresiones](assets/do-not-localize/rule-builder-icon-editor.svg). [Obtenga información sobre cómo editar expresiones](expression-editor.md)
+1. En el campo **Value**, defina el valor esperado. También puede utilizar el editor de expresiones para definir manualmente una expresión utilizando los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en la imagen ![que muestra el icono del editor de expresiones](assets/do-not-localize/rule-builder-icon-editor.svg). [Obtenga información sobre cómo editar expresiones](../orchestrated/edit-expressions.md)
 
    Para los atributos de tipo fecha, hay valores predefinidos disponibles mediante la opción **[!UICONTROL Ajustes preestablecidos]**.
 
@@ -115,7 +115,7 @@ Para agregar condiciones en la consulta, siga estos pasos:
 
    ![imagen que muestra la opción de ajuste preestablecido](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### Condiciones personalizadas en las tablas vinculadas (vínculos 1-1 y 1-N){#links}
 
