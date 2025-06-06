@@ -2,18 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Pausar un recorrido
-description: Obtenga información sobre cómo pausar/reanudar un recorrido
+description: Aprenda a pausar y reanudar un recorrido en directo
 feature: Journeys
-topic: Content Management
 role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
+source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '704'
 ht-degree: 3%
 
 ---

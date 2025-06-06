@@ -4,7 +4,6 @@ product: journey optimizer
 title: Recorrido Dry run
 description: Obtenga información sobre cómo publicar un recorrido en el modo de ejecución en seco
 feature: Journeys
-topic: Content Management
 role: User
 level: Intermediate
 hide: true
@@ -12,7 +11,7 @@ hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: c34aa14f34759e9094df2eead1c784c0c23da356
+source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 8%
