@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 7845b9823ca86014e74ce2a48483b645f672850a
+source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '730'
 ht-degree: 8%
 
 ---
@@ -70,7 +70,7 @@ Durante la ejecución en seco, el recorrido se ejecuta con las siguientes especi
 * **Los nodos de acción del canal** con notificaciones push, SMS o por correo electrónico no se ejecutan.
 * **Las acciones personalizadas** se deshabilitaron durante la ejecución en seco y sus respuestas se establecieron en null.
 * **Los nodos de espera** se omiten durante la ejecución en seco.
-Puede anular los tiempos de espera de bloque. Si la duración de los bloques de espera es mayor que la permitida para el recorrido de ejecución en seco, la rama no se ejecutará por completo.
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
 * **Las fuentes de datos externas** se ejecutan de forma predeterminada.
 
 >[!NOTE]
@@ -90,7 +90,7 @@ Para cada actividad, puede comprobar lo siguiente:
 
 * **[!UICONTROL Ingresado]**: Cantidad total de personas que ingresaron a esta actividad.
 * **[!UICONTROL Salidas (se cumplen los criterios de salida)]**: Número total de personas que salieron del recorrido de esa actividad debido a un criterio de salida.
-* **[!UICONTROL Salida forzada]**: Número total de individuos que salieron.
+* **[!UICONTROL Salida forzada]**: Número total de personas que salieron cuando se detuvo el recorrido.
 * **[!UICONTROL Error]**: Número total de personas que tuvieron un error en esa actividad.
 
 
