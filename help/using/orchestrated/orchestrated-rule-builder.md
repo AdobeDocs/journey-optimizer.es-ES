@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 72bceb03a3e94b0f3c13dddb22c8d3b4de0fcb44
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '303'
 ht-degree: 4%
 
 ---
@@ -45,17 +45,7 @@ El generador de reglas proporciona un lienzo central en el que generar la consul
 
 ![Imagen que muestra la interfaz del generador de reglas](assets/rule-builder-interface.png)
 
-* En el **lienzo central** es donde se agregan y combinan los diferentes componentes para generar la regla. Una barra de herramientas proporciona opciones para manipular fácilmente los componentes de regla:
-
-  | Icono Barra de herramientas | Descripción |
-  |--- |--- |
-  | ![Icono de subir selección](assets/do-not-localize/rule-builder-icon-up.svg) | Mueva el componente una fila hacia arriba. |
-  | ![Icono de bajar selección](assets/do-not-localize/rule-builder-icon-down.svg) | Desplace el componente una fila hacia abajo. |
-  | ![Icono de selección de grupo](assets/do-not-localize/rule-builder-icon-group.svg) | Coloque dos componentes en un grupo. |
-  | ![Icono de selección de desagrupar](assets/do-not-localize/rule-builder-icon-ungroup.svg) | Separe los componentes de un solo grupo. |
-  | ![Expandir todo el icono](assets/do-not-localize/rule-builder-icon-expand.svg) | Expanda todos los grupos. |
-  | ![Contraer todos los iconos](assets/do-not-localize/rule-builder-icon-collapse.svg) | Contraer todos los grupos. |
-  | ![Quitar todos los iconos](assets/do-not-localize/rule-builder-icon-delete.svg) | Elimine todos los grupos y componentes. |
+* En el **lienzo central** es donde se agregan y combinan los diferentes componentes para generar la regla. [Más información sobre cómo generar una regla](../orchestrated/build-query.md)
 
 * El panel **[!UICONTROL Propiedades de regla]** proporciona información sobre la regla. Le permite realizar varias operaciones para comprobar la regla y asegurarse de que se adapta a sus necesidades.
 

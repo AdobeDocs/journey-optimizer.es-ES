@@ -48,4 +48,4 @@ Para ver la lista de acciones o configurar una nueva acción, seleccione **[!UIC
 
 Obtenga información sobre cómo configurar acciones personalizadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430277?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
