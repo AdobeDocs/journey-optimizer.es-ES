@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
+source-git-commit: 0abf2743f7b43b54df5305f47e3bd20d37df6f39
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 87%
+source-wordcount: '1470'
+ht-degree: 86%
 
 ---
 
@@ -72,6 +72,10 @@ ht-degree: 87%
 * **Compatibilidad con atributos de elementos de decisión para reglas de toma de decisiones**. Fecha de disponibilidad: 4 de junio de 2025
 
   Ahora puede aprovechar los atributos de elementos de decisión para crear reglas de toma de decisiones. [Más información](../experience-decisioning/rules.md#create)
+
+* **Actualización interactiva de la API de ejecución de mensajes** - Fecha de disponibilidad: 6 de junio de 2025
+
+  La API de ejecución de mensajes interactiva ahora le permite eliminar la programación de la próxima ejecución de campañas. [Más información](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
 
 ## Notas de la versión de mayo de 2025 {#25-5-rn}
 
