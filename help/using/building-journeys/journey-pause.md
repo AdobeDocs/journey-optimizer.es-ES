@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 3f00e7efd58fec09187be7d31199139b753dfcc2
+source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '705'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ Puede pausar los recorridos activos, realizar todos los cambios necesarios y rea
 
 ## Ventajas principales {#journey-dry-run-benefits}
 
-Los recorridos de pausa y reanudación proporcionan a los especialistas en marketing un mayor control y flexibilidad al permitir que los recorridos en directo se suspendan temporalmente sin interrumpir la experiencia del cliente. Cuando está en pausa, no se envían comunicaciones y los perfiles permanecen en estado suspendido hasta que se reanuda la recorrido.
+Los recorridos de pausa y reanudación proporcionan a los profesionales del recorrido un mayor control y flexibilidad al permitir que los recorridos en directo se suspendan temporalmente sin interrumpir la experiencia del cliente. Cuando está en pausa, no se envían comunicaciones y los perfiles permanecen en estado suspendido hasta que se reanuda la recorrido.
 
 Esta capacidad reduce el riesgo de enviar mensajes no deseados durante errores o actualizaciones (p. ej.: cambio en el contenido del mensaje), admite una administración más segura del recorrido y aumenta la confianza del profesional. La visibilidad de los recorridos en pausa y su estado directamente en la IU mejora aún más la transparencia y la agilidad operativa.
 
