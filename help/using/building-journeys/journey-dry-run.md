@@ -11,7 +11,7 @@ hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
+source-git-commit: 318733edf55c7a9b067f4456bda657aecdb613cf
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 8%
@@ -113,4 +113,4 @@ También puede acceder a los **informes de las últimas 24 horas** y a los **inf
 
 Los recorridos de ejecución en seco deben detenerse manualmente. Haga clic en el botón **Cerrar** para finalizar la prueba y confirmar.
 
-Después de 14 días, los recorridos de ejecución en seco pasan automáticamente al estado Borrador.
+Después de 14 días, los recorridos de ejecución en seco pasan automáticamente al estado **Borrador**.
