@@ -10,16 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 341f818d84264e3cb57563466866fdf43ebc401c
+source-git-commit: 3f00e7efd58fec09187be7d31199139b753dfcc2
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '704'
 ht-degree: 3%
 
 ---
 
 # Pausar un recorrido {#journey-pause}
 
-Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento. Un recorrido se puede pausar durante un máximo de 14 días. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
+Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
 
 
 >[!AVAILABILITY]
@@ -74,13 +74,11 @@ Para pausar el recorrido, siga estos pasos:
 
 1. Haga clic en el botón **Pausar** para confirmar.
 
-Un recorrido se puede pausar durante un máximo de 14 días.
-
 ## Cómo reanudar un recorrido pausado {#journey-resume-steps}
 
-Los recorridos en pausa se pueden reanudar manualmente en cualquier momento.
+Los recorridos en pausa se reanudan automáticamente al final del período máximo de pausa de 14 días. Se pueden reanudar manualmente en cualquier momento.
 
-Para finalizar la pausa del recorrido y comenzar a escuchar eventos de recorrido de nuevo, siga estos pasos:
+Para reanudar un recorrido en pausa y comenzar a escuchar eventos de recorrido de nuevo, siga estos pasos:
 
 1. Abra el recorrido que desea reanudar.
 1. Haga clic en el botón **...Más** de la sección superior derecha del lienzo de recorrido y seleccione **Reanudar**.
