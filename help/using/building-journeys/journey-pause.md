@@ -10,16 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
+source-git-commit: 341f818d84264e3cb57563466866fdf43ebc401c
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '711'
 ht-degree: 3%
 
 ---
 
 # Pausar un recorrido {#journey-pause}
 
-Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento. Un recorrido se puede pausar durante un máximo de 14 días. Puede elegir si el recorrido se reanuda al final del período de pausa o si se detiene por completo.
+Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento. Un recorrido se puede pausar durante un máximo de 14 días. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
 
 
 >[!AVAILABILITY]
@@ -41,16 +41,15 @@ Esta capacidad reduce el riesgo de enviar mensajes no deseados durante errores o
 
 * Una versión de recorrido se puede pausar durante un máximo de 14 días.
 * Los recorridos en pausa se consideran en todas las reglas de negocio, del mismo modo que si estuvieran activos.
-* Los perfiles se &quot;descartan&quot; en un recorrido pausado cuando llegan a una actividad de acción. Si permanecen en espera durante el tiempo en que se pone en pausa un recorrido y abandonan esa espera cuando se reanuda, continuarán con el recorrido y no se descartarán.
-* Incluso después de la pausa, a medida que los eventos se siguen procesando, estos eventos se contarán hacia una cuota de 5 ktps, después de lo cual la restricción se obtiene por unitaria.
+* Los perfiles se &quot;descartan&quot; en un recorrido pausado cuando llegan a una actividad de acción. Si permanecen en espera durante el tiempo en que se pausa un recorrido y salen después de que se haya reanudado, continuarán con el recorrido y no se descartarán.
+* Incluso después de la pausa, a medida que los eventos se siguen procesando, estos eventos se contarán hacia el número de Eventos de Recorrido por segundo de cuota, después de lo cual la restricción se obtiene por unitaria.
 * Los perfiles que habían entrado en el recorrido pero que se descartaron durante la pausa se contarían como perfiles atractivos.
 * Cuando los perfiles se mantienen en un recorrido pausado, en el momento de la reanudación se actualizan los atributos del perfil
 * Las condiciones se siguen ejecutando en recorridos pausados, por lo que si un recorrido se ha pausado debido a problemas de calidad de datos, cualquier condición anterior a un nodo de acción se puede evaluar con datos incorrectos.
 * Para el recorrido de audiencia de lectura incremental basado en audiencias, se tiene en cuenta la duración de la pausa. Por ejemplo, para un recorrido diario, si se pausó el 2 y se reanudó el 5 del mes, la ejecución del 6 tomará todos los perfiles que se hayan clasificado del 1 al 6. Este no es el caso de la calificación de audiencias o de los recorridos basados en eventos (si se recibe una calificación de audiencia o un evento durante una pausa, esos eventos se descartan).
 * Los recorridos en pausa se cuentan hacia la cuota de recorridos activos.
 * El tiempo de espera global de recorrido sigue aplicándose a los recorridos en pausa. Por ejemplo, si un perfil estuvo en un recorrido durante 90 días y el recorrido está en pausa, este perfil seguirá saliendo del recorrido el día 91.
-* Hay un nuevo estado de recorrido **Reanudando** disponible cuando se reanuda un recorrido. Empieza a escuchar eventos de recorrido de nuevo cuando hace clic en **Reanudar**.  Hay algunos retrasos en la reanudación de los perfiles en el recorrido. Cuando el recorrido pasa de **Reanudando** a **Activo**, significa que todos los perfiles se han reanudado. **Reanudar** puede llevar algún tiempo.
-* Si los perfiles se mantienen en un recorrido y este recorrido se reanuda automáticamente pasados XX días, los perfiles continúan el recorrido y no se pierden. Si desea soltarlos, debe reanudar manualmente la recorrido.
+* Si los perfiles se mantienen en un recorrido y este recorrido se reanuda automáticamente pasados unos días, los perfiles continúan con el recorrido y no se pierden. Si desea soltarlos, debe detener el recorrido.
   <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## Pausa de un recorrido {#journey-pause-steps}
@@ -70,8 +69,8 @@ Para pausar el recorrido, siga estos pasos:
 
    Puede hacer lo siguiente:
 
-   * Mantener perfiles
-   * Descartar perfiles
+   * Mantener perfiles: los perfiles esperarán a que se reanude el recorrido
+   * Descartar perfiles: los perfiles se excluirán del recorrido en el siguiente nodo de acción
 
 1. Haga clic en el botón **Pausar** para confirmar.
 
@@ -81,10 +80,12 @@ Un recorrido se puede pausar durante un máximo de 14 días.
 
 Los recorridos en pausa se pueden reanudar manualmente en cualquier momento.
 
-Para reanudar un recorrido, siga estos pasos:
+Para finalizar la pausa del recorrido y comenzar a escuchar eventos de recorrido de nuevo, siga estos pasos:
 
 1. Abra el recorrido que desea reanudar.
 1. Haga clic en el botón **...Más** de la sección superior derecha del lienzo de recorrido y seleccione **Reanudar**.
+
+   El recorrido cambia al estado **Reanudando**. La transición del estado **Reanudando** a **Activo** puede tardar un poco: todos los perfiles deben reanudarse para que el recorrido vuelva a estar **Activo**.
 
 
 
