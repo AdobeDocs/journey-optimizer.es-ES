@@ -11,10 +11,10 @@ hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 318733edf55c7a9b067f4456bda657aecdb613cf
+source-git-commit: 841c918da9c330a652dc8c6e1e4396677783a1e2
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 8%
+source-wordcount: '830'
+ht-degree: 7%
 
 ---
 
@@ -39,13 +39,39 @@ Recorrido La ejecución en seco aumenta la confianza del profesional y el éxito
 
 Con la ejecución en seco de Recorrido, obtiene la capacidad de identificar problemas de forma temprana, optimizar las estrategias de segmentación y mejorar el diseño del recorrido en función de datos reales, no de suposiciones. Integrado directamente en el lienzo del recorrido, Dry run ofrece informes intuitivos y visibilidad sobre los indicadores de rendimiento clave, lo que permite a los equipos iterar con confianza y optimizar los flujos de trabajo de aprobación. Esto mejora la eficacia operativa, reduce el riesgo de inicio y mejora los resultados de participación del cliente.
 
-En última instancia, esta función mejora el tiempo de respuesta al valor, reduce los errores de recorrido y fortalece la posición de Adobe como plataforma de confianza para organizar recorridos personalizados y de alto impacto.
+En última instancia, esta función mejora el tiempo de respuesta al valor y reduce los errores de recorrido.
 
 Recorrido Dry run trae:
 
 1. **Entorno de prueba seguro**: no se establece contacto con los perfiles en modo de ejecución en seco, lo que garantiza que no haya riesgo de enviar comunicaciones ni de afectar a los datos activos.
-1. **Información sobre la audiencia**: los especialistas en marketing pueden predecir la accesibilidad de la audiencia en varios nodos de recorrido, como exclusiones, exclusiones y otras condiciones.
+1. **Perspectivas de audiencias**: los profesionales del Recorrido pueden predecir la accesibilidad de la audiencia en varios nodos de recorrido, incluidas las exclusiones, las exclusiones y otras condiciones.
 1. **Comentarios en tiempo real**: las métricas se muestran directamente en el lienzo del recorrido, de forma similar a los informes en directo, lo que permite a los especialistas en marketing refinar el diseño del recorrido.
+
+
+>[!CAUTION]
+>
+> Los permisos para iniciar la ejecución en seco están restringidos a los usuarios con el permiso de alto nivel **[!DNL Publish journeys]**. Los permisos para iniciar la ejecución en seco están restringidos a los usuarios con el permiso de alto nivel **[!DNL Manage journeys]**. Obtenga más información acerca de la administración de los derechos de acceso de los usuarios de [!DNL Journey Optimizer] en [esta sección](../administration/permissions-overview.md).
+
+
+## Mecanismos de protección y limitaciones {#journey-dry-run-limitations}
+
+* El modo de ejecución en seco no está disponible para recorridos que contengan eventos de reacción.
+* Al crear una nueva versión de recorrido, si una versión de recorrido anterior es **Live**, la activación de ejecución en seco no está permitida en la nueva versión.
+* Recorrido La ejecución en seco genera stepEvents. Estos stepEvents tienen un indicador específico y un ID de ejecución seca:
+   * `_experience.journeyOrchestration.stepEvents.inDryRun` devuelve `true` si la ejecución en seco está activada y `false` en caso contrario
+   * `_experience.journeyOrchestration.stepEvents.dryRunID`devuelve el ID de una instancia de ejecución en seco
+* Durante la ejecución en seco, el recorrido se ejecuta con las siguientes especificidades:
+
+   * **Los nodos de acción del canal**, incluidas las notificaciones por correo electrónico, SMS o push, no se ejecutan.
+   * **Las acciones personalizadas** se deshabilitaron durante la ejecución en seco y sus respuestas se establecieron en null.
+   * **Los nodos de espera** se omiten durante la ejecución en seco.
+     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+   * **Las fuentes de datos**, incluidas las fuentes de datos externas, se ejecutan de manera predeterminada.
+
+>[!NOTE]
+>
+> * Los perfiles en el modo de ejecución en seco se cuentan como perfiles atractivos.
+> * Los recorridos de ejecución en seco no afectan a las reglas empresariales.
 
 ## Iniciar una ejecución en seco {#journey-dry-run-start}
 
@@ -62,20 +88,7 @@ Para activar la ejecución en seco, siga estos pasos:
 
    Aparece un mensaje de estado, **Activando la ejecución en seco**, mientras se produce la transición.
 
-1. Una vez activado, el recorrido entra en el modo de ejecución en seco.
-
-Durante la ejecución en seco, el recorrido se ejecuta con las siguientes especificidades:
-
-* **Los nodos de acción del canal** con notificaciones push, SMS o por correo electrónico no se ejecutan.
-* **Las acciones personalizadas** se deshabilitaron durante la ejecución en seco y sus respuestas se establecieron en null.
-* **Los nodos de espera** se omiten durante la ejecución en seco.
-  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-* **Las fuentes de datos externas** se ejecutan de forma predeterminada.
-
->[!NOTE]
->
-> * Los perfiles en el modo de ejecución en seco se cuentan como perfiles atractivos.
-> * Los recorridos de ejecución en seco no afectan a las reglas empresariales. Por ejemplo, un perfil de un recorrido de ejecución en seco no se excluirá de otros recorridos debido a reglas como `1 journey per day`.
+1. Una vez activado, el recorrido entra en modo **Ejecución en seco**.
 
 ## Monitorización de una ejecución en seco {#journey-dry-monitor}
 
@@ -89,7 +102,7 @@ Para cada actividad, puede comprobar lo siguiente:
 
 * **[!UICONTROL Ingresado]**: Cantidad total de personas que ingresaron a esta actividad.
 * **[!UICONTROL Salidas (se cumplen los criterios de salida)]**: Número total de personas que salieron del recorrido de esa actividad debido a un criterio de salida.
-* **[!UICONTROL Salida forzada]**: Número total de personas que salieron cuando se detuvo el recorrido. Esta métrica siempre es igual a cero para los recorridos en el modo de ejecución en seco.
+* **[!UICONTROL Salida forzada]**: Número total de personas que salieron del recorrido mientras estaba en pausa debido a una configuración del profesional del recorrido. Esta métrica siempre es igual a cero para los recorridos en el modo de ejecución en seco.
 * **[!UICONTROL Error]**: Número total de personas que tuvieron un error en esa actividad.
 
 
@@ -111,6 +124,6 @@ También puede acceder a los **informes de las últimas 24 horas** y a los **inf
 
 ## Detener una carrera en seco {#journey-dry-run-stop}
 
-Los recorridos de ejecución en seco deben detenerse manualmente. Haga clic en el botón **Cerrar** para finalizar la prueba y confirmar.
+Los recorridos de ejecución en seco **deben** detenerse manualmente. Haga clic en el botón **Cerrar** para finalizar la prueba y confirmar.
 
 Después de 14 días, los recorridos de ejecución en seco pasan automáticamente al estado **Borrador**.
