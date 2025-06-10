@@ -9,21 +9,22 @@ role: Admin
 level: Intermediate
 keywords: configuración, recorrido, tablero, fuentes de datos, eventos, acciones
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
+source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 58%
+source-wordcount: '523'
+ht-degree: 33%
 
 ---
 
-# Configuración de fuentes de datos, eventos y acciones {#configure-journeys}
+# Introducción a la configuración de recorrido {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
 >title="Acerca de la configuración de recorrido"
->abstract="Para enviar mensajes con recorridos, debe configurar fuentes de datos, eventos y acciones. Las fuentes de datos permiten definir una conexión a un sistema para recuperar información adicional que se utilizará en los recorridos como, por ejemplo, en las condiciones. Los eventos permiten activar sus recorridos cuando se recibe un evento. Las acciones personalizadas permiten conectarse a un sistema de terceros para enviar sus mensajes. Si utiliza las funciones de mensaje integradas de Journey Optimizer, no es necesario configurar una acción."
+>abstract="Para enviar mensajes con recorridos, es necesario configurar las fuentes de datos, los eventos y las acciones. Las fuentes de datos permiten establecer una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos, como en las condiciones. Los eventos permiten activar los recorridos cuando se recibe un evento. Las acciones personalizadas facilitan la conexión a un sistema de terceros para enviar mensajes. Si utiliza las funciones de mensajería integradas de Journey Optimizer, no es necesario configurar una acción."
 
-Para enviar mensajes con recorridos, es necesario configurar **[!UICONTROL Fuentes de datos]**, **[!UICONTROL Eventos]** y **[!UICONTROL Acciones]**.
+Para enviar mensajes con recorridos, es necesario configurar **[!UICONTROL Fuentes de datos]**, **[!UICONTROL Eventos]** y **[!UICONTROL Acciones]**. Las fuentes de datos permiten establecer una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos, como en las condiciones. Los eventos permiten activar los recorridos cuando se recibe un evento. Las acciones personalizadas facilitan la conexión a un sistema de terceros para enviar mensajes. Si utiliza las funciones de mensajería integradas de Journey Optimizer, no es necesario configurar una acción.
+
 
 ![](assets/admin-menu.png)
 
@@ -45,7 +46,7 @@ Las funciones de los mensajes de Journey Optimizer están integradas: solo neces
 
 ## Examinar los campos de Adobe Experience Platform {#friendly-names-display}
 
-Al definir la [carga útil de evento](../event/about-creating.md#define-the-payload-fields), la [carga útil de grupo de campos](../datasource/configure-data-sources.md#define-field-groups) y seleccionar los campos en el [editor de expresiones](../building-journeys/expression/expressionadvanced.md), se muestra el nombre para mostrar además del nombre del campo. Esta información se recupera de la definición de esquema del modelo de datos de Experience.
+Al definir la [carga útil de evento](../event/about-creating.md#define-the-payload-fields), la [carga útil de grupo de campos](../datasource/configure-data-sources.md#define-field-groups) y seleccionar los campos en el [editor de expresiones](../building-journeys/expression/expressionadvanced.md), se muestra el nombre para mostrar además del nombre del campo. Esta información se recupera de la definición de esquema del Modelo de datos de experiencia.
 
 Si se proporcionan descriptores como &quot;xdm:alternateDisplayInfo&quot; al configurar esquemas, los nombres descriptivos reemplazarán los nombres para mostrar. Resulta especialmente útil cuando se trabaja con eVars y campos genéricos. Puede configurar descriptores de nombres descriptivos mediante una llamada a API. Para obtener más información, consulte la [Guía para desarrolladores de Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=es){target="_blank"}.
 
