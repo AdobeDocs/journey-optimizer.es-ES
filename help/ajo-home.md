@@ -5,10 +5,10 @@ description: Aprenda a utilizar Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 69952a74e20be756488dc29a411c8eb2fd6b68e1
+source-git-commit: 660ac9c0f55158d89c7c1f83c0f9d2efd65ee663
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 76%
+source-wordcount: '385'
+ht-degree: 67%
 
 ---
 
@@ -28,21 +28,22 @@ Ya está aquí la versión de mayo. Consulte las Notas de la versión para descu
 
 >[!TAB Conflicto y priorización]
 
-Journey Optimizer ahora ofrece varias herramientas para la administración de conflictos y la priorización. Estas herramientas están disponibles en campañas y recorridos unitarios, de calificación de público y de público de lectura.
+Journey Optimizer ahora ofrece varias herramientas para la administración de conflictos y la priorización. Estas herramientas están disponibles para sus campañas y Cualificación de audiencias, Lectura de audiencia y recorridos unitarios.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
 
 >[!TAB Integración con Adobe Express]
 
-Adobe Journey Optimizer ahora se integra con Adobe Express, lo que le permite conectar sin problemas sus recursos creativos con la orquestación de recorrido. 
+La integración de Adobe Express en Adobe Journey Optimizer le permite acceder fácilmente a las potentes herramientas de edición de Adobe Express a la hora de crear contenido. Esta integración le permite cambiar el tamaño de las imágenes, eliminar fondos, recortar elementos visuales y convertir recursos a JPEG o PNG sin necesidad de cambiar entre soluciones.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
->[!TAB Asistente de IA]
+<!--
+>[!TAB AI Assistant]
 
-Sumérjase en una experiencia práctica con nuestra vista previa de características en vivo de [AI Assistant](../help/using/content-management/gs-generative.md), diseñada para que explore sus características de primera mano y comprenda plenamente sus capacidades.
+Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![Más información](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB Integración de fragmentos de contenido de AEM]
 
