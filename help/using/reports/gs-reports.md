@@ -5,14 +5,14 @@ title: Introducción a las capacidades de creación de informes y supervisión e
 description: Aprenda a trabajar con  [!DNL Adobe Journey Optimizer] funciones de informes y supervisión.
 role: User
 level: Beginner
-source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
+source-git-commit: 8c391d7437798df4f40baa65003e16a8c56228ab
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 12%
+source-wordcount: '393'
+ht-degree: 13%
 
 ---
 
-# Introducción a las funciones de creación de informes y monitorización {#get-started-report}
+# Introducción a las funciones de creación de informes {#get-started-report}
 
 Adobe Journey Optimizer le ofrece perspectivas procesables a través de sus sólidas capacidades de creación de informes. Los informes están disponibles para campañas, recorridos, páginas de aterrizaje, listas de suscripción y mucho más. A continuación, se enumeran los informes disponibles.
 
@@ -102,6 +102,7 @@ Ahora que comprende los tipos de informes de **[!DNL Journey Optimizer]**, es ho
 
 ## Todos los informes de tiempo por canal
 
+### Canales de salida
 
 Seleccione un canal saliente para descubrir informes globales asociados.
 
@@ -116,6 +117,7 @@ Seleccione un canal saliente para descubrir informes globales asociados.
 <div align="center"><a href="campaign-global-report-cja-direct.md"><strong>Correo directo</strong></a></div></td>
 </tr></table>
 
+### Experiencias de entrada
 
 Seleccione una experiencia entrante para descubrir los informes globales asociados.
 
