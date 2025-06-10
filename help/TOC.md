@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
+source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
 workflow-type: tm+mt
-source-wordcount: '2423'
-ht-degree: 96%
+source-wordcount: '2425'
+ht-degree: 95%
 
 ---
 
@@ -709,7 +709,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
       + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
-   + [Configuración de canales](using/configuration/get-started-configuration.md)
+   + [Introducción a la configuración de canales](using/configuration/get-started-configuration.md)
    + [Creación de configuraciones de canal](using/configuration/channel-surfaces.md)
    + Configuración de canales guiada {#guided-setup}
       + [Introducción a la configuración de canales guiada](using/configuration/set-mobile-config.md)
