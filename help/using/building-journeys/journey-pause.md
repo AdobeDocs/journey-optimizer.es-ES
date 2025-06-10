@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
+source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1078'
 ht-degree: 2%
 
 ---
@@ -68,8 +68,8 @@ Para pausar el recorrido, siga estos pasos:
 
    Puede hacer lo siguiente:
 
-   * Mantener perfiles: los perfiles esperarán a que se reanude el recorrido
-   * Descartar perfiles: los perfiles se excluirán del recorrido en el siguiente nodo de acción
+   * **Retener** perfiles: los perfiles esperarán a que se reanude el recorrido
+   * **Descartar** perfiles: los perfiles se excluirán del recorrido en el siguiente nodo de acción
 
 1. Haga clic en el botón **Pausar** para confirmar.
 
@@ -101,16 +101,21 @@ Cuando un recorrido está en pausa, puede aplicar un filtro global basado en atr
 
 Por ejemplo, para excluir a todos los clientes franceses de las comunicaciones de marketing con Francia, siga estos pasos:
 
-
 1. Desplácese hasta el recorrido en pausa que desee modificar.
 
 1. Haga clic en el icono **Criterios de salida y filtro global**.
 
-1. En la configuración del Filtro global, defina un filtro basado en atributos de perfil.
+   ![Agregar un filtro global a un recorrido en pausa](assets/add-global-filter.png){width="50%" align="left"}
+
+1. En la configuración de **Criterios de salida y filtro global**, defina un filtro basado en atributos de perfil.
 
 1. Establezca la expresión para excluir perfiles donde el atributo de país sea igual a Francia.
 
-1. Reanude la recorrido.
+   ![Agregar un filtro global a un recorrido en pausa](assets/add-country-filter.png){width="50%" align="left"}
+
+1. Guarde el filtro y haga clic en el botón **Actualizar recorrido** para aplicar los cambios.
+
+1. [Reanudar el recorrido](#journey-resume-steps).
 
    En el momento de la reanudación, todos los perfiles con el atributo de país establecido en Francia se excluirán automáticamente del recorrido. Se bloqueará cualquier nuevo perfil con el atributo de país establecido en Francia que intente entrar en el recorrido.
 
