@@ -44,7 +44,7 @@ Documentación en curso
 
 Para crear una campaña orquestada, siga estos pasos:
 
-1. Vaya al menú **[!UICONTRO Campañas]**, seleccione la pestaña **[!UICONTROL Orquestación]** y seleccione **[!UICONTROL Crear campaña]**.
+1. Vaya al menú **[ !UICONTRO Campañas]**, seleccione la pestaña **[!UICONTROL Orquestación]** y seleccione **[!UICONTROL Crear campaña]**.
 
    ![](assets/inventory-create.png)
 
