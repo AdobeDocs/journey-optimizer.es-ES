@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
 workflow-type: tm+mt
 source-wordcount: '1277'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -65,7 +65,7 @@ Para definir la población objetivo de una campaña de marketing programada, sig
 
 1. En la sección **Audiencia**, haga clic en el botón **[!UICONTROL Seleccionar audiencia]** para mostrar la lista de audiencias de Adobe Experience Platform disponibles. Obtenga más información acerca de las audiencias en [esta sección](../audience/about-audiences.md).
 
-1. En el campo **[!UICONTROL Tipo de identidad]**, elija el tipo de clave que desea usar para identificar a los individuos de la audiencia seleccionada. Puede utilizar un tipo de identidad existente o crear uno nuevo mediante el servicio de identidad de Adobe Experience Platform. Las áreas de nombres de identidad estándar se enumeran en [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
+1. En el campo **[!UICONTROL Tipo de identidad]**, elija el tipo de clave que desea usar para identificar a los individuos de la audiencia seleccionada. Puede utilizar un tipo de identidad existente o crear uno nuevo mediante el servicio de identidad de Adobe Experience Platform. Las áreas de nombres de identidad estándar se enumeran en [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
    Solo se permite un tipo de identidad por campaña. La campaña no puede dirigirse a las personas que pertenezcan a un segmento que no tenga el tipo de identidad seleccionado entre sus diferentes identidades.
 
@@ -104,24 +104,24 @@ Conozca los pasos detallados para crear el contenido del mensaje en las siguient
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../email/create-email.md"><img alt="email" src="../channels/assets/do-not-localize/email.png"></a>
+<td><a href="../email/create-email.md"><img alt="Correo electrónico" src="../channels/assets/do-not-localize/email.png"></a>
 <div align="center"><a href="../email/create-email.md"><strong>Correo electrónico</strong></a></div></td>
-<td><a href="../sms/create-sms.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
+<td><a href="../sms/create-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><a href="../sms/create-sms.md"><strong>SMS</strong></a></div></td>
 <td><a href="../push/create-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../push/create-push.md"><strong>Notificación push</strong></a></div></td>
-<td><a href="../direct-mail/create-direct-mail.md"><img alt="correo directo" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<td><a href="../direct-mail/create-direct-mail.md"><img alt="Correo directo" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
 <div align="center"><a href="../direct-mail/create-direct-mail.md"><strong>Correo directo</strong></a></div></td>
 </tr></table>
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../in-app/create-in-app.md"><img alt="en la aplicación" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<td><a href="../in-app/create-in-app.md"><img alt="En la aplicación" src="../channels/assets/do-not-localize/inapp.jpg"></a>
 <div align="center"><a href="../in-app/create-in-app.md"><strong>En la aplicación</strong></a></div></td>
-<td><a href="../web/create-web.md"><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></a>
+<td><a href="../web/create-web.md"><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></a>
 <div align="center"><a href="../web/create-web.md"><strong>Web</strong></a></div></td>
-<td><a href="../code-based/create-code-based.md"><img alt="experiencia basada en código" src="../channels/assets/do-not-localize/code.png"></a>
+<td><a href="../code-based/create-code-based.md"><img alt="Experiencia basada en código" src="../channels/assets/do-not-localize/code.png"></a>
 <div align="center"><a href="../code-based/create-code-based.md"><strong>Experiencia basada en código</strong></a></div></td>
-<td><a href="../content-card/create-content-card.md"><img alt="tarjetas de contenido" src="../channels/assets/do-not-localize/cards.png"></a>
+<td><a href="../content-card/create-content-card.md"><img alt="Tarjetas de contenido" src="../channels/assets/do-not-localize/cards.png"></a>
 <div align="center"><a href="../content-card/create-content-card.md"><strong>Tarjetas de contenido</strong></a></div></td>
 </tr></table>
 
