@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2169ab0e42ab2e8890c87e698e937f0341515b1f
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 100%
@@ -59,8 +59,6 @@ Cree campañas y recorridos desde esta sección.
 
 * **[!UICONTROL Recorridos]**: cree, configure y organice sus recorridos con los clientes: combine los eventos, la orquestación y las actividades de acción para crear sus escenarios de canales cruzados de varios pasos. [Más información](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Páginas de destino]**: crear, diseñar, probar y publicar páginas de aterrizaje: envíe a los usuarios vínculos a formularios en línea en los que pueden optar por su inclusión o exclusión en la recepción de comunicaciones, o suscribirse a servicios específicos. [Más información](../landing-pages/get-started-lp.md)
-
 
 ### [!UICONTROL GESTIÓN DE DECISIONES] {#left-nav-decision}
 
@@ -79,6 +77,9 @@ Cree y administre contenido desde esta sección.
 * **[!UICONTROL Plantillas de contenido]**: para un proceso de diseño acelerado y mejorado, cree plantillas independientes para reutilizar fácilmente el contenido personalizado en las campañas y recorridos de Journey Optimizer. [Más información](../content-management/content-templates.md)
 
 * **[!UICONTROL Fragmentos]**: cree y administre fragmentos para suavizar el proceso de diseño de correo electrónico: cree bloques de contenido personalizados que se puedan utilizar para combinar rápidamente el contenido del correo electrónico. [Más información](../content-management/fragments.md)
+
+* **[!UICONTROL Páginas de destino]**: crear, diseñar, probar y publicar páginas de aterrizaje: envíe a los usuarios vínculos a formularios en línea en los que pueden optar por su inclusión o exclusión en la recepción de comunicaciones, o suscribirse a servicios específicos. [Más información](../landing-pages/get-started-lp.md)
+
 
 ### [!UICONTROL ADMINISTRACIÓN DE DATOS] {#left-nav-data}
 

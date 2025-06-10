@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 1%
@@ -17,8 +17,7 @@ ht-degree: 1%
 
 # Introducción al Informe en vivo {#live-report}
 
-Use **[!UICONTROL Informe en vivo]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y sus mensajes en un panel integrado.
-Los datos están disponibles en el **[!UICONTROL informe en vivo]** tan pronto como se envíe o se ejecute el recorrido desde la ficha **[!UICONTROL Últimas 24 horas]**.
+Use **[!UICONTROL Informe en vivo]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y sus mensajes en un panel integrado. Los datos están disponibles en el **[!UICONTROL informe en vivo]** tan pronto como se envíe o se ejecute el recorrido desde la ficha **[!UICONTROL Últimas 24 horas]**.
 
 * Si desea direccionar un recorrido en el contexto de un recorrido, en el menú de **[!UICONTROL Recorridos]**, acceda al menú de **[!UICONTROL Más acciones]** de su recorrido y haga clic en el botón **[!UICONTROL Ver el informe de las últimas 24 horas]**.
 
@@ -68,9 +67,9 @@ Puede exportar fácilmente los distintos informes a los formatos PDF o CSV, lo q
 
 >[!BEGINTABS]
 
->[!TAB Exporte su informe como archivo de PDF]
+>[!TAB Exporte su informe como archivo PDF]
 
-1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL archivo de PDF]**.
+1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL archivo PDF]**.
 
    ![](assets/export_6.png)
 

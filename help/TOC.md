@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2432'
 ht-degree: 95%
 
 ---
@@ -447,7 +447,8 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
       + [Trabajo con atributos de varios valores](using/audience/computed-attributes.md)
    + [Identidades](using/audience/get-started-identity.md)
    + [Uso de licencias](using/audience/license-usage.md)
-+ Seguimiento y monitorización {#reporting}
++ Sistema de informes y monitorización {#reporting}
+   + [Introducción a la creación de informes y monitorización](using/reports/gs-reports.md)
    + Informe en vivo {#live-report}
       + [Introducción al Informe activo](using/reports/live-report.md)
       + [Lista de métricas](using/reports/live-report-components.md)
@@ -485,7 +486,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
       + [Informe de información general](using/reports/channel-report-cja.md)
       + [Informe de página de aterrizaje](using/reports/lp-report-global-cja.md)
       + [Informe de la lista de suscripciones](using/reports/subscription-report-global-cja.md)
-   + Informes de recorrido {#reports}
+   + Informes de recorrido personalizados {#reports}
       + [Creación de informes de recorrido](using/reports/sharing-overview.md)
       + [Lista de campos de eventos de paso](using/reports/sharing-field-list.md)
       + Campos de eventos de paso heredados {#legacy-step-event-fields}
