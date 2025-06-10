@@ -11,7 +11,7 @@ hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
+source-git-commit: 140720d72b57ec32250dee01b8c282b8ce871fc5
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 7%
@@ -81,7 +81,7 @@ Para activar la ejecución en seco, siga estos pasos:
 
    ![Iniciar la ejecución en seco del recorrido](assets/dry-run-button.png)
 
-1. Confirmar la publicación
+1. Confirme la publicación.
 
    Aparece un mensaje de estado, **Activando la ejecución en seco**, mientras se produce la transición.
 
