@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
+source-git-commit: fcd1ac3b8b34fe4976695775590cad8974b5281f
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 13%
@@ -44,7 +44,7 @@ Documentación en curso
 
 Para crear una campaña orquestada, siga estos pasos:
 
-1. Vaya al menú **[ !UICONTRO Campañas]**, seleccione la pestaña **[!UICONTROL Orquestación]** y seleccione **[!UICONTROL Crear campaña]**.
+1. Vaya al menú **[!UICONTROL Campañas]**, seleccione la pestaña **[!UICONTROL Orquestación]** y seleccione **[!UICONTROL Crear campaña]**.
 
    ![](assets/inventory-create.png)
 
