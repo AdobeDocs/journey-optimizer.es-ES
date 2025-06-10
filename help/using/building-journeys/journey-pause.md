@@ -10,17 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
+source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 3%
+source-wordcount: '1047'
+ht-degree: 2%
 
 ---
 
 # Pausar un recorrido {#journey-pause}
 
-Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
-
+Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puede [aplicar filtros globales](#journey-global-filters) para excluir perfiles en función de sus atributos. El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
 
 >[!AVAILABILITY]
 >
@@ -54,14 +53,14 @@ Esta capacidad reduce el riesgo de enviar mensajes no deseados durante errores o
 
 ## Pausa de un recorrido {#journey-pause-steps}
 
-Puede pausar cualquier recorrido activo.
+Puede pausar cualquier recorrido de **Live**.
 
 Para pausar el recorrido, siga estos pasos:
 
 1. Abra el recorrido en el que desee hacer una pausa.
 1. Haga clic en el botón **...Más** de la sección superior derecha del lienzo de recorrido y seleccione **Pausar**.
 
-   ![Pausar el botón de recorrido](assets/pause-journey-button.png)
+   ![Pausar el botón de recorrido](assets/pause-journey-button.png){width="80%" align="left"}
 
 1. Seleccione cómo administrar los perfiles que están actualmente en el recorrido.
 
@@ -74,6 +73,11 @@ Para pausar el recorrido, siga estos pasos:
 
 1. Haga clic en el botón **Pausar** para confirmar.
 
+Desde la lista de recorridos, puede pausar uno o varios recorridos **Live**. Para pausar un grupo de recorridos (_pausa masiva_), selecciónelos en la lista y haga clic en el botón **Pausar** de la barra azul en la parte inferior de la pantalla. El botón **Pausar** solo está disponible cuando se seleccionan **recorridos en vivo**.
+
+![Pausa masiva de dos recorridos activos desde la barra inferior](assets/bulk-pause-journeys.png){width="80%" align="left"}
+
+
 ## Cómo reanudar un recorrido pausado {#journey-resume-steps}
 
 Los recorridos en pausa se reanudan automáticamente al final del período máximo de pausa de 14 días. Se pueden reanudar manualmente en cualquier momento.
@@ -85,6 +89,35 @@ Para reanudar un recorrido en pausa y comenzar a escuchar eventos de recorrido d
 
    El recorrido cambia al estado **Reanudando**. La transición del estado **Reanudando** a **Activo** puede tardar un poco: todos los perfiles deben reanudarse para que el recorrido vuelva a estar **Activo**.
 
+1. Haga clic en el botón **Reanudar** para confirmar.
 
 
+Desde la lista de sus recorridos, puede reanudar uno o varios **recorridos pausados**. Para reanudar un grupo de recorridos (_reanudación masiva_), selecciónelos y haga clic en el botón **Reanudar** ubicado en la barra azul en la parte inferior de la pantalla. Tenga en cuenta que el botón **Reanudar** solo estará disponible cuando se seleccionen **recorridos en pausa**.
 
+
+## Aplicación de un filtro global a perfiles en un recorrido pausado  {#journey-global-filters}
+
+Cuando un recorrido está en pausa, puede aplicar un filtro global basado en atributos de perfil. Este filtro habilita la exclusión de perfiles que coinciden con la expresión definida en el momento de la reanudación. Los perfiles que coincidan con los criterios que están actualmente en la recorrido lo cerrarán y se bloquearán los nuevos perfiles que intenten entrar.
+
+Por ejemplo, para excluir a todos los clientes franceses de las comunicaciones de marketing con Francia, siga estos pasos:
+
+
+1. Desplácese hasta el recorrido en pausa que desee modificar.
+
+1. Haga clic en el icono **Criterios de salida y filtro global**.
+
+1. En la configuración del Filtro global, defina un filtro basado en atributos de perfil.
+
+1. Establezca la expresión para excluir perfiles donde el atributo de país sea igual a Francia.
+
+1. Reanude la recorrido.
+
+   En el momento de la reanudación, todos los perfiles con el atributo de país establecido en Francia se excluirán automáticamente del recorrido. Se bloqueará cualquier nuevo perfil con el atributo de país establecido en Francia que intente entrar en el recorrido.
+
+Tenga en cuenta que las exclusiones de perfiles para perfiles que se encuentran actualmente en la recorrido y para perfiles nuevos solo se producirán cuando lleguen a un nodo de acción.
+
+>[!CAUTION]
+>
+>* Solo puede establecer **un** filtro global por recorrido.
+>
+>* Solo puede crear, actualizar o eliminar un filtro global en **recorridos pausados**.
