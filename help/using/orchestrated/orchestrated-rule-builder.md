@@ -5,16 +5,29 @@ title: Trabajar con el generador de reglas
 description: Aprenda a crear reglas para sus campañas orquestadas
 badge: label="Alpha"
 hide: true
+hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: d59643f18a335fe1e094156a1cfee65b717b9fce
+source-git-commit: 435b4a7eee9428c7f0efeb62c72b39c0e2aaabba
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '309'
 ht-degree: 4%
 
 ---
 
 
 # Trabajar con el generador de reglas {#orchestrated-rule-builder}
+
++++ Tabla de contenido
+
+| Bienvenido a campañas orquestadas | Inicie su primera campaña orquestada | Consultar la base de datos | Actividades de campañas organizadas |
+|---|---|---|---|
+| [Introducción a las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>[Pasos de configuración](configuration-steps.md)<br/><br/>[Acceso y administración de campañas orquestadas](access-manage-orchestrated-campaigns.md) | [Pasos clave para la creación de campañas orquestadas](gs-campaign-creation.md)<br/><br/>[Cree y programe las actividades de la campaña](create-orchestrated-campaign.md)<br/><br/>[Orqueste actividades](orchestrate-activities.md)<br/><br/>[Envíe mensajes con campañas orquestadas](send-messages.md)<br/><br/>[Inicie y supervise la campaña](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | <b>[Trabaje con el generador de reglas](orchestrated-rule-builder.md)</b><br/><br/>[Cree su primera consulta](build-query.md)<br/><br/>[Edite expresiones](edit-expressions.md) | [Empiece con las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[Y únase](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Anulación de duplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [División](activities/split.md) - [Espera](activities/wait.md) |
+
+{style="table-layout:fixed"}
+
++++
+
+<br/>
 
 Las campañas organizadas incluyen un generador de reglas que simplifica el proceso de filtrado de la base de datos en función de varios criterios. El generador de reglas administra consultas muy complejas y largas de forma eficaz, lo que ofrece una mayor flexibilidad y precisión.
 

@@ -5,15 +5,28 @@ title: Pasos de configuración
 description: Aprenda a configurar campañas orquestadas con Adobe Journey Optimizer.
 badge: label="Alpha"
 hide: true
+hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: d59643f18a335fe1e094156a1cfee65b717b9fce
+source-git-commit: 435b4a7eee9428c7f0efeb62c72b39c0e2aaabba
 workflow-type: tm+mt
-source-wordcount: '18'
-ht-degree: 27%
+source-wordcount: '100'
+ht-degree: 8%
 
 ---
 
 # Pasos de configuración {#configuration-steps}
+
++++ Tabla de contenido
+
+| Bienvenido a campañas orquestadas | Inicie su primera campaña orquestada | Consultar la base de datos | Actividades de campañas organizadas |
+|---|---|---|---|
+| [Introducción a las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/><b>[Pasos de configuración](configuration-steps.md)</b><br/><br/>[Acceso y administración de campañas orquestadas](access-manage-orchestrated-campaigns.md) | [Pasos clave para la creación de campañas orquestadas](gs-campaign-creation.md)<br/><br/>[Cree y programe las actividades de la campaña](create-orchestrated-campaign.md)<br/><br/>[Orqueste actividades](orchestrate-activities.md)<br/><br/>[Envíe mensajes con campañas orquestadas](send-messages.md)<br/><br/>[Inicie y supervise la campaña](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabaje con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Cree su primera consulta](build-query.md)<br/><br/>[Edite expresiones](edit-expressions.md) | [Empiece con las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[Y únase](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Combinar](activities/combine.md) - [Anulación de duplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [División](activities/split.md) - [Espera](activities/wait.md) |
+
+{style="table-layout:fixed"}
+
++++
+
+</br>
 
 >[!BEGINSHADEBOX]
 
@@ -125,7 +138,7 @@ To create links between tables of your datamodel from the Canvas view tab, follo
 
 1. Click **Save** once done.
 
-Doc AEP: https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/create-schema-ui
+Doc AEP: https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui
 
 ## Add data
 
@@ -148,7 +161,7 @@ Adobe Experience Platform allows data to be ingested from external sources while
 
 ![](assets/admin_sources_1.png)
 
-https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload
+https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload
 
 
 ## Create datasets
