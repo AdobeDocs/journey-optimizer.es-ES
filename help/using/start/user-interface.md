@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: a06872dd267b6fa63ea5be7fcc111015ff5e9d77
+source-git-commit: 476aaeb0d9d208eed3729b38c71a572daf0ec941
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 96%
+source-wordcount: '1643'
+ht-degree: 90%
 
 ---
 
@@ -174,6 +174,14 @@ En cada página, utilice los botones de ayuda contextual para obtener más infor
 
 ![](assets/do-not-localize/Context-help.gif)
 
+## Asistente de IA {#ai-assistant}
+
+El asistente de IA es una función de la interfaz de usuario que se puede utilizar para navegar, comprender los conceptos de Adobe y obtener perspectivas operativas de su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluido Adobe Journey Optimizer.
+
+Para acceder al Asistente de IA, haga clic en el icono de la barra superior. El asistente de IA se muestra en la sección derecha de la pantalla.
+
+Obtenga información sobre cómo acceder y utilizar el Asistente de IA [en esta página](ai-assistant.md).
+
 ## Preferencias de idioma {#language-pref}
 
 La interfaz de usuario está disponible en los siguientes idiomas:
@@ -199,13 +207,60 @@ Para cambiar el idioma:
 * Seleccione el idioma que prefiera y haga clic en **Guardar**. Puede elegir un segundo idioma en caso de que el componente que utilice no esté localizado en su primero.
   ![](assets/select-language.png)
 
+
+## Más información {#more}
+
+Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas específicas? ¿Administrador de la instancia de su empresa? [Elija su propia ruta para llegar a sus metas más rápido](quick-start.md).
+
+
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
 
 
-<!--CONTENT LOCKING-->
+<!--ORCHESTRATED CAMPAIGNS - Overview page-->
+
+<!--ORCHESTRATED CAMPAIGNS SKU only-->
 
 
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_1"
+>title="Orquestación de campaña"
+>abstract="Divida, combine, enriquezca y manipule conjuntos de datos relacionales para definir su audiencia"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_2"
+>title=Leverage multi-entity data"
+>abstract="Descubra cómo las campañas orquestadas pueden aprovechar los conjuntos de datos relacionales para enriquecer los datos para la segmentación y personalización"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_3"
+>title="Segmentación ad hoc y recuento exacto"
+>abstract="Genere su segmento paso a paso con recuentos exactos"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_4"
+>title="Canales disponibles"
+>abstract="Correo electrónico, SMS, notificaciones push, correo directo"
+
+<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_jo_camppaign_ovv_1"
+>title="IU guiada para crear y enviar una campaña"
+>abstract="Defina una o varias acciones con un canal, elija una audiencia, defina un contenido y una programación, y estará listo para enviar"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_jo_camppaign_ovv_2"
+>title="Canales disponibles"
+>abstract="Correo electrónico, SMS, notificaciones push, en la aplicación, web, experiencias basadas en código"
 
 <!--APPROVAL POLICIES-->
 
