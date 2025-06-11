@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '2031'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -212,7 +212,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>La función de puntuación de alineación de marca proporciona comentarios claros directamente en el diseñador de correo electrónico, lo que le ayuda a ver si el contenido se ajusta al tono, al estilo y a las directrices de la marca. Esta función está disponible en Beta.</p>
+<p>La función de puntuación de alineación de marca proporciona comentarios claros directamente en el Designer de correo electrónico, lo que le ayuda a ver si el contenido se ajusta al tono, el estilo y las directrices de la marca. Esta función está disponible en Beta.</p>
 <p>Para obtener más información, consulte la <a href="../content-management/brands-score.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -270,7 +270,7 @@ Hay nuevas API disponibles para previsualizar campañas, además de las capacida
 
 * **Seguimiento personalizado de URL**. Fecha de disponibilidad: 30 de abril de 2025
 
-  Para obtener una mayor flexibilidad y control sobre la configuración del correo electrónico, ahora puede personalizar todos los parámetros de seguimiento de URL a la vez en el nivel de configuración del canal de correo electrónico, en lugar de hacerlo en el Diseñador de correo electrónico para cada vínculo del contenido. [Más información](../email/surface-personalization.md#personalize-url-tracking)
+  Para obtener una mayor flexibilidad y control sobre la configuración del correo electrónico, ahora puede personalizar todos los parámetros de seguimiento de URL a la vez en el nivel de configuración del canal de correo electrónico, en lugar de hacerlo en la Designer de correo electrónico para cada vínculo del contenido. [Más información](../email/surface-personalization.md#personalize-url-tracking)
 
 * **Diseñador de correo electrónico**. Fecha de disponibilidad: 1 de abril de 2025
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: recursos, experience manager, integración
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 8538018f5c30b0c3c9c1df5726276c2e87e64149
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 6%
@@ -26,11 +26,11 @@ Una los flujos de trabajo creativos y de marketing usando **[!DNL Adobe Experien
 
 * **[!DNL Assets as a Cloud Service]**: Adobe Experience Manager Assets as a Cloud Service ofrece una solución de nube fácil de usar para una administración eficiente de activos digitales y operaciones de Dynamic Media. Incorpora sin problemas funciones avanzadas, como inteligencia artificial y aprendizaje automático.
 
-  Obtenga más información en [Documentación de Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html?lang=es){target="_blank"}.
+  Obtenga más información en [Documentación de Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html){target="_blank"}.
 
 * **[!DNL Assets Essentials]**: Experience Manager Assets Essentials es la solución ligera de Assets as a Cloud Service para la colaboración y administración de recursos unificadas. Con una interfaz moderna y simplificada, permite a los equipos creativos y de marketing almacenar, descubrir y distribuir recursos digitales sin esfuerzo.
 
-  Obtenga más información en [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=es){target="_blank"}.
+  Obtenga más información en [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 Según el contrato, se puede acceder a **[!DNL Adobe Experience Manager Assets Essentials]** o **[!DNL Adobe Experience Manager Assets as a Cloud Service]** directamente desde **[!DNL Adobe Journey Optimizer]** a través de la sección del menú izquierdo **[!UICONTROL Assets]**. También puede acceder a recursos y carpetas al [diseñar contenido de correo electrónico](../email/get-started-email-design.md).
 
@@ -40,14 +40,14 @@ Según el contrato, se puede acceder a **[!DNL Adobe Experience Manager Assets E
 
 >[!TAB Adobe Experience Manager Assets Essentials]
 
-Antes de usar [!DNL Adobe Experience Manager Assets Essentials], debe agregar usuarios a los perfiles de producto de **Usuarios consumidores de Assets Essentials** o **Usuarios de Assets Essentials**. Obtenga más información en [Documentación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=es#add-user-groups){target="_blank"}.
+Antes de usar [!DNL Adobe Experience Manager Assets Essentials], debe agregar usuarios a los perfiles de producto de **Usuarios consumidores de Assets Essentials** o **Usuarios de Assets Essentials**. Obtenga más información en [Documentación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-user-groups){target="_blank"}.
 
 >[!NOTE]
 >Para los productos de Journey Optimizer obtenidos antes del 6 de enero de 2022, debe implementar **[!DNL Adobe Experience Manager Assets Essentials]** para su organización. Obtenga más información en la sección [Implementar Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=es){target="_blank"}.
 
 >[!TAB Adobe Experience Manager Assets as a Cloud Service]
 
-Antes de usar **[!DNL Adobe Experience Manager Assets as a Cloud Service]**, debe agregar usuarios a Assets Cloud Services. Obtenga más información en [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=es).
+Antes de usar **[!DNL Adobe Experience Manager Assets as a Cloud Service]**, debe agregar usuarios a Assets Cloud Services. Obtenga más información en [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html).
 
 >[!ENDTABS]
 
@@ -83,13 +83,13 @@ Para importar archivos a **[!DNL Assets Essentials]** o **[!DNL Assets as a Clou
 
 1. Desde **[!UICONTROL Cargar archivos]**, haz clic en **[!UICONTROL Examinar]** y elige si deseas **[!UICONTROL Examinar archivos]** o **[!UICONTROL Examinar carpetas]**.
 
-1. Seleccione el archivo que desee cargar. Cuando termine, haga clic en **[!UICONTROL Cargar]**. Para obtener más información sobre cómo administrar los recursos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=es).
+1. Seleccione el archivo que desee cargar. Cuando termine, haga clic en **[!UICONTROL Cargar]**. Para obtener más información sobre cómo administrar los recursos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
-1. Para editar aún más los recursos con Adobe Photoshop Express, haga doble clic en ellos. A continuación, en el menú de la derecha, seleccione el icono **[!UICONTROL Modo de edición]**. [Más información](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=es){target="_blank"}.
+1. Para editar aún más los recursos con Adobe Photoshop Express, haga doble clic en ellos. A continuación, en el menú de la derecha, seleccione el icono **[!UICONTROL Modo de edición]**. [Más información](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
 
    ![](assets/media_library_12.png)
 
-1. En [!DNL Adobe Journey Optimizer], seleccione el menú **[!UICONTROL Selector de recursos]** del panel izquierdo del diseñador de correo electrónico.
+1. En [!DNL Adobe Journey Optimizer], seleccione el menú **[!UICONTROL Selector de recursos]** del panel izquierdo de Email Designer.
 
    ![](assets/media_library_5.png)
 
@@ -122,7 +122,7 @@ Si está aprovisionado en **[!DNL Adobe Experience Manager Assets as a Cloud Ser
 
 +++ ¿Cómo se administran los recursos? ¿Los cambios en Assets as a Cloud Service se reflejan en Journey Optimizer?
 
-**[!DNL Adobe Experience Manager Assets as a Cloud Service]** se integra con Journey Optimizer de manera similar a **[!DNL Adobe Experience Manager Assets Essentials]**. Cuando se realizan modificaciones en los recursos, se genera una copia binaria. Tenga en cuenta que las actualizaciones de **[!DNL Assets as a Cloud Service]** no se propagan automáticamente a las campañas de correo electrónico activas. Los cambios deben volver a seleccionarse manualmente en el diseñador de correo electrónico para garantizar la sincronización entre los recursos y las campañas de correo electrónico en curso.
+**[!DNL Adobe Experience Manager Assets as a Cloud Service]** se integra con Journey Optimizer de manera similar a **[!DNL Adobe Experience Manager Assets Essentials]**. Cuando se realizan modificaciones en los recursos, se genera una copia binaria. Tenga en cuenta que las actualizaciones de **[!DNL Assets as a Cloud Service]** no se propagan automáticamente a las campañas de correo electrónico activas. Los cambios deben reseleccionarse manualmente en la Designer de correo electrónico para garantizar la sincronización entre los recursos y las campañas de correo electrónico en curso.
 
 +++
 

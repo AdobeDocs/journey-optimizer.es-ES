@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '2035'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 </table>
 
 
-Consulte también las [Notas de la versión de octubre de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=es){target="_blank"} para obtener más cambios.
+Consulte también [Notas de la versión de octubre de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=es){target="_blank"} para ver más cambios.
 
 ### Mejoras
 
@@ -111,8 +111,8 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 ### Correcciones
 
-* Se ha corregido un problema que impedía que se mostraran la lista de Recorridos, la lista de mensajes y el diseñador de correo electrónico cuando el idioma del explorador no era inglés.
-* Se ha corregido un error de sintaxis que se producía al añadir una personalización mediante una expresión en el Diseñador de correo electrónico: los caracteres se han escapado erróneamente.
+* Se ha corregido un problema que impedía que se mostraran la lista de Recorrido, la lista de mensajes y el Designer de correo electrónico cuando el idioma del explorador no era inglés.
+* Se ha corregido un error de sintaxis que se producía al añadir una personalización mediante una expresión en el Designer de correo electrónico: los caracteres se han escapado erróneamente.
 * Se ha corregido un problema que provocaba un error 404 al navegar en el menú **Administración**.
 * Se ha corregido un problema que activaba otros recorridos activos al probar un recorrido con un evento comercial.
 
@@ -294,7 +294,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 ### Correcciones
 
 * Se ha corregido un problema de accesibilidad en la navegación por pestañas de mensajes.
-* Se ha corregido un problema de localización en las etiquetas del diseñador de correo electrónico.
+* Se ha corregido un problema de localización en las etiquetas Designer de correo electrónico.
 * Se ha corregido un problema que se producía al seleccionar más de un nodo en un recorrido y al hacer clic en Eliminar en el panel de propiedades.
 * Se ha corregido un problema que impedía añadir un nuevo encabezado a una acción utilizada en un recorrido.
 * Ahora puede averiguar el motivo por el que la creación de un ajuste preestablecido de mensaje falló a través de una advertencia más explícita en la interfaz de usuario.
@@ -365,4 +365,4 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 * Se ha corregido un problema por el que faltaba información de IP en la pantalla Registros de PTR.
 * Ya está implementada la localización en el carril de la oferta dentro del Editor de expresiones.
 * Se ha corregido un espaciado incorrecto en las ventanas emergentes de información.
-* Se ha corregido un problema en el Diseñador de correo electrónico al cargar un archivo de HTML en el que la hoja de estilo interna con la propiedad `background-image` no se admitía.
+* Se corrigió un problema en el Designer de correo electrónico al cargar un archivo de HTML en el cual no se admitía la hoja de estilo interna con la propiedad `background-image`.

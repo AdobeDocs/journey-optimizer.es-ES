@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '4377'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -364,13 +364,13 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>Conversión del contenido del HTML para el diseñador de correo electrónico</strong><br/></th>
+<th><strong>Conversión del contenido de HTML para el Designer de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede importar y convertir cualquier contenido de HTML en el editor de correo electrónico de Journey Optimizer. Los bloques de contenido se identifican automáticamente y están disponibles en el diseñador de correo electrónico: utilice sus potentes funciones de diseño para actualizarlos y personalizarlos.</p>
+<p>Ahora puede importar y convertir cualquier contenido de HTML en el editor de correo electrónico de Journey Optimizer. Los bloques de contenido se identifican automáticamente y están disponibles en el Designer de correo electrónico: utilice sus potentes funciones de diseño para actualizarlos y personalizarlos.</p>
 <img src="assets/html-convert.png">
 <p>Para obtener más información, consulte la <a href="../email/existing-content.md">documentación detallada</a>.</p>
 </td>
@@ -1009,9 +1009,9 @@ Note that each widget can be resized and deleted as needed.
 
 * Una nueva subsección ofrece recomendaciones sobre la creación de la dirección **Responder a (correo electrónico)** y la gestión adecuada de las respuestas. [Más información](../email/email-settings.md#reply-to-email)
 
-* Al crear o editar **Grupos de IP**, los registros PTR asociados ahora se muestran en la lista de IP y al pasar el ratón por encima de las direcciones IP seleccionadas. [Más información](../configuration/ip-pools.md#create-ip-pool)
+* Al crear o editar **Grupos de IP**, los registros PTR asociados ahora se muestran en la lista de IP y al pasar el puntero por encima de las direcciones IP seleccionadas. [Más información](../configuration/ip-pools.md#create-ip-pool)
 
-* Después de seleccionar un grupo de IP en una configuración de canal, la información de registro PTR ahora es visible al pasar el ratón por encima de las direcciones IP. [Más información](../email/email-settings.md#subdomains-and-ip-pools)
+* Después de seleccionar un grupo de IP en una configuración de canal, la información de registro PTR ahora es visible al pasar el puntero por encima de las direcciones IP. [Más información](../email/email-settings.md#subdomains-and-ip-pools)
 
 * La interfaz de usuario para editar [Registros PTR](../configuration/ptr-records.md#edit-ptr-record) y [campos de ejecución](../configuration/primary-email-addresses.md) se ha actualizado.
 

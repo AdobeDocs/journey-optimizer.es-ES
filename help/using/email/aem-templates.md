@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 2%
@@ -23,9 +23,9 @@ ht-degree: 2%
 >[!AVAILABILITY]
 >
 >La integración con Adobe Experience Manager está disponible actualmente como una versión beta para usuarios seleccionados.
-> Como usuario beta, usa [este formulario](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} para compartir comentarios.
+>> Como usuario beta, usa [este formulario](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} para compartir comentarios.
 
-Con Adobe Journey Optimizer, puede crear mensajes personalizados a través de los sitios de Adobe Experience Manager. Comience por diseñar las plantillas utilizando las fuentes de contenido de Adobe Experience Manager y, a continuación, envíelas a Adobe Journey Optimizer. Una vez compartidas, se puede acceder a estas plantillas en el diseñador de correo electrónico de Adobe Journey Optimizer, lo que simplifica el proceso de creación y envío de mensajes a la audiencia deseada.
+Con Adobe Journey Optimizer, puede crear mensajes personalizados a través de los sitios de Adobe Experience Manager. Comience por diseñar las plantillas utilizando las fuentes de contenido de Adobe Experience Manager y, a continuación, envíelas a Adobe Journey Optimizer. Una vez compartidas, se puede acceder a estas plantillas en el Designer de correo electrónico de Adobe Journey Optimizer, lo que simplifica el proceso de creación y envío de mensajes a la audiencia deseada.
 
 ## Requisitos previos {#prerequisites}
 
@@ -59,7 +59,7 @@ Para exportar una plantilla de Adobe Experience Manager a Adobe Journey Optimize
 
    ![](assets/aem-outbound-menu.png)
 
-1. Desde la biblioteca de contenido, puede utilizar plantillas configuradas anteriormente o crear una desde cero. [Más información](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=es#creating-a-new-page)
+1. Desde la biblioteca de contenido, puede utilizar plantillas configuradas anteriormente o crear una desde cero. [Más información](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. Al incorporar la sintaxis de personalización de Journey Optimizer en la plantilla, puede mejorar sus capacidades de personalización. [Más información](../personalization/personalization-syntax.md)
 

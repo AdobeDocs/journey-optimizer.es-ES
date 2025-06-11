@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing, landing page, diseño, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 13%
@@ -34,4 +34,4 @@ A partir de ahí, puede:
 
 >[!NOTE]
 >
->El diseñador de contenido de páginas de aterrizaje es casi siempre similar al diseñador de correo electrónico. Más información sobre [diseñar contenido con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>El diseñador de contenido de páginas de aterrizaje es muy similar al Designer de correo electrónico. Más información sobre [diseñar contenido con [!DNL Journey Optimizer]](../email/get-started-email-design.md).

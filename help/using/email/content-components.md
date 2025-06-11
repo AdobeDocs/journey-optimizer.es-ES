@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Uso de los componentes de contenido del diseñador de correo electrónico
+title: Uso de componentes de contenido de Email Designer
 description: Aprenda a utilizar los componentes de contenido en los correos electrónicos
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: componentes, diseñador de correo electrónico, editor, correo electrónico
+keywords: componentes, Email Designer, editor, correo electrónico
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 50%
@@ -169,7 +169,7 @@ Utilice el componente **[!UICONTROL Image]** para insertar un archivo de imagen 
 
 1. En la pestaña **[!UICONTROL Configuración]**, haga clic en **[!UICONTROL Examinar]** para elegir un archivo de imagen de sus recursos o en **[!UICONTROL Importar medios]** para cargar un recurso en Adobe Experience Manager Assets.
 
-   Para obtener más información sobre [!DNL Adobe Experience Manager Assets], consulte [Documentación de Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=es){target="_blank"}.
+   Para obtener más información sobre [!DNL Adobe Experience Manager Assets], consulte [Documentación de Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >

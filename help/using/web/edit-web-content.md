@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 16%
@@ -89,7 +89,7 @@ Para empezar a crear la experiencia web, siga los pasos a continuación.
 
 >[!NOTE]
 >
->El diseñador de contenido web es similar al diseñador de correo electrónico. Más información sobre [diseñar contenido con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>El diseñador de contenido web es muy similar al Designer de correo electrónico. Más información sobre [diseñar contenido con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 ## Uso de componentes {#content-components}
 
@@ -103,8 +103,8 @@ Para empezar a crear la experiencia web, siga los pasos a continuación.
    * [Divisor](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [Imagen](../email/content-components.md#image)
-   * Encabezado: El uso de este componente es similar al uso del componente **[!UICONTROL Text]** en el diseñador de correo electrónico. [Más información](../email/content-components.md#text)
-   * Párrafo: el uso de este componente es similar al uso del componente **[!UICONTROL Texto]** en el diseñador de correo electrónico. [Más información](../email/content-components.md#text)
+   * Encabezado: El uso de este componente es similar al uso del componente **[!UICONTROL Text]** en el Designer de correo electrónico. [Más información](../email/content-components.md#text)
+   * Párrafo: El uso de este componente es similar al uso del componente **[!UICONTROL Texto]** en el Designer de correo electrónico. [Más información](../email/content-components.md#text)
    * Vínculo
 
    ![](assets/web-designer-components.png)

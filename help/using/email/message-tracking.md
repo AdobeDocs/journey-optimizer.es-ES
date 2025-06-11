@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 30%
@@ -173,7 +173,7 @@ Los informes sobre aperturas y clics están disponibles en [Live Report](../repo
 
 [El seguimiento de URL](email-settings.md#url-tracking) se administra en el nivel de configuración y se aplica a todas las URL incluidas en el contenido del mensaje.
 
-También puede [personalizar direcciones URL individuales](../personalization/personalization-syntax.md#perso-urls) en el diseñador de correo electrónico. Para añadir parámetros de seguimiento de URL personalizados a un solo vínculo del contenido, siga los pasos a continuación.
+También puede [personalizar direcciones URL individuales](../personalization/personalization-syntax.md#perso-urls) en el Designer de correo electrónico. Para añadir parámetros de seguimiento de URL personalizados a un solo vínculo del contenido, siga los pasos a continuación.
 
 1. Seleccione un vínculo y haga clic en **[!UICONTROL Insertar vínculo]** en la barra de herramientas contextual.
 
