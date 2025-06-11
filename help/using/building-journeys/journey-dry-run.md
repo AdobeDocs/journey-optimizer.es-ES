@@ -11,10 +11,10 @@ hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 140720d72b57ec32250dee01b8c282b8ce871fc5
+source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 7%
+source-wordcount: '914'
+ht-degree: 6%
 
 ---
 
@@ -22,8 +22,14 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="Probar el recorrido"
->abstract="Una vez que haya diseñado su recorrido, pruébelo para confirmar que es funcional y asegurarse de que los pasos sean correctos. Este modo de publicación le permite probar un recorrido sin enviar comunicaciones a los perfiles."
+>title="Modo de ejecución en seco"
+>abstract="Este recorrido está en Dry run. Recorrido Dry run es un modo especial de publicación de recorrido en Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar información de perfil.  Esta función ayuda a los profesionales del recorrido a confiar en el diseño del recorrido y la segmentación de audiencia antes de publicarla en directo."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_dry_run_start"
+>title="Publicación de un recorrido en modo de ejecución en seco"
+>abstract="Recorrido Dry run es un modo especial de publicación de recorrido en Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales. Una vez que haya diseñado su recorrido, pruébelo para confirmar que es funcional y asegurarse de que los pasos sean correctos. Este modo de publicación le permite probar un recorrido sin enviar comunicaciones a los perfiles."
 
 Recorrido Dry run es un modo especial de publicación de recorrido en Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar información de perfil.  Esta función ayuda a los profesionales del recorrido a confiar en el diseño del recorrido y la segmentación de audiencia antes de publicarla en directo.
 

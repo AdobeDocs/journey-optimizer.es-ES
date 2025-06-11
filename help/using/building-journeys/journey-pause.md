@@ -10,14 +10,19 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
+source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1196'
 ht-degree: 2%
 
 ---
 
 # Pausar un recorrido {#journey-pause}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_pause"
+>title="Pausar el recorrido"
+>abstract="Pausar un recorrido activo para evitar que entren nuevos perfiles. Elija si desea descartar los perfiles que están actualmente en la recorrido o mantenerlos en su lugar. Si se retienen, se reanudará la ejecución en la siguiente actividad de acción una vez que se reinicie el recorrido. Perfecto para actualizaciones o paradas de emergencia sin perder progreso."
 
 Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puede [aplicar filtros globales](#journey-global-filters) para excluir perfiles en función de sus atributos. El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
 
@@ -80,7 +85,12 @@ Desde la lista de recorridos, puede pausar uno o varios recorridos **Live**. Par
 
 ## Cómo reanudar un recorrido pausado {#journey-resume-steps}
 
-Los recorridos en pausa se reanudan automáticamente al final del período máximo de pausa de 14 días. Se pueden reanudar manualmente en cualquier momento.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_pause"
+>title="Reanudar el recorrido"
+>abstract="Reanude un recorrido pausado para permitir que los nuevos perfiles vuelvan a entrar. Si los perfiles estaban esperando durante la pausa, continuarán con su recorrido. Ideal para reiniciar los recorridos de forma segura después de actualizaciones o pausas."
+
+Los recorridos en pausa se reanudan automáticamente al final del período máximo de pausa de 14 días. Se pueden reanudar manualmente en cualquier momento. Reanudar un recorrido pausado permite que los nuevos perfiles vuelvan a entrar. Si los perfiles estaban esperando durante la pausa, continuarán con su recorrido. Ideal para reiniciar los recorridos de forma segura después de actualizaciones o pausas.
 
 Para reanudar un recorrido en pausa y comenzar a escuchar eventos de recorrido de nuevo, siga estos pasos:
 
