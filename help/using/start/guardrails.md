@@ -26,7 +26,7 @@ Los derechos, limitaciones de productos y protección del rendimiento se enumera
 >
 >* Las [protecciones para la segmentación y los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails){target="_blank"} también se aplican a Adobe Journey Optimizer.
 >
->* Consulte también [Protecciones para la ingesta de datos en el perfil del cliente en tiempo real](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Consulte también [Protecciones para la ingesta de datos en el perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Navegadores admitidos {#browsers}
