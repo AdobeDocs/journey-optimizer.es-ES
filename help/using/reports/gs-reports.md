@@ -5,7 +5,7 @@ title: Introducción a las capacidades de creación de informes y supervisión e
 description: Aprenda a trabajar con  [!DNL Adobe Journey Optimizer] funciones de informes y supervisión.
 role: User
 level: Beginner
-source-git-commit: 95b47370f85f43b3fdc78dd661f0a0789169e544
+source-git-commit: 760579d13eb9f1e264dafb3f7b1e06cebd9aaaa2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 17%
@@ -126,7 +126,7 @@ Seleccione una experiencia entrante para descubrir **informes globales permanent
 <div align="center"><p><strong>Canal en la aplicación</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>Informe de recorrido</strong></a></p></div></td>
 <td><p><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></p>
 <div align="center"><p><strong>Canal web</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Informe de recorrido</strong></a></p></div></td>
-<td>&lt;<img alt="Experiencia basada en código" src="../channels/assets/do-not-localize/code.png">
+<td><img alt="Experiencia basada en código" src="../channels/assets/do-not-localize/code.png">
 <div align="center"><p><strong>Experiencias basadas en código</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Informe de campaña</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Informe de recorrido</strong></a></p></div></td>
 <td><img alt="Tarjetas de contenido" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>Tarjetas de contenido</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Informe de recorrido</strong></a></p></div></td>
