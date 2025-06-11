@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: reintentos, rebote, suave, optimizador, error
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e422a62f49864c89bdaaab2d4b7622dc90163a71
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '572'
 ht-degree: 9%
 
 ---
@@ -34,11 +34,11 @@ Si una entrega se realiza correctamente después de un reintento, se reinicia el
 
 Por ejemplo:
 
-* Envía un correo electrónico el lunes con un periodo de reintento establecido en 24 horas. La dirección emma.jones@mail.com no se puede entregar. El correo electrónico se vuelve a intentar hasta tres veces y deja de intentarlo al alcanzar el periodo de reintento de 24 horas.
+* Envía un correo electrónico el lunes con un periodo de reintento establecido en 24 horas. No se pudo entregar la dirección `emma.jones@mail.com`. El correo electrónico se vuelve a intentar hasta tres veces y deja de intentarlo al alcanzar el periodo de reintento de 24 horas.
 
-* Envía otro correo electrónico el miércoles. El emma.jones@mail.com, que ya tiene un recuento de tres errores, también está segmentado y, de nuevo, no se entrega: dos veces. Se contabilizan dos errores más.
+* Envía otro correo electrónico el miércoles. El `emma.jones@mail.com`, que ya tiene un recuento de tres errores, también está dirigido y, de nuevo, no se puede entregar: dos veces. Se contabilizan dos errores más.
 
-Siempre que no se haya intentado realizar ninguna otra entrega y que la entrega se haya realizado correctamente entre esos dos correos electrónicos, la dirección emma.jones@mail.com se añade a la lista de supresión debido al impacto acumulado de los errores 3 + 2.
+Siempre que no se haya intentado realizar ninguna otra entrega entre esos dos correos electrónicos, la dirección `emma.jones@mail.com` se agrega a la lista de supresión debido al impacto acumulado de 3 + 2 errores.
 
 ## Reintentar edición de umbral {#edit-retry-threshold}
 
@@ -72,7 +72,7 @@ El **período de tiempo de reintento** es el período de tiempo en el que se rei
 
 De manera predeterminada, los reintentos se realizarán durante **3,5 días** (o **84 horas**) desde el momento en que se agregó el mensaje a la cola de correo electrónico.
 
-Sin embargo, para asegurarse de que los intentos de reintento no se realicen más cuando ya no sean necesarios, puede cambiar esta configuración según sus necesidades al crear o editar una [configuración de canal](channel-surfaces.md) (es decir, un ajuste preestablecido de mensaje) que se aplique al canal de correo electrónico.
+Sin embargo, para asegurarse de que los reintentos no se realicen más cuando ya no sean necesarios, puede cambiar esta configuración según sus necesidades al crear o editar una [configuración de canal](channel-surfaces.md) que se aplique al canal de correo electrónico.
 
 Por ejemplo, puede establecer el periodo de reintento en 24 horas para un correo electrónico transaccional relacionado con el restablecimiento de contraseña y que contenga un vínculo válido solo para un día. Del mismo modo, para una venta a medianoche, es posible que desee definir un periodo de reintento de 6 horas.
 
