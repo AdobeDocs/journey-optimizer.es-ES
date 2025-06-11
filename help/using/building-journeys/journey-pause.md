@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
+source-git-commit: 25f5f30bd91b281310727069b4543c9815b485c2
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 2%
@@ -86,7 +86,7 @@ Desde la lista de recorridos, puede pausar uno o varios recorridos **Live**. Par
 ## Cómo reanudar un recorrido pausado {#journey-resume-steps}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_pause"
+>id="ajo_journey_resume"
 >title="Reanudar el recorrido"
 >abstract="Reanude un recorrido pausado para permitir que los nuevos perfiles vuelvan a entrar. Si los perfiles estaban esperando durante la pausa, continuarán con su recorrido. Ideal para reiniciar los recorridos de forma segura después de actualizaciones o pausas."
 
