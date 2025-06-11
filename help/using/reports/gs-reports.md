@@ -5,10 +5,10 @@ title: Introducción a las capacidades de creación de informes y supervisión e
 description: Aprenda a trabajar con  [!DNL Adobe Journey Optimizer] funciones de informes y supervisión.
 role: User
 level: Beginner
-source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
+source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 2%
+source-wordcount: '435'
+ht-degree: 15%
 
 ---
 
@@ -98,4 +98,37 @@ Ahora que comprende los tipos de informes de **[!DNL Journey Optimizer]**, es ho
 <p>
 <p>
 </td>
+</tr></table>
+
+
+Todos los informes globales de tiempo están disponibles para todos sus canales. Seleccione el informe del canal que necesita para obtener más detalles.
+
+### Informes de canales salientes
+
+Seleccione un canal saliente para descubrir **informes globales permanentes** asociados.
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><img alt="Correo electrónico" src="../channels/assets/do-not-localize/email.png">
+<div align="center"><p><strong>Canal de correo electrónico</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>Informe de recorrido</strong></a></p></div></td>
+<td><a href="campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><p><strong>Canal de SMS</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>Informe de recorrido</strong></a></p></div></td>
+<td><a href="campaign-global-report-cja-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><p><strong>Canal push</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>Informe de recorrido</strong></a></p></div></td>
+<td><a href="campaign-global-report-cja-direct.md"><img alt="Correo directo" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><p><strong>Canal de correo directo</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>Informe de recorrido</strong></a></p></div></td>
+</tr></table>
+
+### Informes de experiencias entrantes
+
+Seleccione una experiencia entrante para descubrir **informes globales permanentes** asociados.
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><img alt="En la aplicación" src="../channels/assets/do-not-localize/inapp.jpg">
+<div align="center"><p><strong>Canal en la aplicación</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>Informe de recorrido</strong></a></p></div></td>
+<td><p><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></p>
+<div align="center"><p><strong>Canal web</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Informe de recorrido</strong></a></p></div></td>
+<td><img alt="Experiencia basada en código" src="../channels/assets/do-not-localize/code.png">
+<div align="center"><p><strong>Experiencias basadas en código</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Informe de campaña</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Informe de recorrido</strong></a></p></div></td>
+<td><img alt="Tarjetas de contenido" src="../channels/assets/do-not-localize/cards.png">
+<div align="center"><p><strong>Tarjetas de contenido</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Informe de recorrido</strong></a></p></div></td>
 </tr></table>
