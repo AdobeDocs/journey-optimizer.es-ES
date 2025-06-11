@@ -98,4 +98,4 @@ Seleccione una experiencia entrante para descubrir **informes globales permanent
 
 El siguiente vídeo muestra cómo utilizar los informes mejorados de Journey Optimizer con Customer Journey Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430413)
+>[!VIDEO](https://video.tv.adobe.com/v/3443154?captions=spa)
