@@ -1,21 +1,21 @@
 ---
-title: Identificador suplementario en recorridos activados por eventos
+title: Identificador adicional en recorridos activados por eventos
 description: Aprenda a utilizar un identificador suplementario en recorridos activados por eventos.
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# Identificador suplementario en recorridos activados por eventos {#supplemental-id}
+# Identificador adicional en recorridos activados por eventos {#supplemental-id}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
->title="Usar identificador suplementario"
->abstract="El identificador suplementario es un identificador secundario que proporciona contexto adicional para la ejecución de un recorrido. Para definirlo, seleccione el campo que desea utilizar como identificador suplementario y elija un espacio de nombres al que asociarlo."
+>title="Usar identificador adicional"
+>abstract="El identificador adicional es un identificador secundario que proporciona contexto adicional para la ejecución de un recorrido. Para definirlo, seleccione el campo que desea utilizar como identificador adicional y elija un espacio de nombres al que asociarlo."
 
 >[!AVAILABILITY]
 >
