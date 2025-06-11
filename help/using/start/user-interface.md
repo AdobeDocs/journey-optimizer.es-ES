@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6eb552466cbd25b9ddf0e02bad75c8c750b1f738
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 89%
+source-wordcount: '1694'
+ht-degree: 87%
 
 ---
 
@@ -226,7 +226,8 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 
 <!--ORCHESTRATED CAMPAIGNS - Overview page-->
 
-<!--ORCHESTRATED CAMPAIGNS SKU only-->
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS SKU only-->
 
 
 >[!CONTEXTUALHELP]
@@ -255,7 +256,7 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 >title="Canales disponibles"
 >abstract="Correo electrónico, SMS, notificaciones push, correo directo"
 
-<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
@@ -268,6 +269,30 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 >id="ajo_oc_jo_camppaign_ovv_2"
 >title="Canales disponibles"
 >abstract="Correo electrónico, SMS, notificaciones push, en la aplicación, web, experiencias basadas en código"
+
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_1"
+>title="Campañas activadas por API transaccionales"
+>abstract="Déclencheur de mensajes en tiempo real mediante llamadas API"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_2"
+>title="Mensajes de marketing"
+>abstract="Contenido promocional (requiere la inclusión, sujeto a las reglas comerciales)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_3"
+>title="Mensajes transaccionales"
+>abstract="Contenido relacionado con el servicio (confirmación, alertas, no sujeto al consentimiento de marketing)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_4"
+>title="Canales disponibles"
+>abstract="Correo electrónico, SMS, notificaciones push"
 
 <!--APPROVAL POLICIES-->
 
