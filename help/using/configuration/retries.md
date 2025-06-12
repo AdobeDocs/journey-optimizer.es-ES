@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: reintentos, rebote, suave, optimizador, error
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: e422a62f49864c89bdaaab2d4b7622dc90163a71
+source-git-commit: 0db7f514a2604ad09fbd9863a51d3c86d69eac41
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 9%
+source-wordcount: '567'
+ht-degree: 8%
 
 ---
 
@@ -46,7 +46,8 @@ Siempre que no se haya intentado realizar ninguna otra entrega entre esos dos co
 >id="ajo_admin_suppression_list_bounces"
 >title="Actualizar el umbral de reintentos"
 >abstract="Si el valor predeterminado no se ajusta a sus necesidades, puede modificar el número permitido de mensajes devueltos no entregados consecutivos. Cuando el recuento de reintentos alcanza el umbral de error para una dirección de correo electrónico específica, esta dirección se agrega a la lista de supresión."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=es" text="Comprender la lista de supresión"
+<!--
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"-->
 
 Si el valor predeterminado de 5 no se adapta a sus necesidades, puede modificar el umbral de error siguiendo los pasos a continuación.
 
