@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 37%
+source-wordcount: '356'
+ht-degree: 36%
 
 ---
 
@@ -39,10 +39,12 @@ ht-degree: 37%
 
 Antes de enviar SMS o MMS, debe configurar el entorno de Adobe Journey Optimizer. Para realizar esto:
 
-1. Integre la configuración del proveedor con Journey Optimizer:
-   * [Con Sinch](sms-configuration-sinch.md)
-   * [Con Infobip](sms-configuration-infobip.md)
-   * [Con un proveedor personalizado](sms-configuration-custom.md)
+1. Integre la configuración del proveedor con Journey Optimizer.
+Los pasos dependen del proveedor de SMS. Examine los vínculos siguientes para acceder a la documentación detallada:
+   * [Infobip](sms-configuration-infobip.md)
+   * [Sinch](sms-configuration-sinch.md)
+   * [Twilio](sms-configuration-twilio.md)
+   * [Proveedor personalizado](sms-configuration-custom.md)
 1. [Creación de una configuración de SMS](sms-configuration-surface.md)
 
 Estos pasos debe realizarlos un administrador del sistema [de Adobe Journey Optimizer](../start/path/administrator.md).

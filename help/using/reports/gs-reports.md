@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción a las capacidades de creación de informes y supervisión en  [!DNL Adobe Journey Optimizer]
-description: Aprenda a trabajar con  [!DNL Adobe Journey Optimizer] funciones de informes y supervisión.
+title: Introducción a las capacidades de creación de informes en  [!DNL Adobe Journey Optimizer]
+description: Obtenga información sobre cómo acceder a  [!DNL Adobe Journey Optimizer] informes y trabajar con ellos.
 role: User
 level: Beginner
-source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '432'
 ht-degree: 15%
 
 ---
