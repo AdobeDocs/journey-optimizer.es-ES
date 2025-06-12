@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 25f5f30bd91b281310727069b4543c9815b485c2
+source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 2%
+source-wordcount: '1199'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Puede pausar los recorridos activos, realizar todos los cambios necesarios y rea
 
 >[!AVAILABILITY]
 >
->Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+>Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una versión futura.
 
 
 ## Ventajas principales {#journey-dry-run-benefits}

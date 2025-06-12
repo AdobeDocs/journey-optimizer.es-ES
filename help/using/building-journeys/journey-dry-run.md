@@ -11,10 +11,10 @@ hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
+source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 6%
+source-wordcount: '917'
+ht-degree: 4%
 
 ---
 
@@ -36,7 +36,7 @@ Recorrido Dry run es un modo especial de publicación de recorrido en Adobe Jour
 
 >[!AVAILABILITY]
 >
->Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+>Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una versión futura.
 
 
 ## Ventajas principales {#journey-dry-run-benefits}
