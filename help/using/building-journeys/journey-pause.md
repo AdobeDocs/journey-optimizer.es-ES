@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
+source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -123,13 +123,13 @@ Por ejemplo, para excluir todos los clientes franceses de un recorrido en pausa,
 
 1. Haga clic en el icono **Criterios de salida y filtro global**.
 
-   ![Agregar un filtro global a un recorrido en pausa](assets/add-global-filter.png){width="50%" align="left"}
+   ![Agregar un filtro global a un recorrido en pausa](assets/add-global-filter.png)
 
 1. En la configuración de **Criterios de salida y filtro global**, haga clic en **Agregar filtro global** para definir un filtro basado en atributos de perfil.
 
 1. Establezca la expresión para excluir perfiles donde el atributo de país sea igual a Francia.
 
-   ![Agregar un filtro global a un recorrido en pausa](assets/add-country-filter.png){width="50%" align="left"}
+   ![Agregar un filtro global a un recorrido en pausa](assets/add-country-filter.png)
 
 1. Guarde el filtro y haga clic en el botón **Actualizar recorrido** para aplicar los cambios.
 
