@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
+source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -167,7 +167,7 @@ Tenga en cuenta que las exclusiones de perfiles para perfiles que se encuentran 
 
 Veamos el ejemplo del recorrido siguiente:
 
-![Muestra de un recorrido](assets/pause-journey-sample.png){width="50%" align="left"}
+![Muestra de un recorrido](assets/pause-journey-sample.png)
 
 Al pausar este recorrido, selecciona si los perfiles son **Descartados** o **Retenidos** y luego la administración de perfiles es la siguiente:
 
