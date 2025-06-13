@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 17%
+ht-degree: 22%
 
 ---
 
@@ -81,7 +81,7 @@ Además de este conjunto de reglas &quot;Conjunto de reglas predeterminado globa
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="Límite de reglas"
->abstract="Establezca la restricción de la regla. En función del dominio del conjunto de reglas y de la selección en el campo Tipo de regla, este campo puede definir el número máximo de mensajes que se pueden enviar a un perfil o el número máximo de recorridos que el perfil puede introducir o en los que se puede inscribir simultáneamente."
+>abstract="Establezca la restricción de la regla. En función del dominio del conjunto de reglas y de la selección del campo Tipo de regla, este campo puede definir el número máximo de mensajes que se pueden enviar a un perfil o el número máximo de recorridos que el perfil puede introducir o en los que puede estar inscrito simultáneamente."
 
 Para crear un conjunto de reglas, siga los pasos a continuación.
 
@@ -164,4 +164,4 @@ Su estado cambiará a **[!UICONTROL Inactivo]** y la regla no se aplicará a fut
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444729?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

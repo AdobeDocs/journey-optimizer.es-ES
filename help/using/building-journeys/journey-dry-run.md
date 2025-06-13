@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Recorrido Dry run
+title: 'Simulación del recorrido '
 description: Obtenga información sobre cómo publicar un recorrido en el modo de ejecución en seco
 feature: Journeys
 role: User
@@ -14,11 +14,11 @@ exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# Recorrido Dry run {#journey-dry-run}
+# Simulación del recorrido  {#journey-dry-run}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
