@@ -30,7 +30,7 @@ ht-degree: 61%
 
 **Fecha de la versión**: 17 y 18 de junio de 2025
 
-Ver también [Notas de la versión preliminar de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Ver también [Notas de la versión preliminar de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 ### Nuevas funciones {#25-06-features}
 
