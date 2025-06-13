@@ -41,7 +41,7 @@ Esta capacidad reduce el riesgo de enviar mensajes no deseados durante errores o
 >
 >* Los permisos para pausar y reanudar recorridos están restringidos a los usuarios con el permiso de alto nivel **[!DNL Publish journeys]**. Obtenga más información acerca de la administración de los derechos de acceso de los usuarios de [!DNL Journey Optimizer] en [esta sección](../administration/permissions-overview.md).
 >
->* Antes de empezar a usar la capacidad de pausa/reanudación, [lea las protecciones y limitaciones](journey-pause-guardrails).
+>* Antes de empezar a usar la capacidad de pausa/reanudación, [lea las protecciones y limitaciones] (journey-pause-guardrails).
 
 
 ## Pausa de un recorrido {#journey-pause-steps}
