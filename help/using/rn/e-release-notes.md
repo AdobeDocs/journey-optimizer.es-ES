@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: eff3f2fb4d1c369e77a22013ae1576b57449a8b7
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1000'
 ht-degree: 35%
 
 ---
@@ -45,7 +45,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>La mensajería RCS (servicios de comunicación enriquecidos) ahora es compatible con Journey Optimizer, lo que permite las siguientes funciones de mensajería mejoradas sujetas a la compatibilidad de operadores:</p>
+<p>La mensajería RCS (servicios de comunicación enriquecidos) ahora es compatible con Journey Optimizer, lo que permite las siguientes funciones de mensajería mejoradas sujetas a la compatibilidad del proveedor y el operador:</p>
 <ul>
 <li>Compatibilidad con remitentes de marca y verificados: envía mensajes utilizando perfiles comerciales verificados con elementos de marca (logotipo, nombre del remitente, etc.).</li>
 <li>Perspectivas de entrega de mensajes: reciba informes de entrega detallados que incluyan actualizaciones del estado del mensaje (por ejemplo, enviado, entregado, leído).</li>
