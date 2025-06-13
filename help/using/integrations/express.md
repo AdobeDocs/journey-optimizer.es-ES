@@ -10,9 +10,9 @@ role: User
 level: Beginner
 keywords: recursos, integración
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bba2fd3b481c582f33ffad79d1f1c1327143f108
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '549'
 ht-degree: 11%
 
 ---
@@ -41,26 +41,19 @@ Para acceder al menú **[!DNL Adobe Express]**, accede a tu **configuración de 
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
-## Licencia de Adobe Express Enterprise {#licence}
+## Uso de Adobe Express con una licencia empresarial {#licence}
 
 Los usuarios sin licencia de Adobe Express Enterprise pueden acceder a las funciones detalladas en las secciones siguientes.
 
-Con una licencia Enterprise, los usuarios obtienen acceso completo al editor de Adobe Express, lo que les permite modificar las imágenes ajustando el color, el brillo, la nitidez, el contraste, las dimensiones y la configuración adicional.
+Con una licencia Enterprise, los usuarios tienen acceso completo al editor web de Adobe Express, lo que les permite ajustar la configuración de los recursos, generar contenido con Firefly, agregar texto y aplicar personalizaciones adicionales.
 
 ![](assets/express-licence.png)
 
-+++Casos de uso disponibles para usuarios con una licencia Enterprise para Adobe Express
+Para obtener más información sobre los casos de uso disponibles para los usuarios con una licencia Enterprise para Adobe Express, consulte [Documentación web de Adobe Express](https://helpx.adobe.com/express/web.html).
 
-* [Quitar fondo](https://helpx.adobe.com/es/express/create-and-edit-images/edit-images/remove-background.html)
-* [Quitar objetos](https://helpx.adobe.com/es/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [Borrar](https://helpx.adobe.com/es/express/create-and-edit-images/edit-images/eraser.html)
-* [Insertar objeto](https://helpx.adobe.com/es/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [Recortar](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [Efectos](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+## Uso de Adobe Express sin una licencia empresarial  {#edit}
 
-+++
-
-## Redimensionar imagen {#resize}
+### Redimensionar imagen {#resize}
 
 1. En el menú Adobe Express, seleccione **[!UICONTROL Cambiar tamaño de imagen]**.
 
@@ -84,7 +77,7 @@ Con una licencia Enterprise, los usuarios obtienen acceso completo al editor de 
 
 La imagen ya está lista para utilizarse en el contenido.
 
-## Quitar fondo {#background}
+### Quitar fondo {#background}
 
 1. En el menú Adobe Express, seleccione **[!UICONTROL Quitar fondo]**.
 
@@ -104,7 +97,7 @@ La imagen ya está lista para utilizarse en el contenido.
 
 La imagen ya está lista para utilizarse en el contenido.
 
-## Recortar imagen {#crop-image}
+### Recortar imagen {#crop-image}
 
 1. En el menú Adobe Express, seleccione **[!UICONTROL Recortar imagen]**.
 
@@ -122,7 +115,7 @@ La imagen ya está lista para utilizarse en el contenido.
 
 La imagen ya está lista para utilizarse en el contenido.
 
-## Convertir a JPEG o PNG {#convert}
+### Convertir a JPEG o PNG {#convert}
 
 1. En el menú Adobe Express, seleccione **[!UICONTROL Convertir a JPEG]** o **[!UICONTROL Convertir a PNG]** según el formato original de la imagen.
 
@@ -144,12 +137,11 @@ La imagen ya está lista para utilizarse en el contenido.
 
 La imagen ya está lista para utilizarse en el contenido.
 
-
 ## Vídeo práctico {#video}
 
 Obtenga información sobre cómo editar los recursos en Adobe Journey Optimizer con las herramientas de Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455526/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
