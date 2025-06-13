@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdominio, delegación, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 229f335f4a5880bd310fe2d522ab6b3d3160d72b
+source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2011'
 ht-degree: 21%
 
 ---
@@ -243,10 +243,10 @@ Una vez que Adobe administra la solicitud, el dominio no delegado ya no se muest
 
 >[!CAUTION]
 >
->Después de anular la delegación de un subdominio:
+>Después de desdelegar un subdominio, se aplica lo siguiente:
 >
->   * No puede reactivar las configuraciones de canal que utilizaban ese subdominio.
->   * No puede volver a delegar el subdominio exacto a través de la interfaz de usuario. Si desea hacerlo, póngase en contacto con su representante de Adobe.
+>* No puede reactivar las configuraciones de canal que utilizaban ese subdominio.
+>* No puede volver a delegar el mismo subdominio a través de la interfaz de usuario. Si desea hacerlo, póngase en contacto con su representante de Adobe.
 
 ## Vídeo práctico{#video}
 
