@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '2182'
-ht-degree: 15%
+source-wordcount: '2195'
+ht-degree: 14%
 
 ---
 
@@ -31,26 +31,9 @@ Veamos como ejemplo la audiencia &quot;Cierre de compra y apertura de la aplicac
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
-## Mecanismos de protección y recomendaciones {#must-read}
-
-* Solo se puede usar una actividad **[!UICONTROL Leer audiencia]** en un recorrido, y debe ser la primera actividad en el lienzo.
-
-* La actividad **[!UICONTROL Leer audiencia]** solo puede dirigirse a una audiencia. Si se requieren varias audiencias, considere la posibilidad de combinarlas en una sola antes de utilizarlas. [Aprenda a combinar audiencias mediante flujos de trabajo de composición](../audience/get-started-audience-orchestration.md)
-
-* Para los recorridos que utilizan una actividad **Leer público**, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evitará tener más de cinco recorridos (con **Leer audiencia**, programados o que se inicien &quot;lo antes posible&quot;) que empiecen al mismo tiempo. La práctica recomendada es difundirlas a lo largo del tiempo, por ejemplo, con una diferencia de 5 a 10 minutos.
-
-* Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por una actividad de **Leer audiencia**, una actividad de **[calificación de audiencia](audience-qualification-events.md)** o una actividad de evento empresarial.
-
-* Como práctica recomendada, recomendamos que solo use audiencias por lotes en una actividad **Leer audiencia**. Esto proporciona un recuento fiable y coherente de las audiencias utilizadas en un recorrido. La audiencia de lectura está diseñada para casos de uso por lotes. Si su caso de uso necesita datos en tiempo real, utilice la actividad **[Calificación de audiencias](audience-qualification-events.md)**.
-
-* Las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) se pueden seleccionar en la actividad **Leer audiencia**. Estas audiencias no están disponibles en la actividad **Calificación de audiencias**.
-
-Las protecciones relacionadas con la actividad **Leer audiencia** se enumeran en [esta página](../start/guardrails.md#read-segment-g).
-
-
 >[!CAUTION]
 >
->Las [protecciones para la segmentación y los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"} también se aplican a Adobe Journey Optimizer.
+>* Antes de empezar a usar la actividad Leer audiencia, [lea las protecciones y limitaciones](#must-read).
 
 ## Configuración de la actividad {#configuring-segment-trigger-activity}
 
@@ -68,7 +51,7 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes.
 
    >[!NOTE]
    >
-   >Además, también puede segmentar audiencias de Adobe Experience Platform creadas con [composiciones de audiencias](../audience/get-started-audience-orchestration.md) o [cargadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#import-audience){target="_blank"}.
+   >Además, también puede segmentar audiencias de Adobe Experience Platform creadas con [composiciones de audiencias](../audience/get-started-audience-orchestration.md) o [cargadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Tenga en cuenta que puede personalizar las columnas mostradas en la lista y ordenarlas.
 
@@ -82,13 +65,35 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes.
 
    >[!NOTE]
    >
-   >Solo las personas con el estado de participación en la audiencia **Realized** entrarán al recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Solo las personas con el estado de participación en la audiencia **Realized** entrarán al recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. En el campo **[!UICONTROL Espacio de nombres]**, elija el espacio de nombres que desea utilizar para identificar a los individuos. De forma predeterminada, el campo está rellenado previamente con el último área de nombres utilizado. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
    >Las personas que pertenecen a una audiencia que no tiene la identidad seleccionada (área de nombres) entre sus diferentes identidades no pueden entrar en el recorrido. Solo puede seleccionar un área de nombres de identidad basada en personas. Si ha definido un área de nombres para una tabla de búsqueda (por ejemplo: área de nombres ProductID para una búsqueda de productos), no estará disponible en la lista desplegable **Área de nombres**.
+
+### Mecanismos de protección y recomendaciones {#must-read}
+
+* Solo se puede usar una actividad **[!UICONTROL Leer audiencia]** en un recorrido, y debe ser la primera actividad en el lienzo.
+
+* La actividad **[!UICONTROL Leer audiencia]** solo puede dirigirse a una audiencia. Si se requieren varias audiencias, considere la posibilidad de combinarlas en una sola antes de utilizarlas. [Aprenda a combinar audiencias mediante flujos de trabajo de composición](../audience/get-started-audience-orchestration.md)
+
+* Para los recorridos que utilizan una actividad **Leer público**, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evitará tener más de cinco recorridos (con **Leer audiencia**, programados o que se inicien &quot;lo antes posible&quot;) que empiecen al mismo tiempo. La práctica recomendada es difundirlas a lo largo del tiempo, por ejemplo, con una diferencia de 5 a 10 minutos.
+
+* Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por una actividad de **Leer audiencia**, una actividad de **[calificación de audiencia](audience-qualification-events.md)** o una actividad de evento empresarial.
+
+* Como práctica recomendada, recomendamos que solo use audiencias por lotes en una actividad **Leer audiencia**. Esto proporciona un recuento fiable y coherente de las audiencias utilizadas en un recorrido. La audiencia de lectura está diseñada para casos de uso por lotes. Si su caso de uso necesita datos en tiempo real, utilice la actividad **[Calificación de audiencias](audience-qualification-events.md)**.
+
+* Las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) se pueden seleccionar en la actividad **Leer audiencia**. Estas audiencias no están disponibles en la actividad **Calificación de audiencias**.
+
+Las protecciones relacionadas con la actividad **Leer audiencia** se enumeran en [esta página](../start/guardrails.md#read-segment-g).
+
+
+>[!CAUTION]
+>
+>Las [protecciones para la segmentación y los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es){target="_blank"} también se aplican a Adobe Journey Optimizer.
+
 
 ### Administración de la entrada de perfiles en el recorrido
 
@@ -287,4 +292,4 @@ Los déclencheur de **Leer audiencia** que no se hayan realizado correctamente s
 
 Comprenda los casos de uso pertinentes para un recorrido que se desencadena por la actividad de lectura del público. Obtenga información sobre cómo crear recorridos basados en lotes y qué prácticas recomendadas aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430360?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

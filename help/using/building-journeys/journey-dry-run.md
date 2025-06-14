@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '930'
 ht-degree: 5%
 
 ---
@@ -56,25 +56,10 @@ Recorrido Dry run trae:
 
 >[!CAUTION]
 >
->Los permisos para iniciar la ejecución en seco están restringidos a los usuarios con el permiso de alto nivel **[!DNL Publish journeys]**. Los permisos para detener la ejecución en seco están restringidos a los usuarios con el permiso de alto nivel **[!DNL Manage journeys]**. Obtenga más información acerca de la administración de los derechos de acceso de los usuarios de [!DNL Journey Optimizer] en [esta sección](../administration/permissions-overview.md).
+>* Los permisos para iniciar la ejecución en seco están restringidos a los usuarios con el permiso de alto nivel **[!DNL Publish journeys]**. Los permisos para detener la ejecución en seco están restringidos a los usuarios con el permiso de alto nivel **[!DNL Manage journeys]**. Obtenga más información acerca de la administración de los derechos de acceso de los usuarios de [!DNL Journey Optimizer] en [esta sección](../administration/permissions-overview.md).
+>
+>* Antes de empezar a usar la capacidad de ejecución en seco, [lea las protecciones y limitaciones](#journey-dry-run-limitations).
 
-
-## Mecanismos de protección y limitaciones {#journey-dry-run-limitations}
-
-* El modo de ejecución en seco no está disponible para recorridos que contengan eventos de reacción.
-* Los perfiles en el modo de ejecución en seco se cuentan como perfiles atractivos.
-* Los recorridos de ejecución en seco no afectan a las reglas empresariales.
-* Al crear una nueva versión de recorrido, si una versión de recorrido anterior es **Live**, la activación de ejecución en seco no está permitida en la nueva versión.
-* Recorrido La ejecución en seco genera stepEvents. Estos stepEvents tienen un indicador específico y un ID de ejecución seca:
-   * `_experience.journeyOrchestration.stepEvents.inDryRun` devuelve `true` si la ejecución en seco está activada y `false` en caso contrario
-   * `_experience.journeyOrchestration.stepEvents.dryRunID` devuelve el ID de una instancia de ejecución en seco
-* Durante la ejecución en seco, el recorrido se ejecuta con las siguientes especificidades:
-
-   * **Los nodos de acción del canal**, incluidas las notificaciones por correo electrónico, SMS o push, no se ejecutan.
-   * **Las acciones personalizadas** se deshabilitaron durante la ejecución en seco y sus respuestas se establecieron en null.
-   * **Los nodos de espera** se omiten durante la ejecución en seco.
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **Las fuentes de datos**, incluidas las fuentes de datos externas, se ejecutan de manera predeterminada.
 
 ## Iniciar una ejecución en seco {#journey-dry-run-start}
 
@@ -132,3 +117,20 @@ Los recorridos de ejecución en seco **deben** detenerse manualmente.
 Haga clic en el botón **Cerrar** para finalizar la prueba y luego haga clic en **Volver al borrador** para confirmar.
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
+
+## Mecanismos de protección y limitaciones {#journey-dry-run-limitations}
+
+* El modo de ejecución en seco no está disponible para recorridos que contengan eventos de reacción.
+* Los perfiles en el modo de ejecución en seco se cuentan como perfiles atractivos.
+* Los recorridos de ejecución en seco no afectan a las reglas empresariales.
+* Al crear una nueva versión de recorrido, si una versión de recorrido anterior es **Live**, la activación de ejecución en seco no está permitida en la nueva versión.
+* Recorrido La ejecución en seco genera stepEvents. Estos stepEvents tienen un indicador específico y un ID de ejecución seca:
+   * `_experience.journeyOrchestration.stepEvents.inDryRun` devuelve `true` si la ejecución en seco está activada y `false` en caso contrario
+   * `_experience.journeyOrchestration.stepEvents.dryRunID` devuelve el ID de una instancia de ejecución en seco
+* Durante la ejecución en seco, el recorrido se ejecuta con las siguientes especificidades:
+
+   * **Los nodos de acción del canal**, incluidas las notificaciones por correo electrónico, SMS o push, no se ejecutan.
+   * **Las acciones personalizadas** se deshabilitaron durante la ejecución en seco y sus respuestas se establecieron en null.
+   * **Los nodos de espera** se omiten durante la ejecución en seco.
+     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+   * **Las fuentes de datos**, incluidas las fuentes de datos externas, se ejecutan de manera predeterminada.

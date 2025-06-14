@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -113,7 +113,7 @@ Para reanudar un recorrido en pausa y comenzar a escuchar eventos de recorrido d
 Desde la lista de sus recorridos, puede reanudar uno o varios **recorridos pausados**. Para reanudar un grupo de recorridos (_reanudación masiva_), selecciónelos y haga clic en el botón **Reanudar** ubicado en la barra azul en la parte inferior de la pantalla. Tenga en cuenta que el botón **Reanudar** solo estará disponible cuando se seleccionen **recorridos en pausa**.
 
 
-## Aplicación de un filtro global a perfiles en un recorrido pausado  {#journey-global-filters}
+## Aplicación de un filtro global a perfiles en un recorrido pausado {#journey-global-filters}
 
 Cuando un recorrido está en pausa, puede aplicar un filtro global basado en atributos de perfil. Este filtro habilita la exclusión de perfiles que coinciden con la expresión definida en el momento de la reanudación. Una vez establecido el filtro global, se aplica a los nodos de acción, incluso para la entrada de nuevos perfiles. Los perfiles que coincidan con los criterios y los nuevos perfiles que entren se excluirán del recorrido **en el siguiente nodo de acción** que encuentren.
 
