@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 187ddc49d72a0ed5ce0ad6f7b910815ae2e59d34
+source-git-commit: 33b60693d060e37873f9d505d0893839698036a8
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2011'
 ht-degree: 0%
 
 ---
@@ -148,39 +148,42 @@ Tenga en cuenta que las exclusiones de perfiles para perfiles que se encuentran 
 
 ## Mecanismos de protección y limitaciones {#journey-pause-guardrails}
 
-* Una versión de recorrido se puede pausar durante un máximo de 14 días.
-* Los recorridos en pausa se consideran en todas las reglas de negocio, del mismo modo que si estuvieran activos.
-* Los perfiles se &quot;descartan&quot; en un recorrido pausado cuando llegan a una actividad de acción. Si permanecen en espera durante el tiempo en que se pausa un recorrido y salen después de que se haya reanudado, continuarán con el recorrido y no se descartarán.
-* Incluso después de la pausa, a medida que los eventos se siguen procesando, estos eventos se contarán hacia el número de Eventos de Recorrido por segundo de cuota, después de lo cual la restricción se obtiene por unitaria.
-* Los perfiles que habían entrado en el recorrido pero que se descartaron durante la pausa se contarían como perfiles atractivos.
+* Una versión de recorrido se puede pausar durante un máximo de 14 días
+* Los recorridos en pausa se cuentan hacia la cuota de recorridos activos
+* Los perfiles que habían entrado en el recorrido pero que se descartaron durante la pausa se contarían como perfiles atractivos
+* Los recorridos en pausa se consideran en todas las reglas de negocio, de la misma manera que si estuvieran activos
+* El tiempo de espera global de recorrido sigue aplicándose a los recorridos en pausa. Por ejemplo, si un perfil estuvo en un recorrido durante 90 días y el recorrido está en pausa, este perfil seguirá saliendo del recorrido el día 91
+* Los perfiles se **descartan** en un recorrido pausado cuando llegan a una actividad de acción. Si permanecen en espera durante el tiempo en que se pausa un recorrido y salen después de que se haya reanudado, continuarán con el recorrido y no se descartarán. [Ver la muestra de extremo a extremo](#journey-pause-sample)
+* Incluso después de la pausa, a medida que los eventos se siguen procesando, estos eventos se contarán hacia el número de Eventos de Recorrido por segundo de cuota, después de lo cual la restricción se obtiene por unitaria
 * Cuando los perfiles se mantienen en un recorrido pausado, en el momento de la reanudación se actualizan los atributos del perfil
-* Las condiciones se siguen ejecutando en recorridos pausados, por lo que si un recorrido se ha pausado debido a problemas de calidad de datos, cualquier condición anterior a un nodo de acción se puede evaluar con datos incorrectos.
-* Para el recorrido de audiencia de lectura incremental basado en audiencias, se tiene en cuenta la duración de la pausa. Por ejemplo, para un recorrido diario, si se pausó el 2 y se reanudó el 5 del mes, la ejecución del 6 tomará todos los perfiles que se hayan clasificado del 1 al 6. Este no es el caso de la calificación de audiencias o de los recorridos basados en eventos (si se recibe una calificación de audiencia o un evento durante una pausa, esos eventos se descartan).
-* Los recorridos en pausa se cuentan hacia la cuota de recorridos activos.
-* El tiempo de espera global de recorrido sigue aplicándose a los recorridos en pausa. Por ejemplo, si un perfil estuvo en un recorrido durante 90 días y el recorrido está en pausa, este perfil seguirá saliendo del recorrido el día 91.
-* Si los perfiles se mantienen en un recorrido y este recorrido se reanuda automáticamente pasados unos días, los perfiles continúan con el recorrido y no se pierden. Si desea soltarlos, debe detener el recorrido.
-* En los recorridos en pausa, las alertas no se activan para las alertas de segmentos por lotes.
-* No hay registros de auditoría en el sistema cuando el estado de pausa de la recorrido después de 14 días finaliza.
-* Algunos perfiles descartados pueden ser visibles en el Evento de paso de Recorrido, pero no en los informes. Por ejemplo: descartar eventos empresariales para la audiencia de lectura, los trabajos de audiencia de lectura se pierden debido a un recorrido pausado, los eventos descartados cuando la actividad de evento fue después de una acción en la que el perfil estaba esperando.
-  <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
+* Las condiciones se siguen ejecutando en recorridos en pausa, por lo que si un recorrido se ha pausado debido a problemas de calidad de datos, cualquier condición anterior a un nodo de acción se puede evaluar con datos incorrectos
+* Para recorridos de **audiencia de lectura** basados en audiencias incrementales, se tiene en cuenta la duración de la pausa. Por ejemplo, para un recorrido diario, si se pausó el 2 y se reanudó el 5 del mes, la ejecución del 6 tomará todos los perfiles que se hayan clasificado del 1 al 6. Este no es el caso de la calificación de audiencias o de los recorridos basados en eventos (si se recibe una calificación de audiencia o un evento durante una pausa, esos eventos se descartan)
+* Si los perfiles se mantienen en un recorrido y este recorrido se reanuda automáticamente pasados unos días, los perfiles continúan con el recorrido y no se pierden. Si desea soltarlos, debe detener el recorrido
+* En los recorridos en pausa, las alertas no se activan para las alertas de segmentos por lotes
+* No hay registros de auditoría en el sistema cuando después de 14 días de pausa se finaliza el estado de la recorrido
+* Algunos perfiles descartados pueden ser visibles en el Evento de paso de Recorrido, pero no en los informes. Por ejemplo:
+   * Descartar eventos empresariales de **Leer audiencia**
+   * Se han eliminado **leer audiencia** trabajos debido a un recorrido pausado
+   * Se descartaron eventos cuando la actividad **Event** era posterior a una acción en la que el perfil estaba esperando
+     <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## Muestra de extremo a extremo {#journey-pause-sample}
 
 Veamos el ejemplo del recorrido siguiente:
 
-![Muestra de un recorrido](assets/pause-journey-sample.png)
+![Muestra de un recorrido](assets/pause-journey-sample.png){zoomable="yes"}
 
 Al pausar este recorrido, selecciona si los perfiles son **Descartados** o **Retenidos** y luego la administración de perfiles es la siguiente:
 
-1. Actividad **AddToCart**: todas las entradas de perfiles nuevos están bloqueadas. Si un perfil ya ha entrado en el recorrido antes de una pausa, continuará hasta el siguiente nodo de acción.
+1. Actividad **AddToCart**: todas las entradas de perfiles nuevos están bloqueadas. Si un perfil ya ha entrado en el recorrido antes de una pausa, continúa hasta el siguiente nodo de acción.
 1. Actividad **Wait**: los perfiles siguen esperando normalmente en el nodo y lo cerrarán, incluso si el recorrido está en pausa.
 1. **Condición**: los perfiles siguen atravesando condiciones y se mueven a la rama derecha, según la expresión definida en la condición.
 1. Actividades **Push**/**Email**: durante un recorrido en pausa, los perfiles comienzan a esperar o se descartan (según la elección hecha por el usuario en el momento de la pausa) en el siguiente nodo de acción. Por lo tanto, los perfiles empezarán a esperar o se descartarán allí.
-1. **Eventos** después de nodos de acción: si un perfil está esperando en un nodo de acción y hay un evento después de él, si ese evento se activa, el perfil se descartará.
+1. **Eventos** después de **nodos de acción**: si un perfil está esperando en un nodo **Acción** y hay una actividad **Evento** después de él, si ese evento se activa, el perfil se descarta.
 
-Según este comportamiento, puede ver que los números de perfiles aumentan cuando se pausa el recorrido, principalmente en las actividades antes de las acciones. Por ejemplo, en ese ejemplo, Wait se ignora, lo que aumenta el número de perfiles que pasan por la actividad Condition.
+Según este comportamiento, puede ver que los números de perfiles aumentan cuando se pausa el recorrido, sobre todo en las actividades anteriores a **Action**. Por ejemplo, en ese ejemplo, la actividad **Wait** se omite, lo que aumenta el número de perfiles que pasan por la actividad **Condition**.
 
 Cuando reanude este recorrido:
 
 1. Las nuevas entradas al recorrido comienzan en un minuto
-1. Los perfiles que estaban esperando actualmente en el recorrido de actividades de acción se reanudan a una velocidad de 5000 tps. A continuación, se introduce la acción que se estaba esperando y se continúa con el recorrido.
+1. Los perfiles que estaban esperando en el recorrido en las actividades **Action** se reanudan a una velocidad de 5.000 tps. Luego pueden ingresar la **Acción** que estaban esperando y continuar con el recorrido.
