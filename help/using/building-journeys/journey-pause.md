@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 8e5213cf51183c68e87c2cec9cb12984acf8151a
+source-git-commit: 437868d49f4bc4123e370b60d09ba0bf644e43d9
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 0%
@@ -185,5 +185,5 @@ Según este comportamiento, puede ver que los números de perfiles aumentan cuan
 
 Cuando reanude este recorrido:
 
-1. Las nuevas entradas al recorrido comienzan en un minuto
+1. Las nuevas entradas al recorrido comienzan en un minuto.
 1. Los perfiles que estaban esperando en el recorrido en las actividades **Action** se reanudan a una velocidad de 5.000 tps. Luego pueden ingresar la **Acción** que estaban esperando y continuar con el recorrido.
