@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 190f757853f65b7434319047760c2efb43d2d702
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 5%
+source-wordcount: '416'
+ht-degree: 4%
 
 ---
 
@@ -50,6 +50,17 @@ Tipo: booleano
 Cantidad de tiempo (en milisegundos) que se tarda en ejecutar una acción actual.
 
 Tipo: long
+
+>[!NOTE]
+>
+> El campo `actionExecutionTime` representa el tiempo total (en milisegundos) que se tarda en ejecutar la acción, incluido el tiempo que la solicitud ha estado esperando en la cola (si se ha configurado la restricción y se ha alcanzado el límite de velocidad) y el tiempo de ejecución real (incluida la latencia de red al extremo externo).
+>
+> El campo `Timestamp` indica la hora de finalización de la ejecución de la acción. Para determinar cuándo entró el perfil en el nodo de acción personalizada, reste `actionExecutionTime` de `Timestamp`.
+>
+>Por ejemplo, si `Timestamp` es &quot;2025-02-04 09:39:03 UTC&quot; y `actionExecutionTime` es 1.813.227 ms (~31 minutos), el perfil ingresó al nodo aproximadamente en &quot;2025-02-04 09:08:32 UTC&quot;.
+
+
+
 
 ## actionExecutionError {#actionexecutionerror-field}
 
