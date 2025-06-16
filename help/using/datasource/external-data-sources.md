@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
+source-git-commit: 71d1a7c305c33ab7bef91b82329ecb692445fb27
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 39%
+source-wordcount: '1674'
+ht-degree: 38%
 
 ---
 
@@ -229,9 +229,9 @@ Este es un ejemplo del tipo de autenticación del portador:
 
 >[!NOTE]
 >
->El token de autenticación se almacena en caché por recorrido: si dos recorridos utilizan la misma acción personalizada, cada recorrido tiene su propio token en caché. Ese token no se comparte entre esos recorridos.
+>* El token de autenticación se almacena en caché por recorrido: si dos recorridos utilizan la misma acción personalizada, cada recorrido tiene su propio token en caché. Ese token no se comparte entre esos recorridos.
 >
->La duración de la caché ayuda a evitar demasiadas llamadas a los extremos de autenticación. La retención del token de autenticación se almacena en caché en los servicios, no hay persistencia. Si se reinicia un servicio, se inicia con una caché limpia. La duración de la caché de forma predeterminada es de 1 hora. En la carga útil de autenticación personalizada, se puede adaptar especificando otra duración de retención.
+>* La duración de la caché ayuda a evitar demasiadas llamadas a los extremos de autenticación. La retención del token de autenticación se almacena en caché en los servicios, no hay persistencia. Si se reinicia un servicio, se inicia con una caché limpia. La duración de la caché de forma predeterminada es de 1 hora. En la carga útil de autenticación personalizada, se puede adaptar especificando otra duración de retención.
 >
 
 Este es un ejemplo del tipo de autenticación de encabezado:
@@ -269,3 +269,7 @@ A continuación, se muestra un ejemplo de la respuesta de la llamada de API de i
   "expiryDuration" : 5
 }
 ```
+
+>[!CAUTION]
+>
+>Al configurar la autenticación personalizada para una acción personalizada, tenga en cuenta que actualmente **no se admiten los objetos JSON anidados (por ejemplo, subobjetos dentro de `bodyParams`)**. En la carga útil de la solicitud final solo se incluyen pares de clave-valor plana. Si el extremo de autenticación requiere objetos anidados, puede que falten campos y errores de autenticación.
