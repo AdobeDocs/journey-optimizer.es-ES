@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: d1b1670992ba5da14f1a4d0bfab0a7b15b29dec3
+source-git-commit: 8e5213cf51183c68e87c2cec9cb12984acf8151a
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2021'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,8 @@ Para pausar el recorrido, siga estos pasos:
 
    Puede hacer lo siguiente:
 
-   * **Retener** perfiles: los perfiles esperarán a que se reanude el recorrido
-   * **Descartar** perfiles: los perfiles se excluirán del recorrido en el siguiente nodo de acción
+   * **Retener** perfiles: los perfiles esperarán al siguiente nodo **Acción** para que se reanude el recorrido
+   * **Descartar** perfiles: los perfiles se excluirán del recorrido en el siguiente nodo **Acción**
 
 1. Haga clic en el botón **Pausar** para confirmar.
 
@@ -77,17 +77,17 @@ Cuando un recorrido está en pausa, las entradas nuevas siempre se descartan, in
 Cuando un recorrido está en pausa, la administración de perfiles y la ejecución de actividades dependen de la actividad. Los comportamientos se detallan a continuación. Para obtener información completa, vea también esta [muestra de extremo a extremo](#journey-pause-sample).
 
 
-| Actividad de recorrido | Al pausar el recorrido |
+| Actividad de recorrido | Cuando el recorrido está en pausa |
 |-------------------------|--------------------------------------------------|
-| [Calificación de audiencias](audience-qualification-events.md) | <ul> <li>En el primer nodo: la audiencia se descarta </li><li>En otros nodos: igual comportamiento que en un recorrido activo; sin embargo, si la calificación de audiencia es después de una actividad de <strong>Acción</strong> y el usuario está en pausa en esa acción, la calificación de audiencia se descarta. </li></ul> |
-| [Evento unitario](general-events.md) | <ul> <li>En el primer nodo: el evento se descarta</li><li>En otros nodos: El mismo comportamiento que en un recorrido activo. Sin embargo, si el evento es después de una actividad <strong>Action</strong> y el usuario está en pausa en esa acción, el evento se descarta. </li></ul> |
+| [Calificación de audiencias](audience-qualification-events.md) | <ul> <li>En el primer nodo del lienzo: se descarta cualquier calificación de perfil para la audiencia </li><li>En otros nodos: igual comportamiento que en un recorrido activo; sin embargo, si la calificación de audiencia es después de una actividad de <strong>Acción</strong> y el usuario está en pausa en esa acción, la calificación de audiencia se descarta. </li></ul> |
+| [Evento unitario](general-events.md) | <ul> <li>En el primer nodo del lienzo: el evento se descarta</li><li>En otros nodos: El mismo comportamiento que en un recorrido activo. Sin embargo, si el evento es después de una actividad <strong>Action</strong> y el usuario está en pausa en esa acción, el evento se descarta. </li></ul> |
 | [Leer audiencia](read-audience.md) | Igual que en un recorrido en directo, con algunas características específicas: <ol> <li> Si se presionó <strong>Pausa</strong> después de que se iniciara la actividad de <strong>Leer audiencia</strong>, los perfiles que hayan entrado en el recorrido continuarán (hasta la siguiente actividad de <strong>Acción</strong>). A medida que el recorrido lee audiencias a una velocidad determinada, si la audiencia completa aún no ha entrado, los perfiles restantes en la cola se descartarán.</li><li> Para ejecuciones únicas: no se muestra ningún error en el momento de la reanudación si la fecha programada era anterior a la fecha de reanudación. Ese horario sería ignorado.</li><li>Para recorridos incrementales: <ul><li>Si la pausa se produce antes de la primera aparición, al reanudar la audiencia completa se reproduce. </li><li>Si se produce una pausa, por ejemplo, en el cuarto día de una periodicidad diaria y el recorrido permanece en pausa hasta el noveno día, se incluirán en la reanudación todos los perfiles que hayan entrado del cuarto al noveno  </li></ul></ol> |
-| [Reacción](reaction-events.md) | Igual que en un recorrido activo; sin embargo, si la acción se produce después de una actividad de <strong>Action</strong> y el usuario está en pausa tras dicha acción, el evento se descarta. |
+| [Reacción](reaction-events.md) | Igual que en un recorrido activo. Sin embargo, si se produce después de una actividad de <strong>Action</strong> y el usuario está en pausa durante esa acción, el evento de reacción se descarta. |
 | [Espera](wait-activity.md) | Mismo comportamiento que en un recorrido activo |
 | [Condición](condition-activity.md) | Mismo comportamiento que en un recorrido activo |
-| Decisión de contenido | Los perfiles se aparcan o se descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
-| [Acción de canal](journeys-message.md) | Los perfiles se aparcan o se descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
-| [Acción personalizada](../action/action.md) | Los perfiles se aparcan o se descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
+| Decisión de contenido | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
+| [Acción de canal](journeys-message.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
+| [Acción personalizada](../action/action.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
 | [Actualizar perfil](update-profiles.md) y [Saltar](jump.md) | Mismo comportamiento que en un recorrido activo |
 | [Source de datos externos](../datasource/external-data-sources.md) | Mismo comportamiento que en un recorrido activo |
 | [Criterios de salida](journey-properties.md#exit-criteria) | Mismo comportamiento que en un recorrido activo |
@@ -106,7 +106,7 @@ Para reanudar un recorrido en pausa y comenzar a escuchar eventos de recorrido d
 1. Abra el recorrido que desea reanudar.
 1. Haga clic en el botón **...Más** de la sección superior derecha del lienzo de recorrido y seleccione **Reanudar**.
 
-   El recorrido cambia al estado **Reanudando**. Cuando el recorrido se reanuda, las nuevas entradas comienzan en un minuto. La reanudación de los perfiles retenidos puede llevar algún tiempo.  Ya que todos los perfiles deben reanudarse para que el recorrido vuelva a estar **Activo**, la transición del estado **Reanudando** al **Activo** puede tomar algún tiempo.
+   El recorrido cambia al estado **Reanudando**. Cuando el recorrido se reanuda, las nuevas entradas comienzan en un minuto. La reanudación de los perfiles que se mantuvieron puede llevar algún tiempo: los perfiles se reanudan a una velocidad de 5 K tps.  Ya que todos los perfiles deben reanudarse para que el recorrido vuelva a estar **Activo**, la transición del estado **Reanudando** al **Activo** puede tomar algún tiempo.
 
 1. Haga clic en el botón **Reanudar** para confirmar.
 
@@ -116,7 +116,7 @@ Desde la lista de sus recorridos, puede reanudar uno o varios **recorridos pausa
 
 ## Aplicación de un filtro global a perfiles en un recorrido pausado {#journey-global-filters}
 
-Cuando un recorrido está en pausa, puede aplicar un filtro global basado en atributos de perfil. Este filtro habilita la exclusión de perfiles que coinciden con la expresión definida en el momento de la reanudación. Una vez establecido el filtro global, se aplica a los nodos de acción, incluso para la entrada de nuevos perfiles. Los perfiles que coincidan con los criterios y los nuevos perfiles que entren se excluirán del recorrido **en el siguiente nodo de acción** que encuentren.
+Cuando un recorrido está en pausa, puede aplicar un filtro global basado en atributos de perfil. Este filtro habilita la exclusión de perfiles que coinciden con la expresión definida en el momento de la reanudación. Una vez establecido el filtro global, se aplicará en los nodos de acción, incluso para la entrada de nuevos perfiles. Los perfiles existentes que coincidan con los criterios y los nuevos perfiles que entren en la recorrido se excluirán de la recorrido **en el siguiente nodo de acción** que encuentren.
 
 Por ejemplo, para excluir todos los clientes franceses de un recorrido en pausa, siga estos pasos:
 
@@ -136,7 +136,7 @@ Por ejemplo, para excluir todos los clientes franceses de un recorrido en pausa,
 
 1. [Reanudar el recorrido](#journey-resume-steps).
 
-   En el momento de la reanudación, todos los perfiles con el atributo de país establecido en Francia se excluirán automáticamente del recorrido en el siguiente nodo de acción. Cualquier nuevo perfil con el atributo de país establecido en Francia que intente entrar en el recorrido se bloqueará en el siguiente nodo de acción.
+   En el momento de la reanudación, todos los perfiles con el atributo de país establecido en Francia se excluirán automáticamente del recorrido en el siguiente nodo de acción. Cualquier nuevo perfil con el atributo de país establecido en Francia que intente entrar en el recorrido también se bloqueará en el siguiente nodo de acción.
 
 Tenga en cuenta que las exclusiones de perfiles para perfiles que se encuentran actualmente en la recorrido y para perfiles nuevos solo se producirán cuando lleguen a un nodo de acción.
 
@@ -157,9 +157,9 @@ Tenga en cuenta que las exclusiones de perfiles para perfiles que se encuentran 
 * Incluso después de la pausa, a medida que los eventos se siguen procesando, estos eventos se contarán hacia el número de Eventos de Recorrido por segundo de cuota, después de lo cual la restricción se obtiene por unitaria
 * Cuando los perfiles se mantienen en un recorrido pausado, en el momento de la reanudación se actualizan los atributos del perfil
 * Las condiciones se siguen ejecutando en recorridos en pausa, por lo que si un recorrido se ha pausado debido a problemas de calidad de datos, cualquier condición anterior a un nodo de acción se puede evaluar con datos incorrectos
-* Para recorridos de **audiencia de lectura** basados en audiencias incrementales, se tiene en cuenta la duración de la pausa. Por ejemplo, para un recorrido diario, si se pausó el 2 y se reanudó el 5 del mes, la ejecución del 6 tomará todos los perfiles que se hayan clasificado del 1 al 6. Este no es el caso de la calificación de audiencias o de los recorridos basados en eventos (si se recibe una calificación de audiencia o un evento durante una pausa, esos eventos se descartan)
+* Para recorridos de **audiencia de lectura** basados en audiencias incrementales, se tiene en cuenta la duración de la pausa. Este no es el caso de la calificación de audiencias o de los recorridos basados en eventos (si se recibe una calificación de audiencia o un evento durante una pausa y son la primera actividad del recorrido, esos eventos se descartan)
 * Si los perfiles se mantienen en un recorrido y este recorrido se reanuda automáticamente pasados unos días, los perfiles continúan con el recorrido y no se pierden. Si desea soltarlos, debe detener el recorrido
-* En los recorridos en pausa, las alertas no se activan para las alertas de segmentos por lotes
+* En los recorridos en pausa, las alertas no se activan para [alertas de segmentos por lotes](../reports/alerts.md#alert-read-audiences)
 * No hay registros de auditoría en el sistema cuando después de 14 días de pausa se finaliza el estado de la recorrido
 * Algunos perfiles descartados pueden ser visibles en el Evento de paso de Recorrido, pero no en los informes. Por ejemplo:
    * Descartar eventos empresariales de **Leer audiencia**
@@ -173,7 +173,7 @@ Veamos el ejemplo del recorrido siguiente:
 
 ![Muestra de un recorrido](assets/pause-journey-sample.png){zoomable="yes"}
 
-Al pausar este recorrido, selecciona si los perfiles son **Descartados** o **Retenidos** y luego la administración de perfiles es la siguiente:
+Al pausar este recorrido, selecciona si los perfiles son **Descartados** o **Retenidos**, y luego la administración de perfiles es la siguiente:
 
 1. Actividad **AddToCart**: todas las entradas de perfiles nuevos están bloqueadas. Si un perfil ya ha entrado en el recorrido antes de una pausa, continúa hasta el siguiente nodo de acción.
 1. Actividad **Wait**: los perfiles siguen esperando normalmente en el nodo y lo cerrarán, incluso si el recorrido está en pausa.
@@ -181,7 +181,7 @@ Al pausar este recorrido, selecciona si los perfiles son **Descartados** o **Ret
 1. Actividades **Push**/**Email**: durante un recorrido en pausa, los perfiles comienzan a esperar o se descartan (según la elección hecha por el usuario en el momento de la pausa) en el siguiente nodo de acción. Por lo tanto, los perfiles empezarán a esperar o se descartarán allí.
 1. **Eventos** después de **nodos de acción**: si un perfil está esperando en un nodo **Acción** y hay una actividad **Evento** después de él, si ese evento se activa, el perfil se descarta.
 
-Según este comportamiento, puede ver que los números de perfiles aumentan cuando se pausa el recorrido, sobre todo en las actividades anteriores a **Action**. Por ejemplo, en ese ejemplo, la actividad **Wait** se omite, lo que aumenta el número de perfiles que pasan por la actividad **Condition**.
+Según este comportamiento, puede ver que los números de perfiles aumentan cuando se pausa el recorrido, sobre todo en las actividades anteriores a **Action**. Por ejemplo, en ese ejemplo, la actividad **Wait** sigue habilitada, lo que aumenta el número de perfiles que pasan por la actividad **Condition**, a medida que salen de ella.
 
 Cuando reanude este recorrido:
 
