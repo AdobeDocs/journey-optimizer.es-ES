@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
+source-git-commit: df9787d3a22d6fc615049fd738317c943e46ce8f
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Para pausar el recorrido, siga estos pasos:
 1. Abra el recorrido en el que desee hacer una pausa.
 1. Haga clic en el botón **...Más** de la sección superior derecha del lienzo de recorrido y seleccione **Pausar**.
 
-   ![Pausar el botón de recorrido](assets/pause-journey-button.png){width="80%" align="left"}
+   ![Pausar el botón de recorrido](assets/pause-journey-button.png)
 
 1. Seleccione cómo administrar los perfiles que están actualmente en el recorrido.
 
@@ -78,8 +78,8 @@ La administración de perfiles cuando se pausa un recorrido depende de la activi
 
 | Actividad de recorrido | Administración de perfiles |
 |-------------------------|--------------------------------------------------|
-| [Calificación de audiencias](audience-qualification-events.md) | En el primer nodo: Descartado <br> En otros nodos: Se comporta igual que en un recorrido activo. Sin embargo, si la calificación de audiencia es después de una actividad de <strong>Acción</strong> y el usuario está en pausa en esa acción, la calificación de audiencia se descarta. |
-| [Evento unitario](general-events.md) | En el primer nodo: descartado <br>En otros nodos: igual que en un recorrido activo, sin embargo, si el evento es después de una actividad <strong>Action</strong> y el usuario está en pausa en esa acción, el evento se descarta. |
+| [Calificación de audiencias](audience-qualification-events.md) | <ul> <li>En el primer nodo: los perfiles se descartan </li><br><li>En otros nodos: igual comportamiento que en un recorrido activo; sin embargo, si la calificación de audiencia es después de una actividad de <strong>Acción</strong> y el usuario está en pausa en esa acción, la calificación de audiencia se descarta. </li></ul> |
+| [Evento unitario](general-events.md) | - En el primer nodo: los perfiles se descartan <br>En otros nodos: igual que en un recorrido activo; sin embargo, si el evento es después de una actividad <strong>Action</strong> y el usuario está en pausa en esa acción, el evento se descarta. |
 | [Leer audiencia](read-audience.md) | Igual comportamiento que en un recorrido activo, con algunas características específicas: <br>1.  Si se presionó <strong>Pausa</strong> después de que se iniciara la actividad de <strong>Leer audiencia</strong>, los perfiles que hayan entrado en el recorrido continuarán (hasta la siguiente actividad de <strong>Acción</strong>). A medida que el recorrido lee audiencias a una velocidad determinada, si la audiencia completa aún no ha entrado, los perfiles restantes en la cola se descartarán.   <br>2. Para ejecuciones únicas: no se muestra ningún error en el momento de la reanudación si la fecha programada era anterior a la fecha de reanudación. Ese horario sería ignorado. <br>3. Para recorridos incrementales: <br>- Si la pausa se produce antes de la primera aparición, al reanudar la audiencia completa se reproduciría. <br>: si se produce una pausa, por ejemplo, en el cuarto día de una periodicidad diaria y el recorrido permanece en pausa hasta el noveno día, al reanudar, se incluirán todos los perfiles que hayan entrado del cuarto al noveno |
 | [Reacción](reaction-events.md) | Igual que en un recorrido activo. Sin embargo, si la acción se produce después de una actividad de <strong>Action</strong> y el usuario está en pausa para dicha acción, el evento se descartará. |
 | [Espera](wait-activity.md) | Mismo comportamiento que en un recorrido activo |
