@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 33b60693d060e37873f9d505d0893839698036a8
+source-git-commit: d1b1670992ba5da14f1a4d0bfab0a7b15b29dec3
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2014'
 ht-degree: 0%
 
 ---
@@ -77,11 +77,11 @@ Cuando un recorrido está en pausa, las entradas nuevas siempre se descartan, in
 Cuando un recorrido está en pausa, la administración de perfiles y la ejecución de actividades dependen de la actividad. Los comportamientos se detallan a continuación. Para obtener información completa, vea también esta [muestra de extremo a extremo](#journey-pause-sample).
 
 
-| Actividad de recorrido | Impacto |
+| Actividad de recorrido | Al pausar el recorrido |
 |-------------------------|--------------------------------------------------|
 | [Calificación de audiencias](audience-qualification-events.md) | <ul> <li>En el primer nodo: la audiencia se descarta </li><li>En otros nodos: igual comportamiento que en un recorrido activo; sin embargo, si la calificación de audiencia es después de una actividad de <strong>Acción</strong> y el usuario está en pausa en esa acción, la calificación de audiencia se descarta. </li></ul> |
 | [Evento unitario](general-events.md) | <ul> <li>En el primer nodo: el evento se descarta</li><li>En otros nodos: El mismo comportamiento que en un recorrido activo. Sin embargo, si el evento es después de una actividad <strong>Action</strong> y el usuario está en pausa en esa acción, el evento se descarta. </li></ul> |
-| [Leer audiencia](read-audience.md) | El mismo comportamiento que en un recorrido en directo, con algunas características específicas <ol> <li> Si se presionó <strong>Pausa</strong> después de que se iniciara la actividad de <strong>Leer audiencia</strong>, los perfiles que hayan entrado en el recorrido continuarán (hasta la siguiente actividad de <strong>Acción</strong>). A medida que el recorrido lee audiencias a una velocidad determinada, si la audiencia completa aún no ha entrado, los perfiles restantes en la cola se descartarán.</li><li> Para ejecuciones únicas: no se muestra ningún error en el momento de la reanudación si la fecha programada era anterior a la fecha de reanudación. Ese horario sería ignorado.</li><li>Para recorridos incrementales: <ul><li>Si la pausa se produce antes de la primera aparición, al reanudar la audiencia completa se reproduce. </li><li>Si se produce una pausa, por ejemplo, en el cuarto día de una periodicidad diaria y el recorrido permanece en pausa hasta el noveno día, se incluirán en la reanudación todos los perfiles que hayan entrado del cuarto al noveno  </li></ul></ol> |
+| [Leer audiencia](read-audience.md) | Igual que en un recorrido en directo, con algunas características específicas: <ol> <li> Si se presionó <strong>Pausa</strong> después de que se iniciara la actividad de <strong>Leer audiencia</strong>, los perfiles que hayan entrado en el recorrido continuarán (hasta la siguiente actividad de <strong>Acción</strong>). A medida que el recorrido lee audiencias a una velocidad determinada, si la audiencia completa aún no ha entrado, los perfiles restantes en la cola se descartarán.</li><li> Para ejecuciones únicas: no se muestra ningún error en el momento de la reanudación si la fecha programada era anterior a la fecha de reanudación. Ese horario sería ignorado.</li><li>Para recorridos incrementales: <ul><li>Si la pausa se produce antes de la primera aparición, al reanudar la audiencia completa se reproduce. </li><li>Si se produce una pausa, por ejemplo, en el cuarto día de una periodicidad diaria y el recorrido permanece en pausa hasta el noveno día, se incluirán en la reanudación todos los perfiles que hayan entrado del cuarto al noveno  </li></ul></ol> |
 | [Reacción](reaction-events.md) | Igual que en un recorrido activo; sin embargo, si la acción se produce después de una actividad de <strong>Action</strong> y el usuario está en pausa tras dicha acción, el evento se descarta. |
 | [Espera](wait-activity.md) | Mismo comportamiento que en un recorrido activo |
 | [Condición](condition-activity.md) | Mismo comportamiento que en un recorrido activo |
