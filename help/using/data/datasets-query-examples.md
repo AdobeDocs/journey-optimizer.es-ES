@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: conjunto de datos, optimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
+source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 2%
@@ -146,6 +146,11 @@ Errores permanentes agrupados por código de rechazo:
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
+>[!NOTE]
+>
+>En algunos recorridos, `messageID` puede no ser único para cada envío individual. Si un recorrido reenvía la misma acción al mismo perfil, se puede reutilizar el mismo `messageID`. Por lo tanto, para rastrear o atribuir eventos con precisión en el nivel de envío individual, combine los campos `journeyVersionID`, `journeyActionID` y `batchInstanceID` (para recorridos por lotes) o `identityMap` para obtener una unicidad más precisa.
+
+
 ### Identificación de direcciones en cuarentena después de una interrupción del ISP{#isp-outage-query}
 
 En caso de una interrupción del proveedor de servicios de Internet (ISP), debe identificar las direcciones de correo electrónico erróneamente marcadas como rechazos (en cuarentena) para dominios específicos, durante un periodo de tiempo. Para obtener esas direcciones, utilice la siguiente consulta:
@@ -169,9 +174,6 @@ donde el formato de las fechas es: `YYYY-MM-DD HH:MM:SS`.
 Una vez identificadas, elimine esas direcciones de la lista de supresión de Journey Optimizer. [Más información](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
 
->[!NOTE]
->
->En algunos recorridos, `messageID` puede no ser único para cada envío individual. Si un recorrido reenvía la misma acción al mismo perfil, se puede reutilizar el mismo `messageID`. Por lo tanto, para rastrear o atribuir eventos con precisión en el nivel de envío individual, combine los campos `journeyVersionID`, `journeyActionID` y `batchInstanceID` (para recorridos por lotes) o `identityMap` para obtener una unicidad más precisa.
 
 
 ## Conjunto de datos de evento de experiencia de seguimiento push {#push-tracking-experience-event-dataset}
