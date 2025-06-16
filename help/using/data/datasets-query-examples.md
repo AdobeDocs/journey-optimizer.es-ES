@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: conjunto de datos, optimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '894'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ En esta página, encontrará la lista de conjuntos de datos de Adobe Journey Opt
 * [Conjunto de datos de evento de comentarios CCO](#bcc-feedback-event-dataset)
 * [Conjunto de datos de entidad](#entity-dataset)
 
-Para ver la lista completa de campos y atributos para cada esquema, consulte el [Diccionario de esquema de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es){target="_blank"}.
+Para ver la lista completa de campos y atributos para cada esquema, consulte el [diccionario del esquema de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es){target="_blank"}.
 
 ## Conjunto de datos de evento de experiencia de seguimiento de correo electrónico{#email-tracking-experience-event-dataset}
 
@@ -167,6 +167,12 @@ ORDER BY timestamp DESC;
 donde el formato de las fechas es: `YYYY-MM-DD HH:MM:SS`.
 
 Una vez identificadas, elimine esas direcciones de la lista de supresión de Journey Optimizer. [Más información](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+
+
+>[!NOTE]
+>
+>En algunos recorridos, `messageID` puede no ser único para cada envío individual. Si un recorrido reenvía la misma acción al mismo perfil, se puede reutilizar el mismo `messageID`. Por lo tanto, para rastrear o atribuir eventos con precisión en el nivel de envío individual, combine los campos `journeyVersionID`, `journeyActionID` y `batchInstanceID` (para recorridos por lotes) o `identityMap` para obtener una unicidad más precisa.
+
 
 ## Conjunto de datos de evento de experiencia de seguimiento push {#push-tracking-experience-event-dataset}
 
