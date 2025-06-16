@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, condicional, reglas
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 6f9bdb179f2bfff30494495b68a15aaac77d6b9e
+source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 9%
+source-wordcount: '605'
+ht-degree: 8%
 
 ---
 
@@ -56,17 +56,17 @@ Los pasos para crear una regla condicional son los siguientes:
 
 1. Genere la regla condicional según sus necesidades. Para ello, arrastre y suelte y organice los atributos deseados del menú de la izquierda al lienzo.
 
-   Los pasos para combinar atributos en el lienzo son similares a la experiencia de creación de segmentos. Para obtener más información sobre cómo trabajar con el lienzo del generador de reglas, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es#rule-builder-canvas).
+   Los pasos para combinar atributos en el lienzo son similares a la experiencia de creación de segmentos. Para obtener más información sobre cómo trabajar con el lienzo del generador de reglas, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
    Los atributos se organizan en tres pestañas:
 
    * **[!UICONTROL Perfil]**:
-      * **[!UICONTROL Audiencias]** enumera todos los atributos de audiencia (por ejemplo: estado, versión, etc.) para [servicio de segmentación Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es),
-      * **[!UICONTROL Perfiles individuales XDM]** enumera todos los atributos de perfil asociados al esquema [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es) definido en Adobe Experience Platform.
+      * **[!UICONTROL Audiencias]** enumera todos los atributos de audiencia (es decir, estado, versión, etc.) para [servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"},
+      * **[!UICONTROL Perfiles individuales XDM]** enumera todos los atributos de perfil asociados al esquema [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} definido en Adobe Experience Platform.
    * **[!UICONTROL Contextual]**: cuando el mensaje se utiliza en un recorrido, los campos de recorrido contextual están disponibles a través de esta pestaña.
-   * **[!UICONTROL Audiencias]**: enumera todas las audiencias generadas a partir de las definiciones de segmento creadas en [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es).
+   * **[!UICONTROL Audiencias]**: enumera todas las audiencias generadas a partir de las definiciones de segmento creadas en [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
 
 1. Una vez que la regla condicional esté lista, puede agregarla al mensaje para crear contenido dinámico. [Aprenda a agregar contenido dinámico](dynamic-content.md)
 
@@ -87,6 +87,11 @@ Si hay reglas de condición que reutilizará con frecuencia, puede guardarlas en
    ![](assets/conditions-name-description.png)
 
 1. La regla condicional se guardará en la biblioteca. Ahora puede utilizarlo para crear contenido dinámico en los mensajes. [Aprenda a agregar contenido dinámico](dynamic-content.md)
+
+
+>[!CAUTION]
+>
+>Al nombrar variantes de contenido condicional, utilice solo caracteres alfanuméricos (A-Z, a-z, 0-9). El uso de caracteres especiales (como `<`, `>`, `=`, `{`, `}`, etc.) en los nombres de variante puede hacer que el editor de plantillas rompa u oculte componentes.
 
 ## Editar y eliminar reglas condicionales guardadas {#edit-delete}
 
