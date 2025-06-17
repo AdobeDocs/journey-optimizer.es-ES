@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 70543fc2b70b388934c1b3f45e5405f02895a3af
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 17%
+source-wordcount: '295'
+ht-degree: 16%
 
 ---
 
@@ -24,9 +24,9 @@ El rendimiento de entrega corresponde al número de respuestas de decisión que 
 
 | Barrera | Límite |
 | ------- | ------- |
-| Solicitudes de API de decisiones por segundo | 500 |
-| Solicitudes de API de Edge Decisioning por segundo con segmentación de Edge | 1.500 |
-| Solicitudes de API de Edge Decisioning por segundo sin segmentación de Edge | 5.000 |
+| Solicitudes de API de decisiones por segundo | 500 por organización |
+| Solicitudes de API de Edge Decisioning por segundo con segmentación de Edge | 1.500 por organización |
+| Solicitudes de API de Edge Decisioning por segundo sin segmentación de Edge | 5.000 por organización |
 | Ofertas devueltas por respuesta | Hasta 30 por ámbito de decisión o 100 en total |
 | Número máximo de reglas de oferta involucradas por solicitud | 100 |
 
@@ -62,7 +62,7 @@ El rendimiento de entrega corresponde al número de respuestas de decisión que 
 | Tamaño máximo de ofertas que incluyen atributos (1 KB), máximo de 30 atributos | 1 KB |
 | Tamaño máximo de representación de la oferta (total para todas las ubicaciones) | 1 KB |
 
-## Reglas de idoneidad
+## Reglas de elegibilidad
 
 | Barrera | Límite |
 | ------- | ------- |
