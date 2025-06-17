@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -50,10 +50,10 @@ ht-degree: 95%
       + [Diseño de un recorrido](using/building-journeys/using-the-journey-designer.md)
       + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
       + [Simulación del recorrido](using/building-journeys/journey-simulation.md)
-      + [Recorrido Dry run](using/building-journeys/journey-dry-run.md)
+      + [Ensayo del recorrido](using/building-journeys/journey-dry-run.md)
       + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
       + [Informe en vivo en el recorrido](using/building-journeys/report-journey.md)
-      + [Pausar un recorrido](using/building-journeys/journey-pause.md)
+      + [Pausa de un recorrido](using/building-journeys/journey-pause.md)
    + Administrar los recorridos{#manage-journey}
       + [Examinar y filtrar sus recorridos](using/building-journeys/journey-ui.md)
       + [Entrada de perfil en recorridos](using/building-journeys/entry-management.md)
@@ -63,7 +63,7 @@ ht-degree: 95%
       + [Termine el recorrido](using/building-journeys/end-journey.md)
       + [Copia de un recorrido en otra zona protegida](using/building-journeys/copy-to-sandbox.md)
       + [Resolución de problemas del recorrido](using/building-journeys/troubleshooting.md)
-      + [Solución de problemas de acciones entrantes en recorridos](using/building-journeys/troubleshooting-inbound.md)
+      + [Solución de problemas de acciones de entrada en recorridos](using/building-journeys/troubleshooting-inbound.md)
       + [Integración con servicios inteligentes](using/building-journeys/ai-services-overview.md)
    + Actividades {#about-journey-building}
       + [Introducción a actividades de recorrido](using/building-journeys/about-journey-activities.md)
@@ -180,8 +180,8 @@ ht-degree: 95%
    + [Introducción a las campañas organizadas](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Pasos de configuración](using/orchestrated/configuration-steps.md)
    + [Acceso y administración de campañas organizadas](using/orchestrated/access-manage-orchestrated-campaigns.md)
-   + Inicie su primera campaña orquestada{#launch}
-      + [Pasos clave para la creación de campañas orquestadas](using/orchestrated/gs-campaign-creation.md)
+   + Inicio de su primera campaña organizada{#launch}
+      + [Pasos clave para la creación de campañas organizadas](using/orchestrated/gs-campaign-creation.md)
       + [Creación y programación de la campaña](using/orchestrated/create-orchestrated-campaign.md)
       + [Organización de actividades](using/orchestrated/orchestrate-activities.md)
       + [Envío de mensajes con campañas organizadas](using/orchestrated/send-messages.md)
@@ -189,9 +189,9 @@ ht-degree: 95%
       + [Creación de informes](using/orchestrated/reporting-campaigns.md)
    + Consultar la base de datos {#query-database}
       + [Trabajar con el generador de reglas](using/orchestrated/orchestrated-rule-builder.md)
-      + [Genere su primera regla](using/orchestrated/build-query.md)
+      + [Cree su primera regla](using/orchestrated/build-query.md)
       + [Editar expresiones](using/orchestrated/edit-expressions.md)
-   + Actividades de campañas organizadas {#design-campaigns}
+   + Actividades de las campañas organizadas {#design-campaigns}
       + [Introducción a las actividades](using/orchestrated/activities/about-activities.md)
       + [And-join](using/orchestrated/activities/and-join.md)
       + [Generar público](using/orchestrated/activities/build-audience.md)
@@ -218,7 +218,7 @@ ht-degree: 95%
 Establecer reglas de límite de mensajes y recorridos {#capping-rules}
       + [Trabajar con conjuntos de reglas](using/conflict-prioritization/rule-sets.md)
       + [Límite y arbitraje de recorrido](using/conflict-prioritization/journey-capping.md)
-      + [Límite de frecuencia por canal y tipo de comunicación](using/conflict-prioritization/channel-capping.md)
+      + [Restricción de frecuencia por canal y tipo de comunicación](using/conflict-prioritization/channel-capping.md)
 + Prueba y aprobación {#test}
    + Vista previa y prueba del contenido {#preview-test}
       + [Introducción a la vista previa y prueba](using/content-management/preview-test.md)
@@ -535,12 +535,12 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
                + [Consultar fórmulas de clasificación](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
                + [Selección de fórmulas de clasificación](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
                + [Actualizar fórmulas de clasificación](using/experience-decisioning/api-reference/ranking-formulas/update.md)
-            + Reglas de idoneidad{#eligibility-rules}
-               + [Crear reglas de idoneidad](using/experience-decisioning/api-reference/eligibility-rules/create.md)
-               + [Eliminar reglas de idoneidad](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
-               + [Consultar reglas de idoneidad](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
-               + [Lista de reglas de idoneidad](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
-               + [Actualizar reglas de idoneidad](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+            + Reglas de elegibilidad{#eligibility-rules}
+               + [Crear reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/create.md)
+               + [Eliminar reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
+               + [Consultar reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
+               + [Lista de reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
+               + [Actualizar reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + [Entregar ofertas mediante el canal de experiencia basada en código](using/experience-decisioning/api-reference/deliver.md)
       + Administración de elementos de decisión {#decision-items}
          + [Configuración del catálogo de elementos](using/experience-decisioning/catalogs.md)
@@ -738,7 +738,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
    + [Cambio de direcciones de ejecución](using/configuration/primary-email-addresses.md)
    + [Configurar reglas empresariales](using/configuration/frequency-rules.md)
 + Configuración de recorrido {#configure-journeys}
-   + [Introducción a la configuración de recorrido](using/configuration/about-data-sources-events-actions.md)
+   + [Introducción a la configuración de recorridos](using/configuration/about-data-sources-events-actions.md)
    + Configuración de evento {#events-journeys}
       + [Trabajo con eventos de recorrido](using/event/about-events.md)
       + [Configuración de un evento unitario](using/event/about-creating.md)
@@ -764,9 +764,9 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
       + [API de límite](using/configuration/capping.md)
       + [API de limitación](using/configuration/throttling.md)
    + Enviar con las soluciones de Adobe {#adobe-solutions}
-      + [Acción de Campaign Standard en recorrido](using/action/acs-action.md)
-      + [Acción de Campaign v7/v8 en recorrido](using/action/acc-action.md)
-      + [Acción de Marketo Engage en recorrido](using/action/marketo-engage.md)
+      + [Acción de Campaign Standard en recorridos](using/action/acs-action.md)
+      + [Acción en recorridos de las versiones 7 y 8 de Campaign](using/action/acc-action.md)
+      + [Acción de Marketo Engage en recorridos](using/action/marketo-engage.md)
    + Administración de zonas protegidas {#sandbox}
       + [Uso y asignación de zonas protegidas](using/administration/sandboxes.md)
       + [Exportación de objetos a otra zona protegida](using/configuration/copy-objects-to-sandbox.md)
@@ -778,7 +778,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
    + [Permisos integrados](using/administration/ootb-permissions.md)
    + [Niveles de permisos](using/administration/high-low-permissions.md)
    + [Control de acceso basado en atributos](using/administration/attribute-based-access.md)
-   + [Control de acceso de nivel de objeto](using/administration/object-based-access.md)
+   + [Control de acceso a nivel de objeto](using/administration/object-based-access.md)
 + Privacidad {#privacy}
    + [Introducción a la privacidad](using/privacy/get-started-privacy.md)
    + [Solicitudes de privacidad](using/privacy/requests.md)

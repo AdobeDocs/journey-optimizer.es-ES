@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
 source-wordcount: '1694'
-ht-degree: 87%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Cree campañas y recorridos desde esta sección.
 
 * **[!UICONTROL Recorridos]**: cree, configure y organice sus recorridos con los clientes: combine los eventos, la orquestación y las actividades de acción para crear sus escenarios de canales cruzados de varios pasos. [Más información](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Informes]** - Los informes de Journey Optimizer están totalmente integrados con las capacidades de Customer Journey Analytics, estandarizando los informes en ambas plataformas y mejorando la consistencia y confiabilidad de los datos. Esta integración perfecta entre Journey Optimizer y Customer Journey Analytics proporciona una vista más clara de las métricas de rendimiento, lo que permite a los usuarios tomar decisiones más informadas. [Más información](../reports/report-gs-cja.md)
+* **[!UICONTROL Informes]**: el sistema de informes de Journey Optimizer está totalmente integrado con las funcionalidades de Customer Journey Analytics, lo que estandariza la creación de informes en ambas plataformas y mejora la coherencia y fiabilidad de los datos. Esta integración perfecta entre Journey Optimizer y Customer Journey Analytics proporciona una visión más clara de las métricas de rendimiento, lo que permite a los usuarios tomar decisiones más fundamentadas. [Más información](../reports/report-gs-cja.md)
 
 
 ### [!UICONTROL GESTIÓN DE DECISIONES] {#left-nav-decision}
@@ -217,7 +217,7 @@ Para cambiar el idioma, siga estos pasos:
 
 ## Más información {#more}
 
-Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas específicas? ¿Administrador de la instancia de su empresa? [Elija su propia ruta para llegar a sus metas más rápido](quick-start.md).
+Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas específicas? ¿Administrador de la instancia de su empresa? [Elija su propia ruta para alcanzar sus objetivos más rápido.](quick-start.md)
 
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
@@ -232,21 +232,21 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_1"
->title="Orquestación de campaña"
->abstract="Divida, combine, enriquezca y manipule conjuntos de datos relacionales para definir su audiencia"
+>title="Orquestación de campañas"
+>abstract="Divida, combine, enriquezca y manipule conjuntos de datos relacionales para definir su público"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
->title="Aprovechamiento de datos de varias entidades"
+>title="Uso de datos de múltiples entidades"
 >abstract="Descubra cómo las campañas orquestadas pueden aprovechar los conjuntos de datos relacionales para enriquecer los datos para la segmentación y personalización"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_3"
->title="Segmentación ad hoc y recuento exacto"
+>title="Segmentación ad hoc y recuentos exactos"
 >abstract="Genere su segmento paso a paso con recuentos exactos"
 
 
@@ -254,7 +254,7 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="Canales disponibles"
->abstract="Correo electrónico, SMS, notificaciones push, correo directo"
+>abstract="Correo electrónico, SMS, push, correo directo"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
@@ -262,7 +262,7 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_1"
 >title="IU guiada para crear y enviar una campaña"
->abstract="Defina una o varias acciones con un canal, elija una audiencia, defina un contenido y una programación, y estará listo para enviar"
+>abstract="Defina una o varias acciones con un canal, elija un público, defina un contenido y una programación, y estará listo para realizar el envío"
 
 
 >[!CONTEXTUALHELP]
