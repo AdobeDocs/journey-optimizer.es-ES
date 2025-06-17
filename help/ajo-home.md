@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 825e0b3112bc7e5dd7551873151c65bd1cc99f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -28,13 +28,13 @@ Ya está aquí la versión de mayo. Consulte las Notas de la versión para descu
 
 >[!TAB Conflicto y priorización]
 
-Journey Optimizer ahora ofrece varias herramientas para la administración de conflictos y la priorización. Estas herramientas están disponibles para sus campañas y Cualificación de audiencias, Lectura de audiencia y recorridos unitarios.
+Journey Optimizer ahora ofrece varias herramientas para la administración de conflictos y la priorización. Estas herramientas están disponibles para sus campañas y la calificación de público, la lectura de público y los recorridos unitarios.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
 
 >[!TAB Adobe Express]
 
-La integración de Adobe Express en Adobe Journey Optimizer le permite acceder fácilmente a las potentes herramientas de edición de Adobe Express a la hora de crear contenido. Esta integración le permite cambiar el tamaño de las imágenes, eliminar fondos, recortar elementos visuales y convertir recursos a JPEG o PNG sin necesidad de cambiar entre soluciones.
+La integración de Adobe Express en Adobe Journey Optimizer le permite acceder fácilmente a las potentes herramientas de edición de Adobe Express a la hora de crear contenido. Esta integración le permite cambiar el tamaño de las imágenes, quitar fondos, recortar elementos visuales y convertir recursos a JPEG o PNG sin necesidad de cambiar entre soluciones.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
@@ -43,11 +43,11 @@ La integración de Adobe Express en Adobe Journey Optimizer le permite acceder f
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB Fragmento de contenido de AEM]
 
-Al integrar Adobe Experience Manager as a Cloud Service con Adobe Journey Optimizer, ahora puede incorporar sin problemas los fragmentos de contenido de AEM en el contenido de Journey Optimizer. Esta conexión optimizada simplifica el proceso de acceso y uso del contenido de AEM, lo que permite crear campañas y recorridos personalizados y dinámicos.
+Al integrar Adobe Experience Manager as a Cloud Service con Adobe Journey Optimizer, puede incorporar sin problemas los fragmentos de contenido de AEM en el contenido de Journey Optimizer. Esta conexión optimizada simplifica el proceso de acceso y uso del contenido de AEM, lo que permite crear campañas y recorridos personalizados y dinámicos.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/aem-fragments.md)
 
