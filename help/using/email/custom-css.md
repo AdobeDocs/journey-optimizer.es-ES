@@ -10,9 +10,9 @@ level: Intermediate
 keywords: css, editor, resumen, correo electrónico
 hide: true
 hidefromtoc: true
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bf9f1dbacba54e8b2c499d888ba1f4d66c78b7ee
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '690'
 ht-degree: 1%
 
 ---
@@ -199,6 +199,12 @@ Su CSS personalizado se agrega al final de la sección `<head>` como parte de un
 
 El panel **[!UICONTROL Configuración]** de Designer de correo electrónico no interpreta ni valida la CSS personalizada. Es totalmente independiente y solo se puede modificar mediante la opción **[!UICONTROL Agregar CSS personalizado]**.
 
+Si la etiqueta de estilo `global-custom` tiene el atributo `data-disabled` establecido en `true`, no se aplicará CSS personalizado. Por ejemplo:
+
+```html
+<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+```
+
 ### Contenido importado
 
 Si desea utilizar CSS personalizado con contenido importado en el Designer de correo electrónico, tenga en cuenta lo siguiente:
@@ -216,7 +222,7 @@ Si no se aplica el CSS personalizado, tenga en cuenta las siguientes opciones.
 
 * Asegúrese de que el CSS sea válido y esté libre de errores de sintaxis (como llaves que faltan, nombres de propiedad incorrectos). [Descubra cómo](#use-valid-css)
 
-* Asegúrese de que su CSS se agrega a la etiqueta `<style>` con el atributo `data-name="global-custom"`. [Más información](#implementation)
+* Asegúrese de que su CSS se agrega a la etiqueta `<style>` con el atributo `data-name="global-custom"` y que `data-disabled` no se aplica a `global-custom`. [Más información](#implementation)
 
 * Asegúrese de que otras reglas CSS no anulen su CSS, incluido cualquier [tema](apply-email-themes.md) aplicado al contenido.
 
@@ -229,16 +235,3 @@ Si no se aplica el CSS personalizado, tenga en cuenta las siguientes opciones.
        background: red !important;
      }
      ```
-
-<!--
-### Guardrails
--->
-
-
-
-
-
-
-
-
-
