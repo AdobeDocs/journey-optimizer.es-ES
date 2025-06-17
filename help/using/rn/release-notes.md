@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
+source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2143'
 ht-degree: 70%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 70%
 
 **Fecha de la versión**: 17 y 18 de junio de 2025
 
-Ver también [Notas de la versión preliminar de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Ver también [Notas de la versión preliminar de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 ### Nuevas funciones {#25-06-features}
 
@@ -69,7 +69,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede definir campos editables específicos en plantillas de contenido JSON o HTML que permitan a los usuarios no técnicos editar fácilmente el contenido en una vista de formulario dentro de la creación del canal de experiencia basado en código, sin necesidad de manipular ningún código. Además, al definir las plantillas de contenido de experiencia basadas en código, ahora puede insertar directivas de decisión en la plantilla, lo que aumenta la reutilización y facilidad de uso.</p>
+<p>Ahora puede definir campos editables específicos en plantillas de contenido JSON o HTML que permitan a los usuarios no técnicos editar fácilmente el contenido en una vista de formulario dentro de la creación del canal de experiencia basado en código, sin necesidad de manipular ningún código.<br />Más que eso, al definir las plantillas de contenido de experiencia basadas en código, ahora puede insertar directivas de decisión en la plantilla, lo que aumenta la reutilización y facilidad de uso.</p>
 </td>
 </tr>
 </tbody>
@@ -85,7 +85,6 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tr>
 <td>
 <p>Además de la delegación completa y el método CNAME, ahora está disponible un nuevo método de configuración de subdominios: el método de delegación personalizado, que le permite ser el propietario total del control y el mantenimiento de todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes.</p>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 </td>
 </tr>
 </tbody>
@@ -194,14 +193,17 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Experiencias basadas en código**
 
-  Las políticas de decisión ya están disponibles en las plantillas de contenido de experiencia basadas en código y en el carril derecho del editor de código.
+   * La adición de una política de decisión ya está disponible en las plantillas de contenido de experiencia basadas en código.
 
-* **Diseñador de correos electrónicos**
+   * Desde la pantalla de edición de campaña o recorrido de experiencias basado en código, ahora puede añadir directamente una política de decisión, sin abrir el editor de personalización.
 
-   * **Compatibilidad con CSS personalizado**: Journey Optimizer ahora le permite agregar CSS personalizado al contenido del correo electrónico directamente dentro del Diseñador de correo electrónico.
-   * **Compatibilidad con modo oscuro**: El diseñador de correo electrónico de Journey Optimizer ahora ofrece la capacidad de cambiar al modo oscuro, en el que puede definir configuraciones específicas.
+* **Compatibilidad con CSS personalizado en el Designer de correo electrónico**
 
-* **Campañas**: nueva navegación con pestañas para las campañas de acción. Este nuevo patrón de navegación permite un acceso más rápido a la creación de contenido y admite una mayor expansión de la configuración entre campañas.
+  Journey Optimizer ahora le permite añadir CSS personalizado al contenido del correo electrónico directamente en el Designer de correo electrónico.
+
+* **Nueva navegación con pestañas para las campañas**
+
+  Un nuevo patrón de navegación permite un acceso más rápido a la creación de contenido y admite una mayor expansión de la configuración entre campañas.
 
 * **Decisiones**, fecha de disponibilidad: 3 de junio de 2025
 
