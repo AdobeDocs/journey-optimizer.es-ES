@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Cuando un recorrido está en pausa, la administración de perfiles y la ejecuci�
 | [Reacción](reaction-events.md) | Igual que en un recorrido activo. Sin embargo, si se produce después de una actividad de <strong>Action</strong> y el usuario está en pausa durante esa acción, el evento de reacción se descarta. |
 | [Espera](wait-activity.md) | Mismo comportamiento que en un recorrido activo |
 | [Condición](condition-activity.md) | Mismo comportamiento que en un recorrido activo |
-| Decisión de contenido | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
+| [Decisión de contenido](content-decision.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
 | [Acción de canal](journeys-message.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
 | [Acción personalizada](../action/action.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
 | [Actualizar perfil](update-profiles.md) y [Saltar](jump.md) | Mismo comportamiento que en un recorrido activo |
