@@ -38,7 +38,7 @@ Tenga en cuenta que también se puede tener acceso a **[!UICONTROL Roles]**, **[
 
 >[!IMPORTANT]
 >
->>Antes de administrar permisos para una función, cree una directiva. Para obtener más información, consulte la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=es){target="_blank"}.
+>&#x200B;>Antes de administrar permisos para una función, cree una directiva. Para obtener más información, consulte la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=es){target="_blank"}.
 
 **[!UICONTROL Las funciones]** son un conjunto de usuarios que comparten los mismos permisos, etiquetas y zonas protegidas dentro de su organización. Cada usuario que pertenece a un **[!UICONTROL Rol]** tiene derecho a las aplicaciones y servicios de Adobe contenidos en el producto. También puede crear sus propios **[!UICONTROL roles]** para ajustar el acceso de los usuarios a ciertas funcionalidades u objetos de la interfaz.
 
