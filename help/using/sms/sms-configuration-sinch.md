@@ -7,22 +7,24 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 3%
+source-wordcount: '981'
+ht-degree: 2%
 
 ---
 
 # Configuración del proveedor Sinch {#sms-configuration-sinch}
 
-Al utilizar el proveedor de Sinch con Journey Optimizer, puede encontrar dos opciones distintas:
+Al utilizar el proveedor de Sinch con Journey Optimizer, puede encontrar tres opciones distintas:
 
 * **Configuración de SMS**: configura tus credenciales de la API de Sinch para enviar mensajes SMS sin problemas.
 
 * **Configuración de MMS**: para la mensajería multimedia (MMS), configure sus credenciales de API de MMS de Sinch. Tenga en cuenta que el seguimiento y la respuesta a los mensajes entrantes se gestionan mediante la configuración de SMS. La configuración de MMS solo es para la entrega saliente del mensaje MMS.
 
-## Credenciales de API de Sinch{#create-api}
+* **Configuración de RCS**: configure sus credenciales de API de Sinch para enviar mensajes RCS sin problemas.
+
+## Configuración de credenciales de API para SMS{#create-api}
 
 >[!BEGINSHADEBOX]
 
@@ -55,7 +57,7 @@ Para configurar su proveedor de Sinch para que envíe mensajes SMS y MMS con Jou
    | Mensaje de exclusión | Introduzca la respuesta personalizada que se enviará automáticamente como mensaje de exclusión. |
    | Palabras clave de ayuda | Escriba las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su **mensaje de ayuda**. Para varias palabras clave, utilice valores separados por comas. |
    | Mensaje de ayuda | Escriba la respuesta personalizada que se enviará automáticamente como **mensaje de ayuda**. |
-   | Palabras clave de inclusión doble | Introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas. [Más información sobre la inclusión doble de SMS](https://video.tv.adobe.com/v/3440278/?learn=on&captions=spa). |
+   | Palabras clave de inclusión doble | Introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas. [Más información sobre la inclusión doble de SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Mensaje de inclusión doble | Introduzca la respuesta personalizada que se envía automáticamente en respuesta a la confirmación de doble inclusión. |
    | Número entrante | Añada su número de entrada único o código corto. Esto le permite utilizar las mismas credenciales de API en diferentes entornos limitados, cada uno con su propio número de entrada o código corto. |
    | Palabras clave de entrada personalizadas | Defina palabras clave únicas para acciones específicas, por ejemplo, DESCUENTO, OFERTAS, INSCRIBIRSE. Estas palabras clave se capturan y almacenan como atributos en el perfil, lo que le permite almacenar en déclencheur una calificación de segmento de flujo continuo dentro del recorrido y enviar una respuesta o acción personalizada. |
@@ -72,7 +74,7 @@ Para configurar su proveedor de Sinch para que envíe mensajes SMS y MMS con Jou
 
 Después de crear y configurar las credenciales de la API, debe crear una configuración de canal para los mensajes SMS. [Más información](sms-configuration-surface.md)
 
-## Credenciales de API de Sinch MMS {#sinch-mms}
+## Configurar credenciales de API para MMS{#sinch-mms}
 
 >[!IMPORTANT]
 >
@@ -100,3 +102,26 @@ Para configurar Sinch MMS para enviar MMS con Journey Optimizer, siga estos paso
 1. Para modificar las credenciales existentes, busque las credenciales de API que desee y haga clic en la opción **[!UICONTROL Editar]** para realizar los cambios necesarios.
 
 Después de crear y configurar las credenciales de la API, debe crear una configuración de canal para los mensajes MMS. [Más información](sms-configuration-surface.md)
+
+## Configurar las credenciales de API para RCS
+
+<!--![](assets/do-not-localize/rcs-sms.png)-->
+
+La mensajería RCS (servicios de comunicación enriquecidos) es compatible con Journey Optimizer a través de Sinch, lo que permite enviar mensajes básicos utilizando perfiles comerciales verificados con elementos de marca como logotipos y nombres de remitente.
+
+Tenga en cuenta que los mensajes vuelven automáticamente a SMS cuando el dispositivo del perfil no admite RCS o no se puede acceder a él temporalmente mediante RCS.
+
+Para configurar RCS con Sinch:
+
+1. **Configure su agente RCS de marca**
+
+   Póngase en contacto con su representante de Adobe para configurar un agente de RCS de marca. [Más información sobre el agente de RCS de marca](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
+
+1. **Configure sus [credenciales de la API de Sinch](#create-api)**
+
+   Una vez aprobado el agente de RCS, debe configurar las credenciales de la API de Sinch, que incluyen la clave de acceso, el secreto y el ID del plan de servicio. Journey Optimizer utilizará estas credenciales para autenticar y enviar mensajes a través de la plataforma de Sinch.
+
+1. **Cree una [configuración de canal](sms-configuration-surface.md) para sus mensajes RCS**
+
+   Configure una superficie de canal en Journey Optimizer vinculando las credenciales de Sinch y definiendo los parámetros de mensajería. Esta configuración le permite componer y enviar mensajes RCS desde Journey Optimizer.
+

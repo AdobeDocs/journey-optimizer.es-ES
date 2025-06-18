@@ -1,24 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 'Simulación del recorrido '
+title: Ensayo del recorrido
 description: Obtenga información sobre cómo publicar un recorrido en el modo de ejecución en seco
 feature: Journeys
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 5%
 
 ---
 
-# Simulación del recorrido  {#journey-dry-run}
+# Ensayo del recorrido {#journey-dry-run}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"

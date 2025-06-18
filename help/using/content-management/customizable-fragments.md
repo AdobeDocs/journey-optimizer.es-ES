@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 19b75282b6f6fbc847805a263126534c9035ad5d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Para poder editar partes de un fragmento visual, siga estos pasos:
 
 >[!NOTE]
 >
->Los campos editables se pueden agregar a los componentes **image**, **text** y **button**. Para los componentes **HTML**, se agregan campos editables mediante el editor de personalización, de forma similar a los fragmentos de expresiones. [Aprenda a agregar campos editables en componentes de HTML y fragmentos de expresiones](#expression)
+>Los campos editables se pueden agregar a los componentes **image**, **text** y **button**. Para los componentes de **HTML**, se agregan campos editables mediante el editor de personalización, de forma similar a los fragmentos de expresiones. [Aprenda a agregar campos editables en componentes de HTML y fragmentos de expresiones](#expression)
 
 1. Abra la pantalla de edición de contenido del fragmento.
 
@@ -57,9 +57,9 @@ Para poder editar partes de un fragmento visual, siga estos pasos:
 
 1. Después de agregar el fragmento a un correo electrónico, los usuarios podrán personalizar todos los campos editables configurados en el fragmento. [Aprenda a personalizar campos editables en un fragmento visual](../email/use-visual-fragments.md#customize-fields)
 
-## Adición de campos editables en componentes de HTML y fragmentos de expresiones {#expression}
+## Añadir campos editables en componentes de HTML y fragmentos de expresiones {#expression}
 
-Para poder editar partes de un componente HTML o un fragmento de expresión, debe utilizar una sintaxis específica en el editor de expresiones. Esto implica declarar una **variable** con un valor predeterminado que los usuarios pueden anular después de agregar el fragmento a su contenido.
+Para poder editar partes de un componente de HTML o de un fragmento de expresión, debe utilizar una sintaxis específica en el editor de expresiones. Esto implica declarar una **variable** con un valor predeterminado que los usuarios pueden anular después de agregar el fragmento a su contenido.
 
 Por ejemplo, supongamos que desea crear un fragmento para agregarlo a los correos electrónicos y permitir a los usuarios personalizar un color específico utilizado en diferentes ubicaciones, como marcos o colores de fondo de botones. Al crear el fragmento, debe declarar una variable con un **ID único**, por ejemplo, &quot;color&quot;, y llamarla a las ubicaciones deseadas en el contenido del fragmento donde desee aplicar este color. Al añadir el fragmento a su contenido, los usuarios pueden personalizar el color utilizado siempre que se haga referencia a la variable.
 
@@ -99,7 +99,7 @@ Para declarar una variable y utilizarla en el fragmento, siga estos pasos:
 
    | Acción | Parámetro | Ejemplo |
    | ------- | ------- | ------- |
-   | Declarar un campo editable con un **valor predeterminado**. Al añadir el fragmento al contenido, se utiliza este valor predeterminado si no lo personaliza. | Agregue el valor predeterminado entre las etiquetas en línea. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
+   | Declarar un campo editable con un **valor predeterminado**. Al añadir el fragmento al contenido, se utilizará este valor predeterminado si no lo personaliza. | Agregue el valor predeterminado entre las etiquetas en línea. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
    | Defina una **etiqueta** para el campo editable. Esta etiqueta se muestra en el Designer de correo electrónico al editar los campos del fragmento. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
    | Declare un campo editable que contenga un **origen de imagen** que deba publicarse. | `assetType="image"` | `{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}` |
    | Declare un campo editable que contenga una **URL** de la que deba realizarse un seguimiento.<br/>Tenga en cuenta que los bloques predefinidos &quot;URL de página espejo&quot; y &quot;Vínculo de cancelación de suscripción&quot; predeterminados no pueden convertirse en campos editables. | `assetType="url"` | `{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}` |
@@ -114,7 +114,7 @@ Al añadir el fragmento al contenido de su correo electrónico, los usuarios aho
 
 * Para los fragmentos de expresiones, se utiliza una sintaxis específica para anular los valores de las variables. [Aprenda a personalizar campos editables en un fragmento de expresión](../personalization/use-expression-fragments.md#customize-fields)
 
-* Para los componentes del HTML, la variable se muestra en la lista de campos editables de la Designer de correo electrónico. [Aprenda a personalizar campos editables en un fragmento visual](../email/use-visual-fragments.md#customize-fields)
+* Para los componentes de HTML, la variable se muestra en la lista de campos editables del Designer de correo electrónico. [Aprenda a personalizar campos editables en un fragmento visual](../email/use-visual-fragments.md#customize-fields)
 
 ## Ejemplo de fragmento de expresión editable {#example}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '680'
 ht-degree: 16%
 
 ---
@@ -70,6 +70,12 @@ Para crear una plantilla de contenido desde cero, siga los pasos a continuación
    * [Definición del contenido SMS](../sms/create-sms.md#sms-content)
    * [Definición del contenido de correo directo](../direct-mail/create-direct-mail.md)
    * [Definición del contenido en la aplicación](../in-app/design-in-app.md)
+   * [Definir contenido web](../web/create-web.md#edit-web-content)
+   * [Definición del contenido de experiencia basado en código](../code-based/create-code-based.md)
+
+     >[!NOTE]
+     >
+     >Puede agregar políticas de decisión a las plantillas de contenido de experiencia basadas en código. [Más información](../experience-decisioning/create-decision.md#add-decision)
 
 1. Puede probar el contenido. [Descubra cómo](#test-template)
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
-source-wordcount: '3598'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '3599'
+ht-degree: 99%
 
 ---
 
@@ -181,7 +181,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tbody>
 <tr>
 <td>
-<p>Como usuario de Journey Optimizer, ahora puede acceder a las alertas del sistema a través de la interfaz de usuario para recibir notificaciones cuando los recorridos no funcionan como se esperaba. Puede ver las alertas disponibles y suscribirse a ellas. La primera alerta disponible con esta versión le avisará si la actividad Leer público no ha procesado ningún perfil durante el lapso de tiempo definido. Habrá más ahora que se ha desbloqueado este flujo de trabajo.</p>
+<p>Como usuario de Journey Optimizer, ahora puede acceder a las alertas del sistema a través de la interfaz de usuario para recibir notificaciones cuando los recorridos no funcionan según lo esperado. Puede ver las alertas disponibles y suscribirse a ellas. La primera alerta disponible con esta versión le avisará si la actividad Leer público no ha procesado ningún perfil durante el lapso de tiempo definido. Habrá más ahora que se ha desbloqueado este flujo de trabajo.</p>
 <!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -261,7 +261,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <td>
 <p>Utilice las campañas de Journey Optimizer para ofrecer contenido único a un público específico mediante varios canales. Cuando se utilizan recorridos, las acciones están diseñadas para ejecutarse en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Obtenga información sobre cómo crear una campaña en <a href="../campaigns/get-started-with-campaigns.md">documentación detallada</a> y <a href="https://video.tv.adobe.com/v/3412402?captions=spa">vídeo de funciones</a>.
+<p>Obtenga información sobre cómo crear una campaña en <a href="../campaigns/get-started-with-campaigns.md">documentación detallada</a> y <a href="https://video.tv.adobe.com/v/346680">vídeo de funciones</a>.
 </td>
 </tr>
 </tbody>
@@ -733,7 +733,7 @@ Como cliente de Adobe Campaign Standard, ahora puede enviar correos electrónico
 <p>Journey Optimizer provide RESTful APIs that allow you to programmatically perform key operations in your applications.
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
-The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
+The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you do not send mails to customers from your development sandbox.</p>
 <p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>

@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: producto, perfiles, zona protegida
-source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 5%
@@ -50,7 +50,7 @@ Para asignar un **[!UICONTROL rol]**:
 
 1. Escriba el nombre o la dirección de correo electrónico del usuario o selecciónelo en la lista y haga clic en **[!UICONTROL Guardar]**.
 
-   Si el usuario no se creó anteriormente en [!DNL Admin Console], consulte la [Documentación para agregar usuarios](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=es){target="_blank"}.
+   Si el usuario no se creó anteriormente en [!DNL Admin Console], consulte la [Documentación para agregar usuarios](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}.
 
    ![](assets/do-not-localize/access_control_4.png)
 
@@ -60,7 +60,7 @@ Para obtener más información sobre la administración de usuarios, consulte la
 
 Al acceder a la instancia, el usuario ve una vista específica según los permisos asignados en la **[!UICONTROL función]**. Si el usuario no tiene el acceso correcto a una función, aparece el siguiente mensaje:
 
-`You don't have permission to access this feature. Permission needed: XX.`
+`You do not have permission to access this feature. Permission needed: XX.`
 
 ## Editar una función existente {#edit-product-profile}
 

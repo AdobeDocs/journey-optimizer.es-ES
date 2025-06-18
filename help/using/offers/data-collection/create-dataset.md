@@ -7,9 +7,9 @@ feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '255'
 ht-degree: 7%
 
 ---
@@ -51,9 +51,9 @@ Comience creando el esquema que se utilizará en el conjunto de datos:
 
 >[!NOTE]
 >
->Obtenga más información acerca de la creación de esquemas en [Aspectos básicos de la composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es#understanding-schemas){target="_blank"}.
+>Obtenga más información acerca de la creación de esquemas en [Aspectos básicos de la composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
-Ya está listo para crear un conjunto de datos con este esquema. Para realizar esto, siga los pasos a continuación:
+ya está listo para crear un conjunto de datos con este esquema. Para realizar esto, siga los pasos a continuación:
 
 1. En el menú **[!UICONTROL Administración de datos]**, seleccione **[!UICONTROL Conjuntos de datos]** y vaya a la pestaña **[!UICONTROL Examinar]**.
 

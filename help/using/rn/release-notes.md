@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 70%
+source-wordcount: '2050'
+ht-degree: 74%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 70%
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión. [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
 
-## Notas de la versión anteriores de junio de 2025 {#25-6-rn}
+## Notas de la versión de junio de 2025 {#25-6-rn}
 
+<!--
+**Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
 
-**Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento**. Los vínculos, las pantallas y la documentación actualizada se publican en la fecha de la versión.
+**Fecha de lanzamiento**: jueves, 18 de junio de 2025
 
-**Fecha de la versión**: 17 y 18 de junio de 2025
-
-Ver también [Notas de la versión preliminar de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuevas funciones {#25-06-features}
 
@@ -70,26 +70,29 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tr>
 <td>
 <p>Ahora puede definir campos editables específicos en plantillas de contenido JSON o HTML que permitan a los usuarios no técnicos editar fácilmente el contenido en una vista de formulario dentro de la creación del canal de experiencia basado en código, sin necesidad de manipular ningún código.<br />Más que eso, al definir las plantillas de contenido de experiencia basadas en código, ahora puede insertar directivas de decisión en la plantilla, lo que aumenta la reutilización y facilidad de uso.</p>
+<img src="assets/do-not-localize/form-fields.gif">
+<p>Para obtener más información, consulte la <a href="../code-based/code-based-form-fields.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Método de delegación personalizado para subdominios</strong><br/></th>
+<th><strong>Custom delegation method for subdomains</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Además de la delegación completa y el método CNAME, ahora está disponible un nuevo método de configuración de subdominios: el método de delegación personalizado, que le permite ser el propietario total del control y el mantenimiento de todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes.</p>
+<p>In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking messages.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
+-->
 
 <table>
 <thead>
@@ -101,7 +104,9 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tr>
 <td>
 <p>Ahora puede incluir ofertas personalizadas en los recorridos a través de una actividad de Content Decisioning específica en el lienzo de recorrido y utilizarlas en actividades de recorrido, incluidas condiciones y acciones personalizadas.</p>
+<img src="assets/do-not-localize/content-decision.gif">
 <p>Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una versión futura.</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/content-decision.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -117,7 +122,10 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tr>
 <td>
 <p>Recorrido Dry run es un modo especial de publicación de recorrido en Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar información de perfil. Esta función ayuda a los profesionales del recorrido a confiar en el diseño del recorrido y la segmentación de audiencia antes de publicarla en directo.</p>
+<img src="assets/do-not-localize/DryRun.gif">
 <p>Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una versión futura.</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/journey-dry-run.md">documentación detallada</a>.</p>
+
 </td>
 </tr>
 </tbody>
@@ -135,7 +143,9 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <p>Ahora puede pausar y reanudar las recorridos. Esta capacidad proporciona a los profesionales del recorrido un mayor control y flexibilidad al permitir que los recorridos en directo se suspendan temporalmente sin interrumpir la experiencia del cliente. Cuando está en pausa, no se envían comunicaciones y los perfiles permanecen en estado suspendido hasta que se reanuda la recorrido.</p>
 <p>Puede pausar y reanudar solo un recorrido, o realizar pausas masivas y reanudar operaciones en un grupo de recorridos.</p>
 <p>Además, puede aplicar filtros globales a recorridos en pausa para excluir perfiles en función de sus atributos.</p>
+<img src="assets/do-not-localize/PauseResume.gif">
 <p>Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una versión futura.</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/journey-pause.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -185,25 +195,25 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 
 A continuación, se describen las mejoras incluidas en esta versión.
 
-* **Conjuntos de reglas de canal**
+<!--* **Channel rule sets**
 
-   * **Ventana de duración personalizada** para límite: ahora hay disponible un nuevo campo **Recuento de repeticiones** en la pantalla de configuración de conjuntos de reglas de canal, que le permite aplicar reglas de límite de frecuencia durante varios días, semanas o meses, según la duración especificada.
+  * **Custom duration window** for capping -  A new **Repeat Count** field is now available in the channel rule sets configuration screen, allowing you to apply frequency capping rules over multiple days, weeks, or months, depending on the specified duration.
 
-   * **Duración por hora**: ahora puede aplicar un límite por hora a los conjuntos de reglas de canal.
+  * **Hourly duration** - You can now apply capping on an hourly basis for channel rule sets.    -->
 
 * **Experiencias basadas en código**
 
-   * La adición de una política de decisión ya está disponible en las plantillas de contenido de experiencia basadas en código.
+   * La adición de una política de decisión ya está disponible en plantillas de contenido de experiencia basadas en código, donde se puede utilizar para aprovechar ofertas en campos de formulario editables. [Más información](../code-based/code-based-form-fields.md)
 
-   * Desde la pantalla de edición de campaña o recorrido de experiencias basado en código, ahora puede añadir directamente una política de decisión, sin abrir el editor de personalización.
+   * Desde la pantalla de edición de campaña o recorrido de experiencias basado en código, ahora puede añadir directamente una política de decisión, sin abrir el editor de personalización. [Más información](../code-based/create-code-based.md#edit-code)
 
 * **Compatibilidad con CSS personalizado en el Designer de correo electrónico**
 
-  Journey Optimizer ahora le permite añadir CSS personalizado al contenido del correo electrónico directamente en el Designer de correo electrónico.
+  Journey Optimizer ahora le permite añadir CSS personalizado al contenido del correo electrónico directamente en el Designer de correo electrónico. [Más información](../email/custom-css.md)
 
 * **Nueva navegación con pestañas para las campañas**
 
-  Un nuevo patrón de navegación permite un acceso más rápido a la creación de contenido y admite una mayor expansión de la configuración entre campañas.
+  Un nuevo patrón de navegación permite un acceso más rápido a la creación de contenido y admite una mayor expansión de la configuración entre campañas. [Más información](../campaigns/create-campaign.md)
 
 * **Decisiones**, fecha de disponibilidad: 3 de junio de 2025
 

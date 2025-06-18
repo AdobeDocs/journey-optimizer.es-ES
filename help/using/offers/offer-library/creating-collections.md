@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '464'
 ht-degree: 31%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 31%
 
 Las colecciones le permiten organizar sus ofertas reagrupándolas en categorías de su elección. Por ejemplo, puede crear una colección &quot;sport&quot; que contenga únicamente ofertas relacionadas con el deporte.
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 Se puede acceder a la lista de colecciones de ofertas en el menú **[!UICONTROL Ofertas]**.
 
@@ -88,6 +88,6 @@ Para crear una colección, siga estos pasos:
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/346686?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 

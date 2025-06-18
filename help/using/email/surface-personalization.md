@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración, subdominio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: a5bd1e92b3696a7de2c44522099d54bc6e1e00ab
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 6%
@@ -60,7 +60,7 @@ Para definir subdominios dinámicos en una configuración de canal de correo ele
 
    >[!NOTE]
    >
-   >Algunos subdominios no están disponibles actualmente para su selección debido al registro pendiente de [feedback loop](../reports/deliverability.md#feedback-loops). Este proceso puede tardar hasta 10 días hábiles. Una vez finalizado, puede elegir entre todos los subdominios disponibles. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >Algunos subdominios no están disponibles actualmente para su selección debido al registro pendiente de [feedback loop](../reports/deliverability.md#feedback-loops). Este proceso puede tardar hasta 10 días hábiles. Una vez finalizado, puede elegir entre todos los subdominios disponibles. <!--where FL registration happens? is it when delegating a subdomain and you are awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 

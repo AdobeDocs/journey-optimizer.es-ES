@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 10%
+source-wordcount: '785'
+ht-degree: 9%
 
 ---
 
@@ -99,9 +99,15 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
 >abstract="Inserte y edite el código que desea enviar como parte de esta acción de experiencia basada en código."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Uso del editor de personalización "
 
+Para editar el contenido de su experiencia basada en código, siga los pasos a continuación.
+
 1. En la actividad de recorrido o en la pantalla de edición de la campaña, seleccione **[!UICONTROL Editar código]**.
 
    ![](assets/code-based-campaign-edit-code.png)
+
+   >[!NOTE]
+   >
+   >Si utiliza una plantilla de contenido de experiencia basada en código con campos de formulario editables predefinidos, puede administrar el contenido de estos campos sin abrir el editor de personalización. [Más información](code-based-form-fields.md)
 
 1. Se abre [editor de personalización](../personalization/personalization-build-expressions.md). Es una interfaz de creación de experiencias no visual que le permite crear su código.
 
@@ -119,9 +125,17 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
 
    También puede guardar parte del contenido del código como fragmento. [Descubra cómo](../content-management/fragments.md#save-as-expression-fragment)
 
-1. Con las experiencias basadas en código, puede utilizar la función Decisioning. Seleccione el icono **[!UICONTROL Directiva de decisión]** en la barra izquierda y haga clic en **[!UICONTROL Agregar directiva de decisión]**. [Más información](../experience-decisioning/create-decision.md)
+1. Con las experiencias basadas en código, puede utilizar la función Decisioning. Seleccione el icono **[!UICONTROL Directiva de decisión]** en la barra izquierda y haga clic en **[!UICONTROL Agregar directiva de decisión]**. [Más información](../experience-decisioning/create-decision.md#add-decision)
 
    ![](assets/code-based-campaign-create-decision.png)
+
+   <!--![](../experience-decisioning/assets/decision-code-based-create.png)-->
+
+   Desde la pantalla de edición de recorrido o campaña, también puede añadir directamente una política de decisión sin abrir el editor de personalización. Utilice el icono dedicado en el carril derecho para mostrar la sección **[!UICONTROL Decisioning]**.
+
+   <!--![](assets/code-based-campaign-show-decisioning.png)-->
+
+   Los pasos detallados para crear una directiva de decisión se presentan en [esta sección](../experience-decisioning/create-decision.md#add-decision).
 
 1. Haga clic en **[!UICONTROL Guardar y cerrar]** para confirmar los cambios.
 
@@ -131,4 +145,4 @@ Ahora, tan pronto como el desarrollador realice una API o una llamada de SDK par
 
 El siguiente vídeo muestra cómo crear una campaña de experiencia basada en código, configurar sus propiedades, probarla y publicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449456/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

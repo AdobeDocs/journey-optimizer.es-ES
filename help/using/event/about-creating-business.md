@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, recorrido, empresa, configuración
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 11%
+source-wordcount: '1127'
+ht-degree: 12%
 
 ---
 
@@ -31,7 +31,7 @@ Los eventos empresariales pueden ser &quot;un producto vuelve a estar en stock&q
 
 >[!NOTE]
 >
->También puede ver el caso de uso de evento empresarial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=es). Tenga en cuenta que no es necesario habilitar el esquema para el perfil.
+>También puede ver el caso de uso de evento empresarial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). Tenga en cuenta que no es necesario habilitar el esquema para el perfil.
 
 ## Notas importantes {#important-notes}
 
@@ -106,7 +106,7 @@ Estos son los primeros pasos para configurar un evento empresarial:
 
    ![](assets/journey7-business.png)
 
-   El evento está ahora configurado y listo para añadirse a un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Más información sobre [esta página](../event/additional-steps-to-send-events-to-journey.md).
+   El evento está ahora configurado y listo para añadirse a un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Obtenga más información en [esta página](../event/additional-steps-to-send-events-to-journey.md).
 
 ## Definición de los campos de carga útil {#define-the-payload-fields}
 

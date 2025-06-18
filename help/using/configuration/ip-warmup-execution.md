@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdominios, capacidad de entrega
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2635'
 ht-degree: 11%
 
 ---
@@ -162,7 +162,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Opcionalmente, puede definir un período de tiempo durante el cual se puede ejecutar la campaña de calentamiento de IP en caso de que haya algún retraso en la [evaluación de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es#how-segmentation-works){target="_blank"}. Para ello, haga clic en el icono Propiedades en la parte superior izquierda, junto al nombre del plan, y utilice la lista desplegable **[!UICONTROL Reintentar tiempo de ejecución]** para seleccionar una duración: hasta 240 minutos (4 horas).
+1. Opcionalmente, puede definir un período de tiempo durante el cual se puede ejecutar la campaña de calentamiento de IP en caso de que haya algún retraso en la [evaluación de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. Para ello, haga clic en el icono Propiedades en la parte superior izquierda, junto al nombre del plan, y utilice la lista desplegable **[!UICONTROL Reintentar tiempo de ejecución]** para seleccionar una duración: hasta 240 minutos (4 horas).
 
    >[!NOTE]
    >
@@ -220,7 +220,7 @@ Para activar una ejecución, selecciona el botón **[!UICONTROL Activar]**. A co
 
 Al ejecutar varios planes de calentamiento de IP de forma simultánea, todos dirigidos al mismo grupo de IP y dominios, es crucial anticipar las posibles consecuencias. Por ejemplo, si un ISP aplica un límite diario de 100 correos electrónicos, la ejecución de varios planes dirigidos a los mismos dominios puede superar este umbral.
 
-Asegúrese de haber programado tiempo suficiente para permitir que se ejecute la [evaluación de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es#how-segmentation-works){target="_blank"}.
+Asegúrese de haber programado tiempo suficiente para permitir que se ejecute la [evaluación de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}.
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -328,7 +328,7 @@ Siga los pasos [anteriores](#define-phases) para definir la nueva fase.
 * También puede excluir la campaña anterior o un dominio que no tenga un buen rendimiento. Aprenda en [esta sección](#define-phases).
 
 <!--
-You don't have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
+You do not have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
 
 But need to explain in which case you want to modify campaigns, provide examples
 -->

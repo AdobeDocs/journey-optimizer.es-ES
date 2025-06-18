@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1735'
-ht-degree: 12%
+source-wordcount: '1796'
+ht-degree: 11%
 
 ---
 
@@ -19,6 +19,12 @@ ht-degree: 12%
 >id="ajo_code_based_decision"
 >title="¿Qué es una decisión?"
 >abstract="Las políticas de decisión contienen toda la lógica de selección para que el motor de decisión elija el mejor contenido. Las políticas de decisión son específicas de la campaña. Su meta es seleccionar las mejores ofertas para cada perfil, mientras que la creación de campañas le permite indicar cómo se deben presentar los elementos de decisión seleccionados, incluidos los atributos de elemento que se deben incluir en el mensaje."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Acerca de la toma de decisiones"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_decision_policy"
+>title="Definir una directiva de decisión"
+>abstract="Una política de decisión le permite elegir los mejores elementos del motor de decisión y enviarlos a la audiencia adecuada."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Acerca de la toma de decisiones"
 
 Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de decisión para elegir el mejor contenido que se ofrece, según la audiencia.
@@ -62,6 +68,10 @@ Para presentar la mejor oferta dinámica y experiencia a los visitantes de su si
 1. En el [editor de código](../code-based/create-code-based.md#edit-code), seleccione **[!UICONTROL directiva de decisión]** y haga clic en **[!UICONTROL Agregar directiva de decisión]**.
 
    ![](assets/decision-code-based-create.png)
+
+   Desde la pantalla de edición de recorrido o campaña, también puede añadir directamente una política de decisión sin abrir el editor de personalización. Utilice el icono dedicado en el carril derecho para mostrar la sección **[!UICONTROL Decisioning]**.
+
+   ![](../code-based/assets/code-based-campaign-show-decisioning.png)
 
 1. De forma predeterminada, cree una nueva directiva.
 

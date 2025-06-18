@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 12%
+source-wordcount: '980'
+ht-degree: 13%
 
 ---
 
@@ -125,7 +125,7 @@ Para permitir que los destinatarios de un correo electrónico cancelen su suscri
 
    >[!NOTE]
    >
-   >Asegúrese de hacer referencia a la subpágina en la sección **[!UICONTROL Llamada a la acción]** de la página principal del componente **[!UICONTROL Formulario]**. [Más información](design-lp.md)
+   >Asegúrese de hacer referencia a la subpágina en la sección **[!UICONTROL Call to action]** de la página principal del componente **[!UICONTROL Form]**. [Más información](design-lp.md)
 
 1. Una vez que haya configurado y definido el contenido de sus páginas, [publique](create-lp.md#publish) la página de aterrizaje.
 
@@ -153,7 +153,7 @@ Para permitir que los destinatarios de un correo electrónico cancelen su suscri
 
    * Los datos del perfil se actualizan y no recibirán comunicaciones de su marca a menos que se vuelva a suscribir.
 
-Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
+Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y acceda al perfil seleccionando un espacio de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 
@@ -163,7 +163,7 @@ La información de exclusión se almacena en el **conjunto de datos del servicio
 
 >[!NOTE]
 >
->Si el método de combinación para la directiva de combinación predeterminada de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"} **[!UICONTROL Perfiles]** es la **[!UICONTROL Prioridad del conjunto de datos]**, asegúrese de habilitar el **[!UICONTROL conjunto de datos del servicio de consentimiento de AJO]** y de priorizarlo en la directiva de combinación. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es#dataset-precedence-profile){target="_blank"}
+>Si el método de combinación para la directiva de combinación predeterminada de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"} **[!UICONTROL Perfiles]** es la **[!UICONTROL Prioridad del conjunto de datos]**, asegúrese de habilitar el **[!UICONTROL conjunto de datos del servicio de consentimiento de AJO]** y de priorizarlo en la directiva de combinación. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Incluso si no se han agregado lotes a este conjunto de datos, seguirá conteniendo la información de inclusión/exclusión.
 

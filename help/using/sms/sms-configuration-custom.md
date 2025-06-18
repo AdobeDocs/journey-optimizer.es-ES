@@ -7,14 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 37313ca8a9527c934d8aeaf265e9674219726636
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1032'
 ht-degree: 9%
 
 ---
 
-# Configuración de un proveedor de SMS personalizado {#sms-configuration-custom}
+# Configuración de un proveedor personalizado {#sms-configuration-custom}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
@@ -31,11 +31,11 @@ ht-degree: 9%
 >title="Carga útil del proveedor"
 >abstract="Proporcione la carga útil de la solicitud para garantizar que se envían los datos correctos para el procesamiento y la generación de respuestas."
 
-Esta función le permite integrar y configurar sus propios proveedores de SMS, lo que ofrece flexibilidad más allá de los proveedores predeterminados (Sinch, Twilio e Infobip). Esto permite la creación, entrega, creación de informes y administración de consentimiento de SMS sin problemas.
+Esta función le permite integrar y configurar sus propios proveedores de mensajería, ofreciendo flexibilidad más allá de las opciones predeterminadas (Sinch, Twilio e Infobip). Esto permite una creación, un envío, una creación de informes y una administración de consentimiento sin problemas tanto para mensajes SMS como RCS.
 
-Con la configuración de proveedor personalizada para SMS, puede configurar proveedores de SMS personalizados directamente en Journey Optimizer, utilizar la personalización avanzada de la carga útil para la mensajería dinámica y administrar las preferencias de consentimiento (inclusión/exclusión) para garantizar el cumplimiento.
+Con la configuración personalizada del proveedor, puede conectar servicios de mensajería de terceros directamente en Journey Optimizer, personalizar las cargas de mensajes para el contenido dinámico y administrar las preferencias de inclusión/exclusión para garantizar la conformidad en los canales SMS y RCS.
 
-Para configurar su proveedor de SMS personalizado, siga los pasos a continuación:
+Para configurar el proveedor personalizado, siga los pasos a continuación:
 
 1. [Crear credencial de API](#api-credential)
 1. [Crear webhook](#webhook)
@@ -44,7 +44,7 @@ Para configurar su proveedor de SMS personalizado, siga los pasos a continuació
 
 ## Cree sus credenciales de API {#api-credential}
 
-Para enviar mensajes en Journey Optimizer utilizando un proveedor personalizado no disponible de forma predeterminada por Adobe (por ejemplo, Sinch, Infobip, Twilio), siga estos pasos:
+Para enviar mensajes SMS y RCS en Journey Optimizer mediante un proveedor personalizado no disponible de forma predeterminada por Adobe (por ejemplo, Sinch, Infobip, Twilio), siga estos pasos:
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** `>` **[!UICONTROL Canales]**, seleccione el menú **[!UICONTROL Credenciales de API]** en **[!UICONTROL Configuración de SMS]** y haga clic en el botón **[!UICONTROL Crear nuevas credenciales de API]**.
 
@@ -73,6 +73,8 @@ Para enviar mensajes en Journey Optimizer utilizando un proveedor personalizado 
    ![](assets/sms_byo_2.png)
 
 1. Agregue su **[!UICONTROL carga útil del proveedor]** para validar y personalizar las cargas útiles de solicitud.
+
+   Para los mensajes RCS, esta carga útil se usa más adelante durante [diseño de contenido](create-sms.md#sms-content).
 
 1. Haga clic en **[!UICONTROL Enviar]** cuando termine de configurar las credenciales de la API.
 

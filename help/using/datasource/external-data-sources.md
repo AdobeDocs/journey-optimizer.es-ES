@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 71d1a7c305c33ab7bef91b82329ecb692445fb27
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 38%
+source-wordcount: '1677'
+ht-degree: 33%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="Fuentes de datos externas"
->abstract="Las fuentes de datos externas permiten definir una conexión a sistemas de terceros, por ejemplo, si utiliza un sistema de reserva de hoteles para comprobar si la persona ha registrado una habitación. A diferencia de la fuente de datos integrada de Adobe Experience Platform, puede crear tantas fuentes de datos externas como necesite."
+>abstract="Las fuentes de datos externas permiten definir una conexión con sistemas de terceros, por ejemplo, si utiliza un sistema de reserva de hoteles para comprobar si la persona ha registrado una habitación. A diferencia de la fuente de datos integrada de Adobe Experience Platform, puede crear tantas fuentes de datos externas como necesite."
 
 ## Trabajo con fuentes de datos externas {#gs-ext-data-sources}
 
-Las fuentes de datos externas permiten definir una conexión a sistemas de terceros, por ejemplo, si utiliza un sistema de reserva de hoteles para comprobar si la persona ha registrado una habitación. A diferencia de la fuente de datos integrada de Adobe Experience Platform, puede crear tantas fuentes de datos externas como necesite.
+Las fuentes de datos externas permiten definir una conexión con sistemas de terceros, por ejemplo, si utiliza un sistema de reserva de hoteles para comprobar si la persona ha registrado una habitación. A diferencia de la fuente de datos integrada de Adobe Experience Platform, puede crear tantas fuentes de datos externas como necesite.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Solo se permiten caracteres alfanuméricos y guiones bajos. La longitud máxima 
 
    >[!CAUTION]
    >
-   >Recomendamos encarecidamente utilizar HTTPS por motivos de seguridad. Además, tenga en cuenta que no permitimos el uso de direcciones de Adobe que no están disponibles para el público ni de direcciones IP.
+   >Recomendamos encarecidamente utilizar HTTPS por motivos de seguridad. Tenga en cuenta también que no permitimos el uso de direcciones de Adobe que no están disponibles para el público ni de direcciones IP.
 
    ![](assets/journey27.png)
 

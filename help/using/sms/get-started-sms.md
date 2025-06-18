@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '237'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 76%
 
 ---
 
@@ -21,9 +21,9 @@ Utilice [!DNL Journey Optimizer] para enviar mensajes de texto (SMS/MMS) a sus c
 
 Los mensajes de texto se pueden crear y enviar en un recorrido o en una campaña. Para MMS y SMS, utilice la acción SMS.
 
-* En un **recorrido**. Cree un recorrido, añada una actividad de SMS, defina la configuración básica y, a continuación, vaya al panel **[!UICONTROL Acciones: SMS]** para crear el contenido del mensaje SMS/MMS. Aprenda a crear un recorrido en [esta página](../building-journeys/journey-gs.md).
+* En un **recorrido**. Cree un recorrido, añada una actividad SMS, defina la configuración básica y luego vaya al panel derecho **[!UICONTROL Acciones: SMS]** para crear el contenido del mensaje SMS/MMS/RCS. Aprenda a crear un recorrido en [esta página](../building-journeys/journey-gs.md).
 
-* En una **campaña**. Cree una campaña, seleccione SMS como acción, defina la configuración básica y, a continuación, edite el contenido del mensaje para definir el mensaje SMS/MMS que desea enviar. Aprenda a crear una campaña en [esta página](../campaigns/create-campaign.md#configure).
+* En una **campaña**. Cree una campaña, seleccione SMS como acción y defina la configuración básica y, a continuación, edite el contenido del mensaje para definir el mensaje SMS/MMS/RCS que desea enviar. Aprenda a crear una campaña en [esta página](../campaigns/create-campaign.md#configure).
 
 Adobe Journey Optimizer envía mensajes de texto a través de proveedores de servicios de SMS (o proveedores de puertas de enlace de SMS). Antes de crear el mensaje SMS/MMS, configure su proveedor de servicios para mensajes de texto con Journey Optimizer. [Más información](sms-configuration.md).
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer envía mensajes de texto a través de proveedores de ser
 
   +++Consulte el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422693?learn=on&captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -79,6 +79,6 @@ Adobe Journey Optimizer envía mensajes de texto a través de proveedores de ser
 
   +++Consulte el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430377?quality=12&learn=on&captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, diseño, stock, activos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: '608'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 Puede importar un contenido existente en [!DNL Journey Optimizer] o aprovechar las funcionalidades de diseño de contenido:
 
-* Utilice las [!DNL Journey Optimizer]&#x200B;**funcionalidades de diseño de correo electrónico de** para diseñar o importar correos electrónicos adaptables. [Más información](content-from-scratch.md)
+* Utilice las [!DNL Journey Optimizer]**funcionalidades de diseño de correo electrónico de** para diseñar o importar correos electrónicos adaptables. [Más información](content-from-scratch.md)
 
 * Aproveche **Adobe Experience Manager Assets Essentials** para enriquecer los correos electrónicos, crear y administrar su propia base de datos de activos. [Más información](../integrations/assets.md)
 
@@ -74,8 +74,8 @@ Una vez que haya [añadido un correo electrónico](create-email.md) a un recorri
 
 Aprenda a crear contenido de correo electrónico con el editor de mensajes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416231?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Aprenda a configurar experimentos de contenido para realizar pruebas A/B y explorar el contenido de correo electrónico que mejor impulsa sus objetivos empresariales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447334?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

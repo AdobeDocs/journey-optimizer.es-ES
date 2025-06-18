@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '983'
 ht-degree: 4%
 
 ---
@@ -68,7 +68,7 @@ Puede adoptar una serie de prácticas recomendadas que le ayudarán a mantenerse
 * Si el recorrido de **Leer audiencia** solo tiene una acción, no tiene esperas/decisiones ni optimización del tiempo de envío, considere la posibilidad de moverlos a Campañas de Journey Optimizer. Las campañas son más adecuadas para la participación de una sola etapa. Una de las diferencias clave entre Campaign y Recorrido es si cree que es importante escuchar activamente la participación del usuario para determinar el siguiente paso y comprometerse con otra acción.
 * Para reducir el número de actividades dentro de un recorrido, compruebe los pasos de condición. Habrá muchas instancias en las que puede mover las condiciones a la definición de segmento o a la composición de audiencia.
 * Si las mismas condiciones se repiten en varios recorridos (comprobaciones de consentimiento, supresiones), considere la posibilidad de moverlas como parte de la definición del segmento. Por ejemplo, si tiene una condición para comprobar que la dirección de correo electrónico no está vacía en varios recorridos, incluya esa condición como parte de la definición del segmento.
-* Si el recorrido tiene varias condiciones para dividir la audiencia y ver los números en cada paso, considere la posibilidad de utilizar un Customer Journey Analytics u otra solución de creación de informes que sea más adecuada para el análisis.
+* Si el recorrido tiene varias condiciones para dividir la audiencia y ver los números en cada paso, considere la posibilidad de utilizar Customer Journey Analytics u otra solución de creación de informes más adecuada para el análisis.
 * Si se acerca al límite de nodos en el lienzo, considere la posibilidad de consolidar acciones con parámetros dinámicos o contenido para ofrecer el contenido correcto en lugar de nodos explícitos.
 
 * Si tiene un recorrido de **Leer audiencia** con segmento por lotes (A) y usa dentro del recorrido en el segmento de flujo de audiencia (B) para excluir (es decir, realizar A-B), considere mover esa lógica a la lógica de segmentación y use la exclusión como parte de la propia lógica de segmentación.

@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1500'
 ht-degree: 2%
 
 ---
@@ -662,7 +662,7 @@ Devuelve todos los eventos de servicio relacionados con la versión de recorrido
 También podemos detectar problemas como:
 
 * errores en la creación de trabajos de exportación de temas (incluidos los tiempos de espera en las llamadas de API de exportación de audiencia)
-* trabajos de exportación que se pueden atascar (en caso de que, para una versión de recorrido determinada, no tengamos ningún evento con respecto a la finalización del trabajo de exportación)
+* trabajos de exportación que se pueden atascar (en caso de que, para una versión de recorrido determinada, no tengamos ningún evento relacionado con la finalización del trabajo de exportación)
 * problemas con los trabajadores, si hemos recibido el evento de finalización del trabajo de exportación pero no el de finalización del procesamiento del trabajador
 
 IMPORTANTE: si esta consulta no devuelve ningún evento, puede deberse a uno de los siguientes motivos:

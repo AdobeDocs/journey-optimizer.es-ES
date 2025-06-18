@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: datos, gobernanza, DULE, etiquetas, etiquetado, plataforma, directiva
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 100%
+source-wordcount: '1291'
+ht-degree: 96%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 100%
 
 ## Introducción a las políticas de gobernanza de datos {#gs}
 
-Con su marco de [uso de etiquetado y aplicación del uso de datos (Data Usage Labeling and Enforcement, DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=es){target="_blank"}{_blank}, Adobe Experience Platform permite administrar y aplicar políticas de gobernanza de datos en todos los canales. Para ello, **etiqueta los campos** y crea **acciones de marketing** para cada canal.
+Con su [marco de trabajo de gobernanza de etiquetado y aplicación del uso de datos (Data Usage Labeling and Enforcement, DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=es){target="_blank"}, Adobe Experience Platform le permite administrar y aplicar directivas de gobernanza de datos en todos sus canales. Para ello, **etiqueta sus campos** y crea **acciones de marketing** para cada canal.
 
-Una vez definidas las etiquetas y las acciones de marketing, puede crear **políticas de gobernanza de datos** que vinculen estos dos elementos. Por ejemplo, puede configurar una política que asocie una etiqueta “ePHI” con una acción de marketing de “direccionamiento de correo electrónico”, lo que garantiza que los campos etiquetados como “ePHI” no se utilicen para personalizar los mensajes de correo electrónico. [Aprenda a crear políticas de gobernanza de datos](#governance-policies)
+Una vez definidas las etiquetas y las acciones de marketing, puede crear **políticas de gobernanza de datos** que vinculen estos dos elementos. Por ejemplo, puede configurar una política que asocie una etiqueta “ePHI” con una acción de marketing de “direccionamiento de correo electrónico”, lo que garantiza que los campos etiquetados como “ePHI” no se utilicen para personalizar los mensajes de correo electrónico. [Aprenda a crear políticas de gobernanza de datos](#policy)
 
 Después de crear las políticas de gobernanza, puede aplicar las acciones de marketing a sus recorridos/campañas y a las acciones personalizadas de recorrido.
 [Aprenda a aplicar acciones de marketing en Journey Optimizer](#apply-marketing-actions)
@@ -36,7 +36,7 @@ Al crear un recorrido o una campaña, después de seleccionar una configuración
 
 ## Creación de etiquetas y acciones de marketing {#labels-marketing-actions}
 
-El primer paso para aplicar la política de control de datos es crear una etiqueta y adjuntarla a los campos para los que desea restringir el uso y realizar acciones de marketing para cada uno de los canales.
+El primer paso para aplicar la política de gobernanza de datos es crear una etiqueta y adjuntarla a los campos para los que desea restringir el uso y realizar acciones de marketing para cada uno de los canales.
 
 1. En el menú de la izquierda, debajo de **Privacidad**, haga clic en **Políticas**.
 
@@ -44,7 +44,7 @@ El primer paso para aplicar la política de control de datos es crear una etique
 
 1. Determine un nombre y un nombre descriptivo para la etiqueta. Por ejemplo, _ePHI1_.
 
-1. En el menú de la izquierda, debajo de **Gestión de datos**, haga clic en **Esquemas** y en el botón **Aplicar etiquetas de acceso y control de datos**. Seleccione el esquema y el campo (por ejemplo, “grupo sanguíneo”) y elija la etiqueta creada antes (_ePHI1_ en el ejemplo).
+1. En el menú de la izquierda, debajo de **Gestión de datos**, haga clic en **Esquemas** y en el botón **Aplicar etiquetas de acceso y gobernanza de datos**. Seleccione el esquema y el campo (por ejemplo, “grupo sanguíneo”) y elija la etiqueta creada antes (_ePHI1_ en el ejemplo).
 
    ![](assets/action-privacy3.png)
 
@@ -98,7 +98,7 @@ Veamos el ejemplo del campo de grupo sanguíneo que debe restringir para que no 
 
 1. En el menú de la izquierda, debajo de **Administración**, haga clic en **Configuraciones** y seleccione **Acciones**.
 
-1. Abra la acción personalizada del Slack. Al configurar una acción personalizada, se pueden utilizar dos campos para controlar los datos.
+1. Abra la acción personalizada del Slack. Al configurar una acción personalizada, se pueden utilizar dos campos para la gobernanza los datos.
 
    ![](assets/action-privacy6.png)
 
@@ -110,7 +110,7 @@ Veamos el ejemplo del campo de grupo sanguíneo que debe restringir para que no 
 
 1. En el menú de la izquierda, debajo de **Administración de recorrido**, haga clic en **Recorridos**.
 
-1. Cree el recorrido y añada la acción personalizada. Al agregar la acción personalizada en un recorrido, varias opciones permiten administrar la governanza de datos. Haga clic en **Mostrar campos de solo lectura** para mostrar todos los parámetros.
+1. Cree el recorrido y añada la acción personalizada. Al agregar la acción personalizada en un recorrido, varias opciones permiten administrar la gobernanza de datos. Haga clic en **Mostrar campos de solo lectura** para mostrar todos los parámetros.
 
    ![](assets/action-privacy7.png)
 
@@ -134,4 +134,4 @@ Los errores son visibles desde el botón **[!UICONTROL Alertas]**. Haga clic en 
 
 Este cuadro de diálogo indica que la configuración actual de recorrido/campaña infringe una política de gobernanza de datos existente. Utilice el diagrama de linaje de datos para comprender qué otros cambios de configuración deben realizarse antes de activar el recorrido o la campaña.
 
-Encontrará información detallada en la [documentación de infracción de política de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+Encontrará información detallada en la [documentación de infracción de directiva de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.

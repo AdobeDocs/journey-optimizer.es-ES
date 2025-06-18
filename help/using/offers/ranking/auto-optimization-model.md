@@ -7,9 +7,9 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1358'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,17 @@ El uso de modelos de optimización automática para la administración de decisi
 
 Los siguientes términos pueden resultar útiles al tratar el tema de la optimización automática:
 
-* **Bandido multibrazo**: Un enfoque de [bandido multibrazo](https://en.wikipedia.org/wiki/Multi-armed_bandit){target="_blank"} para la optimización equilibra el aprendizaje exploratorio y la explotación de ese aprendizaje.
+* **Multi-armed bandit**: Un enfoque de [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit){target="_blank"} en la optimización equilibra el aprendizaje exploratorio y la explotación de ese aprendizaje.
 
 * **Muestreo Thomson**: El muestreo Thompson es un algoritmo para problemas de decisiones en línea en el que las acciones se toman secuencialmente de una manera que debe equilibrar entre la explotación de lo que se sabe que maximiza el rendimiento inmediato y la inversión para acumular información nueva que pueda mejorar el rendimiento futuro. [Más información](#thompson-sampling)
 
-* [**Distribución de Beta**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: conjunto de [distribuciones de probabilidad](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} continuas definidas en el intervalo [0, 1] [parametrizadas](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} por dos [parámetros de forma positivos](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
+* [**Distribución de Beta**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: conjunto de [distribuciones de probabilidad](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} continuas definidas en el intervalo [0, 1] [parametrizadas](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} por dos [parámetros de forma](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"} positivos.
 
 ## Muestreo Thompson {#thompson-sampling}
 
 El algoritmo subyacente a la optimización automática es **Muestreo Thompson**. En esta sección, analizamos la intuición detrás del muestreo Thompson.
 
-[Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, o bandidos bayesianos, es un enfoque bayesiano del problema de los bandidos multiarmados.  La idea básica es tratar el ?? de recompensa promedio de cada oferta como una **variable aleatoria** y usar los datos que hemos recopilado hasta el momento para actualizar nuestra &quot;creencia&quot; sobre la recompensa promedio. Esta &quot;creencia&quot; está representada matemáticamente por una **distribución posterior de probabilidad** - esencialmente un rango de valores para la recompensa promedio, junto con la plausibilidad (o probabilidad) de que la recompensa tenga ese valor para cada oferta. Luego, por cada decisión, **tomaremos una muestra de un punto de cada una de estas distribuciones de recompensa posterior** y seleccionaremos la oferta cuya recompensa incluida tenía el valor más alto.
+[Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, o bandidos bayesianos, es un enfoque bayesiano del problema de los bandidos multiarmados.  La idea básica es tratar la recompensa promedio 𝛍 de cada oferta como una **variable aleatoria** y usar los datos que hemos recopilado hasta el momento para actualizar nuestra &quot;creencia&quot; sobre la recompensa promedio. Esta &quot;creencia&quot; está representada matemáticamente por una **distribución posterior de probabilidad** - esencialmente un rango de valores para la recompensa promedio, junto con la plausibilidad (o probabilidad) de que la recompensa tenga ese valor para cada oferta. Luego, por cada decisión, **tomaremos una muestra de un punto de cada una de estas distribuciones de recompensa posterior** y seleccionaremos la oferta cuya recompensa incluida tenía el valor más alto.
 
 Este proceso se ilustra en la figura siguiente, donde tenemos 3 ofertas diferentes. Inicialmente no tenemos evidencia de los datos y asumimos que todas las ofertas tienen una distribución de recompensa posterior uniforme. Tomamos una muestra de la distribución posterior de recompensas de cada oferta. La muestra seleccionada en la distribución de la oferta 2 tiene el valor más alto. Este es un ejemplo de **exploración**. Después de mostrar la Oferta 2, recopilamos cualquier recompensa potencial (por ejemplo, conversión/no conversión) y actualizamos la distribución posterior de la Oferta 2 usando el Teorema de Bayes como se explica a continuación.  Continuamos este proceso y actualizamos las distribuciones posteriores cada vez que se muestra una oferta y se obtiene la recompensa. En la segunda cifra, se selecciona la Oferta 3: a pesar de que la Oferta 1 tiene la recompensa promedio más alta (su distribución de recompensa posterior está más a la derecha), el proceso de muestreo de cada distribución nos ha llevado a elegir una Oferta 3 aparentemente subóptima. Al hacerlo, nos damos la oportunidad de aprender más acerca de la verdadera distribución de recompensas de Offer 3.
 
@@ -59,7 +59,7 @@ Finalmente, si una oferta (por ejemplo, la oferta 1) es un claro ganador, su dis
 
 +++**Detalles técnicos**
 
-Para calcular/actualizar distribuciones, usamos el **Teorema de Bayes**. Para cada oferta ***i***, queremos calcular su ***P(??i | data)***, es decir, para cada oferta ***i***, la probabilidad de que haya un valor de recompensa **??i**, dados los datos que hemos recopilado hasta ahora para esa oferta.
+Para calcular/actualizar distribuciones, usamos el **Teorema de Bayes**. Para cada oferta ***i***, queremos calcular su ***P(𝛍i | data)***, es decir, para cada oferta ***i***, la probabilidad de que haya un valor de recompensa **𝛍i**, dados los datos que hemos recopilado hasta ahora para esa oferta.
 
 Del Teorema De Bayes:
 
@@ -67,7 +67,7 @@ Del Teorema De Bayes:
 
 La **probabilidad anterior** es la suposición inicial acerca de la probabilidad de producir un resultado. La probabilidad, después de que se hayan recopilado algunas pruebas, se conoce como la **probabilidad posterior**. 
 
-La optimización automática está diseñada para tener en cuenta las recompensas binarias (clic/sin clic). En este caso, la probabilidad representa el número de éxitos de N ensayos y está modelada por una **distribución binomial**. Para algunas funciones de probabilidad, si se elige una determinada anterior, la posterior termina estando en la misma distribución que la anterior. A este tipo de prior se le denomina **conjugado prior**. Este tipo de antecedente hace que el cálculo de la distribución posterior sea muy sencillo. La **distribución Beta** es un conjugado anterior a la probabilidad binomial (recompensas binarias), por lo que es una opción conveniente y sensata para las distribuciones de probabilidad anterior y posterior. La distribución Beta toma dos parámetros, **&#x200B;**&#x200B;**&#x200B; y &#x200B;**&#x200B;**&#x200B;**. Estos parámetros pueden considerarse como el recuento de éxitos y errores y el valor medio dado por:
+La optimización automática está diseñada para tener en cuenta las recompensas binarias (clic/sin clic). En este caso, la probabilidad representa el número de éxitos de N ensayos y está modelada por una **distribución binomial**. Para algunas funciones de probabilidad, si se elige una determinada anterior, la posterior termina estando en la misma distribución que la anterior. A este tipo de prior se le denomina **conjugado prior**. Este tipo de antecedente hace que el cálculo de la distribución posterior sea muy sencillo. La **distribución Beta** es un conjugado anterior a la probabilidad binomial (recompensas binarias), por lo que es una opción conveniente y sensata para las distribuciones de probabilidad anterior y posterior. La distribución Beta toma dos parámetros, ****** y ******. Estos parámetros pueden considerarse como el recuento de éxitos y errores y el valor medio dado por:
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
@@ -77,7 +77,7 @@ La distribución anterior se modela mediante Beta y la posterior toma la siguien
 
 ![](../assets/ai-ranking-posterior-distribution.svg)
 
-La parte posterior se calcula simplemente agregando el número de aciertos y errores a los parámetros existentes **&#x200B;**&#x200B;**, &#x200B;**&#x200B;**&#x200B;**.
+La parte posterior se calcula simplemente agregando el número de aciertos y errores a los parámetros existentes ******, ******.
 
 Para la optimización automática, como se muestra en el ejemplo anterior, comenzamos con una distribución anterior ***Beta(1, 1)*** (distribución uniforme) para todas las ofertas y después de obtener los éxitos y los errores de una oferta determinada, la posterior se convierte en una distribución Beta con los parámetros ***(s+, f+)*** para esa oferta.
 +++

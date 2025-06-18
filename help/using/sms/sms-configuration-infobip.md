@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '748'
 ht-degree: 3%
 
 ---
@@ -28,47 +28,38 @@ Si no se proporcionan las palabras clave de inclusión u exclusión, se utilizan
 
 >[!ENDSHADEBOX]
 
+## Configuración de credenciales de API para SMS
+
 Para configurar Infobip con Journey Optimizer, siga estos pasos:
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** `>` **[!UICONTROL Canales]** y seleccione el menú **[!UICONTROL Credenciales de API]**. Haga clic en el botón **[!UICONTROL Crear nuevas credenciales de API]**.
 
-1. Configure las credenciales de la API como se detalla a continuación.
+1. Configure las credenciales de la API de SMS como se detalla a continuación:
 
-   * **[!UICONTROL Proveedor de SMS]**: Infobip.
++++ Lista de credenciales de SMS para la configuración
 
-   * **[!UICONTROL Nombre]**: elige un nombre para tu credencial de API.
+   | Campos de configuración | Descripción |
+   |---|---|    
+   | Proveedor de SMS | Infobip |
+   | Nombre | Elija un nombre para su credencial de API. |
+   | URL base de API y clave de API | Acceda a la página de inicio de la interfaz web o a la página de administración de claves de API para encontrar sus credenciales. Obtenga más información en [Documentación de Infobip](https://www.infobip.com/docs/api){target="_blank"} |
+   | Palabras clave de inclusión | Introduzca las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su mensaje de inclusión. Para varias palabras clave, utilice valores separados por comas. |
+   | Mensaje de inclusión | Introduzca la respuesta personalizada que se envía automáticamente como mensaje de inclusión. |
+   | Palabras clave de exclusión | Introduzca las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente el mensaje de exclusión. Para varias palabras clave, utilice valores separados por comas. |
+   | Mensaje de exclusión | Introduzca la respuesta personalizada que se enviará automáticamente como mensaje de exclusión. |
+   | Palabras clave de ayuda | Escriba las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su **mensaje de ayuda**. Para varias palabras clave, utilice valores separados por comas. |
+   | Mensaje de ayuda | Escriba la respuesta personalizada que se enviará automáticamente como **mensaje de ayuda**. |
+   | Palabras clave de inclusión doble | Introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas. [Más información sobre la inclusión doble de SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
+   | Mensaje de inclusión doble | Introduzca la respuesta personalizada que se envía automáticamente en respuesta a la confirmación de doble inclusión. |
+   | ID de entidad principal | Introduzca el ID de entidad principal de DLT asignado. |
+   | ID de plantilla de contenido | Introduzca su ID de plantilla de contenido DLT registrado. |
+   | Período de validez | Introduzca el periodo de validez del mensaje en horas. En caso de que los mensajes no se puedan enviar dentro de este periodo de tiempo, el sistema intentará reenviarlos de nuevo. El periodo de validez predeterminado es de 48 horas. |
+   | Datos de llamada de retorno | Introduzca los datos de cliente adicionales que se enviarán en la dirección URL de notificación. |
+   | Número entrante | Añada su número de entrada único. Esto le permite utilizar las mismas credenciales de API en diferentes zonas protegidas, cada una con su propio número de entrada. |
+   | Palabras clave de entrada personalizadas | Defina palabras clave únicas para acciones específicas, por ejemplo, DESCUENTO, OFERTAS, INSCRIBIRSE. Estas palabras clave se capturan y almacenan como atributos en el perfil, lo que le permite almacenar en déclencheur una calificación de segmento de flujo continuo dentro del recorrido y enviar una respuesta o acción personalizada. |
+   | Mensaje de respuesta entrante predeterminado | Introduzca la respuesta predeterminada que se envía cuando un usuario final envía un SMS entrante que no coincide con ninguna de las palabras clave definidas. |
 
-   * **[!UICONTROL URL base de API]** y **[!UICONTROL clave de API]**: accede a la página de inicio de la interfaz web o a la página de administración de claves de API para encontrar tus credenciales. Obtenga más información en [Documentación de Infobip](https://www.infobip.com/docs/api){target="_blank"}.
-
-   * **[!UICONTROL Palabras clave de inclusión]**: escriba las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su **[!UICONTROL mensaje de inclusión]**. Para varias palabras clave, utilice valores separados por comas.
-
-   * **[!UICONTROL Mensaje de inclusión]**: escriba la respuesta personalizada que se enviará automáticamente como **[!UICONTROL Mensaje de inclusión]**.
-
-   * **[!UICONTROL Palabras clave de exclusión]**: escriba las palabras clave predeterminadas o las palabras clave que almacenarán en déclencheur automáticamente su **[!UICONTROL mensaje de exclusión]**. Para varias palabras clave, utilice valores separados por comas.
-
-   * **[!UICONTROL Mensaje de exclusión]**: escriba la respuesta personalizada que se enviará automáticamente como **[!UICONTROL Mensaje de exclusión]**.
-
-   * **[!UICONTROL Palabras clave de ayuda]**: escribe las palabras clave predeterminadas o personalizadas que almacenarán automáticamente en déclencheur tu **mensaje de ayuda**. Para varias palabras clave, utilice valores separados por comas.
-
-   * **[!UICONTROL Mensaje de ayuda]**: escriba la respuesta personalizada que se enviará automáticamente como **Mensaje de ayuda**.
-
-   * **[!UICONTROL Palabras clave de inclusión doble]**: escriba las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas.
-
-   * **[!UICONTROL Mensaje de inclusión doble]**: escriba la respuesta personalizada que se enviará automáticamente en respuesta a la confirmación de inclusión doble.
-
-   * **[!UICONTROL ID de entidad principal]**: escriba el ID de entidad principal DLT asignado.
-
-   * **[!UICONTROL ID de plantilla de contenido]**: escriba su ID de plantilla de contenido DLT registrado.
-
-   * **[!UICONTROL Período de validez]**: introduzca el período de validez del mensaje en horas. En caso de que los mensajes no se puedan enviar dentro de este periodo de tiempo, el sistema intentará reenviarlos de nuevo. El periodo de validez predeterminado es de 48 horas.
-
-   * **[!UICONTROL Datos de devolución de llamada]**: escriba los datos de cliente adicionales que se enviarán en la dirección URL de notificación.
-
-   * **[!UICONTROL Número de entrada]**: agrega tu número de entrada único. Esto le permite utilizar las mismas credenciales de API en diferentes zonas protegidas, cada una con su propio número de entrada.
-
-   * **[!UICONTROL Palabras clave de entrada personalizadas]**: defina palabras clave únicas para acciones específicas, por ejemplo: DESCUENTO, OFERTAS, INSCRIBIRSE. Estas palabras clave se capturan y almacenan como atributos en el perfil, lo que le permite almacenar en déclencheur una calificación de segmento de flujo continuo dentro del recorrido y enviar una respuesta o acción personalizada.
-
-   * **[!UICONTROL Mensaje de respuesta entrante predeterminado]**: escriba la respuesta predeterminada que se enviará cuando un usuario final envíe un SMS entrante que no coincida con ninguna de las palabras clave definidas.
++++
 
 1. Haga clic en **[!UICONTROL Enviar]** cuando termine de configurar las credenciales de la API.
 
@@ -77,3 +68,23 @@ Para configurar Infobip con Journey Optimizer, siga estos pasos:
 1. Para modificar las credenciales existentes, busque las credenciales de API que desee y haga clic en la opción **[!UICONTROL Editar]** para realizar los cambios necesarios.
 
 Después de crear y configurar las credenciales de la API, debe crear una configuración de canal para los mensajes SMS y MMS. [Más información](sms-configuration-surface.md)
+
+## Configurar las credenciales de API para RCS
+
+La mensajería RCS se admite en Adobe Journey Optimizer a través de Infobip mediante la característica [Proveedor de SMS personalizado](sms-configuration-custom.md). Esto permite enviar mensajes interactivos enriquecidos a través de perfiles comerciales verificados, incorporando elementos como carruseles, botones y contenido multimedia.
+
+Para habilitar la mensajería RCS con Infobip, se deben configurar nuevas credenciales de API mediante un proveedor de SMS personalizado. Las credenciales existentes de Infobip SMS no son compatibles, ya que RCS requiere un formato de carga útil distinto.
+
+1. **Registre su empresa para RCS a través de Infobip**
+
+   Comience por completar el proceso de incorporación y registro de RCS en la plataforma Infobip. Esto implica configurar el perfil del remitente de RCS y asegurarse de que la cuenta esté habilitada para RCS. Obtenga más información en [Documentación de Infobip](https://www.infobip.com/docs/rcs/get-started)
+
+1. **Crear un webhook de SMS**
+
+   [Configurar un webhook de SMS personalizado](sms-configuration-custom.md#webhook) en Journey Optimizer. Este webhook será responsable de gestionar las confirmaciones de entrega, los mensajes RCS entrantes y las actualizaciones de estado desde la plataforma de Infobip.
+
+1. **Crear credencial de API usando Personalizado como proveedor de SMS**
+
+   [Cree una nueva credencial de API](sms-configuration-custom.md#api-credential) en Journey Optimizer, seleccionando &quot;Personalizado&quot; como proveedor de SMS. Utilice el método de autenticación de extremo RCS adecuado, la dirección URL base y los encabezados.
+
+Después de crear y configurar las credenciales de la API, debe crear una configuración de canal para los mensajes RCS. [Más información](sms-configuration-surface.md)

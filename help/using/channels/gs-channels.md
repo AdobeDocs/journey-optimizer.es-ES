@@ -6,10 +6,10 @@ description: 'Aprenda a trabajar con los canales de comunicación de  [!DNL Adob
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer ofrece una variedad de canales nativos para interactuar 
 Los canales de envío de los mensajes de salida implican enviar mensajes a los clientes sin interacción previa. Algunos ejemplos son las campañas de correo electrónico y las notificaciones push, donde puede ponerse en contacto de forma proactiva con su público. En [!DNL Adobe Journey Optimizer], los canales de salida admitidos son los siguientes:
 
 * **Correo electrónico**: envíe mensajes personalizados directamente a las bandejas de entrada de sus clientes.
-* **SMS/MMS**: envíe mensajes de texto para llegar a los usuarios en sus dispositivos móviles.
+* **SMS/MMS/RCS**: envía mensajes de texto para llegar a los usuarios en sus dispositivos móviles.
 * **Notificación push**: capte a los usuarios con notificaciones instantáneas en sus dispositivos para que actúen de inmediato.
 * **Correo directo**: utilice el correo físico para crear una conexión tangible con su público.
 

@@ -5,10 +5,10 @@ description: Aprenda a utilizar Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 825e0b3112bc7e5dd7551873151c65bd1cc99f07
-workflow-type: ht
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -20,9 +20,9 @@ Eche un vistazo a las mejoras más recientes del producto y a la documentación 
 
 >[!BEGINTABS]
 
->[!TAB Versión de mayo de 2025]
+>[!TAB Versión de junio de 2025]
 
-Ya está aquí la versión de mayo. Consulte las Notas de la versión para descubrir los cambios y mejoras y las funciones nuevas.
+¡La versión de junio ya está activa! Consulte las Notas de la versión para descubrir los cambios y mejoras y las funciones nuevas.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -43,7 +43,7 @@ La integración de Adobe Express en Adobe Journey Optimizer le permite acceder f
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB Fragmento de contenido de AEM]
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ Se puede modificar cada tablero de informes cambiando el tamaño o eliminando wi
 
    ![](assets/report_modify_8.png)
 
-1. Haz clic en **[!UICONTROL Quitar]** para quitar cualquier widget que no necesites.
+1. Haga clic en **[!UICONTROL Eliminar]** para eliminar cualquier widget que no necesite.
 
    ![](assets/report_modify_9.png)
 

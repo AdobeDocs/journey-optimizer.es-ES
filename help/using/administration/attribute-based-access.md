@@ -9,7 +9,7 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, atributo, autorizaciones, datos, acceso, confidencial, recursos
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 2%
@@ -32,13 +32,13 @@ En este ejemplo, se agrega una etiqueta al campo de esquema **Nationality** para
 
 1. Utilice el **[!UICONTROL campo de esquema]** en Adobe Journey Optimizer.
 
-Tenga en cuenta que también se puede tener acceso a **[!UICONTROL Roles]**, **[!UICONTROL Políticas]** y **[!UICONTROL Productos]** con la API de control de acceso basada en atributos. Para obtener más información, consulte esta [documentación](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=es){target="_blank"}.
+Tenga en cuenta que también se puede tener acceso a **[!UICONTROL Roles]**, **[!UICONTROL Políticas]** y **[!UICONTROL Productos]** con la API de control de acceso basada en atributos. Para obtener más información, consulte esta [documentación](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"}.
 
 ## Crear una función y asignar etiquetas {#assign-role}
 
 >[!IMPORTANT]
 >
->&#x200B;>Antes de administrar permisos para una función, cree una directiva. Para obtener más información, consulte la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=es){target="_blank"}.
+>>Antes de administrar permisos para una función, cree una directiva. Para obtener más información, consulte la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=es){target="_blank"}.
 
 **[!UICONTROL Las funciones]** son un conjunto de usuarios que comparten los mismos permisos, etiquetas y zonas protegidas dentro de su organización. Cada usuario que pertenece a un **[!UICONTROL Rol]** tiene derecho a las aplicaciones y servicios de Adobe contenidos en el producto. También puede crear sus propios **[!UICONTROL roles]** para ajustar el acceso de los usuarios a ciertas funcionalidades u objetos de la interfaz.
 
@@ -102,11 +102,11 @@ Tenga en cuenta que también puede agregar **[!UICONTROL Label]** a **[!UICONTRO
 
    ![Editar etiquetas de gobernanza para el campo](assets/label_3.png)
 
-1. Seleccione la **[!UICONTROL Etiqueta]** correspondiente, en este caso, C2 - Los datos no se pueden exportar a terceros. Para obtener la lista detallada de las etiquetas disponibles, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=es#contract-labels){target="_blank"}.
+1. Seleccione la **[!UICONTROL Etiqueta]** correspondiente, en este caso, C2 - Los datos no se pueden exportar a terceros. Para obtener la lista detallada de las etiquetas disponibles, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"}.
 
    ![](assets/label_4.png)
 
-1. Personalice aún más el esquema si es necesario y, a continuación, actívelo. Para ver los pasos detallados sobre cómo habilitar el esquema, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=es#profile){target="_blank"}.
+1. Personalice aún más el esquema si es necesario y, a continuación, actívelo. Para ver los pasos detallados sobre cómo habilitar el esquema, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}.
 
 El campo del esquema ahora solo lo podrán ver y utilizar los usuarios que formen parte de un conjunto de funciones con la etiqueta C2. Al aplicar una **[!UICONTROL Etiqueta]** a su **[!UICONTROL Nombre de campo]**, la **[!UICONTROL Etiqueta]** se aplicará automáticamente al campo **Nacionalidad** en cada esquema creado.
 
@@ -155,7 +155,7 @@ Después de etiquetar el nombre del campo **Nationality** en un nuevo esquema y 
 Si el usuario Y, sin acceso a los objetos de la etiqueta C2, necesita acceder a este recorrido con el campo restringido:
 
 * El usuario Y no podrá utilizar el nombre de campo restringido, ya que no será visible.
-* El usuario Y no podrá editar la expresión con el nombre de campo restringido en modo avanzado. Aparecerá el siguiente error: `The expression is invalid. Field is no longer available or you don't have enough permission to see it`.
+* El usuario Y no podrá editar la expresión con el nombre de campo restringido en modo avanzado. Aparecerá el siguiente error: `The expression is invalid. Field is no longer available or you do not have enough permission to see it`.
 * El usuario Y puede eliminar la expresión.
 * El usuario Y no podrá probar el recorrido.
 * El usuario Y no podrá publicar el recorrido.

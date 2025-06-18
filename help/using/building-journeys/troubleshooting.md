@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 48%
+source-wordcount: '1059'
+ht-degree: 44%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 48%
 
 En esta sección, aprenderá a solucionar problemas de recorridos antes de realizar pruebas o publicar. Todas las comprobaciones que se indican a continuación se pueden realizar cuando el recorrido está en modo de prueba o cuando el recorrido está activo. La recomendación es realizar todas las comprobaciones siguientes en el modo de prueba y luego proceder a la publicación. Obtenga más información acerca del modo de prueba en [esta página](../building-journeys/testing-the-journey.md).
 
-Como administrador, también puede probar las configuraciones de acciones personalizadas realizando llamadas de API reales directamente desde la interfaz de usuario. Más información sobre [esta página](../action/troubleshoot-custom-action.md).
+Como administrador, también puede probar las configuraciones de acciones personalizadas realizando llamadas de API reales directamente desde la interfaz de usuario. Obtenga más información en [esta página](../action/troubleshoot-custom-action.md).
 
 ## Compruebe si hay errores antes de probar {#checking-for-errors-before-testing}
 
@@ -64,7 +64,7 @@ El punto de partida de un recorrido es siempre un evento. Puede hacer pruebas co
 
 Puede comprobar si la llamada API que envía a través de estas herramientas se envía correctamente o no. Si vuelve a recibir un error, significa que la llamada tiene un problema. Vuelva a comprobar la carga útil, el encabezado (y especialmente el ID de organización) y la dirección URL de destino. Puede preguntar a su administrador cuál es la dirección URL correcta para visitar.
 
-Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con el evento, puede consultar [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=es){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
+Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con el evento, puede consultar [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
 
 Si el recorrido no puede habilitar el modo de prueba con el error `ERR_MODEL_RULES_16`, asegúrese de que el evento usado incluya un [área de nombres de identidad](../audience/get-started-identity.md) al usar una acción de canal.
 
@@ -82,7 +82,7 @@ Puede comenzar la resolución de problemas con las preguntas siguientes:
 * ¿Ha guardado el evento antes de copiar la carga útil de la previsualización de carga útil?
 * ¿Su carga útil de evento contiene un ID de evento?
 * ¿Ha marcado la dirección URL correcta?
-* ¿Ha seguido la estructura de carga útil de las API de inserción de flujo, utilizando la previsualización de estructura de carga útil del panel de configuración de evento? Consulte [esta página](../event/about-creating.md#preview-the-payload).
+* ¿Ha seguido la estructura de carga útil de las API de ingesta de flujo, utilizando la previsualización de estructura de carga útil del panel de configuración de evento? Consulte [esta página](../event/about-creating.md#preview-the-payload).
 * ¿Utilizó los pares clave-valor correctos en el encabezado del evento?
 
   ```
@@ -101,7 +101,7 @@ A continuación se presentan algunas cosas para comprobar:
 
 ## Comprobar que los mensajes se envíen correctamente {#checking-that-messages-are-sent-successfully}
 
-Si los individuos recorren el recorrido correcto, pero no reciben mensajes que deberían recibir, puede comprobar lo siguiente:
+Si las personas recorren el recorrido correctamente pero no reciben mensajes que deberían recibir, puede comprobar lo siguiente:
 
 * [!DNL Journey Optimizer] ha tenido en cuenta correctamente la solicitud para enviar el mensaje. Los usuarios empresariales pueden acceder al mensaje que se supone que se debe enviar y comprobar si la hora de la última ejecución corresponde al tiempo de ejecución de su recorrido. También pueden consultar las últimas llamadas o eventos de API recibidas.
 * [!DNL Journey Optimizer] ha enviado correctamente el mensaje. Compruebe los informes de recorrido para asegurarse de que no hay errores.

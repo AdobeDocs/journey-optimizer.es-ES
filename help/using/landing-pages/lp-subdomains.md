@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: aterrizaje, página de aterrizaje, subdominios, configuración
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '971'
 ht-degree: 19%
 
 ---
@@ -63,6 +63,10 @@ Para utilizar un subdominio que ya se haya delegado a Adobe, siga los pasos a co
 1. Introduzca el prefijo que se mostrará en la dirección URL de la página de aterrizaje.
 
    Solo se permiten caracteres alfanuméricos y guiones.
+
+   >[!CAUTION]
+   >
+   >No use los prefijos `cdn` o `data`, ya que están reservados para uso interno. También deben evitarse otros prefijos restringidos o reservados como `dmarc` o `spf`.
 
 1. Seleccione un subdominio delegado de la lista.
 
@@ -135,36 +139,16 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
 
 ## Anular la delegación de un subdominio {#undelegate-subdomain}
 
-Si desea desdelegar un subdominio de página de aterrizaje, póngase en contacto con su representante de Adobe.
+Si desea desdelegar un subdominio de página de aterrizaje, siga los pasos a continuación.
 
-Sin embargo, debe realizar varios pasos en la interfaz de usuario antes de ponerse en contacto con Adobe.
+1. En [!DNL Journey Optimizer], cancele la publicación de todas las páginas de aterrizaje asociadas con el subdominio. [Descubra cómo](create-lp.md#access-landing-pages)
 
->[!NOTE]
->
->Solo puede anular la delegación de subdominios con el estado **[!UICONTROL Correcto]**. Los subdominios con los estados **[!UICONTROL Borrador]** y **[!UICONTROL Error]** simplemente se pueden eliminar de la interfaz de usuario.
+1. Si el subdominio de página de aterrizaje apunta a un registro CNAME, puede eliminar el registro DNS CNAME que creó para el subdominio de página de aterrizaje de su solución de alojamiento (pero no elimine el subdominio de correo electrónico original, si lo hay).
 
-Primero, realice los siguientes pasos en [!DNL Journey Optimizer]:
+   >[!NOTE]
+   >
+   >Un subdominio de página de aterrizaje puede señalar a un registro CNAME porque era un [subdominio existente](#lp-use-existing-subdomain) delegado a Adobe mediante el [método CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation) o un [nuevo subdominio de página de aterrizaje](#lp-configure-new-subdomain) que usted configuró.
 
-1. Cancele la publicación de todas las páginas de aterrizaje asociadas con el subdominio. [Descubra cómo](create-lp.md#access-landing-pages)
-
-1. Desactive todas las configuraciones de canal asociadas con el subdominio. [Descubra cómo](../configuration/channel-surfaces.md#deactivate-a-surface)
-
-<!--
-1. If the landing page subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)
-
-1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
-
-1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
--->
-
-Una vez finalizado, póngase en contacto con el representante de Adobe con el subdominio que desee desdelegar.
+1. Póngase en contacto con el representante de Adobe con el subdominio que desee desdelegar.
 
 Una vez que Adobe administra la solicitud, el dominio no delegado ya no se muestra en la página de inventario de subdominios.
-
->[!CAUTION]
->
->Después de anular la delegación de un subdominio:
->
->   * No puede reactivar las configuraciones de canal que utilizaban ese subdominio.
->
->   * No puede volver a delegar el subdominio exacto a través de la interfaz de usuario. Si desea hacerlo, póngase en contacto con su representante de Adobe.

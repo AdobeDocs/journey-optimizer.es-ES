@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 14%
+source-wordcount: '1542'
+ht-degree: 19%
 
 ---
 
@@ -67,12 +67,14 @@ El modo simple permite realizar consultas simples basadas en una combinación de
 
 ![](assets/journey64.png)
 
-Si estás usando el [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"} para crear tus audiencias, puedes aprovecharlas en tus condiciones de recorrido. Consulte [Uso de la audiencia en condiciones](../building-journeys/condition-activity.md#using-a-segment).
+Si está usando el [servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"} para crear sus audiencias, puede aprovecharlas en sus condiciones de recorrido. Consulte [Uso de la audiencia en condiciones](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
 >
 >No puede realizar consultas en series temporales (por ejemplo, una lista de compras, clics pasados en mensajes) con el editor simple. Para ello, deberá utilizar el editor avanzado. Consulte [esta página](expression/expressionadvanced.md).
+
+
 
 Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 
@@ -94,7 +96,7 @@ Use una **[!UICONTROL condición horaria]** para realizar diferentes acciones se
 
 >[!NOTE]
 >
->* La zona horaria no es específica de una condición y se define en el nivel de recorrido en las propiedades del recorrido. Más información sobre [esta página](../building-journeys/timezone-management.md).
+>* La zona horaria no es específica de una condición y se define en el nivel de recorrido en las propiedades del recorrido. Obtenga más información en [esta página](../building-journeys/timezone-management.md).
 >
 >* De manera predeterminada, la **[!UICONTROL condición horaria]** se establece por hora, de 00:00 a 12:00.
 
@@ -173,4 +175,4 @@ Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
 
    >[!NOTE]
    >
-   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
