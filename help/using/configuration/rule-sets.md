@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1956'
 ht-degree: 14%
 
 ---
@@ -72,7 +72,7 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 
 >[!NOTE]
 >
->Puede crear hasta 3 conjuntos de reglas locales de dominio de canal y hasta 5 conjuntos de reglas locales de dominio de recorrido.
+>Puede crear hasta 10 conjuntos de reglas locales activos para el dominio del canal y para el dominio del recorrido.
 
 1. Acceda a la lista **[!UICONTROL Conjuntos de reglas]** y haga clic en **[!UICONTROL Crear conjunto de reglas]**.
 
@@ -312,4 +312,4 @@ Para aplicar una regla de límite a un recorrido, acceda al recorrido y abra sus
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444729?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

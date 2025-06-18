@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 22%
+source-wordcount: '944'
+ht-degree: 29%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 22%
 
 ### ¿Qué son los conjuntos de reglas? {#what}
 
-Los conjuntos de reglas permiten **agrupar varias reglas en conjuntos de reglas** y aplicarlas a los recorridos y campañas que elija. Esto proporciona una granularidad mejorada para limitar la frecuencia y la cantidad de recorridos que un cliente puede introducir en un lapso de tiempo determinado o controlar la frecuencia con la que los usuarios recibirán un mensaje según el tipo de comunicación.
+Los conjuntos de reglas permiten **agrupar varias reglas en conjuntos de reglas** y aplicarlas a los recorridos y campañas que elija. Esto proporciona una mayor granularidad para limitar la frecuencia y la cantidad de recorridos en los que un cliente puede entrar en un lapso de tiempo determinado o controlar la frecuencia con la que los usuarios recibirán un mensaje según el tipo de comunicación.
 
 Puede crear dos tipos de conjuntos de reglas:
 
@@ -87,7 +87,7 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 
 >[!NOTE]
 >
->Puede crear hasta 3 conjuntos de reglas locales de dominio de canal y hasta 5 conjuntos de reglas locales de dominio de recorrido.
+>Puede crear hasta 10 conjuntos de reglas locales activos para el dominio del canal y para el dominio del recorrido.
 
 1. Acceda a la lista **[!UICONTROL Conjuntos de reglas]** y haga clic en **[!UICONTROL Crear conjunto de reglas]**.
 
@@ -109,7 +109,7 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
    Encontrará información detallada sobre cómo configurar las reglas de restricción de recorrido y canal en estas secciones:
 
    * [Límite de Recorrido](../conflict-prioritization/journey-capping.md)
-   * [Límite de frecuencia por canal y tipo de comunicación](../conflict-prioritization/channel-capping.md)
+   * [Restricción de frecuencia por canal y tipo de comunicación](../conflict-prioritization/channel-capping.md)
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar la creación de la regla. Su mensaje se agrega al conjunto de reglas, con el estado **[!UICONTROL Borrador]**.
 
@@ -164,4 +164,4 @@ Su estado cambiará a **[!UICONTROL Inactivo]** y la regla no se aplicará a fut
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444729?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

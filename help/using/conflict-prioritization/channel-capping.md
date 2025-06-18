@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d17cff4cbe661cb8f41ef09ef9850f6010fc21e5
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1043'
 ht-degree: 6%
 
 ---
 
-# Límite de frecuencia por canal y tipo de comunicación {#rule-sets}
+# Restricción de frecuencia por canal y tipo de comunicación {#rule-sets}
 
 Los conjuntos de reglas del **canal** aplican reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día.
 
@@ -33,7 +33,7 @@ Para crear un conjunto de reglas de canal, siga estos pasos:
 
 >[!NOTE]
 >
->Puede crear hasta 3 conjuntos de reglas locales de dominio de canal y hasta 5 conjuntos de reglas locales de dominio de recorrido.
+>Puede crear hasta 10 conjuntos de reglas locales activos para el dominio del canal y para el dominio del recorrido.
 
 1. Acceda a la lista **[!UICONTROL Conjuntos de reglas]** y haga clic en **[!UICONTROL Crear conjunto de reglas]**.
 
@@ -152,4 +152,4 @@ In this scenario, an individual profile:
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444729?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
