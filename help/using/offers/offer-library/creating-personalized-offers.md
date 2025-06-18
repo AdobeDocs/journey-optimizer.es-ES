@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 18%
 
 ---
@@ -21,7 +21,7 @@ Antes de crear una oferta, asegúrese de que ha creado lo siguiente:
 * Si desea agregar una condición de elegibilidad: una **regla de decisión** que definirá la condición bajo la cual se presentará la oferta. Consulte [Crear reglas de decisión](../offer-library/creating-decision-rules.md).
 * Uno o varios **calificadores de colección** (anteriormente conocidos como &quot;etiquetas&quot;) que quizá desee asociar a la oferta. Consulte [Crear calificadores de colección](../offer-library/creating-tags.md).
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 Se puede acceder a la lista de ofertas personalizadas en el menú **[!UICONTROL Ofertas]**.
 
@@ -47,7 +47,7 @@ Se puede acceder a la lista de ofertas personalizadas en el menú **[!UICONTROL 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_personalized"
 >title="Oferta personalizada"
->abstract="Una oferta personalizada es un mensaje personalizable basado en reglas de idoneidad y restricciones."
+>abstract="Una oferta personalizada es un mensaje personalizable basado en reglas de elegibilidad y restricciones."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
@@ -171,4 +171,4 @@ Esto le permite acceder a información detallada de esa oferta. Seleccione la fi
 
 ## Tutorial en vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341343?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
