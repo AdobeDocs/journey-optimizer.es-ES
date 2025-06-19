@@ -3,9 +3,9 @@ title: Identificador adicional en recorridos activados por eventos
 description: Aprenda a utilizar un identificador suplementario en recorridos activados por eventos.
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
+source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '928'
 ht-degree: 8%
 
 ---
@@ -30,7 +30,7 @@ Al hacerlo, los recorridos activados por el evento se ejecutan en el contexto de
 
 Además, Journey Optimizer le permite aprovechar los atributos del identificador suplementario (por ejemplo, número de reserva, fecha de renovación de la prescripción, tipo de producto) para la personalización de mensajes, lo que garantiza comunicaciones muy relevantes. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
 
-## Mecanismos de protección y limitaciones
+## Mecanismos de protección y limitaciones {#guardrails}
 
 * **Límites de instancias simultáneas**: los perfiles no pueden tener más de 10 instancias de recorrido simultáneas.
 
@@ -61,7 +61,14 @@ Además, Journey Optimizer le permite aprovechar los atributos del identificador
 
 * **Tipo de datos y estructura de esquema**: el identificador suplementario debe ser del tipo `string`. Puede ser un atributo de cadena independiente o puede ser un atributo de cadena dentro de una matriz de objetos. El atributo de cadena independiente generará una única instancia de recorrido, mientras que el atributo de cadena dentro de una matriz de objetos generará una instancia de recorrido única por iteración de la matriz de objetos. No se admiten matrices de cadenas ni mapas.
 
-## Añadir un identificador suplementario y aprovecharlo en un recorrido
+* **reentrada al Recorrido**
+
+  El recorrido del comportamiento de reentrada con identificadores suplementarios sigue la política de reentrada existente:
+
+   * Si el recorrido no es de reentrada, la misma combinación de ID de perfil + ID suplementario no puede volver a entrar en el recorrido.
+   * Si el recorrido es de reentrada con una ventana de tiempo, la misma combinación de ID de perfil + ID suplementario puede volver a introducirse después de la ventana de tiempo definida.
+
+## Añadir un identificador suplementario y aprovecharlo en un recorrido {#add}
 
 Para utilizar un identificador suplementario en un recorrido, siga estos pasos:
 
@@ -88,6 +95,10 @@ Para utilizar un identificador suplementario en un recorrido, siga estos pasos:
       ![](assets/supplemental-ID-event.png)
 
    1. Utilice el editor de expresiones para seleccionar el atributo marcado como ID suplementario.
+
+      >[!NOTE]
+      >
+      >Asegúrese de utilizar el editor de expresiones en **[!UICONTROL Modo avanzado]** para seleccionar el atributo.
 
    1. Después de seleccionar el ID suplementario, el área de nombres asociado se muestra en la pantalla de configuración de evento como de solo lectura.
 
