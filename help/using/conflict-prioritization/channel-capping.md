@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 6%
+source-wordcount: '1251'
+ht-degree: 5%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 6%
 Los conjuntos de reglas del **canal** aplican reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día.
 
 El uso de conjuntos de reglas de canal le permite establecer límites de frecuencia por tipo de comunicación para evitar sobrecargar a los clientes con mensajes similares. Por ejemplo, puede crear un conjunto de reglas para limitar el número de **comunicaciones promocionales** enviadas a sus clientes y otro conjunto de reglas para limitar el número de **boletines** enviados a ellos. Según el tipo de campaña que esté creando, puede elegir aplicar la comunicación promocional o el conjunto de reglas de los boletines informativos.
+
+>[!IMPORTANT]
+>
+>Para asegurarse de que el límite de nivel de canal funciona correctamente, asegúrese de elegir el área de nombres de mayor prioridad al crear una campaña o recorrido. Obtenga más información sobre la prioridad del espacio de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 ## Crear una regla de límite de recorrido
 
@@ -33,7 +37,7 @@ Para crear un conjunto de reglas de canal, siga estos pasos:
 
 >[!NOTE]
 >
->Puede crear hasta 10 conjuntos de reglas locales activos para el dominio del canal y para el dominio del recorrido.
+>Puede crear hasta 10 conjuntos de reglas locales activos para cada dominio de canal y para el dominio de recorrido.
 
 1. Acceda a la lista **[!UICONTROL Conjuntos de reglas]** y haga clic en **[!UICONTROL Crear conjunto de reglas]**.
 
@@ -55,25 +59,33 @@ Para crear un conjunto de reglas de canal, siga estos pasos:
 
    ![](assets/rule-set-channels.png)
 
-1. En la lista desplegable **[!UICONTROL Duración]**, seleccione si desea que el límite se aplique mensualmente, semanalmente o diariamente. El límite de frecuencia se basa en el periodo de calendario seleccionado. Se restablece al principio del lapso de tiempo correspondiente.
+1. En el campo **[!UICONTROL Límite]**, establezca el límite de la regla, es decir, el número máximo de mensajes que se pueden enviar a un perfil de usuario individual cada mes, semana o día u hora, según la selección que haya hecho en los campos siguientes.
+
+1. En la lista desplegable **[!UICONTROL Restablecer frecuencia límite]**, seleccione si desea que el límite se aplique cada hora, cada día, cada semana o cada mes. El límite de frecuencia se basa en el periodo de calendario seleccionado. Se restablece al principio del lapso de tiempo correspondiente.
 
    La caducidad del contador para cada período es la siguiente:
 
+   * **[!UICONTROL Por hora]**: el límite de frecuencia es válido para el número seleccionado de horas (mínimo de 3 horas). El contador se restablece automáticamente al principio de cada intervalo de tiempo. Para un límite de frecuencia de 3 horas, se restablece cada 3 horas, coincidiendo con el final de una hora UTC.
+
+     >[!AVAILABILITY]
+     >
+     >Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Póngase en contacto con el Servicio de atención al cliente para activarlo.
+
+   * **[!UICONTROL Diario]**: el límite de frecuencia diario es válido para el día hasta el 23:59:59 UTC y se restablece en 0 al comienzo del día siguiente.
+   * **[!UICONTROL Semanal]**: el límite de frecuencia es válido hasta el sábado 23:59:59 UTC de esa semana, ya que la semana del calendario comienza el domingo. La fecha de caducidad se aplica independientemente del momento en que se creó la regla. Por ejemplo, si la regla se crea el jueves, es válida hasta el sábado a las 23:59:59.
    * **[!UICONTROL Mensual]**: el límite de frecuencia es válido hasta el último día del mes a las 23:59:59 UTC. Por ejemplo, la caducidad mensual para enero es del 01 al 31 23:59:59 UTC.
 
-   * **[!UICONTROL Semanal]**: El límite de frecuencia es válido hasta el sábado 23:59:59 UTC de esa semana, ya que la semana del calendario comienza el domingo. La fecha de caducidad se aplica independientemente del momento en que se creó la regla. Por ejemplo, si la regla se crea el jueves, es válida hasta el sábado a las 23:59:59.
+   >[!IMPORTANT]
+   >
+   >* Para garantizar la precisión, asegúrese de elegir el área de nombres de mayor prioridad al crear una campaña o recorrido. Obtenga más información sobre la prioridad del espacio de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}<br/>
+   >
+   >* El valor del contador de perfiles se actualiza una vez que se envía la comunicación. Tenga esto en cuenta cuando envíe grandes volúmenes de comunicaciones, ya que el rendimiento podría provocar que el destinatario reciba el correo electrónico minutos o incluso horas después del inicio de la comunicación (en el caso de que envíe millones de comunicaciones simultáneamente). Esto es importante en el caso de que un destinatario reciba dos comunicaciones muy juntas. Sugerimos separar las comunicaciones por lo menos dos horas cuando sea posible para dar tiempo suficiente al destinatario para recibir la comunicación y al valor del contador para actualizar en consecuencia.
 
-   * **[!UICONTROL Diario]**: El límite de frecuencia diario es válido para el día hasta el 23:59:59 UTC y se restablece en 0 al comienzo del día siguiente.
+1. El campo **[!UICONTROL Cada]** le permite repetir las reglas de restricción de frecuencia durante varias horas, días, semanas o meses, según la duración especificada. Ejemplo: aplique la regla de límite de frecuencia durante 2 semanas.
 
-     >[!CAUTION]
-     > 
-     >Para garantizar la precisión de las reglas de restricción de frecuencia diaria, asegúrese de elegir el espacio de nombres de prioridad más alta durante la creación de una campaña o recorrido. Obtenga más información sobre la prioridad del espacio de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+   Asegúrese de introducir un valor que coincida con el tipo de duración seleccionado: 3-23 para cada hora, 1-30 para cada día, 1-4 para semanales y 1-3 para mensuales.
 
-   Tenga en cuenta que el valor del contador de perfiles se actualiza una vez que se envía la comunicación. Tenga esto en cuenta cuando envíe grandes volúmenes de comunicaciones, ya que el rendimiento podría provocar que el destinatario reciba el correo electrónico minutos o incluso horas después del inicio de la comunicación (en el caso de que envíe millones de comunicaciones simultáneamente).
-
-   Esto es importante en el caso de que un destinatario reciba dos comunicaciones muy juntas. Sugerimos separar las comunicaciones por lo menos dos horas cuando sea posible para dar tiempo suficiente al destinatario para recibir la comunicación y al valor del contador para actualizar en consecuencia.
-
-1. Establezca el límite de la regla, es decir, el número máximo de mensajes que se pueden enviar a un perfil de usuario individual cada mes, semana o día, según la selección anterior.
+   El contador se restablece automáticamente a 0 cuando comienza una nueva ventana de tiempo. Para un límite de frecuencia de 2 días, este restablecimiento se produce cada dos días a medianoche UTC.
 
 1. Seleccione el canal que desee usar para esta regla: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push]** o **[!UICONTROL Correo directo]**.
 
@@ -107,9 +119,9 @@ Para aplicar un conjunto de reglas a un mensaje, siga estos pasos:
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. Antes de activar el recorrido o la campaña, asegúrese de programar su ejecución al menos 20 minutos en el futuro.
+1. Antes de activar el recorrido o la campaña, asegúrese de programar su ejecución al menos 10 minutos en el futuro.
 
-   Esto permite disponer de tiempo suficiente para rellenar los valores de contador en el perfil para la regla de negocio seleccionada. Si activa la campaña inmediatamente, los valores del contador del conjunto de reglas no se rellenan en los perfiles de los destinatarios y el mensaje no se contabiliza en sus reglas de límite de frecuencia para los conjuntos de reglas personalizadas.
+   Esto permite disponer de tiempo suficiente para rellenar los valores de contador en el perfil para la regla de negocio seleccionada. Si activa la campaña inmediatamente, los valores del contador del conjunto de reglas no se rellenan en los perfiles de los destinatarios y el mensaje no se contabiliza en sus reglas de límite de frecuencia para los conjuntos de reglas personalizadas. Además, es posible que el límite no funcione correctamente para recorridos y campañas activadas inmediatamente y campañas activadas por API.
 
    ![](assets/rule-set-schedule-campaign.png)
 
@@ -120,6 +132,8 @@ Para aplicar un conjunto de reglas a un mensaje, siga estos pasos:
 >Se pueden aplicar varias reglas al mismo canal, pero una vez alcanzado el límite inferior, el perfil se excluye de los siguientes envíos.
 
 Al probar las reglas de frecuencia, se recomienda usar un [perfil de prueba](../audience/creating-test-profiles.md) recién creado, ya que una vez que se alcanza el límite de frecuencia de un perfil, no hay forma de restablecer el contador hasta el siguiente período. Al desactivar una regla, los perfiles con límite pueden recibir mensajes, pero no se elimina ni elimina ningún incremento de contador.
+
+<!--add a new section for default priority namespace.-->
 
 <!--
 ## Example: combine several rules {#frequency-rule-example}
@@ -152,4 +166,4 @@ In this scenario, an individual profile:
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444729?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

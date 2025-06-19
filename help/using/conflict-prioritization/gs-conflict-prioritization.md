@@ -4,7 +4,7 @@ description: Aproveche las herramientas de conflictos y priorización de Journey
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 97%
@@ -57,7 +57,7 @@ Los conjuntos de reglas permiten **agrupar varias reglas en conjuntos de reglas*
 
 * **Latencia de actualización del contador de perfiles**
 
-  El valor del contador de perfiles puede tardar hasta 20 minutos en actualizarse después de que un cliente haya entrado en un recorrido.
+  El valor del contador de perfiles puede tardar hasta 10 minutos en actualizarse después de que un cliente haya entrado en un recorrido.
 
   Si un perfil inicia dos recorridos en un breve intervalo de tiempo, es posible que el segundo recorrido no reconozca correctamente que ya se ha alcanzado la restricción de frecuencia, lo que podría permitir que el perfil iniciara ambos recorridos.
 

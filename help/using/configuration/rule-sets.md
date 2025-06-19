@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1957'
 ht-degree: 14%
 
 ---
@@ -72,7 +72,7 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 
 >[!NOTE]
 >
->Puede crear hasta 10 conjuntos de reglas locales activos para el dominio del canal y para el dominio del recorrido.
+>Puede crear hasta 10 conjuntos de reglas locales activos para cada dominio de canal y para el dominio de recorrido.
 
 1. Acceda a la lista **[!UICONTROL Conjuntos de reglas]** y haga clic en **[!UICONTROL Crear conjunto de reglas]**.
 
@@ -197,7 +197,7 @@ También debe activar el conjunto de reglas para poder acceder a él en campaña
 
 >[!NOTE]
 >
->Una regla o un conjunto de reglas puede tardar hasta 20 minutos en activarse completamente. No es necesario modificar los mensajes ni volver a publicar los recorridos para que una regla surta efecto.
+>Una regla o un conjunto de reglas puede tardar hasta 10 minutos en activarse completamente. No es necesario modificar los mensajes ni volver a publicar los recorridos para que una regla surta efecto.
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -253,7 +253,7 @@ Puede aplicar un conjunto de reglas a un mensaje o a un recorrido, según el dom
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. Antes de activar la campaña, asegúrese de programar su ejecución al menos 20 minutos en el futuro.
+1. Antes de activar la campaña, asegúrese de programar su ejecución al menos 10 minutos en el futuro.
 
    Esto permite disponer de tiempo suficiente para rellenar los valores de contador en el perfil para la regla de negocio seleccionada. Si activa la campaña inmediatamente, los valores del contador del conjunto de reglas no se rellenan en los perfiles de los destinatarios y el mensaje no se contabiliza en sus reglas de límite de frecuencia para los conjuntos de reglas personalizadas.
 
@@ -306,10 +306,10 @@ Para aplicar una regla de límite a un recorrido, acceda al recorrido y abra sus
 
 >[!IMPORTANT]
 >
->Si un recorrido se activa inmediatamente, el sistema puede tardar hasta 20 minutos en empezar a suprimir clientes. Puede programar su recorrido para que comience al menos 20 minutos en el futuro para evitar esta posibilidad.
+>Si un recorrido se activa inmediatamente, el sistema puede tardar hasta 10 minutos en empezar a suprimir clientes. Puede programar su recorrido para que comience al menos 10 minutos en el futuro para evitar esta posibilidad.
 
 +++
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444729?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

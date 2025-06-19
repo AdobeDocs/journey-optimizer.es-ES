@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 46%
+source-wordcount: '1070'
+ht-degree: 43%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 46%
 
 **Fecha de lanzamiento**: jueves, 18 de junio de 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuevas funciones {#25-06-features}
 
@@ -195,11 +195,13 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 
 A continuación, se describen las mejoras incluidas en esta versión.
 
-<!--* **Channel rule sets**
+* **Conjuntos de reglas de canal**
 
-  * **Custom duration window** for capping -  A new **Repeat Count** field is now available in the channel rule sets configuration screen, allowing you to apply frequency capping rules over multiple days, weeks, or months, depending on the specified duration.
+   * **Ventana de duración personalizada** para límite: ahora hay un nuevo campo **Cada** disponible en la pantalla de configuración de conjuntos de reglas de canal, que le permite aplicar reglas de límite de frecuencia durante varios días, semanas o meses, según la duración especificada.
 
-  * **Hourly duration** - You can now apply capping on an hourly basis for channel rule sets.    -->
+   * **Frecuencia de límite restablecida por hora**: ahora puede aplicar límite por hora a los conjuntos de reglas de canal. Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Póngase en contacto con el Servicio de atención al cliente para activarlo.
+
+   * **Duración diaria**: disponible anteriormente en disponibilidad limitada, la restricción de frecuencia &quot;diaria&quot; en los conjuntos de reglas de canal ya está disponible para todos los clientes.
 
 * **Experiencias basadas en código**
 
