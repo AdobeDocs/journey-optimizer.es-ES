@@ -72,7 +72,7 @@ Adobe Journey Optimizer envía mensajes de texto a través de proveedores de ser
 
   >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
-+++
+  +++
 
 * El siguiente vídeo le ayuda a comprender mejor qué capacidades móviles ofrece Adobe Journey Optimizer a los especialistas en marketing.
 
@@ -81,4 +81,4 @@ Adobe Journey Optimizer envía mensajes de texto a través de proveedores de ser
 
   >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
-+++
+  +++
