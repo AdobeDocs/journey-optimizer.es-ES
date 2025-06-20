@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 23%
+source-wordcount: '1471'
+ht-degree: 22%
 
 ---
 
@@ -34,7 +34,8 @@ ht-degree: 23%
 
 >[!AVAILABILITY]
 >
->Esta funcionalidad se presenta como una versión Private Beta. Estará disponible de forma progresiva para todos los clientes en futuras versiones.
+>Esta capacidad está disponible como una versión beta privada. Estará disponible de forma progresiva para todos los clientes en futuras versiones.
+>
 >Debe aceptar el [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar el Asistente de IA en Adobe Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
 Las directrices de marca son un conjunto detallado de reglas y estándares que establecen la identidad visual y verbal de una marca. Actúan como referencia para mantener una representación de marca coherente en todas las plataformas de marketing y comunicación.
@@ -46,6 +47,8 @@ En [!DNL Journey Optimizer], ahora tiene la opción de introducir y organizar ma
 Para acceder al menú de **[!UICONTROL Marcas]** en [!DNL Adobe Journey Optimizer], los usuarios deben recibir los permisos de **[!UICONTROL Administrar kit de marca]** o **[!UICONTROL Habilitar el asistente de IA]**. [Más información](../administration/permissions.md)
 
 +++  Aprenda a asignar permisos relacionados con la marca
+
+Para asignar permisos para marcas, siga estos pasos:
 
 1. En el producto **Permisos**, vaya a la pestaña **Funciones** y seleccione la **Función** que desee.
 
