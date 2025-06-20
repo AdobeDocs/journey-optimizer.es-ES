@@ -97,11 +97,11 @@ Ahora que comprende la personalización de **[!DNL Journey Optimizer]**, es hora
 
 Aprenda a utilizar la información de evento contextual de un recorrido para personalizar un mensaje.
 
->[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448133?quality=12&captions=spa)
 
 Obtenga información sobre cómo añadir una personalización basada en perfiles a un mensaje y cómo utilizar el abono a un público como condición previa a un bloque de personalización.
 
->[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416236?quality=12&captions=spa)
 
 Aprenda a aprovechar el patio del editor de personalización para escribir y probar el código de personalización con datos de ejemplo.
 
