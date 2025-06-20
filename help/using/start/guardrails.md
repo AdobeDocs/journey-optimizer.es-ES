@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
+source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 99%
+source-wordcount: '2539'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Los derechos, limitaciones de productos y protección del rendimiento se enumera
 >
 >* Los [mecanismos de protección de los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails){target="_blank"} también se aplican a Adobe Journey Optimizer.
 >
->* Consulte también [Protecciones para la ingesta de datos en el perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Consulte también [Protecciones para la ingesta de datos en el perfil del cliente en tiempo real](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Navegadores admitidos {#browsers}
@@ -74,13 +74,13 @@ Las métricas de licencia de cada paquete se enumeran en la página [Descripció
 
 Para usar acciones de experiencia basada en código en [!DNL Journey Optimizer] y entregar carga útil de contenido de código que puedan usar las aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
 
-## Mecanismos de protección de las páginas de aterrizaje {#lp-guardrails}
+## Mecanismos de protección de las páginas de destino {#lp-guardrails}
 
-Las siguientes limitaciones se aplican a las [páginas de aterrizaje](../landing-pages/get-started-lp.md):
+Las siguientes limitaciones se aplican a las [páginas de destino](../landing-pages/get-started-lp.md):
 
 * Solo se puede utilizar un componente **Formulario** en una sola página principal.
 * El componente **Formulario** no se puede usar en subpáginas.
-* No puede agregar un preencabezado a una página de aterrizaje.
+* No puede agregar un preencabezado a una página de destino.
 * No puede seleccionar la opción **Programar usted mismo** al diseñar una página de aterrizaje principal.
 
 ## Protecciones de subdominios {#subdomain-guardrails}
@@ -117,8 +117,8 @@ Las protecciones y limitaciones que se deben tener en cuenta al trabajar con tom
 ### Protecciones generales del recorrido {#journeys-guardrails-journeys}
 
 * El número de actividades en un recorrido ahora está limitado a 50. El número de actividades se muestra en la sección superior izquierda del lienzo de recorrido. Esto ayudará en la legibilidad, el control de calidad y la resolución de problemas.
+* El número de recorridos activos/en pausa/de ejecución en seco al mismo tiempo está limitado a 100.  El número actual de recorridos se muestra encima del lienzo de recorrido.
 * A medida que publica recorridos, los ampliamos y ajustamos automáticamente para garantizar el máximo rendimiento y estabilidad. Cuando se aproxime al hito de 100 recorridos en directo al mismo tiempo, verá una notificación en la interfaz de usuario sobre este logro. Si recibe esta notificación y necesita extender sus recorridos más allá de los 100 recorridos en directo a la vez, cree un ticket para el servicio de atención al cliente y le ayudaremos a alcanzar sus objetivos.
-  <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
 * Cuando se utiliza una calificación de público en un recorrido, esa actividad de calificación de público puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen del público.
 * Una instancia de recorrido de un perfil tiene un tamaño máximo de 1 MB. Todos los datos recopilados como parte de la ejecución del recorrido se almacenan en esa instancia de recorrido. Por lo tanto, los datos de un evento entrante, la información de perfil recuperada de Adobe Experience Platform, las respuestas de acciones personalizadas, etc. se almacenan en esa instancia de recorrido y afectan al tamaño del recorrido. Se recomienda, cuando un recorrido comienza con un evento, limitar el tamaño máximo de esa carga útil de evento (p. ej.: por debajo de 800 KB) para evitar alcanzar ese límite después de unas pocas actividades, en la ejecución del recorrido. Cuando se alcanza ese límite, el perfil está en estado de error y se excluirá del recorrido.
 * Además del tiempo de espera utilizado en las actividades del recorrido, también hay un tiempo de espera de recorrido global que no se muestra en la interfaz y no se puede cambiar. Este tiempo de espera global detiene el progreso de los particulares en el recorrido 91 días después de su entrada. [Más información](../building-journeys/journey-properties.md#global_timeout)
