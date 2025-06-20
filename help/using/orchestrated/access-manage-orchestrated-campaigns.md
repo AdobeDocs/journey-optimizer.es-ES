@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 979b46eccf77db6e90cd47ceb7a40298bb481cc5
+source-git-commit: 919b462e869b8dd836fe45ee31441d3cc7ecf6b2
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '579'
 ht-degree: 22%
 
 ---
@@ -20,6 +20,11 @@ ht-degree: 22%
 >id="ajo_targeting_workflow_list"
 >title="Campaña orquestada"
 >abstract="En esta pantalla, puede acceder a la lista completa de campañas orquestadas, comprobar su estado actual, las fechas de la última/próxima ejecución y crear una nueva campaña orquestada."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_campaign_action"
+>title="Acción"
+>abstract="Esta sección enumera todas las acciones utilizadas dentro de la campaña orquestada."
 
 +++ Tabla de contenido
 
