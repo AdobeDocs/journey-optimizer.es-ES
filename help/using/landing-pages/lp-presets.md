@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Definir ajustes preestablecidos de página de aterrizaje
+title: Definir ajustes preestablecidos de página de destino
 description: Aprenda a configurar su entorno para crear y utilizar páginas de aterrizaje con Journey Optimizer
 feature: Landing Pages, Channel Configuration
 role: Admin
@@ -15,12 +15,12 @@ ht-degree: 15%
 
 ---
 
-# Definir ajustes preestablecidos de página de aterrizaje {#lp-presets}
+# Definir ajustes preestablecidos de página de destino {#lp-presets}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
->title="Crear ajustes preestablecidos de la página de aterrizaje"
->abstract="Para crear una página de aterrizaje y aprovecharla mediante Journey Optimizer, debe crear un ajuste preestablecido de página de aterrizaje que incluya el subdominio que se va a utilizar."
+>title="Crear ajustes preestablecidos de la página de destino"
+>abstract="Para crear una página de destino y aprovecharla mediante Journey Optimizer, debe crear un ajuste preestablecido de página de destino que incluya el subdominio que se va a utilizar."
 
 ## Introducción a los ajustes preestablecidos de página de aterrizaje {#gs-lp-presets}
 
@@ -42,7 +42,7 @@ Para acceder a los ajustes preestablecidos de la página de aterrizaje, siga los
 
    ![](assets/lp_preset-details.png)
 
-## Crear ajustes preestablecidos de la página de aterrizaje {#lp-create-preset}
+## Crear ajustes preestablecidos de la página de destino {#lp-create-preset}
 
 Para crear un ajuste preestablecido de página de aterrizaje, siga los pasos a continuación:
 
@@ -64,11 +64,11 @@ Para crear un ajuste preestablecido de página de aterrizaje, siga los pasos a c
 
    Se muestra la configuración correspondiente al subdominio seleccionado.
 
-1. Puede seleccionar el subdominio página de aterrizaje para el URL seguimiento marcando la **[!UICONTROL opción Igual que página de aterrizaje subdominio]** . [Más información sobre el seguimiento](../email/message-tracking.md)
+1. Puede seleccionar el subdominio de página de aterrizaje para la URL de seguimiento marcando la opción **[!UICONTROL Igual que el subdominio de página de aterrizaje]**. [Más información sobre el seguimiento](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
-   Por ejemplo, si el URL página de aterrizaje es &quot;pages.mail.luma.com&quot; y el URL seguimiento es &quot;data.mail.luma.com&quot;, puede elegir &quot;pages.mail.luma.com&quot; que se utilizará como subdominio seguimiento.
+   Por ejemplo, si la dirección URL de la página de aterrizaje es &quot;pages.mail.luma.com&quot; y la dirección URL de seguimiento es &quot;data.mail.luma.com&quot;, puede elegir &quot;pages.mail.luma.com&quot; para utilizarlo como subdominio de seguimiento.
 
 1. Haga clic en **[!UICONTROL Enviar]** para confirmar la creación del ajuste preestablecido de página de aterrizaje. <!--You can also save the preset as draft and resume its configuration later on.-->
 
@@ -84,5 +84,5 @@ Ya está listo para [crear páginas de aterrizaje](../landing-pages/create-lp.md
 
 **Temas relacionados**:
 
-* [Introducción a las páginas de aterrizaje](../landing-pages/get-started-lp.md)
-* [Creación de una página de aterrizaje](../landing-pages/create-lp.md#create-a-lp)
+* [Introducción a las páginas de destino](../landing-pages/get-started-lp.md)
+* [Creación de una página de destino](../landing-pages/create-lp.md#create-a-lp)

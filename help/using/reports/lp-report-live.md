@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informe en vivo de la página de aterrizaje
+title: Informe en vivo de la página de destino
 description: Aprenda a utilizar los datos del informe en directo de las páginas de aterrizaje
 feature: Reporting
 topic: Content Management
@@ -15,12 +15,12 @@ ht-degree: 13%
 
 ---
 
-# Informe en vivo de la página de aterrizaje {#lp-report-live}
+# Informe en vivo de la página de destino {#lp-report-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_live_report"
->title="Informe en vivo de la página de aterrizaje"
->abstract="El informe en vivo de la página de aterrizaje permite medir y visualizar en tiempo real el impacto y el rendimiento de la página de aterrizaje solo durante las últimas 24 horas. El informe se divide en distintos widgets que detallan el éxito y los errores de la página de aterrizaje. Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
+>title="Informe en vivo de la página de destino"
+>abstract="El informe en vivo de la página de destino permite medir y visualizar en tiempo real el impacto y el rendimiento de la página de destino solo durante las últimas 24 horas. El informe se divide en distintos widgets que detallan el éxito y los errores de la página de destino. Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
 
 Los informes en directo, a los que se puede acceder desde la pestaña Últimas 24 horas, muestran los eventos que han tenido lugar en las últimas 24 horas, con un intervalo de tiempo mínimo de dos minutos desde que se produjo el evento. En comparación, los informes de Customer Journey Analytics se centran en eventos que ocurrieron al menos hace dos horas y cubren eventos que se produjeron durante un período de tiempo seleccionado.
 

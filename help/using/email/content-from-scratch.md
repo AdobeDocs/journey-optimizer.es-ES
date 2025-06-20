@@ -26,7 +26,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="Adición de componentes de estructura"
->abstract="Los componentes de estructura definen el diseño de la página de aterrizaje. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido de la página de aterrizaje."
+>abstract="Los componentes de estructura definen el diseño de la página de destino. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido de la página de destino."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
@@ -46,8 +46,8 @@ ht-degree: 55%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Definición de columnas de página de aterrizaje"
->abstract="El diseñador permite definir fácilmente el diseño de la página de aterrizaje mediante la selección de la estructura de columnas."
+>title="Definición de columnas de página de destino"
+>abstract="El diseñador permite definir fácilmente el diseño de la página de destino mediante la selección de la estructura de columnas."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"

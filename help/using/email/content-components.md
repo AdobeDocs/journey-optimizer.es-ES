@@ -26,7 +26,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
 >title="Acerca de los componentes de contenido"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de aterrizaje."
+>abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de destino."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
@@ -169,7 +169,7 @@ Utilice el componente **[!UICONTROL Image]** para insertar un archivo de imagen 
 
 1. En la pestaña **[!UICONTROL Configuración]**, haga clic en **[!UICONTROL Examinar]** para elegir un archivo de imagen de sus recursos o en **[!UICONTROL Importar medios]** para cargar un recurso en Adobe Experience Manager Assets.
 
-   Para obtener más información sobre [!DNL Adobe Experience Manager Assets], consulte [Documentación de Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=es){target="_blank"}.
+   Para obtener más información sobre [!DNL Adobe Experience Manager Assets], consulte [Documentación de Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >

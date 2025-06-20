@@ -12,11 +12,11 @@ exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
 source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
-# Administrar las páginas de aterrizaje {#manage-lp}
+# Administración de la páginas de aterrizaje {#manage-lp}
 
 ## Acceso a páginas de aterrizaje {#access-landing-pages}
 
@@ -54,12 +54,12 @@ En esta lista, puede hacer clic en los tres puntos junto a una página de aterri
 
 ![](assets/lp_access-list-actions.png)
 
-## Uso de carpetas para administrar páginas de aterrizaje {#folders}
+## Uso de carpetas para administrar páginas de destino {#folders}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_folders"
->title="Organice las páginas de aterrizaje en carpetas"
->abstract="Utilice carpetas para clasificar y administrar sus páginas de aterrizaje según las necesidades de su organización."
+>title="Organice las páginas de destino en carpetas"
+>abstract="Utilice carpetas para clasificar y administrar sus páginas de destino según las necesidades de su organización."
 
 Para navegar fácilmente por las páginas de aterrizaje, puede utilizar carpetas para organizarlas de forma más eficaz en una jerarquía estructurada. Esto le permite clasificar y administrar los elementos según las necesidades de su organización.
 

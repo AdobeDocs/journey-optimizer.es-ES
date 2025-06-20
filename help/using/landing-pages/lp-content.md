@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Definición del contenido específico de la página de aterrizaje
+title: Definición del contenido específico de la página de destino
 description: Aprenda a diseñar contenido específico de una página de aterrizaje en Journey Optimizer
 feature: Landing Pages
 topic: Content Management
@@ -16,12 +16,12 @@ ht-degree: 9%
 
 ---
 
-# Definición del contenido específico de la página de aterrizaje {#lp-content}
+# Definición del contenido específico de la página de destino {#lp-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
->title="Uso de componentes de contenido"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de aterrizaje. Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones, utilice el componente de formulario."
+>title="Uso de componentes del contenido"
+>abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de destino. Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones, utilice el componente de formulario."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Añadir componentes de contenido"
 
 Para diseñar el contenido de la página de aterrizaje, puede utilizar los mismos componentes que para un correo electrónico. [Más información](../email/content-components.md#add-content-components)
@@ -39,13 +39,13 @@ Con el diseñador de contenido de página de aterrizaje, también puede aprovech
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="Definir los campos del componente de formulario"
->abstract="Defina cómo verán y enviarán sus opciones los destinatarios desde la página de aterrizaje."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Definir estilos de formulario de una página de aterrizaje"
+>abstract="Defina cómo verán y enviarán sus opciones los destinatarios desde la página de destino."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Definir estilos de formulario de una página de destino"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
 >title="Qué sucede al hacer clic en el botón"
->abstract="Defina lo que sucederá cuando los usuarios envíen el formulario de página de aterrizaje."
+>abstract="Defina lo que sucederá cuando los usuarios envíen el formulario de página de destino."
 
 Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones desde la página de aterrizaje, use el componente **[!UICONTROL Formulario]**. Para ello, siga los pasos que aparecen a continuación.
 
@@ -105,7 +105,7 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
    ![](assets/lp_designer-form-text-field.png)
 
-1. Una vez que haya agregado todas las casillas de verificación y/o campos de texto deseados, haga clic en **[!UICONTROL Llamar a la acción]** para expandir la sección correspondiente. Permite definir el comportamiento del botón en el componente **[!UICONTROL Form]**.
+1. Una vez que haya agregado todas las casillas de verificación y/o campos de texto deseados, haga clic en **[!UICONTROL Call to action]** para expandir la sección correspondiente. Permite definir el comportamiento del botón en el componente **[!UICONTROL Form]**.
 
    ![](assets/lp_designer-form-call-to-action.png)
 
@@ -134,7 +134,7 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
    ![](assets/lp_designer-form-save.png)
 
-## Definir estilos de formulario de una página de aterrizaje {#lp-form-styles}
+## Definir estilos de formulario de una página de destino {#lp-form-styles}
 
 1. Para modificar los estilos del contenido del componente del formulario, cambie en cualquier momento a la pestaña **[!UICONTROL Estilo]**.
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar subdominios de página de aterrizaje
+title: Configurar subdominios de página de destino
 description: Obtenga información sobre cómo configurar subdominios de página de aterrizaje con Journey Optimizer
 feature: Landing Pages, Subdomains
 role: Admin
@@ -15,24 +15,24 @@ ht-degree: 19%
 
 ---
 
-# Configurar subdominios de página de aterrizaje {#lp-subdomains}
+# Configurar subdominios de página de destino {#lp-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
->title="Delegar un subdominio de página de aterrizaje"
->abstract="Se configurará el subdominio para su uso en una página de aterrizaje. Puede utilizar un subdominio que ya esté delegado en Adobe o configurar otro subdominio."
+>title="Delegar un subdominio de página de destino"
+>abstract="Se configurará el subdominio para su uso en una página de destino. Puede utilizar un subdominio que ya esté delegado en Adobe o configurar otro subdominio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
->title="Delegar un subdominio de página de aterrizaje"
->abstract="Debe configurar un subdominio para utilizarlo en las páginas de aterrizaje, ya que lo necesitará para crear un ajuste preestablecido de página de aterrizaje. Puede utilizar un subdominio ya delegado a Adobe o configurar un nuevo subdominio."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets#lp-create-preset" text="Crear ajustes preestablecidos de la página de aterrizaje"
+>title="Delegar un subdominio de página de destino"
+>abstract="Debe configurar un subdominio para utilizarlo en las páginas de destino, ya que lo necesitará para crear un ajuste preestablecido de página de destino. Puede utilizar un subdominio ya delegado a Adobe o configurar un nuevo subdominio."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets#lp-create-preset" text="Crear ajustes preestablecidos de la página de destino"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
->title="Crear ajustes preestablecidos de la página de aterrizaje"
->abstract="Para poder crear un ajuste preestablecido de página de aterrizaje, asegúrese de haber configurado previamente al menos un subdominio de página de aterrizaje para seleccionarlo en la lista de nombres de subdominio."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets#lp-create-preset" text="Crear ajustes preestablecidos de la página de aterrizaje"
+>title="Crear ajustes preestablecidos de la página de destino"
+>abstract="Para poder crear un ajuste preestablecido de página de destino, asegúrese de haber configurado previamente al menos un subdominio de página de destino para seleccionarlo en la lista de nombres de subdominio."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets#lp-create-preset" text="Crear ajustes preestablecidos de la página de destino"
 
 ## Introducción a los subdominios de página de aterrizaje {#gs-lp-subdomains}
 
@@ -97,7 +97,7 @@ Para utilizar un subdominio que ya se haya delegado a Adobe, siga los pasos a co
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
 >title="Generar el registro DNS coincidente"
->abstract="Para configurar un nuevo subdominio de página de aterrizaje, debe copiar la información del servidor de nombres de Adobe que se muestra en la interfaz de Journey Optimizer y pegarla en la solución de alojamiento de dominios para generar el registro DNS coincidente. Una vez realizadas las comprobaciones correctamente, el subdominio está listo para utilizarse para crear ajustes preestablecidos de página de aterrizaje."
+>abstract="Para configurar un nuevo subdominio de página de destino, debe copiar la información del servidor de nombres de Adobe que se muestra en la interfaz de Journey Optimizer y pegarla en la solución de alojamiento de dominios para generar el registro DNS coincidente. Una vez realizadas las comprobaciones correctamente, el subdominio está listo para utilizarse para crear ajustes preestablecidos de página de destino."
 
 Para configurar un nuevo subdominio, siga los pasos a continuación.
 
