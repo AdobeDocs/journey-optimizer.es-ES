@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
+source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '996'
 ht-degree: 10%
 
 ---
@@ -91,7 +91,7 @@ Las métricas se muestran directamente en el lienzo del recorrido.
 
 ![Supervisar la ejecución de la ejecución en seco de recorrido](assets/dry-run-metrics.png)
 
-Para cada actividad, puede comprobar lo siguiente:
+Para cada actividad, en el cuadro de su actividad, puede marcar:
 
 * **[!UICONTROL Ingresado]**: Cantidad total de personas que ingresaron a esta actividad. Para las actividades **Action**, ya que no se ejecutan en el modo de ejecución en seco, esta métrica indica los perfiles que pasan.
 * **[!UICONTROL Salidas (se cumplen los criterios de salida)]**: Número total de personas que salieron del recorrido de esa actividad debido a un criterio de salida.
@@ -99,7 +99,7 @@ Para cada actividad, puede comprobar lo siguiente:
 * **[!UICONTROL Error]**: Número total de personas que tuvieron un error en esa actividad.
 
 
-En el nivel de recorrido, puede comprobar lo siguiente:
+En el nivel de recorrido, en la sección superior izquierda del lienzo, puede comprobar lo siguiente:
 
 * Número total de **perfiles ingresados**
 * Número total de **perfiles abandonados**
