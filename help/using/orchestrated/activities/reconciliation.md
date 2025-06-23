@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 39%
+source-wordcount: '621'
+ht-degree: 32%
 
 ---
 
@@ -48,11 +48,11 @@ ht-degree: 39%
 
 <br/>
 
-La actividad **Reconciliation** es una actividad **Targeting** que permite definir el vínculo entre los datos de Adobe Journey Optimizer y los de una tabla de trabajo; por ejemplo, los datos cargados de un archivo externo.
+La actividad **[!UICONTROL Reconciliation]** es una actividad **[!UICONTROL Targeting]** que permite definir el vínculo entre los datos de Adobe Journey Optimizer y los de una tabla de trabajo; por ejemplo, los datos cargados de un archivo externo.
 
-La actividad **Enrichment** le permite agregar datos adicionales a su campaña orquestada, por ejemplo, combinando datos de varias fuentes o vinculándolos a un recurso temporal. Por el contrario, la actividad **Reconciliation** se usa para hacer coincidir datos externos o no identificados con los recursos existentes en la base de datos.
+La actividad **[!UICONTROL Enrichment]** le permite agregar datos adicionales a su campaña orquestada, por ejemplo, combinando datos de varias fuentes o vinculándolos a un recurso temporal. Por el contrario, la actividad **[!UICONTROL Reconciliation]** se usa para hacer coincidir datos externos o no identificados con los recursos existentes en la base de datos.
 
-**La reconciliación** requiere que los registros relacionados ya existan en el sistema. Por ejemplo, si importa un archivo de compra que enumera productos, marcas de tiempo e información de clientes, tanto los productos como los clientes deben estar presentes en la base de datos para establecer el vínculo.
+**[!UICONTROL La reconciliación]** requiere que los registros relacionados ya existan en el sistema. Por ejemplo, si importa un archivo de compra que enumera productos, marcas de tiempo e información de clientes, tanto los productos como los clientes deben estar presentes en la base de datos para establecer el vínculo.
 
 ## Configuración de la actividad Reconciliación {#reconciliation-configuration}
 
@@ -83,22 +83,36 @@ La actividad **Enrichment** le permite agregar datos adicionales a su campaña o
 >title="Atributo de reconciliación"
 >abstract="Seleccione el atributo que desea utilizar para reconciliar los datos y haga clic en Confirmar."
 
-Siga estos pasos para configurar la actividad **Reconciliation**:
+Siga estos pasos para configurar la actividad **[!UICONTROL Reconciliation]**:
 
-1. Agregue una actividad **Reconciliation** a su campaña orquestada.
+1. Agregue una actividad **[!UICONTROL Reconciliation]** al flujo de trabajo.
 
-1. Seleccionar la nueva dimensión de segmentación. Una dimensión permite definir la población objetivo: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc.
+1. Elija una nueva dimensión de segmentación para definir a quién está dirigiendo, como destinatarios o suscriptores.
 
-1. Seleccione los campos que se utilizarán para la reconciliación. Se pueden utilizar uno o más criterios de reconciliación.
+1. Establezca los campos que se utilizarán para hacer coincidir los datos entrantes con los perfiles existentes.
 
-   1. Para usar atributos para reconciliar datos, seleccione la opción **Atributos simples**. El campo **Source** enumera los campos disponibles en la transición de entrada que deben conciliarse. El campo **Destino** corresponde a los campos de la dimensión de segmentación seleccionada. Los datos se concilian cuando el origen y el destino son iguales. Por ejemplo, seleccione los campos **Correo electrónico** para anular la duplicación de perfiles según su dirección de correo electrónico.
+1. Para hacer coincidir datos usando campos básicos, seleccione **[!UICONTROL Atributos simples]**.
 
-      Para agregar otros criterios de reconciliación, haga clic en el botón **Agregar regla**. Si se especifican varias condiciones de vínculo, todas deben verificarse para que los datos puedan vincularse.
+1. Establezca los campos coincidentes:
 
-      ![](../assets/workflow-reconciliation-criteria.png)
+   * **[!UICONTROL Source]**: enumera los campos de datos entrantes.
 
-   1. Para usar otros atributos para reconciliar datos, seleccione la opción **Condiciones de reconciliación avanzadas**. A continuación, puede crear su propia condición de reconciliación utilizando el modelador de consultas.
+   * **[!UICONTROL Destino]**: hace referencia a campos en la dimensión de segmentación seleccionada.
 
-1. Puede filtrar los datos para conciliarlos usando el botón **Crear filtro**. Esto permite crear una condición personalizada mediante el modelador de consultas.
+   Se produce una coincidencia cuando ambos valores son iguales; por ejemplo, al hacer coincidir **[!UICONTROL Email]** se identifican perfiles.
 
-De forma predeterminada, los datos no conciliados se mantienen en la transición saliente y están disponibles en la tabla de trabajo para su uso futuro. Para quitar los datos no reconciliados, desactive la opción **Mantener datos no reconciliados**.
+   ![](../assets/workflow-reconciliation-criteria.png)
+
+1. Para agregar más reglas coincidentes, haga clic en **[!UICONTROL Agregar regla]**. Se deben cumplir todas las condiciones para que se produzca una coincidencia.
+
+1. Para condiciones más complejas, elija **[!UICONTROL Condiciones de reconciliación avanzadas]**. Use el [modelador de consultas](../orchestrated-rule-builder.md) para definir la lógica personalizada.
+
+1. Para filtrar qué datos reconciliar, haga clic en **[!UICONTROL Crear filtro]** y defina la condición en el modelador de consultas.
+
+1. De forma predeterminada, los registros no coincidentes se conservan en la transición saliente y se almacenan en la tabla de resultados. Para eliminarlos, habilita la opción **[!UICONTROL Conservar datos no reconciliados]**.
+
+## Ejemplo {#example-reconciliation}
+
+En este ejemplo se utiliza la actividad **[!UICONTROL Reconciliation]** de Adobe Journey Optimizer para garantizar que los mensajes de correo electrónico se envíen únicamente a los clientes reconocidos. Los datos fluyen a través de una actividad **[!UICONTROL Leer audiencia]** que se dirige a usuarios con pedidos anteriores. A continuación, la actividad **[!UICONTROL Reconciliation]** hace coincidir estos datos entrantes con los perfiles existentes en la base de datos mediante el campo de correo electrónico.
+
+![](../assets/workflow-reconciliation-sample-1.0.png)

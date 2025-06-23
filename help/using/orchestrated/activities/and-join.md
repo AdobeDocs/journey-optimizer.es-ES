@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: 54b5591186dd51c0ea1fda6055d6c52fd079a748
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 38%
@@ -33,7 +33,7 @@ ht-degree: 38%
 
 <br/>
 
-La actividad **Combinación-Y** es una actividad de **Control de flujo**. Permite sincronizar varias ramas de ejecución de una campaña orquestada.
+La actividad **[!UICONTROL Combinación-Y]** es una actividad de **[!UICONTROL Control de flujo]**. Permite sincronizar varias ramas de ejecución de una campaña orquestada.
 
 Esta actividad solo activa su transición saliente una vez que se activan todas las transiciones entrantes; es decir, una vez que todas las actividades anteriores han finalizado. Esto le permite asegurarse de que ciertas actividades han finalizado antes de continuar ejecutándose la campaña orquestada.
 
@@ -44,20 +44,20 @@ Esta actividad solo activa su transición saliente una vez que se activan todas 
 >title="Combinación de opciones"
 >abstract="Seleccione las actividades que desea unir. En el menú desplegable **Conjunto principal**, elija qué población de transición entrante desea conservar."
 
-Siga estos pasos para configurar la actividad **Combinación-Y**:
+Siga estos pasos para configurar la actividad **[!UICONTROL Combinación-Y]**:
 
 ![](../assets/workflow-andjoin.png)
 
 1. Añada varias actividades, como actividades de canal, para crear al menos dos ramas de ejecución distintas.
 
-1. Inserte una actividad **AND-join** en una de las ramas.
+1. Inserte una actividad **[!UICONTROL AND-join]** en una de las ramas.
 
-1. En la sección **Combinar opciones**, seleccione todas las actividades anteriores a las que desee unirse.
+1. En la sección **[!UICONTROL Combinar opciones]**, seleccione todas las actividades anteriores a las que desee unirse.
 
-1. En el menú desplegable **Conjunto principal**, elija la población de transición entrante que desea conservar.
+1. En el menú desplegable **[!UICONTROL Conjunto principal]**, elija la población de transición entrante que desea conservar.
 
 ## Ejemplo{#and-join-example}
 
-Este ejemplo ilustra dos ramas de campaña coordinadas, cada una de las cuales incluye una entrega por correo electrónico, una dirigida a los miembros oro y otra plata. **AND-join** se activa una vez que se activan ambas transiciones entrantes, y el SMS se enviará solo después de que se completen ambos envíos de correo electrónico, después de un retraso de 7 días.
+Este ejemplo ilustra dos ramas de campaña coordinadas, cada una de las cuales incluye una entrega por correo electrónico, una dirigida a los miembros oro y otra plata. **[!UICONTROL AND-join]** se activa una vez que se activan ambas transiciones entrantes, y el SMS se enviará solo después de que se completen ambos envíos de correo electrónico, después de un retraso de 7 días.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}

@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 44%
+ht-degree: 45%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 44%
 
 +++ Tabla de contenido
 
-| Bienvenido a campañas orquestadas | Inicie su primera campaña orquestada | Consultar la base de datos | Actividades de campañas organizadas |
+| Bienvenido a campañas orquestadas | Inicio de su primera campaña organizada | Consultar la base de datos | Actividades de las campañas organizadas |
 |---|---|---|---|
 | [Introducción a las campañas orquestadas](../gs-orchestrated-campaigns.md)<br/><br/>[Pasos de configuración](../configuration-steps.md)<br/><br/>[Pasos clave para la creación de campañas orquestadas](../gs-campaign-creation.md) | [Crear una campaña orquestada](../create-orchestrated-campaign.md)<br/><br/>[Organizar actividades](../orchestrate-activities.md)<br/><br/>[Enviar mensajes con campañas orquestadas](../send-messages.md)<br/><br/>[Iniciar y supervisar la campaña](../start-monitor-campaigns.md)<br/><br/>[Creación de informes](../reporting-campaigns.md) | [Trabaje con el Modeler de consultas](../orchestrated-rule-builder.md)<br/><br/>[Cree su primera consulta](../build-query.md)<br/><br/>[Editar expresiones](../edit-expressions.md) | [Empiece con las actividades](about-activities.md)<br/><br/>Actividades:<br/>[Y únase](and-join.md) - [Generar audiencia](build-audience.md) - [Cambiar dimensión](change-dimension.md) - [Combinar](combine.md) - [Anulación de duplicación](deduplication.md) - [Enriquecimiento](enrichment.md) - [Bifurcación](fork.md) - [Reconciliación](reconciliation.md) - [División](split.md) - [Espera](wait.md) |
 
@@ -40,7 +40,7 @@ Comience a crear su campaña orquestada con las actividades relevantes:
 
 * Antes de insertar una actividad de canal, debe definir la audiencia. La audiencia es el destinatario principal del envío: los perfiles que reciben los mensajes.
 
-* Para realizar una entrega recurrente, inicie la campaña orquestada con una actividad **Scheduler**. También puede usar una actividad **Scheduler** para envíos únicos de una sola toma a fin de establecer la fecha de contacto para ese envío. Esa fecha de contacto también se puede establecer en la configuración de envío.
+* Para realizar una entrega recurrente, inicie la campaña orquestada con una actividad **[!UICONTROL Scheduler]**. También puede usar una actividad **[!UICONTROL Scheduler]** para envíos únicos de una sola toma a fin de establecer la fecha de contacto para ese envío. Esa fecha de contacto también se puede establecer en la configuración de envío.
 
 ## Configuración de una actividad de canal {#create-a-delivery-in-a-workflow}
 
@@ -78,23 +78,23 @@ Para configurar una entrega en el contexto de una campaña orquestada, siga los 
    * Una **entrega única** es una entrega de una sola toma que se envía una sola vez, por ejemplo un correo electrónico de Black Friday.
    * Se realiza **una entrega recurrente** varias veces según su frecuencia de ejecución. Cada vez que se ejecuta la campaña orquestada, la audiencia se recalcula y la entrega se envía a la audiencia actualizada, con el contenido actualizado. Puede ser un boletín semanal o un correo electrónico de cumpleaños recurrente, por ejemplo.
 
-1. Seleccione una **Plantilla** de envío. Las plantillas son opciones de envío preconfigurados específicos de un canal. Hay disponible una plantilla integrada para cada canal que se rellena previamente de forma predeterminada.
+1. Seleccione una **[!UICONTROL Plantilla]** de envío. Las plantillas son opciones de envío preconfigurados específicos de un canal. Hay disponible una plantilla integrada para cada canal que se rellena previamente de forma predeterminada.
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   Puede seleccionar la plantilla en el panel izquierdo de configuración de actividad de canal. Si el público seleccionado anteriormente no es compatible con el canal, no se puede seleccionar una plantilla. Para resolver esto, actualice la actividad **Generar audiencia** para seleccionar una audiencia con la asignación de destino correcta.
+   Puede seleccionar la plantilla en el panel izquierdo de configuración de actividad de canal. Si el público seleccionado anteriormente no es compatible con el canal, no se puede seleccionar una plantilla. Para resolver esto, actualice la actividad **[!UICONTROL Generar audiencia]** para seleccionar una audiencia con la asignación de destino correcta.
 
-1. Haga clic en **Crear envío**. A continuación, puede definir la configuración del mensaje y el contenido del mismo modo que crea un envío independiente. También puede probar y simular el contenido.
+1. Haga clic en **[!UICONTROL Crear envío]**. A continuación, puede definir la configuración del mensaje y el contenido del mismo modo que crea un envío independiente. También puede probar y simular el contenido.
 
-1. Vuelva al flujo de trabajo. Si desea continuar con su flujo de trabajo, active la opción **Generar una transición saliente** para agregar una transición después de la actividad del canal.
+1. Vuelva al flujo de trabajo. Si desea continuar con su flujo de trabajo, active la opción **[!UICONTROL Generar una transición saliente]** para agregar una transición después de la actividad del canal.
 
-1. Haga clic en **Iniciar** para iniciar la campaña organizada.
+1. Haga clic en **[!UICONTROL Iniciar]** para iniciar la campaña organizada.
 
    De forma predeterminada, el inicio de una campaña orquestada déclencheur la fase de preparación del mensaje, sin enviarlo inmediatamente.
 
-1. Abra la actividad del canal para confirmar el envío desde el botón **Revisar y enviar**.
+1. Abra la actividad del canal para confirmar el envío desde el botón **[!UICONTROL Revisar y enviar]**.
 
-1. En el panel de envíos, haga clic en **Enviar**.
+1. En el panel de envíos, haga clic en **[!UICONTROL Enviar]**.
 
 ## Ejemplos {#cross-channel-workflow-sample}
 
