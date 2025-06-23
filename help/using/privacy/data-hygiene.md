@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
 source-git-commit: a5b292e6eb4145fa29774fbeb4ce823bc71b849c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Estas tareas se pueden realizar utilizando el menú **[!UICONTROL Ciclo de vida 
 
 ## Recomendaciones {#data-hygiene-recommendations}
 
-Al realizar operaciones de higiene de los datos (como eliminar identidades o conjuntos de datos), tenga en cuenta que los eventos de envío históricos asociados con identidades eliminadas ya no aparecerán en los informes estándar ni en las consultas de lago de datos. Esto puede generar discrepancias entre el número de correos electrónicos reportados como **Entregados** y el número de correos electrónicos **Recibidos** en las bandejas de entrada de los destinatarios, especialmente para los recorridos más antiguos.
+Al realizar operaciones de higiene de los datos (como eliminar identidades o conjuntos de datos), tenga en cuenta que los eventos de envío históricos asociados a identidades eliminadas ya no aparecen en los informes estándar ni en las consultas de lago de datos. Esto puede generar discrepancias entre el número de correos electrónicos notificados como **Entregados** y el número de correos electrónicos **Recibidos** en las bandejas de entrada de los destinatarios, especialmente para los recorridos más antiguos.
 
-Antes de ejecutar eliminaciones a gran escala, valide y exporte los datos de envío o de creación de informes necesarios. Si se necesita reconciliación después de la higiene de los datos, debe coordinarse con el soporte de Adobe para acceder a los registros archivados o utilizar las consultas del conjunto de datos de evento de comentarios de mensajes para los datos recientes.
+Antes de ejecutar eliminaciones a gran escala, valide y exporte los datos de envío o de creación de informes necesarios. Si es necesario realizar una reconciliación después de la higiene de los datos, coordínese con el servicio de asistencia de Adobe para acceder a los registros archivados o utilizar consultas del conjunto de datos de evento de comentarios sobre mensajes para los datos recientes.
 
 ## Más información {#data-hygiene-learn-more}
 

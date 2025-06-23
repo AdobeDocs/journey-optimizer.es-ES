@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4377'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -364,13 +364,13 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>Conversión del contenido de HTML para el Designer de correo electrónico</strong><br/></th>
+<th><strong>Conversión del contenido del HTML para el Diseñador de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede importar y convertir cualquier contenido de HTML en el editor de correo electrónico de Journey Optimizer. Los bloques de contenido se identifican automáticamente y están disponibles en el Designer de correo electrónico: utilice sus potentes funciones de diseño para actualizarlos y personalizarlos.</p>
+<p>Ahora puede importar y convertir cualquier contenido de HTML en el editor de correo electrónico de Journey Optimizer. Los bloques de contenido se identifican automáticamente y están disponibles en el Diseñador de correo electrónico: utilice sus potentes funciones de diseño para actualizarlos y personalizarlos.</p>
 <img src="assets/html-convert.png">
 <p>Para obtener más información, consulte la <a href="../email/existing-content.md">documentación detallada</a>.</p>
 </td>
