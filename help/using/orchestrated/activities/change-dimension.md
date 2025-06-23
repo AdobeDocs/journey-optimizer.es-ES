@@ -42,7 +42,7 @@ Como especialista en marketing, puede refinar la segmentación de audiencia camb
 
 Para ello, use la actividad **[!UICONTROL Cambiar dimensión]**. Permite cambiar la dimensión de segmentación durante la campaña orquestada, según la estructura del modelo de datos y la dimensión de entrada.
 
-Por ejemplo, podría cambiar la dimensión de segmentación de ****[!UICONTROL Perfil]** a ****[!UICONTROL Contratos]** para enviar mensajes directamente a los propietarios del contrato asociados con la audiencia seleccionada.
+Por ejemplo, podría cambiar la dimensión de segmentación de **&#x200B;**&#x200B;[!UICONTROL Perfil] **&#x200B; a &#x200B;**&#x200B;**[!UICONTROL Contratos]** para enviar mensajes directamente a los propietarios del contrato asociados con la audiencia seleccionada.
 
 <!--
 >[!IMPORTANT]
@@ -51,13 +51,13 @@ Por ejemplo, podría cambiar la dimensión de segmentación de ****[!UICONTROL P
 
 ## Configuración de la actividad Change dimension {#configure}
 
-Siga estos pasos para configurar la actividad ****[!UICONTROL Change dimension]**:
+Siga estos pasos para configurar la actividad **&#x200B;**&#x200B;[!UICONTROL Change dimension]**:
 
-1. Agregue una actividad ****[!UICONTROL Change dimension]** a su campaña orquestada.
+1. Agregue una actividad **&#x200B;**&#x200B;[!UICONTROL Change dimension]** a su campaña orquestada.
 
    ![](../assets/change-dimension.png)
 
-1. Defina la ****[!UICONTROL nueva dimensión de destino]**. Durante el cambio de dimensión, se guardan todos los registros.
+1. Defina la **&#x200B;**&#x200B;[!UICONTROL nueva dimensión de destino]**. Durante el cambio de dimensión, se guardan todos los registros.
 
 1. Ejecute la campaña orquestada para ver el resultado. Compare los datos de las tablas antes y después de la actividad de dimensión de cambio y compare la estructura de las tablas de campañas organizadas.
 
@@ -65,8 +65,8 @@ Siga estos pasos para configurar la actividad ****[!UICONTROL Change dimension]*
 
 Este caso de uso implica el envío de un SMS a perfiles que han creado una lista de deseos en el último mes.
 
-Comience con una actividad **[!UICONTROL Generar audiencia]** usando la dimensión de segmentación ****[!UICONTROL Wishlist]** para seleccionar todas las listas de deseos relevantes.
+Comience con una actividad **[!UICONTROL Generar audiencia]** usando la dimensión de segmentación **&#x200B;**&#x200B;[!UICONTROL Wishlist]** para seleccionar todas las listas de deseos relevantes.
 
-A continuación, inserte una actividad **[!UICONTROL Change dimension]** para cambiar la dimensión de segmentación de ****[!UICONTROL Wishlist ]**a ****[!UICONTROL Recipient]**. Esto permite que la campaña orquestada envíe el SMS a los perfiles asociados con esas listas de deseos.
+A continuación, inserte una actividad **[!UICONTROL Change dimension]** para cambiar la dimensión de segmentación de **&#x200B;**&#x200B;[!UICONTROL Wishlist &#x200B;]&#x200B;**a &#x200B;**&#x200B;**[!UICONTROL Recipient]**. Esto permite que la campaña orquestada envíe el SMS a los perfiles asociados con esas listas de deseos.
 
 ![](../assets/change-dimension-example.png)
