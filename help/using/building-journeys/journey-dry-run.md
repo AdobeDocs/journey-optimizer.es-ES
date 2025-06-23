@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
+source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 11%
+source-wordcount: '984'
+ht-degree: 10%
 
 ---
 
@@ -51,6 +51,13 @@ Recorrido Dry run trae:
 1. **Perspectivas de audiencias**: los profesionales del Recorrido pueden predecir la accesibilidad de la audiencia en varios nodos de recorrido, incluidas las exclusiones, las exclusiones y otras condiciones.
 1. **Comentarios en tiempo real**: las métricas se muestran directamente en el lienzo del recorrido, de forma similar a los informes en vivo, lo que permite a los profesionales del recorrido refinar su diseño de recorrido.
 
+Durante la ejecución en seco, el recorrido se ejecuta con las siguientes especificidades:
+
+* **No se ejecutan los nodos de acción del canal**, incluidas las notificaciones por correo electrónico, SMS o push
+* **Las acciones personalizadas** se deshabilitaron durante la ejecución en seco y sus respuestas se establecieron en null
+* **Los nodos de espera** se omiten durante la ejecución en seco.
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+* **Las fuentes de datos**, incluidas las fuentes de datos externas, se ejecutan de manera predeterminada
 
 >[!CAUTION]
 >
@@ -86,7 +93,7 @@ Las métricas se muestran directamente en el lienzo del recorrido.
 
 Para cada actividad, puede comprobar lo siguiente:
 
-* **[!UICONTROL Ingresado]**: Cantidad total de personas que ingresaron a esta actividad.
+* **[!UICONTROL Ingresado]**: Cantidad total de personas que ingresaron a esta actividad. Para las actividades **Action**, ya que no se ejecutan en el modo de ejecución en seco, esta métrica indica los perfiles que pasan.
 * **[!UICONTROL Salidas (se cumplen los criterios de salida)]**: Número total de personas que salieron del recorrido de esa actividad debido a un criterio de salida.
 * **[!UICONTROL Salida forzada]**: Número total de personas que salieron del recorrido mientras estaba en pausa debido a una configuración del profesional del recorrido. Esta métrica siempre es igual a cero para los recorridos en el modo de ejecución en seco.
 * **[!UICONTROL Error]**: Número total de personas que tuvieron un error en esa actividad.
@@ -127,10 +134,4 @@ Haga clic en el botón **Cerrar** para finalizar la prueba y luego haga clic en 
    * `_experience.journeyOrchestration.stepEvents.inDryRun` devuelve `true` si la ejecución en seco está activada y `false` en caso contrario
    * `_experience.journeyOrchestration.stepEvents.dryRunID` devuelve el ID de una instancia de ejecución en seco
 
-* Durante la ejecución en seco, el recorrido se ejecuta con las siguientes especificidades:
-
-   * **No se ejecutan los nodos de acción del canal**, incluidas las notificaciones por correo electrónico, SMS o push
-   * **Las acciones personalizadas** se deshabilitaron durante la ejecución en seco y sus respuestas se establecieron en null
-   * **Los nodos de espera** se omiten durante la ejecución en seco.
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **Las fuentes de datos**, incluidas las fuentes de datos externas, se ejecutan de manera predeterminada
+* Al analizar métricas de informes de recorrido mediante el servicio Adobe Experience Platform Query, se deben excluir los eventos de paso generados por la ejecución en seco. Para ello, establezca el indicador `inDryRun` en `false`.
