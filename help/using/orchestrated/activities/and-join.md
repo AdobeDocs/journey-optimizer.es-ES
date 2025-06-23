@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
+source-git-commit: 54b5591186dd51c0ea1fda6055d6c52fd079a748
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 63%
+source-wordcount: '334'
+ht-degree: 38%
 
 ---
 
@@ -48,13 +48,16 @@ Siga estos pasos para configurar la actividad **Combinación-Y**:
 
 ![](../assets/workflow-andjoin.png)
 
-1. Añada varias actividades, como actividades del canal, para formar al menos dos ramas de ejecución diferentes.
-1. Añada una actividad **Combinación-Y** a cualquiera de las ramas.
-1. En la sección **Opciones de combinación**, compruebe todas las actividades anteriores que desee combinar.
-1. En el menú desplegable **Conjunto principal**, elija qué población de transición entrante desea conservar. La transición saliente solo puede contener una de las poblaciones de transición entrantes.
+1. Añada varias actividades, como actividades de canal, para crear al menos dos ramas de ejecución distintas.
+
+1. Inserte una actividad **AND-join** en una de las ramas.
+
+1. En la sección **Combinar opciones**, seleccione todas las actividades anteriores a las que desee unirse.
+
+1. En el menú desplegable **Conjunto principal**, elija la población de transición entrante que desea conservar.
 
 ## Ejemplo{#and-join-example}
 
-El siguiente ejemplo muestra dos ramas de campaña orquestadas con un envío de correo electrónico y SMS. La actividad Combinación-Y se activará cuando ambas transiciones entrantes estén habilitadas. Las notificaciones push solo se envían una vez finalizados ambos envíos.
+Este ejemplo ilustra dos ramas de campaña coordinadas, cada una de las cuales incluye una entrega por correo electrónico, una dirigida a los miembros oro y otra plata. **AND-join** se activa una vez que se activan ambas transiciones entrantes, y el SMS se enviará solo después de que se completen ambos envíos de correo electrónico, después de un retraso de 7 días.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}
