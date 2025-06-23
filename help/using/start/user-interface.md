@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1670'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -277,12 +277,12 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_1"
 >title="Campañas activadas por API transaccionales"
->abstract="Déclencheur de mensajes en tiempo real mediante llamadas API"
+>abstract="Activar mensajes en tiempo real mediante llamadas de API"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_2"
 >title="Mensajes de marketing"
->abstract="Contenido promocional (requiere la inclusión, sujeto a las reglas comerciales)"
+>abstract="Contenido promocional (requiere inclusión, sujeto a las reglas empresariales)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_3"

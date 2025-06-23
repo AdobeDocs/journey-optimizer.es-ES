@@ -269,7 +269,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
          + [Parámetros de encabezado](using/email/header-parameters.md)
          + [Seguimiento de URL](using/email/url-tracking.md)
          + [Personalización de la configuración de correo electrónico](using/email/surface-personalization.md)
-      + Entrega de correo electrónico {#deliverability}
+      + Entregabilidad de correos electrónicos {#deliverability}
          + [Introducción a la Entregabilidad](using/reports/deliverability.md)
          + [Explicación de la lista de supresión](using/reports/suppression-list.md)
          + [Nuevo requisito de DMARC](using/configuration/dmarc-record-update.md)
@@ -354,19 +354,19 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
       + [Comprobación y envío de los mensajes de LINE](using/line/send-line.md)
 + Gestión de contenidos {#content-management}
    + Páginas de aterrizaje {#landing-pages}
-      + [Introducción a las páginas de aterrizaje](using/landing-pages/get-started-lp.md)
-      + [Creación de una página de aterrizaje](using/landing-pages/create-lp.md)
+      + [Introducción a las páginas de destino](using/landing-pages/get-started-lp.md)
+      + [Creación de una página de destino](using/landing-pages/create-lp.md)
       + [Administración de la páginas de aterrizaje](using/landing-pages/manage-lp.md)
       + Diseño de contenido {#landing-pages-design}
-         + [Acerca del diseño de página de aterrizaje](using/landing-pages/design-lp.md)
-         + [Creación del contenido de la página de aterrizaje](using/landing-pages/lp-content.md)
+         + [Acerca del diseño de página de destino](using/landing-pages/design-lp.md)
+         + [Creación del contenido de la página de destino](using/landing-pages/lp-content.md)
          + [Crear plantillas](using/landing-pages/lp-templates.md)
          + [Agregar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
       + [Creación de una lista de suscripción](using/landing-pages/subscription-list.md)
       + [Descubra los casos de uso](using/landing-pages/lp-use-cases.md)
       + Configuración de las páginas de aterrizaje {#lp-configuration}
-         + [Configurar subdominios de página de aterrizaje](using/landing-pages/lp-subdomains.md)
-         + [Definir ajustes preestablecidos de página de aterrizaje](using/landing-pages/lp-presets.md)
+         + [Configurar subdominios de página de destino](using/landing-pages/lp-subdomains.md)
+         + [Definir ajustes preestablecidos de página de destino](using/landing-pages/lp-presets.md)
    + Personalización {#personalization}
       + [Introducción a la personalización](using/personalization/personalize.md)
       + [Adición de personalización](using/personalization/personalization-build-expressions.md)
@@ -422,7 +422,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
       + [Generación de SMS con IA](using/content-management/generative-sms.md)
       + [Generación de web con IA](using/content-management/generative-web.md)
       + [Experimento de contenido con IA](using/content-management/generative-experimentation.md)
-      + [Página de aterrizaje con IA](using/content-management/generative-lp.md)
+      + [Página de destino con IA](using/content-management/generative-lp.md)
       + [Casos de uso del Asistente de IA](using/content-management/generative-uc.md)
       + Marcas (beta){#brands}
          + [Creación y administración de sus marcas](using/content-management/brands.md)
@@ -462,7 +462,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
       + [Lista de métricas](using/reports/live-report-components.md)
       + [Informe activo de recorrido](using/reports/journey-live-report.md)
       + [Informe en vivo de la campaña](using/reports/campaign-live-report.md)
-      + [Informe en directo de la página de aterrizaje](using/reports/lp-report-live.md)
+      + [Informe en directo de la página de destino](using/reports/lp-report-live.md)
       + [Informe en directo de la lista de suscripciones](using/reports/subscription-report-live.md)
    + Informe de todo el tiempo{#channel-report}
       + [Introducción al Informe de todo el tiempo](using/reports/report-gs-cja.md)
@@ -493,7 +493,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
          + [Informe de recorrido de SMS](using/reports/journey-global-report-cja-sms.md)
          + [Informe de recorrido web](using/reports/journey-global-report-cja-web.md)
       + [Informe de información general](using/reports/channel-report-cja.md)
-      + [Informe de página de aterrizaje](using/reports/lp-report-global-cja.md)
+      + [Informe de página de destino](using/reports/lp-report-global-cja.md)
       + [Informe de la lista de suscripciones](using/reports/subscription-report-global-cja.md)
    + Informes de recorrido personalizados {#reports}
       + [Creación de informes de recorrido](using/reports/sharing-overview.md)

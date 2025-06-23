@@ -7,7 +7,7 @@ exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Los conjuntos de reglas permiten **agrupar varias reglas en conjuntos de reglas*
 
 * **Prioridad del espacio de nombres para el límite de entradas a recorridos**
 
-  El límite de entradas solo se admite si el espacio de nombres seleccionado en el recorrido es el espacio de nombres de mayor prioridad definido en la zona protegida. Si la prioridad del área de nombres no se ha configurado explícitamente, la prioridad más alta predeterminada es el correo electrónico.
+  El límite de entradas solo se admite si el espacio de nombres seleccionado en el recorrido es el espacio de nombres de mayor prioridad definido en la zona protegida. Si la prioridad del espacio de nombres no se ha configurado explícitamente, la prioridad más alta predeterminada es el correo electrónico.
 
 * **Activaciones simultáneas en recorridos de calificación de público**
 
