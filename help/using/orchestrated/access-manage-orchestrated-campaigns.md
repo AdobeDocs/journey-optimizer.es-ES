@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: e1cb8bc75a5d7d7e43c641ffe7e164bbc1ac1086
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 20%
+source-wordcount: '697'
+ht-degree: 18%
 
 ---
 
@@ -48,11 +48,23 @@ Cada campaña orquestada en la lista muestra información como el [estado](#stat
 
 Además, hay una barra de búsqueda y filtros disponibles para facilitar la búsqueda dentro de la lista. Por ejemplo, puede filtrar las campañas orquestadas para mostrar solo las asociadas a un canal o etiqueta determinados, o las creadas durante un intervalo de fechas específico.
 
+
+La imagen ![que muestra el botón Más acciones](assets/do-not-localize/rule-builder-icon-more.svg) en el inventario de campañas le permite realizar varias operaciones detalladas a continuación.
+
+![imagen del inventario de campañas](assets/inventory-actions.png)
+
+* **[!UICONTROL Ver informe de todos los tiempos]** -
+* **[!UICONTROL Ver informe de las últimas 24 horas]** -
+* **[!UICONTROL Editar etiquetas]**: edite las etiquetas asociadas a la campaña.
+* **[!UICONTROL Duplicado]**: en algunos casos, es posible que deba duplicar una campaña orquestada, por ejemplo, para ejecutar una campaña que se haya detenido o para cambiar la frecuencia de ejecución de una campaña programada.
+* **[!UICONTROL Eliminar]** - Elimine la campaña. Estas acciones solo están disponibles para las campañas **[!UICONTROL Borrador]**.
+* **[!UICONTROL Archivar]** - Archivar la campaña. Todas las campañas archivadas se eliminan en una reprogramación móvil 30 días después de su última fecha de modificación. Esta acción está disponible para todas las campañas excepto para **[!UICONTROL Borrador]**.
+
 ## ¿Qué hay dentro de una campaña orquestada? {#gs-ms-campaign-inside}
 
 El lienzo de campaña orquestado es una representación de lo que se supone que debe suceder. Describe las diversas tareas que se realizan y cómo se relacionan entre sí.
 
-![imagen que muestra un lienzo de campaña orquestado](assets/canvas-example.png){zoomable="yes"}{zoomable="yes"}
+![imagen que muestra un lienzo de campaña orquestado](assets/canvas-example.png)
 
 Cada campaña orquestada contiene:
 
@@ -76,26 +88,6 @@ inicio recurrente en s&#39;execute , fait une query .click close: va continuer e
 * **[!UICONTROL Activo]**: la campaña orquestada se ha publicado y se está ejecutando.
 * **[!UICONTROL Programado]**: La ejecución de la campaña orquestada se ha programado.
 * **[!UICONTROL Completada]**: la ejecución de la campaña orquestada ha finalizado. El estado Completado se asigna automáticamente hasta 3 días después de que una campaña haya completado el envío de mensajes sin errores.
-* **[!UICONTROL Cerrada]**: este estado se muestra cuando se ha detenido una campaña recurrente.
-<!--Comment une campaign devient Closed?
-[CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
-= pas trouvé--> cexui qsui sont déjà entrés ocnitnuent. on ferme les portes d'entrée.
-
+* **[!UICONTROL Cerrada]**: este estado se muestra cuando se ha cerrado una campaña recurrente. La campaña continúa su ejecución hasta que se hayan completado todas sus actividades, pero no pueden entrar más perfiles.
 * **[!UICONTROL Archivada]**: se archivó la campaña orquestada. Todas las campañas archivadas se eliminan en una reprogramación móvil 30 días después de la última fecha de modificación. Puede duplicar una campaña archivada si es necesario para seguir trabajando en ella.
-<!--Comment une campaign devient Archived?
-[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...) bouton bientôt visible. possible pour tout sauf les draft.
-= pas trouvé -->
 * **[!UICONTROL Detenido]**: la ejecución de la campaña orquestada se ha detenido. Para volver a iniciar la campaña, debe duplicarla. si erreur ,restera avec triángulo
-
-## Duplicación y eliminación de campañas orquestadas {#duplicate-delete}
-
-En algunos casos, es posible que deba duplicar una campaña orquestada, por ejemplo para ejecutar una campaña que se haya detenido o para cambiar la frecuencia de ejecución de una campaña programada. Para ello, haga clic en la imagen ![que muestra el botón Más acciones](assets/do-not-localize/rule-builder-icon-more.svg) en el inventario de campañas y seleccione **[!UICONTROL Duplicar]**
-
-<!--Une fois une campaign Scheduled, on ne peut plus changer l'execution frequency = la solution est de dupliquer la campaign ?
-[CPR] : Actuellement oui, mais on est en discussion pour pouvoir revenir en mode "draft" et quelles seraient les actions à nouveau disponibles. A vérifier avec Fred-->
-
-Para eliminar una campaña, haga clic en la imagen ![que muestra el botón Más acciones](assets/do-not-localize/rule-builder-icon-more.svg) y luego seleccione **[!UICONTROL Eliminar]**.
-
->[!NOTE]
->
->Solo se pueden eliminar **[!UICONTROL Borradores]** campañas.
