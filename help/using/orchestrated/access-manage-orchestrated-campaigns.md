@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: cd42bca1a36344f688b2d90e1c0b96a9ef2a53ce
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 21%
+source-wordcount: '637'
+ht-degree: 20%
 
 ---
 
@@ -68,6 +68,9 @@ Cada campaña orquestada contiene:
 
 Las campañas orquestadas pueden tener varios estados:
 
+inicio recurrente en s&#39;execute , fait une query .click close: va continuer et se termienr quand elle sera allée jusqu&#39;au bout du diagrama
+
+
 * **[!UICONTROL Borrador]**: se ha creado la campaña orquestada. Aún no se ha publicado.
 * **[!UICONTROL Publicación]**: La campaña orquestada se está publicando.
 * **[!UICONTROL Activo]**: la campaña orquestada se ha publicado y se está ejecutando.
@@ -76,12 +79,13 @@ Las campañas orquestadas pueden tener varios estados:
 * **[!UICONTROL Cerrada]**: este estado se muestra cuando se ha detenido una campaña recurrente.
 <!--Comment une campaign devient Closed?
 [CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
-= pas trouvé-->
+= pas trouvé--> cexui qsui sont déjà entrés ocnitnuent. on ferme les portes d'entrée.
+
 * **[!UICONTROL Archivada]**: se archivó la campaña orquestada. Todas las campañas archivadas se eliminan en una reprogramación móvil 30 días después de la última fecha de modificación. Puede duplicar una campaña archivada si es necesario para seguir trabajando en ella.
 <!--Comment une campaign devient Archived?
-[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...)
+[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...) bouton bientôt visible. possible pour tout sauf les draft.
 = pas trouvé -->
-* **[!UICONTROL Detenido]**: la ejecución de la campaña orquestada se ha detenido. Para volver a iniciar la campaña, debe duplicarla.
+* **[!UICONTROL Detenido]**: la ejecución de la campaña orquestada se ha detenido. Para volver a iniciar la campaña, debe duplicarla. si erreur ,restera avec triángulo
 
 ## Duplicación y eliminación de campañas orquestadas {#duplicate-delete}
 
