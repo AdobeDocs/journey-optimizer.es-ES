@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: e1cb8bc75a5d7d7e43c641ffe7e164bbc1ac1086
+source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 18%
+source-wordcount: '717'
+ht-degree: 17%
 
 ---
 
@@ -48,13 +48,11 @@ Cada campaña orquestada en la lista muestra información como el [estado](#stat
 
 Además, hay una barra de búsqueda y filtros disponibles para facilitar la búsqueda dentro de la lista. Por ejemplo, puede filtrar las campañas orquestadas para mostrar solo las asociadas a un canal o etiqueta determinados, o las creadas durante un intervalo de fechas específico.
 
-
 La imagen ![que muestra el botón Más acciones](assets/do-not-localize/rule-builder-icon-more.svg) en el inventario de campañas le permite realizar varias operaciones detalladas a continuación.
 
 ![imagen del inventario de campañas](assets/inventory-actions.png)
 
-* **[!UICONTROL Ver informe de todos los tiempos]** -
-* **[!UICONTROL Ver informe de las últimas 24 horas]** -
+* **[!UICONTROL Ver informe de todos los tiempos]** / **[!UICONTROL Ver informe de las últimas 24 horas]**: acceda a informes para medir y visualizar el impacto y el rendimiento de sus campañas orquestadas. [Más información sobre los informes de campañas orquestadas](../orchestrated/reporting-campaigns.md)
 * **[!UICONTROL Editar etiquetas]**: edite las etiquetas asociadas a la campaña.
 * **[!UICONTROL Duplicado]**: en algunos casos, es posible que deba duplicar una campaña orquestada, por ejemplo, para ejecutar una campaña que se haya detenido o para cambiar la frecuencia de ejecución de una campaña programada.
 * **[!UICONTROL Eliminar]** - Elimine la campaña. Estas acciones solo están disponibles para las campañas **[!UICONTROL Borrador]**.
