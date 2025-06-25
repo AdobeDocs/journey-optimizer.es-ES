@@ -8,10 +8,11 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+exl-id: a2892f0a-5407-497c-97af-927de81055ac
+source-git-commit: 624bcbdbbd33d9827b98c953043e692757deb847
 workflow-type: tm+mt
-source-wordcount: '2021'
-ht-degree: 0%
+source-wordcount: '2109'
+ht-degree: 2%
 
 ---
 
@@ -26,12 +27,12 @@ Puede pausar los recorridos activos, realizar todos los cambios necesarios y rea
 
 >[!AVAILABILITY]
 >
->Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una versión futura.
+>Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una futura versión.
 
 
 ## Ventajas principales {#journey-pause-benefits}
 
-Los recorridos de pausa y reanudación proporcionan a los profesionales del recorrido un mayor control y flexibilidad al permitir que los recorridos en directo se suspendan temporalmente sin interrumpir la experiencia del cliente. Cuando está en pausa, no se envían comunicaciones y los perfiles permanecen en estado suspendido hasta que se reanuda la recorrido.
+Los recorridos de pausa y reanudación proporcionan a los profesionales del recorrido un mayor control y flexibilidad al permitir que los recorridos en directo se suspendan temporalmente sin interrumpir la experiencia del cliente. Cuando están en pausa, no se envían comunicaciones y los perfiles permanecen en estado suspendido hasta que se reanuda el recorrido.
 
 Esta capacidad reduce el riesgo de enviar mensajes no deseados durante errores o actualizaciones (p. ej.: cambio en el contenido del mensaje), admite una administración más segura del recorrido y aumenta la confianza del profesional. La visibilidad de los recorridos en pausa y su estado directamente en la IU mejora aún más la transparencia y la agilidad operativa.
 
@@ -146,7 +147,11 @@ Tenga en cuenta que las exclusiones de perfiles para perfiles que se encuentran 
 
 ## Mecanismos de protección y limitaciones {#journey-pause-guardrails}
 
-* Una versión de recorrido se puede pausar durante un máximo de 14 días
+* Una versión de recorrido se puede pausar por un máximo de **14 días**, con un máximo de **10 millones de perfiles** permitidos en recorridos pausados en toda la organización.
+Este límite se comprueba cada 30 minutos. Esto significa que puede superar temporalmente el umbral de 10 millones, pero una vez que el sistema lo detecte, los perfiles adicionales se descartarán automáticamente.
+
+  Si reanuda los recorridos para volver a colocar el número de perfiles retenidos por debajo del límite, el recorrido se reanuda inmediatamente, pero el recuento de perfiles puede tardar hasta 30 minutos en actualizarse. Durante ese tiempo, el sistema puede seguir considerando esos perfiles como en pausa.
+
 * Los recorridos en pausa se cuentan hacia la cuota de recorridos activos
 * Los perfiles que habían entrado en el recorrido pero que se descartaron durante la pausa se contarían como perfiles atractivos
 * Los recorridos en pausa se consideran en todas las reglas de negocio, de la misma manera que si estuvieran activos
