@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo programar e iniciar campañas orqu
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 50386efbb639031bfc41a0aa67f4f3b49603f03a
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 14%
+source-wordcount: '1197'
+ht-degree: 12%
 
 ---
 
@@ -38,8 +38,8 @@ Una vez que haya creado las tareas orquestadas y diseñadas para realizarlas en 
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
->title="Actividad planificador"
->abstract="La campaña **Planificador** le permite programar cuándo se inicia una campaña orquestada. Esta actividad debe considerarse como un inicio programado. Solo se puede utilizar como la primera actividad de la campaña orquestada."
+>title="Planificador"
+>abstract="Como administrador de campañas, puede programar campañas para que se inicien automáticamente en momentos específicos, lo que permite un tiempo preciso y datos de segmentación precisos para las comunicaciones de marketing."
 
 Como administrador de campañas, puede programar campañas para que se inicien automáticamente en momentos específicos, lo que permite un tiempo preciso y datos de segmentación precisos para las comunicaciones de marketing.
 
