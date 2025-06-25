@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 22655a1ad08bb96d7fee86eb31b0542e4ea669c7
+source-git-commit: d6145454256c880183cd84688c40714a5e232325
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 29%
@@ -44,7 +44,7 @@ Estas actividades son específicas de la segmentación. Le permiten crear uno o 
 
 ![Lista de actividades de segmentación](../assets/targeting-activities.png){width="40%" align="left"}
 
-* [![Generar audiencia](../assets/build-audience-icon.png)](build-audience.md): defina la población objetivo. Puede seleccionar una audiencia existente o utilizar el modelador de consultas para definir su propia consulta.
+* [Generar audiencia](build-audience.md): defina la población objetivo. Puede seleccionar una audiencia existente o utilizar el modelador de consultas para definir su propia consulta.
 * [Cambiar dimensión](change-dimension.md): cambie la dimensión de segmentación mientras crea la campaña orquestada.
 * [Combinar](combine.md): realice la segmentación en la población entrante. Puede utilizar una unión, una intersección o una exclusión.
 * [Anulación de duplicación](deduplication.md): elimine duplicados en los resultados de las actividades entrantes.
