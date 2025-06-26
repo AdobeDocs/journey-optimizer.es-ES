@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
 workflow-type: tm+mt
-source-wordcount: '2395'
-ht-degree: 18%
+source-wordcount: '2392'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propiedades del recorrido"
->abstract="Esta sección muestra las propiedades del recorrido. De forma predeterminada, los parámetros de solo lectura están ocultos. La configuración disponible depende del estado del recorrido, de los permisos y de la configuración del producto."
+>abstract="Esta sección muestra las propiedades del recorrido. De forma predeterminada, los parámetros de solo lectura están ocultos. La configuración disponible depende del estado del recorrido, los permisos y la configuración del producto."
 
 ## Acceso a las propiedades de un recorrido {#access-properties}
 
@@ -33,7 +33,7 @@ Puede hacer lo siguiente:
 
 * Asigne etiquetas unificadas de Adobe Experience Platform a su recorrido para clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
 * Seleccione las métricas de recorridos. [Aprenda a configurar y rastrear sus métricas de recorridos](success-metrics.md)
-* Administrar [entrada y reentrada](#entrance). La administración de la entrada del perfil depende del tipo de recorridos. Los detalles están disponibles en [esta página](entry-management.md)
+* Administrar [entrada y reentrada](#entrance). La administración de la entrada del perfil depende del tipo de recorrido. Los detalles están disponibles en [esta página](entry-management.md)
 * Administrar [acceso a datos](#manage-access)
 * Seleccione el recorrido y el perfil [husos horarios](#timezone)
 * Elija [fechas de inicio y finalización](#dates) personalizadas
@@ -46,7 +46,7 @@ Puede hacer lo siguiente:
 >
 >Para los recorridos activos, esta pantalla muestra solo la fecha de publicación y el nombre del usuario que publicó el recorrido.
 
-**Copiar detalles técnicos** le permite copiar información técnica sobre el recorrido que el equipo de soporte técnico puede usar para solucionar problemas. Se copia la siguiente información: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+La opción **Copiar detalles técnicos** le permite copiar información técnica sobre el recorrido que el equipo de soporte técnico puede usar para solucionar problemas. Se copia la siguiente información: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 Obtenga más información acerca de los campos técnicos relacionados con un recorrido para un perfil determinado y cómo usarlos [en esta página](expression/journey-properties.md).
 
@@ -54,7 +54,7 @@ Obtenga más información acerca de los campos técnicos relacionados con un rec
 
 El modo de entrada de perfil se define en el nivel de recorrido, en el panel de configuración derecho. A continuación se describe la configuración.
 
-La administración de la entrada del perfil depende del tipo de recorridos. Obtenga más información acerca de la administración de entrada y reentrada de perfiles en [esta página](entry-management.md).
+La administración de la entrada del perfil depende del tipo de recorrido. Obtenga más información acerca de la administración de entrada y reentrada de perfiles en [esta página](entry-management.md).
 
 ### Permitir la reentrada  {#allow-reentrance}
 
@@ -95,12 +95,12 @@ La zona horaria se define en el nivel de recorrido. Puede introducir una zona ho
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Fecha de inicio"
->abstract="Seleccione la fecha en la que los perfiles pueden empezar a entrar en el recorrido. Si no se establece ninguna fecha de inicio, la predeterminada es la fecha de publicación del recorrido."
+>abstract="Seleccione la fecha en la que los perfiles pueden empezar a entrar en el recorrido. Si no se establece ninguna fecha de inicio, el valor predeterminado es la fecha de publicación del recorrido."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Fecha final"
->abstract="Establezca la fecha en la que termina el recorrido. En esta fecha, los perfiles activos saldrán automáticamente del recorrido y no se permitirán nuevas entradas."
+>abstract="Establezca la fecha en la que termina el recorrido. En esta fecha, los perfiles activos abandonan automáticamente la recorrido y no se permite una nueva entrada."
 
 De forma predeterminada, los perfiles pueden entrar en el recorrido en cuanto se publique y pueden permanecer hasta que se alcance el [tiempo de espera de recorrido global](#global_timeout). La única excepción son los recorridos de lectura recurrentes con **Forzar reentrada en repetición** activada, que terminan en la fecha de inicio de la siguiente ocurrencia.
 
@@ -252,7 +252,7 @@ Adobe Journey Optimizer utiliza políticas de combinación al recuperar datos de
 
 Adobe Journey Optimizer aplica la política de combinación utilizada en todo el recorrido. Por lo tanto, si se usan varias audiencias en un recorrido (por ejemplo, usando en [`inAudience` funciones](functions/functioninaudience.md)), se crean incoherencias con la política de combinación utilizada por el recorrido, se genera un error y se bloquea la publicación. Sin embargo, si se utiliza una audiencia incoherente en la personalización de mensajes, no se genera una alerta, a pesar de la incoherencia. Por este motivo, es muy recomendable comprobar la política de combinación asociada a su audiencia cuando esta audiencia se utiliza en la personalización de mensajes.
 
-Para obtener más información sobre las políticas de combinación, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Para obtener más información sobre las políticas de combinación, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >
