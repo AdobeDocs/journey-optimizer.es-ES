@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 42b7b7fe7ab6380ca54e05ab0905f2517f489782
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 15%
@@ -79,9 +79,9 @@ Básicamente, el resultado de una audiencia es una lista de perfiles, mientras q
 
 +++
 
-* Para limitar la presentación del elemento de decisión a los miembros de una o varias audiencias de Adobe Experience Platform, seleccione la opción **[!UICONTROL Visitantes que pertenecen a una o varias audiencias]**, luego agregue una o varias audiencias desde el panel izquierdo y combínelas con los operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]**. [Más información sobre las audiencias](../audience/about-audiences.md).
+* Para limitar la presentación del elemento de decisión a los miembros de una o varias audiencias de Adobe Experience Platform, seleccione la opción **[!UICONTROL Visitantes que pertenecen a una o varias audiencias]**, luego agregue una o varias audiencias desde el panel izquierdo y combínelas con los operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]**. [Más información sobre los públicos](../audience/about-audiences.md)
 
-* Para asociar una regla de decisión específica al elemento de decisión, seleccione **[!UICONTROL By rule]** y, a continuación, arrastre la regla deseada desde el panel izquierdo al área central. [Más información sobre las reglas de decisión](rules.md).
+* Para asociar una regla de decisión específica al elemento de decisión, seleccione **[!UICONTROL By rule]** y, a continuación, arrastre la regla deseada desde el panel izquierdo al área central. [Más información sobre las reglas de decisión](rules.md)
 
 ![](assets/item-constraints.png)
 
@@ -114,8 +114,8 @@ Para establecer reglas de límite para el elemento de decisión, haga clic en el
    >[!NOTE]
    >
    >Para todos los eventos de límite, excepto el evento de decisión, es posible que los comentarios de la administración de decisiones no se recopilen automáticamente, lo que podría provocar que el contador de límite no se incremente correctamente. Para asegurarse de que se rastrea y contabiliza cada evento de límite en el contador de límite, asegúrese de que el esquema utilizado para recopilar eventos de experiencia incluya el grupo de campos correcto para ese evento. Encontrará información detallada sobre la recopilación de datos en la documentación de gestión de decisiones de Journey Optimizer:
-   >* [Recopilación de datos de administración de decisiones](../offers/data-collection/data-collection.md)
-   >* [Configurar la recopilación de datos](../offers/data-collection/schema-requirement.md)
+   >* [Recopilación de datos de administración de decisiones](data-collection/data-collection.md)
+   >* [Configurar la recopilación de datos](data-collection/schema-requirement.md)
 
 1. Elija el tipo de límite:
 
