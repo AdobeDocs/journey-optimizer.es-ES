@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 10333b4dab32abe87b1e8b4f3e4d7b1e72eafb50
+source-git-commit: fad312d2951dc6d602fb27d24adad6de0192f650
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 3%
@@ -179,7 +179,7 @@ Adobe Experience Platform permite la ingesta de datos desde fuentes externas, al
 
    * Con una cuenta nueva
 
-   [Obtenga más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Obtenga más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -189,9 +189,11 @@ Adobe Experience Platform permite la ingesta de datos desde fuentes externas, al
 
    La selección de una carpeta garantiza que todos los archivos actuales y futuros con la misma estructura se procesen automáticamente, mientras que la selección de un archivo requiere actualizaciones manuales para cada nuevo incremento de datos.
 
-   ![](assets/s3_config_1.png)
+   ![](assets/S3_config_1.png)
 
 1. Elija el Data format y haga clic en Next.
+
+
 
 <!--manual
 ## Create a relational schema manual
