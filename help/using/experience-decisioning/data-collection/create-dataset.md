@@ -69,4 +69,4 @@ ya está listo para crear un conjunto de datos con este esquema. Para realizar e
 
 >[!NOTE]
 >
->Ahora se puede seleccionar este conjunto de datos para recopilar datos de evento al [crear un modelo de IA]().
+>Ahora se puede seleccionar este conjunto de datos para recopilar datos de evento al [crear un modelo de IA] ().
