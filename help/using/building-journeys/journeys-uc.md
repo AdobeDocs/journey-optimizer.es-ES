@@ -9,9 +9,9 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso de uso, multicanal, mensajes, recorrido, canal, eventos, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -24,46 +24,42 @@ Esta sección presenta un caso de uso que combina una audiencia de lectura, un e
 
 ## Descripción del caso de uso
 
-En este caso de uso, queremos enviar un primer mensaje de correo electrónico a todos los clientes que pertenecen a una audiencia específica.
+En este caso de uso, el objetivo es enviar un primer mensaje de correo electrónico a todos los clientes que pertenecen a una audiencia específica.
 
-En función de su reacción al primer mensaje, queremos enviar mensajes específicos.
+En función de su reacción al primer mensaje, se envían mensajes de seguimiento específicos.
 
-Si el cliente abre el correo electrónico, esperamos una compra y enviamos un mensaje push para darle las gracias al cliente.
+Si el cliente abre el correo electrónico, el sistema espera una compra y envía un mensaje push para darle las gracias al cliente.
 
-Si no hay reacción, les enviamos un correo electrónico de seguimiento.
+Si no hay reacción, se envía un correo electrónico de seguimiento.
 
 ## Requisitos previos
 
-Para que este caso de uso funcione, debe configurar lo siguiente:
+Para que este caso de uso funcione, configure lo siguiente:
 
-* una audiencia para todos los clientes que viven en Atlanta, San Francisco o Seattle y que nacieron después de 1980.
-* un evento de compra
+* Una audiencia para todos los clientes que viven en Atlanta, San Francisco o Seattle y que nacieron después de 1980
+* Un evento de compra
 
 ### Creación de la audiencia
 
-En nuestro recorrido, queremos aprovechar una audiencia específica de clientes. Todos los individuos que pertenecen a la audiencia entran en el recorrido y siguen los diferentes pasos. En nuestro ejemplo, necesitamos una audiencia que se dirija a todos los clientes que viven en Atlanta, San Francisco o Seattle y que nacieron después de 1980.
+En este recorrido, se aprovecha una audiencia específica de clientes. Todos los individuos que pertenecen a la audiencia entran en el recorrido y siguen los diferentes pasos. En este ejemplo, la audiencia se dirige a todos los clientes que viven en Atlanta, San Francisco o Seattle y que nacieron después de 1980.
 
-Para obtener más información sobre audiencias, consulte esta [página](../audience/about-audiences.md).
+Para obtener más información sobre las audiencias, [consulte esta página](../audience/about-audiences.md).
 
 1. En la sección de menú CLIENTE, seleccione **[!UICONTROL Audiencias]**.
-
-1. Haga clic en el botón **[!UICONTROL Crear audiencia]** que se encuentra en la parte superior derecha de la lista de audiencias.
-
+1. Haga clic en el botón **[!UICONTROL Crear audiencia]** ubicado en la parte superior derecha de la lista de audiencias.
 1. En el panel **[!UICONTROL Propiedades de audiencia]**, escriba un nombre para la audiencia.
-
-1. Arrastre y suelte los campos deseados del panel izquierdo al área de trabajo central y, a continuación, configúrelos según sus necesidades. En este ejemplo, utilizamos los campos de atributos **City** y **Birth year**.
-
+1. Arrastre y suelte los campos deseados del panel izquierdo al espacio de trabajo central y configúrelos según sus necesidades. En este ejemplo, utilice los campos de atributo **City** y **Birth year**.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
    ![](assets/add-attributes.png)
 
-La audiencia se crea y está lista para utilizarse en el recorrido. Con una actividad **Leer audiencia**, puede hacer que todas las personas que pertenecen a la audiencia ingresen al recorrido.
+La audiencia se crea y está lista para utilizarse en el recorrido. Con una actividad **Leer audiencia**, todas las personas que pertenezcan a la audiencia podrán entrar al recorrido.
 
 ### Configuración del evento
 
-Debe configurar un evento que se envíe a su recorrido cuando un cliente realice una compra. Cuando el recorrido recibe el evento, envía en déclencheur el mensaje de &quot;gracias&quot;.
+Configure un evento que se envíe al recorrido cuando un cliente realice una compra. Cuando el recorrido recibe el evento, envía en déclencheur el mensaje de &quot;gracias&quot;.
 
-Para esto, utilizamos un evento basado en reglas. Para obtener más información sobre los eventos, consulte esta [página](../event/about-events.md).
+Para ello, usa un [evento basado en reglas](../event/about-events.md).
 
 1. En la sección del menú ADMINISTRACIÓN, seleccione **[!UICONTROL Configuraciones]** y, a continuación, haga clic en **[!UICONTROL Eventos]**. Haga clic en **[!UICONTROL Crear evento]** para crear un nuevo evento.
 
@@ -71,9 +67,9 @@ Para esto, utilizamos un evento basado en reglas. Para obtener más información
 
 1. En el campo **[!UICONTROL Tipo de ID de evento]**, seleccione **[!UICONTROL Basado en reglas]**.
 
-1. Defina el **[!UICONTROL Esquema]** y la carga **[!UICONTROL Campos]**. Puede utilizar varios campos, por ejemplo, el producto comprado, la fecha de compra y el ID de compra.
+1. Defina el **[!UICONTROL Esquema]** y la carga **[!UICONTROL Campos]**. Utilice varios campos, por ejemplo, el producto comprado, la fecha de compra y el ID de compra.
 
-1. En el campo **[!UICONTROL Condición de ID de evento]**, defina la condición utilizada por el sistema para identificar los eventos que ponen en déclencheur su recorrido. Por ejemplo, puede agregar un campo `purchaseMessage` y definir la siguiente regla: `purchaseMessage="thank you"`
+1. En el campo **[!UICONTROL Condición de ID de evento]**, defina la condición utilizada por el sistema para identificar los eventos que almacenan en déclencheur el recorrido. Por ejemplo, agregue un campo `purchaseMessage` y defina la siguiente regla: `purchaseMessage="thank you"`
 
 1. Defina el **[!UICONTROL espacio de nombres]** y el **[!UICONTROL identificador de perfil]**.
 
@@ -81,7 +77,7 @@ Para esto, utilizamos un evento basado en reglas. Para obtener más información
 
    ![](assets/jo-uc2.png)
 
-El evento está ahora configurado y listo para utilizarse en el recorrido. Con la actividad de evento correspondiente, puede almacenar en déclencheur una acción cada vez que un cliente realice una compra.
+El evento está ahora configurado y listo para utilizarse en el recorrido. Con la actividad de evento correspondiente, se puede activar una acción cada vez que un cliente realiza una compra.
 
 ## Diseño del recorrido
 
@@ -95,9 +91,9 @@ El evento está ahora configurado y listo para utilizarse en el recorrido. Con l
 
 1. Agregue un evento **Reaction** y seleccione **Email opened**. El evento se activa cuando un individuo que pertenece a la audiencia abre el correo electrónico.
 
-1. Marque la casilla **Definir el tiempo de espera del evento**, defina una duración (1 día en nuestro ejemplo) y marque **Establecer una ruta de espera**. Esto crea otra ruta para las personas que no abren el primer mensaje push o de correo electrónico.
+1. Marque la casilla **Definir el tiempo de espera del evento**, defina una duración (1 día en este ejemplo) y marque **Establecer una ruta de espera**. Esto crea otra ruta para las personas que no abren el primer mensaje push o de correo electrónico.
 
-1. En la ruta de tiempo de espera, suelte una actividad de acción **Correo electrónico** y defina el contenido del mensaje de &quot;seguimiento&quot;. Este mensaje se envía a las personas que no abren el correo electrónico ni insertan el primer mensaje al día siguiente. Consulte esta [sección](../email/create-email.md) para obtener información sobre cómo configurar y diseñar un mensaje de correo electrónico.
+1. En la ruta de tiempo de espera, suelte una actividad de acción **Correo electrónico** y defina el contenido del mensaje de &quot;seguimiento&quot;. Este mensaje se envía a las personas que no abren el correo electrónico ni insertan el primer mensaje en el día siguiente. [Aprenda a configurar y diseñar un correo electrónico](../email/create-email.md).
 
 1. En la primera ruta, añada el evento de compra creado anteriormente. El evento se activa cuando un individuo realiza una compra.
 
@@ -107,6 +103,6 @@ El evento está ahora configurado y listo para utilizarse en el recorrido. Con l
 
 1. Antes de probar el recorrido, compruebe que es válido y que no hay error.
 
-1. Haga clic en el botón de alternancia **Test**, ubicado en la esquina superior derecha, para activar el modo de prueba. Consulte esta [sección](testing-the-journey.md) para aprender a utilizar el modo de prueba.
+1. Utilice la opción **Test**, que se encuentra en la esquina superior derecha, para activar el modo de prueba. Consulte esta [sección](testing-the-journey.md) para aprender a utilizar el modo de prueba.
 
-1. Cuando el recorrido esté listo, publíquelo con el botón **Publish**, ubicado en la esquina superior derecha.
+1. Cuando el recorrido esté listo, publíquelo con el botón **Publicar**, ubicado en la esquina superior derecha.

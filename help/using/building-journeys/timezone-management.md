@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: zona horaria, propiedades, recorrido, condición, hora, fecha, personalizado
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '360'
 ht-degree: 28%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 28%
 
 Puede definir una zona horaria en las [propiedades](../building-journeys/journey-properties.md#timezone) de su recorrido.
 
-Para acceder a las propiedades del recorrido, haga clic en el icono de lápiz en la parte superior derecha de la pantalla.
+Para acceder a las propiedades del recorrido, seleccione el icono de lápiz en la parte superior derecha de la pantalla.
 
 Esta zona horaria se utilizará para cada actividad del recorrido que contenga un elemento de hora como:
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Después de crear el proyecto en Adobe Developer Console, asegúrese de otorgar al desarrollador y al control de acceso de la API los permisos adecuados. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Después de crear el proyecto en Adobe Developer Console, asegúrese de otorgar al desarrollador y al control de acceso de la API los permisos adecuados. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## Configuración de Source mediante la entrada de API HTTP
 
@@ -49,11 +49,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-3.png)
 
-1. Seleccione **Nueva cuenta** y habilite la autenticación. Haz clic en **Conectar con Source**.
+1. Seleccione **Nueva cuenta** y habilite la autenticación. Seleccione **Conectarse a Source**.
 
    ![](assets/custom-action-aep-4.png)
 
-1. Haga clic en **Siguiente** y seleccione el conjunto de datos donde desea escribir los datos. Haga clic en **Siguiente** y **Finalizar**.
+1. Seleccione **Siguiente** y el conjunto de datos donde desee escribir los datos. Haga clic en **Siguiente** y **Finalizar**.
 
    ![](assets/custom-action-aep-5.png)
 
@@ -175,7 +175,7 @@ Para este ejemplo, siga estos pasos:
 
 1. Guarde la acción personalizada.
 
-## Recorrido 
+##  Recorrido 
 
 1. Finalmente, utilice esta acción personalizada en un recorrido para escribir los eventos de recorrido personalizados.
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: salto, actividad, recorrido, división, división
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '825'
 ht-degree: 10%
 
 ---
@@ -28,25 +28,26 @@ La actividad de acción **[!UICONTROL Jump]** le permite insertar particulares d
 * simplificar el diseño de recorridos muy complejos dividiéndolos en varios
 * generar recorridos basados en patrones de recorrido comunes y reutilizables
 
-En el recorrido de origen, simplemente agregue una actividad **[!UICONTROL Jump]** y seleccione un recorrido de destino. Cuando el individuo entra al paso **[!UICONTROL Jump]**, se envía un evento interno al primer evento del recorrido de destino. Si la acción **[!UICONTROL Jump]** se realiza correctamente, el usuario continúa avanzando en el recorrido. El comportamiento es similar a otras acciones.
+En el recorrido de origen, agregue una actividad **[!UICONTROL Jump]** y seleccione un recorrido de destino. Cuando el individuo entra al paso **[!UICONTROL Jump]**, se envía un evento interno al primer evento del recorrido de destino. Si la acción **[!UICONTROL Jump]** se realiza correctamente, el usuario continúa avanzando en el recorrido. El comportamiento es similar a otras acciones.
 
-En el recorrido de destino, el primer evento activado internamente por la actividad **[!UICONTROL Jump]** hará que el individuo fluya en el recorrido.
+En el recorrido de destino, el primer evento activado internamente por la actividad **[!UICONTROL Jump]** hace que el individuo fluya en el recorrido.
 
 ## Ciclo de vida {#jump-lifecycle}
 
-Supongamos que ha agregado una actividad **[!UICONTROL Jump]** en un recorrido A a un recorrido B. El Recorrido A es el **recorrido de origen** y el recorrido B, el **recorrido de destino**.
+Supongamos que ha agregado una actividad **[!UICONTROL Jump]** en el recorrido A al recorrido B. El Recorrido A es el **recorrido de origen** y el recorrido B es el **recorrido de destino**.
+
 Estos son los diferentes pasos del proceso de ejecución:
 
 **El Recorrido A** se ha activado a partir de un evento externo:
 
 1. El recorrido A recibe un evento externo relacionado con un individuo.
 1. El individuo alcanza el paso **[!UICONTROL Jump]**.
-1. El individuo se inserta en el Recorrido B y pasa a los pasos siguientes del Recorrido A, después del paso **[!UICONTROL Jump]**.
+1. El individuo se inserta en el recorrido B y pasa a los pasos siguientes del recorrido A, después del paso **[!UICONTROL Jump]**.
 
-En el recorrido B, el primer evento se activa internamente, a través de la actividad **[!UICONTROL Jump]** desde el recorrido A:
+En el recorrido B, el primer evento se activa internamente a través de la actividad **[!UICONTROL Jump]** desde el recorrido A:
 
-1. El recorrido B recibió un evento interno del Recorrido A.
-1. El individuo comienza a fluir en el Recorrido B.
+1. El recorrido B recibe un evento interno del recorrido A.
+1. El individuo comienza a fluir en el recorrido B.
 
 >[!NOTE]
 >
@@ -60,15 +61,15 @@ En el recorrido B, el primer evento se activa internamente, a través de la acti
 * Solo puede saltar a un recorrido que utilice el mismo área de nombres que el recorrido de origen.
 * No puede saltar a un recorrido que comience con un evento de **Calificación de audiencias** o **Leer audiencia**.
 * No puede tener una actividad **[!UICONTROL Jump]** y un evento **Audience Qualification** o **Read Audience** en el mismo recorrido.
-* Puedes incluir tantas actividades **[!UICONTROL Jump]** como necesites en un recorrido. Después de **[!UICONTROL saltar]**, puedes agregar cualquier actividad que necesites.
-* Puede tener tantos niveles de salto como sea necesario. Por ejemplo, el Recorrido A salta al recorrido B, que salta al recorrido C, etc.
+* Puede incluir tantas actividades **[!UICONTROL Jump]** como sea necesario en un recorrido. Después de **[!UICONTROL saltar]**, puedes agregar cualquier actividad que necesites.
+* Puede tener tantos niveles de salto como sea necesario. Por ejemplo, el recorrido A salta al recorrido B, que salta al recorrido C, etc.
 * El recorrido de destino también puede incluir tantas actividades **[!UICONTROL Jump]** como sea necesario.
-* No se admiten patrones de bucle. No hay forma de vincular dos o más recorridos que crearían un bucle infinito. La pantalla de configuración de actividad **[!UICONTROL Jump]** impide que lo hagas.
+* No se admiten patrones de bucle. No hay forma de vincular dos o más recorridos, lo que crearía un bucle infinito. La pantalla de configuración de actividad **[!UICONTROL Jump]** impide que lo hagas.
 
 ### Ejecución {#jump-limitations-exec}
 
 * Cuando se ejecuta la actividad **[!UICONTROL Jump]**, se activa la última versión del recorrido de destino.
-* Como de costumbre, un individuo único solo puede estar presente una vez en el mismo recorrido. Como resultado, si el individuo insertado desde el recorrido de origen ya está en el recorrido de destino, entonces el individuo no entrará en el recorrido de destino. No se notificará ningún error en la actividad **[!UICONTROL Jump]** porque se trata de un comportamiento normal.
+* Un individuo único solo puede estar presente una vez en el mismo recorrido. Como resultado, si el individuo insertado desde el recorrido de origen ya está en el recorrido de destino, el individuo no entrará en el recorrido de destino. No se notificará ningún error en la actividad **[!UICONTROL Jump]** porque se trata de un comportamiento normal.
 
 ## Configuración de la actividad de salto {#jump-configure}
 
@@ -94,7 +95,7 @@ El campo **Primer evento** está rellenado previamente con el nombre del primer 
 
    ![](assets/jump4.png)
 
-1. La sección **Parámetros de acción** muestra todos los campos del evento de destino. Del mismo modo que para otros tipos de acciones, asigne cada campo con campos del evento de origen o de la fuente de datos. Esta información se pasa al recorrido de destino durante la ejecución.
+1. La sección **Parámetros de acción** muestra todos los campos del evento de destino. Al igual que con otros tipos de acciones, asigne cada campo con campos del evento de origen o de la fuente de datos. Esta información se pasa al recorrido de destino durante la ejecución.
 1. Añada las siguientes actividades para finalizar el recorrido de origen.
 
    ![](assets/jump5.png)
@@ -104,7 +105,7 @@ El campo **Primer evento** está rellenado previamente con el nombre del primer 
    >
    >La identidad de la persona se asigna automáticamente. Esta información no es visible en la interfaz de.
 
-Se ha configurado su actividad **[!UICONTROL Jump]**. Tan pronto como el recorrido esté activo o en modo de prueba, las personas que alcancen el paso **[!UICONTROL Jump]** se insertarán desde en el recorrido de destino.
+Se ha configurado su actividad **[!UICONTROL Jump]**. Tan pronto como el recorrido esté activo o en modo de prueba, las personas que alcancen el paso **[!UICONTROL Jump]** se insertarán en el recorrido de destino.
 
 Cuando se configura una actividad **[!UICONTROL Jump]** en un recorrido, se agrega automáticamente un icono de entrada **[!UICONTROL Jump]** al principio del recorrido de destino. Esto le ayuda a identificar que el recorrido se puede activar externamente, pero también internamente, desde una actividad **[!UICONTROL Jump]**.
 
@@ -112,9 +113,10 @@ Cuando se configura una actividad **[!UICONTROL Jump]** en un recorrido, se agre
 
 ## Resolución de problemas {#jump-troubleshoot}
 
-Se producirán errores si:
-* el recorrido de destino ya no existe
-* el recorrido de destino es borrador, está cerrado o detenido
-* si el primer evento del recorrido de destino ha cambiado y la asignación está dañada
+Se producen errores si:
+
+* El recorrido de destino ya no existe
+* El recorrido de destino es borrador, está cerrado o detenido
+* El primer evento del recorrido de destino cambia y la asignación se interrumpe
 
 ![](assets/jump6.png)

@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '995'
 ht-degree: 10%
 
 ---
@@ -73,7 +73,7 @@ Puede utilizar la capacidad de ejecución en seco en cualquier recorrido de borr
 Para activar la ejecución en seco, siga estos pasos:
 
 1. Abra el recorrido que desee probar.
-1. Haz clic en el botón **Ejecutar en seco**.
+1. Seleccione el botón **Ejecutar en seco**.
 
    ![Iniciar la ejecución en seco del recorrido](assets/dry-run-button.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 12%
+source-wordcount: '1175'
+ht-degree: 13%
 
 ---
 
@@ -31,7 +31,7 @@ En la sección de menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL
 
 La pestaña **[!UICONTROL Información general]** muestra un panel con métricas clave relacionadas con tus recorridos.
 
-![Tablero de recorrido que resalta la ficha Información general](assets/journeys-dashboard.png)
+![Tablero de Recorrido que resalta la ficha Información general](assets/journeys-dashboard.png)
 
 * **Perfiles procesados**: número total de perfiles procesados en las últimas 24 horas.
 * **recorridos activos**: número total de recorridos activos con tráfico durante las últimas 24 horas. Los recorridos activos incluyen **recorridos unitarios** (basados en eventos) y **recorridos por lotes** (lectura de audiencia).
@@ -54,7 +54,7 @@ Además de la lista de recorridos, [!DNL Journey Optimizer] proporciona una vist
 
 >[!AVAILABILITY]
 >
->Actualmente, la vista de calendario solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para solicitar acceso, use [este formulario](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>Actualmente, la vista de calendario solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para solicitar acceso, utilice [este formulario](https://forms.cloud.microsoft/r/FC49afuJVi){target="_blank"}.
 >
 >Esta función está en desarrollo activo. Agradecemos sus comentarios y solicitudes con el botón **[!UICONTROL Comentarios de Beta]** del menú superior.
 
@@ -88,7 +88,7 @@ Puede filtrar recorridos según su [estado](#journey-statuses), [tipo](#journey-
 
 Use **[!UICONTROL filtros de creación]** para filtrar recorridos según su fecha de creación o el usuario que los creó.
 
-Mostrar recorridos que utilizan un evento, un grupo de campos o una acción específicos de **[!UICONTROL Activity Filters]** y **[!UICONTROL Data Filters]**.
+Mostrar recorridos que utilizan un evento, un grupo de campos o una acción en particular de **[!UICONTROL Activity Filters]** y **[!UICONTROL Data Filters]**.
 
 Use **[!UICONTROL Filtros de publicación]** para seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar las versiones más recientes de recorridos en directo que se publicaron ayer.
 

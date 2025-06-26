@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 5bdacef2196592776c6b37708b0df0986460ca1f
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 41%
+source-wordcount: '600'
+ht-degree: 42%
 
 ---
 
 # Publicación del recorrido {#publishing-the-journey}
 
-Para activar un recorrido y permitir que nuevos perfiles entren en él, debe publicarlo. La publicación hace que el recorrido esté activo y en funcionamiento. Antes de publicar, debe asegurarse de que la recorrido esté completa y sea válida, y corregir los errores, ya que un recorrido no se puede publicar si contiene errores.
+Debe publicar un recorrido para activarlo y hacer que esté disponible para que los nuevos perfiles entren en el recorrido. Antes de publicar el recorrido, compruebe que es válido y que no hay errores. No se puede publicar un recorrido con errores.
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
@@ -26,7 +26,7 @@ Para activar un recorrido y permitir que nuevos perfiles entren en él, debe pub
 
 Los pasos para publicar un recorrido se detallan a continuación:
 
-1. Antes de publicar el recorrido, asegúrese de que sea válido y esté libre de errores. Los recorridos no se pueden publicar si contienen errores.
+1. Antes de publicar el recorrido, compruebe que es válido y que no hay errores. No se puede publicar un recorrido con errores.
 
    * Aprenda a probar su recorrido en [esta página](testing-the-journey.md).
    * Aprenda a solucionar los errores de recorrido en [esta sección](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
@@ -35,20 +35,17 @@ Los pasos para publicar un recorrido se detallan a continuación:
 
    >[!NOTE]
    >
-   > Si el recorrido está sujeto a una directiva de aprobación, debe solicitar la aprobación para poder publicarlo. [Más información](../test-approve/gs-approval.md)
-
+   > Si el recorrido está sujeto a una directiva de aprobación, debe solicitar la aprobación para publicar el recorrido. [Más información](../test-approve/gs-approval.md)
 
    ![](assets/journeyuc1_18.png)
 
-Cuando se publica el recorrido, está en modo **solo lectura**. Cuando un recorrido es de solo lectura, solo puede modificar las etiquetas y descripciones de la actividad, el nombre del recorrido y la descripción del recorrido. Si necesita hacer más modificaciones en un recorrido publicado, cree [una nueva versión](journey-ui.md#journey-versions) del recorrido.
+Cuando se publica el recorrido, está en modo **solo lectura**. En el modo de solo lectura, solo puede modificar las etiquetas y las descripciones de la actividad, el nombre del recorrido y la descripción del recorrido. Si necesita hacer más modificaciones en un recorrido publicado, cree [una nueva versión](journey-ui.md#journey-versions) del recorrido.
 
-Cuando se detiene un recorrido, se detiene permanentemente: todas las personas que fluyen en el recorrido se detienen permanentemente, y el recorrido deja de permitir nuevas entradas. Si necesita volver a ejecutar el recorrido, debe duplicarlo y publicar el nuevo recorrido.
-
+Cuando se detiene un recorrido, se detiene permanentemente. Todos los individuos que fluyen a través del recorrido se detienen permanentemente, y el recorrido deja de permitir nuevas entradas. Si necesita volver a ejecutar el recorrido, duplíquelo y publique el nuevo recorrido.
 
 >[!IMPORTANT]
 >
->Si se realizan cambios en una decisión de oferta que se utiliza en el mensaje de un recorrido, se debe cancelar la publicación del recorrido y volver a publicarlo.  Esto garantizará que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.
-
+>Si se realizan cambios en una decisión de oferta utilizada en un mensaje de recorrido, se debe cancelar la publicación del recorrido y volver a publicarlo. Esto garantiza que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.
 
 ## Versiones de recorridos {#journey-versions}
 
@@ -90,4 +87,4 @@ Cuando se publica una nueva versión de un recorrido, la versión anterior final
 
 Obtenga información sobre cómo publicar un recorrido en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427933?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 624bcbdbbd33d9827b98c953043e692757deb847
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2106'
 ht-degree: 2%
 
 ---
@@ -103,7 +103,7 @@ Los recorridos en pausa se reanudan automáticamente al final del período máxi
 Para reanudar un recorrido en pausa y comenzar a escuchar eventos de recorrido de nuevo, siga estos pasos:
 
 1. Abra el recorrido que desea reanudar.
-1. Haga clic en el botón **...Más** de la sección superior derecha del lienzo de recorrido y seleccione **Reanudar**.
+1. Seleccione el botón **...Más** en la sección superior derecha del lienzo de recorrido y luego **Reanudar**.
 
    El recorrido cambia al estado **Reanudando**. Cuando el recorrido se reanuda, las nuevas entradas comienzan en un minuto. La reanudación de los perfiles que se mantuvieron puede llevar algún tiempo: los perfiles se reanudan a una velocidad de 5 K tps.  Ya que todos los perfiles deben reanudarse para que el recorrido vuelva a estar **Activo**, la transición del estado **Reanudando** al **Activo** puede tomar algún tiempo.
 
@@ -121,7 +121,7 @@ Por ejemplo, para excluir todos los clientes franceses de un recorrido en pausa,
 
 1. Desplácese hasta el recorrido en pausa que desee modificar.
 
-1. Haga clic en el icono **Criterios de salida y filtro global**.
+1. Seleccione el icono **Criterios de salida y filtro global**.
 
    ![Agregar un filtro global a un recorrido en pausa](assets/add-global-filter.png)
 

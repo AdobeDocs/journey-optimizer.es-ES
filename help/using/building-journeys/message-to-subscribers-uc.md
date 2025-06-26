@@ -9,7 +9,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: recorrido, caso de uso, mensaje, suscriptores, lista, lectura
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 17%
@@ -46,8 +46,8 @@ Para configurar este recorrido, siga estos pasos:
 
       | Función | Descripción | Ejemplo |
       | --- | --- | --- |
-      | `entry` | Hacer referencia a un elemento de mapa según el área de nombres seleccionada | Consulte una lista de suscripción específica |
-      | `firstEntryKey` | Recuperación de la primera clave de entrada de un mapa | Recuperación de la primera dirección de correo electrónico de los suscriptores |
+      | `entry` | Hace referencia a un elemento de mapa según el área de nombres seleccionada | Consulte una lista de suscripción específica |
+      | `firstEntryKey` | Recupera la primera clave de entrada de un mapa | Recuperación de la primera dirección de correo electrónico de los suscriptores |
 
       En este ejemplo, la lista de suscripción se denomina `daily-email`. Las direcciones de correo electrónico se definen como claves en el mapa `subscribers`, que está vinculado al mapa de la lista de suscripción.
 
