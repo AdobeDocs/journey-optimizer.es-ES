@@ -6,7 +6,9 @@ description: Obtenga información sobre cómo configurar el esquema de oferta pa
 feature: Ranking, Datasets, Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: dd108b67ec252d391418d8af53de696bf9cd167d
+hide: true
+hidefromtoc: true
+source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 1%
@@ -106,4 +108,4 @@ Para los eventos personalizados, el esquema utilizado en el conjunto de datos ta
 >* POST/ee/v2/interaction
 >* POST /ee/v2/collect
 >
->Si está usando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"} o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=es){target="_blank"}, la conexión se establece automáticamente.
+>Si está usando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, la conexión se establece automáticamente.
