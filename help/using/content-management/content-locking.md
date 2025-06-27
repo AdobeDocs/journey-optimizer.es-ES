@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 32%
+source-wordcount: '1276'
+ht-degree: 29%
 
 ---
 
@@ -34,20 +34,20 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
 >title="Gobernanza habilitada"
->abstract="El bloqueo de contenido está activado y puede impedir que realice modificaciones."
+>abstract="El bloqueo de contenido está activado y evita modificaciones."
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="Solo lectura"
->abstract="Este contenido es de solo lectura y no se puede modificar."
+>abstract="Este contenido está en modo de solo lectura y no se puede modificar."
 
-Journey Optimizer le permite bloquear contenido en plantillas de correo electrónico, ya sea bloqueando toda la plantilla o estructuras y componentes específicos. Esto le permite evitar ediciones o eliminaciones no intencionadas, lo que le proporciona un mayor control sobre la personalización de las plantillas y mejora la eficacia y fiabilidad de sus campañas de correo electrónico.
+Journey Optimizer permite bloquear el contenido en plantillas de correo electrónico, ya sea bloqueando toda la plantilla o estructuras y componentes específicos. Esto evita ediciones o eliminaciones involuntarias, lo que le proporciona un mayor control sobre la personalización de las plantillas y mejora la eficacia y fiabilidad de sus campañas de correo electrónico.
 
 >[!IMPORTANT]
 >
->El bloqueo de contenido es una función de nivel de editor para autores y no garantiza que el contenido no se edite cuando se importe o cree mediante API.
+>El bloqueo de contenido es una función de nivel de editor para autores y no garantiza que el contenido permanezca sin editar cuando se importe o cree mediante API.
 
-El bloqueo de contenido se puede aplicar en el nivel **structure** o en el nivel **component**. Estas son las principales restricciones que se aplican en el nivel de estructura y componente al bloquear contenido en la plantilla.
+El bloqueo de contenido se puede aplicar en el nivel **structure** o en el nivel **component**. A continuación se muestran los principios principales que se aplican en el nivel de estructura y componente al bloquear contenido en la plantilla:
 
 * Cuando una estructura está bloqueada:
 
@@ -65,7 +65,7 @@ El bloqueo de contenido se puede aplicar en el nivel **structure** o en el nivel
 >
 >Los usuarios con permisos para crear plantillas de contenido pueden activar el bloqueo de contenido.
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 ## Bloquear una plantilla de correo electrónico {#define}
 
@@ -95,9 +95,9 @@ Puede activar el bloqueo de contenido para una plantilla de correo electrónico 
    * [Aprenda a bloquear estructuras](#lock-structures)
    * [Aprenda a bloquear componentes](#lock-components)
 
-   Si elige el modo **[!UICONTROL Solo lectura]**, puede finalizar y guardar la plantilla como de costumbre.
+   Si eligió el modo **[!UICONTROL Solo lectura]**, complete y guarde la plantilla como de costumbre.
 
-Puede ajustar la configuración de **[!UICONTROL Governance]** en cualquier momento al diseñar la plantilla seleccionando el cuerpo de la plantilla. Para ello, haga clic en el vínculo **[!UICONTROL Cuerpo]** en el carril de navegación ubicado en la parte superior del panel derecho.
+Puede ajustar la configuración de **[!UICONTROL Governance]** en cualquier momento al diseñar la plantilla seleccionando el cuerpo de la plantilla. Para ello, haga clic en el vínculo **[!UICONTROL Cuerpo]** en el carril de navegación ubicado en la parte superior del panel lateral derecho.
 
 ![](assets/template-lock-body.png)
 
@@ -173,17 +173,16 @@ Cuando se usa una plantilla con contenido bloqueado, aparece el mensaje **[!UICO
 
 Según el tipo de bloqueo aplicado a la plantilla, puede realizar diferentes acciones en las estructuras y componentes de la plantilla. Para identificar rápidamente todas las áreas editables dentro de la plantilla, active la opción **[!UICONTROL Resaltar áreas editables]**.
 
-Por ejemplo, en la plantilla siguiente, todas las áreas son editables, excepto la imagen superior que se ha bloqueado, lo que significa que no puede editarla ni quitarla.
+Por ejemplo, en la plantilla siguiente, todas las áreas son editables, excepto la imagen superior, que se ha bloqueado, lo que significa que no puede editarla ni quitarla.
 
 ![](assets/template-lock-highlight.png)
 
-Para obtener información detallada sobre los distintos tipos de bloqueo que se pueden aplicar, consulte estas secciones:
+Encontrará información detallada sobre los diferentes tipos de bloqueo que se pueden aplicar en estas secciones:
 
 * [Bloqueo de estructuras](#lock-structures)
 * [Bloqueo de componentes](#lock-components)
 
-Estos son algunos ejemplos de edición de correos electrónicos y de la configuración de bloqueo de contenido asociada que se ha configurado:
-
+Estos son algunos ejemplos de ediciones de correo electrónico y de las configuraciones de bloqueo de contenido asociadas que se han configurado:
 
 | Tipo de bloqueo de contenido | Configuración de plantilla | Edición por correo electrónico |
 | ------- | ------- | ------- |
@@ -197,4 +196,4 @@ Estos son algunos ejemplos de edición de correos electrónicos y de la configur
 
 Aprenda a bloquear contenido en plantillas de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451610?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 16%
+source-wordcount: '626'
+ht-degree: 11%
 
 ---
 
@@ -28,19 +28,19 @@ Existen dos formas de crear plantillas de contenido:
 
 * Al diseñar el contenido dentro de una campaña o un recorrido, guárdelo como una plantilla. [Descubra cómo](#save-as-template)
 
-Una vez guardada, la plantilla de contenido está disponible para usarla en una campaña o un recorrido. Ya sea que se haya creado desde cero o a partir de contenido anterior, ahora puede utilizar esta plantilla al crear cualquier contenido dentro de [!DNL Journey Optimizer]. [Descubra cómo](#use-content-templates)
+Una vez guardada, la plantilla de contenido está disponible para usarla en una campaña o un recorrido. Ya sea que se haya creado desde cero o a partir de contenido anterior, puede utilizar esta plantilla al generar cualquier contenido dentro de [!DNL Journey Optimizer]. [Descubra cómo](#use-content-templates)
 
 >[!NOTE]
 >
 >* Los cambios realizados en las plantillas de contenido no se propagan a las campañas ni a los recorridos, ya estén activos o en borrador.
 >
->* Del mismo modo, cuando las plantillas se utilizan en una campaña o un recorrido, las ediciones que realice en el contenido de la campaña y del recorrido no afectan a la plantilla de contenido utilizada anteriormente.
+>* Del mismo modo, cuando las plantillas se utilizan en una campaña o un recorrido, las ediciones realizadas en el contenido de la campaña y del recorrido no afectan a la plantilla de contenido utilizada anteriormente.
 
 ## Crear una plantilla desde cero {#create-template-from-scratch}
 
 >[!NOTE]
 >
->A partir de marzo de 2025, las plantillas de contenido de tipo HTML quedarán obsoletas. Puede seguir utilizando las plantillas de contenido de HTML existentes creadas anteriormente en [!DNL Journey Optimizer].
+>A partir de marzo de 2025, las plantillas de contenido de tipo HTML quedarán obsoletas. Las plantillas de contenido de HTML existentes creadas anteriormente en [!DNL Journey Optimizer] aún se pueden usar.
 
 Para crear una plantilla de contenido desde cero, siga los pasos a continuación.
 
@@ -58,7 +58,7 @@ Para crear una plantilla de contenido desde cero, siga los pasos a continuación
 
 1. Seleccione o cree etiquetas Adobe Experience Platform en el campo **[!UICONTROL Etiquetas]** para categorizar la plantilla y mejorar la búsqueda. [Más información](../start/search-filter-categorize.md#tags)
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la plantilla, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Obtenga más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la plantilla, selecciona **[!UICONTROL Administrar acceso]**. [Obtenga más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md).
 
 1. Haga clic en **[!UICONTROL Crear]** y diseñe el contenido según sea necesario, del mismo modo que lo haría para cualquier contenido dentro de un recorrido o una campaña, según el canal que haya seleccionado.
 
@@ -89,14 +89,9 @@ Esta plantilla ya está lista para usarse al generar contenido dentro de [!DNL J
 
 >[!NOTE]
 >
->Al crear una plantilla de contenido de correo electrónico, para aplicar rápidamente un estilo específico que se ajuste a su marca y diseño, puede aplicar un tema al contenido. [Más información](../email/apply-email-themes.md)
+>Al crear una plantilla de contenido de correo electrónico, puede aplicar rápidamente un estilo específico que se ajuste a su marca y diseño al aplicar un tema al contenido. [Más información](../email/apply-email-themes.md)
 
 ## Guardar contenido como plantilla de contenido {#save-as-template}
-
->[!CONTEXTUALHELP]
->id="ajo_messages_depecrated_inventory"
->title="Aprenda a migrar sus mensajes"
->abstract="El 25 de julio de 2022, desapareció el menú Mensajes y ahora los mensajes se crean directamente desde un recorrido. Si desea reutilizar los mensajes heredados en recorridos, debe guardarlos como plantillas."
 
 Al diseñar cualquier contenido en una campaña o un recorrido, puede guardarlo para su reutilización futura. Para realizar esto, siga los pasos a continuación.
 
@@ -106,7 +101,7 @@ Al diseñar cualquier contenido en una campaña o un recorrido, puede guardarlo 
 
    ![](assets/content-template-button-save.png)
 
-   Si estás en [Email Designer](../email/get-started-email-design.md), también puedes seleccionar esta opción en la lista desplegable de **[!UICONTROL Más]** en la parte superior derecha de la pantalla.
+   Si estás en [Email Designer](../email/get-started-email-design.md), también puedes seleccionar esta opción en la lista desplegable **[!UICONTROL Más]** en la esquina superior derecha de la pantalla.
 
    ![](assets/content-template-more-button-save.png)
 
@@ -120,7 +115,7 @@ Al diseñar cualquier contenido en una campaña o un recorrido, puede guardarlo 
 
 1. Seleccione o cree una etiqueta Adobe Experience Platform en el campo **Etiquetas** para categorizar la plantilla. [Más información](../start/search-filter-categorize.md#tags)
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la plantilla, puedes seleccionar **[!UICONTROL Administrar acceso]**. [Más información](../administration/object-based-access.md).
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la plantilla, selecciona **[!UICONTROL Administrar acceso]**. [Más información](../administration/object-based-access.md).
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -130,4 +125,5 @@ Ahora puede usar esta plantilla al generar cualquier contenido dentro de [!DNL J
 
 >[!NOTE]
 >
->Los cambios que se realicen en esa nueva plantilla no se propagarán al contenido del que procedan. Del mismo modo, cuando el contenido original se edita dentro de ese contenido, la nueva plantilla no se modifica.
+>Los cambios realizados en la nueva plantilla no se propagarán al contenido desde el que se origina. Del mismo modo, cuando se edita el contenido original, la nueva plantilla no se modifica.
+

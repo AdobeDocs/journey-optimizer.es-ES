@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 24%
+source-wordcount: '286'
+ht-degree: 25%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 24%
 >[!AVAILABILITY]
 >
 >Esta funcionalidad se presenta como una versión Private Beta. Estará disponible de forma progresiva para todos los clientes en futuras versiones.
->&#x200B;>Debe aceptar el [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar el Asistente de IA en Adobe Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
+>>Debe aceptar el [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar el Asistente de IA en Adobe Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
-La función Alineación de marca se ha creado para ayudarle a crear, revisar y administrar contenido que se ajuste a las directrices de marca. Garantiza coherencia en el tono, la mensajería y la identidad visual en todas las campañas de correo electrónico, a la vez que sirve como una comprobación de calidad antes de que el contenido se publique.
+La función Alineación de marca le ayuda a crear, revisar y administrar contenido que se adhiere a las directrices de marca. Garantiza coherencia en el tono, la mensajería y la identidad visual en todas las campañas de correo electrónico, a la vez que sirve como una comprobación de calidad antes de que el contenido se publique.
 
 ## Validar el contenido con la alineación de marca {#validate-content}
 
@@ -50,7 +50,7 @@ Una vez [configurada y publicada su marca](brands.md), evalúe la puntuación de
 
 1. Abra el menú **[!UICONTROL Alineación de marca]** en el Designer de correo electrónico.
 
-   El contenido se evaluará automáticamente en función de la marca predeterminada. [Aprenda a asignar una marca predeterminada](brands.md).
+   El contenido se evalúa automáticamente según la marca predeterminada. [Aprenda a asignar una marca predeterminada](brands.md).
 
    ![](assets/brand-score-1.png)
 
@@ -60,7 +60,7 @@ Una vez [configurada y publicada su marca](brands.md), evalúe la puntuación de
 
 1. Examine la **puntuación de alineación de marca** (alta, Medium, baja) y revise los comentarios detallados.
 
-1. Haz clic en el icono ![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "Pantalla completa") para ver más información sobre tu puntuación.
+1. Haz clic en el icono ![Pantalla completa para obtener información detallada](assets/do-not-localize/Smock_FullScreen_18_N.svg "Pantalla completa") para ver más información sobre tu puntuación.
 
    ![](assets/brand-score-3.png)
 

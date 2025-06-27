@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '587'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Para acceder a la lista de plantillas de contenido, seleccione **[!UICONTROL Adm
 
 ![](assets/content-template-list.png)
 
-Se muestran todas las plantillas que se crearon en la zona protegida actual, ya sea desde un recorrido o desde una campaña con la opción **[!UICONTROL Guardar como plantilla]**, ya sea desde el menú **[!UICONTROL Plantillas de contenido]**. [Aprenda a crear plantillas](#create-content-templates)
+Se muestran todas las plantillas creadas en la zona protegida actual, ya sea desde un recorrido o una campaña con la opción **[!UICONTROL Guardar como plantilla]**, o desde el menú **[!UICONTROL Plantillas de contenido]**. [Aprenda a crear plantillas](#create-content-templates)
 
 El panel de la izquierda le permite organizar las plantillas de contenido en carpetas. De forma predeterminada, se muestran todas las plantillas. Al seleccionar una carpeta, solo se muestran las plantillas y carpetas incluidas en la carpeta seleccionada. [Más información](#folders)
 
@@ -31,12 +31,13 @@ El panel de la izquierda le permite organizar las plantillas de contenido en car
 Para encontrar un elemento específico, empiece a escribir un nombre en el campo de búsqueda. Cuando se selecciona una [carpeta](#folders), la búsqueda se aplica a todas las plantillas de contenido o carpetas del primer nivel de jerarquía de esa carpeta<!--(not nested items)-->.
 
 Puede ordenar las plantillas de contenido por:
+
 * Tipo
 * Canal
 * Fecha de creación o modificación
 * Etiquetas: [Más información acerca de las etiquetas](../start/search-filter-categorize.md#tags)
 
-También puede elegir mostrar únicamente los elementos que ha creado o modificado.
+También puede elegir mostrar únicamente los elementos creados o modificados por usted.
 
 ![](assets/content-template-list-filters.png)
 
@@ -46,11 +47,11 @@ También puede elegir mostrar únicamente los elementos que ha creado o modifica
 
 ## Uso de carpetas para administrar plantillas de contenido {#folders}
 
-Para desplazarse fácilmente por las plantillas de contenido, puede utilizar carpetas para organizarlas de forma más eficaz en una jerarquía estructurada. Esto le permite clasificar y administrar los elementos según las necesidades de su organización.
+Para desplazarse fácilmente por las plantillas de contenido, utilice carpetas para organizarlas de forma más eficaz en una jerarquía estructurada. Esto le permite clasificar y administrar los elementos según las necesidades de su organización.
 
 ![](assets/content-template-folders.png)
 
-1. Haga clic en el botón **[!UICONTROL Todas las plantillas de contenido]** para mostrar todos los elementos creados anteriormente sin la agrupación de carpetas.
+1. Haga clic en el botón **[!UICONTROL Todas las plantillas de contenido]** para mostrar todos los elementos creados previamente sin la agrupación de carpetas.
 
 1. Haga clic en la carpeta **[!UICONTROL Root]** para mostrar todas las carpetas creadas.
 
@@ -74,7 +75,7 @@ Para desplazarse fácilmente por las plantillas de contenido, puede utilizar car
 
    ![](assets/content-template-folder-moved.png)
 
-1. Ahora puede desplazarse a la carpeta que acaba de crear. Cada nueva plantilla de contenido que [cree](create-content-templates.md) desde aquí se guardará en la carpeta actual.
+1. Vaya a la carpeta que acaba de crear. Cada nueva plantilla de contenido que [cree](create-content-templates.md) desde aquí se guardará en la carpeta actual.
 
    ![](assets/content-template-folder-create.png)
 
@@ -104,12 +105,13 @@ Seleccione el modo **[!UICONTROL Grid view]** para mostrar cada plantilla como u
 
 >[!NOTE]
 >
->Actualmente, solo se pueden generar las miniaturas adecuadas para plantillas de contenido de correo electrónico de tipo HTML.
+>Solo se pueden generar miniaturas adecuadas para las plantillas de contenido de correo electrónico de tipo HTML.
 
-Al actualizar un contenido, es posible que tenga que esperar unos segundos antes de que los cambios se reflejen en la miniatura.
+Cuando actualice el contenido, espere unos segundos a que los cambios se reflejen en la miniatura.
 
 ## Exportar plantillas de contenido a otra zona protegida {#export}
 
 Journey Optimizer permite copiar una plantilla de contenido de una zona protegida a otra. Por ejemplo, puede copiar una plantilla del entorno de zona protegida de ensayo en la zona protegida de producción.
 
 El proceso de copia se lleva a cabo mediante una **exportación e importación de paquetes** entre las zonas protegidas de origen y destino. Encontrará información detallada sobre cómo exportar objetos e importarlos en una zona protegida de destino en esta sección: [Copiar objetos en otra zona protegida](../configuration/copy-objects-to-sandbox.md)
+
