@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso de uso, multicanal, recorrido, eventos
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 0a96368f2aefa1ffa6e12d08d679b2d360701127
+source-git-commit: 938f0b0247cc4b9d3e05a234082db534acbbbac5
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ Utilice esta biblioteca como punto de referencia para diseñar recorridos, model
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="prácticas recomendadas de búsqueda de eventos de experience" src="../assets/do-not-localize/icon-configure.svg" /></a> 
+    <img alt="prácticas recomendadas de búsqueda de eventos de experience" src="../assets/do-not-localize/icon-content.svg" /></a> 
     <br>Conozca los patrones comunes y los enfoques escalables para ayudarle a sacar el máximo partido a los eventos de experiencia en Adobe Journey Optimizer. Estos casos de uso están diseñados para ayudarle a resolver los desafíos frecuentes, como administrar las exclusiones, controlar la frecuencia de los mensajes, personalizar el contenido en función del comportamiento del usuario y reaccionar a las señales en tiempo real.
     </div>
       <div>
@@ -47,7 +47,7 @@ Utilice esta biblioteca como punto de referencia para diseñar recorridos, model
   <td>
     <div>
     <a href="../data/datasets-query-examples.md">
-    <img alt="ejemplos de consultas" src="../assets/do-not-localize/icon-data.svg"/></a> 
+    <img alt="ejemplos de consultas" src="../assets/do-not-localize/icon-configure.svg"/></a> 
     <br>Para crear sus casos de uso, debe consultar los conjuntos de datos de Adobe Journey Optimizer, como los conjuntos de datos del sistema para la ingesta de eventos de experiencia de seguimiento, el conjunto de datos para la ingesta de eventos de paso en un recorrido, el conjunto de datos para la ingesta de propuestas de ofertas a los usuarios, y más.
     </div>
       <div>
