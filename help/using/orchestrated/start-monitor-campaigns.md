@@ -6,7 +6,7 @@ description: Obtenga información sobre cómo programar e iniciar campañas orqu
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 50386efbb639031bfc41a0aa67f4f3b49603f03a
+source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 12%
