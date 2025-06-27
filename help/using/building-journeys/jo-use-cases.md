@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso de uso, multicanal, recorrido, eventos
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 4a14c76aeceba624cd252890e37ccf3e42049597
+source-git-commit: 0a96368f2aefa1ffa6e12d08d679b2d360701127
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -47,7 +47,7 @@ Utilice esta biblioteca como punto de referencia para diseñar recorridos, model
   <td>
     <div>
     <a href="../data/datasets-query-examples.md">
-    <img alt="ejemplos de consultas" src="../assets/do-not-localize/icon-data.svg" width="35px" /></a> 
+    <img alt="ejemplos de consultas" src="../assets/do-not-localize/icon-data.svg"/></a> 
     <br>Para crear sus casos de uso, debe consultar los conjuntos de datos de Adobe Journey Optimizer, como los conjuntos de datos del sistema para la ingesta de eventos de experiencia de seguimiento, el conjunto de datos para la ingesta de eventos de paso en un recorrido, el conjunto de datos para la ingesta de propuestas de ofertas a los usuarios, y más.
     </div>
       <div>
