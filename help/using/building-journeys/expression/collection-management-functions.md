@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: consulta, colecciones, funciones, carga útil, recorrido
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: ca2e30ddb5e80783b57b9f3e0d07ff8d0bc0bbdb
+source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '481'
 ht-degree: 3%
 
 ---
@@ -148,15 +148,6 @@ Esta expresión devuelve el último token de notificación push asociado a aplic
 ```
 
 El resultado es `token_2`.
-
->[!NOTE]
->
->Los eventos de experiencia se recuperan de Adobe Experience Platform como una colección en orden cronológico inverso, por lo tanto:
->
->* **[!UICONTROL primera]** función devolverá el evento más reciente
->* **[!UICONTROL última]** función devolverá la más antigua.
-
-
 
 ## Función at(`<index>`)
 
