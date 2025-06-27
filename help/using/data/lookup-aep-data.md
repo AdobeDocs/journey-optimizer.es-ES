@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 4c78163cfc34937888cd323b461246f5955232bb
+source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '435'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,6 @@ Antes de empezar, revise las siguientes restricciones y directrices:
 * **Número de registros** está restringido a 5 millones en conjuntos de datos de producción y a 1 millones en conjuntos de datos de zonas protegidas de desarrollo.
 * **Etiquetado y aplicación del uso de datos** no se impone en este momento para los conjuntos de datos habilitados para la búsqueda.
 * **Los conjuntos de datos habilitados para la búsqueda y utilizados en la personalización no están protegidos de la eliminación**. Depende de usted realizar un seguimiento de qué conjuntos de datos se están utilizando para la personalización a fin de asegurarse de que no se eliminen ni se eliminen.
-* **Etiquetado y aplicación del uso de datos** no se impone en este momento para los conjuntos de datos habilitados para la búsqueda.
 
 ## Habilitar un conjunto de datos para la búsqueda de datos {#enable}
 
