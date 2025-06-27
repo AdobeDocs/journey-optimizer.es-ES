@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 2604fa59a8fa6393580180afa6da264319636e68
+source-git-commit: 185e4121a939f2b46b85865278a591c43ad01f27
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
@@ -82,9 +82,7 @@ Al agregar actividades, los botones de acción están disponibles en el panel de
 
 Varias actividades **Targeting**, como **Combine** o **Deduplication**, le permiten procesar la población restante e incluirla en una transición saliente adicional. Por ejemplo, si está usando una actividad **Split**, el complemento consiste en la población que no coincide con ninguno de los subconjuntos definidos anteriormente. Para usar esta capacidad, active la opción **[!UICONTROL Generar complemento]**.
 
-## Mover o copiar actividades {#move-copy}
-
-### Copiar y pegar actividades {#copy}
+## Copiar y pegar actividades {#copy}
 
 Puede copiar actividades y pegarlas en cualquier lienzo de campaña organizado. La campaña de destino puede estar en una pestaña diferente del explorador.
 
