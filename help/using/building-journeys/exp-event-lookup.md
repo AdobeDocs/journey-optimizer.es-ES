@@ -3,19 +3,19 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Búsqueda de eventos de experiencia en recorrido
 description: Aprenda a utilizar la búsqueda de eventos de experiencia en recorrido
-source-git-commit: 190d7d5fd5cb93a6ddf3757e00f42a9714a1f722
+exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
+source-git-commit: cee47accd4f5427f7e10015eba8b952d4e86daab
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '933'
 ht-degree: 3%
 
 ---
-
 
 # Búsqueda de eventos de experiencia en recorrido {#ee-journeys}
 
 >[!CAUTION]
 >
->A partir del 8 de julio, en las nuevas organizaciones de clientes, la creación de expresiones mediante eventos de experiencia dejará de ser compatible con el editor de expresiones utilizado en las condiciones de recorrido. Como resultado, no se pueden usar eventos de experiencia en la [fuente de datos de Experience Platform](../datasource/adobe-experience-platform-data-source.md) para crear expresiones. A continuación, se hace referencia a enfoques alternativos y prácticas recomendadas para crear expresiones/lógica con eventos de experiencia.
+>A partir del 8 de julio de 2025, en las nuevas organizaciones de clientes, la creación de expresiones mediante eventos de experiencia dejará de ser compatible con el editor de expresiones utilizado en las condiciones de recorrido. Como resultado, no se pueden usar eventos de experiencia en la [fuente de datos de Experience Platform](../datasource/adobe-experience-platform-data-source.md) para crear expresiones. A continuación, se hace referencia a enfoques alternativos y prácticas recomendadas para crear expresiones/lógica con eventos de experiencia.
 >
 >¿Necesita más detalles? [Lea las preguntas frecuentes](#faq-ee).
 
@@ -51,9 +51,9 @@ Para suprimir perfiles que han demostrado ciertos comportamientos, utilice audie
 
 Más información:
 
-* Adobe Experience Platform [Generador de segmentos - Eventos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [Generador de segmentos - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [Generador de segmentos - Restricciones de tiempo](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [Generador de segmentos - Restricciones de tiempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de audiencias en condiciones](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -70,9 +70,9 @@ Para evitar el envío de mensajes a perfiles que han recibido comunicaciones en 
 
 Más información sobre el uso de las audiencias:
 
-* Adobe Experience Platform [Generador de segmentos - Eventos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [Generador de segmentos - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [Generador de segmentos - Restricciones de tiempo](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [Generador de segmentos - Restricciones de tiempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de audiencias en condiciones](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -92,9 +92,9 @@ Para incluir o excluir perfiles en función de si han recibido un mensaje espec�
 
 Más información:
 
-* Adobe Experience Platform [Generador de segmentos - Eventos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [Generador de segmentos - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [Generador de segmentos - Restricciones de tiempo](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [Generador de segmentos - Restricciones de tiempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de audiencias en condiciones](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -104,8 +104,8 @@ Más información:
 
 Para personalizar las comunicaciones en función del carro de compras más reciente o examinar los eventos en varios tipos de carros de compras o vistas de productos:
 
-* Si tiene acceso a [Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/es/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configure consultas automatizadas para extraer los datos necesarios del evento, manipule el evento para que se ajuste al caso de uso y escríbalo de nuevo en un conjunto de datos con perfil habilitado para su activación.
-* Si los datos de abandono se pueden modelar en el perfil con atributos escalares, considere la posibilidad de utilizar atributos calculados para capturar la información más reciente y luego hacer referencia a estos atributos en el recorrido para construir la comunicación. [Obtenga más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Si tiene acceso a [Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configure consultas automatizadas para extraer los datos necesarios del evento, manipule el evento para que se ajuste al caso de uso y escríbalo de nuevo en un conjunto de datos con perfil habilitado para su activación.
+* Si los datos de abandono se pueden modelar en el perfil con atributos escalares, considere la posibilidad de utilizar atributos calculados para capturar la información más reciente y luego hacer referencia a estos atributos en el recorrido para construir la comunicación. [Obtenga más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## Salida de recorrido basada en el comportamiento
@@ -122,7 +122,7 @@ Para almacenar en déclencheur los recorridos según las compras y suprimir si e
 
 Más información:
 
-* Adobe Experience Platform [Descripción general de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Adobe Experience Platform [Descripción general de atributos calculados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
