@@ -12,7 +12,7 @@ exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
 source-wordcount: '995'
-ht-degree: 10%
+ht-degree: 21%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="Modo de ejecución en seco"
->abstract="Este recorrido está en Dry run. Recorrido Dry run es un modo especial de publicación de recorrido en Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar información de perfil.  Esta función ayuda a los profesionales del recorrido a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en directo."
+>title="Modo de simulación"
+>abstract="Este recorrido está en modo de simulación. La simulación del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil.  Esta función ayuda a los profesionales del recorrido a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en directo."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
->title="Publicación de un recorrido en modo de ejecución en seco"
->abstract="Recorrido Dry run es un modo especial de publicación de recorrido en Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales. Una vez que haya diseñado su recorrido, pruébelo para confirmar que es funcional y asegurarse de que los pasos sean correctos. Este modo de publicación le permite probar un recorrido sin enviar comunicaciones a los perfiles."
+>title="Publicación de un recorrido en modo de simulación"
+>abstract="La simulación del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales. Una vez que haya diseñado su recorrido, pruébelo para confirmar que es funcional y asegurarse de que los pasos sean correctos. Este modo de publicación le permite probar un recorrido sin enviar comunicaciones a los perfiles."
 
-Recorrido Dry run es un modo especial de publicación de recorrido en Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar información de perfil.  Esta función ayuda a los profesionales del recorrido a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en directo.
+La simulación del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil.  Esta función ayuda a los profesionales del recorrido a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en directo.
 
 
 >[!AVAILABILITY]

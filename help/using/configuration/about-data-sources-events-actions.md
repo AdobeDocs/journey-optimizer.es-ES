@@ -12,7 +12,7 @@ exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 34%
+ht-degree: 63%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
 >title="Acerca de la configuración de recorrido"
->abstract="Para enviar mensajes con recorridos, es necesario configurar las fuentes de datos, los eventos y las acciones. Las fuentes de datos permiten establecer una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos, como en las condiciones. Los eventos permiten activar los recorridos cuando se recibe un evento. Las acciones personalizadas facilitan la conexión a un sistema de terceros para enviar mensajes. Si utiliza las funciones de mensajería integradas de Journey Optimizer, no es necesario configurar una acción."
+>abstract="Para enviar mensajes con recorridos, debe configurar fuentes de datos, eventos y acciones. Las fuentes de datos permiten definir una conexión a un sistema para recuperar información adicional que se utilizará en los recorridos como, por ejemplo, en las condiciones. Los eventos permiten activar sus recorridos cuando se recibe un evento. Las acciones personalizadas permiten conectarse a un sistema de terceros para enviar sus mensajes. Si utiliza las funciones de mensajería integradas de Journey Optimizer, no es necesario configurar una acción."
 
-Para enviar mensajes con recorridos, es necesario configurar **[!UICONTROL Fuentes de datos]**, **[!UICONTROL Eventos]** y **[!UICONTROL Acciones]**. Las fuentes de datos permiten establecer una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos, como en las condiciones. Los eventos permiten activar los recorridos cuando se recibe un evento. Las acciones personalizadas facilitan la conexión a un sistema de terceros para enviar mensajes. Si utiliza las funciones de mensajería integradas de Journey Optimizer, no es necesario configurar una acción.
+Para enviar mensajes con recorridos, es necesario configurar **[!UICONTROL Fuentes de datos]**, **[!UICONTROL Eventos]** y **[!UICONTROL Acciones]**. Las fuentes de datos permiten definir una conexión a un sistema para recuperar información adicional que se utilizará en los recorridos como, por ejemplo, en las condiciones. Los eventos permiten activar sus recorridos cuando se recibe un evento. Las acciones personalizadas permiten conectarse a un sistema de terceros para enviar sus mensajes. Si utiliza las funciones de mensajería integradas de Journey Optimizer, no es necesario configurar una acción.
 
 
 ![](assets/admin-menu.png)

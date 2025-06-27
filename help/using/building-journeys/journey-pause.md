@@ -12,7 +12,7 @@ exl-id: a2892f0a-5407-497c-97af-927de81055ac
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
 source-wordcount: '2106'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
->title="Pausar el recorrido"
->abstract="Pausar un recorrido activo para evitar que entren nuevos perfiles. Elija si desea descartar los perfiles que están actualmente en la recorrido o mantenerlos en su lugar. Si se retienen, se reanudará la ejecución en la siguiente actividad de acción una vez que se reinicie el recorrido. Perfecto para actualizaciones o paradas de emergencia sin perder progreso."
+>title="Ponga en pausa su recorrido"
+>abstract="Ponga en pausa un recorrido activo para evitar que entren nuevos perfiles. Elija si desea descartar los perfiles que están actualmente en el recorrido o mantenerlos en su lugar. Si se conservan, se reanudará su ejecución en la siguiente actividad de acción una vez que se reinicie el recorrido. Es perfecto para actualizaciones o paradas de emergencia sin perder progreso."
 
 Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puede [aplicar filtros globales](#journey-global-filters) para excluir perfiles en función de sus atributos. El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
 
@@ -91,14 +91,14 @@ Cuando un recorrido está en pausa, la administración de perfiles y la ejecuci�
 | [Source de datos externos](../datasource/external-data-sources.md) | Mismo comportamiento que en un recorrido activo |
 | [Criterios de salida](journey-properties.md#exit-criteria) | Mismo comportamiento que en un recorrido activo |
 
-## Cómo reanudar un recorrido pausado {#journey-resume-steps}
+## Cómo reanudar un recorrido en pausa {#journey-resume-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_resume"
->title="Reanudar el recorrido"
->abstract="Reanude un recorrido pausado para permitir que los nuevos perfiles vuelvan a entrar. Si los perfiles estaban esperando durante la pausa, continuarán con su recorrido. Ideal para reiniciar los recorridos de forma segura después de actualizaciones o pausas."
+>title="Reanude su recorrido"
+>abstract="Reanude un recorrido en pausa para permitir que los nuevos perfiles vuelvan a entrar. Si los perfiles estaban esperando durante la pausa, continuarán con su recorrido. Es ideal para reiniciar los recorridos de forma segura después de actualizaciones o pausas."
 
-Los recorridos en pausa se reanudan automáticamente al final del período máximo de pausa de 14 días. Se pueden reanudar manualmente en cualquier momento. Reanudar un recorrido pausado permite que los nuevos perfiles vuelvan a entrar. Si los perfiles estaban esperando durante la pausa, continuarán con su recorrido. Ideal para reiniciar los recorridos de forma segura después de actualizaciones o pausas.
+Los recorridos en pausa se reanudan automáticamente al final del período máximo de pausa de 14 días. Se pueden reanudar manualmente en cualquier momento. Reanudar un recorrido pausado permite que los nuevos perfiles vuelvan a entrar. Si los perfiles estaban esperando durante la pausa, continuarán con su recorrido. Es ideal para reiniciar los recorridos de forma segura después de actualizaciones o pausas.
 
 Para reanudar un recorrido en pausa y comenzar a escuchar eventos de recorrido de nuevo, siga estos pasos:
 
