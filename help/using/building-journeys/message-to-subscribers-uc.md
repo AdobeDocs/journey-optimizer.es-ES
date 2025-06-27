@@ -9,14 +9,14 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: recorrido, caso de uso, mensaje, suscriptores, lista, lectura
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '329'
 ht-degree: 17%
 
 ---
 
-# Caso de uso: Envío de un mensaje a los suscriptores de una lista{#send-a-message-to-the-subscribers-of-a-list}
+# Envío de un mensaje a los suscriptores de una lista {#send-a-message-to-the-subscribers-of-a-list}
 
 El propósito de este caso de uso es crear un recorrido para enviar un mensaje a los suscriptores de una lista.
 

@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 4%
 
 ---
 
-# Caso de uso: Uso de acciones personalizadas para escribir eventos de Recorrido en Experience Platform {#custom-action-aep}
+# Utilice acciones personalizadas para escribir los eventos de recorrido en Experience Platform {#custom-action-aep}
 
 En este caso de uso se explica cómo escribir eventos personalizados en Adobe Experience Platform desde Recorridos mediante acciones personalizadas y llamadas autenticadas.
 
-## Configuración de un proyecto de IO {#custom-action-aep-IO}
+## Configuración de un proyecto de desarrollador {#custom-action-aep-IO}
 
 1. En Adobe Developer Console, haga clic en **Proyecto** y abra su proyecto de E/S.
 
@@ -39,9 +39,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Después de crear el proyecto en Adobe Developer Console, asegúrese de otorgar al desarrollador y al control de acceso de la API los permisos adecuados. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Después de crear el proyecto en Adobe Developer Console, asegúrese de otorgar al desarrollador y al control de acceso de la API los permisos adecuados. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
-## Configuración de Source mediante la entrada de API HTTP
+## Configurar el origen mediante la entrada de la API HTTP
 
 1. Cree un extremo en Adobe Experience Platform para escribir los datos de los recorridos.
 
@@ -94,7 +94,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 }
 ```
 
-## Configuración de la acción personalizada {#custom-action-config}
+## Configurar la acción personalizada {#custom-action-config}
 
 La configuración de acciones personalizadas se detalla en [esta página](../action/about-custom-action-configuration.md).
 
@@ -110,7 +110,7 @@ Para este ejemplo, siga estos pasos:
 
    ![](assets/custom-action-aep-7bis.png)
 
-### Configurar la autenticación {#custom-action-aep-authentication}
+### Configuración de la autenticación {#custom-action-aep-authentication}
 
 1. Seleccione **Type** como **Custom** con la siguiente carga útil.
 
@@ -175,7 +175,7 @@ Para este ejemplo, siga estos pasos:
 
 1. Guarde la acción personalizada.
 
-## Recorrido 
+##  Recorrido 
 
 1. Finalmente, utilice esta acción personalizada en un recorrido para escribir los eventos de recorrido personalizados.
 
