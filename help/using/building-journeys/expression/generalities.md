@@ -8,16 +8,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: sintaxis, editor, recorrido
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '249'
 ht-degree: 5%
 
 ---
 
 # Sintaxis avanzada del editor de expresiones {#syntax}
 
-A continuación se enumeran los conceptos básicos de sintaxis al usar el [Editor de expresiones avanzadas](expressionadvanced.md). Hay ejemplos de uso del editor de expresiones avanzadas disponibles en [esta página](advanced-editor-use-cases.md).
+A continuación se enumeran los conceptos básicos de sintaxis al usar el [Editor de expresiones avanzadas](expressionadvanced.md). <!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
 
 ## Paréntesis y prioridad de expresión {#parentheses-and-expression-priority}
 

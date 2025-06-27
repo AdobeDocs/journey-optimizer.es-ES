@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '285'
 ht-degree: 20%
 
 ---
@@ -31,12 +31,12 @@ Actualmente, [!DNL Journey Optimizer] proporciona las dos soluciones principales
 
 Nuestro marco de decisión de próxima generación, diseñado para unificar los flujos de trabajo de Journey Optimizer existentes y sentar las bases para administrar catálogos de contenido adicionales. Ofertas de Decisioning:
 
-* Administración del catálogo de artículos basado en esquemas: aumente la flexibilidad asociando metadatos personalizados con cada oferta.
-* Reglas de recopilación flexibles: agrupe fácilmente ofertas para una evaluación futura basada en varios criterios.
-* Configuración actualizada de la política de decisión y la estrategia de selección: Permitir la reutilización de componentes de decisión.
-* Funcionalidades de experimentación: pruebe la lógica de decisión con otros componentes de contenido para medir el rendimiento.
+* Administración del catálogo de artículos basado en esquemas: aumente la flexibilidad asociando metadatos personalizados con cada oferta
+* Reglas de recopilación flexibles: agrupe fácilmente ofertas para evaluaciones futuras basadas en varios criterios
+* Configuración actualizada de la política de decisión y la estrategia de selección: Permitir la reutilización de componentes de decisión
+* Funcionalidades de experimentación: pruebe la lógica de decisión con otros componentes de contenido para medir el rendimiento
 
-Por ahora, Experience Decisioning es compatible con el canal de experiencia basado en código.
+Experience Decisioning es compatible con el canal de experiencia basado en código.
 
 ➡️ [Introducción a la toma de decisiones](../experience-decisioning/gs-experience-decisioning.md)
 

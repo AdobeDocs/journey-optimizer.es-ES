@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: editor de expresiones, datos, recorrido
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: b69023669b6ca59ea5980b1a671a90c41eb665fb
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 57%
+source-wordcount: '711'
+ht-degree: 55%
 
 ---
 
@@ -29,7 +29,7 @@ También está disponible cada vez que necesite definir parámetros de acción q
 ![](../assets/journey65.png)
 
 
-El editor de expresiones avanzadas oferta un conjunto de funciones y operadores integrados que le permiten manipular valores, y definir una expresión que se ajuste específicamente a sus necesidades. El editor de expresiones avanzadas también permite definir los valores del parámetro de fuente de datos externo, y manipular los campos y colecciones de mapas, como los eventos de experiencia.
+El editor de expresiones avanzadas oferta un conjunto de funciones y operadores integrados que le permiten manipular valores, y definir una expresión que se ajuste específicamente a sus necesidades. El editor de expresiones avanzadas también permite definir los valores del parámetro de fuente de datos externo, y manipular los campos y colecciones de mapas.
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ En la parte izquierda de la pantalla se muestran los campos y las funciones disp
 
   >[!CAUTION]
   >
-  >Se admite el uso de eventos de experiencia en expresiones/condiciones de recorrido, pero no se recomienda. Si su caso de uso requiere el uso de eventos de experiencia, considere métodos alternativos como [atributos calculados](../../audience/computed-attributes.md) o la creación de un segmento utilizando los eventos e incorporando ese segmento en [`inAudience` expresiones](../../building-journeys/functions/functioninaudience.md).
+  >No se admite la creación de expresiones mediante eventos de experiencia. Se hace referencia a enfoques alternativos y prácticas recomendadas para crear expresiones/lógica con eventos de experiencia [aquí](../../building-journeys/exp-event-lookup.md)
 
 * **[!UICONTROL Audiencias]**: si ha eliminado un evento de **[!UICONTROL calificación de audiencias]**, elija la audiencia que desee utilizar en la expresión. [Más información](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Fuentes de datos]**: elija entre la lista de campos disponibles en los grupos de campos de las fuentes de datos. [Más información](../../datasource/about-data-sources.md)

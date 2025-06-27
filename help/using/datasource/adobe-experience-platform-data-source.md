@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: integrado, fuente, datos, plataforma, integración
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: f5ea4455fc0a8ed9e2819a260a8691fc1237844c
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 31%
+source-wordcount: '412'
+ht-degree: 26%
 
 ---
 
@@ -21,17 +21,19 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Fuente de datos de Adobe Experience Platform"
->abstract="La fuente de datos de Adobe Experience Platform define la conexión con el perfil del cliente en tiempo real de Adobe. Esta fuente de datos está integrada y preconfigurada, y no se puede eliminar. Se ha diseñado para recuperar y utilizar datos del servicio del perfil del cliente en tiempo real; por ejemplo, comprobar si la persona que ha introducido un recorrido es una mujer. Permite utilizar información del perfil y datos de los eventos de experiencia."
+>abstract="La fuente de datos de Adobe Experience Platform define la conexión con el perfil del cliente en tiempo real de Adobe. Esta fuente de datos está integrada y preconfigurada, y no se puede eliminar. Se ha diseñado para recuperar y utilizar datos del servicio del perfil del cliente en tiempo real; por ejemplo, comprobar si la persona que ha introducido un recorrido es una mujer. Le permite utilizar datos del perfil."
 
-La fuente de datos de Adobe Experience Platform define la conexión con el perfil del cliente en tiempo real de Adobe. Esta fuente de datos está integrada y preconfigurada, y no se puede eliminar. Esta fuente de datos está diseñada para recuperar y utilizar datos del servicio Perfil del cliente en tiempo real (por ejemplo, comprobar si la persona que ha introducido un recorrido es una mujer). Permite utilizar información del perfil y datos de los eventos de experiencia. Para obtener más información sobre el perfil del cliente en tiempo real de Adobe, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
+La fuente de datos de Adobe Experience Platform define la conexión con el perfil del cliente en tiempo real de Adobe. Esta fuente de datos está integrada y preconfigurada, y no se puede eliminar. Esta fuente de datos está diseñada para recuperar y utilizar datos del servicio Perfil del cliente en tiempo real (por ejemplo, comprobar si la persona que ha introducido un recorrido es una mujer). Le permite utilizar datos del perfil. Para obtener más información sobre el perfil del cliente en tiempo real de Adobe, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
 
 Para permitir la conexión al servicio Perfil del cliente en tiempo real, debemos utilizar una clave para identificar a una persona y un área de nombres que contextualice la clave. Como resultado, solo puede utilizar este origen de datos si los recorridos comienzan con un evento que contiene una clave y un área de nombres. [Más información](../building-journeys/journey.md).
 
 Puede editar el grupo de campos preconfigurado denominado &quot;ProfileFieldGroup&quot;, añadir otros nuevos y eliminar los que no se utilizan en ningún recorrido en borrador o activo. [Más información](../datasource/configure-data-sources.md#define-field-groups).
 
->[!NOTE]
+
+>[!CAUTION]
 >
->Puede recuperar los 1000 eventos de experiencia más recientes creados hace menos de un año.
+>No se admite el uso de eventos de experiencia en expresiones/condiciones de recorrido. Si su caso de uso requiere el uso de eventos de experiencia, considere métodos alternativos. [Más información](../building-journeys/exp-event-lookup.md)
+
 
 A continuación se detallan los pasos principales para agregar grupos de campos a la fuente de datos integrada:
 
@@ -45,7 +47,7 @@ A continuación se detallan los pasos principales para agregar grupos de campos 
 
    ![](assets/journey24.png)
 
-1. Seleccione un esquema de la lista desplegable **[!UICONTROL Esquema]**. Este campo lista los esquemas **Perfil** y **Eventos de experiencia** disponibles en Adobe Experience Platform. La creación de esquemas se realiza en Adobe Experience Platform, no en Adobe Journey Optimizer.
+1. Seleccione un esquema de la lista desplegable **[!UICONTROL Esquema]**. La creación de esquemas se realiza en Adobe Experience Platform, no en Adobe Journey Optimizer.
 1. Seleccione los campos que desea utilizar y guarde los cambios.
 
 

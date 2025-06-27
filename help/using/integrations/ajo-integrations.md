@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 62%
+source-wordcount: '956'
+ht-degree: 68%
 
 ---
 
@@ -20,7 +20,7 @@ Con Adobe Journey Optimizer puede administrar, conservar y exportar fácilmente 
 
 >[!NOTE]
 >
-> Compilado en Adobe Experience Platform, Adobe Journey Optimizer está conectado de forma nativa a [Adobe Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}. Esta fuente de datos integrada está preconfigurada y diseñada para recuperar y utilizar datos del perfil del cliente en tiempo real (por ejemplo, comprobar si la persona que ha introducido un recorrido es cliente o no). Permite utilizar información del perfil y datos de los eventos de experiencia. [Más información](../datasource/adobe-experience-platform-data-source.md).
+> Compilado en Adobe Experience Platform, Adobe Journey Optimizer está conectado de forma nativa a [Adobe Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}. Esta fuente de datos integrada está preconfigurada y diseñada para recuperar y utilizar datos del perfil del cliente en tiempo real (por ejemplo, comprobar si la persona que ha introducido un recorrido es cliente o no). Le permite utilizar datos del perfil. [Más información](../datasource/adobe-experience-platform-data-source.md).
 
 
 ## Adobe Customer Journey Analytics {#integration-cja}
@@ -86,7 +86,7 @@ Obtenga más información acerca de [Journey Optimizer + Stock](../integrations/
 
 ## Adobe Express {#express}
 
-La integración de Adobe Express en Adobe Journey Optimizer le permite acceder fácilmente a las potentes herramientas de edición de Adobe Express a la hora de crear contenido. Esta integración le permite cambiar el tamaño de las imágenes, eliminar fondos, recortar elementos visuales y convertir recursos a JPEG o PNG sin necesidad de cambiar entre soluciones.
+La integración de Adobe Express en Adobe Journey Optimizer le permite acceder fácilmente a las potentes herramientas de edición de Adobe Express a la hora de crear contenido. Esta integración le permite cambiar el tamaño de las imágenes, quitar fondos, recortar elementos visuales y convertir recursos a JPEG o PNG sin necesidad de cambiar entre soluciones.
 
 Más información sobre [Journey Optimizer + Adobe Express](../integrations/express.md).
 
@@ -121,7 +121,7 @@ Más información sobre [Journey Optimizer + Campaign Standard](../building-jour
 
 Utilice los módulos de Adobe Journey Optimizer en Adobe Workfront para crear, leer, actualizar o eliminar registros, o realizar una llamada de API personalizada a la API de Adobe Journey Optimizer.
 
-Una descripción general del paso clave de esta integración está disponible [en esta publicación de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=es){target="_blank"}.
+Una descripción general del paso clave de esta integración está disponible [en esta publicación de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Obtenga más información acerca de Journey Optimizer + Adobe Workfront [en la documentación de Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=es){target="_blank"}.
 

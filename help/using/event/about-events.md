@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: eventos, evento, recorrido, definición, inicio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: e4ea791dbc4362bff1d822f0b36add829e7a259d
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 45%
+source-wordcount: '1079'
+ht-degree: 43%
 
 ---
 
@@ -61,7 +61,7 @@ Para los eventos **unitarios**, existen dos tipos de ID de evento:
 
 >[!NOTE]
 >
->Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos consumidos por lotes o los eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se pueden utilizar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en esos eventos y use la actividad **Leer público** en su lugar. Técnicamente, la calificación de audiencias puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas. Estos datos no necesariamente tienen que ir al perfil en tiempo real. Si desea utilizar los eventos para la segmentación o la búsqueda en un recorrido independiente, le recomendamos que habilite el conjunto de datos para el perfil.
+>Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos consumidos por lotes o los eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se pueden utilizar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en esos eventos y use la actividad **Leer público** en su lugar. Técnicamente, la calificación de audiencias puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas. Estos datos no necesariamente tienen que ir al perfil en tiempo real. Si desea utilizar los eventos para la segmentación, le recomendamos que habilite el conjunto de datos para el perfil.
 
 ## Ciclo de datos {#data-cycle}
 
@@ -83,8 +83,8 @@ No se puede eliminar ningún evento utilizado en recorridos activos, en borrador
 
 Aprenda a configurar un evento y a especificar su punto final de reproducción y la carga útil.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431518?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprenda los casos de uso aplicables a los eventos empresariales. Obtenga información sobre cómo crear un recorrido mediante un evento empresarial y las prácticas recomendadas que se deben aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416328?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

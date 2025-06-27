@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 23%
+source-wordcount: '516'
+ht-degree: 25%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 23%
 
 Decisioning simplifica la personalización al ofrecer un catálogo centralizado de ofertas de marketing conocidas como “elementos de decisión” y un motor de decisión sofisticado. Este motor aprovecha las reglas y los criterios de clasificación para seleccionar y presentar a cada persona los elementos de decisión más relevantes.
 
-Estos elementos de decisión se integran a la perfección en una amplia gama de superficies de entrada a través del [nuevo canal de experiencia basado en código](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/code-based-experience/get-started-code-based), ahora accesible desde las campañas de Journey Optimizer.
+Estos elementos de decisión se integran perfectamente en una amplia gama de superficies de entrada a través del [nuevo canal de experiencia basado en código](../code-based/get-started-code-based.md), al que se puede acceder desde las campañas de Journey Optimizer.
 
 >[!IMPORTANT]
 >
@@ -56,15 +56,15 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
    El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 
-   +++
++++
 
 1. **Configurar atributos personalizados**: adapte el catálogo de artículos a sus necesidades específicas configurando atributos personalizados en el esquema del catálogo.
 
-   ➡️ [Obtenga información sobre cómo configurar el catálogo de artículos](catalogs.md)
+   ➡️ [Aprenda a configurar el catálogo de artículos](catalogs.md)
 
 1. **Cree elementos de decisión** para mostrarlos a la audiencia de destino.
 
-   ➡️ [Obtenga información sobre cómo crear elementos de decisión](items.md) en la interfaz de usuario (y en la [documentación de API](api-reference/decisions-items/create.md))
+   ➡️ [Aprenda a crear elementos de decisión](items.md) en la interfaz de usuario (y en la [documentación de API](api-reference/decisions-items/create.md))
 
 1. **Organizar con colecciones**: Use colecciones para categorizar los elementos de decisión según las reglas basadas en atributos. Incorpore colecciones en las estrategias de selección para determinar qué colección de elementos de decisión se debe tener en cuenta.
 
@@ -87,4 +87,3 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
    ➡️ [Aprenda a trabajar con directivas de decisión](create-decision.md)
 ➡️ Para entregar correctamente la oferta a través del canal de experiencia basado en código, siga los pasos de implementación de [esta sección](../code-based/code-based-implementation-samples.md).
 
-En [esta sección](experience-decisioning-uc.md) se presenta un caso de uso completo de extremo a extremo que muestra cómo usar decisiones en una experiencia basada en código.

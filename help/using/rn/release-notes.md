@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3282f2f5b6fa4eacafc4b017ea0ca713b90cab82
+source-git-commit: ec2cccb651360ec796610781affcedca96d66af4
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 72%
+source-wordcount: '1278'
+ht-degree: 66%
 
 ---
 
@@ -23,6 +23,17 @@ ht-degree: 72%
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión. [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
 
+## Últimas actualizaciones {#latest-updates}
+
+### Cambio en las condiciones de recorrido {#ee-change@}
+
+A partir del 8 de julio, en las nuevas organizaciones de clientes, la creación de expresiones mediante eventos de experiencia dejará de ser compatible con el editor de expresiones utilizado en las condiciones de recorrido. Como resultado, no se pueden usar eventos de experiencia en la [fuente de datos de Experience Platform](../datasource/adobe-experience-platform-data-source.md) para crear expresiones. Se hace referencia a enfoques alternativos y prácticas recomendadas para crear expresiones/lógica con eventos de experiencia [aquí](../building-journeys/exp-event-lookup.md).
+
+No hay cambios en la forma en que se accede a los datos de evento de contexto de recorrido en los recorridos unitarios. En los editores de expresiones y personalización, los usuarios pueden seguir accediendo a los datos pasados con el evento de recorrido inicial.
+
+Más información [en estas preguntas frecuentes](../building-journeys/exp-event-lookup.md#faq-ee).
+
+
 ## Notas de la versión de junio de 2025 {#25-6-rn}
 
 <!--
@@ -30,7 +41,7 @@ ht-degree: 72%
 
 **Fecha de lanzamiento**: 18 de junio de 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuevas funciones {#25-06-features}
 
