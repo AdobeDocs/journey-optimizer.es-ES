@@ -6,10 +6,10 @@ description: 'Aprenda a trabajar con los canales de comunicación de  [!DNL Adob
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: f365a5819575990b92ca589557d37c3f274bd4d7
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 96%
+source-wordcount: '418'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 En el panorama de marketing dinámico de hoy en día, llegar de forma eficaz a su público en varias plataformas es esencial para crear relaciones duraderas e impulsar la participación. En esta sección se ofrece información general completa sobre los canales de comunicación disponibles en [!DNL Adobe Journey Optimizer], lo que le ayuda a comprender cómo utilizar cada canal de forma eficaz en sus estrategias de marketing.
 
-Adobe Journey Optimizer ofrece una variedad de canales nativos para interactuar eficazmente con su público. Puede combinar el envío de mensajes de salida y las experiencias de entrada.
+Adobe Journey Optimizer ofrece una variedad de canales nativos para interactuar eficazmente con su público. Puede combinar la entrega de mensajes salientes y las experiencias entrantes.
 
 ## Canales de salida para el envío de mensajes {#outbound-channels}
 
@@ -41,16 +41,16 @@ Seleccione un canal para profundizar y descubrir cómo aprovecharlo de forma efi
 <div align="center"><a href="../direct-mail/get-started-direct-mail.md"><strong>Correo directo</strong></a></div></td>
 </tr></table>
 
-## Experiencias de entrada {#inbound-channels}
+## Experiencias web y de aplicación móvil {#inbound-channels}
 
-Con las experiencias de entrada, los clientes inician las interacciones. Algunos ejemplos son la mensajería in-app y las interacciones basadas en la web, en las que los usuarios pueden interactuar con el contenido según sus propios términos. En [!DNL Adobe Journey Optimizer], los canales de entrada admitidos son los siguientes:
+Con las experiencias entrantes de aplicaciones móviles y web, los clientes inician interacciones. Algunos ejemplos son la mensajería en la aplicación y las experiencias basadas en la web, en las que los usuarios interactúan con el contenido según sus propios términos. En [!DNL Adobe Journey Optimizer], los canales de entrada admitidos son los siguientes:
 
 * **En la aplicación**: comuníquese con los usuarios de sus aplicaciones móviles o web para mejorar su experiencia.
 * **Web**: utilice la mensajería basada en la web para interactuar con los usuarios que exploran su sitio.
 * **Experiencia basada en código**: implemente experiencias personalizadas mediante la codificación para obtener oportunidades de participación únicas.
 * **Tarjetas de contenido**: comparta contenido dinámico directamente dentro de sus aplicaciones o sitios web para mantener a los usuarios informados y comprometidos.
 
-Seleccione un canal para profundizar y descubrir cómo aprovecharlo de forma eficaz en su estrategia de marketing.
+Seleccione un canal para profundizar y descubrir cómo aprovechar estos canales de forma eficaz en su estrategia de marketing.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../in-app/get-started-in-app.md"><img alt="En la aplicación" src="assets/do-not-localize/inapp.jpg"></a>
@@ -70,5 +70,4 @@ En Adobe Journey Optimizer, puede aprovechar los canales de comunicación en dos
 
 * **Recorridos**: cree experiencias de cliente sin problemas en varios puntos de contacto. Automatice las interacciones en función del comportamiento y las preferencias del usuario, lo que garantiza comunicaciones oportunas y relevantes que guíen a los usuarios a través del recorrido con su marca. [Aprenda a crear y ejecutar un recorrido](../building-journeys/journey-gs.md).
 
-* **Campañas**: implemente campañas de marketing específicas que utilicen un canal determinado para alcanzar los objetivos fijados. Tanto si promociona un nuevo producto como si impulsa ventas estacionales, las campañas le permiten crear estrategias de mensajería centradas y adaptadas a su público. [Aprenda a crear y ejecutar una campaña](../campaigns/get-started-with-campaigns.md).
-
+* **Campañas**: implementa campañas de marketing específicas que utilizan un canal determinado para lograr objetivos específicos. Tanto si promociona un nuevo producto como si impulsa ventas estacionales, las campañas le permiten crear estrategias de mensajería centradas y adaptadas a su público. [Aprenda a crear y ejecutar una campaña](../campaigns/get-started-with-campaigns.md).
