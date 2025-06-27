@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso de uso, multicanal, recorrido, eventos
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: a94d579086f8ab78e611b15d993bb8f12673ea36
+source-git-commit: 06d25d9344588d668304bbf5d6d3c2e7cd6659ef
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ Utilice esta biblioteca como punto de referencia para diseñar recorridos, model
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="prácticas recomendadas de búsqueda de eventos de experience" src="../assets/do-not-localize/icon-configure.svg" /></a> 
+    <img alt="prácticas recomendadas de búsqueda de eventos de experience" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
     <br>Conozca los patrones comunes y los enfoques escalables para ayudarle a sacar el máximo partido a los eventos de experiencia en Adobe Journey Optimizer. Estos casos de uso están diseñados para ayudarle a resolver los desafíos frecuentes, como administrar las exclusiones, controlar la frecuencia de los mensajes, personalizar el contenido en función del comportamiento del usuario y reaccionar a las señales en tiempo real.
     </div>
       <div>
@@ -92,7 +92,7 @@ Utilice esta biblioteca como punto de referencia para diseñar recorridos, model
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="collections.md">
-<img alt="Paso de colecciones de forma dinámica mediante acciones personalizadas" src="../assets/do-not-localize/icon-quick-start.svg">
+<img alt="Paso de colecciones de forma dinámica mediante acciones personalizadas" src="../assets/do-not-localize/icon-configure.svg">
 </a>
 <div>
 <a href="collections.md"><strong>Pasar colecciones dinámicamente con acciones personalizadas</strong></a>
