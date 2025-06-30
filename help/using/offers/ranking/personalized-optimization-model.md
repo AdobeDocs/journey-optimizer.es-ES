@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: Modelo de optimización personalizado
 description: Más información sobre los modelos de optimización personalizados
+badge: label="Heredado" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 9188b144d1f98f57c585c3828420b9cd48d1d90a
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '807'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 ## Información general {#overview}
 
-Al aprovechar las tecnologías de vanguardia en aprendizaje automático supervisado y aprendizaje profundo, la optimización personalizada permite a un usuario empresarial (experto en marketing) definir los objetivos comerciales y utiliza los datos de sus clientes para formar modelos orientados a la empresa que proporcionen ofertas personalizadas y maximicen los KPI.
+Al aprovechar las tecnologías de vanguardia en cuanto a aprendizaje automático supervisado y aprendizaje profundo, la optimización personalizada permite a un usuario empresarial (experto en marketing) definir objetivos comerciales y utiliza los datos de sus clientes para entrenar modelos orientados a la empresa que proporcionen ofertas personalizadas y maximicen los KPI.
 
 ![](../../rn/assets/do-not-localize/ai-ranking.gif)
 
@@ -41,7 +42,7 @@ Existen tres tipos de funciones:
 |--------------|----------------------------|
 | Objetos de toma de decisiones (placementID, activityID, decisionScopeID) | Parte de los comentarios de gestión de decisiones Eventos de experiencia enviados a AEP |
 | Públicos | Se pueden añadir de 0 a 50 audiencias como funciones al crear el modelo de inteligencia artificial aplicada a la clasificación |
-| Datos de contexto | Parte de los comentarios y eventos de experiencia de toma de decisiones enviados a AEP. Datos de contexto disponibles para agregar al esquema: detalles de Commerce, detalles de canal, detalles de aplicación, detalles web, detalles de entorno, detalles de dispositivo, placeContext. |
+| Datos de contexto | Parte de los comentarios y eventos de experiencia de decisiones enviados a AEP. Datos de contexto disponibles para agregar al esquema: detalles de Commerce, detalles de canal, detalles de aplicación, detalles web, detalles de entorno, detalles de dispositivo, placeContext. |
 
 El modelo tiene dos fases:
 

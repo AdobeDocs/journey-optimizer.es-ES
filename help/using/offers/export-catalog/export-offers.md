@@ -1,14 +1,15 @@
 ---
 title: Conjunto de datos de ofertas personalizadas
 description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para ofertas
+badge: label="Heredado" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -122,7 +123,6 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
      **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Idioma**
-
      **Campo:** idioma
      **Título:** Idioma
      **Descripción:** Idioma o idiomas del recurso. \nLos idiomas se especifican en el código de idioma tal como se definen en [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que forma parte de BCP 47, que se usa en otras partes de XDM.

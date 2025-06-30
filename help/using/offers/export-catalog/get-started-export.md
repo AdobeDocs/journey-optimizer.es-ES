@@ -1,15 +1,16 @@
 ---
 title: Introducción a la exportación del catálogo de ofertas
 description: Obtenga información sobre cómo exportar el catálogo de ofertas como un conjunto de datos
+badge: label="Heredado" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 91584f394d956df4b69a885feacc40435360dae3
-workflow-type: ht
-source-wordcount: '114'
-ht-degree: 100%
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 99%
 
 ---
 

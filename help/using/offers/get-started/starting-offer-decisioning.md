@@ -1,19 +1,24 @@
 ---
 title: Introducción a la gestión de decisiones
 description: Descubra cómo Adobe Journey Optimizer puede ayudarle a enviar a sus clientes la oferta correcta en el momento adecuado
+badge: label="Heredado" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '896'
-ht-degree: 100%
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
+source-wordcount: '911'
+ht-degree: 93%
 
 ---
 
 # Introducción a la gestión de decisiones {#about-decision-management}
+
+>[!TIP]
+>
+>La nueva capacidad de toma de decisiones de [!DNL Adobe Journey Optimizer] ya está disponible a través del canal de experiencia basado en código. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
 
 Utilice [!DNL Journey Optimizer] para ofrecer la mejor oferta y experiencia a sus clientes en todos los puntos de contacto y en el momento adecuado. Una vez diseñados, los públicos se segmentarán con ofertas personalizadas.
 
@@ -32,17 +37,17 @@ Los beneficios incluyen:
 * Flujos de trabajo mejorados: En lugar de crear varios envíos o campañas, los equipos de marketing pueden mejorar los flujos de trabajo creando un único envío y variar las ofertas en diferentes partes de la plantilla,
 * Controle la cantidad de veces que se muestra una oferta entre campañas y clientes.
 
-➡️ [Obtenga más información sobre la gestión de decisiones en estos vídeos](#video)
+➡️ [Obtenga más información acerca de Administración de decisiones en estos vídeos](#video)
 
 >[!NOTE]
 >
->Si es un usuario de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target="_blank"} que aprovecha la aplicación **Offer Decisioning**, también se le aplican todas las funciones de gestión de decisiones que se describen en esta sección.
+>Si es un usuario de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target="_blank"} que aprovecha la aplicación **Offer Decisioning**, también se le aplican todas las características de Administración de decisiones descritas en esta sección.
 
 ## Acerca de las ofertas y las decisiones {#about-offers-and-decisions}
 
-Una **oferta** está formada por contenido, reglas de idoneidad y restricciones que definen las condiciones en las que se presenta a sus clientes.
+Una **oferta** está formada por contenido, reglas de elegibilidad y restricciones que definen las condiciones en las que se presenta a sus clientes.
 
-Se crea mediante la **Biblioteca de ofertas**, que proporciona un catálogo de ofertas central donde puede asociar reglas de idoneidad y restricciones con varios fragmentos de contenido para crear y publicar ofertas (consulte la [interfaz de usuario de la Biblioteca de ofertas](../get-started/user-interface.md)).
+Se crea mediante la **Biblioteca de ofertas**, que proporciona un catálogo de ofertas central donde puede asociar reglas de elegibilidad y restricciones con varios fragmentos de contenido para crear y publicar ofertas (consulte la [interfaz de usuario de la Biblioteca de ofertas](../get-started/user-interface.md)).
 
 ![](../assets/offer_structure.png)
 
@@ -58,7 +63,7 @@ Las funciones y la integración de Gestión de decisiones con Adobe Experience P
 
   ![](../assets/website.png)
 
-* Si los clientes se acercan a una de las tiendas, envíeles notificaciones push recordándoles las ofertas disponibles según sus atributos (nivel de lealtad, sexo, compras anteriores...).
+* Si los clientes se acercan a una de las tiendas, envíeles notificaciones push recordándoles las ofertas disponibles según sus atributos (nivel de lealtad, género, compras anteriores...).
 
   ![](../assets/push_sample.png)
 
@@ -96,7 +101,7 @@ A continuación, se muestra la lista de los conceptos principales con los que tr
 
 * **Biblioteca de ofertas**: La biblioteca de ofertas es una biblioteca central que se utiliza para administrar ofertas de reserva y personalizadas, reglas de decisión y decisiones.
 
-* **Ofertas personalizadas**: una oferta personalizada es un mensaje de marketing personalizable basado en reglas de idoneidad y restricciones.
+* **Ofertas personalizadas**: una oferta personalizada es un mensaje de marketing personalizable basado en reglas de elegibilidad y restricciones.
 
 * **Ubicaciones**: una ubicación es la ubicación o el contexto en el que aparece una oferta para un usuario final.
 
@@ -110,12 +115,12 @@ A continuación, se muestra la lista de los conceptos principales con los que tr
 
 El siguiente vídeo proporciona una introducción a las funciones clave, la arquitectura y los casos de uso de Gestión de decisiones:
 
->[!VIDEO](https://video.tv.adobe.com/v/340419?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Definición y administración de ofertas {#use-offer-decisioning}
 
 El siguiente vídeo muestra cómo utilizar Gestión de decisiones para definir y administrar sus ofertas, así como para aprovechar los datos de clientes en tiempo real.
 
->[!VIDEO](https://video.tv.adobe.com/v/340359?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

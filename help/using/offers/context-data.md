@@ -3,16 +3,17 @@ product: experience platform
 solution: Experience Platform
 title: Introducción a los datos de contexto
 description: Aprenda a aprovechar los datos de contexto en la administración de decisiones.
+badge: label="Heredado" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 4%
 
 ---
-
 
 # Introducción a los datos de contexto {#context-data}
 
@@ -29,4 +30,3 @@ Para obtener información detallada sobre cómo utilizar los datos de contexto e
 
 * [Uso de datos de contexto en solicitudes de Edge Decisioning](context-data-edge.md)
 * [Uso de datos de contexto en solicitudes de Decisioning](context-data-decisioning.md)
-

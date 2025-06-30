@@ -1,12 +1,13 @@
 ---
 title: Crear calificadores de colección
 description: Obtenga información sobre cómo crear calificadores de colección para sus ofertas
+badge: label="Heredado" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 23%
@@ -24,7 +25,7 @@ La asociación de calificadores de colección (anteriormente conocidos como &quo
 
 Los calificadores de colección también se pueden utilizar para agrupar ofertas en colecciones de ofertas. Consulte [Crear colecciones](../offer-library/creating-collections.md).
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 Se puede acceder a la lista de calificadores de colección creados en el menú **[!UICONTROL Componentes]**.
 
@@ -42,6 +43,6 @@ Para crear un cualificador de recopilación, siga estos pasos:
 
    ![](../assets/tags_created.png)
 
-## Vídeo explicativo {#video}
+## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341364?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

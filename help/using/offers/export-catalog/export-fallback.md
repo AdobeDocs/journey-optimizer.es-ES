@@ -1,14 +1,15 @@
 ---
 title: Conjunto de datos de ofertas
 description: Esta sección enumera todos los campos utilizados en el conjunto de datos exportado para ofertas de reserva
+badge: label="Heredado" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -94,7 +95,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL Repo
 
      Formato **Campo:**
      Formato **Título:**
-     **Descripción:** La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato se puede utilizar para determinar el software, hardware u otro equipo necesario para mostrar o utilizar el recurso. La práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [tipos de medios de Internet](https://www.iana.org/) que definen formatos de medios informáticos).
+     **Descripción:** La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato se puede utilizar para determinar el software, hardware u otro equipo necesario para mostrar o utilizar el recurso. La práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [tipos de medios de Internet]&#x200B;(https://www.iana.org/) que definen formatos de medios informáticos).
      **Tipo:** cadena
      **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
 

@@ -1,14 +1,15 @@
 ---
 title: Uso de ofertas personalizadas en un correo electrónico
 description: Descubra un ejemplo completo que muestra todos los pasos necesarios para configurar ofertas y utilizarlas en un correo electrónico.
+badge: label="Heredado" type="Informative"
 feature: Decision Management, Email
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1101'
 ht-degree: 4%
 
 ---
@@ -110,7 +111,7 @@ Los encontrará en el **[!UICONTROL menú Administración de decisiones]** > **[
    >
    >En este ejemplo, solo utilizaremos las puntuaciones de prioridad. Más información sobre [reglas de elegibilidad y restricciones](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
 
-## Configuración de ofertas {#configure-offers}
+## Configurar ofertas {#configure-offers}
 
 Ahora puede crear y configurar sus ofertas. En este ejemplo, creará cuatro ofertas que desea mostrar según cada perfil específico.
 

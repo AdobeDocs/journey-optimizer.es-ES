@@ -1,12 +1,13 @@
 ---
 title: Crear ofertas de reserva
 description: Obtenga información sobre cómo crear ofertas de reserva para mostrarlas a los clientes que no cumplen los requisitos para ninguna oferta
+badge: label="Heredado" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 4%
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 La oferta de reserva se envía a los clientes si no cumplen los requisitos para otras ofertas. Los pasos para crear una oferta de reserva consisten en crear una o varias representaciones, como al crear una oferta.
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 Se puede acceder a la lista de ofertas de reserva en el menú **[!UICONTROL Ofertas]**.
 
@@ -57,5 +58,5 @@ Para crear una oferta de reserva, siga estos pasos:
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341344?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

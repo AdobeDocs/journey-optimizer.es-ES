@@ -1,14 +1,15 @@
 ---
 title: Campos XDM de eventos de acceso
 description: Obtenga más información acerca del esquema XDM DecisioningEvents.
+badge: label="Heredado" type="Informative"
 feature: Decision Management, Datasets
 role: User, Data Engineer
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 64%
+source-wordcount: '96'
+ht-degree: 63%
 
 ---
 
@@ -24,7 +25,7 @@ Para obtener más información sobre un campo específico, selecciónelo para mo
 
 ![](../assets/schema-fields.png)
 
-Encontrará información detallada sobre cómo trabajar con esquemas y campos XDM en la documentación del Modelo de datos de Experience:
+Encontrará información detallada sobre cómo trabajar con esquemas y campos XDM en la documentación del Modelo de datos de experiencia:
 
 * [Información general del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es)
 * [Exploración de recursos XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/explore.html?lang=es)

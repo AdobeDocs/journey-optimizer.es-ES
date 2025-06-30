@@ -1,15 +1,16 @@
 ---
 title: Pasos clave para crear una oferta
 description: Descubra los pasos clave necesarios para crear una oferta
+badge: label="Heredado" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 5%
+source-wordcount: '326'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +22,7 @@ A continuación se presentan los pasos principales para crear, configurar y admi
 
 Para ver un ejemplo completo de extremo a extremo que muestra cómo configurar ofertas, utilícelas en una decisión y aproveche esta decisión en un mensaje de correo electrónico, consulte [esta página](../offers-e2e.md).
 
-## Creación de componentes {#create-components}
+## Crear componentes {#create-components}
 
 Antes de empezar a crear ofertas, debe definir varios componentes que utilizará en las ofertas.
 

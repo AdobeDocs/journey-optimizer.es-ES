@@ -1,18 +1,19 @@
 ---
-title: Aprovechamiento de las audiencias de carga personalizadas para la toma de decisiones
+title: Aprovechamiento de los públicos de carga personalizados para la toma de decisiones
 description: Obtenga información sobre cómo aprovechar las audiencias de carga personalizadas para la toma de decisiones.
+badge: label="Heredado" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 0%
+source-wordcount: '533'
+ht-degree: 2%
 
 ---
 
-
-# Aprovechamiento de las audiencias de carga personalizadas para la toma de decisiones {#custom-upload-decisioning}
+# Aprovechamiento de los públicos de carga personalizados para la toma de decisiones {#custom-upload-decisioning}
 
 Con Journey Optimizer, puede aprovechar los datos de audiencias creadas mediante carga personalizada (archivo CSV) en Adobe Experience Platform para admitir los flujos de trabajo de Administración de decisiones. Esto resulta especialmente útil cuando los datos no se necesitan en el perfil, pero siguen siendo esenciales para la toma de decisiones.
 
@@ -23,14 +24,13 @@ Los datos de las audiencias de carga personalizadas se pueden aprovechar en Admi
 
 Para obtener más información sobre las audiencias de carga personalizada, consulte las secciones:
 * [Introducción a audiencias y Journey Optimizer](../audience/about-audiences.md)
-* [Importación de una audiencia en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importación de una audiencia en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Lectura obligatoria {#must-read}
 
 * Esta funcionalidad solo es compatible con **Administración de decisiones**, no con Decisioning (anteriormente conocido como &quot;Experience Decisioning&quot;).
 * Está disponible exclusivamente a través de **solicitudes de API de decisiones (Hub)** y no es compatible con **API de decisiones de Edge** o **toma de decisiones por lotes**.
  
-
 ## Usar una audiencia de carga personalizada como criterio de idoneidad {#eligibilty}
 
 Puede utilizar una audiencia de carga personalizada como criterio de idoneidad tanto en el nivel de oferta como en el de decisión. Una vez añadidos, estos criterios pueden excluir de la idoneidad las ofertas o colecciones de ofertas. Estas son las distintas ubicaciones en las que puede aprovechar las audiencias de carga personalizada para restringir la elegibilidad de las ofertas y decisiones:

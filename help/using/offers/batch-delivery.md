@@ -1,14 +1,15 @@
 ---
 title: Decisiones por lotes
 description: Obtenga información sobre cómo enviar decisiones de oferta a todos los perfiles de una audiencia de Adobe Experience Platform determinada.
+badge: label="Heredado" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 3%
+source-wordcount: '842'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +29,7 @@ Antes de configurar una solicitud de trabajo, asegúrese de haber creado:
 
 * **Un conjunto de datos** en Adobe Experience Platform. Este conjunto de datos se utilizará para almacenar el resultado de la decisión mediante el esquema &quot;ODE DecisionEvents&quot;. Obtenga más información en la [documentación de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es).
 
-* **Una audiencia** en Adobe Experience Platform. La audiencia debe evaluarse y luego actualizarse. Aprenda a actualizar la evaluación de pertenencia a audiencias en la [documentación del servicio de segmentación](https://www.adobe.com/go/segmentation-overview-en_es)
+* **Una audiencia** en Adobe Experience Platform. La audiencia debe evaluarse y luego actualizarse. Aprenda a actualizar la evaluación de pertenencia a audiencias en la [documentación del servicio de segmentación](https://www.adobe.com/go/segmentation-overview-en)
 
   >[!NOTE]
   >
@@ -57,13 +58,13 @@ Para crear una nueva solicitud de trabajo, siga los pasos a continuación.
 
    ![](assets/batch-decision.png)
 
-1. De forma predeterminada, se devuelve una oferta del ámbito de decisión para cada perfil. Puede ajustar el número de ofertas devueltas usando la opción **[!UICONTROL Solicitar oferta por perfil]**. Por ejemplo, si selecciona 2, se mostrarán las 2 mejores ofertas para el ámbito de decisión seleccionado.
+1. De forma predeterminada, se devuelve una oferta del ámbito de decisión para cada perfil. Puede ajustar el número de ofertas devueltas usando la opción **[!UICONTROL Solicitar oferta por perfil]**. Por ejemplo, si selecciona 2, se mostrarán las dos mejores ofertas para el ámbito de decisión seleccionado.
 
    >[!NOTE]
    >
    >Puede solicitar hasta 30 ofertas por ámbito de decisión.
 
-1. Si desea incluir el contenido de la oferta en el conjunto de datos, active la opción **[!UICONTROL Incluir contenido]**. Esta opción está desactivada de forma predeterminada.
+1. Si desea incluir el contenido de la oferta en el conjunto de datos, active la opción **[!UICONTROL Incluir contenido]**. Esta opción está deshabilitada de forma predeterminada.
 
 1. Haga clic en **[!UICONTROL Crear]** para ejecutar la solicitud de trabajo.
 

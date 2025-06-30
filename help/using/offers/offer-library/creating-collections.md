@@ -1,14 +1,15 @@
 ---
 title: Crear colecciones
 description: Obtenga información sobre cómo organizar ofertas mediante colecciones
+badge: label="Heredado" type="Informative"
 feature: Decision Management, Collections
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 31%
 
 ---
@@ -88,6 +89,6 @@ Para crear una colección, siga estos pasos:
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/346686?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 
