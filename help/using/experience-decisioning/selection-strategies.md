@@ -26,7 +26,7 @@ ht-degree: 20%
 >title="Restricción de los perfiles aptos"
 >abstract="Puede restringir la selección de ofertas para esta estrategia de selección. De forma predeterminada, todos los perfiles son aptos, pero puede utilizar públicos o reglas para limitar la selección de ofertas solo a perfiles específicos."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Uso de públicos"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Uso de reglas de decisión"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Uso de reglas de decisión"
 
 Una estrategia de selección es reutilizable y consiste en una colección asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se mostrarán cuando se seleccionen en una [política de decisión](create-decision.md).
 
