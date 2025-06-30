@@ -77,8 +77,8 @@ Mientras se ejecuta (en modo de prueba o en directo), el flujo visual muestra c√
 
 1. Seleccione una transici√≥n.
 1. En el panel derecho:
-- Haga clic en **[!UICONTROL Vista previa del esquema]** para ver el esquema de la tabla de trabajo.
-- Haga clic en **[!UICONTROL Previsualizar resultados]** para ver los datos transportados.
+&#x200B;- Haga clic en **[!UICONTROL Vista previa del esquema]** para ver el esquema de la tabla de trabajo.
+&#x200B;- Haga clic en **[!UICONTROL Previsualizar resultados]** para ver los datos transportados.
 
 ![](assets/transition.png){zoomable="yes"}
 
