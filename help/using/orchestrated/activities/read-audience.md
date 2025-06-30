@@ -6,7 +6,8 @@ description: Aprenda a utilizar la actividad Leer audiencia en una campaña orga
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 64f886e733c0bf6ff8fd258fc24310a04397ba55
+exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
+source-git-commit: 4c712fa19296733595d275fb1c883dd8ca0eb58d
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 10%
@@ -17,7 +18,7 @@ ht-degree: 10%
 
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_read_audience"
+>id="ajo_orchestration_read_audience"
 >title="Actividad generar público"
 >abstract="La actividad **Leer audiencia** le permite seleccionar la audiencia que entrará en la campaña orquestada. Esta audiencia puede ser una audiencia existente de Adobe Experience Platform o una audiencia extraída de un archivo CSV. Cuando se envían mensajes en el contexto de una campaña orquestada, la audiencia de mensaje no se define en la actividad del canal, sino en una actividad **Leer audiencia** o **Generar audiencia**."
 
@@ -31,5 +32,3 @@ ht-degree: 10%
 {style="table-layout:fixed"}
 
 +++
-
-
