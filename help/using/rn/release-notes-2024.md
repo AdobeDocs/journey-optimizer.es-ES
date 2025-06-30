@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -342,7 +342,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Decisioning**
 
-* Los usuarios de [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es) ahora pueden elegir modelos personalizados para optimizarlos al configurar un modelo de IA en Decisioning (anteriormente conocido como Decisiones sobre experiencias). Esto le permite, por ejemplo, optimizar en una tabla de “compras” personalizada en lugar de restricciones definidas como la tasa de clics. [Más información](../experience-decisioning/ranking.md)
+* Los usuarios de [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es) ahora pueden elegir modelos personalizados para optimizarlos al configurar un modelo de IA en Decisioning (anteriormente conocido como Decisiones sobre experiencias). Esto le permite, por ejemplo, optimizar en una tabla de “compras” personalizada en lugar de restricciones definidas como la tasa de clics. [Más información](../experience-decisioning/ranking/ranking.md)
 
 * Al añadir una política de decisión a una campaña basada en código con Decisioning, ahora puede seleccionar manualmente elementos de decisión únicos, además de las estrategias de selección. Además, ahora puede seleccionar más de una oferta de reserva. Esto garantiza que se devuelva un determinado número de elementos de decisión. [Más información](../experience-decisioning/create-decision.md)
 

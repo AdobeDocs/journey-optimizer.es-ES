@@ -7,7 +7,8 @@ role: User, Data Engineer, Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
+exl-id: 32e3a5b9-0633-48df-95b5-c03536be23a1
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -22,7 +23,7 @@ Puede recopilar comentarios de Offer Decisioning en Adobe Experience Platform, i
 
 * Escribiendo [informes de toma de decisiones](../cja-reporting.md);
 * Usar [límite](../items.md#capping) reglas;
-* Generando modelos de IA<!--add link--> que puedan usarse como método de clasificación.
+* Generando [modelos de IA](../ranking/ai-models.md) que puedan usarse como método de clasificación.
 
 ## Tipos de eventos
 
@@ -46,9 +47,9 @@ Los comentarios sobre las impresiones y los clics se capturan según el canal [!
 
 Sin embargo, **la mayoría de los canales** requieren que los datos de impresiones y clics se envíen a Adobe Experience Platform como un **evento de experiencia**. Esto incluye lo siguiente:
 
-* Páginas web que usan [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"} para procesar ofertas
+* Páginas web que usan [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} para procesar ofertas
 
-* Aplicaciones móviles que usan [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=es){target="_blank"} para procesar ofertas: [Más información](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* Aplicaciones móviles que usan [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} para procesar ofertas: [Más información](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * Quioscos
 * Mensajes enviados a través de aplicaciones de terceros
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->

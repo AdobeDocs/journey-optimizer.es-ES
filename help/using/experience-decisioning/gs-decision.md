@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 20%
@@ -36,7 +36,7 @@ Nuestro marco de decisión de próxima generación, diseñado para unificar los 
 * Configuración actualizada de la política de decisión y la estrategia de selección: Permitir la reutilización de componentes de decisión
 * Funcionalidades de experimentación: pruebe la lógica de decisión con otros componentes de contenido para medir el rendimiento
 
-Experience Decisioning es compatible con el canal de experiencia basado en código.
+Decisioning es compatible actualmente con el canal de experiencia basado en código.
 
 ➡️ [Introducción a la toma de decisiones](../experience-decisioning/gs-experience-decisioning.md)
 

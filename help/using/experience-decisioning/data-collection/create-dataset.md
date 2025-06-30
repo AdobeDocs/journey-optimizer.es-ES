@@ -8,7 +8,8 @@ role: Data Engineer, Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
+exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 7%
@@ -52,9 +53,9 @@ Comience creando el esquema que se utilizará en el conjunto de datos:
 
 >[!NOTE]
 >
->Obtenga más información acerca de la creación de esquemas en [Aspectos básicos de la composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es#understanding-schemas){target="_blank"}.
+>Obtenga más información acerca de la creación de esquemas en [Aspectos básicos de la composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
-ya está listo para crear un conjunto de datos con este esquema. Para realizar esto, siga los pasos a continuación:
+Ya está listo para crear un conjunto de datos con este esquema. Para realizar esto, siga los pasos a continuación:
 
 1. En el menú **[!UICONTROL Administración de datos]**, seleccione **[!UICONTROL Conjuntos de datos]** y vaya a la pestaña **[!UICONTROL Examinar]**.
 
@@ -70,4 +71,4 @@ ya está listo para crear un conjunto de datos con este esquema. Para realizar e
 
 >[!NOTE]
 >
->Ahora se puede seleccionar este conjunto de datos para recopilar datos de evento al crear un modelo de IA<!--add link to Creat AI models section-->.
+>Ahora se puede seleccionar este conjunto de datos para recopilar datos de evento al crear un [modelo de IA](../ranking/create-ai-models.md).

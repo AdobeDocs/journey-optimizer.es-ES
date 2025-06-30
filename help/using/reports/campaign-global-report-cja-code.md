@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 2%
+source-wordcount: '869'
+ht-degree: 1%
 
 ---
 
@@ -139,7 +139,7 @@ La tabla **[!UICONTROL Rendimiento de elementos de decisión]** evalúa el rendi
 
 >[!NOTE]
 >
->La tabla **[!UICONTROL Estrategia de clasificación]** solo estará disponible cuando se incorpore un modelo de IA a la campaña. [Más información](../experience-decisioning/ranking.md)
+>La tabla **[!UICONTROL Estrategia de clasificación]** solo estará disponible cuando se incorpore un [modelo de IA](../experience-decisioning/ranking/ai-models.md) a la campaña. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decision-ranking-strategy.png)
 
@@ -161,7 +161,7 @@ Las métricas clave mostradas incluyen:
 
 >[!NOTE]
 >
->El gráfico **[!UICONTROL Tasa de conversión para tráfico controlado por modelo y en espera]** solo estará disponible cuando se incorpore un modelo de IA a la campaña. [Más información](../experience-decisioning/ranking.md)
+>El gráfico **[!UICONTROL Tasa de conversión para tráfico controlado por modelo y en espera]** solo estará disponible cuando se incorpore un [modelo de IA](../experience-decisioning/ranking/ai-models.md) a la campaña. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 
@@ -173,4 +173,4 @@ El gráfico **[!UICONTROL Tasa de conversión para tráfico controlado por model
 
 >[!CAUTION]
 >
->Cuando se usa un modelo de IA incorporado en una [fórmula de clasificación](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), los datos no se reflejan en el informe de tasa de conversión.
+>Cuando se usa un modelo de IA incorporado en una [fórmula de clasificación](../experience-decisioning/ranking/ranking-formulas.md), los datos no se reflejan en el informe de tasa de conversión.

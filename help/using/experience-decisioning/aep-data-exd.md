@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
 >
 >Esta funcionalidad está actualmente disponible para todos los clientes en beta pública. Póngase en contacto con el representante de su cuenta si desea acceder.
 
-[!DNL Journey Optimizer] le permite aprovechar datos de [!DNL Adobe Experience Platform] para la toma de decisiones. Esto le permite ampliar la definición de los atributos de decisión a datos adicionales en conjuntos de datos para actualizaciones masivas que cambian periódicamente sin tener que actualizar manualmente los atributos de uno en uno. Por ejemplo, disponibilidad, tiempos de espera, etc.
+[!DNL Journey Optimizer] le permite aprovechar los datos de [!DNL Adobe Experience Platform] para la toma de decisiones. Esto le permite ampliar la definición de los atributos de decisión a datos adicionales en conjuntos de datos para actualizaciones masivas que cambian periódicamente sin tener que actualizar manualmente los atributos de uno en uno. Por ejemplo, disponibilidad, tiempos de espera, etc.
 
 ## Restricciones y directrices de Beta {#guidelines}
 
@@ -48,7 +48,7 @@ Antes de empezar, tome nota de las siguientes restricciones y directrices:
 
 Para utilizar datos de un conjunto de datos de [!DNL Adobe Experience Platform] para la toma de decisiones, primero debe habilitarlos para la búsqueda mediante una llamada de API. Para obtener instrucciones detalladas, consulte esta sección: [Aprovechar conjuntos de datos de Adobe Experience Platform en Journey Optimizer](../data/lookup-aep-data.md).
 
-## Uso de datos de Adobe Experience Platform para la toma de decisiones
+## Aprovechamiento de datos de Adobe Experience Platform {#leverage-aep-data}
 
 Una vez que un conjunto de datos está habilitado para la búsqueda, puede utilizar sus atributos para enriquecer la lógica de decisión con datos externos. Esto resulta especialmente útil para atributos que cambian con frecuencia, como la disponibilidad del producto o los precios en tiempo real.
 
@@ -86,7 +86,7 @@ Para utilizar datos de Adobe Experience Platform en reglas de decisión, siga es
 
    ![](assets/exd-lookup-menu.png)
 
-### Fórmulas de clasificación
+### Fórmulas de clasificación {#ranking-formulas}
 
 Las fórmulas de clasificación definen la prioridad de los elementos de decisión. Mediante [!DNL Adobe Experience Platform] atributos del conjunto de datos, puede ajustar dinámicamente la lógica de clasificación para reflejar las condiciones reales.
 
@@ -107,6 +107,6 @@ Para utilizar datos de Adobe Experience Platform en fórmulas de clasificación,
    >
    >Puede crear hasta 3 asignaciones por fórmula de clasificación.
 
-1. Utilice los campos del conjunto de datos para crear la fórmula de clasificación como de costumbre. [Aprenda a crear una fórmula de clasificación](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula)
+1. Utilice los campos del conjunto de datos para crear la fórmula de clasificación como de costumbre. [Aprenda a crear una fórmula de clasificación](ranking/ranking-formulas.md#create-ranking-formula)
 
    ![](assets/exd-lookup-formula-criteria.png)

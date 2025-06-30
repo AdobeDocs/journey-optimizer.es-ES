@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 25%
@@ -56,7 +56,7 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
    El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 
-   +++
++++
 
 1. **Configurar atributos personalizados**: adapte el catálogo de artículos a sus necesidades específicas configurando atributos personalizados en el esquema del catálogo.
 
@@ -76,7 +76,7 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
 1. **Implementar métodos de clasificación**: Cree métodos de clasificación y aplíquelos dentro de las estrategias de selección para determinar el orden de prioridad para seleccionar elementos de decisión.
 
-   ➡️ [Aprenda a crear métodos de clasificación](ranking.md)
+   ➡️ [Aprenda a crear métodos de clasificación](ranking/ranking.md)
 
 1. **Crear estrategias de selección**: genere estrategias de selección que aprovechen colecciones, reglas de decisión y métodos de clasificación para identificar los elementos de decisión adecuados para mostrarlos a los perfiles.
 
