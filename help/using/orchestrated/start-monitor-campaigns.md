@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo iniciar y supervisar campañas orq
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 02270bddf988e8a722e78d0b63fe157c74b586e4
+source-git-commit: 1c11521ab9f8df9a7147565ddd274f341c56cbdf
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 6%
+source-wordcount: '670'
+ht-degree: 7%
 
 ---
 
@@ -74,13 +74,6 @@ El flujo visual se reinicia y los perfiles reales comienzan a fluir a través de
 Mientras se ejecuta (en modo de prueba o en directo), el flujo visual muestra cómo los perfiles se mueven a través del recorrido en tiempo real. Se muestra el número de perfiles que pasan de una tarea a otra.
 
 ![](assets/workflow-execution.png){zoomable="yes"}
-
-1. Seleccione una transición.
-1. En el panel derecho:
-&#x200B;- Haga clic en **[!UICONTROL Vista previa del esquema]** para ver el esquema de la tabla de trabajo.
-&#x200B;- Haga clic en **[!UICONTROL Previsualizar resultados]** para ver los datos transportados.
-
-![](assets/transition.png){zoomable="yes"}
 
 Los datos que pasan de una actividad a otra a través de transiciones se almacenan en una tabla de trabajo temporal. Estos datos se pueden mostrar para cada transición. Para inspeccionar datos pasados entre actividades:
 
