@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 6059de3366743ac6f5971a6113f3bec0f1e6fb32
+source-git-commit: d8128190a51cac665c9f25b5077185a496ad7849
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '896'
 ht-degree: 21%
 
 ---
@@ -83,7 +83,7 @@ UNUSED IDs in BJ
 
 Para configurar una entrega en el contexto de una campaña orquestada, siga los pasos a continuación:
 
-1. Agregue una actividad de canal: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]**, **[!UICONTROL Notificación push (iOS)]** o **[!UICONTROL Correo directo]**.
+1. Añada una actividad de canal. Los canales admitidos son **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]** o **[!UICONTROL Notificación push]**
 
 1. Seleccione **Tipo de entrega**: individual o recurrente.
 
