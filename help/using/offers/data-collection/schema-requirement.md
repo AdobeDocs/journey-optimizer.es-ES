@@ -107,4 +107,4 @@ Para los eventos personalizados, el esquema utilizado en el conjunto de datos ta
 >* POST/ee/v2/interaction
 >* POST /ee/v2/collect
 >
->Si está usando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, la conexión se establece automáticamente.
+>Si está usando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"} o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=es){target="_blank"}, la conexión se establece automáticamente.
