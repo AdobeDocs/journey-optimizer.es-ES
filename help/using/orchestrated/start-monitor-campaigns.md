@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo iniciar y supervisar campañas orq
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: f8afef4729e50b7c9899bf7f2fe282347220dfac
+source-git-commit: 02270bddf988e8a722e78d0b63fe157c74b586e4
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 8%
+source-wordcount: '694'
+ht-degree: 6%
 
 ---
 
@@ -36,36 +36,62 @@ Una vez que haya creado las tareas orquestadas y diseñadas para realizarlas en 
 
 También puede ejecutar la campaña en modo de prueba para comprobar su ejecución y el resultado de las diferentes actividades.
 
-## Prueba y publicación de la campaña organizada {#test}
+## Prueba de la campaña antes de publicar {#test}
 
-Journey Optimizer le permite probar sus campañas orquestadas antes de publicarlas. Esto le permite comprobar la ejecución y el resultado de las distintas tareas que componen la campaña y no tiene impacto funcional: todas las actividades del lienzo se ejecutan, excepto las actividades que tienen impacto como **[!UICONTROL Guardar audiencia]** y actividades del canal.
+Journey Optimizer le permite probar campañas orquestadas antes de lanzarse. En el modo de prueba, se ejecutan todas las actividades del lienzo excepto las actividades de **[!UICONTROL Guardar audiencia]** y las actividades del canal. No hay ningún impacto funcional en los datos o en la audiencia.
 
-Para iniciar una campaña orquestada en modo de prueba, ábrala y haga clic en el botón **[!UICONTROL Iniciar]**.
+Para probar una campaña:
+
+1. Abra la campaña organizada.
+2. Haga clic en **[!UICONTROL Start]**.
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Una vez que se está ejecutando la campaña orquestada, cada actividad del lienzo se ejecuta en un orden secuencial, hasta que se llega al final de la campaña orquestada.
+Cada actividad de la campaña se ejecuta secuencialmente hasta que se llega al final del diagrama. Durante la ejecución de la prueba, puede administrar la campaña mediante la barra de acciones del lienzo. A partir de ahí, puede:
 
-Cuando su campaña esté lista para iniciarse, haga clic en el botón **[!UICONTROL Publicar]**. El flujo visual en el lienzo se reinicia, lo que le permite ver el progreso de los perfiles en el diagrama.
+* **Detener** la ejecución en cualquier momento.
+* **Inicie** la ejecución de nuevo.
+* **Reanudar** la ejecución si anteriormente se había pausado debido a un problema.
 
-## Flujo visual de campañas organizadas
+Si se produce un error o una advertencia durante la ejecución, se le notificará mediante el icono **[!UICONTROL Alertas]** / **[!UICONTROL Advertencia]** de la barra de herramientas de lienzo.
 
-Cuando se está ejecutando una campaña orquestada, ya sea en modo de prueba o en producción, puede realizar un seguimiento del progreso de los perfiles de destino a través de las diferentes tareas en tiempo real mediante un flujo visual. Esto le permite identificar rápidamente el estado de cada actividad y el número de perfiles en transición entre ellas.
+![](assets/campaign-warning.png){zoomable="yes"}
+
+También puede identificar rápidamente las actividades fallidas mediante los [indicadores de estado visuales](#activities) que se muestran directamente en cada actividad. Para obtener información detallada sobre la solución de problemas, abra los registros de [campaign](#logs-tasks), que proporcionan información detallada sobre el error y su contexto.
+
+## Publicación de la campaña {#publish}
+
+Una vez que la campaña esté lista y probada, haga clic en **[!UICONTROL Publicar]** para activarla.
+
+![](assets/campaign-publish.png){zoomable="yes"}
+
+El flujo visual se reinicia y los perfiles reales comienzan a fluir a través del recorrido en tiempo real.
+
+## Monitorización de la ejecución de campañas {#monitor}
+
+### Monitorización del flujo visual {#flow}
+
+Mientras se ejecuta (en modo de prueba o en directo), el flujo visual muestra cómo los perfiles se mueven a través del recorrido en tiempo real. Se muestra el número de perfiles que pasan de una tarea a otra.
 
 ![](assets/workflow-execution.png){zoomable="yes"}
 
-Los datos que pasan de una actividad a otra a través de transiciones se almacenan en una tabla de trabajo temporal. Estos datos se pueden mostrar para cada transición. Para ello, seleccione una transición para abrir sus propiedades en el lado derecho de la pantalla.
-
-* Haga clic en **[!UICONTROL Vista previa del esquema]** para mostrar el esquema de la tabla de trabajo.
-* Haga clic en **[!UICONTROL Previsualizar resultados]** para visualizar los datos transportados en la transición seleccionada.
+1. Seleccione una transición.
+1. En el panel derecho:
+- Haga clic en **[!UICONTROL Vista previa del esquema]** para ver el esquema de la tabla de trabajo.
+- Haga clic en **[!UICONTROL Previsualizar resultados]** para ver los datos transportados.
 
 ![](assets/transition.png){zoomable="yes"}
 
-## Monitorización de la ejecución de la campaña
+Los datos que pasan de una actividad a otra a través de transiciones se almacenan en una tabla de trabajo temporal. Estos datos se pueden mostrar para cada transición. Para inspeccionar datos pasados entre actividades:
 
-### Monitorización de la ejecución de actividades {#activities}
+1. Seleccione una transición.
+1. En el panel de propiedades, haga clic en **[!UICONTROL Vista previa del esquema]** para ver el esquema de la tabla de trabajo. Seleccione **[!UICONTROL Previsualizar resultados]** para ver los datos transportados.
 
-Los indicadores visuales de cada cuadro de actividad permiten comprobar su ejecución:
+![](assets/transition.png){zoomable="yes"}
+
+### Indicadores de ejecución de actividad {#activities}
+
+Los indicadores de estado visuales le ayudan a comprender el rendimiento de cada actividad:
 
 | Indicador visual | Descripción |
 |-----|------------|
@@ -74,32 +100,22 @@ Los indicadores visuales de cada cuadro de actividad permiten comprobar su ejecu
 | ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | La actividad ha encontrado un error. Para resolver el problema, abra los registros de campaña organizados para obtener más información. |
 | ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | La actividad se ha ejecutado correctamente. |
 
-### Monitorización de registros y tareas {#logs-tasks}
+### Registros y tareas {#logs-tasks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Registros y tareas"
 >abstract="La pantalla **Registros y tareas** proporciona un historial de la ejecución de la campaña orquestada, registrando todas las acciones del usuario y los errores encontrados."
 
-La monitorización de registros y tareas es un paso clave para analizar las campañas orquestadas y asegurarse de que se ejecutan correctamente. Se puede acceder a ellos desde el icono **[!UICONTROL Logs]** que está disponible en la barra de herramientas de acciones y en el panel de propiedades de cada actividad.
+La monitorización de registros y tareas es un paso clave para analizar las campañas orquestadas y asegurarse de que se ejecutan correctamente. Se puede acceder a los registros y las tareas desde el botón **[!UICONTROL Registros]**, que está disponible en los modos de prueba y en directo en la barra de herramientas de lienzo o en el panel de propiedades de cada actividad.
 
-El menú **[!UICONTROL Registros y tareas]** proporciona un historial de la ejecución de la campaña orquestada, registrando todas las acciones del usuario y los errores encontrados.
+La pantalla **[!UICONTROL Registros y tareas]** proporciona un historial completo de la ejecución de la campaña, registrando todas las acciones del usuario y los errores encontrados.
 
 ![](assets/workflow-logs.png){zoomable="yes"}
 
 Hay dos tipos de información disponibles:
 
-* La pestaña **[!UICONTROL Log]** contiene el historial de ejecución de todas las actividades de campaña orquestadas. Indexa las operaciones realizadas y los errores de ejecución por orden cronológico.
-* La ficha **[!UICONTROL Tareas]** detalla la secuencia de ejecución de las actividades.
+* La ficha **[!UICONTROL Log]** contiene el historial cronológico de todas las operaciones y errores.
+* La pestaña **[!UICONTROL Tareas]** detalla la secuencia de ejecución paso a paso de las actividades.
 
 En ambas pestañas, puede elegir las columnas mostradas y su orden, aplicar filtros y utilizar el campo de búsqueda para encontrar rápidamente la información deseada.
-
-## Comandos de ejecución de campaña organizados {#execution-commands}
-
-La barra de acciones de la esquina superior derecha proporciona comandos que le permiten administrar la ejecución de la campaña orquestada. Puede hacer lo siguiente:
-
-* **[!UICONTROL Iniciar]** / **[!UICONTROL Reanudar]** la ejecución del   campaña orquestada, que luego adquiere el estado En curso. Si la campaña orquestada se ha pausado, se reanuda, pero se inicia y las actividades iniciales se activan.
-
-* **[!UICONTROL Pausar]** la ejecución de la campaña orquestada, que luego adquiere el estado Paused. No se activará ninguna actividad nueva hasta que se reanude, pero las operaciones en curso no se suspenden.
-
-* **[!UICONTROL Detener]** una campaña orquestada que se está ejecutando y que luego pasará al estado Finalizado. Las operaciones en curso se interrumpen si es posible. No puede continuar desde la campaña orquestada desde el mismo lugar en el que se detuvo.
