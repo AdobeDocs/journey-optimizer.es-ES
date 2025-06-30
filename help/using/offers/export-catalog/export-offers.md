@@ -123,6 +123,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
      **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Idioma**
+
      **Campo:** idioma
      **Título:** Idioma
      **Descripción:** Idioma o idiomas del recurso. \nLos idiomas se especifican en el código de idioma tal como se definen en [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que forma parte de BCP 47, que se usa en otras partes de XDM.
