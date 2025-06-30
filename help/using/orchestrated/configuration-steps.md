@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 4cc571b306058dc58454e488ba53bb69117a8b27
+source-git-commit: 4b4363bf89f80ee9203989f1ba66a8062dfd2719
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 3%
@@ -37,6 +37,8 @@ Documentación en curso
 Esta guía muestra el proceso de creación de un esquema relacional, configuración de un conjunto de datos para campañas orquestadas, ingesta de datos a través de una fuente S3 y consulta de los datos ingeridos en la plataforma AP.
 
 En este ejemplo, la configuración incluye la integración de dos entidades clave, **Transacciones de fidelidad** y **Recompensas de fidelidad**, y su vinculación a entidades principales existentes **Destinatarios** y **Marcas**.
+
+![](assets/do-not-localize/schema_admin.png)
 
 1. [Cargar archivo DDL](#upload-ddl)
 
@@ -179,7 +181,7 @@ Adobe Experience Platform permite la ingesta de datos desde fuentes externas, al
 
    * Con una cuenta nueva
 
-   [Obtenga más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Obtenga más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
