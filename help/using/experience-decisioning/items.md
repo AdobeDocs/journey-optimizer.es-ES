@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 7c806d138b97d57afa583e98a1356bd3811f2eb8
+source-git-commit: 3eafc1bcfcd332eb9bf262f9257a084604f60011
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 14%
+source-wordcount: '1746'
+ht-degree: 15%
 
 ---
 
@@ -65,8 +65,8 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 >title="Añadir públicos o reglas de decisión"
 >abstract="De forma predeterminada, todos los perfiles podrán recibir el elemento de decisión, pero puede utilizar públicos o reglas para reservar el elemento únicamente a perfiles específicos."
 
-<!-->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=es" text="Use audiences"
->additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html&quot; text=&quot;Usar reglas de decisión&quot;—>
+<!--additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="Use decision rules"-->
 
 De forma predeterminada, todos los perfiles pueden recibir el elemento de decisión, pero puede utilizar audiencias o reglas para restringir el elemento solo a perfiles específicos, ambas soluciones correspondientes a usos diferentes. Expanda la sección siguiente para obtener más información:
 
