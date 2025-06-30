@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: 62f16b6f582e6bf5620b75df4a75d4c15441ca4a
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 34%
+source-wordcount: '421'
+ht-degree: 24%
 
 ---
 
@@ -19,7 +19,14 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Actividad generar público"
->abstract="La actividad **Crear público** le permite definir el público que participará en la campaña orquestada. Cuando se envían mensajes en el contexto de una campaña orquestada, el público del mensaje no se define en la actividad del canal, sino en la actividad **Crear publico**."
+>abstract="La actividad **Crear público** le permite definir el público que participará en la campaña orquestada. Al enviar mensajes en el contexto de una campaña orquestada, la audiencia de mensajes no se define en la actividad del canal, sino en una actividad de **Generar audiencia**."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_read_audience"
+>title="Actividad generar público"
+>abstract="La actividad **Leer audiencia** le permite seleccionar una audiencia existente que entrará a la campaña orquestada. Cuando se envían mensajes en el contexto de una campaña orquestada, la audiencia de mensaje no se define en la actividad del canal, sino en una actividad **Leer audiencia** o **Generar audiencia**."
+
 
 +++ Tabla de contenido
 
