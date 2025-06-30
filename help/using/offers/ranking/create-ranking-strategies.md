@@ -95,4 +95,4 @@ Para poder enviar tipos de eventos (oferta mostrada u oferta seleccionada), debe
 
 Obtenga información sobre cómo crear un modelo de optimización personalizado y cómo aplicarlo a una decisión.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445954?quality=12&captions=spa)
