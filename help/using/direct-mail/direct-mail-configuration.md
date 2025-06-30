@@ -54,7 +54,7 @@ Antes de poder generar este archivo, debe crear lo siguiente:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Seleccionar el tipo de servidor para el archivo"
->abstract="Elija el tipo de servidor que desea utilizar para exportar los archivos de correo directo: Amazon S3, SFTP, Azure o Data Landing Zone."
+>abstract="Elija el tipo de servidor que desea utilizar para exportar los archivos de correo directo: Amazon S3, SFTP, Azure o zona de aterrizaje de datos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
@@ -145,7 +145,7 @@ Si seleccionó **[!UICONTROL Zona de aterrizaje de datos]** como **[!UICONTROL t
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información acerca de la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información acerca de la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 

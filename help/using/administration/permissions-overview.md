@@ -12,7 +12,7 @@ exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 El control de acceso de [!DNL Journey Optimizer] se proporciona a través de **Permisos** en Adobe Experience Cloud. Esta funcionalidad aprovecha las funciones y directivas que vinculan a los usuarios con permisos y zonas protegidas.
 
-Para configurar el control de acceso para Journey Optimizer, debe tener privilegios de administrador de sistemas o productos para su organización. La función mínima que puede conceder o retirar permisos es de administrador de productos. Otros roles de administrador que pueden administrar permisos son administradores del sistema (sin restricciones). Consulte el [artículo del Centro de ayuda de Adobe](https://helpx.adobe.com/es/enterprise/using/admin-roles.html){target="_blank"} sobre funciones administrativas para obtener más información.
+Para configurar el control de acceso para Journey Optimizer, debe tener privilegios de administrador de sistemas o productos para su organización. La función mínima que puede conceder o retirar permisos es de administrador de productos. Otros roles de administrador que pueden administrar permisos son administradores del sistema (sin restricciones). Consulte el [artículo del Centro de ayuda de Adobe](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} sobre funciones administrativas para obtener más información.
 
 <!-- A high-level workflow for gaining and assigning access permissions can be summarized as follows:
 
@@ -45,7 +45,7 @@ Con [!DNL Journey Optimizer], puede elegir entre una serie de **[!UICONTROL role
 
 * **[!UICONTROL Zonas protegidas]**: Las zonas protegidas virtuales dividen instancias en entornos virtuales independientes y aislados. Las zonas protegidas se asignan mediante funciones en Permisos. Más información sobre [el uso de zonas protegidas](sandboxes.md).
 
-* **Control de acceso basado en objetos**: Etiquetas para limitar el acceso a un objeto. Este enfoque protege los activos digitales confidenciales de los usuarios no autorizados y garantiza una mayor protección de los datos personales. Más información sobre [Administración de acceso basado en objetos](object-based-access.md).
+* **Control de acceso basado en objetos**: Etiquetas para limitar el acceso a un objeto. Este enfoque protege los recursos digitales confidenciales de los usuarios no autorizados y garantiza una mayor protección de los datos personales. Más información sobre [Administración de acceso basado en objetos](object-based-access.md).
 
 * **Control de acceso basado en atributos**: Autorizaciones para administrar el acceso a datos para equipos o grupos de usuarios específicos. El control de acceso basado en atributos permite a los administradores controlar el acceso a objetos específicos o funcionalidades basadas en atributos. Los atributos pueden ser metadatos añadidos a un objeto, como una etiqueta añadida a un campo o segmento de esquema. Un administrador define directivas de acceso que incluyen atributos para administrar permisos de acceso de usuarios. Más información sobre [Administración de acceso basada en atributos](attribute-based-access.md).
 
