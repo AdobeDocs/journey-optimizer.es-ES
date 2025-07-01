@@ -217,4 +217,4 @@ Al añadir el fragmento a su contenido de correo electrónico, los usuarios ahor
 
 Este vídeo muestra cómo hacer que los componentes de HTML dentro de un fragmento se puedan editar, lo que permite actualizaciones dinámicas tanto del contenido como del estilo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464371/?learn=on&#x26;enablevpops&captions=spa)
