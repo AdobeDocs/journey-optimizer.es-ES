@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: a1da25455621c02656706b95dcefe241370a6ac6
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 17%
+source-wordcount: '695'
+ht-degree: 20%
 
 ---
 
@@ -77,9 +77,6 @@ Cada campaña orquestada contiene:
 ## Estados de campañas {#status}
 
 Las campañas orquestadas pueden tener varios estados:
-
-inicio recurrente en s&#39;execute , fait une query .click close: va continuer et se termienr quand elle sera allée jusqu&#39;au bout du diagrama
-
 
 * **[!UICONTROL Borrador]**: se ha creado la campaña orquestada. Aún no se ha publicado.
 * **[!UICONTROL Publicación]**: La campaña orquestada se está publicando.
