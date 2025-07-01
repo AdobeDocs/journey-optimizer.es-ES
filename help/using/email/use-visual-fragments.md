@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '715'
 ht-degree: 2%
 
 ---
@@ -85,11 +85,13 @@ Si algunas partes del fragmento seleccionado se han hecho editables, puede anula
 
 Para personalizar los campos editables en un fragmento, siga estos pasos:
 
-1. Añada el fragmento al contenido y selecciónelo para abrir el panel de propiedades en el lado derecho.
+1. Añada el fragmento al contenido.
 
-1. Todos los campos editables del fragmento se muestran en la ficha **Configuración**, en la sección **Fragmento**.
+1. Selecciónelo para abrir el panel de propiedades en el lado derecho.
 
-   Los campos editables se resaltan en verde en el panel de vista previa cuando se seleccionan en el panel derecho, lo que facilita la identificación de su ubicación en el contenido.
+   Todos los campos editables del fragmento se muestran en la ficha **Configuración**, en la sección **Fragmento**.
+
+1. Al seleccionar un campo editable en el panel derecho, se resalta en verde en el panel de vista previa central, lo que facilita la identificación de su ubicación en el contenido.
 
    En el ejemplo siguiente, se puede editar la imagen **source** y **texto alternativo**, así como el botón &quot;Hacer clic aquí&quot; **URL**.
 
