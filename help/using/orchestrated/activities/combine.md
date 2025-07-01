@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: cb335fd5610d70d801ae1c32dfe4d3ca9d1160ab
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 78%
+source-wordcount: '1103'
+ht-degree: 69%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 78%
 
 <br/>
 
-La actividad **[!UICONTROL Combinar]** es una actividad **[!UICONTROL Segmentación]**. Esta actividad le permite realizar la segmentación de la población entrante. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios públicos destinatarios. Estos son los tipos de segmentación disponibles:
+La actividad **[!UICONTROL Combinar]** es un tipo de actividad de **[!UICONTROL Segmentación]** que le permite segmentar eficazmente la población entrante. Permite combinar varias poblaciones, excluir segmentos específicos o conservar solo los datos compartidos entre varios objetivos.
 
-<!--
-The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
--->
+Estas son las opciones de segmentación disponibles:
 
-* La **[!UICONTROL Unión]** le permite agrupar el resultado de varias actividades en un solo público destinatario.
-* La **[!UICONTROL Intersección]** permite mantener solo los elementos comunes a las diferentes poblaciones entrantes de la actividad.
-* La **[!UICONTROL Exclusión]** permite excluir elementos de una población según determinados criterios.
+* **[!UICONTROL Union]**: combina los resultados de varias actividades en un solo destino unificado.
+
+* **[!UICONTROL Intersección]**: conserva únicamente los elementos que son comunes en todas las poblaciones de entrada.
+
+* **[!UICONTROL Exclusión]**: elimina elementos de una población en función de criterios especificados.
 
 ## Configuración de la actividad de combinación {#combine-configuration}
 
@@ -62,7 +62,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 Siga estos pasos comunes para comenzar a configurar la actividad **[!UICONTROL Combinar]**:
 
-![](../assets/workflow-combine.png)
+![](../assets/orchestrated-combine.png)
 
 1. Añada varias actividades, como actividades **[!UICONTROL Generar público destinatario]** para formar al menos dos ramas de ejecución diferentes.
 1. Añada una actividad **[!UICONTROL Combinar]** a cualquiera de las ramas anteriores.
@@ -82,6 +82,10 @@ En la actividad **[!UICONTROL Combinar]**, puede configurar una **[!UICONTROL Un
 * **[!UICONTROL Solo claves]**: este es el modo predeterminado. La actividad solo mantiene un elemento cuando los elementos de las distintas transiciones entrantes tienen la misma clave. Puede usar esta opción solo si las poblaciones entrantes son homogéneas.
 * **[!UICONTROL Una selección de columnas]**: seleccione esta opción para definir la lista de columnas a las que desea aplicar la reconciliación de datos. Primero debe seleccionar el conjunto principal (el que contiene los datos de origen) y luego las columnas que se utilizarán para la unión.
 
+En el ejemplo siguiente, se usa una actividad **[!UICONTROL Combinar]** y se agrega una **[!UICONTROL Unión]** para recuperar todos los perfiles de las dos consultas: Miembros socio y Compradores para formar una audiencia mayor.
+
+![](../assets/orchestrated-union-example.png)
+
 ## Intersección {#combine-intersection}
 
 >[!CONTEXTUALHELP]
@@ -93,6 +97,11 @@ En la actividad **[!UICONTROL Combinar]**, puede configurar una **[!UICONTROL in
 
 1. Seleccione el **[!UICONTROL Tipo de reconciliación]** para definir cómo se gestionan los duplicados. Consulte la sección [Unión](#union).
 1. Seleccione la opción **[!UICONTROL Generar complemento]** si desea procesar la población restante. El complemento contendrá la unión de los resultados de todas las actividades entrantes menos la intersección. A continuación, se añadirá una transición saliente adicional a la actividad.
+
+El ejemplo siguiente muestra la **[!UICONTROL intersección]** entre dos actividades de consulta. Se está utilizando aquí para recuperar perfiles con una membresía de Fidelidad y cuya última compra fue hace menos de un mes.
+
+![](../assets/orchestrated-intersection-example.png)
+
 
 ## Exclusión {#combine-exclusion}
 
@@ -122,16 +131,9 @@ En la actividad **[!UICONTROL Combinar]**, puede configurar una **[!UICONTROL Ex
 1. Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un público destinatario de otra dimensión, se debe devolver este público destinatario a la misma dimensión de segmentación que el público destinatario principal. Para ello, haga clic en **[!UICONTROL Añadir una regla]** en la sección **[!UICONTROL Reglas de exclusión]** y especifique las condiciones del cambio de dimensión. La reconciliación de datos se lleva a cabo mediante un atributo o una unión.
 1. Seleccione la opción **[!UICONTROL Generar complemento]** si desea procesar la población restante. Consulte la sección [Intersección](#intersection).
 
-## Ejemplos{#combine-examples}
+El siguiente ejemplo de **[!UICONTROL exclusión]** muestra dos consultas configuradas para filtrar perfiles que compraron un producto. Los perfiles que no son miembros socio se excluyen del primer conjunto.
 
-En el ejemplo siguiente, se usa una actividad **[!UICONTROL Combinar]** y se agrega una **[!UICONTROL Unión]** para recuperar todos los perfiles de las dos consultas: personas de entre 18 y 27 años y personas de entre 34 y 40 años.
+Por qué: Estás llevando a cabo una campaña de lealtad, por lo que los no miembros son irrelevantes.
 
-![](../assets/workflow-union-example.png)
+![](../assets/orchestrated-exclusion-example.png)
 
-El ejemplo siguiente muestra la **[!UICONTROL intersección]** entre dos actividades de consulta. Se está utilizando aquí para recuperar perfiles de entre 18 y 27 años y cuya dirección de correo electrónico se ha proporcionado.
-
-![](../assets/workflow-intersection-example.png)
-
-El siguiente ejemplo de **[!UICONTROL Exclusion]** muestra dos consultas configuradas para filtrar perfiles de entre 18 y 27 años que tengan un dominio de correo electrónico de Adobe. A continuación, los perfiles con un dominio de correo electrónico de Adobe se excluyen del primer conjunto.
-
-![](../assets/workflow-exclusion-example.png)
