@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: f93d422dfeb5e0d658d40286882ee59b80ae9184
+source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 1%
@@ -159,35 +159,6 @@ El texto enriquecido, como saltos de línea, negrita, cursiva, etc., se puede ag
 1. Reemplace `render_content` por el código HTML correspondiente al contenido enriquecido predeterminado que desee. Puede añadir negrita, cursiva, saltos de línea, listas con viñetas, etc.
 
    ![](assets/fragment-rich-editable-content.png)
-<!--
-    +++For example:
-
-    ```html
-
-    <h1>Main title</h1>
-
-    <h2>Subtitle One</h2>
-    <p>This is a paragraph with a line break.<br>Here is the new line.</p>
-
-    <p class="bold">This text is bold.</p>
-    <p class="italic">This text is italic.</p>
-    <p class="bold-italic">This text is bold and italic.</p>
-
-    <ul>
-        <li>First bullet point</li>
-        <li>Second bullet point with more text</li>
-        <li>Third bullet point</li>
-    </ul>
-
-    <hr>
-
-    <h2>Subtitle Two</h2>
-    <blockquote>This is a blockquote or note with styled background and border.</blockquote>
-
-    ```
-
-    +++
--->
 
 1. Dentro del mismo componente de HTML, agregue otra función de ayuda **inline** para los elementos de estilo.
 
@@ -223,4 +194,4 @@ Al añadir el fragmento a su contenido de correo electrónico, los usuarios ahor
 
 Este vídeo muestra cómo hacer que los componentes de HTML dentro de un fragmento se puedan editar, lo que permite actualizaciones dinámicas tanto del contenido como del estilo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464371/?learn=on&#x26;enablevpops&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
