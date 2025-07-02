@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
+source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 23%
@@ -65,6 +65,6 @@ Este caso de uso implica el envío de un SMS a perfiles que han creado una lista
 
 Comience con una actividad **[!UICONTROL Generar audiencia]** usando la dimensión de segmentación **[!UICONTROL Wishlist]** para seleccionar todas las listas de deseos relevantes.
 
-A continuación, inserte una actividad **[!UICONTROL Change dimension]** para cambiar la dimensión de segmentación de **[!UICONTROL Wishlist]** a **&#x200B;**&#x200B;[!UICONTROL Destinatario]**. Esto permite que la campaña orquestada envíe el SMS a los perfiles asociados con esas listas de deseos.
+A continuación, inserte una actividad **[!UICONTROL Change dimension]** para cambiar la dimensión de segmentación de **[!UICONTROL Wishlist]** a **[!UICONTROL Destinatario]**. Esto permite que la campaña orquestada envíe el SMS a los perfiles asociados con esas listas de deseos.
 
-![](../assets/change-dimension-example.png)
+![](../assets/orchestrated-change-dimension-example.png)

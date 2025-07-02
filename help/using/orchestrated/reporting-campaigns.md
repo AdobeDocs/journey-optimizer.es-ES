@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 5e4d64c4236898683a1ebb5ab2a19be4fcd15d79
+source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '259'
 ht-degree: 11%
 
 ---
@@ -34,20 +34,15 @@ La campaña orquestada le ofrece perspectivas procesables a través de sus sóli
 ## Tipos de informes {#reporting-types}
 
 <table style="table-layout:auto; width: 100%; border-collapse: collapse;">
-  <thead>
-    <tr style="text-align: left">
-      <th>Tipo de informe</th>
-      <th>Descripción</th>
-    </tr>
-  </thead>
   <tbody>
-    <tr style="border: 0;">
+    <tr>
       <td><a href="../reports/live-report.md"><img alt="Informe en vivo" src="assets/last-24hours.png"></a></td>
       <td>
         Use <b>Informe en vivo</b> para medir y visualizar en tiempo real el impacto y el rendimiento de sus campañas orquestadas en un panel integrado. Los datos están disponibles en el <b>informe en vivo</b> tan pronto como su campaña orquestada se ejecute desde el menú <b>Ver el informe de las últimas 24 horas</b>. Obtenga más información acerca de los informes en vivo <a href="../reports/live-report.md">en esta sección</a>.
       </td>
+        </br>
     </tr>
-    <tr style="border: 0; background-color: #FFFFFF;">
+    <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="Informe de todo el tiempo" src="assets/all-time-report.png"></a></td>
       <td>
         La creación de informes de campañas organizadas está totalmente integrada con las funciones de Customer Journey Analytics, estandarizando la creación de informes en ambas plataformas y mejorando la coherencia y fiabilidad de los datos. Más información sobre <a href="../reports/report-gs-cja.md">todos los informes de horas</a>.
