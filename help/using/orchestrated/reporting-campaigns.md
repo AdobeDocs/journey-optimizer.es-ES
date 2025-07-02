@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 1a76d5349de807fe106535424940a8eca3922797
+source-git-commit: 5e4d64c4236898683a1ebb5ab2a19be4fcd15d79
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 10%
+source-wordcount: '262'
+ht-degree: 11%
 
 ---
 
@@ -30,6 +30,34 @@ ht-degree: 10%
 
 La campaña orquestada le ofrece perspectivas procesables a través de sus sólidas capacidades de creación de informes. Estas perspectivas le ayudan a comprender mejor el comportamiento de la audiencia, medir el rendimiento de cada paso en el recorrido del cliente y tomar decisiones basadas en datos para optimizar futuras campañas. Con las métricas y visualizaciones detalladas, puede rastrear la participación y ajustar sus estrategias de segmentación para lograr el máximo impacto.
 
+
+## Tipos de informes {#reporting-types}
+
+<table style="table-layout:auto; width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr style="text-align: left">
+      <th>Tipo de informe</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border: 0;">
+      <td><a href="../reports/live-report.md"><img alt="Informe en vivo" src="assets/last-24hours.png"></a></td>
+      <td>
+        Use <b>Informe en vivo</b> para medir y visualizar en tiempo real el impacto y el rendimiento de sus campañas orquestadas en un panel integrado. Los datos están disponibles en el <b>informe en vivo</b> tan pronto como su campaña orquestada se ejecute desde el menú <b>Ver el informe de las últimas 24 horas</b>. Obtenga más información acerca de los informes en vivo <a href="../reports/live-report.md">en esta sección</a>.
+      </td>
+    </tr>
+    <tr style="border: 0; background-color: #FFFFFF;">
+      <td><a href="../reports/report-gs-cja.md"><img alt="Informe de todo el tiempo" src="assets/all-time-report.png"></a></td>
+      <td>
+        La creación de informes de campañas organizadas está totalmente integrada con las funciones de Customer Journey Analytics, estandarizando la creación de informes en ambas plataformas y mejorando la coherencia y fiabilidad de los datos. Más información sobre <a href="../reports/report-gs-cja.md">todos los informes de horas</a>.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Profundizar en los informes de canal
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="Correo electrónico" src="../channels/assets/do-not-localize/email.png">
 <div align="center"><p><a href="../reports/campaign-global-report-cja-email.md"><strong>Canal de correo electrónico</strong></a></p></div></td>
@@ -38,12 +66,3 @@ La campaña orquestada le ofrece perspectivas procesables a través de sus sóli
 <td><a href="../reports/campaign-global-report-cja-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><p><a href="../reports/campaign-global-report-cja-push.md"><strong>Canal push</strong></p></a></div></td>
 </table>
-
-
-## Tipos de informes {#reporting-types}
-
-
-| Tipo de informe | Descripción |
-|-----|------------|
-| ![](assets/last-24hours.png){zoomable="yes"}{width="50%"} | Use **[!UICONTROL Informe en vivo]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus campañas orquestadas en un panel integrado. Los datos están disponibles en el **[!UICONTROL informe en vivo]** tan pronto como su campaña orquestada se ejecute desde el menú **[!UICONTROL Ver el informe de las últimas 24 horas]**. Obtenga más información acerca de los informes en vivo [en esta sección](../reports/live-report.md). |
-| ![](assets/all-time-report.png){zoomable="yes"}{width="50%"} | La creación de informes de campañas organizadas está totalmente integrada con las funciones de Customer Journey Analytics, estandarizando la creación de informes en ambas plataformas y mejorando la coherencia y fiabilidad de los datos.  Obtenga más información acerca de todos los informes de tiempo [en esta sección](../reports/report-gs-cja.md). |
