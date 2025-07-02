@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1069'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Creación de un mensaje de texto"
->abstract="Para crear un mensaje de texto (SMS/MMS/RCS), añada una acción SMS en un recorrido o una campaña y comience a personalizarla con el editor de personalización."
+>abstract="Para crear un mensaje de texto (SMS/MMS/RCS), añada una acción de SMS en un recorrido o una campaña, y comience a personalizarlo con el editor de personalización."
 
 Puede diseñar y enviar mensajes de texto (SMS), de comunicación enriquecida (RCS) y multimedia (MMS) con Adobe Journey Optimizer. Primero debe agregar una acción SMS en un recorrido o una campaña y luego definir el contenido del mensaje de texto, como se detalla a continuación. Adobe Journey Optimizer también ofrece funciones para probar los mensajes de texto antes de enviarlos, de modo que pueda comprobar el procesamiento, los atributos de personalización y todos los demás ajustes.
 
@@ -95,7 +95,7 @@ Ahora puede empezar a diseñar el contenido de su mensaje de texto desde el bot�
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definición del contenido de los SMS"
->abstract="Personalice y personalice sus mensajes de texto (SMS/MMS/RCS) mediante el editor de personalización para definir el contenido e incorporar elementos dinámicos."
+>abstract="Personalice sus mensajes de texto (SMS/MMS/RCS) con el editor de personalización para definir el contenido e incorporar elementos dinámicos."
 
 Para configurar el contenido del mensaje, siga los pasos a continuación. La configuración de MMS se detalla en [esta sección](#mms-content).
 
