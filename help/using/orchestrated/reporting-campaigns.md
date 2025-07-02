@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: e01715416659270ddf75eb9fdb8f0eb03063bd7b
+source-git-commit: d4cee2680dbe631d93f43d7d165d6874b9e41a47
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 10%
@@ -45,8 +45,8 @@ La campaña orquestada le ofrece perspectivas procesables a través de sus sóli
 
 | Tipo de informe | Descripción |
 |-----|------------|
-| ![](assets/last-24hours.png){zoomable="yes"}{width="70%"} | Use **[!UICONTROL Informe en vivo]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus campañas orquestadas en un panel integrado. Los datos están disponibles en el **[!UICONTROL informe en vivo]** tan pronto como su campaña orquestada se ejecute desde el menú **[!UICONTROL Ver el informe de las últimas 24 horas]**. Obtenga más información acerca de los informes en vivo [en esta sección](live-report.md). |
-| ![](assets/all-time-report.png){zoomable="yes"}{width="70%"} | La creación de informes de campañas organizadas está totalmente integrada con las funciones de Customer Journey Analytics, estandarizando la creación de informes en ambas plataformas y mejorando la coherencia y fiabilidad de los datos.  Obtenga más información acerca de todos los informes de tiempo [en esta sección](report-gs-cja.md). |
+| ![](assets/last-24hours.png){zoomable="yes"}{width="70%"} | Use **[!UICONTROL Informe en vivo]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus campañas orquestadas en un panel integrado. Los datos están disponibles en el **[!UICONTROL informe en vivo]** tan pronto como su campaña orquestada se ejecute desde el menú **[!UICONTROL Ver el informe de las últimas 24 horas]**. Obtenga más información acerca de los informes en vivo [en esta sección](../reports/live-report.md). |
+| ![](assets/all-time-report.png){zoomable="yes"}{width="70%"} | La creación de informes de campañas organizadas está totalmente integrada con las funciones de Customer Journey Analytics, estandarizando la creación de informes en ambas plataformas y mejorando la coherencia y fiabilidad de los datos.  Obtenga más información acerca de todos los informes de tiempo [en esta sección](../reports/report-gs-cja.md). |
 
 
 
