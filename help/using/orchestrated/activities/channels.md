@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
+source-git-commit: cfb09467809a69516c34d52be3f41e7a1abdb7c3
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 17%
@@ -101,7 +101,7 @@ Para configurar una entrega en el contexto de una campaña orquestada, siga los 
 
 1. En el caso del correo electrónico y los SMS, utilice las opciones de seguimiento para monitorizar cómo reaccionan los destinatarios a los envíos de correo electrónico o SMS.
 
-   Se puede acceder a los resultados de seguimiento desde el informe de campaña una vez que se ha ejecutado la campaña. [Más información sobre los informes de campaña](../reports/campaign-global-report-cja.md)
+   Se puede acceder a los resultados de seguimiento desde el informe de campaña una vez que se ha ejecutado la campaña. [Más información sobre los informes de campaña](../../reports/campaign-global-report-cja.md)
 
 1. Para las notificaciones push, usa la opción **[!UICONTROL Modo de envío rápido]** para realizar el envío de mensajes de alta velocidad en el canal push a un tamaño de audiencia inferior a 30 millones.
 
