@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
+source-git-commit: ef0d0e54e566d168a4845cd1af57900d54aec0b7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '262'
 ht-degree: 11%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 11%
 
 La campaña orquestada le ofrece perspectivas procesables a través de sus sólidas capacidades de creación de informes. Estas perspectivas le ayudan a comprender mejor el comportamiento de la audiencia, medir el rendimiento de cada paso en el recorrido del cliente y tomar decisiones basadas en datos para optimizar futuras campañas. Con las métricas y visualizaciones detalladas, puede rastrear la participación y ajustar sus estrategias de segmentación para lograr el máximo impacto.
 
+![](assets/report-orchestrated.png)
 
 ## Tipos de informes {#reporting-types}
 
@@ -45,7 +46,7 @@ La campaña orquestada le ofrece perspectivas procesables a través de sus sóli
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="Informe de todo el tiempo" src="assets/all-time-report.png"></a></td>
       <td>
-        La creación de informes de campañas organizadas está totalmente integrada con las funciones de Customer Journey Analytics, estandarizando la creación de informes en ambas plataformas y mejorando la coherencia y fiabilidad de los datos. Más información sobre <a href="../reports/report-gs-cja.md">todos los informes de horas</a>.
+        <b>Informe de todos los tiempos</b> está totalmente integrado con las capacidades de Customer Journey Analytics, estandarizando la generación de informes en ambas plataformas y mejorando la consistencia y confiabilidad de los datos. Obtenga más información acerca de todos los informes de tiempo <a href="../reports/report-gs-cja.md">en esta sección</a>.
       </td>
     </tr>
   </tbody>
