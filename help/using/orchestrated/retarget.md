@@ -1,20 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creación de esquemas relacionales para campañas orquestadas
-description: Aprenda a crear y administrar esquemas relacionales para sus campañas organizadas
-badge: label="Alpha"
+title: Inicio y monitorización de campañas orquestadas con Adobe Journey Optimizer
+description: Obtenga información sobre cómo iniciar y supervisar campañas orquestadas con Adobe Journey Optimizer.
 hide: true
 hidefromtoc: true
-exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
 source-git-commit: 6439be00315dfde7ab385d7f848b7031d95060f4
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 38%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 
-# Creación de esquemas relacionales {#orchestrated-schemas}
+# Retargeting {#retarget}
 
 +++ Tabla de contenido
 
@@ -26,8 +24,8 @@ ht-degree: 38%
 
 +++
 
-<br/>
+>[!BEGINSHADEBOX]
 
-Un esquema representa y valida la estructura y el formato de los datos. Proporciona una definición abstracta de un objeto del mundo real (como, por ejemplo, una persona) y describe qué datos deben incluirse en cada instancia de ese objeto (como, por ejemplo, nombre, cumpleaños, etc.).
+Documentación en curso
 
-![Botón Crear esquema con la opción Relacional seleccionada](assets/create-relational-schema.png)
+>[!ENDSHADEBOX]
