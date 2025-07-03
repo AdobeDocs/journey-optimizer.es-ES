@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: 28284b3d42a0e78add3470ef128dd740f9cc9dfd
+source-git-commit: de769ae29f933e3bfa520e67b9193666f3f2cef5
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 36%
@@ -59,7 +59,7 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Deduplication]**:
 
 1. En la sección **[!UICONTROL Campos para identificar duplicados]**, haga clic en el botón **[!UICONTROL Añadir atributo]** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán en primer lugar.
 
-![](../assets/deduplication-1.png)
+   ![](../assets/deduplication-1.png)
 
 1. En la sección **[!UICONTROL Configuración de anulación de duplicación]**, elija cuántos registros únicos debe seguir usando el campo Duplicados que mantener. El valor predeterminado es 1, que mantiene un registro por grupo duplicado. Configúrelo en 0 para mantener todos los duplicados.
 
