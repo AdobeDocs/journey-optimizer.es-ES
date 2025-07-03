@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: css, editor, resumen, correo electrónico
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: 707815ddfdca656cdf341f103bee3440e9700270
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '727'
 ht-degree: 7%
 
 ---
@@ -41,13 +41,15 @@ Para añadir CSS personalizado al contenido del correo electrónico, siga los pa
 
 1. Haga clic en el botón **[!UICONTROL Agregar CSS personalizado]**.
 
+   >[!NOTE]
+   >
+   >El botón **[!UICONTROL Agregar CSS personalizado]** solo está disponible cuando se selecciona **[!UICONTROL Cuerpo]**. Sin embargo, puede aplicar estilos CSS personalizados a todos los componentes del contenido.
+
 1. Introduzca su código CSS en el área de texto dedicada que aparece. Asegúrese de que CSS personalizado sea válido y siga la sintaxis adecuada. [Más información](#use-valid-css)
 
    ![Escriba CSS personalizado en el área de texto dedicada](assets/email-body-custom-css.png){width="65%"}
 
    >[!NOTE]
-   >
-   >El botón **[!UICONTROL Agregar CSS personalizado]** solo está disponible cuando se selecciona **[!UICONTROL Cuerpo]**. Sin embargo, puede aplicar estilos CSS personalizados a todos los componentes del contenido.
    >
    >Al usar una [plantilla con contenido bloqueado](../content-management/content-locking.md#use), no se puede agregar CSS personalizado al contenido. La etiqueta del botón cambia a **[!UICONTROL Ver CSS personalizado]** y cualquier CSS personalizado que ya esté presente en el contenido es de solo lectura.
 
@@ -202,12 +204,6 @@ Su CSS personalizado se agrega al final de la sección `<head>` como parte de un
 
 El panel **[!UICONTROL Configuración]** de Designer de correo electrónico no interpreta ni valida la CSS personalizada. Es totalmente independiente y solo se puede modificar mediante la opción **[!UICONTROL Agregar CSS personalizado]**.
 
-Si la etiqueta de estilo `global-custom` tiene el atributo `data-disabled` establecido en `true`, no se aplicará CSS personalizado. Por ejemplo:
-
-```html
-<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
-```
-
 ### Contenido importado
 
 Si desea utilizar CSS personalizado con contenido importado en el Designer de correo electrónico, tenga en cuenta lo siguiente:
@@ -225,7 +221,13 @@ Si no se aplica el CSS personalizado, tenga en cuenta las siguientes opciones.
 
 * Asegúrese de que el CSS sea válido y esté libre de errores de sintaxis (como llaves que faltan, nombres de propiedad incorrectos). [Descubra cómo](#use-valid-css)
 
-* Asegúrese de que su CSS se agrega a la etiqueta `<style>` con el atributo `data-name="global-custom"` y que `data-disabled` no se aplica a `global-custom`. [Más información](#implementation)
+* Asegúrese de que su CSS se agrega a la etiqueta `<style>` con el atributo `data-name="global-custom"`.
+
+* Compruebe si la etiqueta de estilo `global-custom` tiene el atributo `data-disabled` establecido en `true`. En este caso, no se aplica el CSS personalizado. Por ejemplo:
+
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
 
 * Asegúrese de que otras reglas CSS no anulen su CSS, incluido cualquier [tema](apply-email-themes.md) aplicado al contenido.
 
