@@ -190,7 +190,7 @@ ht-degree: 98%
       + [Trabajar con el generador de reglas](using/orchestrated/orchestrated-rule-builder.md)
       + [Cree su primera regla](using/orchestrated/build-query.md)
       + [Editar expresiones](using/orchestrated/edit-expressions.md)
-      + [Redireccionamiento](using/orchestrated/retarget)
+      + [Redireccionamiento] (using/orchestrated/retarget)
    + Actividades de las campañas organizadas {#design-campaigns}
       + [Introducción a las actividades](using/orchestrated/activities/about-activities.md)
       + [And-join](using/orchestrated/activities/and-join.md)
