@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 28284b3d42a0e78add3470ef128dd740f9cc9dfd
+source-git-commit: da292bdb81d322485a00cc60d995e04d30ad4e11
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '956'
 ht-degree: 15%
 
 ---
@@ -129,6 +129,8 @@ Cambie a la ficha **[!UICONTROL Contenido]** para crear el mensaje. El proceso d
 </tr></table>
 
 Una vez creado el contenido, use el botón **[!UICONTROL Simular contenido]** para obtener una vista previa y probar el contenido con perfiles de prueba o datos de entrada de muestra cargados desde un archivo CSV/JSON, o agregados manualmente. [Más información](../../content-management/preview-test.md)
+
+![imagen que muestra el botón Simular contenido](../assets/channel-simulate.png)
 
 ## Pasos siguientes {#next}
 
