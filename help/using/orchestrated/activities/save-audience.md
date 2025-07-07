@@ -6,10 +6,11 @@ description: Aprenda a utilizar la actividad Guardar audiencia en una campaña o
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 8a5026cdeb63b7b261ec0dfa690c5bd41d7de772
+exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
+source-git-commit: ab3cfbdc5c48b5fea47817d39fb8429e096439ff
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 3%
+source-wordcount: '345'
+ht-degree: 4%
 
 ---
 
@@ -32,26 +33,28 @@ Esta actividad es especialmente útil para preservar segmentos de audiencia calc
 
 ## Configuración de la actividad Guardar audiencia {#save-audience-configuration}
 
-Siga estos pasos para configurar la actividad **Guardar audiencia**:
+Siga estos pasos para configurar la actividad **[!UICONTROL Guardar audiencia]**:
 
-1. Agregue una actividad **Guardar audiencia** a su campaña orquestada.
+1. Agregue una actividad **[!UICONTROL Guardar audiencia]** a su campaña orquestada.
 
-1. En la lista desplegable **Modo**, seleccione la acción que desee realizar:
+1. Escriba una **[!UICONTROL etiqueta de audiencia]** que identifique la audiencia guardada.
 
-   * **Crear o actualizar una audiencia existente**: defina una **etiqueta de audiencia**. Si la audiencia ya existe, se actualiza; de lo contrario, se crea una nueva.
+1. Haga clic en **[!UICONTROL Agregar atributo de audiencia]** para definir cómo se estructuran y almacenan los datos de audiencia para su reutilización futura.
 
-   * **Actualizar una audiencia existente**: elija la **audiencia** que desee actualizar de la lista de audiencias existentes.
+   ![](../assets/save-audience-1.png)
 
-1. Seleccione el **modo de actualización** que se aplica a las audiencias existentes:
+1. A continuación, seleccione el **[!UICONTROL campo de identidad principal]** &#x200B;y el **[!UICONTROL área de nombres de identidad]** adecuados para garantizar una resolución precisa del perfil.
 
-   * **Reemplazar contenido de audiencia por datos nuevos**: se reemplaza todo el contenido de audiencia y se pierden datos antiguos. Solo se conservan los datos de la transición entrante de la actividad **Guardar audiencia**. Esta opción borra el tipo de audiencia y la dimensión de segmentación de la audiencia actualizada.
+   ![](../assets/save-audience-2.png)
 
-   * **Audiencia completa con nuevos datos**: El contenido de audiencia anterior se conserva y los datos de la transición entrante de la actividad **Guardar audiencia** se agregan a ella.
+1. Finalice la configuración guardando y publicando la campaña orquestada. Esto generará y almacenará su audiencia.
 
-1. Marque la opción **Generar una transición saliente** si desea agregar una transición después de la actividad **Guardar audiencia**.
+El contenido de la audiencia guardada está disponible en la vista de detalles de la audiencia, a la que se puede acceder desde el menú **[!UICONTROL Audiencias]**.
 
-El contenido de la audiencia guardada está disponible en la vista de detalles de la audiencia, a la que se puede acceder desde el menú **Audiencias**. Las columnas disponibles en esta vista corresponden a las columnas de la transición entrante de la actividad de la campaña orquestada **Guardar audiencia**.
+![](../assets/save-audience-3.png)
 
 ## Ejemplo {#save-audience-example}
 
-El siguiente ejemplo ilustra una actualización de audiencia simple desde la segmentación. Un planificador ejecuta la campaña orquestada una vez al mes. Una consulta recupera todos los perfiles suscritos a las diferentes aplicaciones disponibles. La actividad **Guardar audiencia** actualiza la audiencia eliminando perfiles que han cancelado la suscripción al servicio desde la última ejecución de campaña orquestada y agregando perfiles recién suscritos.
+En el siguiente ejemplo se muestra cómo crear una audiencia simple mediante la segmentación. Una consulta identifica todos los perfiles que realizaron una compra en los últimos 30 días. La actividad **[!UICONTROL Guardar audiencia]** captura estos perfiles para crear una audiencia reutilizable de compradores recientes.
+
+![](../assets/save-audience-4.png)
