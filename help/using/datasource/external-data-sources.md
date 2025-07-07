@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 33%
+ht-degree: 36%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="Fuentes de datos externas"
->abstract="Las fuentes de datos externas permiten definir una conexión con sistemas de terceros, por ejemplo, si utiliza un sistema de reserva de hoteles para comprobar si la persona ha registrado una habitación. A diferencia de la fuente de datos integrada de Adobe Experience Platform, puede crear tantas fuentes de datos externas como necesite."
+>abstract="Las fuentes de datos externas le permiten definir una conexión a sistemas de terceros, por ejemplo, si utiliza un sistema de reserva de hoteles para comprobar si la persona ha reservado una habitación. A diferencia de la fuente de datos integrada de Adobe Experience Platform, puede crear tantas fuentes de datos externas como necesite."
 
 ## Trabajo con fuentes de datos externas {#gs-ext-data-sources}
 
-Las fuentes de datos externas permiten definir una conexión con sistemas de terceros, por ejemplo, si utiliza un sistema de reserva de hoteles para comprobar si la persona ha registrado una habitación. A diferencia de la fuente de datos integrada de Adobe Experience Platform, puede crear tantas fuentes de datos externas como necesite.
+Las fuentes de datos externas le permiten definir una conexión a sistemas de terceros, por ejemplo, si utiliza un sistema de reserva de hoteles para comprobar si la persona ha reservado una habitación. A diferencia de la fuente de datos integrada de Adobe Experience Platform, puede crear tantas fuentes de datos externas como necesite.
 
 >[!NOTE]
 >
@@ -108,11 +108,11 @@ En el caso de una llamada de GET que requiera parámetros, ingrese los parámetr
 * enumera los parámetros que se pasarán en el momento de la llamada en el campo **[!UICONTROL Valores dinámicos]** (en el ejemplo siguiente: &quot;identificador&quot;).
 * Especificarlos también con la misma sintaxis en el cuerpo de la carga útil enviada. Para ello, debe agregar: &quot;param&quot;: &quot;nombre del parámetro&quot; (en el ejemplo siguiente: &quot;identificador&quot;). Siga esta sintaxis:
 
-  ```json
-  {"id":{"param":"identifier"}}
-  ```
+```json
+{"id":{"param":"identifier"}}
+```
 
-  ![](assets/journey29.png)
+![](assets/journey29.png)
 
 
 Una vez guardados los cambios, la fuente de datos está configurada y lista para utilizarse en los recorridos, por ejemplo en las condiciones o para personalizar un correo electrónico. Si la temperatura es superior a 30 °C, puede decidir enviar una comunicación específica.
@@ -272,4 +272,4 @@ A continuación, se muestra un ejemplo de la respuesta de la llamada de API de i
 
 >[!CAUTION]
 >
->Al configurar la autenticación personalizada para una acción personalizada, tenga en cuenta que actualmente **no se admiten los objetos JSON anidados (por ejemplo, subobjetos dentro de `bodyParams`)**. En la carga útil de la solicitud final solo se incluyen pares de clave-valor plana. Si el extremo de autenticación requiere objetos anidados, puede que falten campos y errores de autenticación.
+>Al configurar la autenticación personalizada para una acción personalizada, tenga en cuenta que actualmente `bodyParams`no se admiten los objetos JSON anidados (por ejemplo, subobjetos dentro de **)**. En la carga útil de la solicitud final solo se incluyen pares de clave-valor plana. Si el extremo de autenticación requiere objetos anidados, puede que falten campos y errores de autenticación.

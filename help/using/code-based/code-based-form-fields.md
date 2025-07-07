@@ -5,10 +5,11 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
+source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
 workflow-type: tm+mt
 source-wordcount: '1218'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -34,8 +35,8 @@ Al aplicar la plantilla de contenido a su contenido, los usuarios pueden persona
 
 >[!CONTEXTUALHELP]
 >id="ajo_cbe_preview_form_fields"
->title="Compruebe la renderización de los campos del formulario"
->abstract="En las plantillas de contenido JSON o HTML, puede definir campos editables específicos que permitirán a los usuarios no técnicos editar fácilmente el contenido en experiencias basadas en código sin necesidad de manipular el código. Cree esos campos con la sintaxis dedicada y previsualícelos con este botón."
+>title="Compruebe el renderizado de los campos del formulario"
+>abstract="En las plantillas de contenido, ahora puede definir campos JSON o HTML específicos que permiten a los usuarios no técnicos editar fácilmente el contenido en experiencias basadas en código sin necesidad de manipularlo. Cree esos campos con la sintaxis dedicada y previsualícelos con este botón."
 
 Para poder editar parte de su código JSON o HTML, comience creando una experiencia basada en código [plantilla de contenido](../content-management/content-templates.md) en la que puede definir campos de formulario específicos.
 
@@ -148,8 +149,8 @@ A continuación se muestran algunos ejemplos de plantillas JSON y HTML, algunas 
 >
 >Al hacer referencia a los campos en línea en la carga útil JSON:
 >
->   * Los campos de tipo cadena deben estar entre comillas dobles.
->   * Los números enteros o booleanos NO deben incluirse entre comillas dobles. (Consulte el campo `number_of_items` en el ejemplo anterior).
+>* Los campos de tipo cadena deben estar entre comillas dobles.
+>* Los números enteros o booleanos NO deben incluirse entre comillas dobles. (Consulte el campo `number_of_items` en el ejemplo anterior).
 
 **Plantilla JSON con toma de decisiones:**
 
@@ -200,7 +201,7 @@ A continuación se muestran algunos ejemplos de plantillas JSON y HTML, algunas 
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_form_fields"
->title="¿Qué son los campos de formulario?"
+>title="¿Qué son los campos de formularios?"
 >abstract="Esta experiencia basada en código contiene campos de formulario que se pueden editar fácilmente sin necesidad de manipular el código en el editor de personalización."
 
 Ahora que se ha creado la plantilla de contenido que contiene campos de formulario editables predefinidos, puede crear una experiencia basada en código mediante esta plantilla de contenido.
@@ -245,5 +246,4 @@ Podrá editar fácilmente los campos de formulario desde un recorrido de experie
 
 Aprenda a añadir campos editables a plantillas de contenido de canal de experiencia basadas en código.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463994/?learn=on&#x26;enablevpops&captions=spa)
-
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
