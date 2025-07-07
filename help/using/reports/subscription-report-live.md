@@ -20,9 +20,9 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_live_report"
 >title="Informe en vivo de la suscripción"
->abstract="El informe en vivo de la suscripción permite medir y visualizar en tiempo real la actividad de los suscriptores solo durante las últimas 24 horas. El informe se divide en distintos widgets que detallan las subscripciones y las cancelaciones de subscripciones. Cada tablero de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
+>abstract="El informe en vivo de la suscripción permite medir y visualizar en tiempo real la actividad de los suscriptores solo durante las últimas 24 horas. El informe se divide en distintos widgets que detallan las subscripciones y las cancelaciones de subscripciones. Cada panel de control de informes se puede modificar cambiando el tamaño de los widgets o eliminándolos."
 
-Los informes en directo, a los que se puede acceder desde la pestaña Últimas 24 horas, muestran los eventos que han tenido lugar en las últimas 24 horas, con un intervalo de tiempo mínimo de dos minutos desde que se produjo el evento. En comparación, los informes de Customer Journey Analytics se centran en eventos que se produjeron hace al menos dos horas y abarcan eventos de un periodo de tiempo seleccionado.
+Los informes en directo, a los que se puede acceder desde la pestaña Últimas 24 horas, muestran los eventos que han tenido lugar en las últimas 24 horas, con un intervalo de tiempo mínimo de dos minutos desde que se produjo el evento. En comparación, los informes de Customer Journey Analytics se centran en eventos que ocurrieron al menos hace dos horas y cubren eventos que se produjeron durante un período de tiempo seleccionado.
 
 Para acceder a tus informes, haz clic en el icono **[!UICONTROL Informe]** de la lista de suscripción seleccionada.
 
