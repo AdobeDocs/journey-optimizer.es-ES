@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 90%
+source-wordcount: '387'
+ht-degree: 87%
 
 ---
 
@@ -40,13 +40,7 @@ Desde el diseñador de recorrido, los especialistas en marketing pueden enviar m
 
 El [diseñador de recorridos](using-the-journey-designer.md) proporciona [acciones de canal integradas](journeys-message.md) que admiten mensajes salientes, como correos electrónicos, notificaciones push y SMS/MMS, así como canales entrantes, incluidas aplicaciones móviles, sitios web y experiencias basadas en código creadas directamente en Journey Optimizer. También puede usar sistemas de terceros para enviar mensajes, ya sea por correo electrónico, texto u otros canales, Journey Optimizer incluye [acciones personalizadas](using-custom-actions.md) para permitir que estos sistemas se integren en los recorridos directamente desde el diseñador de recorrido.
 
-Obtenga información sobre cómo crear recorridos en los siguientes casos de uso de extremo a extremo:
-
-* [Envío de mensajes multicanal](journeys-uc.md)
-* [Envío de un mensaje mediante Campaign v7/v8](ajo-ac.md)
-* [Envío de un mensaje a los suscriptores](message-to-subscribers-uc.md)
-* [Paso de colecciones de forma dinámica mediante acciones personalizadas](collections.md)
-* [Limitación del rendimiento con fuentes de datos externas y acciones personalizadas](limit-throughput.md)
+Aprenda a crear recorridos [ en estos casos de uso de extremo a extremo](jo-use-cases.md).
 
 >[!NOTE]
 >
@@ -56,4 +50,4 @@ Obtenga información sobre cómo crear recorridos en los siguientes casos de uso
 
 Descubra los componentes de un recorrido y comprenda los conceptos básicos para construir un recorrido en el lienzo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430353?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
