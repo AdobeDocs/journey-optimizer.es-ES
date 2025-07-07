@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: conjunto de datos, optimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
+source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '916'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,9 @@ En esta página, encontrará la lista de conjuntos de datos de Adobe Journey Opt
 * [Conjunto de datos de entidad](#entity-dataset)
 
 Para ver la lista completa de campos y atributos para cada esquema, consulte el [diccionario del esquema de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es){target="_blank"}.
+
+Vea también [ejemplos usados con frecuencia para consultar los eventos de pasos de Recorrido](../reports/query-examples.md).
+
 
 ## Conjunto de datos de evento de experiencia de seguimiento de correo electrónico{#email-tracking-experience-event-dataset}
 
@@ -234,6 +237,11 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeID,
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
+
+
+Vea también [ejemplos usados con frecuencia para consultar los eventos de pasos de Recorrido](../reports/query-examples.md).
+
+
 
 ## Conjunto de datos de evento{#ode-decisionevents}
 
