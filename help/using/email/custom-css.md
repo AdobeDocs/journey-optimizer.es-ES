@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: css, editor, resumen, correo electrónico
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: 707815ddfdca656cdf341f103bee3440e9700270
+source-git-commit: c72e6c1ff9d1ce1510f8571d82e56ae21c63194d
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '733'
 ht-degree: 7%
 
 ---
@@ -71,7 +71,7 @@ Puede introducir cualquier cadena CSS válida en el área de texto **[!UICONTROL
 >
 >Evite utilizar CSS que pudiera romper involuntariamente el diseño o la funcionalidad del contenido.
 
-### CSS válido
++++ Ejemplos de CSS
 
 A continuación se muestran ejemplos de CSS válido.
 
@@ -139,8 +139,9 @@ A continuación se muestran ejemplos de CSS válido.
   }
 }
 ```
++++
 
-### CSS no válido
++++ Ejemplos de CSS no válido
 
 Si se introduce un CSS no válido, se muestra un mensaje de error que indica que el CSS no se puede guardar. A continuación se muestran ejemplos de CSS no válido.
 
@@ -164,10 +165,13 @@ No se acepta sintaxis no válida como llaves que faltan:
 body {
   background: red;
 ```
++++
 
 ## Implementación técnica {#implementation}
 
 Su CSS personalizado se agrega al final de la sección `<head>` como parte de una etiqueta `<style>` con el atributo `data-name="global-custom"`, como en el ejemplo siguiente. Esto garantiza que los estilos personalizados se apliquen globalmente al contenido.
+
++++ Ver muestra
 
 ```html
 <!DOCTYPE html>
@@ -201,10 +205,11 @@ Su CSS personalizado se agrega al final de la sección `<head>` como parte de un
   </body>
 </html>
 ```
++++
 
 El panel **[!UICONTROL Configuración]** de Designer de correo electrónico no interpreta ni valida la CSS personalizada. Es totalmente independiente y solo se puede modificar mediante la opción **[!UICONTROL Agregar CSS personalizado]**.
 
-### Contenido importado
+### Protecciones: contenido importado
 
 Si desea utilizar CSS personalizado con contenido importado en el Designer de correo electrónico, tenga en cuenta lo siguiente:
 
@@ -223,20 +228,28 @@ Si no se aplica el CSS personalizado, tenga en cuenta las siguientes opciones.
 
 * Asegúrese de que su CSS se agrega a la etiqueta `<style>` con el atributo `data-name="global-custom"`.
 
-* Compruebe si la etiqueta de estilo `global-custom` tiene el atributo `data-disabled` establecido en `true`. En este caso, no se aplica el CSS personalizado. Por ejemplo:
+* Compruebe si la etiqueta de estilo `global-custom` tiene el atributo `data-disabled` establecido en `true`. En este caso, no se aplica el CSS personalizado.
+
++++ Por ejemplo:
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
++++
+
 * Asegúrese de que otras reglas CSS no anulen su CSS, incluido cualquier [tema](apply-email-themes.md) aplicado al contenido.
 
    * Utilice las herramientas para desarrolladores del navegador para inspeccionar el contenido y comprobar que el CSS está dirigido a los selectores correctos.
 
-   * Considere agregar `!important` a sus declaraciones para asegurarse de que tengan prioridad. Por ejemplo:
+   * Considere agregar `!important` a sus declaraciones para asegurarse de que tengan prioridad.
+
++++ Por ejemplo:
 
      ```css
      .acr-Form {
        background: red !important;
      }
      ```
+
++++
