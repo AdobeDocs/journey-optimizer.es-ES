@@ -139,6 +139,7 @@ A continuación se muestran ejemplos de CSS válido.
   }
 }
 ```
+
 +++
 
 +++ Ejemplos de CSS no válido
@@ -165,6 +166,7 @@ No se acepta sintaxis no válida como llaves que faltan:
 body {
   background: red;
 ```
+
 +++
 
 ## Implementación técnica {#implementation}
@@ -205,6 +207,7 @@ Su CSS personalizado se agrega al final de la sección `<head>` como parte de un
   </body>
 </html>
 ```
+
 +++
 
 El panel **[!UICONTROL Configuración]** de Designer de correo electrónico no interpreta ni valida la CSS personalizada. Es totalmente independiente y solo se puede modificar mediante la opción **[!UICONTROL Agregar CSS personalizado]**.
