@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: css, editor, resumen, correo electrónico
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: edf82b966588a792c660430ced2cfe72c6b88216
+source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 7%
@@ -142,6 +142,7 @@ A continuación se muestran ejemplos de CSS válido.
 
 +++
 
+
 +++ Ejemplos de CSS no válido
 
 Si se introduce un CSS no válido, se muestra un mensaje de error que indica que el CSS no se puede guardar. A continuación se muestran ejemplos de CSS no válido.
@@ -209,6 +210,7 @@ Su CSS personalizado se agrega al final de la sección `<head>` como parte de un
 ```
 
 +++
+
 
 El panel **[!UICONTROL Configuración]** de Designer de correo electrónico no interpreta ni valida la CSS personalizada. Es totalmente independiente y solo se puede modificar mediante la opción **[!UICONTROL Agregar CSS personalizado]**.
 
