@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 21%
+source-wordcount: '864'
+ht-degree: 24%
 
 ---
 
@@ -87,24 +87,10 @@ Para activar la ejecución en seco, siga estos pasos:
 
 Una vez iniciada la publicación en modo seco, puede visualizar la ejecución del recorrido y cómo progresan los perfiles a través de las ramas y nodos del recorrido.
 
-Las métricas se muestran directamente en el lienzo del recorrido.
+Las métricas se muestran directamente en el lienzo del recorrido. Obtenga más información acerca de las métricas y los informes en directo de recorrido en [Informe en vivo en el lienzo de recorrido](report-journey.md).
 
 ![Supervisar la ejecución de la ejecución en seco de recorrido](assets/dry-run-metrics.png)
 
-Para cada actividad, en el cuadro de su actividad, puede marcar:
-
-* **[!UICONTROL Ingresado]**: Cantidad total de personas que ingresaron a esta actividad. Para las actividades **Action**, ya que no se ejecutan en el modo de ejecución en seco, esta métrica indica los perfiles que pasan.
-* **[!UICONTROL Salidas (se cumplen los criterios de salida)]**: Número total de personas que salieron del recorrido de esa actividad debido a un criterio de salida.
-* **[!UICONTROL Salida forzada]**: Número total de personas que salieron del recorrido mientras estaba en pausa debido a una configuración del profesional del recorrido. Esta métrica siempre es igual a cero para los recorridos en el modo de ejecución en seco.
-* **[!UICONTROL Error]**: Número total de personas que tuvieron un error en esa actividad.
-
-
-En el nivel de recorrido, en la sección superior izquierda del lienzo, puede comprobar lo siguiente:
-
-* Número total de **perfiles ingresados**
-* Número total de **perfiles abandonados**
-* Número total de **perfiles con error**
-* Número total de **perfiles descartados** en el recorrido
 
 También puede acceder a los **informes de las últimas 24 horas** y a los **informes permanentes** de la ejecución en seco. Para acceder a estos informes, haga clic en el botón **Ver informe** en la esquina superior derecha del lienzo de recorrido.
 

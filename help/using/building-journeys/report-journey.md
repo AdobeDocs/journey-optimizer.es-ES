@@ -9,26 +9,28 @@ role: User
 level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
-source-git-commit: b604ab6d94f414b96378f15986edbcf92cee77dc
+source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 1%
+source-wordcount: '402'
+ht-degree: 2%
 
 ---
 
 # Informe en vivo en el lienzo de recorrido {#report-journey}
 
->[!NOTE]
+Una vez que se haya publicado el recorrido, [Modo de ejecución en seco](journey-dry-run.md) se activará y **Live Reporting** proporcionará métricas de las últimas 24 horas directamente en el lienzo del recorrido.
+
+
+>[!AVAILABILITY]
 >
 >Si no puedes ver los datos en tu informe de recorrido activo, tus derechos de acceso deben ampliarse para incluir el permiso **[!UICONTROL Ver informe de recorridos]**. [Más información](../administration/permissions.md)
 
-Una vez publicado el recorrido, **Informes en vivo** proporciona métricas de las últimas 24 horas, directamente en el lienzo del recorrido.
 
 Los eventos mostrados se han producido en las últimas 24 horas, con un intervalo mínimo de dos minutos entre el evento y su visualización, normalmente en un plazo de cinco minutos.
 
 ![](assets/journey_live_report.png)
 
-Para su recorrido en directo, tiene acceso a:
+Para sus recorridos en el modo Activo o [Modo de ejecución en seco](journey-dry-run.md), puede comprobar:
 
 * **[!UICONTROL Perfiles ingresados]**: Cantidad total de individuos que ingresaron al recorrido.
 * **[!UICONTROL Perfiles abandonados]**: Número total de personas que salieron del recorrido (incluidos los errores).
@@ -40,8 +42,18 @@ Para su recorrido en directo, tiene acceso a:
    * En **recorridos recurrentes**, se cuenta un descarte en cada periodicidad si el individuo ya está en el recorrido y la directiva de reentrada no está establecida en &quot;forzar reentrada&quot;.
    * En las actividades **Leer audiencia**, se produce un descarte si no se establece ninguna identidad para el individuo exportado o si el área de nombres de identidad recibida no coincide con la esperada para el recorrido.
 
-Para cada actividad dentro de cada recorrido activo, tiene acceso a:
+Para cada actividad dentro de cada recorrido en Activo o [Modo de ejecución en seco](journey-dry-run.md), tiene acceso a:
 
-* **[!UICONTROL Ingresado]**: Cantidad total de personas que ingresaron a esta actividad.
-* **[!UICONTROL Salidas (se cumplen los criterios de salida)]**: Número total de personas que salieron del recorrido de esa actividad debido a un criterio de salida.
+* **[!UICONTROL Ingresado]**: Cantidad total de personas que ingresaron a esta actividad. Para las actividades **Action**, ya que no se ejecutan en el modo de ejecución en seco, esta métrica indica los perfiles que pasan.
+* **[!UICONTROL Salidas (se cumplen los criterios de salida)]**: Número total de personas que salieron de la recorrido de esa actividad debido a criterios de salida (incluidos errores).
+* **[!UICONTROL Salida forzada]**: Número total de personas que salieron del recorrido mientras estaba en pausa debido a una configuración del profesional del recorrido. Esta métrica siempre es igual a cero para los recorridos en el modo de ejecución en seco.
 * **[!UICONTROL Error]**: Número total de personas que tuvieron un error en esa actividad.
+
+
+>[!MORELIKETHIS]
+>
+>* [Introducción a creación de informes](../reports/gs-reports.md)
+>* [Publicar su recorrido](publishing-the-journey.md)
+>* [Recorrido en seco](journey-dry-run.md)
+>* [Configura y realiza un seguimiento de tus métricas de recorridos](success-metrics.md)
+>* [Informes de recorridos personalizados](../reports/sharing-overview.md)
