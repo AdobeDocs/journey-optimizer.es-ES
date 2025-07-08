@@ -8,35 +8,67 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
-source-git-commit: d2364bcf395707c5a6acdfea0609a5ddf89c1b02
+source-git-commit: fa53fbe84a0d9c20a47e3d9f312b1673ab0611ca
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 3%
+source-wordcount: '230'
+ht-degree: 2%
 
 ---
 
-# Resolución de problemas del recorrido {#troubleshooting}
+# Solución de problemas de recorridos {#troubleshooting}
 
 Cuando el recorrido de un cliente no se comporta como se espera, la identificación de la causa raíz puede ser difícil. Para ayudarle a resolver los problemas de forma eficaz, a continuación se muestran los recursos de solución de problemas de las áreas problemáticas más comunes. Tanto si se observan errores de recorrido, incoherencias en la ejecución o problemas de nivel de acción, cada sección ofrece instrucciones específicas para investigarlos y resolverlos.
 
 Explore las páginas siguientes para profundizar en temas específicos de solución de problemas:
 
+
+
+<table style="table-layout:fixed">
+  <tr style="border: 0;">
+    <td>
+    <a href="../building-journeys/troubleshooting.md"><img src="../assets/do-not-localize/troubleshooting.jpeg"></a>
+    <div><strong>Solucionar errores de recorrido</strong><br/> Obtenga información sobre cómo identificar y resolver errores de actividad o recorrido antes de la prueba o publicación, y cómo definir una acción de reserva en caso de error en las actividades de recorrido.</div>
+    </td>
+    <td>
+    <a href="../building-journeys/troubleshooting-execution.md"><img src="../assets/do-not-localize/ao-audiences.jpeg"></a>
+    <div><strong>Resolución de problemas de ejecución de recorrido</strong><br/> Obtenga información sobre cómo solucionar problemas de eventos de recorrido, comprobar si los perfiles han entrado en el recorrido, cómo navegan por él y si se envían mensajes.</div>
+    </td>
+    <td>
+    <a href="./building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
+    <div><strong>Solucionar problemas de acciones entrantes</strong><br/>Aprenda a depurar problemas relacionados con acciones entrantes en un recorrido para ayudarle a identificarlos y resolverlos por su cuenta.</div>
+    </td>
+    <td>
+    <a href="../action/troubleshoot-custom-action.md"><img src="../assets/do-not-localize/lp-list.jpg"></a>
+    <div><strong>Solucionar problemas de acciones personalizadas</strong><br/>Aprenda a probar sus acciones personalizadas enviando llamadas de API desde la sección de administración de la interfaz de usuario de Journey Optimizer. Esta capacidad le ayuda a solucionar problemas de las acciones personalizadas antes o después de utilizarlas en un recorrido.</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="../building-journeys/troubleshooting.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="../building-journeys/troubleshooting-execution.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="./building-journeys/troubleshooting-inbound.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="../action/troubleshoot-custom-action.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
+</table>
+
+<!--
+
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
-    <div><img alt="Solucionar errores de recorrido" src="../assets/do-not-localize/troubleshooting.jpeg" /> 
-    <br><ul><li><a href="../building-journeys/troubleshooting.md">Solucionar errores de recorrido</a>: Obtenga información sobre cómo identificar y resolver errores de actividad o recorrido antes de la prueba o publicación, y cómo definir una acción de reserva en caso de error en las actividades de recorrido.</li>
-    <li><a href="../building-journeys/troubleshooting-execution.md">Resolución de problemas de ejecución de recorrido</a>: obtenga información sobre cómo solucionar problemas de eventos de recorrido, compruebe si los perfiles entraron en el recorrido, cómo navegan por él y si se envían mensajes.</li>
-     <li><a href="../building-journeys/troubleshooting-inbound.md">Solucionar problemas de acciones entrantes</a>: aprenda a depurar problemas relacionados con acciones entrantes en un recorrido para ayudarle a identificarlas y resolverlas por su cuenta.</li>
-     <li><a href="../action/troubleshoot-custom-action.md">Solucionar problemas de una acción personalizada</a>: aprenda a probar las acciones personalizadas enviando llamadas de API desde la sección de administración de la interfaz de usuario de Journey Optimizer. Esta capacidad le ayuda a solucionar problemas de las acciones personalizadas antes o después de utilizarlas en un recorrido.</li>
+    <div><img alt="Troubleshoot journey errors" src="../assets/do-not-localize/troubleshooting.jpeg" /> 
+    <br><ul><li><a href="../building-journeys/troubleshooting.md">Troubleshoot journey errors</a> - Learn how to identify and resolve activity or journey errors before test or publication, and how to define a fallback action in case of an error in journey activities.</li>
+    <li><a href="../building-journeys/troubleshooting-execution.md">Troubleshoot journey execution</a> - Understand how to troubleshoot journey events, check if profiles entered your journey, how they navigate through it, and if messsages are sent.</li>
+     <li><a href="../building-journeys/troubleshooting-inbound.md">Troubleshoot inbound actions</a> - Learn how to debug issues related to inbound actions in a journey, in order to help you identify and resolve them on your own.</li>
+     <li><a href="../action/troubleshoot-custom-action.md">Troubleshoot a custom action</a> - Learn how to test your custom actions by sending API calls from the administration section of Journey Optimizer user interface. This capability helps you troubleshoot your custom actions before or after using them in a journey.</li>
     <ul>
     <div>
-     <a href="../integrations/ajo-integrations.md">Más información</a></div>
+     <a href="../integrations/ajo-integrations.md">Learn more</a></div>
     </div>
     <br>
   </td>
 </tr>
 </table>
+-->
 
 <!--
 * **[Troubleshoot journey errors](../building-journeys/troubleshooting.md)**
@@ -53,6 +85,21 @@ Explore las páginas siguientes para profundizar en temas específicos de soluci
 
 -->
 
-Además, consulte esta [publicación de blog de la comunidad de Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=es){target="_blank"} en la que se detallan **códigos de error comunes** y cómo resolverlos de forma eficaz.
 
-Estos recursos le ayudarán a aislar rápidamente los problemas, validar la configuración y volver a ejecutar los recorridos sin problemas.
+
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+  <td>
+    <div>
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
+    <img alt="Comprender los códigos de error comunes" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
+    <br>Además, consulte esta publicación de blog de la comunidad de Adobe en la que se detallan <strong>códigos de error comunes</strong> y cómo resolverlos de forma eficaz.
+    </div>
+      <div>
+     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">Más información</a></div>
+    </div>
+  </td>
+</tr>
+</table>
+
+
