@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 4840dd87f82d3c9b8cfa5a565ee661bb492cff50
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '367'
 ht-degree: 3%
 
 ---
@@ -43,24 +43,30 @@ En esta página se explican los pasos esenciales para crear e iniciar una campa�
 
 ## Paso 1: Crear y programar su campaña {#create}
 
-Antes de cualquier otra cosa, debe crear su campaña orquestada y definir *cuándo* debe ejecutarse. Ya sea una inserción única o un recorrido recurrente, tendrá control total sobre el tiempo y la frecuencia.
+Antes de cualquier otra cosa, debe crear su campaña orquestada y definir *cuándo* debe ejecutarse. Ya sea una inserción única o una campaña multicanal recurrente, tendrá control total sobre el tiempo y la frecuencia.
 
-👉 [Aprenda a crear y programar una campaña](../orchestrated/create-orchestrated-campaign.md)
+➡️ [Aprenda a crear y programar una campaña](../orchestrated/create-orchestrated-campaign.md)
 
 ## Paso 2: Organización de actividades de campaña {#orchestrate}
 
 Una vez creada la campaña, es hora de diseñar la lógica detrás de ella. Con un lienzo visual, puede combinar las actividades de segmentación, envío y control de flujo para dar forma a la experiencia del cliente.
 
-👉 [Aprenda a organizar actividades](../orchestrated/orchestrate-activities.md)
+➡️ [Aprenda a organizar actividades](../orchestrated/orchestrate-activities.md)
 
 ## Paso 3: Inicio y monitorización de la campaña {#start}
 
 ¡Ya casi estás ahí! Ejecute primero la campaña en modo de prueba para detectar cualquier problema. A continuación, publíquelo y monitorice la ejecución en directo en tiempo real: realice un seguimiento del progreso, compruebe si hay errores y vea cómo fluyen los perfiles en cada paso.
 
-👉 [Obtenga información sobre cómo iniciar y supervisar una campaña](../orchestrated/start-monitor-campaigns.md)
+➡️ [Obtenga información sobre cómo iniciar y supervisar una campaña](../orchestrated/start-monitor-campaigns.md)
 
 ## Paso 4: Analizar e informar sobre los resultados {#report}
 
 Después del lanzamiento, utilice informes integrados para comprender qué ha funcionado y qué se puede mejorar. Los paneles en tiempo real y los análisis en profundidad le ayudan a optimizar futuras campañas y a refinar su estrategia.
 
-👉 [Más información acerca de los informes](../orchestrated/reporting-campaigns.md)
+➡️ [Más información acerca de los informes](../orchestrated/reporting-campaigns.md)
+
+## Para ir más lejos: Redestinar según la participación {#retarget}
+
+Una vez que la campaña se haya ejecutado, puede ir un paso más allá al volver a segmentar los perfiles en función de cómo interactuaron con el mensaje, independientemente de si lo abrieron o hicieron clic en un vínculo. Esto le permite realizar un seguimiento con mensajes personalizados, volver a atraer a usuarios inactivos o duplicar los intereses.
+
+➡️ [Aprenda a redireccionar según los eventos de comentarios](../orchestrated/retarget.md)
