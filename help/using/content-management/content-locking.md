@@ -10,7 +10,7 @@ exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
 source-wordcount: '1276'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="Solo lectura"
->abstract="Este contenido está en modo de solo lectura y no se puede modificar."
+>abstract="Este contenido es de solo lectura y no se puede modificar."
 
 Journey Optimizer permite bloquear el contenido en plantillas de correo electrónico, ya sea bloqueando toda la plantilla o estructuras y componentes específicos. Esto evita ediciones o eliminaciones involuntarias, lo que le proporciona un mayor control sobre la personalización de las plantillas y mejora la eficacia y fiabilidad de sus campañas de correo electrónico.
 
@@ -196,4 +196,4 @@ Estos son algunos ejemplos de ediciones de correo electrónico y de las configur
 
 Aprenda a bloquear contenido en plantillas de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451610?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

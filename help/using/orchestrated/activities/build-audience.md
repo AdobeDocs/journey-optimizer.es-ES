@@ -10,7 +10,7 @@ exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 27%
+ht-degree: 33%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
->title="Actividad generar público"
->abstract="La actividad **Crear público** le permite definir el público que participará en la campaña orquestada. Al enviar mensajes en el contexto de una campaña orquestada, la audiencia de mensajes no se define en la actividad del canal, sino en una actividad de **Generar audiencia**."
+>title="Actividad Crear público"
+>abstract="La actividad **Crear público** le permite definir el público que participará en la campaña orquestada. Cuando se envían mensajes en el contexto de una campaña orquestada, el público del mensaje no se define en la actividad del canal, sino en la actividad **Crear publico**."
 
 +++ Tabla de contenido
 

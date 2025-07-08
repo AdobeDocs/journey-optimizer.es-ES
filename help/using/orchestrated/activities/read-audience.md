@@ -10,7 +10,7 @@ exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 9%
+ht-degree: 47%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
->title="Actividad generar público"
->abstract="La actividad **Leer audiencia** le permite seleccionar la audiencia que entrará en la campaña orquestada. Esta audiencia puede ser una audiencia existente de Adobe Experience Platform o una audiencia extraída de un archivo CSV. Cuando se envían mensajes en el contexto de una campaña orquestada, la audiencia de mensaje no se define en la actividad del canal, sino en una actividad **Leer audiencia** o **Generar audiencia**."
+>title="Actividad Crear público"
+>abstract="La actividad **Crear público** le permite definir el público que participará en la campaña orquestada. Este público puede ser un público existente de Adobe Experience Platform o un público extraído de un archivo CSV. Cuando se envían mensajes en el contexto de una campaña orquestada, el público del mensaje no se define en la actividad del canal, sino en una actividad **Leer público** o **Crear público**."
 
 
 +++ Tabla de contenido
