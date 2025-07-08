@@ -33,6 +33,6 @@ Obtenga ayuda para diagnosticar problemas con eventos entrantes, enlaces web y d
 * **[Solucionar problemas de una acción personalizada](../action/troubleshoot-custom-action.md)**
 Obtenga información sobre cómo depurar y validar acciones personalizadas, incluida la administración de datos, los errores de respuesta y los errores de integración.
 
-Además, consulte esta [publicación de blog de la comunidad de Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"} en la que se detallan **códigos de error comunes** y cómo resolverlos de forma eficaz.
+Además, consulte esta [publicación de blog de la comunidad de Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=es){target="_blank"} en la que se detallan **códigos de error comunes** y cómo resolverlos de forma eficaz.
 
 Estos recursos le ayudarán a aislar rápidamente los problemas, validar la configuración y volver a ejecutar los recorridos sin problemas.
