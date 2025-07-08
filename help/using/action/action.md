@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acciones, recorrido, mensajes, envío, conexiones
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 48%
+source-wordcount: '285'
+ht-degree: 46%
 
 ---
 
@@ -44,8 +44,10 @@ Para ver la lista de acciones o configurar una nueva acción, seleccione **[!UIC
 
 ![](assets/custom1.png)
 
+Aprenda a solucionar problemas de una acción personalizada [en esta página dedicada](../action/troubleshoot-custom-action.md).
+
 ## Vídeo práctico {#video}
 
 Obtenga información sobre cómo configurar acciones personalizadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430277?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

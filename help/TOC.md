@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2494'
 ht-degree: 97%
 
 ---
@@ -175,9 +175,11 @@ ht-degree: 97%
       + [Limitación del rendimiento con fuentes de datos externas y acciones personalizadas](using/building-journeys/limit-throughput.md)
       + [Utilice acciones personalizadas para escribir los eventos de recorrido en Experience Platform](using/building-journeys/custom-action-aep.md)
    + Resolución de problemas {#troubleshoot-journey}
+      + [Solución de problemas de recorridos](using/building-journeys/gs-troubleshooting.md)
       + [Solucionar errores de recorrido](using/building-journeys/troubleshooting.md)
       + [Solucionar problemas de ejecución de recorrido](using/building-journeys/troubleshooting-execution.md)
       + [Solucionar problemas de acciones entrantes](using/building-journeys/troubleshooting-inbound.md)
+      + [Resolución de una acción personalizada](using/action/troubleshoot-custom-action.md)
 + Campañas organizadas {#orchestrated-campaigns}
    + [Introducción a las campañas organizadas](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Pasos de configuración](using/orchestrated/configuration-steps.md)
@@ -770,7 +772,6 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
    + Configuración de la acción {#action-journeys}
       + [Introducción a las acciones personalizadas](using/action/action.md)
       + [Configuración de una acción personalizada](using/action/about-custom-action-configuration.md)
-      + [Resolución de una acción personalizada](using/action/troubleshoot-custom-action.md)
       + [Uso de respuestas de llamadas API en acciones personalizadas](using/action/action-response.md)
 + Conectar sus sistemas y entornos {#connect-systems}
    + [Integración con otras soluciones](using/integrations/ajo-integrations.md)
