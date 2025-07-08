@@ -5,19 +5,14 @@ title: Limitaciones y protecciones de campañas organizadas
 description: Obtenga información acerca de las limitaciones y protecciones de campañas orquestadas
 hide: true
 hidefromtoc: true
-source-git-commit: 54d5b3386da4eed53fca79a2135ab54548855150
+source-git-commit: d9fb9462c52eb8a79fd2c9bd6bdb5381d318453f
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 11%
+source-wordcount: '260'
+ht-degree: 5%
 
 ---
 
 # Mecanismos de protección y limitaciones {#guardrails}
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_publication"
->title="Publicación de la campaña orquestada"
->abstract="Para iniciar su campaña, debe publicarla. Asegúrese de que todas las advertencias se borran antes de la publicación."
 
 +++ Tabla de contenido
 
