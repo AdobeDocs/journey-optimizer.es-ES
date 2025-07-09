@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo iniciar y supervisar campañas orq
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: e316c3dbbec028f7501990486506779656990c20
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 7%
+source-wordcount: '738'
+ht-degree: 9%
 
 ---
 
@@ -38,7 +38,9 @@ También puede ejecutar la campaña en modo de prueba para comprobar su ejecuci�
 
 ## Prueba de la campaña antes de publicar {#test}
 
-Journey Optimizer le permite probar campañas orquestadas antes de lanzarse. En el modo de prueba, se ejecutan todas las actividades del lienzo excepto las actividades de **[!UICONTROL Guardar audiencia]** y las actividades del canal. No hay ningún impacto funcional en los datos o en la audiencia.
+[!DNL Journey Optimizer] le permite probar campañas orquestadas antes de lanzarse. Cuando se crea una campaña, entra al estado **Borrador** de forma predeterminada. En este estado, puede ejecutar la campaña manualmente para probar el flujo.
+
+Todas las actividades del lienzo se ejecutan excepto las actividades de **[!UICONTROL Guardar audiencia]** y las actividades del canal. No hay ningún impacto funcional en los datos o en la audiencia.
 
 Para probar una campaña:
 
@@ -47,7 +49,9 @@ Para probar una campaña:
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Cada actividad de la campaña se ejecuta secuencialmente hasta que se llega al final del diagrama. Durante la ejecución de la prueba, puede administrar la campaña mediante la barra de acciones del lienzo. A partir de ahí, puede:
+Cada actividad de la campaña se ejecuta secuencialmente hasta que se llega al final del diagrama.
+
+Durante la prueba, puede controlar la ejecución de la campaña mediante la barra de acciones del lienzo. A partir de ahí, puede:
 
 * **Detener** la ejecución en cualquier momento.
 * **Inicie** la ejecución de nuevo.
@@ -59,6 +63,8 @@ Si se produce un error o una advertencia durante la ejecución, se le notificar�
 
 También puede identificar rápidamente las actividades fallidas mediante los [indicadores de estado visuales](#activities) que se muestran directamente en cada actividad. Para obtener información detallada sobre la solución de problemas, abra los registros de [campaign](#logs-tasks), que proporcionan información detallada sobre el error y su contexto.
 
+Una vez validada, la campaña se puede publicar.
+
 ## Publicación de la campaña {#publish}
 
 Una vez que la campaña esté lista y probada, haga clic en **[!UICONTROL Publicar]** para activarla.
@@ -66,6 +72,8 @@ Una vez que la campaña esté lista y probada, haga clic en **[!UICONTROL Public
 ![](assets/campaign-publish.png){zoomable="yes"}
 
 El flujo visual se reinicia y los perfiles reales comienzan a fluir a través del recorrido en tiempo real.
+
+Si la acción de publicación falla (por ejemplo, debido a la falta de contenido de mensaje), se le alerta y debe corregir el problema antes de volver a intentarlo. Si la publicación se realiza correctamente, la campaña pasa del estado **Borrador** al **Activo** y comienza a ejecutarse (de inmediato o según lo programado).
 
 ## Monitorización de la ejecución de campañas {#monitor}
 
