@@ -8,8 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 hidefromtoc: true
+hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 99%
@@ -54,7 +55,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 **Administración**
 
-* Se ha agregado un mensaje a la interfaz de usuario para advertir que las configuraciones de subdominio, subdominio de página de aterrizaje, registro PTR y grupo de IP son comunes a todas las zonas protegidas, por lo que cualquier modificación en una de estas configuraciones también afectará a las zonas protegidas de producción.
+* Se ha agregado un mensaje a la interfaz de usuario para advertir que las configuraciones de subdominio, subdominio de página de destino, registro PTR y grupo de IP son comunes a todas las zonas protegidas, por lo que cualquier modificación en una de estas configuraciones también afectará a las zonas protegidas de producción.
 * Se han modificado los pasos para cargar la lista de supresión como archivo CSV desde la interfaz de usuario. [Más información](../configuration/manage-suppression-list.md#download-suppression-list)
 
 **Campañas**
@@ -219,19 +220,19 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 * Al activar o desactivar la lista de permitidos, ahora se muestra una nueva advertencia para detallar los impactos de cada acción. [Más información](../configuration/allow-list.md#enable-allow-list)
 * Se ha actualizado la interfaz de usuario para crear configuraciones de canal, crear grupos de IP, administrar la lista de supresión y la lista de permitidos y configurar el canal de SMS.
 * Ahora, al crear la primera configuración de canal para un subdominio determinado, el tiempo de procesamiento tardará de 10 minutos a 10 días, y solo hasta 3 horas para las superficies posteriores que utilicen ese subdominio. [Más información](../configuration/channel-surfaces.md#create-channel-surface)
-* Se ha actualizado la interfaz de usuario para crear ajustes preestablecidos de página de aterrizaje y subdominios de página de aterrizaje. [Más información](../landing-pages/lp-subdomains.md)
+* Se ha actualizado la interfaz de usuario para crear ajustes preestablecidos de página de destino y subdominios de página de destino. [Más información](../landing-pages/lp-subdomains.md)
 
 **Controles de auditoría**
 
-* Con Journey Optimizer, puede identificar las acciones ejecutadas por los usuarios en el sistema en distintos servicios y funcionalidades como campañas, recorridos, mensajes, páginas de aterrizaje, etc. Los recursos de registros de auditorías ahora incluyen cambios en otras múltiples acciones y se registran automáticamente cuando se produce la actividad. Obtenga más información [en esta página](../privacy/audit-logs.md).
+* Con Journey Optimizer, puede identificar las acciones ejecutadas por los usuarios en el sistema en distintos servicios y funcionalidades como campañas, recorridos, mensajes, páginas de destino, etc. Los recursos de registros de auditorías ahora incluyen cambios en otras múltiples acciones y se registran automáticamente cuando se produce la actividad. Obtenga más información [en esta página](../privacy/audit-logs.md).
 
 **Soporte de archivado**
 
 * El nuevo **Conjunto de datos de entidad** incluye un campo de plantilla que permite exportar el formato y la estructura de los mensajes enviados en todos los canales para archivarlos. [Más información](../configuration/archiving-support.md)
 
-**Páginas de aterrizaje**
+**Páginas de destino**
 
-* Ahora puede utilizar datos contextuales procedentes de otra página dentro de la misma página de aterrizaje. Por ejemplo, si vincula una casilla de verificación a una lista de suscripción en la página de aterrizaje principal, puede utilizar esa lista de suscripción en la subpágina &quot;gracias&quot;. [Más información](../landing-pages/lp-content.md#use-primary-page-context)
+* Ahora puede utilizar datos contextuales procedentes de otra página dentro de la misma página de destino. Por ejemplo, si vincula una casilla de verificación a una lista de suscripción en la página de destino principal, puede utilizar esa lista de suscripción en la subpágina &quot;gracias&quot;. [Más información](../landing-pages/lp-content.md#use-primary-page-context)
 
 <!--* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted. [Learn more](../landing-pages/lp-content.md#use-additional-data)-->
 
@@ -261,7 +262,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <td>
 <p>Utilice las campañas de Journey Optimizer para ofrecer contenido único a un público específico mediante varios canales. Cuando se utilizan recorridos, las acciones están diseñadas para ejecutarse en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Obtenga información sobre cómo crear una campaña en <a href="../campaigns/get-started-with-campaigns.md">documentación detallada</a> y <a href="https://video.tv.adobe.com/v/3412402?captions=spa">vídeo de funciones</a>.
+<p>Obtenga información sobre cómo crear una campaña en <a href="../campaigns/get-started-with-campaigns.md">documentación detallada</a> y <a href="https://video.tv.adobe.com/v/346680">vídeo de funciones</a>.
 </td>
 </tr>
 </tbody>
@@ -606,11 +607,11 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 * **Nueva función de ayuda para la ocultación de caracteres**. La `mask` función de ayuda le permite reemplazar una parte de una cadena con caracteres &quot;X&quot;. [Más información](../personalization/functions/string.md#mask)
 
-**Páginas de aterrizaje**
+**Páginas de destino**
 
 * **Páginas de destino sin formulario**: ahora puede crear y publicar una página de aterrizaje que no contenga un formulario y que no requiera que los visitantes realicen ninguna acción.
 * **Plantillas de página de aterrizaje**: ahora puede guardar una página de aterrizaje como plantilla y reutilizarla al crear otras páginas de destino. [Más información](../landing-pages/lp-templates.md)
-* **Volver a la página principal**: ahora puede agregar un vínculo a la página principal desde cualquier subpágina dentro de la misma página de aterrizaje.
+* **Volver a la página principal**: ahora puede agregar un vínculo a la página principal desde cualquier subpágina dentro de la misma página de destino.
 * **Compatibilidad con JavaScript personalizado**: ahora puede agregar JavaScript personalizado al contenido de la página de aterrizaje para realizar estilos avanzados o agregar comportamientos personalizados a las páginas de destino.    [Más información](../landing-pages/lp-custom-js.md)
 
 **Recorridos**
@@ -627,9 +628,9 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 ### Mejoras
 
-**Páginas de aterrizaje**
+**Páginas de destino**
 
-* **Nueva opción para casillas de verificación de inclusión/exclusión.** Ahora puede insertar una sola casilla de verificación para la inclusión/exclusión en las páginas de aterrizaje de suscripción. Los usuarios deben marcar la casilla de verificación para el consentimiento (inclusión) y desmarcar para eliminar su consentimiento (exclusión). [Más información](../landing-pages/design-lp.md#define-lp-specific-content)
+* **Nueva opción para casillas de verificación de inclusión/exclusión.** Ahora puede insertar una sola casilla de verificación para la inclusión/exclusión en las páginas de destino de suscripción. Los usuarios deben marcar la casilla de verificación para el consentimiento (inclusión) y desmarcar para eliminar su consentimiento (exclusión). [Más información](../landing-pages/design-lp.md#define-lp-specific-content)
 
 * **Rellenar previamente campos de páginas de destino.** Ahora es posible proporcionar a los usuarios la capacidad de rellenar previamente los campos de la página de aterrizaje con información del perfil. [Más información](../landing-pages/create-lp.md#configure-primary-page)
 
@@ -691,13 +692,13 @@ Como cliente de Adobe Campaign Standard, ahora puede enviar correos electrónico
 <table>
 <thead>
 <tr>
-<th><strong>Páginas de aterrizaje de suscripción</strong><br/></th>
+<th><strong>Páginas de destino de suscripción</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear y diseñar páginas de aterrizaje en Journey Optimizer y dirigir a los usuarios a formularios en línea en los que pueden optar por su inclusión o exclusión en la recepción de comunicaciones, o suscribirse a un servicio específico, como una newsletter.</p>
+<p>Ahora puede crear y diseñar páginas de destino en Journey Optimizer y dirigir a los usuarios a formularios en línea en los que pueden optar por su inclusión o exclusión en la recepción de comunicaciones, o suscribirse a un servicio específico, como una newsletter.</p>
 <p>Para obtener más información, consulte la <a href="../landing-pages/create-lp.md">documentación detallada</a> y el <a href="../landing-pages/lp-use-cases.md">caso de uso de muestra</a> relacionado.</p>
 </td>
 </tr>
