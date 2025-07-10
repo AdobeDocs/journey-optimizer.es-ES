@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a1af07fd8e95864ec758717b35e93555eada03f0
+source-git-commit: ea4b65ae05f219203754ed6e5ddd7effc795ff56
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 15%
+source-wordcount: '492'
+ht-degree: 6%
 
 ---
 
@@ -28,25 +28,46 @@ ht-degree: 15%
 
 <br/>
 
-## ¿Qué es una campaña orquestada?
+# Introducción a Campaign Orchestration {#gs}
 
-Las campañas orquestadas mejoran Adobe Journey Optimizer al introducir funciones de campaña por lotes iniciadas por la marca que le permiten planificar y orquestar campañas en canales múltiples con estrategias de segmentación avanzadas.
+La organización de campañas en [!DNL Adobe Journey Optimizer] potencia campañas de marketing sofisticadas iniciadas por la marca en todos los canales, lo que le ayuda a aumentar la participación, los ingresos y la lealtad de los clientes a escala.
 
-El marketing multicanal es esencial para cualquier empresa que busque llegar a sus clientes de forma eficaz. Adobe Journey Optimizer proporciona un entorno gráfico completo que le permite diseñar procesos complejos que pueden ayudarle a administrar sus campañas de marketing con facilidad. Con las campañas orquestadas, puede organizar la gama completa de procesos y tareas, mejorar la velocidad y la escala de cada aspecto de sus campañas de marketing, desde la creación de segmentos y la preparación de mensajes hasta la entrega. Además, puede sincronizar sus canales con una interfaz única y fácil de usar para la orquestación de campañas.
+Aunque el marketing multicanal es esencial, las campañas orquestadas lo hacen fluido. Con una interfaz visual de arrastrar y soltar, puede diseñar y automatizar flujos de trabajo de marketing complejos, desde la segmentación hasta la entrega de mensajes, en varios canales. Todo sucede en un entorno intuitivo, creado para la velocidad, el control y la eficacia.
 
-Una de las ventajas más significativas de las campañas orquestadas es que facilita la entrega de contenido personalizado a los clientes en todos los canales. Tanto si los clientes prefieren recibir mensajes por correo electrónico como si lo hacen mediante dispositivos móviles, Adobe Journey Optimizer les permite ofrecer una experiencia coherente y contextual en cualquier canal, lo que transforma el recorrido de cada cliente en una experiencia única.
+Este módulo trae **orquestación de campaña por lotes** a [!DNL Journey Optimizer], lo que le permite:
 
-Las campañas orquestadas son increíblemente versátiles y se pueden utilizar en varios contextos, incluido el direccionamiento para administrar audiencias o enviar mensajes, la administración de datos (ETL) para manipular datos y la importación de datos.
+* Genere y ejecute **campañas de varios pasos** (por ejemplo, promociones de temporada, lanzamientos de nuevos productos),
+* Ofrecer **mensajes personalizados y coherentes** en cualquier canal,
+* Coordinar la **segmentación, el procesamiento de archivos y la administración de tareas** en un solo lugar,
+* Potenciar la colaboración mediante aprobaciones y asignaciones de tareas
 
-Con un entorno gráfico completo, puede diseñar procesos como la segmentación, la ejecución de campañas o el procesamiento de archivos. Las campañas organizadas también pueden incluir usuarios asignándoles tareas o haciendo que aprueben tareas realizadas, lo que facilita la administración del trabajo de su equipo y la garantía de que todo se haga correctamente.
+## Capacidades principales
 
-## orquestación de recorrido y orquestación de campaña
+La organización de campañas se basa en cuatro pilares clave:
 
-Campaign Orchestration es el módulo principal para diseñar, enviar y rastrear comunicaciones de marca a escala. Permite la distribución automatizada de mensajes de marketing a audiencias de destino, aprovechando los segmentos de datos existentes para una personalización eficaz, combinando entidades de perfil y no de perfil. Ideal para la difusión impulsada por campañas, Campaign Orchestration garantiza una entrega de mensajes coherente y eficaz (a menudo programada con antelación) para impulsar la participación de los clientes y apoyar los objetivos clave de marketing.
+1. **Audiencias a petición**
 
-Campaign Orchestration redefine la segmentación de audiencia habilitando la función multientidad en Adobe Journey Optimizer y facilita la mensajería segmentada en función, por ejemplo, de estados, eventos, contratos o reservas específicos. Como puede enviar comunicaciones a entidades que no sean perfiles o crear consultas en cualquier entidad, puede tener una vista integral y capturar una gran cantidad de perspectivas para crear sus audiencias.
+   Realice consultas instantáneas entre conjuntos de datos para crear segmentos de audiencia utilizando cualquier combinación de tipos de datos y dimensiones.
 
-Al potenciar las decisiones basadas en datos, Campaign Orchestration aprovecha varias fuentes para un conjunto de datos dinámico enriquecido.
+1. **Segmentación y envío de varias entidades**
+
+   Vaya más allá de las campañas basadas en personas: utilice entidades como catálogos de productos, ubicaciones de tiendas o datos de servicio para segmentar con precisión.
+
+1. **Precisión y visibilidad previas al envío**
+
+   Obtenga recuentos de segmentación exactos y un ámbito de campaña completo antes del lanzamiento, lo que garantiza precisión y confianza.
+
+1. **Flujos de trabajo de campañas de varios pasos**
+
+   Diseñe campañas de varios pasos, desde mensajes diarios hasta campañas complejas como promociones de temporada o lanzamientos de productos importantes.
+
+## Campañas y recorridos organizados
+
+Aunque la visualización de campañas orquestadas tiene similitudes con los recorridos, resuelve diferentes propósitos y casos de uso:
+
+* **Recorridos**: lienzo de 1 a 1 en el que cada perfil viaja por los diferentes pasos a su propio ritmo. El estado de cada cliente se mantiene dentro de su contexto para almacenar en déclencheur las acciones en tiempo real.
+
+* **Campañas orquestadas**: a diferencia de los recorridos, las campañas orquestadas funcionan con un lienzo por lotes que calcula los segmentos. Todos los perfiles se procesan juntos al mismo tiempo.
 
 ## Requisitos previos
 
@@ -58,7 +79,7 @@ Si no puede acceder a las funcionalidades de la campaña orquestada, póngase en
 
 ## Vamos a profundizar
 
-Ahora que conoce qué son los flujos de trabajo y qué puede hacer con ellos en Adobe Campaign, es hora de profundizar en las secciones de documentación para empezar a trabajar con la función.
+Ahora que comprende lo que son las campañas orquestadas, es hora de profundizar en estas secciones de documentación para empezar a trabajar con la función.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
