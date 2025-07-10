@@ -28,7 +28,7 @@ ht-degree: 6%
 
 <br/>
 
-# Introducción a Campaign Orchestration {#gs}
+&#x200B;# Introducción a Campaign Orchestration {#gs}
 
 La organización de campañas en [!DNL Adobe Journey Optimizer] potencia campañas de marketing sofisticadas iniciadas por la marca en todos los canales, lo que le ayuda a aumentar la participación, los ingresos y la lealtad de los clientes a escala.
 
