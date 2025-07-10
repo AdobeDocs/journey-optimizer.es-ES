@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo iniciar y supervisar campañas orq
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: e316c3dbbec028f7501990486506779656990c20
+source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 9%
+source-wordcount: '774'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="Publicación de la campaña orquestada"
->abstract="Para iniciar su campaña, debe publicarla. Asegúrese de que todas las advertencias se borran antes de la publicación."
+>abstract="Para iniciar su campaña, debe publicarla. Asegúrese de que todos los errores se borran antes de la publicación."
 
 +++ Tabla de contenido
 
@@ -71,9 +71,13 @@ Una vez que la campaña esté lista y probada, haga clic en **[!UICONTROL Public
 
 ![](assets/campaign-publish.png){zoomable="yes"}
 
+>[!NOTE]
+>
+>Si el botón **[!UICONTROL Publicar]** está deshabilitado (atenuado), acceda a los registros de la barra de acciones y compruebe los mensajes de error. Todos los errores deben corregirse antes de poder publicar una campaña.
+
 El flujo visual se reinicia y los perfiles reales comienzan a fluir a través del recorrido en tiempo real.
 
-Si la acción de publicación falla (por ejemplo, debido a la falta de contenido de mensaje), se le alerta y debe corregir el problema antes de volver a intentarlo. Si la publicación se realiza correctamente, la campaña pasa del estado **Borrador** al **Activo** y comienza a ejecutarse (de inmediato o según lo programado).
+Si la acción de publicación falla (por ejemplo, debido a la falta de contenido de mensaje), se le alerta y debe corregir el problema antes de volver a intentarlo. Si la publicación se realiza correctamente, la campaña comenzará a ejecutarse (inmediatamente o según lo programado), pasará del estado **Borrador** al estado **Activo** y pasará a ser de &quot;Solo lectura&quot;.
 
 ## Monitorización de la ejecución de campañas {#monitor}
 
