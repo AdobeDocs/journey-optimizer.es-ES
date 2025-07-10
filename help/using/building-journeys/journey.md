@@ -50,4 +50,4 @@ Aprenda a crear recorridos [ en estos casos de uso de extremo a extremo](jo-use-
 
 Descubra los componentes de un recorrido y comprenda los conceptos básicos para construir un recorrido en el lienzo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430353?quality=12&captions=spa)
