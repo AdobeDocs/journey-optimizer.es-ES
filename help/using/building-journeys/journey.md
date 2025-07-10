@@ -11,20 +11,20 @@ exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 87%
+ht-degree: 97%
 
 ---
 
 
 # Introducción a los recorridos{#jo-general-principle}
 
-Utilice [!DNL Journey Optimizer] para crear casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos. Puede diseñar escenarios avanzados de varios pasos con las siguientes capacidades:
+Utilice [!DNL Journey Optimizer] para crear casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos. Puede diseñar escenarios avanzados de varios pasos con las siguientes funcionalidades:
 
 * Envíe en tiempo real un **envío unitario** que se activa cuando se recibe un evento, o **en lote** con los públicos de Adobe Experience Platform.
 
 * Aprovechar **datos contextuales** desde eventos, información de Adobe Experience Platform o datos de servicios API de terceros.
 
-* Use **acciones integradas** para enviar mensajes diseñados en [!DNL Journey Optimizer] o crear **acciones personalizadas** si usa un sistema de terceros para enviar mensajes.
+* Utilice las **acciones integradas** para enviar los mensajes diseñados en [!DNL Journey Optimizer] o cree **acciones personalizadas** si utiliza un sistema de terceros para enviar sus mensajes.
 
 * Con el **diseñador de recorridos**, genere sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de lectura de público, agregue condiciones y envíe mensajes personalizados.
 
@@ -32,7 +32,7 @@ El diseñador de recorridos de Journey Optimizer proporciona todo lo que los esp
 
 Aprenda a crear y diseñar el primer recorrido en [esta página](journey-gs.md).
 
-➡️ [Descubra Journey Optimizer en vídeo](#video)
+➡️ [Descubrimiento de Journey Optimizer en vídeo](#video)
 
 ## Casos de uso{#uc-journey}
 
@@ -46,8 +46,8 @@ Aprenda a crear recorridos [ en estos casos de uso de extremo a extremo](jo-use-
 >
 >En [esta página](../start/guardrails.md) se detallan los mecanismos de protección y limitaciones de los recorridos
 
-## Vídeo explicativo {#video}
+## Vídeo práctico {#video}
 
 Descubra los componentes de un recorrido y comprenda los conceptos básicos para construir un recorrido en el lienzo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430353?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

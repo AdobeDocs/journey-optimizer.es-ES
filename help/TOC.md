@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
 source-wordcount: '2502'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 96%
       + [Solución de problemas de recorridos](using/building-journeys/gs-troubleshooting.md)
       + [Solucionar errores de recorrido](using/building-journeys/troubleshooting.md)
       + [Solucionar problemas de ejecución de recorrido](using/building-journeys/troubleshooting-execution.md)
-      + [Solucionar problemas de acciones entrantes](using/building-journeys/troubleshooting-inbound.md)
+      + [Solucionar las acciones de entrada](using/building-journeys/troubleshooting-inbound.md)
       + [Solucionar problemas de acciones personalizadas](using/action/troubleshoot-custom-action.md)
 + Campañas organizadas {#orchestrated-campaigns}
    + [Introducción a las campañas organizadas](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -195,7 +195,7 @@ ht-degree: 96%
       + [Trabajar con el generador de reglas](using/orchestrated/orchestrated-rule-builder.md)
       + [Cree su primera regla](using/orchestrated/build-query.md)
       + [Editar expresiones](using/orchestrated/edit-expressions.md)
-      + [Redireccionamiento](using/orchestrated/retarget.md)
+      + [Resegmentación](using/orchestrated/retarget.md)
    + Actividades de las campañas organizadas {#design-campaigns}
       + [Introducción a las actividades](using/orchestrated/activities/about-activities.md)
       + [And-join](using/orchestrated/activities/and-join.md)
@@ -295,13 +295,13 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
          + [Flujo de notificaciones push](using/push/push-gs.md)
          + [Configurar el canal de notificaciones push](using/push/push-configuration.md)
          + [Flujo de trabajo de inicio rápido de incorporación al dispositivo móvil](using/push/mobile-onboarding-wf.md)
-   + Canal SMS/MMS/RCS{#sms}
+   + Canal de SMS/MMS/RCS{#sms}
       + [Introducción a la mensajería de texto](using/sms/get-started-sms.md)
       + [Creación de un mensaje SMS/MMS/RCS](using/sms/create-sms.md)
       + [Comprobación y envío de los mensajes de texto](using/sms/send-sms.md)
       + [Administración de la exclusión de mensajes de texto](using/sms/sms-opt-out.md)
       + [Configuración de subdominios de SMS](using/sms/sms-subdomains.md)
-      + Configuración del canal SMS/MMS/RCS{#configure-sms}
+      + Configuración de canal de SMS/MMS/RCS{#configure-sms}
          + [Introducción a la configuración de SMS/MMS/RCS](using/sms/sms-configuration.md)
          + [Configuración del proveedor Sinch](using/sms/sms-configuration-sinch.md)
          + [Configuración del proveedor Infobip](using/sms/sms-configuration-infobip.md)
@@ -565,7 +565,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
             + [Modelo de optimización personalizado](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [Creación de modelos de IA](using/experience-decisioning/ranking/create-ai-models.md)
       + Uso de datos de Adobe Experience Platform {#aep-data}
-         + [Uso de datos de contexto](using/experience-decisioning/context-data.md)
+         + [Mejora de datos de contexto](using/experience-decisioning/context-data.md)
          + [Uso de Adobe Experience Platform para la toma de decisiones](using/experience-decisioning/aep-data-exd.md)
       + [Creación de estrategias de selección](using/experience-decisioning/selection-strategies.md)
       + [Creación de políticas de decisión](using/experience-decisioning/create-decision.md)
@@ -611,7 +611,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
          + [Introducción a la recopilación de datos](using/offers/data-collection/data-collection.md)
          + [Crear un conjunto de datos para recopilar eventos](using/offers/data-collection/create-dataset.md)
          + [Configurar la captura de eventos](using/offers/data-collection/schema-requirement.md)
-      + Uso de datos de contexto {#context-data}
+      + Mejora de datos de contexto {#context-data}
          + [Introducción a los datos de contexto](using/offers/context-data.md)
          + [Datos de contexto y solicitudes de Edge Decisioning](using/offers/context-data-edge.md)
          + [Solicitud de datos de contexto y toma de decisiones](using/offers/context-data-decisioning.md)
