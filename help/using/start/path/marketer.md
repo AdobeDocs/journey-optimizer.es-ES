@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Consulte las secciones siguientes para configurar su primer recorrido, agregar o
 
    * Aprovechar **datos contextuales** desde eventos, información de Adobe Experience Platform o datos de servicios API de terceros.
 
-   * Use **acciones de canal integradas** (correo electrónico, SMS, push, aplicación) para enviar mensajes diseñados en [!DNL Journey Optimizer] o crear **acciones personalizadas** si usa un sistema de terceros para enviar mensajes.
+   * Utilice las **acciones de canal integradas** (correo electrónico, SMS, push, InApp) para enviar mensajes diseñados en [!DNL Journey Optimizer] o cree **acciones personalizadas** si utiliza un sistema de terceros para enviar sus mensajes.
 
    * Con el **diseñador de recorridos**, genere sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de lectura de público, agregue condiciones y envíe mensajes personalizados.
 

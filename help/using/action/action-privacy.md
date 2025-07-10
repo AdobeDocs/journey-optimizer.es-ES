@@ -10,9 +10,9 @@ level: Experienced
 keywords: datos, gobernanza, DULE, etiquetas, etiquetado, plataforma, directiva
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1290'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 ## Introducción a las políticas de gobernanza de datos {#gs}
 
-Con su [marco de trabajo de gobernanza de etiquetado y aplicación del uso de datos (Data Usage Labeling and Enforcement, DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=es){target="_blank"}, Adobe Experience Platform le permite administrar y aplicar directivas de gobernanza de datos en todos sus canales. Para ello, **etiqueta sus campos** y crea **acciones de marketing** para cada canal.
+Con su marco de [gobernanza de uso de etiquetado y aplicación del uso de datos (Data Usage Labeling and Enforcement, DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=es){target="_blank"}, Adobe Experience Platform le permite administrar y aplicar políticas de gobernanza de datos en todos sus canales gracias al **etiquetado de sus campos** y la creación de **acciones de marketing** para cada canal.
 
 Una vez definidas las etiquetas y las acciones de marketing, puede crear **políticas de gobernanza de datos** que vinculen estos dos elementos. Por ejemplo, puede configurar una política que asocie una etiqueta “ePHI” con una acción de marketing de “direccionamiento de correo electrónico”, lo que garantiza que los campos etiquetados como “ePHI” no se utilicen para personalizar los mensajes de correo electrónico. [Aprenda a crear políticas de gobernanza de datos](#policy)
 
@@ -128,10 +128,10 @@ Si se detecta uno de los campos etiquetados _ePHI1_ (el campo del tipo de sangre
 
 Si el sistema identifica un campo restringido en un recorrido/campaña o una acción personalizada, se muestra un error que impide su publicación. 
 
-Los errores son visibles desde el botón **[!UICONTROL Alertas]**. Seleccione el error para mostrar información detallada sobre la infracción de directiva de gobernanza de datos que se produjo.
+Los errores son visibles desde el botón **[!UICONTROL Alertas]**. Seleccione el error para mostrar información detallada sobre la infracción de la política de gobernanza de datos que se ha producido.
 
 ![](assets/action-privacy8.png)
 
 Este cuadro de diálogo indica que la configuración actual de recorrido/campaña infringe una política de gobernanza de datos existente. Utilice el diagrama de linaje de datos para comprender qué otros cambios de configuración deben realizarse antes de activar el recorrido o la campaña.
 
-Encontrará información detallada en la [documentación de infracción de directiva de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+Encontrará información detallada en la [documentación sobre infracciones de la política de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.

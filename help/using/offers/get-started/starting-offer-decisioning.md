@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '911'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 >[!TIP]
 >
->La nueva capacidad de toma de decisiones de [!DNL Adobe Journey Optimizer] ya está disponible a través del canal de experiencia basado en código. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+>La nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer] ya está disponible a través del canal de experiencia basada en código. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
 
 Utilice [!DNL Journey Optimizer] para ofrecer la mejor oferta y experiencia a sus clientes en todos los puntos de contacto y en el momento adecuado. Una vez diseñados, los públicos se segmentarán con ofertas personalizadas.
 
@@ -37,11 +37,11 @@ Los beneficios incluyen:
 * Flujos de trabajo mejorados: En lugar de crear varios envíos o campañas, los equipos de marketing pueden mejorar los flujos de trabajo creando un único envío y variar las ofertas en diferentes partes de la plantilla,
 * Controle la cantidad de veces que se muestra una oferta entre campañas y clientes.
 
-➡️ [Obtenga más información acerca de Administración de decisiones en estos vídeos](#video)
+➡️ [Obtenga más información sobre la gestión de decisiones en estos vídeos](#video)
 
 >[!NOTE]
 >
->Si es un usuario de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target="_blank"} que aprovecha la aplicación **Offer Decisioning**, también se le aplican todas las características de Administración de decisiones descritas en esta sección.
+>Si es un usuario de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target="_blank"} que aprovecha la aplicación **Offer Decisioning**, también puede utilizar todas las funciones de gestión de decisiones que se describen en esta sección.
 
 ## Acerca de las ofertas y las decisiones {#about-offers-and-decisions}
 
@@ -73,7 +73,7 @@ Las funciones y la integración de Gestión de decisiones con Adobe Experience P
 
 ## Concesión de acceso a Gestión de decisiones {#granting-acess-to-decision-management}
 
-Los permisos para acceder y utilizar las funcionalidades de decisiones de uso se administran mediante [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html){target="_blank"}.
+Los permisos para acceder y utilizar las funcionalidades de toma de decisiones solo se administran mediante [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html){target="_blank"}.
 
 Para conceder acceso a la funcionalidad de Gestión de decisiones, debe crear un **[!UICONTROL Perfil de producto]** y asignar los permisos correspondientes a sus usuarios. Más información sobre la administración de usuarios y permisos de [!DNL Journey Optimizer] en [esta sección](../../administration/permissions.md).
 
@@ -115,12 +115,12 @@ A continuación, se muestra la lista de los conceptos principales con los que tr
 
 El siguiente vídeo proporciona una introducción a las funciones clave, la arquitectura y los casos de uso de Gestión de decisiones:
 
->[!VIDEO](https://video.tv.adobe.com/v/340419?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Definición y administración de ofertas {#use-offer-decisioning}
 
 El siguiente vídeo muestra cómo utilizar Gestión de decisiones para definir y administrar sus ofertas, así como para aprovechar los datos de clientes en tiempo real.
 
->[!VIDEO](https://video.tv.adobe.com/v/340359?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: correo electrónico, diseño, stock, activos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 Puede importar un contenido existente en [!DNL Journey Optimizer] o aprovechar las funcionalidades de diseño de contenido:
 
-* Utilice las [!DNL Journey Optimizer]&#x200B;**funcionalidades de diseño de correo electrónico de** para diseñar o importar correos electrónicos adaptables. [Más información](content-from-scratch.md)
+* Utilice las [!DNL Journey Optimizer]**funcionalidades de diseño de correo electrónico de** para diseñar o importar correos electrónicos adaptables. [Más información](content-from-scratch.md)
 
 * Aproveche **Adobe Experience Manager Assets Essentials** para enriquecer los correos electrónicos, crear y administrar su propia base de datos de activos. [Más información](../integrations/assets.md)
 
@@ -32,7 +32,7 @@ Puede importar un contenido existente en [!DNL Journey Optimizer] o aprovechar l
 
 ## Prácticas recomendadas para el diseño de correo electrónico {#best-practices}
 
-Al enviar correos electrónicos, es importante tener en cuenta que los destinatarios pueden reenviarlos, lo que a veces puede causar problemas con el procesamiento del correo electrónico. Esto es especialmente cierto cuando se utilizan clases CSS que es posible que el proveedor de correo electrónico no admita para el reenvío, por ejemplo, si utiliza la clase CSS &quot;is-desktop-hidden&quot; para ocultar una imagen en dispositivos móviles.
+Al enviar correos electrónicos, es importante tener en cuenta que los destinatarios pueden reenviarlos, lo que a veces puede causar problemas con el procesamiento del correo electrónico. Esto es especialmente cierto cuando se utilizan clases CSS que tal vez el proveedor de correo electrónico no admita para el reenvío, por ejemplo, si utiliza la clase de CSS &quot;is-desktop-hidden&quot; para ocultar una imagen en dispositivos móviles.
 
 Para minimizar estos problemas de renderización, se recomienda mantener la estructura de diseño del correo electrónico lo más sencilla posible. Intente utilizar un único diseño que funcione bien tanto para dispositivos de escritorio como móviles, y evite utilizar clases CSS complejas u otros elementos de diseño que puedan no ser totalmente compatibles con todos los clientes de correo electrónico. Siguiendo estas prácticas recomendadas, puede ayudar a garantizar que los mensajes de correo electrónico se procesen correctamente, independientemente de cómo los destinatarios los vean o los reenvíen.
 
@@ -74,8 +74,8 @@ Una vez que haya [añadido un correo electrónico](create-email.md) a un recorri
 
 Aprenda a crear contenido de correo electrónico con el editor de mensajes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416231?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Aprenda a configurar experimentos de contenido para realizar pruebas A/B y explorar el contenido de correo electrónico que mejor impulsa sus objetivos empresariales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447334?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
