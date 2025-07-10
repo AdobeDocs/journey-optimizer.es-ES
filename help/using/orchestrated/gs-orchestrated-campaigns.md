@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: ea4b65ae05f219203754ed6e5ddd7effc795ff56
+source-git-commit: 3bbbc09e05958579782e8e70974a241f1154d319
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '487'
 ht-degree: 6%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 6%
 +++
 
 <br/>
-
-&#x200B;# Introducción a Campaign Orchestration {#gs}
 
 La organización de campañas en [!DNL Adobe Journey Optimizer] potencia campañas de marketing sofisticadas iniciadas por la marca en todos los canales, lo que le ayuda a aumentar la participación, los ingresos y la lealtad de los clientes a escala.
 
