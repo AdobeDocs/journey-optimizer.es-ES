@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: a1af07fd8e95864ec758717b35e93555eada03f0
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 17%
+source-wordcount: '620'
+ht-degree: 15%
 
 ---
 
@@ -50,13 +50,11 @@ Al potenciar las decisiones basadas en datos, Campaign Orchestration aprovecha v
 
 ## Requisitos previos
 
->[!BEGINSHADEBOX]
+Antes de trabajar con campañas orquestadas, es esencial asegurarse de que tiene los permisos adecuados. El acceso a las campañas orquestadas está restringido a los usuarios asignados a un **[!UICONTROL perfil de producto]** relevante, como administrador de campañas orquestadas, aprobador de campañas orquestadas, administrador de campañas orquestadas o visor de campañas orquestadas.
 
-Documentación en curso
+Si no puede acceder a las funcionalidades de la campaña orquestada, póngase en contacto con el administrador para solicitar los permisos necesarios.
 
->[!ENDSHADEBOX]
-
-<!--prerequisites & permissions-->
+➡️[Más información acerca de perfiles de productos relacionados con Campañas orquestadas](../administration/ootb-product-profiles.md)
 
 ## Vamos a profundizar
 
