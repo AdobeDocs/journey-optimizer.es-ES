@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 8f32edf905ed80ca4a23d4b9afe2805c000dacef
+source-git-commit: e6944928e40b471a86085c126ff678002357e66c
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 6%
+source-wordcount: '453'
+ht-degree: 7%
 
 ---
 
@@ -32,26 +32,19 @@ La organización de campañas en [!DNL Adobe Journey Optimizer] potencia campañ
 
 Aunque el marketing multicanal es esencial, las campañas orquestadas lo hacen fluido. Con una interfaz visual de arrastrar y soltar, puede diseñar y automatizar flujos de trabajo de marketing complejos, desde la segmentación hasta la entrega de mensajes, en varios canales. Todo sucede en un entorno intuitivo, creado para la velocidad, el control y la eficacia.
 
-Este módulo trae **orquestación de campaña por lotes** a [!DNL Journey Optimizer], lo que le permite:
-
-* Genere y ejecute **campañas de varios pasos** (por ejemplo, promociones de temporada, lanzamientos de nuevos productos),
-* Ofrecer **mensajes personalizados y coherentes** en cualquier canal,
-* Coordinar la **segmentación, el procesamiento de archivos y la administración de tareas** en un solo lugar,
-* Potenciar la colaboración mediante aprobaciones y asignaciones de tareas
-
 ## Funcionalidades principales
 
 La organización de campañas se basa en cuatro pilares clave:
 
-<table>
+<table style="table-layout:fixed">
 <tr style="border: 0;">
-<td><img alt="Audiencias a la carta" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Las audiencias a petición</b><br/>consultan instantáneamente entre conjuntos de datos para crear segmentos de audiencia usando cualquier combinación de tipos de datos y dimensiones.</td></tr>
+<td><img alt="Audiencias a la carta" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>Las audiencias a petición</b><br/>consultan instantáneamente entre conjuntos de datos para crear segmentos de audiencia usando cualquier combinación de tipos de datos y dimensiones.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentación y envío de varias entidades" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Segmentación y envío de varias entidades</b><br/>Vaya más allá de las campañas basadas en personas: use entidades como catálogos de productos, ubicaciones de tiendas o datos de servicio para segmentar con precisión.</td></tr>
+<td><img alt="Segmentación y envío de varias entidades" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>Segmentación y envío de varias entidades</b><br/>Vaya más allá de las campañas basadas en personas: use entidades como catálogos de productos, ubicaciones de tiendas o datos de servicio para segmentar con precisión.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Visibilidad y precisión previas al envío" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Visibilidad y precisión previas al envío</b><br/>Obtenga recuentos de segmentación exactos y un ámbito de campaña completo antes del lanzamiento, lo que garantiza precisión y confianza.</td></tr>
+<td><img alt="Visibilidad y precisión previas al envío" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>Visibilidad y precisión previas al envío</b><br/>Obtenga recuentos de segmentación exactos y un ámbito de campaña completo antes del lanzamiento, lo que garantiza precisión y confianza.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Flujos de trabajo de campaña de varios pasos" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Flujos de trabajo de campañas de varios pasos</b><br/>Diseña campañas de varios pasos, desde mensajes diarios hasta campañas complejas como promociones de temporada o lanzamientos de productos importantes.</td></tr>
+<td><img alt="Flujos de trabajo de campaña de varios pasos" src="assets/do-not-localize/icon-multistep.svg" width="50px"></a></td><td><b>Flujos de trabajo de campañas de varios pasos</b><br/>Diseña campañas de varios pasos, desde mensajes diarios hasta campañas complejas como promociones de temporada o lanzamientos de productos importantes.</td></tr>
 </table>
 
 ## Campañas y recorridos organizados
