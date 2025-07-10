@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: e6944928e40b471a86085c126ff678002357e66c
+source-git-commit: 34788c05cdcdcbc0c261df3f931a5bc1786fff5f
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 7%
@@ -36,7 +36,7 @@ Aunque el marketing multicanal es esencial, las campañas orquestadas lo hacen f
 
 La organización de campañas se basa en cuatro pilares clave:
 
-<table style="table-layout:fixed">
+<table>
 <tr style="border: 0;">
 <td><img alt="Audiencias a la carta" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>Las audiencias a petición</b><br/>consultan instantáneamente entre conjuntos de datos para crear segmentos de audiencia usando cualquier combinación de tipos de datos y dimensiones.</td></tr>
 <tr style="border: 0;">
