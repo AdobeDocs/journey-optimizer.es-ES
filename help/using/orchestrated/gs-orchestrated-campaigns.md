@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 34788c05cdcdcbc0c261df3f931a5bc1786fff5f
+source-git-commit: a8265a2e509df0f18db5d8ca36c4298ba020fa38
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '454'
 ht-degree: 7%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 7%
 La organización de campañas en [!DNL Adobe Journey Optimizer] potencia campañas de marketing sofisticadas iniciadas por la marca en todos los canales, lo que le ayuda a aumentar la participación, los ingresos y la lealtad de los clientes a escala.
 
 Aunque el marketing multicanal es esencial, las campañas orquestadas lo hacen fluido. Con una interfaz visual de arrastrar y soltar, puede diseñar y automatizar flujos de trabajo de marketing complejos, desde la segmentación hasta la entrega de mensajes, en varios canales. Todo sucede en un entorno intuitivo, creado para la velocidad, el control y la eficacia.
+
+![](assets/canvas-example-diagram.png){zoomable="yes"}
 
 ## Funcionalidades principales
 
@@ -61,13 +63,13 @@ Antes de trabajar con campañas orquestadas, es esencial asegurarse de que tiene
 
 Si no puede acceder a las funcionalidades de la campaña orquestada, póngase en contacto con el administrador para solicitar los permisos necesarios.
 
-➡️[Más información acerca de perfiles de productos relacionados con Campañas orquestadas](../administration/ootb-product-profiles.md)
+➡️ [Más información acerca de perfiles de producto relacionados con Campañas orquestadas](../administration/ootb-product-profiles.md)
 
 ## Vamos a profundizar
 
 Ahora que comprende lo que son las campañas orquestadas, es hora de profundizar en estas secciones de documentación para empezar a trabajar con la función.
 
-<table style="table-layout:fixed"><tr style="border: 0;">
+&lt;table&quot;><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
 <img alt="Acceso y administración de flujos de trabajo" src="assets/do-not-localize/workflow-access.jpeg">
