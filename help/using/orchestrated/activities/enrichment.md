@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '574'
 ht-degree: 33%
 
 ---
@@ -33,6 +33,12 @@ ht-degree: 33%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentación en curso
+
+>[!ENDSHADEBOX]
 
 La actividad **[!UICONTROL Enrichment]** es una actividad **[!UICONTROL Segmentación]** que le permite mejorar sus datos de audiencia con atributos adicionales.
 

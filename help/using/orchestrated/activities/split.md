@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 54%
+source-wordcount: '888'
+ht-degree: 53%
 
 ---
 
@@ -34,6 +34,12 @@ ht-degree: 54%
 
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentación en curso
+
+>[!ENDSHADEBOX]
 
 La actividad **[!UICONTROL Split]** es una actividad **[!UICONTROL Targeting]** que segmenta la población entrante en varios subconjuntos según criterios de selección definidos como reglas de filtrado o tamaño de población.
 

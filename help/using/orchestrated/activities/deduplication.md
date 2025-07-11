@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '699'
 ht-degree: 35%
 
 ---
@@ -47,8 +47,13 @@ ht-degree: 35%
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentación en curso
+
+>[!ENDSHADEBOX]
 
 La actividad **[!UICONTROL Deduplication]** es una actividad de **[!UICONTROL segmentación]**. Esta actividad le permite eliminar duplicados en los resultados de las actividades entrantes, por ejemplo perfiles duplicados en la lista de destinatarios. La actividad **[!UICONTROL Deduplication]** se utiliza generalmente después de actividades de segmentación y antes de actividades que permiten el uso de datos de destino.
 

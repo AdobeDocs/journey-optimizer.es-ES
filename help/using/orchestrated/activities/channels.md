@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '969'
 ht-degree: 33%
 
 ---
@@ -62,8 +62,13 @@ UNUSED IDs in BJ
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentación en curso
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] le permite automatizar y ejecutar campañas de marketing en todos los canales: correo electrónico, SMS y notificaciones push. Puede combinar estas actividades de canal en el lienzo de la campaña para crear campañas orquestadas en canales múltiples que puedan almacenar en déclencheur acciones basadas en la conducta y los datos del cliente.
 

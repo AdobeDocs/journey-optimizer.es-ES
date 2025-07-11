@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '349'
 ht-degree: 4%
 
 ---
@@ -26,6 +26,13 @@ ht-degree: 4%
 
 +++
 
+<br/>
+
+>[!BEGINSHADEBOX]
+
+Documentación en curso
+
+>[!ENDSHADEBOX]
 
 La actividad **[!UICONTROL Guardar audiencia]** es una actividad de **[!UICONTROL segmentación]** que le permite actualizar una audiencia existente o crear una nueva a partir de la población generada anteriormente en la campaña orquestada. Una vez creadas, estas audiencias se añaden a la lista de audiencias de la aplicación y se puede acceder a ellas desde el menú **[!UICONTROL Audiencias]**.
 

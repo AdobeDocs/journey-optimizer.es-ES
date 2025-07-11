@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '971'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 1%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentación en curso
+
+>[!ENDSHADEBOX]
 
 Una vez que haya [creado una campaña orquestada](gs-campaign-creation.md), puede empezar a orquestar las diferentes tareas que realizará. Para ello, se proporciona un lienzo visual, que le permite construir un diagrama de campaña orquestado. Dentro de este diagrama, puede añadir varias actividades y conectarlas en un orden secuencial.
 

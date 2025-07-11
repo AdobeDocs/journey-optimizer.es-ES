@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '631'
 ht-degree: 32%
 
 ---
@@ -48,6 +48,12 @@ ht-degree: 32%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentación en curso
+
+>[!ENDSHADEBOX]
 
 La actividad **[!UICONTROL Reconciliation]** es una actividad **[!UICONTROL Targeting]** que permite definir el vínculo entre los datos de Adobe Journey Optimizer y los de una tabla de trabajo; por ejemplo, los datos cargados de un archivo externo.
 

@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '269'
 ht-degree: 9%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 9%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentación en curso
+
+>[!ENDSHADEBOX]
 
 La campaña orquestada le ofrece perspectivas procesables a través de sus sólidas capacidades de creación de informes. Estas perspectivas le ayudan a comprender mejor el comportamiento de la audiencia, medir el rendimiento de cada paso en el recorrido del cliente y tomar decisiones basadas en datos para optimizar futuras campañas. Con las métricas y visualizaciones detalladas, puede rastrear la participación y ajustar sus estrategias de segmentación para lograr el máximo impacto.
 

@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo iniciar y supervisar campañas orq
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '777'
 ht-degree: 7%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 7%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentación en curso
+
+>[!ENDSHADEBOX]
 
 Una vez que haya creado las tareas orquestadas y diseñadas para realizarlas en el lienzo, puede publicarlas y monitorizar cómo se ejecutan.
 

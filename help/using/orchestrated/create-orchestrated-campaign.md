@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1129'
 ht-degree: 11%
 
 ---
@@ -26,8 +26,13 @@ ht-degree: 11%
 {style="table-layout:fixed"}
 
 +++
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentación en curso
+
+>[!ENDSHADEBOX]
 
 Cree una campaña orquestada en [!DNL Adobe Journey Optimizer] y configure su programación de ejecución para controlar cuándo se inicia y con qué frecuencia se ejecuta. Elija iniciar la campaña inmediatamente, en una fecha y hora específicas o de forma recurrente mediante opciones de programación flexibles como frecuencias diarias, semanales o mensuales.
 
@@ -92,7 +97,7 @@ Para configurar la programación de campaña, siga estos pasos:
    * **[!UICONTROL Fecha]**: seleccione la fecha en la que se debe ejecutar la campaña.
    * **[!UICONTROL Hora]**: seleccione la hora específica en que se debe ejecutar la campaña.
 
-   +++
++++
 
    +++Diario
 
@@ -106,7 +111,7 @@ Para configurar la programación de campaña, siga estos pasos:
 
    * **[!UICONTROL Hora de inicio]**: defina la hora a la que la campaña debe ejecutarse cada día.
 
-   +++
++++
 
    +++Varias veces al día
 
@@ -115,7 +120,7 @@ Para configurar la programación de campaña, siga estos pasos:
    * **[!UICONTROL Horas seleccionadas]**: seleccione las horas específicas en que la campaña debe ejecutarse y configure su periodicidad diaria (se ejecutará todos los días de la semana o en determinados días).
    * **[!UICONTROL Periódico]**: elija ejecutar la campaña cada n minutos u horas. También puede definir el intervalo de tiempo dentro del día en que se permiten las ejecuciones.
 
-   +++
++++
 
    +++Semanal
 
@@ -126,7 +131,7 @@ Para configurar la programación de campaña, siga estos pasos:
    * **[!UICONTROL Periodicidad diaria]**: elija días específicos de la semana para la ejecución (por ejemplo, todos los lunes y jueves).
    * **[!UICONTROL Hora de inicio]**: establezca la hora a la que la campaña debe ejecutarse en los días seleccionados.
 
-   +++
++++
 
    +++Mensual
 
@@ -142,7 +147,7 @@ Para configurar la programación de campaña, siga estos pasos:
 
    * **[!UICONTROL Hora de inicio]**: establezca la hora a la que se debe ejecutar la campaña.
 
-   +++
++++
 
 1. Use la configuración **[!UICONTROL Periodo de validez]** para definir una fecha específica de inicio y finalización que limite la ejecución de la campaña a un periodo de tiempo limitado.
 
