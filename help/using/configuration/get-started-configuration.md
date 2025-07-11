@@ -9,9 +9,9 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuración, configurar, mensajes, canal, zona protegida, optimizador
-source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
+source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '303'
 ht-degree: 45%
 
 ---
@@ -19,8 +19,12 @@ ht-degree: 45%
 
 # Introducción a la configuración de canales {#start-optimizer-configuration}
 
-Al acceder a [!DNL Journey Optimizer] por primera vez, se le aprovisiona una zona protegida de producción y se le asigna un determinado número de direcciones IP en función de su contrato.
+>[!CONTEXTUALHELP]
+>id="ajo_channels_rate_controls"
+>title="Controles de velocidad para canales"
+>abstract="Controles de velocidad para canales"
 
+Al acceder a [!DNL Journey Optimizer] por primera vez, se le aprovisiona una zona protegida de producción y se le asigna un determinado número de direcciones IP en función de su contrato.
 
 Para poder enviar mensajes, debe seguir los pasos de configuración que se enumeran a continuación:
 
