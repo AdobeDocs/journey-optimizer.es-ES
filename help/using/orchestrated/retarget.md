@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo iniciar y supervisar campañas orq
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 0ae8372c179707a87a6b512a5420753a4aaef754
+source-git-commit: b1bee7a5ee05e0e535a982c31bafafdc760d21ae
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 2%
+source-wordcount: '641'
+ht-degree: 1%
 
 ---
 
@@ -35,72 +35,99 @@ Documentación en curso
 
 La reorientación le permite hacer un seguimiento de los destinatarios según su respuesta a una campaña orquestada anteriormente. Por ejemplo, puede enviar un segundo correo electrónico a los perfiles que recibieron pero no hicieron clic en el primero.
 
-La campaña organizada proporciona dos fuentes de datos principales para esto:
+**[!UICONTROL La campaña orquestada]** proporciona dos fuentes de datos principales para esto:
 
-- **Comentarios del mensaje**: captura eventos relacionados con la entrega, por ejemplo: mensajes enviados, abiertos, rechazados, etc.
+* **[!UICONTROL Comentarios del mensaje]**: captura eventos relacionados con la entrega, por ejemplo: mensajes enviados, abiertos, rechazados, etc.
+* **[!UICONTROL Seguimiento de correo electrónico]**: captura las acciones del usuario, por ejemplo, clics y aperturas.
 
-- **Seguimiento de correo electrónico**: captura las acciones del usuario, por ejemplo, clics y aperturas.
-
-## Crear una regla de redireccionamiento basada en comentarios
+## Crear una regla de redireccionamiento basada en comentarios {#feedback-retarget}
 
 La regla de redireccionamiento basada en comentarios permite redireccionar los destinatarios según los eventos de envío de mensajes capturados en el conjunto de datos **Comentarios del mensaje**. Estos eventos incluyen resultados como mensajes enviados, abiertos, rechazados o marcados como correo no deseado.
 
-Con estos datos, puede definir reglas para identificar a los destinatarios que recibieron un mensaje anterior pero que no interactuaron con él, lo que permite una comunicación de seguimiento basada en estados de entrega específicos.
+Con estos datos, se pueden definir reglas para identificar a los destinatarios que recibieron un mensaje anterior, lo que permite una comunicación de seguimiento basada en estados de entrega específicos.
 
-1. Crear una nueva **campaña orquestada**.
+1. Crear una nueva **[!UICONTROL campaña orquestada]**.
 
-2. Agregue una actividad **Generar audiencia** y establezca la dimensión de segmentación en **Destinatario (caas)**.
+1. Agregue una actividad **[!UICONTROL Generar audiencia]** y establezca la dimensión de segmentación en **[!UICONTROL Destinatario (caas)]**.
 
-3. En el **Generador de reglas**, haga clic en **Agregar condición** y seleccione **Comentarios del mensaje** en el Selector de atributos. Haga clic en **Confirmar**.
+1. En el **[!UICONTROL Generador de reglas]**, haga clic en **[!UICONTROL Agregar condición]** y seleccione **[!UICONTROL Comentarios sobre mensajes]** del **[!UICONTROL Selector de atributos]**. Haga clic en **[!UICONTROL Confirmar]** para crear un **mensaje de comentarios ya existe como** condición.
 
-4. Agregue una condición para **Estado de comentarios** y establezca el valor en **Mensaje enviado**.
+   ![](assets/retarget_1.png)
 
-5. Para dirigirse a una campaña orquestada específica:
+1. Elija el atributo **[!UICONTROL Estado de comentarios]** para segmentar los eventos de envío de mensajes.
 
-   - Agregue otra condición, busque `entity` y navegue hasta:\
-     `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign`.
++++ Detallado paso a paso
 
-   - Seleccione **Nombre de campaña organizada** y especifique el nombre de la campaña.
+   1. Agregue otra condición vinculada al atributo **[!UICONTROL Message feedback]**.
 
-6. Para dirigirse a un mensaje o una actividad específicos dentro de esa campaña organizada:
+   1. Busque el atributo **[!UICONTROL Estado de comentarios]** y haga clic en **[!UICONTROL Confirmar]**.
 
-   - Agregue otra condición, busque `entity` y navegue hasta:\
-     `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign`.
+      ![](assets/retarget_3.png)
 
-   - Seleccione **Nombre de acción de campaña orquestada** y especifique el nombre de la acción de campaña.
+   1. En el menú **[!UICONTROL Condición personalizada]**, elija qué estado de entrega rastrear en la lista desplegable **[!UICONTROL Valor]**.
 
-     Para encontrar los nombres de las acciones, haga clic en el ![icono de información](assets/do-not-localize/info-icon.svg) junto a una actividad en el lienzo.
+      ![](assets/retarget_4.png)
 
-   >[!TIP]
-   >
-   >En lugar de usar nombres, también puede filtrar por el **ID de campaña** (UUID), que se encuentra en las propiedades de Campaign.
++++
+
+1. Elija el atributo **[!UICONTROL Nombre de campaña orquestada]** para segmentar una campaña orquestada específica.
+
++++ Detallado paso a paso
+
+   1. Agregue otra condición vinculada al atributo **[!UICONTROL Message feedback]**, busque **[!UICONTROL entity]** y navegue hasta:
+
+      `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign entity`.
+
+   1. Seleccione **[!UICONTROL Nombre de campaña orquestada]**.
+
+      ![](assets/retarget_5.png)
+
+   1. En el menú **[!UICONTROL Condición personalizada]**, especifique el nombre de la campaña en el campo **[!UICONTROL Valor]**.
+
++++
+
+1. Elija el atributo **[!UICONTROL Nombre de acción de campaña orquestada]** para dirigir un mensaje o una actividad específicos dentro de una campaña orquestada.
+
++++ Detallado paso a paso
+
+   1. Agregue otra condición vinculada al atributo **[!UICONTROL Message feedback]**, busque **[!UICONTROL entity]** y navegue hasta:
+
+      `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign entity`.
+
+   1. Seleccione **[!UICONTROL Nombre de acción de campaña orquestada]**.
+
+      ![](assets/retarget_6.png)
+
+   1. En el menú **[!UICONTROL Custom condition]**, especifique el nombre de la acción de campaña en el campo **[!UICONTROL Value]**.
+
+      Para encontrar los nombres de las acciones, haga clic en el ![icono de información](assets/do-not-localize/info-icon.svg) junto a una actividad en el lienzo.
+
+   ++
+
+1. Como alternativa, también puede filtrar por **[!UICONTROL ID de campaña]** (UUID), que se encuentra en las propiedades de Campaign.
 
 ## Creación de una regla de retargeting basada en seguimiento
 
-La regla de retargeting basada en el seguimiento identifica a los destinatarios según sus interacciones con un mensaje mediante los datos del conjunto de datos **Seguimiento de correo electrónico**. Registra acciones del usuario como aperturas de correo electrónico y clics en vínculos.
+La regla de retargeting basada en el seguimiento identifica a los destinatarios según sus interacciones con un mensaje mediante los datos del conjunto de datos **[!UICONTROL Seguimiento de correo electrónico]**. Registra acciones del usuario como aperturas de correo electrónico y clics en vínculos.
 
-Para redirigir a los destinatarios en función de las interacciones de mensajes (p. ej., abrir o hacer clic), use la entidad **Seguimiento de correo electrónico** de la siguiente manera:
+Para redirigir a los destinatarios en función de las interacciones de mensajes (p. ej., abrir o hacer clic), use la entidad **[!UICONTROL Seguimiento de correo electrónico]** de la siguiente manera:
 
-1. Cree una nueva **Campaña orquestada** y luego agregue una actividad **Generar audiencia** con **Destinatario (caas)** como dimensión de segmentación para centrarse en destinatarios de campañas orquestadas anteriores.
+1. Crear una nueva **[!UICONTROL campaña orquestada]**.
 
-1. Agregar una nueva condición para **Seguimiento de correo electrónico**. Haga clic en **Confirmar** para crear una condición &quot;El seguimiento de correo electrónico existe como&quot;.
+1. Agregue una actividad **[!UICONTROL Generar audiencia]** y establezca la dimensión de segmentación en **[!UICONTROL Destinatario (caas)]** para que se centre en destinatarios de campañas orquestadas anteriores.
 
-1. Dentro de esa condición, agregue una condición y busque el atributo **Interaction Type**.
+1. En el **[!UICONTROL Generador de reglas]**, haga clic en **[!UICONTROL Agregar condición]** y seleccione **[!UICONTROL Seguimiento de correo electrónico]** del **[!UICONTROL Selector de atributos]**.
 
-1. En las opciones de condición personalizadas, use **Incluido en** como operador y seleccione uno o más valores según el caso de uso. Por ejemplo:
-   - **Mensaje abierto**
-   - **Se Hizo Clic En Vínculo De Mensaje**
+   Haga clic en **[!UICONTROL Confirmar]** para crear una condición **Existe seguimiento de correo electrónico como**.
 
-1. Para asociar los datos de seguimiento a una campaña específica:
+   ![](assets/retarget_2.png)
 
-   - Añada una condición dentro del bloque de seguimiento de correo electrónico.
+1. Para segmentar las interacciones de los perfiles con un mensaje, agregue otra condición vinculada al atributo **[!UICONTROL Email tracking]** y busque el atributo **[!UICONTROL Interaction Type]**.
 
-   - Vaya a `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign`.
+   ![](assets/retarget_7.png)
 
-   - Agregue condiciones tanto para **Nombre de campaña orquestada** como para **Nombre de acción de campaña orquestada**, si es necesario.
+1. En las opciones de condición personalizadas, usa **[!UICONTROL Incluido en]** como operador y selecciona uno o más valores según tu caso de uso, por ejemplo **[!UICONTROL Mensaje abierto]** o **[!UICONTROL Se hizo clic en el vínculo del mensaje]**.
 
-     Para encontrar los nombres de las acciones, haga clic en el ![icono de información](assets/do-not-localize/info-icon.svg) junto a una actividad en el lienzo.
+   ![](assets/retarget_8.png)
 
-   >[!TIP]
-   >
-   >En lugar de usar nombres, también puede filtrar por el **ID de campaña** (UUID), que se encuentra en las propiedades de Campaign.
+1. Para asociar los datos de seguimiento a una campaña específica, agrega una nueva condición **[!UICONTROL Message feedback]** y sigue los pasos detallados [en esta sección](#feedback-retarget).
