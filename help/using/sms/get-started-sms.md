@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: cc0ffd008052fcb0ce06f6cdff0f2adb5c040568
-workflow-type: ht
-source-wordcount: '243'
-ht-degree: 100%
+source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 92%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer envía mensajes de texto a través de proveedores de ser
 
   +++Consulte el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422693?learn=on&captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -79,6 +79,15 @@ Adobe Journey Optimizer envía mensajes de texto a través de proveedores de ser
 
   +++Consulte el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430377?quality=12&learn=on&captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+
++++
+
+* El siguiente vídeo le ayuda a configurar y enviar mensajes RCS interactivos de marca en Adobe Journey Optimizer mediante un proveedor de SMS personalizado.
+
+
+  +++Consulte el vídeo
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
