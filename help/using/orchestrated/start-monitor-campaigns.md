@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="Publicación de la campaña orquestada"
->abstract="Para iniciar su campaña, debe publicarla. Asegúrese de que todos los errores se borran antes de la publicación."
+>abstract="Para iniciar su campaña, debe publicarla. Asegúrese de que se borran todos los errores antes de la publicación."
 
 +++ Tabla de contenido
 

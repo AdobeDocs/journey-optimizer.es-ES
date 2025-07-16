@@ -15,7 +15,7 @@ exl-id: 44886355-ee3a-4323-899a-35d967487924
 source-git-commit: 755ffdb0a9986ce8c2175a9bc61ed4a56714ff7d
 workflow-type: tm+mt
 source-wordcount: '774'
-ht-degree: 19%
+ht-degree: 28%
 
 ---
 
@@ -40,12 +40,12 @@ Debe trabajar con el proveedor de correo postal de terceros que haya elegido par
 >
 >Esta página detalla el proceso para crear y enviar mensajes de correo postal con recorridos. Para obtener más información sobre el canal de correo postal y cómo crear campañas de correo postal, consulte esta sección: [Introducción al correo postal](../direct-mail/get-started-direct-mail.md).
 
-## Crear una configuración de enrutamiento de archivos
+## Crear una configuración de enrutamiento de archivo
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_frequency"
 >title="Elegir la región de AWS"
->abstract="Si la configuración de enrutamiento de archivos se va a enviar mediante recorridos, puede especificar la frecuencia con la que se enviará el archivo al servidor."
+>abstract="Si la configuración de enrutamiento de su archivo se va a enviar mediante recorridos, puede especificar la frecuencia con la que se enviará el archivo al servidor."
 
 Antes de crear un mensaje de correo postal, asegúrese de haber configurado una configuración de enrutamiento de archivos que especifique el servidor donde se debe cargar y almacenar el archivo de extracción. Para ello, siga estos pasos:
 
@@ -53,7 +53,7 @@ Antes de crear un mensaje de correo postal, asegúrese de haber configurado una 
 
 1. Defina las propiedades de configuración de enrutamiento de archivos, como su nombre y el tipo de servidor que desea utilizar. Encontrará información detallada sobre cómo configurar una configuración de enrutamiento de archivos en la sección [Configuración de correo directo](../direct-mail/direct-mail-configuration.md#file-routing-configuration).
 
-   Si la configuración de enrutamiento de archivos se va a enviar mediante recorridos, puede especificar la frecuencia con la que se enviará el archivo al servidor.
+   Si la configuración de enrutamiento de su archivo se va a enviar mediante recorridos, puede especificar la frecuencia con la que se enviará el archivo al servidor.
 
    ![](assets/file-routing-journey.png)
 
