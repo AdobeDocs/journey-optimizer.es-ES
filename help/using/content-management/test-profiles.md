@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
-source-git-commit: bc433a215021b9c5c6a8948468468808e7121712
+source-git-commit: 95a6d032808bc735a27a98dcb61efefa93cf5047
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 16%
@@ -23,7 +23,7 @@ Los perfiles de prueba son destinatarios adicionales que no coinciden con los cr
 
 Antes de usar perfiles de prueba para probar el contenido, primero debe seleccionarlos. Para ello, siga estos pasos:
 
-1. En la pantalla de edición de contenido del mensaje o en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]** y seleccione **[!UICONTROL Contenido de sumulaye]**.
+1. En la pantalla Editar contenido del mensaje o en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]** y seleccione **[!UICONTROL Simular contenido]**.
 
 1. Haga clic en el botón **[!UICONTROL Administrar perfiles de prueba]** y, a continuación, seleccione el área de nombres que se utilizará para identificar los perfiles de prueba haciendo clic en el icono de selección **[!UICONTROL Área de nombres de identidad]**. [Obtenga más información acerca de áreas de nombres de identidad de Adobe Experience Platform](../audience/get-started-identity.md).
 
