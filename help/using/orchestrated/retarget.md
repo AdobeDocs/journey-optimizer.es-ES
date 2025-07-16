@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo iniciar y supervisar campañas orq
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 811a04c1ce74627b48143da4cd78d6cc644f4ba5
+source-git-commit: 175762a1d843f55dd9dcbb1cb0ac107a27a370b0
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -33,9 +33,9 @@ Documentación en curso
 
 >[!ENDSHADEBOX]
 
-La reorientación le permite hacer un seguimiento de los destinatarios según su respuesta a una campaña orquestada anteriormente. Por ejemplo, puede enviar un segundo correo electrónico a los perfiles que recibieron pero no hicieron clic en el primero.
+La reorientación le permite hacer un seguimiento de los destinatarios según su respuesta a una campaña orquestada anteriormente. Por ejemplo, puede enviar un segundo correo electrónico a los destinatarios que recibieron pero no hicieron clic en el primero.
 
-**[!UICONTROL La campaña orquestada]** proporciona dos fuentes de datos principales para esto:
+**[!UICONTROL La campaña orquestada]** proporciona dos atributos principales para esto:
 
 * **[!UICONTROL Comentarios del mensaje]**: captura eventos relacionados con la entrega, por ejemplo: mensajes enviados, abiertos, rechazados, etc.
 * **[!UICONTROL Seguimiento de correo electrónico]**: captura las acciones del usuario, por ejemplo, clics y aperturas.
@@ -44,7 +44,7 @@ La reorientación le permite hacer un seguimiento de los destinatarios según su
 
 ## Crear una regla de redireccionamiento basada en comentarios {#feedback-retarget}
 
-La regla de redireccionamiento basada en comentarios permite redireccionar los destinatarios según los eventos de envío de mensajes capturados en el conjunto de datos **Comentarios del mensaje**. Estos eventos incluyen resultados como mensajes enviados, abiertos, rechazados o marcados como correo no deseado.
+La regla de redireccionamiento basada en comentarios permite redireccionar los destinatarios según los eventos de envío de mensajes capturados con el atributo **[!UICONTROL Comentarios del mensaje]**. Estos eventos incluyen resultados como mensajes enviados, abiertos, rechazados o marcados como correo no deseado.
 
 Con estos datos, se pueden definir reglas para identificar a los destinatarios que recibieron un mensaje anterior, lo que permite una comunicación de seguimiento basada en estados de entrega específicos.
 
@@ -88,7 +88,7 @@ Con estos datos, se pueden definir reglas para identificar a los destinatarios q
 
 +++
 
-1. Elija el atributo **[!UICONTROL Nombre de acción de campaña orquestada]** para dirigir un mensaje o una actividad específicos dentro de una campaña orquestada.
+1. Elija el atributo **[!UICONTROL Nombre de acción de campaña orquestada]** para segmentar un mensaje o una actividad específicos dentro de una campaña orquestada.
 
 +++ Detallado paso a paso
 
@@ -102,15 +102,20 @@ Con estos datos, se pueden definir reglas para identificar a los destinatarios q
 
    1. En el menú **[!UICONTROL Custom condition]**, especifique el nombre de la acción de campaña en el campo **[!UICONTROL Value]**.
 
-      Para encontrar los nombres de las acciones, haga clic en el ![icono de información](assets/do-not-localize/info-icon.svg) junto a una actividad en el lienzo.
+      Para encontrar los nombres de las acciones, haga clic en el ![icono de información](assets/do-not-localize/info-icon.svg) junto al campo Etiqueta de su actividad.
 
 +++
 
-1. Como alternativa, también puede filtrar por **[!UICONTROL ID de campaña]** (UUID), que se encuentra en las propiedades de Campaign.
+1. También puede filtrar por **[!UICONTROL ID de campaña]** (UUID), que se encuentra en las propiedades de Campaign.
 
-## Creación de una regla de retargeting basada en seguimiento
+Ahora ha configurado una regla de redireccionamiento basada en los comentarios para identificar a los destinatarios en función del estado de entrega de un mensaje anterior, como enviado, abierto, devuelto o marcado como correo no deseado. Con esta audiencia definida, puede agregar un correo electrónico de seguimiento o refinar aún más su segmentación si [configura una regla de retargeting basada en seguimiento](#tracking-based), que usa datos de interacción del usuario.
 
-La regla de retargeting basada en el seguimiento identifica a los destinatarios según sus interacciones con un mensaje mediante los datos del conjunto de datos **[!UICONTROL Seguimiento de correo electrónico]**. Registra acciones del usuario como aperturas de correo electrónico y clics en vínculos.
+![](assets/retarget_9.png)
+
+
+## Creación de una regla de retargeting basada en seguimiento {#tracking-based}
+
+La regla de retargeting basada en el seguimiento identifica a los destinatarios según sus interacciones con un mensaje mediante los datos del atributo **[!UICONTROL Email Tracking]**. Registra acciones del usuario como aperturas de correo electrónico y clics en vínculos.
 
 Para redirigir a los destinatarios en función de las interacciones de mensajes (p. ej., abrir o hacer clic), use la entidad **[!UICONTROL Seguimiento de correo electrónico]** de la siguiente manera:
 
@@ -124,7 +129,7 @@ Para redirigir a los destinatarios en función de las interacciones de mensajes 
 
    ![](assets/retarget_2.png)
 
-1. Para segmentar las interacciones de los perfiles con un mensaje, agregue otra condición vinculada al atributo **[!UICONTROL Email tracking]** y busque el atributo **[!UICONTROL Interaction Type]**.
+1. Para segmentar las interacciones de los destinatarios con un mensaje, agregue otra condición vinculada al atributo **[!UICONTROL Email tracking]** y busque el atributo **[!UICONTROL Interaction Type]**.
 
    ![](assets/retarget_7.png)
 
@@ -132,4 +137,7 @@ Para redirigir a los destinatarios en función de las interacciones de mensajes 
 
    ![](assets/retarget_8.png)
 
-1. Para asociar los datos de seguimiento a una campaña específica, agrega una nueva condición **[!UICONTROL Message feedback]** y sigue los pasos detallados [en esta sección](#feedback-retarget).
+Ahora ha configurado una regla de retargeting basada en el seguimiento para segmentar destinatarios según sus interacciones con un mensaje anterior, como aperturas de correo electrónico o clics en vínculos, con datos del atributo **[!UICONTROL Email Tracking]**. Con esta audiencia definida, puede agregar una acción de seguimiento o refinar aún más su segmentación combinándola con una [regla de retargeting basada en comentarios](#feedback-retarget) para incluir resultados de mensajes como enviados, rechazados o marcados como correo no deseado.
+
+
+![](assets/retarget_10.png)
