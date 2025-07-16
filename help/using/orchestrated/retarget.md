@@ -6,7 +6,7 @@ description: Obtenga información sobre cómo iniciar y supervisar campañas orq
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: b1bee7a5ee05e0e535a982c31bafafdc760d21ae
+source-git-commit: 811a04c1ce74627b48143da4cd78d6cc644f4ba5
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 1%
@@ -39,6 +39,8 @@ La reorientación le permite hacer un seguimiento de los destinatarios según su
 
 * **[!UICONTROL Comentarios del mensaje]**: captura eventos relacionados con la entrega, por ejemplo: mensajes enviados, abiertos, rechazados, etc.
 * **[!UICONTROL Seguimiento de correo electrónico]**: captura las acciones del usuario, por ejemplo, clics y aperturas.
+
+![](assets/do-not-localize/retarget-schema.png)
 
 ## Crear una regla de redireccionamiento basada en comentarios {#feedback-retarget}
 
@@ -102,7 +104,7 @@ Con estos datos, se pueden definir reglas para identificar a los destinatarios q
 
       Para encontrar los nombres de las acciones, haga clic en el ![icono de información](assets/do-not-localize/info-icon.svg) junto a una actividad en el lienzo.
 
-   ++
++++
 
 1. Como alternativa, también puede filtrar por **[!UICONTROL ID de campaña]** (UUID), que se encuentra en las propiedades de Campaign.
 
