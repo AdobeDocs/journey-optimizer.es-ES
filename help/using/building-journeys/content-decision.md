@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: actividad, toma de decisiones, decisión de contenido, política de decisión, lienzo, recorrido
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 701b2caeac704149c820ce3bf6338107ab4bc9f8
+source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1027'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Para configurar la actividad **[!UICONTROL Decisión de contenido]**, siga los p
 
    ![Agregar una decisión de contenido al recorrido](assets/journey-content-decision.png){width=100%}
 
-1. Opcionalmente, añada una etiqueta y una descripción a la actividad.
+1. De forma opcional, añada una etiqueta y una descripción a la actividad.
 
 1. Haga clic en **[!UICONTROL Agregar directiva de decisión]**. [Más información sobre las políticas de decisión](../experience-decisioning/create-decision.md)
 
@@ -63,9 +63,9 @@ Para configurar la actividad **[!UICONTROL Decisión de contenido]**, siga los p
 
 1. Organice el orden de evaluación según sea necesario.
 
-   Al agregar varios elementos de decisión y/o estrategias, se evaluarán en orden secuencial, indicados con números a la izquierda de cada objeto o grupo de objetos. Para cambiar la secuencia predeterminada, puede arrastrar y soltar los objetos o los grupos para reordenarlos como desee. [Más información](../experience-decisioning/create-decision.md#evaluation-order)
+   Al agregar varios elementos de decisión y/o estrategias, se evalúan en orden secuencial, indicados con números a la izquierda de cada objeto o grupo de objetos. Para cambiar la secuencia predeterminada, puede arrastrar y soltar los objetos o los grupos para reordenarlos como desee. [Más información](../experience-decisioning/create-decision.md#evaluation-order)
 
-1. Opcionalmente, puede añadir una oferta de reserva. [Más información](../experience-decisioning/create-decision.md#fallback)
+1. (opcional) Añada una oferta de reserva. [Más información](../experience-decisioning/create-decision.md#fallback)
 
 1. Revise y guarde la directiva de decisión.
 
@@ -85,7 +85,7 @@ Para aprovechar el resultado de una actividad de decisión de contenido, puede a
 
 1. Desde la categoría **[!UICONTROL Orchestration]**, suelte una actividad **[!UICONTROL Condition]** en el lienzo. [Más información](condition-activity.md#add-condition-activity)
 
-1. De forma opcional, cambie el nombre de **[!UICONTROL Path1]**, que corresponde a la primera expresión que definirá, por una etiqueta más relevante.
+1. (opcional) Cambie el nombre de **[!UICONTROL Path1]**, que corresponde a la primera expresión que defina, por una etiqueta más relevante.
 
 1. Para esta primera ruta, haga clic dentro del campo **[!UICONTROL Expression]** o use el icono Editar para agregar una expresión.
 
@@ -103,7 +103,7 @@ Para aprovechar el resultado de una actividad de decisión de contenido, puede a
 
    >[!NOTE]
    >
-   >Cualquier etiqueta restringida definida en un atributo, ya sea en un evento de experiencia de recorrido utilizado en una regla de decisión (como datos de contexto) o en el esquema de [ofertas](../experience-decisioning/catalogs.md#access-catalog-schema), no producirá una infracción de directiva para DULE ni para el consentimiento. Obtenga más información sobre las directivas de gobernanza de datos en [esta sección](../action/action-privacy.md)
+   >Cualquier etiqueta restringida definida en un atributo, ya sea en un evento de experiencia de recorrido utilizado en una regla de decisión (como datos de contexto) o en el esquema de [ofertas](../experience-decisioning/catalogs.md#access-catalog-schema), produce una infracción de directiva para DULE o para el consentimiento. Obtenga más información sobre las directivas de gobernanza de datos en [esta sección](../action/action-privacy.md)
 
 1. Para comprobar si se ha devuelto alguna oferta para los perfiles que entran en el recorrido, use la función [listSize](functions/functionlistsize.md) con la siguiente sintaxis: `listSize(@decision{ContentdecisionName.items})>0`
 
