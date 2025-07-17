@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
+source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2526'
 ht-degree: 98%
 
 ---
@@ -263,7 +263,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
             + [Aprovechamiento de fragmentos visuales](using/email/use-visual-fragments.md)
             + [Adición de vínculos y seguimiento de mensajes](using/email/message-tracking.md)
             + [Inserción de ofertas personalizadas](using/email/add-offers-email.md)
-            + [Generar la versión de texto](using/email/text-version-email.md)
+            + [Generar versión de texto](using/email/text-version-email.md)
             + [Añadir metadatos](using/email/email-metadata.md)
             + [Añadir CSS personalizado](using/email/custom-css.md)
          + Editar estilo {#edit-style}
@@ -271,6 +271,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
             + [Editar configuración de fondo](using/email/backgrounds.md)
             + [Ajustar alineación vertical y relleno](using/email/alignment-and-padding.md)
             + [Añadir atributos de estilo en línea](using/email/inline-styling.md)
+            + [Definición del contenido en modo oscuro](using/email/dark-mode.md)
       + [Administrar la exclusión de correo electrónico](using/email/email-opt-out.md)
       + Configurar canal de correo electrónico {#configure-email}
          + [Empezar con la configuración de correo electrónico](using/email/get-started-email-config.md)
