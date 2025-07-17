@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
+source-git-commit: c5a0c6401add384685c9d7ab2c623076ea4bf793
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 7%
@@ -53,8 +53,8 @@ En el siguiente ejemplo se define manualmente el esquema Membresías de fideliza
 
 1. Proporcione un **Nombre de esquema** (por ejemplo, `test_demo_ck001`).
 1. Elija **Tipo de esquema**:
-   &#x200B;- **Tipo de registro** (requerido para campañas AGO)
-   &#x200B;- **Serie temporal** (no aplicable aquí)
+   - **Tipo de registro** (requerido para campañas AGO)
+   - **Serie temporal** (no aplicable aquí)
 1. Haga clic en **Finalizar** para continuar al lienzo de diseño de esquema.
 
 ## Seleccionar entidades y campos para importar
@@ -62,8 +62,8 @@ En el siguiente ejemplo se define manualmente el esquema Membresías de fideliza
 1. En el lienzo, agregue atributos (campos) al esquema.
 1. Agregar una **clave principal** (obligatoria).
 1. Agregar un atributo **Descriptor de versión** (para compatibilidad con CDC):
-   &#x200B;- Debe ser del tipo **DateTime** o **Numérico** (entero, largo, corto, byte).
-   &#x200B;- Ejemplo común: `last_modified`
+Debe ser del tipo **DateTime** o **Numérico** (entero, largo, corto, byte).
+Ejemplo común: `last_modified`
 
 > **¿Por qué?**: la **clave principal** identifica de forma exclusiva cada registro, y el **descriptor de versión** realiza un seguimiento de los cambios, lo que admite la recopilación de datos de cambio (CDC) y la duplicación de datos.
 
