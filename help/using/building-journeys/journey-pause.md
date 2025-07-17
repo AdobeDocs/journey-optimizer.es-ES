@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 1215cdc3ed6050ca061f8d97281d52ade352611e
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2117'
 ht-degree: 8%
 
 ---
@@ -87,7 +87,7 @@ Cuando un recorrido está en pausa, la administración de perfiles y la ejecuci�
 | [Decisión de contenido](content-decision.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
 | [Acción de canal](journeys-message.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
 | [Acción personalizada](../action/action.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
-| [Actualizar perfil](update-profiles.md) y [Saltar](jump.md) | Mismo comportamiento que en un recorrido activo |
+| [Actualizar perfil](update-profiles.md) y [Saltar](jump.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
 | [Source de datos externos](../datasource/external-data-sources.md) | Mismo comportamiento que en un recorrido activo |
 | [Criterios de salida](journey-properties.md#exit-criteria) | Mismo comportamiento que en un recorrido activo |
 
@@ -182,7 +182,7 @@ Al pausar este recorrido, selecciona si los perfiles son **Descartados** o **Ret
 1. Actividad **Wait**: los perfiles siguen esperando normalmente en el nodo y lo cerrarán, incluso si el recorrido está en pausa.
 1. **Condición**: los perfiles siguen atravesando condiciones y se mueven a la rama derecha, según la expresión definida en la condición.
 1. Actividades **Push**/**Email**: durante un recorrido en pausa, los perfiles comienzan a esperar o se descartan (según la elección hecha por el usuario en el momento de la pausa) en el siguiente nodo de acción. Por lo tanto, los perfiles empezarán a esperar o se descartarán allí.
-1. **Eventos** después de **nodos de acción**: si un perfil está esperando en un nodo **Acción** y hay una actividad **Evento** después de él, si ese evento se activa, el perfil se descarta.
+1. **Eventos** después de **nodos de acción**: si un perfil está esperando en un nodo **Acción** y hay una actividad **Evento** después de él, si ese evento se activa, el evento se descarta.
 
 Según este comportamiento, puede ver que los números de perfiles aumentan cuando se pausa el recorrido, sobre todo en las actividades anteriores a **Action**. Por ejemplo, en ese ejemplo, la actividad **Wait** sigue habilitada, lo que aumenta el número de perfiles que pasan por la actividad **Condition**, a medida que salen de ella.
 
