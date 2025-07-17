@@ -113,7 +113,7 @@ Para agregar condiciones en la consulta, siga estos pasos:
    | Me gusta  | De forma similar al operador Contains, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) como &quot;Jon%s&quot;. El carácter comodín actúa como un &quot;joker&quot; para encontrar nombres como &quot;Jones&quot;. |
    | Not like | De forma similar al operador Contains, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) como &quot;Smi%h&quot;. Los destinatarios cuyo apellido sea &quot;Smith&quot; no se devolverán. |
 
-+++
+   +++
 
 1. En el campo **Value**, defina el valor esperado. También puede utilizar el editor de expresiones para definir manualmente una expresión utilizando los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en la imagen ![que muestra el icono del editor de expresiones](assets/do-not-localize/rule-builder-icon-editor.svg). [Obtenga información sobre cómo editar expresiones](../orchestrated/edit-expressions.md)
 
@@ -123,7 +123,7 @@ Para agregar condiciones en la consulta, siga estos pasos:
 
    ![imagen que muestra la opción de ajuste preestablecido](assets/rule-builder-attribute-preset.png)
 
-+++
+   +++
 
 ### Condiciones personalizadas en las tablas vinculadas (vínculos 1-1 y 1-N){#links}
 
