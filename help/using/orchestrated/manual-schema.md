@@ -53,8 +53,8 @@ En el siguiente ejemplo se define manualmente el esquema Membresías de fideliza
 
 1. Proporcione un **Nombre de esquema** (por ejemplo, `test_demo_ck001`).
 1. Elija **Tipo de esquema**:
-   - **Tipo de registro** (requerido para campañas AGO)
-   - **Serie temporal** (no aplicable aquí)
+   &#x200B;- **Tipo de registro** (requerido para campañas AGO)
+   &#x200B;- **Serie temporal** (no aplicable aquí)
 1. Haga clic en **Finalizar** para continuar al lienzo de diseño de esquema.
 
 ## Seleccionar entidades y campos para importar
