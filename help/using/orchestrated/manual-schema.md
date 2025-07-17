@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: c5a0c6401add384685c9d7ab2c623076ea4bf793
+source-git-commit: aefc95b755074dfa043bad7dfd4acbd8dfb8e939
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 7%
@@ -53,8 +53,8 @@ En el siguiente ejemplo se define manualmente el esquema Membresías de fideliza
 
 1. Proporcione un **Nombre de esquema** (por ejemplo, `test_demo_ck001`).
 1. Elija **Tipo de esquema**:
-   &#x200B;- **Tipo de registro** (requerido para campañas AGO)
-   &#x200B;- **Serie temporal** (no aplicable aquí)
+   **Tipo de registro** (requerido para campañas AGO)
+   **Serie temporal** (no aplicable aquí)
 1. Haga clic en **Finalizar** para continuar al lienzo de diseño de esquema.
 
 ## Seleccionar entidades y campos para importar
