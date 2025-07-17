@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo introducir datos en Adobe Experien
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: ea5ef4005be90973046d3f94ea4c2b92eb89ffb4
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 7%
+source-wordcount: '186'
+ht-degree: 17%
 
 ---
 
@@ -31,73 +31,74 @@ ht-degree: 7%
 
 </br>
 
-El contenido
-
 El contenido de esta página no es definitivo y puede estar sujeto a cambios.
 
 >[!ENDSHADEBOX]
 
 Adobe Experience Platform permite la ingesta de datos desde fuentes externas, al tiempo que le ofrece la capacidad de estructurar, etiquetar y mejorar los datos entrantes mediante los servicios de Experience Platform. Puede ingerir datos de una variedad de fuentes, como aplicaciones de Adobe, almacenamiento basado en la nube, bases de datos y muchas otras.
 
-## Con almacenamiento en la nube {#ingest}
-
 <!--
+## With Cloud storage {#ingest}
+
+
 >[!IMPORTANT]
 >
 >Each dataset in Adobe Experience Platform supports only one active dataflow at a time. For detailed setup guidance on how to switch data sources, refer to this [section](#cdc-ingestion).
+
+
+You can configure a data flow to ingest data from an Amazon S3 source into Adobe Experience Platform. Once configured, the data flow enables automated, scheduled ingestion of structured data and supports real-time updates.
+
+1. From the **[!UICONTROL Connections]** menu, access the **[!UICONTROL Sources]** menu.
+
+1. Select the **[!UICONTROL Cloud storage]** category then Amazon S3 and click **[!UICONTROL Add Data]**.
+
+    ![](assets/admin_sources_1.png)
+
+1. Connect your S3 Account:
+
+    * With an existing account
+
+    * With a new account
+
+    [Learn more in Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+
+    ![](assets/admin_sources_2.png)
+
+1. Choose your folder **[!UICONTROL Data format]**, **[!UICONTROL Delimiter]** and **[!UICONTROL Compression type]**.
+
+1. Navigate through the connected S3 source until you locate the two folders created earlier i.e. **loyalty rewards** and **loyalty transactions**.
+
+1. Select the folder that contains your data.
+    
+    Selecting a folder ensures that all current and future files with the same structure are automatically processed. Selecting a single file, however, requires manually uploading each new data increment.
+
+    ![](assets/S3_config_2.png)
+
+1. Choose your folder **[!UICONTROL Data format]**, **[!UICONTROL Delimiter]** and **[!UICONTROL Compression type]**. Review your sample data for accuracy, then click **[!UICONTROL Next]**.
+
+    ![](assets/S3_config_1.png)
+
+1. Check **[!UICONTROL Enable Change data capture]** to select from datasets that are mapped to relational schemas and have both a primary key and a version descriptor defined.
+
+1. Select your [previously created Dataset](#entities) and click **[!UICONTROL Next]**.
+
+    ![](assets/S3_config_3.png)
+
+1. In the **[!UICONTROL Mapping]** window, verify that each source file attribute is correctly mapped with the corresponding fields in the target schema.
+
+    Click **[!UICONTROL Next]** once done.
+
+    ![](assets/S3_config_4.png)
+
+1. Configure the data flow **[!UICONTROL Schedule]** based on your desired frequency.
+
+1. Click **[!UICONTROL Finish]** to create the data flow. It will execute automatically according to the defined schedule.
+
+1. From the **[!UICONTROL Connections]** menu, select **[!UICONTROL Sources]** and access the **[!UICONTROL Data Flows]** tab to track flow execution, review ingested records, and troubleshoot any errors.
+
+    ![](assets/S3_config_5.png)
+
 -->
-
-Puede configurar un flujo de datos para introducir datos de una fuente de Amazon S3 en Adobe Experience Platform. Una vez configurado, el flujo de datos permite la ingesta automatizada y programada de datos estructurados y admite actualizaciones en tiempo real.
-
-1. Desde el menú **[!UICONTROL Conexiones]**, acceda al menú **[!UICONTROL Fuentes]**.
-
-1. Seleccione la categoría **[!UICONTROL Cloud Storage]**, luego Amazon S3 y haga clic en **[!UICONTROL Agregar datos]**.
-
-   ![](assets/admin_sources_1.png)
-
-1. Conecte su cuenta S3:
-
-   * Con una cuenta existente
-
-   * Con una cuenta nueva
-
-   [Obtenga más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
-
-   ![](assets/admin_sources_2.png)
-
-1. Elija su carpeta **[!UICONTROL Formato de datos]**, **[!UICONTROL Delimitador]** y **[!UICONTROL Tipo de compresión]**.
-
-1. Navegue por el origen de S3 conectado hasta que encuentre las dos carpetas creadas anteriormente, es decir, **recompensas de fidelidad** y **transacciones de fidelidad**.
-
-1. Seleccione la carpeta que contiene los datos.
-
-   Al seleccionar una carpeta, se garantiza que todos los archivos actuales y futuros con la misma estructura se procesen automáticamente. Sin embargo, para seleccionar un solo archivo es necesario cargar manualmente cada incremento de datos nuevo.
-
-   ![](assets/S3_config_2.png)
-
-1. Elija su carpeta **[!UICONTROL Formato de datos]**, **[!UICONTROL Delimitador]** y **[!UICONTROL Tipo de compresión]**. Revise los datos de ejemplo para comprobar su precisión y, a continuación, haga clic en **[!UICONTROL Siguiente]**.
-
-   ![](assets/S3_config_1.png)
-
-1. Marque **[!UICONTROL Habilitar la captura de datos modificados]** para seleccionar entre conjuntos de datos asignados a esquemas relacionales que tienen una clave principal y un descriptor de versión definidos.
-
-1. Seleccione su [conjunto de datos](#entities) creado anteriormente y haga clic en **[!UICONTROL Siguiente]**.
-
-   ![](assets/S3_config_3.png)
-
-1. En la ventana **[!UICONTROL Mapping]**, compruebe que cada atributo del archivo de origen esté asignado correctamente con los campos correspondientes del esquema de destino.
-
-   Haga clic en **[!UICONTROL Siguiente]** una vez finalizado.
-
-   ![](assets/S3_config_4.png)
-
-1. Configure el flujo de datos **[!UICONTROL Programar]** según la frecuencia que desee.
-
-1. Haga clic en **[!UICONTROL Finalizar]** para crear el flujo de datos. Se ejecutará automáticamente según la programación definida.
-
-1. En el menú **[!UICONTROL Conexiones]**, seleccione **[!UICONTROL Fuentes]** y acceda a la pestaña **[!UICONTROL Flujos de datos]** para rastrear la ejecución del flujo, revisar los registros ingeridos y solucionar cualquier error.
-
-   ![](assets/S3_config_5.png)
 
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 

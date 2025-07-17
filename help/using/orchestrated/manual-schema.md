@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: ea5ef4005be90973046d3f94ea4c2b92eb89ffb4
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 7%
+source-wordcount: '152'
+ht-degree: 9%
 
 ---
 
@@ -38,40 +38,41 @@ El contenido de esta página no es definitivo y puede estar sujeto a cambios.
 
 Los esquemas relacionales se pueden crear directamente a través de la interfaz de usuario, lo que permite una configuración detallada de atributos, claves principales, campos de versiones y relaciones.
 
-En el siguiente ejemplo se define manualmente el esquema Membresías de fidelización para ilustrar la estructura necesaria para las campañas organizadas.
+<!--
+The following example manually defines the Loyalty Memberships schema to illustrate the required structure for orchestrated campaigns.
 
-1. Inicie sesión en Adobe Experience Platform.
+1. Log in to Adobe Experience Platform.
 
-1. Vaya a **Administración de datos** > **Esquema**.
+1. Navigate to the **Data Management** > **Schema**.
 
-1. Haz clic en **Crear esquema**.
+1. Click on **Create Schema**.
 
-1. Se le pedirá que seleccione entre dos tipos de esquema:
+1. You will be prompted to select between two schema types:
 
-   * **Standard**
-   * **Relacional**, se usa específicamente para campañas orquestadas
+    * **Standard**
+    * **Relational**, used specifically for orchestrated campaigns
 
-   ![](assets/admin_schema_1.png)
+    ![](assets/admin_schema_1.png)
 
-1. Proporcione un **Nombre de esquema** (por ejemplo, `test_demo_ck001`).
-1. Elija **Tipo de esquema**:
-   **Tipo de registro** (requerido para campañas AGO)
-   **Serie temporal** (no aplicable aquí)
-1. Haga clic en **Finalizar** para continuar al lienzo de diseño de esquema.
+1. Provide a **Schema Name** (e.g., `test_demo_ck001`).
+1. Choose **Schema Type**:
+    **Record Type** (required for AGO campaigns)
+    **Time Series** (not applicable here)
+1. Click **Finish** to proceed to the schema design canvas.
 
-## Seleccionar entidades y campos para importar
+## Select entities and fields to import
 
-1. En el lienzo, agregue atributos (campos) al esquema.
-1. Agregar una **clave principal** (obligatoria).
-1. Agregar un atributo **Descriptor de versión** (para compatibilidad con CDC):
-Debe ser del tipo **DateTime** o **Numérico** (entero, largo, corto, byte).
-Ejemplo común: `last_modified`
+1. In the canvas, add attributes (fields) to your schema.
+1. Add a **Primary Key** (mandatory).
+1. Add a **Version Descriptor** attribute (for CDC support):
+     This must be of type **DateTime** or **Numeric** (Integer, Long, Short, Byte).
+     Common example: `last_modified`
 
-> **¿Por qué?**: la **clave principal** identifica de forma exclusiva cada registro, y el **descriptor de versión** realiza un seguimiento de los cambios, lo que admite la recopilación de datos de cambio (CDC) y la duplicación de datos.
+> **Why?** The **Primary Key** uniquely identifies each record, and the **Version Descriptor** tracks changes, supporting CDC (Change Data Capture) and data mirroring.
 
-1. Marque los campos apropiados como **Clave principal** y **Descriptor de versión**.
-1. Haga clic en **Guardar**.
-
+1. Mark the appropriate fields as **Primary Key** and **Version Descriptor**.
+1. Click **Save**.
+-->
 
 <!--
 

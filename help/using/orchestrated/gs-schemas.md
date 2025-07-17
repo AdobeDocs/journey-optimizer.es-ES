@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo crear un esquema relacional en Ado
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 5%
+source-wordcount: '172'
+ht-degree: 8%
 
 ---
 
@@ -31,30 +31,30 @@ ht-degree: 5%
 
 </br>
 
-El contenido
-
 El contenido de esta página no es definitivo y puede estar sujeto a cambios.
 
 >[!ENDSHADEBOX]
 
 Esta guía muestra el proceso de creación de un esquema relacional, configuración de un conjunto de datos para campañas orquestadas, ingesta de datos a través de una fuente S3 y consulta de los datos ingeridos en la plataforma AP.
 
-En este ejemplo, la configuración incluye la integración de dos entidades clave, **Transacciones de fidelidad** y **Recompensas de fidelidad**, y su vinculación a entidades principales existentes **Destinatarios** y **Marcas**.
+<!--
+In this example, the setup includes integrating two key entities, **Loyalty Transactions** and **Loyalty Rewards**, and link them to existing core entities **Recipients** and **Brands**. 
 
 ![](assets/do-not-localize/schema_admin.png)
 
-1. [Crear esquema relacional y conjunto de datos asociado](#schema)
+1. [Create relational Schema and associated Dataset](#schema)
+    
+    Define the relational data model for orchestrated campaigns, including the **Loyalty Memberships**, **Loyalty Transactions** and **Loyalty Rewards** entities, along with required keys and versioning attributes.
 
-   Defina el modelo de datos relacional para las campañas orquestadas, incluidas las entidades **Pertenencias de fidelización**, **Transacciones de fidelización** y **Recompensas de fidelización**, junto con las claves y los atributos de versiones necesarios.
+1. [Link schema](#link-schema)
 
-1. [Esquema de vínculo](#link-schema)
+    Link the **Loyalty Transactions** entity to **Recipients**, and **Loyalty Rewards** to **Brands**, to build a connected data model that supports personalized customer journeys.
 
-   Vincule la entidad **Transacciones de fidelización** a **Destinatarios**, y **Recompensas de fidelidad** a **Marcas**, para crear un modelo de datos conectado que admita recorridos de cliente personalizados.
+1. [Ingest Data](#ingest)
 
-1. [Ingesta de datos](#ingest)
+    Bring data into Adobe Experience Platform from supported sources like SFTP, cloud storage, or databases.
 
-   Incluya datos en Adobe Experience Platform desde fuentes compatibles como SFTP, almacenamiento en la nube o bases de datos.
-
+-->
 
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 
