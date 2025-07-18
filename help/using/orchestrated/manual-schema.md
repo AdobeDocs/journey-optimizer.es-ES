@@ -7,14 +7,14 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 9%
+source-wordcount: '735'
+ht-degree: 3%
 
 ---
 
-# Esquema manual {#manual-schema}
+# Configuración de un esquema relacional manual {#manual-schema}
 
 +++ Tabla de contenido
 
@@ -38,146 +38,123 @@ El contenido de esta página no es definitivo y puede estar sujeto a cambios.
 
 Los esquemas relacionales se pueden crear directamente a través de la interfaz de usuario, lo que permite una configuración detallada de atributos, claves principales, campos de versiones y relaciones.
 
-<!--
-The following example manually defines the Loyalty Memberships schema to illustrate the required structure for orchestrated campaigns.
+En el ejemplo siguiente se define manualmente el esquema **Pertenencias de fidelidad** para ilustrar la estructura necesaria para las campañas organizadas.
 
-1. Log in to Adobe Experience Platform.
+1. [Cree un esquema relacional manualmente](#schema) mediante la interfaz de Adobe Experience Platform.
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [Agregar atributos](#schema-attributes) como ID de cliente, nivel de pertenencia y campos de estado.
 
-1. Click on **Create Schema**.
+1. [Vincule su esquema](#link-schema) a esquemas integrados como Destinatarios para la segmentación de campañas.
 
-1. You will be prompted to select between two schema types:
+1. [Cree un conjunto de datos](#dataset) basado en su esquema y actívelo para su uso en campañas organizadas.
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+1. [Ingresar datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
 
-    ![](assets/admin_schema_1.png)
+## Cree su esquema {#schema}
 
-1. Provide a **Schema Name** (e.g., `test_demo_ck001`).
-1. Choose **Schema Type**:
-    **Record Type** (required for AGO campaigns)
-    **Time Series** (not applicable here)
-1. Click **Finish** to proceed to the schema design canvas.
+Comience creando un nuevo esquema relacional manualmente en Adobe Experience Platform. Este proceso permite definir la estructura de esquema desde cero, incluido su nombre y comportamiento.
 
-## Select entities and fields to import
+1. Inicie sesión en Adobe Experience Platform.
 
-1. In the canvas, add attributes (fields) to your schema.
-1. Add a **Primary Key** (mandatory).
-1. Add a **Version Descriptor** attribute (for CDC support):
-     This must be of type **DateTime** or **Numeric** (Integer, Long, Short, Byte).
-     Common example: `last_modified`
+1. Vaya al menú **[!UICONTROL Administración de datos]** > **[!UICONTROL Esquema]**.
 
-> **Why?** The **Primary Key** uniquely identifies each record, and the **Version Descriptor** tracks changes, supporting CDC (Change Data Capture) and data mirroring.
+1. Haga clic en **[!UICONTROL Crear esquema]**.
 
-1. Mark the appropriate fields as **Primary Key** and **Version Descriptor**.
-1. Click **Save**.
--->
+1. Seleccione **[!UICONTROL Relacional]** como su **Tipo de esquema**.
 
-<!--
+   ![](assets/admin_schema_1.png){zoomable="yes"}
 
-## 5. Creating a Dataset
+1. Elija **[!UICONTROL Crear manualmente]** para generar el esquema agregando campos manualmente.
 
-1. Navigate to **Datasets**.
-1. Click on **Create Dataset**.
-1. Select the schema you just created.
-1. Assign a **Dataset Name** (same as schema is fine).
-1. Optionally, add tags (e.g., `AGO_campaigns`).
-6. Ensure the checkbox **"Relational Schema"** is checked.
-7. Click **Finish**.
+1. Escriba su **[!UICONTROL nombre para mostrar del esquema]**.
 
-> **Note:** Only one dataset can be created per relational schema.
+1. Elija **[!UICONTROL Registro]** como su **[!UICONTROL comportamiento de esquema]**.
 
+   ![](assets/schema_manual_8.png){zoomable="yes"}
 
-## 6. Enabling the Dataset
+1. Haga clic en **Finalizar** para continuar con la creación del esquema.
 
-1. Click **Enable** for the dataset.
-1. Wait a few moments for the status to show **Enabled**.
+Ahora puede empezar a añadir atributos al esquema para definir su estructura.
 
-> **Why?** Without enabling, the dataset cannot be used in orchestrated campaigns or ingest data.
+## Añadir atributos al esquema {#schema-attributes}
 
-## 7. Creating a Data Source (S3)
+A continuación, añada atributos para definir la estructura del esquema. Estos campos representan los puntos de datos clave utilizados en las campañas orquestadas, como los identificadores de cliente, los detalles de pertenencia y las fechas de actividad. Definirlos con precisión garantiza una personalización, segmentación y seguimiento fiables.
 
-1. Navigate to **Sources**.
-1. Click **Create Source**.
-1. Choose the source type (e.g., **S3 Bucket**).
-1. Provide connection details:
-    - Bucket Path (optionally include subfolder path)
-1. Save the source.
+1. En el lienzo, haga clic en ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) junto a su **nombre de esquema** para empezar a agregar atributos.
 
-## 8. Preparing and Uploading Data
+   ![](assets/schema_manual_1.png){zoomable="yes"}
 
-1. Prepare your CSV file with:
-    - Column headers matching your schema attributes
-    - `last_modified` column
-    - `change_type` column (`U`/`DU` for upsert, `D` for delete)
+1. Escriba su atributo **[!UICONTROL Nombre de campo]**, **[!UICONTROL Nombre para mostrar]** y **[!UICONTROL Tipo]**.
 
-> **Important:** `change_type` is required but does not need to be defined in the schema.
+   En este ejemplo, agregamos los atributos detallados en la tabla siguiente al esquema **Pertenencias de fidelización**.
 
-1. Save the file as `.csv`.
++++ Ejemplos de atributos
 
-1. Upload the file to the specified folder in your S3 bucket.
+   | Nombre del atributo | Tipo de datos | Atributos adicionales |
+   |-|-|-|
+   | cliente | CADENA | Clave principal |
+   | member_level | CADENA | Requerido |
+   | points_balance | ENTERO | Requerido |
+   | enrollment_date | FECHA | Requerido |
+   | last_status_change | FECHA | Requerido |
+   | expiration_date | FECHA | - |
+   | is_active | BOOLEANO | Requerido |
+   | última modificación | DATETIME | Requerido |
 
++++
 
-## 9. Ingesting Data from S3
+1. Asigne los campos apropiados como **[!UICONTROL Clave principal]** y **[!UICONTROL Descriptor de versión]**.
 
-1. Go to **Sources** and find your S3 source.
-1. Click **Add Data**.
-1. Select the uploaded file.
-1. Specify the file format as **CSV** and any compression type if applicable.
-1. Review the data preview (ensure `change_type`, `last_modified`, and primary key are visible).
-1. Click **Next**.
+   La clave principal **[!UICONTROL Primary Key]** garantiza que cada registro se identifique de forma única, mientras que el descriptor de versión **[!UICONTROL Version]** captura las actualizaciones con el tiempo, lo que permite la captura de datos modificados y admite la creación de reflejo de datos.
 
-### Enable Change Data Capture (CDC)
+   ![](assets/schema_manual_2.png){zoomable="yes"}
 
-- Check **Enable Change Data Capture**.
-- Select the dataset enabled for AGO campaigns.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
-### Field Mapping
+Una vez creados los atributos, debe vincular el esquema recién creado con un esquema integrado.
 
-- Fields are auto-mapped (note that `change_type` is not mapped and that's expected).
-- Click **Next**.
+## Vincular esquemas {#link-schema}
 
-### Scheduling
+La creación de una relación entre dos esquemas permite enriquecer las campañas orquestadas con datos almacenados fuera del esquema de perfil principal.
 
-- Schedule ingestion frequency (minute, hour, day, week).
-- Set start time (immediate or future).
-- Click **Finish** to create the data flow.
+1. En el esquema recién creado, seleccione el atributo que desee usar como vínculo y haga clic en **[!UICONTROL Agregar relación]**.
 
-## 10. Monitoring Data Flow
+   ![](assets/schema_manual_3.png){zoomable="yes"}
 
-1. Navigate back to **Sources > Data Flows**.
-1. Wait 4–5 minutes for the first run (initial overhead).
-1. Monitor:
-    - Status (Started, Completed)
-    - Number of records ingested
-    - Errors (if any)
+1. Elija **[!UICONTROL Esquema de referencia]** y **[!UICONTROL Campo de referencia]** con los que establecer la relación.
 
-> **Tip:** Ingested data first lands in the **Data Lake**.
+   En este ejemplo, el atributo `customer` está vinculado al esquema `recipients`.
 
-## 11. Data Replication to Data Store
+   ![](assets/schema_manual_4.png){zoomable="yes"}
 
-The **Data Store** is updated:
+1. Introduzca un Nombre de relación del esquema actual y del esquema de referencia.
 
-- Every **15 minutes**, or
+1. Haga clic en **[!UICONTROL Aplicar]** una vez configurado.
 
-- If **Data Lake size exceeds 5MB**
+Una vez establecida la relación, debe crear un conjunto de datos basado en el esquema.
 
-This is a background replication process.
+## Crear un conjunto de datos para el esquema {#dataset}
 
+Después de definir el esquema, el siguiente paso es crear un conjunto de datos basado en él. Este conjunto de datos almacena los datos ingeridos y debe estar habilitado para que las campañas organizadas puedan acceder a él en Adobe Journey Optimizer. Al habilitar esta opción, se garantiza que el conjunto de datos se reconozca para su uso en flujos de trabajo de orquestación y personalización en tiempo real.
 
-## 12. Querying the Dataset
+1. Vaya al menú **[!UICONTROL Administración de datos]** > **[!UICONTROL Conjuntos de datos]** y haga clic en **[!UICONTROL Crear conjunto de datos]**.
 
-1. Navigate to **Query Services**.
-1. Click **Create Query**.
-1. Example query:
+   ![](assets/schema_manual_5.png){zoomable="yes"}
 
-   ```sql
-   SELECT * FROM test_demo_ck001;
-   ```
+1. Seleccione **[!UICONTROL Crear conjunto de datos a partir del esquema]**.
 
-1. Run the query.
+1. Elija el esquema creado anteriormente, aquí **Pertenencias de fidelización**, y haga clic en **[!UICONTROL Siguiente]**.
 
-> **Note:** If ingestion is incomplete, query will return an error. Check data flow status.
+   ![](assets/schema_manual_6.png){zoomable="yes"}
 
--->
+1. Escriba un **[!UICONTROL Nombre]** para su **[!UICONTROL Conjunto de datos]** y haga clic en **[!UICONTROL Finalizar]**.
+
+1. Habilite la opción **Campañas orquestadas** para que el conjunto de datos esté disponible para usar en sus campañas de AJO.
+
+   La activación puede tardar unos minutos. La ingesta de datos solo es posible después de que la opción esté completamente activada.
+
+   ![](assets/schema_manual_7.png){zoomable="yes"}
+
+Ahora puede empezar a introducir datos en el esquema utilizando el origen de su elección.
+
+➡️ [Aprenda a ingerir datos](ingest-data.md)
