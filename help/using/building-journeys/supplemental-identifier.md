@@ -3,9 +3,9 @@ title: Identificador adicional en recorridos activados por eventos
 description: Aprenda a utilizar un identificador suplementario en recorridos activados por eventos.
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
+source-git-commit: 14a0054c605edd8ff0b63e71fb5c30104ff513ed
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '945'
 ht-degree: 8%
 
 ---
@@ -29,6 +29,8 @@ En este ejemplo, se ha añadido un ID de reserva como identificador suplementari
 Al hacerlo, los recorridos activados por el evento se ejecutan en el contexto del ID de perfil asociado al identificador suplementario (en este caso, el ID de reserva). Se ejecuta una instancia del recorrido para cada iteración del identificador suplementario. Esto permite varias entradas del mismo ID de perfil en recorridos si han realizado reservas diferentes.
 
 Además, Journey Optimizer le permite aprovechar los atributos del identificador suplementario (por ejemplo, número de reserva, fecha de renovación de la prescripción, tipo de producto) para la personalización de mensajes, lo que garantiza comunicaciones muy relevantes. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 ## Mecanismos de protección y limitaciones {#guardrails}
 
@@ -188,3 +190,9 @@ Para utilizar un identificador suplementario en un recorrido, siga estos pasos:
    * Perfil: &quot;Alex&quot;.
    * Identificadores suplementarios: `"productID1234", "productID5678"`.
    * El recorrido se ejecuta por separado para cada producto, con oportunidades de ampliación de venta personalizadas.
+
+## Vídeo práctico {#video}
+
+Obtenga información sobre cómo habilitar y aplicar un identificador suplementario en [!DNL Adobe Journey Optimizer].
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
