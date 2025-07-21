@@ -1,29 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Revisión y activación de una campaña de acción
-description: Obtenga información sobre cómo revisar y activar campañas de acción en  [!DNL Journey Optimizer].
-feature: Campaigns
+title: Revise y active la campaña activada por API
+description: Obtenga información sobre cómo revisar y activar la campaña activada por API.
+feature: Campaigns, API
 topic: Content Management
-role: User
-level: Intermediate
-keywords: campaña, revisión, validación, activación, activación, optimizador
-exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
+role: Developer
+level: Experienced
+keywords: campañas, activadas por API, REST, optimizador, mensajes
 source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 3%
+source-wordcount: '286'
+ht-degree: 4%
 
 ---
 
 
-# Revisión y activación de la campaña de acción {#action-campaign-review}
+# Revise y active la campaña activada por API {#api-review}
 
 Una vez configurada la campaña de acción, debe revisar su parámetro y contenido antes de activarla. Para ello, siga estos pasos:
 
 >[!IMPORTANT]
 >
-> Si la campaña está sujeta a una directiva de aprobación, debe solicitar la aprobación para poder enviarla. [Más información](../test-approve/gs-approval.md)
+> Si la campaña está sujeta a una directiva de aprobación, debe solicitar la aprobación para poder enviar la campaña. [Más información](../test-approve/gs-approval.md)
 
 1. En la pantalla de configuración de la campaña, haga clic en **[!UICONTROL Revisar para activar]** y mostrar un resumen de la campaña.
 
@@ -37,14 +36,19 @@ Una vez configurada la campaña de acción, debe revisar su parámetro y conteni
 
 1. Compruebe que la campaña esté configurada correctamente y luego haga clic en **[!UICONTROL Activar]**.
 
-1. La campaña se activa. Su estado es **[!UICONTROL Activo]** o **[!UICONTROL Programado]** si ha especificado una fecha de inicio. El mensaje configurado en la campaña se envía inmediatamente o en la fecha especificada.
+1. La campaña se activa. Su estado es **[!UICONTROL Activo]** o **[!UICONTROL Programado]** si ha especificado una fecha de inicio.
 
    El estado **[!UICONTROL Completado]** se asigna automáticamente a la campaña 3 días después de activarse o en la fecha de finalización de la campaña si esta tiene una ejecución recurrente. [Más información sobre los estados de las campañas](get-started-with-campaigns.md#statuses).
 
    Si no se ha especificado una fecha de finalización, la campaña mantiene el estado **[!UICONTROL Activo]**. Para cambiarlo, debe detener la campaña manualmente. [Aprenda a detener una campaña](modify-stop-campaign.md)
+
 
 1. Una vez activada una campaña, puede comprobar en cualquier momento su información abriéndola. El resumen le permite obtener estadísticas sobre el número de perfiles objetivo y las acciones enviadas y fallidas.
 
    También puede obtener estadísticas adicionales en informes dedicados si hace clic en el botón **[!UICONTROL Informes]**. [Más información](../reports/campaign-global-report-cja.md)
 
    ![](assets/create-campaign-summary.png)
+
+## Pasos siguientes {#next}
+
+Una vez que la campaña activada por la API esté lista, puede almacenar en déclencheur su ejecución mediante las API. [Más información](trigger-campaigns.md)

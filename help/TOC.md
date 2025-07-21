@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
+source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '2526'
-ht-degree: 98%
+source-wordcount: '2581'
+ht-degree: 95%
 
 ---
 
@@ -218,10 +218,24 @@ ht-degree: 98%
       + [Espere](using/orchestrated/activities/wait.md)
 + Campañas {#campaigns}
    + [Introducción a las campañas](using/campaigns/get-started-with-campaigns.md)
-   + [Creación de una campaña](using/campaigns/create-campaign.md)
-   + [Revisión y activación de una campaña](using/campaigns/review-activate-campaign.md)
-   + [Administración de campañas](using/campaigns/modify-stop-campaign.md)
-   + [Activación de campañas mediante las API](using/campaigns/api-triggered-campaigns.md)
+   + [Acceso y administración de campañas](using/campaigns/modify-stop-campaign.md)
+   + Campañas de acción {#action-campaigns}
+      + [Trabajo con campañas de acción](using/campaigns/create-campaign.md)
+      + [Definición de las propiedades de la campaña](using/campaigns/campaign-properties.md)
+      + [Configuración de la acción de campaña](using/campaigns/campaign-action.md)
+      + [Edición del contenido de la campaña](using/campaigns/campaign-content.md)
+      + [Definición de la audiencia de campaña](using/campaigns/campaign-audience.md)
+      + [Programación de la campaña](using/campaigns/campaign-schedule.md)
+      + [Revisión y activación de una campaña de acción](using/campaigns/review-activate-campaign.md)
+   + Campañas activadas por API {#api-triggered-campaigns}
+      + [Trabajo con campañas activadas por API](using/campaigns/api-triggered-campaigns.md)
+      + [Definición de las propiedades de la campaña](using/campaigns/api-triggered-campaign-properties.md)
+      + [Configuración de la acción de campaña](using/campaigns/api-triggered-campaign-action.md)
+      + [Edición del contenido de la campaña](using/campaigns/api-triggered-campaign-content.md)
+      + [Definición de la audiencia de campaña](using/campaigns/api-triggered-campaign-audience.md)
+      + [Programación de la campaña](using/campaigns/api-triggered-campaign-schedule.md)
+      + [Revisión y activación de la campaña](using/campaigns/review-activate-api-triggered-campaign.md)
+      + [Déclencheur de la ejecución de la campaña](using/campaigns/trigger-campaigns.md)
 + Administración de conflictos y priorización {#conflict-prioritization}
    + [Introducción a la administración y priorización de conflictos](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificar posibles conflictos](using/conflict-prioritization/conflicts.md)
