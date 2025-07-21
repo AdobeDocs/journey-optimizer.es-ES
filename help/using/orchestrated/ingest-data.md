@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -60,7 +60,7 @@ Puede configurar un flujo de datos para introducir datos de una fuente de Amazon
 
    * Con una cuenta nueva
 
-   [Obtenga más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Obtenga más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -80,7 +80,7 @@ Puede configurar un flujo de datos para introducir datos de una fuente de Amazon
 
 1. Marque **[!UICONTROL Habilitar la captura de datos modificados]** para seleccionar entre conjuntos de datos asignados a esquemas relacionales que tienen una clave principal y un descriptor de versión definidos.
 
-1. Seleccione su [conjunto de datos](#entities) creado anteriormente y haga clic en **[!UICONTROL Siguiente]**.
+1. Seleccione su [conjunto de datos](file-upload-schema.md) creado anteriormente y haga clic en **[!UICONTROL Siguiente]**.
 
    ![](assets/S3_config_3.png)
 

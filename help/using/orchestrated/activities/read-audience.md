@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 40%
+source-wordcount: '417'
+ht-degree: 19%
 
 ---
 
@@ -43,3 +43,36 @@ El contenido de esta página no es definitivo y puede estar sujeto a cambios.
 
 >[!ENDSHADEBOX]
 
+La actividad **[!UICONTROL Leer audiencia]** le permite recuperar una audiencia existente (previamente guardada o importada) y reutilizarla dentro de una campaña orquestada. Esta actividad es especialmente útil para segmentar un conjunto predefinido de perfiles sin necesidad de ejecutar un nuevo proceso de segmentación.
+
+Una vez cargada la audiencia, puede refinarla seleccionando un campo de identidad único y enriqueciéndola con atributos de perfil adicionales para fines de segmentación, personalización o creación de informes.
+
+## Configuración de la actividad Leer audiencia {#read-audience-configuration}
+
+Siga estos pasos para configurar la actividad **[!UICONTROL Leer audiencia]**:
+
+1. Agregue una actividad **[!UICONTROL Leer audiencia]** a su campaña orquestada.
+
+   ![](../assets/read-audience-1.png)
+
+1. Ingrese una **[!UICONTROL etiqueta]** a su actividad.
+
+1. Haga clic en ![icono de búsqueda de carpetas](../assets/do-not-localize/folder-search.svg) para seleccionar la audiencia a la que desea dirigirse para su campaña orquestada.
+
+   ![](../assets/read-audience-2.png)
+
+1. Seleccione la **[!UICONTROL entidad]** utilizada para identificar perfiles de forma única en su audiencia.
+
+   ![](../assets/read-audience-3.png)
+
+1. Seleccione **[!UICONTROL Agregar atributo de perfil]** para enriquecer la audiencia seleccionada con datos adicionales. La audiencia resultante contendrá una lista de destinatarios, cada uno enriquecido con los atributos de perfil seleccionados.
+
+1. Elija los **[!UICONTROL atributos]** que desee agregar a su audiencia.
+
+   ![](../assets/read-audience-4.png)
+
+## Ejemplo
+
+En el ejemplo siguiente, la actividad **[!UICONTROL Leer audiencia]** se usa para recuperar una audiencia de perfiles creada y guardada anteriormente que se suscribieron al boletín informativo. A continuación, la audiencia se enriquece con el atributo **Membresía de fidelidad** para habilitar la segmentación de usuarios que sean miembros registrados del programa de fidelidad.
+
+![](../assets/read-audience-5.png)
