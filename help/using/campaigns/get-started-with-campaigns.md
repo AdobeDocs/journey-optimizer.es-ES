@@ -11,8 +11,8 @@ keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '620'
+ht-degree: 68%
 
 ---
 
@@ -96,7 +96,7 @@ Compruebe los siguientes requisitos previos antes de empezar a crear su primera 
 
    El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 
-   +++
++++
 
 1. **Necesita un público**. Los públicos deben estar disponibles antes de crear la campaña. [Introducción a las audiencias](../audience/about-audiences.md).
 
