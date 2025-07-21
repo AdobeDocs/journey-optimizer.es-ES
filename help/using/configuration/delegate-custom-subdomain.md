@@ -14,7 +14,7 @@ exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: 64ff860167439e1b098918cd913f2361f7365a50
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
@@ -40,12 +40,12 @@ Para configurar un subdominio personalizado, siga los pasos a continuación.
    >
    >No puede usar el mismo dominio de envío para enviar mensajes desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage].
 
-## Creación de los registros DNS {#create-dns-records}
+## Crear los registros DNS {#create-dns-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom_dns"
 >title="Generar los registros DNS coincidentes"
->abstract="Para delegar un subdominio personalizado a Adobe, debe copiar y pegar la información del servidor de nombres que se muestra en la interfaz de Journey Optimizer en la solución de alojamiento de dominios para generar los registros DNS coincidentes."
+>abstract="Para delegar completamente un subdominio personalizado a Adobe, debe copiar y pegar la información del servidor de nombres de Adobe que se muestra en la interfaz de Journey Optimizer en la solución de alojamiento de dominios para generar los registros DNS coincidentes."
 
 1. Se muestra la lista de registros que se van a colocar en los servidores DNS. Copie estos registros, uno por uno o descargando un archivo CSV.
 
@@ -89,12 +89,12 @@ Para configurar un subdominio personalizado, siga los pasos a continuación.
 
 1. Una vez recuperado, haga clic en **[!UICONTROL Cargar certificado SSL]** y cargue el certificado en [!DNL Journey Optimizer] en formato .pem.
 
-## Complete los pasos del Bucle de comentarios {#feedback-loop-steps}
+## Complete los pasos del bucle de retroalimentación {#feedback-loop-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"
->title="Complete los pasos del Bucle de comentarios"
->abstract="Vaya a Yahoo! Concentrador de remitentes y rellene el formulario para comprobar la propiedad del dominio. Introduzca la dirección de correo electrónico de informe FBL que se indica a continuación y utilice el OTP que se recibirá para verificar la propiedad en Yahoo! Concentrador de remitentes."
+>title="Complete los pasos del bucle de retroalimentación"
+>abstract="Vaya a Yahoo! Sender Hub y rellene el formulario para comprobar la propiedad del dominio. Introduzca la dirección de correo electrónico del sistema de informes de FBL que se indica a continuación y utilice la contraseña de un solo uso (OTP) que recibirá para verificar la propiedad en Yahoo! Sender Hub."
 
 1. Vaya a [Yahoo! Sitio web del concentrador de remitentes ](https://senders.yahooinc.com/) y rellene el formulario necesario para comprobar la propiedad del dominio.
 
@@ -110,7 +110,7 @@ Para configurar un subdominio personalizado, siga los pasos a continuación.
    >
    >La solicitud OTP solo se puede realizar en días laborables. No hay soporte los fines de semana. <!--Add times + timezone-->
 
-1. Introduzca el OTP en Yahoo! Concentrador de remitentes.
+1. Introduzca el OTP en Yahoo! Sender Hub.
 
 1. Asegúrese de haber completado todos los pasos del Bucle de comentarios.
 

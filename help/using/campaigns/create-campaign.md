@@ -65,7 +65,7 @@ Para definir la población objetivo de una campaña de marketing programada, sig
 
 1. En la sección **Audiencia**, haga clic en el botón **[!UICONTROL Seleccionar audiencia]** para mostrar la lista de audiencias de Adobe Experience Platform disponibles. Obtenga más información acerca de las audiencias en [esta sección](../audience/about-audiences.md).
 
-1. En el campo **[!UICONTROL Tipo de identidad]**, elija el tipo de clave que desea usar para identificar a los individuos de la audiencia seleccionada. Puede utilizar un tipo de identidad existente o crear uno nuevo mediante el servicio de identidad de Adobe Experience Platform. Las áreas de nombres de identidad estándar se enumeran en [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
+1. En el campo **[!UICONTROL Tipo de identidad]**, elija el tipo de clave que desea usar para identificar a los individuos de la audiencia seleccionada. Puede utilizar un tipo de identidad existente o crear uno nuevo mediante el servicio de identidad de Adobe Experience Platform. Las áreas de nombres de identidad estándar se enumeran en [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
    Solo se permite un tipo de identidad por campaña. La campaña no puede dirigirse a las personas que pertenezcan a un segmento que no tenga el tipo de identidad seleccionado entre sus diferentes identidades.
 
@@ -161,8 +161,8 @@ Además del contenido del mensaje, puede configurar las siguientes opciones:
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="Control de velocidad de limitación"
->abstract="Control de velocidad de limitación"
+>title="Control de la velocidad de limitación"
+>abstract="Control de la velocidad de limitación"
 
 De forma predeterminada, las campañas programadas se inician una vez que se activan manualmente y finalizan en cuanto se envía el mensaje una vez.
 
