@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 1215cdc3ed6050ca061f8d97281d52ade352611e
+source-git-commit: 9db476ff5b693bef91e982502c6dd37321610fc7
 workflow-type: tm+mt
-source-wordcount: '2117'
-ht-degree: 8%
+source-wordcount: '2169'
+ht-degree: 7%
 
 ---
 
@@ -152,6 +152,7 @@ Este límite se comprueba cada 30 minutos. Esto significa que puede superar temp
 
   Si reanuda los recorridos para volver a colocar el número de perfiles retenidos por debajo del límite, el recorrido se reanuda inmediatamente, pero el recuento de perfiles puede tardar hasta 30 minutos en actualizarse. Durante ese tiempo, el sistema puede seguir considerando esos perfiles como en pausa.
 
+* En el caso de los recorridos que incluyen [actividades entrantes](../channels/gs-channels.md#mobile-app-and-web-experiences) (por ejemplo, en la aplicación, web, etc.), la pausa del recorrido no interrumpe las comunicaciones que ya se hayan activado. Si un perfil se ha clasificado para una actividad entrante antes de la pausa, se envía el mensaje correspondiente. Para detener completamente todas las comunicaciones entrantes, debe detener el recorrido.
 * Los recorridos en pausa se cuentan hacia la cuota de recorridos activos
 * Los perfiles que habían entrado en el recorrido pero que se descartaron durante la pausa se contarían como perfiles atractivos
 * Los recorridos en pausa se consideran en todas las reglas de negocio, de la misma manera que si estuvieran activos
