@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: ea541231b16947908197748202e62227c5752966
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1152'
 ht-degree: 11%
 
 ---
@@ -47,17 +47,23 @@ Cree una campaña orquestada en [!DNL Adobe Journey Optimizer] y configure su pr
 
 Para crear una campaña orquestada, siga estos pasos:
 
-1. Vaya al menú **[!UICONTROL Campañas]**, seleccione la pestaña **[!UICONTROL Orquestación]** y haga clic en **[!UICONTROL Crear campaña]**.
+1. Vaya al menú **[!UICONTROL Campañas]** y seleccione la pestaña **[!UICONTROL Orquestación]**.
+
+1. Haga clic en el botón **[!UICONTROL Crear campaña]** y seleccione el tipo de campaña **[!UICONTROL Orquestación - Marketing]**.
+
+   ![](assets/create-modal.png)
+
+1. Defina las propiedades de la campaña. Para ello, haga clic en el ![icono de configuración de la campaña](assets/do-not-localize/campaign-settings.svg) junto al nombre de la campaña.
 
    ![](assets/inventory-create.png)
 
 1. Introduzca un nombre y una descripción para la campaña.
 
-1. *(opcional)* Utilice el campo **[!UICONTROL Etiquetas]** para asignar etiquetas unificadas de Adobe Experience Platform a su campaña. Esto le permite clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas orquestadas. [Aprenda a trabajar con etiquetas](../start/search-filter-categorize.md#tags).
+<!--1. Merge policy-->
 
-1. Haga clic en **[!UICONTROL Crear]**.
+1. Utilice el campo **[!UICONTROL Etiquetas]** para asignar etiquetas unificadas de Adobe Experience Platform a su campaña. Esto le permite clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas orquestadas. [Aprenda a trabajar con etiquetas](../start/search-filter-categorize.md#tags).
 
-La campaña orquestada se creará y aparecerá en la lista de campañas orquestadas. Puede actualizar estas propiedades en cualquier momento si hace clic en el icono ![Configuración de campaña](assets/do-not-localize/campaign-settings.svg) en el lienzo de la campaña.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Programación de la campaña {#schedule}
 
@@ -99,7 +105,7 @@ Para configurar la programación de campaña, siga estos pasos:
    * **[!UICONTROL Fecha]**: seleccione la fecha en la que se debe ejecutar la campaña.
    * **[!UICONTROL Hora]**: seleccione la hora específica en que se debe ejecutar la campaña.
 
-   +++
++++
 
    +++Diario
 
@@ -113,7 +119,7 @@ Para configurar la programación de campaña, siga estos pasos:
 
    * **[!UICONTROL Hora de inicio]**: defina la hora a la que la campaña debe ejecutarse cada día.
 
-   +++
++++
 
    +++Varias veces al día
 
@@ -122,7 +128,7 @@ Para configurar la programación de campaña, siga estos pasos:
    * **[!UICONTROL Horas seleccionadas]**: seleccione las horas específicas en que la campaña debe ejecutarse y configure su periodicidad diaria (se ejecutará todos los días de la semana o en determinados días).
    * **[!UICONTROL Periódico]**: elija ejecutar la campaña cada n minutos u horas. También puede definir el intervalo de tiempo dentro del día en que se permiten las ejecuciones.
 
-   +++
++++
 
    +++Semanal
 
@@ -133,7 +139,7 @@ Para configurar la programación de campaña, siga estos pasos:
    * **[!UICONTROL Periodicidad diaria]**: elija días específicos de la semana para la ejecución (por ejemplo, todos los lunes y jueves).
    * **[!UICONTROL Hora de inicio]**: establezca la hora a la que la campaña debe ejecutarse en los días seleccionados.
 
-   +++
++++
 
    +++Mensual
 
@@ -149,7 +155,7 @@ Para configurar la programación de campaña, siga estos pasos:
 
    * **[!UICONTROL Hora de inicio]**: establezca la hora a la que se debe ejecutar la campaña.
 
-   +++
++++
 
 1. Use la configuración **[!UICONTROL Periodo de validez]** para definir una fecha específica de inicio y finalización que limite la ejecución de la campaña a un periodo de tiempo limitado.
 
