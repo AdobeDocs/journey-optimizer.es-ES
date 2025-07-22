@@ -95,10 +95,10 @@ Para cualquier valor de encabezado de variable, parámetro de consulta/ruta o va
 
 Nombres de parámetros:
 
-* Parámetros de encabezado: encabezado.<parameter-name>
-* Query parameters: query.<parameter-name>
-* Parámetros de carga útil: carga útil.<parameter-name>
-* Parámetros de ruta: dynamic_path.<parameter-name>
+* Parámetros de encabezado: encabezado.&lt;parameter-name>
+* Query parameters: query.&lt;parameter-name>
+* Parámetros de carga útil: carga útil.&lt;parameter-name>
+* Parámetros de ruta: dynamic_path.&lt;parameter-name>
 
 Por ejemplo:
 
