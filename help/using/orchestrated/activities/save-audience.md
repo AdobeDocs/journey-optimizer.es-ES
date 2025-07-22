@@ -7,14 +7,20 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: b575f2363059a24e7192f436fac62001f79a3dbc
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '431'
 ht-degree: 3%
 
 ---
 
 # Guardar público {#save-audience}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_save_audience"
+>title="Guardar actividad de audiencia"
+>abstract="La actividad **Guardar audiencia** es una actividad de **segmentación** que le permite actualizar una audiencia existente o crear una nueva a partir de la población generada anteriormente en la campaña orquestada. Una vez creadas, estas audiencias se añaden a la lista de audiencias de la aplicación y se puede acceder a ellas desde el menú **Audiencias**."
+
 
 +++ Tabla de contenido
 
