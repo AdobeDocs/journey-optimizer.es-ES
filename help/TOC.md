@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f5d1bc27afadbf875fe4dd3149ce090a8773e0f9
+source-git-commit: b317400b083f70cce05a7d4823f52a8cd35a3b96
 workflow-type: tm+mt
-source-wordcount: '2591'
+source-wordcount: '2585'
 ht-degree: 95%
 
 ---
@@ -749,7 +749,6 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
       + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
-   + [Personalización del contenido mediante un extremo externo](using/data/external-endpoint-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
    + [Introducción a la configuración de canales](using/configuration/get-started-configuration.md)
