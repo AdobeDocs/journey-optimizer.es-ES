@@ -20,8 +20,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
->title="Ponga en pausa su recorrido"
->abstract="Ponga en pausa un recorrido activo para evitar que entren nuevos perfiles. Elija si desea descartar los perfiles que están actualmente en el recorrido o mantenerlos en su lugar. Si se conservan, se reanudará su ejecución en la siguiente actividad de acción una vez que se reinicie el recorrido. Es perfecto para actualizaciones o paradas de emergencia sin perder progreso."
+>title="Pause su recorrido"
+>abstract="Ponga en pausa un recorrido activo para evitar que entren nuevos perfiles. Pause un recorrido activo para evitar que entren nuevos perfiles. Si se conservan, se reanudará su ejecución en la siguiente actividad de acción una vez que se reinicie el recorrido. Es perfecto para actualizaciones o paradas de emergencia sin perder progreso."
 
 Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puede [aplicar filtros globales](#journey-global-filters) para excluir perfiles en función de sus atributos. El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
 
