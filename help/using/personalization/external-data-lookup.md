@@ -95,7 +95,7 @@ Para cualquier valor de encabezado de variable, parámetro de consulta/ruta o va
 
 Nombres de parámetros:
 
-* Parámetros de encabezado: `header.<parameter-name>
+* Parámetros de encabezado: &grave;header.&lt;parameter-name>
 * Parámetros de consulta: `query.<parameter-name>`
 * Parámetros de carga útil: `payload.<parameter-name>`
 * Parámetros de ruta: `dynamic_path.<parameter-name>`
