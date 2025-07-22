@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: a4337df949d25740f75204fe4530837dda1af3dd
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '508'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,9 @@ Adobe Experience Platform permite la ingesta de datos desde fuentes externas, al
 
 >[!IMPORTANT]
 >
->Cada conjunto de datos de Adobe Experience Platform solo admite un flujo de datos activo a la vez. Para obtener instrucciones de configuración detalladas sobre cómo cambiar las fuentes de datos, consulte esta [sección](#cdc-ingestion).
+>Para cambiar el origen de datos de un conjunto de datos, primero debe eliminar el flujo de datos existente antes de crear uno nuevo que haga referencia al mismo conjunto de datos y al nuevo origen.
+>
+>Adobe Experience Platform aplica una estricta relación uno a uno entre flujos y conjuntos de datos. Esto le permite mantener la sincronización entre el origen y el conjunto de datos para una ingesta incremental precisa.
 
 
 Puede configurar un flujo de datos para introducir datos de una fuente de Amazon S3 en Adobe Experience Platform. Una vez configurado, el flujo de datos permite la ingesta automatizada y programada de datos estructurados y admite actualizaciones en tiempo real.
@@ -60,7 +62,7 @@ Puede configurar un flujo de datos para introducir datos de una fuente de Amazon
 
    * Con una cuenta nueva
 
-   [Obtenga más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Obtenga más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -78,9 +80,11 @@ Puede configurar un flujo de datos para introducir datos de una fuente de Amazon
 
    ![](assets/S3_config_1.png)
 
-1. Marque **[!UICONTROL Habilitar la captura de datos modificados]** para seleccionar entre conjuntos de datos asignados a esquemas relacionales que tienen una clave principal y un descriptor de versión definidos.
+1. Marque **[!UICONTROL Enable Change data capture]** para mostrar solo los conjuntos de datos asignados a esquemas relacionales e incluir una clave principal y un descriptor de versión.
 
-1. Seleccione su [conjunto de datos](file-upload-schema.md) creado anteriormente y haga clic en **[!UICONTROL Siguiente]**.
+   ![](assets/S3_config_6.png)
+
+1. Seleccione el conjunto de datos creado anteriormente y haga clic en **[!UICONTROL Siguiente]**.
 
    ![](assets/S3_config_3.png)
 
@@ -98,26 +102,3 @@ Puede configurar un flujo de datos para introducir datos de una fuente de Amazon
 
    ![](assets/S3_config_5.png)
 
-<!--### Setting Up Change data capture ingestion {#cdc-ingestion}
-
-If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
-
-When using Change Data Capture (CDC), it is essential that the source and dataset remain in sync to ensure accurate incremental updates. Follow the steps below:
-
-1. **Schema Requirements**
-   - Your schema must include:
-     - A **primary key** (e.g., `transaction_id`)
-     - A **versioning field** (e.g., `lastmodified` or an incrementing `version_id`)
-   - Enable the dataset for **Orchestrated Campaigns** if needed.
-
-2. **CDC Dataflow Setup**
-   - During dataflow creation, after choosing your source and files:
-     - **Enable the CDC option**
-     - Select your CDC-ready dataset
-     - Confirm field mappings (especially version field)
-
-3. **Keep Source and Target in Sync**
-   - The source system must consistently update the version field so the platform can detect changes accurately.
-
-Once set up, the platform will automatically ingest **only changed or new records** each time the flow runs.
--->
