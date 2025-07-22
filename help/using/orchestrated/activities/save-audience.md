@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: b575f2363059a24e7192f436fac62001f79a3dbc
+source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '427'
 ht-degree: 3%
 
 ---
@@ -42,9 +42,9 @@ El contenido de esta página no es definitivo y puede estar sujeto a cambios.
 
 >[!ENDSHADEBOX]
 
-La actividad **[!UICONTROL Guardar audiencia]** es una actividad de **[!UICONTROL segmentación]** que le permite actualizar una audiencia existente o crear una nueva a partir de la población generada anteriormente en la campaña orquestada. Una vez creadas, estas audiencias se añaden a la lista de audiencias de la aplicación y se puede acceder a ellas desde el menú **[!UICONTROL Audiencias]**.
+La actividad **[!UICONTROL Guardar audiencia]** es una actividad de **[!UICONTROL Segmentación]** que se usa para crear una audiencia nueva o actualizar una existente en función de la población generada anteriormente en la campaña orquestada. Una vez guardada, la audiencia se agrega a la lista de audiencias de aplicación y se puede acceder a ella desde el menú **[!UICONTROL Audiencias]**.
 
-Esta actividad es especialmente útil para preservar segmentos de audiencia calculados dentro de la misma campaña orquestada, lo que los hace disponibles para su reutilización en campañas futuras. Normalmente está conectado a otras actividades de segmentación, como **[!UICONTROL Generar audiencia]** o **[!UICONTROL Combinar]**, para capturar y guardar la población resultante.
+Normalmente se utiliza para capturar segmentos de audiencia creados dentro del mismo flujo de trabajo de campaña, lo que los hace disponibles para su reutilización en campañas futuras. Normalmente, está conectado a otras actividades de segmentación, como **[!UICONTROL Generar audiencia]** o **[!UICONTROL Combinar]**, para guardar la población de destino final.
 
 ## Configuración de la actividad Guardar audiencia {#save-audience-configuration}
 
