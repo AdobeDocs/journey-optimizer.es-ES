@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: cf29013bd7578f6b04543d04e85c714ce7728f36
+source-git-commit: a600af73bd85d525bc1320d0aa6193660331e452
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1184'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Para cualquier valor de encabezado de variable, parámetro de consulta/ruta o va
 
 Nombres de parámetros:
 
-* Parámetros de encabezado: &grave;header.&lt;parameter-name>
+* Parámetros de encabezado: `header.<parameter-name>`
 * Parámetros de consulta: `query.<parameter-name>`
 * Parámetros de carga útil: `payload.<parameter-name>`
 * Parámetros de ruta: `dynamic_path.<parameter-name>`
