@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: ea541231b16947908197748202e62227c5752966
+source-git-commit: c0f5ba3a8d5a361cdae3dd432ddbe54c5b79fe36
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 11%
@@ -57,13 +57,13 @@ Para crear una campaña orquestada, siga estos pasos:
 
    ![](assets/inventory-create.png)
 
-1. Introduzca un nombre y una descripción para la campaña.
+   1. Introduzca un nombre y una descripción para la campaña.
 
-<!--1. Merge policy-->
+      <!--1. Merge policy-->
 
-1. Utilice el campo **[!UICONTROL Etiquetas]** para asignar etiquetas unificadas de Adobe Experience Platform a su campaña. Esto le permite clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas orquestadas. [Aprenda a trabajar con etiquetas](../start/search-filter-categorize.md#tags).
+   1. Utilice el campo **[!UICONTROL Etiquetas]** para asignar etiquetas unificadas de Adobe Experience Platform a su campaña. Esto le permite clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas orquestadas. [Aprenda a trabajar con etiquetas](../start/search-filter-categorize.md#tags).
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+   1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Programación de la campaña {#schedule}
 
@@ -105,7 +105,7 @@ Para configurar la programación de campaña, siga estos pasos:
    * **[!UICONTROL Fecha]**: seleccione la fecha en la que se debe ejecutar la campaña.
    * **[!UICONTROL Hora]**: seleccione la hora específica en que se debe ejecutar la campaña.
 
-   +++
++++
 
    +++Diario
 
@@ -119,7 +119,7 @@ Para configurar la programación de campaña, siga estos pasos:
 
    * **[!UICONTROL Hora de inicio]**: defina la hora a la que la campaña debe ejecutarse cada día.
 
-   +++
++++
 
    +++Varias veces al día
 
@@ -128,7 +128,7 @@ Para configurar la programación de campaña, siga estos pasos:
    * **[!UICONTROL Horas seleccionadas]**: seleccione las horas específicas en que la campaña debe ejecutarse y configure su periodicidad diaria (se ejecutará todos los días de la semana o en determinados días).
    * **[!UICONTROL Periódico]**: elija ejecutar la campaña cada n minutos u horas. También puede definir el intervalo de tiempo dentro del día en que se permiten las ejecuciones.
 
-   +++
++++
 
    +++Semanal
 
@@ -139,7 +139,7 @@ Para configurar la programación de campaña, siga estos pasos:
    * **[!UICONTROL Periodicidad diaria]**: elija días específicos de la semana para la ejecución (por ejemplo, todos los lunes y jueves).
    * **[!UICONTROL Hora de inicio]**: establezca la hora a la que la campaña debe ejecutarse en los días seleccionados.
 
-   +++
++++
 
    +++Mensual
 
@@ -155,7 +155,7 @@ Para configurar la programación de campaña, siga estos pasos:
 
    * **[!UICONTROL Hora de inicio]**: establezca la hora a la que se debe ejecutar la campaña.
 
-   +++
++++
 
 1. Use la configuración **[!UICONTROL Periodo de validez]** para definir una fecha específica de inicio y finalización que limite la ejecución de la campaña a un periodo de tiempo limitado.
 
