@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdominio, delegación, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
+source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '1999'
 ht-degree: 21%
 
 ---
@@ -99,7 +99,7 @@ Para delegar completamente un nuevo subdominio a Adobe, siga los pasos a continu
 
    >[!NOTE]
    >
-   >Se enumerarán todos los registros que falten, es decir, los registros que aún no se hayan creado en la solución de alojamiento.
+   >Asegúrese de que todos los registros se hayan creado correctamente antes de continuar.
 
 1. Una vez que las comprobaciones son correctas, el subdominio obtiene el estado **[!UICONTROL Success]**. Está listo para utilizarse para enviar mensajes.
 
@@ -164,7 +164,7 @@ Para configurar un subdominio mediante CNAME, siga los pasos a continuación:
 
    >[!NOTE]
    >
-   >Se enumerarán todos los registros que falten, es decir, los registros que aún no se hayan creado en la solución de alojamiento.
+   >Asegúrese de que todos los registros se hayan creado correctamente antes de continuar.
 
 1. Adobe genera un registro de validación de URL de CDN SSL. Copie este registro de validación en la plataforma de alojamiento. Si ha creado correctamente este registro en su solución de alojamiento, marque la casilla &quot;Confirmo...&quot; y luego haga clic en **[!UICONTROL Enviar]**.
 
