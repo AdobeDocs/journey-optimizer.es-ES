@@ -7,20 +7,20 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
+source-git-commit: 6447f5d1a060037c0ceaa374db20966097585f9c
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 3%
+source-wordcount: '954'
+ht-degree: 10%
 
 ---
 
 # Configuración de un esquema relacional manual {#manual-schema}
 
-+++ Tabla de contenido
++++ Índice
 
-| Bienvenido a campañas orquestadas | Inicio de su primera campaña organizada | Consultar la base de datos | Actividades de las campañas organizadas |
+| Bienvenido a las campañas organizadas | Inicio de su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
 |---|---|---|---|
-| [Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br><ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | [Cree y programe las actividades de la campaña](create-orchestrated-campaign.md)<br/><br/>[Organizar actividades](orchestrate-activities.md)<br/><br/>[Inicie y supervise la campaña](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabaje con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Cree su primera consulta](build-query.md)<br/><br/>[Edite expresiones](edit-expressions.md)<br/><br/>[Redireccionamiento](retarget.md) | [Empiece con las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[Y únase](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades de canal](activities/channels.md) - [Combinar](activities/combine.md) - [Anulación de duplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar](activities/save-audience.md) - [División](activities/split.md) [Espera](activities/wait.md) |
+| [Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br><ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | [Creación y programación de las campañas](create-orchestrated-campaign.md)<br/><br/>[Organización de actividades](orchestrate-activities.md)<br/><br/>[Inicio y monitorización de las campañas](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabajo con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](build-query.md)<br/><br/>[Edición de expresiones](edit-expressions.md)<br/><br/>[Resegmentación](retarget.md) | [Introducción a las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[AND-join](activities/and-join.md) - [Generar público](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades del canal](activities/channels.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar público](activities/save-audience.md) - [División](activities/split.md) - [Esperar](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -80,6 +80,21 @@ Ahora puede empezar a añadir atributos al esquema para definir su estructura.
 
 A continuación, añada atributos para definir la estructura del esquema. Estos campos representan los puntos de datos clave utilizados en las campañas orquestadas, como los identificadores de cliente, los detalles de pertenencia y las fechas de actividad. Definirlos con precisión garantiza una personalización, segmentación y seguimiento fiables.
 
+Cualquier esquema utilizado para la segmentación debe incluir al menos un campo de identidad de tipo `String` con un área de nombres de identidad asociada. Esto garantiza la compatibilidad con las capacidades de segmentación y resolución de identidades de Adobe Journey Optimizer.
+
++++Se admiten las siguientes funciones al crear esquemas relacionales en Adobe Experience Platform
+
+* **ENUM**\
+  Los campos ENUM son compatibles con la creación de esquemas manual y basada en DDL, lo que permite definir atributos con un conjunto fijo de valores permitidos.
+
+* **Etiqueta de esquema para el control de datos**\
+  El etiquetado es compatible a nivel de campo de esquema para aplicar políticas de gobernanza de datos como el control de acceso y las restricciones de uso. Para obtener más información, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es).
+
+* **Clave compuesta**\
+  Las claves principales compuestas son compatibles con las definiciones de esquema relacional, lo que permite el uso de varios campos juntos para identificar registros de forma exclusiva.
+
++++
+
 1. En el lienzo, haga clic en ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) junto a su **nombre de esquema** para empezar a agregar atributos.
 
    ![](assets/schema_manual_1.png){zoomable="yes"}
@@ -105,7 +120,11 @@ A continuación, añada atributos para definir la estructura del esquema. Estos 
 
 1. Asigne los campos apropiados como **[!UICONTROL Clave principal]** y **[!UICONTROL Descriptor de versión]**.
 
-   La clave principal **[!UICONTROL Primary Key]** garantiza que cada registro se identifique de forma única, mientras que el descriptor de versión **[!UICONTROL Version]** captura las actualizaciones con el tiempo, lo que permite la captura de datos modificados y admite la creación de reflejo de datos.
+   Al crear un esquema manual, asegúrese de que se incluyen los siguientes campos esenciales:
+
+   * Al menos una clave principal
+   * Un identificador de versión, como un campo de tipo `lastmodified`, `datetime` o `number`.
+   * Para la ingesta de Change Data Capture (CDC), una columna especial denominada `_change_request_type` de tipo `String`, que indica el tipo de cambio de datos (por ejemplo, insertar, actualizar, eliminar) y habilita el procesamiento incremental.
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 
@@ -149,11 +168,19 @@ Después de definir el esquema, el siguiente paso es crear un conjunto de datos 
 
 1. Escriba un **[!UICONTROL Nombre]** para su **[!UICONTROL Conjunto de datos]** y haga clic en **[!UICONTROL Finalizar]**.
 
-1. Habilite la opción **Campañas orquestadas** para que el conjunto de datos esté disponible para usar en sus campañas de AJO.
+Ahora debe habilitar el conjunto de datos para las campañas de orquestación.
 
-   La activación puede tardar unos minutos. La ingesta de datos solo es posible después de que la opción esté completamente activada.
+## Habilitar conjunto de datos para campañas orquestadas {#enable}
+
+Después de crear el conjunto de datos, debe habilitarlo explícitamente para Campañas orquestadas. Este paso garantiza que el conjunto de datos esté disponible para la orquestación y personalización en tiempo real dentro de Adobe Journey Optimizer.
+
+1. Busque su conjunto de datos en la lista **[!UICONTROL Conjuntos de datos]**.
+
+1. En la configuración de **[!UICONTROL Conjuntos de datos]**, habilite la opción **Campañas orquestadas** para que el conjunto de datos esté disponible para usar en sus campañas orquestadas.
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
+
+1. Espere unos minutos para que se complete el proceso de habilitación. Tenga en cuenta que la ingesta de datos y el uso de la campaña solo serán posibles una vez que esta configuración esté completamente activada.
 
 Ahora puede empezar a introducir datos en el esquema utilizando el origen de su elección.
 
