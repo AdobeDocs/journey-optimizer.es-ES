@@ -3,9 +3,9 @@ title: Identificador adicional en recorridos activados por eventos
 description: Aprenda a utilizar un identificador suplementario en recorridos activados por eventos.
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 14a0054c605edd8ff0b63e71fb5c30104ff513ed
+source-git-commit: 664f38b4ff56ce871599400f898e23a8d04f7816
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '971'
 ht-degree: 8%
 
 ---
@@ -69,6 +69,10 @@ Además, Journey Optimizer le permite aprovechar los atributos del identificador
 
    * Si el recorrido no es de reentrada, la misma combinación de ID de perfil + ID suplementario no puede volver a entrar en el recorrido.
    * Si el recorrido es de reentrada con una ventana de tiempo, la misma combinación de ID de perfil + ID suplementario puede volver a introducirse después de la ventana de tiempo definida.
+
+* **Configuración de eventos descendentes**
+
+  Si está utilizando otro evento descendente en la recorrido, debe utilizar el mismo ID suplementario y tener el mismo área de nombres de ID.
 
 ## Añadir un identificador suplementario y aprovecharlo en un recorrido {#add}
 
@@ -195,4 +199,4 @@ Para utilizar un identificador suplementario en un recorrido, siga estos pasos:
 
 Obtenga información sobre cómo habilitar y aplicar un identificador suplementario en [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464795?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
