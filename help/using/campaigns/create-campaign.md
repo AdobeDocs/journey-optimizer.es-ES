@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 26d53d9423b28a97b860b21f6f00e6e14d062d9b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '97'
+ht-degree: 7%
 
 ---
 
@@ -39,4 +39,4 @@ Las campañas de acción (o campañas programadas) permiten comunicaciones por l
 
 Obtenga información sobre cómo crear una campaña de acción.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452728?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
