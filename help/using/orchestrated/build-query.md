@@ -113,7 +113,7 @@ Para añadir condiciones en la consulta, siga estos pasos:
    | Como | De forma similar al operador Contiene, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) como “Jon%s”. El carácter comodín actúa para encontrar nombres como “Jones”. |
    | No igual | De forma similar al operador Contiene, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) no igual a “Smi%h”. No se devolverán los resultados de los destinatarios cuyo apellido sea “Smith”. |
 
-+++
+   +++
 
 1. En el campo **Valor**, defina el valor previsto. También puede utilizar el editor de expresiones para definir manualmente una expresión utilizando los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en el icono ![imagen que muestra el icono del editor de expresiones](assets/do-not-localize/rule-builder-icon-editor.svg). [Más información sobre cómo editar expresiones](../orchestrated/edit-expressions.md)
 
@@ -123,7 +123,7 @@ Para añadir condiciones en la consulta, siga estos pasos:
 
    ![imagen que muestra la opción de ajuste preestablecido](assets/rule-builder-attribute-preset.png)
 
-+++
+   +++
 
 ### Condiciones personalizadas en las tablas vinculadas (vínculos 1-1 y 1-N){#links}
 
@@ -230,7 +230,7 @@ Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel
 
 <br/>
 
-    >[!IMPORTANTE]
+    >[ !IMPORTANTE]
     >
     >Seleccione un filtro predefinido en el panel Propiedades de la regla para reemplazar la regla que se ha creado en el lienzo por el filtro seleccionado.
 
