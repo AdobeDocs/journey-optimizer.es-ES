@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+source-git-commit: 30e22bc1a2ab95dbbef1fb35a01cd2f5d5b02423
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 32%
+source-wordcount: '1166'
+ht-degree: 28%
 
 ---
 
@@ -136,6 +136,28 @@ Cambie a la ficha **[!UICONTROL Contenido]** para crear el mensaje. El proceso d
 <td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>Creación de un SMS</strong></a></td>
 <td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Crear una notificación push</strong></a></td>
 </tr></table>
+
+## Adición de personalización
+
+Personalization en campañas orquestadas funciona de manera similar a otras campañas o recorridos de **[!UICONTROL Journey Optimizer]**, pero con algunas diferencias clave específicas del lienzo orquestado.
+
+Al acceder al editor de personalización desde una campaña orquestada, dos carpetas principales contienen atributos disponibles para la personalización que se detallan a continuación.
+
+* **[!UICONTROL Atributos de perfil]**
+
+  Esta carpeta incluye todos los datos relacionados con el perfil de [!DNL Adobe Experience Platform]. Son atributos estándar como nombre, dirección de correo electrónico, ubicación o cualquier otro rasgo capturado en el perfil del usuario.
+
+* **[!UICONTROL Atributos de destino]** (específicos de campañas orquestadas)
+
+  Esta carpeta es única para las campañas orquestadas. Contiene atributos calculados directamente dentro del lienzo de la campaña. Contiene dos subcarpetas:
+
+   * **`<Targeting dimension>`** (por ejemplo, &quot;Destinatarios&quot;, &quot;Compras&quot;): Contiene todos los atributos relacionados con la dimensión objetivo de la campaña.
+
+   * **`Enrichment`**: incluye datos agregados mediante actividades **[!UICONTROL Enrichment]** en el lienzo. Esto le permite personalizar mensajes en función de conjuntos de datos externos o lógica adicional incorporada durante la orquestación. [Aprenda a utilizar una actividad de enriquecimiento](../activities/enrichment.md)
+
+Para obtener información detallada sobre cómo usar el editor de personalización, consulte [Introducción a la personalización](../../personalization/personalize.md)
+
+## Comprobación y prueba del contenido
 
 Una vez creado el contenido, use el botón **[!UICONTROL Simular contenido]** para obtener una vista previa y probar el contenido con perfiles de prueba o datos de entrada de muestra cargados desde un archivo CSV/JSON, o agregados manualmente. [Más información](../../content-management/preview-test.md)
 
