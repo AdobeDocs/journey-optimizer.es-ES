@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Crear un mensaje de WhatsApp
+title: Creación de un mensaje de WhatsApp
 description: Aprenda a crear un mensaje de WhatsApp en Journey Optimizer
 feature: Whatsapp
 topic: Content Management
@@ -9,25 +9,25 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: f57a89e249c41e76f9ebf1a77dfe383129ae9250
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 4%
+source-wordcount: '766'
+ht-degree: 7%
 
 ---
 
-# Crear un mensaje de WhatsApp {#create-whatsapp}
+
+# Creación de un mensaje de WhatsApp {#create-whatsapp}
 
 >[!BEGINSHADEBOX]
 
-**Tabla de contenido**
+**Tabla de contenidos**
 
 * [Introducción a los mensajes de WhatsApp](get-started-whatsapp.md)
 * [Introducción a la configuración de WhatsApp](whatsapp-configuration.md)
 * **[Crear un mensaje de WhatsApp](create-whatsapp.md)**
-* [Comprueba y envía tus mensajes de WhatsApp](send-whatsapp.md)
+* [Comprobación y envío de los mensajes de WhatsApp](send-whatsapp.md)
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ WhatsApp admite los siguientes tipos de mensajes:
 | Vídeos | Debe ser 3GPP o MP4, de menos de 16 MB y alojado mediante URL. |
 | Audio | Solo disponible para mensajes de respuesta. Debe tener el formato AAC, AMR, MP3, MP4 audio u OGG, alojado en una dirección URL y inferior a 16 MB. |
 | Documentos | Debe tener menos de 100 MB, estar alojado en una dirección URL y tener uno de los siguientes formatos: .txt, .xls/.xlsx, .doc/.docx, .ppt/.pptx o .pdf. |
-| Texto independiente | Admite contenido dinámico mediante parámetros. |
+| Texto del cuerpo | Admite contenido dinámico mediante parámetros. |
 | Texto del pie | Admite contenido dinámico mediante parámetros. |
 
 La siguiente opción de call-to-action está disponible para tus mensajes de WhatsApp:
@@ -154,8 +154,7 @@ Ten en cuenta que tu plantilla de WhatsApp primero debe ser aprobada por Meta an
 
 1. Usa el botón **[!UICONTROL Simular contenido]** para obtener una vista previa del contenido de tu mensaje de WhatsApp, las URL abreviadas y el contenido personalizado. [Más información](send-whatsapp.md)
 
-Una vez que hayas realizado las pruebas y validado el contenido, puedes enviar tu mensaje de WhatsApp a tu audiencia. Estos pasos se detallan en [esta página](send-whatsapp.md)
-
+Una vez que hayas realizado las pruebas y validado el contenido, puedes [enviar tu mensaje de WhatsApp](send-whatsapp.md) a tu audiencia y monitorizar su rendimiento a través de [informes](../reports/campaign-global-report-cja.md).
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.

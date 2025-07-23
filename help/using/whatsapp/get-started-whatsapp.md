@@ -9,12 +9,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+workflow-type: tm+mt
+source-wordcount: '332'
+ht-degree: 55%
 
 ---
 
@@ -31,11 +30,7 @@ ht-degree: 100%
 
 >[!ENDSHADEBOX]
 
->[!AVAILABILITY]
->
->Esta funcionalidad se presenta como una versión Private Beta. Estará disponible de forma progresiva para todos los clientes en futuras versiones.
-
-Ahora puede enviar mensajes de WhatsApp directamente a través de Journey Optimizer. Esta función permite la integración perfecta de WhatsApp en recorridos y campañas, lo que mejora la comunicación y la participación con los destinatarios.
+Ahora puedes enviar mensajes de WhatsApp directamente a través de Journey Optimizer a través de la [API en la nube](https://developers.facebook.com/docs/whatsapp/cloud-api/) de Meta. Esta función permite la integración perfecta de WhatsApp en recorridos y campañas, lo que mejora la comunicación y la participación con los destinatarios.
 
 * En un **recorrido**. Cree un recorrido, añada una actividad de **WhatsApp**, defina la configuración básica y, a continuación, vaya al panel **[!UICONTROL Acciones: WhatsApp]** para crear el contenido del mensaje de WhatsApp. Aprenda a crear un recorrido en [esta página](../building-journeys/journey-gs.md).
 
@@ -50,23 +45,28 @@ La integración de WhatsApp con Journey Optimizer requiere lo siguiente:
 * Una cuenta de Meta Business Manager
 * Una cuenta de WhatsApp Business
 * Un número de teléfono de WhatsApp
+* [Token de autorización de usuario con los permisos apropiados](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+* [Las plantillas de Meta aprobadas](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+* [Configuración de Meta Webhooks](https://developers.facebook.com/docs/whatsapp/webhooks/)
+
 
 También debe tener en cuenta lo siguiente antes de continuar con la integración:
 
 * [Las reglas de contenido de WhatsApp](https://www.whatsapp.com/legal/messaging-guidelines)
 * [El cumplimiento de las políticas de Meta](https://www.whatsapp.com/legal)
 * [Los límites para las conversaciones de 24 horas](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
-* [Las plantillas de Meta aprobadas](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
-## Las limitaciones de Beta {#limitations}
+## Limitaciones {#limitations}
 
-Las siguientes funciones no se incluirán en esta versión Beta:
+Las siguientes limitaciones se aplican al canal de WhatsApp:
 
-* **Sistema de informes**: la posibilidad de generar y ver informes no está disponible en esta versión.
+* El canal de WhatsApp en Adobe Journey Optimizer es compatible con HIPAA, pero los proveedores de terceros no están cubiertos por la BAA de Adobe. Los clientes son responsables de su propia conformidad y validación del proveedor.
 
-* **Palabras clave de inclusión/exclusión**: los usuarios no tendrán la opción de suscribirse o cancelar la suscripción con palabras clave específicas en esta fase.
+* Tenga en cuenta que no se admiten mensajes de respuesta automatizados o predefinidos.
 
-* **Mensajes de respuesta**: en esta versión, no se admitirán mensajes de respuesta automatizados o predefinidos.
+* A partir de abril de 2025, la entrega de todos los mensajes de plantilla de marketing a los usuarios de WhatsApp que tengan un número de teléfono de Estados Unidos (un número compuesto por un código de marcado +1 y un código de área de Estados Unidos) se ha suspendido temporalmente. [Obtenga más información en Meta documentation](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
+
+* La funcionalidad de integración nativa no permite la integración con proveedores de servicios empresariales (BSP) de terceros.
 
 ## Vídeo práctico {#video}
 
