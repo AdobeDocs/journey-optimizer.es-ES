@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Cree y programe campañas orquestadas con Journey Optimizer
-description: Obtenga información sobre cómo crear y programar una campaña orquestada con Adobe Journey Optimizer
+title: Creación y programación de campañas organizadas con Journey Optimizer
+description: Obtenga información sobre cómo crear y programar una campaña organizada con Adobe Journey Optimizer
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,18 +10,18 @@ exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 source-git-commit: c0f5ba3a8d5a361cdae3dd432ddbe54c5b79fe36
 workflow-type: tm+mt
 source-wordcount: '1152'
-ht-degree: 11%
+ht-degree: 90%
 
 ---
 
 
-# Creación y programación de una campaña orquestada {#create-first-campaign}
+# Creación y programación de una campaña organizada {#create-first-campaign}
 
-+++ Tabla de contenido
++++ Índice
 
-| Bienvenido a campañas orquestadas | Inicio de su primera campaña organizada | Consultar la base de datos | Actividades de las campañas organizadas |
+| Bienvenido a las campañas organizadas | Inicio de su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
 |---|---|---|---|
-| [Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | <b>[Cree y programe las actividades de la campaña](create-orchestrated-campaign.md)</b><br/><br/>[Organizar actividades](orchestrate-activities.md)<br/><br/>[Inicie y supervise la campaña](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabaje con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Cree su primera consulta](build-query.md)<br/><br/>[Edite expresiones](edit-expressions.md)<br/><br/>[Redireccionamiento](retarget.md) | [Empiece con las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[Y únase](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades de canal](activities/channels.md) - [Combinar](activities/combine.md) - [Anulación de duplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar](activities/save-audience.md) - [División](activities/split.md) [Espera](activities/wait.md) |
+| [Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | <b>[Creación y programación de las campañas](create-orchestrated-campaign.md)</b><br/><br/>[Organización de actividades](orchestrate-activities.md)<br/><br/>[Inicio y monitorización de las campañas](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabajo con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](build-query.md)<br/><br/>[Edición de expresiones](edit-expressions.md)<br/><br/>[Resegmentación](retarget.md) | [Introducción a las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[AND-join](activities/and-join.md) - [Generar público](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades del canal](activities/channels.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar público](activities/save-audience.md) - [División](activities/split.md) - [Esperar](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -36,7 +36,7 @@ El contenido de esta página no es definitivo y puede estar sujeto a cambios.
 
 >[!ENDSHADEBOX]
 
-Cree una campaña orquestada en [!DNL Adobe Journey Optimizer] y configure su programación de ejecución para controlar cuándo se inicia y con qué frecuencia se ejecuta. Elija iniciar la campaña inmediatamente, en una fecha y hora específicas o de forma recurrente mediante opciones de programación flexibles como frecuencias diarias, semanales o mensuales.
+Cree una campaña organizada en [!DNL Adobe Journey Optimizer] y configure su programación de ejecución para controlar cuándo se inicia y con qué frecuencia se ejecuta. Elija iniciar la campaña inmediatamente, en una fecha y a una hora específicas o de forma recurrente mediante opciones de programación flexibles como frecuencias diarias, semanales o mensuales.
 
 ## Crear la campaña {#create}
 
@@ -45,7 +45,7 @@ Cree una campaña orquestada en [!DNL Adobe Journey Optimizer] y configure su pr
 >title="Lista de campañas de orquestadas"
 >abstract="La pestaña **Orquestación** enumera todas las campañas orquestadas. Haga clic en el nombre de una campaña orquestada para editarla. Utilice el botón **Crear campaña orquestada** para añadir una nueva campaña orquestada."
 
-Para crear una campaña orquestada, siga estos pasos:
+Para crear una campaña organizada, siga estos pasos:
 
 1. Vaya al menú **[!UICONTROL Campañas]** y seleccione la pestaña **[!UICONTROL Orquestación]**.
 
@@ -57,11 +57,11 @@ Para crear una campaña orquestada, siga estos pasos:
 
    ![](assets/inventory-create.png)
 
-   1. Introduzca un nombre y una descripción para la campaña.
+   1. Escriba un nombre y una descripción para la campaña.
 
       <!--1. Merge policy-->
 
-   1. Utilice el campo **[!UICONTROL Etiquetas]** para asignar etiquetas unificadas de Adobe Experience Platform a su campaña. Esto le permite clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas orquestadas. [Aprenda a trabajar con etiquetas](../start/search-filter-categorize.md#tags).
+   1. Utilice el campo **[!UICONTROL Etiquetas]** para asignar etiquetas unificadas de Adobe Experience Platform a su campaña. Esto le permite clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas organizadas. [Descubra cómo trabajar con etiquetas](../start/search-filter-categorize.md#tags).
 
    1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -82,15 +82,15 @@ Para crear una campaña orquestada, siga estos pasos:
 >title="Opciones del planificador"
 >abstract="Defina la frecuencia del planificador. Se puede ejecutar en un momento específico, una o varias veces al día, a la semana o al mes."
 
-De forma predeterminada, las campañas orquestadas se inician cuando se activan manualmente y finalizan una vez ejecutadas sus actividades asociadas. Si prefiere retrasar la ejecución o ejecutar la campaña de forma recurrente, puede definir una programación para la campaña.
+De forma predeterminada, las campañas organizadas se inician cuando se activan manualmente y finalizan una vez ejecutadas sus actividades asociadas. Si prefiere retrasar la ejecución o ejecutar la campaña de forma recurrente, puede definir una programación para la campaña.
 
-Tenga en cuenta las siguientes prácticas recomendadas al programar campañas orquestadas para garantizar un rendimiento óptimo y el comportamiento esperado:
+Tenga en cuenta las siguientes prácticas recomendadas al programar campañas organizadas para garantizar un rendimiento óptimo y el comportamiento esperado:
 
-* No programe una campaña orquestada para que se ejecute durante más de 15 minutos, ya que podría limitar el rendimiento general del sistema y crear bloques en la base de datos.
-* Si desea enviar un mensaje de una sola vez en la campaña orquestada, puede configurarlo para que se ejecute **Una vez**.
-* Si desea enviar un mensaje recurrente en la campaña orquestada, debe utilizar una opción **Scheduling** y establecer la frecuencia de ejecución. La actividad de entrega recurrente no permite definir una programación.
+* No programe una campaña organizada para que se ejecute durante más de 15 minutos, ya que esto podría limitar el rendimiento general del sistema y crear bloques en la base de datos.
+* Si desea enviar un único mensaje en la campaña organizada, puede configurarlo para que se ejecute **Una vez**.
+* Si desea enviar un mensaje recurrente en la campaña organizada, debe utilizar la opción **Programación** y establecer la frecuencia de ejecución. La actividad de envío recurrente no le permite definir una programación.
 
-Para configurar la programación de campaña, siga estos pasos:
+Para configurar la programación de la campaña, siga estos pasos:
 
 1. Abra la campaña y haga clic en el botón **[!UICONTROL Lo antes posible]**.
 
@@ -100,35 +100,35 @@ Para configurar la programación de campaña, siga estos pasos:
 
    +++Una vez
 
-   Ejecute la campaña una sola vez en una fecha y hora especificadas.
+   Ejecute la campaña una sola vez en una fecha y a una hora especificadas.
 
    * **[!UICONTROL Fecha]**: seleccione la fecha en la que se debe ejecutar la campaña.
-   * **[!UICONTROL Hora]**: seleccione la hora específica en que se debe ejecutar la campaña.
+   * **[!UICONTROL Hora]**: seleccione la hora específica a la que se debe ejecutar la campaña.
 
-   +++
++++
 
-   +++Diario
+   +++Cada día
 
    Ejecute la campaña todos los días o en los días seleccionados.
 
    * **[!UICONTROL Periodicidad diaria]**: elija la frecuencia con la que debe ejecutarse la campaña:
       * **[!UICONTROL Todos los días]**: ejecuta la campaña todos los días de la semana, incluidos los fines de semana.
-      * **[!UICONTROL De lunes a viernes]**: ejecuta la campaña solamente de lunes a viernes.
-      * **[!UICONTROL A través de un período específico]**: ejecuta la campaña diariamente dentro de un intervalo de fechas definido (por ejemplo, del 1 al 15 de julio). La campaña no se ejecutará fuera de este intervalo.
-      * **[!UICONTROL En días seleccionados de la semana]**: ejecuta la campaña solamente en los días especificados de la semana (por ejemplo, lunes, miércoles o viernes).
+      * **[!UICONTROL Días laborables]**: ejecuta la campaña solamente de lunes a viernes.
+      * **[!UICONTROL Durante un período específico]**: ejecuta la campaña diariamente dentro de un intervalo de fechas definido (por ejemplo, del 1 al 15 de julio). La campaña no se ejecutará fuera de este intervalo.
+      * **[!UICONTROL En días seleccionados de la semana]**: ejecuta la campaña solamente durante los días especificados de la semana (por ejemplo, lunes, miércoles, viernes).
 
    * **[!UICONTROL Hora de inicio]**: defina la hora a la que la campaña debe ejecutarse cada día.
 
-   +++
++++
 
    +++Varias veces al día
 
-   Ejecute la campaña varias veces en el mismo día. Puede elegir tiempos específicos o establecer una frecuencia periódica.
+   Ejecute la campaña varias veces en el mismo día. Puede elegir horas específicas o establecer una frecuencia periódica.
 
-   * **[!UICONTROL Horas seleccionadas]**: seleccione las horas específicas en que la campaña debe ejecutarse y configure su periodicidad diaria (se ejecutará todos los días de la semana o en determinados días).
+   * **[!UICONTROL Horas seleccionadas]**: seleccione las horas específicas en que se debe ejecutar la campaña y configure su periodicidad diaria (se ejecutará todos los días de la semana o en determinados días).
    * **[!UICONTROL Periódico]**: elija ejecutar la campaña cada n minutos u horas. También puede definir el intervalo de tiempo dentro del día en que se permiten las ejecuciones.
 
-   +++
++++
 
    +++Semanal
 
@@ -139,7 +139,7 @@ Para configurar la programación de campaña, siga estos pasos:
    * **[!UICONTROL Periodicidad diaria]**: elija días específicos de la semana para la ejecución (por ejemplo, todos los lunes y jueves).
    * **[!UICONTROL Hora de inicio]**: establezca la hora a la que la campaña debe ejecutarse en los días seleccionados.
 
-   +++
++++
 
    +++Mensual
 
@@ -147,28 +147,28 @@ Para configurar la programación de campaña, siga estos pasos:
 
    * **[!UICONTROL Periodicidad mensual]**: seleccione si la campaña se ejecuta todos los meses o solo durante meses específicos.
    * **[!UICONTROL Periodicidad diaria]**:
-      * **[!UICONTROL Todos los días]**: ejecuta la campaña en todos los días del mes, incluidos los fines de semana.
-      * **[!UICONTROL Último día del mes]**: ejecuta la campaña solamente en el último día del calendario de cada mes (por ejemplo, el 31 de enero, 28/29 de febrero).
-      * **[!UICONTROL Día específico del mes (por ejemplo, el 15)]**: ejecuta la campaña en un día especificado (por ejemplo, el 15 de cada mes).
-      * **[!UICONTROL Primer/último o noveno día de la semana]** (por ejemplo, primer lunes):      Ejecuta la campaña en un día de la semana especificado (por ejemplo, el 15 de cada semana).
-      * **[!UICONTROL Días seleccionados de la semana]**: ejecuta la campaña en un día especificado.
+      * **[!UICONTROL Todos los días]**: ejecuta la campaña todos los días naturales del mes, incluidos los fines de semana.
+      * **[!UICONTROL Último día del mes]**: ejecuta la campaña solamente el último día natural de cada mes (por ejemplo, el 31 de enero, 28/29 de febrero).
+      * **[!UICONTROL Día específico del mes (por ejemplo, el 15)]**: ejecuta la campaña un día especificado (por ejemplo, el 15 de cada mes).
+      * **[!UICONTROL Primer/último o enésimo día de la semana]** (por ejemplo, primer lunes): ejecuta la campaña un día de la semana especificado (por ejemplo, el 15 de cada semana).
+      * **[!UICONTROL Días seleccionados de la semana]**: ejecuta la campaña un día especificado.
 
    * **[!UICONTROL Hora de inicio]**: establezca la hora a la que se debe ejecutar la campaña.
 
-   +++
++++
 
-1. Use la configuración **[!UICONTROL Periodo de validez]** para definir una fecha específica de inicio y finalización que limite la ejecución de la campaña a un periodo de tiempo limitado.
+1. Use la configuración **[!UICONTROL Período de validez]** para definir una fecha específica de inicio y finalización que limite la ejecución de la campaña a un período de tiempo limitado.
 
-1. Para las programaciones recurrentes, haga clic en el botón **[!UICONTROL Previsualizar horas de inicio]** para obtener una vista previa de las próximas fechas y horas de ejecución exactas según la configuración actual. Esto ayuda a validar la programación antes de la activación y garantiza que la campaña se ejecute según lo esperado.
+1. Para las programaciones recurrentes, haga clic en el botón **[!UICONTROL Previsualizar horas de inicio]** para obtener una vista previa de las próximas fechas y horas de ejecución exactas según la configuración actual. Esto valida la programación antes de la activación y garantiza que la campaña se ejecute según lo esperado.
 
 >[!NOTE]
 >
->Al programar campañas en [!DNL Adobe Journey Optimizer], asegúrese de que la fecha y la hora de inicio se ajusten a la primera entrega deseada. En el caso de las campañas recurrentes, si ya ha pasado la hora programada inicial, las campañas se transferirán a la siguiente franja horaria disponible según sus reglas de periodicidad.
+>Al programar campañas en [!DNL Adobe Journey Optimizer], asegúrese de que la fecha y la hora de inicio se ajusten al primer envío deseado. En el caso de las campañas recurrentes, si ya ha pasado la hora programada inicial, las campañas se transferirán a la siguiente franja horaria disponible según sus reglas de periodicidad.
 
-En el siguiente ejemplo, la actividad se configura de modo que la campaña orquestada se ejecute dos veces al día a las 9 y las 12 de la mañana, todos los días de la semana del 1 de octubre de 2025 al 1 de enero de 2026.
+En el siguiente ejemplo, la actividad se configura de modo que la campaña organizada se ejecuta dos veces al día a las 9 y las 12 de la mañana, todos los días de la semana del 1 de octubre de 2025 al 1 de enero de 2026.
 
-![Programador configurado para ejecutar la campaña dos veces al día a las 09:00 y a las 12:00](assets/scheduler-sample.png){width="50%" align="left"}
+![Planificador configurado para ejecutar la campaña dos veces al día a las 09:00 y a las 12:00](assets/scheduler-sample.png){width="50%" align="left"}
 
-## Pasos siguientes {#next}
+## Próximos pasos {#next}
 
-Una vez configurados los ajustes y la programación de la campaña, puede empezar a organizar las diferentes tareas que va a realizar. [Aprenda a organizar actividades de campañas](../orchestrated/orchestrate-activities.md)
+Una vez configurados los ajustes y la programación de la campaña, puede empezar a organizar las diferentes tareas que va a realizar. [Obtenga información sobre cómo organizar actividades de campaña](../orchestrated/orchestrate-activities.md)

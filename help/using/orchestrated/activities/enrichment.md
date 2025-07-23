@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Uso de la actividad Enrichment
-description: Aprenda a utilizar la actividad de enriquecimiento
+title: Uso de la actividad Enriquecimiento
+description: Aprenda a utilizar la actividad Enriquecimiento
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 31%
+ht-degree: 92%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 31%
 >abstract="La actividad de **enriquecimiento** permite mejorar los datos de destino con información adicional de la base de datos. Normalmente, se utiliza en un flujo de trabajo después de actividades de segmentación."
 
 
-+++ Tabla de contenido
++++ Índice
 
-| Bienvenido a campañas orquestadas | Inicio de su primera campaña organizada | Consultar la base de datos | Actividades de las campañas organizadas |
+| Bienvenido a las campañas organizadas | Inicio de su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
 |---|---|---|---|
-| [Empiece a usar las campañas orquestadas](../gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](../gs-schemas.md)</li><li>[Esquema manual](../manual-schema.md)</li><li>[Esquema de carga de archivos](../file-upload-schema.md)</li><li>[Ingesta de datos](../ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](../access-manage-orchestrated-campaigns.md) | [Pasos clave para crear una campaña orquestada](../gs-campaign-creation.md)<br/><br/>[Cree y programe las actividades de la campaña](../create-orchestrated-campaign.md)<br/><br/>[Organice las actividades](../orchestrate-activities.md)<br/><br/>[Inicie y supervise la campaña](../start-monitor-campaigns.md)<br/><br/>[Creación de informes](../reporting-campaigns.md) | [Trabaje con el generador de reglas](../orchestrated-rule-builder.md)<br/><br/>[Cree su primera consulta](../build-query.md)<br/><br/>[Edite expresiones](../edit-expressions.md)<br/><br/>[Redireccionamiento](../retarget.md) | [Empiece con las actividades](about-activities.md)<br/><br/>Actividades:<br/>[Y únase](and-join.md) - [Generar audiencia](build-audience.md) - [Cambiar dimensión](change-dimension.md) - [Actividades de canal](channels.md) - [Combinar](combine.md) - [Anulación de duplicación](deduplication.md) - <b>[Enriquecimiento](enrichment.md)</b> - [Bifurcación](fork.md) - [Reconciliación](reconciliation.md) - [Guardar](save-audience.md) - [División](split.md) [Espera](wait.md) |
+| [Empiece a usar las campañas orquestadas](../gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](../gs-schemas.md)</li><li>[Esquema manual](../manual-schema.md)</li><li>[Esquema de carga de archivos](../file-upload-schema.md)</li><li>[Ingesta de datos](../ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](../access-manage-orchestrated-campaigns.md) | [Pasos clave para crear una campaña organizada](../gs-campaign-creation.md)<br/><br/>[Creación y programación de las campañas](../create-orchestrated-campaign.md)<br/><br/>[Organización de actividades](../orchestrate-activities.md)<br/><br/>[Inicio y monitorización de las campañas](../start-monitor-campaigns.md)<br/><br/>[Creación de informes](../reporting-campaigns.md) | [Trabajo con el generador de reglas](../orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](../build-query.md)<br/><br/>[Edición de expresiones](../edit-expressions.md)<br/><br/>[Resegmentación](../retarget.md) | [Introducción a las actividades](about-activities.md)<br/><br/>Actividades:<br/>[AND-join](and-join.md) - [Generar público](build-audience.md) - [Cambiar dimensión](change-dimension.md) - [Actividades del canal](channels.md) - [Combinar](combine.md) - [Deduplicación](deduplication.md) - <b>[Enriquecimiento](enrichment.md)</b> - [Bifurcación](fork.md) - [Reconciliación](reconciliation.md) - [Guardar público](save-audience.md) - [División](split.md) - [Esperar](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -42,9 +42,9 @@ El contenido de esta página no es definitivo y puede estar sujeto a cambios.
 
 >[!ENDSHADEBOX]
 
-La actividad **[!UICONTROL Enrichment]** es una actividad **[!UICONTROL Segmentación]** que le permite mejorar sus datos de audiencia con atributos adicionales.
+La actividad **[!UICONTROL Enriquecimiento]** es una actividad de **[!UICONTROL Segmentación]** que le permite mejorar sus datos de público con atributos adicionales.
 
-Puede aprovechar esta información para segmentar la audiencia de forma más precisa, en función de comportamientos, preferencias o necesidades, y para crear mensajes personalizados que se conecten mejor con cada perfil.
+Puede aprovechar esta información para segmentar el público de forma más precisa, en función de comportamientos, preferencias o necesidades, y para crear mensajes personalizados que se conecten mejor con cada perfil.
 
 ## Añadir una actividad Enriquecimiento {#enrichment-configuration}
 
@@ -62,9 +62,9 @@ Siga estos pasos para configurar la actividad **Enriquecimiento**:
 
 1. Añada una actividad **Enriquecimiento**
 
-1. Haga clic en **Agregar datos de enriquecimiento** y seleccione el atributo que se utilizará para enriquecer los datos.
+1. Haga clic en **Añadir datos de enriquecimiento** y seleccione el atributo que utilizará para enriquecer los datos.
 
-   Puede seleccionar dos tipos de datos de enriquecimiento: un único atributo de enriquecimiento de la dimensión de destino o un vínculo de recopilación. Cada uno de estos tipos se detalla en los ejemplos siguientes:
+   Puede seleccionar dos tipos de datos de enriquecimiento: un atributo de enriquecimiento único desde la dimensión de público destinatario o un vínculo de colección. Cada uno de estos tipos se detalla en los ejemplos siguientes:
 
    * [Atributo de enriquecimiento único](#single-attribute)
    * [Vínculo de colección](#collection-link)
@@ -75,7 +75,7 @@ Siga estos pasos para configurar la actividad **Enriquecimiento**:
 
 ### Atributo de enriquecimiento único {#single-attribute}
 
-En este ejemplo, se enriquece la audiencia con un solo atributo, como la fecha de nacimiento, de la dimensión de segmentación actual.
+En este ejemplo, el público se enriquece con un solo atributo, como la fecha de nacimiento, de la dimensión de segmentación actual.
 
 Para ello, haga lo siguiente:
 
@@ -89,7 +89,7 @@ Para ello, haga lo siguiente:
 
 ### Vínculo de colección {#collection-link}
 
-Este caso de uso enriquece la audiencia con datos de una tabla vinculada. Por ejemplo, desea recuperar las tres compras más recientes por debajo de 100 dólares.
+Este caso de uso enriquece el público con datos de una tabla vinculada. Por ejemplo, desea recuperar las tres compras más recientes por debajo de 100 USD.
 
 Para conseguirlo, configure el enriquecimiento de la siguiente manera:
 
@@ -97,11 +97,11 @@ Para conseguirlo, configure el enriquecimiento de la siguiente manera:
 
 * **Número de registros que se van a recuperar**: 3
 
-* **Filtro**: solo incluye compras donde el **[!UICONTROL Precio]** sea menor a $100
+* **Filtro**: solo incluye compras donde el **[!UICONTROL Precio]** sea menor a 100 USD
 
 #### Añadir el atributo {#add-attribute}
 
-En primer lugar, seleccione el vínculo de recopilación que contiene los datos que desea enriquecer con.
+En primer lugar, seleccione el vínculo de colección que contiene los datos con los que desea enriquecer.
 
 1. Haga clic en **[!UICONTROL Añadir datos de enriquecimiento]**.
 
@@ -117,13 +117,13 @@ A continuación, configure cómo se deben recopilar los datos y cuántas entrada
 
    ![](../assets/enrichment-4.png)
 
-1. En el campo **[!UICONTROL Líneas a recuperar (Columnas a crear)]**, escriba `3`.
+1. En el campo **[!UICONTROL Líneas a recuperar (columnas a crear)]**, escriba `3`.
 
 1. Para realizar una agregación (p. ej., importe promedio de compra), seleccione **[!UICONTROL Datos agregados]** y, a continuación, elija **[!UICONTROL Promedio]** en la lista desplegable **[!UICONTROL Función de agregado]**.
 
    ![](../assets/enrichment-5.png)
 
-1. Utilice los campos **[!UICONTROL Label]** y **[!UICONTROL Alias]** para que los atributos enriquecidos sean más fáciles de identificar en actividades posteriores.
+1. Utilice los campos **[!UICONTROL Etiqueta]** y **[!UICONTROL Alias]** para que los atributos enriquecidos sean más fáciles de identificar en actividades posteriores.
 
 #### Definición de los filtros{#collection-filters}
 

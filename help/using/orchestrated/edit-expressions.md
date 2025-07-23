@@ -10,18 +10,18 @@ exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
 source-wordcount: '2150'
-ht-degree: 43%
+ht-degree: 97%
 
 ---
 
 
 # Editar expresiones {#edit-expressions}
 
-+++ Tabla de contenido
++++ Índice
 
-| Bienvenido a campañas orquestadas | Inicio de su primera campaña organizada | Consultar la base de datos | Actividades de las campañas organizadas |
+| Bienvenido a las campañas organizadas | Inicio de su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
 |---|---|---|---|
-| [Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | [Cree y programe las actividades de la campaña](create-orchestrated-campaign.md)<br/><br/>[Organizar actividades](orchestrate-activities.md)<br/><br/>[Inicie y supervise la campaña](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabaje con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Cree su primera consulta](build-query.md)<br/><br/><b>[Edite expresiones](edit-expressions.md)</b><br/><br/>[Redireccionamiento](retarget.md) | [Empiece con las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[Y únase](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades de canal](activities/channels.md) - [Combinar](activities/combine.md) - [Anulación de duplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar](activities/save-audience.md) - [División](activities/split.md) [Espera](activities/wait.md) |
+| [Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | [Creación y programación de las campañas](create-orchestrated-campaign.md)<br/><br/>[Organización de actividades](orchestrate-activities.md)<br/><br/>[Inicio y monitorización de las campañas](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabajo con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](build-query.md)<br/><br/><b>[Edición de expresiones](edit-expressions.md)</b><br/><br/>[Resegmentación](retarget.md) | [Introducción a las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[AND-join](activities/and-join.md) - [Generar público](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades del canal](activities/channels.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar público](activities/save-audience.md) - [División](activities/split.md) - [Esperar](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -36,35 +36,35 @@ El contenido de esta página no es definitivo y puede estar sujeto a cambios.
 
 >[!NOTE]
 >
->La sección siguiente proporciona información sobre cómo trabajar con el editor de expresiones para generar reglas. Tenga en cuenta que la sintaxis utilizada para generar reglas difiere de la utilizada para agregar personalización.
+>En la siguiente sección se proporciona información sobre cómo trabajar con el editor de expresiones para crear reglas. Tenga en cuenta que la sintaxis que se utiliza para crear reglas es diferente de la que se utiliza para añadir personalización.
 
-## Trabajo con el editor de expresiones {#edit}
+## Trabajo con el editor de expresiones  {#edit}
 
-La edición de una expresión implica la introducción manual de condiciones para formar una regla. Este modo permite utilizar funciones avanzadas, que permiten manipular los valores utilizados para llevar a cabo consultas específicas, como la manipulación de fechas, cadenas, campos numéricos y ordenación.
+Editar una expresión implica introducir manualmente las condiciones para formar una regla. Este modo permite utilizar funciones avanzadas, que permiten manipular los valores que se utilizan para llevar a cabo consultas específicas, como la manipulación de fechas, cadenas, campos numéricos y ordenación.
 
-El editor de expresiones está disponible en el botón del generador de reglas **[!UICONTROL Editar expresión]**, disponible para los campos **[!UICONTROL Atributo]** y **[!UICONTROL Valor]** al configurar una condición personalizada.
+El editor de expresiones está disponible en el botón generador de reglas **[!UICONTROL Editar expresión]**, disponible para los campos **[!UICONTROL Atributo]** y **[!UICONTROL Valor]** al configurar una condición personalizada.
 
-| Acceso desde el campo **Atributo** | Acceso desde el campo **Value** |
+| Acceso desde el campo **Atributo** | Acceso desde el campo **Valor** |
 | --- | --- |
-| ![Editor de expresiones para el campo de atributos](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![Editor de expresiones para el campo Valor](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| ![Editor de expresiones para el campo Atributo](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![Editor de expresiones para el campo Valor](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 El editor de expresiones proporciona lo siguiente:
 
-* Un **campo de entrada (1)** donde se define la expresión.
+* Un **campo de entrada (1)** en el que se define la expresión.
 * Una lista de **campos (2)** disponibles que se pueden usar en la expresión y que corresponden a la dimensión de segmentación de la consulta.
 * **Funciones de ayuda (3)**, ordenadas por categoría.
 
-Edite la expresión introduciendo una expresión directamente en el campo de entrada. Para añadir un campo o una función de ayuda, coloque el cursor en la expresión donde desee añadirla y haga clic en el botón +.
+Edite la expresión introduciendo una expresión directamente en el campo de entrada. Para añadir un campo o una función de ayuda, coloque el cursor en la expresión donde desee añadirlo y haga clic en el botón +.
 
 ![Interfaz del editor de expresiones](assets/rule-builder-expression-editor.png){zoomable="yes"}
 
 ## Funciones de ayuda
 
-La herramienta de edición de consultas le permite utilizar funciones avanzadas para realizar filtros complejos según los resultados deseados y los tipos de datos manipulados. Estas son las funciones disponibles:
+La herramienta de edición de consultas le permite utilizar funciones avanzadas para llevar a cabo filtros complejos según los resultados deseados y los tipos de datos manipulados. Estas son las funciones disponibles:
 
 ### Agregado
 
-Las funciones agregadas realizan cálculos en un conjunto de valores.
+Las funciones de agregado realizan cálculos en un conjunto de valores.
 
 <table>
 <tbody>
@@ -74,7 +74,7 @@ Las funciones agregadas realizan cálculos en un conjunto de valores.
 <td><strong>Sintaxis</strong></td>
 </tr>
 <tr>
-<td><strong>Avg</strong></td>
+<td><strong>Promedio</strong></td>
 <td>Devuelve el promedio de una columna de tipo numérico</td>
 <td>Avg(&lt;value&gt;)</td>
 </tr>
@@ -95,12 +95,12 @@ Las funciones agregadas realizan cálculos en un conjunto de valores.
 </tr>
 <tr>
 <td><strong>Máx.</strong></td>
-<td>Devuelve el valor máximo de una columna de número, cadena o tipo de fecha</td>
+<td>Devuelve el valor máximo de una columna de tipo número, cadena o fecha</td>
 <td>Max(&lt;value&gt;)</td>
 </tr>
 <tr>
 <td><strong>Mín.</strong></td>
-<td>Devuelve el valor mínimo de una columna de número, cadena o tipo de fecha</td>
+<td>Devuelve el valor mínimo de una columna de tipo número, cadena o fecha</td>
 <td>Min(&lt;value&gt;)</td>
 </tr>
 <tr>
@@ -111,11 +111,11 @@ Las funciones agregadas realizan cálculos en un conjunto de valores.
 <tr>
 <td><strong>StringAgg</strong></td>
 <td>Devuelve la concatenación de los valores de una columna de tipo cadena, separados por el carácter del segundo argumento</td>
-<td>StringAgg(&lt;Valor&gt;, &lt;Cadena&gt;)</td>
+<td>StringAgg(&lt;Value&gt;, &lt;String&gt;)</td>
 </tr>
 <tr>
 <td><strong>Sum</strong></td>
-<td>Devuelve la suma de los valores de una columna de número, cadena o fecha</td>
+<td>Devuelve la suma de los valores de una columna de tipo número, cadena o fecha</td>
 <td>Sum(&lt;value&gt;)</td>
 </tr>
 </tbody>
@@ -123,7 +123,7 @@ Las funciones agregadas realizan cálculos en un conjunto de valores.
 
 ### Fecha
 
-Las funciones de fecha manipulan los valores de fecha y hora.
+Las funciones de fecha manipulan los valores de fecha u hora.
 
 <table>
 <tbody>
@@ -135,187 +135,187 @@ Las funciones de fecha manipulan los valores de fecha y hora.
 <tr>
 <td><strong>AddDays</strong></td>
 <td>Añade un número de días a una fecha</td>
-<td>AddDays(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>AddDays(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddHours</strong></td>
-<td>Agrega un número de horas a una fecha</td>
-<td>AddHours(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Añade un número de horas a una fecha</td>
+<td>AddHours(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddMinutes</strong></td>
 <td>Añade un número de minutos a una fecha</td>
-<td>AddMinutes(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>AddMinutes(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddMonths</strong></td>
 <td>Añade un número de meses a una fecha</td>
-<td>AddMonths(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>AddMonths(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddSeconds</strong></td>
 <td>Añade un número de segundos a una fecha</td>
-<td>AddSeconds(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>AddSeconds(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddYears</strong></td>
 <td>Añade un número de años a una fecha</td>
-<td>AddYears(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>AddYears(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>ConvertNTZ</strong></td>
 <td>Convierte la marca de tiempo NTZ (marca de tiempo sin zona horaria) en TZ (marca de tiempo con zona horaria) aplicando la TZ de sesión definida</td>
-<td>ConvertNTZ(&lt;fecha+hora&gt;)</td>
+<td>ConvertNTZ(&lt;date+time&gt;)</td>
 </tr>
 <tr>
 <td><strong>DateCmp</strong></td>
 <td>Compara dos fechas</td>
-<td>DateCmp(&lt;fecha&gt;, &lt;fecha&gt;)</td>
+<td>DateCmp(&lt;date&gt;, &lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>DateOnly</strong></td>
-<td>Devuelve solo la fecha (con hora 00:00)</td>
-<td>DateOnly(&lt;fecha&gt;)</td>
+<td>Devuelve solo la fecha (con la hora en 00:00)</td>
+<td>DateOnly(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>Día</strong></td>
-<td>Devuelve el número que representa el día de la fecha</td>
-<td>Day(&lt;fecha&gt;)</td>
+<td>Devuelve el número que representa el día de la fecha.</td>
+<td>Day(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>DayOfYear</strong></td>
 <td>Devuelve el número de día del año de la fecha</td>
-<td>DayOfYear(&lt;fecha&gt;)</td>
+<td>DayOfYear(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>DaysAgo</strong></td>
-<td>Devuelve la fecha correspondiente a la fecha actual menos n días</td>
-<td>DaysAgo(&lt;número&gt;)</td>
+<td>Devuelve la fecha correspondiente a la fecha actual menos “n” días</td>
+<td>DaysAgo(&lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>DaysAgoInt</strong></td>
-<td>Devuelve la fecha (entero aaaammdd) correspondiente a la fecha actual menos n días</td>
-<td>DaysAgoInt(&lt;número&gt;)</td>
+<td>Devuelve la fecha (entero ddmmaaaa) correspondiente a la fecha actual menos “n” días</td>
+<td>DaysAgoInt(&lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>DaysDiff</strong></td>
 <td>Devuelve el número de días entre dos fechas</td>
-<td>DaysDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)</td>
+<td>DaysDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
 </tr>
 <tr>
 <td><strong>DaysOld</strong></td>
-<td>Devuelve la edad en días de una fecha</td>
-<td>DaysOld(&lt;fecha&gt;)</td>
+<td>Devuelve la antigüedad en días de una fecha</td>
+<td>DaysOld(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>GetDate</strong></td>
-<td>Devuelve la fecha actual del sistema del servidor</td>
+<td>Devuelve la fecha del sistema actual del servidor</td>
 <td>GetDate()</td>
 </tr>
 <tr>
 <td><strong>Hora</strong></td>
 <td>Devuelve la hora de la fecha</td>
-<td>Hour(&lt;fecha&gt;)</td>
+<td>Hour(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>HoursDiff</strong></td>
-<td>Devuelve la cantidad de horas entre dos fechas</td>
-<td>HoursDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)</td>
+<td>Devuelve el número de horas entre dos fechas</td>
+<td>HoursDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
 </tr>
 <tr>
 <td><strong>Minuto</strong></td>
 <td>Devuelve los minutos de la fecha</td>
-<td>Minute(&lt;fecha&gt;)</td>
+<td>Minute(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>MinutesDiff</strong></td>
 <td>Devuelve el número de minutos entre dos fechas</td>
-<td>MinutesDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)</td>
+<td>MinutesDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
 </tr>
 <tr>
 <td><strong>Mes</strong></td>
 <td>Devuelve el número que representa el mes de la fecha</td>
-<td>Month(&lt;fecha&gt;)</td>
+<td>Month(&lt;date&gt;)</td>
 </tr>
 <tr>
-<td><strong>Meses atrás</strong></td>
-<td>Devuelve la fecha correspondiente a la fecha actual menos n meses</td>
-<td>MonthsAgo(&lt;número&gt;)</td>
+<td><strong>MonthsAgo</strong></td>
+<td>Devuelve la fecha correspondiente a la fecha actual menos "n" meses</td>
+<td>MonthsAgo(&lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>MonthsDiff</strong></td>
 <td>Devuelve el número de meses entre dos fechas</td>
-<td>MonthsDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)</td>
+<td>MonthsDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
 </tr>
 <tr>
 <td><strong>MonthsOld</strong></td>
-<td>Devuelve la edad en meses de una fecha</td>
-<td>MonthsOld(&lt;fecha&gt;)</td>
+<td>Devuelve la antigüedad en meses de una fecha</td>
+<td>MonthsOld(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>Oldest</strong></td>
 <td>Devuelve la fecha más antigua de un intervalo</td>
-<td>Oldest(&lt;fecha, fecha&gt;)</td>
+<td>Oldest(&lt;date, date&gt;)</td>
 </tr>
 <tr>
 <td><strong>Segundo</strong></td>
 <td>Devuelve los segundos de la fecha</td>
-<td>Second(&lt;fecha&gt;)</td>
+<td>Second(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>SecondsDiff</strong></td>
 <td>Devuelve el número de segundos entre dos fechas</td>
-<td>SecondsDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)</td>
+<td>SecondsDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubDays</strong></td>
-<td>Resta un número de días desde una fecha</td>
-<td>SubDays(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Resta un número de días a una fecha</td>
+<td>SubDays(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubHours</strong></td>
-<td>Resta un número de horas desde una fecha</td>
-<td>SubHours(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Resta un número de horas a una fecha</td>
+<td>SubHours(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubMinutes</strong></td>
-<td>Resta un número de minutos desde una fecha</td>
-<td>SubMinutes(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Resta un número de minutos a una fecha</td>
+<td>SubMinutes(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubMonths</strong></td>
-<td>Resta un número de meses desde una fecha</td>
-<td>SubMonths(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Resta un número de meses a una fecha</td>
+<td>SubMonths(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
-<td><strong>Subsegundos</strong></td>
-<td>Resta un número de segundos desde una fecha</td>
-<td>SubSeconds(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td><strong>SubSeconds</strong></td>
+<td>Resta un número de segundos a una fecha</td>
+<td>SubSeconds(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubYears</strong></td>
-<td>Resta un número de años desde una fecha</td>
-<td>SubYears(&lt;fecha&gt;, &lt;número&gt;)</td>
+<td>Resta un número de años a una fecha</td>
+<td>SubYears(&lt;date&gt;, &lt;number&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToDate</strong></td>
-<td>Convierte una fecha y hora como fecha</td>
-<td>ToDate(&lt;fecha + hora&gt;)</td>
+<td>Convierte una fecha + hora como una fecha</td>
+<td>ToDate(&lt;date + time&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToDateTime</strong></td>
 <td>Convierte una cadena en una fecha + hora</td>
-<td>ToDateTime(&lt;cadena&gt;)</td>
+<td>ToDateTime(&lt;string&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToTimestamp</strong></td>
 <td>Convierte una cadena en una marca de tiempo</td>
-<td>ToTimestamp(&lt;cadena&gt;)</td>
+<td>ToTimestamp(&lt;string&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToTimeZone</strong></td>
 <td>Convierte una fecha y hora en una zona horaria</td>
-<td>ToTimeZone(&lt;fecha&gt;, &lt;zona horaria&gt;)</td>
+<td>ToTimeZone(&lt;date&gt;, &lt;time zone&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncDate</strong></td>
@@ -324,65 +324,65 @@ Las funciones de fecha manipulan los valores de fecha y hora.
 </tr>
 <tr>
 <td><strong>TruncDateTZ</strong></td>
-<td>Redondea una fecha y hora con una precisión determinada expresada en segundos</td>
-<td>TruncDateTZ(&lt;fecha&gt;, &lt;número de segundos&gt;, &lt;zona horaria&gt;)</td>
+<td>Redondea una fecha + hora a una precisión determinada expresada en segundos</td>
+<td>TruncDateTZ(&lt;date&gt;, &lt;number of seconds&gt;, &lt;time zone&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncQuarter</strong></td>
 <td>Redondea una fecha al trimestre</td>
-<td>TruncQuarter(&lt;fecha&gt;)</td>
+<td>TruncQuarter(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncTime</strong></td>
-<td>Redondea la parte de tiempo hacia arriba hasta el segundo más cercano</td>
-<td>TruncTime(&lt;fecha&gt;, &lt;número de segundos&gt;)</td>
+<td>Redondea la parte de la hora al segundo más cercano</td>
+<td>TruncTime(&lt;date&gt;, &lt;number of seconds&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncWeek</strong></td>
 <td>Redondea una fecha a la semana</td>
-<td>TruncWeek(&lt;fecha&gt;)</td>
+<td>TruncWeek(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncYear</strong></td>
-<td>Redondea una fecha y hora al 1 de enero del año</td>
-<td>TruncYear(&lt;fecha&gt;)</td>
+<td>Redondea una fecha + hora al 1 de enero del año</td>
+<td>TruncYear(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>WeekDay</strong></td>
 <td>Devuelve un número que representa el día de la semana de la fecha (0=lunes, 6=domingo)</td>
-<td>WeekDay(&lt;fecha&gt;)</td>
+<td>WeekDay(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>Año</strong></td>
 <td>Devuelve el número que representa el año de la fecha</td>
-<td>Year(&lt;fecha&gt;)</td>
+<td>Year(&lt;date&gt;)</td>
 </tr>
 <tr>
-<td><strong>AñoYMes</strong></td>
+<td><strong>YearAndMonth</strong></td>
 <td>Devuelve el número que representa el año y el mes de la fecha</td>
-<td>YearAndMonth(&lt;fecha&gt;)</td>
+<td>YearAndMonth(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>YearsAgo</strong></td>
 <td>Devuelve el número de años entre una fecha determinada y la fecha actual</td>
-<td>YearsAgo(&lt;fecha&gt;)</td>
+<td>YearsAgo(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>YearsDiff</strong></td>
-<td>Devuelve el número de años entre dos fechas</td>
-<td>YearsDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)</td>
+<td>Devuelve el número de horas entre dos fechas</td>
+<td>YearsDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
 </tr>
 <tr>
 <td><strong>YearsOld</strong></td>
-<td>Devuelve la edad en años de una fecha</td>
-<td>YearsOld(&lt;fecha&gt;)</td>
+<td>Devuelve la antigüedad en años de una fecha</td>
+<td>YearsOld(&lt;date&gt;)</td>
 </tr>
 </tbody>
 </table>
 
 >[!NOTE]
 >
->Tenga en cuenta que la función **DateOnly** tiene en cuenta la zona horaria del servidor, no la del operador.
+>La función **DateOnly** tiene en cuenta la zona horaria del servidor, no la del operador.
 
 
 ### Geomarketing
@@ -406,7 +406,7 @@ Las funciones de geomarketing se utilizan para manipular los valores geográfico
 
 ### Numérico
 
-Las funciones numéricas se utilizan para convertir texto en números.
+Las funciones de valores numéricos se utilizan para convertir texto en números.
 
 <table> 
  <tbody> 
@@ -501,8 +501,8 @@ Esta tabla contiene las funciones restantes disponibles.
   </tr> 
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Cifrar la cadena proporcionada en el argumento <br /> </td> 
-   <td> AESEncrypt(&lt;valor&gt;)<br /> </td> 
+   <td> Cifrar la cadena proporcionada en el argumento<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -556,8 +556,8 @@ Esta tabla contiene las funciones restantes disponibles.
    <td> IsEmptyString(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>NuevoUUID</strong><br /> </td> 
-   <td> Devuelve un identificador único <br /> </td> 
+   <td> <strong>NewUUID</strong><br /> </td> 
+   <td> Devuelve un ID único<br /> </td> 
    <td> NewUUID()<br /> </td>  
   </tr> 
   <tr> 
@@ -626,7 +626,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   </tr> 
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
-   <td> Devuelve el tamaño en bytes de la cadena <br /> </td> 
+   <td> Devuelve el tamaño en bytes de la cadena<br /> </td> 
    <td> dataLength(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -665,8 +665,8 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
    <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Línea</strong><br /> </td> 
-   <td> Extraer línea n de la cadena <br /> </td> 
+   <td> <strong>Line</strong><br /> </td> 
+   <td> Extrae la línea n de la cadena<br /> </td> 
    <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
   </tr>
   <tr> 
@@ -677,7 +677,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Devuelve la cadena completa a la izquierda<br /> </td> 
-   <td> LPad (&lt;Cadena&gt;, &lt;Número&gt;, &lt;Carácter&gt;)<br /></td> 
+   <td> LPad (&lt;String&gt;, &lt;Number&gt;, &lt;Char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -695,14 +695,14 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
    <td> MemoContains(&lt;memo&gt;, &lt;cadena&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>ValorNodo</strong><br /> </td> 
-   <td> Extrae el valor de un campo XML de su XPath y de los datos de campo <br /> </td> 
+   <td> <strong>NodeValue</strong><br /> </td> 
+   <td> Extrae el valor de un campo XML de su XPath y de los datos de campo<br /> </td> 
    <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> Reemplaza todas las apariciones de un valor de cadena especificado por otro valor de cadena.<br /> </td> 
-   <td> Replace(&lt;cadena&gt;,&lt;cadena&gt;,&lt;cadena&gt;)<br /></td> 
+   <td> Reemplaza todas las ocurrencias de un valor de cadena especificado por otro valor de cadena.<br /> </td> 
+   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -722,12 +722,12 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> Representación hexadecimal de la clave SHA256 de una cadena.<br /> </td> 
-   <td> Sha256Digest (&lt;cadena&gt;)<br /> </td> 
+   <td> Sha256Digest(&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> Representación hexadecimal de la clave SHA512 de una cadena.<br /> </td> 
-   <td> Sha512Digest (&lt;cadena&gt;)<br /> </td> 
+   <td> Sha512Digest(&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -773,8 +773,8 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   </tr> 
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
-   <td> Ejecute la llamada a la función SQL introducida como primer parámetro, sobre Partición u Ordenar por los campos introducidos como segundo parámetro<br /> </td> 
-   <td> _Over_ (&lt;Valor&gt;, &lt;Valor&gt;)<br /> </td>  
+   <td> Ejecuta la llamada a la función SQL introducida como primer parámetro, sobre Partición u Ordenar por, los campos introducidos como segundo parámetro<br /> </td> 
+   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a las campañas organizadas
-description: Obtenga información sobre cómo empezar con campañas orquestadas
+description: Obtenga información sobre cómo empezar con campañas organizadas
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,17 +10,17 @@ exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 source-git-commit: bd5239b177954d6e5d83f4b08e7d79819c102485
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 7%
+ht-degree: 20%
 
 ---
 
 # Introducción a las campañas organizadas {#orchestrated-camp}
 
-+++ Tabla de contenido
++++ Índice
 
-| Bienvenido a campañas orquestadas | Inicio de su primera campaña organizada | Consultar la base de datos | Actividades de las campañas organizadas |
+| Bienvenido a las campañas organizadas | Inicio de su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
 |---|---|---|---|
-| <b>[Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)</b><br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | [Cree y programe las actividades de la campaña](create-orchestrated-campaign.md)<br/><br/>[Organizar actividades](orchestrate-activities.md)<br/><br/>[Inicie y supervise la campaña](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabaje con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Cree su primera consulta](build-query.md)<br/><br/>[Edite expresiones](edit-expressions.md)<br/><br/>[Redireccionamiento](retarget.md) | [Empiece con las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[Y únase](activities/and-join.md) - [Generar audiencia](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades de canal](activities/channels.md) - [Combinar](activities/combine.md) - [Anulación de duplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar](activities/save-audience.md) - [División](activities/split.md) [Espera](activities/wait.md) |
+| <b>[Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)</b><br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | [Creación y programación de las campañas](create-orchestrated-campaign.md)<br/><br/>[Organización de actividades](orchestrate-activities.md)<br/><br/>[Inicio y monitorización de las campañas](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabajo con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](build-query.md)<br/><br/>[Edición de expresiones](edit-expressions.md)<br/><br/>[Resegmentación](retarget.md) | [Introducción a las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[AND-join](activities/and-join.md) - [Generar público](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades del canal](activities/channels.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar público](activities/save-audience.md) - [División](activities/split.md) - [Esperar](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -80,7 +80,7 @@ Ahora que comprende lo que son las campañas orquestadas, es hora de profundizar
 <table><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
-<img alt="Acceso y administración de flujos de trabajo" src="assets/do-not-localize/workflow-access.jpeg">
+<img alt="Acceso y administración de los flujos de trabajo" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
 <a href="gs-campaign-creation.md"><strong>Pasos de configuración</strong></a>
@@ -91,7 +91,7 @@ Ahora que comprende lo que son las campañas orquestadas, es hora de profundizar
 <a href="create-orchestrated-campaign.md">
 <img alt="Posible cliente" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-orchestrated-campaign.md"><strong>Crear una campaña orquestada</strong>
+<div><a href="create-orchestrated-campaign.md"><strong>Creación de una campaña organizada</strong>
 </div>
 <p>
 </td>
@@ -100,7 +100,7 @@ Ahora que comprende lo que son las campañas orquestadas, es hora de profundizar
 <img alt="Poco frecuente" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
-<a href="activities/about-activities.md"><strong>Trabajar con actividades</strong></a>
+<a href="activities/about-activities.md"><strong>Trabajo con actividades</strong></a>
 </div>
 <p></td>
 </tr></table>

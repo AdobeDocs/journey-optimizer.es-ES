@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Uso de la actividad Change dimension
-description: Aprenda a utilizar la actividad de la dimensión Cambiar
+title: Uso de la actividad Cambiar dimensión
+description: Aprenda a utilizar la actividad Cambiar dimensión
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 23%
+ht-degree: 88%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 23%
 >title="Actividad cambiar dimensión"
 >abstract="Esta actividad le permite cambiar la dimensión de segmentación a medida que genera un público. Desplace el eje en función de la plantilla de datos y la dimensión de entrada. Por ejemplo, puede cambiar de la dimensión “contratos” a la dimensión “clientes”."
 
-+++ Tabla de contenido
++++ Índice
 
-| Bienvenido a campañas orquestadas | Inicio de su primera campaña organizada | Consultar la base de datos | Actividades de las campañas organizadas |
+| Bienvenido a las campañas organizadas | Inicio de su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
 |---|---|---|---|
-| [Empiece a usar las campañas orquestadas](../gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](../gs-schemas.md)</li><li>[Esquema manual](../manual-schema.md)</li><li>[Esquema de carga de archivos](../file-upload-schema.md)</li><li>[Ingesta de datos](../ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](../access-manage-orchestrated-campaigns.md) | [Pasos clave para crear una campaña orquestada](../gs-campaign-creation.md)<br/><br/>[Cree y programe las actividades de la campaña](../create-orchestrated-campaign.md)<br/><br/>[Organice las actividades](../orchestrate-activities.md)<br/><br/>[Inicie y supervise la campaña](../start-monitor-campaigns.md)<br/><br/>[Creación de informes](../reporting-campaigns.md) | [Trabaje con el generador de reglas](../orchestrated-rule-builder.md)<br/><br/>[Cree su primera consulta](../build-query.md)<br/><br/>[Edite expresiones](../edit-expressions.md)<br/><br/>[Redireccionamiento](../retarget.md) | [Empiece con las actividades](about-activities.md)<br/><br/>Actividades:<br/>[Y únase](and-join.md) - [Generar audiencia](build-audience.md) - <b>[Cambiar dimensión](change-dimension.md)</b> - [Actividades de canal](channels.md) - [Combinar](combine.md) - [Anulación de duplicación](deduplication.md) - [Enriquecimiento](enrichment.md) - [Bifurcación](fork.md) - [Reconciliación](reconciliation.md) - [Guardar](save-audience.md) - [División](split.md) [Espera](wait.md) |
+| [Empiece a usar las campañas orquestadas](../gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](../gs-schemas.md)</li><li>[Esquema manual](../manual-schema.md)</li><li>[Esquema de carga de archivos](../file-upload-schema.md)</li><li>[Ingesta de datos](../ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](../access-manage-orchestrated-campaigns.md) | [Pasos clave para crear una campaña organizada](../gs-campaign-creation.md)<br/><br/>[Creación y programación de las campañas](../create-orchestrated-campaign.md)<br/><br/>[Organización de actividades](../orchestrate-activities.md)<br/><br/>[Inicio y monitorización de las campañas](../start-monitor-campaigns.md)<br/><br/>[Creación de informes](../reporting-campaigns.md) | [Trabajo con el generador de reglas](../orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](../build-query.md)<br/><br/>[Edición de expresiones](../edit-expressions.md)<br/><br/>[Resegmentación](../retarget.md) | [Introducción a las actividades](about-activities.md)<br/><br/>Actividades:<br/>[AND-join](and-join.md) - [Generar público](build-audience.md) - <b>[Cambiar dimensión](change-dimension.md)</b> - [Actividades del canal](channels.md) - [Combinar](combine.md) - [Deduplicación](deduplication.md) - [Enriquecimiento](enrichment.md) - [Bifurcación](fork.md) - [Reconciliación](reconciliation.md) - [Guardar público](save-audience.md) - [División](split.md) - [Esperar](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -46,32 +46,32 @@ El contenido de esta página no es definitivo y puede estar sujeto a cambios.
 
 >[!ENDSHADEBOX]
 
-Como especialista en marketing, puede mejorar la segmentación de audiencia cambiando de una entidad de datos a una relacionada dentro de una campaña orquestada. Esto le permite ir más allá de los perfiles de usuario y centrarse en comportamientos específicos, como compras, reservas u otras interacciones.
+Como experto en marketing, puede mejorar la segmentación de público cambiando de una entidad de datos a una relacionada dentro de una campaña organizada. Esto le permite ir más allá de los perfiles de usuario y centrarse en comportamientos específicos, como compras, reservas u otras interacciones.
 
-Para lograrlo, use la actividad **[!UICONTROL Cambiar dimensión]**. Permite ajustar la dimensión de segmentación durante la campaña orquestada.
+Para lograrlo, use la actividad **[!UICONTROL Cambiar dimensión]**. Permite ajustar la dimensión de segmentación durante la campaña organizada.
 
 <!--
 >[!IMPORTANT]
 >
 >Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.-->
 
-## Configuración de la actividad Change dimension {#configure}
+## Configuración de la actividad Cambiar dimensión {#configure}
 
 Siga estos pasos para configurar la actividad **[!UICONTROL Cambiar dimensión]**:
 
-1. Agregue una actividad **[!UICONTROL Change dimension]** a su campaña orquestada.
+1. Añada una actividad **[!UICONTROL Cambiar dimensión]** a su campaña organizada.
 
    ![](../assets/orchestrated-change-dimension.png)
 
-1. Defina **[!UICONTROL Nueva dimensión de destino]**. Durante el cambio de dimensión, se guardan todos los registros.
+1. Defina la **[!UICONTROL Nueva dimensión de público destinatario]**. Se guardan todos los registros durante el cambio de dimensión.
 
 
 ## Ejemplo {#example}
 
-Este caso de uso se centra en enviar un SMS a perfiles que han creado una lista de deseos durante el mes pasado.
+Este caso de uso se centra en enviar un SMS a los perfiles que hayan creado una lista de deseos durante el mes pasado.
 
-Comience con una actividad **[!UICONTROL Generar audiencia]**, usando la dimensión de segmentación **[!UICONTROL Wishlist]** para identificar todas las listas de deseos relevantes.
+Comience con la actividad **[!UICONTROL Generarr público]**, usando la dimensión de segmentación **[!UICONTROL Lista de deseos]** para identificar todas las listas de deseos relevantes.
 
-A continuación, agregue una actividad **[!UICONTROL Change dimension]** para cambiar la dimensión de segmentación de **[!UICONTROL Wishlist]** a **[!UICONTROL Destinatario].** Este paso garantiza que los objetivos de la campaña orquestada sean los perfiles correctos vinculados a esas listas de deseos, lo que permite enviar el SMS a los perfiles deseados.
+A continuación, añada la actividad **[!UICONTROL Cambiar dimensión]** para cambiar la dimensión de segmentación de **[!UICONTROL Lista de deseos]** a **[!UICONTROL Destinatarios].** Este paso garantiza que los objetivos de la campaña organizada sean los perfiles correctos vinculados a esas listas de deseos, lo que permite enviar el SMS a los perfiles deseados.
 
 ![](../assets/orchestrated-change-dimension-example.png)
