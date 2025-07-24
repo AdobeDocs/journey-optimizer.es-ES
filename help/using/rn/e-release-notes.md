@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
+source-git-commit: 085a86b0869a10536300329acc27914f12be6d7b
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '924'
 ht-degree: 17%
 
 ---
@@ -82,7 +82,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tr>
 <td>
 <p>Ahora puede agregar directivas de Decisión a recorridos de correo electrónico y campañas. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de decisión para devolver dinámicamente el mejor contenido para entregar a cada miembro de la audiencia.</p>
-<p>Esta capacidad solo está disponible para un conjunto de organizaciones. Actualmente no está disponible para su uso con Healthcare Shield y con Privacy and Security Shield (disponibilidad limitada).</p>
+<p>Actualmente, esta capacidad no está disponible para su uso con Healthcare Shield ni con Privacy and Security Shield (disponibilidad limitada).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
