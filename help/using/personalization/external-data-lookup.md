@@ -8,17 +8,17 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: a600af73bd85d525bc1320d0aa6193660331e452
+exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
+source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1198'
 ht-degree: 1%
 
 ---
 
-
 # Ayuda de búsqueda de datos externos
 
-El asistente de `externalDataLookup` en el editor de personalización de [!DNL Journey Optmizer] se puede usar para recuperar dinámicamente datos de un extremo externo para usarlos en la generación de contenido para canales entrantes como la experiencia basada en código y los canales de mensajes web y en la aplicación.
+El asistente de `externalDataLookup` en el editor de personalización de [!DNL Journey Optimizer] se puede usar para recuperar dinámicamente datos de un extremo externo para usarlos en la generación de contenido para canales entrantes como la experiencia basada en código y los canales de mensajes web y en la aplicación.
 
 >[!AVAILABILITY]
 >
@@ -35,14 +35,14 @@ Una vez definida la acción, se puede utilizar tanto:
 
 Consulte también Acciones personalizadas en [!DNL Journey Optimizer] canales entrantes, campañas y Recorridos #GuardrailsandGuidelines.
 
-* De manera predeterminada, [!DNL Journey Optimizer] usa un tiempo de espera de 300 ms al llamar a un extremo externo. Póngase en contacto con el departamento de ingeniería de [!DNL Journey Optimizer] para aumentar este tiempo de espera para un extremo.
-* En el Editor de Personalization, [!DNL Journey Optimizer] no permite examinar el esquema de la respuesta del extremo al insertar expresiones y no valida referencias a atributos JSON de la respuesta utilizada en expresiones.
-* Los tipos de datos admitidos para los parámetros de variable de carga útil que se sustituirán mediante el asistente externalDataLookup son String, Integer, Decimal, Boolean, listString, listInt, listInteger, listDecimal.
-* Los cambios en una configuración de acción no se reflejan en las llamadas externas DataLookup correspondientes en campañas y recorridos activos. Para que se refleje un cambio, debe copiar o modificar cualquier campaña o recorrido activo que utilice la acción en un asistente de DataLookup externo.
-* Aún no se admite el uso de variables dentro de los parámetros de ayuda de búsqueda de datos externos.
-* Actualmente no se admite la ruta de URL dinámica.  - Mejoras en las acciones personalizadas de entrada#DynamicPathSegments.
-* Se admite el procesamiento en varias pasadas.
-* El asistente externalDataLookup no admite actualmente las opciones de autenticación en la configuración de acción. Mientras tanto, para la autenticación basada en claves de API u otras claves de autorización de texto sin formato, puede especificarlas como campos de encabezado en la configuración de acción.
+* **Tiempo de espera predeterminado**: de manera predeterminada, [!DNL Journey Optimizer] utiliza un tiempo de espera de 300 ms al llamar a un extremo externo. Póngase en contacto con su representante de Adobe para aumentar este tiempo de espera para un punto final.
+* **Exploración del esquema de respuesta y validación de expresiones**: en el editor de personalización, no se puede examinar el esquema de la respuesta del extremo al insertar expresiones. [!DNL Journey Optimizer] no valida las referencias a atributos JSON de la respuesta utilizada en las expresiones.
+* **Tipos de datos admitidos para los parámetros**: los tipos de datos admitidos para los parámetros de variable de carga útil que se sustituirán mediante el asistente externalDataLookup son `String`, `Integer`, `Decimal`, `Boolean`, `listString`, `listInt`, `listInteger`, `listDecimal`.
+* **Actualización automática para acciones actualizadas**: los cambios en una configuración de acción no se reflejan en las llamadas externalDataLookup correspondientes de campañas y recorridos activos. Para que se refleje un cambio, debe copiar o modificar cualquier campaña o recorrido activo que utilice la acción en un asistente de DataLookup externo.
+* **Sustitución de variables**: por ahora, el uso de variables no es compatible con los parámetros de ayuda externalDataLookup.
+* **Ruta dinámica**: por ahora, no se admite la ruta dinámica de URL.
+* **Procesamiento de varias pasadas**: se admite el procesamiento de varias pasadas.
+* **Autenticación**: por ahora, el asistente externalDataLookup no admite las opciones de autenticación de la configuración de acción. Mientras tanto, para la autenticación basada en claves de API u otras claves de autorización de texto sin formato, puede especificarlas como campos de encabezado en la configuración de acción.
 
 ## Configurar una acción y utilizar el asistente
 
@@ -102,15 +102,21 @@ Nombres de parámetros:
 
 Por ejemplo:
 
-`{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
+{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
 
 Los valores de parámetro pueden ser valores fijos o pueden personalizarse haciendo referencia a campos de perfil u otros atributos contextuales, por ejemplo:
 
-`{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}`
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}
+```
 
 Los parámetros de carga útil se pueden proporcionar utilizando la notación de puntos para hacer referencia a atributos JSON anidados, por ejemplo:
 
-`{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}`
+```
+{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}
+```
 
 ### Acceso al resultado
 
@@ -174,7 +180,9 @@ Si desea gestionar los tiempos de espera o los errores de forma más correcta mo
 
 Por ejemplo, puede mostrar un valor de reserva para un único atributo como este:
 
-`First video description: {%=result.videos[0].description ?: "none found" %}`
+```
+First video description: {%=result.videos[0].description ?: "none found" %}
+```
 
 o puede procesar condicionalmente un bloque entero de contenido como este:
 
@@ -196,7 +204,7 @@ Por ejemplo:
 
 En la sección Edge Delivery del seguimiento de seguridad como parte de los detalles de ejecución, se ha agregado un nuevo bloque customActions con detalles de solicitud y respuesta similares al de abajo. La sección de errores debe ayudar con la depuración si hubo algún problema al ejecutar la acción personalizada
 
-![](assets/external-data-troubleshoot.png)
+![](assets/external-data-troubleshoot.png "width=50%")
 
 ## Preguntas frecuentes
 
@@ -204,7 +212,9 @@ En la sección Edge Delivery del seguimiento de seguridad como parte de los deta
 
   Utilice el menú Atributos contextuales > Flujo de datos > Evento para examinar el esquema de Experience Event que está utilizando e insertar el atributo relevante como valor de parámetro como este:
 
-  `{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}`
+  ```
+  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+  ```
 
 * ¿Hace [!DNL Journey Optimizer] almacenamiento en caché de las respuestas de extremo externo?
 
