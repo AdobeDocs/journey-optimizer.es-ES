@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Notas previas al lanzamiento de Journey Optimizer
-description: Notas de la versión preliminar de Journey Optimizer
+description: Notas de la versión preliminar de Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f74ef3dfe8ceb504ace425cf4e701c9733373c2f
+source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 19%
+source-wordcount: '933'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 19%
 **Las notas anteriores al lanzamiento que se indican a continuación están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento**. Los vínculos, las pantallas y la documentación actualizada se publican en las [notas de la versión](release-notes.md) y en la fecha.
 
 
-## Notas de la versión anteriores de julio de 2025 {#25-7-rn}
+## Notas de la versión preliminar de julio de 2025 {#25-7-rn}
 
 
 **Las notas anteriores al lanzamiento que se indican a continuación están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento**. Los vínculos, las pantallas y la documentación actualizada se publican en la fecha de la versión.
@@ -118,6 +118,12 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tr>
 <td>
 <p>Ahora, Journey Optimizer le ofrece las herramientas necesarias para ofrecer contenido personalizado y optimizado a la audiencia de sus campañas, lo que le permite ejecutar experimentos de contenido, crear objetivos basados en reglas y utilizar combinaciones avanzadas de ambos para maximizar la eficacia de sus campañas.</p>
+<p>Con Optimización, puede:</p>
+<ul>
+<li>Ejecución de experimentos de contenido</li>
+<li>Aprovechamiento de reglas de segmentación</li>
+<li>Utilice combinaciones avanzadas de experimentación y segmentación dentro de una sola campaña</li></ul>
+<P>Una vez que la campaña está activa, los perfiles se evalúan según los criterios definidos y, según los criterios coincidentes, se envían con la experiencia o el contenido adecuados de la campaña.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,7 +164,6 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <li>La capacidad de ver borradores de campañas si ha establecido una fecha de inicio y de finalización</li>
 <li>Una nueva configuración para ocultar y mostrar los elementos de calendario que se ejecutan durante mucho tiempo</li>
 </ul>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
