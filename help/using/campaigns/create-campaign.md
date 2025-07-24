@@ -10,15 +10,20 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 7%
+source-wordcount: '139'
+ht-degree: 5%
 
 ---
 
 
 # Trabajo con campañas de acción {#gs-action-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_action"
+>title="Campañas de acción"
+>abstract="**IU guiada para crear y enviar una campaña**<br/> Establece una o varias acciones con un canal, elige una audiencia, establece un contenido, define una programación y estarás listo para enviar <br/><br/>**Canales disponibles**<br/> Correo electrónico, SMS, notificaciones push, En la aplicación, Web, experiencias basadas en código"
 
 ## Acerca de las campañas de acción {#about}
 
@@ -39,4 +44,4 @@ Las campañas de acción (o campañas programadas) permiten comunicaciones por l
 
 Obtenga información sobre cómo crear una campaña de acción.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412402?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

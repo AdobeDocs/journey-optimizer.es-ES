@@ -7,14 +7,21 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: bd5239b177954d6e5d83f4b08e7d79819c102485
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 20%
+source-wordcount: '540'
+ht-degree: 19%
 
 ---
 
 # Introducción a las campañas organizadas {#orchestrated-camp}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_orchestrated"
+>title="Campañas organizadas"
+>abstract="**Organización de campaña**<br/> Divida, combine, enriquezca y manipule conjuntos de datos relacionales para definir su audiencia<br/><br/>
+
+**Aproveche los datos de varias entidades**<br/> Descubra cómo las campañas orquestadas pueden aprovechar los conjuntos de datos relacionales para enriquecer los datos para la segmentación y personalización <br/><br/>**Segmentación ad hoc y recuentos exactos**<br/> Cree su segmento paso a paso con recuentos exactos <br/><br/>**Canales disponibles**<br/> Correo electrónico, SMS, notificaciones push, Correo directo&quot;
 
 +++ Índice
 
