@@ -262,7 +262,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <td>
 <p>Utilice las campañas de Journey Optimizer para ofrecer contenido único a un público específico mediante varios canales. Cuando se utilizan recorridos, las acciones están diseñadas para ejecutarse en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Obtenga información sobre cómo crear una campaña en <a href="../campaigns/get-started-with-campaigns.md">documentación detallada</a> y <a href="https://video.tv.adobe.com/v/346680">vídeo de funciones</a>.
+<p>Obtenga información sobre cómo crear una campaña en <a href="../campaigns/get-started-with-campaigns.md">documentación detallada</a> y <a href="https://video.tv.adobe.com/v/3412402?captions=spa">vídeo de funciones</a>.
 </td>
 </tr>
 </tbody>
