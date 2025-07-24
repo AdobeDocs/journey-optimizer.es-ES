@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 516eb24a1f089d2fba1585e6b03e1d912b110d3c
+source-git-commit: 4f881bfc32a5f168a93b51c9a69398881790050c
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 19%
+source-wordcount: '539'
+ht-degree: 18%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
->title="Campañas organizadas"
->abstract="<b>Organización de campaña</b><br/>Divida, combine, enriquezca y manipule conjuntos de datos relacionales para definir su audiencia<br/><br/>"
+>title="campaigns_overview_orchestrated"
+>abstract="<b>Organización de campaña</b><br/>Divida, combine, enriquezca y manipule conjuntos de datos relacionales para definir su audiencia<br/><br/>
 
 <b>Aproveche los datos de varias entidades</b><br/>Descubra cómo las campañas orquestadas pueden aprovechar los conjuntos de datos relacionales para enriquecer los datos para la segmentación y personalización<br/><br/><b>Segmentación ad hoc y recuentos exactos</b><br/>Cree su segmento paso a paso con recuentos exactos<br/><br/><b>Canales disponibles</b><br/>Correo electrónico, SMS, notificaciones push, Correo directo&quot;
 
