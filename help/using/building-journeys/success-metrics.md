@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: f8f07c27dc7e2ef223972e9044042c60e6dca4c8
+source-git-commit: f26083c222efa71176ce5c78f5f35f2c208240e6
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 6%
@@ -32,7 +32,7 @@ La lista de métricas varía según los [grupos de campos](https://experiencelea
 
 Si el conjunto de datos no está configurado, solo estarán disponibles las métricas siguientes: **[!UICONTROL Clic]**, **[!UICONTROL Clic único]**, **[!UICONTROL Tasa de clics]** y **[!UICONTROL Tasa de apertura]**.
 
-Tenga en cuenta que con una licencia de Customer Journey Analytics puede crear métricas de éxito personalizadas. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Tenga en cuenta que con una licencia de Customer Journey Analytics puede crear métricas de éxito personalizadas. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | Métricas | Grupo de campos relacionado |
@@ -69,7 +69,7 @@ Cada métrica viene con una atribución de conjunto que determina qué puntos de
 
   Con las licencias de Journey Optimizer y Customer Journey Analytics, puede crear métricas personalizadas con configuraciones de atribución específicas o cambiar las atribuciones de las métricas integradas.
 
-  Más información sobre [modelos de atribución](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  Más información sobre [modelos de atribución](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Asignar las métricas de recorrido {#assign}
 
@@ -100,3 +100,4 @@ Para empezar a rastrear las métricas de recorridos, siga los pasos descritos a 
    Las métricas seleccionadas se muestran en la tabla KPI y estadísticas de Recorrido del informe.
 
    ![](assets/success_metric_2.png)
+
