@@ -11,10 +11,10 @@ keywords: modo oscuro, correo electrónico, color, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
+source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 8%
+source-wordcount: '1674'
+ht-degree: 9%
 
 ---
 
@@ -209,13 +209,13 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 
 ## Clientes de correo electrónico que admiten el modo oscuro {#supporting-email-clients}
 
-A continuación se muestra una lista de los principales clientes de correo electrónico que admiten el modo oscuro. Sin embargo, algunas versiones de los clientes de correo electrónico enumerados no admiten el modo oscuro, por lo que también se presentan en esta tabla para mayor claridad y precisión.
+A continuación se muestra una lista de los principales clientes de correo electrónico que admiten el modo oscuro.
 
->[!WARNING]
+>[!NOTE]
 >
->El procesamiento final del modo oscuro depende de cada cliente de correo electrónico, por lo que los resultados pueden variar de uno a otro. Para ver una simulación lo más parecida posible al resultado final de cada cliente de correo electrónico, use la opción [Procesamiento de correo electrónico](../content-management/rendering.md).
+>Algunas versiones de estos clientes de correo electrónico no admiten el modo oscuro, por lo que también se presentan en esta tabla para mayor claridad.
 
-| Clientes de correo electrónico que admiten el modo oscuro | Versiones compatibles | Versiones no admitidas |
+| Clientes de correo electrónico que admiten el modo oscuro | Versiones compatibles | *Versiones no admitidas* |
 |---------|----------|---------|
 | Apple Mail macOS | 12.4, 16.0 | *10.3* |
 | Apple Mail iOS | 13.0, 16.1 | *12.2* |
@@ -237,13 +237,17 @@ A continuación se muestra una lista de los principales clientes de correo elect
 | WEB.DE (iOS y Android) | 06-2022 | NA |
 | Free.fr | 12-2022 | NA |
 
+>[!WARNING]
+>
+>El procesamiento final del modo oscuro depende de cada cliente de correo electrónico, por lo que los resultados pueden variar de uno a otro.
+
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
 
 * Learn more on Dark mode in this [Litmus blog post](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers){target="_blank"}
 -->
 
-## Clientes de correo electrónico que NO admiten el modo oscuro {#non-supporting-email-clients}
+## Clientes de correo electrónico que no admiten el modo oscuro {#non-supporting-email-clients}
 
 Algunos clientes de correo electrónico permiten a los usuarios cambiar su interfaz al modo oscuro, pero esta configuración no afecta a cómo se muestran los correos electrónicos de HTML. Independientemente de si la interfaz está en modo claro u oscuro, el correo electrónico procesará lo mismo. Esta es una lista de esos clientes:
 
