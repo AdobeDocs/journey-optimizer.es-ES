@@ -19,7 +19,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="Campañas organizadas"
->abstract="**Organización de campaña**<br/> Divida, combine, enriquezca y manipule conjuntos de datos relacionales para definir su audiencia<br/><br/>
+>abstract="**Organización de campaña**<br/> Divida, combine, enriquezca y manipule conjuntos de datos relacionales para definir su audiencia<br/><br/>"
 
 **Aproveche los datos de varias entidades**<br/> Descubra cómo las campañas orquestadas pueden aprovechar los conjuntos de datos relacionales para enriquecer los datos para la segmentación y personalización <br/><br/>**Segmentación ad hoc y recuentos exactos**<br/> Cree su segmento paso a paso con recuentos exactos <br/><br/>**Canales disponibles**<br/> Correo electrónico, SMS, notificaciones push, Correo directo&quot;
 
