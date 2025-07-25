@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: aterrizaje, página de aterrizaje, subdominios, configuración
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 19%
@@ -80,11 +80,11 @@ Para utilizar un subdominio que ya se haya delegado a Adobe, siga los pasos a co
 
    >[!CAUTION]
    >
-   >Si selecciona un dominio delegado a Adobe mediante el [método CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation), debe crear el registro DNS en su plataforma de alojamiento. Para generar el registro DNS, el proceso es el mismo que al configurar un nuevo subdominio de página de aterrizaje. Aprenda en [esta sección](#lp-configure-new-subdomain).
+   >Si selecciona un dominio delegado a Adobe mediante el [método CNAME](../configuration/delegate-subdomain.md#cname-subdomain-setup), debe crear el registro DNS en su plataforma de alojamiento. Para generar el registro DNS, el proceso es el mismo que al configurar un nuevo subdominio de página de aterrizaje. Aprenda en [esta sección](#lp-configure-new-subdomain).
 
 1. Haga clic en **[!UICONTROL Enviar]**.
 
-1. Una vez enviado, el subdominio se muestra en la lista con el estado **[!UICONTROL Procesando]**. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Una vez enviado, el subdominio se muestra en la lista con el estado **[!UICONTROL Procesando]**. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
 
    ![](assets/lp_subdomain-processing.png)
 
@@ -129,7 +129,7 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
 
    Al configurar un nuevo subdominio de página de aterrizaje, siempre apunta a un registro CNAME.
 
-1. Una vez enviada la delegación del subdominio, este se muestra en la lista con el estado **[!UICONTROL Procesando]**. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Una vez enviada la delegación del subdominio, este se muestra en la lista con el estado **[!UICONTROL Procesando]**. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
 
    Antes de poder usar ese subdominio en sus páginas de aterrizaje, debe esperar hasta que Adobe realice las comprobaciones necesarias, que pueden tardar **hasta cuatro horas**.<!--Learn more in [this section](#subdomain-validation).-->
 
@@ -147,7 +147,7 @@ Si desea desdelegar un subdominio de página de aterrizaje, siga los pasos a con
 
    >[!NOTE]
    >
-   >Un subdominio de página de aterrizaje puede señalar a un registro CNAME porque era un [subdominio existente](#lp-use-existing-subdomain) delegado a Adobe mediante el [método CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation) o un [nuevo subdominio de página de aterrizaje](#lp-configure-new-subdomain) que usted configuró.
+   >Un subdominio de página de aterrizaje puede señalar a un registro CNAME porque era un [subdominio existente](#lp-use-existing-subdomain) delegado a Adobe mediante el [método CNAME](../configuration/delegate-subdomain.md#cname-subdomain-setup) o un [nuevo subdominio de página de aterrizaje](#lp-configure-new-subdomain) que usted configuró.
 
 1. Póngase en contacto con el representante de Adobe con el subdominio que desee desdelegar.
 

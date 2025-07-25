@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdominio, google, txt, registro, gmail, envío
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 30%
@@ -29,7 +29,7 @@ Para garantizar una entrega óptima y una entrega correcta de correos electróni
 
 >[!CAUTION]
 >
-> Esta operación solo se puede realizar una vez que un subdominio tenga el estado **[!UICONTROL Success]**. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](about-subdomain-delegation.md#access-delegated-subdomains).
+> Esta operación solo se puede realizar una vez que un subdominio tenga el estado **[!UICONTROL Success]**. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](delegate-subdomain.md#access-delegated-subdomains).
 
 Para agregar un registro TXT de Google al subdominio, siga estos pasos:
 
