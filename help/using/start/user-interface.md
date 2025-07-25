@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
-source-wordcount: '1716'
+source-git-commit: 1b402e8c8a5dbff84dbd362181d6168fe85de6b5
+workflow-type: tm+mt
+source-wordcount: '1671'
 ht-degree: 100%
 
 ---
@@ -328,17 +328,6 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 >id="ajo_exd_decision_attribute"
 >title="Seleccionar atributos de decisión del catálogo"
 >abstract="Los atributos de decisión se almacenan en el esquema del catálogo. Seleccione un atributo que desee utilizar aquí desde el catálogo seleccionado."
-
->[!CONTEXTUALHELP]
->id="ajo_exd_decision_policy"
->title="Política de decisión"
->abstract="Una política de decisión permite elegir los mejores elementos del motor de decisión y enviarlos a cada público."
-
->[!CONTEXTUALHELP]
->id="ajo_exd_placements"
->title="Ubicación"
->abstract="Una ubicación determina dónde aparecen los elementos devueltos por el motor de decisión en un mensaje. Puede realizar un seguimiento de su rendimiento en diferentes ubicaciones en la creación de informes."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_simulation"
