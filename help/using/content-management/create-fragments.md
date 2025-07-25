@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 14%
+source-wordcount: '755'
+ht-degree: 13%
 
 ---
 
@@ -78,6 +78,10 @@ Después de configurar las propiedades del fragmento, se abre Email Designer o e
 * Para los fragmentos de expresiones, aproveche el editor de personalización [!DNL Journey Optimizer] con todas sus capacidades de personalización y creación para generar el contenido del fragmento. [Más información](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
+
+>[!NOTE]
+>
+>Cuando el seguimiento está habilitado en un recorrido o una campaña, si agrega vínculos a un fragmento y este se utiliza en un correo electrónico, se realiza el seguimiento de estos vínculos, como todos los demás vínculos incluidos en el mensaje. [Más información sobre vínculos y seguimiento](../email/message-tracking.md)
 
 Cuando el contenido esté listo, haz clic en el botón **[!UICONTROL Guardar]**.
 
