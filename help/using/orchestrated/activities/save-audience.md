@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 67%
+source-wordcount: '466'
+ht-degree: 52%
 
 ---
 
@@ -54,11 +54,13 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Guardar público]**:
 
 1. Escriba una **[!UICONTROL etiqueta de público]** que identifique el público guardado.
 
-1. Haga clic en **[!UICONTROL Añadir atributos del público]** para definir cómo se estructuran y almacenan estos datos para reutilizarlos en el futuro.
+1. Elija un **[!UICONTROL campo de asignación de perfil]** en su dimensión de segmentación de campaña.
+
+   ➡️ [Siga los pasos detallados en esta página para crear su dimensión de segmentación de campaña](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 
-1. A continuación, seleccione el **[!UICONTROL Campo de identidad principal]** y el **[!UICONTROL Espacio de nombres de identidad]** adecuados para garantizar una resolución precisa del perfil.
+1. Haga clic en **[!UICONTROL Agregar asignaciones de audiencia]** si desea asociar la audiencia guardada con campos de identidad adicionales.
 
    ![](../assets/save-audience-2.png)
 
@@ -66,10 +68,8 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Guardar público]**:
 
 El contenido del público guardado queda disponible en la vista de detalles, al que puede acceder desde el menú **[!UICONTROL públicos]**.
 
-![](../assets/save-audience-3.png)
-
 ## Ejemplo {#save-audience-example}
 
-En el siguiente ejemplo se muestra cómo crear un público simple mediante la segmentación. Una consulta identifica todos los perfiles que realizaron una compra en los últimos 30 días. A continuación, la actividad **[!UICONTROL Guardar público]** captura estos perfiles para crear un público reutilizable de compradores recientes.
+En el siguiente ejemplo se muestra cómo crear un público simple mediante la segmentación. Una consulta identifica a todos los destinatarios que reservaron un viaje en los últimos 30 días filtrando esta población dentro de la campaña orquestada. Al elegir **Destinatarios - CRMID** como **dimensión de segmentación**, la audiencia se dirige a cada evento de reserva individual en lugar de solo al destinatario en su conjunto. A continuación, la actividad **[!UICONTROL Guardar público]** captura estos perfiles para crear un público reutilizable de compradores recientes.
 
-![](../assets/save-audience-4.png)
+![](../assets/save-audience-3.png)

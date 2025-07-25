@@ -6,7 +6,7 @@ description: Obtenga información sobre cómo asignar un esquema relacional al p
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 70d397614dc0e5b5ce94cc4221a28d47dc9b476d
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 11%
@@ -58,7 +58,7 @@ Comience por configurar la orquestación de campañas asignando un esquema relac
 
    En este ejemplo, el perfil del cliente está vinculado a varias suscripciones, cada una representada por un único `crmID` en el esquema `Recipient`. Al configurar **[!UICONTROL Target Dimension]** para que use el esquema `Recipient` y su identidad `crmID`, puede enviar mensajes en el nivel de suscripción, en lugar de al perfil de cliente principal, asegurándose de que cada contrato o línea reciba su propio mensaje personalizado.
 
-   [Más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#identity).
+   [Más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity).
 
    ![](assets/target-dimension-2.png)
 
@@ -108,4 +108,4 @@ Después de configurar tu **[!UICONTROL Dimension de Target]**, debes configurar
 
 1. Una vez configurada, haga clic en **[!UICONTROL Enviar]**.
 
-El canal ya está listo para usarse con Campañas orquestadas, y los mensajes se enviarán según la dimensión de destino seleccionada.
+El canal está listo para usarse con **Campañas orquestadas**, y los mensajes se enviarán de acuerdo con la dimensión de destino seleccionada.
