@@ -11,7 +11,7 @@ keywords: subdominio, delegación, dominio, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 20%
@@ -124,10 +124,9 @@ Para configurar un subdominio personalizado, siga los pasos a continuación.
    >
    >Asegúrese de que todos los registros se hayan creado correctamente antes de continuar.
 
-   Adobe genera un registro de validación de URL de CDN SSL. Copie este registro de validación en la plataforma de alojamiento. Si ha creado correctamente este registro en su solución de alojamiento, marque la casilla &quot;Confirmo...&quot;.
+1. Adobe genera un registro de validación de URL de CDN SSL. Copie este registro de validación en la plataforma de alojamiento. Si ha creado correctamente este registro en su solución de alojamiento, marque la casilla &quot;Confirmo...&quot;.
 
-1. Haga clic en **[!UICONTROL Enviar]** para que Adobe realice las comprobaciones necesarias. [Más información](#submit-subdomain)
-
+1. Haga clic en **[!UICONTROL Enviar]** para que Adobe realice las comprobaciones necesarias. [Más información](delegate-subdomain.md#submit-subdomain)
 
 ## Lista de comprobación de resolución de problemas {#check-list}
 
@@ -138,4 +137,3 @@ Si se producen errores al intentar enviar el subdominio personalizado, realice l
 * Compruebe que el certificado cumple todos los requisitos técnicos antes de cargarlo.
 
 * Asegúrese de que el certificado se ha cargado en el formato correcto.
-
