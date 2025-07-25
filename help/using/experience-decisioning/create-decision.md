@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 12040f4c94f01d116051da360cad4ca34a26f8e2
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 11%
+source-wordcount: '1841'
+ht-degree: 15%
 
 ---
 
@@ -23,9 +23,19 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
->title="Definir una directiva de decisión"
->abstract="Una política de decisión le permite elegir los mejores elementos del motor de decisión y enviarlos a la audiencia adecuada."
+>title="Definición de una política de decisión"
+>abstract="Una política de decisión le permite elegir los mejores elementos del motor de decisión y enviarlos al público adecuado."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Acerca de la toma de decisiones"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_policy"
+>title="Política de decisión"
+>abstract="Una política de decisión permite elegir los mejores elementos del motor de decisión y enviarlos a cada público."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_placements"
+>title="Ubicación"
+>abstract="Una ubicación determina dónde aparecen los elementos devueltos por el motor de decisión en un mensaje. Puede realizar un seguimiento de su rendimiento en diferentes ubicaciones en la creación de informes."
 
 Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de decisión para elegir el mejor contenido que se ofrece, según la audiencia.
 
