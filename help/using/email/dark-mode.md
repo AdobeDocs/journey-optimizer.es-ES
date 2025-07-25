@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Cambiar a modo oscuro
 description: Aprenda a utilizar el modo oscuro en Email Designer
+badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
@@ -11,10 +12,10 @@ keywords: modo oscuro, correo electrónico, color, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 9%
+source-wordcount: '1677'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +35,10 @@ ht-degree: 9%
 >id="ac_edition_darkmode_preview"
 >title="Cambiar a modo oscuro"
 >abstract="Cambie al modo oscuro, donde puede obtener una vista previa de cómo se puede representar en los clientes de correo electrónico compatibles. <br>Precaución: la representación final depende del cliente de correo electrónico del destinatario. No todos los clientes de correo electrónico admiten el modo oscuro."
+
+>[!AVAILABILITY]
+>
+>Actualmente, esta función está en versión Beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con su representante de Adobe.
 
 Al diseñar los mensajes de correo electrónico, [!DNL Journey Optimizer] [Email Designer](get-started-email-design.md) le permite cambiar al **[!UICONTROL modo oscuro]**, donde puede definir configuraciones personalizadas específicas. Cuando el modo oscuro está activado, los clientes de correo electrónico de soporte mostrarán la configuración definida para este modo.
 
@@ -91,9 +96,10 @@ Para acceder al modo oscuro en Email Designer y obtener una previsualización de
 
 1. En la página de inicio de Email Designer, seleccione la opción **[!UICONTROL Diseñar desde cero]**. [Más información](content-from-scratch.md)
 
-   >[!NOTE]
-   >
-   >Actualmente es posible que no pueda cambiar al modo oscuro si selecciona una [plantilla de correo electrónico](use-email-templates.md) o si aplica un [tema](apply-email-themes.md).
+<!--Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
+    >[!NOTE]
+    >
+    >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).-->
 
 1. Agregue [estructuras](content-from-scratch.md) y [componentes de contenido](content-components.md) al contenido.
 
@@ -104,12 +110,8 @@ Para acceder al modo oscuro en Email Designer y obtener una previsualización de
 1. Se muestra la previsualización predeterminada del modo oscuro.
 
    ![](assets/dark-mode-default.png)
-<!--
-    >[!NOTE]
-    >
-    >Dark mode applies to all elements, except images and icons.-->
 
-De forma predeterminada, la previsualización en modo oscuro de Email Designer aplica el esquema de colores &quot;inversión de color completo&quot; a todos los elementos, excepto a las imágenes y los iconos. <!--It fully inverts all colors for all the elements (texts, buttons, etc.)-->
+De forma predeterminada, la previsualización en modo oscuro de Email Designer aplica el esquema de colores &quot;inversión de color completo&quot; a todos los elementos, excepto a las imágenes y los iconos.
 
 Significa que detecta áreas con elementos claros y oscuros y los invierte, de modo que los fondos claros se vuelven oscuros y el texto oscuro se vuelve claro, mientras que los fondos oscuros se vuelven claros y el texto claro se vuelve oscuro.
 
@@ -135,7 +137,7 @@ Para aprovechar el estilo de modo oscuro personalizado de Email Designer, Journe
 
 Para definir la configuración personalizada del modo oscuro, siga los pasos a continuación.
 
-1. Asegúrese de que **[!UICONTROL Modo oscuro]** esté habilitado en el Designer de correo electrónico. [Descubra cómo](#preview-dark-mode)
+1. Asegúrese de cambiar a la vista previa de **[!UICONTROL Modo oscuro]** en el Designer de correo electrónico. [Descubra cómo](#preview-dark-mode)
 
 1. Edite cualquier atributo de color de estilo, como texto, fondos, botones, etc.
 

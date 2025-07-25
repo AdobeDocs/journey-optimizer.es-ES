@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a750a64105cc3939d8d6e2c96e109d6a39e21a9e
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '2246'
-ht-degree: 66%
+source-wordcount: '2316'
+ht-degree: 63%
 
 ---
 
@@ -94,25 +94,6 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Actividad de decisión de contenido en los recorridos</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede incluir ofertas personalizadas en los recorridos mediante una actividad de decisión de contenido específica en el lienzo y utilizarlas en actividades de recorrido, incluidas las condiciones y las acciones personalizadas.</p>
-<img src="assets/do-not-localize/content-decision.gif">
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Optimización en campañas</strong><br/></th>
 </tr>
 </thead>
@@ -126,6 +107,29 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <li>Aprovechamiento de reglas de segmentación</li>
 <li>Utilice combinaciones avanzadas de experimentación y segmentación dentro de una sola campaña</li></ul>
 <P>Una vez que la campaña está activa, los perfiles se evalúan según los criterios definidos y, según los criterios coincidentes, se envían con la experiencia o el contenido adecuados de la campaña.</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Modo oscuro en el Designer de correo electrónico</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer Email Designer ahora permite cambiar a la vista en modo oscuro, donde además puede definir ajustes personalizados específicos que se mostrarán solo para los destinatarios que lean sus correos electrónicos en modo oscuro.</p>
+<p>Tenga en cuenta lo siguiente:</p>
+<ul>
+<li>El procesamiento final del modo oscuro puede variar y depende del cliente de correo electrónico del destinatario.</li>
+<li>No todos los clientes de correo electrónico admiten el modo oscuro personalizado. Además, algunos clientes de correo electrónico solo aplican su propio modo oscuro predeterminado a todos los correos electrónicos recibidos. En ambos casos, no se puede procesar la configuración personalizada que definió en el Designer de correo electrónico.</li>
+</ul>
+<P>Actualmente, esta función está en versión Beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con su representante de Adobe.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -205,10 +209,6 @@ Obtenga más información [en estas preguntas frecuentes](../building-journeys/e
 
 A continuación, se describen las mejoras incluidas en esta versión.
 
-- **Diseñador de correos electrónicos**
-   - Journey Optimizer Email Designer ahora permite cambiar a la vista en modo oscuro, donde también puede definir ajustes personalizados específicos. Tenga en cuenta que la renderización final depende del cliente de correo electrónico del destinatario. Además, no todos los clientes de correo electrónico admiten el modo oscuro.
-  <!-- [Read more](../FILE.md) -->
-
 - **Campañas**
    - **Descalificación de campañas basadas en reglas**: en las tarjetas de contenido, al editar reglas de entrega adicionales, la opción de reglas de entrega anteriores se ha reemplazado con tres tipos de reglas diferentes para controlar mejor el tiempo y la visibilidad de los mensajes:
       - Mostrar mensaje si: Condiciones que determinan cuándo se muestra la tarjeta de contenido.
@@ -237,6 +237,9 @@ A continuación, se describen las mejoras incluidas en esta versión.
    - **Pares de clave/valor en la aplicación**: con los mensajes en la aplicación, puede definir pares de clave y valor para incluir variables personalizadas en la carga útil del mensaje. Estos pares clave-valor le permiten pasar datos adicionales según su configuración específica y el caso de uso.
   <!-- [Read more](../FILE.md) -->
 
+- **Toma de decisiones**
+   - **API de herramientas de migración**: el equipo de Journey Optimizer está trabajando en las API de herramientas de migración para migrar entidades de administración de decisiones a Decisioning. Esta herramienta permite una migración perfecta entre entornos limitados con resolución de dependencia y funciones de reversión. Si está interesado, póngase en contacto con su representante de Adobe.
+
 
 ## Notas de la versión de junio de 2025 {#25-6-rn}
 
@@ -245,7 +248,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 **Fecha de lanzamiento**: 18 de junio de 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuevas funciones {#25-06-features}
 
