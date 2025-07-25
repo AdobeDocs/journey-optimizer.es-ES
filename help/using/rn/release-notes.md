@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: 1e9aaceb48335beb0c9a8ef037f758818c700dfa
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 63%
+source-wordcount: '2342'
+ht-degree: 62%
 
 ---
 
@@ -103,9 +103,12 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <p>Ahora, Journey Optimizer le ofrece las herramientas necesarias para ofrecer contenido personalizado y optimizado a la audiencia de sus campañas, lo que le permite ejecutar experimentos de contenido, crear objetivos basados en reglas y utilizar combinaciones avanzadas de ambos para maximizar la eficacia de sus campañas.</p>
 <p>Con Optimización, puede:</p>
 <ul>
-<li>Ejecución de experimentos de contenido</li>
-<li>Aprovechamiento de reglas de segmentación</li>
-<li>Utilice combinaciones avanzadas de experimentación y segmentación dentro de una sola campaña</li></ul>
+<li>Pruebe múltiples variaciones de contenido para identificar la mensajería más eficaz.</li>
+<li>Ofrezca contenido personalizado basado en atributos de usuario y datos contextuales.</li>
+<li>Combine segmentación y experimentación para estrategias de campaña avanzadas.</li>
+<li>Filtrar los usuarios que no coincidan con los criterios de variante.</li>
+<li>Garantizar mecanismos de reserva para mantener la participación del usuario.</li>
+</ul>
 <P>Una vez que la campaña está activa, los perfiles se evalúan según los criterios definidos y, según los criterios coincidentes, se envían con la experiencia o el contenido adecuados de la campaña.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -248,7 +251,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 **Fecha de lanzamiento**: 18 de junio de 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuevas funciones {#25-06-features}
 
