@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 38%
+source-wordcount: '426'
+ht-degree: 37%
 
 ---
 
@@ -61,11 +61,13 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Leer audiencia]**:
 
    ![](../assets/read-audience-2.png)
 
-1. Seleccione la **[!UICONTROL entidad]** utilizada para identificar perfiles de forma única en su audiencia.
+1. Elija una **[!UICONTROL Entidad&#x200B;]** de su dimensión de segmentación de campaña.
+
+   ➡️ [Siga los pasos detallados en esta página para crear su dimensión de segmentación de campaña](../target-dimension.md)
 
    ![](../assets/read-audience-3.png)
 
-1. Seleccione **[!UICONTROL Agregar atributo de perfil]** para enriquecer la audiencia seleccionada con datos adicionales. La audiencia resultante contendrá una lista de destinatarios, cada uno enriquecido con los atributos de perfil seleccionados.
+1. Seleccione **[!UICONTROL Agregar atributo]** para enriquecer la audiencia seleccionada con datos adicionales. La audiencia resultante contendrá una lista de destinatarios, cada uno enriquecido con los atributos de perfil seleccionados.
 
 1. Elija los **[!UICONTROL atributos]** que desee agregar a su audiencia.
 

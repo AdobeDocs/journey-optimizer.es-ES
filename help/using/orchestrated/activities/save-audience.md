@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 52%
+source-wordcount: '480'
+ht-degree: 45%
 
 ---
 
@@ -54,7 +54,7 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Guardar público]**:
 
 1. Escriba una **[!UICONTROL etiqueta de público]** que identifique el público guardado.
 
-1. Elija un **[!UICONTROL campo de asignación de perfil]** en su dimensión de segmentación de campaña.
+1. Elija un **[!UICONTROL campo de asignación de perfiles&#x200B;]** de su dimensión de segmentación de campañas.
 
    ➡️ [Siga los pasos detallados en esta página para crear su dimensión de segmentación de campaña](../target-dimension.md)
 
@@ -66,7 +66,10 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Guardar público]**:
 
 1. Finalice la configuración, guarde y publique la campaña organizada. Así se generará y almacenará su público.
 
-El contenido del público guardado queda disponible en la vista de detalles, al que puede acceder desde el menú **[!UICONTROL públicos]**.
+El contenido de la audiencia guardada está disponible en la vista de detalles de la audiencia, a la que se puede acceder desde el menú **[!UICONTROL Audiencias]**, o se puede seleccionar al segmentar una audiencia, por ejemplo, con una actividad **[!UICONTROL Leer audiencia]**.
+
+![](../assets/save-audience-4.png)
+
 
 ## Ejemplo {#save-audience-example}
 
