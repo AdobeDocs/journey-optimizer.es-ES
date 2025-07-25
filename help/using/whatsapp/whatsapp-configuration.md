@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: d71dfb4f791c48997e448147b414fede49023b91
+source-git-commit: 78da5e017b5e3f39be1b613713f131d35260992b
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 5%
@@ -76,7 +76,7 @@ Después de crear y configurar las credenciales de la API, debe crear una config
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="Categoría de palabra clave entrante"
->abstract="<br/><b>Inclusión</b>: envía la respuesta automática definida cuando un usuario se suscribe. <br/><b>Exclusión</b>: envía la respuesta automática definida cuando un usuario cancela la suscripción. <br/><b>Ayuda</b>: envía la respuesta automática definida cuando un usuario solicita ayuda o soporte técnico. <br/><b>Predeterminado</b>: envía su respuesta automática de reserva cuando no coinciden las palabras clave."
+>abstract="<b>Inclusión</b>: envía la respuesta automática definida cuando un usuario se suscribe. <br/><b>Exclusión</b>: envía la respuesta automática definida cuando un usuario cancela la suscripción. <br/><b>Ayuda</b>: envía la respuesta automática definida cuando un usuario solicita ayuda o soporte técnico. <br/><b>Predeterminado</b>: envía su respuesta automática de reserva cuando no coinciden las palabras clave."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
