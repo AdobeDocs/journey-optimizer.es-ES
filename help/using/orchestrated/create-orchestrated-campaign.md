@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 4461d3fdf6e61b7d2593027250dce65bba5fbd77
+source-git-commit: f1c86dd54e46e813b3b813c539df08d4a5ce5fa9
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 84%
@@ -107,7 +107,7 @@ Para configurar la programación de la campaña, siga estos pasos:
    * **[!UICONTROL Fecha]**: seleccione la fecha en la que se debe ejecutar la campaña.
    * **[!UICONTROL Hora]**: seleccione la hora específica a la que se debe ejecutar la campaña.
 
-   +++
++++
 
    +++Cada día
 
@@ -121,7 +121,7 @@ Para configurar la programación de la campaña, siga estos pasos:
 
    * **[!UICONTROL Hora de inicio]**: defina la hora a la que la campaña debe ejecutarse cada día.
 
-   +++
++++
 
    +++Varias veces al día
 
@@ -130,7 +130,7 @@ Para configurar la programación de la campaña, siga estos pasos:
    * **[!UICONTROL Horas seleccionadas]**: seleccione las horas específicas en que se debe ejecutar la campaña y configure su periodicidad diaria (se ejecutará todos los días de la semana o en determinados días).
    * **[!UICONTROL Periódico]**: elija ejecutar la campaña cada n minutos u horas. También puede definir el intervalo de tiempo dentro del día en que se permiten las ejecuciones.
 
-   +++
++++
 
    +++Semanal
 
@@ -141,7 +141,7 @@ Para configurar la programación de la campaña, siga estos pasos:
    * **[!UICONTROL Periodicidad diaria]**: elija días específicos de la semana para la ejecución (por ejemplo, todos los lunes y jueves).
    * **[!UICONTROL Hora de inicio]**: establezca la hora a la que la campaña debe ejecutarse en los días seleccionados.
 
-   +++
++++
 
    +++Mensual
 
@@ -157,7 +157,7 @@ Para configurar la programación de la campaña, siga estos pasos:
 
    * **[!UICONTROL Hora de inicio]**: establezca la hora a la que se debe ejecutar la campaña.
 
-   +++
++++
 
 1. Use la configuración **[!UICONTROL Período de validez]** para definir una fecha específica de inicio y finalización que limite la ejecución de la campaña a un período de tiempo limitado.
 
