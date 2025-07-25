@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ffa407c225324b88fae5b8e6fba53343eb629785
+source-git-commit: 4ad1d76d81bf328c9229786ca0ea7594d5580710
 workflow-type: tm+mt
-source-wordcount: '2160'
-ht-degree: 63%
+source-wordcount: '2246'
+ht-degree: 66%
 
 ---
 
@@ -94,13 +94,14 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Actividad de decisión de contenido</strong><br/></th>
+<th><strong>Actividad de decisión de contenido en los recorridos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede incluir ofertas personalizadas en los recorridos a través de una actividad de decisión de contenido dedicada en el lienzo de recorrido y utilizarlas en actividades de recorrido, incluidas condiciones y acciones personalizadas.</p>
+<p>Ahora puede incluir ofertas personalizadas en los recorridos mediante una actividad de decisión de contenido específica en el lienzo y utilizarlas en actividades de recorrido, incluidas las condiciones y las acciones personalizadas.</p>
+<img src="assets/do-not-localize/content-decision.gif">
 <p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -142,6 +143,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tr>
 <td>
 <p>El ensayo del recorrido es un modo especial de publicación de recorrido en Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil. Esta función ayuda a los profesionales del recorrido a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en directo.</p>
+<img src="assets/do-not-localize/DryRun.gif">
 <p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -159,13 +161,14 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
+<p>Ahora hay disponible una vista de calendario en las listas de recorridos y campañas. Permite visualizar todas las activaciones de recorridos y campañas en las listas respectivas.</p>
 <p>Esta función, que antes estaba disponible en disponibilidad limitada, ya está disponible en todos los entornos. Con esta versión de General Availability, la función incluye:</p>
 <ul>
 <li>Mejoras de diseño para la navegación en fechas</li>
 <li>La capacidad de ver borradores de campañas si ha establecido una fecha de inicio y de finalización</li>
 <li>Una nueva configuración para ocultar y mostrar los elementos de calendario que se ejecutan durante mucho tiempo</li>
 </ul>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<img src="assets/do-not-localize/calendar.gif">
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -175,12 +178,13 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>ID suplementario en recorrido</strong><br/></th>
+<th><strong>ID suplementario para recorridos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
+<p>Ahora puede activar recorridos utilizando un ID de perfil junto con otro identificador, como un ID de pedido, un ID de suscripción o un ID de prescripción, lo que permite que el mismo perfil esté en el mismo recorrido varias veces a la vez. Esto permite situaciones como administrar varios pedidos o suscripciones en paralelo, y que cada instancia siga su propia ruta a través del recorrido.</p>
 <p>Publicado anteriormente en Disponibilidad limitada, el uso de ID suplementarios en recorrido ya está disponible para todos los entornos. Con esta versión de Disponibilidad general, la función ahora es compatible con los recorridos de Lectura de audiencia.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -242,7 +246,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 **Fecha de lanzamiento**: 18 de junio de 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuevas funciones {#25-06-features}
 
