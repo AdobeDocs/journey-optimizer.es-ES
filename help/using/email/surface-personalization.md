@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración, subdominio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1171'
 ht-degree: 6%
 
 ---
@@ -128,7 +128,7 @@ Para utilizar variables personalizadas para los parámetros de encabezado de la 
 
 Para utilizar parámetros de seguimiento de URL personalizados, siga los pasos a continuación.
 
-1. Vaya a la sección **[!UICONTROL parámetros de seguimiento de URL]** de la configuración de su canal de correo electrónico.
+1. Vaya a la sección **[!UICONTROL parámetros de seguimiento de URL]** de la configuración de su canal de correo electrónico. [Más información](url-tracking.md)
 
 1. Haga clic en el icono Editar junto a cada campo. Además de los atributos contextuales, puede seleccionar atributos de perfil.
 

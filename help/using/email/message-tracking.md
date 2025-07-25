@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1214'
 ht-degree: 30%
 
 ---
@@ -48,6 +48,10 @@ Cuando se habilita, estas opciones hacen un seguimiento del comportamiento de lo
 ## Inserción de vínculos {#insert-links}
 
 Cuando el seguimiento [está habilitado](#enable-tracking), se realiza un seguimiento de todos los vínculos incluidos en el contenido del mensaje.
+
+>[!NOTE]
+>
+>También se realiza un seguimiento de los vínculos de los fragmentos utilizados en un correo electrónico. [Más información sobre fragmentos](../content-management/fragments.md)
 
 Para insertar vínculos en el contenido del correo electrónico, siga los pasos a continuación:
 
