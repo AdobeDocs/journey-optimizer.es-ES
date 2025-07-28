@@ -10,7 +10,7 @@ level: Experienced
 keywords: reintentos, rebote, suave, omitido, duro, optimizador, error
 hide: true
 hidefromtoc: true
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 817f7c88bfc2b40a7ce39575b4ad02fb372d429d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 11%
@@ -18,7 +18,7 @@ ht-degree: 11%
 ---
 
 
-# Tipos de error de correo electrónico
+# Tipos de error de correo electrónico {#email-error-types}
 
 Los posibles motivos de un error de entrega son múltiples. La siguiente tabla detalla todos los errores que pueden producirse al enviar envíos de correo electrónico con [!DNL Journey Optimizer], junto con su descripción y tipo de error.
 
