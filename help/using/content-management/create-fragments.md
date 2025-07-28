@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
+source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 13%
@@ -81,7 +81,7 @@ Después de configurar las propiedades del fragmento, se abre Email Designer o e
 
 >[!NOTE]
 >
->Cuando el seguimiento está habilitado en un recorrido o una campaña, si agrega vínculos a un fragmento y este se utiliza en un correo electrónico, se realiza el seguimiento de estos vínculos, como todos los demás vínculos incluidos en el mensaje. [Más información sobre vínculos y seguimiento](../email/message-tracking.md)
+>Cuando el seguimiento está habilitado en un recorrido o una campaña, si agrega vínculos a un fragmento y este se utiliza en un mensaje, se realiza el seguimiento de estos vínculos, como todos los demás vínculos incluidos en el mensaje. [Más información sobre vínculos y seguimiento](../email/message-tracking.md)
 
 Cuando el contenido esté listo, haz clic en el botón **[!UICONTROL Guardar]**.
 
