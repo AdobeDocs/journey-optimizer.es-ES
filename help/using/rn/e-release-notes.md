@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
+source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 16%
+source-wordcount: '941'
+ht-degree: 17%
 
 ---
 
@@ -216,9 +216,8 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 - **Recorridos**
    - **Mejoras en la herramienta de espacio aislado para Recorridos**: al copiar recorridos en varios espacios aislados mediante las funciones de exportación e importación de paquetes, ahora también están disponibles las siguientes funciones:
-      - Selección de un evento existente en el destino
       - Copia de un evento independientemente de un recorrido
-      - Detectar relaciones entre grupos de campos y fuentes de datos, vincularlas en el destino si existen y crearlas en caso contrario.
+      - Detectar eventos, grupos de campos y fuentes de datos, y vincularlos en el destino si existen y crearlos en caso contrario.
   <!-- [Read more](../FILE.md) -->
 
 - **Canal - Aplicación**
