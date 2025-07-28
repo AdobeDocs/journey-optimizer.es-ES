@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 66e5d12e6d262014db5c7eb7603f678296591301
+source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1788'
 ht-degree: 15%
 
 ---
@@ -129,11 +129,11 @@ Para establecer reglas de límite para el elemento de decisión, haga clic en el
 
 1. En la lista desplegable **[!UICONTROL Restablecer frecuencia de límite]**, establezca la frecuencia con la que se restablece el contador de límite. Para ello, defina el periodo de tiempo para el recuento (diario, semanal o mensual) e introduzca el número de días/semanas/meses de su elección. Por ejemplo, si desea que el recuento límite se restablezca cada 2 semanas, seleccione **[!UICONTROL Semanalmente]** en la lista desplegable correspondiente y escriba **2** en el otro campo.
 
-   >[!NOTE]
-   >
-   >El restablecimiento del contador de límite de frecuencia se produce a las **12 a. m. UTC**, el día que haya definido o el primer día de la semana o del mes, según corresponda. El día de inicio de la semana es **domingo**. Cualquier duración que elija no puede exceder de **2 años** (es decir, el número correspondiente de meses, semanas o días).
-   >
-   >Después de publicar el elemento de decisión, no podrá cambiar el período de tiempo (mensual, semanal o diario) seleccionado para la frecuencia. Puede seguir editando el límite de frecuencia si el elemento tiene el estado **[!UICONTROL Borrador]** y nunca antes se había publicado con el límite de frecuencia habilitado.
+   * El restablecimiento del contador de límite de frecuencia se produce a las **12 a. m. UTC**, el día que haya definido o el primer día de la semana o del mes, según corresponda. El día de inicio de la semana es **domingo**. Cualquier duración que elija no puede exceder de **2 años** (es decir, el número correspondiente de meses, semanas o días).
+
+   * Después de publicar el elemento de decisión, no podrá cambiar el período de tiempo (mensual, semanal o diario) seleccionado para la frecuencia. Puede seguir editando el límite de frecuencia si el elemento tiene el estado **[!UICONTROL Borrador]** y nunca antes se había publicado con el límite de frecuencia habilitado.
+
+   * Puede haber un tiempo de búfer de hasta 15 minutos antes de que los eventos se contabilicen como restricciones de límite de frecuencia, ya sea cuando se aprueba el elemento de decisión o cuando se crea el límite, lo que ocurra en último lugar.
 
 1. Haga clic en **[!UICONTROL Crear]** para confirmar la creación de la regla de límite. Puede crear hasta 10 reglas para un solo elemento de decisión. Para ello, haga clic en el botón **[!UICONTROL Crear límite]** y repita los pasos anteriores.
 
