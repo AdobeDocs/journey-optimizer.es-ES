@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 00e7ede1d8576aeef411caffd9c4251a6957f0ad
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1168'
 ht-degree: 77%
 
 ---
@@ -161,11 +161,15 @@ Al acceder al editor de personalización desde una campaña orquestada, dos carp
 
 Para obtener información detallada sobre cómo usar el editor de personalización, consulte [Introducción a la personalización](../../personalization/personalize.md)
 
-## Comprobación y prueba del contenido
+<!--WAITING FOR PM's TEST TO UNHIDE
 
-Una vez creado el contenido, use el botón **[!UICONTROL Simular contenido]** para obtener una vista previa y probar el contenido con los perfiles de prueba o los datos de entrada de muestra cargados desde un archivo CSV/JSON, o añadidos manualmente. [Más información](../../content-management/preview-test.md)
+## Check and test your content
 
-![imagen que muestra el botón Simular contenido](../assets/channel-simulate.png)
+Once the content is created, use the **[!UICONTROL Simulate Content]** button to preview and test your content with test profiles or sample input data uploaded from a CSV / JSON file, or added manually. [Learn more](../../content-management/preview-test.md)
+
+![image showing the Simulate Content button](../assets/channel-simulate.png)
+
+-->
 
 ## Próximos pasos {#next}
 

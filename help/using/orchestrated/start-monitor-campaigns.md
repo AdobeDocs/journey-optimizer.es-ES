@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo iniciar y monitorizar campañas or
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 73%
+source-wordcount: '810'
+ht-degree: 68%
 
 ---
 
@@ -48,7 +48,9 @@ También puede ejecutar la campaña en modo de prueba para comprobar su ejecuci�
 
 [!DNL Journey Optimizer] le permite probar campañas orquestadas antes de lanzarse. Cuando se crea una campaña, entra al estado **Borrador** de forma predeterminada. En este estado, puede ejecutar la campaña manualmente para probar el flujo.
 
-Todas las actividades del lienzo se ejecutan excepto las actividades de **[!UICONTROL Guardar audiencia]** y las actividades del canal. No hay ningún impacto funcional en los datos o en el público.
+>[!IMPORTANT]
+>
+>Todas las actividades del lienzo se ejecutan excepto las actividades de **[!UICONTROL Guardar audiencia]** y las actividades del canal. No hay ningún impacto funcional en los datos o en la audiencia**.
 
 Para probar una campaña, haga lo siguiente:
 
@@ -63,13 +65,19 @@ Durante la prueba, puede controlar la ejecución de la campaña mediante la barr
 
 * **Detenga** la ejecución en cualquier momento.
 * **Inicie** la ejecución de nuevo.
-* **Reanude** la ejecución si anteriormente se había pausado debido a un problema.
+* **Reanudar** la ejecución si se había pausado anteriormente.
 
-Si se produce un error o una advertencia durante la ejecución, se le notifica mediante el icono **[!UICONTROL Alertas]**/**[!UICONTROL Advertencia]** de la barra de herramientas del lienzo.
+El icono **[!UICONTROL Alertas]** / **[!UICONTROL Advertencia]** de la barra de herramientas de lienzo le notifica de los problemas, incluidas las advertencias que pueden aparecer de forma proactiva antes de la ejecución y los errores que se producen durante o después de la ejecución.
 
 ![](assets/campaign-warning.png){zoomable="yes"}
 
 También puede identificar rápidamente las actividades fallidas mediante los [indicadores visuales de estado](#activities) que se muestran directamente en cada actividad. Para obtener información detallada sobre la resolución de problemas, abra los [registros de la campaña](#logs-tasks), que proporcionan información detallada sobre el error y su contexto.
+
+<!--WAITING FOR PM's TEST TO UNHIDE
+
+If you have added channel activities in the canvas, you can preview and test the content of your messages using the **[!UICONTROL Simulate Content]** button. [Learn how to work with channel activities](activities/channels.md)
+
+-->
 
 Una vez validada, la campaña se puede publicar.
 

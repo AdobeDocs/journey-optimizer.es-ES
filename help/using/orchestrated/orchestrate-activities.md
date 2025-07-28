@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 87%
+source-wordcount: '998'
+ht-degree: 86%
 
 ---
 
@@ -84,7 +84,7 @@ Al añadir actividades, los botones de acción están disponibles en el panel de
 
 ![Icono de pausa](assets/do-not-localize/activity-pause.svg) ![Icono de reanudación](assets/do-not-localize/activity-resume.svg) Ponga en pausa/reanude la actividad. Cuando se ejecuta la campaña organizada, se pone en pausa en la actividad pausada. No se ejecutará la tarea correspondiente ni las que la siguen en la misma ruta.
 
-    Puede usar cualquier actividad en el lienzo como punto de interrupción para pausar la ejecución de la campaña. Esto significa que la campaña se ejecutará solamente hasta esta actividad y luego pausará la ejecución. Al pausar la ejecución, el motor de segmentación mantiene los datos temporales disponibles para que los previsualice. Puede seleccionar la transición entrante justo antes de la actividad pausada para ver los datos transportados. Obtenga más información sobre esta sección: [Supervisión de flujo visual](../orchestrated/start-monitor-campaigns.md#flow).
+Puede utilizar cualquier actividad en el lienzo como punto de interrupción para pausar la ejecución de la campaña. Esto significa que la campaña se ejecutará solamente hasta esta actividad y luego pausará la ejecución. Al pausar la ejecución, el motor de segmentación mantiene los datos temporales disponibles para que los previsualice. Puede seleccionar la transición entrante justo antes de la actividad pausada para ver los datos transportados. Obtenga más información sobre esta sección: [Supervisión de flujo visual](../orchestrated/start-monitor-campaigns.md#flow).
 
 ![Icono de copiar](assets/do-not-localize/activity-copy.svg) Copie la actividad. [Aprenda a copiar y pegar actividades](#copy)
 
