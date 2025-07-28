@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: supresión, lista, rechazo, correo electrónico, optimizador, cuarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1adf4db1e76645b2c369b39d54ef97aff5be963d
+source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1600'
 ht-degree: 22%
 
 ---
@@ -71,7 +71,7 @@ Los posibles motivos de un error de entrega son:
 
 | Motivo | Descripción | Categoría |
 | --- | --- | --- |
-| **[!UICONTROL Destinatario no válido]** | El destinatario no es válido o no existe. | Grave |
+| **[!UICONTROL Destinatario no válido]** | La dirección del destinatario no es válida o no existe. | Grave |
 | **[!UICONTROL Rebote suave]** | El mensaje rebotó suavemente por un motivo distinto a los errores leves enumerados en esta tabla, como al enviar a través de la tasa permitida recomendada por un ISP. | Leve |
 | **[!UICONTROL Error de DNS]** | El mensaje se ha devuelto debido a un error de DNS. | Leve |
 | **[!UICONTROL Buzón lleno]** | El mensaje se ha devuelto porque el buzón del destinatario está lleno y no puede aceptar más mensajes. | Leve |
