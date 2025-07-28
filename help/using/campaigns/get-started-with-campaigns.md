@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -76,7 +76,7 @@ Puede crear diferentes tipos de campañas en Journey Optimizer:
 
     Campaign Orchestration in Adobe Journey Optimizer powers sophisticated, brand-initiated marketing campaigns across channels, helping you drive engagement, revenue, and customer loyalty at scale.
 
-    While cross-channel marketing is essential, orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
+    While cross-channel marketing is essential, Orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
 
 ## Antes de empezar {#campaign-prerequisites}
 
@@ -96,11 +96,11 @@ Compruebe los siguientes requisitos previos antes de empezar a crear su primera 
 
    El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 
-   +++
++++
 
 1. **Necesita un público**. Los públicos deben estar disponibles antes de crear la campaña. [Introducción a las audiencias](../audience/about-audiences.md).
 
-1. **Necesita una configuración de canal**. Para poder seleccionar un canal, debe tener la configuración del canal correspondiente (es decir, preestablecida) creada y disponible. [Aprenda a configurar las configuraciones de canal](../configuration/channel-surfaces.md).
+1. **Necesita una configuración de canal**. Para poder seleccionar un canal, debe tener la configuración del canal correspondiente (es decir, preestablecida) creada y disponible. [Aprenda a configurar canales](../configuration/channel-surfaces.md).
 
 ## Vamos a profundizar
 

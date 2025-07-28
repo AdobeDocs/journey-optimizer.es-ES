@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6091edd8413cdb9e86e982cb916594d9b609e3f7
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '1647'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -240,7 +240,7 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="Uso de datos de múltiples entidades"
->abstract="Descubra cómo las campañas orquestadas pueden aprovechar los conjuntos de datos relacionales para enriquecer los datos para la segmentación y personalización"
+>abstract="Descubra cómo las campañas organizadas pueden aprovechar los conjuntos de datos relacionales para enriquecer los datos para la segmentación y personalización"
 
 
 

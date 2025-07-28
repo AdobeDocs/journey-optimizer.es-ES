@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creación de informes para campañas organizadas con Adobe Journey Optimizer
+title: Creación de informes para campañas orquestadas con Adobe Journey Optimizer
 description: Obtenga información sobre cómo acceder a informes sobre campañas organizadas con Adobe Journey Optimizer
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 82%
+ht-degree: 58%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 82%
 
 +++ Índice
 
-| Bienvenido a las campañas organizadas | Inicio de su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
+| Bienvenido a campañas orquestadas | Inicie su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
 |---|---|---|---|
 | [Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | [Creación y programación de las campañas](create-orchestrated-campaign.md)<br/><br/>[Organización de actividades](orchestrate-activities.md)<br/><br/>[Inicio y monitorización de las campañas](start-monitor-campaigns.md)<br/><br/><b>[Creación de informes](reporting-campaigns.md)<b> | [Trabajo con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](build-query.md)<br/><br/>[Edición de expresiones](edit-expressions.md)<br/><br/>[Resegmentación](retarget.md) | [Introducción a las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[AND-join](activities/and-join.md) - [Generar público](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades del canal](activities/channels.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar público](activities/save-audience.md) - [División](activities/split.md) - [Esperar](activities/wait.md) |
 
@@ -47,7 +47,7 @@ La campaña organizada le ofrece información práctica a través de sus sólida
     <tr>
       <td><a href="../reports/live-report.md"><img alt="Informe activo" src="assets/last-24hours.png"></a></td>
       <td>
-        Use el <b>Informe activo</b> para medir y visualizar en tiempo real el impacto y el rendimiento de sus campañas organizadas en un panel de control integrado. Los datos estarán disponibles en el <b>Informe activo</b> tan pronto como su campaña organizada se ejecute desde el menú <b>Ver el informe de las últimas 24 horas</b>. Obtenga más información sobre los informes activos <a href="../reports/live-report.md">en esta sección</a>.
+        Use <b>Informe en vivo</b> para medir y visualizar en tiempo real el impacto y el rendimiento de sus campañas orquestadas en un panel integrado. Los datos están disponibles en el <b>informe en vivo</b> tan pronto como su campaña orquestada se ejecute desde el menú <b>Ver el informe de las últimas 24 horas</b>. Obtenga más información sobre los informes activos <a href="../reports/live-report.md">en esta sección</a>.
       </td>
         </br>
     </tr>
