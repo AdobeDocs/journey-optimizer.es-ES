@@ -7,9 +7,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '337'
 ht-degree: 4%
 
 ---
@@ -44,6 +44,10 @@ Para crear una oferta de reserva, siga estos pasos:
 
    ![](../assets/fallback_content.png)
 
+   >[!CAUTION]
+   >
+   >Las ofertas de reserva deben contener todas las representaciones utilizadas dentro de una [decisión](../offer-activities/create-offer-activities.md). Por ejemplo, si tiene 5 ofertas en una decisión y cada una de ellas tiene una representación diferente, se deben incluir 5 representaciones en la oferta de reserva.
+
 1. Una vez añadidas las representaciones de la oferta de reserva, se muestra un resumen. Si todo está configurado correctamente y la oferta de reserva está lista para presentarse a los clientes, haga clic en **[!UICONTROL Finalizar]** y, a continuación, seleccione **[!UICONTROL Guardar y aprobar]**.
 
    También puede guardar la oferta de reserva como borrador para editarla y aprobarla más adelante.
@@ -58,5 +62,5 @@ Para crear una oferta de reserva, siga estos pasos:
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341344?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

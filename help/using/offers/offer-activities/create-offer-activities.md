@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
 workflow-type: tm+mt
-source-wordcount: '2511'
-ht-degree: 9%
+source-wordcount: '2549'
+ht-degree: 7%
 
 ---
 
@@ -312,15 +312,19 @@ La selección es la siguiente:
 >title="Añadir una oferta de reserva"
 >abstract="Una vez definidos los ámbitos de decisión, defina la oferta de reserva que se presentará como último recurso a los clientes que no coincidan con las restricciones y reglas de elegibilidad de las ofertas."
 
-Una vez definidos los ámbitos de decisión, defina la oferta de reserva que se presentará como último recurso a los clientes que no coincidan con las restricciones y reglas de elegibilidad de las ofertas.
+Después de definir los ámbitos de decisión, defina la [oferta de reserva](../offer-library/creating-fallback-offers.md) que se presentará como último recurso a los clientes que no coincidan con las restricciones y reglas de idoneidad de las ofertas.
 
-Para ello, selecciónela en la lista de ofertas de reserva disponibles para las ubicaciones definidas en la decisión y, a continuación, haga clic en **[!UICONTROL Siguiente]**.
+Para ello, selecciónela en la lista de ofertas de reserva disponibles para las ubicaciones definidas en la decisión.
 
 ![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
->Puede hacer clic en el vínculo **[!UICONTROL Abrir biblioteca de ofertas]** para mostrar la lista de ofertas en una nueva pestaña.
+>Las ofertas de reserva deben contener todas las representaciones utilizadas dentro de una decisión. Por ejemplo, si tiene 5 ofertas en una decisión y cada una de ellas tiene una representación diferente, se deben incluir 5 representaciones en la oferta de reserva.
+
+Una vez seleccionado, haga clic en **[!UICONTROL Siguiente]**.
+
+Puede hacer clic en el vínculo **[!UICONTROL Abrir biblioteca de ofertas]** para mostrar la lista de ofertas en una nueva pestaña.
 
 ## Revise y guarde la decisión {#review}
 
@@ -401,6 +405,6 @@ Esto le permite acceder a información detallada para esa decisión. Seleccione 
 
 Obtenga información sobre cómo crear actividades de oferta en administración de decisiones.
 
->[!VIDEO](https://video.tv.adobe.com/v/346692?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 
