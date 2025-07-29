@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2399'
 ht-degree: 27%
 
 ---
@@ -287,7 +287,7 @@ Haga clic en el icono `...` para ver la descripción de la función y agregarla 
         <td><a href="string.md#concat">Concat</a></td><td>Esta función se utiliza para combinar dos cadenas en una</td>
     </tr>
     <tr>
-        <td><a href="string.md#contains">Contains</a></td><td>Esta función se utiliza para determinar si una cadena contiene una subcadena especificada</td>
+        <td><a href="string.md#contains">Contiene</a></td><td>Esta función se utiliza para determinar si una cadena contiene una subcadena especificada</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotContain">No contiene</a></td><td>Esta función se utiliza para determinar si una cadena no contiene una subcadena especificada</td>
@@ -302,7 +302,7 @@ Haga clic en el icono `...` para ver la descripción de la función y agregarla 
         <td><a href="string.md#encode64">Codificar 64</a></td><td>Esta función se utiliza para codificar una cadena.</td>
     </tr>
     <tr>
-        <td><a href="string.md#endsWith">Termina con</a></td><td>Esta función se utiliza para determinar si una cadena termina con una subcadena especificada</td>
+        <td><a href="string.md#endsWith">Termina por</a></td><td>Esta función se utiliza para determinar si una cadena termina con una subcadena especificada</td>
     </tr>
         </tr>
     <tr>
@@ -345,7 +345,7 @@ Haga clic en el icono `...` para ver la descripción de la función y agregarla 
         <td><a href="string.md#length">Longitud</a></td><td>Esta función se utiliza para obtener el número de caracteres de una cadena o expresión</td>
     </tr>
     <tr>
-        <td><a href="string.md#like">Me gusta</a></td><td>Esta función se utiliza para determinar si una cadena coincide con un patrón especificado</td>
+        <td><a href="string.md#like">Como</a></td><td>Esta función se utiliza para determinar si una cadena coincide con un patrón especificado</td>
     </tr>
     <tr>
         <td><a href="string.md#lower">Minúsculas</a></td><td>Esta función convierte una cadena en letras minúsculas.</td>
@@ -378,10 +378,13 @@ Haga clic en el icono `...` para ver la descripción de la función y agregarla 
         <td><a href="string.md#rightTrim">Guarnecido derecho</a></td><td>Esta función elimina los espacios en blanco del final de una cadena. </td>
     </tr>
     <tr>
+        <td><a href="string.md#sha256">SHA256</a></td><td>Esta función calcula y devuelve el hash sha256 de una cadena.</td>
+    </tr>
+    <tr>
         <td><a href="string.md#split">División</a></td><td>Esta función se utiliza para dividir una cadena por un carácter determinado</td>
     </tr>
     <tr>
-        <td><a href="string.md#startsWith">Comienza con</a></td><td>Esta función se utiliza para determinar si una cadena empieza con una subcadena especificada</td>
+        <td><a href="string.md#startsWith">Comienza por</a></td><td>Esta función se utiliza para determinar si una cadena empieza con una subcadena especificada</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-date">Cadena a fecha</a></td><td>Esta función convierte un valor de cadena en un valor de fecha y hora.</td>
@@ -513,4 +516,4 @@ Las funciones de comparación se utilizan para comparar entre diferentes expresi
 
 Aprenda a transformar los valores de personalización mediante las funciones de ayuda de personalización y comprenda diferentes casos de uso de las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416643?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

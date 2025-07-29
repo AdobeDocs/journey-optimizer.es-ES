@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1859'
 ht-degree: 9%
 
 ---
@@ -71,7 +71,7 @@ La siguiente función combinará ciudad y país de perfil en una sola cadena.
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
 ```
 
-## Contains {#contains}
+## Contiene {#contains}
 
 La función `contains` se usa para determinar si una cadena contiene una subcadena especificada.
 
@@ -184,7 +184,7 @@ La función `encode64` se usa para codificar una cadena para conservar la inform
 {%= encode64(string) %}
 ```
 
-## Termina con{#endsWith}
+## Termina por{#endsWith}
 
 La función `endsWith` se usa para determinar si una cadena termina con una subcadena especificada.
 
@@ -368,7 +368,7 @@ La función `indexOf` se usa para devolver la posición (en el primer argumento)
 
 Devuelve 6.
 
-## Is empty {#isEmpty}
+## Está vacío {#isEmpty}
 
 La función `isEmpty` se usa para determinar si una cadena está vacía.
 
@@ -455,7 +455,7 @@ La siguiente función devuelve la longitud del nombre de ciudad del perfil.
 {%= length(profile.homeAddress.city) %}
 ```
 
-## Me gusta{#like}
+## Como{#like}
 
 La función `like` se usa para determinar si una cadena coincide con un patrón especificado.
 
@@ -660,18 +660,39 @@ La función `replaceAll` se usa para reemplazar todas las subcadenas de un texto
 >
 > Cuando la expresión tomada como segundo argumento sea un carácter regex especial, utilice una doble barra invertida (`//`).  Los caracteres regex especiales son: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
-> Obtenga más información en [Documentación del Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+> Obtenga más información en [Documentación de Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 >
 
 ## Guarnecido derecho {#rightTrim}
 
-La función `rightTrim` utilizada elimina los espacios en blanco del final de una cadena.
+La función `rightTrim` elimina los espacios en blanco del final de una cadena.
 
 **Sintaxis**
 
 ```sql
 {%= rightTrim(string) %}
 ```
+
+## SHA256 {#sha256}
+
+La función `SHA256` calcula y devuelve el hash sha256 de una cadena.
+
+**Sintaxis**
+
+```sql
+{{
+
+{%= sha256(string) %}
+: string}}
+```
+
+**Ejemplo**
+
+```sql
+{%= sha256("Eliechxh")%}
+```
+
+devuelve: `0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d`
 
 ## División {#split}
 
@@ -683,7 +704,7 @@ La función `split` se usa para dividir una cadena entre un carácter determinad
 {%= split(string,string) %}
 ```
 
-## Comienza con{#startsWith}
+## Comienza por{#startsWith}
 
 La función `startsWith` se usa para determinar si una cadena empieza con una subcadena especificada.
 

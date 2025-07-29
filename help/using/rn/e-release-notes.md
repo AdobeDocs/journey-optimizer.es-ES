@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 17%
+source-wordcount: '968'
+ht-degree: 16%
 
 ---
 
@@ -222,4 +222,8 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 - **Canal - Aplicación**
    - **Pares de clave/valor en la aplicación**: con los mensajes en la aplicación, puede definir pares de clave y valor para incluir variables personalizadas en la carga útil del mensaje. Estos pares clave-valor le permiten pasar datos adicionales según su configuración específica y el caso de uso.
+  <!-- [Read more](../FILE.md) -->
+
+- **Personalización**
+   - Se ha añadido una nueva función de ayuda, &quot;SHA256&quot;, al editor de personalización. Esta función se utiliza para calcular y devolver el hash sha256 de una cadena.
   <!-- [Read more](../FILE.md) -->
