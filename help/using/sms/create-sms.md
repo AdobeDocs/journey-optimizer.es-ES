@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 9%
@@ -103,7 +103,7 @@ Para configurar el contenido del mensaje, siga los pasos a continuación. La con
 
 1. Haga clic en el campo **[!UICONTROL Mensaje]** para abrir el editor de personalización.
 
-   Para la mensajería RCS con Infobip, Twilio u otros proveedores de terceros, pegue la carga útil JSON necesaria en su[configuración de SMS personalizada](sms-configuration-custom.md#api-credential).
+   Para la mensajería RCS con Infobip, Twilio u otros proveedores de terceros, pegue la carga útil JSON necesaria en su [configuración de SMS personalizada](sms-configuration-custom.md#api-credential).
 
    ![](assets/sms-content.png)
 
@@ -122,6 +122,8 @@ Para configurar el contenido del mensaje, siga los pasos a continuación. La con
 1. En el menú **[!UICONTROL Funciones de ayuda]**, haga clic en **[!UICONTROL Función de URL]** y, a continuación, seleccione **[!UICONTROL Agregar URL]**.
 
    ![](assets/sms_tracking_2.png)
+
+   <!--The URL shortening function cannot be used within a fragment. TBC-->
 
 1. En el campo `originalUrl`, pegue la dirección URL que desee acortar y haga clic en **[!UICONTROL Guardar]**.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '765'
 ht-degree: 13%
 
 ---
@@ -63,6 +63,12 @@ Para crear un fragmento, siga los pasos a continuación.
 
 Después de configurar las propiedades del fragmento, se abre Email Designer o el editor de personalización, según el tipo de fragmento que esté creando.
 
+>[!NOTE]
+>
+>[No se admiten atributos contextuales](../personalization/personalization-build-expressions.md) en los fragmentos.
+>
+>Cuando el seguimiento está habilitado en un recorrido o una campaña, si agrega vínculos a un fragmento y este se utiliza en un mensaje, se realiza el seguimiento de estos vínculos, como todos los demás vínculos incluidos en el mensaje. [Más información sobre vínculos y seguimiento](../email/message-tracking.md)
+
 * Para los fragmentos visuales, edite el contenido según sea necesario, del mismo modo que lo haría para cualquier correo electrónico dentro de un recorrido o una campaña. [Más información](../email/get-started-email-design.md)
 
   ![](assets/fragment-designer.png)
@@ -73,15 +79,11 @@ Después de configurar las propiedades del fragmento, se abre Email Designer o e
 
   >[!CAUTION]
   >
-  >Los fragmentos no son compatibles entre el modo Temática y Clásica. Para poder utilizar un fragmento en un contenido en el que desee aplicar una temática, este fragmento debe crearse en el modo Temática. [Más información sobre los temas](../email/apply-email-themes.md)
+  >Los fragmentos no son compatibles entre los modos Usar temáticas y Estilo manual. Para poder utilizar un fragmento en un contenido en el que desee aplicar una temática, este fragmento debe crearse en el modo Usar temáticas. [Más información sobre los temas](../email/apply-email-themes.md)
 
 * Para los fragmentos de expresiones, aproveche el editor de personalización [!DNL Journey Optimizer] con todas sus capacidades de personalización y creación para generar el contenido del fragmento. [Más información](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
-
->[!NOTE]
->
->Cuando el seguimiento está habilitado en un recorrido o una campaña, si agrega vínculos a un fragmento y este se utiliza en un mensaje, se realiza el seguimiento de estos vínculos, como todos los demás vínculos incluidos en el mensaje. [Más información sobre vínculos y seguimiento](../email/message-tracking.md)
 
 Cuando el contenido esté listo, haz clic en el botón **[!UICONTROL Guardar]**.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '325'
 ht-degree: 13%
 
 ---
@@ -43,6 +43,8 @@ En esta versión, se aplican las siguientes limitaciones:
 * **Los fragmentos visuales** solo están disponibles para el canal de correo electrónico.
 * **Los fragmentos de expresiones** no están disponibles para el canal en la aplicación.
 
+Hay más protecciones aplicables a los fragmentos disponibles en [esta sección](../start/guardrails.md#fragments-guardrails).
+
 ## Fragmentos visuales y de expresión {#visual-expression}
 
 Hay dos tipos de fragmentos disponibles:
@@ -62,4 +64,4 @@ Aprenda a administrar, crear y usar **fragmentos visuales** en [!DNL Journey Opt
 
 Obtenga información sobre cómo administrar, crear y usar **fragmentos de expresiones** en [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438920/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

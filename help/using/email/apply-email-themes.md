@@ -10,10 +10,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de correo electrónico, Módulos, Reutilización, Coherencia de la marca, Diseño de correo electrónico, CSS personalizado, Optimización móvil
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 7%
+source-wordcount: '832'
+ht-degree: 6%
 
 ---
 
@@ -53,19 +53,19 @@ Key Benefits:
 
 * Al crear un correo electrónico desde cero, puede elegir empezar a crear el contenido con un tema para aplicar rápidamente un estilo específico que se ajuste a su marca y diseño.
 
-  Si elige el modo clásico, no podrá aplicar ninguna temática a menos que restablezca el correo electrónico.
+  Si elige el modo de Estilo manual, no podrá aplicar ninguna temática a menos que restablezca el correo electrónico.
 
-* [Los fragmentos](../content-management/fragments.md) no son compatibles entre los modos Tema y Clásico.
+* [Los fragmentos](../content-management/fragments.md) no son compatibles entre los modos Usar temas y Estilo manual.
 
-  Para poder utilizar un fragmento en un contenido donde se aplique una temática, este fragmento debe crearse en el modo Temática.
+  Para poder utilizar un fragmento en un contenido donde se aplique una temática, este fragmento debe crearse en el modo Usar temáticas.
 
 * Si usa un contenido creado en HTML, estará en [modo de compatibilidad](existing-content.md) y no podrá aplicar temáticas a este contenido.
 
-  Para aprovechar al máximo todas las funcionalidades de la Designer de correo electrónico, incluidas las temáticas, debe crear un nuevo contenido en el modo Temática o convertir el contenido de HTML importado. [Más información](existing-content.md)
+  Para aprovechar al máximo todas las funcionalidades de Email Designer, incluidas las temáticas, debe crear un nuevo contenido en el modo Usar temáticas o convertir el contenido de HTML importado. [Más información](existing-content.md)
 
-<!--If using a content created in Classic mode or HTML, you cannot apply themes to this content. You must create a new content in Theme mode.
+<!--If using a content created in Manual Styling mode or HTML, you cannot apply themes to this content. You must create a new content in Use Themes mode.
 
-If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Classic mode, the rendering may not be optimal.-->
+If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Manual Styling mode, the rendering may not be optimal.-->
 
 ## Crear una temática {#create-and-edit-themes}
 
@@ -127,15 +127,15 @@ Para aplicar temáticas de estilo predeterminadas o personalizadas a un correo e
 
    * Seleccione una [plantilla de correo electrónico](use-email-templates.md) integrada para abrir el Designer de correo electrónico. Se aplica automáticamente una temática predeterminada específica a cada plantilla.
 
-   * Diseña [nuevo contenido desde cero](content-from-scratch.md) y selecciona **[!UICONTROL Tema]** para comenzar con un tema de estilo predefinido.
+   * Diseña [nuevo contenido desde cero](content-from-scratch.md) y selecciona **[!UICONTROL Usar tema]s** para comenzar con un tema de estilo predefinido.
 
      ![](assets/theme-from-scratch.png)
 
      >[!CAUTION]
      >
-     >Si elige el modo clásico, no podrá aplicar ninguna temática a menos que restablezca el correo electrónico.
+     >Si elige el modo de Estilo manual, no podrá aplicar ninguna temática a menos que restablezca el correo electrónico.
      >
-     >Para usar un [fragmento](../content-management/fragments.md) en el modo Tema, este fragmento debe haberse creado a sí mismo usando el modo Tema.
+     >Para usar un [fragmento](../content-management/fragments.md) en el modo Usar temas, este fragmento debe haberse creado a sí mismo usando el modo Usar temas.
 
 1. Una vez que se encuentre en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Temas]** en el carril derecho. Se muestra el tema predeterminado o el tema de la plantilla. Puede cambiar entre las dos variantes de color para esta temática.
 

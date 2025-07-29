@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, biblioteca, personalización
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '961'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Para añadir fragmentos de expresión al contenido, siga los pasos a continuaci�
 
    >[!CAUTION]
    >
-   >Puede agregar cualquier fragmento de **Borrador** o **Activo** al contenido. Sin embargo, no podrá activar su recorrido o campaña si se está utilizando un fragmento con el estado Borrador. En el momento de la publicación del recorrido o de la campaña, los fragmentos de borrador mostrarán un error y deberá aprobarlos para poder publicarlos.
+   >Puede agregar cualquier fragmento de **Borrador** o **Activo** al contenido. Sin embargo, no podrás activar tu recorrido o campaña si se está usando un fragmento con el estado **Borrador**. En el momento de la publicación del recorrido o de la campaña, los fragmentos de borrador mostrarán un error y deberá aprobarlos para poder publicarlos.
 
 1. Una vez agregado el ID del fragmento, si abre el fragmento de expresión correspondiente y lo [edita](../content-management/fragments.md#edit-fragments) desde la interfaz, los cambios se sincronizarán. Se propagan automáticamente a todos los recorridos o campañas en borrador o activos que contengan ese ID de fragmento.
 

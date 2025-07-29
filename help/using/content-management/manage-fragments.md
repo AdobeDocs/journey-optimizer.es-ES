@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 5c4d3f0b143313ecf761a93914150352e8a9f981
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 19%
+source-wordcount: '1428'
+ht-degree: 17%
 
 ---
 
@@ -113,7 +113,7 @@ Los fragmentos pueden tener varios estados:
 
 >[!CAUTION]
 >
->Al haberse introducido los estados **Borrador** y **Activo** con la versión de junio de Journey Optimizer, todos los fragmentos creados antes de esta versión tendrán el estado **Borrador**, incluso si se utilizan en un recorrido o una campaña. Si realiza algún cambio en estos fragmentos, debe publicarlos para que tengan el estado **Activo** y propagarlos a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere el permiso de usuario [Publicar fragmento](../administration/ootb-product-profiles.md#content-library-manager).
+>Desde que se introdujeron los estados **Draft** y **Live** con la versión de junio de 2024 de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado **Draft**, incluso si se utilizan en un recorrido o una campaña. Si realiza algún cambio en estos fragmentos, debe publicarlos para que tengan el estado **Activo** y propagarlos a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere el permiso de usuario [Publicar fragmento](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Edición de un fragmento {#edit-fragments}
 
