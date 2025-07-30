@@ -3,7 +3,7 @@ title: Identificador adicional en recorridos activados por eventos
 description: Aprenda a utilizar un identificador suplementario en recorridos activados por eventos.
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 664f38b4ff56ce871599400f898e23a8d04f7816
+source-git-commit: 5e4297fb0e2d0b910c9fe102299162e8bb46a311
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 8%
@@ -199,4 +199,4 @@ Para utilizar un identificador suplementario en un recorrido, siga estos pasos:
 
 Obtenga información sobre cómo habilitar y aplicar un identificador suplementario en [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464795?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
