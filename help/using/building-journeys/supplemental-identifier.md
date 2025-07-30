@@ -199,4 +199,4 @@ Para utilizar un identificador suplementario en un recorrido, siga estos pasos:
 
 Obtenga información sobre cómo habilitar y aplicar un identificador suplementario en [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464795?quality=12&captions=spa)
