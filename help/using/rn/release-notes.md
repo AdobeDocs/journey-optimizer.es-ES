@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0b72e046720a667841b83752fe8bba63e572e95
+source-git-commit: c6896c02778ec637570f286a9487220995000bf9
 workflow-type: tm+mt
-source-wordcount: '2342'
-ht-degree: 62%
+source-wordcount: '1888'
+ht-degree: 72%
 
 ---
 
@@ -23,15 +23,16 @@ ht-degree: 62%
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión. [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
 
-## Notas de la versión preliminar de julio de 2025 {#25-7-rn}
+## Notas de la versión de julio de 2025 {#25-7-rn}
 
-**Las notas anteriores al lanzamiento que se indican a continuación están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento**. Los vínculos, las pantallas y la documentación actualizada se publican en la fecha de la versión.
+<!--
+**Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-Consulte también [Notas previas al lanzamiento de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Fecha de lanzamiento**: miércoles, 29 de julio de 2025
 
-### Nuevas funciones {#25-7-features}
+### Nuevas funciones {#features-25-7}
 
 A continuación, se describen las nuevas funciones incluidas en esta versión.
 
@@ -49,7 +50,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <p>Journey Optimizer ahora admite la mensajería directa WhatsApp, lo que permite una integración sin problemas en sus recorridos y campañas para mejorar la comunicación y la participación de los destinatarios. Este canal nativo ofrece integración de plantillas de WhatsApp, previsualización de mensajes, personalización, informes de entregas, webhooks, administración de consentimientos de inclusión y exclusión, y mucho más.</p>
 <p>Esta funcionalidad, lanzada anteriormente en Beta, ya está disponible para todos los entornos (disponibilidad general).</p>
 <p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>Para obtener más información, consulte la <a href="../whatsapp/get-started-whatsapp.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -67,78 +68,82 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <p>Ahora puede crear y personalizar sus propias marcas para definir claramente su identidad visual y verbal en todas las comunicaciones. Con la puntuación de alineación de marca, puede recibir comentarios en tiempo real sobre cómo el contenido refleja el tono, el estilo y las directrices de su marca, lo que le ayuda a mantenerse constantemente al día con la marca con cada mensaje que envía.</p>
 <p>Esta funcionalidad, lanzada anteriormente en Beta, ya está disponible para todos los entornos (disponibilidad general).</p>
 <p><img src="assets/do-not-localize/brand-score.gif"/></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>Para obtener más información, consulte la <a href="../content-management/brands.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Uso de Experience Decisioning en el canal de correo electrónico</strong><br/></th>
+<th><strong>Use Experience Decisioning in email channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede agregar directivas de Decisión a recorridos de correo electrónico y campañas. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de decisión para devolver dinámicamente el mejor contenido para entregar a cada miembro de la audiencia.</p>
-<p>Actualmente, esta capacidad no está disponible para su uso con Healthcare Shield ni con Privacy and Security Shield (disponibilidad limitada).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
+<p>This capability is currently unavailable for use with the Healthcare Shield, and with the Privacy and Security Shield (Limited Availability).</p>
+<p>img src="assets/do-not-localize/FILE.gif"/></p>
+For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Optimización en campañas</strong><br/></th>
+<th><strong>Optimization in campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora, Journey Optimizer le ofrece las herramientas necesarias para ofrecer contenido personalizado y optimizado a la audiencia de sus campañas, lo que le permite ejecutar experimentos de contenido, crear objetivos basados en reglas y utilizar combinaciones avanzadas de ambos para maximizar la eficacia de sus campañas.</p>
-<p>Con Optimización, puede:</p>
+<p>Journey Optimizer now empowers you with the tools to deliver personalized and optimized content to your campaigns' audience, allowing you to run content experiments, create rule-based targeting, and use advanced combinations of both, to maximize the effectiveness of your campaigns.</p>
+<p>With Optimization, you can:</p>
 <ul>
-<li>Pruebe múltiples variaciones de contenido para identificar la mensajería más eficaz.</li>
-<li>Ofrezca contenido personalizado basado en atributos de usuario y datos contextuales.</li>
-<li>Combine segmentación y experimentación para estrategias de campaña avanzadas.</li>
-<li>Filtrar los usuarios que no coincidan con los criterios de variante.</li>
-<li>Garantizar mecanismos de reserva para mantener la participación del usuario.</li>
+<li>Test multiple content variations to identify the most effective messaging.</li>
+<li>Deliver personalized content based on user attributes and contextual data.</li>
+<li>Combine targeting and experimentation for advanced campaign strategies.</li>
+<li>Filter out users that do not match variant criteria.</li>
+<li>Ensure fallback mechanisms to maintain user engagement.</li>
 </ul>
-<P>Una vez que la campaña está activa, los perfiles se evalúan según los criterios definidos y, según los criterios coincidentes, se envían con la experiencia o el contenido adecuados de la campaña.</p>
-<p><img src="assets/do-not-localize/campaign-optimization.gif"/>&gt;</p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<P>Once the campaign is live, profiles are evaluated against the defined criteria, and based on matching criteria, they are delivered with the appropriate experience or content from the campaign.</p>
+<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Modo oscuro en el Designer de correo electrónico</strong><br/></th>
+<th><strong>Dark mode in the Email Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Email Designer ahora permite cambiar a la vista en modo oscuro, donde además puede definir ajustes personalizados específicos que se mostrarán solo para los destinatarios que lean sus correos electrónicos en modo oscuro.</p>
-<p>Tenga en cuenta lo siguiente:</p>
+<p>The Journey Optimizer Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings that will display only for recipients reading their emails in dark mode.</p>
+<p>Note the following:</p>
 <ul>
-<li>El procesamiento final del modo oscuro puede variar y depende del cliente de correo electrónico del destinatario.</li>
-<li>No todos los clientes de correo electrónico admiten el modo oscuro personalizado. Además, algunos clientes de correo electrónico solo aplican su propio modo oscuro predeterminado a todos los correos electrónicos recibidos. En ambos casos, no se puede procesar la configuración personalizada que definió en el Designer de correo electrónico.</li>
+<li>The dark mode final rendering may vary and depends on the recipient's email client.</li>
+<li>Not all email clients support custom dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.</li>
 </ul>
-<P>Actualmente, esta función está en versión Beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con su representante de Adobe.</p>
+<P>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
 <p><img src="assets/do-not-localize/dark-mode.gif"/></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a>. </p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -152,53 +157,55 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <p>El ensayo del recorrido es un modo especial de publicación de recorrido en Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil. Esta función ayuda a los profesionales del recorrido a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en directo.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/journey-dry-run.md">documentación detallada</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Vista de calendario</strong><br/></th>
+<th><strong>Calendar view</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora hay disponible una vista de calendario en las listas de recorridos y campañas. Permite visualizar todas las activaciones de recorridos y campañas en las listas respectivas.</p>
-<p>Esta función, que antes estaba disponible en disponibilidad limitada, ya está disponible en todos los entornos. Con esta versión de General Availability, la función incluye:</p>
+<p>A calendar view is now available in the journeys and campaigns lists. It allows you to visualize all journeys and campaigns activations in the respective lists.</p>
+<p>Previously available in Limited Availability, this feature is now available to all environments. With this General Availability release, the feature includes:</p>
 <ul>
-<li>Mejoras de diseño para la navegación en fechas</li>
-<li>La capacidad de ver borradores de campañas si ha establecido una fecha de inicio y de finalización</li>
-<li>Una nueva configuración para ocultar y mostrar los elementos de calendario que se ejecutan durante mucho tiempo</li>
+<li>Design improvements for the navigation in dates</li>
+<li>The ability to see draft campaigns if you have set a start and end date</li>
+<li>A new setting to hide and show calendar items running for a long time</li>
 </ul>
 <img src="assets/do-not-localize/calendar.gif">
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>ID suplementario para recorridos</strong><br/></th>
+<th><strong>Supplemental ID for journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede activar recorridos utilizando un ID de perfil junto con otro identificador, como un ID de pedido, un ID de suscripción o un ID de prescripción, lo que permite que el mismo perfil esté en el mismo recorrido varias veces a la vez. Esto permite situaciones como administrar varios pedidos o suscripciones en paralelo, y que cada instancia siga su propia ruta a través del recorrido.</p>
-<p>Publicado anteriormente en Disponibilidad limitada, el uso de ID suplementarios en recorrido ya está disponible para todos los entornos. Con esta versión de Disponibilidad general, la función ahora es compatible con los recorridos de Lectura de audiencia.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>You can now trigger journeys using a profile ID along with another identifier, such as an order ID, subscription ID, or prescription ID, allowing the same profile to be in the same journey multiple times at once. This enables scenarios like managing multiple orders or subscriptions in parallel, with each instance following its own path through the journey.</p>
+<p>Previously released in Limited Availability, the use of supplemental IDs in journeys is now available to all environments. With this General Availability release, the feature now includes support for Read audience journeys.</p>
+<p><img src="assets/do-not-localize/FILE.gif"/></p>
+<p>For more information, refer to the <a href="../building-journeys/supplemental-identifier.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 ### Cambio en las condiciones del recorrido {#ee-change@}
 
@@ -213,36 +220,46 @@ Obtenga más información [en estas preguntas frecuentes](../building-journeys/e
 A continuación, se describen las mejoras incluidas en esta versión.
 
 - **Campañas**
-   - **Descalificación de campañas basadas en reglas**: en las tarjetas de contenido, al editar reglas de entrega adicionales, la opción de reglas de entrega anteriores se ha reemplazado con tres tipos de reglas diferentes para controlar mejor el tiempo y la visibilidad de los mensajes:
-      - Mostrar mensaje si: Condiciones que determinan cuándo se muestra la tarjeta de contenido.
-      - Descartar mensaje si: Condiciones que ocultan temporalmente la tarjeta de contenido. Puede volver a aparecer si se vuelven a cumplir las condiciones de visualización.
-      - Descalificar mensaje si: Condiciones que impiden permanentemente que se vuelva a mostrar la tarjeta de contenido.
-  <!-- [Read more](../FILE.md) -->
 
    - **Varias acciones entrantes en las campañas**: para simplificar la orquestación de la campaña, ahora puede definir varias acciones entrantes en una sola campaña. Esta capacidad le permite enviar varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, cada acción con un contenido específico.
   <!-- [Read more](../FILE.md) -->
 
    - **Reorganización del inventario de campañas**: las campañas programadas y activadas por API ahora se dividen en pestañas independientes en el inventario de campañas para facilitar la navegación y la administración.
-  <!-- [Read more](../FILE.md) -->
+
+[Más información](../campaigns/modify-stop-campaign.md)
 
 - **Administración de datos**
    - **Actualización de conjuntos de datos del sistema de Administración de decisiones**: las ofertas personalizadas y de reserva eliminadas ahora se marcan como archivadas en los conjuntos de datos &quot;decision_object_repository_personalized_offers&quot; y &quot;decision_object_repository_fallback_offers&quot;. Los registros existentes en el conjunto de datos no cambian.
-  <!-- [Read more](../FILE.md) -->
+
+[Más información](../offers/export-catalog/access-dataset.md)
 
 - **Recorridos**
    - **Mejoras en la herramienta de espacio aislado para Recorridos**: al copiar recorridos en varios espacios aislados mediante las funciones de exportación e importación de paquetes, ahora también están disponibles las siguientes funciones:
       - Selección de un evento existente en el destino
       - Copia de un evento independientemente de un recorrido
       - Detectar relaciones entre grupos de campos y fuentes de datos, vincularlas en el destino si existen y crearlas en caso contrario.
-  <!-- [Read more](../FILE.md) -->
 
-- **Canal - Aplicación**
-   - **Pares de clave/valor en la aplicación**: con los mensajes en la aplicación, puede definir pares de clave y valor para incluir variables personalizadas en la carga útil del mensaje. Estos pares clave-valor le permiten pasar datos adicionales según su configuración específica y el caso de uso.
-  <!-- [Read more](../FILE.md) -->
+[Más información](../configuration/copy-objects-to-sandbox.md)
+
+- **Canal: en la aplicación**
+   - **Pares de clave/valor en la aplicación**: con los mensajes en la aplicación, puede definir pares de clave y valor para incluir variables personalizadas en la carga útil del mensaje. Estos pares clave-valor le permiten pasar datos adicionales según su configuración específica y el caso de uso. [Más información](../in-app/design-in-app.md)
+
+- **Canal - Tarjeta de contenido**
+
+   - **Descalificación de campaña basada en reglas**: al editar reglas de entrega adicionales, la opción de reglas de entrega anteriores se ha reemplazado con tres tipos de reglas diferentes para controlar mejor el tiempo y la visibilidad del mensaje:
+      - Mostrar mensaje si: Condiciones que determinan cuándo se muestra la tarjeta de contenido.
+      - Descartar mensaje si: Condiciones que ocultan temporalmente la tarjeta de contenido. Puede volver a aparecer si se vuelven a cumplir las condiciones de visualización.
+      - Descalificar mensaje si: Condiciones que impiden permanentemente que se vuelva a mostrar la tarjeta de contenido.
+
+[Más información](../content-card/design-content-card.md)
 
 - **Toma de decisiones**
    - **API de herramientas de migración**: el equipo de Journey Optimizer está trabajando en las API de herramientas de migración para migrar entidades de administración de decisiones a Decisioning. Esta herramienta permite una migración perfecta entre entornos limitados con resolución de dependencia y funciones de reversión. Si está interesado, póngase en contacto con su representante de Adobe.
 
+- **Personalización**
+   - Se ha añadido una nueva función de ayuda, &quot;SHA256&quot;, al editor de personalización. Esta función se utiliza para calcular y devolver el hash sha256 de una cadena.
+
+[Más información](../personalization/functions/string.md#sha256)
 
 ## Notas de la versión de junio de 2025 {#25-6-rn}
 
@@ -251,7 +268,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 **Fecha de lanzamiento**: 18 de junio de 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuevas funciones {#25-06-features}
 
