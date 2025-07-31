@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: cf700f4097883c875c74196317f6494f74f9bc7c
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 19%
+source-wordcount: '836'
+ht-degree: 25%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 19%
 
 >[!AVAILABILITY]
 >
->Esta funcionalidad está actualmente disponible para todos los clientes en beta pública. Póngase en contacto con el representante de su cuenta si desea acceder.
+>Esta funcionalidad está actualmente disponible para todos los clientes en beta pública. Póngase en contacto con el representante de su cuenta si desea tener acceso.
 
 [!DNL Journey Optimizer] le permite aprovechar los datos de [!DNL Adobe Experience Platform] para la toma de decisiones. Esto le permite ampliar la definición de los atributos de decisión a datos adicionales en conjuntos de datos para actualizaciones masivas que cambian periódicamente sin tener que actualizar manualmente los atributos de uno en uno. Por ejemplo, disponibilidad, tiempos de espera, etc.
 
-## Restricciones y directrices de Beta {#guidelines}
+## Mecanismos de protección y limitaciones {#guidelines}
 
 Antes de empezar, tome nota de las siguientes restricciones y directrices:
 
