@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
@@ -64,7 +64,7 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Prueba]**:
 
 1. Puede añadir varias transiciones de salida a una actividad **[!UICONTROL Prueba]**. Para ello, haga clic en el botón **[!UICONTROL Añadir condición]** y configure la etiqueta y la condición asociada para cada transición.
 v
-1. Durante la ejecución de una campaña orquestada, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, las campañas orquestadas continúan en la ruta de la **[!UICONTROL condición predeterminada]**. Si no se activa ninguna condición predeterminada, los flujos de trabajo se detienen en este punto.
+1. Durante la ejecución de una campaña orquestada, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, las campañas orquestadas continúan en la ruta de la **[!UICONTROL condición predeterminada]**. Si no se activa ninguna condición predeterminada, la campaña se detiene en este momento.
 
 ## Ejemplo {#example}
 

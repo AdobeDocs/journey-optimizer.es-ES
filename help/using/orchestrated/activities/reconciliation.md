@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 83%
+source-wordcount: '654'
+ht-degree: 75%
 
 ---
 
@@ -73,8 +73,7 @@ La actividad **[!UICONTROL Enrichment]** le permite agregar datos adicionales a 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="Reglas de reconciliación"
->abstract="Seleccione las reglas de reconciliación que desee utilizar para la anulación de duplicación. Para utilizar atributos, seleccione **Atributos simples** y seleccione los campos de origen y destino. Para crear su propia condición de reconciliación utilizando el modelador de consultas, seleccione la opción **Condiciones de reconciliación avanzadas**."
->additional-url="https://experienceleague.adobe.com/es/docs/campaign-web/v8/query-database/query-modeler-overview" text="Uso del modelador de consultas"
+>abstract="Seleccione las reglas de reconciliación que desee utilizar para la anulación de duplicación. Para utilizar atributos, seleccione **Atributos simples** y seleccione los campos de origen y destino. Para crear su propia condición de reconciliación usando el generador de reglas, seleccione la opción **Condiciones de reconciliación avanzadas**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
@@ -94,7 +93,7 @@ La actividad **[!UICONTROL Enrichment]** le permite agregar datos adicionales a 
 
 Siga estos pasos para configurar la actividad **[!UICONTROL Reconciliación]**:
 
-1. Añada una actividad **[!UICONTROL Reconciliación]** al flujo de trabajo.
+1. Agregue una actividad **[!UICONTROL Reconciliation]** al lienzo.
 
 1. Elija una nueva dimensión de segmentación para definir a quién se está dirigiendo, como los destinatarios o los suscriptores.
 
@@ -114,9 +113,9 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Reconciliación]**:
 
 1. Para añadir más reglas coincidentes, haga clic en **[!UICONTROL Añadir regla]**. Se deben cumplir todas las condiciones para que se produzca una coincidencia.
 
-1. Para condiciones más complejas, elija **[!UICONTROL Condiciones de reconciliación avanzadas]**. Use el [modelador de consultas](../orchestrated-rule-builder.md) para definir la lógica personalizada.
+1. Para condiciones más complejas, elija **[!UICONTROL Condiciones de reconciliación avanzadas]**. Use el [generador de reglas](../orchestrated-rule-builder.md) para definir la lógica personalizada.
 
-1. Para filtrar qué datos desea reconciliar, haga clic en **[!UICONTROL Crear filtro]** y defina la condición en el modelador de consultas.
+1. Para filtrar qué datos reconciliar, haga clic en **[!UICONTROL Crear filtro]** y defina la condición en el generador de reglas.
 
 1. De forma predeterminada, los datos no coincidentes se mantienen en la transición de salida y están disponibles en la tabla de trabajo. Para quitarlos, habilite la opción **[!UICONTROL Mantener datos no reconciliados]**.
 

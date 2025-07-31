@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 77%
+ht-degree: 68%
 
 ---
 
@@ -43,13 +43,13 @@ También admite filtros predefinidos dentro de las condiciones, lo que le permit
 
 ## Acceso al generador de reglas
 
-El modelador de consultas está disponible en todos los contextos en los que necesite definir reglas para filtrar datos.
+El generador de reglas está disponible en todos los contextos en los que necesita definir reglas para filtrar los datos.
 
 | Uso | Ejemplo |
 |  ---  |  ---  |
 | **Crear audiencias**: especifique la población a la que quiera dirigirse en sus campañas orquestadas con una actividad de **[!UICONTROL Crear audiencia]** y cree nuevas audiencias adaptadas a sus necesidades sin esfuerzo. [Aprenda sobre la generación de público](../orchestrated/activities/build-audience.md). | ![Imagen que muestra cómo acceder a la interfaz de generación de públicos](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
 | **Crear condición en el lienzo de campaña**: aplique reglas dentro del lienzo de campaña usando una actividad **[!UICONTROL División]** para alinearse con los requisitos específicos. [Aprenda a utilizar una actividad División](../orchestrated/activities/split.md) | ![Imagen que muestra cómo acceder a las opciones de personalización del flujo de trabajo](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
-| **Crear filtros avanzados**: genere reglas para filtrar los datos mostrados en listas como los registros de flujo de trabajo o las dimensiones de segmentación. | ![Imagen que muestra cómo personalizar filtros de lista](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
+| **Crear filtros avanzados**: Genere reglas para filtrar los datos mostrados en listas como registros de campañas o dimensiones de segmentación. | ![Imagen que muestra cómo personalizar filtros de lista](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## Interfaz del generador de reglas {#interface}
 
