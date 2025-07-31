@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Programación de campañas"
->abstract="De forma predeterminada, las campañas se inician tras la activación manual y finalizan inmediatamente después de enviar el mensaje una vez. Sin embargo, tiene la flexibilidad de establecer una fecha y hora específicas para que se envíe el mensaje. Además, puede especificar una fecha de finalización para las campañas de acción recurrentes. En los Activadores de acción, también puede configurar la frecuencia de envío de mensajes para adaptarla a sus preferencias."
+>abstract="De forma predeterminada, las campañas se inician tras la activación manual y finalizan inmediatamente después de enviar el mensaje una vez. Sin embargo, tiene la flexibilidad de establecer una fecha y hora específicas para que se envíe el mensaje. Además, puede especificar una fecha de finalización para campañas de acción recurrentes. En los Activadores de acción, también puede configurar la frecuencia de envío de mensajes para adaptarla a sus preferencias."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -96,7 +96,7 @@ Compruebe los siguientes requisitos previos antes de empezar a crear su primera 
 
    El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 
-   +++
++++
 
 1. **Necesita un público**. Los públicos deben estar disponibles antes de crear la campaña. [Introducción a las audiencias](../audience/about-audiences.md).
 
