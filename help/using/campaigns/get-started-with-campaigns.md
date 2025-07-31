@@ -96,7 +96,7 @@ Compruebe los siguientes requisitos previos antes de empezar a crear su primera 
 
    El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 
-+++
+   +++
 
 1. **Necesita un público**. Los públicos deben estar disponibles antes de crear la campaña. [Introducción a las audiencias](../audience/about-audiences.md).
 
