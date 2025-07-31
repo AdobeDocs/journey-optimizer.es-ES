@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acciones, recorrido, mensajes, envío, conexiones
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
+source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 46%
@@ -24,7 +24,6 @@ ht-degree: 46%
 >abstract="Las acciones son conexiones a través de las cuales se ofrecen experiencias personalizadas en tiempo real a clientes, como notificaciones push, correo electrónico, SMS u otro medio de participación digital de su negocio."
 
 Las acciones son conexiones a través de las cuales se ofrecen experiencias personalizadas en tiempo real a clientes, como notificaciones push, correo electrónico, SMS u otro medio de participación digital de su negocio.
-
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
@@ -50,4 +49,4 @@ Aprenda a solucionar problemas de una acción personalizada [en esta página ded
 
 Obtenga información sobre cómo configurar acciones personalizadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430277?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
