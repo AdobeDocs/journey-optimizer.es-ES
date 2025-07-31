@@ -57,7 +57,7 @@ Para añadir tarjetas de contenido a un recorrido, siga estos pasos:
       | Ciclo de aplicación | Cierre de aplicación | Se activa cuando se cierra la aplicación. |
       | Ciclo de aplicación | Bloqueo de aplicación | Se activa cuando la aplicación no se envía al segundo plano antes de cerrarse. El evento se envía cuando la aplicación se inicia después del bloqueo. Los informes de bloqueo de Adobe Mobile no implementan un controlador global de excepciones no detectadas. |
 
-+++
+      +++
 
    1. Elija la condición **[!UICONTROL Or]** si desea agregar más **[!UICONTROL Déclencheur]** para expandir aún más la regla.
 
@@ -82,7 +82,7 @@ Para añadir tarjetas de contenido a un recorrido, siga estos pasos:
       | Ciclo de aplicación | Lanzamientos | Se activa cuando se alcanza el número especificado de inicios. |
       | Ciclo de aplicación | Hora del día | Se activa cuando se cumple la hora del día especificada. |
 
-+++
+      +++
 
    1. Haga clic en **[!UICONTROL Crear grupo]** para agrupar los déclencheur.
 
@@ -140,7 +140,7 @@ Para empezar a crear sus tarjetas de contenido a través de una campaña, siga l
       | Ciclo de aplicación | Cierre de aplicación | Se activa cuando se cierra la aplicación. |
       | Ciclo de aplicación | Bloqueo de aplicación | Se activa cuando la aplicación no se envía al segundo plano antes de cerrarse. El evento se envía cuando la aplicación se inicia después del bloqueo. Los informes de bloqueo de Adobe Mobile no implementan un controlador global de excepciones no detectadas. |
 
-+++
+      +++
 
    1. Elija la condición **[!UICONTROL Or]** si desea agregar más **[!UICONTROL Déclencheur]** para expandir aún más la regla.
 
@@ -165,7 +165,7 @@ Para empezar a crear sus tarjetas de contenido a través de una campaña, siga l
       | Ciclo de aplicación | Lanzamientos | Se activa cuando se alcanza el número especificado de inicios. |
       | Ciclo de aplicación | Hora del día | Se activa cuando se cumple la hora del día especificada. |
 
-+++
+      +++
 
    1. Haga clic en **[!UICONTROL Crear grupo]** para agrupar los déclencheur.
 
