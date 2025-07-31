@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: lista de semillas, lista de semillas, semillas, configuración
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '985'
 ht-degree: 22%
 
 ---
@@ -155,5 +155,7 @@ Ahora que la lista de reasignación se ha creado, puede utilizarla en cualquier 
 Ahora, cada vez que se envía un mensaje de correo electrónico a sus clientes a través de esa campaña o recorrido, las direcciones de correo electrónico de la lista semilla seleccionada también lo reciben en las mismas condiciones, al mismo tiempo y con el mismo contenido que los destinatarios objetivo.
 
 >[!NOTE]
+>
+>[Los recorridos del modo de prueba](../building-journeys/testing-the-journey.md) no envían correos electrónicos a la lista semilla. Para comprobar el contenido del correo electrónico, usa la funcionalidad [previsualizar y probar](../content-management/preview-test.md) antes de enviar el mensaje.
 >
 >En el caso de los recorridos recurrentes, la entrega por correo electrónico se envía a las direcciones semilla en cada ejecución de recorrido, siempre que al menos un perfil llegue al nodo de correo electrónico.
