@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zona protegida, recorrido, copiar, entorno
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: c90189d4b064e00bd2f2bdde67230aeb84dd97f6
+source-git-commit: f8134fd1e030fb969747a37acd657f62fd398c75
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1701'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 Puede copiar objetos, como recorridos, acciones personalizadas, plantillas de contenido o fragmentos, en varios entornos limitados mediante las funciones de exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.
 
-En esta página se describe el caso de uso de las herramientas de entorno limitado en el contexto de Journey Optimizer. Para obtener más información sobre la característica en sí, consulte la [Guía de herramientas de espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=es#abobe-journey-optimizer-objects){target="_blank"} de Adobe Experience Platform.
+En esta página se describe el caso de uso de las herramientas de entorno limitado en el contexto de Journey Optimizer. Para obtener más información sobre la característica en sí, consulte la [Guía de herramientas de espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"} de Adobe Experience Platform.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Journey Optimizer permite exportar recorridos, acciones personalizadas, plantill
 
 +++ Recorridos
 
-* **Dependencias copiadas**: al exportar un recorrido, además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: audiencias, acciones personalizadas, esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte la [Guía de herramientas de espacio aislado de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=es#abobe-journey-optimizer-objects){target="_blank"}.
+* **Dependencias copiadas**: al exportar un recorrido, además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: audiencias, acciones personalizadas, esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte la [Guía de herramientas de espacio aislado de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}.
 
 * **Validación manual recomendada**: no garantizamos que todos los elementos vinculados se copien en la zona protegida de destino. Le recomendamos encarecidamente que realice una comprobación exhaustiva, por ejemplo, antes de publicar un recorrido. Esto le permite identificar cualquier posible objeto que falte.
 
@@ -62,13 +62,8 @@ Journey Optimizer permite exportar recorridos, acciones personalizadas, plantill
 
    * Al copiar un recorrido en otra zona protegida, si selecciona &quot;Usar existente&quot; para una acción personalizada durante el proceso de importación, la acción personalizada existente que seleccione debe ser la misma que la acción personalizada de origen (es decir, la misma configuración, parámetros, etc.). De lo contrario, la nueva copia de recorrido tendrá errores que no se podrán resolver en el lienzo.
 
-<!--* **Data sources, field groups and events** - When copying a journey that uses events, data sources, or field groups, the import process automatically checks whether components with the same name and type already exist in the target sandbox.
+* **Fuentes de datos, grupos de campos y eventos**: al copiar un recorrido que usa eventos, fuentes de datos o grupos de campos, el proceso de importación comprueba automáticamente si ya existen componentes con el mismo nombre y tipo en la zona protegida de destino. Por ejemplo, un evento unitario se reemplazará con un evento unitario en la zona protegida de destino con el mismo nombre. Lo mismo se aplica a los eventos empresariales, las fuentes de datos personalizadas y los grupos de campos basados en API y en esquema utilizados en recorrido. Si un evento unitario de la zona protegida de origen tiene el mismo nombre que una zona protegida de destino de evento empresarial, no se copia ni se crea, esto se aplica también a todos los demás componentes.
 
-   * If a match is found, the existing components in the target sandbox are reused by the imported journey.
-   * If no match is found, the system creates new components.
-
-   This ensures that journeys relying on these elements remain functional after import, with minimal manual adjustment.
--->
 +++
 
 +++ Campañas
