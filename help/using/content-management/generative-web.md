@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1181'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Antes de empezar a usar esta capacidad, lea las [Mecanismos de protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
-></br>
+>></br>
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
@@ -67,7 +67,15 @@ El asistente de IA de Journey Optimizer puede ayudarle a optimizar el impacto de
 
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 
-1. Examine las **[!UICONTROL variaciones]** generadas y haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
+1. Examine las **[!UICONTROL variaciones]** generadas.
+
+   Haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada o haga clic en **[!UICONTROL Aplicar]** para reemplazar el contenido actual.
+
+1. Haga clic en el icono de porcentaje para ver su **[!UICONTROL puntuación de alineación de marca]** e identificar cualquier desalineación con su marca.
+
+   Más información sobre [puntuación de alineación de marca](brands-score.md).
+
+   ![](assets/web-gen-full-4.png){zoomable="yes"}
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
@@ -77,13 +85,15 @@ El asistente de IA de Journey Optimizer puede ayudarle a optimizar el impacto de
 
    * **[!UICONTROL Resumir]**: La información larga puede sobrecargar a los destinatarios. Utilice el asistente de IA para condensar los puntos clave en resúmenes claros y concisos que llamen la atención y los animen a leer más.
 
-   * **[!UICONTROL Reformular]**: el Asistente de IA puede reformular su mensaje de diferentes maneras, manteniendo su escritura fresca y atractiva para diversas audiencias.
+   * El Asistente de inteligencia artificial de **[!UICONTROL Reformular]**:The puede reformular tu mensaje de diferentes maneras, manteniendo tu escritura fresca y atractiva para diversas audiencias.
 
    * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el Asistente para IA a fin de simplificar su lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
-   ![](assets/web-gen-full-4.png){zoomable="yes"}
+   ![](assets/web-gen-full-5.png){zoomable="yes"}
+
+1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
 1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
 
@@ -119,7 +129,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA en Journey Opti
 
 1. Adapte el mensaje con la opción **[!UICONTROL Configuración de imagen]**:
 
-   * **[!UICONTROL Proporción de aspecto]**: determina la anchura y la altura del recurso. Tiene la opción de elegir entre proporciones comunes, como 16:9, 4:3, 3:2 o 1:1, o bien puede introducir un tamaño personalizado.
+   * **[!UICONTROL Proporción de aspecto]**: determina la anchura y la altura del recurso. Tiene la opción de elegir entre proporciones comunes como 16:9, 4:3, 3:2 o 1:1, o bien puede especificar un tamaño personalizado.
    * **[!UICONTROL Tipo de contenido]**: Esto categoriza la naturaleza del elemento visual, distinguiendo entre diferentes formas de representación visual como fotografías, gráficos o arte.
    * **[!UICONTROL Intensidad visual]**: puede controlar el impacto de la imagen ajustando su intensidad. Un ajuste inferior (2) creará una apariencia más suave y restringida, mientras que un ajuste superior (10) hará que la imagen sea más vibrante y visualmente potente.
    * **[!UICONTROL Color y tono]**: El aspecto general de los colores de una imagen y el estado de ánimo o atmósfera que transmite.
@@ -134,15 +144,28 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA en Journey Opti
 
 1. Una vez que esté satisfecho con la configuración de la solicitud, haga clic en **[!UICONTROL Generar]**.
 
-1. Examine **[!UICONTROL sugerencias de variación]** para encontrar el recurso deseado.
+1. Examine las **[!UICONTROL variaciones]** generadas.
 
-   Haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
+   Haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada o haga clic en **[!UICONTROL Aplicar]** para reemplazar el contenido actual.
+
+1. Haga clic en el icono de porcentaje para ver su **[!UICONTROL puntuación de alineación de marca]** e identificar cualquier desalineación con su marca.
+
+   Más información sobre [puntuación de alineación de marca](brands-score.md).
 
    ![](assets/web-gen-img-4.png){zoomable="yes"}
 
-1. Elija **[!UICONTROL Generar]** similar si desea ver imágenes relacionadas con esta variante.
+1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
+
+   * **[!UICONTROL Generar]** similares para ver las imágenes relacionadas con esta variante.
+   * **[!UICONTROL Edite en Adobe Express]** para personalizar aún más su recurso.
+
+[Obtenga más información sobre la integración de Adobe Express](../integrations/express.md)
+
+   * **[!UICONTROL Guardar]** para almacenar los recursos y poder acceder a ellos más adelante.
 
    ![](assets/web-gen-img-5.png){zoomable="yes"}
+
+1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
 1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
 

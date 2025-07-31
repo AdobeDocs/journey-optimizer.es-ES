@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '247'
 ht-degree: 9%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!IMPORTANT]
 >
 >Antes de empezar a usar esta capacidad, lea las [Mecanismos de protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
-></br>
+>></br>
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
@@ -44,9 +44,7 @@ Una vez que haya creado y personalizado sus mensajes, eleve su contenido con AI 
 
    ![](assets/experiment-genai-3.png)
 
-1. Desde la ventana Experimento de contenido, accede al botón **[!UICONTROL Configuración del experimento]** para configurar el experimento. [Más información sobre el Experimento de contenido](../content-management/content-experiment.md)
-
-   ![](assets/experiment-genai-4.png)
+1. Desde el experimento de contenido, ahora puede empezar a configurar la experimentación de contenido. [Más información sobre el Experimento de contenido](../content-management/content-experiment.md)
 
 1. Cuando el experimento de contenido esté listo, desde la página de resumen de la campaña, puede hacer clic en **[!UICONTROL Revisar para activar]** y mostrar un resumen de la campaña. Las alertas se muestran si algún parámetro es incorrecto o falta. [Más información](../content-management/content-experiment.md#treatment-experiment)
 

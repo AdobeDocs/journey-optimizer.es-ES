@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1759'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Antes de empezar a usar esta capacidad, lea las [Mecanismos de protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
-></br>
+>></br>
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
@@ -86,7 +86,15 @@ Siga estos pasos:
 
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 
-1. Examine las **[!UICONTROL variaciones]** generadas y haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
+1. Examine las **[!UICONTROL variaciones]** generadas.
+
+   Haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada o haga clic en **[!UICONTROL Aplicar]** para reemplazar el contenido actual.
+
+1. Haga clic en el icono de porcentaje para ver su **[!UICONTROL puntuación de alineación de marca]** e identificar cualquier desalineación con su marca.
+
+   Más información sobre [puntuación de alineación de marca](brands-score.md).
+
+   ![](assets/push-genai-full-4.png){zoomable="yes"}
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
@@ -98,7 +106,9 @@ Siga estos pasos:
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
-   ![](assets/push-genai-full-4.png){zoomable="yes"}
+   ![](assets/push-genai-full-6.png){zoomable="yes"}
+
+1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
 1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
 
@@ -151,6 +161,14 @@ En este ejemplo en particular, aprenda a utilizar el asistente de IA en Journey 
 
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 
+1. Examine las **[!UICONTROL variaciones]** generadas.
+
+1. Haga clic en el icono de porcentaje para ver su **[!UICONTROL puntuación de alineación de marca]** e identificar cualquier desalineación con su marca.
+
+   Más información sobre [puntuación de alineación de marca](brands-score.md).
+
+   ![](assets/push-genai-5.png){zoomable="yes"}
+
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
    * **[!UICONTROL Usar como contenido de referencia]**: la variante elegida servirá como contenido de referencia para generar otros resultados.
@@ -159,13 +177,15 @@ En este ejemplo en particular, aprenda a utilizar el asistente de IA en Journey 
 
    * **[!UICONTROL Resumir]**: La información larga puede sobrecargar a los destinatarios. Utilice el asistente de IA para condensar los puntos clave en resúmenes claros y concisos que llamen la atención y los animen a leer más.
 
-   * **[!UICONTROL Reformular]**: el Asistente de IA puede reformular su mensaje de diferentes maneras, manteniendo su escritura fresca y atractiva para diversas audiencias.
+   * El Asistente de inteligencia artificial de **[!UICONTROL Reformular]**:The puede reformular tu mensaje de diferentes maneras, manteniendo tu escritura fresca y atractiva para diversas audiencias.
 
    * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el Asistente para IA a fin de simplificar su lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
-   ![](assets/push-genai-5.png){zoomable="yes"}
+   ![](assets/push-genai-6.png){zoomable="yes"}
+
+1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
 1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
 
@@ -187,7 +207,7 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
 1. Acceda al menú **[!UICONTROL Agregar medios]**.
 
-   ![](assets/push-gen-img.png){zoomable="yes"}
+   ![](assets/push-gen-img-1.png){zoomable="yes"}
 
 1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el Asistente de IA personalice el nuevo contenido en función del contenido de referencia. También puede cargar una imagen para añadir contexto a la variación.
 
@@ -199,7 +219,7 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
    Si está buscando ayuda para crear su mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar sus campañas.
 
-   ![](assets/push-gen-img-1.png){zoomable="yes"}
+   ![](assets/push-gen-img.png){zoomable="yes"}
 
 1. Elija su **[!UICONTROL configuración de imagen]**:
 
@@ -217,9 +237,22 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
 1. Examine las **[!UICONTROL variaciones]** generadas.
 
+1. Haga clic en el icono de porcentaje para ver su **[!UICONTROL puntuación de alineación de marca]** e identificar cualquier desalineación con su marca.
+
+   Más información sobre [puntuación de alineación de marca](brands-score.md).
+
+1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
+
+   * **[!UICONTROL Generar]** similares para ver las imágenes relacionadas con esta variante.
+   * **[!UICONTROL Edite en Adobe Express]** para personalizar aún más su recurso.
+
+[Obtenga más información sobre la integración de Adobe Express](../integrations/express.md)
+
+   * **[!UICONTROL Guardar]** para almacenar los recursos y poder acceder a ellos más adelante.
+
    ![](assets/push-gen-img-2.png){zoomable="yes"}
 
-1. Seleccione **[!UICONTROL Generar similar]** para ver las variaciones de imagen que coinciden con la opción actual, proporcionando diseños alternativos con un tema coherente.
+1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
 1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
 

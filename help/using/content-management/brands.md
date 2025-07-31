@@ -3,14 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Administrar marca
 description: Aprenda a crear y administrar las directrices de marca
-badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
+source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1451'
 ht-degree: 22%
 
 ---
@@ -33,8 +32,6 @@ ht-degree: 22%
 >abstract="Seleccione su marca para asegurarse de que el contenido se crea de acuerdo con sus directrices, estándares e identidad específicos, manteniendo la coherencia y la integridad de la marca."
 
 >[!AVAILABILITY]
->
->Esta capacidad está disponible como una versión beta privada. Estará disponible de forma progresiva para todos los clientes en futuras versiones.
 >
 >Debe aceptar el [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar el Asistente de IA en Adobe Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 

@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1684'
 ht-degree: 2%
 
 ---
 
-# Generación de páginas de aterrizaje con el asistente de IA {#generative-lp}
+# Generación de la página de destino con el Asistente de IA {#generative-lp}
 
 >[!IMPORTANT]
 >
@@ -74,11 +74,17 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para refinar una planti
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
-   ![](assets/lp-full-gen-5.png){zoomable="yes"}
-
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 
-1. Examine las **[!UICONTROL variaciones]** generadas y haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
+1. Examine las **[!UICONTROL variaciones]** generadas.
+
+   Haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada o haga clic en **[!UICONTROL Aplicar]** para reemplazar el contenido actual.
+
+1. Haga clic en el icono de porcentaje para ver su **[!UICONTROL puntuación de alineación de marca]** e identificar cualquier desalineación con su marca.
+
+   Más información sobre [puntuación de alineación de marca](brands-score.md).
+
+   ![](assets/lp-full-gen-5.png){zoomable="yes"}
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
@@ -89,6 +95,8 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para refinar una planti
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
    ![](assets/lp-full-gen-6.png){zoomable="yes"}
+
+1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
 1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
 
@@ -129,11 +137,18 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para mejorar el conteni
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
-   ![](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 
-1. Examine las **[!UICONTROL variaciones]** generadas y haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
+1. Examine las **[!UICONTROL variaciones]** generadas.
+
+   Haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada o haga clic en **[!UICONTROL Aplicar]** para reemplazar el contenido actual.
+
+1. Haga clic en el icono de porcentaje para ver su **[!UICONTROL puntuación de alineación de marca]** e identificar cualquier desalineación con su marca.
+
+   Más información sobre [puntuación de alineación de marca](brands-score.md).
+
+   ![](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
@@ -143,13 +158,15 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para mejorar el conteni
 
    * **[!UICONTROL Resumir]**: La información larga puede sobrecargar los destinatarios de la página de aterrizaje. Utilice el asistente de IA para condensar los puntos clave en resúmenes claros y concisos que llamen la atención y los animen a leer más.
 
-   * **[!UICONTROL Reformular]**: el Asistente de IA puede reformular su mensaje de diferentes maneras, manteniendo su escritura fresca y atractiva para diversas audiencias.
+   * El Asistente de inteligencia artificial de **[!UICONTROL Reformular]**:The puede reformular tu mensaje de diferentes maneras, manteniendo tu escritura fresca y atractiva para diversas audiencias.
 
    * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el Asistente para IA a fin de simplificar su lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
    ![](assets/lp-text-gen-5.png){zoomable="yes"}
+
+1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
 1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
 
@@ -181,7 +198,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
 
 1. Adapte el mensaje con la opción **[!UICONTROL Configuración de imagen]**:
 
-   * **[!UICONTROL Proporción de aspecto]**: determina la anchura y la altura del recurso. Tiene la opción de elegir entre proporciones comunes, como 16:9, 4:3, 3:2 o 1:1, o bien puede introducir un tamaño personalizado.
+   * **[!UICONTROL Proporción de aspecto]**: determina la anchura y la altura del recurso. Tiene la opción de elegir entre proporciones comunes como 16:9, 4:3, 3:2 o 1:1, o bien puede especificar un tamaño personalizado.
    * **[!UICONTROL Tipo de contenido]**: Esto categoriza la naturaleza del elemento visual, distinguiendo entre diferentes formas de representación visual como fotografías, gráficos o arte.
    * **[!UICONTROL Intensidad visual]**: puede controlar el impacto de la imagen ajustando su intensidad. Un ajuste inferior (2) creará una apariencia más suave y restringida, mientras que un ajuste superior (10) hará que la imagen sea más vibrante y visualmente potente.
    * **[!UICONTROL Color y tono]**: El aspecto general de los colores de una imagen y el estado de ánimo o atmósfera que transmite.
@@ -196,13 +213,28 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
 
 1. Una vez que esté satisfecho con la configuración de la solicitud, haga clic en **[!UICONTROL Generar]**.
 
-1. Examine **[!UICONTROL sugerencias de variación]** para encontrar el recurso deseado.
+1. Examine las **[!UICONTROL variaciones]** generadas.
 
-   Haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
+   Haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada o haga clic en **[!UICONTROL Aplicar]** para reemplazar el contenido actual.
 
-1. Elija **[!UICONTROL Generar]** similar si desea ver imágenes relacionadas con esta variante.
+1. Haga clic en el icono de porcentaje para ver su **[!UICONTROL puntuación de alineación de marca]** e identificar cualquier desalineación con su marca.
+
+   Más información sobre [puntuación de alineación de marca](brands-score.md).
 
    ![](assets/lp-image-gen-4.png){zoomable="yes"}
+
+1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
+
+   * **[!UICONTROL Generar]** similares para ver las imágenes relacionadas con esta variante.
+   * **[!UICONTROL Edite en Adobe Express]** para personalizar aún más su recurso.
+
+[Obtenga más información sobre la integración de Adobe Express](../integrations/express.md)
+
+   * **[!UICONTROL Guardar]** para almacenar los recursos y poder acceder a ellos más adelante.
+
+   ![](assets/lp-image-gen-5.png){zoomable="yes"}
+
+1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
 1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
 

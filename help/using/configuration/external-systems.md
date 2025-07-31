@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
+source-git-commit: 0a6db9c9537563fea5d56289d78b9ed49d703734
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 28%
+source-wordcount: '1352'
+ht-degree: 26%
 
 ---
 
@@ -102,7 +102,7 @@ Veamos un ejemplo para un tiempo de espera de 5 segundos.
 
 **¿Cómo puedo configurar una regla de restricción o límite? ¿Hay una regla predeterminada?**
 
-Para crear reglas de restricción o límite, consulte [esta sección](../configuration/external-systems.md#capping). De forma predeterminada, no hay ninguna regla de restricción, pero se establece un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Debe tenerlo en cuenta en los recorridos basados en públicos definiendo una tasa de lectura adecuada (5000 perfiles por segundo cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción.
+Para crear reglas de restricción o límite, consulte [esta sección](../configuration/external-systems.md#capping). De forma predeterminada, no hay ninguna regla de restricción, pero se establece un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción.
 
 **¿Cuántos reintentos se realizan? ¿Puedo cambiar el número de reintentos o definir un período de espera mínimo entre reintentos?**
 

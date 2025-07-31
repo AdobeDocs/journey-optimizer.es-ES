@@ -7,9 +7,9 @@ topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1950'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Cada vez que se modifica una oferta, se actualiza el conjunto de datos generado automáticamente para ofertas de contenido personalizado.
 
-![](../assets/dataset-offers.png)
-
 El lote exitoso más reciente en el conjunto de datos se muestra a la derecha. La vista jerárquica del esquema del conjunto de datos se muestra en el panel izquierdo.
+
+![](../assets/dataset-offers.png)
 
 >[!NOTE]
 >
->Obtenga información sobre cómo acceder a los conjuntos de datos exportados para cada objeto de la biblioteca de ofertas en [esta sección](../export-catalog/access-dataset.md).
+>Las ofertas personalizadas eliminadas se marcan como archivadas en el conjunto de datos.
 
 Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repositorio de objetos de decisión - ofertas personalizadas]** conjunto de datos.
 
@@ -97,7 +97,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
 +++_experiencia > toma de decisiones > contenido > componentes
 
 **Campo:** componentes
-**Descripción:** Los componentes del contenido que representan la opción de decisión, incluidas todas las variantes de idioma. Los componentes específicos se encuentran mediante &quot;dx:format&quot;, &quot;dc:subject&quot; y &quot;dc:language&quot; o una combinación de ellos. Estos metadatos se utilizan para localizar o representar el contenido asociado a una oferta e integrarlo según el contrato de colocación.
+**Descripción:** Los componentes del contenido que representan la opción de decisión, incluidas todas las variantes de idioma. Los componentes específicos se encuentran en &quot;dx:format&quot;, &quot;dc:subject&quot; y &quot;dc:language&quot; o una combinación de ellos. Estos metadatos se utilizan para localizar o representar el contenido asociado a una oferta e integrarlo según el contrato de colocación.
 **Tipo:** matriz
 **Requerido:** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
@@ -123,7 +123,6 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
      **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Idioma**
-
      **Campo:** idioma
      **Título:** Idioma
      **Descripción:** Idioma o idiomas del recurso. \nLos idiomas se especifican en el código de idioma tal como se definen en [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que forma parte de BCP 47, que se usa en otras partes de XDM.
@@ -138,20 +137,20 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
    * **id**
 
      **Campo:** id.
-     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
+     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad \&quot;repo:resolveUrl\&quot; adicional para recuperar el recurso.
      **Tipo:** cadena
      **Ejemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
      **Campo:** nombre
-     **Descripción:** Algunas sugerencias sobre dónde ubicar el repositorio que almacena el recurso externo mediante el \&quot;repo:id\&quot;.
+     **Descripción:** Algunas sugerencias sobre dónde ubicar el repositorio que almacena el recurso externo del \&quot;repo:id\&quot;.
      **Tipo:** cadena
 
    * **ID de repositorio**
 
      **Campo:** repositoryID
-     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
+     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad \&quot;repo:resolveUrl\&quot; adicional para recuperar el recurso.
      **Tipo:** cadena
      **Ejemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
