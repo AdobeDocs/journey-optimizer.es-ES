@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 25%
 
 ---
@@ -56,7 +56,7 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
    El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 
-   +++
++++
 
 1. **Configurar atributos personalizados**: adapte el catálogo de artículos a sus necesidades específicas configurando atributos personalizados en el esquema del catálogo.
 
@@ -82,7 +82,7 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
    ➡️ [Aprenda a crear estrategias de selección en la interfaz de usuario](selection-strategies.md) en la interfaz de usuario (y en la [documentación de API](api-reference/selection-strategies/create.md))
 
-1. **Cree una política de decisión e incrústela en su campaña basada en código**: las políticas de decisión combinan varias estrategias de selección para determinar los elementos de decisión aptos para mostrar a la audiencia deseada.
+1. **Cree una política de decisión e incrústela en su recorrido/campaña de correo electrónico o basado en código**: las políticas de decisión combinan varias estrategias de selección para determinar los elementos de decisión aptos que se mostrarán a la audiencia deseada.
 
    ➡️ [Aprenda a trabajar con directivas de decisión](create-decision.md)
 ➡️ Para entregar correctamente la oferta a través del canal de experiencia basado en código, siga los pasos de implementación de [esta sección](../code-based/code-based-implementation-samples.md).

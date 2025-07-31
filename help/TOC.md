@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '2592'
-ht-degree: 95%
+source-wordcount: '2594'
+ht-degree: 94%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 95%
    + [Prácticas recomendadas](using/start/best-practices.md)
 + Recorridos {#orchestrate-journeys}
    + [Introducción a los recorridos](using/building-journeys/journey.md)
-   + Creación de un recorrido{#create-journey}
+   + Creación de un recorrido {#create-journey}
       + [Creación de su primer recorrido](using/building-journeys/journey-gs.md)
       + [Establecimiento de las propiedades del recorrido](using/building-journeys/journey-properties.md)
       + [Configuración y seguimiento de la métrica de recorrido](using/building-journeys/success-metrics.md)
@@ -53,7 +53,7 @@ ht-degree: 95%
       + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
       + [Pausa de un recorrido](using/building-journeys/journey-pause.md)
       + [Informe en vivo en el recorrido](using/building-journeys/report-journey.md)
-   + Administrar los recorridos{#manage-journey}
+   + Administrar los recorridos {#manage-journey}
       + [Examinar y filtrar sus recorridos](using/building-journeys/journey-ui.md)
       + [Entrada de perfil en recorridos](using/building-journeys/entry-management.md)
       + [Identificador adicional en recorridos activados por eventos](using/building-journeys/supplemental-identifier.md)
@@ -452,7 +452,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
       + [Experimento de contenido con IA](using/content-management/generative-experimentation.md)
       + [Página de destino con IA](using/content-management/generative-lp.md)
       + [Casos de uso del Asistente de IA](using/content-management/generative-uc.md)
-      + Marcas (beta){#brands}
+      + Marcas {#brands}
          + [Creación y administración de sus marcas](using/content-management/brands.md)
          + [Evaluar la puntuación de alineación de la marca](using/content-management/brands-score.md)
    + Contenido multilingüe{#content-multilingual}
@@ -585,6 +585,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
             + [Modelo de optimización automática](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Modelo de optimización personalizado](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [Creación de modelos de IA](using/experience-decisioning/ranking/create-ai-models.md)
+      + [Trabajo con ubicaciones](using/experience-decisioning/placements.md)
       + Uso de datos de Adobe Experience Platform {#aep-data}
          + [Mejora de datos de contexto](using/experience-decisioning/context-data.md)
          + [Uso de Adobe Experience Platform para la toma de decisiones](using/experience-decisioning/aep-data-exd.md)

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Crear un correo electrónico
+title: Creación de un correo electrónico
 description: Obtenga información sobre cómo crear correos electrónicos en Journey Optimizer
 feature: Email
 topic: Content Management
@@ -9,14 +9,14 @@ role: User
 level: Beginner
 keywords: creación, correo electrónico, inicio, recorrido, campaña
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 9%
+source-wordcount: '1033'
+ht-degree: 8%
 
 ---
 
-# Crear un correo electrónico {#create-email}
+# Creación de un correo electrónico {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
@@ -84,7 +84,17 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
 
    ![](assets/email_campaign_edit_content.png)
 
-   En la sección **[!UICONTROL Header]** de la pantalla **[!UICONTROL Edit content]**, los campos **[!UICONTROL From name]**, **[!UICONTROL From email]** y **[!UICONTROL BCC]** están configurados en la configuración de correo electrónico que seleccionó. [Más información](email-settings.md) <!--check if same for journey-->
+1. Alterne **[!UICONTROL Habilitar toma de decisiones]** si desea agregar directivas de decisión al correo electrónico.
+
+   Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de decisión para devolver dinámicamente el mejor contenido para entregar a cada miembro de la audiencia. [Aprenda a agregar una directiva de decisión en un correo electrónico](../experience-decisioning/create-decision.md#add)
+
+   ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
+
+   >[!AVAILABILITY]
+   >
+   >Por ahora, la creación de políticas de decisión en correos electrónicos no está disponible para las organizaciones que han adquirido las ofertas adicionales de Adobe Healthcare Shield o Privacy and Security Shield.
+
+1. En la sección **[!UICONTROL Header]**, compruebe los campos **[!UICONTROL From name]**, **[!UICONTROL From email]** y **[!UICONTROL BCC]**. Se configuran en la configuración de correo electrónico seleccionada. [Más información](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -92,9 +102,7 @@ Para obtener más información sobre cómo configurar una campaña, consulte [es
 
    >[!NOTE]
    >
-   >* La línea de asunto es obligatoria.
-   >
-   >* La línea de asunto no debe incluir saltos de línea.
+   >La línea de asunto es obligatoria. No debe incluir saltos de línea.
 
 1. Haga clic en el botón **[!UICONTROL Editar cuerpo del correo electrónico]** para acceder al Designer de correo electrónico y comenzar a crear su contenido. [Más información](get-started-email-design.md)
 

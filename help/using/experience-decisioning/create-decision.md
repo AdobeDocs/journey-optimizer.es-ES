@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: ddb0a03461f37c7217486cc7fb8f28df83a90e59
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '1865'
-ht-degree: 16%
+source-wordcount: '2496'
+ht-degree: 11%
 
 ---
 
@@ -42,21 +42,40 @@ ht-degree: 16%
 >title="Seleccionar atributos de decisión del catálogo"
 >abstract="Los atributos de decisión se almacenan en el esquema del catálogo. Seleccione un atributo que desee utilizar aquí desde el catálogo seleccionado."
 
-Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de decisión para elegir el mejor contenido que se ofrece, según la audiencia.
+Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de decisión para devolver dinámicamente el mejor contenido para entregar a cada miembro de la audiencia. Su objetivo es seleccionar las mejores ofertas para cada perfil, mientras que la creación de campañas/recorridos le permite indicar cómo se deben presentar los elementos de decisión seleccionados, incluidos los atributos de elemento que se deben incluir en el mensaje.
 
-<!--Decision policies contain all of the selection logic for the decisioning engine to pick the best content. Decision policies are campaign specific. -->Su objetivo es seleccionar las mejores ofertas para cada perfil, mientras que la creación de campañas/recorridos le permite indicar cómo se deben presentar los elementos de decisión seleccionados, incluidos los atributos de elemento que se deben incluir en el mensaje.
+## Pasos clave {#key}
 
->[!NOTE]
->
->En la interfaz de usuario [!DNL Journey Optimizer], las directivas de decisión se etiquetan como decisiones<!--but they are decision policies. TBC if this note is needed-->.
+Los pasos principales para aprovechar las políticas de decisión en sus mensajes son los siguientes:
 
-Los pasos principales para aprovechar las políticas de decisión en sus campañas basadas en código son los siguientes:
+1. [Crear una política de decisión en un correo electrónico o una experiencia basada en código](#add-decision)
 
-1. [Añadir una política de decisión a una experiencia basada en código](#add-decision)
-1. [Usar la directiva de decisión](#use-decision-policy)
-1. [Creación de paneles de informes de Customer Journey Analytics personalizados](cja-reporting.md)
+   Configure una política de decisión en el correo electrónico o la experiencia basada en código eligiendo el número de elementos que desea devolver, configurando las estrategias de selección, las opciones de reserva y el orden de evaluación.
 
-## Añadir una política de decisión a una experiencia basada en código {#add-decision}
+1. [Uso de la política de decisión en el contenido](#use-decision-policy)
+
+   Personalice el contenido con el resultado y los atributos de la política de decisión de los elementos de decisión que desee mostrar en el mensaje.
+
+1. [Creación de paneles de informes](cja-reporting.md)
+
+   Cree paneles personalizados de Customer Journey Analytics para medir el rendimiento y obtener información sobre cómo se entregan las políticas de decisión y las ofertas y cómo se interactúa con ellas.
+
+## Mecanismos de protección y limitaciones
+
+* **Disponibilidad limitada - Política de decisiones en correos electrónicos** - Por ahora, la creación de políticas de decisiones en correos electrónicos está disponible en Disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+* **Páginas espejo**: por ahora, los elementos de decisión no se representan en las páginas espejo de los correos electrónicos.
+* **Tipo de seguimiento y vínculos**: para realizar el seguimiento de los vínculos generados por la toma de decisiones, defina estos vínculos en el esquema como &quot;Decisioning Assets&quot;. Los vínculos basados en atributos no se pueden rastrear.
+* **Anidado de directivas de decisión en correos electrónicos**: no puede anidar varias directivas de decisión dentro de un componente de correo electrónico principal que ya tenga asociada una directiva de decisión.
+* **recorridos/campañas duplicados con toma de decisiones**: si duplica un recorrido o una campaña que incluye una directiva de decisión, la versión duplicada hace referencia al correo electrónico o la experiencia basada en código original, lo que provoca errores. Siempre vuelva a configurar la política de decisión después de la duplicación.
+* **Políticas de consentimiento**: las actualizaciones de las políticas de consentimiento pueden tardar hasta 24 horas en surtir efecto. Si una directiva de decisión hace referencia a un atributo vinculado a una directiva de consentimiento actualizada recientemente, los cambios no se aplican inmediatamente.
+
+  Del mismo modo, si se añaden nuevos atributos de perfil sujetos a una directiva de consentimiento a una directiva de decisión, se pueden utilizar, pero la directiva de consentimiento asociada a ellos no se aplicará hasta que haya pasado el retraso.
+
+  Las políticas de consentimiento solo están disponibles para las organizaciones con el complemento Adobe Healthcare Shield o Privacy and Security Shield.
+
+* **Clasificación de IA**: por ahora, la clasificación de IA no es compatible con el canal de correo electrónico en recorridos con toma de decisiones.
+
+## Crear una política de decisión en un correo electrónico o una experiencia basada en código {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
@@ -74,43 +93,72 @@ Los pasos principales para aprovechar las políticas de decisión en sus campañ
 >abstract="La secuencia de la estrategia de selección determina qué estrategia se evaluará primero. Se requiere al menos una estrategia. Los elementos de decisión de las estrategias combinadas se evaluarán juntos."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Creación de estrategias"
 
-Para presentar la mejor oferta dinámica y experiencia a los visitantes de su sitio web o aplicación móvil, agregue una política de decisión a una campaña o recorrido basado en código. Para ello, siga los pasos que aparecen a continuación.
+Para presentar la mejor oferta dinámica y experiencia a los destinatarios y visitantes de los correos electrónicos en su sitio web o aplicación móvil, agregue una política de decisión a un correo electrónico o a una campaña o recorrido basados en código. Para ello, siga los pasos que aparecen a continuación.
 
-### Creación de la política de decisión {#add}
+### Crear una política de decisión {#add}
 
-1. Cree una campaña y seleccione la acción **[!UICONTROL Experiencia basada en código]**. [Más información](../code-based/create-code-based.md)
+1. En un recorrido o campaña, agrega una acción **[!UICONTROL Correo electrónico]** o **[!UICONTROL Experiencia basada en código]**.
 
-1. En el [editor de código](../code-based/create-code-based.md#edit-code), seleccione **[!UICONTROL directiva de decisión]** y haga clic en **[!UICONTROL Agregar directiva de decisión]**.
+1. Para los mensajes de correo electrónico, cambie **[!UICONTROL Enable Decisioning]** en la pantalla de configuración.
 
-   ![](assets/decision-code-based-create.png)
+   ![](assets/decision-policy-enable.png)
 
-   Desde la pantalla de edición de recorrido o campaña, también puede añadir directamente una política de decisión sin abrir el editor de personalización. Utilice el icono dedicado en el carril derecho para mostrar la sección **[!UICONTROL Decisioning]**.
-
-   ![](../code-based/assets/code-based-campaign-show-decisioning.png)
-
-1. De forma predeterminada, cree una nueva directiva.
-
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >También puede elegir seleccionar una política existente.
-
-1. Complete los detalles de la política de decisión: añada un nombre y seleccione un catálogo.
-
-   >[!NOTE]
+   >Al habilitar la toma de decisiones, se borra el contenido de correo electrónico existente. Si ya ha diseñado el correo electrónico, asegúrese de guardar el contenido como una plantilla de antemano.
    >
-   >Actualmente solo está disponible el catálogo predeterminado **[!UICONTROL Ofertas]**.
+   >Tenga en cuenta que cualquier política de decisión configurada dentro del correo electrónico no se guardará en la plantilla. Si aplica la plantilla a otro correo electrónico, debe volver a configurar la directiva.
 
-1. Seleccione el número de elementos que desea que se devuelvan. Por ejemplo, si selecciona 2, se presentarán las 2 mejores ofertas aptas para la configuración actual. Haga clic en **[!UICONTROL Next]**.
+1. Las políticas se pueden crear en experiencias basadas en correo electrónico y código mediante el editor de personalización. También pueden crearse en correos electrónicos desde un menú específico en el Designer de correo electrónico. Expanda las secciones siguientes para obtener más detalles.
+
+   +++Editor de Personalization
+
+   1. Abra el editor de personalización y seleccione **[!UICONTROL Directiva de decisión]**.
+   1. Haga clic en el botón **[!UICONTROL Agregar directiva de decisión]** para crear una directiva nueva.
+
+      ![](assets/decision-code-based-create.png)
+
++++
+
+   +++Enviar correo electrónico al menú de Designer **[!UICONTROL Decisioning]**
+
+   1. Seleccione un componente, haga clic en el icono **[!UICONTROL Decisioning]** de la barra de herramientas o del panel de propiedades y, a continuación, seleccione **[!UICONTROL Agregar nueva directiva]**.
+
+   1. Seleccione **[!UICONTROL Reutilizar resultado de decisión]** para reutilizar una directiva de decisión que ya se ha creado en este correo electrónico.
+
+      ![](assets/decision-policy-email-designer.png)
+
++++
+
+1. Proporcione un nombre y seleccione un catálogo (actualmente limitado al catálogo predeterminado de **[!UICONTROL Ofertas]**).
+
+1. Seleccione el número de elementos que desea devolver. Por ejemplo, si selecciona 2, se presentarán las dos mejores ofertas aptas para la configuración actual.
 
    ![](assets/decision-code-based-details.png)
+
+   En el caso de los correos electrónicos, solo se pueden devolver varios elementos en un componente de contenido **[!UICONTROL Repetir cuadrícula]**. Expanda la sección siguiente para obtener más detalles:
+
++++ Devolver varios elementos de decisión en correos electrónicos
+
+   1. Arrastre un componente **[!UICONTROL Cuadrícula repetida]** al lienzo y configúrelo como desee mediante el panel **[!UICONTROL Configuración]**.
+
+      ![](assets/decision-policy-repeat.png)
+
+   1. Haga clic en el icono **[!UICONTROL Decisioning]** en la barra de herramientas del lienzo o abra el panel **[!UICONTROL Decisioning]** y seleccione **[!UICONTROL Agregar directiva de decisión]**.
+
+   1. Especifique el número de elementos que desea devolver en el campo **[!UICONTROL Número de elementos]** y, a continuación, configure la directiva de decisión como se documenta a continuación. El número máximo de elementos que puede seleccionar está limitado por el número de mosaicos definidos en el componente **[!UICONTROL Repetir cuadrícula]**.
+
+   ![](assets/decision-policy-repeat-number.png)
+
++++
+
+1. Haga clic en **[!UICONTROL Next]**.
 
 ### Seleccionar elementos y estrategias de selección {#select}
 
 La sección **[!UICONTROL Secuencia de estrategia]** le permite seleccionar los elementos de decisión y las estrategias de selección que se presentarán con la directiva de decisión.
 
-1. Haga clic en el botón **[!UICONTROL Add]**.
-
-1. Elija el tipo de objeto que desea incluir en la directiva:
+1. Haga clic en **[!UICONTROL Agregar]** y elija el tipo de objeto que desea incluir en la directiva:
 
    * **[!UICONTROL Estrategia de selección]**: agregue una o varias estrategias de selección. Las estrategias de decisión aprovechan las colecciones asociadas con las restricciones de elegibilidad y los métodos de clasificación para determinar los elementos que se van a mostrar. Puede seleccionar una estrategia de selección existente o crear una nueva mediante el botón **[!UICONTROL Crear estrategia de selección]**. [Aprenda a crear estrategias de selección](selection-strategies.md)
 
@@ -122,120 +170,151 @@ La sección **[!UICONTROL Secuencia de estrategia]** le permite seleccionar los 
    >
    >Una política de decisión admite hasta 10 estrategias de selección y elementos de decisión combinados. [Más información sobre las limitaciones y protecciones de decisiones](gs-experience-decisioning.md#guardrails)
 
-1. Al agregar varios elementos de decisión o estrategias, se evaluarán en un orden específico. El primer objeto añadido a la secuencia se evaluará primero, y así sucesivamente.
+1. Al agregar varios elementos de decisión o estrategias, se evaluarán en un orden específico. El primer objeto añadido a la secuencia se evaluará primero, y así sucesivamente. Para cambiar la secuencia predeterminada, arrastre y suelte los objetos o los grupos para reordenarlos como desee. Expanda la sección siguiente para obtener más información.
 
-   Para cambiar la secuencia predeterminada, puede arrastrar y soltar los objetos o los grupos para reordenarlos como desee. [Más información](#evaluation-order)
+   +++Administrar el orden de evaluación en una directiva de decisión
 
-### Administrar el orden de evaluación en una política de decisión {#evaluation-order}
+   Una vez que haya agregado elementos de decisión y estrategias de selección a la directiva, puede organizar su orden para determinar el orden de evaluación y combinar estrategias de selección para evaluarlos juntos.
 
-Una vez que haya agregado elementos de decisión y estrategias de selección a la directiva, puede organizar su orden para determinar el orden de evaluación y combinar estrategias de selección para evaluarlos juntos.
+   El **orden secuencial** en el que se evaluarán los elementos y las estrategias se indica con números a la izquierda de cada objeto o grupo de objetos. Para mover la posición de una estrategia de selección (o un grupo de estrategias) dentro de la secuencia, arrástrela y suéltela en otra posición.
 
-El **orden secuencial** en el que se evaluarán los elementos y las estrategias se indica con números a la izquierda de cada objeto o grupo de objetos. Para mover la posición de una estrategia de selección (o un grupo de estrategias) dentro de la secuencia, arrástrela y suéltela en otra posición.
+   ![](assets/decision-code-based-strategy-groups.png)
 
->[!NOTE]
->
->Solo se pueden arrastrar y soltar estrategias de selección dentro de una secuencia. Para cambiar la posición de un elemento de decisión, debe eliminarlo y volver a agregarlo usando el botón **[!UICONTROL Agregar]** después de agregar los demás elementos que desea evaluar antes.
+   >[!NOTE]
+   >
+   >Solo se pueden arrastrar y soltar estrategias de selección dentro de una secuencia. Para cambiar la posición de un elemento de decisión, debe eliminarlo y volver a agregarlo usando el botón **[!UICONTROL Agregar]** después de agregar los demás elementos que desea evaluar antes.
 
-![](assets/decision-code-based-strategy-groups.png)
+   También puede **combinar** múltiples estrategias de selección en grupos para que se evalúen juntos y no por separado. Para ello, haga clic en el botón **`+`** de una estrategia de selección para combinarlo con otra. También puede arrastrar y soltar una estrategia de selección en otra para agrupar las dos estrategias en un grupo.
 
-También puede **combinar** múltiples estrategias de selección en grupos para que se evalúen juntos y no por separado. Para ello, haga clic en el botón **`+`** de una estrategia de selección para combinarlo con otra. También puede arrastrar y soltar una estrategia de selección en otra para agrupar las dos estrategias en un grupo.
+   >[!NOTE]
+   >
+   >Los elementos de decisión no se pueden agrupar con otros elementos o estrategias de selección.
 
->[!NOTE]
->
->Los elementos de decisión no se pueden agrupar con otros elementos o estrategias de selección.
+   Varias estrategias y su agrupación determinan la prioridad de las estrategias y la clasificación de las ofertas aptas. La primera estrategia tiene la máxima prioridad y las estrategias combinadas dentro del mismo grupo tienen la misma prioridad.
 
-Varias estrategias y su agrupación determinan la prioridad de las estrategias y la clasificación de las ofertas aptas. La primera estrategia tiene la máxima prioridad y las estrategias combinadas dentro del mismo grupo tienen la misma prioridad.
+   Por ejemplo, tiene dos colecciones, una en la estrategia A y otra en la estrategia B. La solicitud es para que se devuelvan dos elementos de decisión. Digamos que hay dos ofertas elegibles de la estrategia A y tres ofertas elegibles de la estrategia B.
 
-Por ejemplo, tiene dos colecciones, una en la estrategia A y otra en la estrategia B. La solicitud es para que se devuelvan dos elementos de decisión. Digamos que hay dos ofertas elegibles de la estrategia A y tres ofertas elegibles de la estrategia B.
+   * Si las dos estrategias están **sin combinar** o en orden secuencial (1 y 2), las dos ofertas principales elegibles de la primera estrategia se devolverán en la primera fila. Si no hay dos ofertas aptas para la primera estrategia, el motor de decisión pasará a la siguiente estrategia en secuencia para encontrar tantas ofertas que aún se necesitan y, finalmente, devolverá una reserva si es necesario.
 
-* Si las dos estrategias están **sin combinar** o en orden secuencial (1 y 2), las dos ofertas principales elegibles de la primera estrategia se devolverán en la primera fila. Si no hay dos ofertas aptas para la primera estrategia, el motor de decisión pasará a la siguiente estrategia en secuencia para encontrar tantas ofertas que aún se necesitan y, finalmente, devolverá una reserva si es necesario.
+     ![](assets/decision-code-based-consecutive-strategies.png)
 
-  ![](assets/decision-code-based-consecutive-strategies.png)
+   * Si las dos colecciones se **evalúan al mismo tiempo**, ya que hay dos ofertas elegibles de la estrategia A y tres ofertas elegibles de la estrategia B, las cinco ofertas se apilarán todas juntas en función del valor determinado por los métodos de clasificación respectivos. Se solicitan dos ofertas, por lo que se devolverán las dos ofertas aptas principales de estas cinco ofertas.
 
-* Si las dos colecciones se **evalúan al mismo tiempo**, ya que hay dos ofertas elegibles de la estrategia A y tres ofertas elegibles de la estrategia B, las cinco ofertas se apilarán todas juntas en función del valor determinado por los métodos de clasificación respectivos. Se solicitan dos ofertas, por lo que se devolverán las dos ofertas aptas principales de estas cinco ofertas.
+     ![](assets/decision-code-based-combined-strategies.png)
 
-  ![](assets/decision-code-based-combined-strategies.png)
+   **Ejemplo con varias estrategias**
 
-+++ **Ejemplo con varias estrategias**
+   Veamos un ejemplo en el que tiene varias estrategias divididas en diferentes grupos. Usted definió tres estrategias. La Estrategia 1 y la Estrategia 2 se combinan en el Grupo 1 y la Estrategia 3 es independiente (Grupo 2). Las ofertas elegibles para cada estrategia y su prioridad (utilizadas en la evaluación de la función de clasificación) son las siguientes:
 
-Veamos un ejemplo en el que tiene varias estrategias divididas en diferentes grupos.
+   * Grupo 1:
+      * Estrategia 1 - (Oferta 1, Oferta 2, Oferta 3) - Prioridad 1
+      * Estrategia 2 - (Oferta 3, Oferta 4, Oferta 5) - Prioridad 1
 
-Usted definió tres estrategias. La Estrategia 1 y la Estrategia 2 se combinan en el Grupo 1 y la Estrategia 3 es independiente (Grupo 2).
+   * Grupo 2:
+      * Estrategia 3 - (Oferta 5, Oferta 6) - Prioridad 0
 
-Las ofertas elegibles para cada estrategia y su prioridad (utilizadas en la evaluación de la función de clasificación) son las siguientes:
+   Las ofertas de estrategia de mayor prioridad se evalúan primero y se añaden a la lista de ofertas clasificadas.
 
-* Grupo 1:
-   * Estrategia 1 - (Oferta 1, Oferta 2, Oferta 3) - Prioridad 1
-   * Estrategia 2 - (Oferta 3, Oferta 4, Oferta 5) - Prioridad 1
+   * **Iteración 1:**
 
-* Grupo 2:
-   * Estrategia 3 - (Oferta 5, Oferta 6) - Prioridad 0
+     Las ofertas de Estrategia 1 y Estrategia 2 se evalúan juntas (Oferta 1, Oferta 2, Oferta 3, Oferta 4, Oferta 5). Digamos que el resultado es:
 
-Las ofertas de estrategia de mayor prioridad se evalúan primero y se añaden a la lista de ofertas clasificadas.
-
-**Iteración 1:**
-
-Las ofertas de Estrategia 1 y Estrategia 2 se evalúan juntas (Oferta 1, Oferta 2, Oferta 3, Oferta 4, Oferta 5). Digamos que el resultado es:
-
-Oferta 1 - 10
+     Oferta 1 - 10
 Oferta 2 - 20
 Oferta 3 - 30 de Estrategia 1, 45 de Estrategia 2. Se tendrá en cuenta el más alto de ambos, por lo que se tienen en cuenta 45.
 Oferta 4 - 40
 Oferta 5 - 50
 
-Las ofertas clasificadas ahora son las siguientes: Oferta 5, Oferta 3, Oferta 4, Oferta 2, Oferta 1.
+     Las ofertas clasificadas ahora son las siguientes: Oferta 5, Oferta 3, Oferta 4, Oferta 2, Oferta 1.
 
-**Iteración 2:**
+   * **Iteración 2:**
 
-Se evalúan las ofertas de Estrategia 3 (oferta 5, oferta 6). Digamos que el resultado es:
+     Se evalúan las ofertas de Estrategia 3 (oferta 5, oferta 6). Digamos que el resultado es:
 
-* Oferta 5: no se evaluará porque ya existe en el resultado anterior.
-* Oferta 6 - 60
+      * Oferta 5: no se evaluará porque ya existe en el resultado anterior.
+      * Oferta 6 - 60
 
-Las ofertas clasificadas ahora son las siguientes: Oferta 5 , Oferta 3, Oferta 4, Oferta 2, Oferta 1, Oferta 6.
+     Las ofertas clasificadas ahora son las siguientes: Oferta 5 , Oferta 3, Oferta 4, Oferta 2, Oferta 1, Oferta 6.
 
 +++
 
+1. Haga clic en **[!UICONTROL Siguiente]**
+
 ### Añadir ofertas de reserva {#fallback}
 
-Una vez que haya seleccionado elementos de decisión o estrategias de selección, puede agregar ofertas de reserva que se mostrarán a los usuarios si no se clasifica ninguno de los elementos o estrategias de selección anteriores.
-
-![](assets/decision-code-based-strategy-fallback.png)
+Una vez que haya seleccionado elementos de decisión o estrategias de selección, puede añadir ofertas de reserva para mostrar si ninguno de los elementos o estrategias de selección anteriores está cualificado.
 
 Puede seleccionar cualquier elemento de la lista, que muestra todos los elementos de decisión creados en la zona protegida actual. Si no se califica ninguna estrategia de selección, la reserva se mostrará al usuario independientemente de las fechas y restricciones de elegibilidad aplicadas al elemento seleccionado<!--nor frequency capping when available - TO CLARIFY-->.
 
->[!NOTE]
->
->Una alternativa es opcional. Si no se selecciona ninguna reserva y no se califica ninguna estrategia, [!DNL Journey Optimizer] no mostrará nada. Puede añadir hasta el número de elementos que solicita la política de decisión. Esto garantiza que se devuelva un determinado número de elementos si se desea para el caso de uso.
-
-Cuando la directiva de decisión esté lista, guárdela y haga clic en **[!UICONTROL Crear]**. Ahora que se ha creado la política de decisión, puede utilizar los atributos de decisión dentro del contenido de la experiencia basado en código. [Más información](#use-decision-policy)
-
-![](assets/decision-code-based-decision-added.png)
-
-## Uso de la política de decisión en el editor de código {#use-decision-policy}
-
-Una vez creada, la directiva de decisión se puede usar en el [editor de personalización](../code-based/create-code-based.md#edit-code). Para ello, siga los pasos que aparecen a continuación.
+![](assets/decision-code-based-strategy-fallback.png)
 
 >[!NOTE]
->
->La experiencia basada en código aprovecha el editor de personalización [!DNL Journey Optimizer] con todas sus capacidades de personalización y creación. [Más información](../personalization/personalization-build-expressions.md)
+> Las retrospectivas son opcionales. Se puede seleccionar hasta el número de elementos solicitados. Si ninguno es elegible y no se establece ninguna reserva, no se mostrará nada.
 
-1. Haga clic en el botón **[!UICONTROL Insertar directiva]**. Se agrega el código correspondiente a la política de decisión.
+### Guardar y administrar directivas de decisión {#save}
+
+Cuando la directiva de decisión esté lista, guárdela y haga clic en **[!UICONTROL Crear]**.
+
+Para los correos electrónicos, debe definir una ubicación para el componente asociado a la política de decisión. Para ello, haga clic en el botón **[!UICONTROL Decisioning]** del panel de propiedades del componente y seleccione **[!UICONTROL Asignar ubicación]**. [Aprenda a trabajar con ubicaciones](../experience-decisioning/placements.md)
+
+![](assets/decision-policy-rail.png)
+
+Puede editar o eliminar una directiva de decisión en cualquier momento mediante el botón de puntos suspensivos del editor de personalización o en el menú **[!UICONTROL Decisioning]** del panel de propiedades del componente.
+
+>[!BEGINTABS]
+
+>[!TAB Editar o eliminar una directiva del editor de personalización]
+
+![](assets/decision-policy-edit.png)
+
+>[!TAB Editar o eliminar una directiva de las propiedades del componente]
+
+![](assets/decision-policy-edit-properties.png)
+
+>[!ENDTABS]
+
+## Uso de una política de decisión en el contenido {#use-decision-policy}
+
+Una vez creada, la política de decisión y los atributos vinculados a los elementos de decisión devueltos se pueden utilizar en el contenido para personalizar el contenido. Para ello, siga estos pasos.
+
+### Inserción del código de política de decisión {#insert-code}
+
+1. Abra el editor de personalización y acceda al menú **[!UICONTROL Directiva de decisión]**.
+
+1. Para los mensajes de correo electrónico, haga clic en **[!UICONTROL Insertar sintaxis]** para agregar el código correspondiente a la directiva de decisión. Para experiencias basadas en código, haga clic en **[!UICONTROL Insertar directiva]**.
+
+   +++Insertar código de política de decisión en correos electrónicos
+
+   ![](assets/decision-policy-add.png)
+
+   En el caso de los correos electrónicos, si no se ha asociado ninguna ubicación al componente de antemano, seleccione una de la lista y haga clic en **[!UICONTROL Asignar]**.
+
+   ![](assets/decision-policy-placement.png)
+
++++
+
+   +++Insertar código de política de decisión en una experiencia basada en código
 
    ![](assets/decision-code-based-add-decision.png)
 
-   >[!NOTE]
-   >
-   >Esta secuencia se repetirá el número de veces que desee que se devuelva la política de decisión. Por ejemplo, si eligió devolver 2 elementos al [crear la decisión](#add-decision), la misma secuencia se repetirá dos veces.
-
-1. Ahora puede agregar todos los atributos de decisión que desee dentro de ese código. Los atributos disponibles se almacenan en el esquema del catálogo **[!UICONTROL Ofertas]**. Los atributos personalizados se almacenan en la carpeta **`_<imsOrg`>** y los atributos estándar en la carpeta **`_experience`**. [Más información sobre el esquema del catálogo de ofertas](catalogs.md)
-
-   ![](assets/decision-code-based-decision-attributes.png)
++++
 
    >[!NOTE]
    >
-   >Para el seguimiento de elementos de la directiva de decisión, el atributo `trackingToken` debe agregarse de la siguiente manera para el contenido de la directiva de decisión:
-   >`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+   >Si no aparece el botón de inserción de código, es posible que ya se haya configurado una directiva de decisión para el componente principal.
+
+1. Se agrega el código para la directiva de decisión. Esta secuencia se repetirá el número de veces que desee que se devuelva la política de decisión. Por ejemplo, si eligió devolver 2 elementos al [crear la decisión](#add-decision), la misma secuencia se repetirá dos veces.
+
+### Aprovechamiento de atributos de elementos de decisión {#attributes}
+
+Ahora puede agregar todos los atributos de decisión que desee dentro de ese código. Los atributos disponibles se almacenan en el esquema del catálogo **[!UICONTROL Ofertas]**. Los atributos personalizados se almacenan en la carpeta **`_<imsOrg`>** y los atributos estándar en la carpeta **`_experience`**. [Más información sobre el esquema del catálogo de ofertas](catalogs.md)
+
+![](assets/decision-code-based-decision-attributes.png)
+
+>[!NOTE]
+>
+>Para el seguimiento de elementos de la directiva de decisión, el atributo `trackingToken` debe agregarse de la siguiente manera para el contenido de la directiva de decisión:
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Haga clic en cada carpeta para expandirla. Coloque el cursor del ratón en la ubicación deseada y haga clic en el icono + situado junto al atributo que desee añadir. Puede agregar todos los atributos que desee al código.
 
@@ -249,16 +328,18 @@ Una vez creada, la directiva de decisión se puede usar en el [editor de persona
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-1. Haga clic en **[!UICONTROL Guardar y cerrar]** para confirmar los cambios.
+## Pasos finales {#final-steps}
 
-1. Revise y publique su campaña o recorrido de experiencias basado en código. [Descubra cómo](../code-based/publish-code-based.md)
+Una vez que el contenido esté listo, revise y publique la campaña o el recorrido:
 
-   Ahora, tan pronto como el desarrollador realice una API o una llamada de SDK para recuperar contenido para la superficie definida en la configuración de canal, los cambios se aplicarán a su página web o aplicación.
+* [Publicación de un recorrido](../building-journeys/publishing-the-journey.md)
+* [Revisar y activar una campaña](../campaigns/review-activate-campaign.md)
+* [Publicación y activación de una experiencia basada en código](../code-based/publish-code-based.md)
 
-   >[!NOTE]
-   >
-   >Actualmente no puedes simular contenido desde la interfaz de usuario en una campaña o recorrido de [experiencia basada en código](../code-based/create-code-based.md) usando decisiones. Hay una solución disponible en [esta sección](../code-based/code-based-decisioning-implementations.md).
+En el caso de las experiencias basadas en código, tan pronto como el desarrollador realice una llamada de API o SDK para recuperar contenido para la superficie definida en la configuración de canal, los cambios se aplicarán a su página web o aplicación.
 
-1. Para ver el rendimiento de sus decisiones, puede crear [paneles personalizados de informes de Customer Journey Analytics](cja-reporting.md).
+>[!NOTE]
+>
+>Actualmente no puedes simular contenido desde la interfaz de usuario en una campaña o recorrido de [experiencia basada en código](../code-based/create-code-based.md) usando decisiones. Hay una solución disponible en [esta sección](../code-based/code-based-decisioning-implementations.md).
 
-
+Para ver el rendimiento de sus decisiones, puede crear [paneles personalizados de informes de Customer Journey Analytics](cja-reporting.md).
