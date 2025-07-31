@@ -73,7 +73,7 @@ Una vez que se ha habilitado un conjunto de datos para la personalización de b�
 
    ![](assets/aep-data-dataset.png)
 
-+++
+   +++
 
 1. Adapte la sintaxis para adaptarla a sus necesidades. En este ejemplo, queremos recuperar datos relacionados con los vuelos de los pasajeros. La sintaxis es la siguiente:
 
@@ -104,7 +104,7 @@ Una vez que se ha habilitado un conjunto de datos para la personalización de b�
 
      ![](assets/aep-data-field.png)
 
-+++
+     +++
 
    En este ejemplo, queremos utilizar información relacionada con la hora de embarque y la puerta de embarque de los pasajeros. Por lo tanto, añadimos estas dos líneas:
 
