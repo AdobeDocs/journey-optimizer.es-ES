@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 81%
+ht-degree: 77%
 
 ---
 
@@ -55,7 +55,7 @@ La actividad **[!UICONTROL División]** es una actividad de **[!UICONTROL Segmen
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
 >title="Filtro de la actividad de división"
->abstract="Para aplicar una condición de filtrado al subconjunto, haga clic en **[!UICONTROL Crear filtro]** y configure la regla de filtrado que desee mediante el modelador de consultas. Por ejemplo, incluya perfiles de la población entrante cuya dirección de correo electrónico existe en la base de datos."
+>abstract="Para aplicar una condición de filtrado al subconjunto, haga clic en **[!UICONTROL Crear filtro]** y configure la regla de filtrado que desee con el generador de reglas. Por ejemplo, incluya perfiles de la población entrante cuya dirección de correo electrónico existe en la base de datos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"
@@ -107,7 +107,7 @@ Siga estos pasos para configurar la actividad **[!UICONTROL División]**:
 
    1. Haga clic en un subconjunto para abrir su configuración.
 
-   1. Haga clic en **[!UICONTROL Crear filtro]** para definir las reglas de filtrado mediante el modelador de consultas; por ejemplo, seleccione perfiles con una dirección de correo electrónico válida.
+   1. Haga clic en **[!UICONTROL Crear filtro]** para definir las reglas de filtrado con el generador de reglas; por ejemplo, seleccione perfiles con una dirección de correo electrónico válida.
 
       ![](../assets/orchestrated-split-1.png)
 
