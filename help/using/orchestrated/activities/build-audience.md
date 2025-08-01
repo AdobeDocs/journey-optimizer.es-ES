@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 57%
+ht-degree: 53%
 
 ---
 
@@ -67,7 +67,7 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Generar público des
 
 1. Haga clic en **[!UICONTROL Continuar]**.
 
-1. Utilice el modelador de consultas para definir la consulta. [Obtenga más información sobre el modelador de Consultas en esta sección.](../orchestrated-rule-builder.md)
+1. Utilice el generador de reglas para definir la consulta. [Obtenga más información acerca del Generador de reglas en esta sección](../orchestrated-rule-builder.md)
 
 1. Especifique si se debe generar una transición de salida si el público está vacío.
 

@@ -7,29 +7,16 @@ feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 7%
+source-wordcount: '842'
+ht-degree: 4%
 
 ---
 
 
 # Creación de un mensaje de WhatsApp {#create-whatsapp}
-
->[!BEGINSHADEBOX]
-
-**Tabla de contenidos**
-
-* [Introducción a los mensajes de WhatsApp](get-started-whatsapp.md)
-* [Introducción a la configuración de WhatsApp](whatsapp-configuration.md)
-* **[Crear un mensaje de WhatsApp](create-whatsapp.md)**
-* [Comprobación y envío de los mensajes de WhatsApp](send-whatsapp.md)
-
->[!ENDSHADEBOX]
 
 Con Adobe Journey Optimizer, puedes diseñar y enviar mensajes atractivos en WhatsApp. Simplemente agrega una acción de WhatsApp a tu recorrido o campaña y crea el contenido del mensaje como se detalla a continuación. Adobe Journey Optimizer también le permite probar sus mensajes de WhatsApp antes de enviarlos, lo que garantiza un procesamiento perfecto, una personalización precisa y una configuración adecuada de todos los ajustes.
 
@@ -55,7 +42,8 @@ La siguiente opción de call-to-action está disponible para tus mensajes de Wha
 | Llamadas a la acción | Descripción |
 |-|-|
 | Visitar sitio web | Solo se permite un botón, con parámetros de variable incluidos. |
-
+| Llamar en WhatsApp | Proporciona un botón que abre un chat de WhatsApp con el número de teléfono especificado directamente desde el mensaje. |
+| Número de teléfono de llamada | Proporciona un botón que inicia una llamada telefónica al número especificado cuando el usuario lo pulsa. |
 
 +++
 
@@ -146,11 +134,15 @@ Ten en cuenta que tu plantilla de WhatsApp primero debe ser aprobada por Meta an
 
    ![](assets/whatsapp-design-2.png)
 
+1. En el campo **[!UICONTROL URL de imagen]**, agregue URL de medios para reemplazar cualquier marcador de posición en la plantilla. Los medios de plantilla de Meta solo son marcadores de posición. Para mostrar imágenes, audio o vídeo correctamente, debe utilizar direcciones URL externas de Adobe Experience Manager u otras fuentes.
+
+   ![](assets/whatsapp-design-3.png)
+
 1. Utilice el editor de personalización para añadir personalización a la plantilla. Puede utilizar cualquier atributo, como el nombre del perfil o la ciudad, por ejemplo.
 
    Navegue por la siguiente página para obtener más información sobre [personalización](../personalization/personalize.md).
 
-   ![](assets/whatsapp-design-3.png)
+   ![](assets/whatsapp-design-4.png)
 
 1. Usa el botón **[!UICONTROL Simular contenido]** para obtener una vista previa del contenido de tu mensaje de WhatsApp, las URL abreviadas y el contenido personalizado. [Más información](send-whatsapp.md)
 
@@ -195,3 +187,14 @@ Once you have performed your tests and validated the content, you can send your 
 
 >[!ENDTABS]
 -->
+
+
+## Vídeo práctico {#video}
+
+El siguiente vídeo muestra cómo crear un recorrido de WhatsApp de varios pasos con Adobe Journey Optimizer.
+
++++ Vea el vídeo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
+
++++

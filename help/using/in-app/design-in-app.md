@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, diseño, formato
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 27%
+source-wordcount: '1222'
+ht-degree: 26%
 
 ---
 
@@ -33,7 +33,7 @@ Puede editar el contenido en la aplicación para configurar las opciones de expe
 
 La opción **[!UICONTROL Formato avanzado]** activa opciones adicionales para personalizar la experiencia.
 
-Una vez creado el mensaje en la aplicación, y definido y personalizado su contenido, puede revisarlo y activarlo. Las notificaciones se envían según la programación de campaña. Más información sobre [esta página](send-in-app.md).
+Una vez creado el mensaje en la aplicación, y definido y personalizado su contenido, puede revisarlo y activarlo. Las notificaciones se envían según la programación de campaña. Obtenga más información en [esta página](send-in-app.md).
 
 ## Diseño del mensaje {#message-layout}
 
@@ -240,6 +240,22 @@ Si el **[!UICONTROL modo de formato avanzado]** está activado, puede personaliz
 
 +++
 
+## Pestaña Datos {#data-tab}
+
+Desde la ficha **Datos**, puede definir una **[!UICONTROL Clave]**&#x200B; y un **[!UICONTROL Valor]** para incluir variables personalizadas en la carga. Estos pares clave/valor le permiten pasar datos adicionales, según la configuración específica.
+
+Para obtener más información, consulte [Documentación para desarrolladores](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/).
+
+1. En la ficha **[!UICONTROL Datos]**, seleccione **[!UICONTROL Agregar par clave/valor]**.
+
+   ![](assets/in-app-data-menu.png)
+
+1. Rellene los campos **[!UICONTROL Clave]**&#x200B; y **[!UICONTROL Valor]**.
+
+   ![](assets/in-app-data-menu-1.png)
+
+1. Haga clic en ![](assets/do-not-localize/Smock_Delete_18_N.svg) para eliminar cualquier par que se necesite.
+
 **Temas relacionados:**
 
 * [Crear mensaje en la aplicación](create-in-app.md)
@@ -250,4 +266,4 @@ Si el **[!UICONTROL modo de formato avanzado]** está activado, puede personaliz
 
 El siguiente vídeo muestra cómo crear y probar los mensajes en la aplicación.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422076?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)
