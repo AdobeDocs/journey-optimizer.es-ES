@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Programación de campañas"
->abstract="De forma predeterminada, las campañas se inician tras la activación manual y finalizan inmediatamente después de enviar el mensaje una vez. Sin embargo, tiene la flexibilidad de establecer una fecha y hora específicas para que se envíe el mensaje. Además, puede especificar una fecha de finalización para campañas de acción recurrentes. En los Activadores de acción, también puede configurar la frecuencia de envío de mensajes para adaptarla a sus preferencias."
+>abstract="De forma predeterminada, las campañas se inician tras la activación manual y finalizan inmediatamente después de enviar el mensaje una vez. Sin embargo, tiene la flexibilidad de establecer una fecha y hora específicas para que se envíe el mensaje. Además, puede especificar una fecha de finalización para las campañas de acciones recurrentes. En los Activadores de acción, también puede configurar la frecuencia de envío de mensajes para adaptarla a sus preferencias."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -66,11 +66,11 @@ Puede crear diferentes tipos de campañas en Journey Optimizer:
 
 * **Campañas de acción**
 
-  Las campañas de acción (o campañas programadas) permiten comunicaciones por lotes ad hoc sencillas para casos de uso de marketing como ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de directivas.
+  Las campañas de acción (o campañas programadas) permiten comunicaciones por lotes ad-hoc sencillas para casos de uso de marketing, como ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de políticas.
 
-* **Campañas activadas por API**
+* **Campañas activadas mediante API**
 
-  Las campañas activadas por API permiten que las comunicaciones de marketing lleguen a una audiencia en el momento adecuado o que los mensajes transaccionales/operacionales lleguen a una persona, como un restablecimiento de contraseña, donde la necesidad puede implicar personalización no solo mediante el uso de atributos de perfil, sino también mediante los datos de contexto en tiempo real en la déclencheur, que es una carga útil de API de REST.
+  Las campañas activadas por API permiten que las comunicaciones de marketing lleguen a un público en el momento adecuado o que los mensajes transaccionales/operativos lleguen a una persona, como un restablecimiento de contraseña. Este acto puede implicar una personalización no solo mediante el uso del atributo de perfil, sino también mediante los datos de contexto en tiempo real en el activador, que es una carga útil de API de REST.
 
 <!--* **Orchestrated campaigns**
 
@@ -80,9 +80,9 @@ Puede crear diferentes tipos de campañas en Journey Optimizer:
 
 ## Antes de empezar {#campaign-prerequisites}
 
-Compruebe los siguientes requisitos previos antes de empezar a crear su primera campaña en [!DNL Journey Optimizer]:
+Compruebe los siguientes requisitos previos antes de empezar a crear la primera campaña en Journey Optimizer [!DNL Journey Optimizer]:
 
-1. **Necesita los permisos adecuados**. Las campañas solo están disponibles para usuarios con acceso a un **[!UICONTROL perfil de producto]** relacionado con una campaña, como administrador de campañas, aprobador de campañas, administrador de campañas o visualizador de campañas. Si no puede acceder a las campañas, debe ampliar los permisos.
+1. **Necesita los permisos adecuados**. Las campañas solo están disponibles para usuarios con acceso a un **[!UICONTROL Perfil de producto]** relacionado a una campaña, como un administrador, aprobador, gestor o espectador de Campaign. Si no puede acceder a las campañas, sus permisos deben ampliarse.
 
    +++Más información sobre cómo asignar una función relacionada con la campaña
 
@@ -96,7 +96,7 @@ Compruebe los siguientes requisitos previos antes de empezar a crear su primera 
 
    El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 
-   +++
++++
 
 1. **Necesita un público**. Los públicos deben estar disponibles antes de crear la campaña. [Introducción a las audiencias](../audience/about-audiences.md).
 

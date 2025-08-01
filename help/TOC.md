@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '2594'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -175,31 +175,31 @@ ht-degree: 94%
       + [Limitación del rendimiento con fuentes de datos externas y acciones personalizadas](using/building-journeys/limit-throughput.md)
       + [Utilice acciones personalizadas para escribir los eventos de recorrido en Experience Platform](using/building-journeys/custom-action-aep.md)
    + Resolución de problemas {#troubleshoot-journey}
-      + [Solución de problemas de recorridos](using/building-journeys/gs-troubleshooting.md)
+      + [Solución de problemas del recorrido](using/building-journeys/gs-troubleshooting.md)
       + [Solucionar errores de recorrido](using/building-journeys/troubleshooting.md)
-      + [Solucionar problemas de ejecución de recorrido](using/building-journeys/troubleshooting-execution.md)
+      + [Solución de problemas de la ejecución del recorrido](using/building-journeys/troubleshooting-execution.md)
       + [Solucionar las acciones de entrada](using/building-journeys/troubleshooting-inbound.md)
-      + [Solucionar problemas de acciones personalizadas](using/action/troubleshoot-custom-action.md)
+      + [Solución de problemas de acciones personalizadas](using/action/troubleshoot-custom-action.md)
 + Campañas {#campaigns}
    + [Introducción a las campañas](using/campaigns/get-started-with-campaigns.md)
    + [Acceso y administración de campañas](using/campaigns/modify-stop-campaign.md)
    + Campañas de acción {#action-campaigns}
       + [Trabajo con campañas de acción](using/campaigns/create-campaign.md)
-      + [Definición de las propiedades de la campaña](using/campaigns/campaign-properties.md)
-      + [Configuración de la acción de campaña](using/campaigns/campaign-action.md)
+      + [Definir las propiedades de la campaña](using/campaigns/campaign-properties.md)
+      + [Configurar la acción de campaña](using/campaigns/campaign-action.md)
       + [Edición del contenido de la campaña](using/campaigns/campaign-content.md)
-      + [Definición de la audiencia de campaña](using/campaigns/campaign-audience.md)
+      + [Definición del público de la campaña](using/campaigns/campaign-audience.md)
       + [Programación de la campaña](using/campaigns/campaign-schedule.md)
       + [Revisión y activación de una campaña de acción](using/campaigns/review-activate-campaign.md)
    + Campañas activadas por API {#api-triggered-campaigns}
       + [Trabajo con campañas activadas por API](using/campaigns/api-triggered-campaigns.md)
-      + [Definición de las propiedades de la campaña](using/campaigns/api-triggered-campaign-properties.md)
-      + [Configuración de la acción de campaña](using/campaigns/api-triggered-campaign-action.md)
+      + [Definir las propiedades de la campaña](using/campaigns/api-triggered-campaign-properties.md)
+      + [Configurar la acción de campaña](using/campaigns/api-triggered-campaign-action.md)
       + [Edición del contenido de la campaña](using/campaigns/api-triggered-campaign-content.md)
-      + [Definición de la audiencia de campaña](using/campaigns/api-triggered-campaign-audience.md)
+      + [Definición del público de la campaña](using/campaigns/api-triggered-campaign-audience.md)
       + [Programación de la campaña](using/campaigns/api-triggered-campaign-schedule.md)
       + [Revisión y activación de la campaña](using/campaigns/review-activate-api-triggered-campaign.md)
-      + [Déclencheur de la ejecución de la campaña](using/campaigns/trigger-campaigns.md)
+      + [Activación de la ejecución de la campaña](using/campaigns/trigger-campaigns.md)
    + Campañas organizadas {#orchestrated-campaigns}
       + [Introducción a las campañas organizadas](using/orchestrated/gs-orchestrated-campaigns.md)
       + Administrar esquemas y conjuntos de datos relacionales {#schemas-datasets}
@@ -278,7 +278,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
             + [Aprovechamiento de fragmentos visuales](using/email/use-visual-fragments.md)
             + [Adición de vínculos y seguimiento de mensajes](using/email/message-tracking.md)
             + [Inserción de ofertas personalizadas](using/email/add-offers-email.md)
-            + [Generar versión de texto](using/email/text-version-email.md)
+            + [Generar la versión de texto](using/email/text-version-email.md)
             + [Añadir metadatos](using/email/email-metadata.md)
             + [Añadir CSS personalizado](using/email/custom-css.md)
          + Editar estilo {#edit-style}
@@ -286,7 +286,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
             + [Editar configuración de fondo](using/email/backgrounds.md)
             + [Ajustar alineación vertical y relleno](using/email/alignment-and-padding.md)
             + [Añadir atributos de estilo en línea](using/email/inline-styling.md)
-            + [Definición del contenido en modo oscuro](using/email/dark-mode.md)
+            + [Definir contenido en modo oscuro](using/email/dark-mode.md)
       + [Administrar la exclusión de correo electrónico](using/email/email-opt-out.md)
       + Configurar canal de correo electrónico {#configure-email}
          + [Empezar con la configuración de correo electrónico](using/email/get-started-email-config.md)
