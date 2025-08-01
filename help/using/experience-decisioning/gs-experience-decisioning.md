@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 25%
+source-wordcount: '521'
+ht-degree: 24%
 
 ---
 
@@ -28,7 +28,7 @@ Estos elementos de decisión se integran perfectamente en una amplia gama de sup
 
 >[!IMPORTANT]
 >
->Las políticas de decisión solo están disponibles para su uso en campañas de experiencia basadas en código.
+>Las políticas de decisión están disponibles para su uso únicamente en campañas de experiencia basadas en código y de correo electrónico.
 
 ➡️ En [esta sección](experience-decisioning-uc.md) se presenta un caso de uso de extremo a extremo que muestra cómo crear decisiones y utilizarlas en experimentos de contenido con el canal de experiencia basado en código.
 
@@ -56,7 +56,7 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
    El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.
 
-   +++
++++
 
 1. **Configurar atributos personalizados**: adapte el catálogo de artículos a sus necesidades específicas configurando atributos personalizados en el esquema del catálogo.
 
