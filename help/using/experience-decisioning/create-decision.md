@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2495'
 ht-degree: 11%
 
 ---
@@ -67,7 +67,7 @@ Los pasos principales para aprovechar las políticas de decisión en sus mensaje
 * **Tipo de seguimiento y vínculos**: para realizar el seguimiento de los vínculos generados por la toma de decisiones, defina estos vínculos en el esquema como &quot;Decisioning Assets&quot;. Los vínculos basados en atributos no se pueden rastrear.
 * **Anidado de directivas de decisión en correos electrónicos**: no puede anidar varias directivas de decisión dentro de un componente de correo electrónico principal que ya tenga asociada una directiva de decisión.
 * **recorridos/campañas duplicados con toma de decisiones**: si duplica un recorrido o una campaña que incluye una directiva de decisión, la versión duplicada hace referencia al correo electrónico o la experiencia basada en código original, lo que provoca errores. Siempre vuelva a configurar la política de decisión después de la duplicación.
-* **Políticas de consentimiento**: las actualizaciones de las políticas de consentimiento pueden tardar hasta 24 horas en surtir efecto. Si una directiva de decisión hace referencia a un atributo vinculado a una directiva de consentimiento actualizada recientemente, los cambios no se aplican inmediatamente.
+* **Políticas de consentimiento**: las actualizaciones de las políticas de consentimiento tardan hasta 48 horas en surtir efecto. Si una directiva de decisión hace referencia a un atributo vinculado a una directiva de consentimiento actualizada recientemente, los cambios no se aplican inmediatamente.
 
   Del mismo modo, si se añaden nuevos atributos de perfil sujetos a una directiva de consentimiento a una directiva de decisión, se pueden utilizar, pero la directiva de consentimiento asociada a ellos no se aplicará hasta que haya pasado el retraso.
 
@@ -118,7 +118,7 @@ Para presentar la mejor oferta dinámica y experiencia a los destinatarios y vis
 
       ![](assets/decision-code-based-create.png)
 
-   +++
++++
 
    +++Enviar correo electrónico al menú de Designer **[!UICONTROL Decisioning]**
 
@@ -128,7 +128,7 @@ Para presentar la mejor oferta dinámica y experiencia a los destinatarios y vis
 
       ![](assets/decision-policy-email-designer.png)
 
-   +++
++++
 
 1. Proporcione un nombre y seleccione un catálogo (actualmente limitado al catálogo predeterminado de **[!UICONTROL Ofertas]**).
 
@@ -236,7 +236,7 @@ Oferta 5 - 50
 
      Las ofertas clasificadas ahora son las siguientes: Oferta 5 , Oferta 3, Oferta 4, Oferta 2, Oferta 1, Oferta 6.
 
-   +++
++++
 
 1. Haga clic en **[!UICONTROL Siguiente]**
 
@@ -291,13 +291,13 @@ Una vez creada, la política de decisión y los atributos vinculados a los eleme
 
    ![](assets/decision-policy-placement.png)
 
-   +++
++++
 
    +++Insertar código de política de decisión en una experiencia basada en código
 
    ![](assets/decision-code-based-add-decision.png)
 
-   +++
++++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ Ahora puede agregar todos los atributos de decisión que desee dentro de ese có
 >[!NOTE]
 >
 >Para el seguimiento de elementos de la directiva de decisión, el atributo `trackingToken` debe agregarse de la siguiente manera para el contenido de la directiva de decisión:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Haga clic en cada carpeta para expandirla. Coloque el cursor del ratón en la ubicación deseada y haga clic en el icono + situado junto al atributo que desee añadir. Puede agregar todos los atributos que desee al código.
 
