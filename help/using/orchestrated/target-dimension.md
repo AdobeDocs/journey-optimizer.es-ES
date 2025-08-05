@@ -3,47 +3,36 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Cree su dimensión de segmentación
 description: Obtenga información sobre cómo asignar un esquema relacional al perfil del cliente
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 9%
+source-wordcount: '713'
+ht-degree: 0%
 
 ---
 
+
 # Configuración de una dimensión de segmentación {#configuration}
 
-+++ Índice
+Con **[!UICONTROL Campañas orquestadas]**, puede diseñar y enviar comunicaciones segmentadas en el nivel de entidad, aprovechando las capacidades de esquema relacional de Adobe Experience Platform.
 
-| Bienvenido a campañas orquestadas | Inicie su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
-|---|---|---|---|
-| [Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md)<br/><br/>[Configurar una dimensión de destino](target-dimension.md) | <b>[Creación y programación de las campañas](create-orchestrated-campaign.md)</b><br/><br/>[Organización de actividades](orchestrate-activities.md)<br/><br/>[Inicio y monitorización de las campañas](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabajo con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](build-query.md)<br/><br/>[Edición de expresiones](edit-expressions.md)<br/><br/>[Resegmentación](retarget.md) | [Introducción a las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[AND-join](activities/and-join.md) - [Generar público](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades del canal](activities/channels.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar público](activities/save-audience.md) - [División](activities/split.md) - [Esperar](activities/wait.md) |
+Aunque la segmentación de **[!UICONTROL Campañas orquestadas]** funciona principalmente en esquemas relacionales, la entrega de mensajes real siempre se produce en el nivel **Perfil**.
 
-{style="table-layout:fixed"}
+Al configurar el direccionamiento, se definen dos aspectos clave:
 
-+++
+* **Esquemas de destino**
 
+  Especifique qué esquemas relacionales son aptos para la segmentación. De manera predeterminada, se usa el esquema denominado `Recipient`, pero puede configurar alternativas como `Visitors`, `Customers`, etc.
 
-<br/>
+  >[!IMPORTANT]
+  >
+  > El esquema de destino debe tener una relación 1:1 con el esquema `Profile`. Por ejemplo, no puede usar `Purchases` como esquema de destino, ya que normalmente representa una relación uno a varios.
 
->[!BEGINSHADEBOX]
+* **Vínculo de perfil**
 
-</br>
-
-El contenido de esta página no es definitivo y puede estar sujeto a cambios.
-
->[!ENDSHADEBOX]
-
-En muchos casos, un solo perfil de cliente se puede vincular a varias entidades relacionadas, como suscripciones, contratos de servicio o dispositivos, cada uno con su propio identificador único y necesidades de comunicación.
-
-Con **Campañas orquestadas**, ahora puede diseñar y enviar comunicaciones de destino en el nivel de entidad mediante las **funciones de esquema relacional de Adobe Experience Platform**. Esto le permite segmentar, personalizar e informar por entidad en lugar de por destinatario.
+  El sistema debe comprender cómo se asigna el esquema de destino a `Profile`. Esto se logra a través de un campo de identidad compartido, que existe tanto en el esquema de destino como en el esquema `Profile` y que está configurado como un área de nombres de identidad.
 
 ## Cree su dimensión de segmentación {#targeting-dimension}
-
-Un único perfil de cliente se puede asociar con varias entidades relacionadas, como contratos, dispositivos o suscripciones, cada una con su propio identificador único. Esta configuración le permite establecer como objetivo, segmentar e informar sobre cada entidad individualmente.
 
 Comience por configurar la orquestación de campañas asignando un esquema relacional al perfil del cliente.
 
@@ -55,21 +44,29 @@ Comience por configurar la orquestación de campañas asignando un esquema relac
 
 1. Elija su [esquema](gs-schemas.md) configurado previamente &#x200B;de la lista desplegable.
 
+   Aunque todos los esquemas relacionales son visibles, solo se pueden seleccionar los esquemas con una relación de identidad directa con el **perfil**.
+
 1. Seleccione el **[!UICONTROL valor de identidad]** que representa la entidad a la que desea destinar.
 
    En este ejemplo, el perfil del cliente está vinculado a varias suscripciones, cada una representada por un único `crmID` en el esquema `Recipient`. Al configurar **[!UICONTROL Target Dimension]** para que use el esquema `Recipient` y su identidad `crmID`, puede enviar mensajes en el nivel de suscripción, en lugar de al perfil de cliente principal, asegurándose de que cada contrato o línea reciba su propio mensaje personalizado.
 
-   [Más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#identity).
+   [Más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity).
 
    ![](assets/target-dimension-2.png)
 
-1. Haga clic en **[!UICONTROL Guardar]** para completar la configuración.
+1. Haga clic en **[!UICONTROL Guardar]** para completar la configuración. Tenga en cuenta que una vez creada, una **[!UICONTROL dimensión de destino]** no se puede eliminar ni editar.
 
 Después de configurar **[!UICONTROL Target Dimension]**, proceda a crear y configurar su **[!UICONTROL configuración de canal]** y defina los **[!UICONTROL detalles de ejecución]** correspondientes.
 
 ## Configure su configuración de canal {#channel-configuration}
 
-Después de configurar tu **[!UICONTROL Dimension de Target]**, debes configurar tu correo electrónico o SMS **[!UICONTROL Configuración del canal]** y definir los **[!UICONTROL Detalles de ejecución]** adecuados. Esto garantiza que los mensajes se envíen con la identidad y la lógica de segmentación correctas.
+Después de configurar tu **[!UICONTROL Dimension de Target]**, debes configurar tu correo electrónico o SMS **[!UICONTROL Configuración del canal]** y definir los **[!UICONTROL Detalles de ejecución]** adecuados. Esto le permite definir:
+
+* **El nivel de entrega de mensajes**: por ejemplo, enviar un mensaje por destinatario, como un solo correo electrónico por individuo.
+
+* **La dirección de ejecución**: el campo de contacto específico que se va a utilizar para el envío, como una dirección de correo electrónico o un número de teléfono.
+
+Para configurar la configuración de canal:
 
 1. Comience creando y configurando su **[!UICONTROL configuración de canal]**.
 
@@ -93,15 +90,21 @@ Después de configurar tu **[!UICONTROL Dimension de Target]**, debes configurar
 
    ![](assets/target-dimension-4.png)
 
+1. Si seleccionó **[!UICONTROL Target + Dimension secundario]** como método de entrega, elija un **[!UICONTROL Dimension secundario]** para definir el contexto para la entrega de mensajes.
+
 1. En la sección **[!UICONTROL Dirección de ejecución]**, elija qué **[!UICONTROL Source]** se debe usar para obtener la dirección de entrega, como la dirección de correo electrónico o el número de teléfono:
 
    * **[!UICONTROL Perfil]**: seleccione esta opción si la dirección de envío, por ejemplo: correo electrónico, se almacena directamente en el perfil principal del cliente.
 
      Resulta útil al enviar mensajes al cliente principal, no a una entidad asociada específica.
 
-   * **[!UICONTROL Target Dimension]**: elija esta opción si la dirección de envío está almacenada en la entidad relacionada, por ejemplo, un destinatario o una suscripción.
+   * **[!UICONTROL Target Dimension]**: elija esta opción si la dirección de envío está almacenada en la entidad principal; por ejemplo, un destinatario.
 
      Resulta útil cuando cada destinatario tiene su propia dirección de envío, como un correo electrónico o un número de teléfono diferentes.
+
+   * **[!UICONTROL Dimension secundario]**: Cuando use **[!UICONTROL Target + Dimension secundario]** como método de envío, seleccione el **[!UICONTROL Dimension secundario]** relevante que configuró anteriormente.
+
+     Por ejemplo, si la dimensión secundaria representa una reserva o una suscripción, la dirección de ejecución, como un correo electrónico, se puede tomar de ese nivel. Esto resulta útil en casos en los que los perfiles utilizan un detalle de contacto diferente al reservar o suscribirse a un servicio.
 
 1. En el campo **[!UICONTROL Dirección de entrega]**, haga clic en ![icono de edición](assets/do-not-localize/edit.svg) para elegir el campo específico que se usará para la entrega de mensajes.
 

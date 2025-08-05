@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Creación de campañas organizadas con Adobe Journey Optimizer
 description: Aprenda a crear campañas organizadas con Adobe Journey Optimizer
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 55%
+source-wordcount: '882'
+ht-degree: 56%
 
 ---
 
+
 # Actividades de la campaña organizada {#orchestrate}
-
-+++ Índice
-
-| Bienvenido a campañas orquestadas | Inicie su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
-|---|---|---|---|
-| [Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | [Creación y programación de las campañas](create-orchestrated-campaign.md)<br/><br/><b>[Organización de actividades](orchestrate-activities.md)</b><br/><br/>[Inicio y monitorización de las campañas](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabajo con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](build-query.md)<br/><br/>[Edición de expresiones](edit-expressions.md)<br/><br/>[Resegmentación](retarget.md) | [Introducción a las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[AND-join](activities/and-join.md) - [Generar público](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades del canal](activities/channels.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar público](activities/save-audience.md) - [División](activities/split.md) - [Esperar](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-El contenido de esta página no es definitivo y puede estar sujeto a cambios.
-
->[!ENDSHADEBOX]
 
 Una vez que haya [creado una campaña orquestada](gs-campaign-creation.md), puede empezar a orquestar las diferentes tareas que realizará. Para ello, se proporciona un lienzo visual, que le permite construir un diagrama de campaña orquestada. Dentro de este diagrama, puede añadir varias actividades y conectarlas en un orden secuencial.
 
@@ -84,7 +62,7 @@ Al añadir actividades, los botones de acción están disponibles en el panel de
 
 ![Icono de pausa](assets/do-not-localize/activity-pause.svg) ![Icono de reanudación](assets/do-not-localize/activity-resume.svg) Ponga en pausa/reanude la actividad. Cuando se ejecuta la campaña orquestada, se pausa en la actividad pausada. No se ejecutará la tarea correspondiente ni las que la siguen en la misma ruta.
 
-Puede utilizar cualquier actividad en el lienzo como punto de interrupción para pausar la ejecución de la campaña. Esto significa que la campaña se ejecutará solamente hasta esta actividad y luego pausará la ejecución. Al pausar la ejecución, el motor de segmentación mantiene los datos temporales disponibles para que los previsualice. Puede seleccionar la transición entrante justo antes de la actividad pausada para ver los datos transportados. Obtenga más información sobre esta sección: [Supervisión de flujo visual](../orchestrated/start-monitor-campaigns.md#flow).
+Puede utilizar cualquier actividad en el lienzo como punto de interrupción para pausar la ejecución de la campaña. Esto significa que la campaña se ejecutará solamente hasta esta actividad y luego pausará la ejecución. Al pausar la ejecución, el motor de segmentación mantiene los datos temporales disponibles para que los previsualice. Puede seleccionar la transición entrante justo antes de la actividad pausada para ver los datos transportados. Obtenga más información sobre esta sección: [Supervisión del flujo visual](../orchestrated/start-monitor-campaigns.md#flow)
 
 ![Icono de copiar](assets/do-not-localize/activity-copy.svg) Copie la actividad. [Aprenda a copiar y pegar actividades](#copy)
 

@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Añadir una actividad de canal en una campaña de varios pasos
 description: Obtenga información sobre cómo añadir una actividad de canal en una campaña de varios pasos
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 5e52573689ab06084441390299b01e112e699244
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 58%
+source-wordcount: '1097'
+ht-degree: 60%
 
 ---
+
 
 # Actividades del canal {#channel}
 
@@ -50,27 +48,6 @@ UNUSED IDs in BJ
 >id="ajo_orchestration_directmail"
 >title="Actividad de correo directo"
 >abstract="La actividad de correo postal facilita el envío de correo postal dentro de la campaña orquestada, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de generación del archivo de extracción requerido por los proveedores de correo directo. Puede combinar actividades de canal en el lienzo de campaña orquestada para crear campañas en canales múltiples que puedan almacenar en déclencheur acciones basadas en la conducta y los datos del cliente."
-
-
-+++ Índice
-
-| Bienvenido a campañas orquestadas | Inicie su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
-|---|---|---|---|
-| [Empiece a usar las campañas orquestadas](../gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](../gs-schemas.md)</li><li>[Esquema manual](../manual-schema.md)</li><li>[Esquema de carga de archivos](../file-upload-schema.md)</li><li>[Ingesta de datos](../ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](../access-manage-orchestrated-campaigns.md) | [Pasos clave para crear una campaña orquestada](../gs-campaign-creation.md)<br/><br/>[Cree y programe las actividades de la campaña](../create-orchestrated-campaign.md)<br/><br/>[Organizar actividades](../orchestrate-activities.md)<br/><br/>[Inicie y supervise la campaña](../start-monitor-campaigns.md)<br/><br/>[Creación de informes](../reporting-campaigns.md) | [Trabajo con el generador de reglas](../orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](../build-query.md)<br/><br/>[Edición de expresiones](../edit-expressions.md)<br/><br/>[Resegmentación](../retarget.md) | [Introducción a las actividades](about-activities.md)<br/><br/>Actividades:<br/>[AND-join](and-join.md) - [Generar público](build-audience.md) - [Cambiar dimensión](change-dimension.md) - <b>[Actividades del canal](channels.md)</b> - [Combinar](combine.md) - [Deduplicación](deduplication.md) - [Enriquecimiento](enrichment.md) - [Bifurcación](fork.md) - [Reconciliación](reconciliation.md) - [Guardar público](save-audience.md) - [División](split.md) - [Esperar](wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-El contenido de esta página no es definitivo y puede estar sujeto a cambios.
-
->[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] le permite automatizar y ejecutar campañas de marketing en todos los canales: correo electrónico, SMS y notificaciones push. Puede combinar estas actividades de canal en el lienzo de la campaña para crear campañas orquestadas entre canales que puedan almacenar en déclencheur acciones basadas en la conducta y los datos del cliente.
 

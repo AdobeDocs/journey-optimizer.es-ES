@@ -3,97 +3,83 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Limitaciones y protecciones de campañas organizadas
 description: Obtenga información acerca de las limitaciones y protecciones de campañas orquestadas
-hide: true
-hidefromtoc: true
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 10%
+source-wordcount: '432'
+ht-degree: 2%
 
 ---
 
+
 # Mecanismos de protección y limitaciones {#guardrails}
 
-+++ Índice
+A continuación, encontrará limitaciones y protecciones adicionales al utilizar campañas orquestadas.
 
-| Bienvenido a campañas orquestadas | Inicie su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
-|---|---|---|---|
-| [Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | [Creación y programación de las campañas](create-orchestrated-campaign.md)<br/><br/>[Organización de actividades](orchestrate-activities.md)<br/><br/>[Inicio y monitorización de las campañas](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabajo con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](build-query.md)<br/><br/>[Edición de expresiones](edit-expressions.md)<br/><br/>[Resegmentación](retarget.md) | [Introducción a las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[AND-join](activities/and-join.md) - [Generar público](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades del canal](activities/channels.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar público](activities/save-audience.md) - [División](activities/split.md) - [Esperar](activities/wait.md) |
+## Limitaciones de flujo de datos
 
-{style="table-layout:fixed"}
+### Diseño y almacenamiento de datos
 
-+++
+* El almacén de datos relacional admite un máximo de **200 tablas** (esquemas).
 
-## Limitaciones de flujo de datos a conjunto de datos
+* Para campañas orquestadas, el tamaño total de cualquier esquema individual **no debe exceder los 100 GB**.
 
-Cada conjunto de datos en Adobe Experience Platform solo se puede asociar a un flujo de datos activo a la vez. La plataforma aplica estrictamente esta cardinalidad de 1:1.
+* Las actualizaciones diarias de un esquema deben estar **limitadas a menos del 20%** de su recuento total de registros para mantener el rendimiento y la estabilidad.
 
-Si necesita cambiar las fuentes de datos (por ejemplo, de Amazon S3 a Salesforce):
+* Los datos relacionales son el modelo principal admitido para los casos de uso de ingesta, modelado de datos y segmentación.
 
-Debe eliminar el flujo de datos existente conectado al conjunto de datos.
+* Los esquemas utilizados para la segmentación deben contener al menos **un campo de identidad de tipo`String`**, asignado a un área de nombres de identidad definida.
 
-A continuación, cree un nuevo flujo de datos con el nuevo origen asignado al mismo conjunto de datos.
-
-Esto garantiza una ingesta de datos fiable y es esencial al utilizar la captura de datos de cambio (CDC), que depende de una clave principal definida y de un atributo de versiones (por ejemplo, lastmodified) para las actualizaciones incrementales.
-
-
-## Esquemas relacionales/limitaciones de ingesta de datos
-
-* Se admiten hasta 200 esquemas relacionales (tablas) en el almacén de datos relacional.
-
-* El tamaño total de un esquema relacional utilizado para Campaign Orchestration no debe superar los 100 GB.
-
-* La ingesta por lotes para Campaign Orchestration no debe producirse con más frecuencia que una vez cada 15 minutos.
-
-* Los cambios diarios en un esquema relacional deben permanecer por debajo del 20 % del recuento total de registros.
-
-## Modelado de datos
-
-* El descriptor de versión es obligatorio en todos los esquemas, incluidas las tablas de hechos.
-
-* Se requiere una clave principal para cada tabla.
-
-* El nombre de tabla asignado durante la creación del conjunto de datos se utiliza en la interfaz de usuario de segmentación y en las funciones de personalización.
-
-  Este nombre es permanente y no se puede cambiar después de crearlo.
-
-* Actualmente no se admiten grupos de campos.
-
-## Ingesta de datos
+### Ingesta de datos
 
 * Se requiere la ingesta de datos relacionales y de perfil.
 
-* Se requiere un campo de tipo de cambio para la ingesta basada en archivos, mientras que el registro de tabla debe estar habilitado para la ingesta de Cloud DB. Esto es necesario para Change Data Capture (CDC).
+* Toda la ingesta debe realizarse a través de **Cambiar captura de datos** orígenes:
 
-* La latencia desde la ingesta hasta la disponibilidad de los datos en Snowflake varía entre 15 minutos y 2 horas, según el volumen de datos, la concurrencia y el tipo de operaciones (las inserciones son más rápidas que las actualizaciones).
+   * Para **basado en archivos**: se requiere el campo `change_type`.
 
-* La monitorización de datos en Snowflake está en desarrollo; actualmente, no hay ninguna confirmación nativa para una ingesta correcta.
+   * Para **basado en la nube**: debe habilitarse el registro de tablas.
 
-* No se admiten actualizaciones directas en Snowflake o en el conjunto de datos. Todos los cambios deben fluir a través de fuentes de CDC.
+* **No se admiten actualizaciones directas en Snowflake o conjuntos de datos**. El sistema es de solo lectura, todos los cambios deben aplicarse mediante la captura de datos modificados.
 
-  El servicio de consultas es de solo lectura.
+* **No se admiten procesos ETL**. Los datos deben transformarse completamente al formato requerido antes de la ingesta.
 
-* ETL no es compatible: los clientes deben proporcionar los datos en el formato requerido.
+* **No se permiten actualizaciones parciales**, cada fila debe proporcionarse como un registro completo.
 
-* No se permiten actualizaciones parciales. Cada fila debe proporcionarse como un registro completo.
+* La ingesta por lotes para Campaign Orchestration está limitada a **una vez cada 15 minutos**.
 
-* La ingesta se basa en Query Service y Data Distiller.
+* La latencia de ingesta, el tiempo desde la ingesta hasta la disponibilidad en Snowflake, generalmente oscila entre **15 minutos y 2 horas**, según lo siguiente:
 
-## Segmentación
+   * Volumen de datos
 
-* La lista de valores y las enumeraciones están disponibles actualmente.
+   * Concurrencia del sistema
 
-* Las audiencias guardadas son listas estáticas, su contenido refleja los datos disponibles en el momento en que se ejecuta la campaña.
+   * Tipo de operación; por ejemplo, las inserciones son más rápidas que las actualizaciones
 
-* No se admite anexar a una audiencia guardada. Las actualizaciones requieren una sobrescritura completa.
+### Modelado de datos
 
-* Las audiencias solo deben constar de atributos escalares; no se admiten mapas y matrices.
+* Todos los esquemas, incluidas las tablas de hechos, deben incluir **un descriptor de versión** para garantizar el control de versiones y la trazabilidad adecuados.
 
-* La segmentación admite principalmente datos relacionales. Aunque se permite la mezcla con datos de perfil, la introducción de conjuntos de datos de perfil grandes puede afectar al rendimiento. Para evitarlo:
+* Cada tabla debe tener una **clave principal** definida para admitir la integridad de los datos y las operaciones de flujo descendente.
 
-* Existen protecciones, como la limitación del número de atributos de perfil seleccionados en las audiencias por lotes o de streaming.
+* El `table_name` asignado durante la creación del conjunto de datos es permanente y se utiliza en todas las funciones de segmentación y personalización.
 
-* Las audiencias de lectura no se almacenan en caché; cada campaña se ejecuta con un déclencheur de lectura completo.
+* **No se admiten los grupos de campos** en el marco de modelado de datos actual.
 
-  La optimización es necesaria para audiencias grandes o complejas.
+## Limitaciones de actividades
+
+* Solo se admiten **atributos escalares** en las definiciones de audiencia; no se permiten **mapas y matrices**.
+
+* **Las actividades de segmentación se basan principalmente en datos relacionales**. Aunque se pueden incluir datos de perfil, el uso de conjuntos de datos de perfil grandes puede afectar al rendimiento.
+
+* Se aplican **límites en la cantidad de atributos de perfil** que se pueden usar en audiencias por lotes y de flujo continuo para mantener la eficiencia del sistema.
+
+* **Lista de valores (LOV)** y **enumeraciones** son totalmente compatibles.
+
+* **Las audiencias de lectura no se almacenan en caché**, cada ejecución de campaña almacena en déclencheur una evaluación de audiencia completa a partir de los datos subyacentes.
+
+* Se recomienda **optimizar** al trabajar con definiciones de audiencia grandes o complejas para garantizar el rendimiento.
+
+* **Las actividades de audiencias guardadas son estáticas**, y reflejan los datos disponibles en el momento de la ejecución de la campaña.
+
+* **No se admite anexar a una actividad de audiencia guardada**. Cualquier modificación requiere una sobrescritura completa de la audiencia.

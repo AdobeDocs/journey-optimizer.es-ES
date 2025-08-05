@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bb3b07dc5dbb5ef50470caf52da2e10fcaf21a5e
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2624'
-ht-degree: 91%
+source-wordcount: '2648'
+ht-degree: 90%
 
 ---
 
@@ -112,7 +113,6 @@ Las protecciones y limitaciones que se deben tener en cuenta al trabajar con tom
 
 * [Limitaciones y protecciones de decisiones](../experience-decisioning/decisioning-guardrails.md)
 * [Limitaciones y mecanismos de protección de gestión de decisiones](../offers/decision-management-guardrails.md)
-
 
 ## Mecanismos de protección de recorridos {#journeys-guardrails}
 
@@ -259,3 +259,7 @@ Los siguientes mecanismos de protección se aplican a las actividades **[!UICONT
 
 * Las actividades de Adobe Campaign no se pueden utilizar con un público de lectura o una actividad de calificación de público.
 * Las actividades de la campaña no se pueden utilizar con las actividades de otros canales: Tarjeta, Experiencia basada en código, Correo electrónico, Push, SMS, Mensajes en la aplicación, Web.
+
+## Protecciones de Campaign Orchestration {#orchestration-guardrails}
+
+Las protecciones y limitaciones que se deben tener en cuenta al trabajar con Campaign Orchestration se detallan en esta sección: [Limitaciones y protecciones de administración de decisiones](../orchestrated/guardrails.md).

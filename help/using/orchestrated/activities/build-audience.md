@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Uso de la actividad Generar público
 description: Aprenda a utilizar la actividad Generar audiencia en una campaña organizada
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 53%
+source-wordcount: '293'
+ht-degree: 60%
 
 ---
+
 
 # Generar público {#build-audience}
 
@@ -20,27 +18,6 @@ ht-degree: 53%
 >id="ajo_orchestration_build_audience"
 >title="Actividad Crear público"
 >abstract="La actividad **Generar audiencia** le permite definir la audiencia que entrará en la campaña orquestada. Al enviar mensajes en el contexto de una campaña orquestada, la audiencia de mensajes no se define en la actividad del canal, sino en una actividad de **Generar audiencia**."
-
-+++ Índice
-
-| Bienvenido a campañas orquestadas | Inicie su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
-|---|---|---|---|
-| [Empiece a usar las campañas orquestadas](../gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](../gs-schemas.md)</li><li>[Esquema manual](../manual-schema.md)</li><li>[Esquema de carga de archivos](../file-upload-schema.md)</li><li>[Ingesta de datos](../ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](../access-manage-orchestrated-campaigns.md) | [Pasos clave para crear una campaña orquestada](../gs-campaign-creation.md)<br/><br/>[Cree y programe las actividades de la campaña](../create-orchestrated-campaign.md)<br/><br/>[Organizar actividades](../orchestrate-activities.md)<br/><br/>[Inicie y supervise la campaña](../start-monitor-campaigns.md)<br/><br/>[Creación de informes](../reporting-campaigns.md) | [Trabajo con el generador de reglas](../orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](../build-query.md)<br/><br/>[Edición de expresiones](../edit-expressions.md)<br/><br/>[Resegmentación](../retarget.md) | [Introducción a las actividades](about-activities.md)<br/><br/>Actividades:<br/>[AND-join](and-join.md) - <b>[Generar público](build-audience.md)</b> - [Cambiar dimensión](change-dimension.md) - [Actividades del canal](channels.md) - [Combinar](combine.md) - [Deduplicación](deduplication.md) - [Enriquecimiento](enrichment.md) - [Bifurcación](fork.md) - [Reconciliación](reconciliation.md) - [Guardar público](save-audience.md) - [División](split.md) - [Esperar](wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-El contenido de esta página no es definitivo y puede estar sujeto a cambios.
-
->[!ENDSHADEBOX]
 
 Como experto en marketing, puede crear segmentos de público complejos a través de una interfaz intuitiva, lo que le permite dirigirse a los usuarios en función de una amplia gama de criterios y comportamientos para adaptar las campañas de forma más eficaz.
 

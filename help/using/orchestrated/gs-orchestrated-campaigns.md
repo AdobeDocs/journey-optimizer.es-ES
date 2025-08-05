@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a las campañas organizadas
 description: Obtenga información sobre cómo empezar con campañas organizadas
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 10%
+source-wordcount: '579'
+ht-degree: 14%
 
 ---
+
 
 # Introducción a las campañas organizadas {#orchestrated-camp}
 
@@ -20,26 +18,6 @@ ht-degree: 10%
 >id="campaigns_overview_orchestrated"
 >title="campaigns_overview_orchestrated"
 >abstract="<b>Organización de campaña</b><br/>Divida, combine, enriquezca y manipule conjuntos de datos relacionales para definir su audiencia<br/><br/> <b>Aproveche los datos de varias entidades</b><br/>Descubra cómo las campañas orquestadas pueden aprovechar los conjuntos de datos relacionales para enriquecer los datos para la segmentación y personalización<br/><br/><b>Segmentación ad hoc y recuentos exactos</b><br/>Cree su segmento paso a paso con recuentos exactos<br/><br/><b>Canales disponibles</b><br/>Correo electrónico, SMS, notificaciones push, Correo directo"
-
-+++ Índice
-
-| Bienvenido a campañas orquestadas | Inicie su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
-|---|---|---|---|
-| <b>[Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)</b><br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | [Creación y programación de las campañas](create-orchestrated-campaign.md)<br/><br/>[Organización de actividades](orchestrate-activities.md)<br/><br/>[Inicio y monitorización de las campañas](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabajo con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](build-query.md)<br/><br/>[Edición de expresiones](edit-expressions.md)<br/><br/>[Resegmentación](retarget.md) | [Introducción a las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[AND-join](activities/and-join.md) - [Generar público](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades del canal](activities/channels.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar público](activities/save-audience.md) - [División](activities/split.md) - [Esperar](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-El contenido de esta página no es definitivo y puede estar sujeto a cambios.
-
->[!ENDSHADEBOX]
 
 La organización de campañas en [!DNL Adobe Journey Optimizer] potencia campañas de marketing sofisticadas iniciadas por la marca en todos los canales, lo que le ayuda a aumentar la participación, los ingresos y la lealtad de los clientes a escala.
 
@@ -53,14 +31,14 @@ La organización de campañas se basa en cuatro pilares clave:
 
 <table style="table-layout:auto">
 <tr style="border: 0;">
-<td><img alt="Audiencias a la carta" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>Las audiencias a petición</b><br/>consultan instantáneamente entre conjuntos de datos para crear segmentos de audiencia usando cualquier combinación de tipos de datos y dimensiones.</td></tr>
+<td><img alt="Audiencias a la carta" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>Las audiencias a petición</b><br/>consultan instantáneamente entre conjuntos de datos para crear segmentos de audiencia usando cualquier combinación de tipos de datos y dimensiones.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentación y envío de varias entidades" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>Segmentación y envío de varias entidades</b><br/>Vaya más allá de las campañas basadas en personas: use entidades como catálogos de productos, ubicaciones de tiendas o datos de servicio para segmentar con precisión.<br/><br/>
+<td><img alt="Segmentación y envío de varias entidades" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentación y envío de varias entidades</b><br/>Vaya más allá de las campañas basadas en personas: use entidades como catálogos de productos, ubicaciones de tiendas o datos de servicio para segmentar con precisión.<br/><br/>
 Admitir el envío de varios niveles, donde se envía un mensaje por perfil y por entidad secundaria asociada. Estas entidades secundarias pueden incluir direcciones de contacto, reservas, suscripciones, contratos u otros datos vinculados. Por ejemplo, esto permite enviar campañas a todas las direcciones conocidas de un perfil o a todas las reservas asociadas con ese perfil.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Visibilidad y precisión previas al envío" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>Visibilidad y precisión previas al envío</b><br/>Obtenga recuentos de segmentación exactos y un ámbito de campaña completo antes del lanzamiento, lo que garantiza precisión y confianza.</td></tr>
+<td><img alt="Visibilidad y precisión previas al envío" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Visibilidad y precisión previas al envío</b><br/>Obtenga recuentos de segmentación exactos y un ámbito de campaña completo antes del lanzamiento, lo que garantiza precisión y confianza.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Flujos de trabajo de campaña de varios pasos" src="assets/do-not-localize/icon-multistep.svg" width="50px"></a></td><td><b>Flujos de trabajo de campañas de varios pasos</b><br/>Diseña campañas de varios pasos, desde mensajes diarios hasta campañas complejas como promociones de temporada o lanzamientos de productos importantes.</td></tr>
+<td><img alt="Flujos de trabajo de campaña de varios pasos" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>Flujos de trabajo de campañas de varios pasos</b><br/>Diseña campañas de varios pasos, desde mensajes diarios hasta campañas complejas como promociones de temporada o lanzamientos de productos importantes.</td></tr>
 </table>
 
 ## Campañas y recorridos organizados
@@ -73,13 +51,21 @@ Aunque la visualización de campañas orquestadas tiene similitudes con los reco
 
 Ambos lienzos están optimizados para sus respectivos casos de uso: el lienzo de Recorrido publica recorridos que tienden a permanecer activos durante un período de tiempo más largo, mientras que el lienzo de campaña está diseñado para ejecuciones iterativas e incrementales de una campaña por lotes.
 
-## Requisitos previos
+## ¿Qué hay dentro de una campaña orquestada? {#gs-ms-campaign-inside}
 
-Antes de trabajar con campañas orquestadas, es esencial asegurarse de que tiene los permisos adecuados. El acceso a las campañas orquestadas está restringido a los usuarios asignados a un **[!UICONTROL perfil de producto]** relevante, como administrador de campañas orquestadas, aprobador de campañas orquestadas, administrador de campañas orquestadas o visor de campañas orquestadas.
+El lienzo de campaña orquestada es una representación de lo que se supone que debe suceder. Describe las diversas tareas que se realizan y cómo se relacionan entre sí.
 
-Si no puede acceder a las funcionalidades de la campaña orquestada, póngase en contacto con el administrador para solicitar los permisos necesarios.
+![imagen que muestra un lienzo de campaña orquestado](assets/canvas-example.png)
 
-➡️ [Más información acerca de perfiles de producto relacionados con Campañas orquestadas](../administration/ootb-product-profiles.md)
+Cada campaña orquestada contiene:
+
+* **Actividades**: una actividad es una tarea que se va a realizar. Las distintas actividades disponibles se representan en el diagrama mediante iconos. Cada actividad tiene propiedades específicas y otras propiedades que son comunes a todas las actividades.
+
+  En un diagrama de campaña orquestada, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o una acción recurrente.
+
+* **Transiciones**: las transiciones vinculan una actividad de origen a una actividad de destino y definen su secuencia.
+
+* **Tablas de trabajo**: estas contienen toda la información de la transición. Cada campaña orquestada utiliza varias tablas de trabajo. Los datos transmitidos en estas tablas se pueden utilizar en todo el ciclo de vida de la campaña orquestada.
 
 ## Vamos a profundizar
 

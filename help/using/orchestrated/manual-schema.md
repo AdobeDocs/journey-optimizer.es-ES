@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Pasos de configuración
 description: Aprenda a crear esquemas relacionales directamente a través de la interfaz de usuario.
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 9%
+source-wordcount: '832'
+ht-degree: 3%
 
 ---
 
+
 # Configuración de un esquema relacional manual {#manual-schema}
-
-+++ Índice
-
-| Bienvenido a campañas orquestadas | Inicie su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
-|---|---|---|---|
-| [Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br><ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | [Creación y programación de las campañas](create-orchestrated-campaign.md)<br/><br/>[Organización de actividades](orchestrate-activities.md)<br/><br/>[Inicio y monitorización de las campañas](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabajo con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](build-query.md)<br/><br/>[Edición de expresiones](edit-expressions.md)<br/><br/>[Resegmentación](retarget.md) | [Introducción a las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[AND-join](activities/and-join.md) - [Generar público](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades del canal](activities/channels.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar público](activities/save-audience.md) - [División](activities/split.md) - [Esperar](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-</br>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-El contenido de esta página no es definitivo y puede estar sujeto a cambios.
-
->[!ENDSHADEBOX]
 
 Los esquemas relacionales se pueden crear directamente a través de la interfaz de usuario, lo que permite una configuración detallada de atributos, claves principales, campos de versiones y relaciones.
 
@@ -67,8 +45,6 @@ Comience creando un nuevo esquema relacional manualmente en Adobe Experience Pla
 1. Elija **[!UICONTROL Crear manualmente]** para generar el esquema agregando campos manualmente.
 
 1. Escriba su **[!UICONTROL nombre para mostrar del esquema]**.
-
-1. Elija **[!UICONTROL Registro]** como su **[!UICONTROL comportamiento de esquema]**.
 
    ![](assets/schema_manual_8.png){zoomable="yes"}
 

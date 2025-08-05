@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Pasos de configuración
 description: Obtenga información sobre cómo crear un esquema relacional en Adobe Experience Platform cargando un DDL
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 57%
+source-wordcount: '985'
+ht-degree: 58%
 
 ---
 
+
 # Creación de esquemas relacionales mediante un archivo DDL {#file-upload-schema}
-
-+++ Índice
-
-| Bienvenido a campañas orquestadas | Inicie su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
-|---|---|---|---|
-| [Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | [Creación y programación de las campañas](create-orchestrated-campaign.md)<br/><br/>[Organización de actividades](orchestrate-activities.md)<br/><br/>[Inicio y monitorización de las campañas](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabajo con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](build-query.md)<br/><br/>[Edición de expresiones](edit-expressions.md)<br/><br/>[Resegmentación](retarget.md) | [Introducción a las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[AND-join](activities/and-join.md) - [Generar público](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades del canal](activities/channels.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar público](activities/save-audience.md) - [División](activities/split.md) - [Esperar](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-</br>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-El contenido de esta página no es definitivo y puede estar sujeto a cambios.
-
->[!ENDSHADEBOX]
 
 Defina el modelo de datos relacionales necesario para las campañas orquestadas creando esquemas como **Suscripciones de fidelización**, **Transacciones de fidelización** y **Recompensas de fidelización**. Cada esquema debe incluir una clave principal, un atributo de versiones y las relaciones adecuadas para hacer referencia a entidades como **Destinatarios** o **Marcas**.
 
@@ -185,28 +163,3 @@ Establezca una relación entre el esquema **Transacciones de lealtad** y el esqu
 Continúe creando una relación entre el esquema **recompensas por lealtad** y el esquema **Marcas** para asociar cada entrada de recompensa con la marca adecuada.
 
 ![](assets/schema_3.png)
-
-
-<!--### Setting Up Change data capture ingestion {#cdc-ingestion}
-
-If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
-
-When using Change Data Capture (CDC), it is essential that the source and dataset remain in sync to ensure accurate incremental updates. Follow the steps below:
-
-1. **Schema Requirements**
-   - Your schema must include:
-     - A **primary key** (e.g., `transaction_id`)
-     - A **versioning field** (e.g., `lastmodified` or an incrementing `version_id`)
-   - Enable the dataset for **Orchestrated Campaigns** if needed.
-
-2. **CDC Dataflow Setup**
-   - During dataflow creation, after choosing your source and files:
-     - **Enable the CDC option**
-     - Select your CDC-ready dataset
-     - Confirm field mappings (especially version field)
-
-3. **Keep Source and Target in Sync**
-   - The source system must consistently update the version field so the platform can detect changes accurately.
-
-Once set up, the platform will automatically ingest **only changed or new records** each time the flow runs.
--->

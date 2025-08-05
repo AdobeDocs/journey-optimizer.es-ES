@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Pasos de configuración
 description: Obtenga información sobre cómo introducir datos en Adobe Experience Platform desde fuentes compatibles como SFTP, almacenamiento en la nube o bases de datos.
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 36%
+source-wordcount: '656'
+ht-degree: 22%
 
 ---
 
+
 # Ingesta de datos {#ingest-data}
-
-+++ Índice
-
-| Bienvenido a campañas orquestadas | Inicie su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
-|---|---|---|---|
-| [Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales</br> <ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | [Creación y programación de las campañas](create-orchestrated-campaign.md)<br/><br/>[Organización de actividades](orchestrate-activities.md)<br/><br/>[Inicio y monitorización de las campañas](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabajo con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](build-query.md)<br/><br/>[Edición de expresiones](edit-expressions.md)<br/><br/>[Resegmentación](retarget.md) | [Introducción a las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[AND-join](activities/and-join.md) - [Generar público](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades del canal](activities/channels.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar público](activities/save-audience.md) - [División](activities/split.md) - [Esperar](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-</br>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-El contenido de esta página no es definitivo y puede estar sujeto a cambios.
-
->[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -58,33 +36,53 @@ Los siguientes recursos son compatibles con las campañas orquestadas:
   <tbody>
     <tr>
       <td rowspan="3">Almacenamiento en la nube</td>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Almacenamiento en la nube de Google</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Almacenamiento en la nube de Google</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Almacenes de datos en la nube</td>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Zona de aterrizaje de datos<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Zona de aterrizaje de datos<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">Cargas basadas en archivos</td>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Carga de archivo local<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Carga de archivo local<a></td>
     </tr>
 
 </tbody>
 </table>
+
+## Directrices para la higiene de datos de esquemas relacionales {#cdc}
+
+Para los conjuntos de datos habilitados con **[!UICONTROL Cambiar captura de datos]**, todos los cambios de datos, incluidas las eliminaciones, se reflejarán automáticamente desde el sistema de origen a Adobe Experience Platform.
+
+Dado que Adobe Journey Optimizer Campaign requiere que todos los conjuntos de datos incorporados estén habilitados con **[!UICONTROL Cambiar captura de datos]**, es responsabilidad del cliente administrar las eliminaciones en el origen. Cualquier registro eliminado del sistema de origen se eliminará automáticamente del conjunto de datos correspondiente en Adobe Experience Platform.
+
+Para eliminar registros mediante la ingesta basada en archivos, el archivo de datos del cliente debe marcar el registro con un valor `D` en el campo `Change Request Type`. Esto indica que el registro debe eliminarse en Adobe Experience Platform, reflejando el sistema de origen.
+
+Si el cliente desea eliminar registros solo de Adobe Experience Platform sin afectar a los datos de origen originales, están disponibles las siguientes opciones:
+
+* **Replicación de captura de datos proxy o saneada para cambio**
+
+  El cliente puede crear una tabla de origen proxy o saneada para controlar qué registros se replican en Adobe Experience Platform. Las eliminaciones se pueden administrar de forma selectiva desde esta tabla intermedia.
+
+* **Eliminación mediante Data Distiller**
+
+  Si tiene licencia, **Data Distiller** se puede usar para admitir operaciones de eliminación directamente en Adobe Experience Platform, independientemente del sistema de origen.
+
+  [Más información sobre Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## Configuración de un flujo de datos
 
@@ -105,6 +103,8 @@ En este ejemplo se muestra cómo configurar un flujo de datos que ingiere datos 
    ![](assets/S3_config_1.png)
 
 1. En la página **[!UICONTROL Detalles del conjunto de datos]**, marque **[!UICONTROL Habilitar la captura de datos de cambio]** para mostrar solo los conjuntos de datos asignados a esquemas relacionales e incluir una clave principal y un descriptor de versión.
+
+[Obtenga más información sobre las directrices para la higiene de los datos de esquemas relacionales](#cdc)
 
    >[!IMPORTANT]
    >
@@ -133,4 +133,5 @@ En este ejemplo se muestra cómo configurar un flujo de datos que ingiere datos 
 1. En el menú **[!UICONTROL Conexiones]**, seleccione **[!UICONTROL Fuentes]** y acceda a la pestaña **[!UICONTROL Flujos de datos]** para rastrear la ejecución del flujo, revisar los registros ingeridos y solucionar cualquier error.
 
    ![](assets/S3_config_5.png)
+
 

@@ -9,13 +9,13 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: b183eeb8-606f-444d-9302-274f159c3847
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '272'
+ht-degree: 16%
 
 ---
-
 
 # Programación de la campaña de acción {#action-campaign-schedule}
 
@@ -29,7 +29,7 @@ La opción **[!UICONTROL Fin de campaña]** le permite especificar cuándo debe 
 
 >[!NOTE]
 >
->Al programar campañas en [!DNL Adobe Journey Optimizer], asegúrese de que la fecha y la hora de inicio se ajusten a la primera entrega deseada. En el caso de las campañas recurrentes, si ya ha pasado la hora programada inicial, las campañas se transferirán a la siguiente franja horaria disponible según sus reglas de periodicidad.
+>Al programar campañas en [!DNL Adobe Journey Optimizer], asegúrese de que la fecha y la hora de inicio se ajusten al primer envío deseado. En el caso de las campañas recurrentes, si ya ha pasado la hora programada inicial, las campañas se transferirán a la siguiente franja horaria disponible según sus reglas de periodicidad.
 
 Hay opciones de programación adicionales disponibles en función del canal de campaña:
 
@@ -41,6 +41,6 @@ Hay opciones de programación adicionales disponibles en función del canal de c
 
   Para las campañas de correo electrónico, puede crear campañas de activación de planes de calentamiento de IP específicas. La programación de campaña se basa en el plan de calentamiento de IP con el que está asociado, lo que significa que la programación ya no está definida en la propia campaña. [Aprenda a crear campañas de calentamiento de IP](../configuration/ip-warmup-campaign.md).
 
-## Pasos siguientes {#next}
+## Próximos pasos {#next}
 
 Una vez que la programación de la campaña esté lista, puede revisarla y activarla. [Más información](review-activate-campaign.md)

@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Edición del contenido de la campaña de acción
-description: Obtenga información sobre cómo editar el contenido de la campaña de acción.
+description: Obtenga información sobre cómo editar el contenido de la campaña Acción.
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 16%
 
 ---
-
 
 # Edición del contenido de la campaña de acción {#action-campaign-content}
 
@@ -57,6 +57,6 @@ Para volver a la pantalla de creación de campañas, haga clic en la flecha izqu
 
 ![](assets/create-campaign-design.png)
 
-## Pasos siguientes {#next}
+## Próximos pasos {#next}
 
 Una vez que el contenido de la campaña de acción esté listo, puede definir la audiencia de la campaña. [Más información](campaign-audience.md)

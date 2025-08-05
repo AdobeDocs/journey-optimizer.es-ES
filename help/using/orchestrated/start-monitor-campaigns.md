@@ -3,15 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Inicio y monitorización de campañas organizadas con Adobe Journey Optimizer
 description: Obtenga información sobre cómo iniciar y monitorizar campañas orquestadas con Adobe Journey Optimizer.
-hide: true
-hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 5e52573689ab06084441390299b01e112e699244
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 54%
+source-wordcount: '761'
+ht-degree: 51%
 
 ---
+
 
 # Inicio y monitorización de sus campañas organizadas {#start-monitor}
 
@@ -19,26 +18,6 @@ ht-degree: 54%
 >id="ajo_campaign_publication"
 >title="Publicar campaña orquestada"
 >abstract="Para iniciar su campaña, debe publicarla. Asegúrese de que se borran todos los errores antes de la publicación."
-
-+++ Índice
-
-| Bienvenido a campañas orquestadas | Inicie su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
-|---|---|---|---|
-| [Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | [Creación y programación de las campañas](create-orchestrated-campaign.md)<br/><br/>[Organización de actividades](orchestrate-activities.md)<br/><br/><b>[Inicio y monitorización de las campañas](start-monitor-campaigns.md)</b><br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabajo con el generador de reglas](orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](build-query.md)<br/><br/>[Edición de expresiones](edit-expressions.md)<br/><br/>[Resegmentación](retarget.md) | [Introducción a las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[AND-join](activities/and-join.md) - [Generar público](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades del canal](activities/channels.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar público](activities/save-audience.md) - [División](activities/split.md) - [Esperar](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-El contenido de esta página no es definitivo y puede estar sujeto a cambios.
-
->[!ENDSHADEBOX]
 
 Una vez creada la campaña organizada y tras haber diseñado las tareas que se realizarán en el lienzo, puede publicarla y monitorizar cómo se ejecuta.
 
@@ -50,18 +29,13 @@ También puede ejecutar la campaña en modo de prueba para comprobar su ejecuci�
 
 >[!IMPORTANT]
 >
->Todas las actividades del lienzo se ejecutan excepto las actividades de **[!UICONTROL Guardar audiencia]** y las actividades del canal. No hay ningún impacto funcional en los datos o en la audiencia**.
+>Todas las actividades del lienzo se ejecutan excepto las actividades de **[!UICONTROL Guardar audiencia]** y las actividades del canal. No hay ningún impacto funcional en los datos o en el público.
 
-Para probar una campaña, haga lo siguiente:
-
-1. Abra la campaña orquestada.
-2. Haga clic en **[!UICONTROL inicio]**.
+Para probar una campaña orquestada, abra la campaña y seleccione **[!UICONTROL Start]**.
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Cada actividad de la campaña se ejecuta secuencialmente hasta que se llega al final del diagrama.
-
-Durante la prueba, puede controlar la ejecución de la campaña mediante la barra de acciones del lienzo. A partir de ahí, puede realizar lo siguiente:
+Cada actividad de la campaña se ejecuta secuencialmente hasta que se llega al final del diagrama. Durante la prueba, puede controlar la ejecución de la campaña mediante la barra de acciones del lienzo. A partir de ahí, puede realizar lo siguiente:
 
 * **Detenga** la ejecución en cualquier momento.
 * **Inicie** la ejecución de nuevo.
@@ -104,7 +78,7 @@ Los datos que pasan de una actividad a otra se almacenan en una tabla de trabajo
 1. Seleccione una transición.
 1. En el panel de propiedades, haga clic en **[!UICONTROL Esquema de vista previa]** para ver el esquema de la tabla de trabajo. Seleccione **[!UICONTROL Vista previa de resultados]** para ver los datos transportados.
 
-![](assets/transition.png){zoomable="yes"}
+   ![](assets/transition.png){zoomable="yes"}
 
 ### Indicadores de ejecución de la actividad {#activities}
 
@@ -124,7 +98,9 @@ Los indicadores visuales de estado le ayudan a comprender el rendimiento de cada
 >title="Registros y tareas"
 >abstract="La pantalla **Registros y tareas** proporciona un historial de la ejecución de la campaña orquestada, registrando todas las acciones del usuario y los errores encontrados."
 
-La monitorización de registros y tareas es un paso clave para analizar las campañas orquestadas y asegurarse de que se ejecutan correctamente. Puede acceder a los registros y las tareas desde el botón **[!UICONTROL Registros]**, que está disponible en los modos de prueba y en directo en la barra de herramientas de lienzo o en el panel de propiedades de cada actividad.
+La monitorización de registros y tareas es un paso clave para analizar las campañas orquestadas y asegurarse de que se ejecutan correctamente. Se puede acceder a los registros y tareas desde el botón **[!UICONTROL Registros]**, que está disponible en los modos de prueba y en directo en la barra de herramientas del lienzo.
+
+![](assets/logs-button.png){zoomable="yes"}
 
 La pantalla **[!UICONTROL Registros y tareas]** proporciona un historial de la ejecución de la campaña organizada, registrando todas las acciones del usuario y los errores encontrados.
 
@@ -136,3 +112,7 @@ Hay dos tipos de información disponibles:
 * La pestaña **[!UICONTROL Tareas]** detalla la secuencia de ejecución paso a paso de las actividades.
 
 En ambas pestañas, puede elegir las columnas mostradas y su orden, aplicar filtros y utilizar el campo de búsqueda para encontrar rápidamente la información deseada.
+
+## Próximos pasos {#next}
+
+Después de iniciar el diagrama de campaña orquestada, puede utilizar las funcionalidades de creación de informes de Journey Optimizer para obtener perspectivas, como comprender el comportamiento de la audiencia y medir el rendimiento de cada paso en el recorrido del cliente. [Más información sobre los informes de campañas organizadas](../orchestrated/reporting-campaigns.md)

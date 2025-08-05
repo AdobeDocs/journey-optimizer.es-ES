@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Cree su primera regla
 description: Aprenda a crear reglas para sus campañas organizadas
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 95%
+source-wordcount: '1717'
+ht-degree: 97%
 
 ---
 
+
 # Cree su primera regla {#build-query}
-
-+++ Índice
-
-| Bienvenido a campañas orquestadas | Inicie su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
-|---|---|---|---|
-| [Empiece a usar las campañas orquestadas](gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](gs-schemas.md)</li><li>[Esquema manual](manual-schema.md)</li><li>[Esquema de carga de archivos](file-upload-schema.md)</li><li>[Ingesta de datos](ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](access-manage-orchestrated-campaigns.md)<br/><br/>[Pasos clave para crear una campaña orquestada](gs-campaign-creation.md) | [Creación y programación de las campañas](create-orchestrated-campaign.md)<br/><br/>[Organización de actividades](orchestrate-activities.md)<br/><br/>[Inicio y monitorización de las campañas](start-monitor-campaigns.md)<br/><br/>[Creación de informes](reporting-campaigns.md) | [Trabajo con el generador de reglas](orchestrated-rule-builder.md)<br/><br/><b>[Creación de su primera consulta](build-query.md)</b><br/><br/>[Edición de expresiones](edit-expressions.md)<br/><br/>[Resegmentación](retarget.md) | [Introducción a las actividades](activities/about-activities.md)<br/><br/>Actividades:<br/>[AND-join](activities/and-join.md) - [Generar público](activities/build-audience.md) - [Cambiar dimensión](activities/change-dimension.md) - [Actividades del canal](activities/channels.md) - [Combinar](activities/combine.md) - [Deduplicación](activities/deduplication.md) - [Enriquecimiento](activities/enrichment.md) - [Bifurcación](activities/fork.md) - [Reconciliación](activities/reconciliation.md) - [Guardar público](activities/save-audience.md) - [División](activities/split.md) - [Esperar](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-El contenido de esta página no es definitivo y puede estar sujeto a cambios.
-
->[!ENDSHADEBOX]
 
 Los pasos principales para crear reglas para las campañas orquestadas son los siguientes:
 
@@ -113,7 +91,7 @@ Para añadir condiciones en la consulta, siga estos pasos:
    | Como | De forma similar al operador Contiene, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) como “Jon%s”. El carácter comodín actúa para encontrar nombres como “Jones”. |
    | No igual | De forma similar al operador Contiene, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) no igual a “Smi%h”. No se devolverán los resultados de los destinatarios cuyo apellido sea “Smith”. |
 
-   +++
++++
 
 1. En el campo **Valor**, defina el valor previsto. También puede utilizar el editor de expresiones para definir manualmente una expresión utilizando los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en el icono ![imagen que muestra el icono del editor de expresiones](assets/do-not-localize/rule-builder-icon-editor.svg). [Más información sobre cómo editar expresiones](../orchestrated/edit-expressions.md)
 
@@ -123,7 +101,7 @@ Para añadir condiciones en la consulta, siga estos pasos:
 
    ![imagen que muestra la opción de ajuste preestablecido](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### Condiciones personalizadas en las tablas vinculadas (vínculos 1-1 y 1-N){#links}
 
@@ -230,8 +208,9 @@ Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel
 
 <br/>
 
-    >[ !IMPORTANTE]
-    >
-    >Seleccione un filtro predefinido en el panel Propiedades de la regla para reemplazar la regla que se ha creado en el lienzo por el filtro seleccionado.
-
 Cuando la regla esté lista, haga clic en el botón **[!UICONTROL Confirmar]** para guardarla.
+
+>[!IMPORTANT]
+>
+>Al seleccionar un filtro predefinido en el panel de propiedades de la regla, se sustituye la regla que se ha creado en el lienzo por el filtro seleccionado.
+

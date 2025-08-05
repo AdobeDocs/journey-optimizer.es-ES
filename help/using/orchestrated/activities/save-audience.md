@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Uso de la actividad Guardar público
 description: Aprenda a utilizar la actividad Guardar audiencia en una campaña organizada
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 27%
+source-wordcount: '520'
+ht-degree: 17%
 
 ---
+
 
 # Guardar público {#save-audience}
 
@@ -21,31 +19,10 @@ ht-degree: 27%
 >title="Actividad Guardar público"
 >abstract="La actividad **Guardar audiencia** es una actividad de **segmentación** que le permite actualizar una audiencia existente o crear una nueva a partir de la población generada anteriormente en la campaña orquestada. Una vez creados, estos públicos se añaden a la lista de públicos de la aplicación y se puede acceder a ellos desde el menú **Públicos**."
 
-
-+++ Índice
-
-| Bienvenido a campañas orquestadas | Inicie su primera campaña organizada | Consulta de la base de datos | Actividades de las campañas organizadas |
-|---|---|---|---|
-| [Empiece a usar las campañas orquestadas](../gs-orchestrated-campaigns.md)<br/><br/>Cree y administre conjuntos de datos y esquemas relacionales:</br> <ul><li>[Introducción a esquemas y conjuntos de datos](../gs-schemas.md)</li><li>[Esquema manual](../manual-schema.md)</li><li>[Esquema de carga de archivos](../file-upload-schema.md)</li><li>[Ingesta de datos](../ingest-data.md)</li></ul>[Acceder y administrar campañas orquestadas](../access-manage-orchestrated-campaigns.md) | [Pasos clave para crear una campaña orquestada](../gs-campaign-creation.md)<br/><br/>[Cree y programe las actividades de la campaña](../create-orchestrated-campaign.md)<br/><br/>[Organizar actividades](../orchestrate-activities.md)<br/><br/>[Inicie y supervise la campaña](../start-monitor-campaigns.md)<br/><br/>[Creación de informes](../reporting-campaigns.md) | [Trabajo con el generador de reglas](../orchestrated-rule-builder.md)<br/><br/>[Creación de su primera consulta](../build-query.md)<br/><br/>[Edición de expresiones](../edit-expressions.md)<br/><br/>[Resegmentación](../retarget.md) | [Introducción a las actividades](about-activities.md)<br/><br/>Actividades:<br/>[AND-join](and-join.md) - [Generar público](build-audience.md) - [Cambiar dimensión](change-dimension.md) - [Actividades del canal](channels.md) - [Combinar](combine.md) - [Deduplicación](deduplication.md) - [Enriquecimiento](enrichment.md) - [Bifurcación](fork.md) - [Reconciliación](reconciliation.md) - <b>[Guardar público](save-audience.md)</b> - [División](split.md) - [Esperar](wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-El contenido de esta página no es definitivo y puede estar sujeto a cambios.
-
->[!ENDSHADEBOX]
-
 La actividad **[!UICONTROL Guardar audiencia]** es una actividad de **[!UICONTROL Segmentación]** que se usa para crear una audiencia nueva o actualizar una existente en función de la población generada anteriormente en la campaña orquestada. Una vez guardada, la audiencia se agrega a la lista de audiencias de aplicación y se puede acceder a ella desde el menú **[!UICONTROL Audiencias]**.
 
-Normalmente se utiliza para capturar segmentos de audiencia creados dentro de la misma campaña, lo que los hace disponibles para su reutilización en campañas futuras. Normalmente, está conectado a otras actividades de segmentación, como **[!UICONTROL Generar audiencia]** o **[!UICONTROL Combinar]**, para guardar la población de destino final.
+Normalmente se utiliza para capturar segmentos de audiencia creados dentro del mismo flujo de trabajo de campaña, lo que los hace disponibles para su reutilización en campañas futuras. Normalmente, está conectado a otras actividades de segmentación, como **[!UICONTROL Generar audiencia]** o **[!UICONTROL Combinar]**, para guardar la población de destino final.
+Tenga en cuenta que con la actividad **[!UICONTROL Guardar audiencia]** no puede actualizar una audiencia existente. Solo puede crear una audiencia nueva o sobrescribir una existente con una definición nueva.
 
 ## Configuración de la actividad Guardar público {#save-audience-configuration}
 
@@ -55,17 +32,27 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Guardar público]**:
 
 1. Escriba una **[!UICONTROL etiqueta de público]** que identifique el público guardado.
 
-1. Elija un **[!UICONTROL campo de asignación de perfiles&#x200B;]** de su dimensión de segmentación de campañas.
+   >[!NOTE]
+   >
+   >La audiencia **[!UICONTROL Label]** debe ser única en todas las campañas. No puede reutilizar un nombre de audiencia que ya se haya usado en la actividad **[!UICONTROL Guardar audiencia]** de otra campaña.
+
+1. Elija un **[!UICONTROL campo de asignación de perfiles&#x200B;]** de su dimensión de segmentación de campañas. Esta asignación define cómo los perfiles de la **audiencia guardada** están vinculados a la dimensión de destino de la campaña durante la ejecución.
+
+   Solo las asignaciones compatibles con la dimensión de destino actual, es decir, la de la transición entrante, están disponibles en la lista desplegable para garantizar la reconciliación adecuada entre la audiencia y el contexto de la campaña.
 
    ➡️ [Siga los pasos detallados en esta página para crear su dimensión de segmentación de campaña](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 
-1. Haga clic en **[!UICONTROL Agregar asignaciones de audiencia]** si desea asociar la audiencia guardada con campos de identidad adicionales.
+1. Haga clic en **[!UICONTROL Agregar asignaciones de audiencia]** para incluir datos adicionales de los atributos de la **[!UICONTROL dimensión de destino]** o de los **[!UICONTROL atributos de perfil]** enriquecidos.
+
+   Esto le permite asociar más información con la actividad **[!UICONTROL Audiencia guardada]** más allá de la asignación de perfil principal, lo que mejora las opciones de segmentación y personalización.
 
    ![](../assets/save-audience-2.png)
 
 1. Finalice la configuración guardando y publicando la campaña orquestada. Así se generará y almacenará su público.
+
+1. Publique la campaña para la audiencia que se va a crear o reemplazar, ya que la actividad **[!UICONTROL Guardar audiencia]** no se ejecuta mientras la campaña esté en **[!UICONTROL modo borrador]**.
 
 El contenido de la audiencia guardada está disponible en la vista de detalles de la audiencia, a la que se puede acceder desde el menú **[!UICONTROL Audiencias]**, o se puede seleccionar al segmentar una audiencia, por ejemplo, con una actividad **[!UICONTROL Leer audiencia]**.
 

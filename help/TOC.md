@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '2591'
 ht-degree: 98%
 
 ---
@@ -202,14 +202,14 @@ ht-degree: 98%
       + [Activación de la ejecución de la campaña](using/campaigns/trigger-campaigns.md)
    + Campañas organizadas {#orchestrated-campaigns}
       + [Introducción a las campañas organizadas](using/orchestrated/gs-orchestrated-campaigns.md)
-      + Administrar esquemas y conjuntos de datos relacionales {#schemas-datasets}
-         + [Introducción a esquemas y conjuntos de datos](using/orchestrated/gs-schemas.md)
-         + [Esquema manual](using/orchestrated/manual-schema.md)
-         + [Esquema de carga de archivos](using/orchestrated/file-upload-schema.md)
-         + [Ingesta de datos](using/orchestrated/ingest-data.md)
-      + [Acceso y administración de campañas organizadas](using/orchestrated/access-manage-orchestrated-campaigns.md)
-      + [Crear una dimensión de segmentación](using/orchestrated/target-dimension.md)
       + [Mecanismos de protección y limitaciones](using/orchestrated/guardrails.md)
+      + Configuración de datos {#configuration}
+         + Administrar esquemas y conjuntos de datos relacionales {#schemas-datasets}
+            + [Introducción a esquemas y conjuntos de datos](using/orchestrated/gs-schemas.md)
+            + [Esquema manual](using/orchestrated/manual-schema.md)
+            + [Esquema de carga de archivos](using/orchestrated/file-upload-schema.md)
+            + [Ingesta de datos](using/orchestrated/ingest-data.md)
+         + [Crear una dimensión de segmentación](using/orchestrated/target-dimension.md)
       + Inicie su primera campaña organizada{#launch}
          + [Pasos clave para crear una campaña organizada](using/orchestrated/gs-campaign-creation.md)
          + [Creación y programación de la campaña](using/orchestrated/create-orchestrated-campaign.md)
