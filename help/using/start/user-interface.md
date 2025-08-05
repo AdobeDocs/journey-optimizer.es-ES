@@ -254,7 +254,7 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="Canales disponibles"
->abstract="Correo electrónico, SMS, push, correo directo"
+>abstract="Correo electrónico, SMS, notificaciones push, correo directo"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
@@ -262,13 +262,13 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_1"
 >title="IU guiada para crear y enviar una campaña"
->abstract="Defina una o varias acciones con un canal, elija un público, defina un contenido y una programación, y estará listo para realizar el envío"
+>abstract="Defina una o varias acciones con un canal, elija un público, defina un contenido y una programación, y todo estará listo para realizar el envío"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_2"
 >title="Canales disponibles"
->abstract="Correo electrónico, SMS, notificaciones push, en la aplicación, web, experiencias basadas en código"
+>abstract="Correo electrónico, SMS, notificaciones push, in-app, web, experiencias basadas en código"
 
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
@@ -277,7 +277,7 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_1"
 >title="Campañas activadas por API transaccionales"
->abstract="Activar mensajes en tiempo real mediante llamadas de API"
+>abstract="Active mensajes en tiempo real mediante llamadas de API"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_2"
