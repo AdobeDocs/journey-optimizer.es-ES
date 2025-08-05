@@ -6,14 +6,15 @@ description: Aprenda a configurar su entorno para enviar mensajes de LINE con Jo
 feature: Line, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
+exl-id: 8ad0e57b-6bdc-43b0-9511-31e2ac1be1f9
+source-git-commit: bc734ed1249b1ec186eb5f479d605bafee8a1d06
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 4%
+source-wordcount: '351'
+ht-degree: 6%
 
 ---
 
-# Configuración del canal LINE en Journey Optimizer {#line-configuration}
+# Configuración del canal de LINE en Journey Optimizer {#line-configuration}
 
 1. Acceda al menú **[!UICONTROL Canales]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Configuraciones de canal]** y luego haga clic en **[!UICONTROL Crear configuración de canal]**.
 
@@ -51,3 +52,56 @@ ht-degree: 4%
 1. Envíe los cambios.
 
 Ahora puede seleccionar la configuración al crear el mensaje de LINE.
+
+## Configuración de la API de configuración del canal LINE {#line-api}
+
+Esta API establece los ajustes de canal que almacenan los detalles de autorización y configuración necesarios para conectarse a la API de mensajería LINE. Esta configuración permite a Adobe Journey Optimizer autenticar y enviar mensajes a través de LINE con las credenciales proporcionadas.
+
+**Extremo**
+
+```
+POST https://platform.adobe.io/journey/imp/config/channel-settings
+```
+
+| Nombre del encabezado | Descripción |
+|-|-|
+| Autorización | Token de usuario de su cuenta técnica |
+| x-api-key | ID de cliente de Adobe Developer Console |
+| x-gw-ims-org-id | Su ID de la organización IMS |
+| x-sandbox-name | Nombre de la zona protegida, por ejemplo, prod |
+| Content-Type | Debe ser application/json |
+
+
+**Cuerpo de solicitud**
+
+```json
+{
+    "name": "your_defined_name",
+    "channelRegistryId": "line",
+    "channel": "line",
+    "channelSettings": {
+        "channelId": "your_line_channel_id",
+        "channelSecret": "your_line_channel_secret"
+    }
+}
+```
+
+**Respuesta de configuración de canal**
+
+```json
+{
+"id": "3603ed66-ae86-42b8-8a90-d4b4e54e7c3b",
+"name": "your_defined_name",
+"channelRegistryId": "line",
+"channel": "line",
+"channelSettings": {
+    "channelId": "your_line_channel_id",
+    "channelSecret": "your_line_channel_secret"
+    },
+    "channelPublicationId": "v1_line",
+    "createdAt": "2025-07-30T12:00:00.000Z",
+    "modifiedAt": "2025-07-30T12:00:00.000Z",
+    "isFromLatestVersion": true,
+    "_etag": "\"eab98d24-18af-48ae-90f9-e59d4f8cfb2b\""
+}
+```
