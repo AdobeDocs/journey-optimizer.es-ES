@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
+source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 4%
@@ -96,7 +96,7 @@ Ahora puedes empezar a diseñar el contenido de tu mensaje de WhatsApp desde el 
    * Una vez
    * Diaria
    * Semanal
-   * Mes
+   * Month
 
 Ahora puedes empezar a diseñar el contenido de tu mensaje de WhatsApp desde el botón **[!UICONTROL Editar contenido]**, como se detalla a continuación.
 
@@ -195,6 +195,6 @@ El siguiente vídeo muestra cómo crear un recorrido de WhatsApp de varios pasos
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470285/?learn=on&captions=spa")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++
