@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a las campañas organizadas
 description: Obtenga información sobre cómo empezar con campañas organizadas
+short-description: Descubra las funciones clave y los casos de uso de la campaña orquestada.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 86bd6a100644a0f50aa9e18fd7023dec11c05bfe
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 25%
+source-wordcount: '587'
+ht-degree: 24%
 
 ---
 
