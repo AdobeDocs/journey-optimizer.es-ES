@@ -13,7 +13,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1475'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="Inventario de campañas organizadas"
->abstract="En esta pantalla, puede acceder a la lista completa de campañas orquestadas, comprobar su estado actual, las fechas de última/siguiente ejecución y crear una nueva campaña orquestada."
+>abstract="En esta pantalla, puede acceder a la lista completa de campañas orquestadas, comprobar su estado actual, las fechas de la última/próxima ejecución y crear una nueva campaña orquestada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_campaign_action"

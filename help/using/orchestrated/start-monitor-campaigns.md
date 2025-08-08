@@ -7,16 +7,16 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 51%
+ht-degree: 55%
 
 ---
 
 
-# Inicio y monitorización de sus campañas organizadas {#start-monitor}
+# Inicio y monitorización de las campañas orquestadas {#start-monitor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
->title="Publicar campaña orquestada"
+>title="Publicación de la campaña orquestada"
 >abstract="Para iniciar su campaña, debe publicarla. Asegúrese de que se borran todos los errores antes de la publicación."
 
 Una vez creada la campaña organizada y tras haber diseñado las tareas que se realizarán en el lienzo, puede publicarla y monitorizar cómo se ejecuta.
@@ -96,7 +96,7 @@ Los indicadores visuales de estado le ayudan a comprender el rendimiento de cada
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Registros y tareas"
->abstract="La pantalla **Registros y tareas** proporciona un historial de la ejecución de la campaña orquestada, registrando todas las acciones del usuario y los errores encontrados."
+>abstract="La pantalla **Registros y tareas** proporciona un historial de la ejecución de la campaña orquestada y registran todas las acciones del usuario y los errores encontrados."
 
 La monitorización de registros y tareas es un paso clave para analizar las campañas orquestadas y asegurarse de que se ejecutan correctamente. Se puede acceder a los registros y tareas desde el botón **[!UICONTROL Registros]**, que está disponible en los modos de prueba y en directo en la barra de herramientas del lienzo.
 

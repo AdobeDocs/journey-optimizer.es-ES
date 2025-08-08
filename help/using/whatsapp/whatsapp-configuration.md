@@ -10,7 +10,7 @@ exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 2%
+ht-degree: 16%
 
 ---
 
@@ -68,7 +68,7 @@ Después de crear y configurar sus credenciales de API, ahora debe crear su webh
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="Introduzca sus palabras clave"
->abstract="Puede definir palabras clave para almacenar en déclencheur respuestas automáticas específicas en función del texto que escriban los usuarios. Las palabras clave no distinguen entre mayúsculas y minúsculas, por ejemplo, stop y STOP se tratan igual."
+>abstract="Puede definir palabras clave para activar respuestas automáticas específicas en función del texto que escriban los usuarios. Las palabras clave no distinguen entre mayúsculas y minúsculas; por ejemplo, stop y STOP se tratan igual."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
@@ -180,6 +180,6 @@ El siguiente vídeo muestra cómo configurar el canal de WhatsApp en Adobe Journ
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470271/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

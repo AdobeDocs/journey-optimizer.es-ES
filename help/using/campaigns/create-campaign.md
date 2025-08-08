@@ -13,7 +13,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 25%
+ht-degree: 52%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_action"
 >title="Campañas de acción"
->abstract="**IU guiada para crear y enviar una campaña**<br/> Establece una o varias acciones con un canal, elige una audiencia, establece un contenido, define una programación y estarás listo para enviar <br/><br/>**Canales disponibles**<br/> Correo electrónico, SMS, notificaciones push, En la aplicación, Web, experiencias basadas en código"
+>abstract="**IU guiada para crear y enviar una campaña**<br/> Establezca una o varias acciones con un canal, elija una audiencia, establezca un contenido, defina una programación y estará listo para enviar <br/><br/>**Canales disponibles**<br/> Correo electrónico, SMS, notificaciones push, in-app, web, experiencias basadas en código"
 
 ## Acerca de las campañas de acción {#about}
 
@@ -48,4 +48,4 @@ Las campañas de acción (o campañas programadas) permiten comunicaciones por l
 
 Obtenga información sobre cómo crear una campaña de acción.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412402?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

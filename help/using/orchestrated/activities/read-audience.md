@@ -7,7 +7,7 @@ exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 6%
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
 >title="Actividad Crear público"
->abstract="La actividad **Leer audiencia** le permite seleccionar la audiencia que entrará en la campaña orquestada. Este público puede ser un público existente de Adobe Experience Platform o un público extraído de un archivo CSV. Al enviar mensajes en el contexto de una campaña orquestada, la audiencia de mensaje no está definida en la actividad del canal, sino en una actividad **Leer audiencia** o **Generar audiencia**."
+>abstract="La actividad **Leer público** le permite definir el público que participará en la campaña orquestada. Este público puede ser un público existente de Adobe Experience Platform o un público extraído de un archivo CSV. Cuando se envían mensajes en el contexto de una campaña orquestada, el público del mensaje no se define en la actividad del canal, sino en una actividad **Leer público** o **Crear público**."
 
 La actividad **[!UICONTROL Leer audiencia]** le permite recuperar una audiencia existente (previamente guardada o importada) y reutilizarla dentro de una campaña orquestada. Esta actividad es especialmente útil para segmentar un conjunto predefinido de perfiles sin necesidad de ejecutar un nuevo proceso de segmentación.
 

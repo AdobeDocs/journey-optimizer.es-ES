@@ -7,7 +7,7 @@ exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 60%
+ht-degree: 74%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Actividad Crear público"
->abstract="La actividad **Generar audiencia** le permite definir la audiencia que entrará en la campaña orquestada. Al enviar mensajes en el contexto de una campaña orquestada, la audiencia de mensajes no se define en la actividad del canal, sino en una actividad de **Generar audiencia**."
+>abstract="La actividad **Crear público** le permite definir el público que participará en la campaña orquestada. Cuando se envían mensajes en el contexto de una campaña orquestada, el público del mensaje no se define en la actividad del canal, sino en la actividad **Crear público**."
 
 Como experto en marketing, puede crear segmentos de público complejos a través de una interfaz intuitiva, lo que le permite dirigirse a los usuarios en función de una amplia gama de criterios y comportamientos para adaptar las campañas de forma más eficaz.
 

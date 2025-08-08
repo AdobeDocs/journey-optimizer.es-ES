@@ -7,7 +7,7 @@ exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 66%
+ht-degree: 83%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test_conditions"
 >title="Condiciones"
->abstract="La actividad **Prueba** puede tener varias transiciones de salida. Durante la ejecución de una campaña orquestada, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, la campaña orquestada continúa en la ruta de la **[!UICONTROL condición predeterminada]**. Si no se activa ninguna condición predeterminada, la campaña orquestada se detiene en este punto."
+>abstract="La actividad **Prueba** puede tener varias transiciones de salida. Durante la ejecución de la campaña orquestada, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, la campaña orquestada continúa por la ruta de la **[!UICONTROL Condición predeterminada]**. Si no se activa ninguna condición predeterminada, la campaña orquestada se detiene en este punto."
 
 La actividad **[!UICONTROL Prueba]** es una actividad de **[!UICONTROL Control de flujo]**. Permite habilitar transiciones en función de condiciones especificadas.
 
@@ -42,7 +42,7 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Prueba]**:
 
 1. Puede añadir varias transiciones de salida a una actividad **[!UICONTROL Prueba]**. Para ello, haga clic en el botón **[!UICONTROL Añadir condición]** y configure la etiqueta y la condición asociada para cada transición.
 v
-1. Durante la ejecución de una campaña orquestada, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, las campañas orquestadas continúan en la ruta de la **[!UICONTROL condición predeterminada]**. Si no se activa ninguna condición predeterminada, la campaña se detiene en este momento.
+1. Durante la ejecución de la campaña orquestada, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, las campañas orquestadas continúan en la ruta de la **[!UICONTROL condición predeterminada]**. Si no se activa ninguna condición predeterminada, la campaña se detiene en este momento.
 
 ## Ejemplo {#example}
 

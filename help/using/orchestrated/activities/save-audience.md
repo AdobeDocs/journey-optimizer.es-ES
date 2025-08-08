@@ -7,7 +7,7 @@ exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 17%
+ht-degree: 23%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
 >title="Actividad Guardar público"
->abstract="La actividad **Guardar audiencia** es una actividad de **segmentación** que le permite actualizar una audiencia existente o crear una nueva a partir de la población generada anteriormente en la campaña orquestada. Una vez creados, estos públicos se añaden a la lista de públicos de la aplicación y se puede acceder a ellos desde el menú **Públicos**."
+>abstract="La actividad **Guardar público** es una actividad de **Segmentación** que le permite actualizar un público existente o crear uno nuevo a partir de la población generada anteriormente en la campaña organizada. Una vez creados, estos públicos se añaden a la lista de públicos de la aplicación y se puede acceder a ellos desde el menú **Públicos**."
 
 La actividad **[!UICONTROL Guardar audiencia]** es una actividad de **[!UICONTROL Segmentación]** que se usa para crear una audiencia nueva o actualizar una existente en función de la población generada anteriormente en la campaña orquestada. Una vez guardada, la audiencia se agrega a la lista de audiencias de aplicación y se puede acceder a ella desde el menú **[!UICONTROL Audiencias]**.
 

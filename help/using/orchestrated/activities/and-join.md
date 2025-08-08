@@ -7,7 +7,7 @@ exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 71%
+ht-degree: 84%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="Actividad AND-join"
->abstract="La actividad **And-join** le permite sincronizar varias ramas de ejecución de una campaña orquestada. Se activa una vez que hayan finalizado todas las actividades anteriores. Esto le permite asegurarse de que ciertas actividades han finalizado antes de continuar ejecutando la campaña orquestada."
+>abstract="La actividad **And-join** le permite sincronizar varias ramas de ejecución de una campaña orquestada. Se activa una vez que hayan finalizado todas las actividades anteriores. Esto le permite asegurarse de que determinadas actividades se completen antes de continuar con la ejecución de la campaña orquestada."
 
 La actividad **[!UICONTROL AND-join]** es una actividad de **[!UICONTROL control de flujo]**. Permite sincronizar varias ramas de ejecución de una campaña orquestada.
 
