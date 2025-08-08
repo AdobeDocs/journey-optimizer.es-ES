@@ -4,9 +4,9 @@ product: journey optimizer
 title: Limitaciones y protecciones de campañas organizadas
 description: Obtenga información acerca de las limitaciones y protecciones de campañas orquestadas
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '445'
 ht-degree: 2%
 
 ---
@@ -83,3 +83,7 @@ A continuación, encontrará limitaciones y protecciones adicionales al utilizar
 * **Las actividades de audiencias guardadas son estáticas**, y reflejan los datos disponibles en el momento de la ejecución de la campaña.
 
 * **No se admite anexar a una actividad de audiencia guardada**. Cualquier modificación requiere una sobrescritura completa de la audiencia.
+
+## Limitaciones de canal
+
+En las campañas organizadas solo se admiten canales SMS, push y de correo electrónico.
