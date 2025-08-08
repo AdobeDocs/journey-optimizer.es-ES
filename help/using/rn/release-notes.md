@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a53e94f0199cda211d32be55c8e9a52303dc3d25
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 35%
+source-wordcount: '1428'
+ht-degree: 33%
 
 ---
 
@@ -86,7 +86,7 @@ Obtenga más información en la [documentación de orquestación de Campaign](..
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
@@ -100,6 +100,36 @@ New capabilities coming with this release are detailed below.
 Improvements coming with this release are listed below.
 -->
 
+## Actualizaciones del 25 de agosto {#25.8-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>Optimización en campañas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora, Journey Optimizer le ofrece las herramientas necesarias para ofrecer contenido personalizado y optimizado a la audiencia de sus campañas, lo que le permite ejecutar experimentos de contenido, crear objetivos basados en reglas y utilizar combinaciones avanzadas de ambos para maximizar la eficacia de sus campañas.</p>
+<p>Con Optimización, puede:</p>
+<ul>
+<li>Pruebe múltiples variaciones de contenido para identificar la mensajería más eficaz.</li>
+<li>Ofrezca contenido personalizado basado en atributos de usuario y datos contextuales.</li>
+<li>Combine segmentación y experimentación para estrategias de campaña avanzadas.</li>
+<li>Filtrar los usuarios que no coincidan con los criterios de variante.</li>
+<li>Garantizar mecanismos de reserva para mantener la participación del usuario.</li>
+</ul>
+<P>Una vez que la campaña está activa, los perfiles se evalúan según los criterios definidos y, según los criterios coincidentes, se envían con la experiencia o el contenido adecuados de la campaña.</p>
+<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
+<p>Fecha de lanzamiento: 8 de agosto de 2025</p>
+<p>Para obtener más información, consulte la <a href="../campaigns/campaigns-message-optimization.md">documentación detallada</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 ## Notas de la versión de julio de 2025 {#25-7-rn}
 
@@ -110,24 +140,6 @@ Improvements coming with this release are listed below.
 A continuación, se describen las nuevas funciones incluidas en esta versión.
 
 #### Funcionalidades
-
-<table>
-<thead>
-<tr>
-<th><strong>Canal de WhatsApp</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer ahora admite la mensajería directa WhatsApp, lo que permite una integración sin problemas en sus recorridos y campañas para mejorar la comunicación y la participación de los destinatarios. Este canal nativo ofrece integración de plantillas de WhatsApp, previsualización de mensajes, personalización, informes de entregas, webhooks, administración de consentimientos de inclusión y exclusión, y mucho más.</p>
-<p>Esta funcionalidad, lanzada anteriormente en Beta, ya está disponible para todos los entornos (disponibilidad general).</p>
-<p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
-<p>Para obtener más información, consulte la <a href="../whatsapp/get-started-whatsapp.md">documentación detallada</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -179,36 +191,6 @@ Para obtener más información, consulte la <a href="../experience-decisioning/c
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Optimization in campaigns</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer now empowers you with the tools to deliver personalized and optimized content to your campaigns' audience, allowing you to run content experiments, create rule-based targeting, and use advanced combinations of both, to maximize the effectiveness of your campaigns.</p>
-<p>With Optimization, you can:</p>
-<ul>
-<li>Test multiple content variations to identify the most effective messaging.</li>
-<li>Deliver personalized content based on user attributes and contextual data.</li>
-<li>Combine targeting and experimentation for advanced campaign strategies.</li>
-<li>Filter out users that do not match variant criteria.</li>
-<li>Ensure fallback mechanisms to maintain user engagement.</li>
-</ul>
-<P>Once the campaign is live, profiles are evaluated against the defined criteria, and based on matching criteria, they are delivered with the appropriate experience or content from the campaign.</p>
-<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table>
--->
-
-
 
 <table>
 <thead>
@@ -275,7 +257,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 * **Campañas**
 
    * **Varias acciones entrantes en las campañas**: para simplificar la orquestación de la campaña, ahora puede definir varias acciones entrantes en una sola campaña. Esta capacidad le permite enviar varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, cada acción con un contenido específico.
-  <!-- [Read more](../FILE.md) -->
+     [Más información](../campaigns/campaign-action.md#multi-action)
 
    * **Reorganización del inventario de campañas**: las campañas programadas y activadas por API ahora se dividen en pestañas independientes en el inventario de campañas para facilitar la navegación y la administración.
 
