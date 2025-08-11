@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ Eche un vistazo a las mejoras más recientes del producto y a la documentación 
 
 >[!TAB Versión de julio de 2025]
 
-La versión de julio ya está activa. Consulte las Notas de la versión para descubrir los cambios y mejoras y las funciones nuevas.
+Ya está aquí la versión de julio. Consulte las Notas de la versión para descubrir los cambios y mejoras y las funciones nuevas.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Orquestación de campaña]
+>[!TAB Orquestación de campañas]
 
-Journey Optimizer ahora incluye **Campaign Orchestration**, una nueva funcionalidad diseñada específicamente para campañas por lotes iniciadas por la marca. Esta versión presenta un lienzo de orquestación de campaña y un modelado de datos mejorado, trabajando juntos para permitir que los especialistas en marketing planifiquen, dirijan y entreguen campañas personalizadas en canales múltiples.
+Journey Optimizer ahora incluye **Orquestación de campañas**, una nueva funcionalidad diseñada específicamente para campañas por lotes iniciadas por la marca. Esta versión presenta un lienzo de orquestación de campaña y un modelado de datos mejorado, que funcionan juntos para permitir que los especialistas en marketing planifiquen, dirijan y entreguen campañas personalizadas en canales múltiples.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
@@ -43,7 +43,7 @@ La integración de Adobe Express en Adobe Journey Optimizer le permite acceder f
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB Fragmento de contenido de AEM]
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1681'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -185,15 +185,15 @@ Puede suscribirse a **alertas por correo electrónico y en el producto** para la
 
 Para suscribirse:
 
-1. Vaya a **Preferencias de Adobe Experience Cloud**
-1. En **Notificaciones**, busque **Nuevas versiones de Journey Optimizer**
-1. Habilitar notificaciones en la aplicación y por correo electrónico
+1. Vaya a **Preferencias de Adobe Experience Cloud**.
+1. En **Notificaciones**, busque **Nuevas versiones de Journey Optimizer**.
+1. Habilite las notificaciones in-app y por correo electrónico.
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
 ## Asistente de IA {#ai-assistant}
 
-El asistente de IA es una función de la interfaz de usuario que puede utilizar para navegar, comprender los conceptos de Adobe y obtener perspectivas operativas para su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluido Adobe Journey Optimizer.
+El asistente de IA es una función de la interfaz de usuario que se puede utilizar para navegar, comprender los conceptos de Adobe y obtener datos operativos de su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluido Adobe Journey Optimizer.
 
 Para acceder al Asistente de IA, haga clic en el icono de la barra superior. El asistente de IA se muestra en la sección derecha de la pantalla.
 
@@ -253,7 +253,7 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="Uso de datos de múltiples entidades"
->abstract="Descubra cómo las campañas orquestadas pueden aprovechar los conjuntos de datos relacionales para enriquecer los datos para la segmentación y personalización"
+>abstract="Descubra cómo las campañas orquestadas pueden aprovechar los conjuntos de datos relacionales para enriquecer los datos para la segmentación y personalización."
 
 
 

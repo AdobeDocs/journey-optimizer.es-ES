@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Notas previas al lanzamiento de Journey Optimizer
-description: Notas de la versión preliminar de Adobe Journey Optimizer
+title: Notas de versión preliminar de Journey Optimizer
+description: Notas de versión preliminar de Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '591'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
-# Notas previas al lanzamiento {#e-release-notes}
+# Notas de versión preliminar {#e-release-notes}
 
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en las [notas de la versión](release-notes.md).
 
-**Las notas anteriores al lanzamiento que se indican a continuación están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento**. Los vínculos, las pantallas y la documentación actualizada se publican en las [notas de la versión](release-notes.md) y en la fecha.
+**Las notas de versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad de la versión**. Los vínculos, las pantallas y la documentación actualizada se publican en las [notas de la versión](release-notes.md) y en la fecha.
 
 
-## Notas previas al lanzamiento de agosto de 2025 {#25-7-rn}
+## Notas de versión preliminar de agosto de 2025 {#25-7-rn}
 
-**Las notas anteriores al lanzamiento que se indican a continuación están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad del lanzamiento**. Los vínculos, las pantallas y la documentación actualizada se publican en la fecha de la versión.
+**Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad de la versión**. Los vínculos, las pantallas y la documentación actualizada se publican en la fecha de la versión.
 
-Consulte también [Notas previas al lanzamiento de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Véase también [Notas de la versión preliminar de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Fecha de lanzamiento**: miércoles, 19 de agosto de 2025
 
@@ -66,14 +66,14 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tr>
 <td>
 <p>Ahora hay disponible una vista de calendario en las listas de recorridos y campañas. Permite visualizar todas las activaciones de recorridos y campañas en las listas respectivas.</p>
-<p>Esta función, que antes estaba disponible en disponibilidad limitada, ya está disponible en todos los entornos. Con esta versión de General Availability, la función incluye:</p>
+<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos. Con esta versión de disponibilidad general, la función incluye:</p>
 <ul>
 <li>Mejoras de diseño para la navegación en fechas</li>
 <li>La capacidad de ver borradores de campañas si ha establecido una fecha de inicio y de finalización</li>
 <li>Una nueva configuración para ocultar y mostrar los elementos de calendario que se ejecutan durante mucho tiempo</li>
 </ul>
 <img src="assets/do-not-localize/calendar.gif">
-<p>Para obtener más información, consulte la <a href="../building-journeys/journey-ui.md#journeys-calendar">documentación detallada</a></p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/journey-ui.md#journeys-calendar">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -83,17 +83,17 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Modo oscuro en el Designer de correo electrónico</strong><br/></th>
+<th><strong>Modo oscuro en el Diseñador de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Email Designer ahora permite cambiar a la vista en modo oscuro, donde además puede definir ajustes personalizados específicos que se mostrarán solo para los destinatarios que lean sus correos electrónicos en modo oscuro.</p>
+<p>El Diseñador de correo electrónico de Journey Optimizer ahora permite cambiar a la vista en modo oscuro, donde además puede definir configuraciones personalizadas específicas que se mostrarán solo para los destinatarios que lean sus correos electrónicos en modo oscuro.</p>
 <p>Tenga en cuenta lo siguiente:</p>
 <ul>
-<li>El procesamiento final del modo oscuro puede variar y depende del cliente de correo electrónico del destinatario.</li>
-<li>No todos los clientes de correo electrónico admiten el modo oscuro personalizado. Además, algunos clientes de correo electrónico solo aplican su propio modo oscuro predeterminado a todos los correos electrónicos recibidos. En ambos casos, no se puede procesar la configuración personalizada que definió en el Designer de correo electrónico.</li>
+<li>El renderizado final del modo oscuro puede variar y depende del cliente de correo electrónico del destinatario.</li>
+<li>No todos los clientes de correo electrónico admiten el modo oscuro personalizado. Además, algunos clientes de correo electrónico solo aplican su propio modo oscuro predeterminado a todos los correos electrónicos recibidos. En ambos casos, no se puede procesar la configuración personalizada que definió en el Diseñador de correo electrónico.</li>
 </ul>
 <P>Actualmente, esta función está en versión Beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con su representante de Adobe.</p>
 <p><img src="assets/do-not-localize/dark-mode.gif"/></p>
@@ -113,16 +113,16 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora, Journey Optimizer le ofrece las herramientas necesarias para ofrecer contenido personalizado y optimizado a la audiencia de sus campañas, lo que le permite ejecutar experimentos de contenido, crear objetivos basados en reglas y utilizar combinaciones avanzadas de ambos para maximizar la eficacia de sus campañas.</p>
-<p>Con Optimización, puede:</p>
+<p>Ahora, Journey Optimizer le ofrece las herramientas necesarias para ofrecer contenido personalizado y optimizado al público de sus campañas, lo que le permite ejecutar experimentos de contenido, crear segmentación basada en reglas y utilizar combinaciones avanzadas de ambos para maximizar la eficacia de sus campañas.</p>
+<p>Con Optimization, puede:</p>
 <ul>
-<li>Pruebe múltiples variaciones de contenido para identificar la mensajería más eficaz.</li>
-<li>Ofrezca contenido personalizado basado en atributos de usuario y datos contextuales.</li>
-<li>Combine segmentación y experimentación para estrategias de campaña avanzadas.</li>
+<li>Probar múltiples variaciones de contenido para identificar la mensajería más eficaz.</li>
+<li>Ofrecer contenido personalizado basado en atributos de usuario y datos contextuales.</li>
+<li>Combinar segmentación y experimentación para estrategias de campaña avanzadas.</li>
 <li>Filtrar los usuarios que no coincidan con los criterios de variante.</li>
 <li>Garantizar mecanismos de reserva para mantener la participación del usuario.</li>
 </ul>
-<P>Una vez que la campaña está activa, los perfiles se evalúan según los criterios definidos y, según los criterios coincidentes, se envían con la experiencia o el contenido adecuados de la campaña.</p>
+<P>Una vez que la campaña está activa, los perfiles se evalúan según los criterios definidos y, en función de los criterios coincidentes, se envían con la experiencia o el contenido adecuados de la campaña.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
 <!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
 </td>

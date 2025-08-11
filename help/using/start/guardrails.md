@@ -10,13 +10,13 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2648'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Mecanismos de protección y limitaciones {#limitations}
+# Protecciones y limitaciones {#limitations}
 
 A continuación, encontrará limitaciones y mecanismos de protección adicionales al utilizar [!DNL Adobe Journey Optimizer].
 
@@ -96,10 +96,10 @@ Las siguientes limitaciones se aplican a los [fragmentos](../content-management/
 * Los fragmentos visuales solo están disponibles para el canal de correo electrónico.
 * Los fragmentos de expresiones no están disponibles para el canal en la aplicación.
 * Los fragmentos visuales no pueden superar los 100 KB. Los fragmentos de expresión no pueden superar los 200 KB.
-* Para usar un fragmento en un recorrido o campaña, debe estar en estado **Activo**.
-* [No se admiten atributos contextuales](../personalization/personalization-build-expressions.md) en los fragmentos.
-* Los fragmentos visuales no son compatibles entre los modos Usar temas y Estilo manual. Para poder utilizar un fragmento en un contenido en el que desee aplicar una temática, este fragmento debe crearse en el modo Usar temáticas. [Más información sobre los temas](../email/apply-email-themes.md)
-* Cuando el seguimiento está habilitado en un recorrido o una campaña, si agrega vínculos a un fragmento y este se utiliza en un mensaje, se realiza el seguimiento de estos vínculos, como todos los demás vínculos incluidos en el mensaje. [Más información sobre vínculos y seguimiento](../email/message-tracking.md)
+* Para utilizar un fragmento de un recorrido o una campaña, debe tener el estado **Activo**.
+* No se admiten [atributos contextuales](../personalization/personalization-build-expressions.md) en los fragmentos.
+* Los fragmentos visuales no son compatibles entre los modos Usar temas y Estilo manual. Para poder utilizar un fragmento en un contenido en el que desee aplicar una temática, este fragmento debe crearse en el modo Usar temas. [Más información sobre los temas](../email/apply-email-themes.md)
+* Cuando el seguimiento está habilitado en un recorrido o una campaña, si agrega vínculos a un fragmento y este se utiliza en un mensaje, se realiza el seguimiento de estos vínculos, al igual que todos los demás incluidos en el mensaje. [Más información sobre vínculos y seguimiento](../email/message-tracking.md)
 
 ## Protecciones de públicos {#audience}
 
@@ -166,11 +166,11 @@ Las siguientes limitaciones se aplican a las [Acciones personalizadas](../action
 
 Las siguientes limitaciones se aplican a los [Eventos](../event/about-events.md) en sus recorridos:
 
-* Para cada organización, Journey Optimizer admite un volumen máximo de 5000 eventos de recorridos entrantes por segundo.
+* Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido entrantes por segundo.
 * Los recorridos activados por eventos pueden tardar hasta 5 minutos en procesar la primera acción del recorrido.
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
 * Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de público.
-* Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento déclencheur un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
+* Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
 * Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos consumidos por lotes o los eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se pueden utilizar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en dichos eventos y utilice la actividad **Público de lectura** en su lugar. Técnicamente, la calificación del público puede utilizarse, pero no se recomienda porque puede provocar problemas posteriores en función de las acciones utilizadas.
 
 ### Fuentes de datos {#data-sources-g}
@@ -213,7 +213,7 @@ Las siguientes limitaciones se aplican a la actividad de recorrido [Público de 
 * Los reintentos ahora se aplican de forma predeterminada en recorridos activados por públicos destinatarios (empezando con una actividad **Leer público** o **Evento empresarial**) cuando se recupera el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada.
 
 
-Ver también [esta página](../building-journeys/read-audience.md#must-read).
+Consulte [esta página](../building-journeys/read-audience.md#must-read).
 
 ### Calificación de público {#audience-qualif-g}
 
@@ -260,6 +260,6 @@ Los siguientes mecanismos de protección se aplican a las actividades **[!UICONT
 * Las actividades de Adobe Campaign no se pueden utilizar con un público de lectura o una actividad de calificación de público.
 * Las actividades de la campaña no se pueden utilizar con las actividades de otros canales: Tarjeta, Experiencia basada en código, Correo electrónico, Push, SMS, Mensajes en la aplicación, Web.
 
-## Protecciones de Campaign Orchestration {#orchestration-guardrails}
+## Protecciones en orquestación de campañas {#orchestration-guardrails}
 
-Las protecciones y limitaciones que se deben tener en cuenta al trabajar con Campaign Orchestration se detallan en esta sección: [Limitaciones y protecciones de administración de decisiones](../orchestrated/guardrails.md).
+Las protecciones y limitaciones que se deben tener en cuenta al trabajar con la orquestación de campañas se detallan en esta sección: [Limitaciones y protecciones en la gestión de decisiones](../orchestrated/guardrails.md).

@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: 8146221975b7460bf1deaca9363d1624b719b480
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Las **Puntuaciones de prioridad** le ayudan a controlar qué campañas o recorri
 
 ### Conjuntos de reglas
 
-Los conjuntos de reglas permiten **agrupar varias reglas en conjuntos de reglas** y aplicarlas a los recorridos y campañas que elija. Esto proporciona una granularidad mejorada para limitar la frecuencia y la cantidad de recorridos que un cliente puede introducir en un lapso de tiempo determinado o controlar la frecuencia con la que los usuarios recibirán un mensaje según el tipo de comunicación. [Descubra cómo trabajar con conjuntos de reglas](../conflict-prioritization/rule-sets.md)
+Los conjuntos de reglas permiten **agrupar varias reglas en conjuntos de reglas** y aplicarlas a los recorridos y campañas que elija. Esto proporciona una mayor granularidad para limitar la frecuencia y la cantidad de recorridos en los que un cliente puede entrar en un lapso de tiempo determinado o controlar la frecuencia con la que los usuarios recibirán un mensaje según el tipo de comunicación. [Descubra cómo trabajar con conjuntos de reglas](../conflict-prioritization/rule-sets.md)
 
 * **Límite y arbitraje del recorrido**
 

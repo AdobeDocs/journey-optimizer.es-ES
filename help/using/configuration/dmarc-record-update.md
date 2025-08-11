@@ -10,9 +10,9 @@ level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
 source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -66,8 +66,8 @@ o
 
 **Vínculos útiles**
 
-* Obtenga más información acerca de DMARC en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=es#about){target="_blank"}
-* Lea el [anuncio de Google Gmail](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
-* Lea [ anuncio](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
+* Obtenga más información sobre DMARC en la [Guía de prácticas recomendadas sobre la entregabilidad](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=es#about){target="_blank"}.
+* Lea el [anuncio de Google Gmail](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}.
+* Lea el [anuncio de Yahoo! ](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
 
 <!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->

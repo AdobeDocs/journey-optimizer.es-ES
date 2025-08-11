@@ -10,9 +10,9 @@ level: Beginner
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '708'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Programación de campañas"
->abstract="De forma predeterminada, las campañas se inician tras la activación manual y finalizan inmediatamente después de enviar el mensaje una vez. Sin embargo, tiene la flexibilidad de establecer una fecha y hora específicas para que se envíe el mensaje. Además, puede especificar una fecha de finalización para las campañas de acción recurrentes. En los Activadores de acción, también puede configurar la frecuencia de envío de mensajes para adaptarla a sus preferencias."
+>abstract="De forma predeterminada, las campañas se inician tras la activación manual y finalizan inmediatamente después de enviar el mensaje una vez. Sin embargo, tiene la flexibilidad de establecer una fecha y hora específicas para que se envíe el mensaje. Además, puede especificar una fecha de finalización para campañas de acción recurrentes. En los Activadores de acción, también puede configurar la frecuencia de envío de mensajes para adaptarla a sus preferencias."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -72,11 +72,11 @@ Puede crear diferentes tipos de campañas en Journey Optimizer:
 
   Las campañas activadas por API permiten que las comunicaciones de marketing lleguen a un público en el momento adecuado o que los mensajes transaccionales/operativos lleguen a una persona, como un restablecimiento de contraseña. Este acto puede implicar una personalización no solo mediante el uso del atributo de perfil, sino también mediante los datos de contexto en tiempo real en el activador, que es una carga útil de API de REST.
 
-* **Campañas organizadas**
+* **Campañas orquestadas**
 
-  La organización de campañas en Adobe Journey Optimizer potencia campañas de marketing sofisticadas iniciadas por la marca en todos los canales, lo que le ayuda a impulsar la participación, los ingresos y la lealtad de los clientes a escala.
+  La orquestación de campañas en Adobe Journey Optimizer impulsa campañas de marketing sofisticadas iniciadas por la marca en todos los canales, lo que le ayuda a fomentar la participación, los ingresos y la lealtad de los clientes a escala.
 
-  Aunque el marketing multicanal es esencial, las campañas orquestadas lo hacen fluido. Con una interfaz visual de arrastrar y soltar, puede diseñar y automatizar flujos de trabajo de marketing complejos, desde la segmentación hasta la entrega de mensajes, en varios canales. Todo sucede en un entorno intuitivo, creado para la velocidad, el control y la eficacia.
+  Aunque el marketing de múltiples canales es esencial, las campañas orquestadas lo hacen fluido. Con una interfaz visual de arrastrar y soltar, puede diseñar y automatizar flujos de trabajo de marketing complejos, desde la segmentación hasta el envío de mensajes, en varios canales. Todo sucede en un entorno intuitivo, creado para ofrecer velocidad, control y eficacia.
 
 ## Requisitos previos {#prerequisites}
 
@@ -90,24 +90,24 @@ Las campañas solo están disponibles para los usuarios con los permisos adecuad
 
 >[!TAB Campañas de acción]
 
-Administrador de Campaign
-Aprobador de campaña
 Administrador de campañas
+Aprobador de campaña
+Gestor de campañas
 Visualizador de campañas
 
 >[!TAB Campañas activadas mediante API]
 
-Administrador de Campaign
-Aprobador de campaña
 Administrador de campañas
+Aprobador de campaña
+Gestor de campañas
 Visualizador de campañas
 
->[!TAB Campañas organizadas]
+>[!TAB Campañas orquestadas]
 
-Administrador de Campaign organizado
-Aprobador de campaña orquestado
-Gestor de campañas organizadas
-Visor de campañas organizadas
+Administrador de campañas orquestadas
+Aprobador de campañas orquestadas
+Gestor de campañas orquestadas
+Visor de campañas orquestadas
 
 >[!ENDTABS]
 
@@ -115,7 +115,7 @@ Si no puede acceder a las funcionalidades de la campaña, póngase en contacto c
 
 +++Más información sobre cómo asignar una función relacionada con la campaña
 
-1. Para asignar una función a un usuario en el producto [!DNL Permissions], vaya a la pestaña **[!UICONTROL Funciones]** y seleccione una de las **[!UICONTROL funciones]** relacionadas con la campaña integrada que se detallan más arriba.
+1. Para asignar una función a un usuario en el producto [!DNL Permissions], vaya a la pestaña **[!UICONTROL Funciones]** y seleccione una de las **[!UICONTROL Funciones]** integradas relacionadas con las campañas anteriores.
 
 1. En la pestaña **[!UICONTROL Usuarios]**, haga clic en **[!UICONTROL Añadir usuario]**.
 
@@ -142,5 +142,5 @@ Ahora que comprende las campañas de [!DNL Journey Optimizer], es hora de profun
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
 <td><a href="create-campaign.md"><img width="70%" alt="campañas de acción" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Campañas de acción</a></td>
 <td><a href="api-triggered-campaigns.md"><img width="70%" alt="SMS" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">Campañas activadas por API</a></td>
-<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Campañas organizadas</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Campañas orquestadas</a></td>
 </tr></table>
