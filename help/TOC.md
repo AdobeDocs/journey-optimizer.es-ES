@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
 source-wordcount: '2598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -201,9 +201,9 @@ ht-degree: 98%
       + [Programación de la campaña](using/campaigns/api-triggered-campaign-schedule.md)
       + [Revisión y activación de la campaña](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Activación de la ejecución de la campaña](using/campaigns/trigger-campaigns.md)
-   + Campañas organizadas {#orchestrated-campaigns}
-      + [Introducción a las campañas organizadas](using/orchestrated/gs-orchestrated-campaigns.md)
-      + [Mecanismos de protección y limitaciones](using/orchestrated/guardrails.md)
+   + Campañas orquestadas {#orchestrated-campaigns}
+      + [Empezar con las campañas orquestadas](using/orchestrated/gs-orchestrated-campaigns.md)
+      + [Protecciones y limitaciones](using/orchestrated/guardrails.md)
       + [Preguntas frecuentes](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configuración de datos {#configuration}
          + Administrar esquemas y conjuntos de datos relacionales {#schemas-datasets}
@@ -211,9 +211,9 @@ ht-degree: 98%
             + [Esquema manual](using/orchestrated/manual-schema.md)
             + [Esquema de carga de archivos](using/orchestrated/file-upload-schema.md)
             + [Ingesta de datos](using/orchestrated/ingest-data.md)
-         + [Crear una dimensión de segmentación](using/orchestrated/target-dimension.md)
-      + Inicie su primera campaña organizada{#launch}
-         + [Pasos clave para crear una campaña organizada](using/orchestrated/gs-campaign-creation.md)
+         + [Creación de una dimensión de segmentación](using/orchestrated/target-dimension.md)
+      + Lanzamiento de su primera campaña orquestada{#launch}
+         + [Pasos clave para crear una campaña orquestada](using/orchestrated/gs-campaign-creation.md)
          + [Creación y programación de la campaña](using/orchestrated/create-orchestrated-campaign.md)
          + [Organización de actividades](using/orchestrated/orchestrate-activities.md)
          + [Inicio y monitorización de la campaña](using/orchestrated/start-monitor-campaigns.md)
@@ -372,7 +372,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
       + [Creación de tarjetas de contenido](using/content-card/create-content-card.md)
       + [Diseño de tarjetas de contenido](using/content-card/design-content-card.md)
    + WhatsApp{#whatsapp}
-      + [Introducción a los mensajes de WhatsApp](using/whatsapp/get-started-whatsapp.md)
+      + [Empezar con los mensajes de WhatsApp](using/whatsapp/get-started-whatsapp.md)
       + [Configuración del canal de WhatsApp en Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
       + [Creación de un mensaje de WhatsApp](using/whatsapp/create-whatsapp.md)
       + [Comprobación y envío de los mensajes de WhatsApp](using/whatsapp/send-whatsapp.md)
@@ -587,7 +587,7 @@ Establecer reglas de límite de mensajes y recorridos {#capping-rules}
             + [Modelo de optimización automática](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Modelo de optimización personalizado](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [Creación de modelos de IA](using/experience-decisioning/ranking/create-ai-models.md)
-      + [Trabajo con ubicaciones](using/experience-decisioning/placements.md)
+      + [Trabajo con colocaciones](using/experience-decisioning/placements.md)
       + Uso de datos de Adobe Experience Platform {#aep-data}
          + [Mejora de datos de contexto](using/experience-decisioning/context-data.md)
          + [Uso de Adobe Experience Platform para la toma de decisiones](using/experience-decisioning/aep-data-exd.md)
