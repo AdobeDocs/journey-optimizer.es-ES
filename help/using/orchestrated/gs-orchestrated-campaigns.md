@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción a las campañas organizadas
+title: Empezar con las campañas orquestadas
 description: Obtenga información sobre cómo empezar con campañas organizadas
 short-description: Descubra las funciones clave y los casos de uso de la campaña orquestada.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 86bd6a100644a0f50aa9e18fd7023dec11c05bfe
+source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 24%
+source-wordcount: '619'
+ht-degree: 30%
 
 ---
 
 
-# Introducción a las campañas organizadas {#orchestrated-camp}
+# Empezar con las campañas orquestadas {#orchestrated-camp}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
@@ -22,7 +22,11 @@ ht-degree: 24%
 
 La organización de campañas en [!DNL Adobe Journey Optimizer] potencia campañas de marketing sofisticadas iniciadas por la marca en todos los canales, lo que le ayuda a aumentar la participación, los ingresos y la lealtad de los clientes a escala.
 
-Aunque el marketing multicanal es esencial, las campañas orquestadas lo hacen fluido. Con una interfaz visual de arrastrar y soltar, puede diseñar y automatizar flujos de trabajo de marketing complejos, desde la segmentación hasta la entrega de mensajes, en varios canales. Todo sucede en un entorno intuitivo, creado para la velocidad, el control y la eficacia.
+>[!IMPORTANT]
+>
+>Para acceder a Campaign Orchestration, la licencia debe incluir **Journey Optimizer - Campañas y Recorridos** o el paquete **Journey Optimizer - Campañas**. Póngase en contacto con su representante de Adobe para confirmar su licencia y actualizarla si es necesario.
+
+Aunque el marketing de múltiples canales es esencial, las campañas orquestadas lo hacen fluido. Con una interfaz visual de arrastrar y soltar, puede diseñar y automatizar flujos de trabajo de marketing complejos, desde la segmentación hasta el envío de mensajes, en varios canales. Todo sucede en un entorno intuitivo, creado para ofrecer velocidad, control y eficacia.
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
