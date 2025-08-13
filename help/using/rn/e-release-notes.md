@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b0901a86eaa1d9a0482caf689043a1029313f6c5
+source-git-commit: ef4488941837a7473d92633b600ea4574dc955bf
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 34%
+source-wordcount: '956'
+ht-degree: 33%
 
 ---
 
@@ -219,6 +219,8 @@ A continuación, se describen las mejoras incluidas en esta versión.
 * **Canal - SMS**
 
    * **Exclusión parcial**: cuando está habilitada, la opción **Exclusión parcial** detecta mensajes entrantes que se parecen mucho a las palabras clave de exclusión definidas (por ejemplo, &quot;CANCIL&quot;) y envía automáticamente una respuesta de confirmación para comprobar la intención de cancelación de suscripción del usuario. Si el usuario lo confirma mediante el mensaje definido, se cancela su suscripción.
+
+   * **Verificar conexión de SMS**: ahora puede probar y comprobar fácilmente sus credenciales de API de SMS en Adobe Journey Optimizer enviando un mensaje de ejemplo a un dispositivo designado.
 
 * **Configuración**
 
