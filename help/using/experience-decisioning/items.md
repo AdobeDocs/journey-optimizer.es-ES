@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
+source-git-commit: 37e86b2c9d7f1587fefa2927949a13cac24c34ad
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,6 @@ Para crear un elemento de decisión, vaya a **[!UICONTROL Decisioning]** > **[!U
 >id="ajo_exd_item_custom_attributes"
 >title="Definición de los atributos personalizados"
 >abstract="Los atributos personalizados son atributos específicos adaptados a sus necesidades que puede asignar a un elemento de decisión. Se crean en el esquema de catálogo de los elementos de decisión. Esta sección solo se muestra si ha añadido al menos un atributo personalizado al esquema del catálogo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=es" text="Configuración del catálogo de elementos"
 
 Comience por definir los atributos estándar y personalizados del elemento de decisión:
 
