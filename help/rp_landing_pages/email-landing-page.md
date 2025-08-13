@@ -38,7 +38,7 @@ Se pueden crear envíos de correo electrónico:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Cómo crear un correo electrónico
 
@@ -48,7 +48,7 @@ Guía paso a paso para agregar, configurar y probar acciones de correo electrón
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Diseño y optimización del contenido del correo electrónico
 
@@ -58,7 +58,7 @@ Explore herramientas y prácticas recomendadas para diseñar contenido de correo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Administrar la exclusión de correo electrónico
 
@@ -68,7 +68,7 @@ Configure mecanismos de exclusión de un clic o dos pasos para administrar las p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar canal de correo electrónico
 
@@ -78,7 +78,7 @@ Configure y administre configuraciones de correo electrónico como delegación d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Dominio de Entregas de Correo Electrónico
 
