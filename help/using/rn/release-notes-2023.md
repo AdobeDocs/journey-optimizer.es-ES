@@ -10,8 +10,8 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
-workflow-type: ht
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -330,7 +330,7 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>Composición del público</strong><br/></th>
+<th><strong>Composición de público</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -339,7 +339,7 @@ A new option is available in the email surface settings to include email address
 <p>Ahora puede crear flujos de trabajo de composición para combinar públicos de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (división, enriquecer) para crear públicos nuevos. Los públicos recién creados se vuelven a guardar en Adobe Experience Platform junto con los públicos existentes y se pueden aprovechar en las campañas de Journey Optimizer para dirigirse a los clientes.</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Para obtener más información, consulte la <a href="../audience/get-started-audience-orchestration.md">documentación detallada</a>.</p>
-<p>La composición de audiencia viene totalmente integrada con el nuevo menú "Audiences" de Adobe Experience Platform, que sirve como portal centralizado para los públicos. Ahora puede utilizar una página de exploración que incluya un nuevo panel con tendencias de segmentos y superposiciones para encontrar nuevos insights y explorar las herramientas organizativas para la carpeta y el etiquetado. Esta experiencia incluye controles de gobernanza para el etiquetado de público estandarizado, así como funciones de administración del ciclo vital de los públicos para administrar los flujos de trabajo de activación. Con esta nueva experiencia de administración, ahora puede administrar públicos de forma fácil y segura desde un solo lugar. Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es" target="_blank">Documentación de Adobe Experience Platform</a>.</p></p>
+<p>La composición de público viene totalmente integrada con el nuevo menú "Audiences" de Adobe Experience Platform, que sirve como portal centralizado para los públicos. Ahora puede utilizar una página de exploración que incluya un nuevo panel con tendencias de segmentos y superposiciones para encontrar nuevos insights y explorar las herramientas organizativas para la carpeta y el etiquetado. Esta experiencia incluye controles de gobernanza para el etiquetado de público estandarizado, así como funciones de administración del ciclo vital de los públicos para administrar los flujos de trabajo de activación. Con esta nueva experiencia de administración, ahora puede administrar públicos de forma fácil y segura desde un solo lugar. Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es" target="_blank">Documentación de Adobe Experience Platform</a>.</p></p>
 </td>
 </tr>
 </tbody>
@@ -746,7 +746,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Ahora, puede enviar mensajes personalizados en la aplicación a los usuarios de la aplicación dentro de una campaña. Utilice Journey Optimizer para diseñar notificaciones y personalizar el diseño, la visualización, el texto y los botones del mensaje para crear una experiencia perfecta.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>Para obtener más información, consulte la <a href="../in-app/get-started-in-app.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../../rp_landing_pages/in-app-landing-page.md">documentación detallada</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -843,7 +843,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <p>Ahora, puede enviar mensajes personalizados en la aplicación a los usuarios de la aplicación dentro de una campaña. Utilice Journey Optimizer para diseñar notificaciones y personalizar el diseño, la visualización, el texto y los botones del mensaje para crear una experiencia perfecta.</p>
 <p><strong>Precaución</strong>: Actualmente, esta funcionalidad está en versión beta y solo está disponible para los clientes de la versión beta. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>Para obtener más información, consulte la <a href="../in-app/get-started-in-app.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../../rp_landing_pages/in-app-landing-page.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>

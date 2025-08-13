@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
+source-git-commit: 667f1a2bd03c958d7d1a95c4f9fb3378417276c0
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 96%
@@ -90,7 +90,7 @@ Obtenga más información en la [Documentación de orquestación de campañas](.
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
@@ -191,7 +191,7 @@ Para obtener más información, consulte la <a href="../experience-decisioning/c
 <td>
 <p>Adobe Journey Optimizer ha ampliado sus funcionalidades en canales múltiples para incluir la compatibilidad con el canal LINE. Esta mejora le permite crear, editar y previsualizar experiencias de LINE, permitiendo interacciones más personalizadas y atractivas. Con LINE, puede conectarse con más clientes, enviar contenido relevante y mejorar su participación.</p>
 <p>Anteriormente disponible solo para solicitudes, el canal LINE ahora está disponible para todos los usuarios (disponibilidad general).</p>
-<p>Para obtener más información, consulte la <a href="../line/get-started-line.md">documentación detallada</a>.</p></td>
+<p>Para obtener más información, consulte la <a href="../../rp_landing_pages/line-landing-page.md">documentación detallada</a>.</p></td>
 </tr>
 </tbody>
 </table>

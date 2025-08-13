@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 17%
@@ -53,7 +53,7 @@ En el modo de prueba, el parámetro **[!UICONTROL Tiempo de espera en prueba]** 
 
 ### Canales de espera y móviles {#wait-mobile-channels}
 
-Si desea mostrar un [mensaje en la aplicación](../in-app/create-in-app.md) poco después de enviar una [notificación push](../push/get-started-push.md), use una actividad de **Espera** para permitir que se propague el tiempo de carga del mensaje en la aplicación. Normalmente se recomienda una espera de 5 a 15 minutos, pero los tiempos exactos pueden variar según la complejidad de la carga útil y las necesidades de personalización.
+Si desea mostrar un [mensaje en la aplicación](../in-app/create-in-app.md) poco después de enviar una [notificación push](../../rp_landing_pages/push-landing-page.md), use una actividad de **Espera** para permitir que se propague el tiempo de carga del mensaje en la aplicación. Normalmente se recomienda una espera de 5 a 15 minutos, pero los tiempos exactos pueden variar según la complejidad de la carga útil y las necesidades de personalización.
 
 ## Configuración {#wait-configuration}
 

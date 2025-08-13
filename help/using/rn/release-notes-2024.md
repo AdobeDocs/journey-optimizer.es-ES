@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: ht
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
 source-wordcount: '6783'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -374,7 +374,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <td>
 <p>Las tarjetas de contenido son una nueva función de mensajería digital de Adobe Journey Optimizer que ofrece contenido personalizado y atractivo directamente en aplicaciones móviles y sitios web. A diferencia de las notificaciones push tradicionales, las tarjetas de contenido se integran perfectamente en la interfaz de usuario y ofrecen actualizaciones persistentes y no intrusivas que mejoran la interacción y experiencia del usuario.</p>
 <p>Esta función permite a los especialistas en marketing presentar a los usuarios contenido con medios enriquecidos y relevantes, para aumentar la participación y garantizar que se vean mensajes importantes sin distraer al usuario del recorrido.</p>
-<p>Para obtener más información, consulte la <a href="../content-card/get-started-content-card.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../../rp_landing_pages/content-card-landing-page.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/content-card.gif"/>
 </td>
 </tr>
@@ -630,7 +630,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Recorridos**
 
-* En la actividad **Condición**, de forma predeterminada, la **[!UICONTROL condición Tiempo]** se establece ahora por hora, de 00:00 a 12:00. [Más información](../building-journeys/condition-activity.md#time_condition)
+* En la actividad **Condición**, de forma predeterminada, la **[!UICONTROL condición de tiempo]** ahora se establece por hora, de 00:00 a 12:00. [Más información](../building-journeys/condition-activity.md#time_condition)
 * Al crear los recorridos, las alertas se muestran ahora en el botón **Alertas** para alinearse con otras alertas y ofrecer una experiencia de usuario coherente. [Más información](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * Se han mejorado las opciones de zoom en la barra de herramientas del recorrido. El porcentaje del zoom ahora es visible y se puede restablecer su valor más fácilmente.
 

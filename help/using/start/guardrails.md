@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 99%
@@ -52,7 +52,7 @@ Este cambio se implementará en las **zonas protegidas de clientes existentes** 
 
 ### Protecciones de correo electrónico {#message-guardrails}
 
-Las siguientes limitaciones se aplican a la actividad [canal de correo electrónico](../email/get-started-email.md):
+Las siguientes limitaciones se aplican a la actividad [canal de correo electrónico](../../rp_landing_pages/email-landing-page.md):
 
 * No pueden agregar archivos adjuntos a un correo electrónico con [!DNL Journey Optimizer].
 * No puede utilizar el mismo dominio de envío para enviar mensajes desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage], por ejemplo.

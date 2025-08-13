@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -18,9 +18,9 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-**Tabla de contenido**
+**Tabla de contenidos**
 
-* [Introducción a las tarjetas de contenido](get-started-content-card.md)
+* [Introducción a las tarjetas de contenido](../../rp_landing_pages/content-card-landing-page.md)
 * [Requisitos previos de tarjetas de contenido](content-card-configuration-prereq.md)
 * [Configuración del canal de tarjetas de contenido en Journey Optimizer](content-card-configuration.md)
 * [Creación de tarjetas de contenido](create-content-card.md)

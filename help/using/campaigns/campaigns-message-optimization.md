@@ -6,10 +6,11 @@ description: Aproveche la optimización de mensajes para crear campañas de mark
 role: User
 level: Intermediate
 keywords: optimización de campañas, experimentación, segmentación, pruebas A/B
-source-git-commit: edbe25e0cb341c08e440eb0663fb9b253273f48a
+exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -17,13 +18,13 @@ ht-degree: 1%
 
 La optimización le ofrece las herramientas necesarias para ofrecer contenido personalizado y optimizado a la audiencia de sus campañas, <!--based on marketer-defined advanced decision configurations. This ensures that the right message reaches the right audience at the right time in order to maximize the effectiveness of your campaigns. (Removed for now as Decisioning is not yet supported)-->lo que garantiza la máxima participación y éxito a la hora de crear campañas altamente <!--customized and -->eficaces.
 
-Con Optimización, puede:
+Con Optimization, puede:
 
 * Aprovechar [reglas de segmentación](#targeting)
 * Ejecutar [experimentos de contenido](#experimentation)
 * Use [combinaciones avanzadas](#combination) de experimentación y direccionamiento dentro de una sola campaña
 
-Una vez que la campaña está activa, los perfiles se evalúan según los criterios definidos y, según los criterios coincidentes, se envían con la experiencia o el contenido adecuados de la campaña.
+Una vez que la campaña está activa, los perfiles se evalúan según los criterios definidos y, en función de los criterios coincidentes, se envían con la experiencia o el contenido adecuados de la campaña.
 
 La diferencia entre los experimentos y la segmentación se puede resaltar de la siguiente manera:
 
@@ -98,7 +99,7 @@ Para configurar la experimentación y determinar qué mensaje genera la mayor ca
 
 1. Cree una campaña. [Más información](../campaigns/create-campaign.md) <!--Add link to API triggered?-->
 
-1. En la ficha **[!UICONTROL Acciones]**, seleccione al menos dos acciones entrantes, por ejemplo [experiencia basada en código](../code-based/get-started-code-based.md) y [En la aplicación](../in-app/get-started-in-app.md).
+1. En la ficha **[!UICONTROL Acciones]**, seleccione al menos dos acciones entrantes, por ejemplo [experiencia basada en código](../code-based/get-started-code-based.md) y [En la aplicación](../../rp_landing_pages/in-app-landing-page.md).
 
 1. En la sección **[!UICONTROL Optimización de mensajes]**, seleccione **[!UICONTROL Experimentación]**.
 
@@ -161,4 +162,3 @@ Una vez que la campaña está activa, a los usuarios de cada grupo objetivo se l
 
 E.g. explaining how a marketer can look at the report to determine which treatment (e.g. which message content) is performing the best for the targeting audience
 -->
-
