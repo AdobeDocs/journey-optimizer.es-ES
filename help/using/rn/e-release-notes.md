@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7f9828c1781468155702d9f8fd475736a7656188
+source-git-commit: 7df443d5bf64f862f4adce43a34f14d13fd36733
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1038'
 ht-degree: 47%
 
 ---
@@ -182,7 +182,8 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tr>
 <td>
 <p>Journey Optimizer ahora le permite crear formularios personalizados y aprovecharlos en páginas de aterrizaje para capturar atributos de perfil en el conjunto de datos definido para cada formulario.</p>
-<p>Actualmente, esta función está en versión Beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con su representante de Adobe.</p>
+<p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
+<p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -216,4 +217,3 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 - **Recorridos**
    - **Operaciones masivas de Recorrido**: en la lista de recorridos, puede seleccionar varios elementos. Una vez seleccionados, puede pausar o reanudar hasta 10 recorridos a la vez.
-
