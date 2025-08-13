@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
+source-git-commit: b0901a86eaa1d9a0482caf689043a1029313f6c5
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 35%
+source-wordcount: '929'
+ht-degree: 34%
 
 ---
 
@@ -205,6 +205,8 @@ A continuación, se describen las mejoras incluidas en esta versión.
    * **Control de tasa en campañas salientes**: ahora puede habilitar el control de tasa de regulación para campañas salientes (correo electrónico, SMS, notificaciones push), lo que le permite evitar sobrecargas en sistemas descendentes, como páginas de aterrizaje o plataformas de atención al cliente.
 
    * **Programación de campañas de acción**: los programadores de campañas diarias, semanales y mensuales se han actualizado para mejorar la granularidad. Por ejemplo, ahora puede establecer el número de semanas/meses entre programaciones, definir en qué día se va a ejecutar y decidir si se detiene después de un número específico de incidencias o en una fecha específica.
+
+   * **Campañas de acción transaccional programadas**: Ya están disponibles las campañas de acción transaccional programadas para enviar comunicaciones transaccionales por lotes y basadas en audiencias por correo electrónico, SMS y canales push.
 
 * **Canal - Push**
 
