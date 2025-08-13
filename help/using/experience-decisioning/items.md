@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 37e86b2c9d7f1587fefa2927949a13cac24c34ad
+source-git-commit: b1de82a4fdba58880e21b114ec3d2b9c3c81df0c
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1778'
 ht-degree: 14%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 14%
 >id="ajo_exd_items"
 >title="Administración de elementos de decisión"
 >abstract="Journey Optimizer le permite crear ofertas de marketing, conocidas como elementos de decisión, que puede crear y organizar en un catálogo y colecciones centralizados. Actualmente, todos los elementos de decisión creados se consolidan dentro de un único catálogo &quot;Ofertas&quot;. Desde esta pantalla, también puede acceder al esquema del catálogo mediante el botón **Editar esquema** y crear atributos personalizados para los elementos de decisión."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=es" text="Configuración del catálogo de elementos"
 
 Journey Optimizer le permite crear ofertas de marketing, conocidas como elementos de decisión, que puede crear y organizar en un catálogo y colecciones centralizados. Están formadas por atributos estándar y personalizados diseñados para ajustarse con precisión a sus necesidades. Además, incorporan restricciones de perfil que le permiten definir a quién se puede mostrar un elemento de decisión.
 
