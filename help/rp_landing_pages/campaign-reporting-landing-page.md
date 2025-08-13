@@ -20,7 +20,7 @@ Los informes de campaña de Adobe Journey Optimizer le permiten desbloquear pers
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Resumen del informe de campaña
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo analizar el rendimiento de las campañas utiliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Informe de campaña basado en código
 
@@ -40,7 +40,7 @@ Obtenga información sobre cómo evaluar experiencias personalizadas y estrategi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Informe de campaña de tarjeta de contenido
 
@@ -50,7 +50,7 @@ Analice las campañas de la tarjeta de contenido con métricas como tendencias d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
 Informe de campaña de correo directo
 
@@ -60,7 +60,7 @@ Evalúe la eficacia de las campañas de correo directo analizando el estado de e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=es)
 
 Informe de campaña de correo electrónico
 
@@ -70,7 +70,7 @@ Obtenga información sobre las métricas de rendimiento de correo electrónico, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=es)
 
 Informe de campaña de experimentación
 

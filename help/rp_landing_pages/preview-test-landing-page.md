@@ -20,7 +20,7 @@ La vista previa y la prueba del contenido en Adobe Journey Optimizer garantizan 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Previsualización y prueba del contenido en Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Aprenda a utilizar perfiles de prueba y datos de entrada de muestra para previsu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Selección de perfiles de prueba en Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Descubra cómo seleccionar y administrar perfiles de prueba para previsualizar y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Vista Previa Del Contenido Mediante Perfiles De Prueba
 
@@ -50,7 +50,7 @@ Guía paso a paso para obtener una vista previa del contenido personalizado medi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
 Envío De Pruebas Mediante Datos De Perfil De Prueba
 
@@ -60,7 +60,7 @@ Pruebe y valide sus mensajes de correo electrónico enviando pruebas utilizando 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=es)
 
 Cómo probar el procesamiento de correo electrónico con Litmus en Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Integre Litmus para previsualizar el procesamiento de correo electrónico en cli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Simulación y prueba de variaciones de contenido en Adobe Journey Optimizer
 

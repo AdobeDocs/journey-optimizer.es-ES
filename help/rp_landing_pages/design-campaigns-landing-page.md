@@ -20,7 +20,7 @@ Las actividades de campaña organizadas en Adobe Journey Optimizer le permiten d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Trabajo con actividades de Campaign organizadas
 
@@ -30,7 +30,7 @@ Obtenga información sobre las actividades de segmentación, canal y control de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Uso de la actividad AND-join
 
@@ -40,7 +40,7 @@ Sincronice varias ramas de ejecución asegurándose de que las tareas anteriores
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Crear actividad de audiencia
 
@@ -50,7 +50,7 @@ Defina y configure segmentos de audiencia para sus campañas mediante la activid
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Cambiar actividad de dimensión
 
@@ -60,7 +60,7 @@ Mejore la segmentación cambiando entre entidades de datos dentro de la campaña
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Actividades de canal
 
@@ -70,7 +70,7 @@ Configure el correo electrónico, los SMS, las notificaciones push y el correo d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Combinar actividad
 

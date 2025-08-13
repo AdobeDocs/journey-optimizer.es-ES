@@ -20,7 +20,7 @@ La creación de audiencias en Adobe Journey Optimizer permite definir, administr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Generar definiciones de segmentos en Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo definir segmentos de audiencia, incluidas instr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Introducción a Composición de audiencias
 
@@ -40,7 +40,7 @@ Descubra cómo crear flujos de trabajo que combinen, enriquezcan y administren a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=es)
 
 Cómo importar audiencias mediante la carga personalizada de CSV
 
@@ -50,7 +50,7 @@ Descubra cómo importar audiencias a través de archivos CSV y asignar atributos
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Composición de público federado
 

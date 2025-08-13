@@ -20,7 +20,7 @@ Las funciones de fecha de Adobe Journey Optimizer le permiten trabajar sin probl
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Referencia de función currentTimeInMillis
 
@@ -30,7 +30,7 @@ Aprenda a utilizar la función &quot;currentTimeInMillis&quot; para recuperar la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Función inLastDays
 
@@ -40,7 +40,7 @@ Comprenda la función &quot;inLastDays&quot;, que comprueba si una fecha determi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Uso de la función inLastHours
 
@@ -50,7 +50,7 @@ Explore la función &quot;inLastHours&quot; para determinar si una fecha y hora 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Uso de la función inLastMonths
 
@@ -60,7 +60,7 @@ Compruebe si una fecha se encuentra dentro de un intervalo de meses especificado
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Uso de la función inLastYears
 
@@ -70,7 +70,7 @@ Aprenda a utilizar la función &quot;inLastYears&quot; para evaluar si una fecha
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Función inNextDays
 

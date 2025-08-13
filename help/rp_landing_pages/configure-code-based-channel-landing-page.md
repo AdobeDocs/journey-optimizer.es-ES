@@ -20,7 +20,7 @@ La sección Configuración de canal basado en código de Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Requisitos previos de la experiencia basada en código
 
@@ -30,7 +30,7 @@ Conozca los requisitos previos para utilizar experiencias basadas en código, in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Superficies de experiencia basadas en código
 
@@ -40,7 +40,7 @@ Comprenda las superficies y sus identificadores, composición y uso en experienc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Métodos de implementación Ejemplos
 
@@ -50,7 +50,7 @@ Obtenga instrucciones paso a paso para implementar experiencias basadas en códi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Toma de decisiones en implementaciones de experiencias basadas en código
 
@@ -60,7 +60,7 @@ Obtenga información sobre cómo configurar la anulación de duplicación y admi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Crear configuración de experiencia basada en código
 

@@ -21,7 +21,7 @@ Cuando el recorrido de un cliente no se comporta como se espera, la identificaci
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Solucionar errores antes de probar o publicar el Recorrido
 
@@ -31,7 +31,7 @@ Identificar y resolver errores de todo el recorrido, problemas de actividad y ac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Solución de problemas de ejecución de Recorrido en Adobe Journey Optimizer
 
@@ -41,7 +41,7 @@ Diagnostique problemas con la validación de eventos, la entrada de perfiles, la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Solución de problemas de acciones entrantes en Adobe Journey Optimizer Recorrido
 
@@ -51,7 +51,7 @@ Depurar los problemas de acción entrante, como la falta de contenido o la entre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Solución de problemas de acciones personalizadas en Adobe Journey Optimizer
 
@@ -64,4 +64,4 @@ Valide y depure las acciones personalizadas mediante la función &quot;Enviar so
 
 ### Recursos adicionales
 
-Además, consulte [esta publicación de blog de la comunidad de Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884) que detalla códigos de error comunes y cómo resolverlos de manera eficaz.
+Además, consulte [esta publicación de blog de la comunidad de Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=es) que detalla códigos de error comunes y cómo resolverlos de manera eficaz.

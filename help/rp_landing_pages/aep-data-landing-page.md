@@ -20,7 +20,7 @@ Adobe Journey Optimizer le permite tomar decisiones más inteligentes y rápidas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Aprovechamiento de datos de contexto en Decisioning
 
@@ -30,7 +30,7 @@ Aprenda a integrar datos de contexto de Adobe Experience Platform en Adobe Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Uso de datos de Adobe Experience Platform para la toma de decisiones
 

@@ -20,7 +20,7 @@ El Designer de correo electrónico de Adobe Journey Optimizer incluye potentes h
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Personalizar estilos de correo electrónico
 
@@ -30,7 +30,7 @@ Aprenda a ajustar los parámetros de estilo, como el cuerpo del correo electrón
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Personalizar fondo de correo electrónico
 
@@ -40,7 +40,7 @@ Descubra cómo establecer colores e imágenes de fondo en diferentes niveles de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Ajustar alineación vertical y relleno
 
@@ -50,7 +50,7 @@ Instrucciones paso a paso para modificar la alineación vertical y el relleno de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Añadir atributos de estilo en línea
 

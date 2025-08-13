@@ -20,7 +20,7 @@ El &quot;Informe de todos los tiempos&quot; de Adobe Journey Optimizer es la pue
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a los informes de todo el tiempo
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo acceder y aprovechar la función &quot;Informe 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Lista completa de métricas
 
@@ -40,7 +40,7 @@ Explore las definiciones detalladas de las métricas utilizadas en los canales d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configuración manual de Customer Journey Analytics
 
@@ -50,7 +50,7 @@ Guía paso a paso para configurar manualmente la integración con Customer Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Administrar los informes
 
@@ -60,7 +60,7 @@ Obtenga información sobre cómo analizar, personalizar, exportar y programar in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Configuración de fuentes de datos de informes
 
@@ -70,7 +70,7 @@ Configure fuentes de datos y conjuntos de datos para permitir la experimentació
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Razones de exclusión
 

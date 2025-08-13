@@ -20,7 +20,7 @@ Las funciones &quot;Probar y aprobar&quot; de Adobe Journey Optimizer le permite
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Previsualización, prueba y validación de contenido
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo obtener una vista previa, probar y validar cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Flujos de trabajo de aprobación para Recorridos y campañas
 
@@ -40,7 +40,7 @@ Obtenga información sobre cómo configurar, administrar y ejecutar procesos de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
 
 Acceso y suscripción a alertas del sistema
 

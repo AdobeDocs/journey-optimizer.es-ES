@@ -20,7 +20,7 @@ La administración de reglas de límite de recorrido y mensajes en Adobe Journey
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Trabajo con conjuntos de reglas
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear, administrar y activar conjuntos de regla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Límite de recorrido y arbitraje
 
@@ -40,7 +40,7 @@ Descubra cómo establecer límites de entrada de recorrido y concurrencia, prior
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Límite de frecuencia por canal
 

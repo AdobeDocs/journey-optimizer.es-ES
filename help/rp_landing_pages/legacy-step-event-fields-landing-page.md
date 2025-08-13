@@ -20,7 +20,7 @@ Los campos de eventos de paso heredados en Adobe Journey Optimizer son esenciale
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Explicación de los campos heredados
 
@@ -30,7 +30,7 @@ Obtenga información acerca de los campos de eventos de paso heredados en Adobe 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Información general sobre campos de recorrido
 
@@ -40,7 +40,7 @@ Descubra los campos del esquema de Recorrido, sus tipos y cómo admiten la creac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Campos comunes para eventos de pasos de Recorrido
 
@@ -50,7 +50,7 @@ Encuentre campos esenciales compartidos entre journeyStepEvent y journeyStepProf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Campos de ejecución de acción
 
@@ -60,7 +60,7 @@ Comprenda los campos relacionados con la ejecución de acciones en eventos journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Campos de búsqueda de datos
 
@@ -70,7 +70,7 @@ Obtenga información acerca de los campos asociados con la captura de datos dura
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Campos de identidad de JourneyStep
 

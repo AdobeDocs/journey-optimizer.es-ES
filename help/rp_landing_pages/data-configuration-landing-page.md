@@ -20,7 +20,7 @@ La configuración de datos en Adobe Journey Optimizer consiste en configurar las
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Administrar esquemas y conjuntos de datos relacionales
 
@@ -30,7 +30,7 @@ Aprenda a crear y administrar esquemas relacionales, configurar conjuntos de dat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Cómo configurar una dimensión de segmentación
 

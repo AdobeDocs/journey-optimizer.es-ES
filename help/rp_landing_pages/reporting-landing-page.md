@@ -20,7 +20,7 @@ La creación de informes en Adobe Journey Optimizer consiste en convertir los da
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a los informes
 
@@ -30,7 +30,7 @@ Obtenga información acerca de las funcionalidades de creación de informes en A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Informes en vivo
 
@@ -40,7 +40,7 @@ Explore las herramientas de creación de informes en tiempo real para medir y op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Informes de todo el tiempo
 
@@ -50,7 +50,7 @@ Comprenda las métricas, la integración con Customer Journey Analytics y las he
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Informes de Recorrido personalizado
 

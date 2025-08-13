@@ -20,7 +20,7 @@ El canal SMS/MMS/RCS en Adobe Journey Optimizer permite a las empresas conectars
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a la configuración del canal SMS/MMS/RCS
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo configurar canales de SMS, MMS y RCS en Adobe J
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Configuración del proveedor Sinch para mensajería SMS/MMS/RCS
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso para configurar las credenciales de la API de Sinch pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Configuración del proveedor de SMS, MMS y RCS de Infobip
 
@@ -50,7 +50,7 @@ Directrices detalladas sobre la integración de Infobip como proveedor para la m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Configuración del proveedor Twilio para mensajería SMS/MMS/RCS
 
@@ -60,7 +60,7 @@ Instrucciones para configurar las credenciales de la API de Twilio y habilitar l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Configuración de un proveedor de SMS personalizado
 
@@ -70,7 +70,7 @@ Configure proveedores de SMS personalizados creando credenciales de API, adminis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Creación de una configuración de canal de SMS/MMS/RCS
 

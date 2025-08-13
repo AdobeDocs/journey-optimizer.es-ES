@@ -20,7 +20,7 @@ La administración del estado de las campañas de correo electrónico comienza c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Administrar la lista de supresión
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo controlar la capacidad de entrega de correos el
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Administración de reintentos y listas de supresión
 
@@ -40,7 +40,7 @@ Comprenda y configure los mecanismos de reintento de los errores de devoluciones
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Configuración de la Lista de permitidos
 

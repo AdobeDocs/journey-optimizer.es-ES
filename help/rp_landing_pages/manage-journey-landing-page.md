@@ -20,7 +20,7 @@ La administración de los recorridos en Adobe Journey Optimizer consiste en prop
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Examinar y filtrar sus Recorridos
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo navegar, filtrar y administrar recorridos de fo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Entrada de perfil en Recorrido
 
@@ -40,7 +40,7 @@ Comprenda cómo los perfiles entran en los recorridos, incluidas las reglas de r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Uso de identificadores adicionales en Recorrido
 
@@ -50,7 +50,7 @@ Descubra cómo aprovechar los identificadores suplementarios para una personaliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Administración de husos horarios
 
@@ -60,7 +60,7 @@ Obtenga información sobre cómo configurar zonas horarias fijas y definidas por
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Optimización del tiempo de envío
 
@@ -70,7 +70,7 @@ Maximice la participación en los mensajes push y de correo electrónico predici
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Finalizar el Recorrido
 

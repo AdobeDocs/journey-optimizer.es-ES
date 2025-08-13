@@ -20,7 +20,7 @@ La creación de contenido en Adobe Journey Optimizer tiene que ver con la flexib
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Diseño del contenido del correo electrónico desde cero
 
@@ -30,7 +30,7 @@ Aprenda a crear y personalizar el contenido del correo electrónico con el Desig
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Importar contenido de correo electrónico existente
 
@@ -40,7 +40,7 @@ Importe contenido de HTML en Adobe Journey Optimizer, ajuste elementos de diseñ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Codifique su propio contenido de correo electrónico
 
@@ -50,7 +50,7 @@ Codifique manualmente el contenido de su correo electrónico con HTML sin proces
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Trabajo con plantillas de correo electrónico
 
@@ -60,7 +60,7 @@ Ahorre tiempo utilizando plantillas de correo electrónico de ejemplo o personal
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Aprovechar temas de correo electrónico
 

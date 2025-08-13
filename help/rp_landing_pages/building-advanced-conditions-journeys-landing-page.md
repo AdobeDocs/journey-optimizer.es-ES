@@ -20,7 +20,7 @@ Adobe Journey Optimizer incluye un **editor de expresiones avanzadas** que le pe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
 
 Uso del Editor de expresiones avanzadas
 
@@ -30,7 +30,7 @@ Aprenda a utilizar el editor de expresiones avanzadas para crear expresiones per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Sintaxis avanzada para expresiones
 
@@ -40,7 +40,7 @@ Domine las reglas de sintaxis, las instrucciones condicionales y los tipos de da
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Funciones en Adobe Journey Optimizer
 

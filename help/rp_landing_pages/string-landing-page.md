@@ -20,7 +20,7 @@ Las cadenas son la base de los datos basados en texto, y las funciones de cadena
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Referencia de función concat
 
@@ -30,7 +30,7 @@ Aprenda a combinar cadenas o una lista de cadenas mediante la función &quot;con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Uso de la función &quot;contain&quot;
 
@@ -40,7 +40,7 @@ Descubra cómo comprobar la presencia de una cadena dentro de otra cadena.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Función containIgnoreCase
 
@@ -50,7 +50,7 @@ Aprenda a realizar comprobaciones de contención de cadenas que no distinguen en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Referencia de función endWith
 
@@ -60,7 +60,7 @@ Aprenda a comprobar si una cadena termina con un sufijo específico.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Función endWithIgnoreCase
 
@@ -70,7 +70,7 @@ Compruebe si una cadena termina con un sufijo, ignorando la distinción entre ma
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Referencia de función equalIgnoreCase
 

@@ -20,7 +20,7 @@ La creación de informes de Administración de decisiones en Adobe Journey Optim
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Trabajo con eventos de administración de decisiones
 
@@ -30,7 +30,7 @@ Aprenda a aprovechar los conjuntos de datos de eventos de Administración de dec
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Acceso y exploración de los campos XDM de DecisioningEvents
 

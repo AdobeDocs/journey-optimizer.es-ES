@@ -20,7 +20,7 @@ Imagine crear comunicaciones tan adaptadas a su audiencia que se sientan hechas 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Tutorial de Personalization sobre notificación de estado de pedidos
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear notificaciones push personalizadas para a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Guía de Personalization de correo electrónico de abandono del carro
 
@@ -40,7 +40,7 @@ Descubra cómo personalizar los correos electrónicos de abandono del carro de c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Ejemplo de Personalization de correo electrónico de prescripción del plan de salud
 

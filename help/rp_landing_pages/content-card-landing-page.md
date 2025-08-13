@@ -23,7 +23,7 @@ Esta función permite a los especialistas en marketing presentar a los usuarios 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configurar el canal de tarjetas de contenido
 
@@ -33,7 +33,7 @@ Configure e integre el canal de las tarjetas de contenido para plataformas web, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Crear y configurar tarjetas de contenido
 
@@ -43,7 +43,7 @@ Tutorial paso a paso para crear, personalizar e implementar tarjetas de contenid
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Diseño de tarjetas de contenido
 

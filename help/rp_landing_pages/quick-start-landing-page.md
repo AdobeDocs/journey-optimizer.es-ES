@@ -20,7 +20,7 @@ El éxito de Adobe Journey Optimizer depende de un equipo de expertos que trabaj
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Resumen de funciones y responsabilidades
 
@@ -30,7 +30,7 @@ Obtenga información acerca de las funciones, responsabilidades y dependencias c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Introducción como experto en marketing
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso para los especialistas en marketing sobre la creación
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Introducción como ingeniero de datos
 
@@ -50,7 +50,7 @@ Instrucciones detalladas para que los ingenieros de datos preparen esquemas, con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Introducción como administrador del sistema
 

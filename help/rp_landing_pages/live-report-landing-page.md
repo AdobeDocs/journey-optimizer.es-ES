@@ -20,7 +20,7 @@ La función de informes en vivo de Adobe Journey Optimizer le permite realizar u
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción al informe en vivo
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo acceder, personalizar y exportar informes en di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Lista de métricas
 
@@ -40,7 +40,7 @@ Comprenda las definiciones y categorías de métricas utilizadas en los informes
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Informe en vivo de recorrido
 
@@ -50,7 +50,7 @@ Analizar el rendimiento de los recorridos y los canales de comunicación asociad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Informe de campaña en directo
 
@@ -60,7 +60,7 @@ Visualice el rendimiento de la campaña en varios canales, como correo electrón
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Informe en vivo de página de aterrizaje
 
@@ -70,7 +70,7 @@ Evalúe el rendimiento de la página de aterrizaje con métricas en tiempo real 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Informe en vivo de suscripción
 

@@ -14,13 +14,13 @@ ht-degree: 4%
 
 # Públicos, perfiles e identidad{#section-overview}
 
-Las audiencias, los perfiles y las identidades de Adobe Journey Optimizer dependen de las capacidades del [Perfil del cliente en tiempo real de Adobe](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) para ofrecer experiencias personalizadas. Las **audiencias** le permiten segmentar clientes con datos enriquecidos, los **perfiles** proporcionan información en tiempo real enriquecida con comportamientos y atributos, y las **identidades** conectan interacciones entre canales mediante el gráfico de identidad. Estos elementos trabajan juntos para permitir la mensajería segmentada y unos recorridos de cliente coherentes. En esta sección se explica cómo activar audiencias, administrar perfiles y asignar identidades para unificar datos y ofrecer experiencias relevantes y oportunas.
+Las audiencias, los perfiles y las identidades de Adobe Journey Optimizer dependen de las capacidades del [Perfil del cliente en tiempo real de Adobe](https://experienceleague.adobe.com/es/docs/experience-platform/profile/home) para ofrecer experiencias personalizadas. Las **audiencias** le permiten segmentar clientes con datos enriquecidos, los **perfiles** proporcionan información en tiempo real enriquecida con comportamientos y atributos, y las **identidades** conectan interacciones entre canales mediante el gráfico de identidad. Estos elementos trabajan juntos para permitir la mensajería segmentada y unos recorridos de cliente coherentes. En esta sección se explica cómo activar audiencias, administrar perfiles y asignar identidades para unificar datos y ofrecer experiencias relevantes y oportunas.
 
 ## Audiencias, perfiles e identidad
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Gestión de público y Personalization
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear, administrar y activar audiencias mediant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=es)
 
 Perfiles: Administrar y optimizar los datos del cliente
 
@@ -40,7 +40,7 @@ Obtenga información sobre cómo utilizar perfiles, atributos calculados y perfi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=es)
 
 Introducción a las identidades
 
@@ -50,7 +50,7 @@ Descubra cómo administrar las identidades de los clientes mediante el gráfico 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Tablero de uso de licencias
 

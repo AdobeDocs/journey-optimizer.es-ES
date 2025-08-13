@@ -20,7 +20,7 @@ Las zonas protegidas de Adobe Journey Optimizer son como espacios de trabajo vir
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Administración y asignación de zonas protegidas
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo administrar y asignar entornos limitados para l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Copiar Objetos Entre Zonas Protegidas
 

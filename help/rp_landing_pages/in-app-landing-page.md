@@ -21,7 +21,7 @@ El canal en la aplicación de Adobe Journey Optimizer le permite conectarse con 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configuración de canal en la aplicación
 
@@ -31,7 +31,7 @@ Guía paso a paso para configurar permisos, configuración de envío y requisito
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Creación de mensajes móviles en la aplicación
 
@@ -41,7 +41,7 @@ Obtenga información sobre cómo crear, configurar y publicar mensajes móviles 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Creación de mensajes web en la aplicación
 
@@ -51,7 +51,7 @@ Configure y cree campañas de mensajería en la aplicación web con déclencheur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=es)
 
 Diseño y personalización del contenido en la aplicación
 
@@ -61,7 +61,7 @@ Explore las opciones de diseño, personalice el contenido y utilice un formato a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=es)
 
 Comprobación y envío de la notificación en la aplicación
 

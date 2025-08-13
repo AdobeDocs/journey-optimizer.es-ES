@@ -20,7 +20,7 @@ Las herramientas de privacidad de Adobe Journey Optimizer le permiten administra
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Información general sobre administración de privacidad
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo administrar la privacidad en Adobe Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Administración de solicitudes de privacidad
 
@@ -40,7 +40,7 @@ Siga las instrucciones paso a paso para crear y gestionar solicitudes de privaci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Registros de auditoría para acciones de usuario
 
@@ -50,7 +50,7 @@ Rastree y supervise las acciones realizadas en los recursos de Adobe Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
 
 Realización de operaciones del ciclo de datos
 
@@ -60,7 +60,7 @@ Descubra cómo administrar las tareas del ciclo vital de los datos, como actuali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Gestión del consentimiento
 
@@ -70,7 +70,7 @@ Administre las preferencias y políticas de consentimiento del destinatario para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Políticas de gobernanza de datos
 

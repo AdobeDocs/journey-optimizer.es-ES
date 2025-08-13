@@ -20,7 +20,7 @@ Las actividades en Adobe Journey Optimizer son los componentes básicos que dan 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a las actividades de Recorrido
 
@@ -30,7 +30,7 @@ Obtenga información acerca de las actividades de eventos, orquestación y accio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Uso de eventos generales
 
@@ -40,7 +40,7 @@ Descubra cómo utilizar eventos generales para almacenar en déclencheur los rec
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Configuración de eventos de reacción
 
@@ -50,7 +50,7 @@ Explore cómo reaccionar ante los datos de seguimiento, como clics o aperturas d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Eventos de calificación de audiencia
 
@@ -60,7 +60,7 @@ Aprenda a almacenar en déclencheur acciones y condiciones basadas en estados de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Uso de la actividad de condición
 
@@ -70,7 +70,7 @@ Defina varias rutas en un recorrido en función de criterios como el tiempo, la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
 
 Configuración de la actividad de espera
 

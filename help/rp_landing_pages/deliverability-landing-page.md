@@ -20,7 +20,7 @@ La capacidad de envío de correo electrónico consiste en garantizar que los cor
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a la entrega por correo electrónico
 
@@ -30,7 +30,7 @@ Conozca los conceptos, las prácticas recomendadas y las herramientas para optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Explicación de las listas de supresión
 
@@ -40,7 +40,7 @@ Descubra cómo las listas de supresión protegen la reputación del remitente y 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Cumplir con los nuevos requisitos de DMARC
 

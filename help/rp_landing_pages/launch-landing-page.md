@@ -20,7 +20,7 @@ El lanzamiento de su primera campaña orquestada en Adobe Journey Optimizer le p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Guía paso a paso para crear una campaña orquestada
 
@@ -30,7 +30,7 @@ Conozca los pasos clave para crear, administrar y analizar una campaña orquesta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Creación y programación de una campaña organizada
 
@@ -40,7 +40,7 @@ Descubra cómo crear y configurar propiedades de campañas, programaciones de ej
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Organización de actividades de Campaign
 
@@ -50,7 +50,7 @@ Domine el lienzo visual para diseñar y configurar actividades para sus campaña
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Inicio y monitorización de campañas
 
@@ -60,7 +60,7 @@ Obtenga información sobre cómo probar, publicar y monitorizar sus campañas or
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Informes para campañas orquestadas
 

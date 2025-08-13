@@ -20,7 +20,7 @@ La configuración de páginas de aterrizaje en Adobe Journey Optimizer le permit
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configurar subdominios de página de aterrizaje
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo configurar, administrar y desdelegar subdominio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Definir ajustes preestablecidos de página de aterrizaje
 

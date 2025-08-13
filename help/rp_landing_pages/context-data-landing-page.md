@@ -20,7 +20,7 @@ Los datos de contexto permiten a Adobe Journey Optimizer crear experiencias más
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a los datos de contexto
 
@@ -30,7 +30,7 @@ Aprenda a utilizar datos de contexto en el motor de decisión de Adobe Journey O
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Uso de datos de contexto en solicitudes de Edge Decisioning
 
@@ -40,7 +40,7 @@ Descubra cómo pasar datos de contexto en solicitudes de Edge Decisioning para e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Uso de datos de contexto en solicitudes de decisión y reglas de elegibilidad
 

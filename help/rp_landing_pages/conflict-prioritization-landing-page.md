@@ -20,7 +20,7 @@ La administración de conflictos y la priorización en Adobe Journey Optimizer l
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a la administración de conflictos
 
@@ -30,7 +30,7 @@ Aprenda a utilizar herramientas como la detección de conflictos, las puntuacion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Identificar posibles conflictos
 
@@ -40,7 +40,7 @@ Descubra métodos para detectar y resolver conflictos de campañas y recorridos,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Asignar puntuaciones de prioridad a las campañas
 
@@ -50,7 +50,7 @@ Aprenda a asignar puntuaciones de prioridad numéricas a recorridos y campañas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Establecer reglas de límite de mensajes y Recorridos
 

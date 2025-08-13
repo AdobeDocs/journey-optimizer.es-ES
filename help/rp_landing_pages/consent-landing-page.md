@@ -20,7 +20,7 @@ La administración del consentimiento es clave para generar confianza en su audi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Administrar la exclusión y el consentimiento de Personalization
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo administrar las preferencias de exclusión y ap
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Trabajo con políticas de consentimiento
 

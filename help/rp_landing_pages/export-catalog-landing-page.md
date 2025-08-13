@@ -20,7 +20,7 @@ Exportar el catálogo de ofertas en Adobe Journey Optimizer es como abrir la pue
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Guía de exportación de catálogos de ofertas
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo exportar el catálogo de ofertas como un conjun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Acceso al catálogo de ofertas exportado
 
@@ -40,7 +40,7 @@ Descubra cómo localizar e interactuar con el catálogo de ofertas exportado en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Referencia de conjuntos de datos de ofertas personalizadas
 
@@ -50,7 +50,7 @@ Explore los campos y el esquema jerárquico del conjunto de datos para obtener o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Resumen del conjunto de datos Decisions
 
@@ -60,7 +60,7 @@ Comprenda la estructura jerárquica, las definiciones de campo y los metadatos d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Detalles del conjunto de datos de ubicaciones
 
@@ -70,7 +70,7 @@ Obtenga información acerca de los campos, el esquema y los metadatos del conjun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Documentación del conjunto de datos de ofertas
 

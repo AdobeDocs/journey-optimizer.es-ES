@@ -20,7 +20,7 @@ Las páginas de aterrizaje en Adobe Journey Optimizer le permiten crear páginas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a las páginas de aterrizaje
 
@@ -30,7 +30,7 @@ Conozca los conceptos básicos de las páginas de aterrizaje, su funcionalidad e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Creación y publicación de páginas de aterrizaje
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso para crear, configurar, probar y publicar páginas de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Administrar Las Páginas De Aterrizaje
 
@@ -50,7 +50,7 @@ Acceda, organice y realice acciones como publicar, duplicar y etiquetar páginas
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Diseño de contenido para páginas de destino
 
@@ -60,7 +60,7 @@ Cree y personalice páginas de aterrizaje con plantillas, formularios y funcione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Crear y administrar listas de suscripción
 
@@ -70,7 +70,7 @@ Configure listas de suscripción para administrar perfiles de inclusión y optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Casos de uso de página de aterrizaje
 
