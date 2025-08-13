@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8e0dff6082f5fec6768d1bf284936468fd19208d
+source-git-commit: b62f0325b8d7aa1e213a5c6273d0634a0e005a6e
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1010'
 ht-degree: 32%
 
 ---
@@ -147,6 +147,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tr>
 <td>
 <p>Journey Optimizer ahora le ofrece las herramientas necesarias para optimizar sus recorridos mediante el uso de la IA y los marcos de experimentación, a la vez que garantiza una facilidad de uso y una diferenciación perfectas entre las funcionalidades de optimización y condición.</p>
+<p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -231,6 +232,10 @@ A continuación, se describen las mejoras incluidas en esta versión.
    * **Compatibilidad con atributos personalizados con la URL para cancelar la suscripción con un clic**: con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer un extremo personalizado externo definiendo su propio vínculo para cancelar la suscripción con un clic en la configuración del correo electrónico. Cuando los destinatarios hacen clic en el vínculo unsubscribe, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento.
 
      Para personalizar aún más el vínculo de cancelación de suscripción de un clic, ahora puede definir atributos personalizados que se adjuntarán al evento de consentimiento.
+
+* **Toma de decisiones**
+
+   * **Adjuntar fragmentos a elementos de decisión**: Journey Optimizer ahora proporciona la capacidad de adjuntar fragmentos a elementos de decisión que se pueden aprovechar en campañas de experiencia basadas en código mediante políticas de decisión.
 
 * **Recorridos**
 
