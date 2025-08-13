@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b62f0325b8d7aa1e213a5c6273d0634a0e005a6e
+source-git-commit: da1562edb6ba8e98210c5c6add4fa16ca025d9f7
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1020'
 ht-degree: 32%
 
 ---
@@ -164,7 +164,12 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer admite una nueva actividad de acción genérica que permite configurar acciones únicas y acciones salientes de varios canales, lo que permite una configuración de acciones optimizada dentro del lienzo de recorrido. Con esta nueva actividad, también puede añadir optimización de objetivos, experimentos y variantes de idiomas multilingües a cualquier acción de canal integrada.</p>
+<p>Journey Optimizer admite una nueva actividad de acción genérica que permite configurar acciones únicas y acciones salientes de varios canales, lo que permite una configuración de acciones optimizada dentro del lienzo de recorrido. En particular, esta nueva función permite lo siguiente:</p>
+<ul>
+<li>Una configuración de acción nativa simplificada dentro del lienzo de recorrido.</li>
+<li>Capacidad para crear nodos entrantes de varias acciones.</li>
+<li>La capacidad de añadir optimización a cualquier acción de canal integrada.</li>
+</ul>
 <p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
