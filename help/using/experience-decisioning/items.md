@@ -67,7 +67,7 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 
 De forma predeterminada, todos los perfiles pueden recibir el elemento de decisión, pero puede utilizar audiencias o reglas para restringir el elemento solo a perfiles específicos, ambas soluciones correspondientes a usos diferentes. Expanda la sección siguiente para obtener más información:
 
-+++Uso de audiencias frente a reglas de decisión
++++Uso de audiencias o reglas de decisión
 
 Básicamente, el resultado de una audiencia es una lista de perfiles, mientras que una regla de decisión es una función ejecutada a petición en un único perfil durante el proceso de toma de decisiones.
 
