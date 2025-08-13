@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 33%
+source-wordcount: '411'
+ht-degree: 32%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 33%
 >id="ajo_admin_sms_configuration"
 >title="Seleccione la configuración del proveedor de SMS"
 >abstract="Seleccione las credenciales de API configuradas para su proveedor de SMS."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_fuzzy_opt_out"
+>title="Opción de exclusión aproximada"
+>abstract="&quot;Cuando se habilita, la exclusión aproximada detecta los mensajes entrantes que se parecen mucho a las palabras clave de exclusión definidas (por ejemplo, &quot;CANCIL&quot;) y envía automáticamente una respuesta de confirmación para verificar la intención de cancelación de suscripción del usuario. Si el usuario lo confirma mediante el mensaje definido, se cancela su suscripción."
 
 Antes de enviar SMS, MMS o RCS, debe configurar su entorno de Adobe Journey Optimizer. Para realizar esto:
 

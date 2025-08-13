@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7df443d5bf64f862f4adce43a34f14d13fd36733
+source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 47%
+source-wordcount: '906'
+ht-degree: 35%
 
 ---
 
@@ -73,28 +73,28 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Modo oscuro en el Diseñador de correo electrónico</strong><br/></th>
+<th><strong>Dark mode in the Email Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El Diseñador de correo electrónico de Journey Optimizer ahora permite cambiar a la vista en modo oscuro, donde además puede definir configuraciones personalizadas específicas que se mostrarán solo para los destinatarios que lean sus correos electrónicos en modo oscuro.</p>
-<p>Tenga en cuenta lo siguiente:</p>
+<p>The Journey Optimizer Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings that will display only for recipients reading their emails in dark mode.</p>
+<p>Note the following:</p>
 <ul>
-<li>El renderizado final del modo oscuro puede variar y depende del cliente de correo electrónico del destinatario.</li>
-<li>No todos los clientes de correo electrónico admiten el modo oscuro personalizado. Además, algunos clientes de correo electrónico solo aplican su propio modo oscuro predeterminado a todos los correos electrónicos recibidos. En ambos casos, no se puede procesar la configuración personalizada que definió en el Diseñador de correo electrónico.</li>
+<li>The dark mode final rendering may vary and depends on the recipient's email client.</li>
+<li>Not all email clients support custom dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.</li>
 </ul>
-<P>Actualmente, esta función está en versión Beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con su representante de Adobe.</p>
-<p><!--img src="assets/do-not-localize/dark-mode.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a>--></p>
+<P>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
+<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
+<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -119,23 +119,23 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Use Decisioning en el canal de correo electrónico</strong><br/></th>
+<th><strong>Use Decisioning in email channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede añadir directivas de Decisión a recorridos de correo electrónico y campañas. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de Decisioning para devolver dinámicamente el mejor contenido para entregar a cada miembro del público.</p>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<p><img src="assets/do-not-localize/FILE.gif"/></p>
+<p><For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -196,24 +196,36 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 
 A continuación, se describen las mejoras incluidas en esta versión.
 
-- **Administración**
-   - **Alertas de supervisión de configuración de canal**: ahora puede suscribirse para recibir alertas del sistema, ya sea por correo electrónico o en el centro de notificaciones de Journey Optimizer, en caso de que se produzca un error de configuración de canal o si falta un registro DNS.
+* **Administración**
 
-- **Campañas**
-   - **Control de tasa en campañas salientes**: ahora puede habilitar el control de tasa de regulación para campañas salientes (correo electrónico, SMS, notificaciones push), lo que le permite evitar sobrecargas en sistemas descendentes, como páginas de aterrizaje o plataformas de atención al cliente.
-   - **Programación de campañas de acción**: los programadores de campañas diarias, semanales y mensuales se han actualizado para mejorar la granularidad. Por ejemplo, ahora puede establecer el número de semanas/meses entre programaciones, definir en qué día se va a ejecutar y decidir si se detiene después de un número específico de incidencias o en una fecha específica.
+   * **Alertas de supervisión de configuración de canal**: ahora puede suscribirse para recibir alertas del sistema, ya sea por correo electrónico o en el centro de notificaciones de Journey Optimizer, en caso de que se produzca un error de configuración de canal o si falta un registro DNS.
 
-- **Canal - Push**
-   - **Fecha de caducidad de la notificación push**: ahora puede especificar una fecha de caducidad para cada notificación push, lo que evita que los mensajes con distinción de tiempo (como la venta del Black Friday) se envíen después de una fecha determinada y, por lo tanto, evita ofrecer una mala experiencia a sus clientes.
+* **Campañas**
 
-- **Canal: correo electrónico**
-   - **Archivos adjuntos de PDF a correos electrónicos**: ahora puede adjuntar archivos PDF estáticos a los mensajes de correo electrónico enviados con Journey Optimizer.
+   * **Control de tasa en campañas salientes**: ahora puede habilitar el control de tasa de regulación para campañas salientes (correo electrónico, SMS, notificaciones push), lo que le permite evitar sobrecargas en sistemas descendentes, como páginas de aterrizaje o plataformas de atención al cliente.
 
-- **Configuración**
-   - **Compatibilidad con dominios dinámicos**: Journey Optimizer ahora admite la personalización en las direcciones URL de seguimiento para los dominios predefinidos enumerados en el nivel de configuración de canal.
-   - **Compatibilidad con atributos personalizados con la URL para cancelar la suscripción con un clic**: con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer un extremo personalizado externo definiendo su propio vínculo para cancelar la suscripción con un clic en la configuración del correo electrónico. Cuando los destinatarios hacen clic en el vínculo unsubscribe, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento.
+   * **Programación de campañas de acción**: los programadores de campañas diarias, semanales y mensuales se han actualizado para mejorar la granularidad. Por ejemplo, ahora puede establecer el número de semanas/meses entre programaciones, definir en qué día se va a ejecutar y decidir si se detiene después de un número específico de incidencias o en una fecha específica.
+
+* **Canal - Push**
+
+   * **Fecha de caducidad de la notificación push**: ahora puede especificar una fecha de caducidad para cada notificación push, lo que evita que los mensajes con distinción de tiempo (como la venta del Black Friday) se envíen después de una fecha determinada y, por lo tanto, evita ofrecer una mala experiencia a sus clientes.
+
+* **Canal: correo electrónico**
+
+   * **Archivos adjuntos de PDF a correos electrónicos**: ahora puede adjuntar archivos PDF estáticos a los mensajes de correo electrónico enviados con Journey Optimizer.
+
+* **Canal - SMS**
+
+   * **Exclusión parcial**: cuando está habilitada, la opción **Exclusión parcial** detecta mensajes entrantes que se parecen mucho a las palabras clave de exclusión definidas (por ejemplo, &quot;CANCIL&quot;) y envía automáticamente una respuesta de confirmación para comprobar la intención de cancelación de suscripción del usuario. Si el usuario lo confirma mediante el mensaje definido, se cancela su suscripción.
+
+* **Configuración**
+
+   * **Compatibilidad con dominios dinámicos**: Journey Optimizer ahora admite la personalización en las direcciones URL de seguimiento para los dominios predefinidos enumerados en el nivel de configuración de canal.
+
+   * **Compatibilidad con atributos personalizados con la URL para cancelar la suscripción con un clic**: con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer un extremo personalizado externo definiendo su propio vínculo para cancelar la suscripción con un clic en la configuración del correo electrónico. Cuando los destinatarios hacen clic en el vínculo unsubscribe, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento.
 
      Para personalizar aún más el vínculo de cancelación de suscripción de un clic, ahora puede definir atributos personalizados que se adjuntarán al evento de consentimiento.
 
-- **Recorridos**
-   - **Operaciones masivas de Recorrido**: en la lista de recorridos, puede seleccionar varios elementos. Una vez seleccionados, puede pausar o reanudar hasta 10 recorridos a la vez.
+* **Recorridos**
+
+   * **Operaciones masivas de Recorrido**: en la lista de recorridos, puede seleccionar varios elementos. Una vez seleccionados, puede pausar o reanudar hasta 10 recorridos a la vez.
