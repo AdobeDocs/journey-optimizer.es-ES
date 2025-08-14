@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
 workflow-type: tm+mt
-source-wordcount: '4203'
+source-wordcount: '5119'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,171 @@ ht-degree: 100%
 # Notas de la versión de 2025 {#release-notes-2025}
 
 Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] lanzadas en 2025.
+
+## Notas de la versión de julio de 2025 {#25-7-rn}
+
+**Fecha de lanzamiento**: miércoles, 29 de julio de 2025
+
+### Nuevas funciones {#features-25-7}
+
+A continuación, se describen las nuevas funciones incluidas en esta versión.
+
+#### Funcionalidades
+
+<table>
+<thead>
+<tr>
+<th><strong>Marcas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede crear y personalizar sus propias marcas para definir claramente su identidad visual y verbal en todas las comunicaciones. Con la puntuación de alineación de marca, puede recibir comentarios en tiempo real sobre cómo el contenido refleja el tono, el estilo y las directrices de su marca, lo que le ayuda a mantenerse siempre coherente con la marca en cada mensaje que envía.</p>
+<p>Esta capacidad, que se lanzó anteriormente en beta, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p><img src="assets/do-not-localize/brand-score.gif"/></p>
+<p>Para obtener más información, consulte la <a href="../content-management/brands.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Use Decisioning en el canal de correo electrónico</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede añadir directivas de Decisión a recorridos de correo electrónico y campañas. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de Decisioning para devolver dinámicamente el mejor contenido para entregar a cada miembro del público.</p>
+<p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
+Para obtener más información, consulte la <a href="../experience-decisioning/create-decision.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal LINE</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer ha ampliado sus funcionalidades en canales múltiples para incluir la compatibilidad con el canal LINE. Esta mejora le permite crear, editar y previsualizar experiencias de LINE, permitiendo interacciones más personalizadas y atractivas. Con LINE, puede conectarse con más clientes, enviar contenido relevante y mejorar su participación.</p>
+<p>Anteriormente disponible solo para solicitudes, el canal LINE ahora está disponible para todos los usuarios (disponibilidad general).</p>
+<p>Para obtener más información, consulte la <a href="../../rp_landing_pages/line-landing-page.md">documentación detallada</a>.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Ensayo de recorrido </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El ensayo del recorrido es un modo especial de publicación de recorrido en Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil. Esta función ayuda a los profesionales del recorrido a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en directo.</p>
+<img src="assets/do-not-localize/DryRun.gif">
+<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/journey-dry-run.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>ID suplementario para recorridos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede activar recorridos utilizando un ID de perfil junto con otro identificador, como un ID de pedido, un ID de suscripción o un ID de prescripción, lo que permite que el mismo perfil esté en el mismo recorrido varias veces a la vez. Esto permite situaciones como administrar varios pedidos o suscripciones en paralelo, y que cada instancia siga su propia ruta a través del recorrido.</p>
+<p>Publicado anteriormente con disponibilidad limitada, el uso de ID suplementarios en recorridos ya está disponible para todos los entornos. En esta versión con disponibilidad general, la función ahora es compatible con los recorridos de Leer público.</p>
+<p><img src="assets/do-not-localize/gif-supplemental.gif"/></p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/supplemental-identifier.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Alertas en el producto
+
+Ahora puede suscribirse a **alertas por correo electrónico y en el producto** para las versiones de productos de Journey Optimizer.
+
+Para suscribirse:
+
+* Vaya a **Preferencias de Adobe Experience Cloud**.
+* En **Notificaciones**, busque **Nuevas versiones de Journey Optimizer**.
+* Habilite las notificaciones in-app y por correo electrónico.
+
+![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
+
+
+### Cambio en las condiciones del recorrido {#ee-change@}
+
+A partir del 8 de julio, en las nuevas organizaciones de clientes, la creación de expresiones mediante eventos de experiencia dejará de ser compatible con el editor de expresiones utilizado en las condiciones del recorrido. Como resultado, no se pueden usar eventos de experiencia en la [fuente de datos de Experience Platform](../datasource/adobe-experience-platform-data-source.md) para crear expresiones. [Aquí](../building-journeys/exp-event-lookup.md) encontrará referencias a enfoques alternativos y prácticas recomendadas para crear expresiones y lógicas con eventos de experiencia.
+
+No hay cambios en la forma de acceder a los datos de evento de contexto de recorrido en los recorridos unitarios. En los editores de expresiones y personalización, los usuarios pueden seguir accediendo a los datos pasados con el evento de recorrido inicial.
+
+Obtenga más información [en estas preguntas frecuentes](../building-journeys/exp-event-lookup.md#faq-ee).
+
+### Mejoras {#25-7-improv}
+
+A continuación, se describen las mejoras incluidas en esta versión.
+
+* **Campañas**
+
+   * **Varias acciones entrantes en las campañas**: para simplificar la orquestación de la campaña, ahora puede definir varias acciones entrantes en una sola campaña. Esta capacidad le permite enviar varias experiencias basadas en código, mensajes in-app, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, y cada acción con un contenido específico.
+     [Más información](../campaigns/campaign-action.md#multi-action)
+
+   * **Reorganización del inventario de campañas**: las campañas programadas y activadas por API ahora se dividen en pestañas independientes en el inventario de campañas para facilitar la navegación y la administración.
+
+[Más información](../campaigns/modify-stop-campaign.md)
+
+* **Administración de datos**
+   * **Actualización del conjuntos de datos del sistema de Gestión de decisiones**: las ofertas personalizadas y de reserva eliminadas ahora se marcan como archivadas en los conjuntos de datos «decision_object_repository_personalized_offers» y «decision_object_repository_fallback_offers». Los registros existentes en el conjunto de datos no cambian.
+
+[Más información](../offers/export-catalog/access-dataset.md)
+
+* **Recorridos**
+   * **Mejoras en la herramienta de zona protegida para recorridos**: al copiar recorridos en varias zonas protegidas mediante las funciones de exportación e importación de paquetes, ahora también están disponibles las siguientes funciones:
+      * Selección de un evento existente en el destino
+      * Copia de un evento independientemente de un recorrido
+      * Detectar relaciones entre grupos de campos y fuentes de datos, vincularlas en el destino si existen y crearlas en caso contrario.
+
+[Más información](../configuration/copy-objects-to-sandbox.md)
+
+* **Canal: in-app**
+   * **Pares de clave/valor in-app**: con los mensajes in-app, puede definir pares de clave y valor para incluir variables personalizadas en la carga útil del mensaje. Estos pares clave-valor le permiten pasar datos adicionales según su configuración específica y el caso de uso. [Más información](../in-app/design-in-app.md)
+
+* **Canal - Tarjeta de contenido**
+
+   * **Descalificación de campaña basada en reglas**: al editar reglas de entrega adicionales, la opción de reglas de envío anteriores se ha reemplazado con tres tipos de reglas diferentes para controlar mejor el tiempo y la visibilidad del mensaje:
+      * Mostrar mensaje si: Condiciones que determinan cuándo se muestra la tarjeta de contenido.
+      * Descartar mensaje si: Condiciones que ocultan temporalmente la tarjeta de contenido. Puede volver a aparecer si se vuelven a cumplir las condiciones de visualización.
+      * Descalificar mensaje si: Condiciones que impiden permanentemente que se vuelva a mostrar la tarjeta de contenido.
+
+[Más información](../content-card/design-content-card.md)
+
+* **Toma de decisiones**
+   * **API de herramientas de migración**: el equipo de Journey Optimizer está trabajando en las API de herramientas de migración para migrar entidades de gestión de decisiones a Decisioning. Esta herramienta permite una migración perfecta entre zonas protegidas con resolución de dependencia y funciones de reversión. Si está interesado, póngase en contacto con su representante de Adobe.
+
+* **Personalización**
+   * Se ha añadido una nueva función auxiliar, «SHA256», al editor de personalización. Esta función se utiliza para calcular y devolver el hash sha256 de una cadena.
+
+[Más información](../personalization/functions/string.md#sha256)
 
 
 ## Notas de la versión de junio de 2025 {#25-6-rn}
