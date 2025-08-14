@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e8edafaff94ae9498f3d0eb3d696b38cd25e4c0a
+source-git-commit: c50553f5a591ae1f462f8162313999424bec533c
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 48%
+source-wordcount: '1715'
+ht-degree: 46%
 
 ---
 
@@ -244,7 +244,13 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
    * **Control de tasa en campañas salientes**: ahora puede habilitar el control de tasa de regulación para campañas salientes (correo electrónico, SMS, notificaciones push), lo que le permite evitar sobrecargas en sistemas descendentes, como páginas de aterrizaje o plataformas de atención al cliente.
 
-   * **Programación de campañas de acción**: los programadores de campañas diarias, semanales y mensuales se han actualizado para mejorar la granularidad. Por ejemplo, ahora puede establecer el número de semanas/meses entre programaciones, definir en qué día se va a ejecutar y decidir si se detiene después de un número específico de incidencias o en una fecha específica.
+   * **Programación de campañas de acción** - Los programadores diarios, semanales y mensuales de la campaña se han actualizado para proporcionar un control más detallado sobre las programaciones recurrentes:
+
+      * **Periodicidad semanal**: ahora puede elegir repetir la campaña cada semana o cada dos semanas y seleccionar los días de la semana en que debería ejecutarse.
+
+      * **Periodicidad mensual**: ahora puede elegir repetir la campaña todos los meses o cada dos meses y seleccionar el día del mes en que debe ejecutarse.
+
+      * **Programaciones diarias, semanales o mensuales**: Puede especificar si la programación recurrente debe detenerse en una fecha específica o después de un determinado número de incidencias.
 
    * **Campañas de acción transaccional programadas**: Ya están disponibles las campañas de acción transaccional programadas para enviar comunicaciones transaccionales por lotes y basadas en audiencias por correo electrónico, SMS y canales push.
 
