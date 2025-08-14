@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74e91c6a491b95f8e3c804b74dcef0b1757c5edf
+source-git-commit: 2afc9c4eb2a0433a22f1b369824086db2f5618ec
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1776'
 ht-degree: 44%
 
 ---
@@ -180,7 +180,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <li>La capacidad de añadir opciones de experimentación y multilingües a cualquier acción.</li>
 </ul>
 <p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--img src="assets/do-not-localize/pdf-attachments.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -196,9 +196,9 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede adjuntar archivos PDF estáticos a los mensajes de correo electrónico enviados con Journey Optimizer.</p>
+<p>Ahora puede adjuntar un archivo PDF estático a un mensaje de correo electrónico enviado con Journey Optimizer.</p>
 <ul>
-<li>Puede añadir hasta 6 mensajes por perfil con archivos adjuntos de PDF al año.</li>
+<li>Puede enviar hasta 6 mensajes con un archivo adjunto de PDF por perfil y año.</li>
 <li>El tamaño máximo de archivo permitido para cada archivo adjunto es 5 MB.</li>
 <li>Para cualquier tamaño o volumen adicional, puede adquirir un complemento de paquete de archivos adjuntos. Para obtener más información, póngase en contacto con su representante de Adobe.</li>
 </ul>

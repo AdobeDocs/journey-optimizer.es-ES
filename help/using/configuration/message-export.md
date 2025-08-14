@@ -11,9 +11,10 @@ keywords: exportación, mensajes, HIPAA, correos electrónicos, SMS, configuraci
 badge: label="Disponibilidad limitada" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
+exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
+source-git-commit: c62653af3c1eacaaf55dcf181d33f2253521e33d
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '509'
 ht-degree: 2%
 
 ---
@@ -29,11 +30,7 @@ ht-degree: 2%
 >
 >Actualmente, esta función solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
 
-**Exportación de mensajes** le permite transferir el contenido de mensajes SMS y de correo electrónico enviados desde [!DNL Journey Optimizer] a su propio almacenamiento a través de [!DNL Adobe Experience Platform] destinos.
-
->[!NOTE]
->
->[!DNL Experience Platform] destinos constan de un marco de trabajo que permite entregar datos desde Experience Platform a extremos externos. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/home){target="_blank"}
+**Message Export** le permite transferir el contenido de mensajes SMS y de correo electrónico enviados desde [!DNL Journey Optimizer] a su propio almacenamiento a través de [!DNL Adobe Experience Platform] destinos, lo que permite enviar datos de [!DNL Experience Platform] a extremos externos. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/home){target="_blank"}
 
 Con esta función, el contenido de los mensajes de correo electrónico y SMS enviados a través de [!DNL Journey Optimizer] que se han marcado para la exportación se escribe en el [!DNL Experience Platform] **conjunto de datos de exportación de mensajes de AJO**.
 
@@ -41,7 +38,7 @@ Los registros se conservan en el **conjunto de datos de exportación de mensajes
 <!--
 ## Terminology
 
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/home){target="_blank"}
+* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 * **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
 * **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
 
@@ -70,9 +67,9 @@ Antes de poder exportar los datos, debe configurar el proceso de exportación de
 >
 >Esta configuración debe configurarse para cada zona protegida.
 
-1. Elija un Experience Platform [tipo de destino](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/destination-types). Hay disponible una lista de plataformas de destino disponibles que están listas para recibir datos en [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
+1. Elija un Experience Platform [tipo de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}. Hay disponible una lista de plataformas de destino disponibles que están listas para recibir datos en [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. En [!DNL Experience Platform], configure el destino definiendo credenciales, contenedor/contenedor, prefijo de ruta y opciones de seguridad. [Descubra cómo](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. En [!DNL Experience Platform], configure el destino definiendo credenciales, contenedor/contenedor, prefijo de ruta y opciones de seguridad. [Descubra cómo](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Cree un flujo de exportación de conjunto de datos con los siguientes datos:
 
@@ -95,5 +92,3 @@ Para aplicar Message Export a sus campañas y recorridos, debe habilitar la opci
 Los mensajes de correo electrónico y SMS enviados a través de campañas o recorridos usando esta configuración de canal se escriben en el **conjunto de datos de exportación de mensajes de AJO**. Los registros se exportan al destino de almacenamiento seleccionado en función del flujo de datos de exportación definido.
 
 Al deshabilitar la opción **[!UICONTROL Habilitar exportación de mensajes]**, se detienen los nuevos registros para que esta configuración de canal no se ingrese en el conjunto de datos. Los registros existentes se conservarán hasta que caduque la retención.
-
-
