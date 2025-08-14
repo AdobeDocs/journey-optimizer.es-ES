@@ -8,13 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
-source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
+exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
+source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 93%
+source-wordcount: '712'
+ht-degree: 90%
 
 ---
-
 
 # Parámetros de encabezado {#email-header}
 
@@ -64,7 +64,7 @@ Si se produce un error al enviar la configuración de correo electrónico, signi
 
 >[!NOTE]
 >
->Si el subdominio de la dirección que ha introducido es un dominio que se [delegó completamente](../configuration/delegate-subdomain.md#full-subdomain-delegation) a Adobe, póngase en contacto con su ejecutivo de cuentas de Adobe.
+>Si el subdominio de la dirección que ingresó es un dominio que se [delegó completamente](../configuration/delegate-subdomain.md#full-subdomain-delegation) a Adobe, comuníquese con el representante de Adobe.
 
 ## Correo electrónico de reenvío {#forward-email}
 

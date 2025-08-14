@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c50553f5a591ae1f462f8162313999424bec533c
+source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 46%
+source-wordcount: '1782'
+ht-degree: 44%
 
 ---
 
@@ -189,13 +189,37 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
+<th><strong>Archivos adjuntos de PDF a correos electrónicos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede adjuntar archivos PDF estáticos a los mensajes de correo electrónico enviados con Journey Optimizer.</p>
+<ul>
+<li>Puede añadir hasta 6 mensajes por perfil con archivos adjuntos de PDF al año.</li>
+<li>El tamaño máximo de archivo permitido para cada archivo adjunto es 5 MB.</li>
+<li>Para cualquier tamaño o volumen adicional, puede adquirir un complemento de paquete de archivos adjuntos. Para obtener más información, póngase en contacto con su representante de Adobe.</li>
+</ul>
+<p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Formularios personalizados de página de aterrizaje</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ahora le permite crear formularios personalizados y aprovecharlos en páginas de aterrizaje para capturar atributos de perfil en el conjunto de datos definido para cada formulario.</p>
+<p>Con [!DNL Journey Optimizer], ahora puede capturar atributos de perfil a través de sus páginas de aterrizaje.</p>
+<p>Cree, diseñe y administre formularios personalizados adaptados a sus necesidades en función de un conjunto de datos específico. A continuación, puede aprovechar estos formularios en páginas de aterrizaje para agregar los atributos de perfil que elija al conjunto de datos definido para cada formulario.</p>
 <p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -258,10 +282,6 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
    * **Fecha de caducidad de la notificación push**: ahora puede especificar una fecha de caducidad para cada notificación push, lo que evita que los mensajes con distinción de tiempo (como la venta del Black Friday) se envíen después de una fecha determinada y, por lo tanto, evita ofrecer una mala experiencia a sus clientes.
 
-* **Canal: correo electrónico**
-
-   * **Archivos adjuntos de PDF a correos electrónicos**: ahora puede adjuntar archivos PDF estáticos a los mensajes de correo electrónico enviados con Journey Optimizer. Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
-
 * **Canal - SMS**
 
    * **Exclusión parcial**: cuando está habilitada, la opción **Exclusión parcial** detecta mensajes entrantes que se parecen mucho a las palabras clave de exclusión definidas (por ejemplo, &quot;CANCIL&quot;) y envía automáticamente una respuesta de confirmación para comprobar la intención de cancelación de suscripción del usuario. Si el usuario lo confirma mediante el mensaje definido, se cancela su suscripción.
@@ -276,7 +296,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
    * **Compatibilidad con atributos personalizados con la URL para cancelar la suscripción con un clic**: con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer un extremo personalizado externo definiendo su propio vínculo para cancelar la suscripción con un clic en la configuración del correo electrónico. Cuando los destinatarios hacen clic en el vínculo unsubscribe, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento.
 
-     Para personalizar aún más el vínculo de cancelación de suscripción de un clic, ahora puede definir atributos personalizados que se adjuntarán al evento de consentimiento.
+     Para personalizar aún más el vínculo de cancelación de suscripción de un clic, ahora puede definir atributos personalizados que también se adjuntarán al evento de consentimiento.
 
 * **Toma de decisiones**
 
