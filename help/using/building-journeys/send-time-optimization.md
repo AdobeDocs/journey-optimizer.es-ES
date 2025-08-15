@@ -12,7 +12,7 @@ exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: 78b8b4d6e8cf49ab39150b7bc412bef009bbad2b
 workflow-type: tm+mt
 source-wordcount: '1485'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="Activación de la optimización del tiempo de envío"
->abstract="Elija si desea optimizar las aperturas de correo electrónico o los clics de correo electrónico seleccionando el botón de radio adecuado. También puede optar por poner entre paréntesis los tiempos de envío utilizados por el sistema introduciendo un valor para la opción Enviar dentro de los próximos."
+>abstract="Elija si desea optimizar las aperturas de correo electrónico o los clics de correo electrónico seleccionando el botón de opción adecuado. También puede optar por delimitar los tiempos de envío utilizados por el sistema introduciendo un valor para la opción Enviar dentro de las próximas."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="Activación de la optimización del tiempo de envío"
->abstract="Los mensajes push tienen por defecto la opción de apertura, ya que los clics no se aplican a la mensajería push. También puede optar por poner entre paréntesis los tiempos de envío utilizados por el sistema introduciendo un valor para la opción Enviar dentro de los próximos."
+>abstract="Los mensajes push tienen por defecto la opción de apertura, ya que los clics no se aplican a la mensajería push. También puede optar por delimitar los tiempos de envío utilizados por el sistema introduciendo un valor para la opción Enviar dentro de las próximas."
 
 La función de optimización del tiempo de envío de Adobe Journey Optimizer, con tecnología de los servicios de IA de Recorrido de Adobe, elige el tiempo de envío óptimo para los mensajes de correo electrónico y push para maximizar la participación de los clientes, en función del comportamiento histórico de apertura y clic de estos.
 
@@ -132,7 +132,7 @@ Es más probable que las organizaciones obtengan mayores beneficios al utilizar 
 
 +++
 
-+++Siempre hago clic en correos electrónicos o mensajes push a las 12pm, ¿por qué el algoritmo no me envió un mensaje a las 12pm?
++++Siempre hago clic en correos electrónicos o mensajes push a las 12 p. m., ¿por qué el algoritmo no me envió un mensaje a las 12 p. m.?
 
 
 Esto puede ocurrir por varias razones:

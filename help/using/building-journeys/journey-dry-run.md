@@ -19,16 +19,16 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="Modo de simulación"
->abstract="Este recorrido está en modo de simulación. La simulación del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil.  Esta función ayuda a los profesionales del recorrido a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en directo."
+>title="Modo de ensayo"
+>abstract="Este recorrido está en modo de ensayo. El ensayo del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales de recorridos probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil.  Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
->title="Publicación de un recorrido en modo de simulación"
->abstract="La simulación del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales. Una vez que haya diseñado su recorrido, pruébelo para confirmar que es funcional y asegurarse de que los pasos sean correctos. Este modo de publicación le permite probar un recorrido sin enviar comunicaciones a los perfiles."
+>title="Publicación de un recorrido en modo de ensayo"
+>abstract="El ensayo del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales de recorridos probar un recorrido utilizando datos de producción reales. Una vez que haya diseñado su recorrido, ejecute un ensayo para confirmar que es funcional y asegurarse de que los pasos sean correctos. Este modo de publicación le permite realizar una prueba preliminar de un recorrido sin enviar comunicaciones a los perfiles."
 
-La simulación del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil.  Esta función ayuda a los profesionales del recorrido a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en directo.
+El ensayo del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales de recorridos probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil.  Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo.
 
 
 ## Ventajas principales {#journey-dry-run-benefits}
@@ -120,7 +120,7 @@ Los vínculos a las últimas 24 horas y todos los informes de tiempo están disp
 1. Haga clic en **Volver al borrador** para confirmar.
 
 
-## Mecanismos de protección y limitaciones {#journey-dry-run-limitations}
+## Protecciones y limitaciones {#journey-dry-run-limitations}
 
 * Los perfiles en el modo de ejecución en seco se contabilizan como perfiles atractivos
 * Los recorridos en el modo de ejecución en seco se cuentan hacia la cuota de recorrido en directo

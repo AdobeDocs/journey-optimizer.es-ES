@@ -15,7 +15,7 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -24,17 +24,17 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Cambiar a modo oscuro"
->abstract="Cambie al modo oscuro, donde puede obtener una vista previa cómo puede ser la representación y definir ajustes personalizados específicos. <br>Precaución: la representación final depende del cliente de correo electrónico del destinatario. No todos los clientes de correo electrónico admiten el modo oscuro."
+>abstract="Cambie al modo oscuro, donde puede obtener una vista previa de cómo puede ser la representación y definir ajustes personalizados específicos. <br>Precaución: La representación final depende del cliente de correo electrónico del destinatario. No todos los clientes de correo electrónico admiten el modo oscuro personalizado."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="Utilizar una imagen específica para el modo oscuro"
->abstract="Puede seleccionar otra imagen que se mostrará cuando el modo oscuro esté activado. <br>Precaución: añadir una imagen específica para el modo oscuro no garantiza que se represente correctamente en todos los clientes de correo electrónico. No todos los clientes de correo electrónico admiten el modo oscuro."
+>abstract="Puede seleccionar otra imagen que se mostrará cuando el modo oscuro esté activado. <br>Precaución: Añadir una imagen específica para el modo oscuro no garantiza que se represente correctamente en todos los clientes de correo electrónico. No todos los clientes de correo electrónico admiten el modo oscuro personalizado."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="Cambiar a modo oscuro"
->abstract="Cambie al modo oscuro, donde puede obtener una vista previa de cómo se puede representar en los clientes de correo electrónico compatibles. <br>Precaución: la representación final depende del cliente de correo electrónico del destinatario. No todos los clientes de correo electrónico admiten el modo oscuro."
+>abstract="Cambie al modo oscuro, donde puede obtener una vista previa de cómo se puede representar en los clientes de correo electrónico compatibles. <br>Precaución: La representación final depende del cliente de correo electrónico del destinatario. No todos los clientes de correo electrónico admiten el modo oscuro personalizado."
 
 >[!AVAILABILITY]
 >
@@ -72,7 +72,7 @@ De hecho, la forma en que los clientes de correo electrónico aplican el modo os
 
 * Otros clientes de correo electrónico dan la opción de procesar el modo oscuro personalizado (como con el método `@media (prefers-color-scheme: dark)`). En este caso, se debe mostrar la configuración específica que defina en la Designer de correo electrónico. Aprenda a definir la configuración personalizada del modo oscuro en el Designer de correo electrónico en [esta sección](#define-custom-dark-mode).
 
-## Modo oscuro en el Designer de correo electrónico {#dark-mode-email-designer}
+## Modo oscuro en el Diseñador de correo electrónico {#dark-mode-email-designer}
 
 Cuando se trata del modo oscuro en el Designer de correo electrónico, hay dos aspectos que hay que tener en cuenta:
 
@@ -131,7 +131,7 @@ Después de cambiar a **[!UICONTROL Modo oscuro]**, puede elegir editar elemento
 
 >[!WARNING]
 >
->No todos los clientes de correo electrónico admiten el modo oscuro. Además, algunos clientes de correo electrónico solo aplican su propio modo oscuro predeterminado a todos los correos electrónicos recibidos. En ambos casos, no se puede procesar la configuración personalizada que definió en el Designer de correo electrónico.
+>No todos los clientes de correo electrónico admiten el modo oscuro. Además, algunos clientes de correo electrónico solo aplican su propio modo oscuro predeterminado a todos los correos electrónicos recibidos. En ambos casos, no se puede procesar la configuración personalizada que definió en el Diseñador de correo electrónico.
 
 Para aprovechar el estilo de modo oscuro personalizado de Email Designer, Journey Optimizer usa <!-- `@media (prefers-color-scheme: dark)` method--> `@media (prefers-color-scheme: dark)` consulta CSS, que detecta si el cliente de correo electrónico del usuario está configurado en modo oscuro y aplica el diseño de tema oscuro definido en su correo electrónico.
 
