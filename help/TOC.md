@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
 workflow-type: tm+mt
 source-wordcount: '2881'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 98%
       + [2021](using/rn/release-notes-2021.md)
    + [Actualizaciones de la documentación](using/rn/documentation-updates.md)
    + [Nuevo lienzo de recorrido](using/rn/new-canvas.md)
-+ Introducción  {#get-started}
-   + [Introducción ](/help/rp_landing_pages/get-started-landing-page.md)
++ Introducción {#get-started}
+   + [Introducción](/help/rp_landing_pages/get-started-landing-page.md)
    + [Funcionalidades clave](using/start/get-started.md)
    + [Arquitectura](using/start/architecture-concepts-redpen.md)
    + [Conceptos principales](using/start/functional-areas-redpen.md)
@@ -47,7 +47,7 @@ ht-degree: 98%
    + [Trabajo con el Asistente de IA](using/start/ai-assistant.md)
    + [Mecanismos de protección](using/start/guardrails.md)
    + [Prácticas recomendadas](using/start/best-practices.md)
-   + [Manuales](using/start/playbooks.md)
+   + [Manuales de tácticas](using/start/playbooks.md)
 + Recorridos {#orchestrate-journeys}
    + [Recorridos](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introducción a los recorridos](using/building-journeys/journey.md)
@@ -245,7 +245,7 @@ ht-degree: 98%
          + [Creación y programación de la campaña](using/orchestrated/create-orchestrated-campaign.md)
          + [Organización de actividades](using/orchestrated/orchestrate-activities.md)
          + [Inicio y monitorización de la campaña](using/orchestrated/start-monitor-campaigns.md)
-         + [Sistema de informes](using/orchestrated/reporting-campaigns.md)
+         + [Creación de informes](using/orchestrated/reporting-campaigns.md)
       + Consulta de la base de datos {#query-database}
          + [Consulta de la base de datos](/help/rp_landing_pages/query-database-landing-page.md)
          + [Trabajo con el generador de reglas](using/orchestrated/orchestrated-rule-builder.md)
@@ -274,8 +274,8 @@ ht-degree: 98%
    + [Introducción a la administración y priorización de conflictos](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificar posibles conflictos](using/conflict-prioritization/conflicts.md)
    + [Asignar puntuaciones de prioridad](using/conflict-prioritization/priority-scores.md)
-   + Establecer reglas de límite de mensajes y recorridos {#capping-rules}
-      + [Establecer reglas de límite de mensajes y recorridos](/help/rp_landing_pages/capping-rules-landing-page.md)
+   + Establecimiento de reglas de límite de mensajes y recorridos {#capping-rules}
+      + [Establecimiento de reglas de límite de mensajes y recorridos](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [Trabajar con conjuntos de reglas](using/conflict-prioritization/rule-sets.md)
       + [Límite y arbitraje de recorrido](using/conflict-prioritization/journey-capping.md)
       + [Restricción de frecuencia por canal y tipo de comunicación](using/conflict-prioritization/channel-capping.md)
@@ -329,8 +329,8 @@ ht-degree: 98%
             + [Añadir atributos de estilo en línea](using/email/inline-styling.md)
             + [Definir contenido en modo oscuro](using/email/dark-mode.md)
       + [Administrar la exclusión de correo electrónico](using/email/email-opt-out.md)
-      + Configurar canal de correo electrónico {#configure-email}
-         + [Configurar canal de correo electrónico](/help/rp_landing_pages/configure-email-landing-page.md)
+      + Configuración de canal de correo electrónico {#configure-email}
+         + [Configuración de canal de correo electrónico](/help/rp_landing_pages/configure-email-landing-page.md)
          + [Empezar con la configuración de correo electrónico](using/email/get-started-email-config.md)
          + [Definir la configuración de correo electrónico](using/email/email-settings.md)
          + [Habilitar la cancelación de suscripción a una lista](using/email/list-unsubscribe.md)
@@ -364,7 +364,7 @@ ht-degree: 98%
       + [Introducción a la mensajería de texto](using/sms/get-started-sms.md)
       + [Creación de un mensaje SMS/MMS/RCS](using/sms/create-sms.md)
       + [Comprobación y envío de los mensajes de texto](using/sms/send-sms.md)
-      + [Administrar la exclusión de mensajes de texto](using/sms/sms-opt-out.md)
+      + [Administración de la exclusión de mensajes de texto](using/sms/sms-opt-out.md)
       + [Configuración de subdominios de SMS](using/sms/sms-subdomains.md)
       + Configuración de canal de SMS/MMS/RCS {#configure-sms}
          + [Configuración de canal de SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
@@ -441,7 +441,7 @@ ht-degree: 98%
       + [Introducción a la personalización](using/personalization/personalize.md)
       + [Adición de personalización](using/personalization/personalization-build-expressions.md)
       + [Sintaxis de personalización](using/personalization/personalization-syntax.md)
-      + [Reutilizar fragmentos de expresiones](using/personalization/use-expression-fragments.md)
+      + [Reutilización de fragmentos de expresión](using/personalization/use-expression-fragments.md)
       + [Uso de datos de Adobe Experience Platform para la personalización (Beta)](using/personalization/aep-data-perso.md)
       + Lista de funciones del asistente {#functions}
          + [Lista de funciones del asistente](/help/rp_landing_pages/functions-landing-page.md)
@@ -467,8 +467,8 @@ ht-degree: 98%
       + [Introducción a las páginas de destino](using/landing-pages/get-started-lp.md)
       + [Creación de una página de destino](using/landing-pages/create-lp.md)
       + [Administración de la páginas de aterrizaje](using/landing-pages/manage-lp.md)
-      + Diseño de contenido {#landing-pages-design}
-         + [Diseño de contenido](/help/rp_landing_pages/landing-pages-design-landing-page.md)
+      + Contenido de diseño {#landing-pages-design}
+         + [Contenido de diseño](/help/rp_landing_pages/landing-pages-design-landing-page.md)
          + [Acerca del diseño de página de destino](using/landing-pages/design-lp.md)
          + [Creación del contenido de la página de destino](using/landing-pages/lp-content.md)
          + [Crear plantillas](using/landing-pages/lp-templates.md)
@@ -559,11 +559,11 @@ ht-degree: 98%
       + [Trabajo con atributos de varios valores](using/audience/computed-attributes.md)
    + [Identidades](using/audience/get-started-identity.md)
    + [Uso de licencias](using/audience/license-usage.md)
-+ Sistema de informes {#reporting}
-   + [Sistema de informes](/help/rp_landing_pages/reporting-landing-page.md)
++ Creación de informes {#reporting}
+   + [Creación de informes](/help/rp_landing_pages/reporting-landing-page.md)
    + [Introducción a los informes](using/reports/gs-reports.md)
    + Informe activo {#live-report}
-      + [Informe en vivo](/help/rp_landing_pages/live-report-landing-page.md)
+      + [Informe activo](/help/rp_landing_pages/live-report-landing-page.md)
       + [Introducción al Informe activo](using/reports/live-report.md)
       + [Lista de métricas](using/reports/live-report-components.md)
       + [Informe activo de recorrido](using/reports/journey-live-report.md)
@@ -668,8 +668,8 @@ ht-degree: 98%
          + [Crear clasificaciones](/help/rp_landing_pages/experience-decisioning-rankings-landing-page.md)
          + [Creación de métodos de clasificación](using/experience-decisioning/ranking/ranking.md)
          + [Uso del generador de fórmulas de IA](using/experience-decisioning/ranking/ranking-formulas.md)
-         + modelos de IA {#experience-decisioning-ai-models}
-            + [modelos de IA](/help/rp_landing_pages/experience-decisioning-ai-models-landing-page.md)
+         + Modelos de IA {#experience-decisioning-ai-models}
+            + [Modelos de IA](/help/rp_landing_pages/experience-decisioning-ai-models-landing-page.md)
             + [Acerca de los modelos de IA](using/experience-decisioning/ranking/ai-models.md)
             + [Modelo de optimización automática](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Modelo de optimización personalizado](using/experience-decisioning/ranking/personalized-optimization-model.md)
@@ -706,8 +706,8 @@ ht-degree: 98%
          + [Crear clasificaciones](/help/rp_landing_pages/rankings-landing-page.md)
          + [Introducción a las clasificaciones](using/offers/ranking/get-started-rankings.md)
          + [Fórmulas de clasificación](using/offers/ranking/create-ranking-formulas.md)
-         + modelos de IA {#ai-models}
-            + [modelos de IA](/help/rp_landing_pages/ai-models-landing-page.md)
+         + Modelos de IA {#ai-models}
+            + [Modelos de IA](/help/rp_landing_pages/ai-models-landing-page.md)
             + [Acerca de los modelos de IA](using/offers/ranking/ai-models.md)
             + [Modelo de optimización automática](using/offers/ranking/auto-optimization-model.md)
             + [Modelo de optimización personalizado](using/offers/ranking/personalized-optimization-model.md)
