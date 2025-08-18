@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2648'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Las siguientes limitaciones se aplican a la actividad [canal de SMS](../sms/get-
 
 [Las campañas web de](../web/get-started-web.md) [!DNL Journey Optimizer] se dirigen a nuevos perfiles que no han interactuado antes en otros canales. Esto aumentará el recuento total de perfiles con los que es posible interactuar, lo que puede tener costes si se supera el número contractual de perfiles adquiridos. 
 
-Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Protecciones de canal basado en código {#code-based-guardrails}
 

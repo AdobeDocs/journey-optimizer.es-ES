@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Con la funcionalidad de la **experiencia basada en código** puede definir las e
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️ En [esta sección](../experience-decisioning/experience-decisioning-uc.md) se encuentra un caso de uso de extremo a extremo que muestra cómo usar experimentos de contenido para comparar decisiones con el canal de experiencia basado en código.
+➡️ En [esta sección](../experience-decisioning/experience-decisioning-uc.md) se presenta un caso de uso de extremo a extremo que muestra cómo usar experimentos de contenido para comparar las decisiones con el canal de experiencia basado en código.
 
 ## Cuándo usar canales basados en código o en otros canales {#code-based-vs-other-channels}
 
@@ -53,7 +53,7 @@ Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia bas
 **Web**
 
 * Edite el contenido con el editor visual del [diseñador web](../web/web-visual-editor.md){target="_blank"} o el [editor no visual](../web/web-non-visual-editor.md) web.
-* Necesita [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"}: una implementación del lado del cliente.
+* Necesita el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"}, una implementación del lado del cliente.
   <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * El canal web permite modificar todo lo que hay en la página y tiene una lista predefinida de acciones que puede utilizar para realizar cambios. [Más información](../web/web-visual-editor.md){target="_blank"}
 * Es fácil de configurar y poner en marcha rápidamente.
@@ -62,7 +62,7 @@ Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia bas
 **Experiencia basada en código**
 
 * Edite el contenido utilizando el [editor de personalización](create-code-based.md#edit-code).
-* Necesita la implementación del lado del cliente de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"} o la implementación del lado del servidor de [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es){target="_blank"}.
+* Necesita el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"}, una implementación del lado del cliente, o la [API del servidor Edge Network de AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es){target="_blank"}, una implementación del lado del servidor.
 * La experiencia basada en código requiere un trabajo de desarrollo previo en la implementación para garantizar que las aplicaciones puedan interpretar y entregar el contenido publicado en el perímetro por [!DNL Journey Optimizer] para estas ubicaciones. [Más información](code-based-surface.md)
 * Requiere más planificación y solo puede cambiar las cosas que especifican los desarrolladores. Por lo tanto, es esencial identificar los componentes (banner principal, imagen principal, barra de menús, etc.) en las aplicaciones que deben modificarse para la personalización o para pruebas, y trabajar con el equipo de desarrollo para crear la implementación necesaria para gestionar estos cambios.
 * Le permite utilizar contenido con código JSON.

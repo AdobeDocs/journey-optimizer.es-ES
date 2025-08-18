@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -27,43 +27,43 @@ Los canales de envío de los mensajes de salida implican enviar mensajes a los c
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canal de correo electrónico
 
-Descubra cómo crear, configurar y optimizar campañas de correo electrónico, incluidas las prácticas recomendadas de personalización, envío y conformidad.
+Descubra cómo crear, configurar y optimizar campañas de correo electrónico, incluidas las prácticas recomendadas de personalización, entregabilidad y conformidad.
 
-[Más información sobre el Canal de correo electrónico](../../rp_landing_pages/email-landing-page.md)
+[Más información sobre el canal de correo electrónico](../../rp_landing_pages/email-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canal de notificaciones push
 
 Obtenga información sobre cómo crear, configurar y enviar notificaciones push para iOS y Android, incluidas opciones avanzadas como notificaciones silenciosas y modo de envío rápido.
 
-[Más información sobre las Notificaciones push](../../rp_landing_pages/push-landing-page.md)
+[Más información sobre las notificaciones push](../../rp_landing_pages/push-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Mensajería SMS/MMS/RCS
 
-Obtenga información sobre cómo crear, administrar y configurar mensajes SMS, MMS y RCS para fines de marketing y transaccionales, incluido el cumplimiento y la personalización.
+Aprenda cómo crear, administrar y configurar mensajes SMS, MMS y RCS para fines transaccionales y de marketing, incluidas la conformidad y la personalización.
 
-[Más información sobre los mensajes SMS/MMS/RCS](../../rp_landing_pages/sms-landing-page.md)
+[Más información sobre la mensajería SMS/MMS/RCS](../../rp_landing_pages/sms-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campañas de correo directo
 
-Descubra cómo crear y administrar campañas de correo postal, incluida la exportación de archivos de extracción para proveedores de terceros y garantizar el cumplimiento del consentimiento del usuario.
+Descubra cómo crear y administrar campañas de correo directo, incluida la exportación de archivos de extracción para proveedores de terceros y garantizar la conformidad con el consentimiento del usuario.
 
-[Más información sobre las Campañas de correo directo](../../rp_landing_pages/direct-mail-landing-page.md)
+[Más información sobre las campañas de correo directo](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
 
 ::::
@@ -75,43 +75,43 @@ Con las experiencias de entrada de la aplicación móvil y la web, los clientes 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Mensajería en la aplicación
 
-Explore cómo configurar, diseñar y personalizar notificaciones en la aplicación para plataformas móviles y web a fin de atraer audiencias dentro de las aplicaciones.
+Explore cómo configurar, diseñar y personalizar notificaciones en la aplicación para plataformas móviles y web a fin de atraer público dentro de las aplicaciones.
 
-[Más información sobre la Mensajería en la aplicación](../../rp_landing_pages/in-app-landing-page.md)
+[Más información sobre la mensajería in-app](../../rp_landing_pages/in-app-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
 Aprenda a crear, configurar y personalizar experiencias web e integrar canales web con estrategias de marketing de salida.
 
-[Más información sobre el canal web](../../rp_landing_pages/web-landing-page.md)
+[Más información sobre los canales web](../../rp_landing_pages/web-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Experiencia basada en código
 
-Sumérjase en experiencias basadas en código para ofrecer contenido personalizado en plataformas digitales mediante SDK y API.
+Sumérjase en experiencias basadas en código para ofrecer contenido personalizado en distintas plataformas digitales mediante SDK y API.
 
-[Más información sobre la Experiencia basada en código](../../rp_landing_pages/code-based-experience-landing-page.md)
+[Más información sobre la experiencia basada en código](../../rp_landing_pages/code-based-experience-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Tarjetas de contenido
 
-descubra cómo configurar, crear y diseñar tarjetas de contenido para mensajes atractivos y personalizados en aplicaciones móviles y sitios web.
+Descubra cómo configurar, crear y diseñar tarjetas de contenido para ofrecer mensajes atractivos y personalizados en aplicaciones móviles y sitios web.
 
-[Más información sobre la Experiencia basada en código](../../rp_landing_pages/content-card-landing-page.md)
+[Más información sobre la experiencia basada en código](../../rp_landing_pages/content-card-landing-page.md)
 :::
 
 ::::
@@ -119,8 +119,8 @@ descubra cómo configurar, crear y diseñar tarjetas de contenido para mensajes 
 
 ## Recursos adicionales
 
-- **[Mensajería WhatsApp](../../rp_landing_pages/whatsapp-landing-page.md)**: Aprenda a integrar y utilizar la mensajería WhatsApp a través de la API de nube de Meta para campañas de comunicación personalizadas y compatibles.
-- **[Mensajería LINE](../../rp_landing_pages/line-landing-page.md)**: Descubra cómo configurar, crear y personalizar mensajes LINE para una comunicación efectiva en campañas y recorridos.
+- **[Mensajería WhatsApp](../../rp_landing_pages/whatsapp-landing-page.md)**: aprenda a integrar y utilizar la mensajería WhatsApp a través de la API en la nube de Meta para ofrecer campañas de comunicación personalizadas y compatibles.
+- **[Mensajería LINE](../../rp_landing_pages/line-landing-page.md)**: descubra cómo configurar, crear y personalizar mensajes LINE para una comunicación efectiva en campañas y recorridos.
 
 ## Canales en recorridos y campañas {#leverage}
 

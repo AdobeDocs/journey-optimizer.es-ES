@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6783'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -515,7 +515,7 @@ Ahora puede exportar plantillas de contenido y fragmentos entre zonas protegidas
   >
   >Tenga en cuenta que, al utilizar la funcionalidad de API interactiva en las páginas de documentación, está realizando llamadas de API reales a los puntos finales. Tenga esto en cuenta al experimentar con zonas protegidas de producción.
 
-Configuración de **&#x200B;**
+Configuración de ****
 
 * **Planes de calentamiento de IP**: esta capacidad ya está disponible para todos los clientes, incluidas las organizaciones que han adquirido las ofertas complementarias **Healthcare Shield** o **Privacy and Security Shield** de Adobe. [Más información](../configuration/ip-warmup-gs.md)
 
@@ -630,7 +630,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Recorridos**
 
-* En la actividad **Condición**, de forma predeterminada, la **[!UICONTROL condición de tiempo]** ahora se establece por hora, de 00:00 a 12:00. [Más información](../building-journeys/condition-activity.md#time_condition)
+* En la actividad **Condición**, de forma predeterminada, la **[!UICONTROL Condición de tiempo]** se establece ahora por hora, de 00:00 a 12:00. [Más información](../building-journeys/condition-activity.md#time_condition)
 * Al crear los recorridos, las alertas se muestran ahora en el botón **Alertas** para alinearse con otras alertas y ofrecer una experiencia de usuario coherente. [Más información](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * Se han mejorado las opciones de zoom en la barra de herramientas del recorrido. El porcentaje del zoom ahora es visible y se puede restablecer su valor más fácilmente.
 
@@ -1121,7 +1121,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 * **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
 -->
 
-Configuración de **&#x200B;**
+Configuración de ****
 
 * Ahora puede seleccionar una acción de marketing en el nivel de configuración de canal. Cuando se utilizan en una configuración, se aprovechan todas las políticas de consentimiento asociadas con esa acción de marketing para respetar las preferencias de los clientes. [Más información](../action/consent.md#surface-marketing-actions)
 * El uso del Control de acceso a nivel de objeto ya está disponible en las configuraciones de canal. [Más información](../configuration/channel-surfaces.md#create-channel-surface)
