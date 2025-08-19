@@ -28,7 +28,7 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
->title="Inventario de campañas organizadas"
+>title="Inventario de campañas orquestadas"
 >abstract="En esta pantalla, puede acceder a la lista completa de campañas orquestadas, comprobar su estado actual, las fechas de la última/próxima ejecución y crear una nueva campaña orquestada."
 
 >[!CONTEXTUALHELP]
@@ -56,7 +56,7 @@ De manera predeterminada, la lista muestra todas las campañas con los estados *
 
 ![](assets/api-triggered-list.png)
 
->[!TAB Campañas organizadas]
+>[!TAB Campañas orquestadas]
 
 Seleccione la pestaña **[!UICONTROL Orchestration]** para acceder a la lista de campañas orquestadas.
 
@@ -119,7 +119,7 @@ Las campañas pueden tener varios estados:
 >
 >El icono &quot;Abrir versión de borrador&quot; junto a un estado **[!UICONTROL Activo]** o **[!UICONTROL Programado]** indica que se ha creado una nueva versión de una campaña activada por una acción o API y que aún no se ha activado.
 
->[!TAB Campañas organizadas]
+>[!TAB Campañas orquestadas]
 
 * **[!UICONTROL Borrador]**: se ha creado la campaña orquestada. Aún no se ha publicado.
 * **[!UICONTROL Publicación]**: La campaña orquestada se está publicando.

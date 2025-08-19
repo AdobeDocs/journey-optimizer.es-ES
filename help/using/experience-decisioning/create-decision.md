@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
 workflow-type: tm+mt
 source-wordcount: '2495'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -48,7 +48,7 @@ Las políticas de decisión son contenedores para sus ofertas que aprovechan el 
 
 Los pasos principales para aprovechar las políticas de decisión en sus mensajes son los siguientes:
 
-1. [Crear una política de decisión en un correo electrónico o una experiencia basada en código](#add-decision)
+1. [Cree una política de decisión en un correo electrónico o una experiencia basada en código](#add-decision)
 
    Configure una política de decisión en el correo electrónico o la experiencia basada en código eligiendo el número de elementos que desea devolver, configurando las estrategias de selección, las opciones de reserva y el orden de evaluación.
 
@@ -75,7 +75,7 @@ Los pasos principales para aprovechar las políticas de decisión en sus mensaje
 
 * **Clasificación de IA**: por ahora, la clasificación de IA no es compatible con el canal de correo electrónico en recorridos con toma de decisiones.
 
-## Crear una política de decisión en un correo electrónico o una experiencia basada en código {#add-decision}
+## Cree una política de decisión en un correo electrónico o una experiencia basada en código {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
@@ -111,7 +111,7 @@ Para presentar la mejor oferta dinámica y experiencia a los destinatarios y vis
 
 1. Las políticas se pueden crear en experiencias basadas en correo electrónico y código mediante el editor de personalización. También pueden crearse en correos electrónicos desde un menú específico en el Designer de correo electrónico. Expanda las secciones siguientes para obtener más detalles.
 
-   +++Editor de Personalization
+   +++editor de Personalization
 
    1. Abra el editor de personalización y seleccione **[!UICONTROL Directiva de decisión]**.
    1. Haga clic en el botón **[!UICONTROL Agregar directiva de decisión]** para crear una directiva nueva.
@@ -138,7 +138,7 @@ Para presentar la mejor oferta dinámica y experiencia a los destinatarios y vis
 
    En el caso de los correos electrónicos, solo se pueden devolver varios elementos en un componente de contenido **[!UICONTROL Repetir cuadrícula]**. Expanda la sección siguiente para obtener más detalles:
 
-+++ Devolver varios elementos de decisión en correos electrónicos
+   +++ Devolver varios elementos de decisión en correos electrónicos
 
    1. Arrastre un componente **[!UICONTROL Cuadrícula repetida]** al lienzo y configúrelo como desee mediante el panel **[!UICONTROL Configuración]**.
 
@@ -150,7 +150,7 @@ Para presentar la mejor oferta dinámica y experiencia a los destinatarios y vis
 
    ![](assets/decision-policy-repeat-number.png)
 
-+++
+   +++
 
 1. Haga clic en **[!UICONTROL Next]**.
 
@@ -172,7 +172,7 @@ La sección **[!UICONTROL Secuencia de estrategia]** le permite seleccionar los 
 
 1. Al agregar varios elementos de decisión o estrategias, se evaluarán en un orden específico. El primer objeto añadido a la secuencia se evaluará primero, y así sucesivamente. Para cambiar la secuencia predeterminada, arrastre y suelte los objetos o los grupos para reordenarlos como desee. Expanda la sección siguiente para obtener más información.
 
-   +++Administrar el orden de evaluación en una directiva de decisión
+   +++Administrar el orden de evaluación en una política de decisión
 
    Una vez que haya agregado elementos de decisión y estrategias de selección a la directiva, puede organizar su orden para determinar el orden de evaluación y combinar estrategias de selección para evaluarlos juntos.
 
@@ -314,7 +314,7 @@ Ahora puede agregar todos los atributos de decisión que desee dentro de ese có
 >[!NOTE]
 >
 >Para el seguimiento de elementos de la directiva de decisión, el atributo `trackingToken` debe agregarse de la siguiente manera para el contenido de la directiva de decisión:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Haga clic en cada carpeta para expandirla. Coloque el cursor del ratón en la ubicación deseada y haga clic en el icono + situado junto al atributo que desee añadir. Puede agregar todos los atributos que desee al código.
 

@@ -7,7 +7,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
 >title="Actividad de enriquecimiento"
->abstract="La actividad de **enriquecimiento** permite mejorar los datos de destino con información adicional de la base de datos. Normalmente se utiliza en una campaña después de actividades de segmentación."
+>abstract="La actividad de **enriquecimiento** permite mejorar los datos de destino con información adicional de la base de datos. Normalmente, se utiliza en una campaña después de actividades de segmentación."
 
 La actividad **[!UICONTROL Enriquecimiento]** es una actividad de **[!UICONTROL Segmentación]** que le permite mejorar sus datos de público con atributos adicionales.
 
