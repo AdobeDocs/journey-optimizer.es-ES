@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5414f5a4c7bec643151f556375e0c58367d1c3bd
+source-git-commit: 6aac4c8aac9d1a7dbb3056b2e274927203ab6553
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1759'
 ht-degree: 65%
 
 ---
@@ -153,8 +153,8 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p><!--Journey Optimizer now empowers you with the tools to optimize your journeys by leveraging AI and experimentation frameworks while ensuring seamless usability and differentiation between condition and optimization functionalities.--></p>
-<p>Utilice la nueva actividad Optimizar para segmentar, experimentar o utilizar IA para determinar la secuencia de las comunicaciones, el tiempo entre ellas, las combinaciones de canales y cualquier cosa que pueda soñar en el lienzo del recorrido.</p>
+<p>Utilice el nuevo nodo Optimizar para dirigirse a audiencias específicas o ejecutar pruebas A/B para determinar la mejor ruta para satisfacer los KPI centrados en el negocio.</p>
+<p>Esta herramienta le permite probar y variar, así como personalizar las comunicaciones, la secuencia y el tiempo para llegar mejor a sus clientes.</p>
 <p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p><!--img src="assets/do-not-localize/optimize.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
