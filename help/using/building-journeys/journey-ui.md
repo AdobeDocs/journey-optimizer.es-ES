@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 13%
+source-wordcount: '1391'
+ht-degree: 11%
 
 ---
 
@@ -48,34 +48,57 @@ La ficha **[!UICONTROL Examinar]** muestra la lista de recorridos existentes. Pu
 
 ![Tablero de recorrido que resalta la ficha Examinar](assets/journeys-browse.png)
 
+En la lista de recorridos, todas las versiones del recorrido se muestran con el número de versión. Cuando busca un recorrido, las versiones más recientes aparecen en la parte superior de la lista la primera vez que se abre la aplicación. A continuación, puede definir la clasificación que desee y la aplicación la mantendrá como preferencia del usuario. La versión del recorrido también se muestra en la parte superior de la interfaz de la edición de recorrido, encima del lienzo. Más información acerca de [administración de versiones de recorrido](publishing-the-journey.md#journey-versions-journey-versions).
+
 ### calendario de Recorrido {#calendar}
 
 Además de la lista de recorridos, [!DNL Journey Optimizer] proporciona una vista de calendario de sus recorridos, lo que ofrece una representación visual clara de sus programaciones.
 
->[!AVAILABILITY]
->
->Actualmente, la vista de calendario solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para solicitar acceso, utilice [este formulario](https://forms.cloud.microsoft/r/FC49afuJVi){target="_blank"}.
->
->Esta función está en desarrollo activo. Agradecemos sus comentarios y solicitudes con el botón **[!UICONTROL Comentarios de Beta]** del menú superior.
-
-Para acceder a la vista de calendario, abre la lista de recorridos y haz clic en el icono ![calendario](assets/do-not-localize/timeline-icon.svg).
-
-El calendario muestra todos los recorridos programados para la semana actual. Utilice los botones de flecha encima del calendario para desplazarse entre semanas.
-
-![vista de calendario que muestra recorridos activos](assets/timeline-journeys.png)
-
 Representación de los recorridos:
 
-* De forma predeterminada, la cuadrícula del calendario muestra todos los recorridos activos y programados de la semana seleccionada. Las opciones de filtro adicionales pueden mostrar activaciones o activaciones completadas, detenidas y finalizadas.
+* De forma predeterminada, la cuadrícula muestra todos los recorridos activos y programados de la semana seleccionada. Las opciones de filtro adicionales pueden mostrar activaciones o activaciones completadas, detenidas y finalizadas.
 * No se muestran los recorridos de borrador ni los recorridos en el modo de prueba.
 * Los recorridos que abarcan varios días aparecen en la parte superior de la cuadrícula del calendario.
 * Si no se especifica ninguna hora de inicio, se utiliza la hora de activación manual más cercana para colocarla en el calendario.
 * Los recorridos se muestran como intervalos de tiempo de 1 hora, pero esto no refleja la hora real de envío o finalización.
 
-Para obtener más información sobre un recorrido, haga clic en su bloque visual para abrir y explorar sus detalles.
+Para desplazarse por el calendario de recorridos:
 
-En la lista de recorridos, todas las versiones del recorrido se muestran con el número de versión. Cuando busca un recorrido, las versiones más recientes aparecen en la parte superior de la lista la primera vez que se abre la aplicación. A continuación, puede definir la clasificación que desee y la aplicación la mantendrá como preferencia del usuario. La versión del recorrido también se muestra en la parte superior de la interfaz de la edición de recorrido, encima del lienzo. Más información acerca de [administración de versiones de recorrido](publishing-the-journey.md#journey-versions-journey-versions).
+1. Para acceder a la vista de calendario, abre la lista de recorridos y haz clic en el icono ![calendario](assets/do-not-localize/timeline-icon.svg).
 
+1. Utilice los botones de flecha o el selector de fecha situado encima del calendario para desplazarse entre semanas.
+
+   El calendario muestra todos los recorridos programados para la semana actual.
+
+   ![vista de calendario que muestra recorridos activos](assets/timeline-journeys.png)
+
+1. Haga clic en el icono ![engranaje](assets/do-not-localize/Smock_Gears_18_N.png) para alternar la visualización de elementos que abarcan varios días o semanas.
+
+   ![vista de calendario que muestra campañas en vivo](assets/journey-calendar-1.png)
+
+1. Haga clic en el icono ![agregar calendario](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) para administrar y agregar hasta tres calendarios externos.
+
+   ![vista de calendario que muestra calendarios externos](assets/journey-calendar-2.png)
+
+1. Arrastre y suelte sus archivos CSV que contienen nombres de eventos, fechas de inicio y fechas de finalización.
+
+   Los eventos cargados aparecen para todos los usuarios de la organización y se muestran en los calendarios de Recorrido y de campaña.
+
+   +++El formato CSV debe ser el siguiente:
+
+   | Columna1 | Columna2 | Columna3 |
+   |-|-|-|
+   | Nombre del evento | Fecha de inicio en formato mm/dd/aa | Fecha de finalización en formato mm/dd/aa |
+
+   +++
+
+1. Si es necesario, puede ocultar, mostrar o quitar los calendarios externos agregados.
+
+   ![vista de calendario que muestra calendarios externos](assets/journey-calendar-3.png)
+
+1. Para obtener más información sobre un recorrido, haga clic en su bloque visual para abrir y explorar sus detalles.
+
+   ![lista de campañas con el panel de información abierto](assets/journey-calendar-4.png)
 
 
 ## Filtrar sus recorridos {#journey-filter}
@@ -144,3 +167,19 @@ Para ello, siga los pasos a continuación:
    ![](assets/duplicate-jo2.png)
 
 1. El nuevo recorrido se crea y está disponible en la lista de recorridos.
+
+
+## Operaciones masivas {#bulk-operations}
+
+Desde la lista de recorridos, puede pausar varios recorridos **Live**. Para pausar un grupo de recorridos (_pausa masiva_), selecciónelos en la lista y haga clic en el botón **Pausar** de la barra azul en la parte inferior de la pantalla. El botón **Pausar** solo está disponible cuando se seleccionan **recorridos en vivo**.
+
+![Pausa masiva de dos recorridos activos desde la barra inferior](assets/bulk-pause-journeys.png)
+
+También puede reanudar uno o varios **recorridos pausados**. Para reanudar un grupo de recorridos (_reanudación masiva_), selecciónelos y haga clic en el botón **Reanudar** ubicado en la barra azul en la parte inferior de la pantalla. Tenga en cuenta que el botón **Reanudar** solo estará disponible cuando se seleccionen **recorridos en pausa**.
+
+[Más información sobre las recorridos de pausa/reanudación](journey-pause.md).
+
+>[!NOTE]
+>
+>Puede pausar/reanudar hasta 10 recorridos por operación.
+

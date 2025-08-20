@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b1de82a4fdba58880e21b114ec3d2b9c3c81df0c
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1907'
 ht-degree: 14%
 
 ---
@@ -51,6 +51,24 @@ Comience por definir los atributos estándar y personalizados del elemento de de
    >La prioridad es un tipo de datos entero. Todos los atributos que son tipos de datos enteros deben contener valores enteros (sin decimales).
 
 1. El campo **Etiquetas** le permite asignar etiquetas unificadas de Adobe Experience Platform a los elementos de decisión. Esto le permite clasificarlos fácilmente y mejorar la búsqueda. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
+
+1. Utilice fragmentos para agregar varios contenidos al elemento de decisión; por ejemplo, si desea mostrar contenido diferente para varios modelos de dispositivos móviles. [Más información sobre fragmentos](../content-management/fragments.md)
+
+   >[!AVAILABILITY]
+   >
+   >Actualmente, los fragmentos de elementos de decisión solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
+
+   En la sección **[!UICONTROL Fragmentos]**, seleccione los fragmentos publicados que desee usar y asígneles una clave de referencia. A continuación, puede aprovechar estos fragmentos en las políticas de decisión. [Descubra cómo](create-decision.md#fragments)
+
+   ![](assets/item-fragments.png){width=70%}
+
+   Solo puede seleccionar fragmentos publicados y agregar hasta seis fragmentos en un elemento de decisión.
+
+   >[!WARNING]
+   >
+   >Actualmente solo se admiten [fragmentos de expresión](../personalization/use-expression-fragments.md).
+   >
+   >No se pueden utilizar fragmentos anidados (fragmentos que hacen referencia a otros fragmentos). La [aprobación](#approve) del elemento de decisión fallará si agrega dicho fragmento.
 
 1. Especifique atributos personalizados (opcional). Los atributos personalizados son atributos específicos adaptados a sus necesidades que puede asignar a un elemento de decisión. Se definen en el esquema de catálogo de los elementos de decisión. [Aprenda a trabajar con catálogos](catalogs.md)
 
@@ -137,14 +155,16 @@ Para establecer reglas de límite para el elemento de decisión, haga clic en el
 
    ![](assets/item-capping-rules.png)
 
+<!--* Identifying how many times a given customer has been shown a decision item. 
+If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
+
+## Revisar y aprobar el elemento de decisión {#approve}
+
 1. Una vez definidas las reglas de elegibilidad y límite del elemento de decisión, haga clic en **[!UICONTROL Siguiente]** para revisar y guardar el elemento.
 
 1. El elemento de decisión aparece ahora en la lista, con el estado **[!UICONTROL Borrador]**. Cuando esté listo para ser presentado a los perfiles, haga clic en el botón de puntos suspensivos y seleccione **[!UICONTROL Aprobar]**.
 
    ![](assets/item-approve.png)
-
-<!--* Identifying how many times a given customer has been shown a decision item. 
-If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
 
 ## Administración de elementos de decisión {#manage}
 

@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expresión, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1560'
 ht-degree: 10%
 
 ---
@@ -30,7 +30,7 @@ En la interfaz del editor de personalización, puede seleccionar, organizar, per
 
 ![](assets/perso_ee1.png)
 
-## ¿Dónde puedo añadir la personalización?
+## ¿Dónde puedo añadir la personalización? {#where}
 
 Puede agregar personalización en **[!DNL Journey Optimizer]** en todos los campos con el icono ![agregar personalización](assets/do-not-localize/add-perso-icon.svg). Expanda las secciones siguientes para obtener más detalles.
 
@@ -44,7 +44,7 @@ También se puede añadir en otras secciones del contenido. Por ejemplo, para [n
 
 +++
 
-+++Email Designer
++++Diseñador de correos electrónicos
 
 Al editar el contenido del correo electrónico en [Email Designer](../email/get-started-email-design.md), puede añadir personalización en bloques de texto y en direcciones URL mediante el icono de la barra de herramientas contextual.
 
@@ -58,7 +58,7 @@ Puede agregar personalización al usar contenido de tipo texto en las representa
 
 +++
 
-+++direcciones URL
++++URL
 
 Journey Optimizer también le permite personalizar **URL** en su mensaje.  Las direcciones URL personalizadas llevan a los destinatarios a páginas específicas de un sitio web o a un micrositio personalizado, según los atributos del perfil. La personalización de URL está disponible para estos tipos de vínculos: **Vínculo externo**, **Vínculo de baja** y **Exclusión**.
 
@@ -76,6 +76,18 @@ URL personalizadas de ejemplo:
 >Al editar una URL personalizada en el editor de personalización, las funciones de ayuda y la pertenencia a audiencias se desactivan por motivos de seguridad.
 >
 >No se admiten espacios en los tokens de personalización utilizados dentro de las direcciones URL.
+
+En disponibilidad limitada, Journey Optimizer también admite la personalización completa/básica de direcciones URL. Por ejemplo:
+
+```
+<a href="{{profile.social.link}}" />
+<a href="{{profile.social.baseUrl}}/profile" />
+<a href="https://{{profile.social.baseUrl}}/profile" />
+```
+
+>[!WARNING]
+>
+>La lista de dominios aceptados debe proporcionarse a Adobe por adelantado.
 
 +++
 

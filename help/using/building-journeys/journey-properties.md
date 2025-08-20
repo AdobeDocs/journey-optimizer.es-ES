@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2733'
 ht-degree: 15%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propiedades del recorrido"
->abstract="Esta sección muestra las propiedades del recorrido. De forma predeterminada, los parámetros de solo lectura están ocultos. La configuración disponible depende del estado del recorrido, los permisos y la configuración del producto."
+>abstract="Esta sección muestra las propiedades del recorrido. De forma predeterminada, los parámetros de solo lectura están ocultos. La configuración disponible depende del estado del recorrido, de los permisos y de la configuración del producto."
 
 ## Acceso a las propiedades de un recorrido {#access-properties}
 
@@ -95,12 +95,12 @@ La zona horaria se define en el nivel de recorrido. Puede introducir una zona ho
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Fecha de inicio"
->abstract="Seleccione la fecha en la que los perfiles pueden empezar a entrar en el recorrido. Si no se establece ninguna fecha de inicio, el valor predeterminado es la fecha de publicación del recorrido."
+>abstract="Seleccione la fecha en la que los perfiles pueden empezar a entrar en el recorrido. Si no se establece ninguna fecha de inicio, la predeterminada es la fecha de publicación del recorrido."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
->title="Fecha final"
->abstract="Establezca la fecha en la que termina el recorrido. En esta fecha, los perfiles activos abandonan automáticamente la recorrido y no se permite una nueva entrada."
+>title="Fecha de finalización"
+>abstract="Establezca la fecha en la que termina el recorrido. En esta fecha, los perfiles activos saldrán automáticamente del recorrido y no se permitirán nuevas entradas."
 
 De forma predeterminada, los perfiles pueden entrar en el recorrido en cuanto se publique y pueden permanecer hasta que se alcance el [tiempo de espera de recorrido global](#global_timeout). La única excepción son los recorridos de lectura recurrentes con **Forzar reentrada en repetición** activada, que terminan en la fecha de inicio de la siguiente ocurrencia.
 
@@ -262,10 +262,10 @@ Para obtener más información sobre las políticas de combinación, consulte [D
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
->title="Criterios de salida del recorrido"
->abstract="En esta sección se muestran las opciones de criterios de salida. Puede crear una o varias reglas de criterios de salida para el recorrido."
+>title="Criterios de salida"
+>abstract="En esta sección se muestran las opciones de criterios de salida. Puede crear uno o varios filtros y reglas de criterios de salida para el recorrido."
 
-### Descripción {#exit-criteria-desc}
+### Recorrido Criterios de salida {#exit-criteria-desc}
 
 Al añadir criterios de salida, hace que los perfiles salgan del recorrido en cuanto se produce un evento (p. ej.: compra) o cumplen los requisitos para un público. Esto evitará que el usuario reciba más comunicaciones del recorrido.
 
@@ -275,7 +275,7 @@ Es posible que desee eliminar perfiles de un recorrido cuando ya no cumplan el p
 
 Un experto en marketing tiene un recorrido promocional que tiene una serie de comunicaciones. Cada una de estas comunicaciones tiene como objetivo impulsar al cliente a realizar una compra. Tan pronto como se realice la compra, el cliente no debe recibir el resto de los mensajes de la serie. Al definir un criterio de salida, los perfiles que hayan realizado una compra se eliminan de la recorrido.
 
-### Configuración y uso {#exit-criteria-config}
+#### Configuración y uso {#exit-criteria-config}
 
 Los criterios de salida se establecen en el nivel de recorrido. Un recorrido puede tener varios criterios de salida. Si ha establecido varios criterios de salida, la evaluación se realizará de arriba abajo con una lógica de `OR`. Por lo tanto, si tiene los criterios de salida A y B, se evaluará como A **O** B. Los criterios se evalúan en cada paso del recorrido.
 
@@ -296,12 +296,39 @@ Puede agregar varios criterios de salida.
 
 ![](assets/exitcriteria-sample.png){width="40%" align="left"}
 
-### Mecanismos de protección y limitaciones {#exit-criteria-guardrails}
 
-Las siguientes barreras y limitaciones se aplican a la capacidad de criterios de salida del recorrido:
+### Criterios de salida basados en atributos de perfil {#profile-exit-criteria}
+
+Los criterios de salida basados en atributos de perfil le proporcionan un mayor control sobre los recorridos en pausa, ya que le permiten definir reglas que quitan automáticamente perfiles específicos antes de que se reanude el recorrido. Puede establecer condiciones de salida basadas en atributos de perfil (como ubicación, estado o preferencias) para garantizar que solo los perfiles relevantes continúen en el recorrido después de reanudarlo.
+
+Por ejemplo, puede [pausar un recorrido](journey-pause.md), agregar una condición de salida para quitar todos los perfiles ubicados en Francia y reanudar el recorrido sabiendo que esos perfiles se excluirán en el siguiente paso de acción. Esta lógica se aplica tanto a los perfiles que ya están en la recorrido como a cualquier perfil nuevo que se califique después de que se reanude la recorrido.
+
+Esta función funciona junto con la funcionalidad Pausa/Reanudar, lo que le ayuda a administrar recorridos de forma más segura y flexible. Minimice la intervención manual, reduzca el riesgo de enviar comunicaciones irrelevantes o no conformes y mantenga la lógica de recorrido alineada con los requisitos comerciales actuales.
+
+Consulte esta sección para aprender a [usar criterios de salida de atributos de perfil en recorridos en pausa](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey).
+
+### Protecciones y limitaciones {#exit-criteria-guardrails}
+
+Las siguientes limitaciones y protecciones se aplican a la capacidad [Criterios de salida de Recorrido](#exit-criteria-desc):
 
 * Los criterios de salida solo se definen en estado de borrador
 * Recorrido de coherencia de área de nombres entre eventos y criterios de salida basados en eventos
+
+Se aplican las siguientes limitaciones al usar la capacidad [Criterios de salida basados en atributos de perfil](#profile-exit-criteria):
+
+* **Se aplican criterios de salida en el nivel de acción**\
+  Los criterios de salida de &quot;Atributo de perfil&quot; solo se evalúan en pasos de acción. A diferencia de otros tipos de criterios de salida, no se aplican globalmente en todo el recorrido.\
+  Si reanuda un recorrido y algunos perfiles cumplen la condición de salida, esos perfiles se excluyen en el siguiente nodo de acción.\
+  Los nuevos perfiles que entren en el recorrido después de reanudarlo también se evaluarán y excluirán en su primer nodo de acción, si cumplen la condición.
+
+* **Una regla de salida basada en perfiles por recorrido**\
+  Solo puede definir un criterio de salida de &quot;Atributo de perfil&quot; por recorrido. Esta limitación ayuda a mantener la claridad y evita conflictos en la lógica de recorrido.
+
+* **Solo disponible en recorridos pausados**\
+  Solo puede agregar o editar los criterios de salida del &quot;Atributo de perfil&quot; cuando el recorrido está en pausa.
+
+   * En un **recorrido de borrador**, la opción *Atributo de perfil* aparece deshabilitada (solo lectura), mientras que las opciones *Evento* y *Audiencia* permanecen activas.
+   * En un **recorrido pausado**, la opción *Atributo de perfil* se vuelve editable, y las opciones *Evento* y *Audiencia* se vuelven de solo lectura.
 
 ## programación de recorrido {#schedule}
 

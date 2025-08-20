@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2495'
-ht-degree: 12%
+source-wordcount: '2745'
+ht-degree: 11%
 
 ---
 
@@ -277,7 +277,7 @@ Puede editar o eliminar una directiva de decisión en cualquier momento mediante
 
 Una vez creada, la política de decisión y los atributos vinculados a los elementos de decisión devueltos se pueden utilizar en el contenido para personalizar el contenido. Para ello, siga estos pasos.
 
-### Inserción del código de política de decisión {#insert-code}
+### Inserción del código de la política de decisión {#insert-code}
 
 1. Abra el editor de personalización y acceda al menú **[!UICONTROL Directiva de decisión]**.
 
@@ -314,7 +314,7 @@ Ahora puede agregar todos los atributos de decisión que desee dentro de ese có
 >[!NOTE]
 >
 >Para el seguimiento de elementos de la directiva de decisión, el atributo `trackingToken` debe agregarse de la siguiente manera para el contenido de la directiva de decisión:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Haga clic en cada carpeta para expandirla. Coloque el cursor del ratón en la ubicación deseada y haga clic en el icono + situado junto al atributo que desee añadir. Puede agregar todos los atributos que desee al código.
 
@@ -327,6 +327,57 @@ Ahora puede agregar todos los atributos de decisión que desee dentro de ese có
 1. También puede añadir cualquier otro atributo disponible en el editor de personalización, como atributos de perfil.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
+
+### Aprovechamiento de fragmentos {#fragments}
+
+Si la política de decisión contiene elementos de decisión, incluidos fragmentos, puede aprovechar estos fragmentos en el código de la política de decisión. [Más información sobre fragmentos](../content-management/fragments.md)
+
+>[!AVAILABILITY]
+>
+>Actualmente, esta capacidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
+
+Por ejemplo, supongamos que desea mostrar contenido diferente para varios modelos de dispositivos móviles. Asegúrese de agregar los fragmentos correspondientes a esos dispositivos al elemento de decisión que está utilizando en la directiva de decisión. [Más información](items.md#attributes).
+
+![](assets/item-fragments.png){width=70%}
+
+Una vez finalizado, puede utilizar cualquiera de los siguientes métodos:
+
+>[!BEGINTABS]
+
+>[!TAB Inserte directamente el código]
+
+Simplemente copie y pegue el bloque de código siguiente en el código de la política de decisión. Reemplace `variable` por el ID de fragmento y `placement` por la clave de referencia de fragmento:
+
+```
+{% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
+{{fragment id = variable}}
+```
+
+>[!TAB Siga los pasos detallados]
+
+1. Vaya a las **[!UICONTROL funciones de ayuda]** y agregue la función **Permitir** `{% let variable = expression %} {{variable}}` al panel de código, donde puede declarar la variable para el fragmento.
+
+   ![](assets/decision-let-function.png)
+
+1. Use la función **Map** > **Get** `{%= get(map, string) %}` para generar su expresión. El mapa es el fragmento al que se hace referencia en el elemento de decisión y la cadena puede ser el modelo de dispositivo que especificó en el elemento de decisión como **[!UICONTROL clave de referencia de fragmento]**.
+
+   ![](assets/decision-map-function.png)
+
+1. También puede utilizar un atributo contextual que contenga este ID de modelo de dispositivo.
+
+   ![](assets/decision-contextual-attribute.png)
+
+1. Agregue la variable que eligió para el fragmento como ID de este.
+
+   ![](assets/decision-fragment-id.png)
+
+>[!ENDTABS]
+
+El ID de fragmento y la clave de referencia se seleccionarán de la sección **[!UICONTROL Fragmentos]** del elemento de decisión.
+
+>[!WARNING]
+>
+>Si la clave del fragmento es incorrecta o si el contenido del fragmento no es válido, el procesamiento fallará y provocará un error en la llamada de Edge.
 
 ## Pasos finales {#final-steps}
 

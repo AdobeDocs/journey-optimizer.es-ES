@@ -10,16 +10,18 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 16%
+source-wordcount: '348'
+ht-degree: 13%
 
 ---
 
 # Programación de la campaña de acción {#action-campaign-schedule}
 
 Use la ficha **[!UICONTROL Programación]** para definir la programación de la campaña.
+
+## Establecer fechas de inicio y finalización
 
 De forma predeterminada, las campañas de acción se inician una vez que se activan manualmente y finalizan en cuanto se envía el mensaje una vez. Si no desea ejecutar la campaña justo después de su activación, puede especificar una fecha y una hora a las que se debe enviar el mensaje mediante la opción **[!UICONTROL Inicio de campaña]**.
 
@@ -31,15 +33,25 @@ La opción **[!UICONTROL Fin de campaña]** le permite especificar cuándo debe 
 >
 >Al programar campañas en [!DNL Adobe Journey Optimizer], asegúrese de que la fecha y la hora de inicio se ajusten al primer envío deseado. En el caso de las campañas recurrentes, si ya ha pasado la hora programada inicial, las campañas se transferirán a la siguiente franja horaria disponible según sus reglas de periodicidad.
 
-Hay opciones de programación adicionales disponibles en función del canal de campaña:
+## Establecer control de velocidad
 
-* **Frecuencia** (correo electrónico, SMS, acción push)
+[!DNL Journey Optimizer] le permite habilitar el control de velocidad para acciones salientes (correo electrónico, SMS, notificaciones push).
 
-  Puede definir una frecuencia con la que se debe enviar el mensaje de la campaña. Para ello, usa las opciones **[!UICONTROL déclencheur de acción]** en la pantalla de creación de campañas para especificar si la campaña se debe ejecutar diaria, semanal o mensualmente.
+Esta función es especialmente útil para evitar sobrecargas en sistemas descendentes, como páginas de aterrizaje o plataformas de servicio de atención al cliente. Por ejemplo, puede establecer un límite de velocidad de 165 mensajes por segundo para garantizar un envío constante sin saturar a los sistemas descendentes.
 
-* **Activación del plan de calentamiento de IP** (Correo electrónico)
+Para establecer el control de tarifa, habilite la opción **[!UICONTROL Entrega acelerada]** en la sección **[!UICONTROL Configuración de entrega]** y especifique la **[!UICONTROL tarifa de entrega]** que desee.
 
-  Para las campañas de correo electrónico, puede crear campañas de activación de planes de calentamiento de IP específicas. La programación de campaña se basa en el plan de calentamiento de IP con el que está asociado, lo que significa que la programación ya no está definida en la propia campaña. [Aprenda a crear campañas de calentamiento de IP](../configuration/ip-warmup-campaign.md).
+![](assets/throttling-rate-control.png)
+
+## Establecer una frecuencia de ejecución
+
+Para las acciones de correo electrónico, SMS y notificaciones push, puede definir una frecuencia a la que se debe enviar el mensaje de la campaña. Para ello, usa las opciones **[!UICONTROL déclencheur de acción]** en la pantalla de creación de campañas para especificar si la campaña se debe ejecutar diaria, semanal o mensualmente.
+
+![](assets/action-triggers.png)
+
+## Establecer planes de calentamiento de IP
+
+Para las acciones de correo electrónico, puede crear campañas de activación de planes de calentamiento de IP específicas. La programación de campaña se basa en el plan de calentamiento de IP con el que está asociado, lo que significa que la programación ya no está definida en la propia campaña. [Aprenda a crear campañas de calentamiento de IP](../configuration/ip-warmup-campaign.md).
 
 ## Próximos pasos {#next}
 

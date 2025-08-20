@@ -6,13 +6,12 @@ description: Aprenda a pausar y reanudar un recorrido en directo
 feature: Journeys
 role: User
 level: Intermediate
-badge: label="Disponibilidad limitada" type="Informative"
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 9db476ff5b693bef91e982502c6dd37321610fc7
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2169'
-ht-degree: 7%
+source-wordcount: '2225'
+ht-degree: 6%
 
 ---
 
@@ -23,11 +22,8 @@ ht-degree: 7%
 >title="Pause su recorrido"
 >abstract="Ponga en pausa un recorrido activo para evitar que entren nuevos perfiles. Pause un recorrido activo para evitar que entren nuevos perfiles. Si se conservan, se reanudará su ejecución en la siguiente actividad de acción una vez que se reinicie el recorrido. Es perfecto para actualizaciones o paradas de emergencia sin perder progreso."
 
-Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puede [aplicar filtros globales](#journey-global-filters) para excluir perfiles en función de sus atributos. El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
+Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puede [aplicar criterios de salida de atributo de perfil](#journey-global-filters) para excluir perfiles en función de sus atributos. El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
 
->[!AVAILABILITY]
->
->Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una futura versión.
 
 
 ## Ventajas principales {#journey-pause-benefits}
@@ -65,11 +61,15 @@ Para pausar el recorrido, siga estos pasos:
 
 1. Haga clic en el botón **Pausar** para confirmar.
 
+El número máximo de perfiles que se pueden mantener en recorridos pausados para la organización es visible en el inventario de recorridos. Solo está visible cuando hay al menos un recorrido en pausa. Este indicador también muestra el número total de recorridos en pausa. Se actualiza cada 30 minutos. Obtenga más información en [Protecciones y limitaciones](#guardrails-and-limitations).
+
+![Número de recorridos y perfiles en pausa actualmente](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
+
 Desde la lista de recorridos, puede pausar uno o varios recorridos **Live**. Para pausar un grupo de recorridos (_pausa masiva_), selecciónelos en la lista y haga clic en el botón **Pausar** de la barra azul en la parte inferior de la pantalla. El botón **Pausar** solo está disponible cuando se seleccionan **recorridos en vivo**.
 
 ![Pausa masiva de dos recorridos activos desde la barra inferior](assets/bulk-pause-journeys.png)
 
-### Comportamiento en recorridos pausados
+## Lógica de ejecución de recorridos en pausa {#journey-pause-exec}
 
 Cuando un recorrido está en pausa, las entradas nuevas siempre se descartan, independientemente del modo Mantener/Descartar.
 
@@ -113,23 +113,23 @@ Para reanudar un recorrido en pausa y comenzar a escuchar eventos de recorrido d
 Desde la lista de sus recorridos, puede reanudar uno o varios **recorridos pausados**. Para reanudar un grupo de recorridos (_reanudación masiva_), selecciónelos y haga clic en el botón **Reanudar** ubicado en la barra azul en la parte inferior de la pantalla. Tenga en cuenta que el botón **Reanudar** solo estará disponible cuando se seleccionen **recorridos en pausa**.
 
 
-## Aplicación de un filtro global a perfiles en un recorrido pausado {#journey-global-filters}
+## Aplicar criterios de salida en un recorrido pausado {#journey-global-filters}
 
-Cuando un recorrido está en pausa, puede aplicar un filtro global basado en atributos de perfil. Este filtro habilita la exclusión de perfiles que coinciden con la expresión definida en el momento de la reanudación. Una vez establecido el filtro global, se aplicará en los nodos de acción, incluso para la entrada de nuevos perfiles. Los perfiles existentes que coincidan con los criterios y los nuevos perfiles que entren en la recorrido se excluirán de la recorrido **en el siguiente nodo de acción** que encuentren.
+Cuando un recorrido está en pausa, se puede aplicar un criterio de salida basado en atributos de perfil. Este filtro habilita la exclusión de perfiles que coinciden con la expresión definida en el momento de la reanudación. Una vez definidos los criterios de salida basados en atributos de perfil, se aplicarán en los nodos de acción, incluso para la entrada de nuevos perfiles. Los perfiles existentes que coincidan con los criterios y los nuevos perfiles que entren en la recorrido se excluirán de la recorrido **en el siguiente nodo de acción** que encuentren.
 
 Por ejemplo, para excluir todos los clientes franceses de un recorrido en pausa, siga estos pasos:
 
 1. Desplácese hasta el recorrido en pausa que desee modificar.
 
-1. Seleccione el icono **Criterios de salida y filtro global**.
+1. Seleccione el icono **Criterios de salida**.
 
-   ![Agregar un filtro global a un recorrido en pausa](assets/add-global-filter.png)
+   ![Agregar un atributo de perfil a un recorrido en pausa](assets/add-global-filter.png)
 
-1. En la configuración de **Criterios de salida y filtro global**, haga clic en **Agregar filtro global** para definir un filtro basado en atributos de perfil.
+1. En la configuración de **Criterios de salida**, haga clic en **Agregar criterios de salida** para definir un filtro basado en atributos de perfil.
 
 1. Establezca la expresión para excluir perfiles donde el atributo de país sea igual a Francia.
 
-   ![Agregar un filtro global a un recorrido en pausa](assets/add-country-filter.png)
+   ![Agregar un atributo de perfil a un recorrido en pausa](assets/add-country-filter.png)
 
 1. Guarde el filtro y haga clic en el botón **Actualizar recorrido** para aplicar los cambios.
 
@@ -137,15 +137,17 @@ Por ejemplo, para excluir todos los clientes franceses de un recorrido en pausa,
 
    En el momento de la reanudación, todos los perfiles con el atributo de país establecido en Francia se excluirán automáticamente del recorrido en el siguiente nodo de acción. Cualquier nuevo perfil con el atributo de país establecido en Francia que intente entrar en el recorrido también se bloqueará en el siguiente nodo de acción.
 
-Tenga en cuenta que las exclusiones de perfiles para perfiles que se encuentran actualmente en la recorrido y para perfiles nuevos solo se producirán cuando lleguen a un nodo de acción.
+Tenga en cuenta que las exclusiones de perfiles para perfiles que se encuentran actualmente en la recorrido y para perfiles nuevos solo se producirán **cuando lleguen a un nodo de acción**.
 
 >[!CAUTION]
 >
->* Solo puede establecer **un** filtro global por recorrido.
+>* Solo puede establecer **un** criterio de salida basado en atributos de perfil por recorrido.
 >
->* Solo puede crear, actualizar o eliminar un filtro global en **recorridos pausados**.
+>* Solo puede crear, actualizar o eliminar criterios de salida basados en atributos de perfil en **recorridos pausados**.
+>
+>* Obtenga más información acerca de los criterios de salida basados en atributos de perfil [en esta sección](journey-properties.md#profile-exit-criteria).
 
-## Mecanismos de protección y limitaciones {#journey-pause-guardrails}
+## Protecciones y limitaciones {#journey-pause-guardrails}
 
 * Una versión de recorrido se puede pausar por un máximo de **14 días**, con un máximo de **10 millones de perfiles** permitidos en recorridos pausados en toda la organización.
 Este límite se comprueba cada 30 minutos. Esto significa que puede superar temporalmente el umbral de 10 millones, pero una vez que el sistema lo detecte, los perfiles adicionales se descartarán automáticamente.
@@ -169,7 +171,8 @@ Este límite se comprueba cada 30 minutos. Esto significa que puede superar temp
    * Descartar eventos empresariales de **Leer audiencia**
    * Se han eliminado **leer audiencia** trabajos debido a un recorrido pausado
    * Se descartaron eventos cuando la actividad **Event** era posterior a una acción en la que el perfil estaba esperando
-     <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
+
+
 
 ## Muestra de extremo a extremo {#journey-pause-sample}
 

@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 19%
+source-wordcount: '1548'
+ht-degree: 18%
 
 ---
 
@@ -140,16 +140,6 @@ Cuando se produce un error en una de las campañas, aparece un icono de adverten
 
 Además de la lista de campañas, [!DNL Journey Optimizer] proporciona una vista de calendario de sus campañas, lo que ofrece una representación visual clara de sus programaciones.
 
->[!AVAILABILITY]
->
->Actualmente, la vista de calendario solo está disponible para campañas activadas por acciones y API para un conjunto de organizaciones (disponibilidad limitada). Para solicitar acceso, utilice [este formulario](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
->
->Esta función está en desarrollo activo. Agradecemos sus comentarios y solicitudes con el botón **[!UICONTROL Comentarios de Beta]** del menú superior.
-
-El calendario muestra todas las campañas programadas para la semana actual. Utilice los botones de flecha encima del calendario para desplazarse entre semanas.
-
-![vista de calendario que muestra campañas en vivo](assets/campaigns-timeline.png)
-
 Representación de las campañas:
 
 * De forma predeterminada, la cuadrícula del calendario muestra todas las campañas en directo y programadas de la semana seleccionada. Las opciones de filtro adicionales pueden mostrar activaciones o activaciones completadas, detenidas y finalizadas de un tipo o canal determinado.
@@ -158,11 +148,43 @@ Representación de las campañas:
 * Si no se especifica ninguna hora de inicio, se utiliza la hora de activación manual más cercana para colocarla en el calendario.
 * Las campañas se muestran como intervalos de tiempo de 1 hora, pero esto no refleja la hora de envío o finalización real.
 
-Para obtener más información sobre una campaña, haga clic en su bloque visual para abrir los detalles.
+Para navegar en el calendario de campañas:
 
-Para ver los detalles de una campaña específica, selecciónela en la lista. Se abrirá un panel de información con información diversa sobre la campaña, como su tipo, el acceso a los informes o las etiquetas asignadas.
+1. Haga clic en el icono ![calendario](assets/do-not-localize/Smock_Calendar_18_N.svg) para acceder a su calendario de campañas.
 
-![lista de campañas con el panel de información abierto](assets/campaign-rail.png)
+1. Utilice los botones de flecha o el selector de fecha situado encima del calendario para desplazarse entre semanas.
+
+   El calendario muestra todas las campañas programadas para la semana actual.
+
+   ![vista de calendario que muestra campañas en vivo](assets/campaigns-timeline.png)
+
+1. Haga clic en el icono ![engranaje](assets/do-not-localize/Smock_Gears_18_N.png) para alternar la visualización de elementos que abarcan varios días o semanas.
+
+   ![vista de calendario que muestra campañas en vivo](assets/campaign-long-term.png)
+
+1. Haga clic en el icono ![agregar calendario](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) para administrar y agregar hasta tres calendarios externos.
+
+   ![vista de calendario que muestra calendarios externos](assets/campaign-external-calendar.png)
+
+1. Arrastre y suelte sus archivos CSV que contienen nombres de eventos, fechas de inicio y fechas de finalización.
+
+   Los eventos cargados aparecen para todos los usuarios de la organización y se muestran en los calendarios de Recorrido y de campaña.
+
+   +++El formato CSV debe ser el siguiente:
+
+   | Columna1 | Columna2 | Columna3 |
+   |-|-|-|
+   | Nombre del evento | Fecha de inicio en formato mm/dd/aa | Fecha de finalización en formato mm/dd/aa |
+
+   +++
+
+1. Si es necesario, puede ocultar, mostrar o quitar los calendarios externos agregados.
+
+   ![vista de calendario que muestra calendarios externos](assets/campaign-manage-calendar.png)
+
+1. Para obtener más información sobre una campaña, haga clic en su bloque visual para abrir los detalles. Se abrirá un panel de información con información diversa sobre la campaña, como su tipo, el acceso a los informes o las etiquetas asignadas.
+
+   ![lista de campañas con el panel de información abierto](assets/campaign-rail.png)
 
 ## Modificación y detención de campañas de acción recurrentes {#modify}
 

@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2881'
+source-wordcount: '2887'
 ht-degree: 99%
 
 ---
@@ -312,6 +312,7 @@ ht-degree: 99%
             + [Codifique su propio contenido](using/email/code-content.md)
             + [Uso de plantillas de correo electrónico](using/email/use-email-templates.md)
             + [Aprovechar temas de correo electrónico](using/email/apply-email-themes.md)
+            + [Adjuntar archivos PDF a los correos electrónicos](using/email/pdf-attachments.md)
          + Diseño del contenido {#add-content}
             + [Diseño del contenido](/help/rp_landing_pages/add-content-landing-page.md)
             + [Uso de componentes del contenido](using/email/content-components.md)

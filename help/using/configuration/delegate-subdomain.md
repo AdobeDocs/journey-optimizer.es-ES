@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdominio, delegación, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1906'
+source-wordcount: '1891'
 ht-degree: 18%
 
 ---
@@ -176,11 +176,10 @@ Para configurar un subdominio mediante CNAME, siga los pasos a continuación.
 Para completar la delegación de subdominios, siga los pasos a continuación.
 
 1. Haga clic en **[!UICONTROL Enviar]**.
-
-   >[!NOTE]
-   >
-   >Si se produce un error al intentar enviar un subdominio personalizado, consulte [esta sección](#check-list).
-
+<!--
+    >[!NOTE]
+    >
+    >If an error occurs while trying to submit a custom subdomain, refer to [this section](delegate-custom-subdomain.md#check-list).-->
 
 1. Puede crear los registros y enviar la configuración del subdominio más adelante utilizando el botón **[!UICONTROL Guardar como borrador]**.
 

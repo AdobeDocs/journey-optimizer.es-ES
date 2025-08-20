@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: ht
-source-wordcount: '1681'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1750'
+ht-degree: 94%
 
 ---
 
@@ -179,15 +179,19 @@ En cada página, utilice los botones de ayuda contextual para obtener más infor
 ![](assets/do-not-localize/Context-help.gif)
 
 
-## Alertas en el producto
+## Notificaciones en el producto {#in-product-notifications}
 
-Puede suscribirse a **alertas por correo electrónico y en el producto** para las versiones de productos de Journey Optimizer.
+Puede habilitar **alertas en el producto y por correo electrónico** para recibir notificaciones sobre varios eventos que puedan ser de su interés: errores detectados por el sistema, solicitudes de aprobación o [!DNL Journey Optimizer] versiones de productos.
 
-Para suscribirse:
+Para habilitar estas notificaciones, siga los pasos a continuación.
 
-1. Vaya a **Preferencias de Adobe Experience Cloud**.
-1. En **Notificaciones**, busque **Nuevas versiones de Journey Optimizer**.
-1. Habilite las notificaciones in-app y por correo electrónico.
+1. Vaya a [!DNL Adobe Experience Cloud] **[!UICONTROL Preferencias]**.
+1. En **[!UICONTROL Notificaciones]**, busque **[!UICONTROL Journey Optimizer]**.
+1. Habilite las notificaciones en la aplicación o por correo electrónico según desee:
+
+   * **[!UICONTROL Alertas]**: cuando se produce un error, puede obtener notificaciones del sistema para las alertas a las que está suscrito. [Más información](../reports/alerts.md)
+   * **[!UICONTROL Aprobaciones]**: Se le notifica cuando alguien le solicita que apruebe un objeto o que acceda a un objeto.
+   * **[!UICONTROL Nuevas versiones]**: se le ha informado de las nuevas versiones de [!DNL Journey Optimizer] productos.
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
