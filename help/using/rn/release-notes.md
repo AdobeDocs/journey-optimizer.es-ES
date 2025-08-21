@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: eefc6cd7804a14e289d2f1aa3a136f3e6215852c
 workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 62%
+ht-degree: 77%
 
 ---
 
@@ -195,7 +195,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <p>Ahora puede adjuntar un archivo PDF estático a un mensaje de correo electrónico enviado con Journey Optimizer.</p>
 <ul>
 <li>Puede enviar hasta 6 mensajes con un archivo adjunto de PDF por perfil y año.</li>
-<li>El tamaño máximo de archivo permitido para cada archivo adjunto es 5 MB.</li>
+<li>El tamaño máximo para cada archivo adjunto es 5 MB.</li>
 <li>Para cualquier tamaño o volumen adicional, puede adquirir un complemento de paquete de archivos adjuntos. Para obtener más información, póngase en contacto con su representante de Adobe.</li>
 </ul>
 <p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
@@ -266,7 +266,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
    * **Control de tarifas en campañas salientes**: ahora puede habilitar el control de tarifas para campañas salientes (correo electrónico, SMS, notificaciones push), lo que le permite evitar sobrecargas en sistemas descendentes, como páginas de aterrizaje o plataformas de atención al cliente. [Más información](../campaigns/campaign-schedule.md#rate-control)
 
-   * **Programación de campañas de acción** - Los programadores diarios, semanales y mensuales de la campaña se han actualizado para proporcionar un control más detallado sobre las programaciones recurrentes:
+   * **Programación de campañas de acción**. Los programadores diarios, semanales y mensuales de la campaña se han actualizado para proporcionar un control más detallado sobre las programaciones recurrentes:
 
       * **Periodicidad semanal**: ahora puede elegir repetir la campaña cada semana o cada dos semanas y seleccionar los días de la semana en que debería ejecutarse.
 
@@ -310,7 +310,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
    * **Operaciones masivas de recorridos**: en su lista de recorridos, ahora puede seleccionar varios elementos. Una vez seleccionados, puede pausar o reanudar hasta 10 recorridos a la vez.
 
-   * **Compatibilidad con redireccionamiento (302) en acciones personalizadas**: ahora las acciones personalizadas pueden administrar redireccionamientos HTTP 302 por solicitud. Esto permite a los recorridos integrarse con API que redirigen las solicitudes a direcciones URL localizadas o específicas de la región. Las redirecciones se siguen automáticamente, lo que garantiza que el contenido correcto se envíe sin configuración adicional.
+   * **Compatibilidad con redireccionamiento (302) en acciones personalizadas**: ahora las acciones personalizadas pueden administrar redireccionamientos HTTP 302 por cada solicitud. Esto permite a los recorridos integrarse con API que redirigen las solicitudes a direcciones URL localizadas o específicas de la región. Las redirecciones se siguen automáticamente, lo que garantiza que el contenido correcto se envíe sin configuración adicional.
 
 * **Conjuntos de datos**
 

@@ -227,7 +227,7 @@ ht-degree: 99%
       + [Activación de la ejecución de la campaña](using/campaigns/trigger-campaigns.md)
    + Campañas orquestadas {#orchestrated-campaigns}
       + [Campañas orquestadas](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
-      + [Empezar con las campañas orquestadas](using/orchestrated/gs-orchestrated-campaigns.md)
+      + [Introducción a las campañas orquestadas](using/orchestrated/gs-orchestrated-campaigns.md)
       + [Protecciones y limitaciones](using/orchestrated/guardrails.md)
       + [Preguntas frecuentes](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configuración de datos {#data-configuration}
@@ -891,7 +891,7 @@ ht-degree: 99%
       + [Lista de permitidos](using/configuration/allow-list.md)
    + [Uso de listas semilla](using/configuration/seed-lists.md)
    + [Asistencia para el archivado](using/configuration/archiving-support.md)
-   + [Exportación del contenido del mensaje](using/configuration/message-export.md)
+   + [Exportar contenido del mensaje](using/configuration/message-export.md)
    + [Cambio de direcciones de ejecución](using/configuration/primary-email-addresses.md)
    + [Configurar reglas empresariales](using/configuration/frequency-rules.md)
 + Configuración de recorrido {#configure-journeys}
