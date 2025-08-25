@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Añadir una acción de canal integrada a un recorrido
-description: Aprenda a añadir una acción de canal integrada a un recorrido
+title: Uso de la actividad recorrido de acción
+description: Aprenda a añadir una actividad de acción genérica para configurar acciones únicas y grupos de acciones entrantes de varias acciones dentro del lienzo de recorrido.
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: e74074702c82ede09dc311a16e0f67a84b931fa2
+source-git-commit: 6ca732dc6f784897d76dabb605e398497b2ffdd6
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '991'
 ht-degree: 17%
 
 ---
