@@ -34,7 +34,7 @@ Para insertar un vínculo de baja en el contenido del correo electrónico, puede
 
 Cuando un destinatario hace clic en el vínculo de no participación, su solicitud de cancelación de suscripción se procesa en consecuencia.
 
-Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y [busque ese perfil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). En la ficha **[!UICONTROL Atributos]**, puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y [busque ese perfil](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide#attributes-tab). En la ficha **[!UICONTROL Atributos]**, puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 

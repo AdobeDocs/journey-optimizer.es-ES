@@ -82,13 +82,13 @@ Primero, puede exportar una plantilla de HTML [!DNL Journey Optimizer] que inclu
 
    >[!NOTE]
    >
-   >Aprenda a cargar una plantilla de HTML en [!DNL GenStudio] en la sección [Guía del usuario de Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"} dedicada.
+   >Aprenda a cargar una plantilla de HTML en [!DNL GenStudio] en la sección [Guía del usuario de Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"} dedicada.
 
 1. En GenStudio, utilice esta plantilla para crear varias variaciones de correo electrónico con peticiones de datos de IA y guardarlas.
 
    >[!NOTE]
    >
-   >Aprenda a crear experiencias de correo electrónico en la [sección](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} de GenStudio.
+   >Aprenda a crear experiencias de correo electrónico en la [sección](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} de GenStudio.
 
 ### Aprovechamiento de las experiencias de GenStudio en Journey Optimizer {#leverage-genstudio-experiences}
 

@@ -134,7 +134,7 @@ El límite de frecuencia diaria es válido para el día hasta el 23:59:59 UTC y 
 
 >[!NOTE]
 >
->Para garantizar la precisión de las reglas diarias de restricción de frecuencia, se recomienda el uso de [segmentación de transmisión](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}. Obtenga más información acerca de los métodos de evaluación de audiencia en [esta sección](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Para garantizar la precisión de las reglas diarias de restricción de frecuencia, se recomienda el uso de [segmentación de transmisión](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=es){target="_blank"}. Obtenga más información acerca de los métodos de evaluación de audiencia en [esta sección](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Activar una regla de negocio {#activate-rule}
 
