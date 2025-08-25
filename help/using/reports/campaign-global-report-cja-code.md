@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -156,6 +156,10 @@ Las métricas clave mostradas incluyen:
 * **[!UICONTROL Clics]**: número total de veces que los usuarios hicieron clic en experiencias personalizadas que se les mostraron.
 
 * **[!UICONTROL Tasa de conversión]**: porcentaje de visualizaciones que dieron como resultado acciones del usuario (por ejemplo, clics), que indican el éxito del modelo en la participación de usuarios.
+
+>[!NOTE]
+>
+>Actualmente, el informe [Medición de alza](../experience-decisioning/ranking/auto-optimization-model.md#lift) solo está disponible para el modelo de IA de [Optimización personalizada](../experience-decisioning/ranking/personalized-optimization-model.md). Si necesita informes de medición de alza, utilice el modelo de optimización personalizada en su lugar.
 
 ### Tasa de conversión para tráfico Holdout y conducido por modelo {#conversion-rate}
 
