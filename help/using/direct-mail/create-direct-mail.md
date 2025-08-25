@@ -68,7 +68,7 @@ Ahora puede empezar a configurar el archivo de extracción para enviarlo a su pr
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="Campos de datos"
->abstract="Añada y configure las columnas y la información que desea mostrar en el archivo de extracción requerido por los proveedores de correo postal para enviar correo a sus clientes. Se pueden agregar hasta 50 columnas."
+>abstract="Añada y configure las columnas y la información que desea mostrar en el archivo de extracción requerido por los proveedores de correo directo para enviar correo a sus clientes. Se pueden agregar hasta 50 columnas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
