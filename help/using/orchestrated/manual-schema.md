@@ -4,9 +4,9 @@ product: journey optimizer
 title: Pasos de configuración
 description: Aprenda a crear esquemas relacionales directamente a través de la interfaz de usuario.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '853'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ Cualquier esquema utilizado para la segmentación debe incluir al menos un campo
 
    En este ejemplo, agregamos los atributos detallados en la tabla siguiente al esquema **Pertenencias de fidelización**.
 
-+++ Ejemplos de atributos
+   +++ Ejemplos de atributos
 
    | Nombre del atributo | Tipo de datos | Atributos adicionales |
    |-|-|-|
@@ -92,7 +92,7 @@ Cualquier esquema utilizado para la segmentación debe incluir al menos un campo
    | is_active | BOOLEANO | Requerido |
    | última modificación | DATETIME | Requerido |
 
-+++
+   +++ 
 
 1. Asigne los campos apropiados como **[!UICONTROL Clave principal]** y **[!UICONTROL Descriptor de versión]**.
 
@@ -100,7 +100,7 @@ Cualquier esquema utilizado para la segmentación debe incluir al menos un campo
 
    * Al menos una clave principal
    * Un identificador de versión, como un campo de tipo `lastmodified`, `datetime` o `number`.
-   * Para la ingesta de Change Data Capture (CDC), una columna especial denominada `_change_request_type` de tipo `String`, que indica el tipo de cambio de datos (por ejemplo, insertar, actualizar, eliminar) y habilita el procesamiento incremental.
+   * Para la ingesta de Change Data Capture (CDC), una columna especial denominada `_change_request_type` de tipo `String`, que indica el tipo de cambio de datos (por ejemplo, insertar, actualizar, eliminar) y habilita el procesamiento incremental. Tenga en cuenta que `_change_request_type` no debe formar parte del esquema de tabla, solo debe agregarse al archivo de datos durante la ingesta.
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 

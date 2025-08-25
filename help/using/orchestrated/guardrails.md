@@ -4,7 +4,7 @@ product: journey optimizer
 title: Limitaciones y protecciones de campañas organizadas
 description: Obtenga información acerca de las limitaciones y protecciones de campañas orquestadas
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 ---
 
 
-# Mecanismos de protección y limitaciones {#guardrails}
+# Protecciones y limitaciones {#guardrails}
 
 A continuación, encontrará limitaciones y protecciones adicionales al utilizar campañas orquestadas.
 
@@ -36,7 +36,7 @@ A continuación, encontrará limitaciones y protecciones adicionales al utilizar
 
 * Toda la ingesta debe realizarse a través de **Cambiar captura de datos** orígenes:
 
-   * Para **basado en archivos**: se requiere el campo `change_type`.
+   * Para **basado en archivos**: se requiere el campo `_change_request_type`.
 
    * Para **basado en la nube**: debe habilitarse el registro de tablas.
 
