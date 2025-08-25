@@ -12,7 +12,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -40,7 +40,7 @@ Por ejemplo, una práctica recomendada es tener un grupo de IP para los mensajes
 >
 >La configuración del grupo de IP es común a todos los entornos. Por lo tanto, cualquier creación o edición de grupo de IP también afectará a las zonas protegidas de producción.
 
-## Crear un grupo de IP {#create-ip-pool}
+## Creación de un grupo de IP {#create-ip-pool}
 
 Para crear un grupo de IP, siga estos pasos:
 

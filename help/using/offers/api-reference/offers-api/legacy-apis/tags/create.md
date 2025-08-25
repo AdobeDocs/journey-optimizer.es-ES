@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # Creación de un cualificador de colección {#create-tag}
 
-Puede crear un calificador de recopilación (anteriormente conocido como &quot;etiqueta&quot;) realizando una solicitud de POST a la API [!DNL Offer Library], al mismo tiempo que proporciona su ID de contenedor.
+Puede crear un calificador de recopilación (anteriormente conocido como &quot;etiqueta&quot;) realizando una petición POST a la API [!DNL Offer Library], al mismo tiempo que proporciona su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 

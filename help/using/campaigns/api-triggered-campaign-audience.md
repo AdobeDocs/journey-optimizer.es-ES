@@ -7,13 +7,13 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 1%
 
 ---
-
 
 # Defina la audiencia de campaña activada por API {#api-audience}
 
@@ -33,7 +33,7 @@ Utilice la ficha **[!UICONTROL Audiencia]** para definir la audiencia de la camp
 
 1. **Seleccionar el tipo de identidad**
 
-   En el campo **[!UICONTROL Tipo de identidad]**, elija el tipo de clave que desea usar para identificar a los individuos de la audiencia seleccionada. Puede utilizar un tipo de identidad existente o crear uno nuevo mediante el servicio de identidad de Adobe Experience Platform. Las áreas de nombres de identidad estándar se enumeran en [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
+   En el campo **[!UICONTROL Tipo de identidad]**, elija el tipo de clave que desea usar para identificar a los individuos de la audiencia seleccionada. Puede utilizar un tipo de identidad existente o crear uno nuevo mediante el servicio de identidad de Adobe Experience Platform. Las áreas de nombres de identidad estándar se enumeran en [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
    Solo se permite un tipo de identidad por campaña. La campaña no puede dirigirse a las personas que pertenezcan a un segmento que no tenga el tipo de identidad seleccionado entre sus diferentes identidades. Obtenga más información acerca de tipos de identidad y áreas de nombres en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es){target="_blank"}.
 
@@ -51,6 +51,6 @@ Utilice la ficha **[!UICONTROL Audiencia]** para definir la audiencia de la camp
    >
    >Se crean perfiles desconocidos en el conjunto de datos **AJO Interactive Messaging Profile Dataset**, en tres áreas de nombres predeterminadas (correo electrónico, teléfono y ECID) respectivamente para cada canal saliente (correo electrónico, SMS y push). Sin embargo, si utiliza un área de nombres personalizada, la identidad se crea con el mismo área de nombres personalizada.
 
-## Pasos siguientes {#next}
+## Próximos pasos {#next}
 
 Una vez que la configuración y el contenido de la campaña estén listos, puede programar su ejecución. [Más información](api-triggered-campaign-schedule.md)

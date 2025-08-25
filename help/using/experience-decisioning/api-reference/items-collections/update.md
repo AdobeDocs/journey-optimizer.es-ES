@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Actualizar una colección de elementos {#update-item-collection}
 
-Puede modificar o actualizar una colección de elementos realizando una solicitud del PATCH a la API de la biblioteca de ofertas.
+Puede modificar o actualizar una colección de elementos realizando una petición PATCH a la API de la biblioteca de ofertas.
 
 Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](https://jsonpatch.com/).
 

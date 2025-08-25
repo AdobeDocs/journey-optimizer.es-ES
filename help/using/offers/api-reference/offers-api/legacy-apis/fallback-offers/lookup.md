@@ -8,14 +8,14 @@ level: Experienced
 exl-id: e470d491-b30b-4d26-83a6-e5b34e49fe61
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '157'
 ht-degree: 4%
 
 ---
 
 # Buscar ofertas de reserva {#look-up-fallback-offers}
 
-Puede buscar ofertas de reserva específicas realizando una solicitud de GET a la API [!DNL Offer Library] que incluya la oferta de reserva `@id` o el nombre de la oferta de reserva en la ruta de solicitud.
+Puede buscar ofertas de reserva específicas realizando una petición GET a la API [!DNL Offer Library] que incluya la oferta de reserva `@id` o el nombre de la oferta de reserva en la ruta de solicitud.
 
 **Formato de API**
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | `{CONTAINER_ID}` | Contenedor donde se encuentran las ofertas de reserva. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | Define el esquema asociado a las ofertas de reserva. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
 | `id` | Cadena utilizada para coincidir con la propiedad `@id` de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se pueden usar juntos. | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | Cadena utilizada para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `F1: Web fallback` |
+| `name` | Una cadena utilizada para hacer coincidir la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `F1: Web fallback` |
 
 **Solicitud**
 

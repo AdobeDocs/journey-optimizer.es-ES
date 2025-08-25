@@ -12,7 +12,7 @@ keywords: configuración, configurar, mensajes, canal, zona protegida, optimizad
 source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 45%
+ht-degree: 48%
 
 ---
 

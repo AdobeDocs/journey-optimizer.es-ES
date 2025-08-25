@@ -11,7 +11,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -318,7 +318,7 @@ A new option is available in the email surface settings to include email address
 **Correo directo**
 
 * Azure ahora se puede seleccionar como tipo de servidor en la configuración de enrutamiento de archivos. [Más información](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
-* El ampersand está ahora disponible como campo separador de columnas en la configuración de superficie de correo postal. [Más información](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+* El ampersand está ahora disponible como campo separador de columnas en la configuración de superficie de correo directo. [Más información](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 
 
@@ -354,8 +354,8 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>Ahora puede añadir mensajes de correo postal en sus campañas. El correo postal es un canal sin conexión que le permite personalizar y generar los archivos necesarios para que los proveedores de correo postal envíen correo a sus clientes.</p>
-<p>Al preparar un envío de correo postal, Journey Optimizer genera un archivo con todos los perfiles de destino y la información de contacto elegida (por ejemplo, una dirección postal). Después, puede enviar este archivo al proveedor de correo postal que se encarga de la entrega real.</p>
+<p>Ahora puede añadir mensajes de correo directo en sus campañas. El correo directo es un canal sin conexión que le permite personalizar y generar los archivos necesarios para que los proveedores de correo directo envíen correo a sus clientes.</p>
+<p>Al preparar un envío de correo directo, Journey Optimizer genera un archivo con todos los perfiles de destino y la información de contacto elegida (por ejemplo, una dirección directo). Después, puede enviar este archivo al proveedor de correo directo que se encarga de la entrega real.</p>
 <p>Por ahora, el canal de correo directo no está disponible para las organizaciones que han adquirido la oferta complementaria Adobe Healthcare Shield</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>Para obtener más información, consulte la <a href="../direct-mail/get-started-direct-mail.md">documentación detallada</a>.</p>

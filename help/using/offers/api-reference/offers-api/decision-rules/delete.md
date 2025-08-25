@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # Eliminar una regla de decisión {#delete-decision-rule}
 
-En ocasiones puede ser necesario eliminar (DELETE) una regla de decisión. Para ello, realice una solicitud de DELETE a la API [!DNL Offer Library] mediante el `id` de la regla de decisión que desea eliminar.
+En ocasiones puede ser necesario eliminar (DELETE) una regla de decisión. Para ello, realice una petición DELETE a la API [!DNL Offer Library] mediante el `id` de la regla de decisión que desea eliminar.
 
 **Formato de API**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule123
 
 Una respuesta correcta devuelve el estado HTTP 200 y un cuerpo en blanco.
 
-Puede confirmar la eliminación intentando una solicitud de consulta (GET) a la regla de decisión y debe recibir un estado HTTP 404 (no encontrado) porque la regla de decisión se ha eliminado.
+Puede confirmar la eliminación realizando una solicitud de consulta (GET) a la regla de decisión y debe recibir el estado HTTP 404 (no encontrado) porque la regla de decisión se ha eliminado.

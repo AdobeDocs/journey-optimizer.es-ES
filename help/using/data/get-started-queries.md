@@ -11,7 +11,7 @@ exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -28,4 +28,4 @@ Aprenda a utilizar el Editor de consultas en [esta documentación](https://exper
 >[!MORELIKETHIS]
 >
 >* [Documentación del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es){target="_blank"}
->* [Información general del servicio de consultas de vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=es){target="_blank"}
+>* [Vídeo de información general sobre el servicio de consultas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=es){target="_blank"}

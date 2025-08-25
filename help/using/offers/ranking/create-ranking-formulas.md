@@ -185,7 +185,7 @@ Estos son ejemplos que ilustran cómo utilizar datos de contexto en fórmulas de
 
 +++
 
-+++Aumente la prioridad de todas las ofertas con &quot;attribute=hot&quot; si &quot;contextData.weather=hot&quot; se pasa en la llamada.
++++Aumente la prioridad de todas las ofertas con &quot;attribute=hot&quot; si se pasa &quot;contextData.weather=hot&quot; en la llamada.
 
 >[!BEGINTABS]
 

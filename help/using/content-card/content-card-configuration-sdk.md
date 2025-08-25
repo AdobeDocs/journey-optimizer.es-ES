@@ -1,5 +1,5 @@
 ---
-title: SDK web de configuración de tarjetas de contenido
+title: Configuración de tarjetas de contenido en Web SDK
 description: Configuración de la compatibilidad con tarjetas de contenido en SDK web
 feature: Channel Configuration, Content Cards
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Configuración de la compatibilidad con tarjetas de contenido en SDK web {#content-card-configuration-sdk}
 
-Este ejemplo muestra cómo recuperar tarjetas de contenido de Adobe Journey Optimizer (AJO) mediante Adobe Experience Platform. Al aprovechar [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/home), el contenido de personalización se recupera y se procesa por completo en el lado del cliente.
+Este ejemplo muestra cómo recuperar tarjetas de contenido de Adobe Journey Optimizer (AJO) mediante Adobe Experience Platform. Al aprovechar [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home), el contenido de personalización se recupera y se procesa por completo en el lado del cliente.
 
 Tras la carga inicial de la página, la página muestra su estado predeterminado. Sin embargo, si interactúa con los botones **Depositar fondos** o **Compartir en medios sociales**, aparecerán tarjetas de contenido adicionales. Estas tarjetas se activan por condiciones del lado del cliente, lo que garantiza que se muestren solo cuando se realizan acciones específicas.
 
@@ -46,7 +46,7 @@ Tras la carga inicial de la página, la página muestra su estado predeterminado
 
 ## Funcionamiento {#setup}
 
-1. Incluya y configure el [SDK web](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/home) en la página usando la configuración del archivo `.env` en la carpeta de ejemplo.
+1. Incluya y configure [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) en la página con la configuración del archivo `.env` en la carpeta de ejemplo.
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>

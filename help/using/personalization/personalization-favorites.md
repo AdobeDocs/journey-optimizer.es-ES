@@ -18,7 +18,7 @@ ht-degree: 16%
 
 # Añadir atributos a favoritos {#fav}
 
-Añadir atributos diferentes al menú de favoritos permite acceder rápidamente a los elementos más utilizados. Para agregar un atributo a tus favoritos, haz clic en el menú de elipse y elige **[!UICONTROL Agregar a favoritos]**.
+Añadir atributos diferentes al menú de favoritos permite acceder rápidamente a los elementos más frecuentes. Para agregar un atributo a tus favoritos, haz clic en el menú de elipse y elige **[!UICONTROL Agregar a favoritos]**.
 
 ![](assets/favorite-option.png)
 

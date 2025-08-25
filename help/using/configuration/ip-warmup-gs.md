@@ -11,7 +11,7 @@ keywords: IP, entregabilidad
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '245'
 ht-degree: 73%
 
 ---
@@ -52,7 +52,7 @@ Los pasos clave para implementar un plan de calentamiento de IP son los siguient
 
 Obtenga información sobre cómo crear y ejecutar un plan de calentamiento de IP.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453843/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >

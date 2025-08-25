@@ -12,11 +12,11 @@ exl-id: d255e9e4-301a-444a-86d3-97e0df4d3a49
 source-git-commit: d89eb9e569cb6de2edc5f20bdcf669972ccc8a8b
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Solución de problemas de recorridos {#troubleshooting}
+# Solución de problemas del recorrido {#troubleshooting}
 
 Cuando el recorrido de un cliente no se comporta como se espera, la identificación de la causa raíz puede ser difícil. Para ayudarle a resolver los problemas de forma eficaz, a continuación se muestran los recursos de solución de problemas de las áreas problemáticas más comunes. Tanto si se observan errores de recorrido, incoherencias en la ejecución o problemas de nivel de acción, cada sección ofrece instrucciones específicas para investigarlos y resolverlos.
 
@@ -56,9 +56,9 @@ Explore las páginas siguientes para profundizar en temas específicos de soluci
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=es">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="Comprender los códigos de error comunes" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>Además, revisa <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=es" target="_blank">esta publicación de blog de la comunidad de Adobe</a> que detalla <strong>códigos de error comunes</strong> y cómo resolverlos de manera efectiva.
+    <br>Además, revisa <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">esta publicación de blog de la comunidad de Adobe</a> que detalla <strong>códigos de error comunes</strong> y cómo resolverlos de manera efectiva.
     </div>
   </td>
 </tr>

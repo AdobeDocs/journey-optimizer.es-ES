@@ -13,7 +13,7 @@ exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 10%
+ht-degree: 18%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 10%
 >title="Integración de Adobe Express"
 >abstract="Comience a personalizar sus recursos con la integración de Adobe Express. Esta función le permite cambiar el tamaño de las imágenes, quitar fondos, recortar elementos visuales y convertir recursos a JPEG o PNG."
 
-La integración de Adobe Express en Adobe Journey Optimizer le permite acceder fácilmente a las potentes herramientas de edición de Adobe Express a la hora de crear contenido. Esta integración le permite cambiar el tamaño de las imágenes, eliminar fondos, recortar elementos visuales y convertir recursos a JPEG o PNG sin necesidad de cambiar entre soluciones.
+La integración de Adobe Express en Adobe Journey Optimizer le permite acceder fácilmente a las potentes herramientas de edición de Adobe Express a la hora de crear contenido. Esta integración le permite cambiar el tamaño de las imágenes, quitar fondos, recortar elementos visuales y convertir recursos a JPEG o PNG sin necesidad de cambiar entre soluciones.
 
 <img src="../rn/assets/do-not-localize/express_resize.gif">
 
@@ -49,7 +49,7 @@ Con una licencia Enterprise, los usuarios tienen acceso completo al editor web d
 
 ![](assets/express-licence.png)
 
-Para obtener más información sobre los casos de uso disponibles para los usuarios con una licencia Enterprise para Adobe Express, consulte [Documentación web de Adobe Express](https://helpx.adobe.com/es/express/web.html).
+Para obtener más información sobre los casos de uso disponibles para los usuarios con una licencia Enterprise para Adobe Express, consulte [Documentación web de Adobe Express](https://helpx.adobe.com/express/web.html).
 
 ## Uso de Adobe Express sin una licencia empresarial  {#edit}
 
@@ -148,7 +148,7 @@ La imagen ya está lista para utilizarse en el contenido.
 
 Obtenga información sobre cómo editar los recursos en Adobe Journey Optimizer con las herramientas de Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455526/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

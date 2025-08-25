@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Buscar un calificador de colección {#look-up-tag}
 
-Puede buscar calificadores de colección específicos (anteriormente conocidos como &quot;tags&quot;) realizando una solicitud de GET a la API [!DNL Offer Library] que incluye el calificador de colección `id` en la ruta de solicitud.
+Puede buscar calificadores de colección específicos (anteriormente conocidos como &quot;etiquetas&quot;) realizando una petición GET a la API [!DNL Offer Library] que incluye el calificador de colección `id` en la ruta de solicitud.
 
 **Formato de API**
 

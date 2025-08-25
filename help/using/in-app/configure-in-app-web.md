@@ -22,7 +22,7 @@ ht-degree: 3%
 
 * Instale la extensión **Adobe Experience Platform Web SDK** en sus **propiedades de etiquetas** y habilite la opción **Almacenamiento de Personalization**.
 
-  Esta configuración es esencial para almacenar historiales de eventos en el cliente, un requisito previo para implementar Reglas de frecuencia en el Generador de reglas. [Más información](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=es)
+  Esta configuración es esencial para almacenar historiales de eventos en el cliente, un requisito previo para implementar Reglas de frecuencia en el Generador de reglas. [Más información](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
 
   ![](assets/configure_web_inapp_1.png)
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 
 1. Guarde la configuración de **Action** haciendo clic en **Conservar cambios**.
 
-1. Vaya al menú **Flujo de publicación**. Cree una nueva **biblioteca** o seleccione una **biblioteca** existente y agréguele la **regla** recién creada. [Más información](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=es#create-a-library)
+1. Vaya al menú **Flujo de publicación**. Cree una nueva **biblioteca** o seleccione una **biblioteca** existente y agréguele la **regla** recién creada. [Más información](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en#create-a-library)
 
 1. En su **biblioteca**, seleccione **Guardar y generar en desarrollo**.
 
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 1. En la sección **Contexto de decisión**, defina los pares **Clave** y **Valor** que determinan qué experiencia se ofrece.
 
-1. Acceda al menú **Flujo de publicación**, cree una nueva **biblioteca** o seleccione una **biblioteca** existente y agregue la **regla** recién creada. [Más información](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=es#create-a-library)
+1. Acceda al menú **Flujo de publicación**, cree una nueva **biblioteca** o seleccione una **biblioteca** existente y agregue la **regla** recién creada. [Más información](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en#create-a-library)
 
 1. En su **biblioteca**, seleccione **Guardar y generar en desarrollo**.
 
@@ -134,7 +134,7 @@ ht-degree: 3%
 
    * Puede crear una regla para segmentar varias direcciones URL que sigan el mismo patrón.
 
-+++ Cómo generar una regla de coincidencia de páginas.
+     +++ Cómo generar una regla de coincidencia de páginas.
 
       1. Seleccione **[!UICONTROL Regla de coincidencia de páginas]** como Configuración de aplicación e introduzca su **[!UICONTROL URL de página]**.
 
@@ -151,7 +151,7 @@ ht-degree: 3%
 
       1. Guarde los cambios. La regla se muestra en la pantalla **[!UICONTROL Crear campaña]**.
 
-+++
+     +++
 
 1. Envíe la configuración web en la aplicación.
 

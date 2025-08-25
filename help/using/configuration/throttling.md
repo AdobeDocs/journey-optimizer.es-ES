@@ -333,7 +333,7 @@ Llamadas de API para utilizar:
 
 +++
 
-+++Anule la implementación y elimine una configuración de limitación implementada
++++Anular la implementación y eliminar una configuración de limitación implementada
 
 Llamadas de API para utilizar:
 
@@ -343,7 +343,7 @@ Llamadas de API para utilizar:
 
 +++
 
-+++Eliminar una configuración de limitación implementada
++++Eliminar una configuración de regulación implementada
 
 Solo en una llamada de API puede anular la implementación y eliminar la configuración con el parámetro `forceDelete`.
 
@@ -354,7 +354,7 @@ Llamadas de API para utilizar:
 
 +++
 
-+++Actualice una configuración de restricción ya implementada
++++Actualizar una configuración de restricción ya implementada
 
 >[!NOTE]
 >

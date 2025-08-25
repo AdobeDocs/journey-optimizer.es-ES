@@ -8,13 +8,13 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '213'
+ht-degree: 24%
 
 ---
-
 
 # Defina las propiedades de campaña activadas por API {#api-properties}
 
@@ -34,10 +34,10 @@ Para crear una nueva campaña activada por API, siga estos pasos:
 
    ![](assets/create-campaign-properties.png)
 
-1. Utilice el campo **Etiquetas** para asignar etiquetas unificadas de Adobe Experience Platform a su campaña. Esto le permite clasificarlos fácilmente y mejorar la búsqueda desde la lista de campañas. [Aprenda a trabajar con etiquetas](../start/search-filter-categorize.md#tags).
+1. Utilice el campo **Etiquetas** para asignar etiquetas unificadas de Adobe Experience Platform a su campaña. Esto le permite clasificarlos fácilmente y mejorar la búsqueda desde la lista de campañas. [Descubra cómo trabajar con etiquetas](../start/search-filter-categorize.md#tags).
 
 1. Puede limitar el acceso a esta campaña en función de las etiquetas de acceso. Para añadir una limitación de acceso, vaya al botón **[!UICONTROL Administrar acceso]** en la parte superior de esta página. Asegúrese de seleccionar solo las etiquetas para las que tenga permiso. [Más información acerca del Control de acceso de nivel de objeto](../administration/object-based-access.md).
 
-## Pasos siguientes {#next}
+## Próximos pasos {#next}
 
 Una vez que la configuración y el contenido de la campaña estén listos, puede configurar su acción. [Más información](api-triggered-campaign-action.md)

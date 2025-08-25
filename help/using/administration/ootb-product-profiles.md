@@ -166,7 +166,7 @@ Esta función incluye los siguientes permisos:
 | Gestión de decisiones | <ul><li>**[!DNL Manage decisions]**: leer, crear, editar y eliminar decisiones.</li><li>**[!DNL Manage ranking strategies]**: leer, crear, editar y eliminar estrategias de clasificación.</li></ul> |
 | Reglas de Journey Optimizer | <ul> <li>**[!DNL View frequency rules]**: acceso de solo lectura a reglas de frecuencia.</li><li>**[!DNL Manage frequency rules]**: leer, crear, editar o eliminar reglas de frecuencia.</li> </ul> |
 | Mensajes | <ul><li> **[!DNL Manage Messages]**: leer, crear, editar y eliminar mensajes. </li> **[!DNL Manage Messages Preview and Test]**: aprobar y publicar mensajes cuando se aplique una directiva.</li><li>**[!DNL Publish Messages]**: publicar mensajes. </li><li>**[!DNL View Messages Report]**: leer y editar informes de mensajes. <li></ul> |
-| Campañas organizadas | <ul><li> **[!DNL Manage orchestrated campaigns]**: leer, crear, editar y eliminar campañas organizadas.</li> <li>**[!DNL Manage orchestrated campaigns admin]**: leer, crear, editar y eliminar vínculos y conciliaciones entre perfiles de Adobe Experience Platform y entidades de almacén relacional.</li><li>**[!DNL Publish orchestrated campaigns]**: publicar campañas organizadas.</li><li>**[!DNL View orchestrated campaigns report]**: leer y editar informe de campañas orquestadas.</li></ul> |
+| Campañas orquestadas | <ul><li> **[!DNL Manage orchestrated campaigns]**: leer, crear, editar y eliminar campañas organizadas.</li> <li>**[!DNL Manage orchestrated campaigns admin]**: leer, crear, editar y eliminar vínculos y conciliaciones entre perfiles de Adobe Experience Platform y entidades de almacén relacional.</li><li>**[!DNL Publish orchestrated campaigns]**: publicar campañas organizadas.</li><li>**[!DNL View orchestrated campaigns report]**: leer y editar informe de campañas orquestadas.</li></ul> |
 
 ## [!DNL Orchestrated Campaign Approver] {#orchestrated-campaign-approver}
 
@@ -181,7 +181,7 @@ La función **[!DNL Orchestrated Campaign Approver]** permite a los usuarios pub
 | Gestión de decisiones | <ul><li>**[!DNL Manage decisions]**: leer, crear, editar y eliminar entidades de toma de decisiones.</li><li>**[!DNL Manage ranking strategies]**: leer, crear, editar y eliminar mensajes personalizados informes y utilizar funciones de acción.</li></ul> |
 | Reglas de Journey Optimizer | <ul> <li>**[!DNL View frequency rules]**: acceso de solo lectura a reglas de frecuencia.</li></ul> |
 | Mensajes | <ul><li> **[!DNL Manage Messages]**: leer, crear, editar y eliminar mensajes. </li> **[!DNL Manage Messages Preview and Test]**: aprobar y publicar mensajes cuando se aplique una directiva.</li><li>**[!DNL Publish Messages]**: publicar mensajes. </li><li>**[!DNL View Messages Report]**: leer y editar informes de mensajes. <li></ul> |
-| Campañas organizadas | <ul><li>**[!DNL Manage orchestrated campaigns]**: leer, crear, editar y eliminar campañas organizadas.</li><li>**[!DNL Publish orchestrated campaigns]**: publicar campañas organizadas.</li><li>**[!DNL View orchestrated campaigns admin]**: acceso de solo lectura a vínculos y conciliaciones entre perfiles de Adobe Experience Platform y entidades de almacén relacional.</li><li>**[!DNL View orchestrated campaigns report]**: leer, editar informes de campañas organizadas.</li></ul> |
+| Campañas orquestadas | <ul><li>**[!DNL Manage orchestrated campaigns]**: leer, crear, editar y eliminar campañas organizadas.</li><li>**[!DNL Publish orchestrated campaigns]**: publicar campañas organizadas.</li><li>**[!DNL View orchestrated campaigns admin]**: acceso de solo lectura a vínculos y conciliaciones entre perfiles de Adobe Experience Platform y entidades de almacén relacional.</li><li>**[!DNL View orchestrated campaigns report]**: leer, editar informes de campañas organizadas.</li></ul> |
 
 ## [!DNL Orchestrated Campaign Manager] {#orchestrated-campaign-manager}
 
@@ -198,7 +198,7 @@ Esta función incluye los siguientes permisos:
 | Gestión de decisiones | <ul><li>**[!DNL Manage decisions]**: leer, crear, editar y eliminar entidades de toma de decisiones.</li><li>**[!DNL Manage ranking strategies]**: leer, crear, editar y eliminar mensajes personalizados informes y utilizar funciones de acción.</li></ul> |
 | Reglas de Journey Optimizer | <ul> <li>**[!DNL View frequency rules]**: acceso de solo lectura a reglas de frecuencia. </li></ul> |
 | Mensajes | <ul><li> **[!DNL Manage Messages]**: leer, crear, editar y eliminar mensajes. </li> **[!DNL Manage Messages Preview and Test]**: aprobar y publicar mensajes cuando se aplique una directiva.</li><li>**[!DNL View Messages Report]**: leer y editar informes de mensajes. </li></ul> |
-| Campañas organizadas | <ul><li>**[!DNL Manage orchestrated campaigns]**: leer, crear, editar y eliminar campañas organizadas.</li><li>**[!DNL View orchestrated campaigns report]**: leer, editar campañas organizadas.</li><li>**[!DNL View orchestrated campaigns admin]**: acceso de solo lectura a vínculos y conciliaciones entre perfiles de Adobe Experience Platform y entidades de almacén relacional.</li></ul> |
+| Campañas orquestadas | <ul><li>**[!DNL Manage orchestrated campaigns]**: leer, crear, editar y eliminar campañas organizadas.</li><li>**[!DNL View orchestrated campaigns report]**: leer, editar campañas organizadas.</li><li>**[!DNL View orchestrated campaigns admin]**: acceso de solo lectura a vínculos y conciliaciones entre perfiles de Adobe Experience Platform y entidades de almacén relacional.</li></ul> |
 
 ## [!DNL Orchestrated Campaign Viewer] {#orchestrated-campaign-viewer}
 
@@ -216,7 +216,7 @@ Esta función incluye los siguientes permisos:
 | Gobernanza de datos | <ul> <li>**[!DNL View user activity log]**: acceso de solo lectura para ver los registros de auditoría registrados de las actividades de Experience Platform.</li> </ul> |
 | Gestión de decisiones | <ul><li>**[!DNL View decisions]**: acceso de solo lectura a entidades de decisiones.</li></ul> |
 | Reglas de Journey Optimizer | <ul> <li>**[!DNL View frequency rules]**: acceso de solo lectura a reglas de frecuencia.</li></ul> |
-| Campañas organizadas | <ul><li>**[!DNL View orchestrated campaigns]**: acceso de solo lectura a campañas organizadas.</li><li>**[!DNL View orchestrated campaigns report]**: acceso de solo lectura a los informes de campañas organizadas.</li></ul> |
+| Campañas orquestadas | <ul><li>**[!DNL View orchestrated campaigns]**: acceso de solo lectura a campañas organizadas.</li><li>**[!DNL View orchestrated campaigns report]**: acceso de solo lectura a los informes de campañas organizadas.</li></ul> |
 
 
 

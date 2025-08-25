@@ -156,13 +156,13 @@ Por ejemplo, desea aumentar la prioridad de todas las ofertas con el atributo &q
 
 Para aprovechar los atributos relacionados con los elementos de decisión en las fórmulas, asegúrese de seguir la sintaxis correcta en el código de la fórmula de clasificación. Expanda cada sección para obtener más información:
 
-+++Aproveche los atributos estándar de los elementos de decisión
++++Aprovechamiento de atributos estándar de elementos de decisión
 
 ![](../assets/formula-attribute.png)
 
 +++
 
-+++Aproveche los atributos personalizados de los elementos de decisión
++++Aprovechamiento de atributos personalizados de elementos de decisión
 
 ![](../assets/formula-attribute-custom.png)
 
@@ -184,7 +184,7 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 
 +++
 
-+++Impulsar ofertas en las que la fecha de finalización sea en menos de 24 horas a partir de ahora
++++Ampliar ofertas en las que la fecha de finalización sea en menos de 24 horas a partir de ahora
 
 **Fórmula de clasificación:**
 
@@ -224,7 +224,7 @@ Teniendo en cuenta esto, para un perfil como:
 
 +++
 
-+++Impulsar ofertas basadas en datos de contexto {#context-data}
++++Ampliar ofertas basadas en datos de contexto {#context-data}
 
 [!DNL Journey Optimizer] le permite impulsar ciertas ofertas según los datos de contexto que se pasan en la llamada. Por ejemplo, si se pasa `contextData.weather=hot`, se debe aumentar la prioridad de todas las ofertas con `attribute=hot`.
 

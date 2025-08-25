@@ -22,7 +22,7 @@ El nuevo **flujo de trabajo de inicio rápido de la incorporación móvil** es u
 
 Todos los clientes pueden acceder a esta funcionalidad a través de la página de inicio de **[!DNL Adobe Experience Platform Data Collection]** como Beta público.
 
-## Introducción {#gs-mobile-wf}
+## Introducción{#gs-mobile-wf}
 
 Este nuevo flujo de trabajo automatiza la configuración de la recopilación de datos al reducir el número total de clics y acelerar la configuración móvil de Journey Optimizer. Este flujo de trabajo de inicio rápido le llevará por cuatro sencillos pasos para [configurar](##setup-mobile-wf), [implementar](#implement-mobile-wf), [validar](#valid-mobile-wf) y [revisar](#review-mobile-wf) su configuración móvil.
 
@@ -34,7 +34,7 @@ A continuación se muestran algunas funciones adicionales:
 
 * Flujo de trabajo de cuatro pasos e interfaz de usuario sencillos.
 * Proporciona una configuración básica para empezar a recopilar datos de eventos móviles mediante [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} en minutos.
-* Capacidad para probar y validar un evento push móvil básico con [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=es){target="_blank"}.
+* Capacidad para probar y validar un evento push móvil básico con [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 * Crea y configura automáticamente todos los recursos de recopilación de datos y Journey Optimizer necesarios.
 * En la guía del producto y la información sobre herramientas.
 * Proporciona una transición natural para una implementación más avanzada si es necesario.

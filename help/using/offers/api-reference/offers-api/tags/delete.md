@@ -16,7 +16,7 @@ ht-degree: 9%
 
 # Eliminación de un cualificador de colección {#delete-tag}
 
-En ocasiones puede ser necesario quitar (DELETE) un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;). Para ello, realice una solicitud de DELETE a la API de la biblioteca de ofertas utilizando el ID del calificador de colección que desee eliminar.
+En ocasiones puede ser necesario quitar (DELETE) un calificador de recopilación (anteriormente conocido como &quot;etiqueta&quot;). Para ello, realice una petición DELETE a la API de la biblioteca de ofertas con el ID del calificador de colección que desea eliminar.
 
 **Formato de API**
 
@@ -44,4 +44,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 Una respuesta correcta devuelve el estado HTTP 200 y un cuerpo en blanco.
 
-Para confirmar la eliminación, intente realizar una solicitud de búsqueda (GET) al calificador de recopilación. Debe recibir el estado HTTP 404 (no encontrado) porque se ha eliminado el calificador de recopilación.
+Para confirmar la eliminación, intente una solicitud de búsqueda (GET) en el calificador de recopilación. Debe recibir el estado HTTP 404 (no encontrado) porque se ha eliminado el calificador de recopilación.

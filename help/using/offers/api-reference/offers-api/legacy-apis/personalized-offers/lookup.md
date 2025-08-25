@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 679f2229-19c6-47f9-b293-e1c3c8dcb61e
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '177'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Una oferta personalizada es un mensaje de marketing personalizable basado en reglas de elegibilidad y restricciones.
 
-Puede buscar ofertas personalizadas específicas realizando una solicitud de GET a la API **Biblioteca de ofertas** que incluya la oferta personalizada `@id` o el nombre de la oferta personalizada en la ruta de solicitud.
+Puede buscar ofertas personalizadas específicas realizando una petición GET a la API **Biblioteca de ofertas** que incluya la oferta personalizada `@id` o el nombre de la oferta personalizada en la ruta de solicitud.
 
 **Formato de API**
 
@@ -31,7 +31,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 | `{CONTAINER_ID}` | El contenedor donde se encuentran las ofertas personalizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | Define el esquema asociado a las ofertas personalizadas. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
 | `id` | Cadena utilizada para coincidir con la propiedad `@id` de las entidades. La cadena coincide exactamente. Los parámetros &quot;id&quot; y &quot;name&quot; no se pueden usar juntos. | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | Cadena utilizada para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `Discount offer` |
+| `name` | Una cadena utilizada para hacer coincidir la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `Discount offer` |
 
 **Solicitud**
 

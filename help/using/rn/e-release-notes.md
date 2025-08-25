@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 100%
 
@@ -227,7 +227,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
    * **Exclusión aproximada**: cuando está habilitada, la opción **Exclusión aproximada** detecta mensajes entrantes que se parecen mucho a las palabras clave de exclusión definidas (por ejemplo, “CANCILAR”) y envía automáticamente una respuesta de confirmación para comprobar la intención del usuario de cancelar su suscripción. Si el usuario confirma esta decisión a través de la indicación definida, se cancela su suscripción.
 
-     Tenga en cuenta que **exclusión aproximada** solo está disponible con Sinch e Infobip.
+     Tenga en cuenta que la **Exclusión aproximada** solo está disponible con Sinch e Infobip.
 
    * **Verificar conexión de SMS**: ahora puede probar y comprobar fácilmente sus credenciales de API de SMS en Adobe Journey Optimizer enviando un mensaje de ejemplo a un dispositivo designado.
 

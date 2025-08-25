@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # Actualizar una oferta personalizada {#update-personalized-offer}
 
-Puede modificar o actualizar una oferta personalizada realizando una solicitud de PATCH a la API [!DNL Offer Library]
+Puede modificar o actualizar una oferta personalizada realizando una petición PATCH a la API [!DNL Offer Library]
 
 Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](https://jsonpatch.com/).
 

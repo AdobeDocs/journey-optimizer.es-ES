@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informe de página de aterrizaje
+title: Informe de página de destino
 description: Aprenda a utilizar los datos del informe de páginas de aterrizaje
 feature: Reporting, Landing Pages
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 ---
 
-# Informe de página de aterrizaje {#lp-report-global-cja}
+# Informe de página de destino {#lp-report-global-cja}
 
 El informe **Página de aterrizaje** ofrece información valiosa sobre el comportamiento del usuario, los patrones de participación, las tasas de conversión y otras métricas clave, lo que le permite tomar decisiones informadas y optimizar el rendimiento de la página de aterrizaje de manera eficaz.
 
@@ -23,7 +23,7 @@ Para acceder a tus informes, selecciona **[!UICONTROL Informe]** en el menú ava
 
 ![](assets/cja-lp.png)
 
-Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Tasa de conversión de página de aterrizaje {#lp-conversion}
 

@@ -180,6 +180,6 @@ El siguiente vídeo muestra cómo configurar el canal de WhatsApp en Adobe Journ
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470271/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

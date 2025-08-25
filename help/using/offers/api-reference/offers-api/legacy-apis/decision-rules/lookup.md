@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 3099736d-7109-4c94-aea6-053a9b885278
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 4%
 
 ---
 
 # Búsqueda de una regla de decisión {#lookup-decision-rule}
 
-Puede buscar una regla de decisión específica realizando una solicitud de GET a la API [!DNL Offer Library] que incluya la regla de decisión `@id` o el nombre de la regla de decisión en la ruta de solicitud.
+Puede buscar una regla de decisión específica realizando una petición GET a la API [!DNL Offer Library] que incluya la regla de decisión `@id` o el nombre de la regla de decisión en la ruta de solicitud.
 
 **Formato de API**
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{CONTAINER_ID}` | El contenedor donde se encuentran las reglas de decisión. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ELIGIBILITY_RULE}` | Define el esquema asociado a las reglas de decisión. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
 | `id` | Cadena utilizada para coincidir con la propiedad `@id` de las entidades. La cadena coincide exactamente. El parámetro `id` y `name` no se pueden usar juntos. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | Cadena utilizada para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `Sales rule` |
+| `name` | Una cadena utilizada para hacer coincidir la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `Sales rule` |
 
 **Solicitud**
 

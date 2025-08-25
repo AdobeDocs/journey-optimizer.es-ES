@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -111,11 +111,11 @@ Esta es la lista de todos los campos que se pueden usar en el conjunto de datos 
 
 +++
 
-+++_experiencia > toma de decisiones > criterios > ubicaciones
++++_experience > decisioning > criteria > placements
 
 **Campo:** ubicaciones
 **Título:** Restricciones de ubicación
-**Descripción:** La restricción de ubicación indica que este criterio solo es aplicable a las ubicaciones enumeradas. La selección de opciones solo se tiene en cuenta cuando la ubicación de destino está en la lista `xdm:placements`. De lo contrario, se omiten todos los criterios de decisión. Cuando la lista &quot;xdm:placements&quot; se omite o está vacía, el criterio se tiene en cuenta para cualquier ubicación de destino. Las ubicaciones enumeradas aquí imponen criterios implícitos para la selección de opciones. Una opción que se vaya a considerar debe tener una representación para la ubicación de destino.
+**Descripción:** La restricción de ubicación indica que este criterio solo es aplicable a las ubicaciones enumeradas. La selección de opciones solo se tiene en cuenta cuando la ubicación de destino está en la lista `xdm:placements`. De lo contrario, se omiten todos los criterios de decisión. Cuando la lista &#39;xdm:placements&#39; se omite o está vacía, el criterio se tiene en cuenta para cualquier ubicación de destino. Las ubicaciones enumeradas aquí imponen criterios implícitos para la selección de opciones. Una opción que se vaya a considerar debe tener una representación para la ubicación de destino.
 **Tipo:** matriz
 
 * Identificador de ubicación
@@ -206,16 +206,16 @@ Esta es la lista de todos los campos que se pueden usar en el conjunto de datos 
 
 +++
 
-+++_experiencia > toma de decisiones > criterios > clasificación
++++_experience > decisioning > criteria > clasificación
 
 Clasificación **Campo:**
 **Título:** Detalles de clasificación
 **Descripción:** Clasificación (prioridad). Define cómo se determina la \&quot;mejor opción\&quot; según el contexto del criterio de decisión. Entre todas las opciones seleccionadas que cumplen con las restricciones de perfil, la clasificación decidirá las opciones principales (o N principales) que se propondrán.
 **Tipo:** objeto
 
-+++
++++ 
 
-+++_experiencia > toma de decisiones > criterios > clasificación > pedido
++++_experience > decisioning > criteria > ranking > order
 
 **Campo:** pedido
 **Título:** Evaluación de pedidos

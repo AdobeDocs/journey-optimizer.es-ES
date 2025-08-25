@@ -26,13 +26,13 @@ Al probar la [experiencia basada en código](create-code-based.md) con toma de d
 Después de publicar la campaña, agregue el indicador `dryRun` al bloque de evento XDM `data` en la implementación del cliente:
 
     &quot;
-    &lbrace;
-    &quot;data&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    {
+    &quot;data&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
-    &rbrace;
+    }
+    }
     
     
     &quot;
@@ -137,7 +137,7 @@ Supongamos que tiene la misma política de decisión con la colocación del enca
 
       * El elemento de decisión de reserva (también único) o un elemento de decisión vacío se pasan para la segunda propuesta.
 
-+++Respuesta de muestra de decisiones (`allowDuplicateDecisionItems` = `true`)
++++Respuesta de muestra de toma de decisiones (`allowDuplicateDecisionItems` = `true`)
 
 ```
 {
@@ -213,7 +213,7 @@ Supongamos que tiene la misma política de decisión con la colocación del enca
 
 +++
 
-+++Respuesta de muestra de decisiones (`allowDuplicateDecisionItems` = `false`)
++++Respuesta de muestra de toma de decisiones (`allowDuplicateDecisionItems` = `false`)
 
 ```
 {

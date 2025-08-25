@@ -40,4 +40,4 @@ Para comprobar el procesamiento del correo electrónico, siga estos pasos:
 
 >[!CAUTION]
 >
->Al conectar su cuenta de **Litmus** con [!DNL Journey Optimizer], acepta que los mensajes de prueba se envíen a Litmus: una vez enviados, estos correos electrónicos ya no se administran mediante el Adobe. Como consecuencia, la política de correo electrónico de retención de datos de Litmus se aplica a estos correos electrónicos, incluidos los datos de personalización que pueden incluirse en estos mensajes de prueba.
+>Al conectar su cuenta de **Litmus** con [!DNL Journey Optimizer], acepta que los mensajes de prueba se envíen a Litmus: una vez enviados, Adobe ya no administra estos mensajes de correo electrónico. Como consecuencia, la política de correo electrónico de retención de datos de Litmus se aplica a estos correos electrónicos, incluidos los datos de personalización que pueden incluirse en estos mensajes de prueba.

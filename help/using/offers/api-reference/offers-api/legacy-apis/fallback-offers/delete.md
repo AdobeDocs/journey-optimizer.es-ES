@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # Eliminar una oferta de reserva {#delete-fallback-offer}
 
-En ocasiones puede ser necesario eliminar (DELETE) una oferta de reserva. Solo se pueden eliminar las ofertas de reserva que cree en el contenedor de inquilino. Para ello, realice una solicitud de DELETE a la API [!DNL Offer Library] usando el $id de la oferta de reserva que desea eliminar.
+En ocasiones puede ser necesario eliminar (DELETE) una oferta de reserva. Solo se pueden eliminar las ofertas de reserva que cree en el contenedor de inquilino. Para ello, realice una petición DELETE a la API [!DNL Offer Library] usando el $id de la oferta de reserva que desea eliminar.
 
 **Formato de API**
 

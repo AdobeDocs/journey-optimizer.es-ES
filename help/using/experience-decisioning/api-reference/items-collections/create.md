@@ -5,17 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: e4f2ab34-2af2-49b5-9164-b129e922fe59
+source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 8%
 
 ---
 
-
 # Crear una colección de elementos {#create-decision-items}
 
-Puede crear una colección de elementos realizando una solicitud del POST a la API de la biblioteca de ofertas.
+Puede crear una colección de elementos realizando una petición POST a la API de la biblioteca de ofertas.
 
 **Formato de API**
 

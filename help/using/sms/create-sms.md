@@ -84,7 +84,7 @@ Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el botón **
    * Una vez
    * Diaria
    * Semanal
-   * Mes
+   * Month
 
 Ahora puede empezar a diseñar el contenido de su mensaje de texto desde el botón **[!UICONTROL Editar contenido]**, como se detalla a continuación.
 

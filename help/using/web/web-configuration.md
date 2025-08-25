@@ -123,12 +123,12 @@ Al crear una regla [que coincida con varias páginas](#web-page-matching-rule), 
         <td></td>
     </tr>
     <tr>
-        <td>Comienza con</td>
+        <td>Comienza por</td>
         <td>Coincide con todas las rutas (incluidas las subrutas) que comienzan con la cadena introducida.</td>
         <td></td>
     </tr>
     <tr>
-        <td>Termina con</td>
+        <td>Termina por</td>
         <td>Coincide con todas las rutas (incluidas las subrutas) que terminan con la cadena introducida.</td>
         <td></td>
     </tr>
@@ -143,7 +143,7 @@ Al crear una regla [que coincida con varias páginas](#web-page-matching-rule), 
         <td>Ejemplo: "Coincidencia de comodines: /products/*/detail", coincide con todas las rutas como: <ul><li>example.com/products/yoga/detail</li><li>example.com/products/surf/detail</li><li>example.com/products/tennis/detail</li><li>example.com/products/yoga/pants/detail</li></ul>Ejemplo: "Coincide: /prod*/detail, coincide con todas las rutas como: <ul><li>example.com/products/detail</li><li>example.com/production/detail</li></ul>no coincide con rutas como: <ul><li>example.com/products/yoga/detail</li></ul></td>
     </tr>
     <tr>
-        <td>Contains</td>
+        <td>Contiene</td>
         <td>"contiene" se traduce a un comodín como "mystring" y coincide con todas las rutas que contienen esta secuencia de caracteres.</td>
         <td>Por ejemplo: "Contiene: product", coincide con todas las rutas que contienen la cadena product, como: <ul><li>example.com/products</li><li>example.com/yoga/perfproduct</li><li>example.com/surf/productdescription</li><li>example.com/home/product/page</li></ul></td>
     </tr>

@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # Crear una oferta de reserva {#create-fallback-offer}
 
-Puede crear una oferta de reserva realizando una solicitud de POST a la API [!DNL Offer Library], al tiempo que proporciona su ID de contenedor.
+Puede crear una oferta de reserva realizando una petición POST a la API [!DNL Offer Library], mientras proporciona su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ El campo **[!UICONTROL Etiquetas]** le permite definir etiquetas para el objeto.
 * [Elementos de decisión](../experience-decisioning/items.md)
 * [Fragmentos](../content-management/fragments.md)
 * [Recorridos](../building-journeys/journey-properties.md)
-* [Páginas de aterrizaje](../landing-pages/create-lp.md)
+* [Páginas de destino](../landing-pages/create-lp.md)
 * [Listas de suscripciones](../landing-pages/subscription-list.md)
 * [Plantillas](../content-management/content-templates.md)
 * [Configuraciones de canal](../configuration/channel-surfaces.md#channel-config-tags)

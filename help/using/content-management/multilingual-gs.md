@@ -52,11 +52,11 @@ Para cualquier problema o solicitud de ayuda relacionada con sus traducciones, p
 
 Para el contenido multilingüe, se debe definir la siguiente configuración:
 
-* Para utilizar la función de traducción en Journey Optimizer, debe asignar la API a la función correspondiente. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* Para utilizar la función de traducción en Journey Optimizer, debe asignar la API a la función correspondiente. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * Para empezar a crear contenido multilingüe, los usuarios deben recibir el permiso **[!UICONTROL Administrar configuración de idioma]**. Para el flujo automatizado, los usuarios también necesitarán permisos relacionados con las capacidades del **[!UICONTROL servicio de traducción]**. [Más información sobre los permisos](../administration/permissions.md)
 
-+++ Aprenda a asignar permisos relacionados multilingües
+  +++ Aprenda a asignar permisos relacionados multilingües
 
    1. En el producto **Permisos**, vaya a la pestaña **Funciones** y seleccione la **Función** que desee.
 
@@ -76,11 +76,11 @@ Para el contenido multilingüe, se debe definir la siguiente configuración:
 
    1. Si el usuario no estaba ya creado, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/users).
 
-+++
+  +++
 
 * Si no puede acceder a la página de traducción, habilite la función de traducción y se le concederán permisos relacionados con el **[!UICONTROL servicio de traducción]**. [Más información](../administration/ootb-permissions.md)
 
-+++ Obtenga información sobre cómo habilitar la función de traducción
+  +++ Obtenga información sobre cómo habilitar la función de traducción
 
    1. Si está viendo la siguiente página de error, indica que la característica **[!UICONTROL Traducción]** aún no se ha habilitado. Póngase en contacto con el administrador de su organización y de la zona protegida para solicitar acceso.
 
@@ -94,10 +94,10 @@ Para el contenido multilingüe, se debe definir la siguiente configuración:
 
    1. Si este procedimiento ha fallado, seguirá viendo la misma página de error. En ese caso, póngase en contacto con su representante de Adobe para obtener más ayuda.
 
-+++
+  +++
 
 ## Vídeo práctico {#video}
 
 Aprenda a crear contenido en varios idiomas dentro de una sola campaña o recorrido.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452116?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

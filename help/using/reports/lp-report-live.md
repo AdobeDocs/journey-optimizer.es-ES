@@ -30,7 +30,7 @@ Para acceder a tus informes, selecciona **[!UICONTROL Ver el informe de las últ
 
 La página de aterrizaje **[!UICONTROL Informe en vivo]** está dividida en diferentes widgets que detallan el éxito y los errores de su entrega. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte esta [sección](live-report.md).
 
-+++Obtenga más información acerca de las diferentes métricas y widgets disponibles para el informe en directo de la página de aterrizaje.
++++Obtenga más información acerca de las distintas métricas y widgets disponibles para el informe en directo de la página de aterrizaje.
 
 El widget **[!UICONTROL Rendimiento de la página de aterrizaje]** detalla la información principal relacionada con su mensaje en las últimas 24 horas mediante KPI:
 

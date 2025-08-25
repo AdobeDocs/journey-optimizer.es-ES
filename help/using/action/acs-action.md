@@ -22,7 +22,7 @@ Si tiene Adobe Campaign Standard, hay una acción integrada disponible para perm
 
 El mensaje transaccional de Campaign Standard y su evento asociado deben publicarse para poder utilizarse en Journey Optimizer. Si el evento se publica pero el mensaje no, no será visible en la interfaz de Journey Optimizer. Si el mensaje se publica pero su evento asociado no, estará visible en la interfaz de Journey Optimizer, pero no se podrá utilizar.
 
-## Mecanismos de protección y limitaciones {#important-notes}
+## Protecciones y limitaciones {#important-notes}
 
 * Se define automáticamente una regla de límite de 4000 llamadas por cada 5 minutos para las acciones de Adobe Campaign Standard. Obtenga más información sobre los SLA de mensajería transaccional en [Descripción del producto de Adobe Campaign Standard](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html){target="_blank"}.
 

@@ -78,7 +78,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL Repo
 
 +++
 
-+++_experiencia > Toma de decisiones > contentTypes > Tipo de medio MIME
++++_experience > decisioning > contentTypes > Tipo de medio MIME
 
 **Título:** tipo de medio MIME
 **Descripción:** Una restricción para el tipo de medios de los componentes que se espera en esa ubicación. Podría haber más de un tipo de medio posible para un componente, como un formato de imagen diferente.

@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # Eliminar una colección {#delete-collection}
 
-Ocasionalmente puede ser necesario eliminar (DELETE) una colección. Para ello, realice una solicitud de DELETE a la API [!DNL Offer Library] utilizando la colección `id` de la que desea eliminar.
+En ocasiones puede ser necesario eliminar (DELETE) una colección. Para ello, realice una petición DELETE a la API [!DNL Offer Library] mediante el `id` de la colección que desea eliminar.
 
 **Formato de API**
 

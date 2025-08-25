@@ -83,7 +83,7 @@ Para agregar una modificación de tipo **Selector de CSS**, siga los pasos a con
 
 1. Seleccione **[!UICONTROL Selector de CSS]** como tipo de modificación.
 
-1. El campo **[!UICONTROL Selector de elementos CSS]** le ayuda a buscar y seleccionar los elementos HTML (o nodos del árbol DOM) en los que desea aplicar los cambios. <!--specify the desired CSS element that you want to modify.-->
+1. El campo **[!UICONTROL Selector de elementos CSS]** le ayuda a encontrar y seleccionar los elementos HTML (o nodos del árbol DOM) en los que desea aplicar los cambios. <!--specify the desired CSS element that you want to modify.-->
 
    ![](assets/web-designer-add-modification-css.png)
 
@@ -106,7 +106,7 @@ Puede agregar código personalizado utilizando el tipo de modificación **[!UICO
 
 El elemento `<head>` es un contenedor de metadatos (datos sobre datos) y se coloca entre la etiqueta `<html>` y la etiqueta `<body>`. En este caso, el código no espera eventos body o page-load: se ejecuta al principio de la carga de la página.
 
-El elemento `<head>` se utiliza comúnmente para agregar código JavaScript o CSS al principio de la página. Los selectores para las acciones visuales subsiguientes dependen de los elementos del HTML agregados en esta pestaña.
+El elemento `<head>` se utiliza comúnmente para agregar código JavaScript o CSS al principio de la página. Los selectores para las acciones visuales posteriores dependen de los elementos de HTML agregados en esta pestaña.
 
 Para agregar una modificación de tipo **Página`<head>`**, siga los pasos a continuación.
 
@@ -181,7 +181,7 @@ Cada cambio crea un nuevo elemento en el panel **[!UICONTROL Modificaciones]**. 
 
 +++
 
-+++ **Tenga cuidado al usar el tipo de modificación**&#x200B;[!UICONTROL &#x200B; Página `<head>`]&#x200B;**para dos campañas que afectan a la misma dirección URL.**
++++ **Tenga cuidado al usar el tipo de modificación**[!UICONTROL  Página `<head>`]**para dos campañas que afectan a la misma dirección URL.**
 
 Si usa el tipo de modificación **[!UICONTROL Página`<head>`]** para dos campañas que afectan a la misma dirección URL, JavaScript se inserta en la página desde ambas campañas. [!DNL Journey Optimizer] determina automáticamente el orden del contenido enviado. Asegúrese de que el código no dependa de la ubicación. Depende de usted asegurarse de que no haya conflictos en el código.
 

@@ -1,6 +1,6 @@
 ---
 title: Creación de aplicaciones de una sola página
-description: SPA Obtenga información sobre cómo crear y aplicar modificaciones a distintas vistas de Journey Optimizer
+description: Obtenga información sobre cómo crear SPA y aplicar modificaciones a diferentes vistas en Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
@@ -23,23 +23,23 @@ ht-degree: 16%
 >abstract="Los cambios se aplicarán solamente a las vistas seleccionadas. Las vistas se pueden descubrir utilizando el modo **Examinar** y navegando hasta ellas. ¿No encuentra la vista que busca?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es" text="Más información"
 
-SPA Ahora se pueden crear **aplicaciones de una sola página** () en el editor visual del diseñador web. Esto le permite seleccionar a qué **vistas** específicas desea aplicar las modificaciones de la página web.
+Ahora se pueden crear **aplicaciones de una sola página** (SPA) en el editor visual del diseñador web. Esto le permite seleccionar a qué **vistas** específicas desea aplicar las modificaciones de la página web.
 
 [Aprenda a crear aplicaciones de una sola página en este vídeo](#video)
 
 Una vista puede definirse como un sitio completo o como un grupo de elementos visuales en un sitio, como la página de inicio, la totalidad del sitio de productos o el marco de preferencias de envío en todas las páginas de cierre de compra.
 
-Se necesita una configuración de desarrollador única para definir las vistas en la implementación del SDK web de Adobe Experience Platform. Esto le permite crear y ejecutar campañas web de Adobe Journey Optimizer SPA en el tiempo de ejecución de la.
+Se necesita una configuración de desarrollador única para definir las vistas en la implementación de Adobe Experience Platform Web SDK. Esto le permite crear y ejecutar campañas web de Adobe Journey Optimizer en SPA.
 
-## Definir vistas en la implementación del SDK web {#define-views}
+## Definición de vistas en la implementación de Web SDK {#define-views}
 
-Las vistas XDM se pueden aprovechar en el Adobe SPA [!DNL Journey Optimizer] para que los especialistas en marketing puedan ejecutar campañas de personalización y experimentación web en mediante el editor visual web. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=es){target="_blank"}
+Las vistas XDM se pueden aprovechar en Adobe [!DNL Journey Optimizer] para que los especialistas en marketing puedan ejecutar campañas de personalización y experimentación web en SPA a través del editor visual web. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=es){target="_blank"}
 
-Para poder acceder y crear vistas en la interfaz de usuario de [!DNL Journey Optimizer], asegúrese de seguir los pasos enumerados en [esta sección](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=es#implement-xdm-views){target="_blank"}.
+Para poder tener acceso y crear vistas en la interfaz de usuario de [!DNL Journey Optimizer], asegúrese de seguir los pasos que se indican en [esta sección](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## Descubra vistas en el diseñador web {#discover-views}
 
-SPA Una vez completada la configuración en la implementación del SDK web de Adobe Experience Platform, debe navegar por todas las vistas del sitio web a las que desee aplicar las modificaciones. Siga los pasos a continuación.
+Una vez que la configuración de las SPA se realiza en la implementación de Adobe Experience Platform Web SDK, debe navegar por todas las vistas del sitio web al que desee aplicar las modificaciones. Siga los pasos a continuación.
 
 1. [Cree un recorrido web o una campaña](create-web.md) y acceda al [diseñador web](web-visual-editor.md).
 
@@ -81,13 +81,13 @@ Una vez añadida una modificación mientras se encuentra en una vista específic
 
    ![](assets/web-designer-modifications-applied-view.png)
 
-## Vídeo explicativo{#video}
+## Vídeo práctico{#video}
 
 En este vídeo se explica cómo:
 
-* SPA Detectar vistas de la vista utilizando el modo **[!UICONTROL Examinar]**
+* Descubra vistas de SPA con el modo **[!UICONTROL Examinar]**
 * Crear en la vista actual
 * Aplicar modificaciones del sitio web a varias vistas o a todas las vistas descubiertas
 * Realizar acciones masivas en las modificaciones
 
->[!VIDEO](https://video.tv.adobe.com/v/3446888/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

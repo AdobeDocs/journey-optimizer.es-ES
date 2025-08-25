@@ -10,7 +10,7 @@ level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Tenga en cuenta que, para cada plataforma que desee configurar, es necesario cre
 
   A continuación se indican los permisos necesarios para ejecutar la configuración de canales guiada.
 
-+++ Permisos necesarios
+  +++ Permisos necesarios
 
   <table>
     <thead>
@@ -107,7 +107,7 @@ Tenga en cuenta que, para cada plataforma que desee configurar, es necesario cre
     </tbody>
   </table>
 
-+++
+  +++
 
 * Si utiliza la opción de configuración Existente, asegúrese de que usa las siguientes versiones de la extensión del SDK móvil de Adobe Experience Platform. Para obtener más información sobre la configuración del SDK, incluidas las dependencias y el código de inicialización necesarios, consulte la [siguiente documentación](https://experienceleague.adobe.com/es/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
 

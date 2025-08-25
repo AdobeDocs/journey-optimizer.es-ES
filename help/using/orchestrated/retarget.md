@@ -40,7 +40,7 @@ Con estos datos, se pueden definir reglas para identificar a los destinatarios q
 
 1. Elija el atributo **[!UICONTROL Estado de comentarios]** para segmentar los eventos de envío de mensajes.
 
-+++ Detallado paso a paso
+   +++ Detallado paso a paso
 
    1. Agregue otra condición vinculada al atributo **[!UICONTROL Message feedback]**.
 
@@ -52,11 +52,11 @@ Con estos datos, se pueden definir reglas para identificar a los destinatarios q
 
       ![](assets/retarget_4.png){zoomable="yes"}
 
-+++
+   +++
 
 1. Elija el atributo **[!UICONTROL Nombre de campaña orquestada]** para segmentar una campaña orquestada específica.
 
-+++ Detallado paso a paso
+   +++ Detallado paso a paso
 
    1. Agregue otra condición vinculada al atributo **[!UICONTROL Message feedback]**, busque **[!UICONTROL entity]** y navegue hasta:
 
@@ -68,11 +68,11 @@ Con estos datos, se pueden definir reglas para identificar a los destinatarios q
 
    1. En el menú **[!UICONTROL Condición personalizada]**, especifique el nombre de la campaña en el campo **[!UICONTROL Valor]**.
 
-+++
+   +++
 
 1. Elija el atributo **[!UICONTROL Nombre de acción de campaña orquestada]** para segmentar un mensaje o una actividad específicos dentro de una campaña orquestada.
 
-+++ Detallado paso a paso
+   +++ Detallado paso a paso
 
    1. Agregue otra condición vinculada al atributo **[!UICONTROL Message feedback]**, busque **[!UICONTROL entity]** y navegue hasta:
 
@@ -86,7 +86,7 @@ Con estos datos, se pueden definir reglas para identificar a los destinatarios q
 
       Para encontrar los nombres de las acciones, haga clic en el ![icono de información](assets/do-not-localize/info-icon.svg) junto al campo Etiqueta de su actividad.
 
-+++
+   +++
 
 1. También puede filtrar por **[!UICONTROL ID de campaña]** (UUID), que se encuentra en las propiedades de Campaign.
 

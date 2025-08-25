@@ -24,7 +24,7 @@ Puede definir el contenido de la página de aterrizaje mediante JavaScript perso
 
 Para insertar JavaScript personalizado en el contenido de la página de aterrizaje, puede hacer lo siguiente:
 
-* Importe contenido existente del HTML al empezar a crear el contenido y seleccione el archivo que incluye el código personalizado de JavaScript. Obtenga información sobre cómo importar contenido [en esta sección](../email/existing-content.md).
+* Importe el contenido existente de HTML al empezar a crear el contenido y seleccione el archivo que incluye el código personalizado de JavaScript. Obtenga información sobre cómo importar contenido [en esta sección](../email/existing-content.md).
 
 * Diseñe la página de aterrizaje desde cero o desde una plantilla guardada. Arrastre y suelte el componente de contenido **[!UICONTROL HTML]** en el lienzo y muestre el código fuente para agregar su JavaScript al componente. Aprenda a utilizar el componente HTML en [esta sección](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 

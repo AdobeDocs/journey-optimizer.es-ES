@@ -10,7 +10,8 @@ level: Beginner
 keywords: integración
 hide: true
 hidefromtoc: true
-source-git-commit: e8512ddab2548c8b2156331c335632cde8686f80
+exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
+source-git-commit: ad5fdefed71d75470dc243310e74372e0b08ba2a
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 1%
@@ -131,7 +132,3 @@ Como experto en marketing, puede utilizar integraciones configuradas para person
 La personalización de la integración ahora se aplica correctamente al contenido, lo que garantiza que cada destinatario reciba una experiencia relevante y adaptada en función de los atributos que haya configurado.
 
 ![](assets/external-integration-content-7.png)
-
-
-
-

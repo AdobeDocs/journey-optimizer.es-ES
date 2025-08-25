@@ -144,7 +144,7 @@ Para definir los ajustes de configuración de la experiencia basada en código p
 
    La URL de vista previa es un vínculo profundo configurado por el desarrollador de la aplicación dentro de la aplicación. Esto garantiza que cualquier dirección URL que coincida con el esquema de vínculos profundos se abra en la aplicación en lugar de en un explorador web móvil. Póngase en contacto con el desarrollador de su aplicación para obtener el esquema de vínculos profundos configurado para su aplicación.
 
-+++  Los siguientes recursos pueden ayudarle a configurar vínculos profundos para la implementación de su aplicación
+   +++  Los siguientes recursos pueden ayudarle a configurar vínculos profundos para la implementación de su aplicación
 
    * Para Android:
 
@@ -156,11 +156,11 @@ Para definir los ajustes de configuración de la experiencia basada en código p
 
       * [Compatibilidad con vínculos universales en la aplicación](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
-+++
+   +++
 
    >[!NOTE]
    >
-   >Si encuentra problemas al obtener una vista previa de la experiencia, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
+   >Si encuentra problemas al obtener una vista previa de la experiencia, consulte [esta documentación](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 ### Otras plataformas {#other}
 

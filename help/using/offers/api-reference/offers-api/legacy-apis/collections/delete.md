@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Eliminar una colección {#delete-collection}
 
-Ocasionalmente puede ser necesario eliminar (DELETE) una colección. Solo se pueden eliminar las colecciones que cree en el contenedor de inquilino. Para ello, realice una solicitud de DELETE a la API [!DNL Offer Library] usando el $id de la colección que desea eliminar.
+En ocasiones puede ser necesario eliminar (DELETE) una colección. Solo se pueden eliminar las colecciones que cree en el contenedor de inquilino. Para ello, realice una petición DELETE a la API [!DNL Offer Library] con el $id de la colección que desea eliminar.
 
 **Formato de API**
 

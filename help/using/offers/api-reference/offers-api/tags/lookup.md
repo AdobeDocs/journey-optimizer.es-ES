@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Buscar un calificador de colección {#look-up-tag}
 
-GET Puede buscar calificadores de colección específicos (anteriormente conocidos como &quot;etiquetas&quot;) realizando una solicitud a la API de la biblioteca de ofertas que incluya el ID del calificador de colección en la ruta de solicitud.
+Puede buscar calificadores de colección específicos (anteriormente conocidos como &quot;etiquetas&quot;) realizando una petición GET a la API de la biblioteca de ofertas que incluya el ID del calificador de colección en la ruta de solicitud.
 
 **Formato de API**
 

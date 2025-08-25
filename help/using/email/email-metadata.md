@@ -31,7 +31,7 @@ Al diseñar los correos electrónicos, para mejorar la legibilidad y la accesibi
 
   >[!NOTE]
   >
-  >Los encabezados previos no son compatibles con todos los clientes de correo electrónico. Cuando no se admite, el encabezado previo no se muestra.
+  >Los preencabezados no son compatibles con todos los clientes de correo electrónico. Cuando no se admite, el preencabezado no se muestra.
 
 * **[!UICONTROL Título del documento]**: este campo, que corresponde al elemento `<title>`, proporciona información descriptiva sobre el contenido del correo electrónico, que normalmente se muestra como información de objeto al pasar el ratón por encima. Puede ayudar a los usuarios con discapacidades al proporcionar un contexto adicional y puede contribuir a una mejor comprensión del contenido por parte de los motores de búsqueda.
 

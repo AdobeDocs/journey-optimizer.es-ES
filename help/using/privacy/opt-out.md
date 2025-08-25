@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -55,7 +55,7 @@ Aprenda a administrar la exclusión en los mensajes de correo electrónico y SMS
 
 >[!NOTE]
 >
->En [!DNL Journey Optimizer], el consentimiento se gestiona mediante el [Esquema de consentimiento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"} de Experience Platform. De forma predeterminada, el valor del campo de consentimiento está vacío y se trata como consentimiento para recibir sus comunicaciones. Puede modificar este valor predeterminado al incorporar uno de los posibles valores enumerados [aquí](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=es#choice-values){target="_blank"}, o usar las [directivas de consentimiento](../action/consent.md) para anular la lógica predeterminada.
+>En [!DNL Journey Optimizer], el consentimiento se administra mediante el esquema de consentimiento [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"}. De forma predeterminada, el valor del campo de consentimiento está vacío y se trata como consentimiento para recibir sus comunicaciones. Puede modificar este valor predeterminado al incorporar uno de los posibles valores enumerados [aquí](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=es#choice-values){target="_blank"}, o usar [directivas de consentimiento](../action/consent.md) para anular la lógica predeterminada.
 
 ## Implementación del consentimiento de personalización {#opt-out-personalization}
 
@@ -69,7 +69,7 @@ Al aprovechar las ofertas, las preferencias de personalización no se implementa
 >
 >Los ámbitos de decisión utilizados en los canales creados de [!DNL Journey Optimizer] cumplen este requisito desde el recorrido o la campaña a los que pertenecen.
 
-1. Cree un [público de Adobe Experience Platform](../audience/about-audiences.md) usando el [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"} y utilice un atributo de perfil como **[!UICONTROL Personalizar contenido = Sí (inclusión)]** para dirigirse a los usuarios que hayan aceptado la personalización.
+1. Cree una [audiencia de Adobe Experience Platform](../audience/about-audiences.md) mediante el [servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"} y use un atributo de perfil como **[!UICONTROL Personalizar contenido = Sí (opción de inclusión)]** para segmentar usuarios que hayan aceptado la personalización.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -121,7 +121,7 @@ Para aplicar manualmente el consentimiento de personalización en las campañas,
 
 Puede usar el generador de reglas de segmentos para crear un público que contenga perfiles de exclusión.
 
-1. Cree un [público de Adobe Experience Platform](../audience/about-audiences.md) con el [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"}.
+1. Crear una [audiencia de Adobe Experience Platform](../audience/about-audiences.md) mediante el [servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 

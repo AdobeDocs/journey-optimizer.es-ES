@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Pasos clave para crear una campaña organizada
+title: Pasos clave para crear una campaña orquestada
 description: Conozca los principios clave de la creación de campañas organizadas con Adobe Journey Optimizer
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 62%
+ht-degree: 67%
 
 ---
 
 
-# Pasos clave para crear una campaña organizada {#orchestrated-campaign-creation}
+# Pasos clave para crear una campaña orquestada {#orchestrated-campaign-creation}
 
 Esta página le guiará por los pasos esenciales para crear e iniciar una campaña orquestada, desde la configuración y el diseño hasta la monitorización y la creación de informes.
 

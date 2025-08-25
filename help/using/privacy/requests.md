@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -22,10 +22,10 @@ Las solicitudes de privacidad se pueden crear y administrar desde el menú **[!U
 
 ![](assets/requests.png)
 
-Para obtener más información sobre Privacy Service y cómo crear y administrar solicitudes de privacidad, consulte la siguiente [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target="_blank"}.
+Para obtener más información sobre Privacy Service y cómo crear y administrar solicitudes de privacidad, consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target="_blank"}.
 
-<!--* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es)
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es)-->
+<!--* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)-->
 
 ## Administración de las solicitudes de privacidad de datos individuales que puede enviar a Adobe Journey Optimizer {#data-privacy-requests}
 
@@ -69,7 +69,7 @@ Para realizar solicitudes de acceso y eliminación de datos para Adobe Journey O
 
 >[!IMPORTANT]
 >
->Al enviar solicitudes de privacidad, asegúrese de especificar “[!DNL '**Adobe Journey Optimizer**]” como nombre de producto de destino y **todos los espacios de nombres de identidad** (como “Correo electrónico”, “ECID” o “ID de fidelidad”) asociados con los datos de perfil a los que hay que acceder o que hay que eliminar. En particular, para las solicitudes de eliminación, si no incluye explícitamente el nombre del producto y todos los espacios de nombres aplicables, los datos no se eliminan de [!DNL Adobe Journey Optimizer].
+>Al enviar solicitudes de privacidad, asegúrese de especificar “[!DNL '**Adobe Journey Optimizer**]” como nombre de producto de destino y **todos los espacios de nombres de identidad** (como “Correo electrónico”, “ECID” o “ID de lealtad”) asociados con los datos de perfil a los que hay que acceder o que hay que eliminar. En particular, para las solicitudes de eliminación, si no incluye explícitamente el nombre del producto y todos los espacios de nombres aplicables, los datos no se eliminan de [!DNL Adobe Journey Optimizer].
 
 ### Valores de campo requeridos en Journey Optimizer para las solicitudes de API
 

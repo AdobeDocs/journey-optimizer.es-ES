@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Actualización de un cualificador colección {#update-collection-qualifier}
 
-Puede modificar o actualizar un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;) en su contenedor realizando una solicitud de PATCH a la API [!DNL Offer Library].
+Puede modificar o actualizar un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;) en su contenedor realizando una petición PATCH a la API [!DNL Offer Library].
 
 Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](https://jsonpatch.com/).
 

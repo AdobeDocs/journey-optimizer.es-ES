@@ -22,7 +22,7 @@ Una vez que haya creado una o más [campañas de calentamiento de IP](ip-warmup-
 
 Para acceder, crear, editar y eliminar los planes de calentamiento de IP, debe tener el rol **[!UICONTROL Consultor de capacidad de entrega]** o permisos relacionados con los planes de calentamiento de IP.
 
-+++Obtenga información sobre cómo asignar la función de consultor de capacidad de entrega o los permisos relacionados con los planes de calentamiento de IP
++++Obtenga información sobre cómo asignar la función Consultor de capacidad de entrega o los permisos relacionados con planes de calentamiento de IP
 
 El control de acceso a nivel de objeto le permite proteger los datos y conceder acceso específico para ver y administrar sus planes. Si no se ha asignado ninguna etiqueta a su plan de calentamiento de IP, estará abierta para que la vean y editen todos los usuarios.
 
@@ -175,11 +175,11 @@ inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
 wp.pl;o2.pl
 +++
 
-+++Internet unido
++++Internet Unido
 gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
 +++
 
-+++Bigpond
++++Estanque Grande
 bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
 +++
 

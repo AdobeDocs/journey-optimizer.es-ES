@@ -16,7 +16,7 @@ ht-degree: 12%
 
 # Eliminar una oferta de reserva {#delete-fallback-offer}
 
-En ocasiones puede ser necesario eliminar (DELETE) una oferta de reserva. Para ello, realice una solicitud de DELETE a la API [!DNL Offer Library] usando el identificador de la oferta de reserva que desea eliminar.
+En ocasiones puede ser necesario eliminar (DELETE) una oferta de reserva. Para ello, realice una petición DELETE a la API [!DNL Offer Library] con el ID de la oferta de reserva que desea eliminar.
 
 **Formato de API**
 

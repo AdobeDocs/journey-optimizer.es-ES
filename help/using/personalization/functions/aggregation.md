@@ -35,7 +35,7 @@ La siguiente operación devuelve el precio medio de todos los pedidos.
 {%=average(orders.order.price)%}
 ```
 
-## Cuenta{#count}
+## Count{#count}
 
 La función `count` devuelve el número de elementos dentro de la matriz determinada.
 

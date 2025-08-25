@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Eliminar una oferta personalizada {#delete-personalized-offer}
 
-En ocasiones puede ser necesario eliminar (DELETE) una oferta personalizada. Solo se pueden eliminar las ofertas personalizadas que cree en el contenedor de inquilino. Para ello, realice una solicitud de DELETE a la API [!DNL Offer Library] usando el $id de la oferta personalizada que desea eliminar.
+En ocasiones puede ser necesario eliminar (DELETE) una oferta personalizada. Solo se pueden eliminar las ofertas personalizadas que cree en el contenedor de inquilino. Para ello, realice una petición DELETE a la API [!DNL Offer Library] utilizando el $id de la oferta personalizada que desea eliminar.
 
 **Formato de API**
 
@@ -44,4 +44,4 @@ curl -X DELETE \
 
 Una respuesta correcta devuelve el estado HTTP 202 (sin contenido) y un cuerpo en blanco.
 
-Puede confirmar la eliminación intentando una solicitud de búsqueda (GET) a la oferta personalizada. Deberá incluir un encabezado Aceptar en la solicitud, pero deberá recibir el estado HTTP 404 (no encontrado) porque la oferta personalizada se ha eliminado del contenedor.
+Para confirmar la eliminación, intente una solicitud de búsqueda (GET) para la oferta personalizada. Deberá incluir un encabezado Aceptar en la solicitud, pero deberá recibir el estado HTTP 404 (no encontrado) porque la oferta personalizada se ha eliminado del contenedor.

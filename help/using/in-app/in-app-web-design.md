@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!BEGINSHADEBOX]
 
-**Tabla de contenido**
+**Tabla de contenidos**
 
 * [Configuración del canal web en la aplicación](configure-in-app-web.md)
 * [Creación de la campaña de mensajes en la aplicación web](create-in-app-web.md)
@@ -33,7 +33,7 @@ Para editar el contenido del mensaje en la aplicación, haga clic en el botón *
 
 La opción **[!UICONTROL Formato avanzado]** activa opciones adicionales para personalizar la experiencia.
 
-Una vez creado el mensaje en la aplicación, y definido y personalizado su contenido, puede revisarlo y activarlo. Las notificaciones se envían según la programación de campaña. Más información sobre [esta página](send-in-app.md).
+Una vez creado el mensaje en la aplicación, y definido y personalizado su contenido, puede revisarlo y activarlo. Las notificaciones se envían según la programación de campaña. Obtenga más información en [esta página](send-in-app.md).
 
 ## Diseño del mensaje {#message-layout}
 

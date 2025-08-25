@@ -36,7 +36,7 @@ Para crear un método de clasificación, siga estos pasos:
    Encontrará información detallada sobre cómo crear fórmulas de clasificación y modelos de IA en las siguientes secciones:
 
    * [Fórmulas de clasificación](ranking-formulas.md)
-   * [modelos de IA](ai-models.md)
+   * [Modelos de IA](ai-models.md)
 
 1. Configure la fórmula o el modelo de IA para adaptarlo a sus necesidades y, a continuación, guárdelo.
 

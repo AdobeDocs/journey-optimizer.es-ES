@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -34,7 +34,7 @@ Para insertar un vínculo de baja en el contenido del correo electrónico, puede
 
 Cuando un destinatario hace clic en el vínculo de no participación, su solicitud de cancelación de suscripción se procesa en consecuencia.
 
-Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y [busque ese perfil](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide#attributes-tab). En la ficha **[!UICONTROL Atributos]**, puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y [busque ese perfil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). En la ficha **[!UICONTROL Atributos]**, puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -89,7 +89,7 @@ Para implementar este modo de baja, debe crear y publicar una página de aterriz
 
 ### Requisitos previos {#prereq-lp}
 
-Para configurar un mecanismo de exclusión de dos pasos, debe crear sus propias páginas de aterrizaje de baja. La primera página de aterrizaje se vinculará desde el mensaje y debe contener un botón de llamada a la acción. Se debe mostrar un mensaje de confirmación cuando el usuario haga clic en el botón.
+Para configurar un mecanismo de exclusión de dos pasos, debe crear sus propias páginas de aterrizaje de baja. La primera página de aterrizaje se vinculará desde el mensaje y debe contener un botón call-to-action. Se debe mostrar un mensaje de confirmación cuando el usuario haga clic en el botón.
 
 Aprenda a crear una página de aterrizaje en Adobe Journey Optimizer para administrar las bajas de suscripción en [esta página](../landing-pages/lp-use-cases.md#opt-out).
 
@@ -97,7 +97,7 @@ También puede utilizar una página de aterrizaje externa. En ese caso, configur
 
 +++ Obtenga información sobre cómo implementar una llamada de API de exclusión
 
-Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **llamada de API de suscripción** a través de [Adobe Developer](https://developer.adobe.com){target="_blank"} para actualizar las preferencias de los perfiles correspondientes.
+Para que los destinatarios se excluyan cuando envíen su elección desde la página de aterrizaje, debe implementar una **Llamada de API de suscripción** a través de [Adobe Developer](https://developer.adobe.com){target="_blank"} para actualizar las preferencias de los perfiles correspondientes.
 
 Esta llamada de POST es como sigue:
 
@@ -153,7 +153,7 @@ Primero debe agregar el vínculo &quot;Cancelar la suscripción&quot; a un mensa
 
    ![](assets/opt-out-link-type.png)
 
-   En el campo de **[!UICONTROL Vínculo]**, pegue el vínculo a la página de aterrizaje de terceros.
+   En el campo de **[!UICONTROL Vínculo]**, pegue el vínculo a la página de destino de terceros.
 
    ![](assets/opt-out-link-url.png)
 
@@ -166,7 +166,7 @@ Una vez configurado el vínculo &quot;Cancelar la suscripción&quot; a la págin
 
 1. Configure el mensaje con un vínculo de baja y envíelo a sus suscriptores.
 
-1. Una vez recibido el mensaje, si el destinatario hace clic en el vínculo para cancelar la suscripción, se muestra la página de aterrizaje.
+1. Una vez recibido el mensaje, si el destinatario hace clic en el vínculo para cancelar la suscripción, se muestra la página de destino.
 
    ![](assets/opt-out-lp-example.png)
 

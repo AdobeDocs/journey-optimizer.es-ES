@@ -266,4 +266,4 @@ Para obtener más información, consulte [Documentación para desarrolladores](h
 
 El siguiente vídeo muestra cómo crear y probar los mensajes en la aplicación.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422076?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

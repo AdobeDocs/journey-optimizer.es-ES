@@ -10,7 +10,7 @@ keywords: expresión, datos, tipo de datos, recorrido
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '616'
 ht-degree: 5%
 
 ---
@@ -165,7 +165,7 @@ Se puede encapsular en una función toDateTimeOnly.
 
 Formato de serialización: formato de fecha y hora de desplazamiento extendido ISO-8601.
 
-Utiliza DateTimeFormatter ISO_LOCAL_DATE_TIME para deserializar y serializar el valor. [Más información](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;){_blank}.
+Utiliza DateTimeFormatter ISO_LOCAL_DATE_TIME para deserializar y serializar el valor. [Más información](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME"){_blank}.
 
 **Representación literal**
 

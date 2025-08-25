@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
 workflow-type: tm+mt
 source-wordcount: '1218'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -139,7 +139,7 @@ Después de configurar la experimentación, puede realizar un seguimiento del é
 >* Canales entrantes (por ejemplo, web, mensaje en la aplicación o experiencia basada en código) en cualquier recorrido o campaña.
 >* Canales salientes (por ejemplo, correo electrónico, notificaciones push, SMS) en campañas transaccionales activadas por API.
 
-Escalar el ganador permite desplegar automática o manualmente la variación ganadora de un experimento para toda la audiencia. Esta función garantiza que, una vez que se determina un ganador, puede amplificar su alcance y efectividad sin monitorizar constantemente el experimento.
+Escalar el ganador permite desplegar automática o manualmente la variación ganadora de un experimento para todo el público. Esta función garantiza que, una vez que se determina un ganador, puede amplificar su alcance y efectividad sin monitorizar constantemente el experimento.
 
 Puede elegir entre dos modos:
 

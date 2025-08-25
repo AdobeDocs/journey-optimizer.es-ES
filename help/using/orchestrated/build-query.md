@@ -7,7 +7,7 @@ exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Para añadir condiciones en la consulta, siga estos pasos:
 
 1. Haga clic en la imagen ![que muestra el botón Más acciones](assets/do-not-localize/rule-builder-icon-more.svg) situado junto a un atributo para acceder a estas opciones adicionales:
 
-+++ Distribución de valores
+   +++ Distribución de valores
 
    Analice la distribución de los valores de un atributo determinado dentro de la tabla. Esta función es útil para comprender los valores disponibles, sus recuentos y sus porcentajes. También ayuda a evitar problemas como la incoherencia en las mayúsculas o en la ortografía al crear consultas o expresiones.
 
@@ -50,9 +50,9 @@ Para añadir condiciones en la consulta, siga estos pasos:
 
    ![imagen que muestra la interfaz Distribución de valores](assets/rule-builder-distribution-values.png)
 
-+++
+   +++
 
-+++ Añadir a favoritos
+   +++ Añadir a favoritos
 
    Añadir atributos al menú de favoritos le permite acceder rápidamente a los atributos utilizados con más frecuencia. Puede añadir hasta 20 atributos a favoritos. Los atributos favoritos y recientes están asociados con cada usuario dentro de una organización, lo que garantiza la accesibilidad entre diferentes máquinas y proporciona una experiencia perfecta en toda dispositivos.
 
@@ -60,7 +60,7 @@ Para añadir condiciones en la consulta, siga estos pasos:
 
    ![imagen que muestra la interfaz de favoritos](assets/rule-builder-favorites.png)
 
-+++
+   +++
 
 1. Haga clic en **[!UICONTROL Confirmar]** para añadir el atributo seleccionado a la condición.
 
@@ -113,7 +113,7 @@ También puede seleccionar directamente un vínculo de tabla en el selector **Va
 
 +++Ejemplo de consulta
 
-En este caso, la consulta está dirigida a marcas cuya etiqueta es “en ejecución”.
+En este caso, la consulta está segmentada a marcas cuya etiqueta es “en ejecución”.
 
 1. Vaya dentro de la tabla **Marca** y seleccione el atributo **Etiqueta**.
 
@@ -127,13 +127,13 @@ Este es un ejemplo de consulta en el que se ha seleccionado directamente un vín
 
 ![Captura de pantalla de la tabla Marca](assets/rule-builder-1-1-attribute-table.png)
 
-+++
++++ 
 
 Para un **vínculo 1-N**, puede definir subcondiciones para restringir la consulta, como se muestra en el ejemplo siguiente.
 
 +++Ejemplo de consulta
 
-En este caso, la consulta se dirige a los destinatarios que han realizado compras relacionadas con el producto Brewmsaster, por más de 100 USD.
+En este caso, la consulta está segmentada a los destinatarios que han realizado compras relacionadas con el producto Brewmsaster, por más de 100 USD.
 
 1. Seleccione la tabla **Compras** y confirme.
 
@@ -145,7 +145,7 @@ En este caso, la consulta se dirige a los destinatarios que han realizado compra
 
    ![Captura de pantalla de la tabla Compra](assets/rule-builder-1-n-collection.png)
 
-+++
++++ 
 
 ### Condiciones personalizadas con Agregar datos {#aggregate}
 

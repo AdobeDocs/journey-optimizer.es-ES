@@ -16,7 +16,7 @@ ht-degree: 6%
 
 ---
 
-# Uso de respuestas de llamadas de API en acciones personalizadas {#custom-action-enhancements}
+# Uso de respuestas de llamadas API en acciones personalizadas {#custom-action-enhancements}
 
 Puede aprovechar las respuestas de llamadas de API en acciones personalizadas y organizar sus recorridos en función de estas respuestas.
 
@@ -135,7 +135,7 @@ Por ejemplo, puede agregar una condición para comprobar la cantidad de puntos d
 
    ![](assets/action-response6.png)
 
-1. A continuación, añada la notificación push y personalice el mensaje mediante los campos de respuesta. En nuestro ejemplo, personalizamos el contenido mediante la cantidad de puntos de fidelidad y el estado del cliente. Los campos de respuesta de acción están disponibles en **Atributos contextuales** > **Journey Orchestration** > **Acciones**.
+1. A continuación, añada la notificación push y personalice el mensaje mediante los campos de respuesta. En nuestro ejemplo, personalizamos el contenido mediante la cantidad de puntos de fidelidad y el estado del cliente. Los campos de respuesta a la acción están disponibles en **Atributos contextuales** > **Journey Orchestration** > **Acciones**.
 
    ![](assets/action-response8.png)
 

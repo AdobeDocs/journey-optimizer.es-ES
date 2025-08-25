@@ -8,8 +8,8 @@ level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 11%
+source-wordcount: '1032'
+ht-degree: 13%
 
 ---
 
@@ -170,7 +170,7 @@ La función `ageInMonths` calcula la edad de una fecha determinada en meses, es 
 
 +++Ejemplo
 
-currentDate = 2025-01-07T12:22:46.993748+05:30 (Asia/Calcuta)
+currentDate = 2025-01-07T12:22:46.993748+05:30(Asia/Calcuta)
 
 * Entrada: `{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
 * Salida: `12`
@@ -410,7 +410,7 @@ Donde la primera cadena es el atributo de fecha y el segundo valor es cómo dese
 >
 > Si un patrón de fecha no es válido, la fecha volverá a estar en el formato estándar ISO.
 >
-> Puede utilizar funciones de formato de fecha de Java como se resume en [Documentación de Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> Puede utilizar las funciones de formato de fecha de Java como se resume en [Documentación de Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Ejemplo**
 
@@ -436,7 +436,7 @@ Cuando la primera cadena es el atributo de fecha, el segundo valor es cómo dese
 >
 > Si un patrón de fecha no es válido, la fecha volverá a estar en el formato estándar ISO.
 >
-> Puede utilizar funciones de formato de fecha Java como se resume en [Documentación de Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> Puede usar funciones de formato de fecha Java como se resume en [Documentación de Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
 > Puede usar formato y configuraciones regionales válidas, tal como se resume en [Documentación de Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) y [Configuraciones regionales compatibles](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabajar con el asistente de IA
-description: Aprenda a aprovechar el asistente de IA
+title: Trabajo con el Asistente de IA
+description: Aprenda a utilizar el Asistente de IA
 feature: Overview
 topic: Content Management
 role: User
@@ -11,22 +11,22 @@ exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 24%
+ht-degree: 47%
 
 ---
 
-# Trabajar con el asistente de IA {#ai-assistant}
+# Trabajo con el Asistente de IA {#ai-assistant}
 
 El asistente de IA es una función de la interfaz de usuario que se puede utilizar para navegar, comprender los conceptos de Adobe y obtener perspectivas operativas de su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluido Adobe Journey Optimizer.
 
-Para acceder al asistente de IA, haga clic en el icono de la barra superior. El asistente de IA se muestra en la sección derecha de la pantalla.
+Para acceder al Asistente de IA, haga clic en el icono de la barra superior. El asistente de IA se muestra en la sección derecha de la pantalla.
 
 ![](assets/do-not-localize/ai-assistant-open.png)
 
 
 >[!CAUTION]
 >
->Debe aceptar las Directrices del usuario de IA generativa de Adobe Experience Cloud para poder utilizar el asistente de IA. Más información sobre el acuerdo de [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Debe aceptar las directrices del usuario de IA generativa de Adobe Experience Cloud para poder utilizar el Asistente de IA. Obtenga más información sobre el acuerdo en [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 En Adobe Journey Optimizer, tiene acceso a los siguientes casos de uso:
 
@@ -62,4 +62,4 @@ Compruebe la respuesta y use el botón **Mostrar fuentes** para obtener vínculo
 
 Utilice el pulgar hacia arriba o hacia abajo para valorar la respuesta.
 
-Para aprender a utilizar el Asistente de IA, ver los objetivos de ejemplo que puede lograr con el Asistente de IA y aprender cómo funciona el Asistente de IA, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Para aprender a utilizar el Asistente de IA, vea los objetivos de ejemplo que puede lograr con el Asistente de IA y obtenga información sobre cómo funciona en la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home){target="_blank"}.

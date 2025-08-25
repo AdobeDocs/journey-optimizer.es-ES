@@ -5,17 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: 60b2990e-e3a6-4d4b-8851-889cf91b0eef
+source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 8%
 
 ---
 
-
 # Buscar una colección de elementos {#lookup-item-collection}
 
-Puede buscar una colección de elementos específica realizando una solicitud de GET a la API de la biblioteca de ofertas que incluya el ID en la ruta de solicitud.
+Puede buscar una colección de elementos específica realizando una petición GET a la API de la biblioteca de ofertas que incluya el ID en la ruta de solicitud.
 
 **Formato de API**
 

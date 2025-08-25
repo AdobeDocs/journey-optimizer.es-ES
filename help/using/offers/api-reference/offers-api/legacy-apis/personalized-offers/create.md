@@ -17,7 +17,7 @@ ht-degree: 11%
 
 Una oferta personalizada es un mensaje de marketing personalizable basado en reglas de elegibilidad y restricciones.
 
-Puede crear una oferta personalizada realizando una solicitud de POST a la API [!DNL Offer Library], al tiempo que proporciona su ID de contenedor.
+Puede crear una oferta personalizada realizando una petición POST a la API [!DNL Offer Library], mientras proporciona su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 

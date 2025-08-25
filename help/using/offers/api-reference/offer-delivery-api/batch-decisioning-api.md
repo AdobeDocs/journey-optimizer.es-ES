@@ -30,7 +30,7 @@ Para ello, la organización debería:
 
 * Exporte el conjunto de datos a la API del proveedor de entrega de mensajes.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=es) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -177,6 +177,6 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 | `ode:status` | El estado de la carga de trabajo comienza con &quot;EN COLA&quot; y cambia a &quot;PROCESANDO&quot;, &quot;INGIRIENDO&quot;, &quot;COMPLETADO&quot; o &quot;ERROR&quot;. | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | Esto muestra más detalles, como sparkJobId y batchID si el estado es &quot;PROCESANDO&quot; o &quot;INGIRIENDO&quot;. Muestra los detalles del error si el estado es &quot;ERROR&quot;. |  |
 
-## Pasos siguientes {#next-steps}
+## Próximos pasos {#next-steps}
 
 Siguiendo esta guía de API, ha comprobado el estado de la carga de trabajo y ha enviado ofertas utilizando la API de [!DNL [!DNL Batch Decisioning]]. Para obtener más información, consulte la [descripción general de Administración de decisiones](../../get-started/starting-offer-decisioning.md).

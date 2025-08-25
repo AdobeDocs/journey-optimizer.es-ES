@@ -15,7 +15,7 @@ keywords: mensaje, frecuencia, reglas, presión
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1266'
 ht-degree: 14%
 
 ---
@@ -37,7 +37,7 @@ Por ejemplo, para una marca una regla podría ser no enviar más de 4 mensajes d
 >
 >Las reglas empresariales son diferentes de la administración de la exclusión, que permite a los usuarios cancelar la suscripción y evitar recibir comunicaciones de una marca. [Más información](../privacy/opt-out.md#opt-out-management)
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 ## Acceso a reglas empresariales {#access-rules}
 
@@ -134,7 +134,7 @@ El límite de frecuencia diaria es válido para el día hasta el 23:59:59 UTC y 
 
 >[!NOTE]
 >
->Para garantizar la precisión de las reglas de límite de frecuencia diarias, se recomienda el uso de [segmentación de transmisión](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=es){target="_blank"}. Obtenga más información acerca de los métodos de evaluación de audiencia en [esta sección](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Para garantizar la precisión de las reglas diarias de restricción de frecuencia, se recomienda el uso de [segmentación de transmisión](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}. Obtenga más información acerca de los métodos de evaluación de audiencia en [esta sección](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Activar una regla de negocio {#activate-rule}
 
@@ -239,4 +239,4 @@ En esta situación, un perfil individual:
 
 Obtenga información sobre cómo crear, activar, probar e informar sobre reglas empresariales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411121?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

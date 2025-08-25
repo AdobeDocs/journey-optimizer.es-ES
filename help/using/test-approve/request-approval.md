@@ -4,13 +4,13 @@ description: Obtenga información sobre cómo solicitar la aprobación antes de 
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
+exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
 
 ---
-
 
 # Solicitud de aprobación {#request-approval}
 
@@ -20,7 +20,7 @@ El acceso al flujo de trabajo de aprobación viene determinado por el caso de us
 
    * **Campañas**: si no hay ninguna directiva de aprobación activa para el objeto de campaña en una zona protegida, las campañas mostrarán el botón **[!UICONTROL Activar]**, que le permitirá activarlas sin necesidad de aprobación.
 
-   * **Recorridos**: si no hay ninguna directiva de aprobación activa para el objeto de Recorrido, los recorridos mostrarán el botón **[!UICONTROL Publish]**, que le permitirá publicar directamente.
+   * **Recorridos**: si no hay ninguna directiva de aprobación activa para el objeto de Recorrido, recorrido mostrará el botón **[!UICONTROL Publicar]**, que le permitirá publicar directamente.
 
 * **Existen directivas de aprobación activas**
 
@@ -55,6 +55,3 @@ Si los aprobadores solicitan cambios, se le notifica mediante un mensaje de corr
 ![](assets/changes-requested.png)
 
 Para revisar la solicitud de cambio, ábrala desde el correo electrónico o la alerta para acceder al recorrido o campaña y realice los cambios solicitados. Cuando el recorrido o la campaña estén listos para revisarse nuevamente, envíe una nueva solicitud de aprobación con el botón **[!UICONTROL Solicitar aprobación]**.
-
-
-

@@ -11,7 +11,7 @@ keywords: código, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '194'
 ht-degree: 68%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 68%
 
 Utilice el modo **[!UICONTROL Codifique su propio contenido]** para importar el HTML sin procesar o codificar el contenido del correo electrónico. Este método requiere habilidades de HTML.
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 >[!CAUTION]
 >

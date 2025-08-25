@@ -17,7 +17,7 @@ ht-degree: 12%
 
 Las colecciones son subconjuntos de ofertas basados en condiciones predefinidas definidas definidas por un experto en marketing, como la categoría de la oferta.
 
-Puede crear una colección realizando una solicitud de POST a la API [!DNL Offer Library].
+Puede crear una colección realizando una petición POST a la API [!DNL Offer Library].
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 

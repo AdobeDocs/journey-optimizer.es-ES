@@ -7,8 +7,8 @@ level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 0%
+source-wordcount: '950'
+ht-degree: 1%
 
 ---
 
@@ -71,7 +71,7 @@ Donde:
 
 La confianza utilizada por Adobe es una confianza &quot;válida en cualquier momento&quot;, que se obtiene invirtiendo la secuencia de confianza del efecto medio del tratamiento.
 
-Para ser precisos, en una prueba de dos muestras *t* para la diferencia de medias entre dos variantes, hay una asignación 1:1 entre el valor *p* de esta prueba y el intervalo de confianza para la diferencia de medias. Por analogía, se puede obtener un valor *p* válido en cualquier momento invirtiendo la secuencia de confianza (válida en cualquier momento) para el estimador de efecto de tratamiento promedio:
+Para ser precisos, en una prueba de dos muestras *t* para la diferencia de medias entre dos variantes, hay una asignación de 1:1 entre el valor de *p* para esta prueba y el intervalo de confianza para la diferencia de medias. Por analogía, se puede obtener un valor *p* válido en cualquier momento invirtiendo la secuencia de confianza (válida en cualquier momento) para el estimador de efecto de tratamiento promedio:
 
 ![](assets/statistical_6.png){width="200" align="center"}
 

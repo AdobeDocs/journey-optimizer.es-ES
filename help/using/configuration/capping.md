@@ -10,7 +10,7 @@ keywords: externo, API, optimizador, límite
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '735'
 ht-degree: 6%
 
 ---
@@ -112,7 +112,7 @@ Los posibles errores son:
 
 * **ERR_ENDPOINTCONFIG_100**: configuración de límite: falta URL o no es válida
 * **ERR_ENDPOINTCONFIG_101**: configuración de límite: URL mal formada
-* **ERR_ENDPOINTCONFIG_102**: configuración de límite: url con formato incorrecto: no se permite el carácter comodín en la dirección URL en host:puerto
+* **ERR_ENDPOINTCONFIG_102**: configuración de límite: url con formato incorrecto: no se permite el carácter comodín en la dirección URL en el host:port
 * **ERR_ENDPOINTCONFIG_103**: configuración de límite: faltan métodos HTTP
 * **ERR_ENDPOINTCONFIG_104**: configuración de límite: no se definió la clasificación de llamadas
 * **ERR_ENDPOINTCONFIG_107**: configuración de límite: recuento máximo de llamadas no válido (maxCallsCount)
@@ -131,7 +131,7 @@ En esta sección se enumeran los casos de uso clave para administrar las configu
 
 Encontrará detalles sobre cada comando de API en [Descripción de la API y recopilación de Postman](#description).
 
-+++Cree e implemente una nueva configuración de límite
++++Crear e implementar una nueva configuración de límite
 
 Llamadas de API para utilizar:
 
@@ -154,7 +154,7 @@ Llamadas de API para utilizar:
 
 +++
 
-+++Anule la implementación y elimine una configuración de límite implementada
++++Anular la implementación y eliminar una configuración de límite implementada
 
 Llamadas de API para utilizar:
 
@@ -164,7 +164,7 @@ Llamadas de API para utilizar:
 
 +++
 
-+++Elimine una configuración de límite implementada en un paso
++++Eliminar una configuración de límite implementada en un paso
 
 Solo en una llamada de API puede anular la implementación y eliminar la configuración con el parámetro `forceDelete`.
 

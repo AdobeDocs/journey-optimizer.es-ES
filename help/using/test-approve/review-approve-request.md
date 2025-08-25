@@ -4,13 +4,13 @@ description: Obtenga información sobre cómo revisar y aprobar una solicitud de
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+exl-id: 8f4260b5-98df-4350-bd9b-680c3986ffe6
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
 
 ---
-
 
 # Revisión y aprobación de una solicitud {#approve-requests}
 
@@ -49,4 +49,4 @@ Después de enviar la solicitud, se notifica al creador de la recorrido/campaña
 
 >[!NOTE]
 >
-> Si no recibe la notificación de aprobación por correo electrónico, debe actualizar las preferencias de suscripciones en los perfiles de Experience Cloud. [Más información](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences)
+> Si no recibe la notificación de aprobación por correo electrónico, debe actualizar las preferencias de suscripciones en los perfiles de Experience Cloud. [Más información](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)

@@ -103,4 +103,4 @@ Obtenga más información acerca de los pasos detallados para comprobar la vista
 
 Aprenda a agregar un componente de administración de decisiones a los mensajes de [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3415687?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

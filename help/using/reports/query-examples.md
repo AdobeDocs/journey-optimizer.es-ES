@@ -21,7 +21,7 @@ En esta sección se enumeran varios ejemplos de uso común para consultar los ev
 
 Asegúrese de que los campos utilizados en las consultas tengan valores asociados en el esquema correspondiente.
 
-+++¿Cuál es la diferencia entre id, instanceid y profileid?
++++Cuál es la diferencia entre id, instanceid y profileid
 
 * id: único para todas las entradas de evento de paso. Dos eventos de paso diferentes no pueden tener el mismo ID.
 * instanceId: instanceID es el mismo para todos los eventos de paso asociados a un perfil dentro de una ejecución de recorrido. Si un perfil vuelve a entrar en la recorrido, se utiliza un instanceId diferente. Este nuevo instanceId es el mismo para todos los eventos de paso de la instancia reintroducida (de inicio a fin).
@@ -49,7 +49,7 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++
 
-+++Qué regla provocaba que un perfil no entrara en un recorrido determinado
++++Qué regla hacía que un perfil no entrara en un recorrido determinado
 
 _Ejemplo_
 
@@ -139,7 +139,7 @@ ORDER BY timestamp;
 
 +++
 
-+++Cuánto tiempo transcurrió entre dos nodos
++++Cuánto tiempo transcurrió entre dos nodos 
 
 Estas consultas se pueden utilizar, por ejemplo, para calcular el tiempo empleado en una actividad de espera. Esto le permite asegurarse de que la actividad de espera esté configurada correctamente.
 
@@ -268,7 +268,7 @@ WHERE
 
 +++
 
-+++Cómo comprobar los detalles de un serviceEvent
++++Cómo comprobar los detalles de un serviceEvent 
 
 El conjunto de datos Eventos de paso de Recorrido contiene todos los stepEvents y serviceEvents. stepEvents se utiliza en los informes, ya que se relacionan con actividades (eventos, acciones, etc.) de perfiles en un recorrido. serviceEvents se almacenan en el mismo conjunto de datos e indican información adicional para fines de depuración, por ejemplo el motivo de un descarte de evento de experiencia.
 
@@ -396,7 +396,7 @@ La consulta devuelve la lista de todos los mensajes junto con su recuento invoca
 
 +++
 
-+++Encuentre todos los mensajes que un perfil ha recibido en los últimos 30 días
++++Buscar todos los mensajes que un perfil ha recibido en los últimos 30 días
 
 _Consulta de lago de datos_
 
@@ -584,7 +584,7 @@ La consulta devuelve todos los ID de perfil que el recorrido descartó porque fa
 
 +++
 
-+++Número de perfiles que el recorrido descartó porque el recorrido estaba en el nodo de prueba y el perfil no era un perfil de prueba
++++Número de perfiles que el recorrido descartó porque el recorrido estaba en el nodo de prueba y el perfil no era de prueba
 
 _Consulta de lago de datos_
 
@@ -632,7 +632,7 @@ La consulta devuelve todos los ID de perfil que el recorrido descartó debido a 
 
 +++
 
-+++Descripción general de la audiencia de lectura para una versión de recorrido determinada
++++Información general sobre la audiencia de lectura para una versión de recorrido determinada
 
 _Consulta de lago de datos_
 
@@ -673,7 +673,7 @@ IMPORTANTE: si esta consulta no devuelve ningún evento, puede deberse a uno de 
 +++
 
 
-+++Obtener errores de lectura de audiencia para una versión de recorrido determinada
++++Obtención de errores de audiencia de lectura para una versión de recorrido determinada
 
 _Consulta de lago de datos_
 
@@ -794,7 +794,7 @@ WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 
 +++
 
-+++Obtenga métricas agregadas (trabajos de exportación de audiencias y descartes) en todos los trabajos de exportación
++++Obtener métricas agregadas (trabajos de exportación de audiencias y descartes) en todos los trabajos de exportación
 
 _Consulta de lago de datos_
 
@@ -861,7 +861,7 @@ Devuelve las métricas generales de una versión de recorrido determinada, indep
 
 ## Consultas relacionadas con la calificación de audiencias {#segment-qualification-queries}
 
-+++ Perfil descartado debido a que la comprensión de la audiencia es diferente a la configurada
++++Perfil descartado debido a una comprensión de audiencia diferente a la configurada
 
 _Consulta de lago de datos_
 
@@ -887,7 +887,7 @@ Esta consulta devuelve todos los ID de perfil que la versión de recorrido desca
 
 +++
 
-+++ Eventos de calificación de audiencia descartados por cualquier otro motivo para un perfil específico
++++Eventos de calificación de audiencia descartados por cualquier otra razón para un perfil específico
 
 _Consulta de lago de datos_
 
@@ -917,7 +917,7 @@ Esta consulta devuelve todos los eventos (eventos externos / eventos de califica
 
 ## Consultas basadas en eventos {#event-based-queries}
 
-+++Compruebe si se recibió un evento empresarial para un recorrido
++++Comprobar si se recibió un evento empresarial para un recorrido
 
 _Consulta de lago de datos_
 
@@ -1019,7 +1019,7 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 +++
 
-+++Compruebe todos los eventos descartados porque no se permitía la reentrada
++++Comprobar todos los eventos descartados porque no se permitía la reentrada
 
 _Consulta de lago de datos_
 
@@ -1263,7 +1263,7 @@ ORDER BY
 
 +++
 
-+++Cuántos perfiles salieron del recorrido en el período de tiempo específico con nodo/estado
++++Cuántos perfiles salieron del recorrido en el período de tiempo específico con el nodo o el estado
 
 _Consulta de lago de datos_
 

@@ -32,7 +32,7 @@ ht-degree: 28%
 
 El correo directo es un canal sin conexión que le permite personalizar y generar los archivos de extracción necesarios para que los proveedores de correo postal de terceros envíen correo a sus clientes.
 
-Al crear un mensaje de correo postal, [!DNL Journey Optimizer] genera automáticamente un archivo que contiene todos los perfiles de destino y los datos seleccionados, como direcciones postales y atributos de perfil. Este archivo se envía al servidor de su elección para que el proveedor de correo postal de terceros elegido pueda acceder a él, quien se encargará del proceso de envío.
+Al crear un mensaje de correo postal, [!DNL Journey Optimizer] genera automáticamente un archivo que contiene todos los perfiles de destino y los datos seleccionados, como direcciones postales y atributos de perfil. Este archivo se envía al servidor de su elección para que el proveedor de correo directo de terceros elegido pueda acceder a él, quien se encargará del proceso de envío.
 
 Debe trabajar con el proveedor de correo postal de terceros que haya elegido para obtener de sus clientes los consentimientos necesarios, si corresponde, para que sus clientes puedan recibir correo de usted. El uso de los servicios de correo está sujeto a términos y condiciones adicionales del proveedor de correo postal de terceros correspondiente. Adobe no controla ni es responsable del uso que se haga de los productos de terceros. Para cualquier problema o solicitud de asistencia relacionada con el envío de su mensaje de correo postal, póngase en contacto con su proveedor de correo postal elegido.
 

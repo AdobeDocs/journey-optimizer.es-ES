@@ -16,7 +16,7 @@ ht-degree: 11%
 
 # Actualización de un cualificador colección {#update-collection-qualifier}
 
-Puede modificar o actualizar un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;) realizando una solicitud del PATCH a la API de la biblioteca de ofertas.
+Puede modificar o actualizar un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;) realizando una petición PATCH a la API de la biblioteca de ofertas.
 
 Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](https://jsonpatch.com/).
 

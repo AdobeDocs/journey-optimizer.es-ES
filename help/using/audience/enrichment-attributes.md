@@ -39,7 +39,7 @@ Estas son las acciones que puede realizar con los atributos de enriquecimiento d
 >
 >Para utilizar atributos de enriquecimiento de audiencias creadas con flujos de trabajo de maquetación, asegúrese de que se añaden a un grupo de campos en la Source de datos de Experience Platform.
 >
->+++ Aprenda a añadir atributos de enriquecimiento a un grupo de campos>
+>+++ Aprenda a añadir atributos de enriquecimiento a un grupo de campos
 >
 >1. Vaya a &quot;Administración&quot; > &quot;Configuración&quot; > &quot;Fuentes de datos&quot;.
 >1. Seleccione &quot;Experience Platform&quot; y cree o edite un grupo de campos.

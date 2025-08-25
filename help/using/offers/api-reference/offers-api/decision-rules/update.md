@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # Actualizar una regla de decisión {#update-decision-rule}
 
-Puede modificar o actualizar las reglas de decisión realizando una solicitud de PATCH a la API [!DNL Offer Library].
+Puede modificar o actualizar las reglas de decisión realizando una petición PATCH a la API [!DNL Offer Library].
 
 Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](https://jsonpatch.com/).
 

@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Actualización de un elemento de decisión {#update-decision-items}
 
-Puede modificar o actualizar un elemento de decisión realizando una solicitud del PATCH a la API de la biblioteca de ofertas.
+Puede modificar o actualizar un elemento de decisión realizando una petición PATCH a la API de la biblioteca de ofertas.
 
 Para obtener más información sobre el parche JSON, incluidas las operaciones disponibles, consulte la [documentación oficial del parche JSON](https://jsonpatch.com/).
 

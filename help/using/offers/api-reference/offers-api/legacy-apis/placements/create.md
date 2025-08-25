@@ -15,7 +15,7 @@ ht-degree: 12%
 
 # Crear una ubicación {#create-placement}
 
-Puede crear una ubicación realizando una solicitud de POST a la API [!DNL Offer Library], mientras proporciona su ID de contenedor.
+Puede crear una ubicación realizando una petición POST a la API [!DNL Offer Library], mientras proporciona su ID de contenedor.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 

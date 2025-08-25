@@ -5,10 +5,11 @@ title: Introducción a las capacidades de creación de informes en  [!DNL Adobe 
 description: Obtenga información sobre cómo acceder a  [!DNL Adobe Journey Optimizer] informes y trabajar con ellos.
 role: User
 level: Beginner
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 15%
+ht-degree: 24%
 
 ---
 
@@ -21,12 +22,12 @@ Además, para optimizar la entrega de sus experiencias de [!DNL Journey Optimize
 
 ## Tipos de informes {#reporting-types}
 
-* **Informes en vivo las últimas 24 horas** - Use el **[!UICONTROL Informe en vivo]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y sus mensajes en un panel integrado. Los datos están disponibles en el **[!UICONTROL informe en vivo]** tan pronto como se envíe o se ejecute el recorrido desde la ficha **[!UICONTROL Últimas 24 horas]**. Obtenga más información acerca de los informes en vivo [en esta sección](live-report.md).
+* **Informes en vivo las últimas 24 horas** - Use el **[!UICONTROL Informe en vivo]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y sus mensajes en un panel integrado. Los datos están disponibles en el **[!UICONTROL informe en vivo]** tan pronto como se envíe o se ejecute el recorrido desde la ficha **[!UICONTROL Últimas 24 horas]**. Obtenga más información sobre los informes activos [en esta sección](live-report.md).
 
   ![](assets/report_journey.png)
 
 
-* **Informes permanentes con Customer Journey Analytics**: La creación de informes de Journey Optimizer está totalmente integrada con las capacidades de Customer Journey Analytics, estandarizando la creación de informes en ambas plataformas y mejorando la coherencia y fiabilidad de los datos. Esta integración perfecta entre Journey Optimizer y Customer Journey Analytics proporciona una vista más clara de las métricas de rendimiento, lo que permite a los usuarios tomar decisiones más informadas. Obtenga más información acerca de los informes permanentes [en esta sección](report-gs-cja.md).
+* **Informes permanentes con Customer Journey Analytics**: La creación de informes de Journey Optimizer está totalmente integrada con las capacidades de Customer Journey Analytics, estandarizando la creación de informes en ambas plataformas y mejorando la coherencia y fiabilidad de los datos. Esta integración perfecta entre Journey Optimizer y Customer Journey Analytics proporciona una visión más clara de las métricas de rendimiento, lo que permite a los usuarios tomar decisiones más fundamentadas. Obtenga más información acerca de los informes permanentes [en esta sección](report-gs-cja.md).
 
   ![](assets/gs-cja-report-1.png)
 
@@ -108,7 +109,7 @@ Todos los informes globales de tiempo están disponibles para todos sus canales.
 Seleccione un canal saliente para descubrir **informes globales permanentes** asociados.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="Correo electrónico" src="../channels/assets/do-not-localize/email.png">
+<td><img alt="correo electrónico" src="../channels/assets/do-not-localize/email.png">
 <div align="center"><p><strong>Canal de correo electrónico</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>Informe de recorrido</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><p><strong>Canal de SMS</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>Informe de recorrido</strong></a></p></div></td>

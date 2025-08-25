@@ -11,8 +11,8 @@ keywords: introducción, inicio, contenido, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 99%
+source-wordcount: '2002'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ La experimentación de contenido en Adobe Journey Optimizer utiliza un hash pseu
 
 En detalle, el algoritmo de 32 bits MumurHash3 se usa para hash la cadena de identidad del usuario en uno de los 10 000 bloques. En un experimento de contenido con el 50 % del tráfico asignado a cada tratamiento, los usuarios que caigan en bloques de 1 a 5000 recibirán el primer tratamiento, mientras que los usuarios de los bloques de 5001 a 10 000 recibirán el segundo tratamiento. Dado que se utiliza un hash pseudoaleatorio, las divisiones de visitante que observe pueden no ser exactamente 50-50; sin embargo, la división será estadísticamente equivalente al porcentaje de división objetivo.
 
-Tenga en cuenta que, como parte de la configuración de cada campaña con un experimento de contenido, debe elegir un área de nombres de identidad desde la que se seleccionará el Id de usuario para el algoritmo de aleatorización. Esto es independiente de las [direcciones de ejecución](../configuration/primary-email-addresses.md).
+Tenga en cuenta que, como parte de la configuración de cada campaña con un experimento de contenido, debe elegir un espacio de nombres de identidad desde el que se seleccionará el Id de usuario para el algoritmo de aleatorización. Esto es independiente de las [direcciones de ejecución](../configuration/primary-email-addresses.md).
 
 ### Recopilación y análisis de datos
 
@@ -75,7 +75,7 @@ A continuación, Adobe Journey Optimizer utiliza métodos estadísticos avanzado
 
 Al ejecutar Experimentos, es importante seguir determinadas prácticas recomendadas. A continuación, se ofrecen algunas sugerencias para ejecutar estos experimentos:
 
-+++Aísle las variables que intenta probar
++++Aísle las variables que está intentando probar
 
 Formule alguna hipótesis que desee probar y limite esta hipótesis a los pocos cambios posibles para determinar qué ha tenido un impacto en su envío.
 
@@ -89,11 +89,11 @@ Determine la métrica a la que desea dirigirse y si los cambios que está realiz
 Por ejemplo, es poco probable que el cambio de contenido del cuerpo del mensaje afecte a las tasas de apertura del correo electrónico.
 +++
 
-+++Ejecute la prueba con el tamaño de público adecuado o durante el tiempo suficiente
++++Ejecute la prueba en el tamaño de audiencia adecuado o durante el tiempo suficiente
 
 Si realiza las pruebas durante más tiempo, podrá detectar diferencias menores en la métrica objetivo entre tratamientos. Sin embargo, si el valor de la línea de base de la métrica de objetivos es pequeño, necesitará muestras de mayor tamaño.
-El número de usuarios que debe incluirse en el experimento depende del tamaño del efecto que desee detectar, la variación o propagación de la métrica de objetivos, así como la tolerancia de errores de falsos positivos y falsos negativos. En los experimentos clásicos, puede utilizar una [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es){_blank} para determinar cuánto tiempo debe ejecutar la prueba.
-+++
+El número de usuarios que debe incluirse en el experimento depende del tamaño del efecto que desee detectar, la variación o propagación de la métrica de objetivos, así como la tolerancia de errores de falsos positivos y falsos negativos. En Experimentos clásicos, puede usar una [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es){_blank} para determinar cuánto tiempo debe ejecutar la prueba.
++++ 
 
 +++Comprender la incertidumbre estadística
 
@@ -101,7 +101,7 @@ Si está realizando un experimento en el que 1000 usuarios han visto un tratamie
 Los métodos estadísticos nos dan una forma de formalizar esta incertidumbre. Uno de los conceptos más importantes que debe comprender a la hora de ejecutar experimentos en línea es que las tasas de conversión observadas son coherentes con una serie de tasas de conversión reales subyacentes, lo que significa que debe esperar hasta que esas estimaciones sean lo suficientemente precisas, antes de intentar llegar a una conclusión. Los intervalos de confianza y la confianza nos ayudan a cuantificar esta incertidumbre.
 +++
 
-+++Formar nuevas hipótesis y realizar pruebas continuamente
++++Forme nuevas hipótesis y realice pruebas continuamente
 
 Para obtener verdaderas perspectivas empresariales, debe limitarse a un solo experimento. En su lugar, realice un seguimiento de los experimentos, formulando nuevas hipótesis y ejecutando nuevas pruebas con diferentes cambios, en públicos distintos y examinando el impacto en varias métricas.
 +++
@@ -123,13 +123,13 @@ Tenga en cuenta que una descripción completa de los resultados debe tener en cu
 
 Para comprender los cálculos estadísticos, consulte esta [página](../content-management/experiment-calculations.md).
 
-### 1. Comparar métricas normalizadas {#normalized-metrics}
+### &#x200B;1. Comparar métricas normalizadas {#normalized-metrics}
 
 Al comparar el rendimiento de dos tratamientos, siempre debe comparar las métricas normalizadas para tener en cuenta cualquier diferencia en la cantidad de perfiles expuestos a cada tratamiento.
 
 Por ejemplo, si el objetivo del experimento está establecido en **[!UICONTROL Aperturas únicas]**, y se ha mostrado  un tratamiento determinado a 10 000 perfiles con 200 aperturas únicas registradas, esto representa una **[!UICONTROL Tasa de conversión]** del 2 %. Para las métricas no únicas, como la métrica Aperturas, la métrica normalizada se muestra como una **[!UICONTROL Recuento por perfil]**, mientras que para las métricas continuas como Precio total, la métrica normalizada se muestra como un **[!UICONTROL Total por perfil]**.
 
-### 2. Centrarse en intervalos de confianza {#confidence-intervals}
+### &#x200B;2. Centrarse en intervalos de confianza {#confidence-intervals}
 
 Al ejecutar experimentos con muestras de perfiles, la tasa de conversión observada para un tratamiento determinado representa una estimación de la tasa de conversión subyacente real.
 
@@ -141,17 +141,17 @@ Si los intervalos de confianza para dos tratamientos apenas se superponen, signi
 
 Adobe utiliza un 95 % cada vez que se usan intervalos de confianza válidos o secuencias de confianza, lo que significa que los resultados se pueden ver de forma segura en cualquier momento durante el experimento.
 
-### 3. Comprender el alza {#understand-lift}
+### &#x200B;3. Comprender el alza {#understand-lift}
 
 El resumen del informe de experimento muestra el **[!UICONTROL Alza sobre la línea de base]**, que es una medida de la mejora porcentual en la tasa de conversión de un tratamiento determinado respecto a la línea de base. Definida con precisión, es la diferencia de rendimiento entre un tratamiento determinado y la línea de base, dividida por el rendimiento de la línea de base, expresada como porcentaje.
 
-### 3. Comprender la confianza {#understand-confidence}
+### &#x200B;3. Comprender la confianza {#understand-confidence}
 
 Aunque debería centrarse principalmente en el **[!UICONTROL Intervalo de confianza]** del rendimiento de cada tratamiento, Adobe también muestra la confianza, que es una medida probabilística de la cantidad de evidencia que existe de que un tratamiento dado es el mismo que el tratamiento de la línea de base. Una mayor confianza indica menos evidencia para el supuesto de que los tratamientos de línea de base y de no línea de base tienen un rendimiento igual. Más concretamente, la confianza que se muestra es una probabilidad (expresada como porcentaje) de que habríamos observado una diferencia menor en las tasas de conversión entre un tratamiento determinado y la línea de base, si en realidad no hay diferencia en las tasas de conversión subyacentes reales. En términos de valores p, la confianza mostrada es 1 - valor p.
 
 Adobe utiliza la confianza &quot;válida en cualquier momento&quot; y los valores p &quot;válidos en cualquier momento&quot;, que concuerdan con las secuencias de confianza descritas anteriormente.
 
-### 4. Relevancia estadística
+### &#x200B;4. Relevancia estadística
 
 Cuando se ejecutan Experimentos, un resultado se considera estadísticamente significativo si era muy poco probable que se hubiera observado teniendo en cuenta una hipótesis nula de que un tratamiento dado y la línea base tienen tasas/rendimiento de conversión subyacentes verdaderas idénticas.
 

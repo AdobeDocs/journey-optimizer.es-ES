@@ -15,7 +15,7 @@ ht-degree: 16%
 
 # Crear una decisión {#create-decision}
 
-Puede crear una decisión realizando una solicitud de POST a la API [!DNL Offer Library].
+Puede crear una decisión realizando una petición POST a la API [!DNL Offer Library].
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 

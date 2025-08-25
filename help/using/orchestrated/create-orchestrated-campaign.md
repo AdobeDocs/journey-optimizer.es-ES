@@ -87,7 +87,7 @@ Para configurar la programación de la campaña, siga estos pasos:
 
    +++
 
-   +++Cada día
+   +++Diaria
 
    Ejecute la campaña todos los días o en los días seleccionados.
 

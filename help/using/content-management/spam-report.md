@@ -19,7 +19,7 @@ ht-degree: 17%
 >title="Informe sobre correo electrónico spam"
 >abstract="El informe Spam permite comprobar la puntuación de spam del contenido del correo electrónico. Esta puntuación indica si los ISP o proveedores de buzones de correo considerarán su mensaje como spam o no. Cuanto más baja sea la puntuación, mejor. Si la puntuación del contenido del correo electrónico es superior a 2, debe considerar la posibilidad de corregir los problemas que causan que las pruebas fallen."
 
-Puede comprobar la puntuación de correo no deseado del contenido del correo electrónico en un informe de correo no deseado específico. Con [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, Adobe Journey Optimizer puede probar el contenido del correo electrónico y darle una puntuación para indicar si los ISP o los proveedores de buzones de correo lo considerarán como correo no deseado o no.
+Puede comprobar la puntuación de correo no deseado del contenido del correo electrónico en un informe de correo no deseado específico. Con [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, Adobe Journey Optimizer puede probar el contenido del correo electrónico y asignarle una puntuación para indicar si los ISP o los proveedores de buzones de correo lo considerarán como correo no deseado o no.
 
 Al editar o previsualizar el contenido del correo electrónico, el botón **[!UICONTROL Informe de correo no deseado]** proporciona una puntuación y consejos para mejorar las puntuaciones de cada elemento individual de la lista.
 

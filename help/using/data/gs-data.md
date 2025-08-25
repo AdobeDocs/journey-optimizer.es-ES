@@ -10,9 +10,9 @@ level: Intermediate
 keywords: datos, administración, plataforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -65,14 +65,14 @@ Todos los datos se consideran propiedad de los clientes y solo pueden mantenerse
 
 Puede usar la flexibilidad de datos de [!DNL Journey Optimizer] para satisfacer sus requisitos específicos relacionados con la retención, el archivado o la eliminación de datos:
 
-* **Extracción/exportación de datos**: puede iniciar la extracción de los datos de origen en cualquier momento mediante la API de acceso a datos sin penalizaciones ni retrasos. La [API de acceso a datos](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=es){target="_blank"} proporciona a los usuarios una interfaz RESTful centrada en la detección y accesibilidad de conjuntos de datos ingeridos dentro de [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Extracción/exportación de datos**: puede iniciar la extracción de los datos de origen en cualquier momento mediante la API de acceso a datos sin penalizaciones ni retrasos. La [API de acceso a datos](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=es){target="_blank"} proporciona a los usuarios una interfaz RESTful centrada en la detección y accesibilidad de conjuntos de datos ingeridos en [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
   Tenga en cuenta que el contenido utilizado en recorridos o campañas no se puede extraer mediante los métodos API o Destino mencionados anteriormente.
 
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 
-  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html?lang=es){target="_blank"}.
+  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
 -->
 
 * **Depuraciones y mecanismos de archivado**: la depuración de datos y el archivado se pueden definir y automatizar libremente en [!DNL Adobe Journey Optimizer] para automatizar las políticas de retención de datos. Es posible definir diferentes estrategias de caducidad para las distintas entidades de datos. También se pueden definir mecanismos de exportación para exportar automáticamente los datos de caducidad antes de depurarlos o archivarlos.
@@ -87,6 +87,6 @@ Puede usar la flexibilidad de datos de [!DNL Journey Optimizer] para satisfacer 
 
 -->
 
-* **Extracción de datos al finalizar la participación/salida**: cuando se rescinde el contrato, los datos se eliminan por completo del espacio de almacenamiento de Adobe. Además, puede extraer extractos de perfiles completos antes de finalizar un acuerdo. Esta función no tiene costes adicionales. Esto se puede hacer en cualquier momento y no solo tras la finalización.
+* **Extracción de datos al terminar la participación/salida**: cuando se rescinde el contrato, los datos se eliminan por completo del espacio de almacenamiento de Adobe. Además, puede extraer extractos de perfiles completos antes de finalizar un acuerdo. Esta función no tiene costes adicionales. Esto se puede hacer en cualquier momento y no solo tras la finalización.
 
 Los métodos anteriores están definidos contractualmente y expuestos en detalle en el acuerdo de procesamiento de datos (DPA) que Adobe acuerda mutuamente con usted al principio de una participación. Las aplicaciones de Adobe, incluyendo [!DNL Journey Optimizer], se diseñan en torno al principio de que los datos de cada cliente se traten como el recurso de datos propiedad de ese cliente.

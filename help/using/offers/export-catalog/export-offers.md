@@ -53,7 +53,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
 
 +++
 
-+++ _experience > decisioning > calendarConstraints
++++ _experience > decisioning > calendarConstraints 
 
 **Campo:** calendarConstraints
 **Título:** Detalles de restricción de calendario
@@ -94,7 +94,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
 
 +++
 
-+++_experiencia > toma de decisiones > contenido > componentes
++++_experience > decisioning > content > components
 
 **Campo:** componentes
 **Descripción:** Los componentes del contenido que representan la opción de decisión, incluidas todas las variantes de idioma. Los componentes específicos se encuentran en &quot;dx:format&quot;, &quot;dc:subject&quot; y &quot;dc:language&quot; o una combinación de ellos. Estos metadatos se utilizan para localizar o representar el contenido asociado a una oferta e integrarlo según el contrato de colocación.
@@ -123,7 +123,6 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
      **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Idioma**
-
      **Campo:** idioma
      **Título:** Idioma
      **Descripción:** Idioma o idiomas del recurso. \nLos idiomas se especifican en el código de idioma tal como se definen en [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que forma parte de BCP 47, que se usa en otras partes de XDM.
@@ -330,7 +329,7 @@ Clasificación **Campo:**
 
 +++
 
-+++_experiencia > toma de decisiones > clasificación > Prioridad
++++_experience > decisioning > clasificación > Prioridad
 
 **Campo:** prioridad
 **Título:** Prioridad
@@ -357,7 +356,7 @@ Clasificación **Campo:**
 **Campo:** _repositorio
 **Tipo:** objeto
 
-+++
++++ 
 
 +++ _repo > Opción de decisión ETag
 

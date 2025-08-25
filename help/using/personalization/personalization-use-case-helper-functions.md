@@ -11,7 +11,7 @@ keywords: expresión, editor, ayudantes, caso de uso, personalización
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: c9627cfd1d717d56744f0287738b1303194c23e1
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1037'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 1. Cree un evento cuyo esquema incluya la matriz `productListItems`.
 1. Defina todos los campos de esta matriz como campos de carga útil para este evento.
 
-   Obtenga más información acerca del tipo de datos del elemento de lista de productos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=es){target="_blank"}.
+   Obtenga más información acerca del tipo de datos de elementos de la lista de productos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Cree un recorrido que comience con este evento.
 1. Agregue una actividad **Correo electrónico** al recorrido.
@@ -105,7 +105,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Obtenga más información acerca del tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=es){target="_blank"}.
+      Obtenga más información acerca del tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Haga clic en **[!UICONTROL Validar]** y luego en **[!UICONTROL Guardar]**.
 
@@ -117,7 +117,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 1. Vuelva a abrir el contenido del mensaje.
 
-1. En la página de inicio de Designer de correo electrónico, haga clic en el componente HTML donde desea enumerar el contenido del carro de compras.
+1. En la página de inicio de Designer de correo electrónico, haga clic en el componente de HTML donde desea enumerar el contenido del carro de compras.
 1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Mostrar el código fuente]**.
 
    ![](assets/personalization-uc-helpers-3.png)
@@ -184,7 +184,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 1. Añada los tokens de personalización para el nombre del artículo, la cantidad y el precio:
 
-   1. Elimine el marcador de posición &quot;#name&quot; de la tabla del HTML.
+   1. Elimine el marcador de posición &quot;#name&quot; de la tabla de HTML.
    1. En los resultados de búsqueda anteriores, agregue el token **[!UICONTROL Name]** a la expresión.
 
    Repita estos pasos dos veces:
@@ -214,7 +214,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 ## Paso 5: Insertar una nota específica del producto {#if-helper}
 
-1. En la página de inicio de Designer de correo electrónico, haga clic en el componente HTML en el que desea insertar la nota.
+1. En la página de inicio de Designer de correo electrónico, haga clic en el componente de HTML en el que desea insertar la nota.
 1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Mostrar el código fuente]**.
 
    ![](assets/personalization-uc-helpers-3.png)
@@ -252,7 +252,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 1. Añada el token del nombre del producto a la condición:
    1. Elimine el marcador de posición &quot;condition1&quot; de la expresión.
    1. En el menú de la izquierda, seleccione **[!UICONTROL Atributos contextuales]**.
-   1. Seleccione **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Eventos]** > ***[!UICONTROL nombre_evento]*** y, a continuación, expanda el nodo **[!UICONTROL productListItems]**.
+   1. Seleccione **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** y, a continuación, expanda el nodo **[!UICONTROL productListItems]**.
 
       En este ejemplo, *event_name* representa el nombre del evento.
 
@@ -340,8 +340,8 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 * [Personalization con oferta basada en decisiones](../offers/offers-e2e.md)
 
-## Vídeo explicativo{#video}
+## Vídeo práctico{#video}
 
 Aprenda a utilizar las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416643?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

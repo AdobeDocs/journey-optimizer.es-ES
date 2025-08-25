@@ -11,7 +11,7 @@ hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -115,7 +115,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 * Se ha corregido un problema que impedía que se mostraran la lista de recorridos, la lista de mensajes y el Diseñador de correo electrónico cuando el idioma del explorador no era inglés.
 * Se ha corregido un error de sintaxis que se producía al añadir una personalización mediante una expresión en el Diseñador de correo electrónico: los caracteres se han escapaban erróneamente.
 * Se ha corregido un problema que provocaba un error 404 al navegar en el menú **Administración**.
-* Se ha corregido un problema que activaba otros recorridos activos al probar un recorrido con un evento comercial.
+* Se ha corregido un problema que activaba otros recorridos activos al probar un recorrido con un evento empresarial.
 
 
 ## Versión de septiembre de 2021 {#september-2021-release}
@@ -165,7 +165,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 * Los esquemas y conjuntos de datos generados por el sistema que se han creado durante el aprovisionamiento para eventos de paso ahora están en modo de solo lectura, lo que protege contra cualquier modificación involuntaria de esquemas críticos. [Más información](../reports/sharing-overview.md)
 * Etiquete claramente la actividad **Espera** con una etiqueta que se mostrará en el lienzo. La etiqueta también se utiliza en los registros de modo de informes y prueba para identificar claramente lo que está haciendo. [Más información](../building-journeys/about-journey-activities.md#best-practices)
 * Busque sus eventos y acciones más rápido filtrando los elementos de las categorías **Eventos** y **Acción** usando la búsqueda. Las actividades de orquestación ya no se filtran. [Más información](../building-journeys/using-the-journey-designer.md)
-* Al definir una condición de ID de evento en un evento comercial o basado en reglas, el operador “contains” ya está disponible para tipos de cadena de campos. [Más información](../event/about-creating.md)
+* Al definir una condición de ID de evento en un evento empresarial o basado en reglas, el operador “contains” ya está disponible para tipos de cadena de campos. [Más información](../event/about-creating.md)
 
 **Configuración de correo electrónico**
 

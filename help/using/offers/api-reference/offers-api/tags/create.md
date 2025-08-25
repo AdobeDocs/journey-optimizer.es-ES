@@ -16,7 +16,7 @@ ht-degree: 14%
 
 # Creación de un cualificador de colección {#create-tag}
 
-Puede crear un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;) realizando una solicitud de POST a la API de la biblioteca de ofertas.
+Puede crear un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;) realizando una petición POST a la API de la biblioteca de ofertas.
 
 ## Encabezados Accept y Content-Type {#accept-and-content-type-headers}
 

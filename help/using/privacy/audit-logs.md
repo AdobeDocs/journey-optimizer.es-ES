@@ -22,7 +22,7 @@ ht-degree: 100%
 >
 >Para ver y exportar el registro de la auditoría, debe tener **[!DNL View User Activity Log]** permiso para hacerlo. [Más información](../administration/ootb-product-profiles.md)
 
-Con Journey Optimizer, puede identificar las acciones ejecutadas por los usuarios en el sistema en distintos servicios y funcionalidades, como recorridos, mensajes, páginas de aterrizaje, etc.
+Con Journey Optimizer, puede identificar las acciones ejecutadas por los usuarios en el sistema en distintos servicios y funcionalidades, como recorridos, mensajes, páginas de destino, etc.
 
 Esto le permite aumentar la visibilidad de las actividades realizadas en el sistema, solucionar problemas y ayudar a su empresa a cumplir con las regulaciones y las políticas de administración de datos corporativos..
 
@@ -43,10 +43,10 @@ La siguiente tabla indica qué acciones y sobre qué recursos de Journey Optimiz
 | Campaña de AJO | Creación/eliminación/actualización/activación/detención |
 | Configuración general del canal AJO | Creación/eliminación/actualización |
 | Grupo de IP de AJO | Creación/eliminación/actualización |
-| Página de aterrizaje de AJO | Creación/eliminación/actualización/publicación/cancelación de la publicación |
-| Plantilla HTML de página de aterrizaje de AJO | Creación/eliminación/actualización |
-| Ajuste preestablecido de página de aterrizaje de AJO | Creación/eliminación/actualización |
-| Subdominio de página de aterrizaje de AJO | Creación/eliminación/actualización |
+| Página de destino de AJO | Creación/eliminación/actualización/publicación/cancelación de la publicación |
+| Plantilla HTML de página de destino de AJO | Creación/eliminación/actualización |
+| Ajuste preestablecido de página de destino de AJO | Creación/eliminación/actualización |
+| Subdominio de página de destino de AJO | Creación/eliminación/actualización |
 | Ajuste preestablecido de mensaje de AJO | Creación/eliminación/actualización |
 | Registro de PTR de AJO | Creación/eliminación/actualización |
 | Plantilla de expresión guardada de AJO | Creación/eliminación/actualización |

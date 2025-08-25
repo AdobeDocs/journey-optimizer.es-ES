@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # Eliminar una ubicación {#delete-placement}
 
-Ocasionalmente puede ser necesario eliminar (DELETE) una ubicación. Para ello, realice una solicitud de DELETE a la API [!DNL Offer Library] con el ID de la ubicación que desee eliminar.
+En ocasiones puede ser necesario eliminar (DELETE) una ubicación. Para ello, realice una petición DELETE a la API [!DNL Offer Library] con el ID de la ubicación que desee eliminar.
 
 **Formato de API**
 

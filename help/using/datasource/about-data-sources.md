@@ -11,8 +11,8 @@ keywords: datos, fuente, recorrido, plataforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 52%
+source-wordcount: '343'
+ht-degree: 65%
 
 ---
 
@@ -30,7 +30,7 @@ La configuración de la fuente de datos permite definir una conexión con un sis
 * [definición de espera personalizada](../building-journeys/wait-activity.md#custom)
 * [definición de zona horaria](../building-journeys/timezone-management.md)
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 Esta configuración no es necesaria si los recorridos solo aprovechan los datos locales procedentes de una carga útil de evento. Por ejemplo, si el recorrido está compuesto por un evento seguido de una actividad de acción del canal que solo utiliza datos del evento, no es necesario configurar ninguna fuente de datos.
 
@@ -49,11 +49,11 @@ Para cada fuente de datos, se define la información que se recuperará mediante
 >
 >Las relaciones de esquema no son compatibles con las fuentes de datos.
 
-Para obtener más información sobre cómo configurar un Source de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar datos en un recorrido, vea este [tutorial en vídeo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=es){target="_blank"}.
+Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar los datos en un recorrido, vea este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Vídeo práctico {#video}
 
 Comprenda qué es una fuente de datos y aprenda a configurar fuentes de datos de Experience Platform y externas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416633?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

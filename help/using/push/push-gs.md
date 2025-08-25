@@ -76,6 +76,6 @@ La siguiente ilustración muestra los distintos pasos, de extremo a extremo, nec
 
 * [Configuración del canal push](push-configuration.md)
 * [Informe de notificaciones push](../reports/journey-global-report-cja-push.md)
-* [Crear una notificación push](create-push.md)
+* [Creación de una notificación push](create-push.md)
 * [Añadir un mensaje en un recorrido](../building-journeys/journeys-message.md)
 * [Añadir un mensaje en una campaña](../campaigns/create-campaign.md)

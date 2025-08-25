@@ -76,7 +76,7 @@ Para crear una regla de límite de recorrido, siga estos pasos:
 
    +++
 
-   +++Configuración de una regla de límite de concurrencia de recorrido
+   +++Configuración de una regla de límite de concurrencia de recorrido 
 
    1. En el campo **[!UICONTROL Límite]**, establezca el número máximo de recorridos en los que se puede inscribir un perfil simultáneamente.
 
@@ -117,4 +117,4 @@ Además, también puede aprovechar Adobe Experience Platform **Query service** p
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447617?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

@@ -11,8 +11,8 @@ keywords: configuración, recorrido, tablero, fuentes de datos, eventos, accione
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 63%
+source-wordcount: '522'
+ht-degree: 59%
 
 ---
 

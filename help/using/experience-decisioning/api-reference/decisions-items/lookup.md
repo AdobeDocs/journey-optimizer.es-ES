@@ -5,17 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: 8a4e09ec-57bc-48ad-b626-6a15ba987791
+source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 8%
 
 ---
 
-
 # Búsqueda de un elemento de decisión {#lookup-decision-items}
 
-Para buscar elementos de decisión específicos realizando una solicitud de GET a la API de la biblioteca de ofertas que incluya el ID en la ruta de solicitud.
+Para buscar elementos de decisión específicos realizando una petición GET a la API de la biblioteca de ofertas que incluye el ID en la ruta de solicitud.
 
 **Formato de API**
 

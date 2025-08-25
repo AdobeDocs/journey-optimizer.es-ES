@@ -11,8 +11,8 @@ keywords: contenido, editor, correo electrónico, inicio
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 55%
+source-wordcount: '673'
+ht-degree: 52%
 
 ---
 
@@ -80,7 +80,7 @@ Para empezar a crear contenido, siga los pasos a continuación:
 
    ![](assets/email_designer_structure_components.png)
 
-   Seleccione el componente **[!UICONTROL columna n:n]** para definir el número de columnas que elija (entre 3 y 10). También puede definir la anchura de cada columna moviendo las flechas en la parte inferior de cada columna.
+   Seleccione el componente **[!UICONTROL n:n column]** para definir el número de columnas que desee (entre 3 y 10). También puede definir la anchura de cada columna moviendo las flechas en la parte inferior de cada columna.
 
    >[!NOTE]
    >

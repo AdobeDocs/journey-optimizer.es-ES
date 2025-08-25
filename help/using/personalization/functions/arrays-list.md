@@ -235,7 +235,7 @@ La función `notIn` se usa para determinar si un elemento no es miembro de una m
 
 >[!NOTE]
 >
->La función *also* de `notIn` garantiza que ninguno de los valores es igual a nulo. Por lo tanto, los resultados no son una negación exacta de la función `in`.
+>La función `notIn`also *de* garantiza que ninguno de los valores es igual a nulo. Por lo tanto, los resultados no son una negación exacta de la función `in`.
 
 **Sintaxis**
 

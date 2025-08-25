@@ -32,7 +32,7 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 * Un recorrido que se inicia con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No puede iniciar un recorrido con un evento **Calificación de audiencias**.
 * Un recorrido que comience con una actividad de **Calificación de audiencias** en v1 siempre debe comenzar con una **Calificación de audiencias** en versiones posteriores.
 * La audiencia y el área de nombres elegidos en **Calificación de audiencias** (primer nodo) no se pueden cambiar en las nuevas versiones.
-* La regla de reentrada debe ser la misma en todas las versiones de recorrido.
+* La regla de reentrada debe ser la misma en todas las versiones del recorrido.
 * El recorrido que comience con **Leer público** no puede comenzar con otro evento en las versiones siguientes.
 
 ## Limitaciones de acciones personalizadas {#custom-actions-limitations}
@@ -41,7 +41,7 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 * Solo se admiten los métodos de llamada de POST y PUT. 
 * El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;. 
 * No se permiten direcciones IP. 
-* Las direcciones de Adobe internas (.adobe.) no se permiten.
+* No se permiten las direcciones de Adobe internas (.adobe.).
 
 ## Limitaciones de eventos {#events-limitations}
 

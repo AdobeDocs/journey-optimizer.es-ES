@@ -32,17 +32,17 @@ Las direcciones semilla no son perfiles reales ni perfiles de prueba, ya que no 
 
   Por ejemplo:
 
-+++ Si es administrador de marketing:
+  +++ Si es administrador de marketing:
 
   Desea que todos los integrantes del equipo reciban copias de los mensajes enviados al mismo tiempo que los clientes. De este modo, su equipo puede asegurarse de que los mensajes se envíen con el diseño esperado, las direcciones URL activas, el texto correcto y las imágenes, todo ello según lo planificado antes de la ejecución.
 
-+++
+  +++
 
-+++ Si es el propietario de un producto:
+  +++ Si es el propietario de un producto:
 
   Debe realizar un seguimiento de los mensajes reales enviados a los clientes. De hecho, es posible que su equipo y liderazgo estén interesados en algunas campañas y deban agregarse según sea necesario para recibir copias del mensaje en el momento de la entrega.
 
-+++
+  +++
 
 * Otra razón para utilizar listas semilla es la protección de la lista de correo. La inclusión de direcciones semilla en la lista de la campaña de correo le permite recibir una notificación si la está utilizando un tercero, ya que las direcciones que contiene reciben las entregas enviadas a la misma.
 

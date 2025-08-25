@@ -5,10 +5,11 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: 4ef1bfc2-e74f-4b44-b3b5-8a4f2fbd6438
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 

@@ -69,8 +69,8 @@ Los ID de remitente alfanuméricos solo se utilizan en la mensajería unidirecci
 
 * El siguiente vídeo le ayuda a configurar la doble inclusión para SMS.
 
-+++ Ver vídeo
+  +++ Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440278/?learn=on&captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
-+++
+  +++

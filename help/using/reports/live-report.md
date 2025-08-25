@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informe en vivo
+title: Informe activo
 description: Aprenda a utilizar los datos del informe en directo
 feature: Reporting
 topic: Content Management

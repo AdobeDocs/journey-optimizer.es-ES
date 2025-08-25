@@ -23,7 +23,7 @@ Para acceder a tus informes, haz clic en el icono **[!UICONTROL Informe]** de la
 
 ![](assets/cja-sub-access.png)
 
-Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## La lista de suscripción agrega
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Simular variaciones de contenido
+title: Simulación de variaciones de contenido
 description: Obtenga información sobre cómo obtener una vista previa del contenido y enviar una prueba por correo electrónico con datos de entrada de ejemplo de un archivo CSV o JSON o añadidos manualmente.
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 ---
 
-# Simular variaciones de contenido {#custom-profiles}
+# Simulación de variaciones de contenido {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"

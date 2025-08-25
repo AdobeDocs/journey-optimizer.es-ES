@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 42fb17a2-842e-4e20-9013-7227adba0105
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 4%
 
 ---
 
 # Búsqueda de una ubicación {#look-up-placement}
 
-Puede buscar ubicaciones específicas realizando una solicitud de GET a la API [!DNL Offer Library] que incluya la ubicación `@id` o el nombre de la ubicación en la ruta de solicitud.
+Puede buscar ubicaciones específicas realizando una petición GET a la API [!DNL Offer Library] que incluya la ubicación `@id` o el nombre de la ubicación en la ruta de solicitud.
 
 **Formato de API**
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `{CONTAINER_ID}` | El contenedor donde se encuentran las ubicaciones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | Define el esquema asociado a las ubicaciones. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `id` | Cadena utilizada para coincidir con la propiedad `@id` de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se pueden usar juntos. | `xcore:offer-placement:124541309805b7e8` |
-| `name` | Cadena utilizada para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `Sales and Promotions Placement` |
+| `name` | Una cadena utilizada para hacer coincidir la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros `id` y `name` no se pueden usar juntos | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \

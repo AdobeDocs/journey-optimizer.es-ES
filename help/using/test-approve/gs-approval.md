@@ -4,13 +4,13 @@ description: Aprenda a configurar un proceso de aprobación para sus recorridos 
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: ht
+exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
 ---
-
 
 # Introducción a la aprobación de recorridos y campañas {#send-proofs}
 
@@ -80,6 +80,6 @@ El proceso de aprobación global es el siguiente:
 
 ## Monitorización de solicitudes de aprobación {#monitor}
 
-Puede monitorizar todas las solicitudes de aprobación y cambio que se han enviado para un recorrido o campaña determinados. Para ello, haga clic en el icono **[!UICONTROL Mostrar seguimiento de auditoría]** ubicado en la sección superior derecha del lienzo del recorrido o en la pantalla de revisión de la campaña.
+Puede monitorizar todas las solicitudes de aprobación y cambio que se han enviado para un recorrido o campaña determinados. Para ello, haga clic en el icono **[!UICONTROL Mostrar pista de auditoría]** ubicado en la sección superior derecha del lienzo del recorrido o en la pantalla de revisión de la campaña.
 
 ![](assets/monitor-requests.png)

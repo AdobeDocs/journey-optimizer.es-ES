@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 99159704-fa39-47ff-b445-0cd6b325007d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '151'
 ht-degree: 4%
 
 ---
 
 # Búsqueda de una decisión {#look-up-decision}
 
-Puede buscar decisiones específicas realizando una solicitud de GET a la API [!DNL Offer Library] que incluya las decisiones `@id` o el nombre de la decisión en la ruta de solicitud.
+Puede buscar decisiones específicas realizando una petición GET a la API [!DNL Offer Library] que incluya las decisiones `@id` o el nombre de la decisión en la ruta de solicitud.
 
 **Formato de API**
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{CONTAINER_ID}` | El contenedor en el que se encuentran las decisiones. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | Define el esquema asociado a las decisiones. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
 | `id` | Cadena utilizada para coincidir con la propiedad `@id` de las entidades. La cadena coincide exactamente. Los parámetros `id` y `name` no se pueden usar juntos. | `xcore:offer-activity:124527ab00b2ebbc` |
-| `name` | Cadena utilizada para coincidir con la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros &quot;id&quot; y &quot;name&quot; no se pueden usar juntos | `LBAR` |
+| `name` | Una cadena utilizada para hacer coincidir la propiedad xdm:name de las entidades. La cadena coincide exactamente, con mayúsculas, pero se pueden utilizar caracteres comodín. Los parámetros &quot;id&quot; y &quot;name&quot; no se pueden usar juntos | `LBAR` |
 
 **Solicitud**
 

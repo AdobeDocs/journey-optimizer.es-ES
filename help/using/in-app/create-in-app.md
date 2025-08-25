@@ -234,25 +234,25 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
 * El siguiente vídeo muestra cómo crear, configurar y publicar mensajes en la aplicación en sus campañas.
 
-  +++Consulte el vídeo
+  +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451885?quality=12&learn=on&captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
 * El siguiente vídeo muestra cómo configurar y analizar experimentos de contenido para probar mensajes en la aplicación A/B.
 
-  +++Consulte el vídeo
+  +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445291/?learn=on&autoplay=true&captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
 * El siguiente vídeo muestra cómo crear un mensaje en la aplicación en un recorrido y cómo probar y publicar el recorrido.
 
-  +++Consulte el vídeo
+  +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451834/?learn=on&autoplay=true&captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
   +++
 

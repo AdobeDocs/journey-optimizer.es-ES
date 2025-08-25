@@ -1,5 +1,5 @@
 ---
-title: Alineación con la marca
+title: Alineación de marca
 description: Aprenda a crear, validar y administrar contenido de marca mediante la puntuación de marca.
 topic: Content Management
 role: User
@@ -12,7 +12,7 @@ ht-degree: 18%
 
 ---
 
-# Alineación con la marca {#brands-score}
+# Alineación de marca {#brands-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
@@ -76,6 +76,6 @@ El siguiente vídeo muestra cómo crear y personalizar sus propias marcas para d
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470549/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

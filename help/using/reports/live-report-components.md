@@ -11,7 +11,7 @@ exl-id: 12168cdf-f517-49b5-958b-ba689ade6982
 source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Las siguientes tablas proporcionan la lista de métricas utilizadas en los informes y sus definiciones según el tipo de envío.
 
-## métricas de recorrido {#journey-metrics}
+## Métricas de recorrido {#journey-metrics}
 
 <table> 
  <thead> 

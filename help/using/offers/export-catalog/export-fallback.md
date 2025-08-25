@@ -71,7 +71,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL Repo
 
 +++
 
-+++_experiencia > toma de decisiones > contenido > componentes
++++_experience > decisioning > content > components
 
 **Campo:** componentes
 **Descripción:** Los componentes del contenido que representan la opción de decisión, incluidas todas las variantes de idioma. Los componentes específicos se encuentran en &quot;dx:format&quot;, &quot;dc:subject&quot; y &quot;dc:language&quot; o una combinación de ellos. Estos metadatos se utilizan para localizar o representar el contenido asociado a una oferta e integrarlo según el contrato de colocación.
@@ -168,7 +168,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL Repo
 **Descripción:** ubicación para cumplir. El valor es el URI (@id) de la ubicación de oferta a la que se hace referencia. Consulte schema https://ns.adobe.com/experience/decisioning/placement.
 **Tipo:** cadena
 
-+++
++++ 
 
 +++ _experience > decisioning > Estado del ciclo vital
 
