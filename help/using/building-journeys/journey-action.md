@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
+source-git-commit: 0334d0b6d2fc9665ee1fe407502117679cf220f2
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 17%
@@ -48,7 +49,7 @@ Para añadir una acción de canal integrada a un recorrido, siga los pasos a con
 
 1. Seleccione la actividad de canal integrada que desee aprovechar en el recorrido.
 
-   ![](assets/journey-action-type-code-based.png)
+   ![](assets/journey-action-type-cbe.png)
 
 1. Agregue una etiqueta a su acción y seleccione **[!UICONTROL Configurar acción]**.
 
