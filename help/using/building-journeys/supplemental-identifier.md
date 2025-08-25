@@ -2,10 +2,10 @@
 title: Uso de identificadores suplementarios en recorridos
 description: Aprenda a utilizar identificadores suplementarios en recorrido.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 4%
+source-wordcount: '1236'
+ht-degree: 5%
 
 ---
 
@@ -66,6 +66,8 @@ Además, Journey Optimizer le permite aprovechar los atributos del identificador
 
    * Si el recorrido no es de reentrada, la misma combinación de ID de perfil + ID suplementario no puede volver a entrar en el recorrido.
    * Si el recorrido es de reentrada con una ventana de tiempo, la misma combinación de ID de perfil + ID suplementario puede volver a introducirse después de la ventana de tiempo definida.
+
+* **Etiquetado y aplicación del uso de datos (Data Use Labeling and Enforcement, DULE)**: no se realizan comprobaciones de validación DULE en el ID suplementario. Esto significa que este atributo no se tendrá en cuenta cuando el recorrido busque infracciones de directivas de gobernanza de datos.
 
 * **Configuración de eventos descendentes**
 
@@ -138,6 +140,10 @@ Para utilizar un identificador suplementario en un recorrido Leer audiencia, sig
       >Asegúrese de no marcar el atributo como **Identidad principal**.
 
    1. Seleccione el área de nombres que se asociará al ID suplementario. Debe ser un área de nombres de identificador de persona.
+
+      >[!NOTE]
+      >
+      >Después de aplicar el área de nombres de identidad no personal a un esquema, debe crear un nuevo evento (para recorridos activados por eventos) o un nuevo grupo de campos (para recorridos de audiencia de lectura) para utilizar el identificador suplementario. Las entidades existentes no se pueden actualizar para reconocer el nuevo identificador.
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -244,4 +250,4 @@ En una matriz de objetos con el Id. suplementario como `bookingNum` y un atribut
 
 Obtenga información sobre cómo habilitar y aplicar un identificador suplementario en [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464795?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
