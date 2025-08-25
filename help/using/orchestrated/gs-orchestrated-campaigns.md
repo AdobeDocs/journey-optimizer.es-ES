@@ -6,7 +6,7 @@ description: Obtenga información sobre cómo empezar con campañas orquestadas
 short-description: Descubra las características clave y los casos de uso de las campañas orquestadas
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 100%
 
