@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 68cb46a45bf3fe8b8847109519889a9cf20157d3
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 11%
@@ -62,7 +62,7 @@ Representación de los recorridos:
 * Si no se especifica ninguna hora de inicio, se utiliza la hora de activación manual más cercana para colocarla en el calendario.
 * Los recorridos se muestran como intervalos de tiempo de 1 hora, pero esto no refleja la hora real de envío o finalización.
 
-Para desplazarse por el calendario de recorridos:
+Para desplazarse por el calendario de Recorrido:
 
 1. Para acceder a la vista de calendario, abre la lista de recorridos y haz clic en el icono ![calendario](assets/do-not-localize/timeline-icon.svg).
 
