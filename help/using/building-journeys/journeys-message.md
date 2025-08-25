@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '513'
 ht-degree: 18%
 
 ---
@@ -43,6 +43,7 @@ Para añadir una acción de canal integrada a un recorrido, siga los pasos a con
 
    ![](assets/journey-web-activity.png)
 
+1. También puede seleccionar la actividad **[!UICONTROL Action]**, que le permite seleccionar varias acciones entrantes. [Más información](journey-action.md)
 
 1. Configure su actividad. Encontrará instrucciones de configuración detalladas en los vínculos siguientes.
 

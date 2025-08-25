@@ -1,0 +1,158 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Añadir una acción de canal integrada a un recorrido
+description: Aprenda a añadir una acción de canal integrada a un recorrido
+feature: Journeys, Activities, Channels Activity
+topic: Content Management
+role: User
+level: Intermediate
+keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+workflow-type: tm+mt
+source-wordcount: '984'
+ht-degree: 17%
+
+---
+
+# Uso de la actividad de acción {#add-a-message-in-a-journey}
+
+>[!CONTEXTUALHELP]
+>id="ajo_action_activity"
+>title="Actividad de acción"
+>abstract="La actividad genérica **Action** le permite configurar una sola acción de canal nativo y varias actividades entrantes con la capacidad de agregar optimización a cualquier acción de canal integrada."
+
+>[!AVAILABILITY]
+>
+>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+
+[!DNL Journey Optimizer] viene con una nueva actividad **Action** genérica que permite configurar una sola acción de canal integrada y también varias actividades entrantes.
+
+Permite lo siguiente:
+
+* Una configuración de acción nativa simplificada dentro del lienzo de recorrido.
+* Capacidad para crear grupos de acciones entrantes de varias acciones.
+* Capacidad de añadir optimización a cualquier acción de canal integrada.
+
+>[!NOTE]
+>
+>También puede configurar acciones personalizadas para enviar los mensajes en [!DNL Journey Optimizer] [Más información](#recommendation)
+
+## Añadir una acción a un recorrido  {#add-action}
+
+Para añadir una acción de canal integrada a un recorrido, siga los pasos a continuación.
+
+1. Inicie el recorrido con una actividad [Event](general-events.md) o [Read Audience](read-audience.md).
+
+1. En la sección **[!UICONTROL Acciones]** de la paleta, arrastre y suelte una actividad **[!UICONTROL Acción]** en el lienzo.
+
+1. Seleccione la actividad de canal integrada que desee aprovechar en el recorrido.
+
+   ![](assets/journey-action-type-code-based.png)
+
+1. Agregue una etiqueta a su acción y seleccione **[!UICONTROL Configurar acción]**.
+
+   ![](assets/journey-action-configure.png){width="80%"}
+
+1. Se le dirigirá a la ficha **[!UICONTROL Acciones]** de la pantalla de configuración de acciones de recorrido.
+
+   Seleccione la configuración que desea utilizar para el canal seleccionado.
+
+   ![](assets/journey-action-actions-tab.png)
+
+1. Si ha seleccionado un canal entrante, puede añadir varias acciones. [Más información](#multi-action)
+
+1. Configure la actividad según el canal seleccionado. Aprenda a configurar acciones de canal integradas en [esta sección](journeys-message.md).
+
+1. Use la sección **[!UICONTROL Optimización]** para ejecutar experimentos de contenido, aprovechar reglas de segmentación o usar combinaciones avanzadas de experimentación y segmentación. Estas diferentes opciones y los pasos a seguir se detallan en [esta sección](../campaigns/campaigns-message-optimization.md).
+
+1. Utilice la sección **[!UICONTROL Idiomas]** para crear contenido en varios idiomas dentro de la acción de recorrido. Para ello, haga clic en el botón **[!UICONTROL Añadir idiomas]** y seleccione la **[!UICONTROL Configuración de idioma]** que desee. Encontrará información detallada sobre cómo configurar y utilizar las capacidades multilingües en [esta sección](../content-management/multilingual-gs.md).
+
+Hay disponibles ajustes adicionales en función del canal de comunicación seleccionado. Expanda las secciones siguientes para obtener más información.
+
++++**Aplicar reglas de límite** (correo electrónico, correo directo, push, SMS)
+
+En la lista desplegable **[!UICONTROL Reglas de negocio]**, seleccione un conjunto de reglas para aplicar reglas de límite a la acción de recorrido. El uso de conjuntos de reglas de canal le permite establecer límites de frecuencia por tipo de comunicación para evitar sobrecargar a los clientes con mensajes similares. [Descubra cómo trabajar con conjuntos de reglas](../conflict-prioritization/rule-sets.md)
+
++++
+
++++**Rastrear participación** (correo electrónico, SMS).
+
+Utilice la sección **[!UICONTROL Seguimiento de la acción]** para rastrear cómo reaccionan sus destinatarios a sus envíos de correo electrónico o SMS. Se puede acceder a los resultados de seguimiento desde el informe de recorrido una vez que se ha ejecutado el recorrido. [Más información sobre los informes de recorrido](../reports/journey-global-report-cja.md)
+
++++
+
++++**Habilitar modo de envío rápido** (push).
+
+El modo de envío rápido es un complemento de [!DNL Journey Optimizer] que permite el envío rápido de mensajes push en grandes volúmenes a través de campañas. El envío rápido se utiliza cuando el retraso en el envío de mensajes es crítico para la empresa y cuando desea enviar una alerta push urgente en teléfonos móviles, por ejemplo, una noticia de última hora a los usuarios que han instalado su aplicación de canal de noticias. Para obtener más información sobre el rendimiento al usar el modo de envío rápido, consulte [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html).
+
++++
+
++++**Asignar puntuaciones de prioridad** (web, en la aplicación, basado en código)
+
+En la sección **[!UICONTROL Administración de conflictos]**, asigne una puntuación de prioridad a la acción de recorrido, lo que le permitirá priorizar una acción entrante cuando haya varias acciones de recorrido o campañas que utilicen la misma configuración de canal. Introduzca un valor numérico (de 0 a 100). Tenga en cuenta que, cuanto mayor sea el número, mayor será la prioridad. De forma predeterminada, la puntuación de prioridad de la acción se hereda de la puntuación de prioridad general del recorrido. [Aprenda a asignar puntuaciones de prioridad a recorridos y campañas](../conflict-prioritization/priority-scores.md)
+
++++
+
++++**Establecer reglas de envío adicionales** (Tarjetas de contenido)
+
+En el caso de los recorridos de tarjetas de contenido, puede habilitar reglas de entrega adicionales para elegir los eventos y criterios que almacenan el mensaje en déclencheur. [Aprenda a crear tarjetas de contenido](../content-card/create-content-card.md)
+
++++
+
++++**Definir déclencheur** (en la aplicación)
+
+Para los mensajes en la aplicación, puedes usar el botón **[!UICONTROL Editar déclencheur]** para elegir los eventos y los criterios que almacenan el mensaje en déclencheur. [Aprenda a crear un mensaje en la aplicación](../in-app/create-in-app.md)
+
++++
+
+## Añadir varias acciones entrantes {#multi-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_action_journey"
+>title="Añadir varias acciones entrantes"
+>abstract="Puede seleccionar varias acciones entrantes dentro de un solo recorrido. Esta capacidad le permite enviar varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, cada acción con un contenido específico."
+
+Para simplificar la orquestación de recorrido, puede definir varias acciones entrantes dentro de una sola acción de recorrido.
+
+>[!NOTE]
+>
+>Esta capacidad solo está disponible para canales entrantes. Actualmente, no se admiten canales salientes como correo electrónico.
+
+Esta capacidad le permite enviar varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, sin necesidad de crear varias acciones de recorrido. Facilita la implementación del recorrido y ofrece una creación de informes más fluida, con todos los datos consolidados en un solo recorrido.
+
+Por ejemplo, puede enviar una experiencia basada en código a varios extremos con contenido ligeramente diferente. Para ello, cree varias acciones basadas en código dentro de la misma acción de recorrido, cada una con una configuración de extremo diferente.
+
+Para definir varias acciones entrantes en un solo nodo de acción de recorrido, siga los pasos a continuación.
+
+1. Inicie el recorrido con una actividad [Event](general-events.md) o [Read Audience](read-audience.md).
+
+1. En la sección **[!UICONTROL Acciones]** de la paleta, arrastre y suelte una actividad **[!UICONTROL Acción]** en el lienzo.
+
+1. Seleccione **[!UICONTROL Acción múltiple]** como tipo de acción.
+
+   ![](assets/journey-multi-action.png)
+
+1. Agregue una etiqueta si es necesario y seleccione **[!UICONTROL Configurar acción]**.
+
+   ![](assets/journey-multi-action-configure.png){width="60%"}
+
+1. Se le dirigirá a la ficha **[!UICONTROL Acciones]** de la pantalla de configuración de acciones de recorrido.
+
+   ![](assets/journey-multi-action-configuration.png)
+
+1. Seleccione una acción entrante (**Experiencia basada en código**, **Mensaje en la aplicación**, **Tarjeta de contenido** o **Web**) de la sección **[!UICONTROL Acciones]**.
+
+1. Seleccione la configuración de canal y defina un contenido específico para esa acción.
+
+1. Utilice el botón **[!UICONTROL Agregar acción]** para seleccionar otra acción de entrada de la lista desplegable.
+
+   ![](assets/journey-multi-action-add.png){width="80%"}
+
+1. Continúe de la misma manera para agregar más acciones. Puede añadir hasta 10 acciones entrantes en un grupo de acciones de recorrido.
+
+Una vez que el recorrido esté [activo](publishing-the-journey.md), todas las acciones se activarán simultáneamente.
+<!--
+## Next steps {#next}
+
+Once your action is configured, you can design its content. [Learn more]-->
