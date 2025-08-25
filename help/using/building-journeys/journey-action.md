@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: 0334d0b6d2fc9665ee1fe407502117679cf220f2
+source-git-commit: e74074702c82ede09dc311a16e0f67a84b931fa2
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 17%
@@ -140,7 +140,7 @@ Para definir varias acciones entrantes en un solo nodo de acción de recorrido, 
 
 1. Se le dirigirá a la ficha **[!UICONTROL Acciones]** de la pantalla de configuración de acciones de recorrido.
 
-   ![](assets/journey-multi-action-configuration.png)
+   ![](assets/journey-multi-action-configuration.png){width="70%"}
 
 1. Seleccione una acción entrante (**Experiencia basada en código**, **Mensaje en la aplicación**, **Tarjeta de contenido** o **Web**) de la sección **[!UICONTROL Acciones]**.
 
