@@ -94,7 +94,7 @@ Haga clic en su función a continuación para acceder a instrucciones específic
 
 Para obtener más información acerca de las funcionalidades y personalidades clave de Journey Optimizer, vea el vídeo introductorio. El vídeo muestra la interfaz de usuario y resalta las funciones clave en función de los flujos de trabajo específicos de funciones.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430317?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Recursos adicionales
 
