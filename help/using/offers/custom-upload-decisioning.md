@@ -31,6 +31,7 @@ Para obtener más información sobre las audiencias de carga personalizada, cons
 * Esta funcionalidad solo es compatible con **Administración de decisiones**, no con Decisioning (anteriormente conocido como &quot;Experience Decisioning&quot;).
 * Está disponible exclusivamente a través de **solicitudes de API de decisiones (Hub)** y no es compatible con **API de decisiones de Edge** o **toma de decisiones por lotes**.
  
+
 ## Usar una audiencia de carga personalizada como criterio de idoneidad {#eligibilty}
 
 Puede utilizar una audiencia de carga personalizada como criterio de idoneidad tanto en el nivel de oferta como en el de decisión. Una vez añadidos, estos criterios pueden excluir de la idoneidad las ofertas o colecciones de ofertas. Estas son las distintas ubicaciones en las que puede aprovechar las audiencias de carga personalizada para restringir la elegibilidad de las ofertas y decisiones:
