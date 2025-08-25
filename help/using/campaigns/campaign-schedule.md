@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 4417643cbf206b9ad112bae5c270cdfc746a9c5d
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 13%
 
 ---
@@ -39,7 +39,7 @@ La opción **[!UICONTROL Fin de campaña]** le permite especificar cuándo debe 
 
 Esta función es especialmente útil para evitar sobrecargas en sistemas descendentes, como páginas de aterrizaje o plataformas de servicio de atención al cliente. Por ejemplo, puede establecer un límite de velocidad de 165 mensajes por segundo para garantizar un envío constante sin saturar a los sistemas descendentes.
 
-Para establecer el control de tarifa, habilite la opción **[!UICONTROL Entrega acelerada]** en la sección **[!UICONTROL Configuración de entrega]** y especifique la **[!UICONTROL tarifa de entrega]** que desee.
+Para establecer el control de tarifa, habilite la opción **[!UICONTROL Entrega acelerada]** en la sección **[!UICONTROL Configuración de entrega]** y especifique la **[!UICONTROL tarifa de entrega]** por segundo que desee.
 
 ![](assets/throttling-rate-control.png)
 
