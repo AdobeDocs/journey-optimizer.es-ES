@@ -64,4 +64,4 @@ Aprenda a administrar, crear y usar **fragmentos visuales** en [!DNL Journey Opt
 
 Obtenga información sobre cómo administrar, crear y usar **fragmentos de expresiones** en [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3438920/?quality=12&captions=spa)

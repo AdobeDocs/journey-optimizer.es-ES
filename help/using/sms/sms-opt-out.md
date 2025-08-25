@@ -71,6 +71,6 @@ Los ID de remitente alfanuméricos solo se utilizan en la mensajería unidirecci
 
   +++ Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3440278/?learn=on&captions=spa)
 
   +++

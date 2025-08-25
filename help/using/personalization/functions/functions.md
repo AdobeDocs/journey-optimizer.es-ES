@@ -516,4 +516,4 @@ Las funciones de comparación se utilizan para comparar entre diferentes expresi
 
 Aprenda a transformar los valores de personalización mediante las funciones de ayuda de personalización y comprenda diferentes casos de uso de las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416643?quality=12&captions=spa)

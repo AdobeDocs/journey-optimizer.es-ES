@@ -236,7 +236,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451885?quality=12&learn=on&captions=spa)
 
   +++
 
@@ -244,7 +244,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3445291/?learn=on&autoplay=true&captions=spa)
 
   +++
 
@@ -252,7 +252,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451834/?learn=on&autoplay=true&captions=spa)
 
   +++
 

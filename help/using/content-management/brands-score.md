@@ -76,6 +76,6 @@ El siguiente vídeo muestra cómo crear y personalizar sus propias marcas para d
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470549/?learn=on&captions=spa)
 
 +++

@@ -62,5 +62,5 @@ Para crear una oferta de reserva, siga estos pasos:
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341344?quality=12&captions=spa)
 

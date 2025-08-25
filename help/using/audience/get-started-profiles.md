@@ -54,4 +54,4 @@ Puede unir fragmentos de datos de varias fuentes y combinarlos para ver una vist
 
 Descubra cómo Adobe Experience Platform organiza y actualiza los perfiles de clientes en tiempo real, y cómo puede acceder a ellos y utilizarlos.
 
->[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31833?quality=12&captions=spa)

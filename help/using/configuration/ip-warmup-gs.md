@@ -52,7 +52,7 @@ Los pasos clave para implementar un plan de calentamiento de IP son los siguient
 
 Obtenga información sobre cómo crear y ejecutar un plan de calentamiento de IP.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453843/?learn=on&captions=spa)
 
 >[!NOTE]
 >

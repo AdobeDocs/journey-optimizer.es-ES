@@ -55,5 +55,5 @@ Para obtener más información sobre cómo configurar una fuente de datos de Ado
 
 Comprenda qué es una fuente de datos y aprenda a configurar fuentes de datos de Experience Platform y externas.
 
->[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416633?quality=12&captions=spa)
 

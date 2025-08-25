@@ -239,4 +239,4 @@ En esta situación, un perfil individual:
 
 Obtenga información sobre cómo crear, activar, probar e informar sobre reglas empresariales.
 
->[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3411121?quality=12&captions=spa)

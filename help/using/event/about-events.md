@@ -83,8 +83,8 @@ No se puede eliminar ningún evento utilizado en recorridos activos, en borrador
 
 Aprenda a configurar un evento y a especificar su punto final de reproducción y la carga útil.
 
->[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3431518?quality=12&captions=spa)
 
 Comprenda los casos de uso aplicables a los eventos empresariales. Obtenga información sobre cómo crear un recorrido mediante un evento empresarial y las prácticas recomendadas que se deben aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416328?quality=12&captions=spa)
