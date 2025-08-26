@@ -2,10 +2,10 @@
 title: Uso de identificadores suplementarios en recorridos
 description: Aprenda a utilizar identificadores suplementarios en recorrido.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
+source-git-commit: c46ad0283eec025cbf6183bf1aac0e3808450e21
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 5%
+source-wordcount: '1257'
+ht-degree: 4%
 
 ---
 
@@ -101,6 +101,8 @@ Para utilizar un identificador suplementario en un recorrido activado por evento
 
    1. Seleccione el área de nombres que se asociará al ID suplementario. Debe ser un área de nombres de identificador de persona.
 
+      Después de aplicar el área de nombres de identidad no personal a un esquema, debe crear un nuevo evento para utilizar el identificador suplementario. Las entidades existentes no se pueden actualizar para reconocer el nuevo identificador.
+
 1. **Agregar el identificador suplementario al evento**
 
    1. Cree o edite el evento deseado. [Aprenda a configurar un evento unitario](../event/about-creating.md)
@@ -141,9 +143,7 @@ Para utilizar un identificador suplementario en un recorrido Leer audiencia, sig
 
    1. Seleccione el área de nombres que se asociará al ID suplementario. Debe ser un área de nombres de identificador de persona.
 
-      >[!NOTE]
-      >
-      >Después de aplicar el área de nombres de identidad no personal a un esquema, debe crear un nuevo evento (para recorridos activados por eventos) o un nuevo grupo de campos (para recorridos de audiencia de lectura) para utilizar el identificador suplementario. Las entidades existentes no se pueden actualizar para reconocer el nuevo identificador.
+      Después de aplicar el área de nombres de identidad no personal a un esquema, debe crear un nuevo grupo de campos para utilizar el identificador suplementario. Las entidades existentes no se pueden actualizar para reconocer el nuevo identificador.
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -250,4 +250,4 @@ En una matriz de objetos con el Id. suplementario como `bookingNum` y un atribut
 
 Obtenga información sobre cómo habilitar y aplicar un identificador suplementario en [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464795?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
