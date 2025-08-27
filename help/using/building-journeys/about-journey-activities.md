@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: recorridos, actividades, introducción, eventos, acción
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 15%
+source-wordcount: '690'
+ht-degree: 16%
 
 ---
 
@@ -42,11 +42,12 @@ Las actividades de orquestación son condiciones diferentes que ayudan a determi
 
 En la paleta, en el lado izquierdo de la pantalla, están disponibles las siguientes actividades de orquestación:
 
-* [Condición](../building-journeys/condition-activity.md)
-* [Espere](../building-journeys/wait-activity.md)
-* [Leer audiencia](../building-journeys/read-audience.md)
+* [Optimizar](optimize.md)
+* [Leer audiencia](read-audience.md)
+* [Esperar](wait-activity.md)
+* [Decisión de contenido](content-decision.md)
 
-![Paleta de actividades de orquestación en el diseñador de recorrido](assets/journey49.png)
+![Paleta de actividades de orquestación en el diseñador de recorrido](assets/journey-orchestration-activities.png)
 
 ## Actividades de acción {#action-activities}
 

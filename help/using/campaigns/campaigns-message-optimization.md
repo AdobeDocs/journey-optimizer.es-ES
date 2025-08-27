@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 keywords: optimización de campañas, experimentación, segmentación, pruebas A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1045'
 ht-degree: 6%
 
 ---
@@ -113,7 +113,7 @@ Para configurar la experimentación y determinar qué mensaje genera la mayor ca
    >
    >Si está en un recorrido, agregue una actividad **[!UICONTROL Action]**, elija una actividad de canal y seleccione **[!UICONTROL Configure action]**. [Más información](../building-journeys/journey-action.md#add-action)
 
-1. En la ficha **[!UICONTROL Acciones]**, seleccione al menos dos acciones entrantes, por ejemplo [experiencia basada en código](../code-based/get-started-code-based.md) y [En la aplicación](../../rp_landing_pages/in-app-landing-page.md).
+1. En la ficha **[!UICONTROL Acciones]**, seleccione dos acciones entrantes, por ejemplo [experiencia basada en código](../code-based/get-started-code-based.md) y [En la aplicación](../../rp_landing_pages/in-app-landing-page.md).
 
 1. En la sección **[!UICONTROL Optimización]**, seleccione **[!UICONTROL Crear experimento]**.
 
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Aprenda a aprovechar la optimización de mensajes en campañas activadas por acciones o API. Descubra cómo dirigirse a subaudiencias, crear variaciones de mensajes por ubicación, habilitar contenido de reserva y ejecutar varios experimentos dentro de una sola campaña. Este tutorial también explica cómo administrar campañas multicanal y, al mismo tiempo, mantener la coherencia del mensaje.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470371?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
