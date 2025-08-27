@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
-source-git-commit: a873a36c216510b7598f24805ddfcd31c71eaa46
+source-git-commit: a7cfbd5c13ddf70f2a86fb0e19bd3b2fc43393e7
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 19%
@@ -174,4 +174,4 @@ Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
 
    >[!NOTE]
    >
-   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
