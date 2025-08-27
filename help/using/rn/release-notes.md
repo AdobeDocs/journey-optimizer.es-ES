@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c19c0df82ade193984710f6c2bdae6acd55a6fb5
+source-git-commit: 14df4a342a88a52dc003338e323b8108817ce1ce
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 73%
+source-wordcount: '1700'
+ht-degree: 72%
 
 ---
 
@@ -259,6 +259,13 @@ A continuación, se describen las mejoras incluidas en esta versión.
 * **Administración**
 
    * **Alertas de supervisión de configuración de canal**: ahora puede suscribirse para recibir alertas del sistema, ya sea por correo electrónico o en el centro de notificaciones de Journey Optimizer, en caso de que falte <!--a channel configuration failure happens or if -->un registro DNS. [Más información](../reports/alerts.md#alert-dns-record-missing)
+
+* **Asistente de IA**
+
+   * **Generación de contenido en varios idiomas**. Ahora el contenido se puede generar en francés, español, alemán, italiano, japonés, sueco, holandés y noruego. [Más información](../content-management/generative-uc.md#languages)
+
+     Fecha de disponibilidad: 25 de agosto
+
 
 * **Campañas**
 
