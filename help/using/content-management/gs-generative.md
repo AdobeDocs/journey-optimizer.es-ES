@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '807'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 100%
 >Sumérjase en una experiencia práctica con [nuestra vista previa de funciones en directo](https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, diseñada para permitirle explorar sus funciones en primera persona y comprender plenamente sus posibilidades.
 
 
-El Asistente de IA en Adobe Journey Optimizer, impulsado por Microsoft Azure OpenAI y Adobe Firefly, aporta sugerencias proactivas de variación de contenido para texto e imágenes. Está disponible para canales de correo electrónico, push y SMS. Esta nueva funcionalidad proporciona una generación de texto e imágenes basada en solicitudes. La generación de imágenes se administra con Adobe Firefly.
+El Asistente de IA en Adobe Journey Optimizer, impulsado por Microsoft Azure OpenAI y Adobe Firefly, aporta sugerencias proactivas de variación de contenido para texto e imágenes. Está disponible para canales de correo electrónico, push y SMS. Esta nueva funcionalidad proporciona una generación de texto e imágenes basada en indicaciones. La generación de imágenes se administra con Adobe Firefly.
 
 Ahora puede utilizar el Asistente de IA en Adobe Journey Optimizer para optimizar el impacto del mensaje experimentando con diferentes títulos e imágenes principales. Genere varias variantes y cree un experimento para compararlas. Con el Experimento de contenido de Journey Optimizer, puede definir varios tratamientos para los mensajes a fin de medir cuál ofrece el mejor rendimiento para su público destinatario. Puede elegir entre variar el contenido del envío o el asunto. El público del mensaje se asigna aleatoriamente a cada tratamiento para determinar cuál funciona mejor en términos de la métrica especificada. Obtenga más información sobre el Experimento de contenido en [esta sección](../content-management/content-experiment.md).
 
@@ -91,7 +91,6 @@ A continuación, se indican las directrices generales para utilizar el Asistente
 
 Las siguientes limitaciones se aplican al asistente de IA en Adobe Journey Optimizer:
 
-* Solo se admite el idioma inglés. Las entradas que no estén en inglés pueden producir resultados incoherentes o erróneos. Los problemas que surjan de respuestas que no estén en inglés no se abordarán ni mejorarán en estos momentos.
 * Solo está disponible para los canales de correo electrónico, push, web y SMS.
 * El contenido de GenAI podría no ser siempre preciso: comparta sus comentarios para que nuestros ingenieros puedan perfeccionar los modelos.
 * Puede cargar varios recursos de marca, pero solo puede utilizar uno para una generación específica.

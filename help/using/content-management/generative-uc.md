@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 4%
+source-wordcount: '607'
+ht-degree: 3%
 
 ---
 
@@ -110,5 +110,23 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 1. Revise las **[!UICONTROL sugerencias de variación]** para localizar el recurso que prefiera.
 
 1. Seleccione **[!UICONTROL Vista previa]** para ver la variación elegida en pantalla completa.
+
+1. Cuando encuentre el contenido adecuado, haga clic en **[!UICONTROL Seleccionar]**.
+
+## Generar contenido en varios idiomas {#languages}
+
+![](assets/do-not-localize/gen-ai-language.gif)
+
+1. Una vez configurada la campaña, haz clic en **[!UICONTROL Editar contenido]**.
+
+1. Abra el menú **[!UICONTROL Asistente de IA]**.
+
+1. Ajuste el contenido introduciendo la solicitud deseada en el cuadro **[!UICONTROL Prompt]** en francés, español, alemán, italiano, japonés, sueco, holandés o noruego.
+
+1. Adapte el mensaje con la opción **[!UICONTROL Configuración de texto]** y seleccione los **[!UICONTROL idiomas]** que desee para el contenido generado.
+
+1. Personalice el mensaje según sea necesario y haga clic en **[!UICONTROL Generar]**.
+
+1. Revise las **[!UICONTROL sugerencias de variación]** en el idioma seleccionado.
 
 1. Cuando encuentre el contenido adecuado, haga clic en **[!UICONTROL Seleccionar]**.
