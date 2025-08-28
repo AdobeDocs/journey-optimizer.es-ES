@@ -4,10 +4,10 @@ product: journey optimizer
 title: Trabajo con actividades de campaña organizadas
 description: Obtenga información sobre cómo organizar actividades de campaña
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
+source-git-commit: 2e04d3022ff6e8427e80a5a22cae367c4995730a
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 66%
+source-wordcount: '407'
+ht-degree: 63%
 
 ---
 
@@ -23,6 +23,11 @@ Todas las actividades se detallan en las secciones siguientes:
 * [Actividades de control de flujo](#flow-control)
 
 ![Lista de actividades disponibles en el lienzo](../assets/orchestrated-activities.png){width="80%" align="left"}
+
+
+>[!NOTE]
+>
+>Según el modelo de licencia, los permisos y la implementación, las actividades disponibles pueden diferir.
 
 ## Actividades de segmentación {#targeting}
 
