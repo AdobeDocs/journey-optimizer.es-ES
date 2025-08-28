@@ -4,10 +4,10 @@ product: journey optimizer
 title: Inicio y monitorización de campañas organizadas con Adobe Journey Optimizer
 description: Obtenga información sobre cómo iniciar y monitorizar campañas orquestadas con Adobe Journey Optimizer.
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 55%
+ht-degree: 53%
 
 ---
 
@@ -35,7 +35,7 @@ Para probar una campaña orquestada, abra la campaña y seleccione **[!UICONTROL
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Cada actividad de la campaña se ejecuta secuencialmente hasta que se llega al final del diagrama. Durante la prueba, puede controlar la ejecución de la campaña mediante la barra de acciones del lienzo. A partir de ahí, puede realizar lo siguiente:
+Cada actividad de la campaña se ejecuta secuencialmente hasta que se llega al final del lienzo. Durante la prueba, puede controlar la ejecución de la campaña mediante la barra de acciones del lienzo. A partir de ahí, puede realizar lo siguiente:
 
 * **Detenga** la ejecución en cualquier momento.
 * **Inicie** la ejecución de nuevo.
@@ -115,4 +115,4 @@ En ambas pestañas, puede elegir las columnas mostradas y su orden, aplicar filt
 
 ## Próximos pasos {#next}
 
-Después de iniciar el diagrama de campaña orquestada, puede utilizar las funcionalidades de creación de informes de Journey Optimizer para obtener perspectivas, como comprender el comportamiento de la audiencia y medir el rendimiento de cada paso en el recorrido del cliente. [Más información sobre los informes de campañas organizadas](../orchestrated/reporting-campaigns.md)
+Después de iniciar el lienzo de la campaña orquestada, puede utilizar las funcionalidades de creación de informes de Journey Optimizer para obtener perspectivas, como comprender el comportamiento de la audiencia y medir el rendimiento de cada paso en el recorrido del cliente. [Más información sobre los informes de campañas organizadas](../orchestrated/reporting-campaigns.md)

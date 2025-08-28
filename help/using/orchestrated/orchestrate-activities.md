@@ -4,27 +4,27 @@ product: journey optimizer
 title: Creación de campañas organizadas con Adobe Journey Optimizer
 description: Aprenda a crear campañas organizadas con Adobe Journey Optimizer
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 56%
+source-wordcount: '886'
+ht-degree: 50%
 
 ---
 
 
 # Actividades de la campaña organizada {#orchestrate}
 
-Una vez que haya [creado una campaña orquestada](gs-campaign-creation.md), puede empezar a orquestar las diferentes tareas que realizará. Para ello, se proporciona un lienzo visual, que le permite construir un diagrama de campaña orquestada. Dentro de este diagrama, puede añadir varias actividades y conectarlas en un orden secuencial.
+Una vez que haya [creado una campaña orquestada](gs-campaign-creation.md), puede empezar a orquestar las diferentes tareas que realizará. Para ello, se proporciona un lienzo visual, que le permite construir un lienzo de campaña orquestado. Dentro de este lienzo, puede agregar varias actividades y conectarlas en un orden secuencial.
 
 ## Añadir actividades {#add}
 
-En esta fase de la configuración, el diagrama se muestra con un icono de inicio que representa el principio de la campaña orquestada. Para añadir su primera actividad, haga clic en el botón **+** conectado al icono de inicio.
+En esta fase de la configuración, el lienzo de la campaña orquestada se muestra con un icono de inicio que representa el principio de la campaña orquestada. Para añadir su primera actividad, haga clic en el botón **+** conectado al icono de inicio.
 
-Aparece una lista de actividades que se pueden añadir al diagrama. Las actividades disponibles dependen de su posición en el diagrama de campaña orquestada. Por ejemplo, al agregar la primera actividad, puede iniciar la campaña orquestada segmentando una audiencia, dividiendo la ruta de la campaña orquestada o estableciendo una actividad **Wait** para retrasar la ejecución de la campaña orquestada. Por otro lado, después de una actividad **Generar audiencia**, puede refinar el segmento con actividades de segmentación, enviar una entrega a la audiencia con actividades de canal u organizar el proceso de campaña orquestado con actividades de control de flujo.
+Aparece una lista de actividades que se pueden agregar al lienzo de campaña orquestada. Las actividades disponibles dependen de su posición dentro del lienzo de la campaña orquestada. Por ejemplo, al agregar la primera actividad, puede iniciar la campaña orquestada segmentando una audiencia, dividiendo la ruta de la campaña orquestada o estableciendo una actividad **Wait** para retrasar la ejecución de la campaña orquestada. Por otro lado, después de una actividad **Generar audiencia**, puede refinar el segmento con actividades de segmentación, enviar una entrega a la audiencia con actividades de canal u organizar el proceso de campaña orquestado con actividades de control de flujo.
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 
-Una vez añadida una actividad al diagrama, aparece un panel derecho que le permite configurarla con ajustes específicos. En [esta sección](activities/about-activities.md) encontrará información detallada sobre cómo configurar cada actividad.
+Una vez añadida una actividad al lienzo, aparece un panel derecho que le permite configurarla con ajustes específicos. En [esta sección](activities/about-activities.md) encontrará información detallada sobre cómo configurar cada actividad.
 
 ![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
@@ -85,7 +85,7 @@ Para pegar las actividades, haga clic en el botón **+** de una transición y se
 
 ![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-## Ejemplo de diagrama {#example}
+## Ejemplo de lienzo {#example}
 
 Este es un ejemplo de campaña orquestada diseñada para enviar un correo electrónico a todos los clientes que han realizado una compra de al menos 100 $, excluyendo a todos los clientes que tienen menos de 50 puntos de lealtad.
 
@@ -106,4 +106,4 @@ Para ello, se han añadido las actividades siguientes:
 
 ## Próximos pasos {#next}
 
-Después de diseñar correctamente el diagrama de campaña orquestada, puede ejecutar la campaña orquestada y realizar un seguimiento del progreso de sus distintas tareas. [Aprenda a iniciar una campaña orquestada y a supervisar su ejecución](start-monitor-campaigns.md)
+Después de diseñar correctamente el lienzo de campaña orquestada, puede ejecutar la campaña orquestada y realizar un seguimiento del progreso de sus distintas tareas. [Aprenda a iniciar una campaña orquestada y a supervisar su ejecución](start-monitor-campaigns.md)

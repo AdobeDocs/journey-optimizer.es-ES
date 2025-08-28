@@ -5,10 +5,10 @@ title: Introducción a las campañas orquestadas
 description: Obtenga información sobre cómo empezar con campañas orquestadas
 short-description: Descubra las características clave y los casos de uso de las campañas orquestadas
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -64,9 +64,9 @@ El lienzo de la campaña orquestada es una representación de lo que se supone q
 
 Cada campaña orquestada contiene:
 
-* **Actividades**: una actividad es una tarea que se va a realizar. Las distintas actividades disponibles se representan en el diagrama mediante iconos. Cada actividad tiene propiedades específicas y otras propiedades que son comunes a todas las actividades.
+* **Actividades**: una actividad es una tarea que se va a realizar. Las distintas actividades se representan en el lienzo mediante iconos. Cada actividad tiene propiedades específicas y otras propiedades que son comunes a todas las actividades.
 
-  En un diagrama de campaña orquestada, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o acciones recurrentes.
+  En un lienzo de campaña orquestado, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o acciones recurrentes.
 
 * **Transiciones**: las transiciones vinculan una actividad de origen a una actividad de destino y definen su secuencia.
 
