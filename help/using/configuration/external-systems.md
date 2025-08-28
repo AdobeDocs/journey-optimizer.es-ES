@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0a6db9c9537563fea5d56289d78b9ed49d703734
+source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 26%
+source-wordcount: '1499'
+ht-degree: 24%
 
 ---
 
@@ -76,7 +76,15 @@ Para **acciones personalizadas**, debe evaluar la capacidad de su API externa. P
 >
 >Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte esta [sección](../action/action-response.md)
 
-## Tiempo de espera y reintentos{#timeout}
+## Extremos con tiempo de respuesta lento {#response-time}
+
+Cuando un extremo tiene un tiempo de respuesta mayor de 0,75 segundos, sus llamadas de acción personalizadas se enrutan a través de un **servicio de acción personalizada lenta** dedicado en lugar del servicio predeterminado.
+
+Este servicio de acción personalizada lenta aplica un límite de 150 000 llamadas cada 30 segundos. El límite se aplica mediante una ventana deslizante, que puede comenzar en cualquier milisegundo dentro de ese período de 30 segundos. Una vez que la ventana está llena, las llamadas adicionales se rechazan con errores de límite. El sistema no espera al siguiente intervalo fijo, pero comienza la restricción inmediatamente después de alcanzar el umbral de 30 segundos.
+
+Dado que los extremos lentos pueden causar retrasos en todas las acciones en cola de la canalización, se recomienda no configurar acciones personalizadas con extremos que tengan tiempos de respuesta lentos. El enrutamiento de estas acciones al servicio lento ayuda a proteger el rendimiento general del sistema y evita una latencia adicional para otras acciones personalizadas.
+
+## Tiempo de espera y reintentos {#timeout}
 
 Si se cumple la regla de límite o restricción, se aplica la regla de tiempo de espera.
 
