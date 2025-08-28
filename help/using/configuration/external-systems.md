@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 24%
+source-wordcount: '1615'
+ht-degree: 22%
 
 ---
 
@@ -119,3 +119,14 @@ Para una llamada determinada, se puede realizar un máximo de tres reintentos de
 **¿Dónde puedo configurar el tiempo de espera? ¿Hay un valor máximo?**
 
 En cada recorrido, puede definir una duración de tiempo de espera. La duración del tiempo de espera se configura en las propiedades de un recorrido. La duración del tiempo de espera debe estar entre 1 segundo y 30 segundos. Consulte [esta sección](../configuration/external-systems.md#timeout) y [esta página](../building-journeys/journey-properties.md#timeout_and_error).
+
+**¿Cuál es el número máximo de conexiones abiertas por Journey Optimizer cuando se utilizan acciones personalizadas?**
+
+Con el proxy IP habilitado y una configuración de restricción definida en el punto de conexión de destino, el número de conexiones se basa en la velocidad (son estimaciones, no números garantizados):
+
+* entre 200 y 2000 c/s: 50 conexiones
+* entre 2000 y 3000: 75 conexiones
+* entre 3000 y 4000: 100 conexiones
+* entre 4000 y 5000: 125 conexiones
+
+Si no se define ninguna configuración de restricción en un punto de conexión, el motor de Journey Optimizer está diseñado para ampliarse y puede llegar a un número elevado de conexiones (más de 2000). Para obtener un número limitado de conexiones, los clientes deben utilizar una configuración de regulación.
