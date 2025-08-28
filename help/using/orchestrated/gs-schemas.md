@@ -4,10 +4,10 @@ product: journey optimizer
 title: Pasos de configuración
 description: Obtenga información sobre cómo crear un esquema relacional en Adobe Experience Platform cargando un DDL
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
-source-git-commit: 1cd98a42d6d30b21ea5fb6f8d6c745bf735b0e6c
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 3%
+source-wordcount: '236'
+ht-degree: 31%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 3%
 Esta guía muestra el proceso de creación de un esquema relacional, configuración de un conjunto de datos para campañas organizadas e ingesta de datos.
 
 ![](assets/do-not-localize/schema_admin.png)
+
+Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas). Los datos que se incorporan correctamente a Experience Platform se almacenan dentro del lago de datos como conjuntos de datos.
+
+Un esquema representa y valida la estructura y el formato de los datos. Proporciona una definición abstracta de un objeto del mundo real (por ejemplo, una persona) y describe qué datos deben incluirse en cada instancia de ese objeto (como, por ejemplo, nombre, cumpleaños, etc.).
+
 
 1. Crear [esquema relacional manualmente](manual-schema.md) o [con un archivo DDL](file-upload-schema.md)
 

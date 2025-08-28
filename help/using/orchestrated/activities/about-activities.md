@@ -4,10 +4,10 @@ product: journey optimizer
 title: Trabajo con actividades de campaña organizadas
 description: Obtenga información sobre cómo organizar actividades de campaña
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 70%
+source-wordcount: '393'
+ht-degree: 66%
 
 ---
 
@@ -30,6 +30,8 @@ Estas actividades son específicas de la segmentación. Le permiten crear uno o 
 
 ![Lista de actividades de segmentación](../assets/targeting-activities.png){width="40%" align="left"}
 
+Las actividades de segmentación disponibles son:
+
 * [Generar público](build-audience.md): defina la población de destinatarios. Puede seleccionar un público destinatario existente o utilizar el generador de reglas para definir su propia consulta.
 * [Cambiar dimensión](change-dimension.md): cambie la dimensión de segmentación mientras está creando su campaña orquestada.
 * [Combinar](combine.md): realice la segmentación en la población entrante. Puede utilizar una unión, una intersección o una exclusión.
@@ -49,9 +51,11 @@ Adobe Journey Optimizer le permite automatizar y ejecutar campañas de marketing
 >title="Actividad Finalizar"
 >abstract="La actividad **Finalizar** le permite marcar de forma gráfica el final de una campaña orquestada. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
 
-![Lista de actividades de control de flujo](../assets/flow-control-activities.png){width="30%" align="left"}
+Las siguientes actividades son específicas para organizar y ejecutar campañas orquestadas. Su principal tarea es coordinar las demás actividades.
 
-Las siguientes actividades son específicas para organizar y ejecutar campañas orquestadas. Su tarea principal es coordinar las otras actividades:
+![Lista de actividades de control de flujo](../assets/flow-control-activities.png){width="20%" align="left"}
+
+Las actividades de control de flujo disponibles son:
 
 * [And-join](and-join.md): sincronice varias ramas de ejecución de una campaña orquestada.
 * [Bifurcación](fork.md): crear transiciones de salida para iniciar varias actividades al mismo tiempo.
