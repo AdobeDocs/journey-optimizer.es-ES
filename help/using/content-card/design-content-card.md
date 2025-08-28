@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 3%
+source-wordcount: '510'
+ht-degree: 2%
 
 ---
 
@@ -19,9 +19,43 @@ La construcción de creación para tarjetas proporciona una experiencia de creac
 
 Una vez definido y personalizado el contenido, puede revisarlo y activarlo. Su campaña se enviará de acuerdo con la programación establecida. [Más información en esta página](../campaigns/review-activate-campaign.md).
 
+## Diseño de la tarjeta de contenido
+
+![](assets/content-card-image.png)
+
+En la sección **[!UICONTROL Diseño de la tarjeta de contenido]**, elija una de las tres opciones de diseño de imagen según sus requisitos de mensajería.
+
+* **[!UICONTROL Imagen pequeña]**: muestra una imagen compacta junto al texto, ideal para mensajes en los que el contenido tiene prioridad sobre los elementos visuales.
+
+* **[!UICONTROL Imagen grande]**: muestra una imagen destacada encima o al lado del texto, lo que hace que las imágenes sean el enfoque principal del mensaje.
+
+* **[!UICONTROL Solo imagen]**: muestra la imagen sin el texto que la acompaña, lo cual es perfecto para mensajes dirigidos por imágenes o imágenes independientes.
+
 ## Pestaña Contenido {#content-tab}
 
-Desde la ficha **[!UICONTROL Contenido]**, puede personalizar las tarjetas de contenido definiendo su contenido y el diseño del botón **[!UICONTROL Cerrar]**. Además, puede mejorar el contenido con medios y agregar botones de acción directamente desde esta pestaña.
+Desde la ficha **[!UICONTROL Contenido]**, puede personalizar las tarjetas de contenido definiendo contenido y agregando botones multimedia y de acción directamente desde esta ficha.
+
+### Contenido de texto {#title-body}
+
+Para redactar el mensaje, escribe el texto en los campos **[!UICONTROL Título]** y **[!UICONTROL Cuerpo]**.
+
+![](assets/content-card-design-2.png)
+
+Si deseas adaptar más el mensaje, usa el icono **[!UICONTROL Personalization]** para añadir elementos personalizados. Para obtener instrucciones detalladas sobre cómo usar las características de personalización, consulte [esta sección](../personalization/personalize.md).
+
+### Medios {#add-media}
+
+El campo **[!UICONTROL Medios]** le permite mejorar sus tarjetas de contenido mediante la adición de medios, lo que puede hacer que su presentación sea más atractiva para los usuarios finales.
+
+![](assets/content-card-design-3.png)
+
+Para incluir contenido multimedia, escribe la URL del contenido multimedia que quieras usar o haz clic en el icono **[!UICONTROL Seleccionar Assets]** para elegir entre los recursos almacenados en tu biblioteca de Assets. [Más información acerca de la administración de recursos](../integrations/assets.md).
+
++++Más opciones con formato avanzado
+
+Si el **[!UICONTROL modo de formato avanzado]** está activado, puedes agregar un **[!UICONTROL texto alternativo]** para las aplicaciones de lectura de pantalla y otro recurso en el campo **[!UICONTROL URL de medios en modo oscuro]**.
+
++++
 
 ### Botón Cerrar {#close-button}
 
@@ -35,13 +69,7 @@ Puede seleccionar entre los siguientes estilos:
 * **[!UICONTROL Simple]**
 * **[!UICONTROL Círculo]**
 
-### Contenido {#title-body}
 
-Para redactar el mensaje, escribe el texto en los campos **[!UICONTROL Título]** y **[!UICONTROL Cuerpo]**.
-
-![](assets/content-card-design-2.png)
-
-Si deseas adaptar más el mensaje, usa el icono **[!UICONTROL Personalization]** para añadir elementos personalizados. Para obtener instrucciones detalladas sobre cómo usar las características de personalización, consulte [esta sección](../personalization/personalize.md).
 
 <!--
 +++More options with advanced formatting
@@ -55,21 +83,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 +++
 -->
 
-### Medios {#add-media}
 
-El campo **[!UICONTROL Medios]** le permite mejorar sus tarjetas de contenido mediante la adición de medios, lo que puede hacer que su presentación sea más atractiva para los usuarios finales.
-
-![](assets/content-card-design-3.png)
-
-Para incluir contenido multimedia, escribe la URL del contenido multimedia que quieras usar o haz clic en el icono **[!UICONTROL Seleccionar Assets]** para elegir entre los recursos almacenados en tu biblioteca de Assets. [Más información acerca de la administración de recursos](../integrations/assets.md).
-
-<!--
-+++More options with advanced formatting
-
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
-
-+++
--->
 
 ### Botones {#add-buttons}
 
