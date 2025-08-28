@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Actividades de las campañas organizadas
-description: Actividades de las campañas organizadas
+title: Actividades de campañas organizadas
+description: Actividades de campañas organizadas
 redpen-status: CREATED_||_2025-08-11_20-27-08
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
+source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
-
-# Actividades de las campañas organizadas{#section-overview}
+# Actividades de campañas organizadas{#section-overview}
 
 Las actividades de campaña organizadas en Adobe Journey Optimizer le permiten diseñar recorridos de marketing sin problemas y basados en datos que se conecten con su audiencia en el momento adecuado y a través de los canales adecuados. Al combinar las actividades de segmentación, canal y control de flujo, puede definir segmentos de audiencia precisos, personalizar mensajes y automatizar flujos de trabajo complejos. Tanto si desea crear audiencias, sincronizar ramas de campañas o añadir retrasos para optimizar el tiempo, estas actividades trabajan juntas para optimizar la ejecución de la campaña. Con herramientas como Enriquecimiento para la mejora de datos o División para la segmentación de audiencias, tendrá un kit de herramientas flexible para crear experiencias de cliente significativas e impactantes.
 
@@ -20,7 +20,7 @@ Las actividades de campaña organizadas en Adobe Journey Optimizer le permiten d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Trabajo con actividades de Campaign organizadas
 
@@ -30,7 +30,7 @@ Obtenga información sobre las actividades de segmentación, canal y control de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso de la actividad AND-join
 
@@ -40,7 +40,7 @@ Sincronice varias ramas de ejecución asegurándose de que las tareas anteriores
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Crear actividad de audiencia
 
@@ -50,7 +50,7 @@ Defina y configure segmentos de audiencia para sus campañas mediante la activid
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Cambiar actividad de dimensión
 
@@ -60,7 +60,7 @@ Mejore la segmentación cambiando entre entidades de datos dentro de la campaña
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Actividades de canal
 
@@ -70,7 +70,7 @@ Configure el correo electrónico, los SMS, las notificaciones push y el correo d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Combinar actividad
 
