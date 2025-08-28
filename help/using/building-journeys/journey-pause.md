@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 10a228a500ac1c89f9fc400d6e7606f4b1717052
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 >title="Pause su recorrido"
 >abstract="Ponga en pausa un recorrido activo para evitar que entren nuevos perfiles. Pause un recorrido activo para evitar que entren nuevos perfiles. Si se conservan, se reanudará su ejecución en la siguiente actividad de acción una vez que se reinicie el recorrido. Es perfecto para actualizaciones o paradas de emergencia sin perder progreso."
 
-Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puede [aplicar criterios de salida de atributo de perfil](#journey-global-filters) para excluir perfiles en función de sus atributos. El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
+Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puede [aplicar criterios de salida de atributo de perfil](#journey-exit-criteria) para excluir perfiles en función de sus atributos. El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
 
 
 
@@ -113,7 +113,7 @@ Para reanudar un recorrido en pausa y comenzar a escuchar eventos de recorrido d
 Desde la lista de sus recorridos, puede reanudar uno o varios **recorridos pausados**. Para reanudar un grupo de recorridos (_reanudación masiva_), selecciónelos y haga clic en el botón **Reanudar** ubicado en la barra azul en la parte inferior de la pantalla. Tenga en cuenta que el botón **Reanudar** solo estará disponible cuando se seleccionen **recorridos en pausa**.
 
 
-## Aplicar criterios de salida en un recorrido pausado {#journey-global-filters}
+## Aplicar criterios de salida en un recorrido pausado {#journey-exit-criteria}
 
 Cuando un recorrido está en pausa, se puede aplicar un criterio de salida basado en atributos de perfil. Este filtro habilita la exclusión de perfiles que coinciden con la expresión definida en el momento de la reanudación. Una vez definidos los criterios de salida basados en atributos de perfil, se aplicarán en los nodos de acción, incluso para la entrada de nuevos perfiles. Los perfiles existentes que coincidan con los criterios y los nuevos perfiles que entren en la recorrido se excluirán de la recorrido **en el siguiente nodo de acción** que encuentren.
 
@@ -123,7 +123,7 @@ Por ejemplo, para excluir todos los clientes franceses de un recorrido en pausa,
 
 1. Seleccione el icono **Criterios de salida**.
 
-   ![Agregar un atributo de perfil a un recorrido en pausa](assets/add-global-filter.png)
+   ![Agregar un atributo de perfil a un recorrido en pausa](assets/add-exit-criteria.png)
 
 1. En la configuración de **Criterios de salida**, haga clic en **Agregar criterios de salida** para definir un filtro basado en atributos de perfil.
 
