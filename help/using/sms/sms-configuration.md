@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 37e86b2c9d7f1587fefa2927949a13cac24c34ad
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 35%
+ht-degree: 42%
 
 ---
 
@@ -39,8 +39,8 @@ ht-degree: 35%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_fuzzy_opt_out"
->title="Opción de exclusión aproximada"
->abstract="Cuando se habilita, la exclusión aproximada detecta los mensajes entrantes que se parecen mucho a las palabras clave de exclusión definidas (por ejemplo, CANCIL) y envía automáticamente una respuesta de confirmación para verificar la intención de cancelación de suscripción del usuario. Si el usuario confirma esta decisión a través de la indicación definida, se cancela su suscripción."
+>title="Exclusión aproximada"
+>abstract="Cuando está habilitada, la exclusión aproximada detecta mensajes entrantes que se parecen mucho a las palabras clave de exclusión definidas (por ejemplo, Cancilar) y envía automáticamente una respuesta de confirmación para comprobar la intención del usuario de cancelar su suscripción. Si el usuario confirma esta decisión a través de la indicación definida, se cancela su suscripción."
 
 Antes de enviar SMS, MMS o RCS, debe configurar su entorno de Adobe Journey Optimizer. Para realizar esto:
 

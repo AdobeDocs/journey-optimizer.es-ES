@@ -12,7 +12,7 @@ exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
@@ -112,7 +112,7 @@ Para los mensajes en la aplicación, puedes usar el botón **[!UICONTROL Editar 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="Añadir varias acciones entrantes"
->abstract="Puede seleccionar varias acciones entrantes dentro de un solo recorrido. Esta capacidad le permite enviar varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, cada acción con un contenido específico."
+>abstract="Puede seleccionar varias acciones entrantes dentro de un solo recorrido. Esta función le permite enviar varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, y cada acción con un contenido específico."
 
 Para simplificar la orquestación de recorrido, puede definir varias acciones entrantes dentro de una sola acción de recorrido.
 
