@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: datos, fuente, configuración, campo
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 521b643dfea095c2e9499db60038dc7202fc8648
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 8%
+source-wordcount: '615'
+ht-degree: 7%
 
 ---
 
@@ -60,7 +60,7 @@ El número de recorridos que utilizan un grupo de campos se muestra en el campo 
 
 Puede agregar o quitar campos de un grupo de campos que no se utilicen en ningún recorrido en borrador o activo.
 
-Puede agregar un campo de un grupo de campos utilizado en uno o varios recorridos en borrador o activos, pero no puede eliminarlo. Esto evitará romper recorridos.
+Si el grupo de campos se utiliza en uno o varios recorridos en borrador o activos, puede añadir gradualmente nuevos campos desde el esquema seleccionado, pero no puede anular la selección, eliminar ni modificar los campos que ya se han seleccionado. No se permiten las actualizaciones de un grupo de campos si se modifican campos de esquema existentes que ya utilizan los borradores o los recorridos activos; por ejemplo, al cambiar el tipo de datos de un campo. Esto evitará romper los recorridos
 
 Para eliminar un campo de un grupo de campos utilizado en uno o varios recorridos, siga estos pasos. Veamos un ejemplo de un grupo de campos denominado &quot;Grupo de campos A&quot;.
 
