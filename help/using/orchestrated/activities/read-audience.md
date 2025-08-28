@@ -4,16 +4,15 @@ product: journey optimizer
 title: Uso de la actividad Leer público
 description: Aprenda a utilizar la actividad Leer audiencia en una campaña organizada
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 63ca1aab5190c58031dbab13651639bba4363964
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 16%
+source-wordcount: '650'
+ht-degree: 11%
 
 ---
 
 
 # Leer público {#read-audience}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
@@ -23,6 +22,20 @@ ht-degree: 16%
 La actividad **[!UICONTROL Leer audiencia]** le permite recuperar una audiencia existente (previamente guardada o importada) y reutilizarla dentro de una campaña orquestada. Esta actividad es especialmente útil para segmentar un conjunto predefinido de perfiles sin necesidad de ejecutar un nuevo proceso de segmentación.
 
 Una vez cargada la audiencia, puede refinarla seleccionando un campo de identidad único y enriqueciéndola con atributos de perfil adicionales para fines de segmentación, personalización o creación de informes.
+
+## Leer caché de audiencias {#cache}
+
+Al probar una campaña orquestada, la actividad **[!UICONTROL Leer audiencia]** generalmente tarda un poco en obtener datos, lo que puede hacer que las ejecuciones de prueba sean más largas. Para acelerar esto, hay disponible una caché de **[!UICONTROL Leer audiencia]**.
+
+La caché almacena la audiencia junto con los atributos seleccionados por **hasta dos horas**. Durante este tiempo, cualquier ejecución de prueba posterior puede utilizar los resultados almacenados en caché, lo que evita la necesidad de recuperar los datos de nuevo. Una vez transcurrido el **período de dos horas**, los datos deben recuperarse de nuevo.
+
+La caché se guarda para cada campaña orquestada, no para la propia audiencia. Si se usa la misma audiencia en una actividad **[!UICONTROL Leer audiencia]** dentro de otra campaña orquestada, el sistema tendrá que recuperar los datos de nuevo.
+
+La caché no se conserva en los siguientes casos:
+
+* Cuando la actividad **[!UICONTROL Leer audiencia]** se actualiza con nuevos atributos, la caché se actualiza con los nuevos datos de atributos. Por lo tanto, la primera ejecución de prueba después de la actualización tardará más, ya que los datos deben recuperarse de nuevo.
+
+* Cuando se publica la campaña orquestada, se recuperan los datos más recientes al ejecutar la campaña orquestada en directo.
 
 ## Configuración de la actividad Leer audiencia {#read-audience-configuration}
 
@@ -48,7 +61,7 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Leer audiencia]**:
 
    ![](../assets/read-audience-3.png)
 
-1. Seleccione [!UICONTROL Agregar atributo] para enriquecer la audiencia seleccionada con datos adicionales. Este paso permite agregar atributos de perfil a la audiencia, lo que da como resultado una lista de destinatarios mejorados con esos atributos.
+1. Seleccione **[!UICONTROL Agregar atributo]** para enriquecer la audiencia seleccionada con datos adicionales. Este paso permite agregar atributos de perfil a la audiencia, lo que da como resultado una lista de destinatarios mejorados con esos atributos.
 
 1. Elija los **[!UICONTROL atributos]** que desee agregar a su audiencia. El selector de atributos muestra campos del **Esquema de perfil de unión**:
 
