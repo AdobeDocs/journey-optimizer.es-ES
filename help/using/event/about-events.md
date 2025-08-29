@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: eventos, evento, recorrido, definición, inicio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 3764d7eebbe304e0773fa329db2755342ce64c85
+source-git-commit: 461bf985a890d0f2f2723241846df0666248eea0
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1079'
 ht-degree: 47%
 
 ---
@@ -76,9 +76,6 @@ Para los eventos generados por el sistema, la canalización filtra los eventos q
 ## Actualización y eliminación de un evento {#update-event}
 
 
-## Actualización y eliminación de un evento {#update-event}
-
-
 Para evitar romper los recorridos existentes, al editar un evento utilizado en un recorrido borrador, activo o cerrado, solo puede cambiar el nombre, la descripción o agregar campos de carga útil.
 
 No se puede eliminar ningún evento utilizado en recorridos activos, en borrador o cerrados. Para eliminar un evento utilizado, debe detener los recorridos que lo utilicen o eliminarlo de los recorridos de borrador en los que se utilice. Puede comprobar el campo **[!UICONTROL Utilizado en]**. Muestra el número de recorridos que utilizan ese evento en particular. Puede hacer clic en el botón **[!UICONTROL Ver recorridos]** para mostrar la lista de los recorridos correspondientes.
@@ -87,8 +84,8 @@ No se puede eliminar ningún evento utilizado en recorridos activos, en borrador
 
 Aprenda a configurar un evento y a especificar su punto final de reproducción y la carga útil.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431518?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprenda los casos de uso aplicables a los eventos empresariales. Obtenga información sobre cómo crear un recorrido mediante un evento empresarial y las prácticas recomendadas que se deben aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416328?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
