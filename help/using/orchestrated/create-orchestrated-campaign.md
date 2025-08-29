@@ -4,9 +4,9 @@ product: journey optimizer
 title: Creación y programación de campañas organizadas con Journey Optimizer
 description: Obtenga información sobre cómo crear y programar una campaña organizada con Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a58d71b3cdb5e83f80b064673f0a6d087b7c191d
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1122'
 ht-degree: 66%
 
 ---
@@ -31,9 +31,7 @@ Para crear una campaña orquestada, siga estos pasos:
 
    ![](assets/create-modal.png)
 
-1. Defina las propiedades de la campaña. Para ello, haga clic en el ![icono de configuración de la campaña](assets/do-not-localize/campaign-settings.svg) junto al nombre de la campaña.
-
-   ![](assets/inventory-create.png)
+1. Defina las propiedades de la campaña.
 
    1. Escriba un **[!UICONTROL Nombre]** y **[!UICONTROL Descripción]** para la campaña.
 
@@ -44,6 +42,11 @@ Para crear una campaña orquestada, siga estos pasos:
    1. Utilice el campo **[!UICONTROL Etiquetas]** para asignar etiquetas unificadas de Adobe Experience Platform a su campaña. Esto le permite clasificarlas fácilmente y mejorar la búsqueda desde la lista Campañas orquestadas. [Descubra cómo trabajar con etiquetas](../start/search-filter-categorize.md#tags).
 
    1. Haga clic en **[!UICONTROL Guardar]**.
+
+
+   Puede acceder a las propiedades de la campaña en cualquier momento mediante el ![icono de configuración de la campaña](assets/do-not-localize/campaign-settings.svg) situado junto al nombre de la campaña.
+
+   ![](assets/inventory-create.png)
 
 ## Programación de la campaña {#schedule}
 
