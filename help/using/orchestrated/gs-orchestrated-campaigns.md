@@ -5,10 +5,10 @@ title: Introducción a las campañas orquestadas
 description: Obtenga información sobre cómo empezar con campañas orquestadas
 short-description: Descubra las características clave y los casos de uso de las campañas orquestadas
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
+source-git-commit: 94c7594e9a12b0bc91bb01989b5dd25afb662cfe
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 92%
 
 ---
 
@@ -29,6 +29,8 @@ La orquestación de campañas en [!DNL Adobe Journey Optimizer] impulsa campaña
 Aunque el marketing de múltiples canales es esencial, las campañas orquestadas lo hacen fluido. Con una interfaz visual de arrastrar y soltar, puede diseñar y automatizar flujos de trabajo de marketing complejos, desde la segmentación hasta el envío de mensajes, en varios canales. Todo sucede en un entorno intuitivo, creado para ofrecer velocidad, control y eficacia.
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
+
+➡️ [Descubra campañas orquestadas en vídeo](#video-oc)
 
 ## Funcionalidades principales
 
@@ -71,6 +73,15 @@ Cada campaña orquestada contiene:
 * **Transiciones**: las transiciones vinculan una actividad de origen a una actividad de destino y definen su secuencia.
 
 * **Tablas de trabajo**: estas contienen toda la información de la transición. Cada campaña orquestada utiliza varias tablas de trabajo. Los datos que contienen estas tablas se pueden utilizar a lo largo de todo el ciclo de vida de la campaña orquestada.
+
+
+## Vídeo de introducción {#video-oc}
+
+Conozca los conceptos y las capacidades clave disponibles con las campañas orquestadas.
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
+
 
 ## Vamos a profundizar
 
