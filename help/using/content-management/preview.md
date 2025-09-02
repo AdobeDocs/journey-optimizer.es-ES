@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
+source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Una vez que se hayan seleccionado [perfiles de prueba](test-profiles.md), puede obtener una vista previa del contenido usando sus datos. Siga estos pasos:
 
-1. En la pantalla de edición de contenido del mensaje o en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]** y seleccione **[!UICONTROL Contenido de sumulaye]**.
+1. En la pantalla Editar contenido del mensaje o en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]** y seleccione **[!UICONTROL Simular contenido]**.
 
 1. Seleccione un perfil de prueba. Puede comprobar los valores disponibles en las columnas. Utilice las flechas derecha e izquierda para examinar los datos.
 
