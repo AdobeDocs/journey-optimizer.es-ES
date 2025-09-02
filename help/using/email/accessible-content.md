@@ -3,29 +3,29 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Diseño de contenido accesible
 description: Aprenda a diseñar contenido accesible para sus correos electrónicos y páginas de aterrizaje en Journey Optimizer
-feature: Email Design
+feature: Email Design, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, diseño, accesibilidad
-hide: true
-hidefromtoc: true
-source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
+source-git-commit: fff37a5325eb99a5a484cad93c391cb92fef7526
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
 
 # Diseño de contenido accesible {#accessible-content}
 
+>[!NOTE]
+>
+>En esta página se trata de poner el contenido a disposición de todos los destinatarios para garantizar que las personas con discapacidades puedan leer, comprender e interactuar con los mensajes de correo electrónico y las páginas de aterrizaje diseñados con [!DNL Journey Optimizer].
+>
+>La accesibilidad de la interfaz [!DNL Journey Optimizer] se detalla en [esta sección](../start/accessibility.md).
+
 La [Ley Europea de Accesibilidad](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} es una directiva diseñada para mejorar el mercado interno de productos y servicios accesibles al eliminar las barreras causadas por las diferentes reglas nacionales en los Estados Miembros.
 
 Al crear contenido para sus **correos electrónicos** y **páginas de aterrizaje** en [!DNL Journey Optimizer], las prácticas recomendadas de accesibilidad para los especialistas en marketing por correo electrónico que se enumeran en esta página pueden ayudarle a cumplir con esta directiva. Se basan en las Directrices de accesibilidad del contenido web (WCAG) 2.1, nivel AA.
-
->[!NOTE]
->
->Las características de accesibilidad al usar la interfaz [!DNL Journey Optimizer] se detallan en [esta sección](../start/accessibility.md).
 
 La ley europea de accesibilidad establece que todas las comunicaciones digitales, incluidos los correos electrónicos, los boletines informativos, los PDF y el contenido descargable, deben ser accesibles. Por lo tanto, es necesario seguir directrices específicas como el uso de fuentes accesibles, formatos legibles y proporcionar texto alternativo para las imágenes.
 
@@ -33,7 +33,6 @@ La ley europea de accesibilidad establece que todas las comunicaciones digitales
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## Garantizar la legibilidad del texto {#text-readability}
 
 Aproveche la pestaña **[!UICONTROL Estilos]** del componente **[!UICONTROL Texto]** para asegurarse de que el texto sea legible, por ejemplo, usando un contraste de color adecuado y fuentes simples. [Más información](content-components.md#text)
