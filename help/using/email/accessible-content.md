@@ -31,7 +31,7 @@ En línea con esto, las prácticas recomendadas para diseñar contenido accesibl
 >
 >Por otro lado, la accesibilidad de la interfaz de [!DNL Journey Optimizer] se detalla en [esta sección](../start/accessibility.md).
 > 
-## Garantizar la legibilidad del texto {#text-readability}
+>## Garantizar la legibilidad del texto {#text-readability}
 
 Aproveche la pestaña **[!UICONTROL Estilos]** del componente **[!UICONTROL Texto]** para asegurarse de que el texto sea legible, por ejemplo, usando un contraste de color adecuado y fuentes simples. [Más información](content-components.md#text)
 
