@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: correo electrónico, diseño, accesibilidad
 hide: true
 hidefromtoc: true
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
 workflow-type: tm+mt
 source-wordcount: '1612'
 ht-degree: 0%
@@ -33,7 +33,6 @@ La ley europea de accesibilidad establece que todas las comunicaciones digitales
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## Garantizar la legibilidad del texto {#text-readability}
 
 Aproveche la pestaña **[!UICONTROL Estilos]** del componente **[!UICONTROL Texto]** para asegurarse de que el texto sea legible, por ejemplo, usando un contraste de color adecuado y fuentes simples. [Más información](content-components.md#text)
@@ -325,7 +324,9 @@ Los lectores de pantalla dicen:
 >
 >Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
 
-## Proporcionar compatibilidad con la navegación mediante el teclado y el enfoque <!--for landing pages--> {#keyboard}
+## Proporcionar compatibilidad de enfoque y navegación mediante el teclado {#keyboard}
+
+<!--for landing pages-->
 
 Proporcionar compatibilidad con la navegación mediante el teclado y el enfoque permite a las personas que no pueden utilizar un ratón acceder e interactuar con el contenido por completo. También mejora la capacidad de uso general al proporcionar a todos los usuarios una forma clara y coherente de desplazarse por la información.
 
