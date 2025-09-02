@@ -43,12 +43,12 @@ Las reglas condicionales se crean desde el menú **[!UICONTROL Conditions]** den
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
 >title="Crear condición"
->abstract="Combine atributos de perfil, eventos contextuales o audiencias para crear reglas que definan qué contenido debe mostrarse en los mensajes."
+>abstract="Combine atributos de perfil, eventos contextuales o públicos para crear reglas que definan qué contenido debe mostrarse en los mensajes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
 >title="Crear condición"
->abstract="Combine atributos de perfil, eventos contextuales o audiencias para crear reglas que definan qué contenido debe mostrarse en los mensajes."
+>abstract="Combine atributos de perfil, eventos contextuales o públicos para crear reglas que definan qué contenido debe mostrarse en los mensajes."
 
 Los pasos para crear una regla condicional son los siguientes:
 
@@ -56,7 +56,7 @@ Los pasos para crear una regla condicional son los siguientes:
 
 1. Genere la regla condicional según sus necesidades. Para ello, arrastre y suelte y organice los atributos deseados del menú de la izquierda al lienzo.
 
-   Los pasos para combinar atributos en el lienzo son similares a la experiencia de creación de segmentos. Para obtener más información sobre cómo trabajar con el lienzo del generador de reglas, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es#rule-builder-canvas).
+   Los pasos para combinar atributos en el lienzo son similares a la experiencia de creación de segmentos. Para obtener más información sobre cómo trabajar con el lienzo del generador de reglas, consulte [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 

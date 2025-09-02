@@ -24,28 +24,28 @@ ht-degree: 51%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
->title="Publicar la audiencia"
->abstract="Publique la composición para guardar las audiencias resultantes en Adobe Experience Platform."
+>title="Publicar el público"
+>abstract="Publique la composición para guardar los públicos resultantes en Adobe Experience Platform."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
->title="Actividad de audiencia"
->abstract="La actividad de audiencia permite incluir en su composición perfiles adicionales que pertenecen a una audiencia existente."
+>title="Actividad de público"
+>abstract="La actividad de público permite incluir en su composición perfiles adicionales que pertenecen a un público existente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
 >title="Tipos de combinación"
->abstract="Especifique cómo se deben combinar los perfiles de las audiencias seleccionadas."
+>abstract="Especifique cómo se deben combinar los perfiles de los públicos seleccionados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="Tipo de exclusión"
->abstract="Utilice el tipo Excluir audiencia para excluir perfiles pertenecientes a una audiencia existente. El tipo de atributo de exclusión permite excluir perfiles según un atributo específico."
+>abstract="Utilice el tipo Excluir público para excluir perfiles pertenecientes a un público existente. El tipo de atributo de exclusión permite excluir perfiles según un atributo específico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
 >title="Actividad de exclusión"
->abstract="La actividad de exclusión permite excluir perfiles de la composición seleccionando una audiencia existente o utilizando una regla."
+>abstract="La actividad de exclusión permite excluir perfiles de la composición seleccionando un público existente o utilizando una regla."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -55,17 +55,17 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
 >title="Conjunto de datos de enriquecimiento"
->abstract="Seleccione el conjunto de datos de enriquecimiento que contiene los datos que desea asociar a la audiencia."
+>abstract="Seleccione el conjunto de datos de enriquecimiento que contiene los datos que desea asociar al público."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_criteria"
 >title="Criterios de enriquecimiento"
->abstract="Seleccione los campos que se utilizarán como clave de reconciliación entre el conjunto de datos de origen, es decir, la audiencia y el conjunto de datos de enriquecimiento."
+>abstract="Seleccione los campos que se utilizarán como clave de reconciliación entre el conjunto de datos de origen, es decir, el público y el conjunto de datos de enriquecimiento."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="Atributos de enriquecimiento"
->abstract="Seleccione uno o varios atributos del conjunto de datos de enriquecimiento para asociarlos a la audiencia. Una vez publicada la composición, estos atributos se asocian al público y se pueden aprovechar en campañas de Journey Optimizer para personalizar envíos."
+>abstract="Seleccione uno o varios atributos del conjunto de datos de enriquecimiento para asociarlos al público. Una vez publicada la composición, estos atributos se asocian al público y se pueden aprovechar en campañas de Journey Optimizer para personalizar envíos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
@@ -85,7 +85,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
 >title="Actividad de división"
->abstract="La actividad de división permite dividir la composición en varias rutas. Al publicar la composición, se guardará una audiencia en Adobe Experience Platform para cada ruta."
+>abstract="La actividad de división permite dividir la composición en varias rutas. Al publicar la composición, se guardará un público en Adobe Experience Platform para cada ruta."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
@@ -146,7 +146,7 @@ Para crear un flujo de trabajo de maquetación, siga estos pasos:
 
    ![](assets/audiences-properties.png)
 
-1. Configure su composición agregando tantas actividades como sea necesario entre las actividades **[!UICONTROL Audience]** y **[!UICONTROL Save]**. Para obtener más información sobre cómo crear una composición, consulte la [documentación de composición de audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-composition).
+1. Configure su composición agregando tantas actividades como sea necesario entre las actividades **[!UICONTROL Audience]** y **[!UICONTROL Save]**. Para obtener más información sobre cómo crear una composición, consulte la [documentación de composición de audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition).
 
    ![](assets/audiences-publish.png)
 
@@ -179,4 +179,4 @@ Las composiciones pueden tener varios estados:
 
 >[!NOTE]
 >
->La composición de audiencia no está integrada actualmente con la capacidad de restablecimiento de la zona protegida. Antes de iniciar el restablecimiento de una zona protegida, debe eliminar las composiciones manualmente para asegurarse de que los datos de audiencia asociados se limpien correctamente. Encontrará información detallada en [Documentación de espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es#delete-audience-compositions) de Adobe Experience Platform
+>La composición de audiencia no está integrada actualmente con la capacidad de restablecimiento de la zona protegida. Antes de iniciar el restablecimiento de una zona protegida, debe eliminar las composiciones manualmente para asegurarse de que los datos de audiencia asociados se limpien correctamente. Encontrará información detallada en [Documentación de espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions) de Adobe Experience Platform

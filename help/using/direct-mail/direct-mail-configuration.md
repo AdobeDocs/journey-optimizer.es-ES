@@ -38,7 +38,7 @@ Antes de poder generar este archivo, debe crear lo siguiente:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="Definir la configuración de enrutamiento de archivos"
->abstract="Después de crear un mensaje de correo directo, el archivo que contiene los datos de audiencia de destino se genera y exporta a un servidor. Debe especificar los detalles del servidor para que su proveedor de correo directo pueda acceder y utilizar ese archivo para enviar correo directo."
+>abstract="Después de crear un mensaje de correo directo, el archivo que contiene los datos del público destinatario se genera y exporta a un servidor. Debe especificar los detalles del servidor para que su proveedor de correo directo pueda acceder y utilizar ese archivo para enviar correo directo."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="Crear un mensaje de correo directo"
 
 >[!CONTEXTUALHELP]
@@ -145,7 +145,7 @@ Si seleccionó **[!UICONTROL Zona de aterrizaje de datos]** como **[!UICONTROL t
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información acerca de la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información acerca de la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -160,7 +160,7 @@ También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Definir la configuración del correo directo"
->abstract="Una configuración de correo directo dispone de la configuración para el formato del archivo que contiene los datos de la audiencia de destino y que utilizará el proveedor de correo. También debe definir dónde se exportará el archivo seleccionando la configuración de enrutamiento del archivo."
+>abstract="Una configuración de correo directo dispone de la configuración para el formato del archivo que contiene los datos del público destinatario y que utilizará el proveedor de correo. También debe definir dónde se exportará el archivo seleccionando la configuración de enrutamiento del archivo."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="Configurar el enrutamiento de archivos"
 
 <!--
@@ -172,7 +172,7 @@ También puede seleccionar **[!UICONTROL Guardar como borrador]** para crear la 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="Definir el umbral de división del archivo"
->abstract="Debe establecer el número máximo de registros para cada archivo que contenga datos de audiencia. Puede seleccionar cualquier número entre 1 y 200 000 registros. Una vez alcanzado el umbral especificado, se creará otro archivo para los registros restantes."
+>abstract="Debe establecer el número máximo de registros para cada archivo que contenga datos de público. Puede seleccionar cualquier número entre 1 y 200 000 registros. Una vez alcanzado el umbral especificado, se creará otro archivo para los registros restantes."
 
 Para poder enviar correo postal con [!DNL Journey Optimizer], debe crear una configuración de canal para definir la configuración del formato del archivo que utilizará el proveedor de correo.
 

@@ -40,7 +40,7 @@ Con Journey Optimizer, puede crear contenido multilingüe mediante dos métodos 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"
 >title="Error de traducción"
->abstract="Si no puede acceder a la página de Traducción, es probable que se deba a que la función de Traducción no está activada. Para resolver este problema, debe asegurarse de que su organización y el administrador de la zona protegida activen la función de Traducción."
+>abstract="Si no puede acceder a la página de Traducción, es probable que se deba a que la función de Traducción no está habilitada. Para resolver este problema, debe asegurarse de que su organización y el administrador de la zona protegida activen la función de Traducción."
 
 Adobe Journey Optimizer se integra actualmente con los proveedores de traducción, que ofrecen servicios de traducción de terceros (traducción automática o humana) independientes de Adobe Journey Optimizer.
 
@@ -52,7 +52,7 @@ Para cualquier problema o solicitud de ayuda relacionada con sus traducciones, p
 
 Para el contenido multilingüe, se debe definir la siguiente configuración:
 
-* Para utilizar la función de traducción en Journey Optimizer, debe asignar la API a la función correspondiente. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* Para utilizar la función de traducción en Journey Optimizer, debe asignar la API a la función correspondiente. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * Para empezar a crear contenido multilingüe, los usuarios deben recibir el permiso **[!UICONTROL Administrar configuración de idioma]**. Para el flujo automatizado, los usuarios también necesitarán permisos relacionados con las capacidades del **[!UICONTROL servicio de traducción]**. [Más información sobre los permisos](../administration/permissions.md)
 
@@ -100,4 +100,4 @@ Para el contenido multilingüe, se debe definir la siguiente configuración:
 
 Aprenda a crear contenido en varios idiomas dentro de una sola campaña o recorrido.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452116?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

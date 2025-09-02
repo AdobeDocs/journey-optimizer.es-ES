@@ -21,7 +21,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"
 >title="Agregar proveedor"
->abstract="Añada proveedores de traducción y configuraciones regionales según sea necesario. Esto le permite administrar qué proveedores y configuraciones regionales están activos para el proyecto, lo que le ofrece la flexibilidad de ajustar recursos y audiencias de destino según los requisitos y el ámbito del proyecto actuales."
+>abstract="Añada proveedores de traducción y configuraciones regionales según sea necesario. Esto le permite administrar qué proveedores y configuraciones regionales están activos para el proyecto, lo que le ofrece la flexibilidad de ajustar recursos y públicos destinatarios según los requisitos y el ámbito del proyecto actuales."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_provider"
@@ -166,7 +166,7 @@ En esta sección, puede establecer las distintas configuraciones regionales para
 
    1. En Recopilación de datos de Adobe Experience Platform, acceda a sus Propiedades de etiquetas.
 
-   1. Acceda al menú **[!UICONTROL Reglas]** y cree una regla nueva. Encontrará información detallada sobre cómo crear reglas en [!DNL Adobe Experience Platform] [Documentación de recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. Acceda al menú **[!UICONTROL Reglas]** y cree una regla nueva. Encontrará información detallada sobre cómo crear reglas en [!DNL Adobe Experience Platform] [Documentación de recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    1. En la sección **[!UICONTROL IF]** de la regla, agregue un evento configurado de la siguiente manera:
 

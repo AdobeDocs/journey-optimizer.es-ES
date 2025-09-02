@@ -44,7 +44,7 @@ Las opciones de segmentación disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_combine_options"
 >title="Selección del tipo de segmentación"
->abstract="Seleccione cómo combinar audiencias. La **Unión** le permite reagrupar el resultado de varias actividades en un solo destinatario. La **Intersección** le permite mantener solo los elementos comunes a las diferentes poblaciones entrantes de la actividad. La **Exclusión** permite excluir elementos de una población según determinados criterios. "
+>abstract="Seleccione cómo combinar públicos. La **Unión** le permite reagrupar el resultado de varias actividades en un solo destinatario. La **Intersección** le permite mantener solo los elementos comunes a las diferentes poblaciones entrantes de la actividad. La **Exclusión** permite excluir elementos de una población según determinados criterios. "
 
 Siga estos pasos comunes para comenzar a configurar la actividad **[!UICONTROL Combinar]**:
 
