@@ -72,7 +72,7 @@ El campo de ejecución se actualiza y ahora se utiliza como dirección principal
 >id="ajo_journey_execution_address"
 >title="Definir un valor personalizado"
 >abstract="En algunos casos específicos, puede anular la dirección de ejecución predeterminada. Utilice el icono **Habilitar anulación de parámetros** a la derecha del campo para definir una dirección principal personalizada."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Acerca de la dirección de ejecución"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Acerca de la dirección de ejecución"
 
 Para casos de uso específicos, puede anular el campo de ejecución establecido globalmente y definir un valor diferente en el nivel de configuración de correo electrónico o en el nivel de recorrido.
 
