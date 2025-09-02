@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: recorridos, actividades, introducción, eventos, acción
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 16%
+source-wordcount: '716'
+ht-degree: 15%
 
 ---
 
@@ -91,13 +91,19 @@ La mayoría de las actividades muestran una serie de parámetros avanzados o té
 
 ![Campos de parámetros avanzados en las propiedades de la actividad de recorrido](assets/journey-advanced-parameters.png)
 
-Para mejorar la legibilidad, oculte estos parámetros con el botón **[!UICONTROL Ocultar campos de solo lectura]**.
+Para facilitar la lectura, oculte estos parámetros con el botón **[!UICONTROL Ocultar campos de solo lectura]** situado en la parte superior del panel derecho.
 
 ![Ocultar el icono de campos de solo lectura en las propiedades de la actividad de recorrido](assets/journey-hide-read-only-fields.png)
 
 En algunos contextos particulares, puede anular los valores de estos parámetros para un uso específico. Para forzar un valor, haga clic en el icono **[!UICONTROL Habilitar la sustitución de parámetros]** a la derecha del campo. [Más información](../configuration/primary-email-addresses.md#journey-parameters)
 
 ![Habilitar la opción de anulación de parámetros en las propiedades de la actividad de correo electrónico](assets/journey-enable-parameter-override.png)
+
+>[!NOTE]
+>
+>Si los parámetros avanzados están ocultos, haga clic en el botón **[!UICONTROL Mostrar campos de solo lectura]**
+>
+>![Mostrar el icono de campos de solo lectura en las propiedades de la actividad de recorrido](assets/journey-show-read-only-fields.png){width=60%}
 
 ### Añadir una ruta alternativa
 

@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principal, ejecución, correo electrónico, destinatario, perfil, optimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 20%
+source-wordcount: '522'
+ht-degree: 19%
 
 ---
 
@@ -68,6 +68,12 @@ El campo de ejecución se actualiza y ahora se utiliza como dirección principal
 
 ## Anular el campo de ejecución predeterminado {#override-default-execution-address}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_execution_address"
+>title="Definir un valor personalizado"
+>abstract="En algunos casos específicos, puede anular la dirección de ejecución predeterminada. Utilice el icono **Habilitar anulación de parámetros** a la derecha del campo para definir una dirección principal personalizada."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Acerca de la dirección de ejecución"
+
 Para casos de uso específicos, puede anular el campo de ejecución establecido globalmente y definir un valor diferente en el nivel de configuración de correo electrónico o en el nivel de recorrido.
 
 Anular este valor puede resultar útil, por ejemplo, para lo siguiente:
@@ -83,9 +89,9 @@ Cuando se define una dirección de ejecución en la configuración de correo ele
 
 ### En los parámetros de recorrido {#journey-parameters}
 
-Al agregar una acción **[!UICONTROL Email]** a un [recorrido](../email/create-email.md#create-email-journey-campaign), la dirección de correo electrónico principal se muestra bajo los parámetros avanzados de recorrido.
+Al agregar una acción **[!UICONTROL Correo electrónico]** o **[!UICONTROL SMS]** a un [recorrido](../email/create-email.md#create-email-journey-campaign), la dirección de correo electrónico principal se muestra bajo los parámetros avanzados de recorrido.
 
-En algunos contextos específicos, puede anular este valor usando el icono **[!UICONTROL Habilitar anulación de parámetros]** a la derecha del campo **[!UICONTROL dirección]**.
+En algunos contextos específicos, puede anular este valor usando el icono **[!UICONTROL Habilitar anulación de parámetros]** a la derecha del campo.
 
 ![](assets/journey-enable-parameter-override.png)
 

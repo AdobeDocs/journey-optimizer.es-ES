@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 18%
+source-wordcount: '557'
+ht-degree: 17%
 
 ---
 
@@ -120,13 +120,17 @@ Para añadir una acción de canal integrada a un recorrido, siga los pasos a con
       </tr>
       </table>
 
->[!NOTE]
->
->* Cada actividad de experiencia entrante viene con una actividad de **Espera** de 3 días. [Más información](wait-activity.md#auto-wait-node)
->
->* Para los correos electrónicos y las notificaciones push, puede activar la Optimización del tiempo de envío. [Más información](send-time-optimization.md)
+   >[!NOTE]
+   >
+   >* Cada actividad de experiencia entrante viene con una actividad de **Espera** de 3 días. [Más información](wait-activity.md#auto-wait-node)
+   >
+   >* Para los correos electrónicos y las notificaciones push, puede activar la Optimización del tiempo de envío. [Más información](send-time-optimization.md)
 
+1. Según la actividad, puede mostrar parámetros avanzados específicos del canal seleccionado y anular algunos valores predeterminados como la dirección de ejecución. [Más información](../about-journey-activities.md#advanced-parameters)
 
+   >[!NOTE]
+   >
+   >Si los parámetros avanzados están ocultos, haga clic en el botón **[!UICONTROL Mostrar campos de solo lectura]** situado en la parte superior del panel derecho.
 
 ## Actualización de contenido en directo {#update-live-content}
 
