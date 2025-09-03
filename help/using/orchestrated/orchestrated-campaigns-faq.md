@@ -6,9 +6,9 @@ description: Preguntas frecuentes sobre las campañas orquestadas de Journey Opt
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: b7851997ee9e3ffaa6455888924b4dcd1c7ff10d
+source-git-commit: f850cb5573c321d479fe956e8c9b9bf377e78dfc
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1010'
 ht-degree: 1%
 
 ---
@@ -114,8 +114,10 @@ Sí. En Campaign Orchestration, se puede actualizar un perfil de destinatario co
 
 ## ¿Se integra con otras soluciones de Adobe? {#integrations}
 
+Sí. La orquestación de Campaign está integrada de forma nativa con:
+
 * **Customer Journey Analytics**: Los informes de orquestación de campaña están disponibles.
-* **Real-Time CDP**: las audiencias creadas en Campaign se pueden leer en CDP.
+* **Real-Time CDP**: Las audiencias creadas en Campaign se pueden leer en Real-Time CDP.
 * **Composición de audiencias federada (FAC)**: disponible como complemento.
 
 ## ¿Qué sucede con los permisos y el consentimiento? {#permissions}
@@ -175,3 +177,11 @@ Sí, siga las prácticas recomendadas a continuación:
 * Establezca una **rutina de supervisión**: haga un seguimiento de los registros de envío, las tasas de error y las exclusiones después de cada envío.
 * Ejecute **análisis posterior a la campaña** en Customer Journey Analytics para restringir el direccionamiento y la orquestación para el siguiente ciclo.
 
+
+
+>[!MORELIKETHIS]
+>
+>* [Limitaciones y protecciones de campañas orquestadas](../orchestrated/guardrails.md)
+>* [Introducción a esquemas y conjuntos de datos en campañas organizadas](../orchestrated/gs-schemas.md)
+>* [Cree su primera campaña organizada](../orchestrated/gs-campaign-creation.md)
+>* [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
