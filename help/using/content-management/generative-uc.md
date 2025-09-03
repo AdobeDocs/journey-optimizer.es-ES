@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: c5cd0708f8b39fca5de14b1c24be1dd3a6b3fd87
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '608'
 ht-degree: 3%
 
 ---
@@ -113,7 +113,7 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
 1. Cuando encuentre el contenido adecuado, haga clic en **[!UICONTROL Seleccionar]**.
 
-## Generar contenido en varios idiomas {#languages}
+## Generar contenido en los idiomas compatibles {#languages}
 
 ![](assets/do-not-localize/gen-ai-language.gif)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: d910b90bbc2bd4276ea197e7caf7854b7e3aa953
+source-git-commit: c5cd0708f8b39fca5de14b1c24be1dd3a6b3fd87
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 92%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
@@ -40,7 +40,14 @@ ht-degree: 92%
 
 El Asistente de IA en Adobe Journey Optimizer, impulsado por Microsoft Azure OpenAI y Adobe Firefly, aporta sugerencias proactivas de variación de contenido para texto e imágenes. Esta nueva funcionalidad proporciona **texto basado en mensajes y generación de imágenes**. La generación de imágenes se administra con Adobe Firefly.
 
-El Asistente de IA admite la generación **en varios idiomas**, como francés, español, alemán, italiano, japonés, sueco, holandés o noruego, lo que le permite llegar a diversas audiencias globales y participar en ellas.
+El Asistente de IA admite la generación **en varios idiomas**, lo que le permite llegar a diversas audiencias globales y participar en ellas. El asistente de IA está disponible en los siguientes idiomas:
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+  <tr>
+    <td><ul><li>Francés</li><li>Español</li><li>Alemán</li><li>Italiano</li></ul></td>
+    <td><ul><li>Japonés</li><li>Sueco</li><li>Neerlandés</li><li>Noruego</li></ul></td>
+  </tr>
+</table>
 
 Ahora puede utilizar el Asistente de IA en Adobe Journey Optimizer para optimizar el impacto del mensaje experimentando con diferentes títulos e imágenes principales. Genere varias variantes y cree un experimento para compararlas. Aprovechando **Experimento con contenido de Journey Optimizer**, puede definir varios tratamientos para los mensajes a fin de medir cuál ofrece el mejor rendimiento para la audiencia objetivo. Puede elegir entre variar el contenido del envío o el asunto. El público del mensaje se asigna aleatoriamente a cada tratamiento para determinar cuál funciona mejor en términos de la métrica especificada. Obtenga más información sobre el Experimento de contenido en [esta sección](../content-management/content-experiment.md).
 
