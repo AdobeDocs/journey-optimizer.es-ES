@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 01fa6efc5c5717e15e1dbb618f5d65feb7ffaed6
+source-git-commit: 6e602312371934726370c3ae10cd13080459f6db
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 93%
@@ -42,12 +42,27 @@ El Asistente de IA en Adobe Journey Optimizer, impulsado por Microsoft Azure Ope
 
 El Asistente de IA admite la generación **en varios idiomas**, lo que le permite llegar a diversas audiencias globales y participar en ellas. El asistente de IA está disponible en los siguientes idiomas:
 
-<table style="table-layout:fixed"><tr style="border: 0; text-align: center;background-color: #FFFFFF;">
+<table style="table-layout:fixed; border: 0; text-align: center; background-color: #FFFFFF;">
   <tr>
-    <td><ul><li>Francés</li><li>Español</li><li>Alemán</li><li>Italiano</li></ul></td>
-    <td><ul><li>Japonés</li><li>Sueco</li><li>Neerlandés</li><li>Noruego</li></ul></td>
+    <td>
+      <ul>
+        <li>Francés</li>
+        <li>Español</li>
+        <li>Alemán</li>
+        <li>Italiano</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Japonés</li>
+        <li>Sueco</li>
+        <li>Neerlandés</li>
+        <li>Noruego</li>
+      </ul>
+    </td>
   </tr>
 </table>
+
 
 Ahora puede utilizar el Asistente de IA en Adobe Journey Optimizer para optimizar el impacto del mensaje experimentando con diferentes títulos e imágenes principales. Genere varias variantes y cree un experimento para compararlas. Aprovechando **Experimento con contenido de Journey Optimizer**, puede definir varios tratamientos para los mensajes a fin de medir cuál ofrece el mejor rendimiento para la audiencia objetivo. Puede elegir entre variar el contenido del envío o el asunto. El público del mensaje se asigna aleatoriamente a cada tratamiento para determinar cuál funciona mejor en términos de la métrica especificada. Obtenga más información sobre el Experimento de contenido en [esta sección](../content-management/content-experiment.md).
 
