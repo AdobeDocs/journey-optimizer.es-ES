@@ -6,10 +6,10 @@ description: Preguntas frecuentes sobre las campañas orquestadas de Journey Opt
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: e63fd5dc50100000a810e2dfcb8c8e8827628b0c
+source-git-commit: a6a8521254005159b410790f88877d0591a16d15
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 1%
+source-wordcount: '1091'
+ht-degree: 4%
 
 ---
 
@@ -19,13 +19,15 @@ A continuación, encontrará las preguntas más frecuentes sobre campañas organ
 
 ¿Necesita más detalles? Utilice las opciones de comentarios en la parte inferior de esta página para plantear su pregunta.
 
-## ¿Qué son las campañas orquestadas? {#what-are-oc}
+## ¿Qué es la orquestación de Campaign? {#what-are-oc}
 
-Las campañas organizadas en Adobe Journey Optimizer ayudan a las marcas a ejecutar campañas de marketing complejas y de uno a varios a escala. Están diseñadas para la participación iniciada por la marca, como promociones, campañas de temporada o comunicaciones basadas en la cuenta.
+Campaign Orchestration es una función de Journey Optimizer que admite flujos de trabajo de un solo paso o de varios pasos que aprovechan el almacén de datos relacional para crear y segmentar audiencias con el fin de lograr una participación por lotes.
 
-En comparación con las campañas de un solo envío, aportan **orquestación y secuenciación** al marketing saliente: las audiencias se mueven juntas a través de un flujo de trabajo de varios pasos, en lugar de recibir una ráfaga única.
+Lleva un nuevo tipo de campañas a Journey Optimizer: **Campañas orquestadas**. Las campañas organizadas ayudan a las marcas a ejecutar campañas de marketing complejas y de uno a varios a escala. Están diseñadas para la participación iniciada por la marca, como promociones, campañas de temporada o comunicaciones basadas en la cuenta.
 
-## ¿Qué puedo hacer con las campañas orquestadas? {#what-can-i-do}
+En comparación con las campañas de un solo envío/acción, aportan **orquestación y secuenciación** al marketing saliente: las audiencias se mueven juntas a través de un flujo de trabajo de varios pasos, en lugar de recibir una ráfaga única.
+
+## ¿Qué puedo hacer con una campaña orquestada? {#what-can-i-do}
 
 Las funcionalidades clave incluyen:
 
@@ -45,10 +47,14 @@ Las funcionalidades clave incluyen:
 
 >[!ENDSHADEBOX]
 
+## ¿Cómo acceder a la orquestación de Campaign? {#access-oc}
+
+Para acceder a Campaign Orchestration, la licencia debe incluir **Journey Optimizer - Campañas y Recorridos** o el paquete **Journey Optimizer - Campañas**. Póngase en contacto con su representante de Adobe para confirmar su licencia y actualizarla si es necesario.
+
 
 ## ¿Qué canales son compatibles? {#channels}
 
-Las campañas organizadas admiten **notificaciones push, por correo electrónico y SMS**.
+Puede crear campañas organizadas para enviar **correos electrónicos**, **SMS** y **notificaciones push**.
 
 
 >[!BEGINSHADEBOX]
