@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
+source-git-commit: d69b04be97951a5a57228ea839cb9b9c274a92c2
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 72%
+source-wordcount: '1817'
+ht-degree: 68%
 
 ---
 
@@ -22,6 +22,28 @@ ht-degree: 72%
 
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión. [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
+## Actualizaciones del 25 de septiembre {#sep-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>Uso de datos de Adobe Experience Platform para la personalización y la toma de decisiones: disponibilidad limitada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Esta capacidad, que se publicó anteriormente en la versión beta pública, ya está disponible para todos los entornos con disponibilidad limitada. Con esta versión, se han introducido las siguientes mejoras:</p>
+<ul><li>Compatibilidad con la personalización de la búsqueda de conjuntos de datos en canales entrantes.</li>
+<li>Ahora, la función de ayuda "datasetLookup" se puede utilizar dentro de los fragmentos de expresiones.</li>
+<li>Una opción de la interfaz de administración de conjuntos de datos ahora le permite habilitar conjuntos de datos basados en registros para la personalización de búsquedas, sin tener que realizar una llamada de API.</li>
+<li>Monitorización mejorada para rastrear el estado de ingesta de datos y saber cuándo los conjuntos de datos están listos para la búsqueda.</li>
+<li>Se han actualizado las directrices y protecciones de uso para garantizar un rendimiento y una fiabilidad óptimos.</li></ul></p>
+<p>Para obtener más información, consulte la <a href="../data/lookup-aep-data.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Notas de la versión de agosto de 2025 {#25-8-rn}
 
