@@ -6,7 +6,7 @@ description: Preguntas frecuentes sobre las campañas orquestadas de Journey Opt
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 6a0b4f7da2794f6ffd9af51440f1bca8aa5e7fb1
+source-git-commit: e63fd5dc50100000a810e2dfcb8c8e8827628b0c
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 1%
@@ -80,7 +80,7 @@ refinado.
 
 >[!BEGINSHADEBOX]
 
-**Ejemplo** - Segmentar todos los destinatarios con suscripciones que caduquen en los próximos 3ad-h0 días: en Campaign Orchestration, la consulta puede comenzar con el esquema Subscriptions, buscar solo la columna de fecha de caducidad de ese esquema y devolver todas las suscripciones que caduquen y, a continuación, resumir en los datos de destinatario relacionados con esos ID de suscripciones específicos que devuelven resultados de forma más rápida y eficaz que los modelos de datos que comienzan cada consulta en el nivel de destinatario.
+**Ejemplo** - Segmentar todos los destinatarios con suscripciones que caduquen en los próximos 30 días. En Campaign Orchestration, la consulta puede comenzar con el esquema Subscriptions, buscar solo la columna de fecha de caducidad de ese esquema y devolver todas las suscripciones que deben caducar y, a continuación, acumular los datos del destinatario relacionados con los ID de suscripciones específicos que devuelven los resultados de forma más rápida y eficaz que los modelos de datos que comienzan cada consulta en el nivel de destinatario.
 
 >[!ENDSHADEBOX]
 
