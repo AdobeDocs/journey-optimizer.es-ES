@@ -6,7 +6,7 @@ description: Preguntas frecuentes sobre las campañas orquestadas de Journey Opt
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: f850cb5573c321d479fe956e8c9b9bf377e78dfc
+source-git-commit: 6a0b4f7da2794f6ffd9af51440f1bca8aa5e7fb1
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Preguntas frecuentes {#faq-oc}
 
-A continuación, encontrará las preguntas más frecuentes sobre Adobe Journey Optimizer Orchestrated Campaigns.
+A continuación, encontrará las preguntas más frecuentes sobre campañas organizadas de Adobe Journey Optimizer.
 
 ¿Necesita más detalles? Utilice las opciones de comentarios en la parte inferior de esta página para plantear su pregunta.
 
@@ -50,6 +50,7 @@ Las funcionalidades clave incluyen:
 
 Las campañas organizadas admiten **notificaciones push, por correo electrónico y SMS**.
 
+
 >[!BEGINSHADEBOX]
 
 **Recommendations**
@@ -60,6 +61,7 @@ Las campañas organizadas admiten **notificaciones push, por correo electrónico
 
 >[!ENDSHADEBOX]
 
+
 ## ¿En qué se diferencian las campañas orquestadas de los Recorridos? {#oc-vs-journeys}
 
 * **Campañas orquestadas**: lo mejor para **campañas en lotes, de uno a varios**. Audiencias completas se mueven juntas por el lienzo de la campaña.
@@ -67,7 +69,7 @@ Las campañas organizadas admiten **notificaciones push, por correo electrónico
 
 >[!BEGINSHADEBOX]
 
-**Sugerencia** - Muchas organizaciones usan **ambos juntos**—Recorridos para experiencias activadas, reactivas y campañas orquestadas para iniciativas planificadas y basadas en calendarios.
+**Sugerencia** - Muchas organizaciones usan **ambos juntos**—Recorridos para experiencias activadas, reactivas y campañas organizadas para iniciativas planificadas y basadas en calendarios.
 
 >[!ENDSHADEBOX]
 
@@ -151,7 +153,7 @@ En Campaign Orchestration, nos referimos a la segmentación ad hoc como &quot;Se
 
 ## ¿Admite esto la toma de decisiones? {#decisioning}
 
-Actualmente, la toma de decisiones no utiliza datos relacionales de campañas organizadas.
+Actualmente, la toma de decisiones no utiliza datos relacionales de campañas orquestadas.
 
 ## ¿Cómo funciona la implementación en todos los entornos? {#deployment}
 
