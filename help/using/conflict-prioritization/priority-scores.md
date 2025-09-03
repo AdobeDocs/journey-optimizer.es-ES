@@ -72,4 +72,4 @@ Para asignar una puntuación de prioridad a las acciones entrantes definidas en 
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445004?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
