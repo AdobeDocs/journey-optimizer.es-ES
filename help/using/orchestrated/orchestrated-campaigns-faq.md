@@ -6,9 +6,9 @@ description: Preguntas frecuentes sobre las campañas orquestadas de Journey Opt
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: b7c1da838c7e87a9d8bc3ddf5ef09fa756d853b8
+source-git-commit: b7851997ee9e3ffaa6455888924b4dcd1c7ff10d
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '979'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Las campañas usan una **base de datos relacional**. Esto le permite realizar co
 
 ## ¿Puedo personalizar mensajes con estos datos? {#personalization}
 
-Sí. Puede utilizar perfiles de clientes junto con datos vinculados (como compras o suscripciones) para personalizar el contenido en todos los canales admitidos.
+Sí. En Campaign Orchestration, se puede actualizar un perfil de destinatario conocido como &quot;entidad de personas&quot; y utilizar esos datos para la personalización. Además, los datos enriquecidos de entidades vinculadas en la base de datos relacional también se pueden utilizar para la personalización. Puede utilizar perfiles de clientes junto con datos vinculados (como compras o suscripciones) para personalizar el contenido en todos los canales admitidos.
 
 >[!BEGINSHADEBOX]
 
@@ -145,10 +145,6 @@ En Campaign Orchestration, nos referimos a la segmentación ad hoc como &quot;Se
 * Valide el recuento de audiencias antes de la activación para evitar envíos insuficientes o excesivos.
 
 >[!ENDSHADEBOX]
-
-## ¿Pueden utilizarse los datos de la base de datos relacional para personalizar mensajes? {#relational-personalization}
-
-Sí. En Campaign Orchestration, se puede actualizar un perfil de destinatario conocido como &quot;entidad de personas&quot; y utilizar esos datos para la personalización. Además, los datos enriquecidos de entidades vinculadas en la base de datos relacional también se pueden utilizar para la personalización.
 
 
 ## ¿Admite esto la toma de decisiones? {#decisioning}
