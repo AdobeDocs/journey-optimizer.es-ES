@@ -6,10 +6,10 @@ description: Preguntas frecuentes sobre las campañas orquestadas de Journey Opt
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 13bc5f91e0e47bf36b9b9921fa926f8a5e2a50d6
+source-git-commit: b7c1da838c7e87a9d8bc3ddf5ef09fa756d853b8
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 2%
+source-wordcount: '991'
+ht-degree: 1%
 
 ---
 
@@ -71,6 +71,18 @@ Las campañas organizadas admiten **notificaciones push, por correo electrónico
 
 >[!ENDSHADEBOX]
 
+## ¿Qué es la segmentación de varias entidades? {#multi-entity}
+
+La organización de campañas en Adobe Journey Optimizer utiliza una base de datos relacional. Este tipo de modelo de datos tiene esquemas de datos independientes que están conectados mediante relaciones de tipo 1:1 o 1:many. Esto permite a los usuarios iniciar una consulta en cualquier esquema, no solo a nivel de destinatario, y luego dar la vuelta y volver a otros esquemas relacionados, como compras, productos, reservas o detalles del destinatario, lo que proporciona una gran flexibilidad en la forma de crear segmentos y audiencias, y
+refinado.
+
+>[!BEGINSHADEBOX]
+
+**Ejemplo** - Segmentar todos los destinatarios con suscripciones que caduquen en los próximos 3ad-h0 días: en Campaign Orchestration, la consulta puede comenzar con el esquema Subscriptions, buscar solo la columna de fecha de caducidad de ese esquema y devolver todas las suscripciones que caduquen y, a continuación, resumir en los datos de destinatario relacionados con esos ID de suscripciones específicos que devuelven resultados de forma más rápida y eficaz que los modelos de datos que comienzan cada consulta en el nivel de destinatario.
+
+>[!ENDSHADEBOX]
+
+
 ## ¿Cómo funciona el modelo de datos? {#data-model}
 
 Las campañas usan una **base de datos relacional**. Esto le permite realizar consultas en diferentes conjuntos de datos (por ejemplo, clientes, productos, suscripciones) y conectarlos de forma flexible para una segmentación avanzada.
@@ -108,7 +120,7 @@ Sí. Puede utilizar perfiles de clientes junto con datos vinculados (como compra
 
 ## ¿Qué sucede con los permisos y el consentimiento? {#permissions}
 
-Los permisos y el consentimiento se administran centralmente en Adobe Experience Platform. Las mismas reglas se aplican a todos los Recorridos y campañas orquestadas para garantizar el cumplimiento y la experiencia del cliente coherente.
+Los permisos y el consentimiento para campañas y recorridos organizados se administran de forma centralizada en Adobe Experience Platform. Esta configuración se aplica en ambas soluciones para cada destinatario antes del envío.
 
 >[!BEGINSHADEBOX]
 
@@ -116,13 +128,13 @@ Los permisos y el consentimiento se administran centralmente en Adobe Experience
 
 * Aplique **gobernanza centralizada**; evite administrar el consentimiento por separado en el nivel de campaña.
 * Auditar periódicamente los datos de consentimiento para detectar incoherencias.
-* Respete las **exclusiones específicas del canal**: no dé por hecho que el consentimiento global cubre todos los canales.
+* Respete las **exclusiones específicas del canal**; no dé por hecho que el consentimiento global cubre todos los canales.
 
 >[!ENDSHADEBOX]
 
 ## ¿Puedo realizar la segmentación ad hoc? {#ad-hoc}
 
-Sí. Con **Segmentación en vivo**, puedes generar consultas complejas de forma inmediata y activarlas en todos los canales salientes.
+En Campaign Orchestration, nos referimos a la segmentación ad hoc como &quot;Segmentación en directo&quot;, donde puede acceder a todos los datos disponibles en el almacén relacional en tiempo real, crear una consulta compleja sobre ella y obtener el resultado de la activación instantánea mediante canales salientes (por ejemplo, correo electrónico + SMS).
 
 >[!BEGINSHADEBOX]
 
@@ -133,6 +145,11 @@ Sí. Con **Segmentación en vivo**, puedes generar consultas complejas de forma 
 * Valide el recuento de audiencias antes de la activación para evitar envíos insuficientes o excesivos.
 
 >[!ENDSHADEBOX]
+
+## ¿Pueden utilizarse los datos de la base de datos relacional para personalizar mensajes? {#relational-personalization}
+
+Sí. En Campaign Orchestration, se puede actualizar un perfil de destinatario conocido como &quot;entidad de personas&quot; y utilizar esos datos para la personalización. Además, los datos enriquecidos de entidades vinculadas en la base de datos relacional también se pueden utilizar para la personalización.
+
 
 ## ¿Admite esto la toma de decisiones? {#decisioning}
 
@@ -161,3 +178,4 @@ Sí, siga las prácticas recomendadas a continuación:
 * Siempre que sea posible, **escalone los tiempos de envío** para evitar sobrecargar los sistemas descendentes (por ejemplo, centros de llamadas, sitios web).
 * Establezca una **rutina de supervisión**: haga un seguimiento de los registros de envío, las tasas de error y las exclusiones después de cada envío.
 * Ejecute **análisis posterior a la campaña** en Customer Journey Analytics para restringir el direccionamiento y la orquestación para el siguiente ciclo.
+
