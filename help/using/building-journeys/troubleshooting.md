@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: 27ae100873fee1a790c7e1e757248f9c3af8e24a
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 40%
@@ -52,6 +52,6 @@ Los errores y las advertencias que son globales para el recorrido aparecen prime
 
 ## Añadir una ruta alternativa {#canvas-add-path}
 
-Puede definir una acción de reserva en caso de error en las siguientes actividades de recorrido: **[!UICONTROL Condición]** y **[!UICONTROL Acción]**.
+Puede definir una acción de reserva en caso de error en las siguientes actividades de recorrido: **[!UICONTROL Optimizar]** y **[!UICONTROL Acción]**.
 
 Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es resolver el problema. Para evitar interrumpir el recorrido, también puede marcar la opción **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** en las propiedades de la actividad. Obtenga más información en [esta sección](../building-journeys/using-the-journey-designer.md#paths).
