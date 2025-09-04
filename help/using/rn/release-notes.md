@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
+source-git-commit: 152ff131334b5ad62df3e63e4ad529950f522f5a
 workflow-type: tm+mt
 source-wordcount: '1971'
 ht-degree: 70%
@@ -27,24 +27,6 @@ ht-degree: 70%
 <table>
 <thead>
 <tr>
-<th><strong>Método de delegación personalizada para subdominios</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Además de la delegación completa y del método CNAME, ahora hay disponible un nuevo método de configuración de subdominios: el método de delegación personalizada, que le permite controlar y mantener por completo todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes.</p>
-<p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
-<p>Para obtener más información, consulte la <a href="../configuration/delegate-custom-subdomain.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: 4 de septiembre de 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Optimización de la ruta del recorrido</strong><br/></th>
 </tr>
 </thead>
@@ -56,6 +38,24 @@ ht-degree: 70%
 <p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/optimize.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 4 de septiembre de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Método de delegación personalizada para subdominios</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Además de la delegación completa y del método CNAME, ahora hay disponible un nuevo método de configuración de subdominios: el método de delegación personalizada, que le permite controlar y mantener por completo todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes.</p>
+<p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
+<p>Para obtener más información, consulte la <a href="../configuration/delegate-custom-subdomain.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 4 de septiembre de 2025</p>
 </td>
 </tr>
