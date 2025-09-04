@@ -4,7 +4,8 @@ product: journey optimizer
 title: Uso de la actividad Bifurcación
 description: Aprenda a utilizar la actividad Bifurcación en una campaña orquestada
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 86%

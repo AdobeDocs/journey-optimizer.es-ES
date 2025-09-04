@@ -4,7 +4,8 @@ product: journey optimizer
 title: Pasos clave para crear una campaña orquestada
 description: Conozca los principios clave de la creación de campañas organizadas con Adobe Journey Optimizer
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 67%
@@ -48,7 +49,7 @@ Una vez creada la campaña, es hora de diseñar la lógica detrás de ella. Con 
 
 ## Paso 4: Análisis e informe de los resultados {#report}
 
-Después del lanzamiento, utilice los informes integrados para comprender qué ha funcionado y qué se puede mejorar. Los paneles en tiempo real y los análisis en profundidad optimizan futuras campañas y perfeccionan su estrategia.
+Después del lanzamiento, utilice los informes integrados para comprender qué ha funcionado y qué se puede mejorar. Los paneles de control en tiempo real y los análisis en profundidad optimizan futuras campañas y perfeccionan su estrategia.
 
 ➡️ [Más información sobre la creación de informes](../orchestrated/reporting-campaigns.md)
 

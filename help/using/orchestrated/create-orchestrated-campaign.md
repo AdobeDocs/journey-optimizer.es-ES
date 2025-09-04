@@ -4,7 +4,8 @@ product: journey optimizer
 title: Creación y programación de campañas organizadas con Journey Optimizer
 description: Obtenga información sobre cómo crear y programar una campaña organizada con Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: a58d71b3cdb5e83f80b064673f0a6d087b7c191d
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '1122'
 ht-degree: 66%
