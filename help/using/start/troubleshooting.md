@@ -20,7 +20,7 @@ ht-degree: 2%
 
 A continuación se muestra una lista de artículos de solución de problemas para Adobe Journey Optimizer. Cada sección de solución de problemas proporciona respuestas a las preguntas más frecuentes y soluciones a los problemas.
 
-Consulte también [Preguntas frecuentes sobre Adobe Experience Platform y la documentación de solución de problemas](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}.
+Consulte también [Preguntas frecuentes sobre Adobe Experience Platform y la documentación de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}.
 
 ## Canal de correo electrónico {#ajo-troubleshooting-email}
 
@@ -30,7 +30,7 @@ Consulte también [Preguntas frecuentes sobre Adobe Experience Platform y la doc
 
 En Adobe Journey Optimizer (AJO), modificar los bloques CSS predeterminados en el encabezado del correo electrónico puede provocar problemas de formato inesperados, especialmente después de eliminar fragmentos de contenido. Estos problemas son más evidentes en los dispositivos móviles y pueden provocar cambios de diseño o incoherencias en el estilo. Para evitarlo, utilice la función Temáticas para aplicar CSS personalizado de forma segura sin alterar los estilos CSS generados por el sistema.
 
-Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"} para obtener información sobre cómo resolver este problema.
+Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"} para obtener información sobre cómo resolver este problema.
 
 Obtenga más información acerca del formato de correo electrónico [en esta página](../email/get-started-email-design.md).
 
@@ -135,7 +135,7 @@ Obtenga más información acerca de la configuración de exclusión de SMS [en e
 
 Las organizaciones que aprovisionan nuevos entornos limitados en Adobe Journey Optimizer han planteado preguntas sobre cómo se aplica la configuración del tiempo de vida (TTL) a los conjuntos de datos de perfiles y lagos de datos. Este artículo aclara que la configuración de TTL no afecta a las zonas protegidas existentes y se aplica automáticamente solo a las recién aprovisionadas.
 
-Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} para obtener información sobre cómo administrar TTL.
+Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} para obtener información sobre cómo administrar TTL.
 
 Obtenga más información acerca del tiempo de vida del conjunto de datos [en esta página](../data/datasets-ttl.md).
 
@@ -148,7 +148,7 @@ Obtenga más información acerca del tiempo de vida del conjunto de datos [en es
 
 El número de entradas procesadas en la característica **Leer audiencia** de Adobe Journey Optimizer puede ser inferior al recuento de audiencias esperado. Este problema suele deberse a configuraciones de área de nombres incorrectas, lo que provoca que los perfiles se excluyan de los recorridos. La resolución implica comprobar y corregir las configuraciones del área de nombres, revisar la documentación relevante y ajustar las prioridades para garantizar operaciones más fluidas en Adobe Journey Optimizer.
 
-Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} para obtener información sobre cómo resolver este problema.
+Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} para obtener información sobre cómo resolver este problema.
 
 Vea también [este artículo sobre recuentos de audiencias obsoletas](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-26166){target="_blank"}.
 
@@ -164,7 +164,7 @@ Consulte [este artículo de solución de problemas](https://experienceleague.ado
 
 Obtenga más información acerca de la actividad **Actualizar perfil** en los recorridos [de esta página](../building-journeys/update-profiles.md).
 
-Consulte también la [documentación de Adobe Experience Platform sobre la Ingesta de datos](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
+Consulte también la [documentación de Adobe Experience Platform sobre la Ingesta de datos](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
 
 +++
 
@@ -174,9 +174,9 @@ La discrepancia puede producirse cuando el recorrido utiliza una instantánea de
 
 Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} para conocer los pasos que debe seguir para resolver este problema.
 
-Más información en [esta publicación de la comunidad de Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
+Más información en [esta publicación de la comunidad de Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=es){target="_blank"}.
 
-Consulte también la [Documentación de la API de horarios de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"} para comprobar cuándo se ha programado su trabajo diario.
+Consulte también la [Documentación de la API de horarios de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"} para comprobar cuándo se ha programado su trabajo diario.
 
 +++
 
@@ -189,7 +189,7 @@ Consulte [este artículo de solución de problemas](https://experienceleague.ado
 
 Obtenga más información acerca de la actividad **Actualizar perfil** en los recorridos [de esta página](../building-journeys/update-profiles.md).
 
-Consulte también la [documentación del perfil de Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}.
+Consulte también la [documentación del perfil de Adobe Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}.
 
 +++
 
