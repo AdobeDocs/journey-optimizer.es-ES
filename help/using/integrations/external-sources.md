@@ -11,9 +11,9 @@ keywords: integración
 hide: true
 hidefromtoc: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: ad5fdefed71d75470dc243310e74372e0b08ba2a
+source-git-commit: 26f0bdd9f67648d0a382fd67c296bf44f0ea42df
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,18 @@ Puede utilizar esta función para acceder a datos externos y extraer contenido d
 * **Información de precio** para productos.
 * **Recomendaciones de productos** de motores de recomendación.
 * A **Actualizaciones de logística** les gusta el estado de entrega.
+
+## Las limitaciones de Beta {#limitations}
+
+La versión beta tiene las siguientes limitaciones:
+
+* Solo se admiten canales salientes.
+
+* Solo se admite el formato JSON para las respuestas de llamadas de API. Las salidas de imagen binaria sin procesar y de HTML no están disponibles.
+
+* Solo se admiten las API de recuperación dirigidas a contenido específico; las API de lista no están disponibles.
+
+* La función Integraciones está disponible tanto para Recorridos como para Campañas, pero no se admite en Fragmentos.
 
 ## Configuración de la integración {#configure}
 
