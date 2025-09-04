@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 3ab8957d0aec6f30853de5537e03f0e7bec2017c
 workflow-type: tm+mt
 source-wordcount: '2733'
 ht-degree: 15%
@@ -138,6 +138,7 @@ Una persona solo puede entrar en una actividad de espera si le queda tiempo sufi
 A partir de la versión de junio de 2024 de Adobe Journey Optimizer, el tiempo de espera global de recorrido ha pasado de 30 a 91 días. Los impactos se enumeran en las preguntas frecuentes a continuación:
 
 **Para Recorridos Unitarios**
+
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
