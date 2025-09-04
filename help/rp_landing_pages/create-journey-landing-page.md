@@ -4,13 +4,14 @@ product: Journey Optimizer
 title: Creación de un recorrido
 description: Creación de un recorrido
 redpen-status: CREATED_||_2025-08-11_20-07-02
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+version: Journey Orchestration
+exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
+source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
-
 
 # Creación de un recorrido{#section-overview}
 
@@ -20,7 +21,7 @@ La creación de un recorrido en Adobe Journey Optimizer le permite crear experie
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Cómo crear su primer Recorrido de cliente
 
@@ -30,7 +31,7 @@ Aprenda a crear, diseñar, probar y publicar su primer recorrido de cliente con 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definir y administrar propiedades de Recorrido
 
@@ -40,7 +41,7 @@ Configure las reglas de entrada, la configuración relacionada con el tiempo, la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Cómo diseñar el Recorrido
 
@@ -50,7 +51,7 @@ Utilice la interfaz de arrastrar y soltar para diseñar recorridos de marketing 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Cómo probar el Recorrido
 
@@ -60,7 +61,7 @@ Pruebe los recorridos con perfiles simulados y detecte errores antes de activarl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Prueba de Recorridos con el modo de ejecución en seco
 
@@ -70,7 +71,7 @@ Valide los recorridos con datos de producción reales sin ponerse en contacto co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Publicación de un Recorrido
 
