@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdominio, delegación, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1906'
 ht-degree: 18%
 
 ---
@@ -106,6 +106,10 @@ Para configurar un nuevo subdominio en [!DNL Journey Optimizer], siga los pasos 
    * Configuración de CNAME: [Más información](about-subdomain-delegation.md#cname-subdomain-setup)
 
      Aprenda a configurar subdominios con CNAME en esta [sección dedicada](#cname-subdomain-setup)
+
+   * Delegación personalizada: [Más información](about-subdomain-delegation.md#custom-subdomain-delegation)
+
+     Aprenda a configurar subdominios personalizados en esta [sección dedicada](delegate-custom-subdomain.md)
 
    <!--![](assets/subdomain-method-full.png)-->
 

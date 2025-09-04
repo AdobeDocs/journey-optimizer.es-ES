@@ -8,17 +8,19 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdominio, delegación, dominio, DNS
-hide: true
-hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 0490045a763876d3518e3db92e8427691044f6aa
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 20%
+source-wordcount: '925'
+ht-degree: 18%
 
 ---
 
 # Configuración de un subdominio personalizado {#delegate-custom-subdomain}
+
+>[!AVAILABILITY]
+>
+>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 Como alternativa a los métodos [Totalmente delegados](about-subdomain-delegation.md#full-subdomain-delegation) y [CNAME configurados](about-subdomain-delegation.md#cname-subdomain-delegation), el método **Delegación personalizada** le permite tomar la propiedad de sus subdominios dentro de Journey Optimizer y tener control total sobre los certificados generados.
 
@@ -66,8 +68,8 @@ Para configurar un subdominio personalizado, siga los pasos a continuación.
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
->title="xxx"
->abstract=""
+>title="Seleccionar una longitud de clave"
+>abstract="La longitud de la clave puede ser de 2048 o 4096 bits únicamente. No se puede cambiar después de enviar el subdominio."
 
 1. En la sección **[!UICONTROL Certificado SSL]**, haga clic en **[!UICONTROL Generar CSR]**.
 
@@ -85,13 +87,35 @@ Para configurar un subdominio personalizado, siga los pasos a continuación.
    >
    >La longitud de la clave puede ser de 2048 o 4096 bits únicamente. No se puede cambiar después de enviar el subdominio.
 
-1. Haga clic en **[!UICONTROL Descargar CSR]** y guarde el formulario en el equipo local. Envíelo a la autoridad de certificación para obtener su certificado SSL.
+1. Haga clic en **[!UICONTROL Descargar CSR]** y guarde el formulario en el equipo local.
 
-1. Una vez recuperado, haga clic en **[!UICONTROL Cargar certificado SSL]** y cargue el certificado en [!DNL Journey Optimizer] en formato .pem.
+1. Envíelo a la autoridad de certificación (CA) para obtener su certificado SSL. Antes de enviar esta CSR a su CA para su firma, hay que tener en cuenta algunos puntos importantes:
 
-   >[!CAUTION]
-   >
-   >Los subdominios de datos y de CDN deben incluirse en el mismo certificado.
+   * La CSR descargada del paso 3 solo es para data.subdomain.com.
+
+   * Sin embargo, el certificado debe cubrir tanto data.subdomain.com como cdn.subdomain.com como entradas de nombres alternativos del sujeto (SAN) dentro de un solo certificado. Por ejemplo, si delega example.adobe.com, data.subdomain.com corresponde a data.example.adobe.com y cdn.subdomain.com a cdn.example.adobe.com.
+
+   * Los subdominios Data (data.example.adobe.com) y CDN (cdn.example.adobe.com) deben agregarse como entradas del mismo nivel en el mismo certificado.
+
+   * La mayoría de las CA le permiten agregar SAN adicionales (como el subdominio CDN) durante el proceso de firma
+
+      * A través del portal de CA (recomendado, si está disponible), o
+      * Solicitándola manualmente con su equipo de asistencia si la opción del portal no está disponible.
+
+   * Una vez firmada, la CA emitirá un único certificado que abarcará tanto el dominio de datos como el subdominio de CDN.
+
+1. Una vez recuperado, haga clic en **[!UICONTROL Cargar certificado SSL]** y cargue el certificado en [!DNL Journey Optimizer] en formato .pem con la cadena de certificados completa. Este es un ejemplo de formato de archivo .pem:
+
+   ```
+   -----BEGIN CERTIFICATE-----
+   MIIDXTCCAkWgAwIBAgIJALc3... (base64 encoded data)
+   -----END CERTIFICATE-----
+   ```
+
+   <!--
+    >[!CAUTION]
+    >
+    >Both Data and CDN subdomains must be included in the same certificate.-->
 
 ## Complete los pasos del bucle de retroalimentación {#feedback-loop-steps}
 

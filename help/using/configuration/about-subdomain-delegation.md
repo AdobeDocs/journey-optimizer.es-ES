@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdominio, optimizador, delegación
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 32%
+source-wordcount: '982'
+ht-degree: 28%
 
 ---
 
@@ -86,21 +86,29 @@ La configuración del subdominio CNAME le permite crear un subdominio y utilizar
 
 Aprenda a crear un subdominio con CNAME para que apunte a registros específicos de Adobe en [esta sección](delegate-subdomain.md#cname-subdomain-setup).
 
+### Usar un subdominio personalizado {#custom-subdomain-delegation}
+
+El método de delegación personalizado le permite ser el propietario total del control y el mantenimiento de todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes.
+
+En este caso, usted es el propietario y administra completamente sus propios subdominios y tiene control total sobre los certificados generados como parte de este proceso.
+
+Aprenda a configurar un dominio personalizado en [esta sección](delegate-custom-subdomain.md).
+
 ## Comparación de los métodos de configuración
 
 En el cuadro que figura a continuación se ofrece un resumen del funcionamiento de estos métodos, así como el nivel de esfuerzo que suponen:
+<!--
+| Configuration method | How it works | Level of effort |
+|---|---|---|
+| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Campaign.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
+| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |-->
+
 
 | Método de configuración | Funcionamiento | Nivel de esfuerzo |
 |---|---|---|
 | **Delegación completa** | Cree el subdominio y el registro de área de nombres. A continuación, Adobe configurará todos los registros DNS necesarios para Adobe Campaign.<br/><br/>En esta configuración, Adobe es totalmente responsable de administrar el subdominio y todos los registros DNS. | Bajo |
 | **método CNAME** | Cree el subdominio y el registro de área de nombres. A continuación, Adobe proporcionará los registros que se van a colocar en los servidores DNS y configurará los valores correspondientes en los servidores DNS de Adobe Campaign.<br/><br/>En esta configuración, tanto usted como Adobe comparten la responsabilidad de mantener DNS. | Alto |
-
-<!--
-| Configuration method | How it works | Level of effort |
-|---|---|---|
-| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Campaign.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
-| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |
-| **Custom delegation method** |  Create the subdomain and namespace record - Adobe will then provide the records to be placed in your DNS servers. Upload the SSL Certificate obtained from the Certificate Authority and complete the Feedback Loop steps by verifying domain ownership and reporting email address.<br/><br/>In this setup, you have full responsibility for maintaining DNS. | Very high |-->
+| **Método de delegación personalizada** | Cree el subdominio y el registro de área de nombres . A continuación, Adobe proporcionará los registros que se colocarán en los servidores DNS. Cargue el certificado SSL obtenido de la entidad emisora de certificados y complete los pasos del bucle de comentarios comprobando la propiedad del dominio y la dirección de correo electrónico del informe.<br/><br/>En esta configuración, usted es el único responsable de mantener DNS. | Muy alta |
 
 Encontrará más información sobre la configuración de dominios en [esta documentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=es){target="_blank"}.
 
