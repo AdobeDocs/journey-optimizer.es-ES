@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 68cb46a45bf3fe8b8847109519889a9cf20157d3
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 11%
@@ -23,7 +24,7 @@ ht-degree: 11%
 >title="Vistas de lista y calendario de recorridos"
 >abstract="Además de la lista de recorridos, [!DNL Journey Optimizer] proporciona una vista de calendario de sus recorridos, lo que ofrece una representación visual clara de sus programaciones. Puede cambiar entre las vistas de lista y calendario en cualquier momento con estos botones."
 
-## Panel del recorrido {#dashboard-jo}
+## Panel de control del recorrido {#dashboard-jo}
 
 En la sección de menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**. Hay dos fichas disponibles: **[!UICONTROL Información general]** y **[!UICONTROL Examinar]**.
 

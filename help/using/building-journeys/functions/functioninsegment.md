@@ -7,7 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment, function, expression, recorrido
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 6%
@@ -31,7 +32,7 @@ Las audiencias pueden tener dos estados:
 * realizado: la entidad cumple los requisitos para la definición del segmento.
 * saliente: la entidad sale de la definición del segmento.
 
-Solo las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results).
+Solo las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` significa que tiene un segmentMembership con el estado introducido/existente.
 

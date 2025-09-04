@@ -9,7 +9,8 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso de uso, multicanal, mensajes, recorrido, canal, eventos, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 1%

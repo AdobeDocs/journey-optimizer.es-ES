@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 42%
@@ -55,7 +56,7 @@ En la lista de recorridos, todas las versiones del recorrido se muestran con el 
 
 >[!NOTE]
 >
->Normalmente, un perfil no puede estar presente varias veces en el mismo recorrido y al mismo tiempo para todas las versiones activas del recorrido. Si la reentrada está activada, un perfil puede volver a entrar en un recorrido, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido. [Más información](entry-management.md).
+>Normalmente, un perfil no puede estar presente varias veces en el mismo recorrido y al mismo tiempo para todas las versiones activas del recorrido. Si la reentrada está habilitada, un perfil puede volver a entrar en un recorrido, pero no puede hacerlo hasta que salga completamente de la instancia anterior del recorrido. [Más información](entry-management.md).
 
 ### Crear una nueva versión de un recorrido {#journey-create-new-version}
 
@@ -87,4 +88,4 @@ Cuando se publica una nueva versión de un recorrido, la versión anterior final
 
 Obtenga información sobre cómo publicar un recorrido en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427933?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
