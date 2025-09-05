@@ -25,7 +25,7 @@ Para acceder a este tablero, ve a **[!UICONTROL Administración]** > **[!UICONTR
 
 >[!NOTE]
 >
->* Para ver el tablero, debe tener el permiso [Ver tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}.
+>* Para ver el tablero, debe tener el permiso [Ver tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=es#available-permissions){target="_blank"}.
 >
 >* Ciertas métricas (por ejemplo, calcular horas y correos electrónicos) no se muestran para los entornos limitados de desarrollo, como indica `N/A` en la columna de cuota. En el panel solo se muestran valores no nulos: cuando las métricas son cero o están cerca de cero, no se rellenan.
 
@@ -34,6 +34,6 @@ Para [!DNL Adobe Journey Optimizer], el tablero le permite comprobar el número 
 
 Obtenga más información en la documentación de Adobe Experience Platform:
 
-* [Resumen del tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
-* [Explorando el tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [Resumen del tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es){target="_blank"}
+* [Explorando el tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es#exploring-the-license-usage-dashboard){target="_blank"}
 * [Métricas disponibles](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es#available-metrics){target="_blank"}
