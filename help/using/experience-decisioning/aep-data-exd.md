@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 24%
+source-wordcount: '1070'
+ht-degree: 19%
 
 ---
 
@@ -35,27 +35,45 @@ ht-degree: 24%
 
 [!DNL Journey Optimizer] le permite aprovechar los datos de [!DNL Adobe Experience Platform] para la toma de decisiones. Esto le permite ampliar la definición de los atributos de decisión a datos adicionales en conjuntos de datos para actualizaciones masivas que cambian periódicamente sin tener que actualizar manualmente los atributos de uno en uno. Por ejemplo, disponibilidad, tiempos de espera, etc.
 
-Antes de empezar, los conjuntos de datos necesarios para la personalización de la búsqueda deben habilitarse primero para la búsqueda. Encontrará información detallada en esta sección: [Usar datos de Adobe Experience Platform](../data/lookup-aep-data.md).
+>[!IMPORTANT]
+>
+>[!DNL Journey Optimizer]admite hasta 1000 búsquedas para una única directiva de decisión.
 
-## Mecanismos de protección y limitaciones {#guidelines}
+## Requisitos previos
 
-Antes de empezar, tome nota de las siguientes restricciones y directrices:
+### Habilitar conjuntos de datos para la búsqueda
 
-* Una política de decisión puede hacer referencia a hasta 3 conjuntos de datos en total, en todas sus reglas de decisión y fórmulas de clasificación combinadas. Por ejemplo, si las reglas utilizan 2 conjuntos de datos, las fórmulas solo pueden utilizar 1 conjunto de datos adicional.
-* Una regla de decisión puede utilizar 3 conjuntos de datos.
-* Una fórmula de clasificación puede utilizar 3 conjuntos de datos.
-* Cuando se evalúa una directiva de decisión, el sistema realiza hasta 1000 consultas de conjuntos de datos (búsquedas) en total. Cada asignación de conjunto de datos utilizada por un elemento de decisión se cuenta como una consulta. Ejemplo: Si un elemento de decisión utiliza 2 conjuntos de datos, la evaluación de esa oferta cuenta como 2 consultas hacia el límite de 1000 consultas.
+Antes de empezar, los conjuntos de datos necesarios para la toma de decisiones deben habilitarse primero para la búsqueda. Siga los pasos detallados en esta sección: [Usar datos de Adobe Experience Platform](../data/lookup-aep-data.md).
+
+### Creación de asignaciones
+
+Para utilizar atributos de Adobe Experience Platform para la toma de decisiones, debe crear una asignación para definir cómo se une el conjunto de datos de Adobe Experience Platform con los datos de [!DNL Journey Optimizer]. Para ello, siga estos pasos:
+
+1. Vaya a **[!UICONTROL Catálogos]** / **[!UICONTROL Búsqueda de conjuntos de datos]** y haga clic en **[!UICONTROL Crear]**.
+
+   ![](assets/exd-lookup-mapping.png)
+
+1. Configure la asignación:
+
+   1. Haga clic en **[!UICONTROL Seleccionar conjunto de datos]** para mostrar todos los Adobe Experience Platform que se han habilitado para la búsqueda. Seleccione el conjunto de datos con los atributos que necesite.
+
+   1. Haga clic en **[!UICONTROL Seleccionar clave]** para elegir una clave de unión (por ejemplo, número de vuelo o ID de cliente) que exista tanto en los atributos del elemento de decisión como en el conjunto de datos.
+
+   ![](assets/exd-lookup-mapping-create.png)
+
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Aprovechamiento de datos de Adobe Experience Platform {#leverage-aep-data}
 
-Una vez que un conjunto de datos está habilitado para la búsqueda, puede utilizar sus atributos para enriquecer la lógica de decisión con datos externos. Esto resulta especialmente útil para atributos que cambian con frecuencia, como la disponibilidad del producto o los precios en tiempo real.
+Una vez que un conjunto de datos está habilitado para la búsqueda y se han creado asignaciones, puede utilizar los datos para enriquecer la lógica de decisión con datos externos. Esto resulta especialmente útil para atributos que cambian con frecuencia, como la disponibilidad del producto o los precios en tiempo real.
 
 Los atributos de los conjuntos de datos de Adobe Experience Platform se pueden utilizar en dos partes de la lógica de decisión:
 
 * **Reglas de decisión**: defina si un elemento de decisión es elegible para mostrarse.
 * **Fórmulas de clasificación**: dé prioridad a los elementos de decisión según los datos externos.
+* **Reglas de límite**: utilice datos externos para calcular el umbral de las reglas de límite.
 
-En las siguientes secciones se explica cómo utilizar los datos de Adobe Experience Platform en ambos contextos.
+En las siguientes secciones se explica cómo utilizar los datos de Adobe Experience Platform en estos contextos.
 
 ### Reglas de decisión {#rules}
 
@@ -69,16 +87,9 @@ Para utilizar datos de Adobe Experience Platform en reglas de decisión, siga es
 
    ![](assets/exd-lookup-rule.png)
 
-1. Haga clic en **[!UICONTROL Crear asignación]** para definir cómo se une el conjunto de datos de Adobe Experience Platform con los datos de [!DNL Journey Optimizer].
+1. Haga clic en **[!UICONTROL Agregar conjunto de datos]** y, a continuación, seleccione el conjunto de datos con los atributos que necesite.
 
-   * Seleccione el conjunto de datos con los atributos que necesite.
-   * Elija una clave de unión (por ejemplo, ID de producto o ID de tienda) que exista tanto en los atributos del elemento de decisión como en el conjunto de datos.
-
-   ![](assets/exd-lookup-mapping.png)
-
-   >[!NOTE]
-   >
-   >Puede crear hasta 3 asignaciones por regla.
+   ![](assets/exd-lookup-select-dataset.png)
 
 1. Haga clic en **[!UICONTROL Continuar]**. Ahora puede acceder a los atributos del conjunto de datos en el menú **[!UICONTROL Búsqueda de conjuntos de datos]** y utilizarlos en las condiciones de regla. [Aprenda a crear una regla de decisión](../experience-decisioning/rules.md#create)
 
@@ -92,19 +103,54 @@ Por ejemplo, supongamos que una aerolínea utiliza una fórmula de clasificació
 
 Para utilizar datos de Adobe Experience Platform en fórmulas de clasificación, siga estos pasos:
 
-1. Cree o edite una fórmula de clasificación. En la sección **[!UICONTROL Búsqueda de conjuntos de datos]**, haga clic en **[!UICONTROL Crear asignación]**.
+1. Cree o edite una fórmula de clasificación.
 
-1. Defina la asignación del conjunto de datos:
+1. En la sección **[!UICONTROL Búsqueda de conjuntos de datos]**, haga clic en **[!UICONTROL Agregar conjunto de datos]**.
 
-   * Seleccione el conjunto de datos adecuado (por ejemplo, disponibilidad de puestos por vuelo).
-   * Elija una clave de unión (por ejemplo, número de vuelo o ID de cliente) que exista tanto en los atributos del elemento de decisión como en el conjunto de datos.
+1. Seleccione el conjunto de datos adecuado.
 
-   ![](assets/exd-lookup-formula-mapping.png)
+   ![](assets/exd-lookup-formula-dataset.png)
 
    >[!NOTE]
    >
-   >Puede crear hasta 3 asignaciones por fórmula de clasificación.
+   >Si el conjunto de datos que busca no se muestra en la lista, asegúrese de que lo ha habilitado para la búsqueda y de que ha creado una asignación de búsqueda de conjunto de datos. Para obtener más información, consulte la sección [Requisitos previos](#prerequisites).
 
 1. Utilice los campos del conjunto de datos para crear la fórmula de clasificación como de costumbre. [Aprenda a crear una fórmula de clasificación](ranking/ranking-formulas.md#create-ranking-formula)
 
    ![](assets/exd-lookup-formula-criteria.png)
+
+### Reglas de límite {#capping-rules}
+
+Las reglas de límite se utilizan como restricciones para definir el número máximo de veces que se puede presentar un elemento de decisión. El uso de datos de Adobe Experience Platform en reglas de límite le permite definir criterios de límite basados en atributos externos dinámicos. Para ello, utilice una expresión en la regla de límite para calcular el umbral de límite deseado.
+
+Por ejemplo, una retailer puede querer limitar una oferta en función del inventario de productos en tiempo real. En lugar de establecer un umbral fijo de 500, utilizan una expresión que hace referencia al campo `inventory_count` de un conjunto de datos de Adobe Experience Platform. Si el conjunto de datos muestra que quedan 275 artículos en stock, la oferta solo se entregará hasta ese número.
+
+>[!NOTE]
+>
+>Actualmente, las expresiones de regla de límite **están disponibles como capacidad de disponibilidad limitada para todos los usuarios y solo son compatibles con el tipo de límite** En total **[!UICONTROL .]**
+
+Para utilizar datos de Adobe Experience Platform en expresiones de reglas de límite, siga estos pasos:
+
+1. Crear o editar un elemento de decisión.
+
+1. Al definir la idoneidad del elemento, haga clic en **[!UICONTROL Agregar conjunto de datos]** y seleccione el conjunto de datos adecuado.
+
+   ![](assets/exd-lookup-capping.png)
+
+   >[!NOTE]
+   >
+   >Si el conjunto de datos que busca no se muestra en la lista, asegúrese de que lo ha habilitado para la búsqueda y de que ha creado una asignación de búsqueda de conjunto de datos. Para obtener más información, consulte la sección [Requisitos previos](#prerequisites).
+
+1. Seleccione el tipo de límite **[!UICONTROL In total]** y, a continuación, habilite la opción **[!UICONTROL Expression]**.
+
+   ![](assets/exd-lookup-capping-expression.png)
+
+   >[!NOTE]
+   >
+   >Si el conjunto de datos que busca no se muestra en la lista, asegúrese de que lo ha habilitado para la búsqueda y de que ha creado una asignación de búsqueda de conjunto de datos. Para obtener más información, consulte la sección [Requisitos previos](#prerequisites).
+
+1. Edite la expresión y utilice los campos del conjunto de datos para crear la expresión.
+
+   ![](assets/exd-lookup-capping-attribute.png)
+
+1. Complete la configuración del límite y el elemento de decisión de regla como de costumbre. [Obtenga información sobre cómo establecer reglas de límite](../experience-decisioning/items.md#capping)

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '1907'
-ht-degree: 14%
+source-wordcount: '2125'
+ht-degree: 12%
 
 ---
 
@@ -109,7 +109,7 @@ Al seleccionar audiencias o reglas de decisión, puede ver información sobre lo
 
 ## Establecer reglas de límite {#capping}
 
-El límite se utiliza como restricción para definir el número máximo de veces que se puede presentar una oferta. Limitar el número de veces que los usuarios obtienen ofertas específicas le permite evitar saturar a sus clientes y, por lo tanto, optimizar cada punto de contacto con la mejor oferta. Puede crear hasta 10 límites para un elemento de decisión determinado.
+El límite se utiliza como restricción para definir el número máximo de veces que se puede presentar un elemento de oferta. Limitar el número de veces que los usuarios obtienen ofertas específicas le permite evitar saturar a sus clientes y, por lo tanto, optimizar cada punto de contacto con la mejor oferta. Puede crear hasta 10 límites para un elemento de decisión determinado.
 
 ![](assets/item-capping.png)
 
@@ -118,7 +118,17 @@ El límite se utiliza como restricción para definir el número máximo de veces
 >
 >El valor del contador de límite puede tardar hasta 3 segundos en actualizarse. Por ejemplo, supongamos que muestra un banner web que muestra una oferta en el sitio web. Si un usuario determinado navega a la siguiente página del sitio web en menos de 3 segundos, el valor del contador no se incrementa para ese usuario.
 
-Para establecer reglas de límite para el elemento de decisión, haga clic en el botón **[!UICONTROL Crear límite]** y siga estos pasos:
+Al configurar reglas de límite, puede hacer referencia a atributos almacenados en conjuntos de datos de Adobe Experience Platform para definir umbrales. Para usar un conjunto de datos, selecciónelo en la sección **[!UICONTROL Conjunto de datos]**.
+
+![](assets/exd-lookup-capping.png)
+
+>[!NOTE]
+>
+>Actualmente, esta funcionalidad está disponible como disponibilidad limitada para todos los usuarios. Encontrará información detallada sobre cómo usarlo en esta sección: [Usar datos de Adobe Experience Platform para la toma de decisiones](../experience-decisioning/aep-data-exd.md)
+
+Para establecer reglas de límite para el elemento de decisión, haga clic en el botón **[!UICONTROL Crear límite]** y siga los pasos que se detallan a continuación.
+
+![](assets/item-capping-create.png)
 
 1. Defina qué **[!UICONTROL evento de límite]** se tendrá en cuenta para aumentar el contador.
 
@@ -139,9 +149,31 @@ Para establecer reglas de límite para el elemento de decisión, haga clic en el
 
    * Seleccione **[!UICONTROL Por perfil]** para definir cuántas veces se puede proponer la oferta al mismo usuario. Por ejemplo, si es un banco con una oferta de &quot;tarjeta de crédito Platinum&quot;, no desea que esta oferta se muestre más de 5 veces por perfil. De hecho, cree que si el usuario ha visto la oferta 5 veces y no ha actuado en consecuencia, tiene una mayor oportunidad de actuar en la siguiente mejor oferta.
 
-1. En el campo **[!UICONTROL Límite de recuento de límite]**, especifique el número de veces que la oferta se puede presentar a todos los usuarios o por perfiles, según el tipo de límite seleccionado. El número debe ser un número entero mayor que 0.
+1. Defina el umbral de límite. Para ello, puede introducir un valor estático o calcular el umbral mediante una expresión. Expanda las secciones siguientes para obtener más detalles.
+
+   +++Umbral estático
+
+   En el campo **[!UICONTROL Límite de recuento de límite]**, especifique el número de veces que la oferta se puede presentar a todos los usuarios o por perfiles, según el tipo de límite seleccionado. El número debe ser un número entero mayor que 0.
 
    Por ejemplo, ha definido un evento de límite personalizado como, por ejemplo, el número de cierres de compra que se tiene en cuenta. Si introduce 10 en el campo **[!UICONTROL Límite de recuento de límite]**, no se enviarán más ofertas después de 10 cierres de compra.
+
+   +++
+
+   +++Umbral de expresión
+
+   En lugar de utilizar un valor estático para el umbral de límite, puede definir su propia expresión. Esto le permite calcular el umbral dinámicamente mediante atributos de decisión o atributos externos de un conjunto de datos de Adobe Experience Platform.
+
+   Por ejemplo, un experto en marketing puede decidir añadir un multiplicador para ajustar la exposición. Por ejemplo, podrían multiplicar el inventario disponible por dos, lo que permitiría mostrar la oferta al doble de clientes que unidades disponibles. Este enfoque prevé que no todos los clientes se convertirán, lo que garantiza un mejor alcance sin tener que realizar ventas excesivas.
+
+   >[!NOTE]
+   >
+   >Actualmente, las expresiones **expresiones** de regla de límite están disponibles como disponibilidad limitada para todos los usuarios. Solo son compatibles con el tipo de límite **[!UICONTROL En total]**.
+
+   Para usar una expresión, habilite la opción **[!UICONTROL Expression]** y, a continuación, edite la expresión como desee.
+
+   ![](assets/exd-lookup-capping-expression.png)
+
+   +++
 
 1. En la lista desplegable **[!UICONTROL Restablecer frecuencia de límite]**, establezca la frecuencia con la que se restablece el contador de límite. Para ello, defina el periodo de tiempo para el recuento (diario, semanal o mensual) e introduzca el número de días/semanas/meses de su elección. Por ejemplo, si desea que el recuento límite se restablezca cada 2 semanas, seleccione **[!UICONTROL Semanalmente]** en la lista desplegable correspondiente y escriba **2** en el otro campo.
 
@@ -188,3 +220,4 @@ Al seleccionar un elemento de decisión o hacer clic en el botón de puntos susp
   ![](assets/item-undo.png)
 
 * **[!UICONTROL Archivo]**: Establece el estado del elemento de decisión en **[!UICONTROL Archivado]**. El elemento de decisión aún está disponible en la lista, pero no puedes volver a establecer su estado en **[!UICONTROL Borrador]** o **[!UICONTROL Aprobado]**. Solo puede duplicarlo o eliminarlo.
+
