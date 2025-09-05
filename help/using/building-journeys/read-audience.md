@@ -10,9 +10,9 @@ level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
 workflow-type: tm+mt
-source-wordcount: '2333'
+source-wordcount: '2400'
 ht-degree: 14%
 
 ---
@@ -52,7 +52,7 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes.
 
    >[!NOTE]
    >
-   >Además, también puede segmentar audiencias de Adobe Experience Platform creadas con [composiciones de audiencias](../audience/get-started-audience-orchestration.md) o [cargadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#import-audience){target="_blank"}.
+   >Además, también puede segmentar audiencias de Adobe Experience Platform creadas con [composiciones de audiencias](../audience/get-started-audience-orchestration.md) o [cargadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Tenga en cuenta que puede personalizar las columnas mostradas en la lista y ordenarlas.
 
@@ -66,7 +66,7 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes.
 
    >[!NOTE]
    >
-   >Solo las personas con el estado de participación en la audiencia **Realized** entrarán al recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Solo las personas con el estado de participación en la audiencia **Realized** entrarán al recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. En el campo **[!UICONTROL Espacio de nombres]**, elija el espacio de nombres que desea utilizar para identificar a los individuos. De forma predeterminada, el campo está rellenado previamente con el último área de nombres utilizado. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
 
@@ -86,13 +86,17 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes.
 
 * Como práctica recomendada, recomendamos que solo use audiencias por lotes en una actividad **Leer audiencia**. Esto proporciona un recuento fiable y coherente de las audiencias utilizadas en un recorrido. La audiencia de lectura está diseñada para casos de uso por lotes. Si su caso de uso necesita datos en tiempo real, utilice la actividad **[Calificación de audiencias](audience-qualification-events.md)**.
 
-* Las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) se pueden seleccionar en la actividad **Leer audiencia**. Estas audiencias no están disponibles en la actividad **Calificación de audiencias**.
+* Las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) se pueden seleccionar en la actividad **Leer audiencia**. Estas audiencias no están disponibles en la actividad **Calificación de audiencias**.
 
 * Límite de audiencia de lectura simultánea por organización: cada organización puede ejecutar hasta cinco instancias de audiencia de lectura simultáneamente. Esto incluye tanto las ejecuciones programadas como las activadas por eventos empresariales en todas las zonas protegidas y recorridos. Este límite se impone para garantizar una asignación justa y equilibrada de los recursos en todas las organizaciones.
 
 * Administración del rendimiento de la zona protegida: el sistema administra dinámicamente el rendimiento de procesamiento por zona protegida con un límite máximo de 20 000 perfiles por segundo compartidos en todas las actividades de Lectura de audiencias. Las actividades de Audiencia de lectura individuales se pueden configurar con una velocidad mínima de 500 perfiles por segundo. Los trabajos pueden colocarse en cola si se alcanzan los límites de rendimiento de nivel de zona protegida para garantizar una asignación justa de los recursos.
 
 * Tiempo de espera de procesamiento de trabajo: los trabajos de lectura de audiencia que no se puedan procesar en un plazo de 12 horas debido a los límites de protección se limpiarán automáticamente y nunca se ejecutarán. Esto evita la acumulación de trabajos y garantiza la estabilidad del sistema.
+
+* Cuando utilice segmentos por lotes, asegúrese de que la ingesta y las actualizaciones diarias de instantáneas se hayan completado mucho antes de que comience el recorrido. Considere un período de espera adicional si los segmentos deben reflejar los datos introducidos el mismo día. Si la actualización inmediata del perfil es crítica, considere la posibilidad de utilizar un caso de uso basado en eventos o de flujo continuo en lugar de un método por lotes diario, o inserte un mecanismo de espera adicional para permitir que los datos actualizados se propaguen antes de la evaluación del recorrido.
+
+
 
 Las protecciones relacionadas con la actividad **Leer audiencia** se enumeran en [esta página](../start/guardrails.md#read-segment-g).
 
