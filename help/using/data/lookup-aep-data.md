@@ -11,9 +11,9 @@ level: Intermediate
 keywords: expresión, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: ea40a13765be5ff603dd848df4fb02a4dbb9a426
+source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '804'
 ht-degree: 5%
 
 ---
@@ -44,7 +44,7 @@ Antes de empezar, revise las siguientes restricciones y directrices:
 
 ### Derecho al servicio de búsqueda
 
-| Componente de función | Límite de zona protegida de producción | Notas |
+| Componente de función | Límites | Notas |
 | ------- | ------- | ------- |
 | Conjuntos de datos de búsqueda habilitados | Máx. 10 por organización | Número máximo de conjuntos de datos que se pueden configurar para la búsqueda en un momento determinado. Este límite se aplica al número total combinado de conjuntos de datos de búsqueda en los entornos limitados de producción y desarrollo de la instancia del cliente. |
 | Recuento de registros de conjuntos de datos | Hasta 2 millones de registros por conjunto de datos | Número máximo de registros permitidos en un único conjunto de datos, calculado como el recuento total en todos los lotes dentro de ese conjunto de datos. |
