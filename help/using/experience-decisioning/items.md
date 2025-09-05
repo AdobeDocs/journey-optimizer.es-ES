@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
+source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 12%
@@ -124,7 +124,7 @@ Al configurar reglas de límite, puede hacer referencia a atributos almacenados 
 
 >[!NOTE]
 >
->Actualmente, esta funcionalidad está disponible como disponibilidad limitada para todos los usuarios. Encontrará información detallada sobre cómo usarlo en esta sección: [Usar datos de Adobe Experience Platform para la toma de decisiones](../experience-decisioning/aep-data-exd.md)
+>Actualmente, esta capacidad está disponible como disponibilidad limitada para todos los usuarios. Encontrará información detallada sobre cómo usarlo en esta sección: [Usar datos de Adobe Experience Platform para la toma de decisiones](../experience-decisioning/aep-data-exd.md)
 
 Para establecer reglas de límite para el elemento de decisión, haga clic en el botón **[!UICONTROL Crear límite]** y siga los pasos que se detallan a continuación.
 
