@@ -5,10 +5,10 @@ title: Pasos de configuración
 description: Obtenga información sobre cómo crear un esquema relacional en Adobe Experience Platform cargando un DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 58%
+source-wordcount: '1041'
+ht-degree: 52%
 
 ---
 
@@ -39,6 +39,19 @@ Se admiten las cargas de archivos de esquema basados en Excel. Descargue la [pla
 
 * **ENUM**\
   Los campos ENUM son compatibles con la creación de esquemas manual y basada en DDL, lo que permite definir atributos con un conjunto fijo de valores permitidos.
+Vea el siguiente ejemplo:
+
+  ```
+  CREATE TABLE orders (
+  order_id     INT NOT NULL,
+  product_id   INT NOT NULL,
+  order_date   DATE NOT NULL,
+  customer_id  INT NOT NULL,
+  quantity     INT NOT NULL,
+  order_status enum ('PENDING', 'SHIPPED', 'DELIVERED', 'CANCELLED'),
+  PRIMARY KEY (order_id, product_id)
+  );
+  ```
 
 * **Etiqueta de esquema para el control de datos**\
   El etiquetado es compatible a nivel de campo de esquema para aplicar políticas de gobernanza de datos como el control de acceso y las restricciones de uso. Para obtener más información, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es).
@@ -61,9 +74,10 @@ Se admiten las cargas de archivos de esquema basados en Excel. Descargue la [pla
 1. Seleccione **[!UICONTROL Cargar archivo DDL]** para definir un diagrama de relación de entidades y crear esquemas.
 
    La estructura de la tabla debe contener:
-   * Al menos una clave principal
+   * Al menos una clave principal.
    * Un identificador de versión, como un campo de tipo `lastmodified`, `datetime` o `number`.
-   * Para la ingesta de Change Data Capture (CDC), una columna especial denominada `_change_request_type` de tipo `String`, que indica el tipo de cambio de datos (por ejemplo, insertar, actualizar, eliminar) y habilita el procesamiento incremental
+   * Para la ingesta de Change Data Capture (CDC), una columna especial denominada `_change_request_type` de tipo `String`, que indica el tipo de cambio de datos (por ejemplo, insertar, actualizar, eliminar) y habilita el procesamiento incremental.
+   * El archivo DDL no debe definir más de 200 tablas.
 
 
    >[!IMPORTANT]
@@ -79,9 +93,13 @@ Se admiten las cargas de archivos de esquema basados en Excel. Descargue la [pla
 
 1. Configure cada esquema y sus columnas, asegurándose de especificar una clave principal.
 
-   Un atributo, como `lastmodified`, debe designarse como descriptor de versión. Este atributo, normalmente de tipo `datetime`, `long` o `int`, es esencial para los procesos de ingesta, a fin de garantizar que el conjunto de datos se actualice con la última versión de datos.
+   Un atributo, como `lastmodified`, debe designarse como descriptor de versión (tipo `datetime`, `long` o `int`) para garantizar que los conjuntos de datos se actualicen con los datos más recientes. Los usuarios pueden cambiar el descriptor de versión, que se vuelve obligatorio una vez configurado. Un atributo no puede ser a la vez una clave principal (PK) y un descriptor de versión.
 
    ![](assets/admin_schema_2.png)
+
+1. Marque un atributo como `identity` y asígnelo a un área de nombres de identidad definida.
+
+1. Cambie el nombre, elimine o agregue una descripción a cada tabla.
 
 1. Haga clic en **[!UICONTROL Listo]** cuando haya finalizado.
 
@@ -94,6 +112,10 @@ Para definir conexiones lógicas entre tablas dentro del esquema, siga los pasos
 1. Acceda a la vista de lienzo del modelo de datos y elija las dos tablas que desea vincular
 
 1. Haga clic en el botón ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) junto a Unión de origen, y a continuación, arrastre y guíe la flecha hacia Unión de destino para establecer la conexión.
+
+   >[!NOTE]
+   >
+   >Las claves compuestas son compatibles si se definen en el archivo DDL.
 
    ![](assets/admin_schema_5.png)
 

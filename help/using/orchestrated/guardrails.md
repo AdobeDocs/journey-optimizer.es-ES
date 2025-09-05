@@ -5,10 +5,10 @@ title: Limitaciones y protecciones de campañas organizadas
 description: Obtenga información acerca de las limitaciones y protecciones de campañas orquestadas
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 2%
+source-wordcount: '460'
+ht-degree: 1%
 
 ---
 
@@ -31,31 +31,31 @@ A continuación, encontrará limitaciones y protecciones adicionales al utilizar
 
 * Los esquemas utilizados para la segmentación deben contener al menos **un campo de identidad de tipo`String`**, asignado a un área de nombres de identidad definida.
 
+* El número promedio de atributos por esquema **no debe exceder las 50 columnas** para mantener la capacidad de administración y el rendimiento.
+
 ### Ingesta de datos
 
 * Se requiere la ingesta de datos relacionales y de perfil.
 
 * Toda la ingesta debe realizarse a través de **Cambiar captura de datos** orígenes:
 
-   * Para **basado en archivos**: se requiere el campo `_change_request_type`.
+   * Para **basado en archivos**: se requiere el campo `_change_request_type`. Los valores admitidos son `U` (actualizado) o `D` (eliminado).
 
    * Para **basado en la nube**: debe habilitarse el registro de tablas.
 
-* **No se admiten actualizaciones directas en Snowflake o conjuntos de datos**. El sistema es de solo lectura, todos los cambios deben aplicarse mediante la captura de datos modificados.
-
-* **No se admiten procesos ETL**. Los datos deben transformarse completamente al formato requerido antes de la ingesta.
-
-* **No se permiten actualizaciones parciales**, cada fila debe proporcionarse como un registro completo.
+* **No se permiten actualizaciones parciales de registros**, cada fila debe proporcionarse como un registro completo.
 
 * La ingesta por lotes para Campaign Orchestration está limitada a **una vez cada 15 minutos**.
 
-* La latencia de ingesta, el tiempo desde la ingesta hasta la disponibilidad en Snowflake, generalmente oscila entre **15 minutos y 2 horas**, según lo siguiente:
+* La latencia de ingesta, en el almacén relacional, suele oscilar entre **15 minutos y 2 horas**, en función de:
 
    * Volumen de datos
 
    * Concurrencia del sistema
 
    * Tipo de operación; por ejemplo, las inserciones son más rápidas que las actualizaciones
+
+* **La relación del flujo de datos con el conjunto de datos es 1-1**. Esto significa que solo una fuente puede alimentar un conjunto de datos a la vez. Para cambiar la fuente, se debe eliminar el flujo de datos existente y crear uno nuevo con la nueva fuente.
 
 ### Modelado de datos
 
@@ -75,7 +75,7 @@ A continuación, encontrará limitaciones y protecciones adicionales al utilizar
 
 * Se aplican **límites en la cantidad de atributos de perfil** que se pueden usar en audiencias por lotes y de flujo continuo para mantener la eficiencia del sistema.
 
-* **Lista de valores (LOV)** y **enumeraciones** son totalmente compatibles.
+* **Las enumeraciones** son totalmente compatibles.
 
 * **Las audiencias de lectura no se almacenan en caché**, cada ejecución de campaña almacena en déclencheur una evaluación de audiencia completa a partir de los datos subyacentes.
 
