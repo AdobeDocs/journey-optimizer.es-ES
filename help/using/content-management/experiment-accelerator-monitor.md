@@ -10,9 +10,9 @@ level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1048'
 ht-degree: 1%
 
 ---
@@ -64,6 +64,8 @@ La página de detalles del experimento se divide en la siguiente sección:
 
 ![](assets/experiment-monitor-outcome.png)
 
+El **[!UICONTROL resultado del experimento]** le ofrece una vista rápida de la variación ganadora de su experimento.
+
 ### Configuración {#set-up}
 
 ![](assets/experiment-monitor-hypothesis.png)
@@ -112,7 +114,7 @@ En la parte inferior del widget, encontrará un resumen conciso de la configurac
 
 * **[!UICONTROL Audiencia]**: Los segmentos de usuario definidos se segmentaron durante el experimento.
 
-## Oportunidades {#opportunities}
+### Oportunidades {#opportunities}
 
 >[!AVAILABILITY]
 >
@@ -175,7 +177,6 @@ La tabla **[!UICONTROL Results]** proporciona un desglose detallado del rendimie
 >La función Perspectivas de experimentación se limita a los experimentos con cambios basados en texto.
 
 ![](assets/experiment-monitor-insights.png)
-
 
 **[!UICONTROL Perspectivas de experimento]** son aprendizajes generados por IA derivados de este experimento. Estas perspectivas están disponibles una vez que el experimento alcanza la relevancia estadística y proporcionan una comprensión contextual de lo que contribuyó a su éxito. Destacan los atributos clave presentes en el tratamiento ganador, distintos del control, que probablemente influyeron en el resultado.
 

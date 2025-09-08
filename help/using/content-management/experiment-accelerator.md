@@ -10,9 +10,9 @@ level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '960'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Tenga en cuenta que los usuarios que solo tengan una licencia de Target solo pue
 </tr></table>
 -->
 
-## ¿Qué Es La Prueba A/B?
+## ¿Qué es la prueba A/B?
 
 Las pruebas A/B son el proceso de comparar dos o más versiones de algo para determinar cuál tiene un mejor rendimiento con un objetivo definido.
 
@@ -119,7 +119,7 @@ Ejemplo: _Creemos que cambiar X aumentará Y debido a Z._
 
   Mantenga un registro claro de lo que se ha probado, por qué y lo que ha aprendido. Esto construye conocimiento institucional y evita errores repetidos.
 
-## Métricas comunes y lo que indican
+## Métricas comunes
 
 | Métrica | Qué Mide | Cuándo usar |
 |-|-|-|
@@ -131,16 +131,16 @@ Ejemplo: _Creemos que cambiar X aumentará Y debido a Z._
 | Ingresos por visitante (RPV) | Ingresos medios obtenidos por usuario | A menudo se utiliza en experimentos centrados en el comercio |
 | Tasa de retención | El porcentaje de usuarios que regresan o que siguen participando con el tiempo | Útil para evaluaciones de valor a largo plazo |
 
-## ¿Qué hace que un buen experimento?
+## ¿Qué hace un buen experimento?
 
 Un buen experimento no solo produce una victoria, sino que produce un aprendizaje claro y procesable.
 Esto es lo que hay que buscar:
 
-&check; **Confianza estadística**: Es poco probable que la diferencia entre las variantes se deba a la casualidad.
-&check; **Alineación con objetivos**: La métrica principal refleja un progreso significativo hacia un objetivo comercial.
+&amp;check; **Confianza estadística**: Es poco probable que la diferencia entre las variantes se deba a la casualidad.
+&amp;check; **Alineación con objetivos**: La métrica principal refleja un progreso significativo hacia un objetivo comercial.
 &amp; check; **Impacto secundario**: No hay efectos secundarios negativos significativos en las métricas relacionadas.
-&check; **Escalabilidad**: El resultado puede informar decisiones futuras o generalizarse a otras áreas.
-&check; **Claridad**: La causa del resultado está razonablemente aislada y comprendida.
+&amp;check; **Escalabilidad**: El resultado puede informar decisiones futuras o generalizarse a otras áreas.
+&amp;check; **Claridad**: La causa del resultado está razonablemente aislada y comprendida.
 
 La experimentación no se trata solo de encontrar la &quot;mejor&quot; versión, se trata de generar conocimiento a través de pruebas e iteraciones. Cuando se hace bien, los experimentos revelan perspectivas que impulsan decisiones más inteligentes, mejores experiencias de usuario y resultados mejorados.
 
