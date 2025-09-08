@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: d07d4c2001bd9e9d08539788073757bc1034c9ec
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 99%
+source-wordcount: '750'
+ht-degree: 89%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campaña"
->abstract="**Las campañas programadas** se ejecutan inmediatamente o en una fecha especificada y están pensadas para enviar mensajes de tipo marketing. Las campañas **activadas por API** se ejecutan mediante el uso de una llamada de API. Están destinadas a enviar mensajes de marketing (mensajes promocionales que requieren el consentimiento del usuario) o mensajes transaccionales (mensajes no comerciales, que también se pueden enviar a perfiles no suscritos en contextos específicos)."
+>abstract="Seleccione el tipo de campaña. Los canales disponibles varían según el tipo seleccionado. <br>**Campañas programadas** (campañas de acción): ideal para comunicaciones por lotes simples y puntuales que se pueden programar para que se ejecuten a una hora específica.<br>**Campañas activadas por API**: se activan mediante una llamada de API, lo que permite la mensajería automatizada basada en eventos directamente desde sistemas externos.<br>**Campañas orquestadas**: proporcione un lienzo visual de arrastrar y soltar para diseñar y automatizar flujos de trabajo de marketing complejos y de varios pasos, desde la segmentación de audiencia hasta la entrega personalizada de mensajes en todos los canales."
 
 Utilice las campañas de Journey Optimizer para ofrecer contenido único a un público específico mediante varios canales. Cuando se utilizan recorridos, las acciones se ejecutan en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada.
 

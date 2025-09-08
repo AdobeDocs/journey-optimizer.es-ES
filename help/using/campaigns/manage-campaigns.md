@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
+source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 15%
+source-wordcount: '1863'
+ht-degree: 14%
 
 ---
 
@@ -37,11 +37,6 @@ Ver todos los estados de campaña y las alertas [en esta sección](#statuses).
 
 
 ## Acceso a campañas {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_view"
->title="Vistas de lista y calendario de campañas"
->abstract="Además de la lista de campañas, [!DNL Journey Optimizer] proporciona una vista de calendario de sus campañas, lo que ofrece una representación visual clara de sus programaciones. Puede cambiar entre las vistas de lista y calendario en cualquier momento con estos botones."
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
@@ -89,15 +84,15 @@ El botón ![Imagen que muestra el botón Más acciones](assets/do-not-localize/r
 
 ![imagen que muestra el inventario de campañas](assets/inventory-actions.png)
 
-* **[!UICONTROL Ver informe de todos los tiempos]** / **[!UICONTROL Ver informe de las últimas 24 horas]**: acceda a informes para medir y visualizar el impacto y el rendimiento de sus campañas.
-* **[!UICONTROL Editar etiquetas]**: edite las etiquetas asociadas a la campaña.
-* **[!UICONTROL Duplicado]**: en algunos casos, es posible que deba duplicar una campaña, por ejemplo, para ejecutar una campaña orquestada que se haya detenido.
-* **[!UICONTROL Eliminar]**: elimine la campaña. Esta acción solo está disponible para **[!UICONTROL Borrador]** campañas.
-* **[!UICONTROL Archivar]**: archive la campaña. Todas las campañas archivadas se eliminarán en una reprogramación escalonada 30 días después de la última fecha de modificación. Esta acción está disponible para todas las campañas, excepto para las que están en **[!UICONTROL Borrador]**.
+* **[!UICONTROL Ver informe de todos los tiempos]** / **[!UICONTROL Ver informe de las últimas 24 horas]**: acceda a informes para medir y visualizar el impacto y el rendimiento de sus campañas. Más información sobre [informes de campaña](../reports/campaign-global-report-cja.md).
+* **[!UICONTROL Editar etiquetas]**: edite las etiquetas asociadas a la campaña. Aprenda a [usar etiquetas en sus campañas](../start/search-filter-categorize.md#add-tags-to-an-object)
+* **[!UICONTROL Duplicate]**: utilice esta opción para duplicar una campaña, por ejemplo, para ejecutar una campaña orquestada que se haya detenido. [Más información](#duplicate-a-campaign)
+* **[!UICONTROL Eliminar]** - Utilice esta opción para eliminar una campaña. [Más información](#delete-a-campaign)
+* **[!UICONTROL Archivar]**: archive la campaña. Todas las campañas archivadas se eliminarán en una reprogramación escalonada 30 días después de la última fecha de modificación. Esta acción está disponible para todas las campañas excepto para **[!UICONTROL Borrador]**. Más información sobre [archivo de campaña](#archive-a-campaign).
 
 Para las campañas activadas por acciones y API, están disponibles las siguientes acciones adicionales:
 
-* **[!UICONTROL Agregar al paquete]**: agregue la campaña a un paquete para exportarla a otra zona protegida. [Exportar objetos a otra zona protegida](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Agregar al paquete]**: agregue la campaña a un paquete para exportarla a otra zona protegida. Obtenga información sobre cómo [exportar objetos a otra zona protegida](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Abrir versión de borrador]**: si se ha creado una nueva versión de la campaña y aún no se ha activado, puede acceder a su versión de borrador mediante esta acción.
 
 ## Ciclo de vida de Campaign {#statuses}
@@ -154,6 +149,11 @@ Cuando se produce un error en una de las campañas, aparece un icono de adverten
 ![](assets/campaign-alerts.png)
 
 ## Calendario de campañas {#calendar}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="Vistas de lista y calendario de campañas"
+>abstract="Además de la lista de campañas, [!DNL Journey Optimizer] proporciona una vista de calendario de sus campañas, lo que ofrece una representación visual clara de sus programaciones. Puede cambiar entre las vistas de lista y calendario en cualquier momento con estos botones."
 
 Además de la lista de campañas, [!DNL Journey Optimizer] proporciona una vista de calendario de sus campañas, lo que ofrece una representación visual clara de sus programaciones.
 
@@ -244,3 +244,23 @@ Para evitarlo, puede archivar las campañas completadas y detenidas que ya no ne
 ![](assets/create-campaign-archive.png)
 
 Las campañas archivadas se pueden recuperar utilizando el filtro dedicado de la lista.
+
+
+## Eliminación de una campaña {#delete}
+
+Para eliminar una campaña, usa los puntos suspensivos ![la imagen que muestra el botón Más acciones](assets/do-not-localize/rule-builder-icon-more.svg) y selecciona **[!UICONTROL Eliminar]**.
+
+![](assets/delete-a-campaign.png){width="70%" align="left"}
+
+>[!IMPORTANT]
+>
+>Esta opción solo está disponible para **[!UICONTROL Borrador]** campañas.
+
+
+## Duplicación de una campaña {#duplicate}
+
+Para duplicar una campaña, por ejemplo, si se ha detenido, use los puntos suspensivos ![imagen que muestra el botón Más acciones](assets/do-not-localize/rule-builder-icon-more.svg) y seleccione **[!UICONTROL Duplicar]**.
+
+Introduzca el nombre de la campaña y confirme.
+
+La campaña se crea y se añade a la lista de campañas.
