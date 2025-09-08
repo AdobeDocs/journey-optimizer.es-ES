@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 57%
+source-wordcount: '265'
+ht-degree: 53%
 
 ---
 
@@ -34,6 +34,13 @@ Los canales disponibles para las campañas activadas por API son correo electró
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
+
+>[!NOTE]
+>
+>Los canales admitidos son: [Correo electrónico](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notificaciones push](../push/get-started-push.md).
+>
+>Los canales disponibles varían en función del modelo de licencia y los complementos.
+
 ## Pasos clave para la creación de campañas activadas por API {#steps}
 
 1. [Definir las propiedades de la campaña](api-triggered-campaign-properties.md)
@@ -52,4 +59,4 @@ Los canales disponibles para las campañas activadas por API son correo electró
 
 Obtenga información sobre cómo crear una campaña y almacenarla en déclencheur desde un sistema externo basado en las interacciones del usuario, mediante la API de REST de ejecución de mensaje interactivo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452728?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

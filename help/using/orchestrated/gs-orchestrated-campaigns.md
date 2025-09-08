@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo empezar con campañas orquestadas
 short-description: Descubra las características clave y los casos de uso de las campañas orquestadas
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 92%
+source-wordcount: '654'
+ht-degree: 89%
 
 ---
 
@@ -48,6 +48,13 @@ Admitir el envío de varios niveles, donde se envía un mensaje por perfil y por
 <tr style="border: 0;">
 <td><img alt="Flujos de trabajo de campañas de varios pasos" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>Flujos de trabajo de campañas de varios pasos</b><br/>Diseñe campañas de varios pasos, desde mensajes diarios hasta campañas complejas como promociones de temporada o lanzamientos de productos importantes.</td></tr>
 </table>
+
+
+>[!NOTE]
+>
+>Los canales admitidos son: [Correo electrónico](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notificaciones push](../push/get-started-push.md).
+>
+>Los canales disponibles varían en función del modelo de licencia y los complementos.
 
 ## Campañas y recorridos orquestados
 

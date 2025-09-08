@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 35%
+source-wordcount: '816'
+ht-degree: 34%
 
 ---
 
@@ -21,13 +21,18 @@ ht-degree: 35%
 
 Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de canal para el mensaje y configure ajustes adicionales como seguimiento, experimento de contenido o contenido multilingüe.
 
+
+
 1. **Elige el canal**
 
    Vaya a la pestaña **[!UICONTROL Acciones]**, haga clic en el botón **[!UICONTROL Agregar acción]** y seleccione el canal de comunicación.
 
    ![](assets/create-campaign-add-action.png)
 
+
    >[!NOTE]
+   >
+   >Los canales admitidos son: [correo electrónico](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [notificaciones push](../push/get-started-push.md), [WhatsApp](../whatsapp/get-started-whatsapp.md), [LINE](../line/get-started-line.md), [correo directo](../direct-mail/get-started-direct-mail.md), [en la aplicación](../in-app/get-started-in-app.md), [web](../web/get-started-web.md), [experiencias basadas en código](../code-based/get-started-code-based.md).
    >
    >Los canales disponibles varían en función del modelo de licencia y los complementos.
 
@@ -73,7 +78,7 @@ El modo de envío rápido es un complemento de [!DNL Journey Optimizer] que perm
 
 +++**Asignar puntuaciones de prioridad** (web, en la aplicación, basado en código)
 
-Asignar una puntuación de prioridad a la campaña le permite priorizar una campaña entrante cuando hay una restricción impuesta, como un límite de frecuencia. Introduzca un valor numérico (de 0 a 100). Tenga en cuenta que, cuanto mayor sea el número, mayor será la prioridad. [Aprenda a asignar puntuaciones de prioridad a recorridos y campañas](../conflict-prioritization/priority-scores.md)
+Asignar una puntuación de prioridad a la campaña le permite priorizar una campaña entrante cuando hay una restricción impuesta, como un límite de frecuencia. Introduzca un valor numérico (de 0 a 100). Tenga en cuenta que, cuanto mayor sea el número, también lo será la prioridad. [Aprenda a asignar puntuaciones de prioridad a recorridos y campañas](../conflict-prioritization/priority-scores.md)
 
 +++
 
