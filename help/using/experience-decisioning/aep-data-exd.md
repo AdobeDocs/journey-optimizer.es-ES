@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
+source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1161'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
 >title="Búsqueda del conjunto de datos"
->abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
+>abstract="Para utilizar atributos de Adobe Experience Platform para la toma de decisiones, debe crear una asignación para definir cómo se une el conjunto de datos de Adobe Experience Platform con los datos de [!DNL Journey Optimizer]."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
