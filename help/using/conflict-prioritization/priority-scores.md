@@ -7,7 +7,7 @@ exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 17%
+ht-degree: 34%
 
 ---
 
@@ -24,12 +24,12 @@ En situaciones en las que un cliente cumple los requisitos para muchos recorrido
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Prioridad"
->abstract="Asigne una puntuación de prioridad a la campaña. La prioridad es esencial para priorizar una campaña cuando hay una restricción impuesta, como un límite de frecuencia.</br>Escriba un valor numérico (de 0 a 100). Tenga en cuenta que, cuanto mayor sea el número, mayor será la prioridad. En situaciones en las que dos campañas tienen la misma puntuación de prioridad, se muestra la campaña que se activó primero."
+>abstract="Asigne una puntuación de prioridad a la campaña. La prioridad es esencial para dar prioridad a una campaña cuando hay una restricción impuesta, como un límite de frecuencia.</br>Introduzca un valor numérico (de 0 a 100). Tenga en cuenta que, cuanto mayor sea el número, también lo será la prioridad. En situaciones en las que dos campañas tienen la misma puntuación de prioridad, se muestra la campaña que se activó primero."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioridad"
->abstract="Asigne una puntuación de prioridad al recorrido. La prioridad es esencial para priorizar un recorrido cuando hay una restricción impuesta, como un límite de frecuencia.</br>Escriba un valor numérico (de 0 a 100). Tenga en cuenta que, cuanto mayor sea el número, mayor será la prioridad. En situaciones en las que dos recorridos tienen la misma puntuación de prioridad, se muestra el recorrido que se activó primero."
+>abstract="Asigne una puntuación de prioridad al recorrido. La prioridad es esencial para dar prioridad a un recorrido cuando hay una restricción impuesta, como un límite de frecuencia.</br>Introduzca un valor numérico (de 0 a 100). Tenga en cuenta que, cuanto mayor sea el número, también lo será la prioridad. En situaciones en las que dos recorridos tienen la misma puntuación de prioridad, se muestra el recorrido que se activó primero."
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
@@ -54,7 +54,7 @@ Si fuera el autor de esta campaña y quisiera asegurarse de que se muestra su co
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_priority"
 >title="Prioridad"
->abstract="Asigne una puntuación de prioridad a la acción de recorrido. La prioridad es esencial para priorizar una acción entrante cuando hay varias acciones de recorrido o campañas que utilizan la misma configuración de canal.</br>Escriba un valor numérico (de 0 a 100). Tenga en cuenta que, cuanto mayor sea el número, mayor será la prioridad. De forma predeterminada, la puntuación de prioridad de la acción se hereda de la puntuación de prioridad general del recorrido."
+>abstract="Asigne una puntuación de prioridad a la acción del recorrido. La prioridad es esencial para priorizar una acción entrante cuando hay varias acciones de recorrido o campañas que utilizan la misma configuración de canal.</br>Introduzca un valor numérico (de 0 a 100). Tenga en cuenta que, cuanto mayor sea el número, también lo será la prioridad. De forma predeterminada, la puntuación de prioridad de la acción se hereda de la puntuación de prioridad general del recorrido."
 
 Journey Optimizer también le permite asignar una puntuación de prioridad a las acciones del canal entrante dentro de la actividad **[!UICONTROL Action]**.
 
@@ -72,4 +72,4 @@ Para asignar una puntuación de prioridad a las acciones entrantes definidas en 
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445004?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

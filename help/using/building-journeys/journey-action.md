@@ -13,16 +13,16 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 9%
+ht-degree: 15%
 
 ---
 
-# Uso de la actividad de acción {#add-a-message-in-a-journey}
+# Uso de la actividad Acción {#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
->title="Actividad de acción"
->abstract="La actividad genérica **Action** le permite configurar una sola acción de canal nativo y varias actividades entrantes con la capacidad de agregar optimización a cualquier acción de canal integrada."
+>title="Actividad Acción"
+>abstract="La actividad genérica **Acción** le permite configurar una sola acción de canal nativo y varias actividades entrantes con la capacidad de añadir la optimización a cualquier acción de canal integrada."
 
 >[!AVAILABILITY]
 >

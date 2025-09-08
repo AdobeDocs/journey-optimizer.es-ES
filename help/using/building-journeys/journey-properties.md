@@ -265,7 +265,7 @@ Para obtener más información sobre las políticas de combinación, consulte [D
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="Criterios de salida"
->abstract="En esta sección se muestran las opciones de criterios de salida. Puede crear uno o varios filtros y reglas de criterios de salida para el recorrido."
+>abstract="En esta sección se muestran las opciones de criterios de salida. Puede crear una o varias reglas y filtros de criterios de salida para el recorrido."
 
 ### Recorrido Criterios de salida {#exit-criteria-desc}
 

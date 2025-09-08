@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Optimización de actividad
+title: Actividad Optimizar
 description: Descubra más información sobre la actividad Optimizar
 feature: Journeys, Activities
 topic: Content Management
@@ -14,16 +14,16 @@ version: Journey Orchestration
 source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
 source-wordcount: '1220'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# Optimización de actividad {#journey-path-optimization}
+# Actividad Optimizar {#journey-path-optimization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
->title="Optimización de actividad"
->abstract="La actividad **Optimizar** le permite definir el progreso de las personas en su recorrido mediante la creación de varias rutas basadas en criterios específicos, incluida la experimentación, el direccionamiento y las condiciones específicas."
+>title="Actividad Optimizar"
+>abstract="La actividad **Optimizar** le permite definir cómo progresan los individuos a través de su recorrido creando múltiples rutas basadas en criterios específicos, incluida la experimentación, la segmentación y condiciones específicas."
 
 >[!AVAILABILITY]
 >

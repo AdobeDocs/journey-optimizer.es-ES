@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="Control de velocidad"
+>title="Control de tasa"
 >abstract="Defina el Control de tasa para su campaña especificando los límites de tasa deseados. Esta función es especialmente útil para evitar sobrecargas en sistemas descendentes, como páginas de aterrizaje o plataformas de servicio de atención al cliente."
 
 >[!CONTEXTUALHELP]
@@ -129,7 +129,7 @@ El usuario debería recibir entonces un correo electrónico que le redirija a su
 
 ### Público
 
-Los públicos deben estar disponibles antes de crear la campaña. [Introducción a las audiencias](../audience/about-audiences.md).
+Los públicos deben estar disponibles antes de crear la campaña. [Introducción a los públicos](../audience/about-audiences.md).
 
 ### Configuración de canal
 
