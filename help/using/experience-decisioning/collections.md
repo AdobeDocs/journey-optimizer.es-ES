@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7ecabe24cfb7e81e6760c9841c97353921c374bb
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 48%
+source-wordcount: '518'
+ht-degree: 36%
 
 ---
 
@@ -43,7 +43,16 @@ Para crear una colección, siga estos pasos:
 1. Añada una o varias reglas para determinar los elementos que se incluirán en la colección. Para ello, haga lo siguiente:
 
    1. Elija un atributo de elemento para utilizarlo como criterio. La lista de atributos incluye todos los atributos estándar y personalizados definidos en el esquema del catálogo. [Más información sobre el catálogo de artículos](catalogs.md)
-   1. Seleccione el operador deseado e introduzca el valor por el que filtrar.
+   1. Seleccione el operador deseado e introduzca el valor por el que filtrar. Especifique cada nombre de oferta explícitamente o cree y asigne una etiqueta &quot;luma-verano&quot; a cada oferta.
+
+      >[!NOTE]
+      >
+      >El operador **CONTAINS** no admite coincidencias parciales o comodín. Funciona como un operador **IN**, lo que significa que debe proporcionar una matriz de valores exactos para el atributo.
+      >
+      >Por ejemplo, supongamos que tiene varias ofertas de verano que desea incluir en una colección: *&quot;luma-verano-yoga&quot;*, *&quot;luma-verano-fitness&quot;* y *&quot;luma-verano-running&quot;*. Para incluir estos elementos, debe definir una regla como &quot;Nombre de oferta&quot; CONTIENE &quot;luma-verano-yoga&quot;, &quot;luma-verano-fitness&quot;, &quot;luma-verano-running&quot;. Esta regla devuelve solo las ofertas que coinciden exactamente con uno de los nombres de la lista.
+      >
+      >Si necesita coincidencia parcial (por ejemplo, todas las ofertas que contienen *&quot;luma-Summer&quot;*), actualmente no se admite. Debe especificar cada nombre de oferta explícitamente o asignar una etiqueta *&quot;luma-Summer&quot;* a cada oferta y usar esa etiqueta en la regla.
+
    1. Repita estos pasos para agregar tantas reglas como sea necesario. Cuando se agregan varias reglas, puede elegir entre los operadores **And** y **Or** para combinarlas. Para ello, haga clic en el distintivo del operador para cambiar entre las dos opciones.
    1. Haga clic en el botón **[!UICONTROL Vista previa de la colección]** para mostrar los elementos que cumplen las reglas que ha definido.
 
