@@ -10,24 +10,39 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 825cffb38c366a7a93cd58da9d2439ff530c60e9
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 19%
+source-wordcount: '1132'
+ht-degree: 7%
 
 ---
 
 # Uso de datos de Adobe Experience Platform para decisiones {#aep-data}
 
 >[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset"
+>title="Búsqueda del conjunto de datos
+>abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset_create"
+>title="Búsqueda del conjunto de datos"
+>abstract="Seleccione el conjunto de datos con los atributos que necesita entre todos los conjuntos de datos de Adobe Experience Platform que se han habilitado para la búsqueda y, a continuación, seleccione una clave de asignación (por ejemplo, número de vuelo o ID de cliente) que exista tanto en los atributos del elemento de decisión como en el conjunto de datos.&quot;
+
+>[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="Búsqueda de conjuntos de datos"
->abstract="El uso de datos de Adobe Experience Platform en las reglas de decisión permite definir criterios de idoneidad basados en atributos dinámicos, externos, lo que garantiza que los elementos de decisión solo se muestren cuando corresponda. Cree una asignación para definir cómo se une el conjunto de datos de Adobe Experience Platform con los datos de [!DNL Journey Optimizer]. Seleccione el conjunto de datos con los atributos que necesita y elija una clave de unión que exista tanto en los atributos del elemento de decisión como en el conjunto de datos."
+>abstract="Seleccione el conjunto de datos de Adobe Experience Platform con los atributos que necesite. Si el conjunto de datos no se muestra en la lista, asegúrese de que lo ha habilitado para la búsqueda y de que ha creado una asignación de búsqueda de conjunto de datos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="Búsqueda de conjuntos de datos"
->abstract="Las fórmulas de clasificación definen la prioridad de los elementos de decisión. Mediante atributos del conjunto de datos de [!DNL Adobe Experience Platform], puede ajustar dinámicamente la lógica de clasificación para reflejar las condiciones reales. Cree una asignación para definir cómo se une el conjunto de datos de Adobe Experience Platform con los datos de [!DNL Journey Optimizer]. Seleccione el conjunto de datos con los atributos que necesita y elija una clave de unión que exista tanto en los atributos del elemento de decisión como en el conjunto de datos"
+>abstract="Utilice los atributos de conjuntos de datos [!DNL Adobe Experience Platform] para ajustar dinámicamente la lógica de clasificación a fin de reflejar las condiciones reales. Haga clic en **[!UICONTROL Agregar conjunto de datos]** para seleccionar el conjunto de datos de Adobe Experience Platform con los atributos que necesita. Si el conjunto de datos no se muestra en la lista, asegúrese de que lo ha habilitado para la búsqueda y de que ha creado una asignación de búsqueda de conjunto de datos."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_dataset"
+>title="Añadir conjunto de datos&quot;
+>abstract="Use los atributos de conjuntos de datos [!DNL Adobe Experience Platform] para definir criterios de límite basados en atributos externos dinámicos. Haga clic en **[!UICONTROL Agregar conjunto de datos]** para seleccionar el conjunto de datos de Adobe Experience Platform con los atributos que necesita. Si el conjunto de datos no se muestra en la lista, asegúrese de que lo ha habilitado para la búsqueda y de que ha creado una asignación de búsqueda de conjunto de datos.&quot;
 
 >[!AVAILABILITY]
 >
@@ -55,7 +70,7 @@ Para utilizar atributos de Adobe Experience Platform para la toma de decisiones,
 
 1. Configure la asignación:
 
-   1. Haga clic en **[!UICONTROL Seleccionar conjunto de datos]** para mostrar todos los Adobe Experience Platform que se han habilitado para la búsqueda. Seleccione el conjunto de datos con los atributos que necesite.
+   1. Haga clic en **[!UICONTROL Seleccionar conjunto de datos]** para mostrar todos los conjuntos de datos de Adobe Experience Platform que se han habilitado para la búsqueda. Seleccione el conjunto de datos con los atributos que necesite.
 
    1. Haga clic en **[!UICONTROL Seleccionar clave]** para elegir una clave de unión (por ejemplo, número de vuelo o ID de cliente) que exista tanto en los atributos del elemento de decisión como en el conjunto de datos.
 
