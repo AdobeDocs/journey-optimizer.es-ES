@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d07d4c2001bd9e9d08539788073757bc1034c9ec
+source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 89%
+source-wordcount: '809'
+ht-degree: 69%
 
 ---
 
@@ -62,21 +62,21 @@ Utilice las campañas de Journey Optimizer para ofrecer contenido único a un p�
 
 ![](assets/gs-campaigns.png)
 
-Puede crear diferentes tipos de campañas en Journey Optimizer:
+Puede crear diferentes tipos de campañas en Journey Optimizer. Los canales admitidos y los casos de uso varían según el tipo de campaña. Estos tipos se enumeran a continuación.
 
 * **Campañas de acción**
 
-  Las campañas de acción (o campañas programadas) permiten comunicaciones por lotes ad-hoc sencillas para casos de uso de marketing, como ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de políticas.
+  Las campañas de acción (o campañas programadas) permiten comunicaciones por lotes ad hoc sencillas para casos de uso de marketing como ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de directivas. Obtenga más información acerca de las capacidades de las campañas de acción, los casos de uso y los canales admitidos [en esta página](create-campaign.md).
 
 * **Campañas activadas mediante API**
 
-  Las campañas activadas por API permiten que las comunicaciones de marketing lleguen a un público en el momento adecuado o que los mensajes transaccionales/operativos lleguen a una persona, como un restablecimiento de contraseña. Este acto puede implicar una personalización no solo mediante el uso del atributo de perfil, sino también mediante los datos de contexto en tiempo real en el activador, que es una carga útil de API de REST.
+  Las campañas activadas por API permiten que las comunicaciones de marketing lleguen a una audiencia en el momento adecuado o que los mensajes transaccionales/operacionales lleguen a una persona, como un restablecimiento de contraseña, donde la necesidad puede implicar personalización no solo mediante el uso de atributos de perfil, sino también mediante los datos de contexto en tiempo real en la déclencheur, que es una carga útil de API de REST. Obtenga más información acerca de las funcionalidades de las campañas activadas por API, los casos de uso y los canales compatibles [en esta página](api-triggered-campaigns.md).
 
 * **Campañas orquestadas**
 
   La orquestación de campañas en Adobe Journey Optimizer impulsa campañas de marketing sofisticadas iniciadas por la marca en todos los canales, lo que le ayuda a fomentar la participación, los ingresos y la lealtad de los clientes a escala.
 
-  Aunque el marketing de múltiples canales es esencial, las campañas orquestadas lo hacen fluido. Con una interfaz visual de arrastrar y soltar, puede diseñar y automatizar flujos de trabajo de marketing complejos, desde la segmentación hasta el envío de mensajes, en varios canales. Todo sucede en un entorno intuitivo, creado para ofrecer velocidad, control y eficacia.
+  Aunque el marketing de múltiples canales es esencial, las campañas orquestadas lo hacen fluido. Con una interfaz visual de arrastrar y soltar, puede diseñar y automatizar flujos de trabajo de marketing complejos, desde la segmentación hasta el envío de mensajes, en varios canales. Todo sucede en un entorno intuitivo, creado para la velocidad, el control y la eficacia. Obtenga más información acerca de las funcionalidades de las campañas orquestadas, los casos de uso y los canales compatibles [en esta página](../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Requisitos previos {#prerequisites}
 
