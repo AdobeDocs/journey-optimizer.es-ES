@@ -4,23 +4,17 @@ product: Journey Optimizer
 title: Canal de correo electrónico
 description: Canal de correo electrónico
 redpen-status: CREATED_||_2025-08-11_20-35-15
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
+exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
+source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 32%
+source-wordcount: '333'
+ht-degree: 27%
 
 ---
 
-
 # Canal de correo electrónico{#section-overview}
 
-El canal de correo electrónico de Adobe Journey Optimizer le permite diseñar, configurar y ofrecer campañas de correo electrónico impactantes con precisión y creatividad. Tanto si está creando mensajes personalizados con la intuitiva Designer de correo electrónico, configurando sofisticados recorridos de correo electrónico y campañas, como si está administrando las exclusiones para cumplir con las normas, este canal reúne todos los aspectos del marketing por correo electrónico en un solo canal. Comience por configurar el canal de correo electrónico para una entrega y personalización óptimas y, a continuación, explore las herramientas para crear contenido dinámico que resuene con su audiencia. Profundice en temas avanzados como administrar la reputación del remitente y lograr que DMARC cumpla con las normas para garantizar que los correos electrónicos aterrizan donde están destinados. Desde una configuración perfecta hasta un diseño eficaz y una entrega estratégica, el canal de correo electrónico le permite transformar su marketing por correo electrónico en un motor fiable basado en datos para la participación de los clientes.
-
-
->[!CONTEXTUALHELP]
->id="ajo_homepage_card4"
->title="Diseño de correos electrónicos"
->abstract="Utilice **Adobe Journey Optimizer** para enviar mensajes de correo electrónico a sus clientes. Puede crear, personalizar y previsualizar mensajes en el Diseñador de correo electrónico."
+El canal de correo electrónico de Adobe Journey Optimizer le permite diseñar, configurar y ofrecer campañas de correo electrónico impactantes con precisión y creatividad. Ya sea que esté creando mensajes personalizados con la intuitiva Designer de correo electrónico, configurando sofisticados recorridos de correo electrónico y campañas, o administrando las exclusiones para cumplir con las normas, este canal reúne todos los aspectos del marketing por correo electrónico en un solo canal. Comience por configurar el canal de correo electrónico para una entrega y personalización óptimas y, a continuación, explore las herramientas para crear contenido dinámico que resuene con su audiencia. Profundice en temas avanzados como administrar la reputación del remitente y lograr que DMARC cumpla con las normas para garantizar que los correos electrónicos aterrizan donde están destinados. Desde una configuración perfecta hasta un diseño eficaz y una entrega estratégica, el canal de correo electrónico le permite transformar su marketing por correo electrónico en un motor fiable basado en datos para la participación de los clientes.
 
 Se pueden crear envíos de correo electrónico:
 
@@ -38,7 +32,7 @@ Se pueden crear envíos de correo electrónico:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Cómo crear un correo electrónico
 
@@ -48,7 +42,7 @@ Guía paso a paso para agregar, configurar y probar acciones de correo electrón
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Diseño y optimización del contenido del correo electrónico
 
@@ -58,7 +52,7 @@ Explore herramientas y prácticas recomendadas para diseñar contenido de correo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Administrar la exclusión de correo electrónico
 
@@ -68,7 +62,7 @@ Configure mecanismos de exclusión de un clic o dos pasos para administrar las p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar canal de correo electrónico
 
@@ -78,7 +72,7 @@ Configure y administre configuraciones de correo electrónico como delegación d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Dominio de Entregas de Correo Electrónico
 
