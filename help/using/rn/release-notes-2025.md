@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '5119'
 ht-degree: 100%
@@ -149,7 +149,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
    * **Reorganización del inventario de campañas**: las campañas programadas y activadas por API ahora se dividen en pestañas independientes en el inventario de campañas para facilitar la navegación y la administración.
 
-[Más información](../campaigns/modify-stop-campaign.md)
+[Más información](../campaigns/manage-campaigns.md)
 
 * **Administración de datos**
    * **Actualización del conjuntos de datos del sistema de Gestión de decisiones**: las ofertas personalizadas y de reserva eliminadas ahora se marcan como archivadas en los conjuntos de datos «decision_object_repository_personalized_offers» y «decision_object_repository_fallback_offers». Los registros existentes en el conjunto de datos no cambian.
@@ -372,7 +372,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
    * **Ventana de duración personalizada** para el límite: ahora hay un nuevo campo **Cada** disponible en la pantalla de configuración de conjuntos de reglas de canal, que le permite aplicar reglas de restricción de frecuencia durante varios días, semanas o meses, según la duración especificada.
 
-   * **Frecuencia de restricción de restablecimiento por hora**: ahora puede aplicar una restricción por hora a los conjuntos de reglas de canal. Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Póngase en contacto con el Servicio de atención al cliente para activarlo.
+   * **Frecuencia de restricción de restablecimiento por hora**: ahora puede aplicar una restricción por hora a los conjuntos de reglas de canal. Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Póngase en contacto con el Servicio de atención al cliente para habilitarlo.
 
    * **Duración diaria**: anteriormente disponible en disponibilidad limitada, la restricción de frecuencia “diaria” en los conjuntos de reglas de canal ya está disponible para todos los clientes.
 
@@ -423,7 +423,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <p>Ahora hay disponible una vista de calendario en las listas de recorridos y campañas. Permite visualizar todas las activaciones de recorridos y campañas en las listas respectivas.</p>
 <p>Ahora mismo, esta función solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para solicitar acceso, utilice <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">este formulario</a>.</p>
 <img src="assets/do-not-localize/calendar.gif">
-<p>Para obtener más información, consulte estas secciones: <a href="../building-journeys/journey-ui.md">Examinar y filtrar sus recorridos</a>, <a href="../campaigns/modify-stop-campaign.md">Acceso a campañas</a>.</p>
+<p>Para obtener más información, consulte estas secciones: <a href="../building-journeys/journey-ui.md">Examinar y filtrar sus recorridos</a>, <a href="../campaigns/manage-campaigns.md">Acceso a campañas</a>.</p>
 <p>Fecha de disponibilidad: 28 de mayo de 2025</p>
 </td>
 </tr>
@@ -803,7 +803,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>En el caso de los recorridos programados diariamente, una nueva opción le permite definir un intervalo de tiempo de hasta 6 horas para esperar los datos de audiencia de los trabajos de segmentación por lotes, lo que garantiza que los recorridos se ejecuten con los datos más actualizados o se omitan si no están listos. La opción Activar tras evaluación de público por lotes solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>En el caso de los recorridos programados diariamente, una nueva opción le permite definir un intervalo de tiempo de hasta 6 horas para esperar los datos de público de los trabajos de segmentación por lotes, lo que garantiza que los recorridos se ejecuten con los datos más actualizados o se omitan si no están listos. La opción Activar tras evaluación de público por lotes solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/read-audience.md#schedule">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>

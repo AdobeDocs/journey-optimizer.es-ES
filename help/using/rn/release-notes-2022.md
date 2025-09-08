@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
@@ -60,7 +60,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 **Campañas**
 
-* Ahora puede archivar las campañas completadas y detenidas. [Más información](../campaigns/modify-stop-campaign.md#archive)
+* Ahora puede archivar las campañas completadas y detenidas. [Más información](../campaigns/manage-campaigns.md#archive)
 
 
 ## Versión de septiembre de 2022{#sept-2022-release}
@@ -262,7 +262,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <td>
 <p>Utilice las campañas de Journey Optimizer para ofrecer contenido único a un público específico mediante varios canales. Cuando se utilizan recorridos, las acciones están diseñadas para ejecutarse en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Obtenga información sobre cómo crear una campaña en <a href="../campaigns/get-started-with-campaigns.md">documentación detallada</a> y <a href="https://video.tv.adobe.com/v/3412402?captions=spa">vídeo de funciones</a>.
+<p>Obtenga información sobre cómo crear una campaña en <a href="../campaigns/get-started-with-campaigns.md">documentación detallada</a> y <a href="https://video.tv.adobe.com/v/346680">vídeo de funciones</a>.
 </td>
 </tr>
 </tbody>
@@ -309,7 +309,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 * La tabla y el gráfico de políticas de consentimiento ya están disponibles en los informes globales de Recorrido. Estas utilidades permiten rastrear los perfiles excluidos de las políticas en sus acciones personalizadas. [Más información](../reports/journey-global-report-cja.md#journey-global)
 
-  Para tener acceso a las últimas utilidades, tenga en cuenta que tendrá que restablecer los distintos paneles de creación de informes. Para obtener más información sobre la personalización de tableros, consulte la [documentación detallada](../reports/report-gs-cja.md).
+  Para tener acceso a las últimas utilidades, tenga en cuenta que tendrá que restablecer los distintos paneles de control de creación de informes. Para obtener más información sobre la personalización de tableros, consulte la [documentación detallada](../reports/report-gs-cja.md).
 
 **Administración**
 
@@ -465,7 +465,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tbody>
 <tr>
 <td>
-<p>Ahora puede utilizar la capacidad CCO del correo electrónico (copia de carbón oculta) para almacenar correos electrónicos enviados por Adobe Journey Optimizer. Active esta opción en los ajustes preestablecidos de correo electrónico para que cada correo electrónico enviado se copie de forma oculta en su dirección de CCO.</p>
+<p>Ahora puede utilizar la capacidad CCO del correo electrónico (copia de carbón oculta) para almacenar correos electrónicos enviados por Adobe Journey Optimizer. Habilite esta opción en los ajustes preestablecidos de correo electrónico para que cada correo electrónico enviado se copie de forma oculta en su dirección de CCO.</p>
 <p>Para obtener más información, consulte la <a href="../configuration/archiving-support.md#bcc-email">documentación detallada</a>.</p>
 </td>
 </tr>

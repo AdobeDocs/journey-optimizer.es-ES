@@ -10,7 +10,7 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
@@ -82,7 +82,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 **Campañas**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Cuando se produce un error en una de las campañas, ahora aparece un icono de advertencia en la lista de campañas junto con el estado de la campaña. [Más información](../campaigns/modify-stop-campaign.md#statuses)
+* Cuando se produce un error en una de las campañas, ahora aparece un icono de advertencia en la lista de campañas junto con el estado de la campaña. [Más información](../campaigns/manage-campaigns.md#statuses)
 
 **Recorridos**
 
@@ -339,7 +339,7 @@ A new option is available in the email surface settings to include email address
 <p>Ahora puede crear flujos de trabajo de composición para combinar públicos de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (división, enriquecer) para crear públicos nuevos. Los públicos recién creados se vuelven a guardar en Adobe Experience Platform junto con los públicos existentes y se pueden aprovechar en las campañas de Journey Optimizer para dirigirse a los clientes.</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Para obtener más información, consulte la <a href="../audience/get-started-audience-orchestration.md">documentación detallada</a>.</p>
-<p>La composición de público viene totalmente integrada con el nuevo menú "Audiences" de Adobe Experience Platform, que sirve como portal centralizado para los públicos. Ahora puede utilizar una página de exploración que incluya un nuevo panel con tendencias de segmentos y superposiciones para encontrar nuevos insights y explorar las herramientas organizativas para la carpeta y el etiquetado. Esta experiencia incluye controles de gobernanza para el etiquetado de público estandarizado, así como funciones de administración del ciclo vital de los públicos para administrar los flujos de trabajo de activación. Con esta nueva experiencia de administración, ahora puede administrar públicos de forma fácil y segura desde un solo lugar. Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es" target="_blank">Documentación de Adobe Experience Platform</a>.</p></p>
+<p>La composición de público viene totalmente integrada con el nuevo menú "Audiences" de Adobe Experience Platform, que sirve como portal centralizado para los públicos. Ahora puede utilizar una página de exploración que incluya un nuevo panel de control con tendencias de segmentos y superposiciones para encontrar nuevos insights y explorar las herramientas organizativas para la carpeta y el etiquetado. Esta experiencia incluye controles de gobernanza para el etiquetado de público estandarizado, así como funciones de administración del ciclo vital de los públicos para administrar los flujos de trabajo de activación. Con esta nueva experiencia de administración, ahora puede administrar públicos de forma fácil y segura desde un solo lugar. Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es" target="_blank">Documentación de Adobe Experience Platform</a>.</p></p>
 </td>
 </tr>
 </tbody>
@@ -633,9 +633,9 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Campañas**
 
-* Ahora es posible duplicar una campaña desde la pantalla del inventario utilizando el menú de acción de los tres puntos. [Más información](../campaigns/modify-stop-campaign.md#duplicate)
+* Ahora es posible duplicar una campaña desde la pantalla del inventario utilizando el menú de acción de los tres puntos. [Más información](../campaigns/manage-campaigns.md#duplicate)
 * Ahora puede eliminar borradores de modificaciones en una campaña en directo.
-* Los pasos para activar una campaña se han simplificado. [Más información](../campaigns/modify-stop-campaign.md)
+* Los pasos para activar una campaña se han simplificado. [Más información](../campaigns/manage-campaigns.md)
 
 **Gestión de decisiones**
 
@@ -694,14 +694,14 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <table>
 <thead>
 <tr>
-<th><strong>Nuevo tablero de recorrido (Beta)</strong><br/></th>
+<th><strong>Nuevo panel de control de recorrido (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> El tablero de recorrido ahora se divide en dos pestañas:</p>
-<ul><li>Utilice la pestaña <strong>Información general</strong> para acceder a un nuevo tablero que muestra métricas clave relacionadas con sus recorridos.</li>
+<p> El panel de control de recorrido ahora se divide en dos pestañas:</p>
+<ul><li>Utilice la pestaña <strong>Información general</strong> para acceder a un nuevo panel de control que muestra métricas clave relacionadas con sus recorridos.</li>
 <li>Utilice la pestaña <strong>Examinar</strong> para acceder a la lista de todos los recorridos.</li></ul>
 <p>Se puede acceder a esta funcionalidad en todos los recorridos como una versión beta pública.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
@@ -825,7 +825,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * La funcionalidad del widget de creación de informes se ha mejorado con la capacidad de personalizar la forma en que los usuarios ven sus datos. Con esta mejora, los usuarios ahora pueden elegir entre varias opciones de visualización, incluidos gráficos, tablas y gráficos circulares.
 
-  Para tener acceso a las últimas utilidades, tenga en cuenta que tendrá que restablecer los distintos paneles de creación de informes. Para obtener más información sobre la personalización de tableros, consulte la [documentación detallada](../reports/report-gs-cja.md).
+  Para tener acceso a las últimas utilidades, tenga en cuenta que tendrá que restablecer los distintos paneles de control de creación de informes. Para obtener más información sobre la personalización de tableros, consulte la [documentación detallada](../reports/report-gs-cja.md).
 
 ## Versión de febrero de 2023 {#feb-2023}
 
