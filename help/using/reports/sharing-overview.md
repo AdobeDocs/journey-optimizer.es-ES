@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '518'
 ht-degree: 4%
 
 ---
@@ -38,7 +38,7 @@ La lista de campos XDM que se pasan es completa. Algunos contienen códigos gene
 >
 >Los conjuntos de datos no se pueden activar para el servicio de perfil en tiempo real. Asegúrese de que la opción **[!UICONTROL Perfil]** esté desactivada.
 
-[!DNL Journey Optimizer] envía datos a medida que se producen, de forma de flujo continuo. Puede consultar estos datos mediante el servicio de consultas. Puede conectarse a Customer Journey Analytics u otras herramientas de BI para ver los datos relacionados con estos pasos.
+[!DNL Journey Optimizer] envía datos a medida que se producen, en flujo continuo. Puede consultar estos datos mediante el servicio de consultas. Puede conectarse a Customer Journey Analytics u otras herramientas de BI para ver los datos relacionados con estos pasos.
 
 Se crean los siguientes esquemas:
 
@@ -69,6 +69,6 @@ El flujo de trabajo general es:
 
 * [!DNL Customer Journey Analytics] ingiere el conjunto de datos &quot;Evento de paso de Recorrido&quot;.
 * El campo **profileID** del &quot;esquema de evento de paso de Recorrido para Journey Orchestration&quot; asociado se define como un campo de identidad. En [!DNL Customer Journey Analytics], puede vincular este conjunto de datos a cualquier otro conjunto de datos que tenga el mismo valor que el identificador basado en personas.
-* Para usar este conjunto de datos en [!DNL Customer Journey Analytics], para el análisis de recorrido entre canales, consulte [Documentación de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=es){target="_blank"}.
+* Para usar este conjunto de datos en [!DNL Customer Journey Analytics], para el análisis de recorrido entre canales, consulte [Documentación de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
 ➡️ [Trabajar con Customer Journey Analytics](cja-ajo.md){target="_blank"}

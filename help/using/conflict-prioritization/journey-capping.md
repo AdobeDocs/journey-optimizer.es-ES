@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear reglas de límite para los r
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '911'
 ht-degree: 19%
 
 ---
@@ -113,8 +113,8 @@ Una vez que un recorrido está activo, puede registrar en el informe de recorrid
 
 ![](assets/journey-report.png)
 
-Además, también puede aprovechar Adobe Experience Platform **Query service** para generar consultas a fin de identificar qué regla impidió que un perfil entrara en un recorrido determinado. Hay un ejemplo de consulta disponible en [esta sección](../reports/query-examples.md#common-queries).
+Además, puede usar [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para generar consultas a fin de identificar qué regla impidió que un perfil entrara en un recorrido determinado. Hay un ejemplo de consulta disponible en [esta sección](../reports/query-examples.md#common-queries).
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447617?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

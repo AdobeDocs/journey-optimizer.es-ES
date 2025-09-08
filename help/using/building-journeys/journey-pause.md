@@ -9,9 +9,9 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2429'
 ht-degree: 6%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 6%
 >abstract="Pause un recorrido activo para evitar que entren nuevos perfiles. Pause un recorrido activo para evitar que entren nuevos perfiles. Si se conservan, se reanudará su ejecución en la siguiente actividad de acción una vez que se reinicie el recorrido. Es perfecto para actualizaciones o paradas de emergencia sin perder progreso."
 
 Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puede [aplicar criterios de salida de atributo de perfil](#journey-exit-criteria) para excluir perfiles en función de sus atributos. El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
-
-
 
 ## Ventajas principales {#journey-pause-benefits}
 
@@ -91,6 +89,9 @@ Cuando un recorrido está en pausa, la administración de perfiles y la ejecuci�
 | [Actualizar perfil](update-profiles.md) y [Saltar](jump.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
 | [Source de datos externos](../datasource/external-data-sources.md) | Mismo comportamiento que en un recorrido activo |
 | [Criterios de salida](journey-properties.md#exit-criteria) | Mismo comportamiento que en un recorrido activo |
+
+
+Aprenda a solucionar problemas de descartes en [esta sección](#discards-troubleshoot).
 
 ## Cómo reanudar un recorrido en pausa {#journey-resume-steps}
 
@@ -195,3 +196,50 @@ Cuando reanude este recorrido:
 
 1. Las nuevas entradas al recorrido comienzan en un minuto.
 1. Los perfiles que estaban esperando en el recorrido en las actividades **Action** se reanudan a una velocidad de 5.000 tps. Luego pueden ingresar la **Acción** que estaban esperando y continuar con el recorrido.
+
+## Solución de problemas de descartes de perfiles en recorridos pausados  {#discards-troubleshoot}
+
+Puede usar el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
+
+* Para los descartes que se producen antes de que el perfil entre en la recorrido, utilice el siguiente código:
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'PAUSED_JOURNEY_VERSION'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId>  
+  ```
+
+  Esto enumerará los descartes que se produjeron en el punto de entrada del recorrido:
+
+   1. Cuando se está ejecutando un recorrido de audiencia y el primer nodo aún se está procesando, si el recorrido está en pausa, se descartan todos los perfiles no procesados.
+
+   1. Cuando llega un nuevo evento unitario para el nodo de inicio (para almacenar en déclencheur una entrada) mientras el recorrido está en pausa, el evento se descarta.
+
+* Para los descartes que se producen cuando el perfil ya está en la recorrido, utilice el siguiente código:
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'JOURNEY_IN_PAUSED_STATE'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId> 
+  ```
+
+  Este comando enumera los descartes que se producen cuando los perfiles están en un recorrido:
+
+   1. Si el recorrido está en pausa con la opción de descarte activada y ya se ha introducido un perfil antes de la pausa, ese perfil se descarta cuando llega al siguiente nodo de acción.
+
+   1. Si el recorrido se ha pausado con la opción de retención seleccionada, pero los perfiles se descartaron debido a que se superó la cuota de 10 millones, esos perfiles se descartarán cuando lleguen al siguiente nodo de acción.
+
+
+
