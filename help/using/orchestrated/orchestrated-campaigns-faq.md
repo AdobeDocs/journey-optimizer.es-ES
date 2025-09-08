@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: a72ad0289df18df123832c5b83c301e539ebce60
+source-git-commit: 9d1e9f22c7841f9d17e857f652d94dbd6a068c06
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1102'
 ht-degree: 4%
 
 ---
@@ -71,12 +71,12 @@ Puede crear campañas organizadas para enviar **correos electrónicos**, **SMS**
 
 ## ¿En qué se diferencian las campañas orquestadas de los Recorridos? {#oc-vs-journeys}
 
-* **Campañas orquestadas**: lo mejor para **campañas en lotes, de uno a varios**. Audiencias completas se mueven juntas por el lienzo de la campaña.
+* **Campañas orquestadas**: lo mejor para **campañas en lotes, de uno a varios**. Las audiencias progresan de forma masiva, según una programación.
 * **Recorridos**: lo mejor para una participación de **uno a uno** en tiempo real. Cada cliente avanza por el recorrido a su propio ritmo, activado por comportamientos o eventos.
 
 >[!BEGINSHADEBOX]
 
-**Sugerencia** - Muchas organizaciones usan **ambos juntos**—Recorridos para experiencias activadas, reactivas y campañas organizadas para iniciativas planificadas y basadas en calendarios.
+**Práctica recomendada**: Úsalos juntos: Recorridos para experiencias activadas, reactivas y campañas organizadas para iniciativas planificadas y basadas en calendarios.
 
 >[!ENDSHADEBOX]
 
@@ -160,7 +160,7 @@ En Campaign Orchestration, nos referimos a la segmentación ad hoc como &quot;Se
 
 ## ¿Admite esto la toma de decisiones? {#decisioning}
 
-Actualmente, la toma de decisiones no utiliza datos relacionales de campañas orquestadas.
+Sí. Decisioning puede utilizar datos relacionales de campañas orquestadas. Una vez que el esquema relacional se ha conectado con esquemas XDM, los datos XDM se pueden utilizar en la toma de decisiones.
 
 ## ¿Cómo funciona la implementación en todos los entornos? {#deployment}
 
