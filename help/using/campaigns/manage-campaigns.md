@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
 workflow-type: tm+mt
-source-wordcount: '1742'
-ht-degree: 16%
+source-wordcount: '1772'
+ht-degree: 15%
 
 ---
 
@@ -23,7 +23,7 @@ Antes de comenzar con las campañas, compruebe los siguientes requisitos previos
 
 * **Campañas de acceso**. Puede acceder a las campañas desde la [lista de campañas](#access) o desde el [calendario de campañas](#calendar).
 
-* **Crear la campaña**. Los pasos de creación dependen del [tipo de campaña](get-started-with-campaigns.md#get-started-with-campaigns) que cree. Aprenda a crear una [campaña de acción](../campaigns/create-campaign.md), una [campaña desencadenada por API](../campaigns/api-triggered-campaigns.md) o una [campaña orquestada](../orchestrated/create-orchestrated-campaign.md).
+* **Crear la campaña**. Los pasos de creación dependen del [tipo de campaña](get-started-with-campaigns.md#get-started-with-campaigns). Aprenda a crear una [campaña de acción](../campaigns/create-campaign.md), una [campaña desencadenada por API](../campaigns/api-triggered-campaigns.md) o una [campaña orquestada](../orchestrated/create-orchestrated-campaign.md).
 
 * **Defina las propiedades de la campaña**. Aprenda a establecer propiedades para una [campaña de acción](../campaigns/campaign-properties.md), para una [campaña desencadenada por API](../campaigns/api-triggered-campaign-properties.md) o para una [campaña orquestada](../orchestrated/create-orchestrated-campaign.md).
 
@@ -53,7 +53,7 @@ Ver todos los estados de campaña y las alertas [en esta sección](#statuses).
 >title="Acción"
 >abstract="Esta sección enumera todas las acciones utilizadas dentro de la campaña orquestada."
 
-Se puede acceder a las campañas desde el menú **[!UICONTROL Campañas]**.
+Se puede acceder a las campañas desde el menú **[!UICONTROL Campañas]**. Utilice las fichas para examinar las campañas, por tipo: **Campañas de acción**, **campañas activadas por API** y **orquestadas**. Más información sobre el [tipo de campaña](get-started-with-campaigns.md#get-started-with-campaigns). Los tipos disponibles dependen del acuerdo de licencia y de los permisos.
 
 >[!BEGINTABS]
 
