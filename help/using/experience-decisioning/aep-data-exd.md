@@ -21,13 +21,13 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
->title="Búsqueda del conjunto de datos
+>title="Búsqueda del conjunto de datos"
 >abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="Búsqueda del conjunto de datos"
->abstract="Seleccione el conjunto de datos con los atributos que necesita entre todos los conjuntos de datos de Adobe Experience Platform que se han habilitado para la búsqueda y, a continuación, seleccione una clave de asignación (por ejemplo, número de vuelo o ID de cliente) que exista tanto en los atributos del elemento de decisión como en el conjunto de datos.&quot;
+>abstract="Seleccione el conjunto de datos con los atributos que necesita entre todos los conjuntos de datos de Adobe Experience Platform que se han habilitado para la búsqueda y, a continuación, seleccione una clave de asignación (por ejemplo, número de vuelo o ID de cliente) que exista tanto en los atributos del elemento de decisión como en el conjunto de datos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -41,8 +41,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
->title="Añadir conjunto de datos&quot;
->abstract="Use los atributos de conjuntos de datos [!DNL Adobe Experience Platform] para definir criterios de límite basados en atributos externos dinámicos. Haga clic en **[!UICONTROL Agregar conjunto de datos]** para seleccionar el conjunto de datos de Adobe Experience Platform con los atributos que necesita. Si el conjunto de datos no se muestra en la lista, asegúrese de que lo ha habilitado para la búsqueda y de que ha creado una asignación de búsqueda de conjunto de datos.&quot;
+>title="Añadir conjunto de datos"
+>abstract="Use los atributos de conjuntos de datos [!DNL Adobe Experience Platform] para definir criterios de límite basados en atributos externos dinámicos. Haga clic en **[!UICONTROL Agregar conjunto de datos]** para seleccionar el conjunto de datos de Adobe Experience Platform con los atributos que necesita. Si el conjunto de datos no se muestra en la lista, asegúrese de que lo ha habilitado para la búsqueda y de que ha creado una asignación de búsqueda de conjunto de datos."
 
 >[!AVAILABILITY]
 >
