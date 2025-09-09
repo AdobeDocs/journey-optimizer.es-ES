@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 67%
+ht-degree: 90%
 
 ---
 
@@ -226,7 +226,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <p>Journey Optimizer admite una nueva actividad de acción genérica que permite configurar acciones únicas y grupos de acciones entrantes de acciones múltiples, lo que permite una configuración de acciones optimizada dentro del lienzo de recorrido. En particular, esta nueva función permite lo siguiente:</p>
 <ul>
 <li>Una configuración de acción nativa simplificada dentro del lienzo de recorrido.</li>
-<li>Capacidad para crear grupos de acciones entrantes de varias acciones.</li>
+<li>La capacidad para crear grupos de acciones entrantes de varias acciones.</li>
 <li>Capacidad de añadir optimización a cualquier acción de canal integrada.</li>
 <li>Capacidad de añadir opciones de experimentación y multilingües a cualquier acción.</li>
 </ul>
@@ -291,18 +291,18 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora, Journey Optimizer le ofrece las herramientas necesarias para ofrecer contenido personalizado y optimizado a su audiencia, lo que le permite ejecutar experimentos de contenido, crear objetivos basados en reglas y utilizar combinaciones avanzadas de ambos, para maximizar la eficacia de sus campañas y recorridos.</p>
+<p>Ahora, Journey Optimizer le ofrece las herramientas necesarias para ofrecer contenido personalizado y optimizado a su público, lo que le permite ejecutar experimentos de contenido, crear segmentación basada en reglas y utilizar combinaciones avanzadas de ambos para maximizar la eficacia de sus campañas y recorridos.</p>
 <p>Con Optimization, puede:</p>
 <ul>
 <li>Probar múltiples variaciones de contenido para identificar la mensajería más eficaz.</li>
 <li>Ofrecer contenido personalizado basado en atributos de usuario y datos contextuales.</li>
-<li>Combine segmentación y experimentación para estrategias avanzadas.</li>
+<li>Combine segmentación y experimentación para estrategias de campaña avanzadas.</li>
 <li>Filtrar los usuarios que no coincidan con los criterios de variante.</li>
 <li>Garantizar mecanismos de reserva para mantener la participación del usuario.</li>
 </ul>
 <P>Una vez que el recorrido o la campaña están activos, los perfiles se evalúan según los criterios definidos y, en función de los criterios coincidentes, se envían con la experiencia o el contenido adecuados.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p>Esta capacidad, que se publicó anteriormente el 8 de agosto solo en campañas de, ahora también está disponible en recorridos a partir del 22 de agosto.</p>
+<p>Esta capacidad, que se publicó anteriormente el 8 de agosto solo en campañas, ahora también está disponible en recorridos a partir del 22 de agosto.</p>
 <p>Para obtener más información, consulte la <a href="../campaigns/campaigns-message-optimization.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -315,7 +315,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Administración**
 
-   * **Alertas de supervisión de configuración de canal**: ahora puede suscribirse para recibir alertas del sistema, ya sea por correo electrónico o en el centro de notificaciones de Journey Optimizer, en caso de que falte <!--a channel configuration failure happens or if -->un registro DNS. [Más información](../reports/alerts.md#alert-dns-record-missing)
+   * **Alertas de monitorización de configuración de canal**: ahora puede suscribirse para recibir alertas del sistema, ya sea por correo electrónico o en el centro de notificaciones de Journey Optimizer, en caso de que <!--a channel configuration failure happens or if -->falte un registro DNS. [Más información](../reports/alerts.md#alert-dns-record-missing)
 
 * **Asistente de IA**
 
@@ -326,7 +326,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Campañas**
 
-   * **Control de tarifas en campañas salientes**: ahora puede habilitar el control de tarifas para campañas salientes (correo electrónico, SMS, notificaciones push), lo que le permite evitar sobrecargas en sistemas descendentes, como páginas de aterrizaje o plataformas de atención al cliente. [Más información](../campaigns/campaign-schedule.md#rate-control)
+   * **Control de velocidad en las campañas de salida**: ahora puede habilitar el control de la velocidad de las campañas de salida (correo electrónico, SMS, notificaciones push), lo que le permite evitar sobrecargas en sistemas descendentes, como páginas de aterrizaje o plataformas de servicio de atención al cliente. [Más información](../campaigns/campaign-schedule.md#rate-control)
 
    * **Programación de campañas de acción**. Los programadores diarios, semanales y mensuales de la campaña se han actualizado para proporcionar un control más detallado sobre las programaciones recurrentes:
 
@@ -338,7 +338,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
    * **Campañas de acción transaccional programadas**: ya están disponibles las campañas de acción transaccional programadas para enviar comunicaciones transaccionales por lotes y basadas en público por correo electrónico, SMS y canales push.
 
-* **Canal: tarjetas de contenido**
+* **Canal - Tarjetas de contenido**
 
    * **Plantillas de diseño de tarjeta de contenido**: el canal de tarjeta de contenido ahora proporciona diseños de mensajes OOTB que optimizarán su experiencia de creación. Esta versión incluye plantillas de diseño de Imagen pequeña, Imagen grande y Solo imagen. [Más información](../content-card/design-content-card.md)
 
@@ -348,25 +348,25 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Canal: SMS**
 
-   * **Exclusión aproximada**: cuando está habilitada, la opción **Exclusión aproximada** detecta mensajes entrantes que se parecen mucho a las palabras clave de exclusión definidas (por ejemplo, “CANCILAR”) y envía automáticamente una respuesta de confirmación para comprobar la intención del usuario de cancelar su suscripción. Si el usuario lo confirma mediante el mensaje definido, se cancela su suscripción. [Más información](../sms/sms-configuration-sinch.md)
+   * **Exclusión aproximada**: cuando está habilitada, la opción **Exclusión aproximada** detecta mensajes entrantes que se parecen mucho a las palabras clave de exclusión definidas (por ejemplo, “CANCILAR”) y envía automáticamente una respuesta de confirmación para comprobar la intención del usuario de cancelar su suscripción. Si el usuario confirma esta decisión a través de la indicación definida, se cancela su suscripción. [Más información](../sms/sms-configuration-sinch.md)
 
      >[!NOTE]
      >
-     >**Exclusión aproximada** solo está disponible con Sinch e Infobip.
+     >La **Exclusión aproximada** solo está disponible con Sinch e Infobip.
 
    * **Verificar conexión de SMS**: ahora puede probar y comprobar fácilmente sus credenciales de API de SMS en Adobe Journey Optimizer enviando un mensaje de ejemplo a un dispositivo designado. [Más información](../sms/sms-configuration-sinch.md)
 
 * **Configuración**
 
-  &lt;!—* **Compatibilidad con dominios dinámicos**: Journey Optimizer ahora admite la personalización completa o básica de direcciones URL para dominios predefinidos aceptados por Adobe. Esta capacidad está disponible en disponibilidad limitada para un conjunto de clientes. [Más información](../personalization/personalization-build-expressions.md#where)—Actualización del 21 de agosto: Esperando a eng. para confirmar cuando se implementa en prod.—>
+  &lt;!--* **Compatibilidad con dominios dinámicos**: Journey Optimizer ahora admite la personalización completa o básica de direcciones URL para dominios predefinidos aceptados por Adobe. Esta capacidad está disponible en disponibilidad limitada para un conjunto de clientes. [Más información](../personalization/personalization-build-expressions.md#where)—Actualización del 21 de agosto: Esperando a eng. para confirmar cuando se implementa en prod.-->
 
    * **Compatibilidad con atributos personalizados con la URL de cancelación de suscripción de un solo clic**: con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer un punto final personalizado externo definiendo su propio vínculo para cancelar la suscripción con un solo clic en la configuración de correo electrónico. Cuando los destinatarios hacen clic en el vínculo Cancelar suscripción, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento.
 
-     Para personalizar aún más el vínculo de cancelación de suscripción de un clic, ahora puede definir atributos personalizados que también se adjuntarán al evento de consentimiento. [Más información](../email/list-unsubscribe.md#custom-attributes)
+     Para personalizar aún más el vínculo de cancelación de suscripción de un solo clic, ahora puede definir atributos personalizados que se adjuntarán al evento de consentimiento. [Más información](../email/list-unsubscribe.md#custom-attributes)
 
 * **Conjuntos de datos**
 
-   * **Repositorio de objetos de Experience Decisioning - Elementos de ofertas personalizados** - El conjunto de datos de exportación integrado ahora captura todos los atributos de ofertas y el estado del ciclo vital, lo que permite una personalización y un sistema de informes completos. [Más información](../data/export-datasets.md)
+   * **Repositorio de objetos de Decisiones sobre experiencias - Elementos de oferta personalizados**: el conjunto de datos de exportación integrado ahora captura todos los atributos de ofertas y el estado del ciclo vital, lo que permite una personalización y un sistema de informes completos. [Más información](../data/export-datasets.md)
 
    * Se ha introducido la comprobación de versiones a través del campo `etag` para mejorar la coherencia y rastrear los cambios a fin de ofrecer los elementos de forma más fiable.
 
@@ -380,7 +380,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
    * **Compatibilidad con redireccionamiento (302) en acciones personalizadas**: ahora las acciones personalizadas pueden administrar redireccionamientos HTTP 302 por cada solicitud. Esto permite a los recorridos integrarse con API que redirigen las solicitudes a direcciones URL localizadas o específicas de la región. Las redirecciones se siguen automáticamente, lo que garantiza que el contenido correcto se envíe sin configuración adicional.
 
-   * **Varias acciones entrantes en recorrido**: para simplificar la orquestación de recorrido, ahora puede definir varias acciones entrantes en un solo recorrido. Esta capacidad, que antes estaba disponible en las campañas de, le permite ofrecer varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web en diferentes ubicaciones al mismo tiempo, y cada acción contiene un contenido específico. [Más información](../building-journeys/journey-action.md#multi-action)
+   * **Varias acciones entrantes en recorridos**: para simplificar la orquestación de recorrido, ahora puede definir varias acciones entrantes en un solo recorrido. Esta capacidad, disponible previamente en campañas, le permite enviar varias experiencias basadas en código, mensajes in-app, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, y cada acción con un contenido específico. [Más información](../building-journeys/journey-action.md#multi-action)
 
 ## Orquestación de campañas 
 

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: b4ed25390e9f499a12649713eb963799de55caa5
 workflow-type: tm+mt
 source-wordcount: '2917'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 98%
       + [Leer público](using/building-journeys/read-audience.md)
       + [Esperar](using/building-journeys/wait-activity.md)
       + [Decisión de contenido](using/building-journeys/content-decision.md)
-      + [Actividad Acción](using/building-journeys/journey-action.md)
+      + [Actividad de acción](using/building-journeys/journey-action.md)
       + [Acciones de canal integradas](using/building-journeys/journeys-message.md)
       + [Acciones personalizadas](using/building-journeys/using-custom-actions.md)
       + [Acciones de Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
@@ -255,8 +255,8 @@ ht-degree: 98%
          + [Cree su primera regla](using/orchestrated/build-query.md)
          + [Edición de expresiones](using/orchestrated/edit-expressions.md)
          + [Resegmentación](using/orchestrated/retarget.md)
-      + Actividades de campañas organizadas {#design-campaigns}
-         + [Actividades de campañas organizadas](/help/rp_landing_pages/design-campaigns-landing-page.md)
+      + Actividades de las campañas organizadas {#design-campaigns}
+         + [Actividades de las campañas organizadas](/help/rp_landing_pages/design-campaigns-landing-page.md)
          + [Introducción a las actividades](using/orchestrated/activities/about-activities.md)
          + [And-join](using/orchestrated/activities/and-join.md)
          + [Generar público](using/orchestrated/activities/build-audience.md)
@@ -271,7 +271,7 @@ ht-degree: 98%
          + [Guardar público](using/orchestrated/activities/save-audience.md)
          + [División](using/orchestrated/activities/split.md)
          + [Prueba](using/orchestrated/activities/test.md)
-         + [Espere](using/orchestrated/activities/wait.md)
+         + [Esperar](using/orchestrated/activities/wait.md)
 + Administración de conflictos y priorización {#conflict-prioritization}
    + [Administración de conflictos y priorización](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [Introducción a la administración y priorización de conflictos](using/conflict-prioritization/gs-conflict-prioritization.md)

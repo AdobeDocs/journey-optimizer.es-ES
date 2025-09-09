@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '1758'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -181,7 +181,7 @@ En cada página, utilice los botones de ayuda contextual para obtener más infor
 
 ## Notificaciones en el producto {#in-product-notifications}
 
-Puede habilitar **alertas en el producto y por correo electrónico** para recibir notificaciones sobre varios eventos que puedan ser de su interés: errores detectados por el sistema, solicitudes de aprobación o [!DNL Journey Optimizer] versiones de productos.
+Puede habilitar las **alertas en el producto y por correo electrónico** para recibir notificaciones sobre varios eventos que puedan ser de su interés: errores detectados por el sistema, solicitudes de aprobación o versiones de producto de [!DNL Journey Optimizer].
 
 Para habilitar estas notificaciones, siga los pasos a continuación.
 
@@ -190,8 +190,8 @@ Para habilitar estas notificaciones, siga los pasos a continuación.
 1. Habilite las notificaciones en la aplicación o por correo electrónico según desee:
 
    * **[!UICONTROL Alertas]**: cuando se produce un error, puede obtener notificaciones del sistema para las alertas a las que está suscrito. [Más información](../reports/alerts.md)
-   * **[!UICONTROL Aprobaciones]**: Se le notifica cuando alguien le solicita que apruebe un objeto o que acceda a un objeto.
-   * **[!UICONTROL Nuevas versiones]**: se le ha informado de las nuevas versiones de [!DNL Journey Optimizer] productos.
+   * **[!UICONTROL Aprobaciones]**: se le notifica cuando alguien le solicita que apruebe un objeto o que acceda a un objeto.
+   * **[!UICONTROL Nuevas versiones]**: se le informa de las nuevas versiones de producto de [!DNL Journey Optimizer].
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 

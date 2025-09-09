@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -74,9 +74,9 @@ El lienzo de la campaña orquestada es una representación de lo que se supone q
 
 Cada campaña orquestada contiene:
 
-* **Actividades**: una actividad es una tarea que se va a realizar. Las distintas actividades se representan en el lienzo mediante iconos. Cada actividad tiene propiedades específicas y otras propiedades que son comunes a todas las actividades.
+* **Actividades**: una actividad es una tarea que se va a realizar. Las distintas actividades disponibles se representan en el lienzo mediante iconos. Cada actividad tiene propiedades específicas y otras que son comunes a todas las actividades.
 
-  En un lienzo de campaña orquestado, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o acciones recurrentes.
+  En un lienzo de campaña organizada, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o acciones recurrentes.
 
 * **Transiciones**: las transiciones vinculan una actividad de origen a una actividad de destino y definen su secuencia.
 

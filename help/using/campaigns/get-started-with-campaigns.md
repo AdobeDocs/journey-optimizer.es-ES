@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 69%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="Control de tasa"
->abstract="Defina el Control de tasa para su campaña especificando los límites de tasa deseados. Esta función es especialmente útil para evitar sobrecargas en sistemas descendentes, como páginas de aterrizaje o plataformas de servicio de atención al cliente."
+>title="Control de velocidad"
+>abstract="Defina el Control de velocidad para su campaña especificando los límites de velocidad deseados. Esta función es especialmente útil para evitar sobrecargas en sistemas descendentes, como páginas de aterrizaje o plataformas de servicio de atención al cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"
@@ -113,7 +113,7 @@ Visor de campañas orquestadas
 
 Si no puede acceder a las funcionalidades de la campaña, póngase en contacto con el administrador para solicitar los permisos necesarios.
 
-+++Obtenga información sobre cómo asignar una función relacionada con la campaña
++++Más información sobre cómo asignar una función relacionada con la campaña
 
 1. Para asignar una función a un usuario en el producto [!DNL Permissions], vaya a la pestaña **[!UICONTROL Funciones]** y seleccione una de las **[!UICONTROL Funciones]** integradas relacionadas con las campañas anteriores.
 
