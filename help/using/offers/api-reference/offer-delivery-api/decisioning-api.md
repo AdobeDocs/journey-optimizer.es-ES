@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
+source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1051'
 ht-degree: 2%
 
 ---
@@ -35,6 +35,11 @@ En la tabla siguiente se muestran los valores válidos que comprenden los campos
 | x-api-key | `{API_KEY}` |
 
 * Todas las solicitudes que contienen una carga útil (POST, PUT, PATCH) requieren el encabezado de tipo de contenido
+
+
+>[!NOTE]
+>
+>La comprobación de permisos no se aplica a zonas protegidas individuales. Siempre que el llamador presente un token válido, la API de envío se activará.
 
 ## Solicitud de API {#request}
 
@@ -214,7 +219,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342828/?quality=12&captions=spa) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Próximos pasos {#next-steps}
 
