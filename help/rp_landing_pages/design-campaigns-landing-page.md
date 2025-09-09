@@ -1,28 +1,28 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Actividades de campañas organizadas
-description: Actividades de campañas organizadas
+title: Actividades de las campañas organizadas
+description: Actividades de las campañas organizadas
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
 source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Actividades de campañas organizadas{#section-overview}
+# Actividades de las campañas organizadas{#section-overview}
 
-Las actividades de campaña organizadas en Adobe Journey Optimizer le permiten diseñar recorridos de marketing sin problemas y basados en datos que se conecten con su audiencia en el momento adecuado y a través de los canales adecuados. Al combinar las actividades de segmentación, canal y control de flujo, puede definir segmentos de audiencia precisos, personalizar mensajes y automatizar flujos de trabajo complejos. Tanto si desea crear audiencias, sincronizar ramas de campañas o añadir retrasos para optimizar el tiempo, estas actividades trabajan juntas para optimizar la ejecución de la campaña. Con herramientas como Enriquecimiento para la mejora de datos o División para la segmentación de audiencias, tendrá un kit de herramientas flexible para crear experiencias de cliente significativas e impactantes.
+Las actividades de las campañas orquestadas de Adobe Journey Optimizer le permiten diseñar recorridos de marketing basados en datos optimizados que se conecten con su público en el momento adecuado y a través de los canales adecuados. Al combinar las actividades de segmentación, canal y control de flujo, puede definir segmentos de público precisos, personalizar mensajes y automatizar flujos de trabajo complejos. Tanto si desea crear públicos, sincronizar ramas de campañas o añadir retrasos para una sincronización perfecta, estas actividades trabajan conjuntamente para optimizar la ejecución de la campaña. Con herramientas como el enriquecimiento para la mejora de datos o la división para la segmentación del público, tendrá un kit de herramientas flexible para crear experiencias de cliente significativas e impactantes.
 
-## Actividades de campaña organizadas
+## Actividades de las campañas orquestadas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Trabajo con actividades de Campaign organizadas
+Trabajo con actividades de campañas orquestadas
 
 Obtenga información sobre las actividades de segmentación, canal y control de flujo para diseñar y ejecutar campañas orquestadas.
 
@@ -30,51 +30,51 @@ Obtenga información sobre las actividades de segmentación, canal y control de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso de la actividad AND-join
 
 Sincronice varias ramas de ejecución asegurándose de que las tareas anteriores se completen antes de continuar.
 
-[Obtenga información sobre cómo configurar la actividad AND-join](../using/orchestrated/activities/and-join.md)
+[Más información sobre cómo configurar la actividad AND-join](../using/orchestrated/activities/and-join.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Crear actividad de audiencia
+Actividad Crear público
 
-Defina y configure segmentos de audiencia para sus campañas mediante la actividad Generar audiencia.
+Defina y configure segmentos del público para sus campañas mediante la actividad Crear público.
 
-[Aprenda a utilizar la actividad Generar audiencia](../using/orchestrated/activities/build-audience.md)
+[Más información sobre cómo utilizar la actividad Crear público](../using/orchestrated/activities/build-audience.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Cambiar actividad de dimensión
+Actividad Cambiar dimensión
 
 Mejore la segmentación cambiando entre entidades de datos dentro de la campaña.
 
-[Obtenga información sobre cómo configurar la actividad Cambiar dimensión](../using/orchestrated/activities/change-dimension.md)
+[Más información sobre cómo configurar la actividad Cambiar dimensión](../using/orchestrated/activities/change-dimension.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Actividades de canal
+Actividades del canal
 
-Configure el correo electrónico, los SMS, las notificaciones push y el correo directo para la orquestación entre canales.
+Configure el correo electrónico, los SMS, las notificaciones push y el correo directo para la orquestación en canales múltiples.
 
-[Obtenga información sobre cómo configurar actividades de canal](../using/orchestrated/activities/channels.md)
+[Más información sobre cómo configurar actividades de canal](../using/orchestrated/activities/channels.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Combinar actividad
+Actividad Combinar
 
-Segmentar poblaciones entrantes combinando, excluyendo o intersectando datos.
+Segmente poblaciones entrantes combinando, excluyendo o cruzando datos.
 
 [Aprenda a utilizar la actividad Combinar](../using/orchestrated/activities/combine.md)
 :::
@@ -84,12 +84,12 @@ Segmentar poblaciones entrantes combinando, excluyendo o intersectando datos.
 
 ## Recursos adicionales
 
-- **[Actividad de deduplicación](../using/orchestrated/activities/deduplication.md)**: elimine registros duplicados de los datos de entrada para garantizar un direccionamiento limpio.
-- **[Actividad de enriquecimiento](../using/orchestrated/activities/enrichment.md)**: mejore los datos de audiencia con atributos adicionales para una mejor segmentación y personalización.
-- **[Actividad de bifurcación](../using/orchestrated/activities/fork.md)**: habilita la ejecución paralela de varias actividades con la actividad de bifurcación.
-- **[Leer actividad de audiencia](../using/orchestrated/activities/read-audience.md)**: recupera, perfecciona y reutiliza audiencias existentes para tus campañas.
-- **[Actividad de reconciliación](../using/orchestrated/activities/reconciliation.md)**: combine datos externos o no identificados con recursos existentes para lograr un objetivo preciso.
-- **[Guardar actividad de audiencia](../using/orchestrated/activities/save-audience.md)**: cree o actualice audiencias reutilizables para objetivos futuros.
-- **[Actividad dividida](../using/orchestrated/activities/split.md)**: Segmente las poblaciones en subconjuntos mediante filtros o tamaño de población.
-- **[Actividad de prueba](../using/orchestrated/activities/test.md)**: habilite transiciones condicionales basadas en criterios especificados.
-- **[Actividad de espera](../using/orchestrated/activities/wait.md)**: introduzca retrasos entre actividades para mejorar el tiempo y la relevancia.
+- **[Actividad Deduplicación](../using/orchestrated/activities/deduplication.md)**: elimine registros duplicados de los datos de entrada para garantizar un direccionamiento limpio.
+- **[Actividad Enriquecimiento](../using/orchestrated/activities/enrichment.md)**: mejore los datos de público con atributos adicionales para una mejor segmentación y personalización.
+- **[Actividad Bifurcación](../using/orchestrated/activities/fork.md)**: habilite la ejecución paralela de varias actividades con la actividad de bifurcación.
+- **[Actividad Leer público](../using/orchestrated/activities/read-audience.md)**: recupere, perfeccione y reutilice públicos existentes para sus campañas.
+- **[Actividad Reconciliación](../using/orchestrated/activities/reconciliation.md)**: combine datos externos o no identificados con recursos existentes para lograr un objetivo preciso.
+- **[Actividad Guardar público](../using/orchestrated/activities/save-audience.md)**: cree o actualice públicos reutilizables para una futura segmentación.
+- **[Actividad División](../using/orchestrated/activities/split.md)**: segmente las poblaciones en subconjuntos mediante filtros o tamaño de población.
+- **[Actividad Prueba](../using/orchestrated/activities/test.md)**: habilite transiciones condicionales basadas en criterios especificados.
+- **[Actividad Esperar](../using/orchestrated/activities/wait.md)**: introduzca retrasos entre actividades para mejorar el tiempo y la relevancia.
