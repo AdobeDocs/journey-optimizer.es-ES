@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 2%
+source-wordcount: '603'
+ht-degree: 1%
 
 ---
 
@@ -104,5 +104,23 @@ La tabla **[!UICONTROL Etiqueta de vínculo rastreado]** ofrece información ese
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido del mensaje.
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido del mensaje.
+
++++
+
+## Información general de segmentación {#targeting}
+
+![](assets/cja-journey-targeting-overview.png)
+
+Si configuraste **[!UICONTROL reglas de segmentación]** para tu contenido, la tabla de **[!UICONTROL Información general de segmentación]** proporciona una vista detallada de las métricas de participación clave, mostrando cómo los perfiles de segmentación para cada regla interactuaron con tu contenido.
+
+➡️ [Más información sobre las Reglas de segmentación](../campaigns/campaigns-message-optimization.md)
+
++++ Más información sobre las Métricas de información general de Segmentación
+
+* **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus eventos.
+
+* **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de un correo electrónico.
+
+* **[!UICONTROL Tasa de clics únicos]**: Porcentaje de perfiles de destino que hicieron clic al menos una vez.
 
 +++

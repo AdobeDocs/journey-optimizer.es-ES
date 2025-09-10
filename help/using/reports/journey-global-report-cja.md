@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '971'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Se puede acceder directamente al **informe de Recorrido** desde su recorrido con
 
 ![](assets/gs-cja-report-3.png)
 
-Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Información general del recorrido {#journey-global}
 
@@ -85,7 +85,7 @@ El widget **[!UICONTROL Errores de acción]** detalla los diferentes errores que
 
 ![](assets/cja-journey-canvas.png)
 
-El widget **[!UICONTROL Lienzo de Recorrido]** le permite rastrear visualmente la trayectoria de sus perfiles de destino a medida que navegan por su recorrido. [Obtenga más información en la documentación de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+El widget **[!UICONTROL Lienzo de Recorrido]** le permite rastrear visualmente la trayectoria de sus perfiles de destino a medida que navegan por su recorrido. [Obtenga más información en la documentación de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Mejore la personalización del lienzo con las siguientes opciones:
 
@@ -145,5 +145,23 @@ La tabla **[!UICONTROL Información general del evento]** muestra cuántos perfi
 +++ Más información sobre las métricas de Estadísticas de Recorrido
 
 * **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus eventos.
+
++++
+
+## Información general de segmentación {#targeting}
+
+![](assets/cja-journey-targeting-overview.png)
+
+Si configuraste **[!UICONTROL reglas de segmentación]** para tu contenido, la tabla de **[!UICONTROL Información general de segmentación]** proporciona una vista detallada de las métricas de participación clave, mostrando cómo los perfiles de segmentación para cada regla interactuaron con tu contenido.
+
+➡️ [Más información sobre las Reglas de segmentación](../campaigns/campaigns-message-optimization.md)
+
++++ Más información sobre las Métricas de información general de Segmentación
+
+* **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus eventos.
+
+* **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de un correo electrónico.
+
+* **[!UICONTROL Tasa de clics únicos]**: Porcentaje de perfiles de destino que hicieron clic al menos una vez.
 
 +++

@@ -1,42 +1,41 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
+title: Informe de campaña
+description: Aprenda a utilizar los datos de experimentación del informe de Recorrido
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 8%
+source-wordcount: '386'
+ht-degree: 2%
 
 ---
-@ -0,0 +1,71 @@
----
-solución: Journey Optimizer
-producto: optimizador de recorrido
-title: Informe de campaña
-description: Descubra cómo utilizar los datos de experimentación del informe de Campaign
-función: Informes
-Tema: Administración de contenido
-función: Usuario
-level: Intermedio
-exl-id: 69742163-7378-49ab-929e-86213d6e65e3
----
-# Informe de campaña de experimentación {#campaign-global-report-cja-experimentation}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="Métrica de éxito"
->abstract="El valor total de la métrica de éxito, previamente seleccionada al crear los experimentos, dividido por el número de perfiles."
+# Informe recorrido de experimentación {#campaign-global-report-cja-experimentation}
 
-## Experimentación {#experimentation}
+El informe de Recorrido le ofrece una vista completa del rendimiento de su experimento, junto con las métricas clave que necesita para comprender su impacto.
 
-La ficha **[!UICONTROL Experimentación]** proporciona información clave sobre el rendimiento de cada variante e identifica la que ha tenido más éxito.
+En Journey Optimizer, la experimentación con recorridos se divide en dos tipos:
 
-Tenga en cuenta que definir el mejor ejecutante puede llevar algún tiempo. Si el experimento no se realiza correctamente, se establecerá en **No concluyente**.
+* [Experimentos de contenido](../content-management/content-experiment.md)
+* [Experimentos de ruta](../building-journeys/optimize.md)
 
-![](assets/cja-experimentation-1.png)
+## Experimento de ruta {#experimentation}
+
+>[!NOTE]
+>
+> Las tablas y los KPI detallados para el experimento de contenido son los mismos que para un experimento de ruta. Consulte la documentación siguiente si ha configurado un experimento de contenido.
 
 ### KPI de experimentación {#experimentation-kpis}
 
-![](assets/cja-experimentation-kpis.png)
+![](assets/journey-report-experiment-1.png)
 
-Los indicadores clave de rendimiento (KPI) de **[!UICONTROL Experimentación]** funcionan como un tablero que abarca todo, y ofrecen un análisis de las métricas esenciales asociadas con la experimentación.
+**Resumen de experimentación** proporciona información clave sobre el rendimiento de tu experimento e identifica el más exitoso. Tenga en cuenta que definir el mejor ejecutante puede llevar algún tiempo. Si el experimento no se realiza correctamente, se establecerá en **No concluyente**.
+
+Los **Indicadores clave de rendimiento (KPI) de experimentación** funcionan como un tablero que abarca todo, y ofrecen un análisis de las métricas esenciales asociadas con la experimentación.
 
 +++ Más información sobre las métricas de KPI de experimentación
 
@@ -46,7 +45,9 @@ Los indicadores clave de rendimiento (KPI) de **[!UICONTROL Experimentación]** 
 
 +++
 
-### Variante por métrica de éxito {#variant-inbound}
+
+
+### Variante por métricas de éxito {#variant-inbound}
 
 ![](assets/cja-experimentation-variants.png)
 
@@ -74,6 +75,5 @@ Para profundizar en estos resultados y cómo interpretarlos, consulte [esta pág
 ### Tasa de conversión para la métrica de éxito {#conversion-rate}
 
 ![](assets/cja-experimentation-conversion.png)
-
 
 El gráfico de **[!UICONTROL Intervalo de confianza]** muestra el rango de posibles mejoras, comparando la línea de base con el tratamiento de mejor rendimiento para la métrica de éxito elegida. [Más información](../content-management/experiment-calculations.md#confidence-intervals).
