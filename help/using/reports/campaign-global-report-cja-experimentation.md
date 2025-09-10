@@ -1,22 +1,21 @@
 ---
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+solution: Journey Optimizer
+product: journey optimizer
+title: Informe de campaña
+description: Aprenda a utilizar los datos de experimentación del informe de Campaign
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
+exl-id: 69742163-7378-49ab-929e-86213d6e65e3
+source-git-commit: 08d444f499229f0942e4dae17d87030225f34d5f
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 8%
+source-wordcount: '336'
+ht-degree: 9%
 
 ---
-@ -0,0 +1,71 @@
----
-solución: Journey Optimizer
-producto: optimizador de recorrido
-title: Informe de campaña
-description: Descubra cómo utilizar los datos de experimentación del informe de Campaign
-función: Informes
-Tema: Administración de contenido
-función: Usuario
-level: Intermedio
-exl-id: 69742163-7378-49ab-929e-86213d6e65e3
----
+
+
 # Informe de campaña de experimentación {#campaign-global-report-cja-experimentation}
 
 >[!CONTEXTUALHELP]
