@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 keywords: optimización de campañas, experimentación, segmentación, pruebas A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 6%
+source-wordcount: '1088'
+ht-degree: 5%
 
 ---
 
@@ -36,6 +36,11 @@ La diferencia entre los experimentos y la segmentación se puede resaltar de la 
 ➡️ [Obtenga más información acerca de la optimización de una campaña en este vídeo](#video)
 
 ## Aproveche la segmentación {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_content_targeting_fallback"
+>title="¿Qué es el contenido de reserva?"
+>abstract="El contenido de reserva permite que su audiencia reciba un contenido predeterminado cuando no se cumple ninguna regla de segmentación.</br>Si no selecciona esta opción, las audiencias que no cumplan los requisitos para una regla de segmentación definida arriba no recibirán contenido."
 
 La segmentación ofrece contenido personalizado a segmentos de audiencia específicos en función de atributos de perfil de usuario o atributos contextuales.
 
@@ -67,7 +72,7 @@ Para configurar la segmentación, siga los pasos a continuación.
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. Seleccione **[!UICONTROL Habilitar contenido de reserva]** según sea necesario. El contenido de reserva permite que su audiencia reciba un contenido predeterminado cuando no se cumplen las reglas de segmentación.
+1. Seleccione la opción **[!UICONTROL Habilitar contenido de reserva]** según sea necesario. El contenido de reserva permite que su audiencia reciba un contenido predeterminado cuando no se cumplen las reglas de segmentación.
 
    >[!NOTE]
    >
@@ -179,6 +184,6 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 ## Vídeo práctico{#video}
 
-Aprenda a aprovechar la optimización de mensajes en campañas activadas por acciones o API. Descubra cómo dirigirse a subaudiencias, crear variaciones de mensajes por ubicación, habilitar contenido de reserva y ejecutar varios experimentos dentro de una sola campaña. Este tutorial también explica cómo administrar campañas multicanal y, al mismo tiempo, mantener la coherencia del mensaje.
+Aprenda a aprovechar la optimización de mensajes en campañas activadas por acciones o API. Descubra cómo dirigirse a subpúblicos, crear variaciones de mensajes por ubicación, habilitar contenido de reserva y ejecutar varios experimentos dentro de una sola campaña. Este tutorial también explica cómo administrar campañas multicanal y, al mismo tiempo, mantener la coherencia del mensaje.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470371?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

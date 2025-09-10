@@ -11,10 +11,10 @@ keywords: actividad, condición, lienzo, recorrido, optimización
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 6%
+source-wordcount: '1297'
+ht-degree: 5%
 
 ---
 
@@ -50,7 +50,7 @@ Una vez que el recorrido está activo, los perfiles se evalúan según los crite
 ## Usar experimentación {#experimentation}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_path_experiment_success_metric"
+>id="ajo_path_experiment_success_metric"
 >title="Métrica de éxito"
 >abstract="La métrica de éxito se utiliza para rastrear y evaluar el tratamiento con mejor rendimiento de un experimento."
 
@@ -70,7 +70,7 @@ Supongamos que desea comparar tres rutas:
 
 1. Seleccione **[!UICONTROL Experimento]** de la lista desplegable **[!UICONTROL Método]**.
 
-   ![](assets/journey-optimize-experiment.png){width=75%}
+   ![](assets/journey-optimize-experiment.png){width=65%}
 
 1. Haga clic en **[!UICONTROL Crear experimento]**.
 
@@ -137,15 +137,17 @@ Compruebe si el envío del primer mensaje por correo electrónico o por SMS gene
 
 ➡️ Use la tasa de conversión como métrica de optimización (por ejemplo: compras, registros).
 
-![](assets/journey-optimize-experiment-uc.png)
+![](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
 +++Frecuencia del mensaje
 
-➡️ Ejecute un experimento para comprobar si al enviar un correo electrónico, en lugar de tres correos electrónicos a lo largo de una semana, se obtienen más compras.
+Ejecute un experimento para comprobar si enviar un correo electrónico en lugar de tres durante una semana resulta en más compras.
 
-Utilice las compras o la tasa de cancelación de suscripción como métrica de optimización.
+➡️ Use compras o la tasa de cancelación de suscripción como métrica de optimización.
+
+![](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -155,9 +157,16 @@ Compare una espera de 24 horas con una espera de 72 horas antes de un seguimient
 
 ➡️: utilice la tasa de pulsaciones o los ingresos como métrica de optimización.
 
+![](assets/journey-optimize-experiment-uc-wait.png)
+
 +++
 
 ## Aproveche la segmentación {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_path_targeting_fallback"
+>title="¿Qué es la ruta de reserva?"
+>abstract="La reserva crea una nueva ruta para la audiencia que no cumple ninguna de las reglas de segmentación definidas anteriormente.</br>Si no selecciona esta opción, las audiencias que no cumplan los requisitos para una regla de segmentación no entrarán en la ruta de reserva."
 
 Las reglas de segmentación le permiten determinar reglas o cualificaciones específicas que deben cumplirse para que un cliente pueda entrar en una de las rutas de recorrido, según segmentos de audiencia específicos <!-- depending on profile attributes or contextual attributes-->.
 
@@ -179,7 +188,7 @@ Para configurar la segmentación en un recorrido, siga los pasos a continuación
 
 1. Seleccione **[!UICONTROL Regla de segmentación]** de la lista desplegable **[!UICONTROL Método]**.
 
-   ![](assets/journey-optimize-targeting.png){width=70%}
+   ![](assets/journey-optimize-targeting.png){width=60%}
 
 1. Haga clic en **[!UICONTROL Crear regla de segmentación]**.
 
@@ -187,7 +196,11 @@ Para configurar la segmentación en un recorrido, siga los pasos a continuación
 
    ![](assets/journey-targeting-rule.png)
 
-1. Seleccione **[!UICONTROL Habilitar contenido de reserva]** según sea necesario. El contenido de reserva permite que su audiencia reciba un contenido predeterminado cuando no se cumplen las reglas de segmentación. Si no selecciona esta opción, las audiencias que no cumplan los requisitos para una regla de segmentación definida anteriormente no introducen una ruta de reserva.
+1. Seleccione la opción **[!UICONTROL Habilitar contenido de reserva]** según sea necesario. Esta acción crea una ruta de reserva para la audiencia que no cumple ninguna de las reglas de segmentación definidas anteriormente.
+
+   >[!NOTE]
+   >
+   >Si no selecciona esta opción, las audiencias que no cumplan los requisitos para una regla de segmentación no acceden a la ruta de reserva.
 
 1. Haga clic en **[!UICONTROL Crear]** para guardar la configuración de la regla de segmentación.
 
@@ -195,7 +208,11 @@ Para configurar la segmentación en un recorrido, siga los pasos a continuación
 
    ![](assets/journey-targeting-paths.png)
 
-1. Opcionalmente, use **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** para definir una acción de reserva. [Más información](using-the-journey-designer.md#paths)
+1. Si seleccionó la opción **[!UICONTROL Habilitar contenido de reserva]** al definir la configuración de regla, defina una o más acciones para la ruta de reserva que se agregó automáticamente.
+
+   ![](assets/journey-targeting-fallback.png){width=70%}
+
+1. De manera opcional, use **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** para definir una acción alternativa en caso de que se produzcan problemas. [Más información](using-the-journey-designer.md#paths)
 
 1. Diseñe el contenido apropiado para cada acción correspondiente a cada grupo definido por la configuración de reglas de segmentación. Puede navegar sin problemas entre los diferentes contenidos para cada acción.
 
@@ -219,7 +236,7 @@ Los miembros con estatus Gold pueden recibir ofertas personalizadas por correo e
 
 ➡️: utilice los ingresos por perfil o la tasa de conversión como métrica de optimización.
 
-![](assets/journey-optimize-targeting-uc.png)
+![](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -229,6 +246,8 @@ A los clientes que abrieron un correo electrónico pero no hicieron clic se les 
 
 ➡️: utilice la tasa de pulsaciones o las conversiones descendentes como métrica de optimización.
 
+![](assets/journey-optimize-targeting-uc-behavior.png)
+
 +++
 
 +++Segmentación del historial de compras
@@ -236,6 +255,8 @@ A los clientes que abrieron un correo electrónico pero no hicieron clic se les 
 Los clientes que hayan realizado compras recientemente pueden optar por una breve ruta de &quot;agradecimiento + venta cruzada&quot;, mientras que aquellos que no tengan historial de compras ya no tendrán un recorrido de crianza.
 
 ➡️ Use la tasa de repetición de compras o de participación como métrica de optimización.
+
+![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
