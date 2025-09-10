@@ -9,9 +9,9 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1127'
 ht-degree: 16%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 16%
 
 El ensayo del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales de recorridos probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil.  Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo.
 
+➡️ [Obtenga más información acerca de la ejecución sin recorrido en este vídeo](#dry-run-video)
 
 ## Ventajas principales {#journey-dry-run-benefits}
 
@@ -144,3 +145,8 @@ Si exporta datos stepEvent a **sistemas externos**, puede filtrar las ejecucione
 
 Al analizar **métricas de informes de recorrido** mediante el servicio Adobe Experience Platform Query, se deben excluir los eventos de paso generados por la ejecución en seco. Para ello, establezca el indicador `inDryRun` en `false`.
 
+## Vídeo práctico {#dry-run-video}
+
+Aprenda a secar los recorridos en este vídeo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
