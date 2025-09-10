@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 3ce799231e90828e8d061261e0ef69042e69daba
 workflow-type: tm+mt
-source-wordcount: '5119'
-ht-degree: 100%
+source-wordcount: '5027'
+ht-degree: 99%
 
 ---
 
@@ -220,15 +220,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>La mensajería de servicios de comunicación enriquecida (RCS) ahora es compatible con Journey Optimizer, lo que permite las siguientes funciones de mensajería mejoradas sujetas a la compatibilidad del proveedor y el operador:</p>
-<ul>
-<li>Compatibilidad con remitentes de marca y verificados: envía mensajes utilizando perfiles comerciales verificados con elementos de promoción de la marca (logotipo, nombre del remitente, etc.).</li>
-<li>Información sobre el envío de mensajes: se reciben informes de envío detallados que incluyen actualizaciones del estado del mensaje (por ejemplo, enviado, entregado, leído).</li>
-<li>Seguimiento de vínculos: incrusta y rastrea direcciones URL en mensajes RCS para el análisis de participación.</li>
-<li>Reserva de SMS: recurre automáticamente a los SMS cuando el dispositivo del perfil no sea compatible con RCS o no se pueda acceder temporalmente mediante RCS.</li>
-<li>Composición básica de mensajes: envía mensajes RCS basados en texto con medios opcionales y elementos enriquecidos, según la compatibilidad del proveedor.</li>
-</ul>
-<p>Para obtener más información, consulte la <a href="../sms/sms-configuration.md">documentación detallada</a>.</p>
+<p>Ahora puede configurar, personalizar y entregar mensajes de servicios de comunicación enriquecidos (RCS) a través de un proveedor de terceros mediante la integración con la solución de proveedor de SMS personalizado.</p>
 </td>
 </tr>
 </tbody>
