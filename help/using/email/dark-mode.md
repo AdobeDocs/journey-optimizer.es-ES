@@ -12,9 +12,9 @@ keywords: modo oscuro, correo electrónico, color, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 0501691c29d82dd1b8c94e0366e66cf5534cd1d2
+source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1524'
 ht-degree: 11%
 
 ---
@@ -115,7 +115,9 @@ En este caso, se debe mostrar la configuración específica que defina en la Des
 >
 >Aprenda a definir la configuración personalizada del modo oscuro con Email Designer en [esta sección](#define-custom-dark-mode).
 
-Sin embargo, pueden aplicarse algunas restricciones. Por ejemplo, algunos clientes de correo electrónico como Apple Mail 16 (macOs 13) no generarán el modo oscuro si las imágenes están presentes en el contenido del correo electrónico.
+Sin embargo, pueden aplicarse algunas restricciones según cada cliente de correo electrónico. Por ejemplo, algunos clientes como Apple Mail 16 (macOs 13) no generan el modo oscuro si las imágenes están presentes en el contenido del correo electrónico.
+
+Para obtener resultados óptimos, pruebe el contenido con los clientes de correo electrónico a los que está dirigiendo. Para ver una simulación lo más parecida posible al resultado final de cada cliente, use la opción [Procesamiento de correo electrónico](../content-management/rendering.md) en el Designer de correo electrónico.
 
 ## Modo oscuro en el Diseñador de correo electrónico {#dark-mode-email-designer}
 
