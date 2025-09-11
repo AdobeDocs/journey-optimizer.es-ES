@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
+source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 24%
@@ -22,7 +22,7 @@ ht-degree: 24%
 
 ## Qué es Decisioning {#about}
 
-Decisioning simplifica la personalización al ofrecer un catálogo centralizado de ofertas de marketing conocidas como “elementos de decisión” y un motor de decisión sofisticado. Este motor aprovecha las reglas y los criterios de clasificación para seleccionar y presentar a cada persona los elementos de decisión más relevantes.
+La toma de decisiones simplifica la personalización al ofrecer un catálogo centralizado de ofertas de marketing conocidas como “elementos de decisión” y un motor de decisión sofisticado. Este motor aprovecha las reglas y los criterios de clasificación para seleccionar y presentar a cada persona los elementos de decisión más relevantes.
 
 Estos elementos de decisión se integran perfectamente en una amplia gama de superficies de entrada a través del [nuevo canal de experiencia basado en código](../code-based/get-started-code-based.md), al que se puede acceder desde las campañas de Journey Optimizer.
 

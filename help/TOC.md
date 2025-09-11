@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
+source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '2926'
 ht-degree: 99%
@@ -706,7 +706,7 @@ ht-degree: 99%
       + Introducción a Gestión de decisiones {#get-started-decision}
          + [Introducción a Gestión de decisiones](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [Acerca de la Gestión de decisiones](using/offers/get-started/starting-offer-decisioning.md)
-         + [Limitaciones y protecciones de gestión de decisiones](using/offers/decision-management-guardrails.md)
+         + [Limitaciones y mecanismos de protección de gestión de decisiones](using/offers/decision-management-guardrails.md)
          + [Interfaz de usuario](using/offers/get-started/user-interface.md)
          + [Pasos clave para crear y administrar ofertas](using/offers/offer-library/key-steps.md)
          + [Aprovechamiento de los públicos de carga personalizados para la toma de decisiones](using/offers/custom-upload-decisioning.md)
