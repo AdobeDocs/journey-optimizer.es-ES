@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
+source-git-commit: 244d17a6c75eaee5b09fb82a9237db041a2650d1
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 89%
+source-wordcount: '2068'
+ht-degree: 88%
 
 ---
 
@@ -89,15 +89,19 @@ ht-degree: 89%
 
 ### Mejoras {#Sep-25-improv}
 
+* **Compatibilidad con dominios dinámicos**: Journey Optimizer ahora admite la personalización completa/básica de direcciones URL para dominios predefinidos aceptados por Adobe. [Más información](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
+
+  >[!NOTE]
+  >
+  >Esta capacidad está disponible en disponibilidad limitada para un conjunto de clientes.
+
 * **Expresión para reglas de límite de Decisioning**: ahora puede crear sus propias expresiones para definir el umbral de una regla de límite para un elemento de decisión. [Más información](../experience-decisioning/items.md#capping)
 
   >[!NOTE]
   >
   >Actualmente, esta capacidad está disponible como disponibilidad limitada para todos los usuarios.
 
-* **Administración**
-
-  **Alertas de monitorización de configuración de canal**: ahora puede suscribirse para recibir alertas del sistema, ya sea por correo electrónico o en el centro de notificaciones de Journey Optimizer, en caso de que se produzca un error de configuración de canal de correo electrónico al usar el tipo de delegación de subdominio personalizado. [Más información](../reports/alerts.md#alert-dns-record-missing)
+* **Alertas de monitorización de configuración de canal**: ahora puede suscribirse para recibir alertas del sistema, ya sea por correo electrónico o en el centro de notificaciones de Journey Optimizer, en caso de que se produzca un error de configuración de canal de correo electrónico al usar el tipo de delegación de subdominio personalizado. [Más información](../reports/alerts.md#alert-dns-record-missing)
 
 ## Notas de la versión de agosto de 2025 {#25-8-rn}
 
@@ -357,8 +361,6 @@ A continuación, se describen las mejoras incluidas en esta versión.
    * **Verificar conexión de SMS**: ahora puede probar y comprobar fácilmente sus credenciales de API de SMS en Adobe Journey Optimizer enviando un mensaje de ejemplo a un dispositivo designado. [Más información](../sms/sms-configuration-sinch.md)
 
 * **Configuración**
-
-  &lt;!--* **Compatibilidad con dominios dinámicos**: Journey Optimizer ahora admite la personalización completa o básica de direcciones URL para dominios predefinidos aceptados por Adobe. Esta capacidad está disponible en disponibilidad limitada para un conjunto de clientes. [Más información](../personalization/personalization-build-expressions.md#where)—Actualización del 21 de agosto: Esperando a eng. para confirmar cuando se implementa en prod.-->
 
    * **Compatibilidad con atributos personalizados con la URL de cancelación de suscripción de un solo clic**: con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer un punto final personalizado externo definiendo su propio vínculo para cancelar la suscripción con un solo clic en la configuración de correo electrónico. Cuando los destinatarios hacen clic en el vínculo Cancelar suscripción, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento.
 
