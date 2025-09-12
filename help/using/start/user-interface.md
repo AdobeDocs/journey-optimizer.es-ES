@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 2b342c80623416a7e54ac96d777da7a4aaefb3b8
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 99%
+source-wordcount: '1807'
+ht-degree: 96%
 
 ---
 
@@ -355,3 +355,10 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 >id="ajo_journey_business_rules"
 >title="Conjunto de reglas"
 >abstract="Conjunto de reglas"
+
+<!-- DATASET LOOKUP IN JOURNEYS -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_dataset_lookup"
+>title="Actividad de búsqueda de conjuntos de datos"
+>abstract="La actividad **[!UICONTROL Búsqueda de conjuntos de datos]** le permite recuperar dinámicamente datos de conjuntos de datos de registros de Adobe Experience Platform durante el tiempo de ejecución. Al aprovechar esta capacidad, puede acceder a datos que pueden no residir en el perfil o en la carga útil del evento, lo que garantiza que las interacciones de los clientes sean relevantes y oportunas."
