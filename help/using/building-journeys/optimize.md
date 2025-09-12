@@ -11,10 +11,10 @@ keywords: actividad, condición, lienzo, recorrido, optimización
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 5%
+source-wordcount: '1257'
+ht-degree: 4%
 
 ---
 
@@ -135,7 +135,7 @@ Los siguientes ejemplos muestran cómo usar la actividad **[!UICONTROL Optimizar
 
 Compruebe si el envío del primer mensaje por correo electrónico o por SMS genera conversiones más altas.
 
-➡️ Use la tasa de conversión como métrica de optimización (por ejemplo: compras, registros).
+➡️ Utilice la tasa de conversión como métrica de éxito (por ejemplo: compras, registros).
 
 ![](assets/journey-optimize-experiment-uc-channel.png)
 
@@ -145,7 +145,7 @@ Compruebe si el envío del primer mensaje por correo electrónico o por SMS gene
 
 Ejecute un experimento para comprobar si enviar un correo electrónico en lugar de tres durante una semana resulta en más compras.
 
-➡️ Use compras o la tasa de cancelación de suscripción como métrica de optimización.
+➡️ Use compras o la tasa de cancelación de suscripción como métrica de éxito.
 
 ![](assets/journey-optimize-experiment-uc-frequency.png)
 
@@ -155,7 +155,7 @@ Ejecute un experimento para comprobar si enviar un correo electrónico en lugar 
 
 Compare una espera de 24 horas con una espera de 72 horas antes de un seguimiento para determinar qué tiempo maximiza la participación.
 
-➡️: utilice la tasa de pulsaciones o los ingresos como métrica de optimización.
+➡️: utilice la tasa de pulsaciones o los ingresos como métrica de éxito.
 
 ![](assets/journey-optimize-experiment-uc-wait.png)
 
@@ -166,7 +166,7 @@ Compare una espera de 24 horas con una espera de 72 horas antes de un seguimient
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="¿Qué es la ruta de reserva?"
->abstract="La reserva crea una nueva ruta para la audiencia que no cumple ninguna de las reglas de segmentación definidas anteriormente.</br>Si no selecciona esta opción, las audiencias que no cumplan los requisitos para una regla de segmentación no entrarán en la ruta de reserva."
+>abstract="Las rutas de reserva permiten que la audiencia introduzca una ruta alternativa cuando no se cumplen las reglas de segmentación. </br>Si no selecciona esta opción, las audiencias que no cumplan los requisitos para una regla de segmentación no entrarán en la ruta de reserva y saldrán del recorrido."
 
 Las reglas de segmentación le permiten determinar reglas o cualificaciones específicas que deben cumplirse para que un cliente pueda entrar en una de las rutas de recorrido, según segmentos de audiencia específicos <!-- depending on profile attributes or contextual attributes-->.
 
@@ -196,11 +196,11 @@ Para configurar la segmentación en un recorrido, siga los pasos a continuación
 
    ![](assets/journey-targeting-rule.png)
 
-1. Seleccione la opción **[!UICONTROL Habilitar contenido de reserva]** según sea necesario. Esta acción crea una ruta de reserva para la audiencia que no cumple ninguna de las reglas de segmentación definidas anteriormente.
+1. Seleccione la opción **[!UICONTROL Habilitar ruta de acceso de reserva]** según sea necesario. Esta acción crea una ruta de reserva para la audiencia que no cumple ninguna de las reglas de segmentación definidas anteriormente.
 
    >[!NOTE]
    >
-   >Si no selecciona esta opción, las audiencias que no cumplan los requisitos para una regla de segmentación no acceden a la ruta de reserva.
+   >Si no selecciona esta opción, las audiencias que no cumplan los requisitos para una regla de segmentación no entran en la ruta de reserva y salen del recorrido.
 
 1. Haga clic en **[!UICONTROL Crear]** para guardar la configuración de la regla de segmentación.
 
@@ -234,7 +234,7 @@ Los siguientes ejemplos muestran cómo usar la actividad **[!UICONTROL Optimizar
 
 Los miembros con estatus Gold pueden recibir ofertas personalizadas por correo electrónico, mientras que el resto de los miembros reciben recordatorios por SMS.
 
-➡️: utilice los ingresos por perfil o la tasa de conversión como métrica de optimización.
+<!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-segment.png)
 
@@ -244,7 +244,7 @@ Los miembros con estatus Gold pueden recibir ofertas personalizadas por correo e
 
 A los clientes que abrieron un correo electrónico pero no hicieron clic se les puede enviar una notificación push, mientras que a los que no abrieron se les envía un SMS.
 
-➡️: utilice la tasa de pulsaciones o las conversiones descendentes como métrica de optimización.
+<!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-behavior.png)
 
@@ -254,15 +254,15 @@ A los clientes que abrieron un correo electrónico pero no hicieron clic se les 
 
 Los clientes que hayan realizado compras recientemente pueden optar por una breve ruta de &quot;agradecimiento + venta cruzada&quot;, mientras que aquellos que no tengan historial de compras ya no tendrán un recorrido de crianza.
 
-➡️ Use la tasa de repetición de compras o de participación como métrica de optimización.
+<!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
-## Añada una condición  {#conditions}
+### Añada una condición  {#conditions}
 
-Puede agregar una condición para definir cómo progresan las personas a través del recorrido creando varias rutas basadas en criterios específicos. También puede configurar una ruta alternativa para gestionar tiempos de espera o errores, lo que garantiza una experiencia sin problemas.
+Las condiciones son un tipo de reglas de [segmentación](#targeting) que le permiten definir cómo progresan los individuos a través de su recorrido mediante la creación de múltiples rutas basadas en criterios específicos.
 
 ![](assets/journey-condition.png)
 

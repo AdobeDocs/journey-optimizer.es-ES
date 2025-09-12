@@ -12,10 +12,10 @@ keywords: modo oscuro, correo electrónico, color, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
+source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 11%
+source-wordcount: '1527'
+ht-degree: 4%
 
 ---
 
@@ -24,21 +24,16 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Cambiar a modo oscuro"
->abstract="Cambie al modo oscuro, donde puede obtener una vista previa de cómo puede ser la representación y definir ajustes personalizados específicos. <br>Precaución: La representación final depende del cliente de correo electrónico del destinatario. No todos los clientes de correo electrónico admiten el modo oscuro personalizado."
-
->[!CONTEXTUALHELP]
->id="ac_edition_darkmode_image"
->title="Utilizar una imagen específica para el modo oscuro"
->abstract="Puede seleccionar otra imagen que se mostrará cuando el modo oscuro esté activado. <br>Precaución: Añadir una imagen específica para el modo oscuro no garantiza que se represente correctamente en todos los clientes de correo electrónico. No todos los clientes de correo electrónico admiten el modo oscuro personalizado."
+>abstract="Cambie al modo oscuro, donde puede previsualizar cómo se puede procesar y definir ajustes personalizados específicos. <br>El procesamiento final depende del cliente de correo electrónico del destinatario. Tenga en cuenta que todos los clientes de correo electrónico no admiten el modo oscuro personalizado."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="Cambiar a modo oscuro"
->abstract="Cambie al modo oscuro, donde puede obtener una vista previa de cómo se puede representar en los clientes de correo electrónico compatibles. <br>Precaución: La representación final depende del cliente de correo electrónico del destinatario. No todos los clientes de correo electrónico admiten el modo oscuro personalizado."
+>abstract="Cambie al modo oscuro, donde puede obtener una vista previa de cómo se puede representar en los clientes de correo electrónico compatibles. <br>El procesamiento final depende del cliente de correo electrónico del destinatario. Tenga en cuenta que todos los clientes de correo electrónico no admiten el modo oscuro."
 
 >[!AVAILABILITY]
 >
->Actualmente, esta función está en versión Beta y solo se encuentra disponible para los clientes de dicha versión. Para unirse al programa beta, póngase en contacto con su representante de Adobe.
+>Actualmente, esta funcionalidad está en versión beta y solo está disponible para los clientes de la versión beta. <!--To join the beta program, contact your Adobe representative.-->
 
 Al diseñar los mensajes de correo electrónico, [!DNL Journey Optimizer] [Email Designer](get-started-email-design.md) le permite cambiar a la vista **[!UICONTROL Modo oscuro]**.
 
@@ -73,6 +68,7 @@ Antes de usar el modo oscuro en [!DNL Journey Optimizer] Email Designer, es cruc
 ### Clientes que no admiten el modo oscuro {#not-supporting}
 
 Algunos clientes de correo electrónico no admiten esta función en absoluto, como:
+
 * Yahoo!Mail
 * AOL
 
@@ -80,7 +76,9 @@ Tanto si define la configuración personalizada de modo oscuro como si no lo hac
 
 ### Clientes que aplican su propio modo oscuro {#default-support}
 
-Algunos clientes de correo electrónico aplican sistemáticamente su propio modo oscuro predeterminado para todos los correos electrónicos recibidos. Colores, fondos, imágenes, etc. se ajustan automáticamente con la configuración del modo oscuro específica del cliente de correo electrónico.
+Algunos clientes de correo electrónico aplican sistemáticamente su propio modo oscuro predeterminado para todos los correos electrónicos recibidos. Colores, fondos, imágenes, etc. se ajustan automáticamente con la configuración del modo oscuro específica del cliente de correo electrónico, lo que significa que no es posible realizar ninguna modificación externa.
+
+<!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
 Estos clientes son, por ejemplo:
 
@@ -173,6 +171,11 @@ Significa que detecta áreas con elementos claros y oscuros y los invierte, de m
 Here you can see that we have applied a different background, defined another image and change the color of the text and button.-->
 
 ### Definir modo oscuro personalizado {#define-custom-dark-mode}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_darkmode_image"
+>title="Utilizar una imagen específica para el modo oscuro"
+>abstract="Puede seleccionar otra imagen que se mostrará cuando el modo oscuro esté activado. <br>Añadir una imagen específica para el modo oscuro no garantiza que se represente correctamente en todos los clientes de correo electrónico. Tenga en cuenta que todos los clientes de correo electrónico no admiten el modo oscuro personalizado."
 
 Después de cambiar a **[!UICONTROL Modo oscuro]**, puede elegir editar elementos de estilo específicos de su contenido que se mostrarán solo cuando el modo oscuro esté habilitado en el cliente de correo electrónico del destinatario, siempre que admita esa función.
 
