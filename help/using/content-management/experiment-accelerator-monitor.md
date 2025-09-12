@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator
+title: monitor de Experimentation Accelerator
 description: Mejore su capacidad para realizar experimentos de forma eficaz y generar perspectivas
 feature: Experimentation
 topic: Content Management
@@ -10,19 +10,22 @@ level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 hide: true
 hidefromtoc: true
-source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1069'
 ht-degree: 1%
 
 ---
 
-# Pestaña Experimentos {#monitor}
+# Seguimiento de experimentos {#monitor}
 
 >[!BEGINSHADEBOX]
 
 * [Introducción a Experimentation Accelerator](experiment-accelerator.md)
-* **[Pestaña Experimentos](experiment-accelerator-monitor.md)**
+* [Uso de datos en IA con Experimentation Accelerator](experiment-accelerator-security.md)
+* [Prácticas recomendadas de Experimentation Accelerator](experiment-accelerator-best-practices.md)
+* **[Supervisar experimentos](experiment-accelerator-monitor.md)**
+* [Métricas de experimentación](experiment-accelerator-metrics.md)
 
 >[!ENDSHADEBOX]
 
@@ -180,6 +183,6 @@ La tabla **[!UICONTROL Results]** proporciona un desglose detallado del rendimie
 
 **[!UICONTROL Perspectivas de experimento]** son aprendizajes generados por IA derivados de este experimento. Estas perspectivas están disponibles una vez que el experimento alcanza la relevancia estadística y proporcionan una comprensión contextual de lo que contribuyó a su éxito. Destacan los atributos clave presentes en el tratamiento ganador, distintos del control, que probablemente influyeron en el resultado.
 
-Tenga en cuenta que para que se generen perspectivas de experimento, primero debe [confirmar la hipótesis y los detalles del tratamiento](#set-up).
+Tenga en cuenta que para que se generen perspectivas de experimento, primero debe [confirmar los detalles de la hipótesis y el tratamiento](#set-up) y alcanzar la relevancia estadística.
 
 Haga clic en **[!UICONTROL Ver detalles]** para obtener más información sobre cada información.
