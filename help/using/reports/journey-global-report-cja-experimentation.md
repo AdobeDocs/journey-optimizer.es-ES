@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b63dea783a2f85d17aacc12c23a9f63d880aeeee
+source-git-commit: 14758fa4db49aed686c1554718337983d3812595
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,12 @@ El informe de Recorrido le ofrece una vista completa del rendimiento de su exper
 En Journey Optimizer, la experimentación con recorridos se divide en dos tipos:
 
 * [Experimentos de contenido](../content-management/content-experiment.md)
+
+  Tenga en cuenta que las tablas y los KPI detallados para el experimento de contenido son los mismos que para un experimento de ruta. Consulte la [documentación siguiente](#experimentation) si ha configurado un experimento de contenido.
+
 * [Experimentos de ruta](../building-journeys/optimize.md)
 
 ## Experimento de ruta {#experimentation}
-
->[!NOTE]
->
-> Las tablas y los KPI detallados para el experimento de contenido son los mismos que para un experimento de ruta. Consulte la documentación siguiente si ha configurado un experimento de contenido.
 
 ### KPI de experimentación {#experimentation-kpis}
 
