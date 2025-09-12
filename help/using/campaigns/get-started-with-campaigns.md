@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
+source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '879'
 ht-degree: 70%
 
 ---
@@ -57,6 +57,31 @@ ht-degree: 70%
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campaña"
 >abstract="Seleccione el tipo de campaña. Los canales disponibles varían según el tipo seleccionado. <br>**Campañas programadas** (campañas de acción): ideal para comunicaciones por lotes simples y puntuales que se pueden programar para que se ejecuten a una hora específica.<br>**Campañas activadas por API**: se activan mediante una llamada de API, lo que permite la mensajería automatizada basada en eventos directamente desde sistemas externos.<br>**Campañas orquestadas**: proporcione un lienzo visual de arrastrar y soltar para diseñar y automatizar flujos de trabajo de marketing complejos y de varios pasos, desde la segmentación de audiencia hasta la entrega personalizada de mensajes en todos los canales."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_orchestration"
+>title="Campañas"
+>abstract="Cree su flujo de segmentación, cree sus mensajes en canales múltiples y planifique sus campañas. Canales admitidos: correo electrónico, SMS, notificación push."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_marketing"
+>title="Campañas"
+>abstract="Envíe entregas salientes únicas o recurrentes, o acciones entrantes en curso."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_transactional"
+>title="Campañas"
+>abstract="Ofrezca acciones transaccionales salientes únicas o recurrentes."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_marketing"
+>title="Campañas"
+>abstract="Ofrezca comunicaciones de marketing personalizadas a los públicos segmentados. Canales compatibles: correo electrónico, SMS, notificaciones push."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_transactional"
+>title="Campañas"
+>abstract="Envíe comunicaciones transaccionales a perfiles individuales o conjuntos de perfiles. Canales compatibles: correo electrónico, SMS, notificaciones push."
 
 Utilice las campañas de Journey Optimizer para ofrecer contenido único a un público específico mediante varios canales. Cuando se utilizan recorridos, las acciones se ejecutan en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada.
 
