@@ -7,9 +7,9 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
-source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
+source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 # Modelos de optimización automática {#auto-optimization-model}
 
 Un modelo de optimización automática tiene como objetivo ofrecer ofertas que maximicen el rendimiento (KPI) establecido por los clientes empresariales. Estos KPI pueden adoptar la forma de tasas de conversión, ingresos, etc. En este punto, la optimización automática se centra en optimizar los clics de oferta con la conversión de ofertas como objetivo. La optimización automática no está personalizada y se optimiza en función del rendimiento &quot;global&quot; de las ofertas.
+
+## Requisitos del conjunto de datos
+
+Para entrenar un modelo de optimización automática, el conjunto de datos debe cumplir los siguientes requisitos mínimos:
+
+* Al menos 2 ofertas del conjunto de datos deben tener al menos 100 eventos de visualización y 5 eventos de clic en los últimos 14 días.
+* El modelo tratará las ofertas con menos de 100 visualizaciones o eventos de 5 clics en los últimos 14 días como nuevas ofertas y solo son elegibles para ser servidas por el bandido de exploración.
+* El modelo tratará las ofertas con más de 100 visualizaciones y eventos de 5 clics en los últimos 14 días como ofertas existentes y pueden ser servidas por bandidos de exploración y explotación.
+
+Hasta la primera vez que se entrene un modelo de optimización automática, las ofertas dentro de una estrategia de selección que utilice un modelo de optimización automática se servirán al azar.
 
 ## Limitaciones {#limitations}
 
@@ -61,7 +71,7 @@ Del Teorema De Bayes:
 
 La **probabilidad anterior** es la suposición inicial acerca de la probabilidad de producir un resultado. La probabilidad, después de que se hayan recopilado algunas pruebas, se conoce como la **probabilidad posterior**. 
 
-La optimización automática está diseñada para tener en cuenta las recompensas binarias (clic/sin clic). En este caso, la probabilidad representa el número de éxitos de N ensayos y está modelada por una **distribución binomial**. Para algunas funciones de probabilidad, si se elige una determinada anterior, la posterior termina estando en la misma distribución que la anterior. A este tipo de prior se le denomina **conjugado prior**. Este tipo de antecedente hace que el cálculo de la distribución posterior sea muy sencillo. La **distribución Beta** es un conjugado anterior a la probabilidad binomial (recompensas binarias), por lo que es una opción conveniente y sensata para las distribuciones de probabilidad anterior y posterior. La distribución Beta toma dos parámetros, **&#x200B;**&#x200B;**&#x200B; y &#x200B;**&#x200B;**&#x200B;**. Estos parámetros pueden considerarse como el recuento de éxitos y errores y el valor medio dado por:
+La optimización automática está diseñada para tener en cuenta las recompensas binarias (clic/sin clic). En este caso, la probabilidad representa el número de éxitos de N ensayos y está modelada por una **distribución binomial**. Para algunas funciones de probabilidad, si se elige una determinada anterior, la posterior termina estando en la misma distribución que la anterior. A este tipo de prior se le denomina **conjugado prior**. Este tipo de antecedente hace que el cálculo de la distribución posterior sea muy sencillo. La **distribución Beta** es un conjugado anterior a la probabilidad binomial (recompensas binarias), por lo que es una opción conveniente y sensata para las distribuciones de probabilidad anterior y posterior. La distribución Beta toma dos parámetros, ****** y ******. Estos parámetros pueden considerarse como el recuento de éxitos y errores y el valor medio dado por:
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
@@ -71,7 +81,7 @@ La distribución anterior se modela mediante Beta y la posterior toma la siguien
 
 ![](../assets/ai-ranking-posterior-distribution.svg)
 
-La parte posterior se calcula simplemente agregando el número de aciertos y errores a los parámetros existentes **&#x200B;**&#x200B;**, &#x200B;**&#x200B;**&#x200B;**.
+La parte posterior se calcula simplemente agregando el número de aciertos y errores a los parámetros existentes ******, ******.
 
 Para la optimización automática, como se muestra en el ejemplo anterior, comenzamos con una distribución anterior ***Beta(1, 1)*** (distribución uniforme) para todas las ofertas y después de obtener los éxitos y los errores de una oferta determinada, la posterior se convierte en una distribución Beta con los parámetros ***(s+, f+)*** para esa oferta.
 +++
