@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
->title="Actividad Acción"
+>title="Actividad de acción"
 >abstract="La actividad genérica **Acción** le permite configurar una sola acción de canal nativo y varias actividades entrantes con la capacidad de añadir la optimización a cualquier acción de canal integrada."
 
 >[!AVAILABILITY]
@@ -33,7 +33,7 @@ ht-degree: 15%
 Permite lo siguiente:
 
 * Una configuración de acción nativa simplificada dentro del lienzo de recorrido.
-* Capacidad para crear grupos de acciones entrantes de varias acciones.
+* La capacidad para crear grupos de acciones entrantes de varias acciones.
 * Capacidad de añadir optimización a cualquier acción de canal integrada.
 
 >[!NOTE]
@@ -102,7 +102,7 @@ El modo de envío rápido es un complemento de [!DNL Journey Optimizer] que perm
 
 La entrega rápida se utiliza cuando el retraso en la entrega de mensajes es crítico para la empresa, cuando desea enviar una alerta push urgente en teléfonos móviles, por ejemplo, una noticia de última hora a los usuarios que han instalado su aplicación de canal de noticias.
 
-Para obtener más información sobre el rendimiento al usar el modo de envío rápido, consulte [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html).
+Para obtener más información sobre el rendimiento al usar el modo de envío rápido, consulte [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
