@@ -5,9 +5,9 @@ title: Limitaciones y protecciones de campañas organizadas
 description: Obtenga información acerca de las limitaciones y protecciones de campañas orquestadas
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
+source-git-commit: 359a2e5b60ba035e300f452e1211245f8f689609
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Protecciones y limitaciones {#guardrails}
 
-A continuación, encontrará limitaciones y protecciones adicionales al utilizar campañas orquestadas.
+A continuación, encontrará limitaciones y protecciones al utilizar campañas orquestadas.
 
 ## Limitaciones de flujo de datos
 
