@@ -5,10 +5,10 @@ title: Preguntas más frecuentes sobre campañas organizadas
 description: Preguntas frecuentes sobre las campañas orquestadas de Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: 028f5d506d5fdbd2ed19ad7ded8c1fcd0a391702
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 4%
+source-wordcount: '1043'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 A continuación, encontrará las preguntas más frecuentes sobre campañas organizadas de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## ¿Qué es la orquestación de Campaign? {#what-are-oc}
 
@@ -105,7 +105,7 @@ Las campañas usan una **base de datos relacional**. Esto le permite realizar co
 
 >[!ENDSHADEBOX]
 
-## ¿Puedo personalizar mensajes con estos datos? {#personalization}
+## ¿Puedo personalizar mensajes con datos relacionales? {#personalization}
 
 Sí. En Campaign Orchestration, se puede actualizar un perfil de destinatario conocido como &quot;entidad de personas&quot; y utilizar esos datos para la personalización. Además, los datos enriquecidos de entidades vinculadas en la base de datos relacional también se pueden utilizar para la personalización. Puede utilizar perfiles de clientes junto con datos vinculados (como compras o suscripciones) para personalizar el contenido en todos los canales admitidos.
 
@@ -120,7 +120,7 @@ Sí. En Campaign Orchestration, se puede actualizar un perfil de destinatario co
 >[!ENDSHADEBOX]
 
 
-## ¿Se integra con otras soluciones de Adobe? {#integrations}
+## ¿Las campañas organizadas se integran con otras soluciones de Adobe? {#integrations}
 
 Sí. La orquestación de Campaign está integrada de forma nativa con:
 
@@ -142,7 +142,7 @@ Los permisos y el consentimiento para campañas y recorridos organizados se admi
 
 >[!ENDSHADEBOX]
 
-## ¿Puedo realizar la segmentación ad hoc? {#ad-hoc}
+## ¿Puedo realizar la segmentación ad-hoc en campañas orquestadas? {#ad-hoc}
 
 En Campaign Orchestration, nos referimos a la segmentación ad hoc como &quot;Segmentación en directo&quot;, donde puede acceder a todos los datos disponibles en el almacén relacional en tiempo real, crear una consulta compleja sobre ella y obtener el resultado de la activación instantánea mediante canales salientes (por ejemplo, correo electrónico + SMS).
 
@@ -158,7 +158,7 @@ En Campaign Orchestration, nos referimos a la segmentación ad hoc como &quot;Se
 
 
 
-## ¿Admite esto la toma de decisiones? {#decisioning}
+## ¿Las campañas organizadas admiten la toma de decisiones? {#decisioning}
 
 Sí. Decisioning puede utilizar datos relacionales de campañas orquestadas. Una vez que el esquema relacional se ha conectado con esquemas XDM, los datos XDM se pueden utilizar en la toma de decisiones.
 
@@ -176,16 +176,17 @@ Los objetos creados en campañas orquestadas (por ejemplo, audiencias o flujos d
 
 >[!ENDSHADEBOX]
 
-## ¿Existen prácticas recomendadas para ejecutar campañas a escala? {#scale}
+<!--
+## Are there recommended practices for running campaigns at scale? {#scale}
 
-Sí, siga las prácticas recomendadas a continuación:
+Yes, follow the best practices below:  
 
-* **Planifique campañas en torno a calendarios comerciales** (lanzamientos de productos, picos estacionales) para alinear volumen y recursos.
-* Use **vistas previas de audiencias** antes de enviar para confirmar el tamaño esperado y evitar sorpresas.
-* Siempre que sea posible, **escalone los tiempos de envío** para evitar sobrecargar los sistemas descendentes (por ejemplo, centros de llamadas, sitios web).
-* Establezca una **rutina de supervisión**: haga un seguimiento de los registros de envío, las tasas de error y las exclusiones después de cada envío.
-* Ejecute **análisis posterior a la campaña** en Customer Journey Analytics para restringir el direccionamiento y la orquestación para el siguiente ciclo.
-
+* **Plan campaigns around business calendars** (product launches, seasonal peaks) to align volume and resources.  
+* Use **audience pre-views** before sending to confirm the expected size and avoid surprises.  
+* Where possible, **stagger send times** to avoid overwhelming downstream systems (e.g., call centers, websites).  
+* Establish a **monitoring routine**—track delivery logs, error rates, and opt-outs after each send.  
+* Run **post-campaign analysis** in Customer Journey Analytics to refine targeting and orchestration for the next cycle.  
+-->
 
 
 >[!MORELIKETHIS]
