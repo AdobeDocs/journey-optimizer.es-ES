@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: LINE
 description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
-source-git-commit: 588b0f805e9fcf1087e0eb368ebf31bbddaa30d4
-workflow-type: tm+mt
+exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
-
 
 # LINE{#section-overview}
 
@@ -30,31 +30,31 @@ Antes de crear el mensaje de LINE, configure el canal de LINE con Journey Optimi
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configuración del canal LINE
+Configurar el canal LINE
 
-Siga las instrucciones paso a paso para configurar manualmente el canal LINE o configurar los ajustes de canal mediante la API de Adobe Journey Optimizer.
+Siga las instrucciones paso a paso para configurar manualmente el canal LINE o configure los ajustes de canal mediante la API de Adobe Journey Optimizer.
 
-[Obtenga información sobre cómo configurar](../using/line/line-configuration.md)
+[Aprenda a configurar](../using/line/line-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Creación y configuración de mensajes de LINE
+Crear y configurar mensajes LINE
 
-Descubra cómo añadir mensajes de LINE a recorridos y campañas, personalizar el contenido y realizar pruebas de contenido.
+Descubra cómo añadir mensajes LINE a recorridos y campañas, personalizar el contenido y realizar pruebas de contenido.
 
 [Empezar a crear mensajes](../using/line/create-line.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Comprobación y envío de mensajes de LINE
+Comprobar y enviar mensajes LINE
 
-Vista previa, validación y envío de mensajes de LINE en Adobe Journey Optimizer, lo que garantiza un envío correcto con prácticas recomendadas.
+Previsualice, valide y envíe mensajes LINE en Adobe Journey Optimizer, lo que garantiza un envío correcto con prácticas recomendadas.
 
 [Obtener sugerencias para enviar mensajes](../using/line/send-line.md)
 :::

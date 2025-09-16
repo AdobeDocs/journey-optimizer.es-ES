@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: Administrar los recorridos
 description: Administrar los recorridos
 redpen-status: CREATED_||_2025-08-11_20-08-03
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Administrar los recorridos{#section-overview}
 
-La administración de los recorridos en Adobe Journey Optimizer consiste en proporcionarle las herramientas para organizar y perfeccionar el modo en que las experiencias de los clientes se desarrollan en los distintos canales. En esta sección se exploran conceptos clave como los tipos de recorrido, los estados y los criterios de filtrado, lo que le ayuda a dar sentido a las diferentes formas en que los recorridos pueden comenzar, avanzar y finalizar. Aprenderá a visualizar las programaciones, optimizar los tiempos de envío e incluso transferir recorridos entre entornos. Tanto si desea crear experiencias personalizadas como aprovechar la IA para una participación más inteligente, esta guía le proporcionará pasos y perspectivas prácticos para ayudarle a diseñar y administrar recorridos con confianza.
+La administración de los recorridos en Adobe Journey Optimizer consiste en proporcionarle las herramientas para organizar y perfeccionar el modo en que las experiencias de los clientes se desarrollan en los distintos canales. En esta sección se exploran conceptos clave como los tipos de recorrido, los estados y los criterios de filtrado, lo que da sentido a las diferentes formas en que los recorridos pueden comenzar, avanzar y finalizar. Aprenderá a visualizar las programaciones, optimizar las horas de envío e incluso transferir recorridos entre entornos. Tanto si está creando experiencias personalizadas como si aprovecha la IA para una participación más inteligente, esta guía le proporcionará pasos e información práctica para ayudarle a diseñar y administrar recorridos con confianza.
 
-## Administrar los Recorridos
+## Administrar los recorridos
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Examinar y filtrar sus Recorridos
+Examinar y filtrar los recorridos
 
-Obtenga información sobre cómo navegar, filtrar y administrar recorridos de forma eficaz, incluidas las métricas del panel de recorridos, las vistas de calendarios y los procesos de duplicación.
+Descubra cómo navegar, filtrar y administrar recorridos de forma eficaz, incluidas las métricas del panel de recorridos, las vistas de calendario y los procesos de duplicación.
 
-[Explorar administración de Recorrido](../using/building-journeys/journey-ui.md)
+[Explorar la administración de recorrido](../using/building-journeys/journey-ui.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Entrada de perfil en Recorrido
+Entrada del perfil en los recorridos
 
-Comprenda cómo los perfiles entran en los recorridos, incluidas las reglas de reentrada para eventos unitarios, cualificaciones de audiencia y recorridos de audiencia de lectura.
+Descubra cómo los perfiles entran en los recorridos, incluidas las reglas de reentrada para eventos unitarios, calificaciones del público y recorridos de lectura del público.
 
-[Más Información Sobre La Entrada De Perfil](../using/building-journeys/entry-management.md)
+[Más información sobre la entrada del perfil](../using/building-journeys/entry-management.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Uso de identificadores adicionales en Recorrido
+Usar identificadores suplementarios en los recorridos
 
-Descubra cómo aprovechar los identificadores suplementarios para una personalización mejorada y varias instancias de recorrido por perfil.
+Descubra cómo aprovechar los identificadores suplementarios para una mejor personalización y varias instancias de recorrido por perfil.
 
-[Introducción a los identificadores adicionales](../using/building-journeys/supplemental-identifier.md)
+[Introducción a los identificadores suplementarios](../using/building-journeys/supplemental-identifier.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Administración de husos horarios
+Administración de zonas horarias
 
-Obtenga información sobre cómo configurar zonas horarias fijas y definidas por perfil para garantizar una sincronización adecuada para las actividades de recorrido.
+Descubra cómo configurar zonas horarias fijas y definidas por el perfil para garantizar una sincronización adecuada para las actividades de recorrido.
 
-[Comprender la configuración de zona horaria](../using/building-journeys/timezone-management.md)
+[Comprender la configuración de zonas horarias](../using/building-journeys/timezone-management.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Optimización del tiempo de envío
 
-Maximice la participación en los mensajes push y de correo electrónico prediciendo los tiempos de envío óptimos mediante modelos impulsados por IA.
+Maximice la participación de los mensajes push y de correo electrónico prediciendo las horas de envío óptimas mediante modelos basados en la IA.
 
 [Optimizar el tiempo de los mensajes](../using/building-journeys/send-time-optimization.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Finalizar el Recorrido
+Finalizar el recorrido
 
-Explore cómo terminan los recorridos, incluido el cierre, la detención y la administración de salidas de perfil en Adobe Journey Optimizer.
+Explore cómo finalizan los recorridos, incluido el cierre, la detención y la administración de salidas del perfil en Adobe Journey Optimizer.
 
-[Descubra cómo terminan los Recorridos](../using/building-journeys/end-journey.md)
+[Más información sobre cómo finalizan los recorridos](../using/building-journeys/end-journey.md)
 :::
 
 ::::
@@ -84,5 +84,5 @@ Explore cómo terminan los recorridos, incluido el cierre, la detención y la ad
 
 ## Recursos adicionales
 
-- **[Copiar un Recorrido en otra zona protegida](../using/building-journeys/copy-to-sandbox.md)**: aprenda a transferir recorridos y objetos dependientes entre entornos de zona protegida mediante exportaciones e importaciones de paquetes.
-- **[Integrar con servicios inteligentes](../using/building-journeys/ai-services-overview.md)**: aproveche la IA y el aprendizaje automático para la predicción del comportamiento de los clientes y la medición de impacto de las campañas con los servicios inteligentes de Adobe.
+- **[Copiar un recorrido en otra zona protegida](../using/building-journeys/copy-to-sandbox.md)**: descubra cómo transferir recorridos y objetos dependientes entre entornos de zona protegida mediante exportaciones e importaciones de paquetes.
+- **[Integración con los servicios inteligentes](../using/building-journeys/ai-services-overview.md)**: aproveche la IA y el aprendizaje automático para la predicción del comportamiento de los clientes y la medición de impacto de las campañas con los servicios inteligentes de Adobe.

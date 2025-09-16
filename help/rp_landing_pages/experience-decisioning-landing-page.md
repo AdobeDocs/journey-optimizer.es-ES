@@ -4,75 +4,75 @@ product: Journey Optimizer
 title: Toma de decisiones
 description: Toma de decisiones
 redpen-status: CREATED_||_2025-08-11_20-57-38
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # Toma de decisiones{#section-overview}
 
-La función Decisioning de Adobe Journey Optimizer le permite ofrecer ofertas de marketing personalizadas combinando un catálogo centralizado de elementos de decisión con un potente motor de decisión. Ya sea que esté personalizando el contenido para audiencias individuales o optimizando estrategias con clasificaciones impulsadas por IA, Decisioning proporciona las herramientas para tomar decisiones basadas en datos a escala. Explore conceptos clave como elementos de decisión, reglas y políticas, y explore cómo estos elementos trabajan juntos para seleccionar y priorizar el mejor contenido para sus campañas. Desde la administración de colecciones y ubicaciones hasta el aprovechamiento de los datos de Adobe Experience Platform, esta guía completa le ayuda a desbloquear una personalización más inteligente y a impulsar experiencias de cliente impactantes.
+La función de toma de decisiones de Adobe Journey Optimizer le permite suministrar ofertas de marketing personalizadas combinando un catálogo centralizado de elementos de decisión con un potente motor de decisión. Tanto si está personalizando el contenido para públicos individuales u optimizando estrategias con clasificaciones con tecnología de IA, la toma de decisiones proporciona las herramientas para tomar decisiones basadas en datos a escala. Explore conceptos clave como los elementos de decisión, las reglas y las políticas, y explore cómo estos elementos funcionan conjuntamente para seleccionar y priorizar el mejor contenido para sus campañas. Desde la administración de colecciones y ubicaciones hasta el aprovechamiento de los datos de Adobe Experience Platform, esta guía completa le ayuda a descubrir una personalización más inteligente y a impulsar experiencias de cliente impactantes.
 
-## Funciones de decisiones
+## Funciones de toma de decisiones
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a la toma de decisiones
 
-Conozca los aspectos básicos de la toma de decisiones en Adobe Journey Optimizer, incluida la entrega de contenido personalizado y los pasos clave de configuración.
+Conozca los aspectos básicos de las tomas de decisiones en Adobe Journey Optimizer, incluido el envío de contenido personalizado y los pasos clave de configuración.
 
 [Introducción a la toma de decisiones](../using/experience-decisioning/gs-experience-decisioning.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-Limitaciones y protecciones de decisiones
+Mecanismos de protección y limitaciones de las tomas de decisiones
 
-Comprenda las restricciones y las prácticas recomendadas para utilizar Decisioning de forma eficaz en Adobe Journey Optimizer.
+Conozca las restricciones y las prácticas recomendadas para utilizar las tomas de decisiones de forma eficaz en Adobe Journey Optimizer.
 
-[Más información sobre las protecciones](../using/experience-decisioning/decisioning-guardrails.md)
+[Más información sobre los mecanismos de protección](../using/experience-decisioning/decisioning-guardrails.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Referencia de API: Entrega de ofertas
+Referencia de API: envío de ofertas
 
-Explore cómo entregar ofertas utilizando el canal de experiencia basada en código con varios métodos de implementación.
+Explore cómo enviar ofertas utilizando el canal de experiencia basada en código con varios métodos de implementación.
 
-[Ver referencia de API](experience-decisioning-api-reference-landing-page.md)
+[Ver referencia de la API](experience-decisioning-api-reference-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Administrar elementos y catálogos de decisión
+Administrar elementos de decisión y catálogos
 
 Configure y administre elementos de decisión, catálogos y colecciones para organizar y personalizar ofertas de marketing.
 
-[Administración de elementos de decisión](manage-decision-items-landing-page.md)
+[Administrar elementos de decisión](manage-decision-items-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Crear reglas de decisión
 
-Defina reglas de decisión para dirigirse a las audiencias con precisión mediante restricciones y herramientas de segmentación.
+Defina reglas de decisión para dirigirse a los públicos con precisión mediante restricciones y herramientas de segmentación.
 
 [Crear reglas de decisión](../using/experience-decisioning/rules.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Creación de clasificaciones con modelos de IA
+Crear clasificaciones con modelos de IA
 
 Optimice la toma de decisiones con métodos de clasificación y modelos de IA para priorizar las ofertas de marketing de forma eficaz.
 
@@ -85,8 +85,8 @@ Optimice la toma de decisiones con métodos de clasificación y modelos de IA pa
 ## Recursos adicionales
 
 - **[Crear ubicaciones de correo electrónico](../using/experience-decisioning/placements.md)**: aprenda a crear ubicaciones para campañas de correo electrónico a fin de mostrar de forma eficaz los elementos de decisión.
-- **[Usar datos de Adobe Experience Platform](aep-data-landing-page.md)**: integra datos de Adobe Experience Platform para enriquecer las reglas de decisión y las fórmulas de clasificación.
-- **[Crear estrategias de selección](../using/experience-decisioning/selection-strategies.md)**: cree estrategias de selección reutilizables para determinar la entrega de ofertas utilizando métodos de clasificación y restricciones.
-- **[Crear directivas de decisión](../using/experience-decisioning/create-decision.md)**: configure directivas de decisión para personalizar dinámicamente el contenido de los perfiles de audiencia.
-- **[Informe sobre toma de decisiones](../using/experience-decisioning/cja-reporting.md)** - Supervise los KPI de toma de decisiones y cree paneles de informes personalizados con Customer Journey Analytics.
-- **[Casos de uso de decisiones](../using/experience-decisioning/experience-decisioning-uc.md)**: Aprenda a implementar estrategias de decisión para experiencias basadas en código y experimentos de contenido.
+- **[Usar datos de Adobe Experience Platform](aep-data-landing-page.md)**: integre datos de Adobe Experience Platform para enriquecer las reglas de decisión y las fórmulas de clasificación.
+- **[Crear estrategias de selección](../using/experience-decisioning/selection-strategies.md)**: genere estrategias de selección reutilizables para determinar el envío de ofertas utilizando métodos de clasificación y restricciones.
+- **[Crear políticas de decisión](../using/experience-decisioning/create-decision.md)**: configure las políticas de decisión para personalizar dinámicamente el contenido de los perfiles del público.
+- **[Informe sobre la toma de decisiones](../using/experience-decisioning/cja-reporting.md)**: monitorice los KPI de toma de decisiones y cree paneles de informes personalizados con Customer Journey Analytics.
+- **[Casos de uso de toma de decisiones](../using/experience-decisioning/experience-decisioning-uc.md)**: aprenda a implementar estrategias de decisión para experiencias basadas en el código y experimentos de contenido.

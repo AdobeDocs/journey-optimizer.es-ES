@@ -4,55 +4,55 @@ product: Journey Optimizer
 title: Personalización
 description: Personalización
 redpen-status: CREATED_||_2025-08-12_00-36-08
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: dadda702-fc45-46c6-91c5-2887ff732a95
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-
 # Personalización{#section-overview}
 
-Personalization en Adobe Journey Optimizer le permite crear experiencias de cliente adaptadas e impactantes mediante la personalización dinámica de contenido en función de perfiles, comportamientos y datos contextuales individuales. Tanto si va a crear correos electrónicos, notificaciones u ofertas personalizadas, las herramientas y técnicas proporcionadas facilitan la conexión del mensaje correcto a la persona adecuada y en el momento adecuado. Descubra cómo el Editor de Personalization, la sintaxis de Handlebars y los datos de Adobe Experience Platform trabajan juntos para dar vida a sus ideas, explorar bloques de contenido reutilizables con fragmentos de expresión y sumergirse en funciones de ayuda avanzadas para desbloquear posibilidades más profundas. Cada tema desarrolla sus habilidades paso a paso, lo que garantiza que esté listo para diseñar recorridos personalizados con confianza.
+La personalización en Adobe Journey Optimizer le permite crear experiencias de cliente adaptadas e impactantes mediante la personalización dinámica de contenido en función de perfiles, comportamientos y datos contextuales individuales. Tanto si va a crear correos electrónicos, notificaciones u ofertas personalizadas, las herramientas y técnicas proporcionadas facilitan la conexión del mensaje correcto con la persona adecuada y en el momento adecuado. Descubra cómo el editor de personalización, la sintaxis de las barras de controlador y los datos de Adobe Experience Platform funcionan conjuntamente para hacer realidad sus ideas, explorar bloques de contenido reutilizables con fragmentos de expresiones y profundizar en las funciones de ayuda avanzadas para descubrir más posibilidades. Cada tema desarrolla sus capacidades paso a paso, lo que garantiza que pueda diseñar recorridos personalizados con confianza.
 
-## Funciones y guías de Personalization
+## Funciones y guías de personalización
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Introducción a Personalization
+Introducción a la personalización
 
-Conozca los conceptos básicos de la personalización en Adobe Journey Optimizer, incluido el editor de personalización, las fuentes de datos y las herramientas de experimentación interactiva.
+Aprenda los conceptos básicos de la personalización en Adobe Journey Optimizer, incluyendo el editor de personalización, las fuentes de datos y las herramientas de experimentación interactiva.
 
 [Iniciar la personalización del aprendizaje](../using/personalization/personalize.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adición y validación de Personalization
+Añadir y validar la personalización
 
 Domine el editor de personalización para crear contenido personalizado para correos electrónicos, notificaciones push, direcciones URL y ofertas, con mecanismos de validación para garantizar la precisión.
 
-[Aprenda a añadir personalización](../using/personalization/personalization-build-expressions.md)
+[Información sobre cómo añadir personalización](../using/personalization/personalization-build-expressions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Explicación de la sintaxis de Personalization
+Información sobre la sintaxis de personalización
 
-Sumérjase en las reglas y ejemplos de la sintaxis de personalización basada en Handlebars para crear contenido dinámico y personalizado.
+Profundice en las reglas y ejemplos de la sintaxis de personalización basada en las barras de controlador para crear contenido dinámico y personalizado.
 
-[Explicación de la sintaxis de personalización](../using/personalization/personalization-syntax.md)
+[Información sobre la sintaxis de personalización](../using/personalization/personalization-syntax.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Reutilizar fragmentos de expresión
+Reutilizar fragmentos de expresiones
 
 Aproveche los fragmentos de expresiones reutilizables para una personalización eficiente y coherente en todas las campañas y recorridos.
 
@@ -60,19 +60,19 @@ Aproveche los fragmentos de expresiones reutilizables para una personalización 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
-Uso de datos de Adobe Experience Platform para Personalization (Beta)
+Uso de datos de Adobe Experience Platform para la personalización (Beta)
 
-Aprenda a utilizar los conjuntos de datos de AEP con la función de ayuda &quot;datasetLookup&quot; para personalizar el contenido de forma dinámica.
+Aprenda a utilizar los conjuntos de datos de AEP con la función de ayuda &#39;datasetLookup&#39; para personalizar el contenido de forma dinámica.
 
 [Uso de datos de AEP para la personalización](../using/personalization/aep-data-perso.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
-Guía de referencia de funciones de ayuda
+Guía de referencia de las funciones de ayuda
 
 Una guía completa de las funciones de ayuda de personalización, que incluye operaciones de agregación, aritméticas y de cadena.
 
@@ -84,4 +84,4 @@ Una guía completa de las funciones de ayuda de personalización, que incluye op
 
 ## Recursos adicionales
 
-- **[Casos de uso de Personalization](personalization-use-cases-landing-page.md)**: descubra ejemplos prácticos de técnicas de personalización, como actualizaciones del estado de los pedidos y correos electrónicos de abandono del carro de compras.
+- **[Casos de uso de personalización](personalization-use-cases-landing-page.md)**: descubra ejemplos prácticos de técnicas de personalización, como las actualizaciones del estado de los pedidos y los correos electrónicos de abandono del carro de compras.

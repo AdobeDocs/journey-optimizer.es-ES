@@ -4,45 +4,45 @@ product: Journey Optimizer
 title: Vista previa y prueba del contenido
 description: Vista previa y prueba del contenido
 redpen-status: CREATED_||_2025-08-11_20-30-05
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-
 # Vista previa y prueba del contenido{#section-overview}
 
-La vista previa y la prueba del contenido en Adobe Journey Optimizer garantizan que los mensajes sean precisos, personalizados y estén listos para su envío. Tanto si desea ajustar el procesamiento de correos electrónicos como simular variaciones de contenido o analizar las puntuaciones de spam, estas herramientas le ayudan a detectar errores y optimizar el rendimiento antes de llegar a su audiencia. Explorará cómo utilizar perfiles de prueba, datos de entrada de muestra y pruebas para validar el contenido e incluso integrar herramientas como Litmus para pruebas de procesamiento de correo electrónico. Con guías paso a paso y prácticas recomendadas, esta sección le permite crear con seguridad campañas pulidas y de alto impacto adaptadas a sus destinatarios.
+Previsualizar y probar contenido en Adobe Journey Optimizer garantiza que los mensajes sean precisos, personalizados y estén listos para enviarse. Tanto si desea ajustar la representación del correo electrónico como simular variaciones de contenido o analizar las puntuaciones de spam, estas herramientas le ayudan a detectar errores y optimizar el rendimiento antes de llegar a su público. Explorará cómo utilizar perfiles de prueba, datos de entrada de muestra y pruebas para validar el contenido e incluso integrar herramientas como Litmus para pruebas de representación de correo electrónico. Con guías paso a paso y prácticas recomendadas, esta sección le permite crear con seguridad campañas impecables y de alto impacto adaptadas a sus destinatarios.
 
-## Previsualizar y probar contenido
+## Vista previa y prueba del contenido
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Previsualización y prueba del contenido en Adobe Journey Optimizer
+Cómo obtener una vista previa y probar el contenido en Adobe Journey Optimizer
 
-Aprenda a utilizar perfiles de prueba y datos de entrada de muestra para previsualizar y probar contenido, enviar pruebas y garantizar la precisión de la personalización.
+Aprenda a utilizar perfiles de prueba y datos de entrada de muestra para previsualizar y probar el contenido, enviar pruebas y garantizar la precisión de la personalización.
 
 [Introducción a la vista previa y prueba](../using/content-management/preview-test.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Selección de perfiles de prueba en Adobe Journey Optimizer
+Cómo seleccionar perfiles de prueba en Adobe Journey Optimizer
 
 Descubra cómo seleccionar y administrar perfiles de prueba para previsualizar y probar contenido personalizado de forma eficaz.
 
-[Obtenga información sobre cómo seleccionar perfiles de prueba](../using/content-management/test-profiles.md)
+[Más información sobre cómo seleccionar perfiles de prueba](../using/content-management/test-profiles.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Vista Previa Del Contenido Mediante Perfiles De Prueba
+Previsualizar el contenido mediante perfiles de prueba
 
 Guía paso a paso para obtener una vista previa del contenido personalizado mediante perfiles de prueba y simular variaciones de contenido.
 
@@ -50,31 +50,31 @@ Guía paso a paso para obtener una vista previa del contenido personalizado medi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-Envío De Pruebas Mediante Datos De Perfil De Prueba
+Enviar pruebas mediante datos de perfil de prueba
 
 Pruebe y valide sus mensajes de correo electrónico enviando pruebas utilizando datos de perfil de prueba para garantizar la precisión del contenido.
 
-[Obtenga información sobre cómo enviar pruebas](../using/content-management/proofs.md)
+[Más información sobre cómo enviar pruebas](../using/content-management/proofs.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
-Cómo probar el procesamiento de correo electrónico con Litmus en Adobe Journey Optimizer
+Cómo probar la representación de correo electrónico con Litmus en Adobe Journey Optimizer
 
-Integre Litmus para previsualizar el procesamiento de correo electrónico en clientes de correo electrónico populares y garantizar una visualización adecuada.
+Integre Litmus para obtener una vista previa de la representación de correo electrónico en clientes de correo electrónico populares y garantizar una visualización adecuada.
 
-[Prueba del procesamiento de correo electrónico con Litmus](../using/content-management/rendering.md)
+[Prueba de representación de correo electrónico con Litmus](../using/content-management/rendering.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Simulación y prueba de variaciones de contenido en Adobe Journey Optimizer
+Cómo simular y probar variaciones de contenido en Adobe Journey Optimizer
 
-Simule las variaciones de contenido utilizando datos de entrada de muestra para probar el contenido personalizado y garantizar la precisión.
+Simule las variaciones de contenido utilizando los datos de entrada de muestra para probar el contenido personalizado y garantizar la precisión.
 
 [Simulación de variaciones de contenido](../using/test-approve/simulate-sample-input.md)
 :::
@@ -84,4 +84,4 @@ Simule las variaciones de contenido utilizando datos de entrada de muestra para 
 
 ## Recursos adicionales
 
-- **[Cómo usar el informe de correo no deseado en Adobe Journey Optimizer](../using/content-management/spam-report.md)**: evalúe la puntuación de correo no deseado del contenido del correo electrónico mediante la función de informe de correo no deseado para mejorar la capacidad de envío.
+- **[Cómo usar el informe de spam en Adobe Journey Optimizer](../using/content-management/spam-report.md)**: evalúe la puntuación de spam del contenido del correo electrónico mediante la función de informe de spam para mejorar la entregabilidad.

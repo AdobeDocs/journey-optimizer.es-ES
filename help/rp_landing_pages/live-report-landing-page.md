@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: Informe activo
 description: Informe activo
 redpen-status: CREATED_||_2025-08-11_20-47-56
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # Informe activo{#section-overview}
 
-La función de informes en vivo de Adobe Journey Optimizer le permite realizar un seguimiento y analizar el rendimiento en tiempo real de sus campañas, recorridos y mensajes, todo ello dentro de un panel dinámico y personalizable. Tanto si desea monitorizar la participación por correo electrónico, las tasas de envío de SMS o las conversiones de páginas de aterrizaje, los informes en vivo ofrecen perspectivas claras para ayudarle a optimizar los resultados. Aprenderá a adaptar los paneles a sus necesidades, exportar datos para realizar análisis más profundos y explorar métricas detalladas en diferentes canales de comunicación. Sumérjase en temas secundarios como Recorridos e informes de campaña para descubrir tendencias procesables, identificar problemas y tomar decisiones basadas en datos con confianza.
+La función de informes activos de Adobe Journey Optimizer le permite realizar un seguimiento y analizar el rendimiento en tiempo real de sus campañas, recorridos y mensajes, todo ello dentro de un panel de control dinámico y personalizable. Tanto si desea monitorizar la participación por correo electrónico, las tasas de envío por SMS o las conversiones de las páginas de aterrizaje, los informes activos ofrecen perspectivas claras para ayudarle a optimizar los resultados. Aprenderá a adaptar los paneles de control de acuerdo con sus necesidades, a exportar datos para realizar un análisis más profundo y a explorar métricas detalladas en diferentes canales de comunicación. Profundice en temas secundarios como los informes de recorridos y campañas para descubrir las tendencias procesables, identificar los problemas y tomar decisiones con confianza basadas en datos.
 
-## Funciones del informe en vivo
+## Funciones del informe activo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Introducción al informe en vivo
+Introducción al informe activo
 
-Obtenga información sobre cómo acceder, personalizar y exportar informes en directo para monitorizar recorridos y mensajes en tiempo real.
+Obtenga información sobre cómo acceder, personalizar y exportar informes activos para monitorizar recorridos y mensajes en tiempo real.
 
-[Exploración del tutorial](../using/reports/live-report.md)
+[Explorar el tutorial](../using/reports/live-report.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Lista de métricas
 
-Comprenda las definiciones y categorías de métricas utilizadas en los informes en directo para recorridos, correos electrónicos, SMS y mucho más.
+Conozca las definiciones y categorías de métricas que se utilizan en los informes activos para los recorridos, correos electrónicos, SMS y otros más.
 
 [Ver la referencia de las métricas](../using/reports/live-report-components.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Informe en vivo de recorrido
+Informe activo del recorrido
 
-Analizar el rendimiento de los recorridos y los canales de comunicación asociados en tiempo real en las últimas 24 horas.
+Analice el rendimiento de los recorridos y los canales de comunicación asociados en tiempo real durante las últimas 24 horas.
 
-[Acceso a la guía del informe de Recorrido](../using/reports/journey-live-report.md)
+[Acceso a la guía del informe activo](../using/reports/journey-live-report.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Informe de campaña en directo
+Informe activo de la campaña
 
-Visualice el rendimiento de la campaña en varios canales, como correo electrónico, push, SMS, web y correo directo.
+Visualice el rendimiento de la campaña en varios canales, como el correo electrónico, push, SMS, web y el correo directo.
 
-[Obtenga información sobre los informes de Campaign](../using/reports/campaign-live-report.md)
+[Más información sobre la creación de informes de Campaign](../using/reports/campaign-live-report.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Informe en vivo de página de aterrizaje
+Informe activo de la página de aterrizaje
 
-Evalúe el rendimiento de la página de aterrizaje con métricas en tiempo real como visitas, conversiones y devoluciones.
+Evalúe el rendimiento de la página de aterrizaje con métricas en tiempo real como visitas, conversiones y rechazos.
 
-[Introducción a los informes de página de aterrizaje](../using/reports/lp-report-live.md)
+[Profundización en la creación de informes de la página de aterrizaje](../using/reports/lp-report-live.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Informe en vivo de suscripción
+Informe activo de la suscripción
 
-Monitorice las tendencias de suscripción y baja en tiempo real para optimizar la participación de la audiencia.
+Monitorice las tendencias de suscripción y baja en tiempo real para optimizar la participación del público.
 
-[Más información sobre los Informes de suscripción](../using/reports/subscription-report-live.md)
+[Más información sobre la creación de informes de suscripción](../using/reports/subscription-report-live.md)
 :::
 
 ::::

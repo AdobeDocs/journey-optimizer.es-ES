@@ -4,49 +4,49 @@ product: Journey Optimizer
 title: Crear componentes
 description: Crear componentes
 redpen-status: CREATED_||_2025-08-11_20-58-59
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 490fa22c-40b3-4c70-b31c-a971c941a232
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # Crear componentes{#section-overview}
 
-En Adobe Journey Optimizer, la creación de componentes como ubicaciones, reglas de decisión y calificadores de recopilación le permite personalizar y optimizar sus esfuerzos de marketing. Las ubicaciones le ayudan a garantizar que las ofertas correctas aparezcan en los puntos correctos, las reglas de decisión le permiten definir qué audiencias ven ofertas específicas para la participación segmentada y los calificadores de recopilación facilitan la organización y la búsqueda de ofertas. En conjunto, estas herramientas le proporcionan un control total sobre cómo se envían, administran y adaptan las ofertas a su audiencia. Tanto si se trata de configurar los ajustes de, definir los requisitos u organizar la biblioteca de ofertas, cada tema se basa en el otro para ayudarle a lograr una toma de decisiones más inteligente con facilidad.
+En Adobe Journey Optimizer, crear componentes como ubicaciones, reglas de decisión y cualificadores de colección le permite personalizar y optimizar sus esfuerzos de marketing. Las ubicaciones le ayudan a garantizar que aparezcan las ofertas correctas en los puntos adecuados; las reglas de decisión le permiten definir qué públicos ven ofertas específicas para la participación más dirigida y los cualificadores de colección facilitan la organización y la búsqueda de ofertas. En conjunto, estas herramientas le proporcionan un control total sobre cómo se envían, administran y adaptan las ofertas a su público. Tanto si está configurando los ajustes, como definiendo la idoneidad u organizando la biblioteca de ofertas, cada tema se basa en el otro para que pueda tomar fácilmente decisiones más inteligentes.
 
 ## Crear componentes
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Guía para la creación de ubicaciones para ofertas
 
-Obtenga información sobre cómo crear y administrar ubicaciones para garantizar que el contenido de oferta correcto aparece en las ubicaciones correctas dentro de Adobe Journey Optimizer.
+Obtenga información sobre cómo crear y administrar ubicaciones para garantizar que el contenido adecuado de la oferta aparezca en las ubicaciones correctas dentro de Adobe Journey Optimizer.
 
-[Obtenga información sobre cómo crear ubicaciones](../using/offers/offer-library/creating-placements.md)
+[Más información sobre cómo crear ubicaciones](../using/offers/offer-library/creating-placements.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Creación de reglas de decisión en Adobe Journey Optimizer
+Cómo crear reglas de decisión en Adobe Journey Optimizer
 
-Defina reglas de decisión para personalizar ofertas segmentando segmentos de audiencia específicos con datos de Adobe Experience Platform.
+Defina reglas de decisión para personalizar las ofertas dirigiéndose a segmentos de público específicos con datos de Adobe Experience Platform.
 
-[Obtenga información sobre cómo crear reglas de decisión](../using/offers/offer-library/creating-decision-rules.md)
+[Más información sobre cómo crear reglas de decisión](../using/offers/offer-library/creating-decision-rules.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
 
-Cómo crear y administrar calificadores de colección en Adobe Journey Optimizer
+Cómo crear y administrar cualificadores de colección en Adobe Journey Optimizer
 
-Organizar y localizar ofertas de forma más eficaz creando y administrando calificadores de colección, anteriormente conocidos como &quot;etiquetas&quot;.
+Organice y localice ofertas de forma más eficaz creando y administrando cualificadores de colección, anteriormente conocidos como &#39;etiquetas&#39;.
 
-[Obtenga información sobre cómo crear y administrar calificadores de colección](../using/offers/offer-library/creating-tags.md)
+[Más información sobre cómo crear y administrar cualificadores de privacidad](../using/offers/offer-library/creating-tags.md)
 :::
 
 ::::

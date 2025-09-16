@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: Campañas orquestadas
 description: Campañas orquestadas
 redpen-status: CREATED_||_2025-08-11_20-27-33
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Campañas orquestadas{#section-overview}
 
-Las campañas orquestadas en Adobe Journey Optimizer le permiten diseñar y ejecutar campañas de marketing sofisticadas y de varios pasos que entreguen el mensaje correcto a la audiencia adecuada a escala. A diferencia de los recorridos en tiempo real, estas campañas por lotes procesan segmentos de audiencia y perfiles juntos, lo que las hace ideales para iniciativas de marketing programadas y basadas en datos. Explorará cómo las actividades como la segmentación de audiencia, las transiciones y las tablas de trabajo trabajan juntas para crear flujos de trabajo sin problemas. Con el tiempo aprenderá en qué se diferencian las campañas orquestadas de los recorridos, la configuración de datos para la personalización, la creación y lanzamiento de campañas y la optimización del rendimiento, todo ello con un lienzo visual intuitivo. Prepárese para llevar la automatización de marketing al siguiente nivel.
+Las campañas orquestadas en Adobe Journey Optimizer le permiten diseñar y ejecutar campañas de marketing sofisticadas y de varios pasos que transmiten el mensaje adecuado al público adecuado a gran escala. A diferencia de los recorridos en tiempo real, estas campañas por lotes procesan segmentos de público y perfiles de forma conjunta, lo que las hace ideales para iniciativas de marketing programadas y basado en datos. Explorará cómo se combinan las actividades como la segmentación de público, las transiciones y las tablas de trabajo para crear flujos de trabajo sin problemas. A lo largo del proceso, aprenderá en qué se diferencian las campañas orquestadas de los recorridos, configurará de datos para la personalización, creará y lanzará campañas y optimizará el rendimiento, todo ello con un lienzo visual y intuitivo. Prepárese para llevar la automatización de marketing al siguiente nivel.
 
-## Resumen de campañas organizadas
+## Información general sobre las campañas orquestadas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Introducción a las campañas organizadas
+Introducción a las campañas orquestadas
 
-Obtenga información acerca de las funciones, componentes y distinciones principales de las campañas orquestadas en Adobe Journey Optimizer.
+Obtenga información sobre las funcionalidades, componentes y distinciones principales de las campañas orquestadas en Adobe Journey Optimizer.
 
-[Empezar con las campañas orquestadas](../using/orchestrated/gs-orchestrated-campaigns.md)
+[Introducción a las campañas organizadas](../using/orchestrated/gs-orchestrated-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-Protecciones y limitaciones
+Mecanismos de protección y limitaciones
 
-Comprenda las restricciones y limitaciones que deben tenerse en cuenta al utilizar campañas orquestadas.
+Conozca las restricciones y limitaciones que deben tenerse en cuenta a la hora de utilizar campañas orquestadas.
 
-[Ver protecciones y limitaciones](../using/orchestrated/guardrails.md)
+[Ver mecanismos de protección y limitaciones](../using/orchestrated/guardrails.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configuración de datos para campañas organizadas
+Configuración de datos para campañas orquestadas
 
 Configure esquemas, conjuntos de datos y canales relacionales para garantizar la preparación de los datos para las campañas orquestadas.
 
-[Explorar configuración de datos](data-configuration-landing-page.md)
+[Explorar la configuración de datos](data-configuration-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Lanzamiento y administración de campañas orquestadas
+Iniciar y administrar campañas orquestadas
 
 Una guía paso a paso para crear, orquestar, monitorizar y analizar su primera campaña orquestada.
 
-[Obtenga información sobre cómo iniciar campañas](launch-landing-page.md)
+[Más información sobre cómo iniciar campañas](launch-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Consultar la base de datos de campañas orquestadas
 
-Domine la consulta de bases de datos para segmentar y redireccionar audiencias en campañas orquestadas.
+Domine la consulta de bases de datos para segmentar y resegmentar públicos en campañas orquestadas.
 
-[Obtenga información sobre consultas de base de datos](query-database-landing-page.md)
+[Más información sobre consultas de bases de datos](query-database-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Guía completa de las actividades de Campaign
+Guía completa de las actividades de campañas
 
-Descubra las actividades de segmentación, canal y control de flujo disponibles para diseñar campañas organizadas.
+Descubra las actividades de segmentación, canal y control de flujo disponibles para diseñar campañas orquestadas.
 
-[Exploración de actividades de campaña](design-campaigns-landing-page.md)
+[Explorar actividades de campañas](design-campaigns-landing-page.md)
 :::
 
 ::::

@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: Conversión
 description: Conversión
 redpen-status: CREATED_||_2025-08-11_20-13-12
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-
 # Conversión{#section-overview}
 
-La sección Conversión de Adobe Journey Optimizer permite transformar datos en formatos que se adapten a las necesidades de flujo de trabajo, lo que facilita la creación de recorridos dinámicos y personalizados. Tanto si se convierten cadenas en valores booleanos, fechas en números enteros o duraciones en formatos legibles, cada función de esta categoría tiene un propósito único al tiempo que comparte el objetivo común de simplificar la manipulación de datos. Explorará cómo funcionan funciones como &quot;toBool&quot;, &quot;toDateOnly&quot; y &quot;toInteger&quot;, con ejemplos claros que le guiarán. Al dominar estas herramientas, puede adaptar los datos sin problemas para adaptarlos a sus reglas de recorrido y ofrecer experiencias adaptadas con precisión.
+La sección Conversión de Adobe Journey Optimizer le permite transformar datos en formatos que se adaptan a las necesidades de su flujo de trabajo, lo que facilita la creación de recorridos dinámicos y personalizados. Tanto si convierte cadenas en valores booleanos, fechas en números enteros o duraciones en formatos legibles, cada función de esta categoría tiene un objetivo único al tiempo que comparte el objetivo común de simplificar la manipulación de datos. Explorará el funcionamiento de funciones como “toBool”, “toDateOnly” y “toInteger”, con ejemplos claros que le guiarán. Cuando domine estas herramientas, podrá adaptar los datos sin problemas para que se ajusten a sus reglas de recorrido y ofrecer experiencias adaptadas con precisión.
 
 ## Funciones de conversión en Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función toBool
 
 Convierta varios tipos de datos en valores booleanos mediante la función toBool.
 
-[Aprenda a utilizar la función toBool](../using/building-journeys/functions/functiontobool.md)
+[Más información sobre cómo utilizar la función toBool](../using/building-journeys/functions/functiontobool.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función toDateOnly
 
 Convierta representaciones de fecha en un tipo dateOnly con la función toDateOnly.
 
-[Aprenda a utilizar la función toDateOnly](../using/building-journeys/functions/functiontodateonly.md)
+[Más información sobre cómo utilizar la función toDateOnly](../using/building-journeys/functions/functiontodateonly.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función toDateTime
 
-Convertir varias entradas en un valor de fecha y hora mediante la función toDateTime.
+Convierta varias entradas en un valor de fecha y hora mediante la función toDateTime.
 
-[Aprenda a utilizar la función toDateTime](../using/building-journeys/functions/functiontodatetime.md)
+[Más información sobre cómo utilizar la función toDateTime](../using/building-journeys/functions/functiontodatetime.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función toDateTimeOnly
 
-Convierta un valor al formato de fecha y hora sin una zona horaria mediante la función toDateTimeOnly.
+Convierta un valor en el formato de fecha y hora sin una zona horaria mediante la función toDateTimeOnly.
 
-[Aprenda a utilizar la función toDateTimeOnly](../using/building-journeys/functions/functiontodatetimeonly.md)
+[Más información sobre cómo utilizar la actividad toDateTimeOnly](../using/building-journeys/functions/functiontodatetimeonly.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-toDecimal (función)
+Función toDecimal
 
 Convierta varios tipos de datos en valores decimales mediante la función toDecimal.
 
-[Aprenda a utilizar la función toDecimal](../using/building-journeys/functions/functiontodecimal.md)
+[Más información sobre cómo utilizar la función toDecimal](../using/building-journeys/functions/functiontodecimal.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función toDuration
 
 Convierta argumentos en valores de duración utilizando cadenas o milisegundos con la función toDuration.
 
-[Aprenda a utilizar la función toDuration](../using/building-journeys/functions/functiontoduration.md)
+[Más información sobre cómo utilizar la función toDuration](../using/building-journeys/functions/functiontoduration.md)
 :::
 
 ::::
@@ -84,5 +84,5 @@ Convierta argumentos en valores de duración utilizando cadenas o milisegundos c
 
 ## Recursos adicionales
 
-- **[toInteger (Función)](../using/building-journeys/functions/functiontointeger.md)** - Convierta varios tipos de datos en enteros mediante la función toInteger.
-- **[toString (Función)](../using/building-journeys/functions/functiontostring.md)** - Convierta los tipos de datos en sus representaciones de cadena mediante la función toString.
+- **[Función toInteger](../using/building-journeys/functions/functiontointeger.md)**: convierta varios tipos de datos en enteros mediante la función toInteger.
+- **[Función toString](../using/building-journeys/functions/functiontostring.md)**: convierta tipos de datos en sus representaciones de cadena mediante la función toString.

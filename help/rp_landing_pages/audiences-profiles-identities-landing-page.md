@@ -4,57 +4,57 @@ product: Journey Optimizer
 title: Públicos, perfiles e identidad
 description: Públicos, perfiles e identidad
 redpen-status: CREATED_||_2025-08-11_20-47-03
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
-workflow-type: tm+mt
+exl-id: 29d45bbb-8351-48c6-8672-dda4b1c25e29
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Públicos, perfiles e identidad{#section-overview}
 
-Las audiencias, los perfiles y las identidades de Adobe Journey Optimizer dependen de las capacidades del [Perfil del cliente en tiempo real de Adobe](https://experienceleague.adobe.com/es/docs/experience-platform/profile/home) para ofrecer experiencias personalizadas. Las **audiencias** le permiten segmentar clientes con datos enriquecidos, los **perfiles** proporcionan información en tiempo real enriquecida con comportamientos y atributos, y las **identidades** conectan interacciones entre canales mediante el gráfico de identidad. Estos elementos trabajan juntos para permitir la mensajería segmentada y unos recorridos de cliente coherentes. En esta sección se explica cómo activar audiencias, administrar perfiles y asignar identidades para unificar datos y ofrecer experiencias relevantes y oportunas.
+Los públicos, los perfiles y las identidades de Adobe Journey Optimizer dependen de las funciones del [perfil del cliente en tiempo real de Adobe](https://experienceleague.adobe.com/es/docs/experience-platform/profile/home) para ofrecer experiencias personalizadas. Los **públicos** le permiten segmentar clientes con datos abundantes, los **perfiles** proporcionan información en tiempo real enriquecida con comportamientos y atributos, y las **identidades** conectan interacciones entre canales mediante el gráfico de identidad. Estos elementos funcionan conjuntamente para permitir la mensajería segmentada y unos recorridos coherentes del cliente. En esta sección se explica cómo activar públicos, administrar perfiles y asignar identidades para unificar datos y ofrecer experiencias relevantes y oportunas.
 
-## Audiencias, perfiles e identidad
+## Públicos, perfiles e identidad
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Gestión de público y Personalization
+Gestión de público y personalización
 
-Obtenga información sobre cómo crear, administrar y activar audiencias mediante la segmentación y los atributos de enriquecimiento para campañas de marketing personalizadas.
+Obtenga información sobre cómo crear, gestionar y activar públicos mediante la segmentación y los atributos de enriquecimiento para campañas de marketing personalizadas.
 
 [Explorar la gestión de público](audiences-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
 
-Perfiles: Administrar y optimizar los datos del cliente
+Perfiles: administrar y optimizar los datos del cliente
 
 Obtenga información sobre cómo utilizar perfiles, atributos calculados y perfiles de prueba para crear vistas de cliente unificadas y mejorar la personalización.
 
-[Información sobre los perfiles](profiles-landing-page.md)
+[Más información sobre los perfiles](profiles-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
 
 Introducción a las identidades
 
 Descubra cómo administrar las identidades de los clientes mediante el gráfico de identidades y las herramientas para la asignación de interacciones en canales múltiples.
 
-[Leer acerca de identidades](../using/audience/get-started-identity.md)
+[Información sobre las identidades](../using/audience/get-started-identity.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Tablero de uso de licencias
+Panel de control de uso de licencias
 
-Monitorice el uso de licencias de su organización y los perfiles atractivos mediante el Tablero de uso de licencias.
+Monitorice el uso de licencias de su organización y los perfiles atractivos mediante el panel de control de uso de licencias.
 
 [Ver guía de uso de licencias](../using/audience/license-usage.md)
 :::

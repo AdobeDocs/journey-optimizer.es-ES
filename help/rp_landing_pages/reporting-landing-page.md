@@ -1,62 +1,62 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Sistema de informes
-description: Sistema de informes
+title: Creación de informes
+description: Creación de informes
 redpen-status: CREATED_||_2025-08-11_20-54-26
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 37e906eb-8ae0-4988-93bf-00eb135199b2
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
+# Creación de informes{#section-overview}
 
-# Sistema de informes{#section-overview}
+La creación de informes en Adobe Journey Optimizer consiste en convertir los datos sin procesar en datos procesables para ayudarle a perfeccionar los recorridos de sus clientes y las estrategias de marketing. Tanto si necesita realizar actualizaciones en tiempo real con informes activos como si desea ver las tendencias a largo plazo a través de informes de todo el tiempo, esta función le permite analizar el rendimiento en todos los canales y experiencias. Descubra cómo los informes activos y de todo el tiempo se complementan entre sí, ofreciendo comentarios inmediatos y análisis más profundos con tecnología de Customer Journey Analytics. Explore en detalle los datos personalizados de las campañas de salida, las experiencias de entrada así como los datos de recorrido personalizados, todo ello diseñado para ayudarle a tomar decisiones con confianza basadas en datos.
 
-La creación de informes en Adobe Journey Optimizer consiste en convertir los datos sin procesar en perspectivas procesables para ayudarle a refinar los recorridos de sus clientes y las estrategias de marketing. Tanto si necesita actualizaciones en tiempo real con informes en directo como si son tendencias a largo plazo a través de informes permanentes, esta función le permite analizar el rendimiento en todos los canales y experiencias. Descubra cómo los informes en vivo y permanentes se complementan entre sí, ofreciendo comentarios inmediatos y análisis más profundos con tecnología de Customer Journey Analytics. Sumérjase en perspectivas personalizadas para campañas salientes, experiencias entrantes y datos de recorrido personalizados, todo diseñado para ayudarle a tomar decisiones basadas en datos con confianza.
-
-## Funciones de informes
+## Funciones de creación de informes
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Introducción a los informes
+Introducción a la creación de informes
 
-Obtenga información acerca de las funcionalidades de creación de informes en Adobe Journey Optimizer, incluidos los informes en vivo y permanentes para obtener perspectivas y optimización procesables.
+Obtenga información sobre las funciones de creación de informes en Adobe Journey Optimizer, incluidos los informes activos y de todo el tiempo que proporcionan información procesable y permiten la optimización.
 
 [Introducción a la creación de informes](../using/reports/gs-reports.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Informes en vivo
+Informes activos
 
 Explore las herramientas de creación de informes en tiempo real para medir y optimizar recorridos, campañas, suscripciones y canales de comunicación.
 
-[Más información sobre los Informes en vivo](live-report-landing-page.md)
+[Más información sobre los informes activos](live-report-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Informes de todo el tiempo
+Creación de informes de todo el tiempo
 
-Comprenda las métricas, la integración con Customer Journey Analytics y las herramientas para obtener análisis y perspectivas de rendimiento a largo plazo.
+Conozca las métricas, la integración con Customer Journey Analytics y las herramientas para obtener análisis e información sobre el rendimiento a largo plazo.
 
-[Informes de Discover todo el tiempo](channel-report-landing-page.md)
+[Descubrir la creación de informes de todo el tiempo](channel-report-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Informes de Recorrido personalizado
+Creación de informes de recorrido personalizados
 
-Sumérjase en los informes de recorrido con esquemas, conjuntos de datos, consultas SQL e integración con Customer Journey Analytics para el análisis de datos.
+Explore con detalle la creación de informes de recorrido con esquemas, conjuntos de datos, consultas SQL e integración con Customer Journey Analytics para el análisis de datos.
 
-[Explorar informes de Recorrido personalizados](reports-landing-page.md)
+[Explorar la creación de informes de recorrido personalizados](reports-landing-page.md)
 :::
 
 ::::

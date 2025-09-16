@@ -1,52 +1,52 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Configuración de la acción
-description: Configuración de la acción
+title: Configuración de acciones
+description: Configuración de acciones
 redpen-status: CREATED_||_2025-08-11_21-11-53
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 4ce42dab-7e8f-454d-8f34-e713312ad7c5
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
+# Configuración de acciones{#section-overview}
 
-# Configuración de la acción{#section-overview}
+La configuración de acciones en Adobe Journey Optimizer le permite conectar sin problemas los recorridos de sus clientes con sistemas de terceros, para tener interacciones personalizadas en tiempo real entre canales como el correo electrónico, SMS y las notificaciones push. Tanto si está configurando acciones personalizadas para enviar llamadas API como si está ajustando las cargas útiles o aprovechando las respuestas de la API para una toma de decisiones dinámica, esta función le permite crear experiencias de cliente enriquecedoras y adaptables. Explorará cómo configurar integraciones seguras, aplicar prácticas recomendadas para el control de datos y solucionar problemas de forma eficaz. Al conocer cada paso, descubrirá todo el potencial de las acciones personalizadas para que sus recorridos sean más inteligentes e impactantes.
 
-La configuración de acciones en Adobe Journey Optimizer le permite conectar sin problemas los recorridos de sus clientes con sistemas de terceros, lo que permite interacciones personalizadas en tiempo real entre canales como correo electrónico, SMS y notificaciones push. Tanto si configura acciones personalizadas para enviar llamadas a la API como si ajusta las cargas útiles o aprovecha las respuestas de la API para la toma de decisiones dinámica, esta función le permite crear experiencias de cliente enriquecidas y adaptables. Explorará cómo configurar integraciones seguras, aplicar prácticas recomendadas para el control de datos y solucionar problemas de forma eficaz. Al comprender cada paso, desbloqueará todo el potencial de las acciones personalizadas para que sus recorridos sean más inteligentes y más impactantes.
-
-## Configuración de la acción
+## Configuración de acciones
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a las acciones personalizadas
 
-Aprenda a configurar y utilizar acciones personalizadas en Adobe Journey Optimizer para ofrecer experiencias de cliente personalizadas en tiempo real.
+Descubra cómo configurar y utilizar acciones personalizadas en Adobe Journey Optimizer para ofrecer experiencias de cliente personalizadas en tiempo real.
 
 [Iniciar la configuración de acciones personalizadas](../using/action/action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configuración de acciones personalizadas
+Cómo configurar acciones personalizadas
 
-Tutorial paso a paso para configurar acciones personalizadas, incluidos protocolos de seguridad, configuración de extremos y prácticas recomendadas.
+Tutorial paso a paso para configurar acciones personalizadas, incluyendo protocolos de seguridad, configuración de puntos finales y prácticas recomendadas.
 
-[Siga la guía de configuración](../using/action/about-custom-action-configuration.md)
+[Seguir la guía de configuración](../using/action/about-custom-action-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Uso de respuestas de llamadas de API en acciones personalizadas
+Uso de respuestas de llamadas API en acciones personalizadas
 
-Descubra cómo utilizar respuestas de llamada de API en acciones personalizadas para orquestar recorridos, gestionar errores y probar implementaciones.
+Descubra cómo utilizar respuestas a llamadas API en acciones personalizadas para orquestar recorridos, gestionar errores y probar implementaciones.
 
-[Explorar respuestas de llamadas API](../using/action/action-response.md)
+[Explorar respuestas a llamadas API](../using/action/action-response.md)
 :::
 
 ::::

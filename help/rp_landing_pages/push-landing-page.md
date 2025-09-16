@@ -4,17 +4,17 @@ product: Journey Optimizer
 title: Canal de notificaciones push
 description: Canal de notificaciones push
 redpen-status: CREATED_||_2025-08-11_20-37-12
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 8d82ef2f-91ee-4502-9a01-f66ccbd55fea
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
-
 # Canal de notificaciones push{#section-overview}
 
-Las notificaciones push en Adobe Journey Optimizer son una forma eficaz de atraer a los usuarios de aplicaciones móviles mediante el envío de mensajes personalizados y oportunos directamente a sus dispositivos, incluso cuando no estén utilizando activamente la aplicación. Tanto si desea volver a atraer a usuarios inactivos, compartir actualizaciones o llevar a cabo acciones específicas, este canal le permite crear campañas impactantes adaptadas a su audiencia. En esta sección, explorará todo tipo de aspectos, desde la configuración de notificaciones push y el diseño de contenido atractivo hasta la validación y el envío de mensajes. Con el tiempo, aprenderá a optimizar para diferentes plataformas (iOS y Android), administrar las inclusiones y aprovechar funciones avanzadas como notificaciones silenciosas y modos de envío rápido para un alcance a gran escala. ¡Vamos a convertir su aplicación en un centro de comunicación dinámica!
+Las notificaciones push de Adobe Journey Optimizer son una forma eficaz de atraer a los usuarios de aplicaciones móviles mediante el envío de mensajes personalizados y oportunos directamente a sus dispositivos, incluso cuando no estén utilizando activamente la aplicación. Tanto si desea volver a atraer a usuarios inactivos, compartir actualizaciones como llevar a cabo acciones específicas, este canal le permite crear campañas impactantes adaptadas a su público. En esta sección, explorará todo tipo de aspectos, desde la configuración de notificaciones push y el diseño de contenido atractivo hasta la validación y el envío de mensajes. A lo largo del proceso, aprenderá a optimizar en diferentes plataformas (iOS y Android), administrar las inclusiones y aprovechar las funciones avanzadas como las notificaciones silenciosas y los modos de envío rápido para una difusión a gran escala. Vamos a convertir su aplicación en un centro de comunicación dinámico.
 
 >[!IMPORTANT]
 >
@@ -38,9 +38,9 @@ Se pueden crear notificaciones push:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Creación y configuración de notificaciones push
+Crear y configurar notificaciones push
 
 Guía paso a paso para crear y configurar notificaciones push, incluido el modo de envío rápido para campañas urgentes a gran escala.
 
@@ -48,9 +48,9 @@ Guía paso a paso para crear y configurar notificaciones push, incluido el modo 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Diseño De La Notificación Push
+Diseñar la notificación push
 
 Descubra cómo diseñar y personalizar notificaciones push con medios, botones, notificaciones silenciosas, datos personalizados y opciones avanzadas.
 
@@ -58,17 +58,17 @@ Descubra cómo diseñar y personalizar notificaciones push con medios, botones, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Previsualización, validación y envío de notificaciones push
+Vista previa, validar y enviar notificaciones push
 
-Obtenga información sobre cómo previsualizar, validar y enviar notificaciones push, lo que garantiza una entrega correcta y la resolución de errores.
+Obtenga información sobre cómo obtener una vista previa, validar y enviar notificaciones push, lo que garantiza un envío correcto y la resolución de errores.
 
-[Comprobación y envío](../using/push/send-push.md)
+[Comprobar y enviar](../using/push/send-push.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuración de notificaciones push
 

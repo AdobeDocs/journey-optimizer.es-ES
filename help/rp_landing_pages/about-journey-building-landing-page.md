@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: Actividades
 description: Actividades
 redpen-status: CREATED_||_2025-08-11_20-09-57
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # Actividades{#section-overview}
 
-Las actividades en Adobe Journey Optimizer son los componentes básicos que dan vida a los recorridos de sus clientes, ya que le permiten almacenar en déclencheur eventos, tomar decisiones y realizar acciones significativas en todos los canales. Ya sea escuchando un evento de compra, enviando un correo electrónico personalizado o actualizando un perfil en tiempo real, las actividades le permiten personalizar cada paso del recorrido. Cada tipo de actividad (como Evento, Orquestación o Acción) juega un papel único, trabajando juntos para crear experiencias atractivas y sin problemas. A medida que explore estas herramientas, descubrirá cómo utilizar déclencheur, condiciones y acciones para crear recorridos que sean tan dinámicos como las necesidades de sus clientes.
+Las actividades de Adobe Journey Optimizer son los componentes básicos que hacen realidad los recorridos de sus clientes, ya que le permiten activar eventos, tomar decisiones y realizar acciones importantes en todos los canales. Tanto si está atento a un evento de compra, enviando un correo electrónico personalizado o actualizando un perfil en tiempo real, las actividades le permiten personalizar cada paso del recorrido. Cada tipo de actividad (como Evento, Orquestación o Acción) desempeña una función única, trabajando conjuntamente para crear experiencias atractivas y sin problemas. A medida que explore estas herramientas, descubrirá cómo utilizar activadores, condiciones y acciones para crear recorridos que sean tan dinámicos como las necesidades de sus clientes.
 
-## Actividades en Adobe Journey Optimizer
+## Actividades de Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Introducción a las actividades de Recorrido
+Introducción a las actividades de Journey
 
-Obtenga información acerca de las actividades de eventos, orquestación y acciones en Adobe Journey Optimizer para crear escenarios de canales cruzados de varios pasos.
+Obtenga información sobre las actividades de eventos, orquestación y acciones en Adobe Journey Optimizer para crear escenarios en canales múltiples de varios pasos.
 
-[Introducción a actividades de recorrido](../using/building-journeys/about-journey-activities.md)
+[Introducción a las actividades de recorrido](../using/building-journeys/about-journey-activities.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Uso de eventos generales
 
-Descubra cómo utilizar eventos generales para almacenar en déclencheur los recorridos y administrar los tiempos de espera de evento de forma eficaz.
+Descubra cómo utilizar eventos generales para activar recorridos y administrar los tiempos de espera de eventos de forma eficaz.
 
 [Más información sobre los eventos generales](../using/building-journeys/general-events.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Configuración de eventos de reacción
+Configuración de los eventos de reacción
 
-Explore cómo reaccionar ante los datos de seguimiento, como clics o aperturas de mensajes, y gestionar escenarios en los que no hay reacción.
+Explore cómo reaccionar ante los datos de seguimiento, como los clics o aperturas de mensajes, y gestionar escenarios en los que no hay reacción.
 
-[Configuración de eventos de reacción](../using/building-journeys/reaction-events.md)
+[Configurar los eventos de reacción](../using/building-journeys/reaction-events.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Eventos de calificación de audiencia
+Eventos de calificación de público
 
-Aprenda a almacenar en déclencheur acciones y condiciones basadas en estados de participación de audiencias.
+Descubra cómo activar acciones y condiciones basadas en los estados de participación del público.
 
-[Usar eventos de calificación de audiencias](../using/building-journeys/audience-qualification-events.md)
+[Usar evento de calificación del público](../using/building-journeys/audience-qualification-events.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Uso de la actividad de condición
+Uso de la actividad Condición
 
 Defina varias rutas en un recorrido en función de criterios como el tiempo, la fuente de datos o las divisiones porcentuales.
 
-[Configuración de actividades de condición](../using/building-journeys/condition-activity.md)
+[Configurar las actividades de Condición](../using/building-journeys/condition-activity.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
-Configuración de la actividad de espera
+Configuración de la actividad Esperar
 
-Controle el tiempo en recorridos con una duración o espera personalizada para pausar la ejecución.
+Controle la sincronización en los recorridos con duraciones o esperas personalizadas para poner en pausa la ejecución.
 
-[Configurar actividad de espera](../using/building-journeys/wait-activity.md)
+[Configurar la actividad Esperar](../using/building-journeys/wait-activity.md)
 :::
 
 ::::
@@ -84,11 +84,11 @@ Controle el tiempo en recorridos con una duración o espera personalizada para p
 
 ## Recursos adicionales
 
-- **[Uso de una audiencia en un Recorrido](../using/building-journeys/read-audience.md)**: habilite a personas de audiencias de Adobe Experience Platform para que ingresen recorridos de forma dinámica.
-- **[Acciones de canal integradas](../using/building-journeys/journeys-message.md)**: envía mensajes por correo electrónico, SMS o notificaciones push mediante las funciones integradas de Journey Optimizer.
-- **[Uso de acciones personalizadas](../using/building-journeys/using-custom-actions.md)**: integre sistemas de terceros mediante API de REST con rutas dinámicas, encabezados y parámetros de consulta.
-- **[Actividad de decisión de contenido](../using/building-journeys/content-decision.md)**: entregue ofertas personalizadas en recorridos mediante políticas de decisión y estrategias de contenido.
-- **[Acciones de Adobe Campaign Standard](../using/building-journeys/using-adobe-campaign-standard.md)**: envía correos electrónicos, SMS y notificaciones push transaccionales mediante la integración de Adobe Campaign Standard.
-- **[Acciones de Adobe Campaign v7/v8](../using/building-journeys/using-adobe-campaign-v7-v8.md)**: explore la integración con Adobe Campaign v7/v8 para las funciones de mensajería transaccional.
-- **[Uso de la actividad de salto](../using/building-journeys/jump.md)**: optimice el diseño del recorrido transfiriendo individuos entre recorridos mediante actividades de salto.
-- **[Uso de la actividad Actualizar perfil](../using/building-journeys/update-profiles.md)** - Actualizar perfiles de Adobe Experience Platform dinámicamente mediante información de eventos o fuentes de datos.
+- **[Uso de un público en un recorrido](../using/building-journeys/read-audience.md)**: permita que personas de los públicos de Adobe Experience Platform accedan a recorridos de forma dinámica.
+- **[Acciones de canal integradas](../using/building-journeys/journeys-message.md)**: envíe mensajes por correo electrónico, SMS o notificaciones push mediante las funciones integradas de Journey Optimizer.
+- **[Uso de acciones personalizadas](../using/building-journeys/using-custom-actions.md)**: integre sistemas de terceros mediante las API de REST con rutas dinámicas, encabezados y parámetros de consulta.
+- **[Actividad de decisión de contenido](../using/building-journeys/content-decision.md)**: envíe ofertas personalizadas en los recorridos mediante políticas de decisión y estrategias de contenido.
+- **[Acciones de Adobe Campaign Standard](../using/building-journeys/using-adobe-campaign-standard.md)**: envíe correos electrónicos, SMS y notificaciones push transaccionales mediante la integración de Adobe Campaign Standard.
+- **[Acciones en las versiones 7 y 8 de Adobe Campaign](../using/building-journeys/using-adobe-campaign-v7-v8.md)**: explore la integración de las funciones de mensajería transaccional de las versiones 7 y 8 de Adobe Campaign.
+- **[Uso de la actividad de salto](../using/building-journeys/jump.md)**: optimice el diseño del recorrido transfiriendo personas entre recorridos mediante actividades de salto.
+- **[Uso de la actividad Actualizar perfil](../using/building-journeys/update-profiles.md)**. actualice perfiles de Adobe Experience Platform dinámicamente mediante información de eventos o fuentes de datos.

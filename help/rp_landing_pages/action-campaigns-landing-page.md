@@ -4,35 +4,35 @@ product: Journey Optimizer
 title: Campañas de acción
 description: Campañas de acción
 redpen-status: CREATED_||_2025-08-11_20-22-10
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # Campañas de acción{#section-overview}
 
-Las campañas de acción en Adobe Journey Optimizer le permiten enviar mensajes puntuales y específicos para comunicaciones por lotes como promociones, actualizaciones o avisos legales. Diseñadas para ofrecer flexibilidad, estas campañas le permiten definir propiedades, elegir canales de comunicación, optimizar contenido, establecer audiencias, programar envíos y activar campañas con facilidad. Ya sea que esté creando contenido multilingüe, probando variaciones o priorizando notificaciones urgentes, cada paso se desarrolla hacia la creación de un alcance impactante y personalizado. Esta sección desglosa el proceso en pasos manejables, que le guían desde la planificación hasta la ejecución, para que pueda diseñar con confianza campañas que resuenen con su audiencia y obtengan resultados.
+Las campañas de acción en Adobe Journey Optimizer le permiten enviar mensajes puntuales y específicos para comunicaciones por lotes como promociones, actualizaciones o avisos legales. Diseñadas para ofrecer flexibilidad, estas campañas le permiten definir propiedades, elegir canales de comunicación, optimizar contenido, establecer públicos, programar envíos y activar campañas con facilidad. Tanto si está creando contenido multilingüe, como si está probando variaciones o priorizando notificaciones urgentes, cada paso contribuye a que el alcance sea impactante y personalizado. En esta sección se desglosa el proceso en pasos manejables, guiándole desde la planificación hasta la ejecución, para que pueda diseñar con confianza campañas que conecten con su público y generen resultados.
 
-## Recursos de campañas de acción
+## Recursos de las campañas de acción
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Creación de una campaña de acción
+Crear una campaña de acción
 
-Obtenga información sobre cómo crear y administrar campañas de acción, incluidas propiedades, acciones, audiencia, programación y activación.
+Obtenga información sobre cómo crear y administrar campañas de acción, incluyendo las propiedades, acciones, público, programación y activación.
 
 [Iniciar tutorial](../using/campaigns/create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Definir propiedades de campañas de acción
+Definir propiedades de la campaña de acción
 
 Instrucciones paso a paso para definir las propiedades de la campaña, como el nombre, las etiquetas y las etiquetas de acceso.
 
@@ -40,29 +40,29 @@ Instrucciones paso a paso para definir las propiedades de la campaña, como el n
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Configuración de acciones de campaña
+Configurar acciones de campaña
 
-Guía para configurar acciones de campaña, incluida la selección de canales, la optimización y el contenido multilingüe.
+Guía para configurar acciones de la campaña, incluida la selección de canales, la optimización y el contenido multilingüe.
 
 [Explorar guía de configuración](../using/campaigns/campaign-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Aprovechamiento de la optimización de mensajes
+Aprovechar la optimización de mensajes
 
 Utilice la segmentación y la experimentación para maximizar la participación y crear campañas personalizadas.
 
-[Optimización de campañas](../using/campaigns/campaigns-message-optimization.md)
+[Optimizar campañas](../using/campaigns/campaigns-message-optimization.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
-Editar contenido de la campaña
+Editar contenido de campañas
 
 Diseñe, pruebe y configure contenido para sus campañas de acción en varios canales.
 
@@ -70,11 +70,11 @@ Diseñe, pruebe y configure contenido para sus campañas de acción en varios ca
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
-Definir audiencia de Campaign
+Definir el público de la campaña
 
-Seleccione la audiencia y el tipo de identidad de la campaña, lo que garantiza una segmentación eficaz.
+Seleccione el público y el tipo de identidad de la campaña, lo que garantiza una segmentación eficaz.
 
 [Establecer público](../using/campaigns/campaign-audience.md)
 :::

@@ -1,62 +1,62 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Entrega de ofertas mediante las API
-description: Entrega de ofertas mediante las API
+title: Envío de ofertas mediante las API
+description: Envío de ofertas mediante las API
 redpen-status: CREATED_||_2025-08-11_21-04-29
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
+# Envío de ofertas mediante las API{#section-overview}
 
-# Entrega de ofertas mediante las API{#section-overview}
+Las API para el envío de ofertas de Adobe Journey Optimizer le permiten enviar ofertas de marketing personalizadas al público adecuado, en el momento adecuado, lo que mejora la participación en múltiples canales. Tanto si diseña experiencias en tiempo real con la API de toma de decisiones en Edge, como si adapta ofertas específicas con la API de toma de decisiones o amplía el alcance a través de la API de toma de decisiones por lotes, estas herramientas proporcionan soluciones versátiles para diferentes casos de uso. Explorará cómo funciona cada API, desde la gestión de datos de contexto hasta la implementación de límites de frecuencia, y descubrirá flujos de trabajo adaptados a sus necesidades comerciales. Empiece a tomar decisiones más inteligentes y a realizar integraciones fluidas para ofrecer experiencias del cliente impactantes con confianza.
 
-Las API de entrega de ofertas de Adobe Journey Optimizer le permiten entregar ofertas de marketing personalizadas a la audiencia correcta en el momento adecuado, lo que mejora la participación en varios canales. Ya sea para diseñar experiencias en tiempo real con la API de Edge Decisioning, adaptar ofertas específicas con la API de Decisioning o ampliar el alcance a través de la API de Batch Decisioning, estas herramientas proporcionan soluciones versátiles para diferentes casos de uso. Explorará cómo funciona cada API, desde la administración de datos de contexto hasta la implementación de límites de frecuencia, y descubrirá flujos de trabajo adaptados a sus necesidades comerciales. Empiece a desbloquear una toma de decisiones más inteligente e integraciones sin problemas para ofrecer experiencias de cliente impactantes con confianza.
-
-## Entrega de ofertas mediante API
+## Envío de ofertas mediante las API
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Introducción a las API de entrega de ofertas
+Introducción a las API de envío de ofertas
 
-Obtenga información acerca de las API disponibles para entregar ofertas personalizadas, incluidas las API de Decisioning, Edge Decisioning y Batch Decisioning.
+Obtenga información sobre las API disponibles para enviar ofertas personalizadas, incluidas las API de toma de decisiones, de toma de decisiones en Edge y de toma de decisiones por lotes.
 
-[Lea la introducción](../using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+[Leer la introducción](../using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Entrega de ofertas mediante la API de decisiones
+Envío de ofertas mediante la API de toma de decisiones
 
-Cree y entregue ofertas de marketing personalizadas mediante la API de decisiones con instrucciones detalladas sobre encabezados, solicitudes y respuestas.
+Cree y envíe ofertas de marketing personalizadas mediante la API de toma de decisiones con instrucciones detalladas sobre encabezados, solicitudes y respuestas.
 
-[Exploración de la API de decisiones](../using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+[Explorar la API de toma de decisiones](../using/offers/api-reference/offer-delivery-api/decisioning-api.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Entrega de ofertas mediante la API de Edge Decisioning
+Enviar ofertas mediante la API de toma de decisiones en Edge
 
-Implemente la entrega de ofertas personalizada mediante Adobe Experience Platform Web SDK a través de la API de Edge Decisioning.
+Implemente el envío de ofertas personalizadas mediante el SDK web de Adobe Experience Platform a través de la API de toma de decisiones en Edge.
 
-[Obtenga información sobre Edge Decisioning](../using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+[Más información sobre la toma de decisiones en Edge](../using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Uso de la API de decisiones por lotes para entregar ofertas
+Uso de la API de toma de decisiones por lotes para enviar ofertas
 
-Procesar decisiones por lotes y enviar ofertas a perfiles de audiencia aprovechando la API de decisiones por lotes.
+Procese las decisiones por lotes y envíe ofertas a perfiles del público aprovechando la API de toma decisiones por lotes.
 
-[Empezar con decisiones por lotes](../using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+[Empezar con la toma de decisiones por lotes](../using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 :::
 
 ::::

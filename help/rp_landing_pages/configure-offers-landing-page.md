@@ -1,52 +1,52 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Configurar ofertas
-description: Configurar ofertas
+title: Configuración de ofertas
+description: Configuración de ofertas
 redpen-status: CREATED_||_2025-08-11_21-00-31
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: e03307f5-0024-463a-ad2b-78d49e6d158f
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
+# Configuración de ofertas{#section-overview}
 
-# Configurar ofertas{#section-overview}
+La sección “Configuración de ofertas” de Adobe Journey Optimizer le permite diseñar y administrar ofertas personalizadas que se adapten perfectamente a las necesidades y preferencias de su público. Tanto si está creando ofertas desde cero como si define su ubicación o ajusta restricciones como la idoneidad y la frecuencia, estas herramientas permiten garantizar que los mensajes lleguen a las personas adecuadas en el momento adecuado. Explorará cómo crear contenido atractivo en diferentes contextos, establecer reglas sobre cuándo y dónde aparecen las ofertas y ajustar las prioridades para maximizar el impacto. Al final, adquirirá las capacidades para crear ofertas dinámicas y específicas que fomenten la participación y proporcionen resultados tangibles.
 
-La sección &quot;Configuración de ofertas&quot; de Adobe Journey Optimizer le permite diseñar y administrar ofertas personalizadas que se adaptan perfectamente a las necesidades y preferencias de su audiencia. Tanto si crea ofertas desde cero como si define su ubicación o ajusta restricciones como la elegibilidad y la frecuencia, estas herramientas ayudan a garantizar que los mensajes lleguen a las personas adecuadas en el momento adecuado. Explorará cómo crear contenido atractivo para diferentes contextos, establecer reglas para cuándo y dónde aparecen las ofertas y ajustar las prioridades para maximizar el impacto. Al final, tendrá las habilidades para crear ofertas dinámicas y específicas que impulsen la participación y proporcionen resultados medibles.
-
-## Configurar ofertas
+## Configuración de ofertas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Creación de ofertas personalizadas
+Crear ofertas personalizadas
 
-Obtenga información sobre cómo crear y administrar ofertas personalizadas con instrucciones paso a paso, incluida la configuración de reglas de elegibilidad, restricciones y atributos de oferta.
+Obtenga información sobre cómo crear y administrar ofertas personalizadas con instrucciones paso a paso, como la configuración de las reglas de elegibilidad, restricciones y atributos de oferta.
 
 [Empezar a crear ofertas](../using/offers/offer-library/creating-personalized-offers.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Añadir representaciones a ofertas
 
 Defina y configure dónde se muestran las ofertas mediante representaciones, a la vez que las personaliza en función del contexto del usuario y los recursos.
 
-[Configuración de representaciones](../using/offers/offer-library/add-representations.md)
+[Configurar representaciones](../using/offers/offer-library/add-representations.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Añadir restricciones a las ofertas
+Añadir restricciones a ofertas
 
-Establezca las reglas de elegibilidad, prioridad y límite para controlar cómo y cuándo se presentan las ofertas a la audiencia correcta.
+Establezca las reglas de idoneidad, prioridad y límite para controlar cómo y cuándo se presentan las ofertas al público correcto.
 
-[Definición de restricciones de oferta](../using/offers/offer-library/add-constraints.md)
+[Definir restricciones de ofertas](../using/offers/offer-library/add-constraints.md)
 :::
 
 ::::

@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Novedades
 description: Novedades
 redpen-status: CREATED_||_2025-08-11_20-03-09
-source-git-commit: cadb4a66c23010cb663eb1e840d0568021690edf
-workflow-type: tm+mt
+exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
-
 
 # Novedades{#section-overview}
 
@@ -35,7 +35,7 @@ La integración de Adobe Express en Adobe Journey Optimizer le permite acceder f
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB Fragmento de contenido de AEM]
 
@@ -46,37 +46,37 @@ Al integrar Adobe Experience Manager as a Cloud Service con Adobe Journey Optimi
 
 >[!ENDTABS]
 
-## Notas de la versión y actualizaciones de documentación
+## Notas de la versión y actualizaciones de la documentación
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Últimas notas de la versión de Adobe Journey Optimizer
+Últimas notas de la versión de Adobe Journey Optimizer 
 
-Descubra las últimas funciones, mejoras y actualizaciones de Adobe Journey Optimizer, incluida la orquestación de campañas, la optimización y la compatibilidad con canales mejorados.
+Descubra las últimas funciones, mejoras y actualizaciones de Adobe Journey Optimizer, entre ellas la orquestación de campañas, la optimización y la compatibilidad con canales mejorados.
 
 [Ver las últimas notas de la versión](../using/rn/release-notes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Notas de la versión anteriores de Adobe Journey Optimizer
+Notas de versiones anteriores de Adobe Journey Optimizer
 
-Explore las notas de la versión completas de años anteriores, con actualizaciones detalladas de las funciones, integraciones y mejoras de Adobe Journey Optimizer.
+Explore las notas completas de las versiones de años anteriores, con actualizaciones detalladas sobre las funciones, integraciones y mejoras de Adobe Journey Optimizer.
 
-[Examinar notas de versiones anteriores](previous-rn-new-landing-page.md)
+[Examinar las notas de versiones anteriores](previous-rn-new-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Últimas actualizaciones de la documentación de Adobe Journey Optimizer
 
-Manténgase informado sobre las actualizaciones recientes y los cambios en la documentación de Adobe Journey Optimizer, organizados por mes y año.
+Manténgase informado sobre las actualizaciones y los cambios recientes en la documentación de Adobe Journey Optimizer, organizados por mes y año.
 
-[Lea las actualizaciones de la documentación](../using/rn/documentation-updates.md)
+[Leer las actualizaciones sobre la documentación](../using/rn/documentation-updates.md)
 :::
 
 ::::

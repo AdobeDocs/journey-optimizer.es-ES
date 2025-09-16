@@ -4,35 +4,35 @@ product: Journey Optimizer
 title: Diseño del contenido
 description: Diseño del contenido
 redpen-status: CREATED_||_2025-08-11_20-32-28
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Diseño del contenido{#section-overview}
 
-El diseño del contenido en Adobe Journey Optimizer consiste en crear experiencias de correo electrónico personalizadas e impactantes que se conecten con la audiencia. Tanto si desea añadir diseños dinámicos, fragmentos visuales reutilizables o vínculos personalizados, cada herramienta funciona conjuntamente para proporcionarle un control total sobre su diseño de correo electrónico. También descubrirá cómo integrar metadatos para la accesibilidad, personalizar ofertas para obtener más relevancia e incluso aplicar estilos avanzados utilizando CSS personalizado. Con instrucciones paso a paso, estas funciones le permiten crear correos electrónicos que no solo son visualmente impresionantes, sino que también se adaptan a sus objetivos y a las necesidades de su audiencia.
+El diseño del contenido en Adobe Journey Optimizer consiste en crear experiencias de correo electrónico personalizadas e impactantes que conecten con su público. Tanto si desea añadir diseños dinámicos, fragmentos visuales reutilizables como vínculos personalizados, cada herramienta funciona conjuntamente para proporcionarle un control total sobre el diseño de su correo electrónico. También descubrirá cómo integrar metadatos para la accesibilidad, personalizar ofertas para obtener más relevancia e incluso aplicar estilos avanzados utilizando CSS personalizado. Con instrucciones paso a paso, estas funciones le permiten crear correos electrónicos que no solo son visualmente impresionantes, sino que también se adaptan a sus objetivos y a las necesidades de su público.
 
-## Diseñar el contenido
+## Diseño del contenido
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Uso de componentes de contenido
+Usar componentes de contenido
 
-Aprenda a añadir y personalizar componentes como texto, botones, imágenes y mucho más para crear diseños de correo electrónico dinámicos.
+Aprenda a añadir y personalizar componentes como texto, botones, imágenes y muchos más para crear diseños de correo electrónico dinámicos.
 
-[Empezar a utilizar componentes de contenido](../using/email/content-components.md)
+[Empezar a usar componentes de contenido](../using/email/content-components.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
-Aprovechamiento de fragmentos visuales
+Aprovechar los fragmentos visuales
 
 Descubra cómo crear fragmentos reutilizables para optimizar el diseño del correo electrónico y mejorar la coherencia del contenido.
 
@@ -40,9 +40,9 @@ Descubra cómo crear fragmentos reutilizables para optimizar el diseño del corr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Agregar vínculos y rastrear mensajes
+Añadir vínculos y realizar el seguimiento de mensajes
 
 Habilite el seguimiento, inserte vínculos y administre el aspecto de los vínculos para optimizar sus campañas de correo electrónico.
 
@@ -50,19 +50,19 @@ Habilite el seguimiento, inserte vínculos y administre el aspecto de los víncu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Insertar ofertas personalizadas
 
-Utilice la administración de decisiones para mostrar dinámicamente ofertas personalizadas adaptadas a su audiencia.
+Utilice la gestión de decisiones para mostrar dinámicamente ofertas personalizadas adaptadas a su público.
 
 [Añadir ofertas personalizadas](../using/email/add-offers-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
-Generar versión de texto
+Generar la versión de texto
 
 Cree y personalice la versión de texto sin formato del correo electrónico para los destinatarios que no puedan ver el contenido de HTML.
 
@@ -70,13 +70,13 @@ Cree y personalice la versión de texto sin formato del correo electrónico para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Añadir metadatos
 
-Mejore la legibilidad y accesibilidad del correo electrónico configurando metadatos como encabezados previos e idioma del documento.
+Mejore la legibilidad y accesibilidad del correo electrónico configurando metadatos como encabezados preliminares y el idioma del documento.
 
-[Configurar metadatos de correo electrónico](../using/email/email-metadata.md)
+[Configurar metadatos del correo electrónico](../using/email/email-metadata.md)
 :::
 
 ::::
@@ -84,4 +84,4 @@ Mejore la legibilidad y accesibilidad del correo electrónico configurando metad
 
 ## Recursos adicionales
 
-- **[Agregar CSS personalizado](../using/email/custom-css.md)**: obtenga control de estilo avanzado al aplicar CSS personalizado al contenido del correo electrónico.
+- **[Añadir CSS personalizado](../using/email/custom-css.md)**: obtenga un control de estilo avanzado al aplicar el CSS personalizado al contenido del correo electrónico.
