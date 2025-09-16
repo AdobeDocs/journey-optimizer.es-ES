@@ -20,7 +20,7 @@ Las funciones de administración de contenido de Adobe Journey Optimizer le perm
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Personalización en Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Aprenda a implementar y optimizar las funciones de personalización para crear e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Páginas de aterrizaje en Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Descubra herramientas y tutoriales para crear, administrar y optimizar páginas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Plantillas de contenido en Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Optimice la creación de contenido con plantillas reutilizables para una adminis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Fragmentos de contenido reutilizables
 
@@ -60,7 +60,7 @@ Aprenda a crear y administrar fragmentos de contenido reutilizables para persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Contenido dinámico en Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Utilice reglas condicionales para crear contenido dinámico y personalizado para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Casos de uso entre soluciones
 

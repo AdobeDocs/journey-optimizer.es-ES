@@ -20,7 +20,7 @@ El canal web de Adobe Journey Optimizer le permite crear experiencias personaliz
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción al canal web
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear y administrar experiencias web personaliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configurar el canal web
 
@@ -40,7 +40,7 @@ Configure y administre canales web, incluidos los subdominios, las reglas de coi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Crear y administrar experiencias web
 
@@ -50,7 +50,7 @@ Guía paso a paso para crear, editar, probar y publicar experiencias web persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
 
 Crear y administrar páginas web
 

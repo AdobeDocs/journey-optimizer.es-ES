@@ -40,7 +40,7 @@ Siga las instrucciones paso a paso para configurar manualmente el canal LINE o c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Crear y configurar mensajes LINE
 
@@ -50,7 +50,7 @@ Descubra cómo añadir mensajes LINE a recorridos y campañas, personalizar el c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Comprobar y enviar mensajes LINE
 

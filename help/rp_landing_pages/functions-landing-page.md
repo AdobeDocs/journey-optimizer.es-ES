@@ -30,7 +30,7 @@ Aprenda a utilizar las funciones de ayuda para la manipulación y personalizaci�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Biblioteca de funciones de agregación
 
@@ -40,7 +40,7 @@ Descubra funciones para resumir varios valores en un único valor para la person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Biblioteca de funciones aritméticas
 
@@ -50,7 +50,7 @@ Explore cómo las funciones aritméticas realizan cálculos como sumas, restas, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Referencia de funciones de matriz y lista
 
@@ -60,7 +60,7 @@ Aprenda a manipular matrices y listas con funciones como contar, recuperar valor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
 
 Biblioteca de funciones de fecha y hora
 
@@ -70,7 +70,7 @@ Utilice las funciones de fecha y hora para manipular y aplicar formato a las fec
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Biblioteca de funciones booleanas y de comparación
 

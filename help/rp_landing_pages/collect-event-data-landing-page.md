@@ -20,7 +20,7 @@ La recopilación de datos de eventos en Adobe Journey Optimizer permite rastrear
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a la recopilación de datos de gestión de decisiones
 
@@ -30,7 +30,7 @@ Conozca los aspectos básicos de la recopilación de datos para la gestión de d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Cómo crear un conjunto de datos para recopilar eventos de experiencia
 
@@ -40,7 +40,7 @@ Siga las instrucciones paso a paso para crear un conjunto de datos y un esquema 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configuración de la captura de datos de evento para la gestión de decisiones
 

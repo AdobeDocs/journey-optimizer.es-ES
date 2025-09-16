@@ -20,7 +20,7 @@ La función de toma de decisiones de Adobe Journey Optimizer le permite suminist
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a la toma de decisiones
 
@@ -30,7 +30,7 @@ Conozca los aspectos básicos de las tomas de decisiones en Adobe Journey Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Mecanismos de protección y limitaciones de las tomas de decisiones
 
@@ -40,7 +40,7 @@ Conozca las restricciones y las prácticas recomendadas para utilizar las tomas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Referencia de API: envío de ofertas
 
@@ -50,7 +50,7 @@ Explore cómo enviar ofertas utilizando el canal de experiencia basada en códig
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Administrar elementos de decisión y catálogos
 
@@ -60,7 +60,7 @@ Configure y administre elementos de decisión, catálogos y colecciones para org
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Crear reglas de decisión
 
@@ -70,7 +70,7 @@ Defina reglas de decisión para dirigirse a los públicos con precisión mediant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Crear clasificaciones con modelos de IA
 

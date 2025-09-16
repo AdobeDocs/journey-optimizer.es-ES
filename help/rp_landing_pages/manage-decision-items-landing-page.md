@@ -20,7 +20,7 @@ La administración de elementos de decisión en Adobe Journey Optimizer consiste
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configurar el catálogo de elementos
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo configurar y administrar el catálogo de elemen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Crear y administrar elementos de decisión
 
@@ -40,7 +40,7 @@ Descubra cómo crear, configurar y administrar elementos de decisión, entre ell
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Administrar colecciones de elementos
 

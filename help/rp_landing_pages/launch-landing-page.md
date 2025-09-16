@@ -30,7 +30,7 @@ Conozca los pasos clave para crear, administrar y analizar una campaña orquesta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Crear y programar una campaña orquestada
 
@@ -40,7 +40,7 @@ Descubra cómo crear y configurar propiedades de campañas, programaciones de ej
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Actividades de la campaña orquestada
 
@@ -50,7 +50,7 @@ Domine el lienzo visual para diseñar y configurar actividades para sus campaña
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Iniciar y monitorizar campañas
 
@@ -60,7 +60,7 @@ Obtenga información sobre cómo probar, publicar y monitorizar sus campañas or
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Creación de informes para campañas orquestadas
 
