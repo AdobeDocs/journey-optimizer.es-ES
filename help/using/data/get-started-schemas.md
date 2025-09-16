@@ -8,39 +8,55 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: esquemas, plataforma, datos, estructura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+source-git-commit: 70f647cf4e95c1152a5c16395b88b11a6b72865c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 18%
 
 ---
 
 # Introducción a los esquemas {#schemas-gs}
 
-Los esquemas son la forma estándar de describir los datos en Experience Platform, lo que permite reutilizar en una organización todos los datos que se ajustan a los esquemas, o incluso compartirlos entre varias organizaciones.
+[!DNL Adobe Journey Optimizer] se basa en **esquemas de Adobe Experience Platform** para describir la estructura de los datos de una manera uniforme y reutilizable. Un esquema proporciona una definición abstracta de un objeto del mundo real (como una persona) y describe qué datos deben incluirse en cada instancia de ese objeto (como nombre, cumpleaños, etc.). Cuando los datos se incorporan en Experience Platform, siempre se estructuran según un **esquema XDM**.
 
-➡️ [Descubra cómo crear y configurar un esquema en este vídeo](#video-schema) (vídeo)
+## Esquemas estándar y relacionales
 
-Un esquema es un conjunto de reglas que representan y validan la estructura y el formato de los datos. En un nivel superior, los esquemas proporcionan una definición abstracta de un objeto del mundo real (como una persona) y describen qué datos deben incluirse en cada instancia de ese objeto (como nombre, apellido, cumpleaños, etc.).
+Existen dos tipos de esquemas en Adobe Experience Platform:
 
-Obtenga información sobre cómo crear esquemas en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es){target="_blank"}.
+* **Los esquemas estándar** son esquemas jerárquicos que utilizan clases y grupos de campos para capturar datos de registros o series temporales.
 
-El espacio de trabajo **Esquemas** en la interfaz de usuario de [!DNL Adobe Journey Optimizer] le permite administrar los recursos del Modelo de datos de experiencia (XDM), incluidos esquemas, clases, grupos de campos de esquema y tipos de datos. Puede ver y explorar los recursos principales proporcionados por Adobe y crear esquemas y recursos personalizados para su organización.
+  Un esquema estándar consta de:
 
-![](assets/schemas-home.png)
+   * Una **clase** (que define el comportamiento de los datos: registro o serie temporal).
+   * Uno o más **grupos de campos** (que agregan campos específicos al esquema).
 
-Información sobre cómo utilizar la interfaz de usuario de esquemas en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es){target="_blank"}.
+  En Journey Optimizer, los esquemas estándar generalmente se utilizan para representar a **personas individuales y sus atributos**, capturar **interacciones de series de tiempo** como clics, compras o inicios de sesión, y activar **Perfil del cliente en tiempo real** para la segmentación y personalización.
 
-La [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es){target="_blank"} describe paso a paso la creación de un esquema con el editor de esquemas.
+  ➡️ [Aprenda a crear y configurar un esquema estándar en este vídeo](#video-schema) (vídeo)
 
-Consulte el [diccionario de esquemas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es){target="_blank"} para ver la lista completa de campos y atributos de cada esquema.
+* **Los esquemas relacionales** son esquemas planos no jerárquicos que no utilizan clases ni grupos de campos. Se usan para capturar datos de registros para entidades relacionales y se usan principalmente en [!DNL Journey Optimizer] **campañas orquestadas**.
 
+  Algunos ejemplos de entidades relacionales son:
+   * Reservas, contratos o suscripciones
+   * Productos o catálogos
+   * Tiendas, ubicaciones o socios
 
-## Vídeo explicativo{#video-schema}
+  Con los esquemas relacionales, puede enviar un mensaje por entidad (por ejemplo, por reserva o por suscripción), crear segmentos basados en atributos de entidad (por ejemplo, categoría de producto, ubicación de tienda) y mejorar la capacidad de direccionamiento llegando a todos los contactos vinculados a una entidad.
 
-Obtenga información sobre cómo crear un esquema, añadir grupos de campos, crear y configurar grupos de campos personalizados.
+  Cómo funcionan los esquemas relacionales:
 
->[!VIDEO](https://video.tv.adobe.com/v/3416869?quality=12&captions=spa)
+   1. **Crear esquemas manualmente o importar mediante DDL**
+   1. **Vincular esquemas** para definir las relaciones entre entidades y personas (por ejemplo, transacciones de fidelidad vinculadas a miembros, recompensas vinculadas a marcas).
+   1. **Ingresar datos** en su conjunto de datos desde fuentes compatibles.
+
+  ➡️ [Aprenda a administrar conjuntos de datos y esquemas relacionales](../orchestrated/gs-schemas.md)
+➡️ [Introducción a campañas orquestadas](../orchestrated/gs-schemas.md)
+
+## Vídeo práctico{#video-schema}
+
+Obtenga información sobre cómo crear un esquema estándar, añadir grupos de campos, crear y configurar grupos de campos personalizados.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >
