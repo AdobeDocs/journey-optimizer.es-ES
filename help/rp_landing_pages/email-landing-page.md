@@ -8,13 +8,13 @@ exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
 source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 27%
+ht-degree: 83%
 
 ---
 
 # Canal de correo electrónico{#section-overview}
 
-El canal de correo electrónico de Adobe Journey Optimizer le permite diseñar, configurar y ofrecer campañas de correo electrónico impactantes con precisión y creatividad. Ya sea que esté creando mensajes personalizados con la intuitiva Designer de correo electrónico, configurando sofisticados recorridos de correo electrónico y campañas, o administrando las exclusiones para cumplir con las normas, este canal reúne todos los aspectos del marketing por correo electrónico en un solo canal. Comience por configurar el canal de correo electrónico para una entrega y personalización óptimas y, a continuación, explore las herramientas para crear contenido dinámico que resuene con su audiencia. Profundice en temas avanzados como administrar la reputación del remitente y lograr que DMARC cumpla con las normas para garantizar que los correos electrónicos aterrizan donde están destinados. Desde una configuración perfecta hasta un diseño eficaz y una entrega estratégica, el canal de correo electrónico le permite transformar su marketing por correo electrónico en un motor fiable basado en datos para la participación de los clientes.
+El canal de correo electrónico de Adobe Journey Optimizer le permite diseñar, configurar y ofrecer campañas de correo electrónico impactantes con precisión y creatividad. Ya sea que esté creando mensajes personalizados con la intuitiva Designer de correo electrónico, configurando sofisticados recorridos de correo electrónico y campañas, o administrando las exclusiones para cumplir con las normas, este canal reúne todos los aspectos del marketing por correo electrónico en un solo canal. Comience por configurar el canal de correo electrónico para optimizar la entregabilidad y la personalización y, a continuación, explore las herramientas para crear contenido dinámico que conecte con su público. Profundice en temas avanzados como administrar la reputación del remitente y lograr que DMARC cumpla con las normas para garantizar que los correos electrónicos aterrizan donde están destinados. Desde una configuración perfecta hasta un diseño eficaz y un envío estratégico, el canal de correo electrónico le permite transformar su marketing por correo electrónico en un motor fiable basado en datos para la participación de los clientes.
 
 Se pueden crear envíos de correo electrónico:
 
@@ -27,58 +27,58 @@ Se pueden crear envíos de correo electrónico:
 >
 >Si es la primera vez que crea un correo electrónico, asegúrese de que el canal de correo electrónico esté configurado. [Más información](../using/email/email-settings.md)
 
-## Documentación y funciones del canal de correo electrónico
+## Funciones y documentación del canal de correo electrónico
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Cómo crear un correo electrónico
 
-Guía paso a paso para agregar, configurar y probar acciones de correo electrónico en recorridos o campañas.
+Guía paso a paso para añadir, configurar y probar acciones de correo electrónico en recorridos o campañas.
 
-[Aprenda a crear correos electrónicos](../using/email/create-email.md)
+[Información sobre cómo crear correos electrónicos](../using/email/create-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Diseño y optimización del contenido del correo electrónico
+Diseñar y optimizar el contenido del correo electrónico
 
-Explore herramientas y prácticas recomendadas para diseñar contenido de correo electrónico adaptable y personalizado con Adobe Journey Optimizer.
+Explore las herramientas y prácticas recomendadas para diseñar contenido de correo electrónico adaptable y personalizado con Adobe Journey Optimizer.
 
 [Diseñar correos electrónicos atractivos](design-email-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Administrar la exclusión de correo electrónico
 
-Configure mecanismos de exclusión de un clic o dos pasos para administrar las preferencias del usuario y mantener el cumplimiento.
+Configure mecanismos de exclusión mediante un clic o dos pasos para administrar las preferencias del usuario y mantener el cumplimiento.
 
-[Configuración de exclusiones de correo electrónico](../using/email/email-opt-out.md)
+[Configurar las exclusiones de canal de correo electrónico](../using/email/email-opt-out.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configurar canal de correo electrónico
+Configurar el canal de correo electrónico
 
-Configure y administre configuraciones de correo electrónico como delegación de subdominios, listas de supresión y funciones avanzadas.
+Configure y administre configuraciones de correo electrónico como la delegación de subdominios, las listas de supresión y las funciones avanzadas.
 
 [Configuración de correo electrónico](configure-email-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Dominio de Entregas de Correo Electrónico
+Dominio de la entregabilidad del correo electrónico
 
-Comprenda y optimice la capacidad de entrega de correos electrónicos con herramientas, prácticas recomendadas y perspectivas procesables para mejorar la reputación del remitente.
+Conozca y optimice la entregabilidad del correo electrónico con herramientas, prácticas recomendadas e información procesable para mejorar la reputación del remitente.
 
-[Mejora de la entrega de correo electrónico](deliverability-landing-page.md)
+[Mejorar la entregabilidad del correo electrónico](deliverability-landing-page.md)
 :::
 
 ::::
