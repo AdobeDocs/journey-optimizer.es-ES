@@ -9,7 +9,7 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 19%
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="Crear reglas de decisión"
->abstract="Las reglas de decisión permiten definir el público de los elementos de decisión mediante la aplicación de restricciones, ya sea directamente en el nivel del elemento de decisión o dentro de una estrategia de selección específica. Esto le permite controlar con precisión qué elementos se deben presentar y a quién se deben presentar.<br/><br/>Seleccione **[!UICONTROL Crear regla con conjunto de datos]** para usar datos de Adobe Experience Platform en reglas de decisión. Esto le permite definir criterios de idoneidad basados en atributos externos dinámicos, lo que garantiza que los elementos de decisión solo se muestren cuando corresponda."
+>abstract="Las reglas de decisión permiten definir el público de los elementos de decisión mediante la aplicación de restricciones, ya sea directamente en el nivel del elemento de decisión o dentro de una estrategia de selección específica. Esto le permite controlar con precisión qué elementos se deben presentar y a quién se deben presentar.<br/><br/>Seleccione **[!UICONTROL Crear regla con conjunto de datos]** para usar datos de Adobe Experience Platform en las reglas de decisión. Esto le permite definir criterios de idoneidad basados en atributos dinámicos y externos, lo que garantiza que los elementos de decisión solo se muestren cuando sean relevantes. "
 
 ## Acerca de las reglas decisión {#about}
 

@@ -9,7 +9,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '2186'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
->title="Administración de elementos de decisión"
+>title="Administrar elementos de decisión"
 >abstract="Journey Optimizer le permite crear ofertas de marketing, conocidas como elementos de decisión, que puede crear y organizar en un catálogo y colecciones centralizados. Actualmente, todos los elementos de decisión creados se consolidan dentro de un único catálogo &quot;Ofertas&quot;. Desde esta pantalla, también puede acceder al esquema del catálogo mediante el botón **Editar esquema** y crear atributos personalizados para los elementos de decisión."
 
 Journey Optimizer le permite crear ofertas de marketing, conocidas como elementos de decisión, que puede crear y organizar en un catálogo y colecciones centralizados. Están formadas por atributos estándar y personalizados diseñados para ajustarse con precisión a sus necesidades. Además, incorporan restricciones de perfil que le permiten definir a quién se puede mostrar un elemento de decisión.
@@ -107,12 +107,12 @@ Al seleccionar audiencias o reglas de decisión, puede ver información sobre lo
 >
 >Las estimaciones de perfil no están disponibles cuando los parámetros de regla incluyen datos que no están en el perfil, como datos de contexto. Por ejemplo, una regla de idoneidad que requiere que el clima actual sea de ≥80 grados.
 
-## Establecer reglas de límite {#capping}
+## Configuración de las reglas de límite {#capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="Expresión"
->abstract="En lugar de utilizar un valor estático para el umbral de límite, puede definir su propia expresión. Esto le permite calcular el umbral dinámicamente mediante atributos de decisión o atributos externos de un conjunto de datos de Adobe Experience Platform.<br/><br/>Las expresiones de regla de límite **están disponibles actualmente como disponibilidad limitada para todos los usuarios.** Solo son compatibles con el tipo de límite **[!UICONTROL En total]**."
+>abstract="En lugar de utilizar un valor estático para el umbral de límite, puede definir su propia expresión. Esto le permite calcular el umbral dinámicamente mediante atributos de decisión y/o atributos externos de un conjunto de datos de Adobe Experience Platform.<br/><br/>Las **expresiones** de la regla de límite están disponibles como Disponibilidad limitada para todos los usuarios. Solo son compatibles con el tipo de límite **[!UICONTROL En total]**."
 
 El límite se utiliza como restricción para definir el número máximo de veces que se puede presentar un elemento de oferta. Limitar el número de veces que los usuarios obtienen ofertas específicas le permite evitar saturar a sus clientes y, por lo tanto, optimizar cada punto de contacto con la mejor oferta. Puede crear hasta 10 límites para un elemento de decisión determinado.
 
@@ -166,7 +166,7 @@ Para establecer reglas de límite para el elemento de decisión, haga clic en el
 
    +++Umbral de expresión
 
-   En lugar de utilizar un valor estático para el umbral de límite, puede definir su propia expresión. Esto le permite calcular el umbral dinámicamente mediante atributos de decisión o atributos externos de un conjunto de datos de Adobe Experience Platform.
+   En lugar de utilizar un valor estático para el umbral de límite, puede definir su propia expresión. Esto le permite calcular el umbral dinámicamente mediante atributos de decisión y/o atributos externos de un conjunto de datos de Adobe Experience Platform.
 
    Por ejemplo, un experto en marketing puede decidir añadir un multiplicador para ajustar la exposición. Por ejemplo, podrían multiplicar el inventario disponible por dos, lo que permitiría mostrar la oferta al doble de clientes que unidades disponibles. Este enfoque prevé que no todos los clientes se convertirán, lo que garantiza un mejor alcance sin tener que realizar ventas excesivas.
 
@@ -203,7 +203,7 @@ If a marketer wants to determine how many times a specific customer has been sho
 
    ![](assets/item-approve.png)
 
-## Administración de elementos de decisión {#manage}
+## Administrar elementos de decisión {#manage}
 
 Desde la lista de elementos de decisión, puede editar un elemento de decisión, cambiar su estado (**Borrador**, **Aprobado**, **Archivado**), duplicarlo o eliminarlo.
 

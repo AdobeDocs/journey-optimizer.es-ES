@@ -13,7 +13,7 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 7%
+ht-degree: 25%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
->title="Búsqueda del conjunto de datos"
+>title="Búsqueda de conjuntos de datos"
 >abstract="Para utilizar atributos de Adobe Experience Platform para la toma de decisiones, debe crear una asignación para definir cómo se une el conjunto de datos de Adobe Experience Platform con los datos de [!DNL Journey Optimizer]."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
->title="Búsqueda del conjunto de datos"
->abstract="Seleccione el conjunto de datos con los atributos que necesita entre todos los conjuntos de datos de Adobe Experience Platform que se han habilitado para la búsqueda y, a continuación, seleccione una clave de asignación (por ejemplo, número de vuelo o ID de cliente) que exista tanto en los atributos del elemento de decisión como en el conjunto de datos."
+>title="Búsqueda de conjuntos de datos"
+>abstract="Seleccione el conjunto de datos con los atributos que necesita entre todos los conjuntos de datos de Adobe Experience Platform que se hayan habilitado para la búsqueda y, a continuación, seleccione una clave de asignación (por ejemplo, número de vuelo o ID de cliente) que exista tanto en los atributos del elemento de decisión como en el conjunto de datos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -37,12 +37,12 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="Búsqueda de conjuntos de datos"
->abstract="Utilice los atributos de conjuntos de datos [!DNL Adobe Experience Platform] para ajustar dinámicamente la lógica de clasificación a fin de reflejar las condiciones reales. Haga clic en **[!UICONTROL Agregar conjunto de datos]** para seleccionar el conjunto de datos de Adobe Experience Platform con los atributos que necesita. Si el conjunto de datos no se muestra en la lista, asegúrese de que lo ha habilitado para la búsqueda y de que ha creado una asignación de búsqueda de conjunto de datos."
+>abstract="Mediante los atributos del conjunto de datos de [!DNL Adobe Experience Platform], puede ajustar dinámicamente la lógica de clasificación para reflejar las condiciones reales. Haga clic en **[!UICONTROL Agregar conjunto de datos]** para seleccionar el conjunto de datos de Adobe Experience Platform con los atributos que necesita. Si el conjunto de datos no se muestra en la lista, asegúrese de que lo ha habilitado para la búsqueda y de que ha creado una asignación de búsqueda de conjunto de datos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
->title="Añadir conjunto de datos"
->abstract="Use los atributos de conjuntos de datos [!DNL Adobe Experience Platform] para definir criterios de límite basados en atributos externos dinámicos. Haga clic en **[!UICONTROL Agregar conjunto de datos]** para seleccionar el conjunto de datos de Adobe Experience Platform con los atributos que necesita. Si el conjunto de datos no se muestra en la lista, asegúrese de que lo ha habilitado para la búsqueda y de que ha creado una asignación de búsqueda de conjunto de datos."
+>title="Agregar conjunto de datos"
+>abstract="Use los atributos de conjuntos de datos de [!DNL Adobe Experience Platform] para definir criterios de límite basados en atributos externos dinámicos. Haga clic en **[!UICONTROL Agregar conjunto de datos]** para seleccionar el conjunto de datos de Adobe Experience Platform con los atributos que necesita. Si el conjunto de datos no se muestra en la lista, asegúrese de que lo ha habilitado para la búsqueda y de que ha creado una asignación de búsqueda de conjunto de datos."
 
 >[!AVAILABILITY]
 >

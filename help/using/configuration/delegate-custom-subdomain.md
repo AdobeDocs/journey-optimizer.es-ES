@@ -13,7 +13,7 @@ exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 18%
+ht-degree: 22%
 
 ---
 
@@ -69,7 +69,7 @@ Para configurar un subdominio personalizado, siga los pasos a continuación.
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
->title="Seleccionar una longitud de clave"
+>title="Selección de una longitud de clave"
 >abstract="La longitud de la clave puede ser de 2048 o 4096 bits únicamente. No se puede cambiar después de enviar el subdominio."
 
 1. En la sección **[!UICONTROL Certificado SSL]**, haga clic en **[!UICONTROL Generar CSR]**.

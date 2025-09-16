@@ -7,7 +7,7 @@ exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -49,7 +49,7 @@ Si fuera el autor de esta campaña y quisiera asegurarse de que se muestra su co
 >
 >Si dos recorridos o campañas tienen la misma puntuación de prioridad, el sistema no tiene un mecanismo de desempate. Asegúrese de que las puntuaciones de prioridad sean únicas para evitar conflictos.
 
-## Asignar puntuaciones de prioridad a acciones del canal entrante {#priority-action}
+## Asignación de puntuaciones de prioridad a acciones del canal de entrada {#priority-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_priority"
@@ -72,4 +72,4 @@ Para asignar una puntuación de prioridad a las acciones entrantes definidas en 
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445004?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
