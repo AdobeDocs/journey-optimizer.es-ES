@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo empezar con campañas orquestadas
 short-description: Descubra las características clave y los casos de uso de las campañas orquestadas
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -74,7 +74,7 @@ El lienzo de la campaña orquestada es una representación de lo que se supone q
 
 Cada campaña orquestada contiene:
 
-* **Actividades**: una actividad es una tarea que se va a realizar. Las distintas actividades disponibles se representan en el lienzo mediante iconos. Cada actividad tiene propiedades específicas y otras que son comunes a todas las actividades.
+* **Actividades**: una actividad es una tarea que se va a realizar. Las [diversas actividades](activities/about-activities.md) se representan en el lienzo mediante iconos. Cada actividad tiene propiedades específicas y otras que son comunes a todas las actividades.
 
   En un lienzo de campaña organizada, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o acciones recurrentes.
 

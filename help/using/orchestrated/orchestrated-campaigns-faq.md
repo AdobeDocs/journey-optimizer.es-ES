@@ -5,7 +5,7 @@ title: Preguntas más frecuentes sobre campañas organizadas
 description: Preguntas frecuentes sobre las campañas orquestadas de Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 9ae0d910f6246b87683b04db97bbdb7355beb349
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 3%
@@ -16,9 +16,9 @@ ht-degree: 3%
 
 A continuación, encontrará las preguntas más frecuentes sobre campañas organizadas de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
-## ¿Qué es la orquestación de Campaign? {#what-are-oc}
++++ ¿Qué es la orquestación de Campaign? {#what-are-oc}
 
 Campaign Orchestration es una función de Journey Optimizer que admite flujos de trabajo de un solo paso o de varios pasos que aprovechan el almacén de datos relacional para crear y segmentar audiencias con el fin de lograr una participación por lotes.
 
@@ -26,7 +26,9 @@ Lleva un nuevo tipo de campañas a Journey Optimizer: **Campañas orquestadas**.
 
 En comparación con las campañas de un solo envío/acción, aportan **orquestación y secuenciación** al marketing saliente: las audiencias se mueven juntas a través de un flujo de trabajo de varios pasos, en lugar de recibir una ráfaga única.
 
-## ¿Qué puedo hacer con una campaña orquestada? {#what-can-i-do}
++++
+
++++ ¿Qué puedo hacer con una campaña orquestada?
 
 Las funcionalidades clave incluyen:
 
@@ -46,13 +48,17 @@ Las funcionalidades clave incluyen:
 
 >[!ENDSHADEBOX]
 
-## ¿Cómo acceder a la orquestación de Campaign? {#access-oc}
++++
+
++++ ¿Cómo acceder a la orquestación de Campaign?
 
 Para acceder a Campaign Orchestration, la licencia debe incluir **Journey Optimizer - Campañas y Recorridos** o el paquete **Journey Optimizer - Campañas**. Póngase en contacto con su representante de Adobe para confirmar su licencia y actualizarla si es necesario.
 
 Obtenga más información acerca del modelo de licencias de Campaign Orchestration en [descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-## ¿En qué se diferencian las campañas orquestadas de los Recorridos? {#oc-vs-journeys}
++++
+
++++ ¿En qué se diferencian las campañas orquestadas de los Recorridos?
 
 * **Campañas orquestadas**: lo mejor para **campañas en lotes, de uno a varios**. Las audiencias progresan de forma masiva, según una programación.
 * **Recorridos**: lo mejor para una participación de **uno a uno** en tiempo real. Cada cliente avanza por el recorrido a su propio ritmo, activado por comportamientos o eventos.
@@ -63,7 +69,9 @@ Obtenga más información acerca del modelo de licencias de Campaign Orchestrati
 
 >[!ENDSHADEBOX]
 
-## ¿Qué es la segmentación de varias entidades? {#multi-entity}
++++
+
++++ ¿Qué es la segmentación de varias entidades?
 
 La organización de campañas en Adobe Journey Optimizer utiliza una base de datos relacional. Este tipo de modelo de datos tiene esquemas de datos independientes que están conectados mediante relaciones de tipo 1:1 o 1:many. Esto permite a los usuarios iniciar una consulta en cualquier esquema, no solo a nivel de destinatario, y luego dar la vuelta y volver a otros esquemas relacionados, como compras, productos, reservas o detalles del destinatario, lo que proporciona una gran flexibilidad en la forma de crear segmentos y audiencias, y
 refinado.
@@ -74,8 +82,9 @@ refinado.
 
 >[!ENDSHADEBOX]
 
++++
 
-## ¿Cómo funciona el modelo de datos? {#data-model}
++++ ¿Cómo funciona el modelo de datos?
 
 Las campañas usan una **base de datos relacional**. Esto le permite realizar consultas en diferentes conjuntos de datos (por ejemplo, clientes, productos, suscripciones) y conectarlos de forma flexible para una segmentación avanzada.
 
@@ -89,7 +98,9 @@ Las campañas usan una **base de datos relacional**. Esto le permite realizar co
 
 >[!ENDSHADEBOX]
 
-## ¿Puedo personalizar mensajes con datos relacionales? {#personalization}
++++
+
++++ ¿Puedo personalizar mensajes con datos relacionales?
 
 Sí. En Campaign Orchestration, se puede actualizar un perfil de destinatario conocido como &quot;entidad de personas&quot; y utilizar esos datos para la personalización. Además, los datos enriquecidos de entidades vinculadas en la base de datos relacional también se pueden utilizar para la personalización. Puede utilizar perfiles de clientes junto con datos vinculados (como compras o suscripciones) para personalizar el contenido en todos los canales admitidos.
 
@@ -103,6 +114,8 @@ Sí. En Campaign Orchestration, se puede actualizar un perfil de destinatario co
 
 >[!ENDSHADEBOX]
 
++++
+
 <!--
 ## Do Orchestrated campaigns integrate with other Adobe solutions? {#integrations}
 
@@ -112,32 +125,44 @@ Yes. Campaign orchestration is natively integrated with:
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
-## ¿Qué canales son compatibles? {#channels}
++++ ¿Qué canales son compatibles?
 
 Puede crear campañas organizadas para enviar **correos electrónicos**, **SMS** y **notificaciones push**.
 
-## ¿Se pueden iniciar varias comunicaciones y diferentes canales dentro de la misma campaña orquestada?
++++
+
++++ ¿Se pueden iniciar varias comunicaciones y diferentes canales dentro de la misma campaña orquestada?
 
 Sí, las campañas orquestadas admiten la orquestación entre canales.
 
-## ¿Están disponibles las plantillas de campaña organizadas?
++++
+
++++ ¿Están disponibles las plantillas de campaña organizadas?
 
 No, no puede definir ni utilizar plantillas de campaña, pero puede utilizar plantillas de contenido para sus comunicaciones.
 
-## ¿El diseñador de contenido de los mensajes es específico de las campañas orquestadas?
++++
+
++++ ¿El diseñador de contenido de los mensajes es específico de las campañas orquestadas?
 
 No, el diseñador de contenido, incluido el Designer de correo electrónico, es común en todas las funciones de Journey Optimizer.
 
-## ¿Cómo se conectan los distintos canales en las campañas orquestadas?
++++
+
++++ ¿Cómo se conectan los distintos canales en las campañas orquestadas?
 
 El componente de canal y el tiempo de ejecución son comunes a todas las campañas de Journey Optimizer, pero los canales admitidos difieren.
 
-## ¿Pueden las campañas organizadas conectarse con canales salientes (web, en la aplicación)?
++++
+
+
++++ ¿Pueden las campañas organizadas conectarse con canales salientes (web, en la aplicación)?
 
 No, los canales salientes no son compatibles con las campañas orquestadas.
 
++++
 
-## ¿Qué sucede con los permisos y el consentimiento? {#permissions}
++++ ¿Qué sucede con los permisos y el consentimiento?
 
 Los permisos y el consentimiento para campañas y recorridos organizados se administran de forma centralizada en Adobe Experience Platform. Esta configuración se aplica en ambas soluciones para cada destinatario antes del envío.
 
@@ -151,7 +176,10 @@ Los permisos y el consentimiento para campañas y recorridos organizados se admi
 
 >[!ENDSHADEBOX]
 
-## ¿Puedo realizar la segmentación ad-hoc en campañas orquestadas? {#ad-hoc}
++++
+
+
++++ ¿Puedo realizar la segmentación ad-hoc en campañas orquestadas?
 
 En Campaign Orchestration, nos referimos a la segmentación ad hoc como &quot;Segmentación en directo&quot;, donde puede acceder a todos los datos disponibles en el almacén relacional en tiempo real, crear una consulta compleja sobre ella y obtener el resultado de la activación instantánea mediante canales salientes (por ejemplo, correo electrónico + SMS).
 
@@ -165,15 +193,23 @@ En Campaign Orchestration, nos referimos a la segmentación ad hoc como &quot;Se
 
 >[!ENDSHADEBOX]
 
-## ¿Campaign Orchestration solo accede a los datos cargados por lotes o también puede consultar tablas actualizadas en tiempo real (como los datos de Analytics)?
++++
+
+
++++ ¿Campaign Orchestration solo accede a los datos cargados por lotes o también puede consultar tablas actualizadas en tiempo real (como los datos de Analytics)?
 
 Journey Optimizer Campaign Orchestration puede generar primero consultas ad hoc sobre esquemas relacionales. Los esquemas relacionales solo admiten orígenes de lotes por ahora. Además, admite Leer audiencia de cualquier tipo de Audiencia de Adobe Experience Platform.
 
-## ¿Las campañas organizadas admiten la toma de decisiones? {#decisioning}
++++
+
++++ ¿Las campañas organizadas admiten la toma de decisiones?
 
 Sí. Decisioning puede utilizar datos relacionales de campañas orquestadas. Una vez que el esquema relacional se ha conectado con esquemas XDM, los datos XDM se pueden utilizar en la toma de decisiones.
 
-## ¿Cómo funciona la implementación en todos los entornos? {#deployment}
++++
+
+
++++ ¿Cómo funciona la implementación en todos los entornos?
 
 Los objetos creados en campañas orquestadas (por ejemplo, audiencias o flujos de trabajo) están vinculados a la zona protegida en la que se crean. Los flujos de trabajo de empaquetado e implementación estándar en entornos (desarrollo, fase, producción) no están disponibles actualmente para campañas organizadas.
 
@@ -187,6 +223,8 @@ Los objetos creados en campañas orquestadas (por ejemplo, audiencias o flujos d
 
 >[!ENDSHADEBOX]
 
++++
+
 <!--
 ## Are there recommended practices for running campaigns at scale? {#scale}
 
@@ -199,14 +237,15 @@ Yes, follow the best practices below:
 * Run **post-campaign analysis** in Customer Journey Analytics to refine targeting and orchestration for the next cycle.  
 -->
 
-## ¿Cuál es la relación entre las entidades de destinatario y perfil?
++++ ¿Cuál es la relación entre las entidades de destinatario y perfil?
 
 La segmentación se realiza en los destinatarios mientras se envían con el perfil de Adobe Experience Platform. La dimensión objetivo del destinatario amplía el perfil unificado con datos adicionales que se utilizan para la segmentación dentro de campañas orquestadas, mientras que el destinatario se concilia con el perfil en tiempo de ejecución para enviar mensajes y comprobar la directiva de consentimiento y las reglas empresariales. Esta reconciliación es útil para unificar las reglas empresariales y la aplicación de consentimiento en el nivel de perfil
 
 ![](assets/recipients-and-profiles.png)
 
++++
 
-## ¿En qué casos se recomienda utilizar entidades de destinatario frente a de perfil?
++++ ¿En qué casos se recomienda utilizar entidades de destinatario frente a de perfil?
 
 Responder &quot;Sí&quot; sugiere el mejor almacén de datos, pero confirme siempre el mejor enfoque en función de su caso de uso y las restricciones con su representante de Adobe.
 
@@ -218,20 +257,25 @@ Responder &quot;Sí&quot; sugiere el mejor almacén de datos, pero confirme siem
 | ¿Hay necesidades específicas de creación, evaluación y activación de audiencias? | ¿Pueden limitarse los datos de comportamiento a `<` 90 días utilizando acumulados precalculados? |
 |  | ¿Se necesitan datos para personalizar los mensajes en tiempo real? |
 
++++
 
-## ¿Cuál es el número máximo de actividades por campaña orquestada?
++++ ¿Cuál es el número máximo de actividades por campaña orquestada?
 
 El número de actividades en una campaña orquestada está limitado a 500.
 
-## ¿Es posible realizar enriquecimientos para agregar datos adicionales?
++++
+
++++ ¿Es posible realizar enriquecimientos para agregar datos adicionales?
 
 Sí, se pueden enriquecer los datos desde el almacén relacional y desde las audiencias de Adobe Experience Platform.
 
-## ¿Deben definirse todos los filtros mediante audiencias o se puede configurar algún tipo de filtro?
++++
+
++++ ¿Deben definirse todos los filtros mediante audiencias o se puede configurar algún tipo de filtro?
 
 Las campañas orquestadas admiten Filtros predefinidos: puede definir y guardar una consulta como filtro y agregarla a Favoritos para reutilizarla en tareas de segmentación adicionales.
 
-
++++
 
 >[!MORELIKETHIS]
 >

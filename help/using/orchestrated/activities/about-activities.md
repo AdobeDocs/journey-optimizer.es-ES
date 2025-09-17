@@ -5,10 +5,10 @@ title: Trabajo con actividades de campaña organizadas
 description: Obtenga información sobre cómo organizar actividades de campaña
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 63%
+ht-degree: 61%
 
 ---
 
@@ -28,7 +28,10 @@ Todas las actividades se detallan en las secciones siguientes:
 
 >[!NOTE]
 >
->Según el modelo de licencia, los permisos y la implementación, las actividades disponibles pueden diferir.
+>* Según el modelo de licencia, los permisos y la implementación, las actividades disponibles pueden diferir.
+>
+>* El número de actividades en una campaña orquestada está limitado a 500.
+
 
 ## Actividades de segmentación {#targeting}
 
@@ -48,7 +51,9 @@ Las actividades de segmentación disponibles son:
 
 ## Actividades del canal {#channel}
 
-Adobe Journey Optimizer le permite automatizar y ejecutar campañas de marketing en múltiples canales. Puede combinar actividades de canal en el lienzo para crear campañas orquestadas entre canales que puedan almacenar en déclencheur acciones basadas en el comportamiento del cliente. Las siguientes actividades de **canal** están disponibles: correo electrónico y SMS. [Aprenda a crear una acción de canal en el contexto de una campaña organizada](channels.md).
+Adobe Journey Optimizer le permite automatizar y ejecutar campañas de marketing en múltiples canales. Puede combinar [actividades de canal](channels.md) en el lienzo para crear campañas orquestadas en canales múltiples que puedan almacenar en déclencheur acciones basadas en el comportamiento de los clientes.
+
+Aprenda a [crear una acción de canal en una campaña organizada](channels.md).
 
 ## Actividades de control de flujo {#flow-control}
 
