@@ -10,7 +10,7 @@ level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 hide: true
 hidefromtoc: true
-source-git-commit: eb5c9c949b89406cfe62f136bd6a52ab2692b6e4
+source-git-commit: 11c62deaf90b961233a35b9c4be8b81264b4c8e7
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 14%
@@ -68,7 +68,7 @@ Para usar **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, necesi
 * **[!UICONTROL Ver experimentos]**
 * **[!UICONTROL Administrar metadatos de experimento]**
 
-+++ Obtenga información sobre cómo asignar permisos relacionados con Experimentat
++++ Obtenga información sobre cómo asignar permisos relacionados con Experimentos
 
 1. En el producto **[!DNL Permissions]**, vaya a la ficha **[!UICONTROL Roles]** y seleccione el **[!UICONTROL Rol]** que desee.
 
