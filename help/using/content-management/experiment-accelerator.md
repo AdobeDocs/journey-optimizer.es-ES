@@ -10,10 +10,10 @@ level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 hide: true
 hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+source-git-commit: eb5c9c949b89406cfe62f136bd6a52ab2692b6e4
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '491'
+ht-degree: 14%
 
 ---
 
@@ -63,7 +63,36 @@ Los experimentos disponibles dependen de la configuración:
 
 * **Para usuarios solo de Adobe Target**: todas las actividades A/B de su organización de Target se incluyen en la zona protegida de producción de Journey Optimizer.
 
-Para usar **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, necesita acceso a la zona protegida y los siguientes permisos relacionados.
+Para usar **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, necesita acceso a la zona protegida y los siguientes permisos relacionados:
+
+* **[!UICONTROL Ver experimentos]**
+* **[!UICONTROL Administrar metadatos de experimento]**
+
++++ Obtenga información sobre cómo asignar permisos relacionados con Experimentat
+
+1. En el producto **[!DNL Permissions]**, vaya a la ficha **[!UICONTROL Roles]** y seleccione el **[!UICONTROL Rol]** que desee.
+
+1. Haga clic en **[!UICONTROL Editar]** para modificar los permisos.
+
+1. Agregue el recurso **[!UICONTROL Acelerador de experimentos]** y, a continuación, seleccione **[!UICONTROL Ver experimentos]** o **[!UICONTROL Administrar metada de experimento]** en el menú desplegable.
+
+   ![](assets/permissions-experiment.png)
+
+1. Haga clic en **[!UICONTROL Guardar]** para aplicar los cambios.
+
+Los permisos de los usuarios que ya estén asignados a esta función se actualizarán automáticamente.
+
+Para asignar esta función a nuevos usuarios:
+
+1. Vaya a la ficha **[!UICONTROL Usuarios]** en el panel de funciones y haga clic en **[!UICONTROL Agregar usuario]**.
+
+1. Introduzca el nombre del usuario y su dirección de correo electrónico, o selecciónelo en la lista, y haga clic en **[!UICONTROL Guardar]**.
+
+   Si el usuario no estaba ya creado, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/users).
+
+El usuario recibirá un correo electrónico con instrucciones para acceder a su instancia.
+
++++
 
 <!--table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="Overview" href="experiment-accelerator-overview.md" src="assets/do-not-localize/experiments-2.jpeg">
