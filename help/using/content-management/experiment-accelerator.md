@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator
+title: Journey Optimizer Experimentation Accelerator
 description: Mejore su capacidad para realizar experimentos de forma eficaz y generar perspectivas
 feature: Experimentation
 topic: Content Management
@@ -10,20 +10,20 @@ level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
 
-# Introducción a Experimentation Accelerator {#content-experiment}
+# Introducción a Journey Optimizer Experimentation Accelerator {#content-experiment}
 
 >[!BEGINSHADEBOX]
 
-* **[Introducción a Experimentation Accelerator](experiment-accelerator.md)**
-* [Uso de datos en IA con Experimentation Accelerator](experiment-accelerator-security.md)
-* [Prácticas recomendadas de Experimentation Accelerator](experiment-accelerator-best-practices.md)
+* **[Introducción a Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)**
+* [Uso de datos en IA con Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
+* [Prácticas recomendadas de Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)
 * [Monitorización de experimentos](experiment-accelerator-monitor.md)
 * [Métricas de experimentación](experiment-accelerator-metrics.md)
 
@@ -31,9 +31,9 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->**Experimentation Accelerator** requiere que los clientes tengan una licencia para Adobe Target o Adobe Journey Optimizer.
+>**Journey Optimizer Experimentation Accelerator** requiere que los clientes tengan una licencia para Adobe Target o Adobe Journey Optimizer.
 
-**Experimentation Accelerator** es una potente herramienta diseñada para optimizar y mejorar el proceso de experimentación. Al integrarse con Adobe Target y Adobe Journey Optimizer, proporciona una plataforma centralizada para administrar, analizar y optimizar experimentos. Al aprovechar las perspectivas impulsadas por IA y las pruebas adaptables, Experimentation Accelerator le permite tomar decisiones basadas en datos, mejorar las estrategias de marketing y obtener resultados mensurables.
+**Journey Optimizer Experimentation Accelerator** es una potente herramienta diseñada para optimizar y mejorar el proceso de experimentación. Al integrarse con Adobe Target y Adobe Journey Optimizer, proporciona una plataforma centralizada para administrar, analizar y optimizar experimentos. Al aprovechar las perspectivas impulsadas por IA y las pruebas adaptables, Journey Optimizer Experimentation Accelerator le permite tomar decisiones basadas en datos, mejorar las estrategias de marketing y obtener resultados mensurables.
 
 Las ventajas principales incluyen:
 
@@ -49,21 +49,21 @@ Las ventajas principales incluyen:
 
 * **Collaboration sin problemas**: comparte resultados fácilmente y administra los roles del equipo con alertas en tiempo real.
 
-## Acelerador de experimentos de acceso
+## Acceso a Journey Optimizer Experimentation Accelerator
 
-Después de [crear y configurar tu experimento](content-experiment.md) y de enviar tus campañas o recorridos a tus perfiles, puedes acceder a **[!UICONTROL Experimentation Accelerator]** para profundizar en el rendimiento de tu experimento.
+Después de [crear y configurar tu experimento](content-experiment.md) y de enviar tus campañas o recorridos a tus perfiles, puedes acceder a **[!UICONTROL Journey Optimizer Experimentation Accelerator]** para profundizar en el rendimiento de tu experimento.
 
-Puede acceder a **[!UICONTROL Experimentation Accelerator]** desde el menú de la izquierda de la lista desplegable [!UICONTROL Experimentación] o a través del conmutador Aplicaciones. Tenga en cuenta que los usuarios que solo tengan una licencia de Target solo pueden acceder a ella a través del conmutador Aplicaciones.
+Puede acceder a **[!UICONTROL Journey Optimizer Experimentation Accelerator]** desde el menú de la izquierda de la lista desplegable [!UICONTROL Experimentación] o a través del conmutador Aplicaciones. Tenga en cuenta que los usuarios que solo tengan una licencia de Target solo pueden acceder a ella a través del conmutador Aplicaciones.
 
 Los experimentos disponibles dependen de la configuración:
 
 * **Para usuarios de Adobe Journey Optimizer**: los experimentos configurados en la zona protegida de su organización habilitada se incluyen automáticamente.
 
-* **Para usuarios de Adobe Target con Journey Optimizer**: todas las actividades A/B de Target aparecen en **[!UICONTROL Experimentation Accelerator]** en la zona protegida de producción de Journey Optimizer.
+* **Para usuarios de Adobe Target con Journey Optimizer**: todas las actividades A/B de Target aparecen en **[!UICONTROL Journey Optimizer Experimentation Accelerator]** en la zona protegida de producción de Journey Optimizer.
 
 * **Para usuarios solo de Adobe Target**: todas las actividades A/B de su organización de Target se incluyen en la zona protegida de producción de Journey Optimizer.
 
-Para usar **[!UICONTROL Experimentation Accelerator]**, necesita acceso a la zona protegida y los siguientes permisos relacionados.
+Para usar **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, necesita acceso a la zona protegida y los siguientes permisos relacionados.
 
 <!--table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="Overview" href="experiment-accelerator-overview.md" src="assets/do-not-localize/experiments-2.jpeg">

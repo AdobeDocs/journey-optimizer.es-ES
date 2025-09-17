@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prácticas recomendadas de Experimentation Accelerator
+title: Prácticas recomendadas de Journey Optimizer Experimentation Accelerator
 description: Mejore su capacidad para realizar experimentos de forma eficaz y generar perspectivas
 feature: Experimentation
 topic: Content Management
@@ -10,20 +10,20 @@ level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '769'
 ht-degree: 2%
 
 ---
 
-# Prácticas recomendadas de Experimentation Accelerator {#content-experiment-best-practices}
+# Prácticas recomendadas de Journey Optimizer Experimentation Accelerator {#content-experiment-best-practices}
 
 >[!BEGINSHADEBOX]
 
-* [Introducción a Experimentation Accelerator](experiment-accelerator.md)
-* **[Prácticas recomendadas de Experimentation Accelerator](experiment-accelerator-best-practices.md)**
-* [Privacidad, seguridad y administración en Experimentation Accelerator](experiment-accelerator-security.md)
+* [Introducción a Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
+* **[Prácticas recomendadas de Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)**
+* [Privacidad, seguridad y administración en Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
 * [Monitorización de experimentos](experiment-accelerator-monitor.md)
 * [Métricas de experimentación](experiment-accelerator-metrics.md)
 
@@ -98,11 +98,11 @@ Ejemplo: _Creemos que cambiar X aumentará Y debido a Z._
 Un buen experimento no solo produce una victoria, sino que produce un aprendizaje claro y procesable.
 Esto es lo que hay que buscar:
 
-&check; **Confianza estadística**: Es poco probable que la diferencia entre las variantes se deba a la casualidad.
-&check; **Alineación con objetivos**: La métrica principal refleja un progreso significativo hacia un objetivo comercial.
+&amp;check; **Confianza estadística**: Es poco probable que la diferencia entre las variantes se deba a la casualidad.
+&amp;check; **Alineación con objetivos**: La métrica principal refleja un progreso significativo hacia un objetivo comercial.
 &amp; check; **Impacto secundario**: No hay efectos secundarios negativos significativos en las métricas relacionadas.
-&check; **Escalabilidad**: El resultado puede informar decisiones futuras o generalizarse a otras áreas.
-&check; **Claridad**: La causa del resultado está razonablemente aislada y comprendida.
+&amp;check; **Escalabilidad**: El resultado puede informar decisiones futuras o generalizarse a otras áreas.
+&amp;check; **Claridad**: La causa del resultado está razonablemente aislada y comprendida.
 
 La experimentación no se trata solo de encontrar la &quot;mejor&quot; versión, se trata de generar conocimiento a través de pruebas e iteraciones. Cuando se hace bien, los experimentos revelan perspectivas que impulsan decisiones más inteligentes, mejores experiencias de usuario y resultados mejorados.
 
