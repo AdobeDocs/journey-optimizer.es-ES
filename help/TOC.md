@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e269babd228063d465e0790435d916e479701a7
+source-git-commit: dc47da081601fdb019ffd98aa47803672fdef198
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2946'
 ht-degree: 98%
 
 ---
@@ -52,8 +52,8 @@ ht-degree: 98%
 + Recorridos {#orchestrate-journeys}
    + [Recorridos](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introducción a los recorridos](using/building-journeys/journey.md)
-   + Creación de un recorrido {#create-journey}
-      + [Creación de un recorrido](/help/rp_landing_pages/create-journey-landing-page.md)
+   + Crear un recorrido {#create-journey}
+      + [Crear un recorrido](/help/rp_landing_pages/create-journey-landing-page.md)
       + [Creación de su primer recorrido](using/building-journeys/journey-gs.md)
       + [Establecimiento de las propiedades del recorrido](using/building-journeys/journey-properties.md)
       + [Configuración y seguimiento de la métrica de recorrido](using/building-journeys/success-metrics.md)
@@ -236,7 +236,7 @@ ht-degree: 98%
       + Configuración de datos {#data-configuration}
          + [Configuración de datos](/help/rp_landing_pages/data-configuration-landing-page.md)
          + Administrar esquemas y conjuntos de datos relacionales {#schemas-datasets}
-            + [Administrar esquemas y conjuntos de datos relacionales](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+            + [Administración de esquemas y conjuntos de datos relacionales](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Introducción a esquemas y conjuntos de datos](using/orchestrated/gs-schemas.md)
             + [Esquema manual](using/orchestrated/manual-schema.md)
             + [Esquema de carga de archivos](using/orchestrated/file-upload-schema.md)
@@ -293,8 +293,8 @@ ht-degree: 98%
       + [Prueba del procesamiento de correo electrónico](using/content-management/rendering.md)
       + [Simulación de variaciones de contenido](using/test-approve/simulate-sample-input.md)
       + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
-   + Aprobación de recorridos y campañas {#approve}
-      + [Aprobación de recorridos y campañas](/help/rp_landing_pages/approve-landing-page.md)
+   + Aprobar recorridos y campañas {#approve}
+      + [Aprobar recorridos y campañas](/help/rp_landing_pages/approve-landing-page.md)
       + [Introducción a las aprobaciones](using/test-approve/gs-approval.md)
       + [Creación y administración de políticas de aprobación](using/test-approve/approval-policies.md)
       + [Solicitud de aprobación](using/test-approve/request-approval.md)
@@ -343,8 +343,8 @@ ht-degree: 98%
          + [Parámetros de encabezado](using/email/header-parameters.md)
          + [Seguimiento de URL](using/email/url-tracking.md)
          + [Personalización de la configuración de correo electrónico](using/email/surface-personalization.md)
-      + Entregabilidad de correos electrónicos {#deliverability}
-         + [Entregabilidad de correos electrónicos](/help/rp_landing_pages/deliverability-landing-page.md)
+      + Entregabilidad del correo electrónico {#deliverability}
+         + [Entregabilidad del correo electrónico](/help/rp_landing_pages/deliverability-landing-page.md)
          + [Introducción a la Entregabilidad](using/reports/deliverability.md)
          + [Explicación de la lista de supresión](using/reports/suppression-list.md)
          + [Nuevo requisito de DMARC](using/configuration/dmarc-record-update.md)
@@ -374,8 +374,8 @@ ht-degree: 98%
       + [Comprobación y envío de los mensajes de texto](using/sms/send-sms.md)
       + [Administración de la exclusión de mensajes de texto](using/sms/sms-opt-out.md)
       + [Configuración de subdominios de SMS](using/sms/sms-subdomains.md)
-      + Configuración de canal de SMS/MMS/RCS {#configure-sms}
-         + [Configuración de canal de SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
+      + Configuración de canales de SMS/MMS/RCS {#configure-sms}
+         + [Configuración de canales de SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Introducción a la configuración de SMS/MMS/RCS](using/sms/sms-configuration.md)
          + [Configuración del proveedor Sinch](using/sms/sms-configuration-sinch.md)
          + [Configuración del proveedor Infobip](using/sms/sms-configuration-infobip.md)
@@ -482,10 +482,11 @@ ht-degree: 98%
          + [Creación del contenido de la página de destino](using/landing-pages/lp-content.md)
          + [Crear plantillas](using/landing-pages/lp-templates.md)
          + [Agregar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
+      + [Aprovechamiento de los formularios en las páginas de aterrizaje](using/landing-pages/lp-forms.md)
       + [Creación de una lista de suscripción](using/landing-pages/subscription-list.md)
       + [Descubra los casos de uso](using/landing-pages/lp-use-cases.md)
-      + Configuración de las páginas de aterrizaje {#lp-configuration}
-         + [Configuración de las páginas de aterrizaje](/help/rp_landing_pages/lp-configuration-landing-page.md)
+      + Configurar páginas de aterrizaje {#lp-configuration}
+         + [Configurar páginas de aterrizaje](/help/rp_landing_pages/lp-configuration-landing-page.md)
          + [Configurar subdominios de página de destino](using/landing-pages/lp-subdomains.md)
          + [Definir ajustes preestablecidos de página de destino](using/landing-pages/lp-presets.md)
    + Plantillas de contenido {#content-templates}
@@ -541,8 +542,8 @@ ht-degree: 98%
       + [Creación de contenido multilingüe con traducción manual](using/content-management/multilingual-manual.md)
       + [Creación de contenido multilingüe con traducción automática](using/content-management/multilingual-automated.md)
    + [Optimización de mensajes](using/campaigns/campaigns-message-optimization.md)
-   + Experimento de contenido {#content-experiment}
-      + [Experimento de contenido](/help/rp_landing_pages/content-experiment-landing-page.md)
+   + Experimento del contenido {#content-experiment}
+      + [Experimento del contenido](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Introducción al experimento de contenido](using/content-management/get-started-experiment.md)
       + [Creación de un experimento de contenido](using/content-management/content-experiment.md)
       + Acelerador de experimentos {#experiment}
@@ -606,8 +607,8 @@ ht-degree: 98%
          + [Informe de campaña de notificaciones push](using/reports/campaign-global-report-cja-push.md)
          + [Informe de campaña de SMS](using/reports/campaign-global-report-cja-sms.md)
          + [Informe de campaña web](using/reports/campaign-global-report-cja-web.md)
-      + Informes de recorrido {#journey-reporting}
-         + [Informes de recorrido](/help/rp_landing_pages/journey-reporting-landing-page.md)
+      + Informes de recorridos {#journey-reporting}
+         + [Informes de recorridos](/help/rp_landing_pages/journey-reporting-landing-page.md)
          + [Informe de recorrido](using/reports/journey-global-report-cja.md)
          + [Informe de recorrido basado en código](using/reports/journey-global-report-cja-code.md)
          + [Informe de recorrido de tarjeta de contenido](using/reports/journey-global-report-cja-content.md)
@@ -621,12 +622,12 @@ ht-degree: 98%
       + [Informe de información general](using/reports/channel-report-cja.md)
       + [Informe de página de destino](using/reports/lp-report-global-cja.md)
       + [Informe de la lista de suscripciones](using/reports/subscription-report-global-cja.md)
-   + Informes de recorrido personalizados {#reports}
-      + [Informes de recorrido personalizados](/help/rp_landing_pages/reports-landing-page.md)
+   + Informes de recorridos personalizados {#reports}
+      + [Informes de recorridos personalizados](/help/rp_landing_pages/reports-landing-page.md)
       + [Creación de informes de recorrido](using/reports/sharing-overview.md)
       + [Lista de campos de eventos de paso](using/reports/sharing-field-list.md)
-      + Campos de eventos de paso heredados {#legacy-step-event-fields}
-         + [Campos de eventos de paso heredados](/help/rp_landing_pages/legacy-step-event-fields-landing-page.md)
+      + Campos de eventos de pasos heredados {#legacy-step-event-fields}
+         + [Campos de eventos de pasos heredados](/help/rp_landing_pages/legacy-step-event-fields-landing-page.md)
          + [Acerca de los campos heredados](using/reports/sharing-legacy-fields.md)
          + [Campos del recorrido](using/reports/sharing-journey-fields.md)
          + [Campos comunes](using/reports/sharing-common-fields.md)
@@ -635,7 +636,7 @@ ht-degree: 98%
          + [Campos de identidad](using/reports/sharing-identity-fields.md)
       + [Ejemplos de consultas](using/reports/query-examples.md)
 + Capacidades de decisión {#decisioning}
-   + [Capacidades de decisión](/help/rp_landing_pages/decisioning-landing-page.md)
+   + [Funciones de decisión](/help/rp_landing_pages/decisioning-landing-page.md)
    + [Introducción a las capacidades de decisiones](using/experience-decisioning/gs-decision.md)
    + Toma de decisiones {#experience-decisioning}
       + [Toma de decisiones](/help/rp_landing_pages/experience-decisioning-landing-page.md)
@@ -675,14 +676,14 @@ ht-degree: 98%
                + [Lista de reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [Actualizar reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + [Entregar ofertas mediante el canal de experiencia basada en código](using/experience-decisioning/api-reference/deliver.md)
-      + Administración de elementos de decisión {#manage-decision-items}
-         + [Administración de elementos de decisión](/help/rp_landing_pages/manage-decision-items-landing-page.md)
+      + Administrar elementos de decisión {#manage-decision-items}
+         + [Administrar elementos de decisión](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [Configuración del catálogo de elementos](using/experience-decisioning/catalogs.md)
          + [Creación de elementos de decisión](using/experience-decisioning/items.md)
          + [Administración de colecciones de elementos](using/experience-decisioning/collections.md)
       + [Crear reglas de decisión](using/experience-decisioning/rules.md)
-      + Crear clasificaciones {#experience-decisioning-rankings}
-         + [Crear clasificaciones](/help/rp_landing_pages/experience-decisioning-rankings-landing-page.md)
+      + Creación de clasificaciones {#experience-decisioning-rankings}
+         + [Creación de clasificaciones](/help/rp_landing_pages/experience-decisioning-rankings-landing-page.md)
          + [Creación de métodos de clasificación](using/experience-decisioning/ranking/ranking.md)
          + [Uso del generador de fórmulas de IA](using/experience-decisioning/ranking/ranking-formulas.md)
          + Modelos de IA {#experience-decisioning-ai-models}
@@ -693,7 +694,7 @@ ht-degree: 98%
             + [Creación de modelos de IA](using/experience-decisioning/ranking/create-ai-models.md)
       + [Trabajo con colocaciones](using/experience-decisioning/placements.md)
       + Uso de datos de Adobe Experience Platform {#aep-data}
-         + [Uso de datos de Adobe Experience Platform](/help/rp_landing_pages/aep-data-landing-page.md)
+         + [Usar datos de Adobe Experience Platform](/help/rp_landing_pages/aep-data-landing-page.md)
          + [Mejora de datos de contexto](using/experience-decisioning/context-data.md)
          + [Uso de Adobe Experience Platform para la toma de decisiones](using/experience-decisioning/aep-data-exd.md)
       + [Creación de estrategias de selección](using/experience-decisioning/selection-strategies.md)
@@ -706,8 +707,8 @@ ht-degree: 98%
          + [Configurar la captura de eventos](using/experience-decisioning/data-collection/schema-requirement.md)
    + Gestión de decisiones {#offer-decisioning}
       + [Gestión de decisiones](/help/rp_landing_pages/offer-decisioning-landing-page.md)
-      + Introducción a Gestión de decisiones {#get-started-decision}
-         + [Introducción a Gestión de decisiones](/help/rp_landing_pages/get-started-decision-landing-page.md)
+      + Introducción a la gestión de decisiones {#get-started-decision}
+         + [Introducción a la gestión de decisiones](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [Acerca de la Gestión de decisiones](using/offers/get-started/starting-offer-decisioning.md)
          + [Limitaciones y mecanismos de protección de gestión de decisiones](using/offers/decision-management-guardrails.md)
          + [Interfaz de usuario](using/offers/get-started/user-interface.md)
@@ -719,8 +720,8 @@ ht-degree: 98%
          + [Crear ubicaciones](using/offers/offer-library/creating-placements.md)
          + [Crear reglas de decisión](using/offers/offer-library/creating-decision-rules.md)
          + [Crear calificadores de colección](using/offers/offer-library/creating-tags.md)
-      + Crear clasificaciones {#rankings}
-         + [Crear clasificaciones](/help/rp_landing_pages/rankings-landing-page.md)
+      + Creación de clasificaciones {#rankings}
+         + [Creación de clasificaciones](/help/rp_landing_pages/rankings-landing-page.md)
          + [Introducción a las clasificaciones](using/offers/ranking/get-started-rankings.md)
          + [Fórmulas de clasificación](using/offers/ranking/create-ranking-formulas.md)
          + Modelos de IA {#ai-models}
@@ -731,15 +732,15 @@ ht-degree: 98%
             + [Creación de modelos de IA](using/offers/ranking/create-ranking-strategies.md)
       + Creación y administración de ofertas {#managing-offers-in-the-offer-library}
          + [Creación y administración de ofertas](/help/rp_landing_pages/managing-offers-in-the-offer-library-landing-page.md)
-         + Configurar ofertas {#configure-offers}
-            + [Configurar ofertas](/help/rp_landing_pages/configure-offers-landing-page.md)
+         + Configuración de ofertas {#configure-offers}
+            + [Configuración de ofertas](/help/rp_landing_pages/configure-offers-landing-page.md)
             + [Creación de ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
             + [Añadir representaciones](using/offers/offer-library/add-representations.md)
             + [Añadir restricciones](using/offers/offer-library/add-constraints.md)
          + [Crear ofertas de reserva](using/offers/offer-library/creating-fallback-offers.md)
          + [Crear colecciones](using/offers/offer-library/creating-collections.md)
-      + Creación y administración de decisiones {#create-manage-activities}
-         + [Creación y administración de decisiones](/help/rp_landing_pages/create-manage-activities-landing-page.md)
+      + Crear y gestionar decisiones {#create-manage-activities}
+         + [Crear y gestionar decisiones](/help/rp_landing_pages/create-manage-activities-landing-page.md)
          + [Crear decisiones](using/offers/offer-activities/create-offer-activities.md)
          + [Configurar selección de ofertas en decisiones](using/offers/offer-activities/configure-offer-selection.md)
          + [Creación de simulaciones](using/offers/offer-activities/simulation.md)
@@ -758,8 +759,8 @@ ht-degree: 98%
          + [Creación de informes de gestión de decisiones](/help/rp_landing_pages/create-reports-landing-page.md)
          + [Trabajar con eventos de gestión de decisiones](using/offers/reports/get-started-events.md)
          + [Campos XDM de eventos de acceso](using/offers/reports/xdm-fields.md)
-      + Exportación del catálogo de ofertas {#export-catalog}
-         + [Exportación del catálogo de ofertas](/help/rp_landing_pages/export-catalog-landing-page.md)
+      + Exportar el catálogo de ofertas {#export-catalog}
+         + [Exportar el catálogo de ofertas](/help/rp_landing_pages/export-catalog-landing-page.md)
          + [Introducción a la exportación del catálogo de ofertas](using/offers/export-catalog/get-started-export.md)
          + [Acceder al catálogo de ofertas exportado](using/offers/export-catalog/access-dataset.md)
          + [Conjunto de datos de ofertas personalizadas](using/offers/export-catalog/export-offers.md)
@@ -856,14 +857,14 @@ ht-degree: 98%
                   + [Crear una decisión](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
                   + [Actualizar una decisión](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
                   + [Eliminar una decisión](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
-         + Entrega de ofertas mediante las API {#offer-delivery-api}
-            + [Entrega de ofertas mediante las API](/help/rp_landing_pages/offer-delivery-api-landing-page.md)
+         + Envío de ofertas mediante las API {#offer-delivery-api}
+            + [Envío de ofertas mediante las API](/help/rp_landing_pages/offer-delivery-api-landing-page.md)
             + [Introducción a las API de envío de ofertas](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
             + [API de decisiones](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [API de Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [API de decisiones por lotes](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ Gestión de datos {#data-management}
-   + [Gestión de datos](/help/rp_landing_pages/data-management-landing-page.md)
++ Administración de datos {#data-management}
+   + [Administración de datos](/help/rp_landing_pages/data-management-landing-page.md)
    + [Introducción a la administración de datos](using/data/gs-data.md)
    + [Usar esquemas](using/data/get-started-schemas.md)
    + Conjuntos de datos de Journey Optimizer {#datasets}
@@ -883,8 +884,8 @@ ht-degree: 98%
       + [Configuración de canales guiada](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [Introducción a la configuración de canales guiada](using/configuration/set-mobile-config.md)
       + [Creación de una configuración de canal](using/configuration/create-channel-set-up.md)
-   + Delegación de subdominios de correo electrónico {#delegate-subdomains}
-      + [Delegación de subdominios de correo electrónico](/help/rp_landing_pages/delegate-subdomains-landing-page.md)
+   + Delegar subdominios de correo electrónico {#delegate-subdomains}
+      + [Delegar subdominios de correo electrónico](/help/rp_landing_pages/delegate-subdomains-landing-page.md)
       + [Introducción a la delegación de subdominios](using/configuration/about-subdomain-delegation.md)
       + [Delegar un subdominio](using/configuration/delegate-subdomain.md)
       + [Configuración de un subdominio personalizado](using/configuration/delegate-custom-subdomain.md)
@@ -892,14 +893,14 @@ ht-degree: 98%
       + [Añadir un registro TXT de Google](using/configuration/google-txt.md)
       + [Acceso y edición de registros PTR](using/configuration/ptr-records.md)
       + [Crear grupos de IP](using/configuration/ip-pools.md)
-   + Implementación de un plan de calentamiento de IP {#implement-ip-warmup-plan}
-      + [Implementación de un plan de calentamiento de IP](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
+   + Implementar un plan de calentamiento de IP {#implement-ip-warmup-plan}
+      + [Implementar un plan de calentamiento de IP](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
       + [Introducción a los planes de calentamiento de IP](using/configuration/ip-warmup-gs.md)
       + [Creación de campañas de calentamiento de IP](using/configuration/ip-warmup-campaign.md)
       + [Creación de un plan de calentamiento de IP](using/configuration/ip-warmup-plan.md)
       + [Ejecución del plan de calentamiento de IP](using/configuration/ip-warmup-execution.md)
       + [Archivos de plan de calentamiento de IP](using/configuration/ip-warmup-plan-files.md)
-   + Supervisar las direcciones de correo electrónico {#monitor-reputation}
+   + Monitorizar las direcciones de correo electrónico {#monitor-reputation}
       + [Supervisar las direcciones de correo electrónico](/help/rp_landing_pages/monitor-reputation-landing-page.md)
       + [Tipos de error de correo electrónico](using/configuration/email-error-types.md)
       + [Lista de supresión](using/configuration/manage-suppression-list.md)
@@ -913,7 +914,7 @@ ht-degree: 98%
    + [Configuración de recorrido](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [Introducción a la configuración de recorridos](using/configuration/about-data-sources-events-actions.md)
    + Configuración de evento {#events-journeys}
-      + [Configuración de evento](/help/rp_landing_pages/events-journeys-landing-page.md)
+      + [Configuración de eventos](/help/rp_landing_pages/events-journeys-landing-page.md)
       + [Trabajo con eventos de recorrido](using/event/about-events.md)
       + [Configuración de un evento unitario](using/event/about-creating.md)
       + [Acerca de los esquemas de ExperienceEvent](using/event/experience-event-schema.md)
@@ -926,8 +927,8 @@ ht-degree: 98%
       + [Configuración de una fuente de datos](using/datasource/configure-data-sources.md)
       + [Fuente de datos de Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
       + [Fuentes de datos externas](using/datasource/external-data-sources.md)
-   + Configuración de la acción {#action-journeys}
-      + [Configuración de la acción](/help/rp_landing_pages/action-journeys-landing-page.md)
+   + Configuración de acciones {#action-journeys}
+      + [Configuración de acciones](/help/rp_landing_pages/action-journeys-landing-page.md)
       + [Introducción a las acciones personalizadas](using/action/action.md)
       + [Configuración de una acción personalizada](using/action/about-custom-action-configuration.md)
       + [Uso de respuestas de llamadas API en acciones personalizadas](using/action/action-response.md)
@@ -965,8 +966,8 @@ ht-degree: 98%
    + [Solicitudes de privacidad](using/privacy/requests.md)
    + [Acciones de auditoría en recursos](using/privacy/audit-logs.md)
    + [Realizar operaciones de ciclo de vida de datos](using/privacy/data-hygiene.md)
-   + Administración del consentimiento {#consent}
-      + [Administración del consentimiento](/help/rp_landing_pages/consent-landing-page.md)
+   + Administrar el consentimiento {#consent}
+      + [Administrar el consentimiento](/help/rp_landing_pages/consent-landing-page.md)
       + [Administración de la exclusión](using/privacy/opt-out.md)
       + [Trabajar con políticas de consentimiento](using/action/consent.md)
    + [Gobernanza de datos](using/action/action-privacy.md)
