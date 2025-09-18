@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 87406499a11060bceffd2709b7a907b97d72c8a9
+source-git-commit: 2ebdb37b390988941f29a5e6ecfe147984450d51
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1548'
 ht-degree: 30%
 
 ---
@@ -58,6 +58,22 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 </tr>
 </tbody>
 </table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitorización e informes de acciones personalizadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ya están disponibles la monitorización y la creación de informes de acciones personalizadas. Esta capacidad proporciona una mejor visibilidad del estado y la ejecución del recorrido, incluido el estado del ciclo vital y las alertas de rendimiento. Ahora puede comprender rápidamente cuándo, dónde y por qué se produce una situación anómala en una acción personalizada.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -246,9 +262,6 @@ Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habil
 
 - **Simular variaciones de contenido para todos los canales entrantes**\
   Anteriormente solo disponible para los canales de correo electrónico, SMS y notificaciones push, la simulación de variaciones de contenido ahora también se aplica a todos los canales entrantes.
-
-- **Supervisión e informes de acciones personalizadas**\
-  Esta capacidad proporciona una mejor visibilidad del estado y la ejecución del recorrido, incluido el estado del ciclo vital y las alertas de rendimiento. Ahora puede comprender rápidamente cuándo, dónde y por qué se produce una situación anómala en una acción personalizada.
 
 - **Compatibilidad con webhook para campañas activadas por API**\
   Las campañas activadas por API ahora admiten webhooks. Configure una URL de gancho web para recibir actualizaciones de estado en tiempo real para cada mensaje, mejorando la observabilidad y permitiendo una monitorización y automatización sin problemas.
