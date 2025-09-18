@@ -11,10 +11,10 @@ keywords: aterrizaje, página de aterrizaje, creación, página, formulario
 badge: label="Disponibilidad limitada" type="Informative"
 hidefromtoc: true
 hide: true
-source-git-commit: dc47da081601fdb019ffd98aa47803672fdef198
+source-git-commit: 67283fe92282ce23c97c29fa2c0ad78132cc184a
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 3%
+source-wordcount: '1137'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Para capturar datos de perfil con sus páginas de aterrizaje de [!DNL Journey Op
 >id="ajo_lp_form_connection"
 >title="Seleccione el extremo que desea utilizar"
 >abstract="Defina el punto final de flujo continuo al que se envían los datos al enviar el formulario."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creación de una conexión de flujo continuo HTTP API"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creación de una conexión de flujo continuo HTTP API"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -68,7 +68,7 @@ Al crear un ajuste preestablecido:
 
    >[!NOTE]
    >
-   >Obtenga más información sobre cómo crear una conexión de origen de flujo continuo en la [documentación de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Obtenga más información sobre cómo crear una conexión de origen de flujo continuo en la [documentación de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Seleccione un **[!UICONTROL conjunto de datos]** para vincularlo con el formulario. Aquí es donde se almacenan y reflejan las respuestas del formulario. Puede escribir para buscar un conjunto de datos específico o seleccionarlo en la lista.
 
@@ -85,6 +85,12 @@ Para acceder a la lista del formulario, seleccione **[!UICONTROL Administración
 Se muestran todos los formularios existentes. Puede filtrar los formularios en función de su estado, fecha de creación o modificación.
 
 ## Creación y diseño de un formulario {#create-form}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_form_preset"
+>title="Seleccionar un ajuste preestablecido"
+>abstract="Elija un ajuste preestablecido que contenga la conexión que se va a utilizar y un conjunto de datos predefinido para el formulario."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Crear un ajuste preestablecido de formulario"
 
 Para crear un formulario, siga los pasos a continuación.
 
@@ -129,7 +135,7 @@ Para crear un formulario, siga los pasos a continuación.
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
 >title="Página de agradecimientos"
->abstract="Configure lo que sucede cuando alguien rellena o reenvía un formulario."
+>abstract="Configure lo que sucede cuando alguien rellena o reenvía el formulario."
 
 En la sección **[!UICONTROL Página de agradecimiento]**, configure lo que sucede cuando un usuario rellena el formulario.
 
