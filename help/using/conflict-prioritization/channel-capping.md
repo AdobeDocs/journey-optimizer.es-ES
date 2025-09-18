@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 6%
+source-wordcount: '1226'
+ht-degree: 5%
 
 ---
 
@@ -65,12 +65,7 @@ Para crear un conjunto de reglas de canal, siga estos pasos:
 
    La caducidad del contador para cada período es la siguiente:
 
-   * **[!UICONTROL Por hora]**: el límite de frecuencia es válido para el número seleccionado de horas (mínimo de 3 horas). El contador se restablece automáticamente al principio de cada intervalo de tiempo. Para un límite de frecuencia de 3 horas, se restablece cada 3 horas, coincidiendo con el final de una hora UTC.
-
-     >[!AVAILABILITY]
-     >
-     >Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Póngase en contacto con el Servicio de atención al cliente para activarlo.
-
+   * **[!UICONTROL Por hora]**: el límite de frecuencia es válido para el número seleccionado de horas. El contador se restablece automáticamente al principio de cada intervalo de tiempo. Para un límite de frecuencia de 1 hora, se restablece cada hora, coincidiendo con el final de una hora UTC.
    * **[!UICONTROL Diario]**: el límite de frecuencia diario es válido para el día hasta el 23:59:59 UTC y se restablece en 0 al comienzo del día siguiente.
    * **[!UICONTROL Semanal]**: el límite de frecuencia es válido hasta el sábado 23:59:59 UTC de esa semana, ya que la semana del calendario comienza el domingo. La fecha de caducidad se aplica independientemente del momento en que se creó la regla. Por ejemplo, si la regla se crea el jueves, es válida hasta el sábado a las 23:59:59.
    * **[!UICONTROL Mensual]**: el límite de frecuencia es válido hasta el último día del mes a las 23:59:59 UTC. Por ejemplo, la caducidad mensual para enero es del 01 al 31 23:59:59 UTC.
@@ -83,7 +78,7 @@ Para crear un conjunto de reglas de canal, siga estos pasos:
 
 1. El campo **[!UICONTROL Cada]** le permite repetir las reglas de restricción de frecuencia durante varias horas, días, semanas o meses, según la duración especificada. Ejemplo: aplique la regla de límite de frecuencia durante 2 semanas.
 
-   Asegúrese de introducir un valor que coincida con el tipo de duración seleccionado: 3-23 para cada hora, 1-30 para cada día, 1-4 para semanales y 1-3 para mensuales.
+   Asegúrese de introducir un valor que coincida con el tipo de duración seleccionado: 1-23 para cada hora, 1-30 para cada día, 1-4 para cada semana y 1-3 para cada mes.
 
    El contador se restablece automáticamente a 0 cuando comienza una nueva ventana de tiempo. Para un límite de frecuencia de 2 días, este restablecimiento se produce cada dos días a medianoche UTC.
 
@@ -166,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444729?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
