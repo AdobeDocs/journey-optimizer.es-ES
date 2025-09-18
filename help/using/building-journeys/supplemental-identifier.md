@@ -3,9 +3,9 @@ title: Uso de identificadores suplementarios en recorridos
 description: Aprenda a utilizar identificadores suplementarios en recorrido.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1366'
 ht-degree: 4%
 
 ---
@@ -17,45 +17,37 @@ ht-degree: 4%
 >title="Usar identificador adicional"
 >abstract="El identificador adicional es un identificador secundario que proporciona contexto adicional para la ejecución de un recorrido. Para definirlo, seleccione el campo que desea utilizar como identificador adicional y elija un espacio de nombres al que asociarlo."
 
-De forma predeterminada, los recorridos se ejecutan en el contexto de un **ID de perfil**. Esto significa que, siempre y cuando el perfil esté activo en un recorrido determinado, no podrá volver a entrar en otro recorrido. Para evitarlo, [!DNL Journey Optimizer] le permite capturar un **identificador adicional**, como un identificador de pedido, un identificador de suscripción o un identificador de prescripción, además del identificador de perfil.
-En este ejemplo, se ha añadido un ID de reserva como identificador suplementario.
+<!--
+By default, journeys are executed in the context of a **profile ID**. This means that, as long as the profile is active in a given journey, it won't be able to re-enter another journey. To prevent this, [!DNL Journey Optimizer] allows you to capture a **supplemental identifier**, such as an order ID, subscription ID, prescription ID, in addition to the profile ID. 
+In this example, we have added a booking ID as a supplemental identifier. 
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
 
-Al hacerlo, los recorridos se ejecutan en el contexto del ID de perfil asociado al identificador suplementario (en este caso, el ID de reserva). Se ejecuta una instancia del recorrido para cada iteración del identificador suplementario. Esto permite varias entradas del mismo ID de perfil en recorridos si han realizado reservas diferentes.
+By doing so, journeys are executed in the context of the profile ID associated to the supplemental identifier (here, the booking ID). One instance of the journey is executed for each iteration of the supplemental identifier. This allows multiple entrances of the same profile ID in journeys if they have made different bookings. 
 
-Además, Journey Optimizer le permite aprovechar los atributos del identificador suplementario (por ejemplo, número de reserva, fecha de renovación de la prescripción, tipo de producto) para la personalización de mensajes, lo que garantiza comunicaciones muy relevantes. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+In addition, Journey Optimizer allows you to leverage attributes of the supplemental identifier (e.g., booking number, prescription renewal date, product type) for message customization, ensuring highly relevant communications.-->
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="vertical-align: top; padding-right: 20px; border: none;">
+      <p>De forma predeterminada, los recorridos se ejecutan en el contexto de un <b>ID de perfil</b>. Esto significa que, siempre y cuando el perfil esté activo en un recorrido determinado, no podrá volver a entrar en otro recorrido. Para evitarlo, Journey Optimizer le permite capturar un <b>identificador adicional</b>, como un identificador de pedido, un identificador de suscripción o un identificador de prescripción, además del identificador de perfil.  
+      <p>En este ejemplo, hemos agregado un <b>ID de reserva</b> como identificador suplementario.</p>
+      <p>Al hacerlo, los recorridos se ejecutan en el contexto del ID de perfil asociado al identificador suplementario (en este caso, el ID de reserva). Se ejecuta una instancia del recorrido para cada iteración del identificador suplementario. Esto permite varias entradas del mismo ID de perfil en recorridos si han realizado reservas diferentes.</p>
+      <p>Además, Journey Optimizer le permite aprovechar los atributos del identificador suplementario (por ejemplo, número de reserva, fecha de renovación de la prescripción, tipo de producto) para la personalización de mensajes, lo que garantiza comunicaciones muy relevantes.</p>
+    </td>
+    <td style="vertical-align: top; border: none; text-align: center; width: 40%;">
+      <img src="assets/event-supplemental-id.png" alt="Ejemplo de identificador suplementario" style="max-width:100%;" />
+    </td>
+  </tr>
+</table>
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 ## Mecanismos de protección y limitaciones {#guardrails}
 
-* **recorridos admitidos**: por ahora, el uso de identificadores suplementarios está disponible para los recorridos **activados por evento** y **Leer audiencia**. No está disponible para recorridos de calificación de audiencia.
+* **recorridos admitidos**: se admiten identificadores adicionales para los recorridos **activados por eventos** y **Leer audiencia**. No son **compatibles** con los recorridos de calificación de audiencia (es decir, recorridos que comiencen con una actividad de calificación de audiencia).
 
 * **Límites de instancias simultáneas**: los perfiles no pueden tener más de 10 instancias de recorrido simultáneas.
-
-<!--* **Array depth**: Supplemental identifier objects can have a maximum depth of 3 levels (2 levels of nesting).
-
-    +++Example
-
-    ```
-    [
-    (level 1) "Atorvastatin" : {
-    "description" : "used to lower cholesterol",
-    "renewal_date" : "11/20/25",
-    "dosage" : "10mg"
-    (level 2) "ingredients" : [
-    (level 3) "Atorvastatin calcium",
-    "lactose monohydrate",
-    "microcrystalline cellulose",
-    "other" ]
-    }
-    ]
-    ```
-
-    +++
--->
-* **Criterios de salida**: Si se activan los criterios de salida, se cerrarán todas las instancias del perfil que se encuentren en el recorrido en ese momento. No sería contextual para la combinación de ID de perfil + identificador suplementario.
 
 * **Reglas de frecuencia**: Cada instancia de recorrido creada a partir del uso de identificadores suplementarios se contabiliza en la restricción de frecuencia, incluso si el uso de identificadores suplementarios resulta en varias instancias de recorrido.
 
@@ -77,8 +69,20 @@ Además, Journey Optimizer le permite aprovechar los atributos del identificador
 * **Leer recorridos de audiencia**
 
    * El ID suplementario se desactiva si se utiliza un evento empresarial.
-
    * El ID suplementario debe ser un campo del perfil (es decir, no un campo de evento/contexto).
+   * Para recorridos de audiencia de lectura que utilizan ID suplementarios, la tasa de lectura de la actividad de audiencia de lectura para cada instancia de recorrido está limitada a un máximo de 500 perfiles por segundo.
+
+## Comportamiento de criterios de salida con ID suplementarios {#exit-criteria}
+
+Condición previa: Recorrido habilitado para ID suplementario (a través de actividades de evento unitario o lectura de audiencia)
+
+En la tabla siguiente se explica el comportamiento de los perfiles en un recorrido suplementario habilitado para ID cuando se configuran los criterios de salida:
+
+| Configuración de criterios de salida | Comportamiento cuando se cumplen los criterios de salida |
+| ---------------------------- | ---------------------------------- |
+| Basado en un evento de ID no suplementario | Se abandonan todas las instancias del perfil correspondiente en ese recorrido. |
+| Basado en un evento de ID suplementario <br/>*Nota: el área de nombres de ID suplementario debe coincidir con el del nodo inicial.* | Solo se sale del perfil coincidente + instancia de ID suplementario. |
+| Basado en una audiencia | Se abandonan todas las instancias del perfil correspondiente en ese recorrido. |
 
 ## Añadir un identificador suplementario y aprovecharlo en un recorrido {#add}
 
@@ -251,4 +255,4 @@ En una matriz de objetos con el Id. suplementario como `bookingNum` y un atribut
 
 Obtenga información sobre cómo habilitar y aplicar un identificador suplementario en [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464795?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2708'
+ht-degree: 97%
 
 ---
 
@@ -196,29 +196,10 @@ Puede elegir entre una de estas dos soluciones:
 
 * Configure un recorrido que no utilice inmediatamente el perfil. Por ejemplo, si el recorrido está diseñado para confirmar la creación de una cuenta, el evento de experiencia podría contener la información necesaria para enviar el primer mensaje de confirmación (nombre, apellidos, dirección de correo electrónico, etc.).
 
-### Actualización de perfil {#update-profile-g}
 
-Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL Actualizar perfil]**. Se muestran en [esta página](../building-journeys/update-profiles.md).
+### Identificadores adicionales {#supplemental}
 
-### Leer público {#read-segment-g}
-
-Las siguientes limitaciones se aplican a la actividad de recorrido [Público de lectura](../building-journeys/read-audience.md):
-
-* Los públicos transmitidos siempre están actualizados, pero los públicos por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.
-* Para los recorridos que utilizan una actividad **Leer público**, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con **Leer público**, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
-* La actividad **Leer público** no se puede utilizar con actividades de Adobe Campaign.
-* La actividad **Leer público** solo puede utilizarse como primera actividad en un recorrido o después de una actividad de evento empresarial.
-* Un recorrido solo puede tener una actividad **Leer público**.
-* Vea también las recomendaciones acerca de cómo usar la actividad **Leer público** en [esta página](../building-journeys/read-audience.md).
-* Los reintentos ahora se aplican de forma predeterminada en recorridos activados por públicos destinatarios (empezando con una actividad **Leer público** o **Evento empresarial**) cuando se recupera el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada.
-
-Consulte [esta página](../building-journeys/read-audience.md#must-read).
-
-### Calificación de público {#audience-qualif-g}
-
-El siguiente mecanismo de protección se aplica a la actividad de recorrido [Calificación de público](../building-journeys/audience-qualification-events.md):
-
-* La actividad de calificación de público no se puede utilizar con actividades de Adobe Campaign.
+Se aplican limitaciones específicas al uso de identificadores suplementarios en los recorridos. Están listados en [esta página](../building-journeys/supplemental-identifier.md#guardrails)
 
 ### Editor de expresiones {#expression-editor}
 
@@ -227,8 +208,23 @@ Los siguientes mecanismos de protección se aplican al [editor de expresiones de
 * Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer público, Calificación de público o una actividad de evento empresarial. Debe crear un público nuevo y utilizar una condición `inaudience` en el recorrido.
 * Los atributos `timeSeriesEvents` no se pueden usar en el editor de expresiones. Para acceder a los eventos de experiencia a nivel de perfil, cree un nuevo grupo de campos basado en un esquema `XDM ExperienceEvent`.
 
+### actividades de recorrido {#activities}
 
-### Actividad en la aplicación {#in-app-activity-limitations}
+#### Actividad de calificación de audiencias {#audience-qualif-g}
+
+El siguiente mecanismo de protección se aplica a la actividad de recorrido [Calificación de público](../building-journeys/audience-qualification-events.md):
+
+* La actividad de calificación de público no se puede utilizar con actividades de Adobe Campaign.
+* Los recorridos de cualificación de audiencias no admiten identificadores adicionales.
+
+#### Actividades de campaña {#ac-g}
+
+Los siguientes mecanismos de protección se aplican a las actividades **[!UICONTROL Campaign v7/v8]** y **[!UICONTROL Campaign Standard]**:
+
+* Las actividades de Adobe Campaign no se pueden utilizar con un público de lectura o una actividad de calificación de público.
+* Las actividades de la campaña no se pueden utilizar con las actividades de otros canales: Tarjeta, Experiencia basada en código, Correo electrónico, Push, SMS, Mensajes en la aplicación, Web.
+
+#### Actividad en la aplicación {#in-app-activity-limitations}
 
 Las siguientes limitaciones se aplican a la acción **[!UICONTROL Mensaje en la aplicación]**. Obtenga más información sobre los mensajes in-app en [esta página](../in-app/create-in-app.md).
 
@@ -248,16 +244,28 @@ Las siguientes limitaciones se aplican a la acción **[!UICONTROL Mensaje en la 
 
 * El tamaño del contenido del mensaje en la aplicación está limitado a 2 Mb. La inclusión de imágenes grandes puede dificultar el proceso de publicación.
 
-### Actividad de salto {#jump-g}
+#### Actividad de salto {#jump-g}
 
 Especifique protecciones específicas de la actividad **[!UICONTROL Saltar]**. Se muestran en [esta página](../building-journeys/jump.md#jump-limitations).
 
-### Actividades de campaña {#ac-g}
+#### Leer actividad de audiencia {#read-segment-g}
 
-Los siguientes mecanismos de protección se aplican a las actividades **[!UICONTROL Campaign v7/v8]** y **[!UICONTROL Campaign Standard]**:
+Las siguientes limitaciones se aplican a la actividad de recorrido [Público de lectura](../building-journeys/read-audience.md):
 
-* Las actividades de Adobe Campaign no se pueden utilizar con un público de lectura o una actividad de calificación de público.
-* Las actividades de la campaña no se pueden utilizar con las actividades de otros canales: Tarjeta, Experiencia basada en código, Correo electrónico, Push, SMS, Mensajes en la aplicación, Web.
+* Los públicos transmitidos siempre están actualizados, pero los públicos por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.
+* Para los recorridos que utilizan una actividad **Leer público**, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con **Leer público**, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos.
+* La actividad **Leer público** no se puede utilizar con actividades de Adobe Campaign.
+* La actividad **Leer público** solo puede utilizarse como primera actividad en un recorrido o después de una actividad de evento empresarial.
+* Un recorrido solo puede tener una actividad **Leer público**.
+* Vea también las recomendaciones acerca de cómo usar la actividad **Leer público** en [esta página](../building-journeys/read-audience.md).
+* Los reintentos ahora se aplican de forma predeterminada en recorridos activados por públicos destinatarios (empezando con una actividad **Leer público** o **Evento empresarial**) cuando se recupera el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada.
+* En el caso de los recorridos que utilizan ID suplementarios, la tasa de lectura de la actividad de audiencia de lectura para cada instancia de recorrido está limitada a un máximo de 500 perfiles por segundo.
+
+Consulte [esta página](../building-journeys/read-audience.md#must-read).
+
+#### Actualizar actividad de perfil {#update-profile-g}
+
+Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL Actualizar perfil]**. Se muestran en [esta página](../building-journeys/update-profiles.md).
 
 ## Protecciones en orquestación de campañas {#orchestration-guardrails}
 
