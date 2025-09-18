@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: abb1da09160cd5454460588242c475b85f4adf6b
+source-git-commit: 87406499a11060bceffd2709b7a907b97d72c8a9
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 30%
@@ -235,8 +235,8 @@ Se ha añadido una opción al crear o configurar la directiva de aprobación par
 
   Para personalizar aún más la dirección de correo electrónico para cancelar la suscripción, ahora puede definir atributos personalizados que se adjuntarán al evento de consentimiento. Esta funcionalidad ya ha estado disponible para el vínculo personalizado de cancelación de suscripción de un clic desde la versión del 25 de agosto.
 
-- **Compatibilidad con mTLS para SMS BYOP**\
-  Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habilitar la autenticación TLS mutua (mTLS), lo que requiere que tanto el cliente como el servidor confirmen mutuamente sus identidades antes de establecer una conexión segura.
+- ***Compatibilidad con mTLS para el canal SMS**
+Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habilitar la autenticación TLS mutua (mTLS), lo que requiere que tanto el cliente como el servidor confirmen mutuamente sus identidades antes de establecer una conexión segura.
 
 - **Esquemas basados en modelos**\
   Para obtener una experiencia más clara e intuitiva, los esquemas relacionales ahora se denominan esquemas basados en modelos en campañas orquestadas.
