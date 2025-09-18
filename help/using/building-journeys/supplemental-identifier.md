@@ -3,7 +3,7 @@ title: Uso de identificadores suplementarios en recorridos
 description: Aprenda a utilizar identificadores suplementarios en recorrido.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
+source-git-commit: 6c23b920787a1b39d60b397e9c74094695e59295
 workflow-type: tm+mt
 source-wordcount: '1366'
 ht-degree: 4%
@@ -255,4 +255,4 @@ En una matriz de objetos con el Id. suplementario como `bookingNum` y un atribut
 
 Obtenga información sobre cómo habilitar y aplicar un identificador suplementario en [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464795?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
