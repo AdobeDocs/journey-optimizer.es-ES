@@ -10,7 +10,7 @@ level: Intermediate
 badge: label="Beta privada" type="Informative"
 hidefromtoc: true
 hide: true
-source-git-commit: 9155a16a0557a32c1d59b66b03fc84c5bc7b8463
+source-git-commit: 53d8fbb28e8516e4ee79f556a335b2d084af42e7
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 2%
@@ -28,13 +28,7 @@ ht-degree: 2%
 
 Al procesar contenido para simulación o prueba, el sistema analiza el contenido e identifica todos los tokens de personalización y las reglas de ramificación. Sustituye los tokens de personalización por valores significativos que proporcionan una previsualización casi realista del contenido final.
 
-Considere una plantilla de correo electrónico de servicios financieros con lógica de ramificación basada en **tipo de inversor**, **grupo de edad**, **estado civil**, **verificación de identificación fiscal** y **ubicación**.
-
-Sin la generación de variantes, tendría que crear manualmente decenas de variantes para validar todas las rutas. Con las variantes generadas automáticamente, el sistema produce variantes representativas que cubren automáticamente estas condiciones.  Cada variante generada se procesa en el panel de vista previa, que muestra exactamente qué bloques y condiciones se aplican.
-
->[!NOTE]
->
->Esta capacidad funciona del mismo modo que la función estándar Simular variaciones de contenido. Para obtener más información sobre las simulaciones de variaciones de contenido y las limitaciones y protecciones asociadas, consulte esta sección: [Simular variaciones de contenido](../test-approve/simulate-sample-input.md)
+Considere una plantilla de correo electrónico de servicios financieros con lógica de ramificación basada en **tipo de inversor**, **grupo de edad**, **estado civil**, **verificación de identificación fiscal** y **ubicación**. Sin la generación de variantes, tendría que crear manualmente decenas de variantes para validar todas las rutas. Con las variantes generadas automáticamente, el sistema produce variantes representativas que cubren automáticamente estas condiciones.  Cada variante generada se procesa en el panel de vista previa, que muestra exactamente qué bloques y condiciones se aplican.
 
 ## Generar variantes de contenido
 
@@ -51,3 +45,7 @@ Para generar variaciones para el contenido y previsualizarlas, siga estos pasos:
 3. [!DNL Journey Optimizer] genera automáticamente variantes basadas en atributos detectados.
 
 4. Revise la lista de variantes generadas en el panel izquierdo y seleccione una variante para ver su renderización personalizada en el panel de vista previa.
+
+>[!NOTE]
+>
+>Esta capacidad funciona del mismo modo que la función estándar Simular variaciones de contenido. Para obtener más información sobre las simulaciones de variaciones de contenido y las limitaciones y protecciones asociadas, consulte esta sección: [Simular variaciones de contenido](../test-approve/simulate-sample-input.md)
