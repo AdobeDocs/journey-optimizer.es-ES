@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 59a6413fb111c3ac595416d8e5933b981bc64d3c
+source-git-commit: abb1da09160cd5454460588242c475b85f4adf6b
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 26%
+source-wordcount: '1540'
+ht-degree: 30%
 
 ---
 
@@ -77,13 +77,13 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent</strong><br/></th>
+<th><strong>¡Journey Agent está aquí!</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Agent permite a los usuarios de Journey Optimizer crear, analizar y optimizar recorridos mediante una interfaz de lenguaje natural. Con Journey Agent, los profesionales pueden detectar y resolver rápidamente conflictos de programación o audiencia, analizar el rendimiento y los puntos de entrega e identificar recorridos de alto rendimiento que duplicar para futuras campañas.</p>
+<p>El asistente de IA ahora incluye habilidades básicas de Journey Agent para Journey Optimizer, lo que permite a los profesionales analizar los recorridos a través de una interfaz de lenguaje natural. Con estas nuevas habilidades, los usuarios pueden analizar y crear (próximamente) recorridos para detectar y resolver posibles conflictos de programación o audiencia.</p>
 </td>
 </tr>
 </tbody>
@@ -110,6 +110,24 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Formularios personalizados de página de aterrizaje</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con [!DNL Journey Optimizer], ahora puede capturar atributos de perfil a través de sus páginas de aterrizaje.</p>
+<p>Cree, diseñe y administre formularios personalizados adaptados a sus necesidades en función de un conjunto de datos específico. A continuación, puede utilizar estos formularios en páginas de aterrizaje para añadir los atributos de perfil que elija al conjunto de datos definido para cada formulario.</p>
+<p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
+<!--p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
