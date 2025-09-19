@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 52%
 
 ---
