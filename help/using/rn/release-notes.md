@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5f601a79244a9f10bb9762656449729184b887ec
+source-git-commit: 69328c4ba2be1b842074ea88e6230f227c91e166
 workflow-type: tm+mt
-source-wordcount: '2975'
-ht-degree: 69%
+source-wordcount: '3045'
+ht-degree: 68%
 
 ---
 
@@ -270,9 +270,9 @@ Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habil
 * **Compatibilidad de redireccionamiento en acciones personalizadas de Recorrido**\
   Ahora se admiten redirecciones (302) en Acciones personalizadas de Recorrido.
 
-<!--* **High throughput mode for API triggered email campaigns**  
-  A new High throughput mode is now available in API triggered campaigns. This mode is designed for large-scale, real-time messaging (up to 5000 transactions per second) and provides higher availability with lower latency.  
-  This capability is only available for the email channel, for organizations that have purchased the Adobe High throughput transactional messaging add-on offering. Contact your Adobe representative for more details.-->
+* **Modo de alto rendimiento para campañas de correo electrónico activadas por API**\
+  Ahora hay disponible un nuevo modo de alto rendimiento en las campañas activadas por API. Este modo está diseñado para mensajes a gran escala en tiempo real (hasta 5000 transacciones por segundo) y proporciona una mayor disponibilidad con una latencia más baja.\
+  Esta funcionalidad solo está disponible para el canal de correo electrónico, para organizaciones que han adquirido la oferta de complemento de mensajería transaccional de alto rendimiento de Adobe. Póngase en contacto con su representante de Adobe para obtener más información.
 
 * **Frecuencia de restricción de restablecimiento por hora**: ahora puede aplicar una restricción por hora a los conjuntos de reglas de canal. Esta capacidad, que antes estaba disponible en disponibilidad limitada, ahora está disponible en todos los entornos y le permite elegir entre 1 hora (antes era de 3 horas). [Más información](../conflict-prioritization/channel-capping.md). Fecha de disponibilidad: 17 de septiembre
 
