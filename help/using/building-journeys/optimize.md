@@ -11,9 +11,9 @@ keywords: actividad, condición, lienzo, recorrido, optimización
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
+source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1298'
 ht-degree: 6%
 
 ---
@@ -74,7 +74,7 @@ Supongamos que desea comparar tres rutas:
 
 1. Haga clic en **[!UICONTROL Crear experimento]**.
 
-1. Seleccione la **[!UICONTROL métrica de éxito]** que desee establecer para su experimento.
+1. Seleccione la **[!UICONTROL métrica de éxito]** que desee establecer para su experimento. Obtenga más información sobre las métricas disponibles y cómo configurar la lista en [esta sección](success-metrics.md).
 
    <!--Need to have the list of all default metrics + a description for each.
     Explain why the metric selection is important.
@@ -125,7 +125,7 @@ Supongamos que desea comparar tres rutas:
 
 Una vez que el recorrido está activo, los usuarios se asignan aleatoriamente para seguir diferentes rutas. [!DNL Journey Optimizer] realiza un seguimiento de la ruta de acceso que tiene el mejor rendimiento y proporciona perspectivas procesables.
 
-<!--Follow the success of your journey with the Journey Path Experiment report.Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+Siga el éxito del recorrido con el informe Experimento de ruta de Recorrido. [Más información](../reports/journey-global-report-cja-experimentation.md)
 
 ### Casos de uso de experimentos {#uc-experiment}
 
@@ -224,7 +224,7 @@ Para configurar la segmentación en un recorrido, siga los pasos a continuación
 
 Una vez que el recorrido está activo, la ruta especificada para cada segmento se procesa para que los miembros oro introduzcan la ruta con las ofertas de correo electrónico, mientras que los demás miembros introducen la ruta con el recordatorio de SMS.
 
-<!--Follow the success of your journey with the Journey Path Targeting report.Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+Siga el éxito de su recorrido con el informe de Recorrido. [Más información](../reports/journey-global-report-cja.md#targeting)
 
 ### Casos de uso de reglas de segmentación {#uc-targeting}
 
