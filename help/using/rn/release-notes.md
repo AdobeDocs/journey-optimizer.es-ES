@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 86522e2562d1504bb9a67836cfabccbe3fbda4c0
+source-git-commit: a05d7e022a0b154848405a6b5d27d399a24161db
 workflow-type: tm+mt
-source-wordcount: '3064'
+source-wordcount: '3093'
 ht-degree: 67%
 
 ---
@@ -103,7 +103,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>El asistente de IA ahora incluye habilidades básicas de Journey Agent para Journey Optimizer, lo que permite a los profesionales analizar los recorridos a través de una interfaz de lenguaje natural. Con estas nuevas habilidades, los usuarios pueden analizar y crear (próximamente) recorridos para detectar y resolver posibles conflictos de programación o audiencia.</p>
+<p>Con la tecnología de Adobe Experience Platform Agent Orchestrator, Journey Agent está disponible en Journey Optimizer. Permite analizar los recorridos a través de una interfaz de lenguaje natural. El agente detectará conflictos de audiencia o programación y desplegables de perfil en un recorrido para ayudarle a tomar medidas para resolverlos. Pronto, usted será capaz de crear recorridos con apoyo auténtico.</p>
 </td>
 </tr>
 </tbody>
@@ -240,9 +240,12 @@ Se ha añadido una opción al crear o configurar la directiva de aprobación par
 
 * **Nuevas alertas de Recorrido**\
   Hay nuevas alertas preconfiguradas disponibles para los recorridos:
+
    * Tasa de descarte de perfil superada: proporción de descartes de perfil para perfiles introducidos durante los últimos 5 minutos del umbral excedido.
    * Tasa de errores de acciones personalizadas superadas: la proporción de errores de acciones personalizadas respecto a llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral.
    * Tasa de error de perfil superada: proporción de perfiles en error respecto a los perfiles introducidos durante los últimos 5 minutos superados como umbral.
+
+  Puede modificar los valores de umbral y suscribirse a recorridos individuales o globales.
 
 * **Ahora se admiten parámetros de cuerpo JSON anidados en la autenticación personalizada**\
   Al configurar la autenticación personalizada para una acción personalizada, ahora se admiten objetos JSON anidados (por ejemplo, subobjetos dentro de `bodyParams`).
@@ -252,7 +255,7 @@ Se ha añadido una opción al crear o configurar la directiva de aprobación par
 
   Para personalizar aún más la dirección de correo electrónico para cancelar la suscripción, ahora puede definir atributos personalizados que se adjuntarán al evento de consentimiento. Esta funcionalidad ya ha estado disponible para el vínculo personalizado de cancelación de suscripción de un clic desde la versión del 25 de agosto.
 
-* ***Compatibilidad con mTLS para el canal SMS**
+* **Compatibilidad con mTLS para el canal SMS**
 Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habilitar la autenticación TLS mutua (mTLS), lo que requiere que tanto el cliente como el servidor confirmen mutuamente sus identidades antes de establecer una conexión segura.
 
 * **Esquemas basados en modelos**\
