@@ -20,7 +20,7 @@ Los modelos de IA en Adobe Journey Optimizer le ayudan a enviar la oferta adecua
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a los modelos de IA
 

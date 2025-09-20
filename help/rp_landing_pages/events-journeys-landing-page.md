@@ -60,7 +60,7 @@ Aprenda a integrar datos de Adobe Analytics para automatizar recorridos y crear 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Configurar un evento empresarial
 

@@ -31,7 +31,7 @@ Guía paso a paso para configurar permisos, el envío y los requisitos previos p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Crear mensajes en la aplicación móvil
 
@@ -41,7 +41,7 @@ Obtenga información sobre cómo crear, configurar y publicar mensajes en la apl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Crear mensajes en la aplicación web
 
@@ -61,7 +61,7 @@ Explore las opciones de diseño, personalice el contenido y utilice un formato a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=es)
 
 Comprobar y enviar la notificación en la aplicación
 

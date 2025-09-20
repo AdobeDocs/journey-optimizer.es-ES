@@ -20,7 +20,7 @@ Los informes de recorridos de Adobe Journey Optimizer proporcionan potentes herr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Análisis de informes de recorridos
 

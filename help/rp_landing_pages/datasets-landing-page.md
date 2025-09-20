@@ -40,7 +40,7 @@ Conozca los mecanismos de protección TTL aplicados a los conjuntos de datos gen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Exportar conjuntos de datos de Adobe Journey Optimizer
 

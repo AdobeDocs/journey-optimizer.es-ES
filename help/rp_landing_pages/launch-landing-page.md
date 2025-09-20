@@ -20,7 +20,7 @@ El lanzamiento de su primera campaña orquestada en Adobe Journey Optimizer le p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Guía paso a paso para crear una campaña orquestada
 

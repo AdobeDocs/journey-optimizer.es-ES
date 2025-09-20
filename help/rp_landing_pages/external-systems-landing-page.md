@@ -20,7 +20,7 @@ La integración de los recorridos con sistemas externos en Adobe Journey Optimiz
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Prácticas recomendadas para la integración con los sistemas externos
 

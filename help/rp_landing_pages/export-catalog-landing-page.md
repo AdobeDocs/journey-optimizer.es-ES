@@ -20,7 +20,7 @@ Exportar el catálogo de ofertas en Adobe Journey Optimizer es como abrir la pue
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Guía para la exportación de catálogos de ofertas
 
@@ -60,7 +60,7 @@ Conozca la estructura jerárquica, las definiciones de campo y los metadatos del
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Detalles del conjunto de datos de ubicaciones
 
@@ -70,7 +70,7 @@ Obtenga información sobre los campos, el esquema y los metadatos del conjunto d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Documentación sobre el conjunto de datos de ofertas de reserva
 

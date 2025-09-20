@@ -50,7 +50,7 @@ Descubra cómo crear, configurar y administrar su plan de calentamiento de IP, i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Ejecutar y administrar su plan de calentamiento de IP
 

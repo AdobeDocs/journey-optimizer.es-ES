@@ -40,7 +40,7 @@ Descubra los campos del esquema de recorrido, sus tipos y cómo admiten la creac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Campos comunes para eventos de pasos de recorrido
 
