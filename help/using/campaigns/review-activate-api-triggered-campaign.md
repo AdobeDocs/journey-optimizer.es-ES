@@ -9,16 +9,16 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 4%
 
 ---
 
 # Revise y active la campaña activada por API {#api-review}
 
-Una vez configurada la campaña de acción, debe revisar su parámetro y contenido antes de activarla. Para ello, siga estos pasos:
+Una vez configurada la campaña activada por la API, debe revisar su parámetro y contenido antes de activarla. Para ello, siga estos pasos:
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,6 @@ Una vez configurada la campaña de acción, debe revisar su parámetro y conteni
    El estado **[!UICONTROL Completado]** se asigna automáticamente a la campaña 3 días después de activarse o en la fecha de finalización de la campaña si esta tiene una ejecución recurrente. [Más información sobre los estados de las campañas](get-started-with-campaigns.md#statuses).
 
    Si no se ha especificado una fecha de finalización, la campaña mantiene el estado **[!UICONTROL Activo]**. Para cambiarlo, debe detener la campaña manualmente. [Aprenda a detener una campaña](manage-campaigns.md)
-
 
 1. Una vez activada una campaña, puede comprobar en cualquier momento su información abriéndola. El resumen le permite obtener estadísticas sobre el número de perfiles objetivo y las acciones enviadas y fallidas.
 

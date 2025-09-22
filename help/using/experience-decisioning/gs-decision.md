@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 9bf642227facd44401a33a1047b53018478ed35a
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 20%
+source-wordcount: '287'
+ht-degree: 31%
 
 ---
 
 # Introducción a las capacidades de decisión en [!DNL Journey Optimizer] {#gs-decision}
 
-Las capacidades de decisión de [!DNL Journey Optimizer] le permiten ofrecer las mejores ofertas y experiencias personalizadas a sus clientes en todos los puntos de contacto, en los momentos precisos. Estas funcionalidades simplifican la personalización a través de un catálogo centralizado de ofertas de marketing y un motor de decisión avanzado, que utiliza reglas y criterios de clasificación para ofrecer el contenido más relevante para cada individuo.
+Las capacidades de decisión de [!DNL Journey Optimizer] le permiten ofrecer las mejores ofertas y experiencias personalizadas a sus clientes en todos los puntos de contacto, en los momentos precisos. Estas funciones simplifican la personalización mediante un catálogo centralizado de ofertas de marketing y un motor de decisión avanzado, que utiliza reglas y criterios de clasificación para ofrecer el contenido más relevante para cada persona.
 
 Ventajas principales:
 
@@ -46,6 +46,6 @@ Decisioning es compatible actualmente con el canal de experiencia basado en cód
 
 Nuestra función consolidada en Journey Optimizer, Gestión de decisiones, utiliza una biblioteca central de ofertas de marketing y un motor de decisión que aplica reglas y restricciones a los perfiles de clientes en tiempo real, aprovechando los datos de Adobe Experience Platform para ofrecer la oferta correcta en el momento adecuado.
 
-En la actualidad, Administración de decisiones admite cuatro canales: correo electrónico, mensajería en la aplicación, notificaciones push y SMS.
+Gestión de decisiones admite los siguientes canales: correo electrónico, mensajería en la aplicación, notificaciones push, SMS y correo directo.
 
 ➡️ [Introducción a Administración de decisiones](../offers/get-started/starting-offer-decisioning.md)

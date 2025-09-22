@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
-source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
+source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 1%
@@ -51,4 +51,4 @@ Para establecer el control de tarifa, habilite la opción **[!UICONTROL Entrega 
 
 ## Próximos pasos {#next}
 
-Una vez que la configuración y el contenido de su campaña estén listos, puede revisarlos y activarlos. [Más información](review-activate-campaign.md)
+Una vez que la configuración y el contenido de su campaña estén listos, puede revisarlos y activarlos. [Más información](../campaigns/review-activate-api-triggered-campaign.md)
