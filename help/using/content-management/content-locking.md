@@ -196,4 +196,4 @@ Estos son algunos ejemplos de ediciones de correo electrónico y de las configur
 
 Aprenda a bloquear contenido en plantillas de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451610?quality=12&captions=spa)
