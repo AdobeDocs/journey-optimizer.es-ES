@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c27f2cec8200e6f65c22caec560dbea5bc80042
+source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
 workflow-type: tm+mt
 source-wordcount: '3097'
 ht-degree: 67%
@@ -292,6 +292,8 @@ Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habil
 
 * **Alertas de monitorización de configuración de canal**: ahora puede suscribirse para recibir alertas del sistema, ya sea por correo electrónico o en el centro de notificaciones de Journey Optimizer, en caso de que se produzca un error de configuración de canal de correo electrónico al usar el tipo de delegación de subdominio personalizado. [Más información](../reports/alerts.md#alert-dns-record-missing)
 
+* **Solicitudes de cancelación de suscripción de un clic**: hemos introducido mejoras que refuerzan aún más la administración de las solicitudes de cancelación de suscripción de un clic configuradas en Adobe Managed, lo que garantiza un procesamiento confiable y coherente.
+
 
 ## Notas de la versión de agosto de 2025 {#25-8-rn}
 
@@ -532,8 +534,6 @@ A continuación, se describen las mejoras incluidas en esta versión.
    * **Compatibilidad con atributos personalizados con la URL de cancelación de suscripción de un solo clic**: con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer un punto final personalizado externo definiendo su propio vínculo para cancelar la suscripción con un solo clic en la configuración de correo electrónico. Cuando los destinatarios hacen clic en el vínculo Cancelar suscripción, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento.
 
      Para personalizar aún más el vínculo de cancelación de suscripción de un solo clic, ahora puede definir atributos personalizados que se adjuntarán al evento de consentimiento. [Más información](../email/list-unsubscribe.md#custom-attributes)
-
-   * **Solicitudes de cancelación de suscripción de un clic**: hemos introducido mejoras que refuerzan aún más la administración de las solicitudes de cancelación de suscripción de un clic configuradas en Adobe Managed, lo que garantiza un procesamiento confiable y coherente.
 
 * **Conjuntos de datos**
 
