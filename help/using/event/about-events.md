@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: eventos, evento, recorrido, definición, inicio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: a766eee95490660b013cae5378903d0ab3001e64
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 47%
+source-wordcount: '1538'
+ht-degree: 33%
 
 ---
 
@@ -72,6 +72,43 @@ Después de llegar a través de las API de ingesta de transmisión, los eventos 
 
 Para los eventos generados por el sistema, la canalización filtra los eventos que tienen una carga útil que contiene [!DNL Journey Optimizer] eventIDs (consulte el proceso de creación de eventos que se muestra a continuación) proporcionados por [!DNL Journey Optimizer] y contenidos en la carga útil de evento. En el caso de los eventos basados en reglas, el sistema identifica el evento con la condición eventID. Estos eventos son escuchados por [!DNL Journey Optimizer] y se activa el recorrido correspondiente.
 
+
+## Acerca del rendimiento de eventos de Recorrido {#event-thoughput}
+
+Adobe Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido por segundo a nivel de organización, en todas las zonas protegidas. Esta cuota se aplica a todos los eventos que se usan en recorridos activos, entre los que se incluyen los recorridos **Live**, **Dry run**, **Closed** y **Paused**. Cuando se alcanza esta cuota, los nuevos eventos se ponen en cola con una velocidad de procesamiento de 5000 por segundo. El tiempo máximo que un evento puede pasar en la cola es de **24 horas**.
+
+Los siguientes tipos de eventos se contabilizan dentro de la cuota de 5,000 TPS:
+
+* **Eventos unitarios externos**: incluye eventos basados en reglas y generados por el sistema. Si el mismo evento sin procesar cumple los requisitos para varias definiciones de regla, cada regla completa se cuenta como un evento independiente. Más detalles a continuación.
+
+* **Eventos de calificación de audiencias**: Si se usa la misma audiencia de flujo continuo en varios recorridos, cada uso se cuenta por separado. Por ejemplo, si se utiliza la misma audiencia en una actividad de calificación de audiencia en dos recorridos, se cuentan dos eventos.
+
+* **Eventos de reacción**: Eventos activados por reacciones de perfil (correo electrónico abierto, correo electrónico en el que se hizo clic, etc.) dentro de un recorrido.
+
+* **Eventos empresariales**: los eventos no están vinculados a un perfil específico, sino a un evento relacionado con el negocio.
+
+* **Eventos de Analytics**: si la [integración con Adobe Analytics en recorridos de déclencheur](about-analytics.md) se ha habilitado, también se incluyen estos eventos.
+
+* **Reanudar eventos**: evento técnico activado cuando un perfil se reanuda desde un recorrido pausado. Más información acerca de [reanudar recorridos en pausa](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey).
+
+* **Eventos de finalización de nodo de espera**: cuando un perfil sale de un nodo de espera, se genera un evento técnico para reanudar la recorrido.
+
+>[!NOTE]
+>
+>Excepto en los eventos de espera y reanudación, todos los demás tipos de eventos también se contabilizan en la cuota cuando se utilizan en recorridos basados en audiencias de lectura.
+
+### Acerca de los eventos sin procesar que cumplen los requisitos para varias definiciones de regla
+
+El mismo evento sin procesar puede cumplir los requisitos para varias definiciones de regla en los recorridos. Cuando se configura un evento en la sección **Administration** para el mismo esquema de evento, se pueden definir varias reglas de evento. Supongamos, por ejemplo, que tenemos un evento de compra con campos city y purchaseValue. Consideremos los siguientes escenarios:
+
+1. Se crea un evento **E1** denominado `newYorkPurchases` con una definición de regla que indica `city=='New York'`. Este evento puede utilizarse en 10 recorridos, pero se contará solo como 1 evento cuando llegue.
+
+1. Ahora supongamos que también se crea un evento **E2** denominado `highValuePurchases` con `purchaseValue > 1000` como definición de regla, en el mismo esquema de evento que **E1**. En este caso, el mismo evento entrante se evaluará con dos reglas: `newYorkPurchases` y `highValuePurchases`. Ahora puede ocurrir que una compra en Nueva York también sea una compra de alto valor.
+
+   En este caso, Journey Optimizer creará dos eventos, **E1** y **E2**, a partir del mismo evento entrante, lo que hará que este solo evento entrante se cuente como dos eventos.
+
+   Tenga en cuenta que estos eventos comienzan a contarse cuando se utilizan en un recorrido activo, incluido el recorrido **Activo**, **Ejecución en seco**, **Cerrado** y **En pausa**.
+
 ## Actualización y eliminación de un evento {#update-event}
 
 
@@ -83,8 +120,8 @@ No se puede eliminar ningún evento utilizado en los recorridos **Live**, **Draf
 
 Aprenda a configurar un evento y a especificar su punto final de reproducción y la carga útil.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431518?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprenda los casos de uso aplicables a los eventos empresariales. Obtenga información sobre cómo crear un recorrido mediante un evento empresarial y las prácticas recomendadas que se deben aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416328?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

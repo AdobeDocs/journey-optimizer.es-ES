@@ -8,19 +8,18 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 13623d28ba7b852f7267b5f800f2c9a3afda4a62
+source-git-commit: 21adeb5128b22bf7b2e7e6c2cff9c31159741cee
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
 
 # Acceso y suscripción a alertas del sistema {#alerts}
 
-Al crear sus recorridos y campañas, utilice el botón **Alerts** para comprobar y resolver los errores antes de ejecutarlos o publicarlos:
+Al crear sus recorridos y campañas, utilice el botón **Alerts** para comprobar y resolver los errores antes de ejecutarlos o publicarlos.
 
-* Aprenda a solucionar problemas de sus recorridos en [esta página](../building-journeys/troubleshooting.md).
-* Aprenda a revisar sus campañas en [esta página](../campaigns/review-activate-campaign.md).
+
 
 Desde el menú **[!UICONTROL Alertas]** dedicado, también puede suscribirse a [!DNL Adobe Journey Optimizer] alertas del sistema como se detalla en esta página.
 
@@ -42,18 +41,34 @@ Se enumeran de la siguiente manera y cada alerta se detalla a continuación.
 
    * la alerta [Error de acción personalizada de Recorrido](#alert-custom-actions)
    * la alerta [Leer Déclencheur de audiencia no se ha realizado correctamente](#alert-read-audiences)
+<!--DOCAC-13465   * the [Profile Discard Rate Exceeded](#alert-discard-rate) alert
+   * the [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) alert
+   * the [Profile Error Rate Exceeded](#alert-profile-error-rate) alert-->
 
 * Alertas específicas de la configuración del canal:
 
    * falta la alerta [AJO Domain DNS record](#alert-dns-record-missing)
-  <!--* the [AJO channel configuration failure](#alert-channel-config-failure) alert
-   * the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+   * la alerta [error de configuración de canal de AJO](#alert-channel-config-failure)
+     <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## Suscribirse a alertas {#subscribe-alerts}
 
-1. Puede suscribirse a cada alerta individualmente desde la interfaz de usuario, seleccionando la opción **[!UICONTROL Suscribirse]**.
+Si se produce un comportamiento inesperado o se alcanza un determinado conjunto de condiciones en las operaciones (como un problema potencial cuando el sistema incumple un umbral), las notificaciones de alerta se envían a cualquier usuario de la organización que se haya suscrito a ellas.
 
-   ![](assets/alert-subscribe.png){width=80%}
+Puede suscribirse a cada alerta individualmente desde la interfaz de usuario, ya sea globalmente desde el menú **[!UICONTROL Alertas]** (consulte [Suscripción global](#global-subscription))<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->.
+
+En función de las preferencias del suscriptor, las alertas se envían por correo electrónico o directamente en el centro de notificaciones de Journey Optimizer, en la esquina superior derecha de la interfaz de usuario (notificaciones en la aplicación). Seleccione cómo desea recibir estas alertas en las [!DNL Adobe Experience Cloud] **[!UICONTROL Preferencias]**. [Más información](../start/user-interface.md#in-product-alerts)
+
+Cuando se resuelve una alerta, los suscriptores reciben una notificación &quot;Resuelto&quot;.
+
+
+### Suscripción global {#global-subscription}
+
+Para suscribirse o cancelar la suscripción a una alerta para todos los recorridos y campañas, siga estos pasos:
+
+1. Vaya al panel **[!UICONTROL Alertas]** del menú de la izquierda y seleccione la opción **[!UICONTROL Suscribirse]** para la alerta a la que desea suscribirse.
+
+   ![Suscribiéndose a una alerta](assets/alert-subscribe.png){width=80%}
 
    >[!NOTE]
    >
@@ -61,37 +76,28 @@ Se enumeran de la siguiente manera y cada alerta se detalla a continuación.
 
 1. Use el mismo método para **[!UICONTROL cancelar la suscripción]**.
 
-1. También puede suscribirse a las alertas mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
+También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
 
-1. Si se produce un comportamiento inesperado o se alcanza un determinado conjunto de condiciones en las operaciones (como un problema potencial cuando el sistema incumple un umbral), las notificaciones de alerta se envían a cualquier usuario de la organización que se haya suscrito a ellas.
+<!--DOCAC-13465
+### Unitary subscription {#unitary-subscription}
 
-En función de las preferencias del suscriptor, las alertas se envían por correo electrónico o directamente en el centro de notificaciones de Journey Optimizer, en la esquina superior derecha de la interfaz de usuario (notificaciones en la aplicación). Seleccione cómo desea recibir estas alertas en las [!DNL Adobe Experience Cloud] **[!UICONTROL Preferencias]**. [Más información](../start/user-interface.md#in-product-alerts)
+To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 
->[!NOTE]
->
->De forma predeterminada, solo están habilitadas las alertas en la aplicación.
+1. Browse to the journey inventory and select the **[!UICONTROL Subscribe to alerts]** option for a specific journey.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es#enable-email-alerts){target="_blank"}.-->
+      ![Subscribing to an alert for a specific journey](assets/subscribe-journey-alert.png){width=80%}
 
-Cuando se resuelve una alerta, los suscriptores reciben una notificación &quot;Resuelto&quot;.
+1. Choose the alert(s). The following alerts are available: [Profile Discard Rate Exceeded](#alert-discard-rate), [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate), and [Profile Error Rate Exceeded](#alert-profile-error-rate).
+   
+1. To unsubscribe to an alert, unselect it from the same screen.
 
-## Administración de alertas {#manage-alerts}
+1. Click **[!UICONTROL Save]** to confirm.
+-->
 
-Para administrar las alertas, selecciona un elemento y usa el botón **[!UICONTROL Más acciones]**.
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
-![](assets/alert-more-actions.png){width=80%}
 
-De forma predeterminada, todas las alertas están habilitadas. Para deshabilitar una alerta, seleccione la opción **[!UICONTROL Deshabilitar alerta]** en el menú **[!UICONTROL Más acciones]**. Todos los suscriptores de esta alerta ya no recibirán las notificaciones relacionadas.
 
-Seleccione **[!UICONTROL Administrar suscriptores de alertas]** para ver la lista de usuarios que se suscribieron a la alerta. Utilice el campo en blanco para añadir más suscriptores.
-
-![](assets/alert-subscribers.png){width=80%}
-
-Los posibles estados de alerta se enumeran a continuación:
-
-* **[!UICONTROL Habilitada]**: la alerta está habilitada y actualmente supervisa la condición de déclencheur.
-* **[!UICONTROL Deshabilitada]**: la alerta está deshabilitada y actualmente no supervisa la condición de déclencheur. No recibirá notificaciones para esta alerta.
-* **[!UICONTROL Activada]**: actualmente se cumple la condición de déclencheur de la alerta.
 
 ## alertas de recorrido {#journey-alerts}
 
@@ -99,9 +105,12 @@ Los posibles estados de alerta se enumeran a continuación:
 >
 >Las alertas específicas de Adobe Journey Optimizer solo se aplican a **recorridos activos**. Las alertas no se activan para los recorridos en el modo de prueba.
 
+
 ### Error de acción personalizada de recorrido {#alert-custom-actions}
 
 Esta alerta le advierte si falla una acción personalizada. Consideramos que hay un error en el que ha habido más del 1 % de errores en una acción personalizada específica en los últimos 5 minutos. Esto se evalúa cada 30 segundos.
+
+Haga clic en el nombre de la alerta para comprobar sus detalles y configuración.
 
 ![](assets/alerts-custom-action.png)
 
@@ -144,6 +153,26 @@ Para solucionar problemas de las alertas de **Leer audiencia**, compruebe su rec
 ![](assets/alert-troubleshooting-0.png)
 
 ![](assets/alert-troubleshooting-1.png)
+
+<!--DOCAC-13465
+
+### Profile Discard Rate Exceeded {#alert-discard-rate}
+
+This alert warns you if the ratio of profile discards to entered profiles over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+Click the name of the alert to check the alert details and configuration.
+
+
+### Custom Action Error Rate Exceeded {#alert-custom-action-error-rate}
+
+This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+### Profile Error Rate Exceeded {#alert-profile-error-rate}
+
+This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+Click the name of the alert to check the alert details and configuration.
+-->
 
 ## Alertas de configuración {#configuration-alerts}
 
@@ -220,7 +249,61 @@ Cuando resuelva problemas de configuración de correo electrónico, tenga en cue
 
 This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
 
+## Administración de alertas {#manage-alerts}
+
+### Editar una alerta
+
+Puede comprobar los detalles de una alerta haciendo clic en su línea. Los canales de nombre, estado y notificación se muestran en el panel izquierdo.
+<!--DOCAC-13465
+For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
+
+![](assets/alert-more-actions.png){width=60%}
+
+<!--DOCAC-13465
+#### Define a custom threshold {#custom-threshold}
+
+You can set thresholds for the [Journey alerts](#journey-alerts). The threshold alerts above default to 20%. 
+
+To change the threshold:
+
+1. Browse to the **Alerts** screen
+1. Click the **[!UICONTROL More actions]** button of the alert to update
+1. Enter the new threshold and confirm. The new threshold applies to **all** journeys
 
 
+![](assets/alert-threshold.png){width=60%}
+
+>[!CAUTION]
+>
+>The threshold levels are global across all journeys and cannot be individually modified per journey.
+-->
+
+### Desactivación de una alerta
+
+De forma predeterminada, todas las alertas están habilitadas. Para deshabilitar una alerta, seleccione la opción **[!UICONTROL Deshabilitar alerta]**: todos los suscriptores de esta alerta dejarán de recibir las notificaciones relacionadas.
 
 
+### Estados de alerta
+
+Los posibles estados de alerta se enumeran a continuación:
+
+* **[!UICONTROL Habilitada]**: la alerta está habilitada y actualmente supervisa la condición de déclencheur.
+* **[!UICONTROL Deshabilitada]**: la alerta está deshabilitada y actualmente no supervisa la condición de déclencheur. No recibirá notificaciones para esta alerta.
+* **[!UICONTROL Activada]**: actualmente se cumple la condición de déclencheur de la alerta.
+
+
+### Ver y actualizar suscriptores {#manage-subscribers}
+
+Seleccione **[!UICONTROL Administrar suscriptores de alertas]** para ver la lista de usuarios que se suscribieron a la alerta.
+
+![](assets/alert-subscribers.png){width=80%}
+
+Para agregar a más suscriptores, escribe su correo electrónico separados por una coma y selecciona **[!UICONTROL Actualizar]**.
+
+Para quitar suscriptores, elimina su dirección de correo electrónico de los suscriptores actuales y selecciona **[!UICONTROL Actualizar]**.
+
+## Recursos adicionales {#additional-resources-alerts}
+
+
+* Aprenda a solucionar problemas de sus recorridos en [esta página](../building-journeys/troubleshooting.md).
+* Aprenda a revisar sus campañas en [esta página](../campaigns/review-activate-campaign.md).

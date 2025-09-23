@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
-source-wordcount: '2948'
-ht-degree: 98%
+source-wordcount: '2954'
+ht-degree: 99%
 
 ---
 
@@ -235,8 +235,8 @@ ht-degree: 98%
       + [Preguntas frecuentes](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configuración de datos {#data-configuration}
          + [Configuración de datos](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + Administrar esquemas y conjuntos de datos relacionales {#schemas-datasets}
-            + [Administración de esquemas y conjuntos de datos relacionales](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + Administrar esquemas y conjuntos de datos basados en modelos {#schemas-datasets}
+            + [Administrar esquemas y conjuntos de datos basados en modelos](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Introducción a esquemas y conjuntos de datos](using/orchestrated/gs-schemas.md)
             + [Esquema manual](using/orchestrated/manual-schema.md)
             + [Esquema de carga de archivos](using/orchestrated/file-upload-schema.md)
@@ -351,7 +351,7 @@ ht-degree: 98%
          + [Nuevo requisito de DMARC](using/configuration/dmarc-record-update.md)
    + Canal en la aplicación {#in-app}
       + [Canal en la aplicación](/help/rp_landing_pages/in-app-landing-page.md)
-      + [Introducción a la aplicación](using/in-app/get-started-in-app.md)
+      + [Introducción a in-app](using/in-app/get-started-in-app.md)
       + [Requisitos previos del canal en la aplicación](using/in-app/inapp-configuration.md)
       + [Creación de un mensaje en la aplicación para móviles](using/in-app/create-in-app.md)
       + [Creación de un mensaje web en la aplicación](using/in-app/create-in-app-web.md)
@@ -547,14 +547,15 @@ ht-degree: 98%
       + [Experimento del contenido](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Introducción al experimento de contenido](using/content-management/get-started-experiment.md)
       + [Creación de un experimento de contenido](using/content-management/content-experiment.md)
-      + Acelerador de experimentos {#experiment}
-         + [Introducción al acelerador de experimentos](using/content-management/experiment-accelerator.md)
+      + Experiment accelerator {#experiment}
+         + [Introducción a Experiment accelerator](using/content-management/experiment-accelerator.md)
          + [Uso de datos en IA con Experimentation Accelerator](using/content-management/experiment-accelerator-security.md)
-         + [Prácticas recomendadas del acelerador de experimentos](using/content-management/experiment-accelerator-best-practices.md)
-         + [Monitor acelerador de experimentos](using/content-management/experiment-accelerator-monitor.md)
-         + [Métricas del acelerador de experimentos](using/content-management/experiment-accelerator-metrics.md)
+         + [Prácticas recomendadas de Experiment accelerator](using/content-management/experiment-accelerator-best-practices.md)
+         + [Monitorización de Experiment accelerator](using/content-management/experiment-accelerator-monitor.md)
+         + [Métricas de Experiment accelerator](using/content-management/experiment-accelerator-metrics.md)
       + Notas técnicas {#technotes}
          + [Notas técnicas](/help/rp_landing_pages/technotes-landing-page.md)
+         + [Prueba A/B frente a bandido multibrazo](using/content-management/mab-vs-ab.md)
          + [Comprensión de los cálculos estadísticos](using/content-management/experiment-calculations.md)
          + [Explicación de los cálculos estadísticos en el informe de experimentación](using/content-management/experiment-report-calculations.md)
 + Públicos, perfiles e identidad {#audiences-profiles-identities}
@@ -615,7 +616,7 @@ ht-degree: 98%
          + [Informe de recorrido de tarjeta de contenido](using/reports/journey-global-report-cja-content.md)
          + [Informe de recorrido de correo directo](using/reports/journey-global-report-cja-direct.md)
          + [Informe de recorrido de correo electrónico](using/reports/journey-global-report-cja-email.md)
-         + [Informe recorrido de experimentación](using/reports/journey-global-report-cja-experimentation.md)
+         + [Informe de recorrido de experimentación](using/reports/journey-global-report-cja-experimentation.md)
          + [Informe de recorrido in-app](using/reports/journey-global-report-cja-inapp.md)
          + [Informe de recorrido push](using/reports/journey-global-report-cja-push.md)
          + [Informe de recorrido de SMS](using/reports/journey-global-report-cja-sms.md)

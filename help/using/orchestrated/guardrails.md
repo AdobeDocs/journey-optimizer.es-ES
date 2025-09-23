@@ -5,7 +5,7 @@ title: Limitaciones y protecciones de campañas organizadas
 description: Obtenga información acerca de las limitaciones y protecciones de campañas orquestadas
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 1addd3386bfbfffaa63fb7a903738328f6f8082e
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 2%
@@ -33,7 +33,7 @@ A continuación, encontrará limitaciones y protecciones al utilizar campañas o
 
 * El número promedio de atributos por esquema **no debe exceder las 50 columnas** para mantener la capacidad de administración y el rendimiento.
 
-* No se pueden habilitar los esquemas relacionales para los **perfiles** de Adobe Experience Platform. Solo se admiten esquemas XDM estándar para **Perfiles** de Adobe Experience Platform. Los esquemas relacionales se pueden habilitar para campañas organizadas o campañas de acción. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Los esquemas basados en modelos no se pueden habilitar para Adobe Experience Platform **Perfiles**. Solo se admiten esquemas XDM estándar para **Perfiles** de Adobe Experience Platform. Los esquemas basados en modelos se pueden habilitar para campañas organizadas o campañas de acción. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Ingesta de datos
 

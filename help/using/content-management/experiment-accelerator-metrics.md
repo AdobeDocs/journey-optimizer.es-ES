@@ -8,27 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
-hide: true
-hidefromtoc: true
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
-source-git-commit: 70fce6fae4db58c72496945c50155dbd0b4986b4
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
 
 # Métricas {#experiment-accelerator-metrics}
-
->[!BEGINSHADEBOX]
-
-* [Introducción a Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
-* [Uso de datos en IA con Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
-* [Prácticas recomendadas de Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)
-* [Monitorización de experimentos](experiment-accelerator-monitor.md)
-* **[Métricas de experimentación](experiment-accelerator-metrics.md)**
-
->[!ENDSHADEBOX]
 
 La página **[!UICONTROL Métricas]** muestra métricas de éxito de experimentos de Journey Optimizer y Target en un solo lugar, lo que permite supervisar el rendimiento, realizar comparaciones y obtener información más detallada.
 

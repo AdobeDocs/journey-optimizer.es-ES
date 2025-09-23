@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
+source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 9%
+source-wordcount: '1846'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
->title="Experimento de contenido"
+>title="Experimento del contenido"
 >abstract="Puede elegir entre modificar el contenido del mensaje o el asunto para definir varios tratamientos y determinar la mejor combinación para sus públicos."
 
 >[!NOTE]
@@ -68,7 +68,21 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 >title="Métrica de éxito"
 >abstract="La métrica de éxito se utiliza para rastrear y evaluar el tratamiento con mejor rendimiento de un experimento. Asegúrese de configurar su conjunto de datos para determinadas métricas antes de utilizarlo."
 
-1. Cuando el mensaje esté personalizado, en la página de resumen de la campaña, haga clic en **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido.
+Para el experimento de contenido, puede elegir entre tres tipos de experimento:
+
+* **[!UICONTROL Experimento A/B]**: defina la división de tráfico entre tratamientos al comienzo de la prueba. El rendimiento se evalúa en función de la métrica principal que haya elegido, la Experimentation Accelerator, a continuación, informa del alza observada entre los tratamientos.
+
+* **[!UICONTROL Bandido multibrazo]**: la división del tráfico entre tratamientos se gestiona automáticamente. Cada 7 días, se revisa el rendimiento de la métrica principal y los pesos se ajustan en consecuencia. Los informes de Experimentation Accelerator siguen mostrando el alza como pruebas A/B.
+
+* **[!UICONTROL Trae tu propio Multi-armed bandit]**: la división del tráfico entre los tratamientos se gestiona automáticamente. Tiene la flexibilidad para determinar cuándo y cómo debe cambiar mediante las API de Experimento para ajustar las asignaciones en tiempo real.
+
+➡️ [Más información sobre la diferencia entre los experimentos de bandidos A/B y multibrazo](mab-vs-ab.md)
+
+>[!BEGINTABS]
+
+>[!TAB Experimento A/B]
+
+1. Cuando el mensaje esté personalizado, en la ficha **[!UICONTROL Acciones]**, haga clic en **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido.
 
    ![](assets/content_experiment_3.png)
 
@@ -78,9 +92,11 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 
    ![](assets/content_experiment_11.png)
 
-1. Al configurar un experimento utilizando el canal en la aplicación o web y elegir las **[!UICONTROL pulsaciones entrantes]**, los **[!UICONTROL clics entrantes únicos]**, las **[!UICONTROL vistas de página]** o las **[!UICONTROL métricas de vistas de página únicas]**, la lista desplegable de **[!UICONTROL acción de clic]** le permite rastrear y supervisar con precisión los clics y las vistas en páginas específicas.
+1. Al configurar un experimento utilizando el canal en la aplicación o web y elegir los **[!UICONTROL clics entrantes]**, los **[!UICONTROL clics entrantes únicos]**, las **[!UICONTROL vistas de página]** o las **[!UICONTROL métricas de vistas de página únicas]**, el campo **[!UICONTROL Dimensiones]** le permite rastrear y supervisar con precisión los clics y las vistas en páginas específicas.
 
    ![](assets/content_experiment_20.png)
+
+1. Si creó una campaña activada por API, seleccione **[!UICONTROL Experimento A/B]** de la lista desplegable **[!UICONTROL Tipo de experimento]**.
 
 1. Haga clic en **[!UICONTROL Agregar tratamiento]** para crear tantos tratamientos nuevos como sea necesario.
 
@@ -104,7 +120,89 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 
 1. Habilite el experimento de escalado automático para desplegar automáticamente la variación ganadora del experimento. [Más información sobre cómo escalar al ganador](#scale-winner)
 
+   ![](assets/content_experiment_14.png)
+
 1. Haga clic en **[!UICONTROL Crear]** cuando se establezca la configuración.
+
+>[!TAB Bandido multibrazo]
+
+Tenga en cuenta que el experimento Multi-armed bandit solo está disponible con lo siguiente:
+
+* Canales entrantes
+* Recorridos unitarios
+* Campañas activadas por API (tanto transaccionales como operativas)
+* Canales salientes si la programación se repite
+
+1. Cuando el mensaje esté personalizado, en la ficha **[!UICONTROL Acciones]**, haga clic en **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido.
+
+   ![](assets/content_experiment_3.png)
+
+1. Seleccione la **[!UICONTROL métrica de éxito]** que desee establecer para su experimento.
+
+   Para este ejemplo, seleccione **[!UICONTROL Correo electrónico abierto]** para comprobar si los perfiles abren sus mensajes de correo electrónico si el código de la promoción está en la línea de asunto.
+
+   ![](assets/content_experiment_11.png)
+
+1. Si creó una campaña activada por API, seleccione **[!UICONTROL Multi-armed bandit]** en la lista desplegable **[!UICONTROL Tipo de experimento]**.
+
+   ![](assets/content-experiment-mab-1.png)
+
+1. Haga clic en **[!UICONTROL Agregar tratamiento]** para crear tantos tratamientos nuevos como sea necesario.
+
+   ![](assets/content-experiment-mab-2.png)
+
+1. Cambie **[!UICONTROL Title]** del tratamiento para diferenciarlo mejor.
+
+1. Elija agregar un grupo **[!UICONTROL Holdout]** a su entrega. Este grupo no recibirá ningún contenido de esta campaña.
+
+   Al activar la barra de alternancia, se tomará automáticamente el 10% de su población, puede ajustar este porcentaje si es necesario.
+
+   >[!IMPORTANT]
+   >
+   >Cuando se utiliza un grupo de exclusión en una acción para la experimentación de contenido, la asignación de exclusión solo se aplica a esa acción específica. Una vez finalizada la acción, los perfiles del grupo de exclusión seguirán por la ruta del recorrido y podrán recibir mensajes de otras acciones. Por lo tanto, asegúrese de que los mensajes posteriores no dependan de la recepción de un mensaje por un perfil que pueda estar en un grupo de exclusión. Si es así, es posible que tenga que eliminar la asignación de exclusión.
+
+   ![](assets/content-experiment-mab-3.png)
+
+>[!TAB Trae tu propio bandido multibrazo]
+
+Tenga en cuenta que Traer su propio experimento Multi-armed bandit solo está disponible con lo siguiente:
+
+* Canales entrantes
+* Recorridos unitarios
+* Campañas activadas por API (tanto transaccionales como operativas)
+* Canales salientes si la programación se repite
+
+1. Cuando el mensaje esté personalizado, en la ficha **[!UICONTROL Acciones]**, haga clic en **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido.
+
+   ![](assets/content_experiment_3.png)
+
+1. Seleccione la **[!UICONTROL métrica de éxito]** que desee establecer para su experimento.
+
+   Para este ejemplo, seleccione **[!UICONTROL Correo electrónico abierto]** para comprobar si los perfiles abren sus mensajes de correo electrónico si el código de la promoción está en la línea de asunto.
+
+   ![](assets/content_experiment_11.png)
+
+1. Si creó una campaña activada por API, seleccione **[!UICONTROL Traer su propio bandido multibrazo]** en la lista desplegable **[!UICONTROL Tipo de experimento]**.
+
+   ![](assets/content-experiment-mab-4.png)
+
+1. Haga clic en **[!UICONTROL Agregar tratamiento]** para crear tantos tratamientos nuevos como sea necesario.
+
+   ![](assets/content-experiment-mab-5.png)
+
+1. Cambie **[!UICONTROL Title]** del tratamiento para diferenciarlo mejor.
+
+1. Elija agregar un grupo **[!UICONTROL Holdout]** a su entrega. Este grupo no recibirá ningún contenido de esta campaña.
+
+   Al activar la barra de alternancia, se tomará automáticamente el 10% de su población, puede ajustar este porcentaje si es necesario.
+
+   >[!IMPORTANT]
+   >
+   >Cuando se utiliza un grupo de exclusión en una acción para la experimentación de contenido, la asignación de exclusión solo se aplica a esa acción específica. Una vez finalizada la acción, los perfiles del grupo de exclusión seguirán por la ruta del recorrido y podrán recibir mensajes de otras acciones. Por lo tanto, asegúrese de que los mensajes posteriores no dependan de la recepción de un mensaje por un perfil que pueda estar en un grupo de exclusión. Si es así, es posible que tenga que eliminar la asignación de exclusión.
+
+   ![](assets/content-experiment-mab-6.png)
+
+>[!ENDTABS]
 
 ## Diseña tus tratamientos {#treatment-experiment}
 
@@ -147,7 +245,6 @@ Puede elegir entre dos modos:
 
 * **Escalado manual**: revise manualmente los resultados del experimento e inicie el despliegue del tratamiento ganador, manteniendo un control total sobre el tiempo y las decisiones.
 
-
 ### Escalado automático {#autoscaling}
 
 El escalado automático permite establecer reglas predefinidas sobre cuándo implementar el tratamiento ganador o una alternativa, en función de los resultados del experimento.
@@ -167,9 +264,9 @@ Para habilitar el escalado automático en los experimentos:
    * En cuanto se encuentre el ganador.
    * Después de que el experimento esté activo durante el tiempo seleccionado.
 
-     La hora de escalado automático debe programarse antes de la fecha de finalización del experimento. Si se establece para una hora después de la fecha de finalización, aparece una advertencia de validación y la campaña o el recorrido no se publican.
+La hora de escalado automático debe programarse antes de la fecha de finalización del experimento. Si se establece para una hora después de la fecha de finalización, aparece una advertencia de validación y la campaña o el recorrido no se publican.
 
-   ![](assets/scale-winner-2.png)
+    ![](assets/scale-winner-2.png)
 
 1. Elija el comportamiento de reserva si no se encuentra ningún ganador por tiempo de escala:
 

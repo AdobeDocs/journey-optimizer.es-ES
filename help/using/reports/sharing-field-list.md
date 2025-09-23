@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
+source-git-commit: 11b2141db8d0e6dd44987d5f7941430fbe3e48f8
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 10%
+source-wordcount: '601'
+ht-degree: 9%
 
 ---
 
@@ -77,11 +77,11 @@ Obtenga más información acerca de eventTypes [en esta sección](#discarded-eve
 Esta categoría contiene los campos de eventos de paso originales. Consulte esta [sección](../reports/sharing-legacy-fields.md).
 
 
-## Solucionar problemas de tipos de eventos descartados en recorrido_step_events  {#discarded-events}
+## Solucionar problemas de tipos de eventos descartados en eventos de paso de Recorrido  {#discarded-events}
 
-Al consultar recorrido_step_events para registros con `eventCode = 'discard'`, puede encontrar varios eventTypes.
+Al consultar eventos de paso de recorrido para registros con `eventCode = 'discard'`, puede encontrar varios tipos de evento.
 
-A continuación encontrará definiciones, causas comunes y pasos de solución de problemas para los tipos de eventos de descarte más frecuentes:
+A continuación encontrará definiciones, causas comunes y pasos de solución de problemas para el descarte más frecuente `eventTypes`:
 
 * EXTERNAL_KEY_COMPUTATION_ERROR: El sistema no pudo calcular un identificador único (clave externa) para el cliente a partir de los datos de evento.
 Causas comunes: Faltan identificadores de cliente o están mal formados (por ejemplo, correo electrónico, ID de cliente) en la carga útil de evento.

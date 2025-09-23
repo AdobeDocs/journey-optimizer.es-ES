@@ -2,10 +2,10 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Pasos de configuración
-description: Obtenga información sobre cómo crear un esquema relacional en Adobe Experience Platform cargando un DDL
+description: Obtenga información sobre cómo crear un esquema basado en modelos en Adobe Experience Platform cargando un DDL
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 387aa023b4cb999ae4c27cbca4a2f7bcb5edf009
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 2%
@@ -13,9 +13,9 @@ ht-degree: 2%
 ---
 
 
-# Introducción a esquemas relacionales y conjuntos de datos{#gs-schemas}
+# Introducción a esquemas y conjuntos de datos basados en modelos{#gs-schemas}
 
-Esta guía muestra el proceso de creación de un esquema relacional, configuración de un conjunto de datos para campañas organizadas e ingesta de datos.
+Esta guía muestra el proceso de creación de un esquema basado en modelos, configuración de un conjunto de datos para campañas orquestadas e ingesta de datos.
 
 ![esquema](assets/do-not-localize/schema_admin.png){zoomable="yes"}
 
@@ -35,13 +35,13 @@ Describe lo siguiente:
 
 Un modelo de datos es lógico y conceptual, no está vinculado a una implementación física en Orchestrated Campaign
 
-En un **modelo de datos relacional**, los datos están organizados en tablas relacionadas con otras tablas.
+En un **modelo de datos basado en modelo**, los datos están organizados en tablas relacionadas con otras tablas.
 
 * Cada tabla tiene filas (registros) y columnas (atributos)
 * Cada tabla tiene una clave principal para identificar filas de forma exclusiva
 * Las relaciones entre tablas se expresan mediante claves externas
 
-Un **esquema relacional** es la definición formal del modelo de datos relacional.
+Un esquema basado en **modelo** es la definición formal del modelo de datos basado en modelo.
 
 Especifica lo siguiente:
 
@@ -50,13 +50,13 @@ Especifica lo siguiente:
 * Las restricciones
 * Las relaciones entre tablas
 
-La organización de esquemas o tablas en un modelo de datos relacional consiste en estructurar los datos en varias tablas. Asegúrese de que cada tabla almacene un tipo de entidad/esquemas
+La organización de esquemas o tablas en un modelo de datos basado en modelos consiste en estructurar los datos en varias tablas. Asegúrese de que cada tabla almacene un tipo de entidad/esquemas
 
 ## Pasos de implementación {#implementation}
 
-Para introducir datos y crear un esquema relacional, siga estos pasos:
+Para introducir datos y crear un esquema basado en modelos, siga estos pasos:
 
-1. Crear [esquema relacional manualmente](manual-schema.md) o [con un archivo DDL](file-upload-schema.md)
+1. Crear [esquema basado en modelos manualmente](manual-schema.md) o [con un archivo DDL](file-upload-schema.md)
 
    Defina la estructura del modelo de datos, incluidas las tablas, los atributos y las relaciones. Elija crear el esquema manualmente en la interfaz de usuario o cargar un archivo DDL para una configuración más rápida.
 

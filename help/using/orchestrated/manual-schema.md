@@ -2,24 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Pasos de configuración
-description: Aprenda a crear esquemas relacionales directamente a través de la interfaz de usuario.
+description: Aprenda a crear esquemas basados en modelos directamente a través de la interfaz de usuario.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 5eb60e7c551796829c25a407ff45fbfec4bb76dd
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 3%
+source-wordcount: '899'
+ht-degree: 4%
 
 ---
 
+# Configuración de un esquema manual basado en modelos {#manual-schema}
 
-# Configuración de un esquema relacional manual {#manual-schema}
-
-Los esquemas relacionales se pueden crear directamente a través de la interfaz de usuario, lo que permite una configuración detallada de atributos, claves principales, campos de versiones y relaciones.
+Los esquemas basados en modelos se pueden crear directamente a través de la interfaz de usuario, lo que permite una configuración detallada de atributos, claves principales, campos de versiones y relaciones.
 
 El ejemplo siguiente define manualmente el esquema **Pertenencias de fidelización** para ilustrar la estructura necesaria para las campañas orquestadas.
 
-1. [Cree un esquema relacional manualmente](#schema) mediante la interfaz de Adobe Experience Platform.
+1. [Cree un esquema basado en modelos manualmente](#schema) mediante la interfaz de Adobe Experience Platform.
 
 1. [Agregar atributos](#schema-attributes) como ID de cliente, nivel de pertenencia y campos de estado.
 
@@ -27,11 +26,11 @@ El ejemplo siguiente define manualmente el esquema **Pertenencias de fidelizaci�
 
 1. [Cree un conjunto de datos](#dataset) basado en su esquema y actívelo para usarlo en campañas orquestadas.
 
-1. [Ingresar datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
+1. [Introducir datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
 
 ## Cree su esquema {#schema}
 
-Comience creando un nuevo esquema relacional manualmente en Adobe Experience Platform. Este proceso permite definir la estructura de esquema desde cero, incluido su nombre y comportamiento.
+Comience creando un nuevo esquema basado en modelos manualmente en Adobe Experience Platform. Este proceso permite definir la estructura de esquema desde cero, incluido su nombre y comportamiento.
 
 1. Inicie sesión en Adobe Experience Platform.
 
@@ -39,7 +38,7 @@ Comience creando un nuevo esquema relacional manualmente en Adobe Experience Pla
 
 1. Haga clic en **[!UICONTROL Crear esquema]**.
 
-1. Seleccione **[!UICONTROL Relacional]** como su **Tipo de esquema**.
+1. Seleccione **[!UICONTROL Basado en modelo]** como su **Tipo de esquema**.
 
    ![](assets/admin_schema_1.png){zoomable="yes"}
 
@@ -59,7 +58,7 @@ A continuación, añada atributos para definir la estructura del esquema. Estos 
 
 Cualquier esquema utilizado para la segmentación debe incluir al menos un campo de identidad de tipo `String` con un área de nombres de identidad asociada. Esto garantiza la compatibilidad con las capacidades de segmentación y resolución de identidades de Adobe Journey Optimizer.
 
-+++Se admiten las siguientes funciones al crear esquemas relacionales en Adobe Experience Platform
++++Se admiten las siguientes funciones al crear esquemas basados en modelos en Adobe Experience Platform
 
 * **ENUM**\
   Los campos ENUM son compatibles con la creación de esquemas manual y basada en DDL, lo que permite definir atributos con un conjunto fijo de valores permitidos.
@@ -68,7 +67,7 @@ Cualquier esquema utilizado para la segmentación debe incluir al menos un campo
   El etiquetado es compatible a nivel de campo de esquema para aplicar políticas de gobernanza de datos como el control de acceso y las restricciones de uso. Para obtener más información, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es).
 
 * **Clave compuesta**\
-  Las claves principales compuestas son compatibles con las definiciones de esquema relacional, lo que permite el uso de varios campos juntos para identificar registros de forma exclusiva.
+  Las claves principales compuestas son compatibles con las definiciones de esquema basadas en modelos, lo que permite el uso de varios campos juntos para identificar registros de forma exclusiva.
 
 +++
 
@@ -148,6 +147,12 @@ Después de definir el esquema, el siguiente paso es crear un conjunto de datos 
 Ahora debe habilitar el conjunto de datos para las campañas de orquestación.
 
 ## Habilitar conjunto de datos para campañas orquestadas {#enable}
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_enable_dataset_for_oc"
+>title="Campañas orquestadas"
+>abstract="Después de crear el conjunto de datos, debe habilitarlo explícitamente para Campañas orquestadas. Este paso garantiza que el conjunto de datos esté disponible para la orquestación y personalización en tiempo real dentro de Adobe Journey Optimizer."
+
 
 Después de crear el conjunto de datos, debe habilitarlo explícitamente para Campañas orquestadas. Este paso garantiza que el conjunto de datos esté disponible para la orquestación y personalización en tiempo real dentro de Adobe Journey Optimizer.
 

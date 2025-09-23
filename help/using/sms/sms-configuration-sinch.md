@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 699ad8f66688539ded31e9f361c3fa312fec1069
+source-git-commit: 7068a3ba62eae585a5e7d5a682dfd211fa5a55bd
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 2%
@@ -57,7 +57,7 @@ Para configurar su proveedor de Sinch para que envíe mensajes SMS y MMS con Jou
    | Mensaje de exclusión | Introduzca la respuesta personalizada que se enviará automáticamente como mensaje de exclusión. |
    | Palabras clave de ayuda | Escriba las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su **mensaje de ayuda**. Para varias palabras clave, utilice valores separados por comas. |
    | Mensaje de ayuda | Escriba la respuesta personalizada que se enviará automáticamente como **mensaje de ayuda**. |
-   | Palabras clave de inclusión doble | Introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas. [Más información sobre la inclusión doble de SMS](https://video.tv.adobe.com/v/3440278/?learn=on&captions=spa). |
+   | Palabras clave de inclusión doble | Introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas. [Más información sobre la inclusión doble de SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Mensaje de inclusión doble | Introduzca la respuesta personalizada que se envía automáticamente en respuesta a la confirmación de doble inclusión. |
    | Número entrante | Añada su número de entrada único o código corto. Esto le permite utilizar las mismas credenciales de API en diferentes entornos limitados, cada uno con su propio número de entrada o código corto. |
    | Palabras clave de entrada personalizadas | Defina palabras clave únicas para acciones específicas, por ejemplo, DESCUENTO, OFERTAS, INSCRIBIRSE. Estas palabras clave se capturan y almacenan como atributos en el perfil, lo que le permite almacenar en déclencheur una calificación de segmento de flujo continuo dentro del recorrido y enviar una respuesta o acción personalizada. |
@@ -125,6 +125,30 @@ Después de crear y configurar las credenciales de la API, debe crear una config
 La mensajería RCS (servicios de comunicación enriquecidos) es compatible con Journey Optimizer a través de Sinch, lo que permite enviar mensajes básicos utilizando perfiles comerciales verificados con elementos de marca como logotipos y nombres de remitente.
 
 Tenga en cuenta que los mensajes vuelven automáticamente a SMS cuando el dispositivo del perfil no admite RCS o no se puede acceder a él temporalmente mediante RCS.
+
+<!--
+### Basic RCS Messages
+
+>[!AVAILABILITY]
+>
+> Basic RCS messages is only available upon Adobe RCS add-on offering.
+
+1. **Set up your branded RCS agent**
+
+    Create a branded RCS agent in the Sinch Dashboard. [Learn more on branded RCS agent](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
+
+1. **Set up your [Custom API credentials](sms-configuration-custom.md)**
+    
+    Once your RCS agent is approved, you need to set up your Sinch API credentials, which include your access key, secret, and service plan ID. These credentials will be used by Journey Optimizer to authenticate and send messages through Sinch's platform.
+
+1. **Create a [channel configuration](sms-configuration-surface.md) for your RCS messages**
+
+    Configure a channel surface in Journey Optimizer by linking your Sinch credentials and defining the messaging parameters. This setup enables you to compose and send RCS messages from Journey Optimizer.
+
+1. **Create and personalize your [SMS message](../sms/create-sms.md)**
+
+    Your messages automatically falls back to SMS when the profile's device does not support RCS or is temporarily unreachable via RCS.
+-->
 
 ### Mensajes multimedia RCS
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
+source-git-commit: 4d979ccc421221993a752dd41bc22ea3d83e7555
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 36%
+source-wordcount: '1647'
+ht-degree: 37%
 
 ---
 
@@ -272,4 +272,4 @@ A continuación, se muestra un ejemplo de la respuesta de la llamada de API de i
 
 >[!CAUTION]
 >
->Al configurar la autenticación personalizada para una acción personalizada, tenga en cuenta que actualmente `bodyParams`no se admiten los objetos JSON anidados (por ejemplo, subobjetos dentro de **)**. En la carga útil de la solicitud final solo se incluyen pares de clave-valor plana. Si el extremo de autenticación requiere objetos anidados, puede que falten campos y errores de autenticación.
+>Al configurar la autenticación personalizada para una acción personalizada, tenga en cuenta que se admiten `bodyParams`objetos JSON anidados (por ejemplo, subobjetos dentro de **)**.

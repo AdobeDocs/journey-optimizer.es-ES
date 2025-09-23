@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5da036a6b352eecaf6a14f5d21bf5391fc5ed3fa
+source-git-commit: 26212ade689477154e4ea33dbc1970e3acea0a12
 workflow-type: tm+mt
-source-wordcount: '2817'
-ht-degree: 91%
+source-wordcount: '2825'
+ht-degree: 90%
 
 ---
 
@@ -171,7 +171,7 @@ Las siguientes limitaciones se aplican a las [Acciones personalizadas](../action
 
 Las siguientes limitaciones se aplican a los [Eventos](../event/about-events.md) en sus recorridos:
 
-* Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido entrantes por segundo, que abarcan todas las zonas protegidas.
+* Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido entrantes por segundo en todas las zonas protegidas. Obtenga más información sobre esta limitación [en esta página](../event/about-events.md#event-thoughput).
 * Los recorridos activados por eventos pueden tardar hasta 5 minutos en procesar la primera acción del recorrido.
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
 * Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de público.

@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
-hide: true
-hidefromtoc: true
-source-git-commit: 11c62deaf90b961233a35b9c4be8b81264b4c8e7
+exl-id: 938b148e-b2cd-4d8b-9f73-dd62420d6184
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 14%
+source-wordcount: '464'
+ht-degree: 15%
 
 ---
 
 # Introducción a Journey Optimizer Experimentation Accelerator {#content-experiment}
-
->[!BEGINSHADEBOX]
-
-* **[Introducción a Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)**
-* [Uso de datos en IA con Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
-* [Prácticas recomendadas de Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)
-* [Monitorización de experimentos](experiment-accelerator-monitor.md)
-* [Métricas de experimentación](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

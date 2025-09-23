@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: 03b22446ee06b5a6c20145c4b9abed95ac24e8bb
+source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '956'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,10 @@ El sistema detecta automáticamente todos los atributos utilizados en el conteni
 
 Antes de empezar a probar el contenido con datos de entrada de ejemplo, tenga en cuenta las siguientes protecciones y requisitos previos.
 
-* **Canales**: la simulación de variaciones de contenido solo está disponible para los canales de correo electrónico, SMS y notificaciones push.
+* **Canales**: la simulación de variaciones de contenido está disponible para:
+
+   * los canales de correo electrónico, SMS y notificaciones push;
+   * todos los canales entrantes (web, experiencia basada en código, aplicación, tarjetas de contenido).
 
 * **Funciones compatibles**: las variaciones de contenido se pueden usar con [!DNL Journey Optimizer] funciones de contenido multilingüe y experimento de contenido. Esto le permite probar mensajes en varios idiomas y optimizar el contenido mediante la experimentación.
 
@@ -42,7 +45,7 @@ Antes de empezar a probar el contenido con datos de entrada de ejemplo, tenga en
 
   >[!NOTE]
   >
-  >Por ahora, los informes de procesamiento de bandeja de entrada y correo no deseado no están disponibles en la experiencia actual:. Para usar estas características, selecciona el botón **[!UICONTROL Simular contenido]** de tu contenido para acceder a la interfaz de usuario anterior.
+  >Por ahora, los informes de procesamiento de bandeja de entrada y correo no deseado no están disponibles en la experiencia actual. Para usar estas características, selecciona el botón **[!UICONTROL Simular contenido]** de tu contenido para acceder a la interfaz de usuario anterior.
 
 * **Atributos**: se admiten atributos contextuales y de perfil.
 

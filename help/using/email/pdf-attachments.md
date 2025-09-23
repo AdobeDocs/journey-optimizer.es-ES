@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: correo electrónico, mensaje, adjunto, pdf, editor
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
-source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
+source-git-commit: 504b038a5f0a1f40304e355325843c238ab56da5
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 41%
+source-wordcount: '339'
+ht-degree: 34%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 41%
 >title="Añadir PDF adjunto"
 >abstract="Busque y seleccione un archivo de PDF para adjuntarlo al correo electrónico.</br>Puede enviar hasta seis mensajes con un archivo adjunto de PDF por perfil y año. El tamaño máximo para cada archivo adjunto es 5 MB.</br>Para cualquier tamaño o volumen adicional, puede adquirir un complemento de paquete de archivos adjuntos. Para obtener más información, póngase en contacto con su representante de Adobe."
 
->[!AVAILABILITY]
->
->Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
-
 Puede adjuntar un archivo PDF estático a los mensajes de correo electrónico que envíe con [!DNL Journey Optimizer].
 
 >[!IMPORTANT]
@@ -35,7 +31,7 @@ Puede adjuntar un archivo PDF estático a los mensajes de correo electrónico qu
 >
 >* El tamaño máximo para cada archivo adjunto es 5 MB.
 >
->Para cualquier tamaño o volumen adicional, puede adquirir un complemento de paquete de archivos adjuntos. Para obtener más información, póngase en contacto con su representante de Adobe.
+>Para cualquier tamaño o volumen adicional, puede adquirir el complemento Archivos adjuntos de PDF. Para obtener más información, póngase en contacto con su representante de Adobe.
 
 Para adjuntar un archivo PDF a un mensaje de correo electrónico, siga los pasos a continuación.
 
@@ -49,7 +45,7 @@ Para adjuntar un archivo PDF a un mensaje de correo electrónico, siga los pasos
 
    >[!NOTE]
    >
-   >Al diseñar mensajes, puede acceder al repositorio de Assets Essentials directamente desde la interfaz de Journey Optimizer. Para obtener más información sobre la interfaz de usuario [!DNL Assets Essentials] incrustada, consulte [Documentación de Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=es){target="_blank"}.
+   >Al diseñar mensajes, puede acceder al repositorio de Assets Essentials directamente desde la interfaz de Journey Optimizer. Para obtener más información sobre la interfaz de usuario [!DNL Assets Essentials] incrustada, consulte [Documentación de Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 1. Use el filtro **[!UICONTROL PDF]** en la sección **[!UICONTROL Tipo MIME]** para restringir la selección al formato de archivo correcto.
 

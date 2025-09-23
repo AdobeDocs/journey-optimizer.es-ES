@@ -5,10 +5,10 @@ title: Preguntas más frecuentes sobre campañas organizadas
 description: Preguntas frecuentes sobre las campañas orquestadas de Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '1430'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 A continuación, encontrará las preguntas más frecuentes sobre campañas organizadas de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ ¿Qué es la orquestación de Campaign?
 
@@ -177,13 +177,13 @@ En Campaign Orchestration, nos referimos a la segmentación ad hoc como &quot;Se
 
 +++ ¿Campaign Orchestration solo accede a los datos cargados por lotes o también puede consultar tablas actualizadas en tiempo real (como los datos de Analytics)?
 
-Journey Optimizer Campaign Orchestration puede generar primero consultas ad hoc sobre esquemas relacionales. Los esquemas relacionales solo admiten orígenes de lotes por ahora. Además, admite Leer audiencia de cualquier tipo de Audiencia de Adobe Experience Platform.
+Journey Optimizer Campaign Orchestration puede generar primero consultas ad hoc sobre esquemas basados en modelos. Los esquemas basados en modelos solo admiten orígenes de lotes por ahora. Además, admite Leer audiencia de cualquier tipo de Audiencia de Adobe Experience Platform.
 
 +++
 
 +++ ¿Las campañas organizadas admiten la toma de decisiones?
 
-Sí. Decisioning puede utilizar datos relacionales de campañas orquestadas. Una vez que el esquema relacional se ha conectado con esquemas XDM, los datos XDM se pueden utilizar en la toma de decisiones.
+Sí. Decisioning puede utilizar datos relacionales de campañas orquestadas. Una vez que el esquema basado en modelos está conectado con esquemas XDM, los datos XDM se pueden utilizar en la toma de decisiones.
 
 +++
 
