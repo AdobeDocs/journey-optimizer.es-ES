@@ -12,9 +12,9 @@ badge: label="Disponibilidad limitada" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: 60a4fb6b88fe94119bcbd209a5f893e12142c0f0
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1262'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Para capturar datos de perfil con sus páginas de aterrizaje de [!DNL Journey Op
 >id="ajo_lp_form_connection"
 >title="Seleccione el extremo que desea utilizar"
 >abstract="Defina el punto final de flujo continuo al que se envían los datos al enviar el formulario."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creación de una conexión de flujo continuo HTTP API"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creación de una conexión de flujo continuo HTTP API"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ Al crear un ajuste preestablecido:
 
    >[!NOTE]
    >
-   >Obtenga más información sobre cómo crear una conexión de origen de flujo continuo en la [documentación de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Obtenga más información sobre cómo crear una conexión de origen de flujo continuo en la [documentación de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Seleccione un **[!UICONTROL conjunto de datos]** para vincularlo con el formulario. Aquí es donde se almacenan y reflejan las respuestas del formulario. Puede escribir para buscar un conjunto de datos específico o seleccionarlo en la lista.
 
@@ -91,7 +91,7 @@ Se muestran todos los formularios existentes. Puede filtrar los formularios en f
 >id="ajo_lp_form_preset"
 >title="Seleccionar un ajuste preestablecido"
 >abstract="Elija un ajuste preestablecido que contenga la conexión que se va a utilizar y un conjunto de datos predefinido para el formulario."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Crear un ajuste preestablecido de formulario"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Crear un ajuste preestablecido de formulario"
 
 Para crear un formulario, siga los pasos a continuación.
 
@@ -156,6 +156,32 @@ Configure una de las siguientes acciones:
   >Las condiciones definidas en una regla se leen secuencialmente.
 
   ![](assets/lp_create-form-thank-you-conditional.png){width=40%}
+
+## Edición de un formulario publicado {#edit-form}
+
+Una vez publicado un formulario, aún puede editarlo. Siga los pasos a continuación.
+
+1. Acceda a la [lista de formularios](#access-forms) y seleccione un formulario publicado.
+
+1. Haga clic en el botón **[!UICONTROL Editar formulario]**.
+
+   ![](assets/lp_edit-form-button.png){width=90%}
+
+1. Se creará una nueva versión del formulario con el estado de borrador. Haga clic en **[!UICONTROL Crear versión de borrador]**.
+
+1. Actualice el formulario según sea necesario y haga clic en **[!UICONTROL Guardar]**. El formulario tiene ahora el estado **[!UICONTROL Publicado (con borrador)]**:
+
+   * La versión actual sigue teniendo el estado **[!UICONTROL Publicado]** hasta que publique la versión actualizada.
+
+   * La versión actualizada tiene el estado **[!UICONTROL borrador]**.
+
+1. Cuando vuelva al resumen del formulario, podrá desplazarse entre las dos versiones.
+
+   ![](assets/lp_published-with-draft-form.png){width=70%}
+
+1. En la sección **[!UICONTROL Borrador]**, puede publicar o descartar el borrador, así como editar los detalles o el contenido del formulario.
+
+   ![](assets/lp_edit-draft-form.png){width=75%}
 
 ## Aprovechamiento del formulario en una página de aterrizaje {#leverage-form-in-lp}
 
