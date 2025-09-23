@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
+source-git-commit: 5da036a6b352eecaf6a14f5d21bf5391fc5ed3fa
 workflow-type: tm+mt
-source-wordcount: '2708'
-ht-degree: 97%
+source-wordcount: '2817'
+ht-degree: 91%
 
 ---
 
@@ -52,10 +52,9 @@ Este cambio se implementará en las **zonas protegidas de clientes existentes** 
 
 ### Protecciones de correo electrónico {#message-guardrails}
 
-Las siguientes limitaciones se aplican a la actividad [canal de correo electrónico](../../rp_landing_pages/email-landing-page.md):
+<!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-* No pueden agregar archivos adjuntos a un correo electrónico con [!DNL Journey Optimizer].
-* No puede utilizar el mismo dominio de envío para enviar mensajes desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage], por ejemplo.
+No puede usar el mismo dominio de envío para enviar mensajes de correo electrónico desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage], por ejemplo.
 
 ### Protecciones de los SMS {#sms-guardrails}
 
@@ -65,15 +64,21 @@ Las siguientes limitaciones se aplican a la actividad [canal de SMS](../sms/get-
 * Actualmente, la sincronización de comentarios de mensajes no está disponible para MMS.
 * La administración de consentimientos funciona en el nivel de canal SMS para MMS.
 
-### Protecciones de canal web {#web-guardrails}
+### Protecciones del canal entrante {#inbound-guardrails}
 
-[Las campañas web de](../web/get-started-web.md) [!DNL Journey Optimizer] se dirigen a nuevos perfiles que no han interactuado antes en otros canales. Esto aumentará el recuento total de perfiles con los que es posible interactuar, lo que puede tener costes si se supera el número contractual de perfiles adquiridos. 
+* Journey Optimizer admite un volumen máximo de 5000 solicitudes entrantes por segundo. Esta protección se aplica a todas las solicitudes entrantes, que pueden proceder de cualquiera de los canales entrantes admitidos por Journey Optimizer ([web](../web/get-started-web.md), [en la aplicación](../in-app/get-started-in-app.md), [experiencias basadas en código](../code-based/get-started-code-based.md), [tarjetas de contenido](../../rp_landing_pages/content-card-landing-page.md)).
 
-Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+  Los canales entrantes de Journey Optimizer se dirigen a nuevos perfiles que es posible que no se hayan utilizado anteriormente en otros canales. Esto aumentará el recuento total de perfiles con los que es posible interactuar, lo que puede tener costes si se supera el número contractual de perfiles adquiridos. 
 
-### Protecciones de canal basado en código {#code-based-guardrails}
+  Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-Para usar acciones de experiencia basada en código en [!DNL Journey Optimizer] y entregar carga útil de contenido de código que puedan usar las aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
+* Journey Optimizer admite un máximo de 500 acciones entrantes activas en cualquier momento. Estas acciones entrantes ([web](../web/get-started-web.md), [en la aplicación](../in-app/get-started-in-app.md), [experiencias basadas en código](../code-based/get-started-code-based.md), [tarjetas de contenido](../../rp_landing_pages/content-card-landing-page.md)) se cuentan si son parte de una campaña en vivo o si son un nodo usado en un recorrido en vivo. Una vez alcanzado este número, debe desactivar las campañas o recorridos más antiguos que utilicen acciones entrantes antes de poder iniciar nuevas.
+
+* Para usar [acciones de experiencia basada en código](../code-based/get-started-code-based.md) en [!DNL Journey Optimizer] y entregar carga útil de contenido de código que puedan usar las aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
+
+### Protecciones de mensajes transaccionales {#transactional-message-guardrails}
+
+Journey Optimizer admite un volumen máximo de 500 mensajes transaccionales por segundo en las campañas.
 
 ## Mecanismos de protección de las páginas de destino {#lp-guardrails}
 
@@ -199,7 +204,7 @@ Puede elegir entre una de estas dos soluciones:
 
 ### Identificadores adicionales {#supplemental}
 
-Se aplican limitaciones específicas al uso de identificadores suplementarios en los recorridos. Están listados en [esta página](../building-journeys/supplemental-identifier.md#guardrails)
+Se aplican limitaciones específicas al uso de identificadores suplementarios en los recorridos. Se muestran [en esta página](../building-journeys/supplemental-identifier.md#guardrails).
 
 ### Editor de expresiones {#expression-editor}
 
