@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
+source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
 workflow-type: tm+mt
-source-wordcount: '3097'
-ht-degree: 67%
+source-wordcount: '3111'
+ht-degree: 66%
 
 ---
 
@@ -237,7 +237,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 
 * **Permisos de directivas de aprobación**
 Se ha añadido una opción al crear o configurar la directiva de aprobación para evitar que los creadores de Recorrido/campaña aprueben sus propios objetos.
-
+<!-->
 * **Nuevas alertas de Recorrido**\
   Hay nuevas alertas preconfiguradas disponibles para los recorridos:
 
@@ -246,6 +246,7 @@ Se ha añadido una opción al crear o configurar la directiva de aprobación par
    * Tasa de error de perfil superada: proporción de perfiles en error respecto a los perfiles introducidos durante los últimos 5 minutos superados como umbral.
 
   Puede modificar los valores de umbral y suscribirse a recorridos individuales o globales.
+-->
 
 * **Ahora se admiten parámetros de cuerpo JSON anidados en la autenticación personalizada**\
   Al configurar la autenticación personalizada para una acción personalizada, ahora se admiten objetos JSON anidados (por ejemplo, subobjetos dentro de `bodyParams`).
@@ -258,9 +259,9 @@ Se ha añadido una opción al crear o configurar la directiva de aprobación par
 * **Compatibilidad con mTLS para el canal SMS**
 Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habilitar la autenticación TLS mutua (mTLS), lo que requiere que tanto el cliente como el servidor confirmen mutuamente sus identidades antes de establecer una conexión segura.
 
-<!--* **Model-based Schemas**  
-  For a clearer and more intuitive experience, Relational Schemas are now referred to as Model-based Schemas in Orchestrated campaigns.
--->
+
+* **Esquemas basados en modelos**\
+  Los esquemas relacionales ahora se denominan esquemas basados en modelos en campañas orquestadas.
 
 * **Compatibilidad con la búsqueda de conjuntos de datos en recorrido**\
   Una nueva actividad en recorrido, **Búsqueda de conjuntos de datos**, le permite recuperar dinámicamente datos de conjuntos de datos de registros de Adobe Experience Platform durante el tiempo de ejecución. Al aprovechar esta capacidad, puede acceder a datos que pueden no residir en el perfil o en la carga útil del evento, lo que garantiza que las interacciones de los clientes sean relevantes y oportunas.
