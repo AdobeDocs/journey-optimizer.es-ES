@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
+source-git-commit: 40b0ad9ce1a4d9a4cbb120a600de2da78988aae8
 workflow-type: tm+mt
-source-wordcount: '3111'
-ht-degree: 66%
+source-wordcount: '3032'
+ht-degree: 68%
 
 ---
 
@@ -237,15 +237,16 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 
 * **Permisos de directivas de aprobación**
 Se ha añadido una opción al crear o configurar la directiva de aprobación para evitar que los creadores de Recorrido/campaña aprueben sus propios objetos.
-<!-->
-* **Nuevas alertas de Recorrido**\
-  Hay nuevas alertas preconfiguradas disponibles para los recorridos:
 
-   * Tasa de descarte de perfil superada: proporción de descartes de perfil para perfiles introducidos durante los últimos 5 minutos del umbral excedido.
-   * Tasa de errores de acciones personalizadas superadas: la proporción de errores de acciones personalizadas respecto a llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral.
-   * Tasa de error de perfil superada: proporción de perfiles en error respecto a los perfiles introducidos durante los últimos 5 minutos superados como umbral.
+<!--
+* **New Journey Alerts**  
+  New pre-configured alerts are available for journeys:
 
-  Puede modificar los valores de umbral y suscribirse a recorridos individuales o globales.
+  * Profile Discard Rate Exceeded: Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * Custom Action Error Rate Exceeded: Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * Profile Error Rate Exceeded: Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
+
+  You can modify threshold values and subscribe to individual journey-level alerts vs globally.
 -->
 
 * **Ahora se admiten parámetros de cuerpo JSON anidados en la autenticación personalizada**\
