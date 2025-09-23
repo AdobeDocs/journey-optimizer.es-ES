@@ -6,9 +6,9 @@ description: Expresiones de compilación
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
 source-git-commit: a5f0b47b9af31c1ae1fd6ae3dffd4c260444297a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer incluye un **editor de expresiones avanzadas** que le pe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Usar el editor de expresiones avanzadas
 
@@ -30,7 +30,7 @@ Aprenda a utilizar el editor de expresiones avanzadas para crear expresiones per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Sintaxis avanzada para expresiones
 
@@ -40,7 +40,7 @@ Domine las reglas de sintaxis, las instrucciones condicionales y los tipos de da
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Funciones de Adobe Journey Optimizer
 
@@ -51,7 +51,7 @@ Acceda a una guía completa de las funciones para la manipulación de datos, la 
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Ejemplos de consultas sobre conjuntos de datos de Journey Optimizer y casos de uso relacionados
 
@@ -61,7 +61,7 @@ Acceda a ejemplos prácticos de consultas SQL para analizar y administrar datos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Ejemplos de consultas SQL para el análisis de datos
 

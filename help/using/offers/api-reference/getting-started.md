@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -27,24 +27,24 @@ ht-degree: 70%
 
 Esta guía para desarrolladores proporciona pasos para ayudarle a utilizar la API de [!DNL Offer Library]. A continuación, la guía proporciona llamadas de API de muestra para realizar operaciones clave mediante el motor de toma de decisiones.
 
-➡️ [Obtenga más información acerca de los componentes de Administración de decisiones en este vídeo](#video)
+➡️ [Obtenga más información sobre los componentes de Gestión de decisiones en este vídeo](#video)
 
 ## Requisitos previos {#prerequisites}
 
 Esta guía requiere una comprensión práctica de los siguientes componentes de Adobe Experience Platform:
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}: El marco estandarizado mediante el cual [!DNL Experience Platform] organiza los datos de experiencia del cliente.
-   * [Aspectos básicos de la composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es){target="_blank"}: Obtenga información acerca de los componentes básicos de los esquemas XDM.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}: el marco estandarizado mediante el cual [!DNL Experience Platform] organiza los datos de experiencia del cliente.
+   * [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es){target="_blank"}: obtenga información acerca de los componentes básicos de los esquemas XDM.
 * [Gestión de decisiones](../../../using/offers/get-started/starting-offer-decisioning.md): explica los conceptos y componentes que se utilizan en Decisioning en general y para la gestión de decisiones en particular. Ilustra las estrategias que se emplean para elegir la mejor opción de presentación durante la experiencia de un cliente.
-* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=es){target="_blank"}: PQL es un lenguaje potente para escribir expresiones a través de instancias XDM. PQL se utiliza para definir reglas de decisión.
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=es){target="_blank"}: PQL es un lenguaje potente para escribir expresiones en instancias de XDM. PQL se utiliza para definir reglas de decisión.
 
 ## Lectura de llamadas de API de muestra {#reading-sample-api-calls}
 
-Esta guía proporciona ejemplos de llamadas de API para mostrar cómo dar formato a las solicitudes. Estas incluyen rutas, encabezados obligatorios y cargas de solicitud con el formato correcto. También se proporciona el JSON de muestra devuelto en las respuestas de la API. Para obtener información sobre las convenciones utilizadas en la documentación de las llamadas de API de ejemplo, consulte la sección sobre [cómo leer las llamadas de API de ejemplo](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=es#how-do-i-format-an-api-request){target="_blank"} en la guía de solución de problemas de [!DNL Experience Platform].
+Esta guía proporciona ejemplos de llamadas de API para mostrar cómo dar formato a las solicitudes. Estas incluyen rutas, encabezados obligatorios y cargas de solicitud con el formato correcto. También se proporciona el JSON de muestra devuelto en las respuestas de la API. Para obtener información sobre las convenciones utilizadas en la documentación de las llamadas de API de muestra, consulte la sección sobre [cómo leer llamadas de API de ejemplo](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=es#how-do-i-format-an-api-request){target="_blank"} en la guía de solución de problemas de [!DNL Experience Platform].
 
 ## Recopilación de valores para los encabezados obligatorios {#gather-values-for-required-headers}
 
-Para poder realizar llamadas a las API de [!DNL Adobe Experience Platform], primero debe completar el [tutorial de autenticación](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=es){target="_blank"}. Al completar el tutorial de autenticación, se proporcionan los valores para cada uno de los encabezados obligatorios en todas las llamadas de API de [!DNL Experience Platform], como se muestra a continuación:
+Para realizar llamadas a las API de [!DNL Adobe Experience Platform], primero debe completar el [tutorial de autenticación](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=es){target="_blank"}. Al completar el tutorial de autenticación, se proporcionan los valores para cada uno de los encabezados obligatorios en todas las llamadas de API de [!DNL Experience Platform], como se muestra a continuación:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -72,5 +72,5 @@ Este documento cubría los conocimientos previos necesarios para realizar llamad
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342828?quality=12&captions=spa) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 

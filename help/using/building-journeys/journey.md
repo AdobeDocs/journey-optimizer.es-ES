@@ -10,7 +10,7 @@ keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
 ht-degree: 100%
 
@@ -51,4 +51,4 @@ Obtenga información sobre cómo crear recorridos [en los siguientes casos de us
 
 Descubra los componentes de un recorrido y comprenda los conceptos básicos para construir un recorrido en el lienzo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430353?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
