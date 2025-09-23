@@ -10,9 +10,10 @@ level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 hide: true
 hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
+source-git-commit: 70fce6fae4db58c72496945c50155dbd0b4986b4
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '374'
 ht-degree: 2%
 
 ---
@@ -35,8 +36,6 @@ La página **[!UICONTROL Métricas]** muestra métricas de éxito de experimento
 
 Al acceder a la pestaña **[!UICONTROL Métricas]**, todas las métricas de éxito disponibles de Journey Optimizer y Adobe Target se muestran en una vista consolidada para ayudarle a realizar un seguimiento del rendimiento entre iniciativas, comparar resultados e identificar rápidamente las áreas que requieren atención.
 
-La lista **[!UICONTROL Métricas]** incluye:
-
 Obtenga acceso a los filtros haciendo clic en ![](assets/do-not-localize/Smock_Filter_18_N.svg), que ofrece opciones específicas del contexto como filtrar por **[!UICONTROL Source]** o **[!UICONTROL Utilizado en experimentos activos]**.
 
 También puede buscar rápidamente cualquier métrica escribiendo su nombre en la barra de búsqueda.
@@ -53,9 +52,9 @@ El gráfico **[!UICONTROL Incremental en el tiempo]** proporciona un desglose vi
 
 Los siguientes valores de resumen están disponibles para consulta rápida:
 
-* **[!UICONTROL Total]**:
+* **[!UICONTROL Total]**: El valor acumulado de la métrica seleccionada durante el período de informe.
 
-* **[!UICONTROL Promedio]**:
+* **[!UICONTROL Promedio]**: El valor típico de la métrica calculada en el intervalo de tiempo seleccionado. Al equilibrar las fluctuaciones diarias o semanales, ofrece una imagen más clara del rendimiento normal y se puede utilizar como línea de base para la comparación.
 
 * **[!UICONTROL Tasa de conversión]**: porcentaje de perfiles que completaron la acción deseada (por ejemplo, compra, registro) después de ver el tratamiento.
 
@@ -64,3 +63,11 @@ Cada valor incluye un cambio porcentual con respecto al período anterior, lo qu
 ### Efecto del experimento
 
 Esta sección muestra todos los experimentos activos dentro del lapso de tiempo seleccionado (últimos 90 días, últimos 30 días o últimos 7 días) y destaca su contribución a la métrica.
+
+Las métricas disponibles son las siguientes:
+
+* **[!UICONTROL Alza]**: medición de la mejora porcentual en la tasa de conversión de un tratamiento determinado respecto al valor de referencia.
+
+* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](../content-management/experiment-calculations.md#understand-confidence)
+
+* **[!UICONTROL Contribución]**: La proporción del cambio general en la métrica que puede atribuirse a un experimento o tratamiento específico, lo que permite identificar las iniciativas que ejercen el mayor impacto relativo.
