@@ -10,7 +10,7 @@ exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -35,12 +35,12 @@ La diferencia entre los experimentos y la segmentación se puede resaltar de la 
 
 ➡️ [Obtenga más información acerca de la optimización de una campaña en este vídeo](#video)
 
-## Aproveche la segmentación {#targeting}
+## Uso de la segmentación {#targeting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_targeting_fallback"
 >title="¿Qué es el contenido de reserva?"
->abstract="El contenido de reserva permite que su audiencia reciba un contenido predeterminado cuando no se cumple ninguna regla de segmentación.</br>Si no selecciona esta opción, las audiencias que no cumplan los requisitos para una regla de segmentación definida arriba no recibirán contenido."
+>abstract="El contenido de reserva permite que su público reciba un contenido predeterminado cuando no se cumple ninguna regla de segmentación.</br>Si no selecciona esta opción, los públicos que no cumplan los requisitos para una regla de segmentación definida arriba no recibirán contenido."
 
 La segmentación ofrece contenido personalizado a segmentos de audiencia específicos en función de atributos de perfil de usuario o atributos contextuales.
 
@@ -98,7 +98,7 @@ Una vez que el recorrido/campaña está activo, se envía contenido personalizad
 
 * If default content is not enabled, passthrough behavior ensures lower-priority campaigns are evaluated.-->
 
-## Usar experimentación {#experimentation}
+## Uso de la experimentación {#experimentation}
 
 La experimentación le permite probar varias versiones de contenido para determinar cuál tiene el mejor rendimiento en función de las métricas de éxito predefinidas.
 
@@ -186,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Aprenda a aprovechar la optimización de mensajes en campañas activadas por acciones o API. Descubra cómo dirigirse a subpúblicos, crear variaciones de mensajes por ubicación, habilitar contenido de reserva y ejecutar varios experimentos dentro de una sola campaña. Este tutorial también explica cómo administrar campañas multicanal y, al mismo tiempo, mantener la coherencia del mensaje.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470371?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

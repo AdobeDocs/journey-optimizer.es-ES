@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campaña"
->abstract="Seleccione el tipo de campaña. Los canales disponibles varían según el tipo seleccionado. <br>**Campañas programadas** (campañas de acción): ideal para comunicaciones por lotes simples y puntuales que se pueden programar para que se ejecuten a una hora específica.<br>**Campañas activadas por API**: se activan mediante una llamada de API, lo que permite la mensajería automatizada basada en eventos directamente desde sistemas externos.<br>**Campañas orquestadas**: proporcione un lienzo visual de arrastrar y soltar para diseñar y automatizar flujos de trabajo de marketing complejos y de varios pasos, desde la segmentación de audiencia hasta la entrega personalizada de mensajes en todos los canales."
+>abstract="Seleccione el tipo de campaña. Los canales disponibles varían según el tipo seleccionado. <br>**Campañas programadas** (campañas de acción): ideal para comunicaciones por lotes simples y puntuales que se pueden programar para que se ejecuten a una hora específica.<br>**Campañas activadas por API**: se activan mediante una llamada de API, lo que permite la mensajería automatizada basada en eventos directamente desde sistemas externos.<br>**Campañas orquestadas**: proporcione un lienzo visual de arrastrar y soltar para diseñar y automatizar flujos de trabajo de marketing complejos y de varios pasos, desde la segmentación de públicos hasta el envío personalizado de mensajes en todos los canales."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
@@ -66,7 +66,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
 >title="Campañas"
->abstract="Envíe entregas salientes únicas o recurrentes, o acciones entrantes en curso."
+>abstract="Haga envíos salientes únicos o recurrentes, o acciones entrantes en curso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
@@ -91,17 +91,17 @@ Puede crear diferentes tipos de campañas en Journey Optimizer. Los canales admi
 
 * **Campañas de acción**
 
-  Las campañas de acción (o campañas programadas) permiten comunicaciones por lotes ad hoc sencillas para casos de uso de marketing como ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de directivas. Obtenga más información acerca de las capacidades de las campañas de acción, los casos de uso y los canales admitidos [en esta página](create-campaign.md).
+  Las campañas de acción (o campañas programadas) permiten comunicaciones por lotes ad-hoc sencillas para casos de uso de marketing, como ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de políticas. Obtenga más información acerca de las capacidades de las campañas de acción, los casos de uso y los canales admitidos [en esta página](create-campaign.md).
 
 * **Campañas activadas mediante API**
 
-  Las campañas activadas por API permiten que las comunicaciones de marketing lleguen a una audiencia en el momento adecuado o que los mensajes transaccionales/operacionales lleguen a una persona, como un restablecimiento de contraseña, donde la necesidad puede implicar personalización no solo mediante el uso de atributos de perfil, sino también mediante los datos de contexto en tiempo real en la déclencheur, que es una carga útil de API de REST. Obtenga más información acerca de las funcionalidades de las campañas activadas por API, los casos de uso y los canales compatibles [en esta página](api-triggered-campaigns.md).
+  Las campañas activadas por API permiten que las comunicaciones de marketing lleguen a un público en el momento adecuado o que los mensajes transaccionales/operativos lleguen a una persona, como un restablecimiento de contraseña. Este acto puede implicar una personalización no solo mediante el uso del atributo de perfil, sino también mediante los datos de contexto en tiempo real en el activador, que es una carga útil de API de REST. Obtenga más información acerca de las funcionalidades de las campañas activadas por API, los casos de uso y los canales compatibles [en esta página](api-triggered-campaigns.md).
 
 * **Campañas orquestadas**
 
   La orquestación de campañas en Adobe Journey Optimizer impulsa campañas de marketing sofisticadas iniciadas por la marca en todos los canales, lo que le ayuda a fomentar la participación, los ingresos y la lealtad de los clientes a escala.
 
-  Aunque el marketing de múltiples canales es esencial, las campañas orquestadas lo hacen fluido. Con una interfaz visual de arrastrar y soltar, puede diseñar y automatizar flujos de trabajo de marketing complejos, desde la segmentación hasta el envío de mensajes, en varios canales. Todo sucede en un entorno intuitivo, creado para la velocidad, el control y la eficacia. Obtenga más información acerca de las funcionalidades de las campañas orquestadas, los casos de uso y los canales compatibles [en esta página](../orchestrated/gs-orchestrated-campaigns.md).
+  Aunque el marketing de múltiples canales es esencial, las campañas orquestadas lo hacen fluido. Con una interfaz visual de arrastrar y soltar, puede diseñar y automatizar flujos de trabajo de marketing complejos, desde la segmentación hasta el envío de mensajes, en varios canales. Todo sucede en un entorno intuitivo, creado para ofrecer velocidad, control y eficacia. Obtenga más información acerca de las funcionalidades de las campañas orquestadas, los casos de uso y los canales compatibles [en esta página](../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Requisitos previos {#prerequisites}
 

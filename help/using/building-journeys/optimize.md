@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
 source-wordcount: '1298'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -161,12 +161,12 @@ Compare una espera de 24 horas con una espera de 72 horas antes de un seguimient
 
 +++
 
-## Aproveche la segmentación {#targeting}
+## Uso de la segmentación {#targeting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="¿Qué es la ruta de reserva?"
->abstract="Las rutas de reserva permiten que la audiencia introduzca una ruta alternativa cuando no se cumplen las reglas de segmentación. </br>Si no selecciona esta opción, las audiencias que no cumplan los requisitos para una regla de segmentación no entrarán en la ruta de reserva y saldrán del recorrido."
+>abstract="Las rutas de reserva permiten que el público introduzca una ruta alternativa cuando no se cumplen las reglas de segmentación. </br>Si no selecciona esta opción, los públicos que no cumplan los requisitos para una regla de segmentación no entrarán en la ruta de reserva y saldrán del recorrido."
 
 Las reglas de segmentación le permiten determinar reglas o cualificaciones específicas que deben cumplirse para que un cliente pueda entrar en una de las rutas de recorrido, según segmentos de audiencia específicos <!-- depending on profile attributes or contextual attributes-->.
 

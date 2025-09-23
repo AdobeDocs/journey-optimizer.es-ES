@@ -16,12 +16,12 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="Compruebe cómo se representa el contenido"
+>title="Compruebe cómo se renderiza el contenido"
 >abstract="Una vez definido el contenido, puede utilizar perfiles de prueba para previsualizarlo y comprobar si la representación es correcta según el canal que utilice."
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_simulate"
->title="Compruebe cómo se representa el contenido"
+>title="Compruebe cómo se renderiza el contenido"
 >abstract="Una vez definido el contenido, puede previsualizarlo y comprobar si la renderización es correcta según el canal que utilice."
 
 Una vez definido el contenido, puede obtener una vista previa del mismo antes de enviar el mensaje. Es un paso crucial para garantizar que sea preciso, pero también que no haya errores, tanto en la configuración del contenido como de la personalización.
@@ -68,4 +68,4 @@ Journey Optimizer proporciona dos experiencias para probar el contenido:
 
 Aprenda a utilizar perfiles de prueba para probar el renderizado de correos electrónicos en varias bandejas de entrada, previsualizar los correos electrónicos personalizados con perfiles de prueba y enviar pruebas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430335?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
