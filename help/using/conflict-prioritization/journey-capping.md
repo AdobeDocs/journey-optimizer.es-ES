@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear reglas de límite para los r
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
+source-git-commit: 450a6accf11d72d56e6b93cec9ec89dc8cf3c8f3
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 19%
+source-wordcount: '944'
+ht-degree: 18%
 
 ---
 
@@ -80,7 +80,9 @@ Para crear una regla de límite de recorrido, siga estos pasos:
 
    1. En el campo **[!UICONTROL Límite]**, establezca el número máximo de recorridos en los que se puede inscribir un perfil simultáneamente.
 
-   1. Utilice el campo **[!UICONTROL Establecimiento de prioridades para mirar hacia delante]** para arbitrar las entradas de recorridos en función de las puntuaciones de prioridad durante un período elegido (por ejemplo, 1 día, 7 días, 30 días). Esto ayuda a priorizar la entrada en recorridos de mayor valor si un perfil es apto para varios recorridos.
+   1. Utilice el campo **[!UICONTROL Establecimiento de prioridades para mirar hacia delante]** para arbitrar las entradas de recorridos en función de las puntuaciones de prioridad durante un período elegido (por ejemplo, 1 día, 7 días, 30 días).
+
+      Esta opción analiza los próximos recorridos de audiencia de lectura programados para el resto de la semana para determinar si el perfil debe suprimirse de la entrada en la recorrido debido a que se aproxima un recorrido de mayor prioridad. Ayuda a priorizar la entrada en recorridos de mayor valor si un perfil cumple los requisitos para varios recorridos.
 
    En este ejemplo, queremos restringir la entrada de perfiles en la recorrido si ya están inscritos en otro recorrido que contenga el mismo conjunto de reglas. Si otro recorrido en los próximos 7 días tiene una puntuación de prioridad más alta, el perfil no entrará en este recorrido.
 
@@ -113,8 +115,8 @@ Una vez que un recorrido está activo, puede registrar en el informe de recorrid
 
 ![](assets/journey-report.png)
 
-Además, puede usar [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para generar consultas a fin de identificar qué regla impidió que un perfil entrara en un recorrido determinado. Hay un ejemplo de consulta disponible en [esta sección](../reports/query-examples.md#common-queries).
+Además, puede usar [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para generar consultas a fin de identificar qué regla impidió que un perfil entrara en un recorrido determinado. Hay un ejemplo de consulta disponible en [esta sección](../reports/query-examples.md#common-queries).
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447617?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
