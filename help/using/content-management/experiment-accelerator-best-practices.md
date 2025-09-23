@@ -87,11 +87,11 @@ Ejemplo: _Creemos que cambiar X aumentará Y debido a Z._
 Un buen experimento no solo produce una victoria, sino que produce un aprendizaje claro y procesable.
 Esto es lo que hay que buscar:
 
-&amp;check; **Confianza estadística**: Es poco probable que la diferencia entre las variantes se deba a la casualidad.
-&amp;check; **Alineación con objetivos**: La métrica principal refleja un progreso significativo hacia un objetivo comercial.
+&check; **Confianza estadística**: Es poco probable que la diferencia entre las variantes se deba a la casualidad.
+&check; **Alineación con objetivos**: La métrica principal refleja un progreso significativo hacia un objetivo comercial.
 &amp; check; **Impacto secundario**: No hay efectos secundarios negativos significativos en las métricas relacionadas.
-&amp;check; **Escalabilidad**: El resultado puede informar decisiones futuras o generalizarse a otras áreas.
-&amp;check; **Claridad**: La causa del resultado está razonablemente aislada y comprendida.
+&check; **Escalabilidad**: El resultado puede informar decisiones futuras o generalizarse a otras áreas.
+&check; **Claridad**: La causa del resultado está razonablemente aislada y comprendida.
 
 La experimentación no se trata solo de encontrar la &quot;mejor&quot; versión, se trata de generar conocimiento a través de pruebas e iteraciones. Cuando se hace bien, los experimentos revelan perspectivas que impulsan decisiones más inteligentes, mejores experiencias de usuario y resultados mejorados.
 
