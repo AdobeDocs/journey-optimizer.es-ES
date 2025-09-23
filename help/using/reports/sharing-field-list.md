@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 17%
+source-wordcount: '598'
+ht-degree: 10%
 
 ---
 
@@ -70,6 +70,43 @@ Este mixin contiene todos los campos correspondientes a un trabajo de exportaci�
 | eventType | Cadena | El tipo de evento que indica si es un evento de error del evento de información: Información, Error |
 | eventCode | Cadena | El código de error que indica el motivo del eventType correspondiente |
 
+Obtenga más información acerca de eventTypes [en esta sección](#discarded-events).
+
 ## stepEvents {#stepevents-field}
 
 Esta categoría contiene los campos de eventos de paso originales. Consulte esta [sección](../reports/sharing-legacy-fields.md).
+
+
+## Solucionar problemas de tipos de eventos descartados en recorrido_step_events  {#discarded-events}
+
+Al consultar recorrido_step_events para registros con `eventCode = 'discard'`, puede encontrar varios eventTypes.
+
+A continuación encontrará definiciones, causas comunes y pasos de solución de problemas para los tipos de eventos de descarte más frecuentes:
+
+* EXTERNAL_KEY_COMPUTATION_ERROR: El sistema no pudo calcular un identificador único (clave externa) para el cliente a partir de los datos de evento.
+Causas comunes: Faltan identificadores de cliente o están mal formados (por ejemplo, correo electrónico, ID de cliente) en la carga útil de evento.
+Solución de problemas: compruebe la configuración de eventos para ver los identificadores necesarios y asegúrese de que los datos de evento estén completos y tengan el formato correcto.
+* NO_INTERESTED_RECORRIDO_FOR_SEGMENTMEMBERSHIP_EVENT: Se ha recibido un evento de calificación de segmentos, pero no hay recorridos configurados para responder a este segmento.
+Causas comunes: Ningún recorrido utiliza el segmento como déclencheur, los recorridos están en estado de borrador/detenido o los ID de segmento no coinciden.
+Solución de problemas: Asegúrese de que haya al menos un recorrido activo y configurado para el segmento y compruebe los ID de este.
+* RECORRIDO_INSTANCE_ID_NOT_CREATE: Error del sistema al crear una instancia de recorrido para el cliente.
+Causas comunes: Eventos duplicados, volumen de evento alto, restricciones de recursos del sistema.
+Solución de problemas: implemente la anulación de duplicación, evite los picos de tráfico, optimice el diseño del recorrido y póngase en contacto con el servicio de asistencia si persiste.
+* EVENT_WITH_NO_RECORRIDO: se recibió un evento, pero no hay ningún recorrido activo configurado para responder a él.
+Causas comunes: coincidencia de nombre/ID de evento, recorrido no publicado, zona protegida/organización incorrecta, discrepancia de modo de prueba/perfil.
+Solución de problemas: compruebe la configuración de eventos y recorridos, compruebe el estado del recorrido y utilice las herramientas de depuración.
+
+Para descartes que se produzcan en recorridos pausados:
+
+* PAUSED_RECORRIDO_VERSION: descartes que se produjeron en el punto de entrada del recorrido
+
+* RECORRIDO_IN_PAUSED_STATE: Descarta lo que ha sucedido cuando los perfiles están en un recorrido
+
+Obtenga más información acerca de estos eventos y cómo solucionarlos en la sección [Pausar un Recorrido](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
+
+## Recursos adicionales
+
+* [Ejemplos de consultas de conjuntos de datos: evento de paso de Recorrido](../data/datasets-query-examples.md#journey-step-event).
+* [Ejemplos de consultas: consultas basadas en eventos](query-examples.md#event-based-queries).
+* [Diccionario de esquemas integrado](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+

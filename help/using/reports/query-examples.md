@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1554'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,8 @@ AND _experience.journeyOrchestration.stepEvents.nodeType='start'
 AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
+Aprenda a [solucionar problemas de tipos de eventos descartados en recorrido_step_events](../reports/sharing-field-list.md#discarded-events).
 
 +++
 
@@ -473,6 +475,9 @@ ORDER BY DATE(timestamp) desc
 ```
 
 La consulta devuelve, para el periodo definido, el número de perfiles que ingresaron al recorrido cada día. Si un perfil se introduce mediante varias identidades, se cuenta dos veces. Si la reentrada está activada, el recuento de perfiles puede duplicarse en días diferentes si se reingresa al recorrido en un día diferente.
+
+Aprenda a [solucionar problemas de tipos de eventos descartados en recorrido_step_events](../reports/sharing-field-list.md#discarded-events).
+
 
 +++
 
@@ -969,6 +974,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
+Aprenda a [solucionar problemas de tipos de eventos descartados en recorrido_step_events](../reports/sharing-field-list.md#discarded-events).
+
 +++
 
 +++Compruebe si un evento externo de un perfil se descartó por algún otro motivo
@@ -997,6 +1004,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
+Aprenda a [solucionar problemas de tipos de eventos descartados en recorrido_step_events](../reports/sharing-field-list.md#discarded-events).
+
 +++
 
 +++Compruebe el recuento de todos los eventos descartados por stateMachine por errorCode
@@ -1016,6 +1025,8 @@ SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, CO
 where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
+
+Aprenda a [solucionar problemas de tipos de eventos descartados en recorrido_step_events](../reports/sharing-field-list.md#discarded-events).
 
 +++
 
@@ -1043,6 +1054,8 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
+Aprenda a [solucionar problemas de tipos de eventos descartados en recorrido_step_events](../reports/sharing-field-list.md#discarded-events).
+
 +++
 
 ## Consultas comunes basadas en recorridos {#journey-based-queries}
@@ -1068,6 +1081,7 @@ ORDER BY DATE(timestamp) desc
 ```
 
 La consulta devuelve, para el periodo definido, el recuento de recorridos únicos que se activaron cada día. Un solo recorrido que se active en varios días se contará una vez al día.
+
 
 +++
 
