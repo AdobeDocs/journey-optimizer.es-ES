@@ -5,9 +5,9 @@ title: Preguntas más frecuentes sobre campañas organizadas
 description: Preguntas frecuentes sobre las campañas orquestadas de Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: f82e725b58dbb2fdea70455a203d83b13b0e4a2b
+source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1430'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 A continuación, encontrará las preguntas más frecuentes sobre campañas organizadas de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ ¿Qué es la orquestación de Campaign?
 
@@ -253,11 +253,11 @@ Las campañas orquestadas admiten Filtros predefinidos: puede definir y guardar 
 +++
 
 
+## Recursos adicionales
 
+Para obtener más información y actualizaciones, explore los siguientes recursos:
 
->[!MORELIKETHIS]
->
->* [Limitaciones y protecciones de campañas orquestadas](../orchestrated/guardrails.md)
->* [Introducción a esquemas y conjuntos de datos en campañas organizadas](../orchestrated/gs-schemas.md)
->* [Cree su primera campaña organizada](../orchestrated/gs-campaign-creation.md)
->* [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Limitaciones y protecciones de campañas organizadas](../orchestrated/guardrails.md)
+* [Introducción a esquemas y conjuntos de datos en campañas organizadas](../orchestrated/gs-schemas.md)
+* [Cree su primera campaña orquestada](../orchestrated/gs-campaign-creation.md)
+* [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

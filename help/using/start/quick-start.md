@@ -8,9 +8,9 @@ role: Admin, Data Engineer, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
+source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '633'
 ht-degree: 100%
 
 ---
@@ -94,10 +94,11 @@ Haga clic en su función a continuación para acceder a instrucciones específic
 
 Para obtener más información acerca de las funcionalidades y personalidades clave de Journey Optimizer, vea el vídeo introductorio. El vídeo muestra la interfaz de usuario y resalta las funciones clave en función de los flujos de trabajo específicos de funciones.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430317?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Recursos adicionales
 
 Para obtener información y actualizaciones más detalladas, explore los siguientes recursos:
-* [Notas de la versión](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/whats-new/release-notes)
+
+* [Notas de la versión](../rn/release-notes.md)
 * [Tutoriales en vídeo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=es)

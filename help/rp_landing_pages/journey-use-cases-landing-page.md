@@ -5,9 +5,9 @@ title: Casos de uso
 description: Casos de uso
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
-source-git-commit: 8218c4666588bb58e0529a73eebcddef3209cbd0
+source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 87%
 
 ---
@@ -20,7 +20,7 @@ Los casos de uso de Adobe Journey Optimizer le permiten crear experiencias de cl
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Descubra los casos de uso
 
@@ -30,7 +30,7 @@ Explore ejemplos prácticos y estrategias para maximizar las funciones de Adobe 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Búsqueda de eventos de experiencia
 
@@ -40,7 +40,7 @@ Utilice eventos de experiencia para administrar exclusiones, personalizar el con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Envío de mensajes multicanal
 
@@ -50,7 +50,7 @@ Cree recorridos que aprovechen la segmentación del público y activadores de ev
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Envío de un mensaje con la versión 7 y 8 de Campaign
 
@@ -60,7 +60,7 @@ Integre Adobe Campaign con Journey Optimizer para enviar mensajes de correo elec
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Envío de un mensaje a los suscriptores
 
@@ -70,7 +70,7 @@ Configure recorridos para enviar mensajes a los suscriptores en función de las 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Paso de colecciones de forma dinámica mediante acciones personalizadas
 
@@ -86,4 +86,4 @@ Descubra cómo configurar acciones personalizadas para pasar recopilaciones de d
 
 - **[Limitar el rendimiento con fuentes de datos externas y acciones personalizadas](../using/building-journeys/limit-throughput.md)**: optimice el rendimiento del recorrido y administre los límites de los sistemas externos mediante fuentes de datos y acciones personalizadas.
 - **[Usar acciones personalizadas para escribir eventos de recorrido en Experience Platform](../using/building-journeys/custom-action-aep.md)**: configure llamadas autenticadas y puntos finales de la API HTTP para escribir eventos de recorrido en Adobe Experience Platform.
-- **[Quitar perfiles de un recorrido activo](../using/building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)**: por motivos empresariales u operativos, es posible que tenga que quitar algunos perfiles de un recorrido activo y excluir los perfiles que coincidan con un criterio específico que esté actualmente en el recorrido. Esto se puede hacer pausando el recorrido.
+- **[Quitar perfiles de un recorrido activo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-pause#journey-exit-criteria)**: por motivos empresariales u operativos, es posible que tenga que quitar algunos perfiles de un recorrido activo y excluir los perfiles que coincidan con un criterio específico que se encuentre actualmente en el recorrido. Esto se puede hacer pausando el recorrido.
