@@ -79,7 +79,7 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="Añadir públicos o reglas de decisión"
->abstract="De forma predeterminada, todos los perfiles podrán recibir el elemento de decisión, pero puede utilizar públicos o reglas para reservar el elemento únicamente a perfiles específicos.
+>abstract="De forma predeterminada, todos los perfiles podrán recibir el elemento de decisión, pero puede utilizar públicos o reglas para reservar el elemento únicamente a perfiles específicos."
 
 <!--
 >"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
