@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2956'
 ht-degree: 99%
 
 ---
@@ -80,18 +80,19 @@ ht-degree: 99%
       + [Reacción](using/building-journeys/reaction-events.md)
       + [Calificación de público](using/building-journeys/audience-qualification-events.md)
       + [Optimizar](using/building-journeys/optimize.md)
-      + [Leer público](using/building-journeys/read-audience.md)
-      + [Esperar](using/building-journeys/wait-activity.md)
       + [Condiciones](using/building-journeys/conditions.md)
       + [Condición](using/building-journeys/condition-activity.md)
+      + [Leer público](using/building-journeys/read-audience.md)
+      + [Esperar](using/building-journeys/wait-activity.md)
       + [Decisión de contenido](using/building-journeys/content-decision.md)
+      + [Búsqueda de conjuntos de datos](using/building-journeys/dataset-lookup.md)
       + [Acción](using/building-journeys/journey-action.md)
       + [Acciones de canal integradas](using/building-journeys/journeys-message.md)
+      + [Salto](using/building-journeys/jump.md)
+      + [Actualización de perfil](using/building-journeys/update-profiles.md)
       + [Acciones personalizadas](using/building-journeys/using-custom-actions.md)
       + [Acciones de Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Acciones de Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
-      + [Salto](using/building-journeys/jump.md)
-      + [Actualización de perfil](using/building-journeys/update-profiles.md)
    + Expresiones de compilación {#building-advanced-conditions-journeys}
       + [Expresiones de compilación](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [Trabajo con el editor de expresiones avanzado](using/building-journeys/expression/expressionadvanced.md)

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción a actividades de recorrido
-description: Introducción a actividades de recorrido
+title: Introducción a las actividades de recorrido
+description: Introducción a las actividades de recorrido
 feature: Journeys, Activities, Overview
 topic: Content Management
 role: User
@@ -10,14 +10,14 @@ level: Beginner, Intermediate
 keywords: recorridos, actividades, introducción, eventos, acción
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '718'
 ht-degree: 15%
 
 ---
 
-# Introducción a actividades de recorrido {#about-journey-activities}
+# Introducción a las actividades de recorrido {#about-journey-activities}
 
 Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canales cruzados de varios pasos.
 
@@ -47,6 +47,7 @@ En la paleta, en el lado izquierdo de la pantalla, están disponibles las siguie
 * [Leer audiencia](read-audience.md)
 * [Esperar](wait-activity.md)
 * [Decisión de contenido](content-decision.md)
+* [Búsqueda de conjuntos de datos](dataset-lookup.md)
 
 ![Paleta de actividades de orquestación en el diseñador de recorrido](assets/journey-orchestration-activities.png)
 

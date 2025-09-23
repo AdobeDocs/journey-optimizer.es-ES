@@ -11,10 +11,10 @@ level: Intermediate
 keywords: expresión, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 8%
+source-wordcount: '816'
+ht-degree: 5%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="Habilitar para búsqueda"
->abstract="Al habilitar un conjunto de datos para la búsqueda, puede aprovechar sus datos con las funciones de personalización y toma de decisiones de Journey Optimizer."
+>abstract="Al habilitar un conjunto de datos para la búsqueda, puede aprovechar sus datos dentro de las funciones de personalización, toma de decisiones y orquestación de recorrido de Journey Optimizer."
 
 >[!AVAILABILITY]
 >
 >Actualmente, esta función está disponible para todos los clientes como una versión de disponibilidad limitada.
 
-Journey Optimizer le permite aprovechar los datos de Adobe Experience Platform con funcionalidades de personalización y toma de decisiones. Para ello, los conjuntos de datos basados en registros necesarios para la personalización de la búsqueda deben habilitarse primero para el servicio de búsqueda como se describe a continuación.
+Journey Optimizer le permite aprovechar los datos de Adobe Experience Platform con funciones de personalización, toma de decisiones y orquestación de recorrido. Para ello, los conjuntos de datos basados en registros necesarios para la personalización de la búsqueda deben habilitarse primero para el servicio de búsqueda como se describe a continuación.
 
 ## Lectura obligatoria
 
@@ -150,12 +150,10 @@ Este indicador de proceso ayuda a comprender cuándo están disponibles nuevos l
 
 ![](assets/aep-data-monitoring.png)
 
-<!--Ivan Mironchuk
-Note - we have a bug here currently. Will need to update screenshot once the lookup service will accurately reflect the progress.-->
-
 ## Próximos pasos
 
 Una vez habilitado un conjunto de datos para la búsqueda mediante una llamada de API, puede utilizar los datos con las capacidades de personalización y toma de decisiones de [!DNL Journey Optimizer]. Para obtener más información, consulte estas secciones:
 
 * [Uso de datos de Adobe Experience Platform para la personalización](../personalization/aep-data-perso.md)
 * [Uso de datos de Adobe Experience Platform para las decisiones](../experience-decisioning/aep-data-exd.md)
+* [Usar datos de Adobe Experience Platform para la orquestación de recorrido](../building-journeys/dataset-lookup.md)
