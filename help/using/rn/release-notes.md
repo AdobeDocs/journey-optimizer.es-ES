@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c708f33079da6d3e739dcec86870623fad40a69b
+source-git-commit: 56fa96e7da6352fb8e0c658ced8950c011f65c9e
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1794'
 ht-degree: 44%
 
 ---
@@ -197,9 +197,7 @@ Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habil
 
 ### Próximamente {#sept-25-9-soon}
 
-Las siguientes funcionalidades y mejoras están segmentadas para los próximos días.
-
-**El contenido siguiente está sujeto a cambios sin previo aviso**. Los vínculos, las pantallas y la documentación actualizada se publican cuando estas funciones y mejoras se implementan en los entornos de producción.
+En los próximos días, está programado el lanzamiento de las siguientes funciones y mejoras. **La información está sujeta a cambios**. Los vínculos, las pantallas y la documentación actualizados se compartirán una vez que estas actualizaciones estén activas en la producción.
 
 <table>
 <thead>
@@ -276,7 +274,7 @@ Las siguientes funcionalidades y mejoras están segmentadas para los próximos d
 <p>Cree, diseñe y administre formularios personalizados adaptados a sus necesidades en función de un conjunto de datos específico. A continuación, puede utilizar estos formularios en páginas de aterrizaje para añadir los atributos de perfil que elija al conjunto de datos definido para cada formulario.</p>
 <p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>Para obtener más información, consulte la <a href="../landing-pages/lp-forms.md">documentación detallada</a>.</p>
+<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p-->
 </td>
 </tr>
 </tbody>
@@ -310,11 +308,15 @@ Las siguientes funcionalidades y mejoras están segmentadas para los próximos d
 * **Nuevas alertas de Recorrido**\
   Hay nuevas alertas preconfiguradas disponibles para los recorridos:
 
-   * [Tasa de descartes de perfiles superada](../reports/alerts.md#profile-discard-rate-exceeded): la proporción de descartes de perfiles respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral.
-   * [Tasa de errores de acción personalizada superada](../reports/alerts.md#custom-action-error-rate-exceeded): la proporción de errores de acción personalizada respecto a llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral.
-   * [Tasa de error de perfil superada](../reports/alerts.md#profile-error-rate-exceeded): la proporción de perfiles en error respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral.
+   * Tasa de descarte de perfil superada: proporción de descartes de perfil para perfiles introducidos durante los últimos 5 minutos del umbral excedido.
+   * Tasa de errores de acciones personalizadas superadas: la proporción de errores de acciones personalizadas respecto a llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral.
+   * Tasa de error de perfil superada: proporción de perfiles en error respecto a los perfiles introducidos durante los últimos 5 minutos superados como umbral.
+<!--
+  * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-  Puede modificar los valores de umbral y suscribirse a recorridos individuales o globales.
+Puede modificar los valores de umbral y suscribirse a recorridos individuales o globales.
 
 
 * **Compatibilidad con atributos personalizados con la URL para cancelar la suscripción con un clic**\
