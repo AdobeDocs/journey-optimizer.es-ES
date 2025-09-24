@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 4b0355c4e871e89c1b3eeea978959a2d97fa475d
+source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 15%
+source-wordcount: '750'
+ht-degree: 14%
 
 ---
 
@@ -47,6 +47,15 @@ El conjunto de datos debe estar habilitado para la búsqueda en Adobe Experience
 * Máximo de 20 campos seleccionados.
 * Máximo de 500 claves en la matriz de claves de búsqueda.
 * El tamaño de los datos enriquecidos está limitado a 10 KB.
+
+### Consideraciones de rendimiento adicionales
+
+Las siguientes recomendaciones son instrucciones para evitar retrasos en la entrega:
+
+| Consideración | Límite recomendado | Descripción |
+| ------- | ------- | ------- |
+| Atributos por búsqueda | Hasta 20 | Número de campos de datos recuperados por registro en una sola actividad de búsqueda. |
+| Actividades de búsqueda | Hasta 5 por recorrido | Cada recorrido puede contener hasta 5 actividades de búsqueda independientes. Cada búsqueda puede dirigirse a un conjunto de datos diferente. |
 
 ## Configurar la actividad de búsqueda de conjuntos de datos {#configure}
 

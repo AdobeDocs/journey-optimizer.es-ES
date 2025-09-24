@@ -11,10 +11,10 @@ level: Intermediate
 keywords: expresión, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 5%
+source-wordcount: '757'
+ht-degree: 6%
 
 ---
 
@@ -55,15 +55,6 @@ Antes de empezar, revise las siguientes restricciones y directrices:
 >[!NOTE]
 >
 >Si se necesitan volúmenes adicionales más allá de las protecciones enumeradas anteriormente, póngase en contacto con su representante de Adobe.
-
-### Consideraciones de rendimiento adicionales
-
-Las siguientes recomendaciones son instrucciones para evitar retrasos en la entrega:
-
-| Consideración | Límite recomendado | Descripción |
-| ------- | ------- | ------- |
-| Atributos por búsqueda | Hasta 20 | Número de campos de datos recuperados por registro en una sola actividad de búsqueda. |
-| Actividades de búsqueda | Hasta 5 por recorrido | Cada recorrido puede contener hasta 5 actividades de búsqueda independientes. Cada búsqueda puede dirigirse a un conjunto de datos diferente. |
 
 ## Habilitar un conjunto de datos para la búsqueda de datos {#enable}
 
