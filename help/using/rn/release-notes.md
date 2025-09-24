@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1969a6bcea8627ea48c304f632b21bc41278b1bd
+source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
 workflow-type: tm+mt
 source-wordcount: '1803'
 ht-degree: 44%
@@ -191,7 +191,7 @@ Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habil
 
   Actualmente, esta capacidad está disponible como Disponibilidad limitada para todos los usuarios.
 
-* **Alertas de monitorización de configuración de canal**: ahora puede suscribirse para recibir alertas del sistema, ya sea por correo electrónico o en el centro de notificaciones de Journey Optimizer, en caso de que se produzca un error de configuración de canal usando la delegación de subdominio personalizada. [Más información](../reports/alerts.md#alert-dns-record-missing)
+* **Alertas de monitorización de configuración de canal**: ahora puede suscribirse para recibir alertas del sistema, ya sea por correo electrónico o en el centro de notificaciones de Journey Optimizer, en caso de que se produzca un error de configuración de canal usando la delegación de subdominio personalizada. [Más información](../reports/alerts.md#alert-channel-config-failure)
 
 
 

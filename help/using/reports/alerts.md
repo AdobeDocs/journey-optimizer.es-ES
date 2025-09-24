@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 21adeb5128b22bf7b2e7e6c2cff9c31159741cee
+source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Para suscribirse o cancelar la suscripción a una alerta para todos los recorrid
 
 1. Use el mismo método para **[!UICONTROL cancelar la suscripción]**.
 
-También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
+También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
 
 <!--DOCAC-13465
 ### Unitary subscription {#unitary-subscription}
@@ -94,7 +94,7 @@ To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 1. Click **[!UICONTROL Save]** to confirm.
 -->
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 
 

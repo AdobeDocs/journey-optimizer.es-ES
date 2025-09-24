@@ -12,9 +12,9 @@ badge: label="Disponibilidad limitada" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 60a4fb6b88fe94119bcbd209a5f893e12142c0f0
+source-git-commit: 7cbc4c7964d3fe9b79cbbff3917216f624286dba
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1520'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Para capturar datos de perfil con sus páginas de aterrizaje de [!DNL Journey Op
 >id="ajo_lp_form_connection"
 >title="Seleccione el extremo que desea utilizar"
 >abstract="Defina el punto final de flujo continuo al que se envían los datos al enviar el formulario."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creación de una conexión de flujo continuo HTTP API"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creación de una conexión de flujo continuo HTTP API"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ Al crear un ajuste preestablecido:
 
    >[!NOTE]
    >
-   >Obtenga más información sobre cómo crear una conexión de origen de flujo continuo en la [documentación de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Obtenga más información sobre cómo crear una conexión de origen de flujo continuo en la [documentación de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Seleccione un **[!UICONTROL conjunto de datos]** para vincularlo con el formulario. Aquí es donde se almacenan y reflejan las respuestas del formulario. Puede escribir para buscar un conjunto de datos específico o seleccionarlo en la lista.
 
@@ -85,13 +85,15 @@ Para acceder a la lista del formulario, seleccione **[!UICONTROL Administración
 
 Se muestran todos los formularios existentes. Puede filtrar los formularios en función de su estado, fecha de creación o modificación.
 
+![](assets/lp_form-list.png)
+
 ## Creación y diseño de un formulario {#create-form}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_preset"
 >title="Seleccionar un ajuste preestablecido"
 >abstract="Elija un ajuste preestablecido que contenga la conexión que se va a utilizar y un conjunto de datos predefinido para el formulario."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Crear un ajuste preestablecido de formulario"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Crear un ajuste preestablecido de formulario"
 
 Para crear un formulario, siga los pasos a continuación.
 
@@ -103,29 +105,71 @@ Para crear un formulario, siga los pasos a continuación.
 
 1. Seleccione un **[!UICONTROL ajuste preestablecido]** que contenga la conexión que se utilizará y un conjunto de datos predefinido para el formulario. [Aprenda a crear un ajuste preestablecido de formulario](#create-form-preset)
 
-1. Haga clic en **[!UICONTROL Crear]**.
+1. Haga clic en **[!UICONTROL Crear]**. Se abre el diseñador de formularios, que le permite agregar estructuras y contenido [componentes](../email/content-components.md#add-content-components) para generar su contenido. Puede usar los componentes [Texto](../email/content-components.md#text) y **[!UICONTROL Campo]**.
 
-   <!--![](assets/lp_create-form-filled.png){width=50%}-->
+1. Para agregar campos específicos al formulario, arrastre y suelte una estructura en el lienzo y arrastre un componente **[!UICONTROL Field]** dentro.<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
 
-1. Se abre el diseñador de formularios. Agregue [componentes](../email/content-components.md#add-content-components) para generar el contenido del formulario. Puede usar los componentes [Texto](../email/content-components.md#text) y los componentes **[!UICONTROL Campo]**.
+   ![](assets/lp_create-form-field.png)
 
-1. Con el componente **[!UICONTROL Field]**, puede seleccionar atributos basados en el esquema del conjunto de datos seleccionado.
+   A continuación, seleccione una de las siguientes opciones:
+
+   >[!BEGINTABS]
+
+   >[!TAB Seleccionar atributo de campo]
+
+   Utilice esta opción para seleccionar un atributo basado en el esquema del conjunto de datos vinculado al formulario.
 
    >[!NOTE]
    >
-   >Para asignar los datos recopilados con un perfil, seleccione un campo de identidad de perfil. Para identificar los campos de identidad de la lista de atributos, busque los campos marcados como **[!UICONTROL Requerido]**.<!--Explain-->
+   >El conjunto de datos se define en el ajuste preestablecido seleccionado para el formulario. [Más información](#create-form-preset)
+
+   ![](assets/lp_select-field-attribute.png){width=100%}
 
    Por ejemplo, puede establecer el correo electrónico y el ID de persona. Cuando los usuarios rellenan estos campos, la información introducida se guarda en el conjunto de datos seleccionado.
 
-   ![](assets/lp_create-form-fields.png)
+   ![](assets/lp_create-form-field-attributes.png){width=55%}
 
-1. Puede especificar cada **[!UICONTROL detalles del campo]**, como instrucciones, un valor predeterminado, un mensaje de validación, longitud máxima, etc.
+   Para asignar los datos recopilados con un perfil, seleccione un campo de identidad de perfil. Los campos de identidad están marcados como **[!UICONTROL Obligatorio]** en la lista de atributos; puede filtrarlos.
 
-   ![](assets/lp_create-form-field-details.png)
+   ![](assets/lp_create-form-required-attributes.png){width=65%}
+
+   >[!TAB Agregar campo personalizado]
+
+   Con esta opción, puede definir un campo libre sin asignarlo a un campo del conjunto de datos vinculado.
+
+   ![](assets/lp_create-form-custom-field.png){width=85%}
+
+   >[!ENDTABS]
+
+1. En la sección **[!UICONTROL Detalles del campo]** de la pestaña **[!UICONTROL Contenido]** de la derecha, puede especificar los siguientes elementos según sea necesario:
+
+   * Ajuste la **[!UICONTROL Etiqueta]** para que quede claro para los destinatarios del formulario.
+   * Cambie **[!UICONTROL Field type]** según sus necesidades. Puede ser una casilla de verificación, moneda, fecha, control deslizante, URL, etc.
+
+     >[!NOTE]
+     >
+     >Los demás detalles de campo pueden variar según el tipo de campo seleccionado.
+
+   * Agregar un **[!UICONTROL marcador de posición]**.<!--To explain-->
+   * Especificar **[!UICONTROL instrucciones]**.<!--How will they be displayed in the form? To explain-->
+   * Escriba un **[!UICONTROL valor predeterminado]** que se mostrará antes de que los usuarios del formulario rellenen el campo.
+   * Puede definir un **[!UICONTROL mensaje de validación]** personalizado.
+   * Establezca una **[!UICONTROL longitud máxima]**. Se muestra un mensaje de error si los destinatarios del formulario superan el límite al rellenar el campo.
+
+   ![](assets/lp_create-form-field-details.png){width=85%}
+
+1. En la sección **[!UICONTROL Comportamientos de campo]**, puede definir lo siguiente:
+
+   * Seleccione **[!UICONTROL Obligatorio]** para que este campo sea obligatorio. Si los usuarios no rellenan el campo, no pueden enviar el formulario.
+   * Seleccione **[!UICONTROL Sensible]** para que el campo distinga mayúsculas de minúsculas. <!--To confirm - do you mean retain capitalization when added to the dataset?-->
+   * Seleccione **[!UICONTROL Rellenado previamente habilitado]** para rellenar el campo de la información de perfil si está disponible.<!--Even for a custom field, or a field not mapped to a profile? What happens if no data is available?-->
+   * Seleccione **[!UICONTROL Habilitar máscara de entrada]** para reemplazar la entrada de los usuarios por caracteres genéricos. Puede usar *9* para indicar cualquier número, *a* para indicar cualquier letra o * para indicar cualquier número o letra.<!--Not sure how you define that in the form-->
+
+   ![](assets/lp_create-form-field-behaviors.png){width=75%}
 
 1. Puede ajustar el diseño, el estilo y las dimensiones del formulario según sea necesario mediante el panel **[!UICONTROL Estilos]**. [Más información sobre el estilo](../email/get-started-email-style.md)
 
-1. Haga clic en **[!UICONTROL Guardar y cerrar]**.
+1. Una vez configurados todos los campos, haz clic en **[!UICONTROL Guardar y cerrar]**.
 
 1. Configure la página de agradecimiento. [Descubra cómo](#thank-you-page)
 
