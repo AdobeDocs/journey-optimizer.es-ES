@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
+source-git-commit: bc779f732b865d5c178141f0b660d5c75f95a237
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 10%
@@ -21,17 +21,33 @@ ht-degree: 10%
 
 Use la ficha **[!UICONTROL Programación]** para definir la programación de la campaña.
 
-## Establecer fechas de inicio y finalización
+## Establecer una fecha de inicio de campaña
 
-De forma predeterminada, las campañas de acción se inician una vez que se activan manualmente y finalizan en cuanto se envía el mensaje una vez. Si no desea ejecutar la campaña justo después de su activación, puede especificar una fecha y una hora a las que se debe enviar el mensaje mediante la opción **[!UICONTROL Inicio de campaña]**.
+De forma predeterminada, las campañas de acción se inician una vez que se activan manualmente y finalizan en cuanto se envía el mensaje una vez.
 
-La opción **[!UICONTROL Fin de campaña]** le permite especificar cuándo debe dejar de ejecutarse una campaña. Fuera de las fechas especificadas, la campaña no se ejecuta.
+Si no desea ejecutar la campaña justo después de su activación, puede especificar una fecha y una hora a las que se debe enviar el mensaje en la sección **[!UICONTROL Inicio de campaña]**.
 
-![](assets/create-campaign-schedule.png)
+![](assets/campaign-start.png)
 
 >[!NOTE]
 >
 >Al programar campañas en [!DNL Adobe Journey Optimizer], asegúrese de que la fecha y la hora de inicio se ajusten al primer envío deseado. En el caso de las campañas recurrentes, si ya ha pasado la hora programada inicial, las campañas se transferirán a la siguiente franja horaria disponible según sus reglas de periodicidad.
+
+## Establecer una frecuencia de ejecución
+
+Para las acciones **Correo electrónico**, **SMS** y **Notificación push**, puede definir una frecuencia a la que se debe enviar el mensaje de la campaña. Para ello, usa las opciones **[!UICONTROL déclencheur de acción]** en la pantalla de creación de campañas para especificar si la campaña se debe ejecutar diaria, semanal o mensualmente.
+
+![](assets/campaign-frequency.png)
+
+>[!NOTE]
+>
+>Para las acciones **email**, puede crear campañas específicas de activación del plan de calentamiento de IP. La programación de campaña se basa en el plan de calentamiento de IP con el que está asociado, lo que significa que la programación ya no está definida en la propia campaña. [Aprenda a crear campañas de calentamiento de IP](../configuration/ip-warmup-campaign.md).
+
+## Establecer una fecha de finalización
+
+La sección **[!UICONTROL Fin de campaña]** le permite especificar cuándo debe dejar de ejecutarse una campaña. Fuera de las fechas especificadas, la campaña no se ejecuta.
+
+![](assets/campaign-end.png)
 
 ## Establecer control de velocidad
 
@@ -49,16 +65,6 @@ Para establecer el control de tarifa, habilite la opción **[!UICONTROL Entrega 
 >[!IMPORTANT]
 >
 >Al establecer una tasa de entrega, el periodo de tiempo máximo para el que se puede ejecutar la audiencia de la campaña es de 12 horas. Si la tasa de entrega se establece en un valor que no permite que toda la audiencia envíe el mensaje en el periodo de tiempo de 12 horas, los perfiles restantes se excluirían de la campaña. Puede ver el recuento de estos perfiles excluidos en el informe de campaña.
-
-## Establecer una frecuencia de ejecución
-
-Para las acciones de correo electrónico, SMS y notificaciones push, puede definir una frecuencia a la que se debe enviar el mensaje de la campaña. Para ello, usa las opciones **[!UICONTROL déclencheur de acción]** en la pantalla de creación de campañas para especificar si la campaña se debe ejecutar diaria, semanal o mensualmente.
-
-![](assets/action-triggers.png)
-
-## Establecer planes de calentamiento de IP
-
-Para las acciones de correo electrónico, puede crear campañas de activación de planes de calentamiento de IP específicas. La programación de campaña se basa en el plan de calentamiento de IP con el que está asociado, lo que significa que la programación ya no está definida en la propia campaña. [Aprenda a crear campañas de calentamiento de IP](../configuration/ip-warmup-campaign.md).
 
 ## Próximos pasos {#next}
 
