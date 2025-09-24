@@ -12,9 +12,9 @@ badge: label="Disponibilidad limitada" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 7cbc4c7964d3fe9b79cbbff3917216f624286dba
+source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1575'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Para capturar datos de perfil con sus páginas de aterrizaje de [!DNL Journey Op
 >id="ajo_lp_form_connection"
 >title="Seleccione el extremo que desea utilizar"
 >abstract="Defina el punto final de flujo continuo al que se envían los datos al enviar el formulario."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creación de una conexión de flujo continuo HTTP API"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creación de una conexión de flujo continuo HTTP API"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ Al crear un ajuste preestablecido:
 
    >[!NOTE]
    >
-   >Obtenga más información sobre cómo crear una conexión de origen de flujo continuo en la [documentación de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Obtenga más información sobre cómo crear una conexión de origen de flujo continuo en la [documentación de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Seleccione un **[!UICONTROL conjunto de datos]** para vincularlo con el formulario. Aquí es donde se almacenan y reflejan las respuestas del formulario. Puede escribir para buscar un conjunto de datos específico o seleccionarlo en la lista.
 
@@ -93,7 +93,7 @@ Se muestran todos los formularios existentes. Puede filtrar los formularios en f
 >id="ajo_lp_form_preset"
 >title="Seleccionar un ajuste preestablecido"
 >abstract="Elija un ajuste preestablecido que contenga la conexión que se va a utilizar y un conjunto de datos predefinido para el formulario."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Crear un ajuste preestablecido de formulario"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Crear un ajuste preestablecido de formulario"
 
 Para crear un formulario, siga los pasos a continuación.
 
@@ -107,39 +107,57 @@ Para crear un formulario, siga los pasos a continuación.
 
 1. Haga clic en **[!UICONTROL Crear]**. Se abre el diseñador de formularios, que le permite agregar estructuras y contenido [componentes](../email/content-components.md#add-content-components) para generar su contenido. Puede usar los componentes [Texto](../email/content-components.md#text) y **[!UICONTROL Campo]**.
 
-1. Para agregar campos específicos al formulario, arrastre y suelte una estructura en el lienzo y arrastre un componente **[!UICONTROL Field]** dentro.<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
+1. Para capturar los datos y atributos de perfil, agregue campos específicos al formulario. [Más información](#define-fields)
 
-   ![](assets/lp_create-form-field.png)
+1. Configure y diseñe estos campos. [Más información](#configure-fields)
 
-   A continuación, seleccione una de las siguientes opciones:
+1. Puede ajustar el diseño, el estilo y las dimensiones del formulario según sea necesario mediante el panel **[!UICONTROL Estilos]**. [Más información sobre el estilo](../email/get-started-email-style.md)
 
-   >[!BEGINTABS]
+1. Una vez configurados todos los campos, haz clic en **[!UICONTROL Guardar y cerrar]**.
 
-   >[!TAB Seleccionar atributo de campo]
+1. Configure la página de agradecimiento. [Descubra cómo](#thank-you-page)
 
-   Utilice esta opción para seleccionar un atributo basado en el esquema del conjunto de datos vinculado al formulario.
+1. **[!UICONTROL Publicar]** el formulario para que esté disponible para su selección en páginas de aterrizaje.
 
-   >[!NOTE]
-   >
-   >El conjunto de datos se define en el ajuste preestablecido seleccionado para el formulario. [Más información](#create-form-preset)
+### Definir campos específicos {#define-fields}
 
-   ![](assets/lp_select-field-attribute.png){width=100%}
+Para agregar campos específicos al formulario, arrastre y suelte una estructura en el lienzo y arrastre un componente **[!UICONTROL Field]** dentro.<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
 
-   Por ejemplo, puede establecer el correo electrónico y el ID de persona. Cuando los usuarios rellenan estos campos, la información introducida se guarda en el conjunto de datos seleccionado.
+![](assets/lp_create-form-field.png)
 
-   ![](assets/lp_create-form-field-attributes.png){width=55%}
+A continuación, seleccione una de las siguientes opciones:
 
-   Para asignar los datos recopilados con un perfil, seleccione un campo de identidad de perfil. Los campos de identidad están marcados como **[!UICONTROL Obligatorio]** en la lista de atributos; puede filtrarlos.
+>[!BEGINTABS]
 
-   ![](assets/lp_create-form-required-attributes.png){width=65%}
+>[!TAB Seleccionar atributo de campo]
 
-   >[!TAB Agregar campo personalizado]
+Utilice esta opción para seleccionar un atributo basado en el esquema del conjunto de datos vinculado al formulario.
 
-   Con esta opción, puede definir un campo libre sin asignarlo a un campo del conjunto de datos vinculado.
+>[!NOTE]
+>
+>El conjunto de datos se define en el ajuste preestablecido seleccionado para el formulario. [Más información](#create-form-preset)
 
-   ![](assets/lp_create-form-custom-field.png){width=85%}
+![](assets/lp_select-field-attribute.png){width=100%}
 
-   >[!ENDTABS]
+Por ejemplo, puede establecer el correo electrónico y el ID de persona. Cuando los usuarios rellenan estos campos, la información introducida se guarda en el conjunto de datos seleccionado.
+
+![](assets/lp_create-form-field-attributes.png){width=55%}
+
+Para asignar los datos recopilados con un perfil, seleccione un campo de identidad de perfil. Los campos de identidad están marcados como **[!UICONTROL Obligatorio]** en la lista de atributos; puede filtrarlos.
+
+![](assets/lp_create-form-required-attributes.png){width=65%}
+
+>[!TAB Agregar campo personalizado]
+
+Con esta opción, puede definir un campo libre sin asignarlo a un campo del conjunto de datos vinculado.
+
+![](assets/lp_create-form-custom-field.png){width=85%}
+
+>[!ENDTABS]
+
+### Configuración y diseño de un campo {#configure-fields}
+
+Una vez seleccionado un atributo de campo o agregado un campo personalizado, puede ajustar aún más sus detalles, así como su comportamiento, al enviar el formulario.
 
 1. En la sección **[!UICONTROL Detalles del campo]** de la pestaña **[!UICONTROL Contenido]** de la derecha, puede especificar los siguientes elementos según sea necesario:
 
@@ -166,14 +184,6 @@ Para crear un formulario, siga los pasos a continuación.
    * Seleccione **[!UICONTROL Habilitar máscara de entrada]** para reemplazar la entrada de los usuarios por caracteres genéricos. Puede usar *9* para indicar cualquier número, *a* para indicar cualquier letra o * para indicar cualquier número o letra.<!--Not sure how you define that in the form-->
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
-
-1. Puede ajustar el diseño, el estilo y las dimensiones del formulario según sea necesario mediante el panel **[!UICONTROL Estilos]**. [Más información sobre el estilo](../email/get-started-email-style.md)
-
-1. Una vez configurados todos los campos, haz clic en **[!UICONTROL Guardar y cerrar]**.
-
-1. Configure la página de agradecimiento. [Descubra cómo](#thank-you-page)
-
-1. **[!UICONTROL Publicar]** el formulario para que esté disponible para su selección en páginas de aterrizaje.
 
 ### Configuración de la página de agradecimiento {#thank-you-page}
 
