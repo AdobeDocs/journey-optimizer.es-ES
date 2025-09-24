@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 12ece43b9a52150baa71fab09653c6212aea6643
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 11%
+source-wordcount: '1444'
+ht-degree: 10%
 
 ---
 
@@ -138,18 +138,19 @@ Obtenga más información acerca de los tipos de recorrido y la administración 
 
 El estado del recorrido depende de su ciclo de vida. Puede ser:
 
-* **Cerrado**: el recorrido se ha cerrado con el botón **Cerca de nuevas entradas**. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente.
 * **Borrador**: el recorrido se encuentra en su primera fase. Aún no se ha publicado.
-* **Borrador (prueba)**: el modo de prueba se ha activado con el botón **Modo de prueba**.
+* **Borrador (prueba)**: el modo de prueba se ha activado con el botón **Modo de prueba**. [Más información](../building-journeys/testing-the-journey.md)
 * **Finalizado**: el recorrido cambia automáticamente a este estado después del tiempo de espera global de [91 días](journey-properties.md#global_timeout). Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido.
-* **Activo**: el recorrido se ha publicado con el botón **Publicar**.
-* **Detenido**: el recorrido se ha desactivado con el botón **Detener**. Todos los individuos abandonan el recorrido al instante.
+* **Activo**: el recorrido se ha publicado con el botón **Publicar**. [Más información](../building-journeys/publishing-the-journey.md)
+* **Pausado**: el recorrido activo se ha pausado, usando el botón **Pausar**. [Más información](../building-journeys/journey-pause.md)
+* **Detenido**: el recorrido se ha desactivado con el botón **Detener**. Todos los individuos abandonan el recorrido al instante. [Más información](../building-journeys/end-journey.md#stop-a-journey)
+* **Cerrado**: el recorrido se ha cerrado con el botón **Cerca de nuevas entradas**. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente. [Más información](../building-journeys/end-journey.md)
 
 >[!NOTE]
 >
->* El ciclo de vida de creación de Recorridos también incluye un conjunto de estados intermedios que no están disponibles para el filtrado: &quot;Publicación&quot; (entre &quot;Borrador&quot; y &quot;Activo&quot;), &quot;Activación del modo de prueba&quot; o &quot;Desactivación del modo de prueba&quot; (entre &quot;Borrador&quot; y &quot;Borrador (prueba)&quot;) y &quot;Detención&quot; (entre &quot;Activo&quot; y &quot;Detenido&quot;). Cuando un recorrido está en un estado intermedio, es de solo lectura.
+>* El ciclo de vida de creación de Recorridos también incluye un conjunto de estados intermedios que no están disponibles para el filtrado: **Publicación** (entre &quot;Borrador&quot; y &quot;Activo&quot;), **Activación del modo de prueba** o **Desactivación del modo de prueba** (entre **Borrador** y **Borrador (prueba)**), **Detención** (entre **Activo** y **Detenido**), **Reanudación** (entre **Pausado** y **Activo**), **Pausando** (entre **Activo** y **Pausado**) Cuando un recorrido está en un estado intermedio, es de solo lectura.
 >
->* Si necesita modificarlo a un recorrido **live**, [cree una nueva versión](#journey-versions) de su recorrido.
+>* Si necesita modificarlo a un recorrido **Live**, [cree una nueva versión](#journey-versions) de su recorrido. También puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento. [Más información sobre cómo pausar recorridos](../building-journeys/journey-pause.md)
 
 
 ## Duplicación de un recorrido {#duplicate-a-journey}
