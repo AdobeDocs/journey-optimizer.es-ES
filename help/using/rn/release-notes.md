@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
+source-git-commit: 83ed772d25cbf3e54c5ab45cff3803cb062cdfd6
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1812'
 ht-degree: 44%
 
 ---
@@ -28,6 +28,22 @@ ht-degree: 44%
 **Fecha de la versión**: 23-24 de septiembre de 2025
 
 ### Nuevas funciones {#sept-25-9-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>API pública para recuperar recorridos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora hay disponible una nueva API de Journey Optimizer para recuperar recorridos y sus objetos asociados, como campañas y superficies.</p>
+<p>Para obtener más información, consulte la <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -198,21 +214,6 @@ Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habil
 ### Próximamente {#sept-25-9-soon}
 
 En los próximos días, está programado el lanzamiento de las siguientes funciones y mejoras. **La información está sujeta a cambios**. Los vínculos, las pantallas y la documentación actualizados se compartirán una vez que estas actualizaciones estén activas en la producción.
-
-<table>
-<thead>
-<tr>
-<th><strong>API pública para recuperar recorridos</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora hay disponible una nueva API de Journey Optimizer para recuperar recorridos y sus objetos asociados, como campañas y superficies.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
