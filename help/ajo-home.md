@@ -5,10 +5,10 @@ title: Documentación de Adobe Journey Optimizer
 description: Documentación de Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+workflow-type: tm+mt
+source-wordcount: '560'
+ht-degree: 85%
 
 ---
 
@@ -16,31 +16,60 @@ ht-degree: 100%
 
 Adobe Journey Optimizer permite a los equipos diseñar y ofrecer experiencias de cliente personalizadas y optimizadas en varios canales, como correo electrónico, SMS, etc. Al combinar herramientas avanzadas para la orquestación de campañas, la administración de datos y la toma de decisiones, le ayuda a crear recorridos que se adaptan a las necesidades de los clientes en tiempo real. Esta documentación ofrece una hoja de ruta para dominar la plataforma, desde la exploración de sus últimas funciones e integraciones hasta el aprendizaje para administrar públicos, configurar recorridos y analizar el rendimiento. Tanto si es un experto en marketing, analista de datos o administrador de campañas, encontrará guías paso a paso, prácticas recomendadas y recursos personalizados para ayudarle a lograr sus objetivos con confianza.
 
+## Novedades {#section-overview}
+
+Eche un vistazo a las mejoras más recientes del producto y a la documentación de Journey Optimizer. Para obtener una lista completa de funciones, mejoras y correcciones, consulte las [Notas de la versión](../using/rn/release-notes.md) detalladas.
+
+>[!BEGINTABS]
+
+>[!TAB Versión de septiembre de 2025]
+
+¡La versión de septiembre de Journey Optimizer está activa! Descubra las nuevas funciones y mejoras publicadas este mes en las Notas de la versión.
+
+[![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+
+>[!TAB Orquestación de campañas]
+
+Journey Optimizer ahora incluye **Orquestación de campañas**, una nueva funcionalidad diseñada específicamente para campañas por lotes iniciadas por la marca. Esta versión presenta un lienzo de orquestación de campaña y un modelado de datos mejorado, que funcionan juntos para permitir que los especialistas en marketing planifiquen, dirijan y entreguen campañas personalizadas en canales múltiples.
+
+[![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
+
+>[!TAB Adobe Express]
+
+La integración de Adobe Express en Adobe Journey Optimizer le permite acceder fácilmente a las potentes herramientas de edición de Adobe Express a la hora de crear contenido. Esta integración le permite cambiar el tamaño de las imágenes, quitar fondos, recortar elementos visuales y convertir recursos a JPEG o PNG sin necesidad de cambiar entre soluciones.
+
+[![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
+
+
+>[!ENDTABS]
+
+
 ## Empezar a explorar
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-¿Qué novedades hay en Adobe Journey Optimizer? 
+Últimas notas de la versión
 
-Manténgase al día con las últimas notas de la versión, las nuevas funciones y los cambios en la documentación de Adobe Journey Optimizer.
+Manténgase al día con las últimas notas de la versión, las nuevas funciones y las mejoras de Adobe Journey Optimizer.
 
-[Ver las novedades](./rp_landing_pages/whats-new-landing-page.md)
+[Ver notas de la versión](using/rn/release-notes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Introducción a Adobe Journey Optimizer
+Introducción
 
-Conozca los conceptos básicos de Adobe Journey Optimizer, incluidas sus funcionalidades, arquitectura e interfaz de usuario.
+Conozca los conceptos básicos de Journey Optimizer, incluidas sus funcionalidades, arquitectura e interfaz de usuario.
 
 [Introducción](./rp_landing_pages/get-started-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guía completa de los Recorridos
 
@@ -50,7 +79,7 @@ Diseñe, organice, administre y optimice recorridos personalizados del cliente c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Explicación y administración de campañas
 
@@ -60,7 +89,7 @@ Directrices detalladas sobre la creación, administración y optimización de va
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canales de comunicación
 
@@ -70,7 +99,7 @@ Configure y administre correo electrónico, SMS, notificaciones push y otros can
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Administración de conflictos y priorización
 
