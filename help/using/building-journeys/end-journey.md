@@ -9,9 +9,9 @@ level: Intermediate
 keywords: volver a entrar, recorrido, finalizar, en directo, detener
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,6 @@ También puede:
 
 En caso de que necesite detener el progreso de todos los individuos en el recorrido, puede detenerlo. Deteniendo el tiempo de espera de recorrido de todos los individuos del recorrido. Sin embargo, detener un recorrido implica que todas las personas que ya han entrado en un recorrido se detengan en su progreso. El recorrido está básicamente apagado. Si desea finalizar un recorrido, se recomienda [cerrarlo](#close-journey).
 
-
 Puede detener un recorrido, por ejemplo, si un experto en marketing se da cuenta de que el recorrido se dirige a la audiencia incorrecta o si una acción personalizada que se supone que debe enviar mensajes no funciona correctamente. Para detener un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Puntos suspensivos]** que se encuentra a la derecha del nombre del recorrido y seleccione **[!UICONTROL Detener]**.
 
 ![](assets/journey-finish-quick-action.png)
@@ -102,3 +101,7 @@ También puede:
 1. Haga clic en **[!UICONTROL Detener]** y confirme en el cuadro de diálogo.
 
 Cuando está detenido, el estado del recorrido se establece en **[!UICONTROL Detenido]**.
+
+>[!CAUTION]
+>
+>Permisos para detener un recorrido restringido a usuarios con el permiso de alto nivel **[!DNL Manage journeys]**. Obtenga más información acerca de la administración de los derechos de acceso de los usuarios de [!DNL Journey Optimizer] en [esta sección](../administration/permissions-overview.md).

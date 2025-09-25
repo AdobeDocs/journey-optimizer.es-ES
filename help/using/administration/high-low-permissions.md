@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: permiso, alto nivel, bajo nivel, perfil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
 
 ## recurso de recorrido {#journey-capability}
 
-* El permiso de alto nivel **[!DNL Manage journeys]** permite a los usuarios crear Recorridos nuevos, editar o eliminar los existentes, así como acceder a los objetos que se utilizan en el lienzo de recorrido para generar el flujo de recorrido.
+* El permiso de alto nivel **[!DNL Manage journeys]** permite a los usuarios crear Recorridos nuevos y editar/eliminar/detener/pausar los existentes, así como el acceso a los objetos que se utilizan en el lienzo de recorrido para generar el flujo de recorrido.
 
   +++ Este permiso incluye los siguientes permisos de bajo nivel:  
 

@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1202'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Una vez definida la acción, se puede utilizar tanto:
 * En recorrido, en una actividad de acción personalizada para recuperar contenido,
 * En recorridos y campañas entrantes, en un asistente externo de DataLookup para recuperar datos en una acción entrante.
 
-## Protecciones y limitaciones
+## Mecanismos de protección y limitaciones
 
 Consulte también Acciones personalizadas en [!DNL Journey Optimizer] canales entrantes, campañas y Recorridos #GuardrailsandGuidelines.
 
@@ -172,7 +172,7 @@ Por ejemplo, puede recuperar y recorrer los elementos para devolver una matriz d
 
 ### Tiempos de espera y gestión de errores
 
-[!DNL Journey Optimizer] usa un tiempo de espera estricto al llamar al extremo externo para mantener características de rendimiento de alto rendimiento y baja latencia para AEP Edge Network.
+[!DNL Journey Optimizer] usa un tiempo de espera estricto al llamar al extremo externo para mantener características de rendimiento de alto rendimiento y baja latencia para Adobe Experience Platform Edge Network.
 
 Si se agota el tiempo de espera del extremo o hay algún otro tipo de error que llegue al extremo, la variable de resultado estará vacía. Cualquier referencia a atributos dentro de la variable de resultado en este caso también estará vacía. Si simplemente muestra el atributo en el contenido, se mostrará en blanco. Si intenta recorrer en bucle un atributo de matriz en el resultado, no devolverá ningún elemento.
 
@@ -198,7 +198,7 @@ o puede procesar condicionalmente un bloque entero de contenido como este:
 
 ### Depuración
 
-Para ayudar con la depuración, se incluyen detalles de tiempo de espera y error para búsquedas de datos externos en la vista de Edge Delivery en AEP Assurance. Si no ve los resultados esperados para un asistente externalDataLookup en una acción entrante, puede iniciar una sesión de Assurance, iniciar una llamada de [!DNL Journey Optimizer] desde una implementación web o móvil y utilizar la vista de Edge Delivery para buscar detalles de tiempo de espera o error.
+Para ayudar con la depuración, se incluyen detalles de tiempo de espera y error para búsquedas de datos externos en la vista de Edge Delivery en Adobe Experience Platform Assurance. Si no ve los resultados esperados para un asistente externalDataLookup en una acción entrante, puede iniciar una sesión de Assurance, iniciar una llamada de [!DNL Journey Optimizer] desde una implementación web o móvil y utilizar la vista de Edge Delivery para buscar detalles de tiempo de espera o error.
 
 Por ejemplo:
 
