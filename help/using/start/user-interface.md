@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
-workflow-type: ht
-source-wordcount: '1758'
-ht-degree: 100%
+source-git-commit: daa4ab45623f3c175cf3ac1e818eb33fff835f1d
+workflow-type: tm+mt
+source-wordcount: '1903'
+ht-degree: 92%
 
 ---
 
@@ -355,3 +355,30 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 >id="ajo_journey_business_rules"
 >title="Conjunto de reglas"
 >abstract="Conjunto de reglas"
+
+<!-- WEBHOOKS -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings"
+>title="Habilitar webhooks"
+>abstract="Habilite los webhooks para recibir comentarios en tiempo real sobre el estado de ejecución de sus mensajes. Antes de activar esta opción, asegúrese de que ha configurado un webhook en el menú **Administración** / **Canales** / **Webhook de comentarios**."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_create"
+>title="Webhooks de comentarios"
+>abstract="Los webhooks de comentarios le permiten recibir comentarios en tiempo real sobre el estado de ejecución de los mensajes enviados con campañas transaccionales activadas por API. Solo se permite una configuración de gancho web por organización + combinación de zona protegida."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_configuration"
+>title="Configuración básica"
+>abstract="En esta sección, introduzca un nombre descriptivo para identificar el webhook y seleccione los canales para los que este webhook debe recibir comentarios (correo electrónico o SMS). En el campo URL del webhook, indique el extremo HTTPS en el que deben entregarse los eventos de comentarios."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_authentication"
+>title="Autenticación"
+>abstract="Si el extremo requiere autenticación JWT, seleccione **Autenticación JWT** de la lista y proporcione los detalles necesarios."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_header_parameters"
+>title="Parámetros de encabezado"
+>abstract="En esta sección, puede configurar encabezados personalizados adicionales para que se envíen con cada solicitud de webhook."
