@@ -5,7 +5,7 @@ title: Documentación de Adobe Journey Optimizer
 description: Documentación de Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 65b994873e2e8202de20876c2c83868f145e2d90
+source-git-commit: 4a575a0a403d566d81c47e6956d94fab1166f663
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 85%
@@ -18,7 +18,7 @@ Adobe Journey Optimizer permite a los equipos diseñar y ofrecer experiencias de
 
 ## Novedades {#section-new}
 
-Eche un vistazo a las mejoras más recientes del producto y a la documentación de Journey Optimizer. Para obtener una lista completa de funciones, mejoras y correcciones, consulte las [Notas de la versión](../using/rn/release-notes.md) detalladas.
+Eche un vistazo a las mejoras más recientes del producto y a la documentación de Journey Optimizer. Para obtener una lista completa de funciones, mejoras y correcciones, consulte las [Notas de la versión](using/rn/release-notes.md) detalladas.
 
 >[!BEGINTABS]
 
@@ -49,7 +49,7 @@ La integración de Adobe Express en Adobe Journey Optimizer le permite acceder f
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Últimas notas de la versión
 
@@ -59,7 +59,7 @@ Manténgase al día con las últimas notas de la versión, las nuevas funciones 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción
 
@@ -69,7 +69,7 @@ Conozca los conceptos básicos de Journey Optimizer, incluidas sus funcionalidad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guía completa de los Recorridos
 
@@ -79,7 +79,7 @@ Diseñe, organice, administre y optimice recorridos personalizados del cliente c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Explicación y administración de campañas
 
@@ -89,7 +89,7 @@ Directrices detalladas sobre la creación, administración y optimización de va
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canales de comunicación
 
@@ -99,7 +99,7 @@ Configure y administre correo electrónico, SMS, notificaciones push y otros can
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Administración de conflictos y priorización
 
