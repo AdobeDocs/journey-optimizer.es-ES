@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principal, ejecución, correo electrónico, destinatario, perfil, optimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 19%
+source-wordcount: '607'
+ht-degree: 23%
 
 ---
 
@@ -35,6 +35,10 @@ En ese caso, [!DNL Journey Optimizer] usa **[!UICONTROL Campos de ejecución]** 
 Para comprobar los campos que se utilizan actualmente de forma predeterminada, acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Campos de ejecución]**.
 
 ![](assets/primary-address-execution-fields.png)
+
+>[!NOTE]
+>
+>Los campos de ejecución están disponibles para los canales Correo electrónico y SMS.
 
 Los valores actuales se utilizan para todas las entregas a nivel de zona protegida. Puede actualizar estos campos si es necesario.
 
@@ -66,7 +70,7 @@ El campo de ejecución se actualiza y ahora se utiliza como dirección principal
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Anular el campo de ejecución predeterminado {#override-default-execution-address}
+## Anular el campo de ejecución predeterminado en los parámetros de recorrido {#override-execution-address-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
@@ -74,24 +78,16 @@ El campo de ejecución se actualiza y ahora se utiliza como dirección principal
 >abstract="En algunos casos específicos, puede anular la dirección de ejecución predeterminada. Utilice el icono **Habilitar anulación de parámetros** a la derecha del campo para definir una dirección principal personalizada."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Acerca de la dirección de ejecución"
 
-Para casos de uso específicos, puede anular el campo de ejecución establecido globalmente y definir un valor diferente en el nivel de configuración de correo electrónico o en el nivel de recorrido.
+Para casos de uso específicos, puede anular el campo de ejecución establecido globalmente y definir un valor diferente en el nivel de recorrido.
 
 Anular este valor puede resultar útil, por ejemplo, para lo siguiente:
 
 * Probar un correo electrónico. Puede añadir su propia dirección de correo electrónico: después de publicar el recorrido, se le envía el correo electrónico.
 * Envíe un correo electrónico a los suscriptores de una lista. Obtenga más información en [este caso de uso](../building-journeys/message-to-subscribers-uc.md).
 
-### En la configuración de correo electrónico
-
-Puede cambiar el campo de ejecución predeterminado establecido en [configuración general](#admin-settings) al definir una configuración de canal de correo electrónico. [Más información](../email/email-settings.md#execution-address)
-
-Cuando se define una dirección de ejecución en la configuración de correo electrónico, se utiliza como dirección principal y anula la configuración general a nivel de zona protegida.
-
-### En los parámetros de recorrido {#journey-parameters}
-
 Al agregar una acción **[!UICONTROL Correo electrónico]** o **[!UICONTROL SMS]** a un [recorrido](../email/create-email.md#create-email-journey-campaign), la dirección de correo electrónico principal se muestra bajo los parámetros avanzados de recorrido.
 
-En algunos contextos específicos, puede anular este valor usando el icono **[!UICONTROL Habilitar anulación de parámetros]** a la derecha del campo.
+Anule este valor con el icono **[!UICONTROL Habilitar anulación de parámetros]** a la derecha del campo.
 
 ![](assets/journey-enable-parameter-override.png)
 
@@ -99,4 +95,23 @@ En algunos contextos específicos, puede anular este valor usando el icono **[!U
 >
 >La anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, no es necesario cambiar la dirección de correo electrónico porque el valor definido como la dirección principal en **[!UICONTROL Campos de ejecución]** es el que debería usarse.
 
+## Anular el campo de ejecución predeterminado en la configuración del canal {#override-execution-address-channel-config}
 
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_execution_address"
+>title="Sobrescribir la dirección de ejecución predeterminada a utilizar"
+>abstract="Cuando en la base de datos hay disponibles varias direcciones de correo electrónico o números de teléfono (personales, profesionales, etc.), puede elegir cuál priorizar para el envío. La dirección principal se define en el nivel de entorno limitado, pero aquí puede anular la configuración predeterminada de esta configuración de canal específica."
+
+Puede cambiar la dirección de ejecución predeterminada de un correo electrónico o SMS específico [configuración de canal](channel-surfaces.md).
+
+Para ello, vaya a la sección **[!UICONTROL Execution dimension]** y edite el campo en **[!UICONTROL Execution Address]**.
+
+![](assets/sms-config-execution-address.png){width=85%}
+
+A continuación, seleccione un elemento de la lista de campos XDM de tipo de correo electrónico disponibles.
+
+![](assets/sms-config-execution-field.png)
+
+El campo execution se actualiza y luego se utiliza como la dirección principal de las campañas o recorridos que utilizan esta configuración de canal. Anula la [configuración general](#admin-settings) definida en el nivel de espacio aislado.
+
+<!--[Learn more on the execution address in the email configuration ](../email/email-settings.md#execution-address)-->
