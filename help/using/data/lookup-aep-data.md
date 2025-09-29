@@ -10,10 +10,10 @@ level: Intermediate
 keywords: expresión, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
+source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 6%
+source-wordcount: '752'
+ht-degree: 5%
 
 ---
 
@@ -35,7 +35,7 @@ Antes de empezar, revise las siguientes restricciones y directrices:
 * Los conjuntos de datos habilitados para la búsqueda no deben contener información de identificación personal (PII).
 * Los conjuntos de datos habilitados para la búsqueda y utilizados en la personalización no están protegidos frente a la eliminación. Depende de usted realizar un seguimiento de qué conjuntos de datos se están utilizando para la personalización a fin de asegurarse de que no se eliminen ni se eliminen.
 * Los conjuntos de datos deben asociarse con un esquema que NO sea del tipo Perfil o Evento.
-* Los esquemas deben tener una identidad principal. Solo se puede utilizar una única clave principal para las búsquedas.
+* La ingesta de datos de streaming es compatible con conjuntos de datos habilitados para búsqueda. Tenga en cuenta que el procesamiento de la ingesta debe completarse antes de que los datos estén disponibles para la personalización o la toma de decisiones.
 
 ### Derecho al servicio de búsqueda
 
