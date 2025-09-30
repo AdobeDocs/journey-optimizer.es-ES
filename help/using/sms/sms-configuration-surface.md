@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 14%
+source-wordcount: '474'
+ht-degree: 13%
 
 ---
 
@@ -40,7 +40,7 @@ Para crear una configuración de canal, siga estos pasos:
 
 1. Defina la **configuración de SMS**.
 
-   ![](assets/sms-surface-settings.png)
+   ![](assets/sms-surface-settings.png){width=80%}
 
    Comience por seleccionar el **[!UICONTROL tipo de SMS]** que se enviará con la configuración: **[!UICONTROL Transaccional]** o **[!UICONTROL Marketing]**.
 
@@ -59,13 +59,17 @@ Para crear una configuración de canal, siga estos pasos:
 
 1. Escriba el **[!UICONTROL número de remitente]** &#x200B;que desee usar para sus comunicaciones.
 
-1. Seleccione su **[!UICONTROL campo de ejecución de SMS]** para seleccionar el **[!UICONTROL atributo de perfil]** asociado a los números de teléfono de los perfiles.
-
 1. Si deseas usar la función de acortamiento de URL en tus mensajes SMS, selecciona un elemento de la lista **[!UICONTROL Subdominio]**.
 
    >[!NOTE]
    >
    >Para poder seleccionar un subdominio, asegúrese de haber configurado previamente al menos un subdominio SMS/MMS. [Descubra cómo](sms-subdomains.md)
+
+1. En la sección **[!UICONTROL Execution dimension]**, use el **[!UICONTROL Campo de ejecución de SMS]** para seleccionar entre los atributos de perfil el número de teléfono que desea usar en la prioridad si hay varios números disponibles en la base de datos. [Más información](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+
+   >[!NOTE]
+   >
+   >De manera predeterminada, [!DNL Journey Optimizer] usa el número de teléfono especificado en [configuración general](../configuration/primary-email-addresses.md) en el nivel de espacio aislado. Al actualizar este campo, se anula el valor predeterminado de los recorridos y campañas que utilizan esta configuración.
 
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Enviar]** para confirmar. También puede guardar la configuración de canal como borrador y reanudarla más adelante.
 
