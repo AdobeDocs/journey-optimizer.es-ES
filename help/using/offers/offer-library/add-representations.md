@@ -73,7 +73,7 @@ Si la ubicación seleccionada es de tipo imagen, puede agregar contenido procede
 
 >[!NOTE]
 >
-> Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, debes implementar [!DNL Assets Essentials] para tu organización y asegurarte de que los usuarios formen parte de los perfiles de producto de **Usuarios consumidores de Assets Essentials** o **Usuarios de Assets Essentials**. Más información sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
+> Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=es){target="_blank"}, debes implementar [!DNL Assets Essentials] para tu organización y asegurarte de que los usuarios formen parte de los perfiles de producto de **Usuarios consumidores de Assets Essentials** o **Usuarios de Assets Essentials**. Más información sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=es){target="_blank"}.
 
 1. Elija la opción **[!UICONTROL Biblioteca de recursos]**.
 
@@ -89,9 +89,9 @@ Si la ubicación seleccionada es de tipo imagen, puede agregar contenido procede
 
 ### Añadir archivos HTML o JSON {#html-json}
 
-Si la ubicación seleccionada es de tipo HTML, también puede agregar contenido HTML o JSON proveniente de la [biblioteca de recursos de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
+Si la ubicación seleccionada es de tipo HTML, también puede agregar contenido HTML o JSON proveniente de la [biblioteca de recursos de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=es){target="_blank"}).
 
-Por ejemplo, creó una plantilla de correo electrónico de HTML en [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} y quiere usar ese archivo para el contenido de su oferta. En lugar de crear un nuevo archivo, simplemente puede cargar la plantilla en la **Biblioteca de recursos** para poder reutilizarla en las representaciones de la oferta.
+Por ejemplo, creó una plantilla de correo electrónico de HTML en [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=es){target="_blank"} y quiere usar ese archivo para el contenido de su oferta. En lugar de crear un nuevo archivo, simplemente puede cargar la plantilla en la **Biblioteca de recursos** para poder reutilizarla en las representaciones de la oferta.
 
 Para reutilizar el contenido en una representación, examine la **Biblioteca de recursos** tal como se describe en [esta sección](#images) y seleccione el archivo HTML o JSON que elija.
 
@@ -107,7 +107,7 @@ Puede personalizar las direcciones URL mediante el editor de personalización. M
 
 Por ejemplo, se desea personalizar la imagen que se muestra como oferta. Desea que los usuarios que favorecen las vacaciones en la ciudad vean el horizonte de Nueva York y los usuarios que favorecen las vacaciones en la playa vean la costa norte de Hawai.
 
-Utilice el editor de personalización para recuperar los atributos de perfil almacenados en Adobe Experience Platform mediante esquemas de unión. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+Utilice el editor de personalización para recuperar los atributos de perfil almacenados en Adobe Experience Platform mediante esquemas de unión. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=es){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
