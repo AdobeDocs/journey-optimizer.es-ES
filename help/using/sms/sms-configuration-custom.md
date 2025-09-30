@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 71b4c2b711858731cfd0f627a5ff97fe9eb817a2
+source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 9%
+source-wordcount: '1352'
+ht-degree: 7%
 
 ---
 
@@ -175,6 +175,16 @@ Si no se proporcionan las palabras clave de inclusión u exclusión, se utilizan
 
 Una vez que las credenciales de la API se hayan creado correctamente, el siguiente paso es crear un webhook y configurar los ajustes de entrada. Esta configuración garantiza que el sistema pueda recibir y procesar correctamente los datos o mensajes entrantes.
 
+Al configurar un gancho web, puede definir su propósito según el tipo de datos que desee capturar:
+
+* **[!UICONTROL Entrante]**: utilice esta opción si desea capturar las respuestas de consentimiento, como las inclusiones o las exclusiones, y recopilar las preferencias de usuario.
+
+* **[!UICONTROL Comentarios]**: elija esta opción para realizar un seguimiento de los eventos de entrega y participación, incluidos los recibos de lectura y las interacciones del usuario, con el fin de admitir la creación de informes y el análisis.
+
+>[!BEGINTABS]
+
+>[!TAB Entrante]
+
 1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** `>` **[!UICONTROL Canales]**, seleccione el menú **[!UICONTROL Webhooks de SMS]** en **[!UICONTROL Configuración de SMS]** y haga clic en el botón **[!UICONTROL Crear webhook]**.
 
    ![](assets/sms_byo_5.png)
@@ -185,17 +195,21 @@ Una vez que las credenciales de la API se hayan creado correctamente, el siguien
 
    * **[!UICONTROL Seleccionar proveedor de SMS]**: personalizado.
 
-   * **[!UICONTROL Seleccione las credenciales de la API]**: elija en la lista desplegable las [credenciales de la API configuradas anteriormente](#api-credential).
+   * **[!UICONTROL Tipo]**: Entrante.
 
-   * **[!UICONTROL Palabras clave de inclusión]**: escriba las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su mensaje de inclusión. Para varias palabras clave, utilice valores separados por comas.
+   * **[!UICONTROL Credenciales de API]**: elija en la lista desplegable sus [credenciales de API configuradas anteriormente](#api-credential).
 
-   * **[!UICONTROL Mensaje de inclusión]**: escriba la respuesta personalizada que se enviará automáticamente como mensaje de inclusión.
+1. Haga clic en ![](assets/do-not-localize/Smock_Add_18_N.svg) para agregar las categorías de palabras clave y, a continuación, configúrelas de la siguiente manera:
 
-   * **[!UICONTROL Palabras clave de exclusión]**: escriba las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su mensaje de exclusión. Para varias palabras clave, utilice valores separados por comas.
+   * **[!UICONTROL Categoría de palabras clave entrantes]**: elige las categorías de palabras clave **[!UICONTROL Inclusión]**, **[!UICONTROL Exclusión]**, **[!UICONTROL Ayuda]** o **[!UICONTROL Predeterminado]**.
 
-   * **[!UICONTROL Mensaje de exclusión]**: escriba la respuesta personalizada que se enviará automáticamente como mensaje de exclusión.
+   * **[!UICONTROL Escriba una palabra clave]**: escriba las palabras clave predeterminadas o personalizadas que almacenarán automáticamente en déclencheur el mensaje. Para varias palabras clave, utilice valores separados por comas.
+
+   * **[!UICONTROL Mensaje de respuesta]**: escriba la respuesta personalizada que se enviará automáticamente.
 
    ![](assets/sms_byo_6.png)
+
+1. Habilite la opción **[!UICONTROL exclusión aproximada]** para detectar mensajes que se parezcan a palabras clave de exclusión (por ejemplo, &quot;CANCIL&quot;).
 
 1. Haga clic en **[!UICONTROL Ver editor de carga útil]** para validar y personalizar las cargas útiles de solicitud.
 
@@ -214,6 +228,41 @@ Una vez que las credenciales de la API se hayan creado correctamente, el siguien
 Después de crear y configurar las opciones de entrada para el webhook, debes crear una [configuración de canal](sms-configuration-surface.md) para los mensajes SMS.
 
 Una vez configuradas, puede aprovechar todas las funcionalidades de canal integradas, como la creación de mensajes, la personalización, el seguimiento de vínculos y la creación de informes.
+
+>[!TAB Comentarios]
+
+1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** `>` **[!UICONTROL Canales]**, seleccione el menú **[!UICONTROL Webhooks de SMS]** en **[!UICONTROL Configuración de SMS]** y haga clic en el botón **[!UICONTROL Crear webhook]**.
+
+   ![](assets/sms_byo_5.png)
+
+1. Configure las opciones de webhook, tal y como se detalla a continuación:
+
+   * **[!UICONTROL Nombre]**: escribe un nombre para tu webhook.
+
+   * **[!UICONTROL Seleccionar proveedor de SMS]**: personalizado.
+
+   * **[!UICONTROL Tipo]**: Comentarios.
+
+1. Haga clic en **[!UICONTROL Ver editor de carga útil]** para validar y personalizar las cargas útiles de solicitud.
+
+   Puede personalizar dinámicamente la carga útil mediante atributos de perfil y garantizar que se envíen datos precisos para el procesamiento y la generación de respuestas con la ayuda de funciones de ayuda integradas.
+
+1. Haga clic en **[!UICONTROL Enviar]** cuando termine de configurar su webhook.
+
+1. En el menú de **[!UICONTROL Webhooks]**, haz clic en el ![icono de bin](assets/do-not-localize/Smock_Delete_18_N.svg) para eliminar tu webhook.
+
+1. Para modificar la configuración existente, busque el webhook deseado y haga clic en la opción **[!UICONTROL Editar]** para realizar los cambios necesarios.
+
+1. Acceda y copie su nueva **[!UICONTROL URL de webhook]** desde el **[!UICONTROL webhook]** que envió anteriormente.
+
+   ![](assets/sms_byo_7.png)
+
+Después de crear y configurar las opciones de entrada para el webhook, debes crear una [configuración de canal](sms-configuration-surface.md) para los mensajes SMS.
+
+Una vez configuradas, puede aprovechar todas las funcionalidades de canal integradas, como la creación de mensajes, la personalización, el seguimiento de vínculos y la creación de informes.
+
+>[!ENDTABS]
+
 
 ## Vídeo práctico {#video}
 
