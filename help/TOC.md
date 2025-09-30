@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2954'
 ht-degree: 99%
 
 ---
@@ -290,7 +290,7 @@ ht-degree: 99%
       + [Seleccionar perfiles de prueba](using/content-management/test-profiles.md)
       + [Vista previa usando perfiles de prueba](using/content-management/preview.md)
       + [Enviar pruebas mediante datos de perfil de prueba](using/content-management/proofs.md)
-      + [Prueba del procesamiento de correo electrónico](using/content-management/rendering.md)
+      + [Prueba de representación de correo electrónico](using/content-management/rendering.md)
       + [Simulación de variaciones de contenido](using/test-approve/simulate-sample-input.md)
       + [Generación automática de variantes de contenido](using/test-approve/simulate-sample-input-generated.md)
       + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
@@ -911,6 +911,7 @@ ht-degree: 99%
    + [Uso de listas semilla](using/configuration/seed-lists.md)
    + [Asistencia para el archivado](using/configuration/archiving-support.md)
    + [Cambio de direcciones de ejecución](using/configuration/primary-email-addresses.md)
+   + [Crear webhooks de comentarios](using/configuration/feedback-webhooks.md)
 + Configuración de recorrido {#configure-journeys}
    + [Configuración de recorrido](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [Introducción a la configuración de recorridos](using/configuration/about-data-sources-events-actions.md)
