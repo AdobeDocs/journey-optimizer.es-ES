@@ -5,10 +5,10 @@ title: Pasos de configuración
 description: Obtenga información sobre cómo crear un esquema basado en modelos en Adobe Experience Platform cargando un DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 50%
+source-wordcount: '1080'
+ht-degree: 46%
 
 ---
 
@@ -28,6 +28,8 @@ En esta sección se proporciona una guía paso a paso sobre cómo crear un esque
 1. [Vincular esquemas](#link-schema) para conectar los datos basados en modelos con entidades de perfil existentes como Destinatarios o Marcas.
 
 1. [Introducir datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
+
+➡️ [Obtenga más información acerca de los esquemas basados en modelos en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## Cargar un archivo DDL{#ddl-upload}
 
@@ -91,7 +93,7 @@ Vea el siguiente ejemplo:
 
 1. Escriba su **[!UICONTROL Nombre de esquema]**.
 
-1. Configure cada esquema y sus columnas, asegurándose de especificar una clave principal.
+1. Configure cada esquema y sus columnas, asegurándose de que se especifican una clave principal y un descriptor de versión.
 
    Un atributo, como `lastmodified`, debe designarse como descriptor de versión (tipo `datetime`, `long` o `int`) para garantizar que los conjuntos de datos se actualicen con los datos más recientes. Los usuarios pueden cambiar el descriptor de versión, que se vuelve obligatorio una vez configurado. Un atributo no puede ser a la vez una clave principal (PK) y un descriptor de versión.
 
@@ -107,7 +109,7 @@ Ahora puede comprobar las definiciones de tabla y campo dentro del lienzo. [Más
 
 ## Definición de relaciones {#relationships}
 
-Para definir conexiones lógicas entre tablas dentro del esquema, siga los pasos que se indican a continuación.
+Puede especificar relaciones directamente dentro del archivo DDL al crear el esquema. Si prefiere definir relaciones fuera del archivo, puede hacerlo en la interfaz siguiendo los pasos a continuación.
 
 1. Acceda a la vista de lienzo del modelo de datos y elija las dos tablas que desea vincular
 

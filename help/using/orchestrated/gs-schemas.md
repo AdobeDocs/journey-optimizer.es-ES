@@ -5,10 +5,10 @@ title: Pasos de configuración
 description: Obtenga información sobre cómo crear un esquema basado en modelos en Adobe Experience Platform cargando un DDL
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 2%
+source-wordcount: '470'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Esta guía muestra el proceso de creación de un esquema basado en modelos, conf
 
 ## Conceptos clave
 
-En el contexto de las campañas orquestadas, un **conjunto de datos** es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas). Los datos que se incorporan correctamente a Experience Platform se almacenan dentro del lago de datos como conjuntos de datos.
+En el contexto de las campañas orquestadas, un **conjunto de datos** es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (filas) y campos (columnas). Los datos que se incorporan correctamente a Experience Platform se almacenan dentro del lago de datos como conjuntos de datos.
 
 Un **esquema** representa y valida la estructura y el formato de los datos. Proporciona una definición abstracta de un objeto del mundo real (como una persona) y describe qué datos deben incluirse en cada instancia de ese objeto (como nombre, cumpleaños, etc.).
 
@@ -52,6 +52,8 @@ Especifica lo siguiente:
 
 La organización de esquemas o tablas en un modelo de datos basado en modelos consiste en estructurar los datos en varias tablas. Asegúrese de que cada tabla almacene un tipo de entidad/esquemas
 
+➡️ [Obtenga más información acerca de los esquemas en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+
 ## Pasos de implementación {#implementation}
 
 Para introducir datos y crear un esquema basado en modelos, siga estos pasos:
@@ -62,7 +64,7 @@ Para introducir datos y crear un esquema basado en modelos, siga estos pasos:
 
    Al crear el esquema manualmente, el conjunto de datos también debe crearse y habilitarse manualmente. Al utilizar un archivo DDL, la creación y la activación de conjuntos de datos son automáticas.
 
-1. [Vínculo del esquema](file-upload-schema.md)
+1. [Vincular esquemas](file-upload-schema.md)
 
    Establezca relaciones entre los esquemas para garantizar la coherencia de los datos y habilitar consultas entre entidades. Por ejemplo, vincule las transacciones de lealtad a los destinatarios o las recompensas a las marcas.
 
@@ -70,7 +72,7 @@ Para introducir datos y crear un esquema basado en modelos, siga estos pasos:
 
    Después de definir el esquema, debe crear un conjunto de datos basado en él. Este conjunto de datos actúa como almacenamiento para los datos ingeridos.
 
-1. [Habilitar campaña organizada](manual-schema.md#enable)
+1. [Habilitar campañas organizadas](manual-schema.md#enable)
 
    El conjunto de datos almacena los datos ingeridos y debe estar habilitado para las campañas orquestadas a fin de garantizar que sea accesible en Adobe Journey Optimizer.
 

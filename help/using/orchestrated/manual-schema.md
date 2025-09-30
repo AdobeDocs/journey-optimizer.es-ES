@@ -5,9 +5,9 @@ title: Pasos de configuración
 description: Aprenda a crear esquemas basados en modelos directamente a través de la interfaz de usuario.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 5eb60e7c551796829c25a407ff45fbfec4bb76dd
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '871'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,8 @@ El ejemplo siguiente define manualmente el esquema **Pertenencias de fidelizaci�
 1. [Cree un conjunto de datos](#dataset) basado en su esquema y actívelo para usarlo en campañas orquestadas.
 
 1. [Introducir datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
+
+➡️ [Obtenga más información acerca de esquemas manuales basados en modelos en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Cree su esquema {#schema}
 
@@ -106,11 +108,11 @@ Cualquier esquema utilizado para la segmentación debe incluir al menos un campo
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-Una vez creados los atributos, debe vincular el esquema recién creado con un esquema integrado.
+Después de crear y guardar atributos, puede vincular el esquema con otros esquemas relacionales definiendo relaciones.
 
 ## Vincular esquemas {#link-schema}
 
-La creación de una relación entre dos esquemas permite enriquecer las campañas orquestadas con datos almacenados fuera del esquema de perfil principal.
+La creación de una relación entre dos esquemas permite mejorar las campañas organizadas con datos que van más allá del esquema de perfil principal.
 
 1. En el esquema recién creado, seleccione el atributo que desee usar como vínculo y haga clic en **[!UICONTROL Agregar relación]**.
 
@@ -126,11 +128,9 @@ La creación de una relación entre dos esquemas permite enriquecer las campaña
 
 1. Haga clic en **[!UICONTROL Aplicar]** una vez configurado.
 
-Una vez establecida la relación, debe crear un conjunto de datos basado en el esquema.
-
 ## Crear un conjunto de datos para el esquema {#dataset}
 
-Después de definir el esquema, el siguiente paso es crear un conjunto de datos basado en él. Este conjunto de datos almacena los datos ingeridos y debe estar habilitado para que las campañas organizadas puedan acceder a él en Adobe Journey Optimizer. Al habilitar esta opción, se garantiza que el conjunto de datos se reconozca para su uso en flujos de trabajo de orquestación y personalización en tiempo real.
+Después de definir el esquema, ahora puede crear un conjunto de datos basado en él. El conjunto de datos almacena los datos ingeridos y debe estar habilitado para que las campañas orquestadas sean accesibles.
 
 1. Vaya al menú **[!UICONTROL Administración de datos]** > **[!UICONTROL Conjuntos de datos]** y haga clic en **[!UICONTROL Crear conjunto de datos]**.
 
@@ -144,7 +144,7 @@ Después de definir el esquema, el siguiente paso es crear un conjunto de datos 
 
 1. Escriba un **[!UICONTROL Nombre]** para su **[!UICONTROL Conjunto de datos]** y haga clic en **[!UICONTROL Finalizar]**.
 
-Ahora debe habilitar el conjunto de datos para las campañas de orquestación.
+Ahora debe habilitar el conjunto de datos para campañas orquestadas.
 
 ## Habilitar conjunto de datos para campañas orquestadas {#enable}
 
@@ -160,7 +160,7 @@ Consulte [Documentación de Adobe Developer](https://developer.adobe.com/journey
 
 1. Busque su conjunto de datos en la lista **[!UICONTROL Conjuntos de datos]**.
 
-1. En la configuración de **[!UICONTROL Conjuntos de datos]**, habilite la opción **Campañas orquestadas** para que el conjunto de datos esté disponible para usar en sus campañas orquestadas.
+1. En la configuración de **[!UICONTROL Conjuntos de datos]**, habilite la opción **Campañas orquestadas** para marcar el conjunto de datos disponible para usar en sus campañas orquestadas.
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 
