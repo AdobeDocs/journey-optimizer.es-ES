@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
+source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1357'
 ht-degree: 7%
 
 ---
@@ -199,17 +199,19 @@ Al configurar un gancho web, puede definir su propósito según el tipo de datos
 
    * **[!UICONTROL Credenciales de API]**: elija en la lista desplegable sus [credenciales de API configuradas anteriormente](#api-credential).
 
+   * **[!UICONTROL Número de teléfono del remitente]**: escribe el número de teléfono del remitente &#x200B;que quieras usar para tus comunicaciones.
+
+     ![](assets/webhook-inbound.png)
+
 1. Haga clic en ![](assets/do-not-localize/Smock_Add_18_N.svg) para agregar las categorías de palabras clave y, a continuación, configúrelas de la siguiente manera:
 
    * **[!UICONTROL Categoría de palabras clave entrantes]**: elige las categorías de palabras clave **[!UICONTROL Inclusión]**, **[!UICONTROL Exclusión]**, **[!UICONTROL Ayuda]** o **[!UICONTROL Predeterminado]**.
 
-   * **[!UICONTROL Escriba una palabra clave]**: escriba las palabras clave predeterminadas o personalizadas que almacenarán automáticamente en déclencheur el mensaje. Para varias palabras clave, utilice valores separados por comas.
+   * **[!UICONTROL Escriba una palabra clave]**: escriba las palabras clave predeterminadas o personalizadas que almacenarán automáticamente en déclencheur el mensaje. Haga clic en ![](assets/do-not-localize/Smock_Add_18_N.svg) para agregar varias palabras clave.
 
-   * **[!UICONTROL Mensaje de respuesta]**: escriba la respuesta personalizada que se enviará automáticamente.
+   * **[!UICONTROL Mensaje de respuesta]**: seleccione en la lista desplegable la respuesta personalizada que se enviará automáticamente.
 
    ![](assets/sms_byo_6.png)
-
-1. Habilite la opción **[!UICONTROL exclusión aproximada]** para detectar mensajes que se parezcan a palabras clave de exclusión (por ejemplo, &quot;CANCIL&quot;).
 
 1. Haga clic en **[!UICONTROL Ver editor de carga útil]** para validar y personalizar las cargas útiles de solicitud.
 
@@ -243,6 +245,8 @@ Una vez configuradas, puede aprovechar todas las funcionalidades de canal integr
 
    * **[!UICONTROL Tipo]**: Comentarios.
 
+   ![](assets/webhook-feedback.png)
+
 1. Haga clic en **[!UICONTROL Ver editor de carga útil]** para validar y personalizar las cargas útiles de solicitud.
 
    Puede personalizar dinámicamente la carga útil mediante atributos de perfil y garantizar que se envíen datos precisos para el procesamiento y la generación de respuestas con la ayuda de funciones de ayuda integradas.
@@ -255,7 +259,7 @@ Una vez configuradas, puede aprovechar todas las funcionalidades de canal integr
 
 1. Acceda y copie su nueva **[!UICONTROL URL de webhook]** desde el **[!UICONTROL webhook]** que envió anteriormente.
 
-   ![](assets/sms_byo_7.png)
+   ![](assets/sms_byo_8.png)
 
 Después de crear y configurar las opciones de entrada para el webhook, debes crear una [configuración de canal](sms-configuration-surface.md) para los mensajes SMS.
 
