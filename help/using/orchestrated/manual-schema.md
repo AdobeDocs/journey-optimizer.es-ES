@@ -28,7 +28,7 @@ El ejemplo siguiente define manualmente el esquema **Pertenencias de fidelizaci�
 
 1. [Introducir datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
 
-➡️ [Obtenga más información acerca de esquemas manuales basados en modelos en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Obtenga más información acerca de esquemas manuales basados en modelos en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Cree su esquema {#schema}
 
