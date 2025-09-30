@@ -4,13 +4,13 @@ product: journey optimizer
 title: API de límite
 description: Aprenda a trabajar con la API de límite
 feature: Journeys, API
-role: User
+role: Developer
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '730'
 ht-degree: 6%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 6%
 
 La API de límite le ayuda a crear, configurar y supervisar sus configuraciones de límite.
 
-Esta sección proporciona información global sobre cómo trabajar con la API. Hay disponible una descripción detallada de la API en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
+Esta sección proporciona información global sobre cómo trabajar con la API. Hay disponible una descripción detallada de la API en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
 
 ## Descripción de la API de límite y colección de Postman {#description}
 
-En la tabla siguiente se enumeran los comandos disponibles para la API de límite. Encontrará información detallada, incluidos ejemplos de solicitudes, parámetros y formatos de respuesta, en la [documentación de API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
+En la tabla siguiente se enumeran los comandos disponibles para la API de límite. Encontrará información detallada, incluidos ejemplos de solicitudes, parámetros y formatos de respuesta, en la [documentación de API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/){target="_blank"}.
 
 | Método | Ruta | Descripción |
 |---|---|---|
@@ -46,13 +46,13 @@ Esta colección se ha configurado para compartir la colección Variable de Postm
 Una vez descargado y cargado en Postman, debe añadir tres variables: `{JO_HOST}`,`{BASE_PATH}` y `{SANDBOX_NAME}`.
 * `{JO_HOST}` : URL de puerta de enlace [!DNL Journey Optimizer].
 * `{BASE_PATH}` : punto de entrada para la API.
-* `{SANDBOX_NAME}`: el encabezado **x-sandbox-name** (por ejemplo, “prod”) correspondiente al nombre de la zona protegida donde se realizarán las operaciones de API. Consulte la [información general sobre las zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) para obtener más detalles.
+* `{SANDBOX_NAME}`: el encabezado **x-sandbox-name** (por ejemplo, “prod”) correspondiente al nombre de la zona protegida donde se realizarán las operaciones de API. Consulte la [información general sobre las zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es){target="_blank"} para obtener más detalles.
 
 ## Configuración de extremo
 
 Esta es la estructura básica de una configuración de extremo:
 
-```
+```json
 {
     "url": "<endpoint URL>",  //wildcards are allowed in the endpoint URL
     "methods": [ "<HTTP method such as GET, POST, >, ...],
@@ -75,12 +75,12 @@ Esta es la estructura básica de una configuración de extremo:
 >
 >El valor máximo que se puede establecer es 400. Si no se especifica nada, el sistema puede abrir varios miles de conexiones en función del escalado dinámico del sistema.
 >
->Cuando se implementa la configuración de límite, si no se ha proporcionado ningún valor &quot;maxHttpConnection&quot;, se agrega un valor predeterminado &quot;maxHttpConnection = -1&quot; a la configuración implementada, lo que significa que Journey Optimizer utilizará el valor predeterminado del sistema.
+>Cuando se implementa la configuración de límite, si no se ha establecido ningún valor `maxHttpConnections`, se agrega un valor predeterminado `maxHttpConnections = -1` a la configuración implementada y Journey Optimizer utiliza el valor de sistema predeterminado.
 
 Por ejemplo:
 
-```
-`{
+```json
+{
   "url": "https://api.example.org/data/2.5/*",
   "methods": [
     "GET"
@@ -104,7 +104,7 @@ Por ejemplo:
 
 Cuando se llama a un método **canDeploy**, el proceso valida la configuración y devuelve el estado de validación identificado por su identificador único, ya sea:
 
-```
+```json
 "ok" or "error"
 ```
 

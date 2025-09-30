@@ -4,13 +4,13 @@ product: journey optimizer
 title: API de limitación
 description: Aprenda a trabajar con la API de restricción
 feature: Journeys, API
-role: User
+role: Developer
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1024'
 ht-degree: 48%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 48%
 
 La API de restricción le ayuda a crear, configurar y supervisar sus configuraciones de restricción para limitar el número de eventos enviados por segundo.
 
-Esta sección proporciona información global sobre cómo trabajar con la API. Hay disponible una descripción detallada de la API en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
+Esta sección proporciona información global sobre cómo trabajar con la API. Hay disponible una descripción detallada de la API en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
 
 ## Lectura obligatoria
 
 * **Una configuración por organización:** Actualmente solo se permite una configuración por organización. Se debe definir una configuración en una zona protegida de producción (dada a través de `x-sandbox-name` en los encabezados).
 * **Aplicación de nivel de organización:** Se aplica una configuración en el nivel de organización.
 * **Administración de límites de API:** Cuando se alcanza el límite establecido en la API, los eventos adicionales se ponen en cola durante un máximo de 6 horas. Este valor no se puede modificar.
-* **`maxHttpConnections`parámetro:** El parámetro &quot;maxHttpConnections&quot; es un parámetro opcional disponible en la API de límite que solo le permite restringir el número de conexiones que Journey Optimizer abrirá en el sistema externo. [Aprenda a trabajar con la API de límite](../configuration/capping.md)
+* **`maxHttpConnections`parámetro:** El parámetro `maxHttpConnections` es un parámetro opcional disponible en la API de límite que solo le permite restringir el número de conexiones que Journey Optimizer abrirá en el sistema externo. [Aprenda a trabajar con la API de límite](../configuration/capping.md)
 
   Si desea restringir el número de conexiones pero también limitar esas llamadas externas, puede configurar dos configuraciones, una de limitación y otra de restricción, en el mismo punto de conexión. Ambas configuraciones pueden coexistir para un extremo. Para establecer &quot;maxHttpConnections&quot; para un extremo limitado, utilice la API de limitación para establecer el umbral de limitación y la API de restricción para establecer &quot;maxHttpConnections&quot;. Al llamar a la API de límite, puede establecer el umbral de límite en algo más alto que el umbral de restricción, de modo que la regla de límite nunca entre en juego.
 
@@ -45,20 +45,21 @@ En la tabla siguiente se enumeran los comandos disponibles para la API de regula
 | [!DNL GET] | /throttlingConfigs/`{uid}` | Recuperación de una configuración de limitación |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | Eliminación de una configuración de limitación |
 
-Además, hay disponible una colección de Postman [aquí](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json) que le ayudará en la configuración de las pruebas.
+Además, hay disponible una colección de Postman [aquí](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json){target="_blank"} que le ayudará en la configuración de las pruebas.
 
-Esta colección se ha configurado para compartir la colección Variable de Postman generada mediante __[Integraciones de la consola de Adobe I/O](https://console.adobe.io/integrations) > Probarla > Descargar para Postman__, que genera un archivo de entorno de Postman con los valores de integraciones seleccionados.
+Esta colección se ha configurado para compartir la colección Variable de Postman generada mediante **[Integraciones de la consola de Adobe I/O](https://console.adobe.io/integrations) > Probarla > Descargar para Postman**, que genera un archivo de entorno de Postman con los valores de integraciones seleccionados.
 
 Una vez descargado y cargado en Postman, debe añadir tres variables: `{JO_HOST}`,`{BASE_PATH}` y `{SANDBOX_NAME}`.
+
 * `{JO_HOST}` : URL de puerta de enlace [!DNL Journey Optimizer].
 * `{BASE_PATH}` : punto de entrada para la API.
-* `{SANDBOX_NAME}`: el encabezado **x-sandbox-name** (por ejemplo, “prod”) correspondiente al nombre de la zona protegida donde se realizarán las operaciones de API. Consulte la [información general sobre las zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) para obtener más detalles.
+* `{SANDBOX_NAME}`: el encabezado **x-sandbox-name** (por ejemplo, “prod”) correspondiente al nombre de la zona protegida donde se realizarán las operaciones de API. Consulte la [información general sobre las zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es){target="_blank"} para obtener más detalles.
 
 ## Configuración de limitación {#configuration}
 
 Esta es la estructura de una configuración de limitación. Los atributos **name** y **description** son opcionales.
 
-```
+```json
 {
     "name": "<given name - free text>",
     "description": "<given description - free text>"
@@ -70,7 +71,7 @@ Esta es la estructura de una configuración de limitación. Los atributos **name
 
 Por ejemplo:
 
-```
+```json
 {
   "name": "throttling-config-external",
   "description": "example of throttling config for an external endpoint",
@@ -88,7 +89,7 @@ Por ejemplo:
 
 Al crear o actualizar una configuración, el proceso aprueba la dada y devuelve el estado de validación identificado por su ID único, uno de los siguientes:
 
-```
+```json
 "ok" or "error"
 ```
 
@@ -123,7 +124,7 @@ Al crear, eliminar o implementar la configuración de limitación, pueden produc
 
 Al intentar crear una configuración en una zona protegida que no es de producción:
 
-```
+```json
 {
     "status": 400,
     "error": "{\"code\":1463,\"family\":\"INPUT_OUTPUT_ERROR\",\"message\":\"Operation not allowed on throttling config: non prod sandbox\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.service.authoring.restapis.v1_0.ThrottlingConfigService:384\",\"schema\":\"throttlingConfigs$ui-tests\"}",
@@ -133,7 +134,7 @@ Al intentar crear una configuración en una zona protegida que no es de producci
 
 En caso de que la zona protegida dada no exista:
 
-```
+```json
 {
     "status": 500,
     "error": "{\"code\":4000,\"family\":\"INTERNAL_ERROR\",\"message\":\"INTERNAL ERROR\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.common.exceptions.ApiErrorException:43\"}",
@@ -143,7 +144,7 @@ En caso de que la zona protegida dada no exista:
 
 Al intentar crear otra configuración:
 
-```
+```json
 {
     "status": 400,
     "error": "{\"code\":1465,\"family\":\"INPUT_OUTPUT_ERROR\",\"message\":\"Can't create throttling config: only one config allowed per org\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.service.authoring.restapis.v1_0.ThrottlingConfigService:108\",\"schema\":\"throttlingConfigs$prod\"}",
@@ -163,7 +164,7 @@ Al actualizar una configuración ya implementada, los nuevos valores se tienen e
 
 **Creación: POST**
 
-```
+```json
 {
     "canDeploy": {
         "validationStatus": "ok"
@@ -200,7 +201,7 @@ Al actualizar una configuración ya implementada, los nuevos valores se tienen e
 
 **Actualización: PUT**
 
-```
+```json
 {
     "updatedElement": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
@@ -238,7 +239,7 @@ Al actualizar una configuración ya implementada, los nuevos valores se tienen e
 
 **Leer (después de la actualización): GET**
 
-```
+```json
 {
     "result": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
@@ -270,7 +271,7 @@ Al actualizar una configuración ya implementada, los nuevos valores se tienen e
 
 **Leer (después de la implementación): GET**
 
-```
+```json
 {
     "result": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
