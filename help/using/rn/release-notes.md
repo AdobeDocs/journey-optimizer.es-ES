@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 471fb04fd1cbaff0db827d1f5320577103b35d33
+source-git-commit: d2c6c2cabc40d896fa3bf2bd401fe1c15e7c8054
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 40%
+source-wordcount: '1843'
+ht-degree: 41%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 40%
 <tr>
 <td>
 <p>Con la tecnología <a href="https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent está disponible en Journey Optimizer. Permite analizar los recorridos a través de una interfaz de lenguaje natural. El agente detectará conflictos de audiencia o programación y desplegables de perfil en un recorrido para ayudarle a tomar medidas para resolverlos. Pronto, usted será capaz de crear recorridos con apoyo auténtico.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 24 de septiembre de 2025</p>
 </td>
 </tr>
@@ -221,8 +221,6 @@ Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habil
    * Al configurar un proveedor de SMS personalizado, ahora puede definir una palabra clave **Default** que se usa cuando un SMS entrante contiene una palabra clave no reconocida. También puede crear palabras clave **Custom** para acciones específicas. [Más información](../sms/sms-configuration-custom.md) - Fecha de disponibilidad: 23 de septiembre de 2025
 
    * Ahora puede acceder a las respuestas de palabras clave de entrada no definidas enviadas mediante un mensaje SMS, incluidos los errores tipográficos, las palabras o las frases que no están definidos explícitamente en la configuración. Se almacenan en el conjunto de datos **AJO Email Tracking Experience Event**, en **InboundMessage** durante 13 meses. Solo disponible con Sinch, Infobip y el proveedor de SMS personalizado. - Fecha de disponibilidad: 23 de septiembre de 2025
-
-* **WhatsApp**: ahora puedes elegir usar la dirección de ejecución predeterminada para WhatsApp o configurar una dirección personalizada.
 
 <!--
 * **Approval policy permissions**
