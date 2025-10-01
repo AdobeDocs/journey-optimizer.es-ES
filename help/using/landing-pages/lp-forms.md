@@ -15,7 +15,7 @@ exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
 source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
 workflow-type: tm+mt
 source-wordcount: '1575'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -27,18 +27,18 @@ ht-degree: 2%
 
 Para capturar datos de perfil con sus páginas de aterrizaje de [!DNL Journey Optimizer] y enriquecer los conjuntos de datos de [!DNL Experience Platform], puede aprovechar los formularios en sus páginas de aterrizaje.
 
-## Crear un ajuste preestablecido de formulario {#create-form-preset}
+## Crear un ajuste preestablecido de un formulario {#create-form-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_connection"
->title="Seleccione el extremo que desea utilizar"
->abstract="Defina el punto final de flujo continuo al que se envían los datos al enviar el formulario."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creación de una conexión de flujo continuo HTTP API"
+>title="Seleccione el punto final que desea utilizar"
+>abstract="Defina el punto final de streaming al que se envían los datos al enviar el formulario."
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Crear una conexión de streaming de la API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
 >title="Selección de un conjunto de datos"
->abstract="Defina un conjunto de datos en el que se almacenarán y reflejarán las respuestas del formulario. Puede escribir para buscar un conjunto de datos específico o seleccionarlo en la lista."
+>abstract="Defina un conjunto de datos en el que se almacenarán y reflejarán las respuestas del formulario. Puede escribir si desea buscar un conjunto de datos específico o seleccionarlo en la lista."
 
 Antes de poder crear un formulario, debe crear un ajuste preestablecido dedicado en el que seleccione el punto final de conexión al que se envían los datos de envío del formulario y el conjunto de datos al que se almacenarán los datos capturados mediante el formulario.
 
@@ -71,7 +71,7 @@ Al crear un ajuste preestablecido:
    >
    >Obtenga más información sobre cómo crear una conexión de origen de flujo continuo en la [documentación de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
-1. Seleccione un **[!UICONTROL conjunto de datos]** para vincularlo con el formulario. Aquí es donde se almacenan y reflejan las respuestas del formulario. Puede escribir para buscar un conjunto de datos específico o seleccionarlo en la lista.
+1. Seleccione un **[!UICONTROL conjunto de datos]** para vincularlo con el formulario. Aquí es donde se almacenan y reflejan las respuestas del formulario. Puede escribir si desea buscar un conjunto de datos específico o seleccionarlo en la lista.
 
    >[!NOTE]
    >
@@ -91,9 +91,9 @@ Se muestran todos los formularios existentes. Puede filtrar los formularios en f
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_preset"
->title="Seleccionar un ajuste preestablecido"
+>title="Selección de un ajuste preestablecido"
 >abstract="Elija un ajuste preestablecido que contenga la conexión que se va a utilizar y un conjunto de datos predefinido para el formulario."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Crear un ajuste preestablecido de formulario"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Crear un ajuste preestablecido de un formulario"
 
 Para crear un formulario, siga los pasos a continuación.
 
@@ -185,11 +185,11 @@ Una vez seleccionado un atributo de campo o agregado un campo personalizado, pue
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
 
-### Configuración de la página de agradecimiento {#thank-you-page}
+### Configure la página de agradecimiento {#thank-you-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
->title="Página de agradecimientos"
+>title="Página de agradecimiento "
 >abstract="Configure lo que sucede cuando alguien rellena o reenvía el formulario."
 
 En la sección **[!UICONTROL Página de agradecimiento]**, configure lo que sucede cuando un usuario rellena el formulario.
