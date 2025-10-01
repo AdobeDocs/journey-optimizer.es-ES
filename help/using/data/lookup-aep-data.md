@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expresión, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
+source-git-commit: eb0da59bbdaa16eb381dda965cd06fb8548a945a
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '833'
 ht-degree: 5%
 
 ---
@@ -32,10 +32,22 @@ Journey Optimizer le permite aprovechar los datos de Adobe Experience Platform c
 
 Antes de empezar, revise las siguientes restricciones y directrices:
 
-* Los conjuntos de datos habilitados para la búsqueda no deben contener información de identificación personal (PII).
-* Los conjuntos de datos habilitados para la búsqueda y utilizados en la personalización no están protegidos frente a la eliminación. Depende de usted realizar un seguimiento de qué conjuntos de datos se están utilizando para la personalización a fin de asegurarse de que no se eliminen ni se eliminen.
-* Los conjuntos de datos deben asociarse con un esquema que NO sea del tipo Perfil o Evento.
-* La ingesta de datos de streaming es compatible con conjuntos de datos habilitados para búsqueda. Tenga en cuenta que el procesamiento de la ingesta debe completarse antes de que los datos estén disponibles para la personalización o la toma de decisiones.
+* **No hay PII en los conjuntos de datos**. Los conjuntos de datos habilitados para la búsqueda no deben contener información de identificación personal (PII).
+
+* 
+   * **Riesgo de eliminación**: los conjuntos de datos utilizados en la personalización no están protegidos contra eliminación. Debe realizar un seguimiento de los conjuntos de datos que se utilizan para asegurarse de que no se eliminan.
+
+* **Tipo de esquema**: los conjuntos de datos deben estar asociados con un esquema que sea **NO** de tipo perfil o evento.
+
+* **Mantener la opción de búsqueda activada**: evite activar y desactivar conjuntos de datos repetidamente. Al hacerlo, se puede producir un comportamiento de indexación inesperado. La práctica recomendada es dejar el conjunto de datos habilitado durante el tiempo que desee utilizarlo para búsquedas.
+
+* **Lote de eliminación de datos**: al quitar un lote de datos del conjunto de datos, se eliminan por completo todas las claves coincidentes del servicio de búsqueda. Por ejemplo:
+
+  **Lote 1**: Sku1, Sku2, Sku3\
+  **Lote 2**: Sku1, Sku2, Sku3, Sku4, Sku5, Sku6\
+  **Lote 3**: Sku7, Sku8, Sku9, Sku10
+
+  Si elimina **Lote 1**, Sku1, Sku2 y Sku3 se quitarán del almacén de búsqueda. Los datos de búsqueda resultantes contendrán: Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
 
 ### Derecho al servicio de búsqueda
 
