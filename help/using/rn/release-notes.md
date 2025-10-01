@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0b7adefe5eb2a2f89330437cc09a1361870c6041
+source-git-commit: 8def78063b8477eb2eaf0a95602b7d311eb1ad2e
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '1891'
 ht-degree: 40%
 
 ---
@@ -77,8 +77,8 @@ ht-degree: 40%
 <tbody>
 <tr>
 <td>
-<p>Con la tecnología <a href="https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent está disponible en Journey Optimizer. Permite analizar los recorridos a través de una interfaz de lenguaje natural. El agente detectará conflictos de audiencia o programación y desplegables de perfil en un recorrido para ayudarle a tomar medidas para resolverlos. Pronto, usted será capaz de crear recorridos con apoyo auténtico.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentación detallada</a>.</p>
+<p>Con la tecnología <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent está disponible en Journey Optimizer. Permite analizar los recorridos a través de una interfaz de lenguaje natural. El agente detectará conflictos de audiencia o programación y desplegables de perfil en un recorrido para ayudarle a tomar medidas para resolverlos. Pronto, usted será capaz de crear recorridos con apoyo auténtico.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 24 de septiembre de 2025</p>
 </td>
 </tr>
@@ -215,15 +215,15 @@ Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habil
 
 * **Webhooks**: Esta versión incorpora las siguientes mejoras para Webhooks al configurar un proveedor de SMS personalizado:
 
-   * Ahora puede definir el propósito de su webhook, ya sea entrante o de comentarios, según el tipo de datos que desee capturar. Fecha de disponibilidad: 23 de septiembre de 2025
+   * Ahora puede definir el propósito de su webhook, ya sea Entrante o Comentarios, según el tipo de datos que desee capturar. [Más información](../sms/sms-configuration-custom.md#webhook) - Fecha de disponibilidad: 23 de septiembre de 2025
 
-   * La interfaz para configurar palabras clave se ha mejorado para facilitar la configuración. Fecha de disponibilidad: 23 de septiembre de 2025
+   * La interfaz para configurar palabras clave se ha mejorado para facilitar la configuración. [Más información](../sms/sms-configuration-custom.md#webhook) - Fecha de disponibilidad: 23 de septiembre de 2025
 
 * **SMS**
 
-   * Al configurar un proveedor de SMS personalizado, ahora puede definir una palabra clave **Default** que se usa cuando un SMS entrante contiene una palabra clave no reconocida. También puede crear palabras clave **Custom** para acciones específicas. Fecha de disponibilidad: 23 de septiembre de 2025
+   * Al configurar un proveedor de SMS personalizado, ahora puede definir una palabra clave **Default** que se usa cuando un SMS entrante contiene una palabra clave no reconocida. También puede crear palabras clave **Custom** para acciones específicas. [Más información](../sms/sms-configuration-custom.md) - Fecha de disponibilidad: 23 de septiembre de 2025
 
-   * Ahora puede acceder a las respuestas de palabras clave de entrada no definidas enviadas mediante un mensaje SMS, incluidos los errores tipográficos, las palabras o las frases que no están definidos explícitamente en la configuración. Se almacenan en el conjunto de datos **AJO Email Tracking Experience Event**, en **InboundMessage** durante 13 meses. Fecha de disponibilidad: 23 de septiembre de 2025
+   * Ahora puede acceder a las respuestas de palabras clave de entrada no definidas enviadas mediante un mensaje SMS, incluidos los errores tipográficos, las palabras o las frases que no están definidos explícitamente en la configuración. Se almacenan en el conjunto de datos **AJO Email Tracking Experience Event**, en **InboundMessage** durante 13 meses. Solo disponible con Sinch, Infobip y el proveedor de SMS personalizado. - Fecha de disponibilidad: 23 de septiembre de 2025
 
 * **WhatsApp**: ahora puedes elegir usar la dirección de ejecución predeterminada para WhatsApp o configurar una dirección personalizada.
 
