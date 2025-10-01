@@ -246,4 +246,4 @@ En una matriz de objetos con el Id. suplementario como `bookingNum` y un atribut
 
 Obtenga información sobre cómo habilitar y aplicar un identificador suplementario en [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464795?quality=12&captions=spa)
