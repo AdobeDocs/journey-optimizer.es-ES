@@ -3,9 +3,9 @@ title: Uso de identificadores suplementarios en recorridos
 description: Aprenda a utilizar identificadores suplementarios en recorrido.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 6c23b920787a1b39d60b397e9c74094695e59295
+source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1381'
 ht-degree: 4%
 
 ---
@@ -16,16 +16,6 @@ ht-degree: 4%
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="Usar identificador adicional"
 >abstract="El identificador adicional es un identificador secundario que proporciona contexto adicional para la ejecución de un recorrido. Para definirlo, seleccione el campo que desea utilizar como identificador adicional y elija un espacio de nombres al que asociarlo."
-
-<!--
-By default, journeys are executed in the context of a **profile ID**. This means that, as long as the profile is active in a given journey, it won't be able to re-enter another journey. To prevent this, [!DNL Journey Optimizer] allows you to capture a **supplemental identifier**, such as an order ID, subscription ID, prescription ID, in addition to the profile ID. 
-In this example, we have added a booking ID as a supplemental identifier. 
-
-![](assets/event-supplemental-id.png){width=40% zoomable}
-
-By doing so, journeys are executed in the context of the profile ID associated to the supplemental identifier (here, the booking ID). One instance of the journey is executed for each iteration of the supplemental identifier. This allows multiple entrances of the same profile ID in journeys if they have made different bookings. 
-
-In addition, Journey Optimizer allows you to leverage attributes of the supplemental identifier (e.g., booking number, prescription renewal date, product type) for message customization, ensuring highly relevant communications.-->
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -71,6 +61,7 @@ In addition, Journey Optimizer allows you to leverage attributes of the suppleme
    * El ID suplementario se desactiva si se utiliza un evento empresarial.
    * El ID suplementario debe ser un campo del perfil (es decir, no un campo de evento/contexto).
    * Para recorridos de audiencia de lectura que utilizan ID suplementarios, la tasa de lectura de la actividad de audiencia de lectura para cada instancia de recorrido está limitada a un máximo de 500 perfiles por segundo.
+   * Solo se admiten audiencias del servicio de perfil unificado al usar recorridos de audiencia de lectura con ID suplementarios.
 
 ## Comportamiento de criterios de salida con ID suplementarios {#exit-criteria}
 
@@ -255,4 +246,4 @@ En una matriz de objetos con el Id. suplementario como `bookingNum` y un atribut
 
 Obtenga información sobre cómo habilitar y aplicar un identificador suplementario en [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464795?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

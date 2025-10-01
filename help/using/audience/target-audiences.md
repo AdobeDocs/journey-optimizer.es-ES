@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '640'
 ht-degree: 22%
 
 ---
@@ -35,11 +35,11 @@ Para las audiencias de carga personalizada y de composición de audiencia federa
 
 * **Compatibilidad con vista previa y prueba:** En la actualidad, la vista previa y la prueba no son compatibles con las audiencias creadas mediante la carga de CSV o la composición de audiencias federada. Tenga esto en cuenta al planificar las campañas.
 
-* **Segmentación de nuevos perfiles:** Cuando no se encuentra una coincidencia entre un registro y un perfil de UPS, se crea un nuevo perfil vacío. Este perfil está vinculado a los atributos de enriquecimiento que se almacenan en el lago de datos. Dado que este nuevo perfil está vacío, los campos de segmentación que se suelen utilizar en Journey Optimizer (por ejemplo, personalEmail.address, mobilePhone.number) están vacíos y, por lo tanto, no se pueden utilizar para la segmentación.
+* **Segmentación de nuevos perfiles:** Cuando no se encuentra una coincidencia entre un registro y un perfil del servicio de perfiles unificado, se crea un nuevo perfil vacío. Este perfil está vinculado a los atributos de enriquecimiento que se almacenan en el lago de datos. Dado que este nuevo perfil está vacío, los campos de segmentación que se suelen utilizar en Journey Optimizer (por ejemplo, personalEmail.address, mobilePhone.number) están vacíos y, por lo tanto, no se pueden utilizar para la segmentación.
 
   Para resolver esto, puede especificar el &quot;campo de ejecución&quot; (o la &quot;dirección de ejecución&quot; según el canal) en la configuración del canal como &quot;identityMap&quot;. Esto garantizará que el atributo elegido como identidad en el momento de la creación de la audiencia sea el que se use para la segmentación en Journey Optimizer.
 
-* **Registros activados y vinculación de identidad:** Todos los registros de la audiencia están activados, incluidos los duplicados. Durante la próxima exportación de perfiles de UPS, estos registros se vincularán con la identidad. Como resultado, el número de registros activados puede diferir del número de perfiles después de la vinculación de identidad.
+* **Registros activados y vinculación de identidad:** Todos los registros de la audiencia están activados, incluidos los duplicados. Durante la próxima exportación de perfiles del servicio de perfil unificado, estos registros se vincularán con la identidad. Como resultado, el número de registros activados puede diferir del número de perfiles después de la vinculación de identidad.
 
 ## Audiencias de destino en [!DNL Journey Optimizer]
 
