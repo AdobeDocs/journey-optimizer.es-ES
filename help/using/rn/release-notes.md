@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d2c6c2cabc40d896fa3bf2bd401fe1c15e7c8054
+source-git-commit: 0d32f1f79314694a34e1e996ed405a4484dc863d
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 41%
+source-wordcount: '1726'
+ht-degree: 44%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 41%
 <tr>
 <td>
 <p>Con la tecnología <a href="https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent está disponible en Journey Optimizer. Permite analizar los recorridos a través de una interfaz de lenguaje natural. El agente detectará conflictos de audiencia o programación y desplegables de perfil en un recorrido para ayudarle a tomar medidas para resolverlos. Pronto, usted será capaz de crear recorridos con apoyo auténtico.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 24 de septiembre de 2025</p>
 </td>
 </tr>
@@ -150,7 +150,7 @@ ht-degree: 41%
 <table>
 <thead>
 <tr>
-<th><strong>Uso de datos de Adobe Experience Platform para la personalización y la toma de decisiones</strong><br/></th>
+<th><strong>Uso de datos de Adobe Experience Platform para personalización y decisiones</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -231,41 +231,41 @@ Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habil
 
 En los próximos días, está programado el lanzamiento de las siguientes funciones y mejoras. **La información está sujeta a cambios**. Los vínculos, las pantallas y la documentación actualizados se compartirán una vez que estas actualizaciones estén activas en la producción.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Nuevo canal de notificaciones push web</strong><br/></th>
+<th><strong>New Web Push notifications channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ahora admite notificaciones push web, lo que expande el canal push más allá del móvil. Puede enviar notificaciones sin problemas a exploradores móviles y de escritorio, lo que permite llegar a los clientes directamente en sus dispositivos sin necesidad de una aplicación.</p>
-<p>Esta mejora le permite atraer a los usuarios con mensajes personalizados y oportunos en tiempo real, aprovechando los mismos flujos de trabajo de creación y las mismas capacidades de direccionamiento ya disponibles para las notificaciones push móviles.</p>
-<!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-<p>Availability date: Sept XX, 2025</p-->
+<p>Adobe Journey Optimizer now supports Web Push notifications, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app.</p>
+<p>This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Monitorización e informes de acciones personalizadas</strong><br/></th>
+<th><strong>Custom action monitoring and reporting</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ya están disponibles la monitorización y la creación de informes de acciones personalizadas. Esta capacidad proporciona una mejor visibilidad del estado y la ejecución del recorrido, incluido el estado del ciclo vital y las alertas de rendimiento. Ahora puede comprender rápidamente cuándo, dónde y por qué se produce una situación anómala en una acción personalizada.</p>
-<!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-<p>Availability date: Sept XX, 2025</p-->
+<p>Custom action monitoring and reporting is now available. This capability provides better visibility into journey health and execution, including lifecycle status and performance alerts. You can now quickly understand when, where, and why an anomalous situation is occurring in a custom action.</p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p>
 </td>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
