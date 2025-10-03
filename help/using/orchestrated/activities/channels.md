@@ -5,10 +5,10 @@ title: Añadir una actividad de canal en una campaña de varios pasos
 description: Obtenga información sobre cómo añadir una actividad de canal en una campaña de varios pasos
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: 3931b1d6fd97b92c79aff2c003f8cb692fc52e47
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 74%
+source-wordcount: '1111'
+ht-degree: 72%
 
 ---
 
@@ -60,16 +60,15 @@ Por ejemplo:
 
 Mediante las actividades del canal, puede crear campañas completas y personalizadas que atraigan a los clientes en varios puntos de contacto e impulsen las conversiones.
 
-
 >[!CAUTION]
 >
 >En las campañas organizadas solo se admiten canales SMS, push y de correo electrónico.
 
+## Añadir una actividad de canal y definir sus propiedades {#add}
+
 >[!PREREQUISITES]
 >
->Antes de añadir una actividad de canal, defina el público destinatario con la [actividad Generar público](build-audience.md).
-
-## Añadir una actividad de canal y definir sus propiedades {#add}
+>Antes de agregar una actividad de canal, defina la audiencia de destinatario con una actividad [Generar audiencia](build-audience.md) o [Leer audiencia](read-audience.md).
 
 1. Añada una actividad de canal al lienzo. Las actividades de canal disponibles son **[!UICONTROL correo electrónico]**, **[!UICONTROL SMS]** y **[!UICONTROL push]**.
 
