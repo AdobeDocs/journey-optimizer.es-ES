@@ -91,7 +91,7 @@ ht-degree: 99%
       + [Actualización de perfil](using/building-journeys/update-profiles.md)
       + [Acciones personalizadas](using/building-journeys/using-custom-actions.md)
       + [Acciones de Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
-      + [Acciones de Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
+      + [Acciones en las versiones 7 y 8 de Adobe Campaign](using/building-journeys/using-adobe-campaign-v7-v8.md)
    + Expresiones de compilación {#building-advanced-conditions-journeys}
       + [Expresiones de compilación](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [Trabajo con el editor de expresiones avanzado](using/building-journeys/expression/expressionadvanced.md)
@@ -483,7 +483,7 @@ ht-degree: 99%
          + [Creación del contenido de la página de destino](using/landing-pages/lp-content.md)
          + [Crear plantillas](using/landing-pages/lp-templates.md)
          + [Agregar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
-      + [Aprovechamiento de los formularios en las páginas de aterrizaje](using/landing-pages/lp-forms.md)
+      + [Uso de los formularios en las páginas de aterrizaje](using/landing-pages/lp-forms.md)
       + [Creación de una lista de suscripción](using/landing-pages/subscription-list.md)
       + [Descubra los casos de uso](using/landing-pages/lp-use-cases.md)
       + Configurar páginas de aterrizaje {#lp-configuration}
