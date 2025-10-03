@@ -5,9 +5,9 @@ title: Cree su dimensión de segmentación
 description: Obtenga información sobre cómo asignar un esquema relacional al perfil del cliente
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: aa075c1ca2feb3b6ef406089ab9fffd704fd95e2
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Comience por configurar la orquestación de campañas asignando un esquema relac
 
    En este ejemplo, el perfil del cliente está vinculado a varias suscripciones, cada una representada por un único `crmID` en el esquema `Recipient`. Al configurar **[!UICONTROL Target Dimension]** para que use el esquema `Recipient` y su identidad `crmID`, puede enviar mensajes en el nivel de suscripción, en lugar de al perfil de cliente principal, asegurándose de que cada contrato o línea reciba su propio mensaje personalizado.
 
-   [Más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#identity).
+   [Más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity).
 
    ![](assets/target-dimension-2.png)
 
@@ -61,7 +61,7 @@ Después de configurar **[!UICONTROL Target Dimension]**, proceda a crear y conf
 
 ## Configure su configuración de canal {#channel-configuration}
 
-Después de configurar tu **[!UICONTROL Dimension de Target]**, debes configurar tu correo electrónico o SMS **[!UICONTROL Configuración del canal]** y definir los **[!UICONTROL Detalles de ejecución]** adecuados. Esto le permite definir:
+Después de configurar su **[!UICONTROL Dimension de destino]**, debe configurar su **[!UICONTROL configuración de canal]** y definir los **[!UICONTROL detalles de ejecución]** adecuados. Esto le permite definir:
 
 * **El nivel de entrega de mensajes**: por ejemplo, enviar un mensaje por destinatario, como un solo correo electrónico por individuo.
 
