@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: daa4ab45623f3c175cf3ac1e818eb33fff835f1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1903'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -361,22 +361,22 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings"
 >title="Habilitar webhooks"
->abstract="Habilite los webhooks para recibir comentarios en tiempo real sobre el estado de ejecución de sus mensajes. Antes de activar esta opción, asegúrese de que ha configurado un webhook en el menú **Administración** / **Canales** / **Webhook de comentarios**."
+>abstract="Habilite los webhooks para recibir comentarios en tiempo real sobre el estado de ejecución de sus mensajes. Antes de activar esta opción, asegúrese de que ha configurado un webhook en el menú **Administración**/**canales**/**webhook de comentarios**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_create"
 >title="Webhooks de comentarios"
->abstract="Los webhooks de comentarios le permiten recibir comentarios en tiempo real sobre el estado de ejecución de los mensajes enviados con campañas transaccionales activadas por API. Solo se permite una configuración de gancho web por organización + combinación de zona protegida."
+>abstract="Los webhooks de comentarios le permiten recibir comentarios en tiempo real sobre el estado de ejecución de los mensajes enviados con campañas transaccionales activadas por API. Solo se permite una configuración de webhook por organización + combinación de zona protegida."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_configuration"
 >title="Configuración básica"
->abstract="En esta sección, introduzca un nombre descriptivo para identificar el webhook y seleccione los canales para los que este webhook debe recibir comentarios (correo electrónico o SMS). En el campo URL del webhook, indique el extremo HTTPS en el que deben entregarse los eventos de comentarios."
+>abstract="En esta sección, introduzca un nombre descriptivo para identificar el webhook y seleccione los canales para los que este webhook debe recibir comentarios (correo electrónico o SMS). En el campo URL del webhook, indique el punto final de HTTPS en el que deben entregarse los eventos de comentarios."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_authentication"
 >title="Autenticación"
->abstract="Si el extremo requiere autenticación JWT, seleccione **Autenticación JWT** de la lista y proporcione los detalles necesarios."
+>abstract="Si el punto final requiere autenticación JWT, seleccione **Autenticación JWT** de la lista y proporcione los detalles necesarios."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_header_parameters"

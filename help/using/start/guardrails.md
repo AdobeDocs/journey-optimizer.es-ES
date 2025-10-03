@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 26212ade689477154e4ea33dbc1970e3acea0a12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2825'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -54,9 +54,9 @@ Este cambio se implementará en las **zonas protegidas de clientes existentes** 
 
 <!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-No puede usar el mismo dominio de envío para enviar mensajes de correo electrónico desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage], por ejemplo.
+No puede utilizar el mismo dominio de envío para enviar mensajes de correo electrónico desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage], por ejemplo.
 
-### Protecciones de los SMS {#sms-guardrails}
+### Mecanismos de protección de SMS {#sms-guardrails}
 
 Las siguientes limitaciones se aplican a la actividad [canal de SMS](../sms/get-started-sms.md):
 
@@ -64,19 +64,19 @@ Las siguientes limitaciones se aplican a la actividad [canal de SMS](../sms/get-
 * Actualmente, la sincronización de comentarios de mensajes no está disponible para MMS.
 * La administración de consentimientos funciona en el nivel de canal SMS para MMS.
 
-### Protecciones del canal entrante {#inbound-guardrails}
+### Mecanismos de protección de canal de entrada {#inbound-guardrails}
 
-* Journey Optimizer admite un volumen máximo de 5000 solicitudes entrantes por segundo. Esta protección se aplica a todas las solicitudes entrantes, que pueden proceder de cualquiera de los canales entrantes admitidos por Journey Optimizer ([web](../web/get-started-web.md), [en la aplicación](../in-app/get-started-in-app.md), [experiencias basadas en código](../code-based/get-started-code-based.md), [tarjetas de contenido](../../rp_landing_pages/content-card-landing-page.md)).
+* Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido entrantes por segundo. Este mecanismo de protección se aplica a todas las solicitudes entrantes, que pueden proceder de cualquiera de los canales entrantes admitidos por Journey Optimizer ([web](../web/get-started-web.md), [en la aplicación](../in-app/get-started-in-app.md), [experiencias basadas en código](../code-based/get-started-code-based.md), [tarjetas de contenido](../../rp_landing_pages/content-card-landing-page.md)).
 
-  Los canales entrantes de Journey Optimizer se dirigen a nuevos perfiles que es posible que no se hayan utilizado anteriormente en otros canales. Esto aumentará el recuento total de perfiles con los que es posible interactuar, lo que puede tener costes si se supera el número contractual de perfiles adquiridos. 
+  Los canales de entrada de Journey Optimizer se dirigen a nuevos perfiles que quizá no hayan interactuado antes en otros canales. Esto aumentará el recuento total de perfiles con los que es posible interactuar, lo que puede tener costes si se supera el número contractual de perfiles adquiridos. 
 
   Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-* Journey Optimizer admite un máximo de 500 acciones entrantes activas en cualquier momento. Estas acciones entrantes ([web](../web/get-started-web.md), [en la aplicación](../in-app/get-started-in-app.md), [experiencias basadas en código](../code-based/get-started-code-based.md), [tarjetas de contenido](../../rp_landing_pages/content-card-landing-page.md)) se cuentan si son parte de una campaña en vivo o si son un nodo usado en un recorrido en vivo. Una vez alcanzado este número, debe desactivar las campañas o recorridos más antiguos que utilicen acciones entrantes antes de poder iniciar nuevas.
+* Journey Optimizer admite un máximo de 500 acciones entrantes activas en cualquier momento. Estas acciones entrantes ([web](../web/get-started-web.md), [en la aplicación](../in-app/get-started-in-app.md), [experiencias basadas en código](../code-based/get-started-code-based.md), [tarjetas de contenido](../../rp_landing_pages/content-card-landing-page.md)) se cuentan si son parte de una campaña activa o si son un nodo usado en un recorrido activo. Una vez alcanzado este número, debe desactivar las campañas o recorridos más antiguos que utilicen acciones entrantes antes de poder iniciar nuevas.
 
-* Para usar [acciones de experiencia basada en código](../code-based/get-started-code-based.md) en [!DNL Journey Optimizer] y entregar carga útil de contenido de código que puedan usar las aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
+* Para utilizar las acciones de [experiencia basada en código](../code-based/get-started-code-based.md) en [!DNL Journey Optimizer]y entregar carga útil de contenido de código que pueda ser utilizada por sus aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
 
-### Protecciones de mensajes transaccionales {#transactional-message-guardrails}
+### Mecanismos de protección de mensajes transaccionales {#transactional-message-guardrails}
 
 Journey Optimizer admite un volumen máximo de 500 mensajes transaccionales por segundo en las campañas.
 
@@ -171,7 +171,7 @@ Las siguientes limitaciones se aplican a las [Acciones personalizadas](../action
 
 Las siguientes limitaciones se aplican a los [Eventos](../event/about-events.md) en sus recorridos:
 
-* Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido entrantes por segundo en todas las zonas protegidas. Obtenga más información sobre esta limitación [en esta página](../event/about-events.md#event-thoughput).
+* Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido entrantes por segundo, que abarcan todas las zonas protegidas. Obtenga más información acerca de esta limitación [en esta página](../event/about-events.md#event-thoughput).
 * Los recorridos activados por eventos pueden tardar hasta 5 minutos en procesar la primera acción del recorrido.
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
 * Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de público.
@@ -204,7 +204,7 @@ Puede elegir entre una de estas dos soluciones:
 
 ### Identificadores adicionales {#supplemental}
 
-Se aplican limitaciones específicas al uso de identificadores suplementarios en los recorridos. Se muestran [en esta página](../building-journeys/supplemental-identifier.md#guardrails).
+Se aplican mecanismos de protección específicos al uso de identificadores suplementarios en los recorridos. Se muestran [en esta página](../building-journeys/supplemental-identifier.md#guardrails).
 
 ### Editor de expresiones {#expression-editor}
 
@@ -213,14 +213,14 @@ Los siguientes mecanismos de protección se aplican al [editor de expresiones de
 * Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer público, Calificación de público o una actividad de evento empresarial. Debe crear un público nuevo y utilizar una condición `inaudience` en el recorrido.
 * Los atributos `timeSeriesEvents` no se pueden usar en el editor de expresiones. Para acceder a los eventos de experiencia a nivel de perfil, cree un nuevo grupo de campos basado en un esquema `XDM ExperienceEvent`.
 
-### actividades de recorrido {#activities}
+### Actividades de recorrido {#activities}
 
-#### Actividad de calificación de audiencias {#audience-qualif-g}
+#### Actividad de calificación de público {#audience-qualif-g}
 
 El siguiente mecanismo de protección se aplica a la actividad de recorrido [Calificación de público](../building-journeys/audience-qualification-events.md):
 
 * La actividad de calificación de público no se puede utilizar con actividades de Adobe Campaign.
-* Los recorridos de cualificación de audiencias no admiten identificadores adicionales.
+* No se admiten identificadores suplementarios para los recorridos de calificación de público.
 
 #### Actividades de campaña {#ac-g}
 
@@ -253,7 +253,7 @@ Las siguientes limitaciones se aplican a la acción **[!UICONTROL Mensaje en la 
 
 Especifique protecciones específicas de la actividad **[!UICONTROL Saltar]**. Se muestran en [esta página](../building-journeys/jump.md#jump-limitations).
 
-#### Leer actividad de audiencia {#read-segment-g}
+#### Actividad Leer público {#read-segment-g}
 
 Las siguientes limitaciones se aplican a la actividad de recorrido [Público de lectura](../building-journeys/read-audience.md):
 
@@ -264,7 +264,7 @@ Las siguientes limitaciones se aplican a la actividad de recorrido [Público de 
 * Un recorrido solo puede tener una actividad **Leer público**.
 * Vea también las recomendaciones acerca de cómo usar la actividad **Leer público** en [esta página](../building-journeys/read-audience.md).
 * Los reintentos ahora se aplican de forma predeterminada en recorridos activados por públicos destinatarios (empezando con una actividad **Leer público** o **Evento empresarial**) cuando se recupera el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada.
-* En el caso de los recorridos que utilizan ID suplementarios, la tasa de lectura de la actividad de audiencia de lectura para cada instancia de recorrido está limitada a un máximo de 500 perfiles por segundo.
+* En el caso de los recorridos que utilizan ID suplementarios, la tasa de lectura de la actividad leer público para cada instancia de recorrido está limitada a un máximo de 500 perfiles por segundo.
 
 Consulte [esta página](../building-journeys/read-audience.md#must-read).
 

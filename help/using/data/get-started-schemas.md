@@ -9,9 +9,9 @@ level: Experienced
 keywords: esquemas, plataforma, datos, estructura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 81%
 
 [!DNL Adobe Journey Optimizer] se basa en los **esquemas de Adobe Experience Platform** para describir la estructura de los datos de una manera uniforme y reutilizable. Un esquema proporciona una definición abstracta de un objeto del mundo real (como una persona) y describe qué datos deben incluirse en cada instancia de ese objeto (como nombre, cumpleaños, etc.). Cuando los datos se incorporan en Experience Platform, siempre se estructuran según un **esquema XDM**.
 
-## Esquemas basados en modelos y estándares
+## Esquemas estándar y basados en modelos
 
 Existen dos tipos de esquemas en Adobe Experience Platform:
 
@@ -34,7 +34,7 @@ Existen dos tipos de esquemas en Adobe Experience Platform:
 
   ➡️ [Descubra cómo crear y configurar un esquema estándar en este vídeo](#video-schema) (vídeo)
 
-* **Los esquemas basados en modelos** son esquemas planos no jerárquicos que no utilizan clases ni grupos de campos. Se usan para capturar datos de registros para entidades relacionales y se usan principalmente en [!DNL Journey Optimizer] **campañas orquestadas**.
+* Los **esquemas basados en modelos** son esquemas planos no jerárquicos que no utilizan clases ni grupos de campos. Se usan para capturar datos de registros para entidades relacionales y se usan principalmente en [!DNL Journey Optimizer] **campañas orquestadas**.
 
   Algunos ejemplos de entidades relacionales son:
    * Reservas, contratos o suscripciones
@@ -49,14 +49,14 @@ Existen dos tipos de esquemas en Adobe Experience Platform:
    1. **Vincular esquemas** para definir las relaciones entre entidades y personas (por ejemplo, transacciones de fidelidad vinculadas a miembros, recompensas vinculadas a marcas).
    1. **Introducir datos** en su conjunto de datos desde fuentes compatibles.
 
-  ➡️ [Aprenda a administrar esquemas y conjuntos de datos basados en modelos](../orchestrated/gs-schemas.md)
-➡️ [Introducción a campañas orquestadas](../orchestrated/gs-schemas.md)
+  ➡️ [Aprenda a administrar conjuntos de datos y esquemas basados en modelos](../orchestrated/gs-schemas.md)
+➡️ [Introducción a campañas orquestadas](../orchestrated/gs-schemas.md)
 
 ## Vídeo práctico{#video-schema}
 
 Obtenga información sobre cómo crear un esquema estándar, añadir grupos de campos, crear y configurar grupos de campos personalizados.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416869?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >
