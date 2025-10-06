@@ -42,7 +42,7 @@ ht-degree: 88%
 <p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Para obtener más información, consulte la <a href="../email/pdf-attachments.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: 30 de septiembre de 2025</p-->
+<p>Fecha de disponibilidad: 30 de septiembre de 2025&lt;/p-->
 </td>
 </tr>
 </tbody>
