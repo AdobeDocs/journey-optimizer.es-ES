@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
+source-git-commit: 3a682f0fc6a6f9a3a505dfd99bd8d54dfd41a077
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -124,6 +124,7 @@ Los datos recuperados por la actividad **[!UICONTROL Búsqueda de conjuntos de d
 1. **Evento de compra**: Capture SKU del carro de compras del usuario.
 
 1. **Actividad de búsqueda de conjuntos de datos**:
+
 * Conjunto de datos: `products-dataset` (SKU como clave principal).
 * Claves de búsqueda: `list(@event{purchase_event.products.sku})`.
 * Campos que se van a devolver: `["SKU", "category", "price"]`.
@@ -133,7 +134,7 @@ Los datos recuperados por la actividad **[!UICONTROL Búsqueda de conjuntos de d
    * Filtrar SKU donde la categoría sea &quot;doméstica&quot;.
 
      ```
-     @event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookupActivity1.entities.all(currentDatasetLookupField.category == ‘household’).sku} ) )} 
+     @event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookupActivity1.entities.all(currentDatasetLookupField.category == 'household').sku} ) )} 
      ```
 
    O BIEN
@@ -141,7 +142,7 @@ Los datos recuperados por la actividad **[!UICONTROL Búsqueda de conjuntos de d
    * Sume el gasto total en productos para el hogar y compárelo con el umbral de 40 dólares.
 
      ```
-     sum(@event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookUpActivity1.entities.all(currentDatasetLookupField.category == ‘household’).sku} ) )}.price}, ',', true ) > 40
+     sum(@event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookUpActivity1.entities.all(currentDatasetLookupField.category == 'household').sku} ) )}.price}, ',', true ) > 40
      ```
 
 1. **Editor de Personalization**:
