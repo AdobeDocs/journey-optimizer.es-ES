@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f534edb8d4709c74f42bf6b2456d83de128196eb
+source-git-commit: 8be7a537781331fdc8cf198c366868ab1c886b38
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1781'
 ht-degree: 88%
 
 ---
@@ -23,6 +23,30 @@ ht-degree: 88%
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión. [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
 ## Actualizaciones del 25 de octubre {#25-10-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>Archivos adjuntos de PDF a correos electrónicos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede adjuntar un archivo PDF estático a un mensaje de correo electrónico enviado con Journey Optimizer.</p>
+<ul>
+<li>Puede enviar hasta 6 mensajes con un archivo adjunto de PDF por perfil y año.</li>
+<li>El tamaño máximo para cada archivo adjunto es 5 MB.</li>
+<li>Para cualquier tamaño o volumen adicional, puede comprar un complemento de archivos PDF adjuntos. Para obtener más información, póngase en contacto con su representante de Adobe.</li>
+</ul>
+<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>Para obtener más información, consulte la <a href="../email/pdf-attachments.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 30 de septiembre de 2025</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -304,31 +328,6 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Archivos adjuntos de PDF a correos electrónicos</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede adjuntar un archivo PDF estático a un mensaje de correo electrónico enviado con Journey Optimizer.</p>
-<ul>
-<li>Puede enviar hasta 6 mensajes con un archivo adjunto de PDF por perfil y año.</li>
-<li>El tamaño máximo para cada archivo adjunto es 5 MB.</li>
-<li>Para cualquier tamaño o volumen adicional, puede comprar un complemento de archivos PDF adjuntos. Para obtener más información, póngase en contacto con su representante de Adobe.</li>
-</ul>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
-<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<!--p>For more information, refer to the <a href="../email/pdf-attachments.md">detailed documentation</a></p>
-<p>Availability date: Sept XX, 2025</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 
 * **Nuevas alertas de recorrido**\
