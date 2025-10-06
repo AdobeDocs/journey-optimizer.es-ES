@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 3a682f0fc6a6f9a3a505dfd99bd8d54dfd41a077
+source-git-commit: 5b7847957cc0fa176a32c7e0b01d5f41fd424610
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 15%
@@ -125,9 +125,9 @@ Los datos recuperados por la actividad **[!UICONTROL Búsqueda de conjuntos de d
 
 1. **Actividad de búsqueda de conjuntos de datos**:
 
-* Conjunto de datos: `products-dataset` (SKU como clave principal).
-* Claves de búsqueda: `list(@event{purchase_event.products.sku})`.
-* Campos que se van a devolver: `["SKU", "category", "price"]`.
+   * Conjunto de datos: `products-dataset` (SKU como clave principal).
+   * Claves de búsqueda: `list(@event{purchase_event.products.sku})`.
+   * Campos que se van a devolver: `["SKU", "category", "price"]`.
 
 1. **Actividad de condición**:
 
