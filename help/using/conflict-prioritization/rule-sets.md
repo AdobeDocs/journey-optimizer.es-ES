@@ -76,7 +76,7 @@ Además de este conjunto de reglas &quot;Conjunto de reglas predeterminado globa
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Tipo de regla"
->abstract="Seleccione el tipo de regla deseado para el conjunto de reglas de canal: use el tipo **Límite de frecuencia** para aplicar reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día. Seleccione **Horas tranquilas** (disponibles en disponibilidad limitada) para definir las exclusiones basadas en el tiempo a fin de garantizar que no se envíen mensajes durante períodos de tiempo específicos&quot;."
+>abstract="Seleccione el tipo de regla deseado para el conjunto de reglas de canal: use el tipo **Límite de frecuencia** para aplicar reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día. Seleccione **Horas tranquilas** (disponibles en disponibilidad limitada) para definir las exclusiones basadas en el tiempo a fin de garantizar que no se envíen mensajes durante períodos de tiempo específicos&quot;.
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -174,4 +174,4 @@ Su estado cambiará a **[!UICONTROL Inactivo]** y la regla no se aplicará a fut
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444729?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
