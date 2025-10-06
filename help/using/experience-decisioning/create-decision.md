@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 56a7f3be7777e1c9f73a1c473bd6babf952333f1
+source-git-commit: ed0c1b9f219b3b855aaac1a27b5ceb704d6f6d5e
 workflow-type: tm+mt
-source-wordcount: '2745'
+source-wordcount: '2931'
 ht-degree: 11%
 
 ---
@@ -314,7 +314,7 @@ Ahora puede agregar todos los atributos de decisión que desee dentro de ese có
 >[!NOTE]
 >
 >Para el seguimiento de elementos de la directiva de decisión, el atributo `trackingToken` debe agregarse de la siguiente manera para el contenido de la directiva de decisión:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Haga clic en cada carpeta para expandirla. Coloque el cursor del ratón en la ubicación deseada y haga clic en el icono + situado junto al atributo que desee añadir. Puede agregar todos los atributos que desee al código.
 
@@ -378,6 +378,39 @@ El ID de fragmento y la clave de referencia se seleccionarán de la sección **[
 >[!WARNING]
 >
 >Si la clave del fragmento es incorrecta o si el contenido del fragmento no es válido, el procesamiento fallará y provocará un error en la llamada de Edge.
+
+#### Protecciones al usar fragmentos {#fragments-guardrails}
+
+**Elemento de decisión y atributos de contexto**
+
+Los atributos de elemento de decisión y los atributos contextuales no son compatibles de forma predeterminada en los fragmentos de [!DNL Journey Optimizer]. Sin embargo, puede utilizar variables globales en su lugar, como se describe a continuación.
+
+Supongamos que desea utilizar la variable *sport* en el fragmento.
+
+1. Cite esta variable en el fragmento, por ejemplo:
+
+   ```
+   Elevate your practice with new {{sport}} gear!
+   ```
+
+1. Defina la variable con la función **Let** dentro del bloque de directivas de decisión. En el ejemplo siguiente, *sport* se define con el atributo de elemento de decisión:
+
+   ```
+   {#each decisionPolicy.13e1d23d-b8a7-4f71-a32e-d833c51361e0.items as |item|}}
+   {% let sport = item._cjmstage.value %}
+   {{fragment id = get(item._experience.decisioning.offeritem.contentReferencesMap, "placement1").id }}
+   {{/each}}
+   ```
+
+**Validación del contenido de fragmentos de elementos de decisión**
+
+* Debido a la naturaleza dinámica de estos fragmentos, cuando se utilizan en una campaña, la validación del mensaje durante la creación del contenido de la campaña se omite para los fragmentos a los que se hace referencia en los elementos de decisión.
+
+* La validación del contenido del fragmento solo se produce durante la creación y publicación del fragmento.
+
+* En el caso de los fragmentos JSON, no se garantiza la validez del objeto JSON. Asegúrese de que el contenido del fragmento de expresión sea un JSON válido para que pueda utilizarse en elementos de decisión.
+
+En tiempo de ejecución, se valida el contenido de la campaña (incluido el contenido de fragmento de los elementos de decisión). En caso de error de validación, la campaña no se procesará.
 
 ## Pasos finales {#final-steps}
 
