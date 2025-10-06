@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: daa4ab45623f3c175cf3ac1e818eb33fff835f1d
-workflow-type: ht
-source-wordcount: '1903'
+source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
+workflow-type: tm+mt
+source-wordcount: '1895'
 ht-degree: 100%
 
 ---
@@ -343,18 +343,6 @@ Empecemos con [!DNL Journey Optimizer]? ¿Usuario experimentado con preguntas es
 >id="ajo_journey_simulation"
 >title="Simulación del recorrido"
 >abstract="La simulación de recorrido permite validar los recorridos y ver cómo funcionan antes de activarse. Utiliza datos de un modelo entrenado para proporcionar números en todo el recorrido y ver cómo se comportará el recorrido en un escenario del mundo real."
-
-<!-- QUIET HOURS -->
-
->[!CONTEXTUALHELP]
->id="ajo_rule_type"
->title="Tipo de regla"
->abstract="Tipo de regla"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_business_rules"
->title="Conjunto de reglas"
->abstract="Conjunto de reglas"
 
 <!-- WEBHOOKS -->
 
