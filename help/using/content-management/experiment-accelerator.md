@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 exl-id: 938b148e-b2cd-4d8b-9f73-dd62420d6184
-source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
+source-git-commit: 09a0b24c7e6ae071851a60f35f50e3f5048b0148
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 15%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 15%
 
 >[!AVAILABILITY]
 >
->**Journey Optimizer Experimentation Accelerator** requiere que los clientes tengan una licencia para Adobe Target o Adobe Journey Optimizer.
+>**Journey Optimizer Experimentation Accelerator** requiere una licencia de pago y puede trabajar con Adobe Target o Adobe Journey Optimizer.
 
 **Journey Optimizer Experimentation Accelerator** es una potente herramienta diseñada para optimizar y mejorar el proceso de experimentación. Al integrarse con Adobe Target y Adobe Journey Optimizer, proporciona una plataforma centralizada para administrar, analizar y optimizar experimentos. Al aprovechar las perspectivas impulsadas por IA y las pruebas adaptables, Journey Optimizer Experimentation Accelerator le permite tomar decisiones basadas en datos, mejorar las estrategias de marketing y obtener resultados mensurables.
 
