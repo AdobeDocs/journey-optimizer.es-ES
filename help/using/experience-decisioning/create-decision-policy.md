@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
+source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1721'
 ht-degree: 7%
 
 ---
@@ -88,9 +88,9 @@ Después de agregar una nueva política de decisión al contenido, se abre la pa
 
    ![](assets/decision-code-based-details.png)
 
-   Para el canal de correo electrónico, el campo **[!UICONTROL Número de elementos]** se establece en 1 de forma predeterminada y no se puede modificar a menos que se agregue la directiva de decisión desde un componente **[!UICONTROL Cuadrícula de repetición]**. Para devolver varios elementos en un correo electrónico, debe agregar un componente de contenido **[!UICONTROL Repetir cuadrícula]** para poder seleccionar varios elementos en el campo **[!UICONTROL Número de elementos]**. Expanda la sección siguiente para obtener más detalles:
+   Para el canal de correo electrónico, el campo **[!UICONTROL Número de elementos]** se establece en 1 de forma predeterminada y no se puede modificar a menos que se agregue la directiva de decisión desde un componente **[!UICONTROL Cuadrícula de repetición]**. Expanda la sección siguiente para obtener más detalles:
 
-   +++Devolver varios elementos de decisión en correos electrónicos
+   +++Devolver varios elementos de decisión en correos electrónicos usando un componente **[!UICONTROL Repetir cuadrícula]**
 
    1. Arrastre un componente **[!UICONTROL Repetir cuadrícula]** en el correo electrónico y configúrelo como desee mediante el panel **[!UICONTROL Configuración]**.
 
@@ -114,13 +114,9 @@ La sección **[!UICONTROL Secuencia de estrategia]** le permite seleccionar los 
 
    ![](assets/decision-code-based-strategy-sequence.png)
 
-   * **[!UICONTROL Estrategia de selección]**: las estrategias de decisión aprovechan las colecciones asociadas con las restricciones de elegibilidad y los métodos de clasificación para determinar los elementos que se mostrarán.
+   * **[!UICONTROL Estrategia de selección]**: las estrategias de decisión aprovechan las colecciones asociadas con las restricciones de elegibilidad y los métodos de clasificación para determinar los elementos que se mostrarán. Puede seleccionar una o varias estrategias de selección existentes, o crear una nueva mediante el botón **[!UICONTROL Crear estrategia de selección]**. [Aprenda a crear estrategias de selección](selection-strategies.md)
 
-     Puede seleccionar una o varias estrategias de selección existentes, o crear una nueva mediante el botón **[!UICONTROL Crear estrategia de selección]**. [Aprenda a crear estrategias de selección](selection-strategies.md)
-
-   * **[!UICONTROL Elemento de decisión]**: seleccione elementos de decisión únicos sin tener que ejecutar una estrategia de selección.
-
-     Solo puede seleccionar un elemento de decisión a la vez. Se aplicarán todas las restricciones de aceptación establecidas para el artículo.
+   * **[!UICONTROL Elemento de decisión]**: seleccione elementos de decisión únicos sin tener que ejecutar una estrategia de selección. Solo puede seleccionar un elemento de decisión a la vez. Se aplicarán todas las restricciones de aceptación establecidas para el artículo.
 
    >[!NOTE]
    >
@@ -227,9 +223,7 @@ Puede editar o eliminar una directiva de decisión en cualquier momento mediante
 
 ## Asignar una ubicación (correo electrónico) {#placement}
 
-Para los correos electrónicos, debe definir una ubicación para el componente asociado a la política de decisión.
-
-Para ello, haga clic en el botón **[!UICONTROL Decisioning]** del panel de propiedades del componente y seleccione **[!UICONTROL Asignar ubicación]**. [Aprenda a trabajar con ubicaciones](../experience-decisioning/placements.md)
+Para los correos electrónicos, debe definir una ubicación para el componente asociado a la política de decisión. Para ello, haga clic en el botón **[!UICONTROL Decisioning]** del panel de propiedades del componente y seleccione **[!UICONTROL Asignar ubicación]**. [Aprenda a trabajar con ubicaciones](../experience-decisioning/placements.md)
 
 ![](assets/decision-policy-rail.png)
 

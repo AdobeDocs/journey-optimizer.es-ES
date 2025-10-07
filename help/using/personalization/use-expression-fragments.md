@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor, biblioteca, personalización
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 24baaa2438c6bbdddd582c71dbdd36188d12f905
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Al usar el **editor de personalización**, puede aprovechar todos los fragmentos de expresiones que se han creado o guardado en la zona protegida actual.
 
-Un fragmento es un componente reutilizable al que se puede hacer referencia en [!DNL Journey Optimizer] campañas y recorridos. Esta funcionalidad permite generar previamente varios bloques de contenido personalizados que los usuarios de marketing pueden utilizar para ensamblar contenido rápidamente en un proceso de diseño mejorado. [Aprenda a crear y administrar fragmentos](../content-management/fragments.md).
+Un fragmento es un componente reutilizable al que se puede hacer referencia en [!DNL Journey Optimizer] campañas y recorridos. Esta funcionalidad permite generar previamente varios bloques de contenido personalizados que los usuarios de marketing pueden utilizar para ensamblar contenido rápidamente en un proceso de diseño mejorado. [Más información sobre fragmentos](../content-management/fragments.md)
 
 ➡️ [Aprenda a administrar, crear y usar fragmentos en este vídeo](../content-management/fragments.md#video-fragments)
 
@@ -34,7 +34,8 @@ Para añadir fragmentos de expresión al contenido, siga los pasos a continuaci�
 
 1. Abra [editor de personalización](personalization-build-expressions.md) y seleccione el botón **[!UICONTROL Fragmentos]** en el panel izquierdo.
 
-   La lista muestra todos los fragmentos de expresiones que se han creado o guardado como fragmentos en la zona protegida actual. Se ordenan por fecha de creación: los fragmentos de expresión añadidos recientemente se muestran primero en la lista. [Más información](../content-management/fragments.md#create-expression-fragment)
+   La lista muestra todos los fragmentos de expresiones que se han creado o guardado como fragmentos en la zona protegida actual. [Aprenda a crear fragmentos](../content-management/create-fragments.md)
+Se ordenan por fecha de creación: los fragmentos de expresión añadidos recientemente se muestran primero en la lista.
 
    ![](assets/expression-fragments-pane.png)
 
@@ -52,17 +53,23 @@ Para añadir fragmentos de expresión al contenido, siga los pasos a continuaci�
    >
    >Puede agregar cualquier fragmento de **Borrador** o **Activo** al contenido. Sin embargo, no podrás activar tu recorrido o campaña si se está usando un fragmento con el estado **Borrador**. En el momento de la publicación del recorrido o de la campaña, los fragmentos de borrador mostrarán un error y deberá aprobarlos para poder publicarlos.
 
-1. Una vez agregado el ID del fragmento, si abre el fragmento de expresión correspondiente y lo [edita](../content-management/fragments.md#edit-fragments) desde la interfaz, los cambios se sincronizarán. Se propagan automáticamente a todos los recorridos o campañas en borrador o activos que contengan ese ID de fragmento.
+1. Una vez agregado el ID del fragmento, si abre el fragmento de expresión correspondiente y lo [edita](../content-management/manage-fragments.md#edit-fragments) desde la interfaz, los cambios se sincronizarán. Se propagan automáticamente a todos los recorridos o campañas en borrador o activos que contengan ese ID de fragmento.
 
 1. Haga clic en el botón **[!UICONTROL Más acciones]** que está junto a un fragmento. En el menú contextual que se abre, seleccione **[!UICONTROL Ver fragmento]** para obtener más información sobre ese fragmento. El **[!UICONTROL ID de fragmento]** también se muestra y se puede copiar desde aquí.
 
    ![](assets/expression-fragment-view.png)
 
-1. Puede abrir el fragmento de expresión en otra ventana para editar su contenido y propiedades, ya sea mediante la opción **[!UICONTROL Abrir fragmento]** del menú contextual o desde el panel **[!UICONTROL Información de fragmento]**. [Obtenga información sobre cómo editar un fragmento](../content-management/fragments.md#edit-fragments)
+1. Puede abrir el fragmento de expresión en otra ventana para editar su contenido y propiedades, ya sea mediante la opción **[!UICONTROL Abrir fragmento]** del menú contextual o desde el panel **[!UICONTROL Información de fragmento]**. [Obtenga información sobre cómo editar un fragmento](../content-management/manage-fragments.md#edit-fragments)
 
    ![](assets/expression-fragment-open.png)
 
 1. A continuación, puede personalizar y validar el contenido como de costumbre utilizando todas las capacidades de personalización y creación de [editor de personalización](personalization-build-expressions.md).
+
+1. En algunos casos, solo es necesario calcular las variables, por lo que es posible que desee ocultar el contenido del fragmento de expresión. Para ello, use el atributo `render` y configúrelo en `false`. Por ejemplo:
+
+   ```
+   Hi {{profile.person.name.firstName|fragment id='ajo:fragmentId/variantId' mode ='inline' render=false}}
+   ```
 
 >[!NOTE]
 >
@@ -76,21 +83,21 @@ Esta capacidad se puede utilizar, por ejemplo, para inicializar los parámetros 
 
 Los siguientes casos de uso son posibles:
 
-1. Uso de variables de entrada en un fragmento
+1. **Usar variables de entrada en un fragmento.**
 
-   Cuando se utiliza un fragmento en el contenido de una acción de Campaign/recorrido, tiene la capacidad de aprovechar las variables que se declararon fuera del fragmento. A continuación se muestra un ejemplo:
+   Cuando se utiliza un fragmento en el contenido de una acción de campaña o recorrido, tiene la capacidad de aprovechar las variables que se declararon fuera del fragmento. A continuación se muestra un ejemplo:
 
    ![](../personalization/assets/variable-in-a-fragment.png)
 
    Podemos ver arriba que la variable `utm_content` está declarada en el contenido de la campaña. Cuando se usa el fragmento **Bloque principal**, mostrará un vínculo al que se agregará el valor del parámetro `utm_content`. El resultado final es: `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`.
 
-1. Uso de variables de salida de un fragmento
+1. **Usar variables de salida de un fragmento.**
 
    Las variables calculadas o definidas dentro de un fragmento están disponibles para su uso en el contenido. En el ejemplo siguiente, un fragmento **F1** declara un conjunto de variables:
 
    ![](../personalization/assets/personalize-with-variables.png)
 
-   En el contenido de un correo electrónico, podemos tener la siguiente personalización:
+   En el contenido de un correo electrónico, puede tener la siguiente personalización:
 
    ![](../personalization/assets/use-fragment-variable.png)
 
@@ -107,7 +114,7 @@ Si se han hecho editables ciertas partes de un fragmento de expresión mediante 
 
 Para personalizar los campos, siga estos pasos:
 
-1. Inserte el fragmento en su código desde el menú **Fragmentos**.
+1. Inserte el fragmento en su código desde el menú **[!UICONTROL Fragmentos]**.
 
 1. Utilice el código `<fieldId>="<value>"` al final de la sintaxis para anular el valor predeterminado de la variable.
 
