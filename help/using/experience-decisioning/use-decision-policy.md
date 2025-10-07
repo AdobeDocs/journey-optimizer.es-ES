@@ -54,7 +54,7 @@ Ahora puede agregar todos los atributos de decisión que desee dentro de ese có
 >[!NOTE]
 >
 >Para el seguimiento de elementos de la directiva de decisión, el atributo `trackingToken` debe agregarse de la siguiente manera para el contenido de la directiva de decisión:
->>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Para añadir un atributo, haga clic en el icono &quot;+&quot; junto a él. Puede agregar todos los atributos que desee al código.
 
