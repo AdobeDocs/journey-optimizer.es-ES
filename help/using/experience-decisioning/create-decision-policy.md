@@ -5,10 +5,10 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 8%
+source-wordcount: '1745'
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,13 @@ ht-degree: 8%
 >abstract="La secuencia de la estrategia de selección determina qué estrategia se evaluará primero. Se requiere al menos una estrategia. Los elementos de decisión de las estrategias combinadas se evaluarán juntos."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Creación de estrategias"
 
-Para presentar la mejor oferta dinámica y experiencia a sus clientes, agregue una política de decisión al contenido de una campaña o recorrido y, a continuación, configure los elementos que desea devolver y la estrategia de selección que desea utilizar. Para ello, siga los pasos que aparecen a continuación.
+Para presentar la mejor oferta dinámica y experiencia a sus clientes, agregue una política de decisión al contenido de una campaña o recorrido y, a continuación, configure los elementos que desea devolver y la estrategia de selección que desea utilizar. Para ello, siga los pasos a continuación:
+
+1. [Agregar una política de decisión](#add) - Desde el editor de Personalization o desde el Designer de correo electrónico.
+1. [Configurar la directiva de decisión](#configurre): agregue un nombre y especifique el número de elementos que desea devolver.
+1. [Configurar una secuencia de estrategia](#strategy): seleccione los elementos que desea devolver con la directiva de decisión.
+1. [Seleccionar ofertas de reserva](#fallback) (opcional): seleccione los elementos que desea mostrar si no se cumplen los requisitos para los elementos o las estrategias de selección.
+1. [Revisar y guardar](#review) la estrategia de selección
 
 >[!AVAILABILITY]
 >
@@ -51,9 +57,7 @@ Para presentar la mejor oferta dinámica y experiencia a sus clientes, agregue u
    >
    >Tenga en cuenta que cualquier política de decisión configurada dentro del correo electrónico no se guardará en la plantilla. Si aplica la plantilla a otro correo electrónico, debe volver a configurar la directiva.
 
-1. Abra el editor de personalización para crear la política de decisión.
-
-   Para los correos electrónicos, también puede utilizar un menú dedicado en el Diseñador de correo electrónico para crear una política de decisión. Expanda las secciones siguientes para explorar los dos métodos.
+1. Abra **editor de personalización** para crear la directiva de decisión. En el caso de los mensajes de correo electrónico, también puede utilizar un menú específico en **Diseñador de correo electrónico** para crear una directiva de decisión. Expanda las secciones siguientes para explorar los dos métodos.
 
    +++Cree una política de decisión desde el editor de Personalization
 
@@ -74,7 +78,7 @@ Para presentar la mejor oferta dinámica y experiencia a sus clientes, agregue u
 
    +++
 
-## Configurar los detalles de la política de decisión {#configure}
+## Configurar la directiva de decisión {#configure}
 
 Después de agregar una nueva política de decisión al contenido, se abre la pantalla de configuración de la política de decisión.
 
@@ -84,9 +88,9 @@ Después de agregar una nueva política de decisión al contenido, se abre la pa
 
    ![](assets/decision-code-based-details.png)
 
-   Si desea devolver varios elementos en un mensaje de correo electrónico, debe utilizar un componente de contenido **[!UICONTROL Repetir cuadrícula]**. Expanda la sección siguiente para obtener más detalles:
+   Para el canal de correo electrónico, el campo **[!UICONTROL Número de elementos]** se establece en 1 de forma predeterminada y no se puede modificar a menos que se agregue la directiva de decisión desde un componente **[!UICONTROL Cuadrícula de repetición]**. Para devolver varios elementos en un correo electrónico, debe agregar un componente de contenido **[!UICONTROL Repetir cuadrícula]** para poder seleccionar varios elementos en el campo **[!UICONTROL Número de elementos]**. Expanda la sección siguiente para obtener más detalles:
 
-   +++ Devolver varios elementos de decisión en correos electrónicos
+   +++Devolver varios elementos de decisión en correos electrónicos
 
    1. Arrastre un componente **[!UICONTROL Repetir cuadrícula]** en el correo electrónico y configúrelo como desee mediante el panel **[!UICONTROL Configuración]**.
 
@@ -102,7 +106,7 @@ Después de agregar una nueva política de decisión al contenido, se abre la pa
 
 1. Haga clic en **[!UICONTROL Next]**.
 
-## Seleccionar elementos y configurar estrategias de selección {#select}
+## Configurar una secuencia de estrategia {#strategy}
 
 La sección **[!UICONTROL Secuencia de estrategia]** le permite seleccionar los elementos de decisión y configurar estrategias de selección para presentar con la directiva de decisión.
 
@@ -203,7 +207,7 @@ Puede seleccionar cualquier elemento de la lista, que muestra todos los elemento
 >[!NOTE]
 > Las retrospectivas son opcionales. Se puede seleccionar hasta el número de elementos solicitados. Si ninguno es elegible y no se establece ninguna reserva, no se mostrará nada.
 
-## Revisar y guardar la directiva de decisión {#save}
+## Revisar y guardar la directiva de decisión {#review}
 
 Después de configurar una estrategia de selección y agregar ofertas de reserva, haga clic en **[!UICONTROL Siguiente]** para revisar y guardar la directiva de decisión y, a continuación, haga clic en **[!UICONTROL Crear]** para confirmar la creación de la directiva.
 
