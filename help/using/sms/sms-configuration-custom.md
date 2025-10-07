@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1355'
 ht-degree: 7%
 
 ---
@@ -173,7 +173,7 @@ Si no se proporcionan las palabras clave de inclusión u exclusión, se utilizan
 
 >[!ENDSHADEBOX]
 
-Una vez que las credenciales de la API se hayan creado correctamente, el siguiente paso es crear un webhook y configurar los ajustes de entrada. Esta configuración garantiza que el sistema pueda recibir y procesar correctamente los datos o mensajes entrantes.
+Una vez que las credenciales de la API se hayan creado correctamente, ahora puede configurar los webhooks para capturar las respuestas entrantes para administrar el consentimiento de inclusión y de exclusión, y para recibir informes de entrega, incluidas las confirmaciones de lectura, cuando estén disponibles.
 
 Al configurar un gancho web, puede definir su propósito según el tipo de datos que desee capturar:
 
