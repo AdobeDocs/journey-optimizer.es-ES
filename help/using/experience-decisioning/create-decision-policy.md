@@ -5,7 +5,7 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 8%
@@ -234,3 +234,4 @@ Para ello, haga clic en el botón **[!UICONTROL Decisioning]** del panel de prop
 Ahora que sabe cómo crear una directiva de decisión, está listo para usarlo en [!DNL Journey Optimizer] canales para entregar ofertas.
 
 ➡️ [Aprenda a utilizar las directivas de decisión en los mensajes](../experience-decisioning/use-decision-policy.md)
+
