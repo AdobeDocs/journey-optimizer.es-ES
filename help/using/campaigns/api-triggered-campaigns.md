@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 53%
+source-wordcount: '275'
+ht-degree: 58%
 
 ---
 
@@ -43,6 +43,8 @@ Los canales disponibles para las campañas activadas por API son correo electró
 
 ## Pasos clave para la creación de campañas activadas por API {#steps}
 
+Antes de comenzar con las campañas, compruebe los siguientes requisitos previos enumerados [en esta sección](get-started-with-campaigns.md#permissions). Una vez cumplidos estos requisitos previos, puede empezar a crear la campaña:
+
 1. [Definir las propiedades de la campaña](api-triggered-campaign-properties.md)
 1. [Configurar la acción de campaña](api-triggered-campaign-action.md)
 1. [Edición del contenido de la campaña](api-triggered-campaign-content.md)
@@ -51,12 +53,8 @@ Los canales disponibles para las campañas activadas por API son correo electró
 1. [Revisión y activación de la campaña](review-activate-api-triggered-campaign.md)
 1. [Activación de la ejecución de la campaña](trigger-campaigns.md)
 
->[!IMPORTANT]
->
->Antes de crear su campaña, asegúrese de haber revisado los [requisitos previos generales de la campaña](../campaigns/get-started-with-campaigns.md#prerequisites).
-
 ## Vídeotutoriales {#video}
 
 Obtenga información sobre cómo crear una campaña y almacenarla en déclencheur desde un sistema externo basado en las interacciones del usuario, mediante la API de REST de ejecución de mensaje interactivo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452728?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

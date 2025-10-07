@@ -10,33 +10,14 @@ mini-toc-levels: 1
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 14%
+source-wordcount: '1709'
+ht-degree: 15%
 
 ---
 
 # Acceso y administración de campañas {#manage-campaigns}
-
-Antes de comenzar con las campañas, compruebe los siguientes requisitos previos enumerados [en esta sección](get-started-with-campaigns.md#permissions). Una vez cumplidos estos requisitos previos, puede empezar a crear la campaña:
-
-* **Campañas de acceso**. Puede acceder a las campañas desde la [lista de campañas](#access) o desde el [calendario de campañas](#calendar).
-
-* **Crear la campaña**. Los pasos de creación dependen del [tipo de campaña](get-started-with-campaigns.md#get-started-with-campaigns). Aprenda a crear una [campaña de acción](../campaigns/create-campaign.md), una [campaña desencadenada por API](../campaigns/api-triggered-campaigns.md) o una [campaña orquestada](../orchestrated/create-orchestrated-campaign.md).
-
-* **Defina las propiedades de la campaña**. Aprenda a establecer propiedades para una [campaña de acción](../campaigns/campaign-properties.md), para una [campaña desencadenada por API](../campaigns/api-triggered-campaign-properties.md) o para una [campaña orquestada](../orchestrated/create-orchestrated-campaign.md).
-
-* **Defina los canales y el contenido de la campaña**. Aprenda a definir el contenido de una [campaña de acción](../campaigns/campaign-content.md), una [campaña desencadenada por API](../campaigns/api-triggered-campaign-content.md) o una [campaña orquestada](../orchestrated/orchestrate-activities.md).
-
-* **Programe su campaña**. Puede comprobar las campañas programadas [en el calendario de campañas](#calendar).
-
-A continuación, inicie las pruebas, mejore y perfeccione la campaña antes de ejecutarla. Una vez que la campaña esté activa, puede monitorizarla y acceder a los informes.
-
-Ver todos los estados de campaña y las alertas [en esta sección](#statuses).
-
-
-## Acceso a campañas {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
