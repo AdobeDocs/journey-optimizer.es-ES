@@ -5,9 +5,9 @@ title: Limitaciones y protecciones de campañas organizadas
 description: Obtenga información acerca de las limitaciones y protecciones de campañas orquestadas
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '508'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ A continuación, encontrará limitaciones y protecciones al utilizar campañas o
 
 * El número promedio de atributos por esquema **no debe exceder las 50 columnas** para mantener la capacidad de administración y el rendimiento.
 
-* Los esquemas basados en modelos no se pueden habilitar para Adobe Experience Platform **Perfiles**. Solo se admiten esquemas XDM estándar para **Perfiles** de Adobe Experience Platform. Los esquemas basados en modelos se pueden habilitar para campañas organizadas o campañas de acción. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Los esquemas basados en modelos no se pueden habilitar para Adobe Experience Platform **Perfiles**. Solo se admiten esquemas XDM estándar para **Perfiles** de Adobe Experience Platform. Los esquemas basados en modelos se pueden habilitar para campañas organizadas o campañas de acción. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Ingesta de datos
 
@@ -68,6 +68,8 @@ A continuación, encontrará limitaciones y protecciones al utilizar campañas o
 * El `table_name` asignado durante la creación del conjunto de datos es permanente y se utiliza en todas las funciones de segmentación y personalización.
 
 * **No se admiten los grupos de campos** en el marco de modelado de datos actual.
+
+* La compatibilidad con claves principales compuestas con flujos de carga de archivos no está disponible en este momento.
 
 ## Limitaciones de actividades
 

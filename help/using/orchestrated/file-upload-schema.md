@@ -5,10 +5,10 @@ title: Pasos de configuración
 description: Obtenga información sobre cómo crear un esquema basado en modelos en Adobe Experience Platform cargando un DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 47%
+source-wordcount: '1084'
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ En esta sección se proporciona una guía paso a paso sobre cómo crear un esque
 
 1. [Introducir datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
 
-➡️ [Obtenga más información acerca de los esquemas basados en modelos en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/model-based)
+➡️ [Obtenga más información acerca de los esquemas basados en modelos en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## Cargar un archivo DDL{#ddl-upload}
 
@@ -149,6 +149,10 @@ Puede especificar relaciones directamente dentro del archivo DDL al crear el esq
    * **Forzar diseño automático**: organiza automáticamente los esquemas para mejorar la organización.
 
    * **Mostrar mapa**: active una superposición del minimapa para que sea más fácil navegar por diseños de esquema grandes o complejos.
+
+   * **Expandir todo/contraer todo**: expanda o contraiga rápidamente todos los nodos de esquema para mostrar u ocultar sus atributos.
+
+   * **Descargar**: Descargue el diagrama de ER como archivo .png.
 
 1. Haga clic en **Guardar** cuando haya terminado. Esta acción crea los esquemas y los conjuntos de datos asociados y habilita el conjunto de datos para su uso en campañas organizadas.
 
