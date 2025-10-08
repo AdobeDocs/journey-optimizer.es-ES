@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, diseño, accesibilidad
-source-git-commit: 57890eede1d5a0de6002f31b9ce8807a903b84f7
+exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
+source-git-commit: dc7b24223bd32a75b87946733a6b098811e007d9
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 0%
@@ -30,8 +31,8 @@ En línea con esto, las prácticas recomendadas para diseñar contenido accesibl
 >En esta página se trata de poner el contenido a disposición de todos los destinatarios para garantizar que las personas con discapacidades puedan leer, comprender e interactuar con los mensajes de correo electrónico y las páginas de aterrizaje diseñados con [!DNL Journey Optimizer].
 >
 >Por otro lado, la accesibilidad de la interfaz de [!DNL Journey Optimizer] se detalla en [esta sección](../start/accessibility.md).
-> 
->## Garantizar la legibilidad del texto {#text-readability}
+
+## Garantizar la legibilidad del texto {#text-readability}
 
 Aproveche la pestaña **[!UICONTROL Estilos]** del componente **[!UICONTROL Texto]** para asegurarse de que el texto sea legible, por ejemplo, usando un contraste de color adecuado y fuentes simples. [Más información](content-components.md#text)
 
