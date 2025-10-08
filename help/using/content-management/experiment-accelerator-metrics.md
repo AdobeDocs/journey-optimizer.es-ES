@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 664f6bafd4cfb4d86b7a449c279484ca49933247
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 2%
@@ -49,6 +49,8 @@ Los siguientes valores de resumen están disponibles para consulta rápida:
 Cada valor incluye un cambio porcentual con respecto al período anterior, lo que facilita ver si el rendimiento mejora, disminuye o permanece estable.
 
 ### Efecto del experimento
+
+![](assets/experiment-monitor-metrics-3.png)
 
 Esta sección muestra todos los experimentos activos dentro del lapso de tiempo seleccionado (últimos 90 días, últimos 30 días o últimos 7 días) y destaca su contribución a la métrica.
 
