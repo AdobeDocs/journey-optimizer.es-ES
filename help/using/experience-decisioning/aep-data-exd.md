@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
+source-git-commit: 813e7a61a69e73afe3f2f9fc808c551d85bd22a0
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1200'
 ht-degree: 25%
 
 ---
@@ -44,15 +44,17 @@ ht-degree: 25%
 >title="Agregar conjunto de datos"
 >abstract="Use los atributos de conjuntos de datos de [!DNL Adobe Experience Platform] para definir criterios de límite basados en atributos externos dinámicos. Haga clic en **[!UICONTROL Agregar conjunto de datos]** para seleccionar el conjunto de datos de Adobe Experience Platform con los atributos que necesita. Si el conjunto de datos no se muestra en la lista, asegúrese de que lo ha habilitado para la búsqueda y de que ha creado una asignación de búsqueda de conjunto de datos."
 
+[!DNL Journey Optimizer] le permite aprovechar los datos de [!DNL Adobe Experience Platform] para la toma de decisiones. Esto le permite ampliar la definición de los atributos de decisión a datos adicionales en conjuntos de datos para actualizaciones masivas que cambian periódicamente sin tener que actualizar manualmente los atributos de uno en uno. Por ejemplo, disponibilidad, tiempos de espera, etc.
+
 >[!AVAILABILITY]
 >
 >Actualmente, esta función está disponible para todos los clientes como una versión de disponibilidad limitada.
 
-[!DNL Journey Optimizer] le permite aprovechar los datos de [!DNL Adobe Experience Platform] para la toma de decisiones. Esto le permite ampliar la definición de los atributos de decisión a datos adicionales en conjuntos de datos para actualizaciones masivas que cambian periódicamente sin tener que actualizar manualmente los atributos de uno en uno. Por ejemplo, disponibilidad, tiempos de espera, etc.
+## Mecanismos de protección y limitaciones {#guardrails}
 
->[!IMPORTANT]
->
->[!DNL Journey Optimizer]admite hasta 1000 búsquedas para una única directiva de decisión.
+* **Canales admitidos**: la búsqueda de conjuntos de datos con toma de decisiones actualmente funciona para acciones personalizadas de correo electrónico y Recorrido. <!--Support for code-based experience channels is coming soon.-->
+* **Uso de atributos**: la funcionalidad de búsqueda del conjunto de datos para la toma de decisiones amplía las definiciones de elementos de decisión con atributos adicionales, no extiende atributos a perfiles
+* Límites de búsqueda: [!DNL Journey Optimizer] admite hasta 1000 búsquedas por directiva de decisión única.
 
 ## Requisitos previos
 
