@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
+source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Ahora puede agregar todos los atributos de decisión que desee dentro de ese có
 >[!NOTE]
 >
 >Para el seguimiento de elementos de la directiva de decisión, el atributo `trackingToken` debe agregarse de la siguiente manera para el contenido de la directiva de decisión:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Para añadir un atributo, haga clic en el icono &quot;+&quot; junto a él. Puede agregar todos los atributos que desee al código.
 
@@ -78,13 +78,13 @@ También puede añadir cualquier otro atributo disponible en el editor de person
 
 ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## Aprovechamiento de fragmentos {#fragments}
+## Aprovechamiento de fragmentos (experiencia basada en código) {#fragments}
 
 Si la política de decisión contiene elementos de decisión, incluidos fragmentos, puede aprovechar estos fragmentos en el código de la política de decisión. [Más información sobre fragmentos](../content-management/fragments.md)
 
 >[!AVAILABILITY]
 >
->Actualmente, esta capacidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
+>Actualmente, esta funcionalidad solo está disponible para el canal de experiencia basado en código y para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
 
 Por ejemplo, supongamos que desea mostrar contenido diferente para varios modelos de dispositivos móviles. Asegúrese de agregar los fragmentos correspondientes a esos dispositivos al elemento de decisión que está utilizando en la directiva de decisión. [Más información](items.md#attributes).
 
