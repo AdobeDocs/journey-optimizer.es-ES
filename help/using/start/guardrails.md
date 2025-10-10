@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 26212ade689477154e4ea33dbc1970e3acea0a12
-workflow-type: ht
-source-wordcount: '2825'
-ht-degree: 100%
+source-git-commit: 5bc1a3a3e41d50890237fbc431bffab921d7d19f
+workflow-type: tm+mt
+source-wordcount: '2823'
+ht-degree: 99%
 
 ---
 
@@ -274,4 +274,4 @@ Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL A
 
 ## Protecciones en orquestación de campañas {#orchestration-guardrails}
 
-Las protecciones y limitaciones que se deben tener en cuenta al trabajar con la orquestación de campañas se detallan en esta sección: [Limitaciones y protecciones en la gestión de decisiones](../orchestrated/guardrails.md).
+Las protecciones y limitaciones que se deben tener en cuenta al trabajar con Campaign Orchestration se detallan en esta sección: [Protecciones y limitaciones](../orchestrated/guardrails.md).
