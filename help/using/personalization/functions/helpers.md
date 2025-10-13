@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 110c4895ac7f0b683a695e9705a8f8ac54d09637
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 5%
+source-wordcount: '616'
+ht-degree: 6%
 
 ---
 
@@ -106,7 +106,7 @@ La instrucción `elseif` especificará una nueva condición para comprobar si la
 
 >[!NOTE]
 >
->Para obtener más información acerca de las audiencias y el servicio de segmentación, consulte esta [sección](../../audience/about-audiences.md).
+>Para obtener más información acerca de las audiencias y el servicio de segmentación, consulte [esta sección](../../audience/about-audiences.md).
 
 
 ## Unless{#unless}
@@ -211,3 +211,78 @@ El siguiente ejemplo permite calcular la suma total de los precios de los produc
     {{/each}}
 {{sum}}
 ```
+
+## Metadatos de ejecución {#execution-metadata}
+
+>[!AVAILABILITY]
+>
+>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+
+El asistente `executionMetadata` permite capturar y almacenar dinámicamente pares de clave-valor personalizados en el contexto de ejecución del mensaje.
+
+**Sintaxis**
+
+```
+{{executionMetadata key="your_key" value="your_value"}}
+```
+
+En esta sintaxis, `key` hace referencia al nombre de los metadatos y `value` son los metadatos que se van a conservar.
+
+**Caso de uso**
+
+Con esta función, puede anexar información contextual a cualquier acción nativa desde sus campañas o recorridos. Esto permite exportar datos contextuales de envío en tiempo real a sistemas externos para varios fines, como seguimiento, análisis, personalización y procesamiento descendente.
+
+>[!NOTE]
+>
+>[acciones personalizadas](../../action/action.md) no admiten la función de metadatos de ejecución.
+
+Por ejemplo, puede utilizar el asistente de Metadatos de ejecución para anexar un ID específico a cada entrega enviada a cada perfil. Esta información se genera durante el tiempo de ejecución y los metadatos de ejecución enriquecidos se pueden exportar para la reconciliación de flujo descendente con una plataforma de informes externa.
+
+**Funcionamiento**
+
+Seleccione cualquier elemento del contenido del canal dentro de una campaña o un recorrido y, con el editor de personalización, agregue el asistente de `executionMetadata` a este elemento.
+
+>[!NOTE]
+>
+>La función de metadatos de ejecución no está visible cuando se muestra el contenido en sí.
+
+
+Durante el tiempo de ejecución, el valor de los metadatos se agrega al **[!UICONTROL Conjunto de datos de evento de comentarios de mensajes]** existente con la siguiente adición de esquema:
+
+```
+"_experience": {
+  "customerJourneyManagement": {
+    "messageExecution": {
+      "metadata": {
+        "your_key": "your_value"
+      }
+    }
+  }
+}
+```
+
+>[!NOTE]
+>
+>Obtenga más información sobre los conjuntos de datos en [esta sección](../../data/get-started-datasets.md).
+
+**Limitación**
+
+Hay un límite superior de 2 kb en los pares de valor clave por acción.
+
+Si se supera el límite de 2 KB, el mensaje se envía, pero cualquiera de los pares de valor clave se puede truncar.
+
+**Ejemplo**
+
+```
+{{executionMetadata key="firstName" value=profile.person.name.firstName}}
+```
+
+En este ejemplo, suponiendo `profile.person.name.firstName` = &quot;Alex&quot;, la entidad resultante es:
+
+```
+{
+  "key": "firstName",
+  "value": "Alex"
+}
+```
+
