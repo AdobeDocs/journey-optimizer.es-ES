@@ -6,9 +6,9 @@ feature: Release Notes
 description: Explicación del ciclo de versiones de Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 0de90d707c02e11bfb8a6af7b22d4273a8b6b88d
+source-git-commit: 625dfbb66effb30172f6faf56db6fe512aef909a
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ Como parte de este modelo:
 
 ## Programación y cadencia de versiones {#release-timing}
 
-[!DNL Adobe Journey Optimizer] suele seguir una cadencia de lanzamiento mensual, y las implementaciones suelen realizarse durante la última semana de cada mes. Las notas de la versión mensuales y la documentación relacionada se publican los martes. Las notas previas al lanzamiento se publican los viernes anteriores a la semana de lanzamiento.
+[!DNL Adobe Journey Optimizer] suele seguir una cadencia de lanzamiento mensual, y las implementaciones suelen realizarse durante la última semana de cada mes. Las notas de la versión mensuales y la documentación relacionada se publican los martes de la semana de lanzamiento. Las notas previas al lanzamiento se publican los viernes anteriores a la semana de lanzamiento.
 
 >[!TIP]
 >
 > Al final de cada trimestre, los lanzamientos se pueden anticipar y desplegar hasta dos semanas antes del final del mes para alinearse con los programas trimestrales o con los lanzamientos de productos dependientes.
 
-Aunque la versión mensual introduce el conjunto principal de nuevas funciones y correcciones, el método de entrega continua permite implementar actualizaciones adicionales entre ciclos cuando están listas. Las notas de la versión y la documentación relacionada se actualizan en consecuencia y se menciona la fecha de disponibilidad. Todos los cambios publicados durante el mes se consolidan en las notas de la versión mensuales en la fecha de lanzamiento.
+Aunque la versión mensual introduce el conjunto principal de nuevas funciones y correcciones, el método de entrega continua permite implementar actualizaciones adicionales entre ciclos cuando están listas. Las notas de la versión se actualizan según corresponda en la sección _Últimas actualizaciones_, y se menciona la fecha de disponibilidad. Todos los cambios publicados durante el mes se consolidan en las notas de la versión mensuales en la fecha de lanzamiento.
 
 
 ## Rutas de lanzamiento {#release-paths}
@@ -48,10 +48,10 @@ Las funciones de Journey Optimizer siguen diferentes rutas de versión según su
 
 Las rutas comunes de versiones incluyen:
 
-* **Directo a GA** — Algunas mejoras menores o incrementales van directamente a General Availability (GA).
-* **LA → GA**: las funciones primero están disponibles para una audiencia limitada (disponibilidad limitada) antes del despliegue general.
+* **Directo a GA** — Algunas nuevas funcionalidades y mejoras van directamente a General Availability (GA).
+* **LA → GA** — Algunas funciones están disponibles por primera vez para una audiencia limitada (disponibilidad limitada) antes del despliegue general.
 * **Beta → LA → GA**: las capacidades más grandes o experimentales progresan en todas las fases para pruebas y validación.
-* **Beta → GA**: Algunas funciones de Beta estables pueden pasar directamente a GA sin una fase de LA intermedia.
+* **Beta → GA**: Algunas funciones estables de Beta pueden pasar directamente a GA sin una fase intermedia de LA.
 
 >[!TIP]
 >
@@ -62,14 +62,14 @@ Las rutas comunes de versiones incluyen:
 
 | **Etiqueta** | **Finalidad** | **Disponibilidad** | **Notas de clave** |
 |------------|-------------|------------------|----------------|
-| **Beta** | Pruebas tempranas y recopilación de comentarios. | Limitado a los clientes u organizaciones seleccionados que participan en el programa Beta de Adobe. | * No destinado a uso en producción.<br>* La funcionalidad o el diseño pueden cambiar antes de GA.<br>: los comentarios ayudan a perfeccionar la implementación final. |
-| **Disponibilidad limitada (LA)** | Implementación controlada para validación y monitorización. | Habilitado solo para clientes o entornos seleccionados (por ejemplo, entornos limitados de desarrollo). | * Función es casi final y monitoreado activamente.<br>: se usa para validar el rendimiento y la escalabilidad antes del lanzamiento general.<br>* El acceso requiere la aprobación de Adobe. |
-| **Disponibilidad general (GA)** | Amplia versión de funcionalidad totalmente compatible. | Habilitado de forma predeterminada para todas las organizaciones aptas. | * Listo para la producción y totalmente compatible.<br>* Pueden aplicarse licencias o derechos.<br>* puede implementarse progresivamente en todas las regiones. |
+| **Beta** | Pruebas tempranas y recopilación de comentarios. | Limitado a los clientes u organizaciones seleccionados que participan en el programa Beta de Adobe. | - No destinado a la producción.<br>: la funcionalidad o el diseño pueden cambiar antes de GA.<br>: los comentarios ayudan a perfeccionar la implementación final. |
+| **Disponibilidad limitada (LA)** | Implementación controlada para validación y monitorización. | Habilitado solo para clientes o entornos seleccionados (por ejemplo, entornos limitados de desarrollo). | - Funcionalidad casi final y monitorizada activamente.<br>: se usa para validar el rendimiento y la escalabilidad antes del lanzamiento general.<br>: el acceso requiere la aprobación de Adobe. |
+| **Disponibilidad general (GA)** | Amplia versión de funcionalidad totalmente compatible. | Habilitado de forma predeterminada para todas las organizaciones aptas. | - Listo para la producción y totalmente compatible.<br> - Pueden aplicarse licencias o derechos.<br>: puede implementarse progresivamente en todas las regiones. |
 
 
 ## Despliegue y disponibilidad {#rollout}
 
-Incluso después de un anuncio de GA, el despliegue puede ocurrir gradualmente entre organizaciones o regiones. Si una nueva funcionalidad no aparece inmediatamente en su entorno, normalmente estará disponible unos días o semanas después del lanzamiento.
+Incluso después de un anuncio de GA, el despliegue puede ocurrir gradualmente entre organizaciones o regiones. Si una nueva funcionalidad no aparece inmediatamente en su entorno, normalmente estará disponible unos días después del lanzamiento.
 
 Esta implementación gradual ayuda a Adobe a supervisar la estabilidad, el rendimiento y la experiencia del usuario antes de completar la implementación.
 
