@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
+source-git-commit: 82bc2fd4ab90e31b86c9da8472018897131a8d05
 workflow-type: tm+mt
 source-wordcount: '1712'
 ht-degree: 76%
@@ -20,9 +20,9 @@ ht-degree: 76%
 >title="Novedades"
 >abstract="**Adobe Journey Optimizer** ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en estas notas de la versión."
 
-[!DNL Adobe Journey Optimizer] sigue un **modelo de envío continuo**, lo que permite a Adobe ofrecer nuevas funciones, mejoras y correcciones de forma continua. Este enfoque permite un **despliegue escalable y gradual** de capacidades para garantizar el rendimiento y la estabilidad en todos los entornos.
+[!DNL Adobe Journey Optimizer] sigue un modelo de envío continuo, lo que permite a Adobe ofrecer nuevas funciones, mejoras y correcciones de forma continua. Este enfoque permite un despliegue escalable y gradual de las funciones para garantizar el rendimiento y la estabilidad en todos los entornos.
 
-Debido a este modelo, las notas de la versión se **actualizan entre versiones mensuales**.  En la sección [Últimas actualizaciones](#updates-rn) dedicada se destacan las nuevas funcionalidades y mejoras que se implementan en la producción, por lo que siempre se le informa de todos los cambios en tiempo real. <!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
+Debido a este modelo, las notas de la versión se actualizan entre versiones mensuales.  En la sección [Últimas actualizaciones](#updates-rn) dedicada se destacan las nuevas funcionalidades y mejoras que se implementan en la producción, por lo que siempre se le informa de todos los cambios en tiempo real. <!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
 
 [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
