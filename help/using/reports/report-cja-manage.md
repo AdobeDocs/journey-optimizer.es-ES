@@ -193,7 +193,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >[!IMPORTANT]
 >
 >Cada organización se limita a publicar 25 audiencias. Además, los usuarios pueden publicar un máximo de 5 audiencias por hora y 20 por día.
->> Las audiencias únicas tienen una duración de 48 horas. Por lo tanto, si se publican 25 audiencias dentro de ese periodo de tiempo, las audiencias adicionales solo se pueden publicar una vez transcurrido el periodo de 48 horas.
+>&#x200B;> Las audiencias únicas tienen una duración de 48 horas. Por lo tanto, si se publican 25 audiencias dentro de ese periodo de tiempo, las audiencias adicionales solo se pueden publicar una vez transcurrido el periodo de 48 horas.
 
 Ahora puede seleccionar datos específicos dentro de la tabla y crear directamente una audiencia a partir de estas selecciones, lo que optimiza y simplifica el proceso de creación de audiencias.
 
