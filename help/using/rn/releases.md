@@ -6,7 +6,7 @@ feature: Release Notes
 description: Explicación del ciclo de versiones de Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
+source-git-commit: f00deec2db697dccca161d82fe80b7f3f451c172
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer] funciona en un modelo de envío continuo, lo que permite un enfoque escalable y gradual de la implementación de funcionalidades. Este modelo permite a Adobe ofrecer innovación con mayor rapidez y garantizar una estabilidad y un rendimiento continuos durante el despliegue.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 > Dado que [!DNL Adobe Journey Optimizer] utiliza el envío continuo, es posible que las nuevas funciones aparezcan de forma progresiva en todas las organizaciones o regiones.
 
@@ -35,7 +35,7 @@ Como parte de este modelo:
 
 [!DNL Adobe Journey Optimizer] suele seguir una cadencia de lanzamiento mensual, y las implementaciones suelen realizarse durante la última semana de cada mes. Las notas de la versión mensuales y la documentación relacionada se publican los martes. Las notas previas al lanzamiento se publican los viernes anteriores a la semana de lanzamiento.
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 > Al final de cada trimestre, los lanzamientos se pueden anticipar y desplegar hasta dos semanas antes del final del mes para alinearse con los programas trimestrales o con los lanzamientos de productos dependientes.
 
@@ -53,7 +53,7 @@ Las rutas comunes de versiones incluyen:
 * **Beta → LA → GA**: las capacidades más grandes o experimentales progresan en todas las fases para pruebas y validación.
 * **Beta → GA**: Algunas funciones de Beta estables pueden pasar directamente a GA sin una fase de LA intermedia.
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 > Si está interesado en acceder anticipadamente a las funciones de Beta o en disponibilidad limitada, póngase en contacto con su representante de Adobe para discutir las opciones de participación.
 
