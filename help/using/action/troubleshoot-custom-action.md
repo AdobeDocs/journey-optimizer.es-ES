@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '642'
 ht-degree: 2%
 
 ---
@@ -88,3 +88,13 @@ Si la solicitud falla, puede comprobar lo siguiente:
 * El método de solicitud (GET frente a POST) y la carga útil correspondiente.
 * El extremo y los encabezados de la API definidos en la acción personalizada.
 * Utilice los datos de respuesta para identificar posibles errores de configuración.
+
+## Recursos adicionales
+
+Examine las secciones siguientes para obtener más información sobre la configuración y el uso de las acciones personalizadas:
+
+* [Empiece a usar las acciones personalizadas](../action/action.md): descubra qué es una acción personalizada y cómo le ayudan a conectarse a sistemas de terceros
+* [Configurar las acciones personalizadas](../action/about-custom-action-configuration.md): aprenda a crear y configurar una acción personalizada
+* [Usar acciones personalizadas](../building-journeys/using-custom-actions.md): aprenda a usar acciones personalizadas en sus recorridos
+* [Pasar colecciones a parámetros de acción personalizados](../building-journeys/collections.md): aprenda a pasar una colección en parámetros de acción personalizados que se rellenan dinámicamente durante la ejecución
+

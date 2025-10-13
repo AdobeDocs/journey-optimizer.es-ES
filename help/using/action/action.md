@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acciones, recorrido, mensajes, envío, conexiones
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 46%
+source-wordcount: '358'
+ht-degree: 37%
 
 ---
 
@@ -49,4 +49,14 @@ Aprenda a solucionar problemas de una acción personalizada [en esta página ded
 
 Obtenga información sobre cómo configurar acciones personalizadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430277?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+
+## Recursos adicionales
+
+Examine las secciones siguientes para obtener más información sobre la configuración y el uso de las acciones personalizadas:
+
+* [Configurar las acciones personalizadas](../action/about-custom-action-configuration.md): aprenda a crear y configurar una acción personalizada
+* [Usar acciones personalizadas](../building-journeys/using-custom-actions.md): aprenda a usar acciones personalizadas en sus recorridos
+* [Pasar colecciones a parámetros de acción personalizados](../building-journeys/collections.md): aprenda a pasar una colección en parámetros de acción personalizados que se rellenan dinámicamente durante la ejecución
+* [Solución de problemas con acciones personalizadas](../action/troubleshoot-custom-action.md) - Aprenda a solucionar problemas de una acción personalizada
+

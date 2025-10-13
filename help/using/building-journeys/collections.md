@@ -1,27 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Paso de colecciones de forma dinámica mediante acciones personalizadas
-description: Envío de un mensaje mediante Campaign v7/v8
+title: Paso de colecciones a parámetros de acción personalizados
+description: Aprenda a pasar colecciones de forma dinámica en Journey Optimizer mediante acciones personalizadas
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 8f25fd5110777c148246864b364d02e4c6bf00da
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 6%
+source-wordcount: '723'
+ht-degree: 2%
 
 ---
 
 
-# Paso de colecciones de forma dinámica mediante acciones personalizadas{#passing-collection}
+# Paso de colecciones a parámetros de acción personalizados {#passing-collection}
 
-Puede pasar una colección en parámetros de acción personalizados que se rellenarán dinámicamente durante la ejecución. Se admiten dos tipos de colecciones:
+Puede pasar una colección en parámetros de acción personalizados que se rellenan dinámicamente durante la ejecución.
 
-* **colecciones simples**: matrices de tipos de datos simples, por ejemplo, con un listString:
+Se admiten dos tipos de colecciones:
+
+* **Colecciones simples**
+
+  Utilice colecciones simples para listas de valores básicos, como cadenas, números o valores booleanos. Son útiles cuando solo necesita pasar una lista de elementos sin propiedades adicionales.
+
+  Por ejemplo, una lista de tipos de dispositivos:
 
   ```json
   {
@@ -32,7 +38,11 @@ Puede pasar una colección en parámetros de acción personalizados que se relle
   }
   ```
 
-* o **colecciones de objetos**: una matriz de objetos JSON, por ejemplo:
+* **Colecciones de objetos**
+
+  Utilice colecciones de objetos cuando cada elemento incluya varios campos o propiedades. Normalmente se utilizan para pasar datos estructurados, como detalles de productos, registros de eventos o atributos de elementos.
+
+  Por ejemplo:
 
   ```json
   {
@@ -56,6 +66,9 @@ Puede pasar una colección en parámetros de acción personalizados que se relle
   }
   ```
 
+>[!NOTE]
+>
+>Las matrices anidadas dentro de colecciones solo se admiten parcialmente en las cargas útiles de solicitudes de acciones personalizadas. Para obtener más información, consulte [Limitaciones](#limitations).
 
 ## Procedimiento general {#general-procedure}
 
@@ -125,6 +138,8 @@ Para el campo de matriz, también puede utilizar el editor de expresiones avanza
 
 ## Limitaciones {#limitations}
 
+Aunque las colecciones en acciones personalizadas proporcionan flexibilidad para pasar datos dinámicos, hay que tener en cuenta ciertas restricciones estructurales:
+
 * **Compatibilidad con matrices anidadas en acciones personalizadas**
 
   Adobe Journey Optimizer admite matrices anidadas de objetos en **cargas de respuesta** de acción personalizada, pero esta compatibilidad está limitada en **cargas de solicitud**.
@@ -172,7 +187,7 @@ Para el campo de matriz, también puede utilizar el editor de expresiones avanza
       ```
 
 
-* Para probar colecciones con el modo de prueba, debe utilizar el modo de vista de código. El modo de vista de código no es compatible con eventos empresariales en este momento. Solo puede enviar una colección con un solo elemento.
+* **Colecciones de prueba**: para probar las colecciones con el modo de prueba, debe usar el modo de vista de código. Tenga en cuenta que el modo de vista de código no es compatible con eventos empresariales, por lo que en ese caso, solo puede enviar una colección que contenga un solo elemento.
 
 
 ## Casos particulares{#examples}
@@ -208,6 +223,12 @@ Ejemplo de matriz de matrices:
 }
 ```
 
-**Temas relacionados**
+## Recursos adicionales
 
-[Uso de acciones personalizadas](../building-journeys/using-custom-actions.md)
+Examine las secciones siguientes para obtener más información sobre la configuración, el uso y la resolución de problemas de sus acciones personalizadas:
+
+* [Empiece a usar las acciones personalizadas](../action/action.md): descubra qué es una acción personalizada y cómo le ayudan a conectarse a sistemas de terceros
+* [Configurar las acciones personalizadas](../action/about-custom-action-configuration.md): aprenda a crear y configurar una acción personalizada
+* [Usar acciones personalizadas](../building-journeys/using-custom-actions.md): aprenda a usar acciones personalizadas en sus recorridos
+* [Solución de problemas con acciones personalizadas](../action/troubleshoot-custom-action.md) - Aprenda a solucionar problemas de una acción personalizada
+
