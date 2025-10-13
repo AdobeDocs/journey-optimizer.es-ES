@@ -9,9 +9,9 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: b1598fe695a53fd5261b3067f220dc3eea295dfb
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2481'
 ht-degree: 6%
 
 ---
@@ -57,6 +57,8 @@ Para pausar el recorrido, siga estos pasos:
 
    * **Retener** perfiles: los perfiles esperarán al siguiente nodo **Acción** para que se reanude el recorrido
    * **Descartar** perfiles: los perfiles se excluirán del recorrido en el siguiente nodo **Acción**
+
+   Cuando pone en pausa un recorrido, se da por hecho que planea reanudarlo en algún momento. Sin embargo, un recorrido no puede permanecer pausado indefinidamente. Para evitarlo, puede definir cuánto tiempo debe permanecer en pausa la recorrido (entre 1 y 14 días). Después del número seleccionado de días, la recorrido se reanuda automáticamente.
 
 1. Haga clic en el botón **Pausar** para confirmar.
 
@@ -199,7 +201,7 @@ Cuando reanude este recorrido:
 
 ## Solución de problemas de descartes de perfiles en recorridos pausados {#discards-troubleshoot}
 
-Puede usar el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
+Puede usar el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
 
 * Para los descartes que se producen antes de que el perfil entre en la recorrido, utilice el siguiente código:
 
