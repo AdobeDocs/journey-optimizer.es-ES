@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6782fabc6cb268218f55469298758272f887156a
+source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 72%
@@ -251,8 +251,6 @@ Fecha de disponibilidad: 6 de octubre de 2025
 <p>Fecha de disponibilidad: 1 de septiembre de 2025</p>
 </td>
 </tr>
-</tbody>
-</table>
 
 
 ### Mejoras {#sept-25-9-improvements}

@@ -6,10 +6,11 @@ description: Aprenda a configurar su entorno para enviar notificaciones push con
 feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
-exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
+hidefromtoc: true
+hide: true
 source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1890'
 ht-degree: 6%
 
 ---
@@ -132,8 +133,7 @@ El SDK de Adobe Experience Platform Mobile proporciona API de integración del l
 
 Al final de esto, también debería haber creado y configurado una propiedad móvil en [!DNL Adobe Experience Platform Data Collection]. Normalmente, creará una propiedad móvil para cada aplicación móvil que desee administrar. Aprenda a crear y configurar una propiedad móvil en [Documentación de Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
-<!--To enable **Web push notifications**, ensure that the [pushNotifications property](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) is properly configured within the Web SDK. Then, use [the sendPushSubscription command](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) to register push subscriptions with Adobe Experience Platform.
--->
+Para habilitar **notificaciones push web**, asegúrese de que la propiedad [pushNotifications](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) esté configurada correctamente en Web SDK. A continuación, use [el comando sendPushSubscription](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) para registrar suscripciones push en Adobe Experience Platform.
 
 ## Paso 1: Añadir las credenciales push de la aplicación en Journey Optimizer {#push-credentials-launch}
 
@@ -175,15 +175,13 @@ Se requiere el registro de credenciales push de aplicaciones móviles para autor
 
       1. Arrastre y suelte las credenciales push de FCM. Para obtener más información sobre cómo obtener las credenciales push, consulte [Documentación de Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-<!--
-    * **For Web**
+   * **Para la Web**
 
-        ![](assets/add-app-config-web.png)
+     ![](assets/add-app-config-web.png)
 
-        1. Provide the **[!UICONTROL App ID]**.
+      1. Proporcione el **[!UICONTROL ID de aplicación]**.
 
-        1. Enter your **[!UICONTROL VAPID public key]** and **[!UICONTROL private key]**.
--->
+      1. Escriba su **[!UICONTROL clave pública VAPID]** y **[!UICONTROL clave privada]**.
 
 1. Haga clic en **[!UICONTROL Enviar]** para crear la configuración de la aplicación.
 
@@ -228,7 +226,7 @@ Una vez creadas las credenciales de inserción, debe crear una configuración pa
 
 1. Seleccione **[!UICONTROL Acciones de marketing]** para asociar directivas de consentimiento a los mensajes que usan esta configuración. Todas las políticas de consentimiento asociadas con la acción de marketing se aprovechan para respetar las preferencias de los clientes. [Más información](../action/consent.md#surface-marketing-actions)
 
-1. Elija su **[!UICONTROL plataforma]**: Android o iOS <!--and/or Web-->.
+1. Elija su **[!UICONTROL plataforma]**: Android, iOS o web.
 
 1. Seleccione el mismo **[!UICONTROL ID de aplicación]** que para la [credencial push](#push-credentials-launch) configurada anteriormente.
 

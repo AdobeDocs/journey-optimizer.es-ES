@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: e7567a68425c8fba5fc0f0b84b494b20d9f4df89
+source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 16%
@@ -75,7 +75,7 @@ Una vez añadidos, los contenidos se muestran a la derecha del cuerpo de la noti
 
 Cree una notificación procesable añadiendo botones al contenido push.
 
-Si la pantalla del dispositivo está bloqueada, no se muestran estos botones: solo están visibles el **Título** y el **Mensaje** de la notificación. Si su dispositivo está desbloqueado, los destinatarios verán los botones.
+Si la pantalla del dispositivo está bloqueada, no se muestran estos botones: solo entonces están visibles el **Título** y el **Mensaje** de la notificación. Si su dispositivo está desbloqueado, los destinatarios verán los botones.
 
 En la versión de Android, puede añadir hasta tres botones.
 
