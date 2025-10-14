@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 25b4c66ac907780a587b6e599cb8965e0bb1626f
+source-git-commit: 3d14a6ea3bd6756304db3fdf80b2a2786d5d2a1c
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '626'
 ht-degree: 2%
 
 ---
@@ -37,9 +37,9 @@ El gráfico **[!UICONTROL Tendencia de impresión y clics]** presenta un anális
 
 +++ Más información sobre las métricas de tendencias de impresión y clics
 
-* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en los mensajes en la aplicación.
+* **[!UICONTROL Clics]**: Número de veces que el usuario interactuó con los mensajes en la aplicación.
 
-* **[!UICONTROL Pantallas]**: Número de veces que se abrió el mensaje.
+* **[!UICONTROL Pantallas]**: Número de veces que se mostró el mensaje en la aplicación al usuario.
 
 +++
 
@@ -53,7 +53,7 @@ El gráfico **[!UICONTROL Clics]** muestra las métricas de clics en la aplicaci
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus mensajes en la aplicación
 
-* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en los mensajes en la aplicación.
+* **[!UICONTROL Clics]**: Número de veces que el usuario interactuó con los mensajes en la aplicación.
 
 +++
 
@@ -65,7 +65,7 @@ El gráfico **[!UICONTROL Muestra]** le ayuda a comprender el alcance general de
 
 +++ Más información sobre las Métricas de visualización
 
-* **[!UICONTROL Pantallas]**: Número de veces que se abrió el mensaje.
+* **[!UICONTROL Pantallas]**: Número de veces que se mostró el mensaje en la aplicación al usuario.
 
 * **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió el mensaje, no se tienen en cuenta las interacciones múltiples de un perfil.
 
@@ -85,17 +85,17 @@ La tabla **[!UICONTROL Datos de seguimiento]** ofrece una instantánea detallada
 
 * **[!UICONTROL Tasa de clics abiertos (CTOR)]**: Número de veces que se abrieron los mensajes en la aplicación.
 
-* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en los mensajes en la aplicación.
+* **[!UICONTROL Clics]**: Número de veces que el usuario interactuó con los mensajes en la aplicación.
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus mensajes en la aplicación.
 
-* **[!UICONTROL Pantallas]**: Número de veces que se abrió el mensaje.
+* **[!UICONTROL Pantallas]**: Número de veces que se mostró el mensaje en la aplicación al usuario.
 
 * **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió el mensaje, no se tienen en cuenta las interacciones múltiples de un perfil.
 
-* **[!UICONTROL Envíos]**: Número total de envíos para sus mensajes en la aplicación.
+* **[!UICONTROL Envíos]**: Número de veces que la aplicación solicitó la campaña en la aplicación. Varias solicitudes por sesión de usuario (por ejemplo, al iniciar o volver a cargar) pueden hacer que este valor supere los recuentos de usuarios únicos si los datos de la campaña no se almacenan en caché.
 
-* **[!UICONTROL Activado entrante]**: Número de veces que un mensaje en la aplicación se activó mediante una interacción de usuario o un evento predefinido.
+* **[!UICONTROL Activado entrante]**: Número de veces que la aplicación ha considerado la posibilidad de mostrar el mensaje en la aplicación. Este número puede ser inferior al total de envíos si las reglas del lado de la aplicación impidieron que apareciera el mensaje.
 
 * **[!UICONTROL Descartes entrantes]**: Cantidad de veces que los usuarios descartaron el mensaje en la aplicación sin interactuar con él.
 
@@ -112,9 +112,9 @@ La tabla **[!UICONTROL Etiquetas de vínculos rastreados]** ofrece una descripci
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus mensajes en la aplicación.
 
-* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en los mensajes en la aplicación.
+* **[!UICONTROL Clics]**: Número de veces que el usuario interactuó con los mensajes en la aplicación.
 
-* **[!UICONTROL Pantallas]**: Número de veces que se abrió el mensaje.
+* **[!UICONTROL Pantallas]**: Número de veces que se mostró el mensaje en la aplicación al usuario.
 
 * **[!UICONTROL Visualizaciones únicas]**: Número de veces que se abrió el mensaje, no se tienen en cuenta las interacciones múltiples de un perfil.
 
@@ -130,6 +130,6 @@ La tabla **[!UICONTROL URL de vínculos rastreados]** proporciona una visión ge
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de sus mensajes en la aplicación.
 
-* **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en los mensajes en la aplicación.
+* **[!UICONTROL Clics]**: Número de veces que el usuario interactuó con los mensajes en la aplicación.
 
 +++
