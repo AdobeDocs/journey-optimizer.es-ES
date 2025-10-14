@@ -6,9 +6,10 @@ description: Preguntas de solución de problemas de Journey Optimizer
 feature: Get Started
 role: User
 level: Intermediate
-source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
+exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
+source-git-commit: f46cc01dce5ab0a30c1f0907b2a4684802b216be
 workflow-type: tm+mt
-source-wordcount: '2674'
+source-wordcount: '2746'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 A continuación se muestra una lista de artículos de solución de problemas para Adobe Journey Optimizer. Cada sección de solución de problemas proporciona respuestas a las preguntas más frecuentes y soluciones a los problemas.
 
-Consulte también [Preguntas frecuentes sobre Adobe Experience Platform y la documentación de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-platform/landing/troubleshooting){target="_blank"}.
+Consulte también [Preguntas frecuentes sobre Adobe Experience Platform y la documentación de solución de problemas](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting){target="_blank"}.
 
 ## Canal de correo electrónico {#ajo-troubleshooting-email}
 
@@ -148,14 +149,14 @@ Las dificultades para informar sobre el **canal en la aplicación** en Adobe Cus
 
 Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"} para obtener más información sobre este problema.
 
-Obtenga más información sobre cómo integrar datos de Journey Optimizer Analytics en Customer Journey Analytics [en esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"}.
+Obtenga más información sobre cómo integrar datos de Journey Optimizer Analytics en Customer Journey Analytics [en esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"}.
 
 Consulte también la [documentación de informes permanentes de Journey Optimizer](../reports/report-gs-cja.md)
 
 +++
 
 
-## Gestión de datos {#ajo-troubleshooting-data-management}
+## Administración de datos {#ajo-troubleshooting-data-management}
 
 +++ ¿Cómo se aplica la configuración del tiempo de vida (TTL) a los conjuntos de datos del perfil y del lago de datos al crear una nueva zona protegida?
 
@@ -190,7 +191,7 @@ Consulte [este artículo de solución de problemas](https://experienceleague.ado
 
 Obtenga más información acerca de la actividad **Actualizar perfil** en los recorridos [de esta página](../building-journeys/update-profiles.md).
 
-Consulte también la [documentación de Adobe Experience Platform sobre la Ingesta de datos](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
+Consulte también la [documentación de Adobe Experience Platform sobre la Ingesta de datos](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
 
 +++
 
@@ -200,9 +201,9 @@ La discrepancia puede producirse cuando el recorrido utiliza una instantánea de
 
 Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} para conocer los pasos que debe seguir para resolver este problema.
 
-Más información en [esta publicación de la comunidad de Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=es){target="_blank"}.
+Más información en [esta publicación de la comunidad de Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
-Consulte también la [Documentación de la API de horarios de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"} para comprobar cuándo se ha programado su trabajo diario.
+Consulte también la [Documentación de la API de horarios de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"} para comprobar cuándo se ha programado su trabajo diario.
 
 +++
 
@@ -215,7 +216,7 @@ Consulte [este artículo de solución de problemas](https://experienceleague.ado
 
 Obtenga más información acerca de la actividad **Actualizar perfil** en los recorridos [de esta página](../building-journeys/update-profiles.md).
 
-Consulte también la [documentación del perfil de Adobe Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}.
+Consulte también la [documentación del perfil de Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}.
 
 +++
 
@@ -227,7 +228,7 @@ Consulte [este artículo de solución de problemas](https://experienceleague.ado
 
 Controle el uso de licencias de su organización y los perfiles atractivos mediante [Tablero de uso de licencias](../audience/license-usage.md)
 
-Consulte también la [descripción general del servicio Adobe Experience Platform Query](https://experienceleague.adobe.com/es/docs/experience-platform/query/home?lang=en){target="_blank"}.
+Consulte también la [descripción general del servicio Adobe Experience Platform Query](https://experienceleague.adobe.com/en/docs/experience-platform/query/home?lang=en){target="_blank"}.
 
 +++
 
@@ -257,7 +258,6 @@ Para obtener Recorridos, consulte las siguientes secciones de solución de probl
 * [Solución de problemas de acciones entrantes en recorridos](../building-journeys/troubleshooting-inbound.md)
 * [Solucionar problemas de ejecución de recorrido activo](../building-journeys/troubleshooting-execution.md)
 * [Solución de problemas de acciones personalizadas](../action/troubleshoot-custom-action.md)
-
 
 
 +++ ¿Por qué se pierden las expresiones al crear una nueva versión del recorrido?  
@@ -324,6 +324,14 @@ Consulte [este artículo de solución de problemas](https://experienceleague.ado
 Obtenga más información acerca de la API de restricción de Recorrido [en esta página](../configuration/throttling.md).
 
 Consulte también la [documentación sobre la integración con sistemas externos](../configuration/external-systems.md).
+
++++
+
++++ ¿Qué pasos debe seguir si se produce un error 403 con el mensaje **invalid_access** o **No se concede acceso a este dataId=XX** al publicar una audiencia desde una flecha?
+
+Para resolver este error, pídale al administrador que compruebe que su perfil de usuario tiene acceso a las vistas de datos necesarias para la publicación de audiencias e intente publicar la audiencia de nuevo.
+
+Consulte [la documentación de permisos](../administration/permissions.md){target="_blank"} para conocer los pasos que debe seguir para resolver este problema.
 
 +++
 
@@ -405,7 +413,6 @@ Los errores de acceso al usar la **API del servicio de consultas** a través de 
 
 Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"} para obtener más información.
 
-Consulte también la [Documentación de administración de credenciales de API](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"}.
+Consulte también la [Documentación de administración de credenciales de API](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"}.
 
 +++
-
