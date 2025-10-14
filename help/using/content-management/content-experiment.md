@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
+source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1843'
 ht-degree: 6%
 
 ---
@@ -264,9 +264,9 @@ Para habilitar el escalado automático en los experimentos:
    * En cuanto se encuentre el ganador.
    * Después de que el experimento esté activo durante el tiempo seleccionado.
 
-La hora de escalado automático debe programarse antes de la fecha de finalización del experimento. Si se establece para una hora después de la fecha de finalización, aparece una advertencia de validación y la campaña o el recorrido no se publican.
+   La hora de escalado automático debe programarse antes de la fecha de finalización del experimento. Si se establece para una hora después de la fecha de finalización, aparece una advertencia de validación y la campaña o el recorrido no se publican.
 
-    ![](assets/scale-winner-2.png)
+   ![](assets/scale-winner-2.png)
 
 1. Elija el comportamiento de reserva si no se encuentra ningún ganador por tiempo de escala:
 
