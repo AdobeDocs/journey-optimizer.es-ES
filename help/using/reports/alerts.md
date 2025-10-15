@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 074390ccd77d3753d9b347a67dcbad0611cb3e49
+source-git-commit: 0cace4defb2c52b729f1427e856b2fc87df5ec50
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1893'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ Para suscribirse o cancelar la suscripción a una alerta para todos los recorrid
 
 1. Use el mismo método para **[!UICONTROL cancelar la suscripción]**.
 
-También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
+También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
 
 ### Suscripción unitaria {#unitary-subscription}
 
@@ -80,7 +80,7 @@ Para suscribirse o cancelar la suscripción a una alerta de un recorrido especí
 
 1. Vaya al inventario de recorridos y seleccione la opción **[!UICONTROL Suscribirse a alertas]** para un recorrido específico.
 
-   ![Suscripción a una alerta para un recorrido específico](assets/subscribe-journey-alert.png){width=80%}
+   ![Suscripción a una alerta para un recorrido específico](assets/subscribe-journey-alert.png){width=75%}
 
 1. Seleccione las alertas. Las siguientes alertas están disponibles: [Tasa de descarte de perfil superada](#alert-discard-rate), [Tasa de error de acción personalizada superada](#alert-custom-action-error-rate) y [Tasa de error de perfil superada](#alert-profile-error-rate).
 
@@ -88,13 +88,30 @@ Para suscribirse o cancelar la suscripción a una alerta de un recorrido especí
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## alertas de recorrido {#journey-alerts}
+
+
+A continuación se enumeran todas las notificaciones de recorrido disponibles en la interfaz de usuario de.
 
 >[!CAUTION]
 >
 >Las alertas específicas de Adobe Journey Optimizer solo se aplican a **recorridos activos**. Las alertas no se activan para los recorridos en el modo de prueba.
+
+### Error al leer Déclencheur de audiencia {#alert-read-audiences}
+
+Esta alerta le advierte si una actividad **Leer audiencia** no ha procesado ningún perfil 10 minutos después de la hora programada de ejecución. Este error puede deberse a problemas técnicos o a que la audiencia está vacía. Si este error se debe a problemas técnicos, tenga en cuenta que aún pueden producirse reintentos, según el tipo de problema (p. ej.: si la creación del trabajo de exportación ha fallado, lo volveremos a intentar cada 10 minutos durante 1 h como máximo).
+
+![](assets/read-audience-alert.png)
+
+Las alertas de las actividades **Leer audiencia** solo se aplican a los recorridos recurrentes. Se omiten las actividades de **Leer audiencia** en recorridos activos que tienen una programación para ejecutarse **Una vez** o **Lo antes posible**.
+
+Las alertas de **Leer audiencia** se resuelven cuando un perfil entra en el nodo **Leer audiencia**.
+
+El nombre de suscripción de evento de E/S correspondiente a la alerta **Leer Déclencheur de audiencias erróneo** es **Recorrido de retrasos, errores y errores de lectura de audiencia**.
+
+Para solucionar problemas de las alertas de **Leer audiencia**, compruebe su recuento de audiencias en la interfaz de Experience Platform.
 
 
 ### Error de acción personalizada de recorrido {#alert-custom-actions}
@@ -103,7 +120,8 @@ Esta alerta le advierte si falla una acción personalizada. Consideramos que hay
 
 Haga clic en el nombre de la alerta para comprobar sus detalles y configuración.
 
-![](assets/alerts-custom-action.png)
+<!--
+![](assets/alerts-custom-action.png)-->
 
 Las alertas de acciones personalizadas se resuelven cuando, en los últimos 5 minutos:
 
@@ -115,41 +133,21 @@ El nombre de suscripción de evento de E/S correspondiente a la alerta de acció
 
 Para solucionar problemas de **alertas de acción personalizada**:
 
-* Compruebe la acción personalizada mediante el modo de prueba en otro recorrido:
+* Comprueba tu acción personalizada usando [modo de prueba](../building-journeys/testing-the-journey.md) en otro recorrido.
 
-  ![](assets/alert-troubleshooting-2.png)
-
-* Consulte el informe de recorridos para ver los motivos de error al realizar la acción.
-
-  ![](assets/alert-troubleshooting-3.png)
+* Consulte su [informe de recorridos](../reports/journey-live-report.md) para ver los motivos de error al realizar la acción.
 
 * Compruebe los stepEvents de recorrido para buscar más información sobre &quot;failureReason&quot;.
 
-* Compruebe la configuración de la acción personalizada y compruebe que la autenticación sigue siendo correcta. Realice una comprobación manual con Postman, por ejemplo.
-
-### Error al leer Déclencheur de audiencia {#alert-read-audiences}
-
-Esta alerta le advierte si una actividad **Leer audiencia** no ha procesado ningún perfil 10 minutos después de la hora programada de ejecución. Este error puede deberse a problemas técnicos o a que la audiencia está vacía. Si este error se debe a problemas técnicos, tenga en cuenta que aún pueden producirse reintentos, según el tipo de problema (p. ej.: si la creación del trabajo de exportación ha fallado, lo volveremos a intentar cada 10 minutos durante 1 h como máximo).
-
-![](assets/alerts1.png)
-
-Las alertas de las actividades **Leer audiencia** solo se aplican a los recorridos recurrentes. Se omiten las actividades de **Leer audiencia** en recorridos activos que tienen una programación para ejecutarse **Una vez** o **Lo antes posible**.
-
-Las alertas de **Leer audiencia** se resuelven cuando un perfil entra en el nodo **Leer audiencia**.
-
-El nombre de suscripción de evento de E/S correspondiente a la alerta **Leer Déclencheur de audiencias erróneo** es **Recorrido de retrasos, errores y errores de lectura de audiencia**.
-
-Para solucionar problemas de las alertas de **Leer audiencia**, compruebe su recuento de audiencias en la interfaz de Experience Platform.
-
-![](assets/alert-troubleshooting-0.png)
-
-![](assets/alert-troubleshooting-1.png)
+* Compruebe la configuración de la acción personalizada y compruebe que la autenticación sigue siendo válida. Realice una comprobación manual con Postman, por ejemplo.
 
 ### Tasa de descartes de perfil superada {#alert-discard-rate}
 
 Esta alerta le advierte si la proporción de descartes de perfiles respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado es 20%, pero puede [definir un umbral personalizado](#custom-threshold).
 
 Haga clic en el nombre de la alerta para comprobar sus detalles y configuración.
+
+![](assets/profile-discard-alert.png)
 
 Existen varias razones por las que se puede descartar un perfil, lo que informará al método de resolución de problemas. A continuación se enumeran algunas razones comunes:
 
@@ -162,7 +160,7 @@ Existen varias razones por las que se puede descartar un perfil, lo que informar
 
 Esta alerta le advierte si la proporción de errores de acción personalizada respecto a llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado es 20%, pero puede [definir un umbral personalizado](#custom-threshold).
 
-Los errores de acciones personalizadas pueden ocurrir por varios motivos. Puede hacer lo siguiente:
+Los errores de acciones personalizadas pueden ocurrir por varios motivos. Para solucionar estos errores, puede:
 
 * Compruebe que la acción personalizada está configurada correctamente
 * Compruebe que el extremo sea accesible y que la acción personalizada pueda llegar a él a través del comprobador de conectividad de acción personalizada
@@ -174,9 +172,11 @@ Esta alerta le advierte si la proporción de errores de acción personalizada re
 
 Haga clic en el nombre de la alerta para comprobar sus detalles y configuración.
 
-Para evitarlo, puede consultar los datos en eventos de paso para comprender dónde y por qué falló el perfil en la recorrido.
+Para solucionar errores de perfil, puede consultar los datos en eventos de paso para comprender dónde y por qué falló el perfil en la recorrido.
 
 ## Alertas de configuración {#configuration-alerts}
+
+A continuación, se enumeran las alertas de monitorización de configuración de canal disponibles en la interfaz de usuario.
 
 ### Falta el registro DNS del dominio de AJO {#alert-dns-record-missing}
 
