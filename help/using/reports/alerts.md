@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
+source-git-commit: 0827bd0339b2574c1ded2e47e57af009326bdd0f
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1836'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 1%
 # Acceso y suscripción a alertas del sistema {#alerts}
 
 Al crear sus recorridos y campañas, utilice el botón **Alerts** para comprobar y resolver los errores antes de ejecutarlos o publicarlos.
-
-
 
 Desde el menú **[!UICONTROL Alertas]** dedicado, también puede suscribirse a [!DNL Adobe Journey Optimizer] alertas del sistema como se detalla en esta página.
 
@@ -76,7 +74,7 @@ Para suscribirse o cancelar la suscripción a una alerta para todos los recorrid
 
 1. Use el mismo método para **[!UICONTROL cancelar la suscripción]**.
 
-También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
+También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
 
 ### Suscripción unitaria {#unitary-subscription}
 
@@ -92,10 +90,7 @@ Para suscribirse o cancelar la suscripción a una alerta de un recorrido especí
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es#enable-email-alerts){target="_blank"}.-->
-
-
-
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## alertas de recorrido {#journey-alerts}
 
@@ -158,16 +153,30 @@ Esta alerta le advierte si la proporción de descartes de perfiles respecto a lo
 
 Haga clic en el nombre de la alerta para comprobar sus detalles y configuración.
 
+Existen varias razones por las que se puede descartar un perfil, lo que informará al método de resolución de problemas. A continuación se enumeran algunas razones comunes:
+
+* Perfil descartado en la entrada porque ya está activo en ese recorrido unitario. Para resolver esto, asegúrese de que el perfil tenga tiempo suficiente para salir del recorrido antes de que llegue el siguiente evento para ese perfil.
+* La identidad no se define para el perfil o el área de nombres que utiliza el recorrido de audiencia de lectura no se utiliza en ese perfil. Para resolver esto, asegúrese de que el área de nombres de la recorrido coincida con el área de nombres de identidad utilizado por los perfiles.
+* Se ha superado la tasa de rendimiento de eventos. Para resolver esto, asegúrese de que los eventos que llegan al sistema no superan estos límites.
+
 
 ### Tasa de errores de acción personalizada superada {#alert-custom-action-error-rate}
 
 Esta alerta le advierte si la proporción de errores de acción personalizada respecto a llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado es 20%, pero puede [definir un umbral personalizado](#custom-threshold).
+
+Los errores de acciones personalizadas pueden ocurrir por varios motivos. Puede hacer lo siguiente:
+
+* Compruebe que la acción personalizada está configurada correctamente
+* Compruebe que el extremo sea accesible y que la acción personalizada pueda llegar a él a través del comprobador de conectividad de acción personalizada
+* Compruebe las credenciales de autenticación, la conectividad a Internet, etc.
 
 ### Tasa de errores de perfil superada {#alert-profile-error-rate}
 
 Esta alerta le advierte si la proporción de errores de acción personalizada respecto a llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado es 20%, pero puede [definir un umbral personalizado](#custom-threshold).
 
 Haga clic en el nombre de la alerta para comprobar sus detalles y configuración.
+
+Para evitarlo, puede consultar los datos en eventos de paso para comprender dónde y por qué falló el perfil en la recorrido.
 
 ## Alertas de configuración {#configuration-alerts}
 
@@ -295,7 +304,6 @@ Para agregar a más suscriptores, escribe su correo electrónico separados por u
 Para quitar suscriptores, elimina su dirección de correo electrónico de los suscriptores actuales y selecciona **[!UICONTROL Actualizar]**.
 
 ## Recursos adicionales {#additional-resources-alerts}
-
 
 * Aprenda a solucionar problemas de sus recorridos en [esta página](../building-journeys/troubleshooting.md).
 * Aprenda a revisar sus campañas en [esta página](../campaigns/review-activate-campaign.md).
