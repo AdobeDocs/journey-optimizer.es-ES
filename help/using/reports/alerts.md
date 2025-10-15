@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0827bd0339b2574c1ded2e47e57af009326bdd0f
+source-git-commit: 074390ccd77d3753d9b347a67dcbad0611cb3e49
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1865'
 ht-degree: 1%
 
 ---
@@ -19,21 +19,19 @@ ht-degree: 1%
 
 Al crear sus recorridos y campañas, utilice el botón **Alerts** para comprobar y resolver los errores antes de ejecutarlos o publicarlos.
 
-Desde el menú **[!UICONTROL Alertas]** dedicado, también puede suscribirse a [!DNL Adobe Journey Optimizer] alertas del sistema como se detalla en esta página.
+* Aprenda a solucionar problemas de sus recorridos en [esta página](../building-journeys/troubleshooting.md)
 
-## Alertas de acceso {#access-alerts}
+* Aprenda a revisar sus campañas en [esta página](../campaigns/review-activate-campaign.md)
 
-Cuando se produce un error, puede recibir alertas del sistema en el centro de notificaciones de Journey Optimizer (alertas en la aplicación) o un correo electrónico. Para acceder a estas alertas, siga los pasos a continuación.
 
-<!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
+Además de estas, cuando se alcanza un determinado conjunto de condiciones, se pueden enviar mensajes de alerta a cualquier usuario de la organización que se haya suscrito a ellas. Estas alertas están disponibles en el menú **[!UICONTROL Alertas]** dedicado. Adobe Experience Platform proporciona varias reglas de alerta predefinidas que puede habilitar para su organización. Además, puede suscribirse a las alertas del sistema específicas de [!DNL Adobe Journey Optimizer], tal como se detalla en esta página.
 
 >[!NOTE]
 >
 >Obtenga más información acerca de las alertas en Adobe Experience Platform en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es){target="_blank"}.
 
-En el menú de la izquierda, debajo de **[!UICONTROL Administración]**, haga clic en **[!UICONTROL Alertas]**. Hay disponibles varias alertas preconfiguradas para Journey Optimizer.
+En el menú de la izquierda, debajo de **[!UICONTROL Administración]**, haga clic en **[!UICONTROL Alertas]**. Hay varias alertas preconfiguradas para Journey Optimizer disponibles en la pestaña **Examinar**.
 
-Se enumeran de la siguiente manera y cada alerta se detalla a continuación.
 
 * Alertas específicas de los recorridos:
 
@@ -74,7 +72,7 @@ Para suscribirse o cancelar la suscripción a una alerta para todos los recorrid
 
 1. Use el mismo método para **[!UICONTROL cancelar la suscripción]**.
 
-También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
+También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
 
 ### Suscripción unitaria {#unitary-subscription}
 
@@ -90,7 +88,7 @@ Para suscribirse o cancelar la suscripción a una alerta de un recorrido especí
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## alertas de recorrido {#journey-alerts}
 
