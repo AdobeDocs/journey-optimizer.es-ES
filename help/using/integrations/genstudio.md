@@ -39,7 +39,7 @@ Para mejorar la eficacia del marketing y mantener la coherencia de la marca, pue
 
 >[!INFO]
 >
->Para ir más lejos, mira esta [descripción general](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} y una [demostración](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
+>Para ir más lejos, mira esta [descripción general](https://business.adobe.com/es/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} y una [demostración](https://business.adobe.com/es/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
