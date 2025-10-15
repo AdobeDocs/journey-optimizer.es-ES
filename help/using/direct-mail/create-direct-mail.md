@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
+source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 18%
+source-wordcount: '761'
+ht-degree: 17%
 
 ---
 
@@ -32,6 +32,10 @@ Para crear mensajes de correo postal, cree una campaña programada y configure e
 
 
 ## Creación de una campaña de correo directo{#create-dm-campaign}
+
+>[!AVAILABILITY]
+>
+>El correo postal admite la funcionalidad de Holdout, pero actualmente no admite Tratamientos.
 
 Para crear una campaña de correo postal, siga estos pasos:
 

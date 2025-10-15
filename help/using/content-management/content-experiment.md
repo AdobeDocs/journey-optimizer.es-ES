@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
+source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1855'
 ht-degree: 6%
 
 ---
@@ -67,6 +67,10 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 >id="ajo_campaigns_content_experiment_success_metric"
 >title="Métrica de éxito"
 >abstract="La métrica de éxito se utiliza para rastrear y evaluar el tratamiento con mejor rendimiento de un experimento. Asegúrese de configurar su conjunto de datos para determinadas métricas antes de utilizarlo."
+
+>[!AVAILABILITY]
+>
+>El correo postal admite la funcionalidad de Holdout, pero actualmente no admite Tratamientos.
 
 Para el experimento de contenido, puede elegir entre tres tipos de experimento:
 
