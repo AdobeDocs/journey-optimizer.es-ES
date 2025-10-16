@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: f9102c10aa58be0e1a7280aa53fd97b3f792b9e9
+source-git-commit: 990ecd8a9fd89f0cc15dc41e7e38490aba539784
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -85,35 +85,34 @@ A continuación encontrará definiciones, causas comunes y pasos de solución de
 
 * EXTERNAL_KEY_COMPUTATION_ERROR: El sistema no pudo calcular un identificador único (clave externa) para el cliente a partir de los datos de evento.
 
-|---|---|
-| **Causas comunes** | Identificadores de cliente faltantes o mal formados (por ejemplo, correo electrónico, ID de cliente) en la carga útil de evento. |
-| **Resolución de problemas** | Compruebe la configuración de eventos para ver los identificadores necesarios, asegúrese de que los datos de evento estén completos y tengan el formato correcto. |
+  **Causas comunes**: Faltan identificadores de cliente o tienen un formato incorrecto (por ejemplo, correo electrónico, ID de cliente) en la carga útil de evento.
+
+  **Solución de problemas**: compruebe la configuración del evento para ver los identificadores necesarios, asegúrese de que los datos del evento estén completos y tengan el formato correcto.
 
 * NO_INTERESTED_RECORRIDO_FOR_SEGMENTMEMBERSHIP_EVENT: Se ha recibido un evento de calificación de segmentos, pero no hay recorridos configurados para responder a este segmento.
 
+  **Causas comunes**: Ningún recorrido usa el segmento como déclencheur, los recorridos están en estado de borrador/detenido o los ID de segmento no coinciden.
 
-|---|---|
-| **Causas comunes** | Ningún recorrido utiliza el segmento como déclencheur, los recorridos están en estado de borrador/detenido o los ID de segmento no coinciden. |
-| **Resolución de problemas** | Asegúrese de que al menos un recorrido esté activo y configurado para el segmento y compruebe los ID de este. |
+  **Solución de problemas**: Asegúrese de que haya al menos un recorrido activo y configurado para el segmento y compruebe los ID de segmento.
 
-### RECORRIDO_INSTANCE_ID_NOT_CREATE: Error del sistema al crear una instancia de recorrido para el cliente.
+* RECORRIDO_INSTANCE_ID_NOT_CREATE: Error del sistema al crear una instancia de recorrido para el cliente.
 
-|---|---|
-| **Causas comunes** | Eventos duplicados, gran volumen de eventos, restricciones de recursos del sistema. |
-| **Resolución de problemas** | Implemente la anulación de duplicación, evite picos de tráfico, optimice el diseño del recorrido y póngase en contacto con el servicio de asistencia si persiste. |
+  **Causas comunes**: Eventos duplicados, volumen de evento alto, restricciones de recursos del sistema.
 
-### EVENT_WITH_NO_RECORRIDO: se recibió un evento, pero no hay ningún recorrido activo configurado para responder a él
+  **Solución de problemas**: Implemente la anulación de duplicación, evite los picos de tráfico, optimice el diseño del recorrido y póngase en contacto con el servicio de asistencia si persiste.
 
-|---|---|
-| **Causas comunes** | El nombre/ID del evento no coincide, el recorrido no se ha publicado, la zona protegida/organización es incorrecta, el modo de prueba/perfil no coincide. |
-| **Resolución de problemas** | Compruebe la configuración de eventos y recorridos, compruebe el estado del recorrido y utilice las herramientas de depuración. |
+* EVENT_WITH_NO_RECORRIDO: se recibió un evento, pero no hay ningún recorrido activo configurado para responder a él
 
-Para descartes que se produzcan en recorridos pausados:
+  **Causas comunes**: El nombre/ID del evento no coincide, el recorrido no se ha publicado, la zona protegida/organización es incorrecta, el modo de prueba/no coincide el perfil.
 
-* **PAUSED_RECORRIDO_VERSION**: descartes que se produjeron en el punto de entrada del recorrido
-* **RECORRIDO_IN_PAUSED_STATE**: descarta lo que ocurrió cuando los perfiles están en un recorrido
+  **Solución de problemas**: compruebe la configuración del evento y del recorrido, compruebe el estado del recorrido y use las herramientas de depuración.
 
-Obtenga más información acerca de estos eventos y cómo solucionarlos en la sección [Pausar un Recorrido](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
+* Para descartes que se produzcan en recorridos pausados:
+
+   * **PAUSED_RECORRIDO_VERSION**: descartes que se produjeron en el punto de entrada del recorrido
+   * **RECORRIDO_IN_PAUSED_STATE**: descarta lo que ocurrió cuando los perfiles están en un recorrido
+
+  Obtenga más información acerca de estos eventos y cómo solucionarlos en la sección [Pausar un Recorrido](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
 
 ## Recursos adicionales
 
