@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de correo electrónico, Módulos, Reutilización, Coherencia de la marca, Diseño de correo electrónico, CSS personalizado, Optimización móvil
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 12d0869e323a1b3b892bac91ba423029f9c123a5
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '831'
 ht-degree: 6%
 
 ---
@@ -127,7 +127,7 @@ Para aplicar temáticas de estilo predeterminadas o personalizadas a un correo e
 
    * Seleccione una [plantilla de correo electrónico](use-email-templates.md) integrada para abrir el Designer de correo electrónico. Se aplica automáticamente una temática predeterminada específica a cada plantilla.
 
-   * Diseña [nuevo contenido desde cero](content-from-scratch.md) y selecciona **[!UICONTROL Usar tema]s** para comenzar con un tema de estilo predefinido.
+   * Diseña [nuevo contenido desde cero](content-from-scratch.md) y selecciona **[!UICONTROL Usar temas]** para comenzar con un tema de estilo predefinido.
 
      ![](assets/theme-from-scratch.png)
 
