@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 97c1d0f2e9f8100f70d5c4e40325abddc5e3dfbd
+source-git-commit: f9102c10aa58be0e1a7280aa53fd97b3f792b9e9
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -83,18 +83,30 @@ Al consultar eventos de paso de recorrido para registros con `eventCode = 'disca
 
 A continuación encontrará definiciones, causas comunes y pasos de solución de problemas para el descarte más frecuente `eventTypes`:
 
-* **EXTERNAL_KEY_COMPUTATION_ERROR**: el sistema no pudo calcular un identificador único (clave externa) para el cliente a partir de los datos de evento.
-   * Causas comunes: Faltan identificadores de cliente o están mal formados (por ejemplo, correo electrónico, ID de cliente) en la carga útil de evento.
-   * Solución de problemas: compruebe la configuración de eventos para ver los identificadores necesarios y asegúrese de que los datos de evento estén completos y tengan el formato correcto.
-* **NO_INTERESTED_RECORRIDO_FOR_SEGMENTMEMBERSHIP_EVENT**: se recibió un evento de calificación de segmentos, pero no hay recorridos configurados para responder a este segmento.
-   * Causas comunes: Ningún recorrido utiliza el segmento como déclencheur, los recorridos están en estado de borrador/detenido o los ID de segmento no coinciden.
-   * Solución de problemas: Asegúrese de que haya al menos un recorrido activo y configurado para el segmento y compruebe los ID de este.
-* **RECORRIDO_INSTANCE_ID_NOT_CREATE**: el sistema no pudo crear una instancia de recorrido para el cliente.
-   * Causas comunes: Eventos duplicados, volumen de evento alto, restricciones de recursos del sistema.
-   * Solución de problemas: implemente la anulación de duplicación, evite los picos de tráfico, optimice el diseño del recorrido y póngase en contacto con el servicio de asistencia si persiste.
-* **EVENT_WITH_NO_RECORRIDO**: se recibió un evento, pero no se configuró ningún recorrido activo para responderlo.
-   * Causas comunes: coincidencia de nombre/ID de evento, recorrido no publicado, zona protegida/organización incorrecta, discrepancia de modo de prueba/perfil.
-   * Solución de problemas: compruebe la configuración de eventos y recorridos, compruebe el estado del recorrido y utilice las herramientas de depuración.
+* EXTERNAL_KEY_COMPUTATION_ERROR: El sistema no pudo calcular un identificador único (clave externa) para el cliente a partir de los datos de evento.
+
+|---|---|
+| **Causas comunes** | Identificadores de cliente faltantes o mal formados (por ejemplo, correo electrónico, ID de cliente) en la carga útil de evento. |
+| **Resolución de problemas** | Compruebe la configuración de eventos para ver los identificadores necesarios, asegúrese de que los datos de evento estén completos y tengan el formato correcto. |
+
+* NO_INTERESTED_RECORRIDO_FOR_SEGMENTMEMBERSHIP_EVENT: Se ha recibido un evento de calificación de segmentos, pero no hay recorridos configurados para responder a este segmento.
+
+
+|---|---|
+| **Causas comunes** | Ningún recorrido utiliza el segmento como déclencheur, los recorridos están en estado de borrador/detenido o los ID de segmento no coinciden. |
+| **Resolución de problemas** | Asegúrese de que al menos un recorrido esté activo y configurado para el segmento y compruebe los ID de este. |
+
+### RECORRIDO_INSTANCE_ID_NOT_CREATE: Error del sistema al crear una instancia de recorrido para el cliente.
+
+|---|---|
+| **Causas comunes** | Eventos duplicados, gran volumen de eventos, restricciones de recursos del sistema. |
+| **Resolución de problemas** | Implemente la anulación de duplicación, evite picos de tráfico, optimice el diseño del recorrido y póngase en contacto con el servicio de asistencia si persiste. |
+
+### EVENT_WITH_NO_RECORRIDO: se recibió un evento, pero no hay ningún recorrido activo configurado para responder a él
+
+|---|---|
+| **Causas comunes** | El nombre/ID del evento no coincide, el recorrido no se ha publicado, la zona protegida/organización es incorrecta, el modo de prueba/perfil no coincide. |
+| **Resolución de problemas** | Compruebe la configuración de eventos y recorridos, compruebe el estado del recorrido y utilice las herramientas de depuración. |
 
 Para descartes que se produzcan en recorridos pausados:
 
