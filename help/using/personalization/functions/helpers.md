@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 6%
@@ -99,7 +99,7 @@ La instrucción `elseif` especificará una nueva condición para comprobar si la
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
    Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
-   {%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
+   {%else if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"%}
    Hi! Esteemed silver member. <a href="https://www.somedomain.com/silver">Checkout your exclusive perks </a>
    {%/if%}
    ```
@@ -127,11 +127,11 @@ Procese contenido en función de la extensión de dirección de correo electrón
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
 Some Normal Content
 {%else%}
-Some edu specific content Content
+Some edu specific content
 {%/unless%}
 ```
 
-## Each{#each}
+## Cada{#each}
 
 El asistente `each` se usa para iterar en una matriz.
 La sintaxis del asistente es ```{{#each ArrayName}}``` YourContent {{/each}}
@@ -163,7 +163,7 @@ Procese una lista de productos que este usuario tiene en el carro de compras:
 {{/each}}
 ```
 
-## With{#with}
+## Con{#with}
 
 El asistente `with` se usa para cambiar el token de evaluación de la plantilla-parte.
 

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -71,7 +71,7 @@ La siguiente operación especifica las personas que han realizado pedidos en má
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## Contar Distinto Con Nulo {#distinct-count-with-null}
+## Recuento Distinto Con Nulo {#distinct-count-with-null}
 
 La función `distinctCountWithNull` se usa para contar el número de valores diferentes en una lista, incluidos los valores nulos.
 
@@ -131,7 +131,7 @@ La siguiente operación devuelve los cinco primeros pedidos con el precio más b
 {%= topN(orders,price, 5) %}
 ```
 
-## En{#in}
+## Entrada{#in}
 
 La función `in` se usa para determinar si un elemento es miembro de una matriz o lista.
 
@@ -167,7 +167,7 @@ La siguiente operación define a las personas cuyo color favorito incluye el roj
 {%= includes(person.favoriteColors,"red") %}
 ```
 
-## Interseca{#intersects}
+## Intersecciones{#intersects}
 
 La función `intersects` se usa para determinar si dos matrices o listas tienen al menos un miembro común.
 
@@ -285,5 +285,5 @@ La función `supersetOf` se usa para determinar si una matriz específica (matri
 La siguiente operación define a las personas que han comido sushi y pizza al menos una vez.
 
 ```sql
-{%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
+{%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```

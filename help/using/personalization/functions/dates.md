@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: ed4d50cbc488fb396c4fffec21d3f0062d3fc20a
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 13%
+source-wordcount: '1034'
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ La función `addDays` ajusta una fecha determinada en un número determinado de 
 
 +++
 
-## Añadir horas {#add-hours}
+## Agregar horas {#add-hours}
 
 La función `addHours` ajusta una fecha determinada en un número determinado de horas, utilizando valores positivos para aumentar y valores negativos para disminuir.
 
@@ -53,7 +53,7 @@ La función `addHours` ajusta una fecha determinada en un número determinado de
 
 ## Añadir minutos {#add-minutes}
 
-La función `addMinutes` ajusta una fecha determinada en un número determinado de minutos, utilizando valores positivos para aumentar y valores negativos para disminuir
+La función `addMinutes` ajusta una fecha determinada en un número determinado de minutos, utilizando valores positivos para aumentar y valores negativos para disminuir.
 
 **Sintaxis**
 
@@ -68,7 +68,7 @@ La función `addMinutes` ajusta una fecha determinada en un número determinado 
 
 +++
 
-## Añadir meses {#add-months}
+## Agregar meses {#add-months}
 
 La función `addMonths` ajusta una fecha determinada en un número determinado de meses, utilizando valores positivos para aumentar y valores negativos para disminuir.
 
@@ -87,7 +87,7 @@ La función `addMonths` ajusta una fecha determinada en un número determinado d
 
 ## Añadir segundos {#add-seconds}
 
-El `addSeconds` ajusta una fecha determinada en un número determinado de segundos, utilizando valores positivos para aumentar y valores negativos para disminuir.
+La función `addSeconds` ajusta una fecha determinada en un número determinado de segundos, utilizando valores positivos para aumentar y valores negativos para disminuir.
 
 **Sintaxis**
 
@@ -104,7 +104,7 @@ El `addSeconds` ajusta una fecha determinada en un número determinado de segund
 
 ## Añadir años {#add-years}
 
-El `addYears` ajusta una fecha determinada en un número determinado de años, utilizando valores positivos para aumentar y valores negativos para disminuir.
+La función `addYears` ajusta una fecha determinada en un número determinado de años, utilizando valores positivos para aumentar y valores negativos para disminuir.
 
 **Sintaxis**
 
@@ -139,7 +139,7 @@ The following operation gets the value of the identity map for the key `example@
 ```
 -->
 
-## Antigüedad en días {#age-days}
+## Edad En Días {#age-days}
 
 La función `ageInDays` calcula la antigüedad de una fecha determinada en días, es decir, el número de días transcurridos entre la fecha determinada y la fecha actual, negativos para fechas futuras y positivos para fechas pasadas.
 
@@ -158,7 +158,7 @@ currentDate = 2025-01-07T12:17:10.720122+05:30 (Asia/Calcuta)
 
 +++
 
-## Antigüedad en meses {#age-months}
+## Edad En Meses {#age-months}
 
 La función `ageInMonths` calcula la edad de una fecha determinada en meses, es decir, el número de meses transcurridos entre la fecha determinada y la fecha actual, negativos para fechas futuras y positivos para fechas pasadas.
 
@@ -194,7 +194,7 @@ La función `compareDates` compara la fecha de la primera entrada con la otra. D
 
 +++
 
-## Convertir ZonedDateTime {#convert-zoned-date-time}
+## Convertir fechaZonaHora {#convert-zoned-date-time}
 
 La función `convertZonedDateTime` convierte una fecha y hora en una zona horaria determinada.
 
@@ -253,7 +253,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Día del mes {#day-month}
 
-`dayOfWeek` devuelve el número que representa el día del mes.
+`dayOfMonth` devuelve el número que representa el día del mes.
 
 **Sintaxis**
 
@@ -355,7 +355,7 @@ La función `extractMinutes` extrae el componente de minuto de una marca de tiem
 
 +++Ejemplo
 
-* Entrada: `{%= extractMinute(stringToDate("2024-11-01T17:19:51Z"))%}`
+* Entrada: `{%= extractMinutes(stringToDate("2024-11-01T17:19:51Z"))%}`
 * Salida: `19`
 
 +++
@@ -394,7 +394,7 @@ La función `extractSeconds` extrae el segundo componente de una marca de tiempo
 
 +++
 
-## Dar formato a fecha{#format-date}
+## Formato de fecha{#format-date}
 
 La función `formatDate` se usa para dar formato a un valor de fecha y hora. El formato debe ser un patrón DateTimeFormat de Java válido.
 
@@ -639,7 +639,7 @@ La función `truncateToStartOfWeek` modifica una fecha y hora determinada al est
 
 +++Ejemplo
 
-* Entrada: `truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
+* Entrada: `{%= truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
 * Salida: `2024-11-18T00:00Z // monday`
 
 +++

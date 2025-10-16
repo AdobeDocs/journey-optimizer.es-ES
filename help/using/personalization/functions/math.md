@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 11%
+source-wordcount: '244'
+ht-degree: 6%
 
 ---
 
@@ -59,7 +59,7 @@ La función `random` se usa para devolver un valor aleatorio entre 0 y 1.
 {%= random() %}: double
 ```
 
-## Redondear a la baja {#round-down}
+## Redondear hacia abajo {#round-down}
 
 La función `roundDown` se usa para redondear hacia abajo un número.
 
@@ -71,7 +71,7 @@ La función `roundDown` se usa para redondear hacia abajo un número.
 
 ## Redondear al alza {#round-up}
 
-La función `Count only null` se usa para redondear un número.
+La función `roundUp` se usa para redondear un número.
 
 **Sintaxis**
 
@@ -91,7 +91,7 @@ La función `toHexString` convierte cualquier número en su cadena hexadecimal.
 
 **Ejemplo**
 
-Esta consulta devuelve el valor hexadecimal de 158, es decir 9e.
+Esta consulta devuelve el valor hexadecimal de 158, es decir, 9e.
 
 ```sql
 {%= toHexString(158) %}
