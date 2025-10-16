@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 keywords: optimización de campañas, experimentación, segmentación, pruebas A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -72,7 +72,7 @@ Para configurar la segmentación, siga los pasos a continuación.
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. Seleccione la opción **[!UICONTROL Habilitar contenido de reserva]** según sea necesario. El contenido de reserva permite que su audiencia reciba un contenido predeterminado cuando no se cumplen las reglas de segmentación.
+1. Seleccione la opción **[!UICONTROL Habilitar contenido de reserva]** según sea necesario. El contenido de reserva permite que su público reciba un contenido predeterminado cuando no se cumple ninguna regla de segmentación.
 
    >[!NOTE]
    >
@@ -90,7 +90,7 @@ Para configurar la segmentación, siga los pasos a continuación.
 
 1. [Activar](review-activate-campaign.md) tu recorrido o campaña.
 
-Una vez que el recorrido/campaña está activo, se envía contenido personalizado para cada objetivo para que los residentes de EE. UU. reciban un mensaje específico, los residentes de Francia un mensaje diferente, etc.
+Una vez que el recorrido/campaña está activo, se envía contenido personalizado para cada destinatario para que los residentes de EE. UU. reciban un mensaje específico, los residentes de Francia un mensaje diferente, etc.
 
 <!--Default content:
 
@@ -186,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Aprenda a aprovechar la optimización de mensajes en campañas activadas por acciones o API. Descubra cómo dirigirse a subpúblicos, crear variaciones de mensajes por ubicación, habilitar contenido de reserva y ejecutar varios experimentos dentro de una sola campaña. Este tutorial también explica cómo administrar campañas multicanal y, al mismo tiempo, mantener la coherencia del mensaje.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470371?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

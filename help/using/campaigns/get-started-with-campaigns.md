@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 60%
+ht-degree: 58%
 
 ---
 
@@ -115,7 +115,7 @@ Aunque el marketing de múltiples canales es esencial, las campañas orquestadas
 
 >[!TAB Campañas activadas mediante API]
 
-**Las campañas activadas por API** le permiten almacenar en déclencheur la ejecución de la campaña mediante una llamada de API. Estas comunicaciones se pueden enviar donde la necesidad pueda implicar una personalización no solo mediante un atributo de perfil de restablecimiento de contraseña, sino también mediante los datos de contexto en tiempo real en la déclencheur, que es una carga útil de API de REST.
+**Las campañas activadas por API** le permiten almacenar en déclencheur la ejecución de la campaña mediante una llamada de API. Estas comunicaciones se pueden enviar donde la necesidad puede implicar la personalización no solo mediante un atributo de perfil de restablecimiento de contraseña, sino también mediante los datos de contexto en tiempo real en la déclencheur, que es una carga útil de API de REST.
 
 * **API activada - Marketing** - Envíe comunicaciones de marketing personalizadas a audiencias de destino.
 * **API activada - Transaccional** - Enviar mensajes después de una acción realizada por un individuo, como una solicitud de restablecimiento de contraseña, la compra del carro de compras, etc.
@@ -164,7 +164,7 @@ Antes de trabajar con campañas, asegúrese de haber revisado los requisitos pre
 
    1. En la pestaña **[!UICONTROL Usuarios]**, haga clic en **[!UICONTROL Añadir usuario]**.
 
-   1. Introduzca el nombre o la dirección de correo electrónico del usuario o selecciónelo de la lista y haga clic en **[!UICONTROL Guardar]**.
+   1. Escriba el nombre o la dirección de correo electrónico del usuario o seleccione el usuario de la lista y haga clic en **[!UICONTROL Guardar]**.
 
       Si el usuario no se ha creado previamente, consulte la [documentación de Añadir usuarios](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/users).
 

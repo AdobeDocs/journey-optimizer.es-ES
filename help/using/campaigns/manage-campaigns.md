@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
-source-wordcount: '1709'
+source-wordcount: '1708'
 ht-degree: 15%
 
 ---
@@ -164,7 +164,7 @@ Para navegar en el calendario de campañas:
 
    ![vista de calendario que muestra calendarios externos](assets/campaign-external-calendar.png)
 
-1. Arrastre y suelte sus archivos CSV que contienen nombres de eventos, fechas de inicio y fechas de finalización.
+1. Arrastre y suelte los archivos CSV que contienen nombres de evento, fechas de inicio y fechas de finalización.
 
    Los eventos cargados aparecen para todos los usuarios de la organización y se muestran en los calendarios de Recorrido y de campaña.
 
