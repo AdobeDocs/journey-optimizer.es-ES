@@ -133,7 +133,7 @@ Si **no** usa los siguientes [grupos de campos](https://experienceleague.adobe.c
 
 **Temas relacionados:**
 
-* [Creación de un mensaje en la aplicación ](create-in-app.md)
+* [Creación de un mensaje en la aplicación &#x200B;](create-in-app.md)
 * [Creación de una campaña](../campaigns/create-campaign.md)
 * [Diseño de un mensaje en la aplicación](design-in-app.md)
 * [Informe en la aplicación](../reports/campaign-global-report-cja-inapp.md)
