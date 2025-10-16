@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1a5f6be689c9e91ee0dc0b5f024dbe8020424337
+source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 29%
+source-wordcount: '1209'
+ht-degree: 41%
 
 ---
 
@@ -29,40 +29,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 
 ### Nuevas funciones {#oct-25-10-features}
 
-<table>
-<thead>
-<tr>
-<th><strong>Canal de correo postal en recorrido</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Anteriormente limitado a Campañas, el canal de correo postal ahora está disponible en el lienzo de recorrido, lo que le permite incorporar el correo postal en sus recorridos. Ahora, el correo postal se puede utilizar en escenarios de recorrido por lotes y 1:1, con compatibilidad con la configuración de extracción de archivos y los ajustes de frecuencia basados en el tiempo.</p>
-<p> Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Nueva API para recuperar campañas de acción</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ya está disponible una nueva API de Journey Optimizer que le permite recuperar e inspeccionar mediante programación datos relacionados con la campaña, como detalles, versiones y configuraciones.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -115,6 +82,41 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tr>
 <td>
 <p>El canal de correo postal ya está disponible en campañas orquestadas. La actividad de correo directo facilita el envío de correo directo dentro de la campaña orquestada, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de generación del archivo de extracción requerido por los proveedores de correo directo. Puede combinar actividades de canal en el lienzo de la campaña orquestada para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal de correo postal en recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Anteriormente limitado a Campañas, el canal de correo postal ahora está disponible en el lienzo de recorrido, lo que le permite incorporar el correo postal en sus recorridos. Ahora, el correo postal se puede utilizar en escenarios de recorrido por lotes y 1:1, con compatibilidad con la configuración de extracción de archivos y los ajustes de frecuencia basados en el tiempo.</p>
+<p> Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Nueva API para recuperar campañas de acción</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ya está disponible una nueva API de Journey Optimizer que le permite recuperar e inspeccionar mediante programación datos relacionados con la campaña, como detalles, versiones y configuraciones.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -193,20 +195,18 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 </tr>
 </tbody>
 </table>
-
 <table>
 <thead>
 <tr>
-<th><strong>Nueva función de ayuda de metadatos de ejecución</strong><br/></th>
+<th><strong>Ayudante de metadatos de ejecución</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Hay una nueva función de ayuda executionMetadata disponible en el editor de personalización. Permite anexar información contextual a cualquier acción nativa y capturarla en un conjunto de datos para exportarla a sistemas externos.</p>
-<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
+<p>Para obtener más información, consulte la <a href="../personalization/functions/helpers.md#execution-metadata">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 13 de octubre de 2025</p>
 </td>
 </tr>
@@ -216,22 +216,40 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
-<th><strong>Agente de experimento</strong><br/></th>
+<th><strong>¡Experimentation Agent está aquí!</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Experimentation Agent es una herramienta con tecnología de IA que moderniza la forma de ejecutar y administrar experimentos digitales en sitios web, correos electrónicos, mensajes push y aplicaciones. Creado en la plataforma de IA de Adobe Experience Platform y en las herramientas de experimentación, el agente de experimentación le ayuda a ejecutar experimentos de forma más eficiente, organizar los objetivos comerciales y generar perspectivas procesables, resaltando lo que funcionó, lo que no y dónde experimentar a continuación.</p>
-<p>Como parte de la nueva función de Experimentation Accelerator, el agente ofrece:</p>
+<p>Con la tecnología <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, el agente de experimentación está disponible en Journey Optimizer. </p>
+<p>Experimentation Agent es una herramienta con tecnología de IA que moderniza la forma de ejecutar y administrar experimentos digitales en sitios web, correos electrónicos, mensajes push y aplicaciones. Ayuda a ejecutar experimentos de forma más eficaz, organizar los objetivos comerciales y generar perspectivas procesables, resaltando lo que funcionó, lo que no y dónde experimentar a continuación.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 10 de octubre de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Archivos adjuntos de PDF a correos electrónicos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede adjuntar un archivo PDF estático a un mensaje de correo electrónico enviado con Journey Optimizer.</p>
 <ul>
-<li><strong>Rendimiento:</strong> una visión clara de lo que ocurrió en el experimento</li>
-<li><strong>Información:</strong> una explicación de por qué se produjeron los resultados</li>
-<li><strong>Oportunidades:</strong> orientación sobre las siguientes acciones a realizar</li>
+<li>Puede enviar hasta 6 mensajes con un archivo adjunto de PDF por perfil y año.</li>
+<li>El tamaño máximo para cada archivo adjunto es 5 MB.</li>
+<li>Para cualquier tamaño o volumen adicional, puede comprar un complemento de archivos PDF adjuntos. Para obtener más información, póngase en contacto con su representante de Adobe.</li>
 </ul>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<p>Fecha de disponibilidad: 9 de octubre de 2025</p>
+<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>Para obtener más información, consulte la <a href="../email/pdf-attachments.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 30 de septiembre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -247,43 +265,40 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tr>
 <td>
 <p>Ahora hay disponible una nueva API de Journey Optimizer para recuperar recorridos y sus objetos asociados, como campañas y superficies.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>Para obtener más información, consulte la <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 25 de septiembre de 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+
 ### Mejoras
 
-- **Campañas, Experience Decisioning, Recorridos**
-   - **Seleccionar reglas reutilizables en segmentación**: ahora puede aprovechar el generador de reglas al usar reglas de segmentación con la característica de optimización de mensajes en recorridos y campañas. <!-- [Read more](../FILE.md) -->
+**Seleccionar reglas reutilizables en Segmentación**
 
-- **Canal - WhatsApp**
-   - **Campo de ejecución para el canal de WhatsApp**: además del correo electrónico y los SMS, ahora es posible actualizar el campo de ejecución predeterminado de WhatsApp. También es posible anular el campo de ejecución definido globalmente en los parámetros avanzados de la actividad de recorrido de WhatsApp o en la configuración del canal de WhatsApp. <!-- [Read more](../FILE.md) -->
+Ahora puede aprovechar el generador de reglas al utilizar reglas de segmentación con la función Optimización de mensajes en recorridos y campañas. <!-- [Read more](../FILE.md) -->
 
-- **Permisos**
-   - **El creador de Recorrido/campaña no debería poder aprobar**. Se agregó una opción al crear o establecer la directiva de aprobación para evitar que los creadores de Recorrido/campaña aprueben sus propios objetos. <!-- [Read more](../FILE.md) -->
+**Campo de ejecución para el canal de WhatsApp**
 
-- **Canal: Push**
-   - **Actividades en vivo móviles - Beta privada** - Las actividades en vivo proporcionan actualizaciones en tiempo real y experiencias interactivas dentro de las aplicaciones móviles, lo que permite a los usuarios mantenerse informados sobre eventos o tareas en curso directamente en la pantalla de su dispositivo. Esta función mejora la participación al ofrecer información en directo, como el seguimiento del progreso, las actualizaciones de eventos o el contenido interactivo, sin que sea necesario que los usuarios abran la aplicación. <!-- [Read more](../FILE.md) -->
+Además de Correo electrónico y SMS, ahora es posible actualizar el campo de ejecución predeterminado de WhatsApp. También es posible anular el campo de ejecución definido globalmente en los parámetros avanzados de la actividad de recorrido de WhatsApp o en la configuración del canal de WhatsApp. <!-- [Read more](../FILE.md) -->
 
-- **Recorridos**
-   - **Nuevas alertas de Recorrido** - Fecha de disponibilidad: 14 de octubre de 2025
-Hay nuevas alertas preconfiguradas disponibles para los recorridos: Tasa de descarte de perfil excedida (proporción de descartes de perfil para perfiles introducidos en el umbral excedido de los últimos 5 minutos), Tasa de error de acción personalizada excedida (proporción de errores de acción personalizados para llamadas HTTP correctas en el umbral excedido de los últimos 5 minutos), Tasa de error de perfil excedida (proporción de perfiles en error para perfiles introducidos en el umbral excedido de los últimos 5 minutos). <!-- [Read more](../FILE.md) -->
+**Permisos**
 
-- **Configuración**
-   - **Compatibilidad con atributos personalizados con URL para cancelar la suscripción con un clic**. Fecha de disponibilidad: 6 de octubre de 2025
-Con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer un punto final personalizado externo definiendo su propio vínculo de cancelación de suscripción de un solo clic en la configuración de correo electrónico. Cuando los destinatarios hacen clic en el vínculo unsubscribe, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento. Para personalizar aún más el vínculo de cancelación de suscripción, ahora puede definir atributos personalizados que se adjuntarán al evento de consentimiento. Esta funcionalidad ya está disponible para la URL de cancelación de suscripción con un solo clic desde agosto de 2025 y ahora se libera para la opción Mailto (cancelación de suscripción) en disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso. <!-- [Read more](../FILE.md) -->
+**Nuevas alertas de recorrido**
 
-- **Canal: correo electrónico**
-   - **Archivos adjuntos de PDF a correos electrónicos**. Fecha de disponibilidad: 30 de septiembre de 2025
-Ahora puede adjuntar un archivo PDF estático a un mensaje de correo electrónico enviado con Journey Optimizer. Puede enviar hasta 6 mensajes con un archivo adjunto de PDF por perfil y año. El tamaño máximo de archivo permitido para cada archivo adjunto es 5 MB. Para cualquier tamaño o volumen adicional, puede adquirir el complemento de datos adjuntos de PDF. Para obtener más información, póngase en contacto con su representante de Adobe.
+Hay nuevas alertas preconfiguradas disponibles para los recorridos: [Tasa de descartes de perfiles superada](../reports/alerts.md#alert-discard-rate) (proporción de descartes de perfiles para perfiles introducidos en el umbral excedido de los últimos 5 minutos), [Tasa de errores de acción personalizada superada](../reports/alerts.md#alert-custom-action-error-rate) (proporción de errores de acción personalizados para llamadas HTTP correctas en el umbral excedido de los últimos 5 minutos) y [Tasa de errores de perfil superada](../reports/alerts.md#alert-profile-error-rate) (proporción de perfiles en error para perfiles ingresados en el umbral excedido de los últimos 5 minutos). Puede modificar los valores de umbral y suscribirse a alertas de nivel de recorrido individual o global.
 
-  >[!AVAILABILITY]
-  >
-  >Esta mejora, lanzada anteriormente en disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).
+Fecha de disponibilidad: 14 de octubre de 2025
 
-  <!-- [Read more](../FILE.md) -->
+**Compatibilidad con atributos personalizados para la dirección Mailto (cancelar la suscripción)**
 
+Con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer puntos de conexión personalizados externos definiendo su propio vínculo de cancelación de suscripción de un clic y una dirección de correo electrónico de cancelación de suscripción personalizada en la configuración de correo electrónico. Cuando los destinatarios hacen clic en el vínculo Cancelar LA suscripción, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento.
+
+Para personalizar aún más los extremos personalizados, ahora puede definir atributos personalizados que también se adjuntarán al evento de consentimiento. [Más información](../email/list-unsubscribe.md#custom-attributes)
+
+>[!AVAILABILITY]
+>
+>Esta funcionalidad ya está disponible para la URL **[!UICONTROL Cancelar la suscripción con un solo clic]** desde agosto de 2025 y ahora está disponible para la opción **[!UICONTROL Mailto (cancelar la suscripción)]** en disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+
+Fecha de disponibilidad: 6 de octubre de 2025
