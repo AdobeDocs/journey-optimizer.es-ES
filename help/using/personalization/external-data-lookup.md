@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -210,7 +210,7 @@ En la sección Edge Delivery del seguimiento de seguridad como parte de los deta
 
 * ¿Cómo pasar un atributo contextual desde la solicitud como parámetro a una búsqueda de datos externa?
 
-  Utilice el menú Atributos contextuales > Flujo de datos > Evento para examinar el esquema de Experience Event que está utilizando e insertar el atributo relevante como valor de parámetro como este:
+  Utilice el menú Atributos contextuales > Flujo de datos > Evento para examinar el esquema de Experience Event que está utilizando e insertar el atributo relevante como valor de parámetro como se muestra a continuación:
 
   ```
   {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}

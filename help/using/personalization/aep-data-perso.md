@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expresión, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '707'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,7 @@ Una vez que un conjunto de datos se haya habilitado para la personalización de 
 
      >[!NOTE]
      >
-     >El valor especificado para este campo puede ser un identificador de campo (*profile.packages.packageSKU*), un campo pasado en un evento de recorrido (*context.recorrido.events.event_ID.productSKU*) o un valor estático (*sku007653*). En cualquier caso, el sistema utilizará el valor y buscará en el conjunto de datos para comprobar si coincide con una clave.
+     >El valor especificado para este campo puede ser un identificador de campo (`profile.packages.packageSKU`), un campo pasado en un evento de recorrido (`context.journey.events.event_ID.productSKU`) o un valor estático (`sku007653`). En cualquier caso, el sistema utilizará el valor y buscará en el conjunto de datos para comprobar si coincide con una clave.
      >
      >Si utiliza un valor de cadena literal para la clave, mantenga el texto entre comillas. P. Ej.: `{{datasetLookup datasetId="datasetId" id="SKU1234" result="store" required=false}}`. Si utiliza un valor de atributo como clave dinámica, elimine las comillas. P. ej.: `{{datasetLookup datasetId="datasetId" id=category.product.SKU result="SKU" required=false}}`
 
@@ -56,7 +56,7 @@ Una vez que un conjunto de datos se haya habilitado para la personalización de 
 
    +++¿Dónde se recupera un ID de conjunto de datos?
 
-   Los ID de conjuntos de datos se pueden recuperar en la interfaz de usuario de Adobe Experience Platform. Aprenda a trabajar con conjuntos de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
+   Los ID de conjuntos de datos se pueden recuperar en la interfaz de usuario de Adobe Experience Platform. Aprenda a trabajar con conjuntos de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
@@ -84,12 +84,12 @@ Una vez que un conjunto de datos se haya habilitado para la personalización de 
    >
    >No existen límites estrictos en el número de campos que se pueden extraer mediante la función de ayuda. Sin embargo, para obtener el mejor rendimiento, se recomienda mantener el número de campos por debajo de 50 para evitar afectar al rendimiento.
 
-   * **result** es el valor que ha asignado al parámetro **result** en la función de ayuda de **MultiEntity**. En este ejemplo, &quot;vuelo&quot;.
+   * **result** es el valor que ha asignado al parámetro **result** en la función de ayuda **datasetLookup**. En este ejemplo, &quot;vuelo&quot;.
    * **fieldID** es el identificador del campo que desea recuperar. Este identificador es visible en la interfaz de usuario [!DNL Adobe Experience Platform] al examinar el esquema de registros relacionado con el conjunto de datos:
 
      +++¿Dónde se recupera un ID de campo?
 
-     Los ID de campos se pueden recuperar al previsualizar un conjunto de datos en la interfaz de usuario de Adobe Experience Platform. Obtenga información sobre cómo obtener una vista previa de los conjuntos de datos en [Adobe Experience Platform documentation](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     Los ID de campos se pueden recuperar al previsualizar un conjunto de datos en la interfaz de usuario de Adobe Experience Platform. Obtenga información sobre cómo obtener una vista previa de los conjuntos de datos en [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
