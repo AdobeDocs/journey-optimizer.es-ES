@@ -10,10 +10,9 @@ level: Intermediate, Experienced
 keywords: recorrido, eventos de paso, análisis, creación de informes, monitorización, XDM
 hide: true
 hidefromtoc: true
-exl-id: 9f8e7d6c-5b4a-3928-1756-849302a11c2b
-source-git-commit: 17ea20a6b16965775bda98d7db1f12e28b037aaf
+source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '898'
 ht-degree: 1%
 
 ---
@@ -165,7 +164,6 @@ Comprenda la estructura de datos completa de los eventos de paso de recorrido:
 
 - Combine eventos de paso de recorrido con [datos de comentarios de mensajes](../data/datasets-query-examples.md#message-feedback-event-dataset) para la atribución completa
 - Utilice el análisis basado en el tiempo para comprender la velocidad del recorrido y los cuellos de botella
-- Crear análisis de cohorte para comparar diferentes [variaciones de recorrido](../building-journeys/testing-the-journey.md)
 
 ### Funciones de análisis avanzadas {#advanced-analytics}
 
@@ -177,13 +175,6 @@ Los eventos de paso de recorrido se pueden analizar con [Customer Journey Analyt
 - Análisis predictivo de los resultados del recorrido
 
 Aprenda a [configurar Customer Journey Analytics](report-gs-cja.md) para los datos de Journey Optimizer.
-
-**Toma de decisiones en tiempo real**
-Utilice patrones de eventos de paso de recorrido para lo siguiente:
-
-- Déclencheur la [personalización](../personalization/personalize.md) en tiempo real
-- Implementar [optimización dinámica de recorridos](../building-journeys/optimize.md)
-- Habilitar recomendaciones contextuales de acción óptima con [Administración de decisiones](../offers/get-started/starting-offer-decisioning.md)
 
 ## Recursos adicionales {#additional-resources}
 
@@ -199,7 +190,6 @@ Utilice patrones de eventos de paso de recorrido para lo siguiente:
 - **[Administración de datos](../data/export-datasets.md)**: exportando y administrando datos de recorrido
 - **[Privacidad y control](../privacy/audit-logs.md)**: Consideraciones sobre el control de datos para eventos de recorrido
 
-Los eventos de paso de recorrido forman la base del análisis de recorrido avanzado en Adobe Journey Optimizer. Si comprende y aprovecha estos eventos con eficacia, podrá obtener información más detallada sobre la conducta de los clientes, [optimizar el rendimiento del recorrido](../building-journeys/optimize.md) y crear más [experiencias personalizadas](../personalization/personalize.md) para sus clientes.
 
 **Pasos siguientes:**
 
