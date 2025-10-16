@@ -100,4 +100,4 @@ Para el contenido multilingüe, se debe definir la siguiente configuración:
 
 Aprenda a crear contenido en varios idiomas dentro de una sola campaña o recorrido.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430921/)
+>[!VIDEO](https://video.tv.adobe.com/v/3452116?captions=spa)
