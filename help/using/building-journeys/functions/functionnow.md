@@ -8,10 +8,10 @@ level: Experienced
 keywords: ahora, función, expresión, recorrido
 exl-id: 16dcc772-e48d-4f10-be75-62dd39473556
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 15%
+source-wordcount: '62'
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ Fecha
 
 | Parámetro | Descripción |
 |--- |--- |
-| cadena |  |
+| cadena | Identificador de zona horaria (opcional) |
 
 ## Firmas y tipo devuelto
 

@@ -11,9 +11,9 @@ hidefromtoc: true
 keywords: expresión, condición, casos de uso, eventos
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '547'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ En primer lugar, los clientes de destino que navegaron por la tienda en línea, 
 
 **Esta expresión busca todos los eventos de este usuario especificados en los últimos siete días:**
 
-A continuación, selecciona todos los eventos del carro de compras que no se transformaron en una compra completa.
+A continuación, selecciona todos los eventos de agregar al carro de compras que no se transformaron en una compra completa.
 
 >[!NOTE]
 >
