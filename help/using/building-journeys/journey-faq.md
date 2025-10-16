@@ -11,10 +11,10 @@ keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
+source-git-commit: 32848633cdfb5683b45286fcdd22711a82d591b5
 workflow-type: tm+mt
-source-wordcount: '2363'
-ht-degree: 1%
+source-wordcount: '4094'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 A continuación, encontrará las preguntas más frecuentes sobre los Recorridos de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceptos generales
 
@@ -68,6 +68,22 @@ Un recorrido consta de:
 * **Acciones personalizadas**: integración con sistemas de terceros
 
 Más información sobre [actividades de recorrido](about-journey-activities.md).
+
++++
+
++++ ¿Cómo puedo elegir entre un recorrido unitario y un recorrido de audiencia de lectura?
+
+Usar **recorridos unitarios** cuando:
+
+* Debe reaccionar ante las acciones individuales de los clientes en tiempo real (por ejemplo, confirmación de compra o abandono del carro de compras)
+* Cada cliente debe progresar a su propio ritmo
+* Desea almacenar en déclencheur según eventos específicos
+
+Use **leer recorridos de audiencia** cuando:
+
+* Está enviando comunicaciones por lotes a un grupo (por ejemplo, newsletter mensual, campañas promocionales)
+* Todos los clientes deben recibir el mensaje aproximadamente a la misma hora
+* Se está dirigiendo a un segmento de audiencia predefinido
 
 +++
 
@@ -150,6 +166,104 @@ Más información sobre [actualizaciones de perfil](update-profiles.md).
 
 +++
 
++++ ¿Cómo envío un correo electrónico inmediatamente después de que alguien realice una compra?
+
+Crear un **recorrido activado por evento unitario**:
+
+1. Configure un evento &quot;Purchase&quot; con los detalles del pedido
+2. Añada el evento como punto de entrada de recorrido
+3. Seguir inmediatamente con una acción de correo electrónico
+4. Diseñe su correo electrónico de confirmación de pedido con detalles personalizados del pedido
+5. Publicación del recorrido
+
+El recorrido envía automáticamente un déclencheur cada vez que se recibe un evento de compra y envía el correo electrónico de confirmación en tiempo real.
+
+Más información sobre [configuración de eventos](../event/about-events.md) y [acciones de correo electrónico](journeys-message.md).
+
++++
+
++++ ¿Puedo reenviar un mensaje si alguien no lo abre o hace clic en él?
+
+Sí. Usar una **actividad de condición** combinada con **actividades de espera**:
+
+1. Agregar una actividad de Wait (por ejemplo, wait 3 days)
+2. Agregue una actividad Condición para comprobar si el correo electrónico se ha abierto o se ha hecho clic en él
+3. Cree dos rutas:
+   * **Si se abre o se hace clic**: finalice el recorrido o continúe con los pasos siguientes
+   * **Si no se ha abierto o hecho clic**: envía un correo electrónico de recordatorio con una línea de asunto diferente
+
+**Práctica recomendada**: Limite el número de reenvíos para evitar que aparezcan correos no deseados (normalmente, 1-2 recordatorios como máximo).
+
+Más información sobre [eventos de reacción](reaction-events.md).
+
++++
+
++++ ¿Cómo se crea un recorrido de abandono del carro de compras?
+
+Cree un recorrido activado por evento con lógica de espera y condición:
+
+1. **Configurar un evento &quot;Abandonado del carro de compras&quot;**: Se activa cuando se agregan elementos, pero el cierre de compra no se completó dentro de un intervalo de tiempo
+2. **Agregar una actividad de espera**: espere de 1 a 2 horas para que el cliente tenga tiempo de finalizar de forma natural
+3. **Agregar una condición**: compruebe si la compra se completó durante la espera
+4. **Si no se compró**: envía un correo electrónico de recordatorio de abandono con el contenido del carro de compras
+5. **Opcional**: agrega otra espera (24 horas) y envía un segundo recordatorio con un incentivo (por ejemplo, 10% de descuento)
+
+Más información sobre [casos de uso de recorrido](jo-use-cases.md).
+
++++
+
++++ ¿Cómo divido a los clientes en diferentes rutas en función de su historial de compras?
+
+Usar una **actividad de condición** con atributos de perfil o pertenencia a audiencia:
+
+1. Añada una actividad de Condición al recorrido
+2. Cree varias rutas en función de ciertos criterios:
+   * **Ruta 1**: Clientes de alto valor (compras totales > $1000)
+   * **Ruta 2**: Clientes normales (compras totales de $100 a $1000)
+   * **Ruta 3**: Clientes nuevos (compras totales &lt; 100 $)
+3. Añadir diferentes mensajes u ofertas para cada ruta
+
+Más información sobre las [condiciones](condition-activity.md) y la [calificación de audiencias](audience-qualification-events.md).
+
++++
+
++++ ¿Cómo puedo manejar diferentes zonas horarias en mi recorrido?
+
+Journey Optimizer proporciona varias opciones para la administración de huso horario:
+
+* **Zona horaria del perfil**: los mensajes se envían según la zona horaria de cada individuo almacenada en su perfil
+* **Zona horaria fija**: todos los mensajes utilizan una zona horaria específica que usted defina
+* **Esperar hasta una hora específica**: utilice la actividad Esperar para enviar mensajes a una hora específica en la zona horaria local del destinatario (por ejemplo, 10 a. m.)
+
+**Ejemplo**: Para enviar un correo electrónico de &quot;Buenos días&quot; a las 9 a. m. en la zona horaria de cada cliente, use una actividad de espera con &quot;Esperar hasta una fecha u hora fijas&quot; y habilite la opción de zona horaria.
+
+Más información sobre [administración de huso horario](timezone-management.md).
+
++++
+
++++ ¿Cuánto tiempo debo esperar entre mensajes en el recorrido?
+
+**Prácticas recomendadas para tiempos de espera**:
+
+* **Mensajes transaccionales** (confirmaciones de pedidos): enviar inmediatamente
+* **Serie de bienvenida**: 1-3 días entre correos electrónicos
+* **Contenido educativo**: de 3 a 7 días entre mensajes
+* **Campañas promocionales**: al menos 7 días entre ofertas
+* **Nuevo compromiso**: 14-30 días para usuarios inactivos
+
+**Factores a considerar**:
+
+* Estándares del sector y expectativas de los clientes
+* Urgencia e importancia del mensaje
+* Su frecuencia general de mensajería en todos los canales
+* Patrones de participación del cliente
+
+**Sugerencia**: Use reglas de límite de recorrido para limitar el número total de mensajes que un cliente recibe en todos los recorridos.
+
+Más información sobre [actividades de espera](wait-activity.md) y [límite de recorrido](../conflict-prioritization/journey-capping.md).
+
++++
+
 ## Prueba y publicación
 
 +++ ¿Cómo pruebo mi recorrido antes de publicarlo?
@@ -202,6 +316,26 @@ Puede administrar la ejecución del recorrido de varias formas:
 * **Pausar**: detenga temporalmente el recorrido y vuelva a reanudarlo más tarde (disponible para tipos de recorrido específicos)
 
 Más información sobre [recorridos finales](end-journey.md).
+
++++
+
++++ ¿Cuál es la diferencia entre &quot;Cerca de nuevas entradas&quot; y &quot;Detener&quot;?
+
+**Cerca de nuevas entradas**:
+
+* Los nuevos perfiles no pueden entrar en el recorrido
+* Los perfiles que ya están en la recorrido continúan y completan su ruta
+* Utilícelo cuando desee reducir un recorrido con precisión
+* Ejemplo: una campaña de temporada que ha finalizado pero en la que desea que los clientes existentes completen su experiencia
+
+**Detener**:
+
+* Finaliza inmediatamente el recorrido para todos los perfiles
+* Se abandonan todos los perfiles que se encuentran actualmente en la recorrido
+* Utilícelo para situaciones urgentes o errores críticos
+* Ejemplo: Recuperación de productos que requiere la detención inmediata de los mensajes promocionales
+
+Más información acerca de [opciones de pausa del recorrido](journey-pause.md).
 
 +++
 
@@ -277,6 +411,113 @@ Cuando falla una acción (por ejemplo, tiempo de espera de llamada de API, error
 **Práctica recomendada**: establezca valores de tiempo de espera adecuados para acciones externas y defina rutas alternativas para escenarios de error críticos.
 
 Más información sobre [respuestas de acción](../action/action-response.md).
+
++++
+
++++ ¿Puedo ver quién está actualmente en mi recorrido en este momento?
+
+Sí. Use el **Informe en vivo de Recorrido** para ver:
+
+* Número de perfiles actualmente en el recorrido
+* Número de perfiles en cada actividad
+* Perfiles introducidos en las últimas 24 horas
+* Métricas de ejecución en tiempo real
+
+Para ver perfiles individuales, use **eventos de paso de recorrido** en Customer Journey Analytics o consulte los conjuntos de datos de evento de paso directamente.
+
+Más información sobre [Informes en vivo de recorrido](report-journey.md).
+
++++
+
++++ ¿Por qué no se envían mis mensajes en mi recorrido?
+
+**Razones y soluciones comunes**:
+
+* **Problemas de consentimiento**: los destinatarios no se han suscrito para recibir comunicaciones
+Solución: compruebe las políticas de consentimiento y el estado de inclusión
+
+* **Lista de supresión**: las direcciones de correo electrónico están en la lista de supresión
+Solución: revise la lista de supresión para ver si hay rechazos o quejas
+
+* **Información de contacto no válida**: faltan direcciones de correo electrónico o números de teléfono incorrectos
+Solución: valide la calidad de datos del perfil
+
+* **Recorrido no publicado**: el recorrido sigue en modo de borrador
+Solución: publique el recorrido para activarlo
+
+* **Mensaje no aprobado**: el contenido del mensaje requiere aprobación antes de enviarlo
+Solución: envíe para su aprobación o compruebe el estado de aprobación
+
+* **Problema de configuración del canal**: La configuración de correo electrónico/SMS es incorrecta
+Solución: compruebe las configuraciones de canal y la autenticación
+
+Más información sobre [solución de problemas](troubleshooting.md) y [administración de consentimiento](../action/consent.md).
+
++++
+
++++ ¿Cómo puedo personalizar los mensajes en mi recorrido?
+
+Puede personalizar mensajes mediante el **editor de personalización**:
+
+**Datos de personalización disponibles**:
+
+* **Atributos de perfil**: campos personalizados de nombre, apellido, correo electrónico
+* **Datos del evento**: detalles de compra, comportamiento de navegación, actividad de la aplicación
+* **Datos contextuales**: variables de Recorrido, datos de API externos
+* **Pertenencia a audiencia**: Calificaciones del segmento
+* **Atributos calculados**: Valores precalculados
+
+**Ejemplo de personalización**:
+
+* &quot;Hola {{profile.firstName}}, gracias por comprar {{event.productName}}&quot;
+* &quot;En función de su nivel de fidelidad ({{profile.loyaltyTier}}), esta es una oferta especial&quot;
+* Bloques de contenido dinámico que cambian según las preferencias de los clientes
+
+Más información sobre [personalización](../personalization/personalize.md).
+
++++
+
++++ ¿Puedo enviar diferentes mensajes según el canal preferido?
+
+Sí. Use una **actividad de condición** para comprobar el canal preferido:
+
+1. Añada un perfil de comprobación de condición.ferredChannel
+2. Cree rutas independientes para cada canal:
+   * **Ruta de correo electrónico**: enviar mensaje de correo electrónico
+   * **Ruta de SMS**: enviar mensaje SMS
+   * **Ruta de inserción**: Enviar notificación push
+3. Adición de una ruta predeterminada para perfiles sin preferencias
+
+**Método alternativo**: usa **acciones multicanal** en las que Journey Optimizer selecciona automáticamente el mejor canal según las preferencias y disponibilidad del perfil.
+
+Más información sobre [acciones del canal](journeys-message.md).
+
++++
+
++++ ¿Puedo excluir a ciertos clientes de mi recorrido?
+
+Sí, hay varias formas de excluir a los clientes:
+
+**En la entrada de recorrido**:
+
+* Uso de definiciones de audiencia con reglas de exclusión
+* Añadir condiciones de entrada que filtran perfiles específicos
+* Configurar requisitos de área de nombres
+
+**Dentro del recorrido**:
+
+* Añada una actividad Condición al principio del recorrido para salir de perfiles no deseados
+* Comprobar atributos de exclusión (por ejemplo, estado de VIP, cuentas de prueba)
+* Use la calificación de audiencia para identificar perfiles que excluir
+
+**Ejemplo de escenarios de exclusión**:
+
+* Excluir clientes que compraron recientemente
+* Excluir a los clientes de VIP de las promociones estándar
+* Excluir empleados y cuentas de prueba
+* Excluir clientes de regiones específicas
+
+Más información sobre [administración de entradas](entry-management.md) y [condiciones](condition-activity.md).
 
 +++
 
@@ -358,6 +599,124 @@ La **actividad de salto** le permite hacer la transición de perfiles de un reco
 Cuando un perfil alcanza una actividad de salto, sale del recorrido actual e introduce el recorrido de destino en su punto inicial.
 
 Más información sobre [la actividad de salto](jump.md).
+
++++
+
++++ ¿Cómo se crea un recorrido de serie de bienvenida?
+
+Una serie de bienvenida típica incluye varios puntos de contacto durante varios días:
+
+**Estructura de ejemplo**:
+
+1. **Entrada**: Audiencia de nuevos suscriptores o evento cuando alguien se registra
+2. **Correo electrónico 1 - Bienvenida inmediata**: Gracias e introducción
+3. **Esperar**: 2 días
+4. **Correo electrónico 2 - Introducción**: Tutorial o guía del producto
+5. **Esperar**: 3 días
+6. **Condición**: ¿el cliente ha realizado una compra?
+   * **Sí**: finalizar o mover al recorrido del cliente
+   * **No**: continuar la serie de bienvenida
+7. **Correo electrónico 3 - Incentivo**: descuento especial para el primer comprador
+8. **Esperar**: 5 días
+9. **Correo electrónico 4 - Participación**: Contenidos más vendidos o populares
+
+**Prácticas recomendadas**:
+
+* Manténgalo en 3-5 correos electrónicos durante 2-3 semanas
+* Cada correo electrónico debe tener un propósito claro y call-to-action
+* Monitorice las tasas de apertura y ajuste el tiempo/contenido en consecuencia
+* Salga antes de tiempo de los clientes si convierten o interactúan en profundidad
+
+Más información sobre [casos de uso de recorrido](jo-use-cases.md).
+
++++
+
++++ ¿Puedo probar diferentes rutas A/B en mi recorrido?
+
+Sí. Use **Optimizar actividad** (disponible en paquetes específicos de Journey Optimizer) o cree divisiones de prueba de forma manual:
+
+**Usando la actividad de optimización**:
+
+* Divide automáticamente el tráfico entre variantes
+* Prueba de diferentes mensajes, ofertas o rutas de recorrido completas
+* Mide el rendimiento y declara un ganador
+
+**Pruebas manuales con la condición**:
+
+* Cree una condición que divida aleatoriamente los perfiles (por ejemplo, mediante una función de número aleatorio)
+* Enviar diferentes experiencias a cada división
+* Medir los resultados mediante informes de recorrido
+
+**Lo que puede probar**:
+
+* Líneas de asunto de correo electrónico diferentes
+* Contenido de mensaje alternativo
+* Tiempos de espera diferentes
+* Varias ofertas o incentivos
+* Rutas de recorrido completamente diferentes
+
+Más información sobre [optimizar la actividad](optimize.md) y [experimentos de contenido](../content-management/content-experiment.md).
+
++++
+
++++ ¿Cómo se almacena en déclencheur un recorrido cuando el inventario es bajo?
+
+Crear un **recorrido de evento empresarial**:
+
+1. **Configurar un evento empresarial**: configure un evento activado por el sistema de inventario cuando las existencias caigan por debajo de un umbral
+2. **Seleccionar audiencia de destino**: elija los perfiles a los que notificar (por ejemplo, clientes que vieron el producto, suscriptores a alertas de reabastecimiento)
+3. **Agregar acción de mensaje**: Enviar correo electrónico de notificación o push
+4. **Personalizar contenido**: incluya detalles del producto, nivel de inventario actual y mensajes de urgencia
+
+**Ejemplo de eventos empresariales**:
+
+* Alerta de inventario baja
+* Notificación de caída de precios
+* El producto vuelve a estar disponible
+* Anuncio de venta Flash
+* Promociones basadas en el tiempo
+
+Más información sobre [eventos empresariales](general-events.md).
+
++++
+
++++ ¿Puedo pausar un recorrido para una persona específica sin detener todo el recorrido?
+
+Aunque no puede pausar un recorrido para perfiles individuales directamente, puede lograr resultados similares:
+
+**Opciones**:
+
+* **Agregar a audiencia de exclusión**: cree una audiencia de perfiles para excluir y agregar una comprobación de condición de esta audiencia en puntos estratégicos del recorrido
+* **Actualizar atributo de perfil**: establezca una marca de &quot;pausa&quot; en el perfil y use condiciones para omitir acciones en los perfiles marcados
+* **Acción personalizada**: use un sistema externo para rastrear perfiles en pausa y comprobar el estado mediante una llamada de API
+* **Salida manual**: En casos urgentes, puede quitar manualmente los perfiles de prueba
+
+**Nota**: los cambios de Recorrido solo afectan a los nuevos participantes. Los perfiles que ya están en la recorrido siguen la ruta original a menos que la recorrido se detenga por completo.
+
++++
+
++++ ¿Cuál es la diferencia entre una condición y una actividad de espera?
+
+**Actividad de condición**:
+
+* **Propósito**: crea diferentes rutas basadas en lógica (si/entonces)
+* **Función**: evalúa los datos y enruta los perfiles en consecuencia
+* **Casos de uso**: Segmentar clientes, comprobar el estado, rama en función del comportamiento
+* **Ejemplo**: Si el cliente es VIP, envíe una oferta premium; de lo contrario, envíe una oferta estándar
+
+**Actividad de espera**:
+
+* **Propósito**: Pausa la recorrido durante un período de tiempo
+* **Función**: contiene perfiles en un punto específico antes de continuar
+* **Casos de uso**: Intervalos entre mensajes, espera del horario laboral, creación de retrasos
+* **Ejemplo**: espere 3 días después del correo electrónico de bienvenida antes de enviar el siguiente mensaje
+
+**Trabajan juntos**:
+
+* Espere un momento y, a continuación, utilice una Condición para comprobar si se ha producido algo durante la espera
+* Ejemplo: Esperar 7 días y comprobar si el cliente realizó una compra
+
+Más información sobre [condiciones](condition-activity.md) y [actividades de espera](wait-activity.md).
 
 +++
 
