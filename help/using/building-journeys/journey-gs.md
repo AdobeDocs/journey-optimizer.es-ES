@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 28%
+source-wordcount: '766'
+ht-degree: 27%
 
 ---
 
@@ -66,7 +66,7 @@ Como ingeniero de datos, los pasos para configurar sus recorridos, incluidas las
 >
 >En [esta página](../start/guardrails.md) se detallan los mecanismos de protección y limitaciones de los recorridos
 
-## Creación de un recorrido {#jo-build}
+## Crear un recorrido {#jo-build}
 
 Para crear un recorrido de varios pasos, siga estos pasos:
 
@@ -90,7 +90,7 @@ El diseñador de recorridos omnicanal le ayuda a crear recorridos de varios paso
 
    ![](assets/read-segment.png)
 
-1. Para empezar, arrastre y suelte un evento o una actividad **Leer audiencia** de la paleta en el lienzo. Para obtener más información sobre el diseño de recorrido, consulte [esta sección](using-the-journey-designer.md).
+1. Arrastre y suelte un evento o una actividad **Leer audiencia** de la paleta en el lienzo. Para obtener más información sobre el diseño de recorrido, consulte [esta sección](using-the-journey-designer.md).
 
 ## Prueba del recorrido {#jo-test}
 
@@ -98,7 +98,7 @@ Una vez creado el recorrido, pruébelo antes de publicarlo. Journey Optimizer of
 
 También puede ejecutar su recorrido en **Ejecución en seco**. El ensayo del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales de recorridos probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil. Esta función ayuda a los profesionales del recorrido a confiar en el diseño del recorrido y la segmentación de audiencia antes de publicarla en directo. Obtenga información sobre cómo publicar un recorrido en el modo de ejecución en seco [en esta sección](journey-dry-run.md).
 
-## Publicar el recorrido {#jo-pub}
+## Publicación del recorrido {#jo-pub}
 
 Debe publicar un recorrido para activarlo y hacer que esté disponible para que los nuevos perfiles lo introduzcan. Antes de publicar el recorrido, compruebe que es válido y que no hay errores. No se puede publicar un recorrido con errores. Obtenga más información acerca de la publicación de recorrido en esta [sección](publishing-the-journey.md).
 
