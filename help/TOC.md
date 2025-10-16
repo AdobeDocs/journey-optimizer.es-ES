@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: df3abb7da17eb21e5e4120b55bdeb61fec3e202d
+source-git-commit: 3b736463615dac1bd5de7c7cee3ae46e9a2526da
 workflow-type: tm+mt
 source-wordcount: '2990'
 ht-degree: 98%
@@ -65,10 +65,10 @@ ht-degree: 98%
       + [Informe en vivo en el recorrido](using/building-journeys/report-journey.md)
    + Administrar los recorridos {#manage-journey}
       + [Administrar los recorridos](/help/rp_landing_pages/manage-journey-landing-page.md)
-      + [Trabajo con eventos de paso de recorrido](using/reports/journey-step-events-overview.md)
       + [Examinar y filtrar sus recorridos](using/building-journeys/journey-ui.md)
       + [Entrada de perfil en recorridos](using/building-journeys/entry-management.md)
       + [Uso de identificadores suplementarios en recorridos](using/building-journeys/supplemental-identifier.md)
+      + [Trabajo con eventos de paso de recorrido](using/reports/journey-step-events-overview.md)
       + [Administración de husos horarios](using/building-journeys/timezone-management.md)
       + [Optimización de hora de envío](using/building-journeys/send-time-optimization.md)
       + [Termine el recorrido](using/building-journeys/end-journey.md)
@@ -883,7 +883,7 @@ ht-degree: 98%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
