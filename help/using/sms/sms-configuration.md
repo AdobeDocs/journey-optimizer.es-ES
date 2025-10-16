@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 37e86b2c9d7f1587fefa2927949a13cac24c34ad
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 42%
+source-wordcount: '412'
+ht-degree: 41%
 
 ---
 

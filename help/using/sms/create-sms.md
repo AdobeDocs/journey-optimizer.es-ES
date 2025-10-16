@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: c52821a657aead38a4d08540e60686cfe117a95e
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1105'
 ht-degree: 8%
 
 ---
@@ -112,7 +112,7 @@ Para configurar el contenido del mensaje, siga los pasos a continuación. La con
 
 1. Después de definir el contenido, puede agregar direcciones URL rastreadas al mensaje. Para ello, acceda al menú **[!UICONTROL Funciones de ayuda]** y seleccione **[!UICONTROL Ayudantes]**.
 
-   Tenga en cuenta que para utilizar la función de acortamiento de URL, primero debe configurar un subdominio que luego se vinculará a la configuración. [Más información](sms-subdomains.md)
+   Para utilizar la función de acortamiento de URL, primero debe configurar un subdominio que luego se vinculará a la configuración. [Más información](sms-subdomains.md)
 
    >[!NOTE]
    >

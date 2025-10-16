@@ -8,7 +8,7 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdominios, configuración
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 9f66606e2673554f7dfb40dd48cfc17eca2ca06b
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 18%

@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '469'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ## Configuración de las credenciales de API para SMS/MMS
 
-Para configurar Twilio con Journey Optimizer, debe crear una nueva credencial de API utilizada para Twilio:
+Para configurar Twilio con Journey Optimizer, debe crear nuevas credenciales de API para Twilio:
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** `>` **[!UICONTROL Configuración de SMS]** y seleccione el menú **[!UICONTROL Credenciales de API]**. Haga clic en el botón **[!UICONTROL Crear nuevas credenciales de API]**.
 

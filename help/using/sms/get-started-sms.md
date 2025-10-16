@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ Utilice [!DNL Journey Optimizer] para enviar mensajes de texto (SMS/MMS/RCS) a s
 
 Los mensajes de texto se pueden crear y enviar en un recorrido o en una campaña. Para SMS, MMS y RCS, utilice la acción SMS.
 
-* En un **recorrido**. Cree un recorrido, añada una actividad SMS y defina la configuración básica. A continuación, vaya al panel derecho Acciones: SMS para crear el contenido del mensaje SMS, MMS o RCS. [Obtenga información sobre cómo crear un recorrido](../building-journeys/journey-gs.md)
+* En un **recorrido**. Cree un recorrido, añada una actividad SMS y defina la configuración básica. A continuación, vaya al panel Acciones de SMS de la derecha para crear el contenido del mensaje SMS, MMS o RCS. [Obtenga información sobre cómo crear un recorrido](../building-journeys/journey-gs.md)
 
 * En una **campaña**. Cree una campaña, seleccione SMS como su acción y defina la configuración básica. A continuación, edite el contenido del mensaje para definir el mensaje SMS, MMS o RCS que desea enviar. [Obtenga información sobre cómo crear una campaña](../campaigns/create-campaign.md#configure)
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer envía mensajes de texto a través de proveedores de ser
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422693?learn=on&captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
   +++
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer envía mensajes de texto a través de proveedores de ser
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430377?quality=12&learn=on&captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
   +++
 
@@ -88,6 +88,6 @@ Adobe Journey Optimizer envía mensajes de texto a través de proveedores de ser
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464758?captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
   +++
