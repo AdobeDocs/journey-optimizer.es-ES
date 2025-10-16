@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, diseño, accesibilidad
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: dc7b24223bd32a75b87946733a6b098811e007d9
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 La [Ley Europea de Accesibilidad](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} es una directiva diseñada para mejorar el mercado interno de productos y servicios accesibles al eliminar las barreras causadas por las diferentes reglas nacionales en los Estados Miembros.
 
-Esta regulación establece que todas las comunicaciones digitales, incluidos correos electrónicos, boletines informativos, PDF y contenido descargable, deben ser accesibles. Por lo tanto, al crear contenido para los destinatarios, se le exige que siga directrices específicas como el uso de fuentes accesibles, formatos legibles y proporcionar texto alternativo para las imágenes.
+Esta regulación establece que todas las comunicaciones digitales, incluidos correos electrónicos, boletines informativos, PDF y contenido descargable, deben ser accesibles. Por lo tanto, al crear contenido para los destinatarios, se le exige que siga directrices específicas, como utilizar fuentes accesibles, formatos legibles y proporcionar texto alternativo para las imágenes.
 
 El [!DNL Journey Optimizer] [Designer de correo electrónico](content-from-scratch.md), que permite a los especialistas en marketing crear contenido para **correos electrónicos** y **páginas de aterrizaje**, le permite cumplir fácilmente con esta directiva, según las Directrices de accesibilidad del contenido web (WCAG) 2.1, nivel AA.
 
