@@ -25,7 +25,7 @@ En la siguiente sección se describe cómo aprovechar manualmente los datos gene
 
 Después de crear el recorrido en [!DNL Journey Optimizer], puede importar los datos de clientes a [!DNL Customer Journey Analytics] para iniciar informes y comprender el impacto de cada interacción que un cliente tiene con sus recorridos.
 
-➡️ [Discover Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
+➡️ [Discover Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Después de crear el recorrido en [!DNL Journey Optimizer], puede importar los d
 
 Antes de usar [!DNL Customer Journey Analytics] en sus recorridos, primero debe configurarla:
 
-1. [Crear una conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) en [!DNL Customer Journey Analytics] con el **[!UICONTROL conjunto de datos]** que desea enviar a Adobe Experience Platform.
+1. [Crear una conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es) en [!DNL Customer Journey Analytics] con el **[!UICONTROL conjunto de datos]** que desea enviar a Adobe Experience Platform.
 
    Se pueden configurar los siguientes [!DNL Journey Optimizer]:
    * [Evento de paso de Recorrido](../data/datasets-query-examples.md#journey-step-event): permite ver quién entra en los recorridos y hasta dónde llegan.
@@ -43,7 +43,7 @@ Antes de usar [!DNL Customer Journey Analytics] en sus recorridos, primero debe 
 
 1. [Cree una vista de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es) para configurar las dimensiones y métricas que desee usar en el informe.
 
-   Puede crear métricas específicas de Journey Optimizer para reflejar mejor los datos de sus recorridos. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
+   Puede crear métricas específicas de Journey Optimizer para reflejar mejor los datos de sus recorridos. [Más información](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html?lang=es#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
 
 El uso de [!DNL Journey Optimizer] con [!DNL Customer Journey Analytics] podría generar discrepancias en los datos de informes debido a lo siguiente:
 
