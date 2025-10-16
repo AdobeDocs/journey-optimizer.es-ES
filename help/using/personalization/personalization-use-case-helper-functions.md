@@ -52,7 +52,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 1. Cree un evento cuyo esquema incluya la matriz `productListItems`.
 1. Defina todos los campos de esta matriz como campos de carga útil para este evento.
 
-   Obtenga más información acerca del tipo de datos de elementos de la lista de productos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
+   Obtenga más información acerca del tipo de datos de elementos de la lista de productos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=es){target="_blank"}.
 
 1. Cree un recorrido que comience con este evento.
 1. Agregue una actividad **Correo electrónico** al recorrido.
@@ -105,7 +105,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Obtenga más información acerca del tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
+      Obtenga más información acerca del tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=es){target="_blank"}.
 
 1. Haga clic en **[!UICONTROL Validar]** y luego en **[!UICONTROL Guardar]**.
 
