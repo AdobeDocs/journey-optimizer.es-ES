@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '982'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Adobe Journey Optimizer aprovecha Identity Service para combinar perfiles y pers
 
 Al crear casos de uso, tenga en cuenta lo siguiente:
 
-1. La marca quiere volver a atraer a un visitante del sitio 30 minutos después del abandono (por ejemplo, correo electrónico de carro de compras abandonado):
+1. La marca quiere volver a atraer a un visitante del sitio 30 minutos después del abandono (por ejemplo, correo electrónico del carro de compras abandonado):
 
    Usar la identidad con los datos: ECID. Si desea capturar el 100 % de los visitantes que han proporcionado su dirección de correo electrónico o instalación de la aplicación en los últimos 30 minutos, debe utilizar la identidad basada en cookies para iniciar este recorrido (ECID). Esto supone que su dirección de correo electrónico, token push u otra dirección para la experiencia está asociada al ECID.
 
@@ -57,7 +57,7 @@ Esta sección le guiará en la escala con las dos limitaciones siguientes:
 
 Puede adoptar una serie de prácticas recomendadas que le ayudarán a mantenerse dentro de las barreras y a utilizar el sistema de forma eficaz.
 
-* Si se acerca al límite de recorridos activos, el primer paso que puede dar es ir a la ficha **Información general** en **Recorridos** para ver cuántos recorridos estuvieron activos en las últimas 24 horas en los recorridos que tenían perfiles activos. Puede comprobar el número de perfiles que entran y salen del recorrido en esta sección para determinar eso.
+* Si se acerca al límite de recorridos activos, el primer paso que puede dar es ir a la ficha **Información general** en **Recorridos** para ver cuántos recorridos estuvieron activos en las últimas 24 horas que tuvieron perfiles activos. Puede comprobar el número de perfiles que entran y salen del recorrido en esta sección para determinar eso.
 
   ![](assets/journey-guardrails2.png)
 
@@ -71,4 +71,4 @@ Puede adoptar una serie de prácticas recomendadas que le ayudarán a mantenerse
 * Si el recorrido tiene varias condiciones para dividir la audiencia y ver los números en cada paso, considere la posibilidad de utilizar Customer Journey Analytics u otra solución de creación de informes más adecuada para el análisis.
 * Si se acerca al límite de nodos en el lienzo, considere la posibilidad de consolidar acciones con parámetros dinámicos o contenido para ofrecer el contenido correcto en lugar de nodos explícitos.
 
-* Si tiene un recorrido de **Leer audiencia** con segmento por lotes (A) y usa dentro del recorrido en el segmento de flujo de audiencia (B) para excluir (es decir, realizar A-B), considere mover esa lógica a la lógica de segmentación y use la exclusión como parte de la propia lógica de segmentación.
+* Si tiene un recorrido de **Leer audiencia** con el segmento por lotes (A) y está usando un segmento de flujo de audiencia (B) dentro del recorrido que excluir (es decir, realizar A-B), considere mover esa lógica a la lógica de segmentación y use la exclusión como parte de la propia lógica de segmentación.

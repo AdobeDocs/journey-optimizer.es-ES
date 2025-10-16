@@ -7,16 +7,16 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
 # Introducción para administradores de sistemas {#get-started-sys-admins}
 
-Antes de empezar a utilizar [!DNL Adobe Journey Optimizer], se requieren varios pasos para preparar su entorno.  Debe seguir estos pasos para que el [Ingeniero de datos](data-engineer.md) y el [Profesional del recorrido](marketer.md) puedan comenzar a trabajar con [!DNL Adobe Journey Optimizer].
+Antes de empezar a utilizar [!DNL Adobe Journey Optimizer], se requieren varios pasos para preparar su entorno.  Debe seguir estos pasos para que [el Ingeniero de datos](data-engineer.md) y [el Profesional del Recorrido](marketer.md) puedan comenzar a trabajar con [!DNL Adobe Journey Optimizer].
 
 Como **Administrador del sistema**, necesita **comprender las funciones y asignar permisos** para la administración de zonas protegidas y la configuración de canal. También debe configurar las zonas protegidas y administrarlas para las funciones disponibles. A continuación, podrá asignar integrantes del equipo a las funciones.
 
