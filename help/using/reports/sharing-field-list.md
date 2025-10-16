@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 990ecd8a9fd89f0cc15dc41e7e38490aba539784
+source-git-commit: faf6e63e3951b67997836107ae518b294526206b
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 9%
@@ -83,25 +83,25 @@ Al consultar eventos de paso de recorrido para registros con `eventCode = 'disca
 
 A continuación encontrará definiciones, causas comunes y pasos de solución de problemas para el descarte más frecuente `eventTypes`:
 
-* EXTERNAL_KEY_COMPUTATION_ERROR: El sistema no pudo calcular un identificador único (clave externa) para el cliente a partir de los datos de evento.
+* **EXTERNAL_KEY_COMPUTATION_ERROR**: el sistema no pudo calcular un identificador único (clave externa) para el cliente a partir de los datos de evento.
 
   **Causas comunes**: Faltan identificadores de cliente o tienen un formato incorrecto (por ejemplo, correo electrónico, ID de cliente) en la carga útil de evento.
 
   **Solución de problemas**: compruebe la configuración del evento para ver los identificadores necesarios, asegúrese de que los datos del evento estén completos y tengan el formato correcto.
 
-* NO_INTERESTED_RECORRIDO_FOR_SEGMENTMEMBERSHIP_EVENT: Se ha recibido un evento de calificación de segmentos, pero no hay recorridos configurados para responder a este segmento.
+* **NO_INTERESTED_RECORRIDO_FOR_SEGMENTMEMBERSHIP_EVENT**: se recibió un evento de calificación de segmentos, pero no hay recorridos configurados para responder a este segmento.
 
   **Causas comunes**: Ningún recorrido usa el segmento como déclencheur, los recorridos están en estado de borrador/detenido o los ID de segmento no coinciden.
 
   **Solución de problemas**: Asegúrese de que haya al menos un recorrido activo y configurado para el segmento y compruebe los ID de segmento.
 
-* RECORRIDO_INSTANCE_ID_NOT_CREATE: Error del sistema al crear una instancia de recorrido para el cliente.
+* **RECORRIDO_INSTANCE_ID_NOT_CREATE**: el sistema no pudo crear una instancia de recorrido para el cliente.
 
   **Causas comunes**: Eventos duplicados, volumen de evento alto, restricciones de recursos del sistema.
 
   **Solución de problemas**: Implemente la anulación de duplicación, evite los picos de tráfico, optimice el diseño del recorrido y póngase en contacto con el servicio de asistencia si persiste.
 
-* EVENT_WITH_NO_RECORRIDO: se recibió un evento, pero no hay ningún recorrido activo configurado para responder a él
+* **EVENT_WITH_NO_RECORRIDO**: se recibió un evento, pero no se configuró ningún recorrido activo para responderlo
 
   **Causas comunes**: El nombre/ID del evento no coincide, el recorrido no se ha publicado, la zona protegida/organización es incorrecta, el modo de prueba/no coincide el perfil.
 
