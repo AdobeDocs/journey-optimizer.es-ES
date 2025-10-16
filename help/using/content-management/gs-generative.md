@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: cf9c6370af9541dc0e1361eb42c942d1744a1aae
-workflow-type: ht
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ Ahora puede utilizar el Asistente de IA en Adobe Journey Optimizer para optimiza
 
 >[!IMPORTANT]
 >
->* Antes de empezar a usar esta capacidad, lea las [Mecanismos de protecciones y limitaciones](#generative-guardrails) relacionadas.
+>* Antes de empezar a usar esta capacidad, lea las [Protecciones y limitaciones](#generative-guardrails) relacionadas.
 >
 >
 >* Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder utilizar el Asistente de IA de Adobe Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.

@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 33%
@@ -41,7 +41,7 @@ Utilice el menú **[!UICONTROL Componentes]** para crear y administrar los compo
 
 >[!NOTE]
 >
->Si tiene problemas para acceder a la administración de decisiones o a algunas de sus funciones, consulte con un usuario administrador que se le hayan concedido los derechos necesarios. Consulte [Conceder acceso a Administración de decisiones](starting-offer-decisioning.md#granting-acess-to-decision-management).
+>Si tiene problemas para acceder a la administración de decisiones o a algunas de sus funciones, consulte con un usuario administrador que se le hayan concedido los derechos necesarios. Consulte [Conceder acceso a Administración de decisiones](starting-offer-decisioning.md#granting-access-to-decision-management).
 
 ## Información general {#overview}
 

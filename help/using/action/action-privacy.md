@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: datos, gobernanza, DULE, etiquetas, etiquetado, plataforma, directiva
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Para que las políticas de gobernanza de datos se apliquen en Journey Optimizer,
 
 ### Aplicación de acciones de marketing a recorridos y campañas {#journeys-campaigns}
 
-Después de crear políticas de gobernanza, debe aplicar las acciones de marketing relevantes en las **configuraciones de canal** de Journey Optimizer. Para ello, siga estos pasos:
+Después de crear directivas de gobernanza, debe aplicar las acciones de marketing relevantes a las **configuraciones de canal** de Journey Optimizer. Para ello, siga estos pasos:
 
 1. Acceda al menú **[!UICONTROL Canales]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Configuraciones de canal]**.
 

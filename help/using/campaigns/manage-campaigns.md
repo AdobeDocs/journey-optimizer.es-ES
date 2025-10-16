@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 15%
+source-wordcount: '1707'
+ht-degree: 14%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 15%
 >title="Acción"
 >abstract="Esta sección enumera todas las acciones utilizadas dentro de la campaña orquestada."
 
-Se puede acceder a las campañas desde el menú **[!UICONTROL Campañas]**. Utilice las fichas para examinar las campañas, por tipo: **Campañas de acción**, **campañas activadas por API** y **orquestadas**. Más información sobre el [tipo de campaña](get-started-with-campaigns.md#get-started-with-campaigns). Los tipos disponibles dependen del acuerdo de licencia y de los permisos.
+Se puede acceder a las campañas desde el menú **[!UICONTROL Campañas]**. Utilice las fichas para examinar las campañas por tipo: **Campañas de acción**, **campañas activadas por API** y **orquestadas**. Más información sobre los [tipos de campañas](get-started-with-campaigns.md#get-started-with-campaigns). Los tipos disponibles dependen del acuerdo de licencia y de los permisos.
 
 >[!BEGINTABS]
 
@@ -69,7 +69,7 @@ El botón ![Imagen que muestra el botón Más acciones](assets/do-not-localize/r
 * **[!UICONTROL Editar etiquetas]**: edite las etiquetas asociadas a la campaña. Aprenda a [usar etiquetas en sus campañas](../start/search-filter-categorize.md#add-tags-to-an-object)
 * **[!UICONTROL Duplicate]**: utilice esta opción para duplicar una campaña, por ejemplo, para ejecutar una campaña orquestada que se haya detenido. [Más información](#duplicate-a-campaign)
 * **[!UICONTROL Eliminar]** - Utilice esta opción para eliminar una campaña. [Más información](#delete-a-campaign)
-* **[!UICONTROL Archivar]**: archive la campaña. Todas las campañas archivadas se eliminarán en una reprogramación escalonada 30 días después de la última fecha de modificación. Esta acción está disponible para todas las campañas excepto para **[!UICONTROL Borrador]**. Más información sobre [archivo de campaña](#archive-a-campaign).
+* **[!UICONTROL Archivar]**: archive la campaña. Todas las campañas archivadas se eliminan según una programación móvil 30 días después de su última fecha de modificación. Esta acción está disponible para todas las campañas excepto para **[!UICONTROL Borrador]**. Más información sobre [archivo de campaña](#archive-a-campaign).
 
 Para las campañas activadas por acciones y API, están disponibles las siguientes acciones adicionales:
 
@@ -214,7 +214,7 @@ Para detener una campaña recurrente, ábrala y haga clic en el botón **[!UICON
 
 >[!IMPORTANT]
 >
->Al detener una campaña, no se detiene un envío en curso, sino que se detiene un envío programado o las siguientes ocurrencias si el envío ya está en marcha.
+>Al detener una campaña, no se detiene un envío en curso, sino que se detiene un envío programado o las siguientes ocurrencias si el envío ya está en curso.
 
 ## Archivado de una campaña {#archive}
 

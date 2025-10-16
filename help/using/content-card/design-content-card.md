@@ -6,20 +6,20 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: dccaaa0588b504c1c00ce25fd6bbb4f34652ec91
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 2%
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
 
 # Diseño de contenido de tarjetas de contenido {#design-content-card}
 
-La construcción de creación para tarjetas proporciona una experiencia de creación basada en formularios que proporciona a los especialistas en marketing entradas básicas que el desarrollador puede utilizar para representar.
+La construcción de creación para tarjetas proporciona una experiencia de creación basada en formularios que proporciona a los especialistas en marketing entradas básicas que los desarrolladores pueden procesar.
 
 Una vez definido y personalizado el contenido, puede revisarlo y activarlo. Su campaña se enviará de acuerdo con la programación establecida. [Más información en esta página](../campaigns/review-activate-campaign.md).
 
-## Diseño de la tarjeta de contenido
+## Diseño de tarjeta de contenido
 
 ![](assets/content-card-image.png)
 

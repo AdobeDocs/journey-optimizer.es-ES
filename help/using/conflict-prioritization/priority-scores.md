@@ -4,7 +4,7 @@ description: Aprenda a asignar puntuaciones de prioridad a recorridos y campaña
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: be1538495ea7427fd8c4b8ea781db74bf557c22f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 35%
@@ -13,7 +13,7 @@ ht-degree: 35%
 
 # Asignar puntuaciones de prioridad {#priority}
 
-Journey Optimizer le permite asignar una puntuación de prioridad a un recorrido, a una campaña o a una acción de canal entrante dentro de la actividad **[!UICONTROL Acción]** de recorrido.
+Journey Optimizer le permite asignar una puntuación de prioridad a un recorrido, a una campaña o a una acción de canal entrante dentro de la actividad **[!UICONTROL Action]** de recorrido.
 
 La prioridad es esencial para priorizar un recorrido, una campaña o una acción cuando hay una restricción impuesta (como un límite de frecuencia).
 
@@ -72,4 +72,4 @@ Para asignar una puntuación de prioridad a las acciones entrantes definidas en 
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445004?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

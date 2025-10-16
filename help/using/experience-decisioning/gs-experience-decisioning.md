@@ -1,15 +1,15 @@
 ---
 title: Introducción a la toma de decisiones
-description: Más información sobre la Toma de decisiones
+description: Más información sobre la toma de decisiones
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
@@ -48,7 +48,7 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
       ![](assets/decision_permission_2.png)
 
-   1. Introduzca el nombre o la dirección de correo electrónico del usuario o selecciónelo de la lista y haga clic en **[!UICONTROL Guardar]**.
+   1. Escriba el nombre o la dirección de correo electrónico del usuario o seleccione el usuario de la lista y haga clic en **[!UICONTROL Guardar]**.
 
       Si el usuario no se ha creado previamente, consulte la [documentación de Añadir usuarios](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/users).
 

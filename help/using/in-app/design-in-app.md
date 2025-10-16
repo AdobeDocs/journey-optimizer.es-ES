@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, diseño, formato
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 26%
@@ -23,7 +23,7 @@ ht-degree: 26%
 
 Puede editar el contenido en la aplicación para configurar las opciones de experiencia:
 
-* En una **[!UICONTROL campaña]**, desde el menú **[!UICONTROL Acción]**, para configurar el contenido del mensaje, haga clic en el botón **[!UICONTROL Editar contenido]**.
+* En una **[!UICONTROL campaña]**, en el menú **[!UICONTROL Acción]**, haga clic en el botón **[!UICONTROL Editar contenido]** para configurar el contenido del mensaje.
 
   ![](assets/edit-in-app-content.png)
 
@@ -266,4 +266,4 @@ Para obtener más información, consulte [Documentación para desarrolladores](h
 
 El siguiente vídeo muestra cómo crear y probar los mensajes en la aplicación.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422076?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

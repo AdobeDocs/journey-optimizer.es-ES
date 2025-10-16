@@ -10,7 +10,7 @@ level: Intermediate
 keywords: expresión, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: eb0da59bbdaa16eb381dda965cd06fb8548a945a
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -34,14 +34,14 @@ Antes de empezar, revise las siguientes restricciones y directrices:
 
 * **No hay PII en los conjuntos de datos**. Los conjuntos de datos habilitados para la búsqueda no deben contener información de identificación personal (PII).
 
-* &#x200B;
+* 
    * **Riesgo de eliminación**: los conjuntos de datos utilizados en la personalización no están protegidos contra eliminación. Debe realizar un seguimiento de los conjuntos de datos que se utilizan para asegurarse de que no se eliminan.
 
 * **Tipo de esquema**: los conjuntos de datos deben estar asociados con un esquema que sea **NO** de tipo perfil o evento.
 
 * **Mantener la opción de búsqueda activada**: evite activar y desactivar conjuntos de datos repetidamente. Al hacerlo, se puede producir un comportamiento de indexación inesperado. La práctica recomendada es dejar el conjunto de datos habilitado durante el tiempo que desee utilizarlo para búsquedas.
 
-* **Lote de eliminación de datos**: al quitar un lote de datos del conjunto de datos, se eliminan por completo todas las claves coincidentes del servicio de búsqueda. Por ejemplo:
+* **Lote de eliminación de datos**: al eliminar un lote de datos del conjunto de datos, se eliminan por completo todas las claves coincidentes del servicio de búsqueda. Por ejemplo:
 
   **Lote 1**: Sku1, Sku2, Sku3\
   **Lote 2**: Sku1, Sku2, Sku3, Sku4, Sku5, Sku6\

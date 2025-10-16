@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: zonas protegidas, virtual, entornos, organización, plataforma
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 29%
 
 ---
@@ -50,7 +50,7 @@ Para asignar zonas protegidas:
 
    ![](assets/sandbox_3.png)
 
-1. Si es necesario, haga clic en el icono X para quitar el acceso a las zonas protegidas de su **[!UICONTROL función]**.
+1. Si es necesario, haga clic en el icono X que hay junto a él para quitar el acceso a la zona protegida de su **[!UICONTROL función]**.
 
    ![](assets/sandbox_4.png)
 
@@ -70,4 +70,4 @@ Tenga en cuenta que para que el contenido se sincronice con la zona protegida co
 
 Comprenda qué son las zonas protegidas y cómo distinguir entre las zonas protegidas de desarrollo y producción. Obtenga información sobre cómo crear, restablecer y eliminar zonas protegidas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416653?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

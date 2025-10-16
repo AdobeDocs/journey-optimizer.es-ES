@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a perfiles y públicos
-description: Aprenda a trabajar con perfiles y audiencias dentro de  [!DNL Journey Optimzier].
+description: Aprenda a trabajar con perfiles y audiencias dentro de  [!DNL Journey Optimizer].
 feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 6%

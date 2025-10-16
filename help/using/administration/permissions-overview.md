@@ -9,20 +9,20 @@ role: Admin, Architect
 level: Intermediate
 keywords: permisos, derechos, restricciones, acceso, zona protegida
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '436'
 ht-degree: 8%
 
 ---
 
 # Introducción al control de acceso {#permissions-overview}
 
-[!DNL Journey Optimizer] le permite definir y administrar los permisos asignados a distintos usuarios. Los permisos son un conjunto de derechos y restricciones que autorizan o deniegan el acceso a las funciones y capacidades internas del producto.
+[!DNL Journey Optimizer] le permite definir y administrar los permisos asignados a distintos usuarios. Los permisos son un conjunto de derechos y restricciones que autorizan o deniegan el acceso a las funciones y capacidades del producto.
 
-El control de acceso de [!DNL Journey Optimizer] se proporciona a través de **Permisos** en Adobe Experience Cloud. Esta funcionalidad aprovecha las funciones y directivas que vinculan a los usuarios con permisos y zonas protegidas.
+El control de acceso de [!DNL Journey Optimizer] se proporciona mediante **Permisos** en Adobe Experience Cloud. Esta funcionalidad aprovecha las funciones y directivas que vinculan a los usuarios con permisos y zonas protegidas.
 
-Para configurar el control de acceso para Journey Optimizer, debe tener privilegios de administrador de sistemas o productos para su organización. La función mínima que puede conceder o retirar permisos es de administrador de productos. Otros roles de administrador que pueden administrar permisos son administradores del sistema (sin restricciones). Consulte el [artículo del Centro de ayuda de Adobe](https://helpx.adobe.com/es/enterprise/using/admin-roles.html){target="_blank"} sobre funciones administrativas para obtener más información.
+Para configurar el control de acceso para Journey Optimizer, debe tener privilegios de administrador de sistemas o productos para su organización. La función mínima que puede conceder o retirar permisos es de administrador de productos. Otros roles de administrador que pueden administrar permisos son administradores del sistema (sin restricciones). Consulte el [artículo del Centro de ayuda de Adobe](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} sobre funciones administrativas para obtener más información.
 
 <!-- A high-level workflow for gaining and assigning access permissions can be summarized as follows:
 

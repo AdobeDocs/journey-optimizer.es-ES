@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: esquemas, XDM, plataforma, flujo, ingesta, recorrido
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: d79e42cd42fa8342526e02116f65a8e53449fad5
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Por lo tanto, un requisito previo importante para configurar eventos para [!DNL 
 
 >[!CAUTION]
 >
->Ya no se admiten las búsquedas de eventos de experiencia en condiciones de recorrido. Consulte las prácticas recomendadas alternativas aquí. Si tiene un caso de uso de recorrido activado por evento que aún necesita la búsqueda de eventos de Experience y no se puede admitir a través de ninguna de las alternativas enumeradas, póngase en contacto con su representante de Adobe y le ayudaremos a alcanzar su objetivo.
+>Ya no se admiten las búsquedas de eventos de experiencia en condiciones de recorrido. Consulte las prácticas recomendadas alternativas aquí. Si tiene un caso de uso de recorrido activado por un evento que aún necesita buscar eventos de Experience y no se puede admitir a través de ninguna de las alternativas enumeradas, póngase en contacto con su representante de Adobe y le ayudaremos a alcanzar su objetivo.
 >
 >El acceso al contexto desde el evento de inicio de un recorrido no se ve afectado.
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=es).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
