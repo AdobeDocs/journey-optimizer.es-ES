@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c2b990a413762dccc71e4152cbb145a51a5d073e
+source-git-commit: 9c80306d1dad057272b43339c940fec77e2441b1
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 42%
+source-wordcount: '956'
+ht-degree: 44%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 42%
 
 Véase también [Notas de la versión preliminar de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**Fecha de lanzamiento**: 21-22 de octubre de 2025
+**Fecha de lanzamiento**: jueves, 22 de octubre de 2025
 
 ### Nuevas funciones {#oct-25-10-features}
 
@@ -48,46 +48,46 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Mensajería básica de RCS</strong><br/></th>
+<th><strong>RCS Basic Messaging</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con la nueva oferta de complementos básicos de RCS, ahora puede ofrecer mensajería básica de servicios de comunicaciones enriquecidos (RCS) en Journey Optimizer, lo que permite las siguientes funciones de mensajería mejoradas sujetas a la asistencia geográfica y del proveedor:</p>
+<p>With the new RCS Basic add-on offering, you can now deliver basic Rich Communication Services (RCS) messaging in Journey Optimizer, enabling the following enhanced messaging capabilities subject to provider and geographical support:</p>
 <ul>
-<li><strong>Compatibilidad con remitente verificado y con marca:</strong> Envíe mensajes utilizando perfiles comerciales verificados con elementos de marca (logotipo, nombre del remitente, etc.).</li>
-<li><strong>Información sobre la entrega de mensajes:</strong> Reciba informes de entrega detallados que incluyan actualizaciones del estado del mensaje (por ejemplo, enviado, entregado, leído).</li>
-<li><strong>Seguimiento de vínculos:</strong> Incruste y rastrea direcciones URL en mensajes RCS para el análisis de participación.</li>
-<li><strong>Reserva a SMS:</strong> Reserva automática a SMS cuando el dispositivo del destinatario no admite RCS o no se puede acceder temporalmente a través de RCS.</li>
-<li><strong>Composición básica de mensajes:</strong> Envíe mensajes RCS básicos basados en texto.</li>
+<li><strong>Branded and verified sender support:</strong> Send messages using verified business profiles with branding elements (logo, sender name, etc.).</li>
+<li><strong>Message delivery insights:</strong> Receive detailed delivery reports including message status updates (e.g., sent, delivered, read).</li>
+<li><strong>Link tracking:</strong> Embed and track URLs within RCS messages for engagement analytics.</li>
+<li><strong>Fallback to SMS:</strong> Automatic fallback to SMS when the recipient's device does not support RCS or is temporarily unreachable via RCS.</li>
+<li><strong>Basic message composition:</strong> Send basic text-based RCS messages.</li>
 </ul>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
+<!--/td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Canal de correo directo en campañas organizadas</strong><br/></th>
+<th><strong>Direct mail channel in Orchestrated campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El canal de correo postal ya está disponible en campañas orquestadas. La actividad de correo directo facilita el envío de correo directo dentro de la campaña orquestada, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de generación del archivo de extracción requerido por los proveedores de correo directo. Puede combinar actividades de canal en el lienzo de la campaña orquestada para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente.</p>
+<p>Direct mail channel is now available in orchestrated campaigns. The Direct mail activity facilitates direct mail sending within your Orchestrated campaign, for both one-time and recurring messages. It serves to automate the process of generating the extraction file required by direct mail providers. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
+<!--/td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -224,7 +224,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <td>
 <p>Con la tecnología <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, el agente de experimentación está disponible en Journey Optimizer. </p>
 <p>Experimentation Agent es una herramienta con tecnología de IA que moderniza la forma de ejecutar y administrar experimentos digitales en sitios web, correos electrónicos, mensajes push y aplicaciones. Ayuda a ejecutar experimentos de forma más eficaz, organizar los objetivos comerciales y generar perspectivas procesables, resaltando lo que funcionó, lo que no y dónde experimentar a continuación.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=es" target="_blank">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 10 de octubre de 2025</p>
 </td>
 </tr>
@@ -282,8 +282,6 @@ Ahora puede aprovechar el generador de reglas al utilizar reglas de segmentació
 **Campo de ejecución para el canal de WhatsApp**
 
 Además de Correo electrónico y SMS, ahora es posible actualizar el campo de ejecución predeterminado de WhatsApp. También es posible anular el campo de ejecución definido globalmente en los parámetros avanzados de la actividad de recorrido de WhatsApp o en la configuración del canal de WhatsApp. <!-- [Read more](../FILE.md) -->
-
-**Permisos**
 
 **Nuevas alertas de recorrido**
 
