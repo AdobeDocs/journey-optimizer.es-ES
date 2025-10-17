@@ -11,9 +11,9 @@ keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 32848633cdfb5683b45286fcdd22711a82d591b5
+source-git-commit: d55aff6dd3773ad59ab45d2b6d7ced7b9a64de5d
 workflow-type: tm+mt
-source-wordcount: '4094'
+source-wordcount: '4189'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 A continuación, encontrará las preguntas más frecuentes sobre los Recorridos de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceptos generales
 
@@ -37,10 +37,11 @@ Más información sobre [recorridos](journey.md).
 
 +++ ¿Cuáles son los diferentes tipos de recorridos?
 
-Adobe Journey Optimizer admite tres tipos de recorridos:
+Adobe Journey Optimizer admite cuatro tipos de recorridos:
 
 * **recorridos unitarios**: Se activan individualmente mediante un evento (por ejemplo, una compra o el inicio de sesión en la aplicación). Los perfiles introducen el recorrido de uno en uno cuando se produce el evento.
 * **Leer recorridos de audiencias**: Comience con una audiencia de Adobe Experience Platform y envíe mensajes en lote a todos los perfiles de esa audiencia.
+* **recorridos de calificación de audiencia**: se activa cuando los perfiles cumplen los requisitos para un segmento de audiencia específico o salen de él. Los perfiles introducen el recorrido cuando cumplen los criterios de audiencia.
 * **recorridos de eventos empresariales**: desencadenados por eventos empresariales (por ejemplo, actualizaciones de existencias o alertas meteorológicas) que afectan a varios perfiles simultáneamente.
 
 Más información sobre [tipos de recorrido](entry-management.md#types-of-journeys).
@@ -51,9 +52,13 @@ Más información sobre [tipos de recorrido](entry-management.md#types-of-journe
 
 Los **Recorridos** son orquestaciones de varios pasos que reaccionan a eventos o audiencias de destino, lo que permite lógicas, condiciones, tiempos de espera y múltiples puntos de contacto complejos en el ciclo de vida del cliente.
 
-**Las campañas** son comunicaciones únicas o recurrentes enviadas a una audiencia específica, ideales para mensajes independientes como anuncios promocionales o boletines informativos.
+**Las campañas** se dividen en tres tipos:
 
-**Práctica recomendada**: Use recorridos para una participación continua en varios pasos y campañas para comunicaciones independientes y con objetivo.
+* **Campañas de acción**: las comunicaciones únicas o recurrentes enviadas a una audiencia específica son perfectas para mensajes independientes como anuncios promocionales o boletines informativos.
+* **Campañas activadas por API**: campañas activadas a través de llamadas de API, lo que permite la integración con sistemas externos para enviar mensajes basados en eventos en tiempo real o lógica empresarial.
+* **Campañas orquestadas**: campañas de varios pasos y basadas en audiencias que se basan en un lienzo que puede incluir condiciones, tiempos de espera y múltiples acciones para crear experiencias programadas y coordinadas.
+
+**Práctica recomendada**: Use recorridos para una participación compleja activada por eventos con orquestación avanzada; campañas de acción para comunicaciones programadas y basadas en audiencias; campañas activadas por API para activación programática desde sistemas externos; y campañas orquestadas para comunicaciones de varios pasos con requisitos específicos de campañas.
 
 +++
 
