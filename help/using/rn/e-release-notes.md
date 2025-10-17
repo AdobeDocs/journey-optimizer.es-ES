@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9c80306d1dad057272b43339c940fec77e2441b1
+source-git-commit: 70ffd26772ae9907278af92a46af30b9d1bb1309
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '964'
 ht-degree: 44%
 
 ---
@@ -30,6 +30,25 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 ### Nuevas funciones {#oct-25-10-features}
 
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Horas tranquilas/Exclusiones basadas en el tiempo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Las horas tranquilas le permiten definir exclusiones basadas en el tiempo para los canales de correo electrónico, SMS, push y WhatsApp. Garantizan que no se envíen mensajes durante períodos de tiempo específicos, lo que le ayuda a respetar las preferencias de los clientes y los requisitos de cumplimiento.</p>
+<p>Puede aplicar horas tranquilas a través de conjuntos de reglas, que se pueden asignar a acciones individuales en campañas o recorridos para un control preciso. Simplificando estos procesos.</p>
+<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -177,24 +196,27 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Horas tranquilas/Exclusiones basadas en el tiempo</strong><br/></th>
+<th><strong>Nuevas alertas de Recorrido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Las horas tranquilas le permiten definir exclusiones basadas en el tiempo para los canales de correo electrónico, SMS, push y WhatsApp. Garantizan que no se envíen mensajes durante períodos de tiempo específicos, lo que le ayuda a respetar las preferencias de los clientes y los requisitos de cumplimiento.</p>
-<p>Puede aplicar horas tranquilas a través de conjuntos de reglas, que se pueden asignar a acciones individuales en campañas o recorridos para un control preciso. Simplificando estos procesos.</p>
-<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>Hay nuevas alertas preconfiguradas disponibles para controlar la ejecución del recorrido:</p>
+<ul><li><a href="./reports/alerts.md#alert-discard-rate">Tasa de descartes de perfiles superada</a>: la proporción de descartes de perfiles respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral.</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Tasa de errores de acción personalizada superada</a>: la proporción de errores de acción personalizada respecto a las llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral.</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">Tasa de error de perfil superada</a>: la proporción de perfiles en error respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral.</li>.</ul> <p>Puede modificar los valores de umbral y suscribirse a alertas de nivel de recorrido individual o global.</p>
+<p>Para obtener más información, consulte la <a href="../reports/alerts.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 14 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
+
 <table>
 <thead>
 <tr>
@@ -224,7 +246,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <td>
 <p>Con la tecnología <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, el agente de experimentación está disponible en Journey Optimizer. </p>
 <p>Experimentation Agent es una herramienta con tecnología de IA que moderniza la forma de ejecutar y administrar experimentos digitales en sitios web, correos electrónicos, mensajes push y aplicaciones. Ayuda a ejecutar experimentos de forma más eficaz, organizar los objetivos comerciales y generar perspectivas procesables, resaltando lo que funcionó, lo que no y dónde experimentar a continuación.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=es" target="_blank">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 10 de octubre de 2025</p>
 </td>
 </tr>
@@ -282,12 +304,6 @@ Ahora puede aprovechar el generador de reglas al utilizar reglas de segmentació
 **Campo de ejecución para el canal de WhatsApp**
 
 Además de Correo electrónico y SMS, ahora es posible actualizar el campo de ejecución predeterminado de WhatsApp. También es posible anular el campo de ejecución definido globalmente en los parámetros avanzados de la actividad de recorrido de WhatsApp o en la configuración del canal de WhatsApp. <!-- [Read more](../FILE.md) -->
-
-**Nuevas alertas de recorrido**
-
-Hay nuevas alertas preconfiguradas disponibles para los recorridos: [Tasa de descartes de perfiles superada](../reports/alerts.md#alert-discard-rate) (proporción de descartes de perfiles para perfiles introducidos en el umbral excedido de los últimos 5 minutos), [Tasa de errores de acción personalizada superada](../reports/alerts.md#alert-custom-action-error-rate) (proporción de errores de acción personalizados para llamadas HTTP correctas en el umbral excedido de los últimos 5 minutos) y [Tasa de errores de perfil superada](../reports/alerts.md#alert-profile-error-rate) (proporción de perfiles en error para perfiles ingresados en el umbral excedido de los últimos 5 minutos). Puede modificar los valores de umbral y suscribirse a alertas de nivel de recorrido individual o global.
-
-Fecha de disponibilidad: 14 de octubre de 2025
 
 **Compatibilidad con atributos personalizados para la dirección Mailto (cancelar la suscripción)**
 
