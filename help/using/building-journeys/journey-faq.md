@@ -11,9 +11,9 @@ keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 26516db5251e096f6caaafb2c217238aa614da3e
+source-git-commit: 31da84ab3fe4edabaf49f7b078ef0b2fdae3f6c5
 workflow-type: tm+mt
-source-wordcount: '4340'
+source-wordcount: '4446'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 A continuación, encontrará las preguntas más frecuentes sobre los Recorridos de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceptos generales
 
@@ -716,18 +716,23 @@ Más información sobre [eventos empresariales](general-events.md).
 
 +++
 
-+++ ¿Puedo pausar un recorrido para una persona específica sin detener todo el recorrido?
++++ ¿Qué son las políticas de combinación y cómo afectan a los recorridos?
 
-Aunque no puede pausar un recorrido para perfiles individuales directamente, puede lograr resultados similares:
+**Políticas de combinación** determinan cómo Adobe Experience Platform combina datos de varias fuentes para crear una vista de perfil unificada. Definen reglas para la priorización de datos y la vinculación de identidad cuando existen fragmentos de perfil en diferentes conjuntos de datos.
 
-**Opciones**:
+**Impacto en recorridos**:
 
-* **Agregar a audiencia de exclusión**: cree una audiencia de perfiles para excluir y agregar una comprobación de condición de esta audiencia en puntos estratégicos del recorrido
-* **Actualizar atributo de perfil**: establezca una marca de &quot;pausa&quot; en el perfil y use condiciones para omitir acciones en los perfiles marcados
-* **Acción personalizada**: use un sistema externo para rastrear perfiles en pausa y comprobar el estado mediante una llamada de API
-* **Salida manual**: En casos urgentes, puede quitar manualmente los perfiles de prueba
+* Los recorridos utilizan la política de combinación asociada a la audiencia o al evento para determinar qué datos de perfil están disponibles
+* La política de combinación afecta a los atributos e identidades accesibles en las condiciones de recorrido, la personalización y las acciones
+* Las distintas políticas de combinación pueden dar como resultado que se utilicen datos de perfil diferentes en la recorrido
 
-**Nota**: los cambios de Recorrido solo afectan a los nuevos participantes. Los perfiles que ya están en la recorrido siguen la ruta original a menos que la recorrido se detenga por completo.
+**Prácticas recomendadas**:
+
+* Asegúrese de que la política de combinación utilizada por el recorrido se ajuste a los requisitos de control de datos
+* Comprenda qué conjuntos de datos se incluyen en la política de combinación para saber qué datos están disponibles
+* Utilice políticas de combinación coherentes en todas las audiencias y recorridos relacionados para obtener resultados predecibles
+
+Más información sobre [políticas de combinación](../audience/get-started-profiles.md) y [administración de identidades](../audience/get-started-identity.md).
 
 +++
 
@@ -764,7 +769,7 @@ Las barreras importantes incluyen:
 
 * **Complejidad del Recorrido**: actividades máximas, rutas y niveles de anidación
 * **Rendimiento**: tasas de envío de mensajes y límites de llamadas API
-* **Tiempo de vida**: recorrido máximo (por ejemplo, 91 días para recorridos unitarios)
+* **Tiempo de vida**: recorrido máximo (por ejemplo, 91 días)
 * **Tamaño de audiencia**: límites en los tamaños de lotes de audiencia de lectura
 * **Complejidad de expresión**: límites de caracteres en condiciones y personalización
 
@@ -778,7 +783,7 @@ Ver [limitaciones y protecciones](../start/guardrails.md) completas.
 
 * Mantenga los recorridos centrados en casos de uso específicos
 * Utilice un nombre descriptivo para las actividades
-* Agregar notas y etiquetas para una lógica compleja
+* Agregar descripciones y etiquetas para una lógica compleja
 * Agrupar recorridos relacionados con etiquetas
 
 **Rendimiento**:
@@ -791,6 +796,8 @@ Ver [limitaciones y protecciones](../start/guardrails.md) completas.
 **Pruebas**:
 
 * Probar siempre las recorridos antes de publicar
+* Utilice el modo de prueba para validar la lógica del recorrido y avanzar por el recorrido
+* Utilice el modo de ejecución en seco para probar con datos de producción reales sin ponerse en contacto con los clientes
 * Prueba de todas las rutas y escenarios condicionales
 * Uso de perfiles de prueba realistas
 * Validación de personalización y contenido dinámico
@@ -798,7 +805,7 @@ Ver [limitaciones y protecciones](../start/guardrails.md) completas.
 **Mantenimiento**:
 
 * Revisar regularmente el rendimiento del recorrido
-* Archivar o cerrar recorridos no utilizados
+* Detener o cerrar recorridos no utilizados
 * Lógica de recorrido de documentos y reglas empresariales
 * Plan de versiones de recorrido
 
@@ -808,11 +815,18 @@ Más información sobre [prácticas recomendadas de diseño de recorrido](using-
 
 +++ ¿Cuántas actividades puedo añadir a un recorrido?
 
-Aunque no hay un límite estricto en el número de actividades, los recorridos muy complejos (más de 50 actividades) pueden resultar difíciles de mantener y solucionar. Los recorridos grandes con muchas ramas y condiciones pueden afectar al tiempo de procesamiento y a la legibilidad.
+Los recorridos están limitados a un máximo de 50 actividades. Sin embargo, recomendamos que simplifique los recorridos para mejorar la capacidad de mantenimiento y el rendimiento.
 
-**Práctica recomendada**: Si el recorrido se vuelve demasiado complejo, considere la posibilidad de dividirlo en varios recorridos mediante la actividad de salto, la creación de recorridos secundarios reutilizables o la simplificación de la lógica con condiciones más eficientes.
+A medida que los recorridos se acercan a 50 actividades, pueden llegar a ser muy complejos y difíciles de mantener, solucionar problemas y comprender. Los recorridos grandes con muchas ramas y condiciones también pueden afectar al tiempo de procesamiento, la legibilidad y la colaboración en equipo.
 
-Más información sobre [diseño de recorrido](using-the-journey-designer.md).
+**Práctica recomendada**: Mantenga sus recorridos centrados y manejables. Si su recorrido se está volviendo complejo, considere lo siguiente:
+
+* Desglose en varios recorridos con la actividad Jump
+* Creación de patrones reutilizables en recorridos más simples
+* Simplificación de la lógica con condiciones más eficientes
+* Revisión de si todas las actividades son necesarias
+
+Más información sobre [diseño de recorrido](using-the-journey-designer.md) y [limitaciones y protecciones](../start/guardrails.md).
 
 +++
 
@@ -820,26 +834,26 @@ Más información sobre [diseño de recorrido](using-the-journey-designer.md).
 
 **Consideraciones de diseño**:
 
-* Utilice entradas basadas en audiencias para comunicaciones por lotes en lugar de eventos individuales
-* Implementar tiempos de espera adecuados para propagar el volumen de mensajes
-* Aproveche las reglas de límite para evitar la sobrecarga del sistema
-* Optimizar la lógica de condición para reducir la complejidad del procesamiento
+* Usar [entrada basada en audiencia](read-audience.md) para comunicaciones por lotes en lugar de eventos individuales
+* Implementar [tiempos de espera](wait-activity.md) adecuados para propagar el volumen de mensajes
+* Aproveche [las reglas de límite](../conflict-prioritization/journey-capping.md) para evitar la sobrecarga del sistema
+* Optimizar [lógica de condición](condition-activity.md) para reducir la complejidad del procesamiento
 
 **Supervisión**:
 
-* Seguimiento regular de métricas de recorrido
-* Monitorización del rendimiento de la API para acciones personalizadas
-* Revisar tasas de error y ocurrencias de tiempo de espera
-* Configurar alertas para errores críticos de recorrido
+* Rastrear [métricas de recorrido](report-journey.md) con regularidad
+* Supervisar el rendimiento de la API para [acciones personalizadas](using-custom-actions.md)
+* Revise las tasas de error y las incidencias de tiempo de espera usando [herramientas de solución de problemas](troubleshooting.md)
+* Suscribirse a [alertas de recorrido](../reports/alerts.md) errores críticos de recorrido
 
 **Optimización**:
 
-* Utilice el modo de prueba y la ejecución en seco para validar el rendimiento antes de publicar
-* Limitar las llamadas de fuentes de datos externas a escenarios esenciales
-* Almacenar en caché los datos a los que se accede frecuentemente cuando es posible
-* Revisión y optimización del rendimiento del envío de mensajes
+* Use [modo de prueba](testing-the-journey.md) y [ejecución en seco](journey-dry-run.md) para validar el rendimiento antes de publicar
+* Minimice las llamadas de API externas mediante [acciones personalizadas](using-custom-actions.md) para evitar la latencia y la dependencia de sistemas de terceros
+* Almacenar datos usados con frecuencia en Adobe Experience Platform mediante [búsqueda de conjuntos de datos](dataset-lookup.md) en lugar de realizar llamadas externas, siempre que sea posible
+* Revisar y optimizar el rendimiento de [entrega de mensajes](journeys-message.md)
 
-Más información sobre [optimización de recorrido](../start/guardrails.md).
+Más información sobre [limitaciones y protecciones](../start/guardrails.md).
 
 +++
 
