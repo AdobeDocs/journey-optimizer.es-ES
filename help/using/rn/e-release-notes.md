@@ -283,7 +283,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <td>
 <p>Con la tecnología <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, el agente de experimentación está disponible en Journey Optimizer. </p>
 <p>Experimentation Agent es una herramienta con tecnología de IA que moderniza la forma de ejecutar y administrar experimentos digitales en sitios web, correos electrónicos, mensajes push y aplicaciones. Ayuda a ejecutar experimentos de forma más eficaz, organizar los objetivos comerciales y generar perspectivas procesables, resaltando lo que funcionó, lo que no y dónde experimentar a continuación.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=es" target="_blank">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 10 de octubre de 2025</p>
 </td>
 </tr>
