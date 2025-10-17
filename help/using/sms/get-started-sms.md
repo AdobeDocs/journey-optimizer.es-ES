@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 0a9c36b75f7433eadbc8894fb7252a8f846c78b2
+source-git-commit: 13552b3731a20fc9ca2d93a18c0a2c9fdf9378fa
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 30%
+source-wordcount: '812'
+ht-degree: 27%
 
 ---
 
@@ -132,40 +132,66 @@ Estos pasos de configuración los suele realizar un administrador del sistema. [
 
 ## Recursos adicionales {#additional-resources}
 
-**Guías de configuración**
+Examine los temas siguientes para obtener más información sobre los mensajes de texto en Journey Optimizer.
+
++++Guías de configuración
+
+Aprenda a configurar su entorno de SMS:
 
 * [Información general sobre la configuración del canal SMS](sms-configuration.md)
 * [Creación de configuraciones de canal SMS](sms-configuration-surface.md)
 * [Configuración de subdominios SMS para acortar la dirección URL](sms-subdomains.md)
 
-**Guías de configuración de proveedores**
++++
+
++++Guías de configuración del proveedor
+
+Configuración paso a paso para cada proveedor de servicios SMS:
 
 * [Configuración del proveedor Sinch](sms-configuration-sinch.md)
 * [Configuración del proveedor Twilio](sms-configuration-twilio.md)
 * [Configuración del proveedor Infobip](sms-configuration-infobip.md)
 * [Configuración del proveedor de SMS personalizado](sms-configuration-custom.md)
 
-**Creación y administración de contenido**
++++
+
++++Creación y administración de contenido
+
+Cree, personalice y administre su contenido de mensaje de texto:
 
 * [Creación de mensajes SMS/MMS](create-sms.md)
 * [Previsualización, prueba y envío de mensajes](send-sms.md)
 * [Personalization en mensajes de texto](../personalization/personalize.md)
 * [Contenido dinámico](../personalization/get-started-dynamic-content.md)
 
-**Cumplimiento y privacidad**
++++
+
++++Conformidad y privacidad
+
+Asegúrese de que los mensajes de texto cumplan con las regulaciones y las normas de privacidad:
 
 * [Administración de exclusiones](sms-opt-out.md)
 * [Privacidad y consentimiento](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
-**Seguimiento del rendimiento**
++++
+
++++Seguimiento del rendimiento
+
+Monitorice y analice sus campañas SMS y el rendimiento del recorrido:
 
 * [Informes de campaña de SMS](../reports/campaign-global-report-cja-sms.md)
 * [Informes de recorrido de SMS](../reports/journey-global-report-cja-sms.md)
 
-**Integración de Recorrido y Campaign**
++++
+
++++Integración de recorrido y Campaign
+
+Aprenda a incorporar SMS a sus recorridos y campañas de clientes:
 
 * [Añadir mensajes SMS a los recorridos](../building-journeys/journeys-message.md)
 * [Creación de campañas de SMS](../campaigns/create-campaign.md)
+
++++
 
 ## Vídeotutoriales {#videos}
 
@@ -175,7 +201,7 @@ Obtenga información sobre cómo configurar, crear e incluir mensajes SMS en sus
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422693?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -185,7 +211,7 @@ Descubra las completas funciones de mensajería móvil que Adobe Journey Optimiz
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430377?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -195,7 +221,7 @@ Aprenda a configurar y enviar mensajes RCS interactivos de marca en Adobe Journe
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464758?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
