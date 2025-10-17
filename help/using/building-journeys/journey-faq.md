@@ -11,9 +11,9 @@ keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: d55aff6dd3773ad59ab45d2b6d7ced7b9a64de5d
+source-git-commit: 26516db5251e096f6caaafb2c217238aa614da3e
 workflow-type: tm+mt
-source-wordcount: '4189'
+source-wordcount: '4340'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 A continuación, encontrará las preguntas más frecuentes sobre los Recorridos de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceptos generales
 
@@ -100,10 +100,11 @@ Siga estos pasos clave:
 
 1. **Configurar requisitos previos**: configure eventos, fuentes de datos y acciones según sea necesario
 2. **Crear el recorrido**: vaya al menú Recorridos y haga clic en &quot;Crear Recorrido&quot;
-3. **Definir propiedades de recorrido**: establezca el nombre del recorrido, la descripción, el área de nombres y otras opciones de configuración
+3. **Definir propiedades de recorrido**: establezca el nombre del recorrido, la descripción y otras opciones de configuración
 4. **Diseñar el recorrido**: arrastre y suelte las actividades de la paleta en el lienzo
 5. **Probar el recorrido**: use el modo de prueba para validar la lógica de recorrido
-6. **Publicar el recorrido**: active el recorrido para activarlo
+6. **Ejecución en seco del recorrido**: use Ejecución en seco para probar el recorrido con datos de producción reales sin ponerse en contacto con clientes reales ni actualizar información de perfil
+7. **Publicar el recorrido**: active el recorrido para activarlo
 
 Siga la [guía paso a paso](journey-gs.md).
 
@@ -124,9 +125,17 @@ Más información acerca de [configuración del recorrido](../configuration/abou
 
 +++ ¿Puedo utilizar datos de sistemas externos en mi recorrido?
 
-Sí. Puede configurar **fuentes de datos externas** para recuperar información de servicios API de terceros y usarla en sus condiciones de recorrido, personalización o acciones. Esto le permite enriquecer la experiencia del cliente con datos en tiempo real de su CRM, sistemas de fidelidad, servicios meteorológicos u otras plataformas externas.
+Sí, existen varios métodos para aprovechar los datos externos:
 
-Más información sobre [orígenes de datos externos](../datasource/external-data-sources.md).
+**Prácticas recomendadas**:
+
+* **Acciones personalizadas**: llame a las API externas mediante acciones personalizadas para recuperar o enviar datos a sistemas de terceros. Este es el enfoque recomendado para interacciones en tiempo real con sistemas externos.
+* **Búsqueda de conjuntos de datos**: Si puede cargar datos de sistemas externos en Adobe Experience Platform, utilice la característica de búsqueda de conjuntos de datos para recuperar información almacenada en conjuntos de datos de Experience Platform.
+* **Fuentes de datos externas**: configure fuentes de datos externas para recuperar información de servicios API de terceros (menos recomendable que los enfoques anteriores).
+
+Estas opciones le permiten enriquecer la experiencia del cliente con datos de su CRM, sistemas de fidelidad, servicios meteorológicos u otras plataformas externas.
+
+Más información sobre [acciones personalizadas](using-custom-actions.md) y [búsqueda de conjuntos de datos](dataset-lookup.md).
 
 +++
 
@@ -146,7 +155,9 @@ Más información sobre [condiciones](condition-activity.md).
 
 Sí. Journey Optimizer incluye **acciones de canal integradas** que le permiten enviar mensajes por correo electrónico, notificaciones push, SMS/MMS/RCS, mensajes en la aplicación, experiencias web, experiencias basadas en código, correo directo, tarjetas de contenido, WhatsApp y LINE. Puede diseñar contenido de mensajes directamente en Journey Optimizer y agregarlo como actividades de acción en el recorrido.
 
-Más información acerca de [mensajes en recorrido](journeys-message.md).
+Para los canales no admitidos de forma nativa, puede usar **acciones personalizadas** para integrarse con plataformas de mensajería externas y enviar mensajes a través de cualquier canal de terceros.
+
+Más información acerca de [mensajes en los recorridos](journeys-message.md) y [acciones personalizadas](using-custom-actions.md).
 
 +++
 
@@ -155,7 +166,6 @@ Más información acerca de [mensajes en recorrido](journeys-message.md).
 Use la **Actividad de espera** para pausar el recorrido durante un tiempo especificado o hasta una fecha u hora específicas. Las actividades de espera son útiles para lo siguiente:
 
 * Envío de mensajes de seguimiento después de un retraso (por ejemplo, 3 días después de la compra)
-* Esperar al horario laboral antes de realizar acciones
 * Creación de campañas de goteo con intervalos cronometrados
 * Combinación con condiciones para crear escenarios de tiempo de espera
 
@@ -189,13 +199,13 @@ Más información sobre [configuración de eventos](../event/about-events.md) y 
 
 +++ ¿Puedo reenviar un mensaje si alguien no lo abre o hace clic en él?
 
-Sí. Usar una **actividad de condición** combinada con **actividades de espera**:
+Sí. Use un **evento de reacción** con un **tiempo de espera**:
 
-1. Agregar una actividad de Wait (por ejemplo, wait 3 days)
-2. Agregue una actividad Condición para comprobar si el correo electrónico se ha abierto o se ha hecho clic en él
+1. Después de enviar el mensaje, añada un evento de Reacción que escuche aperturas de correo electrónico o clics.
+2. Configure un periodo de tiempo de espera (por ejemplo, 3 días) en el evento Reacción
 3. Cree dos rutas:
-   * **Si se abre o se hace clic**: finalice el recorrido o continúe con los pasos siguientes
-   * **Si no se ha abierto o hecho clic**: envía un correo electrónico de recordatorio con una línea de asunto diferente
+   * **Si se abre o se hace clic**: Continúe con los pasos siguientes o finalice el recorrido
+   * **Ruta de tiempo de espera (no abierta/pulsada)**: envía un correo electrónico de recordatorio con una línea de asunto diferente
 
 **Práctica recomendada**: Limite el número de reenvíos para evitar que aparezcan correos no deseados (normalmente, 1-2 recordatorios como máximo).
 
@@ -205,15 +215,17 @@ Más información sobre [eventos de reacción](reaction-events.md).
 
 +++ ¿Cómo se crea un recorrido de abandono del carro de compras?
 
-Cree un recorrido activado por evento con lógica de espera y condición:
+Cree un recorrido activado por un evento mediante un Evento de reacción con un Tiempo de espera:
 
 1. **Configurar un evento &quot;Abandonado del carro de compras&quot;**: Se activa cuando se agregan elementos, pero el cierre de compra no se completó dentro de un intervalo de tiempo
-2. **Agregar una actividad de espera**: espere de 1 a 2 horas para que el cliente tenga tiempo de finalizar de forma natural
-3. **Agregar una condición**: compruebe si la compra se completó durante la espera
-4. **Si no se compró**: envía un correo electrónico de recordatorio de abandono con el contenido del carro de compras
-5. **Opcional**: agrega otra espera (24 horas) y envía un segundo recordatorio con un incentivo (por ejemplo, 10% de descuento)
+2. **Agregar un evento de reacción**: configúrelo para escuchar un evento de compra
+3. **Establecer un tiempo de espera**: defina un tiempo de espera (por ejemplo, de 1 a 2 horas) en el evento Reacción para que el cliente tenga tiempo de completar de forma natural
+4. **Crear dos rutas**:
+   * **Si se produce un evento de compra**: finalice el recorrido o continúe con el flujo posterior a la compra
+   * **Ruta de tiempo de espera (sin compra)**: enviar un correo electrónico de recordatorio de abandono con el contenido del carro de compras
+5. **Opcional**: agrega otro evento de reacción con tiempo de espera (24 horas) y envía un segundo recordatorio con un incentivo (por ejemplo, 10% de descuento)
 
-Más información sobre [casos de uso de recorrido](jo-use-cases.md).
+Obtenga más información sobre [casos de uso de recorrido](jo-use-cases.md) y [eventos de reacción](reaction-events.md).
 
 +++
 
@@ -238,9 +250,6 @@ Journey Optimizer proporciona varias opciones para la administración de huso ho
 
 * **Zona horaria del perfil**: los mensajes se envían según la zona horaria de cada individuo almacenada en su perfil
 * **Zona horaria fija**: todos los mensajes utilizan una zona horaria específica que usted defina
-* **Esperar hasta una hora específica**: utilice la actividad Esperar para enviar mensajes a una hora específica en la zona horaria local del destinatario (por ejemplo, 10 a. m.)
-
-**Ejemplo**: Para enviar un correo electrónico de &quot;Buenos días&quot; a las 9 a. m. en la zona horaria de cada cliente, use una actividad de espera con &quot;Esperar hasta una fecha u hora fijas&quot; y habilite la opción de zona horaria.
 
 Más información sobre [administración de huso horario](timezone-management.md).
 
@@ -288,10 +297,10 @@ Obtenga más información sobre [modo de prueba](testing-the-journey.md) y [ejec
 
 Al publicar un recorrido:
 
-* El recorrido se vuelve **activo** y está listo para aceptar nuevos perfiles
+* El recorrido se convierte en **Activo** y listo para aceptar nuevos perfiles
 * Los perfiles pueden entrar en función de los criterios de entrada (evento o audiencia)
 * Los mensajes y las acciones empiezan a ejecutarse para los perfiles que se mueven a través del recorrido
-* No puede editar directamente un recorrido publicado (debe crear una nueva versión)
+* Solo puede editar elementos limitados en un recorrido publicado (debe crear una nueva versión si desea editar más)
 
 Más información sobre [recorridos de publicación](publishing-the-journey.md).
 
@@ -299,7 +308,21 @@ Más información sobre [recorridos de publicación](publishing-the-journey.md).
 
 +++ ¿Se puede modificar un recorrido que ya se ha publicado?
 
-No puede editar directamente un recorrido activo. Para realizar cambios:
+Sí, pero con limitaciones. Puede editar ciertos elementos de un recorrido en directo:
+
+**Lo que puede editar**:
+
+* Propiedades del recorrido (nombre, descripción)
+* Contenido de mensaje dentro de actividades de mensaje existentes
+* Algunos ajustes del recorrido
+
+**Lo que no puedes editar**:
+
+* Estructura del recorrido (adición o eliminación de actividades)
+* Condiciones de entrada
+* Lógica del lienzo de recorrido
+
+**Para realizar cambios estructurales**:
 
 1. **Crear una nueva versión**: duplique el recorrido publicado para crear una versión de borrador
 2. **Realice los cambios**: edite la versión de borrador según sea necesario
@@ -318,7 +341,7 @@ Puede administrar la ejecución del recorrido de varias formas:
 
 * **Cerca de nuevas entradas**: impida que entren nuevos perfiles y permita que los perfiles existentes completen su recorrido
 * **Detener inmediatamente**: Finalice el recorrido y salga de todos los perfiles que hay actualmente en él
-* **Pausar**: detenga temporalmente el recorrido y vuelva a reanudarlo más tarde (disponible para tipos de recorrido específicos)
+* **Pausar**: Detenga temporalmente el recorrido y vuelva a reanudarlo posteriormente
 
 Más información sobre [recorridos finales](end-journey.md).
 
@@ -340,7 +363,7 @@ Más información sobre [recorridos finales](end-journey.md).
 * Utilícelo para situaciones urgentes o errores críticos
 * Ejemplo: Recuperación de productos que requiere la detención inmediata de los mensajes promocionales
 
-Más información acerca de [opciones de pausa del recorrido](journey-pause.md).
+Más información sobre [recorridos finales](end-journey.md) y [recorridos de publicación](publishing-the-journey.md).
 
 +++
 
@@ -350,10 +373,9 @@ Más información acerca de [opciones de pausa del recorrido](journey-pause.md).
 
 Puede monitorizar la ejecución del recorrido mediante:
 
-* **Informe en vivo de Recorridos**: vea métricas y KPI en tiempo real de su recorrido
-* **Informe de Recorrido permanente**: Analice el rendimiento del recorrido con Customer Journey Analytics
+* **Informe en vivo de Recorridos**: vea métricas y KPI en tiempo real de su recorrido. También puede revisar los resultados de la ejecución de pruebas de ejecución en seco aquí.
+* **Informe de Recorrido permanente**: Analice el rendimiento del recorrido con Customer Journey Analytics. También puede revisar los resultados de la ejecución de pruebas de ejecución en seco aquí.
 * **Eventos de paso de Recorrido**: Acceda a datos de ejecución detallados para informes personalizados
-* **Tablero de ejecución en seco de Recorrido**: revise los resultados de la ejecución de pruebas antes de lanzarse
 
 Más información sobre [Informes de recorridos](report-journey.md).
 
@@ -395,6 +417,7 @@ Journey Optimizer proporciona varios recursos para la resolución de problemas:
 
 * **Indicadores de error**: las alertas visuales en el lienzo de recorrido resaltan los problemas de configuración
 * **Modo de prueba**: revise el recorrido para identificar dónde se producen los problemas
+* **Modo de ejecución en seco**: pruebe el recorrido con datos de producción reales sin ponerse en contacto con los clientes para validar el direccionamiento y la ejecución
 * **informes de Recorrido**: revise las métricas de ejecución para encontrar cuellos de botella o errores
 * **Eventos de paso de Recorrido**: Analice los datos de ejecución detallados para comprender el comportamiento del perfil
 
@@ -409,15 +432,17 @@ Más información sobre [recorridos para solucionar problemas](troubleshooting.m
 
 +++
 
-+++ ¿Qué sucede si una acción falla en un recorrido?
+<!--
++++ What happens if an action fails in a journey?
 
-Cuando falla una acción (por ejemplo, tiempo de espera de llamada de API, error de envío de mensaje), el recorrido continúa de forma predeterminada a menos que se configure lo contrario. Puede definir actividades de condición para gestionar escenarios de error y los errores se registran en los informes de recorrido y en los eventos de paso para su monitorización.
+When an action fails (e.g., API call timeout, message delivery error), the journey continues by default unless configured otherwise. You can define condition activities to handle failure scenarios, and errors are logged in journey reports and step events for monitoring.
 
-**Práctica recomendada**: establezca valores de tiempo de espera adecuados para acciones externas y defina rutas alternativas para escenarios de error críticos.
+**Best practice**: Set appropriate timeout values for external actions and define alternative paths for critical failure scenarios.
 
-Más información sobre [respuestas de acción](../action/action-response.md).
+Learn more about [action responses](../action/action-response.md).
 
 +++
+-->
 
 +++ ¿Puedo ver quién está actualmente en mi recorrido en este momento?
 
@@ -450,8 +475,9 @@ Solución: valide la calidad de datos del perfil
 * **Recorrido no publicado**: el recorrido sigue en modo de borrador
 Solución: publique el recorrido para activarlo
 
-* **Mensaje no aprobado**: el contenido del mensaje requiere aprobación antes de enviarlo
-Solución: envíe para su aprobación o compruebe el estado de aprobación
+<!-- 
+* **Message not approved**: Message content requires approval before sending
+  Solution: Submit for approval or check approval status-->
 
 * **Problema de configuración del canal**: La configuración de correo electrónico/SMS es incorrecta
 Solución: compruebe las configuraciones de canal y la autenticación
@@ -493,7 +519,8 @@ Sí. Use una **actividad de condición** para comprobar el canal preferido:
    * **Ruta de inserción**: Enviar notificación push
 3. Adición de una ruta predeterminada para perfiles sin preferencias
 
-**Método alternativo**: usa **acciones multicanal** en las que Journey Optimizer selecciona automáticamente el mejor canal según las preferencias y disponibilidad del perfil.
+<!--
+**Alternative approach**: Use **multi-channel actions** where Journey Optimizer automatically selects the best channel based on profile preferences and availability.-->
 
 Más información sobre [acciones del canal](journeys-message.md).
 
@@ -505,15 +532,15 @@ Sí, hay varias formas de excluir a los clientes:
 
 **En la entrada de recorrido**:
 
-* Uso de definiciones de audiencia con reglas de exclusión
-* Añadir condiciones de entrada que filtran perfiles específicos
-* Configurar requisitos de área de nombres
+* Usar [definiciones de audiencia](../audience/creating-a-segment-definition.md) con reglas de exclusión
+* Agregar [condiciones de entrada](entry-management.md) que filtran perfiles específicos
+* Configure [criterios de salida basados en atributos de perfil](journey-properties.md) en las propiedades de recorrido para excluir automáticamente perfiles basados en atributos específicos
 
 **Dentro del recorrido**:
 
-* Añada una actividad Condición al principio del recorrido para salir de perfiles no deseados
+* Agregue una [actividad de condición](condition-activity.md) al principio del recorrido para salir de perfiles no deseados
 * Comprobar atributos de exclusión (por ejemplo, estado de VIP, cuentas de prueba)
-* Use la calificación de audiencia para identificar perfiles que excluir
+* Use [calificación de audiencia](audience-qualification-events.md) para identificar perfiles que excluir
 
 **Ejemplo de escenarios de exclusión**:
 
@@ -521,8 +548,6 @@ Sí, hay varias formas de excluir a los clientes:
 * Excluir a los clientes de VIP de las promociones estándar
 * Excluir empleados y cuentas de prueba
 * Excluir clientes de regiones específicas
-
-Más información sobre [administración de entradas](entry-management.md) y [condiciones](condition-activity.md).
 
 +++
 
@@ -545,10 +570,11 @@ Sí, dependiendo de la **configuración de reentrada**:
 * **Permitir la reentrada**: los perfiles pueden entrar en la recorrido varias veces después de completarla
 * **Período de espera de reentrada**: defina un tiempo mínimo entre las entradas de recorrido (por ejemplo, 7 días)
 * **Forzar reentrada en el evento**: almacene en Déclencheur una nueva instancia de recorrido aunque el perfil ya esté en el recorrido
+* **Identificador suplementario**: Use un identificador suplementario para permitir que los perfiles vuelvan a entrar en el recorrido varias veces para distintas entidades (por ejemplo, pedidos, reservas o transacciones diferentes), incluso cuando ya estén en el recorrido
 
-**Práctica recomendada**: Use reglas de reentrada para evitar la fatiga del mensaje y garantizar un ritmo adecuado.
+**Práctica recomendada**: Use reglas de reentrada para evitar la fatiga del mensaje y garantizar un ritmo adecuado. Considere la posibilidad de utilizar identificadores suplementarios para recorridos transaccionales en los que los perfiles deban introducirse varias veces para diferentes transacciones.
 
-Más información sobre [administración de entradas](entry-management.md).
+Más información sobre [administración de entradas](entry-management.md) e [identificadores suplementarios](supplemental-identifier.md).
 
 +++
 
@@ -568,7 +594,12 @@ Más información sobre [optimización del tiempo de envío](send-time-optimizat
 
 +++ ¿Qué son las reglas de límite de recorrido?
 
-**Límite de Recorrido** le permite limitar la cantidad de veces que un perfil puede ingresar recorridos en un período de tiempo especificado, lo que evita la fatiga del mensaje y garantiza una experiencia óptima para el cliente. Puede establecer el máximo de entradas por perfil en recorridos o recorridos específicos, definir ventanas de tiempo (diaria, semanal, mensual) y priorizar recorridos cuando varios recorridos compitan por el mismo perfil.
+**La restricción de Recorrido** le permite controlar cómo los perfiles interactúan con los recorridos, lo que evita la fatiga de los mensajes y garantiza una experiencia óptima con los clientes:
+
+* **Límite de entrada**: Limite el número de veces que un perfil puede introducir recorridos en un período de tiempo especificado
+* **Límite de concurrencia**: Limite el número de recorridos en los que un perfil puede estar simultáneamente
+
+Puede establecer entradas o concurrencias máximas por perfil en recorridos o recorridos específicos, definir ventanas de tiempo (diaria, semanal, mensual) y priorizar recorridos cuando varios recorridos compiten por el mismo perfil.
 
 Más información sobre [límite de recorrido](../conflict-prioritization/journey-capping.md).
 
@@ -578,7 +609,7 @@ Más información sobre [límite de recorrido](../conflict-prioritization/journe
 
 Sí. Utilice **acciones personalizadas** para llamar a API de terceros (CRM, automatización de marketing, sistemas de fidelidad), enviar datos a sistemas externos, recuperar información en tiempo real para la toma de decisiones y almacenar en déclencheur flujos de trabajo en plataformas externas.
 
-Las acciones personalizadas admiten autenticación (clave de API, OAuth 2.0), personalización de la carga útil de solicitud/respuesta, gestión de errores y tiempos de espera, y parámetros dinámicos desde el contexto de recorrido.
+Las acciones personalizadas admiten autenticación (clave de API, autenticación personalizada), personalización de la carga útil de solicitud/respuesta, gestión de errores y tiempos de espera, y parámetros dinámicos desde el contexto de recorrido.
 
 Más información sobre las [acciones personalizadas](using-custom-actions.md).
 
@@ -638,15 +669,15 @@ Más información sobre [casos de uso de recorrido](jo-use-cases.md).
 
 +++ ¿Puedo probar diferentes rutas A/B en mi recorrido?
 
-Sí. Use **Optimizar actividad** (disponible en paquetes específicos de Journey Optimizer) o cree divisiones de prueba de forma manual:
+Sí. Use **Optimizar actividad** (disponibilidad limitada) o cree manualmente divisiones de prueba:
 
-**Usando la actividad de optimización**:
+**Usando la actividad de optimización** con el método de experimento:
 
-* Divide automáticamente el tráfico entre variantes
-* Prueba de diferentes mensajes, ofertas o rutas de recorrido completas
-* Mide el rendimiento y declara un ganador
+* Divide aleatoriamente el tráfico entre diferentes rutas para determinar cuál funciona mejor
+* Prueba diferentes mensajes, ofertas, tiempos de espera o rutas de recorrido completas
+* Mide el rendimiento en función de métricas de éxito predefinidas y declara un ganador
 
-**Pruebas manuales con la condición**:
+**Usando la actividad de optimización** con el método de condición de fuente de datos:
 
 * Cree una condición que divida aleatoriamente los perfiles (por ejemplo, mediante una función de número aleatorio)
 * Enviar diferentes experiencias a cada división
