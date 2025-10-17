@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: conjunto de datos, optimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 90b8f69f3849418eaec1b65b14e0362980c43e9a
+source-git-commit: f1a00e734f22cb660e442ebe8c0dde3468e29768
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1066'
 ht-degree: 2%
 
 ---
@@ -175,6 +175,10 @@ ORDER BY timestamp DESC;
 donde el formato de las fechas es: `YYYY-MM-DD HH:MM:SS`.
 
 Una vez identificadas, elimine esas direcciones de la lista de supresión de Journey Optimizer. [Más información](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+
+>[!NOTE]
+>
+>Al hacer referencia al identityMap en el conjunto de datos de evento de comentarios de mensajes, tenga en cuenta que solo refleja la identidad utilizada durante la ejecución. Para las notificaciones push, un evento &quot;enviado&quot; dependería únicamente del ECID vinculado al token push utilizado para enviar esta notificación, mientras que un evento &quot;exclusión&quot; podría depender de una identidad personalizada. Por ejemplo, si se excluyó un perfil porque no se encontró ningún token push, se seleccionará la identidad utilizada en el nivel de recorrido o de campaña de acción para registrar este evento. Si necesita áreas de nombres adicionales (por ejemplo, ID personalizados), una estos registros de comentarios con un conjunto de datos relacionado con el perfil (por ejemplo: los registros profile_snapshot) para recuperar la lista de identidad completa.
 
 
 
