@@ -11,7 +11,7 @@ keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 51a609091b0c6cea2d92b22b265e6106973ba16a
+source-git-commit: 50c609b3d5c90e64800fb96d9c57d6c2bfa35a66
 workflow-type: tm+mt
 source-wordcount: '4531'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 A continuación, encontrará las preguntas más frecuentes sobre los Recorridos de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceptos generales
 
@@ -56,9 +56,9 @@ Los **[Recorridos](journey.md)** son orquestaciones de varios pasos que reaccion
 
 * **[Campañas de acción](../campaigns/create-campaign.md)**: las comunicaciones únicas o recurrentes enviadas a una audiencia específica son perfectas para mensajes independientes como anuncios promocionales o boletines informativos.
 * **[Campañas activadas por API](../campaigns/api-triggered-campaigns.md)**: campañas activadas a través de llamadas de API, lo que permite la integración con sistemas externos para enviar mensajes basados en eventos en tiempo real o lógica empresarial.
-* **[Campañas orquestadas](../orchestrated/get-started-orchestrated.md)**: campañas de varios pasos y basadas en audiencias que se basan en un lienzo que puede incluir condiciones, tiempos de espera y múltiples acciones para crear experiencias programadas y coordinadas.
+* **[Campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)**: campañas de varios pasos y basadas en audiencias que se basan en un lienzo que puede incluir condiciones, tiempos de espera y múltiples acciones para crear experiencias programadas y coordinadas.
 
-**Práctica recomendada**: Use [recorridos](journey.md) para una participación compleja desencadenada por eventos con orquestación avanzada; [campañas de acción](../campaigns/create-campaign.md) para comunicaciones programadas basadas en audiencias; [campañas activadas por API](../campaigns/api-triggered-campaigns.md) para activación programática desde sistemas externos; y [campañas orquestadas](../orchestrated/get-started-orchestrated.md) para comunicaciones de varios pasos con requisitos específicos de campañas.
+**Práctica recomendada**: Use [recorridos](journey.md) para una participación compleja desencadenada por eventos con orquestación avanzada; [campañas de acción](../campaigns/create-campaign.md) para comunicaciones programadas basadas en audiencias; [campañas activadas por API](../campaigns/api-triggered-campaigns.md) para activación programática desde sistemas externos; y [campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md) para comunicaciones de varios pasos con requisitos específicos de campañas.
 
 +++
 
