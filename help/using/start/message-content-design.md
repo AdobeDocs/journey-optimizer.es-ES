@@ -35,7 +35,7 @@ Domine el diseño de correos electrónicos con el Designer de correo electrónic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
 
 Diseño de notificaciones push
 
