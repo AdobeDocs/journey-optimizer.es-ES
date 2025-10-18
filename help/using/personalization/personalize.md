@@ -105,4 +105,4 @@ Obtenga información sobre cómo añadir una personalización basada en perfiles
 
 Aprenda a aprovechar el patio del editor de personalización para escribir y probar el código de personalización con datos de ejemplo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475955?captions=spa&quality=12)
