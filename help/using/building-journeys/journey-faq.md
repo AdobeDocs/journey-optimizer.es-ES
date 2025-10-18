@@ -11,7 +11,7 @@ keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 31da84ab3fe4edabaf49f7b078ef0b2fdae3f6c5
+source-git-commit: b53080c5a4100c66b91fe10f156a18e932a5e68b
 workflow-type: tm+mt
 source-wordcount: '4446'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 A continuación, encontrará las preguntas más frecuentes sobre los Recorridos de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceptos generales
 
@@ -50,15 +50,15 @@ Más información sobre [tipos de recorrido](entry-management.md#types-of-journe
 
 +++ ¿Cuál es la diferencia entre un recorrido y una campaña?
 
-Los **Recorridos** son orquestaciones de varios pasos que reaccionan a eventos o audiencias de destino, lo que permite lógicas, condiciones, tiempos de espera y múltiples puntos de contacto complejos en el ciclo de vida del cliente.
+Los **[Recorridos](journey.md)** son orquestaciones de varios pasos que reaccionan a eventos o audiencias de destino, lo que permite lógicas, condiciones, tiempos de espera y múltiples puntos de contacto complejos en el ciclo de vida del cliente.
 
-**Las campañas** se dividen en tres tipos:
+**[Las campañas](../campaigns/get-started-with-campaigns.md)** se dividen en tres tipos:
 
-* **Campañas de acción**: las comunicaciones únicas o recurrentes enviadas a una audiencia específica son perfectas para mensajes independientes como anuncios promocionales o boletines informativos.
-* **Campañas activadas por API**: campañas activadas a través de llamadas de API, lo que permite la integración con sistemas externos para enviar mensajes basados en eventos en tiempo real o lógica empresarial.
-* **Campañas orquestadas**: campañas de varios pasos y basadas en audiencias que se basan en un lienzo que puede incluir condiciones, tiempos de espera y múltiples acciones para crear experiencias programadas y coordinadas.
+* **[Campañas de acción](../campaigns/create-campaign.md)**: las comunicaciones únicas o recurrentes enviadas a una audiencia específica son perfectas para mensajes independientes como anuncios promocionales o boletines informativos.
+* **[Campañas activadas por API](../campaigns/api-triggered-campaigns.md)**: campañas activadas a través de llamadas de API, lo que permite la integración con sistemas externos para enviar mensajes basados en eventos en tiempo real o lógica empresarial.
+* **[Campañas orquestadas](../orchestrated/get-started-orchestrated.md)**: campañas de varios pasos y basadas en audiencias que se basan en un lienzo que puede incluir condiciones, tiempos de espera y múltiples acciones para crear experiencias programadas y coordinadas.
 
-**Práctica recomendada**: Use recorridos para una participación compleja activada por eventos con orquestación avanzada; campañas de acción para comunicaciones programadas y basadas en audiencias; campañas activadas por API para activación programática desde sistemas externos; y campañas orquestadas para comunicaciones de varios pasos con requisitos específicos de campañas.
+**Práctica recomendada**: Use [recorridos](journey.md) para una participación compleja desencadenada por eventos con orquestación avanzada; [campañas de acción](../campaigns/create-campaign.md) para comunicaciones programadas basadas en audiencias; [campañas activadas por API](../campaigns/api-triggered-campaigns.md) para activación programática desde sistemas externos; y [campañas orquestadas](../orchestrated/get-started-orchestrated.md) para comunicaciones de varios pasos con requisitos específicos de campañas.
 
 +++
 
