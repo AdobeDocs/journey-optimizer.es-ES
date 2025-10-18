@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: Diseño del contenido del mensaje
 description: Diseño del contenido del mensaje
-feature: Email Design, SMS, Push, In App, Content Management
+feature: Email Design, SMS, Push, In App
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 keywords: contenido, diseño, correo electrónico, push, sms, personalización, plantillas
-source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
+source-git-commit: ef12790e3199457d94c2c7d56c60bb9571921f77
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Domine el diseño de correos electrónicos con el Designer de correo electrónic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Diseño de notificaciones push
 
