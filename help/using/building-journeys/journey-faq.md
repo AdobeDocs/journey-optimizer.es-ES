@@ -11,9 +11,9 @@ keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: b53080c5a4100c66b91fe10f156a18e932a5e68b
+source-git-commit: 51a609091b0c6cea2d92b22b265e6106973ba16a
 workflow-type: tm+mt
-source-wordcount: '4446'
+source-wordcount: '4531'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 A continuación, encontrará las preguntas más frecuentes sobre los Recorridos de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceptos generales
 
@@ -510,19 +510,25 @@ Más información sobre [personalización](../personalization/personalize.md).
 
 +++ ¿Puedo enviar diferentes mensajes según el canal preferido?
 
-Sí. Use una **actividad de condición** para comprobar el canal preferido:
+Sí. Use una **[actividad de condición](condition-activity.md)** para enrutar perfiles según su canal preferido:
 
-1. Añada un perfil de comprobación de condición.ferredChannel
-2. Cree rutas independientes para cada canal:
-   * **Ruta de correo electrónico**: enviar mensaje de correo electrónico
-   * **Ruta de SMS**: enviar mensaje SMS
-   * **Ruta de inserción**: Enviar notificación push
-3. Adición de una ruta predeterminada para perfiles sin preferencias
+1. Agregue una [actividad de condición](condition-activity.md) en su recorrido
+2. Cree una ruta para cada canal comprobando el atributo de perfil de canal preferido (por ejemplo, `profile.preferredChannel`)
+3. Configure las rutas específicas del canal:
+   * **Ruta de correo electrónico**: agrega una [acción de correo electrónico](../email/create-email.md) con contenido optimizado para correo electrónico
+   * **Ruta de SMS**: agrega una [acción de SMS](../sms/create-sms.md) con mensajes concisos
+   * **Ruta de acceso push**: Agregue una [acción de notificación push](../push/create-push.md) con contenido corto y procesable
+   * **Ruta en la aplicación**: Agregue una [acción de mensaje en la aplicación](../in-app/create-in-app.md) para usuarios comprometidos de la aplicación
+4. Añada una ruta predeterminada para los perfiles sin preferencias y enrutélos al canal principal
 
-<!--
-**Alternative approach**: Use **multi-channel actions** where Journey Optimizer automatically selects the best channel based on profile preferences and availability.-->
+**Prácticas recomendadas**:
 
-Más información sobre [acciones del canal](journeys-message.md).
+* Asegúrese de que los datos del perfil incluyan preferencias de canal precisas
+* Diseñar contenido apropiado para los puntos fuertes y las limitaciones de cada canal
+* Usar [superficies de canal](../configuration/channel-surfaces.md) para administrar las configuraciones de canal
+* Pruebe todas las rutas para garantizar la entrega de mensajes adecuada
+
+Obtenga más información sobre [condiciones](condition-activity.md), [acciones de mensajes](journeys-message.md) y [selección de canales](../channels/gs-channels.md).
 
 +++
 
