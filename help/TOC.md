@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -707,10 +707,10 @@ ht-degree: 98%
          + [Mejora de datos de contexto](using/experience-decisioning/context-data.md)
          + [Uso de Adobe Experience Platform para la toma de decisiones](using/experience-decisioning/aep-data-exd.md)
       + [Creación de estrategias de selección](using/experience-decisioning/selection-strategies.md)
-      + Entrega de ofertas mediante políticas de decisión {#decision-policies}
+      + Envío de ofertas mediante políticas de decisión {#decision-policies}
          + [Introducción a las políticas de decisión](using/experience-decisioning/create-decision.md)
          + [Creación de políticas de decisión](using/experience-decisioning/create-decision-policy.md)
-         + [Uso de directivas de decisión en mensajes](using/experience-decisioning/use-decision-policy.md)
+         + [Uso de políticas de decisión en mensajes](using/experience-decisioning/use-decision-policy.md)
       + [Informe sobre la toma de decisiones](using/experience-decisioning/cja-reporting.md)
       + [Caso de uso sobre la toma de decisiones](using/experience-decisioning/experience-decisioning-uc.md)
       + Recopilación de datos de evento {#experience-decisioning-collect-event-data}
@@ -885,7 +885,7 @@ ht-degree: 98%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
@@ -921,7 +921,7 @@ ht-degree: 98%
    + [Uso de listas semilla](using/configuration/seed-lists.md)
    + [Asistencia para el archivado](using/configuration/archiving-support.md)
    + [Cambio de direcciones de ejecución](using/configuration/primary-email-addresses.md)
-   + [Crear webhooks de comentarios](using/configuration/feedback-webhooks.md)
+   + [Creación de webhooks de comentarios](using/configuration/feedback-webhooks.md)
 + Configuración de recorrido {#configure-journeys}
    + [Configuración de recorrido](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [Introducción a la configuración de recorridos](using/configuration/about-data-sources-events-actions.md)

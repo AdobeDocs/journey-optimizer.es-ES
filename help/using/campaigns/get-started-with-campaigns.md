@@ -12,8 +12,8 @@ keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 59%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,13 +84,13 @@ ht-degree: 59%
 >title="Campañas"
 >abstract="Envíe comunicaciones transaccionales a perfiles individuales o conjuntos de perfiles. Canales compatibles: correo electrónico, SMS, notificaciones push."
 
-Utilice [!DNL Journey Optimizer] campañas para entregar contenido de una sola vez a una audiencia específica en varios canales. A diferencia de los recorridos, que ejecutan acciones paso a paso, las campañas realizan acciones simultáneamente, ya sea de forma inmediata o en una programación definida.
+Utilice campañas de [!DNL Journey Optimizer] para ofrecer contenido puntual a un público específico en varios canales. A diferencia de los recorridos, que ejecutan acciones paso a paso, las campañas realizan acciones simultáneamente, ya sea de forma inmediata o en una programación definida.
 
 ![](assets/gs-campaigns.png)
 
-## Tipos de campaña
+## Tipos de campañas
 
-[!DNL Journey Optimizer] admite tres tipos de campaña. Cada tipo se adapta a diferentes casos de uso y admite diferentes canales.
+[!DNL Journey Optimizer] admite tres tipos de campañas. Cada tipo se adapta a diferentes casos de uso y admite diferentes canales.
 
 ![](assets/campaign-modal.png)
 
@@ -98,27 +98,27 @@ Utilice [!DNL Journey Optimizer] campañas para entregar contenido de una sola v
 
 >[!TAB Campañas orquestadas]
 
-**Campañas orquestadas** potencia campañas de marketing sofisticadas e iniciadas por la marca en todos los canales, lo que te ayuda a aumentar la participación, los ingresos y la lealtad de los clientes a escala.
+Las **campañas orquestadas** impulsan campañas de marketing sofisticadas iniciadas por la marca en todos los canales, lo que le ayuda a fomentar la participación, los ingresos y la lealtad de los clientes a gran escala.
 
 Aunque el marketing de múltiples canales es esencial, las campañas orquestadas lo hacen fluido. Con una interfaz visual de arrastrar y soltar, puede diseñar y automatizar flujos de trabajo de marketing complejos, desde la segmentación hasta el envío de mensajes, en varios canales. Todo sucede en un entorno intuitivo, creado para ofrecer velocidad, control y eficacia.
 
-➡️ [Aprenda a trabajar con campañas organizadas](../orchestrated/gs-orchestrated-campaigns.md).
+➡️ [Aprenda a trabajar con campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md).
 
->[!TAB Campañas de acción (o Campañas programadas)]
+>[!TAB Campañas de acción (o campañas programadas)]
 
-**Campañas de acción**, también conocidas como Campañas programadas, permiten comunicaciones por lotes simples y específicas.
+Las **campañas de acción**, también conocidas como campañas programadas, permiten comunicaciones por lotes simples y ad hoc.
 
-* **Programado - Marketing** - Para casos de uso de marketing como ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de directivas. Requiere que los destinatarios se incluyan.
-* **Programadas - Transaccionales**: a diferencia de las campañas de marketing, las campañas transaccionales no requieren que se incluyan los destinatarios. Utilice esta categoría para comunicaciones relacionadas con interrupciones, emergencias y cancelaciones. Canales admitidos: correo electrónico, SMS, notificación push.
+* **Programadas - Marketing**: para casos de uso de marketing como ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de directivas. Requiere que los destinatarios hayan dado su consentimiento.
+* **Programadas - Transaccionales**: a diferencia de las campañas de marketing, las campañas transaccionales no requieren el consentimiento de los destinatarios. Utilice esta categoría para comunicaciones relacionadas con interrupciones, emergencias y cancelaciones. Canales admitidos: correo electrónico, SMS, notificación push.
 
 ➡️ [Aprenda a trabajar con campañas de acción](create-campaign.md)
 
 >[!TAB Campañas activadas mediante API]
 
-**Las campañas activadas por API** le permiten almacenar en déclencheur la ejecución de la campaña mediante una llamada de API. Estas comunicaciones se pueden enviar donde la necesidad puede implicar una personalización no solo mediante atributos de perfil como restablecimiento de contraseña, sino también datos de contexto en tiempo real en el déclencheur, que es una carga útil de API de REST.
+Las **campañas activadas por API** le permiten activar la ejecución de la campaña mediante una llamada API. Estas comunicaciones se pueden enviar donde la necesidad puede implicar una personalización no solo mediante atributos de perfil como restablecimiento de contraseña, sino también datos de contexto en tiempo real en el déclencheur, que es una carga útil de API de REST.
 
-* **API activada - Marketing** - Envíe comunicaciones de marketing personalizadas a audiencias de destino.
-* **API activada - Transaccional** - Enviar mensajes después de una acción realizada por un individuo, como una solicitud de restablecimiento de contraseña, la compra del carro de compras, etc.
+* **API activada - Marketing**. envíe comunicaciones de marketing personalizadas a públicos de destino.
+* **API activada - Transaccional**: envíe mensajes después de una acción realizada por una persona, como una solicitud de restablecimiento de contraseña, la compra del carro de compras, etc.
 
 ➡️ [Aprenda a trabajar con campañas activadas por API](api-triggered-campaigns.md)
 
@@ -127,14 +127,14 @@ Aunque el marketing de múltiples canales es esencial, las campañas orquestadas
 
 ## Canales admitidos por tipo de campaña {#channels}
 
-La siguiente tabla muestra la disponibilidad de cada canal en diferentes tipos de campaña, indicando dónde se admiten.
+En la siguiente tabla se muestra la disponibilidad de cada canal en diferentes tipos de campaña, indicando dónde se admiten.
 
-| Canal | Acción (Marketing) | Acción (transaccional) | Activado por API (Marketing) | Activado por API (transaccional) | Orquestado |
+| Canal | Acción (marketing) | Acción (transaccional) | Activado por API (marketing) | Activado por API (transaccional) | Orquestado |
 |----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|
 | Correo electrónico | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Notificación push | ✅ | ✅ | ✅ | ✅ | ✅ |
-| En la aplicación | ✅ | — | — | — | — |
+| in-app | ✅ | — | — | — | — |
 | Correo directo | ✅ | — | — | — | — |
 | Web | ✅ | — | — | — | — |
 | Exp. basada en código | ✅ | — | — | — | — |
@@ -144,19 +144,19 @@ La siguiente tabla muestra la disponibilidad de cada canal en diferentes tipos d
 
 ## Requisitos previos {#prerequisites}
 
-Antes de trabajar con campañas, asegúrese de haber revisado los requisitos previos siguientes.
+Antes de trabajar con campañas, asegúrese de haber revisado los requisitos previos que se indican a continuación.
 
-* Las audiencias de **Audiences** deben estar disponibles antes de crear la campaña. [Introducción a los públicos](../audience/about-audiences.md).
+* **Públicos**: los públicos deben estar disponibles antes de crear la campaña. [Introducción a los públicos](../audience/about-audiences.md).
 
-* **Configuraciones de canal**: para poder seleccionar un canal, debe tener la configuración de canal correspondiente (es decir, un ajuste preestablecido) creada y disponible. [Aprenda a configurar canales](../configuration/channel-surfaces.md).
+* **Configuraciones de canal**: para poder seleccionar un canal, debe tener la configuración de canal correspondiente (es decir, ajuste preestablecido) creada y disponible. [Aprenda a configurar canales](../configuration/channel-surfaces.md).
 
-* **Permisos**: las campañas solo están disponibles para los usuarios con los permisos apropiados que se enumeran a continuación. Si no puede acceder a las funcionalidades de la campaña, póngase en contacto con el administrador para solicitar los permisos necesarios. [Más información sobre las funciones integradas de Journey Optimizer](../administration/ootb-product-profiles.md)
+* **Permisos**: las campañas solo están disponibles para los usuarios con los permisos adecuados que se enumeran a continuación. Si no puede acceder a las funcionalidades de la campaña, póngase en contacto con el administrador para solicitar los permisos necesarios. [Más información sobre las funciones integradas de Journey Optimizer](../administration/ootb-product-profiles.md)
 
   | Tipo de campaña | Permisos |
   |----------------------------|----------------------------------------------------------------------------|
-  | **Campañas de acción** | Administrador de campaña<br>Aprobador de campaña<br>Administrador de campaña<br>Visor de campaña |
-  | **Campañas activadas mediante API** | Administrador de campaña<br>Aprobador de campaña<br>Administrador de campaña<br>Visor de campaña |
-  | **Campañas orquestadas** | Administrador de campañas orquestadas<br>Aprobador de campañas orquestadas<br>Administrador de campañas orquestadas<br>Visor de campañas orquestadas |
+  | **Campañas de acción** | Administrador de campañas<br>Aprobador de campaña<br>Gestor de campañas<br>Visor de campañas |
+  | **Campañas activadas mediante API** | Administrador de campañas<br>Aprobador de campaña<br>Gestor de campañas<br>Visor de campañas |
+  | **Campañas orquestadas** | Administrador de campañas orquestadas<br>Aprobador de campañas orquestadas<br>Gestor de campañas orquestadas<br>Visor de campañas orquestadas |
 
   +++Más información sobre cómo asignar una función relacionada con la campaña
 

@@ -11,8 +11,8 @@ keywords: ajustes, correo electrónico, configuración
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -123,13 +123,13 @@ La **[!UICONTROL URL para cancelar la suscripción con un solo clic]** debe ser 
 
 Con la opción **[!UICONTROL Administrado por el cliente]** seleccionada, si introduce puntos finales personalizados y los utiliza en una campaña o un recorrido, [!DNL Journey Optimizer] añade algunos parámetros específicos de perfil predeterminados al evento de actualización de consentimiento <!--sent to the custom endpoint -->cuando los destinatarios hacen clic en el vínculo para cancelar la suscripción.
 
-Para personalizar aún más los extremos<!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)-->, puede definir atributos personalizados que también se adjuntarán al evento de consentimiento.
+Para personalizar aún más los puntos finales<!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)-->, puede definir atributos personalizados que se adjuntarán al evento de consentimiento.
 
 >[!AVAILABILITY]
 >
->Para la opción **[!UICONTROL Mailto (cancelar la suscripción)]**, esta capacidad está disponible con disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso. En este caso, debe usar los nuevos parámetros de consulta descritos en la sección **Mailto (cancelar la suscripción) con atributos personalizados (disponibilidad limitada)** [debajo de](#configure-decrypt-api).
+>Para la opción **[!UICONTROL Mailto (cancelar la suscripción)]**, esta funcionalidad está disponible con disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso. En este caso, debe usar los nuevos parámetros de consulta que se describen en la sección **Mailto (cancelar la suscripción) con los atributos personalizados (disponibilidad limitada)** [que viene a continuación](#configure-decrypt-api).
 
-Para definir atributos personalizados para los extremos, utilice la sección **[!UICONTROL parámetros de seguimiento de URL]**. Todos los parámetros de seguimiento de URL que defina en la sección correspondiente se anexarán al final de los puntos de conexión personalizados, además de los parámetros predeterminados. [Aprenda a configurar el seguimiento de URL personalizado](url-tracking.md)
+Para definir los atributos personalizados de los puntos finales, utilice la sección **[!UICONTROL Parámetros de seguimiento de URL]**. Todos los parámetros de seguimiento de URL que defina en la sección correspondiente se adjuntarán al final de los puntos finales personalizados, además de los parámetros predeterminados. [Aprenda a configurar el seguimiento de URL personalizado](url-tracking.md)
 
 ### Configuración de la API de descifrado {#configure-decrypt-api}
 
@@ -233,11 +233,11 @@ Respuesta de consentimiento:
 
 +++
 
-+++ Mailto (cancelación de suscripción) con atributos personalizados (disponibilidad limitada)
++++ Mailto (cancelar la suscripción) con atributos personalizados (disponibilidad limitada)
 
 Con la opción **[!UICONTROL Mailto (cancelar la suscripción)]**, al hacer clic en el vínculo Cancelar la suscripción, se envía un correo electrónico cumplimentado previamente a la dirección de cancelación de suscripción especificada.
 
-A partir de octubre de 2025, si utiliza la opción **[!UICONTROL Administrado por el cliente]** para el extremo **[!UICONTROL Mailto (cancelar la suscripción)]**, puede definir atributos personalizados que se adjuntarán al evento de consentimiento. En este caso, debe utilizar los parámetros de consulta que se describen a continuación.
+A partir de octubre de 2025, si utiliza la opción **[!UICONTROL Administrado por el cliente]** para el punto final **[!UICONTROL Mailto (cancelar la suscripción)]**, puede definir atributos personalizados que se adjuntarán al evento de consentimiento. En este caso, debe utilizar los parámetros de consulta que se describen a continuación.
 
 >[!AVAILABILITY]
 >
@@ -255,17 +255,17 @@ Parámetros de consulta:
 
    * Valor analizado: *v1.abc*
 
-* **emailParamsBody**: cadena extraída del cuerpo del correo electrónico (si está presente) con el formato *unsuscribev1.xyz*.
+* **emailParamsBody**: cadena extraída del cuerpo del correo electrónico (si está presente) con el formato *unsubscribev1.xyz*.
 
    * Valor analizado: *v1.xyz*
 
-Ejemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Ejemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
 >Si estaba utilizando la implementación anterior (por ejemplo: https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>), debe utilizar los nuevos parámetros **emailParamsSub** y **emailParamsBody** en lugar de **emailParams**. Póngase en contacto con su representante de Adobe para obtener más información.
 
-Los parámetros **emailParamsSub** y **emailParamsBody** se incluirán en el evento de actualización de consentimiento enviado a los extremos personalizados.
+Los parámetros **emailParamsSub** y **emailParamsBody** se incluirán en el evento de actualización de consentimiento enviado a los puntos finales personalizados.
 
 Requisitos de encabezado:
 

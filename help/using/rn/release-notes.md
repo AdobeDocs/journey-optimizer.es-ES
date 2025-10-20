@@ -8,8 +8,8 @@ description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3eb73751fdb746dd2659e31c1b776fe2d767809f
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 64%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -253,7 +253,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate">Tasa de errores de acción personalizada superada</a>: la proporción de errores de acción personalizada respecto a las llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral.</li>
 <li><a href="../reports/alerts.md#alert-profile-error-rate">Tasa de error de perfil superada</a>: la proporción de perfiles en error respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral.</li></ul> <p>Puede modificar los valores de umbral y suscribirse a alertas de nivel de recorrido individual o global.</p>
 <p>Para obtener más información, consulte la <a href="../reports/alerts.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: 14 de octubre de 2025</p>
+<p>Fecha de disponibilidad: miércoles, 14 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -271,7 +271,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <p>Hay una nueva función de ayuda executionMetadata disponible en el editor de personalización. Permite anexar información contextual a cualquier acción nativa y capturarla en un conjunto de datos para exportarla a sistemas externos.</p>
 <p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p>Para obtener más información, consulte la <a href="../personalization/functions/helpers.md#execution-metadata">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: 13 de octubre de 2025</p>
+<p>Fecha de disponibilidad: martes, 13 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -288,8 +288,8 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <td>
 <p>Con la tecnología <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, el agente de experimentación está disponible en Journey Optimizer. </p>
 <p>Experimentation Agent es una herramienta con tecnología de IA que moderniza la forma de ejecutar y administrar experimentos digitales en sitios web, correos electrónicos, mensajes push y aplicaciones. Ayuda a ejecutar experimentos de forma más eficaz, organizar los objetivos comerciales y generar perspectivas procesables, resaltando lo que funcionó, lo que no y dónde experimentar a continuación.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=es" target="_blank">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: 10 de octubre de 2025</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: sábado, 10 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -353,13 +353,13 @@ Además de correo electrónico y SMS, puede saber cómo actualizar el campo de e
 
 **Compatibilidad con atributos personalizados para la dirección Mailto (cancelar la suscripción)**
 
-Con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer puntos de conexión personalizados externos definiendo su propio vínculo de cancelación de suscripción de un clic y una dirección de correo electrónico de cancelación de suscripción personalizada en la configuración de correo electrónico. Cuando los destinatarios hacen clic en el vínculo Cancelar LA suscripción, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento.
+Con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer los puntos finales personalizados externos definiendo su propio vínculo para cancelar la suscripción con un solo clic y una dirección de correo electrónico de cancelación de suscripción personalizada en la configuración del correo electrónico. Cuando los destinatarios hacen clic en el vínculo Cancelar la suscripción, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento.
 
-Para personalizar aún más los extremos personalizados, ahora puede definir atributos personalizados que también se adjuntarán al evento de consentimiento. [Más información](../email/list-unsubscribe.md#custom-attributes)
+Para personalizar aún más los puntos finales personalizados, ahora puede definir atributos personalizados que se adjuntarán al evento de consentimiento. [Más información](../email/list-unsubscribe.md#custom-attributes)
 
 >[!AVAILABILITY]
 >
->Esta funcionalidad ya está disponible para la URL **[!UICONTROL Cancelar la suscripción con un solo clic]** desde agosto de 2025 y ahora está disponible para la opción **[!UICONTROL Mailto (cancelar la suscripción)]** en disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+>Esta funcionalidad ya está disponible para la **[!UICONTROL URL de cancelación de suscripción de un solo clic]** desde agosto de 2025 y ahora está disponible para la opción **[!UICONTROL Mailto (cancelar la suscripción)]** en disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 Fecha de disponibilidad: 6 de octubre de 2025
 
@@ -496,7 +496,7 @@ Fecha de disponibilidad: 6 de octubre de 2025
 ### Mejoras {#sept-25-9-improvements}
 
 * **Compatibilidad con webhook para campañas activadas por API**\
-  Las campañas activadas por API ahora admiten webhooks. Configure una URL de gancho web para recibir actualizaciones de estado en tiempo real para cada mensaje, mejorando la observabilidad y permitiendo una monitorización y automatización sin problemas. [Más información](../configuration/feedback-webhooks.md)
+  Las campañas activadas por API ahora admiten webhooks. Configure una URL de webhook para recibir actualizaciones del estado en tiempo real para cada mensaje, mejorando la observabilidad y permitiendo una monitorización y automatización sin problemas. [Más información](../configuration/feedback-webhooks.md)
 
   Fecha de disponibilidad: 29 de septiembre de 2025
 
@@ -532,17 +532,17 @@ Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habil
 
   Esta capacidad está disponible en disponibilidad limitada para un conjunto de clientes.
 
-* **Webhooks**: Esta versión incorpora las siguientes mejoras para Webhooks al configurar un proveedor de SMS personalizado:
+* **Webhooks**: esta versión incorpora las siguientes mejoras para webhooks al configurar un proveedor de SMS personalizado:
 
-   * Ahora puede definir el propósito de su webhook, ya sea Entrante o Comentarios, según el tipo de datos que desee capturar. [Más información](../sms/sms-configuration-custom.md#webhook) - Fecha de disponibilidad: 23 de septiembre de 2025
+   * Ahora puede definir el propósito de su webhook, ya sea de entrada o de comentarios, según el tipo de datos que desee capturar. [Más información](../sms/sms-configuration-custom.md#webhook) - Fecha de disponibilidad: 23 de septiembre de 2025
 
    * La interfaz para configurar palabras clave se ha mejorado para facilitar la configuración. [Más información](../sms/sms-configuration-custom.md#webhook) - Fecha de disponibilidad: 23 de septiembre de 2025
 
 * **SMS**
 
-   * Al configurar un proveedor de SMS personalizado, ahora puede definir una palabra clave **Default** que se usa cuando un SMS entrante contiene una palabra clave no reconocida. También puede crear palabras clave **Custom** para acciones específicas. [Más información](../sms/sms-configuration-custom.md) - Fecha de disponibilidad: 23 de septiembre de 2025
+   * Al configurar un proveedor de SMS personalizado, ahora puede definir una palabra clave **predeterminada** que se usa cuando un SMS entrante contiene una palabra clave no reconocida. También puede crear palabras clave **personalizadas** para acciones específicas. [Más información](../sms/sms-configuration-custom.md) - Fecha de disponibilidad: 23 de septiembre de 2025
 
-   * Ahora puede acceder a las respuestas de palabras clave de entrada no definidas enviadas mediante un mensaje SMS, incluidos los errores tipográficos, las palabras o las frases que no están definidos explícitamente en la configuración. Se almacenan en el conjunto de datos **AJO Email Tracking Experience Event**, en **InboundMessage** durante 13 meses. Solo disponible con Sinch, Infobip y el proveedor de SMS personalizado. - Fecha de disponibilidad: 23 de septiembre de 2025
+   * Ahora puede acceder a las respuestas de palabras clave de entrada no definidas enviadas mediante un mensaje SMS, incluidos los errores tipográficos, las palabras o las frases que no están definidos explícitamente en la configuración. Se almacenan en el conjunto de datos de **Evento de experiencia de seguimiento de correo electrónico de AJO**, en **InboundMessage** durante 13 meses. Solo está disponible con Sinch, Infobip y el proveedor de SMS personalizado. Fecha de disponibilidad: 23 de septiembre de 2025
 
 <!--
 * **Approval policy permissions**

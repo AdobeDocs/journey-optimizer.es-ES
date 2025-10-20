@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -197,6 +197,6 @@ En ese caso, [!DNL Journey Optimizer] usa la dirección especificada en los **[!
 
 Sin embargo, puede cambiar este campo de ejecución predeterminado en el nivel de configuración del canal de correo electrónico. A continuación, puede aplicar esta configuración a campañas o recorridos específicos.
 
-Para ello, edite el campo **[!UICONTROL Dirección de entrega]** y seleccione un elemento de la lista de campos XDM de tipo correo electrónico disponibles. [Más información](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+Para ello, edite el campo **[!UICONTROL Dirección de envío]** y seleccione un elemento en la lista de campos XDM de tipo correo electrónico disponibles. [Más información](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
 ![](assets/email-config-delivery-address.png)

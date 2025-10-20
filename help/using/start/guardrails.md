@@ -11,8 +11,8 @@ mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
-source-wordcount: '2823'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -272,6 +272,6 @@ Consulte [esta página](../building-journeys/read-audience.md#must-read).
 
 Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL Actualizar perfil]**. Se muestran en [esta página](../building-journeys/update-profiles.md).
 
-## Protecciones en orquestación de campañas {#orchestration-guardrails}
+## Mecanismos de protección en orquestación de campañas {#orchestration-guardrails}
 
-Las protecciones y limitaciones que se deben tener en cuenta al trabajar con Campaign Orchestration se detallan en esta sección: [Protecciones y limitaciones](../orchestrated/guardrails.md).
+Los mecanismos de protección y las limitaciones que se deben tener en cuenta al trabajar con la orquestación de campañas se detallan en esta sección: [Mecanismos de protección y limitaciones](../orchestrated/guardrails.md).
