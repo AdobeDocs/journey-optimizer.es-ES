@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
+source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2999'
+ht-degree: 98%
 
 ---
 
@@ -885,7 +885,7 @@ ht-degree: 0%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
@@ -982,5 +982,6 @@ ht-degree: 0%
       + [Administrar el consentimiento](/help/rp_landing_pages/consent-landing-page.md)
       + [Administración de la exclusión](using/privacy/opt-out.md)
       + [Trabajar con políticas de consentimiento](using/action/consent.md)
+      + [Administre las preferencias de sus clientes](using/action/preference-center.md)
    + [Gobernanza de datos](using/action/action-privacy.md)
    + [Configurar y administrar claves administradas por el cliente](using/privacy/cmk.md)
