@@ -90,4 +90,4 @@ Este es un ejemplo de evento de API de ingesta de transmisión:
 
 Para facilitar la identificación del lugar donde pegar la parte de &quot;datos&quot;, puede utilizar una herramienta de visualización JSON como [formateador JSON](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-Para solucionar problemas de las API de ingesta de transmisión, consulte [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.
+Para solucionar problemas de las API de ingesta de transmisión, consulte [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=es){target="_blank"}.

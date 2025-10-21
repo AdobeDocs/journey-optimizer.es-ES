@@ -32,7 +32,7 @@ Las audiencias pueden tener dos estados:
 * realizado: la entidad cumple los requisitos para la definición del segmento.
 * saliente: la entidad sale de la definición del segmento.
 
-Solo las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
+Solo las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results).
 
 `inSegment('segmentName') == true` significa que tiene un segmentMembership con el estado introducido/existente.
 
