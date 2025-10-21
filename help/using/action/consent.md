@@ -5,11 +5,11 @@ title: Trabajar con políticas de consentimiento
 description: Aprenda a trabajar con las directivas de consentimiento de Adobe Experience Platform
 feature: Journeys, Actions, Custom Actions, Privacy, Consent Management
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: directivas, gobernanza, plataforma, escudo de atención sanitaria, consentimiento
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 93%

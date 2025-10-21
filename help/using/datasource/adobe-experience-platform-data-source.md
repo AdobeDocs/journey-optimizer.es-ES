@@ -5,11 +5,11 @@ title: Fuente de datos de Adobe Experience Platform
 description: Obtenga información sobre cómo configurar la fuente de datos de Adobe Experience Platform
 feature: Journeys, Data Sources
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: integrado, fuente, datos, plataforma, integración
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 27%

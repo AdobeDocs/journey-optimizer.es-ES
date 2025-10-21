@@ -3,12 +3,12 @@ product: journey optimizer
 title: replace
 description: Obtenga información acerca de la sustitución de funciones
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: reemplazar, función, expresión, recorrido
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 11%

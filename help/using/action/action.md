@@ -5,11 +5,11 @@ title: Introducción a las acciones
 description: Aprenda a trabajar con acciones
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: acciones, recorrido, mensajes, envío, conexiones
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 37%
@@ -49,7 +49,7 @@ Aprenda a solucionar problemas de una acción personalizada [en esta página ded
 
 Obtenga información sobre cómo configurar acciones personalizadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430277?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
 
 ## Recursos adicionales
 

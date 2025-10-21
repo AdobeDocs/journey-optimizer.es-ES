@@ -5,11 +5,11 @@ title: Configuración de una fuente de datos
 description: Obtenga información sobre cómo configurar una fuente de datos
 feature: Journeys, Data Sources
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: datos, fuente, configuración, campo
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 7%

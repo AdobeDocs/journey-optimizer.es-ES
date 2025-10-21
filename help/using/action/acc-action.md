@@ -5,11 +5,11 @@ title: Integración con las versiones 7 y 8 de Adobe Campaign
 description: Aprenda a integrar Journey Optimizer con Adobe Campaign v7/v8
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate
 keywords: campaign, acc, integration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 12%
@@ -61,7 +61,7 @@ Cuando se solicita, Adobe configura la conexión entre los entornos de Journey O
 
 ## Requisitos previos {#prerequisites}
 
-En Adobe Campaign, debe crear y publicar un mensaje transaccional y su evento asociado. Consulte la [documentación de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+En Adobe Campaign, debe crear y publicar un mensaje transaccional y su evento asociado. Consulte la [documentación de Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 Puede crear la carga útil JSON correspondiente a cada mensaje siguiendo el patrón siguiente. Luego pegará esta carga útil al configurar la acción en Journey Optimizer (a continuación).
 

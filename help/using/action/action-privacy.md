@@ -5,11 +5,11 @@ title: Gobernanza de datos
 description: A continuación, defina una directiva de gobernanza vinculada a una etiqueta y a una acción de marketing
 feature: Journeys, Actions, Custom Actions, Privacy
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: datos, gobernanza, DULE, etiquetas, etiquetado, plataforma, directiva
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 98%

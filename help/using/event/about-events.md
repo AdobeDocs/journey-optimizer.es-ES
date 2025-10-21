@@ -5,11 +5,11 @@ title: Trabajo con eventos de recorrido
 description: Aprenda a trabajar con eventos en sus recorridos
 feature: Journeys, Events
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: eventos, evento, recorrido, definición, inicio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 33%
@@ -120,8 +120,8 @@ No se puede eliminar ningún evento utilizado en los recorridos **Live**, **Draf
 
 Aprenda a configurar un evento y a especificar su punto final de reproducción y la carga útil.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431518?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprenda los casos de uso aplicables a los eventos empresariales. Obtenga información sobre cómo crear un recorrido mediante un evento empresarial y las prácticas recomendadas que se deben aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416328?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

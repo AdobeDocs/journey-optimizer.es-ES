@@ -4,14 +4,14 @@ product: journey optimizer
 title: Uso del editor de expresiones avanzadas
 description: Aprenda a crear expresiones avanzadas
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
 keywords: expresión, condición, casos de uso, eventos
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 2%

@@ -5,11 +5,11 @@ title: Introducción a las fuentes de datos
 description: Obtenga información sobre cómo empezar a usar fuentes de datos
 feature: Journeys, Data Sources
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: datos, fuente, recorrido, plataforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 65%
@@ -49,11 +49,11 @@ Para cada fuente de datos, se define la información que se recuperará mediante
 >
 >Las relaciones de esquema no son compatibles con las fuentes de datos.
 
-Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar los datos en un recorrido, vea este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=es){target="_blank"}.
+Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar los datos en un recorrido, vea este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Vídeo práctico {#video}
 
 Comprenda qué es una fuente de datos y aprenda a configurar fuentes de datos de Experience Platform y externas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416633?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

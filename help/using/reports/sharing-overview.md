@@ -5,10 +5,10 @@ title: Información general sobre el uso compartido de los pasos del recorrido
 description: Información general sobre el uso compartido de los pasos del recorrido
 feature: Journeys, Reporting
 topic: Content Management
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 3%
@@ -73,6 +73,6 @@ El flujo de trabajo general es:
 
 * [!DNL Customer Journey Analytics] ingiere el conjunto de datos &quot;Evento de paso de Recorrido&quot;.
 * El campo **profileID** del &quot;esquema de evento de paso de Recorrido para Journey Orchestration&quot; asociado se define como un campo de identidad. En [!DNL Customer Journey Analytics], puede vincular este conjunto de datos a cualquier otro conjunto de datos que tenga el mismo valor que el identificador basado en personas.
-* Para usar este conjunto de datos en [!DNL Customer Journey Analytics], para el análisis de recorrido entre canales, consulte [Documentación de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=es){target="_blank"}.
+* Para usar este conjunto de datos en [!DNL Customer Journey Analytics], para el análisis de recorrido entre canales, consulte [Documentación de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
 ➡️ [Trabajar con Customer Journey Analytics](cja-ajo.md){target="_blank"}

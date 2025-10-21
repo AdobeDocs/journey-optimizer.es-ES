@@ -5,11 +5,11 @@ title: Pasos adicionales para enviar eventos a un recorrido
 description: Conozca los pasos adicionales para enviar eventos a un recorrido
 feature: Journeys, Events
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: pasos, configuración, recorrido, eventos, flujo, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 3%
@@ -90,4 +90,4 @@ Este es un ejemplo de evento de API de ingesta de transmisión:
 
 Para facilitar la identificación del lugar donde pegar la parte de &quot;datos&quot;, puede utilizar una herramienta de visualización JSON como [formateador JSON](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-Para solucionar problemas de las API de ingesta de transmisión, consulte [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=es){target="_blank"}.
+Para solucionar problemas de las API de ingesta de transmisión, consulte [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.
