@@ -5,14 +5,14 @@ title: Aumento de las entregas
 description: Obtenga información sobre cómo aumentar los envíos
 feature: Journeys, Use Cases, IP Warmup Plans
 topic: Content Management
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 keywords: entrega, recorrido, caso de uso, correo electrónico, reputación
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 2%

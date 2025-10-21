@@ -4,12 +4,12 @@ product: journey optimizer
 title: Trabajo con el editor de expresiones avanzado
 description: Aprenda a crear expresiones avanzadas
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: editor de expresiones, datos, recorrido
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 55%
@@ -40,7 +40,7 @@ El editor de expresiones avanzadas oferta un conjunto de funciones y operadores 
 
 El editor de expresiones avanzadas se puede utilizar para lo siguiente:
 
-* crear [condiciones avanzadas &#x200B;](../condition-activity.md#about_condition) en fuentes de datos e información de evento
+* crear [condiciones avanzadas ](../condition-activity.md#about_condition) en fuentes de datos e información de evento
 * definir [actividades de espera personalizadas](../wait-activity.md#custom)
 * definir asignación de parámetros de acción
 

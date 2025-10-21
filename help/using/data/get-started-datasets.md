@@ -4,11 +4,11 @@ product: journey optimizer
 title: Introducción a los conjuntos de datos
 description: Obtenga información sobre cómo utilizar conjuntos de datos de Adobe Experience Platform en Adobe Journey Optimizer
 feature: Data Model, Datasets, Data Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 7fb853a898a84ff31c7a24b48f963f06c4d10b6f
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Todos los datos que se incorporan a Adobe Experience Platform se conservan dentr
 
 El espacio de trabajo **Conjuntos de datos** en la interfaz de usuario de [!DNL Adobe Journey Optimizer] le permite explorar datos y crear conjuntos de datos.
 
-Seleccione **Conjuntos de datos** en el panel de navegación izquierdo para abrir el tablero Conjuntos de datos.
+Seleccione **Conjuntos de datos** en el panel de control de navegación izquierdo para abrir el panel de control Conjuntos de datos.
 
 ![](assets/datasets-home.png)
 
@@ -37,7 +37,7 @@ De forma predeterminada, solo se muestran los conjuntos de datos que ha introduc
 
 >[!NOTE]
 >
->A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admite eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios [!DNL Journey Optimizer]. Para implementar la restricción de frecuencia o la administración de fatiga, utilice reglas empresariales en su lugar. Puede encontrar más detalles en [esta sección](../conflict-prioritization/rule-sets.md), incluyendo una explicación de caso de uso para el límite diario [aquí](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=es){target="_blank"}.
+>A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admite eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios [!DNL Journey Optimizer]. Para implementar la restricción de frecuencia o la administración de fatiga, utilice reglas empresariales en su lugar. Puede encontrar más detalles en [esta sección](../conflict-prioritization/rule-sets.md), incluyendo una explicación de caso de uso para el límite diario [aquí](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 >
 >Además, desde febrero de 2025, se implementa un mecanismo de protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer. [Más información](datasets-ttl.md)
 
@@ -76,7 +76,7 @@ En la pantalla de actividad Conjunto de datos, seleccione **Previsualizar conjun
 
 ## Crear conjuntos de datos{#create-datasets}
 
-Para crear un nuevo conjunto de datos, empiece seleccionando **Crear conjunto de datos** en el tablero Conjuntos de datos.
+Para crear un nuevo conjunto de datos, empiece seleccionando **Crear conjunto de datos** en el panel de control Conjuntos de datos.
 
 Puede hacer lo siguiente:
 
@@ -85,7 +85,7 @@ Puede hacer lo siguiente:
 
 Obtenga información sobre cómo crear un conjunto de datos, asignarlo a un esquema, añadirle datos y confirmar que estos se han introducido.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416648?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Gobernanza de datos
 

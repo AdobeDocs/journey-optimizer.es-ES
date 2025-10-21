@@ -3,12 +3,12 @@ product: journey optimizer
 title: recuento
 description: Más información sobre el recuento de funciones
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: recuento, función, expresión, recorrido
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 10%

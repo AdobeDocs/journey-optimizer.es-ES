@@ -3,10 +3,10 @@ title: Actualizar reglas de elegibilidad
 description: Las reglas de elegibilidad le permiten definir los candidatos elegibles en función de lo que desee segmentar, como atributos de perfil y audiencias.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8d82b4db-2ba8-4692-a63e-9cb3c6c434c3
-source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 9%

@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo exportar el catálogo de ofertas c
 badge: label="Heredado" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Cada vez que se modifica uno de estos objetos en la Biblioteca de ofertas, se ej
 
 >[!NOTE]
 >
->Esta función está habilitada de forma predeterminada. Puede empezar a utilizarla sin ningún paso de activación adicional. Una vez activados, los trabajos de exportación se automatizarán y no requerirán ninguna acción por su parte.
+>Esta función está habilitada de forma predeterminada. Puede empezar a utilizarla sin ningún paso de activación adicional. Una vez habilitados, los trabajos de exportación se automatizarán y no requerirán ninguna acción por su parte.
 
 <!--
 >[!NOTE]

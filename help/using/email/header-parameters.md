@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 90%
@@ -35,6 +35,7 @@ Al configurar una nueva [configuración del canal de correo electrónico](email-
 >[!NOTE]
 >
 >Las direcciones **[!UICONTROL Prefijo del correo electrónico del remitente]** y **[!UICONTROL Prefijo del correo electrónico de error]** utilizan el [subdominio delegado](../configuration/about-subdomain-delegation.md) seleccionado actualmente para enviar el correo electrónico. Por ejemplo, si el subdominio delegado es *marketing.luma.com*:
+>
 >* Escriba *contact* como **[!UICONTROL Prefijo del correo electrónico del remitente]**: el correo electrónico del remitente es *contact@marketing.luma.com*.
 >* Escriba *error* como **[!UICONTROL Prefijo del correo electrónico de error]**: la dirección de error es *error@marketing.luma.com*.
 

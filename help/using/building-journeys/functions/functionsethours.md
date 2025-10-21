@@ -3,12 +3,12 @@ product: journey optimizer
 title: setHours
 description: Obtenga información sobre la función setHours
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: setHours, función, expresión, recorrido
 exl-id: ed78c2a9-d83a-4fac-a2e9-7383da131a1f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 9%

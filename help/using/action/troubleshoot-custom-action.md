@@ -5,11 +5,11 @@ title: Resolución de problemas de acciones personalizadas
 description: Obtenga información sobre cómo solucionar problemas de una acción personalizada
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 2%

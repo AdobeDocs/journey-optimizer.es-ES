@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdominio, delegación, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1906'
 ht-degree: 18%
@@ -116,14 +116,15 @@ Para configurar un nuevo subdominio en [!DNL Journey Optimizer], siga los pasos 
 1. Especifique el nombre del subdominio que desea delegar.
 
    ![](assets/subdomain-name.png)
-<!--
-    >[!CAUTION]
+
+<!-- >[!CAUTION]
     >
     >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
     >
     >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
 
-    Capital letters are not allowed in subdomains. TBC by PM-->
+    Capital letters are not allowed in subdomains. TBC by PM
+-->
 
 1. Configure **[!UICONTROL registro de DMARC]** en la sección dedicada. Si el subdominio tiene un [registro DMARC](dmarc-record.md) existente y [!DNL Journey Optimizer] lo ha recuperado, puede usar los mismos valores o cambiarlos según sea necesario. Si no añade ningún valor, se utilizarán los valores predeterminados. [Aprenda a administrar el registro de DMARC](dmarc-record.md#set-up-dmarc)
 

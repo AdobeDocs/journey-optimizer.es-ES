@@ -5,11 +5,11 @@ title: Introducción al contenido dinámico
 description: Más información sobre el contenido dinámico
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: expresión, editor, introducción, condiciones, inicio
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 60%
@@ -36,4 +36,4 @@ Las reglas condicionales se pueden aprovechar en el Designer de correo electrón
 
 Información sobre cómo crear contenido dinámico con el generador de reglas de condición.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413670?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)

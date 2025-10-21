@@ -4,12 +4,12 @@ title: Limitación del rendimiento con fuentes de datos externas y acciones pers
 description: Limitación del rendimiento con fuentes de datos externas y acciones personalizadas
 feature: Journeys, Use Cases, Custom Actions, Data Sources
 topic: Content Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 keywords: recorrido, fuentes de datos, límite, rendimiento, personalizado, acciones
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 3%

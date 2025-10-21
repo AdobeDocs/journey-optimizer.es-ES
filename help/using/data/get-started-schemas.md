@@ -4,14 +4,14 @@ product: journey optimizer
 title: Introducción a los esquemas
 description: Información sobre cómo utilizar los esquemas de Adobe Experience Platform en Adobe Journey Optimizer
 feature: Data Model, Datasets, Data Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: esquemas, plataforma, datos, estructura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,7 +56,7 @@ Existen dos tipos de esquemas en Adobe Experience Platform:
 
 Obtenga información sobre cómo crear un esquema estándar, añadir grupos de campos, crear y configurar grupos de campos personalizados.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416869?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >

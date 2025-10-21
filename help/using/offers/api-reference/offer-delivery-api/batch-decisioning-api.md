@@ -3,10 +3,10 @@ title: API de decisiones por lotes
 description: Aprenda a utilizar la API de decisiones por lotes para seleccionar las mejores ofertas para los perfiles de las audiencias dentro de un ámbito de decisión predefinido.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 4%
@@ -30,7 +30,7 @@ Para ello, la organización debería:
 
 * Exporte el conjunto de datos a la API del proveedor de entrega de mensajes.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=es) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -102,12 +102,12 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 | Propiedad | Descripción | Ejemplo |
 | -------- | ----------- | ------- |
-| `xdm:activityId` | El identificador único de la decisión. |
+| `xdm:activityId` | El identificador único de la decisión. |  |
 | `xdm:dataSetId` | Conjunto de datos de salida en el que se pueden escribir los eventos de decisión. | `6196b4a1a63bd118dafe093c` |
 | `xdm:includeContent` | Este es un campo opcional y es `false` de manera predeterminada. Si `true`, el contenido de la oferta se incluye en los eventos de decisión del conjunto de datos. | `false` |
-| `xdm:itemCount` | Es un campo opcional que muestra el número de elementos, como las opciones solicitadas para el ámbito de toma de decisiones. De forma predeterminada, la API devuelve una opción por ámbito, pero puede solicitar explícitamente más opciones especificando este campo. Se pueden solicitar un mínimo de 1 y un máximo de 30 opciones por ámbito. | `1` | `xcore:offer-activity:1410cdcda196707b` |
+| `xdm:itemCount` | Es un campo opcional que muestra el número de elementos, como las opciones solicitadas para el ámbito de toma de decisiones. De forma predeterminada, la API devuelve una opción por ámbito, pero puede solicitar explícitamente más opciones especificando este campo. Se pueden solicitar un mínimo de 1 y un máximo de 30 opciones por ámbito. | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | El identificador de ubicación único. | `xcore:offer-placement:1410c4117306488a` |
-| `xdm:propositionRequests` | Un contenedor que contiene `placementId` y `activityId` |
+| `xdm:propositionRequests` | Un contenedor que contiene `placementId` y `activityId` |  |
 | `xdm:segmentIds` | El valor es una matriz que contiene el identificador único de la audiencia. Solo puede contener un valor. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
 Consulte la [documentación de Administración de decisiones](../../get-started/starting-offer-decisioning.md) para obtener una descripción general de los conceptos y propiedades principales.

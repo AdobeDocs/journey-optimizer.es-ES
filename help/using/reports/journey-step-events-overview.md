@@ -5,12 +5,12 @@ title: Trabajo con eventos de paso de recorrido
 description: Aprenda a trabajar con eventos de paso de recorrido en Adobe Journey Optimizer; comprenda qué son, por qué importan y cómo utilizarlos para el análisis y la optimización
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin, User
+role: Engineer, Admin, User
 level: Intermediate, Experienced
 keywords: recorrido, eventos de paso, análisis, creación de informes, monitorización, XDM
 hide: true
 hidefromtoc: true
-source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 1%

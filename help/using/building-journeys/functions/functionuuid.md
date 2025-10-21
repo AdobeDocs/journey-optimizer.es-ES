@@ -3,12 +3,12 @@ product: journey optimizer
 title: UUID
 description: Obtenga información acerca del uuid de función
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: uuid, función, expresión, recorrido
 exl-id: ac3bc4e7-7097-4efb-a6f7-22aa00d01380
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 13%

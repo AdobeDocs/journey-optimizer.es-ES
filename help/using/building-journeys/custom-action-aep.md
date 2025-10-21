@@ -5,11 +5,11 @@ title: Utilice acciones personalizadas para escribir eventos de Recorrido en AEP
 description: Utilice acciones personalizadas para escribir eventos de Recorrido en AEP
 feature: Journeys, Use Cases, Custom Actions
 topic: Content Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 4%
@@ -40,7 +40,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Después de crear el proyecto en Adobe Developer Console, asegúrese de otorgar al desarrollador y al control de acceso de la API los permisos adecuados. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Después de crear el proyecto en Adobe Developer Console, asegúrese de otorgar al desarrollador y al control de acceso de la API los permisos adecuados. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## Configurar el origen mediante la entrada de la API HTTP
 
@@ -176,7 +176,7 @@ Para este ejemplo, siga estos pasos:
 
 1. Guarde la acción personalizada.
 
-## Recorrido 
+##  Recorrido 
 
 1. Finalmente, utilice esta acción personalizada en un recorrido para escribir los eventos de recorrido personalizados.
 

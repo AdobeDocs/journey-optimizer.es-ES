@@ -3,12 +3,12 @@ product: journey optimizer
 title: getListItem
 description: Obtenga información sobre la función gstListItem
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: getListItem, función, expresión, recorrido
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 18%

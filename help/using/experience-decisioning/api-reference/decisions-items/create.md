@@ -3,10 +3,10 @@ title: Crear un elemento de decisión
 description: Obtenga información sobre cómo crear un elemento de decisión mediante la API de biblioteca de ofertas.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: e60b0eec-29bc-4411-9eab-08eaf738fc79
-source-git-commit: 8463b2f98806b009e7af4a9d28dac9015108d1c6
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 8%

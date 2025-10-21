@@ -5,11 +5,11 @@ title: Integración de Adobe Analytics
 description: Aprenda a aprovechar los datos de Adobe Analytics en Journey Optimizer
 feature: Journeys, Events, Reporting, Integrations
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: analytics, integración, sdk web, plataforma
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 6%
@@ -61,7 +61,7 @@ Esto habilita el conector de origen de Analytics para ese grupo de informes. Cad
 
 ![](assets/ajo-aa_4.png)
 
-Obtenga más información acerca del conector de origen de Adobe Analytics en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es){target="_blank"} y [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es){target="_blank"}.
+Obtenga más información acerca del conector de origen de Adobe Analytics en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} y [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
 
 ## Activar esta configuración {#activate-analytics-data}
 

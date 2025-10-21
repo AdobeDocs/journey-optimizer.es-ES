@@ -8,7 +8,7 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 5%
@@ -60,6 +60,7 @@ El modelo tiene dos fases:
 * En la fase de **inferencia en línea**, las ofertas de candidatos se clasifican según las puntuaciones en tiempo real generadas por el modelo. A diferencia de las técnicas de filtrado colaborativas tradicionales, que son difíciles de incluir en funciones para usuarios y ofertas, la optimización personalizada es un método de recomendación basado en el aprendizaje profundo, y es capaz de incluir y aprender patrones de interacción de funciones complejos y no lineales.
 
 A continuación, se muestra un ejemplo simplificado para ilustrar la idea básica detrás de la optimización personalizada. Supongamos que tenemos un conjunto de datos que almacena las interacciones históricas entre usuarios y ofertas, que se muestra en la Figura 1. Existen:
+
 * Dos ofertas, offer_1 y offer_2,
 * Dos funciones, feature_1 y feature_2,
 * Una columna de respuesta.

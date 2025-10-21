@@ -3,13 +3,13 @@ title: Biblioteca de funciones de cadena
 description: Biblioteca de funciones de cadena
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 1f16b095b3b063f3fb881aee0b2a928644e19143
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1859'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -232,7 +232,7 @@ La siguiente consulta determina, con distinción entre mayúsculas y minúsculas
 {%=equals(profile.person.name,"John") %}
 ```
 
-## Igual a Ignorar Mayúsculas y Minúsculas{#equalsIgnoreCase}
+## Ignorar mayúsculas y minúsculas{#equalsIgnoreCase}
 
 La función `equalsIgnoreCase` se usa para determinar si una cadena es igual a la cadena especificada, sin distinción de mayúsculas y minúsculas.
 
@@ -386,7 +386,7 @@ La siguiente función devuelve &quot;true&quot; si el número de teléfono móvi
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
 
-## No está vacío {#is-not-empty}
+## Is Not Empty {#is-not-empty}
 
 La función `isNotEmpty` se usa para determinar si una cadena no está vacía.
 
@@ -496,7 +496,7 @@ Esta función convierte el nombre del perfil en letras minúsculas.
 {%= lowerCase(profile.person.name.firstName) %}
 ```
 
-## Iguala{#matches}
+## Coincide{#matches}
 
 La función `matches` se usa para determinar si una cadena coincide con una expresión regular específica. Consulte [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obtener más información sobre los patrones coincidentes en las expresiones regulares.
 
@@ -808,7 +808,7 @@ La función `toDateTime` se usa para convertir la cadena a fecha. Devuelve la fe
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## A Fecha Hora Solo {#to-date-time-only}
+## A Fecha Hora Solamente {#to-date-time-only}
 
 La función `toDateTimeOnly` se usa para convertir un valor de argumento en un valor de solo fecha y hora. Devuelve la fecha epoch como salida para una entrada no válida. Esta función acepta tipos de campo string, date, long e int.
 
@@ -846,7 +846,7 @@ Esta función convierte los apellidos del perfil en letras mayúsculas.
 {%= upperCase(profile.person.name.lastName) %}
 ```
 
-## Descifrar URL {#url-decode}
+## Descodificación de URL {#url-decode}
 
 La función `urlDecode` se usa para descodificar una cadena con codificación URL.
 
@@ -856,7 +856,7 @@ La función `urlDecode` se usa para descodificar una cadena con codificación UR
 {%= urlDecode(string) %}: string
 ```
 
-## Cifrar URL {#url-encode}
+## Codificación de URL {#url-encode}
 
 La función `Count only null` se usa para codificar una cadena mediante URL.
 

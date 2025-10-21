@@ -6,7 +6,7 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 2%
@@ -23,14 +23,14 @@ Los datos de las audiencias de carga personalizadas se pueden aprovechar en Admi
 2. Personalización del contenido en representaciones de oferta.
 
 Para obtener más información sobre las audiencias de carga personalizada, consulte las secciones:
+
 * [Introducción a audiencias y Journey Optimizer](../audience/about-audiences.md)
-* [Importación de una audiencia en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importación de una audiencia en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Lectura obligatoria {#must-read}
 
 * Esta funcionalidad solo es compatible con **Administración de decisiones**, no con Decisioning (anteriormente conocido como &quot;Experience Decisioning&quot;).
 * Está disponible exclusivamente a través de **solicitudes de API de decisiones (Hub)** y no es compatible con **API de decisiones de Edge** o **toma de decisiones por lotes**.
- 
 
 ## Usar una audiencia de carga personalizada como criterio de idoneidad {#eligibilty}
 

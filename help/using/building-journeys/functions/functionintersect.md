@@ -3,12 +3,12 @@ product: journey optimizer
 title: intersect
 description: Obtenga información sobre la intersección de funciones
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: intersect, función, expresión, recorrido
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 11%

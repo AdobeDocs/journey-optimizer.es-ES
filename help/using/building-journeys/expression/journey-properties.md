@@ -4,12 +4,12 @@ product: journey optimizer
 title: Propiedades del recorrido
 description: Más información sobre las propiedades del recorrido
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: recorrido, expresión, editor, propiedades
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 2%
@@ -52,7 +52,7 @@ A continuación se muestran algunos ejemplos de casos de uso:
 | | journeyVersion | Versión de recorrido | |
 | Instancia de recorrido | instanceUID | Identificador de instancia de recorrido | ID de la instancia |
 | | externalKey | Clave externa | Identificador individual que activa el recorrido |
-| | organizationId | Identificador de la organización | Organización de la marca |
+| | organizationId | Identificador de organización | Organización de la marca |
 | | sandboxName | Nombre de zona protegida | Nombre de la zona protegida |
 | Identidad | profileId | Identificador de identidad del perfil | Identificador del perfil en el recorrido |
 | | namespace | Área de nombres de identidad de perfil | Área de nombres del perfil en la recorrido (ejemplo: ECID) |

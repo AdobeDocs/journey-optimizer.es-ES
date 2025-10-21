@@ -5,10 +5,10 @@ title: Campos de ejecución de la acción de eventos de journeySteps
 description: Campos de ejecución de la acción de eventos de journeySteps
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 91835d5b8b1f129c83c79613df30d9413db98ffe
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 4%
@@ -67,6 +67,7 @@ Tipo de error que se produce cuando se llama a la acción.
 Tipo: cadena
 
 Valores:
+
 * http
 * límite
 * timeout
@@ -113,12 +114,12 @@ Indica el tipo de acción.
 Valores:
 
 * integrado
-* Correo electrónico ACS
-* ACS SMS
-* Push de ACS
+   * Correo electrónico ACS
+   * ACS SMS
+   * Push de ACS
 * cliente
-* Épsilon
-* ...
+   * Épsilon
+   * ...
 
 Tipo: cadena
 

@@ -4,12 +4,12 @@ product: journey optimizer
 title: Áreas funcionales
 description: Áreas funcionales en AJO
 feature: Get Started
-role: Admin, Data Engineer, Developer, User
+role: Admin, Developer, User
 level: Beginner
 redpen-status: PASS_||_2025-04-28_15-13-07
 exl-id: c9b02ae2-e07b-41f4-90cc-b2c0966f1ed1
 hide: true
-source-git-commit: 72ff06a7d87d6d9e5bfc0c6462ea4d60a98fc940
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 0%
@@ -41,6 +41,7 @@ Adobe Journey Optimizer (AJO) incluye varias áreas funcionales clave que funcio
 Considere la administración de datos como la base de toda la participación de los clientes. Una base de datos bien estructurada garantiza que cada decisión, mensaje y recorrido utilice información precisa y organizada.
 
 **Componentes clave**:
+
 - **Creación y administración de esquemas**: defina la estructura de los datos del cliente.
    - Ejemplo: Crear un esquema que esquematice campos como &quot;Nombre&quot;, &quot;Dirección de correo electrónico&quot; e &quot;Historial de compras&quot;.
 - **Configuración del conjunto de datos**: organice los datos en contenedores lógicos.
@@ -60,6 +61,7 @@ Considere la administración de datos como la base de toda la participación de 
 Las herramientas de administración de clientes conectan puntos de datos dispares para proporcionar una imagen coherente de cada cliente. Esta comprensión garantiza que pueda ofrecer experiencias relevantes y personalizadas.
 
 **Componentes clave**:
+
 - **Perfil del cliente en tiempo real**: vista unificada de cada cliente.
    - Ejemplo: combinar el historial de navegación web, las interacciones de aplicaciones y las compras sin conexión en un solo perfil.
 - **Resolución de identidad**: vincule datos de clientes entre dispositivos y canales.
@@ -80,6 +82,7 @@ Las herramientas de administración de clientes conectan puntos de datos dispare
 Las herramientas de gestión de contenido garantizan que los equipos creen y entreguen mensajes personalizados de forma eficaz, manteniendo la coherencia y la relevancia en cada punto de contacto.
 
 **Componentes clave**:
+
 - **Editores de contenido**: cree y dé formato a los mensajes visualmente o con código.
    - Ejemplo: Utilice el editor visual para diseñar una campaña de correo electrónico que promocione las ventas de días festivos.
 - **Administración de recursos digitales**: Organice y use imágenes y otros medios.
@@ -101,6 +104,7 @@ Las herramientas de gestión de contenido garantizan que los equipos creen y ent
 Gestión de decisiones garantiza que la personalización funcione a escala ofreciendo el máximo valor mediante la automatización inteligente.
 
 **Componentes clave**:
+
 - **Biblioteca de ofertas**: Repositorio central de ofertas de marketing.
    - Ejemplo: Ofertas de la tienda como &quot;Cupón con descuento del 20 %&quot; o &quot;Envío gratuito&quot; en una biblioteca compartida.
 - **Reglas de decisión**: lógica para seleccionar contenido óptimo.
@@ -122,6 +126,7 @@ Gestión de decisiones garantiza que la personalización funcione a escala ofrec
 La administración de recorrido garantiza que las experiencias se sientan adaptables y sin problemas, lo que guía a las personas en función de sus preferencias y acciones.
 
 **Componentes clave**:
+
 - **diseñador de Recorrido**: lienzo visual para crear rutas de acceso de cliente.
    - Ejemplo: Diseño de un recorrido que envíe un correo electrónico de bienvenida cuando un cliente se suscriba.
 - **déclencheur de Recorrido**: Eventos que inician o avanzan recorridos.
@@ -143,6 +148,7 @@ La administración de recorrido garantiza que las experiencias se sientan adapta
 Las conexiones garantizan que los datos entren en AJO de forma eficaz y lleguen a los clientes de forma fiable a través de los puntos de contacto adecuados.
 
 **Componentes clave**:
+
 - **Conectores de Source**: Importe datos en la plataforma.
    - Ejemplo: Utilice un conector para traer datos de compra de una plataforma de comercio electrónico.
 - **Configuración del canal**: configure y administre mecanismos de entrega.
@@ -162,6 +168,7 @@ Las conexiones garantizan que los datos entren en AJO de forma eficaz y lleguen 
 Las herramientas de administración y privacidad garantizan la protección de la integridad de los datos y el cumplimiento de todas las políticas legales y organizativas.
 
 **Componentes clave**:
+
 - **Administración de usuarios y acceso**: Controle el acceso y los permisos.
    - Ejemplo: Asignación de permisos específicos a equipos de marketing y TI.
 - **Configuración de espacio aislado**: Separe los entornos para desarrollo y pruebas.

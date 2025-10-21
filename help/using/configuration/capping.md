@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 6%
@@ -44,6 +44,7 @@ Además, hay disponible una colección de Postman [aquí](https://github.com/Ado
 Esta colección se ha configurado para compartir la colección Variable de Postman generada mediante __[Integraciones de la consola de Adobe I/O](https://console.adobe.io/integrations) > Probarla > Descargar para Postman__, que genera un archivo de entorno de Postman con los valores de integraciones seleccionados.
 
 Una vez descargado y cargado en Postman, debe añadir tres variables: `{JO_HOST}`,`{BASE_PATH}` y `{SANDBOX_NAME}`.
+
 * `{JO_HOST}` : URL de puerta de enlace [!DNL Journey Optimizer].
 * `{BASE_PATH}` : punto de entrada para la API.
 * `{SANDBOX_NAME}`: el encabezado **x-sandbox-name** (por ejemplo, “prod”) correspondiente al nombre de la zona protegida donde se realizarán las operaciones de API. Consulte la [información general sobre las zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es){target="_blank"} para obtener más detalles.
@@ -182,6 +183,7 @@ Llamadas de API para utilizar:
 >Se requiere una nueva implementación después de actualizar una configuración ya implementada.
 
 Llamadas de API para utilizar:
+
 1. **`list`** - Recupera configuraciones existentes.
 1. **`get`**: obtiene detalles de una configuración específica.
 1. **`update`** - Modifica la configuración.

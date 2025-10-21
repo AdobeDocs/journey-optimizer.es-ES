@@ -5,11 +5,11 @@ title: Integración con las versiones 7 y 8 de Adobe Campaign
 description: Aprenda a integrar Journey Optimizer con Adobe Campaign v7/v8
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate
 keywords: campaign, acc, integration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 12%
@@ -20,7 +20,7 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
->title="Acciones de Adobe Campaign v7/v8"
+>title="Acciones en las versiones 7 y 8 de Adobe Campaign"
 >abstract="Esta integración está disponible para Adobe Campaign v7 y v8. Permite enviar correos electrónicos, notificaciones push y SMS mediante las funcionalidades de mensajería transaccional de Adobe Campaign. Adobe configura la conexión entre las instancias de Journey Optimizer y Campaign en el momento del aprovisionamiento."
 
 Si tiene Adobe Campaign Classic v7 o Campaign v8, hay una acción personalizada específica disponible en sus recorridos para integrar Adobe Journey Optimizer y Adobe Campaign. Esta integración le permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign. Obtenga más información en este [caso de uso completo](../building-journeys/ajo-ac.md).
@@ -61,7 +61,7 @@ Cuando se solicita, Adobe configura la conexión entre los entornos de Journey O
 
 ## Requisitos previos {#prerequisites}
 
-En Adobe Campaign, debe crear y publicar un mensaje transaccional y su evento asociado. Consulte la [documentación de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+En Adobe Campaign, debe crear y publicar un mensaje transaccional y su evento asociado. Consulte la [documentación de Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 Puede crear la carga útil JSON correspondiente a cada mensaje siguiendo el patrón siguiente. Luego pegará esta carga útil al configurar la acción en Journey Optimizer (a continuación).
 

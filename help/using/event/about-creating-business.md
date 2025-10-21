@@ -5,11 +5,11 @@ title: Configuración de un evento empresarial
 description: Obtenga información sobre cómo crear un evento empresarial
 feature: Journeys, Events
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: evento, recorrido, empresa, configuración
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 12%
@@ -31,7 +31,7 @@ Los eventos empresariales pueden ser &quot;un producto vuelve a estar en stock&q
 
 >[!NOTE]
 >
->También puede ver el caso de uso de evento empresarial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=es). Tenga en cuenta que no es necesario habilitar el esquema para el perfil.
+>También puede ver el caso de uso de evento empresarial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). Tenga en cuenta que no es necesario habilitar el esquema para el perfil.
 
 ## Notas importantes {#important-notes}
 

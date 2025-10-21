@@ -3,10 +3,10 @@ title: Ayudantes
 description: Ayudantes
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 6%
@@ -134,8 +134,8 @@ Some edu specific content
 ## Cada{#each}
 
 El asistente `each` se usa para iterar en una matriz.
-La sintaxis del asistente es ```{{#each ArrayName}}``` YourContent {{/each}}
-Podemos hacer referencia a los elementos de matriz individuales usando la palabra clave **this** dentro del bloque. El índice del elemento de la matriz se puede representar con {{@index}}.
+La sintaxis del asistente es ```{{#each ArrayName}}``` YourContent `{{/each}}`
+Podemos hacer referencia a los elementos de matriz individuales usando la palabra clave **this** dentro del bloque. El índice del elemento de la matriz se puede representar con `{{@index}}`.
 
 **Sintaxis**
 

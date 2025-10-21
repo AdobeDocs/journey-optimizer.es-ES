@@ -5,11 +5,11 @@ title: Personalización del contenido en Journey Optimizer
 description: Introducción a la personalización.
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Beginner
 keywords: expresión, editor, inicio, personalización
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 25%
@@ -29,7 +29,7 @@ Las funcionalidades de personalización de [!DNL Adobe Journey Optimizer] le per
 
 Con el **editor de personalización**, puede seleccionar, organizar, personalizar y validar todos los datos para crear una personalización personalizada para el contenido y aprovechar varias herramientas, como funciones de ayuda o expresiones predefinidas, para adaptar los mensajes de forma eficaz.
 
-Journey Optimizer emplea una sintaxis de personalización en línea basada en Handlebars, que le permite crear expresiones con contenido entre llaves dobles **{{}}{{}}**.
+Journey Optimizer emplea una sintaxis de personalización en línea basada en Handlebars, que le permite crear expresiones con contenido entre llaves dobles **`{{}}`**.
 
 Al procesar el mensaje, Journey Optimizer reemplaza la expresión por los datos contenidos en el conjunto de datos de Experience Platform. Por ejemplo, `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` se convierte dinámicamente en `Hello John Doe`.
 
@@ -51,7 +51,7 @@ Este área de reproducción proporciona un entorno simulado para escribir y prob
 
 ![área de reproducción de personalización](assets/playground.png)
 
-➡️ [Acceso al área de reproducción de personalización](https://experienceleague.adobe.com/es/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [Acceso al área de reproducción de personalización](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Vamos a profundizar
 
@@ -97,12 +97,12 @@ Ahora que comprende la personalización de **[!DNL Journey Optimizer]**, es hora
 
 Aprenda a utilizar la información de evento contextual de un recorrido para personalizar un mensaje.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448133?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Obtenga información sobre cómo añadir una personalización basada en perfiles a un mensaje y cómo utilizar el abono a un público como condición previa a un bloque de personalización.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416236?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 Aprenda a aprovechar el patio del editor de personalización para escribir y probar el código de personalización con datos de ejemplo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475955?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
