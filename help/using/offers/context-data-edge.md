@@ -51,11 +51,11 @@ A diferencia de pasar el contexto en un formato bastante libre mediante la API d
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Aprenda a trabajar con esquemas en la guía de Adobe Experience Platform [Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}
+   Aprenda a trabajar con esquemas en la guía de Adobe Experience Platform [Experience Data Model (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home){target="_blank"}
 
 1. Cree un conjunto de datos (aquí &quot;Contexto de la oferta&quot;) y asegúrese de que esté habilitado para el perfil.
 
-1. Cree una nueva secuencia de datos a partir del menú **[!UICONTROL Recopilación de datos]** > **[!UICONTROL Secuencias de datos]**. Aprenda a crear y configurar flujos de datos en la [guía de flujos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"} de Adobe Experience Platform
+1. Cree una nueva secuencia de datos a partir del menú **[!UICONTROL Recopilación de datos]** > **[!UICONTROL Secuencias de datos]**. Aprenda a crear y configurar flujos de datos en la [guía de flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure){target="_blank"} de Adobe Experience Platform
 
    Aquí, hemos creado un flujo de datos de &quot;Contexto de oferta&quot;, con el esquema de evento &quot;Contenido de oferta&quot; seleccionado.
 
