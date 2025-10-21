@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '637'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ Los informes de canal sirven como una potente herramienta que proporciona una vi
 
 Los informes de canal son totalmente personalizables, por lo que puede cambiar el tamaño de los widgets o eliminarlos para crear un tablero que satisfaga sus necesidades específicas. También puede exportar los datos del informe a un archivo PDF o CSV para su posterior análisis.
 
-Obtenga más información acerca de las distintas métricas y widgets disponibles para los informes de canal en [esta página](channel-report.md).
+Obtenga más información acerca de las distintas métricas y widgets disponibles para los informes de canal de <!--[this page](channel-report.md)-->.
 
 ## Antes de empezar {#manage-reports-prereq}
 

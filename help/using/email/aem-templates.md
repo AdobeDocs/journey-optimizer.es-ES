@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 >[!AVAILABILITY]
 >
 >La integración con Adobe Experience Manager está disponible actualmente como una versión beta para usuarios seleccionados.
->&#x200B;> Como usuario beta, usa [este formulario](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} para compartir comentarios.
+>> Como usuario beta, usa [este formulario](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} para compartir comentarios.
 
 Con Adobe Journey Optimizer, puede crear mensajes personalizados a través de los sitios de Adobe Experience Manager. Comience por diseñar las plantillas utilizando las fuentes de contenido de Adobe Experience Manager y, a continuación, envíelas a Adobe Journey Optimizer. Una vez compartidas, se puede acceder a estas plantillas en el Designer de correo electrónico de Adobe Journey Optimizer, lo que simplifica el proceso de creación y envío de mensajes a la audiencia deseada.
 
@@ -57,13 +57,17 @@ Para exportar una plantilla de Adobe Experience Manager a Adobe Journey Optimize
 
 1. En la página de inicio de Adobe Experience Manager, seleccione **[!UICONTROL Marketing saliente]**.
 
-   ![](assets/aem-outbound-menu.png)
+<!--
+    ![](assets/aem-outbound-menu.png)
+-->
 
-1. Desde la biblioteca de contenido, puede utilizar plantillas configuradas anteriormente o crear una desde cero. [Más información](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=es#creating-a-new-page)
+1. Desde la biblioteca de contenido, puede utilizar plantillas configuradas anteriormente o crear una desde cero. [Más información](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. Al incorporar la sintaxis de personalización de Journey Optimizer en la plantilla, puede mejorar sus capacidades de personalización. [Más información](../personalization/personalization-syntax.md)
 
-   ![](assets/aem_ajo_4.png)
+<!--
+    ![](assets/aem_ajo_4.png)
+-->
 
 1. Seleccione la plantilla que desea exportar a Journey Optimizer y haga clic en **[!UICONTROL Enviar a]** en el menú avanzado.
 
@@ -71,7 +75,9 @@ Para exportar una plantilla de Adobe Experience Manager a Adobe Journey Optimize
 
 1. Escriba el **[!UICONTROL Nombre]** de la plantilla de contenido y seleccione el destino **[!UICONTROL espacio aislado]**.
 
+<!--
    ![](assets/aem-send-template-settings.png)
+-->
 
 1. Después de hacer clic en el botón **[!UICONTROL Enviar]**, comenzará el proceso de exportación. Una vez completada la exportación, verá el siguiente mensaje en la interfaz de usuario: &quot;Template &quot;XX&quot; sent successfully to AJO&quot;.
 
@@ -83,11 +89,15 @@ Una vez que la plantilla de Experience Manager esté disponible en Journey Optim
 
 1. En Journey Optimizer, desde el menú **[!UICONTROL Plantilla de contenido]**, acceda a su plantilla importada.
 
-   ![](assets/aem_ajo_1.png)
+<!--
+    ![](assets/aem_ajo_1.png)
+-->
 
 1. Al hacer clic en el botón **[!UICONTROL Alerta]**, puede comprobar rápidamente si falta alguna configuración importante. Esto le ayudará a asegurarse de que sus mensajes estén correctamente configurados y a evitar posibles errores o problemas.
 
-   ![](assets/aem_ajo_2.png)
+<!--
+    ![](assets/aem_ajo_2.png)
+-->
 
 1. En la ventana **[!UICONTROL Propiedades de plantilla]**, haga clic en el botón **[!UICONTROL Administrar acceso]** para asignar etiquetas de uso de datos principales o personalizadas a su plantilla. [Más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
 
@@ -101,22 +111,30 @@ Una vez que la plantilla de Experience Manager esté disponible en Journey Optim
 
 1. Una vez definido el contenido, puede utilizarlo al crear correo electrónico nuevo explorando la colección **[!UICONTROL Plantillas guardadas]**. A continuación, seleccione **[!UICONTROL Usar esta plantilla]**.
 
-   ![](assets/aem_ajo_3.png)
+<!--
+    ![](assets/aem_ajo_3.png)
+-->
 
 1. Ahora puede editar y personalizar el contenido. Para obtener más información sobre cómo generar el contenido de su correo electrónico, consulte esta [página](../email/content-from-scratch.md).
 
-   ![](assets/aem_ajo_5.png)
+<!--
+    ![](assets/aem_ajo_5.png)
+-->
 
 1. Si agregó contenido personalizado a la plantilla de Experience Manager, haga clic en **[!UICONTROL Simular contenido]** para obtener una vista previa del aspecto que tendrá el mensaje mediante perfiles de prueba.
 
 [Más información sobre la vista previa y los perfiles de prueba](../content-management/preview-test.md)
 
-   ![](assets/aem_ajo_6.png)
+<!--
+    ![](assets/aem_ajo_6.png)
+-->
 
 1. Al ver la vista previa del mensaje, los elementos personalizados se sustituyen automáticamente por los datos correspondientes del perfil de prueba seleccionado.
 
    Si es necesario, se pueden agregar perfiles de prueba adicionales mediante el botón **[!UICONTROL Administrar perfiles de prueba]**.
 
-   ![](assets/aem_ajo_7.png)
+<!--
+    ![](assets/aem_ajo_7.png)
+-->
 
 Cuando el correo electrónico esté listo, completa la configuración de tu [recorrido](../building-journeys/journey-gs.md) o [campaña](../campaigns/create-campaign.md) y actívalo para enviar el mensaje.

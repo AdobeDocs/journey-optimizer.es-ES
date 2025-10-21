@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 4bb16689d9af805a077b4c87540bd23162f84bbb
-workflow-type: ht
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+workflow-type: tm+mt
 source-wordcount: '6603'
 ht-degree: 100%
 
@@ -1393,6 +1393,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 **Editor de personalización** (fecha de disponibilidad: 12 de marzo)
 
 El editor de personalización de Journey Optimizer se ha actualizado con nuevas funciones:
+
 * **Diseño actualizado del editor de código**: una interfaz más clara y moderna para mejorar la facilidad de uso y el enfoque.
 * **Buscar y reemplazar**: funcionalidad añadida para buscar y reemplazar contenido rápidamente en el editor.
 * **Compatibilidad con Deshacer y Rehacer**: permite revertir o volver a aplicar fácilmente los cambios.

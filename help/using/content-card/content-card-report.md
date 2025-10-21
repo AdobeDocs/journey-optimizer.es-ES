@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -35,7 +35,9 @@ Se puede acceder directamente al informe de tarjetas de contenido desde su campa
 
 ## Tendencia de visualización y clics {#display-click}
 
+<!--
 ![](assets/content-card-report-1.png)
+-->
 
 Los gráficos de **[!UICONTROL tendencias de visualización y clics]** le ayudan a comprender el alcance general del mensaje y la cantidad de perfiles únicos que interactúan con él.
 
@@ -51,7 +53,9 @@ Los gráficos de **[!UICONTROL tendencias de visualización y clics]** le ayudan
 
 ## Datos de seguimiento {#tracking-data}
 
+<!--
 ![](assets/content-card-report-2.png)
+-->
 
 La tabla **[!UICONTROL Datos de seguimiento]** ofrece una instantánea detallada de la actividad del perfil vinculada a sus tarjetas de contenido, lo que proporciona información esencial sobre la participación y la eficacia de las tarjetas de contenido.
 

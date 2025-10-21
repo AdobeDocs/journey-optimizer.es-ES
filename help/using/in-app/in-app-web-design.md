@@ -8,9 +8,9 @@ level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 hide: true
 hidefromtoc: true
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '775'
 ht-degree: 7%
 
 ---
@@ -89,7 +89,8 @@ El campo **[!UICONTROL Medios]** le permite agregar contenido multimedia al mens
 
 ![](assets/in_app_web_design_3.png)
 
-Escriba su URL de medios o haga clic en el icono **[!UICONTROL Seleccionar Assets]** para agregar directamente a su mensaje en la aplicación los recursos almacenados en su biblioteca de Assets. [Más información acerca de la administración de recursos](../content-management/assets-essentials.md).
+Escriba su URL de medios o haga clic en el icono **[!UICONTROL Seleccionar Assets]** para agregar directamente a su mensaje en la aplicación los recursos almacenados en su biblioteca de Assets. <!--[Learn more about asset management](../content-management/assets-essentials.md).-->
+
 También puede agregar **[!UICONTROL texto alternativo]** para las aplicaciones de lectura de pantalla.
 
 +++Más opciones con formato avanzado

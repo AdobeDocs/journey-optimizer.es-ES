@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '477'
 ht-degree: 4%
 
 ---
@@ -22,15 +22,17 @@ ht-degree: 4%
 
 Se puede acceder directamente al informe global de Campaign desde la campaña con el botón **[!UICONTROL Ver informe]**.
 
-El **[!UICONTROL informe global]** de la campaña está dividido en diferentes widgets que detallan el éxito y los errores de la campaña. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte esta [sección](../reports/global-report.md#modify-dashboard).
+El **[!UICONTROL informe global]** de la campaña está dividido en diferentes widgets que detallan el éxito y los errores de la campaña. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte <!--[section](../reports/global-report.md#modify-dashboard)-->.
 
-Para obtener una lista detallada de todas las métricas disponibles en Adobe Journey Optimizer, consulte [esta página](global-report.md#list-of-components-global.md)
+Para obtener una lista detallada de todas las métricas disponibles en Adobe Journey Optimizer, consulte <!--[this page](global-report.md#list-of-components-global.md)-->
 
 ## Pestaña Campaña {#campaign-global-objectives}
 
 ### envío {#delivery-global-objectives}
 
+<!--
 ![](assets/campaign_report_global_1.png)
+-->
 
 El widget **[!UICONTROL Estadísticas de campaña]** detalla la información principal relativa a su campaña:
 
@@ -58,7 +60,9 @@ Con el widget **[!UICONTROL Objetivo de campaña]**, también puedes elegir comp
 
 ### Informe de experimentación {#experimentation-global-objectives}
 
+<!--
 ![](assets/experimentation_report_3.png)
+-->
 
 La ficha **[!UICONTROL Experimentación]** proporciona información clave sobre el rendimiento de cada variante e identifica la que ha tenido más éxito.
 

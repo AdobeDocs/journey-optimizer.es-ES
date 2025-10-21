@@ -6,7 +6,7 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 2%
@@ -107,19 +107,19 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 
 | Propiedad | Descripción | Ejemplo |
 | -------- | ----------- | ------- |
-| `xdm:propositionRequests` | Este objeto contiene los identificadores de ubicación y decisión. |
+| `xdm:propositionRequests` | Este objeto contiene los identificadores de ubicación y decisión. |  |
 | `xdm:propositionRequests.xdm:placementId` | El identificador de ubicación único. | `"xdm:placementId": "dps:offer-placement:ffed0456"` |
 | `xdm:propositionRequests.xdm:activityId` | El identificador único de la decisión. | `"xdm:activityId": "dps:offer-activity:ffed0123"` |
 | `xdm:itemCount` | Número de ofertas que se van a devolver. El número máximo es 30. | `"xdm:itemCount": 2` |
-| `xdm:profiles` | Este objeto contiene información sobre el perfil para el que se solicita la decisión. Para una solicitud de API, esto contiene un perfil. |
+| `xdm:profiles` | Este objeto contiene información sobre el perfil para el que se solicita la decisión. Para una solicitud de API, esto contiene un perfil. |  |
 | `xdm:profiles.xdm:identityMap` | Este objeto contiene un conjunto de identidades de usuario final basado en el código de integración de área de nombres de la identidad. El mapa de identidad puede llevar más de una identidad de cada área de nombres. Para obtener más información sobre áreas de nombres, vea [esta página](../../../audience/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | El ID generado por el cliente que se puede utilizar para identificar de forma exclusiva una solicitud de decisión de perfil. Este ID se recoge en la respuesta y no influye en el resultado de la decisión. | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
-| `xdm:allowDuplicatePropositions` | Este objeto define la estructura de control de las reglas de deduplicación. Consiste en una serie de indicadores que indican si la misma opción se puede proponer en una dimensión determinada. Un indicador que se establece en true significa que se permiten duplicados y no deben eliminarse en la categoría indicada por el indicador. Un indicador establecido en false significa que el motor de decisión no debe hacer la misma propuesta en toda la dimensión y elegir la siguiente mejor opción para una de las subdecisiones. |
+| `xdm:allowDuplicatePropositions` | Este objeto define la estructura de control de las reglas de deduplicación. Consiste en una serie de indicadores que indican si la misma opción se puede proponer en una dimensión determinada. Un indicador que se establece en true significa que se permiten duplicados y no deben eliminarse en la categoría indicada por el indicador. Un indicador establecido en false significa que el motor de decisión no debe hacer la misma propuesta en toda la dimensión y elegir la siguiente mejor opción para una de las subdecisiones. |  |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Si se establece en true, es posible que se asignen varias decisiones a la misma opción. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | Si se establece en true, es posible que se asignen varias ubicaciones a la misma opción. | `"xdm:acrossPlacements": true` |
 | `xdm:enrichedAudience` | Añada este parámetro y configúrelo como &quot;true&quot; si va a enviar un mensaje a una audiencia CSV | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | Identifica la política de combinación por la que se rigen los datos devueltos por el servicio de acceso a perfiles. Si no se especifica uno en la solicitud, Administración de decisiones no transmitirá ningún servicio de acceso a perfiles; de lo contrario, transmitirá el ID proporcionado por el llamador. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
-| `xdm:responseFormat` | Conjunto de indicadores que da formato al contenido de la respuesta. |
+| `xdm:responseFormat` | Conjunto de indicadores que da formato al contenido de la respuesta. |  |
 | `xdm:responseFormat.xdm:includeContent` | Un valor booleano que, si se establece en `true`, incluye contenido en la respuesta. | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | Un objeto que se utiliza para especificar qué metadatos adicionales se devuelven. Si no se incluye esta propiedad, se devolverán `xdm:id` y `repo:etag` de forma predeterminada. | `name` |
 | `xdm:responseFormat.xdm:activity` | Este indicador identifica la información de metadatos específica devuelta para `xdm:activity`. | `name` |
@@ -185,7 +185,7 @@ Una respuesta correcta devuelve información sobre la propuesta, incluido su `xd
 | Propiedad | Descripción | Ejemplo |
 | -------- | ----------- | ------- |
 | `xdm:propositionId` | El identificador único de la entidad de propuesta asociada con un DecisionEvent de XDM. | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
-| `xdm:propositions` | Este objeto contiene una sola propuesta de decisión. Se pueden devolver varias opciones para la decisión. Si no se encuentran opciones, se devuelve la oferta de reserva de la decisión. Las propuestas de decisión única siempre incluyen una propiedad `options` o `fallback`. Cuando está presente, la propiedad `options` no puede estar vacía. |
+| `xdm:propositions` | Este objeto contiene una sola propuesta de decisión. Se pueden devolver varias opciones para la decisión. Si no se encuentran opciones, se devuelve la oferta de reserva de la decisión. Las propuestas de decisión única siempre incluyen una propiedad `options` o `fallback`. Cuando está presente, la propiedad `options` no puede estar vacía. |  |
 | `xdm:propositions.xdm:activity` | Este objeto contiene el identificador único de una decisión. | `"xdm:id": "dps:activity:ffed0123"` |
 | `xdm:propositions.xdm:placement` | Este objeto contiene el identificador único de la ubicación de una oferta. | `"xdm:id": "dps:placement:ffed0456"` |
 | `xdm:propositions.xdm:options` | Este objeto contiene una sola opción, incluido su identificador único. Si está presente, este objeto no puede estar vacío. | `xdm:id": "dps:personalized-option:ccc0111` |
@@ -219,7 +219,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342828/?captions=spa&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Próximos pasos {#next-steps}
 
