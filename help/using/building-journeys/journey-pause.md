@@ -20,8 +20,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
->title="Pause su recorrido"
->abstract="Pause un recorrido activo para evitar que entren nuevos perfiles. Pause un recorrido activo para evitar que entren nuevos perfiles. Si se conservan, se reanudará su ejecución en la siguiente actividad de acción una vez que se reinicie el recorrido. Es perfecto para actualizaciones o paradas de emergencia sin perder progreso."
+>title="Pausar su recorrido"
+>abstract="Pausar un recorrido activo para evitar que entren nuevos perfiles. Elija si desea descartar los perfiles que están actualmente en el recorrido o mantenerlos en su lugar. Si se conservan, se reanudará su ejecución en la siguiente actividad de acción una vez que se reinicie el recorrido. Es perfecto para actualizaciones o paradas de emergencia sin perder progreso."
 
 Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puede [aplicar criterios de salida de atributo de perfil](#journey-exit-criteria) para excluir perfiles en función de sus atributos. El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
 
@@ -201,7 +201,7 @@ Cuando reanude este recorrido:
 
 ## Solución de problemas de descartes de perfiles en recorridos pausados {#discards-troubleshoot}
 
-Puede usar el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
+Puede usar el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
 
 * Para los descartes que se producen antes de que el perfil entre en la recorrido, utilice el siguiente código:
 
