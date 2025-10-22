@@ -11,10 +11,10 @@ keywords: actividad, condición, lienzo, recorrido, optimización
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 15a143956156458cf78d02a4cf92300e97cef949
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 10%
+source-wordcount: '1461'
+ht-degree: 9%
 
 ---
 
@@ -53,7 +53,7 @@ Una vez que el recorrido está activo, los perfiles se evalúan según los crite
 >id="ajo_path_experiment_success_metric"
 >title="Métrica de éxito"
 >abstract="La métrica de éxito se utiliza para rastrear y evaluar el tratamiento con mejor rendimiento de un experimento. "
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configuración y seguimiento de la métrica de recorrido"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configuración y seguimiento de la métrica de recorrido"
 
 La experimentación le permite probar diferentes rutas en función de una división aleatoria para determinar cuál tiene el mejor rendimiento según las métricas de éxito predefinidas.
 
@@ -186,9 +186,33 @@ Para configurar la segmentación en un recorrido, siga los pasos a continuación
 
 1. Haga clic en **[!UICONTROL Crear regla de segmentación]**.
 
-1. Utilice el generador de reglas para definir los criterios. Por ejemplo, defina una regla para los miembros Gold del programa Loyalty (`loyalty.status.equals("Gold", false)`) y una regla para los demás miembros (`loyalty.status.notEqualTo("Gold", false)`).
+1. Haga clic en **[!UICONTROL Crear regla]** > **[!UICONTROL Crear nuevo]** y use el generador de reglas para definir los criterios.
+
+   ![](assets/journey-targeting-create-rule.png){width=100%}
+
+   Por ejemplo, defina una regla para los miembros Gold del programa Loyalty (`loyalty.status.equals("Gold", false)`) y una regla para los demás miembros (`loyalty.status.notEqualTo("Gold", false)`).
 
    ![](assets/journey-targeting-rule.png)
+
+1. También puede hacer clic en **[!UICONTROL Crear regla]** > **[!UICONTROL Seleccionar regla]** para seleccionar una regla de segmentación existente creada desde el menú **[!UICONTROL Reglas]**. [Más información](../experience-decisioning/rules.md)
+
+   ![](assets/journey-targeting-select-rule.png){width=70%}
+
+   En este caso, la fórmula que compone la regla simplemente se copia en la actividad de recorrido. Cualquier cambio posterior a esa regla desde el menú **[!UICONTROL Reglas]** no afectará la copia del recorrido.
+
+   >[!AVAILABILITY]
+   >
+   >[La creación de reglas de segmentación](../experience-decisioning/rules.md#create) desde el menú [!DNL Journey Optimizer] dedicado está disponible actualmente para las organizaciones que han adquirido la oferta del complemento Decisioning y están disponibles bajo demanda para las demás organizaciones (disponibilidad limitada).
+   >
+   >Esta capacidad se implementará progresivamente para todos los clientes. Mientras tanto, póngase en contacto con su representante de Adobe para obtener acceso.
+
+1. Después de agregar una regla, aún puede modificarla. Elija **[!UICONTROL Editar en línea]** para actualizarla sobre la marcha usando el generador de reglas o **[!UICONTROL Seleccionar regla]** para recoger otra regla existente.
+
+   ![](assets/journey-targeting-modify-rule.png){width=100%}
+
+   >[!NOTE]
+   >
+   >La edición de una regla en línea no afecta a la regla existente desde la que se origina.
 
 1. Seleccione la opción **[!UICONTROL Habilitar ruta de acceso de reserva]** según sea necesario. Esta acción crea una ruta de reserva para la audiencia que no cumple ninguna de las reglas de segmentación definidas anteriormente.
 

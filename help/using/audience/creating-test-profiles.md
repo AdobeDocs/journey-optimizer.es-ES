@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1082'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ Existen varias formas de crear perfiles de prueba. Puede encontrar en esta pági
 
   Adobe Journey Optimizer también proporciona un [caso de uso en el producto](#use-case-1) específico para facilitar la creación del perfil de prueba.
 
-Puede cargar un archivo JSON en un conjunto de datos existente. Para obtener más información, consulte la [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=es#add-data-to-dataset){target="_blank"}.
+Puede cargar un archivo JSON en un conjunto de datos existente. Para obtener más información, consulte la [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
 
 Tenga en cuenta que la creación de un perfil de prueba es similar a la creación de perfiles normales en Adobe Experience Platform. Para obtener más información, consulte la [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
 
@@ -71,7 +71,7 @@ Una vez finalizado, haga clic en **[!UICONTROL Agregar grupos de campos]**: la l
 
 >[!NOTE]
 >
->Para obtener más información sobre la creación de esquemas, consulte la [documentación de XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=es#prerequisites){target="_blank"}.
+>Para obtener más información sobre la creación de esquemas, consulte la [documentación de XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
 
 ### Crear un conjunto de datos
 
@@ -90,7 +90,7 @@ Entonces necesita **crear el conjunto de datos** en el que se importarán los pe
 
 >[!NOTE]
 >
-> Para obtener más información sobre la creación de conjuntos de datos, consulte la [documentación del servicio de catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es#getting-started){target="_blank"}.
+> Para obtener más información sobre la creación de conjuntos de datos, consulte la [documentación del servicio de catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
 
 ## Caso de uso dentro del producto{#use-case-1}
 
@@ -120,42 +120,44 @@ Después de seleccionar el área de nombres de identidad y proporcionar el archi
 >
 >Los perfiles de prueba pueden anular los perfiles existentes. Antes de ejecutar el caso de uso, asegúrese de que el CSV solo contiene perfiles de prueba y de que se ejecuta en la zona protegida correcta.
 
-## Conversión de un perfil en un perfil de prueba{#turning-profile-into-test}
+<!-- Removed as asked in DOCAC-13605 AJO Test Profiles Using a Journey should be removed
+## Turn a profile into a test profile{#turning-profile-into-test}
 
-Puede convertir un perfil existente en un perfil de prueba: puede actualizar los atributos de perfiles del mismo modo que cuando crea un perfil.
+You can turn an existing profile into a test profile: you can update profiles attributes in the same way as when you create a profile. 
 
-Una manera sencilla de hacerlo es usar una actividad de acción **[!UICONTROL Actualizar perfil]** en un recorrido y cambiar el campo booleano **testProfile** de falso a verdadero.
+A simple way to do this is by using an **[!UICONTROL Update Profile]** action activity in a journey and change the **testProfile** boolean field from false to true.
 
-El recorrido estará compuesto por una actividad **[!UICONTROL Leer audiencia]** y **[!UICONTROL Actualizar perfil]**. Primero debe crear una audiencia dirigida a los perfiles que desea convertir en perfiles de prueba.
+Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UICONTROL Update Profile]** activity. You first need to create an audience targeting the profiles you want to turn into test profiles. 
 
 >[!NOTE]
 >
-> Como va a actualizar el campo **testProfile**, los perfiles elegidos deben incluir este campo. El esquema relacionado debe tener el grupo de campos **Detalles de prueba del perfil**. Consulte [esta sección](../audience/creating-test-profiles.md#test-profiles-prerequisites).
+> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../audience/creating-test-profiles.md#test-profiles-prerequisites).
 
-1. Vaya a **Audiencias** y luego a **Crear audiencia**, en la parte superior derecha.
-   ![](assets/test-profiles-22.png)
-1. Defina un nombre para la audiencia y genere la audiencia: elija los campos y los valores para segmentar los perfiles que desee.
-   ![](assets/test-profiles-23.png)
-1. Haga clic en **Guardar** y compruebe que la audiencia se ha dirigido correctamente a los perfiles.
-   ![](assets/test-profiles-24.png)
+1. Browse to **Audiences**, then **Create audience**, in the top right.
+    ![](assets/test-profiles-22.png) 
+1. Define a name for your audience and build the audience: choose the field(s) and value(s) to target the profiles you want.
+    ![](assets/test-profiles-23.png) 
+1. Click **Save** and check that the profiles are correctly targeted by the audience.
+    ![](assets/test-profiles-24.png) 
 
-   >[!NOTE]
-   >
-   > El cálculo de audiencias puede tardar un poco. Puede obtener más información sobre los públicos en [esta sección](../audience/about-audiences.md).
+    >[!NOTE]
+    >
+    > Audience calculation can take some time. Learn more about audiences in [this section](../audience/about-audiences.md).
 
-1. Ahora cree un nuevo recorrido y comience con una actividad de orquestación **[!UICONTROL Leer audiencia]**.
-1. Elija la audiencia creada anteriormente y el área de nombres que utilizan los perfiles.
-   ![](assets/test-profiles-25.png)
-1. Agregue una actividad de acción **[!UICONTROL Actualizar perfil]**.
-1. Seleccione el esquema, el campo **testProfiles**, el conjunto de datos y establezca el valor en **True**. Para ello, en el campo **[!UICONTROL VALUE]**, haga clic en el icono **Pluma** de la derecha, seleccione **[!UICONTROL Modo avanzado]** y escriba **true**.
-   ![](assets/test-profiles-26.png)
-1. Haga clic en **[!UICONTROL Publicar]**.
-1. En la sección **[!UICONTROL Audiencias]**, compruebe que los perfiles se hayan actualizado correctamente.
-   ![](assets/test-profiles-28.png)
+1. Now create a new journey and start with a **[!UICONTROL Read Audience]** orchestration activity.
+1. Choose the previously created audience and the namespace that your profiles use.
+    ![](assets/test-profiles-25.png)
+1. Add an **[!UICONTROL Update Profile]** action activity. 
+1. Select the schema, the **testProfiles** field, the dataset and set the value to **True**. To perform this, in the **[!UICONTROL VALUE]** field, click the **Pen** icon on the right, select **[!UICONTROL Advanced mode]** and enter **true**.
+    ![](assets/test-profiles-26.png)
+1. Click **[!UICONTROL Publish]**.
+1. In the **[!UICONTROL Audiences]** section, check that the profiles have been correctly updated.
+    ![](assets/test-profiles-28.png)
 
-   >[!NOTE]
-   >
-   > Para obtener más información sobre la actividad **[!UICONTROL Actualizar perfil]**, consulte [esta sección](../building-journeys/update-profiles.md).
+    >[!NOTE]
+    >
+    > For more information on the **[!UICONTROL Update Profile]** activity, refer to [this section](../building-journeys/update-profiles.md).
+-->
 
 ## Creación de un perfil de prueba con un archivo csv{#create-test-profiles-csv}
 
@@ -187,7 +189,7 @@ Los perfiles de prueba se han añadido y ahora se pueden utilizar para probar un
 
 >[!NOTE]
 >
->Para obtener más información sobre las importaciones de csv, consulte la [documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=es#tutorials){target="_blank"}.
+>Para obtener más información sobre las importaciones de csv, consulte la [documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
 >
 
 
@@ -248,4 +250,4 @@ curl -X POST \
 
 Obtenga información sobre cómo crear perfiles de prueba.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416330?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

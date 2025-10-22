@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Optimización de mensajes
+title: Optimización en campañas y recorridos
 description: Aproveche la optimización de mensajes para crear campañas y recorridos de marketing personalizados y optimizados.
 role: User
 level: Intermediate
 keywords: optimización de campañas, experimentación, segmentación, pruebas A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 11%
+source-wordcount: '1253'
+ht-degree: 8%
 
 ---
 
@@ -68,11 +68,35 @@ Para configurar la segmentación, siga los pasos a continuación.
 
    ![](assets/msg-optimization-select-targeting.png){width=85%}
 
-1. Utilice el generador de reglas para definir los criterios. Por ejemplo, defina una regla para residentes de EE. UU., una regla para residentes de Francia y una regla para residentes de India.
+1. Haga clic en **[!UICONTROL Crear regla]** > **[!UICONTROL Crear nuevo]** y use el generador de reglas para definir los criterios en sus desplazamientos.
+
+   ![](assets/msg-optimization-create-rule.png){width=100%}
+
+   Por ejemplo, defina una regla para residentes de EE. UU., una regla para residentes de Francia y una regla para residentes de India.
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. Seleccione la opción **[!UICONTROL Habilitar contenido de reserva]** según sea necesario. El contenido de reserva permite que su público reciba un contenido predeterminado cuando no se cumple ninguna regla de segmentación.
+1. También puede hacer clic en **[!UICONTROL Crear regla]** > **[!UICONTROL Seleccionar regla]** para seleccionar una regla de segmentación existente creada desde el menú **[!UICONTROL Reglas]**. [Más información](../experience-decisioning/rules.md)
+
+   ![](assets/msg-optimization-select-rule.png){width=70%}
+
+   En este caso, la fórmula que compone la regla simplemente se copia en el recorrido o la campaña. Cualquier cambio posterior a esa regla desde el menú **[!UICONTROL Reglas]** no afectará el recorrido ni la copia de la campaña.
+
+   >[!AVAILABILITY]
+   >
+   >[La creación de reglas de segmentación](../experience-decisioning/rules.md#create) desde el menú [!DNL Journey Optimizer] dedicado está disponible actualmente para las organizaciones que han adquirido la oferta del complemento Decisioning y están disponibles bajo demanda para las demás organizaciones (disponibilidad limitada).
+   >
+   >Esta capacidad se implementará progresivamente para todos los clientes. Mientras tanto, póngase en contacto con su representante de Adobe para obtener acceso.
+
+1. Después de agregar una regla, aún puede modificarla. Elija **[!UICONTROL Editar en línea]** para actualizarla sobre la marcha usando el generador de reglas o **[!UICONTROL Seleccionar regla]** para recoger otra regla existente.
+
+   ![](assets/msg-optimization-modify-rule.png){width=100%}
+
+   >[!NOTE]
+   >
+   >La edición de una regla en línea no afecta a la regla existente desde la que se origina.
+
+1. Seleccione la opción **[!UICONTROL Habilitar contenido de reserva]** según sea necesario. El contenido de reserva permite que su audiencia reciba un contenido predeterminado cuando no se cumplen las reglas de segmentación.
 
    >[!NOTE]
    >
@@ -186,4 +210,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Aprenda a aprovechar la optimización de mensajes en campañas activadas por acciones o API. Descubra cómo dirigirse a subpúblicos, crear variaciones de mensajes por ubicación, habilitar contenido de reserva y ejecutar varios experimentos dentro de una sola campaña. Este tutorial también explica cómo administrar campañas multicanal y, al mismo tiempo, mantener la coherencia del mensaje.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470371?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

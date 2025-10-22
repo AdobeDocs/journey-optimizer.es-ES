@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 27%
+source-wordcount: '1062'
+ht-degree: 25%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Conjuntos de reglas"
->abstract="Utilice conjuntos de reglas para aplicar límites de frecuencia a diferentes tipos de comunicaciones de marketing. También puede aplicar un conjunto de reglas para excluir este recorrido para parte del público, en función de las reglas de restricción de frecuencia."
+>abstract="Utilice conjuntos de reglas para aplicar reglas de límite de frecuencia o de horas de inactividad a diferentes tipos de comunicaciones de marketing. También puede aplicar un conjunto de reglas para excluir este recorrido para parte del público, en función de las reglas de restricción de frecuencia."
 
 ## Introducción a los conjuntos de reglas {#gs}
 
@@ -31,7 +31,11 @@ Los conjuntos de reglas permiten **agrupar varias reglas en conjuntos de reglas*
 
 Puede crear dos tipos de conjuntos de reglas:
 
-* Los conjuntos de reglas del **canal** aplican reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día.
+* Los conjuntos de reglas del **canal** aplican reglas a los canales de comunicación. Permiten establecer lo siguiente:
+
+   * **Reglas de límite de frecuencia** - *No envíe más de 1 comunicación por correo electrónico o SMS al día.*
+   * **Reglas de horario silencioso** (disponibilidad limitada) - *No envíe mensajes de correo electrónico fuera del horario de 8 a. m. a 9 p. m.*
+
 * Los conjuntos de reglas **Recorrido** aplican reglas de límite de entrada y concurrencia a un recorrido. Por ejemplo, no introduzca perfiles en más de un recorrido simultáneamente.
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
@@ -76,7 +80,7 @@ Además de este conjunto de reglas &quot;Conjunto de reglas predeterminado globa
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Tipo de regla"
->abstract="Seleccione el tipo de regla deseado para el conjunto de reglas de canal: use el tipo **Límite de frecuencia** para aplicar reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día. Seleccione **Horas tranquilas** (disponibles en disponibilidad limitada) para definir las exclusiones basadas en el tiempo a fin de garantizar que no se envíen mensajes durante períodos de tiempo específicos&quot;."
+>abstract="Seleccione el tipo de regla deseado para el conjunto de reglas de canal: use el tipo **Límite de frecuencia** para aplicar reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día. Seleccione **Horas tranquilas** (disponibles en disponibilidad limitada) para definir las exclusiones basadas en el tiempo a fin de garantizar que no se envíen mensajes durante períodos de tiempo específicos&quot;.
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -107,7 +111,7 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 
 1. Seleccione el dominio del conjunto de reglas y haga clic en **[!UICONTROL Guardar]**.
 
-   * Dominio **Channel**: aplique reglas de límite para los canales de comunicación.
+   * Dominio de **Channel**: aplique reglas de límite o reglas de horas de inactividad a los canales de comunicación.
    * Dominio **Recorrido**: aplique reglas de límite de entrada y concurrencia a un recorrido.
 
    ![](assets/rule-sets-create.png)
@@ -116,10 +120,11 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 
 1. Configure los parámetros de la regla para adaptarlos a sus necesidades. Los parámetros disponibles para la regla dependen del dominio del conjunto de reglas seleccionado en su creación.
 
-   Encontrará información detallada sobre cómo configurar las reglas de restricción de recorrido y canal en estas secciones:
+   Encontrará información detallada sobre cómo configurar las reglas de recorrido y canal en estas secciones:
 
    * [Límite de Recorrido](../conflict-prioritization/journey-capping.md)
    * [Restricción de frecuencia por canal y tipo de comunicación](../conflict-prioritization/channel-capping.md)
+   * [Horas tranquilas](../conflict-prioritization/quiet-hours.md) (disponibles con disponibilidad limitada)
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar la creación de la regla. Su mensaje se agrega al conjunto de reglas, con el estado **[!UICONTROL Borrador]**.
 
@@ -146,7 +151,8 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
    Encontrará información detallada sobre cómo aplicar un conjunto de reglas en estas secciones:
 
    * [Aplicación de un conjunto de reglas a un recorrido](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [Aplicación de reglas de límite a un mensaje](../conflict-prioritization/channel-capping.md#apply)
+   * [Aplicación de reglas de límite a las acciones de recorrido y campaña](../conflict-prioritization/channel-capping.md#apply)
+   * [Aplicación de reglas de horas tranquilas al recorrido y la campaña](../conflict-prioritization/quiet-hours.md#apply)
 
 ## Acceso y administración de conjuntos de reglas {#access-rule-sets}
 
@@ -174,4 +180,4 @@ Su estado cambiará a **[!UICONTROL Inactivo]** y la regla no se aplicará a fut
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444729?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

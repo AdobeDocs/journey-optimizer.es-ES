@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 15%
+source-wordcount: '902'
+ht-degree: 14%
 
 ---
 
@@ -149,15 +149,21 @@ Ahora que tu webhook está configurado, puedes crear tu configuración de WhatsA
 
 1. Seleccione **[!DNL WhatsApp]** como su canal.
 
-   ![](assets/whatsapp-config-2.png)
+   ![](assets/whatsapp-config-2.png){width=80%}
 
-1. Seleccione **[!UICONTROL Acciones de marketing]** para asociar directivas de consentimiento a los mensajes que usan esta configuración. Todas las políticas de consentimiento asociadas con la acción de marketing se aprovechan para respetar las preferencias de los clientes. Más información
+1. Seleccione **[!UICONTROL Acciones de marketing]** para asociar directivas de consentimiento a los mensajes que usan esta configuración. Todas las políticas de consentimiento asociadas con la acción de marketing se aprovechan para respetar las preferencias de los clientes. [Más información](../action/consent.md#surface-marketing-actions)
 
-1. Seleccione la **[!UICONTROL configuración de la API de WhatsApp]** creada anteriormente.
+1. En la sección **[!UICONTROL Configuración de WhatsApp]**, selecciona la **[!UICONTROL configuración de WhatsApp]** creada anteriormente.
 
-   ![](assets/whatsapp-config-3.png)
+   ![](assets/whatsapp-config-3.png){width=80%}
 
-1. Escriba el **[!UICONTROL nombre del remitente]** &#x200B;que desee usar para sus comunicaciones.
+1. Escriba el **[!UICONTROL número de teléfono del remitente]** &#x200B;que desea usar para sus comunicaciones.
+
+1. Use el **[!UICONTROL Campo de ejecución de WhatsApp]** para seleccionar entre los atributos de perfil el número de teléfono que desea usar como prioridad si hay varios números disponibles en la base de datos. [Más información](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+
+   >[!NOTE]
+   >
+   >De manera predeterminada, [!DNL Journey Optimizer] usa el número de teléfono especificado en [configuración general](../configuration/primary-email-addresses.md) en el nivel de espacio aislado. Al actualizar este campo, se anula el valor predeterminado de los recorridos y campañas que utilizan esta configuración.
 
 1. Una vez configurados todos los parámetros, haga clic en **[!UICONTROL Enviar]** para confirmar. También puede guardar la configuración de canal como borrador y reanudarla más adelante.
 
@@ -180,6 +186,6 @@ El siguiente vídeo muestra cómo configurar el canal de WhatsApp en Adobe Journ
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470271/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

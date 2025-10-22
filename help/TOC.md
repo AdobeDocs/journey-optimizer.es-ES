@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '3003'
 ht-degree: 98%
 
 ---
@@ -284,8 +284,9 @@ ht-degree: 98%
    + Establecimiento de reglas de límite de mensajes y recorridos {#capping-rules}
       + [Establecimiento de reglas de límite de mensajes y recorridos](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [Trabajar con conjuntos de reglas](using/conflict-prioritization/rule-sets.md)
-      + [Límite y arbitraje de recorrido](using/conflict-prioritization/journey-capping.md)
-      + [Restricción de frecuencia por canal y tipo de comunicación](using/conflict-prioritization/channel-capping.md)
+      + [Administrar la restricción y mediación de recorridos](using/conflict-prioritization/journey-capping.md)
+      + [Definir límite de frecuencia por canal y tipo](using/conflict-prioritization/channel-capping.md)
+      + [Establecer horas de silencio](using/conflict-prioritization/quiet-hours.md)
 + Prueba y aprobación {#test}
    + [Prueba y aprobación](/help/rp_landing_pages/test-landing-page.md)
    + Vista previa y prueba del contenido {#preview-test}
@@ -885,7 +886,7 @@ ht-degree: 98%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}

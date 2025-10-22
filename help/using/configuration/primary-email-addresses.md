@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principal, ejecución, correo electrónico, destinatario, perfil, optimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 23%
+source-wordcount: '641'
+ht-degree: 20%
 
 ---
 
@@ -34,17 +34,15 @@ En ese caso, [!DNL Journey Optimizer] usa **[!UICONTROL Campos de ejecución]** 
 
 Para comprobar los campos que se utilizan actualmente de forma predeterminada, acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Campos de ejecución]**.
 
-![](assets/primary-address-execution-fields.png)
+![](assets/primary-address-execution-fields.png){width=90%}
 
 >[!NOTE]
 >
->Los campos de ejecución están disponibles para los canales Correo electrónico y SMS.
+>Los campos de ejecución están disponibles para los canales Correo electrónico, SMS y WhatsApp.
 
 Los valores actuales se utilizan para todas las entregas a nivel de zona protegida. Puede actualizar estos campos si es necesario.
 
-En la mayoría de los casos, se cambia un campo de ejecución globalmente y se define un valor que debe utilizarse para todos los mensajes de correo electrónico o SMS. <!--[Learn how](#admin-settings)-->
-
-<!--In some specific use cases only, you can override the value set globally and define a different value at the journey level. [Learn more](#journey-parameters)-->
+En la mayoría de los casos, se cambia un campo de ejecución globalmente y se define un valor que debe utilizarse para todos los mensajes de correo electrónico, SMS o WhatsApp.
 
 ## Actualizar la configuración de administración {#admin-settings}
 
@@ -54,15 +52,15 @@ Para cambiar los campos de ejecución globalmente en el nivel de entorno limitad
 
 1. Haga clic en **[!UICONTROL Editar]** para cambiar los valores predeterminados.
 
-   ![](assets/primary-address.png)
+   ![](assets/primary-address-edit.png){width=70%}
 
 1. Haga clic en el campo actual de su elección o en el icono de edición para seleccionar un nuevo campo.
 
-   ![](assets/primary-address-edit.png)
+   ![](assets/primary-address-edit-field.png){width=70%}
 
 1. Se muestra la lista de campos XDM de tipo correo electrónico disponibles. Seleccione el campo que desea utilizar.
 
-   ![](assets/primary-address-select-field.png)
+   ![](assets/primary-address-select-field.png){width=90%}
 
 1. Haz clic en **[!UICONTROL Guardar]** para confirmar tu elección.
 
@@ -82,18 +80,18 @@ Para casos de uso específicos, puede anular el campo de ejecución establecido 
 
 Anular este valor puede resultar útil, por ejemplo, para lo siguiente:
 
-* Probar un correo electrónico. Puede añadir su propia dirección de correo electrónico: después de publicar el recorrido, se le envía el correo electrónico.
-* Envíe un correo electrónico a los suscriptores de una lista. Obtenga más información en [este caso de uso](../building-journeys/message-to-subscribers-uc.md).
+* Pruebe su envío. Puede añadir su propia dirección de correo electrónico o número de teléfono: después de publicar el recorrido, se le envía el mensaje de correo electrónico, SMS o WhatsApp.
+* Envíe un mensaje a los suscriptores de una lista. Obtenga más información en [este caso de uso](../building-journeys/message-to-subscribers-uc.md).
 
-Al agregar una acción **[!UICONTROL Correo electrónico]** o **[!UICONTROL SMS]** a un [recorrido](../email/create-email.md#create-email-journey-campaign), la dirección de correo electrónico principal se muestra bajo los parámetros avanzados de recorrido.
+Al agregar una acción **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]** o **[!UICONTROL WhatsApp]** a un [recorrido](../email/create-email.md#create-email-journey-campaign), la dirección de correo electrónico principal o el número de teléfono se muestran bajo los parámetros avanzados del recorrido.
 
 Anule este valor con el icono **[!UICONTROL Habilitar anulación de parámetros]** a la derecha del campo.
 
-![](assets/journey-enable-parameter-override.png)
+![](assets/journey-enable-parameter-override.png){width=85%}
 
 >[!CAUTION]
 >
->La anulación de direcciones de correo electrónico solo debe utilizarse para casos de uso específicos. La mayoría de las veces, no es necesario cambiar la dirección de correo electrónico porque el valor definido como la dirección principal en **[!UICONTROL Campos de ejecución]** es el que debería usarse.
+>La anulación de direcciones de correo electrónico o números de teléfono solo debe utilizarse para casos de uso específicos. La mayoría de las veces, no es necesario cambiarlo, ya que el valor definido como la dirección principal en **[!UICONTROL Campos de ejecución]** a nivel de zona protegida es el que debería usarse.
 
 ## Anular el campo de ejecución predeterminado en la configuración del canal {#override-execution-address-channel-config}
 
@@ -102,9 +100,13 @@ Anule este valor con el icono **[!UICONTROL Habilitar anulación de parámetros]
 >title="Sobrescribir la dirección de ejecución predeterminada a utilizar"
 >abstract="Cuando en la base de datos hay disponibles varias direcciones de correo electrónico o números de teléfono (personales, profesionales, etc.), puede elegir cuál priorizar para el envío. La dirección principal se define en el nivel de entorno limitado, pero aquí puede anular la configuración predeterminada de esta configuración de canal específica."
 
-Puede cambiar la dirección de ejecución predeterminada de un correo electrónico o SMS específico [configuración de canal](channel-surfaces.md).
+Puede cambiar la dirección de ejecución predeterminada de un correo electrónico, SMS o WhatsApp [configuración de canal](channel-surfaces.md) específico.
 
-Para ello, vaya a la sección **[!UICONTROL Execution dimension]** y edite el campo en **[!UICONTROL Execution Address]**.
+Para ello, vaya a la sección **[!UICONTROL Execution dimension]** y edite el campo dedicado en **[!UICONTROL Execution Address]**.
+
+>[!NOTE]
+>
+>Para el [canal WhatsApp](../whatsapp/whatsapp-configuration.md#whatsapp-configuration), el **[!UICONTROL Campo de ejecución de WhatsApp]** está en la sección **[!UICONTROL Configuración de WhatsApp]**.
 
 ![](assets/sms-config-execution-address.png){width=85%}
 
