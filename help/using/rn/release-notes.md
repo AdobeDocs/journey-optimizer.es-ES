@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: d6905059dbf1504407c49f76415e4c6eb819bed7
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 49%
@@ -268,7 +268,7 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator ahora incluye Experimentation Agent, una herramienta conversacional con tecnología de IA que le permite interactuar con sus experimentos, perspectivas y oportunidades. Mejora la experiencia de Journey Optimizer Experimentation Accelerator, lo que le ayuda a ejecutar experimentos de forma más eficiente, descubrir qué funciona y descubrir dónde optimizar a continuación.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=es" target="_blank">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: sábado, 10 de octubre de 2025</p>
 </td>
 </tr>
@@ -348,7 +348,7 @@ Fecha de disponibilidad: 6 de octubre de 2025
 
 En los próximos días, está programado el lanzamiento de las siguientes funciones y mejoras. **La información está sujeta a cambios**. Los vínculos, las pantallas y la documentación actualizados se compartirán una vez que estas actualizaciones estén activas en la producción.
 
-### Nuevas funciones {#oct-25-10-soon-features}
+#### Nuevas funciones {#oct-25-10-soon-features}
 
 <table>
 <thead>
@@ -369,7 +369,7 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 </tbody>
 </table>
 
-### Mejoras {#oct-25-10-soon-improvements}
+#### Mejoras {#oct-25-10-soon-improvements}
 
 **Toma de decisiones en correos electrónicos mediante modelos de IA**
 
