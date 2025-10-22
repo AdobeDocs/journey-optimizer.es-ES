@@ -9,10 +9,10 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: correo electrónico, configuración, superficie, subdominios
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '208'
+ht-degree: 62%
 
 ---
 
@@ -20,20 +20,20 @@ ht-degree: 100%
 
 Para poder enviar correos electrónicos a través de recorridos y campañas en [!DNL Journey Optimizer], debe seguir varios pasos de configuración.
 
-1. Para garantizar una entrega óptima y proteger su reputación, empiece delegando en Adobe los subdominios que va a utilizar para enviar sus correos electrónicos con [!DNL Journey Optimizer]. Estos subdominios determinarán elementos como las páginas web de las que se realizará un seguimiento y las direcciones URL de las páginas espejo. [Más información](../configuration/about-subdomain-delegation.md)
+1. Para garantizar una entrega óptima y proteger su reputación, comience por **delegar a Adobe los subdominios** que va a utilizar para enviar sus correos electrónicos con [!DNL Journey Optimizer]. Estos subdominios determinarán elementos como las páginas web de las que se realizará un seguimiento y las direcciones URL de las páginas espejo. [Más información](../configuration/about-subdomain-delegation.md)
 
    ![](../configuration/assets/subdomain-list.png)
 
-1. Mejore su entregabilidad de correo electrónico y su reputación agrupando direcciones IP aprovisionadas con su instancia. [Más información](../configuration/ip-pools.md)
+1. Cree grupos de IP para **agrupar direcciones IP** aprovisionadas con su instancia. [Más información](../configuration/ip-pools.md)
 
    ![](../configuration/assets/ip-pool-create.png)
 
-1. Cree superficies de canal y seleccione el canal **[!UICONTROL Correo electrónico]**. [Más información](../configuration/channel-surfaces.md)
+1. Cree **configuraciones de canal** y seleccione el canal **[!UICONTROL Correo electrónico]**. [Más información](../configuration/channel-surfaces.md)
 
 
    ![](../configuration/assets/preset-general.png)
 
-1. En cada configuración de canal de correo electrónico, configure todos los parámetros técnicos necesarios para enviar correos electrónicos. [Más información](email-settings.md)
+1. En cada configuración de canal de correo electrónico, configure todos los **parámetros técnicos** necesarios para enviar correos electrónicos. [Más información](email-settings.md)
 
    * Aquí es donde se selecciona el subdominio que se utilizará para enviar los correos electrónicos y los grupos de IP que se asociarán con la configuración. [Más información](email-settings.md#subdomains-and-ip-pools)
 
@@ -43,10 +43,10 @@ Para poder enviar correos electrónicos a través de recorridos y campañas en [
 
    ![](assets/preset-header.png)
 
-1. Determine qué dirección de correo electrónico utilizará con prioridad para los destinatarios cuando haya varias direcciones disponibles en Adobe Experience Platform. [Más información](../configuration/primary-email-addresses.md)
+1. Determine qué **campos de ejecución** se usarán como prioridad para los destinatarios cuando haya varias direcciones disponibles en Adobe Experience Platform. [Más información](../configuration/primary-email-addresses.md)
 
    ![](../configuration/assets/primary-address-execution-fields.png)
 
-1. Administre el número de días durante los cuales se realizan reintentos antes de enviar direcciones de correo electrónico a la lista de supresión. [Más información](../configuration/manage-suppression-list.md)
+1. Administre el número de días durante los cuales se realizan **reintentos** antes de enviar direcciones de correo electrónico a la lista de supresión. [Más información](../configuration/manage-suppression-list.md)
 
    ![](../configuration/assets/suppression-list-edit-retries.png)

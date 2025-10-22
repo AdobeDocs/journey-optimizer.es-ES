@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 97%
+source-wordcount: '1419'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,8 @@ Para empezar a crear un correo electrónico, debe establecer las configuraciones
 >[!NOTE]
 >
 >Para preservar su reputación y mejorar su entregabilidad, configure los subdominios que utilizará para enviar correos electrónicos antes de crear una configuración de correo electrónico. [Más información](../configuration/about-subdomain-delegation.md)
+>
+>Antes de crear una configuración de canal de correo electrónico, primero debe haber creado al menos un grupo de IP. [Más información](../configuration/ip-pools.md)
 
 Defina la configuración de correo electrónico en la sección dedicada de la configuración de canal, tal como se detalla a continuación.
 
