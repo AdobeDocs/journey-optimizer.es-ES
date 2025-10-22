@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2860'
+ht-degree: 98%
 
 ---
 
@@ -106,11 +106,13 @@ Las siguientes limitaciones se aplican a los [fragmentos](../content-management/
 * Los fragmentos visuales no son compatibles entre los modos Usar temas y Estilo manual. Para poder utilizar un fragmento en un contenido en el que desee aplicar una temática, este fragmento debe crearse en el modo Usar temas. [Más información sobre los temas](../email/apply-email-themes.md)
 * Cuando el seguimiento está habilitado en un recorrido o una campaña, si agrega vínculos a un fragmento y este se utiliza en un mensaje, se realiza el seguimiento de estos vínculos, al igual que todos los demás incluidos en el mensaje. [Más información sobre vínculos y seguimiento](../email/message-tracking.md)
 
-## Protecciones de públicos {#audience}
+## Protecciones de audiencia y perfil {#audience}
 
-Puede publicar hasta 10 composiciones de público en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
+* Puede publicar hasta 10 composiciones de público en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
 
-Más información sobre la composición de públicos en [esta página](../audience/get-started-audience-orchestration.md).
+  Más información sobre la composición de públicos en [esta página](../audience/get-started-audience-orchestration.md).
+
+* Al introducir datos, los correos electrónicos distinguen entre mayúsculas y minúsculas. Significa que se pueden crear perfiles duplicados (por ejemplo, un perfil para John.Greene@luma.com y otro perfil para john.green@luma.com) y utilizarlos al segmentar estos perfiles en sus [!DNL Journey Optimizer] recorridos y campañas.
 
 ## Mecanismos de protección de gestión de decisiones y toma de decisiones {#decisioning-guardrails}
 
