@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d983d10124be2bad645ad3d8f14c38c26a453d5a
+source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
 workflow-type: tm+mt
-source-wordcount: '2860'
+source-wordcount: '2861'
 ht-degree: 98%
 
 ---
@@ -112,7 +112,7 @@ Las siguientes limitaciones se aplican a los [fragmentos](../content-management/
 
   Más información sobre la composición de públicos en [esta página](../audience/get-started-audience-orchestration.md).
 
-* Al introducir datos, los correos electrónicos distinguen entre mayúsculas y minúsculas. Significa que se pueden crear perfiles duplicados (por ejemplo, un perfil para John.Greene@luma.com y otro perfil para john.greene@luma.com) y utilizarlos al segmentar estos perfiles en sus [!DNL Journey Optimizer] recorridos y campañas.
+* Al introducir datos, los correos electrónicos distinguen entre mayúsculas y minúsculas. Significa que se pueden crear perfiles duplicados (por ejemplo, un perfil para John.Greene@luma.com y otro perfil para john.greene@luma.com) y utilizarse al segmentar el destinatario correspondiente en sus [!DNL Journey Optimizer] recorridos y campañas.
 
 ## Mecanismos de protección de gestión de decisiones y toma de decisiones {#decisioning-guardrails}
 
