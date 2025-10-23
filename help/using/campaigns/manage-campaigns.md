@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1709'
 ht-degree: 14%
 
 ---
@@ -78,7 +78,7 @@ Para las campañas activadas por acciones y API, están disponibles las siguient
 
 ## Ciclo de vida de Campaign {#statuses}
 
-En Adobe Journey Optimizer, cada campaña se desplaza por un ciclo de vida que se refleja en su estado en la interfaz. Los estados disponibles varían según el tipo de campaña: Acción, Activado por API u Organizado. Utilice las pestañas siguientes para explorar el ciclo de vida y los estados específicos de cada tipo de campaña.
+En Adobe Journey Optimizer, cada campaña se desplaza por un ciclo de vida que se refleja en su estado en la interfaz. Los estados disponibles varían según el tipo de campaña: acción, API activada u orquestada. Utilice las pestañas siguientes para explorar el ciclo de vida y los estados específicos de cada tipo de campaña.
 
 >[!BEGINTABS]
 

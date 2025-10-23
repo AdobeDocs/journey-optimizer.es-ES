@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 55%
+source-wordcount: '438'
+ht-degree: 52%
 
 ---
 
@@ -28,7 +28,7 @@ Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de
 
    >[!NOTE]
    >
-   >Los canales admitidos son: [Correo electrónico](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notificaciones push](../push/get-started-push.md).
+   >Los canales admitidos son: [correo electrónico](../email/get-started-email.md), [SMS](../sms/get-started-sms.md), [notificaciones push](../push/get-started-push.md). Actualmente, las campañas activadas por la API de alto rendimiento solo admiten el canal de correo electrónico.
    >
    >Los canales disponibles varían en función del modelo de licencia y los complementos.
 
@@ -36,7 +36,7 @@ Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de
 
    La configuración la define el [administrador del sistema](../start/path/administrator.md). Contiene todos los parámetros técnicos para enviar el mensaje, como parámetros de encabezado, subdominio, aplicaciones móviles, etc. [Aprenda a configurar las configuraciones de canal](../configuration/channel-surfaces.md)
 
-   ![](assets/create-campaign-action.png)
+   ![](assets/api-triggered-create-campaign-action.png)
 
 1. **Aprovechar optimización**
 

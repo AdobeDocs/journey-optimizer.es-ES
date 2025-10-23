@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 24%
+source-wordcount: '297'
+ht-degree: 20%
 
 ---
 
@@ -27,6 +27,18 @@ Para crear una nueva campaña activada por API, siga estos pasos:
    * **[!UICONTROL Activado por API - Marketing]** - Seleccione este tipo de campaña activada por API para enviar comunicaciones de marketing personalizadas a audiencias de destino.
 
    * **[!UICONTROL Activado por API - Transaccional]** - Las campañas transaccionales están destinadas a enviar mensajes transaccionales, es decir, mensajes enviados después de una acción realizada por un individuo: solicitud de restablecimiento de contraseña, compra en el carro de compras, etc.
+
+     +++Modo de alto rendimiento
+
+     Para las campañas transaccionales activadas por API, puede habilitar el modo **[!UICONTROL Alto rendimiento]**. Este modo está diseñado para mensajes a gran escala en tiempo real (hasta 5000 transacciones por segundo) y proporciona una mayor disponibilidad con una latencia más baja. [Aprenda a trabajar con el modo de alto rendimiento](../campaigns/api-triggered-high-throughput.md)
+
+     >[!AVAILABILITY]
+     >
+     >Actualmente, el modo de alto rendimiento solo está disponible para el canal de correo electrónico y en la región de EE. UU.
+     >
+     >Esta funcionalidad solo está disponible para las organizaciones que hayan adquirido la oferta del complemento **Mensajería transaccional de alto rendimiento** de Adobe. Póngase en contacto con su representante de Adobe para obtener más información.
+
+     +++
 
    ![](assets/api-triggered-modal.png)
 

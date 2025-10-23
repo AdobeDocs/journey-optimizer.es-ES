@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d6905059dbf1504407c49f76415e4c6eb819bed7
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 49%
+source-wordcount: '1122'
+ht-degree: 45%
 
 ---
 
@@ -182,23 +182,23 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 </tbody>
 </table-->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>High throughput messaging for API triggered email campaigns</strong><br/></th>
+<th><strong>Mensajería de alto rendimiento para campañas de correo electrónico activadas por API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A new high throughput transactional messaging mode is available in API triggered campaigns. This mode is designed for large-scale, real-time transactional messaging and supports up to 5,000 transactions per second with higher availability. This mode also supports transactional messages without referencing or creating customer profiles, such as guest checkout, order confirmation, password resets, security notifications, and one-time passwords for two-factor authentication.</p>
-<p>This capability is only available for the email channel, for organizations that have purchased the Adobe High Throughput Transactional Messaging add-on offering. Contact your Adobe representative for more details.</p>
-<p>For more information, refer to the <a href="../campaigns/api-triggered-campaign-action.md">detailed documentation</a>.</p>
-<p>Availability date: October 22, 2025</p>
+<p>Hay disponible un nuevo modo de mensajería transaccional de alto rendimiento en campañas activadas por API. Este modo está diseñado para mensajes transaccionales a gran escala y en tiempo real y admite hasta 5000 transacciones por segundo con una mayor disponibilidad. Este modo también admite mensajes transaccionales sin hacer referencia ni crear perfiles de clientes, como cierre de compra de invitado, confirmación de pedido, restablecimientos de contraseña, notificaciones de seguridad y otras notificaciones de servicio/operacionales.</p>
+<p>Esta funcionalidad solo está disponible para el canal de correo electrónico, para organizaciones que han adquirido la oferta del complemento Mensajería transaccional de alto rendimiento de Adobe. Póngase en contacto con su representante de Adobe para obtener más información.</p>
+<p>Para obtener más información, consulte la <a href="../campaigns/api-triggered-high-throughput.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: jueves, 22 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 <table>
 <thead>
@@ -268,7 +268,7 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator ahora incluye Experimentation Agent, una herramienta conversacional con tecnología de IA que le permite interactuar con sus experimentos, perspectivas y oportunidades. Mejora la experiencia de Journey Optimizer Experimentation Accelerator, lo que le ayuda a ejecutar experimentos de forma más eficiente, descubrir qué funciona y descubrir dónde optimizar a continuación.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=es" target="_blank">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: sábado, 10 de octubre de 2025</p>
 </td>
 </tr>

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: campaña, revisión, validación, activación, activación, optimizador
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 1d3638499a9e8261a5f1b09744b82642198a5d5d
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '218'
 ht-degree: 3%
 
 ---
@@ -33,6 +33,10 @@ Una vez activada la campaña, debe recuperar la solicitud cURL de muestra genera
 
    ![](assets/api-triggered-curl.png)
 
-1. Utilice esta solicitud de cURL en las API para crear la carga útil y almacenar en déclencheur la campaña. Para obtener más información, consulte la [documentación interactiva de la API de ejecución de mensajes](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+   >[!IMPORTANT]
+   >
+   >Los extremos de la sección cURL difieren entre las campañas estándar y [de alto rendimiento](../campaigns/api-triggered-high-throughput.md).
+
+1. Utilice esta solicitud de cURL en las API para crear la carga útil y almacenar en déclencheur la campaña. Para obtener más información, consulte la [documentación de la API de ejecución de mensajes interactiva](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution), donde se enumeran todos los extremos de las campañas de rendimiento estándar y alto.
 
    También hay ejemplos de llamadas API disponibles en [esta página](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
