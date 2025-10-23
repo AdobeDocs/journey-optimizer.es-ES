@@ -6,9 +6,9 @@ topic: Integrations, Content Management
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 9bd0b149acdce17b8157e6c0e747353e0dd00cc8
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '958'
 ht-degree: 7%
 
 ---
@@ -53,6 +53,8 @@ Puede utilizar estas reglas:
 
 * Al crear [segmentación de optimización de contenido](../campaigns/campaigns-message-optimization.md#targeting) en recorridos o campañas;
 * Al generar [optimización de ruta de recorrido](../building-journeys/optimize.md#targeting).
+
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 ## Reglas de acceso {#access}
 
@@ -129,3 +131,9 @@ Para crear una regla, siga estos pasos:
 >Una cadena de regla puede tener un tamaño máximo de 15 KB para caracteres codificados en UTF-8. Esto equivale a 15 000 caracteres ASCII (1 byte cada uno) o a 3 750-7 500 caracteres no ASCII (2-4 bytes cada uno).
 >
 >[Más información sobre las limitaciones y protecciones de las reglas de elegibilidad](decisioning-guardrails.md#eligibility-rules)
+
+## Vídeo práctico {#video}
+
+Aprenda a crear, duplicar y aplicar **reglas de segmentación** reutilizables en Adobe Journey Optimizer para personalizar de forma eficaz las campañas basadas en atributos del cliente como la región, el idioma y el comportamiento, ahorrando tiempo y mejorando la precisión de la audiencia.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
