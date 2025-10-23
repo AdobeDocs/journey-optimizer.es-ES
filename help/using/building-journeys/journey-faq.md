@@ -11,9 +11,9 @@ keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 4afd8e455ca0d61ad860ec735c30f1b36bb54e1b
 workflow-type: tm+mt
-source-wordcount: '4531'
+source-wordcount: '4526'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 A continuación, encontrará las preguntas más frecuentes sobre los Recorridos de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceptos generales
 
@@ -744,19 +744,12 @@ Más información sobre [políticas de combinación](../audience/get-started-pro
 
 +++ ¿Cuál es la diferencia entre una condición y una actividad de espera?
 
-**Actividad de condición**:
-
-* **Propósito**: crea diferentes rutas basadas en lógica (si/entonces)
-* **Función**: evalúa los datos y enruta los perfiles en consecuencia
-* **Casos de uso**: Segmentar clientes, comprobar el estado, rama en función del comportamiento
-* **Ejemplo**: Si el cliente es VIP, envíe una oferta premium; de lo contrario, envíe una oferta estándar
-
-**Actividad de espera**:
-
-* **Propósito**: Pausa la recorrido durante un período de tiempo
-* **Función**: contiene perfiles en un punto específico antes de continuar
-* **Casos de uso**: Intervalos entre mensajes, espera del horario laboral, creación de retrasos
-* **Ejemplo**: espere 3 días después del correo electrónico de bienvenida antes de enviar el siguiente mensaje
+| | **Actividad de condición** | **Actividad de espera** |
+|---|---|---|
+| **Finalidad** | Crea diferentes rutas basadas en la lógica (si/entonces) | Pausa el recorrido durante un período de tiempo |
+| **Función** | Evalúa los datos y enruta los perfiles en consecuencia | Mantiene los perfiles en un punto específico antes de continuar |
+| **Caso de uso** | Segmentar clientes, comprobar estado, rama en función del comportamiento | Intervalos entre mensajes, espera del horario laboral, creación de retrasos |
+| **Ejemplo** | Si el cliente es VIP, envíe una oferta premium; de lo contrario, envíe una oferta estándar | Espere 3 días después del correo electrónico de bienvenida antes de enviar el siguiente mensaje |
 
 **Trabajan juntos**:
 
