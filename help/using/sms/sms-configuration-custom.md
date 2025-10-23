@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
+source-git-commit: cd47db2e8fd20049cb7598160e99555b448c7012
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1386'
 ht-degree: 7%
 
 ---
@@ -79,6 +79,11 @@ Para enviar mensajes SMS y RCS en Journey Optimizer mediante un proveedor person
 1. Agregue su **[!UICONTROL carga útil del proveedor]** para validar y personalizar las cargas útiles de solicitud.
 
    Para los mensajes RCS, esta carga útil se usa más adelante durante [diseño de contenido](create-sms.md#sms-content).
+
+   >[!NOTE]
+   >
+   >Al configurar un proveedor de SMS personalizado con autenticación básica o al portador, debe incluir el parámetro `authOption` en la carga útil JSON. Además, **Provider Payload** debe hacer referencia a las variables de plantilla `{{fromNumber}}`, `{{toNumber}}` y `{{message}}`.
+
 
 1. Haga clic en **[!UICONTROL Enviar]** cuando termine de configurar las credenciales de la API.
 
