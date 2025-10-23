@@ -5,9 +5,9 @@ title: Pasos de configuración
 description: Aprenda a crear esquemas basados en modelos directamente a través de la interfaz de usuario.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '882'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ El ejemplo siguiente define manualmente el esquema **Pertenencias de fidelizaci�
 
 1. [Introducir datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
 
-➡️ [Obtenga más información acerca de esquemas manuales basados en modelos en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Obtenga más información acerca de esquemas manuales basados en modelos en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Cree su esquema {#schema}
 
@@ -83,7 +83,7 @@ Cualquier esquema utilizado para la segmentación debe incluir al menos un campo
 
    +++ Ejemplos de atributos
 
-   | Nombre del atributo | Tipo de datos | Atributos adicionales |
+   | Nombre de atributo | Tipo de datos | Atributos adicionales |
    |-|-|-|
    | cliente | CADENA | Clave principal |
    | member_level | CADENA | Requerido |
@@ -109,6 +109,8 @@ Cualquier esquema utilizado para la segmentación debe incluir al menos un campo
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 Después de crear y guardar atributos, puede vincular el esquema con otros esquemas relacionales definiendo relaciones.
+
+➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Vincular esquemas {#link-schema}
 

@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo acceder a  [!DNL Adobe Journey Opt
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '448'
 ht-degree: 24%
 
 ---
@@ -41,7 +41,7 @@ Ahora que comprende los tipos de informes de **[!DNL Journey Optimizer]**, es ho
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<img alt="Informes de recorrido" src="../assets/do-not-localize/start-journey.jpeg">
+<img alt="Informes de recorridos" src="../assets/do-not-localize/start-journey.jpeg">
 <div>
 <p><strong>INFORMES DE RECORRIDO</strong></p>
 </div>
@@ -133,3 +133,13 @@ Seleccione una experiencia entrante para descubrir **informes globales permanent
 <td><img alt="Tarjetas de contenido" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>Tarjetas de contenido</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Informe de recorrido</strong></a></p></div></td>
 </tr></table>
+
+### Vídeo práctico {#video}
+
+Aprenda a utilizar de forma eficaz el informe permanente en Adobe Journey Optimizer.
+
++++Vea el vídeo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+
++++
