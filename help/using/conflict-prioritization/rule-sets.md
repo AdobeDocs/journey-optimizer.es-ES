@@ -180,4 +180,4 @@ Su estado cambiará a **[!UICONTROL Inactivo]** y la regla no se aplicará a fut
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444729?captions=spa&quality=12)
