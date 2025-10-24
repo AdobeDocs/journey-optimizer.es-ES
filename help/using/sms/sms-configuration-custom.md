@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: cd47db2e8fd20049cb7598160e99555b448c7012
+source-git-commit: 9b7e10643aaa4cd6c82e0355c45fa810352f21c0
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1400'
 ht-degree: 7%
 
 ---
@@ -210,9 +210,11 @@ Al configurar un gancho web, puede definir su propósito según el tipo de datos
 
 1. Haga clic en ![](assets/do-not-localize/Smock_Add_18_N.svg) para agregar las categorías de palabras clave y, a continuación, configúrelas de la siguiente manera:
 
-   * **[!UICONTROL Categoría de palabras clave entrantes]**: elige las categorías de palabras clave **[!UICONTROL Inclusión]**, **[!UICONTROL Exclusión]**, **[!UICONTROL Ayuda]** o **[!UICONTROL Predeterminado]**.
+   * **[!UICONTROL Categoría de palabras clave entrantes]**: elige las categorías de palabras clave **[!UICONTROL Inclusión]**, **[!UICONTROL Exclusión]**, **[!UICONTROL Inclusión doble]**, **[!UICONTROL Ayuda]** o **[!UICONTROL Personalizada]**.
 
    * **[!UICONTROL Escriba una palabra clave]**: escriba las palabras clave predeterminadas o personalizadas que almacenarán automáticamente en déclencheur el mensaje. Haga clic en ![](assets/do-not-localize/Smock_Add_18_N.svg) para agregar varias palabras clave.
+
+     Para **[!UICONTROL palabra clave personalizada]**, use palabras clave no relacionadas con el consentimiento para acciones basadas en lotes dentro de un recorrido.
 
    * **[!UICONTROL Mensaje de respuesta]**: seleccione en la lista desplegable la respuesta personalizada que se enviará automáticamente.
 
