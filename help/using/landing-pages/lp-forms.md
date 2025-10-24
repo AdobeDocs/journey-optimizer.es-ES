@@ -9,12 +9,10 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, página, formulario
 badge: label="Disponibilidad limitada" type="Informative"
-hidefromtoc: true
-hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
+source-git-commit: c91bfc19a8c68b7b914c552349f50e7d47d150df
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1572'
 ht-degree: 9%
 
 ---
@@ -23,7 +21,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+>Actualmente, esta capacidad está disponible de forma limitada para clientes de Estados Unidos y Australia. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 Para capturar datos de perfil con sus páginas de aterrizaje de [!DNL Journey Optimizer] y enriquecer los conjuntos de datos de [!DNL Experience Platform], puede aprovechar los formularios en sus páginas de aterrizaje.
 
@@ -42,7 +40,7 @@ Para capturar datos de perfil con sus páginas de aterrizaje de [!DNL Journey Op
 
 Antes de poder crear un formulario, debe crear un ajuste preestablecido dedicado en el que seleccione el punto final de conexión al que se envían los datos de envío del formulario y el conjunto de datos al que se almacenarán los datos capturados mediante el formulario.
 
-Cuando los datos aterrizan en el extremo de flujo continuo, se vinculan con la información del conjunto de datos. Mediante las conexiones de origen/destino generadas y el flujo de origen, los datos se insertan en el conjunto de datos.
+Una vez que los datos llegan al extremo de flujo continuo, se vinculan con la información del conjunto de datos. Mediante las conexiones de origen/destino generadas y el flujo de origen, los datos se insertan en el conjunto de datos.
 
 Al crear un ajuste preestablecido:
 
@@ -53,9 +51,13 @@ Al crear un ajuste preestablecido:
    * **Conexión de destino** - donde se almacenan o consumen los datos.
    * **Flujo de Source**: la canalización que mueve datos de la conexión de origen a [!DNL Experience Platform], y administra la asignación, la transformación y la validación.
 
+<!--
 >[!NOTE]
 >
-> Para acceder y editar los ajustes preestablecidos del formulario, debe tener el permiso **[!UICONTROL Administrar ajustes preestablecidos del formulario]** en la zona protegida de producción. Obtenga más información acerca de los permisos en [esta sección](../administration/high-low-permissions.md#administration-permissions).<!--TBC-->
+> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
+-->
+
+Para crear un ajuste preestablecido de formulario, siga los pasos a continuación.
 
 1. Para obtener acceso al inventario de **[!UICONTROL Ajustes preestablecidos de formulario]**, seleccione **[!UICONTROL Administración]** > **[!UICONTROL Canales]** >**[!UICONTROL Configuración de formulario]** en el menú de la izquierda.
 
@@ -75,7 +77,7 @@ Al crear un ajuste preestablecido:
 
    >[!NOTE]
    >
-   >Actualmente solo hay [!DNL Adobe Experience Platform] conjuntos de datos disponibles para su selección. Solo se puede seleccionar un conjunto de datos a la vez.
+   >Actualmente solo hay [!DNL Adobe Experience Platform] conjuntos de datos disponibles para su selección. Se puede seleccionar un conjunto de datos a la vez. [Más información sobre conjuntos de datos](../data/get-started-datasets.md)
 
 1. Haga clic en **[!UICONTROL Publicar]**. El ajuste preestablecido ya está listo para utilizarse en un formulario.
 
@@ -192,7 +194,7 @@ Una vez seleccionado un atributo de campo o agregado un campo personalizado, pue
 >title="Página de agradecimiento "
 >abstract="Configure lo que sucede cuando alguien rellena o reenvía el formulario."
 
-En la sección **[!UICONTROL Página de agradecimiento]**, configure lo que sucede cuando un usuario rellena el formulario.
+En los detalles del formulario, en la sección **[!UICONTROL Página de agradecimiento]**, configure lo que sucede cuando un usuario rellena el formulario.
 
 ![](assets/lp_create-form-thank-you.png){width=70%}
 
@@ -263,7 +265,7 @@ Ahora puede incrustar este formulario en una página de aterrizaje para capturar
 
    >[!NOTE]
    >
-   >Puede actualizar el formulario seleccionado mediante el botón **[!UICONTROL Editar formulario]**. El formulario se abrirá en una nueva pestaña. Los pasos para editar el contenido del formulario son los mismos que se describen en [esta sección](#create-form).
+   >Puede actualizar el formulario seleccionado mediante el botón **[!UICONTROL Editar formulario]**. El formulario se abrirá en una nueva pestaña. Los pasos para editar el contenido del formulario se detallan en [esta sección](#create-form).
 
 1. En la sección **[!UICONTROL Tipo de seguimiento]**, configure lo que sucede cuando un usuario rellena el formulario:
 
