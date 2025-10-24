@@ -8,11 +8,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: políticas, gobernanza, plataforma, consentimiento, escudo sanitario
-hide: true
-hidefromtoc: true
-source-git-commit: 95f101c3d8f875dbf7988f10b106fc58f705e926
+source-git-commit: bbea90bd21bd19941e8c8df93c8ec7a8a2769d77
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '859'
 ht-degree: 4%
 
 ---
@@ -59,19 +57,19 @@ Supongamos que desea dirigirse a sus clientes mediante recorridos y campañas en
    >
    >El consentimiento del cliente y las preferencias de contacto son temas complejos. Para conocer cómo se pueden recopilar, procesar y filtrar las preferencias de consentimiento y contexto en [!DNL Experience Platform], se recomienda leer los siguientes documentos:
    >
-   >* Para obtener más información sobre los grupos de campos de esquema necesarios para recopilar datos de consentimiento, consulte [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Detalla cómo procesar los datos de consentimiento que ha recopilado de sus clientes e integrarlos en sus perfiles de cliente almacenados.
-   >* Para obtener más información sobre el grupo de campos Consentimiento y preferencia, consulte [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Para agregar campos de preferencias personalizadas al esquema, siga los pasos de [esta sección](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
+   >* Para obtener más información sobre los grupos de campos de esquema necesarios para recopilar datos de consentimiento, consulte [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Detalla cómo procesar los datos de consentimiento que ha recopilado de sus clientes e integrarlos en sus perfiles de cliente almacenados.
+   >* Para obtener más información sobre el grupo de campos Consentimiento y preferencia, consulte [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Para agregar campos de preferencias personalizadas al esquema, siga los pasos de [esta sección](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
 
 1. Cree una página para capturar las preferencias de los clientes. Utilice uno de los siguientes métodos:
 
-   * Cree una página web para registrar las preferencias de sus clientes con [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/home){target="_blank"}.
+   * Cree una página web para registrar las preferencias de sus clientes con [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home){target="_blank"}.
 
    * Use una [!DNL Journey Optimizer] [página de aterrizaje](../landing-pages/create-lp.md) que incluya formularios para capturar las preferencias de sus clientes mediante datos de perfil.  [Más información en formularios](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
 
      >[!NOTE]
      >
-     >Asegúrese de que el dominio de la página de aterrizaje que está utilizando pertenece a la marca de nivel superior y no a una submarca. Esto sirve para garantizar la confianza entre los usuarios finales. <!--Please clarify-->
+     >Asegúrese de que el dominio de la página de aterrizaje que está utilizando pertenece a la marca superior y no a una submarca. De hecho, las preferencias recopiladas se almacenan en los datos de perfil que se encuentran en el nivel superior de la marca.
 
 1. En esta página, los clientes pueden actualizar sus preferencias, como las suscripciones por temas, seleccionando o desmarcando casillas de verificación.
 
