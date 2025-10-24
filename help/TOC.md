@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 460ac269404842001f320df6404db474a34c30b7
 workflow-type: tm+mt
-source-wordcount: '3011'
+source-wordcount: '2992'
 ht-degree: 98%
 
 ---
@@ -555,13 +555,8 @@ ht-degree: 98%
    + Experimento del contenido {#content-experiment}
       + [Experimento del contenido](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Introducción al experimento de contenido](using/content-management/get-started-experiment.md)
+      + [Introducción a Experiment accelerator](using/content-management/experiment-accelerator-gs.md)
       + [Creación de un experimento de contenido](using/content-management/content-experiment.md)
-      + Experiment accelerator {#experiment}
-         + [Introducción a Experiment accelerator](using/content-management/experiment-accelerator.md)
-         + [Uso de datos en IA con Experimentation Accelerator](using/content-management/experiment-accelerator-security.md)
-         + [Prácticas recomendadas de Experiment accelerator](using/content-management/experiment-accelerator-best-practices.md)
-         + [Monitorización de Experiment accelerator](using/content-management/experiment-accelerator-monitor.md)
-         + [Métricas de Experiment accelerator](using/content-management/experiment-accelerator-metrics.md)
       + Notas técnicas {#technotes}
          + [Notas técnicas](/help/rp_landing_pages/technotes-landing-page.md)
          + [Prueba A/B frente a bandido multibrazo](using/content-management/mab-vs-ab.md)
@@ -887,7 +882,7 @@ ht-degree: 98%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
