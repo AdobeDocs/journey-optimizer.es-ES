@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: aterrizaje, página de aterrizaje, configurar, entorno, subdominio, ajustes preestablecidos
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 15%
+source-wordcount: '411'
+ht-degree: 13%
 
 ---
 
@@ -60,15 +60,23 @@ Para crear un ajuste preestablecido de página de aterrizaje, siga los pasos a c
 
    ![](assets/lp_preset-subdomain.png)
 
-   Para poder seleccionar un subdominio, asegúrese de que ha configurado previamente al menos un subdominio de página de aterrizaje. [Descubra cómo](#lp-subdomains)
+   >[!NOTE]
+   >
+   >Para poder seleccionar un subdominio, asegúrese de que ha configurado previamente al menos un subdominio de página de aterrizaje. [Descubra cómo](lp-subdomains.md)
 
    Se muestra la configuración correspondiente al subdominio seleccionado.
 
-1. Puede seleccionar el subdominio de página de aterrizaje para la URL de seguimiento marcando la opción **[!UICONTROL Igual que el subdominio de página de aterrizaje]**. [Más información sobre el seguimiento](../email/message-tracking.md)
+1. Puede seleccionar el subdominio de página de aterrizaje para **[!UICONTROL URL de seguimiento]** marcando la opción **[!UICONTROL Igual que el subdominio de página de aterrizaje]**. [Más información sobre el seguimiento](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    Por ejemplo, si la dirección URL de la página de aterrizaje es &quot;pages.mail.luma.com&quot; y la dirección URL de seguimiento es &quot;data.mail.luma.com&quot;, puede elegir &quot;pages.mail.luma.com&quot; para utilizarlo como subdominio de seguimiento.
+
+   >[!CAUTION]
+   >
+   >El subdominio de página de aterrizaje seleccionado se usa para especificar la **[!UICONTROL URL de seguimiento]** <!--and **[!UICONTROL Image Delivery URL]** -->si ese subdominio se creó con un [subdominio existente](lp-subdomains.md#lp-use-existing-subdomain).
+   >
+   >Si el subdominio se creó con la opción [Agregar su propio dominio](lp-subdomains.md#lp-configure-new-subdomain), se utilizará el subdominio principal (es decir, el primer subdominio delegado).
 
 1. Haga clic en **[!UICONTROL Enviar]** para confirmar la creación del ajuste preestablecido de página de aterrizaje. <!--You can also save the preset as draft and resume its configuration later on.-->
 
