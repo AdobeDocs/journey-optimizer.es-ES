@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 78%
+source-wordcount: '397'
+ht-degree: 75%
 
 ---
 
@@ -44,6 +44,10 @@ También puede editar cada campo **[!UICONTROL Valor]** con el [editor de person
 
 Están disponibles los siguientes valores predefinidos a través del editor de personalización:
 
+* **ID de perfil de mensaje**: atributo orientado al mensaje que identifica de forma exclusiva cada mensaje enviado a cada perfil de destino en una entrega.
+
+* **ID de oferta**: ID de la oferta que se ha utilizado en el correo electrónico.
+
 * **ID de acción de origen**: ID de la acción de correo electrónico añadida al recorrido o a la campaña.
 
 * **Nombre de acción de origen**: nombre de la acción de correo electrónico añadida al recorrido o a la campaña.
@@ -53,8 +57,6 @@ Están disponibles los siguientes valores predefinidos a través del editor de p
 * **Nombre de origen**: nombre del recorrido o de la campaña con el que se envió el correo electrónico.
 
 * **ID de versión de origen**: ID de la versión de recorrido o campaña con la que se envió el correo electrónico.
-
-* **ID de oferta**: ID de la oferta que se ha utilizado en el correo electrónico.
 
 >[!NOTE]
 >
