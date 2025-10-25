@@ -6,10 +6,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b9a515156e9a79519be59fb52b67762a32c9d03e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 16%
+source-wordcount: '348'
+ht-degree: 14%
 
 ---
 
@@ -89,3 +89,9 @@ El rendimiento de entrega corresponde al número de respuestas de decisión que 
 | Ubicaciones | 1000 |
 | Modelo de clasificación de IA | 5 |
 | Límite de frecuencia: número máximo de reglas de límite por oferta | 10 |
+
+## Configuraciones  {#configurations}
+
+El número total de configuraciones que admite Administración de decisiones no puede superar los 20 000.
+
+El recuento total de configuración es el número total de [reglas de límite](offer-library/add-constraints.md#capping) que existen en su zona protegida. Para cada regla de límite aplicada en todas las [ubicaciones](offer-library/creating-placements.md), la regla debe multiplicarse en todas las ubicaciones asociadas con la oferta especificada.

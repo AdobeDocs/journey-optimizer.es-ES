@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: b9a515156e9a79519be59fb52b67762a32c9d03e
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 18%
+source-wordcount: '237'
+ht-degree: 16%
 
 ---
 
@@ -67,3 +67,9 @@ La lista completa de [!DNL Journey Optimizer] protecciones y limitaciones está 
 | Ubicaciones totales | 1K |
 | Modelo de clasificación de IA | 5 |
 | Reglas de frecuencia: número máximo de reglas de límite por oferta | 10 |
+
+## Configuraciones  {#configurations}
+
+El número total de configuraciones que admite Decisioning no puede superar los 20 000.
+
+El recuento total de configuración es el número total de [reglas de límite](items.md#capping) que existen en su zona protegida.
