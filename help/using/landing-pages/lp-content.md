@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, página, formulario, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1336'
 ht-degree: 9%
 
 ---
@@ -33,6 +33,10 @@ Para diseñar contenido específico que permita a los usuarios seleccionar y env
 >También puede crear una página de aterrizaje de pulsación sin un componente **[!UICONTROL Form]**. En ese caso, la página de aterrizaje se mostrará a los usuarios, pero no es necesario que envíen ningún formulario. Esto puede resultar útil si solo desea mostrar una página de aterrizaje sin requerir ninguna acción por parte de los destinatarios, como la inclusión o la exclusión, o si desea proporcionar información que no requiera la entrada del usuario.
 
 Con el diseñador de contenido de página de aterrizaje, también puede aprovechar los datos contextuales procedentes de la página principal en una subpágina. [Más información](#use-primary-page-context)
+
+>[!NOTE]
+>
+>La [ley de accesibilidad europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} estipula que todas las comunicaciones digitales deben ser accesibles. Asegúrese de seguir las directrices específicas que se enumeran en [esta página](../email/accessible-content.md) al diseñar contenido en [!DNL Journey Optimizer].
 
 ## Uso del componente del formulario {#use-form-component}
 
