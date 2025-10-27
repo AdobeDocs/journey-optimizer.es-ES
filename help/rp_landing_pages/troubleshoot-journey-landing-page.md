@@ -21,7 +21,7 @@ Cuando el recorrido de un cliente no se comporta según lo previsto, puede resul
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Solucionar errores antes de probar o publicar el recorrido
 
@@ -31,7 +31,7 @@ Identifique y resuelva errores en todo el recorrido, problemas de actividad, y e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Resolución de problemas de la ejecución del recorrido activo en Adobe Journey Optimizer
 
@@ -41,7 +41,7 @@ Diagnostique problemas con la validación de eventos, la entrada de perfiles, la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Solucionar problemas de acciones de entrada en recorridos de Adobe Journey Optimizer
 
@@ -51,7 +51,7 @@ Depure los problemas de las acciones de envío, como la falta de contenido o la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Resolución de problemas de acciones personalizadas en Adobe Journey Optimizer
 
@@ -61,7 +61,7 @@ Valide y depure las acciones personalizadas mediante la función “Enviar solic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Referencia de códigos de error
 
