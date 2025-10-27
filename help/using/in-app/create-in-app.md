@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
+source-git-commit: 71b12ea083d72597c65e8fb2dc3424ffafa77462
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2076'
 ht-degree: 12%
 
 ---
@@ -110,7 +110,7 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
    1. Elija la frecuencia del déclencheur cuando su mensaje en la aplicación esté activo:
 
       * **[!UICONTROL Mostrar cada vez]**: mostrar siempre el mensaje cuando se produzcan los eventos seleccionados en la lista desplegable **[!UICONTROL déclencheur de aplicaciones móviles]**.
-      * **[!UICONTROL Mostrar una vez]**: mostrar este mensaje solo la primera vez que se produzcan los eventos seleccionados en la lista desplegable **[!UICONTROL déclencheur de aplicaciones móviles]**.
+      * **[!UICONTROL Mostrar una vez]**: este mensaje aparece solo una vez por sesión de usuario y permanece visible en todas las ventanas o actividades hasta que se cierra. Para limitarlo a una pantalla determinada o hacer que se descarte automáticamente, utilice la lógica personalizada con el delegado de mensajería.
       * **[!UICONTROL Mostrar hasta que se hace clic]**: muestra este mensaje cuando se producen los eventos seleccionados en la lista desplegable **[!UICONTROL déclencheur de la aplicación móvil]** hasta que SDK envíe un evento de interacción con la acción &quot;se hizo clic&quot;.
 
 1. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
@@ -236,7 +236,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451885?quality=12&learn=on&captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +244,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445291/?learn=on&autoplay=true&captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
@@ -252,7 +252,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451834/?learn=on&autoplay=true&captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
   +++
 
