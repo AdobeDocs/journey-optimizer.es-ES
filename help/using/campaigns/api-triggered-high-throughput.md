@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
-source-git-commit: 5a6abcd48495a66496495e62c6027c2fd0fdd4c4
+source-git-commit: 4521990a02092365f996a81299ada55433639fb7
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '622'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,15 @@ Esta página explica cómo las campañas de alto rendimiento difieren de las cam
 * **Exclusividad de la campaña**: las campañas de alto rendimiento no utilizan perfiles de Adobe. Los mensajes se envían independientemente de si existe o no un perfil.
 
   Además, una campaña no se puede usar en casos de uso con y sin perfil. Si necesita ambas, cree dos campañas independientes y asegúrese de que el sistema de llamada decida cuál almacenar en déclencheur en función del contexto.
+
+* **Conjuntos de datos para comentarios y seguimiento**: los datos de comentarios y seguimiento de las campañas de alto rendimiento se almacenan en conjuntos de datos dedicados que no están habilitados para perfiles. Como resultado, estos eventos no se vinculan a perfiles, aunque exista un perfil coincidente.
+
+  Los conjuntos de datos utilizados son:
+
+   * **Conjunto De Datos De Evento De Comentarios De Mensajes De AJO - Sin Perfil**
+   * **Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO - Sin perfil**
+
+* **Asignación de rendimiento**: el rendimiento aprovisionado en el complemento Alto rendimiento está reservado exclusivamente para las campañas de alto rendimiento. No se comparte el rendimiento entre las campañas estándar y las activadas por la API de alto rendimiento.
 
 ## Elección entre campañas de rendimiento estándar y campañas de alto rendimiento
 
