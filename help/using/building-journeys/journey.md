@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+source-git-commit: 05b8e6c4500d5ec3b6c2c3b0230499a369c8d8ac
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 93%
 
 ---
 
@@ -51,4 +51,11 @@ Obtenga información sobre cómo crear recorridos [en los siguientes casos de us
 
 Descubra los componentes de un recorrido y comprenda los conceptos básicos para construir un recorrido en el lienzo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430353?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+
+## Recursos adicionales {#additional-resources}
+
+* [Preguntas frecuentes sobre el Recorrido](journey-faq.md) - Preguntas frecuentes sobre recorridos
+* [Referencia de códigos de error](error-codes-reference.md) - Pasos para solucionar problemas y códigos de error de Recorrido
+* [Alertas](../reports/alerts.md): configure alertas para la supervisión de recorrido
+* [Solución de problemas](troubleshooting.md) - Problemas y soluciones comunes de recorrido
