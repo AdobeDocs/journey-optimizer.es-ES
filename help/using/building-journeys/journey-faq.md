@@ -9,9 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: aece514b3ce21fa7b7a7ada546b4757ce00fa912
+source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
 workflow-type: tm+mt
 source-wordcount: '4568'
 ht-degree: 0%
@@ -23,7 +21,7 @@ ht-degree: 0%
 
 A continuación, encontrará las preguntas más frecuentes sobre los Recorridos de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceptos generales
 
