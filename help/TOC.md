@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '2998'
+ht-degree: 97%
 
 ---
 
@@ -202,13 +202,6 @@ ht-degree: 98%
       + [Aumento de envíos](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Limitación del rendimiento con fuentes de datos externas y acciones personalizadas](using/building-journeys/limit-throughput.md)
       + [Utilice acciones personalizadas para escribir los eventos de recorrido en Experience Platform](using/building-journeys/custom-action-aep.md)
-   + Resolución de problemas {#troubleshoot-journey}
-      + [Resolución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-      + [Referencia de códigos de error](using/building-journeys/error-codes-reference.md)
-      + [Solucionar errores de recorrido](using/building-journeys/troubleshooting.md)
-      + [Solución de problemas de la ejecución del recorrido](using/building-journeys/troubleshooting-execution.md)
-      + [Solucionar las acciones de entrada](using/building-journeys/troubleshooting-inbound.md)
-      + [Solución de problemas de acciones personalizadas](using/action/troubleshoot-custom-action.md)
 + Campañas {#campaigns}
    + [Campañas](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Introducción a las campañas](using/campaigns/get-started-with-campaigns.md)
@@ -278,7 +271,7 @@ ht-degree: 98%
          + [División](using/orchestrated/activities/split.md)
          + [Prueba](using/orchestrated/activities/test.md)
          + [Esperar](using/orchestrated/activities/wait.md)
-+ Administración de conflictos y priorización {#conflict-prioritization}
++ Conflicto y priorización {#conflict-prioritization}
    + [Administración de conflictos y priorización](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [Introducción a la administración y priorización de conflictos](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificar posibles conflictos](using/conflict-prioritization/conflicts.md)
@@ -307,7 +300,15 @@ ht-degree: 98%
       + [Creación y administración de políticas de aprobación](using/test-approve/approval-policies.md)
       + [Solicitud de aprobación](using/test-approve/request-approval.md)
       + [Aprobación de una solicitud](using/test-approve/review-approve-request.md)
++ Monitorización y solución de problemas {#monitor}
+   + [Monitorización y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Alertas del sistema](using/reports/alerts.md)
+   + [Referencia de códigos de error](using/building-journeys/error-codes-reference.md)
+   + solución de problemas de recorridos {#troubleshoot-journey}
+      + [Solucionar errores de recorrido](using/building-journeys/troubleshooting.md)
+      + [Solución de problemas de la ejecución del recorrido](using/building-journeys/troubleshooting-execution.md)
+      + [Solucionar las acciones de entrada](using/building-journeys/troubleshooting-inbound.md)
+      + [Solución de problemas de acciones personalizadas](using/action/troubleshoot-custom-action.md)
 + Canales de comunicación {#channels}
    + [Introducción a los canales de comunicación](using/channels/gs-channels.md)
    + Canal de correo electrónico {#email}
@@ -883,7 +884,7 @@ ht-degree: 98%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}

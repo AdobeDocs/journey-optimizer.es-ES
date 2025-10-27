@@ -11,9 +11,9 @@ keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 4afd8e455ca0d61ad860ec735c30f1b36bb54e1b
+source-git-commit: d1b031dffa860eb4618d985a53ed13b66f136654
 workflow-type: tm+mt
-source-wordcount: '4526'
+source-wordcount: '4568'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 A continuación, encontrará las preguntas más frecuentes sobre los Recorridos de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceptos generales
 
@@ -729,7 +729,11 @@ Más información sobre [eventos empresariales](general-events.md).
 **Impacto en recorridos**:
 
 * Los recorridos utilizan la política de combinación asociada a la audiencia o al evento para determinar qué datos de perfil están disponibles
-* La política de combinación afecta a los atributos e identidades accesibles en las condiciones de recorrido, la personalización y las acciones
+   * En Leer recorridos de cualificación de audiencias o audiencias: se utiliza la política de combinación de la audiencia
+   * En recorridos de eventos unitarios: se utiliza la política de combinación predeterminada
+   * En recorridos de eventos empresariales: se utiliza la política de combinación de la audiencia de destino en la siguiente actividad Leer audiencia
+
+* La política de combinación afecta a los atributos que son accesibles en las condiciones de recorrido, la personalización y las acciones
 * Las distintas políticas de combinación pueden dar como resultado que se utilicen datos de perfil diferentes en la recorrido
 
 **Prácticas recomendadas**:
