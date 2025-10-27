@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: error, códigos, resolución de problemas, recorrido, campaña, mensajes
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 012efffe4b38ccfdc88545566bc49b519c796ad2
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 1%
@@ -146,7 +146,7 @@ Cuando encuentre un código de error, siga este enfoque sistemático:
 * [Solución de problemas de actividades entrantes](troubleshooting-inbound.md)
 * [Solución de problemas de acciones personalizadas](../action/troubleshoot-custom-action.md)
 * [Preguntas frecuentes sobre recorrido](journey-faq.md)
-* [Protecciones y limitaciones](limitations.md)
+* [Protecciones y limitaciones](../start/guardrails.md)
 
 ## Obteniendo asistencia {#getting-support}
 
@@ -164,6 +164,6 @@ Si encuentra errores persistentes que no se pueden resolver con esta guía:
 
 **Temas relacionados**
 
-* [Desmitificación de los códigos de error de Adobe Journey Optimizer: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=es){target="_blank"}
-* [Desmitificación de los códigos de error de Adobe Journey Optimizer: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=es){target="_blank"}
+* [Desmitificación de los códigos de error de Adobe Journey Optimizer: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Desmitificación de los códigos de error de Adobe Journey Optimizer: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
 
