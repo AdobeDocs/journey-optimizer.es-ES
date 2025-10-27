@@ -5,10 +5,10 @@ title: Capacidades de IA en Adobe Journey Optimizer
 description: Capacidades de IA en Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: b3a10c607f13ab9a4b8f0a269f91e9f97d8c8c47
+source-git-commit: 9d0460d303a3701ad7ff5b7f2487ac6ccdd6facd
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 4%
+source-wordcount: '1013'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Aproveche la IA generativa para crear y personalizar contenido en correos electr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Optimización del tiempo de envío
 
@@ -70,7 +70,7 @@ Genere varias variaciones de contenido y ejecute experimentos para identificar e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg)
 
 Integración de Customer AI
 
@@ -86,5 +86,97 @@ Integre con los servicios inteligentes de Adobe para predecir el comportamiento 
 
 - **[Puntuación de alineación de marca](../using/content-management/brands-score.md)**: evalúe la alineación del contenido generado por IA con las directrices de marca mediante puntuación con tecnología de IA.
 - **[Acelerador de experimentos](../using/content-management/experiment-accelerator-gs.md)**: acelere el proceso de experimentación de contenido con perspectivas y recomendaciones impulsadas por IA.
-- **[API con tecnología de IA](../using/configuration/ajo-apis.md)**: acceda a las capacidades de IA y aprendizaje automático de Journey Optimizer mediante programación a través de las API RESTful.
+- **[API con tecnología de IA](../using/configuration/ajo-apis.md)**: acceda a las capacidades de IA y aprendizaje automático de Journey Optimizer mediante programación a través de las API.
+
+## Preguntas frecuentes
+
++++**¿Qué permisos se requieren para utilizar las capacidades de IA?**
+
+Para usar el Asistente de IA para generar contenido, los usuarios deben recibir el permiso **Generar contenido**. Este permiso se asigna a través del recurso Asistente de IA en el producto Permisos. Para utilizar el asistente de IA para obtener conocimientos del producto y perspectivas operativas, los usuarios deben aceptar las Directrices de usuario de IA generativas de Adobe Experience Cloud.
+
+[Más información sobre los permisos](../using/administration/ootb-permissions.md)
+
++++
+
++++**¿Qué canales admiten la generación de contenido del Asistente de IA?**
+
+El Asistente de IA para la generación de contenido está disponible para los canales **Email**, **Push**, **SMS** y **Web**. Actualmente no está disponible para canales de correo directo, tarjetas de contenido, LINE o WhatsApp.
+
++++
+
++++**¿Cuáles son las prácticas recomendadas para usar el Asistente para IA?**
+
+- **Use mensajes bien definidos**: la calidad del contenido generado se ve muy afectada por el objetivo y el mensaje de marketing. Sea específico y claro.
+- **Cargar recursos de marca**: proporcione recursos de marca en formato PDF, JPEG, PNG o ZIP (máximo 50 MB) para obtener contenido preciso y sin marca.
+- **Usar plantillas personalizadas**: aprovecha las plantillas de correo electrónico específicas de la marca con hasta 8-10 imágenes para obtener resultados óptimos.
+- **Proporcionar comentarios** - Informar sobre salidas problemáticas usando iconos de pulgar hacia arriba, pulgar hacia abajo o indicador para ayudar a perfeccionar los modelos.
+- **Aproveche solo un recurso de marca por generación**. Aunque puede cargar varios recursos, use solo uno para cada generación específica.
+
+[Más información sobre las protecciones del asistente de IA](../using/content-management/gs-generative.md#generative-guardrails)
+
++++
+
++++**¿Cuáles son las prácticas recomendadas para la optimización del tiempo de envío?**
+
+- **Espere 30 días**. Use las acciones de correo electrónico y push durante al menos 30 días antes de habilitar la optimización del tiempo de envío para garantizar una recopilación de datos suficiente.
+- **Elija tiempos de espera óptimos**: establezca un tiempo de espera máximo de 6 a 24 horas para obtener los mejores resultados. Las duraciones más cortas limitan el potencial de optimización; las más largas pueden dar como resultado mensajes obsoletos.
+- **Optimizar para la métrica correcta**: en el caso de correos electrónicos, optimizar para clics al impulsar la acción o aperturas para contenido informativo. Los mensajes push siempre están optimizados para las aperturas.
+- **Evitar mensajes con distinción de tiempo** - No usar Optimización de tiempo de envío para mensajes operativos urgentes como confirmaciones de pedidos, restablecimientos de contraseñas o notificaciones de vuelo. Ideal para comunicaciones de marketing como promociones y boletines informativos.
+- **Programar envíos por la mañana para notificaciones push**: para evitar notificaciones nocturnas, programe envíos push por lotes por la mañana con duraciones más cortas (por ejemplo, envíos a las 9 a. m. con tiempo de espera de 8 horas).
+
+[Más información sobre la Optimización del tiempo de envío](../using/building-journeys/send-time-optimization.md)
+
++++
+
++++**¿Cuáles son las limitaciones de la optimización del tiempo de envío?**
+
+- **Canales**: solo disponibles para los canales de notificaciones push y de correo electrónico en los Recorridos. No disponible en campañas ni mediante acciones personalizadas.
+- **Disponibilidad** - Debe ser habilitada por el Servicio de atención al cliente de Adobe o por su representante de Adobe.
+- **Período de prueba**: requiere al menos 30 días de datos push o de correo electrónico históricos antes de su uso.
+- **Entrenamiento de modelo**: los modelos se entrenan inicialmente semanalmente usando las últimas 16 semanas de datos, y luego mensualmente.
+- **Exploración vs. Optimización**: el 5% de los mensajes recibe tiempos de envío de exploración aleatoria; el 95% recibe tiempos de envío optimizados.
+
++++
+
++++**¿Cuáles son las limitaciones de los modelos de IA en Decisioning?**
+
+- **Máximo de modelos de IA**: hasta 5 modelos de clasificación de IA por organización.
+- **Requisitos del conjunto de datos**: al menos 2 ofertas deben tener más de 100 eventos de visualización y más de 5 eventos de clic en los últimos 14 días para los modelos de optimización automática.
+- **Eventos de comentarios**: deben enviarse como eventos de experiencia; no se recopilan automáticamente en los canales de Journey Optimizer.
+- **Limitaciones de API**: los modelos de optimización automática no funcionan con la API de decisiones por lotes (solo para la administración de decisiones).
+
+[Más información sobre los modelos de IA](../using/experience-decisioning/ranking/ai-models.md)
+
++++
+
++++**¿Qué protecciones se aplican a las decisiones basadas en IA?**
+
+| Componente | Límite |
+|-----------|-------|
+| Modelos de clasificación de IA | 5 por organización |
+| Solicitudes de decisión (basadas en código con segmentación de Edge) | 1500 por segundo |
+| Solicitudes de decisión (basadas en código sin segmentación de Edge) | 5000 por segundo |
+| Colecciones de elementos | 10.000 en total |
+| Elementos de oferta por colección | 500 |
+| Estrategias de selección por política de decisión | 10 |
+| Elementos de oferta devueltos por política de decisión | 30 |
+| Reglas de elegibilidad + fórmulas de clasificación | 10.000 en total |
+| Atributos de perfil por regla | 25 |
+| Atributos de datos de contexto por regla | 30 |
+
+[Obtenga más información sobre las protecciones de Decisioning](../using/experience-decisioning/decisioning-guardrails.md)
+
++++
+
++++**¿Debo aceptar los términos para usar las características de IA?**
+
+Sí, debe aceptar las [Directrices generativas para el usuario de IA de Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar el Asistente de IA en Journey Optimizer. Póngase en contacto con su representante de Adobe para obtener más información. Además, Adobe aplica Content Credentials a los recursos generados por Firefly como parte de su compromiso con la transparencia en el uso de IA generativa.
+
++++
+
++++**¿El contenido generado por IA siempre es preciso?**
+
+No. Es posible que el contenido de IA generativa no siempre sea preciso. Revise siempre los resultados generados por IA para comprobar su precisión y asegurarse de que son adecuados para su caso de uso. Comparta comentarios con las herramientas de clasificación proporcionadas para ayudar a los ingenieros a refinar los modelos.
+
++++
 
