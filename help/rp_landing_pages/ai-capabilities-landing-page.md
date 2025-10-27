@@ -30,7 +30,7 @@ Aproveche la IA generativa para crear y personalizar contenido en correos electr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
 
 Optimización del tiempo de envío
 
@@ -70,7 +70,7 @@ Genere varias variaciones de contenido y ejecute experimentos para identificar e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg?lang=es)
 
 Integración de Customer AI
 
