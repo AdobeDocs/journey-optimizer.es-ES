@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: recorridos, actividades, introducción, eventos, acción
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '722'
 ht-degree: 15%
 
 ---
@@ -118,3 +118,5 @@ Cuando se produce un error en una acción o condición, se detiene el recorrido 
 Antes de probar y publicar el recorrido, compruebe que todas las actividades estén correctamente configuradas. No puede realizar pruebas ni publicaciones si el sistema sigue detectando errores.
 
 Aprenda a solucionar errores en las actividades y en el recorrido [de esta página](troubleshooting.md).
+
+Consulte también **[Supervisión y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**.

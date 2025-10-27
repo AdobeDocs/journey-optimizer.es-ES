@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
 workflow-type: tm+mt
-source-wordcount: '2998'
+source-wordcount: '2999'
 ht-degree: 97%
 
 ---
@@ -48,7 +48,6 @@ ht-degree: 97%
    + [Trabajo con el Asistente de IA](using/start/ai-assistant.md)
    + [Manuales de tácticas de casos de uso](using/start/playbooks.md)
    + [Mecanismos de protección y limitaciones](using/start/guardrails.md)
-   + [Resolución de problemas](using/start/troubleshooting.md)
 + Recorridos {#orchestrate-journeys}
    + [Recorridos](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introducción a los recorridos](using/building-journeys/journey.md)
@@ -304,6 +303,7 @@ ht-degree: 97%
    + [Monitorización y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Alertas del sistema](using/reports/alerts.md)
    + [Referencia de códigos de error](using/building-journeys/error-codes-reference.md)
+   + [Solución de problemas de artículos](using/start/troubleshooting.md)
    + solución de problemas de Recorrido {#troubleshoot-journey}
       + [Solucionar errores de recorrido](using/building-journeys/troubleshooting.md)
       + [Solución de problemas de la ejecución del recorrido](using/building-journeys/troubleshooting-execution.md)
@@ -884,7 +884,7 @@ ht-degree: 97%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}

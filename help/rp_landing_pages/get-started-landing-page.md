@@ -5,10 +5,10 @@ title: Introducción
 description: Introducción
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
-workflow-type: ht
-source-wordcount: '384'
-ht-degree: 100%
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer permite a las empresas crear experiencias de cliente per
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Capacidades clave de Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Descubra las funciones principales, los casos de uso y la arquitectura de Adobe 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Información general sobre la arquitectura de Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Comprenda cómo Adobe Journey Optimizer se integra con Adobe Experience Platform
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Funciones y responsabilidades en Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Obtenga información general sobre las funciones y los flujos de trabajo necesar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Información general sobre la interfaz de usuario de Adobe Journey Optimizer
 
@@ -60,7 +60,7 @@ Navegue por la interfaz de Adobe Journey Optimizer y explore sus funciones, incl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Buscar, filtrar y organizar contenido en Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Utilice las funciones de búsqueda, filtrado y etiquetado para administrar y org
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Mecanismos de protección y limitaciones en Adobe Journey Optimizer
 
@@ -88,5 +88,7 @@ Obtenga información acerca de las restricciones y las prácticas recomendadas p
 - **[Adobe Journey Optimizer: terminología clave](../using/start/terminology-md-redpen.md)**: comprenda los términos y conceptos esenciales para utilizar Adobe Journey Optimizer de forma segura e implementar estrategias de marketing de forma eficaz.
 - **[Características de accesibilidad en Adobe Journey Optimizer](../using/start/accessibility.md)**: obtenga información sobre las características de accesibilidad y el cumplimiento de los estándares WCAG para garantizar la inclusión de todos los usuarios.
 - **[Introducción al asistente de IA en Adobe Journey Optimizer](../using/start/ai-assistant.md)**: aproveche el asistente de IA para navegar por conceptos y obtener datos operativos en Adobe Journey Optimizer.
-- **[Solución de problemas](../using/start/troubleshooting.md)**: cada sección de solución de problemas proporciona respuestas a las preguntas más frecuentes y soluciones a los problemas.
+- **[Artículos de solución de problemas](../using/start/troubleshooting.md)**: cada sección de solución de problemas proporciona respuestas a las preguntas más frecuentes y soluciones a los problemas.
+- **[Supervisión y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**: descubra herramientas completas para realizar un seguimiento del rendimiento del recorrido, identificar posibles problemas y resolverlos rápidamente cuando surjan.
+
 
