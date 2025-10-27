@@ -11,9 +11,9 @@ keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: d1b031dffa860eb4618d985a53ed13b66f136654
+source-git-commit: 0b4dc91b945d17647029d89e294221ff97a26881
 workflow-type: tm+mt
-source-wordcount: '4568'
+source-wordcount: '4938'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 A continuación, encontrará las preguntas más frecuentes sobre los Recorridos de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceptos generales
 
@@ -73,6 +73,63 @@ Un recorrido consta de:
 * **Acciones personalizadas**: integración con sistemas de terceros
 
 Más información sobre [actividades de recorrido](about-journey-activities.md).
+
++++
+
++++ ¿Qué tipos de audiencias se admiten en los recorridos y cuáles son sus limitaciones?
+
+Adobe Journey Optimizer admite tres tipos de audiencias, cada una con diferentes características y protecciones:
+
+**1. Transmitiendo audiencias**
+
+* **Descripción**: audiencias que se evalúan en tiempo real conforme cambian los datos del perfil
+* **Evaluación**: Evaluación continua cuando los atributos o eventos del perfil coinciden con los criterios del segmento
+* **Uso del Recorrido**: Compatible con las actividades Leer audiencia, Calificación de audiencias y Condición
+* **Lo mejor para**: Participación en tiempo real en función de cambios de comportamiento o actualizaciones de perfil
+* **Protecciones**:
+   * El tamaño máximo de audiencia depende de la licencia de Journey Optimizer
+   * Latencia de la evaluación normalmente inferior a 5 minutos
+   * La lógica de segmento compleja puede afectar al rendimiento de la evaluación
+
+**2. Audiencias por lotes**
+
+* **Descripción**: las audiencias se evalúan de forma programada (normalmente a diario)
+* **Evaluación**: procesada en trabajos por lotes a intervalos programados
+* **Uso del Recorrido**: compatible con las actividades Leer audiencia y Condición; compatibilidad limitada con los recorridos de calificación de audiencias
+* **Lo mejor para**: campañas regulares, boletines informativos y comunicaciones programadas
+* **Protecciones**:
+   * La evaluación se realiza una vez al día (valor predeterminado) o según la programación configurada
+   * Es posible que los perfiles no reflejen los cambios en tiempo real hasta la siguiente evaluación
+   * La actividad Leer audiencia puede procesar audiencias por lotes grandes de forma eficaz
+
+**3. Cargar audiencias (carga personalizada)**
+
+* **Descripción**: audiencias creadas al cargar archivos CSV con identificadores de perfil
+* **Evaluación**: la lista estática solo se actualiza cuando se cargan nuevos archivos
+* **Uso del Recorrido**: Compatible con las actividades Leer audiencia y Condición; **no compatible** en los recorridos de Calificación de audiencias
+* **Mejor para**: campañas únicas, importaciones de listas externas y comunicaciones de destino
+* **Protecciones**:
+   * Se aplican límites de tamaño de archivo CSV (compruebe los límites actuales en la documentación del producto)
+   * Los miembros de la audiencia permanecen estáticos hasta que se actualizan con una nueva carga
+   * El área de nombres de identidad debe coincidir con el recorrido
+   * Los perfiles deben existir en Adobe Experience Platform
+
+**Consideraciones específicas del Recorrido**:
+
+* **Leer recorridos de audiencia**: Se admiten los tres tipos de audiencia; la exportación por lotes se produce cuando se ejecuta el recorrido
+* **recorridos de calificación de audiencias**: audiencias de streaming recomendadas; las audiencias por lotes han retrasado la detección de calificación; no se admiten audiencias de carga
+* **Actividades de condición**: todos los tipos de audiencia se pueden usar para comprobar la suscripción
+* **Alineación del área de nombres**: el área de nombres de identidad de audiencia debe coincidir con el área de nombres del recorrido para identificar correctamente el perfil
+
+**Prácticas recomendadas**:
+
+* Use **audiencias de streaming** para recorridos en tiempo real impulsados por eventos que requieren una respuesta inmediata
+* Use **audiencias por lotes** para comunicaciones programadas donde la evaluación diaria sea suficiente
+* Use **cargar audiencias** para campañas únicas de destino con listas externas
+* Monitorizar el tamaño de la audiencia y el rendimiento de la evaluación en implementaciones a gran escala
+* Tenga en cuenta las tasas de actualización de la audiencia al diseñar el tiempo de recorrido y las condiciones de entrada
+
+Obtenga más información sobre [audiencias](../audience/about-audiences.md), [creación de segmentos](../audience/creating-a-segment-definition.md) y [audiencias de carga personalizadas](../audience/custom-upload.md).
 
 +++
 
