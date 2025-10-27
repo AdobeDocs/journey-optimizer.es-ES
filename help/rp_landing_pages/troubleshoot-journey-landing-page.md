@@ -5,10 +5,10 @@ title: Resolución de problemas
 description: Resolución de problemas
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 7894041f841ed14eb3feb626f7d8d818c1b464fa
+source-git-commit: eca6378093abcb2a75ebfee56be82bb2257d514d
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 31%
+source-wordcount: '402'
+ht-degree: 26%
 
 ---
 
@@ -25,7 +25,7 @@ Esta página reúne recursos esenciales para ayudarle a monitorizar el estado de
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Acceso y suscripción a alertas del sistema
 
@@ -35,7 +35,7 @@ Obtenga información sobre cómo acceder a las alertas del sistema, suscribirse 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referencia de códigos de error
 
@@ -45,7 +45,7 @@ Comprenda los códigos de error comunes en Adobe Journey Optimizer y encuentre s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Solucionar errores antes de probar o publicar el recorrido
 
@@ -55,9 +55,9 @@ Identifique y resuelva errores en todo el recorrido, problemas de actividad, y e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Resolución de problemas de la ejecución del recorrido activo en Adobe Journey Optimizer
+Solución de problemas de Live Recorrido Execution
 
 Diagnostique problemas con la validación de eventos, la entrada de perfiles, la navegación mediante el recorrido y el envío de mensajes durante la ejecución activa.
 
@@ -65,9 +65,9 @@ Diagnostique problemas con la validación de eventos, la entrada de perfiles, la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Solucionar problemas de acciones de entrada en recorridos de Adobe Journey Optimizer
+Solución de problemas de acciones entrantes en Recorridos
 
 Depure los problemas de las acciones de envío, como la falta de contenido o la entrega continua después de la salida del perfil, mediante guías paso a paso detalladas.
 
@@ -75,9 +75,9 @@ Depure los problemas de las acciones de envío, como la falta de contenido o la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Resolución de problemas de acciones personalizadas en Adobe Journey Optimizer
+Solución de problemas de acciones personalizadas
 
 Valide y depure las acciones personalizadas mediante la función “Enviar solicitud de prueba” para asegurarse de que las llamadas de API y la configuración de autenticación sean correctas.
 
