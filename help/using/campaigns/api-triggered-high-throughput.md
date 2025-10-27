@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 5a6abcd48495a66496495e62c6027c2fd0fdd4c4
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '532'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,11 @@ Esta página explica cómo las campañas de alto rendimiento difieren de las cam
    * Toda personalización debe incluirse en la carga útil de la API como **datos contextuales**. [Aprenda a personalizar el contenido mediante datos contextuales](../campaigns/api-triggered-campaign-action.md#contextual)
    * No se admite la personalización basada en perfiles. Si se utilizan variables de perfil, se producirán errores de validación.
 
+* **Configuraciones de canal personalizadas**: las configuraciones de canal que usan la [personalización basada en perfiles](../email/surface-personalization.md) no se pueden usar con campañas de alto rendimiento. Solo se pueden utilizar superficies sin personalización de perfil.
+
 * **Extremo de API**: las campañas de alto rendimiento utilizan un extremo diferente que las campañas estándar activadas por API. Para obtener más información, consulte [Ejecutar una campaña desencadenada por API](../campaigns/trigger-campaigns.md#trigger).
 
-* **Exclusividad de la campaña**: Las campañas de alto rendimiento no utilizan perfiles de Adobe. Los mensajes se envían independientemente de si existe o no un perfil.
+* **Exclusividad de la campaña**: las campañas de alto rendimiento no utilizan perfiles de Adobe. Los mensajes se envían independientemente de si existe o no un perfil.
 
   Además, una campaña no se puede usar en casos de uso con y sin perfil. Si necesita ambas, cree dos campañas independientes y asegúrese de que el sistema de llamada decida cuál almacenar en déclencheur en función del contexto.
 
