@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: fa4849cfbb43d74ab85437f00acf6da750080cca
 workflow-type: tm+mt
-source-wordcount: '4568'
+source-wordcount: '5125'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 A continuación, encontrará las preguntas más frecuentes sobre los Recorridos de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceptos generales
 
@@ -74,65 +74,79 @@ Más información sobre [actividades de recorrido](about-journey-activities.md).
 
 +++
 
-<!-- WAITING FOR VALIDATION
++++ ¿Qué tipos de audiencias se admiten en los recorridos y cuáles son sus limitaciones?
 
-+++ What types of audiences are supported in journeys and what are their limitations?
+Adobe Journey Optimizer admite cuatro tipos de audiencias, cada una con diferentes características y protecciones:
 
-Adobe Journey Optimizer supports three types of audiences, each with different characteristics and guardrails:
+**1. Transmitiendo audiencias**
 
-**1. Streaming audiences**
+* **Descripción**: audiencias que se evalúan en tiempo real conforme cambian los datos del perfil
+* **Evaluación**: Evaluación continua cuando los atributos o eventos del perfil coinciden con los criterios del segmento
+* **Uso del Recorrido**: Compatible con las actividades Leer audiencia, Calificación de audiencias y Condición
+* **Lo mejor para**: Participación en tiempo real en función de cambios de comportamiento o actualizaciones de perfil
+* **Protecciones**:
+   * El tamaño máximo de audiencia depende de la licencia de Journey Optimizer
+   * Latencia de la evaluación normalmente inferior a 5 minutos
+   * La lógica de segmento compleja puede afectar al rendimiento de la evaluación
 
-* **Description**: Audiences that evaluate in real-time as profile data changes
-* **Evaluation**: Continuous evaluation when profile attributes or events match segment criteria
-* **Journey usage**: Supported in Read Audience, Audience Qualification, and Condition activities
-* **Best for**: Real-time engagement based on behavioral changes or profile updates
-* **Guardrails**:
-  * Maximum audience size depends on your Journey Optimizer license
-  * Evaluation latency typically under 5 minutes
-  * Complex segment logic may impact evaluation performance
+**2. Audiencias por lotes**
 
-**2. Batch audiences**
+* **Descripción**: las audiencias se evalúan de forma programada (normalmente a diario)
+* **Evaluación**: procesada en trabajos por lotes a intervalos programados
+* **Uso del Recorrido**: compatible con las actividades Leer audiencia y Condición; compatibilidad limitada con los recorridos de calificación de audiencias
+* **Lo mejor para**: campañas regulares, boletines informativos y comunicaciones programadas
+* **Protecciones**:
+   * La evaluación se realiza una vez al día (valor predeterminado) o según la programación configurada
+   * Es posible que los perfiles no reflejen los cambios en tiempo real hasta la siguiente evaluación
+   * La actividad Leer audiencia puede procesar audiencias por lotes grandes de forma eficaz
 
-* **Description**: Audiences evaluated on a scheduled basis (typically daily)
-* **Evaluation**: Processed in batch jobs at scheduled intervals
-* **Journey usage**: Supported in Read Audience and Condition activities; limited support in Audience Qualification journeys
-* **Best for**: Regular campaigns, newsletters, scheduled communications
-* **Guardrails**:
-  * Evaluation occurs once per day (default) or at configured schedule
-  * Profiles may not reflect real-time changes until next evaluation
-  * Read Audience activity can process large batch audiences efficiently
+**3. Cargar audiencias (carga personalizada)**
 
-**3. Upload audiences (Custom upload)**
+* **Descripción**: audiencias creadas al cargar archivos CSV con identificadores de perfil
+* **Evaluación**: la lista estática solo se actualiza cuando se cargan nuevos archivos
+* **Uso del Recorrido**: Compatible con las actividades Leer audiencia y Condición; **no compatible** en los recorridos de Calificación de audiencias
+* **Mejor para**: campañas únicas, importaciones de listas externas y comunicaciones de destino
+* **Protecciones**:
+   * Se aplican límites de tamaño de archivo CSV (compruebe los límites actuales en la documentación del producto)
+   * Los miembros de la audiencia permanecen estáticos hasta que se actualizan con una nueva carga
+   * El área de nombres de identidad debe coincidir con el recorrido
+   * Los perfiles deben existir en Adobe Experience Platform
 
-* **Description**: Audiences created by uploading CSV files with profile identifiers
-* **Evaluation**: Static list updated only when new files are uploaded
-* **Journey usage**: Supported in Read Audience and Condition activities; **not supported** in Audience Qualification journeys
-* **Best for**: One-time campaigns, external list imports, targeted communications
-* **Guardrails**:
-  * CSV file size limits apply (check product documentation for current limits)
-  * Audience members are static until refreshed with new upload
-  * Identity namespace must match journey namespace
-  * Profiles must exist in Adobe Experience Platform
+**4. Audiencias de composición de audiencias federadas (FAC)**
 
-**Journey-specific considerations**:
+* **Descripción**: audiencias creadas con datos federados, que le permiten consultar y componer audiencias de almacenes de datos externos sin copiar datos en Adobe Experience Platform
+* **Evaluación**: la composición estática se actualizó cuando se ejecuta la composición de audiencia federada
+* **Uso del Recorrido**: Compatible con las actividades Leer audiencia y Condición; **no compatible** en los recorridos de Calificación de audiencias (similar a cargar audiencias desde una perspectiva back-end)
+* **Lo mejor para**: integración del almacén de datos empresarial, composición de audiencias mediante fuentes de datos externas, escenarios que requieren datos para permanecer en sistemas externos
+* **Protecciones**:
+   * Los miembros de la audiencia permanecen estáticos hasta la siguiente ejecución de composición federada
+   * El área de nombres de identidad debe coincidir con el recorrido
+   * El rendimiento depende de las capacidades de consulta externas del Data Warehouse
+   * Requiere el complemento Composición de audiencia federada
 
-* **Read Audience journeys**: All three audience types supported; batch export occurs when journey runs
-* **Audience Qualification journeys**: Streaming audiences recommended; batch audiences have delayed qualification detection; upload audiences not supported
-* **Condition activities**: All audience types can be used to check membership
-* **Namespace alignment**: Audience identity namespace must match the journey's namespace for proper profile identification
+**Audiencias de Customer Journey Analytics (CJA)**:
 
-**Best practices**:
+Aunque las audiencias de CJA no se admiten directamente en recorrido, puedes usar una **solución alternativa** al &quot;envolver&quot; una audiencia de CJA en una regla de segmentación. Esto crea una audiencia de UPS (Servicio de perfil unificado) por lotes que hace referencia a la audiencia de CJA, lo que la hace disponible para su uso en recorrido como tipo de audiencia por lotes.
 
-* Use **streaming audiences** for real-time, event-driven journeys requiring immediate response
-* Use **batch audiences** for scheduled communications where daily evaluation is sufficient
-* Use **upload audiences** for targeted one-time campaigns with external lists
-* Monitor audience size and evaluation performance in large-scale deployments
-* Consider audience refresh rates when designing journey timing and entry conditions
+**Consideraciones específicas del Recorrido**:
 
-Learn more about [audiences](../audience/about-audiences.md), [creating segments](../audience/creating-a-segment-definition.md), and [custom upload audiences](../audience/custom-upload.md).
+* **Leer recorridos de audiencia**: Se admiten los cuatro tipos de audiencia; la exportación por lotes se produce cuando se ejecuta el recorrido
+* **recorridos de calificación de audiencias**: se recomiendan audiencias de streaming; las audiencias por lotes tienen detección de calificación retrasada; no se admiten audiencias de carga y FAC
+* **Actividades de condición**: todos los tipos de audiencia se pueden usar para comprobar la suscripción
+* **Alineación del área de nombres**: el área de nombres de identidad de audiencia debe coincidir con el área de nombres del recorrido para identificar correctamente el perfil
+
+**Prácticas recomendadas**:
+
+* Use **audiencias de streaming** para recorridos en tiempo real impulsados por eventos que requieren una respuesta inmediata
+* Use **audiencias por lotes** para comunicaciones programadas donde la evaluación diaria sea suficiente
+* Use **cargar audiencias** para campañas únicas de destino con listas externas
+* Use **audiencias de FAC** cuando necesite aprovechar las capacidades de Enterprise Data Warehouse sin duplicar datos
+* Monitorizar el tamaño de la audiencia y el rendimiento de la evaluación en implementaciones a gran escala
+* Tenga en cuenta las tasas de actualización de la audiencia al diseñar el tiempo de recorrido y las condiciones de entrada
+
+Obtenga más información sobre [audiencias](../audience/about-audiences.md), [creación de segmentos](../audience/creating-a-segment-definition.md), [audiencias de carga personalizadas](../audience/custom-upload.md) y [composición de audiencias federadas](../audience/federated-audience-composition.md).
 
 +++
--->
 
 +++ ¿Cómo puedo elegir entre un recorrido unitario y un recorrido de audiencia de lectura?
 
