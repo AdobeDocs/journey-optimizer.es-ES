@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 6f4ec598a56b0e835e1e866f24dcc016f6835be8
+source-git-commit: af4a5965c9268baf88c5306f1aa20d305ee7e501
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 5%
+source-wordcount: '1457'
+ht-degree: 4%
 
 ---
 
@@ -221,6 +221,22 @@ Teniendo en cuenta esto, para un perfil como:
                     ]}
 }
 ```
+
++++
+
++++Aumente las ofertas en función del código postal y los ingresos anuales de un perfil
+
+En este ejemplo, el sistema siempre intenta mostrar primero una oferta que coincida con el código postal y vuelve a una oferta general si no se encuentra ninguna coincidencia, evitando mostrar ofertas destinadas a otros códigos postales.
+
+```pql
+if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 10000, if( not offer.luma.offerDetails.zipCode,_luma.annualIncome / 1000, -9999) )
+```
+
+Lo que hace la fórmula:
+
+* Si la oferta tiene el mismo código postal que el usuario, asígnele una puntuación muy alta para que se seleccione primero.
+* Si la oferta no tiene código postal (se trata de una oferta general), asígnele una puntuación normal basada en los ingresos del usuario.
+* Si la oferta tiene un código postal diferente al del usuario, asígnele una puntuación muy baja para que no esté seleccionada.
 
 +++
 
