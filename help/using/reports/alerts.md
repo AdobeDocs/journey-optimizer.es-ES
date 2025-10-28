@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 663292f83538707effeb992a0602b1f40d8c1663
+source-git-commit: cc38101d0745770cca196372fc5fdbb64318e601
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1815'
 ht-degree: 1%
 
 ---
@@ -35,10 +35,9 @@ En el menú de la izquierda, debajo de **[!UICONTROL Administración]**, haga cl
 
 * Alertas específicas de los recorridos:
 
-   * la alerta [Error de acción personalizada de Recorrido](#alert-custom-actions)
    * la alerta [Leer Déclencheur de audiencia no se ha realizado correctamente](#alert-read-audiences)
+   * la alerta [Tasa de error de acción personalizada superada](#alert-custom-action-error-rate) (reemplaza la alerta de error de acción personalizada de Recorrido anterior)
    * la alerta [Tasa de descarte de perfil superada](#alert-discard-rate)
-   * la alerta [Tasa de error de acción personalizada superada](#alert-custom-action-error-rate)
    * la alerta [Tasa de error de perfil superada](#alert-profile-error-rate)
 
 * Alertas específicas de la configuración del canal:
@@ -55,7 +54,7 @@ Puede suscribirse a cada alerta individualmente desde la interfaz de usuario, ya
 
 En función de las preferencias del suscriptor, las alertas se envían por correo electrónico o directamente en el centro de notificaciones de Journey Optimizer, en la esquina superior derecha de la interfaz de usuario (notificaciones en la aplicación). Seleccione cómo desea recibir estas alertas en las [!DNL Adobe Experience Cloud] **[!UICONTROL Preferencias]**. [Más información](../start/user-interface.md#in-product-alerts)
 
-Cuando se resuelve una alerta, los suscriptores reciben una notificación &quot;Resuelto&quot;.
+Cuando se resuelve una alerta, los suscriptores reciben una notificación &quot;Resuelto&quot;. Las alertas se resuelven después de 1 hora para evitar valores de alternancia.
 
 
 ### Suscripción global {#global-subscription}
@@ -72,7 +71,7 @@ Para suscribirse o cancelar la suscripción a una alerta para todos los recorrid
 
 1. Use el mismo método para **[!UICONTROL cancelar la suscripción]**.
 
-También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
+También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
 
 ### Suscripción unitaria {#unitary-subscription}
 
@@ -88,7 +87,7 @@ Para suscribirse o cancelar la suscripción a una alerta de un recorrido especí
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## alertas de recorrido {#journey-alerts}
 
@@ -107,43 +106,15 @@ Esta alerta le advierte si una actividad **Leer audiencia** no ha procesado ning
 
 Las alertas de las actividades **Leer audiencia** solo se aplican a los recorridos recurrentes. Se omiten las actividades de **Leer audiencia** en recorridos activos que tienen una programación para ejecutarse **Una vez** o **Lo antes posible**.
 
-Las alertas de **Leer audiencia** se resuelven cuando un perfil entra en el nodo **Leer audiencia**.
+Las alertas de **Leer audiencia** se resuelven cuando un perfil entra en el nodo **Leer audiencia** o después de 1 hora.
 
 El nombre de suscripción de evento de E/S correspondiente a la alerta **Leer Déclencheur de audiencias erróneo** es **Recorrido de retrasos, errores y errores de lectura de audiencia**.
 
 Para solucionar problemas de las alertas de **Leer audiencia**, compruebe su recuento de audiencias en la interfaz de Experience Platform.
 
-
-### Error de acción personalizada de recorrido {#alert-custom-actions}
-
-Esta alerta le advierte si falla una acción personalizada. Consideramos que hay un error en el que ha habido más del 1 % de errores en una acción personalizada específica en los últimos 5 minutos. Esto se evalúa cada 30 segundos.
-
-Haga clic en el nombre de la alerta para comprobar sus detalles y configuración.
-
-<!--
-![](assets/alerts-custom-action.png)-->
-
-Las alertas de acciones personalizadas se resuelven cuando, en los últimos 5 minutos:
-
-* no se ha producido ningún error en esa acción personalizada (o errores por debajo del umbral del 1 %),
-
-* o bien, ningún perfil ha alcanzado esa acción personalizada.
-
-El nombre de suscripción de evento de E/S correspondiente a la alerta de acción personalizada es **Error de acción personalizada de Recorrido**.
-
-Para solucionar problemas de **alertas de acción personalizada**:
-
-* Comprueba tu acción personalizada usando [modo de prueba](../building-journeys/testing-the-journey.md) en otro recorrido.
-
-* Consulte su [informe de recorridos](../reports/journey-live-report.md) para ver los motivos de error al realizar la acción.
-
-* Compruebe los stepEvents de recorrido para buscar más información sobre &quot;failureReason&quot;.
-
-* Compruebe la configuración de la acción personalizada y compruebe que la autenticación sigue siendo válida. Realice una comprobación manual con Postman, por ejemplo.
-
 ### Tasa de descartes de perfil superada {#alert-discard-rate}
 
-Esta alerta le advierte si la proporción de descartes de perfiles respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado es 20%, pero puede [definir un umbral personalizado](#custom-threshold).
+Esta alerta le advierte si la proporción de descartes de perfiles respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado está establecido en 20%, pero puede [definir un umbral personalizado](#custom-threshold).
 
 Haga clic en el nombre de la alerta para comprobar sus detalles y configuración.
 
@@ -158,17 +129,26 @@ Existen varias razones por las que se puede descartar un perfil, lo que informar
 
 ### Tasa de errores de acción personalizada superada {#alert-custom-action-error-rate}
 
-Esta alerta le advierte si la proporción de errores de acción personalizada respecto a llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado es 20%, pero puede [definir un umbral personalizado](#custom-threshold).
+Esta alerta le advierte si la proporción de errores de acción personalizada respecto a llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado está establecido en 20%, pero puede [definir un umbral personalizado](#custom-threshold).
+
+>[!NOTE]
+>
+>Esta alerta reemplaza la alerta **Error de acción personalizada de Recorrido** anterior.
+
+Haga clic en el nombre de la alerta para comprobar sus detalles y configuración.
 
 Los errores de acciones personalizadas pueden ocurrir por varios motivos. Para solucionar estos errores, puede:
 
-* Compruebe que la acción personalizada está configurada correctamente
-* Compruebe que el extremo sea accesible y que la acción personalizada pueda llegar a él a través del comprobador de conectividad de acción personalizada
+* Comprueba tu acción personalizada usando [modo de prueba](../building-journeys/testing-the-journey.md) en otro recorrido.
+* Consulte su [informe de recorridos](../reports/journey-live-report.md) para ver los motivos de error al realizar la acción.
+* Compruebe los stepEvents de recorrido para buscar más información sobre &quot;failureReason&quot;.
+* Compruebe que la acción personalizada esté configurada correctamente y valide que la autenticación sigue siendo válida. Realice una comprobación manual con Postman, por ejemplo.
+* Compruebe que el punto de conexión sea accesible y que la acción personalizada pueda llegar a él a través del comprobador de conectividad de acción personalizada.
 * Compruebe las credenciales de autenticación, la conectividad a Internet, etc.
 
 ### Tasa de errores de perfil superada {#alert-profile-error-rate}
 
-Esta alerta le advierte si la proporción de errores de acción personalizada respecto a llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado es 20%, pero puede [definir un umbral personalizado](#custom-threshold).
+Esta alerta le advierte si la proporción de perfiles en error respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado está establecido en 20%, pero puede [definir un umbral personalizado](#custom-threshold).
 
 Haga clic en el nombre de la alerta para comprobar sus detalles y configuración.
 
