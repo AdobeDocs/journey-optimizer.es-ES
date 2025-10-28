@@ -10,9 +10,9 @@ level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 84f4bdf3f79d8f19b615c68a03e25b24f435f952
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1800'
 ht-degree: 8%
 
 ---
@@ -31,6 +31,37 @@ Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba.
 >[!NOTE]
 >
 >Antes de probar el recorrido, debe resolver todos los errores. Aprenda a comprobar errores antes de probar en [esta sección](../building-journeys/troubleshooting.md).
+
+## Notas importantes {#important_notes}
+
+### Limitaciones generales
+
+* **Solo perfiles de prueba**: solo los individuos marcados como &quot;perfiles de prueba&quot; en el servicio Perfil del cliente en tiempo real pueden entrar en un recorrido en modo de prueba. [Aprenda a crear perfiles de prueba](../audience/creating-test-profiles.md).
+* **Requisito de área de nombres**: el modo de prueba solo está disponible para los recorridos de borrador que utilizan un área de nombres. El modo de prueba debe comprobar si una persona que entra en el recorrido es un perfil de prueba o no y, por lo tanto, debe poder acceder a Adobe Experience Platform.
+* **Límite de perfiles**: un máximo de 100 perfiles de prueba pueden entrar en un recorrido durante una sola sesión de prueba.
+* **Activación de eventos**: los eventos solo se pueden activar desde la interfaz. Los eventos no se pueden activar desde sistemas externos mediante una API.
+* **Audiencias de carga personalizadas**: el modo de prueba de Recorrido no admite [audiencia de carga personalizada](../audience/custom-upload.md) enriquecimiento de atributos.
+
+### Comportamiento durante y después de las pruebas
+
+* **Deshabilitando el modo de prueba**: cuando deshabilita el modo de prueba, se quitan todos los perfiles que estén actualmente en la recorrido o que hayan entrado anteriormente en ella y se borran los informes.
+* **Flexibilidad de reactivación**: puede habilitar y deshabilitar el modo de prueba tantas veces como sea necesario.
+* **Desactivación automática**: los Recorridos que permanecen inactivos en modo de prueba durante **más de una semana** vuelven automáticamente al estado Borrador para optimizar el rendimiento y evitar el uso de recursos obsoletos.
+* **Edición y publicación**: mientras el modo de prueba esté activo, no puede modificar el recorrido. Sin embargo, puede publicar directamente el recorrido, sin necesidad de desactivar el modo de prueba antes.
+
+### Ejecución
+
+* **Comportamiento de división**: cuando el recorrido alcanza una división, siempre se selecciona la rama superior. Reordene las ramas si desea probar una ruta diferente.
+* **Tiempo de espera del evento**: si el recorrido incluye*varios eventos, almacene en déclencheur cada evento en secuencias. Si se envía un evento demasiado pronto (antes de que finalice el primer nodo de espera) o demasiado tarde (después del tiempo de espera configurado), se descartará el evento y se enviará el perfil a una ruta de tiempo de espera. Confirme siempre que las referencias a los campos de carga útil de evento sigan siendo válidas enviando la carga útil dentro de la ventana definida
+* **Ventana de fecha activa**. Asegúrese de que la ventana del recorrido que ha configurado para elegir [fechas/hora de inicio y finalización](journey-properties.md#dates) incluya la hora actual al iniciar el modo de prueba. De lo contrario, los eventos de prueba activados se descartan silenciosamente.
+* **Eventos de reacción**: para los eventos de reacción con tiempo de espera, el tiempo de espera mínimo y predeterminado es de 40 segundos.
+* **Conjuntos de datos de prueba**: los eventos activados en el modo de prueba se almacenan en conjuntos de datos dedicados etiquetados de la siguiente manera: `JOtestmode - <schema of your event>`
+
+<!--
+* Fields from related entities are hidden from the test mode.
+-->
+
+## Activar el modo de prueba
 
 Para utilizar el modo de prueba, siga estos pasos:
 
@@ -60,25 +91,6 @@ Para utilizar el modo de prueba, siga estos pasos:
 
 1. Si hay algún error, desactive el modo de prueba, modifique el recorrido y pruebe de nuevo. Una vez realizadas las pruebas, puede publicar el recorrido. Consulte [esta página](../building-journeys/publishing-the-journey.md).
 
-## Notas importantes {#important_notes}
-
-* En el modo de prueba, solo puede activar eventos mediante la interfaz. Los eventos no se pueden activar desde sistemas externos mediante una API.
-* Solo se permite a las personas marcadas como &quot;perfiles de prueba&quot; en el servicio Perfil del cliente en tiempo real entrar en el recorrido probado. Consulte esta [sección](../audience/creating-test-profiles.md).
-* El modo de prueba solo está disponible en recorridos de borrador que utilizan un área de nombres. El modo de prueba debe comprobar si una persona que entra en el recorrido es un perfil de prueba o no y, por lo tanto, debe poder acceder a Adobe Experience Platform.
-* El número máximo de perfiles de prueba que puede introducir un recorrido durante una sesión de prueba es de 100.
-* Al deshabilitar el modo de prueba, se vacían las recorridos de todas las personas que lo ingresaron en el pasado o que se encuentran actualmente en él. También borra la creación de informes.
-* Puede habilitar/deshabilitar el modo de prueba tantas veces como sea necesario.
-* No puede modificar el recorrido cuando el modo de prueba está activado. En el modo de prueba, puede publicar directamente el recorrido, sin necesidad de desactivar el modo de prueba antes.
-* Al llegar a una división, siempre se elige la rama superior. Puede reorganizar la posición de las ramas divididas si desea que la prueba elija una ruta diferente.
-* Para optimizar el rendimiento y evitar el uso de recursos obsoletos, todos los recorridos en modo de prueba que no se hayan activado durante una semana volverán al estado **Borrador**.
-* Los eventos activados por el modo de prueba se almacenan en conjuntos de datos dedicados. Estos conjuntos de datos están etiquetados de la siguiente manera: `JOtestmode - <schema of your event>`
-* Al probar recorridos que incluyen varios eventos, debe almacenar en déclencheur cada evento en secuencia. Si se envía un evento demasiado pronto (antes de que termine el primer nodo de espera) o demasiado tarde (después del tiempo de espera configurado), se descartará el evento y se enviará el perfil a una ruta de tiempo de espera. Confirme siempre que las referencias a los campos de carga útil de evento sigan siendo válidas enviando la carga útil dentro de la ventana definida
-* Asegúrese de que la ventana del recorrido Elegir [fechas/hora de inicio y finalización](journey-properties.md#dates) incluya la hora actual al iniciar el modo de prueba. De lo contrario, los eventos de prueba activados se descartan silenciosamente.
-
-<!--
-* Fields from related entities are hidden from the test mode.
--->
-
 ## Activación de eventos {#firing_events}
 
 >[!CONTEXTUALHELP]
@@ -106,7 +118,7 @@ El área de nombres de identidad se utiliza para identificar los perfiles de pru
 >* Asegúrese de que cada evento en el modo de prueba se active en el orden correcto y dentro de la ventana de espera configurada. Por ejemplo, si hay una espera de 60 segundos, el segundo evento debe activarse solo después de que haya transcurrido esa espera de 60 segundos y antes de que caduque el límite de tiempo de espera.
 >
 
-### Configuración de evento {#trigger-events-configuration}
+### Configuración de eventos {#trigger-events-configuration}
 
 Si el recorrido contiene varios eventos, utilice el menú desplegable para seleccionar un evento. A continuación, para cada evento, configure los campos pasados y la ejecución del envío del evento. La interfaz de le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
