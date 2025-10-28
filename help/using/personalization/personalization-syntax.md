@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: expresión, editor, sintaxis, personalización
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---
@@ -44,6 +44,8 @@ donde:
 * Las palabras **true**, **false**, **null** y **undefined** solo se permiten en la primera parte de una expresión de ruta.
 
 * En Handlebars, los valores devueltos por {{expression}} son **HTML-escaped**. Si la expresión contiene `&`, el resultado devuelto con escape de HTML se generará como `&amp;`. Si no desea que Handlebars escape un valor, utilice la &quot;pila triple&quot;.
+
+  Supongamos que el valor del campo `profile.person.name` es &quot;Mark &amp; Mary&quot;. La sintaxis `{{profile.person.name}}` mostrará `Mark &amp; Mary`, mientras que `{{{profile.person.name}}}` mostrará `Mark & Mary`.
 
 * En cuanto a los argumentos de funciones literales, el analizador de idioma de creación de plantillas no admite un único símbolo de barra invertida sin escape (`\`). Este carácter debe tener un carácter de escape con una barra invertida (`\`) adicional. Ejemplo :
 
