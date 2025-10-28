@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 20%
+source-wordcount: '1654'
+ht-degree: 19%
 
 ---
 
@@ -33,7 +33,7 @@ Cuando Journey Optimizer ejecuta una llamada a una API externa, las protecciones
 
 >[!TIP]
 >
->Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
+>Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` ](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
 
 ## API de límite y restricción {#capping}
 
@@ -106,21 +106,31 @@ Veamos un ejemplo para un tiempo de espera de 5 segundos.
    * Si uno de los tres reintentos se realiza correctamente antes del final de los 5 segundos, se realiza la llamada y no hay ningún error.
    * Si se alcanza el final de la duración del tiempo de espera durante los reintentos, la llamada se cancela y se cuenta como un error de tiempo de espera en el sistema de informes.
 
-## Preguntas frecuentes{#faq}
+## Preguntas frecuentes {#faq}
 
-**¿Cómo puedo configurar una regla de restricción o límite? ¿Hay una regla predeterminada?**
+A continuación, encontrará las preguntas más frecuentes sobre la integración de Journey Optimizer con sistemas externos.
+
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
+
++++ ¿Cómo puedo configurar una regla de restricción o límite? ¿Existe una regla predeterminada?
 
 Para crear reglas de restricción o límite, consulte [esta sección](../configuration/external-systems.md#capping). De forma predeterminada, no hay ninguna regla de restricción, pero se establece un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción.
 
-**¿Cuántos reintentos se realizan? ¿Puedo cambiar el número de reintentos o definir un período de espera mínimo entre reintentos?**
++++
+
++++ ¿Cuántos reintentos se realizan? ¿Puedo cambiar el número de reintentos o definir un período de espera mínimo entre reintentos?
 
 Para una llamada determinada, se puede realizar un máximo de tres reintentos después de la primera llamada, hasta que se alcance el final de la duración del tiempo de espera. No se puede cambiar el número de reintentos ni el tiempo entre cada reintento. Consulte [esta sección](../configuration/external-systems.md#timeout).
 
-**¿Dónde puedo configurar el tiempo de espera? ¿Hay un valor máximo?**
++++
+
++++ ¿Dónde puedo configurar el tiempo de espera? ¿Hay un valor máximo?
 
 En cada recorrido, puede definir una duración de tiempo de espera. La duración del tiempo de espera se configura en las propiedades de un recorrido. La duración del tiempo de espera debe estar entre 1 segundo y 30 segundos. Consulte [esta sección](../configuration/external-systems.md#timeout) y [esta página](../building-journeys/journey-properties.md#timeout_and_error).
 
-**¿Cuál es el número máximo de conexiones abiertas por Journey Optimizer cuando se utilizan acciones personalizadas?**
++++
+
++++ ¿Cuál es el número máximo de conexiones que abre Journey Optimizer cuando se utilizan acciones personalizadas?
 
 Con el proxy IP habilitado y una configuración de restricción definida en el punto de conexión de destino, el número de conexiones se basa en la velocidad (son estimaciones, no números garantizados):
 
@@ -130,3 +140,5 @@ Con el proxy IP habilitado y una configuración de restricción definida en el p
 * entre 4000 y 5000: 125 conexiones
 
 Si no se define ninguna configuración de restricción en un punto de conexión, el motor de Journey Optimizer está diseñado para ampliarse y puede llegar a un número elevado de conexiones (más de 2000). Para obtener un número limitado de conexiones, los clientes deben utilizar una configuración de regulación.
+
++++
