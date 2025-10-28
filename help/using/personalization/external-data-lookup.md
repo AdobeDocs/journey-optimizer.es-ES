@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 1%
+source-wordcount: '1241'
+ht-degree: 2%
 
 ---
 
@@ -206,16 +206,24 @@ En la sección Edge Delivery del seguimiento de seguridad como parte de los deta
 
 ![](assets/external-data-troubleshoot.png "width=50%")
 
-## Preguntas frecuentes
+## Preguntas frecuentes {#faq-external-data}
 
-* ¿Cómo pasar un atributo contextual desde la solicitud como parámetro a una búsqueda de datos externa?
+A continuación, encontrará las preguntas más frecuentes sobre el asistente de búsqueda de datos externos.
 
-  Utilice el menú Atributos contextuales > Flujo de datos > Evento para examinar el esquema de Experience Event que está utilizando e insertar el atributo relevante como valor de parámetro como se muestra a continuación:
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
-  ```
-  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
-  ```
++++ ¿Cómo pasar un atributo contextual desde la solicitud como parámetro a una búsqueda de datos externa?
 
-* ¿Hace [!DNL Journey Optimizer] almacenamiento en caché de las respuestas de extremo externo?
+Utilice el menú Atributos contextuales > Flujo de datos > Evento para examinar el esquema de Experience Event que está utilizando e insertar el atributo relevante como valor de parámetro como se muestra a continuación:
 
-  Actualmente no. Esta función será compatible en el futuro.
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+```
+
++++
+
++++ ¿Hace [!DNL Journey Optimizer] almacenamiento en caché de las respuestas de extremo externo?
+
+Actualmente no. Esta función será compatible en el futuro.
+
++++

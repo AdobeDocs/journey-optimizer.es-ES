@@ -10,9 +10,9 @@ level: Intermediate
 keywords: tiempo de envío, envío, mensaje, optimización, recorrido, IA, inteligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1520'
 ht-degree: 9%
 
 ---
@@ -98,6 +98,10 @@ Los tiempos de envío de exploración se seleccionan al azar entre los tiempos d
 
 
 ## Preguntas frecuentes {#faq-send-time}
+
+A continuación encontrará las preguntas más frecuentes sobre la optimización del tiempo de envío.
+
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++¿Cuánto tiempo debo esperar antes de utilizar la optimización del tiempo de envío?
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '550'
 ht-degree: 3%
 
 ---
@@ -56,10 +56,11 @@ Estas son las acciones que puede realizar con los atributos de enriquecimiento d
 >+++
 
 
+## Preguntas frecuentes {#faq-enrichment}
 
+A continuación, encontrará las preguntas más frecuentes sobre los atributos de enriquecimiento.
 
-
-
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ ¿Qué son los atributos de enriquecimiento?
 
