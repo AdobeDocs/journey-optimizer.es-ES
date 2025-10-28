@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
+source-git-commit: 663292f83538707effeb992a0602b1f40d8c1663
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1898'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Al crear sus recorridos y campañas, utilice el botón **Alerts** para comprobar
 
 * Aprenda a solucionar problemas de sus recorridos en [esta página](../building-journeys/troubleshooting.md)
 
-* Aprenda a revisar sus campañas en [esta página](../campaigns/review-activate-campaign.md)
+* Aprenda a revisar y activar sus campañas: [Campañas de acción](../campaigns/review-activate-campaign.md) | [Campañas activadas por API](../campaigns/review-activate-api-triggered-campaign.md) | [Campañas organizadas](../orchestrated/start-monitor-campaigns.md)
 
 
 Además de estas, cuando se alcanza un determinado conjunto de condiciones, se pueden enviar mensajes de alerta a cualquier usuario de la organización que se haya suscrito a ellas. Estas alertas están disponibles en el menú **[!UICONTROL Alertas]** dedicado. Adobe Experience Platform proporciona varias reglas de alerta predefinidas que puede habilitar para su organización. Además, puede suscribirse a las alertas del sistema específicas de [!DNL Adobe Journey Optimizer], tal como se detalla en esta página.
@@ -72,7 +72,7 @@ Para suscribirse o cancelar la suscripción a una alerta para todos los recorrid
 
 1. Use el mismo método para **[!UICONTROL cancelar la suscripción]**.
 
-También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
+También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
 
 ### Suscripción unitaria {#unitary-subscription}
 
@@ -88,7 +88,7 @@ Para suscribirse o cancelar la suscripción a una alerta de un recorrido especí
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## alertas de recorrido {#journey-alerts}
 
