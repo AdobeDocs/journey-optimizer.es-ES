@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expresión, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 6b3005dd9483ff5311e4bf6b4f13d254c6be41d6
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1550'
 ht-degree: 10%
 
 ---
@@ -162,8 +162,6 @@ Entre las opciones disponibles se encuentran:
 1. **[!UICONTROL Pills]**: muestra los atributos como &quot;píldoras&quot; compactas para mejorar la legibilidad al ocultar rutas de atributos largas. Haga clic en un atributo para mostrar su ruta completa.
 
    >[!NOTE]
-   >
-   >La visualización de pastillas se implementará gradualmente en todos los entornos durante los próximos 30 días.
    >
    >Esta opción solo está disponible para atributos de perfil, atributos contextuales y medios dinámicos.
 
