@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: correo electrónico, importación, contenido, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 34%
@@ -26,6 +26,11 @@ ht-degree: 34%
   >[!NOTE]
   >
   >No hay restricciones en la estructura de archivos .zip. Sin embargo, las referencias deben ser relativas y ajustarse a la estructura de árbol de la carpeta .zip.
+
+<!--DOCAC-13676
+>[!TIP]
+>
+>If you have image designs (JPEG or PNG) instead of HTML files, you can use the [Template Accelerator](image-to-html.md) to automatically convert them into editable HTML email templates using AI.-->
 
 Para importar un archivo con contenido HTML, siga los pasos a continuación:
 
@@ -55,4 +60,4 @@ Para importar un archivo con contenido HTML, siga los pasos a continuación:
 
 Obtenga información sobre cómo importar contenido HTML existente, modificar el diseño, añadir páginas espejo y cancelar la suscripción de vínculos, y cómo codificar el contenido.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421909?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)
