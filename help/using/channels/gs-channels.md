@@ -136,16 +136,16 @@ La siguiente tabla muestra la disponibilidad de cada canal en diferentes recorri
 | Canal              | Recorridos | Campañas de acción (marketing) | Campañas de acción (transaccionales) | Campañas activadas por API (Marketing) | Campañas activadas por API (transaccionales) | Campañas organizadas |
 =======
 | Canal              | Recorridos | Campañas de acción (marketing) | Campañas de acción (transaccionales) | Campañas activadas por API | Campañas organizadas |
->>>>>>>>>>Cambios ocultos
->>>>>>>>>>----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
->>>>>>>>>>| Correo electrónico                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->>>>>>>>>>| Notificación push    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->>>>>>>>>>| En la aplicación               | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Correo directo          | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Exp. basada en código      | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Tarjetas de contenido        | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Línea                 | ✅ | ✅ | — | — | — | — |
+&#x200B;>>>>>>>>>>Cambios ocultos
+>&#x200B;>>>>>>>>>----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
+>&#x200B;>>>>>>>>>| Correo electrónico                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>&#x200B;>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>&#x200B;>>>>>>>>>| Notificación push    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>&#x200B;>>>>>>>>>| En la aplicación               | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Correo directo          | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Exp. basada en código      | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Tarjetas de contenido        | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Línea                 | ✅ | ✅ | — | — | — | — |
 > 
