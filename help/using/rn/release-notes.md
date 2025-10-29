@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 913104934e78b61b91ea3fca21ee80372050a1fb
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 48%
+source-wordcount: '1297'
+ht-degree: 47%
 
 ---
 
@@ -31,6 +31,24 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 **Fecha de lanzamiento**: jueves, 22 de octubre de 2025
 
 ### Nuevas funciones {#oct-25-10-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitorización y creación de informes de acciones personalizadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Esta capacidad proporciona una mejor visibilidad del estado y el rendimiento de los extremos de acciones personalizadas. Un nuevo panel de monitorización de acciones personalizadas y los campos correspondientes en el conjunto de datos de eventos de pasos de recorrido le ayudarán a monitorizar las llamadas, los errores, el rendimiento, el tiempo de respuesta y el tiempo de espera de cola correctos para los extremos de acciones personalizadas. Ahora puede comprender rápidamente cuándo, dónde y por qué se produce una situación anómala en una acción personalizada.</p>
+<p>Actualmente, esta capacidad está en disponibilidad limitada para los clientes de.</p>
+<p>Para obtener más información, consulte la <a href="../action/reporting.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: miércoles, 28 de octubre de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -71,24 +89,6 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Custom action monitoring and reporting</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>This capability provides better visibility into journey health and execution, including lifecycle status and performance alerts. You can now quickly understand when, where, and why an anomalous situation is occurring in a custom action.</p>
-<img src="assets/do-not-localize/FILE.gif">
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p>
-<p>Availability date: October 22, 2025</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <!--table>
 <thead>
@@ -288,7 +288,7 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator ahora incluye Experimentation Agent, una herramienta conversacional con tecnología de IA que le permite interactuar con sus experimentos, perspectivas y oportunidades. Mejora la experiencia de Journey Optimizer Experimentation Accelerator, lo que le ayuda a ejecutar experimentos de forma más eficiente, descubrir qué funciona y descubrir dónde optimizar a continuación.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=es" target="_blank">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: sábado, 10 de octubre de 2025</p>
 </td>
 </tr>

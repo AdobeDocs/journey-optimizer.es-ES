@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '3006'
+source-wordcount: '3010'
 ht-degree: 97%
 
 ---
@@ -886,7 +886,7 @@ ht-degree: 97%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
@@ -945,6 +945,7 @@ ht-degree: 97%
       + [Introducción a las acciones personalizadas](using/action/action.md)
       + [Configuración de una acción personalizada](using/action/about-custom-action-configuration.md)
       + [Uso de respuestas de llamadas API en acciones personalizadas](using/action/action-response.md)
+      + [Monitorización de las acciones personalizadas](using/action/reporting.md)
 + Conectar sus sistemas y entornos {#connect-systems}
    + [Conectar sus sistemas y entornos](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [Integración con otras soluciones](using/integrations/ajo-integrations.md)
