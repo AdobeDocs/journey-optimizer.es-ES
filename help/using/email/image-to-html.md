@@ -10,19 +10,14 @@ level: Beginner
 keywords: correo electrónico, plantilla, imagen, HTML, IA, diseño, acelerador
 hide: true
 hidefromtoc: true
-source-git-commit: 86bf80c56a1bd50872d014a7aa92407227c823f8
+source-git-commit: f23bb73a9aa1c3ca8a6fc7a9a7f4d18cebc1faf3
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1484'
 ht-degree: 3%
 
 ---
 
 # Convertir imágenes a plantillas de HTML con el acelerador de plantillas {#image-to-html}
-
->[!CONTEXTUALHELP]
->id="ajo_template_accelerator"
->title="Acelerador de plantillas"
->abstract="Utilice el acelerador de plantillas para convertir diseños de imagen estáticos (JPEG o PNG) en plantillas de correo electrónico de HTML totalmente personalizables. Esta función con tecnología de IA le ayuda a transformar rápidamente diseños visuales en contenido de correo electrónico adaptable y editable. Nota: Todo el contenido existente en su correo electrónico se eliminará cuando cargue una imagen para su conversión."
 
 >[!AVAILABILITY]
 >
@@ -32,7 +27,7 @@ ht-degree: 3%
 
 El acelerador de plantillas es una innovadora característica con tecnología de IA disponible en el menú **Plantillas de contenido** que acelera considerablemente la creación de correos electrónicos al convertir diseños de imágenes estáticas en plantillas de contenido de correo electrónico de HTML totalmente personalizables. Esta herramienta permite a los especialistas en marketing transformar diseños visuales de diseñadores gráficos o herramientas de diseño en plantillas de correo electrónico interactivas y editables que se pueden guardar en la biblioteca de plantillas de contenido y, a continuación, reutilizarse en varios recorridos y campañas.
 
-Al aprovechar la tecnología de IA generativa, el acelerador de plantillas analiza el diseño, la tipografía, los colores y los elementos visuales de la imagen y genera un código HTML limpio y estructurado que mantiene la fidelidad del diseño, a la vez que garantiza la editabilidad y la compatibilidad totales con el Designer de correo electrónico.
+Al aprovechar la tecnología de IA generativa, el conversor de imágenes acelerador de plantillas a HTML analiza el diseño, la tipografía, los colores y los elementos visuales de la imagen y genera un código HTML limpio y estructurado que mantiene la fidelidad del diseño, a la vez que garantiza la editabilidad y compatibilidad completas con el Designer de correo electrónico.
 
 **Ventajas principales:**
 
@@ -111,7 +106,7 @@ Más información acerca de [cómo trabajar con plantillas de correo electrónic
 
 ## Prácticas recomendadas {#best-practices}
 
-Para lograr resultados óptimos al utilizar el acelerador de plantillas, siga estas recomendaciones:
+Para obtener resultados óptimos al utilizar el convertidor de imagen a HTML, siga estas recomendaciones:
 
 **Antes de comenzar**
 
@@ -161,7 +156,7 @@ Tenga en cuenta las siguientes limitaciones al utilizar el convertidor de Imagen
 
 >[!NOTE]
 >
->El acelerador de plantillas está diseñado para proporcionar un punto de partida sólido para la creación de correos electrónicos. La HTML generada debe revisarse y refinarse usando la Designer de correo electrónico para asegurarse de que cumple con sus requisitos exactos.
+>El conversor de imagen a HTML está diseñado para proporcionar un punto de partida sólido para la creación de correos electrónicos. La HTML generada debe revisarse y refinarse usando la Designer de correo electrónico para asegurarse de que cumple con sus requisitos exactos.
 
 ## Preguntas frecuentes {#faq}
 
