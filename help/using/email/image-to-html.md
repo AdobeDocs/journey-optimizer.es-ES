@@ -10,9 +10,9 @@ level: Beginner
 keywords: correo electrónico, plantilla, imagen, HTML, IA, diseño, acelerador
 hide: true
 hidefromtoc: true
-source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
+source-git-commit: 86bf80c56a1bd50872d014a7aa92407227c823f8
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1524'
 ht-degree: 3%
 
 ---
@@ -44,11 +44,11 @@ Al aprovechar la tecnología de IA generativa, el acelerador de plantillas anali
 
 ## Requisitos previos {#prerequisites}
 
-Antes de usar el Acelerador de plantillas, asegúrese de lo siguiente:
+Antes de usar Plantilla: imagen para HTML convertidor, asegúrese de que tiene:
 
 * Acceso a Adobe Journey Optimizer con el Designer de correo electrónico
 * Archivo de imagen en formato JPEG o PNG que contiene el diseño de correo electrónico
-* Acceso de disponibilidad limitado a la función de acelerador de plantillas (póngase en contacto con su representante de Adobe)
+* Acceso de disponibilidad limitado a la función de conversión de imágenes a HTML (póngase en contacto con su representante de Adobe)
 
 >[!NOTE]
 >
@@ -62,31 +62,28 @@ Para convertir un diseño de imagen en una plantilla de correo electrónico de H
 
 1. Haga clic en **[!UICONTROL Crear plantilla]**.
 
-1. Complete los detalles de la plantilla y seleccione **[!UICONTROL Correo electrónico]** como canal.
+1. Complete los detalles de la plantilla, seleccione **[!UICONTROL Correo electrónico]** como canal y haga clic en **[!UICONTROL Crear]**.
 
-1. Haga clic en **[!UICONTROL Crear]** para acceder al Designer de correo electrónico.
+1. En la sección de la derecha, en la sección **[!UICONTROL Convertir imagen en plantilla]**, haga clic en el botón **[!UICONTROL Cargar imagen]** para seleccionar el archivo de imagen.
 
-1. En la página de inicio de Email Designer, seleccione **[!UICONTROL Importar HTML]**.
+   ![](assets/email_designer_convert_img.png)
 
-   ![](assets/import-html_2.png)
-
-1. En el cuadro de diálogo de importación, verá la sección **[!UICONTROL Convertir imagen a HTML]**.
 
    >[!CAUTION]
    >
    >Al cargar una imagen para su conversión, **todo el contenido que se agrega actualmente al correo electrónico se eliminará y se reemplazará** con la plantilla generada. Si tiene contenido existente en el correo electrónico, asegúrese de guardarlo antes de continuar con la conversión de la imagen.
 
-1. Haga clic en el botón **[!UICONTROL Cargar imagen]** para seleccionar el archivo de imagen.
 
-1. Arrastre y suelte el archivo de imagen (JPEG o PNG), o haga clic en para examinar y seleccionar el archivo de imagen.
-
-1. Haga clic en **[!UICONTROL Generar]** para iniciar el proceso de conversión con tecnología de IA.
+1. Elija la imagen y haga clic en **[!UICONTROL Abrir]** para iniciar el proceso de conversión con tecnología de IA.
 
    >[!NOTE]
    >
    >El proceso de generación puede tardar hasta 5 minutos en función de la complejidad y el tamaño del diseño de la imagen. Tenga paciencia mientras la IA analiza y convierte su imagen.
 
 1. Una vez completada la conversión, la plantilla de contenido se guardará automáticamente como borrador. A continuación, puede revisar y editar la plantilla de HTML generada en el lienzo de Designer de correo electrónico.
+
+   ![](assets/email_designer_converted_img.png)
+
 
 1. La plantilla convertida se abre en el Designer de correo electrónico con funciones de edición completas. Ahora puede:
 
@@ -96,7 +93,7 @@ Para convertir un diseño de imagen en una plantilla de correo electrónico de H
    * Agregar, quitar o reorganizar componentes de contenido
    * Aproveche todas las funciones de Email Designer como con cualquier otra plantilla
 
-   ![](assets/email_designer_structure_components.png)
+   ![](assets/email_designer_html_components.png)
 
 1. Realice los ajustes necesarios para perfeccionar la plantilla y adaptarla a las directrices de marca.
 
@@ -106,17 +103,9 @@ Para convertir un diseño de imagen en una plantilla de correo electrónico de H
 
 ## Uso de la plantilla convertida en correos electrónicos {#use-template}
 
-Una vez creada y guardada la plantilla de contenido mediante el acelerador de plantillas, puede utilizarla al diseñar correos electrónicos en recorridos o campañas:
+Una vez creada y guardada la plantilla de contenido, puede utilizarla al diseñar correos electrónicos en recorridos o campañas:
 
-1. Al crear un correo electrónico en un recorrido o una campaña, accede al Designer de correo electrónico desde la pantalla **[!UICONTROL Editar contenido]**.
-
-1. En la página de inicio de Designer de correo electrónico, vaya a la pestaña **[!UICONTROL Plantillas guardadas]**.
-
-1. Seleccione la plantilla generada por el acelerador de plantillas de la lista.
-
-1. Haga clic en **[!UICONTROL Usar esta plantilla]** para aplicarla al correo electrónico.
-
-1. Siga editando y personalizando el contenido del correo electrónico según sea necesario.
+Al crear un correo electrónico en un recorrido o una campaña, accede al Designer de correo electrónico desde la pantalla **[!UICONTROL Editar contenido]**.
 
 Más información acerca de [cómo trabajar con plantillas de correo electrónico](use-email-templates.md) y [cómo crear plantillas de contenido](../content-management/content-templates.md).
 
@@ -127,7 +116,7 @@ Para lograr resultados óptimos al utilizar el acelerador de plantillas, siga es
 **Antes de comenzar**
 
 * **Guardar contenido existente**: al convertir una imagen a HTML, se reemplazará todo el contenido existente en el correo electrónico. Guarde siempre el trabajo actual antes de utilizar esta función.
-* **Planifique el flujo de trabajo**: utilice el acelerador de plantillas al principio del proceso de creación de correo electrónico o asegúrese de que está listo para reemplazar todo el contenido actual.
+* **Planifique el flujo de trabajo**: use el convertidor de imagen a HTML al principio del proceso de creación del correo electrónico o asegúrese de que está listo para reemplazar todo el contenido actual.
 
 **Preparación de imágenes**
 
@@ -156,7 +145,7 @@ Para lograr resultados óptimos al utilizar el acelerador de plantillas, siga es
 
 ## Limitaciones y consideraciones {#limitations}
 
-Tenga en cuenta las siguientes limitaciones al utilizar el acelerador de plantillas:
+Tenga en cuenta las siguientes limitaciones al utilizar el convertidor de Imagen a HTML:
 
 * **Interpretación de IA**: La IA genera HTML basándose en la interpretación visual de su imagen. Los diseños complejos o inusuales pueden requerir ajustes manuales después de la conversión.
 
@@ -168,7 +157,7 @@ Tenga en cuenta las siguientes limitaciones al utilizar el acelerador de plantil
 
 * **Tiempo de procesamiento**: El proceso de conversión puede tardar hasta 5 minutos según la complejidad y el tamaño de la imagen. La plantilla se guarda automáticamente como borrador una vez completada la conversión.
 
-* **Disponibilidad limitada**: como característica de disponibilidad limitada, el acelerador de plantillas se mejora continuamente. La funcionalidad y la precisión pueden variar, y los comentarios ayudan a mejorar la función.
+* **Disponibilidad limitada**: como característica de disponibilidad limitada, el conversor de imagen a HTML se mejora continuamente. La funcionalidad y la precisión pueden variar, y los comentarios ayudan a mejorar la función.
 
 >[!NOTE]
 >
@@ -176,15 +165,15 @@ Tenga en cuenta las siguientes limitaciones al utilizar el acelerador de plantil
 
 ## Preguntas frecuentes {#faq}
 
-+++¿Qué sucede con el contenido del correo electrónico existente cuando utilizo el acelerador de plantillas?
++++¿Qué sucede con el contenido del correo electrónico existente cuando utilizo el convertidor de imagen a HTML?
 
-Todo el contenido existente en su correo electrónico se eliminará y se reemplazará por la plantilla recién generada al cargar una imagen para su conversión. Asegúrese de guardar cualquier contenido importante antes de utilizar esta función. Es mejor utilizar el acelerador de plantillas al principio del proceso de creación de correo electrónico.
+Todo el contenido existente en su correo electrónico se eliminará y se reemplazará por la plantilla recién generada al cargar una imagen para su conversión. Asegúrese de guardar cualquier contenido importante antes de utilizar esta función. Es mejor utilizar el conversor de imagen a HTML al principio del proceso de creación del correo electrónico.
 
 +++
 
 +++¿Qué formatos de archivo se admiten?
 
-El acelerador de plantillas admite los formatos de imagen JPEG (.jpg, .jpeg) y PNG (.png).
+El convertidor de imagen a HTML es compatible con los formatos de imagen JPEG (.jpg, .jpeg) y PNG (.png).
 
 +++
 
@@ -208,19 +197,19 @@ La IA hace todo lo posible para interpretar con precisión su diseño, pero pued
 
 +++¿Puedo utilizar esta función para páginas de aterrizaje u otros tipos de contenido?
 
-El acelerador de plantillas está diseñado actualmente específicamente para plantillas de correo electrónico. Para otros tipos de contenido, utilice las opciones de diseño e importación estándar disponibles en el Designer de correo electrónico.
+El convertidor de imagen a HTML está diseñado actualmente específicamente para plantillas de correo electrónico. Para otros tipos de contenido, utilice las opciones de diseño e importación estándar disponibles en el Designer de correo electrónico.
 
 +++
 
 +++¿Necesito permisos especiales para utilizar esta función?
 
-El acelerador de plantillas está disponible en disponibilidad limitada. Necesita acceso de disponibilidad limitado (póngase en contacto con su representante de Adobe para obtener acceso) y permisos estándar de Designer de correo electrónico para utilizar esta función.
+El convertidor de imagen a HTML está disponible en disponibilidad limitada. Necesita acceso de disponibilidad limitado (póngase en contacto con su representante de Adobe para obtener acceso) y permisos estándar de Designer de correo electrónico para utilizar esta función.
 
 +++
 
 +++¿Puedo reutilizar plantillas convertidas en varias campañas?
 
-¡Sí! Las plantillas creadas con el acelerador de plantillas se guardan automáticamente en la biblioteca de plantillas de contenido. Puede acceder a ellas y reutilizarlas en cualquier mensaje de correo electrónico de sus recorridos y campañas. [Más información](../content-management/content-templates.md)
+¡Sí! Las plantillas creadas con el convertidor de imagen a HTML se guardan automáticamente en la biblioteca de plantillas de contenido. Puede acceder a ellas y reutilizarlas en cualquier mensaje de correo electrónico de sus recorridos y campañas. [Más información](../content-management/content-templates.md)
 
 +++
 
