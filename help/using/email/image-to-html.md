@@ -1,23 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Convertir imágenes a plantillas de HTML con el acelerador de plantillas
-description: Aprenda a utilizar el acelerador de plantillas con tecnología de IA para convertir diseños de imagen en plantillas de correo electrónico editables de HTML
+title: Convertir imágenes a plantillas de HTML con el convertidor de imágenes a HTML
+description: Aprenda a utilizar el conversor de imágenes a HTML con tecnología de IA para convertir diseños de imagen en plantillas de correo electrónico editables de HTML
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner
-keywords: correo electrónico, plantilla, imagen, HTML, IA, diseño, acelerador
+badge: label="Disponibilidad limitada" type="Informative"
+keywords: correo electrónico, plantilla, imagen, HTML, IA, diseño, convertidor
 hide: true
 hidefromtoc: true
-source-git-commit: f23bb73a9aa1c3ca8a6fc7a9a7f4d18cebc1faf3
+source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1564'
 ht-degree: 3%
 
 ---
 
-# Convertir imágenes a plantillas de HTML con el acelerador de plantillas {#image-to-html}
+# Convertir imágenes a plantillas de HTML con el convertidor de imágenes a HTML {#image-to-html}
 
 >[!AVAILABILITY]
 >
@@ -25,9 +26,9 @@ ht-degree: 3%
 
 ## Información general {#overview}
 
-El acelerador de plantillas es una innovadora característica con tecnología de IA disponible en el menú **Plantillas de contenido** que acelera considerablemente la creación de correos electrónicos al convertir diseños de imágenes estáticas en plantillas de contenido de correo electrónico de HTML totalmente personalizables. Esta herramienta permite a los especialistas en marketing transformar diseños visuales de diseñadores gráficos o herramientas de diseño en plantillas de correo electrónico interactivas y editables que se pueden guardar en la biblioteca de plantillas de contenido y, a continuación, reutilizarse en varios recorridos y campañas.
+El conversor de imagen a HTML es una característica innovadora con tecnología de IA disponible en el menú de **Plantillas de contenido** que acelera considerablemente la creación de correos electrónicos al convertir diseños de imagen estáticos en plantillas de contenido de correo electrónico de HTML totalmente personalizables. Esta herramienta permite a los especialistas en marketing transformar diseños visuales de diseñadores gráficos o herramientas de diseño en plantillas de correo electrónico interactivas y editables que se pueden guardar en la biblioteca de plantillas de contenido y, a continuación, reutilizarse en varios recorridos y campañas.
 
-Al aprovechar la tecnología de IA generativa, el conversor de imágenes acelerador de plantillas a HTML analiza el diseño, la tipografía, los colores y los elementos visuales de la imagen y genera un código HTML limpio y estructurado que mantiene la fidelidad del diseño, a la vez que garantiza la editabilidad y compatibilidad completas con el Designer de correo electrónico.
+Al aprovechar la tecnología de IA generativa, el conversor de imagen a HTML analiza el diseño, la tipografía, los colores y los elementos visuales de la imagen y genera un código HTML limpio y estructurado que mantiene la fidelidad del diseño, a la vez que garantiza la editabilidad y compatibilidad totales con el Designer de correo electrónico.
 
 **Ventajas principales:**
 
@@ -39,7 +40,7 @@ Al aprovechar la tecnología de IA generativa, el conversor de imágenes acelera
 
 ## Requisitos previos {#prerequisites}
 
-Antes de usar Plantilla: imagen para HTML convertidor, asegúrese de que tiene:
+Antes de usar el convertidor de imagen a HTML, asegúrese de lo siguiente:
 
 * Acceso a Adobe Journey Optimizer con el Designer de correo electrónico
 * Archivo de imagen en formato JPEG o PNG que contiene el diseño de correo electrónico
@@ -73,7 +74,7 @@ Para convertir un diseño de imagen en una plantilla de correo electrónico de H
 
    >[!NOTE]
    >
-   >El proceso de generación puede tardar hasta 5 minutos en función de la complejidad y el tamaño del diseño de la imagen. Tenga paciencia mientras la IA analiza y convierte su imagen.
+   >El proceso de generación puede tardar hasta 5 minutos en función de la complejidad y el tamaño del diseño de la imagen. El procesamiento de IA se produce en segundo plano, por lo que puede salir de esta pantalla y trabajar en otras tareas mientras la conversión está en curso. No es necesario que mantenga la pantalla abierta.
 
 1. Una vez completada la conversión, la plantilla de contenido se guardará automáticamente como borrador. A continuación, puede revisar y editar la plantilla de HTML generada en el lienzo de Designer de correo electrónico.
 
@@ -150,7 +151,7 @@ Tenga en cuenta las siguientes limitaciones al utilizar el convertidor de Imagen
 
 * **Diseños complejos**: Es posible que los diseños muy complejos con capas complejas, formas inusuales o elementos no estándar no se conviertan a la perfección. Los diseños más simples generalmente arrojan mejores resultados.
 
-* **Tiempo de procesamiento**: El proceso de conversión puede tardar hasta 5 minutos según la complejidad y el tamaño de la imagen. La plantilla se guarda automáticamente como borrador una vez completada la conversión.
+* **Tiempo de procesamiento**: El proceso de conversión puede tardar hasta 5 minutos según la complejidad y el tamaño de la imagen. El procesamiento de IA se produce en segundo plano, lo que le permite trabajar en otras tareas sin mantener la pantalla abierta. La plantilla se guarda automáticamente como borrador una vez completada la conversión.
 
 * **Disponibilidad limitada**: como característica de disponibilidad limitada, el conversor de imagen a HTML se mejora continuamente. La funcionalidad y la precisión pueden variar, y los comentarios ayudan a mejorar la función.
 
@@ -174,7 +175,7 @@ El convertidor de imagen a HTML es compatible con los formatos de imagen JPEG (.
 
 +++¿Cuánto tiempo tarda el proceso de conversión?
 
-La conversión puede tardar hasta 5 minutos, según la complejidad y el tamaño del diseño de la imagen. Una vez completada la conversión, el archivo se guardará automáticamente como borrador para que lo revise y edite.
+La conversión puede tardar hasta 5 minutos, según la complejidad y el tamaño del diseño de la imagen. El procesamiento de IA se realiza en segundo plano, por lo que puede desplazarse y trabajar en otras tareas; no es necesario que mantenga la pantalla abierta. Una vez completada la conversión, el archivo se guardará automáticamente como borrador para que lo revise y edite.
 
 +++
 
