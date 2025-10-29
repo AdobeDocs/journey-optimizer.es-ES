@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '190'
 ht-degree: 51%
 
 ---
@@ -34,7 +34,7 @@ Las campañas de acción (o campañas programadas) permiten comunicaciones por l
 
 >[!NOTE]
 >
->Los canales admitidos son: [correo electrónico](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [notificaciones push](../push/get-started-push.md), [WhatsApp](../whatsapp/get-started-whatsapp.md), [LINE](../line/get-started-line.md), [correo directo](../direct-mail/get-started-direct-mail.md), [en la aplicación](../in-app/get-started-in-app.md), [web](../web/get-started-web.md), [experiencias basadas en código](../code-based/get-started-code-based.md).
+>Para obtener más información sobre los canales admitidos, consulte la tabla de esta sección: [Canales en recorridos y campañas](../channels/gs-channels.md#channels).
 >
 >Los canales disponibles varían en función del modelo de licencia y los complementos.
 
@@ -53,4 +53,4 @@ Antes de comenzar con las campañas, compruebe los siguientes requisitos previos
 
 Obtenga información sobre cómo crear una campaña de acción.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412402?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

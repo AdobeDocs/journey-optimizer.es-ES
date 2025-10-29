@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '554'
 ht-degree: 17%
 
 ---
@@ -34,7 +34,7 @@ Para agregar una acción de canal integrada al recorrido, arrastre y suelte una 
 
 ## Añadir un mensaje en un recorrido  {#add-msg-in-journey}
 
-Con las acciones de canal integradas, puede configurar los mensajes salientes o entrantes. Los canales entrantes admitidos son el correo electrónico, los mensajes de texto (SMS/MMS) y las notificaciones push. Los canales salientes admitidos son la experiencia en la aplicación, la web, basada en código y la tarjeta de contenido.
+Con las acciones de canal integradas, puede configurar los mensajes salientes o entrantes. Para obtener más información sobre los canales disponibles en recorrido, consulte la tabla de esta sección: [Canales en recorridos y campañas](../channels/gs-channels.md#channels).
 
 Para añadir una acción de canal integrada a un recorrido, siga los pasos a continuación.
 

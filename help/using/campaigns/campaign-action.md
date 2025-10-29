@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 32%
 
 ---
@@ -29,7 +29,7 @@ Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de
 
    >[!NOTE]
    >
-   >Los canales admitidos son: [correo electrónico](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [notificaciones push](../push/get-started-push.md), [WhatsApp](../whatsapp/get-started-whatsapp.md), [LINE](../line/get-started-line.md), [correo directo](../direct-mail/get-started-direct-mail.md), [en la aplicación](../in-app/get-started-in-app.md), [web](../web/get-started-web.md), [experiencias basadas en código](../code-based/get-started-code-based.md).
+   >Para obtener más información sobre los canales admitidos, consulte la tabla de esta sección: [Canales en recorridos y campañas](../channels/gs-channels.md#channels).
    >
    >Los canales disponibles varían en función del modelo de licencia y los complementos.
 

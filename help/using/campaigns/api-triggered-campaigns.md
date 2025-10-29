@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 35%
@@ -34,7 +34,7 @@ Para ello, primero debe crear una campaña activada por API en Journey Optimizer
 
 >[!NOTE]
 >
->Los canales admitidos son: [correo electrónico](../email/get-started-email.md), [SMS](../sms/get-started-sms.md), [notificaciones push](../push/get-started-push.md). Actualmente, las campañas activadas por la API de alto rendimiento solo admiten el canal de correo electrónico.
+>Para obtener más información sobre los canales admitidos, consulte la tabla de esta sección: [Canales en recorridos y campañas](../channels/gs-channels.md#channels).
 >
 >Los canales disponibles varían en función del modelo de licencia y los complementos.
 
@@ -54,4 +54,4 @@ Antes de comenzar con las campañas, compruebe los siguientes requisitos previos
 
 Obtenga información sobre cómo crear una campaña y almacenarla en déclencheur desde un sistema externo basado en las interacciones del usuario, mediante la API de REST de ejecución de mensaje interactivo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452728?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

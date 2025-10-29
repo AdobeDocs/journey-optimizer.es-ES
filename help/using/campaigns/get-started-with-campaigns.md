@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 92%
+source-wordcount: '931'
+ht-degree: 89%
 
 ---
 
@@ -90,7 +90,7 @@ Utilice campañas de [!DNL Journey Optimizer] para ofrecer contenido puntual a u
 
 ## Tipos de campañas
 
-[!DNL Journey Optimizer] admite tres tipos de campañas. Cada tipo se adapta a diferentes casos de uso y admite diferentes canales.
+[!DNL Journey Optimizer] admite tres tipos de campañas. Cada tipo se adapta a diferentes casos de uso y admite diferentes canales. Para obtener más información sobre los canales disponibles con cada tipo de campaña, consulte la tabla de esta sección: [Canales en recorridos y campañas](../channels/gs-channels.md#channels)
 
 ![](assets/campaign-modal.png)
 
@@ -124,23 +124,6 @@ Las **campañas activadas por API** le permiten activar la ejecución de la camp
 
 
 >[!ENDTABS]
-
-## Canales admitidos por tipo de campaña {#channels}
-
-En la siguiente tabla se muestra la disponibilidad de cada canal en diferentes tipos de campaña, indicando dónde se admiten.
-
-| Canal | Acción (marketing) | Acción (transaccional) | Activado por API (marketing) | Activado por API (transaccional) | Orquestado |
-|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|
-| Correo electrónico | ✅ | ✅ | ✅ | ✅ | ✅ |
-| SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Notificación push | ✅ | ✅ | ✅ | ✅ | ✅ |
-| in-app | ✅ | — | — | — | — |
-| Correo directo | ✅ | — | — | — | — |
-| Web | ✅ | — | — | — | — |
-| Exp. basada en código | ✅ | — | — | — | — |
-| Tarjetas de contenido | ✅ | — | — | — | — |
-| WhatsApp | ✅ | — | — | — | — |
-| Línea | ✅ | — | — | — | — |
 
 ## Requisitos previos {#prerequisites}
 

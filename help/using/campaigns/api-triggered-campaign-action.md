@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 52%
+source-wordcount: '449'
+ht-degree: 50%
 
 ---
 
@@ -28,9 +28,9 @@ Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de
 
    >[!NOTE]
    >
-   >Los canales admitidos son: [correo electrónico](../email/get-started-email.md), [SMS](../sms/get-started-sms.md), [notificaciones push](../push/get-started-push.md). Actualmente, las campañas activadas por la API de alto rendimiento solo admiten el canal de correo electrónico.
+   >Para obtener más información sobre los canales admitidos, consulte la tabla de esta sección: [Canales en recorridos y campañas](../channels/gs-channels.md#channels). Los canales disponibles varían en función del modelo de licencia y los complementos.
    >
-   >Los canales disponibles varían en función del modelo de licencia y los complementos.
+   >Actualmente, las campañas activadas por la API de alto rendimiento solo admiten el canal de correo electrónico.
 
 1. **Seleccionar una configuración de canal**
 
