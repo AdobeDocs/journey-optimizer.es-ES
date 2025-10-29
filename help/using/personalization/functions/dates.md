@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1091'
 ht-degree: 6%
 
 ---
@@ -420,9 +420,22 @@ La siguiente operación devuelve la fecha con el siguiente formato: MM/DD/AA.
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
 
-## Formato de fecha con compatibilidad con configuración regional{#format-date-locale}
+### Caracteres de patrón {#pattern-characters}
 
-La función `formatDate` se usa para dar formato a un valor de fecha y hora en su representación correspondiente con distinción de idioma, es decir, en una configuración regional deseada. El formato debe ser un patrón DateTimeFormat de Java válido.
+Algunas letras de patrón pueden tener un aspecto similar, pero representan conceptos diferentes.
+
+| Patrón | Significado | Ejemplo (para `2023-12-31T10:15:30Z`) |
+|---------|---------|--------------------------------------|
+| `y` | Año natural (año estándar) | `2023` |
+| `Y` | Año basado en la semana (ISO 8601). Puede diferir en los límites anuales. | `2024` (desde el 31 de diciembre de 2023 cae en la primera semana de 2024) |
+| `M` | Mes del año (1-12 o texto como `Jan`, `January`) | `12` o `Dec` |
+| `m` | Minuto de la hora (0-59) | `15` |
+| `d` | Día del mes (1-31) | `31` |
+| `D` | Día del año (1-366) | `365` |
+
+### Formato de fecha con compatibilidad con configuración regional{#format-date-locale}
+
+La función `formatDate` se puede usar para dar formato a un valor de fecha y hora en su representación correspondiente con distinción de idioma, es decir, en una configuración regional deseada. El formato debe ser un patrón DateTimeFormat de Java válido.
 
 **Sintaxis**
 
