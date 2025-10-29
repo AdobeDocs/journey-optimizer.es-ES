@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 243d4e74c15057bc4bd334876a1bc87969d396e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Utilice [!DNL Journey Optimizer] para enviar mensajes de texto (SMS/MMS/RCS) a s
 
 Los mensajes de texto se pueden crear y enviar en un recorrido o en una campaña. Para SMS, MMS y RCS, utilice la acción SMS.
 
-* En un **recorrido**. Cree un recorrido, añada una actividad SMS y defina la configuración básica. A continuación, vaya al panel Acciones de SMS de la derecha para crear el contenido del mensaje SMS, MMS o RCS. [Obtenga información sobre cómo crear un recorrido](../building-journeys/journey-gs.md)
+* En un **recorrido**. Cree un recorrido, añada una actividad SMS y defina la configuración básica. A continuación, vaya al panel derecho Acciones de SMS para crear el contenido del mensaje SMS, MMS o RCS. [Obtenga información sobre cómo crear un recorrido](../building-journeys/journey-gs.md)
 
 * En una **campaña**. Cree una campaña, seleccione SMS como su acción y defina la configuración básica. A continuación, edite el contenido del mensaje para definir el mensaje SMS, MMS o RCS que desea enviar. [Obtenga información sobre cómo crear una campaña](../campaigns/create-campaign.md#configure)
 
@@ -43,15 +43,15 @@ Mejore su comunicación con contenido multimedia, incluidos vídeos, imágenes, 
 
 **RCS (servicios de comunicación enriquecidos)**
 
-Envíe mensajes interactivos de marca con funciones avanzadas como carruseles, tarjetas enriquecidas, acciones sugeridas y compatibilidad con medios mejorada. RCS ofrece una experiencia de mensajería más rica en los dispositivos compatibles.
+Envíe mensajes de marca interactivos con funciones avanzadas como carruseles, tarjetas enriquecidas, acciones sugeridas y compatibilidad multimedia mejorada. RCS ofrece una experiencia de mensajería más enriquecida en los dispositivos compatibles.
 
 ## Funciones principales {#key-features}
 
-**Personalization y contenido dinámico**
+**Personalización y contenido dinámico**
 
-Cree mensajes de texto personalizados con el editor de personalización. Agregue atributos de perfil, contenido condicional y datos dinámicos para adaptar los mensajes a destinatarios individuales. [Más información sobre personalización](../personalization/personalize.md)
+Cree mensajes de texto personalizados mediante el editor de personalización. Añada atributos de perfil, contenido condicional y datos dinámicos para adaptar los mensajes a destinatarios individuales. [Más información sobre la personalización](../personalization/personalize.md)
 
-**Compatibilidad con varios proveedores**
+**Compatibilidad con múltiples proveedores**
 
 Adobe Journey Optimizer se integra con los principales proveedores de servicios de SMS:
 
@@ -62,31 +62,31 @@ Adobe Journey Optimizer se integra con los principales proveedores de servicios 
 
 **Acortamiento y seguimiento de URL**
 
-Añada URL abreviadas y rastreables a sus mensajes para supervisar la participación. Se requiere la configuración del subdominio para la funcionalidad de acortamiento de URL. [Aprenda a configurar subdominios de SMS](sms-subdomains.md)
+Añada URL abreviadas y rastreables a sus mensajes para monitorizar la participación. Se requiere la configuración del subdominio para la funcionalidad de acortamiento de URL. [Más información sobre cómo configurar subdominios de SMS](sms-subdomains.md)
 
 **Administración de exclusión**
 
-Garantice el cumplimiento de las normas y regulaciones del sector mediante la administración de la exclusión integrada. Journey Optimizer gestiona automáticamente las palabras clave de exclusión estándar (STOP, QUIT, CANCEL, etc.) para los proveedores de Sinch e Infobip. [Más información acerca de la administración de la exclusión](sms-opt-out.md)
+Garantice el cumplimiento de las normas y regulaciones del sector mediante la administración de exclusión integrada. Journey Optimizer gestiona automáticamente las palabras clave de exclusión estándar (STOP, QUIT, CANCEL, etc.) para los proveedores de Sinch e Infobip. [Más información sobre la administración de exclusión](sms-opt-out.md)
 
-**Previsualización y prueba**
+**Vista previa y pruebas**
 
-Pruebe los mensajes de texto antes de enviarlos mediante perfiles de prueba y datos de ejemplo. Obtenga una vista previa de la personalización, el contenido y el formato para garantizar que los mensajes se muestren correctamente. [Más información sobre cómo enviar mensajes](send-sms.md)
+Pruebe los mensajes de texto antes de enviarlos mediante perfiles de prueba y datos de muestra. Obtenga una vista previa de la personalización, el contenido y el formato para garantizar que los mensajes se muestren correctamente. [Más información sobre cómo enviar mensajes](send-sms.md)
 
-**Informes y análisis**
+**Sistema de informes y análisis**
 
-Realice un seguimiento del rendimiento de sus campañas y recorridos de SMS con funciones de sistema de informes completas:
+Realice un seguimiento del rendimiento de sus campañas y recorridos de SMS con funciones del sistema de informes completas:
 
 * [Informes de campaña de SMS](../reports/campaign-global-report-cja-sms.md)
 * [Informes de recorrido de SMS](../reports/journey-global-report-cja-sms.md)
 
-## Requisitos de configuración {#configuration-requirements}
+## Requisitos para la configuración {#configuration-requirements}
 
 Antes de enviar mensajes de texto, debe:
 
-1. **Elige un proveedor de SMS**: selecciona entre Sinch, Twilio, Infobip o configura un proveedor personalizado
-2. **Configurar credenciales de API** - Integrar los tokens de API y los ID de servicio del proveedor con Journey Optimizer
-3. **Crear configuraciones de canal** - Configurar configuraciones de SMS para mensajes transaccionales y de marketing
-4. **Configurar subdominios (opcional)**: requerido únicamente si planea utilizar el acortamiento de URL en los mensajes
+1. **Elegir un proveedor de SMS**: seleccione entre Sinch, Twilio, Infobip o configure un proveedor personalizado
+2. **Configurar credenciales de API**: integre los tokens de API y los ID de servicio del proveedor con Journey Optimizer
+3. **Crear configuraciones de canal**: realice configuraciones de SMS para mensajes de marketing y transaccionales
+4. **Configurar subdominios (opcional)**: necesario únicamente si piensa utilizar el acortamiento de URL en los mensajes
 
 Estos pasos de configuración los suele realizar un administrador del sistema. [Introducción a la configuración de SMS](sms-configuration.md)
 
@@ -106,9 +106,9 @@ Estos pasos de configuración los suele realizar un administrador del sistema. [
 <a href="create-sms.md">
 <img alt="Posible cliente" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-sms.md"><strong>Crear un mensaje de texto</strong></a>
+<div><a href="create-sms.md"><strong>Creación de un mensaje de texto</strong></a>
 </div>
-<p>Diseño y personalización del contenido de SMS, MMS o RCS</p>
+<p>Diseñe y personalice el contenido de SMS, MMS o RCS</p>
 </td>
 <td>
 <a href="send-sms.md">
@@ -117,7 +117,7 @@ Estos pasos de configuración los suele realizar un administrador del sistema. [
 <div>
 <a href="send-sms.md"><strong>Vista previa y envío</strong></a>
 </div>
-<p>Prueba y envío de mensajes de texto a la audiencia</p>
+<p>Pruebe y envíe mensajes de texto a su público</p>
 </td>
 <td>
 <a href="sms-opt-out.md">
@@ -126,17 +126,17 @@ Estos pasos de configuración los suele realizar un administrador del sistema. [
 <div>
 <a href="sms-opt-out.md"><strong>Administrar exclusiones</strong></a>
 </div>
-<p>Administrar solicitudes de cancelación de suscripción y garantizar el cumplimiento</p>
+<p>Gestione solicitudes de cancelación de suscripción y garantice el cumplimiento</p>
 </td>
 </tr></table>
 
 ## Recursos adicionales {#additional-resources}
 
-Examine los temas siguientes para obtener más información sobre los mensajes de texto en Journey Optimizer.
+Examine los temas siguientes para obtener más información sobre la mensajería de texto en Journey Optimizer.
 
 +++Guías de configuración
 
-Aprenda a configurar su entorno de SMS:
+Obtenga información sobre cómo establecer y configurar su entorno de SMS:
 
 * [Información general sobre la configuración del canal SMS](sms-configuration.md)
 * [Creación de configuraciones de canal SMS](sms-configuration-surface.md)
@@ -148,10 +148,10 @@ Aprenda a configurar su entorno de SMS:
 
 Configuración paso a paso para cada proveedor de servicios SMS:
 
-* [Configuración del proveedor Sinch](sms-configuration-sinch.md)
-* [Configuración del proveedor Twilio](sms-configuration-twilio.md)
-* [Configuración del proveedor Infobip](sms-configuration-infobip.md)
-* [Configuración del proveedor de SMS personalizado](sms-configuration-custom.md)
+* [Configuración del proveedor de Sinch](sms-configuration-sinch.md)
+* [Configuración del proveedor de Twilio](sms-configuration-twilio.md)
+* [Configuración del proveedor de Infobip](sms-configuration-infobip.md)
+* [Configuración de un proveedor de SMS personalizado](sms-configuration-custom.md)
 
 +++
 
@@ -160,15 +160,15 @@ Configuración paso a paso para cada proveedor de servicios SMS:
 Cree, personalice y administre su contenido de mensaje de texto:
 
 * [Creación de mensajes SMS/MMS](create-sms.md)
-* [Previsualización, prueba y envío de mensajes](send-sms.md)
-* [Personalization en mensajes de texto](../personalization/personalize.md)
+* [Vista previa, prueba y envío de mensajes](send-sms.md)
+* [Personalización en los mensajes de texto](../personalization/personalize.md)
 * [Contenido dinámico](../personalization/get-started-dynamic-content.md)
 
 +++
 
-+++Conformidad y privacidad
++++Cumplimiento y privacidad
 
-Asegúrese de que los mensajes de texto cumplan con las regulaciones y las normas de privacidad:
+Asegúrese de que la mensajería de texto cumpla con las regulaciones y las normas de privacidad:
 
 * [Administración de exclusiones](sms-opt-out.md)
 * [Privacidad y consentimiento](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
@@ -177,19 +177,19 @@ Asegúrese de que los mensajes de texto cumplan con las regulaciones y las norma
 
 +++Seguimiento del rendimiento
 
-Monitorice y analice sus campañas SMS y el rendimiento del recorrido:
+Monitorice y analice sus campañas de SMS y el rendimiento del recorrido:
 
 * [Informes de campaña de SMS](../reports/campaign-global-report-cja-sms.md)
 * [Informes de recorrido de SMS](../reports/journey-global-report-cja-sms.md)
 
 +++
 
-+++Integración de recorrido y Campaign
++++Integración de recorridos y campañas
 
 Aprenda a incorporar SMS a sus recorridos y campañas de clientes:
 
 * [Añadir mensajes SMS a los recorridos](../building-journeys/journeys-message.md)
-* [Creación de campañas de SMS](../campaigns/create-campaign.md)
+* [Crear campañas de SMS](../campaigns/create-campaign.md)
 
 +++
 
@@ -201,17 +201,17 @@ Obtenga información sobre cómo configurar, crear e incluir mensajes SMS en sus
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422693?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
 **Explorar las funcionalidades de mensajería móvil**
 
-Descubra las completas funciones de mensajería móvil que Adobe Journey Optimizer ofrece a los especialistas en marketing.
+Descubra las funcionalidades completas de mensajería móvil que Adobe Journey Optimizer ofrece a los expertos en marketing.
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430377?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Aprenda a configurar y enviar mensajes RCS interactivos de marca en Adobe Journe
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464758?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
@@ -229,4 +229,4 @@ Aprenda a configurar y enviar mensajes RCS interactivos de marca en Adobe Journe
 
 * [Adición de mensajes a los recorridos](../building-journeys/journeys-message.md)
 * [Creación de campañas de marketing](../campaigns/create-campaign.md)
-* [Protecciones y limitaciones](../start/guardrails.md#sms-guardrails)
+* [Mecanismos de protección y limitaciones](../start/guardrails.md#sms-guardrails)

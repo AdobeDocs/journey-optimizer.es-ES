@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a Journey Optimizer para expertos en marketing
-description: Obtenga más información sobre cómo trabajar con Journey Optimizer como profesional del Recorrido
+description: Como profesional en recorridos, obtenga más información sobre cómo trabajar con Journey Optimizer
 level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Introducción para expertos en marketing {#get-started-marketers}
 
-Como **experto en marketing** o **profesional del Recorrido**, usted es responsable de crear ofertas y recorridos, así como de diseñar contenido. Puede comenzar a trabajar con [!DNL Adobe Journey Optimizer] una vez que la variable [Administrador del sistema](administrator.md) e [Ingeniero de datos](data-engineer.md) le conceda acceso y prepare su entorno.
+Como **Experto en marketing** o **Profesional en recorridos** es responsable de crear ofertas y recorridos, y diseñar contenido. Puede comenzar a trabajar con [!DNL Adobe Journey Optimizer] una vez que la variable [Administrador del sistema](administrator.md) e [Ingeniero de datos](data-engineer.md) le conceda acceso y prepare su entorno.
 
 Consulte las secciones siguientes para configurar su primer recorrido, agregar ofertas y recursos, y enviar mensajes:
 

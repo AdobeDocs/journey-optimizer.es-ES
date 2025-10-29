@@ -1,6 +1,6 @@
 ---
 title: Introducción al correo directo
-description: Obtenga información sobre cómo crear un mensaje de correo postal en Journey Optimizer
+description: Obtenga información sobre cómo crear y enviar un mensaje de correo directo en Journey Optimizer
 feature: Direct Mail
 topic: Content Management
 role: User
@@ -8,9 +8,9 @@ level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '236'
+ht-degree: 100%
 
 ---
 

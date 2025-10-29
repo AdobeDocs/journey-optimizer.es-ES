@@ -8,15 +8,15 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Introducción para administradores de sistemas {#get-started-sys-admins}
 
-Antes de empezar a utilizar [!DNL Adobe Journey Optimizer], se requieren varios pasos para preparar su entorno.  Debe seguir estos pasos para que [el Ingeniero de datos](data-engineer.md) y [el Profesional del Recorrido](marketer.md) puedan comenzar a trabajar con [!DNL Adobe Journey Optimizer].
+Antes de empezar a utilizar [!DNL Adobe Journey Optimizer], se requieren varios pasos para preparar su entorno.  Debe seguir estos pasos para que el [Ingeniero de datos](data-engineer.md) y el [Profesional del recorrido](marketer.md) puedan comenzar a trabajar con [!DNL Adobe Journey Optimizer].
 
 Como **Administrador del sistema**, necesita **comprender las funciones y asignar permisos** para la administración de zonas protegidas y la configuración de canal. También debe configurar las zonas protegidas y administrarlas para las funciones disponibles. A continuación, podrá asignar integrantes del equipo a las funciones.
 
@@ -36,7 +36,7 @@ Obtenga información acerca de la administración de acceso en las siguientes p�
 Además, debe añadir usuarios que necesiten acceso a Assets Essentials para las funciones **Usuarios consumidores de Assets Essentials** o **Usuarios de Assets Essentials**. [Obtenga más información en la documentación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=es){target="_blank"}.
 
 >[!NOTE]
->Para los productos de Journey Optimizer obtenidos antes del 6 de enero de 2022, debe implementar [!DNL Adobe Experience Manager Assets Essentials] para su organización. Obtenga más información en la sección [Implementar Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=es){target="_blank"}.
+>Para los productos de Journey Optimizer obtenidos antes del 6 de enero de 2022, debe implementar [!DNL Adobe Experience Manager Assets Essentials] para su organización. Obtenga más información en la sección [Implementación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=es){target="_blank"}.
 
 Al acceder a [!DNL Journey Optimizer] por primera vez, se le aprovisiona una zona protegida de producción y se le asigna un determinado número de direcciones IP en función de su contrato.
 

@@ -8,21 +8,21 @@ hidefromtoc: true
 redpen-status: CREATED_||_2025-08-11_20-02-38
 exl-id: 74d13927-18ca-4b7a-8e0e-fd69b38c0eff
 source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # Notas de la versión anterior{#section-overview}
 
-Las notas de la versión de Adobe Journey Optimizer ofrecen un resumen mensual de las últimas funciones, actualizaciones y mejoras diseñadas para mejorar los recorridos de los clientes. Tanto si desea personalizar experiencias con herramientas de toma de decisiones, optimizar la creación de mensajes con opciones multilingües o probar campañas con una ejecución sin recorridos, estas actualizaciones se personalizan para ayudarle a atraer clientes de forma más eficaz. Cada sección se centra en avances específicos, como la mensajería RCS, la administración de contenido o las herramientas impulsadas por IA, para que pueda identificar fácilmente qué es lo más relevante para sus objetivos. Profundice para descubrir nuevas formas de optimizar e innovar sus estrategias de marketing.
+Las notas de la versión de Adobe Journey Optimizer ofrecen un resumen mensual de las últimas funciones, actualizaciones y mejoras diseñadas para mejorar los recorridos de los clientes. Tanto si desea personalizar experiencias con herramientas de decisiones, optimizar la creación de mensajes con opciones multilingües o probar campañas con un ensayo del recorrido, estas actualizaciones se personalizan para ayudarle a atraer clientes de una forma más eficaz. Cada sección se centra en avances específicos, como la mensajería RCS, la administración de contenido o las herramientas basadas en la IA, para que pueda identificar fácilmente qué es lo más relevante para sus metas. Profundice para descubrir nuevas formas de optimizar e innovar sus estrategias de marketing.
 
 ## Notas de la versión anterior
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Notas de la versión de Adobe Journey Optimizer de 2025
 
@@ -32,7 +32,7 @@ Explore todas las funciones, actualizaciones y mejoras introducidas en 2025 para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Notas de la versión de Adobe Journey Optimizer de 2024
 
