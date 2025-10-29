@@ -11,32 +11,45 @@ badge: label="Disponibilidad limitada" type="Informative"
 keywords: correo electrónico, plantilla, imagen, HTML, IA, diseño, convertidor
 hide: true
 hidefromtoc: true
-source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
+source-git-commit: 8a504f02de0d438213025f9741a31e66e318a5da
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1769'
 ht-degree: 3%
 
 ---
 
 # Convertir imágenes a plantillas de HTML con el convertidor de imágenes a HTML {#image-to-html}
 
+
+
+## Información general {#overview}
+
+El conversor de imagen a HTML es una característica innovadora con tecnología de IA disponible en el menú de **Plantillas de contenido** que acelera considerablemente la creación de correos electrónicos al convertir diseños de imagen estáticos en plantillas de contenido de correo electrónico modulares de HTML totalmente personalizables. Esta herramienta sin código permite a los especialistas en marketing transformar diseños visuales de diseñadores gráficos o herramientas de diseño en plantillas de correo electrónico interactivas y editables que se pueden guardar en la biblioteca de plantillas de contenido y, a continuación, reutilizarse en varios recorridos y campañas, sin necesidad de conocimientos técnicos.
+
 >[!AVAILABILITY]
 >
 >Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
-## Información general {#overview}
-
-El conversor de imagen a HTML es una característica innovadora con tecnología de IA disponible en el menú de **Plantillas de contenido** que acelera considerablemente la creación de correos electrónicos al convertir diseños de imagen estáticos en plantillas de contenido de correo electrónico de HTML totalmente personalizables. Esta herramienta permite a los especialistas en marketing transformar diseños visuales de diseñadores gráficos o herramientas de diseño en plantillas de correo electrónico interactivas y editables que se pueden guardar en la biblioteca de plantillas de contenido y, a continuación, reutilizarse en varios recorridos y campañas.
-
-Al aprovechar la tecnología de IA generativa, el conversor de imagen a HTML analiza el diseño, la tipografía, los colores y los elementos visuales de la imagen y genera un código HTML limpio y estructurado que mantiene la fidelidad del diseño, a la vez que garantiza la editabilidad y compatibilidad totales con el Designer de correo electrónico.
+Al aprovechar la tecnología de IA generativa, el conversor de imagen a HTML analiza el diseño, la tipografía, los colores y los elementos visuales de la imagen y genera un código HTML modular y limpio que mantiene la fidelidad del diseño, a la vez que garantiza la editabilidad y compatibilidad completas con el Designer de correo electrónico. Esto elimina el proceso manual y laborioso de conversión de maquetas a HTML y reduce la dependencia de los recursos de desarrollo.
 
 **Ventajas principales:**
 
-* **Creación acelerada**: reduzca el tiempo de creación de correos electrónicos al convertir instantáneamente maquetas de diseño en plantillas de contenido reutilizables
-* **Designer-developer bridge**: elimine la necesidad de utilizar código HTML manual cuando se trabaja con diseños visuales
-* **Fidelidad de diseño**: mantenga la integridad del diseño original mientras crea contenido editable
-* **Reutilización**: guarde las plantillas en la biblioteca de plantillas de contenido para usarlas en varios recorridos y campañas
+* **Diseño a HTML en minutos**: la conversión sin código con tecnología de IA transforma las imágenes estáticas en plantillas modulares editables en minutos, lo que reduce considerablemente el tiempo de creación de plantillas
+* **Habilita a los usuarios no técnicos**: reduce la dependencia de los equipos de diseño o desarrollo; los especialistas en marketing pueden generar y personalizar plantillas con conocimientos técnicos mínimos
+* **Migración de plataformas simplificada**: Convierta plantillas o diseños externos de otras plataformas en HTML preparados para AJO sin esfuerzo
+* **Crear una biblioteca de plantillas reutilizable**: cree una biblioteca de plantillas escalable y coherente con la marca que se pueda usar en varios recorridos y campañas
+* **Fidelidad de diseño**: mantenga la coherencia visual con el diseño original mientras crea contenido totalmente editable
 * **Compatibilidad de correo electrónico**: genere un HTML que funcione perfectamente con el Designer de correo electrónico y entre clientes de correo electrónico
+
+## Casos de uso comunes {#use-cases}
+
+El convertidor de imagen a HTML es ideal para:
+
+* **Migración de la plataforma**: ¿Está migrando desde otra plataforma de marketing por correo electrónico? Convierta sus diseños de correo electrónico existentes en plantillas de HTML compatibles con AJO sin tener que volver a crear desde cero
+* **Conversión de maqueta de diseño**: transforme maquetas de diseño de herramientas como Photoshop, Figma u otro software de diseño en plantillas de correo electrónico funcionales
+* **Creación rápida de plantillas**: genere plantillas de correo electrónico rápidamente para campañas en las que el tiempo sea importante sin esperar los recursos para desarrolladores
+* **Creación de bibliotecas de plantillas**: cree una biblioteca completa de plantillas compatibles con la marca que los integrantes del equipo no técnicos puedan personalizar e implementar
+* **Reducción de las dependencias técnicas**: permita que los especialistas en marketing creen plantillas de correo electrónico e iteren de forma independiente, lo que acelera la ejecución de la campaña
 
 ## Requisitos previos {#prerequisites}
 
@@ -206,6 +219,12 @@ El convertidor de imagen a HTML está disponible en disponibilidad limitada. Nec
 +++¿Puedo reutilizar plantillas convertidas en varias campañas?
 
 ¡Sí! Las plantillas creadas con el convertidor de imagen a HTML se guardan automáticamente en la biblioteca de plantillas de contenido. Puede acceder a ellas y reutilizarlas en cualquier mensaje de correo electrónico de sus recorridos y campañas. [Más información](../content-management/content-templates.md)
+
++++
+
++++¿Puedo utilizarlo para la migración de plataformas?
+
+¡Sí! El conversor de imagen a HTML es ideal para migrar desde otras plataformas de marketing por correo electrónico. Solo tiene que exportar o capturar la pantalla de sus diseños de correo electrónico existentes de la plataforma anterior y convertirlos en plantillas de HTML preparadas para AJO sin necesidad de reconstruirlos desde cero.
 
 +++
 
