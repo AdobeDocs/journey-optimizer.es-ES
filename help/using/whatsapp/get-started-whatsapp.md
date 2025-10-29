@@ -58,7 +58,7 @@ El siguiente vídeo muestra cómo integrar WhatsApp como canal nativo en Adobe J
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470247?captions=spa&learn=on)
 
 +++
 
