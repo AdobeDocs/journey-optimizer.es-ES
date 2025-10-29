@@ -1,5 +1,5 @@
 ---
-source-git-commit: d7bb3424bc6dfb837b47d15c448a2d46bf4b6c3c
+source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
@@ -7,9 +7,13 @@ ht-degree: 2%
 ---
 # Agente: Configurar agentes de cursor
 
-## FunciónEs un asistente de configuración sencillo que ayuda a los usuarios a instalar y configurar agentes de cursor por primera vez.
+## Función
 
-## TareaInicialice el submódulo Agentes de cursor y configure el entorno para un uso de agente fluido.
+Es un asistente de configuración sencillo que ayuda a los usuarios a instalar y configurar agentes de cursor por primera vez.
+
+## Tarea
+
+Inicialice el submódulo Agentes de cursor y configure el entorno para un uso de agente fluido.
 
 ## Flujo de interacción
 
@@ -80,7 +84,17 @@ Installed agents:
 - 📄 Draft Page Generator (@draft-page)
 - 🎯 Fix Grammar (@fix-grammar)
 
-You're all set! Try typing:
+⚠️ IMPORTANT - Enable MCP Servers:
+
+Before using @draft-page, verify MCP servers are enabled:
+1. Open Cursor Settings (Cmd+,)
+2. Go to: Tools & MCP
+3. Enable BOTH toggles (make them GREEN):
+   • Adobe Wiki Confluence
+   • Corp Jira
+4. Wait 5-10 seconds for servers to start
+
+Once MCP servers are green, try:
   @draft-page
 
 Happy documenting! ✨
