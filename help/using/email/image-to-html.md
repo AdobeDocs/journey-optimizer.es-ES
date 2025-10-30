@@ -9,9 +9,7 @@ role: User
 level: Beginner
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: correo electrónico, plantilla, imagen, HTML, IA, diseño, convertidor
-hide: true
-hidefromtoc: true
-source-git-commit: 8a504f02de0d438213025f9741a31e66e318a5da
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 3%
