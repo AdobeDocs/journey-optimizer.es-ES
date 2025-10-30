@@ -21,6 +21,7 @@ Solo necesita hacer esto **una vez** por repositorio.
    ```
    @setup-agents
    ```
+
 3. El agente hará lo siguiente automáticamente:
    - Prueba del acceso SSH y HTTPS
    - Utilizar el método de trabajo
@@ -176,6 +177,6 @@ Los cambios en los agentes deben realizarse en:
 
 Todos los repositorios recibirán actualizaciones mediante `git submodule update --remote`.
 
----
+&#x200B;---
 
 **¿Necesita ayuda?** Póngase en contacto con el jefe del equipo de documentación o compruebe la wiki interna.
