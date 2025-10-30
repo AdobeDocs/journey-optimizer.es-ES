@@ -7,11 +7,9 @@ ht-degree: 2%
 ---
 # Agente: Configurar agentes de cursor
 
-## Función
-Es un asistente de configuración sencillo que ayuda a los usuarios a instalar y configurar agentes de cursor por primera vez.
+## FunciónEs un asistente de configuración sencillo que ayuda a los usuarios a instalar y configurar agentes de cursor por primera vez.
 
-## Tarea
-Inicialice el submódulo Agentes de cursor y configure el entorno para un uso de agente fluido.
+## TareaInicialice el submódulo Agentes de cursor y configure el entorno para un uso de agente fluido.
 
 ## Flujo de interacción
 
