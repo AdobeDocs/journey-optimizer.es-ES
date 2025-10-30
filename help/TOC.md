@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+source-git-commit: f48f56209ea4aad4b254a21a48b3ec84b8b16a8a
 workflow-type: tm+mt
 source-wordcount: '3010'
 ht-degree: 99%
@@ -324,9 +324,9 @@ ht-degree: 99%
             + [Empezar a crear contenido](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [Diseño de contenido desde cero](using/email/content-from-scratch.md)
             + [Importe el contenido](using/email/existing-content.md)
-            + [Conversión de imágenes en plantillas de HTML](using/email/image-to-html.md)
             + [Codifique su propio contenido](using/email/code-content.md)
             + [Uso de plantillas de correo electrónico](using/email/use-email-templates.md)
+            + [Conversión de imágenes en plantillas de HTML](using/email/image-to-html.md)
             + [Aprovechar temas de correo electrónico](using/email/apply-email-themes.md)
             + [Adjuntar archivos PDF a los correos electrónicos](using/email/pdf-attachments.md)
          + Diseño del contenido {#add-content}
@@ -886,7 +886,7 @@ ht-degree: 99%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
