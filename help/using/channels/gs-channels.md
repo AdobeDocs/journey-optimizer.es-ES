@@ -9,7 +9,7 @@ exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: d2ae91dd8f9f3ef8a38db12ea3c9356ca9a27c53
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -109,7 +109,7 @@ Sumérjase en experiencias basadas en código para ofrecer contenido personaliza
 
 Tarjetas de contenido
 
-Descubra cómo configurar, crear y diseñar tarjetas de contenido para mensajes atractivos y personalizados en aplicaciones móviles y sitios web.
+Descubra cómo configurar, crear y diseñar tarjetas de contenido para enviar mensajes atractivos y personalizados en aplicaciones móviles y sitios web.
 
 [Más información sobre la experiencia basada en código](../../rp_landing_pages/content-card-landing-page.md)
 :::

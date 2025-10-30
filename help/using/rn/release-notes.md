@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 9d58e16bb6717c4aeccede84b1ccc5b4e777fad8
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 46%
+ht-degree: 90%
 
 ---
 
@@ -54,7 +54,7 @@ New capabilities and improvements released recently are listed below, with their
 
 ## Notas de la versión de octubre de 2025 {#oct-25-10-rn}
 
-**Fecha de lanzamiento**: jueves, 22 de octubre de 2025
+**Fecha de lanzamiento**: 22 de octubre de 2025
 
 ### Nuevas funciones {#oct-25-10-features}
 
@@ -107,10 +107,10 @@ New capabilities and improvements released recently are listed below, with their
 <td>
 <p>Las horas tranquilas le permiten definir exclusiones basadas en el tiempo para los canales de correo electrónico, SMS, push y WhatsApp. Garantizan que no se envíen mensajes durante períodos de tiempo específicos, lo que le ayuda a respetar las preferencias de los clientes y los requisitos de cumplimiento.</p>
 <p>Puede aplicar horas tranquilas a través de conjuntos de reglas, que se pueden asignar a acciones individuales en campañas o recorridos para un control preciso.</p>
-<p>Actualmente, las reglas de horario silencioso solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para que se añada a la lista de espera, póngase en contacto con su representante de Adobe.</p>
+<p>Ahora mismo, las horas tranquilas solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para que se añada a la lista de espera, póngase en contacto con su representante de Adobe.</p>
 <img src="assets/do-not-localize/quiet-hour.gif">
 <p>Para obtener más información, consulte la <a href="../conflict-prioritization/quiet-hours.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: jueves, 22 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 22 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -237,10 +237,10 @@ New capabilities and improvements released recently are listed below, with their
 <tbody>
 <tr>
 <td>
-<p>Hay disponible un nuevo modo de mensajería transaccional de alto rendimiento en campañas activadas por API. Este modo está diseñado para mensajes transaccionales a gran escala y en tiempo real y admite hasta 5000 transacciones por segundo con una mayor disponibilidad. Este modo también admite mensajes transaccionales sin hacer referencia ni crear perfiles de clientes, como cierre de compra de invitado, confirmación de pedido, restablecimientos de contraseña, notificaciones de seguridad y otras notificaciones de servicio/operacionales.</p>
-<p>Esta funcionalidad solo está disponible para el canal de correo electrónico, para organizaciones que han adquirido la oferta del complemento Mensajería transaccional de alto rendimiento de Adobe. Póngase en contacto con su representante de Adobe para obtener más información.</p>
+<p>Ahora hay disponible un nuevo modo de mensajería transaccional de alto rendimiento en las campañas activadas por API. Este modo está diseñado para la mensajería transaccional a gran escala y en tiempo real y admite hasta 5000 transacciones por segundo con una mayor disponibilidad. Este modo también admite mensajes transaccionales sin hacer referencia ni crear perfiles de clientes, como compras sin registro, confirmación de pedidos, restablecimientos de contraseña, notificaciones de seguridad y otras notificaciones de servicio/operativas.</p>
+<p>Esta funcionalidad solo está disponible para el canal de correo electrónico, para organizaciones que han adquirido la oferta de complemento de mensajería transaccional de alto rendimiento de Adobe. Póngase en contacto con su representante de Adobe para obtener más información.</p>
 <p>Para obtener más información, consulte la <a href="../campaigns/api-triggered-high-throughput.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: jueves, 22 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 22 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -255,11 +255,11 @@ New capabilities and improvements released recently are listed below, with their
 <tbody>
 <tr>
 <td>
-<p>Para ahorrarle tiempo y esfuerzo, Journey Optimizer ahora le permite crear reglas reutilizables a partir de un menú de interfaz de usuario dedicado y aprovecharlas al crear objetivos, ya sea como parte de la optimización de contenido en una campaña o un recorrido, en la actividad Optimizar recorrido.</p>
-<p>Actualmente, las reglas de segmentación están en disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso. Tenga en cuenta que esta funcionalidad solo está disponible para las organizaciones que han adquirido la oferta de complementos de Decisioning. Se implementará progresivamente para todos los clientes.</p>
+<p>Para ahorrarle tiempo y esfuerzo, Journey Optimizer ahora le permite crear reglas reutilizables desde un menú de interfaz de usuario dedicado y aprovecharlas al crear segmentaciones, ya sea como parte de la optimización de contenido en una campaña o un recorrido, o dentro de la actividad Optimizar recorrido.</p>
+<p>Actualmente, las reglas de segmentación están en disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso. Tenga en cuenta que esta funcionalidad solo está disponible en las organizaciones que han adquirido la oferta de complementos de Decisioning. Se implementará progresivamente para todos los clientes.</p>
 <img src="assets/do-not-localize/targeting-rules.gif">
 <p>Para obtener más información, consulte la <a href="../experience-decisioning/rules.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: jueves, 22 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 22 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -268,18 +268,18 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Nuevas alertas de Recorrido</strong><br/></th>
+<th><strong>Nuevas alertas de recorrido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Hay nuevas alertas preconfiguradas disponibles para controlar la ejecución del recorrido:</p>
-<ul><li><a href="../reports/alerts.md#alert-discard-rate">Tasa de descartes de perfiles superada</a>: la proporción de descartes de perfiles respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral.</li>
-<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Tasa de errores de acción personalizada superada</a>: la proporción de errores de acción personalizada respecto a las llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral.</li>
-<li><a href="../reports/alerts.md#alert-profile-error-rate">Tasa de error de perfil superada</a>: la proporción de perfiles en error respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral.</li></ul> <p>Puede modificar los valores de umbral y suscribirse a alertas de nivel de recorrido individual o global.</p>
+<p>Hay nuevas alertas preconfiguradas disponibles para monitorizar la ejecución del recorrido:</p>
+<ul><li><a href="../reports/alerts.md#alert-discard-rate">Se ha superado la tasa de descarte de perfiles</a>: la proporción de descartes de perfil para los perfiles introducidos durante los últimos 5 minutos ha excedido el umbral.</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Se ha superado la tasa de errores de acciones personalizadas</a>: la proporción de errores de acciones personalizadas respecto a las llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">Se ha superado la tasa de errores de perfiles</a>: la proporción de perfiles erróneos respecto a los perfiles introducidos durante los últimos cinco minutos ha superado el umbral.</li></ul> <p>Puede modificar los valores de umbral y suscribirse a alertas individuales a nivel de recorrido en lugar de a nivel global.</p>
 <p>Para obtener más información, consulte la <a href="../reports/alerts.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: miércoles, 14 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 14 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -288,17 +288,17 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Ayudante de metadatos de ejecución</strong><br/></th>
+<th><strong>Asistente de los metadatos de ejecución</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Hay una nueva función de ayuda executionMetadata disponible en el editor de personalización. Permite anexar información contextual a cualquier acción nativa y capturarla en un conjunto de datos para exportarla a sistemas externos.</p>
+<p>Ya está disponible una nueva función de ayuda `executionMetadata` en el editor de personalización. Permite anexar información contextual a cualquier acción nativa y capturarla en un conjunto de datos para exportarla a sistemas externos.</p>
 <p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
 <p>Para obtener más información, consulte la <a href="../personalization/functions/helpers.md#execution-metadata">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: martes, 13 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 13 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -307,15 +307,15 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Experimentation Accelerator con el agente de experimentación</strong><br/></th>
+<th><strong>Experimentation Accelerator con Experimentation Agent</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Experimentation Accelerator ahora incluye Experimentation Agent, una herramienta conversacional con tecnología de IA que le permite interactuar con sus experimentos, perspectivas y oportunidades. Mejora la experiencia de Journey Optimizer Experimentation Accelerator, lo que le ayuda a ejecutar experimentos de forma más eficiente, descubrir qué funciona y descubrir dónde optimizar a continuación.</p>
+<p>Journey Optimizer Experimentation Accelerator ahora incluye Experimentation Agent, una herramienta conversacional con tecnología de IA que le permite interactuar con sus experimentos, información y oportunidades. Mejora la experiencia de Journey Optimizer Experimentation Accelerator, lo que le ayuda a ejecutar experimentos de forma más eficiente, descubrir qué funciona y descubrir dónde optimizar a continuación.</p>
 <p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=es" target="_blank">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: sábado, 10 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 10 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -374,9 +374,9 @@ New capabilities and improvements released in the past weeks are listed below, w
 
 **Campo de ejecución para el canal de WhatsApp**
 
-Además de correo electrónico y SMS, puede saber cómo actualizar el campo de ejecución predeterminado para sus envíos de WhatsApp en el nivel de zona protegida. También es posible anular el campo de ejecución definido globalmente cambiándolo en los parámetros avanzados de la actividad de recorrido de WhatsApp o en la configuración del canal de WhatsApp. [Más información](../configuration/primary-email-addresses.md)
+Además del correo electrónico y SMS, puede saber cómo actualizar el campo de ejecución predeterminado para sus envíos de WhatsApp en el nivel de zona protegida. También es posible anular el campo de ejecución definido globalmente cambiándolo en los parámetros avanzados de la actividad de recorrido de WhatsApp o en la configuración del canal de WhatsApp. [Más información](../configuration/primary-email-addresses.md)
 
-Fecha de disponibilidad: jueves, 22 de octubre de 2025
+Fecha de disponibilidad: 22 de octubre de 2025
 
 **Compatibilidad con atributos personalizados para la dirección Mailto (cancelar la suscripción)**
 

@@ -10,7 +10,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: d09fc3ed670a50b6a99bcf660353ee37d31c7501
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 52%
 [!DNL Adobe Journey Optimizer] ofrece continuamente nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en las [notas de la versión](release-notes.md).
 
 
-## Notas previas al lanzamiento de octubre de 2025 {#oct-25-10-rn}
+## Notas de la versión preliminar de octubre de 2025 {#oct-25-10-rn}
 
 **Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad de la versión**. Los vínculos, las pantallas y la documentación actualizada se publican en las notas de la versión en la fecha de lanzamiento.
 
 Véase también [Notas de la versión preliminar de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**Fecha de lanzamiento**: jueves, 22 de octubre de 2025
+**Fecha de lanzamiento**: 22 de octubre de 2025
 
 ### Nuevas funciones {#oct-25-10-features}
 
@@ -146,13 +146,13 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
-<th><strong>Nuevos conectores de origen para aplicaciones de fidelidad</strong><br/></th>
+<th><strong>Nuevos conectores de origen para aplicaciones de lealtad</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Los nuevos conectores de origen ya están disponibles en Adobe Experience Platform para las aplicaciones de fidelidad Talon.One, Capillary y Kobie. Estos conectores le permiten transmitir sin problemas datos de lealtad a Adobe Experience Platform y aprovechar estos datos en Journey Optimizer.</p>
+<p>Los nuevos conectores de origen ya están disponibles en Adobe Experience Platform para las aplicaciones de lealtad Talon.One, Capillary y Kobie. Estos conectores le permiten transmitir sin problemas datos de lealtad a Adobe Experience Platform y aprovechar estos datos en Journey Optimizer.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -205,9 +205,9 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ahora le permite crear reglas a partir de un menú de interfaz de usuario dedicado y aprovecharlas al crear objetivos, ya sea como parte de la optimización de contenido en una campaña o un recorrido, en la actividad Optimizar recorrido.</p>
+<p>Journey Optimizer ahora le permite crear reglas desde un menú de interfaz de usuario dedicado y aprovecharlas al crear segmentaciones, ya sea como parte de la optimización de contenido en una campaña o un recorrido, o en la actividad Optimizar recorrido.</p>
 <p>Actualmente, las reglas de segmentación están en disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
-<p>Tenga en cuenta que esta funcionalidad solo está disponible para las organizaciones que han adquirido la oferta de complementos de Decisioning. Se implementará progresivamente para todos los clientes.</p>
+<p>Tenga en cuenta que esta funcionalidad solo está disponible en las organizaciones que han adquirido la oferta de complementos de Decisioning. Se implementará progresivamente para todos los clientes.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -225,7 +225,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tr>
 <td>
 <p>Ahora puede aplicar rápidamente temas aprobados anteriormente para garantizar la coherencia de marca en todos los correos electrónicos, acelerar el proceso de creación de campañas y producir de forma independiente correos electrónicos de alta calidad, al tiempo que se reduce la dependencia en los equipos de diseño.</p>
-<p>Esta funcionalidad, que se publicó anteriormente en la versión beta, ya está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>Esta funcionalidad, que se publicó anteriormente en la versión Beta, ya está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <img src="assets/do-not-localize/themes.gif">
 <p>Para obtener más información, consulte la <a href="../email/apply-email-themes.md">documentación detallada</a>.</p>
 <!--p>Availability date: October 22, 2025</p-->
@@ -237,18 +237,18 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
-<th><strong>Nuevas alertas de Recorrido</strong><br/></th>
+<th><strong>Nuevas alertas de recorrido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Hay nuevas alertas preconfiguradas disponibles para controlar la ejecución del recorrido:</p>
-<ul><li><a href="../reports/alerts.md#alert-discard-rate">Tasa de descartes de perfiles superada</a>: la proporción de descartes de perfiles respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral.</li>
-<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Tasa de errores de acción personalizada superada</a>: la proporción de errores de acción personalizada respecto a las llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral.</li>
-<li><a href="../reports/alerts.md#alert-profile-error-rate">Tasa de error de perfil superada</a>: la proporción de perfiles en error respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral.</li></ul> <p>Puede modificar los valores de umbral y suscribirse a alertas de nivel de recorrido individual o global.</p>
+<p>Hay nuevas alertas preconfiguradas disponibles para monitorizar la ejecución del recorrido:</p>
+<ul><li><a href="../reports/alerts.md#alert-discard-rate">Se ha superado la tasa de descarte de perfiles</a>: la proporción de descartes de perfil para los perfiles introducidos durante los últimos 5 minutos ha excedido el umbral.</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Se ha superado la tasa de errores de acciones personalizadas</a>: la proporción de errores de acciones personalizadas respecto a las llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">Se ha superado la tasa de errores de perfiles</a>: la proporción de perfiles erróneos respecto a los perfiles introducidos durante los últimos cinco minutos ha superado el umbral.</li></ul> <p>Puede modificar los valores de umbral y suscribirse a alertas individuales a nivel de recorrido en lugar de a nivel global.</p>
 <p>Para obtener más información, consulte la <a href="../reports/alerts.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: miércoles, 14 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 14 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -257,16 +257,16 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
-<th><strong>Ayudante de metadatos de ejecución</strong><br/></th>
+<th><strong>Asistente de los metadatos de ejecución</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Hay una nueva función de ayuda executionMetadata disponible en el editor de personalización. Permite anexar información contextual a cualquier acción nativa y capturarla en un conjunto de datos para exportarla a sistemas externos.</p>
+<p>Ya está disponible una nueva función de ayuda `executionMetadata` en el editor de personalización. Permite anexar información contextual a cualquier acción nativa y capturarla en un conjunto de datos para exportarla a sistemas externos.</p>
 <p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p>Para obtener más información, consulte la <a href="../personalization/functions/helpers.md#execution-metadata">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: martes, 13 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 13 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -275,16 +275,16 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
-<th><strong>¡Experimentation Agent está aquí!</strong><br/></th>
+<th><strong>Ya está aquí Experimentation Agent.</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con la tecnología <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, el agente de experimentación está disponible en Journey Optimizer. </p>
-<p>Experimentation Agent es una herramienta con tecnología de IA que moderniza la forma de ejecutar y administrar experimentos digitales en sitios web, correos electrónicos, mensajes push y aplicaciones. Ayuda a ejecutar experimentos de forma más eficaz, organizar los objetivos comerciales y generar perspectivas procesables, resaltando lo que funcionó, lo que no y dónde experimentar a continuación.</p>
+<p>Con la tecnología de <a href="https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Experimentation Agent está disponible en Journey Optimizer. </p>
+<p>Experimentation Agent es una herramienta con tecnología de IA que moderniza la forma de ejecutar y administrar experimentos digitales en sitios web, correos electrónicos, mensajes push y aplicaciones. Ayuda a ejecutar experimentos de una forma más eficaz, organizar metas comerciales y generar información procesable, resaltando lo que funcionó, lo que no y dónde experimentar a continuación.</p>
 <p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=es" target="_blank">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: sábado, 10 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 10 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -336,11 +336,11 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 
 **Toma de decisiones en correos electrónicos mediante modelos de IA**
 
-Ahora puede utilizar modelos de IA para optimizar el mejor contenido del correo electrónico mediante el uso de Decisioning. Por ejemplo, esta capacidad le permite optimizar el mejor contenido en función de eventos personalizados como compras, clics en botones, agregar al carro de compras, etc.
+Ahora puede utilizar modelos de IA para optimizar el mejor contenido del correo electrónico mediante el uso de Decisioning. Por ejemplo, esta funcionalidad le permite optimizar el mejor contenido en función de eventos personalizados como compras, clics en botones, añadir al carro de compras, etc.
 
 **Campo de ejecución para el canal de WhatsApp**
 
-Además de correo electrónico y SMS, puede saber cómo actualizar el campo de ejecución predeterminado para sus envíos de WhatsApp en el nivel de zona protegida. También es posible anular el campo de ejecución definido globalmente cambiándolo en los parámetros avanzados de la actividad de recorrido de WhatsApp o en la configuración del canal de WhatsApp. <!-- [Read more](../FILE.md) -->
+Además del correo electrónico y SMS, puede saber cómo actualizar el campo de ejecución predeterminado para sus envíos de WhatsApp en el nivel de zona protegida. También es posible anular el campo de ejecución definido globalmente cambiándolo en los parámetros avanzados de la actividad de recorrido de WhatsApp o en la configuración del canal de WhatsApp. <!-- [Read more](../FILE.md) -->
 
 **Compatibilidad con atributos personalizados para la dirección Mailto (cancelar la suscripción)**
 

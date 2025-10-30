@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
 source-wordcount: '3010'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 + Recorridos {#orchestrate-journeys}
    + [Recorridos](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introducción a los recorridos](using/building-journeys/journey.md)
-   + [PREGUNTAS FRECUENTES SOBRE RECORRIDO](using/building-journeys/journey-faq.md)
+   + [Preguntas frecuentes sobre los recorridos](using/building-journeys/journey-faq.md)
    + Crear un recorrido {#create-journey}
       + [Crear un recorrido](/help/rp_landing_pages/create-journey-landing-page.md)
       + [Creación de su primer recorrido](using/building-journeys/journey-gs.md)
@@ -69,7 +69,7 @@ ht-degree: 97%
       + [Examinar y filtrar sus recorridos](using/building-journeys/journey-ui.md)
       + [Entrada de perfil en recorridos](using/building-journeys/entry-management.md)
       + [Uso de identificadores suplementarios en recorridos](using/building-journeys/supplemental-identifier.md)
-      + [Trabajo con eventos de paso de recorrido](using/reports/journey-step-events-overview.md)
+      + [Trabajar con eventos de pasos del recorrido](using/reports/journey-step-events-overview.md)
       + [Administración de husos horarios](using/building-journeys/timezone-management.md)
       + [Optimización de hora de envío](using/building-journeys/send-time-optimization.md)
       + [Termine el recorrido](using/building-journeys/end-journey.md)
@@ -198,7 +198,7 @@ ht-degree: 97%
       + [Envío de mensajes multicanal](using/building-journeys/journeys-uc.md)
       + [Envío de un mensaje mediante Campaign v7/v8](using/building-journeys/ajo-ac.md)
       + [Envío de un mensaje a los suscriptores](using/building-journeys/message-to-subscribers-uc.md)
-      + [Paso de colecciones a parámetros de acción personalizados](using/building-journeys/collections.md)
+      + [Pasar colecciones a parámetros de acción personalizados](using/building-journeys/collections.md)
       + [Aumento de envíos](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Limitación del rendimiento con fuentes de datos externas y acciones personalizadas](using/building-journeys/limit-throughput.md)
       + [Utilice acciones personalizadas para escribir los eventos de recorrido en Experience Platform](using/building-journeys/custom-action-aep.md)
@@ -225,11 +225,11 @@ ht-degree: 97%
       + [Programación de la campaña](using/campaigns/api-triggered-campaign-schedule.md)
       + [Revisión y activación de la campaña](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Activación de la ejecución de la campaña](using/campaigns/trigger-campaigns.md)
-      + [Activar el modo de alto rendimiento para campañas activadas por API](using/campaigns/api-triggered-high-throughput.md)
+      + [Activación del modo de alto rendimiento para campañas activadas por API](using/campaigns/api-triggered-high-throughput.md)
    + Campañas orquestadas {#orchestrated-campaigns}
       + [Campañas orquestadas](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Introducción a las campañas orquestadas](using/orchestrated/gs-orchestrated-campaigns.md)
-      + [Protecciones y limitaciones](using/orchestrated/guardrails.md)
+      + [Mecanismos de protección y limitaciones](using/orchestrated/guardrails.md)
       + [Preguntas frecuentes](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configuración de datos {#data-configuration}
          + [Configuración de datos](/help/rp_landing_pages/data-configuration-landing-page.md)
@@ -240,7 +240,7 @@ ht-degree: 97%
             + [Esquema de carga de archivos](using/orchestrated/file-upload-schema.md)
             + [Ingesta de datos](using/orchestrated/ingest-data.md)
          + [Creación de una dimensión de segmentación](using/orchestrated/target-dimension.md)
-         + [Configuración de un canal](using/orchestrated/channel-config.md)
+         + [Establecimiento de una configuración de canal](using/orchestrated/channel-config.md)
       + Lanzamiento de su primera campaña orquestada {#launch}
          + [Lanzamiento de su primera campaña orquestada](/help/rp_landing_pages/launch-landing-page.md)
          + [Pasos clave para crear una campaña orquestada](using/orchestrated/gs-campaign-creation.md)
@@ -279,9 +279,9 @@ ht-degree: 97%
    + Establecimiento de reglas de límite de mensajes y recorridos {#capping-rules}
       + [Establecimiento de reglas de límite de mensajes y recorridos](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [Trabajar con conjuntos de reglas](using/conflict-prioritization/rule-sets.md)
-      + [Administrar la restricción y mediación de recorridos](using/conflict-prioritization/journey-capping.md)
-      + [Definir límite de frecuencia por canal y tipo](using/conflict-prioritization/channel-capping.md)
-      + [Establecer horas de silencio](using/conflict-prioritization/quiet-hours.md)
+      + [Administración del límite y arbitraje del recorrido](using/conflict-prioritization/journey-capping.md)
+      + [Definición de la restricción de frecuencia por canal y tipo](using/conflict-prioritization/channel-capping.md)
+      + [Establecimiento de horas tranquilas](using/conflict-prioritization/quiet-hours.md)
 + Prueba y aprobación {#test}
    + [Prueba y aprobación](/help/rp_landing_pages/test-landing-page.md)
    + Vista previa y prueba del contenido {#preview-test}
@@ -391,9 +391,9 @@ ht-degree: 97%
       + Configuración de canales de SMS/MMS/RCS {#configure-sms}
          + [Configuración de canales de SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Introducción a la configuración de SMS/MMS/RCS](using/sms/sms-configuration.md)
-         + [Configuración del proveedor Sinch](using/sms/sms-configuration-sinch.md)
-         + [Configuración del proveedor Infobip](using/sms/sms-configuration-infobip.md)
-         + [Configuración del proveedor Twilio](using/sms/sms-configuration-twilio.md)
+         + [Configuración del proveedor de Sinch](using/sms/sms-configuration-sinch.md)
+         + [Configuración del proveedor de Infobip](using/sms/sms-configuration-infobip.md)
+         + [Configuración del proveedor de Twilio](using/sms/sms-configuration-twilio.md)
          + [Configuración de un proveedor personalizado](using/sms/sms-configuration-custom.md)
          + [Creación de una configuración de SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
    + Correo directo {#direct-mail}
@@ -886,7 +886,7 @@ ht-degree: 97%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
@@ -984,6 +984,6 @@ ht-degree: 97%
       + [Administrar el consentimiento](/help/rp_landing_pages/consent-landing-page.md)
       + [Administración de la exclusión](using/privacy/opt-out.md)
       + [Trabajar con políticas de consentimiento](using/action/consent.md)
-      + [Administre las preferencias de sus clientes](using/action/preference-center.md)
+      + [Administración de las preferencias de los clientes](using/action/preference-center.md)
    + [Gobernanza de datos](using/action/action-privacy.md)
    + [Configurar y administrar claves administradas por el cliente](using/privacy/cmk.md)

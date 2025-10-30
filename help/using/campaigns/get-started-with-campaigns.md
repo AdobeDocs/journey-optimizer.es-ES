@@ -13,7 +13,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 89%
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campaña"
->abstract="Seleccione el tipo de campaña. Los canales disponibles varían según el tipo seleccionado. <br>**Campañas programadas** (campañas de acción): son ideales para comunicaciones por lotes simples y puntuales que se pueden programar para que se ejecuten a una hora específica.<br>**Campañas activadas por API**: se activan mediante una llamada de API, lo que permite la mensajería automatizada basada en eventos directamente desde sistemas externos.<br>**Campañas orquestadas**: proporcionan un lienzo visual de arrastrar y soltar para diseñar y automatizar flujos de trabajo de marketing complejos y de varios pasos, desde la segmentación de públicos hasta el envío personalizado de mensajes en todos los canales."
+>abstract="Seleccione el tipo de campaña. Los canales disponibles varían según el tipo seleccionado. <br>**Campañas programadas** (campañas de acción): son ideales para comunicaciones por lotes simples y puntuales que se pueden programar para que se ejecuten a una hora específica.<br>**Campañas activadas por API**: se activan mediante una llamada API, lo que permite la mensajería automatizada basada en eventos directamente desde sistemas externos.<br>**Campañas orquestadas**: proporcionan un lienzo visual de arrastrar y soltar para diseñar y automatizar flujos de trabajo de marketing complejos y de varios pasos, desde la segmentación de públicos hasta el envío personalizado de mensajes en todos los canales."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
@@ -115,7 +115,7 @@ Las **campañas de acción**, también conocidas como campañas programadas, per
 
 >[!TAB Campañas activadas mediante API]
 
-Las **campañas activadas por API** le permiten activar la ejecución de la campaña mediante una llamada API. Estas comunicaciones se pueden enviar donde la necesidad puede implicar una personalización no solo mediante atributos de perfil como restablecimiento de contraseña, sino también datos de contexto en tiempo real en el déclencheur, que es una carga útil de API de REST.
+Las **campañas activadas por API** le permiten activar la ejecución de la campaña mediante una llamada API. Estas comunicaciones se pueden enviar allí donde la necesidad pueda implicar una personalización no solo mediante un atributo de perfil como el restablecimiento de contraseña, sino también mediante los datos de contexto en tiempo real del activador, que es una carga útil de la API de REST.
 
 * **API activada - Marketing**. envíe comunicaciones de marketing personalizadas a públicos de destino.
 * **API activada - Transaccional**: envíe mensajes después de una acción realizada por una persona, como una solicitud de restablecimiento de contraseña, la compra del carro de compras, etc.
@@ -147,7 +147,7 @@ Antes de trabajar con campañas, asegúrese de haber revisado los requisitos pre
 
    1. En la pestaña **[!UICONTROL Usuarios]**, haga clic en **[!UICONTROL Añadir usuario]**.
 
-   1. Escriba el nombre o la dirección de correo electrónico del usuario o seleccione el usuario de la lista y haga clic en **[!UICONTROL Guardar]**.
+   1. Introduzca el nombre o la dirección de correo electrónico del usuario o seleccione el usuario en la lista y haga clic en **[!UICONTROL Guardar]**.
 
       Si el usuario no se ha creado previamente, consulte la [documentación de Añadir usuarios](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/users).
 

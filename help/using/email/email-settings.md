@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ Defina la configuración de correo electrónico en la sección dedicada de la co
 
 Se recoge la configuración de correo electrónico para enviar comunicaciones siguiendo la lógica siguiente:
 
-* Para los recorridos por lotes, no se aplica a la ejecución por lotes que ya se había iniciado antes de configurar la superficie de correo electrónico. El cambio se recoge en la siguiente periodicidad o en la nueva ejecución.
+* Para los recorridos por lotes, no se aplica a la ejecución por lotes que ya se había iniciado antes de configurar la superficie de correo electrónico. El cambio se aplica en la siguiente periodicidad o nueva ejecución.
 
 * En el caso de los mensajes transaccionales, el cambio se recoge inmediatamente para la siguiente comunicación (con un retraso de hasta cinco minutos).
 
 >[!NOTE]
 >
->Las opciones de configuración de correo electrónico actualizadas se recogen automáticamente en los recorridos o campañas donde se utiliza la configuración.
+>La configuración de correo electrónico actualizada se aplica automáticamente en los recorridos o campañas en las que se utiliza la configuración.
 
 ## Tipo de correo electrónico {#email-type}
 

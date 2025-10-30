@@ -12,7 +12,7 @@ exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 62%
 
 Para poder enviar correos electrónicos a través de recorridos y campañas en [!DNL Journey Optimizer], debe seguir varios pasos de configuración.
 
-1. Para garantizar una entrega óptima y proteger su reputación, comience por **delegar a Adobe los subdominios** que va a utilizar para enviar sus correos electrónicos con [!DNL Journey Optimizer]. Estos subdominios determinarán elementos como las páginas web de las que se realizará un seguimiento y las direcciones URL de las páginas espejo. [Más información](../configuration/about-subdomain-delegation.md)
+1. Para garantizar una entregabilidad óptima y proteger su reputación, empiece **delegando en Adobe los subdominios** que va a utilizar para enviar sus correos electrónicos con [!DNL Journey Optimizer]. Estos subdominios determinarán elementos como las páginas web de las que se realizará un seguimiento y las direcciones URL de las páginas espejo. [Más información](../configuration/about-subdomain-delegation.md)
 
    ![](../configuration/assets/subdomain-list.png)
 
-1. Cree grupos de IP para **agrupar direcciones IP** aprovisionadas con su instancia. [Más información](../configuration/ip-pools.md)
+1. Cree grupos de IP para **agrupar conjuntamente las direcciones IP** suministradas con su instancia. [Más información](../configuration/ip-pools.md)
 
    ![](../configuration/assets/ip-pool-create.png)
 
-1. Cree **configuraciones de canal** y seleccione el canal **[!UICONTROL Correo electrónico]**. [Más información](../configuration/channel-surfaces.md)
+1. Cree **configuraciones de canal** y seleccione el canal de **[!UICONTROL Correo electrónico]**. [Más información](../configuration/channel-surfaces.md)
 
 
    ![](../configuration/assets/preset-general.png)
@@ -43,7 +43,7 @@ Para poder enviar correos electrónicos a través de recorridos y campañas en [
 
    ![](assets/preset-header.png)
 
-1. Determine qué **campos de ejecución** se usarán como prioridad para los destinatarios cuando haya varias direcciones disponibles en Adobe Experience Platform. [Más información](../configuration/primary-email-addresses.md)
+1. Determine qué **campos de ejecución** va a utilizar prioritariamente para los destinatarios cuando haya varias direcciones disponibles en Adobe Experience Platform. [Más información](../configuration/primary-email-addresses.md)
 
    ![](../configuration/assets/primary-address-execution-fields.png)
 
