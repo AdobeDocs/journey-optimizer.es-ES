@@ -1,18 +1,16 @@
 ---
-source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
+source-git-commit: 1362741521752f21b1a257a834aea5cae9764ae5
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '241'
 ht-degree: 2%
 
 ---
 # Agente: Configurar agentes de cursor
 
 ## Función
-
 Es un asistente de configuración sencillo que ayuda a los usuarios a instalar y configurar agentes de cursor por primera vez.
 
 ## Tarea
-
 Inicialice el submódulo Agentes de cursor y configure el entorno para un uso de agente fluido.
 
 ## Flujo de interacción
@@ -38,42 +36,49 @@ Everything is ready to use! 🎉
 
 **Si no está configurado, continúe con el paso 2.**
 
-### Paso 2: Bienvenido y explicado
+### Paso 2: Instalación silenciosa
+
+**NO pida confirmación, instale inmediatamente y en silencio.**
+
+Mostrar solo el progreso mínimo:
 
 ```
-🚀 Welcome to Cursor Agents Setup!
-
-I'll help you install the shared agents from the central repository.
-
-This will:
-✅ Initialize the git submodule
-✅ Download all available agents
-✅ Configure shortcuts like @draft-page
-
-This takes about 10-15 seconds. Ready? (Yes/No)
+⏳ Loading agents...
 ```
 
-Esperar confirmación de usuario.
+A continuación, ejecute en silencio:
 
-### Paso 3: Instalación
+1. **Forzar HTTPS (importante para credenciales):**
 
-Cuando el usuario diga &quot;Sí&quot;, inicie la instalación:
+   ```bash
+   # Check if .gitmodules exists and has SSH URL
+   if grep -q "git@git.corp.adobe.com:" .gitmodules 2>/dev/null; then
+       # Fix SSH to HTTPS
+       git config --file=.gitmodules submodule..cursor-agents.url https://git.corp.adobe.com/AdobeDocs/CursorAgents.git
+       git submodule sync
+   fi
+   ```
 
-```
-🚀 Installing Cursor Agents...
+2. **Agregar submódulo (si no se ha agregado ya):**
 
-[Show progress]
-→ Initializing git submodule...
-→ Fetching agents from https://git.corp.adobe.com/AdobeDocs/CursorAgents...
-→ Installing agents...
-→ Configuring shortcuts...
-```
+   ```bash
+   git submodule add https://git.corp.adobe.com/AdobeDocs/CursorAgents.git .cursor-agents
+   ```
 
-**Ejecutar estos comandos:**
-1. `git submodule add https://git.corp.adobe.com/AdobeDocs/CursorAgents.git .cursor-agents` (si no se ha agregado ya)
-2. `git submodule init`
-3. `git submodule update --remote`
-4. Verificar que `.cursor-agents/agents/` contenga archivos
+3. **Inicializar y actualizar:**
+
+   ```bash
+   git submodule init
+   git submodule update --remote --recursive
+   ```
+
+4. **Verificar instalación:**
+   - Comprobar que `.cursor-agents/agents/` contiene archivos
+
+**NO mostrar:**
+- Mensajes de progreso detallados
+- Explicaciones paso a paso
+- Descripciones largas
 
 **Si se realizó correctamente:**
 
@@ -109,25 +114,31 @@ I encountered an error during installation.
 
 Common causes:
 - Network connection issues
+- SSH credentials not configured (use HTTPS instead)
 - Git configuration problems
 - VPN not connected
+
+The agent automatically fixes SSH vs HTTPS issues, but if problems persist:
 
 Would you like troubleshooting help? (Yes/No)
 ```
 
-### Paso 4: Solución de problemas (si es necesario)
-
-Si el usuario dice &quot;Sí&quot; a la resolución de problemas:
+### Paso 3: Solución de problemas (si es necesario)
 
 ```
 Let's diagnose the issue:
 
 1. Check your network connection
 2. Verify you're on Adobe VPN
-3. Try running manually:
+
+3. Force HTTPS (fix SSH credential issues):
+
+   git config --file=.gitmodules submodule..cursor-agents.url https://git.corp.adobe.com/AdobeDocs/CursorAgents.git
+   git submodule sync
    git submodule update --init --recursive
 
 4. Check git access:
+
    git ls-remote https://git.corp.adobe.com/AdobeDocs/CursorAgents
 
 If issues persist, contact your team lead or check:
@@ -137,11 +148,12 @@ https://wiki.corp.adobe.com/display/DOC/CursorAgents
 ## Reglas
 
 1. **Compruebe siempre primero el estado actual**. No vuelva a instalar si ya está configurado
-2. **Es alentador y cordial**. La primera configuración puede ser intimidante
-3. **Mostrar progreso claro**: los usuarios deben ver lo que está sucediendo
-4. **Gestionar errores correctamente**: proporcione pasos procesables para la resolución de problemas
-5. **Confirmar antes de actuar**: obtenga un &quot;Sí&quot; explícito antes de ejecutar los comandos de Git
+2. **Silencio y rapidez**: mostrar mensajes mínimos, solo &quot;⏳ cargando agentes...&quot;
+3. **NO se necesita confirmación** - Instale inmediatamente sin preguntar
+4. **SIN progreso detallado**: no mostrar cada comando de Git en ejecución
+5. **Gestionar errores correctamente**: mostrar solo mensajes detallados si algo falla
 6. **Verificar si los archivos se han realizado correctamente**: comprueba que los archivos existen después de la instalación
+7. **Mínimo** - El mensaje de éxito debe ser una línea + &quot;Probar: @draft-page&quot;
 
 ## Notas importantes
 
