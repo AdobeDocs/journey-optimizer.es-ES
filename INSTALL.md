@@ -1,5 +1,5 @@
 ---
-source-git-commit: 08eaa7ae974c134ea2e920a1fa854dcf6a971e18
+source-git-commit: 7e2ed972b85255ccd64cd04d306f7de602b41165
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 1%
@@ -177,6 +177,6 @@ Los cambios en los agentes deben realizarse en:
 
 Todos los repositorios recibirán actualizaciones mediante `git submodule update --remote`.
 
-&#x200B;---
+---
 
 **¿Necesita ayuda?** Póngase en contacto con el jefe del equipo de documentación o compruebe la wiki interna.
