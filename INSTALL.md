@@ -177,6 +177,6 @@ Los cambios en los agentes deben realizarse en:
 
 Todos los repositorios recibirán actualizaciones mediante `git submodule update --remote`.
 
----
+&#x200B;---
 
 **¿Necesita ayuda?** Póngase en contacto con el jefe del equipo de documentación o compruebe la wiki interna.
