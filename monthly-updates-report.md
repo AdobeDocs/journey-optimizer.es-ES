@@ -5,9 +5,9 @@ title: Informe mensual de actualizaciones de la documentación
 description: Lista de páginas de documentación nuevas y actualizadas
 hide: true
 hidefromtoc: true
-source-git-commit: d49ae810865603a083bed3072f68473e93ec6ad4
+source-git-commit: da691f761a691eda8f2f88947a9e3c407830426f
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -89,8 +89,6 @@ ht-degree: 0%
 - [Trabajar con conjuntos de reglas](help/using/conflict-prioritization/rule-sets.md) - 27 de octubre
 - [Crear un experimento de contenido](help/using/content-management/content-experiment.md) - 15 de octubre
 - [Crear un fragmento](help/using/content-management/create-fragments.md) - 7 de octubre
-- [métricas del acelerador de experimentos](help/using/content-management/experiment-accelerator-metrics.md) - 24 de octubre
-- [acelerador de experimentos](help/using/content-management/experiment-accelerator.md) - 24 de octubre
 - [Administrar fragmentos](help/using/content-management/manage-fragments.md) - 7 de octubre
 - [Ejemplos de consultas de conjuntos de datos](help/using/data/datasets-query-examples.md) - 17 de octubre
 - [Acerca de las protecciones de tiempo de vida (TTL) de los conjuntos de datos](help/using/data/datasets-ttl.md) - 28 de octubre
