@@ -8,7 +8,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 013c5758a106cfd3c2eaeecc25cc6ca4a4b41375
+source-git-commit: 20213360b872c36649e81bbdb2d2c4307935d706
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -111,7 +111,6 @@ help/using/start/guardrails.md
 help/using/start/troubleshooting.md
 help/using/whatsapp/whatsapp-configuration.md
 
-&#x200B;---
-
 *Informe generado el 3 de noviembre de 2025*
-*Excluye: cambios de formato, actualizaciones de metadatos, correcciones de filtros, actualizaciones de navegación de índice y limpieza de migración*
+
+*Excluye: cambios de formato, actualizaciones de metadatos, correcciones de filtros, actualizaciones de la navegación del índice y limpieza de la migración*
