@@ -10,10 +10,10 @@ level: Intermediate
 keywords: personalizado, general, eventos, recorrido
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 21%
+source-wordcount: '615'
+ht-degree: 20%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 21%
 Los eventos le permiten almacenar en déclencheur sus recorridos de forma unitaria para enviar mensajes, en tiempo real, a la persona que entra en el recorrido.
 
 Para este tipo de evento, solo puede añadir una etiqueta y una descripción. El resto de la configuración no se puede editar. Lo ha realizado el usuario técnico. Consulte [esta página](../event/about-events.md).
+
+Obtenga más información acerca del rendimiento de eventos y las tasas de procesamiento de recorridos en [esta sección](entry-management.md#journey-processing-rate).
 
 ![](assets/general-events.png)
 

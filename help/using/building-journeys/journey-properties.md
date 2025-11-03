@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2748'
 ht-degree: 15%
 
 ---
@@ -55,7 +55,7 @@ Obtenga más información acerca de los campos técnicos relacionados con un rec
 
 El modo de entrada de perfil se define en el nivel de recorrido, en el panel de configuración derecho. A continuación se describe la configuración.
 
-La administración de la entrada del perfil depende del tipo de recorrido. Obtenga más información acerca de la administración de entrada y reentrada de perfiles en [esta página](entry-management.md).
+La administración de la entrada del perfil depende del tipo de recorrido. Obtenga más información acerca de la administración de entrada y reentrada de perfiles en [esta página](entry-management.md). Obtenga más información acerca de las tasas de procesamiento de recorridos y cómo fluyen los perfiles entre los recorridos en [esta sección](entry-management.md#journey-processing-rate).
 
 ### Permitir la reentrada  {#allow-reentrance}
 
@@ -309,7 +309,7 @@ Esta función funciona junto con la funcionalidad Pausa/Reanudar, lo que le ayud
 
 Consulte esta sección para aprender a [usar criterios de salida de atributos de perfil en recorridos en pausa](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey).
 
-### Protecciones y limitaciones {#exit-criteria-guardrails}
+### Mecanismos de protección y limitaciones {#exit-criteria-guardrails}
 
 Las siguientes limitaciones y protecciones se aplican a la capacidad [Criterios de salida de Recorrido](#exit-criteria-desc):
 
