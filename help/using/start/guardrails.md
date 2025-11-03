@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
+source-git-commit: 148fde1fd0a7d8f4b24fab11a398ce6ac0a0c807
 workflow-type: tm+mt
-source-wordcount: '2861'
-ht-degree: 100%
+source-wordcount: '2908'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,11 @@ Este cambio se implementará en las **zonas protegidas de clientes existentes** 
 
 <!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-No puede utilizar el mismo dominio de envío para enviar mensajes de correo electrónico desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage], por ejemplo.
+Las siguientes limitaciones se aplican a la actividad [canal de correo electrónico](../email/get-started-email.md):
+
+* No puede utilizar el mismo dominio de envío para enviar mensajes de correo electrónico desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage], por ejemplo.
+
+Al diseñar mensajes de correo electrónico, el sistema comprueba la configuración de las claves y muestra alertas para detectar advertencias (recomendaciones y prácticas recomendadas) y errores (problemas de bloqueo que impiden realizar pruebas o activaciones). Obtenga más información acerca de las alertas de correo electrónico y los requisitos de validación en [esta sección](../email/create-email.md#check-email-alerts).
 
 ### Mecanismos de protección de SMS {#sms-guardrails}
 
