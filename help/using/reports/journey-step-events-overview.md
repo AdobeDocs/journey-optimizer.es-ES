@@ -1,23 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabajo con eventos de paso de recorrido
+title: Trabajar con eventos de pasos del recorrido
 description: Aprenda a trabajar con eventos de paso de recorrido en Adobe Journey Optimizer; comprenda qué son, por qué importan y cómo utilizarlos para el análisis y la optimización
 feature: Journeys, Reporting
 topic: Content Management
 role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: recorrido, eventos de paso, análisis, creación de informes, monitorización, XDM
-hide: true
-hidefromtoc: true
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 9320777cfb75fd1370c11b601908644ba17ff21e
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Trabajo con eventos de paso de recorrido {#work-with-journey-step-events}
+# Trabajar con eventos de pasos del recorrido {#work-with-journey-step-events}
 
 Los eventos de paso de recorrido son eventos generados automáticamente que capturan información detallada acerca de cada paso que realiza un [perfil](../audience/get-started-profiles.md) a medida que progresan a través de un [recorrido](../building-journeys/journey.md) en Adobe Journey Optimizer. Estos eventos proporcionan una amplia visibilidad del [rendimiento del recorrido](../building-journeys/report-journey.md) y habilitan potentes funcionalidades de análisis.
 
