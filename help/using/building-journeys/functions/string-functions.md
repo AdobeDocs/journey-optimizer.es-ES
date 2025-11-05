@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: cadena, funciones, expresión, recorrido, texto, manipulación
 version: Journey Orchestration
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1127'
 ht-degree: 15%
 
 ---
@@ -20,15 +20,16 @@ Las funciones de cadena permiten manipular y trabajar con valores de texto dentr
 
 Utilice funciones de cadena cuando necesite:
 
-* Concatenar y combinar varios valores de texto
-* Buscar patrones de texto o subcadenas específicos
-* Comparar cadenas con coincidencia que distingue entre mayúsculas y minúsculas o sin distinción entre mayúsculas y minúsculas
-* Extraer partes de texto mediante operaciones de subcadena
-* Transformar texto a mayúsculas o minúsculas
-* Compruebe si las cadenas están vacías o contienen valores específicos
-* Reemplazo de patrones de texto con nuevos valores
-* Dividir cadenas en matrices para un procesamiento posterior
-* Validar texto con expresiones regulares
+* Concatenar y combinar varios valores de texto ([concat](#concat))
+* Busque patrones de texto o subcadenas específicos ([contain](#contain), [containIgnoreCase](#containIgnoreCase), [indexOf](#indexOf), [lastIndexOf](#lastIndexOf), [matchRegExp](#matchRegExp))
+* Comparar cadenas con coincidencia que distingue entre mayúsculas y minúsculas ([equalIgnoreCase](#equalIgnoreCase), [notEqualIgnoreCase](#notEqualIgnoreCase))
+* La cadena de comprobación comienza y finaliza ([startWith](#startWith), [startWithIgnoreCase](#startWithIgnoreCase), [endWith](#endWith), [endWithIgnoreCase](#endWithIgnoreCase))
+* Extraer partes de texto mediante operaciones de subcadena ([substr](#substr))
+* Transformar texto a mayúsculas o minúsculas ([mayúsculas](#upper), [minúsculas](#lower), [recortar](#trim))
+* Compruebe si las cadenas están vacías o contienen valores específicos ([isEmpty](#isEmpty), [isNotEmpty](#isNotEmpty))
+* Reemplazar patrones de texto con nuevos valores ([replace](#replace), [replaceAll](#replaceAll))
+* Dividir cadenas en matrices para un procesamiento posterior ([split](#split))
+* Obtener longitud de cadena ([length](#length)) o generar identificadores únicos ([uuid](#uuid))
 
 Las funciones de cadena proporcionan funcionalidades completas de manipulación de texto, lo que permite un procesamiento de datos sofisticado y una lógica condicional basada en el contenido de texto de las expresiones de recorrido.
 

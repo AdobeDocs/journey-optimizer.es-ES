@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: agregación, funciones, expresión, recorrido, promedio, recuento, máximo, mínimo, suma
 version: Journey Orchestration
-source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 8%
+source-wordcount: '717'
+ht-degree: 7%
 
 ---
 
@@ -20,9 +20,9 @@ Las funciones de agregación realizan cálculos en un conjunto de valores y devu
 
 Utilice funciones de agregación cuando necesite:
 
-* Calcular valores estadísticos de listas o matrices (promedio, suma, mínimo, máximo)
-* Contar elementos en colecciones, con opciones para incluir o excluir valores nulos
-* Determinar valores únicos dentro de conjuntos de datos
+* Calcular valores estadísticos de listas o matrices ([avg](#avg), [sum](#sum), [min](#min), [max](#max))
+* Contar elementos en colecciones ([count](#count), [countOnlyNull](#countOnlyNull), [countWithNull](#countWithNull)), con opciones para incluir o excluir valores nulos
+* Determinar valores únicos dentro de conjuntos de datos ([distinctCount](#distinctCount), [distinctCountWithNull](#distinctCountWithNull))
 * Tome decisiones basadas en datos y en métricas calculadas
 
 Las funciones de agregación administran automáticamente los valores nulos según su comportamiento específico, lo que facilita el trabajo con datos del mundo real que pueden contener valores que faltan o indefinidos.

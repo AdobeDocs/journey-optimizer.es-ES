@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: conversión, funciones, expresión, recorrido, tipo, conversión
 version: Journey Orchestration
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '957'
 ht-degree: 6%
 
 ---
@@ -20,9 +20,10 @@ Las funciones de conversión permiten transformar datos de un tipo a otro dentro
 
 Utilice las funciones de conversión cuando necesite:
 
-* Convertir valores de cadena a tipos numéricos, booleanos o de fecha
-* Transformar fechas y horas entre diferentes formatos y representaciones
-* Convierta valores numéricos entre tipos enteros y decimales
+* Convertir valores de cadena a tipos numéricos, booleanos o de fecha ([toInteger](#toInteger), [toDecimal](#toDecimal), [toBool](#toBool))
+* Transformar fechas y horas entre diferentes formatos y representaciones ([toDateTime](#toDateTime), [toDateTimeOnly](#toDateTimeOnly), [toDateOnly](#toDateOnly))
+* Convierta valores numéricos entre tipos enteros y decimales ([toInteger](#toInteger), [toDecimal](#toDecimal))
+* Convertir valores al formato de cadena ([toString](#toString)) o duración ([toDuration](#toDuration))
 * Garantizar la compatibilidad de tipos para comparaciones y operaciones
 * Procesar datos de fuentes externas que pueden tener diferentes formatos de tipo
 

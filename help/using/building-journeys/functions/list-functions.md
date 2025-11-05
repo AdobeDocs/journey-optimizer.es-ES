@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: lista, funciones, expresión, recorrido, matriz, colección
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1158'
 ht-degree: 9%
 
 ---
@@ -20,13 +20,13 @@ Las funciones de lista permiten manipular y trabajar con colecciones de valores 
 
 Utilice las funciones de lista cuando necesite:
 
-* Filtrar y extraer elementos específicos de colecciones en función de criterios
-* Ordenar y organizar elementos de lista en orden ascendente o descendente
-* Eliminación de duplicados y obtención de valores únicos de las listas
-* Comprobar si existen valores dentro de las colecciones
-* Limitar el número de elementos devueltos de una lista
-* Transformación de listas en diferentes formatos o tipos de datos
-* Realizar operaciones de conjunto como buscar elementos comunes entre listas
+* Filtrar y extraer elementos específicos de colecciones en función de criterios ([filter](#filter), [getListItem](#getListItem))
+* Ordenar y organizar elementos de lista en orden ascendente o descendente ([sort](#sort))
+* Quitar duplicados y obtener valores únicos de las listas ([distinct](#distinct), [distinctWithNull](#distinctWithNull))
+* Comprobar si existen valores dentro de las colecciones ([en](#in))
+* Limitar el número de elementos devueltos de una lista ([limit](#limit))
+* Obtener el tamaño de una lista ([listSize](#listSize)) o transformar listas en formatos diferentes ([serializeList](#serializeList))
+* Realizar operaciones de conjunto como buscar elementos comunes entre listas ([intersect](#intersect))
 
 Las funciones de lista proporcionan potentes herramientas para trabajar con estructuras de datos complejas, lo que permite una manipulación de datos sofisticada y una lógica condicional basada en el contenido de la colección.
 

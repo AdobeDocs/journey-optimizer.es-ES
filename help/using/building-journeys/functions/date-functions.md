@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: fecha, funciones, expresión, recorrido, hora
 version: Journey Orchestration
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '791'
 ht-degree: 12%
 
 ---
@@ -20,9 +20,9 @@ Las funciones de fecha permiten manipular y trabajar con valores de fecha y hora
 
 Utilice las funciones de fecha cuando necesite:
 
-* Obtener la fecha y la hora actuales con el control específico de la zona horaria
-* Comprobar si una fecha se encuentra dentro de un intervalo de tiempo específico (pasado o futuro)
-* Modificar los componentes de fecha y hora (horas, días y zonas horarias)
+* Obtener la hora o fecha actual con el control específico de zona horaria ([ahora](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))
+* Compruebe si una fecha está dentro de un intervalo de tiempo específico ([inLastDays](#inLastDays), [inLastHours](#inLastHours), [inLastMonths](#inLastMonths), [inLastYears](#inLastYears), [inNextDays](#inNextDays), [inNextHours](#inNextHours), [inNextMonths](#inNextMonths), [inNextYears](#inNextYears))
+* Modificar componentes de fecha y hora ([setHours](#setHours), [setDays](#setDays), [updateTimeZone](#updateTimeZone))
 * Realizar cálculos y comparaciones basados en el tiempo
 * Convertir entre diferentes formatos de tiempo y representaciones
 
