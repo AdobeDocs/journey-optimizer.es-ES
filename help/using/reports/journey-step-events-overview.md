@@ -4,11 +4,10 @@ product: journey optimizer
 title: Trabajar con eventos de pasos del recorrido
 description: Aprenda a trabajar con eventos de paso de recorrido en Adobe Journey Optimizer; comprenda qué son, por qué importan y cómo utilizarlos para el análisis y la optimización
 feature: Journeys, Reporting
-topic: Content Management
 role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: recorrido, eventos de paso, análisis, creación de informes, monitorización, XDM
-source-git-commit: 9320777cfb75fd1370c11b601908644ba17ff21e
+source-git-commit: 17e0528849f2bd4d3cbf279c34c98a8359cad797
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 2%
@@ -19,7 +18,7 @@ ht-degree: 2%
 
 Los eventos de paso de recorrido son eventos generados automáticamente que capturan información detallada acerca de cada paso que realiza un [perfil](../audience/get-started-profiles.md) a medida que progresan a través de un [recorrido](../building-journeys/journey.md) en Adobe Journey Optimizer. Estos eventos proporcionan una amplia visibilidad del [rendimiento del recorrido](../building-journeys/report-journey.md) y habilitan potentes funcionalidades de análisis.
 
-## ¿Qué son los eventos de paso de recorrido? {#what-are-step-events}
+## Eventos de paso de recorrido {#what-are-step-events}
 
 Los eventos de paso de recorrido son eventos [XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} generados por el sistema que Adobe Journey Optimizer crea y envía automáticamente a [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target="_blank"} cada vez que un perfil se mueve de un nodo a otro en un recorrido. Cada evento corresponde a una [actividad de recorrido](../building-journeys/about-journey-activities.md) o transición específica en la experiencia de recorrido del cliente.
 
