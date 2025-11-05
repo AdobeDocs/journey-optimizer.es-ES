@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
-workflow-type: ht
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
 
@@ -262,7 +262,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <td>
 <p>Utilice las campañas de Journey Optimizer para ofrecer contenido único a un público específico mediante varios canales. Cuando se utilizan recorridos, las acciones están diseñadas para ejecutarse en secuencia. Con las campañas, las acciones se realizan simultáneamente, ya sea de forma inmediata o en función de una programación especificada. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Obtenga información sobre cómo crear una campaña en <a href="../campaigns/get-started-with-campaigns.md">documentación detallada</a> y <a href="https://video.tv.adobe.com/v/3412402?captions=spa">vídeo de funciones</a>.
+<p>Obtenga información sobre cómo crear una campaña en <a href="../campaigns/get-started-with-campaigns.md">documentación detallada</a> y <a href="https://video.tv.adobe.com/v/346680">vídeo de funciones</a>.
 </td>
 </tr>
 </tbody>
@@ -617,7 +617,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 **Recorridos**
 
 * **Leer público**: los recorridos de Leer público de una sola toma ahora pasan al estado Finalizado 30 días después de la ejecución del recorrido. Para recorridos de Leer público programados será 30 días después de la ejecución de la última ocurrencia. [Más información](../building-journeys/read-audience.md)
-* **Editor de expresiones**: la función [límite](../building-journeys/functions/functionlimit.md) para permitirle limitar el número de elementos de una lista. La función [ordenar](../building-journeys/functions/functionsort.md) ahora permite ordenar un objeto de lista. La compatibilidad de listObject también se ha agregado a las funciones [disctinct](../building-journeys/functions/functiondistinct.md) y [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
+* **Editor de expresiones**: la función [límite](../building-journeys/functions/list-functions.md#limit) para permitirle limitar el número de elementos de una lista. La función [ordenar](../building-journeys/functions/list-functions.md#sort) ahora permite ordenar un objeto de lista. La compatibilidad de listObject también se ha agregado a las funciones [disctinct](../building-journeys/functions/list-functions.md#distinct) y [distinctWithNull](../building-journeys/functions/list-functions.md#distinctWithNull).
 
 **Administración**
 

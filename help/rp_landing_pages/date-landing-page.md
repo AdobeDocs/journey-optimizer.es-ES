@@ -5,7 +5,9 @@ title: Fecha
 description: Fecha
 redpen-status: CREATED_||_2025-08-11_20-14-40
 exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+hide: true
+hidefromtoc: true
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 100%
@@ -20,7 +22,7 @@ Las funciones de fecha de Adobe Journey Optimizer le permiten trabajar sin probl
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referencia de función currentTimeInMillis
 
@@ -30,7 +32,7 @@ Aprenda a utilizar la función &#39;currentTimeInMillis&#39; para recuperar la h
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función inLastDays
 
@@ -40,7 +42,7 @@ Comprenda la función &#39;inLastDays&#39;, que comprueba si una fecha determina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso de la función inLastHours
 
@@ -50,7 +52,7 @@ Explore la función &#39;inLastHours&#39; para determinar si una fecha y hora se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso de la función inLastMonths
 
@@ -60,7 +62,7 @@ Compruebe si una fecha se encuentra dentro de un intervalo de meses especificado
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso de la función inLastYears
 
@@ -70,7 +72,7 @@ Aprenda a utilizar la función &#39;inLastYears&#39; para evaluar si una fecha s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función inNextDays
 

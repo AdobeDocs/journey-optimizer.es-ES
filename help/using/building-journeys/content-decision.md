@@ -11,7 +11,7 @@ badge: label="Disponibilidad limitada" type="Informative"
 keywords: actividad, toma de decisiones, decisión de contenido, política de decisión, lienzo, recorrido
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 3%
@@ -116,7 +116,7 @@ Para aprovechar el resultado de una actividad de decisión de contenido, puede a
    >
    >Cualquier etiqueta restringida definida en un atributo, ya sea en un evento de experiencia de recorrido utilizado en una regla de decisión (como datos de contexto) o en el esquema de [ofertas](../experience-decisioning/catalogs.md#access-catalog-schema), produce una infracción de directiva para DULE o para el consentimiento. Obtenga más información sobre las directivas de gobernanza de datos en [esta sección](../action/action-privacy.md)
 
-1. Para comprobar si se ha devuelto alguna oferta para los perfiles que entran en el recorrido, use la función [listSize](functions/functionlistsize.md) con la siguiente sintaxis: `listSize(@decision{ContentdecisionName.items})>0`
+1. Para comprobar si se ha devuelto alguna oferta para los perfiles que entran en el recorrido, use la función [listSize](functions/list-functions.md#listSize) con la siguiente sintaxis: `listSize(@decision{ContentdecisionName.items})>0`
 
    >[!NOTE]
    >

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Paso de colecciones a parámetros de acción personalizados
+title: Pasar colecciones a parámetros de acción personalizados
 description: Aprenda a pasar colecciones de forma dinámica en Journey Optimizer mediante acciones personalizadas
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
@@ -9,15 +9,15 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 
-# Paso de colecciones a parámetros de acción personalizados {#passing-collection}
+# Pasar colecciones a parámetros de acción personalizados {#passing-collection}
 
 Puede pasar una colección en parámetros de acción personalizados que se rellenan dinámicamente durante la ejecución.
 
@@ -132,7 +132,7 @@ Puede ver que `products` es una matriz de dos objetos. Debe tener al menos un ob
 
    ![](assets/uc-collection-4.png){width="50%" align="left"}
 
-Para el campo de matriz, también puede utilizar el editor de expresiones avanzadas para realizar la manipulación de datos. En el ejemplo siguiente, utilizamos las funciones [filter](functions/functionfilter.md) y [intersect](functions/functionintersect.md):
+Para el campo de matriz, también puede utilizar el editor de expresiones avanzadas para realizar la manipulación de datos. En el ejemplo siguiente, utilizamos las funciones [filter](functions/list-functions.md#filter) y [intersect](functions/list-functions.md#intersect):
 
 ![](assets/uc-collection-5.png)
 
