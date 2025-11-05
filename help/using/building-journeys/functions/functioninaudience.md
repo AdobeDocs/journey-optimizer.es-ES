@@ -8,9 +8,9 @@ level: Experienced
 keywords: inAudience, función, expresión, recorrido, audiencia, segmentación
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
+source-git-commit: 4f653c0bd3f6998dd54deeae996b7b0427a1744e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ La función `inAudience` es una función de Adobe Experience Platform que le per
 
 Utilice la función `inAudience` cuando necesite:
 
-* [Rutas de recorrido de ramas basadas en pertenencia a audiencias](../condition-activity.md#using-a-segment)
+* Rutas de recorrido de ramas basadas en la pertenencia a audiencias. [Más información](../condition-activity.md#using-a-segment)
 * Aplique una lógica condicional que dependa de si un perfil pertenece a un segmento específico
 * Segmente a grupos específicos de clientes con experiencias personalizadas
 * Evaluar la participación de audiencias en tiempo real dentro de las condiciones de recorrido
@@ -36,7 +36,7 @@ Las audiencias pueden tener dos estados de participación:
 * **Realizado**: el individuo cumple los requisitos para la definición de audiencia y es un miembro activo
 * **Salido**: el usuario ha abandonado la audiencia y ya no cumple los requisitos
 
-Solo las personas con el estado **Realized** se considerarán como miembros activos de la audiencia. Cuando la función devuelve `true`, confirma que el individuo tiene estado realizado; cuando devuelve `false`, indica estado saliente. Para obtener más información sobre la evaluación de audiencias, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+Solo las personas con el estado **Realized** se considerarán como miembros activos de la audiencia. Cuando la función devuelve `true`, confirma que el individuo tiene estado realizado; cuando devuelve `false`, indica estado saliente. Para obtener más información sobre la evaluación de audiencias, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++Sintaxis
 
