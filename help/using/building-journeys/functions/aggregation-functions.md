@@ -7,16 +7,26 @@ role: Developer
 level: Experienced
 keywords: agregación, funciones, expresión, recorrido, promedio, recuento, máximo, mínimo, suma
 version: Journey Orchestration
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '712'
 ht-degree: 8%
 
 ---
 
 # Funciones de agregación {#aggregation-functions}
 
-Las funciones de agregación se utilizan para realizar cálculos en un conjunto de valores y devolver un solo valor. Estas funciones son especialmente útiles cuando se trabaja con listas y matrices en expresiones de recorrido.
+Las funciones de agregación realizan cálculos en un conjunto de valores y devuelven un único resultado resumido. Estas funciones permiten analizar los datos dentro de las expresiones de recorrido calculando promedios, buscando valores mínimos y máximos, contando elementos y sumando valores numéricos.
+
+Utilice funciones de agregación cuando necesite:
+
+* Calcular valores estadísticos de listas o matrices (promedio, suma, mínimo, máximo)
+* Contar elementos en colecciones, con opciones para incluir o excluir valores nulos
+* Determinar valores únicos dentro de conjuntos de datos
+* Tome decisiones basadas en datos y en métricas calculadas
+
+Las funciones de agregación administran automáticamente los valores nulos según su comportamiento específico, lo que facilita el trabajo con datos del mundo real que pueden contener valores que faltan o indefinidos.
+
 
 ## avg {#avg}
 
@@ -115,8 +125,6 @@ Devuelve el número de objetos de una matriz determinada de objetos (tipo listOb
 
 Cuenta el número de valores nulos de la lista.
 
-**Nota:** El parámetro `<listObject>` no se admite en esta función.
-
 +++Sintaxis
 
 `countOnlyNull(<listAny>)`
@@ -147,11 +155,11 @@ Devuelve 1.
 
 +++
 
+**Nota:** El parámetro `<listObject>` no se admite en esta función.
+
 ## countWithNull {#countWithNull}
 
 Cuenta todos los elementos de la lista, incluidos los valores nulos.
-
-**Nota:** El parámetro `<listObject>` no se admite en esta función.
 
 +++Sintaxis
 
@@ -182,6 +190,8 @@ Devuelve un entero.
 Devuelve 4.
 
 +++
+
+**Nota:** El parámetro `<listObject>` no se admite en esta función.
 
 ## distinctCount {#distinctCount}
 
@@ -236,8 +246,6 @@ Devuelve el número de objetos que tienen un valor de atributo SKU distinto {}.
 
 Cuenta el número de valores diferentes, incluidos los valores nulos.
 
-**Nota:** El parámetro `<listObject>` no se admite en esta función.
-
 +++Sintaxis
 
 `distinctCountWithNull(<listAny>)`
@@ -267,6 +275,8 @@ Devuelve un entero.
 Devuelve 3.
 
 +++
+
+**Nota:** El parámetro `<listObject>` no se admite en esta función.
 
 ## max {#max}
 
