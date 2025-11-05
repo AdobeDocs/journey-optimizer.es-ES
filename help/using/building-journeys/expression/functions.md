@@ -9,7 +9,7 @@ level: Experienced
 keywords: función, expresiones, editor, recorrido
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -74,26 +74,26 @@ Esta es la lista de funciones compatibles.
 | Lista | [sort](../functions/list-functions.md#sort) |
 | Matemáticas | [random](../functions/functionrandom.md) |
 | Matemáticas | [round](../functions/functionround.md) |
-| Cadena | [concat](../functions/functionconcat.md) |
-| Cadena | [contain](../functions/functioncontain.md) |
-| Cadena | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
-| Cadena | [endWith](../functions/functionendwith.md) |
-| Cadena | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| Cadena | [equalIgnoreCase](../functions/functionequalignorecase.md) |
-| Cadena | [indexOf](../functions/functionindexof.md) |
-| Cadena | [isEmpty](../functions/functionisempty.md) |
-| Cadena | [isNotEmpty](../functions/functionisnotempty.md) |
-| Cadena | [lastIndexOf](../functions/functionlastindexof.md) |
-| Cadena | [length](../functions/functionlength.md) |
-| Cadena | [lower](../functions/functionlower.md) |
-| Cadena | [matchRegExp](../functions/functionmatchregexp.md) |
-| Cadena | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
-| Cadena | [replace](../functions/functionreplace.md) |
-| Cadena | [replaceAll](../functions/functionreplaceall.md) |
-| Cadena | [split](../functions/functionsplit.md) |
-| Cadena | [startWith](../functions/functionstartwith.md) |
-| Cadena | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
-| Cadena | [substr](../functions/functionsubstr.md) |
-| Cadena | [trim](../functions/functiontrim.md) |
-| Cadena | [upper](../functions/functionupper.md) |
-| Cadena | [uuid](../functions/functionuuid.md) |
+| Cadena | [concat](../functions/string-functions.md#concat) |
+| Cadena | [contain](../functions/string-functions.md#contain) |
+| Cadena | [containIgnoreCase](../functions/string-functions.md#containIgnoreCase) |
+| Cadena | [endWith](../functions/string-functions.md#endWith) |
+| Cadena | [endWithIgnoreCase](../functions/string-functions.md#endWithIgnoreCase) |
+| Cadena | [equalIgnoreCase](../functions/string-functions.md#equalIgnoreCase) |
+| Cadena | [indexOf](../functions/string-functions.md#indexOf) |
+| Cadena | [isEmpty](../functions/string-functions.md#isEmpty) |
+| Cadena | [isNotEmpty](../functions/string-functions.md#isNotEmpty) |
+| Cadena | [lastIndexOf](../functions/string-functions.md#lastIndexOf) |
+| Cadena | [length](../functions/string-functions.md#length) |
+| Cadena | [lower](../functions/string-functions.md#lower) |
+| Cadena | [matchRegExp](../functions/string-functions.md#matchRegExp) |
+| Cadena | [notEqualIgnoreCase](../functions/string-functions.md#notEqualIgnoreCase) |
+| Cadena | [replace](../functions/string-functions.md#replace) |
+| Cadena | [replaceAll](../functions/string-functions.md#replaceAll) |
+| Cadena | [split](../functions/string-functions.md#split) |
+| Cadena | [startWith](../functions/string-functions.md#startWith) |
+| Cadena | [startWithIgnoreCase](../functions/string-functions.md#startWithIgnoreCase) |
+| Cadena | [substr](../functions/string-functions.md#substr) |
+| Cadena | [trim](../functions/string-functions.md#trim) |
+| Cadena | [upper](../functions/string-functions.md#upper) |
+| Cadena | [uuid](../functions/string-functions.md#uuid) |

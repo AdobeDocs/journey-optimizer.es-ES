@@ -5,7 +5,7 @@ title: Funciones
 description: Funciones
 redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 80%
@@ -20,7 +20,7 @@ Las funciones de Adobe Journey Optimizer le permiten crear expresiones dinámica
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funciones principales de Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Explore una descripción general de las principales funciones disponibles, clasi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Uso de la función inAudience
 
@@ -40,7 +40,7 @@ Obtenga información sobre cómo evaluar el abono al público mediante la funci�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Referencia de funciones de agregación
 
@@ -50,7 +50,7 @@ Domine las funciones de agregación para realizar operaciones como promedios, re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 Funciones de conversión
 
@@ -60,7 +60,7 @@ Transforme los tipos de datos con funciones de conversión para manipular las en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Funciones de fecha en Adobe Journey Optimizer
 
@@ -70,13 +70,13 @@ Aprenda a manipular y evaluar los valores de fecha y hora mediante potentes func
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Funciones de lista en Adobe Journey Optimizer
 
 Utilice funciones de lista para operaciones como la deduplicación, el filtrado, la ordenación y comprobaciones de pertenencia en expresiones.
 
-[Más información sobre las funciones de lista](list-landing-page.md)
+[Más información sobre las funciones de lista](../using/building-journeys/functions/list-functions.md)
 :::
 
 ::::
