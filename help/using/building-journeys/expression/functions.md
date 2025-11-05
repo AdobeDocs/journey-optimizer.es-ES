@@ -9,7 +9,7 @@ level: Experienced
 keywords: función, expresiones, editor, recorrido
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -48,20 +48,20 @@ Esta es la lista de funciones compatibles.
 | Conversión | [toDuration](../functions/conversion-functions.md#toDuration) |
 | Conversión | [toInteger](../functions/conversion-functions.md#toInteger) |
 | Conversión | [toString](../functions/conversion-functions.md#toString) |
-| Fecha | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
-| Fecha | [inLastDays](../functions/functioninlastdays.md) |
-| Fecha | [inLastHours](../functions/functioninlasthours.md) |
-| Fecha | [inLastMonths](../functions/functioninlastmonths.md) |
-| Fecha | [inLastYears](../functions/functioninlastyears.md) |
-| Fecha | [inNextDays](../functions/functioninnextdays.md) |
-| Fecha | [inNextHours](../functions/functioninnexthours.md) |
-| Fecha | [inNextMonths](../functions/functioninnextmonths.md) |
-| Fecha | [inNextYears](../functions/functioninnextyears.md) |
-| Fecha | [now](../functions/functionnow.md) |
-| Fecha | [nowWithDelta](../functions/functionnowwithdelta.md) |
-| Fecha | [setHours](../functions/functionsethours.md) |
-| Fecha | [setDays](../functions/functionsetdays.md) |
-| Fecha | [updateTimeZone](../functions/functionupdatetimezone.md) |
+| Fecha | [currentTimeInMillis](../functions/date-functions.md#currentTimeInMillis) |
+| Fecha | [inLastDays](../functions/date-functions.md#inLastDays) |
+| Fecha | [inLastHours](../functions/date-functions.md#inLastHours) |
+| Fecha | [inLastMonths](../functions/date-functions.md#inLastMonths) |
+| Fecha | [inLastYears](../functions/date-functions.md#inLastYears) |
+| Fecha | [inNextDays](../functions/date-functions.md#inNextDays) |
+| Fecha | [inNextHours](../functions/date-functions.md#inNextHours) |
+| Fecha | [inNextMonths](../functions/date-functions.md#inNextMonths) |
+| Fecha | [inNextYears](../functions/date-functions.md#inNextYears) |
+| Fecha | [now](../functions/date-functions.md#now) |
+| Fecha | [nowWithDelta](../functions/date-functions.md#nowWithDelta) |
+| Fecha | [setHours](../functions/date-functions.md#setHours) |
+| Fecha | [setDays](../functions/date-functions.md#setDays) |
+| Fecha | [updateTimeZone](../functions/date-functions.md#updateTimeZone) |
 | Lista | [distinct](../functions/functiondistinct.md) |
 | Lista | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | Lista | [filtro](../functions/functionfilter.md) |
