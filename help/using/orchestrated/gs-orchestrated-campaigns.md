@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo empezar con campañas orquestadas
 short-description: Descubra las características clave y los casos de uso de las campañas orquestadas
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 97%
+source-wordcount: '779'
+ht-degree: 79%
 
 ---
 
@@ -92,7 +92,7 @@ Conozca los conceptos y las capacidades clave disponibles con las campañas orqu
 
 ## Vamos a profundizar
 
-Ahora que ya sabe qué son las campañas orquestadas, es el momento de profundizar en estas secciones de la documentación para empezar a trabajar con esta función.
+Ahora que comprende cuáles son las campañas orquestadas, es hora de profundizar en estas secciones de documentación para empezar a trabajar con la función.
 
 <table><tr style="border: 0; text-align: center;">
 <td>
@@ -121,3 +121,13 @@ Ahora que ya sabe qué son las campañas orquestadas, es el momento de profundiz
 </div>
 <p></td>
 </tr></table>
+
+## Recursos adicionales
+
+* **[Cree su primera regla](build-query.md)**: domine el generador de reglas para crear consultas de destino y segmentar sus audiencias con precisión mediante datos relacionales.
+* **[Crear esquemas relacionales](gs-schemas.md)**: aprenda a configurar esquemas relacionales para aprovechar datos de varias entidades en sus campañas.
+* **[Informes para campañas orquestadas](reporting-campaigns.md)** - Rastrea y analiza el rendimiento de tu campaña con métricas y perspectivas detalladas para informes.
+* **[Iniciar y supervisar campañas](start-monitor-campaigns.md)**: conozca las prácticas recomendadas para iniciar campañas y supervisar su ejecución en tiempo real.
+* **[Protecciones y limitaciones](guardrails.md)**: revise las protecciones, limitaciones y prácticas recomendadas importantes para garantizar un rendimiento óptimo de la campaña.
+* **[Preguntas más frecuentes](orchestrated-campaigns-faq.md)**: encuentre respuestas a preguntas comunes sobre las características, funcionalidades y casos de uso de las campañas orquestadas.
+* **[Tutoriales de campañas orquestadas](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}**: explore tutoriales de vídeo paso a paso que cubren características y prácticas recomendadas.
