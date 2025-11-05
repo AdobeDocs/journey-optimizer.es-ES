@@ -9,7 +9,7 @@ level: Experienced
 keywords: función, expresiones, editor, recorrido
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -40,14 +40,14 @@ Esta es la lista de funciones compatibles.
 | Agregación | [max](../functions/aggregation-functions.md#max) |
 | Agregación | [min](../functions/aggregation-functions.md#min) |
 | Agregación | [sum](../functions/aggregation-functions.md#sum) |
-| Conversión | [toBool](../functions/functiontobool.md) |
-| Conversión | [toDateOnly](../functions/functiontodateonly.md) |
-| Conversión | [toDateTime](../functions/functiontodatetime.md) |
-| Conversión | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
-| Conversión | [toDecimal](../functions/functiontodecimal.md) |
-| Conversión | [toDuration](../functions/functiontoduration.md) |
-| Conversión | [toInteger](../functions/functiontointeger.md) |
-| Conversión | [toString](../functions/functiontostring.md) |
+| Conversión | [toBool](../functions/conversion-functions.md#toBool) |
+| Conversión | [toDateOnly](../functions/conversion-functions.md#toDateOnly) |
+| Conversión | [toDateTime](../functions/conversion-functions.md#toDateTime) |
+| Conversión | [toDateTimeOnly](../functions/conversion-functions.md#toDateTimeOnly) |
+| Conversión | [toDecimal](../functions/conversion-functions.md#toDecimal) |
+| Conversión | [toDuration](../functions/conversion-functions.md#toDuration) |
+| Conversión | [toInteger](../functions/conversion-functions.md#toInteger) |
+| Conversión | [toString](../functions/conversion-functions.md#toString) |
 | Fecha | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
 | Fecha | [inLastDays](../functions/functioninlastdays.md) |
 | Fecha | [inLastHours](../functions/functioninlasthours.md) |
