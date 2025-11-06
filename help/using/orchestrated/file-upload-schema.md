@@ -29,7 +29,7 @@ En esta sección se proporciona una guía paso a paso sobre cómo crear un esque
 
 1. [Introducir datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
 
-➡️ [Obtenga más información acerca de los esquemas basados en modelos en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
+➡️ [Obtenga más información acerca de los esquemas basados en modelos en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational)
 
 ## Cargar un archivo DDL{#ddl-upload}
 

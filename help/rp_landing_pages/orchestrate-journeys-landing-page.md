@@ -88,6 +88,6 @@ Explore las aplicaciones reales de Adobe Journey Optimizer, incluida la mensajer
 
 - **[Suscríbase a las alertas de recorridos](../using/reports/alerts.md)**: descubra cómo administrar alertas del sistema, suscribirse a notificaciones y solucionar problemas en recorridos y campañas.
 
-- **[Tutoriales de Recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}**: aprenda a crear recorridos con tutoriales de vídeo prácticos que cubren características, funcionalidades y prácticas recomendadas.
+- **[Tutoriales de Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}**: aprenda a crear recorridos con tutoriales de vídeo prácticos que cubren características, funcionalidades y prácticas recomendadas.
 
 

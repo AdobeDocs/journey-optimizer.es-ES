@@ -50,7 +50,7 @@ Habilite el seguimiento, inserte vínculos y administre el aspecto de los víncu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Insertar ofertas personalizadas
 
@@ -60,7 +60,7 @@ Utilice la gestión de decisiones para mostrar dinámicamente ofertas personaliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=es)
 
 Generar la versión de texto
 

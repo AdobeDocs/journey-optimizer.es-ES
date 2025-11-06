@@ -20,7 +20,7 @@ Las actividades de Adobe Journey Optimizer son los componentes básicos que hace
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a las actividades de Journey
 
@@ -70,7 +70,7 @@ Defina varias rutas en un recorrido en función de criterios como el tiempo, la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
 
 Configuración de la actividad Esperar
 

@@ -72,7 +72,7 @@ Puede usar la flexibilidad de datos de [!DNL Journey Optimizer] para satisfacer 
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 
-  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
+  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html?lang=es){target="_blank"}.
 -->
 
 * **Depuraciones y mecanismos de archivado**: la depuración de datos y el archivado se pueden definir y automatizar libremente en [!DNL Adobe Journey Optimizer] para automatizar las políticas de retención de datos. Es posible definir diferentes estrategias de caducidad para las distintas entidades de datos. También se pueden definir mecanismos de exportación para exportar automáticamente los datos de caducidad antes de depurarlos o archivarlos.

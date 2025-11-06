@@ -60,7 +60,7 @@ Compruebe los subdominios para la entregabilidad de Gmail añadiendo registros T
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Acceso y edición de registros PTR
 
@@ -70,7 +70,7 @@ Administre los registros PTR para subdominios delegados, incluyendo la edición 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Crear grupos de IP
 

@@ -50,7 +50,7 @@ Conozca los requisitos y las configuraciones de esquema para la ingesta de event
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Integración de Adobe Analytics
 

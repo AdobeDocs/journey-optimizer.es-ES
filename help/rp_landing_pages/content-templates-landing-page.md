@@ -20,7 +20,7 @@ Las plantillas de contenido de Adobe Journey Optimizer son potentes herramientas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a las plantillas de contenido
 
@@ -30,7 +30,7 @@ Conozca los conceptos básicos sobre la creación y administración de plantilla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Acceso y administración de plantillas
 
@@ -40,7 +40,7 @@ Descubra cómo acceder, organizar y administrar plantillas de contenido, incluid
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Creación de plantillas de contenido
 
@@ -50,7 +50,7 @@ Guía paso a paso sobre cómo crear plantillas de contenido reutilizables desde 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Bloquear contenido en plantillas de correo electrónico
 
@@ -60,7 +60,7 @@ Descubra cómo bloquear secciones o plantillas completas para evitar ediciones o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Plantillas de contenido de prueba
 
@@ -70,7 +70,7 @@ Valide las plantillas de correo electrónico probando el procesamiento, las vari
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Uso de plantillas de contenido
 

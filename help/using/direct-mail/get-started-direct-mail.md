@@ -40,6 +40,6 @@ Los pasos principales para enviar mensajes de correo directo son los siguientes:
 * **[Configurar el canal de correo postal](direct-mail-configuration.md)**: configure las superficies de correo postal y las configuraciones de enrutamiento de archivos.
 * **[Correo directo en recorrido](direct-mail-journeys.md)**: descubra cómo usar acciones de correo directo en los recorridos de los clientes.
 * **[Probar y enviar correo postal](test-send-direct-mail.md)**: aprenda a probar, validar y publicar sus envíos de correo postal.
-* **[Tutoriales de correo directo](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las características del correo directo y las prácticas recomendadas.
+* **[Tutoriales de correo directo](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las características del correo directo y las prácticas recomendadas.
 
 

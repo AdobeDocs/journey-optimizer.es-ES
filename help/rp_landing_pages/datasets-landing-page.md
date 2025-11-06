@@ -30,7 +30,7 @@ Obtenga información sobre cómo acceder, crear, administrar y gobernar conjunto
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Mecanismos de protección de tiempo de vida (TTL) de conjuntos de datos
 
@@ -40,7 +40,7 @@ Conozca los mecanismos de protección TTL aplicados a los conjuntos de datos gen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Exportar conjuntos de datos de Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Obtenga información sobre cómo exportar conjuntos de datos a destinos de almac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Adobe Journey Optimizer: ejemplos de consultas de conjuntos de datos
 

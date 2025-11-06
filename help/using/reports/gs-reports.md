@@ -144,4 +144,4 @@ Aprenda a utilizar de forma eficaz el informe permanente en Adobe Journey Optimi
 
 +++
 
-Descubra más tutoriales en vídeo sobre informes y análisis en [Tutoriales de informes](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}
+Descubra más tutoriales en vídeo sobre informes y análisis en [Tutoriales de informes](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}

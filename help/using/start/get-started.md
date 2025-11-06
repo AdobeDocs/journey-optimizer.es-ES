@@ -88,6 +88,6 @@ Vea los [modelos de Adobe Journey Optimizer](https://experienceleague.adobe.com/
 >* [Pasos clave para empezar](quick-start.md)
 >* [Diseño de recorridos y envío de mensajes](../building-journeys/journey-gs.md)
 >* [Informes en directo](../reports/live-report.md)
->* [Tutorial de introducción a Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
+>* [Tutorial de introducción a Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
 >* [Información general sobre la seguridad de Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
 >* [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

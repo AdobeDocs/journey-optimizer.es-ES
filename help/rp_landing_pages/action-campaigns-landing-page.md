@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear y administrar campañas de acción, inclu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Definir propiedades de la campaña de acción
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso para definir las propiedades de la campaña, como el n
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Configurar acciones de campaña
 
@@ -60,7 +60,7 @@ Utilice la segmentación y la experimentación para maximizar la participación 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=es)
 
 Editar contenido de campañas
 

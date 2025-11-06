@@ -20,7 +20,7 @@ La sección Referencia de la API de Adobe Journey Optimizer le ofrece las herram
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a la API de la biblioteca de ofertas
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo integrar la API de la biblioteca de ofertas par
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Enviar ofertas mediante las API de Adobe Journey Optimizer
 

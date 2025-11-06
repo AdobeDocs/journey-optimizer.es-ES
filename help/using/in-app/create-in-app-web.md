@@ -20,9 +20,9 @@ ht-degree: 7%
 
 Para configurar el canal web en la aplicación, siga los pasos a continuación:
 
-* Instale la extensión de etiquetas Web SDK para admitir la mensajería en la aplicación web. [Más información](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
+* Instale la extensión de etiquetas Web SDK para admitir la mensajería en la aplicación web. [Más información](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=es){target="_blank"}
 
-* Personalice sus déclencheur. La mensajería web en la aplicación admite dos tipos de déclencheur: datos enviados a la plataforma y déclencheur manuales. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html){target="_blank"}
+* Personalice sus déclencheur. La mensajería web en la aplicación admite dos tipos de déclencheur: datos enviados a la plataforma y déclencheur manuales. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=es){target="_blank"}
 
 * Cree la configuración web en la aplicación. [Más información](inapp-configuration.md)
 

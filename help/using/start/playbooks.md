@@ -61,4 +61,4 @@ Además de aprovechar los manuales de tácticas predefinidos, puede crear y comp
 
 Puede definir metadatos mediante la asistencia de IA o entradas manuales, asociar activos técnicos como esquemas, segmentos y compartir manuales de tácticas entre diferentes organizaciones de IMS.
 
-Para obtener más información sobre cómo crear y compartir manuales de tácticas, consulte la documentación de libros de reproducción de casos de uso: [Cree y comparta sus propios manuales de tácticas con el Asistente de IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html#sharing-playbooks-sandboxes){target="_blank"}.
+Para obtener más información sobre cómo crear y compartir manuales de tácticas, consulte la documentación de libros de reproducción de casos de uso: [Cree y comparta sus propios manuales de tácticas con el Asistente de IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=es#sharing-playbooks-sandboxes){target="_blank"}.
