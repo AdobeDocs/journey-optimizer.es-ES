@@ -6,7 +6,7 @@ description: Informe activo
 redpen-status: CREATED_||_2025-08-11_20-47-56
 exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La función de informes activos de Adobe Journey Optimizer le permite realizar u
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción al informe activo
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo acceder, personalizar y exportar informes activ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Lista de métricas
 
@@ -40,7 +40,7 @@ Conozca las definiciones y categorías de métricas que se utilizan en los infor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Informe activo del recorrido
 
@@ -50,7 +50,7 @@ Analice el rendimiento de los recorridos y los canales de comunicación asociado
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Informe activo de la campaña
 
@@ -60,7 +60,7 @@ Visualice el rendimiento de la campaña en varios canales, como el correo electr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Informe activo de la página de aterrizaje
 
@@ -70,7 +70,7 @@ Evalúe el rendimiento de la página de aterrizaje con métricas en tiempo real 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Informe activo de la suscripción
 

@@ -11,7 +11,7 @@ exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
 source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
 workflow-type: tm+mt
 source-wordcount: '2134'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -675,11 +675,11 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td>Número total de veces que se mostraron o presentaron experiencias personalizadas a los usuarios en varios puntos de contacto.<br/> </td> 
 </tr>
 <tr> 
-   <td>Canal de participación<br/> </td> 
-   <td>Supervisa el rendimiento de las experiencias personalizadas mediante la evaluación de la eficacia con que cada fase del canal impulsa las interacciones del usuario.<br/> </td> 
+   <td>Funnel de participación<br/> </td> 
+   <td>Supervisa el rendimiento de las experiencias personalizadas mediante la evaluación de la eficacia con que cada fase de funnel impulsa las interacciones del usuario.<br/> </td> 
 </tr>
 <tr> 
-   <td>Canal de participación por estrategia de selección<br/> </td> 
+   <td>Funnel de participación por estrategia de selección<br/> </td> 
    <td>Supervisa y analiza la eficacia con la que las distintas estrategias de selección atraen a usuarios con experiencias personalizadas.<br/> </td> 
 </tr>
 <tr> 

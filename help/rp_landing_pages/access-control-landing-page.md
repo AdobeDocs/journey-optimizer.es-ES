@@ -6,7 +6,7 @@ description: Control de acceso
 redpen-status: CREATED_||_2025-08-11_21-19-16
 exl-id: 812d29b1-8ef3-4f41-8a32-bf2839f924a1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ El control de acceso en Adobe Journey Optimizer permite a los administradores ad
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción al control de acceso
 
@@ -30,7 +30,7 @@ Conozca los conceptos y procesos para administrar permisos de usuario, funciones
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Administrar usuarios y funciones
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso sobre cómo asignar, editar y crear funciones para con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Funciones integradas
 
@@ -50,7 +50,7 @@ Descubra las funciones predefinidas y sus permisos asociados para administrar de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Permisos integrados
 
@@ -60,7 +60,7 @@ Comprenda los permisos disponibles y sus funcionalidades para configurar el cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Niveles de permisos
 
@@ -70,7 +70,7 @@ Obtenga información sobre los permisos de alto nivel y bajo nivel y cómo habil
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Control de acceso basado en atributos
 

@@ -47,7 +47,7 @@ Cuando se solicita, Adobe configura la conexión entre los entornos de Journey O
 >[!ENDTABS]
 
 
-## Protecciones y limitaciones {#important-notes}
+## Mecanismos de protección y limitaciones {#important-notes}
 
 * No se restringen los mensajes. El sistema limita el número de mensajes que se pueden enviar a 4000 cada 5 minutos, según la versión actual de Campaign SLA. Por este motivo, Journey Optimizer solo debe utilizarse en casos de uso unitarios (eventos individuales, no audiencias).
 
@@ -61,7 +61,7 @@ Cuando se solicita, Adobe configura la conexión entre los entornos de Journey O
 
 ## Requisitos previos {#prerequisites}
 
-En Adobe Campaign, debe crear y publicar un mensaje transaccional y su evento asociado. Consulte la [documentación de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+En Adobe Campaign, debe crear y publicar un mensaje transaccional y su evento asociado. Consulte la [documentación de Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 Puede crear la carga útil JSON correspondiente a cada mensaje siguiendo el patrón siguiente. Luego pegará esta carga útil al configurar la acción en Journey Optimizer (a continuación).
 

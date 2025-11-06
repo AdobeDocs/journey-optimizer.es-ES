@@ -1,5 +1,5 @@
 ---
-title: Prueba del procesamiento de correo electrónico
+title: Prueba de representación de correo electrónico
 description: Obtenga información sobre cómo probar el procesamiento de correo electrónico.
 feature: Preview
 role: User
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 ---
 
-# Prueba del procesamiento de correo electrónico {#email-rendering}
+# Prueba de representación de correo electrónico {#email-rendering}
 
 Puede aprovechar su cuenta de **Litmus** en [!DNL Journey Optimizer] para obtener una vista previa instantánea de su **procesamiento de correo electrónico** en clientes de correo electrónico populares. A continuación, puede asegurarse de que el contenido del correo electrónico tenga buen aspecto y funcione correctamente en cada bandeja de entrada.
 

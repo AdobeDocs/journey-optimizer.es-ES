@@ -6,7 +6,7 @@ description: Páginas de aterrizaje
 redpen-status: CREATED_||_2025-08-12_00-37-59
 exl-id: 94ad5ecb-b1f1-4fd7-8ef4-5fdbae25ae36
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Las páginas de aterrizaje en Adobe Journey Optimizer le permiten crear páginas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introducción a las páginas de aterrizaje
 
@@ -30,7 +30,7 @@ Conozca los conceptos básicos sobre las páginas de aterrizaje, su funcionalida
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Crear y publicar de páginas de aterrizaje
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso para crear, configurar, probar y publicar páginas de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Administrar las páginas de aterrizaje
 
@@ -50,7 +50,7 @@ Acceda, organice y realice acciones como publicar, duplicar y etiquetar páginas
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Diseño de contenido de las páginas de aterrizaje
 
@@ -60,7 +60,7 @@ Cree y personalice páginas de aterrizaje con plantillas, formularios y funcione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Crear y administrar listas de suscripción
 
@@ -70,7 +70,7 @@ Configure listas de suscripción para administrar perfiles de inclusión y optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Casos de uso de la página de aterrizaje
 

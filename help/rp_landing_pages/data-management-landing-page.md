@@ -6,7 +6,7 @@ description: Administración de datos
 redpen-status: CREATED_||_2025-08-11_21-06-39
 exl-id: d60bd99c-aa17-4ef0-85a9-384ef21b96da
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La administración de datos en Adobe Journey Optimizer le permite tomar el contr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introducción a la administración de datos
 
@@ -30,7 +30,7 @@ Descubra cómo Adobe Journey Optimizer ofrece a los usuarios capacidades avanzad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Trabajar con esquemas en Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Conozca y administre los esquemas de Adobe Experience Platform para un modelado 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Conjuntos de datos de Journey Optimizer
 
@@ -50,7 +50,7 @@ Descubra instrucciones completas sobre la administración de conjuntos de datos,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Usar datos de Adobe Experience Platform
 
@@ -60,7 +60,7 @@ Habilite y utilice conjuntos de datos de Adobe Experience Platform en Journey Op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Introducción a las consultas en Journey Optimizer
 

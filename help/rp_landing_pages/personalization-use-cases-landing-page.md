@@ -6,7 +6,7 @@ description: Casos de uso de personalización
 redpen-status: CREATED_||_2025-08-12_00-35-09
 exl-id: 1b351130-3caa-4389-9caf-1a56e263f085
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Imagínese crear comunicaciones tan adaptadas a su público que parezcan hechas 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Tutorial de personalización sobre la notificación del estado de los pedidos
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear notificaciones push personalizadas para c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Guía de personalización del correo electrónico de abandono del carro de compras
 
@@ -40,7 +40,7 @@ Descubra cómo personalizar los correos electrónicos de abandono del carro de c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Ejemplo de personalización del correo electrónico para recetas del plan de salud
 

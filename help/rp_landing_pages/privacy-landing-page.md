@@ -6,7 +6,7 @@ description: Privacidad
 redpen-status: CREATED_||_2025-08-11_21-20-29
 exl-id: d6c8e958-de3b-4aec-8b3b-8b0b3daa0098
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Las herramientas de privacidad de Adobe Journey Optimizer le permiten administra
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Información general sobre administración de privacidad
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo administrar la privacidad en Adobe Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Administración de solicitudes de privacidad
 
@@ -40,7 +40,7 @@ Siga las instrucciones paso a paso para crear y administrar solicitudes de priva
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Registros de auditoría para acciones de usuario
 
@@ -50,7 +50,7 @@ Rastree y supervise las acciones realizadas en los recursos de Adobe Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Realizar operaciones del ciclo de vida de los datos
 
@@ -60,7 +60,7 @@ Descubra cómo administrar tareas del ciclo vital de los datos, tales como actua
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Gestión del consentimiento
 
@@ -70,7 +70,7 @@ Administre las preferencias y políticas de consentimiento del destinatario para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Directivas de gobernanza de datos
 

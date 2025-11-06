@@ -111,7 +111,7 @@ Los encontrará en el **[!UICONTROL menú Administración de decisiones]** > **[
    >
    >En este ejemplo, solo utilizaremos las puntuaciones de prioridad. Más información sobre [reglas de elegibilidad y restricciones](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
 
-## Configurar ofertas {#configure-offers}
+## Configuración de ofertas {#configure-offers}
 
 Ahora puede crear y configurar sus ofertas. En este ejemplo, creará cuatro ofertas que desea mostrar según cada perfil específico.
 

@@ -6,7 +6,7 @@ description: Establecimiento de reglas de límite de mensajes y recorridos
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Administrar reglas de límite de mensajes y recorridos en Adobe Journey Optimize
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Trabajar con conjuntos de reglas
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear, administrar y activar conjuntos de regla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Límite y arbitraje del recorrido
 
@@ -40,7 +40,7 @@ Descubra cómo establecer límites de entrada y simultaneidad de recorridos, pri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Restricción de frecuencia por canal
 

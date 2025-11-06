@@ -25,7 +25,7 @@ Puede acceder a su informe de recorrido de notificaciones push haciendo clic en 
 
 >[!ENDSHADEBOX]
 
-## Estadísticas de envío {#sending-statistics-push}
+## Envío de estadísticas {#sending-statistics-push}
 
 ![](assets/cja-campaign-push-sending-stat.png)
 

@@ -36,4 +36,4 @@ Las reglas condicionales se pueden aprovechar en el Designer de correo electrón
 
 Información sobre cómo crear contenido dinámico con el generador de reglas de condición.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413670?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)

@@ -6,7 +6,7 @@ description: Experimento del contenido
 redpen-status: CREATED_||_2025-08-12_00-44-26
 exl-id: 7f01dd97-ef28-498a-8a8b-d72abaa7fdd4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Los experimentos de contenido en Adobe Journey Optimizer le permiten probar y pe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a los experimentos de contenido
 
@@ -30,7 +30,7 @@ Conozca los aspectos básicos de los experimentos de contenido, su objetivo y c�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Crear y ampliar experimentos de contenido
 
@@ -40,7 +40,7 @@ Una guía paso a paso para crear, configurar y ampliar experimentos para probar 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Técnicas estadísticas avanzadas para la experimentación
 

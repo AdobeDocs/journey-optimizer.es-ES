@@ -40,7 +40,7 @@ El editor de expresiones avanzadas oferta un conjunto de funciones y operadores 
 
 El editor de expresiones avanzadas se puede utilizar para lo siguiente:
 
-* crear [condiciones avanzadas &#x200B;](../condition-activity.md#about_condition) en fuentes de datos e información de evento
+* crear [condiciones avanzadas ](../condition-activity.md#about_condition) en fuentes de datos e información de evento
 * definir [actividades de espera personalizadas](../wait-activity.md#custom)
 * definir asignación de parámetros de acción
 

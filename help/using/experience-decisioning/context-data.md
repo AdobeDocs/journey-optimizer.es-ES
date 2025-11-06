@@ -29,7 +29,7 @@ Para utilizar datos de contexto, primero debe definir los datos que desea que es
 
 Los pasos para alimentar Decisioning con datos de Adobe Experience Platform son los siguientes:
 
-1. Crear un **esquema de evento de experiencia** en Adobe Experience Platform y su **conjunto de datos** asociado. [Aprenda a crear esquemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. Crear un **esquema de evento de experiencia** en Adobe Experience Platform y su **conjunto de datos** asociado. [Aprenda a crear esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. Cree una nueva secuencia de datos de Adobe Experience Platform:
 
@@ -47,6 +47,6 @@ Una vez guardado el conjunto de datos, la información del conjunto de datos sel
 
 Para obtener más información sobre cómo trabajar con Adobe Experience Platform, explore los siguientes recursos:
 
-* [Esquemas del modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [Conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [Corrientes de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/overview){target="_blank"}
+* [Esquemas del modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [Conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [Corrientes de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}

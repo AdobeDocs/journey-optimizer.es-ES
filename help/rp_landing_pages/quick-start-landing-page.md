@@ -5,7 +5,7 @@ title: Funciones y responsabilidades
 description: Funciones y responsabilidades
 redpen-status: CREATED_||_2025-08-11_20-03-47
 source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ El éxito de Adobe Journey Optimizer depende de un equipo de expertos que trabaj
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Información general sobre funciones y responsabilidades
 
@@ -30,7 +30,7 @@ Obtenga información sobre las funciones, responsabilidades y dependencias neces
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Introducción como experto en marketing
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso para los expertos en marketing sobre la creación de p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Introducción como ingeniero de datos
 
@@ -50,7 +50,7 @@ Instrucciones detalladas para que los ingenieros de datos preparen esquemas, con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Introducción como administrador del sistema
 

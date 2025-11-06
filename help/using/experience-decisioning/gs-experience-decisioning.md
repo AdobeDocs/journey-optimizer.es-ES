@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '619'
 ht-degree: 22%
 
 ---
@@ -48,7 +48,7 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
       ![](assets/decision_permission_2.png)
 
-   1. Escriba el nombre o la dirección de correo electrónico del usuario o seleccione el usuario de la lista y haga clic en **[!UICONTROL Guardar]**.
+   1. Introduzca el nombre o la dirección de correo electrónico del usuario o seleccione el usuario en la lista y haga clic en **[!UICONTROL Guardar]**.
 
       Si el usuario no se ha creado previamente, consulte la [documentación de Añadir usuarios](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/users).
 
@@ -86,4 +86,14 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
    ➡️ [Aprenda a trabajar con directivas de decisión](create-decision.md)
 ➡️ Para entregar correctamente la oferta a través del canal de experiencia basado en código, siga los pasos de implementación de [esta sección](../code-based/code-based-implementation-samples.md).
+
+## Recursos adicionales
+
+* **[Crear elementos de decisión](items.md)**: aprenda a crear y administrar elementos de decisión, incluidas ofertas, variaciones de contenido y experiencias.
+* **[Configurar catálogos de decisiones](catalogs.md)**: aprenda a organizar los elementos de decisión en catálogos para mejorar la administración.
+* **[Definir estrategias de selección](selection-strategies.md)**: descubra cómo crear estrategias de selección con reglas de elegibilidad y métodos de clasificación.
+* **[Crear directivas de decisión](create-decision-policy.md)**: aprenda a crear directivas de decisión que combinen estrategias y restricciones.
+* **[Modelos de clasificación e IA](ranking/ranking.md)**: fórmulas de clasificación maestras y modelos de IA para la toma de decisiones personalizada.
+* **[Protecciones para la toma de decisiones](decisioning-guardrails.md)**: revise las limitaciones importantes y las prácticas recomendadas para la implementación de decisiones.
+* **[Tutoriales de toma de decisiones](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las funciones de toma de decisiones y las prácticas recomendadas.
 

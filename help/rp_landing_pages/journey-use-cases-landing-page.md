@@ -6,7 +6,7 @@ description: Casos de uso
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
 source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Los casos de uso de Adobe Journey Optimizer le permiten crear experiencias de cl
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Descubra los casos de uso
 
@@ -30,7 +30,7 @@ Explore ejemplos prácticos y estrategias para maximizar las funciones de Adobe 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Búsqueda de eventos de experiencia
 
@@ -40,7 +40,7 @@ Utilice eventos de experiencia para administrar exclusiones, personalizar el con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Envío de mensajes multicanal
 
@@ -50,7 +50,7 @@ Cree recorridos que aprovechen la segmentación del público y activadores de ev
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Envío de un mensaje con la versión 7 y 8 de Campaign
 
@@ -60,7 +60,7 @@ Integre Adobe Campaign con Journey Optimizer para enviar mensajes de correo elec
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Envío de un mensaje a los suscriptores
 
@@ -70,7 +70,7 @@ Configure recorridos para enviar mensajes a los suscriptores en función de las 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Paso de colecciones de forma dinámica mediante acciones personalizadas
 

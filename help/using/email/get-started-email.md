@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: correo electrónico, inicio, creación, vista previa
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 66%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Utilice [!DNL Journey Optimizer] para enviar mensajes de correo electrónico a sus clientes. Puede crear, personalizar y previsualizar mensajes en el Diseñador de correo electrónico.
 
-Se pueden crear envíos de correo electrónico:
+Se pueden crear envíos de correo electrónico de la siguiente manera:
 
 * En un **Recorrido**: una vez que haya añadido una actividad de **[!UICONTROL Correo electrónico]** para su recorrido y haya definido la configuración básica, utilice el panel derecho **[!UICONTROL Acciones: correo electrónico]** para crear el contenido del mensaje. [Obtenga información sobre cómo crear un recorrido](../building-journeys/journey-gs.md)
 
@@ -109,3 +109,12 @@ Se pueden crear envíos de correo electrónico:
 <p>
 </td>
 </tr></table>
+
+## Recursos adicionales
+
+* **[Crear un correo electrónico](create-email.md)**: aprenda a crear mensajes de correo electrónico en campañas y recorridos con instrucciones paso a paso.
+* **[Diseñar contenido de correo electrónico](get-started-email-design.md)**: descubra las diferentes formas de diseñar el contenido de su correo electrónico, desde cero o con plantillas.
+* **[Configuración de correo electrónico](get-started-email-config.md)**: aprenda a configurar opciones de correo electrónico, como superficies de correo electrónico, subdominios y grupos de IP.
+* **[Personalización y estilo de correo electrónico](get-started-email-style.md)**: técnicas de estilo maestro que incluyen CSS personalizado, alineación, relleno y compatibilidad con modo oscuro.
+* **[Seguimiento y monitorización de correos electrónicos](message-tracking.md)**: aprenda a rastrear aperturas de mensajes, clics y administrar el seguimiento de URL para el análisis de rendimiento.
+* **[Tutoriales de canal de correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las funciones de correo electrónico y las prácticas recomendadas.

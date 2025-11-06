@@ -39,4 +39,4 @@ Las ventajas principales incluyen:
 
 * **Collaboration sin problemas**: comparte resultados fácilmente y administra los roles del equipo con alertas en tiempo real.
 
-➡️ [Documentación de acceso a Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview)
+➡️ [Documentación de acceso a Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/es/docs/experimentation-accelerator/using/overview)

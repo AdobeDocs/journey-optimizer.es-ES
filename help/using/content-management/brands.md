@@ -10,7 +10,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -318,7 +318,7 @@ La sección **[!UICONTROL Contenido visual]** define los estándares para imáge
       <td>Evite los problemas excesivamente complejos.</td>
     </tr>
     <tr>
-      <td>Estándares de iconos</td>
+      <td>Estándares de icono</td>
       <td>Utilice un sistema de cuadrícula coherente de 24 píxeles.</td>
       <td>No mezcle dimensiones de icono, utilice grosores de trazo incoherentes ni se desvíe de las reglas de cuadrícula.</td>
     </tr>

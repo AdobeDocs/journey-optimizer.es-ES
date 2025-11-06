@@ -6,7 +6,7 @@ description: Diseño del contenido del correo electrónico
 redpen-status: CREATED_||_2025-08-11_20-33-11
 exl-id: 21ba6677-f158-4d9d-8b01-304c4d3841ee
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ El diseño del contenido de su correo electrónico en Adobe Journey Optimizer le
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción al diseño de correo electrónico
 
@@ -30,7 +30,7 @@ Conozca los conceptos básicos del diseño de correo electrónico en Adobe Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Crear y optimizar el contenido del correo electrónico
 
@@ -40,7 +40,7 @@ Explore métodos para diseñar contenido de correo electrónico, importar HTML, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Diseño del contenido en Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Descubra herramientas y prácticas recomendadas para utilizar componentes, fragm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Editar estilo: personalizar diseños de correo electrónico
 

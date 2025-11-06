@@ -6,7 +6,7 @@ description: Informes de campaña
 redpen-status: CREATED_||_2025-08-11_20-49-35
 exl-id: 01d60382-ea80-4ebd-9918-7e7821083cb9
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Los informes de campaña de Adobe Journey Optimizer le permiten obtener informac
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Información general sobre el informe de campaña
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo analizar el rendimiento de la campaña utilizan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Informe de campaña basado en código
 
@@ -40,7 +40,7 @@ Obtenga información sobre cómo evaluar experiencias personalizadas y estrategi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Informe de campaña de tarjeta de contenido
 
@@ -50,7 +50,7 @@ Analice las campañas de la tarjeta de contenido con métricas como las tendenci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Informe de campaña de correo directo
 
@@ -60,7 +60,7 @@ Evalúe la eficacia de las campañas de correo directo analizando el estado de e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
 
 Informe de campaña de correo electrónico
 
@@ -70,7 +70,7 @@ Obtenga información sobre las métricas de rendimiento de correo electrónico, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
 
 Informe de campaña de experimentación
 

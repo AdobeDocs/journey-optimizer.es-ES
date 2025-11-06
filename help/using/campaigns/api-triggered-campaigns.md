@@ -54,4 +54,4 @@ Antes de comenzar con las campañas, compruebe los siguientes requisitos previos
 
 Obtenga información sobre cómo crear una campaña y almacenarla en déclencheur desde un sistema externo basado en las interacciones del usuario, mediante la API de REST de ejecución de mensaje interactivo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452728?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

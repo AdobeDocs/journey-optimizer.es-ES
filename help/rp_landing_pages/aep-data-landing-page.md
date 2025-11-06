@@ -6,7 +6,7 @@ description: Usar datos de Adobe Experience Platform
 redpen-status: CREATED_||_2025-08-11_20-56-30
 exl-id: 54df881d-f204-4979-89ce-45de2eb7b822
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer le permite tomar decisiones más inteligentes y rápidas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Aprovechar los datos de contexto en la toma de decisiones
 
@@ -30,7 +30,7 @@ Aprenda a integrar datos de contexto de Adobe Experience Platform en la toma de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Uso de datos de Adobe Experience Platform para la toma de decisiones
 

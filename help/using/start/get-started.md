@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: ht
-source-wordcount: '847'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '853'
+ht-degree: 99%
 
 ---
 
@@ -88,5 +88,6 @@ Vea los [modelos de Adobe Journey Optimizer](https://experienceleague.adobe.com/
 >* [Pasos clave para empezar](quick-start.md)
 >* [Diseño de recorridos y envío de mensajes](../building-journeys/journey-gs.md)
 >* [Informes en directo](../reports/live-report.md)
+>* [Tutorial de introducción a Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
 >* [Información general sobre la seguridad de Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
 >* [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

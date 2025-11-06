@@ -6,7 +6,7 @@ description: Campañas activadas por API
 redpen-status: CREATED_||_2025-08-11_20-23-06
 exl-id: f98e85b4-8d8a-4a9a-b814-59aa3759e534
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Las campañas activadas por API en Adobe Journey Optimizer le permiten enviar me
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Crear y administrar campañas activadas por API
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear, configurar y administrar campañas activ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definir las propiedades de la campaña activada por API
 
@@ -40,7 +40,7 @@ Siga las instrucciones paso a paso para definir las propiedades de la campaña, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar acciones para la campaña activada por API
 
@@ -50,7 +50,7 @@ Obtenga información sobre cómo configurar acciones, seleccionar canales de com
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Editar y personalizar el contenido de campaña activado por API
 
@@ -60,7 +60,7 @@ Personalice el contenido de la campaña mediante datos contextuales. Aprenda a d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Definir el público de la campaña activada por API
 
@@ -70,7 +70,7 @@ Configure el público de la campaña seleccionando perfiles, configurando tipos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Programar una campaña activada por API
 

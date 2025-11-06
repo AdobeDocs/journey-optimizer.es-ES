@@ -6,7 +6,7 @@ description: Exportar el catálogo de ofertas
 redpen-status: CREATED_||_2025-08-11_21-03-50
 exl-id: b73438e0-8ebe-4188-bb63-1095dcfc4679
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Exportar el catálogo de ofertas en Adobe Journey Optimizer es como abrir la pue
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guía para la exportación de catálogos de ofertas
 
@@ -30,7 +30,7 @@ Descubra cómo exportar el catálogo de ofertas como un conjunto de datos a Adob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Acceder al catálogo de ofertas exportado
 
@@ -40,7 +40,7 @@ Descubra cómo localizar e interactuar con el catálogo de ofertas exportado en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referencia de conjuntos de datos de ofertas personalizadas
 
@@ -50,7 +50,7 @@ Explore los campos y el esquema jerárquico del conjunto de datos para obtener o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Información general sobre el conjunto de datos de decisiones
 
@@ -60,7 +60,7 @@ Conozca la estructura jerárquica, las definiciones de campo y los metadatos del
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Detalles del conjunto de datos de ubicaciones
 
@@ -70,7 +70,7 @@ Obtenga información sobre los campos, el esquema y los metadatos del conjunto d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Documentación sobre el conjunto de datos de ofertas de reserva
 

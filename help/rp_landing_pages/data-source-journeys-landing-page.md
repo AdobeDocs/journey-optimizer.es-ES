@@ -6,7 +6,7 @@ description: Configuración de la fuente de datos
 redpen-status: CREATED_||_2025-08-11_21-11-22
 exl-id: e940bc83-77d2-4c5a-9895-20534d70e7ee
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Las fuentes de datos en Adobe Journey Optimizer le permiten conectarse a sistema
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a las fuentes de datos
 
@@ -30,7 +30,7 @@ Obtenga información sobre las fuentes de datos, sus tipos, casos de uso y grupo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Cómo configurar una fuente de datos
 
@@ -40,7 +40,7 @@ Guía paso a paso sobre la configuración de fuentes de datos y la administraci�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Fuente de datos de Adobe Experience Platform
 
@@ -50,7 +50,7 @@ Obtenga información sobre cómo configurar la fuente de datos integrada de Adob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Configuración de las fuentes de datos externas
 

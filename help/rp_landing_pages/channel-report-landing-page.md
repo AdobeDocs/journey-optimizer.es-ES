@@ -6,7 +6,7 @@ description: Informe de todo el tiempo
 redpen-status: CREATED_||_2025-08-11_20-52-29
 exl-id: cc658ad0-79ec-4403-bdda-18f0c428d3fa
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ El “Informe de todo el tiempo” de Adobe Journey Optimizer es la puerta de en
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a la creación de informes de todo el tiempo
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo acceder y aprovechar la función “Informe de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Lista completa de métricas
 
@@ -40,7 +40,7 @@ Explore las definiciones detalladas de las métricas utilizadas en los canales d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar manualmente Customer Journey Analytics
 
@@ -50,7 +50,7 @@ Guía paso a paso para configurar manualmente la integración con Customer Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Administrar los informes
 
@@ -60,7 +60,7 @@ Obtenga información sobre cómo analizar, personalizar, exportar y programar in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Configurar fuentes de datos para la creación de informes
 
@@ -70,7 +70,7 @@ Configure fuentes de datos y conjuntos de datos para permitir la experimentació
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Motivos de exclusión
 

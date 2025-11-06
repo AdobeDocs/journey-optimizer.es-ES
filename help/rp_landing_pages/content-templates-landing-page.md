@@ -6,7 +6,7 @@ description: Plantillas de contenido
 redpen-status: CREATED_||_2025-08-12_00-38-47
 exl-id: a745742a-61c4-420e-bbd8-b3d72d782fb3
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Las plantillas de contenido de Adobe Journey Optimizer son potentes herramientas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a las plantillas de contenido
 
@@ -30,7 +30,7 @@ Conozca los conceptos básicos sobre la creación y administración de plantilla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Acceso y administración de plantillas
 
@@ -40,7 +40,7 @@ Descubra cómo acceder, organizar y administrar plantillas de contenido, incluid
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Creación de plantillas de contenido
 
@@ -50,7 +50,7 @@ Guía paso a paso sobre cómo crear plantillas de contenido reutilizables desde 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Bloquear contenido en plantillas de correo electrónico
 
@@ -60,7 +60,7 @@ Descubra cómo bloquear secciones o plantillas completas para evitar ediciones o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Plantillas de contenido de prueba
 
@@ -70,7 +70,7 @@ Valide las plantillas de correo electrónico probando el procesamiento, las vari
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Uso de plantillas de contenido
 

@@ -34,7 +34,7 @@ WhatsApp admite los siguientes tipos de mensajes:
 | Vídeos | Debe ser 3GPP o MP4, de menos de 16 MB y alojado mediante URL. |
 | Audio | Solo disponible para mensajes de respuesta. Debe tener el formato AAC, AMR, MP3, MP4 audio u OGG, alojado en una dirección URL y inferior a 16 MB. |
 | Documentos | Debe tener menos de 100 MB, estar alojado en una dirección URL y tener uno de los siguientes formatos: .txt, .xls/.xlsx, .doc/.docx, .ppt/.pptx o .pdf. |
-| Texto del cuerpo | Admite contenido dinámico mediante parámetros. |
+| Texto independiente | Admite contenido dinámico mediante parámetros. |
 | Texto del pie | Admite contenido dinámico mediante parámetros. |
 
 La siguiente opción de call-to-action está disponible para tus mensajes de WhatsApp:
@@ -106,9 +106,9 @@ Ahora puedes empezar a diseñar el contenido de tu mensaje de WhatsApp desde el 
 
 >[!BEGINSHADEBOX]
 
-Antes de diseñar tu mensaje de WhatsApp en Journey Optimizer, primero debes crear y diseñar tu plantilla en Meta. [Más información](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+Antes de diseñar el mensaje de WhatsApp en Journey Optimizer, primero debe crear y diseñar la plantilla en Meta. [Más información](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
-Ten en cuenta que tu plantilla de WhatsApp primero debe ser aprobada por Meta antes de usarla en Journey Optimizer. Este proceso suele durar unas pocas horas, pero puede tardar hasta 24 horas. [Más información](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
+Tenga en cuenta que la plantilla de WhatsApp primero debe ser aprobada por Meta antes de usarla en Journey Optimizer. Este proceso suele durar unas pocas horas, pero puede tardar hasta 24 horas. [Más información](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
 
 >[!ENDSHADEBOX]
 
@@ -195,6 +195,6 @@ El siguiente vídeo muestra cómo crear un recorrido de WhatsApp de varios pasos
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470285/?learn=on&captions=spa")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

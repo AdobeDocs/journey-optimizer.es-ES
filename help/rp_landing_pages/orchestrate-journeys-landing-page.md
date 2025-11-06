@@ -5,10 +5,10 @@ title: Recorridos
 description: Recorridos
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
-source-git-commit: 21364f17c8a09d564e97cfc5f29f742dd8f32f4a
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ Los recorridos de Adobe Journey Optimizer le permiten crear recorridos para el c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a los recorridos de Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Aprenda a crear recorridos para clientes en varios pasos en tiempo real utilizan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Guía completa para crear y administrar recorridos
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso sobre el diseño, la prueba, la publicación y el segu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Guía completa para administrar recorridos
 
@@ -50,7 +50,7 @@ Administre los recorridos del cliente de forma eficaz con herramientas de filtra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Actividades de Adobe Journey Optimizer
 
@@ -60,7 +60,7 @@ Descubra cómo configurar y utilizar actividades como activadores, pasos de deci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Creación de expresiones en Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Domine la creación de expresiones para los flujos de trabajo dinámicos, la man
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Casos de uso prácticos de Adobe Journey Optimizer
 
@@ -87,5 +87,7 @@ Explore las aplicaciones reales de Adobe Journey Optimizer, incluida la mensajer
 - **[Solución de problemas con los recorridos del cliente](troubleshoot-journey-landing-page.md)**: diagnostique y resuelva los problemas de ejecución de recorridos con herramientas, códigos de error y prácticas recomendadas para la depuración y optimización.
 
 - **[Suscríbase a las alertas de recorridos](../using/reports/alerts.md)**: descubra cómo administrar alertas del sistema, suscribirse a notificaciones y solucionar problemas en recorridos y campañas.
+
+- **[Tutoriales de Recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}**: aprenda a crear recorridos con tutoriales de vídeo prácticos que cubren características, funcionalidades y prácticas recomendadas.
 
 

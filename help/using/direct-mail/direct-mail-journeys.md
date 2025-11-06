@@ -61,7 +61,7 @@ Antes de crear un mensaje de correo postal, asegúrese de haber configurado una 
 
 ## Crear una configuración de correo directo {#direct-mail-surface}
 
-Una configuración de correo directo dispone de la configuración para el formato del archivo que contiene los datos de la audiencia de destino y que utilizará el proveedor de correo. También debe definir dónde se exportará el archivo seleccionando la configuración de enrutamiento de archivos. Encontrará información detallada sobre cómo crear una configuración de correo postal en la sección [Configuración de correo postal](../direct-mail/direct-mail-configuration.md#file-routing-configuration).
+Una configuración de correo directo dispone de la configuración para el formato del archivo que contiene los datos del público destinatario y que utilizará el proveedor de correo. También debe definir dónde se exportará el archivo seleccionando la configuración de enrutamiento de archivos. Encontrará información detallada sobre cómo crear una configuración de correo postal en la sección [Configuración de correo postal](../direct-mail/direct-mail-configuration.md#file-routing-configuration).
 
 Una vez que la configuración del correo postal esté lista, puede agregar una acción de correo postal al recorrido.
 

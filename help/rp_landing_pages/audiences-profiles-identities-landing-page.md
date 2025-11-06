@@ -6,7 +6,7 @@ description: Públicos, perfiles e identidad
 redpen-status: CREATED_||_2025-08-11_20-47-03
 exl-id: 29d45bbb-8351-48c6-8672-dda4b1c25e29
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Los públicos, los perfiles y las identidades de Adobe Journey Optimizer depende
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Gestión de público y personalización
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear, gestionar y activar públicos mediante l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
 
 Perfiles: administrar y optimizar los datos del cliente
 
@@ -40,7 +40,7 @@ Obtenga información sobre cómo utilizar perfiles, atributos calculados y perfi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
 
 Introducción a las identidades
 
@@ -50,7 +50,7 @@ Descubra cómo administrar las identidades de los clientes mediante el gráfico 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Panel de control de uso de licencias
 

@@ -6,7 +6,7 @@ description: Delegar subdominios de correo electrónico
 redpen-status: CREATED_||_2025-08-11_21-07-51
 exl-id: 7df9b8e2-136a-4ffc-9243-53c7be026d81
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La delegación de subdominios de correo electrónico en Adobe Journey Optimizer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a la delegación de subdominios
 
@@ -30,7 +30,7 @@ Conozca las ventajas, los métodos de configuración y las consideraciones para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Delegar un subdominio
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso para delegar subdominios a Adobe, incluyendo la delega
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Configurar registros DMARC
 
@@ -50,7 +50,7 @@ Configure los registros de DMARC para mejorar la seguridad del correo electróni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Añadir un registro TXT de Google
 
@@ -60,7 +60,7 @@ Compruebe los subdominios para la entregabilidad de Gmail añadiendo registros T
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Acceso y edición de registros PTR
 
@@ -70,7 +70,7 @@ Administre los registros PTR para subdominios delegados, incluyendo la edición 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Crear grupos de IP
 

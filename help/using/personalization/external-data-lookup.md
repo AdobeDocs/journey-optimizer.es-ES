@@ -210,7 +210,7 @@ En la sección Edge Delivery del seguimiento de seguridad como parte de los deta
 
 A continuación, encontrará las preguntas más frecuentes sobre el asistente de búsqueda de datos externos.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ ¿Cómo pasar un atributo contextual desde la solicitud como parámetro a una búsqueda de datos externa?
 

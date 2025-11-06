@@ -6,7 +6,7 @@ description: Experiencia basada en código
 redpen-status: CREATED_||_2025-08-11_20-42-30
 exl-id: 55b07a0b-b09a-47e6-8b9f-e05e2dd7b47e
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Las experiencias basadas en código de Adobe Journey Optimizer le permiten ofrec
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introducción a las experiencias basadas en código
 
@@ -30,7 +30,7 @@ Obtenga información sobre las experiencias basadas en código, sus casos de uso
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar canales basados en código
 
@@ -40,7 +40,7 @@ Domine la configuración y administración de canales basados en código, inclui
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Crear experiencias basadas en código
 

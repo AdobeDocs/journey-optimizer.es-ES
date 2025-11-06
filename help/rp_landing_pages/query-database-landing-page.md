@@ -6,7 +6,7 @@ description: Consulta de la base de datos
 redpen-status: CREATED_||_2025-08-11_20-25-18
 exl-id: 57ea921d-e881-44fb-b20a-a46028180e64
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Descubra cómo aprovechar todo el potencial de los datos del público con las po
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Uso del generador de reglas para campañas orquestadas
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear y administrar reglas de segmentación y s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Cómo crear la primera regla en Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Tutorial paso a paso sobre la creación y validación de reglas para filtrar y s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Cómo editar expresiones en Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Domine el editor de expresiones para definir manualmente las reglas de consulta 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Creación de consultas de resegmentación en Adobe Journey Optimizer
 

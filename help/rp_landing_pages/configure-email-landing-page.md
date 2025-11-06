@@ -6,7 +6,7 @@ description: Configuración de canal de correo electrónico
 redpen-status: CREATED_||_2025-08-11_20-34-10
 exl-id: c9377c3c-d716-4fae-adc8-458cbe7213dd
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La configuración del canal de correo electrónico en Adobe Journey Optimizer es
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a la configuración de correo electrónico
 
@@ -30,7 +30,7 @@ Conozca los pasos esenciales para configurar las funciones de correo electrónic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definir la configuración de correo electrónico
 
@@ -40,7 +40,7 @@ Realice la configuración del correo electrónico para la entregabilidad, el cum
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Habilitar y configurar la cancelación de suscripción a la lista
 
@@ -50,7 +50,7 @@ Obtenga información sobre cómo habilitar la función “Cancelar la suscripci�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar parámetros de encabezado de correo electrónico
 
@@ -60,7 +60,7 @@ Personalice las direcciones de correo electrónico del remitente y la respuesta,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Configurar el seguimiento de URL para el canal de correo electrónico
 
@@ -70,7 +70,7 @@ Configure los parámetros de seguimiento de URL para medir la eficacia de las ca
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Ajustes de configuración de correo electrónico personalizados
 

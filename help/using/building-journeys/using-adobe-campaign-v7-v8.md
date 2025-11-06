@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Acciones de Adobe Campaign v7/v8
+title: Acciones en las versiones 7 y 8 de Adobe Campaign
 description: Obtenga información acerca de las acciones de las versiones 7 y 8 de Adobe Campaign
 feature: Journeys, Actions, Custom Actions
 topic: Administration
@@ -17,7 +17,7 @@ ht-degree: 31%
 
 ---
 
-# Acciones de Adobe Campaign v7/v8 {#using_campaign_v7-v8}
+# Acciones en las versiones 7 y 8 de Adobe Campaign {#using_campaign_v7-v8}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"

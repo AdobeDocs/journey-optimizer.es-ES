@@ -101,7 +101,7 @@ Los tiempos de envío de exploración se seleccionan al azar entre los tiempos d
 
 A continuación encontrará las preguntas más frecuentes sobre la optimización del tiempo de envío.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++¿Cuánto tiempo debo esperar antes de utilizar la optimización del tiempo de envío?
 

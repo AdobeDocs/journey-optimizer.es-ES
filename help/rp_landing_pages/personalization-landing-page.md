@@ -6,7 +6,7 @@ description: Personalización
 redpen-status: CREATED_||_2025-08-12_00-36-08
 exl-id: dadda702-fc45-46c6-91c5-2887ff732a95
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La personalización en Adobe Journey Optimizer le permite crear experiencias de 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a la personalización
 
@@ -30,7 +30,7 @@ Aprenda los conceptos básicos de la personalización en Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Añadir y validar la personalización
 
@@ -40,7 +40,7 @@ Domine el editor de personalización para crear contenido personalizado para cor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Información sobre la sintaxis de personalización
 
@@ -50,7 +50,7 @@ Profundice en las reglas y ejemplos de la sintaxis de personalización basada en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Reutilizar fragmentos de expresiones
 
@@ -60,7 +60,7 @@ Aproveche los fragmentos de expresiones reutilizables para una personalización 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Uso de datos de Adobe Experience Platform para la personalización (Beta)
 
@@ -70,7 +70,7 @@ Aprenda a utilizar los conjuntos de datos de AEP con la función de ayuda &#39;d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Guía de referencia de las funciones de ayuda
 

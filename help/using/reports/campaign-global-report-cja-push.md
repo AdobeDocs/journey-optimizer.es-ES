@@ -11,7 +11,7 @@ exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ Puede acceder a su informe de campaña de notificaciones push haciendo clic en e
 
 >[!ENDSHADEBOX]
 
-## Estadísticas de envío {#sending-statistics-push}
+## Envío de estadísticas {#sending-statistics-push}
 
 ![](assets/cja-campaign-push-sending-stat.png)
 

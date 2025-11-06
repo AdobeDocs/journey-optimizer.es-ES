@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuración, configurar, mensajes, canal, zona protegida, optimizador
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 43%
+source-wordcount: '397'
+ht-degree: 34%
 
 ---
 
@@ -73,3 +73,12 @@ Para poder enviar mensajes, debe seguir los pasos de configuración que se enume
    * Configure **reglas comerciales** para evitar saturar a los destinatarios. [Más información](../conflict-prioritization/rule-sets.md)
 
    * Determine la dirección de correo electrónico o el número de teléfono que se utilizará con prioridad para los destinatarios cuando haya varias direcciones o números disponibles en Adobe Experience Platform. [Más información](primary-email-addresses.md)
+
+## Recursos adicionales
+
+* **[Configurar superficies de canal](channel-surfaces.md)**: aprenda a configurar y administrar superficies de canal para correo electrónico, push, SMS y otros canales.
+* **[Delegación de subdominios](delegate-subdomain.md)**: aprenda a delegar subdominios a Adobe para la entrega de correo electrónico y la promoción de la marca.
+* **[Calentamiento de IP](ip-warmup-gs.md)**: descubra las prácticas recomendadas para el Calentamiento de direcciones IP a fin de mejorar la capacidad de envío de correo electrónico y la reputación del remitente.
+* **[Administrar lista de supresión](manage-suppression-list.md)**: aprenda a administrar listas de supresión para gestionar devoluciones y mantener la higiene de las listas.
+* **[Configurar aplicaciones móviles](set-mobile-config.md)** - Configurar configuraciones de aplicaciones móviles para notificaciones push y mensajería en la aplicación.
+* **[Tutoriales de configuración](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}**: explora tutoriales de vídeo paso a paso sobre la configuración del canal y las prácticas recomendadas.

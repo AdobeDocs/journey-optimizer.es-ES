@@ -6,7 +6,7 @@ description: Diseño del contenido
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ El diseño del contenido en Adobe Journey Optimizer consiste en crear experienci
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Usar componentes de contenido
 
@@ -30,7 +30,7 @@ Aprenda a añadir y personalizar componentes como texto, botones, imágenes y mu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 Aprovechar los fragmentos visuales
 
@@ -40,7 +40,7 @@ Descubra cómo crear fragmentos reutilizables para optimizar el diseño del corr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Añadir vínculos y realizar el seguimiento de mensajes
 
@@ -50,7 +50,7 @@ Habilite el seguimiento, inserte vínculos y administre el aspecto de los víncu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Insertar ofertas personalizadas
 
@@ -60,7 +60,7 @@ Utilice la gestión de decisiones para mostrar dinámicamente ofertas personaliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 Generar la versión de texto
 
@@ -70,7 +70,7 @@ Cree y personalice la versión de texto sin formato del correo electrónico para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Añadir metadatos
 

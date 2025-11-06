@@ -28,7 +28,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->Para crear directivas de aprobación, debe tener privilegios de administrador de sistemas o productos en Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home)
+>Para crear directivas de aprobación, debe tener privilegios de administrador de sistemas o productos en Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 Las políticas de aprobación permiten a los administradores establecer un proceso de validación para recorridos y campañas. Este sistema describe condiciones específicas que determinan si un recorrido o una campaña requiere aprobación. Estas políticas pueden variar en complejidad, desde requerir que todas las campañas sean revisadas por un usuario o equipo en particular, hasta establecer criterios basados en quién creó la campaña.
 
@@ -84,14 +84,14 @@ Para definir las condiciones asociadas a una política de aprobación, siga esto
       <td>Programado (Marketing)</td>
     </tr>
     <tr>
-    <td>Activado por API (Marketing)</td>
+    <td>Activado por API (marketing)</td>
     </tr>
     <tr>
     <td>Activado por API (transaccional)</td>
     </tr>
     <tr>
     <td rowspan="8">Acción</td>
-    <td>En la aplicación</td>
+    <td>in-app</td>
     </tr>
     <tr>
     <td>Notificación push</td>

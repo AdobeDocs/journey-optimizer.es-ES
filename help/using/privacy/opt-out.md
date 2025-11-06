@@ -11,7 +11,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -55,7 +55,7 @@ Aprenda a administrar la exclusión en los mensajes de correo electrónico y SMS
 
 >[!NOTE]
 >
->En [!DNL Journey Optimizer], el consentimiento se administra mediante el esquema de consentimiento [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"}. De forma predeterminada, el valor del campo de consentimiento está vacío y se trata como consentimiento para recibir sus comunicaciones. Puede modificar este valor predeterminado al incorporar uno de los posibles valores enumerados [aquí](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=es#choice-values){target="_blank"}, o usar [directivas de consentimiento](../action/consent.md) para anular la lógica predeterminada.
+>En [!DNL Journey Optimizer], el consentimiento se gestiona mediante el [Esquema de consentimiento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"} de Experience Platform. De forma predeterminada, el valor del campo de consentimiento está vacío y se trata como consentimiento para recibir sus comunicaciones. Puede modificar este valor predeterminado al incorporar uno de los posibles valores enumerados [aquí](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=es#choice-values){target="_blank"}, o usar [directivas de consentimiento](../action/consent.md) para anular la lógica predeterminada.
 
 ## Implementación del consentimiento de personalización {#opt-out-personalization}
 
@@ -99,7 +99,7 @@ Si un usuario:
 
 El [editor de personalización](../personalization/personalization-build-expressions.md) propiamente dicho no realiza las comprobaciones de consentimiento ni su cumplimiento, ya que no participa en el envío de mensajes.
 
-Sin embargo, el uso de etiquetas de control de acceso basadas en los derechos permite restringir qué campos se pueden utilizar para la personalización. La [previsualización del mensaje](../content-management/preview.md) y [el servicio de procesamiento de correo electrónico](../content-management/rendering.md) enmascararán los campos identificados con información confidencial.
+Sin embargo, el uso de etiquetas de control de acceso basadas en los derechos permite restringir qué campos se pueden utilizar para la personalización. La [previsualización del mensaje](../content-management/preview.md) y [el servicio de representación de correo electrónico](../content-management/rendering.md) enmascararán los campos identificados con información confidencial.
 
 >[!NOTE]
 >

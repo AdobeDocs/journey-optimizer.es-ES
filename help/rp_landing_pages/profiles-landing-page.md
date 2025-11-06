@@ -6,7 +6,7 @@ description: Perfiles
 redpen-status: CREATED_||_2025-08-11_20-46-38
 exl-id: 9fc17481-1983-4462-b904-4b24d69c797d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Los perfiles de Adobe Journey Optimizer le permiten crear vistas unificadas de c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a los perfiles
 
@@ -30,7 +30,7 @@ Aprenda a crear, administrar y utilizar perfiles en Adobe Journey Optimizer para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Cómo crear perfiles de prueba
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso sobre la creación de perfiles de prueba para pruebas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Trabajar con atributos calculados
 

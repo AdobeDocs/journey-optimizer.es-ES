@@ -34,7 +34,7 @@ A continuación se muestran algunas funciones adicionales:
 
 * Flujo de trabajo de cuatro pasos e interfaz de usuario sencillos.
 * Proporciona una configuración básica para empezar a recopilar datos de eventos móviles mediante [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} en minutos.
-* Capacidad para probar y validar un evento push móvil básico con [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=es){target="_blank"}.
+* Capacidad para probar y validar un evento push móvil básico con [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 * Crea y configura automáticamente todos los recursos de recopilación de datos y Journey Optimizer necesarios.
 * En la guía del producto y la información sobre herramientas.
 * Proporciona una transición natural para una implementación más avanzada si es necesario.
@@ -63,7 +63,7 @@ Revise y compruebe la implementación para validarla. Puede enviar una notificac
 ![](assets/mobile-wf-valid.png)
 
 
-## Revisión {#review-mobile-wf}
+## Revisar {#review-mobile-wf}
 
 La configuración automatizada ha finalizado. Ahora puede visitar la propiedad móvil de la etiqueta, configurar las reglas o el elemento de datos y empezar a enviar notificaciones push con Adobe Journey Optimizer.
 

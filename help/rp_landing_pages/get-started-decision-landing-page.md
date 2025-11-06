@@ -6,7 +6,7 @@ description: Introducción a la gestión de decisiones
 redpen-status: CREATED_||_2025-08-11_20-58-31
 exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La gestión de decisiones de Adobe Journey Optimizer permite a los expertos en m
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introducción a la gestión de decisiones
 
@@ -30,7 +30,7 @@ Obtenga información sobre la gestión de decisiones en Adobe Journey Optimizer,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Mecanismos de protección y limitaciones de la gestión de decisiones
 
@@ -40,7 +40,7 @@ Conozca las restricciones operativas y los umbrales de rendimiento de la gestió
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Guía de interfaz de usuario de la biblioteca de ofertas
 
@@ -50,7 +50,7 @@ Explore la interfaz y las funcionalidades de la biblioteca de ofertas para crear
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Pasos clave para crear y administrar ofertas
 
@@ -60,7 +60,7 @@ Siga una guía paso a paso para crear, administrar y configurar ofertas y decisi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Uso de los públicos de carga personalizados para la toma de decisiones
 
@@ -70,7 +70,7 @@ Descubra cómo perfeccionar los criterios de idoneidad y personalizar las oferta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Usar ofertas personalizadas en un correo electrónico
 

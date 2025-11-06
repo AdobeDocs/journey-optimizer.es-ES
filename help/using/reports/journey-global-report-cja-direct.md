@@ -11,7 +11,7 @@ exl-id: 6fae8beb-ca40-40a1-8939-c309fbf46c4f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ Puede acceder a su informe de recorrido de correo postal haciendo clic en el bot
 
 >[!ENDSHADEBOX]
 
-## Estadísticas de envío {#sending-statistics-directmail}
+## Envío de estadísticas {#sending-statistics-directmail}
 
 ![](assets/cja-direct-sending-stat.png)
 
@@ -69,7 +69,7 @@ La tabla **[!UICONTROL Motivos del error]** le permite identificar los errores e
 
 ## Motivos excluidos {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 La tabla **[!UICONTROL Razones de exclusión]** muestra visualmente los diversos factores que llevaron a la exclusión de perfiles de usuarios de la audiencia de destino, lo que les impidió recibir sus mensajes de correo postal.
 

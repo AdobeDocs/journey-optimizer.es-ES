@@ -38,7 +38,7 @@ Journey Optimizer proporciona dos experiencias para probar el contenido:
 
 * **Prueba de contenido usando datos de perfiles de prueba**
 
-  Puede utilizar perfiles de prueba para previsualizar el contenido, enviar pruebas de correo electrónico y comprobar el renderizado de correo electrónico. Si ha añadido campos personalizados, puede comprobar ahora cómo se muestran utilizando datos de perfil de prueba. Para obtener más información, consulte estas secciones:
+  Puede utilizar perfiles de prueba para previsualizar el contenido, enviar pruebas de correo electrónico y comprobar la representación de correo electrónico. Si ha añadido campos personalizados, puede comprobar ahora cómo se muestran utilizando datos de perfil de prueba. Para obtener más información, consulte estas secciones:
 
   ➡️ [Seleccionar perfiles de prueba](test-profiles.md)
 ➡️ [Vista previa usando perfiles de prueba](preview.md)
@@ -66,6 +66,6 @@ Journey Optimizer proporciona dos experiencias para probar el contenido:
 
 ## Vídeo práctico {#video-preview}
 
-Aprenda a utilizar perfiles de prueba para probar el renderizado de correos electrónicos en varias bandejas de entrada, previsualizar los correos electrónicos personalizados con perfiles de prueba y enviar pruebas.
+Aprenda a utilizar perfiles de prueba para probar la representación de correo electrónico en varias bandejas de entrada, previsualizar los correos electrónicos personalizados con perfiles de prueba y enviar pruebas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430335?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

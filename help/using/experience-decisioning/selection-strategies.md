@@ -87,7 +87,7 @@ Para crear una estrategia de selección, siga los pasos a continuación.
 >id="ajo_exd_strategy_ranking"
 >title="Definición de cómo clasificar ofertas"
 >abstract="Si se pueden seleccionar varias ofertas para una estrategia de selección determinada, elija el método que seleccionará la mejor oferta para cada perfil a la hora de crear una estrategia de selección: fórmula de prioridad o clasificación."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html?lang=es" text="Creación de políticas de decisión"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="Creación de políticas de decisión"
 
 Si se pueden seleccionar varias ofertas para una estrategia de selección determinada, se puede elegir el método que seleccione la mejor oferta para cada perfil al crear una estrategia de selección. Puede clasificar ofertas por:
 

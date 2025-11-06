@@ -70,4 +70,4 @@ Tenga en cuenta que para que el contenido se sincronice con la zona protegida co
 
 Comprenda qué son las zonas protegidas y cómo distinguir entre las zonas protegidas de desarrollo y producción. Obtenga información sobre cómo crear, restablecer y eliminar zonas protegidas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416653?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

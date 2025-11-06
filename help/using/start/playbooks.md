@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ Se requieren los siguientes pasos de configuración para trabajar con los manual
 * Configuración de permisos de usuario
 * Ajuste de las configuraciones de canal de Journey Optimizer para notificaciones por correo electrónico, push y SMS
 
-## Acceso y activación de un manual de tácticas {#access}
+## Acceso y habilitación de un manual de tácticas {#access}
 
 Para acceder a los manuales de tácticas, vaya a **[!UICONTROL Manuales de tácticas]** situados en el carril de navegación izquierdo. La biblioteca incluye varios manuales de tácticas que se implementan con Adobe Journey Optimizer. Para acceder a ellos fácilmente, utilice los filtros disponibles junto a la barra de búsqueda. Una lista completa de los manuales de tácticas de Journey Optimizer está disponible en la [Documentación de manuales de tácticas de casos de uso](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"}.
 
@@ -61,4 +61,4 @@ Además de aprovechar los manuales de tácticas predefinidos, puede crear y comp
 
 Puede definir metadatos mediante la asistencia de IA o entradas manuales, asociar activos técnicos como esquemas, segmentos y compartir manuales de tácticas entre diferentes organizaciones de IMS.
 
-Para obtener más información sobre cómo crear y compartir manuales de tácticas, consulte la documentación de libros de reproducción de casos de uso: [Cree y comparta sus propios manuales de tácticas con el Asistente de IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=es#sharing-playbooks-sandboxes){target="_blank"}.
+Para obtener más información sobre cómo crear y compartir manuales de tácticas, consulte la documentación de libros de reproducción de casos de uso: [Cree y comparta sus propios manuales de tácticas con el Asistente de IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html#sharing-playbooks-sandboxes){target="_blank"}.

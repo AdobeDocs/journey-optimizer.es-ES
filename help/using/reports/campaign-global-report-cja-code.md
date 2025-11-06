@@ -97,11 +97,11 @@ Los KPI de **toma de decisiones** proporcionan información clave sobre la parti
 
 * **[!UICONTROL Tasa de reserva]**: porcentaje de instancias en las que no se calificó ninguna estrategia de selección, lo que da como resultado la visualización de una opción genérica o menos específica.
 
-### Canal de participación {#engagement-funnel}
+### Funnel de participación {#engagement-funnel}
 
 ![](assets/cja-engagement-funnel.png)
 
-La tabla **[!UICONTROL Canal de participación]** supervisa el rendimiento de las experiencias personalizadas mediante la evaluación de la eficacia con que cada fase del canal impulsa las interacciones del usuario.
+La tabla **[!UICONTROL Funnel de participación]** supervisa el rendimiento de las experiencias personalizadas mediante la evaluación de la eficacia con que cada fase de funnel impulsa las interacciones del usuario.
 
 * **[!UICONTROL Pantallas]**: número total de veces que se mostraron o presentaron experiencias personalizadas a los usuarios en varios puntos de contacto.
 
@@ -115,11 +115,11 @@ La tabla **[!UICONTROL Elementos de decisión principales por CTR]** resalta el 
 
 * **[!UICONTROL Tasa de clics (CTR)]**: porcentaje de usuarios que hacen clic en un vínculo, un anuncio o una recomendación en comparación con el número de veces que se mostraron.
 
-### Canal de participación por estrategia de selección {#engagement-funnel-selection}
+### Participación de funnel por estrategia de selección {#engagement-funnel-selection}
 
 ![](assets/cja-engagement-funnel-selection.png)
 
-La tabla **[!UICONTROL Embudo de participación por estrategia de selección]** le ayuda a supervisar y analizar la eficacia con que las distintas estrategias de selección atraen a usuarios con experiencias personalizadas.
+La tabla **[!UICONTROL Funnel de participación por estrategia de selección]** le ayuda a supervisar y analizar la eficacia con que las distintas estrategias de selección atraen a usuarios con experiencias personalizadas.
 
 * **[!UICONTROL Pantallas]**: número total de veces que se mostraron o presentaron experiencias personalizadas a los usuarios en varios puntos de contacto.
 

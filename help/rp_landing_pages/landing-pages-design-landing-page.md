@@ -6,7 +6,7 @@ description: Contenido de diseño
 redpen-status: CREATED_||_2025-08-12_00-36-39
 exl-id: 19ce7788-af7e-4949-a51f-eddc4ece2898
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ El diseño del contenido en Adobe Journey Optimizer le permite crear páginas de
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Diseño de una página de aterrizaje en Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear páginas de aterrizaje desde cero, utiliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Crear y personalizar el contenido de la página de aterrizaje
 
@@ -40,7 +40,7 @@ Añada componentes como formularios, personalice sus estilos y utilice datos con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Trabajar con plantillas de la página de aterrizaje
 
@@ -50,7 +50,7 @@ Guarde las páginas de aterrizaje como plantillas y vuelva a utilizarlas para op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso de JavaScript personalizado en las páginas de aterrizaje
 

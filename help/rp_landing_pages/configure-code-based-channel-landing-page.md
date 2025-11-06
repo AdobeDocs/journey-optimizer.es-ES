@@ -6,7 +6,7 @@ description: Configuración del canal basado en código
 redpen-status: CREATED_||_2025-08-11_20-41-39
 exl-id: e77acb57-66a5-49cc-b98b-84886d6736e3
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La sección Configuración de canal basado en código de Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Requisitos previos de la experiencia basada en código
 
@@ -30,7 +30,7 @@ Obtenga información sobre los requisitos previos para utilizar experiencias bas
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Superficies de la experiencia basada en código
 
@@ -40,7 +40,7 @@ Conozca las superficies y sus identificadores, composición y uso en experiencia
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Muestras de métodos de implementación
 
@@ -50,7 +50,7 @@ Obtenga instrucciones paso a paso para implementar experiencias basadas en códi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Toma de decisiones en las implementaciones de experiencias basadas en código
 
@@ -60,7 +60,7 @@ Obtenga información sobre cómo configurar la deduplicación y administrar las 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Crear una configuración de experiencia basada en código
 

@@ -6,7 +6,7 @@ description: Configuración del canal de tarjetas de contenido
 redpen-status: CREATED_||_2025-08-11_20-43-03
 exl-id: 430e1c63-0f82-4515-9cc2-2e1346742da5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La sección “Configuración del canal de tarjetas de contenido” de Adobe Jou
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Requisitos previos para la configuración del canal de tarjetas de contenido
 
@@ -30,7 +30,7 @@ Conozca las configuraciones y los ajustes necesarios para habilitar el canal de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Configuración del canal de tarjetas de contenido en Journey Optimizer
 
@@ -40,7 +40,7 @@ Siga las instrucciones paso a paso para definir las superficies de URI y crear c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Configuración de la compatibilidad con tarjetas de contenido en el SDK móvil
 
@@ -50,7 +50,7 @@ Habilite y personalice tarjetas de contenido en aplicaciones móviles mediante l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Configurar la compatibilidad con tarjetas de contenido en el SDK web
 

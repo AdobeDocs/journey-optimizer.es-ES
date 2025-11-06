@@ -68,7 +68,7 @@ Una vez enviado, puede medir el impacto de los mensajes en la aplicación dentro
 
 **Temas relacionados:**
 
-* [Creación de un mensaje en la aplicación &#x200B;](create-in-app.md)
+* [Creación de un mensaje en la aplicación ](create-in-app.md)
 * [Diseño de un mensaje en la aplicación](design-in-app.md)
 * [Informe en la aplicación](../reports/campaign-global-report-cja-inapp.md)
 * [Configuración en la aplicación](inapp-configuration.md)

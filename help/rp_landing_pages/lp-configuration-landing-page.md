@@ -6,7 +6,7 @@ description: Configurar páginas de aterrizaje
 redpen-status: CREATED_||_2025-08-12_00-37-08
 exl-id: 599d9f7b-3e41-4926-95b6-f5f58255d91d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La configuración de páginas de aterrizaje en Adobe Journey Optimizer le permit
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar subdominios de páginas de aterrizaje
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo configurar, administrar y anular la delegación
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definir ajustes preestablecidos de páginas de aterrizaje
 

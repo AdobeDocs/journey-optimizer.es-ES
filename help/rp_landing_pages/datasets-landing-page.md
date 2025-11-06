@@ -6,7 +6,7 @@ description: Conjuntos de datos de Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-06-02
 exl-id: 0e750496-fad5-44bc-a38d-014a0f7f82dc
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Los conjuntos de datos de Adobe Journey Optimizer son la base sobre la que se su
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Uso y administración de conjuntos de datos en Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo acceder, crear, administrar y gobernar conjunto
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Mecanismos de protección de tiempo de vida (TTL) de conjuntos de datos
 
@@ -40,7 +40,7 @@ Conozca los mecanismos de protección TTL aplicados a los conjuntos de datos gen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Exportar conjuntos de datos de Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Obtenga información sobre cómo exportar conjuntos de datos a destinos de almac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer: ejemplos de consultas de conjuntos de datos
 

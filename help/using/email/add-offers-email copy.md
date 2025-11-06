@@ -12,7 +12,7 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -103,4 +103,4 @@ Obtenga más información acerca de los pasos detallados para comprobar la vista
 
 Aprenda a agregar un componente de administración de decisiones a los mensajes de [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3415687?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

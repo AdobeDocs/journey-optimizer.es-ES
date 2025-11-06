@@ -6,7 +6,7 @@ description: Funciones de decisión
 redpen-status: CREATED_||_2025-08-11_21-05-27
 exl-id: 07bdd927-059d-4000-a4dd-a9e455b26976
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Las funciones de decisión de Journey Optimizer le permiten enviar las mejores o
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introducción a las funciones de decisión
 
@@ -30,7 +30,7 @@ Obtenga información sobre las herramientas y funciones de Adobe Journey Optimiz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Toma de decisiones en Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Explore cómo crear, administrar y optimizar el envío de contenido personalizad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestión de decisiones en Adobe Journey Optimizer
 

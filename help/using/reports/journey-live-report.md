@@ -30,11 +30,11 @@ Acceda al informe de Recorrido en directo desde el menú [!UICONTROL Recorridos]
 
 La página del recorrido **[!UICONTROL Informe en vivo]** se mostrará con las siguientes pestañas:
 
-* [&#x200B; Recorrido &#x200B;](#journey-live)
+* [ Recorrido ](#journey-live)
 * [Correo electrónico](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
-* [En la aplicación](#in-app-live)
+* [in-app](#in-app-live)
 
 El recorrido **[!UICONTROL Informe en vivo]** está dividido en diferentes widgets que detallan el éxito y los errores de su recorrido. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte esta [sección](live-report.md#modify-dashboard).
 

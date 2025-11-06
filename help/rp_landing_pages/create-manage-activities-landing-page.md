@@ -6,7 +6,7 @@ description: Crear y gestionar decisiones
 redpen-status: CREATED_||_2025-08-11_21-01-28
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ En Adobe Journey Optimizer, la creación y administración de decisiones le perm
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Crear decisiones en Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Aprenda a crear decisiones, definir ámbitos, establecer ofertas de reserva y ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar métodos de selección de ofertas
 
@@ -40,7 +40,7 @@ Explore cómo configurar métodos de clasificación de decisiones, entre ellos l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Simular decisiones de oferta
 

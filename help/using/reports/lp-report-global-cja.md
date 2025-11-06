@@ -23,7 +23,7 @@ Para acceder a tus informes, selecciona **[!UICONTROL Informe]** en el menú ava
 
 ![](assets/cja-lp.png)
 
-Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Tasa de conversión de página de aterrizaje {#lp-conversion}
 
@@ -67,7 +67,7 @@ El gráfico **[!UICONTROL Rendimiento de la página de aterrizaje con el paso de
 
 * **[!UICONTROL Conversión de página de aterrizaje]**: Número de personas que interactuaron con la página de aterrizaje (por ejemplo, se suscribieron a un formulario) en relación con el número total de visitas.
 
-## Rendimiento de la página de aterrizaje {#lp-performance}
+## Rendimiento de página de aterrizaje {#lp-performance}
 
 ![](assets/cja-lp-performance.png)
 
@@ -109,7 +109,7 @@ La tabla **[!UICONTROL Canal]** muestra el número de visitas a su página de at
 
 * **[!UICONTROL Conversión de página de aterrizaje]**: Número de personas que interactuaron con la página de aterrizaje, por ejemplo: suscritas a un formulario.
 
-## Vínculos más cliqueados {#lp-top-clicked}
+## Principales vínculos en los que se hizo clic {#lp-top-clicked}
 
 La tabla **[!UICONTROL Principales vínculos en los que se hizo clic]** proporciona información sobre cómo los visitantes interactúan con el envío, destacando qué vínculos reciben la mayor participación y atención de su audiencia.
 

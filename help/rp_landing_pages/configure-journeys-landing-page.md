@@ -6,7 +6,7 @@ description: Configuración de recorrido
 redpen-status: CREATED_||_2025-08-11_21-12-10
 exl-id: 9184a695-be6a-44af-b04a-124243c5aa64
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La configuración de recorrido de Adobe Journey Optimizer le permite crear exper
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a la configuración de recorridos
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo configurar fuentes de datos, eventos y acciones
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configuración de eventos en Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Explore cómo configurar y administrar eventos que activan recorridos, incluidos
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuración de fuentes de datos en Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Conozca y administre las fuentes de datos, incluidos los tipos preconfigurados y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Configuración y uso de acciones personalizadas
 

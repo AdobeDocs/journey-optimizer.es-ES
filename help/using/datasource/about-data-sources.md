@@ -49,11 +49,11 @@ Para cada fuente de datos, se define la información que se recuperará mediante
 >
 >Las relaciones de esquema no son compatibles con las fuentes de datos.
 
-Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar los datos en un recorrido, vea este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=es){target="_blank"}.
+Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar los datos en un recorrido, vea este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Vídeo práctico {#video}
 
 Comprenda qué es una fuente de datos y aprenda a configurar fuentes de datos de Experience Platform y externas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416633?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

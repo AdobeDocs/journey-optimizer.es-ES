@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!INFO]
 >
 >Desde que Apple introdujo nuevas funciones de protección de la privacidad para su aplicación de correo nativa, incluida la protección de privacidad de correo, los remitentes ya no pueden utilizar píxeles de seguimiento para recopilar datos en perfiles que hayan habilitado la protección de privacidad de correo de Apple. Por lo tanto, la capacidad de Adobe Journey Optimizer para rastrear las aperturas de correo electrónico mediante los píxeles de seguimiento puede verse afectada.
->&#x200B;> [Más información](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=es) sobre el impacto de los cambios de privacidad de Apple iOS en el marketing por correo electrónico.
+> [Más información](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) sobre el impacto de los cambios de privacidad de Apple iOS en el marketing por correo electrónico.
 > 
 > Recomendamos centrarse en los clics y las métricas de conversión en lugar de en las tasas de apertura para obtener perspectivas más precisas.
 
@@ -64,13 +64,13 @@ Los indicadores clave de rendimiento (KPI) **[!UICONTROL Correo electrónico]** 
 +++
 
 
-## Canal de clic único
+## Clic único en funnel
 
 ![](assets/cja-email-click-funnel.png)
 
-El gráfico de **[!UICONTROL Clic en canal]** presenta un análisis detallado de cómo los perfiles interactúan con el contenido del correo electrónico, lo que ofrece información valiosa sobre cada fase de interacción, desde la entrega hasta los clics, lo que le ayuda a comprender la eficacia con que sus mensajes impulsan la participación del usuario.
+El gráfico de **[!UICONTROL Click funnel]** presenta un análisis detallado de cómo los perfiles interactúan con el contenido del correo electrónico, lo que ofrece información valiosa sobre cada fase de la interacción, desde la entrega hasta los clics, lo que le ayuda a comprender la eficacia con que sus mensajes impulsan la participación del usuario.
 
-+++ Más información sobre las Métricas de canal de clics
++++ Más información acerca de las métricas de Click funnel
 
 * **[!UICONTROL Únicos segmentados]**: Número de perfiles únicos segmentados durante el proceso de envío.
 
@@ -162,7 +162,7 @@ La tabla **[!UICONTROL Estadísticas de seguimiento únicas]** proporciona una v
 
 +++
 
-## Estadísticas de envío {#sending-statistics-email}
+## Envío de estadísticas {#sending-statistics-email}
 
 ![](assets/cja-email-sending-stat.png)
 

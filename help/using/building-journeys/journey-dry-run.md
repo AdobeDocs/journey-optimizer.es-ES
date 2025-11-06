@@ -122,7 +122,7 @@ Los vínculos a las últimas 24 horas y todos los informes de tiempo están disp
 1. Haga clic en **Volver al borrador** para confirmar.
 
 
-## Protecciones y limitaciones {#journey-dry-run-limitations}
+## Mecanismos de protección y limitaciones {#journey-dry-run-limitations}
 
 * Los perfiles en el modo de ejecución en seco se contabilizan como perfiles atractivos
 * Los recorridos en el modo de ejecución en seco se cuentan hacia la cuota de recorrido en directo
@@ -149,4 +149,4 @@ Al analizar **métricas de informes de recorrido** mediante el servicio Adobe Ex
 
 Aprenda a secar los recorridos en este vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464685/?learn=on&enablevpops&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

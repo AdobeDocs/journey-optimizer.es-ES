@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '561'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 90%
 
 ---
 
@@ -83,3 +83,10 @@ El proceso de aprobación global es el siguiente:
 Puede monitorizar todas las solicitudes de aprobación y cambio que se han enviado para un recorrido o campaña determinados. Para ello, haga clic en el icono **[!UICONTROL Mostrar pista de auditoría]** ubicado en la sección superior derecha del lienzo del recorrido o en la pantalla de revisión de la campaña.
 
 ![](assets/monitor-requests.png)
+
+## Recursos adicionales
+
+* **[Crear directivas de aprobación](approval-policies.md)**: aprenda a configurar directivas de aprobación para aplicar flujos de trabajo de revisión para campañas y recorridos.
+* **[Solicitar aprobación](request-approval.md)** - Entender cómo enviar contenido para su aprobación y rastrear el estado de aprobación.
+* **[Revisar y aprobar solicitudes](review-approve-request.md)** - Descubra cómo revisar, aprobar o rechazar solicitudes de aprobación como aprobador.
+* **[Simular con entradas de ejemplo](simulate-sample-input.md)**: aprenda a probar y validar contenido mediante datos de perfil de muestra.

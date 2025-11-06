@@ -35,7 +35,7 @@ Se necesita una configuración de desarrollador única para definir las vistas e
 
 Las vistas XDM se pueden aprovechar en Adobe [!DNL Journey Optimizer] para que los especialistas en marketing puedan ejecutar campañas de personalización y experimentación web en SPA a través del editor visual web. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=es){target="_blank"}
 
-Para poder tener acceso y crear vistas en la interfaz de usuario de [!DNL Journey Optimizer], asegúrese de seguir los pasos que se indican en [esta sección](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=es#implement-xdm-views){target="_blank"}.
+Para poder tener acceso y crear vistas en la interfaz de usuario de [!DNL Journey Optimizer], asegúrese de seguir los pasos que se indican en [esta sección](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## Descubra vistas en el diseñador web {#discover-views}
 
@@ -90,4 +90,4 @@ En este vídeo se explica cómo:
 * Aplicar modificaciones del sitio web a varias vistas o a todas las vistas descubiertas
 * Realizar acciones masivas en las modificaciones
 
->[!VIDEO](https://video.tv.adobe.com/v/3446888/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

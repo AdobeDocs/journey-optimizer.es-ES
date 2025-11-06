@@ -6,7 +6,7 @@ description: Creación de públicos
 redpen-status: CREATED_||_2025-08-11_20-45-40
 exl-id: d6d73fe7-4442-474b-8d2d-49e280c01a9e
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La creación de públicos en Adobe Journey Optimizer le permite definir, adminis
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Generar definiciones de segmentos en Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo definir segmentos de público, incluyendo instr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Introducción a la composición de público
 
@@ -40,7 +40,7 @@ Descubra cómo crear flujos de trabajo que combinen, enriquezcan y administren p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
 
 Cómo importar públicos mediante la carga personalizada de CSV
 
@@ -50,7 +50,7 @@ Descubra cómo importar públicos a través de archivos CSV y asignar atributos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Composición de público federado
 

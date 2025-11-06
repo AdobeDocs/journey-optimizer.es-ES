@@ -6,7 +6,7 @@ description: Implementar un plan de calentamiento de IP
 redpen-status: CREATED_||_2025-08-11_21-08-31
 exl-id: 6f34e9c9-05ae-4a9c-b099-9a7ddf68a412
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La implementación de un plan de calentamiento de IP en Adobe Journey Optimizer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introducción a los planes de calentamiento de IP
 
@@ -30,7 +30,7 @@ Conozca el propósito, las ventajas y los pasos de los planes de calentamiento d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Crear campañas de calentamiento de IP
 
@@ -40,7 +40,7 @@ Siga las instrucciones paso a paso para diseñar y activar campañas para su pla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Cómo crear y administrar un plan de calentamiento de IP
 
@@ -50,7 +50,7 @@ Descubra cómo crear, configurar y administrar su plan de calentamiento de IP, i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Ejecutar y administrar su plan de calentamiento de IP
 

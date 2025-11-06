@@ -6,7 +6,7 @@ description: Configuración de eventos
 redpen-status: CREATED_||_2025-08-11_21-10-50
 exl-id: 4f9f480d-8c71-4486-8074-d6fa9ed828bb
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La configuración de eventos en Adobe Journey Optimizer consiste en configurar l
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Trabajar con eventos de recorridos
 
@@ -30,7 +30,7 @@ Obtenga información sobre los eventos de recorridos, sus tipos, ciclo de vida y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Configurar un evento unitario
 
@@ -40,7 +40,7 @@ Siga una guía paso a paso para configurar eventos unitarios, incluida la defini
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Esquemas de ExperienceEvent
 
@@ -50,7 +50,7 @@ Conozca los requisitos y las configuraciones de esquema para la ingesta de event
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Integración de Adobe Analytics
 
@@ -60,7 +60,7 @@ Aprenda a integrar datos de Adobe Analytics para automatizar recorridos y crear 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configurar un evento empresarial
 
@@ -70,7 +70,7 @@ Instrucciones paso a paso para configurar eventos empresariales, incluida la def
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Enviar eventos mediante las API de streaming
 

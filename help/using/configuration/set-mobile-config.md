@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configuración de móvil y web
-description: Aprenda a configurar y monitorizar canales móviles y web
+description: Aprenda a configurar y monitorizar canales web y móviles
 feature: Channel Configuration
 topic: Administration
 role: Admin

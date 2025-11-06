@@ -36,7 +36,7 @@ Las audiencias pueden tener dos estados de participación:
 * **Realizado**: el individuo cumple los requisitos para la definición de audiencia y es un miembro activo
 * **Salido**: el usuario ha abandonado la audiencia y ya no cumple los requisitos
 
-Solo las personas con el estado **Realized** se considerarán como miembros activos de la audiencia. Cuando la función devuelve `true`, confirma que el individuo tiene estado realizado; cuando devuelve `false`, indica estado saliente. Para obtener más información sobre la evaluación de audiencias, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+Solo las personas con el estado **Realized** se considerarán como miembros activos de la audiencia. Cuando la función devuelve `true`, confirma que el individuo tiene estado realizado; cuando devuelve `false`, indica estado saliente. Para obtener más información sobre la evaluación de audiencias, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++Sintaxis
 

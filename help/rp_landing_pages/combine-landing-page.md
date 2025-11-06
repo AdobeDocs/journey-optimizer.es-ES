@@ -6,7 +6,7 @@ description: Casos de uso entre soluciones
 redpen-status: CREATED_||_2025-08-12_00-41-19
 exl-id: df3c6e57-9f76-4ce4-ad0d-c1e3c16daa8f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Los casos de uso entre soluciones de Adobe Journey Optimizer le permiten integra
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Combinar soluciones de Adobe para administrar contenido
 
@@ -30,7 +30,7 @@ Descubra cómo integrar Adobe Journey Optimizer con otras soluciones de Adobe, c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Usar Adobe Experience Manager Assets
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso sobre la integración, carga y administración de recu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
 
 Trabajar con imágenes de Adobe Stock
 
@@ -50,7 +50,7 @@ Descubra cómo obtener, adquirir una licencia y personalizar imágenes de Adobe 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
 
 Editar los recursos con Adobe Express
 
@@ -60,7 +60,7 @@ Descubra cómo cambiar el tamaño, recortar y quitar los fondos de los recursos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Trabajar con fragmentos de contenido de AEM
 
@@ -70,7 +70,7 @@ Instrucciones paso a paso para integrar fragmentos de contenido de AEM con Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Trabajar con Dynamic Media
 

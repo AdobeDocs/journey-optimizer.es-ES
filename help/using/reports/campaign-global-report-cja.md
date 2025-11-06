@@ -84,9 +84,9 @@ Tenga en cuenta que las métricas variarán en función de los canales utilizado
 
 ![](assets/cja-campaign-funnel.png)
 
-El gráfico de **[!UICONTROL resultados del embudo de Campaign]** presenta un análisis detallado de la participación de sus perfiles con sus mensajes, lo que ofrece información valiosa sobre cómo varios perfiles interactúan con su contenido.
+El gráfico de **[!UICONTROL resultados de Campaign funnel]** presenta un análisis detallado de la participación de sus perfiles con sus mensajes, lo que ofrece información valiosa sobre cómo varios perfiles interactúan con su contenido.
 
-+++ Obtenga más información sobre las métricas de resultados de embudo de Campaign
++++ Obtenga más información sobre las métricas de resultados de Campaign funnel
 
 * **[!UICONTROL Entregado]**: número de correos electrónicos enviados correctamente en relación con el número total de mensajes enviados.
 

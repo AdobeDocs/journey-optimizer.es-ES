@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Establecer horas de silencio
+title: Establecimiento de horas tranquilas
 description: Aprenda a crear y aplicar horas tranquilas
 feature: Rules
 topic: Content Management
@@ -12,12 +12,12 @@ keywords: mensaje, frecuencia, reglas, presión
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
 
-# Establecer horas de silencio {#quiet-hours}
+# Establecimiento de horas tranquilas {#quiet-hours}
 
 ## Qué son las horas tranquilas
 
@@ -34,7 +34,7 @@ Al optimizar estos procesos, puede mejorar la experiencia del cliente, ahorrar t
 
 >[!AVAILABILITY]
 >
->Actualmente, las reglas de horario silencioso solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para que se añada a la lista de espera, póngase en contacto con su representante de Adobe.
+>Ahora mismo, las horas tranquilas solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para que se añada a la lista de espera, póngase en contacto con su representante de Adobe.
 
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
@@ -187,4 +187,4 @@ Una vez que el recorrido o las campañas se hayan activado y ejecutado, puede ve
 
 Aprenda a utilizar la función de horario discreto en Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475855?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

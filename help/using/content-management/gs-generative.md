@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '919'
+ht-degree: 90%
 
 ---
 
@@ -161,3 +161,12 @@ Las siguientes limitaciones se aplican al asistente de IA en Adobe Journey Optim
 <p>
 </td>
 </tr></table>
+
+## Recursos adicionales
+
+* **[Asistente de IA para correo electrónico](generative-email.md)**: aprenda a utilizar el Asistente de IA para generar y optimizar las variaciones del contenido del correo electrónico.
+* **[Asistente de IA para notificaciones push](generative-push.md)**: descubra cómo crear contenido de notificación push atractivo con asistencia de IA.
+* **[Asistente de IA para SMS](generative-sms.md)**: genera variaciones de mensajes SMS efectivas mediante la creación de contenido con tecnología de IA.
+* **[Asistente de IA para experiencias web](generative-web.md)**: aprenda a crear y optimizar contenido web con el Asistente de IA.
+* **[Experimentación generativa](generative-experimentation.md)**: aprenda a combinar contenido generado por IA con experimentación.
+* **[Tutoriales del Asistente de IA](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: Explore tutoriales de vídeo paso a paso sobre las funciones y prácticas recomendadas del Asistente de IA.

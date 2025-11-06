@@ -5,7 +5,7 @@ title: Pasos de configuración
 description: Obtenga información sobre cómo crear un esquema basado en modelos en Adobe Experience Platform cargando un DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 80c136409821388a4baea9286b298220c91bba7a
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 46%
@@ -29,7 +29,7 @@ En esta sección se proporciona una guía paso a paso sobre cómo crear un esque
 
 1. [Introducir datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
 
-➡️ [Obtenga más información acerca de los esquemas basados en modelos en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
+➡️ [Obtenga más información acerca de los esquemas basados en modelos en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## Cargar un archivo DDL{#ddl-upload}
 

@@ -85,7 +85,7 @@ En esta sección, puede establecer las distintas configuraciones regionales para
    >
    >Estos requisitos previos solo son necesarios para los canales de tarjetas de contenido y en la aplicación.
 
-   1. En Recopilación de datos de Adobe Experience Platform, acceda al menú **[!UICONTROL Reglas]** y cree una regla nueva. Encontrará información detallada sobre cómo crear reglas en [!DNL Adobe Experience Platform] [Documentación de recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. En Recopilación de datos de Adobe Experience Platform, acceda al menú **[!UICONTROL Reglas]** y cree una regla nueva. Encontrará información detallada sobre cómo crear reglas en [!DNL Adobe Experience Platform] [Documentación de recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    2. En la sección **[!UICONTROL IF]** de la regla, agregue un evento configurado de la siguiente manera:
 

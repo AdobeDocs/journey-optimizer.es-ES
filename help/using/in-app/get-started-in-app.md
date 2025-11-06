@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 65%
 
 ---
 
@@ -56,3 +56,11 @@ Utilice Journey Optimizer para crear notificaciones en la aplicación y configur
 <p>
 </td>
 </tr></table>
+
+## Recursos adicionales
+
+* **[Crear mensajes en la aplicación](create-in-app.md)**: aprenda a crear y configurar mensajes en la aplicación para aplicaciones móviles.
+* **[Configurar canal en la aplicación](inapp-configuration.md)**: configure su canal de mensajería en la aplicación con las configuraciones adecuadas de la aplicación móvil.
+* **[Diseñar contenido en la aplicación](design-in-app.md)**: personalice diseños de mensajes en la aplicación, estilos, botones y elementos interactivos.
+* **[En la aplicación para la web](create-in-app-web.md)**: descubra cómo crear y enviar mensajes en la aplicación para aplicaciones web.
+* **[Tutoriales de canal en la aplicación](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las funciones y prácticas recomendadas de la mensajería en la aplicación.

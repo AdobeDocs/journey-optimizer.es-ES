@@ -28,7 +28,7 @@ El ejemplo siguiente define manualmente el esquema **Pertenencias de fidelizaci�
 
 1. [Introducir datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
 
-➡️ [Obtenga más información acerca de esquemas manuales basados en modelos en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Obtenga más información acerca de esquemas manuales basados en modelos en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Cree su esquema {#schema}
 
@@ -110,7 +110,7 @@ Cualquier esquema utilizado para la segmentación debe incluir al menos un campo
 
 Después de crear y guardar atributos, puede vincular el esquema con otros esquemas relacionales definiendo relaciones.
 
-➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Vincular esquemas {#link-schema}
 

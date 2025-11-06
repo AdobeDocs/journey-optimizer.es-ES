@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Publicar el recorrido
+title: Publicación del recorrido
 description: Obtenga información sobre cómo informar sobre las métricas de recorridos
 feature: Journeys
 topic: Content Management
@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ La lista de métricas varía según los [grupos de campos](https://experiencelea
 
 Si el conjunto de datos no está configurado, solo estarán disponibles las métricas siguientes: **[!UICONTROL Clic]**, **[!UICONTROL Clic único]**, **[!UICONTROL Tasa de clics]** y **[!UICONTROL Tasa de apertura]**.
 
-Tenga en cuenta que con una licencia de Customer Journey Analytics puede crear métricas de éxito personalizadas. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Tenga en cuenta que con una licencia de Customer Journey Analytics puede crear métricas de éxito personalizadas. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | Métricas | Grupo de campos relacionado |
@@ -43,9 +43,9 @@ Tenga en cuenta que con una licencia de Customer Journey Analytics puede crear m
 | Tasa de clics (CTR) | No se requiere ningún grupo de campos |
 | Tasa de apertura de clics (CTOR) | No se requiere ningún grupo de campos |
 | Page Views | Grupo de campos web |
-| Lanzamientos de la aplicación | Grupo de campos móviles |
-| Primeros lanzamientos de la aplicación | Grupo de campos móviles |
-| Instalaciones de la aplicación | Grupo de campos móviles |
+| Lanzamientos de aplicaciones | Grupo de campos móviles |
+| Primeros inicios de la aplicación | Grupo de campos móviles |
+| Instalaciones de aplicación | Grupo de campos móviles |
 | Actualizaciones de aplicaciones | Grupo de campos móviles |
 | Compras | Grupo de campos Detalles de Commerce |
 | Cierres de compra | Grupo de campos Detalles de Commerce |
@@ -54,7 +54,7 @@ Tenga en cuenta que con una licencia de Customer Journey Analytics puede crear m
 | Vistas del carro | Grupo de campos Detalles de Commerce |
 | Eliminaciones del carro | Grupo de campos Detalles de Commerce |
 | Vistas del producto | Grupo de campos Detalles de Commerce |
-| Guardados para después | Grupo de campos Detalles de Commerce |
+| Guardar para más tarde | Grupo de campos Detalles de Commerce |
 
 ## Atribución {#attribution}
 
@@ -70,7 +70,7 @@ Cada métrica viene con una atribución de conjunto que determina qué puntos de
 
   Con las licencias de Journey Optimizer y Customer Journey Analytics, puede crear métricas personalizadas con configuraciones de atribución específicas o cambiar las atribuciones de las métricas integradas.
 
-  Más información sobre [modelos de atribución](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  Más información sobre [modelos de atribución](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Asignar las métricas de recorrido {#assign}
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuración del proveedor Twilio
+title: Configuración del proveedor de Twilio
 description: Aprenda a configurar su entorno para enviar mensajes de texto con Journey Optimizer con Twilio
 feature: SMS, Channel Configuration
 role: Admin
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ---
 
-# Configuración del proveedor Twilio {#sms-configuration-twilio}
+# Configuración del proveedor de Twilio {#sms-configuration-twilio}
 
 ## Configuración de las credenciales de API para SMS/MMS
 

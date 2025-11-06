@@ -1,6 +1,6 @@
 ---
 title: Crear decisiones
-description: Aprenda a crear decisiones
+description: Más información sobre cómo crear decisiones
 badge: label="Heredado" type="Informative"
 feature: Decision Management
 topic: Integrations
@@ -10,7 +10,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
 workflow-type: tm+mt
 source-wordcount: '2549'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -405,6 +405,6 @@ Esto le permite acceder a información detallada para esa decisión. Seleccione 
 
 Obtenga información sobre cómo crear actividades de oferta en administración de decisiones.
 
->[!VIDEO](https://video.tv.adobe.com/v/346692?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

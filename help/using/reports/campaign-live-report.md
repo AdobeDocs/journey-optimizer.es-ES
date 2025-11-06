@@ -30,7 +30,7 @@ La página de la campaña **[!UICONTROL Informe en vivo]** se mostrará con las 
 
 * [Campaign](#campaign-live)
 * [Correo electrónico](#email-live)
-* [En la aplicación](#inapp-live)
+* [in-app](#inapp-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
 * [Web](#web-tab)

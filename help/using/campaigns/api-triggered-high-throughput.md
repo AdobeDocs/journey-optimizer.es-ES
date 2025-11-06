@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Activar el modo de alto rendimiento para campañas activadas por API
+title: Activación del modo de alto rendimiento para campañas activadas por API
 description: Obtenga información sobre cómo activar el modo de alto rendimiento para campañas activadas por API.
 feature: Campaigns, API
 topic: Content Management
@@ -11,12 +11,12 @@ keywords: campañas, activadas por API, REST, optimizador, mensajes
 source-git-commit: 4521990a02092365f996a81299ada55433639fb7
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Activar el modo de alto rendimiento para campañas activadas por API {#high-throughput}
+# Activación del modo de alto rendimiento para campañas activadas por API {#high-throughput}
 
 El modo de alto rendimiento está diseñado para organizaciones que necesitan **mensajes transaccionales en tiempo real a gran escala** (hasta 5000 transacciones por segundo). A diferencia de las campañas activadas por API normales, las campañas de alto rendimiento funcionan de forma independiente de los perfiles de Adobe y requieren un modelo de configuración diferente.
 
