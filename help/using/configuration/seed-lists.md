@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: lista de semillas, lista de semillas, semillas, configuración
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 22%
@@ -73,7 +73,7 @@ Use el botón **[!UICONTROL Eliminar]** para quitar una entrada de forma permane
 
 >[!CAUTION]
 >
->No es posible eliminar una lista semilla que se use en una [campaña](../campaigns/review-activate-campaign.md) o [recorrido](../building-journeys/publishing-the-journey.md) activos. Debe desactivar la campaña o el recorrido, o editarlo para utilizar otra configuración que no tenga seleccionada la lista semilla. [Más información acerca del uso de una lista semilla](#use-seed-list)
+>No es posible eliminar una lista semilla que se use en una [campaña](../campaigns/review-activate-campaign.md) o [recorrido](../building-journeys/publish-journey.md) activos. Debe desactivar la campaña o el recorrido, o editarlo para utilizar otra configuración que no tenga seleccionada la lista semilla. [Más información acerca del uso de una lista semilla](#use-seed-list)
 
 Puede hacer clic en el nombre de una lista semilla para editarla. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -150,7 +150,7 @@ Ahora que la lista de reasignación se ha creado, puede utilizarla en cualquier 
 
    ![](assets/seed-list-campaign-email.png)
 
-1. Activar [campaign](../campaigns/review-activate-campaign.md) o publicar [recorrido](../building-journeys/publishing-the-journey.md).
+1. Activar [campaign](../campaigns/review-activate-campaign.md) o publicar [recorrido](../building-journeys/publish-journey.md).
 
 Ahora, cada vez que se envía un mensaje de correo electrónico a sus clientes a través de esa campaña o recorrido, las direcciones de correo electrónico de la lista semilla seleccionada también lo reciben en las mismas condiciones, al mismo tiempo y con el mismo contenido que los destinatarios objetivo.
 

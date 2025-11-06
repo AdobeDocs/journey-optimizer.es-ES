@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
-source-git-commit: fa4849cfbb43d74ab85437f00acf6da750080cca
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '5125'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 A continuación, encontrará las preguntas más frecuentes sobre los Recorridos de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceptos generales
 
@@ -374,7 +374,7 @@ Al publicar un recorrido:
 * Los mensajes y las acciones empiezan a ejecutarse para los perfiles que se mueven a través del recorrido
 * Solo puede editar elementos limitados en un recorrido publicado (debe crear una nueva versión si desea editar más)
 
-Más información sobre [recorridos de publicación](publishing-the-journey.md).
+Más información sobre [recorridos de publicación](publish-journey.md).
 
 +++
 
@@ -435,7 +435,7 @@ Más información sobre [recorridos finales](end-journey.md).
 * Utilícelo para situaciones urgentes o errores críticos
 * Ejemplo: Recuperación de productos que requiere la detención inmediata de los mensajes promocionales
 
-Más información sobre [recorridos finales](end-journey.md) y [recorridos de publicación](publishing-the-journey.md).
+Más información sobre [recorridos finales](end-journey.md) y [recorridos de publicación](publish-journey.md).
 
 +++
 

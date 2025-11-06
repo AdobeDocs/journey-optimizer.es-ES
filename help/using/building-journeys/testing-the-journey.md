@@ -10,7 +10,7 @@ level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 46fe967c55db9f37221a616e7979bd3fafd6b070
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1842'
 ht-degree: 7%
@@ -93,7 +93,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 
    ![](assets/journeyuctest2.png)
 
-1. Si hay algún error, desactive el modo de prueba, modifique el recorrido y pruebe de nuevo. Una vez realizadas las pruebas, puede publicar el recorrido. Consulte [esta página](../building-journeys/publishing-the-journey.md).
+1. Si hay algún error, desactive el modo de prueba, modifique el recorrido y pruebe de nuevo. Una vez realizadas las pruebas, puede publicar el recorrido. Consulte [esta página](../building-journeys/publish-journey.md).
 
 ## Activación de eventos {#firing_events}
 

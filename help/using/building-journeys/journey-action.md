@@ -10,7 +10,7 @@ level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 16%
@@ -179,7 +179,7 @@ Para definir varias acciones entrantes en un solo nodo de acción de recorrido, 
 
 1. Continúe de la misma manera para agregar más acciones. Puede añadir hasta 10 acciones entrantes en un grupo de acciones de recorrido.
 
-Una vez que el recorrido esté [activo](publishing-the-journey.md), todas las acciones se activarán simultáneamente.
+Una vez que el recorrido esté [activo](publish-journey.md), todas las acciones se activarán simultáneamente.
 <!--
 ## Next steps {#next}
 

@@ -1,19 +1,19 @@
 ---
-title: Uso de directivas de decisión en mensajes
+title: Uso de políticas de decisión en mensajes
 description: Aprenda a utilizar las políticas de decisiones en los mensajes.
 feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Uso de directivas de decisión en mensajes {#create-decision}
+# Uso de políticas de decisión en mensajes {#create-decision}
 
 Una vez creada una política de decisión, la política y los atributos vinculados a los elementos de decisión devueltos se pueden utilizar en el contenido para su personalización. Para ello, el código asociado a la política de decisión debe insertarse primero en el contenido. Una vez finalizado, puede aprovechar sus atributos para la personalización.
 
@@ -64,7 +64,7 @@ Ahora puede agregar todos los atributos de decisión que desee dentro de ese có
 >[!NOTE]
 >
 >Para el seguimiento de elementos de la directiva de decisión, el atributo `trackingToken` debe agregarse de la siguiente manera para el contenido de la directiva de decisión:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Para añadir un atributo, haga clic en el icono &quot;+&quot; junto a él. Puede agregar todos los atributos que desee al código.
 
@@ -166,7 +166,7 @@ En tiempo de ejecución, se valida el contenido de la campaña (incluido el cont
 
 Una vez que el contenido esté listo, revise y publique la campaña o el recorrido:
 
-* [Publicación de un recorrido](../building-journeys/publishing-the-journey.md)
+* [Publicación de un recorrido](../building-journeys/publish-journey.md)
 * [Revisar y activar una campaña](../campaigns/review-activate-campaign.md)
 * [Publicación y activación de una experiencia basada en código](../code-based/publish-code-based.md)
 

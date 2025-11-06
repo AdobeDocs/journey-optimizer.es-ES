@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: analytics, integración, sdk web, plataforma
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 6%
@@ -61,7 +61,7 @@ Esto habilita el conector de origen de Analytics para ese grupo de informes. Cad
 
 ![](assets/ajo-aa_4.png)
 
-Obtenga más información acerca del conector de origen de Adobe Analytics en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es){target="_blank"} y [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es){target="_blank"}.
+Obtenga más información acerca del conector de origen de Adobe Analytics en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} y [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
 
 ## Activar esta configuración {#activate-analytics-data}
 
@@ -135,6 +135,6 @@ Ahora que el evento está listo, cree un recorrido para utilizarlo.
 
 1. A continuación, agregue una **[!UICONTROL acción de correo electrónico]**. En este correo electrónico, se solicitará a los clientes que envíen comentarios sobre el pedido realizado.
 
-Ahora puede probar y publicar el recorrido. [Más información](../building-journeys/publishing-the-journey.md)
+Ahora puede probar y publicar el recorrido. [Más información](../building-journeys/publish-journey.md)
 
 ![](assets/ajo-aa_7.png)

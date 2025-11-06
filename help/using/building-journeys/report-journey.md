@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Publicar el recorrido
+title: Publicación del recorrido
 description: Obtenga información sobre cómo informar sobre su recorrido
 feature: Journeys
 topic: Content Management
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -54,7 +54,7 @@ Para cada actividad dentro de cada recorrido en Activo o [Modo de ejecución en 
 >[!MORELIKETHIS]
 >
 >* [Introducción a creación de informes](../reports/gs-reports.md)
->* [Publicar su recorrido](publishing-the-journey.md)
+>* [Publicar su recorrido](publish-journey.md)
 >* [Recorrido en seco](journey-dry-run.md)
 >* [Configura y realiza un seguimiento de tus métricas de recorridos](success-metrics.md)
 >* [Informes de recorridos personalizados](../reports/sharing-overview.md)

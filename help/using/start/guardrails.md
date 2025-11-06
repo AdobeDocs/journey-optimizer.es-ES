@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: e83b49e887e60d12f15252360062c749ed8bd641
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '2929'
 ht-degree: 96%
@@ -143,7 +143,7 @@ Las siguientes limitaciones se aplican a las [Acciones](../building-journeys/abo
 * En caso de error, se realizan tres reintentos de forma sistemática. No puede ajustar el número de reintentos según el mensaje de error recibido. Los reintentos se realizan para todos los errores HTTP excepto para HTTP 401, 403 y 404.
 * El evento **Reacción** integrado le permite reaccionar a las acciones predeterminadas. Obtenga más información en [esta página](../building-journeys/reaction-events.md). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado.
 * No puede colocar dos acciones en paralelo, debe agregarlas una tras otra.
-* Un perfil no puede estar presente varias veces en el mismo recorrido, al mismo tiempo, para todas las [versiones activas del recorrido](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Si la reentrada está habilitada, un perfil puede volver a entrar en un recorrido, pero no puede hacerlo hasta que salga por completo de la instancia anterior del recorrido. [Más información](../building-journeys/end-journey.md)
+* Un perfil no puede estar presente varias veces en el mismo recorrido, al mismo tiempo, para todas las [versiones activas del recorrido](../building-journeys/publish-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Si la reentrada está habilitada, un perfil puede volver a entrar en un recorrido, pero no puede hacerlo hasta que salga por completo de la instancia anterior del recorrido. [Más información](../building-journeys/end-journey.md)
 
 ### Versiones de recorridos {#journey-versions-g}
 

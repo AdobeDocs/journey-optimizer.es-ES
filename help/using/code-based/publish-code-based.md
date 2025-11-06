@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Para que la experiencia basada en código esté activa desde un recorrido, siga 
 
    >[!NOTE]
    >
-   >Obtenga más información sobre cómo publicar recorridos en [esta sección](../building-journeys/publishing-the-journey.md).
+   >Obtenga más información sobre cómo publicar recorridos en [esta sección](../building-journeys/publish-journey.md).
 
 El recorrido basado en código toma el estado **[!UICONTROL Activo]** y ahora es visible para la audiencia seleccionada. Cada destinatario del recorrido puede ver las modificaciones.
 

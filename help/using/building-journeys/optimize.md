@@ -11,7 +11,7 @@ keywords: actividad, condición, lienzo, recorrido, optimización
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 9%
@@ -53,7 +53,7 @@ Una vez que el recorrido está activo, los perfiles se evalúan según los crite
 >id="ajo_path_experiment_success_metric"
 >title="Métrica de éxito"
 >abstract="La métrica de éxito se utiliza para rastrear y evaluar el tratamiento con mejor rendimiento de un experimento. "
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configuración y seguimiento de la métrica de recorrido"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configuración y seguimiento de la métrica de recorrido"
 
 La experimentación le permite probar diferentes rutas en función de una división aleatoria para determinar cuál tiene el mejor rendimiento según las métricas de éxito predefinidas.
 
@@ -115,7 +115,7 @@ Supongamos que desea comparar tres rutas:
 
    ![](assets/journey-optimize-experiment-content.png){width=100%}
 
-1. [Publicar](publishing-the-journey.md) su recorrido.
+1. [Publicar](publish-journey.md) su recorrido.
 
 Una vez que el recorrido está activo, los usuarios se asignan aleatoriamente para seguir diferentes rutas. [!DNL Journey Optimizer] realiza un seguimiento de la ruta de acceso que tiene el mejor rendimiento y proporciona perspectivas procesables.
 
@@ -238,7 +238,7 @@ Para configurar la segmentación en un recorrido, siga los pasos a continuación
 
    En este ejemplo, diseñe un correo electrónico con ofertas especiales para los miembros oro y un recordatorio SMS para los demás miembros.
 
-1. [Publicar](publishing-the-journey.md) su recorrido.
+1. [Publicar](publish-journey.md) su recorrido.
 
 Una vez que el recorrido está activo, la ruta especificada para cada segmento se procesa para que los miembros oro introduzcan la ruta con las ofertas de correo electrónico, mientras que los demás miembros introducen la ruta con el recordatorio de SMS.
 
