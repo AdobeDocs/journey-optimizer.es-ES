@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: error, códigos, resolución de problemas, recorrido, campaña, mensajes
-source-git-commit: 405c87f9ca138e4e92438704b5051ce89c73d726
+source-git-commit: 28a8f113d594f80ba7de22229e9a223b7f17ae8d
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2394'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,7 @@ Estos errores se producen al crear, editar o publicar mensajes, ajustes preestab
 
 | Código de error | Descripción | Causa principal | Resolución |
 |------------|-------------|-----------|-----------|
-| **CJMMAS-1732-500** | La prueba ha fallado: todos los recursos no se publican al enviar la prueba o la prueba con el recurso de AEM | El recurso publicado recientemente aún no está en AJO; ID de recurso no coincide; uso de varios repositorios; retraso de sincronización de AEM | &#x200B;1. Use solamente los ID de recurso publicados del repositorio o entorno correcto<br/>2. Deje tiempo para la sincronización entre AEM y AJO<br/>3. Vuelva a intentarlo con un recurso de funcionalidad comprobada<br/>4. Verificar el estado de publicación de recursos en AEM <br/><br/>**Documentación relacionada**: [Integración de Assets](../content-management/assets.md) |
+| **CJMMAS-1732-500** | La prueba ha fallado: todos los recursos no se publican al enviar la prueba o la prueba con el recurso de AEM | El recurso publicado recientemente aún no está en AJO; ID de recurso no coincide; uso de varios repositorios; retraso de sincronización de AEM | &#x200B;1. Use solamente los ID de recurso publicados del repositorio o entorno correcto<br/>2. Deje tiempo para la sincronización entre AEM y AJO<br/>3. Vuelva a intentarlo con un recurso de funcionalidad comprobada<br/>4. Verificar el estado de publicación de recursos en AEM <br/><br/>**Documentación relacionada**: [Integración de Assets](../integrations/assets.md) |
 | **CJMMAS-1069-500** | Error interno al guardar o publicar la plantilla de mensaje | Excepción back-end (error de infraestructura/servicio o problema de contenido); marcado o función no compatible | &#x200B;1. Simplifique o reduzca la complejidad de la plantilla<br/>2. Vuelva a agregar contenido en pasos incrementales para identificar el problema<br/>3. Comprueba la [página de estado de Adobe](https://status.adobe.com/es)<br/>4. Quitar características o marcas no compatibles <br/><br/>**Documentación relacionada**: [Plantillas de contenido](../content-management/content-templates.md) |
 | **CJMMAS-1149-400** | Solicitud incorrecta al guardar mensaje, ajuste preestablecido o variante | Faltan campos obligatorios en el mensaje o la configuración es incorrecta | &#x200B;1. Rellene todos los campos obligatorios (marcados con asterisco)<br/>2. Validar configuración de mensaje/ajuste preestablecido<br/>3. Comprobar formatos y restricciones de valores de campo<br/>4. Revisar mensajes de validación en la interfaz de usuario <br/><br/>**Documentación relacionada**: [Canal de correo electrónico](../email/get-started-email.md), [Superficies de canal](../configuration/channel-surfaces.md) |
 | **CJMMAS-2073-422** | Entidad no procesable en la edición de ajustes preestablecidos de mensaje | Error de validación, campo no admitido o sintaxis incorrecta | &#x200B;1. Corrija los errores de sintaxis/campo indicados<br/>2. Compare con una configuración de funcionalidad comprobada<br/>3. Use la validación de la interfaz de usuario del mensaje antes de guardar<br/>4. Revise los requisitos de campo en la documentación <br/><br/>**Documentación relacionada**: [Ajustes preestablecidos de mensaje](../configuration/channel-surfaces.md), [Configuración de correo electrónico](../email/email-settings.md) |
@@ -113,7 +113,7 @@ Estos errores se producen durante las operaciones de configuración de informes 
 
 | Código de error | Descripción | Causa principal | Resolución |
 |------------|-------------|-----------|-----------|
-| **CJMRPS-1047-409** | &quot;Conflicto. El conjunto de datos ya se ha agregado al agregar un conjunto de datos de informes | Intentando agregar un conjunto de datos que ya está aprovisionado | &#x200B;1. Revise la configuración del conjunto de datos en la configuración de informes<br/>2. No vuelva a agregar los conjuntos de datos ya presentes<br/>3. Usar listas de comprobación de migración oficiales para informar sobre la migración<br/>4. Quitar referencias duplicadas de conjuntos de datos <br/><br/>**Documentación relacionada**: [Informes globales](../reports/global-report.md), [Informes en vivo](../reports/live-report.md) |
+| **CJMRPS-1047-409** | &quot;Conflicto. El conjunto de datos ya se ha agregado al agregar un conjunto de datos de informes | Intentando agregar un conjunto de datos que ya está aprovisionado | &#x200B;1. Revise la configuración del conjunto de datos en la configuración de informes<br/>2. No vuelva a agregar los conjuntos de datos ya presentes<br/>3. Usar listas de comprobación de migración oficiales para informar sobre la migración<br/>4. Eliminar referencias duplicadas de conjuntos de datos <br/><br/>**Documentación relacionada**: [Información general de informes](../reports/gs-reports.md), [Informes de campañas](../reports/campaign-global-report-cja.md), [Informes de Recorridos](../reports/journey-global-report-cja.md) |
 
 ## Método general de resolución de problemas {#troubleshooting-approach}
 
@@ -182,15 +182,15 @@ Si encuentra errores persistentes que no se pueden resolver con esta guía:
 1. **Recopilar información**: recopile el código de error, el identificador de solicitud, las marcas de tiempo y los pasos para reproducir
 2. **Comprobar el estado del sistema**: Visite [Adobe Status](https://status.adobe.com/es){target="_blank"} para ver problemas de servicio conocidos
 3. **Documentación de búsqueda**: revise [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es){target="_blank"} para obtener soluciones
-4. **Participación de la comunidad**: publique preguntas en la [Comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}
+4. **Participación de la comunidad**: publique preguntas en la [Comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 5. **Póngase en contacto con el Soporte técnico de Adobe**: Envíe un ticket de asistencia con todos los detalles relevantes
 
 >[!NOTE]
 >
->Esta referencia de código de error se actualiza continuamente a medida que se identifican y documentan nuevos códigos. Para obtener la información más actual, consulte los [blogs de la comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=es){target="_blank"} con regularidad.
+>Esta referencia de código de error se actualiza continuamente a medida que se identifican y documentan nuevos códigos. Para obtener la información más actual, consulte los [blogs de la comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"} con regularidad.
 
 **Temas relacionados**
 
-* [Desmitificación de los códigos de error de Adobe Journey Optimizer: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=es){target="_blank"}
-* [Desmitificación de los códigos de error de Adobe Journey Optimizer: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=es){target="_blank"}
+* [Desmitificación de los códigos de error de Adobe Journey Optimizer: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Desmitificación de los códigos de error de Adobe Journey Optimizer: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
 
