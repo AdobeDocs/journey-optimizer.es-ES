@@ -7,9 +7,9 @@ topic: Integrations
 role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 5dab96aef4471b24527d1287a9d36d48521c4596
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1983'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,8 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
 
 **Campo:** características
 **Título:** Características de la opción de decisión
-**Descripción:** propiedades o atributos adicionales que pertenecen a esta opción de decisión en particular. Las distintas instancias pueden tener diferentes características (claves en el mapa). Las características son pares de nombre-valor que se utilizan para distinguir una opción de decisión de otras. Las características se utilizan como valores en el contenido que representa esta opción de decisión y como características para analizar y optimizar el rendimiento de una opción. Cuando cada instancia tiene el mismo atributo o propiedad, ese aspecto debe modelarse como un esquema de extensión que derive del detalle de la opción de decisión.
+**Descripción:** Las características son atributos o propiedades adicionales de las ofertas que pertenecen a una opción de decisión determinada. Estos atributos son pares de valor clave, lo que significa que incluyen un nombre de atributo (a veces denominado &quot;clave&quot;) que tiene un valor asociado y se utilizan para distinguir una opción de decisión de las otras ofertas. Por ejemplo, para un nombre de atributo &quot;color&quot;, el valor puede ser &quot;verde&quot; para una oferta específica.
+Las características se utilizan como valores en el contenido que representa esta opción de decisión y como características para analizar y optimizar el rendimiento de una oferta. Cuando cada instancia tiene el mismo atributo o propiedad, ese aspecto debe modelarse como un esquema de extensión que se derive del detalle de la opción de decisión.
 **Tipo:** objeto
 
 +++
@@ -179,7 +180,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
   **Campo:** linkURL
   **Descripción:** Un localizador de recursos único opcional para las interacciones del usuario. Esta URL se utiliza para remitir al usuario final a en un agente de usuario y se puede rastrear.
   **Tipo:** cadena
-  **Ejemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Ejemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > content > Placement
 
