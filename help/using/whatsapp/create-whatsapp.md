@@ -195,6 +195,6 @@ El siguiente vídeo muestra cómo crear un recorrido de WhatsApp de varios pasos
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470285/?captions=spa&learn=on")
 
 +++

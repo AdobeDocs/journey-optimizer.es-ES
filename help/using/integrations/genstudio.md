@@ -140,4 +140,4 @@ Después de ejecutar el experimento, realiza un seguimiento del rendimiento de l
 
 Descubra el proceso de exportar una plantilla de correo electrónico de Journey Optimizer a GenStudio for Performance Marketing, crear correos electrónicos compatibles con la marca mediante la plantilla en GenStudio y volver a importarlos sin problemas en Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456052/?captions=spa&quality=12)

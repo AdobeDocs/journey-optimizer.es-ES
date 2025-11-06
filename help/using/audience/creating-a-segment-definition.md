@@ -136,4 +136,4 @@ Puede evaluar hasta 20 audiencias a la vez y las audiencias que no cumplan los r
 
 Descubra cómo Journey Optimizer utiliza reglas para generar audiencias y aprenda a utilizar atributos, eventos y audiencias existentes para crear una audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430332?captions=spa&quality=12)

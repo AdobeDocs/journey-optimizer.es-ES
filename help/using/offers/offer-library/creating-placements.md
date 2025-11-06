@@ -86,5 +86,5 @@ Para crear una ubicación, siga estos pasos:
 
 Obtenga información sobre cómo crear ubicaciones en la administración de decisiones.
 
->[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341380?captions=spa&quality=12)
 

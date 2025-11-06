@@ -140,7 +140,7 @@ Aprenda a utilizar de forma eficaz el informe permanente en Adobe Journey Optimi
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422693?captions=spa&learn=on)
 
 +++
 

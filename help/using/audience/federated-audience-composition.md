@@ -32,4 +32,4 @@ Para obtener más información, lea la guía de [Composición de audiencias fede
 
 Obtenga más información acerca de la composición de audiencias federadas en vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3450884?captions=spa&quality=12)
