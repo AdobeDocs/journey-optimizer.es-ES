@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 6%
+source-wordcount: '713'
+ht-degree: 5%
 
 ---
 
@@ -211,6 +211,37 @@ currentActionField.description == "abc"
 )}
 )
 ```
+
+### Uso de respuestas de acción personalizadas en canales nativos {#response-in-channels}
+
+Puede iterar en matrices anidadas a partir de una respuesta de acción personalizada en canales nativos (como correo electrónico, push o SMS) mediante la sintaxis Handlebars. Esto resulta útil cuando necesita personalizar el contenido del mensaje con datos dinámicos de sistemas externos.
+
+Por ejemplo, si la acción personalizada devuelve la siguiente respuesta de un sistema externo:
+
+```json
+{    
+    "id": "84632848268632",    
+    "responses": [
+        { "productIDs": [1111,2222,3333] },
+        { "productIDs": [4444,5555,6666] },
+        { "productIDs": [7777,8888,9999] }
+    ]
+}
+```
+
+Puede iterar en la matriz `responses` y en las matrices `productIDs` anidadas en un canal nativo (por ejemplo, en un mensaje de correo electrónico) de la siguiente manera:
+
+```handlebars
+{{#each context.journey.actions.<yourcustomaction>.responses as |res|}}
+
+  {{#each res.productIDs as |productID|}}
+    <li>{{productID}}</li>
+  {{/each}}
+
+{{/each}}
+```
+
+Reemplace `<yourcustomaction>` con el nombre real de la acción personalizada según se configuró en el recorrido.
 
 ## Recursos adicionales
 

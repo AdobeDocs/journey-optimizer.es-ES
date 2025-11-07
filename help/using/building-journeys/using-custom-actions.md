@@ -10,10 +10,10 @@ level: Intermediate
 keywords: acción, personalizado, API, recorrido, configuración, servicio
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 21%
+source-wordcount: '427'
+ht-degree: 20%
 
 ---
 
@@ -29,6 +29,8 @@ Utilice acciones personalizadas para habilitar la conexión a un sistema de terc
 Obtenga más información acerca de las acciones personalizadas en [esta sección](../action/action.md).
 
 Aprenda a crear y configurar una acción personalizada en [esta página](../action/about-custom-action-configuration.md).
+
+Aprenda a utilizar las respuestas de llamadas de API de acciones personalizadas para personalizar [esta página](../action/action-response.md).
 
 ## Consentimiento y control de datos {#privacy}
 

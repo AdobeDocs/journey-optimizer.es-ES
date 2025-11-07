@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expresión, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6b3005dd9483ff5311e4bf6b4f13d254c6be41d6
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1569'
 ht-degree: 10%
 
 ---
@@ -105,7 +105,7 @@ El panel de navegación permite seleccionar el origen de la personalización. Lo
 * **[!UICONTROL Atributos de destino]**: esta carpeta es específica para campañas orquestadas. Contiene atributos calculados directamente dentro del lienzo de la campaña. [Aprenda a agregar personalización en campañas organizadas](../orchestrated/activities/channels.md#add-personalization)
 * **[!UICONTROL Audiencias]** : enumera todas las audiencias creadas en el servicio de segmentación de Adobe Experience Platform. Más información sobre la segmentación disponible [aquí](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
 * **[!UICONTROL Decisiones de oferta]** : enumera todas las ofertas asociadas a una ubicación específica. Seleccione la ubicación e inserte las ofertas en el contenido. Para obtener una documentación completa sobre cómo administrar ofertas, consulte [esta sección](../offers/get-started/starting-offer-decisioning.md).
-* **[!UICONTROL Atributos contextuales]**: cuando se utiliza una actividad de acción del canal (correo electrónico, push, SMS) en un recorrido o una campaña, los atributos contextuales relacionados con eventos y propiedades están disponibles para personalización. En [esta sección](personalization-use-case.md) se presenta un ejemplo de personalización que aprovecha atributos contextuales.
+* **[!UICONTROL Atributos contextuales]**: cuando se utiliza una actividad de acción del canal (correo electrónico, push, SMS) en un recorrido o una campaña, los atributos contextuales relacionados con eventos y propiedades están disponibles para personalización. En [esta sección](personalization-use-case.md) se presenta un ejemplo de personalización que aprovecha atributos contextuales. Además, se pueden utilizar respuestas de acción personalizadas para la personalización. [Aprenda a utilizar respuestas de acción personalizadas en canales nativos](../action/action-response.md#response-in-channels).
 
 >[!NOTE]
 >

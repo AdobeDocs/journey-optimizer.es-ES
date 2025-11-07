@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 6%
+source-wordcount: '652'
+ht-degree: 5%
 
 ---
 
@@ -162,6 +162,10 @@ Procese una lista de productos que este usuario tiene en el carro de compras:
     <li>{{product.productName}} {{product.productRating}}</li>
 {{/each}}
 ```
+
+>[!NOTE]
+>
+>También puede usar el asistente `each` para repetir matrices devueltas por respuestas de acciones personalizadas. Para ver un ejemplo de repetir matrices anidadas a partir de una respuesta de acción personalizada, vea [Usar respuestas de acción personalizadas en canales nativos](../../action/action-response.md#response-in-channels).
 
 ## Con{#with}
 
