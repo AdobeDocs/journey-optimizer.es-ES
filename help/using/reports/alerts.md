@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: cc38101d0745770cca196372fc5fdbb64318e601
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1815'
-ht-degree: 1%
+source-wordcount: '2153'
+ht-degree: 2%
 
 ---
 
@@ -32,6 +32,7 @@ Además de estas, cuando se alcanza un determinado conjunto de condiciones, se p
 
 En el menú de la izquierda, debajo de **[!UICONTROL Administración]**, haga clic en **[!UICONTROL Alertas]**. Hay varias alertas preconfiguradas para Journey Optimizer disponibles en la pestaña **Examinar**.
 
+![](assets/updated-alerts-list.png){width=50%}
 
 * Alertas específicas de los recorridos:
 
@@ -39,6 +40,9 @@ En el menú de la izquierda, debajo de **[!UICONTROL Administración]**, haga cl
    * la alerta [Tasa de error de acción personalizada superada](#alert-custom-action-error-rate) (reemplaza la alerta de error de acción personalizada de Recorrido anterior)
    * la alerta [Tasa de descarte de perfil superada](#alert-discard-rate)
    * la alerta [Tasa de error de perfil superada](#alert-profile-error-rate)
+   * la alerta [Recorrido publicado](#alert-journey-published)
+   * la alerta [Recorrido finalizado](#alert-journey-finished)
+   * la alerta [Límite de acción personalizada activado](#alert-custom-action-capping)
 
 * Alertas específicas de la configuración del canal:
 
@@ -71,7 +75,7 @@ Para suscribirse o cancelar la suscripción a una alerta para todos los recorrid
 
 1. Use el mismo método para **[!UICONTROL cancelar la suscripción]**.
 
-También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
+También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
 
 ### Suscripción unitaria {#unitary-subscription}
 
@@ -81,13 +85,13 @@ Para suscribirse o cancelar la suscripción a una alerta de un recorrido especí
 
    ![Suscripción a una alerta para un recorrido específico](assets/subscribe-journey-alert.png){width=75%}
 
-1. Seleccione las alertas. Las siguientes alertas están disponibles: [Tasa de descarte de perfil superada](#alert-discard-rate), [Tasa de error de acción personalizada superada](#alert-custom-action-error-rate) y [Tasa de error de perfil superada](#alert-profile-error-rate).
+1. Seleccione las alertas. Las siguientes alertas están disponibles: [Tasa de descarte de perfil superada](#alert-discard-rate), [Tasa de error de acción personalizada superada](#alert-custom-action-error-rate), [Tasa de error de perfil superada](#alert-profile-error-rate), [Recorrido publicado](#alert-journey-published), [Recorrido finalizado](#alert-journey-finished) y [Límite de acción personalizada activado](#alert-custom-action-capping).
 
 1. Para cancelar la suscripción a una alerta, anule su selección en la misma pantalla.
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## alertas de recorrido {#journey-alerts}
 
@@ -101,8 +105,6 @@ A continuación se enumeran todas las notificaciones de recorrido disponibles en
 ### Error al leer Déclencheur de audiencia {#alert-read-audiences}
 
 Esta alerta le advierte si una actividad **Leer audiencia** no ha procesado ningún perfil 10 minutos después de la hora programada de ejecución. Este error puede deberse a problemas técnicos o a que la audiencia está vacía. Si este error se debe a problemas técnicos, tenga en cuenta que aún pueden producirse reintentos, según el tipo de problema (p. ej.: si la creación del trabajo de exportación ha fallado, lo volveremos a intentar cada 10 minutos durante 1 h como máximo).
-
-![](assets/read-audience-alert.png)
 
 Las alertas de las actividades **Leer audiencia** solo se aplican a los recorridos recurrentes. Se omiten las actividades de **Leer audiencia** en recorridos activos que tienen una programación para ejecutarse **Una vez** o **Lo antes posible**.
 
@@ -153,6 +155,42 @@ Esta alerta le advierte si la proporción de perfiles en error respecto a los pe
 Haga clic en el nombre de la alerta para comprobar sus detalles y configuración.
 
 Para solucionar errores de perfil, puede consultar los datos en eventos de paso para comprender dónde y por qué falló el perfil en la recorrido.
+
+### Recorrido publicado {#alert-journey-published}
+
+Esta alerta le avisa cuando un profesional ha publicado un recorrido en el lienzo del recorrido.
+
+Se trata de una alerta informativa que le ayuda a realizar un seguimiento de los eventos del ciclo vital de recorrido en su organización. No hay criterios de resolución, ya que se trata de una notificación única.
+
+### Recorrido finalizado {#alert-journey-finished}
+
+Esta alerta le avisa cuando ha finalizado un recorrido. La definición de &quot;terminado&quot; varía según el tipo de recorrido:
+
+| Tipo de recorrido | ¿Recurrente? | ¿Tiene fecha de finalización? | Definición de &quot;finished&quot; |
+|--------------|------------|---------------|--------------------------|
+| Leer público | No | n/a | 91 días después del inicio de la ejecución |
+| Leer público | Sí | No | 91 días después del inicio de la ejecución |
+| Leer público | Sí | Sí | Cuando se llega a la fecha de finalización |
+| Recorrido activado por evento | n/a | Sí | Cuando se llega a la fecha de finalización |
+| Recorrido activado por evento | n/a | No | Cuando se cierra en la interfaz de usuario o mediante API |
+
+Esta es una alerta informativa que le ayuda a realizar un seguimiento de la finalización del recorrido. No hay criterios de resolución, ya que se trata de una notificación única.
+
+### Límite de acción personalizado activado {#alert-custom-action-capping}
+
+Esta alerta le avisa cuando se ha activado el límite de una acción personalizada. El límite se utiliza para limitar el número de llamadas enviadas a un extremo externo para evitar saturar el extremo.
+
+Haga clic en el nombre de la alerta para comprobar sus detalles y configuración.
+
+Cuando se activa el límite, significa que se ha alcanzado el número máximo de llamadas de API en el período de tiempo definido y que se están restringiendo o poniendo en cola más llamadas. Obtenga más información sobre cómo limitar las acciones personalizadas en [esta página](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices).
+
+Esta alerta se resuelve cuando el límite ya no está activo o cuando ningún perfil alcanza la acción personalizada durante el período de evaluación.
+
+Para solucionar problemas de límite:
+
+* Revise la configuración de límite de la acción personalizada para asegurarse de que los límites sean adecuados para su caso de uso.
+* Compruebe si el volumen de llamadas de API es mayor de lo esperado y considere la posibilidad de ajustar el diseño del recorrido o la configuración del límite.
+* Supervise el extremo externo para asegurarse de que puede gestionar la carga esperada.
 
 ## Alertas de configuración {#configuration-alerts}
 

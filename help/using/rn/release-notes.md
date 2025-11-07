@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b24c89f966fe6eeb58d019bc85cedc89ee13f113
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 84%
+source-wordcount: '1456'
+ht-degree: 79%
 
 ---
 
@@ -31,6 +31,29 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 A continuación, se enumeran las nuevas funciones y mejoras publicadas en las últimas semanas, con su fecha de disponibilidad. Se agrupan con el contenido de las notas de la próxima versión a finales de mes. Vea también las [notas de la versión más recientes a continuación](#latest-rn).
 
 ### Nuevas funciones {#features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Nuevas alertas de recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora hay tres nuevas alertas de recorrido disponibles para ayudarle a supervisar y rastrear los eventos de ciclo vital de recorrido y el rendimiento de las acciones personalizadas:</p>
+<ul>
+<li><strong>Recorrido publicado</strong>: Reciba notificaciones cuando un profesional publique un recorrido en el lienzo de recorrido.</li>
+<li><strong>Recorrido finalizado</strong>: obtenga alertas cuando haya finalizado un recorrido, con definiciones específicas basadas en el tipo de recorrido (Leer audiencia o Activado por evento).</li>
+<li><strong>Límite de acción personalizada activado</strong>: recibir una notificación cuando se active el límite en un extremo de acción personalizada.</li>
+</ul>
+<p>Estas alertas se pueden suscribir al nivel de organización o para recorridos específicos.</p>
+<p>Para obtener más información, consulte la <a href="../reports/alerts.md#journey-alerts">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: jueves, 05 de noviembre de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
