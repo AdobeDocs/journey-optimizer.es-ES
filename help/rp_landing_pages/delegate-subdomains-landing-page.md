@@ -20,7 +20,7 @@ La delegación de subdominios de correo electrónico en Adobe Journey Optimizer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a la delegación de subdominios
 
@@ -30,7 +30,7 @@ Conozca las ventajas, los métodos de configuración y las consideraciones para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Delegar un subdominio
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso para delegar subdominios a Adobe, incluyendo la delega
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Configurar registros DMARC
 
@@ -50,7 +50,7 @@ Configure los registros de DMARC para mejorar la seguridad del correo electróni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Añadir un registro TXT de Google
 

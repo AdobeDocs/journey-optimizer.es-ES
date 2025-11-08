@@ -40,7 +40,7 @@ Explore cómo crear, administrar y optimizar el envío de contenido personalizad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Gestión de decisiones en Adobe Journey Optimizer
 

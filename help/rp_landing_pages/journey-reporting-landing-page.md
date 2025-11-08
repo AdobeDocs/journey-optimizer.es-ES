@@ -20,7 +20,7 @@ Los informes de recorridos de Adobe Journey Optimizer proporcionan potentes herr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Análisis de informes de recorridos
 
@@ -30,7 +30,7 @@ Explore cómo analizar y optimizar el rendimiento del recorrido mediante métric
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Informes de recorridos basados en código
 
@@ -40,7 +40,7 @@ Conozca y analice las métricas para participar en experiencias basadas en códi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Participación con la tarjeta de contenido
 
@@ -50,7 +50,7 @@ Aprenda a medir y evaluar la participación del usuario con las tarjetas de cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
 Métricas de correo directo
 
@@ -60,7 +60,7 @@ Analice e interprete las métricas clave para campañas de correo directo, inclu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=es)
 
 Creación de informes de recorrido de correo electrónico
 
@@ -70,7 +70,7 @@ Obtenga información sobre el rendimiento del correo electrónico, la participac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
 
 Información sobre la mensajería en la aplicación
 

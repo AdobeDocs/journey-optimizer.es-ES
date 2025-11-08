@@ -20,7 +20,7 @@ El diseño del contenido en Adobe Journey Optimizer consiste en crear experienci
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Usar componentes de contenido
 
@@ -30,7 +30,7 @@ Aprenda a añadir y personalizar componentes como texto, botones, imágenes y mu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=es)
 
 Aprovechar los fragmentos visuales
 
@@ -40,7 +40,7 @@ Descubra cómo crear fragmentos reutilizables para optimizar el diseño del corr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Añadir vínculos y realizar el seguimiento de mensajes
 
@@ -70,7 +70,7 @@ Cree y personalice la versión de texto sin formato del correo electrónico para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Añadir metadatos
 

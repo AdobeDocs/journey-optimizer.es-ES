@@ -20,7 +20,7 @@ La configuración de eventos en Adobe Journey Optimizer consiste en configurar l
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Trabajar con eventos de recorridos
 
@@ -30,7 +30,7 @@ Obtenga información sobre los eventos de recorridos, sus tipos, ciclo de vida y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Configurar un evento unitario
 
@@ -40,7 +40,7 @@ Siga una guía paso a paso para configurar eventos unitarios, incluida la defini
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Esquemas de ExperienceEvent
 
@@ -60,7 +60,7 @@ Aprenda a integrar datos de Adobe Analytics para automatizar recorridos y crear 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Configurar un evento empresarial
 
@@ -70,7 +70,7 @@ Instrucciones paso a paso para configurar eventos empresariales, incluida la def
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Enviar eventos mediante las API de streaming
 

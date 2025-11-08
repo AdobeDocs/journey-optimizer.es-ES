@@ -30,7 +30,7 @@ Obtenga información sobre cómo acceder y configurar la función del Asistente 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
 Generación de contenido de correo electrónico con IA
 

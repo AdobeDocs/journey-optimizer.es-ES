@@ -30,7 +30,7 @@ Aproveche la IA generativa para crear y personalizar contenido en correos electr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Optimización del tiempo de envío
 
@@ -50,7 +50,7 @@ Cree modelos de optimización automática y personalizados para clasificar y ofr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Conocimiento del producto del asistente de IA
 
@@ -70,7 +70,7 @@ Genere varias variaciones de contenido y ejecute experimentos para identificar e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Puntuación de alineación de marca
 

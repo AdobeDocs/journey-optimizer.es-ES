@@ -30,7 +30,7 @@ Conozca los conceptos y procesos para administrar permisos de usuario, funciones
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Administrar usuarios y funciones
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso sobre cómo asignar, editar y crear funciones para con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Funciones integradas
 
@@ -50,7 +50,7 @@ Descubra las funciones predefinidas y sus permisos asociados para administrar de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Permisos integrados
 

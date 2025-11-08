@@ -30,7 +30,7 @@ Obtenga información sobre las fuentes de datos, sus tipos, casos de uso y grupo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Cómo configurar una fuente de datos
 

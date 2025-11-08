@@ -20,7 +20,7 @@ Los informes de recorridos personalizados de Adobe Journey Optimizer le permiten
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Crear y analizar informes de recorridos
 
@@ -30,7 +30,7 @@ Aprenda a crear informes de recorridos, conocer esquemas y conjuntos de datos e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Lista de campos de eventos de los pasos
 
@@ -40,7 +40,7 @@ Explore la lista completa de campos de eventos de los pasos, clasificados y desc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Campos de eventos de pasos heredados
 
@@ -50,7 +50,7 @@ Conozca los campos de eventos de pasos heredados que se utilizan en Adobe Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Ejemplos de consultas SQL para el análisis de datos
 

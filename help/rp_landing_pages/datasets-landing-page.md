@@ -20,7 +20,7 @@ Los conjuntos de datos de Adobe Journey Optimizer son la base sobre la que se su
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Uso y administración de conjuntos de datos en Adobe Journey Optimizer
 
