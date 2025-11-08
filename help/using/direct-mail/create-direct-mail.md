@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: e823be2257d49158492af508e23f40e749bc33be
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '781'
 ht-degree: 19%
 
 ---
@@ -37,7 +37,7 @@ Para crear mensajes de correo postal, cree una campaña programada y configure e
 >
 >El correo postal admite la funcionalidad de Holdout, pero actualmente no admite Tratamientos.
 
-Para crear una campaña de correo postal, siga estos pasos:
+Para crear una campaña de correo postal, debe configurar una campaña programada, seleccionar la audiencia de destino y configurar los ajustes de correo postal, incluida la configuración del mensaje. Siga estos pasos:
 
 1. Acceda al menú **[!UICONTROL Campañas]** y haga clic en **[!UICONTROL Crear campaña]**.
 

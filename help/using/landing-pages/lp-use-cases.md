@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1013'
 ht-degree: 13%
 
 ---
@@ -29,6 +29,8 @@ Uno de los casos de uso más comunes consiste en invitar a tus clientes a [suscr
 Por ejemplo, supongamos que organiza un evento el mes que viene y que desea iniciar una campaña de registro de eventos <!--to keep your customers that are interested updated on that event-->. Para ello, va a enviar un correo electrónico con un vínculo a una página de aterrizaje que permitirá a sus destinatarios registrarse en este evento. Los usuarios que se registren se agregarán a la lista de suscripción que haya creado para este fin.
 
 ### Configuración de una página de aterrizaje {#set-up-lp}
+
+Para configurar una página de aterrizaje para el registro de eventos, debe crear una lista de suscripción, diseñar la página de aterrizaje con un formulario de registro y configurar las páginas y configuraciones necesarias. Siga estos pasos:
 
 1. Cree la lista de suscripción del registro de eventos, que almacenará a los usuarios registrados. Obtenga información sobre cómo crear una lista de suscripción [aquí](subscription-list.md#define-subscription-list).
 
@@ -163,7 +165,7 @@ La información de exclusión se almacena en el **conjunto de datos del servicio
 
 >[!NOTE]
 >
->Si el método de combinación para la directiva de combinación predeterminada de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"} **[!UICONTROL Perfiles]** es la **[!UICONTROL Prioridad del conjunto de datos]**, asegúrese de habilitar el **[!UICONTROL conjunto de datos del servicio de consentimiento de AJO]** y de priorizarlo en la directiva de combinación. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es#dataset-precedence-profile){target="_blank"}
+>Si el método de combinación para la directiva de combinación predeterminada de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"} **[!UICONTROL Perfiles]** es la **[!UICONTROL Prioridad del conjunto de datos]**, asegúrese de habilitar el **[!UICONTROL conjunto de datos del servicio de consentimiento de AJO]** y de priorizarlo en la directiva de combinación. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Incluso si no se han agregado lotes a este conjunto de datos, seguirá conteniendo la información de inclusión/exclusión.
 
