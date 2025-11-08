@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 100%
+source-wordcount: '330'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ Se pueden crear notificaciones push:
 
 * En un **Recorrido**: una vez que haya añadido una actividad Push en el recorrido y haya definido la configuración básica, utilice el panel derecho **[!UICONTROL Acciones: Push]** para crear el contenido de las notificaciones push. [Obtenga información sobre cómo crear un recorrido](../building-journeys/journey-gs.md)
 
-* En una **Campaña**: una vez creada una campaña, seleccione Notificaciones push como acción y defina la configuración básica. [Obtenga información sobre cómo crear una campaña](../campaigns/create-campaign.md#configure)
+* En una **Campaña**: una vez creada una campaña, seleccione Notificaciones push como acción y defina la configuración básica. Aprenda a crear [una campaña de acción](../campaigns/campaign-action.md#action-campaign-action) | [una campaña desencadenada por API](../campaigns/api-triggered-campaigns.md) | [una campaña orquestada](../orchestrated/create-orchestrated-campaign.md#create)
 
 Utilice las pestañas dedicadas para definir la configuración de las notificaciones push para sistemas operativos **iOS** y **Android**.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 95%
+source-wordcount: '340'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ Ahora puede enviar mensajes de WhatsApp directamente a través de Journey Optimi
 
 * En un **recorrido**. Cree un recorrido, añada una actividad de **WhatsApp**, defina la configuración básica y, a continuación, vaya al panel **[!UICONTROL Acciones: WhatsApp]** para crear el contenido del mensaje de WhatsApp. Aprenda a crear un recorrido en [esta página](../building-journeys/journey-gs.md).
 
-* En una **campaña**. Para crear una campaña, seleccione **WhatsApp** como acción, defina la configuración básica y, a continuación, edite el contenido del mensaje de WhatsApp que desea enviar. Aprenda a crear una campaña en [esta página](../campaigns/create-campaign.md#configure).
+* En una **campaña**. Para crear una campaña, seleccione **WhatsApp** como acción, defina la configuración básica y, a continuación, edite el contenido del mensaje de WhatsApp que desea enviar. Aprenda a crear [una campaña de acción](../campaigns/campaign-action.md#action-campaign-action) | [una campaña desencadenada por API](../campaigns/api-triggered-campaigns.md) | [una campaña orquestada](../orchestrated/create-orchestrated-campaign.md#create)
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 
@@ -58,7 +58,7 @@ El siguiente vídeo muestra cómo integrar WhatsApp como canal nativo en Adobe J
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470247?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 
