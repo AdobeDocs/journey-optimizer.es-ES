@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: creación, correo electrónico, inicio, recorrido, campaña
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1055'
 ht-degree: 9%
 
 ---
@@ -49,9 +49,9 @@ Para obtener más información sobre cómo configurar un recorrido, consulte [es
 
 >[!TAB Agregar un correo electrónico a una campaña]
 
-1. Cree una nueva campaña programada o desencadenada por API y seleccione **[!UICONTROL Correo electrónico]** como acción.
+1. [Cree una campaña](../campaigns/create-campaign.md) y seleccione **[!UICONTROL Correo electrónico]** como acción.
 
-1. Complete los pasos para crear una campaña de correo electrónico, como las propiedades de campaña, [audiencia](../audience/about-audiences.md) y [programación](../campaigns/campaign-schedule.md#action-campaign-schedule).
+1. Complete los pasos para crear una campaña de correo electrónico, como las propiedades de campaña, [audiencia](../audience/about-audiences.md) y [programación](../campaigns/campaign-schedule.md).
 
    ![](assets/email_campaign_steps.png)
 
