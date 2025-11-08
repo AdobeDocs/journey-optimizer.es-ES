@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, grupos, capacidad de entrega
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -51,13 +51,13 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   La programación [schedule](../campaigns/create-campaign.md#schedule) de la campaña estará dirigida por el plan de calentamiento de IP con el que estará asociada, lo que significa que la programación ya no está definida en la propia campaña.
+   La programación [schedule](../campaigns/campaign-schedule.md) de la campaña estará dirigida por el plan de calentamiento de IP con el que estará asociada, lo que significa que la programación ya no está definida en la propia campaña.
 
 1. Complete los pasos para crear una campaña de correo electrónico, como definir las propiedades de la campaña, [audiencia](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?--> y [contenido](../email/get-started-email-design.md#key-steps).
 
    >[!IMPORTANT]
    >
-   >Las audiencias permitidas en una campaña de calentamiento de IP deben estar [basadas en segmentos](../audience/creating-a-segment-definition.md) y creadas con la [política de combinación predeterminada](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >Las audiencias permitidas en una campaña de calentamiento de IP deben estar [basadas en segmentos](../audience/creating-a-segment-definition.md) y creadas con la [política de combinación predeterminada](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
 
    Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
@@ -75,7 +75,7 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
 Una vez activa, la campaña está lista para utilizarse en un plan de calentamiento de IP. [Más información](ip-warmup-plan.md)
 
-Una campaña de calentamiento de IP solo se puede utilizar en un plan de calentamiento de IP. Sin embargo, la misma campaña se puede utilizar en una o más fases del mismo plan de calentamiento de IP. [Más información](ip-warmup-plan.md#define-phases)
+Una campaña de calentamiento de IP solo se puede utilizar en un plan de calentamiento de IP. Sin embargo, la misma campaña se puede utilizar en una o más fases del mismo plan de calentamiento de IP. [Más información](ip-warmup-plan.md#ip-warmup-plan-tab)
 
 >[!NOTE]
 >

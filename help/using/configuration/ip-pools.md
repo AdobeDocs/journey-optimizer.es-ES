@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, grupos, grupo, subdominios, capacidad de entrega
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 12%
@@ -103,7 +103,7 @@ La actualización es efectiva de inmediato o asincrónicamente, dependiendo de s
 
 >[!NOTE]
 >
->Al [crear una configuración de canal](channel-surfaces.md#create-channel-surface), si selecciona un grupo de IP que está en edición (estado **[!UICONTROL Procesando]**) y nunca se ha asociado con el subdominio seleccionado para esa configuración, no puede continuar con la creación de la configuración. [Más información](channel-surfaces.md#subdomains-and-ip-pools)
+>Al [crear una configuración de canal](channel-surfaces.md#create-channel-surface), si selecciona un grupo de IP que está en edición (estado **[!UICONTROL Procesando]**) y nunca se ha asociado con el subdominio seleccionado para esa configuración, no puede continuar con la creación de la configuración. [Más información](channel-surfaces.md#create-channel-surface)
 
 Para comprobar el estado de actualización del grupo de IP, haga clic en el botón **[!UICONTROL Más acciones]** y seleccione **[!UICONTROL Actualizaciones recientes]**.
 
