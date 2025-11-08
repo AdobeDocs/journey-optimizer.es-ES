@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 35%
@@ -40,7 +40,7 @@ Para ello, primero debe crear una campaña activada por API en Journey Optimizer
 
 ## Pasos clave para la creación de campañas activadas por API {#steps}
 
-Antes de comenzar con las campañas, compruebe los siguientes requisitos previos enumerados [en esta sección](get-started-with-campaigns.md#permissions). Una vez cumplidos estos requisitos previos, puede empezar a crear la campaña:
+Antes de comenzar con las campañas, compruebe los siguientes requisitos previos enumerados [en esta sección](get-started-with-campaigns.md#prerequisites). Una vez cumplidos estos requisitos previos, puede empezar a crear la campaña:
 
 1. [Definir las propiedades de la campaña](api-triggered-campaign-properties.md)
 1. [Configurar la acción de campaña](api-triggered-campaign-action.md)
@@ -54,4 +54,4 @@ Antes de comenzar con las campañas, compruebe los siguientes requisitos previos
 
 Obtenga información sobre cómo crear una campaña y almacenarla en déclencheur desde un sistema externo basado en las interacciones del usuario, mediante la API de REST de ejecución de mensaje interactivo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452728?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
-source-git-commit: 4521990a02092365f996a81299ada55433639fb7
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 4%
@@ -30,7 +30,7 @@ Esta página explica cómo las campañas de alto rendimiento difieren de las cam
 
 * **Personalization**:
 
-   * Toda personalización debe incluirse en la carga útil de la API como **datos contextuales**. [Aprenda a personalizar el contenido mediante datos contextuales](../campaigns/api-triggered-campaign-action.md#contextual)
+   * Toda personalización debe incluirse en la carga útil de la API como **datos contextuales**. [Aprenda a personalizar el contenido mediante datos contextuales](../campaigns/api-triggered-campaign-content.md#contextual)
    * No se admite la personalización basada en perfiles. Si se utilizan variables de perfil, se producirán errores de validación.
 
 * **Configuraciones de canal personalizadas**: las configuraciones de canal que usan la [personalización basada en perfiles](../email/surface-personalization.md) no se pueden usar con campañas de alto rendimiento. Solo se pueden utilizar superficies sin personalización de perfil.
@@ -69,7 +69,7 @@ Utilice esta tabla para decidir qué tipo de campaña activada por API se adapta
 En otras palabras:
 
 * Elija **API estándar desencadenada** campañas si:
-   * No tiene contratado un alto rendimiento.
+   * No tiene contratado un rendimiento alto.
    * Sus necesidades de rendimiento son &lt;500 TPS.
    * Necesita una personalización basada en Perfiles de Adobe.
    * Desea vincular los datos de campaña a los perfiles para una futura segmentación.

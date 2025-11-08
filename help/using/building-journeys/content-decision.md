@@ -11,7 +11,7 @@ badge: label="Disponibilidad limitada" type="Informative"
 keywords: actividad, toma de decisiones, decisión de contenido, política de decisión, lienzo, recorrido
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 3%
@@ -60,13 +60,13 @@ Para configurar la actividad **[!UICONTROL Decisión de contenido]**, siga los p
 
 1. Seleccione el número de elementos que desea que se devuelvan. Por ejemplo, si selecciona 2, se presentarán las 2 mejores ofertas aptas. Haga clic en **[!UICONTROL Next]**.
 
-1. En la sección **[!UICONTROL Secuencia de estrategia]**, seleccione los elementos de decisión y/o las estrategias de selección que desea presentar con la directiva de decisión. [Más información](../experience-decisioning/create-decision.md#select)
+1. En la sección **[!UICONTROL Secuencia de estrategia]**, seleccione los elementos de decisión y/o las estrategias de selección que desea presentar con la directiva de decisión. [Más información](../experience-decisioning/create-decision.md#create-decision)
 
 1. Organice el orden de evaluación según sea necesario.
 
-   Al agregar varios elementos de decisión y/o estrategias, se evalúan en orden secuencial, indicados con números a la izquierda de cada objeto o grupo de objetos. Para cambiar la secuencia predeterminada, puede arrastrar y soltar los objetos o los grupos para reordenarlos como desee. [Más información](../experience-decisioning/create-decision.md#evaluation-order)
+   Al agregar varios elementos de decisión y/o estrategias, se evalúan en orden secuencial, indicados con números a la izquierda de cada objeto o grupo de objetos. Para cambiar la secuencia predeterminada, puede arrastrar y soltar los objetos o los grupos para reordenarlos como desee. [Más información](../experience-decisioning/create-decision.md#create-decision)
 
-1. (opcional) Añada una oferta de reserva. [Más información](../experience-decisioning/create-decision.md#fallback)
+1. (opcional) Añada una oferta de reserva. [Más información](../experience-decisioning/create-decision.md#create-decision)
 
 1. Revise y guarde la directiva de decisión.
 

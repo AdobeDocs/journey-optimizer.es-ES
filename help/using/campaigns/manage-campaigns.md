@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 14%
@@ -200,7 +200,7 @@ Para modificar y crear una nueva versión de una campaña de acción recurrente,
 
    ![](assets/create-campaign-edit-list.png)
 
-1. Una vez que los cambios estén listos, puede activar la nueva versión de la campaña (consulte [Revisar y activar una campaña](create-campaign.md#review-activate)).
+1. Una vez que los cambios estén listos, puede activar la nueva versión de la campaña (consulte [Revisar y activar una campaña](review-activate-campaign.md)).
 
    >[!IMPORTANT]
    >

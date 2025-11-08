@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: b1598fe695a53fd5261b3067f220dc3eea295dfb
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 6%
@@ -158,7 +158,7 @@ Este límite se comprueba cada 30 minutos. Esto significa que puede superar temp
 
   Si reanuda los recorridos para volver a colocar el número de perfiles retenidos por debajo del límite, el recorrido se reanuda inmediatamente, pero el recuento de perfiles puede tardar hasta 30 minutos en actualizarse. Durante ese tiempo, el sistema puede seguir considerando esos perfiles como en pausa.
 
-* En el caso de los recorridos que incluyen [actividades entrantes](../channels/gs-channels.md#mobile-app-and-web-experiences) (por ejemplo, en la aplicación, web, etc.), la pausa del recorrido no interrumpe las comunicaciones que ya se hayan activado. Si un perfil se ha clasificado para una actividad entrante antes de la pausa, se envía el mensaje correspondiente. Para detener completamente todas las comunicaciones entrantes, debe detener el recorrido.
+* En el caso de los recorridos que incluyen [actividades entrantes](../channels/gs-channels.md#inbound-channels) (por ejemplo, en la aplicación, web, etc.), la pausa del recorrido no interrumpe las comunicaciones que ya se hayan activado. Si un perfil se ha clasificado para una actividad entrante antes de la pausa, se envía el mensaje correspondiente. Para detener completamente todas las comunicaciones entrantes, debe detener el recorrido.
 * Los recorridos en pausa se cuentan hacia la cuota de recorridos activos
 * Los perfiles que habían entrado en el recorrido pero que se descartaron durante la pausa se contarían como perfiles atractivos
 * Los recorridos en pausa se consideran en todas las reglas de negocio, de la misma manera que si estuvieran activos
@@ -201,7 +201,7 @@ Cuando reanude este recorrido:
 
 ## Solución de problemas de descartes de perfiles en recorridos pausados {#discards-troubleshoot}
 
-Puede usar el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
+Puede usar el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
 
 * Para los descartes que se producen antes de que el perfil entre en la recorrido, utilice el siguiente código:
 
