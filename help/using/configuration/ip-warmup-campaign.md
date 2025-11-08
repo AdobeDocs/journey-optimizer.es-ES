@@ -57,7 +57,7 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
    >[!IMPORTANT]
    >
-   >Las audiencias permitidas en una campaña de calentamiento de IP deben estar [basadas en segmentos](../audience/creating-a-segment-definition.md) y creadas con la [política de combinación predeterminada](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >Las audiencias permitidas en una campaña de calentamiento de IP deben estar [basadas en segmentos](../audience/creating-a-segment-definition.md) y creadas con la [política de combinación predeterminada](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
 
    Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
