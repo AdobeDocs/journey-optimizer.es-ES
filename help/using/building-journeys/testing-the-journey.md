@@ -10,10 +10,10 @@ level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 36c44728172313492898bf3374a37512e4c19789
 workflow-type: tm+mt
-source-wordcount: '1842'
-ht-degree: 7%
+source-wordcount: '1800'
+ht-degree: 8%
 
 ---
 
@@ -68,10 +68,6 @@ Para utilizar el modo de prueba, siga estos pasos:
 1. Para activar el modo de prueba, haga clic en el botón **[!UICONTROL Modo de prueba]** ubicado en la esquina superior derecha.
 
    ![](assets/journeytest1.png)
-
-   >[!NOTE]
-   >
-   >Después de habilitar el modo de prueba, espere aproximadamente 1-2 minutos antes de activar una entrada de perfil. Esto permite que el paquete de decisión se propague completamente a través del sistema de toma de decisiones. Si se activa la entrada de un perfil inmediatamente después de activar el modo de prueba, es posible que el recorrido falle ocasionalmente.
 
 1. Si el recorrido tiene al menos una actividad **Wait**, establezca el parámetro **[!UICONTROL Wait time]** para definir el tiempo que cada actividad de espera y el tiempo de espera del evento durarán en el modo de prueba. El tiempo predeterminado es 10 segundos para esperas y tiempos de espera de evento. Esto garantizará que obtenga los resultados de la prueba rápidamente.
 
