@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 452a0a3a08a7b90d0e3a5b78b2e16f532f04ef1a
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
@@ -62,7 +62,7 @@ Si añade etiquetas significativas a los públicos en Journey Optimizer podrá f
 
 El campo **[!UICONTROL Etiquetas]** le permite definir etiquetas para el objeto. Las etiquetas están disponibles para los siguientes objetos:
 
-* [Campañas](../campaigns/create-campaign.md#create)
+* [Campañas](../campaigns/create-campaign.md)
 * [Elementos de decisión](../experience-decisioning/items.md)
 * [Fragmentos](../content-management/fragments.md)
 * [Recorridos](../building-journeys/journey-properties.md)
