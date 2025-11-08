@@ -10,7 +10,7 @@ level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2748'
 ht-degree: 15%
@@ -307,7 +307,7 @@ Por ejemplo, puede [pausar un recorrido](journey-pause.md), agregar una condici�
 
 Esta función funciona junto con la funcionalidad Pausa/Reanudar, lo que le ayuda a administrar recorridos de forma más segura y flexible. Minimice la intervención manual, reduzca el riesgo de enviar comunicaciones irrelevantes o no conformes y mantenga la lógica de recorrido alineada con los requisitos comerciales actuales.
 
-Consulte esta sección para aprender a [usar criterios de salida de atributos de perfil en recorridos en pausa](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey).
+Consulte esta sección para aprender a [usar criterios de salida de atributos de perfil en recorridos en pausa](journey-pause.md#journey-pause-sample).
 
 ### Mecanismos de protección y limitaciones {#exit-criteria-guardrails}
 

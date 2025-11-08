@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 2%
@@ -61,7 +61,7 @@ Para exportar una plantilla de Adobe Experience Manager a Adobe Journey Optimize
     ![](assets/aem-outbound-menu.png)
 -->
 
-1. Desde la biblioteca de contenido, puede utilizar plantillas configuradas anteriormente o crear una desde cero. [Más información](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=es#creating-a-new-page)
+1. Desde la biblioteca de contenido, puede utilizar plantillas configuradas anteriormente o crear una desde cero. [Más información](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. Al incorporar la sintaxis de personalización de Journey Optimizer en la plantilla, puede mejorar sus capacidades de personalización. [Más información](../personalization/personalization-syntax.md)
 
@@ -107,7 +107,7 @@ Una vez que la plantilla de Experience Manager esté disponible en Journey Optim
    >
    > Si desea editar y personalizar la plantilla, solo podrá utilizar el modo de compatibilidad.
 
-1. Cuando la plantilla de contenido esté lista, [pruébela y validámela](../content-management/content-templates.md#test-template).
+1. Cuando la plantilla de contenido esté lista, [pruébela y validámela](../content-management/content-templates.md#content-templates).
 
 1. Una vez definido el contenido, puede utilizarlo al crear correo electrónico nuevo explorando la colección **[!UICONTROL Plantillas guardadas]**. A continuación, seleccione **[!UICONTROL Usar esta plantilla]**.
 

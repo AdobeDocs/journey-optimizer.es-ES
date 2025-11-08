@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -86,7 +86,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 * **Editor de expresiones**: como usuario avanzado, ahora puede usar funciones para trabajar con mapas. Esta capacidad se puede aprovechar con las listas de suscripción. Por ejemplo, desde un público, ahora puede obtener una dirección de correo electrónico de una lista de suscripción. [Obtenga más información en esta muestra](../building-journeys/message-to-subscribers-uc.md)
 
-* **Monitorización**: se han mejorado los eventos de paso para los recorridos en directo y el modo de prueba. Se han añadido [nuevos campos](../reports/sharing-field-list.md#serviceevents) en relación con los trabajos de exportación de perfiles. Para mejorar la experiencia del usuario, los campos de eventos de paso ahora están organizados en diferentes categorías. Todos los campos de eventos de paso anteriores siguen disponibles en la categoría [stepEvents](../reports/sharing-legacy-fields.md).
+* **Monitorización**: se han mejorado los eventos de paso para los recorridos en directo y el modo de prueba. Se han añadido [nuevos campos](../reports/sharing-field-list.md#servicevents-field) en relación con los trabajos de exportación de perfiles. Para mejorar la experiencia del usuario, los campos de eventos de paso ahora están organizados en diferentes categorías. Todos los campos de eventos de paso anteriores siguen disponibles en la categoría [stepEvents](../reports/sharing-legacy-fields.md).
 * **Accesibilidad**: se han implementado mejoras de accesibilidad en los recorridos.
 * **Colecciones**: ahora se admiten matrices de objetos que contienen subobjetos. [Más información](../building-journeys/collections.md)
 * **Listas**: se han mejorado las pantallas de listas para recorridos, eventos, acciones y fuentes de datos.
@@ -277,7 +277,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 **Diseño de contenido**
 
 * **Contexto**: las imágenes de fondo ahora se admiten en la vista previa en vivo. [Más información](../content-management/preview-test.md)
-  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
+  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)-->
 
 **Personalización**
 
@@ -351,7 +351,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 **Vista previa y prueba**
 
-* La identidad y el área de nombres ahora están visibles en la pantalla **[!UICONTROL Vista previa]**. [Más información](../content-management/preview-test.md#preview-your-messages)
+* La identidad y el área de nombres ahora están visibles en la pantalla **[!UICONTROL Vista previa]**. [Más información](../content-management/preview-test.md#preview-test)
 * El número de correos electrónicos de prueba para pruebas ahora está restringido a 10.
 * Los caracteres permitidos para el **Prefijo de línea de asunto** en las pruebas ahora están limitados. [Más información](../content-management/preview-test.md#send-proofs)
 

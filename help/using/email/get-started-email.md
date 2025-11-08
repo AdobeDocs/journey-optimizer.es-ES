@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: correo electrónico, inicio, creación, vista previa
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 66%
@@ -29,7 +29,7 @@ Se pueden crear envíos de correo electrónico de la siguiente manera:
 
 * En un **Recorrido**: una vez que haya añadido una actividad de **[!UICONTROL Correo electrónico]** para su recorrido y haya definido la configuración básica, utilice el panel derecho **[!UICONTROL Acciones: correo electrónico]** para crear el contenido del mensaje. [Obtenga información sobre cómo crear un recorrido](../building-journeys/journey-gs.md)
 
-* En una **Campaña**: una vez creada la campaña, seleccione **[!UICONTROL Correo electrónico]** como su acción y defina la configuración básica. [Obtenga información sobre cómo crear una campaña](../campaigns/create-campaign.md#configure)
+* En una **Campaña**: una vez creada la campaña, seleccione **[!UICONTROL Correo electrónico]** como su acción y defina la configuración básica. [Obtenga información sobre cómo crear una campaña](../campaigns/campaign-action.md#action-campaign-action)
 
 
 >[!IMPORTANT]

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '3712'
 ht-degree: 30%
@@ -30,7 +30,7 @@ Acceda al informe de Recorrido en directo desde el menú [!UICONTROL Recorridos]
 
 La página del recorrido **[!UICONTROL Informe en vivo]** se mostrará con las siguientes pestañas:
 
-* [&#x200B; Recorrido &#x200B;](#journey-live)
+* [ Recorrido ](#journey-live)
 * [Correo electrónico](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
@@ -38,7 +38,7 @@ La página del recorrido **[!UICONTROL Informe en vivo]** se mostrará con las s
 
 El recorrido **[!UICONTROL Informe en vivo]** está dividido en diferentes widgets que detallan el éxito y los errores de su recorrido. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte esta [sección](live-report.md#modify-dashboard).
 
-Para obtener una lista detallada de todas las métricas disponibles en Adobe Journey Optimizer, consulte [esta página](live-report.md#list-of-components-live).
+Para obtener una lista detallada de todas las métricas disponibles en Adobe Journey Optimizer, consulte [esta página](live-report.md#live-report).
 
 ## pestaña recorrido {#journey-live}
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 69742163-7378-49ab-929e-86213d6e65e3
-source-git-commit: 08d444f499229f0942e4dae17d87030225f34d5f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 9%
@@ -41,7 +41,7 @@ Los indicadores clave de rendimiento (KPI) de **[!UICONTROL Experimentación]** 
 
 * **[!UICONTROL Alza]**: medición de la mejora porcentual en la tasa de conversión de un tratamiento determinado respecto al valor de referencia.
 
-* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](../content-management/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 +++
 
@@ -64,7 +64,7 @@ Para profundizar en estos resultados y cómo interpretarlos, consulte [esta pág
 
 * **[!UICONTROL Límite inferior de confianza]**: Valor estimado más bajo de la diferencia de tasa de conversión entre el tratamiento y la línea de base, dentro del intervalo de confianza elegido.
 
-* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](../content-management/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 * **[!UICONTROL Límite superior de confianza]**: Valor estimado más alto de la diferencia de tasa de conversión entre el tratamiento y la línea de base, dentro del intervalo de confianza elegido.
 
@@ -75,4 +75,4 @@ Para profundizar en estos resultados y cómo interpretarlos, consulte [esta pág
 ![](assets/cja-experimentation-conversion.png)
 
 
-El gráfico de **[!UICONTROL Intervalo de confianza]** muestra el rango de posibles mejoras, comparando la línea de base con el tratamiento de mejor rendimiento para la métrica de éxito elegida. [Más información](../content-management/experiment-calculations.md#confidence-intervals).
+El gráfico de **[!UICONTROL Intervalo de confianza]** muestra el rango de posibles mejoras, comparando la línea de base con el tratamiento de mejor rendimiento para la métrica de éxito elegida. [Más información](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences).

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 10%
@@ -49,7 +49,7 @@ La ficha **[!UICONTROL Examinar]** muestra la lista de recorridos existentes. Pu
 
 ![Tablero de recorrido que resalta la ficha Examinar](assets/journeys-browse.png)
 
-En la lista de recorridos, todas las versiones del recorrido se muestran con el número de versión. Cuando busca un recorrido, las versiones más recientes aparecen en la parte superior de la lista la primera vez que se abre la aplicación. A continuación, puede definir la clasificación que desee y la aplicación la mantendrá como preferencia del usuario. La versión del recorrido también se muestra en la parte superior de la interfaz de la edición de recorrido, encima del lienzo. Más información acerca de [administración de versiones de recorrido](publish-journey.md#journey-versions-journey-versions).
+En la lista de recorridos, todas las versiones del recorrido se muestran con el número de versión. Cuando busca un recorrido, las versiones más recientes aparecen en la parte superior de la lista la primera vez que se abre la aplicación. A continuación, puede definir la clasificación que desee y la aplicación la mantendrá como preferencia del usuario. La versión del recorrido también se muestra en la parte superior de la interfaz de la edición de recorrido, encima del lienzo. Más información acerca de [administración de versiones de recorrido](publish-journey.md#journey-versions).
 
 ### calendario de Recorrido {#calendar}
 
@@ -108,7 +108,7 @@ En la lista de recorridos, utilice varios filtros para restringir la lista de re
 
 ![Pantalla que muestra una muestra del filtrado de recorrido con dos tipos de recorridos seleccionados](assets/filter-journeys.png)
 
-Puede filtrar recorridos según su [estado](#journey-statuses), [tipo](#journey-types), [versión](publish-journey.md#journey-versions-journey-versions) y [etiquetas](../start/search-filter-categorize.md#tags) asignadas desde **[!UICONTROL filtros de estado y versión]**.
+Puede filtrar recorridos según su [estado](#journey-statuses), [tipo](#journey-types), [versión](publish-journey.md#journey-versions) y [etiquetas](../start/search-filter-categorize.md#tags) asignadas desde **[!UICONTROL filtros de estado y versión]**.
 
 Use **[!UICONTROL filtros de creación]** para filtrar recorridos según su fecha de creación o el usuario que los creó.
 
@@ -143,7 +143,7 @@ El estado del recorrido depende de su ciclo de vida. Puede ser:
 * **Finalizado**: el recorrido cambia automáticamente a este estado después del tiempo de espera global de [91 días](journey-properties.md#global_timeout). Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido.
 * **Activo**: el recorrido se ha publicado con el botón **Publicar**. [Más información](../building-journeys/publish-journey.md)
 * **Pausado**: el recorrido activo se ha pausado, usando el botón **Pausar**. [Más información](../building-journeys/journey-pause.md)
-* **Detenido**: el recorrido se ha desactivado con el botón **Detener**. Todos los individuos abandonan el recorrido al instante. [Más información](../building-journeys/end-journey.md#stop-a-journey)
+* **Detenido**: el recorrido se ha desactivado con el botón **Detener**. Todos los individuos abandonan el recorrido al instante. [Más información](../building-journeys/end-journey.md#stop-journey)
 * **Cerrado**: el recorrido se ha cerrado con el botón **Cerca de nuevas entradas**. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente. [Más información](../building-journeys/end-journey.md)
 
 >[!NOTE]

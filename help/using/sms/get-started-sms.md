@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 99%
@@ -23,7 +23,7 @@ Los mensajes de texto se pueden crear y enviar en un recorrido o en una campaña
 
 * En un **recorrido**. Cree un recorrido, añada una actividad SMS y defina la configuración básica. A continuación, vaya al panel derecho Acciones de SMS para crear el contenido del mensaje SMS, MMS o RCS. [Obtenga información sobre cómo crear un recorrido](../building-journeys/journey-gs.md)
 
-* En una **campaña**. Cree una campaña, seleccione SMS como su acción y defina la configuración básica. A continuación, edite el contenido del mensaje para definir el mensaje SMS, MMS o RCS que desea enviar. [Obtenga información sobre cómo crear una campaña](../campaigns/create-campaign.md#configure)
+* En una **campaña**. Cree una campaña, seleccione SMS como su acción y defina la configuración básica. A continuación, edite el contenido del mensaje para definir el mensaje SMS, MMS o RCS que desea enviar. [Obtenga información sobre cómo crear una campaña](../campaigns/campaign-action.md#action-campaign-action)
 
 >[!IMPORTANT]
 >
@@ -171,7 +171,7 @@ Cree, personalice y administre su contenido de mensaje de texto:
 Asegúrese de que la mensajería de texto cumpla con las regulaciones y las normas de privacidad:
 
 * [Administración de exclusiones](sms-opt-out.md)
-* [Privacidad y consentimiento](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+* [Privacidad y consentimiento](../privacy/opt-out.md#opt-out-decision-management)
 
 +++
 
@@ -201,7 +201,7 @@ Obtenga información sobre cómo configurar, crear e incluir mensajes SMS en sus
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422693?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Descubra las funcionalidades completas de mensajería móvil que Adobe Journey O
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430377?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Aprenda a configurar y enviar mensajes RCS interactivos de marca en Adobe Journe
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464758?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 

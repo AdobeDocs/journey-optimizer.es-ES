@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: aterrizaje, página de aterrizaje, subdominios, configuración
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 19%
@@ -141,7 +141,7 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
 
 Si desea desdelegar un subdominio de página de aterrizaje, siga los pasos a continuación.
 
-1. En [!DNL Journey Optimizer], cancele la publicación de todas las páginas de aterrizaje asociadas con el subdominio. [Descubra cómo](create-lp.md#access-landing-pages)
+1. En [!DNL Journey Optimizer], cancele la publicación de todas las páginas de aterrizaje asociadas con el subdominio. [Descubra cómo](create-lp.md#create-landing-page)
 
 1. Si el subdominio de página de aterrizaje apunta a un registro CNAME, puede eliminar el registro DNS CNAME que creó para el subdominio de página de aterrizaje de su solución de alojamiento (pero no elimine el subdominio de correo electrónico original, si lo hay).
 

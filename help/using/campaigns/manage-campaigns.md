@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 14%
@@ -29,7 +29,7 @@ ht-degree: 14%
 >title="Acción"
 >abstract="Esta sección enumera todas las acciones utilizadas dentro de la campaña orquestada."
 
-Se puede acceder a las campañas desde el menú **[!UICONTROL Campañas]**. Utilice las fichas para examinar las campañas por tipo: **Campañas de acción**, **campañas activadas por API** y **orquestadas**. Más información sobre los [tipos de campañas](get-started-with-campaigns.md#get-started-with-campaigns). Los tipos disponibles dependen del acuerdo de licencia y de los permisos.
+Se puede acceder a las campañas desde el menú **[!UICONTROL Campañas]**. Utilice las fichas para examinar las campañas por tipo: **Campañas de acción**, **campañas activadas por API** y **orquestadas**. Más información sobre los [tipos de campañas](get-started-with-campaigns.md#get-started-campaigns). Los tipos disponibles dependen del acuerdo de licencia y de los permisos.
 
 >[!BEGINTABS]
 
@@ -66,7 +66,7 @@ El botón ![Imagen que muestra el botón Más acciones](assets/do-not-localize/r
 ![imagen que muestra el inventario de campañas](assets/inventory-actions.png)
 
 * **[!UICONTROL Ver informe de todos los tiempos]** / **[!UICONTROL Ver informe de las últimas 24 horas]**: acceda a informes para medir y visualizar el impacto y el rendimiento de sus campañas. Más información sobre [informes de campaña](../reports/campaign-global-report-cja.md).
-* **[!UICONTROL Editar etiquetas]**: edite las etiquetas asociadas a la campaña. Aprenda a [usar etiquetas en sus campañas](../start/search-filter-categorize.md#add-tags-to-an-object)
+* **[!UICONTROL Editar etiquetas]**: edite las etiquetas asociadas a la campaña. Aprenda a [usar etiquetas en sus campañas](../start/search-filter-categorize.md#add-tags)
 * **[!UICONTROL Duplicate]**: utilice esta opción para duplicar una campaña, por ejemplo, para ejecutar una campaña orquestada que se haya detenido. [Más información](#duplicate-a-campaign)
 * **[!UICONTROL Eliminar]** - Utilice esta opción para eliminar una campaña. [Más información](#delete-a-campaign)
 * **[!UICONTROL Archivar]**: archive la campaña. Todas las campañas archivadas se eliminan según una programación móvil 30 días después de su última fecha de modificación. Esta acción está disponible para todas las campañas excepto para **[!UICONTROL Borrador]**. Más información sobre [archivo de campaña](#archive-a-campaign).

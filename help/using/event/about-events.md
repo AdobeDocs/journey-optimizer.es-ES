@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: eventos, evento, recorrido, definición, inicio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 32%
@@ -91,7 +91,7 @@ Los siguientes tipos de eventos se contabilizan dentro de la cuota de 5,000 TPS:
 
 * **Eventos de Analytics**: si la [integración con Adobe Analytics en recorridos de déclencheur](about-analytics.md) se ha habilitado, también se incluyen estos eventos.
 
-* **Reanudar eventos**: evento técnico activado cuando un perfil se reanuda desde un recorrido pausado. Más información acerca de [reanudar recorridos en pausa](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey).
+* **Reanudar eventos**: evento técnico activado cuando un perfil se reanuda desde un recorrido pausado. Más información acerca de [reanudar recorridos en pausa](../building-journeys/journey-pause.md#journey-resume-steps).
 
 * **Eventos de finalización de nodo de espera**: cuando un perfil sale de un nodo de espera, se genera un evento técnico para reanudar la recorrido.
 
@@ -122,8 +122,8 @@ No se puede eliminar ningún evento utilizado en los recorridos **Live**, **Draf
 
 Aprenda a configurar un evento y a especificar su punto final de reproducción y la carga útil.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431518?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprenda los casos de uso aplicables a los eventos empresariales. Obtenga información sobre cómo crear un recorrido mediante un evento empresarial y las prácticas recomendadas que se deben aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416328?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing, landing page
 exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
-source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 9%
@@ -87,6 +87,6 @@ Para navegar fácilmente por las páginas de aterrizaje, puede utilizar carpetas
 
 1. Con el botón **[!UICONTROL Más acciones]**, también puede mover páginas de aterrizaje a otra carpeta existente.
 
-1. Ahora puede desplazarse a la carpeta que acaba de crear. Cada nueva página de aterrizaje que [cree](create-lp.md#create-landing-page.md) desde aquí se guardará en la carpeta actual.
+1. Ahora puede desplazarse a la carpeta que acaba de crear. Cada nueva página de aterrizaje que [cree](create-lp.md#create-landing-page) desde aquí se guardará en la carpeta actual.
 
    ![](assets/lp-folder-create.png)

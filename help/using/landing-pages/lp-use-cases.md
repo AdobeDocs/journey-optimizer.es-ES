@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 13%
@@ -48,7 +48,7 @@ Por ejemplo, supongamos que organiza un evento el mes que viene y que desea inic
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [Publicar](create-lp.md#publish) la página de aterrizaje.
+1. [Publicar](create-lp.md#publish-landing-page) la página de aterrizaje.
 
 1. En un [recorrido](../building-journeys/journey.md), agregue una actividad **Correo electrónico** para dirigir el tráfico a la página de aterrizaje de registro.
 
@@ -127,7 +127,7 @@ Para permitir que los destinatarios de un correo electrónico cancelen su suscri
    >
    >Asegúrese de hacer referencia a la subpágina en la sección **[!UICONTROL Call to action]** de la página principal del componente **[!UICONTROL Form]**. [Más información](design-lp.md)
 
-1. Una vez que haya configurado y definido el contenido de sus páginas, [publique](create-lp.md#publish) la página de aterrizaje.
+1. Una vez que haya configurado y definido el contenido de sus páginas, [publique](create-lp.md#publish-landing-page) la página de aterrizaje.
 
 1. [Crear un mensaje de correo electrónico](../email/get-started-email-design.md) en un recorrido.
 
@@ -163,7 +163,7 @@ La información de exclusión se almacena en el **conjunto de datos del servicio
 
 >[!NOTE]
 >
->Si el método de combinación para la directiva de combinación predeterminada de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"} **[!UICONTROL Perfiles]** es la **[!UICONTROL Prioridad del conjunto de datos]**, asegúrese de habilitar el **[!UICONTROL conjunto de datos del servicio de consentimiento de AJO]** y de priorizarlo en la directiva de combinación. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es#dataset-precedence-profile){target="_blank"}
+>Si el método de combinación para la directiva de combinación predeterminada de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"} **[!UICONTROL Perfiles]** es la **[!UICONTROL Prioridad del conjunto de datos]**, asegúrese de habilitar el **[!UICONTROL conjunto de datos del servicio de consentimiento de AJO]** y de priorizarlo en la directiva de combinación. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Incluso si no se han agregado lotes a este conjunto de datos, seguirá conteniendo la información de inclusión/exclusión.
 
@@ -171,7 +171,7 @@ La información de exclusión se almacena en el **conjunto de datos del servicio
 
 **Ver también:**
 
-* [Opción de exclusión en un clic](../email/email-opt-out.md#one-click-opt-out-link)
+* [Opción de exclusión en un clic](../email/email-opt-out.md#one-click-opt-out)
 * [Vínculo de no participación en el encabezado del correo electrónico](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
@@ -182,7 +182,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)
 
 * **Unsubscribe link in header**
 

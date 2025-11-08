@@ -10,7 +10,7 @@ level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 24%
@@ -124,4 +124,4 @@ Obtenga más información acerca de los informes de recorrido en esta [sección]
 
 >[!NOTE]
 >
->Si necesita modificar un recorrido de **live**, [cree una nueva versión](journey-ui.md#journey-versions) de su recorrido.
+>Si necesita modificar un recorrido de **live**, [cree una nueva versión](journey-ui.md#journey-filter) de su recorrido.

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 25f581e0f501c148140716da1ef1bf7fd4f43352
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 25%
@@ -151,7 +151,7 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
    Encontrará información detallada sobre cómo aplicar un conjunto de reglas en estas secciones:
 
    * [Aplicación de un conjunto de reglas a un recorrido](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [Aplicación de reglas de límite a las acciones de recorrido y campaña](../conflict-prioritization/channel-capping.md#apply)
+   * [Aplicación de reglas de límite a las acciones de recorrido y campaña](../conflict-prioritization/channel-capping.md#apply-frequency-rule)
    * [Aplicación de reglas de horas tranquilas al recorrido y la campaña](../conflict-prioritization/quiet-hours.md#apply)
 
 ## Acceso y administración de conjuntos de reglas {#access-rule-sets}
@@ -180,4 +180,4 @@ Su estado cambiará a **[!UICONTROL Inactivo]** y la regla no se aplicará a fut
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444729?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

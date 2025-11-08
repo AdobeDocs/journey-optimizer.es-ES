@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
@@ -33,7 +33,7 @@ Como parte del cumplimiento de las prácticas recomendadas del sector, Google y 
 
 Por consiguiente, Adobe le recomienda encarecidamente que se asegure de tener configurado el registro DMARC para todos los subdominios que haya delegado a Adobe en [!DNL Journey Optimizer].  Siga estos pasos que se aplican a su caso:
 
-* Si ha [delegado completamente](delegate-subdomain.md#full-subdomain-delegation) sus subdominios a Adobe, elija una de las siguientes opciones:
+* Si ha [delegado completamente](delegate-subdomain.md#set-up-subdomain) sus subdominios a Adobe, elija una de las siguientes opciones:
 
    * Configure DMARC en el dominio principal de los subdominios delegados **en su solución de alojamiento**.
 o

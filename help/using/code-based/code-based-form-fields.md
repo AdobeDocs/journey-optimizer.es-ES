@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 8%
@@ -104,7 +104,7 @@ Al crear una plantilla de contenido de experiencia basada en código, puede util
 
 1. Haga clic en **[!UICONTROL Agregar directiva de decisión]** mediante el icono **[!UICONTROL Mostrar decisión]** del carril derecho de la pantalla de edición o en el editor de expresiones desde la sección **[!UICONTROL Directiva de decisión]** del menú de la izquierda.
 
-   Aprenda a crear una directiva de decisión en [esta sección](../experience-decisioning/create-decision.md#add-decision).
+   Aprenda a crear una directiva de decisión en [esta sección](../experience-decisioning/create-decision.md#create-decision).
 
 1. Haga clic en el botón **[!UICONTROL Insertar directiva]**. Se agrega el código correspondiente a la política de decisión.
 
@@ -246,4 +246,4 @@ Podrá editar fácilmente los campos de formulario desde un recorrido de experie
 
 Aprenda a añadir campos editables a plantillas de contenido de canal de experiencia basadas en código.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463994/?captions=spa&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

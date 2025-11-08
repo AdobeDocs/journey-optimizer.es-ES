@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: aterrizaje, página de aterrizaje, configurar, entorno, subdominio, ajustes preestablecidos
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 13%
@@ -24,7 +24,7 @@ ht-degree: 13%
 
 ## Introducción a los ajustes preestablecidos de página de aterrizaje {#gs-lp-presets}
 
-Al [crear una página de aterrizaje](../landing-pages/create-lp.md#create-a-lp), debe seleccionar un ajuste preestablecido de página de aterrizaje para poder generar la página de aterrizaje y aprovecharla a través de **[!DNL Journey Optimizer]**. El ajuste preestablecido incluye el subdominio que se utilizará para las páginas de aterrizaje en función de este ajuste preestablecido.
+Al [crear una página de aterrizaje](../landing-pages/create-lp.md#create-lp), debe seleccionar un ajuste preestablecido de página de aterrizaje para poder generar la página de aterrizaje y aprovecharla a través de **[!DNL Journey Optimizer]**. El ajuste preestablecido incluye el subdominio que se utilizará para las páginas de aterrizaje en función de este ajuste preestablecido.
 
 Antes de crear un ajuste preestablecido, asegúrese de que ha configurado al menos un subdominio de página de aterrizaje. [Aprenda a crear un subdominio de página de aterrizaje](lp-subdomains.md).
 
@@ -93,4 +93,4 @@ Ya está listo para [crear páginas de aterrizaje](../landing-pages/create-lp.md
 **Temas relacionados**:
 
 * [Introducción a las páginas de destino](../landing-pages/get-started-lp.md)
-* [Creación de una página de destino](../landing-pages/create-lp.md#create-a-lp)
+* [Creación de una página de destino](../landing-pages/create-lp.md#create-lp)

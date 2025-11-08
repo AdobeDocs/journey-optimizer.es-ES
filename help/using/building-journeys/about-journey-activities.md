@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: recorridos, actividades, introducción, eventos, acción
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 15%
@@ -97,7 +97,7 @@ Para facilitar la lectura, oculte estos parámetros con el botón **[!UICONTROL 
 
 ![Ocultar el icono de campos de solo lectura en las propiedades de la actividad de recorrido](assets/journey-hide-read-only-fields.png)
 
-En algunos contextos particulares, puede anular los valores de estos parámetros para un uso específico. Para forzar un valor, haga clic en el icono **[!UICONTROL Habilitar la sustitución de parámetros]** a la derecha del campo. [Más información](../configuration/primary-email-addresses.md#journey-parameters)
+En algunos contextos particulares, puede anular los valores de estos parámetros para un uso específico. Para forzar un valor, haga clic en el icono **[!UICONTROL Habilitar la sustitución de parámetros]** a la derecha del campo. [Más información](../configuration/primary-email-addresses.md#override-execution-address-journey)
 
 ![Habilitar la opción de anulación de parámetros en las propiedades de la actividad de correo electrónico](assets/journey-enable-parameter-override.png)
 

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 <!--Do not modify - Legal Review Done -->
 
-En [!DNL Adobe Journey Optimizer], al establecer una nueva configuración de canal de correo electrónico, tras [seleccionar un subdominio](email-settings.md#subdomains-and-ip-pools) en la lista, aparece la opción **[!UICONTROL Habilitar cancelación de suscripción a lista]**. De forma predeterminada, está habilitada.
+En [!DNL Adobe Journey Optimizer], al establecer una nueva configuración de canal de correo electrónico, tras [seleccionar un subdominio](email-settings.md#ip-pools) en la lista, aparece la opción **[!UICONTROL Habilitar cancelación de suscripción a lista]**. De forma predeterminada, está habilitada.
 
 ![](assets/preset-list-unsubscribe.png)
 

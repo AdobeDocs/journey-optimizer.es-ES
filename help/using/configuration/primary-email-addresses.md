@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: principal, ejecución, correo electrónico, destinatario, perfil, optimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 20%
@@ -83,7 +83,7 @@ Anular este valor puede resultar útil, por ejemplo, para lo siguiente:
 * Pruebe su envío. Puede añadir su propia dirección de correo electrónico o número de teléfono: después de publicar el recorrido, se le envía el mensaje de correo electrónico, SMS o WhatsApp.
 * Envíe un mensaje a los suscriptores de una lista. Obtenga más información en [este caso de uso](../building-journeys/message-to-subscribers-uc.md).
 
-Al agregar una acción **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]** o **[!UICONTROL WhatsApp]** a un [recorrido](../email/create-email.md#create-email-journey-campaign), la dirección de correo electrónico principal o el número de teléfono se muestran bajo los parámetros avanzados del recorrido.
+Al agregar una acción **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]** o **[!UICONTROL WhatsApp]** a un [recorrido](../email/create-email.md#create-email), la dirección de correo electrónico principal o el número de teléfono se muestran bajo los parámetros avanzados del recorrido.
 
 Anule este valor con el icono **[!UICONTROL Habilitar anulación de parámetros]** a la derecha del campo.
 

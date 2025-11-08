@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 11%
@@ -75,7 +75,7 @@ Para crear una plantilla de contenido desde cero, siga los pasos a continuación
 
      >[!NOTE]
      >
-     >Puede agregar políticas de decisión a las plantillas de contenido de experiencia basadas en código. [Más información](../experience-decisioning/create-decision.md#add-decision)
+     >Puede agregar políticas de decisión a las plantillas de contenido de experiencia basadas en código. [Más información](../experience-decisioning/create-decision.md#create-decision)
 
 1. Puede probar el contenido. [Descubra cómo](#test-template)
 

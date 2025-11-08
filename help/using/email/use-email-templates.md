@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: correo electrónico, plantillas, diseño
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 5be9ac1f77d7a09089dd8115fd7c9cfa0a3ab0d2
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 20%
@@ -33,9 +33,9 @@ Puede elegir entre:
 
 * **Plantillas guardadas**. También puede utilizar una plantilla personalizada que permita:
 
-   * Creadas desde cero utilizando el menú **[!UICONTROL Plantillas de contenido]**. [Más información](../content-management/content-templates.md#create-template-from-scratch)
+   * Creadas desde cero utilizando el menú **[!UICONTROL Plantillas de contenido]**. [Más información](../content-management/content-templates.md#content-templates)
 
-   * Se guardó desde un correo electrónico en un recorrido o una campaña usando la opción **[!UICONTROL Guardar como plantilla de contenido]**. [Más información](../content-management/content-templates.md#save-as-template)
+   * Se guardó desde un correo electrónico en un recorrido o una campaña usando la opción **[!UICONTROL Guardar como plantilla de contenido]**. [Más información](../content-management/content-templates.md#video-templates)
 
 Para empezar a crear contenido con una de las plantillas de ejemplo o guardadas, siga los pasos a continuación.
 
@@ -47,7 +47,7 @@ Para empezar a crear contenido con una de las plantillas de ejemplo o guardadas,
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. Se muestra la lista de todas las [plantillas de contenido](../content-management/content-templates.md#create-content-templates) creadas en la zona protegida actual. Puede ordenarlas **[!UICONTROL Por nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
+1. Se muestra la lista de todas las [plantillas de contenido](../content-management/content-templates.md#content-templates) creadas en la zona protegida actual. Puede ordenarlas **[!UICONTROL Por nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
 
    ![](assets/email_designer-saved-templates-filter.png)
 
