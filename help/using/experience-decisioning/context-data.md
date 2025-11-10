@@ -6,7 +6,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -29,7 +30,7 @@ Para utilizar datos de contexto, primero debe definir los datos que desea que es
 
 Los pasos para alimentar Decisioning con datos de Adobe Experience Platform son los siguientes:
 
-1. Crear un **esquema de evento de experiencia** en Adobe Experience Platform y su **conjunto de datos** asociado. [Aprenda a crear esquemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. Crear un **esquema de evento de experiencia** en Adobe Experience Platform y su **conjunto de datos** asociado. [Aprenda a crear esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. Cree una nueva secuencia de datos de Adobe Experience Platform:
 
@@ -47,6 +48,6 @@ Una vez guardado el conjunto de datos, la información del conjunto de datos sel
 
 Para obtener más información sobre cómo trabajar con Adobe Experience Platform, explore los siguientes recursos:
 
-* [Esquemas del modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [Conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [Corrientes de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/overview){target="_blank"}
+* [Esquemas del modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [Conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [Corrientes de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}

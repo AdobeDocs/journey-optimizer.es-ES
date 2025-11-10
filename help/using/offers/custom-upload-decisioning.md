@@ -6,7 +6,8 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 2%
@@ -25,7 +26,7 @@ Los datos de las audiencias de carga personalizadas se pueden aprovechar en Admi
 Para obtener más información sobre las audiencias de carga personalizada, consulte las secciones:
 
 * [Introducción a audiencias y Journey Optimizer](../audience/about-audiences.md)
-* [Importación de una audiencia en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importación de una audiencia en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Lectura obligatoria {#must-read}
 

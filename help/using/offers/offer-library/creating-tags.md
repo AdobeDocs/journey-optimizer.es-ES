@@ -7,7 +7,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 23%
@@ -45,4 +46,4 @@ Para crear un cualificador de recopilación, siga estos pasos:
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341364?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

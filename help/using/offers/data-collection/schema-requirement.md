@@ -8,7 +8,8 @@ feature: Ranking, Datasets, Decision Management
 role: Developer
 level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 2%
@@ -108,4 +109,4 @@ Para los eventos personalizados, el esquema utilizado en el conjunto de datos ta
 >* POST/ee/v2/interaction
 >* POST /ee/v2/collect
 >
->Si está usando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"} o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=es){target="_blank"}, la conexión se establece automáticamente.
+>Si está usando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, la conexión se establece automáticamente.

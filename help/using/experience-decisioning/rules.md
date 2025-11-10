@@ -6,7 +6,8 @@ topic: Integrations, Content Management
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 9bd0b149acdce17b8157e6c0e747353e0dd00cc8
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 9%
@@ -136,4 +137,4 @@ Para crear una regla, siga estos pasos:
 
 Aprenda a crear, duplicar y aplicar **reglas de segmentación** reutilizables en Adobe Journey Optimizer para personalizar de forma eficaz las campañas basadas en atributos del cliente como la región, el idioma y el comportamiento, ahorrando tiempo y mejorando la precisión de la audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476130/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
