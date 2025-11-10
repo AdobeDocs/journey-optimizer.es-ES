@@ -75,4 +75,4 @@ Para crear una regla de decisión, siga estos pasos:
 
 ## Tutorial en vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341365?captions=spa&quality=12)
