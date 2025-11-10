@@ -1,6 +1,6 @@
 ---
-product: experience platform
-solution: Experience Platform
+solution: Journey Optimizer
+product: Journey Optimizer
 title: Datos de contexto y solicitudes de Edge Decisioning
 description: Obtenga información sobre cómo pasar datos de contexto en solicitudes de Edge Decisioning.
 badge: label="Heredado" type="Informative"
@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 1%
@@ -52,11 +52,11 @@ A diferencia de pasar el contexto en un formato bastante libre mediante la API d
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Aprenda a trabajar con esquemas en la guía de Adobe Experience Platform [Experience Data Model (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home){target="_blank"}
+   Aprenda a trabajar con esquemas en la guía de Adobe Experience Platform [Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}
 
 1. Cree un conjunto de datos (aquí &quot;Contexto de la oferta&quot;) y asegúrese de que esté habilitado para el perfil.
 
-1. Cree una nueva secuencia de datos a partir del menú **[!UICONTROL Recopilación de datos]** > **[!UICONTROL Secuencias de datos]**. Aprenda a crear y configurar flujos de datos en la [guía de flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure){target="_blank"} de Adobe Experience Platform
+1. Cree una nueva secuencia de datos a partir del menú **[!UICONTROL Recopilación de datos]** > **[!UICONTROL Secuencias de datos]**. Aprenda a crear y configurar flujos de datos en la [guía de flujos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"} de Adobe Experience Platform
 
    Aquí, hemos creado un flujo de datos de &quot;Contexto de oferta&quot;, con el esquema de evento &quot;Contenido de oferta&quot; seleccionado.
 

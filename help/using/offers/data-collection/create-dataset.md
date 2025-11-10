@@ -1,6 +1,6 @@
 ---
-product: experience platform
-solution: Experience Platform
+solution: Journey Optimizer
+product: Journey Optimizer
 title: Crear un conjunto de datos para recopilar eventos
 description: Obtenga información sobre cómo crear un conjunto de datos para recopilar eventos
 badge: label="Heredado" type="Informative"
@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 8%
@@ -53,7 +53,7 @@ Comience creando el esquema que se utilizará en el conjunto de datos:
 
 >[!NOTE]
 >
->Obtenga más información acerca de la creación de esquemas en [Aspectos básicos de la composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es#understanding-schemas){target="_blank"}.
+>Obtenga más información acerca de la creación de esquemas en [Aspectos básicos de la composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
 ya está listo para crear un conjunto de datos con este esquema. Para realizar esto, siga los pasos a continuación:
 

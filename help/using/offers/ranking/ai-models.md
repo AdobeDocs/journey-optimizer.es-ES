@@ -1,6 +1,6 @@
 ---
-product: experience platform
-solution: Experience Platform
+solution: Journey Optimizer
+product: Journey Optimizer
 title: Introducción a los modelos de IA
 description: Obtenga información acerca de los modelos de IA que permiten clasificar ofertas
 badge: label="Heredado" type="Informative"
@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 15%
@@ -64,4 +64,4 @@ Los pasos principales para crear y utilizar modelos de IA son los siguientes:
 
 Obtenga información sobre cómo crear un modelo de IA para Offer Decisioning y cómo aplicarlo a una decisión.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445647?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

@@ -6,10 +6,10 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 5%
+ht-degree: 16%
 
 ---
 
@@ -21,54 +21,54 @@ La lista completa de [!DNL Journey Optimizer] protecciones y limitaciones está 
 
 ## Solicitudes de decisión {#decision-requests}
 
-|| Barrera | Límite |
-|| ------- | ------- |
-|| Solicitud de API de experiencia basada en código con política de decisión mediante la segmentación de Edge | 1500 |
-|| Solicitud de API de experiencia basada en código con política de decisión que no utiliza la segmentación de Edge | 5000 |
-|| Número máximo de URI de superficie por solicitud de toma de decisiones de Edge | 30 |
+| Barrera | Límite |
+| ------- | ------- |
+| Solicitud de API de experiencia basada en código con política de decisión mediante la segmentación de Edge | 1500 |
+| Solicitud de API de experiencia basada en código con política de decisión que no utiliza la segmentación de Edge | 5000 |
+| Número máximo de URI de superficie por solicitud de toma de decisiones de Edge | 30 |
 
 ## Colecciones de elementos {#item-collections}
 
-|| Barrera | Límite |
-|| ------- | ------- |
-|| Colecciones de elementos | 10K |
-|| Total de elementos de oferta por colección de elementos | 500 |
+| Barrera | Límite |
+| ------- | ------- |
+| Colecciones de elementos | 10K |
+| Total de elementos de oferta por colección de elementos | 500 |
 
 ## Política de decisión {#decision-policy}
 
-|| Barrera | Límite |
-|| ------- | ------- |
-|| Número de estrategias de selección y elementos manuales por política de decisión | 10 |
-|| Máximo de elementos de oferta devueltos por política de decisión | 30 |
+| Barrera | Límite |
+| ------- | ------- |
+| Número de estrategias de selección y elementos manuales por política de decisión | 10 |
+| Máximo de elementos de oferta devueltos por política de decisión | 30 |
 
 ## Reglas de elegibilidad {#eligibility-rules}
 
-|| Barrera | Límite |
-|| ------- | ------- |
-|| Total de reglas de decisión y fórmulas de clasificación | 10K combinado |
-|| Número máximo de atributos de perfil por regla | 25 |
-|| Número máximo de atributos de datos de contexto por regla | 30 |
-|| Tamaño máximo de la regla pql | 15K (UTF-8) |
-|| Número máximo de niveles de anidación | 30 |
+| Barrera | Límite |
+| ------- | ------- |
+| Total de reglas de decisión y fórmulas de clasificación | 10K combinado |
+| Número máximo de atributos de perfil por regla | 25 |
+| Número máximo de atributos de datos de contexto por regla | 30 |
+| Tamaño máximo de la regla pql | 15K (UTF-8) |
+| Número máximo de niveles de anidación | 30 |
 
 ## Fórmulas de clasificación {#ranking-formulas}
 
-|| Barrera | Límite |
-|| ------- | ------- |
-|| Tamaño máximo de la fórmula de clasificación PQL | 8 K (UTF-8) |
-|| Número máximo de atributos de perfil |25 |
-|| Número máximo de atributos de datos de contexto | 30 |
-|| Número máximo de niveles de anidación | 30 |
+| Barrera | Límite |
+| ------- | ------- |
+| Tamaño máximo de la fórmula de clasificación PQL | 8 K (UTF-8) |
+| Número máximo de atributos de perfil | 25 |
+| Número máximo de atributos de datos de contexto | 30 |
+| Número máximo de niveles de anidación | 30 |
 
 ## Otros {#others}
 
-|| Barrera | Límite |
-|| ------- | ------- |
-|| Número de atributos personalizados por esquema del catálogo de ofertas | 100 |
-|| Total de elementos de oferta | 10K |
-|| Ubicaciones totales | 1K |
-|| Modelo de clasificación de IA | 5 |
-|| Reglas de frecuencia: número máximo de reglas de límite por oferta | 10 |
+| Barrera | Límite |
+| ------- | ------- |
+| Número de atributos personalizados por esquema del catálogo de ofertas | 100 |
+| Total de elementos de oferta | 10K |
+| Ubicaciones totales | 1K |
+| Modelo de clasificación de IA | 5 |
+| Reglas de frecuencia: número máximo de reglas de límite por oferta | 10 |
 
 ## Configuraciones  {#configurations}
 
