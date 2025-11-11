@@ -33,7 +33,7 @@ Para ello, la organización debería:
 
 * Exporte el conjunto de datos a la API del proveedor de entrega de mensajes.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=es) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
