@@ -10,10 +10,10 @@ level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 36%
+source-wordcount: '1102'
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ El punto de partida de un recorrido es siempre un evento. Puede hacer pruebas co
 
 Puede comprobar si la llamada API que envía a través de estas herramientas se envía correctamente o no. Si vuelve a recibir un error, significa que la llamada tiene un problema. Vuelva a comprobar la carga útil, el encabezado (y especialmente el ID de organización) y la dirección URL de destino. Puede preguntar a su administrador cuál es la dirección URL correcta para visitar.
 
-Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con el evento, puede consultar [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=es){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
+Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con el evento, puede consultar [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
 
 Si el recorrido no puede habilitar el modo de prueba con el error `ERR_MODEL_RULES_16`, asegúrese de que el evento usado incluya un [área de nombres de identidad](../audience/get-started-identity.md) al usar una acción de canal.
 
@@ -74,3 +74,79 @@ Si las personas recorren el recorrido correctamente pero no reciben mensajes que
 * [!DNL Journey Optimizer] ha enviado correctamente el mensaje. Compruebe los informes de recorrido para asegurarse de que no hay errores.
 
 En el caso de un mensaje enviado mediante una acción personalizada, lo único que se puede comprobar durante la prueba de recorrido es el hecho de que la llamada del sistema de la acción personalizada produce un error o no. Si la llamada al sistema externo asociada con la acción personalizada no genera un error pero no conduce al envío de un mensaje, algunas investigaciones deben realizarse en el sistema externo.
+
+## Explicación de las entradas duplicadas en eventos de paso de Recorrido {#duplicate-step-events}
+
+### ¿Por qué veo varias entradas con la misma instancia de recorrido, perfil, nodo e ID de solicitud?
+
+Al consultar los datos de Eventos de paso de Recorrido, puede observar ocasionalmente lo que parecen ser entradas de registro duplicadas para la misma ejecución de recorrido. Estas entradas comparten valores idénticos para:
+
+* `profileID` - La identidad del perfil
+* `instanceID`: el identificador de instancia de recorrido
+* `nodeID`: el nodo de recorrido específico
+* `requestID` - El identificador de la solicitud
+
+Sin embargo, estas entradas tienen **diferentes valores de `_id`**, que es el indicador clave que distingue este escenario de la duplicación de datos real.
+
+### ¿Qué causa este comportamiento?
+
+Esto se debe a las operaciones de escalado automático del servidor (también denominadas &quot;reequilibrio&quot;) en la arquitectura de microservicios de Adobe Journey Optimizer. Durante períodos de alta carga u optimización del sistema:
+
+1. Un evento de paso de recorrido comienza a procesarse y se registra en el conjunto de datos de eventos de paso de Recorrido
+2. Una operación de escalado automático redistribuye la carga de trabajo entre instancias de servicio
+3. Otra instancia de servicio puede volver a procesar el mismo evento y crear una segunda entrada de registro con un `_id` diferente
+
+Se trata de un comportamiento esperado del sistema y **funciona según lo diseñado**.
+
+### ¿Afecta a la ejecución del recorrido o a la entrega de mensajes?
+
+**No.**: el impacto se limita solamente al registro. Adobe Journey Optimizer tiene mecanismos de deduplicación integrados en la capa de ejecución de mensajes que garantizan lo siguiente:
+
+* Solo se envía un mensaje (correo electrónico, SMS, notificación push, etc.) a cada perfil
+* Las acciones se ejecutan solo una vez
+* La ejecución del recorrido se realiza correctamente
+
+Puede comprobarlo consultando los `ajo_message_feedback_event_dataset` o comprobando los registros de ejecución de acciones. Verá que solo se envió un mensaje, a pesar de las entradas de evento de paso de recorrido duplicadas.
+
+### ¿Cómo puedo identificar estos casos en mis consultas?
+
+Al analizar los datos de Eventos de paso de Recorrido:
+
+1. **Compruebe el campo `_id`**: Los duplicados verdaderos en el nivel de sistema tendrían el mismo `_id`. Valores diferentes de `_id` indican entradas de registro independientes del escenario de reequilibrio descrito anteriormente.
+
+2. **Verificar entrega de mensajes**: haga referencia cruzada con datos de comentarios de mensajes para confirmar que solo se envió un mensaje:
+
+   ```sql
+   SELECT
+     timestamp,
+     _experience.customerJourneyManagement.messageExecution.messageExecutionID,
+     _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+   FROM ajo_message_feedback_event_dataset
+   WHERE
+     _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journeyVersionID>'
+     AND TO_JSON(identityMap) like '%<profileID>%'
+   ORDER BY timestamp DESC;
+   ```
+
+3. **Agrupar por identificadores únicos**: Al contar las ejecuciones, use `_id` para obtener recuentos precisos:
+
+   ```sql
+   SELECT
+     COUNT(DISTINCT _id) as unique_executions
+   FROM journey_step_events
+   WHERE
+     _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+     AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID>'
+   ```
+
+### ¿Qué debo hacer si observo esto?
+
+Este es un comportamiento normal del sistema y **no se requiere ninguna acción**. El registro duplicado no indica un problema con la configuración del recorrido o la entrega de mensajes.
+
+Si está creando informes o análisis basados en Eventos de pasos de Recorrido:
+
+* Usar `_id` como clave principal para contar eventos únicos
+* Referencia cruzada con conjuntos de datos de comentarios de mensajes al analizar el envío de mensajes
+* Tenga en cuenta que el análisis de tiempo puede mostrar entradas agrupadas con unos segundos de diferencia
+
+Para obtener más información sobre la consulta de eventos de paso de Recorrido, vea [Ejemplos de consultas](../reports/query-examples.md).

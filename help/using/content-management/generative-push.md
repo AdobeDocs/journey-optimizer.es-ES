@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1926'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ Siga estos pasos:
 
 1. Acceda al menú **[!UICONTROL Mostrar asistente de IA]**.
 
-   ![](assets/push-genai-full-1.png){zoomable="yes"}
+   ![Se abrió el editor de notificaciones push con el panel del Asistente de IA que muestra las opciones de marca y aviso](assets/push-genai-full-1.png){zoomable="yes"}
 
 1. Habilite la opción **[!UICONTROL Usar contenido original]** para el asistente de IA a fin de personalizar la nueva opción de contenido en función del contenido seleccionado.
 
@@ -58,7 +58,7 @@ Siga estos pasos:
 
    Si está buscando ayuda para crear su mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar sus campañas.
 
-   ![](assets/push-genai-full-2.png){zoomable="yes"}
+   ![Asistente de IA para notificaciones push con campo de solicitud, selectores de campo para mensaje de título e imagen y biblioteca de solicitud](assets/push-genai-full-2.png){zoomable="yes"}
 
 1. Elija el campo que desea generar: **[!UICONTROL Título]**, **[!UICONTROL Mensaje]** o **[!UICONTROL Imagen]**.
 
@@ -68,7 +68,7 @@ Siga estos pasos:
    * **[!UICONTROL Idiomas]**: elige el idioma del contenido generado.
    * **[!UICONTROL Tono]**: el tono de las notificaciones push debería interesar a la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA puede adaptar el mensaje en consecuencia.
 
-   ![](assets/push-genai-full-3.png){zoomable="yes"}
+   ![Panel de configuración de texto para notificaciones push que muestra la estrategia de comunicación, los idiomas y los menús desplegables de tono](assets/push-genai-full-3.png){zoomable="yes"}
 
 1. Elija su **[!UICONTROL configuración de imagen]**:
 
@@ -78,7 +78,7 @@ Siga estos pasos:
    * **[!UICONTROL Iluminación]**: hace referencia al relámpago presente en una imagen, que da forma a su atmósfera y resalta elementos específicos.
    * **[!UICONTROL Composición]**: hace referencia a la disposición de elementos dentro del marco de una imagen
 
-   ![](assets/push-genai-full-5.png){zoomable="yes"}
+   ![Configuración de imagen para notificaciones push con opciones de Tipo de contenido, Intensidad visual, Color y tono, Iluminación y Composición](assets/push-genai-full-5.png){zoomable="yes"}
 
 1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
@@ -94,7 +94,7 @@ Siga estos pasos:
 
    Más información sobre [puntuación de alineación de marca](brands-score.md).
 
-   ![](assets/push-genai-full-4.png){zoomable="yes"}
+   ![Variaciones de notificaciones push generadas con porcentaje de puntuación de alineación de marca y controles de vista previa](assets/push-genai-full-4.png){zoomable="yes"}
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
@@ -106,7 +106,7 @@ Siga estos pasos:
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
-   ![](assets/push-genai-full-6.png){zoomable="yes"}
+   ![Refine las opciones de notificaciones push con los controles de estrategia Reexpresar, Usar lenguaje más sencillo, Tono y Comunicación](assets/push-genai-full-6.png){zoomable="yes"}
 
 1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
@@ -132,7 +132,7 @@ En este ejemplo en particular, aprenda a utilizar el asistente de IA en Journey 
 
 1. Acceda al menú **[!UICONTROL Editar texto con el asistente de IA]** junto a los campos **[!UICONTROL Título]** o **[!UICONTROL Mensaje]**.
 
-   ![](assets/push-genai-1.png){zoomable="yes"}
+   ![Pantalla de composición de notificaciones push con el botón Editar texto con el asistente de IA junto a los campos Título y Mensaje](assets/push-genai-1.png){zoomable="yes"}
 
 1. Habilite la opción **[!UICONTROL Usar contenido de referencia]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
@@ -144,7 +144,7 @@ En este ejemplo en particular, aprenda a utilizar el asistente de IA en Journey 
 
    Si está buscando ayuda para crear su mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar sus campañas.
 
-   ![](assets/push-genai-2.png){zoomable="yes"}
+   ![Editor de texto del Ayudante de IA con la opción Usar contenido de referencia, selector de marca, campo de solicitud y botón de biblioteca de solicitud](assets/push-genai-2.png){zoomable="yes"}
 
 1. Adapte el mensaje con la opción **[!UICONTROL Configuración de texto]**:
 
@@ -153,7 +153,7 @@ En este ejemplo en particular, aprenda a utilizar el asistente de IA en Journey 
    * **[!UICONTROL Tono]**: el tono de la notificación push debería interesar a la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA puede adaptar el mensaje en consecuencia.
    * **[!UICONTROL Longitud]**: seleccione la longitud del contenido mediante el regulador de intervalo.
 
-   ![](assets/push-genai-4.png){zoomable="yes"}
+   ![Se ha expandido la configuración de texto para mostrar la estrategia de comunicación, los idiomas, los tonos desplegables y el control deslizante Longitud](assets/push-genai-4.png){zoomable="yes"}
 
 1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
@@ -167,7 +167,7 @@ En este ejemplo en particular, aprenda a utilizar el asistente de IA en Journey 
 
    Más información sobre [puntuación de alineación de marca](brands-score.md).
 
-   ![](assets/push-genai-5.png){zoomable="yes"}
+   ![Variaciones de texto generadas para notificaciones push con indicador de puntuación de alineación de marca](assets/push-genai-5.png){zoomable="yes"}
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
@@ -183,7 +183,7 @@ En este ejemplo en particular, aprenda a utilizar el asistente de IA en Journey 
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
-   ![](assets/push-genai-6.png){zoomable="yes"}
+   ![Refinar el menú que muestra las opciones de Elaborar, Resumir, Reformular, Usar idiomas más simples con la lista desplegable Tono](assets/push-genai-6.png){zoomable="yes"}
 
 1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
@@ -207,7 +207,7 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
 1. Acceda al menú **[!UICONTROL Agregar medios]**.
 
-   ![](assets/push-gen-img-1.png){zoomable="yes"}
+   ![Editor de notificaciones push con botón Agregar medios para incluir imágenes en la notificación](assets/push-gen-img-1.png){zoomable="yes"}
 
 1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el Asistente de IA personalice el nuevo contenido en función del contenido de referencia. También puede cargar una imagen para añadir contexto a la variación.
 
@@ -219,7 +219,7 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
    Si está buscando ayuda para crear su mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar sus campañas.
 
-   ![](assets/push-gen-img.png){zoomable="yes"}
+   ![Generación de imágenes del asistente de IA para notificaciones push con alternancia de estilo de referencia, selector de marca y campo de solicitud](assets/push-gen-img.png){zoomable="yes"}
 
 1. Elija su **[!UICONTROL configuración de imagen]**:
 
@@ -250,7 +250,7 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
    * **[!UICONTROL Guardar]** para almacenar los recursos y poder acceder a ellos más adelante.
 
-   ![](assets/push-gen-img-2.png){zoomable="yes"}
+   ![Refine las opciones para las imágenes de notificaciones push que muestran los botones Generar similar, Editar en Adobe Express y Guardar](assets/push-gen-img-2.png){zoomable="yes"}
 
 1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 2%
+source-wordcount: '1887'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para refinar una planti
 
 1. Personalice el diseño según sea necesario y acceda al menú **[!UICONTROL Asistente de IA]**.
 
-   ![](assets/lp-full-gen-1.png){zoomable="yes"}
+   ![Diseñador de páginas de aterrizaje con panel Asistente de IA abierto para la generación de contenido de página completa](assets/lp-full-gen-1.png){zoomable="yes"}
 
 1. Habilite la opción **[!UICONTROL Usar contenido original]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
@@ -50,7 +50,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para refinar una planti
 
    Si está buscando ayuda para redactar el mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar su página de aterrizaje.
 
-   ![](assets/lp-full-gen-2.png){zoomable="yes"}
+   ![Asistente de IA para página de aterrizaje con campo de solicitud y acceso a biblioteca de solicitud para generación de página completa](assets/lp-full-gen-2.png){zoomable="yes"}
 
 1. Adapte el mensaje con la opción **[!UICONTROL Configuración de texto]**:
 
@@ -58,7 +58,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para refinar una planti
    * **[!UICONTROL Idiomas]**: elige el idioma del contenido generado.
    * **[!UICONTROL Tono]**: el tono de la página de aterrizaje debería interesar a la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA puede adaptar el mensaje en consecuencia.
 
-   ![](assets/lp-full-gen-3.png){zoomable="yes"}
+   ![Panel de configuración de texto para la página de aterrizaje que muestra las opciones Estrategia de comunicación, Idiomas y Tono](assets/lp-full-gen-3.png){zoomable="yes"}
 
 1. Elija su **[!UICONTROL configuración de imagen]**:
 
@@ -68,7 +68,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para refinar una planti
    * **[!UICONTROL Iluminación]**: hace referencia al relámpago presente en una imagen, que da forma a su atmósfera y resalta elementos específicos.
    * **[!UICONTROL Composición]**: hace referencia a la disposición de elementos dentro del marco de una imagen
 
-   ![](assets/lp-full-gen-4.png){zoomable="yes"}
+   ![Panel de configuración de imagen para la página de aterrizaje con tipo de contenido, intensidad visual, color y tono, iluminación y composición](assets/lp-full-gen-4.png){zoomable="yes"}
 
 1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
@@ -84,7 +84,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para refinar una planti
 
    Más información sobre [puntuación de alineación de marca](brands-score.md).
 
-   ![](assets/lp-full-gen-5.png){zoomable="yes"}
+   ![Variaciones de página de aterrizaje generadas con indicador de porcentaje de puntuación de alineación de marca y controles de vista previa](assets/lp-full-gen-5.png){zoomable="yes"}
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
@@ -94,7 +94,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para refinar una planti
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
-   ![](assets/lp-full-gen-6.png){zoomable="yes"}
+   ![Refine el menú para la página de aterrizaje que muestra Reformular; use un lenguaje más sencillo con los menús desplegables Tono y Estrategia de comunicación](assets/lp-full-gen-6.png){zoomable="yes"}
 
 1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
@@ -114,7 +114,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para mejorar el conteni
 
 1. Seleccione un **[!UICONTROL componente Texto]** para solamente segmentar un contenido específico. y acceder al menú **[!UICONTROL Asistente de IA]**.
 
-   ![](assets/lp-text-gen-1.png){zoomable="yes"}
+   ![Diseñador de páginas de aterrizaje con componente Texto seleccionado y panel Asistente de IA para la generación de texto](assets/lp-text-gen-1.png){zoomable="yes"}
 
 1. Habilite la opción **[!UICONTROL Usar contenido original]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
@@ -122,7 +122,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para mejorar el conteni
 
    Si está buscando ayuda para redactar el aviso, acceda a la **[!UICONTROL Biblioteca del aviso]**, que proporciona una amplia gama de ideas para mejorar sus páginas de aterrizaje.
 
-   ![](assets/lp-text-gen-2.png){zoomable="yes"}
+   ![Generación de texto del Ayudante de IA para la página de aterrizaje con el campo de solicitud y el botón de biblioteca de solicitud](assets/lp-text-gen-2.png){zoomable="yes"}
 
 1. Adapte el mensaje con la opción **[!UICONTROL Configuración de texto]**:
 
@@ -131,7 +131,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para mejorar el conteni
    * **[!UICONTROL Tono]**: el tono de la página de aterrizaje debería interesar a la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA puede adaptar el mensaje en consecuencia.
    * **Longitud del texto**: utilice el control deslizante para seleccionar la longitud deseada del texto.
 
-   ![](assets/lp-text-gen-3.png){zoomable="yes"}
+   ![Configuración de texto para la página de aterrizaje con el control deslizante Estrategia de comunicación, Idiomas, Tono y Longitud del texto](assets/lp-text-gen-3.png){zoomable="yes"}
 
 1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
@@ -148,7 +148,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para mejorar el conteni
 
    Más información sobre [puntuación de alineación de marca](brands-score.md).
 
-   ![](assets/lp-text-gen-4.png){zoomable="yes"}
+   ![Variaciones de texto de página de aterrizaje generadas con porcentaje de puntuación de alineación de marca y opciones de selección](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
@@ -164,7 +164,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para mejorar el conteni
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
-   ![](assets/lp-text-gen-5.png){zoomable="yes"}
+   ![Refine el menú para el texto de la página de aterrizaje mostrando la lista desplegable Elaborar, Resumir, Reformular, Usar lenguaje más sencillo con tono](assets/lp-text-gen-5.png){zoomable="yes"}
 
 1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
@@ -186,7 +186,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
 
 1. En el menú de la derecha, seleccione **[!UICONTROL Asistente de IA]**.
 
-   ![](assets/lp-image-gen-1.png){zoomable="yes"}
+   ![Diseñador de páginas de aterrizaje con recurso de imagen seleccionado y panel Asistente de IA abierto para la generación de imágenes](assets/lp-image-gen-1.png){zoomable="yes"}
 
 1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el Asistente de IA personalice el nuevo contenido en función del contenido de referencia. También puede cargar una imagen para añadir contexto a la variación.
 
@@ -194,7 +194,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
 
    Si está buscando ayuda para redactar el aviso, acceda a la **[!UICONTROL Biblioteca del aviso]**, que proporciona una amplia gama de ideas para mejorar sus páginas de aterrizaje.
 
-   ![](assets/lp-image-gen-2.png){zoomable="yes"}
+   ![Generación de imágenes del Asistente de IA para la página de aterrizaje con la opción Estilo de referencia, Campo de solicitud y Biblioteca de solicitudes](assets/lp-image-gen-2.png){zoomable="yes"}
 
 1. Adapte el mensaje con la opción **[!UICONTROL Configuración de imagen]**:
 
@@ -205,7 +205,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
    * **[!UICONTROL Iluminación]**: hace referencia al relámpago presente en una imagen, que da forma a su atmósfera y resalta elementos específicos.
    * **[!UICONTROL Composición]**: hace referencia a la disposición de elementos dentro del marco de una imagen
 
-   ![](assets/lp-image-gen-3.png){zoomable="yes"}
+   ![Configuración de imagen para la página de aterrizaje con relación de aspecto, tipo de contenido, intensidad visual, color y tono, iluminación y composición](assets/lp-image-gen-3.png){zoomable="yes"}
 
 1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
@@ -221,7 +221,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
 
    Más información sobre [puntuación de alineación de marca](brands-score.md).
 
-   ![](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![Variaciones de imagen de la página de aterrizaje generadas con controles de porcentaje y vista previa de puntuación de alineación de marca](assets/lp-image-gen-4.png){zoomable="yes"}
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
@@ -232,7 +232,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
 
    * **[!UICONTROL Guardar]** para almacenar los recursos y poder acceder a ellos más adelante.
 
-   ![](assets/lp-image-gen-5.png){zoomable="yes"}
+   ![Refine las opciones de las imágenes de la página de aterrizaje mostrando los botones Generar similar, Editar en Adobe Express y Guardar](assets/lp-image-gen-5.png){zoomable="yes"}
 
 1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 

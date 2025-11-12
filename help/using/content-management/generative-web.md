@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1308'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ El asistente de IA de Journey Optimizer puede ayudarle a optimizar el impacto de
 
 1. Seleccione un **[!UICONTROL componente Texto]** para solamente segmentar un contenido específico. y acceder al menú **[!UICONTROL Mostrar asistente de IA]**.
 
-   ![](assets/web-gen-full-1.png){zoomable="yes"}
+   ![Diseñador web con componente Texto seleccionado y botón de menú Mostrar asistente de IA](assets/web-gen-full-1.png){zoomable="yes"}
 
 1. Habilite la opción **[!UICONTROL Usar contenido original]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
@@ -50,7 +50,7 @@ El asistente de IA de Journey Optimizer puede ayudarle a optimizar el impacto de
 
    Si está buscando ayuda para crear su mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar sus campañas.
 
-   ![](assets/web-gen-full-2.png){zoomable="yes"}
+   ![Panel del asistente de IA para texto de página web con selector de marca, campo de solicitud y botón de biblioteca de solicitud](assets/web-gen-full-2.png){zoomable="yes"}
 
 1. Adapte el mensaje con la opción **[!UICONTROL Configuración de texto]**:
 
@@ -59,7 +59,7 @@ El asistente de IA de Journey Optimizer puede ayudarle a optimizar el impacto de
    * **[!UICONTROL Tono]**: el tono de la página web debe interesar a la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA puede adaptar el mensaje en consecuencia.
    * **Longitud del texto**: utilice el control deslizante para seleccionar la longitud deseada del texto.
 
-   ![](assets/web-gen-full-3.png){zoomable="yes"}
+   ![Panel de configuración de texto que muestra la estrategia de comunicación, los idiomas, el tono y el regulador de longitud de texto para el contenido web](assets/web-gen-full-3.png){zoomable="yes"}
 
 1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
@@ -75,7 +75,7 @@ El asistente de IA de Journey Optimizer puede ayudarle a optimizar el impacto de
 
    Más información sobre [puntuación de alineación de marca](brands-score.md).
 
-   ![](assets/web-gen-full-4.png){zoomable="yes"}
+   ![Variaciones de texto de páginas web generadas con indicador de porcentaje de puntuación de alineación de marca](assets/web-gen-full-4.png){zoomable="yes"}
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
@@ -91,7 +91,7 @@ El asistente de IA de Journey Optimizer puede ayudarle a optimizar el impacto de
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
-   ![](assets/web-gen-full-5.png){zoomable="yes"}
+   ![Refine el menú para el texto web que muestra la lista desplegable Elaborar, Resumir, Reformular, Usar un lenguaje más sencillo con tono](assets/web-gen-full-5.png){zoomable="yes"}
 
 1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
@@ -113,7 +113,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA en Journey Opti
 
 1. En el menú de la derecha, seleccione **[!UICONTROL Mostrar asistente de IA]**.
 
-   ![](assets/web-gen-img-1.png){zoomable="yes"}
+   ![Diseñador web con recurso de imagen seleccionado y el panel Mostrar asistente de IA abierto para la generación de imágenes](assets/web-gen-img-1.png){zoomable="yes"}
 
 1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el Asistente de IA personalice el nuevo contenido en función del contenido de referencia. También puede cargar una imagen para añadir contexto a la variación.
 
@@ -125,7 +125,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA en Journey Opti
 
    Si está buscando ayuda para crear su mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar sus campañas.
 
-   ![](assets/web-gen-img-2.png){zoomable="yes"}
+   ![Generación de imágenes del asistente de IA para la web con alternancia de estilo de referencia, selector de marca y campo de solicitud](assets/web-gen-img-2.png){zoomable="yes"}
 
 1. Adapte el mensaje con la opción **[!UICONTROL Configuración de imagen]**:
 
@@ -136,7 +136,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA en Journey Opti
    * **[!UICONTROL Iluminación]**: hace referencia al relámpago presente en una imagen, que da forma a su atmósfera y resalta elementos específicos.
    * **[!UICONTROL Composición]**: hace referencia a la disposición de elementos dentro del marco de una imagen
 
-   ![](assets/web-gen-img-3.png){zoomable="yes"}
+   ![Panel de configuración de imagen para la Web con relación de aspecto, tipo de contenido, intensidad visual, color y tono, iluminación y composición](assets/web-gen-img-3.png){zoomable="yes"}
 
 1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
@@ -152,7 +152,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA en Journey Opti
 
    Más información sobre [puntuación de alineación de marca](brands-score.md).
 
-   ![](assets/web-gen-img-4.png){zoomable="yes"}
+   ![Variaciones de imagen de página web generadas con puntuación de alineación de marca y controles de vista previa](assets/web-gen-img-4.png){zoomable="yes"}
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
@@ -163,7 +163,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA en Journey Opti
 
    * **[!UICONTROL Guardar]** para almacenar los recursos y poder acceder a ellos más adelante.
 
-   ![](assets/web-gen-img-5.png){zoomable="yes"}
+   ![Refine las opciones de las imágenes web que muestran los botones Generar similar, Editar en Adobe Express y Guardar](assets/web-gen-img-5.png){zoomable="yes"}
 
 1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
