@@ -5,9 +5,9 @@ title: Actividades de las campañas organizadas
 description: Actividades de las campañas organizadas
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
-source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
+source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '338'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Las actividades de las campañas orquestadas de Adobe Journey Optimizer le permi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Trabajar con actividades de campañas orquestadas
 
@@ -30,7 +30,7 @@ Obtenga información sobre las actividades de segmentación, canal y control de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso de la actividad AND-join
 
@@ -40,7 +40,7 @@ Sincronice varias ramas de ejecución asegurándose de que las tareas anteriores
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Actividad Crear público
 
@@ -50,7 +50,7 @@ Defina y configure segmentos del público para sus campañas mediante la activid
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Actividad Cambiar dimensión
 
@@ -60,7 +60,7 @@ Mejore la segmentación cambiando entre entidades de datos dentro de la campaña
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Actividades del canal
 
@@ -70,7 +70,7 @@ Configure el correo electrónico, los SMS, las notificaciones push y el correo d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Actividad Combinar
 
@@ -91,5 +91,5 @@ Segmente poblaciones entrantes combinando, excluyendo o cruzando datos.
 - **[Actividad Reconciliación](../using/orchestrated/activities/reconciliation.md)**: combine datos externos o no identificados con recursos existentes para lograr un objetivo preciso.
 - **[Actividad Guardar público](../using/orchestrated/activities/save-audience.md)**: cree o actualice públicos reutilizables para una futura segmentación.
 - **[Actividad División](../using/orchestrated/activities/split.md)**: segmente las poblaciones en subconjuntos mediante filtros o tamaño de población.
-- **[Actividad Prueba](../using/orchestrated/activities/test.md)**: habilite transiciones condicionales basadas en criterios especificados.
+  <!--- **[Test Activity](../using/orchestrated/activities/test.md)** - Enable conditional transitions based on specified criteria.-->
 - **[Actividad Esperar](../using/orchestrated/activities/wait.md)**: introduzca retrasos entre actividades para mejorar el tiempo y la relevancia.
