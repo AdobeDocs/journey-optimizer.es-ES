@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Experienced
 keywords: esquemas, plataforma, datos, estructura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] se basa en los **esquemas de Adobe Experience Platform** para describir la estructura de los datos de una manera uniforme y reutilizable. Un esquema proporciona una definición abstracta de un objeto del mundo real (como una persona) y describe qué datos deben incluirse en cada instancia de ese objeto (como nombre, cumpleaños, etc.). Cuando los datos se incorporan en Experience Platform, siempre se estructuran según un **esquema XDM**.
 
-## Esquemas estándar y basados en modelos
+## Esquemas estándar y relacionales
 
 Existen dos tipos de esquemas en Adobe Experience Platform:
 
@@ -34,29 +34,29 @@ Existen dos tipos de esquemas en Adobe Experience Platform:
 
   ➡️ [Descubra cómo crear y configurar un esquema estándar en este vídeo](#video-schema) (vídeo)
 
-* Los **esquemas basados en modelos** son esquemas planos no jerárquicos que no utilizan clases ni grupos de campos. Se usan para capturar datos de registros para entidades relacionales y se usan principalmente en [!DNL Journey Optimizer] **campañas orquestadas**.
+* Los **esquemas relacionales** son esquemas planos no jerárquicos que no utilizan clases ni grupos de campos. Se usan para capturar datos de registros para entidades relacionales y se usan principalmente en [!DNL Journey Optimizer] **campañas orquestadas**.
 
   Algunos ejemplos de entidades relacionales son:
    * Reservas, contratos o suscripciones
    * Productos o catálogos
    * Tiendas, ubicaciones o socios
 
-  Con los esquemas basados en modelos, puede enviar un mensaje por entidad (por ejemplo, por reserva o por suscripción), crear segmentos basados en atributos de entidad (por ejemplo, categoría de producto, ubicación de tienda) y mejorar la capacidad de direccionamiento llegando a todos los contactos vinculados a una entidad.
+  Con los esquemas relacionales, puede enviar un mensaje por entidad (por ejemplo, por reserva o por suscripción), crear segmentos basados en atributos de entidad (por ejemplo, categoría de producto, ubicación de tienda) y mejorar la capacidad de direccionamiento llegando a todos los contactos vinculados a una entidad.
 
-  Cómo funcionan los esquemas basados en modelos:
+  Cómo funcionan los esquemas relacionales:
 
    1. **Crear esquemas manualmente o importar mediante DDL**
    1. **Vincular esquemas** para definir las relaciones entre entidades y personas (por ejemplo, transacciones de fidelidad vinculadas a miembros, recompensas vinculadas a marcas).
    1. **Introducir datos** en su conjunto de datos desde fuentes compatibles.
 
-  ➡️ [Aprenda a administrar conjuntos de datos y esquemas basados en modelos](../orchestrated/gs-schemas.md)
-➡️ [Introducción a campañas orquestadas](../orchestrated/gs-schemas.md)
+  ➡️ [Aprenda a administrar conjuntos de datos y esquemas relacionales](../orchestrated/gs-schemas.md)
+➡️ [Introducción a campañas orquestadas](../orchestrated/gs-schemas.md)
 
 ## Vídeo práctico{#video-schema}
 
 Obtenga información sobre cómo crear un esquema estándar, añadir grupos de campos, crear y configurar grupos de campos personalizados.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416869?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >

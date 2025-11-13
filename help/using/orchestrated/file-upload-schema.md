@@ -2,34 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Pasos de configuración
-description: Obtenga información sobre cómo crear un esquema basado en modelos en Adobe Experience Platform cargando un DDL
+description: Obtenga información sobre cómo crear un esquema relacional en Adobe Experience Platform cargando un DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 80c136409821388a4baea9286b298220c91bba7a
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 46%
+ht-degree: 48%
 
 ---
 
 
-# Creación de esquemas basados en modelos utilizando un archivo DDL {#file-upload-schema}
+# Creación de esquemas relacionales mediante un archivo DDL {#file-upload-schema}
 
-Defina el modelo de datos basado en modelos necesario para las campañas orquestadas creando esquemas como **Suscripciones de fidelización**, **Transacciones de fidelización** y **Recompensas de fidelización**. Cada esquema debe incluir una clave principal, un atributo de versiones y las relaciones adecuadas para hacer referencia a entidades como **Destinatarios** o **Marcas**.
+Defina el modelo de datos relacionales necesario para las campañas orquestadas creando esquemas como **Suscripciones de fidelización**, **Transacciones de fidelización** y **Recompensas de fidelización**. Cada esquema debe incluir una clave principal, un atributo de versiones y las relaciones adecuadas para hacer referencia a entidades como **Destinatarios** o **Marcas**.
 
 Los esquemas se pueden crear manualmente a través de la interfaz o importar de forma masiva mediante un archivo DDL.
 
-En esta sección se proporciona una guía paso a paso sobre cómo crear un esquema basado en modelos en Adobe Experience Platform cargando un archivo DDL (lenguaje de definición de datos). El uso de un archivo DDL permite definir la estructura de su modelo de datos por adelantado, incluidas las tablas, los atributos, las claves y las relaciones.
+En esta sección se proporciona una guía paso a paso sobre cómo crear un esquema relacional en Adobe Experience Platform cargando un archivo DDL (lenguaje de definición de datos). El uso de un archivo DDL permite definir la estructura de su modelo de datos por adelantado, incluidas las tablas, los atributos, las claves y las relaciones.
 
-1. [Cargar un archivo DDL](#ddl-upload) para crear esquemas basados en modelos y definir su estructura.
+1. [Cargar un archivo DDL](#ddl-upload) para crear esquemas relacionales y definir su estructura.
 
 1. [Defina relaciones](#relationships) entre tablas en su modelo de datos.
 
-1. [Vincular esquemas](#link-schema) para conectar los datos basados en modelos con entidades de perfil existentes como Destinatarios o Marcas.
+1. [Vincular esquemas](#link-schema) para conectar los datos relacionales con entidades de perfil existentes como Destinatarios o Marcas.
 
 1. [Introducir datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
 
-➡️ [Obtenga más información acerca de los esquemas basados en modelos en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational)
+➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## Cargar un archivo DDL{#ddl-upload}
 
@@ -37,7 +37,7 @@ Al cargar un archivo DDL, puede definir la estructura del modelo de datos por ad
 
 Se admiten las cargas de archivos de esquema basados en Excel. Descargue la [plantilla proporcionada](assets/template.zip) para preparar fácilmente sus definiciones de esquema.
 
-+++Se admiten las siguientes funciones al crear esquemas basados en modelos en Adobe Experience Platform
++++Se admiten las siguientes funciones al crear esquemas relacionales en Adobe Experience Platform
 
 * **ENUM**\
   Los campos ENUM son compatibles con la creación de esquemas manual y basada en DDL, lo que permite definir atributos con un conjunto fijo de valores permitidos.
@@ -66,7 +66,7 @@ Vea el siguiente ejemplo:
 
 1. Haga clic en **Crear esquema**.
 
-1. Seleccione **[!UICONTROL Basado en modelo]** como su **Tipo de esquema**.
+1. Seleccione **[!UICONTROL Relacional]** como su **Tipo de esquema**.
 
    ![](assets/admin_schema_1.png)
 

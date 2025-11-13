@@ -5,7 +5,7 @@ title: Campañas orquestadas
 description: Campañas orquestadas
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Las campañas orquestadas en Adobe Journey Optimizer le permiten diseñar y ejec
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introducción a las campañas orquestadas
 
@@ -30,7 +30,7 @@ Obtenga información sobre las funcionalidades, componentes y distinciones princ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Mecanismos de protección y limitaciones
 
@@ -40,17 +40,17 @@ Conozca las restricciones y limitaciones que deben tenerse en cuenta a la hora d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuración de datos para campañas orquestadas
 
-Configure esquemas, conjuntos de datos y canales basados en modelos para garantizar la preparación de los datos para las campañas orquestadas.
+Configure esquemas, conjuntos de datos y canales relacionales para garantizar la preparación de los datos para las campañas orquestadas.
 
 [Explorar la configuración de datos](data-configuration-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Iniciar y administrar campañas orquestadas
 
@@ -60,7 +60,7 @@ Una guía paso a paso para crear, orquestar, monitorizar y analizar su primera c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Consultar la base de datos de campañas orquestadas
 
@@ -70,7 +70,7 @@ Domine la consulta de bases de datos para segmentar y resegmentar públicos en c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Guía completa de las actividades de campañas
 

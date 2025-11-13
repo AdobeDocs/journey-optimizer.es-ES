@@ -5,7 +5,7 @@ title: Preguntas más frecuentes sobre campañas organizadas
 description: Preguntas frecuentes sobre las campañas orquestadas de Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 536d080e455e4872ed6e58b11adc3324b332f7b5
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 13%
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 A continuación, encontrará las preguntas más frecuentes sobre campañas organizadas de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ ¿Qué es la orquestación de Campaign?
 
@@ -247,7 +247,7 @@ En Campaign Orchestration, nos referimos a la segmentación ad hoc como &quot;Se
 
 +++ ¿Campaign Orchestration solo accede a los datos cargados por lotes o también puede consultar tablas actualizadas en tiempo real (como los datos de Analytics)?
 
-Journey Optimizer Campaign Orchestration puede crear consultas ad hoc sobre esquemas basados en modelos. Los esquemas basados en modelos solo admiten orígenes de lotes por ahora. Además, admite actividades Leer audiencia de cualquier tipo de audiencia de Adobe Experience Platform.
+Journey Optimizer Campaign Orchestration puede crear consultas ad hoc sobre esquemas relacionales. Los esquemas relacionales solo admiten orígenes de lotes por ahora. Además, admite actividades Leer audiencia de cualquier tipo de audiencia de Adobe Experience Platform.
 
 **Más información**
 

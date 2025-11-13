@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 97%
@@ -161,8 +161,8 @@ ht-degree: 97%
       + [Preguntas frecuentes](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configuración de datos {#data-configuration}
          + [Configuración de datos](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + Administrar esquemas y conjuntos de datos basados en modelos {#schemas-datasets}
-            + [Administrar esquemas y conjuntos de datos basados en modelos](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + Administrar esquemas y conjuntos de datos relacionales {#schemas-datasets}
+            + [Administración de esquemas y conjuntos de datos relacionales](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Introducción a esquemas y conjuntos de datos](using/orchestrated/gs-schemas.md)
             + [Esquema manual](using/orchestrated/manual-schema.md)
             + [Esquema de carga de archivos](using/orchestrated/file-upload-schema.md)
@@ -822,7 +822,7 @@ ht-degree: 97%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
