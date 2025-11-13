@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 4%
+source-wordcount: '419'
+ht-degree: 3%
 
 ---
 
@@ -26,11 +26,11 @@ En este caso de uso se explica cómo escribir eventos personalizados en Adobe Ex
 
 1. En la sección **Credenciales**, haga clic en **Servidor a servidor de OAuth**.
 
-   ![](assets/custom-action-aep-1.png)
+   ![Pantalla de configuración de acciones personalizadas con el menú desplegable de tipo de acción](assets/custom-action-aep-1.png)
 
 1. Haga clic en **Ver comando cURL**.
 
-   ![](assets/custom-action-aep-2.png)
+   ![Selección del tipo de acción de Adobe Experience Platform](assets/custom-action-aep-2.png)
 
 1. Copie el comando cURL y almacene client_id, client_secret, grant_type y el ámbito.
 
@@ -40,7 +40,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Después de crear el proyecto en Adobe Developer Console, asegúrese de otorgar al desarrollador y al control de acceso de la API los permisos adecuados. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Después de crear el proyecto en Adobe Developer Console, asegúrese de otorgar al desarrollador y al control de acceso de la API los permisos adecuados. Obtenga más información en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## Configurar el origen mediante la entrada de la API HTTP
 
@@ -48,15 +48,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. En Adobe Experience Platform, haga clic en **Fuentes**, en **Conexiones** en el menú de la izquierda. En la **API HTTP**, haga clic en **Agregar datos**.
 
-   ![](assets/custom-action-aep-3.png)
+   ![Menú desplegable de selección de zona protegida para Adobe Experience Platform](assets/custom-action-aep-3.png)
 
 1. Seleccione **Nueva cuenta** y habilite la autenticación. Seleccione **Conectarse a Source**.
 
-   ![](assets/custom-action-aep-4.png)
+   ![Interfaz de selección de conjuntos de datos para transmisión de datos](assets/custom-action-aep-4.png)
 
 1. Seleccione **Siguiente** y el conjunto de datos donde desee escribir los datos. Haga clic en **Siguiente** y **Finalizar**.
 
-   ![](assets/custom-action-aep-5.png)
+   ![Campos de esquema XDM asignados a parámetros de acción](assets/custom-action-aep-5.png)
 
 1. Abra el flujo de datos recién creado. Copie la carga útil del esquema y guárdela en el bloc de notas.
 
@@ -109,7 +109,7 @@ Para este ejemplo, siga estos pasos:
 
 1. Asegúrese de que los encabezados (Content-Type, Charset, sandbox-name) estén configurados.
 
-   ![](assets/custom-action-aep-7bis.png)
+   ![Acción personalizada en lienzo de recorrido con panel de configuración](assets/custom-action-aep-7bis.png)
 
 ### Configuración de la autenticación {#custom-action-aep-authentication}
 
@@ -143,7 +143,7 @@ Para este ejemplo, siga estos pasos:
 
 1. Use **Haga clic para probar el botón de autenticación** y probar la conexión.
 
-   ![](assets/custom-action-aep-8.png)
+   ![Interfaz de asignación de parámetros con editor de expresiones](assets/custom-action-aep-8.png)
 
 ### Configuración de la carga útil {#custom-action-aep-payload}
 
@@ -176,10 +176,10 @@ Para este ejemplo, siga estos pasos:
 
 1. Guarde la acción personalizada.
 
-## Recorrido 
+##  Recorrido 
 
 1. Finalmente, utilice esta acción personalizada en un recorrido para escribir los eventos de recorrido personalizados.
 
 1. Rellene los atributos ID de versión de Recorrido, ID de nodo, Nombre de nodo y otros según su caso de uso.
 
-   ![](assets/custom-action-aep-9.png)
+   ![Editor de modo avanzado para asignación de campos complejos](assets/custom-action-aep-9.png)

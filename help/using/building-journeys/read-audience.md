@@ -10,9 +10,9 @@ level: Intermediate
 keywords: actividad, recorrido, lectura, audiencia, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2558'
 ht-degree: 13%
 
 ---
@@ -56,21 +56,21 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes.
 
    >[!NOTE]
    >
-   >Además, también puede segmentar audiencias de Adobe Experience Platform creadas con [composiciones de audiencias](../audience/get-started-audience-orchestration.md) o [cargadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#import-audience){target="_blank"}.
+   >Además, también puede segmentar audiencias de Adobe Experience Platform creadas con [composiciones de audiencias](../audience/get-started-audience-orchestration.md) o [cargadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Tenga en cuenta que puede personalizar las columnas mostradas en la lista y ordenarlas.
 
-   ![](assets/read-segment-selection.png)
+   ![Interfaz de selección de audiencias que muestra las audiencias de Adobe Experience Platform disponibles](assets/read-segment-selection.png)
 
    Una vez agregada la audiencia, el botón **[!UICONTROL Copiar]** le permite copiar su nombre e ID:
 
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/read-segment-copy.png)
+   ![Botón Copiar para copiar el nombre y el ID de la audiencia en formato JSON](assets/read-segment-copy.png)
 
    >[!NOTE]
    >
-   >Solo las personas con el estado de participación en la audiencia **Realized** entrarán al recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Solo las personas con el estado de participación en la audiencia **Realized** entrarán al recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. En el campo **[!UICONTROL Espacio de nombres]**, elija el espacio de nombres que desea utilizar para identificar a los individuos. De forma predeterminada, el campo está rellenado previamente con el último área de nombres utilizado. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
 
@@ -90,7 +90,7 @@ Los pasos para configurar la actividad Leer audiencia son los siguientes.
 
 * Como práctica recomendada, recomendamos que solo use audiencias por lotes en una actividad **Leer audiencia**. Esto proporciona un recuento fiable y coherente de las audiencias utilizadas en un recorrido. La audiencia de lectura está diseñada para casos de uso por lotes. Si su caso de uso necesita datos en tiempo real, utilice la actividad **[Calificación de audiencias](audience-qualification-events.md)**.
 
-* Las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) se pueden seleccionar en la actividad **Leer audiencia**. Estas audiencias no están disponibles en la actividad **Calificación de audiencias**.
+* Las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) se pueden seleccionar en la actividad **Leer audiencia**. Estas audiencias no están disponibles en la actividad **Calificación de audiencias**.
 
 * Límite de audiencia de lectura simultánea por organización: cada organización puede ejecutar hasta cinco instancias de audiencia de lectura simultáneamente. Esto incluye tanto las ejecuciones programadas como las activadas por eventos empresariales en todas las zonas protegidas y recorridos. Este límite se impone para garantizar una asignación justa y equilibrada de los recursos en todas las organizaciones.
 
@@ -165,15 +165,15 @@ De forma predeterminada, los recorridos están configurados para ejecutarse una 
 
 1. En las propiedades de la actividad **[!UICONTROL Leer audiencia]**, pa,e seleccione **[!UICONTROL Editar programación de recorrido]**.
 
-   ![](assets/read-segment-schedule.png)
+   ![Editar botón de programación de recorrido en Leer propiedades de actividad de audiencia](assets/read-segment-schedule.png)
 
 1. Se muestran las propiedades del recorrido. En la lista desplegable **[!UICONTROL Tipo de programador]**, seleccione la frecuencia con la que desea que se ejecute el recorrido.
 
-   ![](assets/read-segment-schedule-list.png)
+   ![Menú desplegable de tipo de planificador con opciones de frecuencia: una vez, diariamente, semanalmente, mensualmente](assets/read-segment-schedule-list.png)
 
 En el caso de los recorridos recurrentes, hay opciones específicas disponibles para ayudarle a administrar la entrada de perfiles en el recorrido. Expanda las secciones siguientes para obtener más información sobre cada opción.
 
-![](assets/read-audience-options.png)
+![Leer opciones recurrentes de audiencia: lectura incremental, forzar reentrada, Déclencheur después del lote](assets/read-audience-options.png)
 
 +++**[!UICONTROL Lectura incremental]**
 
@@ -239,13 +239,13 @@ La actividad **[!UICONTROL Leer audiencia]** le permite probar el recorrido en u
 
 Para ello, active el modo de prueba.
 
-![](assets/read-segment-test-mode.png)
+![Interfaz de modo de prueba para la actividad Leer audiencia con selección de perfil de prueba](assets/read-segment-test-mode.png)
 
 Configure y ejecute el modo de prueba como de costumbre. [Aprenda a probar un recorrido](testing-the-journey.md).
 
 Una vez que se esté ejecutando la prueba, el botón **[!UICONTROL Mostrar registros]** le permite ver los resultados de la prueba. Para obtener más información, consulte [esta sección](testing-the-journey.md#viewing_logs)
 
-![](assets/read-segment-log.png)
+![Registros de prueba que muestran resultados de ejecución de audiencia y flujo de perfil](assets/read-segment-log.png)
 
 Una vez que las pruebas se hayan realizado correctamente, puede publicar el recorrido (consulte [Publicación del recorrido](publish-journey.md)). Las personas que pertenezcan a la audiencia ingresarán al recorrido en la fecha y hora especificadas en la sección de propiedades del recorrido **[!UICONTROL Programador]**.
 
@@ -273,7 +273,7 @@ La segmentación se puede basar en:
 * una hora, por ejemplo: ¿es por la mañana en la zona horaria de la persona?
 * algoritmo que divide la audiencia que fluye en el recorrido en función de un porcentaje. Por ejemplo: 90 % - 10 % para excluir un grupo de control
 
-![](assets/read-segment-audience1.png)
+![Actividad de condición para la segmentación de audiencia en rutas de VIP y que no sean de VIP](assets/read-segment-audience1.png)
 
 >[!NOTE]
 >
@@ -287,7 +287,7 @@ La misma actividad **Condition** utilizada para la segmentación (ver arriba) ta
 
 Esta exclusión puede producirse justo después de la recuperación de la audiencia, con fines de recuento de población o a lo largo de un recorrido de varios pasos.
 
-![](assets/read-segment-audience2.png)
+![Ruta de Recorrido con rama de exclusión que usa la actividad final](assets/read-segment-audience2.png)
 
 **Unión**
 
@@ -295,7 +295,7 @@ Los recorridos le permiten crear N ramas y unirlas después de una segmentación
 
 Por ejemplo, después de seguir una experiencia diferente durante diez días en un recorrido, los clientes de VIP y no de VIP pueden volver a la misma ruta. Después de una unión, puede volver a dividir la audiencia realizando una segmentación o una exclusión.
 
-![](assets/read-segment-audience3.png)
+![Rutas de Recorrido combinadas de nuevo después de la segmentación mediante union](assets/read-segment-audience3.png)
 
 ## Reintentos {#read-audience-retry}
 
@@ -307,4 +307,4 @@ Los déclencheur de **Leer audiencia** que no se hayan realizado correctamente s
 
 Comprenda los casos de uso pertinentes para un recorrido que se desencadena por la actividad de lectura del público. Obtenga información sobre cómo crear recorridos basados en lotes y qué prácticas recomendadas aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430360?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

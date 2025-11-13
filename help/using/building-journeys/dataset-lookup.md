@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: ccd9f1aa3359875796104d9789d5dd8c0279c0c1
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '776'
 ht-degree: 15%
 
 ---
@@ -63,7 +63,7 @@ Para configurar la actividad **[!UICONTROL Búsqueda de conjuntos de datos]**, s
 
 1. Despliegue la categoría **[!UICONTROL Orchestration]** y suelte una actividad **[!UICONTROL Consulta de conjuntos de datos]** en el lienzo.
 
-   ![](assets/aep-data-activity.png)
+   ![Actividad de búsqueda del conjunto de datos Adobe Experience Platform en el recorrido](assets/aep-data-activity.png)
 
 1. Añada una etiqueta y una descripción.
 
@@ -81,7 +81,7 @@ Para configurar la actividad **[!UICONTROL Búsqueda de conjuntos de datos]**, s
 
    +++Ejemplo
 
-   ![](assets/aep-data-leaf-primitive.png)
+   ![Selección de campo de conjunto de datos que muestra tipos y estructura de datos primitivos](assets/aep-data-leaf-primitive.png)
 
    +++
 
@@ -93,7 +93,7 @@ Para configurar la actividad **[!UICONTROL Búsqueda de conjuntos de datos]**, s
 
    +++Ejemplo
 
-   ![](assets/aep-data-strings.png)
+   ![Editor de expresiones con búsqueda de campos de conjunto de datos y funciones de cadena](assets/aep-data-strings.png)
 
    +++
 

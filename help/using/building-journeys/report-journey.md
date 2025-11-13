@@ -10,9 +10,9 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Una vez que se haya publicado el recorrido, [Modo de ejecución en seco](journey
 
 Los eventos mostrados se han producido en las últimas 24 horas, con un intervalo mínimo de dos minutos entre el evento y su visualización, normalmente en un plazo de cinco minutos.
 
-![](assets/journey_live_report.png)
+![Tablero de informes en vivo de Recorrido que muestra métricas de rendimiento en tiempo real](assets/journey_live_report.png)
 
 Para sus recorridos en el modo Activo o [Modo de ejecución en seco](journey-dry-run.md), puede comprobar:
 

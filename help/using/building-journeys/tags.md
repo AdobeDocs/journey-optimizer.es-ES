@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, etiquetas
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 30%
+source-wordcount: '255'
+ht-degree: 27%
 
 ---
 
@@ -25,7 +25,7 @@ Como profesional de Journey Optimizer, puede organizar sus recorridos mediante e
 
 El campo **Etiquetas**, en las propiedades del recorrido, le permite definir etiquetas para el recorrido. Puede seleccionar una etiqueta existente o crear una nueva. Empiece a escribir el nombre de la etiqueta deseada y selecciónela en la lista. Si no está disponible, haz clic en **Crear** para crear uno nuevo y agregarlo al recorrido. Puede definir tantas etiquetas como sea necesario.
 
-![](assets/tags1.png)
+![Panel Etiquetas en las propiedades de recorrido para la categorización y organización](assets/tags1.png)
 
 La lista de etiquetas definidas se muestra debajo del campo **Etiquetas** campo.
 
@@ -41,11 +41,11 @@ La lista de Recorridos muestra una columna específica para que pueda visualizar
 
 También hay un filtro disponible para mostrar solo los recorridos con determinadas etiquetas.
 
-![](assets/tags2.png)
+![Menú desplegable de selección de etiquetas con etiquetas disponibles para la clasificación de recorrido](assets/tags2.png)
 
 Puede añadir o quitar recorridos de cualquier tipo (activo, borrador, etc.). Haga clic en el icono **Más acciones** que está junto al recorrido y seleccione **Editar etiquetas**.
 
-![](assets/tags3.png)
+![Lista de Recorridos filtrada por etiquetas que muestran recorridos categorizados](assets/tags3.png)
 
 ## Administrar etiquetas
 

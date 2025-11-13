@@ -10,10 +10,10 @@ level: Intermediate
 keywords: zona horaria, propiedades, recorrido, condición, hora, fecha, personalizado
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 28%
+source-wordcount: '375'
+ht-degree: 27%
 
 ---
 
@@ -47,7 +47,7 @@ La zona horaria puede ser fija. Borre la zona horaria predefinida y elija una en
 
 Para ello, en el panel **[!UICONTROL Propiedades del Recorrido]**, seleccione una zona horaria.
 
-![](assets/journey72.png)
+![Menú desplegable de selección de zona horaria en las propiedades del recorrido](assets/journey72.png)
 
 ## Usar zona horaria de perfiles {#timezone-from-profiles}
 
@@ -60,7 +60,7 @@ Si el evento de entrada del recorrido tiene un área de nombres, lo que signific
 
 Si se ha definido una zona horaria para un perfil, el recorrido la recuperará y la utilizará. Si no es así, la zona horaria utilizada será la definida en el campo timezone.
 
-![](assets/journey73.png)
+![Configuración de zona horaria de perfil en fuentes de datos para sincronización personalizada](assets/journey73.png)
 
 >[!NOTE]
 >

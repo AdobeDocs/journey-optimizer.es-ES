@@ -10,9 +10,9 @@ level: Intermediate
 keywords: tiempo de envío, envío, mensaje, optimización, recorrido, IA, inteligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1546'
 ht-degree: 9%
 
 ---
@@ -49,7 +49,7 @@ La optimización del tiempo de envío solo está disponible para los tipos de ac
 
 Utilice la optimización del tiempo de envío en un correo electrónico o una acción push activando el conmutador Optimización del tiempo de envío desde los parámetros de acción.
 
-![](assets/jo-message5.png)
+![Opción de optimización del tiempo de envío en la configuración del canal de correo electrónico](assets/jo-message5.png)
 
 La optimización del tiempo de envío no debe utilizarse para mensajes operativos urgentes y urgentes, como una confirmación de pedido, una notificación de restablecimiento de contraseña o una notificación de cambio de puerta de vuelo. La optimización del tiempo de envío se utiliza mejor en comunicaciones de marketing menos urgentes, por ejemplo, un anuncio semanal, información promocional de un nuevo producto o información sobre una venta de un mes.
 
@@ -80,11 +80,11 @@ La optimización del tiempo de envío hace predicciones para cada hora de la sem
 
 Estas predicciones se ponderan y combinan utilizando un enfoque bayesiano, lo que da como resultado un &quot;mapa de calor&quot; para cada métrica (aperturas de correo electrónico, clics de correo electrónico y aperturas push), para cada cliente, que indica las horas de la semana en las que es más probable que ponerse en contacto con ese usuario genere el resultado de participación deseado (apertura/clic), como se ilustra en el siguiente ejemplo de mapa de calor:
 
-![](assets/heatmap-1.png)
+![Mapa de calor de participación que muestra horas de envío óptimas para correo electrónico por día y hora](assets/heatmap-1.png)
 
 Si un usuario con las probabilidades predichas arriba está dirigido a un mensaje a las 9 a. m. del miércoles con la optimización del tiempo de envío activada y un tiempo de espera máximo de 7 horas, el tiempo de envío seleccionado para el mensaje será de 12 p. m.:
 
-![](assets/heatmap-2.png)
+![Mapa de calor de participación con datos detallados de optimización hora a hora](assets/heatmap-2.png)
 
 ## Detalles de formación y puntuación del modelo de optimización del tiempo de envío  {#model-send-time}
 
@@ -101,7 +101,7 @@ Los tiempos de envío de exploración se seleccionan al azar entre los tiempos d
 
 A continuación encontrará las preguntas más frecuentes sobre la optimización del tiempo de envío.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++¿Cuánto tiempo debo esperar antes de utilizar la optimización del tiempo de envío?
 

@@ -12,9 +12,9 @@ hidefromtoc: true
 keywords: entrega, recorrido, caso de uso, correo electrónico, reputación
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -37,13 +37,13 @@ El propósito de este caso de uso es crear un recorrido para aumentar las entreg
 
    1. Establezca el campo **[!UICONTROL Limit]** en el número máximo de destinatarios para esta entrega.
 
-   ![](assets/profile-cap-condition.png)
+   ![Configuración de condición de límite de perfil para controlar el volumen de entrega](assets/profile-cap-condition.png)
 
    Puede aumentar gradualmente este límite hasta el número total de suscriptores.
 
 1. Agregue una actividad de acción **[!UICONTROL Correo electrónico]** a la ruta nominal después de la actividad **[!UICONTROL Condición]**.
 
-   ![](assets/ramp-up-deliveries-message.png)
+   ![Configuración de mensaje de correo electrónico en el recorrido de envío en rampa](assets/ramp-up-deliveries-message.png)
 
    Cuando se ejecuta el recorrido, el mensaje se envía junto con la introducción de perfiles, hasta el número máximo de perfiles que haya especificado. Cuando se alcanza este límite, los perfiles que se introducen toman la ruta alternativa.
 

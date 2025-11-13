@@ -10,9 +10,9 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '546'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ La lista de métricas varía según los [grupos de campos](https://experiencelea
 
 Si el conjunto de datos no está configurado, solo estarán disponibles las métricas siguientes: **[!UICONTROL Clic]**, **[!UICONTROL Clic único]**, **[!UICONTROL Tasa de clics]** y **[!UICONTROL Tasa de apertura]**.
 
-Tenga en cuenta que con una licencia de Customer Journey Analytics puede crear métricas de éxito personalizadas. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Tenga en cuenta que con una licencia de Customer Journey Analytics puede crear métricas de éxito personalizadas. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | Métricas | Grupo de campos relacionado |
@@ -70,7 +70,7 @@ Cada métrica viene con una atribución de conjunto que determina qué puntos de
 
   Con las licencias de Journey Optimizer y Customer Journey Analytics, puede crear métricas personalizadas con configuraciones de atribución específicas o cambiar las atribuciones de las métricas integradas.
 
-  Más información sobre [modelos de atribución](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  Más información sobre [modelos de atribución](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Asignar las métricas de recorrido {#assign}
 
@@ -88,7 +88,7 @@ Para empezar a rastrear las métricas de recorridos, siga los pasos descritos a 
 
    Tenga en cuenta que las métricas se aplican al propio recorrido y se aplican a todos los elementos del recorrido.
 
-   ![](assets/success_metric.png)
+   ![Panel de configuración de métricas de éxito en las propiedades del recorrido](assets/success_metric.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -100,5 +100,5 @@ Para empezar a rastrear las métricas de recorridos, siga los pasos descritos a 
 
    Las métricas seleccionadas se muestran en la tabla KPI y estadísticas de Recorrido del informe.
 
-   ![](assets/success_metric_2.png)
+   ![Menú desplegable de métricas de éxito que muestra los eventos disponibles para el seguimiento de metas](assets/success_metric_2.png)
 

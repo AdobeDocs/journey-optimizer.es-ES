@@ -10,10 +10,10 @@ level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 40%
+source-wordcount: '482'
+ht-degree: 38%
 
 ---
 
@@ -33,11 +33,11 @@ Los errores aparecen con un símbolo de advertencia en las mismas actividades de
 
 * si un campo obligatorio está vacío, se mostrará un error
 
-  ![](assets/journey63.png)
+  ![Errores de validación de Recorrido mostrados en lienzo con indicadores de error](assets/journey63.png)
 
 * en el lienzo, cuando se desconectan dos actividades, se muestra una advertencia
 
-  ![](assets/canvas-disconnected.png)
+  ![Icono de advertencia que muestra actividades desconectadas en el lienzo del recorrido](assets/canvas-disconnected.png)
 
 ## Errores en el recorrido {#canvas-errors}
 
@@ -45,7 +45,7 @@ Los errores también se pueden ver desde el botón **[!UICONTROL Alertas]** situ
 
 El sistema detecta dos tipos de problemas: **errores** y **advertencias**. Los errores bloquean la publicación y la activación de prueba. Las advertencias indican posibles problemas que no bloquean la activación o publicación de pruebas. Verá una descripción de la publicación y un ID de registro de la publicación del tipo ERR_XXX_XXX. Esto puede ayudar a identificar el problema.
 
-![](assets/journey-error-and-warning.png)
+![Indicadores de error y advertencia en recorrido con información sobre herramientas de descripción](assets/journey-error-and-warning.png)
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 

@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: recorrido, mensaje, campaña, integración
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 2%
+source-wordcount: '488'
+ht-degree: 1%
 
 ---
 
@@ -40,21 +40,21 @@ La instancia de Campaign debe estar aprovisionada para esta integración. Se deb
 
 1. En **Administración** > **Plataforma** > **Enumeraciones**, seleccione la enumeración **Tipo de evento** (eventType). Cree un nuevo tipo de evento (&quot;evento de recorrido&quot;, en nuestro ejemplo). Utilice el nombre interno del tipo de evento al escribir el archivo JSON más adelante.
 
-   ![](assets/accintegration-uc-1.png)
+   ![Configurar un evento en Adobe Journey Optimizer con selección de campo y esquema](assets/accintegration-uc-1.png)
 
 1. Desconecte y vuelva a conectarse a la instancia para que la creación surta efecto.
 
 1. En **Centro de mensajes** > **Plantillas de mensajes transaccionales**, cree una nueva plantilla de correo electrónico basada en el tipo de evento creado anteriormente.
 
-   ![](assets/accintegration-uc-2.png)
+   ![Configuración de evento que muestra la configuración del área de nombres y el identificador de perfil](assets/accintegration-uc-2.png)
 
 1. Diseñe la plantilla. En este ejemplo, la personalización se aplica al nombre del perfil y al número de pedido. El nombre se encuentra en la fuente de datos de Adobe Experience Platform y el número de pedido es un campo del evento de Journey Optimizer. Asegúrese de utilizar los nombres de campo correctos en Campaign.
 
-   ![](assets/accintegration-uc-3.png)
+   ![Vista previa de carga útil de evento que muestra la estructura JSON con datos de perfil y evento](assets/accintegration-uc-3.png)
 
 1. Publique la plantilla transaccional.
 
-   ![](assets/accintegration-uc-4.png)
+   ![Botón Copiar evento para copiar el ID de carga útil para la integración de API](assets/accintegration-uc-4.png)
 
 1. Escriba la carga útil JSON correspondiente a la plantilla.
 
@@ -78,30 +78,30 @@ La instancia de Campaign debe estar aprovisionada para esta integración. Se deb
 
 1. Cree un evento. Incluya el campo purchaseOrderNumber.
 
-   ![](assets/accintegration-uc-5.png)
+   ![Pantalla de configuración de acciones personalizadas para la integración de Adobe Campaign Classic](assets/accintegration-uc-5.png)
 
 1. Cree una acción en Journey Optimizer correspondiente a la plantilla de Campaign. En la lista desplegable **Tipo de acción**, seleccione **Adobe Campaign Classic**.
 
-   ![](assets/accintegration-uc-6.png)
+   ![Selección de tipo de acción que muestra la opción Adobe Campaign Classic](assets/accintegration-uc-6.png)
 
 1. Haga clic en **Campo de carga útil** y pegue el JSON creado anteriormente.
 
-   ![](assets/accintegration-uc-7.png)
+   ![Menú desplegable de selección de cuentas de Campaign para la integración de acciones](assets/accintegration-uc-7.png)
 
 1. Para la dirección de correo electrónico y los dos campos personalizados, cambie **Constant** a **Variable**.
 
-   ![](assets/accintegration-uc-8.png)
+   ![Configuración de carga útil de acción con asignación de campos para la integración de Campaign](assets/accintegration-uc-8.png)
 
 1. Ahora cree un nuevo recorrido e inicie con el evento creado anteriormente.
 
-   ![](assets/accintegration-uc-9.png)
+   ![lienzo de Recorrido con evento y acción de campaña configurada](assets/accintegration-uc-9.png)
 
 1. Añada la acción y asigne cada campo al campo correcto en Journey Optimizer.
 
-   ![](assets/accintegration-uc-10.png)
+   ![Asignación de parámetros de acción con el editor de expresiones para valores dinámicos](assets/accintegration-uc-10.png)
 
 1. Pruebe el recorrido.
 
-   ![](assets/accintegration-uc-11.png)
+   ![Flujo de recorrido completo con déclencheur de eventos y ejecución de acciones de Campaign](assets/accintegration-uc-11.png)
 
 1. Ahora puede publicar el recorrido.

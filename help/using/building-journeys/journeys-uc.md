@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: caso de uso, multicanal, mensajes, recorrido, canal, eventos, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Esta sección presenta un caso de uso que combina una audiencia de lectura, un evento, eventos de reacción y mensajes de correo electrónico/push.
 
-![](assets/jo-uc1.png)
+![Flujo de recorrido simple con actividades de lectura de audiencia, espera y correo electrónico](assets/jo-uc1.png)
 
 ## Descripción del caso de uso
 
@@ -52,7 +52,7 @@ Para obtener más información sobre las audiencias, [consulte esta página](../
 1. Arrastre y suelte los campos deseados del panel izquierdo al espacio de trabajo central y configúrelos según sus necesidades. En este ejemplo, utilice los campos de atributo **City** y **Birth year**.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-   ![](assets/add-attributes.png)
+   ![Panel de atributos adicionales para seleccionar datos de enriquecimiento](assets/add-attributes.png)
 
 La audiencia se crea y está lista para utilizarse en el recorrido. Con una actividad **Leer audiencia**, todas las personas que pertenezcan a la audiencia podrán entrar al recorrido.
 
@@ -76,7 +76,7 @@ Para ello, usa un [evento basado en reglas](../event/about-events.md).
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-   ![](assets/jo-uc2.png)
+   ![Recorrido con actividad de condición que se ramifica en miembros oro y otras rutas](assets/jo-uc2.png)
 
 El evento está ahora configurado y listo para utilizarse en el recorrido. Con la actividad de evento correspondiente, se puede activar una acción cada vez que un cliente realiza una compra.
 
@@ -84,11 +84,11 @@ El evento está ahora configurado y listo para utilizarse en el recorrido. Con l
 
 1. Inicie el recorrido con una actividad **Leer audiencia**. Seleccione la audiencia creada anteriormente. Todas las personas que pertenecen a la audiencia entran en el recorrido.
 
-   ![](assets/jo-uc4.png)
+   ![Comprobación de la condición meteorológica si la temperatura es inferior a 50 grados](assets/jo-uc4.png)
 
 1. Suelte una actividad de acción **Email** y defina el contenido del &quot;primer mensaje&quot;. Este mensaje se envía a todas las personas del recorrido. Consulte esta [sección](../email/create-email.md) para obtener información sobre cómo configurar y diseñar un mensaje de correo electrónico.
 
-   ![](assets/jo-uc5.png)
+   ![recorrido completo basado en el tiempo con condiciones de temperatura y acciones de correo electrónico](assets/jo-uc5.png)
 
 1. Agregue un evento **Reaction** y seleccione **Email opened**. El evento se activa cuando un individuo que pertenece a la audiencia abre el correo electrónico.
 

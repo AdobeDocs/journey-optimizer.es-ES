@@ -10,10 +10,10 @@ level: Intermediate
 keywords: acción, personalizado, API, recorrido, configuración, servicio
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 20%
+source-wordcount: '442'
+ht-degree: 19%
 
 ---
 
@@ -60,7 +60,7 @@ La URL concatenada tiene este formulario:
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID>`/messages`
 
-![](assets/journey-custom-action-url.png)
+![Configuración de URL de acción personalizada con asignación de parámetros dinámicos](assets/journey-custom-action-url.png)
 
 ### Encabezados y parámetros de consulta {#headers}
 
@@ -68,7 +68,7 @@ La sección **[!UICONTROL Configuración de URL]** muestra los campos de encabez
 
 Para especificar el valor de los campos de encabezado dinámico y parámetro de consulta, haga clic dentro del campo o en el icono de lápiz y seleccione el campo deseado.
 
-![](assets/journey-dynamicheaderfield.png)
+![Configuración del campo de encabezado dinámico en la acción personalizada](assets/journey-dynamicheaderfield.png)
 
 ## Parámetros de acción
 

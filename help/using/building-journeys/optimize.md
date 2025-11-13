@@ -11,10 +11,10 @@ keywords: actividad, condición, lienzo, recorrido, optimización
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 9%
+source-wordcount: '1636'
+ht-degree: 8%
 
 ---
 
@@ -43,7 +43,7 @@ A través de la actividad **Optimizar**, puede realizar las siguientes acciones 
 * Aprovechar [reglas de segmentación](#targeting) en cada ruta de recorrido
 * Aplicar [condiciones](#conditions) a sus rutas
 
-![](assets/journey-optimize.png)
+![Botón Optimizar en la paleta de actividades de recorrido](assets/journey-optimize.png)
 
 Una vez que el recorrido está activo, los perfiles se evalúan según los criterios definidos y, en función de los criterios coincidentes, se envían por la ruta adecuada desde el recorrido.
 
@@ -53,7 +53,7 @@ Una vez que el recorrido está activo, los perfiles se evalúan según los crite
 >id="ajo_path_experiment_success_metric"
 >title="Métrica de éxito"
 >abstract="La métrica de éxito se utiliza para rastrear y evaluar el tratamiento con mejor rendimiento de un experimento. "
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configuración y seguimiento de la métrica de recorrido"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configuración y seguimiento de la métrica de recorrido"
 
 La experimentación le permite probar diferentes rutas en función de una división aleatoria para determinar cuál tiene el mejor rendimiento según las métricas de éxito predefinidas.
 
@@ -71,13 +71,13 @@ Supongamos que desea comparar tres rutas:
 
 1. Seleccione **[!UICONTROL Experimento]** de la lista desplegable **[!UICONTROL Método]**.
 
-   ![](assets/journey-optimize-experiment.png){width=65%}
+   ![Panel de configuración del experimento de contenido](assets/journey-optimize-experiment.png){width=65%}
 
 1. Haga clic en **[!UICONTROL Crear experimento]**.
 
 1. Seleccione la **[!UICONTROL métrica de éxito]** que desee establecer para su experimento. Obtenga más información sobre las métricas disponibles y cómo configurar la lista en [esta sección](success-metrics.md).
 
-   ![](assets/journey-optimize-experiment-metrics.png){width=80%}
+   ![Selección de métricas principales y adicionales para el experimento](assets/journey-optimize-experiment-metrics.png){width=80%}
 
 1. Puede elegir agregar un grupo **[!UICONTROL Holdout]** a su entrega. Este grupo no entrará en ninguna ruta desde este experimento.
 
@@ -91,7 +91,7 @@ Supongamos que desea comparar tres rutas:
 
 1. Puede asignar un porcentaje preciso a cada **[!UICONTROL Tratamiento]**, o simplemente cambiar en la barra de alternancia **[!UICONTROL Distribuir uniformemente]**.
 
-   ![](assets/journey-optimize-experiment-treatments.png){width=80%}
+   ![Regulador de asignación de tratamiento con distribución porcentual](assets/journey-optimize-experiment-treatments.png){width=80%}
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
@@ -103,17 +103,17 @@ Supongamos que desea comparar tres rutas:
 
    * Arrastre y suelte una actividad [Email](../email/create-email.md) en la tercera rama, seguida de una actividad [SMS](../sms/create-sms.md) (**Tratamiento C**).
 
-   ![](assets/journey-optimize-experiment-ex.png){width=100%}
+   ![Ejemplo de experimento de contenido con tres rutas de tratamiento](assets/journey-optimize-experiment-ex.png){width=100%}
 
 1. Opcionalmente, use **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** para definir una acción de reserva. [Más información](using-the-journey-designer.md#paths)
 
 1. Seleccione una acción de canal y use el botón **[!UICONTROL Editar contenido]** para acceder a las herramientas de diseño.
 
-   ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
+   ![Botón Editar contenido en la actividad de acción del canal](assets/journey-optimize-experiment-edit-content.png){width=70%}
 
 1. Desde allí, con el panel izquierdo puede navegar entre los diferentes contenidos para cada acción de su experimento. Seleccione cada contenido y diseñe según sea necesario.
 
-   ![](assets/journey-optimize-experiment-content.png){width=100%}
+   ![Panel de selección de contenido que muestra tratamientos para el experimento](assets/journey-optimize-experiment-content.png){width=100%}
 
 1. [Publicar](publish-journey.md) su recorrido.
 
@@ -131,7 +131,7 @@ Compruebe si el envío del primer mensaje por correo electrónico o por SMS gene
 
 ➡️ Utilice la tasa de conversión como métrica de éxito (por ejemplo: compras, registros).
 
-![](assets/journey-optimize-experiment-uc-channel.png)
+![Experimento de eficacia de canal que compara correo electrónico con SMS](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
@@ -141,7 +141,7 @@ Ejecute un experimento para comprobar si enviar un correo electrónico en lugar 
 
 ➡️ Use compras o la tasa de cancelación de suscripción como métrica de éxito.
 
-![](assets/journey-optimize-experiment-uc-frequency.png)
+![Experimento de frecuencia de mensajes que prueba un correo electrónico en comparación con tres correos electrónicos](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -151,7 +151,7 @@ Compare una espera de 24 horas con una espera de 72 horas antes de un seguimient
 
 ➡️: utilice la tasa de pulsaciones o los ingresos como métrica de éxito.
 
-![](assets/journey-optimize-experiment-uc-wait.png)
+![Experimento de tiempo de espera que compara retrasos de 24 horas con retrasos de 72 horas](assets/journey-optimize-experiment-uc-wait.png)
 
 +++
 
@@ -182,21 +182,21 @@ Para configurar la segmentación en un recorrido, siga los pasos a continuación
 
 1. Seleccione **[!UICONTROL Regla de segmentación]** de la lista desplegable **[!UICONTROL Método]**.
 
-   ![](assets/journey-optimize-targeting.png){width=60%}
+   ![Selección de regla de segmentación en la actividad de optimización](assets/journey-optimize-targeting.png){width=60%}
 
 1. Haga clic en **[!UICONTROL Crear regla de segmentación]**.
 
 1. Haga clic en **[!UICONTROL Crear regla]** > **[!UICONTROL Crear nuevo]** y use el generador de reglas para definir los criterios.
 
-   ![](assets/journey-targeting-create-rule.png){width=100%}
+   ![Interfaz del generador de reglas para crear criterios de segmentación](assets/journey-targeting-create-rule.png){width=100%}
 
    Por ejemplo, defina una regla para los miembros Gold del programa Loyalty (`loyalty.status.equals("Gold", false)`) y una regla para los demás miembros (`loyalty.status.notEqualTo("Gold", false)`).
 
-   ![](assets/journey-targeting-rule.png)
+   ![Regla de segmentación de estado de fidelidad para miembros oro y no oro](assets/journey-targeting-rule.png)
 
 1. También puede hacer clic en **[!UICONTROL Crear regla]** > **[!UICONTROL Seleccionar regla]** para seleccionar una regla de segmentación existente creada desde el menú **[!UICONTROL Reglas]**. [Más información](../experience-decisioning/rules.md)
 
-   ![](assets/journey-targeting-select-rule.png){width=70%}
+   ![Seleccione una regla de segmentación existente del menú Reglas](assets/journey-targeting-select-rule.png){width=70%}
 
    En este caso, la fórmula que compone la regla simplemente se copia en la actividad de recorrido. Cualquier cambio posterior a esa regla desde el menú **[!UICONTROL Reglas]** no afectará la copia del recorrido.
 
@@ -208,7 +208,7 @@ Para configurar la segmentación en un recorrido, siga los pasos a continuación
 
 1. Después de agregar una regla, aún puede modificarla. Elija **[!UICONTROL Editar en línea]** para actualizarla sobre la marcha usando el generador de reglas o **[!UICONTROL Seleccionar regla]** para recoger otra regla existente.
 
-   ![](assets/journey-targeting-modify-rule.png){width=100%}
+   ![Editar opciones de reglas en línea o Seleccionar opciones de reglas para modificar las reglas de segmentación](assets/journey-targeting-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
@@ -224,17 +224,17 @@ Para configurar la segmentación en un recorrido, siga los pasos a continuación
 
 1. De nuevo en el recorrido, suelte acciones específicas para personalizar cada ruta. Por ejemplo, cree un correo electrónico con ofertas personalizadas para los miembros de Gold Loyalty y un recordatorio SMS para todos los demás miembros.
 
-   ![](assets/journey-targeting-paths.png)
+   ![Rutas de Recorrido con correo electrónico para miembros Gold y SMS para otros](assets/journey-targeting-paths.png)
 
 1. Si seleccionó la opción **[!UICONTROL Habilitar contenido de reserva]** al definir la configuración de regla, defina una o más acciones para la ruta de reserva que se agregó automáticamente.
 
-   ![](assets/journey-targeting-fallback.png){width=70%}
+   ![Configuración de ruta de acceso de reserva para perfiles no calificados](assets/journey-targeting-fallback.png){width=70%}
 
 1. De manera opcional, use **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** para definir una acción alternativa en caso de que se produzcan problemas. [Más información](using-the-journey-designer.md#paths)
 
 1. Diseñe el contenido apropiado para cada acción correspondiente a cada grupo definido por la configuración de reglas de segmentación. Puede navegar sin problemas entre los diferentes contenidos para cada acción.
 
-   ![](assets/journey-targeting-design.png)
+   ![Panel de diseño de contenido para acciones de reglas de segmentación](assets/journey-targeting-design.png)
 
    En este ejemplo, diseñe un correo electrónico con ofertas especiales para los miembros oro y un recordatorio SMS para los demás miembros.
 
@@ -254,7 +254,7 @@ Los miembros con estatus Gold pueden recibir ofertas personalizadas por correo e
 
 <!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-segment.png)
+![Canales específicos de segmentos dirigidos a miembros Gold con correo electrónico y otros con SMS](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -264,7 +264,7 @@ A los clientes que abrieron un correo electrónico pero no hicieron clic se les 
 
 <!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-behavior.png)
+![Direccionamiento basado en el comportamiento para la participación por correo electrónico con la reserva push o SMS](assets/journey-optimize-targeting-uc-behavior.png)
 
 +++
 
@@ -274,7 +274,7 @@ Los clientes que hayan realizado compras recientemente pueden optar por una brev
 
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-purchase.png)
+![Segmentación del historial de compras con ruta de venta cruzada para compradores y ruta de crianza para no compradores](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
@@ -282,7 +282,7 @@ Los clientes que hayan realizado compras recientemente pueden optar por una brev
 
 Las condiciones son un tipo de reglas de [segmentación](#targeting) que le permiten definir cómo progresan los individuos a través de su recorrido mediante la creación de múltiples rutas basadas en criterios específicos.
 
-![](assets/journey-condition.png)
+![Actividad de condición en el recorrido que crea varias rutas según los criterios](assets/journey-condition.png)
 
 Obtenga información sobre cómo definir una condición en [esta sección](conditions.md).
 

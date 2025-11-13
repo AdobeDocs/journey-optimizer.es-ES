@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 16%
@@ -77,7 +77,7 @@ Puede utilizar la capacidad de ejecución en seco en cualquier recorrido de borr
 Para activar la ejecución en seco, siga estos pasos:
 
 1. Abra el recorrido que desee probar.
-1. Seleccione el botón **Ejecutar en seco**.
+1. Seleccione el botón **[!UICONTROL Ejecutar en seco]**.
 
    ![Iniciar la ejecución en seco del recorrido](assets/dry-run-button.png)
 
@@ -85,9 +85,9 @@ Para activar la ejecución en seco, siga estos pasos:
 
    ![Confirmar la publicación de la ejecución en seco de recorrido](assets/dry-run-publish.png){width="50%" align="left"}
 
-   Aparece un mensaje de estado, **Activando la ejecución en seco**, mientras se produce la transición.
+   Aparece un mensaje de estado, **[!UICONTROL Activando la ejecución en seco]**, mientras se produce la transición.
 
-1. Una vez activado, el recorrido entra en modo **Ejecución en seco**.
+1. Una vez activado, el recorrido entra en modo **[!UICONTROL Ejecución en seco]**.
 
 
 ## Monitorización de una ejecución en seco {#journey-dry-monitor}
@@ -109,17 +109,17 @@ También puede acceder a los **informes de las últimas 24 horas** y a los **inf
 
 ## Detener una carrera en seco {#journey-dry-run-stop}
 
-Después de 14 días, los recorridos de ejecución en seco pasan automáticamente al estado **Borrador**.
+Después de 14 días, los recorridos de ejecución en seco pasan automáticamente al estado **[!UICONTROL Borrador]**.
 
 Los recorridos de ejecución en seco también se pueden detener manualmente. Para desactivar el modo de ejecución en seco, siga estos pasos:
 
 1. Abra el recorrido de ejecución en seco que desee detener.
-1. Seleccione el botón **Cerrar** para finalizar la prueba.
+1. Seleccione el botón **[!UICONTROL Cerrar]** para finalizar la prueba.
 Los vínculos a las últimas 24 horas y todos los informes de tiempo están disponibles en la pantalla de confirmación.
 
    ![Detener la ejecución de la ejecución en seco de recorrido](assets/dry-run-stop.png){width="50%" align="left"}
 
-1. Haga clic en **Volver al borrador** para confirmar.
+1. Haga clic en **[!UICONTROL Volver al borrador]** para confirmar.
 
 
 ## Mecanismos de protección y limitaciones {#journey-dry-run-limitations}
@@ -149,4 +149,4 @@ Al analizar **métricas de informes de recorrido** mediante el servicio Adobe Ex
 
 Aprenda a secar los recorridos en este vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464685/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

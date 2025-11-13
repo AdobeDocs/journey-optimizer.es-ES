@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: recorrido, caso de uso, mensaje, suscriptores, lista, lectura
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '345'
 ht-degree: 17%
 
 ---
@@ -33,7 +33,7 @@ Para configurar este recorrido, siga estos pasos:
 
    1. Haga clic en el icono **[!UICONTROL Habilitar anulación de parámetros]** a la derecha del campo **[!UICONTROL Dirección]** y, a continuación, haga clic en el icono **[!UICONTROL Editar]**.
 
-      ![](assets/message-to-subscribers-uc-1.png)
+      ![Flujo de Recorrido con audiencia de lectura para la segmentación de listas de suscriptores](assets/message-to-subscribers-uc-1.png)
 
    1. En el editor de expresiones, introduzca la expresión para recuperar las direcciones de correo electrónico de los suscriptores. [Más información](expression/expressionadvanced.md).
 
@@ -54,7 +54,7 @@ Para configurar este recorrido, siga estos pasos:
 
       Más información sobre [referencias a campos](expression/field-references.md) en expresiones.
 
-      ![](assets/message-to-subscribers-uc-2.png)
+      ![Configuración de correo electrónico con contenido personalizado para suscriptores](assets/message-to-subscribers-uc-2.png)
 
    1. En el cuadro de diálogo **[!UICONTROL Agregar una expresión]**, haga clic en **[!UICONTROL Aceptar]**.
 

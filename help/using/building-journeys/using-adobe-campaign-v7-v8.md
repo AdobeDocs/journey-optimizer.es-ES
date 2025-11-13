@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, integración, campaign, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 31%
+source-wordcount: '207'
+ht-degree: 30%
 
 ---
 
@@ -36,4 +36,4 @@ Se presenta un caso de uso de extremo a extremo en esta [sección](../building-j
 1. En la sección **Action** de la paleta, seleccione una acción de Campaign y agréguela al recorrido.
 1. En los **parámetros de acción**, se muestran todos los campos esperados en la carga útil del mensaje. Debe asignar cada uno de estos campos con el campo que desea utilizar, ya sea desde el evento o desde el origen de datos. Esto es similar a las acciones personalizadas. Consulte esta [sección](../building-journeys/using-custom-actions.md).
 
-![](assets/accintegration2.png)
+![Configuración de acciones e integración de Adobe Campaign v7/v8](assets/accintegration2.png)

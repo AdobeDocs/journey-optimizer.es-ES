@@ -9,9 +9,9 @@ level: Experienced
 keywords: recorrido, fuentes de datos, límite, rendimiento, personalizado, acciones
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '781'
 ht-degree: 3%
 
 ---
@@ -49,11 +49,11 @@ Para **recorridos activados por la audiencia**, puede definir la tasa de lectura
 > Es el número máximo de perfiles que pueden entrar en el recorrido por segundo. Esta tasa se aplica solamente a esta actividad y a ninguna otra en el recorrido. [Más información](../building-journeys/read-audience.md)
 
 
-![](assets/limit-throughput-1.png)
+![Limitar el panel de configuración de rendimiento con la configuración de limitación de velocidad](assets/limit-throughput-1.png)
 
 Puede modificar este valor de 500 a 20 000 instancias por segundo. Si necesita ir a menos de 500/s, también puede agregar condiciones de &quot;división porcentual&quot; con actividades de espera para dividir el recorrido en varias ramas y hacer que se ejecuten a un tiempo específico.
 
-![](assets/limit-throughput-2.png)
+![Recorrido con actividad de rendimiento límite que controla la tasa de entrega de mensajes](assets/limit-throughput-2.png)
 
 Veamos un ejemplo de **recorridos activados por la audiencia** que trabajan con una población de **10 000 perfiles** y envían datos a un sistema externo que admite **100 solicitudes/segundo**.
 

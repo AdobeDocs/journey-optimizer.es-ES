@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 24%
+source-wordcount: '915'
+ht-degree: 23%
 
 ---
 
@@ -78,7 +78,7 @@ Para crear un recorrido de varios pasos, siga estos pasos:
 
 1. Edite el panel de configuración del recorrido para definir el nombre del recorrido y sus propiedades. Aprenda a establecer las propiedades de su recorrido en [esta página](journey-properties.md).
 
-   ![](assets/jo-properties.png)
+   ![Panel de propiedades del Recorrido con opciones de configuración y configuración](assets/jo-properties.png)
 
 A continuación, puede empezar a diseñar el recorrido.
 
@@ -86,11 +86,11 @@ A continuación, puede empezar a diseñar el recorrido.
 
 El diseñador de recorridos omnicanal le ayuda a crear recorridos de varios pasos con públicos destinatarios, actualizaciones basadas en interacciones comerciales o de clientes en tiempo real y mensajes omnicanal mediante una interfaz intuitiva de arrastrar y soltar.
 
-![](assets/journey38.png)
+![Interfaz de diseñador de Recorrido con paleta y lienzo de actividades](assets/journey38.png)
 
 1. Para empezar, arrastre y suelte un evento o una actividad **Leer audiencia** de la paleta en el lienzo. Para obtener más información sobre el diseño de recorrido, consulte [esta sección](using-the-journey-designer.md).
 
-   ![](assets/read-segment.png)
+   ![Leer la configuración de actividades de Audiencia para seleccionar la audiencia objetivo](assets/read-segment.png)
 
 1. Arrastre y suelte un evento o una actividad **Leer audiencia** de la paleta en el lienzo. Para obtener más información sobre el diseño de recorrido, consulte [esta sección](using-the-journey-designer.md).
 
@@ -104,11 +104,11 @@ También puede ejecutar su recorrido en **Ejecución en seco**. El ensayo del re
 
 Debe publicar un recorrido para activarlo y hacer que esté disponible para que los nuevos perfiles lo introduzcan. Antes de publicar el recorrido, compruebe que es válido y que no hay errores. No se puede publicar un recorrido con errores. Obtenga más información acerca de la publicación de recorrido en esta [sección](publish-journey.md).
 
-![](assets/jo-journeyuc2_32bis.png)
+![Flujo de recorrido completo con audiencia, condiciones y acciones](assets/jo-journeyuc2_32bis.png)
 
 Una vez publicado, puede monitorizar su recorrido mediante las herramientas de sistema de informes específicas para medir la efectividad de su recorrido.
 
-![](assets/jo-dynamic_report_journey_12.png)
+![informe de análisis de Recorrido que muestra métricas y estadísticas de rendimiento](assets/jo-dynamic_report_journey_12.png)
 
 Obtenga más información acerca de los informes de recorrido en esta [sección](../reports/live-report.md).
 

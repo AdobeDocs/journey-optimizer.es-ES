@@ -9,9 +9,9 @@ level: Intermediate
 keywords: volver a entrar, recorrido, finalizar, en directo, detener
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Durante la creación de un recorrido, se muestra una etiqueta Fin al final de ca
 
 Si el recorrido tiene varias rutas, le recomendamos que agregue una etiqueta a cada extremo para facilitar la lectura de los informes. Más información sobre [informes de recorrido](../reports/live-report.md).
 
-![](assets/journey-end.png)
+![Botón Finalizar acción de recorrido en la barra de herramientas de recorrido](assets/journey-end.png)
 
 ## Cerrar un recorrido {#close-journey}
 
@@ -69,14 +69,14 @@ Cerrar un recorrido manualmente garantiza que los clientes que ya han introducid
 
 Para cerrar un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Puntos suspensivos]** que se encuentra a la derecha del nombre del recorrido y seleccione **[!UICONTROL Cerca de nuevas entradas]**.
 
-![](assets/journey-finish-quick-action.png)
+![Menú desplegable Finalizar acción en el menú de acciones rápidas para finalizar el recorrido](assets/journey-finish-quick-action.png)
 
 También puede:
 
 1. En la lista **[!UICONTROL Recorridos]**, haga clic en el recorrido que desee cerrar.
 1. En la parte superior derecha, haga clic en la flecha hacia abajo.
 
-   ![](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
+   ![Menú de opciones de finalización que muestra el recorrido final y las acciones alternativas](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Cerrar a nuevas entradas]** y confirme en el cuadro de diálogo.
 
@@ -89,14 +89,14 @@ En caso de que necesite detener el progreso de todos los individuos en el recorr
 
 Puede detener un recorrido, por ejemplo, si un experto en marketing se da cuenta de que el recorrido se dirige a la audiencia incorrecta o si una acción personalizada que se supone que debe enviar mensajes no funciona correctamente. Para detener un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Puntos suspensivos]** que se encuentra a la derecha del nombre del recorrido y seleccione **[!UICONTROL Detener]**.
 
-![](assets/journey-finish-quick-action.png)
+![Menú desplegable Finalizar acción en el menú de acciones rápidas para finalizar el recorrido](assets/journey-finish-quick-action.png)
 
 También puede:
 
 1. En la lista **[!UICONTROL Recorridos]**, haga clic en el recorrido que desee detener.
 1. En la parte superior derecha, haga clic en la flecha hacia abajo.
 
-   ![](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
+   ![Opciones de finalización adicionales que incluyen recorrido de cierre y limpieza](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Detener]** y confirme en el cuadro de diálogo.
 

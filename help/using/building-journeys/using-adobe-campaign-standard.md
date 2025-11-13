@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, integración, estándar, campaña, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '979'
 ht-degree: 5%
 
 ---
@@ -36,7 +36,7 @@ Para cada uno de estos canales, selecciona una **plantilla** de mensaje transacc
 >
 >El mensaje transaccional de Campaign Standard y su evento asociado deben publicarse para poder utilizarse en Journey Optimizer. Si el evento se publica pero el mensaje no, no será visible en la interfaz de Journey Optimizer. Si el mensaje se publica pero su evento asociado no, estará visible en la interfaz de Journey Optimizer, pero no se podrá utilizar.
 
-![](assets/journey59.png)
+![Configuración de acción de Adobe Campaign Standard en el recorrido](assets/journey59.png)
 
 Puede utilizar un evento (también conocido como tiempo real) o una plantilla de mensajería transaccional de perfil.
 
@@ -46,7 +46,7 @@ Puede utilizar un evento (también conocido como tiempo real) o una plantilla de
 
 Al seleccionar una plantilla, todos los campos esperados en la carga útil del mensaje se muestran en el panel de configuración de actividad en **[!UICONTROL Dirección]** y **[!UICONTROL Datos de Personalization]**. Debe asignar cada uno de estos campos con el campo que desea utilizar, ya sea desde el evento o desde el origen de datos. También puede utilizar el editor de expresiones avanzadas para pasar un valor manualmente, realizar la manipulación de datos en la información recuperada (por ejemplo, convertir una cadena a mayúsculas) o utilizar funciones como &quot;if, then, else&quot;. Consulte [esta página](expression/expressionadvanced.md).
 
-![](assets/journey60.png)
+![Interfaz de selección de plantillas de mensajes Campaign Standard](assets/journey60.png)
 
 ## Correo electrónico y SMS {#section_asc_51g_nhb}
 
@@ -70,7 +70,7 @@ Puede definir fácilmente dónde recuperar la **[!UICONTROL dirección]** o los 
 
 Estos son los campos que el sistema necesita para saber dónde enviar el mensaje. Para una plantilla de correo electrónico, es la dirección de correo electrónico. Para un SMS, es el número de teléfono móvil.
 
-![](assets/journey61.png)
+![Configuración del parámetro del mensaje para la integración con Campaign Standard](assets/journey61.png)
 
 **[!UICONTROL Datos de Personalization]**
 
@@ -80,7 +80,7 @@ Estos son los campos que el sistema necesita para saber dónde enviar el mensaje
 
 Estos son los campos que espera el mensaje de Adobe Campaign Standard. Estos campos se pueden utilizar para personalizar el mensaje, aplicar formato condicional o elegir una variante de mensaje específica.
 
-![](assets/journey62.png)
+![Asignación de campos entre Journey Optimizer y Campaign Standard](assets/journey62.png)
 
 ## Push {#section_im3_hvf_nhb}
 
@@ -88,7 +88,7 @@ Antes de utilizar la actividad push, la aplicación móvil debe configurarse jun
 
 En primer lugar, debe elegir una aplicación móvil de la lista desplegable y un mensaje transaccional.
 
-![](assets/journey62bis.png)
+![Editor de expresiones avanzadas para la asignación de parámetros de Campaign Standard](assets/journey62bis.png)
 
 Hay dos categorías disponibles: **[!UICONTROL Target]** y **[!UICONTROL Personalization Data]**.
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: salto, actividad, recorrido, división, división
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 10%
+source-wordcount: '885'
+ht-degree: 9%
 
 ---
 
@@ -76,16 +76,16 @@ En el recorrido B, el primer evento se activa internamente a través de la activ
 
 1. Diseña tu **recorrido de origen**.
 
-   ![](assets/jump1.png)
+   ![Actividad de salto en la paleta de recorrido para la transición entre recorridos](assets/jump1.png)
 
 1. En cualquier paso del recorrido, agrega una actividad **[!UICONTROL Jump]**, desde la categoría **[!UICONTROL ACTIONS]**. Añada una etiqueta y una descripción.
 
-   ![](assets/jump2.png)
+   ![Menú desplegable de selección de recorrido de destino en la configuración de actividad de salto](assets/jump2.png)
 
 1. Haga clic dentro del campo **recorrido de destino**.
 La lista muestra todas las versiones de recorrido que son borradores, activos o en modo de prueba. Los recorridos que usan un área de nombres diferente o que comienzan con un evento **Calificación de audiencias** no están disponibles. Los recorridos de destino que crearían un patrón de bucle también se filtran.
 
-   ![](assets/jump3.png)
+   ![Actividad de salto que muestra el recorrido de destino y los parámetros de acción](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -94,12 +94,12 @@ La lista muestra todas las versiones de recorrido que son borradores, activos o 
 1. Seleccione el recorrido de destino al que desee saltar.
 El campo **Primer evento** está rellenado previamente con el nombre del primer evento del recorrido de destino. Si el recorrido de destino incluye varios eventos, el **[!UICONTROL salto]** solo se permite en el primer evento.
 
-   ![](assets/jump4.png)
+   ![Configuración de asignación de parámetros para actividad de salto con editor de expresiones](assets/jump4.png)
 
 1. La sección **Parámetros de acción** muestra todos los campos del evento de destino. Al igual que con otros tipos de acciones, asigne cada campo con campos del evento de origen o de la fuente de datos. Esta información se pasa al recorrido de destino durante la ejecución.
 1. Añada las siguientes actividades para finalizar el recorrido de origen.
 
-   ![](assets/jump5.png)
+   ![Interfaz de modo de prueba para probar la actividad de salto entre recorridos](assets/jump5.png)
 
 
    >[!NOTE]
@@ -110,7 +110,7 @@ Se ha configurado su actividad **[!UICONTROL Jump]**. Tan pronto como el recorri
 
 Cuando se configura una actividad **[!UICONTROL Jump]** en un recorrido, se agrega automáticamente un icono de entrada **[!UICONTROL Jump]** al principio del recorrido de destino. Esto le ayuda a identificar que el recorrido se puede activar externamente, pero también internamente, desde una actividad **[!UICONTROL Jump]**.
 
-![](assets/jump7.png)
+![Flujo de Recorrido que muestra el salto del recorrido de origen al recorrido de destino](assets/jump7.png)
 
 ## Resolución de problemas {#jump-troubleshoot}
 
@@ -120,4 +120,4 @@ Se producen errores si:
 * El recorrido de destino es borrador, está cerrado o detenido
 * El primer evento del recorrido de destino cambia y la asignación se interrumpe
 
-![](assets/jump6.png)
+![análisis de Recorrido que muestra métricas de ejecución de actividad de salto](assets/jump6.png)

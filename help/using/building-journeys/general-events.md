@@ -10,9 +10,9 @@ level: Intermediate
 keywords: personalizado, general, eventos, recorrido
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '640'
 ht-degree: 20%
 
 ---
@@ -35,7 +35,7 @@ Para este tipo de evento, solo puede añadir una etiqueta y una descripción. El
 
 Obtenga más información acerca del rendimiento de eventos y las tasas de procesamiento de recorridos en [esta sección](entry-management.md#journey-processing-rate).
 
-![](assets/general-events.png)
+![Panel de configuración de eventos generales con selección y configuración de eventos](assets/general-events.png)
 
 Al eliminar un evento empresarial, se agrega automáticamente una actividad **Leer audiencia**. Para obtener más información sobre los eventos empresariales, consulte [esta sección](../event/about-events.md)
 
@@ -55,7 +55,7 @@ Para configurar un tiempo de espera para un evento, siga estos pasos:
 
 1. Cuando no se recibe ningún evento dentro del tiempo de espera especificado, se recomienda enviar a los individuos a una ruta de tiempo de espera. Para esto, habilite la opción **[!UICONTROL Establecer una ruta de tiempo de espera]**. En ese caso, el recorrido continúa para el individuo una vez que se alcanza el tiempo de espera. Se recomienda habilitar siempre la opción **[!UICONTROL Establecer una ruta de tiempo de espera]**.
 
-   ![](assets/event-timeout.png)
+   ![Configuración del tiempo de espera del evento con opciones de ruta de tiempo de espera y duración](assets/event-timeout.png)
 
 En este ejemplo, el recorrido envía un primer correo electrónico de bienvenida a un cliente después de que entre en el vestíbulo. A continuación, envía un correo electrónico de descuento en la comida solo si el cliente entra en el restaurante dentro del día siguiente. Por lo tanto, configuramos el evento del restaurante con un tiempo de espera de 1 día:
 
@@ -69,4 +69,4 @@ El tiempo de espera definido se aplica a todos los eventos colocados después de
 * Si se recibe un evento dentro de la duración del tiempo de espera, el individuo fluye a la ruta del evento recibido.
 * Si no se recibe ningún evento dentro de la duración del tiempo de espera, el individuo fluye a la rama de tiempo de espera del evento en la que se ha definido el tiempo de espera.
 
-![](assets/event-timeout-group.png)
+![Varios eventos con configuraciones de tiempo de espera en el recorrido](assets/event-timeout-group.png)

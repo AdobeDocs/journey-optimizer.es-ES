@@ -12,10 +12,10 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1601'
-ht-degree: 17%
+source-wordcount: '1696'
+ht-degree: 16%
 
 ---
 
@@ -44,7 +44,7 @@ Para añadir una condición al recorrido, siga los pasos a continuación.
 
 1. Seleccione una condición de la lista desplegable **[!UICONTROL Método]**.
 
-   ![](assets/journey-optimize-condition.png){width=80%}
+   ![Optimizar actividad con el método de condición seleccionado](assets/journey-optimize-condition.png){width=80%}
 
    Los siguientes tipos de condiciones están disponibles:
 
@@ -66,13 +66,13 @@ Al utilizar varias condiciones en un recorrido, puede definir etiquetas para cad
 
 Haga clic en **[!UICONTROL Agregar una ruta]** si desea definir varias condiciones. Para cada condición, se agrega una nueva ruta en el lienzo después de la actividad.
 
-![](assets/journey-condition-add-path.png){width=80%}
+![Agregue un botón de ruta de acceso para crear varias rutas de acceso de condición](assets/journey-condition-add-path.png){width=80%}
 
 Tenga en cuenta que el diseño de los recorridos tiene impactos funcionales. Cuando se definen varias rutas después de una condición, solo se ejecuta la primera ruta elegible. Esto significa que puede variar la priorización de las rutas colocándolas una encima o debajo de la otra.
 
 Veamos el ejemplo de la condición de una primera ruta &quot;La persona es un VIP&quot; y de una segunda ruta &quot;La persona es un hombre&quot;. Si una persona que cumple ambas condiciones (un hombre que es un VIP) pasa este paso, se elige la primera ruta aunque esta persona también sea elegible para la segunda, ya que la primera ruta es &quot;arriba&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
 
-![](assets/journey48.png)
+![Ejemplo de priorización de ruta que muestra la condición VIP por encima de la condición masculina](assets/journey48.png)
 
 Puede crear otra ruta para las audiencias que no cumplan los requisitos para las condiciones definidas marcando **[!UICONTROL Mostrar ruta para otros casos que no sean los anteriores]**.
 
@@ -85,7 +85,7 @@ El modo simple permite realizar consultas simples basadas en una combinación de
 * **AND**: una intersección de dos criterios. Solo se tienen en cuenta los elementos que coinciden con todos los criterios.
 * **OR**: una unión de dos criterios. Se tienen en cuenta los elementos que coinciden con al menos uno de los dos criterios.
 
-![](assets/journey64.png){width=80%}
+![Editor de expresiones simple con campos de arrastrar y soltar y operadores lógicos](assets/journey64.png){width=80%}
 
 Si está usando el [servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"} para crear sus audiencias, puede aprovecharlas en sus condiciones de recorrido. Consulte [Uso de la audiencia en condiciones](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -105,7 +105,7 @@ Por ejemplo, si va a segmentar una audiencia con atributos de enriquecimiento ge
 
 Con el editor de expresiones avanzadas, puede configurar condiciones más avanzadas manipulando colecciones o utilizando fuentes de datos que requieran el paso de parámetros. [Más información](../datasource/external-data-sources.md)
 
-![](assets/journey50.png){width=80%}
+![Condición de Source de datos con editor de expresiones avanzadas](assets/journey50.png){width=80%}
 
 ## Condición de fecha {#date_condition}
 
@@ -115,7 +115,7 @@ Esto le permite definir un flujo diferente en función de la fecha. Por ejemplo,
 >
 >La zona horaria ya no es específica de una condición y ahora se define en el nivel de recorrido en las propiedades del recorrido. [Más información](../building-journeys/timezone-management.md)
 
-![](assets/journey53.png)
+![Configuración de condición de fecha con campos de fecha de inicio y finalización](assets/journey53.png)
 
 ## División porcentual {#percentage_split}
 
@@ -127,7 +127,7 @@ En el modo de prueba, al alcanzar una división, siempre se elige la rama superi
 >
 >Tenga en cuenta que no hay ningún botón para añadir una ruta en la condición de división de porcentaje. El número de rutas dependerá del número de divisiones. En condiciones de división, no se puede añadir una ruta para otros casos, ya que no puede ocurrir. La gente siempre irá en uno de los caminos divididos.
 
-![](assets/journey52.png)
+![Configuración de división de porcentaje con regulador que muestra la distribución del tráfico](assets/journey52.png)
 
 ## Condición de tiempo {#time_condition}
 
@@ -139,7 +139,7 @@ Use una **[!UICONTROL condición horaria]** para realizar diferentes acciones se
 >
 >* De manera predeterminada, la **[!UICONTROL condición de tiempo]** se establece por hora, de 00:00 a 12:00.
 
-![](assets/journey51.png)
+![Condición de tiempo con intervalo de horas y selectores de día de semana](assets/journey51.png)
 
 Hay tres opciones de filtrado disponibles:
 
@@ -172,7 +172,7 @@ Para los recorridos activos, estos son los umbrales que se deben tener en cuenta
 
 En el modo de prueba no se tiene en cuenta el límite de perfil.
 
-![](assets/profile-cap-condition.png)
+![Condición de límite de perfil con campo máximo de entrada de límite de perfil](assets/profile-cap-condition.png)
 
 ## Uso de audiencias en condiciones {#using-a-segment}
 
@@ -182,14 +182,14 @@ Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
 
 1. Abra un recorrido, suelte una actividad **[!UICONTROL Optimizar]** y elija la **[!UICONTROL condición de origen de datos]**.
 
-   ![](assets/segment3.png)
+   ![Método de condición de Source de datos seleccionado en el menú desplegable](assets/segment3.png)
 
 1. Haga clic en **[!UICONTROL Agregar una ruta]** para cada ruta adicional necesaria. Para cada ruta, haga clic en el campo **[!UICONTROL Expression]**.
 
 1. En el lado izquierdo, despliegue el nodo **[!UICONTROL Audiences]**. Arrastre y suelte la audiencia que desee utilizar para la condición. De forma predeterminada, la condición de la audiencia es verdadera.
 
-   ![](assets/segment4.png){width=80%}
+   ![Nodo de audiencias en el editor de expresiones para seleccionar audiencias de Adobe Experience Platform](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >
-   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '767'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,7 @@ Puede ver que `products` es una matriz de dos objetos. Debe tener al menos un ob
 
 1. En la sección **[!UICONTROL Parámetros de acción]**, pegue el ejemplo JSON. La estructura mostrada es estática: al pegar la carga útil, todos los campos se definen como constantes.
 
-   ![](assets/uc-collection-1.png)
+   ![Editor de expresiones que muestra funciones y operaciones de colección](assets/uc-collection-1.png)
 
 1. Si es necesario, ajuste los tipos de campo. Se admiten los siguientes tipos de campos para colecciones: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
@@ -120,21 +120,21 @@ Puede ver que `products` es una matriz de dos objetos. Debe tener al menos un ob
 
 1. Para cada campo, defina la etiqueta que se mostrará en el lienzo de recorrido.
 
-   ![](assets/uc-collection-2.png){width="70%" align="left"}
+   ![Función de colección de filtros con interfaz de generador de condiciones](assets/uc-collection-2.png){width="70%" align="left"}
 
 1. Cree el recorrido y añada la acción personalizada que ha creado. Obtenga más información en [esta página](../building-journeys/using-custom-actions.md).
 
 1. En la sección **[!UICONTROL Parámetros de acción]**, defina el parámetro de matriz (`products` en nuestro ejemplo) utilizando el editor de expresiones avanzadas.
 
-   ![](assets/uc-collection-3.png)
+   ![Expresión de filtrado de colección con selección de campo](assets/uc-collection-3.png)
 
 1. Para cada uno de los siguientes campos de objeto, escriba el nombre del campo correspondiente del esquema XDM de origen. Si los nombres son idénticos, no es necesario. En nuestro ejemplo, solo necesitamos definir `product id` y &quot;color&quot;.
 
-   ![](assets/uc-collection-4.png){width="50%" align="left"}
+   ![Función de ordenación de colecciones con la configuración de pedidos](assets/uc-collection-4.png){width="50%" align="left"}
 
 Para el campo de matriz, también puede utilizar el editor de expresiones avanzadas para realizar la manipulación de datos. En el ejemplo siguiente, utilizamos las funciones [filter](functions/list-functions.md#filter) y [intersect](functions/list-functions.md#intersect):
 
-![](assets/uc-collection-5.png)
+![Expresión de colección completa con operaciones de filtro, ordenación y límite](assets/uc-collection-5.png)
 
 ## Limitaciones {#limitations}
 
@@ -194,7 +194,7 @@ Aunque las colecciones en acciones personalizadas proporcionan flexibilidad para
 
 Para los tipos y matrices heterogéneos de matrices, la matriz se define con el tipo listAny. Solo puede asignar elementos individuales, pero no puede cambiar la matriz a variable.
 
-![](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![Colección heterogénea con tipos de datos mixtos y selección de campos](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
 
 Ejemplo de tipo heterogéneo:
 

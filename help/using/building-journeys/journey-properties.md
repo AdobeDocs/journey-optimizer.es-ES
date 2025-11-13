@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2748'
+source-wordcount: '2771'
 ht-degree: 15%
 
 ---
@@ -41,7 +41,7 @@ Puede hacer lo siguiente:
 * Defina un tiempo de espera de [timeout duration](#timeout) en las actividades de recorrido (solo para usuarios administradores)
 * Supervise los conflictos y dé prioridad a sus recorridos con [herramientas de administración de conflictos](#conflict)
 
-![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
+![panel de configuración de propiedades de Recorrido con configuración general y opciones avanzadas](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -285,7 +285,7 @@ Para **crear** un criterio de salida, siga estos pasos:
 
 1. Abra el recorrido.
 
-1. Haga clic en el icono ![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Mostrar criterios de salida]** ubicado en la sección superior derecha del lienzo de recorrido.
+1. Haga clic en el icono ![Mostrar criterios de salida](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Mostrar criterios de salida]** ubicado en la sección superior derecha del lienzo de recorrido.
 
 1. Seleccione **[!UICONTROL Agregar criterios de salida]**.
 
@@ -296,7 +296,7 @@ Para **crear** un criterio de salida, siga estos pasos:
 
 Puede agregar varios criterios de salida.
 
-![](assets/exitcriteria-sample.png){width="40%" align="left"}
+![Panel de criterios de salida que muestra las condiciones de audiencia para la finalización del recorrido](assets/exitcriteria-sample.png){width="40%" align="left"}
 
 
 ### Criterios de salida basados en atributos de perfil {#profile-exit-criteria}

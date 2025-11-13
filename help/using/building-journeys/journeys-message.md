@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '569'
 ht-degree: 17%
 
 ---
@@ -42,7 +42,7 @@ Para añadir una acción de canal integrada a un recorrido, siga los pasos a con
 
 1. En la sección **Acciones** de la paleta, arrastre y suelte una actividad de canal en el lienzo.
 
-   ![](assets/journey-web-activity.png)
+   ![Actividad de acción del canal web en el lienzo del recorrido](assets/journey-web-activity.png)
 
 1. También puede seleccionar la actividad **[!UICONTROL Action]**, que le permite seleccionar varias acciones entrantes. [Más información](journey-action.md)
 
@@ -139,7 +139,7 @@ Puede actualizar el contenido de una acción de canal integrada en un recorrido 
 
 Para ello, abre el recorrido en vivo, selecciona la actividad del canal y haz clic en **Editar contenido**.
 
-![](assets/add-a-message2.png)
+![Agregar lista desplegable de actividades de acción que muestra las opciones de canal disponibles](assets/add-a-message2.png)
 
 Sin embargo, no se pueden cambiar los atributos utilizados en la personalización, ya sean atributos de perfil o datos contextuales (de propiedades de evento o recorrido).
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 16%
+source-wordcount: '1050'
+ht-degree: 15%
 
 ---
 
@@ -50,17 +50,17 @@ Para añadir una acción de canal integrada a un recorrido, siga los pasos a con
 
 1. Seleccione la actividad de canal integrada que desee aprovechar en el recorrido.
 
-   ![](assets/journey-action-type-cbe.png)
+   ![Menú desplegable de tipo de acción que muestra las opciones de acción del canal y acción personalizada](assets/journey-action-type-cbe.png)
 
 1. Agregue una etiqueta a su acción y seleccione **[!UICONTROL Configurar acción]**.
 
-   ![](assets/journey-action-configure.png){width="80%"}
+   ![Panel de configuración de actividades de acción con campos de etiqueta y descripción](assets/journey-action-configure.png){width="80%"}
 
 1. Se le dirigirá a la ficha **[!UICONTROL Acciones]** de la pantalla de configuración de acciones de recorrido.
 
    Seleccione la configuración que desea utilizar para el canal seleccionado.
 
-   ![](assets/journey-action-actions-tab.png)
+   ![Ficha Acciones del menú Administración que muestra las acciones personalizadas y de Adobe](assets/journey-action-actions-tab.png)
 
 1. Si ha seleccionado un canal entrante, puede añadir varias acciones. [Más información](#multi-action)
 
@@ -159,15 +159,15 @@ Para definir varias acciones entrantes en un solo nodo de acción de recorrido, 
 
 1. Seleccione **[!UICONTROL Acción múltiple]** como tipo de acción.
 
-   ![](assets/journey-multi-action.png)
+   ![Actividad de varias acciones en la paleta de recorrido en Orquestación](assets/journey-multi-action.png)
 
 1. Agregue una etiqueta si es necesario y seleccione **[!UICONTROL Configurar acción]**.
 
-   ![](assets/journey-multi-action-configure.png){width="60%"}
+   ![Panel de configuración de varias acciones con campos de etiqueta y descripción](assets/journey-multi-action-configure.png){width="60%"}
 
 1. Se le dirigirá a la ficha **[!UICONTROL Acciones]** de la pantalla de configuración de acciones de recorrido.
 
-   ![](assets/journey-multi-action-configuration.png){width="70%"}
+   ![Configuración de varias acciones que muestra la lista de acciones a ejecutar](assets/journey-multi-action-configuration.png){width="70%"}
 
 1. Seleccione una acción entrante (**Experiencia basada en código**, **Mensaje en la aplicación**, **Tarjeta de contenido** o **Web**) de la sección **[!UICONTROL Acciones]**.
 
@@ -175,7 +175,7 @@ Para definir varias acciones entrantes en un solo nodo de acción de recorrido, 
 
 1. Utilice el botón **[!UICONTROL Agregar acción]** para seleccionar otra acción de entrada de la lista desplegable.
 
-   ![](assets/journey-multi-action-add.png){width="80%"}
+   ![Agregar botón de acción para incluir acciones adicionales en la actividad de varias acciones](assets/journey-multi-action-add.png){width="80%"}
 
 1. Continúe de la misma manera para agregar más acciones. Puede añadir hasta 10 acciones entrantes en un grupo de acciones de recorrido.
 

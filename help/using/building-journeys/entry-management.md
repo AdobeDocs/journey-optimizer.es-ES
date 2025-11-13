@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1124'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ De forma predeterminada, los recorridos permiten la reentrada. Cuando se activa 
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
 -->
 
-![](assets/journey-re-entrance.png)
+![Alternar configuración de reentrada en las propiedades del recorrido](assets/journey-re-entrance.png)
 
 Después del periodo de reentrada, los perfiles pueden volver a entrar en el recorrido. Para evitarlo y deshabilitar completamente la reentrada para esos perfiles, puede agregar una condición para comprobar si el perfil introducido ya está o no, utilizando datos de perfil o audiencia.
 
@@ -94,7 +94,7 @@ Business events follow reentrance rules in the same way as for unitary events. I
 
 En **recorridos empresariales**, para permitir varias ejecuciones de eventos empresariales, active la opción correspondiente en la sección **[!UICONTROL Ejecución]** de las propiedades del recorrido.
 
-![](assets/business-entry.png)
+![Opciones de administración de entradas de eventos empresariales en la configuración del recorrido](assets/business-entry.png)
 
 En el caso de los eventos empresariales, para un recorrido determinado, los datos de audiencia recuperados en la primera ejecución se reutilizan durante un intervalo de tiempo de 1 hora.
 

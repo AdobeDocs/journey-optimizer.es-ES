@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, eventos, reaction, seguimiento, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '387'
 ht-degree: 20%
 
 ---
@@ -34,7 +34,7 @@ Tenga en cuenta que solo puede utilizar una actividad de reacción en el lienzo 
 
 Consulte [Acerca de las actividades de acción](../building-journeys/about-journey-activities.md#action-activities).
 
-![](assets/journey45.png)
+![Configuración de evento de reacción con selección de canal y opciones de tipo de evento](assets/journey45.png)
 
 Estos son los pasos para configurar los eventos de reacción:
 

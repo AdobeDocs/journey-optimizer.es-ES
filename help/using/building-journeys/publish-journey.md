@@ -10,10 +10,10 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 42%
+source-wordcount: '624'
+ht-degree: 40%
 
 ---
 
@@ -38,7 +38,7 @@ Los pasos para publicar un recorrido se detallan a continuación:
    >
    > Si el recorrido está sujeto a una directiva de aprobación, debe solicitar la aprobación para publicar el recorrido. [Más información](../test-approve/gs-approval.md)
 
-   ![](assets/journeyuc1_18.png)
+   ![Botón Publicar en la barra de herramientas de recorrido para activar el recorrido](assets/journeyuc1_18.png)
 
 Cuando se publica el recorrido, está en modo **solo lectura**. En el modo de solo lectura, solo puede modificar las etiquetas y las descripciones de la actividad, el nombre del recorrido y la descripción del recorrido. Si necesita hacer más modificaciones en un recorrido publicado, cree [una nueva versión](journey-ui.md#journey-filter) del recorrido.
 
@@ -52,7 +52,7 @@ Cuando se detiene un recorrido, se detiene permanentemente. Todos los individuos
 
 En la lista de recorridos, todas las versiones del recorrido se muestran con el número de versión. Cuando busca un recorrido, las versiones más recientes aparecen en la parte superior de la lista la primera vez que se abre la aplicación. A continuación, puede definir la clasificación que desee y la aplicación la mantendrá como preferencia del usuario. La versión del recorrido también se muestra en la parte superior de la interfaz de la edición de recorrido, encima del lienzo.
 
-![](assets/journeyversions1.png)
+![Lista de versiones de Recorrido que muestra las versiones publicadas y en borrador](assets/journeyversions1.png)
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Si necesita modificar a un recorrido activo, cree una nueva versión del recorri
 
 1. Abra la última versión del recorrido activo, haga clic en **[!UICONTROL Crear una nueva versión]** y confirme.
 
-   ![](assets/journeyversions2.png)
+   ![Cuadro de diálogo Crear nueva versión para duplicar el recorrido](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -88,4 +88,4 @@ Cuando se publica una nueva versión de un recorrido, la versión anterior final
 
 Obtenga información sobre cómo publicar un recorrido en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427933?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

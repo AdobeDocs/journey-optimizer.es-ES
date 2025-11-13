@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1475'
 ht-degree: 10%
 
 ---
@@ -65,7 +65,7 @@ Representación de los recorridos:
 
 Para desplazarse por el calendario de Recorrido:
 
-1. Para acceder a la vista de calendario, abre la lista de recorridos y haz clic en el icono ![calendario](assets/do-not-localize/timeline-icon.svg).
+1. Para acceder a la vista de calendario, abre la lista de recorridos y haz clic en el icono ![Calendario para cambiar a la vista de calendario](assets/do-not-localize/timeline-icon.svg).
 
 1. Utilice los botones de flecha o el selector de fecha situado encima del calendario para desplazarse entre semanas.
 
@@ -73,11 +73,11 @@ Para desplazarse por el calendario de Recorrido:
 
    ![vista de calendario que muestra recorridos activos](assets/timeline-journeys.png)
 
-1. Haga clic en el icono ![engranaje](assets/do-not-localize/Smock_Gears_18_N.png) para alternar la visualización de elementos que abarcan varios días o semanas.
+1. Haga clic en el ícono ![Configuración para alternar la visualización de recorridos de varios días](assets/do-not-localize/Smock_Gears_18_N.png) para alternar la visualización de elementos que abarcan varios días o semanas.
 
    ![vista de calendario que muestra campañas en vivo](assets/journey-calendar-1.png)
 
-1. Haga clic en el icono ![agregar calendario](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) para administrar y agregar hasta tres calendarios externos.
+1. Haga clic en el icono ![Agregar calendario externo](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) para administrar y agregar hasta tres calendarios externos.
 
    ![vista de calendario que muestra calendarios externos](assets/journey-calendar-2.png)
 
@@ -120,7 +120,7 @@ Para filtrar recorridos según un intervalo de fechas específico, seleccione **
 
 Además, en los paneles Evento, Fuente de datos y Configuración de acciones, el campo **[!UICONTROL Utilizado en]** muestra el número de recorridos que utilizan ese evento, grupo de campos o acción en particular. Puede hacer clic en el botón **[!UICONTROL Ver recorridos]** para mostrar la lista de los recorridos correspondientes.
 
-![](assets/journey3bis.png)
+![Utilizado en el campo que muestra el número de recorridos que utilizan un evento o una acción](assets/journey3bis.png)
 
 ## tipos de recorrido {#journey-types}
 
@@ -166,7 +166,7 @@ Para ello, siga los pasos a continuación:
 
 1. Introduzca el nombre del recorrido y confírmelo. También puede cambiar el nombre en la pantalla de propiedades del recorrido. De manera predeterminada, el nombre se establece de la siguiente manera: `[JOURNEY-NAME]_copy`
 
-   ![](assets/duplicate-jo2.png)
+   ![Campo de entrada de nombre de Recorrido para recorrido duplicado](assets/duplicate-jo2.png)
 
 1. El nuevo recorrido se crea y está disponible en la lista de recorridos.
 

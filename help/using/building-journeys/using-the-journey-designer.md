@@ -10,9 +10,9 @@ level: Intermediate
 keywords: diseño, lienzo, recorrido, interfaz, arrastrar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1739'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ La **paleta** se encuentra en el lado izquierdo de la pantalla. Todas las activi
 
 Al iniciar un nuevo recorrido, se ocultan los elementos que no se pueden soltar en el lienzo como primer paso. Esto se refiere a todas las acciones, la actividad de la condición, la espera y la reacción.
 
-![](assets/journey38.png)
+![Interfaz del diseñador de Recorrido con panel de paleta, lienzo y propiedades](assets/journey38.png)
 
 El icono **[!UICONTROL Filtrar elementos]** de la esquina superior izquierda le permite mostrar los siguientes filtros:
 
@@ -46,23 +46,23 @@ También puede usar el campo **[!UICONTROL Buscar]**. Solo se filtran los evento
 
 **canvas** es la zona central del diseñador de recorridos. Es en esta zona donde puede soltar sus actividades y configurarlas. Haga clic en una actividad del lienzo para configurarla. Se abrirá el panel de configuración de actividad en el lado derecho.
 
-![](assets/journey39.png)
+![Lienzo de Recorrido con el panel de configuración de actividad abierto a la derecha](assets/journey39.png)
 
 La **barra de herramientas**, ubicada en la esquina superior derecha del lienzo, le permite mostrar/ocultar la cuadrícula, acercar/alejar y descargar una captura de pantalla del lienzo. Consulte esta [sección](../building-journeys/journey-properties.md#timeout_and_error).
 
 <!--and show/hide timeout and error paths-->
 
-![](assets/toolbar.png){width="70%" align="left"}
+![barra de herramientas de Recorrido con controles de zoom, cuadrícula y captura de pantalla](assets/toolbar.png){width="70%" align="left"}
 
 El **panel de configuración de actividad** aparece al hacer clic en una actividad de la paleta. Rellene los campos obligatorios. Haga clic en el icono **[!UICONTROL Eliminar]** para eliminar la actividad. Haga clic en **[!UICONTROL Cancelar]** para cancelar las modificaciones o en **[!UICONTROL Aceptar]** para confirmar. Para eliminar actividades, también puede seleccionar una actividad (o varias) y pulsar la tecla de retroceso. Si pulsa la tecla Esc, se cerrará el panel de configuración de actividad.
 
 De forma predeterminada, los campos de solo lectura están ocultos. Para mostrar campos de solo lectura, haga clic en el icono **Mostrar campos de solo lectura** en la parte superior izquierda del panel de configuración de la actividad. Esta configuración se aplica a todas las actividades de todos los recorridos.
 
-![](assets/journey59bis.png)
+![Panel de configuración de actividad con la opción Mostrar campos de solo lectura](assets/journey59bis.png)
 
 Según el estado del recorrido, puede realizar diferentes acciones en el recorrido mediante los botones disponibles en la esquina superior derecha: **[!UICONTROL Publicar]**, **[!UICONTROL Duplicar]**, **[!UICONTROL Eliminar]**, **[!UICONTROL Modo de prueba]**, **[!UICONTROL Administrar el acceso]**, **[!UICONTROL Alertas]**. Estos botones aparecen cuando no se ha seleccionado ninguna actividad. Algunos botones aparecerán en contexto. El botón de registro del modo de prueba aparece cuando se activa el modo de prueba.
 
-![](assets/journey41.png)
+![Botones de acción de Recorrido: Publicar, Duplicar, Eliminar, Modo de prueba, Administrar acceso, Alertas](assets/journey41.png)
 
 ## Inicie el recorrido {#start-your-journey}
 
@@ -112,7 +112,7 @@ Puede definir una acción de reserva en caso de error o tiempo de espera para la
 
 Para agregar una acción de reserva para una actividad, seleccione el cuadro **[!UICONTROL Agregar una ruta de acceso alternativa en caso de tiempo de espera o error]** en las propiedades de la actividad: se agrega otra ruta de acceso después de la actividad. Los usuarios administradores definen la duración del tiempo de espera en [propiedades de recorrido](../building-journeys/journey-properties.md). Por ejemplo, si un correo electrónico tarda demasiado en enviarse o presenta un error, puede decidir enviar una notificación push.
 
-![](assets/journey42.png)
+![Agregar una ruta alternativa en caso de tiempo de espera u opción de error](assets/journey42.png)
 
 Varias actividades (evento, acción, espera) permiten agregar varias rutas después de ellas. Para ello, coloque el cursor en la actividad y haga clic en el símbolo &quot;+&quot;. Solo se pueden configurar actividades de evento y espera en paralelo. Si se configuran varios eventos en paralelo, la ruta elegida será la del primer evento que se produzca.
 
@@ -120,11 +120,11 @@ Al escuchar un evento, le recomendamos que no espere al evento indefinidamente. 
 
 Para eliminar la ruta, coloque el cursor sobre ella y haga clic en el icono **[!UICONTROL Eliminar ruta]**.
 
-![](assets/journey42ter.png)
+![Eliminar icono de ruta de acceso para quitar una ruta de acceso alternativa](assets/journey42ter.png)
 
 En el lienzo, cuando se desconectan dos actividades, se muestra una advertencia. Coloque el cursor en el icono de advertencia para mostrar el mensaje de error. Para solucionar el problema, simplemente mueva la actividad desconectada y conéctela a la actividad anterior.
 
-![](assets/canvas-disconnected.png)
+![Icono de advertencia que muestra actividades desconectadas en el lienzo](assets/canvas-disconnected.png)
 
 ## Copiar y pegar actividades {#copy-paste}
 
@@ -143,9 +143,9 @@ Estos son los pasos para copiar/pegar actividades:
 
 1. Abra un recorrido.
 1. Seleccione las actividades que desee copiar moviendo el ratón mientras hace clic en. También puede hacer clic en cada actividad mientras presiona la tecla **Ctrl/Comando**. Use **Ctrl/Comando + A** si desea seleccionar todas las actividades.
-   ![](assets/copy-paste1.png)
+   ![Seleccionar varias actividades en el recorrido para copiarlas](assets/copy-paste1.png)
 1. Presione **Ctrl/Comando + C**.
 Si solo desea copiar una actividad, puede hacer clic en ella y usar el icono **Copiar** en la parte superior izquierda del panel de configuración de la actividad.
-   ![](assets/copy-paste2.png)
+   ![Icono de copiar en el panel de configuración de la actividad](assets/copy-paste2.png)
 1. En cualquier recorrido, presione **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y presionar **Ctrl/Comando + V**. Las actividades pegadas se vincularán al nodo.
-   ![](assets/copy-paste3.png)
+   ![Actividades pegadas en lienzo de recorrido listas para conectarse](assets/copy-paste3.png)
