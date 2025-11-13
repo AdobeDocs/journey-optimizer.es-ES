@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
+source-git-commit: 71d4fae1eecb2acfcf3ba889c58bf71fb74d48fa
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1472'
 ht-degree: 1%
 
 ---
@@ -143,8 +143,8 @@ Para ello:
 ## Añadir texto enriquecido a un fragmento personalizable {#rich-text}
 
 El texto enriquecido, como saltos de línea, negrita, cursiva, etc., se puede agregar a un fragmento editable mediante componentes de HTML. Para ello, siga los pasos que aparecen a continuación.
-
-➡️ [Aprenda a agregar y utilizar texto enriquecido en un fragmento editable de este vídeo](#video)
+<!--
+➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
 
 ### Crear un fragmento que incluya texto enriquecido {#add-rich-text}
 
@@ -190,8 +190,10 @@ Al añadir el fragmento a su contenido de correo electrónico, los usuarios ahor
 
    ![](assets/fragment-rich-editable-fields-update-styling.png)
 
-## Vídeo práctico {#video}
+<!--
+## How-to video {#video}
 
-Este vídeo muestra cómo hacer que los componentes de HTML dentro de un fragmento se puedan editar, lo que permite actualizaciones dinámicas tanto del contenido como del estilo.
+This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464371/?captions=spa&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+-->
