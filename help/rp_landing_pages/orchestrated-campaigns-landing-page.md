@@ -20,7 +20,7 @@ Las campañas orquestadas en Adobe Journey Optimizer le permiten diseñar y ejec
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a las campañas orquestadas
 
@@ -30,7 +30,7 @@ Obtenga información sobre las funcionalidades, componentes y distinciones princ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Mecanismos de protección y limitaciones
 
@@ -40,7 +40,7 @@ Conozca las restricciones y limitaciones que deben tenerse en cuenta a la hora d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configuración de datos para campañas orquestadas
 
@@ -50,7 +50,7 @@ Configure esquemas, conjuntos de datos y canales relacionales para garantizar la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Iniciar y administrar campañas orquestadas
 
@@ -60,7 +60,7 @@ Una guía paso a paso para crear, orquestar, monitorizar y analizar su primera c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Consultar la base de datos de campañas orquestadas
 
@@ -70,7 +70,7 @@ Domine la consulta de bases de datos para segmentar y resegmentar públicos en c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Guía completa de las actividades de campañas
 
