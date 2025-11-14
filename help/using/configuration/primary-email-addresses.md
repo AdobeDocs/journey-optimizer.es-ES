@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: principal, ejecución, correo electrónico, destinatario, perfil, optimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 20%
+source-wordcount: '647'
+ht-degree: 14%
 
 ---
 
-# Cambio de direcciones de ejecución {#change-primary-email}
+# Administrar los campos de ejecución predeterminados {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
@@ -73,8 +73,7 @@ El campo de ejecución se actualiza y ahora se utiliza como dirección principal
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="Definir un valor personalizado"
->abstract="En algunos casos específicos, puede anular la dirección de ejecución predeterminada. Utilice el icono **Habilitar anulación de parámetros** a la derecha del campo para definir una dirección principal personalizada."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Acerca de la dirección de ejecución"
+>abstract="En algunos casos específicos, puede anular el valor del campo de ejecución predeterminado. Utilice el icono **Habilitar anulación de parámetros** a la derecha de este campo para definir una dirección de correo electrónico o un número de teléfono personalizados para priorizar el envío."
 
 Para casos de uso específicos, puede anular el campo de ejecución establecido globalmente y definir un valor diferente en el nivel de recorrido.
 
@@ -91,7 +90,7 @@ Anule este valor con el icono **[!UICONTROL Habilitar anulación de parámetros]
 
 >[!CAUTION]
 >
->La anulación de direcciones de correo electrónico o números de teléfono solo debe utilizarse para casos de uso específicos. La mayoría de las veces, no es necesario cambiarlo, ya que el valor definido como la dirección principal en **[!UICONTROL Campos de ejecución]** a nivel de zona protegida es el que debería usarse.
+>La anulación de direcciones de correo electrónico o números de teléfono solo debe utilizarse para casos de uso específicos. La mayoría de las veces, no es necesario cambiarlo, ya que el valor definido como el campo principal en **[!UICONTROL Campos de ejecución]** a nivel de zona protegida es el que debería usarse. [Más información](#change-primary-email)
 
 ## Anular el campo de ejecución predeterminado en la configuración del canal {#override-execution-address-channel-config}
 
