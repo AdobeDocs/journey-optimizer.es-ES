@@ -5,9 +5,9 @@ title: Cree su dimensión de segmentación
 description: Obtenga información sobre cómo asignar un esquema relacional al perfil del cliente
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: 9003668674302c576ed9738c803446c476877e47
+source-git-commit: f842142a985481004192c88af2973787912c85b3
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '438'
 ht-degree: 1%
 
 ---
@@ -27,13 +27,13 @@ Al configurar el direccionamiento, se definen dos aspectos clave:
 
   >[!IMPORTANT]
   >
-  > El esquema de destino debe tener una relación 1:1 con el esquema `Profile`. Por ejemplo, no puede usar `Purchases` como esquema de destino, ya que normalmente representa una relación uno a varios.
+  > Las campañas organizadas permiten segmentar cualquier esquema que tenga una relación directa o relacionada con el esquema **Profile**. Aunque su uso está dirigido principalmente a relaciones 1:1, también admite relaciones 1:N, como los destinatarios de la cuenta `>`, siempre que la ruta de la relación esté modelada correctamente en el modelo de datos. Esto permite el direccionamiento basado en los datos de nivel de cuenta, pero sin dejar de resolver la identidad de perfil correcta para la entrega de mensajes.
 
 * **Vínculo de perfil**
 
   El sistema debe comprender cómo se asigna el esquema de destino al esquema `Profile`. Esto se logra a través de un campo de identidad compartido, que existe tanto en el esquema de destino como en el esquema `Profile` y que está configurado como un área de nombres de identidad.
 
-➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Cree su dimensión de segmentación {#targeting-dimension}
 
@@ -53,7 +53,7 @@ Comience por configurar la orquestación de campañas asignando un esquema relac
 
    En este ejemplo, el perfil del cliente está vinculado a varias suscripciones, cada una representada por un único `crmID` en el esquema `Recipient`. Al configurar **[!UICONTROL Target Dimension]** para que use el esquema `Recipient` y su identidad `crmID`, puede enviar mensajes en el nivel de suscripción, en lugar de al perfil de cliente principal, asegurándose de que cada contrato o línea reciba su propio mensaje personalizado.
 
-   [Más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#identity).
+   [Más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity).
 
    ![](assets/target-dimension-2.png)
 
