@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de correo electrónico, Módulos, Reutilización, Coherencia de la marca, Diseño de correo electrónico, CSS personalizado, Optimización móvil
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 4d12c36391c2546788d49cca6e2468a29fc1e74f
+source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 3%
@@ -42,7 +42,7 @@ Esta función permite a los especialistas en marketing aprovechar correos electr
 
    * Para aprovechar un [fragmento](../content-management/fragments.md) en un contenido temático, este fragmento debe haberse creado a sí mismo usando temáticas. [Más información](#leverage-themes-fragment)
 
-   * Cuando utilice un fragmento en un contenido de correo electrónico, asegúrese de aplicar una temática que haya definido para este fragmento. Si no se hace esto, pueden producirse problemas de visualización, especialmente en Outlook 2021 y versiones anteriores. [Más información](#leverage-themes-fragment)
+   * Cuando utilice un fragmento en el contenido del correo electrónico, asegúrese de aplicar una temática que haya definido para este fragmento. Si no se hace esto, pueden producirse problemas de visualización, especialmente en Outlook 2021 y versiones anteriores. [Más información](#leverage-themes-fragment)
 
 * Si usa un contenido creado en HTML, estará en [modo de compatibilidad](existing-content.md) y no podrá aplicar temas directamente a este contenido.
 
