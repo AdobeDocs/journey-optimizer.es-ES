@@ -20,7 +20,7 @@ El diseño del contenido de su correo electrónico en Adobe Journey Optimizer le
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción al diseño de correo electrónico
 

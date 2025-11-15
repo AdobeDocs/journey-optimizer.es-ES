@@ -50,7 +50,7 @@ Instrucciones paso a paso para modificar la alineación vertical y el relleno de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Añadir atributos de estilo en línea
 
