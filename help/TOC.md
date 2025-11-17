@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
+source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '2983'
 ht-degree: 97%
 
 ---
@@ -316,6 +316,7 @@ ht-degree: 97%
       + [Comprobación y envío de los mensajes de texto](using/sms/send-sms.md)
       + [Administración de la exclusión de mensajes de texto](using/sms/sms-opt-out.md)
       + [Configuración de subdominios de SMS](using/sms/sms-subdomains.md)
+      + [Prácticas recomendadas para la optimización de costes de SMS](using/sms/sms-subdomains.md)
       + Configuración de canales de SMS/MMS/RCS {#configure-sms}
          + [Configuración de canales de SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Introducción a la configuración de SMS/MMS/RCS](using/sms/sms-configuration.md)
@@ -822,7 +823,7 @@ ht-degree: 97%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
