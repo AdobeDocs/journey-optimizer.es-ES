@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: correo electrónico, estilo, css, cuerpo, estructura
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Siga los vínculos siguientes para descubrir cómo ajustar algunos de los ajuste
 * Obtenga información sobre cómo [personalizar el fondo del correo electrónico](backgrounds.md)
 * Obtenga información sobre cómo [administrar alineación vertical y relleno](alignment-and-padding.md)
 * Obtenga información sobre cómo [personalizar atributos de estilo en línea](inline-styling.md)
-* Aprenda a [agregar CSS personalizado al contenido del correo electrónico](custom-css.md)
+* Aprenda a [añadir CSS personalizado al contenido del correo electrónico](custom-css.md)
 * Aprenda a [administrar contenido en modo oscuro](dark-mode.md)
 
 >[!NOTE]
 >
->La [ley de accesibilidad europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} estipula que todas las comunicaciones digitales deben ser accesibles. Asegúrese de seguir las directrices de estilo específicas que se enumeran en [esta página](../email/accessible-content.md) al diseñar contenido en [!DNL Journey Optimizer], como ajustar colores, etiquetas e iconos para garantizar la claridad y optimizar el diseño para diseños móviles y adaptables.
+>La [Ley de accesibilidad europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} estipula que todas las comunicaciones digitales deben ser accesibles. Asegúrese de seguir las directrices de estilo específicas que se indican en [esta página](../email/accessible-content.md) al diseñar contenido en [!DNL Journey Optimizer], como ajustar colores, etiquetas e iconos para garantizar la claridad y optimizar el diseño para diseños móviles y adaptables.

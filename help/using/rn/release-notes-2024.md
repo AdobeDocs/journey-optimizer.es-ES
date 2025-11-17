@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '6783'
+ht-degree: 100%
 
 ---
 
@@ -515,7 +515,7 @@ Ahora puede exportar plantillas de contenido y fragmentos entre zonas protegidas
   >
   >Tenga en cuenta que, al utilizar la funcionalidad de API interactiva en las páginas de documentación, está realizando llamadas de API reales a los puntos finales. Tenga esto en cuenta al experimentar con zonas protegidas de producción.
 
-Configuración de **&#x200B;**
+Configuración de ****
 
 * **Planes de calentamiento de IP**: esta capacidad ya está disponible para todos los clientes, incluidas las organizaciones que han adquirido las ofertas complementarias **Healthcare Shield** o **Privacy and Security Shield** de Adobe. [Más información](../configuration/ip-warmup-gs.md)
 
@@ -1121,7 +1121,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 * **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
 -->
 
-Configuración de **&#x200B;**
+Configuración de ****
 
 * Ahora puede seleccionar una acción de marketing en el nivel de configuración de canal. Cuando se utilizan en una configuración, se aprovechan todas las políticas de consentimiento asociadas con esa acción de marketing para respetar las preferencias de los clientes. [Más información](../action/consent.md#surface-marketing-actions)
 * El uso del Control de acceso a nivel de objeto ya está disponible en las configuraciones de canal. [Más información](../configuration/channel-surfaces.md#create-channel-surface)

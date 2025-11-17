@@ -8,9 +8,9 @@ level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -36,10 +36,10 @@ Los pasos principales para enviar mensajes de correo directo son los siguientes:
 
 ## Recursos adicionales
 
-* **[Crear correo postal](create-direct-mail.md)**: aprenda a crear envíos de correo postal y a configurar archivos de extracción para canales sin conexión.
-* **[Configurar el canal de correo postal](direct-mail-configuration.md)**: configure las superficies de correo postal y las configuraciones de enrutamiento de archivos.
-* **[Correo directo en recorrido](direct-mail-journeys.md)**: descubra cómo usar acciones de correo directo en los recorridos de los clientes.
-* **[Probar y enviar correo postal](test-send-direct-mail.md)**: aprenda a probar, validar y publicar sus envíos de correo postal.
-* **[Tutoriales de correo directo](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las características del correo directo y las prácticas recomendadas.
+* **[Cree correo postal](create-direct-mail.md)**: aprenda a crear envíos de correo postal y a configurar archivos de extracción para canales sin conexión.
+* **[Configure el canal de correo postal](direct-mail-configuration.md)**: configure las superficies de correo postal y las configuraciones de enrutamiento de archivos.
+* **[Correo postal en recorridos](direct-mail-journeys.md)**: descubra cómo usar acciones de correo postal en los recorridos de los clientes.
+* **[Pruebe y envíe correo postal](test-send-direct-mail.md)**: aprenda a probar, validar y publicar sus envíos de correo postal.
+* **[Tutoriales de correo postal](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las características del correo directo y las prácticas recomendadas.
 
 

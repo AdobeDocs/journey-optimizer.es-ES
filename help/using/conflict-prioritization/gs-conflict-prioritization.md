@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -72,8 +72,8 @@ Los conjuntos de reglas permiten **agrupar varias reglas en conjuntos de reglas*
 ## Recursos adicionales
 
 * **[Administrar conflictos](conflicts.md)**: aprenda a identificar y resolver conflictos entre campañas y recorridos superpuestos.
-* **[Establecer puntuaciones de prioridad](priority-scores.md)** - Obtenga información sobre cómo asignar y utilizar puntuaciones de prioridad para controlar la prioridad de entrega de mensajes.
-* **[Configurar límites de frecuencia](channel-capping.md)**: descubra cómo establecer límites de frecuencia a nivel de canal para evitar mensajes excesivos.
+* **[Establecer puntuaciones de prioridad](priority-scores.md)**: obtenga información sobre cómo asignar y utilizar puntuaciones de prioridad para controlar la prioridad de entrega de mensajes.
+* **[Configurar restricciones de frecuencia](channel-capping.md)**: descubra cómo establecer restricciones de frecuencia a nivel de canal para evitar mensajes excesivos.
 * **[Crear conjuntos de reglas](rule-sets.md)**: aprenda a crear reglas empresariales para la administración avanzada de conflictos y el control de mensajes.
-* **[Límite específico del Recorrido](journey-capping.md)**: configure reglas de límite de nivel de recorrido para controlar la frecuencia de los mensajes en los recorridos.
+* **[Límite específico de recorrido](journey-capping.md)**: configure reglas de límite de nivel de recorrido para controlar la frecuencia de los mensajes en los recorridos.
 * **[Tutoriales de administración de conflictos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre administración de conflictos y priorización.

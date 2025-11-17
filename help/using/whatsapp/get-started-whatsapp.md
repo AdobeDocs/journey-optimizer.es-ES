@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -58,13 +58,13 @@ El siguiente vídeo muestra cómo integrar WhatsApp como canal nativo en Adobe J
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470247?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 
 ## Recursos de aprendizaje adicionales
 
-Explora más tutoriales en vídeo sobre la mensajería y configuración de WhatsApp.
+Explore más tutoriales en vídeo sobre la mensajería y configuración de WhatsApp.
 
-➡️ [tutoriales de canal de WhatsApp](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/whatsapp/whatsapp-introduction){target="_blank"}
+➡️ [Tutoriales de canal de WhatsApp](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/whatsapp/whatsapp-introduction){target="_blank"}
 

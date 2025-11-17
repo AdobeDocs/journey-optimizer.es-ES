@@ -10,9 +10,9 @@ level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1693'
+ht-degree: 100%
 
 ---
 
@@ -259,7 +259,7 @@ Parámetros de consulta:
 
    * Valor analizado: *v1.xyz*
 
-Ejemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Ejemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

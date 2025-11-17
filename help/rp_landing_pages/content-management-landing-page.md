@@ -6,9 +6,9 @@ description: Gestión de contenidos
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: b8c2b05df22e4aa78ea95e47e1554c9d538dfc0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Las funciones de administración de contenido de Adobe Journey Optimizer le perm
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Añadir Personalization
+Adición de personalización
 
 Aprenda a implementar y optimizar las funciones de personalización para crear experiencias de cliente adaptadas.
 
@@ -30,9 +30,9 @@ Aprenda a implementar y optimizar las funciones de personalización para crear e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Crear páginas de aterrizaje
+Creación de páginas de aterrizaje
 
 Descubra herramientas y tutoriales para crear, administrar y optimizar páginas de aterrizaje para campañas de marketing.
 
@@ -40,7 +40,7 @@ Descubra herramientas y tutoriales para crear, administrar y optimizar páginas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Plantillas de contenido
 
@@ -50,7 +50,7 @@ Optimice la creación de contenido con plantillas reutilizables para una adminis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Fragmentos de contenido reutilizables
 
@@ -60,7 +60,7 @@ Aprenda a crear y administrar fragmentos de contenido reutilizables para persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Creación de contenido dinámico
 
@@ -70,7 +70,7 @@ Utilice reglas condicionales para crear contenido dinámico y personalizado para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Casos de uso entre soluciones
 

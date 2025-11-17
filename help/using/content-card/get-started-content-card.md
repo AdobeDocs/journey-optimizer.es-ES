@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -50,5 +50,5 @@ Esta función permite a los especialistas en marketing presentar a los usuarios 
 ## Recursos adicionales
 
 * **[Tarjetas de contenido en páginas de aterrizaje](content-card-lp.md)**: descubra cómo implementar tarjetas de contenido en páginas de aterrizaje para mejorar la participación.
-* **[Informes de tarjetas de contenido](content-card-report.md)** - Rastree y analice el rendimiento de las tarjetas de contenido con métricas y perspectivas detalladas.
+* **[Informes de las tarjetas de contenido](content-card-report.md)**: rastree y analice el rendimiento de las tarjetas de contenido con métricas y perspectivas detalladas.
 * **[Tutoriales de tarjetas de contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las características de las tarjetas de contenido y las prácticas recomendadas.

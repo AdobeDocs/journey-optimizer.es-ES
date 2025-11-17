@@ -6,9 +6,9 @@ description: Documentación de Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: b26606d1ba0d0d43d69b5e6fd2ae86c49dceebe9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ Ya está aquí la versión de octubre de Journey Optimizer. Descubra las nuevas 
 
 >[!TAB Orquestación de campañas]
 
-Journey Optimizer ahora incluye **Campaign Orchestration**, una nueva funcionalidad diseñada específicamente para campañas por lotes iniciadas por la marca.
+Journey Optimizer ahora incluye **Orquestación de campañas**, una nueva funcionalidad diseñada específicamente para campañas por lotes iniciadas por la marca. 
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
->[!TAB Horas tranquilas]
+>[!TAB Horas de inactividad]
 
-Las horas tranquilas le permiten definir exclusiones basadas en el tiempo para los canales de correo electrónico, SMS, push y WhatsApp.
+Las horas de inactividad le permiten definir exclusiones basadas en el tiempo para los canales de correo electrónico, SMS, push y WhatsApp. 
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/quiet-hours.md)
 
@@ -49,7 +49,7 @@ Las horas tranquilas le permiten definir exclusiones basadas en el tiempo para l
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Últimas notas de la versión
 
@@ -59,7 +59,7 @@ Manténgase al día con las últimas notas de la versión, las nuevas funciones 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción
 
@@ -69,7 +69,7 @@ Conozca los conceptos básicos de Journey Optimizer, incluidas sus funcionalidad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guía completa de los Recorridos
 
@@ -79,7 +79,7 @@ Diseñe, organice, administre y optimice recorridos personalizados del cliente c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Explicación y administración de campañas
 
@@ -89,7 +89,7 @@ Directrices detalladas sobre la creación, administración y optimización de va
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canales de comunicación
 
@@ -99,7 +99,7 @@ Configure y administre correo electrónico, SMS, notificaciones push y otros can
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Administración de conflictos y priorización
 

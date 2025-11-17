@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '825'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -201,7 +201,7 @@ Obtenga información sobre cómo configurar, crear e incluir mensajes SMS en sus
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422693?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Descubra las funcionalidades completas de mensajería móvil que Adobe Journey O
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430377?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Aprenda a configurar y enviar mensajes RCS interactivos de marca en Adobe Journe
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464758?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 

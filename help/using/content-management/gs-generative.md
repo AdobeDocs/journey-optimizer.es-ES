@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 493f72a9d49974830d8d29b0c19046adfd9724a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '940'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 88%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_assistant_prompt"
->title="Ejemplos de mensajes"
->abstract="Explore la siguiente documentación de Journey Optimizer para aprender a crear indicadores eficaces que produzcan contenido de marketing de alta conversión y sin marca."
+>title="Ejemplos de indicaciones"
+>abstract="Explore la siguiente documentación de Journey Optimizer para aprender a crear indicaciones eficaces que produzcan contenido de marketing de alta conversión y coherente con la marca."
 
 
 >[!CONTEXTUALHELP]
@@ -175,4 +175,4 @@ Las siguientes limitaciones se aplican al asistente de IA en Adobe Journey Optim
 * **[Asistente de IA para SMS](generative-sms.md)**: genera variaciones de mensajes SMS efectivas mediante la creación de contenido con tecnología de IA.
 * **[Asistente de IA para experiencias web](generative-web.md)**: aprenda a crear y optimizar contenido web con el Asistente de IA.
 * **[Experimentación generativa](generative-experimentation.md)**: aprenda a combinar contenido generado por IA con experimentación.
-* **[Tutoriales del Asistente de IA](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: Explore tutoriales de vídeo paso a paso sobre las funciones y prácticas recomendadas del Asistente de IA.
+* **[Tutoriales del Asistente de IA](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las funciones y prácticas recomendadas del Asistente de IA.

@@ -10,7 +10,7 @@ level: Beginner
 keywords: destino, página de destino, inicio, introducción
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
 ht-degree: 100%
 
@@ -71,4 +71,4 @@ Una página de destino es una página web independiente a la que se dirige a un 
 
 El siguiente vídeo muestra cómo crear una lista de suscripción, configurar páginas de destino para ofrecer suscripciones a un servicio o cancelar su suscripción, integrar la opción de suscripción a un mensaje y configurar los recorridos relevantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/344397?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

@@ -10,9 +10,9 @@ keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -51,12 +51,12 @@ Obtenga información sobre cómo crear recorridos [en los siguientes casos de us
 
 Descubra los componentes de un recorrido y comprenda los conceptos básicos para construir un recorrido en el lienzo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430353?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Recursos adicionales {#additional-resources}
 
-* [Preguntas frecuentes sobre el Recorrido](journey-faq.md) - Preguntas frecuentes sobre recorridos
-* [Referencia de códigos de error](error-codes-reference.md) - Pasos para solucionar problemas y códigos de error de Recorrido
-* [Alertas](../reports/alerts.md): configure alertas para la supervisión de recorrido
-* [Solución de problemas](troubleshooting.md) - Problemas y soluciones comunes de recorrido
-* [Supervisión y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md): herramientas y capacidades para supervisar y solucionar problemas de sus recorridos
+* [Preguntas frecuentes sobre el recorrido](journey-faq.md): preguntas frecuentes sobre recorridos
+* [Referencia de códigos de error](error-codes-reference.md): pasos para solucionar problemas y códigos de error de recorrido
+* [Alertas](../reports/alerts.md): configure las alertas para la monitorización del recorrido
+* [Solución de problemas](troubleshooting.md): problemas y soluciones comunes de recorrido
+* [Monitorización y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md): herramientas y capacidades para monitorizar y solucionar problemas de los recorridos

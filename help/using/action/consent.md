@@ -10,9 +10,9 @@ level: Experienced
 keywords: directivas, gobernanza, plataforma, escudo de atención sanitaria, consentimiento
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1244'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Por ejemplo, si desea crear una política de consentimiento para dirigirse únic
 
       >[!NOTE]
       >
-      >Las principales acciones de marketing proporcionadas de forma predeterminada por Adobe se enumeran en [esta tabla](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=es#core-actions){target="_blank"}. Los pasos para crear una acción de marketing personalizada se enumeran en [esta sección](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=es#create-marketing-action){target="_blank"}.
+      >Las principales acciones de marketing proporcionadas de forma predeterminada por Adobe se enumeran en [esta tabla](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/policies/overview#core-actions){target="_blank"}. Los pasos para crear una acción de marketing personalizada se enumeran en [esta sección](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=es#create-marketing-action){target="_blank"}.
 
    1. Seleccione qué ocurre cuando se aplica la acción de marketing. En este ejemplo, seleccione **[!UICONTROL consentimiento de marketing de correo electrónico]**.
 

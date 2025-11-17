@@ -7,9 +7,9 @@ topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 04a08f237e126e782355197b64239512e24b27da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1456'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 79%
 
 [!DNL Adobe Journey Optimizer] sigue un modelo de envío continuo, lo que permite a Adobe ofrecer nuevas funciones, mejoras y correcciones de forma continua. Este enfoque permite un despliegue escalable y gradual de las funciones para garantizar el rendimiento y la estabilidad en todos los entornos.
 
-Debido a este modelo, las notas de la versión se actualizan entre versiones mensuales.  En la sección [Últimas actualizaciones](#latest-updates) dedicada se destacan las nuevas funcionalidades y mejoras que se implementan en la producción, por lo que siempre se le informa de todos los cambios en tiempo real. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](releases.md).
+Debido a este modelo, las notas de la versión se actualizan entre versiones mensuales.  En la sección específica [Últimas actualizaciones](#latest-updates) se destacan las nuevas funcionalidades y mejoras que se implementan en la producción, para que disponga siempre de información sobre todos los cambios en tiempo real. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](releases.md).
 
 [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
 ## Últimas actualizaciones {#latest-updates}
 
-A continuación, se enumeran las nuevas funciones y mejoras publicadas en las últimas semanas, con su fecha de disponibilidad. Se agrupan con el contenido de las notas de la próxima versión a finales de mes. Vea también las [notas de la versión más recientes a continuación](#latest-rn).
+A continuación, se indican las nuevas funciones y mejoras publicadas en las últimas semanas, con su fecha de disponibilidad. Se agrupan con el contenido de las notas de la próxima versión a finales de mes. Consulte también las [notas de la versión más recientes a continuación](#latest-rn).
 
 ### Nuevas funciones {#features}
 
@@ -41,15 +41,15 @@ A continuación, se enumeran las nuevas funciones y mejoras publicadas en las ú
 <tbody>
 <tr>
 <td>
-<p>Ahora hay tres nuevas alertas de recorrido disponibles para ayudarle a supervisar y rastrear los eventos de ciclo vital de recorrido y el rendimiento de las acciones personalizadas:</p>
+<p>Ahora hay tres nuevas alertas de recorrido disponibles para ayudarle a monitorizar y hacer un seguimiento de los eventos de ciclo vital del recorrido y el rendimiento de las acciones personalizadas:</p>
 <ul>
-<li><strong>Recorrido publicado</strong>: Reciba notificaciones cuando un profesional publique un recorrido en el lienzo de recorrido.</li>
-<li><strong>Recorrido finalizado</strong>: obtenga alertas cuando haya finalizado un recorrido, con definiciones específicas basadas en el tipo de recorrido (Leer audiencia o Activado por evento).</li>
-<li><strong>Límite de acción personalizada activado</strong>: recibir una notificación cuando se active el límite en un extremo de acción personalizada.</li>
+<li><strong>Recorrido publicado</strong>: reciba notificaciones cuando un profesional publique un recorrido en el lienzo de recorrido.</li>
+<li><strong>Recorrido finalizado</strong>: obtenga alertas cuando haya finalizado un recorrido, con definiciones específicas basadas en el tipo de recorrido (Leer público o Activado por evento).</li>
+<li><strong>Límite de acción personalizada activado</strong>: reciba una notificación cuando se active el límite en un punto final de acción personalizada.</li>
 </ul>
 <p>Estas alertas se pueden suscribir al nivel de organización o para recorridos específicos.</p>
 <p>Para obtener más información, consulte la <a href="../reports/alerts.md#journey-alerts">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: jueves, 05 de noviembre de 2025</p>
+<p>Fecha de disponibilidad: 5 de noviembre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -68,7 +68,7 @@ A continuación, se enumeran las nuevas funciones y mejoras publicadas en las ú
 <p>Esta funcionalidad, que se publicó anteriormente en la versión Beta, ya está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <img src="assets/do-not-localize/themes.gif">
 <p>Para obtener más información, consulte la <a href="../email/apply-email-themes.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: jueves, 05 de noviembre de 2025</p>
+<p>Fecha de disponibilidad: 5 de noviembre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ A continuación, se enumeran las nuevas funciones y mejoras publicadas en las ú
 <tbody>
 <tr>
 <td>
-<p>El convertidor de imagen a HTML es una función con tecnología de IA que convierte diseños de imagen estáticos en plantillas de contenido de correo electrónico modulares de HTML totalmente personalizables. Esta herramienta sin código permite a los especialistas en marketing transformar diseños visuales en plantillas de correo electrónico adaptables y editables sin necesidad de conocimientos técnicos, perfectas para la migración de plataformas, la creación rápida de plantillas y la creación de bibliotecas de plantillas reutilizables.</p>
+<p>El convesor de imagen a HTML es una función con tecnología de IA que convierte diseños de imagen estáticos en plantillas de contenido de correo electrónico modulares de HTML totalmente personalizables. Esta herramienta sin código permite a los especialistas en marketing transformar diseños visuales en plantillas de correo electrónico adaptables y editables sin necesidad de conocimientos técnicos, perfectas para la migración de plataformas, la creación rápida de plantillas y la creación de bibliotecas de plantillas reutilizables.</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
 <p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p>Para obtener más información, consulte la <a href="../email/image-to-html.md">documentación detallada</a>.</p>
@@ -108,10 +108,10 @@ A continuación, se enumeran las nuevas funciones y mejoras publicadas en las ú
 <tbody>
 <tr>
 <td>
-<p>Esta capacidad proporciona una mejor visibilidad del estado y el rendimiento de los extremos de acciones personalizadas. Un nuevo panel de monitorización de acciones personalizadas y los campos correspondientes en el conjunto de datos de eventos de pasos de recorrido le ayudarán a monitorizar las llamadas, los errores, el rendimiento, el tiempo de respuesta y el tiempo de espera de cola correctos para los extremos de acciones personalizadas. Ahora puede comprender rápidamente cuándo, dónde y por qué se produce una situación anómala en una acción personalizada.</p>
-<p>Actualmente, esta capacidad está en disponibilidad limitada para los clientes de.</p>
+<p>Esta capacidad proporciona una mejor visibilidad del estado y el rendimiento de los puntos finales de acciones personalizadas. Un nuevo panel de monitorización de acciones personalizadas y los campos correspondientes en el conjunto de datos de eventos de pasos de recorrido le ayudarán a monitorizar las llamadas, los errores, el rendimiento, el tiempo de respuesta y el tiempo de espera de cola correctos para los puntos finales de acciones personalizadas. Ahora puede comprender rápidamente cuándo, dónde y por qué se produce una situación anómala en una acción personalizada.</p>
+<p>Actualmente, esta función está disponible de forma limitada para los clientes. </p>
 <p>Para obtener más información, consulte la <a href="../action/reporting.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: miércoles, 28 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 28 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -131,7 +131,7 @@ A continuación, se enumeran las nuevas funciones y mejoras publicadas en las ú
 <p>Actualmente, esta capacidad está disponible de forma limitada para clientes de Estados Unidos y Australia. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>Para obtener más información, consulte la <a href="../landing-pages/lp-forms.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: viernes, 23 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 23 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>

@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Haga clic en su función a continuación para acceder a instrucciones específic
 
 Para obtener más información acerca de las funcionalidades y personalidades clave de Journey Optimizer, vea el vídeo introductorio. El vídeo muestra la interfaz de usuario y resalta las funciones clave en función de los flujos de trabajo específicos de funciones.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430317?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Recursos adicionales
 

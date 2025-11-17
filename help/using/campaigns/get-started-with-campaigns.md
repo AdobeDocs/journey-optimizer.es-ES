@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '931'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ Antes de trabajar con campañas, asegúrese de haber revisado los requisitos pre
 
    1. Introduzca el nombre o la dirección de correo electrónico del usuario o seleccione el usuario en la lista y haga clic en **[!UICONTROL Guardar]**.
 
-      Si el usuario no se creó anteriormente, consulte la [Documentación para agregar usuarios](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/users){target="_blank"}
+      Si el usuario no se ha creado previamente, consulte la [documentación de Añadir usuarios](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/users){target="_blank"}.
 
 
   El usuario debería recibir entonces un correo electrónico que le redirija a su instancia.

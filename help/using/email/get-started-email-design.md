@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: correo electrónico, diseño, stock, activos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 89%
 
 Puede importar un contenido existente en [!DNL Journey Optimizer] o aprovechar las funcionalidades de diseño de contenido:
 
-* Utilice las [!DNL Journey Optimizer]&#x200B;**funcionalidades de diseño de correo electrónico de** para diseñar o importar correos electrónicos adaptables. [Más información](content-from-scratch.md)
+* Utilice las [!DNL Journey Optimizer]**funcionalidades de diseño de correo electrónico de** para diseñar o importar correos electrónicos adaptables. [Más información](content-from-scratch.md)
 
 * Aproveche **Adobe Experience Manager Assets Essentials** para enriquecer los correos electrónicos, crear y administrar su propia base de datos de activos. [Más información](../integrations/assets.md)
 
@@ -44,7 +44,7 @@ Consulte la tabla siguiente para conocer las prácticas recomendadas sobre el di
 
 >[!NOTE]
 >
->La [ley de accesibilidad europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} estipula que todas las comunicaciones digitales deben ser accesibles. Además de las prácticas recomendadas de diseño de correo electrónico enumeradas en esta sección, asegúrese de seguir las directrices que se enumeran en [esta página](accessible-content.md) específicas para crear contenido accesible con el Designer de correo electrónico.
+>La [Ley de accesibilidad europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} estipula que todas las comunicaciones digitales deben ser accesibles. Además de las prácticas recomendadas de diseño de correo electrónico incluidas en esta sección, asegúrese de seguir las directrices específicas que se indican en [esta página](accessible-content.md) para la creación de contenido accesible con el Diseñador de correo electrónico.
 
 ## Pasos clave para crear contenido de correo electrónico {#key-steps}
 
@@ -66,7 +66,7 @@ Una vez que haya [añadido un correo electrónico](create-email.md) a un recorri
 
    * **Importe contenido de HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido de correo electrónico en [esta sección](existing-content.md).
 
-   * **Convierta diseños de imagen a plantillas de HTML** con el conversor de imagen a HTML con tecnología de IA. Aprenda a transformar imágenes estáticas en plantillas de correo electrónico editables en [esta sección](image-to-html.md).
+   * **Convierta diseños de imagen en plantillas de HTML** con el conversor de imagen a HTML con tecnología de IA. Aprenda a transformar imágenes estáticas en plantillas de correo electrónico editables en [esta sección](image-to-html.md).
 
    * **Seleccione un contenido existente** de una lista de plantillas integradas o personalizadas. Aprenda a trabajar con plantillas de correo electrónico en [esta sección](../email/use-email-templates.md).
 
@@ -80,8 +80,8 @@ Una vez que haya [añadido un correo electrónico](create-email.md) a un recorri
 
 Aprenda a crear contenido de correo electrónico con el editor de mensajes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416231?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Aprenda a configurar experimentos de contenido para realizar pruebas A/B y explorar el contenido de correo electrónico que mejor impulsa sus objetivos empresariales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447334?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
