@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 57494753f24570a1f14c16e4e98d27ee0c710813
 workflow-type: tm+mt
 source-wordcount: '2983'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
       + [2021](using/rn/release-notes-2021.md)
    + [Actualizaciones de la documentación](using/rn/documentation-updates.md)
    + [Informe de actualizaciones mensuales](../monthly-updates-report.md)
-   + [Nuevo lienzo de recorrido](using/rn/new-canvas.md)
+   + [Nuevo lienzo del recorrido](using/rn/new-canvas.md)
 + Introducción {#get-started}
    + [Introducción](/help/rp_landing_pages/get-started-landing-page.md)
    + [Funcionalidades clave](using/start/get-started.md)
@@ -111,7 +111,7 @@ ht-degree: 97%
          + [Ejemplos](using/building-journeys/expression/advanced-editor-use-cases.md)
       + Funciones {#main-functions-journey}
          + [Funciones principales](using/building-journeys/expression/functions.md)
-         + [inAudience, función](using/building-journeys/functions/functioninaudience.md)
+         + [función inAudience](using/building-journeys/functions/functioninaudience.md)
          + [Funciones de agregación](using/building-journeys/functions/aggregation-functions.md)
          + [Funciones de conversión](using/building-journeys/functions/conversion-functions.md)
          + [Funciones de fecha](using/building-journeys/functions/date-functions.md)
@@ -133,7 +133,7 @@ ht-degree: 97%
    + [Campañas](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Introducción a las campañas](using/campaigns/get-started-with-campaigns.md)
    + [Acceso y administración de campañas](using/campaigns/manage-campaigns.md)
-   + [Horas tranquilas](using/campaigns/quiet-hours.md)
+   + [Horario silencioso](using/campaigns/quiet-hours.md)
    + Campañas de acción {#action-campaigns}
       + [Campañas de acción](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [Trabajo con campañas de acción](using/campaigns/create-campaign.md)
@@ -232,8 +232,8 @@ ht-degree: 97%
    + [Monitorización y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Alertas del sistema](using/reports/alerts.md)
    + [Referencia de códigos de error](using/building-journeys/error-codes-reference.md)
-   + [Solución de problemas de artículos](using/start/troubleshooting.md)
-   + solución de problemas de Recorrido {#troubleshoot-journey}
+   + [Artículos de solución de problemas](using/start/troubleshooting.md)
+   + Solución de problemas de recorridos {#troubleshoot-journey}
       + [Solucionar errores de recorrido](using/building-journeys/troubleshooting.md)
       + [Solución de problemas de la ejecución del recorrido](using/building-journeys/troubleshooting-execution.md)
       + [Solucionar las acciones de entrada](using/building-journeys/troubleshooting-inbound.md)
@@ -255,7 +255,7 @@ ht-degree: 97%
             + [Codifique su propio contenido](using/email/code-content.md)
             + [Uso de plantillas de correo electrónico](using/email/use-email-templates.md)
             + [Conversión de imágenes en plantillas de HTML](using/email/image-to-html.md)
-            + [Aprovechar temas de correo electrónico](using/email/apply-email-themes.md)
+            + [Aprovechar los temas de correo electrónico](using/email/apply-email-themes.md)
             + [Adjuntar archivos PDF a los correos electrónicos](using/email/pdf-attachments.md)
          + Diseño del contenido {#add-content}
             + [Diseño del contenido](/help/rp_landing_pages/add-content-landing-page.md)
@@ -495,7 +495,7 @@ ht-degree: 97%
    + Experimento del contenido {#content-experiment}
       + [Experimento del contenido](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Introducción al experimento de contenido](using/content-management/get-started-experiment.md)
-      + [Introducción a Experiment accelerator](using/content-management/experiment-accelerator-gs.md)
+      + [Introducción a Experiment Accelerator](using/content-management/experiment-accelerator-gs.md)
       + [Creación de un experimento de contenido](using/content-management/content-experiment.md)
       + Notas técnicas {#technotes}
          + [Notas técnicas](/help/rp_landing_pages/technotes-landing-page.md)
@@ -823,7 +823,7 @@ ht-degree: 97%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
@@ -882,7 +882,7 @@ ht-degree: 97%
       + [Introducción a las acciones personalizadas](using/action/action.md)
       + [Configuración de una acción personalizada](using/action/about-custom-action-configuration.md)
       + [Uso de respuestas de llamadas API en acciones personalizadas](using/action/action-response.md)
-      + [Monitorización de las acciones personalizadas](using/action/reporting.md)
+      + [Monitorización de acciones personalizadas](using/action/reporting.md)
 + Conectar sus sistemas y entornos {#connect-systems}
    + [Conectar sus sistemas y entornos](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [Integración con otras soluciones](using/integrations/ajo-integrations.md)

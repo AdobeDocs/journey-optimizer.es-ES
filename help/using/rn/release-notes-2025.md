@@ -222,7 +222,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <td>
 <p>Ahora puede poner en pausa y reanudar los recorridos. Esta funcionalidad proporciona a los profesionales del recorrido un mayor control y flexibilidad al permitir que los recorridos en directo se suspendan temporalmente sin interrumpir la experiencia del cliente. Cuando están en pausa, no se envían comunicaciones y los perfiles permanecen en estado suspendido hasta que se reanuda el recorrido.</p>
 <p>Puede poner en pausa y reanudar solo un recorrido, o realizar pausas masivas y reanudar operaciones en un grupo de recorridos.</p>
-<p>Además, puede aplicar criterios de salida basados en atributos de perfil (anteriormente denominados "filtro global") a los recorridos en pausa para excluir perfiles en función de sus atributos.</p>
+<p>Además, puede aplicar criterios de salida basados en atributos de perfil (anteriormente denominados “filtros globales”) a los recorridos en pausa para excluir perfiles en función de sus atributos.</p>
 <p><img src="assets/do-not-localize/PauseResume.gif"/></p>
 <p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/journey-pause.md">documentación detallada</a>.</p>
@@ -588,7 +588,7 @@ Para obtener más información, consulte la <a href="../experience-decisioning/c
 <table>
 <thead>
 <tr>
-<th><strong>Ensayo de recorrido </strong><br/></th>
+<th><strong>Ensayo del recorrido </strong><br/></th>
 </tr>
 </thead>
 <tbody>

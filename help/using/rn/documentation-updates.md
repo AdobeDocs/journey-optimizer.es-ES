@@ -11,28 +11,28 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3aa7294571cd557ac090170d158d4e9458c448bb
 workflow-type: tm+mt
 source-wordcount: '2915'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
 # Actualizaciones de la documentación {#latest-updates}
 
-Esta página lista todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
+Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Noviembre de 2025 {#november-2025}
 
 * Se ha agregado una nota a la documentación de definición del segmento para aclarar que el atributo `frequencyMap` no se admite para su uso en definiciones de segmento y no se puede usar como parte de los criterios de segmentación de audiencia. Para la segmentación basada en la frecuencia, considere la posibilidad de utilizar reglas de límite de frecuencia en reglas empresariales. [Más información](../audience/creating-a-segment-definition.md)
 * Se ha añadido un nuevo ejemplo que muestra cómo utilizar respuestas de acción personalizadas en canales nativos a la documentación de respuestas de llamada de API. En el ejemplo se muestra cómo repetir matrices anidadas a partir de respuestas de acciones personalizadas mediante la sintaxis Handlebars en mensajes de correo electrónico, push y SMS. [Más información](../action/action-response.md#response-in-channels)
 
-* Se agregó una nota a las protecciones de búsqueda del conjunto de datos para especificar que las búsquedas no se pueden encadenar. [Más información](../data/lookup-aep-data.md#guidelines)
+* Se añadió una nota a las protecciones de búsqueda del conjunto de datos para especificar que las búsquedas no se pueden encadenar. [Más información](../data/lookup-aep-data.md#guidelines)
 
-* Los canales WhatsApp y LINE ya están disponibles para las campañas de Acción. [Más información](../campaigns/campaign-content.md)
+* Los canales de WhatsApp y LINE ya están disponibles para las campañas de Acción. [Más información](../campaigns/campaign-content.md)
 
-* Se ha añadido una nueva sección completa sobre la tasa de procesamiento de recorridos a la documentación de administración de entradas, que cubre las tasas de entrada de perfil, los eventos y las cualificaciones de audiencia dentro de los recorridos, el impacto de las actividades de espera y el impacto de las actividades de acción. [Más información](../building-journeys/entry-management.md#journey-processing-rate)
+* Se ha añadido una nueva sección completa sobre la tasa de procesamiento de recorridos a la documentación de administración de entradas, que incluye las tasas de entrada de perfil, los eventos y las cualificaciones de público dentro de los recorridos, el impacto de las actividades de espera y el impacto de las actividades de acción. [Más información](../building-journeys/entry-management.md#journey-processing-rate)
 
-* Al diseñar mensajes de correo electrónico, el sistema ahora comprueba la configuración de las claves y muestra alertas para detectar advertencias y errores. Se ha añadido información sobre las alertas de correo electrónico y los requisitos de validación a la página Protecciones. [Más información](../email/create-email.md#check-email-alerts)
+* Al diseñar mensajes de correo electrónico, el sistema ahora comprueba la configuración de las claves y muestra alertas para detectar advertencias y errores. Se ha añadido información sobre las alertas de correo electrónico y los requisitos de validación a la página Mecanismos de protección. [Más información](../email/create-email.md#check-email-alerts)
 
-* Se ha eliminado de la página Agregar restricciones a una oferta la nota de advertencia que indica que el límite de frecuencia no se puede habilitar o deshabilitar para ofertas creadas anteriormente. [Más información](../offers/offer-library/add-constraints.md#capping)
+* Se ha eliminado de la página Añadir restricciones a una oferta la nota de advertencia que indica que la restricción de frecuencia no se puede habilitar o deshabilitar para ofertas creadas anteriormente. [Más información](../offers/offer-library/add-constraints.md#capping)
 
 * Ya está disponible la documentación sobre cómo trabajar con eventos de paso de recorrido. [Más información](../reports/journey-step-events-overview.md)
 
@@ -42,9 +42,9 @@ Esta página lista todos los cambios más recientes en la documentación de [!DN
 
 * Ya está disponible la información sobre el ciclo de lanzamiento de Adobe Journey Optimizer. [Más información](releases.md)
 
-* Ya está disponible la nueva página de preguntas más frecuentes de Recorrido. [Más información](../building-journeys/journey-faq.md)
+* Ya está disponible la nueva página de Preguntas más frecuentes de recorridos. [Más información](../building-journeys/journey-faq.md)
 
-* Ya está disponible la funcionalidad Supervisar las acciones personalizadas. [Más información](../action/reporting.md)
+* Ya está disponible la funcionalidad Monitorizar las acciones personalizadas. [Más información](../action/reporting.md)
 
 * Ya está disponible el modo de alto rendimiento para campañas activadas por API. [Más información](../campaigns/api-triggered-high-throughput.md)
 
@@ -52,17 +52,17 @@ Esta página lista todos los cambios más recientes en la documentación de [!DN
 
 * Ya está disponible la documentación de Journey Optimizer Experimentation Accelerator. [Más información](../content-management/experiment-accelerator-gs.md)
 
-* Se ha agregado una nueva sección a la documentación de la función de ayuda **formatDate**. Esta sección aclara el significado de los símbolos de patrones clave como y, Y, M, d y D. [Más información](../personalization/functions/dates.md#pattern-characters)
+* Se ha añadido una nueva sección a la documentación de la función auxiliar **formatDate**. Esta sección aclara el significado de los símbolos de patrones clave como y, Y, M, d y D. [Más información](../personalization/functions/dates.md#pattern-characters)
 
 * Se ha añadido un ejemplo de PQL a la sección de fórmula de clasificación de Decisioning para mostrar cómo impulsar ofertas basadas en el código postal y los ingresos anuales de un perfil. [Más información](../experience-decisioning/ranking/ranking-formulas.md#ranking-formula-examples)
 
-* Se ha añadido una limitación a la sección del modo de prueba de recorrido para indicar que el modo de prueba no admite el enriquecimiento de atributos de audiencia de carga personalizada. [Más información](../building-journeys/testing-the-journey.md#important_notes)
+* Se ha añadido una limitación a la sección del modo de prueba de recorrido para indicar que el modo de prueba no admite el enriquecimiento de atributos de público de carga personalizada. [Más información](../building-journeys/testing-the-journey.md#important_notes)
 
-* Se agregó una nueva sección a las páginas [Limitaciones y protecciones de administración de decisiones](../offers/decision-management-guardrails.md#configurations) y [Limitaciones y protecciones de decisiones](../experience-decisioning/decisioning-guardrails.md#configurations) para especificar el número máximo de configuraciones admitidas (20 000), correspondiente al número total de reglas de límite que existen en su zona protegida.
+* Se añadió una nueva sección a las páginas [Limitaciones y mecanismos de protección de gestión de decisiones](../offers/decision-management-guardrails.md#configurations) y [Limitaciones y mecanismos de protección de decisiones](../experience-decisioning/decisioning-guardrails.md#configurations) para especificar el número máximo de configuraciones admitidas (20 000), correspondiente al número total de reglas de límite que existen en la zona protegida.
 
 * Se ha añadido una nota en la sección de actividad Condición del recorrido para documentar que la evaluación de la condición fallará para perfiles que contengan más de dos identidades entre dispositivos. [Más información](../building-journeys/condition-activity.md)
 
-* Se ha agregado una nueva página para describir cómo puede utilizar las políticas de consentimiento para satisfacer las preferencias de los clientes según sus opciones y, al mismo tiempo, respetar su consentimiento. [Más información](../action/preference-center.md)
+* Se ha añadido una nueva página para describir cómo puede utilizar las políticas de consentimiento para satisfacer las preferencias de los clientes según sus opciones y, al mismo tiempo, respetar su consentimiento. [Más información](../action/preference-center.md)
 
 * Se ha añadido una nota a las páginas Introducción a los perfiles y mecanismos de protección para especificar que, en la ingesta de datos, los correos electrónicos distinguen entre mayúsculas y minúsculas, lo que significa que se pueden crear y utilizar perfiles duplicados al dirigirse al destinatario correspondiente. [Más información](../audience/get-started-profiles.md)
 
@@ -351,7 +351,7 @@ Esta página lista todos los cambios más recientes en la documentación de [!DN
 * Information has been added regarding the behaviour of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -381,7 +381,7 @@ Esta página lista todos los cambios más recientes en la documentación de [!DN
 * Decision Management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=es){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -456,7 +456,7 @@ Esta página lista todos los cambios más recientes en la documentación de [!DN
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -584,7 +584,7 @@ Esta página lista todos los cambios más recientes en la documentación de [!DN
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
