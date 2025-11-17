@@ -20,7 +20,7 @@ Adobe Journey Optimizer aprovecha el poder de la inteligencia artificial y el ap
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Asistente de IA para la generación de contenido
 
@@ -30,7 +30,7 @@ Aproveche la IA generativa para crear y personalizar contenido en correos electr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Optimización del tiempo de envío
 
@@ -40,7 +40,7 @@ Utilice la IA para predecir el momento óptimo para enviar mensajes y maximizar 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Modelos de IA para toma de decisiones
 
@@ -50,7 +50,7 @@ Cree modelos de optimización automática y personalizados para clasificar y ofr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Conocimiento del producto del Asistente de IA
 
@@ -60,7 +60,7 @@ Obtenga respuestas instantáneas y datos operativos sobre Adobe Journey Optimize
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Experimento de contenido con IA
 
@@ -70,7 +70,7 @@ Genere varias variaciones de contenido y ejecute experimentos para identificar e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Puntuación de la alineación de marca
 
@@ -80,7 +80,7 @@ Evalúe la adecuación del contenido generado por IA a las directrices de marca 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Experiment Accelerator
 
@@ -90,7 +90,7 @@ Acelere el proceso de experimentación de contenido con perspectivas y recomenda
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Conversor de imagen a HTML
 
@@ -100,7 +100,7 @@ Transforme diseños de imagen estáticos en plantillas de correo electrónico ed
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Datos operativos de recorrido (Beta)
 
