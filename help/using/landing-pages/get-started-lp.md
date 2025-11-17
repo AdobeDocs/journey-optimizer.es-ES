@@ -71,4 +71,4 @@ Una página de destino es una página web independiente a la que se dirige a un 
 
 El siguiente vídeo muestra cómo crear una lista de suscripción, configurar páginas de destino para ofrecer suscripciones a un servicio o cancelar su suscripción, integrar la opción de suscripción a un mensaje y configurar los recorridos relevantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344397?captions=spa&quality=12&learn=on)

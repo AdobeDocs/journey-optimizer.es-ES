@@ -85,7 +85,7 @@ Puede hacer lo siguiente:
 
 Obtenga información sobre cómo crear un conjunto de datos, asignarlo a un esquema, añadirle datos y confirmar que estos se han introducido.
 
->[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416648?captions=spa&quality=12)
 
 ## Gobernanza de datos
 
