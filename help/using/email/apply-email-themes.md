@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de correo electrónico, Módulos, Reutilización, Coherencia de la marca, Diseño de correo electrónico, CSS personalizado, Optimización móvil
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
+source-git-commit: 53ae620926fc8ba3e9c8b558584ed8eb6942e3d4
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1604'
 ht-degree: 3%
 
 ---
@@ -39,6 +39,8 @@ Esta función permite a los especialistas en marketing aprovechar correos electr
   Si elige el modo de Estilo manual, no podrá aplicar ninguna temática a menos que restablezca el correo electrónico.
 
 * [Los fragmentos](../content-management/fragments.md) no son compatibles entre los modos Usar temas y Estilo manual.
+
+   * Los fragmentos de temas no están disponibles en el contenido del correo electrónico creado sin utilizar temáticas.
 
    * Para aprovechar un [fragmento](../content-management/fragments.md) en un contenido temático, este fragmento debe haberse creado a sí mismo usando temáticas. [Más información](#leverage-themes-fragment)
 
@@ -227,6 +229,10 @@ Para crear un fragmento compatible con temáticas, siga los pasos a continuació
 ## Hacer una plantilla compatible con las temáticas {#theme-convertor}
 
 [!DNL Journey Optimizer] le permite convertir una plantilla creada con un estilo manual en contenido compatible con temas. Esto puede resultar especialmente útil si creó plantillas de contenido antes de que los temas se introdujeran en [!DNL Journey Optimizer] o si está importando contenido externo.
+
+>[!NOTE]
+>
+> Solo **las plantillas de correo electrónico** se pueden convertir para que sean compatibles con las temáticas. Los correos electrónicos individuales no se pueden convertir, primero debe guardar el contenido como plantilla.
 
 1. Abra una [plantilla de contenido](../content-management/create-content-templates.md) de correo electrónico y edite su contenido con el Designer de correo electrónico.
 
