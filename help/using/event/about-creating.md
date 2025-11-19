@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, crear, recorrido
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 13%
@@ -42,15 +42,13 @@ A continuación se muestran los primeros pasos para configurar un nuevo evento:
 
 1. Introduzca el nombre del evento. También puede añadir una descripción.
 
-   ![](assets/jo-event3.png)
-
    >[!NOTE]
    >
    >Solo se permiten caracteres alfanuméricos y guiones bajos. La longitud máxima es de 30 caracteres.
 
-1. En el campo **[!UICONTROL Tipo]**, elija **Unitario**.
+   ![](assets/jo-event3.png)
 
-   ![](assets/jo-event3bis.png)
+1. En el campo **[!UICONTROL Tipo]**, elija **Unitario**.
 
 1. En el campo **[!UICONTROL Tipo de ID de evento]**, seleccione el tipo de ID de evento que desee usar: **Basado en reglas** o **Generado por el sistema**. Obtenga más información sobre los tipos de id. de evento en [esta sección](../event/about-events.md#event-id-type).
 
@@ -68,8 +66,6 @@ A continuación se muestran los primeros pasos para configurar un nuevo evento:
 
 1. Para los eventos basados en reglas, haga clic dentro del campo **[!UICONTROL Condición de ID de evento]**. Con el editor de expresiones simples o avanzadas, defina la condición que el sistema utilizará para identificar los eventos que almacenarán en déclencheur el recorrido.
 
-   ![](assets/jo-event6.png)
-
    En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que cada vez que el sistema reciba un evento que coincida con esta condición (campo **[!UICONTROL Ciudad]** y valor **[!UICONTROL París]**), lo pasará a los recorridos.
 
    >[!NOTE]
@@ -81,8 +77,6 @@ A continuación se muestran los primeros pasos para configurar un nuevo evento:
 1. Añada un tipo de identidad. Este paso es opcional, pero se recomienda, ya que la adición de un tipo de identidad le permite aprovechar la información almacenada en el servicio Perfil del cliente en tiempo real. Define el tipo de clave que tiene el evento. Obtenga más información en [esta sección](../event/about-creating.md#select-the-namespace).
 
 1. Defina el identificador de perfil: elija un campo de los campos de carga útil o defina una fórmula para identificar a la persona asociada al evento. Esta clave se configura automáticamente (pero aún se puede editar) si selecciona un tipo de identidad. De hecho, recorrido selecciona la clave que debe corresponder al tipo de identidad (por ejemplo, si selecciona un tipo de identidad de correo electrónico, se seleccionará la clave de correo electrónico). Obtenga más información en [esta sección](../event/about-creating.md#define-the-event-key).
-
-   ![](assets/jo-event7.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
