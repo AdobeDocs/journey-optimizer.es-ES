@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
+source-git-commit: e6e8178f7a57a6d57c8d137dd313a26a5878994b
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 19%
+source-wordcount: '1781'
+ht-degree: 18%
 
 ---
 
@@ -33,7 +33,7 @@ Cuando Journey Optimizer ejecuta una llamada a una API externa, las protecciones
 
 >[!TIP]
 >
->Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
+>Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` ](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
 
 ## API de límite y restricción {#capping}
 
@@ -110,7 +110,7 @@ Veamos un ejemplo para un tiempo de espera de 5 segundos.
 
 A continuación, encontrará las preguntas más frecuentes sobre la integración de Journey Optimizer con sistemas externos.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ ¿Cómo puedo configurar una regla de restricción o límite? ¿Existe una regla predeterminada?
 
@@ -127,6 +127,24 @@ Para una llamada determinada, se puede realizar un máximo de tres reintentos de
 +++ ¿Dónde puedo configurar el tiempo de espera? ¿Hay un valor máximo?
 
 En cada recorrido, puede definir una duración de tiempo de espera. La duración del tiempo de espera se configura en las propiedades de un recorrido. La duración del tiempo de espera debe estar entre 1 segundo y 30 segundos. Consulte [esta sección](../configuration/external-systems.md#timeout) y [esta página](../building-journeys/journey-properties.md#timeout_and_error).
+
++++
+
++++ ¿Qué es el proxy de salida y cuándo debo utilizarlo?
+
+El proxy de salida proporciona una **dirección IP estática** para las llamadas salientes de Journey Optimizer a los sistemas externos. Utilícelo cuando los puntos de conexión de terceros requieran una inclusión en la lista de permitidos IP.
+
+**Importante:** El proxy de salida NO controla el rendimiento, los límites de velocidad ni el número de conexiones simultáneas. Para administrar el volumen de llamadas y los límites de conexión, usa la [API de límite](capping.md) o la [API de restricción](throttling.md).
+
+**Usar proxy de salida para:**
+* Inclusión en la lista de permitidos de una IP estática en el firewall o extremo de terceros
+
+**Usar API de límite/restricción para:**
+* Limitación del número de llamadas de API por segundo
+* Control de conexiones simultáneas al punto final
+* Protección del sistema externo frente a sobrecargas
+
+Póngase en contacto con Adobe para habilitar el proxy de salida para su organización si necesita una IP estática para fines de inclusión en la lista de permitidos.
 
 +++
 
