@@ -10,10 +10,10 @@ level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, página, formulario
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: c91bfc19a8c68b7b914c552349f50e7d47d150df
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1572'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -195,8 +195,6 @@ Una vez seleccionado un atributo de campo o agregado un campo personalizado, pue
 >abstract="Configure lo que sucede cuando alguien rellena o reenvía el formulario."
 
 En los detalles del formulario, en la sección **[!UICONTROL Página de agradecimiento]**, configure lo que sucede cuando un usuario rellena el formulario.
-
-![](assets/lp_create-form-thank-you.png){width=70%}
 
 Configure una de las siguientes acciones:
 
