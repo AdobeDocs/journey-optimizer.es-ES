@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: evento, recorrido, empresa, configuración
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 12%
@@ -93,8 +93,6 @@ Estos son los primeros pasos para configurar un evento empresarial:
    ![](assets/test-profiles-4.png)
 
 1. Haga clic dentro del campo **[!UICONTROL ID de evento]**. Utilice el editor de expresiones simple para definir la condición que utiliza el sistema para identificar los eventos que almacenan en déclencheur el recorrido.
-
-   ![](assets/jo-event6-business.png)
 
    En nuestro ejemplo, escribimos una condición basada en el ID del producto. Esto significa que, siempre que el sistema reciba un evento que coincida con esta condición, lo pasará a los recorridos.
 
