@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 6a5b4c94228db0ab9573124762e89181c2c41b45
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 2%
+source-wordcount: '998'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,6 @@ Para utilizar un fragmento en un correo electrónico, siga los pasos a continuac
 >[!NOTE]
 >
 >Puede añadir hasta 30 fragmentos en una entrega determinada. Los fragmentos solo se pueden anidar hasta 1 nivel.
-
 
 1. Abra cualquier contenido de correo electrónico o plantilla con [Email Designer](get-started-email-design.md).
 
@@ -73,6 +72,35 @@ Para utilizar un fragmento en un correo electrónico, siga los pasos a continuac
 
 1. Agregue tantos fragmentos como desee y **[!UICONTROL guarde]** sus cambios.
 
+### Limitaciones al utilizar contenido dinámico en fragmentos {#fragment-dynamic-content}
+
+>[!CAUTION]
+>
+>Al trabajar con fragmentos que contienen contenido dinámico (contenido condicional), tenga en cuenta la siguiente limitación:
+>
+>**No se admite el anidamiento de fragmentos con contenido dinámico.** No puede colocar un fragmento que contenga Contenido dinámico dentro de un fragmento desbloqueado que también contenga Contenido dinámico. Esta configuración no admitida puede provocar lo siguiente:
+>
+>* Pérdida de asignaciones de contenido condicional
+>* Advertencias del modo de compatibilidad en el Designer de correo electrónico
+>* Renderización incoherente del correo electrónico
+>
+>**Enfoque recomendado:** Al usar varios fragmentos con contenido dinámico en el correo electrónico, agregue cada fragmento directamente a su propio bloque de estructura en el nivel de correo electrónico. Esto garantiza la funcionalidad adecuada y evita los problemas mencionados anteriormente.
+
+## Prácticas recomendadas para fragmentos con contenido dinámico {#fragment-best-practices}
+
+Siga estas prácticas recomendadas al trabajar con fragmentos visuales y contenido dinámico (contenido condicional):
+
+* **Estructurar el correo electrónico correctamente**: al crear correos electrónicos con fragmentos que contienen contenido dinámico, agregue cada fragmento a un bloque de estructura dedicado en el nivel de correo electrónico. Evite anidar fragmentos con contenido dinámico dentro de otros fragmentos desbloqueados que también contengan contenido dinámico.
+
+* **Planifique con anticipación**: antes de agregar fragmentos a su correo electrónico, identifique cuáles contienen contenido dinámico y planifique su diseño en consecuencia. Esto ayuda a evitar problemas de configuración y garantiza una estructura limpia desde el principio.
+
+* **Diseñe fragmentos reutilizables con cuidado**: al crear fragmentos que incluirán contenido dinámico, considere cómo se utilizarán. Si es necesario anidar un fragmento dentro de otros fragmentos, evite agregar contenido dinámico a los fragmentos principal y secundario.
+
+* **Solución de problemas**: Si experimenta la pérdida de asignaciones de contenido condicional o advertencias del modo de compatibilidad:
+   * Compruebe la estructura del correo electrónico en busca de fragmentos anidados que contengan contenido dinámico
+   * Reestructurar moviendo cada fragmento con contenido dinámico a su propio bloque de estructura en el nivel de correo electrónico
+   * Guarde y compruebe que las asignaciones de contenido condicional se restauran correctamente
+
 ## Uso de variables implícitas {#implicit-variables-in-fragments}
 
 Las variables implícitas mejoran la funcionalidad de fragmento existente para mejorar la eficacia en los casos de uso de reutilización de contenido y scripts. Los fragmentos pueden utilizar variables de entrada y crear variables de salida utilizables en el contenido de la campaña y del recorrido.
@@ -81,7 +109,7 @@ Aprenda a utilizar variables implícitas en [esta sección](../personalization/u
 
 ## Personalizar campos editables {#customize-fields}
 
-Si algunas partes del fragmento seleccionado se han hecho editables, puede anular su valor predeterminado después de agregar el fragmento al contenido. [Aprenda a personalizar los fragmentos](../content-management/customizable-fragments.md)
+Si ciertas partes del fragmento seleccionado se han hecho editables, puede anular su valor predeterminado después de agregar el fragmento al contenido. [Aprenda a personalizar los fragmentos](../content-management/customizable-fragments.md)
 
 Para personalizar los campos editables en un fragmento, siga estos pasos:
 

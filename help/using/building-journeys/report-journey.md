@@ -10,9 +10,9 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -50,6 +50,19 @@ Para cada actividad dentro de cada recorrido en Activo o [Modo de ejecución en 
 * **[!UICONTROL Salida forzada]**: Número total de personas que salieron del recorrido mientras estaba en pausa debido a una configuración del profesional del recorrido. Esta métrica siempre es igual a cero para los recorridos en el modo de ejecución en seco.
 * **[!UICONTROL Error]**: Número total de personas que tuvieron un error en esa actividad.
 
+## Solución de problemas de datos de informes faltantes {#troubleshooting-missing-data}
+
+Si no ve los datos esperados en sus informes de recorrido, tenga en cuenta lo siguiente:
+
+* **Sincronización de nombres de Recorrido**: compruebe que el nombre de recorrido en Adobe Journey Optimizer coincida con el nombre almacenado en el conjunto de datos de informes. Una discrepancia entre estos nombres puede impedir que los datos de los informes aparezcan correctamente.
+
+* **Intervalo de actualización de datos**: después de actualizar el nombre o la configuración de un recorrido, deje tiempo suficiente para que se actualicen los datos. Los datos de creación de informes suelen aparecer en unos minutos, pero en algunos casos pueden tardar más.
+
+* **Permisos de acceso**: Asegúrese de que dispone de los permisos necesarios para ver los informes de recorrido. Si no ve datos, comuníquese con el administrador para comprobar que tiene habilitado el permiso **[!UICONTROL Ver informe de recorridos]**. [Más información sobre los permisos](../administration/permissions.md)
+
+* **Estado del Recorrido**: los datos del informe solo están disponibles para los recorridos publicados o los recorridos que se ejecutan en [Modo de ejecución en seco](journey-dry-run.md). Los recorridos de borrador no generan datos de informes.
+
+Si los problemas persisten después de comprobar estos elementos, póngase en contacto con el administrador de Adobe o con el servicio de asistencia de Adobe para obtener ayuda.
 
 >[!MORELIKETHIS]
 >
