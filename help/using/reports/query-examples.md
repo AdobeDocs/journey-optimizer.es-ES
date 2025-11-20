@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 19e237f8b83d26eb7fa2c6b7548fcb6c4c01c9ce
+source-git-commit: 507a3caa79856dd2c8b58b395507caf164eb0546
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 2%
+source-wordcount: '2598'
+ht-degree: 1%
 
 ---
 
@@ -53,6 +53,8 @@ Aprenda a [solucionar problemas de tipos de eventos descartados en recorrido_ste
 
 +++Qué regla hacía que un perfil no entrara en un recorrido determinado
 
+Esta consulta devuelve el conjunto de reglas y la información de reglas rechazados cuando se impide que un perfil entre en un recorrido debido a reglas de límite o de idoneidad.
+
 _Ejemplo_
 
 ```sql
@@ -75,6 +77,8 @@ AND
 +++
 
 +++Cuántos errores se produjeron en cada nodo de un recorrido específico durante una determinada cantidad de tiempo
+
+Esta consulta cuenta los distintos perfiles que experimentaron errores en cada nodo de un recorrido, agrupados por nombre de nodo. Incluye todos los tipos de errores de ejecución de acciones y errores de recuperación.
 
 _Consulta de lago de datos_
 
@@ -100,6 +104,8 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 +++Cuántos eventos se descartaron de un recorrido específico en un intervalo de tiempo determinado
 
+Esta consulta cuenta el número total de eventos que se descartaron de un recorrido. Filtra varios códigos de eventos de descarte, incluidos errores de trabajos de exportación de segmentos, descartes de Dispatcher y descartes de equipos de estado.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -120,9 +126,9 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++Qué le sucede a un perfil específico en un recorrido específico en un lapso de tiempo específico
 
-_Consulta de lago de datos_
-
 Esta consulta devuelve todos los eventos de paso y los eventos de servicio del perfil y el recorrido dados durante el tiempo especificado en orden cronológico.
+
+_Consulta de lago de datos_
 
 ```sql
 SELECT
@@ -330,6 +336,8 @@ Esta consulta devuelve todos los diferentes errores que se han producido al ejec
 
 +++Buscar si un perfil ha introducido un Recorrido específico
 
+Esta consulta comprueba si un perfil específico ha introducido un recorrido contando los eventos asociados con esa combinación de perfil y recorrido.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -406,6 +414,8 @@ La consulta devuelve la lista de todos los mensajes junto con su recuento invoca
 
 +++Buscar todos los mensajes que un perfil ha recibido en los últimos 30 días
 
+Esta consulta recupera todas las acciones de mensaje ejecutadas correctamente para un perfil específico en los últimos 30 días, agrupadas por nombre de mensaje.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -434,6 +444,8 @@ La consulta devuelve la lista de todos los mensajes junto con su recuento invoca
 
 +++Buscar todos los recorridos introducidos por un perfil en los últimos 30 días
 
+Esta consulta devuelve todos los recorridos introducidos por un perfil específico en los últimos 30 días, junto con el recuento de entradas de cada recorrido.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -459,6 +471,8 @@ La consulta devuelve la lista de todos los nombres de recorrido junto con el nú
 +++
 
 +++Número de perfiles aptos para un recorrido diario
+
+Esta consulta proporciona un desglose diario del número de perfiles distintos que han introducido un recorrido durante un periodo de tiempo especificado.
 
 _Consulta de lago de datos_
 
@@ -490,6 +504,8 @@ Aprenda a [solucionar problemas de tipos de eventos descartados en recorrido_ste
 ## Consultas relacionadas con la audiencia de lectura {#read-segment-queries}
 
 +++Tiempo empleado para finalizar un trabajo de exportación de audiencia
+
+Esta consulta calcula la duración de un trabajo de exportación de audiencia buscando la diferencia horaria entre el momento en que el trabajo se puso en cola y el momento en que finalizó.
 
 _Consulta de lago de datos_
 
@@ -525,6 +541,8 @@ La consulta devuelve la diferencia de tiempo, en minutos, entre el momento en qu
 
 +++Número de perfiles que el recorrido descartó porque eran duplicados
 
+Esta consulta cuenta el número de perfiles distintos que se descartaron debido a errores de duplicación de instancias durante la actividad Leer audiencia.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -548,6 +566,8 @@ La consulta devuelve todos los ID de perfil que el recorrido descartó porque er
 +++
 
 +++Número de perfiles que el recorrido descartó debido a un área de nombres no válida
+
+Esta consulta devuelve el recuento de perfiles que se descartaron porque tenían un área de nombres no válida o faltaba identidad para el área de nombres requerida.
 
 _Consulta de lago de datos_
 
@@ -573,6 +593,8 @@ La consulta devuelve todos los ID de perfil que descartó la recorrido porque te
 
 +++Número de perfiles que el recorrido descartó debido a que no hay mapa de identidad
 
+Esta consulta cuenta los perfiles que se descartaron porque les faltaba un mapa de identidad necesario para la ejecución del recorrido.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -597,6 +619,8 @@ La consulta devuelve todos los ID de perfil que el recorrido descartó porque fa
 
 +++Número de perfiles que el recorrido descartó porque el recorrido estaba en el nodo de prueba y el perfil no era de prueba
 
+Esta consulta identifica los perfiles que se descartaron cuando el recorrido se estaba ejecutando en modo de prueba, pero el perfil no tenía el atributo testProfile establecido en true.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -615,11 +639,13 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
-La consulta devuelve todos los ID de perfil que descartó la recorrido porque el trabajo de exportación se ejecutó en modo de prueba pero el perfil no tenía el atributo testProfile establecido en true.
+La consulta devuelve todos los ID de perfil descartados por la recorrido porque el trabajo de exportación se ejecutó en modo de prueba pero el perfil no tenía el atributo testProfile establecido en true.
 
 +++
 
 +++Número de perfiles que el recorrido descartó debido a un error interno
+
+Esta consulta devuelve el recuento de perfiles que se descartaron debido a errores internos del sistema durante la ejecución del recorrido.
 
 _Consulta de lago de datos_
 
@@ -644,6 +670,8 @@ La consulta devuelve todos los ID de perfil que el recorrido descartó debido a 
 +++
 
 +++Información general sobre la audiencia de lectura para una versión de recorrido determinada
+
+Esta consulta proporciona información general completa sobre la actividad Leer audiencia, incluidos detalles del trabajo de exportación de segmentos, códigos de evento, estados y recuentos de perfiles para todas las etapas del proceso de exportación de audiencias.
 
 _Consulta de lago de datos_
 
@@ -686,6 +714,8 @@ IMPORTANTE: si esta consulta no devuelve ningún evento, puede deberse a uno de 
 
 +++Obtención de errores de audiencia de lectura para una versión de recorrido determinada
 
+Esta consulta filtra códigos de evento de error específicos relacionados con errores de Leer audiencia, como errores de creación de temas, errores de llamadas de API, tiempos de espera y trabajos de exportación con errores.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -714,6 +744,8 @@ WHERE
 
 +++Obtener estado de procesamiento del trabajo de exportación
 
+Esta consulta recupera el estado de procesamiento de los trabajos de exportación de audiencia, mostrando si se realizaron correctamente o no, junto con las métricas de exportación de perfiles.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -738,12 +770,14 @@ WHERE
 
 Si no se devuelve ningún registro, significa que:
 
-* se ha producido un error durante la creación del tema o trabajo de exportación
+* se ha producido un error durante la creación del tema o del trabajo de exportación
 * el trabajo de exportación aún se está ejecutando
 
 +++
 
 +++Obtenga métricas sobre perfiles exportados, incluidos descartes y métricas de trabajos de exportación para cada trabajo de exportación
+
+Esta consulta combina recuentos de perfiles descartados con métricas de trabajos de exportación para proporcionar una vista completa del rendimiento de exportación de la audiencia para cada trabajo de exportación individual.
 
 _Consulta de lago de datos_
 
@@ -806,6 +840,8 @@ WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 +++
 
 +++Obtener métricas agregadas (trabajos de exportación de audiencias y descartes) en todos los trabajos de exportación
+
+Esta consulta agrega métricas generales en todos los trabajos de exportación para una versión de recorrido determinada, lo cual resulta útil para recorridos recurrentes o recorridos activados por eventos empresariales con reutilización de temas.
 
 _Consulta de lago de datos_
 
@@ -874,6 +910,8 @@ Devuelve las métricas generales de una versión de recorrido determinada, indep
 
 +++Perfil descartado debido a una comprensión de audiencia diferente a la configurada
 
+Esta consulta identifica los perfiles que se descartaron porque su estado de realización de audiencia no coincide con la configuración de Calificación de audiencias del recorrido (por ejemplo, configurado para &quot;entra&quot; pero el perfil &quot;sale&quot;).
+
 _Consulta de lago de datos_
 
 ```sql
@@ -899,6 +937,8 @@ Esta consulta devuelve todos los ID de perfil que la versión de recorrido desca
 +++
 
 +++Eventos de calificación de audiencia descartados por cualquier otra razón para un perfil específico
+
+Esta consulta recupera todas las clasificaciones de audiencias o eventos externos que se descartaron para un perfil específico debido a errores de servicio interno.
 
 _Consulta de lago de datos_
 
@@ -930,6 +970,8 @@ Esta consulta devuelve todos los eventos (eventos externos / eventos de califica
 
 +++Comprobar si se recibió un evento empresarial para un recorrido
 
+Esta consulta cuenta el número de veces que un recorrido recibió un evento empresarial, agrupado por fecha, en un lapso de tiempo especificado.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -958,6 +1000,8 @@ WHERE DATE(timestamp) > (now() - interval '6' hour)
 
 +++Compruebe si se descartó un evento externo de un perfil porque no se encontró ningún recorrido relacionado
 
+Esta consulta identifica cuándo se descartó un evento externo para un perfil específico porque no había ningún recorrido activo o coincidente configurado para recibir ese evento.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -985,6 +1029,8 @@ Aprenda a [solucionar problemas de tipos de eventos descartados en recorrido_ste
 +++
 
 +++Compruebe si un evento externo de un perfil se descartó por algún otro motivo
+
+Esta consulta recupera eventos externos que se descartaron para un perfil específico debido a errores de servicio interno, junto con el ID de evento y el código de error.
 
 _Consulta de lago de datos_
 
@@ -1016,6 +1062,8 @@ Aprenda a [solucionar problemas de tipos de eventos descartados en recorrido_ste
 
 +++Compruebe el recuento de todos los eventos descartados por stateMachine por errorCode
 
+Esta consulta agrega todos los eventos descartados por el equipo de estado de recorrido, agrupados por código de error para ayudar a identificar los motivos más comunes de descartes.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -1037,6 +1085,8 @@ Aprenda a [solucionar problemas de tipos de eventos descartados en recorrido_ste
 +++
 
 +++Comprobar todos los eventos descartados porque no se permitía la reentrada
+
+Esta consulta identifica todos los eventos que se descartaron porque un perfil intentó volver a introducir un recorrido cuando no se permitía la reentrada en la configuración del recorrido.
 
 _Consulta de lago de datos_
 
@@ -1068,6 +1118,8 @@ Aprenda a [solucionar problemas de tipos de eventos descartados en recorrido_ste
 
 +++Número de recorridos activos diarios
 
+Esta consulta devuelve un recuento diario de versiones de recorrido únicas que tuvieron actividad, lo que le ayuda a comprender los patrones de ejecución de recorrido a lo largo del tiempo.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -1094,6 +1146,8 @@ La consulta devuelve, para el periodo definido, el recuento de recorridos único
 ## Consultas en instancias de recorrido {#journey-instances-queries}
 
 +++Número de perfiles en un estado específico en un momento específico
+
+Esta consulta utiliza expresiones de tabla comunes (CTE) para identificar perfiles que están esperando actualmente en un nodo específico de un recorrido mediante la búsqueda de perfiles que han pasado a través del nodo, pero que aún no han procedido a los nodos siguientes.
 
 _Consulta de lago de datos_
 
@@ -1245,6 +1299,8 @@ ORDER BY
 
 +++Cuántos perfiles salieron del recorrido en un período de tiempo específico
 
+Esta consulta cuenta las instancias de recorrido que salieron durante un período de tiempo especificado, incluidas las salidas debido a errores de finalización, errores, tiempos de espera o errores de límite.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -1284,6 +1340,8 @@ ORDER BY
 +++
 
 +++Cuántos perfiles salieron del recorrido en el período de tiempo específico con el nodo o el estado
+
+Esta consulta proporciona un desglose detallado de las salidas de recorrido, mostrando el nombre del nodo y el estado de salida de cada instancia de salida para ayudar a identificar dónde y por qué los perfiles abandonaron la recorrido.
 
 _Consulta de lago de datos_
 
@@ -1330,6 +1388,8 @@ ORDER BY
 ## Consultas relacionadas con las métricas de rendimiento de Acción personalizada {#query-custom-action}
 
 +++ Número total de llamadas, errores y solicitudes correctos por segundo de cada extremo durante un período de tiempo específico
+
+Esta consulta proporciona métricas de rendimiento para acciones HTTP personalizadas, incluido el total de llamadas, las llamadas correctas, los recuentos de errores por tipo (4xx, 5xx, tiempos de espera, límite) y el rendimiento en solicitudes por segundo para cada extremo.
 
 _Consulta de lago de datos_
 
@@ -1390,6 +1450,8 @@ ORDER BY
 +++
 
 +++ Serie temporal de llamadas correctas, errores y rendimiento de cada extremo durante un período de tiempo específico
+
+Esta consulta proporciona las mismas métricas de rendimiento que la consulta anterior, pero está organizada como una serie temporal, y muestra cómo el rendimiento de los extremos varía con el tiempo con la granularidad minuto a minuto.
 
 _Consulta de lago de datos_
 
@@ -1457,6 +1519,8 @@ ORDER BY
 
 +++Latencia de respuesta de cada extremo en los percentiles 50, 95, 99 y 99,9 durante un período de tiempo específico
 
+Esta consulta calcula los percentiles de tiempo de respuesta para los extremos de acción personalizados, lo que le ayuda a comprender la distribución de latencia e identificar periféricos de rendimiento con umbrales de percentil diferentes.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -1508,6 +1572,8 @@ ORDER BY
 +++
 
 +++Serie temporal de percentiles de latencia de respuesta de cada extremo durante un período de tiempo específico
+
+Esta consulta proporciona percentiles de latencia organizados como una serie temporal, lo que le permite realizar un seguimiento de cómo cambian los tiempos de respuesta de los extremos con el paso del tiempo en diferentes niveles de percentil.
 
 _Consulta de lago de datos_
 
@@ -1567,6 +1633,8 @@ ORDER BY
 
 +++ Tiempo de espera en cola en puntos finales restringidos en los percentiles 50 y 95 durante un período de tiempo específico
 
+Esta consulta analiza los tiempos de espera de cola para puntos de conexión restringidos, mostrando los tiempos de espera de los percentiles 50 y 95 para ayudarle a comprender el impacto de la restricción en sus acciones personalizadas.
+
 _Consulta de lago de datos_
 
 ```sql
@@ -1614,6 +1682,8 @@ ORDER BY
 +++
 
 +++ Serie temporal de percentiles de tiempo de espera de cola para cada extremo limitado
+
+Esta consulta proporciona percentiles de tiempo de espera de cola como una serie temporal, lo que le permite supervisar cómo afecta la restricción a los tiempos de espera con el paso del tiempo para cada extremo.
 
 _Consulta de lago de datos_
 
@@ -1668,6 +1738,8 @@ ORDER BY
 +++
 
 +++ Número de errores por tipo y código para un extremo específico durante un período de tiempo específico
+
+Esta consulta proporciona un desglose detallado de los errores de un extremo específico, agrupados por tipo de error y código de error, incluida la información sobre los intentos de reintento.
 
 _Consulta de lago de datos_
 
