@@ -21,7 +21,7 @@ Todos los datos que se incorporan a Adobe Experience Platform se conservan dentr
 
 ## Mecanismos de protección y limitaciones
 
-* A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admite eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios [!DNL Journey Optimizer]. Para implementar la restricción de frecuencia o la administración de fatiga, utilice reglas empresariales en su lugar. Puede encontrar más detalles en [esta sección](../conflict-prioritization/rule-sets.md), incluyendo una explicación de caso de uso para el límite diario [aquí](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+* A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admite eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios [!DNL Journey Optimizer]. Para implementar la restricción de frecuencia o la administración de fatiga, utilice reglas empresariales en su lugar. Puede encontrar más detalles en [esta sección](../conflict-prioritization/rule-sets.md), incluyendo una explicación de caso de uso para el límite diario [aquí](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=es){target="_blank"}.
 
 * A partir de febrero de 2025, se está implementando una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer. [Más información](datasets-ttl.md)
 
@@ -74,8 +74,8 @@ Añadir datos a [!DNL Adobe Experience Platform] es la base para crear un perfil
 
 Puede crear un conjunto de datos a partir de un esquema o un archivo CSV. Encontrará información detallada sobre cómo crear conjuntos de datos en la documentación de [!DNL Adobe Experience Platform]:
 
-* [Crear un conjunto de datos con un esquema existente](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
-* [Asignar un archivo CSV a un esquema XDM existente](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
+* [Crear un conjunto de datos con un esquema existente](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
+* [Asignar un archivo CSV a un esquema XDM existente](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 Obtenga información sobre cómo crear un conjunto de datos, asignarlo a un esquema, añadirle datos y confirmar que estos se han introducido.
 
@@ -101,4 +101,4 @@ Obtenga más información sobre la gobernanza de datos y etiquetas de uso de dat
 >
 >* [Documentación de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target="_blank"}
 >* [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es){target="_blank"}.
->* [Prácticas recomendadas de asignación de licencias para administración de datos](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
+>* [Prácticas recomendadas de asignación de licencias para administración de datos](https://experienceleague.adobe.com/es/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
