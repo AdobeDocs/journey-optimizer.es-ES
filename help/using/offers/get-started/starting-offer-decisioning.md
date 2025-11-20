@@ -118,12 +118,12 @@ A continuación, se muestra la lista de los conceptos principales con los que tr
 
 El siguiente vídeo proporciona una introducción a las funciones clave, la arquitectura y los casos de uso de Gestión de decisiones:
 
->[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340419?captions=spa&quality=12&learn=on)
 
 ### Definición y administración de ofertas {#use-offer-decisioning}
 
 El siguiente vídeo muestra cómo utilizar Gestión de decisiones para definir y administrar sus ofertas, así como para aprovechar los datos de clientes en tiempo real.
 
->[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340359?captions=spa&quality=12&learn=on)
 
 
