@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expresión, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: d4736257166a1fb19350aca45ee55decd3afd0b2
+source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '848'
 ht-degree: 5%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 5%
 >title="Habilitar para búsqueda"
 >abstract="Al habilitar un conjunto de datos para la búsqueda, puede aprovechar sus datos dentro de las funciones de personalización, toma de decisiones y orquestación de recorrido de Journey Optimizer."
 
-Journey Optimizer le permite aprovechar los datos de Adobe Experience Platform con funciones de personalización, toma de decisiones y orquestación de recorrido. Para ello, los conjuntos de datos basados en registros necesarios para la personalización de la búsqueda deben habilitarse primero para el servicio de búsqueda como se describe a continuación.
+[!DNL Journey Optimizer] le permite aprovechar los datos de [!DNL Adobe Experience Platform] con capacidades de personalización, toma de decisiones y orquestación de recorrido. Para ello, los conjuntos de datos basados en registros necesarios para la personalización de la búsqueda deben habilitarse primero para el servicio de búsqueda como se describe a continuación.
+
+Obtenga más información sobre cómo acceder a los conjuntos de datos y trabajar con ellos en esta sección: [Introducción a los conjuntos de datos](../data/get-started-datasets.md)
 
 ## Lectura obligatoria
 
@@ -34,8 +36,7 @@ Antes de empezar, revise las siguientes restricciones y directrices:
 
 * **No hay PII en los conjuntos de datos**. Los conjuntos de datos habilitados para la búsqueda no deben contener información de identificación personal (PII).
 
-* 
-   * **Riesgo de eliminación**: los conjuntos de datos utilizados en la personalización no están protegidos contra eliminación. Debe realizar un seguimiento de los conjuntos de datos que se utilizan para asegurarse de que no se eliminan.
+* **Riesgo de eliminación**: los conjuntos de datos utilizados en la personalización no están protegidos contra eliminación. Debe realizar un seguimiento de los conjuntos de datos que se utilizan para asegurarse de que no se eliminan.
 
 * **Tipo de esquema**: los conjuntos de datos deben estar asociados con un esquema que sea **NO** de tipo perfil o evento.
 
