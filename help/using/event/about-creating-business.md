@@ -31,7 +31,7 @@ Los eventos empresariales pueden ser &quot;un producto vuelve a estar en stock&q
 
 >[!NOTE]
 >
->También puede ver el caso de uso de evento empresarial [tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Tenga en cuenta que no es necesario habilitar el esquema para el perfil.
+>También puede ver el caso de uso de evento empresarial [tutorial](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Tenga en cuenta que no es necesario habilitar el esquema para el perfil.
 
 ## Notas importantes {#important-notes}
 
