@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '2929'
-ht-degree: 100%
+source-git-commit: 78cf16d0f62d6cb7fac82b9e8f89e8726e2db896
+workflow-type: tm+mt
+source-wordcount: '3075'
+ht-degree: 95%
 
 ---
 
@@ -59,6 +59,24 @@ Las siguientes limitaciones se aplican a la actividad [canal de correo electrón
 * No puede utilizar el mismo dominio de envío para enviar mensajes de correo electrónico desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage], por ejemplo.
 
 Al diseñar mensajes de correo electrónico, el sistema comprueba la configuración de las claves y muestra alertas para detectar advertencias (recomendaciones y prácticas recomendadas) y errores (problemas de bloqueo que impiden realizar pruebas o activaciones). Obtenga más información acerca de las alertas de correo electrónico y los requisitos de validación en [esta sección](../email/create-email.md#check-email-alerts).
+
+#### Tamaño del contenido del mensaje para la publicación de recorrido {#message-content-size}
+
+Al publicar recorridos que contienen mensajes de correo electrónico, el tamaño total del contenido del mensaje no debe exceder de **2MB** después del procesamiento back-end. Durante la publicación, el sistema procesa automáticamente el contenido del mensaje aplicando parches a los vínculos e imágenes y aplicando transformaciones, lo que aumenta el tamaño de la carga útil por encima del tamaño del contenido creado.
+
+>[!CAUTION]
+>
+>Si el contenido final del mensaje procesado supera los 2 MB, la publicación del recorrido fallará. Para evitar errores de publicación, mantenga el contenido del mensaje creado muy por debajo de los 2 MB (idealmente, por debajo de **1 MB**) para permitir un búfer de 300 a 400 KB para la sobrecarga de procesamiento del servidor.
+
+**Prácticas recomendadas para evitar errores de publicación:**
+
+* Mantener el contenido del correo electrónico creado en menos de 1 MB
+* Minimizar el número de variantes de contenido
+* Optimizar y comprimir imágenes antes de añadirlas a los mensajes
+* Eliminación de recursos no utilizados y elementos de HTML innecesarios
+* Prueba del tamaño del mensaje antes de publicar recorridos en producción
+
+Si la publicación del recorrido falla debido al tamaño del contenido, reduzca el contenido del mensaje y vuelva a publicar el recorrido.
 
 ### Mecanismos de protección de SMS {#sms-guardrails}
 
@@ -151,7 +169,7 @@ Las siguientes limitaciones se aplican a las [versiones del recorrido](../start/
 
 * Un recorrido que se inicia con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No puede iniciar un recorrido con un evento de **Calificación de público**.
 * Un recorrido que se inicia con una actividad de **Calificación de público** en la versión 1 siempre debe comenzar con una **Calificación de público** en versiones posteriores.
-* El público y el área de nombres elegidos en la **Calificación de públicos** (primer nodo) no se pueden cambiar en las versiones nuevas.
+* El público y el espacio de nombres elegidos en la **Calificación de públicos** (primer nodo) no se pueden cambiar en las versiones nuevas.
 * La regla de reentrada debe ser la misma en todas las versiones del recorrido.
 * El recorrido que comience con **Leer público** no puede comenzar con otro evento en las versiones siguientes.
 * No se puede crear una nueva versión de un recorrido de lectura de público con lectura incremental. Debe duplicar el recorrido.
