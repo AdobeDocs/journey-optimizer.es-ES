@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de correo electrónico, Módulos, Reutilización, Coherencia de la marca, Diseño de correo electrónico, CSS personalizado, Optimización móvil
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 53ae620926fc8ba3e9c8b558584ed8eb6942e3d4
+source-git-commit: 365ed7f735760ee5763d0f12ea366c662a097948
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 3%
@@ -250,4 +250,4 @@ Para crear un fragmento compatible con temáticas, siga los pasos a continuació
 
    ![](assets/generate-theme-colors.png){width=90%}
 
-1. Haga clic en **[!UICONTROL Guardar]** para almacenar este nuevo tema y reutilizarlo. Ahora puede aplicar esta temática a su contenido, como cualquier otra temática. [Descubra cómo](#leverage-themes-fragment)
+1. Haga clic en **[!UICONTROL Guardar]** para almacenar este nuevo tema y reutilizarlo. Ahora puede aplicar esta temática a su contenido, como cualquier otra temática. [Descubra cómo](#apply-themes-email)
