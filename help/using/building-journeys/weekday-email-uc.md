@@ -11,10 +11,10 @@ keywords: recorrido, caso de uso, días de la semana, condición, correo electr�
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f8b594a14a1f89f77aa560a4de2b99189046af4f
+source-git-commit: 46a46fb25c1ef985a0bdea8974aa009e3699c7a3
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 1%
+source-wordcount: '1833'
+ht-degree: 0%
 
 ---
 
@@ -32,11 +32,15 @@ Este método muestra cómo utilizar una actividad de condición para comprobar s
 
 Este método es ideal para campañas de correo electrónico de empresa a empresa (B2B), boletines informativos y comunicaciones profesionales, anuncios relacionados con la empresa, actualizaciones de productos relacionadas con el trabajo y cualquier campaña de marketing en la que no se desee realizar la entrega los fines de semana.
 
-Vea el [tutorial de vídeo](#how-to-video) paso a paso en la parte inferior de esta página para ver la implementación completa.
+➡️ Vea el [tutorial en vídeo](#how-to-video) paso a paso
 
-## Requisitos previos
+>[!NOTE]
+>
+>Para implementar este caso de uso, necesita una instancia de Adobe Journey Optimizer activa con una [superficie de canal de correo electrónico](../configuration/channel-surfaces.md) configurada, una [audiencia](../audience/about-audiences.md) o [evento](../event/about-events.md) para almacenar en déclencheur el recorrido y una comprensión básica de [condiciones de recorrido](condition-activity.md) y [expresiones](expression/expressionadvanced.md).
 
-Para implementar este caso de uso, necesita una instancia de Adobe Journey Optimizer activa con una [superficie de canal de correo electrónico](../configuration/channel-surfaces.md) configurada, una [audiencia](../audience/about-audiences.md) o [evento](../event/about-events.md) para almacenar en déclencheur el recorrido y una comprensión básica de [condiciones de recorrido](condition-activity.md) y [expresiones](expression/expressionadvanced.md).
+
+
+
 
 ## Pasos de implementación
 
@@ -293,29 +297,25 @@ Si la condición coincide con un día festivo, añada una actividad Wait para re
 
 ## Temas relacionados
 
-| Tema | Descripción |
-|-------|-------------|
-| [Acerca de las actividades de condición](condition-activity.md) | Aprenda a crear diferentes rutas en el recorrido |
-| [Usar condiciones en un recorrido](conditions.md) | Guía detallada sobre las condiciones de recorrido |
-| [Actividad Esperar](wait-activity.md) | Configuración de duraciones de espera y fórmulas |
-| [Funciones de fecha](functions/date-functions.md) | Referencia completa para funciones de fecha y hora |
-| [Editor de expresiones](expression/expressionadvanced.md) | Crear expresiones complejas |
-| [Probar el recorrido](testing-the-journey.md) | Validar la lógica de recorrido antes de publicar |
-| [Administración de husos horarios](timezone-management.md) | Gestión de diferentes zonas horarias en recorridos |
-| [Prácticas recomendadas de Recorrido](journey-gs.md#best-practices) | Enfoques recomendados para el diseño de recorridos |
+* [Acerca de las actividades de condición](condition-activity.md): aprenda a crear diferentes rutas en su recorrido
+* [Condiciones de uso en un recorrido](conditions.md): guía detallada sobre las condiciones de recorrido
+* [Actividad de espera](wait-activity.md) - Configurar duraciones y fórmulas de espera
+* [Funciones de fecha](functions/date-functions.md) - Referencia completa para funciones de fecha y hora
+* [Editor de expresiones](expression/expressionadvanced.md) - Generar expresiones complejas
+* [Probar el recorrido](testing-the-journey.md): valide la lógica de recorrido antes de publicar
+* [Administración de husos horarios](timezone-management.md) - Administrar diferentes zonas horarias en los recorridos
+* [Prácticas recomendadas de Recorrido](journey-gs.md#best-practices) - Enfoques recomendados para el diseño de recorridos
 
 ## Vídeo práctico
 
 Aprenda a enviar correos electrónicos solo entre semana con Adobe Journey Optimizer. Este vídeo muestra la implementación paso a paso de actividades de condición y fórmulas de Espera para poner en cola las entradas de fin de semana para la entrega del lunes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469383?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## Recursos adicionales
 
-| Recurso | Descripción |
-|----------|-------------|
-| [Documentación del editor de expresiones](expression/expressionadvanced.md) | Generar y validar expresiones de recorrido |
-| [guía de diseñador de Recorrido](using-the-journey-designer.md) | Dominar el lienzo de recorrido |
-| [información general sobre casos de uso de Recorrido](jo-use-cases.md) | Explore más patrones de recorrido y ejemplos |
-| [Publicación de blog de la comunidad: cómo enviar correos electrónicos solo los días laborables](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=es){target="_blank"} | Publicación de blog original con ejemplos detallados |
+* [Documentación del editor de expresiones](expression/expressionadvanced.md) - Generar y validar expresiones de recorrido
+* [Guía del diseñador de Recorrido](using-the-journey-designer.md) - Dominar el lienzo de recorrido
+* [Información general sobre casos de uso de Recorrido](jo-use-cases.md): Explore más patrones y ejemplos de recorrido
+* [Publicación de blog de la comunidad: cómo enviar correos electrónicos solo entre semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Publicación de blog original con ejemplos detallados
 
