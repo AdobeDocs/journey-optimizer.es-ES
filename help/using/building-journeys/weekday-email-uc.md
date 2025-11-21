@@ -11,9 +11,9 @@ keywords: recorrido, caso de uso, días de la semana, condición, correo electr�
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 46a46fb25c1ef985a0bdea8974aa009e3699c7a3
+source-git-commit: 72f3396bc662e75efd0f82754bfa964baf51ab8e
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1867'
 ht-degree: 0%
 
 ---
@@ -221,79 +221,98 @@ Una vez finalizada la prueba:
 
 ## Prácticas recomendadas y consideraciones
 
-+++**Optimizar flujo de trabajo con fórmulas mejoradas**
+### Optimización del flujo de trabajo con fórmulas mejoradas
 
-Para mejorar el flujo de trabajo y gestionar requisitos comerciales más complejos, puede ampliar las fórmulas para tener en cuenta los días festivos, los husos horarios o el horario laboral específico más allá de la comprobación básica de días laborables. Ajuste el parámetro de hora (H) en la fórmula Espera para que coincida con el tiempo de envío óptimo; por ejemplo, si 10 a. m. muestra mejores tasas de participación, cambie la fórmula para utilizar la hora 10. Para la compatibilidad con varios husos horarios, considere la posibilidad de crear recorridos independientes para diferentes regiones geográficas a fin de garantizar la entrega los lunes en el huso horario local de cada destinatario.
+Mejore su flujo de trabajo y gestione requisitos comerciales más complejos:
 
-+++
+* **Horario laboral complejo**: amplíe las fórmulas para tener en cuenta los días festivos, las zonas horarias o el horario laboral específico más allá de la comprobación básica de días laborables.
+* **Tiempos de entrega personalizados**: Ajuste el parámetro de hora (H) en la fórmula Wait para que coincida con el tiempo de envío óptimo. Por ejemplo, si 10 a. m. muestra mejores tasas de participación, cambie la fórmula para usar la hora 10.
+* **Compatibilidad con varios husos horarios**: cree recorridos separados para diferentes regiones geográficas a fin de asegurar el envío del lunes en el huso horario local de cada destinatario.
 
-+++**Administración de husos horarios**
+### Administración de husos horarios
 
-La función `now()` y la ejecución del recorrido utilizan la zona horaria configurada en el nivel de recorrido. Asegúrese de que la zona horaria del recorrido coincida con sus necesidades configurándolo en las propiedades del recorrido antes de publicar ([Más información acerca de la administración de la zona horaria](timezone-management.md)). Si la audiencia abarca varias zonas horarias, tenga en cuenta que la comprobación del día de la semana se realiza en la zona horaria configurada del recorrido, no en la del destinatario. Para las entregas específicas del huso horario, cree recorridos independientes para diferentes regiones o utilice la configuración del huso horario en la actividad Leer audiencia.
+La función `now()` y la ejecución del recorrido utilizan la zona horaria configurada en el nivel de recorrido. Tenga en cuenta estos puntos clave:
 
-+++
+* **Zona horaria de Recorrido**: Asegúrese de que la zona horaria de recorrido coincida con sus necesidades configurándolo en las propiedades de recorrido antes de publicarlo. [Más información sobre la administración de huso horario](timezone-management.md)
+* **Audiencias globales**: Si la audiencia abarca varias zonas horarias, la comprobación del día de la semana se realiza en la zona horaria configurada del recorrido, no en la del destinatario.
+* **Programación localizada**: para la entrega específica de la zona horaria, cree recorridos separados para diferentes regiones o use la configuración de la zona horaria en la actividad Leer audiencia.
 
-+++**entrada de Recorrido y temporización**
+### Entrada de recorrido y temporización
 
-Para los recorridos por lotes, [programe la lectura de la audiencia](read-audience.md#schedule) para que entre en déclencheur a una hora que tenga sentido para su audiencia; las ejecuciones por la mañana temprano (por ejemplo, 6:00 a.m.) son comunes en las comunicaciones comerciales. Para los recorridos basados en eventos, la condición se evaluará inmediatamente cuando se reciba el evento y los perfiles que entren los fines de semana esperarán automáticamente hasta el lunes ([Más información acerca de los eventos](../event/about-events.md)). Asegúrese de que su [configuración de tiempo de espera de recorrido](journey-properties.md#timeout) se ajuste al período de espera máximo (hasta 2 días de sábado a lunes).
+Configure el tiempo de recorrido en función del tipo de entrada:
 
-+++
+* **Leer recorridos de audiencias**: [Programe la audiencia de lectura](read-audience.md#schedule) para que entre en déclencheur a la vez que tenga sentido para su audiencia. Las ejecuciones tempranas por la mañana (por ejemplo, 6:00 a.m.) son comunes en las comunicaciones comerciales.
+* **recorridos basados en eventos**: la condición se evaluará inmediatamente cuando se reciba el evento. Los perfiles que entran los fines de semana esperan automáticamente hasta el lunes. [Más información sobre los eventos](../event/about-events.md)
+* **Consideraciones sobre el tiempo de espera**: Compruebe que la [configuración del tiempo de espera del recorrido](journey-properties.md#timeout) se ajusta al período de espera máximo (hasta 2 días de sábado a lunes).
 
-+++**Las pruebas son esenciales**
+### Las pruebas son esenciales
 
-Como se destaca en la guía de implementación, pruebe siempre la lógica de recorrido para confirmar que todo funciona según lo esperado. Use **Modo de prueba** para simular diferentes escenarios de entrada sin enviar correos electrónicos reales. Pruebe las tres rutas (entradas de sábado, domingo y día de la semana), compruebe que los cálculos de Wait duration son correctos, confirme que la entrega del lunes se produce a la hora especificada y compruebe la visualización del recorrido para garantizar un enrutamiento de ruta adecuado.
+Pruebe siempre la lógica de recorrido antes de publicar en producción:
 
-+++
+* Use **Modo de prueba** para simular diferentes escenarios de entrada sin enviar correos electrónicos reales
+* Pruebe las tres rutas: entradas de sábado, entradas de domingo y entradas de día de la semana
+* Verifique que los cálculos de duración de espera sean correctos
+* Confirmar que el envío del lunes se produce a la hora especificada
+* Compruebe la visualización del recorrido para garantizar un enrutamiento de ruta adecuado
 
-+++**Reentrada y frecuencia**
+[Más información sobre las pruebas de recorridos](testing-the-journey.md)
 
-Para campañas recurrentes, establece correctamente la configuración de **[!UICONTROL Reentrada]** ([Más información acerca de la configuración de reentrada](entry-management.md)). Si los perfiles pueden volver a entrar en el recorrido, estarán sujetos a la comprobación de día de la semana cada vez, lo que garantiza que las entradas de fin de semana siempre se mantengan en cola para los lunes. Considere la posibilidad de agregar [reglas de límite de frecuencia](../conflict-prioritization/journey-capping.md) para evitar mensajes excesivos si los perfiles pueden volver a entrar con frecuencia.
+### Reentrada y frecuencia
 
-+++
+Para campañas recurrentes, administre cuidadosamente la reentrada de perfiles:
+
+* **Configurar la reentrada**: configure correctamente la configuración de **[!UICONTROL reentrada]**. [Más información acerca de la configuración de reentrada](entry-management.md)
+* **Comportamiento coherente**: si los perfiles pueden volver a entrar en el recorrido, estarán sujetos a la comprobación de día de la semana cada vez, lo que garantiza que las entradas de fin de semana siempre se mantengan en cola para los lunes.
+* **Límite de frecuencia**: considere la posibilidad de agregar [reglas de límite de frecuencia](../conflict-prioritization/journey-capping.md) para evitar mensajes excesivos si los perfiles pueden volver a entrar con frecuencia.
 
 ## Variaciones avanzadas
 
-+++**Segmentación por día específico**
+### Segmentación por día específico
 
-Para enviar correos electrónicos solo en días específicos (como martes y jueves), modifique la condición:
+Para enviar correos electrónicos solo en días específicos (por ejemplo, martes y jueves):
 
-```javascript
-dayOfWeek(now()) == 3 or dayOfWeek(now()) == 5
-```
+1. **Modifique la condición** para comprobar si hay días específicos:
 
-Para el resto de días, agregue una actividad Wait que calcule el número de días hasta el martes o el jueves siguientes.
+   ```javascript
+   dayOfWeek(now()) == 3 or dayOfWeek(now()) == 5
+   ```
 
-+++
+2. **Agregar actividades de espera** para todos los demás días que calculan la cantidad de días hasta el martes o jueves siguientes.
 
-+++**Diferentes tiempos de envío para diferentes días**
+### Diferentes tiempos de envío para diferentes días
 
-Puede crear varias rutas con diferentes fórmulas de espera para diferentes comportamientos de fin de semana. Por ejemplo, use `nowWithDelta(4, "days")` para la entrega de sábado a miércoles o `nowWithDelta(2, "days")` para la entrega de domingo a martes. Esto permite una mayor flexibilidad en la programación de envíos.
+Cree varias rutas con diferentes fórmulas de espera para una programación flexible:
 
-+++
+* **Entrega de sábado → miércoles**: use `nowWithDelta(4, "days")`
+* **Entrega del domingo → martes**: use `nowWithDelta(2, "days")`
 
-+++**Envío en horario laboral**
+Este método le permite personalizar los días de envío según los requisitos comerciales.
 
-Para garantizar la entrega durante el horario laboral, ajuste el parámetro hour en la fórmula Wait. Por ejemplo, para la entrega a las 2 p. m. en lugar de a las 9 a. m.:
+### Entrega en horario laboral
 
-```javascript
-setHours(nowWithDelta(1, "days"), 14)
-```
+Para garantizar la entrega durante el horario laboral:
 
-También puede agregar una segunda condición después de Esperar para comprobar si la hora actual se encuentra dentro del horario laboral antes de enviarla.
+1. **Ajuste el parámetro de hora** en la fórmula de espera. Por ejemplo, para la entrega a las 2 p. m. en lugar de a las 9 a. m.:
 
-+++
+   ```javascript
+   setHours(nowWithDelta(1, "days"), 14)
+   ```
 
-+++**Exclusión por vacaciones**
+2. **Agregar una comprobación horaria** (opcional): agregue una segunda condición después de Esperar para comprobar que la hora actual se encuentra dentro del horario laboral antes de enviarla.
 
-Para excluir festivos, añada una ruta de condición adicional que compruebe fechas específicas:
+### Exclusión de días festivos
 
-```javascript
-toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
-```
+Para excluir los días festivos del envío de correo electrónico:
 
-Si la condición coincide con un día festivo, añada una actividad Wait para retrasarla hasta el siguiente día laborable. [Más información acerca de las funciones de comparación de fechas](functions/date-functions.md)
+1. **Agregue una ruta de acceso de condición** para comprobar fechas de vacaciones específicas:
 
-+++
+   ```javascript
+   toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
+   ```
+
+2. **Agregar una actividad de espera** si la condición coincide con un día festivo, para retrasarla hasta el siguiente día laborable.
+
+[Más información sobre las funciones de comparación de fechas](functions/date-functions.md)
 
 ## Temas relacionados
 
@@ -310,12 +329,12 @@ Si la condición coincide con un día festivo, añada una actividad Wait para re
 
 Aprenda a enviar correos electrónicos solo entre semana con Adobe Journey Optimizer. Este vídeo muestra la implementación paso a paso de actividades de condición y fórmulas de Espera para poner en cola las entradas de fin de semana para la entrega del lunes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469383?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## Recursos adicionales
 
 * [Documentación del editor de expresiones](expression/expressionadvanced.md) - Generar y validar expresiones de recorrido
 * [Guía del diseñador de Recorrido](using-the-journey-designer.md) - Dominar el lienzo de recorrido
 * [Información general sobre casos de uso de Recorrido](jo-use-cases.md): Explore más patrones y ejemplos de recorrido
-* [Publicación de blog de la comunidad: cómo enviar correos electrónicos solo entre semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=es){target="_blank"} - Publicación de blog original con ejemplos detallados
+* [Publicación de blog de la comunidad: cómo enviar correos electrónicos solo entre semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Publicación de blog original con ejemplos detallados
 
