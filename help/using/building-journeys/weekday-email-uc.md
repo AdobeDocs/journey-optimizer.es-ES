@@ -336,5 +336,5 @@ Aprenda a enviar correos electrónicos solo entre semana con Adobe Journey Optim
 * [Documentación del editor de expresiones](expression/expressionadvanced.md) - Generar y validar expresiones de recorrido
 * [Guía del diseñador de Recorrido](using-the-journey-designer.md) - Dominar el lienzo de recorrido
 * [Información general sobre casos de uso de Recorrido](jo-use-cases.md): Explore más patrones y ejemplos de recorrido
-* [Publicación de blog de la comunidad: cómo enviar correos electrónicos solo entre semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Publicación de blog original con ejemplos detallados
+* [Publicación de blog de la comunidad: cómo enviar correos electrónicos solo entre semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=es){target="_blank"} - Publicación de blog original con ejemplos detallados
 
