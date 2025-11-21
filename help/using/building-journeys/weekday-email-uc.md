@@ -11,9 +11,9 @@ keywords: recorrido, caso de uso, días de la semana, condición, correo electr�
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 4b7d406e39328571a157b2d4c7b17f2adba77cdf
+source-git-commit: f8b594a14a1f89f77aa560a4de2b99189046af4f
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1849'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,9 @@ Justo después del inicio del recorrido, agrega una actividad **[!UICONTROL Cond
 
 1. En la sección **[!UICONTROL Tipo de condición]**, seleccione **[!UICONTROL Condición de Source de datos]**. [Más información sobre los tipos de condición](condition-activity.md#data_source_condition)
 
+   ![Configuración de la condición Saturday en el editor de expresiones](assets/weekday-email-uc-condition-expression.png)
+
+
 ### Paso 3: Configurar la condición para identificar el sábado
 
 Cree la primera ruta de condición para identificar las entradas del sábado.
@@ -81,7 +84,6 @@ Cree la primera ruta de condición para identificar las entradas del sábado.
 
    Utiliza la función `dayOfWeek()` con `now()` para obtener el día actual. [Más información sobre las funciones de fecha](functions/date-functions.md)
 
-   ![Configuración de la condición Saturday en el editor de expresiones](assets/weekday-email-uc-condition-expression.png)
 
 1. Haga clic en **[!UICONTROL Aceptar]** para guardar la condición.
 
@@ -103,17 +105,6 @@ Cree la primera ruta de condición para identificar las entradas del sábado.
 
 1. Marque **[!UICONTROL Mostrar ruta de acceso para otros casos que no sean los anteriores]** para crear una ruta de acceso para las entradas de días laborables (de lunes a viernes).
 
-**Valores de día de la semana:**
-
-| Valor | Day |
-|-------|-----|
-| 1 | Domingo |
-| 2 | Lunes |
-| 3 | Martes |
-| 4 | Miércoles |
-| 5 | Jueves |
-| 6 | Viernes |
-| 7 | Sábado |
 
 >[!NOTE]
 >
@@ -123,7 +114,6 @@ Cree la primera ruta de condición para identificar las entradas del sábado.
 
 Para los perfiles que introducen datos el sábado o el domingo, utilice Actividades de espera con fórmulas personalizadas para retrasar el correo electrónico hasta el lunes a la hora deseada.
 
-![Recorrido con tres rutas de condición: sábado, domingo y días laborables](assets/weekday-email-uc-paths.png)
 
 **Para la ruta de acceso del sábado:**
 
@@ -144,6 +134,8 @@ Para los perfiles que introducen datos el sábado o el domingo, utilice Activida
    ```javascript
    setHours(nowWithDelta(2, "days"), 9)
    ```
+
+   ![Recorrido con tres rutas de condición: sábado, domingo y días laborables](assets/weekday-email-uc-paths.png)
 
    **Explicación**: Esta fórmula calcula el tiempo de espera de sábado a lunes a las 9 a. m. El valor X=2 representa 2 días hacia delante (sábado + 2 días = lunes). [Más información sobre las funciones de fecha](functions/date-functions.md#nowWithDelta)
 
@@ -316,7 +308,7 @@ Si la condición coincide con un día festivo, añada una actividad Wait para re
 
 Aprenda a enviar correos electrónicos solo entre semana con Adobe Journey Optimizer. Este vídeo muestra la implementación paso a paso de actividades de condición y fórmulas de Espera para poner en cola las entradas de fin de semana para la entrega del lunes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469383?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## Recursos adicionales
 
@@ -325,5 +317,5 @@ Aprenda a enviar correos electrónicos solo entre semana con Adobe Journey Optim
 | [Documentación del editor de expresiones](expression/expressionadvanced.md) | Generar y validar expresiones de recorrido |
 | [guía de diseñador de Recorrido](using-the-journey-designer.md) | Dominar el lienzo de recorrido |
 | [información general sobre casos de uso de Recorrido](jo-use-cases.md) | Explore más patrones de recorrido y ejemplos |
-| [Publicación de blog de la comunidad: cómo enviar correos electrónicos solo los días laborables](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=es){target="_blank"} | Publicación de blog original con ejemplos detallados |
+| [Publicación de blog de la comunidad: cómo enviar correos electrónicos solo los días laborables](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} | Publicación de blog original con ejemplos detallados |
 
