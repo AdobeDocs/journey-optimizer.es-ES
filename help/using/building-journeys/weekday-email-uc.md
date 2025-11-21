@@ -329,7 +329,7 @@ Para excluir los días festivos del envío de correo electrónico:
 
 Aprenda a enviar correos electrónicos solo entre semana con Adobe Journey Optimizer. Este vídeo muestra la implementación paso a paso de actividades de condición y fórmulas de Espera para poner en cola las entradas de fin de semana para la entrega del lunes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469383?captions=spa&quality=12&learn=on)
 
 ## Recursos adicionales
 
