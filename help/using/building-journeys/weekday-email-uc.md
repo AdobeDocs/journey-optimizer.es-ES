@@ -8,12 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: recorrido, caso de uso, días de la semana, condición, correo electrónico, programación
-version: Journey Optimizer
+version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: c8d5160b473faac873b765fc5daead935a83760d
+source-git-commit: f688244bbf91d2ab9acbdc1742f180ce14b48179
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1867'
 ht-degree: 0%
 
 ---
@@ -193,7 +193,7 @@ Para la ruta de acceso **Día de la semana** (de lunes a viernes):
    * Configurar los [parámetros de correo electrónico](../email/email-settings.md)
    * Configure [personalización](../personalization/personalize.md) según sea necesario
 
-1. Agregue una actividad **[!UICONTROL End]** después del correo electrónico. [Más información sobre las actividades finales](end-activity.md)
+1. Agregue una actividad **[!UICONTROL End]** después del correo electrónico.
 
 ### Paso 6: Combinar las rutas de fin de semana con el correo electrónico
 
@@ -343,12 +343,12 @@ Si la condición coincide con un día festivo, añada una actividad Wait para re
 
 Aprenda a enviar correos electrónicos solo entre semana con Adobe Journey Optimizer. Este vídeo muestra la implementación paso a paso de actividades de condición y fórmulas de Espera para poner en cola las entradas de fin de semana para la entrega del lunes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469383?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## Recursos adicionales
 
 * [Documentación del editor de expresiones](expression/expressionadvanced.md) - Generar y validar expresiones de recorrido
 * [Guía del diseñador de Recorrido](using-the-journey-designer.md) - Dominar el lienzo de recorrido
 * [Información general sobre casos de uso de Recorrido](jo-use-cases.md): Explore más patrones y ejemplos de recorrido
-* [Publicación de blog de la comunidad: cómo enviar correos electrónicos solo entre semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=es){target="_blank"} - Publicación de blog original con ejemplos detallados
+* [Publicación de blog de la comunidad: cómo enviar correos electrónicos solo entre semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Publicación de blog original con ejemplos detallados
 
