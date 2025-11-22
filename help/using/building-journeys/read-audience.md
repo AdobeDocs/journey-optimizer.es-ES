@@ -327,7 +327,7 @@ Si observa discrepancias entre los recuentos de audiencia estimados, los perfile
 
 * **Comprobar el estado del trabajo de segmentación**: supervise los tiempos de finalización del trabajo de segmentación por lotes en el [panel de monitorización](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=es){target="_blank"} de Adobe Experience Platform para comprobar cuándo los datos de audiencia están listos.
 
-* **Verificar políticas de combinación**: Asegúrese de que la política de combinación configurada para su audiencia coincida con el comportamiento esperado para combinar datos de perfil de diferentes fuentes. Más información acerca de [políticas de combinación en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}.
+* **Verificar políticas de combinación**: Asegúrese de que la política de combinación configurada para su audiencia coincida con el comportamiento esperado para combinar datos de perfil de diferentes fuentes. Más información acerca de [políticas de combinación en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=es){target="_blank"}.
 
 * **Revisar definiciones de segmentos**: Confirme que las definiciones de segmentos están configuradas correctamente e incluyan todos los criterios de calificación esperados. Más información sobre [cómo generar audiencias](../audience/creating-a-segment-definition.md). Preste especial atención a:
    * Condiciones basadas en el tiempo que pueden excluir perfiles basados en marcas de tiempo de eventos
