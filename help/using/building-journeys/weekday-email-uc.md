@@ -11,9 +11,9 @@ keywords: recorrido, caso de uso, días de la semana, condición, correo electr�
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: eee9a460fc443be29c1ef407a02c5645869ca11d
+source-git-commit: 9b3c9f7c0327c8c3c3d2b7f1b4255b7e1457a51e
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Este método es ideal para campañas de correo electrónico de empresa a empresa
 
 Justo después del inicio del recorrido, agrega una actividad **[!UICONTROL Condición]** para comprobar si el día actual es sábado o domingo. Esto bifurcará el flujo de trabajo en consecuencia.
 
-1. Arrastre y suelte una actividad [**[!UICONTROL Condition &#x200B;]**](condition-activity.md) en el lienzo después del punto de entrada.
+1. Arrastre y suelte una actividad [**[!UICONTROL Condition ]**](condition-activity.md) en el lienzo después del punto de entrada.
 
 1. Haga clic en la actividad **[!UICONTROL Condición]** para abrir su panel de configuración.
 
@@ -185,9 +185,9 @@ Una vez finalizada la prueba:
 
 ## Temas relacionados
 
-* Aprenda a crear diferentes rutas en su recorrido con [Actividades de condición](condition-activity.md)
-* Guía detallada sobre [uso de condiciones en un recorrido](conditions.md)
-* Configurar duraciones y fórmulas de espera con la [actividad de espera](wait-activity.md)
-* Referencia completa para [funciones de fecha](functions/date-functions.md)
-* Generar expresiones complejas con el [Editor de expresiones](expression/expressionadvanced.md)
-* Enfoques recomendados para [diseño de recorrido y prácticas recomendadas](journey-gs.md#best-practices)
+* [Actividades de condición](condition-activity.md): aprenda a crear diferentes rutas en su recorrido
+* [Condiciones de uso en un recorrido](conditions.md): guía detallada sobre las condiciones de recorrido
+* [Actividad de espera](wait-activity.md) - Configurar duraciones y fórmulas de espera
+* [Funciones de fecha](functions/date-functions.md) - Referencia completa para funciones de fecha y hora
+* [Editor de expresiones](expression/expressionadvanced.md) - Generar expresiones complejas
+* [Prácticas recomendadas de Recorrido](journey-gs.md#best-practices) - Enfoques recomendados para el diseño de recorridos
