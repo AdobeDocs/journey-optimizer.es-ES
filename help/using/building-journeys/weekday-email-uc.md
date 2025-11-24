@@ -11,9 +11,9 @@ keywords: recorrido, caso de uso, días de la semana, condición, correo electr�
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: ad902c1055ea2e883c028172297aab878a898b94
+source-git-commit: c92e5bacdab179587b9cdec6bbde962a597b8de8
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ Este caso de uso muestra cómo configurar un recorrido en Adobe Journey Optimize
 Este método muestra cómo utilizar una actividad de condición para comprobar si el día actual es sábado o domingo, implementar actividades de espera con fórmulas personalizadas para entradas de fin de semana, poner en cola correos electrónicos de fin de semana para entregas de lunes a una hora específica y enviar correos electrónicos inmediatamente para entradas de día laborable (lunes a viernes).
 
 Este método es ideal para campañas de correo electrónico de empresa a empresa (B2B), boletines informativos y comunicaciones profesionales, anuncios relacionados con la empresa, actualizaciones de productos relacionadas con el trabajo y cualquier campaña de marketing en la que no se desee realizar la entrega los fines de semana.
-
-➡️ Vea el [tutorial en vídeo](#how-to-video) paso a paso
 
 >[!NOTE]
 >
@@ -55,21 +53,21 @@ Este método es ideal para campañas de correo electrónico de empresa a empresa
 
 ### Paso 2: Añadir una actividad de Condición para comprobar el día de la semana
 
-Justo después del inicio del recorrido, agregue una Condición para comprobar si el día actual es sábado o domingo. Esto bifurcará el flujo de trabajo en consecuencia.
+Justo después del inicio del recorrido, agrega una actividad **[!UICONTROL Condición]** para comprobar si el día actual es sábado o domingo. Esto bifurcará el flujo de trabajo en consecuencia.
 
 1. Arrastre y suelte una actividad **[!UICONTROL Condition]** en el lienzo después del punto de entrada. [Más información sobre las actividades de condición](condition-activity.md)
 
-1. Haga clic en la actividad Condición para abrir su panel de configuración.
+1. Haga clic en la actividad **[!UICONTROL Condición]** para abrir su panel de configuración.
 
 1. Seleccione **[!UICONTROL Condición de tiempo]** como tipo de condición.
 
-1. Seleccione **Día de la semana** como opción de filtrado de tiempo.
+1. Seleccione **[!UICONTROL Día de la semana]** como opción de filtrado de tiempo.
 
 1. Para la **primera ruta (sábado)**, seleccione solo **sábado**. Etiquete esta ruta como &quot;sábado&quot;.
 
 1. Haga clic en **[!UICONTROL Agregar una ruta]** para crear una segunda condición.
 
-1. Para la **segunda ruta (domingo)**, seleccione **Día de la semana** y elija **domingo** solamente. Etiquete esta ruta como &quot;Domingo&quot;.
+1. Para la **segunda ruta (domingo)**, seleccione **[!UICONTROL Día de la semana]** y elija **domingo** solamente. Etiquete esta ruta como &quot;Domingo&quot;.
 
    ![Configuración de las condiciones sábado y domingo en el editor de expresiones](assets/weekday-email-uc-condition-expression.png)
 
@@ -82,9 +80,9 @@ Justo después del inicio del recorrido, agregue una Condición para comprobar s
 
 ### Paso 3: Configurar actividades de espera para entradas de fin de semana
 
-Para los perfiles que introducen datos el sábado o el domingo, utilice Actividades de espera con fórmulas personalizadas para retrasar el correo electrónico hasta el lunes a la hora deseada.
+Para los perfiles que ingresan el sábado o el domingo, use las actividades **[!UICONTROL Wait]** con fórmulas personalizadas para retrasar el correo electrónico hasta el lunes a la hora deseada.
 
-En la actividad Wait, utilice la fórmula siguiente:
+En la actividad **[!UICONTROL Wait]**, use la fórmula siguiente:
 
 ```javascript
 toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))
@@ -132,22 +130,22 @@ Para implementar esto en el recorrido:
 
 Para los perfiles que entran de lunes a viernes, continúe con el paso de envío de correo electrónico como de costumbre.
 
-1. En la ruta de **día de la semana** (la ruta de &quot;otros casos&quot;), continúe directamente para agregar una actividad de acción **[!UICONTROL Correo electrónico]**. No se necesita ninguna actividad de espera para las entradas de días laborables.
+1. En la ruta de **día de la semana** (la ruta de &quot;otros casos&quot;), continúe directamente para agregar una actividad de acción **[!UICONTROL Correo electrónico]**. No se necesita ninguna actividad **[!UICONTROL Wait]** para las entradas entre semana.
 
 1. Configure su mensaje de correo electrónico según sea necesario.
 
 ### Paso 5: Completar el flujo de recorrido
 
-Después de las actividades de Espera en las rutas de sábado y domingo, las tres rutas (sábado, domingo y días de la semana) deben fluir a la misma actividad de acción de correo electrónico. Agregue una actividad **[!UICONTROL End]** después del correo electrónico.
+Después de las actividades **[!UICONTROL Wait]** en las rutas de sábado y domingo, las tres rutas (sábado, domingo y días de la semana) deben fluir a la misma actividad de acción **[!UICONTROL Email]**. Agregue una actividad **[!UICONTROL End]** después del correo electrónico.
 
 ### Introducción al flujo de trabajo visual
 
 El flujo de trabajo del recorrido completo sigue esta lógica:
 
-* **Inicio** → **Condición: ¿Es sábado o domingo?**
-   * **Sí (sábado):** Esperar hasta el lunes a las 9 AM → Enviar correo electrónico
-   * **Sí (domingo):** Esperar hasta el lunes a las 9 AM → Enviar correo electrónico
-   * **No (de lunes a viernes):** Enviar correo electrónico inmediatamente
+* **Inicio** → **[!UICONTROL Condición]**: ¿Es sábado o domingo?
+   * **Sí (sábado):** **[!UICONTROL Esperar]** hasta el lunes 9 a.m. → **[!UICONTROL Enviar correo electrónico]**
+   * **Sí (domingo):** **[!UICONTROL Esperar]** hasta el lunes 9 a.m. → **[!UICONTROL Enviar correo electrónico]**
+   * **No (de lunes a viernes):** **[!UICONTROL Enviar correo electrónico]** inmediatamente
 
 Esto garantiza que todos los correos electrónicos se envíen solo entre semana, con las entradas de fin de semana en cola automáticamente para la entrega del lunes.
 
@@ -193,5 +191,5 @@ Una vez finalizada la prueba:
 * [Funciones de fecha](functions/date-functions.md) - Referencia completa para funciones de fecha y hora
 * [Editor de expresiones](expression/expressionadvanced.md) - Generar expresiones complejas
 * [Prácticas recomendadas de Recorrido](journey-gs.md#best-practices) - Enfoques recomendados para el diseño de recorridos
-* [Publicación de blog de la comunidad: cómo enviar correos electrónicos solo entre semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=es){target="_blank"} - Publicación de blog original con ejemplos detallados
+* [Publicación de blog de la comunidad: cómo enviar correos electrónicos solo entre semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Publicación de blog original con ejemplos detallados
 
