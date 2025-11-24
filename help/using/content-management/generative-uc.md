@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
+source-git-commit: bacfe2e04898e8417308e3f1c889214547e3ea02
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 3%
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la campaña de correo electrónico. [Más información](../campaigns/review-activate-campaign.md)
 
-## Refinar variación
+## Refinar variación {#refine}
 
 ![Demostración animada del refinamiento de variaciones de contenido generado por IA utilizando las opciones Reexpresar y Resumir](assets/do-not-localize/gen-ai-variation.gif)
 
