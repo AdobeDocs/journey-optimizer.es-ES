@@ -191,5 +191,5 @@ Una vez finalizada la prueba:
 * [Funciones de fecha](functions/date-functions.md) - Referencia completa para funciones de fecha y hora
 * [Editor de expresiones](expression/expressionadvanced.md) - Generar expresiones complejas
 * [Prácticas recomendadas de Recorrido](journey-gs.md#best-practices) - Enfoques recomendados para el diseño de recorridos
-* [Publicación de blog de la comunidad: cómo enviar correos electrónicos solo entre semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Publicación de blog original con ejemplos detallados
+* [Publicación de blog de la comunidad: cómo enviar correos electrónicos solo entre semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=es){target="_blank"} - Publicación de blog original con ejemplos detallados
 
