@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 04a08f237e126e782355197b64239512e24b27da
+source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 100%
+source-wordcount: '1457'
+ht-degree: 98%
 
 ---
 
@@ -148,7 +148,7 @@ A continuación, se indican las nuevas funciones y mejoras publicadas en las úl
 <td>
 <p>Las horas tranquilas le permiten definir exclusiones basadas en el tiempo para los canales de correo electrónico, SMS, push y WhatsApp. Garantizan que no se envíen mensajes durante períodos de tiempo específicos, lo que le ayuda a respetar las preferencias de los clientes y los requisitos de cumplimiento.</p>
 <p>Puede aplicar horas tranquilas a través de conjuntos de reglas, que se pueden asignar a acciones individuales en campañas o recorridos para un control preciso.</p>
-<p>Ahora mismo, las horas tranquilas solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para que se añada a la lista de espera, póngase en contacto con su representante de Adobe.</p>
+<p>Actualmente, las reglas de horario silencioso solo están disponibles para un conjunto de organizaciones (disponibilidad limitada).  Estarán disponibles de forma progresiva para todos los clientes en futuras versiones.</p>
 <img src="assets/do-not-localize/quiet-hour.gif">
 <p>Para obtener más información, consulte la <a href="../conflict-prioritization/quiet-hours.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 22 de octubre de 2025</p>

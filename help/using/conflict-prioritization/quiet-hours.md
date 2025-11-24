@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: mensaje, frecuencia, reglas, presión
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 7%
+source-wordcount: '905'
+ht-degree: 4%
 
 ---
 
@@ -34,7 +34,7 @@ Al optimizar estos procesos, puede mejorar la experiencia del cliente, ahorrar t
 
 >[!AVAILABILITY]
 >
->Ahora mismo, las horas tranquilas solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para que se añada a la lista de espera, póngase en contacto con su representante de Adobe.
+>Actualmente, las reglas de horario silencioso solo están disponibles para un conjunto de organizaciones (disponibilidad limitada).  Estarán disponibles de forma progresiva para todos los clientes en futuras versiones.
 
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
@@ -187,4 +187,4 @@ Una vez que el recorrido o las campañas se hayan activado y ejecutado, puede ve
 
 Aprenda a utilizar la función de horario discreto en Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475855?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
