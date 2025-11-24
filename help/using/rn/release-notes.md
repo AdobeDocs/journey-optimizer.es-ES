@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
+source-git-commit: a18ccb6f7928250e9b3bc453971689bb378dac11
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1498'
 ht-degree: 98%
 
 ---
@@ -31,6 +31,23 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 A continuación, se indican las nuevas funciones y mejoras publicadas en las últimas semanas, con su fecha de disponibilidad. Se agrupan con el contenido de las notas de la próxima versión a finales de mes. Consulte también las [notas de la versión más recientes a continuación](#latest-rn).
 
 ### Nuevas funciones {#features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Nueva API para recuperar campañas de acción</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ya está disponible una nueva API de Journey Optimizer que le permite recuperar e inspeccionar mediante programación datos relacionados con la campaña, como detalles, versiones y configuraciones.</p>
+<p>Para obtener más información, consulte la <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: martes, 24 de noviembre de 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -212,23 +229,6 @@ A continuación, se indican las nuevas funciones y mejoras publicadas en las úl
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 <!--/td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>New API to retrieve Action Campaigns</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A new Journey Optimizer API is now available, enabling you to programmatically retrieve and inspect campaign-related data such as details, versions, and configurations.</p>
-<p>For more information, refer to the <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">detailed documentation</a>.</p>
-<p>Availability date: October 22, 2025</p>
-</td>
 </tr>
 </tbody>
 </table-->
