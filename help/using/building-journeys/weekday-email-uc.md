@@ -11,9 +11,9 @@ keywords: recorrido, caso de uso, días de la semana, condición, correo electr�
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: c92e5bacdab179587b9cdec6bbde962a597b8de8
+source-git-commit: eee9a460fc443be29c1ef407a02c5645869ca11d
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Este método es ideal para campañas de correo electrónico de empresa a empresa
 
 1. Vaya a **[!UICONTROL Administración de Recorrido]** > **[!UICONTROL Recorridos]** en Adobe Journey Optimizer.
 
-1. Haga clic en **[!UICONTROL Crear Recorrido]** para crear un recorrido nuevo. [Más información sobre cómo crear recorridos](journey-gs.md)
+1. Haga clic en **[!UICONTROL Crear Recorrido]** para [crear un nuevo recorrido](journey-gs.md).
 
 1. Configure las [propiedades de recorrido](journey-properties.md).
 
@@ -55,7 +55,7 @@ Este método es ideal para campañas de correo electrónico de empresa a empresa
 
 Justo después del inicio del recorrido, agrega una actividad **[!UICONTROL Condición]** para comprobar si el día actual es sábado o domingo. Esto bifurcará el flujo de trabajo en consecuencia.
 
-1. Arrastre y suelte una actividad **[!UICONTROL Condition]** en el lienzo después del punto de entrada. [Más información sobre las actividades de condición](condition-activity.md)
+1. Arrastre y suelte una actividad [**[!UICONTROL Condition ]**](condition-activity.md) en el lienzo después del punto de entrada.
 
 1. Haga clic en la actividad **[!UICONTROL Condición]** para abrir su panel de configuración.
 
@@ -76,7 +76,7 @@ Justo después del inicio del recorrido, agrega una actividad **[!UICONTROL Cond
 
 >[!NOTE]
 >
->La zona horaria utilizada para la evaluación del día de la semana se define en el nivel de recorrido en las propiedades del recorrido, no en el nivel de condición. La zona horaria del recorrido utilizada es la del recorrido, no la del destinatario. [Más información sobre la administración de huso horario](timezone-management.md).
+>La zona horaria utilizada para la evaluación del día de la semana se define en el nivel de recorrido en las propiedades del recorrido, no en el nivel de condición. La zona horaria [timezone](timezone-management.md) de recorrido que se usa es la del recorrido, no la del destinatario.
 
 ### Paso 3: Configurar actividades de espera para entradas de fin de semana
 
@@ -155,7 +155,7 @@ Antes de publicar, pruebe exhaustivamente la lógica de recorrido en el modo de 
 
 1. Haga clic en el botón **[!UICONTROL Probar]** en la esquina superior derecha.
 
-1. Active el modo de prueba. [Aprenda a probar su recorrido](testing-the-journey.md)
+1. Habilitar [modo de prueba](testing-the-journey.md).
 
 1. Crear [perfiles de prueba](../audience/creating-test-profiles.md) con horas de entrada simuladas en diferentes días de la semana:
    * **Entrada del sábado**: comprueba que el perfil sigue la ruta del sábado, espera y recibe correo electrónico el lunes a la hora especificada
@@ -164,13 +164,13 @@ Antes de publicar, pruebe exhaustivamente la lógica de recorrido en el modo de 
 
 1. Revise la visualización del recorrido para asegurarse de que los perfiles siguen las rutas condicionales correctas (sábado, domingo o día de la semana).
 
-1. Compruebe si hay errores o advertencias en el recorrido. [Obtenga información sobre la solución de problemas de recorridos](troubleshooting.md)
+1. Compruebe si hay [errores o advertencias](troubleshooting.md) en el recorrido.
 
 1. Compruebe que las fórmulas de Wait calculan la duración correcta para la hora de entrega del lunes deseada.
 
 >[!IMPORTANT]
 >
->Pruebe siempre la lógica de recorrido en el modo de prueba para asegurarse de que las actividades de Espera se comportan según lo esperado. Utilice el modo de prueba para simular diferentes escenarios de entrada y validar que las entradas de fin de semana estén correctamente en cola para la entrega del lunes. [Más información acerca de las prácticas recomendadas para las pruebas de recorrido](testing-the-journey.md)
+>Pruebe siempre la lógica de recorrido en el modo de prueba para asegurarse de que las actividades de Espera se comportan según lo esperado. Utilice el modo de prueba para simular diferentes escenarios de entrada y validar que las entradas de fin de semana estén correctamente en cola para la entrega del lunes. Consulte [Prácticas recomendadas de pruebas de recorrido](testing-the-journey.md) para obtener más información.
 
 ### Paso 7: Publicar el recorrido
 
@@ -178,18 +178,16 @@ Una vez finalizada la prueba:
 
 1. Haga clic en **[!UICONTROL Publicar]** en la esquina superior derecha.
 
-1. Confirme la publicación. [Más información acerca de la publicación de recorridos](publish-journey.md)
+1. Confirme la [publicación](publish-journey.md).
 
 1. Monitorice el rendimiento del recorrido usando [informes de Recorrido](report-journey.md) e [informes en vivo](../reports/journey-live-report.md).
 
 
 ## Temas relacionados
 
-* [Acerca de las actividades de condición](condition-activity.md): aprenda a crear diferentes rutas en su recorrido
-* [Condiciones de uso en un recorrido](conditions.md): guía detallada sobre las condiciones de recorrido
-* [Actividad de espera](wait-activity.md) - Configurar duraciones y fórmulas de espera
-* [Funciones de fecha](functions/date-functions.md) - Referencia completa para funciones de fecha y hora
-* [Editor de expresiones](expression/expressionadvanced.md) - Generar expresiones complejas
-* [Prácticas recomendadas de Recorrido](journey-gs.md#best-practices) - Enfoques recomendados para el diseño de recorridos
-* [Publicación de blog de la comunidad: cómo enviar correos electrónicos solo entre semana](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=es){target="_blank"} - Publicación de blog original con ejemplos detallados
-
+* Aprenda a crear diferentes rutas en su recorrido con [Actividades de condición](condition-activity.md)
+* Guía detallada sobre [uso de condiciones en un recorrido](conditions.md)
+* Configurar duraciones y fórmulas de espera con la [actividad de espera](wait-activity.md)
+* Referencia completa para [funciones de fecha](functions/date-functions.md)
+* Generar expresiones complejas con el [Editor de expresiones](expression/expressionadvanced.md)
+* Enfoques recomendados para [diseño de recorrido y prácticas recomendadas](journey-gs.md#best-practices)
