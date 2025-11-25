@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1921'
 ht-degree: 15%
 
 ---
@@ -74,10 +74,12 @@ Las acciones personalizadas solo admiten el formato JSON cuando se utilizan [sol
 
 Al elegir un extremo como destino mediante una acción personalizada, asegúrese de lo siguiente:
 
-* Este extremo puede admitir el rendimiento del recorrido mediante las configuraciones de la [API de límite](../configuration/throttling.md) o la [API de cierre](../configuration/capping.md) para limitarlo. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Cualquier punto de conexión objetivo deberá admitir al menos 200 TPS. Obtenga más información acerca de las tasas de procesamiento de recorridos en [esta sección](../building-journeys/entry-management.md#journey-processing-rate).
+* Este extremo puede admitir el rendimiento del recorrido mediante las configuraciones de la [API de límite](../configuration/throttling.md) o la [API de cierre](../configuration/capping.md) para limitarlo. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Cualquier punto de conexión objetivo deberá admitir al menos 200 TPS. Obtenga más información sobre las tasas de procesamiento de recorridos en [esta sección](../building-journeys/entry-management.md#journey-processing-rate).
 * Este extremo necesita tener un tiempo de respuesta lo más bajo posible. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
 
 Se define un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas. Además, el límite predeterminado se realiza por host y por zona protegida. Por ejemplo, en una zona protegida, si tiene dos extremos con el mismo host (por ejemplo, `https://www.adobe.com/endpoint1` y `https://www.adobe.com/endpoint2`), el límite se aplicará a todos los extremos del host adobe.com. &quot;endpoint1&quot; y &quot;endpoint2&quot; compartirán la misma configuración de límite y hacer que un extremo alcance el límite tendrá un impacto en el otro extremo.
+
+El límite predeterminado de 300 000 llamadas por minuto se aplica al nivel de dominio (es decir, example.com). Si necesita un límite más alto, consulte con el Soporte de Adobe con pruebas de uso y confirme el rendimiento de su punto final. Para solicitar un aumento del límite, proporcione detalles del volumen de llamadas y la capacidad del extremo esperados. Adobe puede personalizar el límite si las pruebas de capacidad demuestran que el extremo puede gestionar un mayor rendimiento. Para conocer las prácticas recomendadas, considere reducir la tasa de lectura de audiencia, reestructurar los recorridos o implementar actividades de espera para escalonar las llamadas salientes y evitar errores de límite.
 
 Este límite se ha establecido en función del uso del cliente para proteger los extremos externos dirigidos por acciones personalizadas. Debe tener esto en cuenta en los recorridos basados en públicos definiendo una tasa de lectura adecuada (5.000 perfiles/s cuando se utilizan acciones personalizadas). Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
 
@@ -157,7 +159,7 @@ Adobe Journey Optimizer es compatible con TLS 1.3 de forma predeterminada para a
 
 Puede utilizar Mutual Transport Layer Security (mTLS) para garantizar una seguridad mejorada en las conexiones salientes a acciones personalizadas de Adobe Journey Optimizer. mTLS es un método de seguridad de extremo a extremo para la autenticación mutua que garantiza que ambas partes que comparten información son quienes dicen ser antes de que se compartan los datos. mTLS incluye un paso adicional en comparación con TLS, en el que el servidor también solicita el certificado del cliente y lo verifica al final.
 
-La autenticación TLS mutua (mTLS) se admite en acciones personalizadas. No se requiere ninguna configuración adicional en la acción personalizada ni en el recorrido para activar mTLS; se produce automáticamente cuando se detecta un extremo habilitado para mTLS. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+La autenticación TLS mutua (mTLS) se admite en acciones personalizadas. No se requiere ninguna configuración adicional en la acción personalizada ni en el recorrido para activar mTLS; se produce automáticamente cuando se detecta un extremo habilitado para mTLS. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Definición de los parámetros de carga útil {#define-the-message-parameters}
 

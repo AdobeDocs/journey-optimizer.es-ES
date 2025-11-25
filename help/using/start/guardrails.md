@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 78cf16d0f62d6cb7fac82b9e8f89e8726e2db896
+source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
 workflow-type: tm+mt
-source-wordcount: '3075'
-ht-degree: 95%
+source-wordcount: '3086'
+ht-degree: 94%
 
 ---
 
@@ -178,7 +178,7 @@ Las siguientes limitaciones se aplican a las [versiones del recorrido](../start/
 
 Las siguientes limitaciones se aplican a las [Acciones personalizadas](../action/action.md) en sus recorridos:
 
-* Se define un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. Consulte [esta página](../action/about-custom-action-configuration.md). Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
+* Se define un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. El límite &quot;por host&quot; se aplica en el nivel de dominio (por ejemplo, example.com). Consulte [esta página](../action/about-custom-action-configuration.md). Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
 * La URL de acción personalizada no admite parámetros dinámicos.
 * Se admiten los métodos POST, PUT y llamada de GET
 * El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;
