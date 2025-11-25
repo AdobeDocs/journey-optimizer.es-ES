@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
 workflow-type: tm+mt
-source-wordcount: '5125'
+source-wordcount: '5226'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 A continuación, encontrará las preguntas más frecuentes sobre los Recorridos de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Conceptos generales
 
@@ -271,31 +271,36 @@ Más información sobre [configuración de eventos](../event/about-events.md) y 
 
 +++ ¿Puedo reenviar un mensaje si alguien no lo abre o hace clic en él?
 
-Sí. Use un **evento de reacción** con un **tiempo de espera**:
+Sí. Use un evento **[!UICONTROL Reaction]** con un **Timeout**:
 
-1. Después de enviar el mensaje, añada un evento de Reacción que escuche aperturas de correo electrónico o clics.
-2. Configure un periodo de tiempo de espera (por ejemplo, 3 días) en el evento Reacción
+1. Después de enviar el mensaje, agrega un evento **[!UICONTROL Reaction]** **inmediatamente** después de la acción del canal (sin ninguna actividad **[!UICONTROL Wait]** intermedia)
+2. Configure un tiempo de espera (por ejemplo, 3 días) en el evento **[!UICONTROL Reacción]** para detectar aperturas o clics en correos electrónicos
 3. Cree dos rutas:
    * **Si se abre o se hace clic**: Continúe con los pasos siguientes o finalice el recorrido
    * **Ruta de tiempo de espera (no abierta/pulsada)**: envía un correo electrónico de recordatorio con una línea de asunto diferente
 
 **Práctica recomendada**: Limite el número de reenvíos para evitar que aparezcan correos no deseados (normalmente, 1-2 recordatorios como máximo).
 
-Más información sobre [eventos de reacción](reaction-events.md).
+Más información sobre [Eventos de reacción](reaction-events.md).
 
 +++
 
 +++ ¿Cómo se crea un recorrido de abandono del carro de compras?
 
-Cree un recorrido activado por un evento mediante un Evento de reacción con un Tiempo de espera:
+Cree un recorrido activado por un evento mediante un evento **[!UICONTROL Reaction]** con un tiempo de espera:
 
 1. **Configurar un evento &quot;Abandonado del carro de compras&quot;**: Se activa cuando se agregan elementos, pero el cierre de compra no se completó dentro de un intervalo de tiempo
-2. **Agregar un evento de reacción**: configúrelo para escuchar un evento de compra
-3. **Establecer un tiempo de espera**: defina un tiempo de espera (por ejemplo, de 1 a 2 horas) en el evento Reacción para que el cliente tenga tiempo de completar de forma natural
-4. **Crear dos rutas**:
+2. **Enviar un mensaje inicial** (opcional): enviar correo electrónico reconociendo los elementos del carro de compras
+3. **Agregar un evento [!UICONTROL Reacción] inmediatamente después de la acción del canal**: configúrelo para que escuche un evento de compra
+4. **Establecer un tiempo de espera**: Defina un tiempo de espera (por ejemplo, de 1 a 2 horas) en el evento **[!UICONTROL Reacción]** para que el cliente tenga tiempo de completar de forma natural
+5. **Crear dos rutas**:
    * **Si se produce un evento de compra**: finalice el recorrido o continúe con el flujo posterior a la compra
    * **Ruta de tiempo de espera (sin compra)**: enviar un correo electrónico de recordatorio de abandono con el contenido del carro de compras
-5. **Opcional**: agrega otro evento de reacción con tiempo de espera (24 horas) y envía un segundo recordatorio con un incentivo (por ejemplo, 10% de descuento)
+6. **Opcional**: agrega otro evento **[!UICONTROL Reacción]** **inmediatamente después** del correo electrónico de recordatorio con tiempo de espera (24 horas) y envía un segundo recordatorio con un incentivo (por ejemplo, 10% de descuento)
+
+>[!IMPORTANT]
+>
+>Los eventos de **[!UICONTROL Reaction]** deben colocarse inmediatamente después de [las acciones del canal](journeys-message.md). No coloque actividades **[!UICONTROL Wait]** entre la acción del canal y la actividad **[!UICONTROL Reaction]**.
 
 Obtenga más información sobre [casos de uso de recorrido](jo-use-cases.md) y [eventos de reacción](reaction-events.md).
 
@@ -463,8 +468,9 @@ Razones comunes por las que los perfiles no pueden introducir un recorrido:
 * **Recorrido no publicado**: el recorrido está en estado de borrador
 * **Área de nombres no válida**: El área de nombres de recorrido no coincide con la identidad del perfil
 * **Recorrido cerrado**: El recorrido ya no acepta nuevas entradas
+* **Tiempo de calificación de audiencia de streaming**: En el caso de los recorridos que utilizan la calificación de audiencia con audiencias de streaming, es posible que los perfiles no entren si ya estaban en la audiencia antes de que se publicara el recorrido o si el recorrido no ha completado su período de activación (hasta 10 minutos después de la publicación)
 
-Más información sobre [administración de entradas](entry-management.md).
+Obtenga más información acerca de [administración de entradas](entry-management.md) y [consideraciones de tiempo para la calificación de audiencias de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 +++
 
