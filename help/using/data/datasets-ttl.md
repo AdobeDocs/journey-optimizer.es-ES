@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 4532db3f84cdf41d295050e85e721f65cb4f1f0e
+source-git-commit: d4729294a007a348e0233aa8a75bbe3b2999742a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 17%
+source-wordcount: '817'
+ht-degree: 15%
 
 ---
 
@@ -52,7 +52,7 @@ La siguiente tabla enumera todos los conjuntos de datos afectados y su respectiv
 
 A continuación, encontrará las preguntas más frecuentes sobre los conjuntos de datos y el tiempo de vida (TTL).
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++¿Este cambio se aplicará solo a las zonas protegidas de producción o también a las de desarrollo?
 
@@ -78,13 +78,13 @@ Actualmente no se admiten extensiones TTL. Sin embargo, se ha planificado trabaj
 
 >[!NOTE]
 >
->Los datos almacenados en el perfil están sujetos al derecho Volumen total de datos. Por lo tanto, cualquier aumento del almacenamiento de datos en el perfil como resultado de una extensión TTL se contaría con el derecho Volumen de datos total. [Más información](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=es){target=_blank}
+>Los datos almacenados en el perfil están sujetos al derecho Volumen total de datos. Por lo tanto, cualquier aumento del almacenamiento de datos en el perfil como resultado de una extensión TTL se contaría con el derecho Volumen de datos total. [Más información](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++¿Pueden los clientes aumentar el TTL para los datos del conjunto de datos del sistema [!DNL Journey Optimizer] en el lago de datos? 
 
-Actualmente no se admiten extensiones TTL. Los clientes pueden exportar datos a través de Destinos para conservar los datos durante más tiempo. [Más información](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=es){target=_blank}. Además, los clientes con un derecho de **[!DNL Data Distiller]** pueden crear conjuntos de datos derivados para almacenar los datos en el lago de datos sin un TTL. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+Actualmente no se admiten extensiones TTL. Los clientes pueden exportar datos a través de Destinos para conservar los datos durante más tiempo. [Más información](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}. Además, los clientes con un derecho de **[!DNL Data Distiller]** pueden crear conjuntos de datos derivados para almacenar los datos en el lago de datos sin un TTL. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -111,5 +111,17 @@ Actualmente no se admiten extensiones TTL. Los clientes pueden exportar datos a 
 +++¿Qué marca de tiempo se utiliza para la aplicación de TTL (por ejemplo, para casos de uso de relleno)? 
 
 Se utiliza la marca de tiempo del evento (es decir, no la fecha de ingesta).
+
++++
+
++++¿Puedo eliminar conjuntos de datos generados por el sistema de Journey Optimizer?
+
+Los conjuntos de datos generados por el sistema de Journey Optimizer están protegidos y no se pueden eliminar a través de la IU estándar de Adobe Experience Platform. Estos conjuntos de datos son esenciales para la funcionalidad de Journey Optimizer y los administra el sistema.
+
+Si necesita quitar permanentemente un conjunto de datos del sistema de Journey Optimizer (por ejemplo, para entornos de control de calidad, limpieza de zonas protegidas o requisitos específicos de higiene de los datos), póngase en contacto con el departamento de ingeniería de Adobe o con el Servicio de atención al cliente de Adobe. Estos conjuntos de datos requieren procedimientos backend especializados para garantizar una eliminación completa y segura.
+
+>[!NOTE]
+>
+>Para la limpieza rutinaria de datos dentro de estos conjuntos de datos del sistema, use las operaciones de **[!UICONTROL Ciclo de vida de datos]** disponibles a través de Privacy Service para eliminar registros o identidades específicos. [Más información](../privacy/data-hygiene.md)
 
 +++
