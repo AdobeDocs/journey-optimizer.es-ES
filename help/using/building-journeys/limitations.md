@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorridos, limitación
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 45%
+source-wordcount: '564'
+ht-degree: 46%
 
 ---
 
@@ -23,10 +23,11 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 
 ## Limitaciones generales de las acciones {#action-limitations}
 
-* No hay restricciones de envío. 
-* En caso de error, se realizan tres reintentos de forma sistemática. No puede ajustar el número de reintentos según el mensaje de error recibido. 
-* El evento **Reaction** integrado le permite reaccionar a las acciones listas para usar (consulte esta [página](../building-journeys/reaction-events.md)). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado. 
+* No hay restricciones de envío.
+* En caso de error, se realizan tres reintentos de forma sistemática. No puede ajustar el número de reintentos según el mensaje de error recibido.
+* El evento **Reaction** integrado le permite reaccionar a las acciones listas para usar (consulte esta [página](../building-journeys/reaction-events.md)). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado.
 * No puede colocar dos acciones en paralelo, debe agregarlas una tras otra.
+
 
 ## Limitaciones de versiones de recorrido {#journey-versions-limitations}
 
@@ -47,6 +48,10 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 ## Limitaciones de eventos {#events-limitations}
 
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido de cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
+
+## Limitaciones de eventos de reacción {#reaction-limitations}
+
+* Las actividades **[!UICONTROL Reaction]** deben colocarse inmediatamente después de una [actividad de acción del canal](../building-journeys/journeys-message.md) en el lienzo de recorrido. No se admite la colocación de una actividad **[!UICONTROL Wait]** o cualquier otra actividad entre la acción del canal y la actividad **[!UICONTROL Reaction]**, lo que puede provocar que la reacción no funcione según lo esperado. Obtenga más información en [esta sección](../building-journeys/reaction-events.md).
 
 ## Limitaciones de fuentes de datos {#data-sources-limitations}
 

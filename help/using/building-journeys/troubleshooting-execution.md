@@ -10,10 +10,10 @@ level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
+source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 23%
+source-wordcount: '1260'
+ht-degree: 20%
 
 ---
 
@@ -31,7 +31,7 @@ El punto de partida de un recorrido es siempre un evento. Puede hacer pruebas co
 
 Puede comprobar si la llamada API que envía a través de estas herramientas se envía correctamente o no. Si vuelve a recibir un error, significa que la llamada tiene un problema. Vuelva a comprobar la carga útil, el encabezado (y especialmente el ID de organización) y la dirección URL de destino. Puede preguntar a su administrador cuál es la dirección URL correcta para visitar.
 
-Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con el evento, puede consultar [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=es){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
+Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con el evento, puede consultar [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
 
 Si el recorrido no puede habilitar el modo de prueba con el error `ERR_MODEL_RULES_16`, asegúrese de que el evento usado incluya un [área de nombres de identidad](../audience/get-started-identity.md) al usar una acción de canal.
 
@@ -56,6 +56,10 @@ Puede comenzar la resolución de problemas con las preguntas siguientes:
   X-gw-ims-org-id - your organization's ID
   Content-type - application/json
   ```
+
+>[!NOTE]
+>
+>**Para recorridos de calificación de audiencia con audiencias de streaming**: Si usa una actividad de calificación de audiencia como punto de entrada de recorrido, tenga en cuenta que no todos los perfiles aptos para la audiencia entrarán necesariamente en la recorrido debido a factores de tiempo, salidas rápidas de la audiencia o si los perfiles ya estaban en la audiencia antes de la publicación. Más información sobre [consideraciones de tiempo para la calificación de audiencias de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ## Comprobar cómo navegan las personas por el recorrido {#checking-how-people-navigate-through-the-journey}
 
@@ -150,3 +154,13 @@ Si está creando informes o análisis basados en Eventos de pasos de Recorrido:
 * Tenga en cuenta que el análisis de tiempo puede mostrar entradas agrupadas con unos segundos de diferencia
 
 Para obtener más información sobre la consulta de eventos de paso de Recorrido, vea [Ejemplos de consultas](../reports/query-examples.md).
+
+## Solucionar discrepancias de métricas del panel {#dashboard-metrics}
+
+Si las métricas mostradas en el panel **Información general** no coinciden con el número real de recorridos en la pestaña **Examinar**, compruebe lo siguiente:
+
+* Asegúrese de que los recorridos en cuestión hayan tenido tráfico en las últimas 24 horas, ya que los recorridos sin actividad reciente se excluyen del panel.
+* Compruebe que dispone de los permisos de acceso adecuados para ver todos los recorridos de su organización.
+* Conceda un máximo de 30 minutos para que las métricas se actualicen después de realizar cambios en los recorridos.
+
+Si persisten las discrepancias, póngase en contacto con el Soporte técnico de Adobe con capturas de pantalla de las pestañas Información general y Examinar para investigar.
