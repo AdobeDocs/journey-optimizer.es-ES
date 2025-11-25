@@ -10,10 +10,10 @@ level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 486d742ea2b1e8e6eca9e434ff862da3d40fd7ec
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 18%
+source-wordcount: '1773'
+ht-degree: 17%
 
 ---
 
@@ -42,7 +42,7 @@ También puede utilizar una audiencia en una condición de recorrido. [Más info
 
 >[!NOTE]
 >
->La evaluación de condición fallará para los perfiles que incluyan más de dos identidades entre dispositivos en el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es#profile-data-store){target="_blank"}.
+>La evaluación de condición fallará para los perfiles que incluyan más de dos identidades entre dispositivos en el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Adición y administración de rutas de condición {#about_condition}
 
@@ -90,6 +90,14 @@ En el editor simple, también encontrará la categoría Propiedades del Recorrid
 Use una **[!UICONTROL condición de Data Source]** para definir una condición basada en los campos de las fuentes de datos o en los eventos previamente colocados en el recorrido. Este tipo de condición se define con el editor de expresiones. Aprenda a utilizar el editor de expresiones en [esta sección](expression/expressionadvanced.md).
 
 Por ejemplo, si va a segmentar una audiencia con atributos de enriquecimiento generados mediante un flujo de trabajo de composición o una carga personalizada (archivo CSV), puede aprovechar estos atributos de enriquecimiento para crear la condición.
+
+>[!IMPORTANT]
+>
+>**Administrar atributos que faltan o no se han ingerido**
+>
+>Si un campo de esquema está definido en el esquema de Perfil pero no se han introducido datos para ese campo, Journey Optimizer y el Perfil del cliente en tiempo real subyacente interpretan el campo como `null`. Como resultado, las condiciones que comprueban `isEmpty()`, `isNull()` o funciones similares se evaluarán como `true` aunque el atributo nunca se haya ingerido. Esto puede provocar un comportamiento de recorrido inesperado si no sabe que el campo no tiene datos.
+>
+>Para evitar confusiones, asegúrese de que los atributos que utiliza en expresiones de condición se hayan introducido con datos reales antes de que el perfil entre en el recorrido. Puede comprobar los valores de atributo en el [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"} para confirmar si existen datos para los campos utilizados en sus condiciones.
 
 Con el editor de expresiones avanzadas, puede configurar condiciones más avanzadas manipulando colecciones o utilizando fuentes de datos que requieran el paso de parámetros. [Más información](../datasource/external-data-sources.md).
 
@@ -180,4 +188,4 @@ Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
 
    >[!NOTE]
    >
-   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
