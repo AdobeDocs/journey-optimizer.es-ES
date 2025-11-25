@@ -8,20 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 493f72a9d49974830d8d29b0c19046adfd9724a6
-workflow-type: ht
-source-wordcount: '940'
+source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
+workflow-type: tm+mt
+source-wordcount: '919'
 ht-degree: 100%
 
 ---
 
 # Introducción al Asistente de IA {#gs-content-assistant}
-
->[!CONTEXTUALHELP]
->id="ajo_ai_assistant_prompt"
->title="Ejemplos de indicaciones"
->abstract="Explore la siguiente documentación de Journey Optimizer para aprender a crear indicaciones eficaces que produzcan contenido de marketing de alta conversión y coherente con la marca."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
