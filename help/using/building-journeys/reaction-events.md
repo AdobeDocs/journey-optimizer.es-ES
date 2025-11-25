@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, eventos, reaction, seguimiento, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
+source-git-commit: d8fa1c7055e4e31e393e36ba16863e0f8f95ca9b
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 17%
+source-wordcount: '504'
+ht-degree: 16%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 17%
 
 Entre las diferentes actividades de eventos disponibles en la paleta, se encuentra el evento **[!UICONTROL Reactions]** integrado. Esta actividad permite reaccionar ante los datos de seguimiento relacionados con un mensaje enviado dentro del mismo recorrido. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform.
 
-Puede reaccionar a los mensajes en los que se hace clic o que se abren.
+Puede reaccionar a los mensajes en los que se hace clic o que se abren. Por ejemplo, puede enviar otro mensaje si una persona ha abierto el correo electrónico anterior o ha hecho clic dentro de él, o enviar un mensaje de seguimiento diferente si no ha interactuado con la comunicación.
 
 Ver [actividades de acción](../building-journeys/about-journey-activities.md#action-activities).
 
