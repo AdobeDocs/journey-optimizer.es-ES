@@ -10,10 +10,10 @@ level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 17%
+source-wordcount: '732'
+ht-degree: 15%
 
 ---
 
@@ -90,6 +90,15 @@ Una práctica recomendada es utilizar fechas personalizadas específicas para lo
 >
 >Se espera la **zona horaria** en las propiedades del recorrido. Como resultado, desde la interfaz de usuario, no es posible señalar directamente una marca de tiempo ISO-8601 completa que mezcle la hora y el desplazamiento de zona horaria como 2023-08-12T09:46:06.982-05. [Más información](../building-journeys/timezone-management.md).
 
+>[!CAUTION]
+>
+>Al crear una expresión de espera personalizada con `toDateTimeOnly()`, evite anexar &quot;Z&quot; o cualquier desplazamiento de zona horaria (por ejemplo, &quot;-05:00&quot;) en el resultado de la expresión. La expresión debe utilizar una sintaxis de fecha y hora ISO válida que haga referencia a la zona horaria configurada del recorrido sin designadores de zona horaria explícitos.
+>
+>**Ejemplo correcto:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
+>
+>**Ejemplo incorrecto:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contiene &quot;Z&quot;)
+>
+>El uso de designadores de zona horaria no admitidos puede hacer que los perfiles permanezcan atascados en la actividad de espera en lugar de avanzar según lo esperado.
 
 Para validar que la actividad de espera funciona según lo esperado, puede utilizar eventos de paso. [Más información](../reports/query-examples.md#common-queries).
 
