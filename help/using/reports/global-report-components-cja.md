@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2162'
 ht-degree: 1%
 
 ---
@@ -132,7 +132,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
   </tr> 
   <tr> 
    <td> Enviar exclusiones<br/> </td> 
-   <td> Número de perfiles que Adobe Journey Optimizer ha excluido.<br/> </td> 
+   <td> Número de perfiles que Adobe Journey Optimizer ha excluido. <a href="exclusion-list.md">Más información sobre cómo se cuentan las exclusiones</a>.<br/> </td> 
   </tr>
   <tr> 
    <td> Nombre de ubicación<br/> </td> 
@@ -193,7 +193,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
   </tr>
   <tr> 
    <td> Exclusiones de envío únicas<br/> </td> 
-   <td>Número de perfiles únicos excluidos de la recepción de mensajes debido a reglas de idoneidad, segmentación de audiencia o estado del perfil.<br/> </td> 
+   <td>Número de perfiles únicos excluidos de la recepción de mensajes debido a reglas de aceptación, segmentación de audiencia o estado del perfil. <a href="exclusion-list.md">Más información sobre cómo se cuentan las exclusiones</a>.<br/> </td> 
   </tr>
   <tr> 
    <td>Destino único<br/> </td> 
@@ -234,7 +234,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
     </tr>
     <tr> 
       <td>Exclusiones de SMS salientes</td> 
-      <td>Número de perfiles que Adobe Journey Optimizer excluyó de la recepción de mensajes SMS.</td> 
+      <td>Número de perfiles que Adobe Journey Optimizer excluyó de la recepción de mensajes SMS. <a href="exclusion-list.md">Más información sobre cómo se cuentan las exclusiones</a>.</td> 
     </tr>
     <tr> 
       <td>Clics únicos</td> 
@@ -548,7 +548,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
 </tr>
 <tr> 
    <td>Exclusiones salientes<br/> </td> 
-   <td>Número de perfiles excluidos de la recepción de correo postal debido a criterios predefinidos o al filtrado por Adobe Journey Optimizer.<br/> </td> 
+   <td>Número de perfiles excluidos de la recepción de correo postal debido a criterios predefinidos o al filtrado por Adobe Journey Optimizer. <a href="exclusion-list.md">Más información sobre cómo se cuentan las exclusiones</a>.<br/> </td> 
 </tr>
 <tr> 
    <td>Perfiles<br/> </td> 

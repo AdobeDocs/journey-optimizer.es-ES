@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ Tenga en cuenta que las métricas variarán en función de los canales utilizado
 
 * **[!UICONTROL Errores salientes]**: Número total de errores que se produjeron durante el proceso de envío para evitar que se enviara a los perfiles.
 
-* **[!UICONTROL Exclusiones salientes]**: número de perfiles que han sido excluidos por Adobe Journey Optimizer.
+* **[!UICONTROL Exclusiones salientes]**: número de perfiles que han sido excluidos por Adobe Journey Optimizer. [Más información sobre cómo se cuentan las exclusiones](exclusion-list.md#exclusion-list).
 
 * **[!UICONTROL Pantallas]**: Número de veces que se abrió el mensaje.
 

@@ -2,20 +2,41 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Lista de exclusiones
-description: Obtenga más información acerca de las exclusiones que se producen durante el envío
+description: Obtenga más información sobre las exclusiones que se producen durante el envío
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 9%
+source-wordcount: '830'
+ht-degree: 8%
 
 ---
 
 # Motivos de exclusión {#exclusion-list}
+
+## Cómo se cuentan las exclusiones en los informes de campaña
+
+Cuando visualice informes de campaña, tenga en cuenta que la métrica *Exclusions* se calcula de la siguiente manera:
+
+**Exclusiones = Exclusiones únicas + Eventos de exclusión duplicados**
+
+Esto significa que si un perfil se excluye varias veces (por ejemplo, debido a varios eventos de exclusión para el mismo perfil), cada evento se cuenta en el total de Exclusiones. Como resultado, la suma de *Delivered* y *Exclusions* puede superar el tamaño de audiencia de destino original. Este comportamiento es predecible y refleja la forma en que se rastrean los eventos de exclusión en el sistema.
+
+**Ejemplo:**
+
+- Destinatarios objetivo: 94 000 perfiles
+- Entregado: 69.000
+- Exclusiones: 37 000 (incluye eventos de exclusión duplicados)
+- Total (Entregados + Exclusiones): 106 000
+
+El total supera la audiencia de destino porque en el recuento de exclusiones se incluyen eventos de exclusión duplicados.
+
+Para obtener más información sobre los motivos de exclusión específicos, consulte la siguiente tabla.
+
+## Lista de motivos de exclusión
 
 | Razón de exclusión | Código de error | Canal | Explicación |
 |-|-|-|-|
