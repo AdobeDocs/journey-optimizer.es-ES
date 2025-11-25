@@ -9,7 +9,7 @@ level: Experienced
 keywords: esquemas, plataforma, datos, estructura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Existen dos tipos de esquemas en Adobe Experience Platform:
 
 Obtenga información sobre cómo crear un esquema estándar, añadir grupos de campos, crear y configurar grupos de campos personalizados.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416869?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >
