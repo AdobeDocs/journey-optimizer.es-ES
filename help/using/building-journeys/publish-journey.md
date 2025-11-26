@@ -10,10 +10,10 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 40%
+source-wordcount: '690'
+ht-degree: 36%
 
 ---
 
@@ -47,6 +47,8 @@ Cuando se detiene un recorrido, se detiene permanentemente. Todos los individuos
 >[!IMPORTANT]
 >
 >Si se realizan cambios en una decisión de oferta utilizada en un mensaje de recorrido, se debe cancelar la publicación del recorrido y volver a publicarlo. Esto garantiza que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.
+>
+>Se puede acceder a las imágenes o Assets en el contenido enviado durante un máximo de 2 años (730 días) desde su primera publicación en cualquier fragmento o mensaje en línea. Se requiere volver a publicar después de este período de caducidad (en cualquier momento después de 730 días) para mantenerlos accesibles durante otros 2 años. Cualquier republicación realizada dentro de los 730 días posteriores a la primera publicación no extenderá la caducidad de los activos/imágenes a los próximos 730 días.
 
 ## Versiones de recorridos {#journey-versions}
 
@@ -88,4 +90,4 @@ Cuando se publica una nueva versión de un recorrido, la versión anterior final
 
 Obtenga información sobre cómo publicar un recorrido en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427933?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

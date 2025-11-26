@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
+source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 14%
+source-wordcount: '1775'
+ht-degree: 13%
 
 ---
 
@@ -128,6 +128,10 @@ En Adobe Journey Optimizer, cada campaña se desplaza por un ciclo de vida que s
 Cuando se produce un error en una de las campañas, aparece un icono de advertencia junto al estado de la campaña. Haga clic en ella para mostrar información sobre la alerta. Estas alertas pueden producirse en varias situaciones, como cuando el mensaje de la campaña no se ha publicado o si la configuración elegida es incorrecta.
 
 ![](assets/campaign-alerts.png)
+
+>[!NOTE]
+>
+>Se puede acceder a las imágenes o Assets en el contenido enviado durante un máximo de 2 años (730 días) desde su primera publicación en cualquier fragmento o mensaje en línea. Se requiere volver a publicar después de este período de caducidad (en cualquier momento después de 730 días) para mantenerlos accesibles durante otros 2 años. Cualquier republicación realizada dentro de los 730 días posteriores a la primera publicación no extenderá la caducidad de los activos/imágenes a los próximos 730 días.
 
 ## Calendario de campañas {#calendar}
 

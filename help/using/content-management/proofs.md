@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
+source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 16%
+source-wordcount: '355'
+ht-degree: 13%
 
 ---
 
@@ -51,3 +51,5 @@ Se recomienda enviar pruebas después de cada modificación al contenido del men
 >[!NOTE]
 >
 >En la prueba enviada, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
+>
+>Se puede acceder a las imágenes o Assets en el contenido enviado o de prueba durante un máximo de 2 años (730 días) desde su primera publicación en cualquier fragmento o mensaje en línea. Se requiere volver a publicar después de este período de caducidad (en cualquier momento después de 730 días) para mantenerlos accesibles durante otros 2 años. Cualquier republicación realizada dentro de los 730 días posteriores a la primera publicación no extenderá la caducidad de los activos/imágenes a los próximos 730 días.
