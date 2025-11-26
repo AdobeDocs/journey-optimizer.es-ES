@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
 workflow-type: tm+mt
-source-wordcount: '3131'
-ht-degree: 93%
+source-wordcount: '3233'
+ht-degree: 89%
 
 ---
 
@@ -88,15 +88,21 @@ Las siguientes limitaciones se aplican a la actividad [canal de SMS](../sms/get-
 
 ### Mecanismos de protección de canal de entrada {#inbound-guardrails}
 
+Para utilizar las acciones de [experiencia basada en código](../code-based/get-started-code-based.md) en [!DNL Journey Optimizer]y entregar carga útil de contenido de código que pueda ser utilizada por sus aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
+
+Para poder obtener acceso a [páginas web](../web/get-started-web.md) y crearlas en la interfaz de usuario de [!DNL Journey Optimizer], siga los requisitos previos enumerados en [esta página](../web/web-prerequisites.md).
+
+Para enviar mensajes en la aplicación en sus recorridos y campañas con [!DNL Journey Optimizer], siga los requisitos previos de entrega que se enumeran en [esta página](../in-app/inapp-configuration.md).
+
+Para que Adobe Journey Optimizer muestre correctamente las tarjetas de contenido, debe establecer la configuración de Adobe Experience Platform que aparece en [esta página](../content-card/content-card-configuration-prereq.md).
+
 * Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido entrantes por segundo. Este mecanismo de protección se aplica a todas las solicitudes entrantes, que pueden proceder de cualquiera de los canales entrantes admitidos por Journey Optimizer ([web](../web/get-started-web.md), [en la aplicación](../in-app/get-started-in-app.md), [experiencias basadas en código](../code-based/get-started-code-based.md), [tarjetas de contenido](../../rp_landing_pages/content-card-landing-page.md)).
 
-  Los canales de entrada de Journey Optimizer se dirigen a nuevos perfiles que quizá no hayan interactuado antes en otros canales. Esto aumentará el recuento total de perfiles con los que es posible interactuar, lo que puede tener costes si se supera el número contractual de perfiles adquiridos. 
+* Los canales de entrada de Journey Optimizer se dirigen a nuevos perfiles que quizá no hayan interactuado antes en otros canales. Esto aumenta el recuento total de perfiles atractivos, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles atractivos que ha adquirido. Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-  Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+  Para mantener los perfiles atractivos dentro de límites razonables, Adobe recomienda establecer un tiempo de vida (TTL) de 14 días para eliminar automáticamente los perfiles seudónimos en el Hub si no se han visto o no se han involucrado en este intervalo de tiempo. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
 
 * Journey Optimizer admite un máximo de 500 acciones entrantes activas en cualquier momento. Estas acciones entrantes ([web](../web/get-started-web.md), [en la aplicación](../in-app/get-started-in-app.md), [experiencias basadas en código](../code-based/get-started-code-based.md), [tarjetas de contenido](../../rp_landing_pages/content-card-landing-page.md)) se cuentan si son parte de una campaña activa o si son un nodo usado en un recorrido activo. Una vez alcanzado este número, debe desactivar las campañas o recorridos más antiguos que utilicen acciones entrantes antes de poder iniciar nuevas.
-
-* Para utilizar las acciones de [experiencia basada en código](../code-based/get-started-code-based.md) en [!DNL Journey Optimizer]y entregar carga útil de contenido de código que pueda ser utilizada por sus aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
 
 ### Mecanismos de protección de mensajes transaccionales {#transactional-message-guardrails}
 
