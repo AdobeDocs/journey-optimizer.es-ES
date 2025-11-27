@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
 workflow-type: tm+mt
-source-wordcount: '3331'
-ht-degree: 86%
+source-wordcount: '3324'
+ht-degree: 85%
 
 ---
 
@@ -88,17 +88,17 @@ Las siguientes limitaciones se aplican a la actividad [canal de SMS](../sms/get-
 
 ### Mecanismos de protección de canal de entrada {#inbound-guardrails}
 
-Para utilizar las acciones de [experiencia basada en código](../code-based/get-started-code-based.md) en [!DNL Journey Optimizer]y entregar carga útil de contenido de código que pueda ser utilizada por sus aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
+* Para utilizar las acciones de [experiencia basada en código](../code-based/get-started-code-based.md) en [!DNL Journey Optimizer]y entregar carga útil de contenido de código que pueda ser utilizada por sus aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
 
-Para poder obtener acceso a [páginas web](../web/get-started-web.md) y crearlas en la interfaz de usuario de [!DNL Journey Optimizer], siga los requisitos previos enumerados en [esta página](../web/web-prerequisites.md).
+* Para poder obtener acceso a [páginas web](../web/get-started-web.md) y crearlas en la interfaz de usuario de [!DNL Journey Optimizer], siga los requisitos previos enumerados en [esta página](../web/web-prerequisites.md).
 
-Para enviar mensajes en la aplicación en sus recorridos y campañas con [!DNL Journey Optimizer], siga los requisitos previos de entrega que se enumeran en [esta página](../in-app/inapp-configuration.md).
+* Para enviar mensajes en la aplicación en sus recorridos y campañas con [!DNL Journey Optimizer], siga los requisitos previos de entrega que se enumeran en [esta página](../in-app/inapp-configuration.md).
 
-Para que Adobe Journey Optimizer muestre correctamente las tarjetas de contenido, debe establecer la configuración de Adobe Experience Platform que aparece en [esta página](../content-card/content-card-configuration-prereq.md).
+* Para que Adobe Journey Optimizer muestre correctamente las tarjetas de contenido, debe establecer la configuración de Adobe Experience Platform que aparece en [esta página](../content-card/content-card-configuration-prereq.md).
 
 * Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido entrantes por segundo. Este mecanismo de protección se aplica a todas las solicitudes entrantes, que pueden proceder de cualquiera de los canales entrantes admitidos por Journey Optimizer ([web](../web/get-started-web.md), [en la aplicación](../in-app/get-started-in-app.md), [experiencias basadas en código](../code-based/get-started-code-based.md), [tarjetas de contenido](../../rp_landing_pages/content-card-landing-page.md)).
 
-* Journey Optimizer admite un máximo de 500 acciones entrantes activas en cualquier momento. Estas acciones entrantes ([web](../web/get-started-web.md), [en la aplicación](../in-app/get-started-in-app.md), [experiencias basadas en código](../code-based/get-started-code-based.md), [tarjetas de contenido](../../rp_landing_pages/content-card-landing-page.md)) se cuentan si son parte de una campaña activa o si son un nodo usado en un recorrido activo. Una vez alcanzado este número, debe desactivar las campañas o recorridos más antiguos que utilicen acciones entrantes antes de poder iniciar nuevas.
+* Journey Optimizer admite un máximo de 500 acciones entrantes activas en cualquier momento. Estas acciones entrantes se cuentan si forman parte de una campaña en directo o si son un nodo utilizado en un recorrido en directo. Una vez alcanzado este número, debe desactivar las campañas o recorridos más antiguos que utilicen acciones entrantes antes de poder iniciar nuevas.
 
 #### Administración de perfiles con canales entrantes {#profile-management-inbound}
 
@@ -152,7 +152,7 @@ Las siguientes limitaciones se aplican a los [fragmentos](../content-management/
 
 * Al introducir datos, los correos electrónicos distinguen entre mayúsculas y minúsculas. Significa que se pueden crear perfiles duplicados (por ejemplo, un perfil para Juan.Greene@luma.com y otro perfil para juan.greene@luma.com) y utilizarse al segmentar el destinatario correspondiente en sus recorridos y campañas de [!DNL Journey Optimizer].
 
-* Al segmentar perfiles seudónimos (visitantes no autenticados) con sus tarjetas de contenido, considere la posibilidad de establecer un tiempo de vida (TTL) para la eliminación automática de perfiles a fin de administrar el recuento de perfiles atractivos y los costes asociados. [Más información](#profile-management-inbound)
+* Al segmentar perfiles seudónimos (visitantes no autenticados) con canales entrantes, considere la posibilidad de establecer un tiempo de vida (TTL) para la eliminación automática de perfiles a fin de administrar el recuento de perfiles atractivos y los costes asociados. [Más información](#profile-management-inbound)
 
 ## Mecanismos de protección de gestión de decisiones y toma de decisiones {#decisioning-guardrails}
 
