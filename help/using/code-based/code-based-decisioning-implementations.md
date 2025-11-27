@@ -6,16 +6,22 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
 
-# Decisiones en las implementaciones de experiencias basadas en código
+# Decisiones en las implementaciones de experiencias basadas en código {#code-based-decisioning-implementations}
 
 Cuando utilice Decisioning en experiencias basadas en código, considere la posibilidad de agregar los siguientes indicadores a la implementación de su cliente en los casos que se describen a continuación.
+
+➡️ Obtenga más información acerca de cómo configurar Web SDK para experiencias basadas en código y de toma de decisiones en [estos tutoriales](#tutorials).
+
+>[!CAUTION]
+>
+>El canal de experiencia basado en código solo admite la capacidad [!DNL Journey Optimizer] [Decisioning](../experience-decisioning/gs-experience-decisioning.md). La capacidad heredada de Administración de decisiones no está disponible con experiencias basadas en código.
 
 ## Prueba de experiencias basadas en código mediante decisiones {#code-based-test-decisions}
 
@@ -288,3 +294,9 @@ Supongamos que tiene la misma política de decisión con la colocación del enca
 ```
 
 +++
+
+## Tutoriales{#tutorials}
+
+Aprenda a utilizar la toma de decisiones en Journey Optimizer para personalizar ofertas de contenido en su sitio web, con un enfoque en la configuración de Web SDK en [este tutorial](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
+
+Aprenda a configurar el SDK web y a utilizar la toma de decisiones con experiencias basadas en código para personalizar ofertas mediante datos del tiempo real e información contextual en [este tutorial](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}.
