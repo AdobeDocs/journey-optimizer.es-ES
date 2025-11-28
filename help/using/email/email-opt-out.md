@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: exclusión, correo electrónico, vínculo, cancelación de suscripción
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '995'
 ht-degree: 26%
 
 ---
@@ -34,7 +34,7 @@ Para insertar un vínculo de baja en el contenido del correo electrónico, puede
 
 Cuando un destinatario hace clic en el vínculo de no participación, su solicitud de cancelación de suscripción se procesa en consecuencia.
 
-Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y [busque ese perfil](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide#attributes-tab). En la ficha **[!UICONTROL Atributos]**, puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y [busque ese perfil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. En la ficha [Atributos](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**. Obtenga más información acerca del procesamiento de consentimiento en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 

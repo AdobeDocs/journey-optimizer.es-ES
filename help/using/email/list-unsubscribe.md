@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1693'
-ht-degree: 100%
+source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
+workflow-type: tm+mt
+source-wordcount: '1704'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Según el cliente y la configuración de correo electrónico para cancelar la su
 >
 >Aprenda a administrar la configuración de cancelación de suscripción en [esta sección](#enable-list-unsubscribe) a continuación.
 
-En ambos casos, cuando un destinatario hace clic en el vínculo de no participación, su solicitud de cancelar la suscripción se procesa en consecuencia. El perfil correspondiente se excluye de inmediato y esta opción se actualiza en [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
+En ambos casos, cuando un destinatario hace clic en el vínculo de no participación, su solicitud de cancelar la suscripción se procesa en consecuencia. El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es){target="_blank"}. Obtenga más información acerca del procesamiento de consentimiento en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}.
 
 >[!NOTE]
 >
