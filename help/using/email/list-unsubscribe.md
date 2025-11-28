@@ -43,7 +43,7 @@ Según el cliente y la configuración de correo electrónico para cancelar la su
 >
 >Aprenda a administrar la configuración de cancelación de suscripción en [esta sección](#enable-list-unsubscribe) a continuación.
 
-En ambos casos, cuando un destinatario hace clic en el vínculo de no participación, su solicitud de cancelar la suscripción se procesa en consecuencia. El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es){target="_blank"}. Obtenga más información acerca del procesamiento de consentimiento en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}.
+En ambos casos, cuando un destinatario hace clic en el vínculo de no participación, su solicitud de cancelar la suscripción se procesa en consecuencia. El perfil correspondiente se excluye inmediatamente y esta opción se actualiza en [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es){target="_blank"}. Obtenga más información acerca del procesamiento de consentimiento en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=es){target="_blank"}.
 
 >[!NOTE]
 >
