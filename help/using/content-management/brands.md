@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 9cd13e97315daef36918d4352f182efe0d3d9c7a
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 21%
+source-wordcount: '1615'
+ht-degree: 19%
 
 ---
 
@@ -275,11 +275,21 @@ Para personalizar tu **[!UICONTROL estilo de escritura]**:
 
 1. En la ficha **[!UICONTROL Estilo de escritura]**, haga clic en ![](assets/do-not-localize/Smock_Add_18_N.svg) para agregar una directriz, excepción o exclusión.
 
-1. Escriba la directriz, excepción o exclusión y haga clic en **[!UICONTROL Agregar]**.
+1. Introduzca la directriz, la excepción o la exclusión. También puede incluir **[!UICONTROL Ejemplos]** para ilustrar mejor cómo se debe aplicar.
 
    ![](assets/brands-3.png)
 
-1. Seleccione una de las directrices o exclusiones para actualizar o eliminar.
+1. Especifique el Contexto de uso para la directriz, la excepción o la exclusión:
+
+   * **[!UICONTROL Tipo de canal]**: elija dónde se debe aplicar esta directriz, excepción o exclusión. Por ejemplo, es posible que desee que un estilo de escritura específico aparezca solo en correos electrónicos, móviles, impresiones u otros canales de comunicación.
+
+   * **[!UICONTROL Tipo de elemento]**: especifique a qué elemento de contenido se aplica la regla. Esto puede incluir elementos como encabezados, botones, vínculos u otros componentes dentro del contenido.
+
+     ![](assets/brands-16.png)
+
+1. Una vez configurada la guía, excepción o exclusión, haga clic en **[!UICONTROL Agregar]**.
+
+1. Si es necesario, seleccione una de las directrices o exclusión para actualizar o eliminar.
 
 1. Haga clic en el ![texto alternativo de la imagen de buceo](assets/do-not-localize/Smock_Edit_18_N.svg "Editar") para editar el ejemplo o en el ![Texto alternativo de la imagen de buceo](assets/do-not-localize/Smock_Delete_18_N.svg "Eliminar")icono para eliminarlo.
 
@@ -337,18 +347,29 @@ Para personalizar tu **[!UICONTROL contenido visual]**:
 
 1. En la ficha **[!UICONTROL Contenido visual]**, haga clic en ![](assets/do-not-localize/Smock_Add_18_N.svg) para agregar una directriz, una exclusión o un ejemplo.
 
-1. Escriba la directriz, exclusión o ejemplo y haga clic en **[!UICONTROL Agregar]**.
+1. Introduzca la directriz, la exclusión o el ejemplo.
 
    ![](assets/brands-4.png)
+
+1. Especifique el Contexto de uso para la directriz o exclusión:
+
+   * **[!UICONTROL Tipo de canal]**: elija dónde se debe aplicar esta directriz, excepción o exclusión. Por ejemplo, es posible que desee que un estilo de escritura específico aparezca solo en correos electrónicos, móviles, impresiones u otros canales de comunicación.
+
+   * **[!UICONTROL Tipo de elemento]**: especifique a qué elemento de contenido se aplica la regla. Esto puede incluir elementos como encabezados, botones, vínculos u otros componentes dentro del contenido.
+
+     ![](assets/brands-16.png)
+
+1. Una vez configurada la guía, excepción o exclusión, haga clic en **[!UICONTROL Agregar]**.
 
 1. Para agregar una imagen que muestre el uso correcto, seleccione **[!UICONTROL Ejemplo]** y haga clic en **[!UICONTROL Seleccionar imagen]**. También puede añadir una imagen que muestre un uso incorrecto como ejemplo de exclusión.
 
    ![](assets/brands-13.png)
 
-1. Seleccione una de las directrices o exclusiones para actualizar o eliminar.
+1. Si es necesario, seleccione una de las directrices o exclusión para actualizar o eliminar.
 
 1. Seleccione una de las directrices o exclusiones para actualizarla. Haga clic en el icono ![Dive image alt text](assets/do-not-localize/Smock_Delete_18_N.svg "Delete")para eliminarlo.
 
    ![](assets/brands-14.png)
 
 Ahora puedes personalizar aún más tu marca o [publicar tu marca](#create-brand-kit).
+
