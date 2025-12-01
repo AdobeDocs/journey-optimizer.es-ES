@@ -8,10 +8,10 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: e42640e791e6bec3bfd09a3095bad5e44e2ab128
+source-git-commit: 7205017785283e3db4d64ed595ac8f187f43307b
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 1%
+source-wordcount: '785'
+ht-degree: 0%
 
 ---
 
@@ -135,11 +135,3 @@ Un pico de tráfico temporal (por ejemplo, el doble de tráfico diario) tiene un
 **insight clave**: la ventana de datos móvil de 30 días proporciona estabilidad al modelo durante las fluctuaciones temporales de tráfico. Los picos o caídas a corto plazo no afectan significativamente las predicciones o el rendimiento del modelo.
 
 +++
-
-## Temas relacionados {#related-topics}
-
-<!--* [Get started with Decisioning](gs-experience-decisioning.md)-->
-* [Creación de elementos de decisión](items.md)
-* [Información general sobre modelos de IA](ranking/ai-models.md)
-* [Limitaciones y protecciones de decisiones](decisioning-guardrails.md)
-
