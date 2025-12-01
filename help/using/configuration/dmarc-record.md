@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: 502f26ba3f8f5fa0db73be9f0cf66b21dbea507b
+source-git-commit: b3716265282599604de629be540ca68971daa343
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 10%
+source-wordcount: '1591'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 10%
 
 ## ¿Qué es DMARC? {#what-is-dmarc}
 
-La autenticación de mensajes basada en dominios, sistemas de informes y conformidad (DMARC) es un método de autenticación por correo electrónico que permite a los propietarios de dominios proteger su dominio contra el uso no autorizado. Al ofrecer una política clara a los proveedores de correo electrónico y de servicios de Internet (ISP), ayuda a evitar que actores maliciosos envíen correos electrónicos que afirman ser de su dominio. La implementación de DMARC reduce el riesgo de que los correos electrónicos legítimos se marquen como correo no deseado o se rechacen y mejora su entregabilidad
+La autenticación de mensajes basada en dominios, sistemas de informes y conformidad (DMARC) es un método de autenticación por correo electrónico que permite a los propietarios de dominios proteger su dominio contra el uso no autorizado. Al ofrecer una política clara a los proveedores de correo electrónico y de servicios de Internet (ISP), ayuda a evitar que actores maliciosos envíen correos electrónicos que afirman ser de su dominio. La implementación de DMARC reduce el riesgo de que los correos electrónicos legítimos se marquen como correo no deseado o se rechacen, y mejora la capacidad de envío de correos electrónicos.
 
 DMARC también ofrece informes sobre los mensajes que no superan la autenticación, junto con control sobre el manejo de los correos electrónicos que no pasan la validación de DMARC. Según la [política de DMARC](#dmarc-policies) implementada, estos correos electrónicos se pueden supervisar, poner en cuarentena o rechazar. Estas funcionalidades le permiten realizar acciones para mitigar y abordar posibles errores.
 
@@ -72,7 +72,7 @@ Por lo tanto, Adobe recomienda encarecidamente que realice las siguientes accion
 
 * Asegúrese de tener **registro de DMARC** configurado para **todos los subdominios que ya ha delegado** a Adobe en [!DNL Journey Optimizer]. [Descubra cómo](#check-subdomains-for-dmarc)
 
-* Al **delegar cualquier nuevo subdominio** a Adobe, puede **configurar DMARC** directamente **en la interfaz de administración de [!DNL Journey Optimizer]**. [Descubra cómo](#implement-dmarc)
+* Al **delegar cualquier nuevo subdominio** a Adobe, puede **configurar DMARC** directamente en la interfaz de administración de [!DNL Journey Optimizer]. [Descubra cómo](#set-up-dmarc)
 
 ## Implementar DMARC en [!DNL Journey Optimizer] {#implement-dmarc}
 
@@ -92,15 +92,15 @@ Para asegurarse de que tiene configurado el registro de DMARC para todos los sub
    >
    >Para cumplir con el nuevo requisito de Gmail y Yahoo!, y evitar problemas de envío con los principales ISP, se recomienda configurar el registro de DMARC para todos los subdominios delegados. [Más información](dmarc-record-update.md)
 
-1. Seleccione un subdominio sin registro de DMARC asociado y rellene la sección **[!UICONTROL registro de DMARC]** según las necesidades de su organización. Los pasos para rellenar los campos de registro de DMARC se detallan en [esta sección](#implement-dmarc).
+1. Seleccione un subdominio sin registro de DMARC asociado y rellene la sección **[!UICONTROL registro de DMARC]** según las necesidades de su organización. Los pasos para rellenar los campos de registro de DMARC se detallan en [esta sección](#set-up-dmarc).
 
    <!--![](assets/dmarc-record-edit-full.png)-->
 
    >[!NOTE]
    >
-   >Dependiendo de si se encuentra un registro de DMARC con el dominio principal o no, puede elegir utilizar los valores del dominio principal o hacer que Adobe administre el registro de DMARC. [Más información](#implement-dmarc)
+   >Dependiendo de si se encuentra un registro de DMARC con el dominio principal o no, puede elegir utilizar los valores del dominio principal o hacer que Adobe administre el registro de DMARC. [Más información](#manage-dmarc-with-adobe)
 
-1. Si está editando un subdominio:
+1. Si está editando un subdominio que está:
 
    * [Se ha delegado completamente](delegate-subdomain.md#set-up-subdomain) a Adobe, no se requiere ninguna otra acción.
 
@@ -193,38 +193,36 @@ Para que Adobe administre el registro de DMARC por usted, seleccione la opción 
 
 ### Resolución de problemas {#troubleshooting}
 
-La configuración de un registro de DMARC implica agregar un registro TXT DNS a la configuración DNS del dominio. Este registro especifica la directiva de DMARC, como si se deben poner en cuarentena o rechazar los mensajes que no se autentican correctamente.
+Al configurar un registro de DMARC, se agrega un registro TXT DNS a la configuración DNS del dominio, especificando la directiva de DMARC.
 
-Los cambios de DNS tardan en propagarse por Internet, normalmente entre unos minutos y 48 horas.
+**Tiempo de propagación de DNS**
 
-Si acaba de realizar un cambio en la configuración de DMARC e intenta verificarlo inmediatamente, es posible que vea errores o que los cambios aún no se hayan detectado.
+Los cambios de DNS tardan en propagarse por Internet, normalmente entre unos minutos y 48 horas. Si acaba de realizar un cambio en la configuración de DMARC e intenta verificarlo inmediatamente, es posible que vea errores o que los cambios aún no se hayan detectado.
 
-Deje tiempo suficiente para que los registros DNS se propaguen antes de intentar comprobar la configuración de DMARC.
+Deje tiempo suficiente para que los registros DNS se propaguen antes de intentar comprobar la configuración de DMARC. Si sigue teniendo problemas después de 48 horas, compruebe que los registros DNS se agregaron correctamente a la solución de alojamiento.
 
 <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
-The default value (24 hours) is generally the email providers' expectation.
+The default value (24 hours) is generally the email providers' expectation.-->
 
-**********
-
-Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
-
-DMARC helps prevent malicious actors from sending emails that appear to come from your domain. By setting up DMARC, you can specify how email providers should handle messages that fail authentication checks, reducing the likelihood that phishing emails will reach recipients.
-
-DMARC helps improve email deliverability by providing a clear policy for email providers to follow when encountering messages claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected.
-
-DMARC helps protect against email spoofing, phishing, and other fraudulent activities.
-
-It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
+<!--
 
 ## What are the benefits of DMARC? {#dmarc-benefits}
 
 The key benefits or DMARC are as folllows:
 
+* Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
+
+* DMARC helps prevent malicious actors from sending emails that appear to come from your domain. By setting up DMARC, you can specify how email providers should handle messages that fail authentication checks, reducing the likelihood that phishing emails will reach recipients.
+
+* DMARC helps improve email deliverability by providing a clear policy for email providers to follow when encountering messages claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected.
+
+* DMARC helps protect against email spoofing, phishing, and other fraudulent activities.
+
+* It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
+
 * DMARC allows email receivers to easily identify the authentication of emails, which could potentially improve delivery.
 
 * It offers reporting on which messages fail SPF and/or DKIM, enabling senders to gain visibility.
 
-* This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.
-
--->
+* This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.-->
