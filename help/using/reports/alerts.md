@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 767eb74a6ba13013b290eaa28ba8ff590e8b6781
 workflow-type: tm+mt
-source-wordcount: '2153'
+source-wordcount: '2216'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ Para suscribirse o cancelar la suscripción a una alerta para todos los recorrid
 
 1. Use el mismo método para **[!UICONTROL cancelar la suscripción]**.
 
-También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
+También puede suscribirse mediante [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Las reglas de alerta se organizan en diferentes paquetes de suscripción. Las suscripciones a eventos correspondientes a las alertas de Journey Optimizer específicas se detallan [debajo de](#journey-alerts).
 
 ### Suscripción unitaria {#unitary-subscription}
 
@@ -91,7 +91,7 @@ Para suscribirse o cancelar la suscripción a una alerta de un recorrido especí
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## alertas de recorrido {#journey-alerts}
 
@@ -158,11 +158,19 @@ Para solucionar errores de perfil, puede consultar los datos en eventos de paso 
 
 ### Recorrido publicado {#alert-journey-published}
 
+>[!AVAILABILITY]
+>
+>Actualmente, esta alerta está disponible con funcionalidad limitada. Aunque puede suscribirse a esta alerta, las notificaciones aún no están completamente operativas.
+
 Esta alerta le avisa cuando un profesional ha publicado un recorrido en el lienzo del recorrido.
 
 Se trata de una alerta informativa que le ayuda a realizar un seguimiento de los eventos del ciclo vital de recorrido en su organización. No hay criterios de resolución, ya que se trata de una notificación única.
 
 ### Recorrido finalizado {#alert-journey-finished}
+
+>[!AVAILABILITY]
+>
+>Actualmente, esta alerta está disponible con funcionalidad limitada. Aunque puede suscribirse a esta alerta, las notificaciones aún no están completamente operativas.
 
 Esta alerta le avisa cuando ha finalizado un recorrido. La definición de &quot;terminado&quot; varía según el tipo de recorrido:
 
@@ -177,6 +185,10 @@ Esta alerta le avisa cuando ha finalizado un recorrido. La definición de &quot;
 Esta es una alerta informativa que le ayuda a realizar un seguimiento de la finalización del recorrido. No hay criterios de resolución, ya que se trata de una notificación única.
 
 ### Límite de acción personalizado activado {#alert-custom-action-capping}
+
+>[!AVAILABILITY]
+>
+>Actualmente, esta alerta está disponible con funcionalidad limitada. Aunque puede suscribirse a esta alerta, las notificaciones aún no están completamente operativas.
 
 Esta alerta le avisa cuando se ha activado el límite de una acción personalizada. El límite se utiliza para limitar el número de llamadas enviadas a un extremo externo para evitar saturar el extremo.
 
