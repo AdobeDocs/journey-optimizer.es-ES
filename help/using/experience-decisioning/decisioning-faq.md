@@ -8,9 +8,9 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 7205017785283e3db4d64ed595ac8f187f43307b
+source-git-commit: 7bf0b3fbfe56ef8ae3a35be9aa604287f43d6d74
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -38,26 +38,24 @@ Más información sobre [reglas de límite](items.md#capping).
 
 ## Fórmulas de clasificación {#ranking-formulas}
 
-+++**¿Cuál es el papel de las audiencias en los modelos de IA?**
++++**¿Cuál es la función de las audiencias en comparación con un conjunto de datos completo en los modelos de IA?**
 
-Al configurar [modelos de optimización personalizados](ranking/personalized-optimization-model.md), tanto los conjuntos de datos como las audiencias tienen distintos propósitos:
+Al configurar [modelos de IA](ranking/ai-models.md), tanto los conjuntos de datos como las audiencias tienen distintos propósitos.
 
 * **Conjuntos de datos**: capture eventos de conversión (clics, pedidos, ingresos) que sirven como objetivos de optimización para el modelo.
 * **Audiencias**: funcionan como variables predictoras que permiten al modelo personalizar las recomendaciones según el abono a segmentos del cliente.
 
 Las audiencias no restringen ni amplían el ámbito del modelo. En su lugar, proporcionan atributos contextuales que mejoran la capacidad del modelo para hacer predicciones personalizadas en diferentes segmentos de clientes.
 
-Ambos componentes son necesarios para un rendimiento eficaz del modelo de optimización personalizada. Más información sobre [modelos de IA](ranking/ai-models.md).
+Ambos componentes son necesarios para obtener [modelos de optimización personalizados](ranking/personalized-optimization-model.md) con rendimiento efectivo.
 
 +++
 
-+++**¿Cómo afectan los cambios en las colecciones de ofertas a los modelos de IA si se utilizan modelos de optimización automática o personalizados?**
++++**¿Cómo afectan los cambios en las colecciones de ofertas a la optimización automática o a los modelos de optimización personalizados?**
 
 Ambos modelos proporcionarán tráfico a la siguiente mejor oferta disponible según los datos de tráfico de los últimos 30 días.
 
-Cuando se eliminan varias ofertas simultáneamente y las ofertas restantes tienen datos de tráfico mínimos dentro de la ventana de 30 días, el modelo puede mostrar un comportamiento subóptimo, incluido lo siguiente:
-* Patrones de distribución aleatorios
-* Diferencia hacia ofertas con tasas de conversión más altas basadas en datos de impresiones limitadas
+Cuando se eliminan varias ofertas simultáneamente y las ofertas restantes tienen datos de tráfico mínimos dentro de la ventana de 30 días, el modelo puede mostrar un comportamiento subóptimo, incluidos patrones de distribución aleatorios o sesgo hacia ofertas con tasas de conversión más altas basadas en datos de impresión limitados.
 
 **Práctica recomendada**: cuando modifique de forma significativa las colecciones de ofertas, compruebe que las ofertas restantes tengan datos de rendimiento históricos suficientes para mantener la eficacia del modelo.
 
@@ -67,8 +65,8 @@ Cuando se eliminan varias ofertas simultáneamente y las ofertas restantes tiene
 
 Los modelos de IA identifican y comienzan a probar las ofertas recién disponibles en su próximo ciclo de formación:
 
-* **Optimización automática**: ejecuciones de formación diarias
-* **Optimización personalizada**: ejecuciones de formación semanales
+* **Optimización automática**: a diario
+* **Optimización personalizada**: semanal
 
 Una vez identificados, ambos modelos empezarán a ofrecer las nuevas ofertas a algunos visitantes inmediatamente para probar su rendimiento y recopilar datos sobre su eficacia.
 
@@ -78,7 +76,7 @@ Obtenga más información sobre [optimización automática](ranking/auto-optimiz
 
 +++**¿Cómo se optimizan los modelos de IA sin grupos de control?**
 
-Tanto la optimización automática como los modelos de optimización personalizados emplean una estrategia de exploración y explotación que elimina la necesidad de grupos de control dedicados:
+Tanto la optimización automática como los modelos de optimización personalizados emplean una estrategia de &quot;explorar y explotar&quot; que elimina la necesidad de grupos de control dedicados.
 
 * **Fase inicial**: los modelos comienzan con una exploración del 100%, probando diferentes ofertas para establecer los datos de rendimiento de línea de base.
 * **Optimización adaptable**: a medida que se acumulan eventos de comportamiento y mejora la precisión de predicción, los modelos equilibran automáticamente la exploración y la explotación.
@@ -91,10 +89,8 @@ Esto garantiza un aprendizaje y una optimización continuos en todo el tráfico 
 +++**¿Cuáles son los requisitos mínimos de tráfico para un rendimiento óptimo del modelo de IA?**
 
 Adobe recomienda los siguientes umbrales mínimos para garantizar el rendimiento efectivo del modelo:
-
-**Mínimos recomendados (por semana):**
-* 1.000 impresiones por oferta/artículo
-* 100 eventos de conversión por oferta/artículo
+* 1.000 impresiones por oferta/artículo por semana
+* 100 eventos de conversión por oferta/artículo por semana
 
 <!--**Absolute minimums (per 30 days):**
 * At least **250 impressions** per offer/item  
@@ -110,7 +106,7 @@ Más información sobre [requisitos de recopilación de datos](data-collection/d
 
 +++
 
-+++**¿Cómo afecta la similitud de la oferta al rendimiento del modelo de IA?**
++++**¿Cómo afectan las ofertas similares al rendimiento del modelo de IA?**
 
 Los modelos de IA generan mayores beneficios de personalización cuando las ofertas atraen a distintos segmentos de clientes. Cuando las ofertas son muy similares, hay dos resultados típicos:
 
@@ -127,11 +123,8 @@ Los modelos de IA generan mayores beneficios de personalización cuando las ofer
 
 +++**¿Cómo afectan las anomalías de tráfico al rendimiento del modelo de IA?**
 
-Las anomalías de tráfico se incorporan al modelo proporcionalmente dentro de la ventana móvil de 30 días.
+Las anomalías de tráfico se incorporan al modelo proporcionalmente dentro de la ventana móvil de 30 días, lo que proporciona estabilidad al modelo durante las fluctuaciones de tráfico temporales. Los picos o caídas a corto plazo no afectan significativamente las predicciones o el rendimiento del modelo.
 
-**Evaluación de impacto:**
-Un pico de tráfico temporal (por ejemplo, el doble de tráfico diario) tiene un efecto mínimo en el rendimiento general del modelo, ya que el tráfico anómalo representa una pequeña fracción del conjunto de datos de 30 días.
-
-**insight clave**: la ventana de datos móvil de 30 días proporciona estabilidad al modelo durante las fluctuaciones temporales de tráfico. Los picos o caídas a corto plazo no afectan significativamente las predicciones o el rendimiento del modelo.
+Un pico de tráfico temporal (por ejemplo, el doble del tráfico diario) tiene un efecto mínimo en el rendimiento general del modelo, ya que el tráfico anómalo representa una pequeña fracción del conjunto de datos de 30 días.
 
 +++
