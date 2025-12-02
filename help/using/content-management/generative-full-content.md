@@ -7,9 +7,9 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
 workflow-type: tm+mt
-source-wordcount: '1840'
+source-wordcount: '1834'
 ht-degree: 2%
 
 ---
@@ -36,17 +36,15 @@ Antes de empezar a crear contenido con el asistente de IA, debe configurar la ca
 1. Cree y configure su campaña o recorrido:
    * **Correo electrónico**: Después de crear y configurar tu campaña de correo electrónico, haz clic en **[!UICONTROL Editar contenido]**. [Más información](../campaigns/create-campaign.md)
    * **Web**: después de crear y configurar la página web, haga clic en **[!UICONTROL Editar página web]**. [Más información](../web/create-web.md)
-   * **Página de aterrizaje**: Después de crear y configurar la página de aterrizaje, haga clic en **[!UICONTROL Editar contenido]**. [Más información](../landing-pages/create-lp.md)
+   * **Página de aterrizaje**: después de crear y configurar la página de aterrizaje, haga clic en **[!UICONTROL Abrir diseñador]**. [Más información](../landing-pages/create-lp.md)
 
-1. Personalice el diseño según sea necesario y acceda al menú **[!UICONTROL Asistente de IA]**.
+1. En el menú de la derecha, selecciona **[!UICONTROL Asistente de IA]** (o **[!UICONTROL Mostrar asistente de contenido]** para la web).
 
    ![Panel del asistente de IA que muestra la selección de marca y el campo de solicitud](assets/full-email-1.png){zoomable="yes"}
 
 ### Generar contenido {#generate-content}
 
 Con el Asistente de IA abierto, ahora puede configurar los ajustes de generación para crear contenido que coincida con sus objetivos de marca y campaña. Personalice los parámetros de texto e imagen, añada recursos de marca y proporcione indicadores para guiar la IA en la generación de variaciones relevantes para su audiencia.
-
-1. Habilite la opción **[!UICONTROL Usar contenido original]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
 1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
 
@@ -64,7 +62,7 @@ Con el Asistente de IA abierto, ahora puede configurar los ajustes de generació
    * **[!UICONTROL Idiomas]**: elige el idioma del contenido generado.
    * **[!UICONTROL Tono]**: el tono debería interesar a su audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA puede adaptar el mensaje en consecuencia.
 
-   ![Panel de configuración de texto que muestra las opciones Estrategia de comunicación, Idiomas y Tono](assets/full-email-4.png){zoomable="yes"}
+     ![Panel de configuración de texto que muestra las opciones Estrategia de comunicación, Idiomas y Tono](assets/full-email-4.png){zoomable="yes"}
 
 1. Elija su **[!UICONTROL configuración de imagen]**:
 
@@ -74,11 +72,11 @@ Con el Asistente de IA abierto, ahora puede configurar los ajustes de generació
    * **[!UICONTROL Iluminación]**: hace referencia al relámpago presente en una imagen, que da forma a su atmósfera y resalta elementos específicos.
    * **[!UICONTROL Composición]**: hace referencia a la disposición de elementos dentro del marco de una imagen
 
-   ![El panel de configuración de imagen muestra las opciones Tipo de contenido, Intensidad visual, Color y tono, Iluminación y Composición](assets/full-email-6.png){zoomable="yes"}
+     ![El panel de configuración de imagen muestra las opciones Tipo de contenido, Intensidad visual, Color y tono, Iluminación y Composición](assets/full-email-6.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Contenido de referencia]**, haga clic en **[!UICONTROL Cargar archivo]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
-   Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
+   Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Contenido de referencia cargado]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
    ![Sección de recursos de marca con botón Cargar recurso de marca](assets/full-email-3.png){zoomable="yes"}
 
@@ -88,7 +86,7 @@ Con el Asistente de IA abierto, ahora puede configurar los ajustes de generació
 
 Después de generar variaciones de contenido, puede ajustar los resultados para asegurarse de que cumplan con sus requisitos exactos. Revise la alineación de la marca, ajuste el tono y el idioma, y prepare el contenido para su activación en la campaña o el recorrido.
 
-1. Después de la generación, revisa **[!UICONTROL Variaciones]** y haz clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada o **[!UICONTROL Aplicar]** para reemplazar el contenido actual.
+1. Después de la generación, examine **[!UICONTROL Variaciones]**.
 
 1. Haga clic en el icono de porcentaje para ver su **[!UICONTROL puntuación de alineación de marca]** e identificar cualquier desalineación con su marca.
 
@@ -96,17 +94,21 @@ Después de generar variaciones de contenido, puede ajustar los resultados para 
 
    ![Panel de puntuación de alineación de marca que muestra la puntuación porcentual](assets/full-email-7.png){zoomable="yes"}
 
+1. Haz clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada o en **[!UICONTROL Aplicar]** para reemplazar el contenido actual.
+
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
    * **[!UICONTROL Reformular]**: vuelva a escribir el mensaje conservando su significado. Esta opción le ayuda a generar frases alternativas, mejorar el flujo o ajustar el estilo sin cambiar el mensaje principal.
 
    * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el Asistente para IA a fin de simplificar su lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
 
+   * **[!UICONTROL Traducir]**: Simplifique su idioma para garantizar la claridad y accesibilidad para una audiencia más amplia.
+
    * **[!UICONTROL Cambiar tono]**: Ajuste el tono del mensaje para que coincida mejor con su estilo de comunicación, es decir, para que sea más amable, profesional, urgente o inspirador.
 
    * **[!UICONTROL Cambiar estrategia de comunicación]**: modifique el enfoque de mensajería en función de sus objetivos, como crear urgencia o enfatizar atractivo interesante.
 
-   ![Refinar menú que muestra opciones](assets/full-email-5.png){zoomable="yes"}
+     ![Refinar menú que muestra opciones](assets/full-email-5.png){zoomable="yes"}
 
 1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
@@ -166,7 +168,7 @@ Una vez que haya accedido al asistente de IA para notificaciones push, puede con
    * **[!UICONTROL Idiomas]**: elige el idioma del contenido generado.
    * **[!UICONTROL Tono]**: el tono de las notificaciones push debería interesar a la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA puede adaptar el mensaje en consecuencia.
 
-   ![Panel de configuración de texto para notificaciones push](assets/push-genai-full-3.png){zoomable="yes"}
+     ![Panel de configuración de texto para notificaciones push](assets/push-genai-full-3.png){zoomable="yes"}
 
 1. Elija su **[!UICONTROL configuración de imagen]**:
 
@@ -176,11 +178,11 @@ Una vez que haya accedido al asistente de IA para notificaciones push, puede con
    * **[!UICONTROL Iluminación]**: hace referencia al relámpago presente en una imagen, que da forma a su atmósfera y resalta elementos específicos.
    * **[!UICONTROL Composición]**: hace referencia a la disposición de elementos dentro del marco de una imagen
 
-   ![Configuración de imagen para notificaciones push](assets/push-genai-full-5.png){zoomable="yes"}
+     ![Configuración de imagen para notificaciones push](assets/push-genai-full-5.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Recursos de marca]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Contenido de referencia]**, haga clic en **[!UICONTROL Cargar archivo]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
 
-   Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Simplemente, cambie los recursos que desee incluir en la generación.
+   Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Contenido de referencia cargado]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 
@@ -210,7 +212,7 @@ Después de revisar las variaciones de notificaciones push generadas, puede puli
 
    * **[!UICONTROL Cambiar estrategia de comunicación]**: modifique el enfoque de mensajería en función de sus objetivos, como crear urgencia o enfatizar atractivo interesante.
 
-   ![Refinar opciones para notificaciones push](assets/push-genai-full-6.png){zoomable="yes"}
+     ![Refinar opciones para notificaciones push](assets/push-genai-full-6.png){zoomable="yes"}
 
 1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
