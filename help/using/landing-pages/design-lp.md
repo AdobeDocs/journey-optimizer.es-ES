@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: landing, landing page, diseño, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 13%
+source-wordcount: '207'
+ht-degree: 18%
 
 ---
 
@@ -26,6 +26,8 @@ A partir de ahí, puede realizar lo siguiente:
 
 * **Diseña tu página de aterrizaje desde cero** a través de la interfaz del diseñador de contenido y aprovecha las imágenes de [Adobe Experience Manager Assets](../integrations/assets.md). Aprenda a diseñar el contenido <!--or use built-in templates--> [en esta sección](../email/content-from-scratch.md).
 
+* **Genere contenido con el Asistente de IA** para acelerar la creación de páginas de aterrizaje con texto e imágenes generados por IA. [Más información sobre el Asistente de IA](../content-management/generative-full-content.md).
+
 * **Codifique o pegue HTML sin procesar** directamente en el diseñador de contenido. Aprenda a codificar su propio contenido [en esta sección](../email/code-content.md).
 
 * **Importe contenido de HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido [en esta sección](../email/existing-content.md).
@@ -36,4 +38,4 @@ A partir de ahí, puede realizar lo siguiente:
 >
 >El diseñador de contenido de páginas de aterrizaje es muy similar al Designer de correo electrónico. Más información sobre [diseñar contenido con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 >
->La [ley de accesibilidad europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} estipula que todas las comunicaciones digitales deben ser accesibles. Asegúrese de seguir las directrices específicas que se enumeran en [esta página](../email/accessible-content.md) al diseñar contenido en [!DNL Journey Optimizer].
+>La [Ley de accesibilidad europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} estipula que todas las comunicaciones digitales deben ser accesibles. Asegúrese de seguir las directrices específicas que se enumeran en [esta página](../email/accessible-content.md) al diseñar contenido en [!DNL Journey Optimizer].

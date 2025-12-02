@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: contenido, editor, correo electrónico, inicio
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '723'
 ht-degree: 50%
 
 ---
@@ -64,13 +64,16 @@ Use el Designer de correo electrónico [!DNL Adobe Journey Optimizer] para defin
 
 >[!NOTE]
 >
->La [ley de accesibilidad europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} estipula que todas las comunicaciones digitales deben ser accesibles. Asegúrese de seguir las directrices específicas que se enumeran en [esta página](accessible-content.md) al diseñar contenido en [!DNL Journey Optimizer].
+>La [Ley de accesibilidad europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} estipula que todas las comunicaciones digitales deben ser accesibles. Asegúrese de seguir las directrices específicas que se enumeran en [esta página](accessible-content.md) al diseñar contenido en [!DNL Journey Optimizer].
 
 Para empezar a crear contenido, siga los pasos a continuación:
 
 1. En la página de inicio de Designer, seleccione la opción **[!UICONTROL Diseñar desde cero]**.
 
    ![](assets/email_designer.png)
+
+
+1. Acelere la creación de su correo electrónico con el Asistente de IA y genere contenido de correo electrónico completo con texto e imágenes con el [Asistente de IA para la generación de contenido completo](../content-management/generative-full-content.md).
 
 1. Para diseñar el contenido, arrastre y suelte **[!UICONTROL Estructuras]** en el lienzo para definir el diseño del correo electrónico.
 

@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '2988'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 98%
    + [Trabajo con el Asistente de IA](using/start/ai-assistant.md)
    + [Capacidades de IA en AJO](/help/rp_landing_pages/ai-capabilities-landing-page.md)
    + [Manuales de tácticas de casos de uso](using/start/playbooks.md)
-   + [Mecanismos de protección y limitaciones](using/start/guardrails.md)
+   + [Protecciones y limitaciones](using/start/guardrails.md)
 + Recorridos {#orchestrate-journeys}
    + [Recorridos](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introducción a los recorridos](using/building-journeys/journey.md)
@@ -81,7 +81,7 @@ ht-degree: 98%
       + [Introducción a actividades de recorrido](using/building-journeys/about-journey-activities.md)
       + [Eventos generales](using/building-journeys/general-events.md)
       + [Eventos de reacción](using/building-journeys/reaction-events.md)
-      + [Calificación de público](using/building-journeys/audience-qualification-events.md)
+      + [Calificación del público](using/building-journeys/audience-qualification-events.md)
       + [Optimizar](using/building-journeys/optimize.md)
       + [Condiciones](using/building-journeys/conditions.md)
       + [Condición](using/building-journeys/condition-activity.md)
@@ -169,7 +169,7 @@ ht-degree: 98%
             + [Esquema de carga de archivos](using/orchestrated/file-upload-schema.md)
             + [Ingesta de datos](using/orchestrated/ingest-data.md)
          + [Creación de una dimensión de segmentación](using/orchestrated/target-dimension.md)
-         + [Configuración de un canal](using/orchestrated/channel-config.md)
+         + [Configuración de los ajustes de canal](using/orchestrated/channel-config.md)
       + Lanzamiento de su primera campaña orquestada {#launch}
          + [Lanzamiento de su primera campaña orquestada](/help/rp_landing_pages/launch-landing-page.md)
          + [Pasos clave para crear una campaña orquestada](using/orchestrated/gs-campaign-creation.md)
@@ -317,7 +317,7 @@ ht-degree: 98%
       + [Comprobación y envío de los mensajes de texto](using/sms/send-sms.md)
       + [Administración de la exclusión de mensajes de texto](using/sms/sms-opt-out.md)
       + [Configuración de subdominios de SMS](using/sms/sms-subdomains.md)
-      + [Prácticas recomendadas para la optimización de costes de SMS](using/sms/sms-cost-optimization.md)
+      + [Prácticas recomendadas para la optimización del coste de SMS](using/sms/sms-cost-optimization.md)
       + Configuración de canales de SMS/MMS/RCS {#configure-sms}
          + [Configuración de canales de SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Introducción a la configuración de SMS/MMS/RCS](using/sms/sms-configuration.md)
@@ -389,11 +389,11 @@ ht-degree: 98%
       + [Comprobación y envío de los mensajes de LINE](using/line/send-line.md)
    + Actividad en directo {#live-activity}
       + [Introducción a la actividad en directo](using/mobile-live/get-started-mobile-live.md)
-      + [Crear una actividad en directo](using/mobile-live/create-mobile-live.md)
+      + [Creación de una actividad en directo](using/mobile-live/create-mobile-live.md)
       + [Preguntas frecuentes](using/mobile-live/mobile-live-faq.md)
       + Configuración del canal de tarjetas de contenido {#configure}
-         + [Configuración de la actividad en directo en Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
-         + [Configuración de la integración de Live Activity SDK](using/mobile-live/mobile-live-configuration-sdk.md)
+         + [Configuración de actividad en directo en Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
+         + [Configuración de la integración de SDK de la actividad en directo](using/mobile-live/mobile-live-configuration-sdk.md)
 + Gestión de contenidos {#content-management}
    + [Gestión de contenidos](/help/rp_landing_pages/content-management-landing-page.md)
    + Personalización {#personalization}
@@ -474,13 +474,11 @@ ht-degree: 98%
    + Asistente de IA para la generación de contenido {#ai-assistant}
       + [Asistente de IA para la generación de contenido](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Introducción al asistente de IA](using/content-management/gs-generative.md)
-      + [Prácticas recomendadas de mensajes de IA](using/content-management/ai-assistant-prompting-guide.md)
-      + [Generación de correo electrónico con IA](using/content-management/generative-email.md)
-      + [Generación de push con IA](using/content-management/generative-push.md)
-      + [Generación de SMS con IA](using/content-management/generative-sms.md)
-      + [Generación de web con IA](using/content-management/generative-web.md)
+      + [Prácticas recomendadas de indicaciones a la IA](using/content-management/ai-assistant-prompting-guide.md)
+      + [Generación de contenido completo con IA](using/content-management/generative-full-content.md)
+      + [Generación de texto con IA](using/content-management/generative-text.md)
+      + [Generación de imágenes con IA](using/content-management/generative-image.md)
       + [Experimento de contenido con IA](using/content-management/generative-experimentation.md)
-      + [Página de destino con IA](using/content-management/generative-lp.md)
       + [Casos de uso del Asistente de IA](using/content-management/generative-uc.md)
       + Marcas {#brands}
          + [Marcas](/help/rp_landing_pages/brands-landing-page.md)
@@ -826,7 +824,7 @@ ht-degree: 98%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}

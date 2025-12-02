@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1522'
 ht-degree: 16%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 16%
 Para redactar el mensaje, haga clic en los campos **[!UICONTROL Título]** y **[!UICONTROL Cuerpo]**. Utilice el editor de personalización para definir contenido, personalizar datos y añadir contenido dinámico. Obtenga más información acerca de la [personalización](../personalization/personalize.md) y el [contenido dinámico](../personalization/get-started-dynamic-content.md) en el editor de personalización.
 
 Utilice la sección de previsualización del dispositivo para visualizar cómo se muestra la notificación push en los dispositivos iOS y Android.
+
+Acelere la creación de contenido con el Asistente de IA y genere un texto de notificación push atractivo con el [Asistente de IA para la generación de texto](../content-management/generative-text.md) o cree notificaciones push completas con el [Asistente de IA para la generación de contenido completo](../content-management/generative-full-content.md).
 
 ## Comportamiento al hacer clic {#on-click-behavior}
 

@@ -5,10 +5,10 @@ title: Asistente de IA para la generación de contenido
 description: Asistente de IA para la generación de contenido
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '279'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ El asistente de IA de Adobe Journey Optimizer revoluciona la creación de conten
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción al asistente de IA
 
@@ -30,53 +30,33 @@ Obtenga información sobre cómo acceder y configurar la función del Asistente 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-Generación de contenido de correo electrónico con IA
+Generar contenido completo
 
-Descubra cómo utilizar el asistente de IA para crear, personalizar y optimizar el contenido del correo electrónico con la alineación con la marca.
+Descubra cómo utilizar el asistente de IA para crear contenido completo, incluidos texto e imágenes para correos electrónicos, notificaciones push, páginas web y páginas de aterrizaje.
 
-[Más información sobre la generación de correo electrónico](../using/content-management/generative-email.md)
+[Obtenga información acerca de la generación de contenido completo](../using/content-management/generative-full-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
-Generación de contenido de notificaciones push
+Generar solo texto
 
-Cree y personalice contenido de notificaciones push con IA, incluyendo texto e imágenes, alineadas con su marca.
+Utilice el asistente de IA para generar y refinar el contenido de texto para todos los canales, incluidos correo electrónico, SMS, notificaciones push, páginas web y páginas de aterrizaje.
 
-[Generar notificaciones push](../using/content-management/generative-push.md)
+[Explorar generación de texto](../using/content-management/generative-text.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
-Generación de contenido de SMS con IA
+Generar solo imágenes
 
-Utilice el asistente de IA para generar y perfeccionar el contenido de SMS que conecte con su público conforme a las directrices de la marca.
+Cree y personalice imágenes con el asistente de IA para utilizarlas en correos electrónicos, notificaciones push, páginas web y páginas de aterrizaje.
 
-[Explorar la generación de SMS](../using/content-management/generative-sms.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=es)
-
-Contenido de la página web y generación de recursos
-
-Mejore el contenido y las imágenes de la página web con el asistente de IA, lo que garantiza la alineación con las directrices de la marca.
-
-[Generar contenido de página web](../using/content-management/generative-web.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=es)
-
-Generación de la página de aterrizaje con IA
-
-Cree y perfeccione el contenido y los recursos de la página de aterrizaje, incluidos texto y elementos visuales, para aumentar la participación.
-
-[Generar páginas de aterrizaje](../using/content-management/generative-lp.md)
+[Generación de imágenes](../using/content-management/generative-image.md)
 :::
 
 ::::
