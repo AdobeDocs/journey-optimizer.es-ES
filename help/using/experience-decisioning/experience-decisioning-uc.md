@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
+source-git-commit: 17c8bc8b37c4bdf7c93735e152eedf7e0bbaf62a
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '858'
 ht-degree: 4%
 
 ---
@@ -26,6 +26,10 @@ En este ejemplo, no está seguro de si una fórmula de clasificación específic
 
 * El primer tratamiento usa **priority** como método de clasificación.
 * El segundo tratamiento usa **una fórmula** como método de clasificación.
+
+>[!NOTE]
+>
+>Para obtener detalles de implementación sobre pruebas y deduplicación al utilizar la toma de decisiones en experiencias basadas en código, consulte [esta página](../code-based/code-based-decisioning-implementations.md).
 
 ## Creación de estrategias de selección
 
