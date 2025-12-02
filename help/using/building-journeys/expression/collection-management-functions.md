@@ -9,9 +9,9 @@ level: Experienced
 keywords: consulta, colecciones, funciones, carga útil, recorrido
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: e7693ba84d8806cf4b0dc10e8fdd18f2511e37ea
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '545'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 El lenguaje de expresión también introduce un conjunto de funciones para consultar colecciones. Estas funciones se explican a continuación.
 
-En el siguiente ejemplo, usemos la carga útil de evento que contiene una colección:
+En los ejemplos siguientes, se utiliza un evento denominado &quot;LobbyBeacon&quot; que contiene una colección de tokens de notificaciones push. Los ejemplos de esta página utilizan la estructura de carga útil de evento que se muestra a continuación:
 
 ```json
                 { 
@@ -65,6 +65,10 @@ En el siguiente ejemplo, usemos la carga útil de evento que contiene una colecc
 }
 ```
 
+>[!NOTE]
+>
+>En los ejemplos siguientes, se hace referencia a esta carga útil mediante `@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens}`, donde &quot;LobbyBeacon&quot; es el nombre del evento y el resto de la ruta corresponde a la estructura mostrada anteriormente.
+
 ## La función all(`<condition>`)
 
 La función **[!UICONTROL all]** habilita la definición de un filtro en una colección determinada mediante una expresión booleana.
@@ -73,9 +77,13 @@ La función **[!UICONTROL all]** habilita la definición de un filtro en una col
 <listExpression>.all(<condition>)
 ```
 
-Por ejemplo, entre todos los usuarios de la aplicación, puede obtener los que usan IOS 13 (expresión booleana &quot;app used == IOS 13&quot;). El resultado de esta función es la lista filtrada que contiene elementos que coinciden con la expresión booleana (ejemplo: usuario de aplicación 1, usuario de aplicación 34, usuario de aplicación 432).
+**Ejemplo conceptual:** Entre todos los usuarios de la aplicación, puede obtener los que usan IOS 13 (expresión booleana &quot;app used == IOS 13&quot;). El resultado de esta función es la lista filtrada que contiene elementos que coinciden con la expresión booleana (ejemplo: usuario de aplicación 1, usuario de aplicación 34, usuario de aplicación 432).
 
 En una actividad de condición de Data Source puede comprobar si el resultado de la función **[!UICONTROL all]** es nulo o no. También puede combinar esta función **[!UICONTROL all]** con otras funciones como **[!UICONTROL count]**. Para obtener más información, consulte [Actividad de la condición de Data Source](../condition-activity.md#data_source_condition).
+
+**Ejemplos de código que utilizan la carga útil de LobbyBeacon:**
+
+Los ejemplos siguientes utilizan la carga útil de evento que se muestra en la parte superior de esta página.
 
 
 >[!CAUTION]
