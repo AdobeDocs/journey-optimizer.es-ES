@@ -170,4 +170,4 @@ Esto le permite acceder a información detallada de esa oferta. Seleccione la fi
 
 ## Tutorial en vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341343?captions=spa&quality=12)
