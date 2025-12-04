@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: d4729294a007a348e0233aa8a75bbe3b2999742a
+source-git-commit: 6233fcb466e741fd7eb912e6c59c8daf030f71a0
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 15%
+source-wordcount: '1061'
+ht-degree: 12%
 
 ---
 
@@ -52,7 +52,7 @@ La siguiente tabla enumera todos los conjuntos de datos afectados y su respectiv
 
 A continuación, encontrará las preguntas más frecuentes sobre los conjuntos de datos y el tiempo de vida (TTL).
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++¿Este cambio se aplicará solo a las zonas protegidas de producción o también a las de desarrollo?
 
@@ -78,13 +78,13 @@ Actualmente no se admiten extensiones TTL. Sin embargo, se ha planificado trabaj
 
 >[!NOTE]
 >
->Los datos almacenados en el perfil están sujetos al derecho Volumen total de datos. Por lo tanto, cualquier aumento del almacenamiento de datos en el perfil como resultado de una extensión TTL se contaría con el derecho Volumen de datos total. [Más información](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=es){target=_blank}
+>Los datos almacenados en el perfil están sujetos al derecho Volumen total de datos. Por lo tanto, cualquier aumento del almacenamiento de datos en el perfil como resultado de una extensión TTL se contaría con el derecho Volumen de datos total. [Más información](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++¿Pueden los clientes aumentar el TTL para los datos del conjunto de datos del sistema [!DNL Journey Optimizer] en el lago de datos? 
 
-Actualmente no se admiten extensiones TTL. Los clientes pueden exportar datos a través de Destinos para conservar los datos durante más tiempo. [Más información](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=es){target=_blank}. Además, los clientes con un derecho de **[!DNL Data Distiller]** pueden crear conjuntos de datos derivados para almacenar los datos en el lago de datos sin un TTL. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+Actualmente no se admiten extensiones TTL. Los clientes pueden exportar datos a través de Destinos para conservar los datos durante más tiempo. [Más información](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}. Además, los clientes con un derecho de **[!DNL Data Distiller]** pueden crear conjuntos de datos derivados para almacenar los datos en el lago de datos sin un TTL. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -114,6 +114,30 @@ Se utiliza la marca de tiempo del evento (es decir, no la fecha de ingesta).
 
 +++
 
++++¿Cómo afecta el nuevo TTL a los casos de uso que requieren una retención de datos más larga (por ejemplo, excluyendo perfiles que recibieron un correo electrónico en los últimos 120 días o restringiendo correos electrónicos en un año)?
+
+La nueva directiva TTL limitará el período retroactivo de los datos de conjuntos de datos generados por el sistema en el almacén de perfiles a 90 días y en el lago de datos a 13 meses. Los casos de uso que requieran acceso a datos más allá de estos períodos se verán afectados. Por ejemplo, la segmentación de audiencia o la restricción de frecuencia basada en eventos anteriores a 90 días en el almacén de perfiles ya no serán posibles mediante los conjuntos de datos del sistema.
+
++++
+
++++¿Qué alternativas hay disponibles para retener datos más largos que el TTL?
+
+Los clientes que requieran una retención más larga deben considerar la posibilidad de exportar los datos relevantes de los conjuntos de datos de AJO al almacenamiento externo antes de la caducidad del TTL. Adobe Journey Optimizer admite la exportación de conjuntos de datos a varios destinos de almacenamiento en la nube (Amazon S3, Azure Blob, Google Cloud Storage, etc.). [Más información](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}
+
++++
+
++++¿Qué deben hacer los clientes para prepararse para el cambio de TTL?
+
+* Revise sus casos de uso e identifique los que requieran retención de datos más allá de los nuevos TTL.
+* Configure consultas automatizadas para copiar datos esenciales en conjuntos de datos derivados antes de eliminar datos.
+* Póngase en contacto con su representante de Adobe para discutir cualquier necesidad adicional o posible extensión TTL (prevista para futuras versiones).
+
++++
+
++++¿Se notificará a los clientes antes de que el TTL se aplique en las zonas protegidas existentes?
+
+Sí, se notificará con antelación a los clientes afectados y el equipo de productos trabajará con ellos para garantizar una transición sin problemas.
+
 +++¿Puedo eliminar conjuntos de datos generados por el sistema de Journey Optimizer?
 
 Los conjuntos de datos generados por el sistema de Journey Optimizer están protegidos y no se pueden eliminar a través de la IU estándar de Adobe Experience Platform. Estos conjuntos de datos son esenciales para la funcionalidad de Journey Optimizer y los administra el sistema.
@@ -123,5 +147,6 @@ Si necesita quitar permanentemente un conjunto de datos del sistema de Journey O
 >[!NOTE]
 >
 >Para la limpieza rutinaria de datos dentro de estos conjuntos de datos del sistema, use las operaciones de **[!UICONTROL Ciclo de vida de datos]** disponibles a través de Privacy Service para eliminar registros o identidades específicos. [Más información](../privacy/data-hygiene.md)
+
 
 +++
