@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: conversión, funciones, expresión, recorrido, tipo, conversión
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+source-git-commit: 451a9e1e5d5e6e1408849e8d1c5c9644a95359da
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1054'
 ht-degree: 6%
 
 ---
@@ -142,12 +142,13 @@ Convierte los parámetros en un valor de fecha y hora, según sus tipos.
 
 +++Parámetros
 
-| Parámetro | Tipo |
-|-----------|------------------|
-| fecha y hora en formato ISO-8601 | cadena |
-| id de zona horaria | cadena |
-| fecha y hora sin zona horaria | dateTimeOnly |
-| valor entero de una época en milisegundos | entero |
+| Parámetro | Descripción |
+|--- |--- |
+| cadena | fecha y hora en formato ISO-8601. Una representación de cadena de una fecha y hora con información de zona horaria |
+| cadena | id de zona horaria. Un identificador de zona horaria (por ejemplo, &quot;UTC&quot;, &quot;Europe/Paris&quot;) |
+| dateOnly | representa una fecha sin zona horaria, vista como año-mes-día |
+| dateTimeOnly | representa una fecha y hora sin una zona horaria, vista como año-mes-día-hora-minuto-segundo-milisegundo |
+| entero | valor entero de una época en milisegundos |
 
 +++
 
@@ -155,7 +156,9 @@ Convierte los parámetros en un valor de fecha y hora, según sus tipos.
 
 `toDateTime(<string>)`
 
-`toDateTime(<stringified time zone id>, <dateTimeOnly>)`
+`toDateTime(<string>, <dateOnly>)`
+
+`toDateTime(<string>, <dateTimeOnly>)`
 
 `toDateTime(<integer>)`
 
@@ -165,17 +168,29 @@ Devolver **dateTime**.
 
 +++Ejemplos
 
-`toDateTime ("2023-08-18T23:17:59.123Z")`
+`toDateTime("2023-08-18T23:17:59.123Z")`
 
 Devuelve 2023-08-18T23:17:59.123Z
 
-`toDateTime(toDateTimeOnly("UTC", "2023-08-18T23:17:59.123"))`
+La cadena ISO-8601 ya incluye información de zona horaria.
+
+`toDateTime("Europe/Paris", toDateOnly("2023-08-18"))`
+
+Devuelve 2023-08-18T00:00:00.000+02:00
+
+Esto crea un dateTime combinando una zona horaria con un valor de solo fecha. La hora se establece en medianoche (00:00:00) en la zona horaria especificada.
+
+`toDateTime("UTC", toDateTimeOnly("2023-08-18T23:17:59.123"))`
 
 Devuelve 2023-08-18T23:17:59.123Z
+
+Esto crea un dateTime al aplicar una zona horaria a un valor dateTimeOnly (que no tiene información de zona horaria).
 
 `toDateTime(1560762190189)`
 
-Devuelve 2023-06-17T09:03:10.189Z
+Devuelve 2019-06-17T09:03:10.189Z
+
+Convierte una marca de tiempo Unix en milisegundos en un valor dateTime.
 
 +++
 
