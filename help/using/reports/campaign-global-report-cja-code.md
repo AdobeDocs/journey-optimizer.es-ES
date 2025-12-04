@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
+source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,10 @@ Puede acceder a su informe de campaña basado en código haciendo clic en el bot
 ![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>Las experiencias basadas en código funcionan como interacciones entrantes en las que los usuarios se incluyen accediendo a su sitio o aplicación. En consecuencia, las métricas **Segmentadas** o **Audiencia**, que rastrean los perfiles elegidos para la entrega de mensajes salientes, no se incrementan para las campañas basadas en código.
 
 ## Mostrar y hacer clic {#impressions-code}
 
