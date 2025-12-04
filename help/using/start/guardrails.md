@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
+source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
 workflow-type: tm+mt
-source-wordcount: '3324'
-ht-degree: 85%
+source-wordcount: '3530'
+ht-degree: 86%
 
 ---
 
@@ -62,19 +62,19 @@ Al diseñar mensajes de correo electrónico, el sistema comprueba la configuraci
 
 #### Tamaño del contenido del mensaje para la publicación de recorrido {#message-content-size}
 
-Al publicar recorridos que contienen mensajes de correo electrónico, el tamaño total del contenido del mensaje no debe exceder de **2MB** después del procesamiento back-end. Durante la publicación, el sistema procesa automáticamente el contenido del mensaje aplicando parches a los vínculos e imágenes y aplicando transformaciones, lo que aumenta el tamaño de la carga útil por encima del tamaño del contenido creado.
+Al publicar recorridos que contienen mensajes de correo electrónico, el tamaño total del contenido del mensaje no debe superar los **2 MB** después del procesamiento del back-end. Durante la publicación, el sistema procesa automáticamente el contenido del mensaje aplicando parches a los vínculos e imágenes y aplicando transformaciones, lo que aumenta el tamaño de la carga útil por encima del tamaño del contenido creado.
 
 >[!CAUTION]
 >
->Si el contenido final del mensaje procesado supera los 2 MB, la publicación del recorrido fallará. Para evitar errores de publicación, mantenga el contenido del mensaje creado muy por debajo de los 2 MB (idealmente, por debajo de **1 MB**) para permitir un búfer de 300 a 400 KB para la sobrecarga de procesamiento del servidor.
+>Si el contenido final del mensaje procesado supera los 2 MB, fallará la publicación del recorrido. Para evitar errores de publicación, mantenga el contenido del mensaje creado muy por debajo de los 2 MB (por debajo de **1 MB** a ser posible) para permitir un búfer de 300 a 400 KB para la sobrecarga de procesamiento del back-end.
 
 **Prácticas recomendadas para evitar errores de publicación:**
 
-* Mantener el contenido del correo electrónico creado en menos de 1 MB
+* Mantener el contenido del correo electrónico creado por debajo de 1 MB
 * Minimizar el número de variantes de contenido
 * Optimizar y comprimir imágenes antes de añadirlas a los mensajes
-* Eliminación de recursos no utilizados y elementos de HTML innecesarios
-* Prueba del tamaño del mensaje antes de publicar recorridos en producción
+* Eliminar recursos no utilizados y elementos de HTML innecesarios
+* Compruebe el tamaño del mensaje antes de publicar recorridos en producción
 
 Si la publicación del recorrido falla debido al tamaño del contenido, reduzca el contenido del mensaje y vuelva a publicar el recorrido.
 
@@ -172,6 +172,23 @@ Las protecciones y limitaciones que se deben tener en cuenta al trabajar con tom
 * Una instancia de recorrido de un perfil tiene un tamaño máximo de 1 MB. Todos los datos recopilados como parte de la ejecución del recorrido se almacenan en esa instancia de recorrido. Por lo tanto, los datos de un evento entrante, la información de perfil recuperada de Adobe Experience Platform, las respuestas de acciones personalizadas, etc. se almacenan en esa instancia de recorrido y afectan al tamaño del recorrido. Se recomienda, cuando un recorrido comienza con un evento, limitar el tamaño máximo de esa carga útil de evento (p. ej.: por debajo de 800 KB) para evitar alcanzar ese límite después de unas pocas actividades, en la ejecución del recorrido. Cuando se alcanza ese límite, el perfil está en estado de error y se excluirá del recorrido.
 * Además del tiempo de espera utilizado en las actividades del recorrido, también hay un tiempo de espera de recorrido global que no se muestra en la interfaz y no se puede cambiar. Este tiempo de espera global detiene el progreso de los particulares en el recorrido 91 días después de su entrada. [Más información](../building-journeys/journey-properties.md#global_timeout)
 
+### Seleccionar limitaciones de paquetes para recorridos unitarios {#select-package-limitations}
+
+>[!NOTE]
+>
+>Estas limitaciones no se aplican a los recorridos de audiencia de lectura o de evento empresarial con el paquete **Select**. Si necesita una lógica de recorrido más compleja con varias acciones, condiciones o actividades de espera, considere la posibilidad de actualizar el paquete de licencias o utilizar Leer recorridos de audiencia cuando corresponda.
+
+Para los clientes que usan el paquete de licencia **Select**, las siguientes limitaciones adicionales se aplican específicamente a recorridos unitarios, recorridos que comienzan con un evento o una calificación de audiencia:
+
+* **paquete SELECT: solo se permite una acción en el recorrido unitario (ERR_PKG_SELECT_8)**: los recorridos unitarios solo pueden contener una actividad de acción. No puede agregar varias actividades de correo electrónico, push, SMS u otras actividades de acción dentro del mismo recorrido.
+
+* **Paquete SELECT: no se permite ninguna condición en el recorrido unitario (ERR_PKG_SELECT_7)**: las actividades de condición no se pueden usar en los recorridos unitarios. El recorrido debe seguir una única ruta lineal sin lógica de ramificación.
+
+* **paquete SELECT: no se permite ninguna espera en el recorrido unitario (ERR_PKG_SELECT_6)**: no se pueden agregar actividades de espera a los recorridos unitarios. Las acciones deben ejecutarse inmediatamente sin retrasos.
+
+* **Paquete SELECT: la transición de tiempo de espera/error del nodo solo debe apuntar al nodo final (ERR_PKG_SELECT_2)**: Si configura las transiciones de tiempo de espera o error para una acción, como una acción de correo electrónico, estas rutas deben apuntar directamente a un nodo final. No pueden conectarse a otras actividades o acciones del recorrido.
+
+
 ### Acciones generales {#general-actions-g}
 
 Las siguientes limitaciones se aplican a las [Acciones](../building-journeys/about-journey-activities.md) en sus recorridos:
@@ -196,7 +213,7 @@ Las siguientes limitaciones se aplican a las [versiones del recorrido](../start/
 
 Las siguientes limitaciones se aplican a las [Acciones personalizadas](../action/action.md) en sus recorridos:
 
-* Se define un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. El límite &quot;por host&quot; se aplica en el nivel de dominio (por ejemplo, example.com). Este límite se aplica como una ventana deslizante por zona protegida y por punto final para puntos finales con tiempos de respuesta inferiores a 0,75 segundos. Para los extremos con tiempos de respuesta superiores a 0,75 segundos, se aplica un límite independiente de 150 000 llamadas por 30 segundos (también una ventana deslizante). Consulte [esta página](../action/about-custom-action-configuration.md). Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
+* Se define un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. El límite “por host” se aplica en el nivel de dominio (véase, ejemplo.com). Este límite se aplica como una ventana deslizante por zona protegida y por punto final para puntos finales con tiempos de respuesta inferiores a 0,75 segundos. Para los puntos finales con tiempos de respuesta superiores a 0,75 segundos, se aplica un límite independiente de 150 000 llamadas cada 30 segundos (también una ventana deslizante). Consulte [esta página](../action/about-custom-action-configuration.md). Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
 * La URL de acción personalizada no admite parámetros dinámicos.
 * Se admiten los métodos POST, PUT y llamada de GET
 * El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;

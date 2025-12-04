@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 38d537eb7a14f926cafd2769fd09821eebb1186a
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 16%
+source-wordcount: '634'
+ht-degree: 14%
 
 ---
 
@@ -42,6 +42,8 @@ Cuando utilice Infobip, asegúrese de que la acción Reenvío está establecida 
 
 No se requiere ningún paso para garantizar que las funcionalidades de exclusión de SMS funcionen en Adobe Journey Optimizer, ya que STOP, UNSTOP, START, QUIT, CANCEL, END y UNSUBSCRIBE de las respuestas de palabras clave se reconocen automáticamente. Los estados de exclusión de perfiles se actualizan en tiempo real en Adobe Journey Optimizer.
 
+Si define palabras clave de exclusión personalizadas en sus credenciales de API de SMS, anulan las palabras clave de entrada predeterminadas que se enumeran anteriormente. Para mantener funcionales las palabras clave predeterminadas, como STOP, QUIT, CANCEL, END y UNSUBSCRIBE, inclúyalas explícitamente junto con las palabras clave personalizadas en el campo Palabras clave de exclusión de la configuración de SMS. De lo contrario, solo se reconocerán las palabras clave personalizadas y las palabras clave predeterminadas dejarán de estar en déclencheur con las acciones de exclusión.
+
 Tenga en cuenta que si un cliente responde STOP a un mensaje de texto, el proveedor bloquea todos los SMS posteriores a partir de ese ID de remitente específico (código corto o número largo), incluidos los mensajes transaccionales. Para garantizar el envío ininterrumpido de SMS transaccionales, utilice un ID de remitente independiente que no se haya excluido anteriormente.
 
 
@@ -71,6 +73,6 @@ Los ID de remitente alfanuméricos solo se utilizan en la mensajería unidirecci
 
   +++ Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440278/?captions=spa&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++

@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: bd0f1f6b63616bcef4cfc50706e42612e0a04e89
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 14%
+source-wordcount: '1061'
+ht-degree: 13%
 
 ---
 
@@ -179,6 +179,23 @@ Una vez configuradas, puede aprovechar todas las funcionalidades de canal integr
 
 Ya estás listo para enviar mensajes de WhatsApp con Journey Optimizer.
 
+## Solucionar problemas de configuración de canales de WhatsApp {#troubleshooting}
+
+### Errores HTTP 500 durante la configuración de credenciales de API
+
+Si se produce un error HTTP 500 al configurar las credenciales de la API de WhatsApp, siga estos pasos para solucionar problemas:
+
+1. **Verificar derechos**: Confirme que su organización tiene el derecho `cjm_whatsapp` aprovisionado. Sin este derecho, el canal de WhatsApp no se puede configurar.
+
+1. **Validar campos de cuenta empresarial**: Asegúrese de que todos los campos obligatorios estén correctamente rellenados:
+   * **Token de API**: debe ser un token de acceso de Meta válido con los permisos apropiados. [Más información](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+   * **ID de cuenta empresarial**: debe coincidir exactamente con su ID de cuenta empresarial de Meta. [Más información](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)
+
+1. **Probar credenciales externamente**: compruebe sus credenciales directamente con la API de Meta para confirmar si el problema se debe a las credenciales o a la administración de credenciales de Journey Optimizer.
+
+1. **Habilitar el registro avanzado**: Para identificar errores de configuración del servidor o la autenticación internos, habilite los registros avanzados en su entorno de Journey Optimizer para proporcionar información detallada sobre los errores de las llamadas de API.
+
+1. **Póngase en contacto con el soporte técnico**: Si el entorno y los derechos se confirman válidos, pero el error HTTP 500 persiste, póngase en contacto con el representante de Adobe.
 
 ## Vídeo práctico {#video}
 
@@ -186,6 +203,6 @@ El siguiente vídeo muestra cómo configurar el canal de WhatsApp en Adobe Journ
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470271/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

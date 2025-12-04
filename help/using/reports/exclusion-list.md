@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '868'
 ht-degree: 8%
 
 ---
@@ -63,7 +63,7 @@ Para obtener más información sobre los motivos de exclusión específicos, con
 | InAppNoVariantDefined | 050041 | InApp | Se genera un evento de exclusión cuando no se define ninguna variante para el mensaje en la aplicación. |
 | InAppNoMessageFoundForTreatment | 050042 | InApp | Se genera un evento de exclusión cuando el experimento está habilitado para el mensaje y no se encuentra ningún mensaje para el tratamiento cualificado. |
 | PushNoTokenFoundInProfile | 050030 | Push | Se genera un evento de exclusión cuando el perfil no tiene tokens push. |
-| PushNoValidTokenFoundForApps | 050031 | Push | Se genera un evento de exclusión cuando no se encuentra ningún token válido para las aplicaciones de destino en la configuración. |
+| PushNoValidTokenFoundForApps | 050031 | Push | Se genera un evento de exclusión cuando no se encuentra ningún token válido para las aplicaciones de destino en la configuración. **Importante:** Al usar un certificado de producción, el atributo `pushNotificationDetails.platform` del perfil de usuario debe establecerse en `apns`. Si usa un certificado de zona protegida, establézcalo en `apnsSandbox`. Una discrepancia entre el atributo platform y el tipo de certificado almacenará en déclencheur esta exclusión. |
 | PushMalformattedProfile | 050034 | Push | Se genera un evento de exclusión cuando pushNotificationDetails tiene un formato incorrecto en el perfil. |
 | PushNoConsent | 050111 | Push | Se genera un evento de exclusión cuando el usuario ha excluido las notificaciones push de marketing. |
 | PushNoApplicationDefinedInPreset | 050033 | Push | Se genera un evento de exclusión cuando la configuración no contiene ninguna aplicación de destino. |

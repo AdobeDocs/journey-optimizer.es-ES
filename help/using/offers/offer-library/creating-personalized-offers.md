@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 18%
+source-wordcount: '807'
+ht-degree: 16%
 
 ---
 
@@ -52,11 +52,6 @@ Se puede acceder a la lista de ofertas personalizadas en el menú **[!UICONTROL 
 >id="ajo_decisioning_new_personalized"
 >title="Oferta personalizada"
 >abstract="Una oferta personalizada es un mensaje personalizable basado en reglas de elegibilidad y restricciones."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_new_fallback"
->title="Oferta de reserva"
->abstract="Una oferta de reserva es la oferta predeterminada que se muestra cuando un usuario final no cumple los requisitos para ninguna de las ofertas personalizadas."
 
 Para crear una **oferta**, siga estos pasos:
 
@@ -175,4 +170,4 @@ Esto le permite acceder a información detallada de esa oferta. Seleccione la fi
 
 ## Tutorial en vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341343?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

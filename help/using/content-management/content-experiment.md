@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, audiencia, tratamiento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
+source-git-commit: 462859568ffcacab644d587e328cf92ce053aa00
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1927'
 ht-degree: 6%
 
 ---
@@ -105,6 +105,12 @@ Para el experimento de contenido, puede elegir entre tres tipos de experimento:
 1. Haga clic en **[!UICONTROL Agregar tratamiento]** para crear tantos tratamientos nuevos como sea necesario.
 
    ![](assets/content_experiment_8.png)
+
+   >[!CAUTION]
+   >
+   >Al crear un experimento basado en código, tenga en cuenta las siguientes limitaciones:
+   >* **Recuento de tratamientos**: la creación de más de 3 a 5 tratamientos puede causar problemas de rendimiento e interfaz. Si encuentra errores al añadir tratamientos, intente reducir el número de tratamientos o agréguelos gradualmente hasta que se resuelva el problema.
+   >* **Palabras clave reservadas**: evite utilizar palabras clave reservadas como &quot;holdout&quot; en los nombres de tratamiento, ya que esto puede provocar errores de asignación de nodos de decisión e impedir que el experimento funcione correctamente.
 
 1. Cambie **[!UICONTROL Title]** del tratamiento para diferenciarlo mejor.
 
