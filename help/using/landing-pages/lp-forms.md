@@ -10,9 +10,9 @@ level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, página, formulario
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+source-git-commit: 13ef8ae4fa988537db192eca0b906940e51eeb28
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1630'
 ht-degree: 10%
 
 ---
@@ -69,9 +69,16 @@ Para crear un ajuste preestablecido de formulario, siga los pasos a continuació
 
 1. Seleccione la **[!UICONTROL conexión de transmisión]** que se usará para ese formulario. Este es el punto final de streaming al que se envían los datos al enviar el formulario.
 
-   >[!NOTE]
+   Obtenga más información sobre cómo crear una conexión de origen de flujo continuo en la [documentación de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+
+   >[!IMPORTANT]
    >
-   >Obtenga más información sobre cómo crear una conexión de origen de flujo continuo en la [documentación de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Para que una conexión de flujo continuo HTTP API se muestre en la lista desplegable, debe cumplir los siguientes requisitos cuando se crea en Adobe Experience Platform:
+   >
+   >* **El tipo de datos** debe establecerse en **XDM** (no datos sin procesar)
+   >* **La autenticación** debe estar **deshabilitada** (conexión no autenticada)
+   >
+   >Si la conexión de flujo continuo no aparece en la lista, compruebe que se cumplen ambas condiciones. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Seleccione un **[!UICONTROL conjunto de datos]** para vincularlo con el formulario. Aquí es donde se almacenan y reflejan las respuestas del formulario. Puede escribir si desea buscar un conjunto de datos específico o seleccionarlo en la lista.
 
