@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: expresión, editor, handlebars, iteration, array, context, personalization
-source-git-commit: 44999e7b1a246d584dccd81bfb426222169d4f67
+source-git-commit: 61f5302510cc5082a36f17314378760e5ba7c3ae
 workflow-type: tm+mt
 source-wordcount: '2484'
 ht-degree: 3%
@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Ejemplo: Elementos de carro de compras de un evento
 
-Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM [estándar](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=es){target="_blank"}), puede mostrar el contenido del carro de compras de la siguiente manera:
+Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM [estándar](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}), puede mostrar el contenido del carro de compras de la siguiente manera:
 
 ```handlebars
 {{#each context.journey.events.event_ID.productListItems as |product|}}
@@ -529,6 +529,7 @@ serializeList(
 * Resultado: `"SKU-1,SKU-3"` (adecuado para un parámetro de consulta)
 
 Más información sobre:
+
 * [`all`](../building-journeys/expression/collection-management-functions.md)
 * [`serializeList`](../building-journeys/functions/list-functions.md#serializeList)
 
@@ -565,11 +566,11 @@ La administración de colecciones para acciones personalizadas se explica en [Pa
 
 1. En el modo Avanzado, defina la expresión de colección:
 
-```javascript
-@event{YourEventName.commerce.productListItems.all(currentEventField.priceTotal > 0)}
-```
+   ```javascript
+   @event{YourEventName.commerce.productListItems.all(currentEventField.priceTotal > 0)}
+   ```
 
-&#x200B;2. En la interfaz de usuario de asignación de colecciones:
+1. En la interfaz de usuario de asignación de colecciones:
    * Asignar `id` → `productListItems.SKU`
    * Asignar `name` → `productListItems.name`
    * Asignar `price` → `productListItems.priceTotal`
@@ -685,13 +686,13 @@ Obtenga más información en [Usar respuestas de llamadas API](../action/action-
 **Paso 3: Conectar la acción en el recorrido**
 
 1. Después del evento de abandono del carro de compras, agregue la acción personalizada
-2. En el modo Avanzado de la colección `cartItems`:
+1. En el modo Avanzado de la colección `cartItems`:
 
-```javascript
-@event{cartAbandonment.commerce.productListItems.all(currentEventField.quantity > 0)}
-```
+   ```javascript
+   @event{cartAbandonment.commerce.productListItems.all(currentEventField.quantity > 0)}
+   ```
 
-&#x200B;3. Asigne los campos de recopilación:
+1. Asigne los campos de recopilación:
    * `sku` → `productListItems.SKU`
    * `price` → `productListItems.priceTotal`
    * `quantity` → `productListItems.quantity`
