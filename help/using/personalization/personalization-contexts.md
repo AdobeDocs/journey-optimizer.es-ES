@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Ejemplo: Elementos de carro de compras de un evento
 
-Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM [estándar](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}), puede mostrar el contenido del carro de compras de la siguiente manera:
+Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM [estándar](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=es){target="_blank"}), puede mostrar el contenido del carro de compras de la siguiente manera:
 
 ```handlebars
 {{#each context.journey.events.event_ID.productListItems as |product|}}
