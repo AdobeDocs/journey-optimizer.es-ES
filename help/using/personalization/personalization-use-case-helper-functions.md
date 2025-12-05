@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 keywords: expresión, editor, ayudantes, caso de uso, personalización
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 2%
@@ -52,7 +52,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 1. Cree un evento cuyo esquema incluya la matriz `productListItems`.
 1. Defina todos los campos de esta matriz como campos de carga útil para este evento.
 
-   Obtenga más información acerca del tipo de datos de elementos de la lista de productos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=es){target="_blank"}.
+   Obtenga más información acerca del tipo de datos de elementos de la lista de productos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Cree un recorrido que comience con este evento.
 1. Agregue una actividad **Correo electrónico** al recorrido.
@@ -105,7 +105,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Obtenga más información acerca del tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=es){target="_blank"}.
+      Obtenga más información acerca del tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Haga clic en **[!UICONTROL Validar]** y luego en **[!UICONTROL Guardar]**.
 
@@ -114,6 +114,8 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 1. Guarde el mensaje.
 
 ## Paso 4: Insertar la lista de elementos del carro de compras {#each-helper}
+
+<!--This step demonstrates iterating over event data. For comprehensive examples of iterating over different data sources (events, custom action responses, and other contextual data), see [Iterate over contextual data with Handlebars](personalization-contexts.md).-->
 
 1. Vuelva a abrir el contenido del mensaje.
 
@@ -344,4 +346,4 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
 Aprenda a utilizar las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416643?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
