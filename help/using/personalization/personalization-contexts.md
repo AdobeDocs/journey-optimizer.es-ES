@@ -569,7 +569,7 @@ La administración de colecciones para acciones personalizadas se explica en [Pa
 @event{YourEventName.commerce.productListItems.all(currentEventField.priceTotal > 0)}
 ```
 
-2. En la interfaz de usuario de asignación de colecciones:
+&#x200B;2. En la interfaz de usuario de asignación de colecciones:
    * Asignar `id` → `productListItems.SKU`
    * Asignar `name` → `productListItems.name`
    * Asignar `price` → `productListItems.priceTotal`
@@ -691,7 +691,7 @@ Obtenga más información en [Usar respuestas de llamadas API](../action/action-
 @event{cartAbandonment.commerce.productListItems.all(currentEventField.quantity > 0)}
 ```
 
-3. Asigne los campos de recopilación:
+&#x200B;3. Asigne los campos de recopilación:
    * `sku` → `productListItems.SKU`
    * `price` → `productListItems.priceTotal`
    * `quantity` → `productListItems.quantity`
