@@ -33,7 +33,7 @@ Cuando Journey Optimizer ejecuta una llamada a una API externa, las protecciones
 
 >[!TIP]
 >
->Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` ](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
+>Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
 
 ## API de límite y restricción {#capping}
 
