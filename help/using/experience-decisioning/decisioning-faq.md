@@ -8,9 +8,9 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 7bf0b3fbfe56ef8ae3a35be9aa604287f43d6d74
+source-git-commit: 54ed4dec71703a0444920baf4fb0a2d8318034cd
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -53,9 +53,9 @@ Ambos componentes son necesarios para obtener [modelos de optimización personal
 
 +++**¿Cómo afectan los cambios en las colecciones de ofertas a la optimización automática o a los modelos de optimización personalizados?**
 
-Ambos modelos proporcionarán tráfico a la siguiente mejor oferta disponible según los datos de tráfico de los últimos 30 días.
+El modelo de optimización automática proporciona tráfico a la siguiente mejor oferta disponible en función de los datos de tráfico de los últimos 14 días, independientemente de si el modelo de optimización personalizado utiliza datos de tráfico de los últimos 30 días.
 
-Cuando se eliminan varias ofertas simultáneamente y las ofertas restantes tienen datos de tráfico mínimos dentro de la ventana de 30 días, el modelo puede mostrar un comportamiento subóptimo, incluidos patrones de distribución aleatorios o sesgo hacia ofertas con tasas de conversión más altas basadas en datos de impresión limitados.
+Cuando se eliminan varias ofertas simultáneamente y las ofertas restantes tienen datos de tráfico mínimos dentro del intervalo de 14 o 30 días, el modelo puede mostrar un comportamiento subóptimo, incluidos patrones de distribución aleatorios o sesgo hacia ofertas con tasas de conversión más altas basadas en datos de impresión limitados.
 
 **Práctica recomendada**: cuando modifique de forma significativa las colecciones de ofertas, compruebe que las ofertas restantes tengan datos de rendimiento históricos suficientes para mantener la eficacia del modelo.
 
