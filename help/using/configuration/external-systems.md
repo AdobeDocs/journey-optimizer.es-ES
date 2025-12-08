@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
+source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
 workflow-type: tm+mt
 source-wordcount: '1805'
 ht-degree: 19%
@@ -33,7 +33,7 @@ Cuando Journey Optimizer ejecuta una llamada a una API externa, las protecciones
 
 >[!TIP]
 >
->Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
+>Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` ](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
 
 ## API de límite y restricción {#capping}
 
@@ -60,7 +60,7 @@ Para obtener más información sobre cómo trabajar con las API, consulte estas 
 * [API de límite](capping.md)
 * [API de limitación](throttling.md)
 
-Hay disponible una descripción detallada de las API en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
+Hay disponible una descripción detallada de las API en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)
 
 ### Capacidad de fuentes de datos y acciones personalizadas {#capacity}
 
@@ -110,11 +110,11 @@ Veamos un ejemplo para un tiempo de espera de 5 segundos.
 
 A continuación, encontrará las preguntas más frecuentes sobre la integración de Journey Optimizer con sistemas externos.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ ¿Cómo puedo configurar una regla de restricción o límite? ¿Existe una regla predeterminada?
 
-Para crear reglas de restricción o límite, consulte [esta sección](../configuration/external-systems.md#capping). De forma predeterminada, no hay ninguna regla de restricción, pero se establece un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. El límite &quot;por host&quot; se aplica en el nivel de dominio (por ejemplo, example.com). Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../action/about-custom-action-configuration.md) para obtener más información sobre cómo solicitar aumentos de límite.
+Para crear reglas de restricción o límite, consulte [esta sección](../configuration/external-systems.md#capping). De forma predeterminada, no hay ninguna regla de restricción, pero se establece un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. El límite “por host” se aplica en el nivel de dominio (véase, ejemplo.com). Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../action/about-custom-action-configuration.md) para obtener más información sobre cómo solicitar aumentos de límite.
 
 +++
 

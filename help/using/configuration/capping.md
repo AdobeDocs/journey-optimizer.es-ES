@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 6%
@@ -23,7 +23,7 @@ Esta sección proporciona información global sobre cómo trabajar con la API. H
 
 ## Descripción de la API de límite y colección de Postman {#description}
 
-En la tabla siguiente se enumeran los comandos disponibles para la API de límite. Encontrará información detallada, incluidos ejemplos de solicitudes, parámetros y formatos de respuesta, en la [documentación de API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/){target="_blank"}.
+En la tabla siguiente se enumeran los comandos disponibles para la API de límite. Encontrará información detallada, incluidos ejemplos de solicitudes, parámetros y formatos de respuesta, en la [documentación de API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/){target="_blank"}.
 
 | Método | Ruta | Descripción |
 |---|---|---|
