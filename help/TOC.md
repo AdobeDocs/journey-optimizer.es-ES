@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7ab576435c2605167ad1dd463ae5e7d5dc71c13c
+source-git-commit: e09cdd834abd0a0ca3f6f5210c0ecbe3afa29b45
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '2997'
 ht-degree: 99%
 
 ---
@@ -121,6 +121,7 @@ ht-degree: 99%
    + Casos de uso {#journey-use-cases}
       + [Casos de uso](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [Descubra los casos de uso](using/building-journeys/jo-use-cases.md)
+      + [Criterios de entrada y salida de recorrido](using/building-journeys/entry-exit-criteria-guide.md)
       + [Búsqueda de eventos de experiencia](using/building-journeys/exp-event-lookup.md)
       + [Envío de mensajes multicanal](using/building-journeys/journeys-uc.md)
       + [Envío de un mensaje mediante Campaign v7/v8](using/building-journeys/ajo-ac.md)
@@ -389,7 +390,7 @@ ht-degree: 99%
       + [Comprobación y envío de los mensajes de LINE](using/line/send-line.md)
    + Actividad en directo {#live-activity}
       + [Introducción a la actividad en directo](using/mobile-live/get-started-mobile-live.md)
-      + [Creación de una actividad en directo](using/mobile-live/create-mobile-live.md)
+      + [Crear una actividad en directo](using/mobile-live/create-mobile-live.md)
       + [Preguntas frecuentes](using/mobile-live/mobile-live-faq.md)
       + Configuración del canal de tarjetas de contenido {#configure}
          + [Configuración de actividad en directo en Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
@@ -825,7 +826,7 @@ ht-degree: 99%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}

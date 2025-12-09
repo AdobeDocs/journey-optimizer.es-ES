@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1207'
 ht-degree: 3%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 3%
 # Administración de la entrada del perfil {#entry-management}
 
 La administración de la entrada del perfil depende del tipo de recorrido.
+
+>[!TIP]
+>
+>¿Busca orientación práctica con ejemplos reales? Consulte nuestra [guía completa de criterios de entrada y salida de recorrido](entry-exit-criteria-guide.md), que incluye casos de uso como campañas de bienvenida, recuperación del carro de compras abandonado y programas de fidelidad con ejemplos completos de configuración de entrada y salida.
 
 ## Tipos de recorridos {#types-of-journeys}
 
@@ -115,3 +119,10 @@ Hay varias opciones disponibles para los recorridos de lectura de audiencia recu
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
 -->
+
+## Temas relacionados
+
+* [Guía de criterios de entrada y salida de Recorrido](entry-exit-criteria-guide.md): guía completa con ejemplos reales y prácticas recomendadas
+* [Configurar criterios de salida](journey-properties.md#exit-criteria): defina cuándo deben salir los perfiles del recorrido
+* [Finalizar un recorrido](end-journey.md): comprenda cómo se cierran y finalizan los recorridos
+* [Casos de uso de Recorrido](jo-use-cases.md): vea ejemplos completos con configuraciones de entrada y salida

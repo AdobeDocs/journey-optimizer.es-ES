@@ -9,14 +9,18 @@ level: Intermediate
 keywords: volver a entrar, recorrido, finalizar, en directo, detener
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
 
 # Finalizar un recorrido {#journey-ending}
+
+>[!TIP]
+>
+>¿Busca instrucciones prácticas sobre cuándo y cómo deben salir los perfiles de los recorridos? Consulte nuestra [guía completa de criterios de entrada y salida de recorrido](entry-exit-criteria-guide.md), que incluye escenarios de salida reales, prácticas recomendadas y directrices de configuración.
 
 ## Cómo termina un recorrido en directo
 
@@ -105,3 +109,10 @@ Cuando está detenido, el estado del recorrido se establece en **[!UICONTROL Det
 >[!CAUTION]
 >
 >Permisos para detener un recorrido restringido a usuarios con el permiso de alto nivel **[!DNL Manage journeys]**. Obtenga más información acerca de la administración de los derechos de acceso de los usuarios de [!DNL Journey Optimizer] en [esta sección](../administration/permissions-overview.md).
+
+## Temas relacionados
+
+* [Guía de criterios de entrada y salida de Recorrido](entry-exit-criteria-guide.md): guía completa con ejemplos reales y prácticas recomendadas
+* [Administración de entrada de perfiles](entry-management.md): configure el modo en que los perfiles escriben recorridos
+* [Configurar criterios de salida](journey-properties.md#exit-criteria) - Configurar la eliminación automática de perfiles de las recorridos
+* [Pausar un recorrido](journey-pause.md): detener temporalmente la ejecución del recorrido

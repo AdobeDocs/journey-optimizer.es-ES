@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2849'
 ht-degree: 15%
 
 ---
@@ -273,6 +273,10 @@ Al añadir criterios de salida, hace que los perfiles salgan del recorrido en cu
 
 Es posible que desee eliminar perfiles de un recorrido cuando ya no cumplan el propósito del recorrido. Esto se puede lograr mediante **criterios de salida globales**, que están estrechamente asociados con la administración de objetivos.
 
+>[!TIP]
+>
+>¿Busca orientación práctica con ejemplos reales? Consulte nuestra [guía completa de criterios de entrada y salida de recorrido](entry-exit-criteria-guide.md), que incluye casos de uso completos con configuraciones de entrada y salida, prácticas recomendadas y estrategias de optimización.
+
 **Caso de uso de ejemplo**
 
 Un experto en marketing tiene un recorrido promocional que tiene una serie de comunicaciones. Cada una de estas comunicaciones tiene como objetivo impulsar al cliente a realizar una compra. Tan pronto como se realice la compra, el cliente no debe recibir el resto de los mensajes de la serie. Al definir un criterio de salida, los perfiles que hayan realizado una compra se eliminan de la recorrido.
@@ -331,6 +335,13 @@ Se aplican las siguientes limitaciones al usar la capacidad [Criterios de salida
 
    * En un **recorrido de borrador**, la opción *Atributo de perfil* aparece deshabilitada (solo lectura), mientras que las opciones *Evento* y *Audiencia* permanecen activas.
    * En un **recorrido pausado**, la opción *Atributo de perfil* se vuelve editable, y las opciones *Evento* y *Audiencia* se vuelven de solo lectura.
+
+### Temas relacionados {#exit-criteria-related}
+
+* [Guía de criterios de entrada y salida de Recorrido](entry-exit-criteria-guide.md): guía completa con ejemplos reales y prácticas recomendadas
+* [Administración de entrada de perfiles](entry-management.md): configure el modo en que los perfiles escriben recorridos
+* [Cómo terminan los recorridos](end-journey.md) - Comprender la finalización natural de los recorridos
+* [Pausar un recorrido con criterios de salida de atributo de perfil](journey-pause.md#journey-exit-criteria) - Usar criterios de salida al pausar recorridos
 
 ## programación de recorrido {#schedule}
 
