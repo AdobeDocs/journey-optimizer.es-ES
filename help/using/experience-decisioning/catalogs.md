@@ -7,14 +7,19 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 5d2903c1b5fe3e2fcc5d550d883629c884adeedf
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: '410'
+ht-degree: 6%
 
 ---
 
-# Catálogo de artículos {#catalog}
+# Configuración del catálogo de elementos {#catalog}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="Definición de los atributos personalizados"
+>abstract="Los atributos personalizados son atributos específicos adaptados a sus necesidades que puede asignar a un elemento de decisión. Se crean en el esquema de catálogo de los elementos de decisión."
 
 En Decisioning, los catálogos sirven como contenedores centrales para organizar los elementos de decisión. Cada catálogo está vinculado a un esquema de Adobe Experience Platform, que incluye todos los atributos asignables a un elemento de decisión.
 
@@ -22,7 +27,7 @@ Por ahora, todos los elementos de decisión creados se consolidan dentro de un �
 
 ![](assets/catalogs-list.png)
 
-## Mecanismos de protección y limitaciones
+## Protecciones y limitaciones
 
 Para garantizar un rendimiento y una coherencia óptimos, Decisioning aplica las siguientes barreras y limitaciones:
 
