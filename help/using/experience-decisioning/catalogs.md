@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 5d2903c1b5fe3e2fcc5d550d883629c884adeedf
+source-git-commit: 20408838a030ceeb8e61f5e1b80d910a8a21b87d
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '426'
 ht-degree: 6%
 
 ---
@@ -53,11 +53,11 @@ Para acceder al esquema del catálogo donde se almacenan los atributos de los el
 1. El esquema del catálogo se abre en una nueva pestaña, que sigue la estructura siguiente:
 
    * El nodo **`_experience`** incluye atributos de elementos de decisión estándar como nombre, fecha de inicio y finalización y descripción.
-   * El nodo **`_<imsOrg>`** contiene atributos de elementos de decisión personalizados. De forma predeterminada, no se configuran atributos personalizados, pero puede agregar tantos como sea necesario para adaptarlos a sus necesidades. Una vez finalizado, los atributos personalizados aparecen en la pantalla de creación de elementos de decisión junto con los atributos estándar.
+   * El nodo **`_<imsOrg>`** aloja atributos de elementos de decisión personalizados, donde `<imsOrg>` se reemplaza con el nombre de su organización (por ejemplo, `_luma` para la compañía de Luma). De forma predeterminada, no se configuran atributos personalizados, pero puede agregar tantos como sea necesario para adaptarlos a sus necesidades. Una vez finalizado, los atributos personalizados aparecen en la pantalla de creación de elementos de decisión junto con los atributos estándar.
 
    ![](assets/catalogs-schema.png)
 
-1. Para agregar un atributo personalizado al esquema, expanda el nodo **`_<imsOrg>`** y haga clic en el botón &quot;+&quot; en la ubicación deseada en la estructura.
+1. Para agregar un atributo personalizado al esquema, expanda el nodo de su organización (por ejemplo, **`_luma`**) y haga clic en el botón &quot;+&quot; en la ubicación deseada en la estructura.
 
    ![](assets/catalogs-add.png)
 
