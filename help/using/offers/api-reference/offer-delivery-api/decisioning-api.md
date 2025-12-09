@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1094'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,12 @@ Con Administración de decisiones, puede crear y ofrecer experiencias de oferta 
 Puede crear y enviar ofertas realizando una petición POST a la API [!DNL Decisioning].
 
 Este tutorial requiere una comprensión práctica de las API, específicamente en lo que respecta a la administración de decisiones. Para obtener más información, consulte la [Guía para desarrolladores de API de administración de decisiones](../getting-started.md). Este tutorial también requiere que tenga un ID de ubicación único y un valor de ID de decisión disponibles. Si no ha adquirido estos valores, consulte los tutoriales de [creación de una ubicación](../offers-api/placements/create.md) y [creación de una decisión](../activities-api/activities/create.md).
+
+>[!NOTE]
+>
+>**Pasar datos de contexto en solicitudes de Decisioning**
+>
+>Puede pasar datos de contexto (como tipo de dispositivo, ubicación o preferencias de usuario) en las solicitudes de Decisioning para crear reglas de elegibilidad dinámicas y entregar ofertas personalizadas basadas en condiciones en tiempo real. [Más información sobre datos de contexto y solicitudes de toma de decisiones](../../context-data-decisioning.md)
 
 ## Encabezados obligatorios {#required-headers}
 
@@ -222,7 +228,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342828/?captions=spa&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Próximos pasos {#next-steps}
 

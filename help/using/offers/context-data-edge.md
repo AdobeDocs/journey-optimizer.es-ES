@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ Este caso de uso implica varios pasos clave:
 
 >[!BEGINSHADEBOX]
 
-Para ir más lejos, también puede aprovechar los datos de contexto en **fórmulas de clasificación** o **personalizar las representaciones de sus ofertas** de forma dinámica. Por ejemplo, se puede crear una sola oferta y utilizar campos de personalización para adaptar su representación en función de los datos de contexto. Por ejemplo, mostrar una imagen determinada si el usuario tiene un iphone y otra para los usuarios de ipad. Para obtener más información, consulte estas secciones:
+Para ir más lejos, también puede aprovechar los datos de contexto en **fórmulas de clasificación** o **personalizar las representaciones de sus ofertas** de forma dinámica. Por ejemplo, se puede crear una sola oferta y utilizar campos de personalización para adaptar su representación en función de los datos de contexto. Por ejemplo, mostrar una imagen determinada si el usuario tiene un iPhone y otra para los usuarios de iPad. Para obtener más información, consulte estas secciones:
 
 * [Fórmulas de clasificación: aumente las ofertas basadas en datos de contexto](../offers/ranking/create-ranking-formulas.md#context-data)
 * [Personalizar representaciones basadas en datos de contexto](../offers/offer-library/add-representations.md#context-data)
@@ -40,9 +40,9 @@ Para ir más lejos, también puede aprovechar los datos de contexto en **fórmul
 
 ## Requisitos previos para pasar datos de contexto en solicitudes de Edge Decisioning {#prerequisites}
 
-A diferencia de pasar el contexto en un formato bastante libre mediante la API de decisiones, la carga útil de contexto de Edge Decisioning debe ser compatible con el evento de experiencia XDM. Para ello, el contexto debe definirse como parte del &quot;Evento de experiencia XDM&quot; que se utiliza para la recopilación de datos.
+A diferencia de pasar contexto en un formato libre mediante la API de decisiones, el contexto de Edge Decisioning requiere compatibilidad con XDM. La carga útil de contexto debe ser compatible con Experience Event XDM. Para ello, el contexto debe definirse como parte del &quot;Evento de experiencia XDM&quot; que se utiliza para la recopilación de datos.
 
-1. Defina un esquema de evento de experiencia. Para el propósito de este caso de uso, se crea un esquema &quot;Contexto de oferta&quot; y los campos del contexto de oferta forman parte de un grupo de campos &quot;Contexto de oferta&quot;. En realidad, el grupo de campos se agregaría al esquema de evento de experiencia utilizado para la recopilación de datos asociado al flujo de datos &quot;Edge Collection Network&quot;.
+1. Defina un esquema de evento de experiencia. Para el propósito de este caso de uso, se crea un esquema &quot;Contexto de oferta&quot; y los campos del contexto de oferta forman parte de un grupo de campos &quot;Contexto de oferta&quot;. En realidad, el grupo de campos se agregaría al esquema de evento de experiencia utilizado para la recopilación de datos asociados con el flujo de datos &quot;Edge Collection Network&quot;.
 
    >[!NOTE]
    >
@@ -50,31 +50,31 @@ A diferencia de pasar el contexto en un formato bastante libre mediante la API d
 
    En este ejemplo, el grupo de campos &quot;Contexto de oferta&quot; tiene dos propiedades: language y deviceType. Estas propiedades se utilizarán en la clasificación de ofertas y en las reglas de elegibilidad.
 
-   ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
+   ![Esquema XDM que muestra el grupo de campos Contexto de oferta con propiedades language y deviceType](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Aprenda a trabajar con esquemas en la guía de Adobe Experience Platform [Experience Data Model (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home){target="_blank"}
+   Aprenda a trabajar con esquemas en [!DNL Adobe Experience Platform] [Guía del modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}
 
 1. Cree un conjunto de datos (aquí &quot;Contexto de la oferta&quot;) y asegúrese de que esté habilitado para el perfil.
 
-1. Cree una nueva secuencia de datos a partir del menú **[!UICONTROL Recopilación de datos]** > **[!UICONTROL Secuencias de datos]**. Aprenda a crear y configurar flujos de datos en la [guía de flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure){target="_blank"} de Adobe Experience Platform
+1. Cree una nueva secuencia de datos a partir del menú **[!UICONTROL Recopilación de datos]** > **[!UICONTROL Secuencias de datos]**. Aprenda a crear y configurar flujos de datos en [!DNL Adobe Experience Platform] [Guía de flujos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
    Aquí, hemos creado un flujo de datos de &quot;Contexto de oferta&quot;, con el esquema de evento &quot;Contenido de oferta&quot; seleccionado.
 
-   ![](assets/context-edge-datastream.png)
+   ![Configuración de secuencia de datos de contexto de oferta con esquema de evento seleccionado](assets/context-edge-datastream.png)
 
 1. Edite el conjunto de datos recién creado y seleccione &quot;Adobe Experience Platform&quot; como servicio y &quot;Contexto de oferta&quot; como conjunto de datos de evento.
 
-   ![](assets/context-edge-datastream-new.png)
+   ![Configuración del servicio de flujo de datos con Adobe Experience Platform y el conjunto de datos de contexto de oferta](assets/context-edge-datastream-new.png)
 
 1. Guarde la secuencia de datos y copie su ID. Este ID se utilizará en el punto final de su solicitud de API. [Aprenda a crear la llamada de API](#request)
 
-   ![](assets/context-edge-datastream-copy.png)
+   ![Copiando el ID de secuencia de datos desde la interfaz de configuración](assets/context-edge-datastream-copy.png)
 
 ## Uso de datos de contexto en reglas de idoneidad {#rules}
 
 Cree reglas de aceptación que determinen qué ofertas mostrar en función del tipo de dispositivo del usuario:
 
-![](assets/context-edge-device.png)
+![Reglas de elegibilidad de tipo de dispositivo para ofertas de iPhone y iPad](assets/context-edge-device.png)
 
 * regla de dispositivo iphone:
 
@@ -100,14 +100,14 @@ Cree reglas de aceptación que determinen qué ofertas mostrar en función del t
 
 Cree una oferta para cada tipo de dispositivo y vincúlela a la regla de elegibilidad correspondiente creada anteriormente:
 
-* Oferta para usuarios de iphone:
+* Oferta para usuarios de iPhone:
 
-   * Nombre de la oferta : &quot;Edge Context - iPhone Offer Content&quot;
+   * Nombre de la oferta: &quot;Edge Context - Contenido de la oferta de iPhone&quot;
    * Regla asociada: &quot;Regla de contexto de Edge: iphone&quot;
 
-* Oferta para usuarios de ipad:
+* Oferta para usuarios de iPad:
 
-   * Nombre de la oferta: Contexto de Edge - Contenido de la oferta de iPad
+   * Nombre de la oferta: &quot;Edge Context - Contenido de la oferta de iPad&quot;
    * Regla asociada: &quot;Regla de contexto de Edge - ipad&quot;
 
 Además, cree una oferta de reserva (aquí &quot;Contenido de reserva de contexto&quot;) para que se muestre si no se cumplen criterios específicos de dispositivo.
@@ -116,13 +116,13 @@ Además, cree una oferta de reserva (aquí &quot;Contenido de reserva de context
 
 Añada las ofertas creadas anteriormente a una colección estática llamada aquí &quot;Edge Device Context&quot;. Esta colección es donde la decisión de oferta elegirá las ofertas elegibles para presentarlas a los clientes.
 
-![](assets/context-edge-collection.png)
+![Colección de contexto de dispositivo Edge que contiene ofertas específicas del dispositivo](assets/context-edge-collection.png)
 
 ## Crear decisión de oferta {#decision}
 
 Cree una nueva decisión que aproveche el motor de decisión de ofertas para elegir la mejor oferta que se presentará a los usuarios según su tipo de dispositivo con la oferta de &quot;reserva de contexto&quot; seleccionada como oferta de reserva.
 
-![](assets/context-edge-decision.png)
+![Configuración de decisión de oferta con contexto de reserva como oferta de reserva](assets/context-edge-decision.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Este es un ejemplo de una solicitud que pasa datos de contexto.
 
   +++Dónde recuperar el ámbito de decisión
 
-  ![](assets/context-edge-copy-scope.png)
+  ![Ubicación para copiar el ámbito de decisión de la interfaz de decisión de ofertas](assets/context-edge-copy-scope.png)
 
   +++
 
