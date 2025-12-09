@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3215129db1909c3f14f91f11d98a93144b58a837
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 17%
+source-wordcount: '2162'
+ht-degree: 16%
 
 ---
 
@@ -37,7 +37,7 @@ Para crear un elemento de decisión, vaya a **[!UICONTROL Decisioning]** > **[!U
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
 >title="Definición de los atributos personalizados"
->abstract="Los atributos personalizados son atributos específicos adaptados a sus necesidades que puede asignar a un elemento de decisión. Se crean en el esquema de catálogo de los elementos de decisión. Esta sección solo se muestra si ha añadido al menos un atributo personalizado al esquema del catálogo."
+>abstract="Los atributos personalizados son atributos específicos adaptados a sus necesidades que puede asignar a un elemento de decisión. Se crean en el esquema de catálogo de los elementos de decisión."
 
 Comience por definir los atributos estándar y personalizados del elemento de decisión:
 
@@ -83,8 +83,8 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 >abstract="De forma predeterminada, todos los perfiles podrán recibir el elemento de decisión, pero puede utilizar públicos o reglas para reservar el elemento únicamente a perfiles específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
