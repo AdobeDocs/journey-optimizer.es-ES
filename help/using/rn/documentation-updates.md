@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: fd42ff8502f03debb0bb8c6c0c286744be62c561
 workflow-type: tm+mt
 source-wordcount: '3674'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -33,15 +33,15 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 <!--* A new Decisioning FAQ page is now available, covering topics such as capping rules, AI model configuration, traffic requirements, and offer optimization strategies. [Read more](../experience-decisioning/decisioning-faq.md)-->
 
-* La página de Introducción al diseño de correo electrónico se ha actualizado para aclarar cómo acceder al Designer de correo electrónico. [Más información](../email/get-started-email-design.md)
+* La página de Introducción al diseño del correo electrónico se ha actualizado para aclarar cómo acceder al Diseñador de correo electrónico. [Más información](../email/get-started-email-design.md)
 
-* Se ha agregado una sección de solución de problemas a la página de registro de DMARC para abordar la latencia de propagación de DNS. [Más información](../configuration/dmarc-record.md#troubleshooting)
+* Se ha añadido una sección de solución de problemas a la página de registro DMARC para abordar la latencia de propagación de DNS. [Más información](../configuration/dmarc-record.md#troubleshooting)
 
-* La página Trabajar con GenStudio for Performance Marketing se ha mejorado con nuevas secciones que incluyen funciones clave, casos de uso comunes, requisitos previos y preguntas más frecuentes. [Más información](../integrations/genstudio.md)
+* La página Trabajar con GenStudio for Performance Marketing se ha mejorado con nuevas secciones que incluyen funcionalidades clave, casos de uso comunes, requisitos previos y preguntas frecuentes. [Más información](../integrations/genstudio.md)
 
-* Se ha añadido una protección en la segmentación de perfiles seudónimos con canales entrantes a la página Protecciones y limitaciones: segmentar visitantes no autenticados aumenta el recuento total de perfiles atractivos, por lo que Adobe recomienda configurar un tiempo de vida (TTL) para la eliminación automática de perfiles a fin de administrar los costes asociados. [Más información](../start/guardrails.md#profile-management-inbound)
+* Se ha añadido un mecanismo de protección en la segmentación de perfiles seudónimos con canales de entrada a la página Mecanismos de protección y limitaciones: la segmentación de visitantes no autenticados aumenta el recuento total de perfiles atractivos, por lo que Adobe recomienda configurar un período de vida TTL (Time-To-Live) para la eliminación automática de perfiles a fin de administrar los costes asociados. [Más información](../start/guardrails.md#profile-management-inbound)
 
-* Ahora se hace referencia a dos tutoriales sobre la configuración de Web SDK para la toma de decisiones y experiencias basadas en código en la página de ejemplos Métodos de implementación basados en código. [Más información](../code-based/code-based-decisioning-implementations.md#tutorials)
+* Ahora se incluyen dos tutoriales sobre la configuración del SDK web para la toma de decisiones y experiencias basadas en código en la página de muestras Métodos de implementación basados en código. [Más información](../code-based/code-based-decisioning-implementations.md#tutorials)
 
 * Se ha añadido una nota para especificar que los recursos y las imágenes siguen siendo accesibles durante un máximo de 2 años (730 días) desde la primera publicación y que es necesario volver a publicarlos una vez caducados. [Más información](../content-management/proofs.md)
 
@@ -397,7 +397,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Information has been added regarding the behaviour of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -427,7 +427,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Decision Management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=es){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -502,7 +502,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -630,7 +630,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

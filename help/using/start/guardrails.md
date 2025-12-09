@@ -12,7 +12,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
 workflow-type: tm+mt
 source-wordcount: '3530'
-ht-degree: 86%
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 A continuación encontrará mecanismos de protección y limitaciones adicionales cuando utilice [!DNL Adobe Journey Optimizer].
 
-Los derechos, limitaciones de productos y protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Los derechos, limitaciones de productos y protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}.
 
 
 >[!CAUTION]
@@ -88,31 +88,31 @@ Las siguientes limitaciones se aplican a la actividad [canal de SMS](../sms/get-
 
 ### Mecanismos de protección de canal de entrada {#inbound-guardrails}
 
-* Para utilizar las acciones de [experiencia basada en código](../code-based/get-started-code-based.md) en [!DNL Journey Optimizer]y entregar carga útil de contenido de código que pueda ser utilizada por sus aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
+* Para utilizar las acciones de [experiencia basada en código](../code-based/get-started-code-based.md) en [!DNL Journey Optimizer] y entregar carga útil de contenido de código que pueda ser utilizada por sus aplicaciones, siga los requisitos previos detallados en [esta página](../code-based/code-based-prerequisites.md).
 
 * Para poder obtener acceso a [páginas web](../web/get-started-web.md) y crearlas en la interfaz de usuario de [!DNL Journey Optimizer], siga los requisitos previos enumerados en [esta página](../web/web-prerequisites.md).
 
-* Para enviar mensajes en la aplicación en sus recorridos y campañas con [!DNL Journey Optimizer], siga los requisitos previos de entrega que se enumeran en [esta página](../in-app/inapp-configuration.md).
+* Para enviar mensajes en la aplicación en sus recorridos y campañas con [!DNL Journey Optimizer], siga los requisitos previos de envío que se enumeran en [esta página](../in-app/inapp-configuration.md).
 
 * Para que Adobe Journey Optimizer muestre correctamente las tarjetas de contenido, debe establecer la configuración de Adobe Experience Platform que aparece en [esta página](../content-card/content-card-configuration-prereq.md).
 
 * Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido entrantes por segundo. Este mecanismo de protección se aplica a todas las solicitudes entrantes, que pueden proceder de cualquiera de los canales entrantes admitidos por Journey Optimizer ([web](../web/get-started-web.md), [en la aplicación](../in-app/get-started-in-app.md), [experiencias basadas en código](../code-based/get-started-code-based.md), [tarjetas de contenido](../../rp_landing_pages/content-card-landing-page.md)).
 
-* Journey Optimizer admite un máximo de 500 acciones entrantes activas en cualquier momento. Estas acciones entrantes se cuentan si forman parte de una campaña en directo o si son un nodo utilizado en un recorrido en directo. Una vez alcanzado este número, debe desactivar las campañas o recorridos más antiguos que utilicen acciones entrantes antes de poder iniciar nuevas.
+* Journey Optimizer admite un máximo de 500 acciones entrantes activas en cualquier momento. Estas acciones de entrada se cuentan si forman parte de una campaña activa o si son un nodo usado en un recorrido activo. Una vez alcanzado este número, debe desactivar las campañas o recorridos más antiguos que utilicen acciones entrantes antes de poder iniciar nuevas.
 
-#### Administración de perfiles con canales entrantes {#profile-management-inbound}
+#### Administración de perfiles con canales de entrada {#profile-management-inbound}
 
-[!DNL Journey Optimizer] canales entrantes pueden dirigirse a perfiles seudónimos, es decir, perfiles que no se han autenticado o que aún no se conocen porque no se han utilizado anteriormente en otros canales. Este es el caso, por ejemplo, al dirigirse a todos los visitantes o audiencias en función de ID temporales como ECID.
+Los canales de entrada de [!DNL Journey Optimizer] se pueden dirigir a perfiles seudónimos, es decir, perfiles que no se han autenticado o que aún no se conocen porque no se han utilizado anteriormente en otros canales. Este es el caso, por ejemplo, al dirigirse a todos los visitantes o públicos en función de ID temporales como ECID.
 
-Esto aumenta el recuento total de perfiles atractivos, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles atractivos que ha adquirido. Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Puede comprobar el número de perfiles atractivos en [tablero de uso de licencias](../audience/license-usage.md).
+Esto aumenta el recuento total de perfiles interesados, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles interesados que ha adquirido. Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}. Puede comprobar el número de perfiles interesados en el [panel de control de uso de licencias](../audience/license-usage.md).
 
-Para mantener los perfiles atractivos dentro de límites razonables, Adobe recomienda configurar un tiempo de vida (TTL) para eliminar automáticamente los perfiles seudónimos del perfil del cliente en tiempo real si no se han visto o no se han identificado en un intervalo de tiempo específico.
+Para mantener los perfiles interesados dentro de límites razonables, Adobe recomienda establecer un período de vida (TTL, Time-To-Live) para eliminar automáticamente los perfiles seudónimos del perfil del cliente en tiempo real si no se han visto ni han interactuado en un intervalo de tiempo específico.
 
 >[!NOTE]
 >
 >Aprenda a configurar la caducidad de los datos de los perfiles seudónimos en la [documentación de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
 
-Adobe recomienda establecer el valor TTL en 14 días para que coincida con el TTL de perfil de Edge actual.
+Adobe recomienda establecer el valor TTL en 14 días para que coincida con el TTL del perfil de Edge actual.
 
 ### Mecanismos de protección de mensajes transaccionales {#transactional-message-guardrails}
 
@@ -152,7 +152,7 @@ Las siguientes limitaciones se aplican a los [fragmentos](../content-management/
 
 * Al introducir datos, los correos electrónicos distinguen entre mayúsculas y minúsculas. Significa que se pueden crear perfiles duplicados (por ejemplo, un perfil para Juan.Greene@luma.com y otro perfil para juan.greene@luma.com) y utilizarse al segmentar el destinatario correspondiente en sus recorridos y campañas de [!DNL Journey Optimizer].
 
-* Al segmentar perfiles seudónimos (visitantes no autenticados) con canales entrantes, considere la posibilidad de establecer un tiempo de vida (TTL) para la eliminación automática de perfiles a fin de administrar el recuento de perfiles atractivos y los costes asociados. [Más información](#profile-management-inbound)
+* Cuando se dirija a perfiles seudónimos (visitantes no autenticados) con canales de entrada, considere la posibilidad de establecer un tiempo de vida (TTL) para la eliminación automática de perfiles a fin de administrar el recuento de perfiles atractivos y los costes asociados. [Más información](#profile-management-inbound)
 
 ## Mecanismos de protección de gestión de decisiones y toma de decisiones {#decisioning-guardrails}
 
