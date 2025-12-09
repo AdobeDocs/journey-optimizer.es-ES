@@ -10,19 +10,19 @@ level: Beginner, Intermediate
 keywords: correo electrónico, diseño, stock, activos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Introducción al diseño de correo electrónico {#get-started-content-design}
 
-Para acceder al Designer de correo electrónico y comenzar a diseñar el contenido de tu correo electrónico, primero debes [crear un correo electrónico](create-email.md) en un recorrido o una campaña.
+Para acceder al Diseñador de correo electrónico y comenzar a diseñar el contenido de su correo electrónico, primero debe [crear un correo electrónico](create-email.md) en un recorrido o una campaña.
 
-A continuación, puede usar [!DNL Journey Optimizer] **funciones de diseño de correo electrónico** para importar contenido existente o empezar a crear correos electrónicos adaptables desde cero. [Más información](content-from-scratch.md)
+A continuación, puede usar [!DNL Journey Optimizer] **funcionalidades de diseño de correo electrónico** para importar el contenido existente o empezar a crear correos electrónicos adaptables desde cero. [Más información](content-from-scratch.md)
 
-El Designer de correo electrónico también le permite:
+El Diseñador de correo electrónico también le permite lo siguiente:
 
 * Aproveche **Adobe Experience Manager Assets Essentials** para enriquecer los correos electrónicos, crear y administrar su propia base de datos de activos. [Más información](../integrations/assets.md)
 
@@ -82,8 +82,8 @@ Consulte la tabla siguiente para conocer las prácticas recomendadas sobre el di
 
 Aprenda a crear contenido de correo electrónico con el editor de mensajes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416231?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Aprenda a configurar experimentos de contenido para realizar pruebas A/B y explorar el contenido de correo electrónico que mejor impulsa sus objetivos empresariales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447334?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

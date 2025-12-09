@@ -6,9 +6,9 @@ description: Toma de decisiones
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
 source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ La función de toma de decisiones de Adobe Journey Optimizer le permite suminist
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a la toma de decisiones
 
@@ -30,7 +30,7 @@ Conozca los aspectos básicos de las tomas de decisiones en Adobe Journey Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Mecanismos de protección y limitaciones de las tomas de decisiones
 
@@ -40,7 +40,7 @@ Conozca las restricciones y las prácticas recomendadas para utilizar las tomas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 Preguntas frecuentes
 
@@ -50,7 +50,7 @@ Obtenga respuestas a preguntas comunes sobre Decisioning, incluidas las reglas d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referencia de API: envío de ofertas
 
@@ -60,7 +60,7 @@ Explore cómo enviar ofertas utilizando el canal de experiencia basada en códig
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Administrar elementos de decisión y catálogos
 
@@ -70,7 +70,7 @@ Configure y administre elementos de decisión, catálogos y colecciones para org
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Crear reglas de decisión
 
@@ -80,7 +80,7 @@ Defina reglas de decisión para dirigirse a los públicos con precisión mediant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Crear clasificaciones con modelos de IA
 
