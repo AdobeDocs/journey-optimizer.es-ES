@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 9d3100389f6cfbd80ef8539db831ecc6817848c5
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 9%
@@ -34,7 +34,7 @@ A continuación se muestran algunas funciones adicionales:
 
 * Flujo de trabajo de cuatro pasos e interfaz de usuario sencillos.
 * Proporciona una configuración básica para empezar a recopilar datos de eventos móviles mediante [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} en minutos.
-* Capacidad para probar y validar un evento push móvil básico con [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=es){target="_blank"}.
+* Capacidad para probar y validar un evento push móvil básico con [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 * Crea y configura automáticamente todos los recursos de recopilación de datos y Journey Optimizer necesarios.
 * En la guía del producto y la información sobre herramientas.
 * Proporciona una transición natural para una implementación más avanzada si es necesario.
