@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
+source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 34%
+source-wordcount: '1126'
+ht-degree: 33%
 
 ---
 
@@ -21,7 +21,7 @@ Para acceder a Adobe Journey Optimizer, inicia sesión en [Adobe Experience Clou
 
 >[!NOTE]
 >
->* Los componentes y las funciones disponibles en su entorno dependen de sus [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}.
+>* Los componentes y las funciones disponibles en su entorno dependen de sus [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}.
 >* Esta documentación se actualiza con frecuencia. Algunas capturas de pantalla pueden diferir ligeramente de la interfaz.
 
 ## Explicación rápida {#quick-tour}
@@ -57,6 +57,7 @@ La navegación de la izquierda organiza las funcionalidades de Journey Optimizer
 * **Plantillas de contenido**: plantillas de mensajes reutilizables para campañas y recorridos. [Crear plantillas](../content-management/content-templates.md)
 * **Fragmentos**: bloques de contenido que se pueden usar en varios mensajes. [Trabajar con fragmentos](../content-management/fragments.md)
 * **Páginas de destino**: formularios web para suscripciones y preferencias. [Diseño de páginas de destino](../landing-pages/get-started-lp.md)
+* **Manuales de casos de uso**: Flujos de trabajo creados previamente para escenarios de marketing comunes. [Explorar libros de reproducción](ai-features.md#playbooks)
 
 **Administración de datos**: administra tu base de datos. [Más información sobre esquemas y conjuntos de datos](../data/get-started-schemas.md)
 * **Esquemas** - Definir estructura de datos
@@ -85,8 +86,8 @@ La navegación de la izquierda organiza las funcionalidades de Journey Optimizer
 * **Reglas de negocio**: controla la frecuencia de mensajes y la entrada de recorrido. [Configurar reglas de negocio](../conflict-prioritization/rule-sets.md)
 * **Alertas**: vea y administre alertas del sistema. [Supervisar alertas](../reports/alerts.md)
 * **Zonas protegidas** - Administrar entornos y copiar objetos entre zonas protegidas. [Trabajar con zonas protegidas](../administration/sandboxes.md)
-* **Canales**: configure los ajustes de canal y la capacidad de entrega
-* **Etiquetas**: organizar y categorizar contenido
+* **Canales**: configure los parámetros de canal y la capacidad de entrega. [Configurar configuraciones de canal](../configuration/channel-surfaces.md) | [Introducción a la configuración](../configuration/get-started-configuration.md)
+* **Etiquetas**: organiza y categoriza el contenido. [Trabajar con etiquetas unificadas](search-filter-categorize.md#tags)
 
 ## Características de barra superior {#top-bar}
 

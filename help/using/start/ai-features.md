@@ -7,16 +7,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4847276532155a698cf997e22a0894c737208595
+source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1469'
 ht-degree: 4%
 
 ---
 
 # Funciones inteligentes y de IA {#ai-features}
 
-Adobe Journey Optimizer aprovecha el poder de la inteligencia artificial y el aprendizaje automático para ayudarle a crear, optimizar y ofrecer experiencias de cliente excepcionales. Desde la generación de contenido personalizado hasta la predicción de tiempos de envío óptimos, las capacidades de IA optimizan el flujo de trabajo y maximizan el impacto.
+Adobe Journey Optimizer aprovecha el poder de la inteligencia artificial y el aprendizaje automático para ayudarle a crear, optimizar y ofrecer experiencias de cliente excepcionales. Desde la generación de contenido personalizado hasta la predicción de tiempos de envío óptimos, las capacidades de IA optimizan el flujo de trabajo y maximizan el impacto. Los manuales de casos de uso proporcionan plantillas creadas previamente para implementar rápidamente escenarios de marketing comunes.
 
 ## Asistente de IA {#ai-assistant}
 
@@ -136,10 +136,6 @@ Basándose en las capacidades conversacionales de AI Assistant, Adobe Journey Op
 
 **Agent Orchestrator**: coordina varios agentes especializados para resolver desafíos de marketing complejos en varios pasos. El orquestador determina automáticamente qué agentes implicar y secuenciar su trabajo de forma eficaz. [Más información sobre Agent Orchestrator](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
-**Obteniendo acceso:**
-
-Los agentes de IA están disponibles para los clientes con acceso de asistente de IA. Póngase en contacto con su representante de Adobe para obtener detalles específicos sobre licencias y activación.
-
 ## Generación de contenido con tecnología de IA {#content-generation}
 
 Utilice IA generativa para crear y personalizar el contenido en varios canales, lo que acelera el proceso de creación de contenido y mantiene la coherencia de la marca. El asistente de IA para la generación de contenido está disponible para las experiencias [correo electrónico](../email/get-started-email.md), [notificaciones push](../push/get-started-push.md), [SMS](../sms/get-started-sms.md) y [web](../web/get-started-web.md), lo que le ayuda a generar líneas de asunto, texto independiente, imágenes y variaciones completas de mensajes.
@@ -245,7 +241,7 @@ Examine los libros de reproducción de Journey Optimizer para conocer escenarios
 
 +++
 
-[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=es){target="_blank"}
+[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Capacidades adicionales de IA {#additional-capabilities}
 
