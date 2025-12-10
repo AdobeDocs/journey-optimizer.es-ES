@@ -63,6 +63,6 @@ Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras difere
 
 Solo las audiencias creadas en Audience Portal pueden segmentarse directamente en [!DNL Journey Optimizer] recorridos y campañas. [Más información sobre los tipos de audiencia disponibles](../audience/about-audiences.md#types).
 
-Si necesita segmentar destinatarios a partir de una audiencia no admitida, como una audiencia de Customer Journey Analytics, debe envolverla en una nueva definición de segmento en el portal de audiencias. Encontrará información detallada sobre cómo agregar audiencias en una definición de segmento en la [documentación del Generador de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+Si necesita segmentar destinatarios a partir de una audiencia no admitida, como una audiencia de Customer Journey Analytics, debe envolverla en una nueva definición de segmento en el portal de audiencias. Encontrará información detallada sobre cómo agregar audiencias en una definición de segmento en la [documentación del Generador de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 Una vez finalizado, espere a que se complete la evaluación de la segmentación para utilizarla en sus recorridos y campañas.
