@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 19%
+source-wordcount: '584'
+ht-degree: 18%
 
 ---
 
@@ -38,7 +38,7 @@ A medida que se producen flujos de datos en tiempo real o cargas por lotes, los 
 
 Esta documentación proporciona información sobre cómo trabajar con audiencias dentro de [!DNL Adobe Journey Optimizer]. Encontrará información detallada sobre Audience Portal y las audiencias en la documentación del servicio de segmentación de Adobe Experience Platform. Consulte estas secciones para obtener más información:
 
-* [Guía de interfaz de usuario del servicio de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Guía de interfaz de usuario del servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [Servicio de segmentación - Preguntas más frecuentes](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -73,6 +73,10 @@ Las audiencias se pueden generar mediante diferentes métodos:
 * **Composición de audiencias**: cree un flujo de trabajo de composición para combinar audiencias existentes en un lienzo visual y aplicar acciones como clasificación, división o unión para crear nuevas audiencias. [Aprenda a trabajar con la composición de audiencias](get-started-audience-orchestration.md)
 
 * **Composición de audiencias federada**: federe conjuntos de datos directamente desde el almacén de datos existente para crear y enriquecer audiencias y atributos de Adobe Experience Platform en un solo sistema. [Aprenda a trabajar con la composición de audiencias federada](federated-audience-composition.md).
+
+## Audiencias objetivo en recorridos y campañas {#target-audiences}
+
+Una vez que las audiencias estén listas, puede seleccionarlas al crear recorridos o campañas, lo que le permite llegar a las personas adecuadas en el momento adecuado con mensajes relevantes. [Más información acerca de la activación de audiencias en Journey Optimizer](target-audiences.md).
 
 ## Vídeo práctico {#video}
 
