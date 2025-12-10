@@ -1,13 +1,13 @@
 ---
 title: Eliminación de un elemento de decisión
 description: Los elementos de decisión son ofertas de marketing que se pueden crear y organizar en colecciones y catálogos.
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 0fd608e0-df71-4e2d-8304-d7d5561c7c7a
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 6%

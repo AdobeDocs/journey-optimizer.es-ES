@@ -1,13 +1,13 @@
 ---
 title: Búsqueda de un elemento de decisión
 description: Los elementos de decisión son ofertas de marketing que se pueden crear y organizar en colecciones y catálogos.
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 8a4e09ec-57bc-48ad-b626-6a15ba987791
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 8%
