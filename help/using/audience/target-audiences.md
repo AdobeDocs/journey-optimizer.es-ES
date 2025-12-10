@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 22%
+source-wordcount: '667'
+ht-degree: 21%
 
 ---
 
@@ -49,9 +49,7 @@ Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras difere
 
 * Use una actividad de orquestación **Leer audiencia** en un recorrido para hacer que todos los individuos de la audiencia entren al recorrido y reciban los mensajes incluidos en el recorrido. Supongamos que tiene un público de “clientes plata”. Con esta actividad, puede hacer que todos los “clientes plata” entren en un recorrido y se les envíe una serie de mensajes personalizados. [Obtenga información sobre cómo configurar la actividad Leer público](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
-  >[!NOTE]
-  >
-  >Cualquier recorrido que utilice una audiencia de la composición de audiencias o una carga personalizada en la actividad &quot;Leer audiencia&quot; tendrá atributos de perfil tan recientes como la última evaluación por lotes. Esto incluye consentimientos/supresiones en el recorrido.
+  Para los recorridos que utilizan audiencias de redacción de audiencias o carga personalizada, los atributos de perfil son tan nuevos como la última evaluación por lotes al introducir el recorrido. Sin embargo, después de una actividad de **Wait**, el recorrido actualiza los atributos de perfil del servicio Unified Profile Service (UPS), con lo que se obtienen los datos disponibles más recientes, lo que significa que los atributos de perfil pueden cambiar durante la ejecución del recorrido. [Más información acerca de la actualización de perfiles después de una actividad de espera](../building-journeys/wait-activity.md#profile-refresh)
 
 * Utilice la actividad **Condición** en un recorrido para crear condiciones basadas en el abono del público. [Aprenda a utilizar los públicos en condiciones](../building-journeys/condition-activity.md#using-a-segment).
 

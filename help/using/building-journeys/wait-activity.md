@@ -10,10 +10,10 @@ level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 15%
+source-wordcount: '891'
+ht-degree: 12%
 
 ---
 
@@ -102,8 +102,18 @@ Una práctica recomendada es utilizar fechas personalizadas específicas para lo
 
 Para validar que la actividad de espera funciona según lo esperado, puede utilizar eventos de paso. [Más información](../reports/query-examples.md#common-queries).
 
-## Nodo de espera automático  {#auto-wait-node}
+## Actualización de perfil tras esperar {#profile-refresh}
 
+Cuando un perfil está estacionado en una actividad **Wait** en un recorrido que comienza con una actividad **Read Audience**, el recorrido actualiza automáticamente los atributos del perfil desde el servicio Unified Profile Service (UPS) para recuperar los datos disponibles más recientes.
+
+* **En la entrada de recorrido**: los perfiles utilizan valores de atributo de la instantánea de audiencia que se evaluó cuando se inició el recorrido.
+* **Después de un nodo de espera**: el recorrido realiza una búsqueda para recuperar los datos de perfil más recientes de UPS, no los datos de instantánea más antiguos. Esto significa que los atributos del perfil pueden haber cambiado desde que comenzó el recorrido.
+
+Este comportamiento garantiza que las actividades descendentes utilicen la información de perfil actual después de un periodo de espera. Sin embargo, puede producir resultados inesperados si espera que el recorrido utilice únicamente los datos de instantánea originales durante la ejecución.
+
+Ejemplo: Si un perfil se califica para una audiencia de &quot;cliente plata&quot; al inicio del recorrido, pero se actualiza a &quot;cliente oro&quot; durante una espera de 3 días, las actividades posteriores a la espera verán el estado actualizado de &quot;cliente oro&quot;.
+
+## Nodo de espera automático  {#auto-wait-node}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node "
