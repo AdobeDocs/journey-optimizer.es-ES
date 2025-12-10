@@ -74,7 +74,7 @@ Esta guía de referencia define los términos esenciales que se encontrará al u
 
 >[!NOTE]
 >
->Para obtener un glosario completo de términos de Adobe Experience Platform, consulte el [glosario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
+>Para obtener un glosario completo de términos de Adobe Experience Platform, consulte el [glosario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=es){target="_blank"}.
 
 ## Temas relacionados {#related-topics}
 

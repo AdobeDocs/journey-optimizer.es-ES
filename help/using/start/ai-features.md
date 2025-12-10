@@ -253,7 +253,7 @@ Examine los libros de reproducción de Journey Optimizer para conocer escenarios
 
 ![Interfaz de manuales de casos de uso](assets/playbooks-filter.png)
 
-[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=es){target="_blank"}
 
 ## Capacidades adicionales de IA {#additional-capabilities}
 
@@ -312,5 +312,5 @@ La mayoría de las funciones de IA se incluyen con Adobe Journey Optimizer. Algu
 >* [Documentación del agente de experimentación](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
 >* [Guía de optimización del tiempo de envío](../building-journeys/send-time-optimization.md)
 >* [Crear modelos de clasificación de IA](../experience-decisioning/ranking/create-ai-models.md)
->* [Documentación de manuales de casos de uso](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+>* [Documentación de manuales de casos de uso](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=es){target="_blank"}
 
