@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, entregabilidad
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
+source-git-commit: fd9ae1f554357a0379e4c93b91f1d475c99d8ac3
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 73%
+source-wordcount: '322'
+ht-degree: 56%
 
 ---
 
@@ -52,8 +52,18 @@ Los pasos clave para implementar un plan de calentamiento de IP son los siguient
 
 Obtenga información sobre cómo crear y ejecutar un plan de calentamiento de IP.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453843/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
 >Obtenga más información sobre cómo aumentar su reputación de correo electrónico con el calentamiento de IP en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=es).
+
+## Recursos adicionales {#additional-resources}
+
+Explore estas útiles publicaciones de blog para obtener instrucciones más detalladas sobre el calentamiento de la IP:
+
+* [Comprender cómo configurar el calentamiento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949): conozca los aspectos básicos de la configuración de planes de calentamiento de IP y las prácticas recomendadas para una implementación exitosa.
+
+* [Funciones avanzadas en planes de calentamiento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958): descubra funciones avanzadas y controles granulares para optimizar su estrategia de calentamiento de IP.
+
+* [Solución de problemas de calentamiento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952): encuentre soluciones a problemas comunes, como retrasos de audiencia, y obtenga información acerca de los mecanismos de reintentos inteligentes.
