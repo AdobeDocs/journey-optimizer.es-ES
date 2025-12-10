@@ -4,11 +4,12 @@ product: Journey Optimizer
 title: Introducción a los modelos de IA
 description: Obtenga información acerca de los modelos de IA que permiten clasificar ofertas
 feature: Ranking, Decision Management
+topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: 07679823-2288-4528-b09a-12fd76a69482
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 18%

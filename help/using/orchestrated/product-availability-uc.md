@@ -3,8 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Notificar a los usuarios sobre la disponibilidad del producto
 description: Notificar a los usuarios sobre la disponibilidad del producto
+feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 3%

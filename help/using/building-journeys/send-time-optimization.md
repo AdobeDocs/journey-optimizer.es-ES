@@ -4,16 +4,16 @@ product: journey optimizer
 title: Optimización del tiempo de envío
 description: Obtenga información sobre cómo parametrizar la optimización del tiempo de envío en los mensajes
 feature: Journeys, Activities, Email, Push, Send Time Optimization
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 keywords: tiempo de envío, envío, mensaje, optimización, recorrido, IA, inteligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1546'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -101,7 +101,7 @@ Los tiempos de envío de exploración se seleccionan al azar entre los tiempos d
 
 A continuación encontrará las preguntas más frecuentes sobre la optimización del tiempo de envío.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más información? Use las opciones de comentarios situados en la parte inferior de esta página para plantear su pregunta o conecte con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
 
 +++¿Cuánto tiempo debo esperar antes de utilizar la optimización del tiempo de envío?
 

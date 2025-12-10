@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Caso de uso de Personalization&dos puntos; notificación del estado del pedido
 description: Obtenga información sobre cómo personalizar un mensaje con información de perfil, decisión de oferta y contexto.
-feature: Personalization
+feature: Personalization, Use Cases
 topic: Personalization
 role: Developer
 level: Intermediate
 keywords: expresión, editor, caso de uso, personalización
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 2%
@@ -110,4 +110,4 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
 El siguiente vídeo muestra un caso de uso similar que aprovecha los datos contextuales de un recorrido para personalizar un correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428527?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

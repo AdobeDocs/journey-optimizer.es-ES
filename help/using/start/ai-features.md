@@ -4,10 +4,10 @@ product: journey optimizer
 title: Funciones inteligentes y de IA
 description: Descubra cómo la IA y el aprendizaje automático mejoran las capacidades de Adobe Journey Optimizer
 feature: Overview
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 4%
@@ -241,7 +241,7 @@ Examine los libros de reproducción de Journey Optimizer para conocer escenarios
 
 +++
 
-[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=es){target="_blank"}
+[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Capacidades adicionales de IA {#additional-capabilities}
 

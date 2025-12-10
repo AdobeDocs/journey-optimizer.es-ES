@@ -3,8 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Captar clientes mediante la actividad de navegación
 description: Captar clientes mediante la actividad de navegación
+feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-Tenga en cuenta que este caso de uso comienza con una audiencia que ya existe en Experience Platform, específicamente, una audiencia de comportamiento web en tiempo real que recopila la actividad de navegación a medida que se produce. [Más información en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+Tenga en cuenta que este caso de uso comienza con una audiencia que ya existe en Experience Platform, específicamente, una audiencia de comportamiento web en tiempo real que recopila la actividad de navegación a medida que se produce. [Más información en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **Esquemas necesarios para este caso de uso:**
 

@@ -5,11 +5,12 @@ title: Introducción a los modelos de IA
 description: Obtenga información acerca de los modelos de IA que permiten clasificar ofertas
 badge: label="Heredado" type="Informative"
 feature: Ranking, Decision Management
+topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 15%
@@ -64,4 +65,4 @@ Los pasos principales para crear y utilizar modelos de IA son los siguientes:
 
 Obtenga información sobre cómo crear un modelo de IA para Offer Decisioning y cómo aplicarlo a una decisión.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445647?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

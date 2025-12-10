@@ -1,13 +1,13 @@
 ---
 title: Caso de uso sobre la toma de decisiones
 description: Aprenda a crear decisiones y utilizarlas en experimentos de contenido con el canal de experiencia basado en código
-feature: Decisioning
+feature: Decisioning, Use Cases
 topic: Integrations
 role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 17c8bc8b37c4bdf7c93735e152eedf7e0bbaf62a
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 4%

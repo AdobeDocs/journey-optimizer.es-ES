@@ -4,12 +4,12 @@ product: journey optimizer
 title: Convertir imágenes a plantillas de HTML con el convertidor de imágenes a HTML
 description: Aprenda a utilizar el conversor de imágenes a HTML con tecnología de IA para convertir diseños de imagen en plantillas de correo electrónico editables de HTML
 feature: Email Design
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: correo electrónico, plantilla, imagen, HTML, IA, diseño, convertidor
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 3%
@@ -17,8 +17,6 @@ ht-degree: 3%
 ---
 
 # Convertir imágenes a plantillas de HTML con el convertidor de imágenes a HTML {#image-to-html}
-
-
 
 ## Información general {#overview}
 
