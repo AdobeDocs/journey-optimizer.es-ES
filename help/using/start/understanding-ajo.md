@@ -6,7 +6,7 @@ description: Descubra cómo funciona Adobe Journey Optimizer con Adobe Experienc
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Adobe Journey Optimizer funciona como un flujo continuo en el que los datos se r
 Adobe Experience Platform sirve como columna vertebral, permitiendo a las marcas centralizar los datos de los clientes y activarlos para experiencias personalizadas:
 
 * **Plataforma de datos**: hub central para recopilar, administrar y estructurar datos de clientes con el fin de garantizar la coherencia en todos los sistemas. [Más información sobre esquemas y conjuntos de datos](../data/get-started-schemas.md)
-* **Ingesta de datos (fuentes)**: importe datos de plataformas CRM, sitios web, aplicaciones móviles y almacenamiento en la nube mediante conectores generados previamente. [Explorar orígenes de datos](../data/get-started-sources.md)
+* **Ingesta de datos (fuentes)**: importe datos de plataformas CRM, sitios web, aplicaciones móviles y almacenamiento en la nube mediante conectores generados previamente. [Explorar orígenes de datos](get-started-sources.md)
 * **Perfil del cliente en tiempo real**: crea perfiles unificados combinando datos de varias fuentes (interacciones por correo electrónico, compras en la tienda, comportamiento en la web). [Más información sobre los perfiles](../audience/get-started-profiles.md)
 * **Nivel de control**: rige el acceso a los datos, el cumplimiento de la privacidad y la seguridad al tiempo que cumple las regulaciones. [Ver documentación de privacidad](../privacy/get-started-privacy.md)
 
@@ -37,10 +37,10 @@ Adobe Experience Platform sirve como columna vertebral, permitiendo a las marcas
 Adobe Journey Optimizer aplica los datos y las perspectivas de Adobe Experience Platform para ofrecer experiencias de cliente inteligentes y personalizadas:
 
 * **Comprensión del cliente**: los perfiles del cliente en tiempo real habilitan la segmentación en audiencias para la mensajería de destino. [Crear públicos](../audience/about-audiences.md)
-* **Contenido y ofertas**: herramientas para crear, administrar y personalizar contenido; lógica en tiempo real para seleccionar la mejor oferta para cada individuo. [Diseñar contenido](../content-management/get-started-content.md) | [Administrar ofertas](../offers/get-started/starting-offer-decisioning.md)
+* **Contenido y ofertas**: herramientas para crear, administrar y personalizar contenido; lógica en tiempo real para seleccionar la mejor oferta para cada individuo. [Diseñar contenido](../../rp_landing_pages/content-management-landing-page.md) | [Administrar ofertas](../offers/get-started/starting-offer-decisioning.md)
 * **Administración de Recorridos y campañas**: automatiza secuencias de interacciones (recorridos) o programa mensajes de destino únicos (campañas). [recorridos de compilación](../building-journeys/journey-gs.md) | [Crear campañas](../campaigns/get-started-with-campaigns.md)
 * **Envío (conexiones)**: envía mensajes a través de canales como correo electrónico, SMS, notificaciones push y correo directo; exporta datos a sistemas externos. [Configuración de canales](../configuration/get-started-configuration.md)
-* **Medición y análisis**: Rastrea la participación de los clientes y el rendimiento de las campañas con informes para mejorar continuamente. [Ver informes](../reports/campaign-global-report.md)
+* **Medición y análisis**: Rastrea la participación de los clientes y el rendimiento de las campañas con informes para mejorar continuamente. [Ver informes](../reports/campaign-global-report-cja.md)
 
 ### El ciclo de optimización continua {#optimization-cycle}
 
@@ -56,7 +56,7 @@ Journey Optimizer incluye siete áreas funcionales clave que funcionan juntas si
 |-----------------|---------|----------------|
 | **Administración de datos** | Organizar datos de clientes | Defina esquemas, cree conjuntos de datos e importe datos de varios sistemas. [Más información](../data/get-started-schemas.md) |
 | **Administración de clientes** | Comprenda quiénes son sus clientes | Cree perfiles unificados, resuelva identidades y cree audiencias. [Más información](../audience/get-started-profiles.md) |
-| **Administración de contenido** | Creación de mensajes personalizados | Diseñe correos electrónicos, administre recursos, cree plantillas y fragmentos y personalice contenido. [Más información](../content-management/get-started-content.md) |
+| **Administración de contenido** | Creación de mensajes personalizados | Diseñe correos electrónicos, administre recursos, cree plantillas y fragmentos y personalice contenido. [Más información](../../rp_landing_pages/content-management-landing-page.md) |
 | **Gestión de decisiones** | Seleccione la mejor oferta en tiempo real | Administrar la biblioteca de ofertas, definir reglas, aplicar restricciones, establecer lógica de clasificación. [Más información](../offers/get-started/starting-offer-decisioning.md) |
 | **Administración de Recorrido** | Diseño de experiencias de cliente automatizadas | Cree recorridos con el diseñador visual, establezca déclencheur, agregue condiciones y espere pasos. [Más información](../building-journeys/journey-gs.md) |
 | **Conexiones** | Conexión de fuentes de datos y canales | Configure conectores de origen, configure canales y conéctese a plataformas externas. [Más información](../configuration/get-started-configuration.md) |
