@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: 29d99fd55fd31d5c4f6e86fabed2b45c0636a7b8
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1853'
 ht-degree: 12%
 
 ---
@@ -252,11 +252,17 @@ Si la actualización falla, la configuración vuelve a poder editarse. Puede hac
 
 ## Desactivar una configuración de canal {#deactivate-a-surface}
 
-Para que una configuración de canal **[!UICONTROL Active]** no esté disponible para crear mensajes nuevos, puedes desactivarla. Sin embargo, los mensajes de los recorridos que utilicen esta configuración actualmente no se verán afectados y seguirán funcionando.
+Para que una configuración de canal **[!UICONTROL Active]** no esté disponible para crear mensajes nuevos, puedes desactivarla. <!--However, journeys' messages currently using this configuration will not be affected and will continue working.-->
 
->[!NOTE]
->
->No se puede desactivar una configuración de canal mientras se esté procesando una actualización. Debe esperar hasta que la actualización se haya realizado correctamente o haya fallado. Obtenga más información acerca de [editar configuraciones de canal](#edit-channel-surface) y sobre los [estados de actualización](#update-statuses).
+No puede desactivar una configuración de canal en los siguientes casos:
+
+* Si hay algún recorrido activo que haga referencia a él. Si se intenta desactivar una configuración que un recorrido activo sigue usando, se producirá un error.
+
+  Para desactivar una configuración de canal, asegúrese de que todas las recorridos activas que utilizan esta configuración estén cerradas o detenidas. [Aprenda a finalizar un recorrido](../building-journeys/end-journey.md)
+
+* Mientras se procesa una actualización de la configuración de canal. Debe esperar hasta que la actualización se haya realizado correctamente o haya fallado. Obtenga más información sobre [editar configuraciones de canal](#edit-channel-surface) y sobre los [estados de actualización](#update-statuses).
+
+Para desactivar una configuración de canal, siga los pasos a continuación.
 
 1. Acceda a la lista de configuraciones de canal.
 
