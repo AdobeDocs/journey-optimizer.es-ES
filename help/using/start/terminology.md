@@ -6,10 +6,10 @@ description: Términos y conceptos esenciales en Adobe Journey Optimizer
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 965bb76529f500d6fa4d89fa1d56979afe9d5bb0
+source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 8%
+source-wordcount: '751'
+ht-degree: 9%
 
 ---
 
@@ -25,8 +25,8 @@ Esta guía de referencia define los términos esenciales que se encontrará al u
 
 | Término | Definición |
 |------|------------|
-| **Adobe Journey Optimizer (AJO)** | Una aplicación para crear y enviar mensajes personalizados a los clientes a través de canales (correo electrónico, SMS, notificaciones push, web). Permite diseñar recorridos de clientes que respondan a las acciones de los clientes en tiempo real. |
-| **Adobe Experience Platform (AEP)** | La base de Adobe Journey Optimizer que recopila y organiza todos los datos de clientes en un solo lugar. Crea perfiles de cliente unificados que Journey Optimizer utiliza para la personalización. [Más información](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target="_blank"} |
+| **Adobe Journey Optimizer** | Una aplicación para crear y enviar mensajes personalizados a los clientes a través de canales (correo electrónico, SMS, notificaciones push, web). Permite diseñar recorridos de clientes que respondan a las acciones de los clientes en tiempo real. |
+| **Adobe Experience Platform** | La base de Adobe Journey Optimizer que recopila y organiza todos los datos de clientes en un solo lugar. Crea perfiles de cliente unificados que Journey Optimizer utiliza para la personalización. [Más información](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target="_blank"} |
 | **Perfil del cliente en tiempo real** | Una vista unificada en tiempo real de cada cliente que combina datos de varios canales, incluidos datos en línea, sin conexión, CRM y de terceros. Cada perfil se actualiza dinámicamente a medida que los clientes interactúan con la marca. [Más información](../audience/get-started-profiles.md) |
 | **espacio aislado** | Un espacio de trabajo independiente para pruebas y experimentación sin afectar a las comunicaciones con los clientes en directo. Adobe Journey Optimizer proporciona varios entornos limitados para los entornos de desarrollo, prueba y producción. [Más información](../administration/sandboxes.md) |
 
@@ -74,7 +74,7 @@ Esta guía de referencia define los términos esenciales que se encontrará al u
 
 >[!NOTE]
 >
->Para obtener un glosario completo de términos de Adobe Experience Platform, consulte el [glosario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=es){target="_blank"}.
+>Para obtener un glosario completo de términos de Adobe Experience Platform, consulte el [glosario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
 
 ## Temas relacionados {#related-topics}
 

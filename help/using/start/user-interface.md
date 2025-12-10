@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c936f42c8b5d96bd5a7e0ccb36ecdb0d9b2e9957
+source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 33%
+source-wordcount: '1103'
+ht-degree: 34%
 
 ---
 
@@ -21,7 +21,7 @@ Para acceder a Adobe Journey Optimizer, inicia sesión en [Adobe Experience Clou
 
 >[!NOTE]
 >
->* Los componentes y las funciones disponibles en su entorno dependen de sus [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}.
+>* Los componentes y las funciones disponibles en su entorno dependen de sus [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}.
 >* Esta documentación se actualiza con frecuencia. Algunas capturas de pantalla pueden diferir ligeramente de la interfaz.
 
 ## Explicación rápida {#quick-tour}
@@ -44,51 +44,49 @@ La navegación de la izquierda organiza las funcionalidades de Journey Optimizer
 **Inicio**: punto de partida con acceso rápido a elementos creados recientemente y recursos útiles
 
 **Administración de Recorridos** - Crear y administrar experiencias de los clientes
-* **Campañas**: cree mensajes únicos o programados para audiencias específicas
-* **Recorridos**: cree experiencias de cliente en canales múltiples y de varios pasos
-* **Informes** - Analizar el rendimiento con los informes integrados de Customer Journey Analytics
+* **Campañas**: crea mensajes únicos o programados para audiencias específicas. [Introducción a las campañas](../campaigns/get-started-with-campaigns.md)
+* **Recorridos**: cree experiencias de cliente en canales múltiples y de varios pasos. [Creación de su primer recorrido](../building-journeys/journey-gs.md)
+* **Informes**: analice el rendimiento con los informes integrados de Customer Journey Analytics. [Ver documentación de informes](../reports/campaign-global-report.md)
 
-**Administración de decisiones** - Administrar ofertas personalizadas
+**Administración de decisiones** - Administrar ofertas personalizadas. [Más información acerca de la administración de decisiones](../offers/get-started/starting-offer-decisioning.md)
 * **Ofertas**: cree y administre ofertas personalizadas
 * **Componentes**: configure ubicaciones, reglas y etiquetas para ofertas
 
 **Administración de contenido** - Crear y organizar contenido
-* **Assets**: repositorio centralizado para imágenes y medios
-* **Plantillas de contenido**: plantillas de mensajes reutilizables para campañas y recorridos
-* **Fragmentos**: bloques de contenido que se pueden usar en varios mensajes
-* **Páginas de destino**: formularios web para suscripciones y preferencias
+* **Assets**: repositorio centralizado para imágenes y medios. [Administración de recursos](../content-management/assets.md)
+* **Plantillas de contenido**: plantillas de mensajes reutilizables para campañas y recorridos. [Crear plantillas](../content-management/content-templates.md)
+* **Fragmentos**: bloques de contenido que se pueden usar en varios mensajes. [Trabajar con fragmentos](../content-management/fragments.md)
+* **Páginas de destino**: formularios web para suscripciones y preferencias. [Diseño de páginas de destino](../landing-pages/get-started-lp.md)
 
-**Administración de datos** - Administrar la base de datos
+**Administración de datos**: administra tu base de datos. [Más información sobre esquemas y conjuntos de datos](../data/get-started-schemas.md)
 * **Esquemas** - Definir estructura de datos
 * **Conjuntos de datos**: Almacene y administre colecciones de datos
 * **Consultas**: escribir y ejecutar consultas
 * **Monitorización** - Rastrear la ingesta de datos
 
 **Conexiones**: integración con otros sistemas
-* **Fuentes**: ingesta de datos de sistemas externos
-* **Destinos** - Exportar datos al almacenamiento en la nube
+* **Fuentes**: ingesta de datos de sistemas externos. [Configurar orígenes](../data/get-started-sources.md)
+* **Destinos**: exporte datos al almacenamiento en la nube. [Configurar destinos](../data/export-datasets.md)
 
 **Cliente**: administrar audiencias y perfiles
-* **Audiencias** - Crear y administrar segmentos de clientes
-* **Listas de suscripción** - Administrar listas de inclusión
-* **Perfiles** - Ver perfiles de cliente unificados
-* **Identidades** - Administrar resolución de identidad
+* **Audiencias**: cree y administre segmentos de clientes. [Trabajar con audiencias](../audience/about-audiences.md)
+* **Listas de suscripción** - Administrar listas de inclusión. [Administración de las suscripciones](../landing-pages/subscription-list.md)
+* **Perfiles**: vea perfiles de cliente unificados. [Explorar perfiles](../audience/get-started-profiles.md)
+* **Identidades** - Administrar la resolución de identidades. [Más información sobre identidades](../audience/get-started-identity.md)
 
-**Privacidad** - Controlar la privacidad y el cumplimiento
+**Privacidad** - Controlar la privacidad y el cumplimiento. [Información general sobre la privacidad](../privacy/get-started-privacy.md)
 * **Directivas** - Definir directivas de gobernanza de datos
 * **Solicitudes** - Administrar solicitudes de privacidad (RGPD, CCPA)
-* **Auditoría** - Revisar registros de actividad
+* **Auditoría** - Revisar registros de actividad. [Ver registros de auditoría](../privacy/audit-logs.md)
 * **Ciclo de vida de datos** - Configurar la retención de datos
 
-**Administración** - Configurar la configuración del sistema
-* **Configuraciones**: configure eventos, fuentes de datos y acciones
-* **Reglas de negocios** - Controlar la frecuencia del mensaje y la entrada de recorrido
-* **Alertas** - Ver y administrar alertas del sistema
-* **Zonas protegidas**: administre entornos y copie objetos entre zonas protegidas
+**Administración** - Configurar la configuración del sistema. [Resumen de control de acceso](../administration/permissions-overview.md)
+* **Configuraciones**: configure eventos, fuentes de datos y acciones. [Configuración de canales](../configuration/get-started-configuration.md)
+* **Reglas de negocio**: controla la frecuencia de mensajes y la entrada de recorrido. [Configurar reglas de negocio](../configuration/frequency-rules.md)
+* **Alertas**: vea y administre alertas del sistema. [Supervisar alertas](../reports/alerts.md)
+* **Zonas protegidas** - Administrar entornos y copiar objetos entre zonas protegidas. [Trabajar con zonas protegidas](../administration/sandboxes.md)
 * **Canales**: configure los ajustes de canal y la capacidad de entrega
 * **Etiquetas**: organizar y categorizar contenido
-
-[Obtenga más información acerca de cada capacidad en la documentación detallada de las funciones](#feature-links)
 
 ## Características de barra superior {#top-bar}
 
@@ -159,20 +157,6 @@ El asistente de IA proporciona ayuda instantánea y perspectivas operativas. Hag
 * Navegar por conceptos y prácticas recomendadas
 
 [Más información sobre el Asistente de IA](ai-features.md#ai-assistant)
-
-## Vínculos de funciones detallados {#feature-links}
-
-Para obtener documentación completa sobre cada capacidad:
-
-* **Recorridos** - [Cree su primer recorrido](../building-journeys/journey-gs.md)
-* **Campañas** - [Introducción a las campañas](../campaigns/get-started-with-campaigns.md)
-* **Ofertas y decisiones** - [Administración de decisiones](../offers/get-started/starting-offer-decisioning.md)
-* **Creación de contenido** - [Diseño de correo electrónico](../email/get-started-email-design.md)
-* **Audiencias** - [Administración de audiencias](../audience/about-audiences.md)
-* **Configuración de canal** - [Configuración de canales](../configuration/get-started-configuration.md)
-* **Administración de datos** - [Trabajar con esquemas](../data/get-started-schemas.md)
-* **Privacidad y administración** - [Resumen de privacidad](../privacy/get-started-privacy.md)
-* **Administración** - [Control de acceso](../administration/permissions-overview.md)
 
 ## Temas relacionados {#related-topics}
 
