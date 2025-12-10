@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-Tenga en cuenta que este caso de uso comienza con una audiencia que ya existe en Experience Platform, específicamente, una audiencia de comportamiento web en tiempo real que recopila la actividad de navegación a medida que se produce. [Más información en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+Tenga en cuenta que este caso de uso comienza con una audiencia que ya existe en Experience Platform, específicamente, una audiencia de comportamiento web en tiempo real que recopila la actividad de navegación a medida que se produce. [Más información en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **Esquemas necesarios para este caso de uso:**
 
