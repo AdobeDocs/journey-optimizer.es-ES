@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e09cdd834abd0a0ca3f6f5210c0ecbe3afa29b45
+source-git-commit: f08488433432c26cab4fa880f70d6ddb65f5a0ef
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 99%
+source-wordcount: '2995'
+ht-degree: 98%
 
 ---
 
@@ -32,24 +32,22 @@ ht-degree: 99%
    + [Nuevo lienzo del recorrido](using/rn/new-canvas.md)
 + Introducción {#get-started}
    + [Introducción](/help/rp_landing_pages/get-started-landing-page.md)
-   + [Funcionalidades clave](using/start/get-started.md)
-   + [Arquitectura](using/start/architecture-concepts-redpen.md)
-   + [Conceptos principales](using/start/functional-areas-redpen.md)
-   + [Terminología clave](using/start/terminology-md-redpen.md)
-   + Funciones y responsabilidades {#quick-start}
-      + [Información general](using/start/quick-start.md)
+   + Essentials {#essentials}
+      + [¿Qué es Journey Optimizer?](using/start/get-started.md)
+      + [Explicación de cómo funciona](using/start/understanding-ajo.md)
+      + [Terminología clave](using/start/terminology.md)
+      + [Protecciones y limitaciones](using/start/guardrails.md)
+   + Introducción por función {#by-role}
+      + [Elija su ruta de aprendizaje](using/start/quick-start.md)
       + [Introducción como experto en marketing](using/start/path/marketer.md)
       + [Introducción como ingeniero de datos](using/start/path/data-engineer.md)
       + [Introducción como administrador](using/start/path/administrator.md)
       + [Introducción como desarrollador](using/start/path/developer.md)
-   + Interfaz de usuario {#ui}
-      + [Introducción a la interfaz](using/start/user-interface.md)
-      + [Buscar, filtrar, categorizar](using/start/search-filter-categorize.md)
+   + Trabaje de forma eficaz {#work-efficiently}
+      + [Navegación por la interfaz](using/start/user-interface.md)
+      + [Buscar, filtrar y organizar](using/start/search-filter-categorize.md)
+      + [IA y funciones inteligentes](using/start/ai-features.md)
       + [Accesibilidad](using/start/accessibility.md)
-   + [Trabajo con el Asistente de IA](using/start/ai-assistant.md)
-   + [Capacidades de IA en AJO](/help/rp_landing_pages/ai-capabilities-landing-page.md)
-   + [Manuales de tácticas de casos de uso](using/start/playbooks.md)
-   + [Protecciones y limitaciones](using/start/guardrails.md)
 + Recorridos {#orchestrate-journeys}
    + [Recorridos](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introducción a los recorridos](using/building-journeys/journey.md)
@@ -826,7 +824,7 @@ ht-degree: 99%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
