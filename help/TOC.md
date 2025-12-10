@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f08488433432c26cab4fa880f70d6ddb65f5a0ef
+source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '3013'
+ht-degree: 97%
 
 ---
 
@@ -199,6 +199,10 @@ ht-degree: 98%
          + [División](using/orchestrated/activities/split.md)
          + [Prueba](using/orchestrated/activities/test.md)
          + [Esperar](using/orchestrated/activities/wait.md)
+      + Descubra los casos de uso {#use-cases}
+         + [Enviar actualizaciones de artículos de lista de deseos](using/orchestrated/wishlist-uc.md)
+         + [Captar clientes mediante la actividad de navegación](using/orchestrated/engage-customers-uc.md)
+         + [Notificar a los usuarios sobre la disponibilidad del producto](using/orchestrated/product-availability-uc.md)
 + Conflicto y priorización {#conflict-prioritization}
    + [Administración de conflictos y priorización](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [Introducción a la administración y priorización de conflictos](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -824,7 +828,7 @@ ht-degree: 98%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
