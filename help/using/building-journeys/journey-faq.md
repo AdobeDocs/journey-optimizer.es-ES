@@ -946,4 +946,4 @@ Para obtener más información y actualizaciones, explore los siguientes recurso
 * [Creación de su primer recorrido](journey-gs.md)
 * [Guías de solución de problemas](troubleshooting.md)
 * [Casos de uso de recorrido](jo-use-cases.md)
-* [Descripción del producto Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}
+* [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}
