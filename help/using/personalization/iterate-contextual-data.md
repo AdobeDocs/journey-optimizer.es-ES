@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: expresión, editor, handlebars, iteration, array, context, personalization
-source-git-commit: f51334a0d1fd5669a057c17a6991d556b08db94a
+source-git-commit: d3a06e15440dc58267528444f90431c3b32b49f2
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2704'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Ejemplo: Elementos de carro de compras de un evento
 
-Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM estándar [4&rbrace;), puede mostrar el contenido del carro de compras como se detalla en el ejemplo siguiente.](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=es){target="_blank"}
+Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM estándar [4}), puede mostrar el contenido del carro de compras como se detalla en el ejemplo siguiente.](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}
 
 +++ Ver código de ejemplo
 
@@ -128,7 +128,7 @@ context.journey.actions.<actionName>.<fieldPath>
 
 ### Ejemplo: Recomendaciones de producto desde una API
 
-Para mostrar las recomendaciones de productos devueltas por una llamada de API de acción personalizada, consulte el ejemplo siguiente.
+Para iterar una matriz de recomendaciones de productos devueltas por una acción personalizada y mostrarlas como tarjetas individuales en el mensaje, consulte el ejemplo siguiente.
 
 +++ Ver código de ejemplo
 
@@ -172,7 +172,7 @@ Para mostrar las recomendaciones de productos devueltas por una llamada de API d
 
 ### Ejemplo: matrices anidadas de acciones personalizadas
 
-Para iterar en matrices anidadas devueltas por una acción personalizada (por ejemplo, categorías con productos), vea el ejemplo siguiente.
+Para iterar una respuesta de acción personalizada que contenga matrices anidadas (una matriz de objetos, donde cada objeto contiene otra matriz), vea el ejemplo siguiente. Esto demuestra el uso de bucles `{{#each}}` anidados para acceder a varios niveles de datos.
 
 +++ Ver código de ejemplo
 
@@ -301,7 +301,7 @@ Si utiliza una actividad de búsqueda de conjuntos de datos para recuperar infor
 
 ### Ejemplo: Iteración filtrada con datos del conjunto de datos
 
-Para filtrar y mostrar solo los productos de una categoría específica al iterar en los resultados de búsqueda del conjunto de datos, consulte el ejemplo siguiente.
+Para filtrar los resultados de búsqueda del conjunto de datos durante la iteración y mostrar solo los elementos que coinciden con criterios específicos (por ejemplo, productos de una categoría en particular), utilice instrucciones `{{#if}}` condicionales dentro del bucle `{{#each}}`. Consulte el ejemplo siguiente.
 
 +++ Ver código de ejemplo
 
