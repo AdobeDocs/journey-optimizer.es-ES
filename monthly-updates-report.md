@@ -5,9 +5,9 @@ title: Informe mensual de actualizaciones de la documentación
 description: Lista de páginas de documentación nuevas y actualizadas
 hide: true
 hidefromtoc: true
-source-git-commit: 6c1df24a1184fb7f3fb5e6b2a2cbb3b77015b4bc
+source-git-commit: 72506de77ca5311fd36efc5477a4c2b86e81f0e1
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,6 @@ ht-degree: 0%
 - [Configuración de aplicaciones móviles](help/using/configuration/set-mobile-config.md) - 6 de diciembre
 - [Contenido multilingüe con traducción manual](help/using/content-management/multilingual-provider.md) - 5 de diciembre
 - [Use Decisioning en sus experiencias basadas en código](help/using/experience-decisioning/experience-decisioning-uc.md) - 3 de diciembre
-- [Informes de tarjetas de contenido](help/using/content-card/content-card-report.md) - 2 de diciembre
-- [Crear una tarjeta de contenido](help/using/content-card/create-content-card.md) - 2 de diciembre
-- [Introducción a la tarjeta de contenido](help/using/content-card/get-started-content-card.md) - 2 de diciembre
-- [Diseñar tarjetas de contenido](help/using/content-card/design-content-card.md) - 2 de diciembre
-- [Requisitos previos de configuración de la tarjeta de contenido](help/using/content-card/content-card-configuration-prereq.md) - 2 de diciembre
-- [Configuración de SDK de la tarjeta de contenido](help/using/content-card/content-card-configuration-sdk.md) - 2 de diciembre
-- [Configuración de la tarjeta de contenido](help/using/content-card/content-card-configuration.md) - 2 de diciembre
 - [Crear una campaña de acción](help/using/campaigns/create-campaign.md) - 2 de diciembre
 - [Ejecución de calentamiento de IP](help/using/configuration/ip-warmup-execution.md) - 26 de noviembre
 - [Crear una página de aterrizaje](help/using/landing-pages/create-lp.md) - 25 de noviembre
