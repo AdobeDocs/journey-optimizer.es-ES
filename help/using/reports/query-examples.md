@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
+source-git-commit: d6db3514a459e37d7c598efc82ffe0985ce72c41
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2734'
 ht-degree: 1%
 
 ---
@@ -78,57 +78,9 @@ AND
 
 +++
 
-+++Cuántos errores se produjeron en cada nodo de un recorrido específico durante una determinada cantidad de tiempo
++++Qué regla hacía que un perfil no recibiera una acción de recorrido
 
-Esta consulta cuenta los distintos perfiles que experimentaron errores en cada nodo de un recorrido, agrupados por nombre de nodo. Incluye todos los tipos de errores de ejecución de acciones y errores de recuperación.
-
-_Consulta de lago de datos_
-
-```sql
-SELECT
-_experience.journeyOrchestration.stepEvents.nodeName,
-count(distinct _experience.journeyOrchestration.stepEvents.profileID)
-FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
-AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
-AND
-  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
-  )
-GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
-```
-
-+++
-
-+++Cuántos eventos se descartaron de un recorrido específico en un intervalo de tiempo determinado
-
-Esta consulta cuenta el número total de eventos que se descartaron de un recorrido. Filtra varios códigos de eventos de descarte, incluidos errores de trabajos de exportación de segmentos, descartes de Dispatcher y descartes de equipos de estado.
-
-_Consulta de lago de datos_
-
-```sql
-SELECT
-count(_id) AS NUMBER_OF_EVENTS_DISCARDED
-FROM journey_step_events
-WHERE (
-   _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'error'
-   OR _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
-   OR _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode = 'discard'
-   OR _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode is not null
-)
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
-AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
-```
-
-+++
-
-+++Visualización de eventos de paso de perfiles descartados
-
-Esta consulta devuelve los detalles del evento del paso para los perfiles que se descartaron de un recorrido. Ayuda a identificar por qué se descartaron los perfiles, como debido a reglas comerciales o restricciones de horas de silencio. La consulta filtra tipos de eventos de descarte específicos y muestra información clave, como el ID de perfil, el ID de instancia, los detalles de recorrido y el error que provocó el descarte.
+Esta consulta devuelve los detalles del evento del paso para los perfiles que se descartaron durante un recorrido y que no recibieron una acción de recorrido. Ayuda a identificar por qué se descartaron los perfiles debido a reglas comerciales como restricciones de horas tranquilas.
 
 _Consulta de lago de datos_
 
@@ -181,6 +133,54 @@ Los resultados de la consulta muestran campos clave que ayudan a identificar el 
 * **eventType** - Especifica el tipo de regla de negocio que provocó el descarte:
    * `quietHours`: el perfil se descartó debido a la configuración de horas de inactividad
    * `forcedDiscardDueToQuietHours`: el perfil se descartó a la fuerza porque se alcanzó el límite de protección para perfiles retenidos en horas de silencio
+
++++
+
++++Cuántos errores se produjeron en cada nodo de un recorrido específico durante una determinada cantidad de tiempo
+
+Esta consulta cuenta los distintos perfiles que experimentaron errores en cada nodo de un recorrido, agrupados por nombre de nodo. Incluye todos los tipos de errores de ejecución de acciones y errores de recuperación.
+
+_Consulta de lago de datos_
+
+```sql
+SELECT
+_experience.journeyOrchestration.stepEvents.nodeName,
+count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
+  )
+GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
++++
+
++++Cuántos eventos se descartaron de un recorrido específico en un intervalo de tiempo determinado
+
+Esta consulta cuenta el número total de eventos que se descartaron de un recorrido. Filtra varios códigos de eventos de descarte, incluidos errores de trabajos de exportación de segmentos, descartes de Dispatcher y descartes de equipos de estado.
+
+_Consulta de lago de datos_
+
+```sql
+SELECT
+count(_id) AS NUMBER_OF_EVENTS_DISCARDED
+FROM journey_step_events
+WHERE (
+   _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'error'
+   OR _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+   OR _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode = 'discard'
+   OR _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode is not null
+)
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
 
 +++
 
