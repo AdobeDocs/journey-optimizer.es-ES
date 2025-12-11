@@ -6,11 +6,9 @@ description: Aprenda a administrar de forma eficaz los casos en los que los perf
 feature: Journeys, Profiles
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: entrada, salida, criterios, recorrido, perfil, reentrada, prácticas recomendadas
 version: Journey Orchestration
-source-git-commit: 9e5b85dec8a58a4d008ab63337589352c0fa5ee6
+source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 1%
@@ -201,7 +199,7 @@ Comience asignando claramente los déclencheur del cliente y los puntos de salid
 * [Casos de uso de Recorrido](jo-use-cases.md): ejemplos y patrones de recorrido completos
 * [Vídeo de incorporación del cliente](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
 * [Vídeo de carro abandonado](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* [Blog de la comunidad: Criterios de entrada y salida](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=es)
+* [Blog de la comunidad: Criterios de entrada y salida](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Funciones relacionadas**
 

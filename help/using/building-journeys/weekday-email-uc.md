@@ -9,12 +9,10 @@ role: User
 level: Intermediate
 keywords: recorrido, caso de uso, días de la semana, condición, correo electrónico, programación
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: 9b3c9f7c0327c8c3c3d2b7f1b4255b7e1457a51e
+source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -55,7 +53,7 @@ Este método es ideal para campañas de correo electrónico de empresa a empresa
 
 Justo después del inicio del recorrido, agrega una actividad **[!UICONTROL Condición]** para comprobar si el día actual es sábado o domingo. Esto bifurcará el flujo de trabajo en consecuencia.
 
-1. Arrastre y suelte una actividad [**[!UICONTROL Condition &#x200B;]**](condition-activity.md) en el lienzo después del punto de entrada.
+1. Arrastre y suelte una actividad [**[!UICONTROL Condition ]**](condition-activity.md) en el lienzo después del punto de entrada.
 
 1. Haga clic en la actividad **[!UICONTROL Condición]** para abrir su panel de configuración.
 
