@@ -95,7 +95,7 @@ ht-degree: 0%
 - [Crear ubicaciones](help/using/offers/offer-library/creating-placements.md) - 5 de noviembre
 - [Crear estrategias de clasificación](help/using/offers/ranking/create-ranking-strategies.md) - 5 de noviembre
 
----
+&#x200B;---
 
 ## Informe anterior: 1 de octubre a 3 de noviembre de 2025
 
