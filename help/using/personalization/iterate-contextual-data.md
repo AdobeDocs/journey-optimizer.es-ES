@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: expresión, editor, handlebars, iteration, array, context, personalization
-source-git-commit: ebe367a91dc1bb20ceeb03b13a6008433fadf023
+source-git-commit: f51334a0d1fd5669a057c17a6991d556b08db94a
 workflow-type: tm+mt
-source-wordcount: '2557'
+source-wordcount: '2666'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,7 @@ Esta guía muestra cómo repetir matrices de cada una de estas fuentes en los me
 
 ## Sintaxis de iteración Handlebars {#syntax}
 
-Handlebars proporciona `{{#each}}` [helper](functions/helpers.md) para iterar en matrices.
-
-+++ Sintaxis básica
+Handlebars proporciona `{{#each}}` [helper](functions/helpers.md) para iterar en matrices. La sintaxis básica es:
 
 ```handlebars
 {{#each arrayPath as |item|}}
@@ -54,8 +52,6 @@ Handlebars proporciona `{{#each}}` [helper](functions/helpers.md) para iterar en
 * Reemplazar `item` por cualquier nombre de variable que prefiera (por ejemplo, `product`, `response`, `element`)
 * Obtener acceso a las propiedades de cada elemento mediante `{{item.propertyName}}`
 * Puede anidar varios bloques de `{{#each}}` para matrices de varios niveles
-
-+++
 
 ## Iterar sobre datos de evento {#event-data}
 
@@ -76,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Ejemplo: Elementos de carro de compras de un evento
 
-Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM [estándar](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=es){target="_blank"}), puede mostrar el contenido del carro de compras de la siguiente manera:
+Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM estándar [4}), puede mostrar el contenido del carro de compras como se detalla en el ejemplo siguiente.](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}
 
 +++ Ver código de ejemplo
 
@@ -94,7 +90,7 @@ Si el [esquema de evento](../event/experience-event-schema.md) incluye una matri
 
 ### Ejemplo: matrices anidadas en eventos
 
-Para las estructuras anidadas, utilice bloques anidados `{{#each}}`. Más información sobre cómo anidar en [Prácticas recomendadas](#best-practices).
+Para las estructuras anidadas, utilice bloques anidados `{{#each}}`.
 
 +++ Ver código de ejemplo
 
@@ -110,6 +106,8 @@ Para las estructuras anidadas, utilice bloques anidados `{{#each}}`. Más inform
 ```
 
 +++
+
+Más información sobre cómo anidar en [Prácticas recomendadas](#best-practices).
 
 ## Iterar en respuestas de acciones personalizadas {#custom-action-responses}
 
@@ -130,7 +128,7 @@ context.journey.actions.<actionName>.<fieldPath>
 
 ### Ejemplo: Recomendaciones de producto desde una API
 
-Si la acción personalizada devuelve recomendaciones de productos:
+Para mostrar las recomendaciones de productos devueltas por una llamada de API de acción personalizada, consulte el ejemplo siguiente.
 
 +++ Ver código de ejemplo
 
@@ -174,7 +172,7 @@ Si la acción personalizada devuelve recomendaciones de productos:
 
 ### Ejemplo: matrices anidadas de acciones personalizadas
 
-Si la acción personalizada devuelve matrices anidadas (por ejemplo, categorías con productos). Para ver patrones de anidación más complejos, consulte [Prácticas recomendadas](#best-practices).
+Para iterar en matrices anidadas devueltas por una acción personalizada (por ejemplo, categorías con productos), vea el ejemplo siguiente.
 
 +++ Ver código de ejemplo
 
@@ -208,9 +206,11 @@ Si la acción personalizada devuelve matrices anidadas (por ejemplo, categorías
 
 +++
 
+Para ver patrones de anidación más complejos, consulte [Prácticas recomendadas](#best-practices).
+
 ### Ejemplo: Beneficios del nivel de fidelización
 
-Mostrar beneficios dinámicos basados en el estado de fidelidad:
+Para mostrar los beneficios dinámicos en función del estado de fidelidad, consulte el siguiente ejemplo.
 
 +++ Ver código de ejemplo
 
@@ -264,7 +264,7 @@ context.journey.datasetLookup.<activityID>.entities
 
 ### Ejemplo: Detalles de un producto de un conjunto de datos
 
-Si utiliza una actividad de búsqueda de conjuntos de datos para recuperar información del producto basada en SKU:
+Si utiliza una actividad de búsqueda de conjuntos de datos para recuperar información del producto basada en SKU, consulte el siguiente ejemplo.
 
 +++ Ver código de ejemplo
 
@@ -301,7 +301,7 @@ Si utiliza una actividad de búsqueda de conjuntos de datos para recuperar infor
 
 ### Ejemplo: Iteración filtrada con datos del conjunto de datos
 
-Mostrar solo los productos de una categoría específica. Obtenga más información acerca del filtrado condicional en [Prácticas recomendadas](#best-practices).
+Para filtrar y mostrar solo los productos de una categoría específica al iterar en los resultados de búsqueda del conjunto de datos, consulte el ejemplo siguiente.
 
 +++ Ver código de ejemplo
 
@@ -319,7 +319,11 @@ Mostrar solo los productos de una categoría específica. Obtenga más informaci
 
 +++
 
+Obtenga más información acerca del filtrado condicional en [Prácticas recomendadas](#best-practices).
+
 ### Ejemplo: Calcular totales de búsqueda de conjuntos de datos
+
+Para calcular y mostrar los totales mientras se iteran los resultados de búsqueda del conjunto de datos, vea el ejemplo siguiente.
 
 +++ Ver código de ejemplo
 
@@ -371,6 +375,8 @@ Cuando se utilizan identificadores suplementarios en recorridos activados por ev
 
 ### Ejemplo: Incluir ID de recorrido para el seguimiento
 
+Para incluir el ID de recorrido en el mensaje con fines de seguimiento, consulte el ejemplo siguiente.
+
 +++ Ver código de ejemplo
 
 ```handlebars
@@ -393,7 +399,7 @@ Puede combinar datos de diferentes fuentes en el mismo mensaje para crear experi
 
 ### Ejemplo: Artículos del carro de compras con inventario en tiempo real
 
-Combinar datos de evento (contenido del carro de compras) con datos de acción personalizados (estado de inventario):
+Para combinar datos de evento (contenido del carro de compras) con datos de acción personalizados (estado de inventario), vea el siguiente ejemplo.
 
 +++ Ver código de ejemplo
 
@@ -425,7 +431,7 @@ Combinar datos de evento (contenido del carro de compras) con datos de acción p
 
 ### Ejemplo: datos de evento enriquecidos con la búsqueda de conjuntos de datos
 
-Combine [SKU de evento](#event-data) con información detallada del producto a partir de una [búsqueda de conjunto de datos](#dataset-lookup):
+Para combinar [SKU de evento](#event-data) con información detallada del producto a partir de una [búsqueda de conjunto de datos](#dataset-lookup), vea el ejemplo a continuación.
 
 +++ Ver código de ejemplo
 
@@ -451,6 +457,8 @@ Combine [SKU de evento](#event-data) con información detallada del producto a p
 +++
 
 ### Ejemplo: combinación de varias fuentes con propiedades técnicas
+
+Para combinar varias fuentes de contexto (datos de perfil, datos de evento, acciones personalizadas y propiedades técnicas) en un solo mensaje, vea el siguiente ejemplo.
 
 +++ Ver código de ejemplo
 
@@ -518,9 +526,9 @@ Obtenga más información sobre cómo pasar colecciones en [Pasar colecciones a 
 
 **Caso de uso**: obtenga un campo específico de una matriz de eventos para pasarlo como parámetro de consulta en una solicitud GET.
 
-**Ejemplo de escenario**: Extraiga el primer SKU con un precio mayor que 0 de una lista de productos.
-
 +++ Ver código de ejemplo
+
+**Ejemplo de escenario**: Extraiga el primer SKU con un precio mayor que 0 de una lista de productos.
 
 **Ejemplo de esquema de evento**:
 
@@ -711,7 +719,7 @@ Este es un flujo de trabajo completo que muestra cómo utilizar una matriz de ev
 
 **Escenario**: cuando un usuario abandona el carro, envía los datos del carro a una API de recomendaciones externa para obtener sugerencias personalizadas y luego mostrarlas en un correo electrónico.
 
-+++ Ver ejemplo completo
++++ Ver código de ejemplo
 
 **Paso 1: Configurar la acción personalizada**
 
@@ -815,7 +823,7 @@ Siga estas prácticas recomendadas al iterar sobre datos contextuales para crear
 
 Elija nombres de variables que indiquen claramente sobre qué está iterando. Esto hace que su código sea más legible y fácil de mantener. Más información sobre [sintaxis de personalización](personalization-syntax.md):
 
-+++ Ver ejemplo
++++ Ver código de ejemplo
 
 ```handlebars
 <!-- Good -->
@@ -834,7 +842,7 @@ Elija nombres de variables que indiquen claramente sobre qué está iterando. Es
 
 Utilice la cláusula `{{else}}` para proporcionar contenido de reserva cuando una matriz esté vacía. Más información sobre [funciones de ayuda](functions/helpers.md):
 
-+++ Ver ejemplo
++++ Ver código de ejemplo
 
 ```handlebars
 {{#each context.journey.actions.GetRecommendations.items as |item|}}
@@ -850,7 +858,7 @@ Utilice la cláusula `{{else}}` para proporcionar contenido de reserva cuando un
 
 Use `{{#if}}` en bucles para contenido condicional. Obtenga más información acerca de [reglas condicionales](create-conditions.md) y vea ejemplos en las secciones [Respuestas de acciones personalizadas](#custom-action-responses) y [Búsqueda de conjuntos de datos](#dataset-lookup).
 
-+++ Ver ejemplo
++++ Ver código de ejemplo
 
 ```handlebars
 {{#each context.journey.actions.GetProducts.items as |product|}}
@@ -872,7 +880,7 @@ Use `{{#if}}` en bucles para contenido condicional. Obtenga más información ac
 
 Para matrices grandes, considere limitar el número de iteraciones:
 
-+++ Ver ejemplo
++++ Ver código de ejemplo
 
 ```handlebars
 <!-- Display only first 5 items -->
@@ -893,7 +901,7 @@ Handlebars proporciona variables especiales dentro de bucles que ayudan con los 
 * `@first`: True para la primera iteración
 * `@last`: True para la última iteración
 
-+++ Ver ejemplo
++++ Ver código de ejemplo
 
 ```handlebars
 {{#each products as |product|}}
