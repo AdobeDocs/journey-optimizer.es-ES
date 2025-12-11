@@ -5,7 +5,7 @@ title: Informe mensual de actualizaciones de la documentación
 description: Lista de páginas de documentación nuevas y actualizadas
 hide: true
 hidefromtoc: true
-source-git-commit: 856f35ebd70f38065e9b116bb648de1f2c2d439a
+source-git-commit: 6c1df24a1184fb7f3fb5e6b2a2cbb3b77015b4bc
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 0%
@@ -94,8 +94,6 @@ ht-degree: 0%
 - [Crear ofertas personalizadas](help/using/offers/offer-library/creating-personalized-offers.md) - 5 de noviembre
 - [Crear ubicaciones](help/using/offers/offer-library/creating-placements.md) - 5 de noviembre
 - [Crear estrategias de clasificación](help/using/offers/ranking/create-ranking-strategies.md) - 5 de noviembre
-
-&#x200B;---
 
 ## Informe anterior: 1 de octubre a 3 de noviembre de 2025
 
