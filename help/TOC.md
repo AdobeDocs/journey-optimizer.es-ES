@@ -50,7 +50,7 @@ ht-degree: 97%
 + Recorridos {#orchestrate-journeys}
    + [Recorridos](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introducción a los recorridos](using/building-journeys/journey.md)
-   + [Journey Orchestration - Guía completa](using/building-journeys/journey-get-started.md){hide="yes"}
+   + [Journey Orchestration - Guía completahide="yes"](using/building-journeys/journey-get-started.md)
    + [Preguntas frecuentes sobre Journey Orchestration](using/building-journeys/journey-faq.md)
    + Crear un recorrido {#create-journey}
       + [Crear un recorrido](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -828,7 +828,7 @@ ht-degree: 97%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
