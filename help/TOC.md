@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3182c3abb3b5e534d5e90ff198fee1e0ac42e0d0
+source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
 workflow-type: tm+mt
 source-wordcount: '3008'
 ht-degree: 97%
@@ -405,7 +405,7 @@ ht-degree: 97%
       + [Sintaxis de personalización](using/personalization/personalization-syntax.md)
       + [Reutilización de fragmentos de expresión](using/personalization/use-expression-fragments.md)
       + [Uso de datos de Adobe Experience Platform para la personalización](using/personalization/aep-data-perso.md)
-      + [Iteración sobre datos contextuales](using/personalization/personalization-contexts.md)
+      + [Iteración sobre datos contextuales](using/personalization/iterate-contextual-data.md)
       + Lista de funciones del asistente {#functions}
          + [Lista de funciones del asistente](/help/rp_landing_pages/functions-landing-page.md)
          + [Introducción a las funciones de ayuda](using/personalization/functions/functions.md)
@@ -827,7 +827,7 @@ ht-degree: 97%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
