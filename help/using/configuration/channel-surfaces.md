@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 29d99fd55fd31d5c4f6e86fabed2b45c0636a7b8
+source-git-commit: 4188d0e321f3da79932b648e3bdf8ffcf6efa22b
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1854'
 ht-degree: 12%
 
 ---
@@ -256,9 +256,7 @@ Para que una configuración de canal **[!UICONTROL Active]** no esté disponible
 
 No puede desactivar una configuración de canal en los siguientes casos:
 
-* Si hay algún recorrido activo que haga referencia a él. Si se intenta desactivar una configuración que un recorrido activo sigue usando, se producirá un error.
-
-  Para desactivar una configuración de canal, asegúrese de que todas las recorridos activas que utilizan esta configuración estén cerradas o detenidas. [Aprenda a finalizar un recorrido](../building-journeys/end-journey.md)
+* Si hay algún recorrido activo que haga referencia a él. Si se intenta desactivar una configuración que un recorrido activo sigue usando, se producirá un error. Para desactivar una configuración de canal, asegúrese de que todas las recorridos activas que utilizan esta configuración estén cerradas o detenidas. [Más información sobre cómo finalizar un recorrido](../building-journeys/end-journey.md)
 
 * Mientras se procesa una actualización de la configuración de canal. Debe esperar hasta que la actualización se haya realizado correctamente o haya fallado. Obtenga más información sobre [editar configuraciones de canal](#edit-channel-surface) y sobre los [estados de actualización](#update-statuses).
 
