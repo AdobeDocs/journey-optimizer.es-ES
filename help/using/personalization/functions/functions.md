@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 2%
@@ -23,10 +23,6 @@ El lenguaje de plantilla se aprovecha de las funciones de ayuda disponibles en l
 
 ![](../assets/access-helper-functions.png)
 
->[!NOTE]
->
->Las funciones y capacidades disponibles en el editor de personalización difieren de las disponibles en el [editor de expresiones avanzadas de Recorrido](../../building-journeys/expression/expressionadvanced.md). Por ejemplo, la función `now()` solo está disponible en expresiones de recorrido. [Más información](../../email/code-content.md#date-time-limitations)
-
 En el editor de personalización [!DNL Journey Optimizer], las funciones de ayuda se agrupan en tres categorías: [Funciones](#functions-helper), [Ayudantes](#helper-helper) y [Operadores](#operators-helper).
 
 Seleccione una categoría para acceder a subcategorías y funciones.
@@ -34,6 +30,10 @@ Seleccione una categoría para acceder a subcategorías y funciones.
 Acceda a subcategorías haciendo clic en el icono `>`. Seleccione una función haciendo clic en el icono `+`: la función se agrega automáticamente a la pantalla de personalización.
 
 Haga clic en el icono `...` para ver la descripción de la función y agregarla a sus favoritos. [Más información](../personalize.md#fav)
+
+>[!NOTE]
+>
+>Las funciones y capacidades disponibles en el editor de personalización difieren de las disponibles en el [editor de expresiones avanzadas de Recorrido](../../building-journeys/expression/expressionadvanced.md). Por ejemplo, la función `now()` solo está disponible en expresiones de recorrido. [Más información](../../email/code-content.md#date-time-limitations)
 
 ## Funciones{#functions-helper}
 
@@ -518,4 +518,4 @@ Las funciones de comparación se utilizan para comparar entre diferentes expresi
 
 Aprenda a transformar los valores de personalización mediante las funciones de ayuda de personalización y comprenda diferentes casos de uso de las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416643?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
