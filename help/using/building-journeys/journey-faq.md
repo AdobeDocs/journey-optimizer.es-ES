@@ -1,27 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Preguntas más frecuentes sobre Recorrido
-description: Preguntas frecuentes sobre Journey Optimizer Recorrido
+title: 'Journey Orchestration: Preguntas más frecuentes'
+description: Preguntas frecuentes sobre Journey Orchestration en Adobe Journey Optimizer
 feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
+keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía, orquestación
 version: Journey Orchestration
-source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
+source-git-commit: 63d37e1cb4042323eb764350dc2c89b5483ccae3
 workflow-type: tm+mt
-source-wordcount: '5226'
-ht-degree: 0%
+source-wordcount: '5233'
+ht-degree: 1%
 
 ---
 
 
-# Preguntas frecuentes {#faq-journeys}
+# Journey Orchestration: Preguntas más frecuentes {#faq-journeys}
 
-A continuación, encontrará las preguntas más frecuentes sobre los Recorridos de Adobe Journey Optimizer.
+Encuentre respuestas a preguntas comunes sobre Journey Orchestration en Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más información? Use las opciones de comentarios situados en la parte inferior de esta página para plantear su pregunta o conecte con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
 
 ## Conceptos generales
 
@@ -946,4 +946,4 @@ Para obtener más información y actualizaciones, explore los siguientes recurso
 * [Creación de su primer recorrido](journey-gs.md)
 * [Guías de solución de problemas](troubleshooting.md)
 * [Casos de uso de recorrido](jo-use-cases.md)
-* [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Descripción del producto Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}
