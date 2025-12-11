@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 6c4bf9edf3b5d3031f5b0ef43db7c8699cfb75dc
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 18%
@@ -38,7 +38,7 @@ A medida que se producen flujos de datos en tiempo real o cargas por lotes, los 
 
 Esta documentación proporciona información sobre cómo trabajar con audiencias dentro de [!DNL Adobe Journey Optimizer]. Encontrará información detallada sobre Audience Portal y las audiencias en la documentación del servicio de segmentación de Adobe Experience Platform. Consulte estas secciones para obtener más información:
 
-* [Guía de interfaz de usuario del servicio de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Guía de interfaz de usuario del servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [Servicio de segmentación - Preguntas más frecuentes](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -60,13 +60,13 @@ Para obtener más información sobre cómo trabajar con audiencias en Audience P
 
 Las audiencias se pueden generar mediante diferentes métodos:
 
-* **Definiciones de segmentos**: Cree una nueva definición de audiencia con el servicio de segmentación de Adobe Experience Platform. Las audiencias se generan a partir de definiciones de segmentos y se actualizan en momentos diferentes según su tipo de evaluación.
+* **Definiciones de segmentos**: Cree una nueva definición de audiencia con el servicio de segmentación de Adobe Experience Platform. Las audiencias se generan a partir de definiciones de segmentos y se actualizan en momentos diferentes según su tipo de evaluación:
 
    * Segmentación de streaming: las audiencias se actualizan en tiempo real a medida que ingresan nuevos datos, lo que garantiza una relevancia continua basada en la actividad del usuario.
    * Segmentación por lotes: las audiencias se actualizan cada 24 horas y capturan una instantánea de los perfiles a un intervalo fijo.
    * Segmentación de Edge: las audiencias se evalúan instantáneamente en el perímetro, lo que permite la personalización en tiempo real.
 
-[Obtenga información sobre cómo generar definiciones de segmentos](creating-a-segment-definition.md)
+  [Obtenga información sobre cómo generar definiciones de segmentos](creating-a-segment-definition.md)
 
 * **Carga personalizada**: importe una audiencia con un archivo CSV. [Aprenda a crear audiencias de carga personalizadas](custom-upload.md)
 
