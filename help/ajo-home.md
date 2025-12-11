@@ -5,10 +5,10 @@ title: Documentación de Adobe Journey Optimizer
 description: Documentación de Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 98%
+source-wordcount: '531'
+ht-degree: 91%
 
 ---
 
@@ -24,9 +24,16 @@ Eche un vistazo a las mejoras más recientes del producto y a la documentación 
 
 >[!TAB Últimas actualizaciones]
 
-Ya está aquí la versión de octubre de Journey Optimizer. Descubra las últimas funciones y mejoras en las Notas de la versión.
+Descubra las últimas funciones y mejoras de Journey Optimizer en las Notas de la versión.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+
+>[!TAB Iterar sobre datos contextuales]
+
+Aprenda a utilizar la sintaxis de iteración para mostrar listas dinámicas de datos de varias fuentes en los mensajes, incluidos eventos, respuestas de acciones personalizadas y otros datos contextuales.
+
+[![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/personalization/iterate-contextual-data.md)
 
 
 >[!TAB Orquestación de campañas]
@@ -49,7 +56,7 @@ Las horas de inactividad le permiten definir exclusiones basadas en el tiempo pa
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Últimas notas de la versión
 
@@ -59,7 +66,7 @@ Manténgase al día con las últimas notas de la versión, las nuevas funciones 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción
 
@@ -69,7 +76,7 @@ Conozca los conceptos básicos de Journey Optimizer, incluidas sus funcionalidad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guía completa de los Recorridos
 
@@ -79,7 +86,7 @@ Diseñe, organice, administre y optimice recorridos personalizados del cliente c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Explicación y administración de campañas
 
@@ -89,7 +96,7 @@ Directrices detalladas sobre la creación, administración y optimización de va
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canales de comunicación
 
@@ -99,7 +106,7 @@ Configure y administre correo electrónico, SMS, notificaciones push y otros can
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Administración de conflictos y priorización
 

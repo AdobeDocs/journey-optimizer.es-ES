@@ -7,10 +7,8 @@ feature: Personalization
 topic: Personalization
 role: Developer
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: expresión, editor, handlebars, iteration, array, context, personalization
-source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
+source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
 workflow-type: tm+mt
 source-wordcount: '3008'
 ht-degree: 0%
@@ -72,7 +70,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Ejemplo: Elementos de carro de compras de un evento
 
-Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM estándar [4&rbrace;), puede mostrar el contenido del carro de compras como se detalla en el ejemplo siguiente.](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=es){target="_blank"}
+Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM estándar [4}), puede mostrar el contenido del carro de compras como se detalla en el ejemplo siguiente.](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}
 
 +++ Ver código de ejemplo
 
