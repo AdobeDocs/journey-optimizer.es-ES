@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: entrada, salida, criterios, recorrido, perfil, reentrada, prácticas recomendadas
 version: Journey Orchestration
-source-git-commit: a60ea57ffed3fa9e11dc202f26889d05862604d9
+source-git-commit: d1c7c9d454497f0d3c0ec75663d01aac91378d65
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1554'
 ht-degree: 0%
 
 ---
@@ -152,6 +152,8 @@ Para obtener instrucciones de implementación paso a paso con detalles técnicos
 
 **Borrar definición**
 
+Establezca convenciones de nomenclatura y documentación claras para garantizar que su equipo comprende cómo se mueven los perfiles por los recorridos:
+
 * Documente la lógica de entrada y salida antes de crear recorridos para alinear los equipos de marketing y análisis
 * Creación de diagramas de flujo que muestren los puntos de entrada, las rutas de recorrido y las condiciones de salida
 * Defina las reglas comerciales claramente: &quot;Los perfiles se cierran cuando ocurre X O después de Y días&quot;
@@ -159,6 +161,8 @@ Para obtener instrucciones de implementación paso a paso con detalles técnicos
 * [Etiquetar recorridos](../start/search-filter-categorize.md#tags) de forma consistente para generar informes y filtrar
 
 **Evitar recorridos superpuestos**
+
+Evite la confusión de los clientes y los conflictos de mensajes coordinando su estrategia de recorrido entre campañas:
 
 * [Auditar recorridos activos](journey-ui.md) antes de iniciar otros similares para evitar conflictos
 * Aproveche [la administración de conflictos](../conflict-prioritization/conflicts.md) y [las puntuaciones de prioridad](../conflict-prioritization/priority-scores.md) para resolver superposiciones y priorizar recorridos
@@ -170,6 +174,8 @@ Para obtener instrucciones de implementación paso a paso con detalles técnicos
 
 **Supervisar y optimizar**
 
+Evalúe continuamente el rendimiento del recorrido y perfeccione los criterios de entrada y salida en función del comportamiento real del cliente:
+
 * Rastrear la tasa de entrada, la tasa de salida y la tasa de finalización de cada recorrido mediante [informes de recorrido](../reports/journey-global-report-cja.md)
 * Supervisar [métricas de éxito](success-metrics.md): porcentaje de salida a través de finalización de métrica de éxito frente a tiempo de espera
 * [Probar criterios de entrada y salida](testing-the-journey.md) con varios escenarios de perfil antes del inicio
@@ -177,6 +183,8 @@ Para obtener instrucciones de implementación paso a paso con detalles técnicos
 * Revisar todos los recorridos activos trimestralmente
 
 **Respetar límites de frecuencia**
+
+Mantenga la confianza y la participación del cliente controlando la frecuencia de los mensajes en todas las comunicaciones de recorrido:
 
 * Establezca [periodos de espera de reentrada](entry-management.md) adecuados o deshabilite la reentrada para recorridos de una sola vez
 * Use [reglas de límite de frecuencia](../conflict-prioritization/rule-sets.md) para evitar la sobrecomunicación
@@ -200,7 +208,7 @@ Comience asignando claramente los déclencheur del cliente y los puntos de salid
 
 **Tutoriales y ejemplos**
 
-[casos de uso de Recorrido](jo-use-cases.md) | [Vídeo de incorporación del cliente](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carro abandonado](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog comunitario: Criterios de entrada y salida](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=es)
+[casos de uso de Recorrido](jo-use-cases.md) | [Vídeo de incorporación del cliente](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carro abandonado](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog comunitario: Criterios de entrada y salida](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Funciones relacionadas**
 
