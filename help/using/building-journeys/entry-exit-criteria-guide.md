@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: entrada, salida, criterios, recorrido, perfil, reentrada, prácticas recomendadas
 version: Journey Orchestration
-source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+source-git-commit: a60ea57ffed3fa9e11dc202f26889d05862604d9
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 1%
+source-wordcount: '1494'
+ht-degree: 0%
 
 ---
 
@@ -64,11 +64,15 @@ Estos son escenarios comunes que muestran cómo funcionan en la práctica los cr
 
 **Campaña de bienvenida para nuevos suscriptores**
 
+Cree una primera impresión personalizada guiando automáticamente a los nuevos suscriptores a través de una introducción a su marca, productos y servicios.
+
 * **Entrada**: los perfiles entran en el recorrido cuando se suscriben a un boletín informativo
 * **Salida**: los perfiles se salen una vez que han completado una serie de correos electrónicos de bienvenida o después de una hora establecida si no interactúan
 * **Beneficio**: Garantiza que los nuevos suscriptores reciban incorporación oportuna y, al mismo tiempo, evita los mensajes repetitivos
 
 **Recuperación del carro de compras abandonado**
+
+Recupere los ingresos perdidos recordándoles a los clientes los artículos que dejaron y ofreciéndoles incentivos para completar su compra.
 
 * **Entrada**: Los clientes ingresan al recorrido si agregan artículos al carro de compras pero no finalizan el cierre de compra en un plazo de 24 horas
 * **Salida**: Los perfiles se retiran cuando completan la compra o después de 7 días si no se realiza ninguna compra
@@ -76,11 +80,15 @@ Estos son escenarios comunes que muestran cómo funcionan en la práctica los cr
 
 **Participación en el programa de fidelización**
 
+Recompense a sus clientes más valiosos con ventajas exclusivas y comunicaciones personalizadas que fortalecen la lealtad de la marca y aumentan el valor de por vida.
+
 * **Entrada**: Los clientes se unen al recorrido después de alcanzar un determinado umbral de puntos de lealtad
 * **Salir**: Los perfiles se salen después de canjear las recompensas o si están inactivos durante 60 días
 * **Beneficio**: mantiene a los clientes de alto valor comprometidos con las ofertas personalizadas y evita la fatiga de la comunicación
 
 **Recopilación de comentarios sobre el producto**
+
+Recopile información sobre la satisfacción del cliente y el rendimiento del producto solicitando comentarios en el momento óptimo después de la entrega.
 
 * **Entrada**: Los clientes entran al recorrido después de recibir un evento de confirmación de entrega de producto
 * **Salir**: los perfiles se salen una vez que se envían los comentarios o después de 10 días si no hay respuesta
@@ -188,26 +196,12 @@ Comience asignando claramente los déclencheur del cliente y los puntos de salid
 
 **Documentación técnica**
 
-* [Administración de entrada de perfil](entry-management.md): guía técnica detallada para controles de entrada
-* [propiedades de Recorrido y criterios de salida](journey-properties.md) - Referencia de configuración completa
-* [Fin de los recorridos](end-journey.md) - administración del ciclo de vida de los Recorridos
-* [Identificadores adicionales](supplemental-identifier.md): escenarios de reentrada avanzados
-* [Diseñador de Recorridos](using-the-journey-designer.md) - recorridos de compilación y diseño
+[Administración de entrada de perfil](entry-management.md) | [propiedades de Recorrido y criterios de salida](journey-properties.md) | [Cómo terminan los recorridos](end-journey.md) | [Identificadores adicionales](supplemental-identifier.md) | [diseñador de Recorrido](using-the-journey-designer.md)
 
 **Tutoriales y ejemplos**
 
-* [Casos de uso de Recorrido](jo-use-cases.md): ejemplos y patrones de recorrido completos
-* [Vídeo de incorporación del cliente](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
-* [Vídeo de carro abandonado](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* [Blog de la comunidad: Criterios de entrada y salida](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=es)
+[casos de uso de Recorrido](jo-use-cases.md) | [Vídeo de incorporación del cliente](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carro abandonado](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog comunitario: Criterios de entrada y salida](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Funciones relacionadas**
 
-* [Eventos de calificación de público](audience-qualification-events.md)
-* [Métricas de éxito y objetivos](success-metrics.md)
-* [Administración de conflictos](../conflict-prioritization/conflicts.md)
-* [Restricción de frecuencia](../conflict-prioritization/rule-sets.md)
-* [Prueba de recorridos](testing-the-journey.md)
-* [Actividad de condición](condition-activity.md)
-* [Eventos de reacción](reaction-events.md)
-* [Actividad Esperar](wait-activity.md)
+[Eventos de calificación de audiencia](audience-qualification-events.md) | [Métricas de éxito y objetivos](success-metrics.md) | [Administración de conflictos](../conflict-prioritization/conflicts.md) | [Límite de frecuencia](../conflict-prioritization/rule-sets.md) | [recorridos de prueba](testing-the-journey.md) | [Actividad de condición](condition-activity.md) | [Eventos de reacción](reaction-events.md) | [Actividad de espera](wait-activity.md)
