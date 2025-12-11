@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 keywords: código, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 68%
+source-wordcount: '391'
+ht-degree: 34%
 
 ---
 
@@ -36,6 +36,10 @@ Utilice el modo **[!UICONTROL Codifique su propio contenido]** para importar el 
 
    ![](assets/code-editor.png)
 
+   >[!NOTE]
+   >
+   >El editor de personalización de Email Designer tiene algunas limitaciones de funciones en comparación con las expresiones de recorrido. [Más información sobre las limitaciones de funciones de fecha y hora](#date-time-limitations)
+
 1. Si desea borrar el contenido y comenzar con un nuevo diseño de correo electrónico, seleccione **[!UICONTROL Cambiar el diseño]** en el menú de opciones.
 
    ![](assets/code-editor-change-design.png)
@@ -51,3 +55,39 @@ Utilice el modo **[!UICONTROL Codifique su propio contenido]** para importar el 
 1. Una vez que el código esté listo, haga clic en **[!UICONTROL Guardar]** y a continuación, vuelva a la pantalla de creación de mensajes para finalizar el mensaje.
 
    ![](assets/code-editor-save.png)
+
+## Limitaciones de funciones de fecha y hora {#date-time-limitations}
+
+Al utilizar la personalización en el editor de código Designer de correo electrónico, la función `now()` no está disponible para los cálculos de fechas dinámicas.
+
+>[!IMPORTANT]
+>
+>La función `now()` es **no compatible** en el idioma de expresión del Generador de correo electrónico. Aunque `now()` está disponible en condiciones de recorrido, no se puede usar en el contenido del correo electrónico ni en el editor de código.
+
+**Alternativas disponibles:**
+
+Utilice las siguientes funciones para trabajar con la fecha y la hora actuales en la personalización del correo electrónico:
+
+* **`getCurrentZonedDateTime()`**: devuelve la fecha y la hora actuales con información de zona horaria. Esta es la alternativa recomendada a `now()`.
+
+  Ejemplo: `{%= getCurrentZonedDateTime() %}` devuelve `2024-12-06T17:22:02.281067+05:30[Asia/Kolkata]`
+
+* **`currentTimeInMillis()`**: devuelve el tiempo actual en milisegundos epoch.
+
+  Ejemplo: `{%= currentTimeInMillis() %}`
+
+**Soluciones recomendadas:**
+
+Si necesita realizar cálculos de fechas en el contenido del correo electrónico:
+
+* **Campos de fecha precalculados**: calcule los valores de fecha requeridos en la canalización de datos o los atributos de perfil antes de enviar el correo electrónico y, a continuación, haga referencia a estos valores precalculados en la personalización.
+
+  Ejemplo: `{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
+
+* **Usar funciones de manipulación de fechas** - Usar [funciones de fecha y hora](../personalization/functions/dates.md) como `dayOfYear()` o `diffInDays()` con valores de fecha de atributos de perfil.
+
+  Ejemplo: `{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
+
+* **Use atributos calculados** - Cree [atributos calculados](../audience/computed-attributes.md) que realicen cálculos de fechas complejos, haciendo que los resultados estén disponibles como atributos de perfil.
+
+Más información sobre [Funciones de fecha y hora en personalización](../personalization/functions/dates.md).

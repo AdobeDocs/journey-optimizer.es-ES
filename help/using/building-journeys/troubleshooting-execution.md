@@ -10,10 +10,10 @@ level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 20%
+source-wordcount: '1591'
+ht-degree: 16%
 
 ---
 
@@ -31,7 +31,7 @@ El punto de partida de un recorrido es siempre un evento. Puede hacer pruebas co
 
 Puede comprobar si la llamada API que envía a través de estas herramientas se envía correctamente o no. Si vuelve a recibir un error, significa que la llamada tiene un problema. Vuelva a comprobar la carga útil, el encabezado (y especialmente el ID de organización) y la dirección URL de destino. Puede preguntar a su administrador cuál es la dirección URL correcta para visitar.
 
-Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con el evento, puede consultar [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=es){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
+Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con el evento, puede consultar [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
 
 Si el recorrido no puede habilitar el modo de prueba con el error `ERR_MODEL_RULES_16`, asegúrese de que el evento usado incluya un [área de nombres de identidad](../audience/get-started-identity.md) al usar una acción de canal.
 
@@ -57,9 +57,43 @@ Puede comenzar la resolución de problemas con las preguntas siguientes:
   Content-type - application/json
   ```
 
+>>
+**Para recorridos de calificación de audiencia con audiencias de streaming**: Si usa una actividad de calificación de audiencia como punto de entrada de recorrido, tenga en cuenta que no todos los perfiles aptos para la audiencia entrarán necesariamente en la recorrido debido a factores de tiempo, salidas rápidas de la audiencia o si los perfiles ya estaban en la audiencia antes de la publicación. Más información sobre [consideraciones de tiempo para la calificación de audiencias de streaming](audience-qualification-events.md#streaming-entry-caveats).
+
+## Solución de problemas de transiciones del modo de prueba {#troubleshooting-test-transitions}
+
+Si los perfiles de prueba no progresan a través del recorrido en el modo de prueba o el flujo visual no muestra flechas verdes que indiquen la progresión del paso, el problema puede estar relacionado con la validación de la transición. En esta sección se explica cómo diagnosticar y resolver problemas comunes del modo de prueba.
+
+### Los perfiles de prueba no progresan
+
+Si los perfiles de prueba entran en el recorrido pero no avanzan más allá del paso inicial, compruebe lo siguiente:
+
+* **fecha de inicio del Recorrido** - La causa más común es cuando la fecha de inicio del recorrido se establece en el futuro. Los perfiles de prueba se descartan inmediatamente si la hora actual no coincide con la ventana [fechas/hora de inicio y finalización](journey-properties.md#dates) configurada en el recorrido. Para resolver:
+   * Compruebe que la fecha de inicio del recorrido no esté establecida en el futuro
+   * Asegúrese de que la hora actual se encuentre dentro de la ventana de fecha activa del recorrido
+   * Si es necesario, actualice las propiedades del recorrido para ajustar la fecha de inicio
+
+* **Configuración del perfil de prueba** - Confirme que el perfil esté marcado correctamente como perfil de prueba en Adobe Experience Platform. Consulte [cómo crear perfiles de prueba](../audience/creating-test-profiles.md) para obtener más información.
+
+* **Área de nombres de identidad** - Asegúrese de que el área de nombres de identidad utilizada en la configuración del evento coincida con el área de nombres del perfil de prueba.
+
+### Indicadores de transición nulos
+
+Durante la solución de problemas técnicos, puede encontrar una propiedad `isValidTransition` establecida en null en los detalles técnicos del recorrido. Esta propiedad solo de interfaz de usuario no afecta al procesamiento back-end ni al rendimiento del recorrido. Sin embargo, un valor nulo puede indicar:
+
+* **Configuración incorrecta del Recorrido**: la fecha de inicio del recorrido se establece en el futuro, lo que provoca que los eventos de prueba se descarten sin aviso
+* **Transición dañada**: en casos excepcionales, es posible que sea necesario volver a conectar los nodos de recorrido
+
+Si encuentra problemas de transición persistentes:
+
+1. Compruebe que la fecha de inicio del recorrido es la actual
+1. Desactivar y reactivar el modo de prueba
+1. Si el problema persiste, considere la posibilidad de duplicar los nodos de recorrido afectados y reconectarlos
+1. Para casos sin resolver, póngase en contacto con el servicio de asistencia técnica con registros de recorrido, los ID de perfil afectados y detalles sobre la transición nula
+
 >[!NOTE]
 >
->**Para recorridos de calificación de audiencia con audiencias de streaming**: Si usa una actividad de calificación de audiencia como punto de entrada de recorrido, tenga en cuenta que no todos los perfiles aptos para la audiencia entrarán necesariamente en la recorrido debido a factores de tiempo, salidas rápidas de la audiencia o si los perfiles ya estaban en la audiencia antes de la publicación. Más información sobre [consideraciones de tiempo para la calificación de audiencias de streaming](audience-qualification-events.md#streaming-entry-caveats).
+>Recuerde que los eventos enviados fuera de la ventana de fecha activa del recorrido se descartan silenciosamente sin ningún mensaje de error. Compruebe siempre primero la configuración del tiempo de recorrido al solucionar problemas de progresión de perfiles de prueba.
 
 ## Comprobar cómo navegan las personas por el recorrido {#checking-how-people-navigate-through-the-journey}
 

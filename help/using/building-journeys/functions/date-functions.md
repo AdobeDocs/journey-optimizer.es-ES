@@ -7,16 +7,20 @@ role: Developer
 level: Experienced
 keywords: fecha, funciones, expresión, recorrido, hora
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 12%
+source-wordcount: '834'
+ht-degree: 11%
 
 ---
 
 # Funciones de fecha {#date-functions}
 
 Las funciones de fecha permiten manipular y trabajar con valores de fecha y hora dentro de las expresiones de recorrido. Estas funciones son esenciales para las condiciones basadas en el tiempo, la programación y los cálculos temporales de los recorridos del cliente.
+
+>[!NOTE]
+>
+>Las funciones de esta página están disponibles en expresiones de recorrido. Algunas funciones como `now()` no están disponibles en el editor de personalización para el contenido de correo electrónico. [Más información](../../personalization/functions/dates.md)
 
 Utilice las funciones de fecha cuando necesite:
 
@@ -347,6 +351,10 @@ Devuelve verdadero.
 ## now {#now}
 
 Devuelve la fecha actual en formato de fecha y hora. Para obtener más información sobre los tipos de datos, consulte [esta página](../expression/data-types.md).
+
+>[!NOTE]
+>
+>Esta función solo está disponible en expresiones de recorrido. Para la personalización de correo electrónico y otro contenido, use `getCurrentZonedDateTime()` en su lugar. [Más información](../../personalization/functions/dates.md#get-current-zoned-date-time)
 
 +++Sintaxis
 

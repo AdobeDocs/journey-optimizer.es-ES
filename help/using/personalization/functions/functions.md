@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2434'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ El lenguaje de plantilla se aprovecha de las funciones de ayuda disponibles en l
 
 >[!NOTE]
 >
->Las funciones y capacidades disponibles en el editor de personalización difieren de las disponibles en el [editor de expresiones avanzadas de Recorrido](../../building-journeys/expression/expressionadvanced.md).
+>Las funciones y capacidades disponibles en el editor de personalización difieren de las disponibles en el [editor de expresiones avanzadas de Recorrido](../../building-journeys/expression/expressionadvanced.md). Por ejemplo, la función `now()` solo está disponible en expresiones de recorrido. [Más información](../../email/code-content.md#date-time-limitations)
 
 En el editor de personalización [!DNL Journey Optimizer], las funciones de ayuda se agrupan en tres categorías: [Funciones](#functions-helper), [Ayudantes](#helper-helper) y [Operadores](#operators-helper).
 
@@ -231,7 +231,7 @@ Haga clic en el icono `...` para ver la descripción de la función y agregarla 
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">Absoluto</a></td><td>Esta función da formato a cualquier número en su representación sensible al idioma.</td>
+        <td><a href="math.md#absolute">Absoluta  </a></td><td>Esta función da formato a cualquier número en su representación sensible al idioma.</td>
     </tr>
     <tr>
         <td><a href="math.md#format-number">Número de formato</a></td><td>Esta función da formato a cualquier número en su representación sensible al idioma.</td>
@@ -518,4 +518,4 @@ Las funciones de comparación se utilizan para comparar entre diferentes expresi
 
 Aprenda a transformar los valores de personalización mediante las funciones de ayuda de personalización y comprenda diferentes casos de uso de las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416643?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

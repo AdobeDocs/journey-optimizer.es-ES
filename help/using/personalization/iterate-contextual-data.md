@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: expresión, editor, handlebars, iteration, array, context, personalization
-source-git-commit: d3a06e15440dc58267528444f90431c3b32b49f2
+source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '3008'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Ejemplo: Elementos de carro de compras de un evento
 
-Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM estándar [4&rbrace;), puede mostrar el contenido del carro de compras como se detalla en el ejemplo siguiente.](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=es){target="_blank"}
+Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM estándar [4}), puede mostrar el contenido del carro de compras como se detalla en el ejemplo siguiente.](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}
 
 +++ Ver código de ejemplo
 
@@ -838,6 +838,44 @@ Elija nombres de variables que indiquen claramente sobre qué está iterando. Es
 
 +++
 
+### Fragmentos de expresión en bucles
+
+Cuando use [fragmentos de expresión](use-expression-fragments.md) en `{{#each}}` bucles, tenga en cuenta que no puede pasar variables con ámbito de bucle como parámetros de fragmento. Sin embargo, los fragmentos pueden acceder a las variables globales que se definen en el contenido del mensaje fuera del fragmento.
+
++++ Ver código de ejemplo
+
+**Patrón compatible - Usar variables globales:**
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+El fragmento puede hacer referencia a `globalDiscount` porque está definido globalmente en el mensaje.
+
+**No se admite - Pasando variables de bucle:**
+
+```handlebars
+{{#each products as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' currentProduct=product}}
+{{/each}}
+```
+
+**Solución alternativa**: incluya la lógica de personalización directamente en el bucle en lugar de usar un fragmento o llame al fragmento fuera del bucle.
+
++++
+
+Obtenga más información sobre [el uso de fragmentos de expresión dentro de bucles](use-expression-fragments.md#fragments-in-loops), incluidos ejemplos detallados y soluciones alternativas.
+
+
+
 ### Gestión de matrices vacías
 
 Utilice la cláusula `{{else}}` para proporcionar contenido de reserva cuando una matriz esté vacía. Más información sobre [funciones de ayuda](functions/helpers.md):
@@ -951,6 +989,34 @@ Handlebars proporciona variables especiales dentro de bucles que ayudan con los 
 * Faltan etiquetas de cierre: Cada `{{#each}}` debe tener un `{{/each}}`. Revise [Sintaxis de iteración de Handlebars](#syntax) para obtener la estructura adecuada.
 * Nombre de variable incorrecto: Asegúrese de utilizar de forma coherente el nombre de la variable en todo el bloque. Consulte [Prácticas recomendadas](#best-practices) para conocer las convenciones de nomenclatura.
 * Separadores de ruta incorrectos: utilice puntos (`.`), no barras oblicuas ni otros caracteres
+
++++
+
+### Los fragmentos de expresión no funcionan en bucles
+
+**Problema**: un fragmento de expresión no muestra el contenido esperado cuando se usa dentro de un bucle `{{#each}}`, o muestra un resultado vacío o inesperado.
+
++++ Ver posibles causas y soluciones
+
+**Posibles causas y soluciones**:
+
+1. **Intentando pasar variables de bucle como parámetros**: los fragmentos de expresión no pueden recibir variables de ámbito de bucle (como el elemento de iteración actual) como parámetros. Se trata de una limitación conocida.
+
+   **Solución**: use una de estas soluciones:
+
+   * Defina las variables globales en el mensaje a las que puede acceder el fragmento
+   * Incluya la lógica de personalización directamente en el bucle en lugar de utilizar un fragmento
+   * Llame al fragmento fuera del bucle si no necesita datos específicos del bucle
+
+2. **El fragmento espera un parámetro que no está disponible**: Si el fragmento se diseñó para recibir parámetros de entrada específicos, no funcionará correctamente cuando esos parámetros no se puedan pasar desde un bucle.
+
+   **Solución**: Reestructure su enfoque para utilizar las variables globales a las que puede acceder el fragmento. Consulte [Prácticas recomendadas: fragmentos de expresiones en bucles](#best-practices) para ver ejemplos.
+
+3. **Ámbito de variable incorrecto**: es posible que el fragmento esté intentando hacer referencia a una variable que solo existe dentro del ámbito de bucle.
+
+   **Solución**: defina cualquier variable que necesite el fragmento en el nivel de mensaje (fuera del bucle) para que sea accesible globalmente.
+
+Obtenga más información sobre [el uso de fragmentos de expresión dentro de bucles](use-expression-fragments.md#fragments-in-loops), incluidas explicaciones detalladas, ejemplos y patrones recomendados.
 
 +++
 
