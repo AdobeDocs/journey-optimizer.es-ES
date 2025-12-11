@@ -4,12 +4,12 @@ product: Journey Optimizer
 title: Limitaciones y mecanismos de protección de gestión de decisiones
 description: Obtenga más información acerca de las limitaciones y protecciones de administración de decisiones.
 badge: label="Heredado" type="Informative"
-feature: Decisioning
+feature: Decision Management
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 753f6bc8130b0a743aac1208a8e5aac58e3dbbfd
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 14%
@@ -63,8 +63,8 @@ El rendimiento de entrega corresponde al número de respuestas de decisión que 
 | ------- | ------- |
 | Ofertas totales | 10K |
 | Número máximo de **ofertas activas** por zona protegida | 10K |
-| Tamaño máximo de ofertas que incluyen atributos (1 KB), máximo de 30 atributos | 1 KB |
-| Tamaño máximo de representación de la oferta (total para todas las ubicaciones) | 1 KB |
+| Tamaño máximo de ofertas que incluyen atributos (1 KB), máximo de 30 atributos | 1KB |
+| Tamaño máximo de representación de la oferta (total para todas las ubicaciones) | 1KB |
 
 ## Reglas de elegibilidad
 
