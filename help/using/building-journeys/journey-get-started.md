@@ -66,7 +66,7 @@ Aprovechar **datos contextuales** desde eventos, información de Adobe Experienc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=es)
 
 **Acciones integradas**
 
@@ -76,7 +76,7 @@ Use **acciones de canal integradas** para enviar mensajes diseñados en [!DNL Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
 
 **Acciones personalizadas**
 
@@ -128,7 +128,7 @@ Envíe un recorrido de bienvenida personalizado cuando los clientes se suscriban
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg?lang=es)
 
 **Optimizar tiempos de envío de correos electrónicos**
 
@@ -184,7 +184,7 @@ Descubra los componentes de un recorrido y comprenda los conceptos básicos para
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 **Crear y administrar recorridos**
 
@@ -194,7 +194,7 @@ Instrucciones paso a paso sobre el diseño, la prueba, la publicación y el segu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 **actividades de Recorrido**
 
@@ -204,7 +204,7 @@ Descubra cómo configurar y utilizar actividades como activadores, pasos de deci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 **Expresiones y condiciones**
 
