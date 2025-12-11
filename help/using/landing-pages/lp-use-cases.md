@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: f00550c1df41ff785d433e31847e890718a72f4c
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 13%
+source-wordcount: '1148'
+ht-degree: 11%
 
 ---
 
@@ -165,11 +165,9 @@ La información de exclusión se almacena en el **conjunto de datos del servicio
 
 >[!NOTE]
 >
->Si el método de combinación para la directiva de combinación predeterminada de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"} **[!UICONTROL Perfiles]** es la **[!UICONTROL Prioridad del conjunto de datos]**, asegúrese de habilitar el **[!UICONTROL conjunto de datos del servicio de consentimiento de AJO]** y de priorizarlo en la directiva de combinación. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es#dataset-precedence-profile){target="_blank"}
+>Si el método de combinación para la directiva de combinación predeterminada de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"} **[!UICONTROL Perfiles]** es la **[!UICONTROL Prioridad del conjunto de datos]**, asegúrese de habilitar el **[!UICONTROL conjunto de datos del servicio de consentimiento de AJO]** y de priorizarlo en la directiva de combinación. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Incluso si no se han agregado lotes a este conjunto de datos, seguirá conteniendo la información de inclusión/exclusión.
-
-
 
 **Ver también:**
 
@@ -190,14 +188,21 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
 
-////////
+-->
 
+## Aproveche el evento de envío de página de aterrizaje {#leverage-lp-event}
 
-## Leverage landing page submission event {#leverage-lp-event}
+Puede utilizar la información enviada en una página de aterrizaje para realizar más acciones. Por ejemplo, si un usuario se suscribe a una lista de suscripción determinada, puede aprovechar esa información para enviar un correo electrónico recomendando otras listas de suscripción a ese usuario.
 
-You can use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.
+Para ello, debe crear un [evento unitario basado en reglas](../event/about-creating.md) basado en el **[!UICONTROL Esquema de evento de experiencia de seguimiento de correo electrónico de AJO]** que contenga la información de envío y [usar este evento en un recorrido](../building-journeys/general-events.md).
 
-To do this, you need to create an event containing the landing page submission information and use it in a journey. Follow the steps below.
+>[!NOTE]
+>
+>Cuando trabaje con eventos de envío de página de aterrizaje, tenga en cuenta que es posible que el campo del evento `interactionType` no siempre refleje con precisión la acción del usuario específica. Para determinar con precisión si un usuario ha optado por no participar, se ha suscrito o ha realizado otra acción, compruebe siempre los atributos de perfil reales (como las preferencias de consentimiento) o los valores de los campos de formulario en lugar de depender únicamente del evento `interactionType`.
+
+<!--DETAILED STEPS TBC:
+
+Follow the steps below.
 
 1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**, and in the **[!UICONTROL Events]** section, select **[!UICONTROL Manage]**.
 
