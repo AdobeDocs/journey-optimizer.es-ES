@@ -53,7 +53,7 @@ Este método es ideal para campañas de correo electrónico de empresa a empresa
 
 Justo después del inicio del recorrido, agrega una actividad **[!UICONTROL Condición]** para comprobar si el día actual es sábado o domingo. Esto bifurcará el flujo de trabajo en consecuencia.
 
-1. Arrastre y suelte una actividad [**[!UICONTROL Condition ]**](condition-activity.md) en el lienzo después del punto de entrada.
+1. Arrastre y suelte una actividad [**[!UICONTROL Condition &#x200B;]**](condition-activity.md) en el lienzo después del punto de entrada.
 
 1. Haga clic en la actividad **[!UICONTROL Condición]** para abrir su panel de configuración.
 
