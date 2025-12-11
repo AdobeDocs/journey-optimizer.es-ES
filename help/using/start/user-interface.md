@@ -21,7 +21,7 @@ Para acceder a Adobe Journey Optimizer, inicia sesión en [Adobe Experience Clou
 
 >[!NOTE]
 >
->* Los componentes y las funciones disponibles en su entorno dependen de sus [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}.
+>* Los componentes y las funciones disponibles en su entorno dependen de sus [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}.
 >* Esta documentación se actualiza con frecuencia. Algunas capturas de pantalla pueden diferir ligeramente de la interfaz.
 
 ## Explicación rápida {#quick-tour}
