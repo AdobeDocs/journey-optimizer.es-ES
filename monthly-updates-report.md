@@ -5,7 +5,7 @@ title: Informe mensual de actualizaciones de la documentación
 description: Lista de páginas de documentación nuevas y actualizadas
 hide: true
 hidefromtoc: true
-source-git-commit: 72506de77ca5311fd36efc5477a4c2b86e81f0e1
+source-git-commit: a65c35ee1b1257afffa617f9bcd30b06331c9f5f
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 - [Introducción a las experiencias basadas en código](help/using/code-based/get-started-code-based.md) - 22 de noviembre
 - [Previsualizar y probar el contenido](help/using/content-management/preview.md) - 22 de noviembre
 - [Configuración del canal web](help/using/web/web-configuration.md) - 22 de noviembre
-- [Crear un perfil de prueba](help/using/building-journeys/creating-test-profiles.md) - 22 de noviembre
+- [Crear un perfil de prueba](help/using/audience/creating-test-profiles.md) - 22 de noviembre
 - [Enviar pruebas](help/using/content-management/proofs.md) - 22 de noviembre
 - [Plantillas de contenido de prueba](help/using/content-management/test-content-templates.md) - 22 de noviembre
 - [Usar perfiles de prueba](help/using/content-management/test-profiles.md) - 22 de noviembre
@@ -67,7 +67,7 @@ ht-degree: 0%
 - [Toma de decisiones en informes de CJA](help/using/experience-decisioning/cja-reporting.md) - 15 de noviembre
 - [Fragmentos](help/using/content-management/fragments.md) - 15 de noviembre
 - [Introducción a las audiencias de Adobe Experience Platform](help/using/audience/about-audiences.md) - 14 de noviembre
-- [Usar audiencias de carga personalizadas para la toma de decisiones (composición federada)](help/using/audience/custom-upload-fac.md) - 14 de noviembre
+- [Usar audiencias de carga personalizadas para la toma de decisiones (composición federada)](help/using/audience/custom-upload.md) - 14 de noviembre
 - [Configurar el proveedor de Sinch](help/using/sms/sms-configuration-sinch.md) - 12 de noviembre
 - [Informes de campaña en Customer Journey Analytics](help/using/reports/channel-report-cja.md) - 12 de noviembre
 - [Informes de Recorrido en Customer Journey Analytics](help/using/reports/journey-global-report-cja.md) - 12 de noviembre
@@ -78,10 +78,10 @@ ht-degree: 0%
 - [Introducción a las directivas de decisión](help/using/experience-decisioning/create-decision.md) - 7 de noviembre
 - [Introducción a Experience Decisioning](help/using/experience-decisioning/gs-experience-decisioning.md) - 7 de noviembre
 - [Elementos de decisión](help/using/experience-decisioning/items.md) - 7 de noviembre
-- [Métodos de clasificación de decisiones](help/using/experience-decisioning/ranking.md) - 7 de noviembre
+- [Métodos de clasificación de decisiones](help/using/experience-decisioning/ranking/ranking.md) - 7 de noviembre
 - [Reglas de compilación](help/using/experience-decisioning/rules.md) - 7 de noviembre
 - [Crear estrategias de selección](help/using/experience-decisioning/selection-strategies.md) - 7 de noviembre
-- [Trabajar con conjuntos de reglas](help/using/configuration/rule-sets.md) - 6 de noviembre
+- [Trabajar con conjuntos de reglas](help/using/conflict-prioritization/rule-sets.md) - 6 de noviembre
 - [Crear decisiones](help/using/offers/offer-activities/create-offer-activities.md) - 5 de noviembre
 - [Crear una colección](help/using/offers/offer-library/creating-collections.md) - 5 de noviembre
 - [Crear ofertas personalizadas](help/using/offers/offer-library/creating-personalized-offers.md) - 5 de noviembre
