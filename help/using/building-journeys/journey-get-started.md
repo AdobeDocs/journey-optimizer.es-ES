@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 keywords: recorrido, orquestación, introducción, incorporación, funciones
-source-git-commit: 902790b2e172ef02e868592794fc110d3e14ac07
+source-git-commit: 856f35ebd70f38065e9b116bb648de1f2c2d439a
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 50%
+source-wordcount: '896'
+ht-degree: 47%
 
 ---
 
@@ -22,12 +22,6 @@ ht-degree: 50%
 Los recorridos de Adobe Journey Optimizer le permiten crear recorridos para el cliente personalizados que constan de varios pasos y que se adaptan en tiempo real al comportamiento y las necesidades de su público. Con un lienzo intuitivo de arrastrar y soltar, puede orquestar mensajes y acciones en varios canales, aprovechando los datos contextuales y la segmentación de audiencia para lograr el máximo impacto.
 
 Tanto si explora déclencheur en tiempo real como si administra propiedades de recorrido o utiliza herramientas avanzadas como acciones y expresiones personalizadas, esta guía proporciona una hoja de ruta clara para diseñar y refinar recorridos con seguridad que proporcionen experiencias de cliente significativas y oportunas.
-
-➡️ [Descubrimiento de Journey Optimizer en vídeo](#video)
-
->[!BEGINTABS]
-
->[!TAB Información general]
 
 ## ¿Qué son los recorridos?
 
@@ -39,14 +33,44 @@ El diseñador de recorridos de Journey Optimizer proporciona todo lo que los esp
 
 **¿Listo para empezar a crear?** Aprenda a crear y diseñar su primer recorrido en [esta página](journey-gs.md).
 
->[!TAB Capacidades clave]
+## Introducción a recorrido {#section-getting-started}
 
-## ¿Qué puedes hacer con los recorridos?
+Explore las áreas clave para dominar la orquestación de recorrido en Adobe Journey Optimizer.
+
+>[!BEGINTABS]
+
+>[!TAB Genere su primer recorrido]
+
+Aprenda a crear y diseñar su primer recorrido desde cero, incluida la configuración de eventos, la adición de actividades y la realización de pruebas antes de publicar.
+
+[![Más información](../assets/do-not-localize/learn-more-button.svg)](journey-gs.md)
+
+>[!TAB Funcionalidades clave]
+
+Descubra lo que puede hacer con recorrido: entrega en tiempo real, datos contextuales, acciones integradas y personalizadas, diseñador visual y capacidades de prueba.
+
+[![Más información](../assets/do-not-localize/learn-more-button.svg)](#capabilities)
+
+>[!TAB Casos de uso]
+
+Explore ejemplos de recorridos del mundo real, incluidos correos electrónicos de bienvenida, optimización del tiempo de envío, envíos de aumento y segmentación entre semana.
+
+[![Más información](../assets/do-not-localize/learn-more-button.svg)](#use-cases)
+
+>[!TAB Recursos de aprendizaje]
+
+Acceda a tutoriales de vídeo, guías paso a paso y documentación para dominar la creación de recorridos y solucionar problemas.
+
+[![Más información](../assets/do-not-localize/learn-more-button.svg)](#learning-resources)
+
+>[!ENDTABS]
+
+## Funcionalidades clave {#capabilities}
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/send-real-time.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Envío en tiempo real y por lotes**
 
@@ -56,7 +80,7 @@ Envíe en tiempo real un **envío unitario** que se activa cuando se recibe un e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Datos contextuales**
 
@@ -66,7 +90,7 @@ Aprovechar **datos contextuales** desde eventos, información de Adobe Experienc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Acciones integradas**
 
@@ -76,7 +100,7 @@ Use **acciones de canal integradas** para enviar mensajes diseñados en [!DNL Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Acciones personalizadas**
 
@@ -86,7 +110,7 @@ Cree **acciones personalizadas** si usa un sistema de terceros para enviar mensa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/canvas.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layout.svg)
 
 **Diseñador de recorridos visuales**
 
@@ -96,7 +120,7 @@ Con el **diseñador de recorridos**, genere sus casos de uso de varios pasos: ar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/test.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Probar y optimizar**
 
@@ -107,9 +131,7 @@ Pruebe los recorridos antes de publicar, supervise su rendimiento y optimice la 
 
 ::::
 
->[!TAB Casos de uso]
-
-## Ejemplos de recorrido en el mundo real
+## Casos de uso y ejemplos {#use-cases}
 
 Desde el diseñador de recorrido, los especialistas en marketing pueden enviar mensajes 1:1 activados en tiempo real a través de cualquier canal cuando se produce un evento. Por ejemplo, cuando un cliente se suscribe a un servicio, puede [enviar un correo electrónico de bienvenida](message-to-subscribers-uc.md), alentándolo a iniciar sesión en la aplicación por primera vez y establecer sus preferencias. Acciones como completar la compra, abrir el correo electrónico e iniciar sesión en la aplicación se pueden utilizar para hacer avanzar nuevos clientes a través de sus recorridos.
 
@@ -118,7 +140,7 @@ Desde el diseñador de recorrido, los especialistas en marketing pueden enviar m
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/email.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Bienvenido/a a nuevos suscriptores**
 
@@ -128,7 +150,7 @@ Envíe un recorrido de bienvenida personalizado cuando los clientes se suscriban
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Optimizar tiempos de envío de correos electrónicos**
 
@@ -138,7 +160,7 @@ Utilice la optimización del tiempo de envío con tecnología de IA para enviar 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/delivery.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Aumento de envíos**
 
@@ -148,7 +170,7 @@ Aumente gradualmente el volumen del mensaje para aumentar la reputación de su e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/targeting.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmentar por día laborable**
 
@@ -169,22 +191,20 @@ El [diseñador de recorridos](using-the-journey-designer.md) proporciona [accion
 >
 >En [esta página](../start/guardrails.md) se detallan los mecanismos de protección y limitaciones de los recorridos
 
->[!TAB Recursos de aprendizaje]
-
-## Edificio del recorrido maestro
+## Recursos de aprendizaje {#learning-resources}
 
 ### Tutorial de vídeo {#video}
 
 Descubra los componentes de un recorrido y comprenda los conceptos básicos para construir un recorrido en el lienzo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430353?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### Explorar por tema
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **Crear y administrar recorridos**
 
@@ -194,7 +214,7 @@ Instrucciones paso a paso sobre el diseño, la prueba, la publicación y el segu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **actividades de Recorrido**
 
@@ -204,7 +224,7 @@ Descubra cómo configurar y utilizar actividades como activadores, pasos de deci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Expresiones y condiciones**
 
@@ -214,7 +234,7 @@ Domine la creación de expresiones para los flujos de trabajo dinámicos, la man
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/monitor.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **Solucionar problemas y supervisar**
 
@@ -232,6 +252,4 @@ Diagnostique y resuelva los problemas de ejecución de recorridos con herramient
 * **[Alertas](../reports/alerts.md)**: configure las alertas para la monitorización del recorrido
 * **[Solución de problemas](troubleshooting.md)**: problemas y soluciones comunes de recorrido
 * **[Tutoriales de Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}**: aprenda a crear recorridos con tutoriales de vídeo prácticos
-
->[!ENDTABS]
 
