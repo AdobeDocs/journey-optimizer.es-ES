@@ -5,15 +5,14 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 471fb04fd1cbaff0db827d1f5320577103b35d33
+source-git-commit: b70233b3ac1741fa645a426fba3c6bd3175b13a0
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 13%
+source-wordcount: '664'
+ht-degree: 10%
 
 ---
 
 # Creación y administración de políticas de aprobación {#approval-policies}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"
@@ -25,12 +24,13 @@ ht-degree: 13%
 >title="Solicitar cambio"
 >abstract="Solicitar cambio"
 
-
 >[!NOTE]
 >
->Para crear directivas de aprobación, debe tener privilegios de administrador de sistemas o productos en Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home)
+>Para crear directivas de aprobación, debe tener privilegios de administrador de sistemas o productos en Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
-Las políticas de aprobación permiten a los administradores establecer un proceso de validación para recorridos y campañas. Este sistema describe condiciones específicas que determinan si un recorrido o una campaña requiere aprobación. Estas políticas pueden variar en complejidad, desde requerir que todas las campañas sean revisadas por un usuario o equipo en particular, hasta establecer criterios basados en quién creó la campaña.
+Las políticas de aprobación permiten a los administradores establecer un proceso de validación para recorridos y campañas. Este sistema describe condiciones específicas que determinan si un recorrido o una campaña requiere aprobación. Estas políticas pueden variar en complejidad. Simplemente pueden requerir que todas las campañas sean revisadas por un usuario o equipo en particular, o establecer criterios basados en quién creó la campaña.
+
+Puede segmentar las políticas de aprobación utilizando criterios flexibles como etiquetas, nombres de campañas/recorridos, tipos de canales o información sobre solicitantes. Por ejemplo, puede requerir la aprobación de todos los objetos etiquetados con &quot;alto riesgo&quot; o de cualquier campaña que coincida con un patrón de nombre específico.
 
 ## Creación de políticas de aprobación {#create-policies}
 
@@ -41,9 +41,9 @@ Las políticas de aprobación permiten a los administradores establecer un proce
 
 Para crear una política de aprobación, siga estos pasos:
 
-1. Desde el menú **[!UICONTROL Administración]** de Journey Optimizer, accede a **[!UICONTROL Permisos]** y luego a **[!UICONTROL Políticas]**.
+1. Desde el menú **[!UICONTROL Administración]** de [!DNL Journey Optimizer], accede a **[!UICONTROL Permisos]** y luego a **[!UICONTROL Políticas]**.
 
-   ![](assets/policy_create_1.png)
+   ![Botón Crear directiva de aprobación en el menú Permisos](assets/policy_create_1.png)
 
 1. Haga clic en **[!UICONTROL Crear]** en la ficha **[!UICONTROL Directiva de aprobación]**, elija **[!UICONTROL Directiva de aprobación]** y haga clic en **[!UICONTROL Confirmar]**.
 
@@ -61,6 +61,14 @@ Ahora puede restringir las condiciones para especificar quién puede iniciar la 
 
 ## Establecer condiciones para directivas de aprobación {#conditions}
 
+Las políticas de aprobación ofrecen opciones de segmentación flexibles para satisfacer sus necesidades de gobernanza. Puede crear políticas de aprobación basadas en varios criterios, entre los que se incluyen:
+
+* **Nombres de campaña/Recorrido**: objetos específicos de destino por nombre
+* **Etiquetas**: aplique directivas a todas las campañas o recorridos con una etiqueta específica
+* **Tipos de canales**: requieren aprobación para acciones específicas (correo electrónico, SMS, push, etc.)
+* **Tipos de campaña**: establezca reglas diferentes para las campañas programadas frente a las activadas por API
+* **Solicitantes**: defina directivas basadas en quién crea la campaña o el recorrido
+
 Para definir las condiciones asociadas a una política de aprobación, siga estos pasos:
 
 1. Acceda a su **[!UICONTROL directiva de aprobación]**.
@@ -71,7 +79,7 @@ Para definir las condiciones asociadas a una política de aprobación, siga esto
 
    Por ejemplo, &quot;si la acción coincide con cualquier correo postal&quot; o &quot;Si el nombre de usuario del solicitante coincide con John Doe&quot;.
 
-   ![](assets/policy_condition_1.png)
+   ![Interfaz del generador de condiciones de directivas de aprobación](assets/policy_condition_1.png)
 
    +++ Más información sobre las categorías y opciones disponibles
    <table>
@@ -124,14 +132,13 @@ Para definir las condiciones asociadas a una política de aprobación, siga esto
     </tr>
     <tr>
     <td>Nombre de usuario del solicitante</td>
-    <td>Nombre y dirección de correo electrónico del solicitante diseñado</td>
+    <td>Nombre y dirección de correo electrónico del solicitante designado</td>
     </tr>
     <tr>
     <td>Grupo de usuarios solicitante</td>
-    <td>Nombre del grupo de usuarios de los solicitantes diseñados</td>
+    <td>Nombre del grupo de usuarios de los solicitantes designados</td>
     </tr>
     </table>
-
 
 1. Para agregar más criterios, haga clic en **[!UICONTROL Agregar condición]** para definir reglas adicionales y seleccione **[!UICONTROL And]** o **[!UICONTROL Or]** para especificar cómo se conectan las condiciones.
 
@@ -143,7 +150,7 @@ Para definir las condiciones asociadas a una política de aprobación, siga esto
 
    El usuario o grupo de usuarios seleccionado será responsable de validar la solicitud de aprobación.
 
-   ![](assets/policy_condition_2.png)
+   ![Interfaz de selección de destinatarios de solicitud de aprobación](assets/policy_condition_2.png)
 
 1. Para agregar más criterios, haga clic en **[!UICONTROL Agregar condición]** para definir reglas adicionales y seleccione **[!UICONTROL And]** o **[!UICONTROL Or]** para especificar cómo se conectan las condiciones.
 
@@ -163,8 +170,8 @@ Para aplicar la directiva de aprobación, debe activarla. Para ello, siga estos 
    >
    >Una vez activadas, las directivas no se pueden editar. Para modificar las condiciones, desactive primero la directiva.
 
-   ![](assets/policy_activate_1.png)
+   ![Activar botón de directiva de aprobación](assets/policy_activate_1.png)
 
 1. En el menú **[!UICONTROL Directiva]**, abra las opciones avanzadas para **[!UICONTROL Editar]**, **[!UICONTROL Desactivar]** o **[!UICONTROL Duplicar]** la directiva según sea necesario.
 
-   ![](assets/policy_activate_2.png)
+   ![Menú de opciones de administración de directivas de aprobación](assets/policy_activate_2.png)
