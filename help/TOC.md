@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
 workflow-type: tm+mt
-source-wordcount: '3018'
+source-wordcount: '3022'
 ht-degree: 97%
 
 ---
@@ -365,7 +365,7 @@ ht-degree: 97%
          + [Creación de una configuración de experiencia basada en código](using/code-based/code-based-configuration.md)
       + Creación de experiencias basadas en código {#create-code-based-experiences}
          + [Creación de experiencias basadas en código](/help/rp_landing_pages/create-code-based-experiences-landing-page.md)
-         + [Crear y componer experiencias basadas en código](using/code-based/create-code-based.md)
+         + [Crear y redactar experiencias basadas en código](using/code-based/create-code-based.md)
          + [Uso de campos editables en experiencias basadas en código](using/code-based/code-based-form-fields.md)
          + [Probar experiencias basadas en código](using/code-based/test-code-based.md)
          + [Administración de experiencias basadas en código](using/code-based/publish-code-based.md)
@@ -829,7 +829,7 @@ ht-degree: 97%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
@@ -851,6 +851,7 @@ ht-degree: 97%
       + [Crear grupos de IP](using/configuration/ip-pools.md)
    + Implementar un plan de calentamiento de IP {#implement-ip-warmup-plan}
       + [Implementar un plan de calentamiento de IP](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
+      + [Guía de entrega de calentamiento de IP](using/configuration/ip-warmup-deliverability-guide.md)
       + [Introducción a los planes de calentamiento de IP](using/configuration/ip-warmup-gs.md)
       + [Creación de campañas de calentamiento de IP](using/configuration/ip-warmup-campaign.md)
       + [Creación de un plan de calentamiento de IP](using/configuration/ip-warmup-plan.md)
