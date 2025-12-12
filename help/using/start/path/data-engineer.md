@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 51%
+source-wordcount: '898'
+ht-degree: 47%
 
 ---
 
@@ -67,10 +67,37 @@ Una vez que se estén ejecutando los recorridos, puede consultar los eventos de 
 
 Explore [ejemplos de consultas listos para usar para el análisis de recorrido](../../reports/query-examples.md) para comenzar con el análisis de datos y la solución de problemas.
 
-## Manténgase al día
+## Colaboración entre funciones
 
-Manténgase al tanto de las últimas funciones y mejoras de Journey Optimizer:
+El trabajo de configuración de datos es esencial para otros equipos:
 
-* **[Notas de la versión](../../rn/release-notes.md)**: revise las nuevas funciones, mejoras y correcciones publicadas cada mes
-* **[Actualizaciones de documentación](../../rn/documentation-updates.md)**: haga un seguimiento de los cambios recientes en la documentación, incluidas las páginas nuevas y el contenido actualizado
-* **[Notificaciones de productos](../../rn/releases.md#staying-informed)**: Obtenga información sobre cómo suscribirse a alertas por correo electrónico y en el producto para actualizaciones de Journey Optimizer, incluidas nuevas características, ventanas de mantenimiento y cambios importantes en el sistema
+>[!BEGINTABS]
+
+>[!TAB Trabajar con administradores]
+
+Colaborar con [administradores](administrator.md) en el acceso y el control:
+
+* Solicitar los permisos necesarios para la administración de datos y la creación de esquemas
+* Coordinación del acceso a la zona protegida para desarrollo y pruebas
+* Alinear en políticas de gobernanza de datos y administración de consentimiento
+* Analizar las políticas de retención de datos y los requisitos de almacenamiento
+
+>[!TAB Trabajar con desarrolladores]
+
+Colaborar con [desarrolladores](developer.md) en la estructura y los eventos de datos:
+
+* Proporcionar los esquemas XDM y las estructuras de eventos que necesitan implementar
+* Defina qué eventos deben enviarse y su formato de carga útil requerido
+* Alinee los requisitos de recopilación de datos y los estándares de calidad de datos
+* Prueba conjunta de la entrega de eventos y la ingesta de datos
+
+>[!TAB Trabajar con especialistas en mercadotecnia]
+
+Colaborar con [especialistas en mercadotecnia](marketer.md) en audiencias y datos:
+
+* Creación de atributos calculados para la personalización y la segmentación
+* Cree audiencias en función de sus necesidades de campaña y recorrido
+* Configuración de esquemas relacionales para campañas organizadas
+* Compatibilidad con la segmentación de varias entidades para casos de uso avanzados
+
+>[!ENDTABS]

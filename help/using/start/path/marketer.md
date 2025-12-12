@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1475'
 ht-degree: 3%
 
 ---
@@ -163,25 +163,44 @@ Aprenda de los ejemplos prácticos que muestran las funcionalidades de Journey O
 
 Examine la [biblioteca de casos de uso de recorrido](../../building-journeys/jo-use-cases.md) completa y obtenga más información sobre [campañas orquestadas](../../orchestrated/gs-orchestrated-campaigns.md).
 
-## Colaborar con otras funciones
+## Colaboración entre funciones
 
 Su trabajo de marketing se conecta con otros equipos:
 
-* **Trabaje con [ingenieros de datos](data-engineer.md)**: solicite nuevos atributos calculados, coordine los esquemas relacionales para las campañas orquestadas, proporcione comentarios sobre la calidad de la audiencia y se alinee en los requisitos de datos de varias entidades para la segmentación avanzada
-* **Trabaje con [Desarrolladores](developer.md)**: Alinee en los déclencheur de eventos, pruebe implementaciones móviles y valide el seguimiento
-* **Trabaje con [administradores](administrator.md)**: solicite configuraciones de canal, confirme el acceso a licencias para campañas orquestadas, informe de problemas con permisos y coordine la habilitación de nuevas características
+>[!BEGINTABS]
 
-## Manténgase al día
+>[!TAB Trabajar con ingenieros de datos]
 
-Manténgase al tanto de las últimas funciones y características de marketing de Journey Optimizer:
+Colaborar con [ingenieros de datos](data-engineer.md) en las configuraciones de datos y audiencias:
 
-* **[Notas de la versión](../../rn/release-notes.md)**: revise las nuevas características, las actualizaciones de canal y las mejoras publicadas cada mes
-* **[Actualizaciones de documentación](../../rn/documentation-updates.md)**: efectúe el seguimiento de cambios recientes, incluidos nuevos casos de uso, prácticas recomendadas y documentación de características
-* **[Notificaciones de productos](../../rn/releases.md#staying-informed)**: Obtenga información sobre cómo suscribirse a alertas por correo electrónico y en el producto para actualizaciones de Journey Optimizer, incluidos nuevos canales, próximos lanzamientos de características y anuncios importantes de campañas
+* Solicitar nuevos atributos calculados para la personalización y segmentación
+* Coordinación en esquemas relacionales para campañas organizadas
+* Proporcionar comentarios sobre la calidad de la audiencia y la precisión de los datos
+* Alinear en los requisitos de datos de varias entidades para una segmentación avanzada
+
+>[!TAB Trabajar con desarrolladores]
+
+Colaborar con [desarrolladores](developer.md) en el seguimiento y la implementación de eventos:
+
+* Alinee en qué interacciones del usuario deben almacenar en déclencheur los eventos de recorrido
+* Prueba de implementaciones móviles y web antes del lanzamiento
+* Validar el seguimiento para el rendimiento del contenido y la participación del usuario
+* Solución de problemas con el envío o la personalización de mensajes
+
+>[!TAB Trabajar con administradores]
+
+Colaborar con [administradores](administrator.md) en el acceso y las configuraciones:
+
+* Solicite configuraciones de canal para sus campañas y recorridos
+* Confirmar el acceso a la licencia para campañas orquestadas y otras funciones
+* Informar de problemas con permisos o acceso
+* Coordinación en los entornos de prueba y habilitación de nuevas funciones
+
+>[!ENDTABS]
 
 ## Próximos pasos
 
 1. **Empiece pequeño**: cree un recorrido de bienvenida simple o una campaña de un solo mensaje para conocer la plataforma
 2. **Aproveche la IA**: use el Asistente para IA para hacer preguntas y acelerar la creación de contenido
-3. **Únase a la comunidad**: Conéctese con otros usuarios de Journey Optimizer en la [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}
+3. **Únase a la comunidad**: Conéctese con otros usuarios de Journey Optimizer en la [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **Explorar tutoriales**: Mira vídeos paso a paso en [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=es){target="_blank"}
