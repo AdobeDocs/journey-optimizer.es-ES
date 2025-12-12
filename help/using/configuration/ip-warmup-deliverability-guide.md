@@ -144,7 +144,7 @@ Una vez completado el plan de calentamiento, las métricas se han estabilizado:
 
 Obtenga información acerca de los aspectos básicos de la capacidad de entrega, la creación de reputación y las prácticas recomendadas para el calentamiento de IP en Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3463785/?captions=spa&learn=on)
 
 <!--
 >[!NOTE]
