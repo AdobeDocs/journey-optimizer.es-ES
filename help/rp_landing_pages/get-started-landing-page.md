@@ -5,9 +5,9 @@ title: Introducción
 description: Introducción a Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '587'
 ht-degree: 9%
 
 ---
@@ -24,7 +24,7 @@ Conozca los aspectos básicos de Adobe Journey Optimizer y cómo permite la pers
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 ¿Qué es Journey Optimizer?
 
@@ -34,7 +34,7 @@ Descubra las funcionalidades principales, los casos de uso y cómo Journey Optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Explicación de cómo funciona
 
@@ -44,7 +44,7 @@ Descubra cómo Journey Optimizer se integra con Adobe Experience Platform y cóm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 Terminología clave
 
@@ -61,7 +61,7 @@ Empiece a recibir orientación específica sobre funciones adaptada a sus respon
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 Para especialistas en marketing
 
@@ -71,7 +71,7 @@ Diseñe recorridos de clientes, cree campañas y personalice contenido para atra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Para ingenieros de datos
 
@@ -81,13 +81,23 @@ Configure estructuras de datos, administre esquemas y conjuntos de datos y garan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Para administradores
 
 Configure entornos, administre permisos y configure canales para su organización.
 
 [Iniciar como administrador](../using/start/path/administrator.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+Para desarrolladores
+
+Integre aplicaciones móviles, implemente SDK web, configure eventos y cree integraciones personalizadas.
+
+[Comenzar como desarrollador](../using/start/path/developer.md)
 :::
 
 ::::
@@ -100,7 +110,7 @@ Domine la interfaz y aproveche las funciones inteligentes para acelerar su traba
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layout.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Navegación por la interfaz
 
@@ -110,7 +120,7 @@ Aprenda a utilizar la interfaz de Journey Optimizer, acceder a las funciones cla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Buscar y organizar
 
@@ -120,7 +130,7 @@ Utilice la búsqueda, los filtros y las etiquetas para administrar los recorrido
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Funciones inteligentes y de IA
 
@@ -145,7 +155,7 @@ Descubra cómo la IA le ayuda a crear contenido, optimizar los tiempos de envío
 * **[Manuales de casos de uso](../using/start/ai-features.md#playbooks)**: Flujos de trabajo creados previamente para escenarios comunes como recuperación del carro de compras abandonado y campañas de bienvenida
 * **[Supervisión y solución de problemas](troubleshoot-journey-landing-page.md)**: herramientas para realizar un seguimiento del rendimiento, identificar problemas y resolver problemas rápidamente
 * **[Novedades](../using/rn/release-notes.md)**: manténgase al día con las últimas funciones, mejoras y correcciones
-* **[Foro de la comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}**: conéctate con otros usuarios, haz preguntas y comparte prácticas recomendadas
+* **[Foro de la comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}**: conéctate con otros usuarios, haz preguntas y comparte prácticas recomendadas
 * **[Actualizaciones de documentación](../using/rn/documentation-updates.md)**: manténgase informado sobre los cambios y adiciones recientes a la documentación
 
 ## ¿Listo para empezar?
@@ -155,7 +165,7 @@ Elija la ruta que sea adecuada para usted:
 * **¿Es nuevo en Journey Optimizer?** Comience con [¿Qué es Journey Optimizer?](../using/start/get-started.md) para comprender los conceptos básicos
 * **¿Conoce su función?** Vaya a la [guía específica de funciones](../using/start/quick-start.md) que coincide con sus responsabilidades
 * **¿Quiere explorar?** Examine las [funciones de IA](../using/start/ai-features.md) o pruebe [Manuales de casos de uso](../using/start/ai-features.md#playbooks)
-* **¿Necesita ayuda?** Consulte la [Guía de solución de problemas](../using/start/troubleshooting.md) o visite el [Foro de la comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}
+* **¿Necesita ayuda?** Consulte la [Guía de solución de problemas](../using/start/troubleshooting.md) o visite el [Foro de la comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 
 ## Vínculos rápidos {#quick-links}
 
@@ -172,4 +182,4 @@ Empiece a crear de inmediato con estas guías esenciales:
 
 >[!NOTE]
 >
->Los componentes y las funciones disponibles en su entorno dependen de sus [permisos](../using/administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}. Póngase en contacto con el administrador de satisfacción del cliente de Adobe para obtener más información sobre su configuración específica.
+>Los componentes y las funciones disponibles en su entorno dependen de sus [permisos](../using/administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}. Póngase en contacto con el administrador de satisfacción del cliente de Adobe para obtener más información sobre su configuración específica.
