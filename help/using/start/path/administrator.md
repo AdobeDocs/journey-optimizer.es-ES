@@ -7,18 +7,18 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 50%
+source-wordcount: '1012'
+ht-degree: 48%
 
 ---
 
 # Introducción para administradores de sistemas {#get-started-sys-admins}
 
-Antes de empezar a usar [!DNL Adobe Journey Optimizer], se requieren varios pasos para preparar su entorno. Debe realizar estos pasos para que [Ingeniero de datos](data-engineer.md) y [Experto en marketing](marketer.md) puedan empezar a trabajar con [!DNL Adobe Journey Optimizer].
+Como **Administrador del sistema**, usted configura el entorno de Journey Optimizer y administra el acceso para permitir que sus equipos trabajen de manera eficiente y segura. Realice los pasos de configuración esenciales para que [Ingeniero de datos](data-engineer.md), [Desarrollador](developer.md) y [Especialista en marketing](marketer.md) puedan empezar a trabajar con [!DNL Adobe Journey Optimizer].
 
-Como **Administrador del sistema**, necesita **comprender las funciones y asignar permisos** para la administración de zonas protegidas y la configuración de canal. También debe configurar los entornos limitados y administrarlos para las funciones disponibles. A continuación, podrá asignar miembros del equipo a roles. Mientras [ingenieros de datos](data-engineer.md) configuran esquemas y fuentes de datos, y [desarrolladores](developer.md) implementan integraciones técnicas, usted se asegura de que las personas adecuadas tengan acceso a las capacidades correctas.
+Sus responsabilidades principales incluyen la configuración de grupos de usuarios y permisos, la creación y administración de zonas protegidas para dividir datos y recorridos para diferentes grupos de usuarios y la configuración de canales de entrega y ajustes preestablecidos de mensajes para garantizar una marca coherente en los distintos mensajes y recursos enviados a través de Journey Optimizer. Garantiza que las personas adecuadas tengan acceso a las capacidades adecuadas y, al mismo tiempo, mantiene la seguridad y la gobernanza.
 
 Estas funcionalidades pueden gestionarlas los **[!UICONTROL Administradores de productos]** que tengan acceso al producto Permisos. [Obtenga más información sobre permisos](../../administration/permissions.md){target="_blank"}.
 
