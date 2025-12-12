@@ -197,5 +197,5 @@ Para obtener información y actualizaciones más detalladas, explore los siguien
 
 **Comunidad y asistencia técnica:**
 
-* [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: conéctese con otros usuarios y expertos
-* [Foro de productos](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: haga preguntas y comparta conocimientos
+* [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}: conéctese con otros usuarios y expertos
+* [Foro de productos](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}: haga preguntas y comparta conocimientos
