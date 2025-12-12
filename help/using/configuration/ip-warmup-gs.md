@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, entregabilidad
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
+source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 49%
+source-wordcount: '366'
+ht-degree: 43%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 49%
 
 Con [!DNL Journey Optimizer], puede realizar fácilmente flujos de trabajo de calentamiento de IP directamente desde la interfaz de usuario de una manera estandarizada y eficaz que siga las prácticas recomendadas para una entrega óptima. Cuando se envían correos electrónicos utilizando una plataforma nueva, los proveedores de servicios de Internet (ISP) sospechan de las direcciones IP desconocidas. Si se envían, de repente, grandes volúmenes de correos electrónicos, los ISP suelen marcarlos como correo no deseado.
 
-Para evitar que se considere correo no deseado, puede aumentar progresivamente el volumen enviado mediante la función de plan de calentamiento de IP. Esta nueva opción del menú **[!UICONTROL Administración]** le permite hacerlo más fácilmente de una manera consolidada en lugar de crear recorridos diarios complejos.
+Para evitar que se considere correo no deseado, puede aumentar progresivamente el volumen enviado mediante la función de plan de calentamiento de IP. Esta nueva opción del menú **[!UICONTROL Administración]** le permite automatizar la administración del volumen y simplificar el proceso de calentamiento sin requerir configuraciones de recorrido complejas.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Los pasos clave para implementar un plan de calentamiento de IP son los siguient
 
 Obtenga información sobre cómo crear y ejecutar un plan de calentamiento de IP.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453843/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
@@ -66,10 +66,10 @@ Obtenga información sobre cómo crear y ejecutar un plan de calentamiento de IP
 
 Explore estas útiles publicaciones de blog para obtener instrucciones más detalladas sobre el calentamiento de la IP:
 
-* [Guía de entrega de Adobe Journey Optimizer: de cero reputación a la bandeja de entrada principal](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=es): Guía completa que cubre los aspectos básicos de la reputación, los calendarios de calentamiento, la monitorización y las prácticas recomendadas de solución de problemas.
+* [Guía de entrega de Adobe Journey Optimizer: de cero reputación a la bandeja de entrada principal](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950): Guía completa que cubre los aspectos básicos de la reputación, los calendarios de calentamiento, la monitorización y las prácticas recomendadas de solución de problemas.
 
-* [Comprender cómo configurar el calentamiento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949?profile.language=es): conozca los aspectos básicos de la configuración de planes de calentamiento de IP y las prácticas recomendadas para una implementación exitosa.
+* [Comprender cómo configurar el calentamiento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949): conozca los aspectos básicos de la configuración de planes de calentamiento de IP y las prácticas recomendadas para una implementación exitosa.
 
-* [Funciones avanzadas en planes de calentamiento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958?profile.language=es): descubra funciones avanzadas y controles granulares para optimizar su estrategia de calentamiento de IP.
+* [Funciones avanzadas en planes de calentamiento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958): descubra funciones avanzadas y controles granulares para optimizar su estrategia de calentamiento de IP.
 
-* [Solución de problemas de calentamiento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952?profile.language=es): encuentre soluciones a problemas comunes, como retrasos de audiencia, y obtenga información acerca de los mecanismos de reintentos inteligentes.
+* [Solución de problemas de calentamiento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952): encuentre soluciones a problemas comunes, como retrasos de audiencia, y obtenga información acerca de los mecanismos de reintentos inteligentes.
