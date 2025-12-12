@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, lista, suscripción, servicio
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
+source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '721'
 ht-degree: 7%
 
 ---
@@ -37,6 +37,10 @@ Se puede utilizar un servicio de suscripción para:
 Los perfiles se pueden agregar a una lista de suscripción mediante una [página de aterrizaje](create-lp.md). Se presenta un ejemplo en [esta sección](lp-use-cases.md#subscription-to-a-service).
 
 ## Creación de una lista de suscripción {#define-subscription-list}
+
+>[!NOTE]
+>
+>Al crear una lista de suscripción, se genera automáticamente un segmento de flujo continuo asociado en Adobe Experience Platform. Para que el segmento de flujo continuo se cree correctamente, la política de combinación debe tener habilitada la opción **Active-On-Edge**. Obtenga más información acerca de los criterios de elegibilidad para segmentos de streaming en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Para crear una lista de suscripción, siga los pasos a continuación.
 
