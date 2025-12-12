@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 48%
+source-wordcount: '971'
+ht-degree: 50%
 
 ---
 
@@ -104,14 +104,7 @@ Manténgase al tanto de las últimas actualizaciones y cambios administrativos d
 
 * **[Notas de la versión](../../rn/release-notes.md)**: revise las nuevas características, las actualizaciones de la plataforma, los parches de seguridad y los cambios de configuración publicados cada mes
 * **[Actualizaciones de documentación](../../rn/documentation-updates.md)**: haga un seguimiento de los cambios recientes en las guías de configuración, las actualizaciones de permisos y las nuevas capacidades administrativas
-* **Notificaciones de productos**: habilita las notificaciones en tu [perfil de Adobe Experience Cloud](https://experience.adobe.com/preferences){target="_blank"} para recibir alertas críticas sobre:
-   * Ventanas de mantenimiento del sistema y tiempo de inactividad programado
-   * Actualizaciones y parches de seguridad
-   * Nuevas funciones administrativas y cambios de permisos
-   * Actualizaciones de licencias y autorizaciones
-   * Anuncios críticos del producto
-
-  Para habilitar las notificaciones, haz clic en tu icono de perfil en la parte superior derecha de Adobe Experience Cloud, ve a **Preferencias > Notificaciones** y configura tus preferencias de notificaciones de Journey Optimizer. Como administrador, debe habilitar todas las notificaciones críticas del sistema.
+* **[Notificaciones de productos](../../rn/releases.md#staying-informed)**: Obtenga información sobre cómo suscribirse a alertas por correo electrónico y en el producto para actualizaciones de Journey Optimizer, incluido el mantenimiento del sistema, las actualizaciones de seguridad y los anuncios de productos críticos. Como administrador, debe habilitar todas las notificaciones críticas del sistema
 
 ## Próximos pasos
 

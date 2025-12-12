@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1477'
 ht-degree: 3%
 
 ---
@@ -177,17 +177,11 @@ Manténgase al tanto de las últimas funciones y características de marketing d
 
 * **[Notas de la versión](../../rn/release-notes.md)**: revise las nuevas características, las actualizaciones de canal y las mejoras publicadas cada mes
 * **[Actualizaciones de documentación](../../rn/documentation-updates.md)**: efectúe el seguimiento de cambios recientes, incluidos nuevos casos de uso, prácticas recomendadas y documentación de características
-* **Notificaciones de productos**: habilita las notificaciones en tu [perfil de Adobe Experience Cloud](https://experience.adobe.com/preferences){target="_blank"} para recibir alertas sobre:
-   * Nuevos canales y funcionalidades disponibles para usted
-   * Próximos lanzamientos de funcionalidades y programas beta
-   * Prácticas recomendadas y oportunidades de formación
-   * Anuncios importantes que afectan a las campañas
-
-  Para habilitar las notificaciones, haz clic en tu icono de perfil en la parte superior derecha de Adobe Experience Cloud, ve a **Preferencias > Notificaciones** y configura tus preferencias de notificaciones de Journey Optimizer.
+* **[Notificaciones de productos](../../rn/releases.md#staying-informed)**: Obtenga información sobre cómo suscribirse a alertas por correo electrónico y en el producto para actualizaciones de Journey Optimizer, incluidos nuevos canales, próximos lanzamientos de características y anuncios importantes de campañas
 
 ## Próximos pasos
 
 1. **Empiece pequeño**: cree un recorrido de bienvenida simple o una campaña de un solo mensaje para conocer la plataforma
 2. **Aproveche la IA**: use el Asistente para IA para hacer preguntas y acelerar la creación de contenido
-3. **Únase a la comunidad**: Conéctese con otros usuarios de Journey Optimizer en la [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}
+3. **Únase a la comunidad**: Conéctese con otros usuarios de Journey Optimizer en la [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **Explorar tutoriales**: Mira vídeos paso a paso en [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=es){target="_blank"}

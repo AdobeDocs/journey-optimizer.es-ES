@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 50%
+source-wordcount: '817'
+ht-degree: 51%
 
 ---
 
@@ -73,9 +73,4 @@ Manténgase al tanto de las últimas funciones y mejoras de Journey Optimizer:
 
 * **[Notas de la versión](../../rn/release-notes.md)**: revise las nuevas funciones, mejoras y correcciones publicadas cada mes
 * **[Actualizaciones de documentación](../../rn/documentation-updates.md)**: haga un seguimiento de los cambios recientes en la documentación, incluidas las páginas nuevas y el contenido actualizado
-* **Notificaciones de productos**: habilita las notificaciones en tu [perfil de Adobe Experience Cloud](https://experience.adobe.com/preferences){target="_blank"} para recibir alertas sobre:
-   * Nuevas versiones y funciones de productos
-   * Ventanas de mantenimiento y actualizaciones del sistema
-   * Anuncios y cambios importantes
-
-  Para habilitar las notificaciones, haz clic en tu icono de perfil en la parte superior derecha de Adobe Experience Cloud, ve a **Preferencias > Notificaciones** y configura tus preferencias de notificaciones de Journey Optimizer.
+* **[Notificaciones de productos](../../rn/releases.md#staying-informed)**: Obtenga información sobre cómo suscribirse a alertas por correo electrónico y en el producto para actualizaciones de Journey Optimizer, incluidas nuevas características, ventanas de mantenimiento y cambios importantes en el sistema

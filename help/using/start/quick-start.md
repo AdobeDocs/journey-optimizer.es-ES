@@ -8,9 +8,9 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1570'
 ht-degree: 14%
 
 ---
@@ -176,7 +176,7 @@ Las implementaciones correctas de Journey Optimizer requieren la colaboración e
 
 Para obtener más información acerca de las funcionalidades y personalidades clave de Journey Optimizer, vea el vídeo introductorio. El vídeo muestra la interfaz de usuario y resalta las funciones clave en función de los flujos de trabajo específicos de funciones.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430317?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Recursos adicionales
 
@@ -193,9 +193,9 @@ Para obtener información y actualizaciones más detalladas, explore los siguien
 
 * [Notas de la versión](../rn/release-notes.md): últimas funciones, mejoras y correcciones
 * [Actualizaciones de documentación](../rn/documentation-updates.md) - Rastrear cambios recientes en la documentación
-* **Notificaciones de productos** - Habilite alertas en su [perfil de Adobe Experience Cloud](https://experience.adobe.com/preferences){target="_blank"} para recibir notificaciones sobre nuevas versiones, ventanas de mantenimiento y anuncios importantes. Haga clic en el icono de perfil > Preferencias > Notificaciones para configurarlas.
+* [Notificaciones de productos](../rn/releases.md#staying-informed): aprenda a suscribirse a alertas por correo electrónico y en el producto para actualizaciones de Journey Optimizer
 
 **Comunidad y asistencia técnica:**
 
-* [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}: conéctese con otros usuarios y expertos
-* [Foro de productos](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}: haga preguntas y comparta conocimientos
+* [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: conéctese con otros usuarios y expertos
+* [Foro de productos](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: haga preguntas y comparta conocimientos
