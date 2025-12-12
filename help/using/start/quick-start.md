@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: d3765f66beff13aaf77cd585c5da5f93c44fa1df
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 14%
+source-wordcount: '1724'
+ht-degree: 13%
 
 ---
 
@@ -163,12 +163,43 @@ Implemente integraciones técnicas que conecten Journey Optimizer a sus aplicaci
 
 ## Cross-Role Collaboration
 
-Las implementaciones correctas de Journey Optimizer requieren la colaboración entre todas las funciones:
+Las implementaciones de Journey Optimizer correctas requieren la colaboración entre todas las funciones. Cada función trabaja con otras para ofrecer experiencias de cliente sin problemas:
 
-* **Administradores** habilitan otras funciones mediante la configuración de zonas protegidas, permisos y configuraciones de canal
-* **Ingenieros de datos** proporcionan la base de datos sobre la que se basan los desarrolladores y los especialistas en marketing
-* **Desarrolladores** implementan las integraciones técnicas que los especialistas en marketing utilizan para almacenar en déclencheur los recorridos
-* **Los especialistas en marketing** proporcionan comentarios a todos los equipos sobre la calidad de los datos, las solicitudes de características y la experiencia del usuario
+>[!BEGINTABS]
+
+>[!TAB Administradores]
+
+**Administradores** habilitan todos los equipos al administrar el acceso y las configuraciones. Trabajan con:
+
+* **Ingenieros de datos**: conceda permisos para la administración de datos, apruebe el acceso a la zona protegida y coordine las directivas de gobernanza
+* **Desarrolladores**: Proporcione credenciales de API, configure entornos de prueba y apruebe configuraciones de canal
+* **Especialistas en marketing**: asigne permisos para recorridos/campañas, configure canales y admita entornos de prueba
+
+>[!TAB Ingenieros de datos]
+
+**Ingenieros de datos** proporcionan la base de datos para todos. Trabajan con:
+
+* **Administradores**: Solicite permisos para la administración de datos, coordine las directivas de gobernanza y retención
+* **Desarrolladores**: Proporcione esquemas XDM y estructuras de eventos, defina formatos de carga útil de eventos y pruebe la ingesta de datos
+* **Especialistas en marketing**: cree atributos calculados para la personalización, cree audiencias y configure esquemas relacionales
+
+>[!TAB Desarrolladores]
+
+**Desarrolladores** implementan integraciones técnicas que mejoran los recorridos. Trabajan con:
+
+* **Ingenieros de datos**: obtenga esquemas XDM y estructuras de eventos, alinéense en los requisitos de recopilación de datos y pruebe la entrega de eventos
+* **Administradores**: Proporcione especificaciones de API, solicite permisos y credenciales, y coordine la estrategia de prueba
+* **Especialistas en marketing**: comprenda los déclencheur de eventos, implemente el seguimiento, admita las pruebas de recorrido y solucione problemas
+
+>[!TAB Especialistas en marketing]
+
+**Los especialistas en marketing** diseñan experiencias para los clientes y proporcionan comentarios. Trabajan con:
+
+* **Ingenieros de datos**: Solicite atributos calculados, coordine los requisitos de audiencia y proporcione comentarios sobre la calidad de los datos
+* **Desarrolladores**: Alinee en los déclencheur de eventos, pruebe las implementaciones y valide el seguimiento
+* **Administradores**: Solicite configuraciones de canal, confirme el acceso a la función y coordine la habilitación
+
+>[!ENDTABS]
 
 **Práctica recomendada:** Realice reuniones interfuncionales periódicas para alinearse en las prioridades, compartir el progreso y abordar los bloqueadores entre equipos.
 
@@ -176,26 +207,30 @@ Las implementaciones correctas de Journey Optimizer requieren la colaboración e
 
 Para obtener más información acerca de las funcionalidades y personalidades clave de Journey Optimizer, vea el vídeo introductorio. El vídeo muestra la interfaz de usuario y resalta las funciones clave en función de los flujos de trabajo específicos de funciones.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430317?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Recursos adicionales
 
 Para obtener información y actualizaciones más detalladas, explore los siguientes recursos:
 
-**Aprendizaje y documentación:**
+>[!BEGINTABS]
+
+>[!TAB Aprendizaje y documentación]
 
 * [Vídeos de tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=es){target="_blank"}: tutoriales de vídeo paso a paso para todas las funciones
 * [Biblioteca de casos de uso de Recorrido](../building-journeys/jo-use-cases.md): ejemplos prácticos y patrones de implementación
 * [Funciones inteligentes y de IA](ai-features.md): obtenga información sobre el asistente de IA, la optimización del tiempo de envío y la generación de contenido
 * [Guía de interfaz de usuario](user-interface.md): navegue por Journey Optimizer de forma eficaz
 
-**Permanecer actualizado:**
+>[!TAB Permanecer actualizado]
 
 * [Notas de la versión](../rn/release-notes.md): últimas funciones, mejoras y correcciones
 * [Actualizaciones de documentación](../rn/documentation-updates.md) - Rastrear cambios recientes en la documentación
 * [Notificaciones de productos](../rn/releases.md#staying-informed): aprenda a suscribirse a alertas por correo electrónico y en el producto para actualizaciones de Journey Optimizer
 
-**Comunidad y asistencia técnica:**
+>[!TAB Comunidad y asistencia]
 
-* [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}: conéctese con otros usuarios y expertos
-* [Foro de productos](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}: haga preguntas y comparta conocimientos
+* [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: conéctese con otros usuarios y expertos
+* [Foro de productos](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: haga preguntas y comparta conocimientos
+
+>[!ENDTABS]
