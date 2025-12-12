@@ -19,7 +19,7 @@ ht-degree: 5%
 
 Al lanzar campañas de correo electrónico con nuevas direcciones IP o dominios en Adobe Journey Optimizer, comprender los aspectos básicos de la capacidad de entrega es crucial para crear una sólida reputación de remitente. Esta guía cubre los conceptos clave, los pasos de preparación y las prácticas recomendadas para ayudarle a pasar de una reputación cero a una ubicación correcta en la bandeja de entrada.
 
-➡️ Obtenga información acerca de los aspectos básicos de la capacidad de envío, la creación de reputación y las prácticas recomendadas para el calentamiento de IP en el vídeo de esta [publicación de blog de Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}.
+➡️ Obtenga información acerca de los aspectos básicos de la capacidad de envío, la creación de reputación y las prácticas recomendadas para el calentamiento de IP en el vídeo de esta [publicación de blog de Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=es){target="_blank"}.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Una vez completado el plan de calentamiento, las métricas se han estabilizado:
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=es).-->
 
 ## Temas relacionados {#related-topics}
 
