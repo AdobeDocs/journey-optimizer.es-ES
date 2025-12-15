@@ -10,9 +10,9 @@ level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+source-git-commit: 8a1c6ccad1e0ff66bc23b6fbdd873db5f54e3e0a
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1943'
 ht-degree: 7%
 
 ---
@@ -56,6 +56,7 @@ Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba.
 * **Ventana de fecha activa**. Asegúrese de que la ventana del recorrido que ha configurado para elegir [fechas/hora de inicio y finalización](journey-properties.md#dates) incluya la hora actual al iniciar el modo de prueba. De lo contrario, los eventos de prueba activados se descartan silenciosamente. Obtenga más información acerca de la solución de problemas de este problema [en esta página](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Eventos de reacción**: para los eventos de reacción con tiempo de espera, el tiempo de espera mínimo y predeterminado es de 40 segundos.
 * **Conjuntos de datos de prueba**: los eventos activados en el modo de prueba se almacenan en conjuntos de datos dedicados etiquetados de la siguiente manera: `JOtestmode - <schema of your event>`
+* **Infraestructura compartida**: el modo de prueba se ejecuta en la misma infraestructura que la producción. Durante los períodos de alto tráfico, es posible que observe retrasos en los envíos de correo electrónico o en el procesamiento de eventos. En este caso, compruebe los paneles de tráfico de la plataforma o vuelva a intentar las pruebas durante las horas de menor actividad.
 
 <!--
 * Fields from related entities are hidden from the test mode.
