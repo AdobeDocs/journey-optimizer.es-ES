@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1344'
-ht-degree: 27%
+ht-degree: 25%
 
 ---
 
@@ -113,7 +113,7 @@ El período de retención de una página espejo es de **90 días**. Después de 
 
 >[!CAUTION]
 >
->* Los vínculos de páginas espejo se generan automáticamente y no se pueden editar. Contienen todos los datos personalizados cifrados necesarios para procesar el correo electrónico original. Como resultado, el uso de atributos personalizados con valores grandes puede generar direcciones URL de páginas espejo largas, lo que puede impedir que el vínculo funcione en exploradores web que tengan una longitud máxima de direcciones URL.
+>* Los vínculos de páginas espejo se generan automáticamente y no se pueden editar. Contienen todos los datos personalizados cifrados necesarios para procesar el correo electrónico original. Como resultado, el uso de atributos personalizados con valores grandes puede generar direcciones URL de páginas espejo largas, lo que puede impedir que el vínculo funcione en exploradores web que tengan una longitud de URL máxima.
 >
 >* Al crear correos electrónicos que dependen en gran medida de la personalización en tiempo de ejecución (por ejemplo, bucles de `#each`, objetos anidados, datos de carga útil grandes), las direcciones URL de página espejo pueden llegar a ser excesivamente grandes, especialmente en campañas activadas por API que utilizan datos contextuales extensos de cargas útiles. Esto puede provocar errores de HTTP (404, 422, 502) en exploradores o clientes de correo electrónico. Adobe recomienda limitar la anchura y profundidad de los campos dinámicos, reducir la dependencia de fragmentos complejos y acoplar las estructuras de personalización para evitar errores de vínculos.
 >

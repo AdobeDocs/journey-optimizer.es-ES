@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: mensaje, frecuencia, reglas, presión
-source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -34,12 +34,12 @@ Al optimizar estos procesos, puede mejorar la experiencia del cliente, ahorrar t
 
 >[!AVAILABILITY]
 >
->Actualmente, las reglas de horario silencioso solo están disponibles para un conjunto de organizaciones (disponibilidad limitada).  Estarán disponibles de forma progresiva para todos los clientes en futuras versiones.
+>Las horas de inactividad están actualmente disponibles solo para un conjunto de organizaciones (disponibilidad limitada).  Estarán disponibles de forma progresiva para todos los clientes en futuras versiones.
 
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
-## Mecanismos de protección y limitaciones
+## Protecciones y limitaciones
 
 * **Canales compatibles**: correo electrónico, SMS, push y WhatsApp.
   <!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
@@ -187,4 +187,4 @@ Una vez que el recorrido o las campañas se hayan activado y ejecutado, puede ve
 
 Aprenda a utilizar la función de horario discreto en Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475855?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

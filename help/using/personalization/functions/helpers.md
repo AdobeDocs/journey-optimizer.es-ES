@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 5%
@@ -64,7 +64,7 @@ La instrucción `elseif` especificará una nueva condición para comprobar si la
    {%#if profile.homeAddress.countryCode = "FR"%}
    <a href="https://www.somedomain.com/fr">Consultez notre catalogue</a>
    {%else%}
-   <a href="https://www.somedomain.com/en">Checkout our catalogue</a>
+   <a href="https://www.somedomain.com/en">Checkout our catalog</a>
    {%/if%}
    ```
 

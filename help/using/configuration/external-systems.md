@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -33,7 +33,7 @@ Cuando Journey Optimizer ejecuta una llamada a una API externa, las protecciones
 
 >[!TIP]
 >
->Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
+>Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` ](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
 
 ## API de límite y restricción {#capping}
 
@@ -110,7 +110,7 @@ Veamos un ejemplo para un tiempo de espera de 5 segundos.
 
 A continuación, encontrará las preguntas más frecuentes sobre la integración de Journey Optimizer con sistemas externos.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más información? Use las opciones de comentarios situados en la parte inferior de esta página para plantear su pregunta o conecte con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
 
 +++ ¿Cómo puedo configurar una regla de restricción o límite? ¿Existe una regla predeterminada?
 

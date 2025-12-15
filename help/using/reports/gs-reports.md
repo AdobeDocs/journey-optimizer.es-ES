@@ -6,7 +6,7 @@ description: Obtenga información sobre cómo acceder a  [!DNL Adobe Journey Opt
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 23%
@@ -140,8 +140,8 @@ Aprenda a utilizar de forma eficaz el informe permanente en Adobe Journey Optimi
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422693?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
-Descubra más tutoriales en vídeo sobre informes y análisis en [Tutoriales de informes](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}
+Descubra más tutoriales en vídeo sobre informes y análisis en [Tutoriales de informes](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}
