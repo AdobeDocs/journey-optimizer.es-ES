@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: recorrido, caso de uso, mensaje, suscriptores, lista, lectura
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 52126b42ff400a355db9c75afde0c86059daf164
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 17%
+source-wordcount: '355'
+ht-degree: 15%
 
 ---
 
@@ -27,8 +27,8 @@ En este ejemplo, se usa el grupo de campos **[!UICONTROL Detalles de consentimie
 
 Para configurar este recorrido, siga estos pasos:
 
-1. Cree un recorrido que comience con una actividad **[!UICONTROL Read]**. [Más información](journey-gs.md).
-1. Agregue una actividad de acción **[!UICONTROL Correo electrónico]** al recorrido. [Más información](journeys-message.md).
+1. Cree un recorrido que comience con una actividad **[!UICONTROL Read]**. Más información en [Crea tu primer recorrido](journey-gs.md).
+1. Agregue una actividad de acción **[!UICONTROL Correo electrónico]** al recorrido. Aprenda a [trabajar con acciones del canal](journeys-message.md).
 1. En la sección **[!UICONTROL Parámetros de correo electrónico]** de la configuración de la actividad **[!UICONTROL Correo electrónico]**, reemplace la dirección de correo electrónico predeterminada (`PersonalEmail.adress`) por la dirección de correo electrónico de los suscriptores de la lista:
 
    1. Haga clic en el icono **[!UICONTROL Habilitar anulación de parámetros]** a la derecha del campo **[!UICONTROL Dirección]** y, a continuación, haga clic en el icono **[!UICONTROL Editar]**.
