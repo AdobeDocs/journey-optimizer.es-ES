@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: exclusión, correo electrónico, vínculo, cancelación de suscripción
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
+source-git-commit: af7451c0495e442328368a6a308af5c14dcda142
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 26%
+source-wordcount: '1117'
+ht-degree: 20%
 
 ---
 
@@ -34,7 +34,7 @@ Para insertar un vínculo de baja en el contenido del correo electrónico, puede
 
 Cuando un destinatario hace clic en el vínculo de no participación, su solicitud de cancelación de suscripción se procesa en consecuencia.
 
-Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y [busque ese perfil](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. En la ficha [Atributos](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**. Obtenga más información sobre el procesamiento del consentimiento en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=es){target="_blank"}.
+Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y [busque ese perfil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. En la ficha [Atributos](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**. Obtenga más información sobre el procesamiento del consentimiento en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=es){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -160,25 +160,30 @@ Primero debe agregar el vínculo &quot;Cancelar la suscripción&quot; a un mensa
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 
-### Enviar el mensaje con el vínculo &quot;Cancelar la suscripción&quot; {#send-message-unsubscribe-link}
+### Comprender el flujo de cancelación de suscripción {#send-message-unsubscribe-link}
 
-Una vez configurado el vínculo &quot;Cancelar la suscripción&quot; a la página de aterrizaje, puede crear y enviar el mensaje.
+Una vez configurado el vínculo &quot;Cancelar la suscripción&quot; a la página de aterrizaje, su puede completar y enviar el mensaje a sus suscriptores.
 
-1. Configure el mensaje con un vínculo de baja y envíelo a sus suscriptores.
+Para que todo el flujo de exclusión de la página de aterrizaje se complete correctamente, se espera que se produzcan los siguientes eventos en orden:
 
-1. Una vez recibido el mensaje, si el destinatario hace clic en el vínculo para cancelar la suscripción, se muestra la página de destino.
+1. **Hacer clic**: una vez recibido el mensaje, el destinatario hace clic en el vínculo de cancelación de suscripción del correo electrónico.
+
+1. **Visita**: la página de aterrizaje se carga y se muestra al destinatario.
 
    ![](assets/opt-out-lp-example.png)
+
+1. **Enviar**: el destinatario envía el formulario de exclusión haciendo clic en el botón Cancelar suscripción de la página de aterrizaje.
 
    >[!WARNING]
    >
    >Al hacer clic en el vínculo unsubscribe del correo electrónico, solo se abre la página de aterrizaje. El destinatario debe **enviar el formulario haciendo clic en el botón de exclusión de la página de aterrizaje** para completar la cancelación de la suscripción y actualizar el consentimiento de su perfil.
 
-1. Si el destinatario envía el formulario (aquí, pulsando el botón **[!UICONTROL Cancelar la suscripción]** de la página de aterrizaje), los datos de perfil se actualizan mediante la llamada de API.
-
-1. El destinatario excluido se redirige a la pantalla de mensaje de confirmación para indicar que la exclusión se ha realizado correctamente.
+1. **Cancelar suscripción**: el sistema procesa la solicitud de cancelación de suscripción. El destinatario excluido se redirige a una pantalla de mensaje de confirmación que indica que la exclusión se ha realizado correctamente.
 
    ![](assets/opt-out-confirmation-example.png)
 
+1. **Actualización de consentimiento**: los datos de perfil se actualizan con el consentimiento en los atributos de perfil a través de la llamada de API, que excluye el perfil de futuros envíos de correo electrónico.
+
    Como resultado, este usuario no recibirá comunicaciones de su marca a menos que se vuelva a suscribir.
 
+Esta secuencia de eventos garantiza que el proceso de baja se rastree correctamente y que las preferencias de consentimiento del perfil se reflejen con precisión en el sistema. Si falta algún paso en este flujo o se produce de forma desordenada, puede indicar un problema con la implementación de exclusión que debe investigarse.
