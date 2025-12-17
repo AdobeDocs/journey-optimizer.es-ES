@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
+source-git-commit: 964568f060626d3eeefa91f2836aac4d69aefa38
 workflow-type: tm+mt
 source-wordcount: '3022'
 ht-degree: 97%
@@ -628,7 +628,7 @@ ht-degree: 97%
                + [Consultar reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
                + [Lista de reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [Actualizar reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/update.md)
-         + [Entregar ofertas mediante el canal de experiencia basada en código](using/experience-decisioning/api-reference/deliver.md)
+      + [Entregar ofertas mediante el canal de experiencia basada en código](using/experience-decisioning/api-reference/deliver.md)
       + Administrar elementos de decisión {#manage-decision-items}
          + [Administrar elementos de decisión](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [Configuración del catálogo de elementos](using/experience-decisioning/catalogs.md)
@@ -829,7 +829,7 @@ ht-degree: 97%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
