@@ -7,9 +7,9 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: cbfebeaaa3ef6e55d48457012fd94bd74afc91de
+source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '438'
 ht-degree: 5%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 5%
 >* **[Examine la referencia de API completa](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}**: Acceda a todas las API de Journey Optimizer y pruébelas directamente
 >* **[Configurar autenticación](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}**: recopile las credenciales necesarias para empezar a usar las API
 >* **[API de administración de decisiones](../offers/api-reference/getting-started.md)**: administre ofertas y decisiones mediante programación
->* **[API de Experience Decisioning](../experience-decisioning/api-reference/deliver.md)**: proporcione elementos de decisión personalizados mediante experiencias basadas en código
+>* **[API de Experience Decisioning](../experience-decisioning/api-reference/getting-started.md)**: administre mediante programación elementos de decisión, estrategias de selección y reglas de elegibilidad
 
 ## Información general {#overview}
 
@@ -64,4 +64,4 @@ Journey Optimizer también ofrece API de Experience Decisioning para ofrecer ele
 * **Fórmulas de clasificación** - Configurar lógica de clasificación personalizada
 * **Ubicaciones**: defina dónde pueden aparecer los elementos de decisión
 
-Obtenga más información en la [referencia de la API de Experience Decisioning](../experience-decisioning/api-reference/deliver.md) y explore cómo [entregar ofertas mediante experiencias basadas en código](../experience-decisioning/api-reference/deliver.md).
+Obtenga más información en la [referencia de la API de Experience Decisioning](../experience-decisioning/api-reference/getting-started.md)
