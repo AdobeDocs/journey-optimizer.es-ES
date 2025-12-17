@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
+source-git-commit: 8328e32f91c5541ec8561aef0e34757c4c7ecf9c
 workflow-type: tm+mt
-source-wordcount: '3015'
-ht-degree: 97%
+source-wordcount: '3024'
+ht-degree: 96%
 
 ---
 
@@ -628,6 +628,11 @@ ht-degree: 97%
             + [Consultar reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
             + [Lista de reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
             + [Actualizar reglas de elegibilidad](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+         + Ubicaciones {#placements}
+            + [Creación de ubicaciones](using/experience-decisioning/api-reference/exd-placements/create.md)
+            + [Lista de ubicaciones](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
+            + [Ubicaciones de búsqueda](using/experience-decisioning/api-reference/exd-placements/lookup.md)
+            + [Actualizar ubicaciones](using/experience-decisioning/api-reference/exd-placements/update.md)
       + Administrar elementos de decisión {#manage-decision-items}
          + [Administrar elementos de decisión](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [Configuración del catálogo de elementos](using/experience-decisioning/catalogs.md)
@@ -828,7 +833,7 @@ ht-degree: 97%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
