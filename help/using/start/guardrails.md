@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d04cbbbec426cf1bf56004685172be2a9328ec18
+source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
 workflow-type: tm+mt
 source-wordcount: '3574'
 ht-degree: 92%
@@ -19,7 +19,7 @@ ht-degree: 92%
 
 A continuación encontrará limitaciones y protecciones al usar [!DNL Adobe Journey Optimizer].
 
-Los derechos, limitaciones de productos y protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}.
+Los derechos, limitaciones de productos y protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}.
 
 
 >[!CAUTION]
@@ -103,7 +103,7 @@ Las siguientes limitaciones se aplican a la actividad [canal de SMS](../sms/get-
 
 Los canales de entrada de [!DNL Journey Optimizer] se pueden dirigir a perfiles seudónimos, es decir, perfiles que no se han autenticado o que aún no se conocen porque no se han utilizado anteriormente en otros canales. Este es el caso, por ejemplo, al dirigirse a todos los visitantes o públicos en función de ID temporales como ECID.
 
-Esto aumenta el recuento total de perfiles interesados, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles interesados que ha adquirido. Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}. Puede comprobar el número de perfiles interesados en el [panel de control de uso de licencias](../audience/license-usage.md).
+Esto aumenta el recuento total de perfiles interesados, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles interesados que ha adquirido. Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}. Puede comprobar el número de perfiles interesados en el [panel de control de uso de licencias](../audience/license-usage.md).
 
 Para mantener los perfiles interesados dentro de límites razonables, Adobe recomienda establecer un período de vida (TTL, Time-To-Live) para eliminar automáticamente los perfiles seudónimos del perfil del cliente en tiempo real si no se han visto ni han interactuado en un intervalo de tiempo específico.
 
@@ -155,7 +155,7 @@ Las siguientes limitaciones se aplican a los [fragmentos](../content-management/
 
 ## Mecanismos de protección de gestión de decisiones y toma de decisiones {#decisioning-guardrails}
 
-Las protecciones y limitaciones que se deben tener en cuenta al trabajar con toma de decisiones o gestión de decisiones se detallan en estas secciones de toma de decisiones y gestión de decisiones:
+Las protecciones y limitaciones que se deben tener en cuenta al trabajar con la toma de decisiones o la administración de decisiones se detallan en estas secciones de la toma de decisiones y la administración de decisiones:
 
 * [Limitaciones y protecciones de decisiones](../experience-decisioning/decisioning-guardrails.md)
 * [Limitaciones y mecanismos de protección de gestión de decisiones](../offers/decision-management-guardrails.md)
