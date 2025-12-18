@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 27%
@@ -21,7 +21,7 @@ ht-degree: 27%
 
 >[!TIP]
 >
->Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Puede crear una oferta de reserva realizando una petición POST a la API [!DNL Offer Library].

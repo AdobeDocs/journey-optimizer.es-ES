@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 23%
@@ -21,7 +21,7 @@ ht-degree: 23%
 
 >[!TIP]
 >
->Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 En ocasiones puede ser necesario eliminar (DELETE) una decisión. Para ello, realice una petición DELETE a la API [!DNL Offer Library] mediante la `id` de la decisión que desea eliminar.

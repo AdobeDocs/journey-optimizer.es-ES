@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 944efb12-6745-4bb2-be52-293e23925350
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 17%
@@ -21,7 +21,7 @@ ht-degree: 17%
 
 >[!TIP]
 >
->Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 En ocasiones puede ser necesario eliminar (DELETE) una ubicación. Solo se pueden eliminar las ubicaciones que cree en el contenedor de inquilino. Para ello, realice una petición DELETE a la API [!DNL Offer Library] utilizando el identificador de la ubicación que desea eliminar.

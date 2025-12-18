@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 17%
@@ -21,7 +21,7 @@ ht-degree: 17%
 
 >[!TIP]
 >
->Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Puede modificar o actualizar un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;) en su contenedor realizando una petición PATCH a la API [!DNL Offer Library].
