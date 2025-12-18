@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b06229e7a2fc64fbe28154c798b152cca8203a86
+source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3024'
 ht-degree: 96%
 
 ---
@@ -472,9 +472,7 @@ ht-degree: 96%
       + [Trabajar con Adobe Stock](using/integrations/stock.md)
       + [Trabajar con Adobe Express](using/integrations/express.md)
       + [Trabajar con plantillas de Experience Manager](using/integrations/aem-templates.md)
-      + Fragmentos de contenido de Experience Manager {#fragments}
-         + [Introducción a los fragmentos de contenido de Experience Manager](using/integrations/aem-fragments-gs.md)
-         + [Trabajar con fragmentos de contenido de Experience Manager](using/integrations/aem-fragments.md)
+      + [Trabajar con fragmentos de contenido de Experience Manager](using/integrations/aem-fragments.md)
       + [Trabajar con Dynamic Media](using/integrations/aem-dynamic.md)
       + [Trabajar con GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + [Trabajo con integraciones](using/integrations/external-sources.md)
@@ -835,7 +833,7 @@ ht-degree: 96%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
