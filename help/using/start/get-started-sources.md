@@ -7,7 +7,7 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 52b58d18cdbbff79f4dcb7af2817b178a4a0b429
+source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 11%
@@ -71,7 +71,7 @@ Journey Optimizer admite varios tipos de fuentes para conectarse con los sistema
 * Salesforce
 * Marketing Cloud de Salesforce
 
-➡️ Ver la lista completa en el [catálogo de orígenes Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#sources-catalog){target="_blank"}
+➡️ Ver la lista completa en el [catálogo de orígenes Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}
 
 ## Antes de empezar {#prerequisites}
 
@@ -81,7 +81,7 @@ Antes de configurar las fuentes, asegúrese de lo siguiente:
 * **Credenciales del sistema de Source**: detalles de autenticación del sistema externo al que desea conectarse
 * **Comprensión de los datos**: Sepa qué campos de datos necesita y cómo se asignan a los perfiles de Journey Optimizer
 
-➡️ Más información acerca de [control de acceso y permisos](../../administration/permissions.md)
+➡️ Más información acerca de [control de acceso y permisos](../administration/permissions.md)
 
 ## Cómo funcionan las fuentes {#how-sources-work}
 
@@ -101,7 +101,7 @@ Una vez configuradas, las fuentes se ejecutan automáticamente en segundo plano,
 
 Vea este vídeo para comprender los conectores de origen y cómo configurarlos en Journey Optimizer:
 
->[!VIDEO](https://video.tv.adobe.com/v/3422582?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 Para obtener información detallada sobre cómo configurar y administrar orígenes, consulte la [documentación de orígenes de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es){target="_blank"}.
 
@@ -109,7 +109,7 @@ Para obtener información detallada sobre cómo configurar y administrar orígen
 
 Ahora que comprende cuáles son las fuentes y por qué son importantes:
 
-* Explore el [catálogo de fuentes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#sources-catalog){target="_blank"} para encontrar conectores para sus sistemas
+* Explore el [catálogo de fuentes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"} para encontrar conectores para sus sistemas
 * Aprenda a [crear una conexión de origen](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
 * Comprender la [asignación y transformación de datos](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
 * Ver cómo [usar datos importados en recorrido](../building-journeys/journey-gs.md)
