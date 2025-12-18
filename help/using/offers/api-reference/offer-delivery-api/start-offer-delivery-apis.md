@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Introducción a las API de envío de ofertas
 description: Obtenga más información sobre las API disponibles para ofrecer ofertas personalizadas.
+badge: label="Heredado" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 4%
+source-wordcount: '487'
+ht-degree: 7%
 
 ---
 
 # Introducción a las API de envío de ofertas {#about-decisioning-apis}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../../experience-decisioning/gs-experience-decisioning.md)
 
 Puede entregar ofertas mediante la API **Decisioning** o **Edge Decisioning**. Además, la API **Batch Decisioning** le permite entregar ofertas a todos los perfiles de una audiencia determinada en una llamada. El contenido de la oferta para cada perfil de la audiencia se coloca en un conjunto de datos de Adobe Experience Platform, donde está disponible para flujos de trabajo por lotes personalizados.
 

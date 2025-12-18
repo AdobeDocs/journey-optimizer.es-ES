@@ -4,20 +4,26 @@ product: Journey Optimizer
 title: Actualizar calificadores de colección
 description: Los calificadores de colección le permiten organizar y ordenar mejor sus ofertas.
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 11%
+source-wordcount: '135'
+ht-degree: 23%
 
 ---
 
 
 # Actualización de un cualificador colección {#update-collection-qualifier}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Puede modificar o actualizar un calificador de colección (anteriormente conocido como &quot;etiqueta&quot;) realizando una petición PATCH a la API de la biblioteca de ofertas.
 

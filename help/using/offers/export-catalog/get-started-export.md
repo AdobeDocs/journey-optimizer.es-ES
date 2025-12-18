@@ -10,14 +10,18 @@ role: User, Developer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '115'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '132'
 ht-degree: 100%
 
 ---
 
 # Introducción a la exportación del catálogo de ofertas {#export-catalog}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
 
 Journey Optimizer le permite exportar automáticamente el catálogo de ofertas a Adobe Experience Platform.
 

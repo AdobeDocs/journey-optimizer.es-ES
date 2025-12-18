@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: actualización de una ubicación
 description: Las ubicaciones son contenedores que se utilizan para mostrar sus ofertas.
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 759c58e7-af1e-409c-8400-996b9a647ba7
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 10%
+source-wordcount: '178'
+ht-degree: 19%
 
 ---
 
 # Actualizar una ubicación {#update-placement}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Puede modificar o actualizar una ubicación en el contenedor realizando una petición PATCH a la API [!DNL Offer Library].
 

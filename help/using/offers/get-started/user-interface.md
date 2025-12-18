@@ -10,14 +10,18 @@ role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 33%
+source-wordcount: '654'
+ht-degree: 35%
 
 ---
 
 # Interfaz de usuario de biblioteca de ofertas {#user-interface}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
 
 La sección **[!UICONTROL Administración de decisiones]** del carril izquierdo proporciona dos menús que le proporcionan acceso a las capacidades de administración de decisiones:
 

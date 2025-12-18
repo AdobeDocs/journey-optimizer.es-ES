@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 23%
+source-wordcount: '203'
+ht-degree: 30%
 
 ---
 
 # Crear calificadores de colección {#create-tags}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
@@ -48,4 +52,4 @@ Para crear un cualificador de recopilación, siga estos pasos:
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341364?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

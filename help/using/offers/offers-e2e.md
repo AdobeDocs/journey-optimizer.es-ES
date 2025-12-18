@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 4%
+source-wordcount: '1118'
+ht-degree: 6%
 
 ---
 
 # Caso de uso: Configuración de ofertas personalizadas para utilizarlas en un correo electrónico {#configure-add-personalized-offers-email}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../experience-decisioning/gs-experience-decisioning.md)
 
 Esta sección presenta un ejemplo completo para mostrar cómo configurar ofertas y utilizarlas en un mensaje de correo electrónico, en función de una decisión que haya creado anteriormente.
 

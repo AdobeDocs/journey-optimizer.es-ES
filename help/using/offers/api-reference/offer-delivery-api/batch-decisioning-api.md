@@ -3,21 +3,26 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: API de decisiones por lotes
 description: Aprenda a utilizar la API de decisiones por lotes para seleccionar las mejores ofertas para los perfiles de las audiencias dentro de un ámbito de decisión predefinido.
+badge: label="Heredado" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 4%
+source-wordcount: '747'
+ht-degree: 6%
 
 ---
 
 
 # Enviar ofertas utilizando la API [!DNL Batch Decisioning] {#deliver-offers-batch}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../../experience-decisioning/gs-experience-decisioning.md)
 
 La API [!DNL Batch Decisioning] permite a las organizaciones utilizar la funcionalidad de toma de decisiones para todos los perfiles de una audiencia determinada en una llamada. El contenido de la oferta para cada perfil de la audiencia se coloca en un conjunto de datos de Adobe Experience Platform, donde está disponible para flujos de trabajo por lotes personalizados.
 
@@ -33,7 +38,7 @@ Para ello, la organización debería:
 
 * Exporte el conjunto de datos a la API del proveedor de entrega de mensajes.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=es) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >

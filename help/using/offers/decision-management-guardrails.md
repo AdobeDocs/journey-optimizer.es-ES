@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 753f6bc8130b0a743aac1208a8e5aac58e3dbbfd
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 14%
+source-wordcount: '365'
+ht-degree: 18%
 
 ---
 
 # Limitaciones y mecanismos de protección de gestión de decisiones {#decision-management-guardrails}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../experience-decisioning/gs-experience-decisioning.md)
 
 Para garantizar un uso óptimo de la administración de decisiones, tenga en cuenta las siguientes limitaciones y protecciones.
 

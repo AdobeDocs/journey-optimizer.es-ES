@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Búsqueda de una ubicación
 description: Las ubicaciones son contenedores que se utilizan para mostrar sus ofertas.
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 8%
+source-wordcount: '90'
+ht-degree: 26%
 
 ---
 
 # Búsqueda de una ubicación {#look-up-placement}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Puede buscar ubicaciones específicas realizando una petición GET a la API [!DNL Offer Library] que incluye la ubicación `id`.
 

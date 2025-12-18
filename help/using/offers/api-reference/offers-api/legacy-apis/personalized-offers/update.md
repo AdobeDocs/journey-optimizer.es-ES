@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Actualización de ofertas personalizadas
 description: Una oferta personalizada es un mensaje de marketing personalizable basado en reglas de elegibilidad y restricciones.
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ef785c6-06b4-40ce-a8e5-6a9d5101a408
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 11%
+source-wordcount: '166'
+ht-degree: 21%
 
 ---
 
 # Actualizar una oferta personalizada {#update-personalized-offer}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Puede modificar o actualizar una oferta personalizada realizando una petición PATCH a la API [!DNL Offer Library]
 

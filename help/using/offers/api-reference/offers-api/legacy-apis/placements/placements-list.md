@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Enumerar ubicaciones
 description: Las ubicaciones son contenedores que se utilizan para mostrar sus ofertas.
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 52fbf683-d86f-43c6-be1a-c06141b64b16
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 12%
+source-wordcount: '306'
+ht-degree: 17%
 
 ---
 
 # Enumerar ubicaciones {#list-placements}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Las ubicaciones son contenedores que se utilizan para mostrar sus ofertas. Una ubicación ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje. Al agregar contenido a una oferta, se le pedirá que seleccione una ubicación en la que se pueda mostrar dicho contenido.
 

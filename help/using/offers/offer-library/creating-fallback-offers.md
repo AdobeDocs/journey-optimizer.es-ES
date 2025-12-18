@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 9%
+source-wordcount: '409'
+ht-degree: 13%
 
 ---
 
 # Crear ofertas de reserva {#create-fallback-offers}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
@@ -75,5 +79,5 @@ Para crear una oferta de reserva, siga estos pasos:
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341344?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

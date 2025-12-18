@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Búsqueda de una regla de decisión
 description: Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la elegibilidad.
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3099736d-7109-4c94-aea6-053a9b885278
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 4%
+source-wordcount: '182'
+ht-degree: 13%
 
 ---
 
 # Búsqueda de una regla de decisión {#lookup-decision-rule}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Puede buscar una regla de decisión específica realizando una petición GET a la API [!DNL Offer Library] que incluya la regla de decisión `@id` o el nombre de la regla de decisión en la ruta de solicitud.
 

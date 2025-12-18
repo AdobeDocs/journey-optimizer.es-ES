@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Actualizar una oferta de reserva
 description: Se envía una oferta de reserva a los clientes si no cumplen los requisitos para otras ofertas
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 12%
+source-wordcount: '173'
+ht-degree: 21%
 
 ---
 
 # Actualizar una oferta de reserva {#update-fallback-offer}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Puede modificar o actualizar una oferta de reserva en su contenedor realizando una petición PATCH a la API [!DNL Offer Library].
 

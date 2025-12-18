@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: eliminar ubicaciones
 description: Las ubicaciones son contenedores que se utilizan para mostrar sus ofertas.
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 9%
+source-wordcount: '127'
+ht-degree: 22%
 
 ---
 
 # Eliminar una ubicación {#delete-placement}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 En ocasiones puede ser necesario eliminar (DELETE) una ubicación. Para ello, realice una petición DELETE a la API [!DNL Offer Library] con el ID de la ubicación que desee eliminar.
 

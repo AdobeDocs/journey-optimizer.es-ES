@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Eliminar una colección
 description: Las colecciones son subconjuntos de ofertas basados en condiciones predefinidas definidas definidas por un experto en marketing, como la categoría de la oferta.
 feature: Decision Management, API, Collections
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 11%
+source-wordcount: '135'
+ht-degree: 22%
 
 ---
 
 # Eliminar una colección {#delete-collection}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 En ocasiones puede ser necesario eliminar (DELETE) una colección. Para ello, realice una petición DELETE a la API [!DNL Offer Library] mediante el `id` de la colección que desea eliminar.
 

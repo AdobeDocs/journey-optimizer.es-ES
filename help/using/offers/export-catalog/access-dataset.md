@@ -10,14 +10,18 @@ role: User, Developer
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 12%
+source-wordcount: '104'
+ht-degree: 26%
 
 ---
 
 # Acceder al catálogo de ofertas exportado {#access-exported-catalog}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
 
 Se puede acceder al catálogo de ofertas exportado desde el menú **[!UICONTROL Conjuntos de datos]** de Adobe Experience Platform. Se crea un conjunto de datos para cada objeto de la biblioteca de ofertas.
 

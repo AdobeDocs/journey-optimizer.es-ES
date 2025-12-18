@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Enumerar ofertas de reserva
 description: Se envía una oferta de reserva a los clientes si no cumplen los requisitos para otras ofertas
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 0eb68312-5567-4728-b184-9d40107676a0
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 5%
+source-wordcount: '300'
+ht-degree: 11%
 
 ---
 
 # Enumerar ofertas de reserva {#list-fallback-offers}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Se envía una oferta de reserva a los clientes si no cumplen los requisitos para otras ofertas. Los pasos para crear una oferta de reserva consisten en crear una o varias representaciones, como al crear una oferta.
 

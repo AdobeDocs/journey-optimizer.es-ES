@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Entrega de ofertas
 description: Gestión de decisiones es una colección de servicios y programas de interfaz de usuario que permite a los especialistas en marketing crear y ofrecer experiencias de oferta personalizadas al usuario final en canales y aplicaciones mediante la lógica empresarial y las reglas de decisión.
+badge: label="Heredado" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 2%
+source-wordcount: '1112'
+ht-degree: 4%
 
 ---
 
 # Entrega de ofertas mediante la API de decisiones {#decisioning-api}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../../experience-decisioning/gs-experience-decisioning.md)
 
 Con Administración de decisiones, puede crear y ofrecer experiencias de oferta personalizadas para el usuario final en varios canales y aplicaciones mediante la lógica empresarial y las reglas de decisión. Una oferta es un mensaje de marketing que puede tener reglas asociadas que especifican quién puede ver la oferta.
 
@@ -228,7 +233,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342828/?captions=spa&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Próximos pasos {#next-steps}
 

@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Eliminar reglas de decisión
 description: Las reglas de decisión son restricciones agregadas a una oferta personalizada y aplicadas a un perfil para determinar la elegibilidad.
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7c02041c-b022-4027-b932-294b207add80
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 6%
+source-wordcount: '179'
+ht-degree: 16%
 
 ---
 
 # Eliminar una regla de decisión {#delete-decision-rule}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 En ocasiones puede ser necesario eliminar (DELETE) una regla de decisión. Solo se pueden eliminar las reglas de decisión que cree en el contenedor de inquilino. Para ello, realice una petición DELETE a la API [!DNL Offer Library] utilizando el identificador de instancia de la regla de decisión que desee eliminar.
 

@@ -9,14 +9,18 @@ role: User, Developer
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 64%
+source-wordcount: '113'
+ht-degree: 69%
 
 ---
 
 # Campos XDM de eventos de acceso {#decisioningevents-xdm-schema}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
 
 Puede acceder al esquema XDM DecisioningEvents directamente desde un conjunto de datos que contenga eventos de Gestión de decisiones.
 

@@ -10,14 +10,18 @@ role: User, Developer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 0%
+source-wordcount: '1547'
+ht-degree: 1%
 
 ---
 
 # Conjunto de datos de decisiones {#decisions-dataset}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
 
 Cada vez que se modifica una oferta, se actualiza el conjunto de datos generado automáticamente para las decisiones.
 

@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Eliminar ofertas personalizadas
 description: Una oferta personalizada es un mensaje de marketing personalizable basado en reglas de elegibilidad y restricciones.
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 6ae37843-2679-48a3-96ef-bb93a5d4a333
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 7%
+source-wordcount: '164'
+ht-degree: 17%
 
 ---
 
 # Eliminar una oferta personalizada {#delete-personalized-offer}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 En ocasiones puede ser necesario eliminar (DELETE) una oferta personalizada. Solo se pueden eliminar las ofertas personalizadas que cree en el contenedor de inquilino. Para ello, realice una petición DELETE a la API [!DNL Offer Library] utilizando el $id de la oferta personalizada que desea eliminar.
 

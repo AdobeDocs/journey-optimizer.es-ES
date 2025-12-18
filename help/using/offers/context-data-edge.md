@@ -9,14 +9,18 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 2%
+source-wordcount: '900'
+ht-degree: 4%
 
 ---
 
 # Datos de contexto y solicitudes de Edge Decisioning {#edge}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../experience-decisioning/gs-experience-decisioning.md)
 
 Esta sección le guía a través del paso de datos de contexto en solicitudes de Edge Decisioning y su uso en reglas de elegibilidad. Exploraremos un caso de uso completo que muestra cómo ofrecer ofertas personalizadas en función del tipo de dispositivo que utilizan los clientes.
 
@@ -52,11 +56,11 @@ A diferencia de pasar contexto en un formato libre mediante la API de decisiones
 
    ![Esquema XDM que muestra el grupo de campos Contexto de oferta con propiedades language y deviceType](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Aprenda a trabajar con esquemas en [!DNL Adobe Experience Platform] [Guía del modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home){target="_blank"}
+   Aprenda a trabajar con esquemas en [!DNL Adobe Experience Platform] [Guía del modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}
 
 1. Cree un conjunto de datos (aquí &quot;Contexto de la oferta&quot;) y asegúrese de que esté habilitado para el perfil.
 
-1. Cree una nueva secuencia de datos a partir del menú **[!UICONTROL Recopilación de datos]** > **[!UICONTROL Secuencias de datos]**. Aprenda a crear y configurar flujos de datos en [!DNL Adobe Experience Platform] [Guía de flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure){target="_blank"}
+1. Cree una nueva secuencia de datos a partir del menú **[!UICONTROL Recopilación de datos]** > **[!UICONTROL Secuencias de datos]**. Aprenda a crear y configurar flujos de datos en [!DNL Adobe Experience Platform] [Guía de flujos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
    Aquí, hemos creado un flujo de datos de &quot;Contexto de oferta&quot;, con el esquema de evento &quot;Contenido de oferta&quot; seleccionado.
 

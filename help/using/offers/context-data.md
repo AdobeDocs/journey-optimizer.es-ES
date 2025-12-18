@@ -9,14 +9,18 @@ role: Developer
 level: Experienced
 exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
 version: Journey Orchestration
-source-git-commit: d0b3a4e90b8eca6f5929f92f203c4bc296da7615
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 5%
+source-wordcount: '227'
+ht-degree: 12%
 
 ---
 
 # Introducción a los datos de contexto {#context-data}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../experience-decisioning/gs-experience-decisioning.md)
 
 Los datos enviados como parte de la solicitud de toma de decisiones se consideran datos de contexto. Puede aprovechar los datos de contexto en el motor de toma de decisiones, por ejemplo, para diseñar una regla de decisión que requiera que el clima actual sea de ≥80 grados en el momento en que se realice la solicitud de decisión.
 

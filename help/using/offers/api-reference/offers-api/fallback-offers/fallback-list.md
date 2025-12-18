@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Enumerar ofertas de reserva
 description: Se envía una oferta de reserva a los clientes si no cumplen los requisitos para otras ofertas
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 7%
+source-wordcount: '228'
+ht-degree: 14%
 
 ---
 
 # Enumerar ofertas de reserva {#list-fallback-offers}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Se envía una oferta de reserva a los clientes si no cumplen los requisitos para otras ofertas. Los pasos para crear una oferta de reserva consisten en crear una o varias representaciones, como al crear una oferta.
 
@@ -54,7 +60,7 @@ Los parámetros de consulta más comunes para la paginación incluyen:
 
 | Parámetro | Descripción | Ejemplo |
 | --------- | ----------- | ------- |
-| `property` | Un filtro de propiedad opcional: <ul><li>Las propiedades se agrupan por operación AND.</li><li>Los parámetros se pueden repetir como se indica a continuación: property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] o property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Las expresiones de propiedad están en el formato `[ !]field[op]value`, con `op` en `[==,!=,<=,>=,<,>,~]`, que admite expresiones regulares.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Un filtro de propiedad opcional: <ul><li>Las propiedades se agrupan por operación AND.</li><li>Los parámetros se pueden repetir como se indica a continuación: property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] o property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Las expresiones de propiedad están en el formato `[!]field[op]value`, con `op` en `[==,!=,<=,>=,<,>,~]`, que admite expresiones regulares.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Ordene los resultados por una propiedad específica. Si se agrega un - antes del nombre (orderby=-name), los elementos se ordenarán por nombre en orden descendente (Z-A). Las expresiones de ruta tienen la forma de rutas separadas por puntos. Este parámetro se puede repetir de esta manera: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limite el número de entidades devueltas. | `limit=5` |
 

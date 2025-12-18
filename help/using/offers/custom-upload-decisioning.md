@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 2%
+source-wordcount: '550'
+ht-degree: 5%
 
 ---
 
 # Aprovechamiento de los públicos de carga personalizados para la toma de decisiones {#custom-upload-decisioning}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../experience-decisioning/gs-experience-decisioning.md)
 
 Con Journey Optimizer, puede aprovechar los datos de audiencias creadas mediante carga personalizada (archivo CSV) en Adobe Experience Platform para admitir los flujos de trabajo de Administración de decisiones. Esto resulta especialmente útil cuando los datos no se necesitan en el perfil, pero siguen siendo esenciales para la toma de decisiones.
 
@@ -28,7 +32,7 @@ Los datos de las audiencias de carga personalizadas se pueden aprovechar en Admi
 Para obtener más información sobre las audiencias de carga personalizada, consulte las secciones:
 
 * [Introducción a audiencias y Journey Optimizer](../audience/about-audiences.md)
-* [Importación de una audiencia en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importación de una audiencia en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Lectura obligatoria {#must-read}
 

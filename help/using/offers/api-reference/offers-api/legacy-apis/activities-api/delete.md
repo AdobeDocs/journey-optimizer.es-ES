@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Eliminar decisiones
 description: Una decisión contiene la lógica que indica la selección de una oferta.
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 36a87d98-fd61-416e-83a1-e267a7b4d455
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 8%
+source-wordcount: '161'
+ht-degree: 18%
 
 ---
 
 # Eliminar una decisión {#delete-decision}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 En ocasiones puede ser necesario eliminar (DELETE) una decisión. Solo se pueden eliminar las decisiones que cree en el contenedor de inquilino. Para ello, realice una petición DELETE a la API [!DNL Offer Library] usando el $id de la oferta de reserva que desea eliminar.
 

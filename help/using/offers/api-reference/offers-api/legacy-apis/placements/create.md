@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Crear una ubicación
 description: Las ubicaciones son contenedores que se utilizan para mostrar sus ofertas.
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 5c7301f6-95d3-4720-81fe-5f2602cd30ec
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 12%
+source-wordcount: '149'
+ht-degree: 23%
 
 ---
 
 # Crear una ubicación {#create-placement}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Puede crear una ubicación realizando una petición POST a la API [!DNL Offer Library], mientras proporciona su ID de contenedor.
 

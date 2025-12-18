@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 16%
+source-wordcount: '824'
+ht-degree: 18%
 
 ---
 
 # Crear ofertas personalizadas {#create-personalized-offers}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
 
 Antes de crear una oferta, asegúrese de que ha creado lo siguiente:
 
@@ -170,4 +174,4 @@ Esto le permite acceder a información detallada de esa oferta. Seleccione la fi
 
 ## Tutorial en vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341343?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

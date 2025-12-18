@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Buscar un calificador de colección
 description: Los calificadores de colección le permiten organizar y ordenar mejor sus ofertas.
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: f31e6a17-c99a-4db9-a301-426a1f0bcc92
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 7%
+source-wordcount: '108'
+ht-degree: 23%
 
 ---
 
 # Buscar un calificador de colección {#look-up-tag}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Puede buscar calificadores de colección específicos (anteriormente conocidos como &quot;etiquetas&quot;) realizando una petición GET a la API [!DNL Offer Library] que incluye el calificador de colección `id` en la ruta de solicitud.
 

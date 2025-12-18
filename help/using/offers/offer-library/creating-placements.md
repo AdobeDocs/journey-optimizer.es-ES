@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 31%
+source-wordcount: '647'
+ht-degree: 33%
 
 ---
 
 # Creación de ubicaciones {#create-placements}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
@@ -71,11 +75,11 @@ Para crear una ubicación, siga estos pasos:
 
    * **[!UICONTROL Incluir contenido]** / **[!UICONTROL Incluir metadatos]**: especifique si el contenido y los metadatos de la oferta deben devolverse en la respuesta de la API. Solo puede incluir todos los metadatos o campos específicos. De forma predeterminada, el valor Incluir metadatos se establece en verdadero.
 
-   Estos parámetros también se pueden establecer directamente en la solicitud de API si está trabajando con la [API de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=es). Sin embargo, configurarlos en la interfaz de usuario puede ayudarle a ahorrar tiempo, ya que no tendrá que pasarlos en cada solicitud de API. Tenga en cuenta que si configura los parámetros tanto en la interfaz de usuario como en la solicitud de API, los valores de la solicitud de API prevalecerán sobre los de la interfaz.
+   Estos parámetros también se pueden establecer directamente en la solicitud de API si está trabajando con la [API de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). Sin embargo, configurarlos en la interfaz de usuario puede ayudarle a ahorrar tiempo, ya que no tendrá que pasarlos en cada solicitud de API. Tenga en cuenta que si configura los parámetros tanto en la interfaz de usuario como en la solicitud de API, los valores de la solicitud de API prevalecerán sobre los de la interfaz.
 
    >[!NOTE]
    >
-   >Si está trabajando con la [API de Edge Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=es&), no puede establecer estos parámetros en su solicitud. Debe definirlos en esta pantalla.
+   >Si está trabajando con la [API de Edge Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), no puede establecer estos parámetros en su solicitud. Debe definirlos en esta pantalla.
    >
    >Si está trabajando con la [API de decisiones por lotes](../api-reference/offer-delivery-api/batch-decisioning-api.md), puede establecer estos parámetros en esta pantalla o en su solicitud de API. Si hay una discrepancia en los valores de parámetros entre la pantalla y la solicitud de API, se utilizan los valores de solicitud.
 
@@ -89,5 +93,5 @@ Para crear una ubicación, siga estos pasos:
 
 Obtenga información sobre cómo crear ubicaciones en la administración de decisiones.
 
->[!VIDEO](https://video.tv.adobe.com/v/341380?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

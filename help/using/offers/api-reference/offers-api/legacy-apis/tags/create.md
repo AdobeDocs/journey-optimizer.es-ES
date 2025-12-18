@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Creación de un cualificador de colección
 description: Los calificadores de colección le permiten organizar y ordenar mejor sus ofertas.
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 84f0efa5-28af-4569-994c-12d87828a277
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 13%
+source-wordcount: '159'
+ht-degree: 23%
 
 ---
 
 # Creación de un cualificador de colección {#create-tag}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Puede crear un calificador de recopilación (anteriormente conocido como &quot;etiqueta&quot;) realizando una petición POST a la API [!DNL Offer Library], al mismo tiempo que proporciona su ID de contenedor.
 

@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 8%
+source-wordcount: '2566'
+ht-degree: 9%
 
 ---
 
 # Crear decisiones {#create-offer-activities}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
 
 Las decisiones son contenedores para sus ofertas que aprovecharán el motor de decisión de ofertas para elegir la mejor y ofrecerla, según el objetivo de la entrega.
 
@@ -408,6 +412,6 @@ Esto le permite acceder a información detallada para esa decisión. Seleccione 
 
 Obtenga información sobre cómo crear actividades de oferta en administración de decisiones.
 
->[!VIDEO](https://video.tv.adobe.com/v/346692?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

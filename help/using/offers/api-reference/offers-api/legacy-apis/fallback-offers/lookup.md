@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: buscar ofertas de reserva
 description: Se envía una oferta de reserva a los clientes si no cumplen los requisitos para otras ofertas
 feature: Decision Management, API
+badge: label="Heredado" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: e470d491-b30b-4d26-83a6-e5b34e49fe61
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 4%
+source-wordcount: '175'
+ht-degree: 14%
 
 ---
 
 # Buscar ofertas de reserva {#look-up-fallback-offers}
+
+>[!TIP]
+>
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Puede buscar ofertas de reserva específicas realizando una petición GET a la API [!DNL Offer Library] que incluya la oferta de reserva `@id` o el nombre de la oferta de reserva en la ruta de solicitud.
 
