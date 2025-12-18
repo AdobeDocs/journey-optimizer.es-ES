@@ -412,6 +412,6 @@ Esto le permite acceder a información detallada para esa decisión. Seleccione 
 
 Obtenga información sobre cómo crear actividades de oferta en administración de decisiones.
 
->[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346692?captions=spa&quality=12)
 
 
