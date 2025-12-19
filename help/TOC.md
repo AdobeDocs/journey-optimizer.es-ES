@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
+source-git-commit: c9fd0aeda42f8833a542ecafae8c60aaebde4ef0
 workflow-type: tm+mt
-source-wordcount: '3024'
+source-wordcount: '3033'
 ht-degree: 96%
 
 ---
@@ -235,14 +235,22 @@ ht-degree: 96%
       + [Aprobación de una solicitud](using/test-approve/review-approve-request.md)
 + Monitorización y solución de problemas {#monitor}
    + [Monitorización y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [Alertas del sistema](using/reports/alerts.md)
-   + [Referencia de códigos de error](using/building-journeys/error-codes-reference.md)
-   + [Artículos de solución de problemas](using/start/troubleshooting.md)
-   + Solución de problemas de recorridos {#troubleshoot-journey}
-      + [Solucionar errores de recorrido](using/building-journeys/troubleshooting.md)
-      + [Solución de problemas de la ejecución del recorrido](using/building-journeys/troubleshooting-execution.md)
-      + [Solucionar las acciones de entrada](using/building-journeys/troubleshooting-inbound.md)
-      + [Solución de problemas de acciones personalizadas](using/action/troubleshoot-custom-action.md)
+   + [Introducción al seguimiento](using/start/get-started-tracking.md)
+   + Entregabilidad del correo electrónico {#deliverability}
+      + [Entregabilidad del correo electrónico](/help/rp_landing_pages/deliverability-landing-page.md)
+      + [Introducción a la Entregabilidad](using/reports/deliverability.md)
+      + [Explicación de la lista de supresión](using/reports/suppression-list.md)
+      + [Nuevo requisito de DMARC](using/configuration/dmarc-record-update.md)
+   + Monitorización de alertas y códigos de error {#monitor-alerts-errors}
+      + [Alertas del sistema](using/reports/alerts.md)
+      + [Referencia de códigos de error](using/building-journeys/error-codes-reference.md)
+   + Resolución de problemas {#troubleshooting}
+      + [Preguntas frecuentes sobre resolución de problemas](using/start/troubleshooting.md)
+      + Solución de problemas de recorridos {#troubleshoot-journey}
+         + [Solucionar errores de recorrido](using/building-journeys/troubleshooting.md)
+         + [Solución de problemas de la ejecución del recorrido](using/building-journeys/troubleshooting-execution.md)
+         + [Solucionar las acciones de entrada](using/building-journeys/troubleshooting-inbound.md)
+         + [Solución de problemas de acciones personalizadas](using/action/troubleshoot-custom-action.md)
 + Canales de comunicación {#channels}
    + [Introducción a los canales de comunicación](using/channels/gs-channels.md)
    + Canal de correo electrónico {#email}
@@ -288,11 +296,6 @@ ht-degree: 96%
          + [Parámetros de encabezado](using/email/header-parameters.md)
          + [Seguimiento de URL](using/email/url-tracking.md)
          + [Personalización de la configuración de correo electrónico](using/email/surface-personalization.md)
-      + Entregabilidad del correo electrónico {#deliverability}
-         + [Entregabilidad del correo electrónico](/help/rp_landing_pages/deliverability-landing-page.md)
-         + [Introducción a la Entregabilidad](using/reports/deliverability.md)
-         + [Explicación de la lista de supresión](using/reports/suppression-list.md)
-         + [Nuevo requisito de DMARC](using/configuration/dmarc-record-update.md)
    + Canal en la aplicación {#in-app}
       + [Canal en la aplicación](/help/rp_landing_pages/in-app-landing-page.md)
       + [Introducción a in-app](using/in-app/get-started-in-app.md)
@@ -833,7 +836,7 @@ ht-degree: 96%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
