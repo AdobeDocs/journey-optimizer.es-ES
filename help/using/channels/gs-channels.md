@@ -6,10 +6,10 @@ description: 'Aprenda a trabajar con los canales de comunicación de  [!DNL Adob
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 76205bf19cf9fa24e5c53226d2f8723982feba53
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+source-git-commit: c4e877b0d064938ef3a3bc7e67fc5dc00aa09bca
+workflow-type: tm+mt
+source-wordcount: '566'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ Los canales de envío de los mensajes de salida implican enviar mensajes a los c
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canal de correo electrónico
 
@@ -37,7 +37,7 @@ Descubra cómo crear, configurar y optimizar campañas de correo electrónico, i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canal de notificaciones push
 
@@ -47,7 +47,7 @@ Obtenga información sobre cómo crear, configurar y enviar notificaciones push 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Mensajería SMS/MMS/RCS
 
@@ -57,7 +57,7 @@ Aprenda cómo crear, administrar y configurar mensajes SMS, MMS y RCS para fines
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campañas de correo directo
 
@@ -75,7 +75,7 @@ Con las experiencias de entrada de la aplicación móvil y la web, los clientes 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Mensajería en la aplicación
 
@@ -85,7 +85,7 @@ Explore cómo configurar, diseñar y personalizar notificaciones en la aplicaci�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +95,7 @@ Aprenda a crear, configurar y personalizar experiencias web e integrar canales w
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Experiencia basada en código
 
@@ -105,7 +105,7 @@ Sumérjase en experiencias basadas en código para ofrecer contenido personaliza
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Tarjetas de contenido
 
@@ -130,19 +130,17 @@ En Adobe Journey Optimizer, puede aprovechar los canales de comunicación en dos
 
 - **Campañas**: implemente campañas de marketing específicas que utilicen un canal determinado para alcanzar los objetivos fijados. Tanto si promociona un nuevo producto como si impulsa ventas estacionales, las campañas le permiten crear estrategias de mensajería centradas y adaptadas a su público. [Aprenda a crear y ejecutar una campaña](../campaigns/get-started-with-campaigns.md).
 
-<!--
-The table below shows the availability of each channel across different journeys and campaign, indicating where they are supported.
+La siguiente tabla muestra la disponibilidad de cada canal en diferentes recorridos y campañas, indicando dónde son compatibles.
 
-| Channel              | Journeys | Action campaigns (Marketing) | Action campaigns (Transactional) | API-triggered campaigns | Orchestrated campaigns |
-|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
-| Email                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Push notification    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| In-app               | ✅ | ✅ | — | — | — | — |
-| Direct mail          | ✅ | ✅ | — | — | — | — |
-| Web                  | ✅ | ✅ | — | — | — | — |
-| Code-based exp.      | ✅ | ✅ | — | — | — | — |
-| Content cards        | ✅ | ✅ | — | — | — | — |
-| WhatsApp             | ✅ | ✅ | — | — | — | — |
-| Line                 | ✅ | ✅ | — | — | — | — |
--->
+| Canal | Recorridos | Campañas de acción (marketing) | Campañas de acción (transaccionales) | Campañas activadas por API | Campañas orquestadas |
+|----------------------|----------|------------------------------|----------------------------------|-------------------------|------------------------|
+| Correo electrónico | ✅ | ✅ | ✅ | ✅ | ✅ |
+| SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Notificación push | ✅ | ✅ | ✅ | ✅ | ✅ |
+| in-app | ✅ | ✅ | — | — | — |
+| Correo directo | ✅ | ✅ | — | — | — |
+| Web | ✅ | ✅ | — | — | — |
+| Exp. basada en código | ✅ | ✅ | — | — | — |
+| Tarjetas de contenido | ✅ | ✅ | — | — | — |
+| WhatsApp | ✅ | ✅ | — | — | — |
+| Línea | ✅ | ✅ | — | — | — |
