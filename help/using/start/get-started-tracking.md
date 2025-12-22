@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Beginner
 keywords: seguimiento, monitorización, análisis, sistema de informes, capacidad de entrega
-source-git-commit: c7ff5b6cc83313855f3ecd6c6d7b3b7ed6358af9
+source-git-commit: a326f6df3332519b2c3efc77a0a0f26e629f1145
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1813'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ El seguimiento de correo electrónico se activa automáticamente al crear un men
 
 * **Configurar parámetros de seguimiento de URL**: configure parámetros de seguimiento en el nivel de superficie para anexar automáticamente identificadores de campaña (utm_campaign, utm_source, etc.) a todos los vínculos de correo electrónico. Esto permite el seguimiento de la atribución en todo el ecosistema digital. [Más información](../email/url-tracking.md)
 
-* **Rastrear vínculos en fragmentos**: todos los vínculos de fragmentos de contenido reutilizables se rastrean automáticamente, lo que proporciona una vista completa de la participación en los componentes de contenido compartido.
+* **Rastrear vínculos en fragmentos guardados**: cuando el seguimiento está habilitado en un recorrido o una campaña, los vínculos de un fragmento guardado a partir del contenido de este recorrido o campaña también se rastrearán cuando se reutilice este fragmento. [Más información](../content-management/save-fragments.md)
 
 * **Agregar seguimiento de página espejo**: habilita la opción de página espejo para crear una versión web del correo electrónico con seguimiento automático de quién lo ve. [Más información](../email/message-tracking.md#mirror-page)
 
@@ -129,7 +129,7 @@ El seguimiento push se activa automáticamente y captura impresiones (entregadas
 
 >[!NOTE]
 >
->El seguimiento push requiere una implementación móvil de SDK. Asegúrese de que la aplicación tenga Adobe Experience Platform Mobile SDK correctamente configurado.
+>El seguimiento push requiere una implementación móvil de SDK. Asegúrese de que la aplicación tenga Adobe Experience Platform Mobile SDK correctamente configurado. [Más información](../push/push-configuration.md#integrate-mobile-app)
 
 **Analizar la participación:** Ver las tasas de pulsaciones, el rendimiento de los botones y los detalles de vínculos rastreados en los informes. [Informes de campaña](../reports/campaign-global-report-cja-push.md) | [Informes de Recorrido](../reports/journey-global-report-cja-push.md)
 
@@ -175,7 +175,7 @@ Antes de que el seguimiento funcione, debe configurar la implementación para en
 
 * Configuración de una secuencia de datos configurada para Adobe Experience Platform
 * Implementar la recopilación de eventos en el código mediante Web SDK o Mobile SDK
-* Envío de eventos de interacción de propuestas cuando los usuarios ven o hacen clic en contenido personalizado
+* Envío de eventos de visualización e interacción cuando se muestra o se hace clic en el contenido
 
 [Obtenga más información sobre los requisitos previos de implementación](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
@@ -185,7 +185,7 @@ Antes de que el seguimiento funcione, debe configurar la implementación para en
 
 +++Seguimiento de tarjeta de contenido
 
-Las tarjetas de contenido rastrean automáticamente las interacciones del usuario. Configure el contenido y las reglas de visualización para controlar el comportamiento de seguimiento.
+[Tarjetas de contenido](../content-card/create-content-card.md) rastrean automáticamente las interacciones del usuario. Configure el contenido y las reglas de visualización para controlar el comportamiento de seguimiento.
 
 **Cómo implementar:**
 
@@ -201,7 +201,7 @@ Las tarjetas de contenido rastrean automáticamente las interacciones del usuari
 
 +++Seguimiento de página de aterrizaje
 
-Las páginas de aterrizaje incluyen un seguimiento integrado que no requiere ninguna configuración adicional. Journey Optimizer registra automáticamente las visitas, conversiones y tasas de devolución.
+[Las páginas de aterrizaje](../reports/lp-report-global-cja.md) incluyen seguimiento integrado que no requiere ninguna configuración adicional. Journey Optimizer registra automáticamente las visitas, conversiones y tasas de devolución.
 
 **Se realiza un seguimiento automático de los elementos:**
 
@@ -210,7 +210,7 @@ Las páginas de aterrizaje incluyen un seguimiento integrado que no requiere nin
 * **Tasa de salida hacia otro sitio** - Porcentaje de visitantes que se van sin interactuar
 * **Tendencias de rendimiento**: datos de series temporales que muestran cómo evolucionan las métricas
 
-**Optimizar el rendimiento:** Use datos de seguimiento para refinar los campos de formulario, probar las variaciones de contenido, identificar fuentes de tráfico efectivas y reducir el abandono. [Más información](../reports/lp-report-global-cja.md)
+**Optimizar el rendimiento:** Use datos de seguimiento para refinar los campos de formulario, probar las variaciones de contenido, identificar fuentes de tráfico efectivas y reducir el abandono.
 
 +++
 
@@ -218,19 +218,11 @@ Las páginas de aterrizaje incluyen un seguimiento integrado que no requiere nin
 
 Más allá del seguimiento a nivel de canal, configure el seguimiento para medir el rendimiento general y comprender el comportamiento de los clientes en sus iniciativas de marketing.
 
-**Configurar el seguimiento de campañas:**
-<!--
-* **Configure optimization** - When setting up campaigns, enable experimentation or targeting to track which content variations perform best. [Learn more](../campaigns/campaigns-message-optimization.md)-->
-
-* **Definir métricas de conversión**: especifica qué acciones cuentan como conversiones (compras, suscripciones y descargas) para medir la eficacia de la campaña más allá de las métricas de participación.
-
-* **Configurar programación**: configure la optimización del tiempo de envío para rastrear el rendimiento en diferentes estrategias de tiempo e identificar ventanas de envío óptimas. [Más información](../building-journeys/send-time-optimization.md)
-
-**Configurar el seguimiento del recorrido:**
-
 * **Definir métricas de éxito personalizadas**: configure KPI específicos alineados con los objetivos de su empresa (compras, suscripciones, renovaciones, etc.) más allá de las métricas de participación estándar. [Más información](../building-journeys/success-metrics.md)
 
 * **Habilitar eventos de paso de recorrido**: active el seguimiento detallado de cada acción que realizan los clientes a medida que pasan por los recorridos. Esto proporciona visibilidad granular de los puntos de entrada y salida, la selección de rutas y las ubicaciones de entrega. [Más información](../reports/journey-step-events-overview.md)
+
+* **Configurar programación**: configure la optimización del tiempo de envío para rastrear el rendimiento en diferentes estrategias de tiempo e identificar ventanas de envío óptimas. [Más información](../building-journeys/send-time-optimization.md)
 
 * **Configurar la supervisión de acciones personalizadas**: configure el seguimiento de integraciones con sistemas externos para supervisar llamadas de API, tiempos de respuesta y patrones de error. [Más información](../action/reporting.md)
 
@@ -258,7 +250,7 @@ Al utilizar Decisioning para personalizar el contenido, Journey Optimizer rastre
 * **Seguimiento de impresiones**: en el caso de los mensajes de correo electrónico, las impresiones se rastrean automáticamente. Para las experiencias basadas en código, debe implementar eventos de visualización de propuestas en el código.
 * **Seguimiento de clics**: Los clics en elementos de decisión se rastrean automáticamente en correos electrónicos; las experiencias basadas en código requieren la implementación de eventos de clic.
 
-**Requisitos previos para el seguimiento basado en código:** Para realizar el seguimiento de las decisiones en experiencias basadas en código, asegúrese de que la implementación envía eventos de interacción de propuestas (visualizaciones y clics) a Adobe Experience Platform mediante Web SDK o Mobile SDK. [Más información](../experience-decisioning/gs-experience-decisioning.md)
+**Requisitos previos para el seguimiento basado en código:** Para realizar el seguimiento de las decisiones en experiencias basadas en código, asegúrese de que la implementación envía eventos de interacción de propuestas (visualizaciones y clics) a Adobe Experience Platform mediante Web SDK o Mobile SDK. [Más información](../experience-decisioning/data-collection/schema-requirement.md)
 
 **Analizar rendimiento:** Ver KPI de decisiones, comparar elementos de decisión, analizar estrategias de selección y supervisar el rendimiento del modelo de IA en los informes. [Más información](../experience-decisioning/cja-reporting.md)
 
@@ -288,7 +280,7 @@ Más allá de la participación de seguimiento, configure la monitorización par
 
 **Supervisión de la capacidad de entrega:**
 
-* **Revise las listas de supresión** con regularidad para comprender por qué las direcciones están bloqueadas y mantener el estado de la lista. [Más información](../reports/suppression-list.md)
+* **Revise la lista de supresión** con regularidad para comprender por qué las direcciones están bloqueadas y mantener la higiene de la lista. [Más información](../reports/suppression-list.md)
 
 * **Analice los errores de envío** para diagnosticar errores y tomar medidas correctivas. [Más información](../configuration/email-error-types.md)
 
