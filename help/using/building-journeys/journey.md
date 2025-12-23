@@ -203,7 +203,7 @@ El [diseñador de recorridos](using-the-journey-designer.md) es un lienzo intuit
 * **[Condiciones](condition-activity.md)**: ramifique el recorrido en función de atributos de perfil, pertenencia a audiencias o eventos en tiempo real
 * **[Expresiones](expression/expressionadvanced.md)**: cree lógica y personalización avanzadas con el editor de expresiones
 
-Aprenda a utilizar el diseñador de recorrido [ en estos casos de uso de extremo a extremo](jo-use-cases.md).
+Aprenda a utilizar el diseñador de recorrido [&#x200B; en estos casos de uso de extremo a extremo](jo-use-cases.md).
 
 >[!NOTE]
 >
