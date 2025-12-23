@@ -4,7 +4,7 @@ product: Journey Optimizer
 title: Ayuda de Adobe Journey Optimizer
 description: Ayuda de Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
-source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Adobe Journey Optimizer permite a los equipos diseñar y ofrecer experiencias de
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a Adobe Journey Optimizer
 
@@ -31,27 +31,27 @@ Conozca los conceptos básicos de Adobe Journey Optimizer, incluidas sus funcion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guía completa de los Recorridos
 
 Diseñe, organice, administre y optimice recorridos personalizados del cliente con esta guía detallada.
 
-[Explorar Recorridos](orchestrate-journeys-landing-page.md)
+[Explorar Recorridos](../using/building-journeys/journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Explicación y administración de campañas
 
 Directrices detalladas sobre la creación, administración y optimización de varios tipos de campañas para una segmentación eficaz.
 
-[Más información sobre las campañas](campaigns-landing-page.md)
+[Más información sobre las campañas](../using/campaigns/get-started-with-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Administración de conflictos y priorización
 
