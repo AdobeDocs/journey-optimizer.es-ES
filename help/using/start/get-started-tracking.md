@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Beginner
 keywords: seguimiento, monitorización, análisis, sistema de informes, capacidad de entrega
-source-git-commit: a326f6df3332519b2c3efc77a0a0f26e629f1145
+source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1916'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ El seguimiento de correo electrónico se activa automáticamente al crear un men
 
 * **Configurar parámetros de seguimiento de URL**: configure parámetros de seguimiento en el nivel de superficie para anexar automáticamente identificadores de campaña (utm_campaign, utm_source, etc.) a todos los vínculos de correo electrónico. Esto permite el seguimiento de la atribución en todo el ecosistema digital. [Más información](../email/url-tracking.md)
 
-* **Rastrear vínculos en fragmentos guardados**: cuando el seguimiento está habilitado en un recorrido o una campaña, los vínculos de un fragmento guardado a partir del contenido de este recorrido o campaña también se rastrearán cuando se reutilice este fragmento. [Más información](../content-management/save-fragments.md)
+* **Rastrear vínculos en fragmentos guardados**: cuando guarda un fragmento a partir de contenido que tiene habilitado el seguimiento, los vínculos de ese fragmento permanecen rastreados cuando se reutiliza en otros recorridos o campañas. [Más información](../content-management/save-fragments.md)
 
 * **Agregar seguimiento de página espejo**: habilita la opción de página espejo para crear una versión web del correo electrónico con seguimiento automático de quién lo ve. [Más información](../email/message-tracking.md#mirror-page)
 
@@ -105,11 +105,11 @@ El seguimiento web requiere una configuración explícita para rastrear las inte
 
 **Configurar el rastreo de clics:**
 
-Al diseñar una modificación web, puede seleccionar los elementos específicos (botones, imágenes, vínculos) que desea rastrear. Esto habilita el rastreo de clics para esos elementos sin requerir código adicional. [Más información](../web/monitor-web-experiences.md)
+Al crear una página web, puede seleccionar los elementos específicos (botones, imágenes, vínculos) que desea rastrear. Esto habilita el rastreo de clics para esos elementos sin requerir código adicional. [Más información](../web/monitor-web-experiences.md)
 
-* **Rastrear cualquier elemento en el que se pueda hacer clic**: seleccione botones, imágenes, vínculos o cualquier elemento interactivo en la personalización web
-* **Recopilación automática de datos**: una vez configurada, Journey Optimizer captura automáticamente los eventos de clic y los asocia a perfiles
-* **Monitorizar en tiempo real**: efectúe el seguimiento de las interacciones de los usuarios a medida que vayan validando la eficacia de la personalización
+* **Rastrear cualquier elemento en el que se pueda hacer clic**: seleccione botones, imágenes, vínculos o cualquier elemento interactivo en la personalización web.
+* **Recopilación automática de datos**: una vez configurada, Journey Optimizer captura automáticamente los eventos de clic y los asocia a perfiles.
+* **Supervisar en tiempo real**: efectúe el seguimiento de las interacciones de los usuarios a medida que vayan surgiendo para validar la eficacia de la personalización.
 
 **Ver datos de seguimiento:** Acceda a métricas de visualización, tasas de pulsaciones y rendimiento de nivel de elemento en los informes. [Informes de campaña](../reports/campaign-global-report-cja-web.md) | [Informes de Recorrido](../reports/journey-global-report-cja-web.md)
 
@@ -139,13 +139,15 @@ El seguimiento push se activa automáticamente y captura impresiones (entregadas
 
 Los mensajes en la aplicación rastrean automáticamente las visualizaciones y las interacciones del usuario. Configure los déclencheur y el contenido para maximizar la eficacia del seguimiento.
 
-**Configurar seguimiento:**
+**Configurar el seguimiento:**
 
-* **Configurar reglas de visualización**: defina cuándo y dónde aparecerán los mensajes en la aplicación mediante déclencheur (inicio de aplicación, carga de pantalla), reglas de frecuencia y condiciones de audiencia. Una configuración adecuada garantiza un seguimiento preciso de los mensajes activados y mostrados. [Más información](../in-app/create-in-app.md)
+* **Definir reglas de visualización**: configure cuándo y dónde aparecerán los mensajes en la aplicación mediante déclencheur (inicio de la aplicación, carga de pantalla), reglas de frecuencia y condiciones de audiencia. Una configuración adecuada garantiza un seguimiento preciso de los mensajes activados y mostrados.
 
 * **Agregar elementos rastreados**: incluya botones, vínculos y elementos interactivos en el contenido del mensaje. Cada interacción se rastrea automáticamente con etiquetas detalladas.
 
 * **Optimizar el tiempo de visualización**: configure las reglas de día de la semana y de la hora del día para maximizar la probabilidad de que los mensajes activados se muestren a los usuarios.
+
+[Obtenga información sobre cómo configurar mensajes en la aplicación](../in-app/create-in-app.md)
 
 **Lo que se rastrea:** Journey Optimizer captura automáticamente las pantallas, los clics en botones, los rechazos, las métricas activadas frente a las mostradas y el rendimiento de los vínculos. [Informes de campaña](../reports/campaign-global-report-cja-inapp.md) | [Informes de Recorrido](../reports/journey-global-report-cja-inapp.md)
 
@@ -157,9 +159,9 @@ El seguimiento de SMS requiere una configuración mínima: Journey Optimizer aco
 
 **Cómo funciona:**
 
-* **Seguimiento automático de vínculos** - Agregue cualquier dirección URL al contenido del SMS mediante la función de ayuda de URL. Journey Optimizer acorta automáticamente el vínculo y rastrea los clics sin necesidad de configuración adicional. Para utilizar el acortamiento de URL, primero debe configurar un subdominio SMS. [Más información](../sms/create-sms.md#sms-content)
+* **Seguimiento automático de vínculos** - Agregue cualquier dirección URL al contenido del SMS mediante la función de ayuda de URL. Journey Optimizer acorta automáticamente el vínculo y rastrea los clics sin necesidad de configuración adicional. Para utilizar el acortamiento de URL, primero debe configurar un subdominio SMS. [Más información](../sms/sms-subdomains.md)
 
-* **Seguimiento de mensajes entrantes**: las respuestas de los destinatarios se capturan automáticamente, lo que le permite supervisar las conversaciones bidireccionales y los patrones de respuesta.
+* **Seguimiento de mensajes entrantes**: las respuestas de los destinatarios se capturan automáticamente, lo que le permite supervisar las conversaciones bidireccionales y los patrones de respuesta. [Más información](../sms/sms-opt-out.md#sms-native-keywords)
 
 **Ver métricas:** Acceder a datos de clics en vínculos, volúmenes de mensajes entrantes y rendimiento de tipos de mensajes en los informes. [Informes de campaña](../reports/campaign-global-report-cja-sms.md) | [Informes de Recorrido](../reports/journey-global-report-cja-sms.md)
 
@@ -173,9 +175,9 @@ Las experiencias basadas en código requieren la configuración de la implementa
 
 Antes de que el seguimiento funcione, debe configurar la implementación para enviar eventos de interacción (visualizaciones, clics) a Adobe Experience Platform. Esto requiere lo siguiente:
 
-* Configuración de una secuencia de datos configurada para Adobe Experience Platform
-* Implementar la recopilación de eventos en el código mediante Web SDK o Mobile SDK
-* Envío de eventos de visualización e interacción cuando se muestra o se hace clic en el contenido
+* Configuración de una secuencia de datos configurada para Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es)
+* Implementar la recopilación de eventos en el código mediante Web SDK o Mobile SDK.
+* Envío de eventos de visualización e interacción cuando se muestra o se hace clic en el contenido.
 
 [Obtenga más información sobre los requisitos previos de implementación](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
@@ -185,7 +187,7 @@ Antes de que el seguimiento funcione, debe configurar la implementación para en
 
 +++Seguimiento de tarjeta de contenido
 
-[Tarjetas de contenido](../content-card/create-content-card.md) rastrean automáticamente las interacciones del usuario. Configure el contenido y las reglas de visualización para controlar el comportamiento de seguimiento.
+Las tarjetas de contenido rastrean automáticamente las interacciones del usuario. Configure el contenido y las reglas de visualización para controlar el comportamiento de seguimiento.
 
 **Cómo implementar:**
 
@@ -195,13 +197,15 @@ Antes de que el seguimiento funcione, debe configurar la implementación para en
 
 * **Configurar reglas de visualización**: defina cuándo y dónde aparecerán las tarjetas para garantizar un seguimiento preciso de las pantallas frente a las interacciones.
 
+[Aprenda a configurar tarjetas de contenido](../content-card/create-content-card.md)
+
 **Supervisar la participación:** Realice el seguimiento de visualizaciones, clics, tasas de pulsaciones y patrones de participación en varias sesiones. [Informes de campaña](../reports/campaign-global-report-cja-content.md) | [Informes de Recorrido](../reports/journey-global-report-cja-content.md)
 
 +++
 
 +++Seguimiento de página de aterrizaje
 
-[Las páginas de aterrizaje](../reports/lp-report-global-cja.md) incluyen seguimiento integrado que no requiere ninguna configuración adicional. Journey Optimizer registra automáticamente las visitas, conversiones y tasas de devolución.
+Las páginas de aterrizaje incluyen un seguimiento integrado que no requiere ninguna configuración adicional. Journey Optimizer registra automáticamente las visitas, conversiones y tasas de devolución.
 
 **Se realiza un seguimiento automático de los elementos:**
 
@@ -210,7 +214,9 @@ Antes de que el seguimiento funcione, debe configurar la implementación para en
 * **Tasa de salida hacia otro sitio** - Porcentaje de visitantes que se van sin interactuar
 * **Tendencias de rendimiento**: datos de series temporales que muestran cómo evolucionan las métricas
 
-**Optimizar el rendimiento:** Use datos de seguimiento para refinar los campos de formulario, probar las variaciones de contenido, identificar fuentes de tráfico efectivas y reducir el abandono.
+[Obtenga información sobre cómo configurar páginas de aterrizaje](../landing-pages/create-lp.md)
+
+**Supervisar el rendimiento:** Realice un seguimiento de los patrones de visita, las tasas de conversión y las tasas de devolución a lo largo del tiempo para comprender cómo los usuarios interactúan con los formularios e identificar las áreas que se deben mejorar. [Informes de campaña](../reports/lp-report-global-cja.md)
 
 +++
 
@@ -234,15 +240,19 @@ Más allá del seguimiento a nivel de canal, configure el seguimiento para medir
 
 Journey Optimizer realiza automáticamente un seguimiento de los experimentos de optimización, las estrategias de segmentación y el rendimiento de las decisiones. Configure los ajustes para garantizar una recopilación de datos adecuada.
 
-**Configurar el seguimiento de optimización:**
+### Configuración del seguimiento de optimización {#optimization-tracking}
 
-* **Configurar experimentación**: al crear experimentos o al usar la segmentación, defina qué métricas rastrear (conversiones, clics, eventos personalizados). Journey Optimizer recopila automáticamente datos de rendimiento para cada tratamiento. [Más información](../campaigns/campaigns-message-optimization.md)
+* **Optimización en tus campañas y recorridos**
 
-* **Configurar optimización de rutas** - Agregue una actividad **Optimizar** a su recorrido y configure varias rutas. Journey Optimizer realiza automáticamente un seguimiento de las rutas que toman los perfiles y mide el rendimiento. [Más información](../building-journeys/optimize.md)
+   * Al crear experimentos, defina qué métricas rastrear (conversiones, clics, eventos personalizados). Journey Optimizer recopila automáticamente datos de rendimiento para cada tratamiento. [Más información](../campaigns/campaigns-message-optimization.md#experimentation)
 
-**Analizar resultados:** Ver tasas de conversión, relevancia estadística y alza entre tratamientos en informes de experimentación. [Informes de campaña](../reports/campaign-global-report-cja-experimentation.md) | [Informes de Recorrido](../reports/journey-global-report-cja-experimentation.md)
+   * Cree reglas de segmentación para entregar contenido diferente a segmentos de audiencia diferentes. Journey Optimizer realiza automáticamente un seguimiento de las métricas de participación de cada grupo de destino, lo que le permite comparar el rendimiento entre segmentos. [Más información](../campaigns/campaigns-message-optimization.md#targeting)
 
-**Rendimiento de seguimiento de decisiones:**
+* **Optimización de ruta de Recorrido** - Agregue una actividad **Optimizar** a su recorrido y configure varias rutas. Journey Optimizer realiza automáticamente un seguimiento de las rutas que toman los perfiles y mide el rendimiento. [Más información](../building-journeys/optimize.md)
+
+**Analizar resultados:** Ver las tasas de conversión, la relevancia estadística y el alza entre tratamientos en los informes de experimentación, o comparar las métricas de participación entre segmentos segmentados. [Informe de campaña de experimentación](../reports/campaign-global-report-cja-experimentation.md) | [Informe de recorrido de experimentación](../reports/journey-global-report-cja-experimentation.md) | [informe de segmentación de Recorridos](../reports/journey-global-report-cja.md#targeting)
+
+### Seguimiento del rendimiento de decisiones {#decisioning-tracking}
 
 Al utilizar Decisioning para personalizar el contenido, Journey Optimizer rastrea automáticamente los eventos de decisión, las impresiones y los clics sin necesidad de configuración adicional.
 
@@ -270,19 +280,19 @@ La gobernanza de datos garantiza el cumplimiento de regulaciones como el RGPD y 
 
 Más allá de la participación de seguimiento, configure la monitorización para garantizar que los mensajes lleguen a las bandejas de entrada y que los sistemas funcionen de forma óptima.
 
-**Configurar supervisión proactiva:**
-
-* **Configuración de alertas**: configure notificaciones en tiempo real para errores de recorrido, errores de acciones personalizadas y problemas críticos para responder rápidamente a los problemas. [Más información](../reports/alerts.md)
-
-* **Habilitar registros de auditoría** - Activar registros de auditoría para rastrear todas las acciones en los recursos para el cumplimiento y la solución de problemas. [Más información](../privacy/audit-logs.md)
-
-* **Supervisar integraciones**: realice un seguimiento del rendimiento de las acciones personalizadas y de la conectividad externa del sistema para identificar los problemas de integración de forma temprana. [Más información](../action/reporting.md)
-
-**Supervisión de la capacidad de entrega:**
+La monitorización de la capacidad de entrega ayuda a garantizar que los mensajes lleguen a las bandejas de entrada de los destinatarios y mantengan una reputación de remitente saludable mediante el seguimiento de indicadores clave:
 
 * **Revise la lista de supresión** con regularidad para comprender por qué las direcciones están bloqueadas y mantener la higiene de la lista. [Más información](../reports/suppression-list.md)
 
 * **Analice los errores de envío** para diagnosticar errores y tomar medidas correctivas. [Más información](../configuration/email-error-types.md)
 
 * **Siga las prácticas recomendadas** para DMARC, SPF y DKIM para maximizar la ubicación en la bandeja de entrada. [Más información](../reports/deliverability.md)
+
+Configure la monitorización proactiva para recibir notificaciones en tiempo real sobre eventos críticos y problemas del sistema, lo que le permite responder rápidamente antes de que afecten a las experiencias de los clientes:
+
+* **Configuración de alertas**: configure notificaciones en tiempo real para errores de recorrido, errores de acciones personalizadas y problemas críticos para responder rápidamente a los problemas. [Más información](../reports/alerts.md)
+
+* **Habilitar registros de auditoría** - Activar registros de auditoría para rastrear todas las acciones en los recursos para el cumplimiento y la solución de problemas. [Más información](../privacy/audit-logs.md)
+
+* **Supervisar integraciones**: realice un seguimiento del rendimiento de las acciones personalizadas y de la conectividad externa del sistema para identificar los problemas de integración de forma temprana. [Más información](../action/reporting.md)
 
