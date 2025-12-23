@@ -10,9 +10,9 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: d34dfa121f005d28c6ab8895de2bbbd0cdf71dc1
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1129'
 ht-degree: 4%
 
 ---
@@ -131,7 +131,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:allowDuplicatePropositions` | Este objeto define la estructura de control de las reglas de deduplicación. Consiste en una serie de indicadores que indican si la misma opción se puede proponer en una dimensión determinada. Un indicador que se establece en true significa que se permiten duplicados y no deben eliminarse en la categoría indicada por el indicador. Un indicador establecido en false significa que el motor de decisión no debe hacer la misma propuesta en toda la dimensión y elegir la siguiente mejor opción para una de las subdecisiones. |  |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Si se establece en true, es posible que se asignen varias decisiones a la misma opción. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | Si se establece en true, es posible que se asignen varias ubicaciones a la misma opción. | `"xdm:acrossPlacements": true` |
-| `xdm:enrichedAudience` | Añada este parámetro y configúrelo como &quot;true&quot; si va a enviar un mensaje a una audiencia CSV | `"xdm:enrichedAudience": true` |
+| `xdm:enrichedAudience` | Establezca este parámetro en `true` si su objetivo es una audiencia de carga personalizada (CSV) y desea recuperar datos de enriquecimiento en la respuesta de decisión de oferta. [Más información acerca del uso de audiencias CSV para la toma de decisiones](../../custom-upload-decisioning.md#must-read) | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | Identifica la política de combinación por la que se rigen los datos devueltos por el servicio de acceso a perfiles. Si no se especifica uno en la solicitud, Administración de decisiones no transmitirá ningún servicio de acceso a perfiles; de lo contrario, transmitirá el ID proporcionado por el llamador. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | Conjunto de indicadores que da formato al contenido de la respuesta. |  |
 | `xdm:responseFormat.xdm:includeContent` | Un valor booleano que, si se establece en `true`, incluye contenido en la respuesta. | `"xdm:includeContent": true` |
@@ -233,7 +233,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342828/?captions=spa&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Próximos pasos {#next-steps}
 
