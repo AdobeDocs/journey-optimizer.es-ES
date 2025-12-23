@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: a6c80e4326454868d60e9ba335e509f806d3220f
+source-git-commit: cfac40f73a68362f8490de28cf1865f3dd4952f7
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 38%
+source-wordcount: '1139'
+ht-degree: 30%
 
 ---
 
@@ -34,6 +34,75 @@ Utilice [!DNL Journey Optimizer] para crear casos de uso de orquestación en tie
 El diseñador de recorridos [Journey Optimizer](using-the-journey-designer.md) proporciona todo lo que los especialistas en marketing y los profesionales del recorrido necesitan para organizar recorridos de 1:1 en varios pasos en todos los canales. Esto incluye un lienzo intuitivo de arrastrar y soltar para organizar cada paso del recorrido, definir la audiencia de destino e incluir los mensajes, ofertas y contenido en todos los canales que verán los miembros de la audiencia de destino en función del comportamiento, los datos contextuales y los eventos empresariales. Explore [casos de uso reales](jo-use-cases.md) para ver cómo puede aplicar estas capacidades.
 
 ➡️ [Descubrimiento de Journey Optimizer en vídeo](#video)
+
+## Información general sobre los recorridos
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Introducción a la creación de Recorridos
+
+Instrucciones paso a paso sobre el diseño, la prueba, la publicación y el seguimiento de recorridos de los clientes para crear campañas omnicanal personalizadas.
+
+[Creación de su primer recorrido](journey-gs.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Journey Orchestration: Guía completa
+
+Documentación completa que cubre todos los aspectos de la creación, administración y optimización de recorridos en Adobe Journey Optimizer.
+
+[Explorar la guía completa](journey-get-started.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Administración de Recorridos
+
+Administre los recorridos del cliente de forma eficaz con herramientas de filtrado, administración de perfiles, zonas horarias y técnicas de optimización.
+
+[Más información sobre la administración de recorridos](/help/rp_landing_pages/manage-journey-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+Actividades de recorrido
+
+Descubra cómo configurar y utilizar actividades como activadores, pasos de decisión, gestión de público y mensajería personalizada en los recorridos.
+
+[Explorar actividades](/help/rp_landing_pages/about-journey-building-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+Creación de expresiones
+
+Domine la creación de expresiones para los flujos de trabajo dinámicos, la manipulación de datos y la orquestación avanzada de recorridos con unas herramientas y sintaxis potentes.
+
+[Más información sobre expresiones](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Casos de uso de recorrido
+
+Explore las aplicaciones reales de Adobe Journey Optimizer, incluida la mensajería multicanal y la integración con sistemas externos.
+
+[Descubrir casos de uso](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+:::
+
+::::
+
+## ¿Qué puedes hacer con los recorridos?
+
+Desde el diseñador de recorrido, los especialistas en marketing pueden enviar mensajes 1:1 activados en tiempo real a través de cualquier canal cuando se produce un evento. Por ejemplo, cuando un cliente se suscribe a un servicio, puede [enviar un correo electrónico de bienvenida](message-to-subscribers-uc.md), alentándolo a iniciar sesión en la aplicación por primera vez y establecer sus preferencias. Acciones como completar la compra, abrir el correo electrónico e iniciar sesión en la aplicación se pueden utilizar para hacer avanzar nuevos clientes a través de sus recorridos.
 
 ## tipos de recorrido
 
@@ -124,78 +193,17 @@ Los **recorridos de eventos empresariales** se desencadenan por eventos empresar
 
 >[!ENDTABS]
 
-## Información general sobre los recorridos
+## Recorrido Designer{#journey-designer}
 
-:::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+El [diseñador de recorridos](using-the-journey-designer.md) es un lienzo intuitivo de arrastrar y soltar que le permite crear y organizar visualmente sus recorridos con los clientes. Proporciona todo lo necesario para diseñar experiencias de varios pasos:
 
-Introducción a la creación de Recorridos
+* **[Acciones de canal integradas](journeys-message.md)**: envía mensajes por correo electrónico, notificaciones push, SMS/MMS, en la aplicación, web, experiencias basadas en código y mucho más, todos diseñados directamente en Journey Optimizer
+* **[Acciones personalizadas](using-custom-actions.md)**: integre sistemas de terceros para enviar mensajes o flujos de trabajo de déclencheur en plataformas externas
+* **[Actividades de orquestación](about-journey-activities.md)**: agregue lógica, condiciones, tiempos de espera y segmentación de audiencia para crear experiencias de cliente sofisticadas
+* **[Condiciones](condition-activity.md)**: ramifique el recorrido en función de atributos de perfil, pertenencia a audiencias o eventos en tiempo real
+* **[Expresiones](expression/expressionadvanced.md)**: cree lógica y personalización avanzadas con el editor de expresiones
 
-Instrucciones paso a paso sobre el diseño, la prueba, la publicación y el seguimiento de recorridos de los clientes para crear campañas omnicanal personalizadas.
-
-[Creación de su primer recorrido](journey-gs.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
-
-Journey Orchestration: Guía completa
-
-Documentación completa que cubre todos los aspectos de la creación, administración y optimización de recorridos en Adobe Journey Optimizer.
-
-[Explorar la guía completa](journey-get-started.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
-
-Administración de Recorridos
-
-Administre los recorridos del cliente de forma eficaz con herramientas de filtrado, administración de perfiles, zonas horarias y técnicas de optimización.
-
-[Más información sobre la administración de recorridos](/help/rp_landing_pages/manage-journey-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
-
-Actividades de recorrido
-
-Descubra cómo configurar y utilizar actividades como activadores, pasos de decisión, gestión de público y mensajería personalizada en los recorridos.
-
-[Explorar actividades](/help/rp_landing_pages/about-journey-building-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
-
-Creación de expresiones
-
-Domine la creación de expresiones para los flujos de trabajo dinámicos, la manipulación de datos y la orquestación avanzada de recorridos con unas herramientas y sintaxis potentes.
-
-[Más información sobre expresiones](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
-
-Casos de uso de recorrido
-
-Explore las aplicaciones reales de Adobe Journey Optimizer, incluida la mensajería multicanal y la integración con sistemas externos.
-
-[Descubrir casos de uso](/help/rp_landing_pages/journey-use-cases-landing-page.md)
-:::
-
-::::
-
-## Casos de uso{#uc-journey}
-
-Desde el diseñador de recorrido, los especialistas en marketing pueden enviar mensajes 1:1 activados en tiempo real a través de cualquier canal cuando se produce un evento. Por ejemplo, cuando un cliente se suscribe a un servicio, puede [enviar un correo electrónico de bienvenida](message-to-subscribers-uc.md), alentándolo a iniciar sesión en la aplicación por primera vez y establecer sus preferencias. Acciones como completar la compra, abrir el correo electrónico e iniciar sesión en la aplicación se pueden utilizar para hacer avanzar nuevos clientes a través de sus recorridos.
-
-El [diseñador de recorridos](using-the-journey-designer.md) proporciona [acciones de canal integradas](journeys-message.md) que admiten mensajes salientes, como correos electrónicos, notificaciones push y SMS/MMS, así como canales entrantes, incluidas aplicaciones móviles, sitios web y experiencias basadas en código creadas directamente en Journey Optimizer. También puede usar sistemas de terceros para enviar mensajes, ya sea por correo electrónico, texto u otros canales, Journey Optimizer incluye [acciones personalizadas](using-custom-actions.md) para permitir que estos sistemas se integren en los recorridos directamente desde el diseñador de recorrido.
-
-Obtenga información sobre cómo crear recorridos [en los siguientes casos de uso de extremo a extremo](jo-use-cases.md).
+Aprenda a utilizar el diseñador de recorrido [ en estos casos de uso de extremo a extremo](jo-use-cases.md).
 
 >[!NOTE]
 >
@@ -205,7 +213,7 @@ Obtenga información sobre cómo crear recorridos [en los siguientes casos de us
 
 Descubra los componentes de un recorrido y comprenda los conceptos básicos para construir un recorrido en el lienzo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430353?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Recursos adicionales {#additional-resources}
 
