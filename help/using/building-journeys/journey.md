@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
+source-git-commit: a6c80e4326454868d60e9ba335e509f806d3220f
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 62%
+source-wordcount: '1099'
+ht-degree: 38%
 
 ---
 
@@ -35,11 +35,100 @@ El diseñador de recorridos [Journey Optimizer](using-the-journey-designer.md) p
 
 ➡️ [Descubrimiento de Journey Optimizer en vídeo](#video)
 
+## tipos de recorrido
+
+Adobe Journey Optimizer admite cuatro tipos de recorrido, cada uno diseñado para diferentes casos de uso y mecanismos de entrada. Elija el tipo adecuado en función de cómo desee que los perfiles especifiquen y avancen en las experiencias de los clientes.
+
+>[!BEGINTABS]
+
+>[!TAB recorridos unitarios]
+
+**Los recorridos unitarios** se activan individualmente mediante un evento cuando se produce una acción específica, como una compra, el inicio de sesión en la aplicación o el envío de formularios. Los perfiles entran en el recorrido de uno en uno en tiempo real cuando se recibe el evento, lo que lo hace ideal para experiencias personalizadas y basadas en el comportamiento.
+
+**Características clave:**
+
+* Entrada en tiempo real impulsada por eventos
+* Procesamiento de perfiles individuales
+* Ideal para mensajes transaccionales y respuestas inmediatas
+* Admite datos contextuales desde el evento de activación
+
+**Casos de uso:**
+
+* Confirmación del pedido después de la compra
+* Correo electrónico de bienvenida cuando alguien se suscriba
+* Abandono del carro de compras activado por el comportamiento de navegación
+* Notificaciones de restablecimiento de contraseña
+
+➡️ [Más información acerca de la configuración del evento](../event/about-events.md) | [Eventos generales](general-events.md) | [Mensaje para el caso de uso de los suscriptores](message-to-subscribers-uc.md)
+
+>[!TAB Leer recorridos de audiencia]
+
+**Leer recorridos de audiencia** comienza con una audiencia de Adobe Experience Platform y envía mensajes en lote a todos los perfiles de esa audiencia. Este tipo de recorrido procesa toda la audiencia a la vez, lo que lo hace ideal para campañas programadas y comunicaciones recurrentes.
+
+**Características clave:**
+
+* Procesamiento por lotes de segmentos de audiencia
+* Ejecución programada para una sola vez
+* Todos los perfiles entran simultáneamente
+* Admite comunicaciones a gran escala
+
+**Casos de uso:**
+
+* Boletines mensuales
+* Campañas promocionales para segmentos de destinatario
+* Anuncios de productos para todos los clientes
+* Campañas de marketing de temporada
+
+➡️ [Más información acerca de la actividad Leer audiencia](read-audience.md) | [Introducción a las audiencias](../audience/about-audiences.md) | [Caso de uso de mensajería multicanal](journeys-uc.md)
+
+>[!TAB recorridos de calificación de audiencia]
+
+**Los recorridos de calificación de audiencia** se activan cuando los perfiles cumplen los requisitos para un segmento de audiencia específico o salen de él. Los perfiles introducen el recorrido de forma individual, ya que cumplen los criterios de audiencia en tiempo real, lo que permite una participación inmediata cuando cambia el comportamiento de los clientes.
+
+**Características clave:**
+
+* Entrada basada en cualificaciones en tiempo real
+* Monitorización continua del abono a audiencias
+* Procesamiento de perfiles individuales según cumplen los requisitos
+* Óptima con audiencias de streaming
+
+**Casos de uso:**
+
+* Notificaciones de actualización de nivel VIP
+* Nueva participación cuando los clientes se vuelvan inactivos
+* Mensajes de celebración de la primera compra
+* Segmentación geográfica cuando los clientes se mueven
+
+➡️ [Más información acerca de la calificación de audiencias](audience-qualification-events.md) | [Actividad de condición](condition-activity.md) | [Creando definiciones de segmento](../audience/creating-a-segment-definition.md)
+
+>[!TAB recorridos de eventos empresariales]
+
+Los **recorridos de eventos empresariales** se desencadenan por eventos empresariales (como actualizaciones de existencias, avisos meteorológicos o cambios de precios) que afectan a varios perfiles simultáneamente. En lugar de reaccionar ante las acciones individuales de los clientes, estos recorridos responden a condiciones comerciales más amplias o a factores externos.
+
+**Características clave:**
+
+* Se activa mediante eventos de nivel empresarial, no acciones individuales
+* Afecta a varios perfiles a la vez
+* Se dirige a una audiencia específica cuando se produce el evento
+* Combina temporización impulsada por evento con segmentación de audiencia
+
+**Casos de uso:**
+
+* Alertas de inventario bajas para clientes interesados
+* Anuncios de venta Flash
+* Promociones basadas en el tiempo
+* Notificaciones de bajada de precios
+* Alertas de productos que vuelven a estar en stock
+
+➡️ [Más información acerca de los eventos empresariales](general-events.md) | [Configurar eventos empresariales](../event/about-creating-business.md) | [Administración de entradas](entry-management.md)
+
+>[!ENDTABS]
+
 ## Información general sobre los recorridos
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a la creación de Recorridos
 
@@ -49,7 +138,7 @@ Instrucciones paso a paso sobre el diseño, la prueba, la publicación y el segu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey Orchestration: Guía completa
 
@@ -59,7 +148,7 @@ Documentación completa que cubre todos los aspectos de la creación, administra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Administración de Recorridos
 
@@ -69,7 +158,7 @@ Administre los recorridos del cliente de forma eficaz con herramientas de filtra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Actividades de recorrido
 
@@ -79,7 +168,7 @@ Descubra cómo configurar y utilizar actividades como activadores, pasos de deci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Creación de expresiones
 
@@ -89,7 +178,7 @@ Domine la creación de expresiones para los flujos de trabajo dinámicos, la man
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Casos de uso de recorrido
 
@@ -116,7 +205,7 @@ Obtenga información sobre cómo crear recorridos [en los siguientes casos de us
 
 Descubra los componentes de un recorrido y comprenda los conceptos básicos para construir un recorrido en el lienzo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430353?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Recursos adicionales {#additional-resources}
 
