@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 4f13f863a5e08cc0e92c26d782d888f0d6d2fea4
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 9%
@@ -63,9 +63,9 @@ Este mixin contiene todos los campos correspondientes a un trabajo de exportaci�
 |---|---|------------|
 | ID | Cadena | El identificador del trabajo de exportación de audiencia activado |
 | estado | Cadena | El estado del trabajo de exportación de audiencia: en cola, iniciado, finalizado |
-| exportCountTotal | Entero | El valor máximo posible del trabajo de exportación de audiencia |
-| exportCountRealized | Entero | El número real de audiencias exportadas a través del trabajo |
-| exportCountFailed | Entero | El número de audiencias que fallaron al exportar a través del trabajo |
+| exportCountTotal | Número entero | El valor máximo posible del trabajo de exportación de audiencia |
+| exportCountRealized | Número entero | El número real de audiencias exportadas a través del trabajo |
+| exportCountFailed | Número entero | El número de audiencias que fallaron al exportar a través del trabajo |
 | exportSegmentID | Cadena | El identificador de la audiencia que se exporta |
 | eventType | Cadena | El tipo de evento que indica si es un evento de error o un evento de información: Información, Error |
 | eventCode | Cadena | El código de error que indica el motivo del eventType correspondiente |
@@ -95,7 +95,7 @@ A continuación encontrará definiciones, causas comunes y pasos de solución de
 
   **Solución de problemas**: Asegúrese de que haya al menos un recorrido activo y configurado para el segmento y compruebe los ID de segmento.
 
-* **RECORRIDO_INSTANCE_ID_NOT_CREATE**: el sistema no pudo crear una instancia de recorrido para el cliente.
+* **RECORRIDO_INSTANCE_ID_NOT_CREATED**: el sistema no pudo crear una instancia de recorrido para el cliente.
 
   **Causas comunes**: Eventos duplicados, volumen de evento alto, restricciones de recursos del sistema.
 
