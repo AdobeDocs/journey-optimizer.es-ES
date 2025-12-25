@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: cfac40f73a68362f8490de28cf1865f3dd4952f7
+source-git-commit: dd3d91266c0edea562f75ceb1f75974c7242ee1a
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 30%
+source-wordcount: '1108'
+ht-degree: 34%
 
 ---
 
@@ -31,15 +31,13 @@ Utilice [!DNL Journey Optimizer] para crear casos de uso de orquestación en tie
 
 * Con el **[diseñador de recorridos](using-the-journey-designer.md)**, cree sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una [actividad de lectura de audiencias](read-audience.md), agregue [condiciones](condition-activity.md) y envíe mensajes personalizados.
 
-El diseñador de recorridos [Journey Optimizer](using-the-journey-designer.md) proporciona todo lo que los especialistas en marketing y los profesionales del recorrido necesitan para organizar recorridos de 1:1 en varios pasos en todos los canales. Esto incluye un lienzo intuitivo de arrastrar y soltar para organizar cada paso del recorrido, definir la audiencia de destino e incluir los mensajes, ofertas y contenido en todos los canales que verán los miembros de la audiencia de destino en función del comportamiento, los datos contextuales y los eventos empresariales. Explore [casos de uso reales](jo-use-cases.md) para ver cómo puede aplicar estas capacidades.
-
 ➡️ [Descubrimiento de Journey Optimizer en vídeo](#video)
 
 ## Información general sobre los recorridos
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a la creación de Recorridos
 
@@ -49,7 +47,7 @@ Instrucciones paso a paso sobre el diseño, la prueba, la publicación y el segu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey Orchestration: Guía completa
 
@@ -59,7 +57,7 @@ Documentación completa que cubre todos los aspectos de la creación, administra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Administración de Recorridos
 
@@ -69,7 +67,7 @@ Administre los recorridos del cliente de forma eficaz con herramientas de filtra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Actividades de recorrido
 
@@ -79,7 +77,7 @@ Descubra cómo configurar y utilizar actividades como activadores, pasos de deci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Creación de expresiones
 
@@ -89,7 +87,7 @@ Domine la creación de expresiones para los flujos de trabajo dinámicos, la man
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Casos de uso de recorrido
 
@@ -195,7 +193,9 @@ Los **recorridos de eventos empresariales** se desencadenan por eventos empresar
 
 ## Recorrido Designer{#journey-designer}
 
-El [diseñador de recorridos](using-the-journey-designer.md) es un lienzo intuitivo de arrastrar y soltar que le permite crear y organizar visualmente sus recorridos con los clientes. Proporciona todo lo necesario para diseñar experiencias de varios pasos:
+El [diseñador de recorridos](using-the-journey-designer.md) proporciona todo lo que los especialistas en marketing y los profesionales del recorrido necesitan para organizar recorridos de 1:1 en varios pasos en todos los canales. Esto incluye un lienzo intuitivo de arrastrar y soltar para organizar cada paso del recorrido, definir el público destinatario e incluir los mensajes, ofertas y contenido en todos los canales que verán los miembros del público destinatario en función del comportamiento, los datos contextuales y los eventos empresariales.
+
+El diseñador de recorridos proporciona todo lo necesario para diseñar experiencias de varios pasos:
 
 * **[Acciones de canal integradas](journeys-message.md)**: envía mensajes por correo electrónico, notificaciones push, SMS/MMS, en la aplicación, web, experiencias basadas en código y mucho más, todos diseñados directamente en Journey Optimizer
 * **[Acciones personalizadas](using-custom-actions.md)**: integre sistemas de terceros para enviar mensajes o flujos de trabajo de déclencheur en plataformas externas
@@ -203,7 +203,7 @@ El [diseñador de recorridos](using-the-journey-designer.md) es un lienzo intuit
 * **[Condiciones](condition-activity.md)**: ramifique el recorrido en función de atributos de perfil, pertenencia a audiencias o eventos en tiempo real
 * **[Expresiones](expression/expressionadvanced.md)**: cree lógica y personalización avanzadas con el editor de expresiones
 
-Aprenda a utilizar el diseñador de recorrido [&#x200B; en estos casos de uso de extremo a extremo](jo-use-cases.md).
+Aprenda a utilizar el diseñador de recorrido [ en estos casos de uso de extremo a extremo](jo-use-cases.md).
 
 >[!NOTE]
 >
@@ -213,7 +213,7 @@ Aprenda a utilizar el diseñador de recorrido [&#x200B; en estos casos de uso de
 
 Descubra los componentes de un recorrido y comprenda los conceptos básicos para construir un recorrido en el lienzo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430353?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Recursos adicionales {#additional-resources}
 
