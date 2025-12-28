@@ -38,7 +38,7 @@ El diseñador de recorridos de Journey Optimizer proporciona todo lo que los esp
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 **Envío en tiempo real y por lotes**
 
@@ -48,7 +48,7 @@ Envíe en tiempo real un **envío unitario** que se activa cuando se recibe un e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
 
 **Datos contextuales**
 
@@ -58,7 +58,7 @@ Aprovechar **datos contextuales** desde eventos, información de Adobe Experienc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
 **Acciones integradas**
 
@@ -68,7 +68,7 @@ Use **acciones de canal integradas** para enviar mensajes diseñados en [!DNL Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 **Acciones personalizadas**
 
@@ -78,7 +78,7 @@ Cree **acciones personalizadas** si usa un sistema de terceros para enviar mensa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 **Diseñador de recorridos visuales**
 
@@ -88,7 +88,7 @@ Con el **diseñador de recorridos**, genere sus casos de uso de varios pasos: ar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 **Probar y optimizar**
 
@@ -105,7 +105,7 @@ Pruebe los recorridos antes de publicar, supervise su rendimiento y optimice la 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a la creación de Recorridos
 
@@ -115,7 +115,7 @@ Instrucciones paso a paso sobre el diseño, la prueba, la publicación y el segu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Administración de Recorridos
 
@@ -125,7 +125,7 @@ Administre los recorridos del cliente de forma eficaz con herramientas de filtra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Actividades de recorrido
 
@@ -135,7 +135,7 @@ Descubra cómo configurar y utilizar actividades como activadores, pasos de deci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Creación de expresiones
 
@@ -145,7 +145,7 @@ Domine la creación de expresiones para los flujos de trabajo dinámicos, la man
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Casos de uso de recorrido
 
@@ -166,7 +166,7 @@ El [diseñador de recorridos](using-the-journey-designer.md) proporciona [accion
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 **Casos de uso de aprendizaje**
 
@@ -176,7 +176,7 @@ Explore casos de uso de recorrido completos que muestren implementaciones y prá
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
 **Bienvenido/a a nuevos suscriptores**
 
@@ -186,7 +186,7 @@ Envíe un recorrido de bienvenida personalizado cuando los clientes se suscriban
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
 
 **Optimizar tiempos de envío de correos electrónicos**
 
@@ -196,7 +196,7 @@ Utilice la optimización del tiempo de envío con tecnología de IA para enviar 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 **Aumento de envíos**
 
@@ -206,7 +206,7 @@ Aumente gradualmente el volumen del mensaje para aumentar la reputación de su e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 **Segmentar por día laborable**
 
@@ -216,7 +216,7 @@ Envíe contenido diferente en función del día de la semana en el que los clien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=es)
 
 **PREGUNTAS FRECUENTES SOBRE EL Recorrido**
 
