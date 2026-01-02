@@ -9,9 +9,9 @@ level: Beginner
 keywords: recorrido, campaña, orquestado, comparación, elegir, decisión, flujo de trabajo, tiempo real, lote, orquestación, varios pasos, programado, activado por API, impulsado por evento
 hide: true
 hidefromtoc: true
-source-git-commit: 5c842eb5d744380b462c6830af0838aa3329e9f7
+source-git-commit: 3fd971c719bfd667fe5b237c8f03a5915422c1e7
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1334'
 ht-degree: 3%
 
 ---
@@ -221,32 +221,42 @@ Combina la complejidad del flujo de trabajo con la ejecución de campañas por l
 
 ## Preguntas frecuentes {#common-questions}
 
-**Q: ¿Puedo combinar recorridos y campañas en mi estrategia de marketing?**
++++ ¿Puedo combinar recorridos y campañas en mi estrategia de marketing?
 
-R: ¡Por supuesto! La mayoría de las organizaciones utilizan los tres enfoques para diferentes escenarios:
+¡Absolutamente! La mayoría de las organizaciones utilizan los tres enfoques para diferentes escenarios:
 - Recorridos para la participación en tiempo real y basada en el comportamiento
 - Campañas de acción para comunicaciones de difusión programadas
 - Campañas activadas por API para mensajes transaccionales
 - Campañas organizadas para campañas por lotes complejas que requieren gran cantidad de datos
 
-**Q: ¿Puedo convertir una campaña en un recorrido o viceversa?**
++++
 
-R: No, debe reconstruir la experiencia en el formato adecuado. Sin embargo, puede reutilizar el contenido, las audiencias y los conceptos lógicos.
++++ ¿Puedo convertir una campaña en un recorrido o viceversa?
 
-**Q: ¿Qué enfoque es más fácil de compilar?**
+No, debe reconstruir la experiencia en el formato adecuado. Sin embargo, puede reutilizar el contenido, las audiencias y los conceptos lógicos.
 
-R: Las campañas de acción suelen ser las más sencillas (enviar un solo mensaje a la audiencia), seguidas de campañas activadas por API, Recorridos (más complejas con la lógica de varios pasos) y campañas orquestadas (más complejas debido al flujo de trabajo del lienzo y a las capacidades de varias entidades).
++++
 
-**Q: ¿Qué escala es mejor para las audiencias grandes?**
++++ ¿Qué enfoque es más fácil de crear?
 
-R: Los tres pueden escalar bien, pero:
+Las campañas de acción suelen ser las más sencillas (enviar un solo mensaje a la audiencia), seguidas de campañas activadas por API, Recorridos (más complejas con la lógica de varios pasos) y campañas orquestadas (más complejas debido al flujo de trabajo del lienzo y a las capacidades de varias entidades).
+
++++
+
++++ ¿Qué escala es mejor para grandes audiencias?
+
+Los tres pueden escalar bien, pero:
 - **Leer Recorridos de audiencias** y **Campañas de acción** están optimizadas para audiencias de lotes grandes
 - **Las campañas orquestadas** sobresalen en la segmentación compleja con conjuntos de datos grandes
 - **Recorridos unitarios** procesan los perfiles individualmente, por lo que la escala depende del volumen del evento
 
-**Q: ¿Puedo usar la misma audiencia en recorridos y campañas?**
++++
 
-R: Sí, las audiencias creadas en Adobe Experience Platform se pueden usar en los tres enfoques.
++++ ¿Puedo usar la misma audiencia en recorridos y campañas?
+
+Sí, las audiencias creadas en Adobe Experience Platform se pueden usar en los tres enfoques.
+
++++
 
 ## Próximos pasos {#next-steps}
 
