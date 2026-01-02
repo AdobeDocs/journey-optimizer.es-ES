@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 5623511099f7b09fa95bccb411776bc4416637fd
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1612'
 ht-degree: 9%
 
 ---
@@ -31,18 +31,17 @@ ht-degree: 9%
 
 Obtenga información sobre cómo acceder, organizar y administrar sus campañas en Adobe Journey Optimizer. Esta guía abarca desde la búsqueda de campañas hasta la comprensión de los estados, la realización de operaciones comunes y el mantenimiento del espacio de trabajo de la campaña.
 
-## Inicio rápido: Tareas comunes {#quick-tasks}
+>[!BEGINSHADEBOX]
 
-Salta directamente a lo que necesites:
+**Salta directamente a lo que necesitas:**
 
-* **Crear una nueva campaña** → [Elija el tipo de campaña](get-started-with-campaigns.md#campaign-types)
-   * [Crear campaña de acción](create-campaign.md)
-   * [Creación de una campaña activada por API](api-triggered-campaigns.md)
-   * [Crear una campaña organizada](../orchestrated/gs-orchestrated-campaigns.md)
-* **Buscar campañas existentes** → [Buscar y filtrar](#access)
-* **Ver el rendimiento de la campaña** → [Informes de campaña](../reports/campaign-global-report-cja.md)
-* **Programar campañas** → [Usar el calendario](#calendar)
-* **Administrar conflictos** → [Guía de administración de conflictos](../conflict-prioritization/gs-conflict-prioritization.md)
+* **Crear una nueva campaña** - [Elija el tipo de campaña](get-started-with-campaigns.md#campaign-types) | [Crear campaña de acción](create-campaign.md) | [Crear campaña desencadenada por API](api-triggered-campaigns.md) | [Crear campaña organizada](../orchestrated/gs-orchestrated-campaigns.md)
+* **Buscar campañas existentes** - [Buscar y filtrar](#access)
+* **Ver rendimiento de la campaña** - [Informes de campaña](../reports/campaign-global-report-cja.md)
+* **Programar campañas** - [Usar el calendario](#calendar)
+* **Administrar conflictos** - [Guía de administración de conflictos](../conflict-prioritization/gs-conflict-prioritization.md)
+
+>[!ENDSHADEBOX]
 
 ## Acceso y exploración de campañas {#access}
 
