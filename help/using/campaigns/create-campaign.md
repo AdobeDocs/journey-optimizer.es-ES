@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 51%
+source-wordcount: '201'
+ht-degree: 57%
 
 ---
 
@@ -49,8 +49,10 @@ Antes de comenzar con las campañas, compruebe los siguientes requisitos previos
 1. [Programación de la campaña de acción](campaign-schedule.md)
 1. [Revisión y activación de la campaña de acción](review-activate-campaign.md)
 
+Obtenga más información sobre [completar el flujo de trabajo de creación de campañas con guías específicas del tipo →](get-started-with-campaigns.md#workflow)
+
 ## Vídeotutoriales {#video}
 
 Obtenga información sobre cómo crear una campaña de acción.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412402?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

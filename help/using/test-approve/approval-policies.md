@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: b70233b3ac1741fa645a426fba3c6bd3175b13a0
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 10%
+source-wordcount: '663'
+ht-degree: 11%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Para crear directivas de aprobación, debe tener privilegios de administrador de sistemas o productos en Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home)
+>Para crear directivas de aprobación, debe tener privilegios de administrador de sistemas o productos en Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 Las políticas de aprobación permiten a los administradores establecer un proceso de validación para recorridos y campañas. Este sistema describe condiciones específicas que determinan si un recorrido o una campaña requiere aprobación. Estas políticas pueden variar en complejidad. Simplemente pueden requerir que todas las campañas sean revisadas por un usuario o equipo en particular, o establecer criterios basados en quién creó la campaña.
 
@@ -66,7 +66,7 @@ Las políticas de aprobación ofrecen opciones de segmentación flexibles para s
 * **Nombres de campaña/Recorrido**: objetos específicos de destino por nombre
 * **Etiquetas**: aplique directivas a todas las campañas o recorridos con una etiqueta específica
 * **Tipos de canales**: requieren aprobación para acciones específicas (correo electrónico, SMS, push, etc.)
-* **Tipos de campaña**: establezca reglas diferentes para las campañas programadas frente a las activadas por API
+* **Tipos de campaña**: establezca reglas diferentes para [Campañas activadas por acción frente a campañas activadas por API](../campaigns/get-started-with-campaigns.md#campaign-types)
 * **Solicitantes**: defina directivas basadas en quién crea la campaña o el recorrido
 
 Para definir las condiciones asociadas a una política de aprobación, siga estos pasos:

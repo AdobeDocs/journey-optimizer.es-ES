@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: archivo, mensajes, HIPAA, CCO, correos electrónicos
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1342'
 ht-degree: 6%
 
 ---
@@ -123,7 +123,7 @@ Para obtener acceso a este conjunto de datos a través de la interfaz de usuario
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-Para ejecutar consultas en este conjunto de datos, puede usar el Editor de consultas que proporciona [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
+Para ejecutar consultas en este conjunto de datos, puede usar el Editor de consultas que proporciona [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -148,7 +148,7 @@ Según la información que esté buscando, puede ejecutar las siguientes consult
 
    >[!NOTE]
    >
-   >Para obtener el parámetro `<journey version id>`, seleccione la [versión de recorrido](../building-journeys/journey.md#uc-journey) correspondiente en el menú **[!UICONTROL administración de Recorrido]** > **[!UICONTROL Recorridos]**. El ID de versión del recorrido se muestra al final de la dirección URL mostrada en el explorador web.
+   >Para obtener el parámetro `<journey version id>`, seleccione la versión de recorrido correspondiente en el menú **[!UICONTROL Administración de Recorrido]** > **[!UICONTROL Recorridos]**. El ID de versión del recorrido se muestra al final de la dirección URL mostrada en el explorador web. [Más información sobre las versiones de recorrido](../building-journeys/publish-journey.md#journey-versions)
    >
    >![](assets/preset-bcc-action-id.png)
 
@@ -234,7 +234,7 @@ El encabezado `x-message-profile-id` también se almacena en los siguientes conj
 
 * Para acceder a estos conjuntos de datos a través de la interfaz de usuario, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Conjuntos de datos]** > **[!UICONTROL Examinar]**. Obtenga más información acerca de cómo obtener acceso a los conjuntos de datos en [esta sección](../data/get-started-datasets.md#access-datasets).
 
-* Use el Editor de consultas proporcionado por [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
+* Use el Editor de consultas proporcionado por [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
 
 A continuación se muestran algunas consultas de ejemplo que puede ejecutar para recuperar información correspondiente a sus copias CCO.
 

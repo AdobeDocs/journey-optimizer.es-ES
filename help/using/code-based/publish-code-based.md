@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -69,13 +69,13 @@ El recorrido basado en código toma el estado **[!UICONTROL Activo]** y ahora es
    >
    >Obtenga más información acerca de la activación de campañas en [esta sección](../campaigns/review-activate-campaign.md).
 
-Su campaña basada en código obtiene el estado **[!UICONTROL Live]** y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al contenido.
+Tu campaña basada en código tiene el **[!UICONTROL estado]** [activo](../campaigns/manage-campaigns.md#statuses) y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al contenido.
 
 >[!NOTE]
 >
 >Después de hacer clic en **[!UICONTROL Activar]**, los cambios pueden tardar hasta 15 minutos en estar disponibles.
 >
->Si ha definido una programación para su campaña basada en código, tiene el estado **[!UICONTROL Programado]** hasta que se alcance la fecha y la hora de inicio.
+>Si ha definido una programación para su campaña basada en código, tiene el **[!UICONTROL estado]** [ programado](../campaigns/manage-campaigns.md#statuses)hasta que se alcance la fecha y la hora de inicio.
 
 ## Detener un recorrido o una campaña basados en código {#stop-code-based-experience}
 

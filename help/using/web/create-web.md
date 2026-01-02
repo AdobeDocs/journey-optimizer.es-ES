@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 18%
@@ -230,13 +230,13 @@ Una vez que haya definido la configuración de la campaña web y haya editado el
    >
    >Obtenga más información acerca de la activación de campañas en [esta sección](../campaigns/review-activate-campaign.md).
 
-La campaña web toma el estado **[!UICONTROL Activo]** y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al sitio web.
+Su campaña web toma el **[!UICONTROL estado]** [ en vivo](../campaigns/manage-campaigns.md#statuses) y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al sitio web.
 
 >[!NOTE]
 >
 >Después de hacer clic en **[!UICONTROL Activar]**, los cambios de las campañas web pueden tardar hasta 15 minutos en estar disponibles en el sitio web.
 >
->Si ha definido una programación para su campaña web, tiene el estado **[!UICONTROL Programado]** hasta que se alcance la fecha y la hora de inicio.
+>Si ha definido una programación para su campaña web, tiene el **[!UICONTROL estado]** [ programado](../campaigns/manage-campaigns.md#statuses) hasta que se alcance la fecha y la hora de inicio.
 
 Una vez que la experiencia esté activa, puede monitorizar los recorridos y campañas web. [Más información](monitor-web-experiences.md)
 
@@ -266,4 +266,4 @@ Cuando un recorrido web o una campaña están activos, puede detenerlos para evi
 
 El siguiente vídeo muestra cómo crear una campaña web, configurar sus propiedades, revisarla y publicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449984/?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

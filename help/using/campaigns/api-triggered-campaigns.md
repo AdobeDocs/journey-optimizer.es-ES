@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 35%
+source-wordcount: '282'
+ht-degree: 40%
 
 ---
 
@@ -50,8 +50,10 @@ Antes de comenzar con las campañas, compruebe los siguientes requisitos previos
 1. [Revisión y activación de la campaña](review-activate-api-triggered-campaign.md)
 1. [Activación de la ejecución de la campaña](trigger-campaigns.md)
 
+Obtenga más información sobre [completar el flujo de trabajo de creación de campañas con guías específicas del tipo →](get-started-with-campaigns.md#workflow)
+
 ## Vídeotutoriales {#video}
 
 Obtenga información sobre cómo crear una campaña y almacenarla en déclencheur desde un sistema externo basado en las interacciones del usuario, mediante la API de REST de ejecución de mensaje interactivo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452728?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

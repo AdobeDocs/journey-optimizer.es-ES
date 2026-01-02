@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1214'
 ht-degree: 3%
 
 ---
@@ -36,6 +36,8 @@ Con Adobe Journey Optimizer, puede crear los siguientes tipos de recorridos:
 * **Leer audiencia** recorridos: estos recorridos comienzan con una actividad de **Leer audiencia**. Cuando se ejecuta el recorrido, los perfiles pertenecientes a la audiencia de destino entran en el recorrido. Se crea una instancia de este recorrido para cada perfil. Estos recorridos pueden ser recurrentes o &quot;únicos&quot;. [Más información](#entry-read-audience)
 
 * **recorridos de calificación de audiencias**: estos recorridos comienzan con un evento de calificación de audiencias. Estos recorridos escuchan las entradas y salidas de perfiles en las audiencias. Cuando esto sucede, el perfil asociado entra en el recorrido. [Más información](#entry-unitary)
+
+[Comparar todos los tipos de recorrido con casos de uso →](journey.md#journey-types)
 
 En todos los tipos de recorrido, un perfil no puede estar presente varias veces en el mismo recorrido y al mismo tiempo para todas las [versiones activas del recorrido](publish-journey.md#journey-versions). Para comprobar que una persona está en un recorrido, la identidad del perfil se utiliza como clave. El sistema no permite que la misma clave, por ejemplo la clave `CRMID=3224`, esté en diferentes lugares del mismo recorrido.
 
