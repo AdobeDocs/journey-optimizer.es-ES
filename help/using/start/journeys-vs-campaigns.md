@@ -9,7 +9,7 @@ level: Beginner
 keywords: recorrido, campaña, orquestado, comparación, elegir, decisión, flujo de trabajo, tiempo real, lote, orquestación, varios pasos, programado, activado por API, impulsado por evento
 hide: true
 hidefromtoc: true
-source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
+source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 3%
@@ -159,33 +159,33 @@ Combina la complejidad del flujo de trabajo con la ejecución de campañas por l
 
 ### Casos de uso de recorrido
 
-&#x200B;* **Recuperación de abandono del carro de compras**: desencadenada por el evento de adición al carro de compras, esperar al cierre de compra o enviar recordatorios en caso de que no se realice la compra
-&#x200B;* **Incorporación del cliente**: serie de bienvenida de varios pasos con contenido personalizado basado en datos de perfil
-&#x200B;* **Actualización del nivel de fidelización**: Se activa cuando el cliente alcanza un nuevo nivel y envía felicitaciones y beneficios.
-&#x200B;* **Campañas de cumpleaños**: la entrada se basa en la fecha de nacimiento y en ofertas personalizadas.
-&#x200B;* **Nuevo compromiso**: activado por calificación de audiencia (inactividad), alcance progresivo
+* **Recuperación de abandono del carro de compras**: desencadenada por el evento de adición al carro de compras, esperar al cierre de compra o enviar recordatorios en caso de que no se realice la compra
+* **Incorporación del cliente**: serie de bienvenida de varios pasos con contenido personalizado basado en datos de perfil
+* **Actualización del nivel de fidelización**: Se activa cuando el cliente alcanza un nuevo nivel y envía felicitaciones y beneficios.
+* **Campañas de cumpleaños**: la entrada se basa en la fecha de nacimiento y en ofertas personalizadas.
+* **Nuevo compromiso**: activado por calificación de audiencia (inactividad), alcance progresivo
 
 ### Casos de uso de Campaign (activados por la acción y la API)
 
 **Campañas de acción:**
-&#x200B;* **Boletines mensuales**: Envío por lotes programado al segmento del suscriptor
-&#x200B;* **Anuncios promocionales**: ofertas con distinción de tiempo para audiencias de destino
-&#x200B;* **Lanzamientos de productos**: anuncio coordinado para todos los clientes
-&#x200B;* **Saludos de temporada**: Mensajes de vacaciones en fechas específicas
+* **Boletines mensuales**: Envío por lotes programado al segmento del suscriptor
+* **Anuncios promocionales**: ofertas con distinción de tiempo para audiencias de destino
+* **Lanzamientos de productos**: anuncio coordinado para todos los clientes
+* **Saludos de temporada**: Mensajes de vacaciones en fechas específicas
 
 **Campañas activadas por API:**
-&#x200B;* **Confirmaciones de pedidos**: Activado por el sistema de comercio electrónico después de la compra
-&#x200B;* **Notificaciones de envío**: activado por el sistema logístico
-&#x200B;* **Alertas de cuenta**: activadas por el sistema de detección de fraude
-&#x200B;* **Restablecimiento de contraseña**: activado por la acción del usuario en la aplicación
+* **Confirmaciones de pedidos**: Activado por el sistema de comercio electrónico después de la compra
+* **Notificaciones de envío**: activado por el sistema logístico
+* **Alertas de cuenta**: activadas por el sistema de detección de fraude
+* **Restablecimiento de contraseña**: activado por la acción del usuario en la aplicación
 
 ### Casos de uso de Campaign organizados
 
-&#x200B;* **Promoción de temporada con integración de catálogo**: consulta el catálogo de productos, identifica a los clientes elegibles, segmenta por preferencias y envía recomendaciones personalizadas de productos
-&#x200B;* **Campañas específicas de tiendas**: Dirija a los clientes cerca de ubicaciones de tiendas específicas con datos de inventario de tiendas
-&#x200B;* **Comunicaciones con múltiples reservas**: envía un mensaje por reserva (reservas de hotel, reservas de vuelo)
-&#x200B;* **Organización compleja de segmentos**: cree audiencias paso a paso con el enriquecimiento de varias fuentes de datos
-&#x200B;* **Validación previa al envío**: obtenga los recuentos exactos de destinatarios antes de lanzar las campañas principales
+* **Promoción de temporada con integración de catálogo**: consulta el catálogo de productos, identifica a los clientes elegibles, segmenta por preferencias y envía recomendaciones personalizadas de productos
+* **Campañas específicas de tiendas**: Dirija a los clientes cerca de ubicaciones de tiendas específicas con datos de inventario de tiendas
+* **Comunicaciones con múltiples reservas**: envía un mensaje por reserva (reservas de hotel, reservas de vuelo)
+* **Organización compleja de segmentos**: cree audiencias paso a paso con el enriquecimiento de varias fuentes de datos
+* **Validación previa al envío**: obtenga los recuentos exactos de destinatarios antes de lanzar las campañas principales
 
 ## Disponibilidad de funciones {#feature-availability}
 
@@ -252,9 +252,9 @@ R: Sí, las audiencias creadas en Adobe Experience Platform se pueden usar en lo
 
 ¿Listo para empezar a construir? Explore la documentación detallada del enfoque elegido:
 
-&#x200B;* **[Introducción a Recorrido](../building-journeys/journey.md)**: obtenga información sobre los tipos de recorrido, el diseñador y el flujo de trabajo
-&#x200B;* **[Introducción a las campañas](../campaigns/get-started-with-campaigns.md)**: Explore campañas activadas por acciones y API
-&#x200B;* **[Introducción a campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)**: Descubra flujos de trabajo de lienzo por lotes
+* **[Introducción a Recorrido](../building-journeys/journey.md)**: obtenga información sobre los tipos de recorrido, el diseñador y el flujo de trabajo
+* **[Introducción a las campañas](../campaigns/get-started-with-campaigns.md)**: Explore campañas activadas por acciones y API
+* **[Introducción a campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)**: Descubra flujos de trabajo de lienzo por lotes
 
 **¿Necesita más ayuda para decidir?**
 - [Comparación de tipos de recorrido](../building-journeys/journey.md#journey-types-comparison)

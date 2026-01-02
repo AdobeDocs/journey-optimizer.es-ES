@@ -10,7 +10,7 @@ keywords: tipos de recorrido, unitario, leer audiencia, calificación de audienc
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
+source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 3%
@@ -177,5 +177,6 @@ Ahora que comprende los tipos de recorrido, está listo para lo siguiente:
 * **[Ver preguntas frecuentes sobre el recorrido](journey-faq.md)** - Preguntas frecuentes respondidas
 
 **¿Necesita comparar con campañas?**
-&#x200B;- [Guía de comparación de Recorridos vs. Campañas](../start/journeys-vs-campaigns.md): elija entre recorridos, campañas de acción/API y campañas organizadas
+
+* [Guía de comparación de Recorridos vs. Campañas](../start/journeys-vs-campaigns.md): elija entre recorridos, campañas de acción/API y campañas organizadas
 
