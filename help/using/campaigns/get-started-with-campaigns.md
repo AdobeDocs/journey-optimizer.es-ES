@@ -113,7 +113,7 @@ Use [!DNL Journey Optimizer] para:
 
 >[!TAB Campañas de acción (programadas)]
 
-![icono](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **Cuándo usar:** Comunicaciones por lotes simples y programadas
+![icono](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es) **Cuándo usar:** Comunicaciones por lotes simples y programadas
 
 **Las campañas de acción** (también conocidas como Campañas programadas) son ideales para comunicaciones por lotes directas, únicas o recurrentes que se ejecutan a una hora específica.
 
@@ -134,7 +134,7 @@ Use [!DNL Journey Optimizer] para:
 
 >[!TAB Campañas activadas mediante API]
 
-![icono](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) **Cuándo usar:** Mensajería en tiempo real impulsada por eventos con sistemas externos
+![icono](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es) **Cuándo usar:** Mensajería en tiempo real impulsada por eventos con sistemas externos
 
 **Las campañas activadas por API** se activan mediante llamadas a la API, lo que permite la mensajería automatizada directamente desde sistemas externos. Estas campañas admiten la personalización mediante atributos de perfil y datos de contexto en tiempo real desde la carga útil de la API.
 
@@ -155,7 +155,7 @@ Use [!DNL Journey Optimizer] para:
 
 >[!TAB Campañas orquestadas]
 
-![icono](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) **Cuándo usar:** Flujos de trabajo de marketing complejos y de varios pasos
+![icono](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es) **Cuándo usar:** Flujos de trabajo de marketing complejos y de varios pasos
 
 **Las campañas orquestadas** proporcionan un lienzo visual de arrastrar y soltar para diseñar y automatizar flujos de trabajo de marketing sofisticados. Desde la segmentación de audiencia hasta la entrega de mensajes personalizados en todos los canales, todo sucede en un entorno intuitivo creado para la velocidad y el control.
 
@@ -313,7 +313,7 @@ A medida que se sienta más cómodo con las campañas, explore estas potentes fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
 
 **Programación y sincronización**
 
@@ -323,7 +323,7 @@ Programe campañas para fechas/horas específicas, establezca envíos recurrente
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 **Control de tarifa**
 
@@ -333,7 +333,7 @@ Limite el rendimiento de los mensajes para evitar sobrecargas en sistemas descen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 **Segmentación de audiencia**
 
@@ -343,7 +343,7 @@ Dirija audiencias de Adobe Experience Platform específicas con precisión y adm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 **Flujos de trabajo de aprobación**
 
@@ -353,7 +353,7 @@ Implemente procesos de revisión y aprobación antes de que las campañas se pub
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
 
 **Horas tranquilas**
 
@@ -363,7 +363,7 @@ Respete las preferencias del cliente evitando la entrega de mensajes durante los
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 **Optimización del tiempo de envío**
 
