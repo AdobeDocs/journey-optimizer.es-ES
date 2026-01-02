@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdominio, google, txt, registro, gmail, envío
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: e89bec74f597185065b274d22740324a09e9319e
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 30%
+source-wordcount: '280'
+ht-degree: 22%
 
 ---
 
@@ -40,3 +40,17 @@ Para agregar un registro TXT de Google al subdominio, siga estos pasos:
    ![](assets/subdomain-google-txt.png)
 
 1. Una vez agregado el registro TXT, Google debe verificarlo. Para ello, vaya a [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools--> y luego inicie el paso de verificación.
+
+## Actualizar un registro TXT de Google {#update-google-txt-record}
+
+Para actualizar un registro TXT de Google existente, siga estos pasos:
+
+1. Abra el subdominio desde el menú **[!UICONTROL Subdominios]**.
+
+1. Borre el valor existente en el campo **[!UICONTROL registro txt de Google]** y haga clic en **[!UICONTROL Guardar]**. Este paso reemplaza el valor de registro TXT de Google anterior por una cadena vacía.
+
+1. A continuación, vuelva a abrir el mismo subdominio e introduzca el nuevo código de verificación.
+
+1. Vuelva a hacer clic en **[!UICONTROL Guardar]**.
+
+1. Compruebe el registro actualizado mediante [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}.
