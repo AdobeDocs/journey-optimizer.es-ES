@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: edf8ad3cf95cc2a8dcaf3e1abd0203785eda8fb5
+source-git-commit: f42da9aa4a4aba053d967ec81b98cabe4ac2745a
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1549'
 ht-degree: 31%
 
 ---
@@ -276,27 +276,27 @@ A medida que se sienta más cómodo con las campañas, explore estas potentes fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Programación y sincronización**
 
-Programe campañas para fechas/horas específicas, establezca envíos recurrentes y optimice los tiempos de envío para lograr el máximo impacto.
+Programe campañas para fechas/horas específicas, establezca envíos recurrentes y optimice los tiempos de envío para lograr el máximo impacto. (Campañas activadas por acciones y API)
 
 [Más información sobre la programación](campaign-schedule.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de tarifa**
 
-Limite el rendimiento de los mensajes para evitar sobrecargas en sistemas descendentes como páginas de aterrizaje o plataformas de atención al cliente.
+Limite el rendimiento de los mensajes para evitar sobrecargas en sistemas descendentes como páginas de aterrizaje o plataformas de atención al cliente. (Campañas activadas por acciones y API)
 
 [Límites de tasa de control](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmentación de audiencia**
 
@@ -306,33 +306,33 @@ Dirija audiencias de Adobe Experience Platform específicas con precisión y adm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flujos de trabajo de aprobación**
 
-Implemente procesos de revisión y aprobación antes de que las campañas se publiquen, lo que garantiza la calidad y el cumplimiento.
+Implemente procesos de revisión y aprobación antes de que las campañas se publiquen, lo que garantiza la calidad y el cumplimiento. (Campañas activadas por acciones y API)
 
 [Revisar y activar](review-activate-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Horas tranquilas**
 
-Respete las preferencias del cliente evitando la entrega de mensajes durante los períodos de tiempo especificados.
+Respete las preferencias del cliente evitando la entrega de mensajes durante los períodos de tiempo especificados. (Campañas activadas por acciones y API)
 
 [Configurar horas de silencio](quiet-hours.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-**Optimización del tiempo de envío**
+**Optimización**
 
-Utilice la IA para determinar el mejor momento para enviar mensajes y lograr la máxima participación con cada individuo.
+Utilice reglas de segmentación y experimentos de contenido para ofrecer contenido personalizado y maximizar la participación.
 
-[Optimizar el tiempo de envío](campaigns-message-optimization.md)
+[Optimizar campañas](campaigns-message-optimization.md)
 :::
 
 ::::
