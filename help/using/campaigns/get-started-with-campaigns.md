@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: e2cf581c2638a71d76b1a8d198ceb48c53c97188
+source-git-commit: cebb21aba29a15236b6810309efc488b578a1ca6
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1539'
 ht-degree: 32%
 
 ---
@@ -186,9 +186,9 @@ La creación de campañas exitosas sigue un proceso claro y repetible. Este es s
 Antes de empezar, aclare sus objetivos:
 
 * **¿Cuál es el objetivo?** (por ejemplo, dirigir conversiones, aumentar la participación, notificar a los clientes)
-* **¿Quién es la audiencia?** (segmento específico de Adobe Experience Platform)
+* **¿Quién es la audiencia?** (por ejemplo, crear o seleccionar de Adobe Experience Platform)
 * **¿Qué tipo de campaña encaja?** (ver [tipos de campaña](#campaign-types) más arriba)
-* **¿Qué canales usará?** (correo electrónico, push, SMS, en la aplicación, web, etc.)
+* **¿Qué canales usará?** (correo electrónico, push, SMS, en la aplicación, web, etc.) → [Ver canales admitidos por tipo de campaña](../channels/gs-channels.md#channels)
 * **¿Cuándo se debe ejecutar?** (inmediato, programado o activado por API)
 
 ### &#x200B;2. **Configurar propiedades de la campaña** {#configure}
@@ -197,7 +197,7 @@ Configure las bases de la campaña:
 
 1. **Nombre y describa** su campaña para facilitar su identificación
 2. **Seleccionar tipo de campaña** (activada por acción, activada por API u orquestada)
-3. **Elija su audiencia** de Adobe Experience Platform
+3. **Elija su audiencia**
 4. **Establecer prioridad** si se usa la administración de conflictos
 5. **Configurar programación** (para campañas de acción) o detalles de API (para activadas por API)
 
@@ -309,7 +309,7 @@ A medida que se sienta más cómodo con las campañas, explore estas potentes fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Programación y sincronización**
 
@@ -319,7 +319,7 @@ Programe campañas para fechas/horas específicas, establezca envíos recurrente
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de tarifa**
 
@@ -329,7 +329,7 @@ Limite el rendimiento de los mensajes para evitar sobrecargas en sistemas descen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmentación de audiencia**
 
@@ -339,7 +339,7 @@ Dirija audiencias de Adobe Experience Platform específicas con precisión y adm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flujos de trabajo de aprobación**
 
@@ -349,7 +349,7 @@ Implemente procesos de revisión y aprobación antes de que las campañas se pub
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Horas tranquilas**
 
@@ -359,7 +359,7 @@ Respete las preferencias del cliente evitando la entrega de mensajes durante los
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimización del tiempo de envío**
 
