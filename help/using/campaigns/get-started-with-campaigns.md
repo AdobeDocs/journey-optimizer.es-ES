@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 2090f99e6aa1b255e36d01687cef49295b88f1ce
+source-git-commit: edf8ad3cf95cc2a8dcaf3e1abd0203785eda8fb5
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 31%
@@ -183,10 +183,7 @@ Configure las bases de la campaña:
 4. **Establecer prioridad** si se usa la administración de conflictos
 5. **Configurar programación** (para campañas de acción) o detalles de API (para activadas por API)
 
-**Guías específicas del tipo:**
-* [Propiedades de la campaña de acción →](campaign-properties.md)
-* [→ de propiedades de campaña activadas por API](api-triggered-campaign-properties.md)
-* [→ de configuración de campaña organizada](../orchestrated/create-orchestrated-campaign.md)
+**Guías específicas del tipo:** [Propiedades de la campaña de acción](campaign-properties.md) | [Propiedades de campaña activadas por API](api-triggered-campaign-properties.md) | [Configuración de campaña orquestada](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;3. Diseñar el contenido {#design}
 
@@ -198,10 +195,7 @@ Cree mensajes atractivos para su audiencia:
 * Crear experiencias **en la aplicación** y **web**
 * Agregar **personalización** mediante atributos de perfil y datos contextuales
 
-**Guías específicas del tipo:**
-* [→ de contenido de campaña de acción](campaign-content.md)
-* [→ de contenido de campaña activadas por API](api-triggered-campaign-content.md)
-* [→ de contenido de campaña orquestada](../orchestrated/create-orchestrated-campaign.md)
+**Guías específicas del tipo:** [Contenido de la campaña de acción](campaign-content.md) | [Contenido de campaña activado por API](api-triggered-campaign-content.md) | [Contenido de campaña orquestado](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;4. Revisión y prueba {#review}
 
@@ -213,10 +207,7 @@ Revise siempre la campaña antes de la activación:
 * **Solicitar aprobación** si se usa el flujo de trabajo de aprobación
 * **Capacidad de entrega de pruebas** con listas semilla
 
-**Guías específicas del tipo:**
-* [Revisar campañas de acción →](review-activate-campaign.md)
-* [Revisar → de campañas activadas por API](review-activate-api-triggered-campaign.md)
-* [Revisar campañas orquestadas →](../orchestrated/create-orchestrated-campaign.md)
+**Guías específicas del tipo:** [Revisar campañas de acción](review-activate-campaign.md) | [Revisar campañas activadas por API](review-activate-api-triggered-campaign.md) | [Revisar campañas orquestadas](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;5. Active la campaña {#activate}
 
@@ -227,10 +218,7 @@ Una vez completada la revisión, active la campaña:
 * **Proceso de aprobación**: si es necesario, espere a que se apruebe la parte interesada
 * Nota: Las campañas activas no se pueden editar (debe duplicar para realizar cambios)
 
-**Guías específicas del tipo:**
-* [Activar campañas de acción →](review-activate-campaign.md)
-* [Activación de campañas activadas por API →](review-activate-api-triggered-campaign.md)
-* [Activar campañas orquestadas →](../orchestrated/create-orchestrated-campaign.md)
+**Guías específicas del tipo:** [Activar campañas de acción](review-activate-campaign.md) | [Activar campañas activadas por API](review-activate-api-triggered-campaign.md) | [Activar campañas orquestadas](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;6. Monitorización y análisis {#monitor}
 
@@ -242,10 +230,7 @@ Realice un seguimiento del rendimiento de la campaña:
 * Analizar la conversión y el ROI
 * Uso de perspectivas para la optimización
 
-**Guías específicas del tipo:**
-* [Informes de campaña de acción →](../reports/campaign-global-report-cja.md)
-* [→ de monitorización de campañas activadas por API](api-triggered-campaigns.md#monitor)
-* [→ de análisis de campaña orquestada](../orchestrated/create-orchestrated-campaign.md)
+**Guías específicas del tipo:** [Informes de campañas de acción](../reports/campaign-global-report-cja.md) | [Supervisión de campaña activada por API](api-triggered-campaigns.md#monitor) | [Análisis de campañas orquestadas](../orchestrated/create-orchestrated-campaign.md)
 
 ➡️ **¿Listo para comenzar?** Elija su tipo de campaña:
 * [Creación de → de campaña de acción](create-campaign.md)
@@ -291,7 +276,7 @@ A medida que se sienta más cómodo con las campañas, explore estas potentes fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Programación y sincronización**
 
@@ -301,7 +286,7 @@ Programe campañas para fechas/horas específicas, establezca envíos recurrente
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de tarifa**
 
@@ -311,7 +296,7 @@ Limite el rendimiento de los mensajes para evitar sobrecargas en sistemas descen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmentación de audiencia**
 
@@ -321,7 +306,7 @@ Dirija audiencias de Adobe Experience Platform específicas con precisión y adm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flujos de trabajo de aprobación**
 
@@ -331,7 +316,7 @@ Implemente procesos de revisión y aprobación antes de que las campañas se pub
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Horas tranquilas**
 
@@ -341,7 +326,7 @@ Respete las preferencias del cliente evitando la entrega de mensajes durante los
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimización del tiempo de envío**
 
