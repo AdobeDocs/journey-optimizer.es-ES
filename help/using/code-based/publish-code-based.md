@@ -75,7 +75,7 @@ Tu campaña basada en código tiene el **[!UICONTROL estado]** [activo](../campa
 >
 >Después de hacer clic en **[!UICONTROL Activar]**, los cambios pueden tardar hasta 15 minutos en estar disponibles.
 >
->Si ha definido una programación para su campaña basada en código, tiene el **[!UICONTROL estado]** [ programado](../campaigns/manage-campaigns.md#statuses)hasta que se alcance la fecha y la hora de inicio.
+>Si ha definido una programación para su campaña basada en código, tiene el **[!UICONTROL estado]** [&#x200B; programado](../campaigns/manage-campaigns.md#statuses)hasta que se alcance la fecha y la hora de inicio.
 
 ## Detener un recorrido o una campaña basados en código {#stop-code-based-experience}
 
