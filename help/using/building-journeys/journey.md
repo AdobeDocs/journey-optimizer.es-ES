@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: recorrido, descubrimiento, introducción
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 87351e845c7a6267cc78c26c838e69e77325f2b8
+source-git-commit: a4b6b048d60847531e0e61de702b48ebe82884d3
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1424'
 ht-degree: 3%
 
 ---
@@ -49,12 +49,7 @@ Use [!DNL Journey Optimizer] para:
 
 **Los recorridos unitarios** se activan individualmente cuando se produce una acción específica (compra, inicio de sesión en la aplicación, envío de formularios). Los perfiles se introducen de uno en uno en tiempo real, lo que los hace ideales para obtener respuestas inmediatas basadas en el comportamiento.
 
-**Perfecto para:**
-
-* Confirmaciones de pedidos tras la compra
-* Correos electrónicos de bienvenida cuando alguien se suscribe
-* Abandono del carro de compras activado por navegación
-* Notificaciones de restablecimiento de contraseña
+**Perfecto para:** confirmaciones de pedidos después de la compra, correos electrónicos de bienvenida cuando alguien se suscribe, abandono del carro de compras activado por la navegación y notificaciones de restablecimiento de contraseña.
 
 ➡️ [Más información sobre los eventos](../event/about-events.md) | [Mensaje para el caso de uso de los suscriptores](message-to-subscribers-uc.md)
 
@@ -64,12 +59,7 @@ Use [!DNL Journey Optimizer] para:
 
 **Leer recorridos de audiencia** comienza con una audiencia de Adobe Experience Platform y envía mensajes en lote a todos los perfiles simultáneamente. Este tipo de recorrido es ideal para comunicaciones programadas a gran escala.
 
-**Perfecto para:**
-
-* Boletines mensuales
-* Campañas promocionales para segmentos de destinatario
-* Anuncios del producto
-* Campañas de marketing de temporada
+**Perfecto para:** boletines mensuales, campañas promocionales para segmentos de público objetivo, anuncios de productos y campañas de marketing de temporada.
 
 ➡️ [Más información sobre la audiencia de lectura](read-audience.md) | [Introducción a las audiencias](../audience/about-audiences.md)
 
@@ -79,12 +69,7 @@ Use [!DNL Journey Optimizer] para:
 
 Los **recorridos de calificación de audiencias** dan déclencheur cuando los perfiles cumplen los requisitos para una audiencia específica (o salen de ella). Los perfiles se introducen de forma individual según cumplen los criterios en tiempo real, lo que permite una participación inmediata cuando cambia el comportamiento de los clientes.
 
-**Perfecto para:**
-
-* Notificaciones de actualización de nivel VIP
-* Nueva participación cuando los clientes se vuelvan inactivos
-* Mensajes de celebración de la primera compra
-* Segmentación geográfica cuando los clientes se mueven
+**Perfecto para:** notificaciones de actualización de nivel de VIP, renovación de la participación cuando los clientes se vuelven inactivos, mensajes de celebración de la primera compra y segmentación geográfica cuando los clientes se mudan.
 
 ➡️ [Más información acerca de la calificación de audiencias](audience-qualification-events.md) | [Creación de audiencias](../audience/creating-a-segment-definition.md)
 
@@ -94,13 +79,7 @@ Los **recorridos de calificación de audiencias** dan déclencheur cuando los pe
 
 Los **recorridos de eventos empresariales** se desencadenan por eventos de nivel empresarial (actualizaciones de existencias, avisos meteorológicos, cambios de precios) que afectan a varios perfiles simultáneamente. Estos responden a condiciones empresariales más amplias que a acciones individuales.
 
-**Perfecto para:**
-
-* Alertas de inventario bajas para clientes interesados
-* Anuncios de venta Flash
-* Promociones basadas en el tiempo
-* Notificaciones de bajada de precios
-* Alertas de productos que vuelven a estar en stock
+**Perfecto para:** Alertas de inventario bajas para clientes interesados, anuncios de venta flash, promociones basadas en el tiempo, notificaciones de caída de precios y alertas de productos que vuelven a estar en existencias.
 
 ➡️ [Más información acerca de los eventos empresariales](../event/about-creating-business.md) | [Administración de entradas](entry-management.md)
 
@@ -121,7 +100,7 @@ El **[diseñador de recorridos](using-the-journey-designer.md)** es el lienzo vi
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Definir puntos de entrada**
 
@@ -131,7 +110,7 @@ Elija cómo introducen los clientes: a través de un evento, segmento de audienc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Envío de mensajes**
 
@@ -141,7 +120,7 @@ Utilice acciones de canal integradas para correo electrónico, push, SMS/MMS, en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Agregar lógica y condiciones**
 
@@ -151,7 +130,7 @@ Ramifique su recorrido en función de atributos de perfil, pertenencia a audienc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Aprovechar datos**
 
@@ -161,7 +140,7 @@ Utilice datos contextuales de eventos, Adobe Experience Platform o servicios API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Conectar sistemas externos**
 
@@ -171,7 +150,7 @@ Cree acciones personalizadas para integrar sistemas de terceros para enviar mens
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Agregar actividades de orquestación**
 
@@ -190,7 +169,7 @@ La creación de recorridos exitosos sigue un proceso claro y repetible. Este es 
 
 **1. Plan** → **2. Diseño** → **3. Prueba** → **4. Publicar** → **5. Monitor** → **6. Optimizar**
 
-### &#x200B;1. **Planifique su recorrido** {#plan}
+### &#x200B;1. Planifique su recorrido {#plan}
 
 Antes de abrir el diseñador, aclare sus objetivos:
 
@@ -199,7 +178,7 @@ Antes de abrir el diseñador, aclare sus objetivos:
 * **¿Qué tipo de recorrido encaja?** (ver [tipos de recorrido](#journey-types) más arriba)
 * **¿Qué canales usará?** (correo electrónico, push, SMS, etc.)
 
-### &#x200B;2. **Diseño en el lienzo** {#design}
+### &#x200B;2. Diseño en el lienzo {#design}
 
 Utilice el diseñador de recorridos para crear el flujo:
 
@@ -211,7 +190,7 @@ Utilice el diseñador de recorridos para crear el flujo:
 
 [Aprenda a utilizar la → de diseñador de recorrido](using-the-journey-designer.md)
 
-### &#x200B;3. **Realizar prueba antes de empezar** {#test}
+### &#x200B;3. Pruebe antes de empezar {#test}
 
 Pruebe siempre el recorrido para detectar problemas antes de que los clientes los experimenten:
 
@@ -222,7 +201,7 @@ Pruebe siempre el recorrido para detectar problemas antes de que los clientes lo
 
 [Prueba tu recorrido →](testing-the-journey.md) | [Más información sobre la ejecución en seco →](journey-dry-run.md)
 
-### &#x200B;4. **Publicar su recorrido** {#publish}
+### &#x200B;4. Publique el recorrido {#publish}
 
 Una vez finalizada la prueba, publique para que el recorrido esté activo:
 
@@ -232,7 +211,7 @@ Una vez finalizada la prueba, publique para que el recorrido esté activo:
 
 [Publicación del → de recorrido](publish-journey.md)
 
-### &#x200B;5. **Supervisar el rendimiento** {#monitor}
+### &#x200B;5. Monitorización del rendimiento {#monitor}
 
 Realice un seguimiento del rendimiento de su recorrido en el mundo real:
 
@@ -242,7 +221,7 @@ Realice un seguimiento del rendimiento de su recorrido en el mundo real:
 
 [Supervisar e informar →](report-journey.md) | [Configurar alertas →](../reports/alerts.md)
 
-### &#x200B;6. **Optimizar e iterar** {#optimize}
+### &#x200B;6. Optimizar e iterar {#optimize}
 
 Use perspectivas para mejorar:
 
@@ -262,7 +241,7 @@ Aprenda con ejemplos prácticos que muestran cómo aplicar conceptos de recorrid
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Bienvenido/a a nuevos suscriptores**
 
@@ -272,7 +251,7 @@ Cuando un cliente se suscriba a su servicio, déclencheur un recorrido de bienve
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Optimización del tiempo de envío**
 
@@ -282,7 +261,7 @@ Utilice la IA para enviar correos electrónicos cuando sea más probable que cad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Aumento de envíos**
 
@@ -292,7 +271,7 @@ Aumente gradualmente el volumen del mensaje para aumentar la reputación de su e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmentar por día laborable**
 
@@ -302,7 +281,7 @@ Envíe contenido diferente en función del día de la semana en el que los clien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campañas multicanal**
 
@@ -312,7 +291,7 @@ Orqueste experiencias sin problemas en canales de correo electrónico, push, SMS
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Todos los casos de uso**
 
@@ -330,7 +309,7 @@ A medida que se sienta más cómodo con la creación de recorridos, explore esta
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Expresiones avanzadas**
 
@@ -340,7 +319,7 @@ Cree condiciones dinámicas y personalización mediante el editor de expresiones
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Administración de husos horarios**
 
@@ -350,7 +329,7 @@ Gestionar audiencias globales con ajustes automáticos de zona horaria y tiempos
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Modo de prueba y ejecución en seco**
 
@@ -360,7 +339,7 @@ Valide los recorridos con perfiles de prueba antes de activarlos y previsualice 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Copiar a zona protegida**
 
@@ -370,7 +349,7 @@ Duplique los recorridos en los entornos limitados para optimizar los flujos de t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Etiquetas y organización**
 
@@ -380,7 +359,7 @@ Utilice etiquetas para categorizar y filtrar recorridos para una mejor administr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de rendimiento**
 
@@ -397,7 +376,7 @@ Limite el rendimiento del mensaje para administrar la reputación de envío y ev
 
 Obtenga una introducción visual a los componentes de recorrido y aprenda los conceptos básicos de la creación de recorridos en el lienzo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3430353?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **Quiere más vídeos?** [Explorar tutoriales de vídeo de recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
