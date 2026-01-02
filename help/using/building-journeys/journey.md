@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a los recorridos
-description: Introducción a los recorridos
+description: 'Introducción a recorrido: Obtenga información acerca de los tipos de recorrido, el flujo de trabajo, las funcionalidades y las prácticas recomendadas para crear experiencias personalizadas con los clientes en Adobe Journey Optimizer'
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
-keywords: recorrido, descubrimiento, introducción
+keywords: recorrido, detección, inicio, unitario, leer audiencia, calificación de audiencia, evento empresarial, tiempo real, programado, por lotes, activado por evento, flujo de trabajo, orquestación, personalización, multicanal
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: a4b6b048d60847531e0e61de702b48ebe82884d3
+source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1465'
 ht-degree: 3%
 
 ---
@@ -37,57 +37,29 @@ Use [!DNL Journey Optimizer] para:
 
 ➡️ **¿Listo para empezar a crear?** [Crea tu primer recorrido](journey-gs.md) en 5 minutos.
 
+### Recorridos vs. Campañas: Cuándo usar cada uno {#journeys-vs-campaigns-intro}
+
+Adobe Journey Optimizer ofrece tres métodos para llegar a los clientes: **Recorrido** (1:1 orquestación en tiempo real), **Campañas** (entrega simple por lotes o desencadenada por API) y **Campañas orquestadas** (flujos de trabajo por lotes de lienzo con datos de varias entidades).
+
+**Decisión rápida:**
+
+* Use **Recorridos** para experiencias de varios pasos impulsadas por el comportamiento en las que cada cliente progresa a su propio ritmo
+* Use **Campañas de acción/API** para enviar mensajes simples, programados o activados a las audiencias
+* Use **Campañas orquestadas** para flujos de trabajo por lotes complejos que requieren segmentación de varias entidades y recuentos exactos de preenvío
+
+<!-- waiting for DOCAC-13912
+➡️ **[View detailed comparison: Journeys vs Campaigns](../start/journeys-vs-campaigns.md)** - Includes decision guide, use cases, and feature availability-->
+
 ## Elija su tipo de recorrido {#journey-types}
 
-**Antes de empezar a crear**, es importante que entienda qué tipo de recorrido se ajusta a su caso de uso. Adobe Journey Optimizer admite cuatro tipos de recorridos, cada uno diseñado para diferentes mecanismos de entrada y escenarios empresariales:
+Adobe Journey Optimizer admite cuatro tipos de recorridos, cada uno diseñado para diferentes mecanismos de entrada y escenarios empresariales:
 
->[!BEGINTABS]
+* **recorridos unitarios**: experiencias activadas por eventos en tiempo real (confirmaciones de pedidos, correos electrónicos de bienvenida)
+* **Leer recorridos de audiencias**: Comunicaciones por lotes programadas para segmentos de audiencia (boletines informativos, campañas promocionales)
+* **recorridos de calificación de audiencias**: respuestas en tiempo real a cambios de pertenencia a audiencias (actualizaciones de VIP, renovación de participación)
+* **recorridos de eventos empresariales**: condiciones empresariales que afectan a varios clientes (alertas de inventario, ventas flash)
 
->[!TAB recorridos unitarios]
-
-**Cuándo usar:** experiencias activadas por eventos en tiempo real
-
-**Los recorridos unitarios** se activan individualmente cuando se produce una acción específica (compra, inicio de sesión en la aplicación, envío de formularios). Los perfiles se introducen de uno en uno en tiempo real, lo que los hace ideales para obtener respuestas inmediatas basadas en el comportamiento.
-
-**Perfecto para:** confirmaciones de pedidos después de la compra, correos electrónicos de bienvenida cuando alguien se suscribe, abandono del carro de compras activado por la navegación y notificaciones de restablecimiento de contraseña.
-
-➡️ [Más información sobre los eventos](../event/about-events.md) | [Mensaje para el caso de uso de los suscriptores](message-to-subscribers-uc.md)
-
->[!TAB Leer recorridos de audiencia]
-
-**Cuándo usar:** Campañas programadas para segmentos de audiencia
-
-**Leer recorridos de audiencia** comienza con una audiencia de Adobe Experience Platform y envía mensajes en lote a todos los perfiles simultáneamente. Este tipo de recorrido es ideal para comunicaciones programadas a gran escala.
-
-**Perfecto para:** boletines mensuales, campañas promocionales para segmentos de público objetivo, anuncios de productos y campañas de marketing de temporada.
-
-➡️ [Más información sobre la audiencia de lectura](read-audience.md) | [Introducción a las audiencias](../audience/about-audiences.md)
-
->[!TAB recorridos de calificación de audiencia]
-
-**Cuándo se debe usar:** Respuestas en tiempo real a los cambios de pertenencia a audiencias
-
-Los **recorridos de calificación de audiencias** dan déclencheur cuando los perfiles cumplen los requisitos para una audiencia específica (o salen de ella). Los perfiles se introducen de forma individual según cumplen los criterios en tiempo real, lo que permite una participación inmediata cuando cambia el comportamiento de los clientes.
-
-**Perfecto para:** notificaciones de actualización de nivel de VIP, renovación de la participación cuando los clientes se vuelven inactivos, mensajes de celebración de la primera compra y segmentación geográfica cuando los clientes se mudan.
-
-➡️ [Más información acerca de la calificación de audiencias](audience-qualification-events.md) | [Creación de audiencias](../audience/creating-a-segment-definition.md)
-
->[!TAB recorridos de eventos empresariales]
-
-**Cuándo usar:** Condiciones comerciales que afectan a varios clientes
-
-Los **recorridos de eventos empresariales** se desencadenan por eventos de nivel empresarial (actualizaciones de existencias, avisos meteorológicos, cambios de precios) que afectan a varios perfiles simultáneamente. Estos responden a condiciones empresariales más amplias que a acciones individuales.
-
-**Perfecto para:** Alertas de inventario bajas para clientes interesados, anuncios de venta flash, promociones basadas en el tiempo, notificaciones de caída de precios y alertas de productos que vuelven a estar en existencias.
-
-➡️ [Más información acerca de los eventos empresariales](../event/about-creating-business.md) | [Administración de entradas](entry-management.md)
-
->[!ENDTABS]
-
->[!NOTE]
->
->¿No está seguro de qué tipo elegir? Comience con **recorridos unitarios** para experiencias basadas en eventos o **recorridos de audiencia de lectura** para campañas programadas, que cubren los casos de uso más comunes.
+➡️ **[tipos de Recorrido y guía de selección](journey-types-selection.md)**: comparación detallada, árbol de decisiones y matriz de compatibilidad de características
 
 ## Compilar con el diseñador de recorrido {#journey-designer}
 
@@ -100,7 +72,7 @@ El **[diseñador de recorridos](using-the-journey-designer.md)** es el lienzo vi
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Definir puntos de entrada**
 
@@ -110,7 +82,7 @@ Elija cómo introducen los clientes: a través de un evento, segmento de audienc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Envío de mensajes**
 
@@ -120,7 +92,7 @@ Utilice acciones de canal integradas para correo electrónico, push, SMS/MMS, en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Agregar lógica y condiciones**
 
@@ -130,7 +102,7 @@ Ramifique su recorrido en función de atributos de perfil, pertenencia a audienc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Aprovechar datos**
 
@@ -140,7 +112,7 @@ Utilice datos contextuales de eventos, Adobe Experience Platform o servicios API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Conectar sistemas externos**
 
@@ -150,7 +122,7 @@ Cree acciones personalizadas para integrar sistemas de terceros para enviar mens
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Agregar actividades de orquestación**
 
@@ -241,7 +213,7 @@ Aprenda con ejemplos prácticos que muestran cómo aplicar conceptos de recorrid
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Bienvenido/a a nuevos suscriptores**
 
@@ -251,7 +223,7 @@ Cuando un cliente se suscriba a su servicio, déclencheur un recorrido de bienve
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Optimización del tiempo de envío**
 
@@ -261,7 +233,7 @@ Utilice la IA para enviar correos electrónicos cuando sea más probable que cad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Aumento de envíos**
 
@@ -271,7 +243,7 @@ Aumente gradualmente el volumen del mensaje para aumentar la reputación de su e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmentar por día laborable**
 
@@ -281,7 +253,7 @@ Envíe contenido diferente en función del día de la semana en el que los clien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campañas multicanal**
 
@@ -291,7 +263,7 @@ Orqueste experiencias sin problemas en canales de correo electrónico, push, SMS
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Todos los casos de uso**
 
@@ -309,7 +281,7 @@ A medida que se sienta más cómodo con la creación de recorridos, explore esta
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Expresiones avanzadas**
 
@@ -319,7 +291,7 @@ Cree condiciones dinámicas y personalización mediante el editor de expresiones
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Administración de husos horarios**
 
@@ -329,7 +301,7 @@ Gestionar audiencias globales con ajustes automáticos de zona horaria y tiempos
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Modo de prueba y ejecución en seco**
 
@@ -339,7 +311,7 @@ Valide los recorridos con perfiles de prueba antes de activarlos y previsualice 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Copiar a zona protegida**
 
@@ -349,7 +321,7 @@ Duplique los recorridos en los entornos limitados para optimizar los flujos de t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Etiquetas y organización**
 
@@ -359,7 +331,7 @@ Utilice etiquetas para categorizar y filtrar recorridos para una mejor administr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de rendimiento**
 
@@ -376,9 +348,37 @@ Limite el rendimiento del mensaje para administrar la reputación de envío y ev
 
 Obtenga una introducción visual a los componentes de recorrido y aprenda los conceptos básicos de la creación de recorridos en el lienzo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3430353?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **Quiere más vídeos?** [Explorar tutoriales de vídeo de recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+
+## Preguntas frecuentes {#common-questions}
+
+**Q: ¿Cuál es la diferencia entre un recorrido y una campaña?**
+
+R: Adobe Journey Optimizer ofrece tres métodos:
+
+* **Recorridos**: 1:1 orquestación en tiempo real donde cada perfil viaja a través de pasos a su propio ritmo. Ideal para experiencias de varios pasos y basadas en el comportamiento con lógica condicional (por ejemplo, incorporación, abandono del carro de compras).
+
+* **Campañas (activadas por acción y API)**: entrega de mensaje simple a las audiencias, que se ejecutan simultáneamente en todos los perfiles según lo programado o mediante el déclencheur de API. Ideal para campañas promocionales, boletines informativos y mensajes transaccionales.
+
+* **Campañas orquestadas**: Flujos de trabajo por lotes de varios pasos con segmentación compleja que utiliza datos relacionales (perfiles + productos/tiendas/reservas). Todos los perfiles procesados junto con los recuentos exactos de preenvío. Ideal para promociones de temporada, lanzamientos de productos y campañas que requieren datos de varias entidades.
+
+**Diferencia clave**: los Recorridos mantienen el estado de cliente individual para acciones en tiempo real; las campañas de acción/API entregan mensajes simples en lote; las campañas orquestadas proporcionan lienzo de flujo de trabajo en lote con capacidades de segmentación de varias entidades.
+
+<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[Más información sobre las campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)
+
+<!-- Waiting for DOCAC-13912
+**Q: Which journey type should I use?**
+
+A: Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+-->
+
+**Q: ¿Puedo editar un recorrido activo?**
+
+R: Puede editar elementos limitados (nombre, contenido de mensaje), pero los cambios estructurales requieren la creación de una nueva versión. [Más información sobre las versiones de recorrido](publish-journey.md#journey-versions)
+
+➡️ **Más preguntas?** [Ver las preguntas frecuentes sobre el Recorrido completo](journey-faq.md) con más de 40 respuestas detalladas
 
 ## ¿Necesita ayuda? {#help}
 
