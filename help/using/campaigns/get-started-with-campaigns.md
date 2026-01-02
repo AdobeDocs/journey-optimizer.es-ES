@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: cebb21aba29a15236b6810309efc488b578a1ca6
+source-git-commit: 2090f99e6aa1b255e36d01687cef49295b88f1ce
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 32%
+source-wordcount: '1542'
+ht-degree: 31%
 
 ---
 
@@ -122,13 +122,7 @@ Use [!DNL Journey Optimizer] para:
 * **Marketing**: ofertas promocionales, campañas de participación, anuncios, avisos legales o actualizaciones de directivas. Requiere que los destinatarios hayan dado su consentimiento.
 * **Transaccional**: interrupciones, emergencias y cancelaciones. No requiere la inclusión.
 
-**Perfecto para:**
-
-* Boletines mensuales a segmentos de clientes
-* Anuncios promocionales con distinción de tiempo
-* Campañas de marketing de temporada
-* Comunicaciones de lanzamiento del producto
-* Notificaciones de interrupción del servicio
+**Perfecto para:** boletines mensuales para segmentos de clientes, anuncios promocionales con plazos específicos, campañas de marketing de temporada, comunicaciones de lanzamiento de productos y notificaciones de interrupción del servicio.
 
 ➡️ [Más información sobre las campañas de acción](create-campaign.md)
 
@@ -143,13 +137,7 @@ Use [!DNL Journey Optimizer] para:
 * **Marketing**: comunicaciones de marketing personalizadas para audiencias de destino
 * **Transaccional**: mensajes después de acciones individuales (restablecimientos de contraseña, compras en el carro de compras, etc.)
 
-**Perfecto para:**
-
-* Confirmaciones de restablecimiento de contraseña
-* Recuperación de abandono del carro
-* Confirmaciones de pedidos y actualizaciones de envío
-* Notificaciones de actividad de cuenta
-* Recomendaciones personalizadas en tiempo real
+**Perfecto para:** confirmaciones de restablecimiento de contraseña, recuperación de abandono del carro de compras, confirmaciones de pedidos y actualizaciones de envío, notificaciones de actividad de la cuenta y recomendaciones personalizadas en tiempo real.
 
 ➡️ [Más información acerca de campañas activadas por API](api-triggered-campaigns.md)
 
@@ -159,13 +147,7 @@ Use [!DNL Journey Optimizer] para:
 
 **Las campañas orquestadas** proporcionan un lienzo visual de arrastrar y soltar para diseñar y automatizar flujos de trabajo de marketing sofisticados. Desde la segmentación de audiencia hasta la entrega de mensajes personalizados en todos los canales, todo sucede en un entorno intuitivo creado para la velocidad y el control.
 
-**Perfecto para:**
-
-* Programas de participación del cliente en varios pasos
-* Estrategias de segmentación y direccionamiento complejas
-* Orquestación de campañas en canales múltiples
-* Marketing a escala iniciado por la marca
-* Automatización avanzada del flujo de trabajo con varios puntos de decisión
+**Perfecto para:** programas de participación de clientes en varios pasos, estrategias complejas de segmentación y direccionamiento, orquestación de campañas en canales múltiples, marketing a escala iniciado por la marca y automatización avanzada del flujo de trabajo con varios puntos de decisión.
 
 ➡️ [Más información sobre las campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)
 
@@ -181,7 +163,7 @@ La creación de campañas exitosas sigue un proceso claro y repetible. Este es s
 
 **1. Plan** → **2. Configurar** → **3. Diseño** → **4. Revisar** → **5. Activar** → **6. Supervisar**
 
-### &#x200B;1. **Planifique su campaña** {#plan}
+### &#x200B;1. Planifique su campaña {#plan}
 
 Antes de empezar, aclare sus objetivos:
 
@@ -191,7 +173,7 @@ Antes de empezar, aclare sus objetivos:
 * **¿Qué canales usará?** (correo electrónico, push, SMS, en la aplicación, web, etc.) → [Ver canales admitidos por tipo de campaña](../channels/gs-channels.md#channels)
 * **¿Cuándo se debe ejecutar?** (inmediato, programado o activado por API)
 
-### &#x200B;2. **Configurar propiedades de la campaña** {#configure}
+### &#x200B;2. Configurar las propiedades de la campaña {#configure}
 
 Configure las bases de la campaña:
 
@@ -206,7 +188,7 @@ Configure las bases de la campaña:
 * [→ de propiedades de campaña activadas por API](api-triggered-campaign-properties.md)
 * [→ de configuración de campaña organizada](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;3. **Diseña tu contenido** {#design}
+### &#x200B;3. Diseñar el contenido {#design}
 
 Cree mensajes atractivos para su audiencia:
 
@@ -221,7 +203,7 @@ Cree mensajes atractivos para su audiencia:
 * [→ de contenido de campaña activadas por API](api-triggered-campaign-content.md)
 * [→ de contenido de campaña orquestada](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;4. **Revisar y probar** {#review}
+### &#x200B;4. Revisión y prueba {#review}
 
 Revise siempre la campaña antes de la activación:
 
@@ -236,7 +218,7 @@ Revise siempre la campaña antes de la activación:
 * [Revisar → de campañas activadas por API](review-activate-api-triggered-campaign.md)
 * [Revisar campañas orquestadas →](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;5. **Activar tu campaña** {#activate}
+### &#x200B;5. Active la campaña {#activate}
 
 Una vez completada la revisión, active la campaña:
 
@@ -250,7 +232,7 @@ Una vez completada la revisión, active la campaña:
 * [Activación de campañas activadas por API →](review-activate-api-triggered-campaign.md)
 * [Activar campañas orquestadas →](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;6. **Supervisar y analizar** {#monitor}
+### &#x200B;6. Monitorización y análisis {#monitor}
 
 Realice un seguimiento del rendimiento de la campaña:
 
@@ -309,7 +291,7 @@ A medida que se sienta más cómodo con las campañas, explore estas potentes fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Programación y sincronización**
 
@@ -319,7 +301,7 @@ Programe campañas para fechas/horas específicas, establezca envíos recurrente
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de tarifa**
 
@@ -329,7 +311,7 @@ Limite el rendimiento de los mensajes para evitar sobrecargas en sistemas descen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmentación de audiencia**
 
@@ -339,7 +321,7 @@ Dirija audiencias de Adobe Experience Platform específicas con precisión y adm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flujos de trabajo de aprobación**
 
@@ -349,7 +331,7 @@ Implemente procesos de revisión y aprobación antes de que las campañas se pub
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Horas tranquilas**
 
@@ -359,7 +341,7 @@ Respete las preferencias del cliente evitando la entrega de mensajes durante los
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimización del tiempo de envío**
 
