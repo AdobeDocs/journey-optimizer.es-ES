@@ -376,7 +376,7 @@ Limite el rendimiento del mensaje para administrar la reputación de envío y ev
 
 Obtenga una introducción visual a los componentes de recorrido y aprenda los conceptos básicos de la creación de recorridos en el lienzo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430353?captions=spa&quality=12)
 
 ➡️ **Quiere más vídeos?** [Explorar tutoriales de vídeo de recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
