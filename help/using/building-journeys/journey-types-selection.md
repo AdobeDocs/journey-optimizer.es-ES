@@ -177,5 +177,5 @@ Ahora que comprende los tipos de recorrido, está listo para lo siguiente:
 * **[Ver preguntas frecuentes sobre el recorrido](journey-faq.md)** - Preguntas frecuentes respondidas
 
 **¿Necesita comparar con campañas?**
-- [Guía de comparación de Recorridos vs. Campañas](../start/journeys-vs-campaigns.md): elija entre recorridos, campañas de acción/API y campañas organizadas
+&#x200B;- [Guía de comparación de Recorridos vs. Campañas](../start/journeys-vs-campaigns.md): elija entre recorridos, campañas de acción/API y campañas organizadas
 
