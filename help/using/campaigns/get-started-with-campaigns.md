@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 87351e845c7a6267cc78c26c838e69e77325f2b8
+source-git-commit: b038865ee71ae4acb463b32d5ea66488f42b5c54
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 31%
@@ -113,7 +113,7 @@ Use [!DNL Journey Optimizer] para:
 
 >[!TAB Campañas de acción (programadas)]
 
-![icono](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es) **Cuándo usar:** Comunicaciones por lotes simples y programadas
+![icono](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **Cuándo usar:** Comunicaciones por lotes simples y programadas
 
 **Las campañas de acción** (también conocidas como Campañas programadas) son ideales para comunicaciones por lotes directas, únicas o recurrentes que se ejecutan a una hora específica.
 
@@ -134,7 +134,7 @@ Use [!DNL Journey Optimizer] para:
 
 >[!TAB Campañas activadas mediante API]
 
-![icono](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es) **Cuándo usar:** Mensajería en tiempo real impulsada por eventos con sistemas externos
+![icono](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) **Cuándo usar:** Mensajería en tiempo real impulsada por eventos con sistemas externos
 
 **Las campañas activadas por API** se activan mediante llamadas a la API, lo que permite la mensajería automatizada directamente desde sistemas externos. Estas campañas admiten la personalización mediante atributos de perfil y datos de contexto en tiempo real desde la carga útil de la API.
 
@@ -155,7 +155,7 @@ Use [!DNL Journey Optimizer] para:
 
 >[!TAB Campañas orquestadas]
 
-![icono](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es) **Cuándo usar:** Flujos de trabajo de marketing complejos y de varios pasos
+![icono](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) **Cuándo usar:** Flujos de trabajo de marketing complejos y de varios pasos
 
 **Las campañas orquestadas** proporcionan un lienzo visual de arrastrar y soltar para diseñar y automatizar flujos de trabajo de marketing sofisticados. Desde la segmentación de audiencia hasta la entrega de mensajes personalizados en todos los canales, todo sucede en un entorno intuitivo creado para la velocidad y el control.
 
@@ -263,7 +263,7 @@ Realice un seguimiento del rendimiento de la campaña:
 **Guías específicas del tipo:**
 * [Informes de campaña de acción →](../reports/campaign-global-report-cja.md)
 * [→ de monitorización de campañas activadas por API](api-triggered-campaigns.md#monitor)
-* [→ de análisis de campaña orquestada](../orchestrated/create-orchestrated-campaigns.md)
+* [→ de análisis de campaña orquestada](../orchestrated/create-orchestrated-campaign.md)
 
 ➡️ **¿Listo para comenzar?** Elija su tipo de campaña:
 * [Creación de → de campaña de acción](create-campaign.md)
@@ -309,7 +309,7 @@ A medida que se sienta más cómodo con las campañas, explore estas potentes fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Programación y sincronización**
 
@@ -319,7 +319,7 @@ Programe campañas para fechas/horas específicas, establezca envíos recurrente
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de tarifa**
 
@@ -329,7 +329,7 @@ Limite el rendimiento de los mensajes para evitar sobrecargas en sistemas descen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmentación de audiencia**
 
@@ -339,7 +339,7 @@ Dirija audiencias de Adobe Experience Platform específicas con precisión y adm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flujos de trabajo de aprobación**
 
@@ -349,7 +349,7 @@ Implemente procesos de revisión y aprobación antes de que las campañas se pub
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Horas tranquilas**
 
@@ -359,7 +359,7 @@ Respete las preferencias del cliente evitando la entrega de mensajes durante los
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimización del tiempo de envío**
 
