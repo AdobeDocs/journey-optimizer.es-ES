@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: expresión, editor, sintaxis, personalización
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
+source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 3%
+source-wordcount: '666'
+ht-degree: 2%
 
 ---
 
@@ -50,6 +50,26 @@ donde:
 * En cuanto a los argumentos de funciones literales, el analizador de idioma de creación de plantillas no admite un único símbolo de barra invertida sin escape (`\`). Este carácter debe tener un carácter de escape con una barra invertida (`\`) adicional. Ejemplo :
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
+
+## Palabras clave reservadas {#reserved-keywords}
+
+Algunas palabras clave están reservadas en Profile Query Language (PQL) y no se pueden usar directamente como nombres de campo o variable en expresiones de personalización. Si el esquema XDM contiene campos con nombres que coinciden con palabras clave reservadas, debe escaparlos utilizando comillas invertidas (`` ` ``) para hacer referencia a ellos en las expresiones.
+
+**Las palabras clave reservadas incluyen:**
+
+* `next`
+* `last`
+* `this`
+
+**Ejemplo:**
+
+Si el esquema de perfil tiene un campo denominado `next`, debe envolverlo en acentos graves:
+
+```
+{{profile.person.`next`.name}}
+```
+
+Sin las comillas invertidas, el editor de personalización falla en la validación con un error.
 
 ## Áreas de nombres disponibles {#namespaces}
 
@@ -134,7 +154,7 @@ Para obtener más información sobre las funciones de ayuda, consulte [esta secc
 | ------- | ---------- |
 | Cadena | Un tipo de datos compuesto por caracteres entre comillas dobles. <br>Ejemplos: `"prospect"`, `"jobs"`, `"articles"` |
 | Booleano | Un tipo de datos que puede ser verdadero o falso. |
-| Entero | Un tipo de datos que representa un número entero. Puede ser positivo, negativo o cero. <br>Ejemplos: `-201`, `0`, `412` |
+| Número entero | Un tipo de datos que representa un número entero. Puede ser positivo, negativo o cero. <br>Ejemplos: `-201`, `0`, `412` |
 | Matriz | Un tipo de datos que se comprende como un grupo de otros valores literales. Utiliza corchetes para agrupar y comas para delimitar entre distintos valores. <br> **Nota:** No puede tener acceso directo a las propiedades de los elementos de una matriz. <br> ejemplos: `[1, 4, 7]`, `["US", "FR"]` |
 
 >[!CAUTION]
