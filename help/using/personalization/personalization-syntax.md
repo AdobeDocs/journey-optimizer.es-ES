@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: expresión, editor, sintaxis, personalización
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
+source-git-commit: 5e9ce28bf19d2f4406ab4fd395b44b72894928e6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '678'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ donde:
 
 ## Sintaxis: reglas generales {#general-rules}
 
-* Los identificadores pueden ser cualquier carácter Unicode excepto los siguientes:
+* Los identificadores pueden ser cualquier carácter Unicode excepto los siguientes caracteres especiales, que están reservados para la sintaxis Handlebars:
 
   ```
   Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
@@ -47,7 +47,7 @@ donde:
 
   Supongamos que el valor del campo `profile.person.name` es &quot;Mark &amp; Mary&quot;. La sintaxis `{{profile.person.name}}` mostrará `Mark &amp; Mary`, mientras que `{{{profile.person.name}}}` mostrará `Mark & Mary`.
 
-* En cuanto a los argumentos de funciones literales, el analizador de idioma de creación de plantillas no admite un único símbolo de barra invertida sin escape (`\`). Este carácter debe tener un carácter de escape con una barra invertida (`\`) adicional. Ejemplo :
+* En cuanto a los argumentos de funciones literales, el analizador de idioma de creación de plantillas no admite un único símbolo de barra invertida sin escape (`\`). Este carácter debe especificarse con una barra invertida (`\`) adicional. Por ejemplo:
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
@@ -136,7 +136,7 @@ Sin las comillas invertidas, el editor de personalización falla en la validaci�
 
   +++
 
-## Ayudantes{#helpers-all}
+## Ayudantes {#helpers-all}
 
 Un asistente de Handlebars es un identificador simple que puede ir seguido de parámetros. Cada parámetro es una expresión Handlebars. Se puede acceder a estos ayudantes desde cualquier contexto de una plantilla.
 
@@ -144,7 +144,7 @@ Estos ayudantes de bloque se identifican con un `#` antes del nombre del ayudant
 
 Los bloques son expresiones que tienen un bloque de apertura (`{{# }}`) y cierre (`{{/}}`).
 
-Para obtener más información sobre las funciones de ayuda, consulte [esta sección](functions/helpers.md).
+    Para obtener más información acerca de las funciones de ayuda, consulte [esta sección](functions/helpers.md).
 
 ## Tipos literales {#literal-types}
 
