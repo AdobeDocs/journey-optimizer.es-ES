@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: probar, validar, aprobar, aprobación, garantía de calidad, control de calidad, perfiles de prueba, personalización, procesamiento, comprobación de spam, experimento de contenido, prueba a/b, detección de conflictos, lista semilla, pruebas, datos de muestra, flujo de trabajo de aprobación, prueba de correo electrónico, flujo de trabajo de validación
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: fb13aee243757de7fe47bdd9d9ebad47069e24ba
+source-git-commit: 57f32088aa9cef55ed68729995326d3eae401bd5
 workflow-type: tm+mt
 source-wordcount: '3103'
 ht-degree: 5%
@@ -147,8 +147,8 @@ El método de prueba adecuado depende de lo que esté creando y de lo que necesi
 * Previsualizar y probar contenido usando [perfiles de prueba](../using/content-management/test-profiles.md) o [datos de entrada de muestra](../test-approve/simulate-sample-input.md)
 * Comprobar [procesamiento de correo electrónico](../using/content-management/rendering.md) entre dispositivos y clientes (solo canal de correo electrónico)
 * Ejecutar [comprobaciones de puntuación de correo no deseado](../using/content-management/spam-report.md) (solo canal de correo electrónico)
-* Revisar [conflictos](../conflict-prioritization/conflicts.md) con otras campañas y recorridos
-* Configurar [listas semilla](../configuration/seed-lists.md) para la supervisión de partes interesadas (solo canal de correo electrónico)
+* Revisar [conflictos](../using/conflict-prioritization/conflicts.md) con otras campañas y recorridos
+* Configurar [listas semilla](../using/configuration/seed-lists.md) para la supervisión de partes interesadas (solo canal de correo electrónico)
 * Enviar para [aprobación](../using/test-approve/gs-approval.md) antes de la activación
 
 **Para pruebas A/B y optimización:**
@@ -165,7 +165,7 @@ El método de prueba adecuado depende de lo que esté creando y de lo que necesi
 
 * Utilice [modo de prueba](../using/building-journeys/testing-the-journey.md) para simular la progresión del perfil (solo recorridos de borrador, requiere área de nombres) o [ejecución en seco](../using/building-journeys/journey-dry-run.md) para analizar las rutas de ejecución sin enviar mensajes
 * Probar mensajes individuales usando [vista previa y pruebas](../using/content-management/preview-test.md)
-* Comprobar [conflictos](../conflict-prioritization/conflicts.md) con otros recorridos y campañas
+* Comprobar [conflictos](../using/conflict-prioritization/conflicts.md) con otros recorridos y campañas
 * Enviar para [aprobación](../using/test-approve/gs-approval.md) antes de publicar
 
 **Para recorridos complejos:**
@@ -200,7 +200,7 @@ Para maximizar la eficacia de sus esfuerzos de prueba, siga estas prácticas rec
 
 1. **Probar variaciones de contenido con datos de ejemplo**. Use [datos de entrada de muestra](../test-approve/simulate-sample-input.md) de archivos CSV o JSON para probar hasta 30 escenarios de personalización sin crear numerosos perfiles de prueba, lo que ahorra tiempo a la vez que garantiza una cobertura completa. Admite canales de correo electrónico, SMS, push, web, experiencia basada en código, en la aplicación y tarjetas de contenido.
 
-1. **Use listas semilla para la supervisión de partes interesadas**. Configure [listas semilla](../configuration/seed-lists.md) para incluir automáticamente a las partes interesadas internas que recibirán copias de todos los envíos en el momento de la ejecución para la supervisión de la calidad y la verificación del cumplimiento (solo canal de correo electrónico).
+1. **Use listas semilla para la supervisión de partes interesadas**. Configure [listas semilla](../using/configuration/seed-lists.md) para incluir automáticamente a las partes interesadas internas que recibirán copias de todos los envíos en el momento de la ejecución para la supervisión de la calidad y la verificación del cumplimiento (solo canal de correo electrónico).
 
 1. **Simular rutas de recorrido**: para recorridos complejos con varias ramas, use [modo de prueba](../using/building-journeys/testing-the-journey.md) para probar diferentes condiciones de entrada y atributos de perfil y validar todas las rutas posibles. Disponible para recorridos de borrador que utilizan un área de nombres.
 
@@ -244,7 +244,7 @@ Valide los aspectos técnicos que afectan a la capacidad de entrega y la funcion
 
 * Probar [diseño interactivo](../using/email/content-from-scratch.md) en dispositivos móviles y de escritorio
 
-* Compruebe si hay [posibles conflictos](../conflict-prioritization/conflicts.md) con otras campañas y recorridos para evitar que los mensajes de los clientes se agoten y se produzcan problemas de tiempo de espera
+* Compruebe si hay [posibles conflictos](../using/conflict-prioritization/conflicts.md) con otras campañas y recorridos para evitar que los mensajes de los clientes se agoten y se produzcan problemas de tiempo de espera
 
 ### &#x200B;3. Pruebas de Recorrido (solo recorridos)
 
@@ -311,7 +311,7 @@ Consulte cómo se aplican los conceptos de prueba a los escenarios reales:
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Vista previa, prueba y validación de contenido
 
@@ -321,7 +321,7 @@ Obtenga información sobre cómo obtener una vista previa, probar y validar cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flujos de trabajo de aprobación para recorridos y campañas
 
@@ -331,7 +331,7 @@ Obtenga información sobre cómo configurar, administrar y ejecutar procesos de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prueba del recorrido
 
@@ -341,7 +341,7 @@ Valide el recorrido antes de publicarlo probándolo con perfiles específicos pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ensayo del recorrido 
 
@@ -351,7 +351,7 @@ Realice un ensayo para simular y validar la ruta de ejecución del recorrido e i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitorización y solución de problemas
 
@@ -361,7 +361,7 @@ Acceda a recursos completos de solución de problemas, alertas del sistema y có
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -381,7 +381,7 @@ Optimice sus campañas probando varias variaciones de contenido y midiendo el re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas semilla para la monitorización de partes interesadas
 
@@ -391,7 +391,7 @@ Incluya automáticamente direcciones de partes interesadas internas en los enví
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detección de conflictos
 
