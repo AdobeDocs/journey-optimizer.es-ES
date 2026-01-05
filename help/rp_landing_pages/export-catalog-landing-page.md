@@ -6,7 +6,7 @@ description: Exportar el catálogo de ofertas
 redpen-status: CREATED_||_2025-08-11_21-03-50
 badge: label="Heredado" type="Informative"
 exl-id: b73438e0-8ebe-4188-bb63-1095dcfc4679
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Exportar el catálogo de ofertas en Adobe Journey Optimizer es como abrir la puerta a una integración de datos perfecta con Adobe Experience Platform. Esta función garantiza que las ofertas personalizadas, las opciones de reserva, las ubicaciones y las decisiones se actualicen automáticamente y se organicen en conjuntos de datos, listos para un análisis y una toma de decisiones avanzados. Tanto si desea obtener una vista previa de los conjuntos de datos exportados, comprender su estructura o profundizar en detalles específicos como clasificaciones o restricciones, el proceso se ha diseñado para ser intuitivo y eficaz. Al explorar los temas que se van a tratar a continuación, obtendrá las herramientas para aprovechar esta función con el fin de impulsar experiencias de cliente más precisas y basadas en datos.
 
@@ -25,7 +25,7 @@ Exportar el catálogo de ofertas en Adobe Journey Optimizer es como abrir la pue
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guía para la exportación de catálogos de ofertas
 
@@ -35,7 +35,7 @@ Descubra cómo exportar el catálogo de ofertas como un conjunto de datos a Adob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Acceder al catálogo de ofertas exportado
 
@@ -45,7 +45,7 @@ Descubra cómo localizar e interactuar con el catálogo de ofertas exportado en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referencia de conjuntos de datos de ofertas personalizadas
 
@@ -55,7 +55,7 @@ Explore los campos y el esquema jerárquico del conjunto de datos para obtener o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Información general sobre el conjunto de datos de decisiones
 
@@ -65,7 +65,7 @@ Conozca la estructura jerárquica, las definiciones de campo y los metadatos del
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Detalles del conjunto de datos de ubicaciones
 
@@ -75,7 +75,7 @@ Obtenga información sobre los campos, el esquema y los metadatos del conjunto d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Documentación sobre el conjunto de datos de ofertas de reserva
 
