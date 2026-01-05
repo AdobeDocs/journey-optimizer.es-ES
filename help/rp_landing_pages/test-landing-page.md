@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: probar, validar, aprobar, aprobación, garantía de calidad, control de calidad, perfiles de prueba, personalización, procesamiento, comprobación de spam, experimento de contenido, prueba a/b, detección de conflictos, lista semilla, pruebas, datos de muestra, flujo de trabajo de aprobación, prueba de correo electrónico, flujo de trabajo de validación
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 652014d97d7806a90473f5b75b1fe0b2aefdfed5
+source-git-commit: 1b774d95a117903695e6954fb2c820adfdf0d3bb
 workflow-type: tm+mt
-source-wordcount: '3091'
-ht-degree: 4%
+source-wordcount: '2768'
+ht-degree: 5%
 
 ---
 
@@ -140,7 +140,9 @@ Utilice este árbol de decisión para identificar rápidamente las herramientas 
 
 El método de prueba adecuado depende de lo que esté creando y de lo que necesite validar. Utilice esta guía para identificar las herramientas de prueba más relevantes para su escenario.
 
-### Prueba de campañas
+>[!BEGINTABS]
+
+>[!TAB Campañas de prueba]
 
 **Para todas las campañas:**
 
@@ -159,7 +161,7 @@ El método de prueba adecuado depende de lo que esté creando y de lo que necesi
 
 * Use la [API de simulación de campaña](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} para almacenar en déclencheur los trabajos de revisión mediante programación
 
-### Prueba de recorridos
+>[!TAB recorridos de prueba]
 
 **Para todos los recorridos:**
 
@@ -175,7 +177,7 @@ El método de prueba adecuado depende de lo que esté creando y de lo que necesi
 
 **Nota:** La detección de conflictos y la restricción de recorrido solo están disponibles para recorridos unitarios, de calificación de audiencias y de lectura de audiencias.
 
-### Prueba de personalización
+>[!TAB Personalización de prueba]
 
 **Antes de generar contenido:**
 
@@ -185,6 +187,8 @@ El método de prueba adecuado depende de lo que esté creando y de lo que necesi
 
 * Vista previa con [perfiles de prueba](../using/content-management/test-profiles.md) para validar los procesamientos de personalización correctamente
 * Pruebe varios escenarios usando [datos de entrada de muestra](../using/test-approve/simulate-sample-input.md) de archivos CSV/JSON (admite hasta 30 variantes)
+
+>[!ENDTABS]
 
 ## Prácticas recomendadas de prueba
 
@@ -311,7 +315,7 @@ Consulte cómo se aplican los conceptos de prueba a los escenarios reales:
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Vista previa, prueba y validación de contenido
 
@@ -321,7 +325,7 @@ Obtenga información sobre cómo obtener una vista previa, probar y validar cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flujos de trabajo de aprobación para recorridos y campañas
 
@@ -331,7 +335,7 @@ Obtenga información sobre cómo configurar, administrar y ejecutar procesos de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prueba del recorrido
 
@@ -341,7 +345,7 @@ Valide el recorrido antes de publicarlo probándolo con perfiles específicos pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ensayo del recorrido 
 
@@ -351,7 +355,7 @@ Realice un ensayo para simular y validar la ruta de ejecución del recorrido e i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitorización y solución de problemas
 
@@ -361,7 +365,7 @@ Acceda a recursos completos de solución de problemas, alertas del sistema y có
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -381,7 +385,7 @@ Optimice sus campañas probando varias variaciones de contenido y midiendo el re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas semilla para la monitorización de partes interesadas
 
@@ -391,7 +395,7 @@ Incluya automáticamente direcciones de partes interesadas internas en los enví
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detección de conflictos
 
@@ -414,58 +418,59 @@ Identifique posibles superposiciones entre campañas y recorridos para evitar sa
 
 * [Preguntas frecuentes sobre el Recorrido](../using/building-journeys/journey-faq.md): referencia rápida para preguntas comunes sobre pruebas de recorrido, ejecución y solución de problemas.
 
-### Dependencias y relaciones
+<!-- ### Dependencies and relationships
 
-Comprenda cómo las funciones de prueba se conectan entre sí y con los flujos de trabajo de Journey Optimizer en general. Esta sección asigna requisitos previos, dependencias de subida/bajada y combinaciones de capacidades comunes.
+Understand how testing capabilities connect to each other and to your broader Journey Optimizer workflows. This section maps prerequisites, upstream/downstream dependencies, and common capability combinations.
 
-+++**Requisitos previos (necesarios antes de realizar la prueba)**
++++**Prerequisites (required before testing)**
 
-* Los perfiles de prueba deben crearse antes de utilizar el modo de prueba o la previsualización de contenido
-* Las directivas de aprobación deben configurarse antes de enviar para su aprobación
-* Se deben crear listas semilla antes de agregarlas a campañas/recorridos
-* Integración de Litmus necesaria para las pruebas de procesamiento de correo electrónico
-* El recorrido debe estar en estado de borrador para utilizar el modo de prueba
-* El recorrido debe tener un área de nombres configurada para utilizar el modo de prueba
-
-+++
-
-+++**De qué depende la prueba (flujo ascendente)**
-
-* Creación de contenido: Necesita campañas o recorridos para realizar pruebas
-* Perfiles de prueba: necesario para el modo de prueba y la previsualización de contenido
-* Políticas de aprobación: necesarias para flujos de trabajo de aprobación
-* Configuración: configuraciones de canal, autenticación de correo electrónico, configuración de dominio
+* Test profiles must be created before using test mode or content preview
+* Approval policies must be configured before submitting for approval
+* Seed lists must be created before adding to campaigns/journeys
+* Litmus integration required for email rendering tests
+* Journey must be in draft status to use test mode
+* Journey must have namespace configured to use test mode
 
 +++
 
-+++**Lo que depende de las pruebas (flujo descendente)**
++++**What testing depends on (upstream)**
 
-* Activación de campaña/recorrido: no se puede activar sin resolver errores
-* Publicación: es posible que se requiera la aprobación antes de publicar
-* Monitorización en directo: monitorización e informes posteriores al lanzamiento
-* Optimización: utilice los resultados de las pruebas para refinar las campañas futuras
-
-+++
-
-+++**Funciones relacionadas**
-
-* Pruebas + Flujos de trabajo de aprobación = Proceso de garantía de calidad
-* Pruebas + Detección de conflictos = Prevención de mensajes excesivos de clientes
-* Pruebas + Experimentos de contenido = Optimización del rendimiento
-* Pruebas + Informes = Ciclo de mejora continua
-* Perfiles de prueba + Personalization = Validación del contenido
-* Ejecución en seco + Modo de prueba = Validación completa del recorrido
+* Content creation: Need campaigns or journeys to test
+* Test profiles: Required for test mode and content preview
+* Approval policies: Required for approval workflows
+* Configuration: Channel configurations, email authentication, domain settings
 
 +++
 
-+++**Combinaciones de capacidades comunes**
++++**What depends on testing (downstream)**
 
-* Prueba de contenido: Perfiles de prueba + Datos de entrada de muestra + Área de reproducción de Personalization
-* Validación de correo electrónico: pruebas de procesamiento + puntuaciones de correo no deseado + Perfiles de prueba + Pruebas
-* Validación de recorrido: modo de prueba + Ejecución en seco + Perfiles de prueba
-* Lista de comprobación previa al lanzamiento: todas las pruebas técnicas + detección de conflictos + flujos de trabajo de aprobación
+* Campaign/journey activation: Cannot activate without resolving errors
+* Publishing: Approval may be required before publishing
+* Live monitoring: Post-launch monitoring and reporting
+* Optimization: Use test results to refine future campaigns
 
 +++
+
++++**Related capabilities**
+
+* Testing + Approval workflows = Quality assurance process
+* Testing + Conflict detection = Preventing customer over-messaging
+* Testing + Content experiments = Performance optimization
+* Testing + Reporting = Continuous improvement cycle
+* Test profiles + Personalization = Content validation
+* Dry run + Test mode = Comprehensive journey validation
+
++++
+
++++**Common capability combinations**
+
+* Content testing: Test profiles + Sample input data + Personalization playground
+* Email validation: Rendering tests + Spam scores + Test profiles + Proofs
+* Journey validation: Test mode + Dry run + Test profiles
+* Pre-launch checklist: All technical tests + Conflict detection + Approval workflows
+
++++
+-->
 
 ### Preguntas frecuentes
 
@@ -519,13 +524,3 @@ Comprenda cómo las funciones de prueba se conectan entre sí y con los flujos d
 
 +++
 
-
-### Temas relacionados
-
-* [Administración de contenido](content-management-landing-page.md): aprenda a diseñar, previsualizar y administrar contenido mediante plantillas, fragmentos y Designer de correo electrónico. Domine las prácticas recomendadas de creación de contenido para lograr una marca coherente.
-
-* [Informes y análisis](reporting-landing-page.md): Analice el rendimiento de la campaña y del recorrido con informes, paneles y métricas completos. Tome decisiones basadas en datos para optimizar las experiencias de los clientes.
-
-* [Configuración de Recorrido](configure-journeys-landing-page.md): configure las fuentes de datos, los eventos y las acciones personalizadas para habilitar la orquestación de recorrido sofisticada. Establecer las bases técnicas para la creación de recorridos.
-
-* [Administración de campañas](../using/campaigns/get-started-with-campaigns.md): explora diferentes tipos de campañas y aprende a crear, programar y optimizar campañas por lotes y en tiempo real para lograr el máximo impacto.
