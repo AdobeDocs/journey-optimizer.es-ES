@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: probar, validar, aprobar, aprobación, garantía de calidad, control de calidad, perfiles de prueba, personalización, procesamiento, comprobación de spam, experimento de contenido, prueba a/b, detección de conflictos, lista semilla, pruebas, datos de muestra, flujo de trabajo de aprobación, prueba de correo electrónico, flujo de trabajo de validación
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: f774ce00cea82eca84410bd76f482e53d3c60bf6
+source-git-commit: 652014d97d7806a90473f5b75b1fe0b2aefdfed5
 workflow-type: tm+mt
-source-wordcount: '3103'
-ht-degree: 5%
+source-wordcount: '3091'
+ht-degree: 4%
 
 ---
 
@@ -21,41 +21,6 @@ ht-degree: 5%
 Esta sección cubre todas las funcionalidades de prueba y aprobación de Journey Optimizer. Encontrará herramientas para obtener una vista previa del contenido con perfiles de prueba, validar la lógica de recorrido, comprobar el procesamiento de los correos electrónicos y las puntuaciones de spam, ejecutar experimentos A/B, detectar conflictos y configurar flujos de trabajo de aprobación.
 
 Esta página de aterrizaje le ayuda a elegir el método de prueba adecuado según lo que esté creando (campañas frente a recorridos), le guía por los flujos de trabajo de prueba recomendados y le proporciona un acceso rápido a todos los recursos de prueba y aprobación. Empiece por [Elija su método de prueba](#choose-your-testing-approach) a continuación para identificar qué herramientas se aplican a su caso de uso.
-
-## Resumen de funcionalidades de prueba
-
-**Tipos de pruebas disponibles:**
-
-* Prueba de contenido: Previsualice y valide el contenido del mensaje antes de enviar → [Campañas de prueba](#testing-campaigns), [Prueba de personalización](#testing-personalization)
-* Prueba de lógica de recorrido: simular la progresión del cliente mediante rutas de recorrido → [recorridos de prueba](#testing-journeys)
-* Pruebas técnicas: Validar el procesamiento, la entrega y la autenticación → [Validación técnica](#2-technical-validation)
-* Pruebas de rendimiento: compare variaciones de contenido mediante experimentos A/B → [experimentos de contenido](#content-experiments--ab-testing)
-* Pruebas de conflictos: Detectar superposiciones de campañas y recorridos → [Detección de conflictos](#conflict-detection)
-* Pruebas de aprobación: flujos de trabajo de revisión estructurados antes de la activación → [Flujos de trabajo de aprobación](#approval-workflows-for-journeys-and-campaigns)
-
-**Funcionalidades clave por contexto:**
-
-| Capacidad | Se aplica a | Restricciones de canal | Requisitos previos | Objetivo principal | Documentación |
-|------------|-----------|---------------------|--------------|-----------------|---------------|
-| [Perfiles de prueba](../using/content-management/test-profiles.md) | Campañas, Recorridos | Todos los canales | Perfiles de prueba creados | Previsualización de contenido personalizado | [Guía](#testing-campaigns) |
-| [Datos de entrada de muestra](../using/test-approve/simulate-sample-input.md) | Campañas, Recorridos | Correo electrónico, SMS, push, web, basado en código, aplicación, tarjetas de contenido | Archivo CSV/JSON | Prueba de varias variantes de personalización | [Guía](#simulate-content-variations) |
-| [Modo de prueba](../using/building-journeys/testing-the-journey.md) | Solo recorridos | N/A | Recorrido de borrador, área de nombres configurada | Simular progresión de perfil | [Tarjeta](#test-your-journey) |
-| [Ejecución en seco](../using/building-journeys/journey-dry-run.md) | Solo recorridos | N/A | Recorrido creado | Analizar rutas de ejecución | [Tarjeta](#journey-dry-run) |
-| [Representación de correo electrónico](../using/content-management/rendering.md) | Campañas, Recorridos | Solo correo electrónico | Integración de Litmus | Verificar la visualización entre clientes | [Flujo de trabajo](#2-technical-validation) |
-| [Puntuación de spam](../using/content-management/spam-report.md) | Campañas, Recorridos | Solo correo electrónico | Ninguna | Validación de entrega | [Flujo de trabajo](#2-technical-validation) |
-| [Listas semilla](../using/configuration/seed-lists.md) | Campañas, Recorridos | Solo correo electrónico | Lista semilla configurada | Supervisión de las partes interesadas | [Tarjeta](#seed-lists-for-stakeholder-monitoring) |
-| [Experimentos de contenido](../using/content-management/get-started-experiment.md) | Solo campañas | Todos los canales | Ninguna | Pruebas A/B y multi-armed bandit | [Tarjeta](#content-experiments--ab-testing) |
-| [Detección de conflictos](../using/conflict-prioritization/conflicts.md) | Campañas, Recorridos (limitado) | Todos los canales | Ninguna | Evitar mensajes excesivos de los clientes | [Tarjeta](#conflict-detection) |
-| [Flujos de trabajo de aprobación](../using/test-approve/gs-approval.md) | Campañas, Recorridos | Todos los canales | Directiva de aprobación creada | Proceso de revisión estructurado | [Tarjeta](#approval-workflows-for-journeys-and-campaigns) |
-| [patio de recreo de Personalization](../using/personalization/personalize.md#playground) | Todas | Todos los canales | Ninguna | Aprendizaje y prueba de la sintaxis de personalización | [Tarjeta](#personalization-playground) |
-
-**Flujos de trabajo de pruebas comunes:**
-
-1. Desarrollo previo: use [área de reproducción de personalización](#testing-personalization) para aprender sintaxis
-2. Durante el desarrollo: vista previa con [perfiles de prueba](#testing-campaigns), validar con [datos de entrada de muestra](#simulate-content-variations)
-3. Antes del inicio: ejecutar [pruebas técnicas](#2-technical-validation) (procesamiento, correo no deseado), comprobar [conflictos](#conflict-detection), enviar para [aprobación](#approval-workflows-for-journeys-and-campaigns)
-4. Después del inicio: supervisar con informes en directo (consulte [supervisión y solución de problemas](#monitoring--troubleshooting)), repetir según los resultados
-
 
 ## Por qué importan las pruebas y la aprobación
 
@@ -72,6 +37,41 @@ Los procesos de prueba y aprobación sirven como puertas de calidad esenciales q
 * **Establecer la responsabilidad**: Implemente flujos de trabajo de aprobación formales que requieran la firma de las partes interesadas, lo que crea una propiedad clara y reduce los inicios de campaña no autorizados o prematuros.
 
 * **Ahorre tiempo y recursos**: detecte problemas al principio del ciclo de desarrollo cuando las correcciones sean más baratas y rápidas, lo que evitará costosas correcciones posteriores al inicio o escalaciones del servicio de atención al cliente.
+
+## Resumen de funcionalidades de prueba
+
+**Tipos de pruebas disponibles:**
+
+* Prueba de contenido: Previsualice y valide el contenido del mensaje antes de enviar → [Campañas de prueba](#testing-campaigns), [Prueba de personalización](#testing-personalization)
+* Prueba de lógica de recorrido: simular la progresión del cliente mediante rutas de recorrido → [recorridos de prueba](#testing-journeys)
+* Pruebas técnicas: Validar el procesamiento, la entrega y la autenticación → [Validación técnica](#2-technical-validation)
+* Pruebas de rendimiento: compare variaciones de contenido mediante experimentos A/B → [experimentos de contenido](#content-experiments--ab-testing)
+* Pruebas de conflictos: Detectar superposiciones de campañas y recorridos → [Detección de conflictos](#conflict-detection)
+* Pruebas de aprobación: flujos de trabajo de revisión estructurados antes de la activación → [Flujos de trabajo de aprobación](#approval-workflows-for-journeys-and-campaigns)
+
+**Funcionalidades clave por contexto:**
+
+| Capacidad | Se aplica a | Restricciones de canal | Requisitos previos | Objetivo principal |
+|------------|-----------|---------------------|--------------|-----------------|
+| [Perfiles de prueba](../using/content-management/test-profiles.md) | Campañas, Recorridos | Todos los canales | Perfiles de prueba creados | Previsualización de contenido personalizado |
+| [Datos de entrada de muestra](../using/test-approve/simulate-sample-input.md) | Campañas, Recorridos | Correo electrónico, SMS, push, web, basado en código, aplicación, tarjetas de contenido | Archivo CSV/JSON | Prueba de varias variantes de personalización |
+| [Modo de prueba](../using/building-journeys/testing-the-journey.md) | Solo recorridos | N/A | Recorrido de borrador, área de nombres configurada | Simular progresión de perfil |
+| [Ejecución en seco](../using/building-journeys/journey-dry-run.md) | Solo recorridos | N/A | Recorrido creado | Analizar rutas de ejecución |
+| [Representación de correo electrónico](../using/content-management/rendering.md) | Campañas, Recorridos | Solo correo electrónico | Integración de Litmus | Verificar la visualización entre clientes |
+| [Puntuación de spam](../using/content-management/spam-report.md) | Campañas, Recorridos | Solo correo electrónico | Ninguna | Validación de entrega |
+| [Listas semilla](../using/configuration/seed-lists.md) | Campañas, Recorridos | Solo correo electrónico | Lista semilla configurada | Supervisión de las partes interesadas |
+| [Experimentos de contenido](../using/content-management/get-started-experiment.md) | Solo campañas | Todos los canales | Ninguna | Pruebas A/B y multi-armed bandit |
+| [Detección de conflictos](../using/conflict-prioritization/conflicts.md) | Campañas, Recorridos (limitado) | Todos los canales | Ninguna | Evitar mensajes excesivos de los clientes |
+| [Flujos de trabajo de aprobación](../using/test-approve/gs-approval.md) | Campañas, Recorridos | Todos los canales | Directiva de aprobación creada | Proceso de revisión estructurado |
+| [patio de recreo de Personalization](../using/personalization/personalize.md#playground) | Todas | Todos los canales | Ninguna | Aprendizaje y prueba de la sintaxis de personalización |
+
+**Flujos de trabajo de pruebas comunes:**
+
+1. Desarrollo previo: use [área de reproducción de personalización](#testing-personalization) para aprender sintaxis
+2. Durante el desarrollo: vista previa con [perfiles de prueba](#testing-campaigns), validar con [datos de entrada de muestra](#simulate-content-variations)
+3. Antes del inicio: ejecutar [pruebas técnicas](#2-technical-validation) (procesamiento, correo no deseado), comprobar [conflictos](#conflict-detection), enviar para [aprobación](#approval-workflows-for-journeys-and-campaigns)
+4. Después del inicio: supervisar con informes en directo (consulte [supervisión y solución de problemas](#monitoring--troubleshooting)), repetir según los resultados
+
 
 ## Terminología clave
 
@@ -311,7 +311,7 @@ Consulte cómo se aplican los conceptos de prueba a los escenarios reales:
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Vista previa, prueba y validación de contenido
 
@@ -321,7 +321,7 @@ Obtenga información sobre cómo obtener una vista previa, probar y validar cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flujos de trabajo de aprobación para recorridos y campañas
 
@@ -331,7 +331,7 @@ Obtenga información sobre cómo configurar, administrar y ejecutar procesos de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prueba del recorrido
 
@@ -341,7 +341,7 @@ Valide el recorrido antes de publicarlo probándolo con perfiles específicos pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ensayo del recorrido 
 
@@ -351,7 +351,7 @@ Realice un ensayo para simular y validar la ruta de ejecución del recorrido e i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitorización y solución de problemas
 
@@ -361,7 +361,7 @@ Acceda a recursos completos de solución de problemas, alertas del sistema y có
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -381,7 +381,7 @@ Optimice sus campañas probando varias variaciones de contenido y midiendo el re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas semilla para la monitorización de partes interesadas
 
@@ -391,7 +391,7 @@ Incluya automáticamente direcciones de partes interesadas internas en los enví
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detección de conflictos
 
