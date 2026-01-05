@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: probar, validar, aprobar, aprobación, garantía de calidad, control de calidad, perfiles de prueba, personalización, procesamiento, comprobación de spam, experimento de contenido, prueba a/b, detección de conflictos, lista semilla, pruebas, datos de muestra, flujo de trabajo de aprobación, prueba de correo electrónico, flujo de trabajo de validación
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: abb2ed3cfa617bb9afc23c8f69634d5afe89b33e
+source-git-commit: d004bdaccab07110408860e67b52bf4c00c1fb15
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 4%
+source-wordcount: '2735'
+ht-degree: 5%
 
 ---
 
@@ -38,64 +38,109 @@ Los procesos de prueba y aprobación sirven como puertas de calidad esenciales q
 
 * **Ahorre tiempo y recursos**: detecte problemas al principio del ciclo de desarrollo cuando las correcciones sean más baratas y rápidas, lo que evitará costosas correcciones posteriores al inicio o escalaciones del servicio de atención al cliente.
 
-## Resumen de funcionalidades de prueba
+<!--## Testing capabilities overview
 
-**Tipos de pruebas disponibles:**
+**Testing types available:**
 
-* Prueba de contenido: Previsualice y valide el contenido del mensaje antes de enviar → [Campañas de prueba](#testing-campaigns), [Prueba de personalización](#testing-personalization)
-* Prueba de lógica de recorrido: simular la progresión del cliente mediante rutas de recorrido → [recorridos de prueba](#testing-journeys)
-* Pruebas técnicas: Validar el procesamiento, la entrega y la autenticación → [Validación técnica](#2-technical-validation)
-* Pruebas de rendimiento: compare variaciones de contenido mediante experimentos A/B → [experimentos de contenido](#content-experiments--ab-testing)
-* Pruebas de conflictos: Detectar superposiciones de campañas y recorridos → [Detección de conflictos](#conflict-detection)
-* Pruebas de aprobación: flujos de trabajo de revisión estructurados antes de la activación → [Flujos de trabajo de aprobación](#approval-workflows-for-journeys-and-campaigns)
+* Content testing: Preview and validate message content before sending → [Choose your testing approach](#choose-your-testing-approach)
+* Journey logic testing: Simulate customer progression through journey paths → [Choose your testing approach](#choose-your-testing-approach)
+* Technical testing: Validate rendering, deliverability, and authentication → [Technical validation](#2-technical-validation)
+* Performance testing: Compare content variations using A/B experiments → [Content Experiments & A/B Testing](#test--approve-content)
+* Conflict testing: Detect campaign and journey overlaps → [Conflict Detection](#test--approve-content)
+* Approval testing: Structured review workflows before activation → [Approval Workflows](#test--approve-content)
 
-**Funcionalidades clave por contexto:**
+**Key capabilities by context:**
 
-| Capacidad | Se aplica a | Restricciones de canal | Requisitos previos | Objetivo principal |
+| Capability | Applies to | Channel restrictions | Prerequisites | Primary purpose |
 |------------|-----------|---------------------|--------------|-----------------|
-| [Perfiles de prueba](../using/content-management/test-profiles.md) | Campañas, Recorridos | Todos los canales | Perfiles de prueba creados | Previsualización de contenido personalizado |
-| [Datos de entrada de muestra](../using/test-approve/simulate-sample-input.md) | Campañas, Recorridos | Correo electrónico, SMS, push, web, basado en código, aplicación, tarjetas de contenido | Archivo CSV/JSON | Prueba de varias variantes de personalización |
-| [Modo de prueba](../using/building-journeys/testing-the-journey.md) | Solo recorridos | N/A | Recorrido de borrador, área de nombres configurada | Simular progresión de perfil |
-| [Ejecución en seco](../using/building-journeys/journey-dry-run.md) | Solo recorridos | N/A | Recorrido creado | Analizar rutas de ejecución |
-| [Representación de correo electrónico](../using/content-management/rendering.md) | Campañas, Recorridos | Solo correo electrónico | Integración de Litmus | Verificar la visualización entre clientes |
-| [Puntuación de spam](../using/content-management/spam-report.md) | Campañas, Recorridos | Solo correo electrónico | Ninguna | Validación de entrega |
-| [Listas semilla](../using/configuration/seed-lists.md) | Campañas, Recorridos | Solo correo electrónico | Lista semilla configurada | Supervisión de las partes interesadas |
-| [Experimentos de contenido](../using/content-management/get-started-experiment.md) | Solo campañas | Todos los canales | Ninguna | Pruebas A/B y multi-armed bandit |
-| [Detección de conflictos](../using/conflict-prioritization/conflicts.md) | Campañas, Recorridos (limitado) | Todos los canales | Ninguna | Evitar mensajes excesivos de los clientes |
-| [Flujos de trabajo de aprobación](../using/test-approve/gs-approval.md) | Campañas, Recorridos | Todos los canales | Directiva de aprobación creada | Proceso de revisión estructurado |
-| [patio de recreo de Personalization](../using/personalization/personalize.md#playground) | Todas | Todos los canales | Ninguna | Aprendizaje y prueba de la sintaxis de personalización |
+| [Test profiles](../using/content-management/test-profiles.md) | Campaigns, Journeys | All channels | Test profiles created | Preview personalized content |
+| [Sample input data](../using/test-approve/simulate-sample-input.md) | Campaigns, Journeys | Email, SMS, Push, Web, Code-based, In-app, Content cards | CSV/JSON file | Test multiple personalization variants |
+| [Test mode](../using/building-journeys/testing-the-journey.md) | Journeys only | N/A | Draft journey, namespace configured | Simulate profile progression |
+| [Dry run](../using/building-journeys/journey-dry-run.md) | Journeys only | N/A | Journey created | Analyze execution paths |
+| [Email rendering](../using/content-management/rendering.md) | Campaigns, Journeys | Email only | Litmus integration | Verify display across clients |
+| [Spam score](../using/content-management/spam-report.md) | Campaigns, Journeys | Email only | None | Deliverability validation |
+| [Seed lists](../using/configuration/seed-lists.md) | Campaigns, Journeys | Email only | Seed list configured | Stakeholder monitoring |
+| [Content experiments](../using/content-management/get-started-experiment.md) | Campaigns only | All channels | None | A/B and multi-armed bandit testing |
+| [Conflict detection](../using/conflict-prioritization/conflicts.md) | Campaigns, Journeys (limited) | All channels | None | Prevent customer over-messaging |
+| [Approval workflows](../using/test-approve/gs-approval.md) | Campaigns, Journeys | All channels | Approval policy created | Structured review process |
+| [Personalization playground](../using/personalization/personalize.md#playground) | All | All channels | None | Learn and test personalization syntax |
 
-**Flujos de trabajo de pruebas comunes:**
+**Common testing workflows:**
 
-1. Desarrollo previo: use [área de reproducción de personalización](#testing-personalization) para aprender sintaxis
-2. Durante el desarrollo: vista previa con [perfiles de prueba](#testing-campaigns), validar con [datos de entrada de muestra](#simulate-content-variations)
-3. Antes del inicio: ejecutar [pruebas técnicas](#2-technical-validation) (procesamiento, correo no deseado), comprobar [conflictos](#conflict-detection), enviar para [aprobación](#approval-workflows-for-journeys-and-campaigns)
-4. Después del inicio: supervisar con informes en directo (consulte [supervisión y solución de problemas](#monitoring--troubleshooting)), repetir según los resultados
+1. Pre-development: Use [personalization playground](#test--approve-content) to learn syntax
+2. During development: Preview with [test profiles](#choose-your-testing-approach), validate with [sample input data](#choose-your-testing-approach)
+3. Pre-launch: Run [technical tests](#2-technical-validation) (rendering, spam), check [conflicts](#test--approve-content), submit for [approval](#test--approve-content)
+4. Post-launch: Monitor with live reports (see [Monitoring & Troubleshooting](#test--approve-content)), iterate based on results
 
+-->
 
 ## Terminología clave
 
-**[Perfiles de prueba](../using/content-management/test-profiles.md)** = Perfiles de cliente sintéticos (clientes no reales) utilizados para previsualizar contenido personalizado. Marcado en el servicio de Perfil del cliente en tiempo real. Necesario para el modo de prueba y la previsualización de contenido. [Aprenda a crear perfiles de prueba](../using/audience/creating-test-profiles.md)
++++**Perfiles de prueba**
 
-**[Modo de prueba](../using/building-journeys/testing-the-journey.md)** = característica de simulación de Recorrido que envía perfiles de prueba a través de rutas de recorrido. Limitaciones: solo recorridos de borrador, requiere área de nombres, solo perfiles de prueba. [Ver documentación del modo de prueba](../using/building-journeys/testing-the-journey.md)
+Perfiles de cliente sintéticos (clientes no reales) utilizados para previsualizar contenido personalizado. Marcado en el servicio de Perfil del cliente en tiempo real. Necesario para el modo de prueba y la previsualización de contenido. [Más información](../using/content-management/test-profiles.md) | [Aprenda a crear perfiles de prueba](../using/audience/creating-test-profiles.md)
 
-**[Ejecución en seco](../using/building-journeys/journey-dry-run.md)** = Herramienta de análisis de ejecución de Recorrido que traza las rutas sin enviar mensajes ni realizar llamadas a la API. Caso de uso: Validación de la lógica sin consumir recursos. [Más información sobre la ejecución en seco](../using/building-journeys/journey-dry-run.md)
++++
 
-**[Datos de entrada de muestra](../using/test-approve/simulate-sample-input.md)** = Archivos CSV o JSON que contienen valores de atributo de perfil para probar la personalización. Admite hasta 30 variantes. Alternativa a la creación de perfiles de prueba. [Cómo simular variaciones de contenido](../using/test-approve/simulate-sample-input.md)
++++**Modo de prueba**
 
-**[Listas semilla](../using/configuration/seed-lists.md)** = Direcciones de correo electrónico de las partes interesadas internas incluidas automáticamente en los envíos reales (no en los envíos de prueba). Solo canal de correo electrónico. Caso de uso: Monitorización de la calidad y cumplimiento normativo. [Configurar listas semilla](../using/configuration/seed-lists.md)
+Función de simulación de recorrido que envía perfiles de prueba a través de rutas de recorrido. Limitaciones: solo recorridos de borrador, requiere área de nombres, solo perfiles de prueba. [Más información](../using/building-journeys/testing-the-journey.md)
 
-**[Experimentos de contenido](../using/content-management/get-started-experiment.md)** = Pruebas A/B o experimentos de bandidos multibrazo que comparan variaciones de contenido. Solo campañas, no disponible en recorridos. [Introducción a los experimentos](../using/content-management/get-started-experiment.md) | [Crear experimentos](../using/content-management/content-experiment.md)
++++
 
-**[Pruebas](../using/content-management/proofs.md)** = Probar los envíos de correo electrónico enviados a direcciones de correo electrónico específicas mediante datos de perfil de prueba. A diferencia de las listas semilla (las pruebas son envíos de prueba manuales, las listas semilla son copias automáticas de las partes interesadas). [Enviar pruebas](../using/content-management/proofs.md)
++++**Ejecución en seco**
 
-**[Detección de conflictos](../using/conflict-prioritization/conflicts.md)** = Herramienta que identifica campañas y recorridos superpuestos dirigidos a las mismas audiencias. Compatibilidad de recorrido limitada: tipos de audiencia unitarios, de calificación de audiencia y de lectura de audiencia solamente. [Más información acerca de la administración de conflictos](../using/conflict-prioritization/gs-conflict-prioritization.md)
+Herramienta de análisis de ejecución de recorridos que rastrea las rutas sin enviar mensajes ni realizar llamadas a la API. Caso de uso: Validación de la lógica sin consumir recursos. [Más información](../using/building-journeys/journey-dry-run.md)
 
-**[Flujos de trabajo de aprobación](../using/test-approve/gs-approval.md)** = Proceso de revisión de varios pasos que requiere la aprobación de las partes interesadas antes de la activación. Requiere la configuración de directiva de aprobación. [Configurar aprobaciones](../using/test-approve/gs-approval.md) | [Crear directivas](../using/test-approve/approval-policies.md)
++++
 
-**[Pruebas de procesamiento](../using/content-management/rendering.md)** = Validación de visualización de correo electrónico entre clientes de correo electrónico (Gmail, Outlook, Apple Mail) y dispositivos. Requiere integración con Litmus. [Probar procesamiento de correo electrónico](../using/content-management/rendering.md)
++++**Datos de entrada de muestra**
 
-**[Personalization playground](../using/personalization/personalize.md#playground)** = Entorno de aprendizaje interactivo para experimentar con sintaxis de personalización y expresiones de prueba con datos de ejemplo. No se requieren conjuntos de datos activos. [Acceso al área de reproducción](../using/personalization/personalize.md#playground)
+Archivos CSV o JSON que contienen valores de atributo de perfil para probar la personalización. Admite hasta 30 variantes. Alternativa a la creación de perfiles de prueba. [Más información](../using/test-approve/simulate-sample-input.md)
+
++++
+
++++**Listas semilla**
+
+Direcciones de correo electrónico de las partes interesadas internas incluidas automáticamente en los envíos reales (no en los envíos de prueba). Solo canal de correo electrónico. Caso de uso: Monitorización de la calidad y cumplimiento normativo. [Más información](../using/configuration/seed-lists.md)
+
++++
+
++++**Experimentos de contenido**
+
+Pruebas A/B o experimentos de bandidos multibrazo que comparan variaciones de contenido. Solo campañas, no disponible en recorridos. [Más información](../using/content-management/get-started-experiment.md) | [Crear experimentos](../using/content-management/content-experiment.md)
+
++++
+
++++**Pruebas**
+
+Probar las entregas de correo electrónico enviadas a direcciones de correo electrónico específicas mediante datos de perfil de prueba. A diferencia de las listas semilla (las pruebas son envíos de prueba manuales, las listas semilla son copias automáticas de las partes interesadas). [Más información](../using/content-management/proofs.md)
+
++++
+
++++**Detección de conflictos**
+
+Herramienta que identifica campañas y recorridos superpuestos dirigidos a las mismas audiencias. Compatibilidad de recorrido limitada: tipos de audiencia unitarios, de calificación de audiencia y de lectura de audiencia solamente. [Más información](../using/conflict-prioritization/conflicts.md) | [Más información acerca de la administración de conflictos](../using/conflict-prioritization/gs-conflict-prioritization.md)
+
++++
+
++++**Flujos de trabajo de aprobación**
+
+Proceso de revisión de varios pasos que requiere la aprobación de las partes interesadas antes de la activación. Requiere la configuración de directiva de aprobación. [Más información](../using/test-approve/gs-approval.md) | [Crear directivas](../using/test-approve/approval-policies.md)
+
++++
+
++++**Pruebas de procesamiento**
+
+Validación de visualización de correo electrónico entre clientes de correo electrónico (Gmail, Outlook, Apple Mail) y dispositivos. Requiere integración con Litmus. [Más información](../using/content-management/rendering.md)
+
++++
+
++++**patio de recreo de Personalization**
+
+Entorno de aprendizaje interactivo para experimentar con la sintaxis de personalización y las expresiones de prueba con datos de ejemplo. No se requieren conjuntos de datos activos. [Más información](../using/personalization/personalize.md#playground)
+
++++
 
 ## Árbol de decisiones para la selección de métodos de prueba
 
@@ -103,36 +148,36 @@ Utilice este árbol de decisión para identificar rápidamente las herramientas 
 
 +++ **Pregunta 1: ¿Qué estás probando?**
 
-* Campaign → [Campañas de prueba](#testing-campaigns)
-* Recorrido → [recorridos de prueba](#testing-journeys)
-* Expresiones de Personalization → [Personalization playground](#testing-personalization)
+* Campaign → [Elija su método de prueba](#choose-your-testing-approach)
+* Recorrido → [Elija su método de prueba](#choose-your-testing-approach)
+* Expresiones de Personalization → [Personalization playground](#test--approve-content)
 +++
 
 +++**Pregunta 2: ¿Qué aspecto necesita validación?**
 
-* Contenido y personalización → [Perfiles de prueba](#testing-campaigns) o [datos de entrada de muestra](#simulate-content-variations)
+* Contenido y personalización → [Perfiles de prueba](#choose-your-testing-approach) o [datos de entrada de muestra](#choose-your-testing-approach)
 * Visualización de correo electrónico → [Pruebas de procesamiento de correo electrónico](#2-technical-validation)
 * Entrega → [Comprobaciones de puntuación de spam](#2-technical-validation)
-* Recorrido lógica y flujo → [Modo de prueba](#testing-journeys) o [ejecución en seco](#journey-dry-run)
-* Comparación de rendimiento → [Experimento de contenido](#content-experiments--ab-testing) (solo campañas)
-* Conflictos de temporización → [Detección de conflictos](#conflict-detection)
-* Revisión de partes interesadas → [Flujo de trabajo de aprobación](#approval-workflows-for-journeys-and-campaigns)
+* Recorrido lógica y flujo → [Modo de prueba](#choose-your-testing-approach) o [ejecución en seco](#test--approve-content)
+* Comparación de rendimiento → [Experimento de contenido](#test--approve-content) (solo campañas)
+* Conflictos de temporización → [Detección de conflictos](#test--approve-content)
+* Revisión de partes interesadas → [Flujo de trabajo de aprobación](#test--approve-content)
 +++
 
 +++**Pregunta 3: ¿Qué canal?**
 
-* Correo electrónico → Todos los métodos de prueba disponibles (consulte [Pruebas de campañas](#testing-campaigns))
-* SMS, Push → [prueba de contenido](#testing-campaigns), [datos de entrada de muestra](#simulate-content-variations), [flujos de trabajo de aprobación](#approval-workflows-for-journeys-and-campaigns)
-* [Pruebas de contenido](#testing-campaigns), [datos de entrada de muestra](#simulate-content-variations), [flujos de trabajo de aprobación](#approval-workflows-for-journeys-and-campaigns) en la web, en la aplicación → basados en código
+* Correo electrónico → Todos los métodos de prueba disponibles (consulte [Elija el método de prueba](#choose-your-testing-approach))
+* SMS, Push → [prueba de contenido](#choose-your-testing-approach), [datos de entrada de muestra](#choose-your-testing-approach), [flujos de trabajo de aprobación](#test--approve-content)
+* [Pruebas de contenido](#choose-your-testing-approach), [datos de entrada de muestra](#choose-your-testing-approach), [flujos de trabajo de aprobación](#test--approve-content) en la web, en la aplicación → basados en código
 * Varios canales → Probar cada canal por separado
 +++
 
 +++**Pregunta 4: ¿En qué momento del flujo de trabajo?**
 
-* Antes de crear → [área de reproducción de Personalization](#personalization-playground) para aprendizaje
-* Durante la generación de → [perfiles de prueba](#testing-campaigns) y [datos de entrada de muestra](#simulate-content-variations) para la validación
-* Antes del inicio → [Pruebas de procesamiento](#2-technical-validation), [comprobaciones de spam](#email-spam-report), [detección de conflictos](#conflict-detection), [aprobaciones](#approval-workflows-for-journeys-and-campaigns)
-* Después del inicio → [Informes en vivo](../using/building-journeys/report-journey.md) y [monitoreo](#monitoring--troubleshooting)
+* Antes de crear → [área de reproducción de Personalization](#test--approve-content) para aprendizaje
+* Durante la generación de → [perfiles de prueba](#choose-your-testing-approach) y [datos de entrada de muestra](#choose-your-testing-approach) para la validación
+* Antes del inicio → [Pruebas de procesamiento](#2-technical-validation), [comprobaciones de spam](#2-technical-validation), [detección de conflictos](#test--approve-content), [aprobaciones](#test--approve-content)
+* Después del inicio → [Informes en vivo](../using/building-journeys/report-journey.md) y [monitoreo](#test--approve-content)
 +++
 
 
@@ -315,7 +360,7 @@ Consulte cómo se aplican los conceptos de prueba a los escenarios reales:
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Vista previa, prueba y validación de contenido
 
@@ -325,7 +370,7 @@ Obtenga información sobre cómo obtener una vista previa, probar y validar cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flujos de trabajo de aprobación para recorridos y campañas
 
@@ -335,7 +380,7 @@ Obtenga información sobre cómo configurar, administrar y ejecutar procesos de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prueba del recorrido
 
@@ -345,7 +390,7 @@ Valide el recorrido antes de publicarlo probándolo con perfiles específicos pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ensayo del recorrido 
 
@@ -355,7 +400,7 @@ Realice un ensayo para simular y validar la ruta de ejecución del recorrido e i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitorización y solución de problemas
 
@@ -365,7 +410,7 @@ Acceda a recursos completos de solución de problemas, alertas del sistema y có
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -385,7 +430,7 @@ Optimice sus campañas probando varias variaciones de contenido y midiendo el re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas semilla para la monitorización de partes interesadas
 
@@ -395,7 +440,7 @@ Incluya automáticamente direcciones de partes interesadas internas en los enví
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detección de conflictos
 
