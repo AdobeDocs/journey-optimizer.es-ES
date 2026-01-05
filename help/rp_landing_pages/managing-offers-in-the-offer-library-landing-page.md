@@ -25,7 +25,7 @@ La sección “Creación” y administración de ofertas&#39; de Adobe Journey O
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configurar ofertas en Adobe Journey Optimizer
 
@@ -35,7 +35,7 @@ Obtenga información sobre cómo crear ofertas personalizadas, configurar repres
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Cómo crear ofertas de reserva
 
@@ -45,7 +45,7 @@ Tutorial paso a paso sobre la creación de ofertas de reserva para clientes que 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Cómo crear y administrar colecciones de ofertas
 
