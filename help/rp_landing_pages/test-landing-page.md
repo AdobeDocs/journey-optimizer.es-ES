@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: probar, validar, aprobar, aprobación, garantía de calidad, control de calidad, perfiles de prueba, personalización, procesamiento, comprobación de spam, experimento de contenido, prueba a/b, detección de conflictos, lista semilla, pruebas, datos de muestra, flujo de trabajo de aprobación, prueba de correo electrónico, flujo de trabajo de validación
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 3f2bf04dbeb3e5099c151a412a4a5e54f13122ee
+source-git-commit: 1f0890dd4257f049fd041dc2dbf6d45cd0d7092c
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2284'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ Esta página de aterrizaje le ayuda a elegir el método de prueba adecuado segú
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Vista previa, prueba y validación de contenido
 
@@ -36,7 +36,7 @@ Obtenga información sobre cómo obtener una vista previa, probar y validar cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flujos de trabajo de aprobación para recorridos y campañas
 
@@ -46,7 +46,7 @@ Obtenga información sobre cómo configurar, administrar y ejecutar procesos de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prueba del recorrido
 
@@ -56,7 +56,7 @@ Valide el recorrido antes de publicarlo probándolo con perfiles específicos pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ensayo del recorrido 
 
@@ -66,7 +66,7 @@ Realice un ensayo para simular y validar la ruta de ejecución del recorrido e i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitorización y solución de problemas
 
@@ -76,7 +76,7 @@ Acceda a recursos completos de solución de problemas, alertas del sistema y có
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -96,7 +96,7 @@ Optimice sus campañas probando varias variaciones de contenido y midiendo el re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas semilla para la monitorización de partes interesadas
 
@@ -106,7 +106,7 @@ Incluya automáticamente direcciones de partes interesadas internas en los enví
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detección de conflictos
 
@@ -290,89 +290,16 @@ Para maximizar la eficacia de sus esfuerzos de prueba, siga estas prácticas rec
 
 ## Flujo de trabajo de pruebas recomendado
 
-Siga este enfoque sistemático para garantizar pruebas exhaustivas y aprobaciones sin problemas:
+Siga este enfoque de 4 fases para validar sus campañas y recorridos antes del lanzamiento:
 
-### &#x200B;1. Desarrollo y previsualización de contenido
+| Fase | Qué se va a probar | Acciones clave |
+|-------|-------------|-------------|
+| **1. Validación de contenido** | Personalization, diseño, renderización | [Vista previa con perfiles de prueba](../using/content-management/preview-test.md), probar [múltiples variaciones](../using/test-approve/simulate-sample-input.md) con CSV/JSON, comprobar [procesamiento](../using/content-management/rendering.md) entre dispositivos |
+| **2. Comprobaciones técnicas** | Entrega, vínculos, conflictos | Ejecutar [comprobaciones de puntuación de correo no deseado](../using/content-management/spam-report.md), validar vínculos, comprobar [conflictos](../using/conflict-prioritization/conflicts.md) con otras campañas |
+| **3. lógica de recorrido** (solo recorridos) | Condiciones de entrada, flujo, ramificación | Use [modo de prueba](../using/building-journeys/testing-the-journey.md) para simular la progresión, ejecute [ejecución en seco](../using/building-journeys/journey-dry-run.md) para las rutas complejas |
+| **4. Antes del lanzamiento** | Configuración, aprobaciones, monitorización | Enviar para [aprobación](../using/test-approve/gs-approval.md), comprobar programaciones y audiencias, habilitar [alertas](../using/reports/alerts.md) |
 
-Comience creando el contenido y utilizando las funcionalidades de previsualización para verificar el diseño y la personalización iniciales:
-
-* Diseña tu [correo electrónico](../using/email/create-email.md), [SMS](../using/sms/create-sms.md), [notificación push](../using/push/create-push.md) u otro contenido del canal
-
-* Usar la característica **[Simular contenido](../using/content-management/preview-test.md)** para obtener una vista previa con perfiles de prueba
-
-* Compruebe [tokens de personalización](../using/personalization/personalization-syntax.md), contenido dinámico y valores de reserva
-
-* Experimente con expresiones de personalización en **[área de reproducción de personalización](../using/personalization/personalize.md#playground)** para probar y perfeccionar su código con datos de ejemplo antes de aplicarlo al contenido en directo
-
-* Pruebe múltiples variaciones utilizando **[datos de entrada de muestra](../using/test-approve/simulate-sample-input.md)** de archivos CSV/JSON para validar la personalización en diversos escenarios de perfil
-
-* Verificar [renderización](../using/content-management/rendering.md) en diferentes tamaños de pantalla y clientes de correo electrónico
-
-### &#x200B;2. Validación técnica
-
-Valide los aspectos técnicos que afectan a la capacidad de entrega y la funcionalidad:
-
-* Ejecute [comprobaciones de puntuación de correo no deseado](../using/content-management/spam-report.md) para identificar posibles problemas de envío
-
-* Pruebe los vínculos para asegurarse de que no están rotos y de que se realiza un seguimiento adecuado
-
-* Validar la configuración de [autenticación por correo electrónico](../using/configuration/dmarc-record.md) (SPF, DKIM, DMARC)
-
-* Revise el procesamiento de HTML y compruebe los problemas de compatibilidad con CSS
-
-* Probar [diseño interactivo](../using/email/content-from-scratch.md) en dispositivos móviles y de escritorio
-
-* Compruebe si hay [posibles conflictos](../using/conflict-prioritization/conflicts.md) con otras campañas y recorridos para evitar que los mensajes de los clientes se agoten y se produzcan problemas de tiempo de espera
-
-### &#x200B;3. Pruebas de Recorrido (solo recorridos)
-
-Si está probando un recorrido, valide la lógica de orquestación:
-
-* Activar **[modo de prueba](../using/building-journeys/testing-the-journey.md)** para simular la progresión del perfil a través del recorrido
-
-* Probar diferentes [condiciones de entrada](../using/building-journeys/entry-management.md) y cualificaciones de audiencia
-
-* Compruebe que las [actividades de espera](../using/building-journeys/wait-activity.md), las [condiciones](../using/building-journeys/condition-activity.md) y la lógica de ramificación funcionan correctamente
-
-* Use **[Ejecución en seco](../using/building-journeys/journey-dry-run.md)** para recorridos complejos a fin de analizar las rutas de ejecución sin enviar mensajes
-
-* Compruebe que [events](../using/event/about-events.md) se déclencheur correctamente y que [custom actions](../using/action/about-custom-action-configuration.md) se ejecutan según lo esperado
-
-### &#x200B;4. Envío de aprobación
-
-Una vez finalizada la prueba y resueltos los problemas:
-
-* Envíe la campaña o el recorrido para su aprobación según la [política de aprobación](../using/test-approve/approval-policies.md) de su organización
-
-* Incluir los resultados y la documentación de la prueba con la [solicitud de aprobación](../using/test-approve/request-approval.md)
-
-* Enviar comentarios o solicitudes de cambio de [aprobadores](../using/test-approve/review-approve-request.md)
-
-* Realice las revisiones necesarias y vuelva a comprobar si los cambios son significativos
-
-### &#x200B;5. Verificación previa al lanzamiento
-
-Antes de activar la campaña o el recorrido:
-
-* Realizar una revisión final de todas las configuraciones, audiencias y [programaciones](../using/building-journeys/journey-properties.md)
-
-* Verifique que todas las aprobaciones se hayan realizado y documentado
-
-* Confirme que las horas de envío y las [zonas horarias](../using/building-journeys/timezone-management.md) son correctas
-
-* Habilitar [supervisión y alertas](../using/reports/alerts.md) para realizar un seguimiento del rendimiento después del inicio
-
-### &#x200B;6. Monitorizar e iterar
-
-Después del lanzamiento, continúe con la monitorización para detectar cualquier problema de forma temprana:
-
-* Configure [alertas del sistema](../using/reports/alerts.md) para detectar errores de recorrido, tasas de salida hacia otro sitio altas o participación baja
-
-* Revise [informes en vivo](../using/building-journeys/report-journey.md) para hacer un seguimiento del rendimiento con respecto a las expectativas
-
-* Prepárese para [pausar o modificar](../using/building-journeys/journey-pause.md) recorridos si surgen problemas críticos
-
-* Documente las lecciones aprendidas para mejorar los futuros procesos de prueba
+**Sugerencia profesional:** Comience con el [área de reproducción de personalización](../using/personalization/personalize.md#playground) para probar las expresiones antes de generar contenido y compruebe siempre la [detección de conflictos](../using/conflict-prioritization/conflicts.md) antes del inicio para evitar mensajes excesivos.
 
 ## Pruebas en acción: Casos de uso
 
