@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
 source-wordcount: '3037'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -32,18 +32,18 @@ ht-degree: 96%
    + [Nuevo lienzo del recorrido](using/rn/new-canvas.md)
 + Introducción {#get-started}
    + [Introducción](/help/rp_landing_pages/get-started-landing-page.md)
-   + Essentials {#essentials}
+   + Características esenciales {#essentials}
       + [¿Qué es Journey Optimizer?](using/start/get-started.md)
-      + [Explicación de cómo funciona](using/start/understanding-ajo.md)
+      + [Cómo funciona](using/start/understanding-ajo.md)
       + [Terminología clave](using/start/terminology.md)
       + [Protecciones y limitaciones](using/start/guardrails.md)
-   + Introducción por función {#by-role}
-      + [Elija su ruta de aprendizaje](using/start/quick-start.md)
+   + Cómo comenzar según función {#by-role}
+      + [Elegir su ruta de aprendizaje](using/start/quick-start.md)
       + [Introducción como experto en marketing](using/start/path/marketer.md)
-      + [Introducción como ingeniero de datos](using/start/path/data-engineer.md)
+      + [Cómo comenzar como ingeniero de datos](using/start/path/data-engineer.md)
       + [Introducción como administrador](using/start/path/administrator.md)
       + [Introducción como desarrollador](using/start/path/developer.md)
-   + Trabaje de forma eficaz {#work-efficiently}
+   + Trabajar de manera eficaz {#work-efficiently}
       + [Navegación por la interfaz](using/start/user-interface.md)
       + [Buscar, filtrar y organizar](using/start/search-filter-categorize.md)
       + [IA y funciones inteligentes](using/start/ai-features.md)
@@ -52,7 +52,7 @@ ht-degree: 96%
 + Recorridos {#orchestrate-journeys}
    + [Introducción a los recorridos](using/building-journeys/journey.md)
    + [Tipos de recorrido y guía de selección](using/building-journeys/journey-types-selection.md)
-   + [Preguntas frecuentes sobre Journey Orchestration](using/building-journeys/journey-faq.md)
+   + [Preguntas frecuentes de Journey Orchestration](using/building-journeys/journey-faq.md)
    + Crear un recorrido {#create-journey}
       + [Crear un recorrido](/help/rp_landing_pages/create-journey-landing-page.md)
       + [Creación de su primer recorrido](using/building-journeys/journey-gs.md)
@@ -237,7 +237,7 @@ ht-degree: 96%
 + Monitorización y solución de problemas {#monitor}
    + [Monitorización y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Introducción al seguimiento](using/start/get-started-tracking.md)
-   + Entregabilidad de correos electrónicos {#deliverability}
+   + Entregabilidad del correo electrónico {#deliverability}
       + [Introducción a la Entregabilidad](using/reports/deliverability.md)
       + [Explicación de la lista de supresión](using/reports/suppression-list.md)
       + [Nuevo requisito de DMARC](using/configuration/dmarc-record-update.md)
@@ -600,7 +600,7 @@ ht-degree: 96%
       + [Preguntas frecuentes sobre Decisioning](using/experience-decisioning/decisioning-faq.md)
       + Referencia de la API {#experience-decisioning-api-reference}
          + [Referencia de la API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
-         + [Introducción a las API de decisiones](using/experience-decisioning/api-reference/getting-started.md)
+         + [Comenzar con API de Decisioning](using/experience-decisioning/api-reference/getting-started.md)
          + Elementos de decisión {#decision-items}
             + [Creación de elementos de decisión](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [Lista de elementos de decisión](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
@@ -680,7 +680,7 @@ ht-degree: 96%
          + [Caso práctico: insertar ofertas en un correo electrónico](using/offers/offers-e2e.md)
       + Crear componentes {#create-components}
          + [Crear componentes](/help/rp_landing_pages/create-components-landing-page.md)
-         + [Crear ubicaciones](using/offers/offer-library/creating-placements.md)
+         + [Creación de ubicaciones](using/offers/offer-library/creating-placements.md)
          + [Crear reglas de decisión](using/offers/offer-library/creating-decision-rules.md)
          + [Crear calificadores de colección](using/offers/offer-library/creating-tags.md)
       + Creación de clasificaciones {#rankings}
@@ -697,7 +697,7 @@ ht-degree: 96%
          + [Creación y administración de ofertas](/help/rp_landing_pages/managing-offers-in-the-offer-library-landing-page.md)
          + Configuración de ofertas {#configure-offers}
             + [Configuración de ofertas](/help/rp_landing_pages/configure-offers-landing-page.md)
-            + [Creación de ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
+            + [Crear ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
             + [Añadir representaciones](using/offers/offer-library/add-representations.md)
             + [Añadir restricciones](using/offers/offer-library/add-constraints.md)
          + [Crear ofertas de reserva](using/offers/offer-library/creating-fallback-offers.md)
@@ -836,7 +836,7 @@ ht-degree: 96%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
@@ -858,7 +858,7 @@ ht-degree: 96%
       + [Crear grupos de IP](using/configuration/ip-pools.md)
    + Implementar un plan de calentamiento de IP {#implement-ip-warmup-plan}
       + [Implementar un plan de calentamiento de IP](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
-      + [Guía de entrega de calentamiento de IP](using/configuration/ip-warmup-deliverability-guide.md)
+      + [Guía de entregabilidad de calentamiento de IP](using/configuration/ip-warmup-deliverability-guide.md)
       + [Introducción a los planes de calentamiento de IP](using/configuration/ip-warmup-gs.md)
       + [Creación de campañas de calentamiento de IP](using/configuration/ip-warmup-campaign.md)
       + [Creación de un plan de calentamiento de IP](using/configuration/ip-warmup-plan.md)

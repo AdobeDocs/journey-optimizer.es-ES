@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
 workflow-type: tm+mt
 source-wordcount: '3574'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 92%
 
 A continuación encontrará limitaciones y protecciones al usar [!DNL Adobe Journey Optimizer].
 
-Los derechos, limitaciones de productos y protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}.
+Los derechos, limitaciones de productos y protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 
 >[!CAUTION]
@@ -103,7 +103,7 @@ Las siguientes limitaciones se aplican a la actividad [canal de SMS](../sms/get-
 
 Los canales de entrada de [!DNL Journey Optimizer] se pueden dirigir a perfiles seudónimos, es decir, perfiles que no se han autenticado o que aún no se conocen porque no se han utilizado anteriormente en otros canales. Este es el caso, por ejemplo, al dirigirse a todos los visitantes o públicos en función de ID temporales como ECID.
 
-Esto aumenta el recuento total de perfiles interesados, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles interesados que ha adquirido. Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}. Puede comprobar el número de perfiles interesados en el [panel de control de uso de licencias](../audience/license-usage.md).
+Esto aumenta el recuento total de perfiles interesados, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles interesados que ha adquirido. Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Puede comprobar el número de perfiles interesados en el [panel de control de uso de licencias](../audience/license-usage.md).
 
 Para mantener los perfiles interesados dentro de límites razonables, Adobe recomienda establecer un período de vida (TTL, Time-To-Live) para eliminar automáticamente los perfiles seudónimos del perfil del cliente en tiempo real si no se han visto ni han interactuado en un intervalo de tiempo específico.
 
@@ -171,19 +171,19 @@ Las protecciones y limitaciones que se deben tener en cuenta al trabajar con la 
 * Una instancia de recorrido de un perfil tiene un tamaño máximo de 1 MB. Todos los datos recopilados como parte de la ejecución del recorrido se almacenan en esa instancia de recorrido. Por lo tanto, los datos de un evento entrante, la información de perfil recuperada de Adobe Experience Platform, las respuestas de acciones personalizadas, etc. se almacenan en esa instancia de recorrido y afectan al tamaño del recorrido. Se recomienda, cuando un recorrido comienza con un evento, limitar el tamaño máximo de esa carga útil de evento (p. ej.: por debajo de 800 KB) para evitar alcanzar ese límite después de unas pocas actividades, en la ejecución del recorrido. Cuando se alcanza ese límite, el perfil está en estado de error y se excluirá del recorrido.
 * Además del tiempo de espera utilizado en las actividades del recorrido, también hay un tiempo de espera de recorrido global que no se muestra en la interfaz y no se puede cambiar. Este tiempo de espera global detiene el progreso de los particulares en el recorrido 91 días después de su entrada. [Más información](../building-journeys/journey-properties.md#global_timeout)
 
-### Seleccionar limitaciones de paquetes para recorridos unitarios {#select-package-limitations}
+### Seleccione limitaciones de paquetes para recorridos unitarios {#select-package-limitations}
 
 >[!NOTE]
 >
->Estas limitaciones no se aplican a los recorridos de audiencia de lectura o de evento empresarial con el paquete **Select**. Si necesita una lógica de recorrido más compleja con varias acciones, condiciones o actividades de espera, considere la posibilidad de actualizar el paquete de licencias o utilizar Leer recorridos de audiencia cuando corresponda.
+>Estas limitaciones no se aplican a los recorridos de Leer público o Evento empresarial con el paquete **Selección**. Si necesita una lógica de recorrido más compleja con varias acciones, condiciones o actividades de espera, considere la posibilidad de actualizar el paquete de licencias o utilizar recorridos de Leer público cuando corresponda.
 
-Para los clientes que usan el paquete de licencia **Select**, las siguientes limitaciones adicionales se aplican específicamente a recorridos unitarios, recorridos que comienzan con un evento o una calificación de audiencia:
+Para los clientes que usan el paquete de licencia **Select**, las siguientes limitaciones adicionales se aplican específicamente a recorridos unitarios, recorridos que comienzan con un evento o una calificación de público:
 
-* **paquete SELECT: solo se permite una acción en el recorrido unitario (ERR_PKG_SELECT_8)**: los recorridos unitarios solo pueden contener una actividad de acción. No puede agregar varias actividades de correo electrónico, push, SMS u otras actividades de acción dentro del mismo recorrido.
+* **Paquete SELECT: solo se permite una acción en el recorrido unitario (ERR_PKG_SELECT_8)**: los recorridos unitarios solo pueden contener una actividad de acción. No puede añadir varias actividades de correo electrónico, push, SMS u otras actividades de acción dentro del mismo recorrido.
 
 * **Paquete SELECT: no se permite ninguna condición en el recorrido unitario (ERR_PKG_SELECT_7)**: las actividades de condición no se pueden usar en los recorridos unitarios. El recorrido debe seguir una única ruta lineal sin lógica de ramificación.
 
-* **paquete SELECT: no se permite ninguna espera en el recorrido unitario (ERR_PKG_SELECT_6)**: no se pueden agregar actividades de espera a los recorridos unitarios. Las acciones deben ejecutarse inmediatamente sin retrasos.
+* **Paquete SELECT: no se permite ninguna espera en el recorrido unitario (ERR_PKG_SELECT_6)**: no se pueden añadir actividades de espera a los recorridos unitarios. Las acciones deben ejecutarse inmediatamente sin retrasos.
 
 * **Paquete SELECT: la transición de tiempo de espera/error del nodo solo debe apuntar al nodo final (ERR_PKG_SELECT_2)**: Si configura las transiciones de tiempo de espera o error para una acción, como una acción de correo electrónico, estas rutas deben apuntar directamente a un nodo final. No pueden conectarse a otras actividades o acciones del recorrido.
 
@@ -318,7 +318,7 @@ Especifique protecciones específicas de la actividad **[!UICONTROL Saltar]**. S
 Las siguientes limitaciones se aplican a la actividad de recorrido [Público de lectura](../building-journeys/read-audience.md):
 
 * Los públicos transmitidos siempre están actualizados, pero los públicos por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.
-* En la entrada de recorrido, los perfiles utilizan valores de atributo de la instantánea de audiencia por lotes. Sin embargo, cuando un perfil alcanza una actividad de **Wait**, el recorrido actualiza automáticamente los atributos del perfil al recuperar los datos más recientes del Servicio de perfil unificado (UPS). Esto significa que los atributos de perfil pueden cambiar durante la ejecución del recorrido.
+* En la entrada de recorrido, los perfiles utilizan valores de atributo de la instantánea de público por lotes. Sin embargo, cuando un perfil alcanza una actividad de **Espera**, el recorrido actualiza automáticamente los atributos del perfil al recuperar los datos más recientes del Servicio de perfil unificado (UPS). Esto significa que los atributos de perfil pueden cambiar durante la ejecución del recorrido.
 * Para los recorridos que utilizan una actividad **Leer público**, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con **Leer público**, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos. Obtenga más información sobre las tasas de procesamiento de recorridos en [esta sección](../building-journeys/entry-management.md#journey-processing-rate).
 * La actividad **Leer público** no se puede utilizar con actividades de Adobe Campaign.
 * La actividad **Leer público** solo puede utilizarse como primera actividad en un recorrido o después de una actividad de evento empresarial.
