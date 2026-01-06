@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: probar, validar, aprobar, aprobación, garantía de calidad, control de calidad, perfiles de prueba, personalización, procesamiento, comprobación de spam, experimento de contenido, prueba a/b, detección de conflictos, lista semilla, pruebas, datos de muestra, flujo de trabajo de aprobación, prueba de correo electrónico, flujo de trabajo de validación
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 5b1a68bb64fc55de894cb97a5239f4e1cd77fb40
+source-git-commit: 670503f9aedcd3008b3cd63c0ec6e59fac3dc31a
 workflow-type: tm+mt
-source-wordcount: '2308'
-ht-degree: 5%
+source-wordcount: '2328'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ Esta página de aterrizaje le ayuda a elegir el método de prueba adecuado segú
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Vista previa, prueba y validación de contenido
 
@@ -36,7 +36,7 @@ Obtenga información sobre cómo obtener una vista previa, probar y validar cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flujos de trabajo de aprobación para recorridos y campañas
 
@@ -46,7 +46,7 @@ Obtenga información sobre cómo configurar, administrar y ejecutar procesos de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prueba del recorrido
 
@@ -56,7 +56,7 @@ Valide el recorrido antes de publicarlo probándolo con perfiles específicos pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ensayo del recorrido 
 
@@ -66,7 +66,7 @@ Realice un ensayo para simular y validar la ruta de ejecución del recorrido e i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitorización y solución de problemas
 
@@ -76,7 +76,7 @@ Acceda a recursos completos de solución de problemas, alertas del sistema y có
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -96,7 +96,7 @@ Optimice sus campañas probando varias variaciones de contenido y midiendo el re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas semilla para la monitorización de partes interesadas
 
@@ -106,7 +106,7 @@ Incluya automáticamente direcciones de partes interesadas internas en los enví
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detección de conflictos
 
@@ -305,12 +305,55 @@ Siga este enfoque de 4 fases para validar sus campañas y recorridos antes del l
 
 Consulte cómo se aplican los conceptos de prueba a los escenarios reales:
 
-| Caso de uso | Lo que aprenderá | Enfoque clave de las pruebas |
-|----------|-------------------|-------------------|
-| **[Enviar mensajes multicanal](../using/building-journeys/journeys-uc.md)** | Pruebe un recorrido que combine Leer audiencia, eventos de reacción y mensajes push/de correo electrónico. Valide todo el flujo desde la segmentación de audiencia hasta la entrega de mensajes. | Coordinación multicanal, eventos de reacción, validación de flujo de extremo a extremo, pasos de prueba y publicación |
-| **[Enviar un mensaje a los suscriptores](../using/building-journeys/message-to-subscribers-uc.md)** | Recorridos de prueba dirigidos a listas de suscripción con direccionamiento de correo electrónico dinámico. Valide expresiones de personalización para la segmentación correcta de suscriptores. | expresiones Personalization, direccionamiento dinámico, segmentación de listas de suscripción |
-| **[Enviar mensajes con límite de tiempo](../using/building-journeys/weekday-email-uc.md)** | Recorridos de prueba con condiciones basadas en el tiempo para garantizar que los mensajes se envíen en días específicos. Validar las actividades de espera y la lógica de programación. | Condiciones basadas en el tiempo, actividades de espera, validación de programación |
-| **[Explorar más casos de uso de recorrido](../using/building-journeys/jo-use-cases.md)** | Acceda a una colección completa de ejemplos prácticos que abarcan eventos de experiencia, mensajería multicanal e integraciones de sistemas externos. | Varios escenarios, patrones avanzados, pruebas de integración |
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../using/building-journeys/journeys-uc.md">
+<img alt="Envío de mensajes multicanal" src="../using/assets/do-not-localize/start-journey.jpeg">
+</a>
+<div>
+<a href="../using/building-journeys/journeys-uc.md"><strong>Enviar mensajes multicanal</strong></a>
+</div>
+<p>
+Pruebe un recorrido que combine Leer audiencia, eventos de reacción y mensajes push/de correo electrónico. Valide todo el flujo desde la segmentación de audiencia hasta la entrega de mensajes. Céntrese en la coordinación multicanal, los eventos de reacción, la validación de flujo de extremo a extremo y los pasos de prueba/publicación.
+</p>
+</td>
+<td>
+<a href="../using/building-journeys/message-to-subscribers-uc.md">
+<img alt="Envío de un mensaje a los suscriptores" src="../using/assets/do-not-localize/start-quick.png">
+</a>
+<div>
+<a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Enviar un mensaje a los suscriptores</strong></a>
+</div>
+<p>
+Recorridos de prueba dirigidos a listas de suscripción con direccionamiento de correo electrónico dinámico. Valide expresiones de personalización para la segmentación correcta de suscriptores. Céntrese en las expresiones de personalización, el direccionamiento dinámico y la segmentación de listas de suscripción.
+</p>
+</td>
+<td>
+<a href="../using/building-journeys/weekday-email-uc.md">
+<img alt="Envío de mensajes con tiempo limitado" src="../using/assets/do-not-localize/icon-first-journey.svg">
+</a>
+<div>
+<a href="../using/building-journeys/weekday-email-uc.md"><strong>Enviar mensajes con límite de tiempo</strong></a>
+</div>
+<p>
+Recorridos de prueba con condiciones basadas en el tiempo para garantizar que los mensajes se envíen en días específicos. Validar las actividades de espera y la lógica de programación. Céntrese en las condiciones basadas en el tiempo, las actividades de espera y la validación de programación.
+</p>
+</td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../using/building-journeys/jo-use-cases.md">
+<img alt="Explorar más casos de uso de recorrido" src="../using/assets/do-not-localize/icon-quick-start.svg">
+</a>
+<div>
+<a href="../using/building-journeys/jo-use-cases.md"><strong>Explorar más casos de uso de recorrido</strong></a>
+</div>
+<p>
+Acceda a una completa colección de ejemplos prácticos que abarcan eventos de experiencia, mensajería multicanal e integraciones de sistemas externos. Explore varios escenarios, patrones avanzados y enfoques de prueba de integración.
+</p>
+</td>
+</tr></table>
 
 ## Terminología clave
 
