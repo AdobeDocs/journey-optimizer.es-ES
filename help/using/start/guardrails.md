@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
+source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
 workflow-type: tm+mt
-source-wordcount: '3574'
-ht-degree: 99%
+source-wordcount: '3661'
+ht-degree: 96%
 
 ---
 
@@ -21,19 +21,19 @@ A continuación encontrará limitaciones y protecciones al usar [!DNL Adobe Jour
 
 Los derechos, limitaciones de productos y protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-
 >[!CAUTION]
 >
 >* Los [mecanismos de protección de los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails){target="_blank"} también se aplican a Adobe Journey Optimizer.
 >
 >* Consulte también [Mecanismos de protección para la ingesta de datos en el perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
+## Sistema y plataforma {#system-platform}
 
-## Navegadores admitidos {#browsers}
+### Navegadores admitidos {#browsers}
 
 La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de forma óptima en la última versión de Google Chrome. Es posible que tenga problemas al utilizar determinadas funciones en versiones anteriores u otros navegadores.
 
-## Mecanismos de protección de los conjuntos de datos {#datasets-guardrails}
+### Mecanismos de protección de los conjuntos de datos {#datasets-guardrails}
 
 A partir de febrero de 2025, se implementará gradualmente un mecanismo de protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en las **nuevas zonas protegidas y organizaciones** de la siguiente manera:
 
@@ -42,12 +42,13 @@ A partir de febrero de 2025, se implementará gradualmente un mecanismo de prote
 
 Este cambio se implementará en las **zonas protegidas de clientes existentes** en una fase posterior. [Obtenga más información sobre los mecanismos de protección de tiempo de vida (Time-To-Live, TTL) de los conjuntos de datos](../data/datasets-ttl.md)
 
-## Protecciones de canales {#channel-guardrails}
+## Canales y mensajería {#channel-guardrails}
+
+Esta sección cubre las protecciones para todos los canales de comunicación, incluidos el correo electrónico, los SMS, los canales entrantes (web, en la aplicación, basados en código, tarjetas de contenido) y los mensajes transaccionales.
 
 >[!NOTE]
 >
 >En circunstancias excepcionales, las interrupciones temporales en una región específica pueden provocar que se excluyan perfiles válidos de los recorridos o que los correos electrónicos se marquen incorrectamente como rechazos. Una vez restaurados los servicios, vuelva a comprobar los registros del recorrido, compruebe los campos de perfil de consentimiento y vuelva a publicar el recorrido si fuera necesario. En caso de una interrupción de ISP, aprenda a quitar perfiles de la lista de supresión en [esta sección](../configuration/manage-suppression-list.md#remove-from-suppression-list).
->
 
 ### Protecciones de correo electrónico {#message-guardrails}
 
@@ -117,7 +118,11 @@ Adobe recomienda establecer el valor TTL en 14 días para que coincida con el TT
 
 Journey Optimizer admite un volumen máximo de 500 mensajes transaccionales por segundo en las campañas.
 
-## Mecanismos de protección de las páginas de destino {#lp-guardrails}
+## Contenido y Assets {#content-assets}
+
+Esta sección cubre las barreras para la creación y administración de contenido, incluidas las páginas de aterrizaje, subdominios y fragmentos.
+
+### Mecanismos de protección de las páginas de destino {#lp-guardrails}
 
 Las siguientes limitaciones se aplican a las [páginas de destino](../landing-pages/get-started-lp.md):
 
@@ -126,11 +131,11 @@ Las siguientes limitaciones se aplican a las [páginas de destino](../landing-pa
 * No puede agregar un preencabezado a una página de destino.
 * No puede seleccionar la opción **Programar usted mismo** al diseñar una página de aterrizaje principal.
 
-## Protecciones de subdominios {#subdomain-guardrails}
+### Protecciones de subdominios {#subdomain-guardrails}
 
 Las protecciones y limitaciones aplicables a la delegación de subdominios en Journey Optimizer se detallan en [esta página](../configuration/delegate-subdomain.md#guardrails).
 
-## Protecciones de fragmentos {#fragments-guardrails}
+### Protecciones de fragmentos {#fragments-guardrails}
 
 Las siguientes limitaciones se aplican a los [fragmentos](../content-management/fragments.md):
 
@@ -143,7 +148,11 @@ Las siguientes limitaciones se aplican a los [fragmentos](../content-management/
 * Los fragmentos visuales no son compatibles entre los modos Usar temas y Estilo manual. Para poder utilizar un fragmento en un contenido en el que desee aplicar una temática, este fragmento debe crearse en el modo Usar temas. [Más información sobre los temas](../email/apply-email-themes.md)
 * Cuando el seguimiento está habilitado en un recorrido o una campaña, si agrega vínculos a un fragmento y este se utiliza en un mensaje, se realiza el seguimiento de estos vínculos, al igual que todos los demás incluidos en el mensaje. [Más información sobre vínculos y seguimiento](../email/message-tracking.md)
 
-## Mecanismos de protección de público y perfil {#audience}
+## Audiencias y perfiles {#audiences-profiles}
+
+Esta sección cubre las protecciones para la gestión de audiencias, la administración de perfiles y las consideraciones de perfil atractivas.
+
+### Mecanismos de protección de público y perfil {#audience}
 
 * Puede publicar hasta 10 composiciones de público en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
 
@@ -153,14 +162,18 @@ Las siguientes limitaciones se aplican a los [fragmentos](../content-management/
 
 * Cuando se dirija a perfiles seudónimos (visitantes no autenticados) con canales de entrada, considere la posibilidad de establecer un tiempo de vida (TTL) para la eliminación automática de perfiles a fin de administrar el recuento de perfiles atractivos y los costes asociados. [Más información](#profile-management-inbound)
 
-## Mecanismos de protección de gestión de decisiones y toma de decisiones {#decisioning-guardrails}
+## Gestión de decisiones {#decision-management}
+
+### Mecanismos de protección de gestión de decisiones y toma de decisiones {#decisioning-guardrails}
 
 Las protecciones y limitaciones que se deben tener en cuenta al trabajar con la toma de decisiones o la administración de decisiones se detallan en estas secciones de la toma de decisiones y la administración de decisiones:
 
 * [Limitaciones y protecciones de decisiones](../experience-decisioning/decisioning-guardrails.md)
 * [Limitaciones y mecanismos de protección de gestión de decisiones](../offers/decision-management-guardrails.md)
 
-## Mecanismos de protección de recorridos {#journeys-guardrails}
+## Recorridos {#journeys-guardrails}
+
+Esta sección cubre las protecciones y limitaciones de los recorridos, incluidas las limitaciones generales de recorrido, los componentes de recorrido (acciones, eventos, fuentes de datos), las actividades de recorrido y las funciones específicas como las acciones personalizadas y el editor de expresiones.
 
 ### Protecciones generales del recorrido {#journeys-guardrails-journeys}
 
@@ -333,6 +346,8 @@ Consulte [esta página](../building-journeys/read-audience.md#must-read).
 
 Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL Actualizar perfil]**. Se muestran en [esta página](../building-journeys/update-profiles.md).
 
-## Mecanismos de protección en orquestación de campañas {#orchestration-guardrails}
+## Orquestación de campañas  {#campaign-orchestration}
+
+### Mecanismos de protección en orquestación de campañas {#orchestration-guardrails}
 
 Los mecanismos de protección y las limitaciones que se deben tener en cuenta al trabajar con la orquestación de campañas se detallan en esta sección: [Mecanismos de protección y limitaciones](../orchestrated/guardrails.md).
