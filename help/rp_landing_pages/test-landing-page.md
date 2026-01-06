@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: probar, validar, aprobar, aprobación, garantía de calidad, control de calidad, perfiles de prueba, personalización, procesamiento, comprobación de spam, experimento de contenido, prueba a/b, detección de conflictos, lista semilla, pruebas, datos de muestra, flujo de trabajo de aprobación, prueba de correo electrónico, flujo de trabajo de validación
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 23ca6aa1372e66439002f02896e46ccead7e28ce
+source-git-commit: c3535f39b351d671054031b9cc391bf6d9d83a09
 workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 6%
@@ -26,7 +26,7 @@ Esta página de aterrizaje le ayuda a elegir el método de prueba adecuado segú
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Vista previa, prueba y validación de contenido
 
@@ -36,7 +36,7 @@ Obtenga información sobre cómo obtener una vista previa, probar y validar cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flujos de trabajo de aprobación para recorridos y campañas
 
@@ -46,7 +46,7 @@ Obtenga información sobre cómo configurar, administrar y ejecutar procesos de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prueba del recorrido
 
@@ -56,7 +56,7 @@ Valide el recorrido antes de publicarlo probándolo con perfiles específicos pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ensayo del recorrido 
 
@@ -66,7 +66,7 @@ Realice un ensayo para simular y validar la ruta de ejecución del recorrido e i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitorización y solución de problemas
 
@@ -76,7 +76,7 @@ Acceda a recursos completos de solución de problemas, alertas del sistema y có
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -86,7 +86,7 @@ Experimente con expresiones de personalización en un entorno seguro. Pruebe el 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Experimentos de contenido y pruebas A/B
 
@@ -96,7 +96,7 @@ Optimice sus campañas probando varias variaciones de contenido y midiendo el re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas semilla para la monitorización de partes interesadas
 
@@ -106,7 +106,7 @@ Incluya automáticamente direcciones de partes interesadas internas en los enví
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detección de conflictos
 
@@ -373,7 +373,7 @@ Familiarícese con estos conceptos esenciales de prueba para comprender mejor la
 
 **[Pruebas](../using/content-management/proofs.md)**: pruebe los envíos de correo electrónico enviados a direcciones de correo electrónico específicas mediante datos de perfil de prueba. A diferencia de las listas semilla (las pruebas son envíos de prueba manuales, las listas semilla son copias automáticas de las partes interesadas). [Enviar pruebas](../using/content-management/proofs.md)
 
-**[Detección de conflictos](../using/conflict-prioritization/conflicts.md)**: herramienta que identifica campañas y recorridos superpuestos dirigidos a las mismas audiencias. Compatibilidad de recorrido limitada: tipos de audiencia unitarios, de calificación de audiencia y de lectura de audiencia solamente. [Más información acerca de la administración de conflictos](../using/conflict-prioritization/gs-conflict-prioritization.md)
+**[Detección de conflictos](../using/conflict-prioritization/conflicts.md)**: herramienta que identifica campañas y recorridos superpuestos dirigidos a las mismas audiencias. Compatibilidad de recorrido limitada: tipos de audiencia unitarios, de calificación de audiencia y de lectura de audiencia solamente. [Más información sobre la gestión de conflictos](../using/conflict-prioritization/gs-conflict-prioritization.md)
 
 **[Flujos de trabajo de aprobación](../using/test-approve/gs-approval.md)**: proceso de revisión de varios pasos que requiere la aprobación de las partes interesadas antes de la activación. Requiere la configuración de directiva de aprobación. [Configurar aprobaciones](../using/test-approve/gs-approval.md) | [Crear directivas](../using/test-approve/approval-policies.md)
 
