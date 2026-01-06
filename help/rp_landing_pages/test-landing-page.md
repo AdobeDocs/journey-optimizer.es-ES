@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: probar, validar, aprobar, aprobación, garantía de calidad, control de calidad, perfiles de prueba, personalización, procesamiento, comprobación de spam, experimento de contenido, prueba a/b, detección de conflictos, lista semilla, pruebas, datos de muestra, flujo de trabajo de aprobación, prueba de correo electrónico, flujo de trabajo de validación
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 1fd6f4cc191a65fcd62457ee22509473bbfe2b98
+source-git-commit: ab78157988c533b3dc8a0c747bf094649c7a8671
 workflow-type: tm+mt
 source-wordcount: '2753'
 ht-degree: 4%
@@ -21,6 +21,101 @@ ht-degree: 4%
 Esta sección cubre todas las funcionalidades de prueba y aprobación de Journey Optimizer. Encontrará herramientas para obtener una vista previa del contenido con perfiles de prueba, validar la lógica de recorrido, comprobar el procesamiento de los correos electrónicos y las puntuaciones de spam, ejecutar experimentos A/B, detectar conflictos y configurar flujos de trabajo de aprobación.
 
 Esta página de aterrizaje le ayuda a elegir el método de prueba adecuado según lo que esté creando (campañas frente a recorridos), le guía por los flujos de trabajo de prueba recomendados y le proporciona un acceso rápido a todos los recursos de prueba y aprobación. Empiece por [Elija su método de prueba](#choose-your-testing-approach) a continuación para identificar qué herramientas se aplican a su caso de uso. Para ver definiciones de términos clave de prueba, consulte [Terminología clave](#key-terminology).
+
+## Probar y aprobar contenido
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Vista previa, prueba y validación de contenido
+
+Obtenga información sobre cómo obtener una vista previa, probar y validar contenido personalizado mediante perfiles de prueba, pruebas de presentación de correo electrónico, evaluaciones de puntuación de spam y mucho más.
+
+[Explorar vista previa y prueba del contenido](preview-test-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+
+Flujos de trabajo de aprobación para recorridos y campañas
+
+Obtenga información sobre cómo configurar, administrar y ejecutar procesos de aprobación para garantizar el control de calidad de recorridos y campañas.
+
+[Más información sobre flujos de trabajo de aprobación](approve-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Prueba del recorrido
+
+Valide el recorrido antes de publicarlo probándolo con perfiles específicos para garantizar que los eventos, las condiciones y las acciones funcionan según lo esperado. Disponible para recorridos de borrador que utilizan un área de nombres.
+
+[Prueba del recorrido](../using/building-journeys/testing-the-journey.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+Ensayo del recorrido 
+
+Realice un ensayo para simular y validar la ruta de ejecución del recorrido e identificar posibles problemas antes de publicarlo.
+
+[Más información sobre el ensayo del recorrido](../using/building-journeys/journey-dry-run.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+Monitorización y solución de problemas
+
+Acceda a recursos completos de solución de problemas, alertas del sistema y códigos de error para resolver los problemas de rendimiento y ejecución del recorrido.
+
+[Ver monitorización y solución de problemas](troubleshoot-journey-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+Personalization Playground
+
+Experimente con expresiones de personalización en un entorno seguro. Pruebe el código con datos de ejemplo y previsualice los resultados antes de aplicarlo a sus campañas y recorridos.
+
+[Obtenga información sobre el patio de Personalization](../using/personalization/personalize.md#playground)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
+
+Experimentos de contenido y pruebas A/B
+
+Optimice sus campañas probando varias variaciones de contenido y midiendo el rendimiento para identificar los tratamientos con mejor rendimiento. Disponible solo para campañas (admite experimentos de bandidos A/B y con varios brazos).
+
+[Obtenga Información Sobre Los Experimentos De Contenido](../using/content-management/get-started-experiment.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+Listas semilla para la monitorización de partes interesadas
+
+Incluya automáticamente direcciones de partes interesadas internas en los envíos para monitorizar los mensajes reales enviados a los clientes y garantizar la calidad y el cumplimiento. Disponible solo para el canal de correo electrónico.
+
+[Configuración de listas semilla](../using/configuration/seed-lists.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+
+Detección de conflictos
+
+Identifique posibles superposiciones entre campañas y recorridos para evitar saturar a los clientes con demasiadas comunicaciones simultáneas. Disponible para campañas y recorridos unitarios, de cualificación de audiencias y de lectura de audiencias.
+
+[Detectar conflictos](../using/conflict-prioritization/conflicts.md)
+:::
+
+::::
 
 ## Por qué importan las pruebas y la aprobación
 
@@ -287,101 +382,6 @@ Consulte cómo se aplican los conceptos de prueba a los escenarios reales:
 | **[Enviar un mensaje a los suscriptores](../using/building-journeys/message-to-subscribers-uc.md)** | Recorridos de prueba dirigidos a listas de suscripción con direccionamiento de correo electrónico dinámico. Valide expresiones de personalización para la segmentación correcta de suscriptores. | expresiones Personalization, direccionamiento dinámico, segmentación de listas de suscripción |
 | **[Enviar mensajes con límite de tiempo](../using/building-journeys/weekday-email-uc.md)** | Recorridos de prueba con condiciones basadas en el tiempo para garantizar que los mensajes se envíen en días específicos. Validar las actividades de espera y la lógica de programación. | Condiciones basadas en el tiempo, actividades de espera, validación de programación |
 | **[Explorar más casos de uso de recorrido](../using/building-journeys/jo-use-cases.md)** | Acceda a una colección completa de ejemplos prácticos que abarcan eventos de experiencia, mensajería multicanal e integraciones de sistemas externos. | Varios escenarios, patrones avanzados, pruebas de integración |
-
-## Probar y aprobar contenido
-
-:::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
-
-Vista previa, prueba y validación de contenido
-
-Obtenga información sobre cómo obtener una vista previa, probar y validar contenido personalizado mediante perfiles de prueba, pruebas de presentación de correo electrónico, evaluaciones de puntuación de spam y mucho más.
-
-[Explorar vista previa y prueba del contenido](preview-test-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
-
-Flujos de trabajo de aprobación para recorridos y campañas
-
-Obtenga información sobre cómo configurar, administrar y ejecutar procesos de aprobación para garantizar el control de calidad de recorridos y campañas.
-
-[Más información sobre flujos de trabajo de aprobación](approve-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
-
-Prueba del recorrido
-
-Valide el recorrido antes de publicarlo probándolo con perfiles específicos para garantizar que los eventos, las condiciones y las acciones funcionan según lo esperado. Disponible para recorridos de borrador que utilizan un área de nombres.
-
-[Prueba del recorrido](../using/building-journeys/testing-the-journey.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
-
-Ensayo del recorrido 
-
-Realice un ensayo para simular y validar la ruta de ejecución del recorrido e identificar posibles problemas antes de publicarlo.
-
-[Más información sobre el ensayo del recorrido](../using/building-journeys/journey-dry-run.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
-
-Monitorización y solución de problemas
-
-Acceda a recursos completos de solución de problemas, alertas del sistema y códigos de error para resolver los problemas de rendimiento y ejecución del recorrido.
-
-[Ver monitorización y solución de problemas](troubleshoot-journey-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
-
-Personalization Playground
-
-Experimente con expresiones de personalización en un entorno seguro. Pruebe el código con datos de ejemplo y previsualice los resultados antes de aplicarlo a sus campañas y recorridos.
-
-[Obtenga información sobre el patio de Personalization](../using/personalization/personalize.md#playground)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
-
-Experimentos de contenido y pruebas A/B
-
-Optimice sus campañas probando varias variaciones de contenido y midiendo el rendimiento para identificar los tratamientos con mejor rendimiento. Disponible solo para campañas (admite experimentos de bandidos A/B y con varios brazos).
-
-[Obtenga Información Sobre Los Experimentos De Contenido](../using/content-management/get-started-experiment.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
-
-Listas semilla para la monitorización de partes interesadas
-
-Incluya automáticamente direcciones de partes interesadas internas en los envíos para monitorizar los mensajes reales enviados a los clientes y garantizar la calidad y el cumplimiento. Disponible solo para el canal de correo electrónico.
-
-[Configuración de listas semilla](../using/configuration/seed-lists.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
-
-Detección de conflictos
-
-Identifique posibles superposiciones entre campañas y recorridos para evitar saturar a los clientes con demasiadas comunicaciones simultáneas. Disponible para campañas y recorridos unitarios, de cualificación de audiencias y de lectura de audiencias.
-
-[Detectar conflictos](../using/conflict-prioritization/conflicts.md)
-:::
-
-::::
 
 ## Terminología clave
 
