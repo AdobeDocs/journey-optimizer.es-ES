@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
+source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
 workflow-type: tm+mt
-source-wordcount: '3038'
+source-wordcount: '3041'
 ht-degree: 99%
 
 ---
@@ -235,8 +235,8 @@ ht-degree: 99%
       + [Solicitud de aprobación](using/test-approve/request-approval.md)
       + [Aprobación de una solicitud](using/test-approve/review-approve-request.md)
 + Monitorización y solución de problemas {#monitor}
-   + [Monitorización y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [Introducción al seguimiento](using/start/get-started-tracking.md)
+   + [Introducción a la monitorización y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+   + [Seguimiento en Journey Optimizer](using/start/get-started-tracking.md)
    + Entregabilidad del correo electrónico {#deliverability}
       + [Introducción a la Entregabilidad](using/reports/deliverability.md)
       + [Explicación de la lista de supresión](using/reports/suppression-list.md)
@@ -836,7 +836,7 @@ ht-degree: 99%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}

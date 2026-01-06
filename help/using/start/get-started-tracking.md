@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Beginner
 keywords: seguimiento, monitorización, análisis, sistema de informes, capacidad de entrega
-source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
+source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Introducción al seguimiento en Journey Optimizer {#get-started-tracking}
 
-El seguimiento y la monitorización le permiten medir la eficacia de las campañas, optimizar las experiencias de los clientes y garantizar que los mensajes lleguen a los destinatarios deseados. Journey Optimizer proporciona funciones de seguimiento completas que capturan las interacciones de los clientes, el rendimiento de la entrega y el estado del sistema, lo que le ayuda a tomar decisiones basadas en datos respetando la privacidad y manteniendo el cumplimiento.
+El seguimiento le permite medir la eficacia de las campañas, optimizar las experiencias de los clientes y garantizar que los mensajes lleguen a los destinatarios deseados. Journey Optimizer proporciona funciones de seguimiento completas que capturan las interacciones de los clientes, el rendimiento de la entrega y el estado del sistema, lo que le ayuda a tomar decisiones basadas en datos respetando la privacidad y manteniendo el cumplimiento.
 
 La mayoría del seguimiento se configura automáticamente al crear mensajes y recorridos. En los casos avanzados, puede configurar métricas personalizadas, configurar parámetros de URL e integrarlos con plataformas de análisis externas. Acceda a los datos de seguimiento a través de informes integrados o exporte los datos para un análisis más profundo en Customer Journey Analytics.
 
@@ -232,9 +232,9 @@ Más allá del seguimiento a nivel de canal, configure el seguimiento para medir
 
 * **Configurar la supervisión de acciones personalizadas**: configure el seguimiento de integraciones con sistemas externos para supervisar llamadas de API, tiempos de respuesta y patrones de error. [Más información](../action/reporting.md)
 
-* **Informes personalizados y exportación de datos**: cree informes personalizados y exporte datos de seguimiento a sistemas externos para un análisis más profundo. [Más información](../reports/sharing-overview.md)
+* **Crear informes personalizados y exportar datos**: cree informes personalizados y exporte datos de seguimiento a sistemas externos para un análisis más profundo. [Más información](../reports/sharing-overview.md)
 
-**Ver rendimiento unificado:** Acceda a informes completos tanto para campañas como para recorridos con el fin de comparar el rendimiento en correo electrónico, mensajes push, SMS y otros canales, y para comprender qué combinaciones obtienen los mejores resultados. [Informes de campaña](../reports/campaign-global-report-cja.md) | [Informes de Recorrido](../reports/journey-global-report-cja.md)
+* **Ver rendimiento unificado:** Acceda a informes completos tanto para campañas como para recorridos con el fin de comparar el rendimiento en correo electrónico, mensajes push, SMS y otros canales, y para comprender qué combinaciones obtienen los mejores resultados. [Informes de campaña](../reports/campaign-global-report-cja.md) | [Informes de Recorrido](../reports/journey-global-report-cja.md)
 
 ## Seguimiento de la optimización y el rendimiento de decisiones {#optimization-decisioning-tracking}
 
@@ -242,27 +242,29 @@ Journey Optimizer realiza automáticamente un seguimiento de los experimentos de
 
 ### Configuración del seguimiento de optimización {#optimization-tracking}
 
-* **Optimización en tus campañas y recorridos**
+* **Optimización en tus campañas y recorridos**:
 
    * Al crear experimentos, defina qué métricas rastrear (conversiones, clics, eventos personalizados). Journey Optimizer recopila automáticamente datos de rendimiento para cada tratamiento. [Más información](../campaigns/campaigns-message-optimization.md#experimentation)
 
    * Cree reglas de segmentación para entregar contenido diferente a segmentos de audiencia diferentes. Journey Optimizer realiza automáticamente un seguimiento de las métricas de participación de cada grupo de destino, lo que le permite comparar el rendimiento entre segmentos. [Más información](../campaigns/campaigns-message-optimization.md#targeting)
 
-* **Optimización de ruta de Recorrido** - Agregue una actividad **Optimizar** a su recorrido y configure varias rutas. Journey Optimizer realiza automáticamente un seguimiento de las rutas que toman los perfiles y mide el rendimiento. [Más información](../building-journeys/optimize.md)
+* **Optimización de ruta de Recorrido**: Agregue una actividad **Optimizar** a su recorrido y configure varias rutas. Journey Optimizer realiza automáticamente un seguimiento de las rutas que toman los perfiles y mide el rendimiento. [Más información](../building-journeys/optimize.md)
 
-**Analizar resultados:** Ver las tasas de conversión, la relevancia estadística y el alza entre tratamientos en los informes de experimentación, o comparar las métricas de participación entre segmentos segmentados. [Informe de campaña de experimentación](../reports/campaign-global-report-cja-experimentation.md) | [Informe de recorrido de experimentación](../reports/journey-global-report-cja-experimentation.md) | [informe de segmentación de Recorridos](../reports/journey-global-report-cja.md#targeting)
+Para analizar los resultados: vea las tasas de conversión, la relevancia estadística y el alza entre tratamientos en los informes de experimentación, o compare las métricas de participación entre segmentos segmentados. [Informe de campaña de experimentación](../reports/campaign-global-report-cja-experimentation.md) | [Informe de recorrido de experimentación](../reports/journey-global-report-cja-experimentation.md) | [informe de segmentación de Recorridos](../reports/journey-global-report-cja.md#targeting)
 
 ### Seguimiento del rendimiento de decisiones {#decisioning-tracking}
 
 Al utilizar Decisioning para personalizar el contenido, Journey Optimizer rastrea automáticamente los eventos de decisión, las impresiones y los clics sin necesidad de configuración adicional.
 
 * **Captura automática de eventos**: Journey Optimizer captura automáticamente los eventos de decisión cada vez que se selecciona un elemento de decisión para un perfil.
-* **Seguimiento de impresiones**: en el caso de los mensajes de correo electrónico, las impresiones se rastrean automáticamente. Para las experiencias basadas en código, debe implementar eventos de visualización de propuestas en el código.
+* **Seguimiento de impresiones**: en el caso de los mensajes de correo electrónico, las impresiones se rastrean automáticamente. Para las experiencias basadas en código, debe implementar eventos de visualización de propuestas en el código. [Más información](../code-based/code-based-implementation-samples.md#client-side-how)
 * **Seguimiento de clics**: Los clics en elementos de decisión se rastrean automáticamente en correos electrónicos; las experiencias basadas en código requieren la implementación de eventos de clic.
 
-**Requisitos previos para el seguimiento basado en código:** Para realizar el seguimiento de las decisiones en experiencias basadas en código, asegúrese de que la implementación envía eventos de interacción de propuestas (visualizaciones y clics) a Adobe Experience Platform mediante Web SDK o Mobile SDK. [Más información](../experience-decisioning/data-collection/schema-requirement.md)
+>[!NOTE]
+>
+>Para realizar un seguimiento de las decisiones en **experiencias basadas en código**, asegúrese de que la implementación envíe eventos de interacción de propuestas (visualizaciones y clics) a Adobe Experience Platform mediante Web SDK o Mobile SDK. [Más información](../experience-decisioning/data-collection/schema-requirement.md)
 
-**Analizar rendimiento:** Ver KPI de decisiones, comparar elementos de decisión, analizar estrategias de selección y supervisar el rendimiento del modelo de IA en los informes. [Más información](../experience-decisioning/cja-reporting.md)
+Para supervisar el rendimiento: vea los KPI de toma de decisiones, compare los elementos de decisión, analice las estrategias de selección y supervise el rendimiento del modelo de IA en los informes. [Más información](../experience-decisioning/cja-reporting.md)
 
 ## Control del uso de datos de seguimiento {#data-governance}
 
