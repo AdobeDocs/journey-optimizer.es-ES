@@ -9,29 +9,29 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1126'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
 # Navegación por la interfaz {#user-interface}
 
-Para acceder a Adobe Journey Optimizer, inicia sesión en [Adobe Experience Cloud](https://experience.adobe.com) con tu Adobe ID y, a continuación, selecciona [!DNL Journey Optimizer].
+Para acceder a Adobe Journey Optimizer, inicie sesión en [Adobe Experience Cloud](https://experience.adobe.com) con su Adobe ID y, a continuación, seleccione [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->* Los componentes y las funciones disponibles en su entorno dependen de sus [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}.
+>* Los componentes y las funciones disponibles en su entorno dependen de los [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 >* Esta documentación se actualiza con frecuencia. Algunas capturas de pantalla pueden diferir ligeramente de la interfaz.
 
-## Explicación rápida {#quick-tour}
+## Guía rápida {#quick-tour}
 
 La interfaz de Journey Optimizer consta de cuatro áreas principales:
 
 ![](assets/ajo-home.png)
 
 1. **Navegación izquierda**: acceda a todas las funciones y características organizadas por función
-2. **Barra superior** - Búsqueda universal, ayuda, notificaciones y configuración
+2. **Barra superior**: búsqueda universal, ayuda, notificaciones y configuración
 3. **Página de inicio**: acceso rápido a elementos recientes y recursos útiles
 4. **Espacio de trabajo principal**: donde crea y administra su contenido
 
@@ -43,51 +43,51 @@ La navegación de la izquierda organiza las funcionalidades de Journey Optimizer
 
 **Inicio**: punto de partida con acceso rápido a elementos creados recientemente y recursos útiles
 
-**Administración de Recorridos** - Crear y administrar experiencias de los clientes
-* **Campañas**: crea mensajes únicos o programados para audiencias específicas. [Introducción a las campañas](../campaigns/get-started-with-campaigns.md)
+**Administración de recorrido** - cree y administre experiencias de los clientes
+* **Campañas**: cree mensajes puntuales o programados para públicos específicos. [Comience con las campañas](../campaigns/get-started-with-campaigns.md)
 * **Recorridos**: cree experiencias de cliente en canales múltiples y de varios pasos. [Creación de su primer recorrido](../building-journeys/journey-gs.md)
 * **Informes**: analice el rendimiento con los informes integrados de Customer Journey Analytics. [Ver documentación de informes](../reports/campaign-global-report-cja.md)
 
-**Administración de decisiones** - Administrar ofertas personalizadas. [Más información acerca de la administración de decisiones](../offers/get-started/starting-offer-decisioning.md)
+**Gestión de decisiones**: administre ofertas personalizadas. [Conozca la gestión de decisiones](../offers/get-started/starting-offer-decisioning.md)
 * **Ofertas**: cree y administre ofertas personalizadas
 * **Componentes**: configure ubicaciones, reglas y etiquetas para ofertas
 
-**Administración de contenido** - Crear y organizar contenido
-* **Assets**: repositorio centralizado para imágenes y medios. [Administración de recursos](../integrations/assets.md)
+**Administración de contenido**: cree y organice contenido
+* **Recursos**: repositorio centralizado para imágenes y medios. [Administración de recursos](../integrations/assets.md)
 * **Plantillas de contenido**: plantillas de mensajes reutilizables para campañas y recorridos. [Crear plantillas](../content-management/content-templates.md)
-* **Fragmentos**: bloques de contenido que se pueden usar en varios mensajes. [Trabajar con fragmentos](../content-management/fragments.md)
+* **Fragmentos**: bloques de contenido que se pueden usar en varios mensajes. [Trabajo con fragmentos](../content-management/fragments.md)
 * **Páginas de destino**: formularios web para suscripciones y preferencias. [Diseño de páginas de destino](../landing-pages/get-started-lp.md)
-* **Manuales de casos de uso**: Flujos de trabajo creados previamente para escenarios de marketing comunes. [Explorar libros de reproducción](ai-features.md#playbooks)
+* **Manuales de casos de uso**: flujos de trabajo creados previamente para escenarios de marketing frecuentes. [Explorar manuales de tácticas](ai-features.md#playbooks)
 
-**Administración de datos**: administra tu base de datos. [Más información sobre esquemas y conjuntos de datos](../data/get-started-schemas.md)
-* **Esquemas** - Definir estructura de datos
-* **Conjuntos de datos**: Almacene y administre colecciones de datos
-* **Consultas**: escribir y ejecutar consultas
-* **Monitorización** - Rastrear la ingesta de datos
+**Administración de datos**: administre su base de datos. [Más información sobre esquemas y conjuntos de datos](../data/get-started-schemas.md)
+* **Esquemas**: defina la estructura de datos
+* **Conjuntos de datos**: almacene y administre colecciones de datos
+* **Consultas**: escriba y ejecute consultas
+* **Monitorización**: haga un seguimiento de la ingesta de datos
 
-**Conexiones**: integración con otros sistemas
-* **Fuentes**: ingesta de datos de sistemas externos. [Configurar orígenes](get-started-sources.md)
-* **Destinos**: exporte datos al almacenamiento en la nube. [Configurar destinos](../data/export-datasets.md)
+**Conexiones**: integre con otros sistemas
+* **Fuentes**: ingeste datos de sistemas externos. [Configuración de fuentes](get-started-sources.md)
+* **Destinos**: exporte datos al almacenamiento en la nube. [Configuración de destinos](../data/export-datasets.md)
 
-**Cliente**: administrar audiencias y perfiles
-* **Audiencias**: cree y administre segmentos de clientes. [Trabajar con audiencias](../audience/about-audiences.md)
-* **Listas de suscripción** - Administrar listas de inclusión. [Administración de las suscripciones](../landing-pages/subscription-list.md)
-* **Perfiles**: vea perfiles de cliente unificados. [Explorar perfiles](../audience/get-started-profiles.md)
-* **Identidades** - Administrar la resolución de identidades. [Más información sobre identidades](../audience/get-started-identity.md)
+**Cliente**: administre públicos y perfiles
+* **Públicos**: cree y administre segmentos de clientes. [Trabajo con públicos](../audience/about-audiences.md)
+* **Listas de suscripción**: administre listas de inclusión. [Administración de las suscripciones](../landing-pages/subscription-list.md)
+* **Perfiles**: vea perfiles de cliente unificados. [Exploración de perfiles](../audience/get-started-profiles.md)
+* **Identidades**: administre la resolución de identidades. [Más información sobre las identidades](../audience/get-started-identity.md)
 
-**Privacidad** - Controlar la privacidad y el cumplimiento. [Información general sobre la privacidad](../privacy/get-started-privacy.md)
-* **Directivas** - Definir directivas de gobernanza de datos
-* **Solicitudes** - Administrar solicitudes de privacidad (RGPD, CCPA)
-* **Auditoría** - Revisar registros de actividad. [Ver registros de auditoría](../privacy/audit-logs.md)
-* **Ciclo de vida de datos** - Configurar la retención de datos
+**Privacidad**: controle la privacidad y el cumplimiento. [Información general sobre la privacidad](../privacy/get-started-privacy.md)
+* **Directivas**: defina directivas de gobernanza de datos
+* **Solicitudes**: administrar solicitudes de privacidad (RGPD, CCPA)
+* **Auditoría**: revisar registros de actividad. [Ver registros de auditoría](../privacy/audit-logs.md)
+* **Ciclo de vida de datos**: configure la retención de datos
 
-**Administración** - Configurar la configuración del sistema. [Resumen de control de acceso](../administration/permissions-overview.md)
+**Administración**: ajuste la configuración del sistema. [Información general sobre el control de acceso](../administration/permissions-overview.md)
 * **Configuraciones**: configure eventos, fuentes de datos y acciones. [Configuración de canales](../configuration/get-started-configuration.md)
-* **Reglas de negocio**: controla la frecuencia de mensajes y la entrada de recorrido. [Configurar reglas de negocio](../conflict-prioritization/rule-sets.md)
-* **Alertas**: vea y administre alertas del sistema. [Supervisar alertas](../reports/alerts.md)
-* **Zonas protegidas** - Administrar entornos y copiar objetos entre zonas protegidas. [Trabajar con zonas protegidas](../administration/sandboxes.md)
-* **Canales**: configure los parámetros de canal y la capacidad de entrega. [Configurar configuraciones de canal](../configuration/channel-surfaces.md) | [Introducción a la configuración](../configuration/get-started-configuration.md)
-* **Etiquetas**: organiza y categoriza el contenido. [Trabajar con etiquetas unificadas](search-filter-categorize.md#tags)
+* **Reglas empresariales**: controle la frecuencia de mensajes y la entrada de recorrido. [Configure las reglas empresariales](../conflict-prioritization/rule-sets.md)
+* **Alertas**: vea y administre alertas del sistema. [Monitorización de alertas](../reports/alerts.md)
+* **Zonas protegidas**: administre entornos y copie objetos entre zonas protegidas. [Trabajo con zonas protegidas](../administration/sandboxes.md)
+* **Canales**: configure los parámetros de canal y la entregabilidad. [Establecer configuraciones de canal](../configuration/channel-surfaces.md) | [Comenzar con la configuración](../configuration/get-started-configuration.md)
+* **Etiquetas**: organice y categorice el contenido. [Trabajo con etiquetas unificadas](search-filter-categorize.md#tags)
 
 ## Características de barra superior {#top-bar}
 
@@ -99,8 +99,8 @@ Utilice el icono de búsqueda para encontrar rápidamente recorridos, campañas,
 
 Haga clic en el icono **Ayuda** para:
 * Buscar artículos de ayuda y vídeos
-* Acceso a la ayuda contextual para la página actual
-* Póngase en contacto con soporte de Adobe
+* Acceder a la ayuda contextual para la página actual
+* Ponerse en contacto con el Servicio de atención al cliente de Adobe
 * Compartir comentarios
 
 ![Ejemplo de ayuda contextual](assets/do-not-localize/Context-help.gif)
@@ -108,8 +108,8 @@ Haga clic en el icono **Ayuda** para:
 ### Notificaciones {#notifications}
 
 Habilite las notificaciones en el producto y por correo electrónico para mantenerse informado sobre:
-* **Alertas** - Errores del sistema y problemas de rendimiento
-* **Aprobaciones** - Solicitudes que requieren su revisión
+* **Alertas**: errores del sistema y problemas de rendimiento
+* **Aprobaciones**: solicitudes que requieren su revisión
 * **Nuevas versiones**: actualizaciones de productos y nuevas características
 
 Para configurar las notificaciones:
@@ -129,39 +129,39 @@ Para cambiar el idioma:
 1. Haga clic en **Preferencias** en el menú de perfil
 2. Seleccione su idioma preferido
 3. Si lo desea, seleccione un segundo idioma como alternativa
-4. Haga clic en **Guardar**.
+4. Haga clic en **Guardar**
 
 ## Página principal {#home-page}
 
 La página de inicio proporciona lo siguiente:
 
 * **Recientes**: accesos directos a eventos, recorridos, campañas y otros objetos creados recientemente
-* **Casos de uso**: escenarios pregenerados para ayudarle a empezar rápidamente (crear perfiles de prueba, enviar mensajes de cumpleaños, etc.)
+* **Casos de uso**: escenarios generados previamente para ayudarle a empezar rápidamente (crear perfiles de prueba, enviar mensajes de cumpleaños, etc.)
 * **Recursos**: vínculos a documentación, tutoriales y asistencia
 
 ### Casos de uso dentro del producto {#use-cases}
 
 Los flujos de trabajo de inicio rápido le ayudan a realizar tareas comunes:
 
-* **Crear perfiles de prueba** - Generar perfiles de prueba con plantillas CSV
-* **Enviar mensajes de cumpleaños** - Enviar automáticamente correos electrónicos de cumpleaños (próximamente)
-* **Incorporar nuevos clientes**: serie de bienvenida para nuevos clientes (próximamente)
-* **Enviar notificaciones push a listas importadas** - Notificaciones push rápidas desde datos CSV (próximamente)
+* **Creación de perfiles de prueba**: genere perfiles de prueba con plantillas CSV
+* **Envío de mensajes de cumpleaños**: envíe automáticamente correos electrónicos de cumpleaños (próximamente)
+* **Incorporación de nuevos clientes**: serie de bienvenida para nuevos clientes (próximamente)
+* **Envío de notificaciones push a listas importadas**: notificaciones push rápidas desde datos CSV (próximamente)
 
-Haga clic en **[!UICONTROL Ver detalles]** para obtener más información acerca de cada caso de uso o en **[!UICONTROL Comenzar]** para comenzar.
+Haga clic en **[!UICONTROL Ver detalles]** para obtener más información acerca de cada caso de uso o en **[!UICONTROL Empezar]** para comenzar.
 
 ## Asistente de IA {#ai-assistant}
 
-El asistente de IA proporciona ayuda instantánea y perspectivas operativas. Haga clic en el icono Ayudante de IA de la barra superior para:
-* Obtenga respuestas acerca de las funciones del producto
-* Reciba información operativa sobre sus recorridos
+El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic en el icono del Asistente de IA de la barra superior para:
+* Obtener respuestas acerca de las funciones del producto
+* Recibir datos operativos sobre sus recorridos
 * Navegar por conceptos y prácticas recomendadas
 
-[Más información sobre el Asistente de IA](ai-features.md#ai-assistant)
+[Obtener más información acerca del Asistente de IA](ai-features.md#ai-assistant)
 
 ## Temas relacionados {#related-topics}
 
-* [Elija su ruta de aprendizaje por función](quick-start.md)
+* [Elegir su ruta de aprendizaje por función](quick-start.md)
 * [Buscar, filtrar y categorizar contenido](search-filter-categorize.md)
 * [Explicación del funcionamiento de Journey Optimizer](understanding-ajo.md)
 * [Funciones de accesibilidad](accessibility.md)

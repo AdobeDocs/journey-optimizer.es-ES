@@ -8,17 +8,17 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '965'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
 # Introducción para administradores de sistemas {#get-started-sys-admins}
 
-Como **Administrador del sistema**, usted configura el entorno de Journey Optimizer y administra el acceso para permitir que sus equipos trabajen de manera eficiente y segura. Realice los pasos de configuración esenciales para que [Ingeniero de datos](data-engineer.md), [Desarrollador](developer.md) y [Especialista en marketing](marketer.md) puedan empezar a trabajar con [!DNL Adobe Journey Optimizer].
+Como **Administrador del sistema**, usted configura el entorno de Journey Optimizer y administra el acceso para permitir que sus equipos trabajen de manera eficiente y segura. Realice los pasos de configuración esenciales para que el [Ingeniero de datos](data-engineer.md), el [Desarrollador](developer.md) y el [Experto en marketing](marketer.md) puedan empezar a trabajar con [!DNL Adobe Journey Optimizer].
 
-Sus responsabilidades principales incluyen la configuración de grupos de usuarios y permisos, la creación y administración de zonas protegidas para dividir datos y recorridos para diferentes grupos de usuarios y la configuración de canales de entrega y ajustes preestablecidos de mensajes para garantizar una marca coherente en los distintos mensajes y recursos enviados a través de Journey Optimizer. Garantiza que las personas adecuadas tengan acceso a las capacidades adecuadas y, al mismo tiempo, mantiene la seguridad y la gobernanza.
+Sus responsabilidades principales incluyen la configuración de grupos de usuarios y permisos, la creación y administración de zonas protegidas para dividir datos y recorridos para diferentes grupos de usuarios y la configuración de canales de envío y ajustes preestablecidos de mensajes para garantizar una marca coherente en los distintos mensajes y recursos enviados a través de Journey Optimizer. Usted garantiza que las personas adecuadas tengan acceso a las capacidades adecuadas y, al mismo tiempo, mantiene la seguridad y la gobernanza.
 
 Estas funcionalidades pueden gestionarlas los **[!UICONTROL Administradores de productos]** que tengan acceso al producto Permisos. [Obtenga más información sobre permisos](../../administration/permissions.md){target="_blank"}.
 
@@ -35,7 +35,7 @@ Siga estos pasos para configurar la administración de acceso:
 
 1. **Establezca permisos** para funciones, incluidas las **zonas protegidas**, y otorgue acceso a los integrantes del equipo asignándolos a diferentes funciones. Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a la **[!UICONTROL función]**. Cada permiso se recopila en funcionalidades, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Obtenga más información en la sección [Niveles de permisos](../../administration/high-low-permissions.md).
 
-1. **Usar control de acceso de nivel de objeto** (opcional). Aplique etiquetas de acceso a objetos como recorridos, campañas y configuraciones de canal para controlar qué usuarios pueden acceder a recursos específicos. Más información sobre [Control de acceso de nivel de objeto (OLAC)](../../administration/object-based-access.md).
+1. **Use control de acceso de nivel de objeto** (opcional). Aplique etiquetas de acceso a objetos como recorridos, campañas y configuraciones de canal para controlar qué usuarios pueden acceder a recursos específicos. Más información sobre [Control de acceso de nivel de objeto (OLAC)](../../administration/object-based-access.md).
 
 Además, debe añadir usuarios que necesiten acceso a Assets Essentials para las funciones **Usuarios consumidores de Assets Essentials** o **Usuarios de Assets Essentials**. [Obtenga más información en la documentación de Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=es){target="_blank"}.
 
@@ -43,20 +43,20 @@ Al acceder a [!DNL Journey Optimizer] por primera vez, se le aprovisiona una zon
 
 ## Configuración de canales y mensajes
 
-Para permitir que [Marketers](marketer.md) creen y envíen mensajes, accede al menú **ADMINISTRACIÓN**. Examine el menú **[!UICONTROL Canales]** para establecer la configuración de canal.
+Para permitir que los [Expertos en marketing](marketer.md) creen y envíen mensajes, acceda al menú **ADMINISTRACIÓN**. Examine el menú **[!UICONTROL Canales]** para establecer la configuración de canal.
 
 >[!NOTE]
 >Como **Administrador del sistema**, si no puede ver el menú **[!UICONTROL Canales]** en [!DNL Journey Optimizer], actualice sus permisos en el producto [Permisos](../../administration/permissions.md){target="_blank"}. 
 
 Siga estos pasos:
 
-1. **Configurar configuraciones de canal**. Defina todos los parámetros técnicos necesarios para el correo electrónico, los SMS, las notificaciones push y otros canales:
+1. **Establezca las configuraciones de canal**. Defina todos los parámetros técnicos necesarios para el correo electrónico, los SMS, las notificaciones push y otros canales:
 
-   * Definir **configuración de notificaciones push** tanto en [!DNL Adobe Experience Platform] como en la recopilación de datos de Adobe Experience Platform. [Más información](../../push/push-gs.md)
+   * Defina la **configuración de notificaciones push** tanto en [!DNL Adobe Experience Platform] como en la recopilación de datos de Adobe Experience Platform. [Más información](../../push/push-gs.md)
 
    * Cree **configuraciones de canal** para configurar todos los parámetros técnicos necesarios para el correo electrónico, SMS, push, en la aplicación, web y otros canales. [Más información](../../configuration/channel-surfaces.md)
 
-   * Configure el **canal SMS** para configurar todos los parámetros técnicos necesarios para SMS. [Más información](../../sms/sms-configuration.md)
+   * Configure el **Canal de SMS** para configurar todos los parámetros técnicos necesarios para SMS. [Más información](../../sms/sms-configuration.md)
 
    * Administre el número de días durante los cuales se realizan **reintentos** antes de enviar direcciones de correo electrónico a la lista de supresión. [Más información](../../configuration/manage-suppression-list.md)
 
@@ -82,9 +82,9 @@ Siga estos pasos:
 
 A medida que aumenten las necesidades de su organización, tenga en cuenta estas funciones avanzadas:
 
-* **Políticas de consentimiento**: Si su organización ha adquirido Healthcare Shield o Privacy and Security Shield, cree políticas de consentimiento para respetar las preferencias de los clientes en todos los canales. [Más información](../../action/consent.md)
+* **Políticas de consentimiento**: si su organización ha adquirido Healthcare Shield o Privacy and Security Shield, cree políticas de consentimiento para respetar las preferencias de los clientes en todos los canales. [Más información](../../action/consent.md)
 
-* **Políticas de control de datos**: aplique etiquetas y políticas de uso de datos para controlar cómo se utilizan los datos en las acciones de marketing. [Más información](../../action/action-privacy.md)
+* **Políticas de gobernanza de datos**: aplique etiquetas y políticas de uso de datos para controlar cómo se utilizan los datos en las acciones de marketing. [Más información](../../action/action-privacy.md)
 
 * **Planes de calentamiento de IP**: aumente gradualmente los volúmenes de envío de correo electrónico para crear reputación de remitente con los proveedores de correo electrónico. [Más información](../../configuration/ip-warmup-gs.md)
 
@@ -94,32 +94,32 @@ Su trabajo administrativo permite que todos los equipos tengan éxito:
 
 >[!BEGINTABS]
 
->[!TAB Ingenieros de datos de soporte]
+>[!TAB Apoye a los ingenieros de datos]
 
-Colaborar con [ingenieros de datos](data-engineer.md) en la administración de datos y el acceso:
+Colabore con los [ingenieros de datos](data-engineer.md) en la administración de datos y el acceso:
 
-* Conceder permisos para la administración de datos y la creación de esquemas
-* Aprobar el acceso a la zona protegida para desarrollo y pruebas
-* Coordinar las políticas de retención de datos y las reglas de gobernanza
-* Habilite el acceso a funciones avanzadas como la Composición de audiencia federada
+* Conceda permisos para la administración de datos y la creación de esquemas
+* Apruebe el acceso a la zona protegida para desarrollo y pruebas
+* Coordine en las políticas de retención de datos y las reglas de gobernanza
+* Habilite el acceso a funciones avanzadas como la Composición de público federado
 
->[!TAB Habilitar desarrolladores]
+>[!TAB Habilite a desarrolladores]
 
-Colaborar con [desarrolladores](developer.md) en el acceso y las pruebas de API:
+Colabore con [desarrolladores](developer.md) en el acceso y las pruebas de API:
 
-* Proporcionar credenciales de API a través de Adobe Developer Console
-* Configuración de entornos de zona protegida para desarrollo y pruebas
-* Aprobar configuraciones de canal (certificados push, proveedores de SMS)
-* Coordinación en entornos de prueba y estrategia de implementación
+* Proporcione credenciales de API a través de Adobe Developer Console
+* Configure entornos de zona protegida para desarrollo y pruebas
+* Apruebe configuraciones de canal (certificados push, proveedores de SMS)
+* Coordine en entornos de prueba y estrategia de implementación
 
->[!TAB Empoderar a los especialistas en mercadotecnia]
+>[!TAB Empodere a los expertos en marketing]
 
-Colaborar con [especialistas en mercadotecnia](marketer.md) en la configuración de permisos y canales:
+Colabore con [expertos en marketing](marketer.md) en la configuración de permisos y canales:
 
 * Asigne los permisos adecuados para crear recorridos y campañas
 * Configure los canales que utilizarán (correo electrónico, push, SMS, etc.)
-* Entornos de prueba de soporte y flujos de trabajo de aprobación
-* Habilitar el acceso a las nuevas funciones y capacidades
+* Apoye entornos de prueba de soporte y flujos de trabajo de aprobación
+* Habilite el acceso a las nuevas funciones y capacidades
 
 >[!ENDTABS]
 
@@ -127,6 +127,6 @@ Colaborar con [especialistas en mercadotecnia](marketer.md) en la configuración
 
 Una vez configurado el entorno:
 
-1. **Verificar configuración**: confirma que todos los integrantes del equipo pueden acceder a las funciones requeridas
-2. **Monitorizar el uso**: utilice los paneles de administración para rastrear el uso del sistema e identificar problemas
-3. **Mantener permisos**: revise y actualice los permisos con regularidad a medida que evolucionen los roles del equipo
+1. **Verifique la configuración**: confirme que todos los integrantes del equipo pueden acceder a las funciones requeridas
+2. **Monitorice el uso**: utilice los paneles de administración para rastrear el uso del sistema e identificar problemas
+3. **Mantenga permisos**: revise y actualice los permisos con regularidad a medida que evolucionen las funciones del equipo

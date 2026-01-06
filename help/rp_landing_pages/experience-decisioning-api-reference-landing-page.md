@@ -8,21 +8,21 @@ hide: true
 hidefromtoc: true
 exl-id: 0111453f-c704-40c1-9e74-2320b125ee92
 source-git-commit: e90be67288245fbf8e3794c6e554016e3f5997f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Referencia de la API{#section-overview}
 
-El canal de experiencia basada en código de Adobe Journey Optimizer le permite ofrecer ofertas personalizadas en sus puntos de contacto digitales con flexibilidad y precisión. Tanto si trabaja con herramientas del lado del cliente como AEP Web, SDK móviles, integraciones del lado del servidor mediante la API de Edge Network de AEP o un enfoque híbrido, esta función se adapta a sus necesidades. Cada método de implementación ofrece ventajas únicas, desde interacciones en tiempo real hasta el procesamiento back-end escalable. En las secciones siguientes, descubrirá los aspectos básicos de Decisiones sobre experiencias, aprenderá a elegir e implementar el método adecuado para su caso de uso y accederá a recursos para optimizar su recorrido. Vamos a desbloquear nuevas posibilidades para experiencias de cliente adaptadas.
+El canal de experiencia basada en código de Adobe Journey Optimizer le permite ofrecer ofertas personalizadas en sus puntos de contacto digitales con flexibilidad y precisión. Tanto si trabaja con herramientas del lado del cliente como AEP Web, SDK móviles, integraciones del lado del servidor mediante la API de Edge Network de AEP o un enfoque híbrido, esta función se adapta a sus necesidades. Cada método de implementación ofrece ventajas únicas, desde interacciones en tiempo real hasta el procesamiento back-end escalable. En las secciones siguientes, descubrirá los aspectos básicos de Decisiones sobre experiencias, aprenderá a elegir e implementar el método adecuado para su caso de uso y accederá a recursos para optimizar su recorrido. Vamos a descubrir nuevas posibilidades para experiencias de cliente adaptadas.
 
 ## Referencia de la API
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Envío de ofertas mediante el canal de experiencia basada en código
 
