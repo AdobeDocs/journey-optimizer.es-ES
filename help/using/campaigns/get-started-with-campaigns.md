@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 129c2af3a7a8db00c400f5c6e78530c0649d9896
+source-git-commit: 6c8649726f8faad0a9e4945778a3f9217f3627d8
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1513'
 ht-degree: 31%
 
 ---
@@ -157,97 +157,6 @@ Utilice [!DNL Journey Optimizer] campañas para lo siguiente:
 >
 >¿No está seguro de qué tipo elegir? Comience con **campañas de acción** para comunicaciones por lotes programadas o **campañas activadas por API** para mensajería en tiempo real, que cubren los casos de uso más comunes.
 
-## Flujo de trabajo de creación de campañas {#workflow}
-
-La creación de campañas exitosas sigue un proceso claro y repetible. Este es su flujo de trabajo paso a paso:
-
-+++ &#x200B;1. Planifique su campaña
-
-Antes de empezar, aclare sus objetivos:
-
-* **¿Cuál es el objetivo?** (por ejemplo, dirigir conversiones, aumentar la participación, notificar a los clientes)
-* **¿Quién es la audiencia?** (por ejemplo, crear o seleccionar de Adobe Experience Platform)
-* **¿Qué tipo de campaña encaja?** (ver [tipos de campaña](#campaign-types) más arriba)
-* **¿Qué canales usará?** (correo electrónico, push, SMS, en la aplicación, web, etc.) → [Ver canales admitidos por tipo de campaña](../channels/gs-channels.md#channels)
-* **¿Cuándo se debe ejecutar?** (inmediato, programado o activado por API)
-
-+++
-
-+++Configuración de propiedades de campaña
-
-Configure las bases de la campaña:
-
-1. **Nombre y describa** su campaña para facilitar su identificación
-2. **Seleccionar tipo de campaña** (activada por acción, activada por API u orquestada)
-3. **Elija su audiencia**
-4. **Establecer prioridad** si se usa la administración de conflictos
-5. **Configurar programación** (para campañas de acción) o detalles de API (para activadas por API)
-
-**Guías específicas del tipo:** [Propiedades de la campaña de acción](campaign-properties.md) | [Propiedades de campaña activadas por API](api-triggered-campaign-properties.md) | [Configuración de campaña orquestada](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++Diseño del contenido
-
-Cree mensajes atractivos para su audiencia:
-
-* Usar **Email Designer** para experiencias de correo electrónico enriquecidas
-* Configurar **notificaciones push** con imágenes y vínculos profundos
-* Diseñar **mensajes SMS/MMS** con personalización
-* Crear experiencias **en la aplicación** y **web**
-* Agregar **personalización** mediante atributos de perfil y datos contextuales
-
-**Guías específicas del tipo:** [Contenido de la campaña de acción](campaign-content.md) | [Contenido de campaña activado por API](api-triggered-campaign-content.md) | [Contenido de campaña orquestado](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++Revisión y prueba
-
-Revise siempre la campaña antes de la activación:
-
-* **Previsualizar contenido** con perfiles de prueba
-* **Compruebe el direccionamiento** para garantizar la audiencia correcta
-* **Verificar la programación** y la configuración de activación
-* **Solicitar aprobación** si se usa el flujo de trabajo de aprobación
-* **Capacidad de entrega de pruebas** con listas semilla
-
-**Guías específicas del tipo:** [Revisar campañas de acción](review-activate-campaign.md) | [Revisar campañas activadas por API](review-activate-api-triggered-campaign.md) | [Revisar campañas orquestadas](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++Activación de la campaña
-
-Una vez completada la revisión, active la campaña:
-
-* **Activación manual** - Activar inmediatamente o a la hora programada
-* **Activación de API**: para campañas activadas por API, use el punto de conexión de activación
-* **Proceso de aprobación**: si es necesario, espere a que se apruebe la parte interesada
-
-Nota: Las campañas activas no se pueden editar (debe duplicar para realizar cambios)
-
-**Guías específicas del tipo:** [Activar campañas de acción](review-activate-campaign.md) | [Activar campañas activadas por API](review-activate-api-triggered-campaign.md) | [Activar campañas orquestadas](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++Monitorización y análisis
-
-Realice un seguimiento del rendimiento de la campaña:
-
-* Ver informes y análisis de campaña
-* Monitorización de tasas de entrega y métricas de participación
-* Seguimiento de errores y devoluciones
-* Analizar la conversión y el ROI
-* Uso de perspectivas para la optimización
-
-**Guías específicas del tipo:** [Informes de campañas de acción](../reports/campaign-global-report-cja.md) | [Supervisión de campaña activada por API](api-triggered-campaigns.md#monitor) | [Análisis de campañas orquestadas](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-➡️ **¿Listo para comenzar?** Elija su tipo de campaña:
-* [Creación de → de campaña de acción](create-campaign.md)
-* [Creación de → de campaña activados por API](api-triggered-campaigns.md)
-* [Creación de → de campaña organizados](../orchestrated/gs-orchestrated-campaigns.md)
-
 ## Requisitos previos {#prerequisites}
 
 Antes de trabajar con campañas, asegúrese de que dispone de lo siguiente:
@@ -258,10 +167,14 @@ Antes de trabajar con campañas, asegúrese de que dispone de lo siguiente:
 
 * **Permisos**: necesita los permisos adecuados según el tipo de campaña. Póngase en contacto con el administrador si no puede acceder a las funcionalidades de la campaña. [Más información acerca de los roles integrados →](../administration/ootb-product-profiles.md)
 
+  +++Lista de permisos de campañas
+
   | Tipo de campaña | Permisos |
   |-------------|---------------|
   | **Campañas de acción** y **Campañas activadas por API** | Administrador de campañas<br>Aprobador de campaña<br>Gestor de campañas<br>Visor de campañas |
   | **Campañas orquestadas** | Administrador de campañas orquestadas<br>Aprobador de campañas orquestadas<br>Gestor de campañas orquestadas<br>Visor de campañas orquestadas |
+
+  +++
 
   +++Asignación de permisos de campaña
 
@@ -277,14 +190,108 @@ Antes de trabajar con campañas, asegúrese de que dispone de lo siguiente:
 
   +++
 
-## Funcionalidades de Campaign {#capabilities}
+## Flujo de trabajo de creación de campañas {#workflow}
+
+La creación de campañas exitosas sigue un proceso claro y repetible. Este es su flujo de trabajo paso a paso:
+
++++&#x200B;1. Planifique su campaña
+
+Antes de empezar, aclare sus objetivos:
+
+* **¿Cuál es el objetivo?** (por ejemplo, dirigir conversiones, aumentar la participación, notificar a los clientes)
+* **¿Quién es la audiencia?** (por ejemplo, crear o seleccionar de Adobe Experience Platform)
+* **¿Qué tipo de campaña encaja?** (ver [tipos de campaña](#campaign-types) más arriba)
+* **¿Qué canales usará?** (correo electrónico, push, SMS, en la aplicación, web, etc.) → [Ver canales admitidos por tipo de campaña](../channels/gs-channels.md#channels)
+* **¿Cuándo se debe ejecutar?** (inmediato, programado o activado por API)
+
++++
+
++++&#x200B;2. Configurar las propiedades de la campaña
+
+Configure las bases de la campaña:
+
+1. **Nombre y describa** su campaña para facilitar su identificación
+2. **Seleccionar tipo de campaña** (activada por acción, activada por API u orquestada)
+3. **Elija su audiencia**
+4. **Establecer prioridad** si se usa la administración de conflictos
+5. **Configurar programación** (para campañas de acción) o detalles de API (para activadas por API)
+
+**Guías específicas del tipo:** [Propiedades de la campaña de acción](campaign-properties.md) | [Propiedades de campaña activadas por API](api-triggered-campaign-properties.md) | [Configuración de campaña orquestada](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++&#x200B;3. Diseñar el contenido
+
+Cree mensajes atractivos para su audiencia:
+
+* Usar **Email Designer** para experiencias de correo electrónico enriquecidas
+* Configurar **notificaciones push** con imágenes y vínculos profundos
+* Diseñar **mensajes SMS/MMS** con personalización
+* Crear experiencias **en la aplicación** y **web**
+* Agregar **personalización** mediante atributos de perfil y datos contextuales
+
+**Guías específicas del tipo:** [Contenido de la campaña de acción](campaign-content.md) | [Contenido de campaña activado por API](api-triggered-campaign-content.md) | [Contenido de campaña orquestado](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++&#x200B;4. Revisión y prueba
+
+Revise siempre la campaña antes de la activación:
+
+* **Previsualizar contenido** con perfiles de prueba
+* **Compruebe el direccionamiento** para garantizar la audiencia correcta
+* **Verificar la programación** y la configuración de activación
+* **Solicitar aprobación** si se usa el flujo de trabajo de aprobación
+* **Capacidad de entrega de pruebas** con listas semilla
+
+**Guías específicas del tipo:** [Revisar campañas de acción](review-activate-campaign.md) | [Revisar campañas activadas por API](review-activate-api-triggered-campaign.md) | [Revisar campañas orquestadas](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++&#x200B;5. Active la campaña
+
+Una vez completada la revisión, active la campaña:
+
+* **Activación manual** - Activar inmediatamente o a la hora programada
+* **Activación de API**: para campañas activadas por API, use el punto de conexión de activación
+* **Proceso de aprobación**: si es necesario, espere a que se apruebe la parte interesada
+
+Nota: Las campañas activas no se pueden editar (debe duplicar para realizar cambios)
+
+**Guías específicas del tipo:** [Activar campañas de acción](review-activate-campaign.md) | [Activar campañas activadas por API](review-activate-api-triggered-campaign.md) | [Activar campañas orquestadas](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++&#x200B;6. Monitorización y análisis
+
+Realice un seguimiento del rendimiento de la campaña:
+
+* Ver informes y análisis de campaña
+* Monitorización de tasas de entrega y métricas de participación
+* Seguimiento de errores y devoluciones
+* Analizar la conversión y el ROI
+* Uso de perspectivas para la optimización
+
+**Guías específicas del tipo:** [Informes de campañas de acción](../reports/campaign-global-report-cja.md) | [Supervisión de campaña activada por API](api-triggered-campaigns.md#monitor) | [Análisis de campañas orquestadas](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
+## Vamos a profundizar {#get-started-types}
+
+Ahora que comprende las campañas de [!DNL Journey Optimizer], elija el tipo de campaña para comenzar:
+
+<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
+<td><a href="create-campaign.md"><img width="70%" alt="campañas de acción" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Campañas de acción</a></td>
+<td><a href="api-triggered-campaigns.md"><img width="70%" alt="SMS" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">Campañas activadas por API</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Campañas orquestadas</a></td>
+</tr></table>
 
 A medida que se sienta más cómodo con las campañas, explore estas potentes funcionalidades:
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Programación y sincronización**
 
@@ -294,7 +301,7 @@ Programe campañas para fechas/horas específicas, establezca envíos recurrente
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de tarifa**
 
@@ -304,7 +311,7 @@ Limite el rendimiento de los mensajes para evitar sobrecargas en sistemas descen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmentación de audiencia**
 
@@ -314,7 +321,7 @@ Dirija audiencias de Adobe Experience Platform específicas con precisión y adm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flujos de trabajo de aprobación**
 
@@ -324,7 +331,7 @@ Implemente procesos de revisión y aprobación antes de que las campañas se pub
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Horas tranquilas**
 
@@ -334,7 +341,7 @@ Respete las preferencias del cliente evitando la entrega de mensajes durante los
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimización**
 
@@ -344,13 +351,3 @@ Utilice reglas de segmentación y experimentos de contenido para ofrecer conteni
 :::
 
 ::::
-
-## Introducción a los tipos de campañas {#get-started-types}
-
-Ahora que comprende las campañas de [!DNL Journey Optimizer], elija el tipo de campaña para comenzar:
-
-<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img width="70%" alt="campañas de acción" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Campañas de acción</a></td>
-<td><a href="api-triggered-campaigns.md"><img width="70%" alt="SMS" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">Campañas activadas por API</a></td>
-<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Campañas orquestadas</a></td>
-</tr></table>
