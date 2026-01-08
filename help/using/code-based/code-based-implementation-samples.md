@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 0cdc5dce00d2240b2de6c4cba1648b4517323cce
+source-git-commit: cd31c50de91593348744ead8042e480a2f1164de
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 2%
+source-wordcount: '935'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 La experiencia basada en código admite cualquier tipo de implementación del cliente. En esta página puede encontrar ejemplos para cada método de implementación:
 
 * [Lado del cliente](#client-side-implementation)
-* [Del lado del servidor](#server-side-implementation)
+* [Lado del servidor](#server-side-implementation)
 * [Híbrido](#hybrid-implementation)
 
 >[!IMPORTANT]
@@ -308,7 +308,45 @@ Las solicitudes a la API de Adobe Experience Platform son necesarias para obtene
 Si tiene una implementación híbrida, consulte los vínculos siguientes.
 
 * Blog técnico de Adobe: [Personalization híbrido en Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* Documentación de SDK: [Personalización híbrida mediante Web SDK y la API de servidor de Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=es){target="_blank"}
+* Documentación de SDK: [Personalización híbrida mediante Web SDK y la API de servidor de Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+
+## Depuración de llamadas de API de red de Edge con Adobe Experience Platform Assurance {#debugging-edge-api-assurance}
+
+Cuando utiliza directamente la API de Edge Network para experiencias basadas en código (no utiliza Web SDK ni Mobile SDK), puede depurar las llamadas a la API con Adobe Experience Platform Assurance incluyendo el ID de sesión de Assurance como encabezado de token de validación.
+
+1. Obtenga su ID de sesión de Assurance de una sesión activa de Adobe Experience Platform Assurance o cree uno con la API de Assurance.
+
+1. Agregue el encabezado `x-adobe-aep-validation-token` con el ID de sesión de Assurance para enrutar las solicitudes de la API de Edge Network a través de la sesión de Assurance.
+
+   **Ejemplo:**
+
+   ```bash
+   curl -v 'https://edge.adobedc.net/ee/v1/interact?configId={DATASTREAM_ID}&requestId={REQUEST_ID}' \
+   --header 'Content-Type: application/json' \
+   --header 'x-adobe-aep-validation-token: {ASSURANCE_SESSION_ID}' \
+   --data-raw '{
+       "xdm": {
+         "identityMap": {
+               "ECID": [
+                   {
+                       "id": "{ECID_VALUE}"
+                   }
+               ]
+           }
+       },
+       "events": [
+           {
+               "xdm": {
+                   "eventType": "test",
+                   "timestamp": "{TIMESTAMP}"
+               }
+           }
+       ]
+   }'
+   ```
+
+1. Una vez configurada, abra su sesión de Assurance y seleccione la vista **[!UICONTROL Edge Delivery]** para ver las solicitudes y respuestas de la API de Edge Network en tiempo real, incluidas las cargas útiles de solicitudes, el contenido de respuestas, las propuestas de personalización y los mensajes de error.
+
 
 <!--
 ## Implementation guides and tutorials {#implementation-guides}
@@ -319,4 +357,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
