@@ -5,10 +5,10 @@ title: Añadir una actividad de canal en una campaña de varios pasos
 description: Obtenga información sobre cómo añadir una actividad de canal en una campaña de varios pasos
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: 5fea202c36720f58cc5610446ff0273ce891a17a
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 71%
+source-wordcount: '1126'
+ht-degree: 60%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="Actividad de SMS"
->abstract="La actividad SMS facilita el envío de SMS dentro de la campaña orquestada, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de envío de SMS a un destino calculado dentro de la misma campaña orquestada. Puede combinar actividades de canal en el lienzo de la campaña de varios pasos para crear campañas en canales múltiples para activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad SMS permite enviar SMS dentro de la campaña orquestada para mensajes únicos y recurrentes. Sirve para automatizar el proceso de envío de SMS a un destino calculado dentro de la misma campaña orquestada. Puede combinar actividades de canal en el lienzo de la campaña de varios pasos para crear campañas en canales múltiples para activar acciones basadas en el comportamiento y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="Actividad Push"
->abstract="La actividad Push le permite enviar notificaciones Push como parte de la campaña orquestada. Permite el envío de campañas orquestadas únicas y recurrentes, automatizando el envío de notificaciones push a un destino predefinido dentro de la campaña orquestada. Puede combinar actividades de canal en el lienzo de la campaña para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad Push permite enviar notificaciones push como parte de una campaña orquestada. Permite la entrega de campañas orquestadas únicas y recurrentes, lo que automatiza la entrega de notificaciones push a un objetivo predefinido dentro de la misma campaña orquestada. Puede combinar actividades de canal en el lienzo de la campaña para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 <!--
 UNUSED IDs in BJ
@@ -36,12 +36,12 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
 >title="Push iOS activity"
->abstract="The Push iOS activity let you send iOS Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring Orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+>abstract="The Push iOS activity lets you send iOS Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring Orchestrated campaigns, automating the sending of iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="Push Android activity"
->abstract="The Push Android activity ket you send Android Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same Orchestrated campaign. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+>abstract="The Push Android activity lets you send Android Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending of Android Push notifications to a predefined target within the same Orchestrated campaign. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 -->
 
@@ -50,7 +50,7 @@ UNUSED IDs in BJ
 >title="Actividad de correo directo"
 >abstract="La actividad de correo directo facilita el envío de correo directo dentro de la campaña orquestada, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de generación del archivo de extracción requerido por los proveedores de correo directo. Puede combinar actividades de canal en el lienzo de la campaña orquestada para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
-[!DNL Adobe Journey Optimizer] le permite automatizar y ejecutar campañas de marketing en todos los canales: correo electrónico, SMS y notificaciones push. Puede combinar estas actividades de canal en el lienzo de la campaña para crear campañas orquestadas entre canales que puedan almacenar en déclencheur acciones basadas en la conducta y los datos del cliente.
+[!DNL Adobe Journey Optimizer] le permite automatizar y ejecutar campañas de marketing en todos los canales: correo electrónico, SMS y notificaciones push. Puede combinar estas actividades de canal en el lienzo de campaña para crear campañas orquestadas en canales múltiples. Estas campañas pueden almacenar en déclencheur las acciones en función del comportamiento y los datos de los clientes.
 
 Por ejemplo:
 
@@ -80,7 +80,7 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 
 1. En la pestaña **[!UICONTROL Propiedades]**, escriba una descripción y, a continuación, cambie a la pestaña **[!UICONTROL Acciones]** para configurar la actividad.
 
-## Configuración del canal y los ajustes {#configuration}
+## Establecer la configuración y los ajustes del canal {#configuration}
 
 Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de canal para el mensaje y configure ajustes adicionales como seguimiento, experimento de contenido o contenido multilingüe.
 
@@ -100,7 +100,7 @@ Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de
 
 1. **Habilitar modo de envío rápido** (push)
 
-   El modo de envío rápido es un complemento de [!DNL Journey Optimizer] que permite el envío rápido de mensajes push en grandes volúmenes a través de campañas. El envío rápido se utiliza cuando el retraso en el envío de mensajes es crítico para la empresa y cuando desea enviar una alerta push urgente en teléfonos móviles, por ejemplo, una noticia de última hora a los usuarios que han instalado su aplicación de canal de noticias. Aprenda a habilitar el modo de envío rápido para las notificaciones push [en esta página](../../push/create-push.md#rapid-delivery).
+   El modo de envío rápido es un complemento de [!DNL Journey Optimizer] que permite el envío rápido de mensajes push en grandes volúmenes a través de campañas. La entrega rápida se utiliza cuando el retraso en la entrega de mensajes es crítico para la empresa. Por ejemplo, quiere enviar una alerta push urgente en los teléfonos móviles, como noticias de última hora a los usuarios que hayan instalado su aplicación de canal de noticias. Aprenda a habilitar el modo de envío rápido para las notificaciones push [en esta página](../../push/create-push.md#rapid-delivery).
 
    Para obtener más información sobre el rendimiento al usar el modo de envío rápido, consulte [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -123,12 +123,12 @@ Vaya a la pestaña **[!UICONTROL Contenido]** para crear el mensaje. Los pasos d
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="correo electrónico" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Creación de un correo electrónico</strong></a></td>
 <td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>Creación de un SMS</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Creación de una notificación push</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Crear una notificación push</strong></a></td>
 </tr></table>
 
 ## Adición de personalización
 
-Personalization en campañas orquestadas funciona de manera similar a otras campañas o recorridos de **[!UICONTROL Journey Optimizer]**, pero con algunas diferencias clave específicas del lienzo orquestado.
+Personalization en campañas organizadas funciona de manera similar a otras **[!UICONTROL campañas o recorridos de Journey Optimizer]**. Sin embargo, hay algunas diferencias clave específicas del lienzo orquestado.
 
 Al acceder al editor de personalización desde una campaña orquestada, dos carpetas principales contienen atributos disponibles para la personalización que se detallan a continuación.
 
@@ -192,3 +192,4 @@ Email recipients are defined upstream of the activity in the same workflow, via 
 
 
 <!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->
+
