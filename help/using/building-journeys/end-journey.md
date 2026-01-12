@@ -9,9 +9,9 @@ level: Intermediate
 keywords: volver a entrar, recorrido, finalizar, en directo, detener
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 03e9d4205f59a32347cd1702b24bfbad2bf540b9
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '967'
 ht-degree: 2%
 
 ---
@@ -78,8 +78,6 @@ La definición de &quot;terminado&quot; varía según el tipo de recorrido:
 | Leer público | Sí | Sí | Cuando se llega a la fecha de finalización |
 | Recorrido activado por evento | n/a | Sí | Cuando se llega a la fecha de finalización |
 | Recorrido activado por evento | n/a | No | Cuando se cierra en la interfaz de usuario o mediante API |
-
-Esta es una alerta informativa que le ayuda a realizar un seguimiento de la finalización del recorrido. No hay criterios de resolución, ya que se trata de una notificación única.
 
 ### Cerca de nuevas entradas {#close-to-new-entrances}
 
