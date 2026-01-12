@@ -9,10 +9,10 @@ level: Intermediate
 keywords: volver a entrar, recorrido, finalizar, en directo, detener
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 0%
+source-wordcount: '991'
+ht-degree: 2%
 
 ---
 
@@ -66,6 +66,20 @@ Después del tiempo de espera global de recorrido de **91 días**, un recorrido 
 >[!TIP]
 >
 >Un recorrido basado en segmentos de una sola toma mantiene el estado **Activo** incluso después de ejecutarse una vez. Los perfiles no pueden volver a entrar una vez completados, pero el recorrido permanece en el estado **Activo** hasta que caduque el tiempo de espera global predeterminado. Puede cerrarlo antes manualmente con la opción **Cerrar a nuevas entradas**.
+
+### ¿Cuándo se considera que un recorrido ha &quot;finalizado&quot;? {#journey-finished-definition}
+
+La definición de &quot;terminado&quot; varía según el tipo de recorrido:
+
+| Tipo de recorrido | ¿Recurrente? | ¿Tiene fecha de finalización? | Definición de &quot;finished&quot; |
+|--------------|------------|---------------|--------------------------|
+| Leer público | No | n/a | 91 días después del inicio de la ejecución |
+| Leer público | Sí | No | 91 días después del inicio de la ejecución |
+| Leer público | Sí | Sí | Cuando se llega a la fecha de finalización |
+| Recorrido activado por evento | n/a | Sí | Cuando se llega a la fecha de finalización |
+| Recorrido activado por evento | n/a | No | Cuando se cierra en la interfaz de usuario o mediante API |
+
+Esta es una alerta informativa que le ayuda a realizar un seguimiento de la finalización del recorrido. No hay criterios de resolución, ya que se trata de una notificación única.
 
 ### Cerca de nuevas entradas {#close-to-new-entrances}
 

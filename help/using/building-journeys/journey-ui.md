@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1483'
 ht-degree: 10%
 
 ---
@@ -140,7 +140,7 @@ El estado del recorrido depende de su ciclo de vida. Puede ser:
 
 * **Borrador**: el recorrido se encuentra en su primera fase. Aún no se ha publicado.
 * **Borrador (prueba)**: el modo de prueba se ha activado con el botón **Modo de prueba**. [Más información](../building-journeys/testing-the-journey.md)
-* **Finalizado**: el recorrido cambia automáticamente a este estado después del tiempo de espera global de [91 días](journey-properties.md#global_timeout). Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido.
+* **Finalizado**: el recorrido cambia automáticamente a este estado en función del tipo de recorrido y la configuración. Los perfiles que ya están en el recorrido finalizan el recorrido normalmente. Los nuevos perfiles ya no pueden entrar en el recorrido. [Aprenda cuándo se considera que los recorridos han finalizado](end-journey.md#journey-finished-definition).
 * **Activo**: el recorrido se ha publicado con el botón **Publicar**. [Más información](../building-journeys/publish-journey.md)
 * **Pausado**: el recorrido activo se ha pausado, usando el botón **Pausar**. [Más información](../building-journeys/journey-pause.md)
 * **Detenido**: el recorrido se ha desactivado con el botón **Detener**. Todos los individuos abandonan el recorrido al instante. [Más información](../building-journeys/end-journey.md#stop-journey)

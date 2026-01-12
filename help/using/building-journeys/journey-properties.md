@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '2849'
+source-wordcount: '2866'
 ht-degree: 15%
 
 ---
@@ -129,6 +129,10 @@ Recorrido también utiliza un tiempo de espera global como se detalla a continua
 Además del tiempo de espera [timeout](#timeout_and_error) utilizado en las actividades de recorrido, se aplica un tiempo de espera de recorrido global. No se muestra en la interfaz y no se puede cambiar.
 
 Este tiempo de espera global detiene el progreso de los individuos en el recorrido **91 días** después de que ingresan. Esto significa que el recorrido de una persona no puede durar más de 91 días. Después de este período de tiempo de espera, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del periodo de tiempo de espera se detendrán y no se tendrán en cuenta en los informes. Por lo tanto, podría ver más personas entrando en el recorrido que saliendo.
+
+>[!NOTE]
+>
+>La definición exacta de cuándo se considera que un recorrido ha finalizado varía según el tipo de recorrido. [Ver criterios detallados](end-journey.md#journey-finished-definition).
 
 Debido al tiempo de espera de recorrido de 91 días, cuando no se permite la reentrada al recorrido, no podemos asegurarnos de que el bloqueo de reentrada funcione más de 91 días. De hecho, al eliminar toda la información sobre las personas que ingresaron al recorrido 91 días después de su entrada, no podemos saber la persona ingresada anteriormente, hace más de 91 días.
 
