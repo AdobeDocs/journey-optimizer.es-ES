@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '681'
 ht-degree: 6%
 
 ---
@@ -216,7 +216,7 @@ currentActionField.description == "abc"
 
 Los campos de carga de respuesta de las acciones personalizadas se pueden utilizar en canales nativos (correo electrónico, push, SMS) para la personalización de mensajes. Esto incluye la capacidad de iterar en matrices y estructuras de datos anidadas devueltas por API externas.
 
-<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/iterate-contextual-data.md#custom-action-responses).-->
+Para obtener ejemplos detallados y sintaxis para repetir datos de respuesta de acciones personalizadas en los mensajes, consulte [Iterar datos contextuales con Handlebars](../personalization/iterate-contextual-data.md#custom-action-responses).
 
 ## Recursos adicionales
 
