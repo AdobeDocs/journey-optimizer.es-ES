@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '3061'
 ht-degree: 98%
@@ -502,10 +502,10 @@ ht-degree: 98%
       + [Creación de contenido multilingüe con traducción manual](using/content-management/multilingual-manual.md)
       + [Creación de contenido multilingüe con traducción automática](using/content-management/multilingual-automated.md)
    + Optimización de contenido {#message-optimization}
-      + [Introducción a la optimización](using/campaigns/gs-message-optimization.md)
-      + [Usar segmentación](using/campaigns/optimization-targeting.md)
-      + [Uso de la experimentación](using/campaigns/optimization-experimentation.md)
-      + [Combinación de direccionamiento y experimentación](using/campaigns/optimization-combination.md)
+      + [Introducción a la optimización](using/content-management/gs-message-optimization.md)
+      + [Usar segmentación](using/content-management/optimization-targeting.md)
+      + [Uso de la experimentación](using/content-management/optimization-experimentation.md)
+      + [Combinación de direccionamiento y experimentación](using/content-management/optimization-combination.md)
    + Experimento del contenido {#content-experiment}
       + [Introducción al experimento de contenido](using/content-management/get-started-experiment.md)
       + [Introducción a Experiment Accelerator](using/content-management/experiment-accelerator-gs.md)
@@ -841,7 +841,7 @@ ht-degree: 98%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}

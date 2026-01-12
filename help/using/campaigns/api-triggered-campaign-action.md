@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 50%
@@ -40,7 +40,7 @@ Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de
 
 1. **Aprovechar optimización**
 
-   Utilice la sección **[!UICONTROL Optimización de mensajes]** para ejecutar experimentos de contenido, aprovechar reglas de segmentación o usar combinaciones avanzadas de experimentación y segmentación. Estas diferentes opciones y los pasos a seguir se detallan en esta sección: [Optimización en campañas](gs-message-optimization.md).
+   Utilice la sección **[!UICONTROL Optimización de mensajes]** para ejecutar experimentos de contenido, aprovechar reglas de segmentación o usar combinaciones avanzadas de experimentación y segmentación. Estas diferentes opciones y los pasos a seguir se detallan en esta sección: [Optimización en campañas](../content-management/gs-message-optimization.md).
 <!--
 1. **Create a content experiment**
 

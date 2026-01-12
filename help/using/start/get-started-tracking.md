@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Beginner
 keywords: seguimiento, monitorización, análisis, sistema de informes, capacidad de entrega
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 3%
@@ -244,9 +244,9 @@ Journey Optimizer realiza automáticamente un seguimiento de los experimentos de
 
 * **Optimización en tus campañas y recorridos**:
 
-   * Al crear experimentos, defina qué métricas rastrear (conversiones, clics, eventos personalizados). Journey Optimizer recopila automáticamente datos de rendimiento para cada tratamiento. [Más información](../campaigns/optimization-experimentation.md)
+   * Al crear experimentos, defina qué métricas rastrear (conversiones, clics, eventos personalizados). Journey Optimizer recopila automáticamente datos de rendimiento para cada tratamiento. [Más información](../content-management/optimization-experimentation.md)
 
-   * Cree reglas de segmentación para entregar contenido diferente a segmentos de audiencia diferentes. Journey Optimizer realiza automáticamente un seguimiento de las métricas de participación de cada grupo de destino, lo que le permite comparar el rendimiento entre segmentos. [Más información](../campaigns/optimization-targeting.md)
+   * Cree reglas de segmentación para entregar contenido diferente a segmentos de audiencia diferentes. Journey Optimizer realiza automáticamente un seguimiento de las métricas de participación de cada grupo de destino, lo que le permite comparar el rendimiento entre segmentos. [Más información](../content-management/optimization-targeting.md)
 
 * **Optimización de ruta de Recorrido**: Agregue una actividad **Optimizar** a su recorrido y configure varias rutas. Journey Optimizer realiza automáticamente un seguimiento de las rutas que toman los perfiles y mide el rendimiento. [Más información](../building-journeys/optimize.md)
 

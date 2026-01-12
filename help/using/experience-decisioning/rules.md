@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 9%
@@ -52,7 +52,7 @@ En muchas ocasiones, son una combinación de varios atributos, además de evento
 
 Puede utilizar estas reglas:
 
-* Al crear [segmentación de optimización de contenido](../campaigns/optimization-targeting.md) en recorridos o campañas;
+* Al crear [segmentación de optimización de contenido](../content-management/optimization-targeting.md) en recorridos o campañas;
 * Al generar [optimización de ruta de recorrido](../building-journeys/optimize.md#targeting).
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
@@ -90,7 +90,7 @@ Para crear una regla, siga estos pasos:
    ![](assets/rules-select-entity.png){width=90%}
 
    * **[!UICONTROL Elemento de decisión]** - La regla se puede aplicar en un [elemento de decisión](#decision-rules) en el contexto de Decisioning;
-   * **[!UICONTROL Segmentación]**: la regla se puede usar al generar reglas de [segmentación](#targeting-rules), ya sea como parte de [optimización de contenido](../campaigns/optimization-targeting.md) en una campaña o un recorrido, ya sea en la [actividad Optimizar recorrido](../building-journeys/optimize.md#targeting).
+   * **[!UICONTROL Segmentación]**: la regla se puede usar al generar reglas de [segmentación](#targeting-rules), ya sea como parte de [optimización de contenido](../content-management/optimization-targeting.md) en una campaña o un recorrido, ya sea en la [actividad Optimizar recorrido](../building-journeys/optimize.md#targeting).
 
 1. Si crea una regla de **[!UICONTROL elemento de decisión]**, puede seleccionar **[!UICONTROL Habilitar la búsqueda del conjunto de datos]** para usar datos de Adobe Experience Platform a fin de enriquecer la lógica de decisión con datos externos. Esto resulta especialmente útil para atributos que cambian con frecuencia, como la disponibilidad del producto o los precios en tiempo real.
 
@@ -137,4 +137,4 @@ Para crear una regla, siga estos pasos:
 
 Aprenda a crear, duplicar y aplicar **reglas de segmentación** reutilizables en Adobe Journey Optimizer para personalizar de forma eficaz las campañas basadas en atributos del cliente como la región, el idioma y el comportamiento, ahorrando tiempo y mejorando la precisión de la audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476130/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
