@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Se puede acceder directamente al **informe de Recorrido** desde su recorrido con
 
 ![](assets/gs-cja-report-3.png)
 
-Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Información general del recorrido {#journey-global}
 
@@ -85,7 +85,7 @@ El widget **[!UICONTROL Errores de acción]** detalla los diferentes errores que
 
 ![](assets/cja-journey-canvas.png)
 
-El widget **[!UICONTROL Lienzo de Recorrido]** le permite rastrear visualmente la trayectoria de sus perfiles de destino a medida que navegan por su recorrido. [Obtenga más información en la documentación de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+El widget **[!UICONTROL Lienzo de Recorrido]** le permite rastrear visualmente la trayectoria de sus perfiles de destino a medida que navegan por su recorrido. [Obtenga más información en la documentación de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Mejore la personalización del lienzo con las siguientes opciones:
 
@@ -154,7 +154,7 @@ La tabla **[!UICONTROL Información general del evento]** muestra cuántos perfi
 
 Si configuraste **[!UICONTROL reglas de segmentación]** para tu contenido, la tabla de **[!UICONTROL Información general de segmentación]** proporciona una vista detallada de las métricas de participación clave, mostrando cómo los perfiles de segmentación para cada regla interactuaron con tu contenido.
 
-➡️ [Más información sobre las Reglas de segmentación](../campaigns/campaigns-message-optimization.md)
+➡️ [Más información sobre las Reglas de segmentación](../campaigns/optimization-targeting.md)
 
 +++ Más información sobre las Métricas de información general de Segmentación
 

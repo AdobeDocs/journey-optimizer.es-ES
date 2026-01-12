@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 1%
@@ -113,7 +113,7 @@ La tabla **[!UICONTROL Etiqueta de vínculo rastreado]** ofrece información ese
 
 Si configuraste **[!UICONTROL reglas de segmentación]** para tu contenido, la tabla de **[!UICONTROL Información general de segmentación]** proporciona una vista detallada de las métricas de participación clave, mostrando cómo los perfiles de segmentación para cada regla interactuaron con tu contenido.
 
-➡️ [Más información sobre las Reglas de segmentación](../campaigns/campaigns-message-optimization.md)
+➡️ [Más información sobre las Reglas de segmentación](../campaigns/optimization-targeting.md)
 
 +++ Más información sobre las Métricas de información general de Segmentación
 

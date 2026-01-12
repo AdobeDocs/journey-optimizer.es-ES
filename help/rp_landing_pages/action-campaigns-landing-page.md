@@ -5,7 +5,7 @@ title: Campañas de acción
 description: Campañas de acción
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Las campañas de acción en Adobe Journey Optimizer le permiten enviar mensajes 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Crear una campaña de acción
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear y administrar campañas de acción, inclu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definir propiedades de la campaña de acción
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso para definir las propiedades de la campaña, como el n
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configurar acciones de campaña
 
@@ -50,17 +50,17 @@ Guía para configurar acciones de la campaña, incluida la selección de canales
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Aprovechar la optimización de mensajes
 
 Utilice la segmentación y la experimentación para maximizar la participación y crear campañas personalizadas.
 
-[Optimizar campañas](../using/campaigns/campaigns-message-optimization.md)
+[Optimizar campañas](../using/campaigns/gs-message-optimization.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
 Editar contenido de campañas
 
@@ -70,7 +70,7 @@ Diseñe, pruebe y configure contenido para sus campañas de acción en varios ca
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Definir el público de la campaña
 
