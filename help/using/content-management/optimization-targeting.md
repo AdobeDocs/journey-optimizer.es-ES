@@ -6,7 +6,7 @@ description: Aprenda a aprovechar las reglas de segmentación para ofrecer conte
 role: User
 level: Intermediate
 keywords: segmentación, optimización, audiencia, personalización, reglas
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 8%
@@ -90,7 +90,7 @@ Para configurar la segmentación, siga los pasos a continuación.
 
    En este ejemplo, diseñe un contenido específico para residentes de EE. UU., un contenido diferente para residentes franceses y otro contenido para residentes de la India.
 
-1. [Activar](review-activate-campaign.md) tu recorrido o campaña.
+1. [Activar](../campaigns/review-activate-campaign.md) tu recorrido o campaña.
 
 Una vez que el recorrido/campaña está activo, se envía contenido personalizado para cada destinatario para que los residentes de EE. UU. reciban un mensaje específico, los residentes de Francia un mensaje diferente, etc.
 

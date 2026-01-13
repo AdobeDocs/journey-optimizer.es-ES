@@ -6,7 +6,7 @@ description: Aprenda a combinar direccionamiento y experimentos dentro de un sol
 role: User
 level: Intermediate
 keywords: optimización, segmentación, experimentación, combinación, avanzado
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Para combinar objetivos y experimentos en un recorrido o campaña, siga los paso
 
 1. Continúe de forma similar para las demás reglas de segmentación y diseñe el contenido correspondiente para cada variante.
 
-1. Guarde los cambios y [active](review-activate-campaign.md) su recorrido o campaña.
+1. Guarde los cambios y [active](../campaigns/review-activate-campaign.md) su recorrido o campaña.
 
 Una vez que el recorrido/campaña está activo, a los usuarios de cada grupo objetivo se les asignan aleatoriamente las diferentes variaciones de contenido definidas para el grupo al que pertenecen.
 

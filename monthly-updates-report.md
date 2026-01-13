@@ -5,7 +5,7 @@ title: Informe mensual de actualizaciones de la documentación
 description: Lista de páginas de documentación nuevas y actualizadas
 hide: true
 hidefromtoc: true
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -165,7 +165,7 @@ ht-degree: 0%
 - [Defina las propiedades de campaña activadas por API](help/using/campaigns/api-triggered-campaign-properties.md) - 23 de octubre
 - [Trabajar con campañas activadas por API](help/using/campaigns/api-triggered-campaigns.md) - 29 de octubre
 - [Configurar la acción de campaña](help/using/campaigns/campaign-action.md) - 29 de octubre
-- [Optimización en campañas y recorridos](help/using/campaigns/gs-message-optimization.md) - 22 de octubre
+- [Optimización en campañas y recorridos](help/using/content-management/gs-message-optimization.md) - 22 de octubre
 - [Crear una campaña de acción](help/using/campaigns/create-campaign.md) - 29 de octubre
 - [Introducción a las campañas](help/using/campaigns/get-started-with-campaigns.md) - 29 de octubre
 - [Acceder y administrar campañas](help/using/campaigns/manage-campaigns.md) - 23 de octubre
