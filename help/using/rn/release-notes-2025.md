@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
 workflow-type: tm+mt
-source-wordcount: '7909'
+source-wordcount: '7916'
 ht-degree: 99%
 
 ---
@@ -441,7 +441,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
    * **Compatibilidad con atributos personalizados con la URL de cancelación de suscripción de un solo clic**: con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer un punto final personalizado externo definiendo su propio vínculo para cancelar la suscripción con un solo clic en la configuración de correo electrónico. Cuando los destinatarios hacen clic en el vínculo Cancelar LA suscripción, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento.
 
-     Para personalizar aún más el vínculo de cancelación de suscripción de un solo clic, ahora puede definir atributos personalizados que se adjuntarán al evento de consentimiento. [Más información](../email/list-unsubscribe.md#custom-attributes)
+     Para personalizar aún más el vínculo de cancelación de suscripción de un solo clic, ahora puede definir atributos personalizados que se adjuntarán al evento de consentimiento. Esta capacidad tiene disponibilidad limitada. [Más información](../email/list-unsubscribe.md#custom-attributes)
 
 * **Conjuntos de datos**
 

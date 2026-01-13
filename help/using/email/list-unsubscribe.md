@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
-workflow-type: ht
-source-wordcount: '1704'
-ht-degree: 100%
+source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
+workflow-type: tm+mt
+source-wordcount: '1701'
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,9 @@ Para personalizar aún más los puntos finales<!-- (**[!UICONTROL Mailto (unsubs
 
 >[!AVAILABILITY]
 >
->Para la opción **[!UICONTROL Mailto (cancelar la suscripción)]**, esta funcionalidad está disponible con disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso. En este caso, debe usar los nuevos parámetros de consulta que se describen en la sección **Mailto (cancelar la suscripción) con los atributos personalizados (disponibilidad limitada)** [que viene a continuación](#configure-decrypt-api).
+>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+>
+>Para la opción **[!UICONTROL Mailto (cancelar la suscripción)]**, debe usar los nuevos parámetros de consulta descritos en la sección **Mailto (cancelar la suscripción) con atributos personalizados (disponibilidad limitada)** [debajo](#configure-decrypt-api).
 
 Para definir los atributos personalizados de los puntos finales, utilice la sección **[!UICONTROL Parámetros de seguimiento de URL]**. Todos los parámetros de seguimiento de URL que defina en la sección correspondiente se adjuntarán al final de los puntos finales personalizados, además de los parámetros predeterminados. [Aprenda a configurar el seguimiento de URL personalizado](url-tracking.md)
 
