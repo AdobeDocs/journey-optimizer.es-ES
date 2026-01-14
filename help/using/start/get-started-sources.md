@@ -101,7 +101,7 @@ Una vez configuradas, las fuentes se ejecutan automáticamente en segundo plano,
 
 Vea este vídeo para comprender los conectores de origen y cómo configurarlos en Journey Optimizer:
 
->[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3422582?captions=spa&quality=12)
 
 Para obtener información detallada sobre cómo configurar y administrar fuentes, consulte la [documentación de fuentes de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es){target="_blank"}.
 
