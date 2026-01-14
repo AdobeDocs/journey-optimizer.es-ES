@@ -65,7 +65,7 @@ Instrucciones paso a paso para crear ofertas personalizadas, opciones de reserva
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Crear y gestionar decisiones
 

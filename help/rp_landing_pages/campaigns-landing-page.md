@@ -22,7 +22,7 @@ Las campañas de Adobe Journey Optimizer le permiten distribuir mensajes persona
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a las campañas
 
@@ -42,7 +42,7 @@ Descubra cómo acceder, administrar, modificar o archivar campañas, y explorar 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Campañas de acción
 
@@ -52,7 +52,7 @@ Instrucciones paso a paso para crear, personalizar y activar campañas de acció
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Campañas activadas por API
 

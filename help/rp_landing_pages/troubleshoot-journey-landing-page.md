@@ -59,7 +59,7 @@ Descubra cómo acceder a las alertas del sistema, suscribirse a notificaciones y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Referencia de códigos de error
 
@@ -89,7 +89,7 @@ Diagnostique problemas con la validación de eventos, la entrada de perfiles, la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Solución de problemas de acciones de entrada en recorridos
 
@@ -99,7 +99,7 @@ Depure los problemas de las acciones de envío, como la falta de contenido o la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Solución de problemas de acciones personalizadas
 

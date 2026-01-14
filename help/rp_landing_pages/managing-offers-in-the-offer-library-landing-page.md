@@ -35,7 +35,7 @@ Obtenga información sobre cómo crear ofertas personalizadas, configurar repres
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Cómo crear ofertas de reserva
 

@@ -35,7 +35,7 @@ Obtenga información sobre la gestión de decisiones en Adobe Journey Optimizer,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Mecanismos de protección y limitaciones de la gestión de decisiones
 

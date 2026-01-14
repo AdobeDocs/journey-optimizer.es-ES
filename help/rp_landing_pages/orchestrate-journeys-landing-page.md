@@ -22,7 +22,7 @@ Los recorridos de Adobe Journey Optimizer le permiten crear recorridos para el c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a los recorridos de Adobe Journey Optimizer
 
@@ -72,7 +72,7 @@ Domine la creación de expresiones para los flujos de trabajo dinámicos, la man
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Casos de uso prácticos de Adobe Journey Optimizer
 

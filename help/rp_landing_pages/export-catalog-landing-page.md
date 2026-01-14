@@ -45,7 +45,7 @@ Descubra cómo localizar e interactuar con el catálogo de ofertas exportado en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Referencia de conjuntos de datos de ofertas personalizadas
 
@@ -55,7 +55,7 @@ Explore los campos y el esquema jerárquico del conjunto de datos para obtener o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Información general sobre el conjunto de datos de decisiones
 
@@ -65,7 +65,7 @@ Conozca la estructura jerárquica, las definiciones de campo y los metadatos del
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Detalles del conjunto de datos de ubicaciones
 
@@ -75,7 +75,7 @@ Obtenga información sobre los campos, el esquema y los metadatos del conjunto d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Documentación sobre el conjunto de datos de ofertas de reserva
 
