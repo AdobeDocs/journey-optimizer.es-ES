@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-02-56
 badge: label="Heredado" type="Informative"
 exl-id: 96be492d-5003-4954-94cb-467ec5a725bd
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Crear informes de gestión de decisiones en Adobe Journey Optimizer le permite o
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Trabajar con eventos de gestión de decisiones
 
@@ -35,7 +35,7 @@ Aprenda a aprovechar los conjuntos de datos de eventos de gestión de decisiones
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Acceder y explorar los campos XDM de DecisioningEvents
 

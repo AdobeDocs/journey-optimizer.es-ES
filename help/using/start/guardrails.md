@@ -9,15 +9,15 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3661'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Mecanismos de protección y limitaciones {#limitations}
 
-A continuación encontrará limitaciones y protecciones al usar [!DNL Adobe Journey Optimizer].
+A continuación encontrará mecanismos de protección y limitaciones adicionales cuando utilice [!DNL Adobe Journey Optimizer].
 
 Los derechos, limitaciones de productos y protección del rendimiento se enumeran en la [página de descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -118,9 +118,9 @@ Adobe recomienda establecer el valor TTL en 14 días para que coincida con el TT
 
 Journey Optimizer admite un volumen máximo de 500 mensajes transaccionales por segundo en las campañas.
 
-## Contenido y Assets {#content-assets}
+## Contenido y recursos {#content-assets}
 
-Esta sección cubre las barreras para la creación y administración de contenido, incluidas las páginas de aterrizaje, subdominios y fragmentos.
+Esta sección trata de las reglas para la creación y administración de contenido, incluidas las páginas de destino, subdominios y fragmentos.
 
 ### Mecanismos de protección de las páginas de destino {#lp-guardrails}
 
@@ -148,9 +148,9 @@ Las siguientes limitaciones se aplican a los [fragmentos](../content-management/
 * Los fragmentos visuales no son compatibles entre los modos Usar temas y Estilo manual. Para poder utilizar un fragmento en un contenido en el que desee aplicar una temática, este fragmento debe crearse en el modo Usar temas. [Más información sobre los temas](../email/apply-email-themes.md)
 * Cuando el seguimiento está habilitado en un recorrido o una campaña, si agrega vínculos a un fragmento y este se utiliza en un mensaje, se realiza el seguimiento de estos vínculos, al igual que todos los demás incluidos en el mensaje. [Más información sobre vínculos y seguimiento](../email/message-tracking.md)
 
-## Audiencias y perfiles {#audiences-profiles}
+## Públicos y perfiles {#audiences-profiles}
 
-Esta sección cubre las protecciones para la gestión de audiencias, la administración de perfiles y las consideraciones de perfil atractivas.
+Esta sección abarca los aspectos relativos a la gestión de públicos, el manejo de perfiles y las consideraciones sobre los perfiles atractivos.
 
 ### Mecanismos de protección de público y perfil {#audience}
 
@@ -166,14 +166,14 @@ Esta sección cubre las protecciones para la gestión de audiencias, la administ
 
 ### Mecanismos de protección de gestión de decisiones y toma de decisiones {#decisioning-guardrails}
 
-Las protecciones y limitaciones que se deben tener en cuenta al trabajar con la toma de decisiones o la administración de decisiones se detallan en estas secciones de la toma de decisiones y la administración de decisiones:
+Las reglas y limitaciones que se deben tener en cuenta al trabajar con toma de decisiones o gestión de decisiones se detallan en estas secciones de toma de decisiones y gestión de decisiones:
 
 * [Limitaciones y protecciones de decisiones](../experience-decisioning/decisioning-guardrails.md)
 * [Limitaciones y mecanismos de protección de gestión de decisiones](../offers/decision-management-guardrails.md)
 
 ## Recorridos {#journeys-guardrails}
 
-Esta sección cubre las protecciones y limitaciones de los recorridos, incluidas las limitaciones generales de recorrido, los componentes de recorrido (acciones, eventos, fuentes de datos), las actividades de recorrido y las funciones específicas como las acciones personalizadas y el editor de expresiones.
+Esta sección trata de las protecciones y limitaciones de los recorridos, incluidas las limitaciones generales de recorrido, los componentes de recorrido (acciones, eventos, fuentes de datos), las actividades de recorrido y las funciones específicas como las acciones personalizadas y el editor de expresiones.
 
 ### Protecciones generales del recorrido {#journeys-guardrails-journeys}
 

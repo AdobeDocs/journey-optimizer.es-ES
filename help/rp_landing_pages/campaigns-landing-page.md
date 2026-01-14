@@ -8,7 +8,7 @@ exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 hide: true
 hidefromtoc: true
 source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Las campañas de Adobe Journey Optimizer le permiten distribuir mensajes persona
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a las campañas
 
@@ -32,7 +32,7 @@ Conozca los aspectos básicos de las campañas en Adobe Journey Optimizer, inclu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Acceder y administrar campañas
 
@@ -42,7 +42,7 @@ Descubra cómo acceder, administrar, modificar o archivar campañas, y explorar 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Campañas de acción
 
@@ -52,7 +52,7 @@ Instrucciones paso a paso para crear, personalizar y activar campañas de acció
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Campañas activadas por API
 
@@ -62,7 +62,7 @@ Directrices completas para desarrolladores sobre la creación y administración 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Campañas orquestadas
 

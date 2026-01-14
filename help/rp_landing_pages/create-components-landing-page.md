@@ -7,7 +7,7 @@ badge: label="Heredado" type="Informative"
 redpen-status: CREATED_||_2025-08-11_20-58-59
 exl-id: 490fa22c-40b3-4c70-b31c-a971c941a232
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ En Adobe Journey Optimizer, crear componentes como ubicaciones, reglas de decisi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Guía para la creación de ubicaciones para ofertas
 
@@ -35,7 +35,7 @@ Obtenga información sobre cómo crear y administrar ubicaciones para garantizar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Cómo crear reglas de decisión en Adobe Journey Optimizer
 
@@ -45,7 +45,7 @@ Defina reglas de decisión para personalizar las ofertas dirigiéndose a segment
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
 
 Cómo crear y administrar cualificadores de colección en Adobe Journey Optimizer
 

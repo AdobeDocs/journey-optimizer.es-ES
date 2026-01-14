@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Todas las solicitudes que contienen una carga útil (POST, PUT, PATCH) requieren
 >
 >Las comprobaciones de permisos se aplican según los perfiles de producto asignados. Solo los permisos otorgados en el perfil de producto asociado determinan a qué recursos se puede acceder o administrar a través de la API.
 
-## Pasos siguientes {#next-steps}
+## Próximos pasos {#next-steps}
 
 Este documento cubría los conocimientos previos necesarios para realizar llamadas a la API de [!DNL Offer Library]. Ahora puede continuar con las llamadas de muestra que se proporcionan en esta guía para desarrolladores y seguir junto con sus instrucciones.
 <!--
@@ -80,5 +80,5 @@ Este documento cubría los conocimientos previos necesarios para realizar llamad
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342828?captions=spa&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 
