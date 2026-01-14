@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: ef109382448b013398b83714b0f5e85f428ffadd
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '787'
 ht-degree: 19%
 
 ---
@@ -30,12 +30,7 @@ Para crear mensajes de correo postal, cree una campaña programada y configure e
 >1. Una [configuración de enrutamiento de archivos](../direct-mail/direct-mail-configuration.md#file-routing-configuration) que especifica el servidor donde se debe cargar y almacenar el archivo de extracción,
 >1. Una [configuración de mensaje de correo postal](../direct-mail/direct-mail-configuration.md#direct-mail-surface) que hará referencia a la configuración de enrutamiento de archivos.
 
-
 ## Creación de una campaña de correo directo{#create-dm-campaign}
-
->[!AVAILABILITY]
->
->El correo postal admite la funcionalidad de Holdout, pero actualmente no admite Tratamientos.
 
 Para crear una campaña de correo postal, debe configurar una campaña programada, seleccionar la audiencia de destino y configurar los ajustes de correo postal, incluida la configuración del mensaje. Siga estos pasos:
 
@@ -62,6 +57,10 @@ Para crear una campaña de correo postal, debe configurar una campaña programad
 1. Seleccione o cree una **[!UICONTROL configuración de correo directo]** para usar. [Aprenda a crear una configuración de correo postal](direct-mail-configuration.md#direct-mail-surface).
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
+
+   >[!AVAILABILITY]
+   >
+   >El correo postal admite la funcionalidad **Holdout**, pero actualmente no admite **Tratamientos**. [Aprenda a trabajar con experimentos](../content-management/get-started-experiment.md)
 
 1. Las campañas se pueden programar para una fecha específica o configurarse para que se repitan a intervalos regulares. Aprenda a configurar la **[!UICONTROL programación]** de su campaña en [esta sección](../campaigns/campaign-schedule.md).
 
