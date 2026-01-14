@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
-source-wordcount: '3061'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -236,17 +236,17 @@ ht-degree: 98%
       + [Solicitud de aprobación](using/test-approve/request-approval.md)
       + [Aprobación de una solicitud](using/test-approve/review-approve-request.md)
 + Monitorización y solución de problemas {#monitor}
-   + [Introducción a la monitorización y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+   + [Introducción a la supervisión y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Seguimiento en Journey Optimizer](using/start/get-started-tracking.md)
    + Entregabilidad del correo electrónico {#deliverability}
       + [Introducción a la Entregabilidad](using/reports/deliverability.md)
       + [Explicación de la lista de supresión](using/reports/suppression-list.md)
       + [Nuevo requisito de DMARC](using/configuration/dmarc-record-update.md)
-   + Monitorización de alertas y códigos de error {#monitor-alerts-errors}
+   + Supervisión de alertas y códigos de error {#monitor-alerts-errors}
       + [Alertas del sistema](using/reports/alerts.md)
       + [Referencia de códigos de error](using/building-journeys/error-codes-reference.md)
-   + Resolución de problemas {#troubleshooting}
-      + [Preguntas frecuentes sobre resolución de problemas](using/start/troubleshooting.md)
+   + Solución de problemas {#troubleshooting}
+      + [Preguntas frecuentes sobre solución de problemas](using/start/troubleshooting.md)
       + Solución de problemas de recorridos {#troubleshoot-journey}
          + [Solucionar errores de recorrido](using/building-journeys/troubleshooting.md)
          + [Solución de problemas de la ejecución del recorrido](using/building-journeys/troubleshooting-execution.md)
@@ -660,7 +660,7 @@ ht-degree: 98%
       + [Trabajo con colocaciones](using/experience-decisioning/placements.md)
       + Uso de datos de Adobe Experience Platform {#aep-data}
          + [Usar datos de Adobe Experience Platform](/help/rp_landing_pages/aep-data-landing-page.md)
-         + [Mejora de datos de contexto](using/experience-decisioning/context-data.md)
+         + [Aprovechamiento de los datos de contexto](using/experience-decisioning/context-data.md)
          + [Uso de Adobe Experience Platform para la toma de decisiones](using/experience-decisioning/aep-data-exd.md)
       + [Creación de estrategias de selección](using/experience-decisioning/selection-strategies.md)
       + Envío de ofertas mediante políticas de decisión {#decision-policies}
@@ -718,8 +718,8 @@ ht-degree: 98%
          + [Introducción a la recopilación de datos](using/offers/data-collection/data-collection.md)
          + [Crear un conjunto de datos para recopilar eventos](using/offers/data-collection/create-dataset.md)
          + [Configurar la captura de eventos](using/offers/data-collection/schema-requirement.md)
-      + Mejora de datos de contexto {#context-data}
-         + [Mejora de datos de contexto](/help/rp_landing_pages/context-data-landing-page.md)
+      + Aprovechamiento de los datos de contexto {#context-data}
+         + [Aprovechamiento de los datos de contexto](/help/rp_landing_pages/context-data-landing-page.md)
          + [Introducción a los datos de contexto](using/offers/context-data.md)
          + [Datos de contexto y solicitudes de Edge Decisioning](using/offers/context-data-edge.md)
          + [Solicitud de datos de contexto y toma de decisiones](using/offers/context-data-decisioning.md)
@@ -841,7 +841,7 @@ ht-degree: 98%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}

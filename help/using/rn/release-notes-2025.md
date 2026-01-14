@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
 workflow-type: tm+mt
-source-wordcount: '7916'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -1615,7 +1615,7 @@ Las plantillas de contenido de tipo HTML ya no se utilizan. Tenga en cuenta que 
 
 **Políticas de consentimiento**
 
-Ahora puede aprovechar las políticas de consentimiento personalizadas mediante acciones de marketing en configuraciones de canal de correo electrónico transaccional. [Más información](../action/consent.md#surface-marketing-actions)
+Ahora puede utilizar las políticas de consentimiento personalizadas mediante acciones de marketing en configuraciones de canales de correo electrónico transaccionales. [Más información](../action/consent.md#surface-marketing-actions)
 
 <!--**Deliverability**
 
