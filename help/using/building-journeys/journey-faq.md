@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía, orquestación
 version: Journey Orchestration
-source-git-commit: 63d37e1cb4042323eb764350dc2c89b5483ccae3
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
-source-wordcount: '5233'
+source-wordcount: '5231'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ Más información sobre [condiciones](condition-activity.md).
 
 +++ ¿Puedo enviar mensajes a perfiles en un recorrido?
 
-Sí. Journey Optimizer incluye **acciones de canal integradas** que le permiten enviar mensajes por correo electrónico, notificaciones push, SMS/MMS/RCS, mensajes en la aplicación, experiencias web, experiencias basadas en código, correo directo, tarjetas de contenido, WhatsApp y LINE. Puede diseñar contenido de mensajes directamente en Journey Optimizer y agregarlo como actividades de acción en el recorrido.
+Sí. Journey Optimizer incluye **acciones de canal integradas** que le permiten enviar mensajes por correo electrónico, notificaciones push, SMS/MMS/RCS, mensajes en la aplicación, experiencias web, experiencias basadas en código, tarjetas de contenido, WhatsApp y LINE. Puede diseñar contenido de mensajes directamente en Journey Optimizer y agregarlo como actividades de acción en el recorrido.
 
 Para los canales no admitidos de forma nativa, puede usar **acciones personalizadas** para integrarse con plataformas de mensajería externas y enviar mensajes a través de cualquier canal de terceros.
 
@@ -946,4 +946,4 @@ Para obtener más información y actualizaciones, explore los siguientes recurso
 * [Creación de su primer recorrido](journey-gs.md)
 * [Guías de solución de problemas](troubleshooting.md)
 * [Casos de uso de recorrido](jo-use-cases.md)
-* [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html?lang=es){target="_blank"}
+* [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
