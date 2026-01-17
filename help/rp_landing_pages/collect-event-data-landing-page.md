@@ -25,7 +25,7 @@ La recopilación de datos de eventos en Adobe Journey Optimizer permite rastrear
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a la recopilación de datos de gestión de decisiones
 

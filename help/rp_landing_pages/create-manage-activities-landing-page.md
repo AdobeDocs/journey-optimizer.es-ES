@@ -35,7 +35,7 @@ Aprenda a crear decisiones, definir ámbitos, establecer ofertas de reserva y ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configurar métodos de selección de ofertas
 

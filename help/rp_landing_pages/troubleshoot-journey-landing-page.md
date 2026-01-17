@@ -49,7 +49,7 @@ Acceda a informes clave para monitorizar el rendimiento del recorrido, analizar 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
 
 Acceso y suscripción a alertas del sistema
 
@@ -69,7 +69,7 @@ Comprenda los códigos de error comunes en Adobe Journey Optimizer y encuentre s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Solucionar errores antes de probar o publicar el recorrido
 
@@ -79,7 +79,7 @@ Identifique y resuelva errores en todo el recorrido, problemas de actividad, y e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Solución de problemas de la ejecución del recorrido activo
 

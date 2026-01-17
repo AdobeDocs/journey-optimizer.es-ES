@@ -32,7 +32,7 @@ Se pueden crear envíos de correo electrónico de la siguiente manera:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Cómo crear un correo electrónico
 

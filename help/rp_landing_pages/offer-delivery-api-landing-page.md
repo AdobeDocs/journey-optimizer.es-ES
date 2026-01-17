@@ -25,7 +25,7 @@ Las API para el envío de ofertas de Adobe Journey Optimizer le permiten enviar 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a las API de envío de ofertas
 
@@ -35,7 +35,7 @@ Obtenga información sobre las API disponibles para enviar ofertas personalizada
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Envío de ofertas mediante la API de toma de decisiones
 

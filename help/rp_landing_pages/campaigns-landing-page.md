@@ -32,7 +32,7 @@ Conozca los aspectos básicos de las campañas en Adobe Journey Optimizer, inclu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Acceder y administrar campañas
 
@@ -62,7 +62,7 @@ Directrices completas para desarrolladores sobre la creación y administración 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Campañas orquestadas
 
