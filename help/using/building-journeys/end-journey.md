@@ -9,9 +9,9 @@ level: Intermediate
 keywords: volver a entrar, recorrido, finalizar, en directo, detener
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 03e9d4205f59a32347cd1702b24bfbad2bf540b9
+source-git-commit: 63f7b09d8b8de578c32ba0f5d6fdd6b2f5786722
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '994'
 ht-degree: 2%
 
 ---
@@ -120,7 +120,7 @@ Cuando está detenido, el estado del recorrido se establece en **[!UICONTROL Det
 
 >[!CAUTION]
 >
->Permisos para detener un recorrido restringido a usuarios con el permiso de alto nivel **[!DNL Manage journeys]**. Obtenga más información acerca de la administración de los derechos de acceso de los usuarios de [!DNL Journey Optimizer] en [esta sección](../administration/permissions-overview.md).
+>Detener un recorrido requiere el permiso **[!DNL Manage journeys]**. Si el recorrido incluye campañas en línea o nodos de mensajería, los usuarios también necesitan permisos de **Campañas > Publicar campañas**. Si el recorrido utiliza recursos (por ejemplo, en correos electrónicos), los usuarios deben tener acceso a ellos. Obtenga más información acerca de la administración de los derechos de acceso de los usuarios de [!DNL Journey Optimizer] en [esta sección](../administration/permissions-overview.md).
 
 ## Temas relacionados
 
