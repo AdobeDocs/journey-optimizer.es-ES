@@ -5,10 +5,10 @@ title: Añadir una actividad de canal en una campaña de varios pasos
 description: Obtenga información sobre cómo añadir una actividad de canal en una campaña de varios pasos
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 5fea202c36720f58cc5610446ff0273ce891a17a
+source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 60%
+ht-degree: 57%
 
 ---
 
@@ -86,7 +86,7 @@ Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de
 
 1. **Seleccionar una configuración de canal**
 
-   La configuración la define el [administrador del sistema](../../start/path/administrator.md). Contiene todos los parámetros técnicos para enviar el mensaje, como parámetros de encabezado, subdominio, aplicaciones móviles, etc. [Aprenda a configurar canales](../../configuration/channel-surfaces.md).
+   La configuración la define el [administrador del sistema](../../start/path/administrator.md). Contiene todos los parámetros técnicos para enviar el mensaje, como parámetros de encabezado, subdominio, aplicaciones móviles, etc. [Aprenda a configurar las configuraciones de canal](../../configuration/channel-surfaces.md)
 
    ![imagen que muestra la sección Acciones](../assets/channel-actions.png)
 
@@ -110,7 +110,7 @@ Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de
 
 1. **Agregar contenido multilingüe**
 
-   Utilice la sección **[!UICONTROL Idiomas]** para crear contenido en varios idiomas dentro de la campaña. Para ello, haga clic en el botón **[!UICONTROL Añadir idiomas]** y seleccione la **[!UICONTROL Configuración de idioma]** que desee. Encontrará información detallada sobre cómo configurar y utilizar las funciones multilingües en esta sección: [Introducción al contenido multilingüe](../../content-management/multilingual-gs.md)
+   Utilice la sección **[!UICONTROL Idiomas]** para crear contenido en varios idiomas dentro de la campaña. Para ello, haga clic en el botón **[!UICONTROL Añadir idiomas]** y seleccione la **[!UICONTROL Configuración de idioma]** que desee. Encontrará información detallada sobre cómo configurar y utilizar las funciones multilingües en esta sección: [Introducción al contenido multilingüe](../../content-management/multilingual-gs.md).
 
    ![imagen que muestra la sección Experimento de contenido](../assets/channel-experiment.png)
 
@@ -144,7 +144,7 @@ Al acceder al editor de personalización desde una campaña orquestada, dos carp
 
    * **`Enrichment`**: incluye datos agregados mediante actividades **[!UICONTROL Enrichment]** en el lienzo. Esto le permite personalizar mensajes en función de conjuntos de datos externos o lógica adicional incorporada durante la orquestación. [Aprenda a utilizar una actividad de enriquecimiento](../activities/enrichment.md)
 
-Para obtener información detallada sobre cómo usar el editor de personalización, consulte [Introducción a la personalización](../../personalization/personalize.md)
+Para obtener información detallada sobre cómo usar el editor de personalización, consulte [Introducción a la personalización](../../personalization/personalize.md).
 
 ## Comprobación y prueba del contenido
 
