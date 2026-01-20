@@ -9,9 +9,9 @@ level: Beginner
 keywords: recorrido, campaña, orquestado, comparación, elegir, decisión, flujo de trabajo, tiempo real, lote, orquestación, varios pasos, programado, activado por API, impulsado por evento
 hide: true
 hidefromtoc: true
-source-git-commit: 3fd971c719bfd667fe5b237c8f03a5915422c1e7
+source-git-commit: c1efa56fc3f3c93bdc4b9c7a9f4e81b58cbcff72
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1453'
 ht-degree: 3%
 
 ---
@@ -21,36 +21,37 @@ ht-degree: 3%
 
 Adobe Journey Optimizer ofrece tres poderosos enfoques para llegar a sus clientes y atraerlos. Es fundamental saber cuándo usar cada una de ellas para crear experiencias de marketing eficaces.
 
-Esta guía le ayuda a elegir entre **Recorridos**, **Campañas** (activadas por acción y API) y **Campañas orquestadas** según sus necesidades de marketing específicas.
+Esta guía le ayuda a elegir entre **Recorridos**, **Campañas de acción**, **Campañas activadas por API** y **Campañas orquestadas** según sus necesidades de marketing específicas.
 
 ## Resumen de comparación rápida {#quick-overview}
 
 | Aproximación | Mejor para | Estilo de ejecución |
 |----------|----------|-----------------|
 | **Recorridos** | Experiencias de cliente en tiempo real de varios pasos con lógica condicional | 1:1 orquestación: cada perfil a su propio ritmo |
-| **Campañas (acción y API)** | Envío de mensaje simple, programado o activado | Activado por lotes o API: todos los perfiles simultáneamente |
+| **Campañas de acción** | Difusiones programadas o recurrentes a audiencias | Ejecución por lotes: la audiencia se procesa junta en el momento del envío |
+| **Campañas activadas por API** | Mensajes transaccionales o impulsados por eventos de sistemas externos | Ejecución bajo demanda: activada por una llamada de API con carga útil |
 | **Campañas orquestadas** | Flujos de trabajo por lotes complejos con segmentación de varias entidades | Lienzo por lotes: todos los perfiles procesados juntos |
 
 ## Comparación detallada {#detailed-comparison}
 
 Utilice esta tabla completa para comprender las diferencias clave:
 
-| Función | Recorridos | Campañas (activadas por la acción y la API) | Campañas orquestadas |
-|---------|----------|-----------------------------------|----------------------|
-| **Propósito principal** | Organización de varios pasos 1:1 con contexto de cliente en tiempo real | Envío de mensajes único o recurrente a las audiencias | Campañas por lotes de varios pasos con flujos de trabajo de segmentación complejos |
-| **Tipo de lienzo** | Lienzo 1:1: cada perfil viaja a su propio ritmo | Sin lienzo: ejecución de una sola acción | Lienzo por lotes: todos los perfiles procesados juntos |
-| **Flujo de ejecución** | Acciones secuenciales, el perfil mantiene el estado durante todo el recorrido | Ejecución simultánea para toda la audiencia | Flujo de trabajo por lotes de varios pasos con actividades y transiciones |
-| **Mecanismo de entrada** | Eventos, audiencias, cualificaciones y eventos empresariales | Activación manual, programación o déclencheur de API | Ejecución programada del flujo de trabajo por lotes |
-| **Modelo de datos** | Perfil en tiempo real + datos de evento | Datos de perfil + carga útil de API | Datos relacionales de varias entidades (perfiles, productos, tiendas, reservas) |
-| **Segmentación** | Audiencias creadas previamente + condiciones en tiempo real | Audiencias creadas previamente desde Experience Platform | Audiencias a petición creadas dentro del lienzo con recuentos exactos |
-| **Procesamiento de perfil** | Individual, en tiempo real (a medida que ocurren los eventos) | Lote, todo a la vez | Lote, todo junto con compatibilidad con varias entidades |
-| **Personalización** | Datos contextuales en tiempo real + atributos de perfil | Atributos de perfil + datos de carga útil de API | Datos de varias entidades para una segmentación de precisión |
-| **Complejidad** | Varios pasos con ramificación, tiempos de espera y condiciones | Una sola acción o flujo de trabajo simple | Flujos de trabajo por lotes de varios pasos con segmentación, enriquecimiento y divisiones |
-| **Mejor para** | Recorridos del ciclo vital del cliente, incorporación, abandono del carro | Campañas promocionales, boletines informativos, anuncios, mensajes transaccionales | Campañas estacionales complejas, promociones de varios pasos y lanzamientos de productos |
-| **Tiempo** | Continuo, siempre activo una vez publicado | Fechas de inicio y finalización programadas o activadas por API | Ejecución por lotes según lo programado |
-| **Administración de estado** | Mantiene el estado del cliente para acciones en tiempo real | Ejecución sin estado | Procesamiento por lotes con tablas de trabajo |
-| **Usar cuando** | Se necesitan varios puntos de contacto con la lógica de decisión en tiempo real | Mensaje simple a la audiencia en un momento específico | Necesita segmentación compleja, datos de varias entidades o recuentos exactos previos al envío |
-| **Funciones únicas** | Reacciones en tiempo real, actividades de espera, ritmo basado en perfiles | Programación sencilla, activación de API, control de velocidad | Conjuntos de datos relacionales, segmentación de varias entidades, recuentos exactos, envío de varios niveles |
+| Función | Recorridos | Campañas de acción | Campañas activadas por API | Campañas orquestadas |
+|---------|----------|------------------|------------------------|----------------------|
+| **Propósito principal** | Organización de varios pasos 1:1 con contexto de cliente en tiempo real | Envío de mensajes único o recurrente a las audiencias | Mensajes transaccionales o impulsados por eventos iniciados por sistemas externos | Campañas por lotes de varios pasos con flujos de trabajo de segmentación complejos |
+| **Tipo de lienzo** | Lienzo 1:1: cada perfil viaja a su propio ritmo | Sin lienzo: ejecución de una sola acción | Sin lienzo: ejecución de una sola acción | Lienzo por lotes: todos los perfiles procesados juntos |
+| **Flujo de ejecución** | Acciones secuenciales, el perfil mantiene el estado durante todo el recorrido | Ejecución simultánea para toda la audiencia | Ejecución inmediata por llamada de API | Flujo de trabajo por lotes de varios pasos con actividades y transiciones |
+| **Mecanismo de entrada** | Eventos, audiencias, cualificaciones y eventos empresariales | Activación y programación manuales | Llamada de API desde un sistema externo | Ejecución programada del flujo de trabajo por lotes |
+| **Modelo de datos** | Perfil en tiempo real + datos de evento | Datos de perfil de audiencias de Experience Platform | Datos de carga útil de API con búsqueda de perfil opcional | Datos relacionales de varias entidades (perfiles, productos, tiendas, reservas) |
+| **Segmentación** | Audiencias creadas previamente + condiciones en tiempo real | Audiencias creadas previamente desde Experience Platform | Segmentación impulsada por carga útil (sin audiencia programada) | Audiencias a petición creadas dentro del lienzo con recuentos exactos |
+| **Procesamiento de perfil** | Individual, en tiempo real (a medida que ocurren los eventos) | Lote, todo a la vez | Por llamada de API, impulsada por carga útil | Lote, todo junto con compatibilidad con varias entidades |
+| **Personalización** | Datos contextuales en tiempo real + atributos de perfil | Atributos de perfil | Datos de carga útil + atributos de perfil opcionales | Datos de varias entidades para una segmentación de precisión |
+| **Complejidad** | Varios pasos con ramificación, tiempos de espera y condiciones | Una sola acción o flujo de trabajo simple | Acción única con asignación de carga útil | Flujos de trabajo por lotes de varios pasos con segmentación, enriquecimiento y divisiones |
+| **Mejor para** | Recorridos del ciclo vital del cliente, incorporación, abandono del carro | Campañas promocionales, boletines informativos y anuncios | Confirmaciones de pedidos, alertas de envío y restablecimientos de contraseña | Campañas estacionales complejas, promociones de varios pasos y lanzamientos de productos |
+| **Tiempo** | Continuo, siempre activo una vez publicado | Fechas de inicio y finalización programadas | Bajo demanda, impulsado por evento mediante API | Ejecución por lotes según lo programado |
+| **Administración de estado** | Mantiene el estado del cliente para acciones en tiempo real | Ejecución sin estado | Ejecución sin estado por llamada | Procesamiento por lotes con tablas de trabajo |
+| **Usar cuando** | Se necesitan varios puntos de contacto con la lógica de decisión en tiempo real | Mensaje sencillo a una audiencia en un momento específico | El sistema externo debe almacenar un mensaje en déclencheur inmediatamente | Necesita segmentación compleja, datos de varias entidades o recuentos exactos previos al envío |
+| **Funciones únicas** | Reacciones en tiempo real, actividades de espera, ritmo basado en perfiles | Programación, segmentación de audiencia, control de velocidad | Asignación de carga útil de API, activación de sistema a sistema | Conjuntos de datos relacionales, segmentación de varias entidades, recuentos exactos, envío de varios niveles |
 
 ## Guía de decisión {#decision-guide}
 
@@ -60,21 +61,27 @@ Siga este árbol de decisión para elegir el enfoque correcto:
 
 **Respuestas individuales en tiempo real al comportamiento de los clientes?**
 → **Usar Recorridos**
-- Los perfiles deben moverse a su propio ritmo
-- Lógica condicional basada en el comportamiento
-- El contexto en tiempo real es fundamental
+* Los perfiles deben moverse a su propio ritmo
+* Lógica condicional basada en el comportamiento
+* El contexto en tiempo real es fundamental
 
-**Envío de mensaje simple a una audiencia?**
-→ **Usar campañas activadas por acción o API**
-- Todos los perfiles reciben el mensaje simultáneamente
-- Programado o activado mediante API
-- No se necesita una lógica compleja de varios pasos
+**Envío de mensaje simple a una audiencia a una hora programada?**
+→ **Usar campañas de acción**
+* Todos los perfiles reciben el mensaje simultáneamente
+* Envíos programados o recurrentes
+* No se necesita una lógica compleja de varios pasos
+
+**Mensaje inmediato activado por un sistema externo?**
+→ **Usar campañas activadas por API**
+* Se activa bajo demanda mediante una llamada de API
+* Personalización impulsada por carga útil
+* No se necesita una lógica compleja de varios pasos
 
 **Flujo de trabajo por lotes complejo con segmentación avanzada?**
 → **Usar campañas orquestadas**
-- Necesita datos de varias entidades (productos, tiendas, reservas)
-- Requerir recuentos previos al envío exactos
-- Procesamiento por lotes de varios pasos con divisiones y enriquecimiento
+* Necesita datos de varias entidades (productos, tiendas, reservas)
+* Requerir recuentos previos al envío exactos
+* Procesamiento por lotes de varios pasos con divisiones y enriquecimiento
 
 ### Paso 2: Validar la elección
 
@@ -95,11 +102,11 @@ Siga este árbol de decisión para elegir el enfoque correcto:
 ### Recorridos: 1:1 orquestación en tiempo real
 
 **Qué lo hace único:**
-- Cada perfil mantiene el estado y el contexto individuales
-- Los perfiles entran y progresan a su propio ritmo
-- Toma de decisiones en tiempo real basada en el comportamiento y los eventos
-- Las actividades de espera crean intervalos personalizados
-- La bifurcación condicional crea rutas únicas por perfil
+* Cada perfil mantiene el estado y el contexto individuales
+* Los perfiles entran y progresan a su propio ritmo
+* Toma de decisiones en tiempo real basada en el comportamiento y los eventos
+* Las actividades de espera crean intervalos personalizados
+* La bifurcación condicional crea rutas únicas por perfil
 
 **Flujo de ejemplo:**
 
@@ -115,10 +122,10 @@ Cada cliente experimenta su propia cronología de recorridos en función de sus 
 ### Campañas: Envío por lotes simple o activado
 
 **Qué lo hace único:**
-- Todos los perfiles procesados de forma idéntica y simultánea
-- Ejecución sin estado: sin contexto
-- Programación simple o activación de API
-- Idóneo para comunicaciones broadcast
+* Todos los perfiles procesados de forma idéntica y simultánea
+* Ejecución sin estado: sin contexto
+* Programación simple o activación de API
+* Idóneo para comunicaciones broadcast
 
 **Flujo de ejemplo:**
 
@@ -129,20 +136,20 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 Todos reciben el mismo mensaje al mismo tiempo.
 
 **Tipos:**
-- **Campañas de acción**: Envío programado (único o recurrente)
-- **Campañas activadas por API**: Se activó mediante una llamada API desde sistemas externos
+* **Campañas de acción**: Envío programado a audiencias (único o recurrente)
+* **Campañas activadas por API**: envío a petición activado por una llamada de API con datos de carga útil
 
 [Más información sobre las Campañas](../campaigns/get-started-with-campaigns.md)
 
 ### Campañas organizadas: Flujos de trabajo de lienzo por lotes
 
 **Qué lo hace único:**
-- Lienzo por lotes con actividades y transiciones (similar al lienzo de recorrido, pero orientado a lotes)
-- Compatibilidad con datos relacionales de varias entidades (perfiles + productos + tiendas + reservas)
-- Generación de audiencias bajo demanda dentro del lienzo
-- Recuentos exactos antes del envío (visibilidad previa al envío)
-- Envío de varios niveles (un mensaje por entidad, por ejemplo, por reserva)
-- Todos los perfiles procesados juntos en lote
+* Lienzo por lotes con actividades y transiciones (similar al lienzo de recorrido, pero orientado a lotes)
+* Compatibilidad con datos relacionales de varias entidades (perfiles + productos + tiendas + reservas)
+* Generación de audiencias bajo demanda dentro del lienzo
+* Recuentos exactos antes del envío (visibilidad previa al envío)
+* Envío de varios niveles (un mensaje por entidad, por ejemplo, por reserva)
+* Todos los perfiles procesados juntos en lote
 
 **Flujo de ejemplo:**
 
@@ -159,33 +166,33 @@ Combina la complejidad del flujo de trabajo con la ejecución de campañas por l
 
 ### Casos de uso de recorrido
 
-- **Recuperación de abandono del carro de compras**: desencadenada por el evento de adición al carro de compras, esperar al cierre de compra o enviar recordatorios en caso de que no se realice la compra
-- **Incorporación del cliente**: serie de bienvenida de varios pasos con contenido personalizado basado en datos de perfil
-- **Actualización del nivel de fidelización**: Se activa cuando el cliente alcanza un nuevo nivel y envía felicitaciones y beneficios.
-- **Campañas de cumpleaños**: la entrada se basa en la fecha de nacimiento y en ofertas personalizadas.
-- **Nuevo compromiso**: activado por calificación de audiencia (inactividad), alcance progresivo
+* **Recuperación de abandono del carro de compras**: desencadenada por el evento de adición al carro de compras, esperar al cierre de compra o enviar recordatorios en caso de que no se realice la compra
+* **Incorporación del cliente**: serie de bienvenida de varios pasos con contenido personalizado basado en datos de perfil
+* **Actualización del nivel de fidelización**: Se activa cuando el cliente alcanza un nuevo nivel y envía felicitaciones y beneficios.
+* **Campañas de cumpleaños**: la entrada se basa en la fecha de nacimiento y en ofertas personalizadas.
+* **Nuevo compromiso**: activado por calificación de audiencia (inactividad), alcance progresivo
 
 ### Casos de uso de Campaign (activados por la acción y la API)
 
 **Campañas de acción:**
-- **Boletines mensuales**: Envío por lotes programado al segmento del suscriptor
-- **Anuncios promocionales**: ofertas con distinción de tiempo para audiencias de destino
-- **Lanzamientos de productos**: anuncio coordinado para todos los clientes
-- **Saludos de temporada**: Mensajes de vacaciones en fechas específicas
+* **Boletines mensuales**: Envío por lotes programado al segmento del suscriptor
+* **Anuncios promocionales**: ofertas con distinción de tiempo para audiencias de destino
+* **Lanzamientos de productos**: anuncio coordinado para todos los clientes
+* **Saludos de temporada**: Mensajes de vacaciones en fechas específicas
 
 **Campañas activadas por API:**
-- **Confirmaciones de pedidos**: Activado por el sistema de comercio electrónico después de la compra
-- **Notificaciones de envío**: activado por el sistema logístico
-- **Alertas de cuenta**: activadas por el sistema de detección de fraude
-- **Restablecimiento de contraseña**: activado por la acción del usuario en la aplicación
+* **Confirmaciones de pedidos**: Activado por el sistema de comercio electrónico después de la compra
+* **Notificaciones de envío**: activado por el sistema logístico
+* **Alertas de cuenta**: activadas por el sistema de detección de fraude
+* **Restablecimiento de contraseña**: activado por la acción del usuario en la aplicación
 
 ### Casos de uso de Campaign organizados
 
-- **Promoción de temporada con integración de catálogo**: consulta el catálogo de productos, identifica a los clientes elegibles, segmenta por preferencias y envía recomendaciones personalizadas de productos
-- **Campañas específicas de tiendas**: Dirija a los clientes cerca de ubicaciones de tiendas específicas con datos de inventario de tiendas
-- **Comunicaciones con múltiples reservas**: envía un mensaje por reserva (reservas de hotel, reservas de vuelo)
-- **Organización compleja de segmentos**: cree audiencias paso a paso con el enriquecimiento de varias fuentes de datos
-- **Validación previa al envío**: obtenga los recuentos exactos de destinatarios antes de lanzar las campañas principales
+* **Promoción de temporada con integración de catálogo**: consulta el catálogo de productos, identifica a los clientes elegibles, segmenta por preferencias y envía recomendaciones personalizadas de productos
+* **Campañas específicas de tiendas**: Dirija a los clientes cerca de ubicaciones de tiendas específicas con datos de inventario de tiendas
+* **Comunicaciones con múltiples reservas**: envía un mensaje por reserva (reservas de hotel, reservas de vuelo)
+* **Organización compleja de segmentos**: cree audiencias paso a paso con el enriquecimiento de varias fuentes de datos
+* **Validación previa al envío**: obtenga los recuentos exactos de destinatarios antes de lanzar las campañas principales
 
 ## Disponibilidad de funciones {#feature-availability}
 
@@ -224,10 +231,11 @@ Combina la complejidad del flujo de trabajo con la ejecución de campañas por l
 +++ ¿Puedo combinar recorridos y campañas en mi estrategia de marketing?
 
 ¡Absolutamente! La mayoría de las organizaciones utilizan los tres enfoques para diferentes escenarios:
-- Recorridos para la participación en tiempo real y basada en el comportamiento
-- Campañas de acción para comunicaciones de difusión programadas
-- Campañas activadas por API para mensajes transaccionales
-- Campañas organizadas para campañas por lotes complejas que requieren gran cantidad de datos
+
+* Recorridos para la participación en tiempo real y basada en el comportamiento
+* Campañas de acción para comunicaciones de difusión programadas
+* Campañas activadas por API para mensajes transaccionales
+* Campañas organizadas para campañas por lotes complejas que requieren gran cantidad de datos
 
 +++
 
@@ -246,9 +254,10 @@ Las campañas de acción suelen ser las más sencillas (enviar un solo mensaje a
 +++ ¿Qué escala es mejor para grandes audiencias?
 
 Los tres pueden escalar bien, pero:
-- **Leer Recorridos de audiencias** y **Campañas de acción** están optimizadas para audiencias de lotes grandes
-- **Las campañas orquestadas** sobresalen en la segmentación compleja con conjuntos de datos grandes
-- **Recorridos unitarios** procesan los perfiles individualmente, por lo que la escala depende del volumen del evento
+
+* **Leer Recorridos de audiencias** y **Campañas de acción** están optimizadas para audiencias de lotes grandes
+* **Las campañas orquestadas** sobresalen en la segmentación compleja con conjuntos de datos grandes
+* **Recorridos unitarios** procesan los perfiles individualmente, por lo que la escala depende del volumen del evento
 
 +++
 
@@ -260,15 +269,15 @@ Sí, las audiencias creadas en Adobe Experience Platform se pueden usar en los t
 
 ## Próximos pasos {#next-steps}
 
-¿Listo para empezar a construir? Explore la documentación detallada del enfoque elegido:
+¿Listo para comenzar a crear? Explore la documentación detallada del enfoque elegido:
 
-- **[Introducción a Recorrido](../building-journeys/journey.md)**: obtenga información sobre los tipos de recorrido, el diseñador y el flujo de trabajo
-- **[Introducción a las campañas](../campaigns/get-started-with-campaigns.md)**: Explore campañas activadas por acciones y API
-- **[Introducción a campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)**: Descubra flujos de trabajo de lienzo por lotes
+* **[Introducción a Recorrido](../building-journeys/journey.md)**: obtenga información sobre los tipos de recorrido, el diseñador y el flujo de trabajo
+* **[Introducción a las campañas](../campaigns/get-started-with-campaigns.md)**: Explore campañas activadas por acciones y API
+* **[Introducción a campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)**: Descubra flujos de trabajo de lienzo por lotes
 
 **¿Necesita más ayuda para decidir?**
-- [Comparación de tipos de recorrido](../building-journeys/journey.md#journey-types-comparison)
-- [Comparación de tipos de campaña](../campaigns/get-started-with-campaigns.md#campaign-types)
-- [PREGUNTAS FRECUENTES SOBRE RECORRIDO](../building-journeys/journey-faq.md)
-- [Preguntas frecuentes sobre campañas organizadas](../orchestrated/orchestrated-campaigns-faq.md)
+* [Comparación de tipos de recorrido](../building-journeys/journey.md#journey-types-comparison)
+* [Comparación de tipos de campaña](../campaigns/get-started-with-campaigns.md#campaign-types)
+* [PREGUNTAS FRECUENTES SOBRE RECORRIDO](../building-journeys/journey-faq.md)
+* [Preguntas frecuentes sobre campañas organizadas](../orchestrated/orchestrated-campaigns-faq.md)
 
