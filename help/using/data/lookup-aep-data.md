@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Usar datos de Adobe Experience Platform
+title: Uso de datos de Adobe Experience Platform
 description: Aprenda a utilizar conjuntos de datos de Adobe Experience Platform en las  [!DNL Journey Optimizer] capacidades de toma de decisiones y personalización.
 feature: Personalization, Rules
 topic: Personalization
@@ -10,14 +10,14 @@ level: Intermediate
 keywords: expresión, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
+source-git-commit: 41364a89289f0657a2b7646c5daa45a369936e57
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '889'
 ht-degree: 5%
 
 ---
 
-# Usar datos de Adobe Experience Platform {#aep-data}
+# Uso de datos de Adobe Experience Platform {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
@@ -41,6 +41,8 @@ Antes de empezar, revise las siguientes restricciones y directrices:
 * **Tipo de esquema**: los conjuntos de datos deben estar asociados con un esquema que sea **NO** de tipo perfil o evento.
 
 * **Mantener la opción de búsqueda activada**: evite activar y desactivar conjuntos de datos repetidamente. Al hacerlo, se puede producir un comportamiento de indexación inesperado. La práctica recomendada es dejar el conjunto de datos habilitado durante el tiempo que desee utilizarlo para búsquedas.
+
+* **Región de activación de Edge**: los conjuntos de datos habilitados para la búsqueda solo están disponibles para la activación entrante basada en Edge en la región donde reside la zona protegida del conjunto de datos (por ejemplo, NLD2 o VA7). Puede ver la región de zona protegida en la interfaz de usuario junto al nombre de la zona protegida.
 
 * **Lote de eliminación de datos**: al eliminar un lote de datos del conjunto de datos, se eliminan por completo todas las claves coincidentes del servicio de búsqueda. Por ejemplo:
 
