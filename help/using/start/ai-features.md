@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Funciones inteligentes y de IA
+title: IA y funciones inteligentes
 description: Descubra cómo la IA y el aprendizaje automático mejoran las capacidades de Adobe Journey Optimizer
 feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 76a970f4edf0cef3fc15ab69c78ef46fbb0497c7
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 4%
+source-wordcount: '1676'
+ht-degree: 3%
 
 ---
 
-# Funciones inteligentes y de IA {#ai-features}
+# IA y funciones inteligentes {#ai-features}
 
 Adobe Journey Optimizer aprovecha el poder de la inteligencia artificial y el aprendizaje automático para ayudarle a crear, optimizar y ofrecer experiencias de cliente excepcionales. Desde la generación de contenido personalizado hasta la predicción de tiempos de envío óptimos, las capacidades de IA optimizan el flujo de trabajo y maximizan el impacto. Los manuales de casos de uso proporcionan plantillas creadas previamente para implementar rápidamente escenarios de marketing comunes.
 
@@ -66,7 +66,21 @@ Haga clic en el icono Ayudante de IA en la barra superior para abrir el panel de
 
 Basándose en las capacidades conversacionales de AI Assistant, Adobe Journey Optimizer ofrece agentes de IA especializados que proporcionan análisis profundos y recomendaciones procesables para la optimización y experimentación de recorridos.
 
-### Agente de análisis de recorrido {#journey-agent}
+### Journey Agent {#journey-agent}
+
+Journey Agent incluye dos habilidades en el asistente de IA: Analizar y Crear. Utilícelos para optimizar los recorridos existentes o crear otros nuevos a partir de las indicaciones del lenguaje natural.
+
++++**Se requieren permisos**
+
+* **Ver Recorridos**: vea información sobre recorridos directamente en el Asistente de IA
+* **Administrar Recorridos** - Crear nuevos recorridos directamente en el Asistente de IA
+* **Ver segmentos**: vea información sobre audiencias y busque audiencias existentes
+* **Administrar segmentos** - Crear nuevas audiencias directamente en el Asistente de IA
+* **Ver eventos, fuentes de datos y acciones de Recorrido** - Necesario para que la habilidad Crear busque eventos de recorrido y acciones personalizadas
+
++++
+
+#### Recorrido Analizar aptitud {#journey-analyze-skill}
 
 [Agente de análisis de Recorrido](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} le ayuda a optimizar el rendimiento del recorrido mediante el análisis de lenguaje natural:
 
@@ -88,16 +102,31 @@ Basándose en las capacidades conversacionales de AI Assistant, Adobe Journey Op
 
 +++
 
-+++**Se requieren permisos**
++++
 
-* **Ver Recorridos**: vea información sobre recorridos directamente en el Asistente de IA
-* **Administrar Recorridos** - Crear nuevos recorridos directamente en el Asistente de IA
-* **Ver segmentos**: vea información sobre audiencias
-* **Administrar segmentos** - Crear nuevas audiencias directamente en el Asistente de IA
+#### Recorrido Crear aptitud {#journey-create-skill}
+
+El [Agente de creación de Recorrido](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-create){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
+
++++**Capacidades clave**
+
+* **Creación de Recorrido en lenguaje natural** - Describa su recorrido deseado y haga que se cree automáticamente
+* **Inicios basados en eventos y audiencias**: cree recorridos de calificación de audiencia, eventos empresariales o activados por eventos
+* **Lógica condicional** - Generar rutas divididas basadas en atributos o comportamiento del cliente
+* **Mensajería multicanal** - Agregar acciones de correo electrónico, push y SMS
+* **Programación** - Configure las fechas de inicio y el tiempo entre pasos
 
 +++
 
-### Agente de experimentación {#experimentation-agent}
++++**Indicadores de ejemplo**
+
+* &quot;Cree un recorrido que se inicie cuando un cliente realice una compra en línea y envíe una notificación push de agradecimiento&quot;.
+* &quot;Construye un recorrido dirigido a mi audiencia de excursionistas con tres correos electrónicos en dos semanas, a partir del 20/12&quot;.
+* &quot;Cree un recorrido que se inicie cuando un usuario entre en mi ubicación de tienda y realice un seguimiento en función de si tiene una dirección de correo electrónico válida&quot;.
+
++++
+
+### Experimentation Agent {#experimentation-agent}
 
 [Experimentation Agent](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"} moderniza la forma en que ejecutas y administras experimentos digitales en sitios web, correos electrónicos, mensajes push y aplicaciones:
 
@@ -241,7 +270,7 @@ Examine los libros de reproducción de Journey Optimizer para conocer escenarios
 
 +++
 
-[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=es){target="_blank"}
+[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Capacidades adicionales de IA {#additional-capabilities}
 
@@ -264,7 +293,8 @@ Evalúe la alineación del contenido con las directrices de su marca mediante pu
 * **[Asistente de IA para la generación de contenido](#content-generation)** - Requiere el permiso &quot;Generar contenido&quot;
 * Conocimiento del producto **[Ayudante de IA](#ai-assistant)** - Requiere acuerdo con las Directrices del usuario de IA generativa de Adobe
 * **[Agente de análisis de Recorrido](#journey-agent)**: requiere permisos de Ver/Administrar Recorridos y Ver/Administrar segmentos
-* **[Agente de experimentación](#experimentation-agent)**: requiere permisos de Ver experimentos y Administrar metadatos de experimento
+* **[Agente de creación de Recorrido](#journey-create-agent)**: requiere permisos de administración de Recorridos, visualización de eventos de Recorrido/fuentes de datos/acciones, visualización de segmentos y administración de segmentos
+* **[Experimentation Agent](#experimentation-agent)**: requiere permisos para Ver experimentos y Administrar metadatos de experimento
 
 Todos los agentes de IA requieren acceso al asistente de IA y acuerdo con las directrices del usuario de IA generativa de Adobe Experience Cloud.
 
