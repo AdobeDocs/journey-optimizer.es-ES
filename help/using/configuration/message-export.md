@@ -12,10 +12,10 @@ badge: label="Disponibilidad limitada" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: c62653af3c1eacaaf55dcf181d33f2253521e33d
+source-git-commit: 8bc0d28ea3e7c26bd8f7a35d00a73e41f35720d0
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 12%
+source-wordcount: '513'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
 >title="Conservar y exportar el contenido enviado"
->abstract="Al seleccionar esta opción, puede escribir el contenido de los mensajes de correo electrónico o SMS enviados mediante esta configuración en un conjunto de datos [!DNL Experience Platform]. Los registros se conservan durante 3 días naturales, durante los cuales puede exportarlos a su propio almacenamiento."
+>abstract="Al seleccionar esta opción, puede escribir el contenido de los mensajes de correo electrónico o SMS enviados mediante esta configuración en un conjunto de datos [!DNL Experience Platform]. Los registros se conservan durante 7 días naturales a partir de la ingesta, durante los cuales puede exportarlos a su propio almacenamiento."
 
 >[!AVAILABILITY]
 >
@@ -34,18 +34,18 @@ ht-degree: 12%
 
 Con esta función, el contenido de los mensajes de correo electrónico y SMS enviados a través de [!DNL Journey Optimizer] que se han marcado para la exportación se escribe en el [!DNL Experience Platform] **conjunto de datos de exportación de mensajes de AJO**.
 
-Los registros se conservan en el **conjunto de datos de exportación de mensajes de AJO** durante tres días naturales, durante los cuales puede exportarlos al sistema externo que elija.
+A continuación, los registros se conservan en el **conjunto de datos de exportación de mensajes de AJO** durante siete días naturales a partir de la ingesta, durante los cuales puede exportarlos al sistema externo de su elección.
 <!--
 ## Terminology
 
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/home){target="_blank"}
+* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 * **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
 * **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
 
 ## Mecanismos de protección
 
 * Esta función solo admite los canales de correo electrónico y SMS.
-* Los registros del conjunto de datos de exportación de mensajes de AJO se conservan durante tres días naturales a partir de la ingesta.
+* Los registros del conjunto de datos de exportación de mensajes de AJO se conservan durante siete días naturales a partir de la ingesta.
 * El relleno no es compatible con los mensajes enviados antes de habilitar la exportación de mensajes como se describe a continuación.
 
 ## Habilitar exportación de mensajes {#enable-message-export}
@@ -67,15 +67,15 @@ Antes de poder exportar los datos, debe configurar el proceso de exportación de
 >
 >Esta configuración debe configurarse para cada zona protegida.
 
-1. Elija un Experience Platform [tipo de destino](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/destination-types){target="_blank"}. Hay disponible una lista de plataformas de destino disponibles que están listas para recibir datos en [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
+1. Elija un Experience Platform [tipo de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}. Hay disponible una lista de plataformas de destino disponibles que están listas para recibir datos en [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. En [!DNL Experience Platform], configure el destino definiendo credenciales, contenedor/contenedor, prefijo de ruta y opciones de seguridad. [Descubra cómo](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. En [!DNL Experience Platform], configure el destino definiendo credenciales, contenedor/contenedor, prefijo de ruta y opciones de seguridad. [Descubra cómo](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Cree un flujo de exportación de conjunto de datos con los siguientes datos:
 
    * Conjunto de datos Source: seleccione **Conjunto de datos de exportación de mensajes AJO**.
    * Formato del archivo: seleccione JSON o Parquet (elija uno basado en las herramientas de flujo descendente).
-   * Programación: asegúrese de que se ejecuta dentro del período de retención de 3 días.
+   * Programación: asegúrese de que se ejecuta dentro del período de retención de 7 días.
 
 ### Habilitar la exportación de mensajes en la configuración de canal {#config-message-export}
 
