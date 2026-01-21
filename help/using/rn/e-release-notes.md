@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f7cdbb8f4a0e43a6a2fa15032d1376faf0424168
+source-git-commit: 07c2ec1b0bcb9d41a607fd4eeb90eee2d7b45eca
 workflow-type: tm+mt
-source-wordcount: '1990'
-ht-degree: 47%
+source-wordcount: '1934'
+ht-degree: 46%
 
 ---
 
@@ -156,29 +156,13 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
-<th><strong>Compatibilidad con decisiones en el canal push</strong><br/></th>
+<th><strong>Compatibilidad con decisiones en los canales push y SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede agregar políticas de Decisión a los recorridos y campañas de notificaciones push. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de Decisioning para devolver dinámicamente el mejor contenido para entregar a cada miembro del público.</p>
-<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Compatibilidad con decisiones en el canal SMS</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede agregar políticas de Decisión a los recorridos y campañas de SMS. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de Decisioning para devolver dinámicamente el mejor contenido para entregar a cada miembro del público.</p>
+<p>Ahora puede agregar políticas de Decisión a los recorridos y campañas push y SMS. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de Decisioning para devolver dinámicamente el mejor contenido para entregar a cada miembro del público.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 </td>
 </tr>
