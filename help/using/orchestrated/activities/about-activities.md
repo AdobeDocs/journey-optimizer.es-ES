@@ -5,10 +5,10 @@ title: Trabajo con actividades de campaña organizadas
 description: Obtenga información sobre cómo organizar actividades de campaña
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
+source-git-commit: 43fa71d7ec05e8c4b1ccd8d8c0ff8727128f5030
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 61%
+source-wordcount: '411'
+ht-degree: 63%
 
 ---
 
@@ -62,7 +62,12 @@ Aprenda a [crear una acción de canal en una campaña organizada](channels.md).
 >title="Actividad Finalizar"
 >abstract="La actividad **Finalizar** le permite marcar de forma gráfica el final de una campaña orquestada. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
 
-Las siguientes actividades son específicas para organizar y ejecutar campañas orquestadas. Su principal tarea es coordinar las demás actividades.
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_signal"
+>title="Señal externa"
+>abstract="señal externa"
+
+Las siguientes actividades son específicas para organizar y ejecutar campañas orquestadas. Su tarea principal es coordinar las demás actividades.
 
 ![Lista de actividades de control de flujo](../assets/flow-control-activities.png){width="20%" align="left"}
 
