@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: a70b3897831c37fc91dd598cc4ed513be112d865
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3067'
+ht-degree: 99%
 
 ---
 
@@ -603,6 +603,7 @@ ht-degree: 0%
       + [Introducción a la toma de decisiones](using/experience-decisioning/gs-experience-decisioning.md)
       + [Limitaciones y protecciones de decisiones](using/experience-decisioning/decisioning-guardrails.md)
       + [Preguntas frecuentes sobre Decisioning](using/experience-decisioning/decisioning-faq.md)
+      + [Migración de Administración de decisiones a Toma de decisiones](using/experience-decisioning/migrate-to-decisioning.md)
       + Referencia de la API {#experience-decisioning-api-reference}
          + [Referencia de la API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + [Comenzar con API de Decisioning](using/experience-decisioning/api-reference/getting-started.md)
@@ -841,7 +842,7 @@ ht-degree: 0%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
