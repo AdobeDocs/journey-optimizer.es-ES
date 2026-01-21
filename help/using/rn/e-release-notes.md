@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 157e880de7dc63e4972b4e6794cc4a5f736d7bd4
+source-git-commit: 3635cb3ad81cc3462dc3ebb6d60594b4b83051e9
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 32%
+source-wordcount: '2068'
+ht-degree: 30%
 
 ---
 
@@ -218,6 +218,21 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
+<th><strong>Exportación de mensajes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora es posible <strong>exportar envíos enviados</strong> a un conjunto de datos específico para fines de archivado y cumplimiento normativo. Esta capacidad está disponible no solo para correo electrónico, sino también para otros canales, como SMS.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Nueva API para recuperar campañas de acción</strong><br/></th>
 </tr>
 </thead>
@@ -291,23 +306,21 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 #### Canales
 
-* **Exportación de mensajes**: ahora es posible <strong>exportar envíos enviados</strong> a un conjunto de datos específico para fines de archivado y cumplimiento normativo. Esta capacidad está disponible no solo para correo electrónico, sino también para otros canales, como SMS.
-
 * **Webhooks de SMS: fase II**: descripción que se debe proporcionar.
 
 * **Oferta de reventa de WhatsApp** - Descripción que se proporcionará.
 
 #### Diseñador de correos electrónicos
 
-* **Correcciones in situ - Acritas - Correo electrónico y páginas de aterrizaje** - Descripción que se debe proporcionar.
+* **Correcciones in situ en el Diseñador de correo electrónico** - <strong>Las sugerencias de contenido automáticas con tecnología de IA</strong> ya están disponibles en el Designer de correo electrónico cuando se detectan infracciones durante la validación del contenido. Si el contenido se marca como desalineado con las directrices de la marca o falla en los criterios de calidad, el sistema genera de forma proactiva alternativas corregidas que se pueden revisar y aplicar en línea, mejorando el cumplimiento y acelerando la producción.
 
 #### Experience Decisioning
 
-* **Arbitraje de Recorridos - Fórmulas** - Ahora puede usar <strong>fórmulas y modelos de IA</strong> para aumentar automáticamente las puntuaciones de prioridad de recorridos en función de los atributos de perfil del cliente y los factores contextuales, lo que garantiza que los clientes ingresen los recorridos más relevantes.
+* **arbitraje de Recorridos**: ahora puede usar <strong>fórmulas y modelos de IA</strong> para aumentar automáticamente las puntuaciones de prioridad de recorridos en función de los atributos de perfil del cliente y los factores contextuales, lo que garantiza que los clientes ingresen los recorridos más relevantes.
 
 * **documentación de herramientas de zona protegida exd - actualizar** - Descripción que se proporcionará.
 
-* **API de herramientas de migración de autoservicio**: descripción que se debe proporcionar.
+* **API de herramientas de migración de autoservicio**: hay un nuevo conjunto de <strong>API de herramientas de migración</strong> disponibles para migrar entidades de Administración de ofertas a Experience Decisioning. Las herramientas permiten una migración sin problemas entre entornos limitados con resolución de dependencias y funciones de reversión.
 
 * **Adjuntar fragmentos a elementos de decisión**: Journey Optimizer ahora proporciona la capacidad de adjuntar <strong>fragmentos</strong> a elementos de decisión que se pueden aprovechar en campañas de experiencia basadas en código mediante directivas de decisión.
 
@@ -316,6 +329,8 @@ A continuación, se describen las mejoras incluidas en esta versión.
 #### Recorridos
 
 * **Aprovechar una carga de respuesta de error en las acciones personalizadas de recorrido**: descripción que se debe proporcionar.
+
+* **Combinar acciones de mensajes nativas y de Adobe Campaign**: Journey Optimizer ahora le permite combinar acciones de mensajes de Adobe Campaign v7/v8 con acciones de canal nativo en el mismo recorrido.
 
 * **validación del tamaño de la carga útil de Recorrido en recorrido**: Journey Optimizer ahora proporciona <strong>validación del tamaño de la carga útil</strong> para ayudar a garantizar un rendimiento óptimo y la estabilidad del sistema. Al crear o publicar recorridos, recibirá advertencias y errores claros si el tamaño de la carga útil se aproxima o supera los límites recomendados, junto con instrucciones procesables para optimizar la configuración del recorrido. Esta validación proactiva le ayuda a identificar problemas potenciales de forma temprana y a mantener el rendimiento del recorrido.
 
@@ -359,6 +374,23 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <tr>
 <td>
 <p>Con tecnología de Adobe Experience Platform Agent Orchestrator, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en Content Designer para la edición en contexto.</p>
+<p>Fecha de disponibilidad: martes, 02 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Actividad de decisión de contenido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede incluir <strong>ofertas personalizadas</strong> en sus recorridos a través de una actividad de decisión de contenido en el lienzo de recorrido y usarlas en actividades de recorrido, incluidas condiciones y acciones personalizadas.</p>
+<p>Fecha de disponibilidad: martes, 02 de febrero de 2026</p>
 </td>
 </tr>
 </tbody>
