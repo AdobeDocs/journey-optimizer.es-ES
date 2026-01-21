@@ -244,9 +244,9 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Programar campaña usando la zona horaria del perfil**: la programación de la campaña ahora puede usar la zona horaria de cada perfil para enviar mensajes a la hora local deseada.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Esta mejora solo está disponible para un conjunto de organizaciones (disponibilidad limitada).
 
 #### Canales
@@ -271,9 +271,9 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Adjuntar fragmentos a elementos de decisión**: Journey Optimizer ahora proporciona la capacidad de adjuntar fragmentos a elementos de decisión que se pueden aprovechar en campañas de experiencia basadas en código mediante políticas de decisión.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Esta mejora, lanzada anteriormente en disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).
 
 #### Recorridos
@@ -284,9 +284,9 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Varias acciones entrantes en recorridos**: para simplificar la orquestación de recorrido, ahora puede definir varias acciones entrantes en un solo recorrido. Esta capacidad, que antes estaba disponible en las campañas de, le permite ofrecer varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web en diferentes ubicaciones al mismo tiempo, y cada acción contiene un contenido específico.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Esta mejora, lanzada anteriormente en disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).
 
 #### Campañas orquestadas
