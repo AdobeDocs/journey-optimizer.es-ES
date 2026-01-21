@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 25%
+source-wordcount: '1380'
+ht-degree: 24%
 
 ---
 
@@ -96,6 +96,10 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 >Los mensajes de correo electrónico de tipo Marketing deben incluir un [vínculo de no participación](../privacy/opt-out.md#opt-out-decision-management), que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en la [configuración del canal](email-settings.md#email-type) al crear el mensaje.
 
 Una vez enviado el mensaje, el período de retención de un vínculo es de **25 meses**. Después de este retraso, el vínculo ya no está disponible.
+
+>[!CAUTION]
+>
+>Cuando la **etiqueta** y la **URL** de un botón se hacen editables en un fragmento, los informes de seguimiento muestran la URL en lugar de la etiqueta del botón. El campo `_experience.customerJourneyManagement.messageInteraction.label` del conjunto de datos de seguimiento registrará el valor de la URL.
 
 ## Vínculo a una página espejo {#mirror-page}
 
