@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
+source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
 workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 21%
@@ -388,7 +388,7 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <td>
 <p>Ahora puede incluir <strong>ofertas personalizadas</strong> en sus recorridos a través de una actividad de decisión de contenido en el lienzo de recorrido y usarlas en actividades de recorrido, incluidas condiciones y acciones personalizadas.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12902">Vincular a tarea DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-99223">Vínculo a la tarea JIRA del PRODUCTO</a></p>
-<p>Fecha de disponibilidad: martes, 02 de febrero de 2026</p>
+<p>Fecha de disponibilidad: miércoles, 03 de febrero de 2026</p>
 </td>
 </tr>
 </tbody>
