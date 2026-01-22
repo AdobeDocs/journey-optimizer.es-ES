@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9605b5bec688c5afcbcc7b391218cdef6cb3b196
+source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2358'
 ht-degree: 21%
 
 ---
@@ -188,6 +188,24 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
+<th><strong>Journey Agent: Creación de un Recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Recorrido Crear agente permite a los usuarios de Journey Optimizer crear y configurar recorridos de marketing mediante una interfaz de lenguaje natural. Con Recorrido Crear agente, los profesionales pueden crear recorridos rápidamente al describir sus necesidades en mensajes de conversación. El agente optimiza la creación de recorridos, lo que permite a los especialistas en marketing centrarse en la estrategia en lugar de en la configuración técnica.</p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Más información</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Vincular a tarea DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Vínculo a la tarea JIRA del PRODUCTO</a></p>
+<p>Fecha de disponibilidad: martes, 12 de enero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Nueva API para recuperar campañas de acción</strong><br/></th>
 </tr>
 </thead>
@@ -279,11 +297,6 @@ A continuación, se describen las mejoras incluidas en esta versión.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13979">Vincular a tarea DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95365">Vínculo a la tarea JIRA del PRODUCTO</a>
 
 #### Experience Decisioning
-
-* **arbitraje de Recorridos**: ahora puede usar <strong>fórmulas y modelos de IA</strong> para aumentar automáticamente las puntuaciones de prioridad de recorridos en función de los atributos de perfil del cliente y los factores contextuales, lo que garantiza que los clientes ingresen los recorridos más relevantes.
-
-  **Nota**: esta mejora solo está disponible para un conjunto de organizaciones (disponibilidad limitada).
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13976">Vincular a tarea DOCAC JIRA</a> | <a href="https://jira.corp.adobe.com/browse/CJM-78932">Vínculo a la tarea JIRA del PRODUCTO</a>
 
 * **documentación de herramientas de zona protegida exd - actualizar** - Descripción que se proporcionará.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">Vincular a tarea DOCAC JIRA</a>
@@ -380,3 +393,4 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 </tr>
 </tbody>
 </table>
+
