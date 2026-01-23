@@ -5,25 +5,15 @@ title: Cree su primera regla
 description: Aprenda a crear reglas para sus campañas organizadas
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
+source-git-commit: e8b17fc5a7339092d2b276c36078d8841df28ef6
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 97%
+source-wordcount: '1818'
+ht-degree: 96%
 
 ---
 
 
 # Cree su primera regla {#build-query}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_selectaudience"
->title="Seleccionar el público"
->abstract="Mediante la opción **Seleccionar público**, puede elegir el público que desea utilizar para filtrar la consulta."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_predefinedfilter"
->title="Filtro predefinido"
->abstract="Mediante la opción **Filtro predefinido**, puede seleccionar un filtro predefinido de la lista de filtros personalizados o de favoritos."
 
 Los pasos principales para crear reglas para las campañas orquestadas son los siguientes:
 
@@ -174,11 +164,6 @@ Las condiciones personalizadas le permiten realizar operaciones de agregado. Par
    ![Captura de pantalla de la opción Agregar datos](assets/rule-builder-aggregate.png)
 
 ## Combinación de condiciones mediante operadores {#operators}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_group"
->title="Grupo"
->abstract="En este panel, puede cambiar el operador que se utiliza para vincular las condiciones de filtrado."
 
 Cada vez que añade una nueva condición a la regla, un operador **AND** la vincula automáticamente a la condición existente. Esto significa que los resultados de las dos condiciones se combinan.
 
