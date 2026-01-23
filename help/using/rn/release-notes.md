@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca652ee1469f411a1bd80733ba89921b0ddb1b1c
+source-git-commit: 7edc39a43783a3fa8a2b8bded1fd3eb70f20bad6
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 27%
+source-wordcount: '2086'
+ht-degree: 28%
 
 ---
 
@@ -26,11 +26,13 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 
 [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
-## Notas de la versión de enero de 2026 {#latest-rn}
+## Notas previas al lanzamiento de enero de 2026 {#latest-rn}
 
 **Fecha de lanzamiento**: miércoles, 27 de enero de 2026
 
-Estas notas de la versión son previas al lanzamiento y están sujetas a cambios hasta la fecha de disponibilidad de este. Los vínculos, las pantallas y la documentación actualizada se publicarán en las notas de la versión en la fecha del lanzamiento.
+**Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad de la versión**. Los vínculos, las pantallas y la documentación actualizada se publican en las notas de la versión en la fecha de lanzamiento.
+
+Véase también [Notas de la versión preliminar de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 ### Nuevas funciones {#jan-26-01-features}
 
@@ -100,7 +102,6 @@ Estas notas de la versión son previas al lanzamiento y están sujetas a cambios
 <td>
 <p>Anteriormente limitado a Campañas, el <strong>canal de correo postal</strong> ya está disponible en el <strong>lienzo de recorrido</strong>, lo que le permite incorporar el correo postal en sus recorridos. Ahora, el correo postal se puede utilizar en escenarios de recorrido por lotes y 1:1, con compatibilidad con la configuración de extracción de archivos y los ajustes de frecuencia basados en el tiempo.</p>
 <p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
-<img src="assets/do-not-localize/dm-journey.gif">
 </td>
 </tr>
 </tbody>
@@ -117,6 +118,7 @@ Estas notas de la versión son previas al lanzamiento y están sujetas a cambios
 <td>
 <p>Adobe Journey Optimizer ahora admite <strong>notificaciones push web</strong>, lo que expande el canal push más allá del móvil. Puede enviar notificaciones sin problemas a exploradores móviles y de escritorio, lo que permite llegar a los clientes directamente en sus dispositivos sin necesidad de una aplicación. Esta mejora le permite atraer a los usuarios con mensajes personalizados y oportunos en tiempo real, aprovechando los mismos flujos de trabajo de creación y las mismas capacidades de direccionamiento ya disponibles para las notificaciones push móviles.</p>
 <p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p><strong>Nota</strong>: las notificaciones silenciosas aún no son compatibles con las notificaciones push web.</p>
 </td>
 </tr>
 </tbody>
@@ -148,7 +150,6 @@ Estas notas de la versión son previas al lanzamiento y están sujetas a cambios
 <tr>
 <td>
 <p>El canal de correo postal ya está disponible en campañas orquestadas. La <strong>actividad de correo directo</strong> facilita el envío de correo directo dentro de su campaña orquestada, tanto para mensajes recurrentes como únicos. Sirve para automatizar el proceso de generación del <strong>archivo de extracción</strong> requerido por los proveedores de correo postal. Puede combinar actividades de canal en el lienzo de la campaña orquestada para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente.</p>
-<img src="assets/do-not-localize/dm-oc.gif">
 </td>
 </tr>
 </tbody>
@@ -200,7 +201,7 @@ Estas notas de la versión son previas al lanzamiento y están sujetas a cambios
 <tr>
 <td>
 <p>Recorrido Crear agente permite a los usuarios de Journey Optimizer crear y configurar recorridos de marketing mediante una interfaz de lenguaje natural. Con Recorrido Crear agente, los profesionales pueden crear recorridos rápidamente al describir sus necesidades en mensajes de conversación. El agente optimiza la creación de recorridos, lo que permite a los especialistas en marketing centrarse en la estrategia en lugar de en la configuración técnica.</p>
-<p><a href="https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Más información</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Más información</a></p>
 <p>Fecha de disponibilidad: martes, 12 de enero de 2026</p>
 </td>
 </tr>
@@ -278,7 +279,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 #### Campañas
 
-* **Programar campaña usando la zona horaria del perfil**. La programación de campañas ahora puede usar la <strong>zona horaria</strong> de cada perfil para enviar mensajes a la hora local prevista.
+* **Programar campaña usando la zona horaria del perfil**. La programación de campañas ahora puede usar la <strong>zona horaria</strong> de cada perfil para enviar mensajes a la hora local prevista. La programación mediante zonas horarias de perfil está disponible para los canales Email, Push, SMS, WhatsApp y LINE.
 
   **Nota**: esta mejora solo está disponible para un conjunto de organizaciones (disponibilidad limitada).
 
@@ -288,7 +289,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 #### Diseñador de correos electrónicos
 
-* **Correcciones in situ en el Diseñador de correo electrónico** - <strong>Las sugerencias de contenido automáticas con tecnología de IA</strong> ya están disponibles en el Designer de correo electrónico cuando se detectan infracciones durante la validación del contenido. Si el contenido se marca como desalineado con las directrices de la marca o falla en los criterios de calidad, el sistema genera de forma proactiva alternativas corregidas que se pueden revisar y aplicar en línea, mejorando el cumplimiento y acelerando la producción.
+* **Correcciones in situ en el diseñador de correo electrónico**: al administrar contenido con las directrices de marca, <strong>las sugerencias de contenido automáticas con tecnología de IA</strong> ya están disponibles cuando se detectan infracciones durante la validación del contenido. Si el contenido se marca como desalineado con las directrices de la marca o falla en los criterios de calidad, el sistema genera de forma proactiva alternativas corregidas que se pueden revisar y aplicar en línea, mejorando el cumplimiento y acelerando la producción.
 
 #### Experience Decisioning
 
