@@ -5,15 +5,25 @@ title: Cree su primera regla
 description: Aprenda a crear reglas para sus campañas organizadas
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 96%
+source-wordcount: '1878'
+ht-degree: 97%
 
 ---
 
 
 # Cree su primera regla {#build-query}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_selectaudience"
+>title="Seleccionar el público"
+>abstract="Mediante la opción **Seleccionar público**, puede elegir el público que desea utilizar para filtrar la consulta."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_predefinedfilter"
+>title="Filtro predefinido"
+>abstract="Mediante la opción **Filtro predefinido**, puede seleccionar un filtro predefinido de la lista de filtros personalizados o de favoritos."
 
 Los pasos principales para crear reglas para las campañas orquestadas son los siguientes:
 
@@ -22,6 +32,11 @@ Los pasos principales para crear reglas para las campañas orquestadas son los s
 1. **Comprobar y validar la regla**: compruebe los datos resultantes de la regla antes de guardarla.
 
 ## Añada una condición  {#conditions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_customcondition"
+>title="Condición personalizada"
+>abstract="Las condiciones personalizadas son componentes de filtrado que le permiten filtrar la consulta creando su propia condición con atributos de la base de datos y expresiones avanzadas."
 
 Para añadir condiciones en la consulta, siga estos pasos:
 
@@ -160,6 +175,11 @@ Las condiciones personalizadas le permiten realizar operaciones de agregado. Par
 
 ## Combinación de condiciones mediante operadores {#operators}
 
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_group"
+>title="Grupo"
+>abstract="En este panel, puede cambiar el operador que se utiliza para vincular las condiciones de filtrado."
+
 Cada vez que añade una nueva condición a la regla, un operador **AND** la vincula automáticamente a la condición existente. Esto significa que los resultados de las dos condiciones se combinan.
 
 Para cambiar el operador entre condiciones, haga clic en él y seleccione el operador deseado.
@@ -199,6 +219,11 @@ En el siguiente ejemplo, hemos creado un grupo intermedio para clientes de desti
 ![](assets/rule-builder-groups.png)
 
 ## Compruebe y valide la consulta
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_ruleproperties"
+>title="Propiedades de la regla"
+>abstract="Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **Propiedades de regla** situado en el lado derecho.<br/>Este panel permite mostrar los datos resultantes, recuperar una versión de código SQL de la consulta y comprobar el número de registros de destino.<br/>Utilice el botón **Seleccionar o guardar filtro** para guardar la consulta como un filtro predefinido o reemplazar el contenido del lienzo con un filtro existente."
 
 Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **Propiedades de la regla**. Las operaciones disponibles son las siguientes:
 

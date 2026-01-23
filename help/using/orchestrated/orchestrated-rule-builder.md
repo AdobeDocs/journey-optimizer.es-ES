@@ -5,15 +5,20 @@ title: Trabajo con el generador de reglas
 description: Aprenda a crear reglas para sus campañas organizadas
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 76%
+source-wordcount: '328'
+ht-degree: 78%
 
 ---
 
 
 # Trabajo con el generador de reglas {#orchestrated-rule-builder}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_predefinedfilter"
+>title="Filtro predefinido"
+>abstract="Mediante la opción **Filtro predefinido**, puede seleccionar un filtro predefinido de la lista de filtros personalizados o de favoritos."
 
 Las campañas organizadas incluyen un generador de reglas que simplifica el proceso de filtrado de la base de datos en función de varios criterios. El generador de reglas administra consultas muy complejas y largas de forma eficaz, lo que ofrece una mayor flexibilidad y precisión.
 
