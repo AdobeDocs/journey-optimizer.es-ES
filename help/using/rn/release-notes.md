@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 68033e08fb57cad65a721540e530cfb7cc884a3b
+source-git-commit: d76ef12bab4502ef78c0e1d2d6b61957d54a351b
 workflow-type: tm+mt
-source-wordcount: '1984'
-ht-degree: 28%
+source-wordcount: '1962'
+ht-degree: 26%
 
 ---
 
@@ -128,22 +128,6 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
-<th><strong>Compatibilidad con decisiones en los canales push y SMS</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede agregar <strong>políticas de decisión</strong> a los recorridos y campañas push y SMS. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de Decisioning para devolver dinámicamente el mejor contenido para entregar a cada miembro del público.</p>
-<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Canal de correo directo en campañas organizadas</strong><br/></th>
 </tr>
 </thead>
@@ -187,7 +171,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tr>
 <td>
 <p>Recorrido Crear agente permite a los usuarios de Journey Optimizer crear y configurar recorridos de marketing mediante una interfaz de lenguaje natural. Con Recorrido Crear agente, los profesionales pueden crear recorridos rápidamente al describir sus necesidades en mensajes de conversación. El agente optimiza la creación de recorridos, lo que permite a los especialistas en marketing centrarse en la estrategia en lugar de en la configuración técnica.</p>
-<p><a href="https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Más información</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Más información</a></p>
 <p>Fecha de disponibilidad: martes, 12 de enero de 2026</p>
 </td>
 </tr>
@@ -327,6 +311,22 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <td>
 <p>Con tecnología de Adobe Experience Platform Agent Orchestrator, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en Content Designer para la edición en contexto.</p>
 <p>Fecha de disponibilidad: martes, 02 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con decisiones en los canales push y SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede personalizar y optimizar el contenido de sus mensajes push y SMS con <strong>Decisioning</strong>. Use <strong>puntuaciones de prioridad</strong>, fórmulas o modelos de IA para mostrar el mejor contenido a sus clientes.</p>
+<p>Fecha de disponibilidad: miércoles, 03 de febrero de 2026</p>
 </td>
 </tr>
 </tbody>
