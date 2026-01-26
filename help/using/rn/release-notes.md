@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d76ef12bab4502ef78c0e1d2d6b61957d54a351b
+source-git-commit: 9dedefb30a6c61965595a102c2d02207ae620285
 workflow-type: tm+mt
-source-wordcount: '1962'
-ht-degree: 26%
+source-wordcount: '2015'
+ht-degree: 27%
 
 ---
 
@@ -85,7 +85,6 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tr>
 <td>
 <p>Las horas tranquilas le permiten definir <strong>exclusiones basadas en el tiempo</strong> para los canales de correo electrónico, SMS, Push y WhatsApp. Garantizan que no se envíen mensajes durante períodos de tiempo específicos, lo que le ayuda a respetar las preferencias de los clientes y los requisitos de cumplimiento. Puede aplicar horas tranquilas a través de <strong>conjuntos de reglas</strong>, que se pueden asignar a acciones individuales en campañas o recorridos para un control preciso.</p>
-<p><strong>Nota</strong>: No se admiten horas tranquilas en las campañas orquestadas.</p>
 <p>Esta función, lanzada anteriormente en disponibilidad limitada, ya está disponible para todos los entornos. Con esta versión de Disponibilidad general, la función ahora incluye la capacidad para que el cliente ponga en cola una acción de campaña hasta que se completen las horas tranquilas y la capacidad de previsualizar la regla de horas silenciosas activada.</p>
 </td>
 </tr>
@@ -118,8 +117,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tr>
 <td>
 <p>Adobe Journey Optimizer ahora admite <strong>notificaciones push web</strong>, lo que expande el canal push más allá del móvil. Puede enviar notificaciones sin problemas a exploradores móviles y de escritorio, lo que permite llegar a los clientes directamente en sus dispositivos sin necesidad de una aplicación. Esta mejora le permite atraer a los usuarios con mensajes personalizados y oportunos en tiempo real, aprovechando los mismos flujos de trabajo de creación y las mismas capacidades de direccionamiento ya disponibles para las notificaciones push móviles.</p>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
-<p><strong>Nota</strong>: las notificaciones silenciosas aún no son compatibles con las notificaciones push web.</p>
+<p>Esta capacidad, que se lanzó anteriormente en beta, ya está disponible en todos los entornos (disponibilidad general).</p>
 </td>
 </tr>
 </tbody>
@@ -164,6 +162,21 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
+<th><strong>API de herramientas de migración de autoservicio</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Hay disponible un nuevo conjunto de <strong>API de herramientas de migración</strong> para migrar las entidades de Administración de ofertas a Experience Decisioning. Las herramientas permiten una migración sin problemas entre entornos limitados con resolución de dependencias y funciones de reversión.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Journey Agent: Creación de un Recorrido</strong><br/></th>
 </tr>
 </thead>
@@ -171,7 +184,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tr>
 <td>
 <p>Recorrido Crear agente permite a los usuarios de Journey Optimizer crear y configurar recorridos de marketing mediante una interfaz de lenguaje natural. Con Recorrido Crear agente, los profesionales pueden crear recorridos rápidamente al describir sus necesidades en mensajes de conversación. El agente optimiza la creación de recorridos, lo que permite a los especialistas en marketing centrarse en la estrategia en lugar de en la configuración técnica.</p>
-<p><a href="https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Más información</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Más información</a></p>
 <p>Fecha de disponibilidad: martes, 12 de enero de 2026</p>
 </td>
 </tr>
@@ -247,16 +260,18 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Actualice las marcas con una nueva ficha de colores**: las directrices de marca garantizan que la marca se presente de manera coherente en todos los puntos de contacto. La nueva <strong>sección Colores</strong> define los estándares para el sistema de colores de su marca y describe cómo se seleccionan, organizan y aplican los colores en todas las experiencias. Garantiza el uso coherente de los colores primarios, secundarios, acentuados y neutros para apoyar una identidad de marca cohesiva, accesible y reconocible.
 
+#### Canales
+
+* **Webhooks de SMS**: ahora se admiten los webhooks en todos los proveedores de SMS. Puede configurar cada webhook en función de su propósito, los webhooks entrantes para capturar los mensajes entrantes y los webhooks de comentarios para recibir confirmaciones de entrega, actualizaciones de estado y otros eventos relacionados con los mensajes.
+
 #### Campañas
 
-* **Programar campaña usando la zona horaria del perfil**. La programación de campañas ahora puede usar la <strong>zona horaria</strong> de cada perfil para enviar mensajes a la hora local prevista. La programación mediante zonas horarias de perfil está disponible para los canales Email, Push, SMS, WhatsApp y LINE.
+* **Programar campaña usando la zona horaria del perfil**. La programación de campañas ahora puede usar la <strong>zona horaria</strong> de cada perfil para enviar mensajes a la hora local prevista.
 
   **Nota**: esta mejora solo está disponible para un conjunto de organizaciones (disponibilidad limitada).
 
 
 #### Experience Decisioning
-
-* **API de herramientas de migración de autoservicio**: hay un nuevo conjunto de <strong>API de herramientas de migración</strong> disponibles para migrar entidades de Administración de ofertas a Experience Decisioning. Las herramientas permiten una migración sin problemas entre entornos limitados con resolución de dependencias y funciones de reversión.
 
 * **Adjuntar fragmentos a elementos de decisión**: Journey Optimizer ahora proporciona la capacidad de adjuntar <strong>fragmentos</strong> a elementos de decisión que se pueden aprovechar en campañas de experiencia basadas en código mediante directivas de decisión.
 
@@ -268,7 +283,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Combinar acciones de mensajes nativas y de Adobe Campaign**: Journey Optimizer ahora le permite combinar acciones de mensajes de Adobe Campaign v7/v8 con acciones de canal nativo en el mismo recorrido.
 
-* **validación del tamaño de la carga útil de Recorrido en recorrido**: Journey Optimizer ahora proporciona <strong>validación del tamaño de la carga útil</strong> para ayudar a garantizar un rendimiento óptimo y la estabilidad del sistema. Al crear o publicar recorridos, recibirá advertencias y errores claros si el tamaño de la carga útil se aproxima o supera los límites recomendados, junto con instrucciones procesables para optimizar la configuración del recorrido. Esta validación proactiva le ayuda a identificar problemas potenciales de forma temprana y a mantener el rendimiento del recorrido.
+* **Validación del tamaño de carga útil de Recorrido en recorrido**: Journey Optimizer ahora valida los tamaños de carga útil de recorrido para ayudar a garantizar un rendimiento óptimo y la estabilidad del sistema. Al crear o publicar recorridos, recibirá advertencias y errores claros si el tamaño de la carga útil se aproxima o supera los límites recomendados, junto con instrucciones procesables para optimizar la configuración del recorrido. Esta validación proactiva le ayuda a identificar problemas potenciales de forma temprana y a mantener el rendimiento del recorrido.
 
 * **Varias acciones entrantes en recorrido**: para simplificar la orquestación de recorrido, ahora puede definir <strong>varias acciones entrantes</strong> en un solo recorrido. Esta capacidad, que antes estaba disponible en las campañas de, le permite ofrecer varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web en diferentes ubicaciones al mismo tiempo, y cada acción contiene un contenido específico.
 
@@ -278,9 +293,9 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Seleccionar atributos y copiar valores de distribución**: ahora puede seleccionar o copiar valores directamente desde la vista de distribución de valores en campañas organizadas.
 
-* **Herencia de etiquetas de uso de datos para audiencias**: las <strong>etiquetas de uso de datos</strong> aplicadas en Adobe Experience Platform ahora se transfieren automáticamente al guardar audiencias en campañas orquestadas, lo que reduce el etiquetado DULE manual.
+* **Herencia de etiquetas de uso de datos para audiencias**: las etiquetas aplicadas en Adobe Experience Platform ahora se transfieren automáticamente al guardar audiencias en campañas orquestadas, lo que reduce el etiquetado DULE manual.
 
-* **Filtros de retargeting predefinidos**. Para admitir un retargeting más sencillo en los casos de uso de campañas orquestadas, esta versión introduce nuevos <strong>filtros de retargeting</strong>. Estos filtros le permiten dirigirse directamente a las audiencias en función de la participación en el mensaje, como enviado, abierto solo, abierto o hecho clic, o abierto y hecho clic, y seleccionar la campaña específica o la campaña en transición que desea redireccionar.
+* **Filtros de redireccionamiento predefinidos**: para admitir un redireccionamiento más sencillo en los casos de uso de campañas orquestadas, esta versión introduce nuevos <strong>filtros de comentarios de campaña</strong>. Estos filtros le permiten dirigirse directamente a las audiencias en función de la participación en el mensaje, como enviado, abierto solo, abierto o hecho clic, o abierto y hecho clic, y seleccionar la campaña específica o la campaña en transición que desea redireccionar.
 
 * **Filtros predefinidos con parámetros**: ahora puede crear <strong>filtros con parámetros</strong> en campañas orquestadas para reglas reutilizables y editables.
 
@@ -294,7 +309,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 #### Permisos
 
-* **Impedir la autoaprobación para recorridos y campañas**: ahora es necesario que los creadores no puedan aprobar sus propios recorridos o campañas, lo que mejora la <strong>separación de tareas</strong> en los flujos de trabajo de aprobación.
+* **Impedir la autoaprobación para recorridos y campañas**: se agregó una opción al crear o establecer la directiva de aprobación para evitar que los creadores de Recorrido o campaña aprueben sus propios objetos.
 
 ## Próximamente {#jan-26-01-coming-soon}
 
@@ -319,13 +334,30 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <table>
 <thead>
 <tr>
-<th><strong>Compatibilidad con decisiones en los canales push y SMS</strong><br/></th>
+<th><strong>Compatibilidad con decisiones en el canal push</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede personalizar y optimizar el contenido de sus mensajes push y SMS con <strong>Decisioning</strong>. Use <strong>puntuaciones de prioridad</strong>, fórmulas o modelos de IA para mostrar el mejor contenido a sus clientes.</p>
+<p>Ahora puede personalizar y optimizar el contenido de sus mensajes push con <strong>Decisioning</strong>. Use <strong>puntuaciones de prioridad</strong>, fórmulas o modelos de IA para mostrar el mejor contenido a sus clientes.</p>
+<p>Fecha de disponibilidad: miércoles, 03 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con decisiones en el canal SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede agregar políticas de Decisión a los recorridos y campañas de SMS. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de Decisioning para devolver dinámicamente el mejor contenido para entregar a cada miembro del público.</p>
+<p>Esta capacidad está disponible en disponibilidad limitada para un conjunto de organizaciones.</p>
 <p>Fecha de disponibilidad: miércoles, 03 de febrero de 2026</p>
 </td>
 </tr>
