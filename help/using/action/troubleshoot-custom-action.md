@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70cac01cf79d7de66667e6fd786caf9df5499dd7
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '682'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,11 @@ Como administrador, use la capacidad **[!UICONTROL Enviar solicitud de prueba]**
 ![](assets/send-test-request.png){width="70%" align="left"}
 
 Utilice esta capacidad para optimizar el proceso de prueba y validación, asegurándose de que las acciones personalizadas funcionen correctamente en los recorridos activos.
+
+>[!NOTE]
+>
+>Si su organización tiene habilitado el proxy IP (salida), la llamada **[!UICONTROL Enviar solicitud de prueba]** lo omite. Para confirmar el enrutamiento de proxy, ejecute una prueba o un recorrido activo. Obtenga más información acerca del proxy IP (salida) y la habilitación en [Integrar con sistemas externos](../configuration/external-systems.md#faq).
+
 
 ## Requisitos previos {#troubleshoot-custom-action-prereq}
 
@@ -80,7 +85,7 @@ Como administrador de Journey Optimizer, también puede utilizar herramientas ex
 
 * Esta capacidad de prueba en el producto elimina la necesidad de copiar manualmente los detalles de configuración entre las herramientas, lo que reduce el riesgo de errores.
 
-## Resolución de problemas {#troubleshoot-custom-action-check}
+## Solución de problemas {#troubleshoot-custom-action-check}
 
 Si la solicitud falla, puede comprobar lo siguiente:
 
