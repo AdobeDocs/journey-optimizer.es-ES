@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 33bb27ff4181e196d05f320c5b958628a6bd6bf6
+source-git-commit: 79e9023a9b555a75a13c4f5da2db1b7dbb04c344
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1726'
 ht-degree: 17%
 
 ---
@@ -29,7 +29,7 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 
 ## Notas previas al lanzamiento de enero de 2026 {#latest-rn}
 
-**Fecha de lanzamiento**: miércoles, 27 de enero de 2026
+**Fecha de la versión**: 27 y 28 de enero de 2026
 
 **Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad de la versión**. Los vínculos, las pantallas y la documentación actualizada se publican en las notas de la versión en la fecha de lanzamiento.
 
@@ -48,22 +48,6 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <td>
 <p>Las horas tranquilas le permiten definir <strong>exclusiones basadas en el tiempo</strong> para los canales de correo electrónico, SMS, Push y WhatsApp. Garantizan que no se envíen mensajes durante períodos específicos, lo que le ayuda a respetar las preferencias de los clientes y los requisitos de cumplimiento. Puede aplicar horas tranquilas a través de <strong>conjuntos de reglas</strong>, que se pueden asignar a acciones individuales en campañas o recorridos para un control preciso.</p>
 <p>Esta función, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). Con esta versión de Disponibilidad general, la función ahora incluye la capacidad para que los clientes pongan en cola una acción de campaña hasta que se complete el Tiempo de inactividad y la capacidad de previsualizar la regla de Tiempo de inactividad activada.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Canal de notificaciones push web</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer ahora admite <strong>notificaciones push web</strong>, lo que expande el canal push más allá del móvil. Puede enviar notificaciones tanto a exploradores móviles como de escritorio, lo que permite llegar a los clientes directamente en sus dispositivos sin necesidad de una aplicación. Esta mejora le ayuda a atraer a los usuarios con mensajes personalizados y oportunos en tiempo real, aprovechando los mismos flujos de trabajo de creación y las mismas capacidades de direccionamiento ya disponibles para las notificaciones push móviles.</p>
-<p>Esta capacidad, que se lanzó anteriormente en beta, ya está disponible en todos los entornos (disponibilidad general).</p>
 </td>
 </tr>
 </tbody>
@@ -119,27 +103,6 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
-<th><strong>API de herramientas de migración de autoservicio</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>Las API de herramientas de migración</strong> ya están disponibles para migrar mediante programación las entidades de Administración de decisiones a Decisioning, que incluyen:</p>
-<ul>
-<li>Ámbitos de migración flexibles (zona protegida, nivel de oferta o de decisión)</li>
-<li>Análisis y validación de dependencias automatizadas</li>
-<li>Compatibilidad con reversiones para migraciones completadas</li>
-<li>Informes de migración detallados con asignaciones de objetos</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Monitorización de acciones personalizadas</strong><br/></th>
 </tr>
 </thead>
@@ -176,11 +139,9 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Comprobaciones de calidad del contenido del Asistente de IA**: además de la alineación de marca, ahora puede evaluar la <strong>calidad del contenido</strong> en general para descubrir posibles problemas con legibilidad, coherencia y eficacia, independientemente de las directrices de marca. Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales.
 
-* **Actualice las marcas con una nueva ficha de color**: las directrices de marca garantizan que su marca se presente de manera uniforme en todos los puntos de contacto. La nueva <strong>sección Colores</strong> define los estándares para el sistema de colores de su marca y describe cómo se seleccionan, organizan y aplican los colores en todas las experiencias. Garantiza el uso coherente de los colores primarios, secundarios, acentuados y neutros para apoyar una identidad de marca cohesiva, accesible y reconocible.
+* **Actualice las marcas con una nueva ficha de colores**: las directrices de marca garantizan que la marca se presente de manera coherente en todos los puntos de contacto. La nueva <strong>sección Colores</strong> define los estándares para el sistema de colores de su marca y describe cómo se seleccionan, organizan y aplican los colores en todas las experiencias. Garantiza el uso coherente de los colores primarios, secundarios, acentuados y neutros para apoyar una identidad de marca cohesiva, accesible y reconocible.
 
 #### Canales
-
-* **Enlaces web SMS** - <strong>Los enlaces web</strong> ahora son compatibles con todos los proveedores de SMS. Puede configurar cada enlace web en función de su objetivo: Los enlaces web entrantes capturan los mensajes entrantes y los enlaces web de comentarios para recibir confirmaciones de entrega, actualizaciones de estado y otros eventos relacionados con los mensajes.
 
 #### Campañas
 
@@ -232,45 +193,13 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <table>
 <thead>
 <tr>
-<th><strong>Generación de contenido en Journey Agent</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Con tecnología de Adobe Experience Platform Agent Orchestrator, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
-<p>Fecha de disponibilidad: martes, 02 de febrero de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Compatibilidad con decisiones en el canal push</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede personalizar y optimizar el contenido de sus mensajes push con <strong>Decisioning</strong>. Use <strong>puntuaciones de prioridad</strong>, fórmulas o modelos de IA para mostrar el mejor contenido a sus clientes.</p>
-<p>Fecha de disponibilidad: miércoles, 03 de febrero de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Exportación de mensajes</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora hay disponible una nueva funcionalidad <strong>Message Export</strong> para canales de correo electrónico y SMS. Esta función le permite exportar automáticamente el contenido de los mensajes enviados a un conjunto de datos de Experience Platform dedicado, lo que le permite:</p>
+<p>Habrá disponible una nueva funcionalidad <strong>Message Export</strong> para canales de correo electrónico y SMS. Esta función le permite exportar automáticamente el contenido de los mensajes enviados a un conjunto de datos de Experience Platform dedicado, lo que le permite:</p>
 <ul>
 <li>Cumplir los requisitos de cumplimiento normativo (como HIPAA)</li>
 <li>Archivar mensajes para reclamaciones legales y consultas de atención al cliente</li>
@@ -287,13 +216,100 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <table>
 <thead>
 <tr>
+<th><strong>Webhooks de SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Los enlaces web</strong> serán compatibles con todos los proveedores de SMS. Podrá configurar cada webhook en función de su propósito: Webhooks entrantes para capturar mensajes entrantes y webhooks de comentarios para recibir confirmaciones de entrega, actualizaciones de estado y otros eventos relacionados con mensajes.</p>
+<p>Fecha de disponibilidad: jueves, 28 de enero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal de notificaciones push web</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer admitirá <strong>notificaciones push web</strong>, lo que expandirá el canal push más allá del móvil. Podrá enviar notificaciones tanto a navegadores móviles como de escritorio, lo que permite llegar a los clientes directamente en sus dispositivos sin necesidad de una aplicación. Esta mejora le ayudará a atraer a los usuarios con mensajes personalizados y oportunos en tiempo real, aprovechando los mismos flujos de trabajo de creación y las mismas capacidades de direccionamiento ya disponibles para las notificaciones push móviles.</p>
+<p>Esta funcionalidad, lanzada anteriormente en Beta, estará disponible para todos los entornos (disponibilidad general).</p>
+<p>Fecha de disponibilidad: jueves, 28 de enero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>API de herramientas de migración de autoservicio</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Las API de herramientas de migración</strong> estarán disponibles para migrar mediante programación las entidades de Administración de decisiones a Decisioning, que incluyen:</p>
+<ul>
+<li>Ámbitos de migración flexibles (zona protegida, nivel de oferta o de decisión)</li>
+<li>Análisis y validación de dependencias automatizadas</li>
+<li>Compatibilidad con reversiones para migraciones completadas</li>
+<li>Informes de migración detallados con asignaciones de objetos</li>
+</ul>
+<p>Fecha de disponibilidad: jueves, 28 de enero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Generación de contenido en Journey Agent</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con tecnología de Adobe Experience Platform Agent Orchestrator, <strong>Journey Agent</strong> estará disponible en Journey Optimizer y le permitirá analizar los recorridos a través de una interfaz de lenguaje natural. Podrá generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo a través de mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
+<p>Fecha de disponibilidad: martes, 02 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con decisiones en el canal push</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Podrá personalizar y optimizar el contenido de sus mensajes push con <strong>Decisioning</strong>. Use <strong>puntuaciones de prioridad</strong>, fórmulas o modelos de IA para mostrar el mejor contenido a sus clientes.</p>
+<p>Fecha de disponibilidad: miércoles, 03 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Actividad de decisión de contenido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora hay disponible una nueva <strong>actividad de decisión de contenido</strong> en el lienzo de recorrido para integrar ofertas personalizadas directamente en las recorridos de los clientes. Esta actividad le permite entregar contenido basado en decisiones y hacer referencia a esas ofertas en todo el recorrido, en condiciones para crear ramas basadas en la idoneidad, en acciones personalizadas para pasar datos de ofertas a sistemas externos y en otras actividades para crear experiencias de cliente totalmente personalizadas.</p>
+<p>Habrá disponible una nueva <strong>actividad de decisión de contenido</strong> en el lienzo de recorrido para integrar ofertas personalizadas directamente en las recorridos de los clientes. Esta actividad le permite entregar contenido basado en decisiones y hacer referencia a esas ofertas en todo el recorrido, en condiciones para crear ramas basadas en la idoneidad, en acciones personalizadas para pasar datos de ofertas a sistemas externos y en otras actividades para crear experiencias de cliente totalmente personalizadas.</p>
 <p>Esta capacidad estará disponible para todos los entornos (disponibilidad general).</p>
 <p>Fecha de disponibilidad: miércoles, 03 de febrero de 2026</p>
 </td>
