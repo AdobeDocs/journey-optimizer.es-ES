@@ -44,7 +44,7 @@ Con estos datos, se pueden definir reglas para identificar a los destinatarios q
 
    1. Seleccione la regla de filtro y elija el **[!UICONTROL Comportamiento]** al que desee dirigirse, como **[!UICONTROL Mensaje enviado]**.
 
-   1. Haga clic en ![icono de carpeta ](assets/do-not-localize/folder-search.svg) para seleccionar la campaña específica que desea redireccionar. Tiene dos opciones:
+   1. Haga clic en ![icono de carpeta &#x200B;](assets/do-not-localize/folder-search.svg) para seleccionar la campaña específica que desea redireccionar. Tiene dos opciones:
 
       * **[!UICONTROL Seleccione una campaña específica]**: Elija una campaña en particular de su lista para redirigirse a los destinatarios que interactuaron con esa campaña.
 
@@ -135,7 +135,7 @@ Para redirigir a los destinatarios en función de las interacciones de mensajes 
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. Haga clic en ![icono de carpeta ](assets/do-not-localize/folder-search.svg) para seleccionar la campaña específica que desea redireccionar. Tiene dos opciones:
+   1. Haga clic en ![icono de carpeta &#x200B;](assets/do-not-localize/folder-search.svg) para seleccionar la campaña específica que desea redireccionar. Tiene dos opciones:
 
       * **[!UICONTROL Seleccione una campaña específica]**: Elija una campaña en particular de su lista para redirigirse a los destinatarios que interactuaron con esa campaña.
 
