@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 3866cedf2c264d94e981a43b649073aa1bdcd4f2
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '937'
 ht-degree: 23%
 
 ---
@@ -102,7 +102,7 @@ También puede ejecutar su recorrido en **Ejecución en seco**. El ensayo del re
 
 ## Publicación del recorrido {#jo-pub}
 
-Debe publicar un recorrido para activarlo y hacer que esté disponible para que los nuevos perfiles lo introduzcan. Antes de publicar el recorrido, compruebe que es válido y que no hay errores. No se puede publicar un recorrido con errores. Obtenga más información acerca de la publicación de recorrido en esta [sección](publish-journey.md).
+Debe publicar un recorrido para activarlo y hacer que esté disponible para que los nuevos perfiles lo introduzcan. Antes de publicar el recorrido, compruebe que es válido y que no hay errores. No se puede publicar un recorrido con errores. Journey Optimizer también valida el tamaño de la carga útil en el momento de guardar y publicar para preservar la estabilidad y el rendimiento. Obtenga más información acerca de la publicación de recorrido en esta [sección](publish-journey.md) y vea [Validación del tamaño de carga útil de recorrido](../start/guardrails.md#journey-payload-size).
 
 ![Flujo de recorrido completo con audiencia, condiciones y acciones](assets/jo-journeyuc2_32bis.png)
 

@@ -10,16 +10,20 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 01ab3f5236acb914c3efe71ffe3d5281d1126589
+source-git-commit: 3866cedf2c264d94e981a43b649073aa1bdcd4f2
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 36%
+source-wordcount: '725'
+ht-degree: 34%
 
 ---
 
 # Publicación del recorrido {#publishing-the-journey}
 
 Debe publicar un recorrido para activarlo y hacer que esté disponible para que los nuevos perfiles entren en el recorrido. Antes de publicar el recorrido, compruebe que es válido y que no hay errores. No se puede publicar un recorrido con errores.
+
+>[!NOTE]
+>
+>Al guardar o publicar un recorrido, Journey Optimizer valida el tamaño total de la carga útil del recorrido y puede advertir o bloquear la publicación si se aproxima o supera el límite. Obtenga más información en [validación del tamaño de la carga útil de Recorrido](../start/guardrails.md#journey-payload-size).
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
@@ -90,4 +94,4 @@ Cuando se publica una nueva versión de un recorrido, la versión anterior final
 
 Obtenga información sobre cómo publicar un recorrido en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427933?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
