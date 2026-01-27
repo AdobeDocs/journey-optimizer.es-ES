@@ -5,10 +5,10 @@ title: Enviar actualizaciones de artículos de lista de deseos
 description: Enviar actualizaciones de artículos de lista de deseos
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ Aunque este ejemplo usa un esquema **Wishlist**, el mismo método se aplica a cu
 * **Producto**: con campos: `description`, `priceref`, `imageurl`
 * **CarrosAbandonados** (opcional): con campo: `lastmodified`
 
-➡️ [Aprenda a configurar esquemas basados en modelos](gs-schemas.md)
+➡️ [Aprenda a configurar esquemas relacionales](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 

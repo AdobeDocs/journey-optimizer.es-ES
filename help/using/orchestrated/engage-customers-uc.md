@@ -5,10 +5,10 @@ title: Captar clientes mediante la actividad de navegación
 description: Captar clientes mediante la actividad de navegación
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-Tenga en cuenta que este caso de uso comienza con una audiencia que ya existe en Experience Platform, específicamente, una audiencia de comportamiento web en tiempo real que recopila la actividad de navegación a medida que se produce. [Más información en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+Tenga en cuenta que este caso de uso comienza con una audiencia que ya existe en Experience Platform, específicamente, una audiencia de comportamiento web en tiempo real que recopila la actividad de navegación a medida que se produce. [Más información en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **Esquemas necesarios para este caso de uso:**
 
 * **Destinatarios**: utilizados como dimensión de segmentación, con campos: `email`, `churnprop`
 * **Lista de deseos**: con campos: `description`, `priceref`, `imageurl`
 
-➡️ [Aprenda a configurar esquemas basados en modelos](gs-schemas.md)
+➡️ [Aprenda a configurar esquemas relacionales](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 

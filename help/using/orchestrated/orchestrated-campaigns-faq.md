@@ -5,10 +5,10 @@ title: Preguntas más frecuentes sobre campañas organizadas
 description: Preguntas frecuentes sobre las campañas orquestadas de Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 13%
+source-wordcount: '1819'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 A continuación, encontrará las preguntas más frecuentes sobre campañas organizadas de Adobe Journey Optimizer.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más información? Use las opciones de comentarios situados en la parte inferior de esta página para plantear su pregunta o conecte con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
 
 +++ ¿Qué es la orquestación de Campaign?
 
@@ -28,7 +28,7 @@ En comparación con las campañas de un solo envío/acción, aportan **orquestac
 
 **Más información**
 
-* [Introducción a las campañas organizadas](gs-orchestrated-campaigns.md)
+* [Introducción a las campañas orquestadas](gs-orchestrated-campaigns.md)
 * [Cree su primera campaña orquestada](gs-campaign-creation.md)
 
 +++
@@ -63,7 +63,7 @@ Para acceder a Campaign Orchestration, la licencia debe incluir **Journey Optimi
 
 **Más información**
 
-* [Introducción a las campañas organizadas](gs-orchestrated-campaigns.md)
+* [Introducción a las campañas orquestadas](gs-orchestrated-campaigns.md)
 * [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
 
 +++
@@ -77,7 +77,7 @@ Para acceder a Campaign Orchestration, la licencia debe incluir **Journey Optimi
 
 **Más información**
 
-* [Introducción a las campañas organizadas](gs-orchestrated-campaigns.md)
+* [Introducción a las campañas orquestadas](gs-orchestrated-campaigns.md)
 * [Creación de su primer recorrido](../building-journeys/journey-gs.md)
 * [Introducción a las campañas](../campaigns/get-started-with-campaigns.md)
 
@@ -357,7 +357,7 @@ Sí, se pueden enriquecer los datos desde el almacén relacional y desde las aud
 
 +++ ¿Deben definirse todos los filtros mediante audiencias o se puede configurar algún tipo de filtro?
 
-Las campañas orquestadas admiten Filtros predefinidos: puede definir y guardar una consulta como filtro y agregarla a Favoritos para reutilizarla en tareas de segmentación adicionales.
+Las campañas orquestadas admiten filtros predefinidos: puede definir y guardar una consulta como filtro, agregarla a sus favoritos y reutilizarla en tareas de segmentación adicionales. Los filtros predefinidos pueden incluir parámetros para que pueda introducir valores en el momento de su uso. [Aprenda a trabajar con filtros predefinidos](predefined-filters.md).
 
 **Más información**
 

@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo iniciar y monitorizar campañas or
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 53%
+source-wordcount: '916'
+ht-degree: 36%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 53%
 >title="Publicación de la campaña orquestada"
 >abstract="Para iniciar su campaña, debe publicarla. Asegúrese de que se borran todos los errores antes de la publicación."
 
-Una vez creada la campaña organizada y tras haber diseñado las tareas que se realizarán en el lienzo, puede publicarla y monitorizar cómo se ejecuta.
-
-También puede ejecutar la campaña en modo de prueba para comprobar su ejecución y el resultado de las diferentes actividades.
+Una vez creada la campaña orquestada y diseñadas las tareas que se realizan en el lienzo, puede publicarla y monitorizar cómo se ejecuta. También puede ejecutar la campaña en modo de prueba para comprobar su ejecución y el resultado de las diferentes actividades.
 
 ## Prueba de la campaña antes de publicarla {#test}
 
@@ -35,17 +33,18 @@ También puede ejecutar la campaña en modo de prueba para comprobar su ejecuci�
 
 Para probar una campaña orquestada, abra la campaña y seleccione **[!UICONTROL Start]**.
 
-![](assets/campaign-start.png){zoomable="yes"}
+![Botón Inicio en la barra de herramientas del lienzo de la campaña](assets/campaign-start.png){zoomable="yes"}
 
 Cada actividad de la campaña se ejecuta secuencialmente hasta que se llega al final del lienzo. Durante la prueba, puede controlar la ejecución de la campaña mediante la barra de acciones del lienzo. A partir de ahí, puede realizar lo siguiente:
 
 * **Detenga** la ejecución en cualquier momento.
 * **Inicie** la ejecución de nuevo.
+* **Reiniciar** la ejecución para restablecer y volver a ejecutar el flujo de trabajo en una sola acción. Esto resulta especialmente útil cuando desea volver a probar rápidamente el flujo de campaña después de realizar modificaciones.
 * **Reanudar** la ejecución si se había pausado anteriormente.
 
 El icono **[!UICONTROL Alertas]** / **[!UICONTROL Advertencia]** de la barra de herramientas de lienzo le notifica de los problemas, incluidas las advertencias que pueden aparecer de forma proactiva antes de la ejecución y los errores que se producen durante o después de la ejecución.
 
-![](assets/campaign-warning.png){zoomable="yes"}
+![Icono de advertencia en la barra de herramientas del lienzo de la campaña](assets/campaign-warning.png){zoomable="yes"}
 
 También puede identificar rápidamente las actividades fallidas mediante los [indicadores visuales de estado](#activities) que se muestran directamente en cada actividad. Para obtener información detallada sobre la resolución de problemas, abra los [registros de la campaña](#logs-tasks), que proporcionan información detallada sobre el error y su contexto.
 
@@ -57,7 +56,7 @@ Una vez validada, la campaña se puede publicar.
 
 Una vez que la campaña se haya probado y esté lista, haga clic en **[!UICONTROL Publicar]** para activarla.
 
-![](assets/campaign-publish.png){zoomable="yes"}
+![Botón Publicar en el lienzo de la campaña](assets/campaign-publish.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -67,20 +66,28 @@ El flujo visual se reinicia y los perfiles reales comienzan a fluir a través de
 
 Si la acción de publicación falla (por ejemplo, debido a la falta de contenido de mensaje), se le alerta y debe corregir el problema antes de volver a intentarlo. Si la publicación se realiza correctamente, la campaña comenzará a ejecutarse (inmediatamente o según lo programado), pasará del estado **Borrador** al estado **Activo** y pasará a ser de &quot;Solo lectura&quot;.
 
+## Confirmar envío de mensajes {#confirm-sending}
+
+De forma predeterminada, para las campañas orquestadas no recurrentes, la entrega de mensajes se pausa hasta que se apruebe explícitamente la entrega. Después de publicar la campaña, confirme la solicitud de envío desde el panel de propiedades de la actividad del canal. Hasta que se confirme, la actividad del canal permanece pendiente y no se envía ningún mensaje.
+
+![imagen que muestra el botón Confirmar](assets/confirm-sending.png)
+
+Antes de publicar, puede deshabilitar el envío de confirmación desde el panel de propiedades de actividad del canal. Para obtener más información, consulte [Confirmar el envío de mensajes](activities/channels.md#confirm-message-sending).
+
 ## Monitorización de la ejecución de campañas {#monitor}
 
 ### Monitorización del flujo visual {#flow}
 
-Mientras se ejecuta (en modo de prueba o activo), el flujo visual muestra cómo se mueven los perfiles a través del recorrido en tiempo real. Se muestra el número de perfiles que pasan de una tarea a otra.
+Mientras se ejecuta (en modo de prueba o en directo), el flujo visual muestra cómo se mueven los perfiles por el recorrido en tiempo real. Se muestra el número de perfiles que pasan de una tarea a otra.
 
-![](assets/workflow-execution.png){zoomable="yes"}
+![Ejecución de flujo de trabajo de campaña que muestra flujo de perfil](assets/workflow-execution.png){zoomable="yes"}
 
 Los datos que pasan de una actividad a otra se almacenan en una tabla de trabajo temporal. Estos datos se pueden mostrar para cada transición. Para inspeccionar los datos transferidos entre actividades:
 
 1. Seleccione una transición.
 1. En el panel de propiedades, haga clic en **[!UICONTROL Esquema de vista previa]** para ver el esquema de la tabla de trabajo. Seleccione **[!UICONTROL Vista previa de resultados]** para ver los datos transportados.
 
-   ![](assets/transition.png){zoomable="yes"}
+   ![Vista previa de transición que muestra el esquema y los resultados de la tabla de trabajo](assets/transition.png){zoomable="yes"}
 
 ### Indicadores de ejecución de la actividad {#activities}
 
@@ -88,25 +95,25 @@ Los indicadores visuales de estado le ayudan a comprender el rendimiento de cada
 
 | Indicador visual | Descripción |
 |-----|------------|
-| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | La actividad se está ejecutando actualmente. |
-| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | La actividad requiere su atención. Esto puede implicar confirmar el envío de una entrega o tomar las medidas necesarias. |
-| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | La actividad ha encontrado un error. Para resolver el problema, abra los registros de la campaña orquestada para obtener más información. |
-| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | La actividad se ha ejecutado correctamente. |
+| ![Estado pendiente](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | La actividad se está ejecutando actualmente. |
+| ![Estado naranja](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | La actividad requiere su atención. Esto puede implicar confirmar el envío de una entrega o tomar las medidas necesarias. |
+| ![Estado de error](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | La actividad ha encontrado un error. Para resolver el problema, abra los registros de la campaña orquestada para obtener más información. |
+| ![Estado de éxito](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | La actividad se ha ejecutado correctamente. |
 
 ### Registros y tareas {#logs-tasks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Registros y tareas"
->abstract="La pantalla **Registros y tareas** proporciona un historial de la ejecución de la campaña orquestada y registran todas las acciones del usuario y los errores encontrados."
+>abstract="La pantalla **Registros y tareas** proporciona un historial de la ejecución de la campaña orquestada, registrando todas las acciones del usuario y los errores encontrados."
 
 La monitorización de registros y tareas es un paso clave para analizar las campañas orquestadas y asegurarse de que se ejecutan correctamente. Se puede acceder a los registros y tareas desde el botón **[!UICONTROL Registros]**, que está disponible en los modos de prueba y en directo en la barra de herramientas del lienzo.
 
-![](assets/logs-button.png){zoomable="yes"}
+![Botón Registros en la barra de herramientas del lienzo de la campaña](assets/logs-button.png){zoomable="yes"}
 
 La pantalla **[!UICONTROL Registros y tareas]** proporciona un historial de la ejecución de la campaña organizada, registrando todas las acciones del usuario y los errores encontrados.
 
-![](assets/workflow-logs.png){zoomable="yes"}
+![Pantalla de registros y tareas que muestra el historial de ejecución de la campaña](assets/workflow-logs.png){zoomable="yes"}
 
 Hay dos tipos de información disponibles:
 

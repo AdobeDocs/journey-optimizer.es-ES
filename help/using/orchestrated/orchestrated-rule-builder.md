@@ -5,10 +5,10 @@ title: Trabajo con el generador de reglas
 description: Aprenda a crear reglas para sus campañas organizadas
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: f85fab10da9cea7c8fd8f83c9e01b6ba06a19e8c
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 76%
+source-wordcount: '340'
+ht-degree: 69%
 
 ---
 
@@ -19,7 +19,7 @@ Las campañas organizadas incluyen un generador de reglas que simplifica el proc
 
 También admite filtros predefinidos dentro de las condiciones, lo que le permite detallar las consultas con facilidad mientras utiliza expresiones avanzadas y operadores para estrategias completas de segmentación de público y segmentación.
 
-## Acceso al generador de reglas
+## Acceso al generador de reglas {#access}
 
 El generador de reglas está disponible en todos los contextos en los que necesita definir reglas para filtrar los datos.
 
@@ -40,3 +40,7 @@ El generador de reglas proporciona un lienzo central en el que se genera la cons
 * El panel **[!UICONTROL Propiedades de regla]** proporciona información sobre la regla. Le permite realizar varias operaciones para comprobar la regla y asegurarse de que se adapta a sus necesidades.
 
   Este panel se muestra al armar una consulta para crear un público. [Aprenda a comprobar y validar su consulta](build-query.md#check-and-validate-your-query)
+
+## Trabajo con filtros predefinidos
+
+Los filtros predefinidos permiten reutilizar consultas guardadas en el generador de reglas, incluidas las versiones con parámetros. Para ver una introducción completa sobre cómo guardar, aplicar y administrar filtros predefinidos, vea [Trabajar con filtros predefinidos](predefined-filters.md).

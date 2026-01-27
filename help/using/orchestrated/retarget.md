@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo iniciar y monitorizar campañas or
 feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 La reorientación le permite hacer un seguimiento de los destinatarios según su respuesta a una campaña orquestada anterior. Por ejemplo, puede enviar un segundo correo electrónico a los destinatarios que recibieron pero no hicieron clic en el primero.
 
-**[!UICONTROL La campaña orquestada]** proporciona dos atributos principales para esto:
+**[!UICONTROL La campaña orquestada]** proporciona dos esquemas principales para esto:
 
 * **[!UICONTROL Comentarios del mensaje]**: captura eventos relacionados con la entrega, por ejemplo: mensajes enviados, abiertos, rechazados, etc.
 * **[!UICONTROL Seguimiento de correo electrónico]**: captura las acciones del usuario, por ejemplo, clics y aperturas.
@@ -28,15 +28,31 @@ La reorientación le permite hacer un seguimiento de los destinatarios según su
 
 ## Crear una regla de redireccionamiento basada en comentarios {#feedback-retarget}
 
-La regla de redireccionamiento basada en comentarios permite redireccionar los destinatarios según los eventos de envío de mensajes capturados con el atributo **[!UICONTROL Comentarios del mensaje]**. Estos eventos incluyen resultados como mensajes enviados, abiertos, rechazados o marcados como correo no deseado.
+La regla de redireccionamiento basada en comentarios permite redireccionar los destinatarios según los eventos de envío de mensajes capturados en el esquema **[!UICONTROL Comentarios del mensaje]**. Estos eventos incluyen resultados como mensajes enviados, abiertos, rechazados o marcados como correo no deseado.
 
 Con estos datos, se pueden definir reglas para identificar a los destinatarios que recibieron un mensaje anterior, lo que permite una comunicación de seguimiento basada en estados de entrega específicos.
 
 1. Crear una nueva **[!UICONTROL campaña orquestada]**.
 
-1. Agregue una actividad **[!UICONTROL Generar audiencia]** y establezca la dimensión de segmentación en **[!UICONTROL Destinatario (caas)]**.
+1. Agregue una actividad **[!UICONTROL Generar audiencia]** y establezca la dimensión de segmentación en **[!UICONTROL Destinatario (caas)]**. Haga clic en **[!UICONTROL Continuar]**.
 
-1. En el **[!UICONTROL Generador de reglas]**, haga clic en **[!UICONTROL Agregar condición]** y seleccione **[!UICONTROL Comentarios sobre mensajes]** del **[!UICONTROL Selector de atributos]**. Haga clic en **[!UICONTROL Confirmar]** para crear un **mensaje de comentarios ya existe como** condición.
+1. Para empezar rápidamente, puede usar un filtro integrado de **[!UICONTROL Comentarios de campaña]** para segmentar destinatarios según los eventos de envío de mensajes.
+
+   +++ Detallado paso a paso
+
+   1. En el **[!UICONTROL Generador de reglas]**, haga clic en **[!UICONTROL Seleccione o guarde un filtro]** y elija **[!UICONTROL comentarios de campaña]** en la lista.
+
+   1. Seleccione la regla de filtro y elija el **[!UICONTROL Comportamiento]** al que desee dirigirse, como **[!UICONTROL Mensaje enviado]**.
+
+   1. Haga clic en ![icono de carpeta ](assets/do-not-localize/folder-search.svg) para seleccionar la campaña específica que desea redireccionar. Tiene dos opciones:
+
+      * **[!UICONTROL Seleccione una campaña específica]**: Elija una campaña en particular de su lista para redirigirse a los destinatarios que interactuaron con esa campaña.
+
+      * **[!UICONTROL Campaña de transición]**: Haga referencia a una campaña de una actividad anterior en su campaña orquestada.
+
+   +++
+
+1. Como alternativa, puede crear manualmente reglas personalizadas. En el **[!UICONTROL Generador de reglas]**, haga clic en **[!UICONTROL Agregar condición]** y seleccione **[!UICONTROL Comentarios sobre mensajes]** del **[!UICONTROL Selector de atributos]**. Haga clic en **[!UICONTROL Confirmar]** para crear un **mensaje de comentarios ya existe como** condición.
 
    ![](assets/retarget_1.png){zoomable="yes"}
 
@@ -99,7 +115,7 @@ Ahora ha configurado una regla de redireccionamiento basada en los comentarios p
 
 ## Creación de una regla de retargeting basada en seguimiento {#tracking-based}
 
-La regla de retargeting basada en el seguimiento identifica a los destinatarios según sus interacciones con un mensaje mediante los datos del atributo **[!UICONTROL Email Tracking]**. Registra acciones del usuario como aperturas de correo electrónico y clics en vínculos.
+La regla de retargeting basada en el seguimiento identifica destinatarios según sus interacciones con un mensaje mediante los datos del esquema **[!UICONTROL Email Tracking]**. Registra acciones del usuario como aperturas de correo electrónico y clics en vínculos.
 
 Para redirigir a los destinatarios en función de las interacciones de mensajes (p. ej., abrir o hacer clic), use la entidad **[!UICONTROL Seguimiento de correo electrónico]** de la siguiente manera:
 
@@ -107,7 +123,27 @@ Para redirigir a los destinatarios en función de las interacciones de mensajes 
 
 1. Agregue una actividad **[!UICONTROL Generar audiencia]** y establezca la dimensión de segmentación en **[!UICONTROL Destinatario (caas)]** para que se centre en destinatarios de campañas orquestadas anteriores.
 
-1. En el **[!UICONTROL Generador de reglas]**, haga clic en **[!UICONTROL Agregar condición]** y seleccione **[!UICONTROL Seguimiento de correo electrónico]** del **[!UICONTROL Selector de atributos]**.
+1. Para empezar rápidamente, puede usar un filtro integrado de **[!UICONTROL Comentarios de campaña]** para segmentar destinatarios según los eventos de envío de mensajes.
+
+   +++ Detallado paso a paso
+
+   1. En el **[!UICONTROL Generador de reglas]**, haga clic en **[!UICONTROL Seleccione o guarde un filtro]** y elija **[!UICONTROL comentarios de campaña]** en la lista.
+
+      ![](assets/retarget_11.png){zoomable="yes"}
+
+   1. Seleccione la regla de filtro y elija el **[!UICONTROL Comportamiento]** al que desee dirigirse, como **[!UICONTROL Mensaje abierto]** o **[!UICONTROL Mensaje en el que se hizo clic]**.
+
+      ![](assets/retarget_13.png){zoomable="yes"}
+
+   1. Haga clic en ![icono de carpeta ](assets/do-not-localize/folder-search.svg) para seleccionar la campaña específica que desea redireccionar. Tiene dos opciones:
+
+      * **[!UICONTROL Seleccione una campaña específica]**: Elija una campaña en particular de su lista para redirigirse a los destinatarios que interactuaron con esa campaña.
+
+      * **[!UICONTROL Campaña de transición]**: Haga referencia a una campaña de una actividad anterior en su campaña orquestada.
+
+   +++
+
+1. Como alternativa, puede crear manualmente reglas personalizadas. En el **[!UICONTROL Generador de reglas]**, haga clic en **[!UICONTROL Agregar condición]** y seleccione **[!UICONTROL Seguimiento de correo electrónico]** del **[!UICONTROL Selector de atributos]**.
 
    Haga clic en **[!UICONTROL Confirmar]** para crear una condición **Existe seguimiento de correo electrónico como**.
 

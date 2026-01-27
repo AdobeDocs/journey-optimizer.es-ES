@@ -7,10 +7,10 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 2%
+source-wordcount: '946'
+ht-degree: 1%
 
 ---
 
@@ -83,9 +83,11 @@ También puede añadir cualquier otro atributo disponible en el editor de person
 
 Si la política de decisión contiene elementos de decisión, incluidos fragmentos, puede aprovechar estos fragmentos en el código de la política de decisión. [Más información sobre fragmentos](../content-management/fragments.md)
 
->[!AVAILABILITY]
+>[!CAUTION]
 >
->Actualmente, esta funcionalidad solo está disponible para el canal de experiencia basado en código y para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
+>Actualmente, esta funcionalidad solo está disponible para el canal de experiencia basado en código.
+>
+>Actualmente solo se pueden usar [fragmentos de expresión](../personalization/use-expression-fragments.md). No se admiten fragmentos anidados (fragmentos que hacen referencia a otros fragmentos).
 
 Por ejemplo, supongamos que desea mostrar contenido diferente para varios modelos de dispositivos móviles. Asegúrese de agregar los fragmentos correspondientes a esos dispositivos al elemento de decisión que está utilizando en la directiva de decisión. [Más información](items.md#attributes).
 
@@ -134,7 +136,7 @@ El ID de fragmento y la clave de referencia se seleccionarán de la sección **[
 
 **Elemento de decisión y atributos de contexto**
 
-Los atributos de elemento de decisión y los atributos contextuales no son compatibles de forma predeterminada en los fragmentos de [!DNL Journey Optimizer]. Sin embargo, puede utilizar variables globales en su lugar, como se describe a continuación.
+Los atributos de elemento de decisión y los atributos contextuales no son compatibles de forma predeterminada en [!DNL Journey Optimizer] fragmentos. Sin embargo, puede utilizar variables globales en su lugar, como se describe a continuación.
 
 Supongamos que desea utilizar la variable *sport* en el fragmento.
 

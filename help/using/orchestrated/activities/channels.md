@@ -5,10 +5,10 @@ title: Añadir una actividad de canal en una campaña de varios pasos
 description: Obtenga información sobre cómo añadir una actividad de canal en una campaña de varios pasos
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 57%
+source-wordcount: '1431'
+ht-degree: 40%
 
 ---
 
@@ -92,17 +92,7 @@ Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de
 
 1. **Aplicar reglas de límite**
 
-   En la lista desplegable **[!UICONTROL Conjunto de reglas]**, seleccione un conjunto de reglas de canal para aplicar reglas de límite a la campaña. El uso de conjuntos de reglas de canal le permite establecer límites de frecuencia por tipo de comunicación para evitar sobrecargar a los clientes con mensajes similares. [Descubra cómo trabajar con conjuntos de reglas](../../conflict-prioritization/rule-sets.md)
-
-1. **Rastrear participación** (Correo electrónico y SMS)
-
-   Utilice la sección **[!UICONTROL Seguimiento de la acción]** para rastrear cómo reaccionan sus destinatarios a sus envíos de correo electrónico o SMS. Puede acceder a los resultados de seguimiento desde el informe de campaña una vez que se haya ejecutado la campaña. [Más información sobre los informes de campaña](../../reports/campaign-global-report-cja.md)
-
-1. **Habilitar modo de envío rápido** (push)
-
-   El modo de envío rápido es un complemento de [!DNL Journey Optimizer] que permite el envío rápido de mensajes push en grandes volúmenes a través de campañas. La entrega rápida se utiliza cuando el retraso en la entrega de mensajes es crítico para la empresa. Por ejemplo, quiere enviar una alerta push urgente en los teléfonos móviles, como noticias de última hora a los usuarios que hayan instalado su aplicación de canal de noticias. Aprenda a habilitar el modo de envío rápido para las notificaciones push [en esta página](../../push/create-push.md#rapid-delivery).
-
-   Para obtener más información sobre el rendimiento al usar el modo de envío rápido, consulte [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+   En la lista desplegable **[!UICONTROL Conjunto de reglas]**, seleccione un conjunto de reglas de canal para aplicar reglas de límite a la campaña. El uso de conjuntos de reglas de canal le permite establecer límites de frecuencia por tipo de comunicación para evitar sobrecargar a los clientes con mensajes similares. [Aprenda a trabajar con conjuntos de reglas](../../conflict-prioritization/rule-sets.md).
 
 1. **Crear un experimento de contenido**
 
@@ -114,9 +104,28 @@ Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de
 
    ![imagen que muestra la sección Experimento de contenido](../assets/channel-experiment.png)
 
+Hay disponibles ajustes adicionales en función del canal de comunicación seleccionado. Expanda las secciones siguientes para obtener más información.
+
++++**Rastrear participación** (Correo electrónico y SMS).
+
+Utilice la sección **[!UICONTROL Seguimiento de la acción]** para rastrear cómo reaccionan sus destinatarios a sus envíos de correo electrónico o SMS. Puede acceder a los resultados de seguimiento desde el informe de campaña una vez que se haya ejecutado la campaña. [Más información sobre los informes de campaña](../../reports/campaign-global-report-cja.md)
+
++++
+
++++**Habilitar modo de envío rápido** (push).
+
+El modo de envío rápido es un complemento de [!DNL Journey Optimizer] que permite enviar mensajes push muy rápidamente en grandes volúmenes a través de campañas. La entrega rápida se utiliza cuando el retraso en la entrega de mensajes es crítico para la empresa. Por ejemplo, quiere enviar una alerta push urgente en los teléfonos móviles, como noticias de última hora a los usuarios que hayan instalado su aplicación de canal de noticias. Aprenda a habilitar el modo de envío rápido para las notificaciones push [en esta página](../../push/create-push.md#rapid-delivery).
+
+Para obtener más información sobre el rendimiento al usar el modo de envío rápido, consulte [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+
++++
+
 Una vez configurada la actividad de canal, seleccione la pestaña **[!UICONTROL Contenido]** para definir su contenido.
 
 ## Definición del contenido {#content}
+
+
+### Creación del contenido del mensaje
 
 Vaya a la pestaña **[!UICONTROL Contenido]** para crear el mensaje. Los pasos del proceso varían en función del canal seleccionado. Conozca los pasos detallados para crear el contenido del mensaje en las siguientes páginas.
 
@@ -126,9 +135,9 @@ Vaya a la pestaña **[!UICONTROL Contenido]** para crear el mensaje. Los pasos d
 <td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Crear una notificación push</strong></a></td>
 </tr></table>
 
-## Adición de personalización
+### Adición de personalización
 
-Personalization en campañas organizadas funciona de manera similar a otras **[!UICONTROL campañas o recorridos de Journey Optimizer]**. Sin embargo, hay algunas diferencias clave específicas del lienzo orquestado.
+Personalization en campañas orquestadas funciona de manera similar a otras [!DNL Journey Optimizer] campañas o recorridos, con algunas diferencias clave específicas del lienzo orquestado.
 
 Al acceder al editor de personalización desde una campaña orquestada, dos carpetas principales contienen atributos disponibles para la personalización que se detallan a continuación.
 
@@ -146,15 +155,50 @@ Al acceder al editor de personalización desde una campaña orquestada, dos carp
 
 Para obtener información detallada sobre cómo usar el editor de personalización, consulte [Introducción a la personalización](../../personalization/personalize.md).
 
-## Comprobación y prueba del contenido
+### Comprobación y prueba del contenido
 
 Una vez creado el contenido, use el botón **[!UICONTROL Simular contenido]** para obtener una vista previa y probar el contenido con los perfiles de prueba o los datos de entrada de muestra cargados desde un archivo CSV/JSON, o añadidos manualmente. [Más información](../../content-management/preview-test.md)
 
 ![imagen que muestra el botón Simular contenido](../assets/channel-simulate.png)
 
+## Confirmar envío de mensajes
+
+De forma predeterminada, para las campañas orquestadas no recurrentes, la entrega de mensajes se pausa hasta que se apruebe explícitamente la entrega. Después de publicar la campaña, confirme la solicitud de envío desde el panel de propiedades de la actividad del canal.
+
+![imagen que muestra el botón Confirmar](../assets/confirm-sending.png)
+
+La confirmación de envío se puede desactivar antes de publicar la campaña orquestada. Para ello, seleccione la actividad de canal en el lienzo para mostrar sus propiedades y active **[!UICONTROL Enviar sin confirmación]**.
+
+![imagen que muestra el botón Enviar sin confirmación](../assets/send-without-confirmation.png)
+
+## Establecer control de velocidad {#rate-control}
+
+[!DNL Journey Optimizer] le permite habilitar el control de velocidad para acciones salientes en campañas orquestadas.
+
+Esta función es especialmente útil para evitar sobrecargas en sistemas descendentes, como páginas de aterrizaje o plataformas de servicio de atención al cliente. Por ejemplo, puede establecer un límite de velocidad de 165 mensajes por segundo para garantizar un envío constante sin saturar a los sistemas descendentes.
+
+Para establecer el control de velocidad, siga estos pasos:
+
+1. Seleccione una actividad de canal saliente en el lienzo y haga clic en **[!UICONTROL Editar correo electrónico]**, **[!UICONTROL Editar SMS]** o **[!UICONTROL Editar push]** según el canal elegido.
+
+   ![imagen que muestra el lienzo con una actividad de correo electrónico](../assets/channel-edit.png)
+
+1. Vaya a la pestaña **[!UICONTROL Programar]** y habilite la opción **[!UICONTROL Acelerar la entrega]** en la sección **[!UICONTROL Configuración de entrega]**.
+
+   ![Configuración de control de velocidad con opción de entrega de acelerador y tasa de entrega por segundo](../assets/rate-control.png)
+
+1. Especifique la **[!UICONTROL tasa de entrega]** deseada por segundo.
+
+   * Tasa mínima de entrega admitida: 1 por segundo.
+   * Tasa máxima de entrega admitida: 2000 por segundo cuando la opción &quot;Entrega acelerador&quot; está habilitada.
+
+>[!IMPORTANT]
+>
+>Al establecer una tasa de entrega, el periodo de tiempo máximo para el que se puede ejecutar una audiencia de campaña es de 12 horas. Si la tasa de entrega se establece en un valor que no permite que toda la audiencia envíe el mensaje en el periodo de tiempo de 12 horas, los perfiles restantes se excluirán de la campaña. Puede ver el recuento de estos perfiles excluidos en el informe de campaña.
+
 ## Próximos pasos {#next}
 
-Cuando el contenido del mensaje esté listo, vuelva a su campaña orquestada con la flecha **[!UICONTROL Atrás]**. A continuación, puede completar la orquestación de actividades en el lienzo y publicar la campaña para iniciar el envío de mensajes. [Aprenda a iniciar y supervisar campañas orquestadas](../start-monitor-campaigns.md)
+Cuando el contenido del mensaje esté listo, vuelva a su campaña orquestada con la flecha **[!UICONTROL Atrás]**. A continuación, puede completar la orquestación de actividades en el lienzo y publicar la campaña para comenzar a enviar mensajes. [Aprenda a iniciar y supervisar campañas orquestadas](../start-monitor-campaigns.md)
 
 ![imagen que muestra el botón Atrás](../assets/channel-back.png)
 

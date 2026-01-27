@@ -5,10 +5,10 @@ title: Uso de la actividad Guardar público
 description: Aprenda a utilizar la actividad Guardar audiencia en una campaña organizada
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 23%
+source-wordcount: '555'
+ht-degree: 21%
 
 ---
 
@@ -59,6 +59,9 @@ El contenido de la audiencia guardada está disponible en la vista de detalles d
 
 ![](../assets/save-audience-4.png)
 
+>[!NOTE]
+>
+>Si la definición de la audiencia utiliza atributos de esquema de Experience Platform etiquetados con Data Usage (DULE), la audiencia guardada hereda automáticamente esas etiquetas. No es necesario que vuelva a aplicarlos. [Más información sobre la administración de datos](../../action/action-privacy.md)
 
 ## Ejemplo {#save-audience-example}
 
