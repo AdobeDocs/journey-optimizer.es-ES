@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: ht
-source-wordcount: '3661'
-ht-degree: 100%
+source-git-commit: 4e90aa9a71ab8999d4ac03eac50aad93af48302c
+workflow-type: tm+mt
+source-wordcount: '3908'
+ht-degree: 92%
 
 ---
 
@@ -184,6 +184,34 @@ Esta sección trata de las protecciones y limitaciones de los recorridos, inclui
 * Una instancia de recorrido de un perfil tiene un tamaño máximo de 1 MB. Todos los datos recopilados como parte de la ejecución del recorrido se almacenan en esa instancia de recorrido. Por lo tanto, los datos de un evento entrante, la información de perfil recuperada de Adobe Experience Platform, las respuestas de acciones personalizadas, etc. se almacenan en esa instancia de recorrido y afectan al tamaño del recorrido. Se recomienda, cuando un recorrido comienza con un evento, limitar el tamaño máximo de esa carga útil de evento (p. ej.: por debajo de 800 KB) para evitar alcanzar ese límite después de unas pocas actividades, en la ejecución del recorrido. Cuando se alcanza ese límite, el perfil está en estado de error y se excluirá del recorrido.
 * Además del tiempo de espera utilizado en las actividades del recorrido, también hay un tiempo de espera de recorrido global que no se muestra en la interfaz y no se puede cambiar. Este tiempo de espera global detiene el progreso de los particulares en el recorrido 91 días después de su entrada. [Más información](../building-journeys/journey-properties.md#global_timeout)
 
+
+#### validación del tamaño de carga útil de recorrido {#journey-payload-size}
+
+Al guardar o publicar un recorrido, Journey Optimizer valida el tamaño total de la carga útil del recorrido para conservar la estabilidad y el rendimiento.
+
+**Configuración predeterminada**
+
+* **Tamaño máximo de solicitud predeterminado**: 2 MB (2.000.000 bytes). Algunas organizaciones pueden tener límites personalizados configurados por Adobe.
+* **Umbral de advertencia**: 90% del límite máximo.
+* **Umbral de error**: 100% del límite máximo. Guardar o publicar está bloqueado y la solicitud devuelve **HTTP 413 Entidad de solicitud demasiado grande**.
+
+**Escenarios de experiencia de usuario**
+
+* **Carga &lt; 90% del límite**: el Recorrido se guarda y publica correctamente. No se muestran advertencias ni errores.
+* **Carga útil del 90 al 99 % del límite**: el Recorrido se guarda y publica correctamente, con una advertencia para optimizar. Mensaje de advertencia: **Advertencia**: el tamaño de la carga útil de Recorrido está cerca del límite. Nodo más grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamaño: [N] bytes).
+* **Carga útil >= 100% del límite**: el guardado o la publicación del Recorrido se bloqueó con un error. Mensaje de error: **Error**: el tamaño de la carga útil del Recorrido supera el límite. Nodo más grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamaño: [N] bytes).
+
+**Detalles de respuesta de error**
+
+Si la solicitud supera el tamaño máximo permitido, la respuesta incluye **Solicitar entidad demasiado grande**. La carga del recorrido supera el tamaño máximo permitido. Revise los detalles del error y optimice su recorrido.
+
+**Solución de problemas y recomendaciones**
+
+* Revise el nodo más grande resaltado en la advertencia o el error.
+* Simplifique las condiciones, reduzca las asignaciones de datos y elimine pasos o parámetros innecesarios.
+* Considere la posibilidad de dividir el recorrido en recorridos más pequeños si es necesario.
+* Si cree que su organización necesita un límite más alto, póngase en contacto con su representante de Adobe.
+
 ### Seleccione limitaciones de paquetes para recorridos unitarios {#select-package-limitations}
 
 >[!NOTE]
@@ -300,7 +328,8 @@ Obtenga más información acerca de las tasas de procesamiento de recorrido y lo
 Los siguientes mecanismos de protección se aplican a las actividades **[!UICONTROL Campaign v7/v8]** y **[!UICONTROL Campaign Standard]**:
 
 * Las actividades de Adobe Campaign no se pueden utilizar con un público de lectura o una actividad de calificación de público.
-* Las actividades de la campaña no se pueden utilizar con las actividades de otros canales: Tarjeta, Experiencia basada en código, Correo electrónico, Push, SMS, Mensajes en la aplicación, Web.
+* Las actividades de **[!UICONTROL Campaign Standard]** no se pueden usar con otras actividades de canal: Tarjeta, Experiencia basada en código, Correo electrónico, Push, SMS, Mensajes en la aplicación, Web.
+* **[!UICONTROL Las actividades de Campaign v7/v8]** se pueden usar junto con las actividades de canal nativo en el mismo recorrido.
 
 #### Actividad en la aplicación {#in-app-activity-limitations}
 
@@ -310,7 +339,7 @@ Las siguientes limitaciones se aplican a la acción **[!UICONTROL Mensaje en la 
 
 * La personalización solo puede contener atributos de perfil.
 
-* La actividad en la aplicación no se puede utilizar con actividades de Adobe Campaign.
+* La actividad en la aplicación no se puede usar con **[!UICONTROL actividades Campaign Standard]**.
 
 * La visualización en la aplicación está ligada a la duración del recorrido, lo que significa que cuando el recorrido termina para un perfil, todos los mensajes en la aplicación dentro de ese recorrido dejan de mostrarse para ese perfil.  Por lo tanto, no es posible detener un mensaje en la aplicación directamente desde una actividad de recorrido. En su lugar, deberá finalizar todo el recorrido para que los mensajes en la aplicación no se muestren en el perfil.
 
