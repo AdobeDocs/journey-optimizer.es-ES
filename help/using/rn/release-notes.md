@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9dedefb30a6c61965595a102c2d02207ae620285
+source-git-commit: c0ed4d941863730e6bc8dbea771cba94b305dd5b
 workflow-type: tm+mt
-source-wordcount: '2015'
-ht-degree: 27%
+source-wordcount: '1699'
+ht-degree: 17%
 
 ---
 
@@ -40,20 +40,120 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
-<th><strong>Actividad de acción en recorridos</strong><br/></th>
+<th><strong>Horas tranquilas (exclusiones basadas en el tiempo)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer admite una nueva actividad <strong>Action</strong> genérica que permite configurar acciones únicas y <strong>grupos de acciones entrantes de varias acciones</strong>, lo que permite una configuración de acciones optimizada dentro del lienzo de recorrido. En particular, esta nueva función permite lo siguiente:</p>
-<ul>
-<li>Una configuración de acción nativa simplificada dentro del lienzo de recorrido.</li>
-<li>La capacidad para crear grupos de acciones entrantes de varias acciones.</li>
-<li>Capacidad de añadir optimización a cualquier acción de canal integrada.</li>
-<li>Capacidad de añadir opciones de experimentación y multilingües a cualquier acción.</li>
-</ul>
+<p>Las horas tranquilas le permiten definir <strong>exclusiones basadas en el tiempo</strong> para los canales de correo electrónico, SMS, Push y WhatsApp. Garantizan que no se envíen mensajes durante períodos específicos, lo que le ayuda a respetar las preferencias de los clientes y los requisitos de cumplimiento. Puede aplicar horas tranquilas a través de <strong>conjuntos de reglas</strong>, que se pueden asignar a acciones individuales en campañas o recorridos para un control preciso.</p>
+<p>Esta función, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). Con esta versión de Disponibilidad general, la función ahora incluye la capacidad para que los clientes pongan en cola una acción de campaña hasta que se complete el Tiempo de inactividad y la capacidad de previsualizar la regla de Tiempo de inactividad activada.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal de notificaciones push web</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer ahora admite <strong>notificaciones push web</strong>, lo que expande el canal push más allá del móvil. Puede enviar notificaciones tanto a exploradores móviles como de escritorio, lo que permite llegar a los clientes directamente en sus dispositivos sin necesidad de una aplicación. Esta mejora le ayuda a atraer a los usuarios con mensajes personalizados y oportunos en tiempo real, aprovechando los mismos flujos de trabajo de creación y las mismas capacidades de direccionamiento ya disponibles para las notificaciones push móviles.</p>
+<p>Esta capacidad, que se lanzó anteriormente en beta, ya está disponible en todos los entornos (disponibilidad general).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal de correo directo en recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Anteriormente limitado a campañas, el <strong>canal de correo postal</strong> ya está disponible en el lienzo del recorrido, lo que le permite incorporar el correo postal en sus recorridos. Ahora, el correo postal se puede utilizar en escenarios de recorrido por lotes y 1:1, con compatibilidad con la configuración de extracción de archivos y los ajustes de frecuencia basados en el tiempo.</p>
 <p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal de correo directo en campañas orquestadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El canal de correo postal ya está disponible en campañas orquestadas. La <strong>actividad de correo postal</strong> facilita el envío de correo postal dentro de su campaña orquestada tanto para mensajes recurrentes como únicos. Automatiza la generación del <strong>archivo de extracción</strong> requerido por los proveedores de correo postal. Puede combinar actividades de canal en el lienzo de campaña orquestado para crear campañas en canales múltiples que almacenen en déclencheur las acciones en función del comportamiento y los datos del cliente.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con decisiones en el canal SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede agregar <strong>políticas de decisión</strong> a los recorridos y campañas de SMS. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de Decisioning para devolver dinámicamente el mejor contenido para entregar a cada miembro del público.</p>
+<p>Esta capacidad está disponible en disponibilidad limitada para un conjunto de organizaciones. Póngase en contacto con su representante de Adobe. </p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Exportación de mensajes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora hay disponible una nueva funcionalidad <strong>Message Export</strong> para canales de correo electrónico y SMS. Esta función le permite exportar automáticamente el contenido de los mensajes enviados a un conjunto de datos de Experience Platform dedicado, lo que le permite:</p>
+<ul>
+<li>Cumplir los requisitos de cumplimiento normativo (como HIPAA)</li>
+<li>Archivar mensajes para reclamaciones legales y consultas de atención al cliente</li>
+<li>Conservar copias del contenido personalizado enviado a particulares</li>
+</ul>
+<p>Los registros se conservan en el conjunto de datos de exportación de mensajes de AJO durante 7 días naturales a partir de la ingesta. Durante este período de retención, puede exportar los datos a su propio almacenamiento a través de destinos de Experience Platform. La función se habilita en el nivel de configuración de canal, lo que le proporciona un control granular sobre los mensajes que se exportan.</p>
+<p>Esta funcionalidad solo está disponible para el canal de correo electrónico y SMS, para organizaciones que han adquirido la oferta del complemento Exportación de mensajes. Para obtener más información, contacte con su representante de Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>API de herramientas de migración de autoservicio</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Las API de herramientas de migración</strong> ya están disponibles para migrar mediante programación las entidades de Administración de decisiones a Decisioning, que incluyen:</p>
+<ul>
+<li>Ámbitos de migración flexibles (zona protegida, nivel de oferta o de decisión)</li>
+<li>Análisis y validación de dependencias automatizadas</li>
+<li>Compatibilidad con reversiones para migraciones completadas</li>
+<li>Informes de migración detallados con asignaciones de objetos</li>
+</ul>
 </td>
 </tr>
 </tbody>
@@ -78,173 +178,13 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
-<th><strong>Horas tranquilas/Exclusiones basadas en el tiempo</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Las horas tranquilas le permiten definir <strong>exclusiones basadas en el tiempo</strong> para los canales de correo electrónico, SMS, Push y WhatsApp. Garantizan que no se envíen mensajes durante períodos de tiempo específicos, lo que le ayuda a respetar las preferencias de los clientes y los requisitos de cumplimiento. Puede aplicar horas tranquilas a través de <strong>conjuntos de reglas</strong>, que se pueden asignar a acciones individuales en campañas o recorridos para un control preciso.</p>
-<p>Esta función, lanzada anteriormente en disponibilidad limitada, ya está disponible para todos los entornos. Con esta versión de Disponibilidad general, la función ahora incluye la capacidad para que el cliente ponga en cola una acción de campaña hasta que se completen las horas tranquilas y la capacidad de previsualizar la regla de horas silenciosas activada.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Canal de correo postal en recorrido</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Anteriormente limitado a Campañas, el <strong>canal de correo postal</strong> ya está disponible en el <strong>lienzo de recorrido</strong>, lo que le permite incorporar el correo postal en sus recorridos. Ahora, el correo postal se puede utilizar en escenarios de recorrido por lotes y 1:1, con compatibilidad con la configuración de extracción de archivos y los ajustes de frecuencia basados en el tiempo.</p>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Canal de notificaciones push web</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer ahora admite <strong>notificaciones push web</strong>, lo que expande el canal push más allá del móvil. Puede enviar notificaciones sin problemas a exploradores móviles y de escritorio, lo que permite llegar a los clientes directamente en sus dispositivos sin necesidad de una aplicación. Esta mejora le permite atraer a los usuarios con mensajes personalizados y oportunos en tiempo real, aprovechando los mismos flujos de trabajo de creación y las mismas capacidades de direccionamiento ya disponibles para las notificaciones push móviles.</p>
-<p>Esta capacidad, que se lanzó anteriormente en beta, ya está disponible en todos los entornos (disponibilidad general).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Canal de correo directo en campañas organizadas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>El canal de correo postal ya está disponible en campañas orquestadas. La <strong>actividad de correo directo</strong> facilita el envío de correo directo dentro de su campaña orquestada, tanto para mensajes recurrentes como únicos. Sirve para automatizar el proceso de generación del <strong>archivo de extracción</strong> requerido por los proveedores de correo postal. Puede combinar actividades de canal en el lienzo de la campaña orquestada para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Exportación de mensajes</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora hay disponible una nueva funcionalidad <strong>Message Export</strong> para canales de correo electrónico y SMS. Esta función le permite exportar automáticamente el contenido de los mensajes enviados a un conjunto de datos de Experience Platform dedicado, lo que le permite:</p>
-<ul>
-<li>Cumplir los requisitos de cumplimiento normativo (como HIPAA)</li>
-<li>Archivar mensajes para reclamaciones legales y consultas de atención al cliente</li>
-<li>Conservar copias del contenido personalizado enviado a particulares</li>
-</ul>
-<p>Los registros se conservan en el conjunto de datos de exportación de mensajes de AJO durante <strong>7 días naturales desde la ingesta</strong>. Durante este período de retención, puede exportar los datos a su propio almacenamiento a través de destinos de Experience Platform. La función se habilita en el nivel de configuración de canal, lo que le proporciona un control granular sobre los mensajes que se exportan.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>API de herramientas de migración de autoservicio</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Hay disponible un nuevo conjunto de <strong>API de herramientas de migración</strong> para migrar las entidades de Administración de ofertas a Experience Decisioning. Las herramientas permiten una migración sin problemas entre entornos limitados con resolución de dependencias y funciones de reversión.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Journey Agent: Creación de un Recorrido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Recorrido Crear agente permite a los usuarios de Journey Optimizer crear y configurar recorridos de marketing mediante una interfaz de lenguaje natural. Con Recorrido Crear agente, los profesionales pueden crear recorridos rápidamente al describir sus necesidades en mensajes de conversación. El agente optimiza la creación de recorridos, lo que permite a los especialistas en marketing centrarse en la estrategia en lugar de en la configuración técnica.</p>
-<p><a href="https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Más información</a></p>
-<p>Fecha de disponibilidad: martes, 12 de enero de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Nueva API para recuperar campañas de acción</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ya está disponible la nueva <strong>API de Journey Optimizer</strong>, que le permite recuperar e inspeccionar mediante programación datos relacionados con la campaña, como detalles, versiones y configuraciones.</p>
-<p>Para obtener más información, consulte la <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: martes, 24 de noviembre de 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Nuevas alertas de recorrido</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora hay tres nuevas <strong>alertas de recorrido</strong> disponibles para ayudarle a supervisar y realizar un seguimiento de los eventos de ciclo de vida de recorrido y del rendimiento de las acciones personalizadas:</p>
-<ul>
-<li><strong>Recorrido publicado</strong>: reciba notificaciones cuando un profesional publique un recorrido en el lienzo de recorrido.</li>
-<li><strong>Recorrido finalizado</strong>: obtenga alertas cuando haya finalizado un recorrido, con definiciones específicas basadas en el tipo de recorrido (Leer público o Activado por evento).</li>
-<li><strong>Límite de acción personalizada activado</strong>: reciba una notificación cuando se active el límite en un punto final de acción personalizada.</li>
-</ul>
-<p>Estas alertas se pueden suscribir al nivel de organización o para recorridos específicos.</p>
-<p>Para obtener más información, consulte la <a href="../reports/alerts.md#journey-alerts">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: jueves, 05 de noviembre de 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Temas del Diseñador de correo electrónico</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede aplicar rápidamente <strong>temas preaprobados</strong> para garantizar la coherencia de la marca en todos los correos electrónicos, acelerar el proceso de creación de campañas y producir correos electrónicos de alta calidad de forma independiente, al tiempo que reduce la dependencia en los equipos de diseño.</p>
-<p>Esta funcionalidad, que se publicó anteriormente en la versión Beta, ya está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<img src="assets/do-not-localize/themes.gif">
-<p>Para obtener más información, consulte la <a href="../email/apply-email-themes.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: jueves, 05 de noviembre de 2025</p>
+<p>Recorrido Crear agente permite a los usuarios de Journey Optimizer crear y configurar recorridos de marketing mediante una <strong>interfaz en lenguaje natural</strong>. Los profesionales pueden crear recorridos rápidamente al describir sus necesidades en mensajes conversacionales, simplificar la creación de recorridos y permitir que los especialistas en marketing se centren en la estrategia en lugar de en la configuración técnica.</p>
 </td>
 </tr>
 </tbody>
@@ -258,11 +198,11 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Comprobaciones de calidad del contenido del Asistente de IA**: además de la alineación de marca, ahora puede evaluar la <strong>calidad del contenido</strong> en general para descubrir posibles problemas con legibilidad, coherencia y eficacia, independientemente de las directrices de marca. Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales.
 
-* **Actualice las marcas con una nueva ficha de colores**: las directrices de marca garantizan que la marca se presente de manera coherente en todos los puntos de contacto. La nueva <strong>sección Colores</strong> define los estándares para el sistema de colores de su marca y describe cómo se seleccionan, organizan y aplican los colores en todas las experiencias. Garantiza el uso coherente de los colores primarios, secundarios, acentuados y neutros para apoyar una identidad de marca cohesiva, accesible y reconocible.
+* **Actualice las marcas con una nueva ficha de color**: las directrices de marca garantizan que su marca se presente de manera uniforme en todos los puntos de contacto. La nueva <strong>sección Colores</strong> define los estándares para el sistema de colores de su marca y describe cómo se seleccionan, organizan y aplican los colores en todas las experiencias. Garantiza el uso coherente de los colores primarios, secundarios, acentuados y neutros para apoyar una identidad de marca cohesiva, accesible y reconocible.
 
 #### Canales
 
-* **Webhooks de SMS**: ahora se admiten los webhooks en todos los proveedores de SMS. Puede configurar cada webhook en función de su propósito, los webhooks entrantes para capturar los mensajes entrantes y los webhooks de comentarios para recibir confirmaciones de entrega, actualizaciones de estado y otros eventos relacionados con los mensajes.
+* **Enlaces web SMS** - <strong>Los enlaces web</strong> ahora son compatibles con todos los proveedores de SMS. Puede configurar cada enlace web en función de su objetivo: Los enlaces web entrantes capturan los mensajes entrantes y los enlaces web de comentarios para recibir confirmaciones de entrega, actualizaciones de estado y otros eventos relacionados con los mensajes.
 
 #### Campañas
 
@@ -273,21 +213,17 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 #### Experience Decisioning
 
-* **Adjuntar fragmentos a elementos de decisión**: Journey Optimizer ahora proporciona la capacidad de adjuntar <strong>fragmentos</strong> a elementos de decisión que se pueden aprovechar en campañas de experiencia basadas en código mediante directivas de decisión.
+* **Adjuntar fragmentos a elementos de decisión**: Journey Optimizer ahora proporciona la capacidad de adjuntar <strong>fragmentos</strong> a elementos de decisión, que se pueden aprovechar en campañas de experiencia basadas en código mediante directivas de decisión.
 
   **Nota**: Publicada anteriormente en Disponibilidad limitada, esta mejora ya está disponible para todos los entornos (Disponibilidad general).
 
 #### Recorridos
 
-* **Aprovechar una carga de respuesta de error en Acciones personalizadas de recorrido**. Ahora puede definir una <strong>carga de respuesta de error</strong> opcional para las acciones personalizadas. Cuando falla una llamada, la carga útil de error se expone en el contexto de recorrido y está disponible en la rama de tiempo de espera/error para admitir una lógica de reserva y una depuración más completas.
+* **Aprovechar una carga de respuesta de error en Acciones personalizadas de recorrido**. Ahora puede definir una <strong>carga de respuesta de error</strong> opcional para las acciones personalizadas. Cuando falla una llamada, la carga útil del error se expone en el contexto de recorrido y está disponible en la rama de tiempo de espera/error, junto con `jo_status_code`, para admitir una lógica de reserva y una depuración más completas.
 
 * **Combinar acciones de mensajes nativas y de Adobe Campaign**: Journey Optimizer ahora le permite combinar acciones de mensajes de Adobe Campaign v7/v8 con acciones de canal nativo en el mismo recorrido.
 
 * **Validación del tamaño de carga útil de Recorrido en recorrido**: Journey Optimizer ahora valida los tamaños de carga útil de recorrido para ayudar a garantizar un rendimiento óptimo y la estabilidad del sistema. Al crear o publicar recorridos, recibirá advertencias y errores claros si el tamaño de la carga útil se aproxima o supera los límites recomendados, junto con instrucciones procesables para optimizar la configuración del recorrido. Esta validación proactiva le ayuda a identificar problemas potenciales de forma temprana y a mantener el rendimiento del recorrido.
-
-* **Varias acciones entrantes en recorrido**: para simplificar la orquestación de recorrido, ahora puede definir <strong>varias acciones entrantes</strong> en un solo recorrido. Esta capacidad, que antes estaba disponible en las campañas de, le permite ofrecer varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web en diferentes ubicaciones al mismo tiempo, y cada acción contiene un contenido específico.
-
-  **Nota**: Publicada anteriormente en Disponibilidad limitada, esta mejora ya está disponible para todos los entornos (Disponibilidad general).
 
 #### Campañas orquestadas
 
@@ -297,7 +233,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Filtros de redireccionamiento predefinidos**: para admitir un redireccionamiento más sencillo en los casos de uso de campañas orquestadas, esta versión introduce nuevos <strong>filtros de comentarios de campaña</strong>. Estos filtros le permiten dirigirse directamente a las audiencias en función de la participación en el mensaje, como enviado, abierto solo, abierto o hecho clic, o abierto y hecho clic, y seleccionar la campaña específica o la campaña en transición que desea redireccionar.
 
-* **Filtros predefinidos con parámetros**: ahora puede crear <strong>filtros con parámetros</strong> en campañas orquestadas para reglas reutilizables y editables.
+* **Filtros predefinidos con parámetros**: ahora puede crear filtros predefinidos con <strong>parámetros</strong> en campañas orquestadas para reglas reutilizables y editables.
 
 * **Confirmación de mensaje antes del envío**: un <strong>paso de confirmación</strong> ahora está habilitado de forma predeterminada antes de enviar campañas orquestadas para reducir los envíos accidentales.
 
@@ -309,7 +245,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 #### Permisos
 
-* **Impedir la autoaprobación para recorridos y campañas**: se agregó una opción al crear o establecer la directiva de aprobación para evitar que los creadores de Recorrido o campaña aprueben sus propios objetos.
+* **Impedir la autoaprobación para recorridos y campañas**: se agregó una opción al crear o establecer la directiva de aprobación para evitar que los creadores de recorridos o campañas aprueben sus propios objetos.
 
 ## Próximamente {#jan-26-01-coming-soon}
 
@@ -324,7 +260,7 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <tbody>
 <tr>
 <td>
-<p>Con tecnología de Adobe Experience Platform Agent Orchestrator, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en Content Designer para la edición en contexto.</p>
+<p>Con tecnología de Adobe Experience Platform Agent Orchestrator, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 <p>Fecha de disponibilidad: martes, 02 de febrero de 2026</p>
 </td>
 </tr>
@@ -350,30 +286,13 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <table>
 <thead>
 <tr>
-<th><strong>Compatibilidad con decisiones en el canal SMS</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede agregar políticas de Decisión a los recorridos y campañas de SMS. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de Decisioning para devolver dinámicamente el mejor contenido para entregar a cada miembro del público.</p>
-<p>Esta capacidad está disponible en disponibilidad limitada para un conjunto de organizaciones.</p>
-<p>Fecha de disponibilidad: miércoles, 03 de febrero de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Actividad de decisión de contenido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede incluir <strong>ofertas personalizadas</strong> en sus recorridos a través de una actividad de decisión de contenido en el lienzo de recorrido y usarlas en actividades de recorrido, incluidas condiciones y acciones personalizadas.</p>
+<p>Ahora hay disponible una nueva <strong>actividad de decisión de contenido</strong> en el lienzo de recorrido para integrar ofertas personalizadas directamente en las recorridos de los clientes. Esta actividad le permite entregar contenido basado en decisiones y hacer referencia a esas ofertas en todo el recorrido, en condiciones para crear ramas basadas en la idoneidad, en acciones personalizadas para pasar datos de ofertas a sistemas externos y en otras actividades para crear experiencias de cliente totalmente personalizadas.</p>
 <p>Esta capacidad estará disponible para todos los entornos (disponibilidad general).</p>
 <p>Fecha de disponibilidad: miércoles, 03 de febrero de 2026</p>
 </td>
