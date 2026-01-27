@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 6%
+source-wordcount: '844'
+ht-degree: 4%
 
 ---
 
@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Cree la acción personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-1. Haga clic dentro del campo **Respuesta**.
+1. Haga clic dentro del campo **Respuesta** (respuesta correcta).
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -111,6 +111,16 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil.
 
+1. (Opcional) Habilite una carga útil de respuesta a errores para capturar el formato devuelto cuando falla la llamada y, a continuación, pegue una carga útil de ejemplo. Para ello, seleccione **Definir una carga útil de respuesta de error** en la configuración de acción personalizada. Obtenga más información acerca de la configuración de los campos de carga útil en [Configurar una acción personalizada](../action/about-custom-action-configuration.md).
+
+   ```
+   {
+   "errorResponse" : "customer not found"
+   }
+   ```
+
+   La carga de respuesta a error solo está disponible si la habilita en la configuración de acción personalizada.
+
 1. Vamos a añadir también customerID como parámetro de consulta.
 
    ![](assets/action-response9.png){width="80%" align="left"}
@@ -120,6 +130,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 ## Aprovechamiento de la respuesta en un recorrido {#response-in-journey}
 
 Simplemente, agregue la acción personalizada a un recorrido. A continuación, puede aprovechar los campos de carga útil de respuesta en condiciones, otras acciones y la personalización de mensajes.
+
+Si ha definido una carga de respuesta de error, esta se expone en **Atributos contextuales** > **Journey Orchestration** > **Acciones** > `<action name>` > **errorResponse**. Puede utilizarlo en las ramas de tiempo de espera y error para controlar la lógica de reserva y la gestión de errores.
 
 Por ejemplo, puede agregar una condición para comprobar la cantidad de puntos de lealtad. Cuando la persona entra en el restaurante, el punto final local envía una llamada con la información de fidelidad del perfil. Puede enviar una notificación push si el perfil es un cliente de oro. Y si se detecta un error en la llamada de, envíe una acción personalizada para notificarlo al administrador del sistema.
 
@@ -150,6 +162,12 @@ Por ejemplo, puede agregar una condición para comprobar la cantidad de puntos d
    @action{ActionLoyalty.jo_status_code} == "http_400"
    ```
 
+   Si se ha definido una carga útil de respuesta a error, también puede establecer como objetivo sus campos, por ejemplo:
+
+   ```
+   @action{ActionLoyalty.errorResponse.errorResponse} == "customer not found"
+   ```
+
    ![](assets/action-response7.png)
 
 1. Añada una acción personalizada que se enviará a su organización.
@@ -158,7 +176,7 @@ Por ejemplo, puede agregar una condición para comprobar la cantidad de puntos d
 
 ## Registros del modo de prueba {#test-mode-logs}
 
-Puede acceder, a través del modo de prueba, a los registros de estado relacionados con las respuestas de acciones personalizadas. Si ha definido acciones personalizadas con respuestas en el recorrido, verá una sección **actionsHistory** en esos registros que muestra la carga útil devuelta por el extremo externo (como respuesta de esa acción personalizada). Esto puede resultar muy útil en términos de depuración.
+Puede acceder, a través del modo de prueba, a los registros de estado relacionados con las respuestas de acciones personalizadas. Si ha definido acciones personalizadas con respuestas en el recorrido, verá una sección **actionsHistory** en esos registros que muestra la carga útil devuelta por el extremo externo (como respuesta de esa acción personalizada). Cuando se define una carga útil de respuesta a errores, se incluye para las llamadas fallidas. Esto puede resultar muy útil en términos de depuración.
 
 ![](assets/action-response12.png)
 
@@ -174,6 +192,8 @@ Estos son los valores posibles de este campo:
 * error interno: **internalError**
 
 Una llamada de acción se considera errónea cuando el código http devuelto es mayor que 2xx o si se produce un error. En estos casos, el recorrido fluye a la rama de tiempo de espera o error correspondiente.
+
+Si se ha configurado una carga de respuesta de error para la acción personalizada, sus campos se exponen en el nodo **errorResponse** para las llamadas con error. Si no se configura ninguna carga útil de respuesta a errores, ese nodo no está disponible.
 
 >[!WARNING]
 >

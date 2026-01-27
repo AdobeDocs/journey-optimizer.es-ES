@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 13%
+source-wordcount: '2032'
+ht-degree: 14%
 
 ---
 
@@ -81,7 +81,7 @@ Se define un límite de 300 000 llamadas durante un minuto para todas las accion
 
 >[!NOTE]
 >
->El límite de 300 000 llamadas por minuto se aplica como una **ventana deslizante** por zona protegida y por punto de conexión para puntos de conexión con tiempos de respuesta inferiores a 0,75 segundos. La ventana deslizante puede comenzar en cualquier milisegundo, lo que significa que pueden producirse errores de límite incluso si la velocidad aparece por debajo de 300 k/min cuando se alinea con los minutos del reloj. Para los extremos con tiempos de respuesta superiores a 0,75 segundos, se aplica un límite independiente de 150 000 llamadas por 30 segundos (también una ventana deslizante). Obtenga más información sobre los extremos lentos en [esta página](../configuration/external-systems.md#response-time).
+>El límite de 300 000 llamadas por minuto se aplica como una **ventana deslizante** por zona protegida y por punto de conexión para puntos de conexión con tiempos de respuesta inferiores a 0,75 segundos. La ventana deslizante puede comenzar en cualquier milisegundo, lo que significa que pueden producirse errores de límite incluso si la velocidad aparece por debajo de 300 k/min cuando se alinea con los minutos del reloj. Para los puntos finales con tiempos de respuesta superiores a 0,75 segundos, se aplica un límite independiente de 150 000 llamadas cada 30 segundos (también una ventana deslizante). Obtenga más información sobre los extremos lentos en [esta página](../configuration/external-systems.md#response-time).
 
 El límite predeterminado de 300 000 llamadas por minuto se aplica al nivel de dominio (es decir, example.com). Si necesita un límite más alto, consulte con el Soporte de Adobe con pruebas de uso y confirme el rendimiento de su punto final. Para solicitar un aumento del límite, proporcione detalles del volumen de llamadas y la capacidad del extremo esperados. Adobe puede personalizar el límite si las pruebas de capacidad demuestran que el extremo puede gestionar un mayor rendimiento. Para conocer las prácticas recomendadas, considere reestructurar los recorridos o implementar actividades de espera para escalonar las llamadas salientes y evitar errores de límite.
 
@@ -163,7 +163,7 @@ Adobe Journey Optimizer es compatible con TLS 1.3 de forma predeterminada para a
 
 Puede utilizar Mutual Transport Layer Security (mTLS) para garantizar una seguridad mejorada en las conexiones salientes a acciones personalizadas de Adobe Journey Optimizer. mTLS es un método de seguridad de extremo a extremo para la autenticación mutua que garantiza que ambas partes que comparten información son quienes dicen ser antes de que se compartan los datos. mTLS incluye un paso adicional en comparación con TLS, en el que el servidor también solicita el certificado del cliente y lo verifica al final.
 
-La autenticación TLS mutua (mTLS) se admite en acciones personalizadas. No se requiere ninguna configuración adicional en la acción personalizada ni en el recorrido para activar mTLS; se produce automáticamente cuando se detecta un extremo habilitado para mTLS. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+La autenticación TLS mutua (mTLS) se admite en acciones personalizadas. No se requiere ninguna configuración adicional en la acción personalizada ni en el recorrido para activar mTLS; se produce automáticamente cuando se detecta un extremo habilitado para mTLS. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Definición de los parámetros de carga útil {#define-the-message-parameters}
 
@@ -175,7 +175,13 @@ Puede definir el parámetro de carga útil como se detalla a continuación:
 
    ![](assets/null-values.png){width="70%" align="left"}
 
-1. En la sección **[!UICONTROL Response]**, pegue un ejemplo de la carga útil devuelta por la llamada. Este campo es opcional y está disponible para todos los métodos de llamada. Para obtener información detallada sobre cómo aprovechar las respuestas de llamadas de API en acciones personalizadas, consulte [esta página](../action/action-response.md).
+1. En la sección **[!UICONTROL Response]**, pegue un ejemplo de la carga útil devuelta cuando la llamada se realice correctamente. Este campo es opcional y está disponible para todos los métodos de llamada. Para obtener información detallada sobre cómo aprovechar las respuestas de llamadas de API en acciones personalizadas, consulte [esta página](../action/action-response.md).
+
+   ![](assets/response-values.png){width="70%" align="left"}
+
+1. (Opcional) Seleccione **[!UICONTROL Definir una carga útil de respuesta de error]** para habilitar el campo de carga útil de respuesta de error. Cuando esté habilitada, use la sección **[!UICONTROL Respuesta al error]** para pegar un ejemplo de la carga útil devuelta cuando falle la llamada. Se aplican los mismos requisitos que para la carga útil de respuesta (tipos de campo y formato). Aprenda a aprovechar la carga de respuesta a errores en los recorridos [aquí](../action/action-response.md).
+
+   ![](assets/response-values.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -184,7 +190,7 @@ Puede definir el parámetro de carga útil como se detalla a continuación:
 
 ![](assets/customactionpayloadmessage2.png)
 
-En la configuración del campo, debe:
+En esta configuración de campo, debe:
 
 * Seleccione el tipo de parámetro, por ejemplo: cadena, entero, etc.
 
