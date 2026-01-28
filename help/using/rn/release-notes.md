@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2dd468a97b8cb696d4ad7f1d0de2aceb15da29df
+source-git-commit: aa1df60e810cac63af52caaebd8d521c9ad91fb5
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 20%
@@ -35,7 +35,7 @@ Las secciones [Características](#jan-26-01-features) y [Mejoras](#jan-26-01-imp
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuevas funciones {#jan-26-01-features}
 
@@ -131,7 +131,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### IA
 
-* **Comprobaciones de calidad del contenido del Asistente de IA**: además de la alineación de marca, ahora puede evaluar la <strong>calidad del contenido</strong> en general para descubrir posibles problemas con la <strong>legibilidad</strong>, la coherencia y la eficacia, independientemente de las directrices de marca. Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. [Más información](../content-management/brands-score.md#validate-quality). [Descubra esta característica en vídeo](https://video.tv.adobe.com/v/3470549/?captions=spa&learn=on).
+* **Comprobaciones de calidad del contenido del Asistente de IA**: además de la alineación de marca, ahora puede evaluar la <strong>calidad del contenido</strong> en general para descubrir posibles problemas con la <strong>legibilidad</strong>, la coherencia y la eficacia, independientemente de las directrices de marca. Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. [Más información](../content-management/brands-score.md#validate-quality). [Descubra esta característica en vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -183,29 +183,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 En los próximos días, está programado el lanzamiento de las siguientes funciones y mejoras. **La información está sujeta a cambios**. Los vínculos, las pantallas y la documentación actualizados se compartirán una vez que estas actualizaciones estén activas en la producción.
 
 ### Funcionalidades
-
-<table>
-<thead>
-<tr>
-<th><strong>Exportación de mensajes</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora hay disponible una nueva funcionalidad <strong>Message Export</strong> para canales de correo electrónico y SMS. Esta función le permite exportar automáticamente el contenido de los mensajes enviados a un conjunto de datos de Experience Platform dedicado, lo que le permite:</p>
-<ul>
-<li>Cumplir los requisitos de cumplimiento normativo (como HIPAA)</li>
-<li>Archivar mensajes para reclamaciones legales y consultas de atención al cliente</li>
-<li>Conservar copias del contenido personalizado enviado a particulares</li>
-</ul>
-<p>Los registros se conservan en el conjunto de datos de exportación de mensajes de AJO durante 7 días naturales a partir de la ingesta. Durante este período de retención, puede exportar los datos a su propio almacenamiento a través de destinos de Experience Platform. La característica se habilita en el nivel de configuración de canal, lo que le proporciona <strong>control granular</strong> sobre los mensajes que se exportan.</p>
-<p>Esta funcionalidad solo está disponible para el canal de correo electrónico y SMS, para organizaciones que han adquirido la oferta del complemento Exportación de mensajes. Para obtener más información, contacte con su representante de Adobe.</p>
-<p>Fecha de disponibilidad: jueves, 28 de enero de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -283,6 +260,45 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <table>
 <thead>
 <tr>
+<th><strong>Exportación de mensajes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora hay disponible una nueva funcionalidad <strong>Message Export</strong> para canales de correo electrónico y SMS. Esta función le permite exportar automáticamente el contenido de los mensajes enviados a un conjunto de datos de Experience Platform dedicado, lo que le permite:</p>
+<ul>
+<li>Cumplir los requisitos de cumplimiento normativo (como HIPAA)</li>
+<li>Archivar mensajes para reclamaciones legales y consultas de atención al cliente</li>
+<li>Conservar copias del contenido personalizado enviado a particulares</li>
+</ul>
+<p>Los registros se conservan en el conjunto de datos de exportación de mensajes de AJO durante 7 días naturales a partir de la ingesta. Durante este período de retención, puede exportar los datos a su propio almacenamiento a través de destinos de Experience Platform. La característica se habilita en el nivel de configuración de canal, lo que le proporciona <strong>control granular</strong> sobre los mensajes que se exportan.</p>
+<p>Esta funcionalidad solo está disponible para el canal de correo electrónico y SMS, para organizaciones que han adquirido la oferta del complemento Exportación de mensajes. Para obtener más información, contacte con su representante de Adobe.</p>
+<p>Fecha de disponibilidad: sábado, 30 de enero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Generación de contenido en Journey Agent</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con tecnología de Adobe Experience Platform Agent Orchestrator, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede <strong>generar y administrar contenido</strong> directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo a través de mensajes y abriendo contenido en Content Designer para la edición en contexto.</p>
+<p>Fecha de disponibilidad: martes, 02 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Compatibilidad con decisiones en los canales push y SMS</strong><br/></th>
 </tr>
 </thead>
@@ -308,22 +324,6 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <p>Ahora hay disponible una nueva actividad <strong>Content decision activity</strong> en el lienzo de recorrido para integrar <strong>ofertas personalizadas</strong> directamente en las recorridos de los clientes. Esta actividad le permite entregar contenido basado en decisiones y hacer referencia a esas ofertas en todo el recorrido, en condiciones para crear ramas basadas en la idoneidad, en acciones personalizadas para pasar datos de ofertas a sistemas externos y en otras actividades para crear experiencias de cliente totalmente personalizadas.</p>
 <p>Esta capacidad estará disponible para todos los entornos (disponibilidad general).</p>
 <p>Fecha de disponibilidad: miércoles, 03 de febrero de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Generación de contenido en Journey Agent</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Con tecnología de Adobe Experience Platform Agent Orchestrator, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede <strong>generar y administrar contenido</strong> directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo a través de mensajes y abriendo contenido en Content Designer para la edición en contexto.</p>
-<p>Fecha de disponibilidad: martes, 02 de febrero de 2026</p>
 </td>
 </tr>
 </tbody>
