@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 4ce83c9cd3f70462c977db6e872a7ac51ea0e006
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '708'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Para crear directivas de aprobación, debe tener privilegios de administrador de sistemas o productos en Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home)
+>Para crear directivas de aprobación, debe tener privilegios de administrador de sistemas o productos en Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 Las políticas de aprobación permiten a los administradores establecer un proceso de validación para recorridos y campañas. Este sistema describe condiciones específicas que determinan si un recorrido o una campaña requiere aprobación. Estas políticas pueden variar en complejidad. Simplemente pueden requerir que todas las campañas sean revisadas por un usuario o equipo en particular, o establecer criterios basados en quién creó la campaña.
 
@@ -38,6 +38,11 @@ Puede segmentar las políticas de aprobación utilizando criterios flexibles com
 >id="ajo_permissions_approval_policy"
 >title="Nueva directiva de aprobación"
 >abstract="En esta pantalla, introduzca el nombre y seleccione el contexto para la política de aprobación y, a continuación, cree las condiciones para determinar quién puede iniciar la solicitud de aprobación y quién puede validarla."
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_self_approval"
+>title="Bloquear aprobación automática"
+>abstract="Active esta opción para evitar que los usuarios aprueben sus propias solicitudes de aprobación, incluso cuando pertenezcan a un grupo de usuarios o a una función que se haya designado como revisor."
 
 Para crear una política de aprobación, siga estos pasos:
 
