@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 9613586e576c9010917352b721b4b335418a4e40
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1070'
 ht-degree: 25%
 
 ---
@@ -101,7 +101,7 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 
 >[!NOTE]
 >
->Puede crear hasta 10 conjuntos de reglas locales activos para cada dominio de canal y para el dominio de recorrido.
+>Puede crear hasta 10 conjuntos de reglas para el dominio de canal y 10 conjuntos de reglas para el dominio de recorrido, con un total de 20 conjuntos de reglas.
 
 1. Acceda a la lista **[!UICONTROL Conjuntos de reglas]** y haga clic en **[!UICONTROL Crear conjunto de reglas]**.
 
@@ -180,4 +180,4 @@ Su estado cambiará a **[!UICONTROL Inactivo]** y la regla no se aplicará a fut
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444729?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
