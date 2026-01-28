@@ -5,10 +5,10 @@ title: Añadir una actividad de canal en una campaña de varios pasos
 description: Obtenga información sobre cómo añadir una actividad de canal en una campaña de varios pasos
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 40%
+source-wordcount: '1448'
+ht-degree: 38%
 
 ---
 
@@ -50,11 +50,11 @@ UNUSED IDs in BJ
 >title="Actividad de correo directo"
 >abstract="La actividad de correo directo facilita el envío de correo directo dentro de la campaña orquestada, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de generación del archivo de extracción requerido por los proveedores de correo directo. Puede combinar actividades de canal en el lienzo de la campaña orquestada para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
-[!DNL Adobe Journey Optimizer] le permite automatizar y ejecutar campañas de marketing en todos los canales: correo electrónico, SMS y notificaciones push. Puede combinar estas actividades de canal en el lienzo de campaña para crear campañas orquestadas en canales múltiples. Estas campañas pueden almacenar en déclencheur las acciones en función del comportamiento y los datos de los clientes.
+[!DNL Adobe Journey Optimizer] le permite automatizar y ejecutar campañas de marketing en todos los canales: correo electrónico, SMS, notificaciones push y correo directo. Puede combinar estas actividades de canal en el lienzo de campaña para crear campañas orquestadas en canales múltiples. Estas campañas pueden almacenar en déclencheur las acciones en función del comportamiento y los datos de los clientes.
 
 Por ejemplo:
 
-* Envíe una serie de bienvenida por correo electrónico, SMS y push.
+* Envíe una serie de bienvenida por correo electrónico, SMS, push y correo directo.
 * Envíe un correo electrónico de seguimiento después de la compra.
 * Envíe felicitaciones de cumpleaños personalizadas por SMS.
 
@@ -62,7 +62,7 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 
 >[!CAUTION]
 >
->En las campañas organizadas solo se admiten canales SMS, push y de correo electrónico.
+>En las campañas organizadas solo se admiten canales de SMS, push, de correo electrónico y de correo directo.
 
 ## Añadir una actividad de canal y definir sus propiedades {#add}
 
@@ -70,11 +70,11 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 >
 >Antes de agregar una actividad de canal, defina la audiencia de destinatario con una actividad [Generar audiencia](build-audience.md) o [Leer audiencia](read-audience.md).
 
-1. Añada una actividad de canal al lienzo. Las actividades de canal disponibles son **[!UICONTROL correo electrónico]**, **[!UICONTROL SMS]** y **[!UICONTROL push]**.
+1. Añada una actividad de canal al lienzo. Las actividades de canal disponibles son **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Push]** y **[!UICONTROL Correo directo]**.
 
    ![imagen que muestra el lienzo con las actividades disponibles](../assets/channel-add.png)
 
-1. Seleccione la actividad y haga clic en **[!UICONTROL Editar correo electrónico]**, **[!UICONTROL Editar SMS]** o **[!UICONTROL Editar push]**, según el canal elegido.
+1. Seleccione la actividad y haga clic en **[!UICONTROL Editar correo electrónico]**, **[!UICONTROL Editar SMS]**, **[!UICONTROL Editar push]** o **[!UICONTROL Editar correo postal]** según el canal elegido.
 
    ![imagen que muestra el lienzo con una actividad de correo electrónico](../assets/channel-edit.png)
 
@@ -132,7 +132,7 @@ Vaya a la pestaña **[!UICONTROL Contenido]** para crear el mensaje. Los pasos d
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="correo electrónico" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Creación de un correo electrónico</strong></a></td>
 <td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>Creación de un SMS</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Crear una notificación push</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Crear una notificación push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Correo directo" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Creación de un correo directo</strong></a></td>
 </tr></table>
 
 ### Adición de personalización

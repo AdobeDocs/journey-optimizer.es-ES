@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Los pasos principales para enviar mensajes de correo directo son los siguientes:
 
 >[!AVAILABILITY]
 >
->Los mensajes de correo directo solo se pueden crear en el contexto de campañas programadas. Estos no están disponibles para su uso en campañas orquestadas y activadas por API ni en recorridos.
+>Los mensajes de correo postal solo se pueden crear en el contexto de campañas programadas y orquestadas. No están disponibles para su uso en campañas activadas por API ni en recorridos.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
