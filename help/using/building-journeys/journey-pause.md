@@ -9,10 +9,10 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 0d016d45495c359e226dd1c30611b2c381ef29a4
 workflow-type: tm+mt
-source-wordcount: '2481'
-ht-degree: 6%
+source-wordcount: '2515'
+ht-degree: 5%
 
 ---
 
@@ -154,6 +154,7 @@ Tenga en cuenta que las exclusiones de perfiles para perfiles que se encuentran 
 ## Mecanismos de protección y limitaciones {#journey-pause-guardrails}
 
 * Una versión de recorrido se puede pausar por un máximo de **14 días**, con un máximo de **10 millones de perfiles** permitidos en recorridos pausados en toda la organización.
+Este límite cuenta el número total de perfiles retenidos en todos los recorridos pausados, no en perfiles distintos. Por ejemplo, si se mantienen los mismos perfiles de 5M en dos recorridos pausados, se alcanza el límite de 10M.
 Este límite se comprueba cada 30 minutos. Esto significa que puede superar temporalmente el umbral de 10 millones, pero una vez que el sistema lo detecte, los perfiles adicionales se descartarán automáticamente.
 
   Si reanuda los recorridos para volver a colocar el número de perfiles retenidos por debajo del límite, el recorrido se reanuda inmediatamente, pero el recuento de perfiles puede tardar hasta 30 minutos en actualizarse. Durante ese tiempo, el sistema puede seguir considerando esos perfiles como en pausa.
@@ -201,7 +202,7 @@ Cuando reanude este recorrido:
 
 ## Solución de problemas de descartes de perfiles en recorridos pausados {#discards-troubleshoot}
 
-Puede usar el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
+Puede usar el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
 
 * Para los descartes que se producen antes de que el perfil entre en la recorrido, utilice el siguiente código:
 
