@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3a9751fb7a95a761cb84fd1a00ea6bae9d32e37
+source-git-commit: 2dd468a97b8cb696d4ad7f1d0de2aceb15da29df
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 20%
@@ -35,7 +35,7 @@ Las secciones [Características](#jan-26-01-features) y [Mejoras](#jan-26-01-imp
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuevas funciones {#jan-26-01-features}
 
@@ -131,7 +131,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### IA
 
-* **Comprobaciones de calidad del contenido del Asistente de IA**: además de la alineación de marca, ahora puede evaluar la <strong>calidad del contenido</strong> en general para descubrir posibles problemas con la <strong>legibilidad</strong>, la coherencia y la eficacia, independientemente de las directrices de marca. Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. [Más información](../content-management/brands-score.md#validate-quality). [Descubra esta característica en vídeo](https://video.tv.adobe.com/v/3470549/?captions=spa&learn=on).
+* **Comprobaciones de calidad del contenido del Asistente de IA**: además de la alineación de marca, ahora puede evaluar la <strong>calidad del contenido</strong> en general para descubrir posibles problemas con la <strong>legibilidad</strong>, la coherencia y la eficacia, independientemente de las directrices de marca. Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. [Más información](../content-management/brands-score.md#validate-quality). [Descubra esta característica en vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -148,9 +148,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 * **Validación del tamaño de carga útil de Recorrido en recorrido**: Journey Optimizer ahora valida <strong>los tamaños de carga útil</strong> para ayudar a garantizar un rendimiento óptimo y la estabilidad del sistema. Al crear o publicar recorridos, recibe <strong>advertencias y errores</strong> si el tamaño de la carga útil se acerca o excede los límites recomendados, junto con instrucciones procesables para optimizar la configuración de la recorrido. Esta validación proactiva le ayuda a identificar problemas potenciales de forma temprana y a mantener el rendimiento del recorrido. [Más información](../start/guardrails.md#journey-payload-size)
 
 * **alertas de Recorrido** - Hay <strong>nuevas alertas preconfiguradas</strong> disponibles para los recorridos.
-   &#x200B;- <strong>Tasa de descartes de perfiles superada</strong>: proporción de descartes de perfiles respecto a los perfiles introducidos durante el umbral excedido de los últimos 5 minutos
-   &#x200B;- <strong>Tasa de errores de acción personalizada superada</strong> - Proporción de errores de acción personalizada respecto a llamadas HTTP correctas durante los últimos 5 minutos superados el umbral
-   &#x200B;- <strong>Tasa de error de perfil superada</strong>: proporción de perfiles en error respecto a los perfiles introducidos durante el umbral excedido de los últimos 5 minutos
+   * <strong>Tasa de descartes de perfiles superada</strong>: proporción de descartes de perfiles respecto a los perfiles introducidos durante el umbral excedido de los últimos 5 minutos
+   * <strong>Tasa de errores de acción personalizada superada</strong> - Proporción de errores de acción personalizada respecto a llamadas HTTP correctas durante los últimos 5 minutos superados el umbral
+   * <strong>Tasa de error de perfil superada</strong>: proporción de perfiles en error respecto a los perfiles introducidos durante el umbral excedido de los últimos 5 minutos
 
   Para obtener más información, consulte la [documentación detallada](../reports/alerts.md).
 
