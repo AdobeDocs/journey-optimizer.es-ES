@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: creación, correo electrónico, inicio, recorrido, campaña
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1075'
 ht-degree: 9%
 
 ---
@@ -163,6 +163,8 @@ Pueden producirse dos tipos de alertas:
 ## Compruebe y envíe su correo electrónico
 
 Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo, enviar pruebas y controlar su renderización en clientes populares de escritorio, móviles y web. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
+
+También puede validar la calidad del contenido para evaluar la legibilidad, la eficacia y la coherencia del contenido. [Más información acerca de la validación de calidad del contenido](../content-management/brands-score.md#validate-quality)
 
 >[!NOTE]
 >

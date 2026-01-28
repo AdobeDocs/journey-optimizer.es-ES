@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, diseño, accesibilidad
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1652'
 ht-degree: 1%
 
 ---
@@ -131,6 +131,8 @@ Para comprobar la accesibilidad del contenido, puede utilizar las funciones de p
 * Utilice la opción [Procesamiento de correo electrónico](../content-management/rendering.md) que aprovecha Litmus para simular los diseños en los principales clientes de correo electrónico (Apple Mail, Gmail, Outlook) y ver si el texto, los colores y las imágenes hacen que el contenido sea accesible. <!--Litmus includes accessibility testing-->
 
 * Envíe pruebas para probar la renderización del contenido antes de enviarlo a su audiencia real. [Descubra cómo](../content-management/proofs.md)
+
+* Valide la calidad del contenido para evaluar la legibilidad, la coherencia del contenido y la eficacia general. [Descubra cómo](../content-management/brands-score.md#validate-quality)
 
 ![](assets/accessible-simulate.png){width="90%"}
 

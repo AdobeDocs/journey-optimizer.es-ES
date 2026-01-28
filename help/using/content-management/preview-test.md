@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 100%
+source-wordcount: '519'
+ht-degree: 90%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 Una vez definido el contenido, puede obtener una vista previa del mismo antes de enviar el mensaje. Es un paso crucial para garantizar que sea preciso, pero también que no haya errores, tanto en la configuración del contenido como de la personalización.
 
-También puede realizar envíos de prueba de sus mensajes de correo electrónico a destinatarios o suscriptores específicos para realizar pruebas y validarlos, y comprobar cómo se representan en los clientes de escritorio, móviles y basados en web más conocidos.
+También puede enviar envíos de prueba de sus mensajes de correo electrónico a destinatarios o suscriptores específicos para realizar pruebas y validarlos, y comprobar su renderización en clientes populares de escritorio, móviles y basados en web. Además, puede evaluar aspectos generales de calidad del contenido, como la legibilidad y la eficacia. [Más información acerca de la validación de calidad del contenido](brands-score.md#validate-quality)
 
 Todas estas acciones se pueden realizar con el botón **[!UICONTROL Simular contenido]**, al que se puede acceder desde la pantalla de edición de contenido del mensaje, o desde el correo electrónico y los diseñadores web de los canales web y de correo electrónico.
 
@@ -68,4 +68,4 @@ Journey Optimizer proporciona dos experiencias para probar el contenido:
 
 Aprenda a utilizar perfiles de prueba para probar la representación de correo electrónico en varias bandejas de entrada, previsualizar los correos electrónicos personalizados con perfiles de prueba y enviar pruebas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430335?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
