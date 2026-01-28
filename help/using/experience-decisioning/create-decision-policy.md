@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 217c7d1aead043e1978c8e0dd40190f789368fd0
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1777'
 ht-degree: 7%
 
 ---
@@ -207,6 +207,10 @@ Puede seleccionar cualquier elemento de la lista, que muestra todos los elemento
 ## Revisar y guardar la directiva de decisión {#review}
 
 Después de configurar una estrategia de selección y agregar ofertas de reserva, haga clic en **[!UICONTROL Siguiente]** para revisar y guardar la directiva de decisión y, a continuación, haga clic en **[!UICONTROL Crear]** para confirmar la creación de la directiva.
+
+>[!IMPORTANT]
+>
+>Una vez creada la política de decisión, los cambios realizados en ella pueden tardar hasta 15 minutos en propagarse en todas las regiones de datos y hasta 30 minutos en el caso de Canadá. Esto incluye cambios como agregar un nuevo elemento de decisión a una colección, cambiar una regla de un elemento, cambiar el contenido de un elemento o actualizar una fórmula.
 
 Puede editar o eliminar una directiva de decisión en cualquier momento mediante el botón de puntos suspensivos del editor de personalización o en el menú **[!UICONTROL Decisioning]** del panel de propiedades del componente.
 
