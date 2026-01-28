@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: bc779f732b865d5c178141f0b660d5c75f95a237
+source-git-commit: e6aa361229f068c475732c715160b7c644189e51
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 10%
+source-wordcount: '745'
+ht-degree: 7%
 
 ---
 
@@ -23,15 +23,46 @@ Use la ficha **[!UICONTROL Programación]** para definir la programación de la 
 
 ## Establecer una fecha de inicio de campaña
 
-De forma predeterminada, las campañas de acción se inician una vez que se activan manualmente y finalizan en cuanto se envía el mensaje una vez.
+De forma predeterminada, las campañas de acción se inician una vez que se activan manualmente y finalizan en cuanto se envía el mensaje una vez. Si no desea ejecutar la campaña justo después de su activación, puede especificar una fecha y una hora a las que se debe enviar el mensaje en la sección **[!UICONTROL Inicio de campaña]**.
 
-Si no desea ejecutar la campaña justo después de su activación, puede especificar una fecha y una hora a las que se debe enviar el mensaje en la sección **[!UICONTROL Inicio de campaña]**.
+Al programar campañas en [!DNL Adobe Journey Optimizer], asegúrese de que la fecha y la hora de inicio se ajusten al primer envío deseado. En el caso de las campañas recurrentes, si ya ha pasado la hora programada inicial, las campañas se transferirán a la siguiente franja horaria disponible según sus reglas de periodicidad.
 
 ![](assets/campaign-start.png)
 
->[!NOTE]
+## Enviar a la hora local del destinatario {#profile-timezone}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_profile_timezone"
+>title="Usar zona horaria del perfil"
+>abstract="Envíe mensajes en función de la zona horaria de perfil de cada destinatario. Todos los destinatarios reciben el mensaje a la misma hora local, independientemente de su ubicación geográfica. El sistema utiliza el campo &quot;timeZone&quot; de los perfiles de Adobe Experience Platform, con la zona horaria del creador de la campaña como reserva."
+
+Al programar una campaña para una fecha y hora específicas, puede elegir enviar mensajes en función de la zona horaria del perfil de cada destinatario. Esto garantiza que todos los destinatarios reciban el mensaje a la misma hora local, independientemente de su ubicación geográfica.
+
+Por ejemplo, si programa una campaña para que se envíe a las 9 a. m. utilizando la zona horaria del perfil, los destinatarios de Nueva York (ET) la recibirán a las 9 a. m. ET, mientras que los destinatarios de Los Ángeles (PT) la recibirán a las 9 a. m. PT.
+
+>[!AVAILABILITY]
 >
->Al programar campañas en [!DNL Adobe Journey Optimizer], asegúrese de que la fecha y la hora de inicio se ajusten al primer envío deseado. En el caso de las campañas recurrentes, si ya ha pasado la hora programada inicial, las campañas se transferirán a la siguiente franja horaria disponible según sus reglas de periodicidad.
+>Esta función se encuentra en disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+>
+>La programación mediante zonas horarias de perfil solo está disponible para estos canales salientes: correo electrónico, push, SMS, WhatsApp y LINE.
+
+Para habilitar la programación de zona horaria de perfil:
+
+1. En la sección **[!UICONTROL Inicio de campaña]**, especifique la fecha y la hora en que se debe enviar el mensaje.
+
+1. Habilite la opción **[!UICONTROL Usar zona horaria del perfil]**.
+
+   ![](assets/campaign-profile-timezone.png)
+
+**Cómo funciona:**
+
+El sistema utiliza el campo `profile.timeZone` del perfil Adobe Experience Platform de cada destinatario para determinar su zona horaria local. Si un perfil no tiene un valor de zona horaria, el sistema utiliza la zona horaria en la que se creó la campaña como alternativa.
+
+La campaña permanece en estado **Activo** mientras los mensajes se envían a todas las zonas horarias. Una vez procesadas todas las zonas horarias, el estado de la campaña cambia a **Completada**.
+
+**Identificadores de zona horaria admitidos:**
+
+Journey Optimizer valida el valor `profile.timeZone` con los identificadores de zona horaria estándar de IANA. Los identificadores distinguen entre mayúsculas y minúsculas y deben coincidir con la nomenclatura oficial de IANA. Los desplazamientos pueden cambiar con el tiempo debido a las reglas del horario de verano y a las actualizaciones históricas. Consulte la [Base de datos de husos horarios de IANA](https://www.iana.org/time-zones){_blank} para obtener la lista oficial de identificadores.
 
 ## Establecer una frecuencia de ejecución
 
