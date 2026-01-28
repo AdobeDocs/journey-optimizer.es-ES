@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
+source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '272'
 ht-degree: 16%
 
 ---
@@ -26,6 +26,15 @@ La lista completa de [!DNL Journey Optimizer] protecciones y limitaciones está 
 | Solicitud de API de experiencia basada en código con política de decisión mediante la segmentación de Edge | 1500 |
 | Solicitud de API de experiencia basada en código con política de decisión que no utiliza la segmentación de Edge | 5000 |
 | Número máximo de URI de superficie por solicitud de toma de decisiones de Edge | 30 |
+
+## Elementos de decisión {#decision-items}
+
+| Barrera | Límite |
+| ------- | ------- |
+| Elementos de decisión totales | 10K |
+| Tamaño máximo de elementos incluidos atributos (1 KB), máximo de 30 atributos | 1KB |
+| Tamaño máximo de representación de elemento (total para todas las ubicaciones) | 1KB |
+| Reglas de frecuencia: número máximo de reglas de límite por oferta | 10 |
 
 ## Colecciones de elementos {#item-collections}
 
@@ -65,10 +74,8 @@ La lista completa de [!DNL Journey Optimizer] protecciones y limitaciones está 
 | Barrera | Límite |
 | ------- | ------- |
 | Número de atributos personalizados por esquema del catálogo de ofertas | 100 |
-| Total de elementos de oferta | 10K |
 | Ubicaciones totales | 1K |
 | Modelo de clasificación de IA | 5 |
-| Reglas de frecuencia: número máximo de reglas de límite por oferta | 10 |
 
 ## Configuraciones  {#configurations}
 
