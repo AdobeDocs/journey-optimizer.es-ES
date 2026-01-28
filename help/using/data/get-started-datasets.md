@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
+source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 78%
+source-wordcount: '889'
+ht-degree: 95%
 
 ---
 
@@ -19,26 +19,26 @@ ht-degree: 78%
 
 Todos los datos que se incorporan a Adobe Experience Platform se conservan dentro del lago de datos como conjuntos de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas).
 
-## Mecanismos de protección y limitaciones
+## Protecciones y limitaciones
 
-* A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admite eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios [!DNL Journey Optimizer]. Para implementar la restricción de frecuencia o la administración de fatiga, utilice reglas empresariales en su lugar. Puede encontrar más detalles en [esta sección](../conflict-prioritization/rule-sets.md), incluyendo una explicación de caso de uso para el límite diario [aquí](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=es){target="_blank"}.
+* A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admite eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios [!DNL Journey Optimizer]. Para implementar la restricción de frecuencia o la administración de fatiga, utilice reglas empresariales en su lugar. Puede encontrar más detalles en [esta sección](../conflict-prioritization/rule-sets.md), incluyendo una explicación de caso de uso para el límite diario [aquí](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 
-* A partir de febrero de 2025, se está implementando una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer. [Más información](datasets-ttl.md)
+* A partir de febrero de 2025, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer. [Más información](datasets-ttl.md)
 
 ## Acceso a conjuntos de datos {#access}
 
-El área de trabajo **Conjuntos de datos** en la interfaz de usuario [!DNL Adobe Journey Optimizer] le permite explorar datos y crear conjuntos de datos. Para abrir el panel Conjuntos de datos, seleccione **Conjuntos de datos** en el panel de navegación izquierdo.
+El espacio de trabajo **Conjuntos de datos** en la interfaz de usuario de [!DNL Adobe Journey Optimizer] le permite explorar datos y crear conjuntos de datos. Para abrir el panel de control Conjuntos de datos, seleccione **Conjuntos de datos** en el panel de navegación izquierdo.
 
 ![](assets/datasets-home.png)
 
-Seleccione la pestaña **Examinar** para mostrar la lista de todos los conjuntos de datos disponibles para su organización. Se muestran los detalles de cada conjunto de datos enumerado, incluido su nombre, el esquema al que se adhiere y el estado de la ejecución de la ingesta más reciente. De forma predeterminada, solo se muestran los conjuntos de datos que ha introducido. Si desea ver los conjuntos de datos generados por el sistema, habilite el conmutador **Mostrar conjuntos de datos del sistema** desde el filtro.
+Seleccione la pestaña **Examinar** para mostrar la lista de todos los conjuntos de datos disponibles para su organización. Se muestran los detalles de cada conjunto de datos enumerado, incluido su nombre, el esquema al que se adhiere el conjunto de datos y el estado de la ejecución de ingesta más reciente. De forma predeterminada, solo se muestran los conjuntos de datos que ha introducido. Si desea ver los conjuntos de datos generados por el sistema, habilite el conmutador **Mostrar conjuntos de datos del sistema** desde el filtro.
 
 ![](assets/ajo-system-datasets.png)
 
 
 Seleccione el nombre de un conjunto de datos para acceder a su pantalla de actividad de conjunto de datos y ver los detalles del conjunto de datos seleccionado. La pestaña actividad incluye un gráfico que visualiza la tasa de consumo de los mensajes, así como una lista de lotes correctos y fallidos.
 
-Para obtener una vista previa de un conjunto de datos, seleccione **Vista previa del conjunto de datos** cerca de la esquina superior derecha de la pantalla para obtener una vista previa del lote exitoso más reciente en este conjunto de datos. Cuando un conjunto de datos está vacío, el vínculo de previsualización se desactiva.
+Para previsualizar un conjunto de datos, seleccione **Previsualizar conjunto de datos** junto a la esquina superior derecha de la pantalla para obtener una vista previa del lote más reciente procesado correctamente en este conjunto de datos. Cuando un conjunto de datos está vacío, el vínculo de previsualización se desactiva.
 
 ![](assets/dataset-preview.png)
 
@@ -63,6 +63,10 @@ Esta sección enumera los conjuntos de datos del sistema utilizados por [!DNL Jo
 
   _Conjunto de datos del servicio de consentimiento_: almacena información de consentimiento de un perfil.
 
+* Exportación de mensajes
+
+  _Conjunto de datos de exportación de mensajes AJO_: almacena el contenido de los mensajes SMS y de correo electrónico enviados con fines de exportación. Los registros se conservan durante 7 días naturales a partir de la ingesta. Disponible solo para organizaciones que han adquirido el complemento Exportación de mensajes. [Más información](../configuration/message-export.md)
+
 * Servicios inteligentes
 
   _Puntuaciones de optimización del tiempo de envío/Puntuaciones de participación_: resultados de inteligencia artificial aplicada a la trayectoria.
@@ -79,7 +83,7 @@ Puede crear un conjunto de datos a partir de un esquema o un archivo CSV. Encont
 
 Obtenga información sobre cómo crear un conjunto de datos, asignarlo a un esquema, añadirle datos y confirmar que estos se han introducido.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416648?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Gobernanza de datos
 
@@ -93,9 +97,9 @@ Obtenga más información sobre la gobernanza de datos y etiquetas de uso de dat
 
 ## Ejemplos y casos de uso {#samples}
 
-* [Tutorial: Ingesta de datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=es){target="_blank"}
-* [Caso de uso de extremo a extremo](../audience/creating-test-profiles.md) - Cree un esquema, un conjunto de datos e ingiera datos para agregar perfiles de prueba en [!DNL Adobe Journey Optimizer]
-* [Ejemplos de consultas](../data/datasets-query-examples.md) - [!DNL Adobe Journey Optimizer] conjuntos de datos y casos de uso relacionados.
+* [Tutorial: Ingestar datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=es){target="_blank"}
+* [Caso de uso de extremo a extremo](../audience/creating-test-profiles.md): crear un esquema, un conjunto de datos e ingerir datos para añadir perfiles de prueba en [!DNL Adobe Journey Optimizer]
+* [Ejemplos de consultas](../data/datasets-query-examples.md): conjuntos de datos de [!DNL Adobe Journey Optimizer] y casos de uso relacionados.
 
 >[!MORELIKETHIS]
 >
