@@ -18,7 +18,7 @@ ht-degree: 1%
 
 A continuación se muestra una lista de artículos de solución de problemas para Adobe Journey Optimizer. Cada sección de solución de problemas proporciona respuestas a las preguntas más frecuentes y soluciones a los problemas.
 
-Consulte también [Preguntas frecuentes sobre Adobe Experience Platform y la documentación de solución de problemas](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting){target="_blank"}.
+Consulte también [Preguntas frecuentes sobre Adobe Experience Platform y la documentación de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-platform/landing/troubleshooting){target="_blank"}.
 
 ## Canal de correo electrónico {#ajo-troubleshooting-email}
 
@@ -149,7 +149,7 @@ Las dificultades para informar sobre el **canal en la aplicación** en Adobe Cus
 
 Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"} para obtener más información sobre este problema.
 
-Obtenga más información sobre cómo integrar datos de Journey Optimizer Analytics en Customer Journey Analytics [en esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}.
+Obtenga más información sobre cómo integrar datos de Journey Optimizer Analytics en Customer Journey Analytics [en esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}.
 
 Consulte también la [documentación de informes permanentes de Journey Optimizer](../reports/report-gs-cja.md)
 
@@ -191,7 +191,7 @@ Consulte [este artículo de solución de problemas](https://experienceleague.ado
 
 Obtenga más información acerca de la actividad **Actualizar perfil** en los recorridos [de esta página](../building-journeys/update-profiles.md).
 
-Consulte también la [documentación de Adobe Experience Platform sobre la Ingesta de datos](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}.
+Consulte también la [documentación de Adobe Experience Platform sobre la Ingesta de datos](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}.
 
 +++
 
@@ -201,9 +201,9 @@ La discrepancia puede producirse cuando el recorrido utiliza una instantánea de
 
 Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} para conocer los pasos que debe seguir para resolver este problema.
 
-Más información en [esta publicación de la comunidad de Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
+Más información en [esta publicación de la comunidad de Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=es){target="_blank"}.
 
-Consulte también la [Documentación de la API de horarios de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules){target="_blank"} para comprobar cuándo se ha programado su trabajo diario.
+Consulte también la [Documentación de la API de horarios de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/api/schedules){target="_blank"} para comprobar cuándo se ha programado su trabajo diario.
 
 +++
 
@@ -224,7 +224,7 @@ Consulte [este artículo de solución de problemas](https://experienceleague.ado
 
 Obtenga más información acerca de la actividad **Actualizar perfil** en los recorridos [de esta página](../building-journeys/update-profiles.md).
 
-Consulte también la [documentación del perfil de Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}.
+Consulte también la [documentación del perfil de Adobe Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}.
 
 +++
 
@@ -431,6 +431,6 @@ Los errores de acceso al usar la **API del servicio de consultas** a través de 
 
 Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"} para obtener más información.
 
-Consulte también la [Documentación de administración de credenciales de API](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}.
+Consulte también la [Documentación de administración de credenciales de API](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}.
 
 +++

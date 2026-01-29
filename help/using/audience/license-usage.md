@@ -25,7 +25,7 @@ Para acceder a este tablero, ve a **[!UICONTROL Administración]** > **[!UICONTR
 
 >[!NOTE]
 >
->* Para ver el tablero, debe tener el permiso [Ver tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}.
+>* Para ver el tablero, debe tener el permiso [Ver tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=es#available-permissions){target="_blank"}.
 >
 >* Ciertas métricas (por ejemplo, calcular horas y correos electrónicos) no se muestran para los entornos limitados de desarrollo, como indica `N/A` en la columna de cuota. En el panel solo se muestran valores no nulos: cuando las métricas son cero o están cerca de cero, no se rellenan.
 
@@ -79,7 +79,7 @@ Para solucionar este problema, siga estos pasos:
 
 2. **Investigue recorridos, campañas y toma de decisiones dirigidas a grandes audiencias:**
 
-   * Revise los recorridos y campañas recientes dirigidos a un gran número de perfiles mediante [Consultas de perfiles atractivas](../reports/query-examples.md#engageable-profiles-queries) o [Servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}.
+   * Revise los recorridos y campañas recientes dirigidos a un gran número de perfiles mediante [Consultas de perfiles atractivas](../reports/query-examples.md#engageable-profiles-queries) o [Servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/home){target="_blank"}.
    * Identifique las versiones de recorridos específicas que contribuyeron al pico en los recuentos de perfiles.
    * Es probable que los recorridos, las campañas y las decisiones que impliquen nuevos perfiles produzcan un aumento en el recuento de eventos en los conjuntos de datos de Recorrido, lo que contribuirá al aumento en el recuento de perfiles atractivos.
 
@@ -106,13 +106,13 @@ Para solucionar este problema, siga estos pasos:
 **Ver también:**
 
 * [Ejemplos de consultas de perfiles interactivos](../reports/query-examples.md#engageable-profiles-queries): consultas de muestra para supervisar y analizar sus perfiles interactivos
-* [Descripción general del servicio Adobe Experience Platform Query](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}
+* [Descripción general del servicio Adobe Experience Platform Query](https://experienceleague.adobe.com/es/docs/experience-platform/query/home){target="_blank"}
 
 ## Documentación relacionada {#related-documentation}
 
 Obtenga más información en la documentación de Adobe Experience Platform:
 
-* [Resumen del tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
-* [Explorando el tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [Resumen del tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es){target="_blank"}
+* [Explorando el tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es#exploring-the-license-usage-dashboard){target="_blank"}
 * [Métricas disponibles](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es#available-metrics){target="_blank"}
 * [Caducidad de datos de perfil seudónimo](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=es){target="_blank"}
