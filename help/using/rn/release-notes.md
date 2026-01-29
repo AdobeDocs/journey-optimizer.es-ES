@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: bae0f64607b31fa45bbdda899137244762e8f10e
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 21%
@@ -35,7 +35,7 @@ Las secciones [Características](#jan-26-01-features) y [Mejoras](#jan-26-01-imp
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuevas funciones {#jan-26-01-features}
 
@@ -158,7 +158,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### IA
 
-* **Comprobaciones de calidad del contenido del Asistente de IA**: además de la alineación de marca, ahora puede evaluar la <strong>calidad del contenido</strong> en general para descubrir posibles problemas con la <strong>legibilidad</strong>, la coherencia y la eficacia, independientemente de las directrices de marca. Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. [Más información](../content-management/brands-score.md#validate-quality). [Descubra esta característica en vídeo](https://video.tv.adobe.com/v/3470549/?captions=spa&learn=on).
+* **Comprobaciones de calidad del contenido del Asistente de IA**: además de la alineación de marca, ahora puede evaluar la <strong>calidad del contenido</strong> en general para descubrir posibles problemas con la <strong>legibilidad</strong>, la coherencia y la eficacia, independientemente de las directrices de marca. Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. [Más información](../content-management/brands-score.md#validate-quality). [Descubra esta característica en vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -278,7 +278,7 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <li>Compatibilidad con reversiones para migraciones completadas</li>
 <li>Informes de migración detallados con asignaciones de objetos</li>
 </ul>
-<p>Fecha de disponibilidad: viernes, 29 de enero de 2026</p>
+<p>Fecha de disponibilidad: sábado, 30 de enero de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -358,4 +358,4 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 
 * **Adjuntar fragmentos a elementos de decisión**: Journey Optimizer ahora proporciona la capacidad de adjuntar <strong>fragmentos</strong> a <strong>elementos de decisión</strong> que se pueden aprovechar en campañas de experiencia basadas en código mediante directivas de decisión.
 
-  Fecha de disponibilidad: 30 de enero de 2026.
+  Fecha de disponibilidad: 3 de febrero de 2026.
