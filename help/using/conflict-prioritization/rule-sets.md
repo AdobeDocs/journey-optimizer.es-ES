@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9613586e576c9010917352b721b4b335418a4e40
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1060'
 ht-degree: 25%
 
 ---
@@ -34,7 +34,7 @@ Puede crear dos tipos de conjuntos de reglas:
 * Los conjuntos de reglas del **canal** aplican reglas a los canales de comunicación. Permiten establecer lo siguiente:
 
    * **Reglas de límite de frecuencia** - *No envíe más de 1 comunicación por correo electrónico o SMS al día.*
-   * **Reglas de horario silencioso** (disponibilidad limitada) - *No envíe mensajes de correo electrónico fuera del horario de 8 a. m. a 9 p. m.*
+   * **Reglas de horas tranquilas** - *No envíe mensajes de correo electrónico fuera de la franja horaria de 8 a. m. a 9 p. m.*.
 
 * Los conjuntos de reglas **Recorrido** aplican reglas de límite de entrada y concurrencia a un recorrido. Por ejemplo, no introduzca perfiles en más de un recorrido simultáneamente.
 
@@ -80,7 +80,7 @@ Además de este conjunto de reglas &quot;Conjunto de reglas predeterminado globa
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Tipo de regla"
->abstract="Seleccione el tipo de regla deseado para el conjunto de reglas de canal: use el tipo **Límite de frecuencia** para aplicar reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día. Seleccione **Horas tranquilas** (disponibles en disponibilidad limitada) para definir las exclusiones basadas en el tiempo a fin de garantizar que no se envíen mensajes durante períodos de tiempo específicos."
+>abstract="Seleccione el tipo de regla deseado para el conjunto de reglas de canal: use el tipo **Límite de frecuencia** para aplicar reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día. Seleccione **Horas tranquilas** para definir las exclusiones basadas en el tiempo a fin de asegurarse de que no se envíen mensajes durante períodos de tiempo específicos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -124,7 +124,7 @@ Para crear un conjunto de reglas, siga los pasos a continuación.
 
    * [Límite de Recorrido](../conflict-prioritization/journey-capping.md)
    * [Restricción de frecuencia por canal y tipo de comunicación](../conflict-prioritization/channel-capping.md)
-   * [Horas tranquilas](../conflict-prioritization/quiet-hours.md) (disponibles con disponibilidad limitada)
+   * [Horario silencioso](../conflict-prioritization/quiet-hours.md)
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar la creación de la regla. Su mensaje se agrega al conjunto de reglas, con el estado **[!UICONTROL Borrador]**.
 
@@ -180,4 +180,4 @@ Su estado cambiará a **[!UICONTROL Inactivo]** y la regla no se aplicará a fut
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444729?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
