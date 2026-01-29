@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 16%
@@ -124,7 +124,7 @@ Los vínculos a las últimas 24 horas y todos los informes de tiempo están disp
 
 ## Mecanismos de protección y limitaciones {#journey-dry-run-limitations}
 
-* Los perfiles en el modo de ejecución en seco se contabilizan como perfiles atractivos
+* Los perfiles en modo de ejecución en seco se cuentan hacia [Perfiles atractivos](../audience/license-usage.md)
 * Los recorridos en el modo de ejecución en seco se cuentan hacia la cuota de recorrido en directo
 * Los recorridos de ejecución en seco no afectan a las reglas empresariales
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
@@ -149,4 +149,4 @@ Al analizar **métricas de informes de recorrido** mediante el servicio Adobe Ex
 
 Aprenda a secar los recorridos en este vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464685/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 22e1f08f434a3ceb4be6c539d4007178062cba9e
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 5%
+source-wordcount: '1246'
+ht-degree: 10%
 
 ---
 
@@ -25,9 +25,11 @@ Para poder acceder y crear páginas web en la interfaz de usuario de [!DNL Journ
 
 * Para habilitar los informes para el canal web, debe asegurarse de que el conjunto de datos utilizado en el conjunto de datos de implementación web también se incluya en la configuración de informes. [Más información](#experiment-prerequisites)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Al segmentar perfiles seudónimos (visitantes no autenticados) con sus páginas web, considere la posibilidad de establecer un tiempo de vida (TTL) para la eliminación automática de perfiles a fin de administrar el recuento de perfiles atractivos y los costes asociados. [Más información](../start/guardrails.md#profile-management-inbound)
+>* Las campañas web de [!DNL Journey Optimizer] se dirigen a nuevos perfiles que no han interactuado anteriormente en otros canales. Esto aumenta su recuento total de [Perfiles atractivos](../audience/license-usage.md), lo que puede tener implicaciones de costo si se supera el número contractual de Perfiles atractivos que compró. Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Puede comprobar el número de perfiles atractivos en [tablero de uso de licencias](../audience/license-usage.md).
+>
+>* Al segmentar perfiles seudónimos (visitantes no autenticados) con sus páginas web, considere la posibilidad de establecer un tiempo de vida (TTL) para la eliminación automática de perfiles a fin de administrar el recuento de perfiles atractivos y los costes asociados. [Más información](../start/guardrails.md#profile-management-inbound)
 
 ## Requisitos previos de implementación {#implementation-prerequisites}
 
@@ -37,15 +39,15 @@ Se admiten dos tipos de implementaciones para habilitar la creación y el envío
 
   >[!NOTE]
   >
-  >Compruebe que su [versión de Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/release-notes){target="_blank"} sea la 2.16 o superior.
+  >Compruebe que su [versión de Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"} sea la 2.16 o superior.
 
-* Modo híbrido: puede utilizar la [API de servidor de AEP Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es){target="_blank"} para solicitar la personalización del lado del servidor; la respuesta se proporciona al SDK web de Adobe Experience Platform para procesar las modificaciones del lado del cliente. Obtenga más información en la [Documentación de la API de Edge Network Server de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=es){target="_blank"}. Puede obtener más información sobre el modo híbrido y ver algunos ejemplos de implementación en [esta publicación de blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* Modo híbrido: puede utilizar la [API de servidor de AEP Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es){target="_blank"} para solicitar la personalización del lado del servidor; la respuesta se proporciona al SDK web de Adobe Experience Platform para procesar las modificaciones del lado del cliente. Obtenga más información en la [Documentación de la API de Edge Network Server de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}. Puede obtener más información sobre el modo híbrido y ver algunos ejemplos de implementación en [esta publicación de blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
 >[!NOTE]
 >
 >Actualmente, la implementación solo del lado del servidor no es compatible con el canal Web. Si solo tiene una implementación del lado del servidor para sus páginas web, puede usar el [canal de experiencia basado en código](../code-based/get-started-code-based.md) en su lugar.
 
-<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"}.-->
+<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
 ## Requisitos previos para la creación visual {#visual-authoring-prerequisites}
 
@@ -74,7 +76,7 @@ Para descargar e instalar la extensión del explorador Ayuda de edición visual,
 
 1. Busque y navegue hasta la extensión de explorador [Ayuda de edición visual de Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}.
 
-1. Haga clic en **[!UICONTROL Agregar a Chrome]** > **[!UICONTROL Agregar extensión]**.
+1. Haga clic en **[!UICONTROL Añadir a Chrome]** > **[!UICONTROL Añadir extensión]**.
 
    >[!NOTE]
    >
@@ -92,9 +94,9 @@ La extensión no tiene ninguna configuración condicional y administra todas las
 >
 >Es posible que algunos sitios web no se abran de forma fiable en el diseñador web [!DNL Journey Optimizer] por uno de los siguientes motivos:
 >
-> * El sitio web tiene estrictas políticas de seguridad.
+> * El sitio web tiene normas estrictas de seguridad.
 > * El sitio web se encuentra en un iframe.
-> * El control de calidad o el sitio del cliente no están disponibles para el mundo exterior (el sitio es interno).
+> * El control de calidad o la fase del cliente no están disponibles para el mundo exterior (el sitio es interno).
 
 ### Solucionar problemas de sitio web que no se carga {#troubleshooting}
 
@@ -116,11 +118,11 @@ Para que la experiencia web se entregue correctamente, se debe definir la siguie
 
 * En la [recopilación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es){target="_blank"}, asegúrese de que tiene un conjunto de datos definido como en el servicio **[!UICONTROL Adobe Experience Platform]** para el que tiene habilitada la opción **[!UICONTROL Adobe Journey Optimizer]**.
 
-  Esto garantiza que Adobe Experience Platform Edge gestione correctamente los eventos entrantes de Journey Optimizer. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=es){target="_blank"}
+  Esto garantiza que Adobe Experience Platform Edge gestione correctamente los eventos entrantes de Journey Optimizer. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](assets/web-aep-datastream-ajo.png)
 
-* En [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}, asegúrese de tener habilitada una política de combinación con la opción **[!UICONTROL Política de combinación activa en Edge]**. Para ello, seleccione una directiva en el menú de Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Perfiles]** > **[!UICONTROL Políticas de combinación]**. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es#configure){target="_blank"}
+* En [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}, asegúrese de tener habilitada una política de combinación con la opción **[!UICONTROL Política de combinación activa en Edge]**. Para ello, seleccione una directiva en el menú de Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Perfiles]** > **[!UICONTROL Políticas de combinación]**. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   [!DNL Journey Optimizer] canales entrantes utilizan esta política de combinación para activar y publicar correctamente campañas entrantes en el perímetro de. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es){target="_blank"}
 
@@ -134,7 +136,7 @@ Para que la experiencia web se entregue correctamente, se debe definir la siguie
 
 ## Requisitos previos de informes {#experiment-prerequisites}
 
-Para habilitar la creación de informes para el canal web, debe asegurarse de que el [conjunto de datos](../data/get-started-datasets.md) utilizado en la implementación web [secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=es){target="_blank"} también esté incluido en la configuración de la creación de informes.
+Para habilitar la creación de informes para el canal web, debe asegurarse de que el [conjunto de datos](../data/get-started-datasets.md) utilizado en la implementación web [secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} también esté incluido en la configuración de la creación de informes.
 
 Es decir, al configurar los informes, si agrega un conjunto de datos que no está presente en el conjunto de datos web, estos no se mostrarán en los informes.
 
@@ -144,7 +146,7 @@ Aprenda a agregar conjuntos de datos para informes en [esta sección](../reports
 >
 >El sistema de informes [!DNL Journey Optimizer] utiliza el conjunto de datos como de solo lectura y no afecta a la recopilación ni al consumo de datos.
 
-Si **no** usa los siguientes [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"} predefinidos para el esquema del conjunto de datos: `AEP Web SDK ExperienceEvent` y `Consumer Experience Event` (según se definen en [esta página](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=es#add-field-groups){target="_blank"}), asegúrese de agregar los siguientes grupos de campos: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` y `Web Details`. Los necesita el sistema de informes [!DNL Journey Optimizer], ya que rastrean en qué campañas y recorridos participa cada perfil.
+Si **no** usa los siguientes [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"} predefinidos para el esquema del conjunto de datos: `AEP Web SDK ExperienceEvent` y `Consumer Experience Event` (según se definen en [esta página](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), asegúrese de agregar los siguientes grupos de campos: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` y `Web Details`. Los necesita el sistema de informes [!DNL Journey Optimizer], ya que rastrean en qué campañas y recorridos participa cada perfil.
 
 [Más información sobre la configuración de informes](../reports/reporting-configuration.md)
 

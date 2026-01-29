@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4e90aa9a71ab8999d4ac03eac50aad93af48302c
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
-source-wordcount: '3908'
-ht-degree: 92%
+source-wordcount: '3977'
+ht-degree: 91%
 
 ---
 
@@ -97,6 +97,10 @@ Las siguientes limitaciones se aplican a la actividad [canal de SMS](../sms/get-
 * Para que Adobe Journey Optimizer muestre correctamente las tarjetas de contenido, debe establecer la configuración de Adobe Experience Platform que aparece en [esta página](../content-card/content-card-configuration-prereq.md).
 
 * Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido entrantes por segundo. Este mecanismo de protección se aplica a todas las solicitudes entrantes, que pueden proceder de cualquiera de los canales entrantes admitidos por Journey Optimizer ([web](../web/get-started-web.md), [en la aplicación](../in-app/get-started-in-app.md), [experiencias basadas en código](../code-based/get-started-code-based.md), [tarjetas de contenido](../../rp_landing_pages/content-card-landing-page.md)).
+
+  Los canales de entrada de Journey Optimizer se dirigen a nuevos perfiles que quizá no hayan interactuado antes en otros canales. Esto aumentará su recuento total de [Perfiles atractivos](../audience/license-usage.md), lo que puede tener implicaciones de costo si se supera el número contractual de Perfiles atractivos que compró.
+
+  Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Puede comprobar el número de perfiles atractivos en [tablero de uso de licencias](../audience/license-usage.md).
 
 * Journey Optimizer admite un máximo de 500 acciones entrantes activas en cualquier momento. Estas acciones de entrada se cuentan si forman parte de una campaña activa o si son un nodo usado en un recorrido activo. Una vez alcanzado este número, debe desactivar las campañas o recorridos más antiguos que utilicen acciones entrantes antes de poder iniciar nuevas.
 

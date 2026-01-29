@@ -7,18 +7,18 @@ feature: Get Started, Monitoring
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: c9fd0aeda42f8833a542ecafae8c60aaebde4ef0
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
-source-wordcount: '2942'
+source-wordcount: '2945'
 ht-degree: 1%
 
 ---
 
-# Preguntas frecuentes sobre resolución de problemas {#ajo-troubleshooting}
+# Preguntas frecuentes sobre solución de problemas {#ajo-troubleshooting}
 
 A continuación se muestra una lista de artículos de solución de problemas para Adobe Journey Optimizer. Cada sección de solución de problemas proporciona respuestas a las preguntas más frecuentes y soluciones a los problemas.
 
-Consulte también [Preguntas frecuentes sobre Adobe Experience Platform y la documentación de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-platform/landing/troubleshooting){target="_blank"}.
+Consulte también [Preguntas frecuentes sobre Adobe Experience Platform y la documentación de solución de problemas](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting){target="_blank"}.
 
 ## Canal de correo electrónico {#ajo-troubleshooting-email}
 
@@ -149,7 +149,7 @@ Las dificultades para informar sobre el **canal en la aplicación** en Adobe Cus
 
 Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"} para obtener más información sobre este problema.
 
-Obtenga más información sobre cómo integrar datos de Journey Optimizer Analytics en Customer Journey Analytics [en esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}.
+Obtenga más información sobre cómo integrar datos de Journey Optimizer Analytics en Customer Journey Analytics [en esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}.
 
 Consulte también la [documentación de informes permanentes de Journey Optimizer](../reports/report-gs-cja.md)
 
@@ -191,7 +191,7 @@ Consulte [este artículo de solución de problemas](https://experienceleague.ado
 
 Obtenga más información acerca de la actividad **Actualizar perfil** en los recorridos [de esta página](../building-journeys/update-profiles.md).
 
-Consulte también la [documentación de Adobe Experience Platform sobre la Ingesta de datos](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}.
+Consulte también la [documentación de Adobe Experience Platform sobre la Ingesta de datos](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}.
 
 +++
 
@@ -201,9 +201,9 @@ La discrepancia puede producirse cuando el recorrido utiliza una instantánea de
 
 Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} para conocer los pasos que debe seguir para resolver este problema.
 
-Más información en [esta publicación de la comunidad de Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=es){target="_blank"}.
+Más información en [esta publicación de la comunidad de Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
-Consulte también la [Documentación de la API de horarios de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/api/schedules){target="_blank"} para comprobar cuándo se ha programado su trabajo diario.
+Consulte también la [Documentación de la API de horarios de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules){target="_blank"} para comprobar cuándo se ha programado su trabajo diario.
 
 +++
 
@@ -224,19 +224,17 @@ Consulte [este artículo de solución de problemas](https://experienceleague.ado
 
 Obtenga más información acerca de la actividad **Actualizar perfil** en los recorridos [de esta página](../building-journeys/update-profiles.md).
 
-Consulte también la [documentación del perfil de Adobe Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}.
+Consulte también la [documentación del perfil de Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}.
 
 +++
 
 +++ ¿Por qué el recuento de Perfiles atractivos ha aumentado significativamente en un corto periodo? 
 
-La métrica **Perfiles atractivos** refleja la cantidad de perfiles únicos involucrados por recorridos o campañas en los últimos 12 meses. Un aumento repentino puede deberse a audiencias grandes que se están segmentando o a cambios en los conjuntos de datos. Para administrar esto, revise la **lógica de recuento de perfiles**, investigue los recorridos dirigidos a audiencias grandes, **filtre audiencias** a nivel de recorrido, reduzca el **tamaño de audiencia direccionable** y supervise **cambios en el conjunto de datos**.
+La métrica **Perfiles atractivos** refleja la cantidad de perfiles únicos involucrados por recorridos o campañas en los últimos 12 meses. Un aumento repentino puede deberse a recorridos o campañas dirigidas a grandes audiencias que no se han involucrado recientemente o a cambios en conjuntos de datos habilitados para el servicio de perfil.
 
-Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-26161){target="_blank"} para conocer los pasos que debe seguir para resolver este problema.
+Para investigar y resolver este problema, debe comprender la lógica de recuento de perfiles, investigar los recorridos y campañas dirigidos a audiencias grandes, filtrar audiencias apropiadamente, monitorizar los cambios en los conjuntos de datos y reducir potencialmente el tamaño de la audiencia a la que se puede dirigir.
 
-Controle el uso de licencias de su organización y los perfiles atractivos mediante [Tablero de uso de licencias](../audience/license-usage.md)
-
-Consulte también la [descripción general del servicio Adobe Experience Platform Query](https://experienceleague.adobe.com/es/docs/experience-platform/query/home){target="_blank"}.
+Aprenda a solucionar problemas y resolver los incrementos de perfiles atractivos, y a monitorizar el uso de licencias de su organización en la [documentación del tablero de uso de licencias](../audience/license-usage.md#troubleshooting-engageable-profiles).
 
 +++
 
@@ -433,6 +431,6 @@ Los errores de acceso al usar la **API del servicio de consultas** a través de 
 
 Consulte [este artículo de solución de problemas](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"} para obtener más información.
 
-Consulte también la [Documentación de administración de credenciales de API](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}.
+Consulte también la [Documentación de administración de credenciales de API](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}.
 
 +++
