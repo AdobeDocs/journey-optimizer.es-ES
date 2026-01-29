@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 598164d4b78b21d4a17038a364b15253fdcf55ef
+source-git-commit: 50dbebcd16631f5df624c962af1a84da0846f53d
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 21%
+source-wordcount: '1849'
+ht-degree: 22%
 
 ---
 
@@ -29,13 +29,13 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 
 ## Notas de la versión de enero de 2026 {#latest-rn}
 
-**Fecha de la versión**: 27 y 28 de enero de 2026
+<!--**Release date**: January 27-28, 2026-->
 
 Las secciones [Características](#jan-26-01-features) y [Mejoras](#jan-26-01-improv) cubren funcionalidades ya disponibles, mientras que [Próximamente](#jan-26-01-coming-soon) enumera elementos programados para una fecha de disponibilidad posterior.
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuevas funciones {#jan-26-01-features}
 
@@ -58,6 +58,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>Esta funcionalidad solo está disponible para el canal de correo electrónico y SMS, para organizaciones que han adquirido la oferta del complemento Exportación de mensajes. Para obtener más información, contacte con su representante de Adobe.</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
 <p>Para obtener más información, consulte la <a href="../configuration/message-export.md#message-export">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: jueves, 28 de enero de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -76,6 +77,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>Esta capacidad, que se lanzó anteriormente en beta, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Para obtener más información, consulte la <a href="../push/push-configuration-web.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: jueves, 28 de enero de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -93,6 +95,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>El canal de correo postal ya está disponible en campañas orquestadas. La <strong>actividad de correo directo</strong> facilita el envío de correo directo dentro de su campaña orquestada, tanto para mensajes recurrentes como únicos. Sirve para automatizar el proceso de generación del <strong>archivo de extracción</strong> requerido por los proveedores de correo postal. Puede combinar actividades de canal en el lienzo de la campaña orquestada para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente.</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
 <p>Para obtener más información, consulte la <a href="../orchestrated/activities/channels.md#channel">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: jueves, 28 de enero de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -155,7 +158,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### IA
 
-* **Comprobaciones de calidad del contenido del Asistente de IA**: además de la alineación de marca, ahora puede evaluar la <strong>calidad del contenido</strong> en general para descubrir posibles problemas con la <strong>legibilidad</strong>, la coherencia y la eficacia, independientemente de las directrices de marca. Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. [Más información](../content-management/brands-score.md#validate-quality). [Descubra esta característica en vídeo](https://video.tv.adobe.com/v/3470549/?captions=spa&learn=on).
+* **Comprobaciones de calidad del contenido del Asistente de IA**: además de la alineación de marca, ahora puede evaluar la <strong>calidad del contenido</strong> en general para descubrir posibles problemas con la <strong>legibilidad</strong>, la coherencia y la eficacia, independientemente de las directrices de marca. Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. [Más información](../content-management/brands-score.md#validate-quality). [Descubra esta característica en vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -163,9 +166,16 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Combinar acciones de mensajes nativas y de Adobe Campaign**: Journey Optimizer ahora le permite combinar <strong>acciones de mensajes de Adobe Campaign v7/v8</strong> con <strong>acciones de canales nativos</strong> en el mismo recorrido. [Más información](../building-journeys/using-adobe-campaign-v7-v8.md)
 
+  Fecha de disponibilidad: 27 de enero de 2026.
+
 * **Carga de respuesta de error de acción personalizada**: ahora puede definir una <strong>carga de respuesta de error opcional</strong> para las acciones personalizadas. Cuando falla una llamada, la carga del error se expone en el contexto de recorrido (bajo el nodo errorResponse de la acción) y está disponible en la <strong>rama de tiempo de espera/error</strong>, junto con `jo_status_code`, para admitir una lógica de reserva y una depuración más completas. [Más información](../action/action-response.md)
 
+  Fecha de disponibilidad: 27 de enero de 2026.
+
 * **Validación del tamaño de carga útil de Recorrido en recorrido**: Journey Optimizer ahora valida <strong>los tamaños de carga útil</strong> para ayudar a garantizar un rendimiento óptimo y la estabilidad del sistema. Al crear o publicar recorridos, recibe <strong>advertencias y errores</strong> si el tamaño de la carga útil se acerca o excede los límites recomendados, junto con instrucciones procesables para optimizar la configuración de la recorrido. Esta validación proactiva le ayuda a identificar problemas potenciales de forma temprana y a mantener el rendimiento del recorrido. [Más información](../start/guardrails.md#journey-payload-size)
+
+  Fecha de disponibilidad: 27 de enero de 2026.
+
 
 * **alertas de Recorrido** - Hay <strong>nuevas alertas preconfiguradas</strong> disponibles para los recorridos.
    * <strong>Tasa de descartes de perfiles superada</strong>: proporción de descartes de perfiles respecto a los perfiles introducidos durante el umbral excedido de los últimos 5 minutos
@@ -194,15 +204,21 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Compatibilidad con metadatos generados por el usuario**: la función <strong>executionMetadata helper</strong> ya está disponible en el editor de personalización para campañas orquestadas, lo que le permite adjuntar información contextual a cualquier acción nativa y almacenarla en un conjunto de datos para exportarla a sistemas externos. [Más información](../personalization/functions/helpers.md#execution-metadata)
 
+  Fecha de disponibilidad: 27 de enero de 2026.
+
 #### Campañas
 
 * **Programar campaña usando la zona horaria del perfil**. La programación de campañas ahora puede usar la <strong>zona horaria</strong> de cada perfil para enviar mensajes a la hora local prevista. [Más información](../campaigns/campaign-schedule.md)
 
-  **Nota**: esta mejora solo estará disponible para un conjunto de organizaciones (disponibilidad limitada).
+  **Nota**: esta mejora solo está disponible para un conjunto de organizaciones (disponibilidad limitada).
+
+  Fecha de disponibilidad: 27 de enero de 2026.
 
 #### Permisos
 
 * **Impedir la autoaprobación para recorridos y campañas** - Se agregó una opción al crear o establecer <strong>Directiva de aprobación</strong> para evitar que los creadores de recorridos o campañas <strong>aprueben sus propios objetos</strong>. [Más información](../test-approve/approval-policies.md)
+
+  Fecha de disponibilidad: 27 de enero de 2026.
 
 ## Próximamente {#jan-26-01-coming-soon}
 
@@ -220,7 +236,7 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <tr>
 <td>
 <p>Anteriormente limitado a Campañas, el canal <strong>Correo directo</strong> ya está disponible en el lienzo del recorrido, lo que le permite incorporar el Correo directo en los recorridos. Ahora se puede usar el correo postal en <strong>escenarios de recorrido por lotes y 1:1</strong>, con compatibilidad con la configuración de extracción de archivos y la configuración de frecuencia basada en el tiempo.</p>
-<p>Publicada anteriormente en disponibilidad limitada, esta funcionalidad estará disponible para todos los entornos (disponibilidad general).</p>
+<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Fecha de disponibilidad: jueves, 28 de enero de 2026</p>
 </td>
 </tr>
