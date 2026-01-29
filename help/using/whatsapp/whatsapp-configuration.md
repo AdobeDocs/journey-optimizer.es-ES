@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: bd0f1f6b63616bcef4cfc50706e42612e0a04e89
+source-git-commit: 8b042e4750dd7f7d841717f648afe120d0bdfc4a
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 13%
+source-wordcount: '1130'
+ht-degree: 12%
 
 ---
 
@@ -84,7 +84,13 @@ Después de crear y configurar sus credenciales de API, ahora debe crear su webh
 >
 >Sin las palabras clave de inclusión u exclusión especificadas, no se habilitan los mensajes de consentimiento estándar.
 
-Una vez que las credenciales de la API de WhatsApp se hayan creado correctamente, ahora puede configurar los Webhooks para capturar las respuestas entrantes para administrar el consentimiento de inclusión y exclusión, y para recibir informes de entrega, incluidas las confirmaciones de lectura, cuando estén disponibles.
+Una vez que tus credenciales de la API de WhatsApp se hayan creado correctamente, ahora puedes configurar Webhooks para:
+
+* **Capturar respuestas entrantes** para administrar el consentimiento de inclusión y exclusión
+* **Recibir informes de envío**, como confirmaciones de lectura (cuando están disponibles) y el estado de envío del mensaje
+* **Habilitar eventos de seguimiento** para análisis e informes en conjuntos de datos de Adobe Experience Platform
+
+Los webhooks actúan como el puente de comunicación entre WhatsApp Business Platform y Adobe Journey Optimizer de Meta, lo que le permite recibir notificaciones en tiempo real sobre eventos de mensajes e interacciones de usuarios.
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** `>` **[!UICONTROL Canales]**, seleccione el menú **[!UICONTROL Webhooks de WhatsApp]** en **[!UICONTROL Configuración de WhatsApp]** y haga clic en el botón **[!UICONTROL Crear webhook]**.
 
@@ -101,6 +107,7 @@ Una vez que las credenciales de la API de WhatsApp se hayan creado correctamente
    * **[!UICONTROL Palabras clave de inclusión]**
    * **[!UICONTROL Palabras clave de exclusión]**
    * **[!UICONTROL Palabras clave de ayuda]**
+   * **[!UICONTROL Predeterminado]** - Categoría de reserva para todos los mensajes entrantes que no coincidan con otras palabras clave. Utilice esta categoría para habilitar el seguimiento de eventos (aperturas, informes de envío) en conjuntos de datos de Adobe Experience Platform.
 
 1. Escriba sus **[!UICONTROL palabras clave]** y haga clic en ![agregar](assets/do-not-localize/Smock_AddCircle_18_N.svg).
 
@@ -203,6 +210,6 @@ El siguiente vídeo muestra cómo configurar el canal de WhatsApp en Adobe Journ
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470271/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
