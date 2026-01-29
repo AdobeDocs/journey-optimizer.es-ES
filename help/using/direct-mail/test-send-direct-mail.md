@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 7%
+source-wordcount: '457'
+ht-degree: 8%
 
 ---
 
@@ -34,7 +34,7 @@ Una vez que el contenido del archivo esté listo para enviarse, cierre la pantal
 >
 > Si la campaña está sujeta a una directiva de aprobación, debe solicitar la aprobación para poder enviar la campaña de correo postal. [Más información](../test-approve/gs-approval.md)
 
-Antes de activar la campaña de correo postal, asegúrese de que la campaña y el archivo de extracción estén correctamente configurados. Para ello, compruebe las alertas en la sección superior del editor. Algunas son simples advertencias, pero otras pueden impedir que envíe el mensaje. Pueden producirse dos tipos de alertas: advertencias y errores.
+Antes de activar la campaña de correo postal, asegúrese de que la campaña o el recorrido y el archivo de extracción estén correctamente configurados. Para ello, compruebe las alertas en la sección superior del editor. Algunas son simples advertencias, pero otras pueden impedir que envíe el mensaje. Pueden producirse dos tipos de alertas: advertencias y errores.
 
 * **Advertencias** se refieren a recomendaciones y prácticas recomendadas. Por ejemplo, se muestra un mensaje de advertencia si el mensaje SMS está vacío.
 
@@ -42,14 +42,15 @@ Antes de activar la campaña de correo postal, asegúrese de que la campaña y e
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-Cuando la campaña de correo postal esté lista, haga clic en el botón **[!UICONTROL Activar]**. Cuando se inicia la campaña, el archivo de extracción se genera automáticamente y se exporta al servidor especificado en la [configuración de enrutamiento de archivos](../direct-mail/direct-mail-configuration.md).
+Cuando tu campaña de correo postal esté lista, completa la configuración de tu [recorrido](../building-journeys/journey-gs.md) o [campaña](../campaigns/create-campaign.md) para enviarla.
 
 >[!NOTE]
 >
 >El archivo exportado finaliza con una nueva línea de forma predeterminada. Esto garantiza la compatibilidad con las herramientas de procesamiento de datos estándar.
 
-
-Una vez enviada, puede medir el impacto de la campaña de correo postal dentro de los informes de campaña. Para obtener más información sobre los informes de correo postal, consulte [esta sección](../reports/campaign-global-report-cja-direct.md).
+Una vez enviado, puede medir el impacto de su campaña de correo postal o su recorrido dentro de los informes. Para obtener más información sobre los informes de correo postal, consulte estas secciones:
+* [Informe de campaña de correo directo](../reports/campaign-global-report-cja-direct.md)
+* [Informe de recorrido de correo directo](../reports/journey-global-report-cja-direct.md)
 
 ## Administración del consentimiento para correo postal {#dm-consent-management}
 

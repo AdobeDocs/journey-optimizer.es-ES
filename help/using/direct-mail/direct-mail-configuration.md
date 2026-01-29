@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b85210a46c928389db985f0f794618209773c071
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 18%
+source-wordcount: '1708'
+ht-degree: 21%
 
 ---
 
@@ -60,6 +60,11 @@ Antes de poder generar este archivo, debe crear lo siguiente:
 >id="ajo_dm_file_routing_aws_region"
 >title="Elegir la región de AWS"
 >abstract="Seleccione la región geográfica del servidor de AWS donde desea exportar los archivos de correo directo. Como práctica general, se prefiere elegir la región más cercana a la ubicación del proveedor de correo directo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_dm_file_routing_frequency"
+>title="Elegir la región de AWS"
+>abstract="Si la configuración de enrutamiento de su archivo se va a enviar mediante recorridos, puede especificar la frecuencia con la que se enviará el archivo al servidor."
 
 >[!NOTE]
 >
@@ -149,11 +154,15 @@ Si seleccionó **[!UICONTROL Zona de aterrizaje de datos]** como **[!UICONTROL t
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información acerca de la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información acerca de la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
 Para cifrar el archivo, copie y pegue la clave de cifrado en el campo **[!UICONTROL Clave de cifrado PGP/GPG]**.
+
+Si la configuración de enrutamiento de su archivo se va a enviar mediante recorridos, puede especificar la frecuencia con la que se enviará el archivo al servidor.
+
+![](assets/file-routing-journey.png)
 
 Una vez que hayas completado los detalles del tipo de servidor, selecciona **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se creó con el estado **[!UICONTROL Activo]**. Ahora está listo para usarse en una [configuración de correo directo](#direct-mail-surface).
 
@@ -185,7 +194,7 @@ Si utiliza SFTP con autenticación de clave SSH, debe tener una clave privada Op
 >
 >Después de la codificación Base64, la clave ya no contendrá los marcadores `-----BEGIN/END RSA PRIVATE KEY-----` y no debe incluir saltos de línea. La clave pública correspondiente debe añadirse al archivo de claves autorizadas del servidor SFTP.
 
-Para obtener más información sobre cómo conectar tu cuenta SFTP a Experience Platform, consulta [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+Para obtener más información sobre cómo conectar tu cuenta SFTP a Experience Platform, consulta [esta documentación](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 
 +++
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: ef109382448b013398b83714b0f5e85f428ffadd
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 19%
+source-wordcount: '972'
+ht-degree: 15%
 
 ---
 
@@ -19,9 +19,14 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="Creación de correo directo"
->abstract="Cree mensajes de correo directo en campañas programadas y diseñe los archivos de extracción necesarios para que los proveedores de correo directo envíen correos a sus clientes."
+>abstract="Cree mensajes de correo directo en campañas y recorridos programados y diseñe los archivos de extracción que necesitan los proveedores de correo directo para enviar correo a sus clientes."
 
-Para crear mensajes de correo postal, cree una campaña programada y configure el archivo de extracción. Los proveedores de correo postal requieren este archivo para enviar correo a sus clientes.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_direct_mail"
+>title="Actividad Finalizar"
+>abstract="El correo directo es un canal sin conexión que le permite personalizar y generar los archivos de extracción necesarios para que los proveedores de correo postal de terceros envíen correo a sus clientes."
+
+Para crear mensajes de correo postal, cree una campaña programada o un recorrido y configure el archivo de extracción. Los proveedores de correo postal requieren este archivo para enviar correo a sus clientes.
 
 >[!IMPORTANT]
 >
@@ -30,17 +35,39 @@ Para crear mensajes de correo postal, cree una campaña programada y configure e
 >1. Una [configuración de enrutamiento de archivos](../direct-mail/direct-mail-configuration.md#file-routing-configuration) que especifica el servidor donde se debe cargar y almacenar el archivo de extracción,
 >1. Una [configuración de mensaje de correo postal](../direct-mail/direct-mail-configuration.md#direct-mail-surface) que hará referencia a la configuración de enrutamiento de archivos.
 
-## Creación de una campaña de correo directo{#create-dm-campaign}
+## Añadir un mensaje de correo directo {#create-dm-campaign}
 
-Para crear una campaña de correo postal, debe configurar una campaña programada, seleccionar la audiencia de destino y configurar los ajustes de correo postal, incluida la configuración del mensaje. Siga estos pasos:
+Examine las pestañas siguientes para aprender a añadir un mensaje de correo postal en una campaña o un recorrido.
+
+>[!BEGINTABS]
+
+>[!TAB Agregar un mensaje de correo postal a un Recorrido]
+
+1. Abra el recorrido y arrastre y suelte una actividad **[!UICONTROL Correo postal]** desde la sección **Acciones** de la paleta.
+
+1. Proporcione información básica sobre el mensaje (etiqueta, descripción, categoría) y, a continuación, elija la configuración de mensaje que desea utilizar. El campo **[!UICONTROL configuration]** está rellenado previamente de forma predeterminada con la última configuración que el usuario usó para ese canal. Para obtener más información sobre cómo configurar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
+
+1. Configure el archivo de extracción para enviarlo a su proveedor de correo postal. Para ello, haga clic en el botón **[!UICONTROL Editar contenido]**.
+
+   ![](assets/direct-mail-add-journey.png)
+
+1. Ajuste las propiedades del archivo de extracción, como el nombre del archivo o las columnas que desea mostrar. Para obtener más información sobre cómo configurar las propiedades del archivo de extracción, consulte esta sección: [Crear un mensaje de correo postal](../direct-mail/create-direct-mail.md#extraction-file).
+
+   ![](assets/direct-mail-journey-content.png)
+
+1. Una vez definido el contenido del archivo de extracción, puede utilizar perfiles de prueba para previsualizarlo. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
+
+   Para ello, haga clic en **[!UICONTROL Simular contenido]** y añada un perfil de prueba para comprobar cómo se representa el archivo de extracción con los datos del perfil de prueba. Encontrará información detallada sobre cómo seleccionar perfiles de prueba y obtener una vista previa del contenido en la sección [Administración de contenido](../content-management/preview-test.md).
+
+   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+
+Cuando el archivo de extracción esté listo, complete la configuración de su [recorrido](../building-journeys/journey-gs.md) para enviarlo.
+
+>[!TAB Agregar un mensaje de correo directo a una campaña]
 
 1. Acceda al menú **[!UICONTROL Campañas]** y haga clic en **[!UICONTROL Crear campaña]**.
 
-1. Seleccione el tipo de campaña que desea ejecutar
-
-   * **Programado - Marketing**: ejecute la campaña inmediatamente o en una fecha especificada. Las campañas programadas están destinadas a enviar mensajes de marketing. Se configuran y ejecutan desde la interfaz de usuario de.
-
-   * **Activado por API - Marketing/Transaccional**: ejecute la campaña mediante una llamada de API. Las campañas activadas por API están destinadas a enviar mensajes de marketing o transaccionales, es decir, mensajes enviados después de una acción realizada por un individuo: restablecimiento de contraseña, compra en el carro de compras, etc.
+1. Seleccione el tipo de campaña **Programada - Marketing**.
 
 1. En la sección **[!UICONTROL Propiedades]**, edite el **[!UICONTROL Título]** y la **[!UICONTROL Descripción]** de su campaña.
 
@@ -113,4 +140,3 @@ Los proveedores de correo postal requieren el archivo de extracción para enviar
       Para cambiar la posición de una columna, arrástrela y suéltela en la ubicación deseada en la sección **[!UICONTROL Campo de datos]**. Para eliminar una columna, selecciónela y haga clic en el botón **[!UICONTROL Quitar]** en el panel **[!UICONTROL Formato]**.
 
 Ahora puede probar el mensaje de correo postal y enviarlo a su audiencia. [Aprenda a probar y enviar mensajes de correo postal](test-send-direct-mail.md)
-

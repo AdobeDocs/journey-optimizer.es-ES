@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 94%
+source-wordcount: '324'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 El correo directo es un canal sin conexión que le permite personalizar y generar los archivos de extracción necesarios para que los proveedores de correo postal de terceros envíen correo a sus clientes.
 
-Al crear una campaña de correo directo, Journey Optimizer genera automáticamente un archivo que contiene todos los perfiles de destino y los datos seleccionados, como las direcciones postales y los atributos de perfil. Este archivo se envía al servidor de su elección para que el proveedor de correo directo de terceros elegido pueda acceder a él, quien se encargará del proceso de envío.
+Al crear una campaña de correo postal o un recorrido, Journey Optimizer genera automáticamente un archivo que contiene todos los perfiles de destino y los datos seleccionados, como las direcciones postales y los atributos de perfil. Este archivo se envía al servidor de su elección para que el proveedor de correo directo de terceros elegido pueda acceder a él, quien se encargará del proceso de envío.
 
 Deberá trabajar con el proveedor de correo directo de terceros que haya elegido para obtener el consentimiento necesario de sus clientes, si corresponde, para que estos puedan recibir correo de usted.
 
@@ -30,7 +30,7 @@ Los pasos principales para enviar mensajes de correo directo son los siguientes:
 
 >[!AVAILABILITY]
 >
->Los mensajes de correo postal solo se pueden crear en el contexto de campañas programadas y orquestadas. No están disponibles para su uso en campañas activadas por API ni en recorridos.
+>Los mensajes de correo postal solo se pueden crear en el contexto de recorridos y campañas programadas. No están disponibles para su uso en campañas orquestadas y activadas por API.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
@@ -41,4 +41,8 @@ Los pasos principales para enviar mensajes de correo directo son los siguientes:
 * **[Pruebe y envíe correo postal](test-send-direct-mail.md)**: aprenda a probar, validar y publicar sus envíos de correo postal.
 * **[Tutoriales de correo postal](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las características del correo directo y las prácticas recomendadas.
 
+## Vídeo práctico
 
+Aprenda a aprovechar el canal de correo postal en Adobe Journey Optimizer para automatizar y programar envíos de correo postal dentro de sus recorridos.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
