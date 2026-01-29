@@ -5,9 +5,9 @@ title: Preguntas más frecuentes sobre campañas organizadas
 description: Preguntas frecuentes sobre las campañas orquestadas de Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1881'
 ht-degree: 14%
 
 ---
@@ -140,6 +140,14 @@ Yes. Campaign orchestration is natively integrated with:
 * **Customer Journey Analytics**: Campaign orchestration reports are available.  
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
+
++++ ¿Puedo revertir una campaña orquestada en vivo a borrador?
+
+Sí, en situaciones específicas. La opción **[!UICONTROL Volver al borrador]** está diseñada como un mecanismo de recuperación para cancelar la publicación y revertir una campaña al estado de borrador.
+
+Esta opción está disponible para campañas programadas en espera de ejecución o para campañas en directo con errores de ejecución. [Aprenda a revertir una campaña en vivo al borrador](start-monitor-campaigns.md#back-to-draft)
+
++++
 
 +++ ¿Qué canales son compatibles?
 

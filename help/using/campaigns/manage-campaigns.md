@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 5623511099f7b09fa95bccb411776bc4416637fd
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 9%
+source-wordcount: '1682'
+ht-degree: 8%
 
 ---
 
@@ -100,6 +100,10 @@ La imagen ![que muestra el botón Más acciones](assets/do-not-localize/rule-bui
 * **[!UICONTROL Agregar al paquete]**: agregue la campaña a un paquete para exportarla a otra zona protegida. [Obtenga información sobre cómo exportar objetos →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Abrir versión de borrador]**: si se ha creado una nueva versión de la campaña y aún no se ha activado, puede acceder a su versión de borrador mediante esta acción.
 
+**Solo para campañas orquestadas:**
+
+* **[!UICONTROL Volver al borrador]** - Cancelar la publicación y revertir una campaña al estado de borrador para la recuperación de errores. Esta acción está disponible cuando una campaña programada aún no se ha iniciado o cuando una campaña en directo encuentra un error antes de que se complete cualquier ejecución. [Más información sobre cómo revertir campañas →](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+
 ## Explicación del estado de campaña {#statuses}
 
 Cada campaña se desplaza por un ciclo de vida que se refleja en su estado en la interfaz. Comprender estos estados le ayuda a saber qué acciones están disponibles y qué hacer a continuación.
@@ -108,7 +112,7 @@ Cada campaña se desplaza por un ciclo de vida que se refleja en su estado en la
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
 | **[!UICONTROL Borrador]** | ✅ | ✅ | ✅ | Se está editando, no activando | Continuar editando o [activar campaña](review-activate-campaign.md) |
 | **[!UICONTROL Programado]** | ✅ | ✅ | ✅ | Configurado para una fecha de inicio específica | Esperar al lanzamiento, [modificar si es necesario](#modify) o [ver en el calendario](#calendar) |
-| **[!UICONTROL Activo]** | ✅ | ✅ | ✅ | Activado y en ejecución | [Supervisar el rendimiento](../reports/campaign-global-report-cja.md), [crear nueva versión](#modify) si es necesario |
+| **[!UICONTROL Activo]** | ✅ | ✅ | ✅ | Activado y en ejecución | [Supervisar el rendimiento](../reports/campaign-global-report-cja.md), [crear nueva versión](#modify) si es necesario. Para campañas orquestadas: [vuelva al borrador](../orchestrated/start-monitor-campaigns.md#back-to-draft) para las campañas programadas que aún no se hayan iniciado o para las campañas con errores de ejecución antes de que se envíe ningún mensaje |
 | **[!UICONTROL En revisión]** | ✅ | ✅ | — | Enviado para aprobación | Esperar [aprobación](../test-approve/gs-approval.md) o modificar |
 | **[!UICONTROL Detenido]** | ✅ | ✅ | ✅ | Detenido manualmente, no se puede reactivar | [Duplicado para reutilizar](#duplicate-a-campaign) |
 | **[!UICONTROL Completado]** | ✅ | ✅ | ✅ | Ejecución finalizada (asignada automáticamente 3 días después de la activación o en la fecha de finalización para la recurrente) | [Ver informes](../reports/campaign-global-report-cja.md), [archivar](#archive-a-campaign) o [duplicado](#duplicate-a-campaign) |

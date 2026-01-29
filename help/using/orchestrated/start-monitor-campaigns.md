@@ -6,15 +6,15 @@ description: Obtenga información sobre cómo iniciar y monitorizar campañas or
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 36%
+source-wordcount: '1141'
+ht-degree: 29%
 
 ---
 
 
-# Inicio y monitorización de las campañas orquestadas {#start-monitor}
+# Iniciar y monitorizar campañas orquestadas {#start-monitor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
@@ -66,6 +66,22 @@ El flujo visual se reinicia y los perfiles reales comienzan a fluir a través de
 
 Si la acción de publicación falla (por ejemplo, debido a la falta de contenido de mensaje), se le alerta y debe corregir el problema antes de volver a intentarlo. Si la publicación se realiza correctamente, la campaña comenzará a ejecutarse (inmediatamente o según lo programado), pasará del estado **Borrador** al estado **Activo** y pasará a ser de &quot;Solo lectura&quot;.
 
+## Revertir una campaña al borrador {#back-to-draft}
+
+La función **[!UICONTROL Volver al borrador]** le permite cancelar la publicación y revertir una campaña orquestada al estado de borrador en situaciones específicas. Se ha diseñado como mecanismo de recuperación para solucionar problemas antes de que se envíe cualquier mensaje, manteniendo al mismo tiempo la integridad del ciclo de vida de la campaña.
+
+Esta opción está disponible en dos situaciones:
+
+* **Campañas programadas a la espera de ejecución**: cuando una campaña está programada para ejecutarse a una hora específica y esa hora aún no se ha alcanzado, puede volver a utilizarla como borrador para revisar y modificar la campaña antes de que comience a ejecutarse. Sin embargo, si la campaña es recurrente (como una campaña programada diaria) y ya se ha producido al menos una ejecución, la opción ya no está disponible. En ese caso, debería [duplicar la campaña](../campaigns/manage-campaigns.md#duplicate-a-campaign).
+
+* **Campañas en directo con errores de ejecución**: cuando una campaña ha encontrado un error durante la ejecución y está en pausa, y aún no se han completado ejecuciones de campaña, puede volver a utilizarla como borrador para corregir el error y volver a publicar la campaña.
+
+Para volver a cambiar una campaña al estado de borrador, abra la campaña organizada y haga clic en el botón **[!UICONTROL Volver al borrador]** de la barra de herramientas del lienzo de la campaña.
+
+![](assets/back-to-draft.png)
+
+Se cancela la publicación de la campaña y se detiene el flujo de trabajo. La campaña vuelve al estado **Borrador**. Ahora puede corregir los problemas identificados, [probar la campaña](#test) y [publicarla](#publish) de nuevo cuando esté lista.
+
 ## Confirmar envío de mensajes {#confirm-sending}
 
 De forma predeterminada, para las campañas orquestadas no recurrentes, la entrega de mensajes se pausa hasta que se apruebe explícitamente la entrega. Después de publicar la campaña, confirme la solicitud de envío desde el panel de propiedades de la actividad del canal. Hasta que se confirme, la actividad del canal permanece pendiente y no se envía ningún mensaje.
@@ -74,7 +90,7 @@ De forma predeterminada, para las campañas orquestadas no recurrentes, la entre
 
 Antes de publicar, puede deshabilitar el envío de confirmación desde el panel de propiedades de actividad del canal. Para obtener más información, consulte [Confirmar el envío de mensajes](activities/channels.md#confirm-message-sending).
 
-## Monitorización de la ejecución de campañas {#monitor}
+## Monitorizar la ejecución de campañas {#monitor}
 
 ### Monitorización del flujo visual {#flow}
 
