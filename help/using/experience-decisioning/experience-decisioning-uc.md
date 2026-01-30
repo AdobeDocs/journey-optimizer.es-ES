@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '880'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 4%
 # Uso de decisiones en una experiencia basada en código con un experimento de contenido {#experience-decisioning-uc}
 
 Este caso de uso presenta todos los pasos necesarios para utilizar Decisioning con el canal basado en código [!DNL Journey Optimizer].
+
+➡️ [Descubra un caso de uso en vídeo](#video)
 
 >[!NOTE]
 >
@@ -95,10 +97,6 @@ Para crear la segunda estrategia de selección con seleccione una fórmula como 
 
 ## Creación de una campaña de experiencia basada en código
 
-<!--To present the best dynamic offer and experience to your visitors on your website or mobile app, add a decision policy to a code-based campaign.
-
-Define two delivery treatments each containing a different decision policy.-->
-
 Una vez configuradas las dos estrategias de selección, cree una campaña de experiencia basada en código en la que defina un tratamiento diferente para cada estrategia para comparar cuál de ellas tiene el mejor rendimiento.
 
 1. Cree una campaña y seleccione la acción **[!UICONTROL Experiencia basada en código]**. [Más información](../code-based/create-code-based.md)
@@ -157,3 +155,9 @@ Si el resultado es concluyente:
 
 * Puede dirigir el tratamiento con la clasificación con mejor rendimiento a todos sus clientes.
 * O puede crear una nueva campaña utilizando la estrategia de selección en la que se replica el método de clasificación con mejor rendimiento.
+
+## Vídeo práctico {#video}
+
+Descubra un tutorial completo que muestra cómo utilizar Decisioning en una experiencia basada en código.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451100/?learn=on&enablevpops)

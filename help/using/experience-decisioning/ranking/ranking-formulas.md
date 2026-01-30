@@ -7,22 +7,24 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 4%
+source-wordcount: '1481'
+ht-degree: 6%
 
 ---
 
 # Uso del generador de fórmulas de IA {#create-ranking-formulas}
 
-**Las fórmulas de clasificación** le permiten definir reglas que determinan qué oferta debe presentarse primero, en lugar de tener en cuenta las puntuaciones de prioridad.
+**Las fórmulas de clasificación** le permiten definir reglas que determinan qué oferta se debe presentar primero, en lugar de tener en cuenta las puntuaciones de prioridad.
 
 Para crear estas reglas, el generador de fórmulas de IA de **[!UICONTROL Adobe Journey Optimizer]** proporciona mayor flexibilidad y control en la clasificación de las ofertas. En lugar de depender únicamente de una prioridad de oferta estática, ahora puede definir fórmulas de clasificación personalizadas que combinen puntuaciones del modelo de IA, prioridades de oferta, atributos de perfil, atributos de oferta y señales contextuales a través de una interfaz guiada.
 
 Este enfoque le permite ajustar dinámicamente la clasificación de la oferta en función de cualquier combinación de tendencia impulsada por IA, valor empresarial y contexto en tiempo real, lo que facilita la alineación de la toma de decisiones con los objetivos de marketing y las necesidades del cliente. El generador de fórmulas de IA admite fórmulas simples o avanzadas en función del control que desee aplicar.
 
 Una vez creada una fórmula de clasificación, puede asignarla a una [estrategia de selección](../selection-strategies.md). Si se pueden presentar varias ofertas al utilizar esta estrategia de selección, el motor de decisión utilizará la fórmula seleccionada para calcular qué oferta se ofrece primero.
+
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 ## Crear fórmula de clasificación {#create-ranking-formula}
 
@@ -93,9 +95,9 @@ Para definir criterios directamente desde la interfaz, siga los pasos a continua
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
 1. En la sección **[!UICONTROL Criterio 1]**, especifique los elementos de decisión a los que desea aplicar una puntuación de clasificación haciendo lo siguiente:
-   * seleccionar un [atributo de elemento de decisión](../items.md#attributes),
-   * seleccionar un operador lógico,
-   * agregar una condición coincidente: puede escribir un valor o seleccionar un atributo de perfil o [datos de contexto](../context-data.md).
+   * seleccione un [atributo de elemento de decisión](../items.md#attributes)
+   * seleccionar un operador lógico
+   * agregar una condición coincidente: puede escribir un valor o seleccionar un atributo de perfil o [datos de contexto](../context-data.md)
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 
@@ -274,3 +276,9 @@ Tenga en cuenta que al usar la API **Decisioning**, los datos de contexto se agr
 ```
 
 +++
+
+## Vídeo práctico {#video}
+
+Aprenda a utilizar el Generador de fórmulas de IA en Adobe Journey Optimizer para crear estrategias de clasificación de ofertas personalizadas.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464446/?learn=on&enablevpops)

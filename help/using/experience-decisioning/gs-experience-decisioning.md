@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '631'
 ht-degree: 22%
 
 ---
@@ -25,11 +25,13 @@ ht-degree: 22%
 
 La toma de decisiones simplifica la personalización al ofrecer un catálogo centralizado de ofertas de marketing conocidas como “elementos de decisión” y un motor de decisión sofisticado. Este motor aprovecha las reglas y los criterios de clasificación para seleccionar y presentar a cada persona los elementos de decisión más relevantes.
 
-Estos elementos de decisión se integran perfectamente en una amplia gama de superficies de entrada a través del [nuevo canal de experiencia basado en código](../code-based/get-started-code-based.md), al que se puede acceder desde las campañas de Journey Optimizer.
+Estos elementos de decisión se integran perfectamente en una amplia gama de superficies de entrada a través del [canal de experiencia basado en código](../code-based/get-started-code-based.md), al que se puede acceder desde [!DNL Adobe Journey Optimizer] campañas.
 
 >[!IMPORTANT]
 >
 >Las políticas de decisión están disponibles para su uso únicamente en campañas de experiencia basadas en código y de correo electrónico.
+
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 ➡️ En [esta sección](experience-decisioning-uc.md) se presenta un caso de uso de extremo a extremo que muestra cómo crear decisiones y utilizarlas en experimentos de contenido con el canal de experiencia basado en código.
 
@@ -98,3 +100,8 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 * **[Protecciones para la toma de decisiones](decisioning-guardrails.md)**: revise las limitaciones importantes y las prácticas recomendadas para la implementación de decisiones.
 * **[Tutoriales de toma de decisiones](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las funciones de toma de decisiones y las prácticas recomendadas.
 
+## Vídeo práctico {#video}
+
+Obtenga información sobre las funcionalidades de Decisioning en Adobe Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
