@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3543'
 ht-degree: 26%
 
 ---
@@ -108,7 +108,7 @@ La tabla **[!UICONTROL Envío de métricas por correo electrónico]** ofrece un 
 
 * **[!UICONTROL Tiempo de ejecución]**: Hora de inicio de cada ejecución de su correo electrónico recurrente. Para enviar solo uno o varios correos electrónicos recurrentes, selecciónelos en la lista desplegable **[!UICONTROL Tiempo de ejecución]**.
 
-* **[!UICONTROL Destinatarios]**: Número total de mensajes procesados durante el proceso de envío.
+* **[!UICONTROL Segmentado]**: número de perfiles aptos para la audiencia antes de aplicar las exclusiones, las supresiones o las eliminaciones de consentimiento.
 
 * **[!UICONTROL Excluido]**: número de perfiles de usuario, excluidos de los perfiles de destino, que no recibieron el mensaje.
 
@@ -330,7 +330,7 @@ La tabla **[!UICONTROL Notificación push: estadísticas]** proporciona un resum
 
 * **[!UICONTROL Tiempo de ejecución]**: tiempo de inicio de cada ejecución de la notificación push recurrente. Para enviar solo una o varias notificaciones push recurrentes, selecciónelas en la lista desplegable **[!UICONTROL Hora de ejecución]**.
 
-* **[!UICONTROL Destinatarios]**: Número total de mensajes procesados durante el proceso de envío.
+* **[!UICONTROL Segmentado]**: número de perfiles aptos para la audiencia antes de aplicar las exclusiones, las supresiones o las eliminaciones de consentimiento.
 
 * **[!UICONTROL Excluido]**: número de perfiles de usuario, excluidos de los perfiles de destino, que no recibieron el mensaje.
 
@@ -400,7 +400,7 @@ El gráfico y la tabla de **[!UICONTROL Notificación push: desglose por platafo
 
 +++ Más información sobre las Notificaciones push: desglose por métricas de plataforma
 
-* **[!UICONTROL Objetivos]**: número total de mensajes procesados durante el análisis.
+* **[!UICONTROL Segmentado]**: número de perfiles aptos para la audiencia antes de aplicar las exclusiones, las supresiones o las eliminaciones de consentimiento.
 
 * **[!UICONTROL Entregado]**: número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
 

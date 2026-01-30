@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '3712'
+source-wordcount: '3731'
 ht-degree: 30%
 
 ---
@@ -30,7 +30,7 @@ Acceda al informe de Recorrido en directo desde el menú [!UICONTROL Recorridos]
 
 La página del recorrido **[!UICONTROL Informe en vivo]** se mostrará con las siguientes pestañas:
 
-* [&#x200B; Recorrido &#x200B;](#journey-live)
+* [ Recorrido ](#journey-live)
 * [Correo electrónico](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
@@ -210,7 +210,7 @@ La tabla **[!UICONTROL Correo electrónico: estadísticas]** proporciona un resu
 
 +++ Más información sobre las métricas de Estadísticas de envío de correo electrónico
 
-* **[!UICONTROL Destinatarios]**: Número total de mensajes procesados durante el proceso de envío.
+* **[!UICONTROL Segmentado]**: número de perfiles aptos para la audiencia antes de aplicar las exclusiones, las supresiones o las eliminaciones de consentimiento. En los recorridos con la reentrada habilitada, un perfil se puede definir como objetivo varias veces.
 
 * **[!UICONTROL Excluido]**: número de perfiles que han sido excluidos por Adobe Journey Optimizer.
 

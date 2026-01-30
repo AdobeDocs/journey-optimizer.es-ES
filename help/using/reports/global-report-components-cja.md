@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2189'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
   </tr> 
   <tr> 
    <td> Segmentado<br/> </td> 
-   <td> Número total de mensajes procesados durante el análisis de entregas.<br/> </td> 
+   <td> Número de perfiles que cumplen los requisitos de la audiencia antes de que se aplicaran las exclusiones, las supresiones o las eliminaciones de consentimiento. En recorridos con la reentrada habilitada, un perfil puede ser identificado varias veces.<br/> </td> 
   </tr>
   <tr> 
    <td>Devoluciones únicas<br/> </td> 
@@ -197,7 +197,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
   </tr>
   <tr> 
    <td>Destino único<br/> </td> 
-   <td>Número de perfiles únicos dirigidos durante el proceso de envío.<br/> </td> 
+   <td>Número de perfiles únicos que cumplen los requisitos para la audiencia antes de que se aplicaran las exclusiones, las supresiones o las eliminaciones de consentimiento.<br/> </td> 
   </tr> 
   <tr> 
    <td> Cancela la suscripción de <br/> </td> 
@@ -659,7 +659,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td>Porcentaje de usuarios que hacen clic en un vínculo, anuncio o recomendación en comparación con el número de veces que se mostró.<br/> </td> 
 </tr>
 <tr> 
-   <td>Tasa de conversión <br/> </td> 
+   <td>Tasa de conversión<br/> </td> 
    <td>Porcentaje de pantallas que dieron como resultado acciones del usuario (por ejemplo, clics), que indican el éxito del modelo en la participación de usuarios.<br/> </td> 
 </tr>
 <tr> 

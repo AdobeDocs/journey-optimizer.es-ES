@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '407'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ La tabla **[!UICONTROL Estadísticas de envío]** proporciona una descripción d
 
 +++ Más información sobre el envío de métricas de estadísticas
 
-* **[!UICONTROL Segmentación]**: Número total de perfiles segmentados durante la actividad en directo.
+* **[!UICONTROL Segmentado]**: número de perfiles aptos para la audiencia antes de aplicar las exclusiones, las supresiones o las eliminaciones de consentimiento.
 
 * **[!UICONTROL Envíos]**: Número total de notificaciones push que se intentaron enviar a perfiles de destino.
 

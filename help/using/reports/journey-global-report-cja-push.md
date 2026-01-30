@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '561'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ La tabla **[!UICONTROL Estadísticas de envío]** le ayuda a comprender el rendi
 
 * **[!UICONTROL Personas]**: Número de perfiles de usuario que cumplen los requisitos como perfiles de destino para sus mensajes SMS.
 
-* **[!UICONTROL Objetivos]**: Número total de notificaciones push procesadas durante el análisis.
+* **[!UICONTROL Segmentado]**: número de perfiles aptos para la audiencia antes de aplicar las exclusiones, las supresiones o las eliminaciones de consentimiento. En los recorridos con la reentrada habilitada, un perfil se puede definir como objetivo varias veces.
 
 * **[!UICONTROL Envíos]**: Número total de envíos para la notificación push.
 

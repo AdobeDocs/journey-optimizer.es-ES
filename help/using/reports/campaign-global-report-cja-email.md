@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: cc435a133f5fe24bff0f6ec9ec135941cf0bab99
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2216'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!INFO]
 >
 >Desde que Apple introdujo nuevas funciones de protección de la privacidad para su aplicación de correo nativa, incluida la protección de privacidad de correo, los remitentes ya no pueden utilizar píxeles de seguimiento para recopilar datos en perfiles que hayan habilitado la protección de privacidad de correo de Apple. Por lo tanto, la capacidad de Adobe Journey Optimizer para rastrear las aperturas de correo electrónico mediante los píxeles de seguimiento puede verse afectada.
-> [Más información](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=es) sobre el impacto de los cambios de privacidad de Apple iOS en el marketing por correo electrónico.
+> [Más información](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) sobre el impacto de los cambios de privacidad de Apple iOS en el marketing por correo electrónico.
 > 
 > Recomendamos centrarse en los clics y las métricas de conversión en lugar de en las tasas de apertura para obtener perspectivas más precisas.
 
@@ -72,7 +72,7 @@ El gráfico de **[!UICONTROL Click funnel]** presenta un análisis detallado de 
 
 +++ Más información acerca de las métricas de Click funnel
 
-* **[!UICONTROL Únicos segmentados]**: Número de perfiles únicos segmentados durante el proceso de envío.
+* **[!UICONTROL Segmentación única]**: número de perfiles únicos que cumplen los requisitos para la audiencia antes de que se aplicaran las exclusiones, las supresiones o las eliminaciones de consentimiento.
 
 * **[!UICONTROL Envíos únicos]**: Número de perfiles únicos para los que se intentó enviar al menos un correo electrónico.
 
@@ -124,7 +124,7 @@ La tabla **[!UICONTROL Estadísticas de envío únicas]** presenta una descripci
 
 +++ Más información sobre las métricas de Estadísticas de envío únicas
 
-* **[!UICONTROL Únicos segmentados]**: Número de perfiles únicos segmentados durante el proceso de envío.
+* **[!UICONTROL Segmentación única]**: número de perfiles únicos que cumplen los requisitos para la audiencia antes de que se aplicaran las exclusiones, las supresiones o las eliminaciones de consentimiento.
 
 * **[!UICONTROL Envíos únicos]**: Número de perfiles únicos para los que se intentó enviar al menos un correo electrónico.
 
@@ -170,7 +170,7 @@ La tabla **[!UICONTROL Estadísticas de envío]** proporciona un resumen complet
 
 +++ Más información sobre el envío de métricas de estadísticas
 
-* **[!UICONTROL Destinatarios]**: Número total de correos electrónicos procesados durante el proceso de envío.
+* **[!UICONTROL Segmentado]**: número de perfiles aptos para la audiencia antes de aplicar las exclusiones, las supresiones o las eliminaciones de consentimiento. En los recorridos con la reentrada habilitada, un perfil se puede definir como objetivo varias veces.
 
 * **[!UICONTROL Envíos]**: Número total de envíos del correo electrónico.
 

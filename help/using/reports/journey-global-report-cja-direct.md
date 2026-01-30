@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fae8beb-ca40-40a1-8939-c309fbf46c4f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '370'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ La tabla **[!UICONTROL Estadísticas de envío]** le proporciona un insight del 
 
 * **[!UICONTROL Personas]**: Número de perfiles de usuario que se califican como perfiles de destino para sus mensajes.
 
-* **[!UICONTROL Destinatarios]**: Número total de mensajes de correo postal procesados durante el proceso de envío.
+* **[!UICONTROL Segmentado]**: número de perfiles aptos para la audiencia antes de aplicar las exclusiones, las supresiones o las eliminaciones de consentimiento. En los recorridos con la reentrada habilitada, un perfil se puede definir como objetivo varias veces.
 
 * **[!UICONTROL Envíos]**: Número total de envíos para sus mensajes de correo postal.
 
@@ -69,7 +69,7 @@ La tabla **[!UICONTROL Motivos del error]** le permite identificar los errores e
 
 ## Motivos excluidos {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 La tabla **[!UICONTROL Razones de exclusión]** muestra visualmente los diversos factores que llevaron a la exclusión de perfiles de usuarios de la audiencia de destino, lo que les impidió recibir sus mensajes de correo postal.
 
