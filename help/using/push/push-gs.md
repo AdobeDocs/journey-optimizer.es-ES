@@ -8,10 +8,10 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
+source-git-commit: 5758c9db8b1b12367126f4adb8bd1c0bac766514
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 2%
+source-wordcount: '792'
+ht-degree: 1%
 
 ---
 
@@ -36,6 +36,11 @@ La siguiente ilustración muestra los sistemas y servicios involucrados con los 
 1. Registro de la aplicación móvil de marca (Android o iOS) con los servicios de mensajería push APNS y FCM de Google de Apple
 1. Los servicios de mensajería generan un token push, que es un identificador que [!DNL Adobe Journey Optimizer] usará para dirigir el dispositivo específico con una notificación push.
 1. El token push generado anteriormente se pasa a Adobe Experience Platform y se sincroniza con el perfil del cliente en tiempo real; esto se hace OOTB con un SDK de cliente fácil de integrar
+
+   >[!NOTE]
+   >
+   >La administración de tokens difiere entre plataformas. En **Android (FCM)**, los tokens se marcan automáticamente como no válidos cuando los usuarios borran la caché de la aplicación o la vuelven a instalar, lo que genera un nuevo token y un ECID. En **iOS (APN)**, los tokens no se marcan de manera consistente como no válidos en estos escenarios. Si un perfil contiene varios ECID con tokens válidos, se enviarán notificaciones push a todos los dispositivos asociados.
+
 1. Los mensajes push se crean en [!DNL Adobe Journey Optimizer] y los mensajes push se crean según una configuración de canal (es decir, un ajuste preestablecido de mensaje)
 1. Los mensajes push se pueden incluir en el lienzo de orquestación en los Recorridos
 1. Tras la publicación del Recorrido, los perfiles del cliente basados en las condiciones de Recorrido están cualificados para recibir notificaciones push y las cargas de mensajería push se personalizan en este paso
@@ -76,6 +81,6 @@ La siguiente ilustración muestra los distintos pasos, de extremo a extremo, nec
 
 * [Configuración del canal push](push-configuration.md)
 * [Informe de notificaciones push](../reports/journey-global-report-cja-push.md)
-* [Creación de una notificación push](create-push.md)
+* [Crear una notificación push](create-push.md)
 * [Añadir un mensaje en un recorrido](../building-journeys/journeys-message.md)
 * [Añadir un mensaje en una campaña](../campaigns/create-campaign.md)
