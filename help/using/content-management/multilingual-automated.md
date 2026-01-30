@@ -113,7 +113,7 @@ El proyecto de traducción se ha creado y se puede utilizar en una campaña mult
 >[!CONTEXTUALHELP]
 >id="ajo_multi_fallback"
 >title="Preferencias de reserva"
->abstract="Elegir una preferencia de reserva es crucial para mejorar la experiencia del usuario. Si no se selecciona ninguna reserva y un perfil no cumple los requisitos necesarios, el contenido no se envía. Al seleccionar una alternativa adecuada, se garantiza una entrega de contenido coherente, incluso cuando los perfiles no coinciden con los criterios iniciales."
+>abstract="Elegir una preferencia de reserva es crucial para mejorar la experiencia del usuario. Si no se selecciona ninguna reserva y un perfil no cumple los requisitos necesarios, el contenido no se envía. Al seleccionar una reserva adecuada, se garantiza una entrega de contenido coherente, incluso cuando los perfiles no coinciden con los criterios iniciales."
 
 En esta sección, puede establecer las distintas configuraciones regionales para administrar el contenido multilingüe. También puede elegir el atributo que desea utilizar para buscar información relacionada con el idioma del perfil.
 
@@ -166,7 +166,7 @@ En esta sección, puede establecer las distintas configuraciones regionales para
 
    1. En Recopilación de datos de Adobe Experience Platform, acceda a sus Propiedades de etiquetas.
 
-   1. Acceda al menú **[!UICONTROL Reglas]** y cree una regla nueva. Encontrará información detallada sobre cómo crear reglas en [!DNL Adobe Experience Platform] [Documentación de recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. Acceda al menú **[!UICONTROL Reglas]** y cree una regla nueva. Encontrará información detallada sobre cómo crear reglas en [!DNL Adobe Experience Platform] [Documentación de recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    1. En la sección **[!UICONTROL IF]** de la regla, agregue un evento configurado de la siguiente manera:
 
