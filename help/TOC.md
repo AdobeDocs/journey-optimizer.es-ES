@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
+source-git-commit: 6cac68836bf8aa12cfabae70d60df97383287053
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3070'
 ht-degree: 98%
 
 ---
@@ -310,11 +310,13 @@ ht-degree: 98%
       + [Introducción a las notificaciones push](using/push/get-started-push.md)
       + [Crear una notificación push](using/push/create-push.md)
       + [Diseño de la notificación push](using/push/design-push.md)
+      + [Diseño de la notificación push web](using/push/design-push-web.md)
       + [Comprobación y envío de la notificación push](using/push/send-push.md)
       + Configuración de notificaciones push {#push-config}
          + [Configuración de notificaciones push](/help/rp_landing_pages/push-config-landing-page.md)
          + [Flujo de notificaciones push](using/push/push-gs.md)
          + [Configurar el canal de notificaciones push](using/push/push-configuration.md)
+         + [Configuración del canal de notificaciones push web](using/push/push-configuration-web.md)
          + [Flujo de trabajo de inicio rápido de incorporación al dispositivo móvil](using/push/mobile-onboarding-wf.md)
    + Canal de SMS/MMS/RCS {#sms}
       + [Canal de SMS/MMS/RCS](/help/rp_landing_pages/sms-landing-page.md)
@@ -840,7 +842,7 @@ ht-degree: 98%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
