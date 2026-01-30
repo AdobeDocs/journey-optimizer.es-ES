@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
+source-git-commit: 5be6ecd85b0b45e01f7a27e0ffc55a2c6a22bcea
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '263'
 ht-degree: 16%
 
 ---
@@ -33,22 +33,21 @@ La lista completa de [!DNL Journey Optimizer] protecciones y limitaciones está 
 | ------- | ------- |
 | Elementos de decisión totales | 10K |
 | Tamaño máximo de elementos incluidos atributos (1 KB), máximo de 30 atributos | 1KB |
-| Tamaño máximo de representación de elemento (total para todas las ubicaciones) | 1KB |
-| Reglas de frecuencia: número máximo de reglas de límite por oferta | 10 |
+| Reglas de frecuencia: número máximo de reglas de límite por elemento de decisión | 10 |
 
 ## Colecciones de elementos {#item-collections}
 
 | Barrera | Límite |
 | ------- | ------- |
 | Colecciones de elementos | 10K |
-| Total de elementos de oferta por colección de elementos | 500 |
+| Elementos de decisión totales por colección | 500 |
 
 ## Política de decisión {#decision-policy}
 
 | Barrera | Límite |
 | ------- | ------- |
 | Número de estrategias de selección y elementos manuales por política de decisión | 10 |
-| Máximo de elementos de oferta devueltos por política de decisión | 30 |
+| Número máximo de elementos de decisión devueltos por política de decisión | 30 |
 
 ## Reglas de elegibilidad {#eligibility-rules}
 
@@ -73,7 +72,7 @@ La lista completa de [!DNL Journey Optimizer] protecciones y limitaciones está 
 
 | Barrera | Límite |
 | ------- | ------- |
-| Número de atributos personalizados por esquema del catálogo de ofertas | 100 |
+| Número de atributos personalizados por esquema de catálogo de artículos | 100 |
 | Ubicaciones totales | 1K |
 | Modelo de clasificación de IA | 5 |
 
