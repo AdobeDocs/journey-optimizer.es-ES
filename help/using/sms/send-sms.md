@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
+source-git-commit: d6a46a6db9bcef4def71e915389d725c69d851c3
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '529'
 ht-degree: 2%
 
 ---
@@ -45,18 +45,23 @@ Tenga en cuenta que el recuento de caracteres no refleja las variaciones introdu
 
 ## Validación del contenido {#sms-validate}
 
+>[!NOTE]
+>
+> Para mejorar la capacidad de envío, utilice los números de teléfono en los formatos admitidos por el proveedor. Por ejemplo, Twilio y Sinch solo admiten números de teléfono en formato E.164.
+
 Debe comprobar las alertas en la sección superior del editor. Algunas son simples advertencias, pero otras pueden impedir que envíe el mensaje. Pueden producirse dos tipos de alertas: advertencias y errores.
 
 ![](assets/sms-alert-button.png)
 
-* **Advertencias** se refieren a recomendaciones y prácticas recomendadas. Por ejemplo, se muestra un mensaje de advertencia si el mensaje de texto está vacío.
+* **Advertencias** se refieren a recomendaciones y prácticas recomendadas. Por ejemplo, se muestra un mensaje de advertencia si el mensaje de texto está vacío o si se pueden superar los límites de caracteres con contenido dinámico.
+
+  **Límites de caracteres:** 160 caracteres por segmento (GSM de 7 bits), 70 para Unicode/emojis, hasta un total de 1500 caracteres.
 
 * **Los errores** le impiden probar o activar la recorrido o publicar la campaña, siempre y cuando no se resuelvan. Por ejemplo, un mensaje de error le advierte cuando falta la línea de asunto.
 
+La alerta **&quot;Se ha superado el límite de caracteres de texto SMS&quot;** puede aparecer incluso cuando el mensaje simulado sea más corto porque la validación calcula la **longitud máxima posible** mediante la evaluación de todas las ramas condicionales, campos de personalización y contenido dinámico en su mayor longitud.
 
->[!NOTE]
->
-> Para mejorar la capacidad de envío, utilice los números de teléfono en los formatos admitidos por el proveedor. Por ejemplo, Twilio y Sinch solo admiten números de teléfono en formato E.164.
+La validación calcula la longitud máxima de todos los datos de perfil posibles, mientras que la simulación muestra la salida real de un perfil de prueba.
 
 ## Envíe sus mensajes de texto {#sms-send}
 
