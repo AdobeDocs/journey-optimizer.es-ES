@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 124ff40cf7cdc0dfdaf67924ff5fb558c96e2956
+source-git-commit: 6c51328bdea0daf44b1315cf139b60d5bc2c5c76
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 22%
@@ -35,7 +35,7 @@ Las secciones [Características](#jan-26-01-features) y [Mejoras](#jan-26-01-imp
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuevas funciones {#jan-26-01-features}
 
@@ -179,7 +179,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Comprobaciones de calidad del contenido del Asistente de IA**: además de la alineación de marca, ahora puede evaluar la <strong>calidad del contenido</strong> en general para descubrir posibles problemas con la <strong>legibilidad</strong>, la coherencia y la eficacia, independientemente de las directrices de marca. Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. [Más información](../content-management/brands-score.md#validate-quality).
 
-  [Descubra esta característica en vídeo](https://video.tv.adobe.com/v/3470549/?captions=spa&learn=on).
+  [Descubra esta característica en vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -265,7 +265,7 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <li>Compatibilidad con reversiones para migraciones completadas</li>
 <li>Informes de migración detallados con asignaciones de objetos</li>
 </ul>
-<p>Fecha de disponibilidad: sábado, 30 de enero de 2026</p>
+<p>Fecha de disponibilidad: jueves, 11 de febrero de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -281,7 +281,7 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <tr>
 <td>
 <p>Ahora puedes personalizar y optimizar el contenido de tus mensajes <strong>Push y SMS</strong> con <strong>Decisioning</strong>. Utilice puntuaciones de prioridad, fórmulas o modelos de IA para mostrar el mejor contenido a sus clientes.</p>
-<p>Fecha de disponibilidad: martes, 09 de febrero de 2026</p>
+<p>Fecha de disponibilidad: jueves, 11 de febrero de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -298,7 +298,7 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <td>
 <p>Ahora hay disponible una nueva actividad <strong>Content decision activity</strong> en el lienzo de recorrido para integrar <strong>ofertas personalizadas</strong> directamente en las recorridos de los clientes. Esta actividad le permite entregar contenido basado en decisiones y hacer referencia a esas ofertas en todo el recorrido, en condiciones para crear ramas basadas en la idoneidad, en acciones personalizadas para pasar datos de ofertas a sistemas externos y en otras actividades para crear experiencias de cliente totalmente personalizadas.</p>
 <p>Esta capacidad estará disponible para todos los entornos (disponibilidad general).</p>
-<p>Fecha de disponibilidad: martes, 09 de febrero de 2026</p>
+<p>Fecha de disponibilidad: jueves, 11 de febrero de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -327,4 +327,4 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 
 * **Adjuntar fragmentos a elementos de decisión**: Journey Optimizer ahora proporciona la capacidad de adjuntar <strong>fragmentos</strong> a <strong>elementos de decisión</strong> que se pueden aprovechar en campañas de experiencia basadas en código mediante directivas de decisión.
 
-  Fecha de disponibilidad: 9 de febrero de 2026.
+  Fecha de disponibilidad: 11 de febrero de 2026.
