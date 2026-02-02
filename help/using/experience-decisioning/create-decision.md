@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: c2388c84346ed9a0409270fd96f3a1458bf8ad88
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '625'
 ht-degree: 29%
 
 ---
@@ -65,7 +65,7 @@ Los pasos principales para aprovechar las políticas de decisión en los mensaje
 
    Cree paneles personalizados de Customer Journey Analytics para medir el rendimiento y obtener información sobre cómo se entregan las políticas de decisión y las ofertas y cómo se interactúa con ellas.
 
-## Mecanismos de protección y limitaciones
+## Protecciones y limitaciones
 
 * **Páginas espejo de correo electrónico**: por ahora, los elementos de decisión no se representan en las páginas espejo de correo electrónico.
 * **Tipo de seguimiento y vínculos**: para realizar el seguimiento de los vínculos generados por la toma de decisiones, defina estos vínculos en el esquema como &quot;Decisioning Assets&quot;. Los vínculos basados en atributos no se pueden rastrear.
@@ -85,3 +85,8 @@ Ahora que comprende cómo funcionan las políticas de decisión y cómo ayudan a
 
 ➡️ [Aprenda a crear una directiva de decisión](../experience-decisioning/create-decision-policy.md)
 
+## Vídeo práctico {#video}
+
+Aprenda a utilizar Decisioning para personalizar correos electrónicos para su audiencia.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
