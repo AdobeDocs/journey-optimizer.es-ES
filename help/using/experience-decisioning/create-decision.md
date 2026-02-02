@@ -89,4 +89,4 @@ Ahora que comprende cómo funcionan las políticas de decisión y cómo ayudan a
 
 Aprenda a utilizar Decisioning para personalizar correos electrónicos para su audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479213?captions=spa&quality=12)
