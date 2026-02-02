@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 482311d7f3820e08f6371f5020c1409a0e96b503
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1819'
 ht-degree: 22%
 
 ---
@@ -35,9 +35,26 @@ Las secciones [Características](#jan-26-01-features) y [Mejoras](#jan-26-01-imp
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuevas funciones {#jan-26-01-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con decisiones en el canal SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede personalizar y optimizar el contenido de sus <strong>mensajes SMS</strong> con <strong>Decisioning</strong>. Utilice puntuaciones de prioridad, fórmulas o modelos de IA para mostrar el mejor contenido a sus clientes.</p>
+<p>Para obtener más información, consulte la <a href="../experience-decisioning/create-decision.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: martes, 02 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -197,7 +214,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Comprobaciones de calidad del contenido del Asistente de IA**: además de la alineación de marca, ahora puede evaluar la <strong>calidad del contenido</strong> en general para descubrir posibles problemas con la <strong>legibilidad</strong>, la coherencia y la eficacia, independientemente de las directrices de marca. Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. [Más información](../content-management/brands-score.md#validate-quality).
 
-  [Descubra esta característica en vídeo](https://video.tv.adobe.com/v/3470549/?captions=spa&learn=on).
+  [Descubra esta característica en vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -284,22 +301,6 @@ En los próximos días, está programado el lanzamiento de las siguientes funcio
 <li>Informes de migración detallados con asignaciones de objetos</li>
 </ul>
 <p>Fecha de disponibilidad: jueves, 11 de febrero de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Compatibilidad con decisiones en el canal SMS</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede personalizar y optimizar el contenido de sus <strong>mensajes SMS</strong> con <strong>Decisioning</strong>. Utilice puntuaciones de prioridad, fórmulas o modelos de IA para mostrar el mejor contenido a sus clientes.</p>
-<p>Fecha de disponibilidad: miércoles, 03 de febrero de 2026</p>
 </td>
 </tr>
 </tbody>

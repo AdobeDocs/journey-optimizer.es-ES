@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 217c7d1aead043e1978c8e0dd40190f789368fd0
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 7%
+source-wordcount: '2108'
+ht-degree: 6%
 
 ---
 
@@ -34,64 +34,152 @@ ht-degree: 7%
 
 Para presentar la mejor oferta dinámica y experiencia a sus clientes, agregue una política de decisión al contenido de una campaña o recorrido y, a continuación, configure los elementos que desea devolver y la estrategia de selección que desea utilizar. Para ello, siga los pasos a continuación:
 
-1. [Agregar una política de decisión](#add) - Desde el editor de Personalization o desde el Designer de correo electrónico.
-1. [Configurar la directiva de decisión](#configurre): agregue un nombre y especifique el número de elementos que desea devolver.
+1. [Agregar una política de decisión](#add)
+1. [Configurar la directiva de decisión](#configure): agregue un nombre y especifique el número de elementos que se devolverán para el canal de correo electrónico.
 1. [Configurar una secuencia de estrategia](#strategy): seleccione los elementos que desea devolver con la directiva de decisión.
 1. [Seleccionar ofertas de reserva](#fallback) (opcional): seleccione los elementos que desea mostrar si no se cumplen los requisitos para los elementos o las estrategias de selección.
 1. [Revisar y guardar](#review) la estrategia de selección
+1. [Asignar una ubicación](#placement) (canal de correo electrónico)
 
 >[!AVAILABILITY]
 >
->Por ahora, las directivas de decisión están disponibles para todos los clientes del canal **Experiencia basada en código**. Están disponibles para el canal **Email** como disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+>Las directivas de decisión están disponibles para todos los clientes para los canales **Experiencia basada en código**, **Notificación push** y SMS.
+>
+>La toma de decisiones del canal de correo electrónico está disponible en disponibilidad limitada. Para solicitar acceso, póngase en contacto con su representante de Adobe. Más información sobre [etiquetas de disponibilidad](../rn/releases.md#availability-labels).
 
 ## Agregar una política de decisión {#add}
 
-1. Abra un recorrido o una campaña, seleccione una [acción de canal](../building-journeys/journeys-message.md) y edite el contenido del mensaje.
+Para agregar una directiva de decisión al mensaje, abre un recorrido o una campaña y selecciona una [acción del canal](../building-journeys/journeys-message.md).
 
-1. Para los mensajes de correo electrónico, alterne la opción **[!UICONTROL Enable Decisioning]**.
+Edite el contenido del mensaje y examine las pestañas siguientes para obtener más información sobre cómo añadir la política de decisión en función del canal seleccionado.
+
+>[!BEGINTABS]
+
+>[!TAB Experiencia basada en código]
+
+Para las experiencias basadas en código, puede agregar una nueva directiva de decisión mediante el **editor de código** o el menú **Toma de decisiones** disponible en el panel de propiedades.
+
++++Añadir una política de decisión desde el editor de código
+
+1. Abra el editor de código con el botón **[!UICONTROL Editar código]**.
+
+1. Vaya al menú **[!UICONTROL Directiva de decisión]** y haga clic en el botón **[!UICONTROL Agregar directiva de decisión]**.
+
+   ![](assets/decision-policy-add-code-editor.png)
+
++++
+
++++Agregar una directiva de decisión desde el menú Decisiones
+
+1. Haga clic en el icono ![](assets/do-no-localize/decisioning-icon.png) del panel de propiedades para obtener acceso al menú **[!UICONTROL Decisioning]**.
+
+1. Haga clic en el botón **[!UICONTROL Agregar directiva de decisión]**.
+
+   ![](assets/decision-policy-add-code.png)
+
++++
+
+>[!TAB Correo electrónico]
+
+1. Alterne la opción **[!UICONTROL Enable Decisioning]**.
 
    ![](assets/decision-policy-enable.png)
 
    >[!IMPORTANT]
    >
    >Al habilitar la toma de decisiones, se borra el contenido de correo electrónico existente. Si ya ha diseñado el correo electrónico, asegúrese de guardar el contenido como una plantilla de antemano.
+
+1. Agregue una nueva directiva de decisión mediante el **editor de personalización** o el menú **Toma de decisiones** disponible en el Diseñador de correo electrónico.
+
+   +++Añadir una política de decisión desde el editor de Personalization
+
+   1. Abra el editor de personalización mediante el icono ![](assets/do-no-localize/editor-icon.svg) disponible en el campo de la línea de asunto o en cualquier campo del cuerpo del correo electrónico donde pueda agregar personalización.
+
+   1. Vaya al menú **[!UICONTROL Políticas de decisión]** y haga clic en el botón **[!UICONTROL Agregar política de decisión]**.
+
+      ![](assets/decision-policy-add-email-editor.png)
+
+   +++
+
+   +++Agregar una directiva de decisión desde el menú Decisiones
+
+   1. Abra la Designer de correo electrónico y seleccione cualquier componente de la estructura de correo electrónico.
+
+   1. Haga clic en el icono ![](assets/do-no-localize/decisioning-icon.png) del panel de propiedades para obtener acceso al menú **[!UICONTROL Decisioning]**.
+
+   1. Haga clic en el botón **[!UICONTROL Agregar nueva directiva]**.
+
+      ![](assets/decision-policy-add-email-add.png)
+
+   >[!NOTE]
    >
-   >Tenga en cuenta que cualquier política de decisión configurada dentro del correo electrónico no se guardará en la plantilla. Si aplica la plantilla a otro correo electrónico, debe volver a configurar la directiva.
+   >El **[!UICONTROL resultado de reutilización de decisión]** le permite reutilizar una directiva de decisión que ya se ha creado en este correo electrónico.
 
-1. Abra **editor de personalización** para crear la directiva de decisión. En el caso de los mensajes de correo electrónico, también puede utilizar un menú específico en **Diseñador de correo electrónico** para crear una directiva de decisión. Expanda las secciones siguientes para explorar los dos métodos.
+>[!TAB SMS]
 
-   +++Cree una política de decisión desde el editor de Personalization
+Para SMS, puede agregar una nueva directiva de decisión mediante el **editor de personalización** o el menú **Toma de decisiones** disponible en el panel de propiedades.
 
-   1. Abra el editor de personalización y seleccione **[!UICONTROL Directiva de decisión]**.
-   1. Haga clic en el botón **[!UICONTROL Agregar directiva de decisión]** para crear una directiva nueva.
++++Añadir una política de decisión desde el editor de personalización
 
-      ![](assets/decision-code-based-create.png)
+1. Abra el editor de personalización utilizando el icono ![](assets/do-no-localize/editor-icon.svg).
+1. Vaya al menú **[!UICONTROL Políticas de decisión]** y haga clic en el botón **[!UICONTROL Agregar política de decisión]**.
 
-   +++
+   ![](assets/decision-policy-add-sms-editor.png)
 
-   +++Creación de una política de decisión desde el Designer de correo electrónico
++++
 
-   Seleccione un componente en el contenido del correo electrónico, haga clic en el icono **[!UICONTROL Decisioning]** de la barra de herramientas o del panel de propiedades y, a continuación, seleccione **[!UICONTROL Agregar nueva directiva]**.
++++Agregar una directiva de decisión desde el menú Decisiones
 
-   El **[!UICONTROL resultado de reutilización de decisión]** le permite reutilizar una directiva de decisión que ya se ha creado en este correo electrónico.
+1. Haga clic en el icono ![](assets/do-no-localize/decisioning-icon.png) del panel de propiedades para obtener acceso al menú **[!UICONTROL Decisioning]**.
 
-   ![](assets/decision-policy-email-designer.png)
+1. Haga clic en el botón **[!UICONTROL Agregar directiva de decisión]**.
 
-   +++
+   ![](assets/decision-policy-add-sms.png)
+
+>[!TAB Notificación push]
+
+Para las notificaciones push, puede agregar una nueva directiva de decisión mediante el **editor de personalización** o el menú **Toma de decisiones** disponible en el panel de propiedades.
+
++++Añadir una política de decisión desde el editor de personalización
+
+1. Abra el editor de personalización utilizando el icono ![](assets/do-no-localize/editor-icon.svg).
+1. Vaya al menú **[!UICONTROL Políticas de decisión]** y haga clic en el botón **[!UICONTROL Agregar política de decisión]**.
+
+   ![](assets/decision-policy-add-push.png)
+
++++
+
++++Agregar una directiva de decisión desde el menú Decisiones
+
+1. Haga clic en el icono ![](assets/do-no-localize/decisioning-icon.png) del panel de propiedades para obtener acceso al menú **[!UICONTROL Decisioning]**.
+
+1. Haga clic en el botón **[!UICONTROL Agregar directiva de decisión]**.
+
+   ![](assets/decision-policy-add-push-menu.png)
+
+>[!IMPORTANT]
+>
+>Experience Decisioning con notificaciones push requiere una versión específica de Mobile SDK. Antes de implementar esta característica, compruebe [las notas de la versión](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} para identificar la versión requerida y asegúrese de haber actualizado según corresponda. También puede ver todas las versiones de SDK disponibles para su plataforma en [esta sección](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
+
+>[!ENDTABS]
 
 ## Configurar la directiva de decisión {#configure}
 
-Después de agregar una nueva política de decisión al contenido, se abre la pantalla de configuración de la política de decisión.
+Después de agregar una nueva política de decisión al contenido, se abre la pantalla de configuración de la política de decisión. Siga estos pasos para configurar la directiva de decisión:
 
 1. Proporcione un nombre para la política de decisión y seleccione un catálogo (actualmente limitado al catálogo predeterminado de **[!UICONTROL Ofertas]**).
 
-1. Seleccione el número de elementos que desea devolver. Por ejemplo, si selecciona 2, se presentarán las dos mejores ofertas aptas para la configuración actual.
-
    ![](assets/decision-code-based-details.png)
 
-   Para el canal de correo electrónico, el campo **[!UICONTROL Número de elementos]** se establece en 1 de forma predeterminada y no se puede modificar a menos que se agregue la directiva de decisión desde un componente **[!UICONTROL Cuadrícula de repetición]**. Expanda la sección siguiente para obtener más detalles:
+1. El campo **[!UICONTROL Número de elementos]** le permite definir el número de elementos de decisión que se devolverán con la directiva de decisión. Por ejemplo, si selecciona 2, se presentarán las dos mejores ofertas aptas para la configuración actual.
 
-   +++Devolver varios elementos de decisión en correos electrónicos usando un componente **[!UICONTROL Repetir cuadrícula]**
+   >[!NOTE]
+   >
+   >Esta opción solo está disponible para los canales de experiencia basados en código y correo electrónico. Para el resto de canales, solo se puede devolver 1 elemento de decisión por acción.
+
+   Para devolver varios elementos para el canal de correo electrónico, debe agregar la directiva de decisión dentro de un componente **[!UICONTROL Repetir cuadrícula]**. Expanda la sección siguiente para obtener más detalles:
+
+   +++Devolver varios elementos de decisión en correos electrónicos
 
    1. Arrastre un componente **[!UICONTROL Repetir cuadrícula]** en el correo electrónico y configúrelo como desee mediante el panel **[!UICONTROL Configuración]**.
 
@@ -220,7 +308,7 @@ Puede editar o eliminar una directiva de decisión en cualquier momento mediante
 
 ![](assets/decision-policy-edit.png)
 
->[!TAB Editar o eliminar una directiva de las propiedades del componente]
+>[!TAB Editar o eliminar una directiva del menú Decisioning]
 
 ![](assets/decision-policy-edit-properties.png)
 
@@ -237,4 +325,3 @@ Para los correos electrónicos, debe definir una ubicación para el componente a
 Ahora que sabe cómo crear una directiva de decisión, está listo para usarlo en [!DNL Journey Optimizer] canales para entregar ofertas.
 
 ➡️ [Aprenda a utilizar las directivas de decisión en los mensajes](../experience-decisioning/use-decision-policy.md)
-
