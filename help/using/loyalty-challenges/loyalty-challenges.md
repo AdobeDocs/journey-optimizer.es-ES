@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
 version: Journey Orchestration
-source-git-commit: ee67a1a9270c12fdf199bc378deaa6006553533c
+source-git-commit: b68c2610cbaaa8dbd86deb677562185e08d517ea
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5146'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,7 @@ Los retos de fidelidad le permiten crear ofertas de participación personalizada
 >**En esta guía:**
 >
 >* [Información general](#overview) - Comprender lo que ofrecen los desafíos de fidelidad
+>* [Cómo funciona](#how-it-works): flujo de trabajo paso a paso desde la configuración hasta la supervisión
 >* [Requisitos previos](#prerequisites): configurar la ingesta de datos y los permisos
 >* [Desafíos de fidelidad de acceso](#access): abre el menú y ve los desafíos
 >* [Crear desafíos](#create-challenges) - Crear nuevos desafíos de lealtad
@@ -43,6 +44,32 @@ Los retos de fidelidad le permiten crear ofertas de participación personalizada
 ## Información general {#overview}
 
 Los retos de fidelidad le permiten diseñar e implementar ofertas de participación personalizadas que motiven a los clientes a completar acciones específicas y obtener recompensas. La funcionalidad proporciona una solución completa para crear programas de fidelidad a escala, desde definir tareas e hitos hasta ofrecer contenido y rastrear el rendimiento en todos los canales. Puede crear tres tipos de experiencias de desafío, configurar recompensas, enviar notificaciones de varios canales en etapas clave del ciclo vital y monitorizar el rendimiento a través de recorridos generados automáticamente, todo mientras mantiene la integración con su sistema de administración de lealtad externo.
+
+## Funcionamiento {#how-it-works}
+
+La creación y el lanzamiento de un desafío de fidelidad siguen este flujo de trabajo:
+
+1. **Configurar la ingesta de datos**: configure los conectores de origen de Experience Platform (como Capillary) para introducir datos de evento de lealtad que hagan un seguimiento de las acciones y el progreso de los clientes.
+
+2. **Crear un desafío**: defina las propiedades básicas del desafío, como nombre, tipo (Estándar, Streak o Secuencial), audiencia e intervalo de fechas.
+
+3. **Agregar tareas**: defina las acciones específicas que deben completar los clientes, incluidos los tipos de tareas (compras, gastos, visitas, etc.), cantidades, filtros de productos y recompensas.
+
+4. **Diseñar tarjetas de contenido**: cree la representación visual de su desafío con tarjetas de contenido de Journey Optimizer que se muestran en los dispositivos del cliente.
+
+5. **Configurar mensajes** (opcional): configure mensajes multicanal (en la aplicación, correo electrónico, push) para las fases clave: inicio, en curso y finalización.
+
+6. **Revisar y publicar**: pruebe el desafío con perfiles de prueba y, a continuación, publíquelo para que esté disponible para la audiencia de destino.
+
+7. **recorrido generado automáticamente**: cuando publica, Journey Optimizer crea automáticamente un recorrido que organiza la entrega y la mensajería de la tarjeta de contenido.
+
+8. **Activar recorrido**: el recorrido generado automáticamente se activa en la fecha de inicio del desafío y administra todas las interacciones con los clientes.
+
+9. **Monitorizar el rendimiento**: haga un seguimiento de la participación, las tasas de finalización, la distribución de recompensas y la participación en los mensajes mediante informes integrados y el lienzo de recorrido.
+
+>[!NOTE]
+>
+>El recorrido generado automáticamente aparece en el inventario de recorridos y se puede personalizar si es necesario. Sin embargo, los cambios realizados directamente en el recorrido no se sincronizan con la configuración de desafío.
 
 ## Funcionalidades clave
 
@@ -90,7 +117,7 @@ Antes de usar Desafíos de fidelización, asegúrese de lo siguiente:
 
   Para obtener instrucciones detalladas, consulte:
 
-   * [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
+   * [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [Configuración de conectores de origen en Journey Optimizer](../start/get-started-sources.md)
 
 * Permisos necesarios {#required-permissions}
@@ -147,6 +174,59 @@ Mostrar desafíos dentro de un intervalo de fechas específico mediante **[!UICO
 
 Mostrar desafíos con etiquetas específicas aplicadas usando **[!UICONTROL Filtrar por etiquetas]**.
 
+
+**[!UICONTROL Descuento]**: proporcione un código o valor de descuento.
+
+* Introducir tipo de descuento (porcentaje o importe fijo)
+* Introducir valor de descuento
+* Si lo desea, especifique el código de descuento o deje que el sistema genere uno
+
+**[!UICONTROL Artículo gratuito]**: otorga un producto o servicio gratuito.
+
+* Especifique el SKU o la descripción del artículo
+* Indica cómo se debe reclamar el artículo gratuito
+
+**[!UICONTROL Recompensa personalizada]**: define un tipo de recompensa personalizado.
+
+* Escriba la descripción del premio
+* Proporcione códigos o identificadores relevantes
+* Configurar cómo se entrega o reclama la recompensa
+
+#### Ejemplo de configuración de recompensa {#reward-example}
+
+**Desafío**: &quot;Desafío del amante del café&quot;
+
+**Tarea 1**: Compra 3 cafés
+
+* Recompensa: 30 puntos (10 puntos por café)
+* Intervalo: después de finalizar la tarea
+
+**Tarea 2**: Prueba 2 nuevas bebidas de temporada
+
+* Recompensa: 50 puntos
+* Intervalo: después de finalizar la tarea
+
+**Premio por finalización de desafío**:
+
+* Recompensa: Café gratis + 100 puntos de bonificación
+* Intervalo: una vez completadas todas las tareas
+
+**Recompensas totales posibles**: 180 puntos + 1 café gratis
+
+### Atributos de tarea avanzados {#advanced-attributes}
+
+En los casos de uso avanzados, puede configurar atributos de tarea adicionales:
+
+**[!UICONTROL Condiciones personalizadas]**: agregue lógica o condiciones personalizadas más allá de los tipos de tareas estándar mediante segmentos o reglas de Experience Platform.
+
+**[!UICONTROL Geoperimetraje]**: (para tareas de visita) requiere visitas a ubicaciones específicas definidas por coordenadas geográficas y radio.
+
+**[!UICONTROL Requisitos basados en tiempo]**: requieren que las tareas se completen durante horas, días o intervalos de fechas específicos.
+
+**[!UICONTROL Período de reutilización]**: establezca un tiempo mínimo entre las finalizaciones de las tareas para evitar que se repitan acciones rápidamente.
+
+**[!UICONTROL Dependencias de tareas]**: (para desafíos secuenciales) Defina los requisitos previos que deben completarse antes de que esta tarea esté disponible.
+
 ## Crear desafíos {#create-challenges}
 
 Cree un desafío de fidelidad para definir la oferta de participación, configurar las tarjetas de contenido para la entrega, añadir tareas, configurar recompensas y, opcionalmente, configurar la mensajería entre canales.
@@ -198,7 +278,7 @@ Para crear un nuevo desafío de fidelidad:
 
 Para crear o refinar audiencias, consulte [Crear audiencias en Journey Optimizer](../audience/about-audiences.md).
 
-&#x200B;4. Seleccione **[!UICONTROL Guardar como borrador]** para seguir configurando el desafío.
+1. Seleccione **[!UICONTROL Guardar como borrador]** para seguir configurando el desafío.
 
 ## Creación de tareas {#create-tasks}
 
@@ -372,58 +452,6 @@ Elija cuándo reciben los clientes las recompensas:
 
 * Introduzca el número de puntos (por ejemplo, 100)
 * Los puntos se comunican al sistema de administración de lealtad externo a través de la API
-
-**[!UICONTROL Descuento]**: proporcione un código o valor de descuento.
-
-* Introducir tipo de descuento (porcentaje o importe fijo)
-* Introducir valor de descuento
-* Si lo desea, especifique el código de descuento o deje que el sistema genere uno
-
-**[!UICONTROL Artículo gratuito]**: otorga un producto o servicio gratuito.
-
-* Especifique el SKU o la descripción del artículo
-* Indica cómo se debe reclamar el artículo gratuito
-
-**[!UICONTROL Recompensa personalizada]**: define un tipo de recompensa personalizado.
-
-* Escriba la descripción del premio
-* Proporcione códigos o identificadores relevantes
-* Configurar cómo se entrega o reclama la recompensa
-
-#### Ejemplo de configuración de recompensa {#reward-example}
-
-**Desafío**: &quot;Desafío del amante del café&quot;
-
-**Tarea 1**: Compra 3 cafés
-
-* Recompensa: 30 puntos (10 puntos por café)
-* Intervalo: después de finalizar la tarea
-
-**Tarea 2**: Prueba 2 nuevas bebidas de temporada
-
-* Recompensa: 50 puntos
-* Intervalo: después de finalizar la tarea
-
-**Premio por finalización de desafío**:
-
-* Recompensa: Café gratis + 100 puntos de bonificación
-* Intervalo: una vez completadas todas las tareas
-
-**Recompensas totales posibles**: 180 puntos + 1 café gratis
-
-### Atributos de tarea avanzados {#advanced-attributes}
-
-En los casos de uso avanzados, puede configurar atributos de tarea adicionales:
-
-**[!UICONTROL Condiciones personalizadas]**: agregue lógica o condiciones personalizadas más allá de los tipos de tareas estándar mediante segmentos o reglas de Experience Platform.
-
-**[!UICONTROL Geoperimetraje]**: (para tareas de visita) requiere visitas a ubicaciones específicas definidas por coordenadas geográficas y radio.
-
-**[!UICONTROL Requisitos basados en tiempo]**: requieren que las tareas se completen durante horas, días o intervalos de fechas específicos.
-
-**[!UICONTROL Período de reutilización]**: establezca un tiempo mínimo entre las finalizaciones de las tareas para evitar que se repitan acciones rápidamente.
-
-**[!UICONTROL Dependencias de tareas]**: (para desafíos secuenciales) Defina los requisitos previos que deben completarse antes de que esta tarea esté disponible.
 
 ## Configuración de tarjetas de contenido {#configure-content-cards}
 
@@ -1040,5 +1068,5 @@ Durante la fase beta, sus comentarios son valiosos para ayudarnos a mejorar los 
 * [Creación de notificaciones push](../push/create-push.md)
 * [Generar recorridos](../building-journeys/journey-gs.md)
 * [Monitorización de los recorridos](../building-journeys/report-journey.md)
-* [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
+* [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configuración de conectores de origen en Journey Optimizer](../start/get-started-sources.md)
