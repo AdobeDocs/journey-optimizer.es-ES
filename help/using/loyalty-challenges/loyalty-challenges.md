@@ -3,15 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Desafíos de fidelización
 description: Aprenda a crear y administrar desafíos de lealtad en Adobe Journey Optimizer para crear programas de lealtad atractivos.
-feature: Loyalty challenges
-topic: Journeys
 role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
 version: Journey Orchestration
-source-git-commit: b68c2610cbaaa8dbd86deb677562185e08d517ea
+source-git-commit: ef8f7754b689491bb052023ffbef0c8400dd79fe
 workflow-type: tm+mt
 source-wordcount: '5146'
 ht-degree: 1%
@@ -117,7 +115,7 @@ Antes de usar Desafíos de fidelización, asegúrese de lo siguiente:
 
   Para obtener instrucciones detalladas, consulte:
 
-   * [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
+   * [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [Configuración de conectores de origen en Journey Optimizer](../start/get-started-sources.md)
 
 * Permisos necesarios {#required-permissions}
@@ -1068,5 +1066,5 @@ Durante la fase beta, sus comentarios son valiosos para ayudarnos a mejorar los 
 * [Creación de notificaciones push](../push/create-push.md)
 * [Generar recorridos](../building-journeys/journey-gs.md)
 * [Monitorización de los recorridos](../building-journeys/report-journey.md)
-* [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
+* [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configuración de conectores de origen en Journey Optimizer](../start/get-started-sources.md)
