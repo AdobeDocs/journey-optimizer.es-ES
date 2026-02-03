@@ -117,7 +117,7 @@ Antes de usar Desafíos de fidelización, asegúrese de lo siguiente:
 
   Para obtener instrucciones detalladas, consulte:
 
-   * [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+   * [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
    * [Configuración de conectores de origen en Journey Optimizer](../start/get-started-sources.md)
 
 * Permisos necesarios {#required-permissions}
@@ -1068,5 +1068,5 @@ Durante la fase beta, sus comentarios son valiosos para ayudarnos a mejorar los 
 * [Creación de notificaciones push](../push/create-push.md)
 * [Generar recorridos](../building-journeys/journey-gs.md)
 * [Monitorización de los recorridos](../building-journeys/report-journey.md)
-* [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
 * [Configuración de conectores de origen en Journey Optimizer](../start/get-started-sources.md)
