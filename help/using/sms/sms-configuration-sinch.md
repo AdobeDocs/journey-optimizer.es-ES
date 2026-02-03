@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 5b719ccfb38ea51d6f6c6a9204e235c022b01b4f
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 2%
+source-wordcount: '1358'
+ht-degree: 1%
 
 ---
 
@@ -23,6 +23,13 @@ Al utilizar el proveedor de Sinch con Journey Optimizer, puede encontrar tres op
 * **Configuración de MMS**: para la mensajería multimedia (MMS), configure sus credenciales de API de MMS de Sinch. Tenga en cuenta que el seguimiento y la respuesta a los mensajes entrantes se gestionan mediante la configuración de SMS. La configuración de MMS solo es para la entrega saliente del mensaje MMS.
 
 * **Configuración de RCS**: configure sus credenciales de API de Sinch para enviar mensajes RCS sin problemas.
+
+Para configurar su proveedor de Sinch, siga los pasos a continuación:
+
+1. [Crear credencial de API](#create-api)
+1. [Crear webhook](sms-webhook.md)
+1. [Crear configuración de canal](sms-configuration-surface.md)
+1. [Creación de un Recorrido o una campaña con una acción de canal SMS](create-sms.md)
 
 ## Configuración de credenciales de API para SMS{#create-api}
 
@@ -51,14 +58,14 @@ Para configurar su proveedor de Sinch para que envíe mensajes SMS y MMS con Jou
    | Proveedor de SMS | Sinch |
    | Nombre | Elija un nombre para su credencial de API. |
    | ID de servicio y token de API | Acceda a la página de API y encontrará sus credenciales en la pestaña SMS. Obtenga más información en [Documentación de Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}. |
-   | Palabras clave de inclusión | Introduzca las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su mensaje de inclusión. Para varias palabras clave, utilice valores separados por comas. |
-   | Mensaje de inclusión | Introduzca la respuesta personalizada que se envía automáticamente como mensaje de inclusión. |
-   | Palabras clave de exclusión | Introduzca las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente el mensaje de exclusión. Para varias palabras clave, utilice valores separados por comas. |
-   | Mensaje de exclusión | Introduzca la respuesta personalizada que se enviará automáticamente como mensaje de exclusión. |
-   | Palabras clave de ayuda | Escriba las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su **mensaje de ayuda**. Para varias palabras clave, utilice valores separados por comas. |
-   | Mensaje de ayuda | Escriba la respuesta personalizada que se enviará automáticamente como **mensaje de ayuda**. |
-   | Palabras clave de inclusión doble | Introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas. [Más información sobre la inclusión doble de SMS](https://video.tv.adobe.com/v/3440278/?captions=spa&learn=on). |
-   | Mensaje de inclusión doble | Introduzca la respuesta personalizada que se envía automáticamente en respuesta a la confirmación de doble inclusión. |
+   | Palabras clave de inclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Introduzca las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su mensaje de inclusión. Para varias palabras clave, utilice valores separados por comas. |
+   | Mensaje de inclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br> Escriba la respuesta personalizada que se enviará automáticamente como mensaje de inclusión. |
+   | Palabras clave de exclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br> Escriba las palabras clave predeterminadas o personalizadas que almacenarán automáticamente en déclencheur el mensaje de exclusión. Para varias palabras clave, utilice valores separados por comas. |
+   | Mensaje de exclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Escriba la respuesta personalizada que se enviará automáticamente como mensaje de exclusión. |
+   | Palabras clave de ayuda | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br> Escriba las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su **mensaje de ayuda**. Para varias palabras clave, utilice valores separados por comas. |
+   | Mensaje de ayuda | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Escriba la respuesta personalizada que se enviará automáticamente como **mensaje de ayuda**. |
+   | Palabras clave de inclusión doble | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas. [Más información sobre la inclusión doble de SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
+   | Mensaje de inclusión doble | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Escriba la respuesta personalizada que se enviará automáticamente en respuesta a la confirmación de inclusión doble. |
    | Número entrante | Añada su número de entrada único o código corto. Esto le permite utilizar las mismas credenciales de API en diferentes entornos limitados, cada uno con su propio número de entrada o código corto. |
    | Palabras clave de entrada personalizadas | Defina palabras clave únicas no relacionadas con el consentimiento para las acciones basadas en lotes, por ejemplo, DESCUENTO, OFERTAS, INSCRIBIRSE. Estas palabras clave se capturan y almacenan como atributos en el perfil, lo que le permite almacenar en déclencheur una calificación de segmentos por lotes dentro del recorrido y enviar una respuesta o acción personalizada. |
    | Mensaje de respuesta entrante predeterminado | Introduzca la respuesta predeterminada que se envía cuando un usuario final envía un SMS entrante que no coincide con ninguna de las palabras clave definidas. |
@@ -86,7 +93,7 @@ Para configurar su proveedor de Sinch para que envíe mensajes SMS y MMS con Jou
 
    ![](assets/verify-connection.png)
 
-Después de crear y configurar las credenciales de la API, debe crear una configuración de canal para los mensajes SMS. [Más información](sms-configuration-surface.md)
+Después de crear y configurar tu credencial de API, ahora necesitas crear [tu webhook](sms-webhook.md) y una configuración de canal para tus mensajes RCS. [Más información](sms-configuration-surface.md)
 
 ## Configurar credenciales de API para MMS{#sinch-mms}
 
@@ -115,8 +122,7 @@ Para configurar Sinch MMS para enviar MMS con Journey Optimizer, siga estos paso
 
 1. Para modificar las credenciales existentes, busque las credenciales de API que desee y haga clic en la opción **[!UICONTROL Editar]** para realizar los cambios necesarios.
 
-Después de crear y configurar las credenciales de la API, debe crear una configuración de canal para los mensajes MMS. [Más información](sms-configuration-surface.md)
-
+Después de crear y configurar tu credencial de API, ahora necesitas crear [tu webhook](sms-webhook.md) y una configuración de canal para tus mensajes RCS. [Más información](sms-configuration-surface.md)
 
 ## Configurar las credenciales de API para RCS
 

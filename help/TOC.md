@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 223209750f1147e97d003ffb9d7231c7cef75663
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '3077'
+source-wordcount: '3074'
 ht-degree: 98%
 
 ---
@@ -328,12 +328,12 @@ ht-degree: 98%
       + [Configuración de subdominios de SMS](using/sms/sms-subdomains.md)
       + [Prácticas recomendadas para la optimización del coste de SMS](using/sms/sms-cost-optimization.md)
       + Configuración de canales de SMS/MMS/RCS {#configure-sms}
-         + [Configuración de canales de SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Introducción a la configuración de SMS/MMS/RCS](using/sms/sms-configuration.md)
          + [Configuración del proveedor de Sinch](using/sms/sms-configuration-sinch.md)
          + [Configuración del proveedor de Infobip](using/sms/sms-configuration-infobip.md)
          + [Configuración del proveedor de Twilio](using/sms/sms-configuration-twilio.md)
          + [Configuración de un proveedor personalizado](using/sms/sms-configuration-custom.md)
+         + [Crear webhook](using/sms/sms-webhook.md)
          + [Creación de una configuración de SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
    + Correo directo {#direct-mail}
       + [Correo directo](/help/rp_landing_pages/direct-mail-landing-page.md)
@@ -844,7 +844,7 @@ ht-degree: 98%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}

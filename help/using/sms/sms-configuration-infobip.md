@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: bd925e1fd053a19e2102536049278e48b0784960
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '1130'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,16 @@ Si no se proporcionan las palabras clave de inclusión u exclusión, se utilizan
 
 >[!ENDSHADEBOX]
 
-## Configuración de credenciales de API para SMS
+Al integrar Infobip con Adobe Journey Optimizer, puede enviar mensajes de texto a sus perfiles como parte de sus recorridos y campañas.
+
+Para configurar Infobip como su proveedor de SMS, siga los pasos a continuación:
+
+1. [Crear credencial de API](#api-credential)
+1. [Crear webhook](sms-webhook.md)
+1. [Crear configuración de canal](sms-configuration-surface.md)
+1. [Creación de un Recorrido o una campaña con una acción de canal SMS](create-sms.md)
+
+## Configuración de credenciales de API para SMS {#api-credential}
 
 Para configurar Infobip con Journey Optimizer, siga estos pasos:
 
@@ -43,14 +52,14 @@ Para configurar Infobip con Journey Optimizer, siga estos pasos:
    | Proveedor de SMS | Infobip |
    | Nombre | Elija un nombre para su credencial de API. |
    | URL base de API y clave de API | Acceda a la página de inicio de la interfaz web o a la página de administración de claves de API para encontrar sus credenciales. Para extremos de dominio regionales o alternativos, como `api-ny2.infobip.com`, especifique la dirección URL base completa y compruebe el token de autorización con la compatibilidad con Infobip. </br>Obtenga más información en [Documentación de Infobip](https://www.infobip.com/docs/api){target="_blank"} |
-   | Palabras clave de inclusión | Introduzca las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su mensaje de inclusión. Para varias palabras clave, utilice valores separados por comas. |
-   | Mensaje de inclusión | Introduzca la respuesta personalizada que se envía automáticamente como mensaje de inclusión. |
-   | Palabras clave de exclusión | Introduzca las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente el mensaje de exclusión. Para varias palabras clave, utilice valores separados por comas. |
-   | Mensaje de exclusión | Introduzca la respuesta personalizada que se enviará automáticamente como mensaje de exclusión. |
-   | Palabras clave de ayuda | Escriba las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su **mensaje de ayuda**. Para varias palabras clave, utilice valores separados por comas. |
-   | Mensaje de ayuda | Escriba la respuesta personalizada que se enviará automáticamente como **mensaje de ayuda**. |
-   | Palabras clave de inclusión doble | Introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas. [Más información sobre la inclusión doble de SMS](https://video.tv.adobe.com/v/3440278/?captions=spa&learn=on). |
-   | Mensaje de inclusión doble | Introduzca la respuesta personalizada que se envía automáticamente en respuesta a la confirmación de doble inclusión. |
+   | Palabras clave de inclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Introduzca las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su mensaje de inclusión. Para varias palabras clave, utilice valores separados por comas. |
+   | Mensaje de inclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br> Escriba la respuesta personalizada que se enviará automáticamente como mensaje de inclusión. |
+   | Palabras clave de exclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br> Escriba las palabras clave predeterminadas o personalizadas que almacenarán automáticamente en déclencheur el mensaje de exclusión. Para varias palabras clave, utilice valores separados por comas. |
+   | Mensaje de exclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Escriba la respuesta personalizada que se enviará automáticamente como mensaje de exclusión. |
+   | Palabras clave de ayuda | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Escriba las palabras clave predeterminadas o personalizadas que almacenarán automáticamente en déclencheur su **mensaje de ayuda**. Para varias palabras clave, utilice valores separados por comas. |
+   | Mensaje de ayuda | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Escriba la respuesta personalizada que se enviará automáticamente como **mensaje de ayuda**. |
+   | Palabras clave de inclusión doble | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas. [Más información sobre la inclusión doble de SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
+   | Mensaje de inclusión doble | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Escriba la respuesta personalizada que se enviará automáticamente en respuesta a la confirmación de inclusión doble. |
    | ID de entidad principal | Introduzca el ID de entidad principal de DLT asignado. |
    | ID de plantilla de contenido | Introduzca su ID de plantilla de contenido DLT registrado. |
    | Período de validez | Introduzca el periodo de validez del mensaje en horas. En caso de que los mensajes no se puedan enviar dentro de este periodo de tiempo, el sistema intentará reenviarlos de nuevo. El periodo de validez predeterminado es de 48 horas. |
@@ -105,4 +114,4 @@ Para configurar RCS con Infobip:
 
    [Cree una nueva credencial de API](sms-configuration-custom.md#api-credential) en Journey Optimizer, seleccionando &quot;Personalizado&quot; como proveedor de SMS. Utilice el método de autenticación de extremo RCS adecuado, la dirección URL base y los encabezados.
 
-Después de crear y configurar las credenciales de la API, debe crear una configuración de canal para los mensajes RCS. [Más información](sms-configuration-surface.md)
+Después de crear y configurar tu credencial de API, ahora necesitas crear [tu webhook](sms-webhook.md) y una configuración de canal para tus mensajes RCS. [Más información](sms-configuration-surface.md)
