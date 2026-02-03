@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: 37606966f56468009aa1ef127751517eee0b3222
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 1%
@@ -87,9 +87,19 @@ Consulte la [documentación principal](loyalty-challenges.md#monitor-performance
 
 ## Prácticas recomendadas {#best-practices}
 
-### Creación de desafío* Empiece con lo sencillo para su primer desafío* Realice pruebas exhaustivas antes de publicar en producción* Garantizar una comunicación clara sobre requisitos y recompensas* Establezca un tiempo realista que permita a los clientes completar los desafíos
+### Creación de desafío
 
-### Gestión y monitorización* Compruebe el rendimiento del desafío regularmente (al menos una vez por semana para los desafíos en vivo)* Utilice nombres descriptivos que indiquen el propósito, la audiencia o el período de tiempo* Aplicar etiquetas coherentes para la organización* Archivar los desafíos completados para mantener el inventario manejable
+* Empiece con lo sencillo para su primer desafío
+* Realice pruebas exhaustivas antes de publicar en producción
+* Garantizar una comunicación clara sobre requisitos y recompensas
+* Establezca un tiempo realista que permita a los clientes completar los desafíos
+
+### Gestión y monitorización
+
+* Compruebe el rendimiento del desafío regularmente (al menos una vez por semana para los desafíos en vivo)
+* Utilice nombres descriptivos que indiquen el propósito, la audiencia o el período de tiempo
+* Aplicar etiquetas coherentes para la organización
+* Archivar los desafíos completados para mantener el inventario manejable
 
 Consulte la [documentación principal](loyalty-challenges.md#best-practices) para conocer las prácticas recomendadas completas.
 
