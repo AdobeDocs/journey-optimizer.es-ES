@@ -198,7 +198,7 @@ Para crear un nuevo desafío de fidelidad:
 
 Para crear o refinar audiencias, consulte [Crear audiencias en Journey Optimizer](../audience/about-audiences.md).
 
-4. Seleccione **[!UICONTROL Guardar como borrador]** para seguir configurando el desafío.
+&#x200B;4. Seleccione **[!UICONTROL Guardar como borrador]** para seguir configurando el desafío.
 
 ## Creación de tareas {#create-tasks}
 
