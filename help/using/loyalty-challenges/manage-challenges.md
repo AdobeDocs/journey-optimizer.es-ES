@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: 37606966f56468009aa1ef127751517eee0b3222
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -49,8 +49,6 @@ Los desafíos pasan por diferentes estados:
 * **Detenido**: detenido manualmente antes de finalizar
 * **Archivado**: archivado para fines organizativos
 
-Para obtener información detallada sobre cada estado y administrar desafíos, consulte la [documentación principal](loyalty-challenges.md#manage-challenges).
-
 ## Editar desafíos {#edit-challenges}
 
 Puede editar los desafíos según su estado actual:
@@ -60,8 +58,6 @@ Puede editar los desafíos según su estado actual:
 
 Para los cambios que requieran modificaciones importantes, duplique el desafío y cree una nueva versión.
 
-Consulte la [documentación principal](loyalty-challenges.md#edit-challenges) para obtener instrucciones de edición detalladas.
-
 ## Duplicar desafíos {#duplicate-challenges}
 
 Duplicar desafíos a:
@@ -69,8 +65,6 @@ Duplicar desafíos a:
 * Crear variaciones para diferentes audiencias
 * Actualizar requisitos o recompensas de tareas
 * Reactivar desafíos detenidos o completados
-
-Consulte la [documentación principal](loyalty-challenges.md#duplicate-challenge) para ver los pasos detallados.
 
 ## Monitorización del rendimiento {#monitor-performance}
 
@@ -82,8 +76,6 @@ Realice un seguimiento del rendimiento ante desafíos mediante:
 * **Métricas de participación**: impresiones de tarjetas de contenido, envío de mensajes
 
 Acceda a los datos de rendimiento en la pestaña Rendimiento del desafío y en los informes de recorrido autogenerados.
-
-Consulte la [documentación principal](loyalty-challenges.md#monitor-performance) para obtener métricas e informes detallados.
 
 ## Prácticas recomendadas {#best-practices}
 
@@ -101,8 +93,6 @@ Consulte la [documentación principal](loyalty-challenges.md#monitor-performance
 * Aplicar etiquetas coherentes para la organización
 * Archivar los desafíos completados para mantener el inventario manejable
 
-Consulte la [documentación principal](loyalty-challenges.md#best-practices) para conocer las prácticas recomendadas completas.
-
 ## Solución de problemas {#troubleshooting}
 
 Problemas y soluciones comunes:
@@ -111,8 +101,6 @@ Problemas y soluciones comunes:
 * **Tasas de participación bajas**: revise la visibilidad del contenido, la claridad de la mensajería y la capacidad de realizar tareas
 * **Tareas que no se activan**: Compruebe la ingesta de datos, atributos de evento, elegibilidad de la audiencia
 * **No se asignan las recompensas**: confirma la configuración y la conexión externa del sistema
-
-Consulte la [documentación principal](loyalty-challenges.md#troubleshooting) para obtener instrucciones detalladas sobre la solución de problemas.
 
 ## Próximos pasos {#next-steps}
 

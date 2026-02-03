@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 0%
+source-wordcount: '1079'
+ht-degree: 1%
 
 ---
 
@@ -54,8 +54,6 @@ Para ver los pasos detallados sobre la creación de desafíos, incluidos:
 * Tipos de desafío (estándar, de racha, secuencial)
 * Selección de audiencia
 * Configuración de fecha
-
-Consulte la guía completa en la [documentación principal](loyalty-challenges.md#create-challenges).
 
 ## Agregar tareas {#add-tasks}
 
@@ -248,16 +246,12 @@ Para ver los pasos detallados sobre la configuración de tarjetas de contenido, 
 * Diseño y personalización
 * Previsualización y pruebas
 
-Consulte la guía completa en la [documentación principal](loyalty-challenges.md#configure-content-cards).
-
 ## Configuración de mensajería {#configure-messaging}
 
 Para ver los pasos detallados sobre la configuración de la mensajería multicanal, incluyendo:
 * Canales de mensajes (en la aplicación, correo electrónico, push)
 * Fases del mensaje (inicio, en curso, finalización)
 * Déclencheur y tiempo de los mensajes
-
-Consulte la guía completa en la [documentación principal](loyalty-challenges.md#configure-messaging).
 
 ## Revisión y publicación {#review-and-publish}
 
