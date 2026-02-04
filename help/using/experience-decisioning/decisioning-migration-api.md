@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 398d4c2ab3a2312a0af5b8ac835f7d1f49a61b5b
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1154'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ La API del servicio de migración de decisiones permite migrar objetos de admini
 
 Esta API le permite realizar una transición sin problemas del contenido de toma de decisiones entre entornos (por ejemplo, de desarrollo a ensayo o de ensayo a producción) a la vez que mantiene la integridad de los datos y las relaciones.
 
-Para obtener más información sobre las ventajas y capacidades de Decisioning en comparación con la Administración de decisiones, consulte [Ventajas de migrar a Decisioning](migrate-to-decisioning.md).
+Para obtener más información sobre las ventajas y capacidades de la toma de decisiones en comparación con la administración de decisiones, consulte [esta página](migrate-to-decisioning.md).
 
 ## Competencias {#capabilities}
 
