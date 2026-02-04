@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1055'
 ht-degree: 1%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 1%
 
 # Crear desafíos {#create-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_create_challenge"
->title="Crear un desafío de fidelidad"
->abstract="Cree un desafío de fidelidad para definir la oferta de participación, configurar las tarjetas de contenido para la entrega, añadir tareas, configurar recompensas y, opcionalmente, configurar la mensajería entre canales."
-
-Cree un desafío de fidelidad para definir la oferta de participación, configurar las tarjetas de contenido, añadir tareas, configurar recompensas y configurar la mensajería entre canales.
-
 >[!BEGINSHADEBOX]
 
 **Documentación de retos de fidelización:**
 
-* [Introducción a los retos de fidelización](gs-loyalty-challenges.md): información general rápida y pasos siguientes
-* [Comprender los desafíos de fidelidad](get-started.md): características, flujo de trabajo, requisitos previos
+* [Introducción a los retos de fidelización](get-started.md): información general, flujo de trabajo, requisitos previos
+* [Desafíos de fidelidad de acceso](access-loyalty-challenges.md): inventario y filtrado
 * **Crear desafíos** ◀︎ **Usted está aquí** - Generar y configurar desafíos
 * [Administrar desafíos](manage-challenges.md): editar, supervisar y optimizar
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_create_challenge"
+>title="Crear un desafío de fidelidad"
+>abstract="Cree un desafío de fidelidad para definir la oferta de participación, configurar las tarjetas de contenido para la entrega, añadir tareas, configurar recompensas y, opcionalmente, configurar la mensajería entre canales."
 
 ## Antes de comenzar {#before-you-start}
 

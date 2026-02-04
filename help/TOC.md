@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
 source-wordcount: '3086'
 ht-degree: 98%
@@ -133,8 +133,8 @@ ht-degree: 98%
       + [Limitación del rendimiento con fuentes de datos externas y acciones personalizadas](using/building-journeys/limit-throughput.md)
       + [Utilice acciones personalizadas para escribir los eventos de recorrido en Experience Platform](using/building-journeys/custom-action-aep.md)
 + Retos de fidelización {#loyalty-challenges}
-   + [Introducción a los retos de fidelización](using/loyalty-challenges/gs-loyalty-challenges.md)
-   + [Comprender los desafíos de fidelización](using/loyalty-challenges/get-started.md)
+   + [Introducción a los retos de fidelización](using/loyalty-challenges/get-started.md)
+   + [Acceder a retos de fidelización](using/loyalty-challenges/access-loyalty-challenges.md)
    + [Crear desafíos](using/loyalty-challenges/create-challenges.md)
    + [Gestionar desafíos](using/loyalty-challenges/manage-challenges.md)
 + Campañas {#campaigns}
@@ -848,7 +848,7 @@ ht-degree: 98%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
