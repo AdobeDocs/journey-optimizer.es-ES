@@ -114,7 +114,7 @@ Los desafíos de fidelización dependen de los datos introducidos a través de l
 
 Para obtener instrucciones detalladas, consulte:
 
-* [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
 * [Configuración de conectores de origen en Journey Optimizer](../start/get-started-sources.md)
 
 ### Permisos necesarios {#required-permissions}
