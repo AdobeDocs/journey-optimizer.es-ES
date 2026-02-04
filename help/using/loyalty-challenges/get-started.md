@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: f235c56fd06b0e6ec41d1040c2b1ac057eb872f9
+source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---
@@ -39,29 +39,36 @@ ht-degree: 1%
 
 Los Desafíos de fidelidad proporcionan una solución completa para crear programas de fidelidad a escala, desde la definición de tareas e hitos hasta la entrega de contenido y el seguimiento del rendimiento en todos los canales.
 
+![](assets/challenges-gs.png)
+
 Puede crear tres tipos de experiencias de desafío:
 
-* **Desafíos estándar**: Los clientes completan cualquier número especificado de tareas en cualquier orden
-* **Retos de la racha**: Los clientes completan la misma tarea varias veces consecutivamente
-* **Desafíos secuenciales**: Los clientes completan las tareas en un orden definido
+* **Desafíos estándar**: Los clientes completan cualquier número especificado de tareas en cualquier orden\
+  *Ejemplo: completar 3 de 5 tareas disponibles*
 
-Con los Retos de fidelización, puede configurar recompensas, enviar notificaciones de varios canales en etapas clave del ciclo vital y monitorizar el rendimiento a través de recorridos generados automáticamente, todo mientras mantiene la integración con su sistema de administración de fidelidad externo.
+* **Retos de la racha**: Los clientes completan la misma tarea varias veces consecutivamente\
+  *Ejemplo: Realizar una compra en 7 días consecutivos*
+
+* **Desafíos secuenciales**: Los clientes completan las tareas en un orden definido\
+  *Ejemplo: compra → revisión → uso compartido (debe completarse en esta secuencia)*
+
+Con los Retos de fidelización, puede configurar las recompensas y enviar notificaciones multicanal en etapas clave del ciclo vital mediante recorridos autogenerados, todo ello sin perder la integración con su sistema de administración de fidelidad externo.
 
 ## Funcionamiento {#how-it-works}
 
 La creación y el lanzamiento de un desafío de fidelidad siguen este flujo de trabajo:
 
-1. **Configurar la ingesta de datos** - Configurar conectores de origen de Experience Platform (como el [conector capilar](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home#loyalty)) para ingerir datos de evento de lealtad que rastrean las acciones y el progreso de los clientes. Estos datos alimentan el seguimiento de desafíos y la finalización de tareas.
-
-1. **Seleccionar audiencia de destino** - Defina qué clientes pueden participar en su desafío seleccionando una audiencia de Adobe Experience Platform.
+1. **Configurar la ingesta de datos** - Configurar conectores de origen de Experience Platform (como el [conector capilar](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) para ingerir datos de evento de lealtad que rastrean las acciones y el progreso de los clientes. Estos datos alimentan el seguimiento de desafíos y la finalización de tareas.
 
 1. **Crear un desafío**: defina las propiedades básicas del desafío, como nombre, tipo (Estándar, Secuencial o Streak) e intervalo de fechas.
 
-1. **Agregar tareas**: defina las acciones específicas que deben completar los clientes, incluidos los tipos de tareas (compras, gastos, visitas, participaciones, eventos personalizados), cantidades, filtros de productos y recompensas.
+1. **Agregar tareas**: defina las acciones específicas que deben completar los clientes, incluidos los tipos de tareas (compras, gastos), cantidades, filtros de productos y recompensas.
 
 1. **Diseñar tarjetas de contenido**: cree la representación visual de su desafío con tarjetas de contenido de Journey Optimizer que se muestran en los dispositivos del cliente. Las tarjetas de contenido muestran información de desafío, progreso y recompensas.
 
 1. **Configurar mensajes** (opcional): configure mensajes multicanal (en la aplicación, correo electrónico, push) para las fases clave del ciclo vital: inicio, en curso y finalización.
+
+1. **Seleccionar audiencia de destino** - Defina qué clientes pueden participar en su desafío seleccionando una audiencia de Adobe Experience Platform.
 
 1. **recorrido de publicación**: Journey Optimizer genera automáticamente un recorrido para el desafío. Vaya al inventario de Recorridos y publique el recorrido generado automáticamente para que el desafío esté disponible para los clientes.
 
@@ -75,11 +82,11 @@ Antes de usar Desafíos de fidelización, asegúrese de lo siguiente:
 
 Los retos de fidelización dependen de los datos introducidos a través de los conectores de origen de Experience Platform para rastrear el progreso de los clientes y la finalización de las tareas.
 
-1. **Configurar un conector de origen admitido**: actualmente, el conector Capillary está disponible. Se han planificado conectores adicionales para futuras versiones. [Más información acerca de los conectores de origen de fidelidad](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home#loyalty).
+1. **Configurar un conector de origen admitido**: actualmente, el conector Capillary está disponible. Se han planificado conectores adicionales para futuras versiones. [Más información acerca de los conectores de origen de fidelidad](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 1. **Validar la ingesta de datos**: Asegúrese de que los eventos de lealtad y los datos de clientes fluyen a Experience Platform y están disponibles en Journey Optimizer. Compruebe que el esquema de datos incluye los campos necesarios para rastrear las acciones de los clientes y el progreso.
 
-Para obtener instrucciones detalladas, consulte [Resumen de fuentes de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
+Para obtener instrucciones detalladas, consulte [Resumen de fuentes de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 +++
 
@@ -136,18 +143,7 @@ Defina una audiencia de destino que especifique qué clientes pueden participar 
     <a href="create-tasks.md"><strong>Crear tareas</strong></a>
     </div>
     <p>
-    <em>Defina acciones y recompensas para los desafíos</em>
-    </p>
-  </td>
-  <td>
-    <a href="access-loyalty-challenges.md">
-    <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
-    </a>
-    <div>
-    <a href="access-loyalty-challenges.md"><strong>Administrar desafíos y tareas</strong></a>
-    </div>
-    <p>
-    <em>Editar, duplicar y eliminar desafíos y tareas</em>
+    <em>Definir acciones que completar para los desafíos</em>
     </p>
   </td>
 </tr>

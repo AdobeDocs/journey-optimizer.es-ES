@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1445'
 ht-degree: 0%
 
 ---
@@ -71,13 +71,13 @@ En la ficha **[!UICONTROL Estructura]**, defina la organización del desafío: l
 
 ### Programar el desafío {#schedule}
 
-Configure cuándo se ejecuta el desafío seleccionando el icono ![](assets/do-not-localize/schedule-icon.svg) **[!UICONTROL Abrir programación]**:
+Configure cuándo se ejecutará el desafío seleccionando el icono **[!UICONTROL Abrir programación]**:
 
-![](assets/challenge-create-properties.png)
+![](assets/challenge-create-schedule.png)
 
 * **[!UICONTROL Fecha y hora de inicio]**: establezca cuándo el desafío estará disponible para los clientes.
 * **[!UICONTROL Fecha y hora de finalización]**: establezca cuándo caduca el desafío y ya no acepta nuevas finalizaciones.
-   * **[!UICONTROL Zona horaria]**: El desafío utiliza la zona horaria local del destinatario de forma predeterminada.
+* **[!UICONTROL Zona horaria]**: El desafío utiliza la zona horaria local del destinatario de forma predeterminada.
 * **[!UICONTROL Las tareas deben completarse]**: elija cuándo los clientes pueden completar las tareas:
 
    * **[!UICONTROL En cualquier momento durante el desafío]**: los clientes pueden completar las tareas en cualquier momento entre las fechas de inicio y finalización del desafío.
@@ -89,17 +89,6 @@ La programación de desafíos ya está configurada. A continuación, añada las 
 
 Las tareas definen las acciones específicas que los clientes deben completar para obtener recompensas. Puede configurar tipos de tareas (compras, gastos), cantidades, filtros de productos y otros atributos.
 
-Según el tipo de desafío, los clientes completan las tareas de forma diferente:
-
-* **Desafíos estándar**: complete cualquier número especificado de tareas en cualquier orden\
-  *Ejemplo: completar 3 de 5 tareas: realizar una compra, escribir una crítica, recomendar a un amigo, compartir en medios sociales o actualizar perfil*
-
-* **Rastrear desafíos**: complete la misma tarea varias veces de manera consecutiva\
-  *Ejemplo: haz una compra por 7 días consecutivos para ganar recompensas de bonificación*
-
-* **Desafíos secuenciales**: complete las tareas en un orden definido\
-  *Ejemplo: primero realiza una compra, luego escribe una revisión y luego comparte en los medios sociales; las tareas deben completarse en esta secuencia exacta*
-
 Para añadir tareas al desafío, siga estos pasos:
 
 1. En la sección **[!UICONTROL Tareas]**, seleccione **[!UICONTROL Agregar tarea]**.
@@ -108,12 +97,41 @@ Para añadir tareas al desafío, siga estos pasos:
 
 1. Se abre **[!UICONTROL Inventario de tareas]**. Seleccione una o más tareas de la lista y seleccione **[!UICONTROL Agregar]**. Para crear una tarea nueva, seleccione **[!UICONTROL Nuevo]**. [Aprenda a crear y configurar tareas](create-tasks.md).
 
-1. En la sección **[!UICONTROL Requisito para finalizar la tarea]**, especifique cuándo se considera completado el desafío:
+1. Especifique cuándo se considera completado el desafío. La configuración disponible depende del tipo de desafío:
 
-   * **[!UICONTROL El cliente elige 1 tarea para completar]**: Los clientes pueden seleccionar y completar cualquier tarea para obtener recompensas.
-   * **[!UICONTROL El cliente completa una cantidad específica de tareas]**: los clientes deben completar una cantidad definida de tareas.
+   +++Desafíos estándar
 
-1. De forma predeterminada, los desafíos permiten a los clientes completar tareas en varias transacciones. Para requerir que todas las tareas se completen en una sola transacción, seleccione el icono ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Configuración]** y active la siguiente opción.
+   **[!UICONTROL Requisito para finalizar la tarea]** - Elija entre:
+
+   * **[!UICONTROL El cliente elige 1 tarea para completar]**: Los clientes pueden seleccionar y completar cualquier tarea para obtener recompensas
+   * **[!UICONTROL El cliente completa una cantidad específica de tareas]**: los clientes deben completar una cantidad definida de tareas. Especifique el número requerido - *Ejemplo: completar 3 de 5 tareas*
+
+   +++
+
+   +++Racha de desafíos
+
+   * **[!UICONTROL Tipo de transmisión]**:
+
+      * **Consecutivo**: Los clientes deben completar la tarea en días consecutivos sin pausas - *Ejemplo: comprar el lunes, martes, miércoles - si falta un día se rompe la racha*
+
+      * **No consecutivo**: los clientes pueden completar la tarea con espacios entre finalizaciones - *Ejemplo: completar 7 compras durante 30 días, con descansos permitidos*
+
+   * **[!UICONTROL Longitud de la racha]**: especifique cuántas veces se debe completar la tarea - *Ejemplo: establezca en 7 para una &quot;racha de compras de 7 días&quot;*
+
+   +++
+
+   +++Desafíos secuenciales
+
+   **[!UICONTROL Requisito para finalizar la tarea]** - Elija entre:
+
+   * **[!UICONTROL El cliente elige 1 tarea para completar]**: Los clientes pueden seleccionar y completar cualquier tarea para obtener recompensas
+   * **[!UICONTROL El cliente completa un número específico de tareas]**: los clientes deben completar un número definido de tareas en el orden exacto definido. Si falta o se omite una tarea, se interrumpe la secuencia. Especifique el número necesario (por ejemplo, complete 3 de 5 tareas)
+
+   *Ejemplo: Tarea 1 (compra) → Tarea 2 (revisión) → Tarea 3 (uso compartido) - debe completarse en este pedido*
+
+   +++
+
+1. De forma predeterminada, los desafíos estándar y secuenciales permiten a los clientes completar tareas en varias transacciones. Para requerir que todas las tareas se completen en una sola transacción, seleccione el icono ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Configuración]** y active la siguiente opción.
 
    ![](assets/challenge-create-single-transaction.png)
 
