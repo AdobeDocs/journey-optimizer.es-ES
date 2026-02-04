@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Puede crear tareas a partir de dos puntos de entrada. El proceso de configuraci�
 
 +++Del inventario Tareas
 
-1. Vaya a **[!UICONTROL Desafíos de fidelización]** en Journey Optimizer.
+1. Vaya a **[!UICONTROL Desafíos de fidelidad (Beta)]** en Journey Optimizer.
 
 1. Seleccione la ficha **[!UICONTROL Tareas]**.
 

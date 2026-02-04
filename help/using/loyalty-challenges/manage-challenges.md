@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 1%
+source-wordcount: '804'
+ht-degree: 0%
 
 ---
 
@@ -45,67 +45,38 @@ ht-degree: 1%
 Los desafíos pasan por diferentes estados durante su ciclo de vida:
 
 * **Borrador**: el desafío se está creando o editando y aún no está disponible para los clientes
-* **Programado**: el desafío se ha publicado y se activará automáticamente en la fecha de inicio especificada
-* **Activo**: el desafío está activo y los clientes pueden participar
-* **Completado**: el desafío ha finalizado; la fecha de finalización ha pasado o se han cumplido todos los objetivos
-* **Detenido**: el desafío se detuvo manualmente antes de alcanzar su finalización natural
-* **Archivado**: el desafío se archivó con fines organizativos y ya no está visible en el inventario principal
+* **Publicado**: el desafío está activo, se ha creado el recorrido asociado.
 
 ### Editar desafíos {#edit-challenges}
 
-Puede editar los desafíos según su estado actual:
+Puede editar los desafíos abriéndolos en el inventario Desafíos. El comportamiento de edición difiere según el estado del desafío:
 
-* **Desafíos del borrador**: Capacidad de edición completa: se pueden modificar todas las propiedades
-* **Desafíos programados/activos**: edición limitada: puede actualizar el contenido, los mensajes y ampliar las fechas, pero no puede cambiar la estructura principal del desafío (definiciones de tipo, audiencia o tarea)
+**Desafíos de borrador**: Tiene capacidad de edición completa. Todas las propiedades, tareas, contenido y mensajes se pueden modificar sin restricciones.
 
-Para editar un desafío:
+**Desafíos publicados**: Cuando abra un desafío publicado para editarlo, primero deberá revertirlo al estado Borrador.
 
-1. Vaya a la pestaña **[!UICONTROL Retos]** del inventario Retos de fidelización.
+* Se perderán todas las personalizaciones realizadas directamente en el recorrido generado automáticamente
+* El desafío vuelve al estado Borrador
+* Después de realizar los cambios, debe guardar y publicar el desafío de nuevo
+* Debe reactivar el recorrido asociado para que el desafío actualizado esté disponible para los clientes
 
-1. Busque el desafío que desee editar.
-
-1. Seleccione el nombre del desafío para abrirlo en modo de edición.
-
-1. Realice los cambios según el estado del desafío:
-   * **Desafíos del borrador**: modifica cualquier propiedad, tarea, contenido o mensaje
-   * **Desafíos programados/activos**: actualice las tarjetas de contenido, los mensajes o extienda las fechas de finalización según sea necesario
-
-1. Guarde los cambios. Para los desafíos programados o activos, los cambios se aplican inmediatamente o según la programación de actualización.
-
->[!NOTE]
+>[!IMPORTANT]
 >
->Para los cambios que requieran modificaciones importantes (como cambiar el tipo de desafío, la audiencia o la estructura de la tarea), duplique el desafío y cree una nueva versión en lugar de editar la existente.
+>La reversión de un desafío publicado a borrador no se puede deshacer. Tenga en cuenta el impacto en el recorrido activo antes de continuar.
 
 ### Duplicar desafíos {#duplicate-challenges}
-
-Duplicar desafíos a:
-
-* Volver a ejecutar desafíos correctos para nuevos períodos de tiempo
-* Crear variaciones para diferentes audiencias
-* Actualizar requisitos o recompensas de tareas
-* Reactivar desafíos detenidos o completados
 
 Al duplicar un desafío, se crea una copia exacta con todas las tareas, el contenido y los mensajes intactos, lo que le permite crear rápidamente nuevas versiones sin tener que empezar desde cero.
 
 Para duplicar un desafío:
 
-1. Vaya a la pestaña **[!UICONTROL Retos]** del inventario Retos de fidelización.
+1. Vaya a la pestaña **[!UICONTROL Desafíos]** y busque el desafío que quiera duplicar.
 
-1. Busque el desafío que desea duplicar.
+1. Seleccione el icono ![](assets/do-not-localize/Smock_More_18_N.svg) que está junto a ese desafío y elija **[!UICONTROL Duplicado]**.
 
-1. Seleccione el menú de más acciones (tres puntos) que está junto a ese desafío.
+1. Se crea una copia del desafío. Abra el desafío duplicado y modifique las propiedades necesarias.
 
-1. Elija **[!UICONTROL Duplicado]**.
-
-1. Se crea una copia del desafío con &quot;[Copy]&quot; anexado a su nombre.
-
-1. Abra el desafío duplicado y modifique las propiedades necesarias:
-   * Actualizar el nombre del desafío
-   * Ajuste de las fechas de inicio y finalización
-   * Cambie la audiencia de destino si es necesario
-   * Modifique tareas, recompensas, contenido o mensajes según sea necesario
-
-1. Revise y publique el desafío duplicado.
+1. Guarde el desafío duplicado y genere el recorrido asociado.
 
 ### Monitorización del rendimiento {#monitor-performance}
 
@@ -184,7 +155,7 @@ Para eliminar una tarea:
 
 1. Verifique que el recuento **[!UICONTROL Utilizado en los desafíos]** muestre 0. Si el recuento es mayor que 0, primero debe eliminar la tarea de todos los desafíos antes de la eliminación.
 
-1. Seleccione el menú de más acciones (tres puntos) que está junto a la tarea.
+1. Seleccione el icono ![](assets/do-not-localize/Smock_More_18_N.svg) junto a la tarea.
 
 1. Elija **[!UICONTROL Eliminar]**.
 

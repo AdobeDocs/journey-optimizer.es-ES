@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Los retos de fidelización dependen de los datos introducidos a través de los c
 
 Para obtener instrucciones detalladas, consulte:
 
-* [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
+* [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configuración de conectores de origen en Journey Optimizer](../start/get-started-sources.md)
 
 +++
@@ -95,7 +95,7 @@ Para obtener instrucciones detalladas, consulte:
 
 Para utilizar Desafíos de fidelización, necesita los permisos adecuados en Journey Optimizer. Los permisos obligatorios incluyen:
 
-* Acceso a la función **[!UICONTROL Retos de fidelización]**
+* Acceso a la función **[!UICONTROL Desafíos de fidelización (Beta)]**
 * Permisos para crear y administrar recorridos
 * Permisos para crear y administrar tarjetas de contenido
 * Permisos para crear y administrar audiencias
@@ -106,7 +106,7 @@ Póngase en contacto con el administrador si no puede acceder a la función o ne
 
 +++Públicos destinatarios
 
-Cree audiencias de destino en Experience Platform antes de crear desafíos. Estas audiencias definen qué clientes pueden participar en los desafíos de fidelidad. Para obtener más información sobre cómo crear audiencias, consulte [Introducción a las audiencias](../audience/about-audiences.md).
+Defina audiencias de destino que especifiquen qué clientes pueden participar en sus desafíos de fidelidad. Puede seleccionar audiencias existentes o crear nuevas directamente desde la interfaz de creación de desafíos. Para obtener más información sobre cómo trabajar con audiencias, consulte [Introducción a las audiencias](../audience/about-audiences.md).
 
 +++
 
