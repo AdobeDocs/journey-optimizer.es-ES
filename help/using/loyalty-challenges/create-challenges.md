@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: 831809b4c1dd19fdaeeb646695f606c02ec21265
+source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -171,7 +171,7 @@ Antes de publicar el desafío:
 
 1. **Revisar todos los componentes**: Compruebe las propiedades, tareas, recompensas, tarjetas de contenido y configuraciones de mensajería del desafío.
 
-1. **Probar la experiencia**: use [perfiles de prueba](../test-approve/test-profiles.md) para validar la visualización de la tarjeta de contenido y el comportamiento del déclencheur de tareas.
+1. **Probar la experiencia**: use [perfiles de prueba](../content-management/test-profiles.md) para validar la visualización de la tarjeta de contenido y el comportamiento del déclencheur de tareas.
 
 1. **Publicar**: Seleccione **[!UICONTROL Publicar]** para que el desafío esté disponible para la audiencia de destino.
 
@@ -185,7 +185,7 @@ Para poner el desafío a disposición de los clientes:
 
 1. Busque el recorrido generado automáticamente (tendrá el prefijo &quot;Challenge:&quot; en su nombre).
 
-1. [Activar el recorrido](../building-journeys/publishing-the-journey.md).
+1. [Activar el recorrido](../building-journeys/publish-journey.md).
 
 El recorrido se inicia automáticamente en la fecha de inicio del desafío especificada.
 

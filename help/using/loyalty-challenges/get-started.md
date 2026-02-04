@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
+source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -66,9 +66,9 @@ La creación y el lanzamiento de un desafío de fidelidad siguen este flujo de t
 
 1. **Configurar mensajes** (opcional): configura mensajes multicanal ([en la aplicación](../in-app/get-started-in-app.md), [correo electrónico](../email/get-started-email.md), [push](../push/get-started-push.md)) para las fases clave del ciclo vital: inicio, en curso y finalización.
 
-1. **Revisar y publicar**: pruebe el desafío con [perfiles de prueba](../test-approve/test-profiles.md) y publíquelo para que esté disponible para la audiencia de destino.
+1. **Revisar y publicar**: pruebe el desafío con [perfiles de prueba](../content-management/test-profiles.md) y publíquelo para que esté disponible para la audiencia de destino.
 
-1. **Activar recorrido**: cuando publica un desafío, Journey Optimizer crea automáticamente un [recorrido](../building-journeys/journey-gs.md) en estado de Borrador que organiza la entrega y la mensajería de la tarjeta de contenido. Vaya al inventario de Recorridos, busque el recorrido generado automáticamente (denominado &quot;Desafío: [Nombre del desafío]&quot;) y [actívelo](../building-journeys/publishing-the-journey.md) para que el desafío esté disponible para sus clientes.
+1. **Activar recorrido**: cuando publica un desafío, Journey Optimizer crea automáticamente un [recorrido](../building-journeys/journey-gs.md) en estado de Borrador que organiza la entrega y la mensajería de la tarjeta de contenido. Vaya al inventario de Recorridos, busque el recorrido generado automáticamente (denominado &quot;Desafío: [Nombre del desafío]&quot;) y [actívelo](../building-journeys/publish-journey.md) para que el desafío esté disponible para sus clientes.
 
 1. **Monitorizar el rendimiento**: haga un seguimiento de la participación, las tasas de finalización, la distribución de recompensas y la participación en los mensajes mediante informes integrados y el lienzo de recorrido. Consulte [Administrar desafíos](manage-challenges.md) para obtener detalles de supervisión.
 
@@ -86,7 +86,7 @@ Los retos de fidelización dependen de los datos introducidos a través de los c
 
 Para obtener instrucciones detalladas, consulte:
 
-* [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
+* [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configuración de conectores de origen en Journey Optimizer](../start/get-started-sources.md)
 
 +++
