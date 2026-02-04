@@ -7,9 +7,9 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5868a3c9eb1d0faca62887353145cd86cde883f
+source-git-commit: 97464b7afa07199792bd4311d0477b5bcb140d8e
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -96,3 +96,12 @@ La tabla **[!UICONTROL desglose de latencia]** proporciona un desglose detallado
 
 ➡️[Consulte la sección KPI para obtener una descripción de las métricas de latencia](#kpis)
 
+## Vídeo práctico {#video}
+
+El siguiente vídeo muestra cómo monitorizar la fiabilidad y el rendimiento de las llamadas de API realizadas desde sus recorridos a sistemas de terceros.
+
++++Vea el vídeo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
+
++++
