@@ -102,6 +102,6 @@ El siguiente vídeo muestra cómo monitorizar la fiabilidad y el rendimiento de 
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479544?captions=spa&quality=12&learn=on)
 
 +++
