@@ -7,7 +7,7 @@ short-description: Descubra las características clave y los casos de uso de las
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ Conozca los conceptos y las capacidades clave disponibles con las campañas orqu
 >[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
 
 
-## Vamos a profundizar
+## Profundicemos
 
 Ahora que ya sabe qué son las campañas orquestadas, es el momento de profundizar en estas secciones de la documentación para empezar a trabajar con esta función.
 

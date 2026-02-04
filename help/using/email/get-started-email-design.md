@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: correo electrónico, diseño, stock, activos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Una vez creado un correo electrónico, puede empezar a diseñar su contenido.
 
    ![](assets/email_designer_export.png)
 
-1. También puede validar la calidad del contenido para identificar posibles problemas con legibilidad, coherencia del contenido y eficacia. [Más información acerca de la validación de calidad del contenido](../content-management/brands-score.md#validate-quality)
+1. También puede validar la calidad del contenido para identificar posibles problemas con legibilidad, coherencia del contenido y eficacia. [Más información sobre la validación de calidad del contenido](../content-management/brands-score.md#validate-quality)
 
 ## Prácticas recomendadas para el diseño de correo electrónico {#best-practices}
 
@@ -84,8 +84,8 @@ Consulte la tabla siguiente para conocer las prácticas recomendadas sobre el di
 
 Aprenda a crear contenido de correo electrónico con el editor de mensajes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416231?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Aprenda a configurar experimentos de contenido para realizar pruebas A/B y explorar el contenido de correo electrónico que mejor impulsa sus objetivos empresariales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447334?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
