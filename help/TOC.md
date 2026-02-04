@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
 source-wordcount: '3091'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -298,7 +298,7 @@ ht-degree: 97%
          + [Configuración de canal de correo electrónico](/help/rp_landing_pages/configure-email-landing-page.md)
          + [Empezar con la configuración de correo electrónico](using/email/get-started-email-config.md)
          + [Definir la configuración de correo electrónico](using/email/email-settings.md)
-         + [Habilitar la cancelación de suscripción a una lista](using/email/list-unsubscribe.md)
+         + [Habilitar la cancelación de suscripción a la lista](using/email/list-unsubscribe.md)
          + [Parámetros de encabezado](using/email/header-parameters.md)
          + [Seguimiento de URL](using/email/url-tracking.md)
          + [Personalización de la configuración de correo electrónico](using/email/surface-personalization.md)
@@ -497,7 +497,7 @@ ht-degree: 97%
       + Marcas {#brands}
          + [Marcas](/help/rp_landing_pages/brands-landing-page.md)
          + [Creación y administración de sus marcas](using/content-management/brands.md)
-         + [Personalice sus marcas](using/content-management/brands-personalize.md)
+         + [Personalización de su marca](using/content-management/brands-personalize.md)
          + [Evaluar el contenido](using/content-management/brands-score.md)
    + Contenido multilingüe {#content-multilingual}
       + [Contenido multilingüe](/help/rp_landing_pages/content-multilingual-landing-page.md)
@@ -510,7 +510,7 @@ ht-degree: 97%
       + [Introducción a la optimización](using/content-management/gs-message-optimization.md)
       + [Usar segmentación](using/content-management/optimization-targeting.md)
       + [Uso de la experimentación](using/content-management/optimization-experimentation.md)
-      + [Combinación de direccionamiento y experimentación](using/content-management/optimization-combination.md)
+      + [Combinación de segmentación y experimentación](using/content-management/optimization-combination.md)
    + Experimento del contenido {#content-experiment}
       + [Introducción al experimento de contenido](using/content-management/get-started-experiment.md)
       + [Introducción a Experiment Accelerator](using/content-management/experiment-accelerator-gs.md)
@@ -850,7 +850,7 @@ ht-degree: 97%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}

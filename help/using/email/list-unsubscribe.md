@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
 source-wordcount: '1736'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,7 @@ En ambos casos, cuando un destinatario hace clic en el vínculo de no participac
 >
 >En ocasiones, los eventos de cancelación de suscripción pueden tardar más en reflejarse en el nivel de perfil debido al procesamiento de datos descendente. Espere un poco para que se actualice el sistema.
 
-## Habilitar la cancelación de suscripción a una lista {#enable-list-unsubscribe}
+## Habilitar la cancelación de suscripción a la lista {#enable-list-unsubscribe}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
@@ -127,9 +127,9 @@ Para personalizar aún más los puntos finales<!-- (**[!UICONTROL Mailto (unsubs
 
 >[!AVAILABILITY]
 >
->Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+>Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 >
->Para la opción **[!UICONTROL Mailto (cancelar la suscripción)]**, debe usar los nuevos parámetros de consulta descritos en la sección **Mailto (cancelar la suscripción) con atributos personalizados (disponibilidad limitada)** [debajo](#configure-decrypt-api).
+>Para la opción **[!UICONTROL Mailto (cancelar la suscripción)]**, debe usar los nuevos parámetros de consulta que se describen en la sección **Mailto (cancelar la suscripción) con los atributos personalizados (disponibilidad limitada)** [a continuación](#configure-decrypt-api).
 
 Para definir los atributos personalizados de los puntos finales, utilice la sección **[!UICONTROL Parámetros de seguimiento de URL]**. Todos los parámetros de seguimiento de URL que defina en la sección correspondiente se adjuntarán al final de los puntos finales personalizados, además de los parámetros predeterminados. [Aprenda a configurar el seguimiento de URL personalizado](url-tracking.md)
 
@@ -247,7 +247,7 @@ A partir de octubre de 2025, si utiliza la opción **[!UICONTROL Administrado po
 
 >[!AVAILABILITY]
 >
->Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+>Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 La llamada GET es la siguiente:
 
@@ -265,7 +265,7 @@ Parámetros de consulta:
 
    * Valor analizado: *v1.xyz*
 
-Ejemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Ejemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

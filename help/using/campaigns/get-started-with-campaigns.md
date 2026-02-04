@@ -13,7 +13,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1510'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Esta guía proporciona una hoja de ruta clara para ayudarle a comprender los asp
 
 Las **Campañas** son acciones de marketing coordinadas que envían contenido a un público específico a través de uno o más canales. A diferencia de los recorridos en los que las acciones se ejecutan secuencialmente, las campañas realizan acciones simultáneamente, ya sea de forma inmediata o en una programación definida.
 
-Utilice [!DNL Journey Optimizer] campañas para lo siguiente:
+Utilice campañas de [!DNL Journey Optimizer] para:
 
 * Ofrezca **contenido puntual o recurrente** a los segmentos de público objetivo
 * Ejecute **comunicaciones multicanal coordinadas** por correo electrónico, push, SMS, en la aplicación, web y mucho más
@@ -176,7 +176,7 @@ Antes de trabajar con campañas, asegúrese de haber revisado los requisitos pre
 
   +++
 
-  +++Asignación de permisos de campaña
+  +++Aprenda a asignar permisos de campaña
 
    1. Vaya a la pestaña **[!UICONTROL Funciones]** en el producto [!DNL Permissions] y seleccione una de las **[!UICONTROL funciones]** relacionadas con la campaña integrada.
 
@@ -276,7 +276,7 @@ Realice un seguimiento del rendimiento de la campaña:
 
 +++
 
-## Vamos a profundizar {#get-started-types}
+## Profundicemos {#get-started-types}
 
 Ahora que comprende las campañas de [!DNL Journey Optimizer], elija el tipo de campaña para comenzar:
 
@@ -291,7 +291,7 @@ A medida que se familiarice con las campañas, explore estas potentes funcionali
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Programación y sincronización**
 
@@ -301,17 +301,17 @@ Programe campañas para fechas/horas específicas, establezca envíos recurrente
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de velocidad**
 
-Limite el rendimiento de los mensajes para evitar sobrecargas en sistemas descendentes como páginas de aterrizaje o plataformas de atención al cliente.
+Limite el rendimiento de mensajes para evitar sobrecargas en sistemas descendentes como páginas de destino o plataformas de servicio de atención al cliente.
 
 [Controle los límites de velocidad](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmentación de público**
 
@@ -321,7 +321,7 @@ Segmente públicos de Adobe Experience Platform específicos con precisión y ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flujos de trabajo de aprobación**
 
@@ -331,7 +331,7 @@ Implemente procesos de revisión y aprobación antes de que las campañas se pub
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Horario silencioso**
 
@@ -341,7 +341,7 @@ Respete las preferencias del cliente evitando el envío de mensajes durante los 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimización**
 

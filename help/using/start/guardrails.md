@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
 source-wordcount: '3977'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -189,7 +189,7 @@ Esta sección trata de las protecciones y limitaciones de los recorridos, inclui
 * Además del tiempo de espera utilizado en las actividades del recorrido, también hay un tiempo de espera de recorrido global que no se muestra en la interfaz y no se puede cambiar. Este tiempo de espera global detiene el progreso de los particulares en el recorrido 91 días después de su entrada. [Más información](../building-journeys/journey-properties.md#global_timeout)
 
 
-#### validación del tamaño de carga útil de recorrido {#journey-payload-size}
+#### Validación del tamaño de la carga útil del recorrido {#journey-payload-size}
 
 Al guardar o publicar un recorrido, Journey Optimizer valida el tamaño total de la carga útil del recorrido para conservar la estabilidad y el rendimiento.
 
@@ -197,19 +197,19 @@ Al guardar o publicar un recorrido, Journey Optimizer valida el tamaño total de
 
 * **Tamaño máximo de solicitud predeterminado**: 2 MB (2.000.000 bytes). Algunas organizaciones pueden tener límites personalizados configurados por Adobe.
 * **Umbral de advertencia**: 90% del límite máximo.
-* **Umbral de error**: 100% del límite máximo. Guardar o publicar está bloqueado y la solicitud devuelve **HTTP 413 Entidad de solicitud demasiado grande**.
+* **Umbral de error**: 100% del límite máximo. Guardar o publicar está bloqueado y la solicitud devuelve **HTTP 413 Request Entity Too Large**.
 
 **Escenarios de experiencia de usuario**
 
-* **Carga &lt; 90% del límite**: el Recorrido se guarda y publica correctamente. No se muestran advertencias ni errores.
-* **Carga útil del 90 al 99 % del límite**: el Recorrido se guarda y publica correctamente, con una advertencia para optimizar. Mensaje de advertencia: **Advertencia**: el tamaño de la carga útil de Recorrido está cerca del límite. Nodo más grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamaño: [N] bytes).
-* **Carga útil >= 100% del límite**: el guardado o la publicación del Recorrido se bloqueó con un error. Mensaje de error: **Error**: el tamaño de la carga útil del Recorrido supera el límite. Nodo más grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamaño: [N] bytes).
+* **Carga útil &lt; 90% del límite**: el recorrido se guarda y publica correctamente. No se muestran advertencias ni errores.
+* **Carga útil del 90 al 99 % del límite**: el recorrido se guarda y publica correctamente, con una advertencia para optimizar. Mensaje de advertencia: **Advertencia**: el tamaño de la carga útil del recorrido está cerca del límite. Nodo más grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamaño: [N] bytes).
+* **Carga útil >= 100 % del límite**: el guardado o la publicación del recorrido se bloqueó con un error. Mensaje de error: **Error**: el tamaño de la carga útil del recorrido supera el límite. Nodo más grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamaño: [N] bytes).
 
-**Detalles de respuesta de error**
+**Detalles de la respuesta de error**
 
-Si la solicitud supera el tamaño máximo permitido, la respuesta incluye **Solicitar entidad demasiado grande**. La carga del recorrido supera el tamaño máximo permitido. Revise los detalles del error y optimice su recorrido.
+Si la solicitud supera el tamaño máximo permitido, la respuesta incluye **Entidad de solicitud demasiado grande**. La carga útil del recorrido supera el tamaño máximo permitido. Revise los detalles del error y optimice su recorrido.
 
-**Solución de problemas y recomendaciones**
+**Resolución de problemas y recomendaciones**
 
 * Revise el nodo más grande resaltado en la advertencia o el error.
 * Simplifique las condiciones, reduzca las asignaciones de datos y elimine pasos o parámetros innecesarios.
@@ -332,8 +332,8 @@ Obtenga más información acerca de las tasas de procesamiento de recorrido y lo
 Los siguientes mecanismos de protección se aplican a las actividades **[!UICONTROL Campaign v7/v8]** y **[!UICONTROL Campaign Standard]**:
 
 * Las actividades de Adobe Campaign no se pueden utilizar con un público de lectura o una actividad de calificación de público.
-* Las actividades de **[!UICONTROL Campaign Standard]** no se pueden usar con otras actividades de canal: Tarjeta, Experiencia basada en código, Correo electrónico, Push, SMS, Mensajes en la aplicación, Web.
-* **[!UICONTROL Las actividades de Campaign v7/v8]** se pueden usar junto con las actividades de canal nativo en el mismo recorrido.
+* Las actividades de **[!UICONTROL Campaign Standard]** no se pueden utilizar con las actividades de otros canales: tarjeta, experiencia basada en código, correo electrónico, push, SMS, mensajes en la aplicación, web.
+* Las actividades de **[!UICONTROL las versiones 7 y 8 de Campaign]** se pueden usar junto con las actividades de canal nativo en el mismo recorrido.
 
 #### Actividad en la aplicación {#in-app-activity-limitations}
 
@@ -343,7 +343,7 @@ Las siguientes limitaciones se aplican a la acción **[!UICONTROL Mensaje en la 
 
 * La personalización solo puede contener atributos de perfil.
 
-* La actividad en la aplicación no se puede usar con **[!UICONTROL actividades Campaign Standard]**.
+* La actividad en la aplicación no se puede utilizar con actividades de **[!UICONTROL Campaign Standard]**.
 
 * La visualización en la aplicación está ligada a la duración del recorrido, lo que significa que cuando el recorrido termina para un perfil, todos los mensajes en la aplicación dentro de ese recorrido dejan de mostrarse para ese perfil.  Por lo tanto, no es posible detener un mensaje en la aplicación directamente desde una actividad de recorrido. En su lugar, deberá finalizar todo el recorrido para que los mensajes en la aplicación no se muestren en el perfil.
 

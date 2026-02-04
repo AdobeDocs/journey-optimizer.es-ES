@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
 workflow-type: tm+mt
 source-wordcount: '9009'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 ## Notas de la versión de octubre de 2025 {#25-10-rn}
 
-### Nuevas funciones {#oct-25-10-features}
+### Nuevas funcionalidades {#oct-25-10-features}
 
 <table>
 <thead>
@@ -34,7 +34,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <td>
 <p>El convesor de imagen a HTML es una función con tecnología de IA que convierte diseños de imagen estáticos en plantillas de contenido de correo electrónico modulares de HTML totalmente personalizables. Esta herramienta sin código permite a los especialistas en marketing transformar diseños visuales en plantillas de correo electrónico adaptables y editables sin necesidad de conocimientos técnicos, perfectas para la migración de plataformas, la creación rápida de plantillas y la creación de bibliotecas de plantillas reutilizables.</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
-<p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
+<p>Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p>Para obtener más información, consulte la <a href="../email/image-to-html.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 30 de octubre de 2025</p>
 </td>
@@ -54,7 +54,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <p>Esta capacidad proporciona una mejor visibilidad del estado y el rendimiento de los puntos finales de acciones personalizadas. Un nuevo panel de monitorización de acciones personalizadas y los campos correspondientes en el conjunto de datos de eventos de pasos de recorrido le ayudarán a monitorizar las llamadas, los errores, el rendimiento, el tiempo de respuesta y el tiempo de espera de cola correctos para los puntos finales de acciones personalizadas. Ahora puede comprender rápidamente cuándo, dónde y por qué se produce una situación anómala en una acción personalizada.</p>
 <p>Actualmente, esta función está disponible de forma limitada para los clientes. </p>
 <p>Para obtener más información, consulte la <a href="../action/reporting.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: miércoles, 28 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 28 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +74,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <p>Actualmente, esta capacidad está disponible de forma limitada para clientes de Estados Unidos y Australia. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>Para obtener más información, consulte la <a href="../landing-pages/lp-forms.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: viernes, 23 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 23 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -93,7 +93,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <p>Puede aplicar horas tranquilas a través de conjuntos de reglas, que se pueden asignar a acciones individuales en campañas o recorridos para un control preciso.</p>
 <p>Las horas de inactividad están actualmente disponibles solo para un conjunto de organizaciones (disponibilidad limitada).  Estarán disponibles de forma progresiva para todos los clientes en futuras versiones.</p>
 <p>Para obtener más información, consulte la <a href="../conflict-prioritization/quiet-hours.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: jueves, 22 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 22 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -206,7 +206,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <p>Ahora hay disponible un nuevo modo de mensajería transaccional de alto rendimiento en las campañas activadas por API. Este modo está diseñado para la mensajería transaccional a gran escala y en tiempo real y admite hasta 5000 transacciones por segundo con una mayor disponibilidad. Este modo también admite mensajes transaccionales sin hacer referencia ni crear perfiles de clientes, como compras sin registro, confirmación de pedidos, restablecimientos de contraseña, notificaciones de seguridad y otras notificaciones de servicio/operativas.</p>
 <p>Esta funcionalidad solo está disponible para el canal de correo electrónico, para organizaciones que han adquirido la oferta de complemento de mensajería transaccional de alto rendimiento de Adobe. Póngase en contacto con su representante de Adobe para obtener más información.</p>
 <p>Para obtener más información, consulte la <a href="../campaigns/api-triggered-high-throughput.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: jueves, 22 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 22 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +225,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <p>Actualmente, las reglas de segmentación están en disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso. Tenga en cuenta que esta funcionalidad solo está disponible en las organizaciones que han adquirido la oferta de complementos de Decisioning. Se implementará progresivamente para todos los clientes.</p>
 <img src="assets/do-not-localize/targeting-rules.gif">
 <p>Para obtener más información, consulte la <a href="../experience-decisioning/rules.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: jueves, 22 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 22 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -245,7 +245,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate">Se ha superado la tasa de errores de acciones personalizadas</a>: la proporción de errores de acciones personalizadas respecto a las llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral</li>
 <li><a href="../reports/alerts.md#alert-profile-error-rate">Se ha superado la tasa de errores de perfiles</a>: la proporción de perfiles erróneos respecto a los perfiles introducidos durante los últimos cinco minutos ha superado el umbral.</li></ul> <p>Puede modificar los valores de umbral y suscribirse a alertas individuales a nivel de recorrido en lugar de a nivel global.</p>
 <p>Para obtener más información, consulte la <a href="../reports/alerts.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: miércoles, 14 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 14 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -261,10 +261,10 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tr>
 <td>
 <p>Ya está disponible una nueva función de ayuda `executionMetadata` en el editor de personalización. Permite anexar información contextual a cualquier acción nativa y capturarla en un conjunto de datos para exportarla a sistemas externos.</p>
-<p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
+<p>Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
 <p>Para obtener más información, consulte la <a href="../personalization/functions/helpers.md#execution-metadata">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: martes, 13 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 13 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -281,7 +281,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <td>
 <p>Journey Optimizer Experimentation Accelerator ahora incluye Experimentation Agent, una herramienta conversacional con tecnología de IA que le permite interactuar con sus experimentos, información y oportunidades. Mejora la experiencia de Journey Optimizer Experimentation Accelerator, lo que le ayuda a ejecutar experimentos de forma más eficiente, descubrir qué funciona y descubrir dónde optimizar a continuación.</p>
 <p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=es" target="_blank">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: sábado, 10 de octubre de 2025</p>
+<p>Fecha de disponibilidad: 10 de octubre de 2025</p>
 </td>
 </tr>
 </tbody>
@@ -302,7 +302,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <li>El tamaño máximo para cada archivo adjunto es 5 MB.</li>
 <li>Para cualquier tamaño o volumen adicional, puede comprar un complemento de archivos PDF adjuntos. Para obtener más información, póngase en contacto con su representante de Adobe.</li>
 </ul>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Para obtener más información, consulte la <a href="../email/pdf-attachments.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 30 de septiembre de 2025</p>
@@ -334,11 +334,11 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 Además del correo electrónico y SMS, puede saber cómo actualizar el campo de ejecución predeterminado para sus envíos de WhatsApp en el nivel de zona protegida. También es posible anular el campo de ejecución definido globalmente cambiándolo en los parámetros avanzados de la actividad de recorrido de WhatsApp o en la configuración del canal de WhatsApp. [Más información](../configuration/primary-email-addresses.md)
 
-Fecha de disponibilidad: jueves, 22 de octubre de 2025
+Fecha de disponibilidad: 22 de octubre de 2025
 
 **Compatibilidad con atributos personalizados para la dirección Mailto (cancelar la suscripción)**
 
-Con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer los puntos finales personalizados externos definiendo su propio vínculo para cancelar la suscripción con un solo clic y una dirección de correo electrónico de cancelación de suscripción personalizada en la configuración del correo electrónico. Cuando los destinatarios hacen clic en el vínculo Cancelar LA suscripción, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento.
+Con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer los puntos finales personalizados externos definiendo su propio vínculo para cancelar la suscripción con un solo clic y una dirección de correo electrónico de cancelación de suscripción personalizada en la configuración del correo electrónico. Cuando los destinatarios hacen clic en el vínculo cancelar la suscripción, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento.
 
 Para personalizar aún más los puntos finales personalizados, ahora puede definir atributos personalizados que se adjuntarán al evento de consentimiento. [Más información](../email/list-unsubscribe.md#custom-attributes)
 
@@ -346,7 +346,7 @@ Para personalizar aún más los puntos finales personalizados, ahora puede defin
 >
 >Esta funcionalidad ya está disponible para la **[!UICONTROL URL de cancelación de suscripción de un solo clic]** desde agosto de 2025 y ahora está disponible para la opción **[!UICONTROL Mailto (cancelar la suscripción)]** en disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
-Fecha de disponibilidad: martes, 06 de octubre de 2025
+Fecha de disponibilidad: 6 de octubre de 2025
 
 <!--
 ### Coming soon {#oct-25-10-soon}
@@ -440,7 +440,7 @@ You can now use AI models to optimize the best content in your email through the
 
 **Fecha de la versión**: 23-24 de septiembre de 2025
 
-### Nuevas funciones {#sept-25-9-features}
+### Nuevas funcionalidades {#sept-25-9-features}
 
 <table>
 <thead>
@@ -516,7 +516,7 @@ You can now use AI models to optimize the best content in your email through the
 <td>
 <p>Utilice el nuevo nodo Optimizar para dirigirse a públicos específicos o ejecutar pruebas A/B para determinar la mejor ruta para satisfacer los KPI empresariales.</p>
 <p>Esta herramienta le permite probar y variar, así como personalizar las comunicaciones, la secuencia y el tiempo para llegar mejor a sus clientes.</p>
-<p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
+<p>Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/optimize.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 4 de septiembre de 2025</p>
@@ -535,7 +535,7 @@ You can now use AI models to optimize the best content in your email through the
 <tr>
 <td>
 <p>Además de la delegación completa y del método CNAME, ahora hay disponible un nuevo método de configuración de subdominios: el método de delegación personalizada, que le permite controlar y mantener por completo todos los aspectos de DNS necesarios para enviar, procesar y rastrear mensajes.</p>
-<p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
+<p>Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
 <p>Para obtener más información, consulte la <a href="../configuration/delegate-custom-subdomain.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 4 de septiembre de 2025</p>
@@ -623,7 +623,7 @@ Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habil
 
 **Fecha de lanzamiento**: miércoles, 19 de agosto de 2025
 
-### Nuevas funciones {#Aug-25-8-features}
+### Nuevas funcionalidades {#Aug-25-8-features}
 
 A continuación, se describen las nuevas funciones incluidas en esta versión.
 
@@ -640,7 +640,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <p>Puede poner en pausa y reanudar solo un recorrido, o realizar pausas masivas y reanudar operaciones en un grupo de recorridos.</p>
 <p>Además, puede aplicar criterios de salida basados en atributos de perfil (anteriormente denominados “filtros globales”) a los recorridos en pausa para excluir perfiles en función de sus atributos.</p>
 <p><img src="assets/do-not-localize/PauseResume.gif"/></p>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/journey-pause.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -727,7 +727,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <li>Capacidad de añadir optimización a cualquier acción de canal integrada.</li>
 <li>Capacidad de añadir opciones de experimentación y multilingües a cualquier acción.</li>
 </ul>
-<p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
+<p>Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/journey-action.md">documentación detallada</a>.</p>
 </td>
@@ -750,7 +750,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <li>El tamaño máximo para cada archivo adjunto es 5 MB.</li>
 <li>Para cualquier tamaño o volumen adicional, puede adquirir un complemento de paquete de archivos adjuntos. Para obtener más información, póngase en contacto con su representante de Adobe.</li>
 </ul>
-<p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
+<p>Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Para obtener más información, consulte la <a href="../email/pdf-attachments.md">documentación detallada</a>.</p>
 </td>
@@ -855,9 +855,9 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Configuración**
 
-   * **Compatibilidad con atributos personalizados con la URL de cancelación de suscripción de un solo clic**: con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer un punto final personalizado externo definiendo su propio vínculo para cancelar la suscripción con un solo clic en la configuración de correo electrónico. Cuando los destinatarios hacen clic en el vínculo Cancelar LA suscripción, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento.
+   * **Compatibilidad con atributos personalizados con la URL de cancelación de suscripción de un solo clic**: con Journey Optimizer, si administra el consentimiento fuera de Adobe, puede establecer un punto final personalizado externo definiendo su propio vínculo para cancelar la suscripción con un solo clic en la configuración de correo electrónico. Cuando los destinatarios hacen clic en el vínculo cancelar la suscripción, Journey Optimizer añade algunos parámetros predeterminados específicos del perfil al evento de actualización de consentimiento.
 
-     Para personalizar aún más el vínculo de cancelación de suscripción de un solo clic, ahora puede definir atributos personalizados que se adjuntarán al evento de consentimiento. Esta capacidad tiene disponibilidad limitada. [Más información](../email/list-unsubscribe.md#custom-attributes)
+     Para personalizar aún más el vínculo de cancelación de suscripción de un solo clic, ahora puede definir atributos personalizados que se adjuntarán al evento de consentimiento. Esta funcionalidad tiene disponibilidad limitada. [Más información](../email/list-unsubscribe.md#custom-attributes)
 
 * **Conjuntos de datos**
 
@@ -944,7 +944,7 @@ Obtenga más información en la [Documentación de orquestación de campañas](.
 
 **Fecha de lanzamiento**: miércoles, 29 de julio de 2025
 
-### Nuevas funciones {#features-25-7}
+### Nuevas funcionalidades {#features-25-7}
 
 A continuación, se describen las nuevas funciones incluidas en esta versión.
 
@@ -977,8 +977,8 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede añadir directivas de Decisión a recorridos de correo electrónico y campañas. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de Decisioning para devolver dinámicamente el mejor contenido para entregar a cada miembro del público.</p>
-<p>Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
+<p>Ahora puede añadir directivas de Decisión a recorridos de correo electrónico y campañas. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de tomas de decisiones para devolver de forma dinámica el mejor contenido para entregar a cada miembro del público.</p>
+<p>Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 Para obtener más información, consulte la <a href="../experience-decisioning/create-decision.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -1012,7 +1012,7 @@ Para obtener más información, consulte la <a href="../experience-decisioning/c
 <td>
 <p>El ensayo del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales de recorridos probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil. Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo.</p>
 <img src="assets/do-not-localize/DryRun.gif">
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/journey-dry-run.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -1110,7 +1110,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 **Fecha de lanzamiento**: 18 de junio de 2025
 
-### Nuevas funciones {#25-06-features}
+### Nuevas funcionalidades {#25-06-features}
 
 A continuación, se describen las nuevas funciones incluidas en esta versión.
 
@@ -1321,7 +1321,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 <!--**Release date**: May 20-21, 2025-->
 
-### Nuevas funciones {#25-05-features}
+### Nuevas funcionalidades {#25-05-features}
 
 A continuación, se describen las nuevas funciones incluidas en esta versión.
 
@@ -1385,7 +1385,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 </ul>
 </br>
 <img src="assets/do-not-localize/dynamic_media_template_html.gif">
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Para obtener más información, consulte la <a href="../integrations/aem-dynamic.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 23 de mayo de 2025</p>
 </td>
@@ -1440,7 +1440,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tr>
 <td>
 <p>Ahora puede activar ejecuciones de recorrido diarias tras la finalización de la segmentación por lotes. Esta opción ahora está disponible en los recorridos programados diariamente para todos los clientes. Le permite definir un período de tiempo de hasta 6 horas de espera de los datos del público procedentes de los trabajos de segmentación por lotes, lo que garantiza que los recorridos se ejecuten con los datos más actualizados o se omitan si no están listos. </p>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>Para obtener más información, consulte la <a href="../building-journeys/read-audience.md#schedule">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 20 de mayo de 2025</p>
@@ -1460,7 +1460,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <td>
 <p>Journey Optimizer ahora permite configurar proveedores de SMS adicionales más allá de las opciones predeterminadas: Sinch, Infobip y Twilio. Con la configuración personalizada del proveedor de SMS, puede integrar proveedores de terceros directamente, aprovechar la personalización avanzada de la carga útil para la mensajería dinámica y administrar las preferencias de consentimiento (inclusión/exclusión) para garantizar el cumplimiento.</p>
 <p>Para obtener más información, consulte la <a href="../sms/sms-configuration-custom.md">documentación detallada</a>.</p>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Fecha de disponibilidad: 20 de mayo de 2025</p>
 </td>
 </td>
@@ -1471,7 +1471,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Temas del Diseñador de correo electrónico</strong><br/></th>
+<th><strong>Temas del diseñador de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1565,7 +1565,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 **Fecha de lanzamiento**: del 29 al 30 de abril de 2025
 
-### Nuevas funciones {#25-04-features}
+### Nuevas funcionalidades {#25-04-features}
 
 A continuación, se describen las nuevas funciones incluidas en esta versión.
 
@@ -1851,7 +1851,7 @@ Hay nuevas API disponibles para previsualizar campañas, además de las capacida
 
 ## Notas de la versión de marzo de 2025 {#25-3-rn}
 
-### Nuevas funciones {#25-03-features}
+### Nuevas funcionalidades {#25-03-features}
 
 A continuación, se describen las nuevas funciones incluidas en esta versión.
 
@@ -2044,7 +2044,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 **Fecha de lanzamiento**: 18-19 de febrero de 2025
 
 
-### Nuevas funciones {#25-02-features}
+### Nuevas funcionalidades {#25-02-features}
 
 A continuación, se describen las nuevas funciones incluidas en esta versión.
 
