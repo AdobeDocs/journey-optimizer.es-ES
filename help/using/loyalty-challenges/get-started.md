@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -62,7 +62,7 @@ La creación y el lanzamiento de un desafío de fidelidad siguen este flujo de t
 
 1. **Agregar tareas**: defina las acciones específicas que deben completar los clientes, incluidos los tipos de tareas (compras, gastos, visitas, participaciones, eventos personalizados), cantidades, filtros de productos y recompensas. Consulte [Crear tareas](create-tasks.md) para obtener instrucciones detalladas.
 
-1. **Diseñar tarjetas de contenido**: cree la representación visual de su desafío con las [tarjetas de contenido](../content-card/get-started-content-card.md) de Journey Optimizer que se muestran en los dispositivos del cliente. Las tarjetas de contenido muestran información de desafío, progreso y recompensas.
+1. **Diseñar tarjetas de contenido**: cree la representación visual de su desafío con las [tarjetas de contenido](../content-card/create-content-card.md) de Journey Optimizer que se muestran en los dispositivos del cliente. Las tarjetas de contenido muestran información de desafío, progreso y recompensas.
 
 1. **Configurar mensajes** (opcional): configura mensajes multicanal ([en la aplicación](../in-app/get-started-in-app.md), [correo electrónico](../email/get-started-email.md), [push](../push/get-started-push.md)) para las fases clave del ciclo vital: inicio, en curso y finalización.
 
@@ -86,7 +86,7 @@ Los retos de fidelización dependen de los datos introducidos a través de los c
 
 Para obtener instrucciones detalladas, consulte:
 
-* [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
+* [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configuración de conectores de origen en Journey Optimizer](../start/get-started-sources.md)
 
 +++
