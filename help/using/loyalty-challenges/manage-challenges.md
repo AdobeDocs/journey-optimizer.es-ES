@@ -10,15 +10,15 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
 
 
-# Gestionar desafíos {#manage-challenges}
+# Administrar desafíos y tareas {#manage-challenges}
 
 >[!BEGINSHADEBOX]
 
@@ -38,14 +38,12 @@ ht-degree: 0%
 
 ## Gestionar desafíos {#manage-challenges-section}
 
-### Ciclo de desafío {#challenge-lifecycle}
-
-<!-- VISUAL: Flowchart diagram showing challenge lifecycle with status transitions: Draft → Scheduled → Live → Completed/Stopped/Archived -->
+### Estados de desafío {#challenge-lifecycle}
 
 Los desafíos pasan por diferentes estados durante su ciclo de vida:
 
-* **Borrador**: el desafío se está creando o editando y aún no está disponible para los clientes
-* **Publicado**: el desafío está activo, se ha creado el recorrido asociado.
+* **Borrador**: el desafío se está creando o editando y aún no está disponible para los clientes.
+* **Publicado**: el desafío está activo y se ha creado el recorrido asociado.
 
 ### Editar desafíos {#edit-challenges}
 
@@ -55,10 +53,10 @@ Puede editar los desafíos abriéndolos en el inventario Desafíos. El comportam
 
 **Desafíos publicados**: Cuando abra un desafío publicado para editarlo, primero deberá revertirlo al estado Borrador.
 
-* Se perderán todas las personalizaciones realizadas directamente en el recorrido generado automáticamente
-* El desafío vuelve al estado Borrador
-* Después de realizar los cambios, debe guardar y publicar el desafío de nuevo
-* Debe reactivar el recorrido asociado para que el desafío actualizado esté disponible para los clientes
+* Se perderán todas las personalizaciones realizadas directamente en el recorrido generado automáticamente.
+* El desafío vuelve al estado Borrador.
+* Después de realizar los cambios, debe guardar y publicar el desafío de nuevo.
+* Debe volver a publicar el recorrido asociado para que el desafío actualizado esté disponible para los clientes.
 
 >[!IMPORTANT]
 >
@@ -111,14 +109,14 @@ También puede obtener acceso a los datos de rendimiento detallados en los [info
 
 ## Administrar tareas {#manage-tasks}
 
-Las tareas son componentes reutilizables que se pueden utilizar en varios desafíos. La administración eficaz de tareas garantiza la coherencia en todo el programa de fidelidad y facilita la actualización centralizada de las definiciones de tareas. Las tareas creadas en un desafío pueden reutilizarse en otros, reduciendo la duplicación y manteniendo la estandarización.
+Las tareas son componentes reutilizables que se pueden utilizar en varios desafíos. La administración eficaz de tareas garantiza la coherencia en todo el programa de fidelidad y facilita la actualización centralizada de las definiciones de tareas. Las tareas creadas en un desafío pueden reutilizarse en otros, lo que reduce la duplicación y mantiene la estandarización.
 
 ### Editar tareas {#edit-tasks}
 
 Puede editar las tareas existentes desde el inventario Tareas. Tenga en cuenta lo siguiente:
 
-* **Tareas no utilizadas en los desafíos activos**: Pueden editarse libremente - todas las propiedades pueden modificarse sin impacto
-* **Tareas utilizadas en los desafíos activos**: Tenga cuidado, ya que los cambios afectan a todos los desafíos que utilizan la tarea. Las modificaciones se aplican inmediatamente a todos los desafíos de referencia
+* **Tareas no utilizadas en los desafíos activos**: pueden editarse libremente. Todas las propiedades se pueden modificar sin impacto.
+* **Tareas utilizadas en los desafíos activos**: Tenga cuidado, ya que los cambios afectan a todos los desafíos que utilizan la tarea. Las modificaciones se aplican inmediatamente a todos los desafíos de referencia.
 
 Para editar una tarea:
 
@@ -144,8 +142,8 @@ Para editar una tarea:
 
 Las tareas solo se pueden eliminar si actualmente no se utilizan en ningún desafío. Antes de eliminar una tarea:
 
-* Comprobar el recuento **[!UICONTROL Utilizado en los desafíos]** en el inventario de tareas
-* Asegúrese de que no haya desafíos en borrador, programados o activos que hagan referencia a la tarea
+* Compruebe el recuento **[!UICONTROL Utilizado en los desafíos]** en el inventario de tareas.
+* Asegúrese de que no haya desafíos en borrador, programados o activos que hagan referencia a la tarea.
 
 Para eliminar una tarea:
 
