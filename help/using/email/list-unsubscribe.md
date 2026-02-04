@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 98%
+source-wordcount: '1736'
+ht-degree: 96%
 
 ---
 
@@ -132,6 +132,10 @@ Para personalizar aún más los puntos finales<!-- (**[!UICONTROL Mailto (unsubs
 >Para la opción **[!UICONTROL Mailto (cancelar la suscripción)]**, debe usar los nuevos parámetros de consulta descritos en la sección **Mailto (cancelar la suscripción) con atributos personalizados (disponibilidad limitada)** [debajo](#configure-decrypt-api).
 
 Para definir los atributos personalizados de los puntos finales, utilice la sección **[!UICONTROL Parámetros de seguimiento de URL]**. Todos los parámetros de seguimiento de URL que defina en la sección correspondiente se adjuntarán al final de los puntos finales personalizados, además de los parámetros predeterminados. [Aprenda a configurar el seguimiento de URL personalizado](url-tracking.md)
+
+>[!NOTE]
+>
+>El orden de los parámetros de UTM que se anexan a la dirección URL es aleatorio y no se puede controlar. Si el sistema requiere parámetros en un orden específico, deberá analizarlos y reordenarlos de su lado.
 
 ### Configuración de la API de descifrado {#configure-decrypt-api}
 
@@ -261,7 +265,7 @@ Parámetros de consulta:
 
    * Valor analizado: *v1.xyz*
 
-Ejemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Ejemplo de API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

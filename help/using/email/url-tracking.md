@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 75%
+source-wordcount: '433'
+ht-degree: 68%
 
 ---
 
@@ -31,6 +31,10 @@ ht-degree: 75%
 Al configurar una nueva [configuración de canal de correo electrónico](email-settings.md), puede definir **[!UICONTROL parámetros de seguimiento de URL]** para medir la eficacia de sus esfuerzos de marketing entre canales. La activación de esta función es opcional.
 
 Los parámetros definidos en la sección correspondiente se anexan al final de las direcciones URL incluidas en el contenido del mensaje de correo electrónico. A continuación, puede capturar estos parámetros en herramientas de análisis web como Adobe Analytics o Google Analytics y crear varios informes de rendimiento.
+
+>[!NOTE]
+>
+>El orden de los parámetros de seguimiento de URL que se anexan a la dirección URL es aleatorio y no se puede controlar. Si el sistema requiere parámetros en un orden específico, deberá analizarlos y reordenarlos de su lado.
 
 Puede añadir hasta 10 parámetros de seguimiento con el botón **[!UICONTROL Añadir nuevo parámetro]**.
 

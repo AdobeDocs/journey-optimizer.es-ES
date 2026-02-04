@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1243'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ La toma de decisiones ofrece funcionalidades y beneficios significativos con res
 
 ### Capacidades de IA y aprendizaje automático
 
-* **Métricas personalizadas**: capacidad de usar métricas de optimización personalizadas para modelos de IA. Esto proporciona interoperabilidad para la generación de informes con [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, estandariza la generación de informes en ambas plataformas y mejora la consistencia y confiabilidad de los datos. La integración optimizada proporciona una vista más clara de las métricas de rendimiento y agrega nuevas funciones, como la creación de métricas sencillas, la publicación de audiencias, la realización de preguntas específicas mediante Insight Builder y la programación de informes.
+* **Métricas personalizadas**: capacidad de usar métricas de optimización personalizadas para modelos de IA. Esto proporciona interoperabilidad para la generación de informes con [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, estandariza la generación de informes en ambas plataformas y mejora la consistencia y confiabilidad de los datos. La integración optimizada proporciona una vista más clara de las métricas de rendimiento y agrega nuevas funciones, como la creación de métricas sencillas, la publicación de audiencias, la realización de preguntas específicas mediante Insight Builder y la programación de informes.
 
 * **Medición de alza**: Capacidad para visualizar, explorar y explotar el tráfico en modelos de IA. Esto permite a los especialistas en marketing y a los científicos de datos cuantificar cómo la exploración de IA mejora el rendimiento del modelo a largo plazo y la capacidad de detección de nuevas ofertas ganadoras. La transparencia en la asignación del tráfico genera confianza en las decisiones de IA y permite a los equipos optimizar tanto el aprendizaje como el rendimiento a lo largo del tiempo. [Más información](ranking/auto-optimization-model.md#lift)
 
@@ -66,7 +66,7 @@ Tablero que documenta el rendimiento de los elementos de decisión y las estrate
 
 * **Compatibilidad con canales de mensajería nativos**: mensajería y toma de decisiones integradas en un solo marco de trabajo en varios canales ([experiencia basada en código](../code-based/get-started-code-based.md) y [correo electrónico](../email/get-started-email.md) disponibles actualmente, otros canales previstos para H1 2026). La compatibilidad intuitiva con la IU permite a los usuarios insertar componentes de toma de decisiones directamente en los flujos de trabajo de creación de mensajes.
 
-* **Búsqueda de conjuntos de datos de Experience Platform**: capacidad para cargar y hacer referencia a [conjuntos de datos de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview){target="_blank"} directamente en las reglas de selección de ofertas, clasificación y contenido de ofertas personalizado. Esto aumenta la flexibilidad de personalización y segmentación al permitir que la lógica de decisión utilice fuentes de datos externas dinámicas. [Más información](../data/lookup-aep-data.md)
+* **Búsqueda de conjuntos de datos de Experience Platform**: capacidad para cargar y hacer referencia a [conjuntos de datos de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"} directamente en las reglas de selección de ofertas, clasificación y contenido de ofertas personalizado. Esto aumenta la flexibilidad de personalización y segmentación al permitir que la lógica de decisión utilice fuentes de datos externas dinámicas. [Más información](../data/lookup-aep-data.md)
 
 * **Escalabilidad y rendimiento**: mejora arquitectónica que mueve el cálculo de decisiones del concentrador al perímetro, lo que reduce significativamente la latencia y mejora el rendimiento en los casos de uso de alto tráfico.
 
@@ -95,12 +95,11 @@ Las API de herramientas de migración le permiten lo siguiente:
 * **Migrar en diferentes ámbitos**: zona protegida, nivel de oferta o de decisión
 * **Migraciones de reversión** si se detectan problemas
 
-Para obtener la documentación completa de la API, incluidos la autenticación, los extremos, los ejemplos de solicitud/respuesta y los flujos de trabajo paso a paso, consulte la [Documentación de la API de migración de decisiones](decisioning-migration-api.md).
+Para obtener la documentación completa de la API, incluidos la autenticación, los extremos, los ejemplos de solicitud/respuesta y los flujos de trabajo paso a paso, consulte [esta página](decisioning-migration-api.md).
 
 ## Temas relacionados {#related-topics}
 
 * [Introducción a la toma de decisiones](gs-experience-decisioning.md)
 * [Limitaciones y protecciones de decisiones](decisioning-guardrails.md)
 * [Preguntas frecuentes sobre Decisioning](decisioning-faq.md)
-* [API de migración de decisiones](decisioning-migration-api.md)
 
