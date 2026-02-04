@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '647'
 ht-degree: 22%
 
 ---
@@ -97,6 +97,7 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 * **[Definir estrategias de selección](selection-strategies.md)**: descubra cómo crear estrategias de selección con reglas de elegibilidad y métodos de clasificación.
 * **[Crear directivas de decisión](create-decision-policy.md)**: aprenda a crear directivas de decisión que combinen estrategias y restricciones.
 * **[Modelos de clasificación e IA](ranking/ranking.md)**: fórmulas de clasificación maestras y modelos de IA para la toma de decisiones personalizada.
+* **[Migrar desde Administración de decisiones](migrate-to-decisioning.md)**: comprenda los beneficios de migrar a la toma de decisiones y utilice las API de herramientas de migración.
 * **[Protecciones para la toma de decisiones](decisioning-guardrails.md)**: revise las limitaciones importantes y las prácticas recomendadas para la implementación de decisiones.
 * **[Tutoriales de toma de decisiones](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las funciones de toma de decisiones y las prácticas recomendadas.
 
@@ -104,4 +105,4 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
 Obtenga información sobre las funcionalidades de Decisioning en Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475866?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

@@ -9,9 +9,9 @@ role: User, Developer
 level: Experienced
 keywords: zona protegida, recorrido, copiar, entorno
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1728'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 Puede copiar objetos, como recorridos, acciones personalizadas, plantillas de contenido o fragmentos, en varios entornos limitados mediante las funciones de exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.
 
-En esta página se describe el caso de uso de las herramientas de entorno limitado en el contexto de Journey Optimizer. Para obtener más información sobre la característica en sí, consulte la [Guía de herramientas de espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=es#abobe-journey-optimizer-objects){target="_blank"} de Adobe Experience Platform.
+En esta página se describe el caso de uso de las herramientas de entorno limitado en el contexto de Journey Optimizer. Para obtener más información sobre la característica en sí, consulte la [Guía de herramientas de espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"} de Adobe Experience Platform.
 
 >[!NOTE]
 >
@@ -31,6 +31,10 @@ El proceso de copia se lleva a cabo mediante una exportación de paquetes y una 
 1. [Agregue el objeto que desea exportar como paquete en la zona protegida de origen](#export)
 1. [Publicación del paquete](#publish)
 1. [Importe el paquete en la zona protegida de Target](#import)
+
+>[!NOTE]
+>
+>Para migrar objetos de Administración de decisiones a Decisioning, use la [API de migración de decisiones](../experience-decisioning/decisioning-migration-api.md) que proporciona capacidades automatizadas de resolución de dependencias y reversión diseñadas específicamente para la migración de entidades de decisiones.
 
 ## Objetos exportados y prácticas recomendadas {#objects}
 
@@ -46,7 +50,7 @@ Journey Optimizer permite exportar recorridos, acciones personalizadas, plantill
 
 +++ Recorridos
 
-* **Dependencias copiadas**: al exportar un recorrido, además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: audiencias, acciones personalizadas, esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte la [Guía de herramientas de espacio aislado de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=es#abobe-journey-optimizer-objects){target="_blank"}.
+* **Dependencias copiadas**: al exportar un recorrido, además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: audiencias, acciones personalizadas, esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte la [Guía de herramientas de espacio aislado de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}.
 
 * **Validación manual recomendada**: no garantizamos que todos los elementos vinculados se copien en la zona protegida de destino. Le recomendamos encarecidamente que realice una comprobación exhaustiva, por ejemplo, antes de publicar un recorrido. Esto le permite identificar cualquier posible objeto que falte.
 

@@ -1,5 +1,5 @@
 ---
-title: Introducción a las API de decisiones
+title: Comenzar con API de Decisioning
 description: Obtenga información sobre cómo empezar a utilizar las API de decisiones para administrar mediante programación los elementos de decisión y entregar ofertas personalizadas.
 feature: API, Decisioning
 topic: Integrations
@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 exl-id: 7a4b5d4e-9c1d-4f3a-b8e9-1d5f6e7a8c3a
 version: Journey Orchestration
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 4%
+source-wordcount: '331'
+ht-degree: 5%
 
 ---
 
@@ -60,3 +60,7 @@ Ahora que comprende los conceptos básicos de las API de decisiones, puede conti
 * [Crear reglas de elegibilidad](eligibility-rules/create.md)
 
 Para obtener más información sobre el uso de la toma de decisiones en campañas y recorridos, consulte la [Documentación sobre la toma de decisiones](../gs-experience-decisioning.md).
+
+>[!NOTE]
+>
+>Si necesita migrar objetos de Administración de decisiones existentes a Decisioning, use la API de migración de [Decisioning dedicada](../decisioning-migration-api.md). Esta API especializada proporciona funciones automatizadas de resolución de dependencias y reversión diseñadas específicamente para tomar decisiones sobre la migración de entidades en entornos limitados.
