@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+source-git-commit: f235c56fd06b0e6ec41d1040c2b1ac057eb872f9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Con los Retos de fidelización, puede configurar recompensas, enviar notificacio
 
 La creación y el lanzamiento de un desafío de fidelidad siguen este flujo de trabajo:
 
-1. **Configurar la ingesta de datos**: configure los conectores de origen de Experience Platform (como el conector Capilar) para introducir datos de evento de lealtad que hagan un seguimiento de las acciones y el progreso de los clientes. Estos datos alimentan el seguimiento de desafíos y la finalización de tareas.
+1. **Configurar la ingesta de datos** - Configurar conectores de origen de Experience Platform (como el [conector capilar](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) para ingerir datos de evento de lealtad que rastrean las acciones y el progreso de los clientes. Estos datos alimentan el seguimiento de desafíos y la finalización de tareas.
 
 1. **Seleccionar audiencia de destino** - Defina qué clientes pueden participar en su desafío seleccionando una audiencia de Adobe Experience Platform.
 
@@ -75,14 +75,11 @@ Antes de usar Desafíos de fidelización, asegúrese de lo siguiente:
 
 Los retos de fidelización dependen de los datos introducidos a través de los conectores de origen de Experience Platform para rastrear el progreso de los clientes y la finalización de las tareas.
 
-1. **Configurar un conector de origen admitido**: actualmente, el conector Capillary está disponible de forma general. Se han planificado conectores adicionales para futuras versiones.
+1. **Configurar un conector de origen admitido**: actualmente, el conector Capillary está disponible. Se han planificado conectores adicionales para futuras versiones. [Más información acerca de los conectores de origen de fidelidad](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 1. **Validar la ingesta de datos**: Asegúrese de que los eventos de lealtad y los datos de clientes fluyen a Experience Platform y están disponibles en Journey Optimizer. Compruebe que el esquema de datos incluye los campos necesarios para rastrear las acciones de los clientes y el progreso.
 
-Para obtener instrucciones detalladas, consulte:
-
-* [Documentación de fuentes de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
-* [Configuración de conectores de origen en Journey Optimizer](../start/get-started-sources.md)
+Para obtener instrucciones detalladas, consulte [Resumen de fuentes de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 +++
 
@@ -143,14 +140,14 @@ Defina una audiencia de destino que especifique qué clientes pueden participar 
     </p>
   </td>
   <td>
-    <a href="manage-challenges.md">
+    <a href="access-loyalty-challenges.md">
     <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
     </a>
     <div>
-    <a href="manage-challenges.md"><strong>Administrar desafíos</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>Administrar desafíos y tareas</strong></a>
     </div>
     <p>
-    <em>Editar, supervisar y optimizar desafíos</em>
+    <em>Editar, duplicar y eliminar desafíos y tareas</em>
     </p>
   </td>
 </tr>
