@@ -58,7 +58,7 @@ Con los Retos de fidelización, puede configurar las recompensas y enviar notifi
 
 La creación y el lanzamiento de un desafío de fidelidad siguen este flujo de trabajo:
 
-1. **Configurar la ingesta de datos** - Configurar conectores de origen de Experience Platform (como el [conector capilar](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) para ingerir datos de evento de lealtad que rastrean las acciones y el progreso de los clientes. Estos datos alimentan el seguimiento de desafíos y la finalización de tareas.
+1. **Configurar la ingesta de datos** - Configurar conectores de origen de Experience Platform (como el [conector capilar](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home#loyalty)) para ingerir datos de evento de lealtad que rastrean las acciones y el progreso de los clientes. Estos datos alimentan el seguimiento de desafíos y la finalización de tareas.
 
 1. **Crear un desafío**: defina las propiedades básicas del desafío, como nombre, tipo (Estándar, Secuencial o Streak) e intervalo de fechas.
 
@@ -82,11 +82,11 @@ Antes de usar Desafíos de fidelización, asegúrese de lo siguiente:
 
 Los retos de fidelización dependen de los datos introducidos a través de los conectores de origen de Experience Platform para rastrear el progreso de los clientes y la finalización de las tareas.
 
-1. **Configurar un conector de origen admitido**: actualmente, el conector Capillary está disponible. Se han planificado conectores adicionales para futuras versiones. [Más información acerca de los conectores de origen de fidelidad](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
+1. **Configurar un conector de origen admitido**: actualmente, el conector Capillary está disponible. Se han planificado conectores adicionales para futuras versiones. [Más información acerca de los conectores de origen de fidelidad](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home#loyalty).
 
 1. **Validar la ingesta de datos**: Asegúrese de que los eventos de lealtad y los datos de clientes fluyen a Experience Platform y están disponibles en Journey Optimizer. Compruebe que el esquema de datos incluye los campos necesarios para rastrear las acciones de los clientes y el progreso.
 
-Para obtener instrucciones detalladas, consulte [Resumen de fuentes de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+Para obtener instrucciones detalladas, consulte [Resumen de fuentes de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
 
 +++
 
