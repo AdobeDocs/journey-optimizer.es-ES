@@ -10,9 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
+mini-toc-levels: 2
+source-git-commit: 43d3593264ea6d33794914e1b1f9ea45c295c79e
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
@@ -20,20 +21,20 @@ ht-degree: 0%
 
 # Crear desafíos {#create-challenges}
 
+>[!AVAILABILITY]
+>
+>Esta característica está actualmente en **versión beta privada** y puede que no esté disponible en su entorno. Para solicitar acceso, póngase en contacto con su representante de Adobe. Más información sobre [etiquetas de disponibilidad](../rn/releases.md#availability-labels).
+
 >[!BEGINSHADEBOX]
 
 **Documentación de retos de fidelización:**
 
 * [Introducción a los retos de fidelización](get-started.md): información general, flujo de trabajo, requisitos previos
-* [Acceder y administrar desafíos de fidelidad](access-loyalty-challenges.md): administración de inventario, desafíos y tareas
+* [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md): administración de inventario, desafíos y tareas
 * **Crear desafíos** ◀︎ **Usted está aquí** - Generar y configurar desafíos
 * [Crear tareas](create-tasks.md) - Definir tareas de desafío
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Esta característica está actualmente en **versión beta privada** y puede que no esté disponible en su entorno. Para solicitar acceso, póngase en contacto con su representante de Adobe. Más información sobre [etiquetas de disponibilidad](../rn/releases.md#availability-labels).
 
 ## Creación del desafío {#create-the-challenge}
 
@@ -54,6 +55,8 @@ ht-degree: 0%
    * **[!UICONTROL Secuencial]**: Los clientes completan tareas en un orden definido\
      *Ejemplo: compra → revisión → uso compartido (debe completarse en esta secuencia)*
 
+   Después de seleccionar un tipo de desafío, la interfaz de creación de desafíos se abre con varias pestañas de configuración. Comience por configurar la estructura de desafíos.
+
 ## Configuración de la estructura de desafíos {#structure}
 
 En la ficha **[!UICONTROL Estructura]**, defina la organización del desafío: las propiedades, la programación, las tareas por completar y las recompensas por entregar.
@@ -71,17 +74,21 @@ En la ficha **[!UICONTROL Estructura]**, defina la organización del desafío: l
 
 ### Programar el desafío {#schedule}
 
-Configure cuándo se ejecutará el desafío seleccionando el icono **[!UICONTROL Abrir programación]**:
+Configure cuándo se ejecuta el desafío:
 
-![](assets/challenge-create-schedule.png)
+1. Seleccione el icono **[!UICONTROL Abrir programación]**:
 
-* **[!UICONTROL Fecha y hora de inicio]**: establezca cuándo el desafío estará disponible para los clientes.
-* **[!UICONTROL Fecha y hora de finalización]**: establezca cuándo caduca el desafío y ya no acepta nuevas finalizaciones.
-* **[!UICONTROL Zona horaria]**: El desafío utiliza la zona horaria local del destinatario de forma predeterminada.
-* **[!UICONTROL Las tareas deben completarse]**: elija cuándo los clientes pueden completar las tareas:
+   ![](assets/challenge-create-schedule.png)
 
-   * **[!UICONTROL En cualquier momento durante el desafío]**: los clientes pueden completar las tareas en cualquier momento entre las fechas de inicio y finalización del desafío.
-   * **[!UICONTROL Durante horas específicas del día]**: Restrinja la finalización de tareas a horas diarias específicas al establecer **[!UICONTROL Hora de inicio]** y **[!UICONTROL Hora de finalización]**.
+1. Configure las siguientes opciones de programación:
+
+   * **[!UICONTROL Fecha y hora de inicio]**: establezca cuándo el desafío estará disponible para los clientes.
+   * **[!UICONTROL Fecha y hora de finalización]**: establezca cuándo caduca el desafío y ya no acepta nuevas finalizaciones.
+   * **[!UICONTROL Zona horaria]**: El desafío utiliza la zona horaria local del destinatario de forma predeterminada.
+   * **[!UICONTROL Las tareas deben completarse]**: elija cuándo los clientes pueden completar las tareas:
+
+      * **[!UICONTROL En cualquier momento durante el desafío]**: los clientes pueden completar las tareas en cualquier momento entre las fechas de inicio y finalización del desafío.
+      * **[!UICONTROL Durante horas específicas del día]**: Restrinja la finalización de tareas a horas diarias específicas al establecer **[!UICONTROL Hora de inicio]** y **[!UICONTROL Hora de finalización]**.
 
 La programación de desafíos ya está configurada. A continuación, añada las tareas que los clientes necesitan completar.
 
@@ -101,10 +108,10 @@ Para añadir tareas al desafío, siga estos pasos:
 
    +++Desafíos estándar
 
-   **[!UICONTROL Requisito para finalizar la tarea]** - Elija entre:
+   En el menú desplegable **[!UICONTROL Requisito para finalizar la tarea]**, elija entre:
 
-   * **[!UICONTROL El cliente elige 1 tarea para completar]**: Los clientes pueden seleccionar y completar cualquier tarea para obtener recompensas
-   * **[!UICONTROL El cliente completa una cantidad específica de tareas]**: los clientes deben completar una cantidad definida de tareas. Especifique el número requerido - *Ejemplo: completar 3 de 5 tareas*
+   * **[!UICONTROL El cliente elige 1 tarea para completar]** - *Los clientes pueden seleccionar y completar cualquier tarea para obtener recompensas*
+   * **[!UICONTROL El cliente completa una cantidad específica de tareas]** - *Los clientes deben completar una cantidad definida de tareas. Especifique el número requerido de tareas para completar.*
 
    +++
 
@@ -112,26 +119,24 @@ Para añadir tareas al desafío, siga estos pasos:
 
    * **[!UICONTROL Tipo de transmisión]**:
 
-      * **Consecutivo**: Los clientes deben completar la tarea en días consecutivos sin pausas - *Ejemplo: comprar el lunes, martes, miércoles - si falta un día se rompe la racha*
+      * **Consecutivo**: los clientes deben completar la tarea en días consecutivos sin pausas. *Ejemplo: comprar el lunes, martes o miércoles, si falta un día se rompe la raya.*
 
-      * **No consecutivo**: los clientes pueden completar la tarea con espacios entre finalizaciones - *Ejemplo: completar 7 compras durante 30 días, con descansos permitidos*
+      * **No consecutiva**: los clientes pueden completar la tarea con espacios entre finalizaciones. *Ejemplo: complete 7 compras en más de 30 días, con descansos permitidos.*
 
-   * **[!UICONTROL Longitud de la racha]**: especifique cuántas veces se debe completar la tarea - *Ejemplo: establezca en 7 para una &quot;racha de compras de 7 días&quot;*
+   * **[!UICONTROL Longitud de la secuencia]**: especifique cuántas veces se debe completar la tarea. *Ejemplo: establecido en 7 para una &quot;racha de compra de 7 días&quot;.*
 
    +++
 
    +++Desafíos secuenciales
 
-   **[!UICONTROL Requisito para finalizar la tarea]** - Elija entre:
+   En el menú desplegable **[!UICONTROL Requisito para finalizar la tarea]**, elija entre:
 
-   * **[!UICONTROL El cliente elige 1 tarea para completar]**: Los clientes pueden seleccionar y completar cualquier tarea para obtener recompensas
-   * **[!UICONTROL El cliente completa un número específico de tareas]**: los clientes deben completar un número definido de tareas en el orden exacto definido. Si falta o se omite una tarea, se interrumpe la secuencia. Especifique el número necesario (por ejemplo, complete 3 de 5 tareas)
-
-   *Ejemplo: Tarea 1 (compra) → Tarea 2 (revisión) → Tarea 3 (uso compartido) - debe completarse en este pedido*
+   * **[!UICONTROL El cliente elige 1 tarea para completar]** - *Los clientes pueden seleccionar y completar cualquier tarea para obtener recompensas*
+   * **[!UICONTROL El cliente completa una cantidad específica de tareas]** - *Los clientes deben completar una cantidad definida de tareas en el orden exacto que usted defina. Si falta o se omite una tarea, se interrumpe la secuencia. Especifique el número requerido de tareas para completar*
 
    +++
 
-1. De forma predeterminada, los desafíos estándar y secuenciales permiten a los clientes completar tareas en varias transacciones. Para requerir que todas las tareas se completen en una sola transacción, seleccione el icono ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Configuración]** y active la siguiente opción.
+1. De forma predeterminada, los desafíos estándar y secuenciales permiten a los clientes completar tareas en varias transacciones. Para requerir que todas las tareas se completen en una sola transacción, seleccione el icono **[!UICONTROL Configuración]** y active la siguiente opción.
 
    ![](assets/challenge-create-single-transaction.png)
 
@@ -139,7 +144,9 @@ Después de agregar tareas al desafío, configure las recompensas que los client
 
 ### Configuración de recompensas {#rewards}
 
-Las recompensas son los puntos de lealtad o los beneficios que los clientes reciben por completar los desafíos. Configure cuándo y cómo se entregan las recompensas.
+Las recompensas son los puntos de lealtad o los beneficios que los clientes reciben por completar los desafíos.
+
+Para configurar cuándo y cómo se entregan las recompensas:
 
 1. En el menú desplegable **[!UICONTROL Entrega de recompensas]**, elija cuándo entregar las recompensas:
 
@@ -157,9 +164,9 @@ Las recompensas son los puntos de lealtad o los beneficios que los clientes reci
 
    Especifique el importe total de recompensa que se proporcionará cuando los clientes completen el desafío completo.
 
-   ![](assets/challenge-create-reward-total.png)
+   *En el ejemplo siguiente, se otorgan 100 puntos a los clientes al completar el desafío.*
 
-   **Ejemplo**: A los clientes se les otorgan 100 puntos al completar el desafío.
+   ![](assets/challenge-create-reward-total.png)
 
    +++
 
@@ -169,13 +176,9 @@ Las recompensas son los puntos de lealtad o los beneficios que los clientes reci
 
    Para cualquier tarea en la que desee entregar un premio, active la opción de recompensa y especifique cuántos puntos se otorgarán cuando los clientes completen esa tarea específica. Puede optar por recompensar sólo determinadas finalizaciones de tareas; por ejemplo, si tiene 10 tareas, puede recompensar sólo las tareas 1, 5 y 10.
 
+   *En el ejemplo siguiente, a los clientes se les otorgan 10 puntos al completar la primera tarea y luego 50 puntos adicionales después de completar la segunda tarea.*
+
    ![](assets/challenge-create-reward-milestones.png)
-
-   **Ejemplo**: A los clientes se les otorgan 10 puntos al completar la primera tarea y luego 50 puntos adicionales después de completar la segunda tarea, lo que hace un total de 60 puntos cuando se completa el desafío.
-
-   >[!TIP]
-   >
-   >Considere la posibilidad de aumentar los valores de recompensa por tareas posteriores para mantener la participación del cliente durante todo el desafío.
 
    +++
 
@@ -207,7 +210,7 @@ Configure mensajes multicanal para atraer a los clientes en etapas clave del cic
    * Mensaje de **En curso**: Mantén a los clientes comprometidos con los recordatorios y las actualizaciones de progreso
    * **Finalización** mensaje: Celebre el éxito y confirme la asignación del premio
 
-1. Para cada fase, seleccione **[!UICONTROL Agregar mensaje [stage]]** (donde [stage] representa Lanzamiento, En curso o Finalización) para crear un mensaje para esa fase.
+1. Para cada fase, añada el botón de mensaje para crear un mensaje para esa fase.
 
 1. Elija el canal que desee: **[!UICONTROL En la aplicación]**, **[!UICONTROL Correo electrónico]** o **[!UICONTROL Notificación push]** y seleccione la configuración de canal asociada.
 
@@ -215,11 +218,7 @@ Configure mensajes multicanal para atraer a los clientes en etapas clave del cic
 
    ![](assets/challenge-create-messaging.png)
 
-Aprenda a crear mensajes para canales específicos:
-
-* [Mensajes en la aplicación](../in-app/get-started-in-app.md)
-* [Mensajes de correo electrónico](../email/get-started-email.md)
-* [Notificaciones push](../push/get-started-push.md)
+Aprenda a crear mensajes para canales específicos en estas secciones: [Mensajes en la aplicación](../in-app/get-started-in-app.md) - [Mensajes de correo electrónico](../email/get-started-email.md) - [Notificaciones push](../push/get-started-push.md)
 
 Una vez completada la configuración de mensajería, defina qué clientes pueden participar en el desafío.
 
@@ -227,29 +226,31 @@ Una vez completada la configuración de mensajería, defina qué clientes pueden
 
 Defina qué clientes pueden participar en su desafío de fidelidad.
 
-1. Vaya a la pestaña **[!UICONTROL Audiencia]** y seleccione el botón **[!UICONTROL Seleccionar audiencia]**.
+1. Vaya a la pestaña **[!UICONTROL Audiencia]** y haga clic en el botón **[!UICONTROL Seleccionar audiencia]**.
 
    ![](assets/challenge-create-audience.png)
 
-1. Seleccione la audiencia de destino en la lista de audiencias de Adobe Experience Platform disponibles. [Aprenda a trabajar con audiencias](../audience/about-audiences.md).
-
-1. Seleccione **[!UICONTROL Agregar audiencia]**.
+1. En el cuadro de diálogo de selección de audiencia, seleccione la audiencia de destino en la lista de audiencias de Adobe Experience Platform disponibles y seleccione **[!UICONTROL Agregar audiencia]**. [Aprenda a trabajar con audiencias](../audience/about-audiences.md).
 
 El desafío está ahora completamente configurado con su estructura, contenido, mensajería y audiencia de destino. El paso final es generar y publicar el recorrido.
 
 ## Generación y publicación del recorrido {#review-and-publish}
 
-Genere el recorrido que orquestará la entrega de desafíos y las interacciones con los clientes. Para ello, seleccione **[!UICONTROL Generar Recorrido]**.
+Después de configurar todos los componentes de desafío, genere el recorrido que organizará la entrega de desafío:
 
-![](assets/challenge-create-generate-journey.png)
+1. Revise la configuración de desafío para asegurarse de que se completan todos los campos obligatorios.
 
-Journey Optimizer crea automáticamente un [recorrido](../building-journeys/journey-gs.md) en estado de Borrador. El recorrido generado automáticamente aparece en su inventario de recorridos con el formato de nombre &quot;Desafío: [Nombre del desafío]&quot;.
+1. Seleccione **[!UICONTROL Guardar]** para guardar la configuración del desafío y seleccione **[!UICONTROL Generar Recorrido]**.
 
-![](assets/challenge-create-journey.png)
+   ![](assets/challenge-create-generate-journey.png)
 
-Revise la configuración del recorrido si es necesario y publique el recorrido para que el desafío esté disponible para los clientes. [Más información sobre cómo publicar un recorrido](../building-journeys/publish-journey.md).
+1. Journey Optimizer crea automáticamente un recorrido en estado de Borrador. El recorrido generado automáticamente aparece en su inventario de recorrido con el formato de nombre *&quot;Recorrido: [Nombre del desafío]&quot;*. [Más información sobre el inventario de recorridos](../building-journeys/journey-ui.md).
 
-El recorrido se iniciará automáticamente en la fecha de inicio del desafío especificada y enviará el contenido y los mensajes según la configuración.
+   Vaya al inventario de **[!UICONTROL Recorridos]** para revisar la configuración de recorrido generada automáticamente si es necesario.
+
+   ![](assets/challenge-create-journey.png)
+
+1. Cuando esté listo, publique el recorrido para que el desafío esté disponible para los clientes. El recorrido se iniciará automáticamente en la fecha de inicio del desafío especificada y enviará el contenido y los mensajes según la configuración. [Más información sobre cómo publicar un recorrido](../building-journeys/publish-journey.md).
 
 >[!NOTE]
 >

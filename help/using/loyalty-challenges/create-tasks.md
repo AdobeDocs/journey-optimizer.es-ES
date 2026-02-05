@@ -10,9 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+mini-toc-levels: 2
+source-git-commit: 43d3593264ea6d33794914e1b1f9ea45c295c79e
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -20,20 +21,20 @@ ht-degree: 0%
 
 # Creación de tareas {#create-tasks}
 
+>[!AVAILABILITY]
+>
+>Esta característica está actualmente en **versión beta privada** y puede que no esté disponible en su entorno. Para solicitar acceso, póngase en contacto con su representante de Adobe. Más información sobre [etiquetas de disponibilidad](../rn/releases.md#availability-labels).
+
 >[!BEGINSHADEBOX]
 
 **Documentación de retos de fidelización:**
 
 * [Introducción a los retos de fidelización](get-started.md): información general, flujo de trabajo, requisitos previos
-* [Acceder y administrar desafíos de fidelidad](access-loyalty-challenges.md): administración de inventario, desafíos y tareas
+* [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md): administración de inventario, desafíos y tareas
 * [Crear desafíos](create-challenges.md) - Generar y configurar desafíos
 * **Crear tareas** ◀︎ **Está aquí** - Definir tareas de desafío
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Esta característica está actualmente en **versión beta privada** y puede que no esté disponible en su entorno. Para solicitar acceso, póngase en contacto con su representante de Adobe. Más información sobre [etiquetas de disponibilidad](../rn/releases.md#availability-labels).
 
 Las tareas definen las acciones o los hitos específicos que los clientes deben completar para obtener recompensas en un desafío de lealtad. Puede configurar tipos de tareas, cantidades y requisitos de productos para crear experiencias de lealtad atractivas y personalizadas.
 
@@ -47,19 +48,15 @@ Puede crear tareas a partir de dos puntos de entrada. El proceso de configuraci�
 
 >[!TAB Del inventario de tareas]
 
-Seleccione la ficha **[!UICONTROL Tareas]** y seleccione **[!UICONTROL Crear tarea]**.
+Seleccione la ficha **[!UICONTROL Tareas]** y seleccione **[!UICONTROL Crear tarea]**. Las tareas creadas a partir del inventario se guardan y están disponibles para su reutilización en varios desafíos.
 
 ![](assets/task-create-inventory.png)
 
-Las tareas creadas a partir del inventario se guardan y están disponibles para su reutilización en varios desafíos.
-
 >[!TAB Desde un desafío]
 
-Abra un desafío existente o cree uno nuevo. Seleccione **[!UICONTROL Agregar tarea]** y haga clic en el botón **[!UICONTROL Nuevo]**.
+Abra un desafío existente o cree uno nuevo. Seleccione **[!UICONTROL Agregar tarea]** y haga clic en el botón **[!UICONTROL Nuevo]**. Las tareas creadas de esta manera se añaden automáticamente al desafío y también se guardan en el inventario Tareas para reutilizarlas en otros desafíos.
 
 ![](assets/task-create-challenge.png)
-
-Las tareas creadas de esta manera se añaden automáticamente al desafío y también se guardan en el inventario Tareas para reutilizarlas en otros desafíos.
 
 >[!ENDTABS]
 
@@ -70,39 +67,35 @@ Seleccione el tipo de actividad que deben realizar los clientes para completar e
 * **[!UICONTROL Comprar]**: los clientes deben comprar uno o más elementos para completar esta tarea
 * **[!UICONTROL Gasto]**: los clientes deben gastar una cantidad especificada para completar esta tarea
 
-Para seleccionar un tipo de actividad, haga clic en el icono `+` y seleccione la actividad del cliente que mejor se ajuste a los objetivos del resultado. Cada tipo de actividad tiene atributos configurables específicos para definir y dar forma aún más a los requisitos de las tareas.
+Para seleccionar una actividad, haga clic en el icono **+** y seleccione la actividad del cliente que mejor se ajuste a los objetivos del resultado. Cada tipo de actividad tiene atributos configurables específicos para definir y dar forma aún más a los requisitos de las tareas.
+![](assets/task-create-activity.png)
 
-![](assets/task-create-activitiy.png)
+## Definir los atributos de la tarea {#define-attributes}
 
-## Definir atributos {#define-attributes}
-
-Configure los atributos de la tarea en función del tipo de actividad seleccionado:
+Configure los atributos de la tarea en función del tipo de actividad seleccionado. Examine las pestañas siguientes para ver los atributos disponibles para cada tipo de actividad:
 
 >[!BEGINTABS]
 
 >[!TAB Actividad de compra]
 
+Atributos disponibles para actividades **Purchase**:
+
+* **[!UICONTROL Cantidad]**: escriba el número de artículos que deben comprarse para completar esta tarea.
+* **[!UICONTROL Elementos y exclusiones aptos]**: defina los elementos o grupos de elementos que se contarán en la finalización de la tarea y los que no se contabilicen. [Más información sobre artículos aptos y exclusiones](#eligible-items-exclusions)
+* **[!UICONTROL Importe mínimo del valor de gasto]**: establezca un requisito de importe mínimo de compra.
+* **[!UICONTROL Número máximo de transacciones]**: Limite cuántas transacciones se pueden usar para completar la tarea.
+
 ![](assets/task-create-purchase.png)
-
-Configure los siguientes atributos:
-
-* **[!UICONTROL Cantidad]**: escriba el número de artículos que deben comprarse para completar esta tarea
-* **[!UICONTROL Elementos y exclusiones aptos]**: defina los elementos o grupos de elementos que se contarán en la finalización de la tarea y los que no se contabilicen. Más información sobre [definición de artículos y exclusiones elegibles](#eligible-items-exclusions)
-
-**Atributos opcionales** (activados mediante el icono de parámetros):
-
-* **[!UICONTROL Importe mínimo del valor de gasto]**: establezca un requisito de importe mínimo de compra
-* **[!UICONTROL Número máximo de transacciones]**: Limite cuántas transacciones se pueden usar para completar la tarea
 
 >[!TAB Actividad de gasto]
 
-![](assets/task-create-spend.png)
-
-Configure los siguientes atributos:
+Atributos disponibles para actividades **Spend**:
 
 * **[!UICONTROL Importe]**: escriba el importe total de gasto necesario para completar la tarea.
-* **[!UICONTROL Número máximo de transacciones]**: especifique cuántas transacciones pueden cumplir los requisitos de gasto. Puede desactivar este atributo del icono de parámetros si no desea limitar el número de transacciones.
-* **[!UICONTROL Elementos y exclusiones elegibles]**: (Opcional) Defina elementos o grupos de elementos que se contarán para la finalización de la tarea y aquellos que no se contarán. Más información sobre [definición de artículos y exclusiones elegibles](#eligible-items-exclusions)
+* **[!UICONTROL Elementos y exclusiones aptos]**: defina los elementos o grupos de elementos que se contarán en la finalización de la tarea y los que no se contabilicen. [Más información sobre artículos aptos y exclusiones](#eligible-items-exclusions)
+* **[!UICONTROL Número máximo de transacciones]**: especifique cuántas transacciones pueden cumplir los requisitos de gasto. Puede activar este atributo desde el icono de parámetros.
+
+![](assets/task-create-spend.png)
 
 >[!ENDTABS]
 
@@ -112,30 +105,24 @@ Configure los siguientes atributos:
 
 Para las actividades **Compra** y **Gasto**, puede usar el atributo **[!UICONTROL Elementos y exclusiones elegibles]** para definir qué artículos y grupos son elegibles y cuáles están excluidos. Esto le permite dirigirse a productos, categorías o ubicaciones específicos para alinearlos con los objetivos del desafío.
 
-Los casos de uso incluyen: limitar una tarea de gasto a categorías de productos específicas o excluir del recuento las tarjetas regalo o los artículos promocionales para la finalización de la tarea.
+Por ejemplo, puede limitar una tarea de gasto a categorías de productos específicas o excluir del recuento las tarjetas regalo o los artículos promocionales para la finalización de la tarea.
 
 ![](assets/tasks-create-eligible.png)
 
-* Para definir artículos elegibles, usa la sección **[!UICONTROL Compras de tareas elegibles limitadas a la siguiente]** sección. Introduce ID de artículo, categorías o ID de destino específicos, separados por comas.
+* Para definir artículos elegibles, escribe ID de artículo, categorías o ID de destino específicos, separados por comas en **[!UICONTROL Las compras de tareas elegibles están limitadas al siguiente campo]**. Si deja este campo vacío, todas las compras son elegibles de forma predeterminada. También puede ingresar `*` para que todas las compras sean elegibles de manera explícita.
 
   Ejemplo: `SKU001, SKU002, CategoryA`
 
-  Escriba `*` para que todas las compras sean elegibles (comportamiento predeterminado si se deja vacío).
-
-* Para excluir elementos de la tarea, use la sección **[!UICONTROL Se excluyen los siguientes elementos de esta tarea]**. Introduzca ID de artículo, categorías o ID de destino específicos que no deban contarse para la finalización de la tarea.
+* Para excluir elementos de la tarea, escriba id. de elemento, categorías o id. de destino específicos en el campo **[!UICONTROL Se excluyen los siguientes elementos de esta tarea]**.
 
   Ejemplo: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
-
-  >[!NOTE]
-  >
-  >Las exclusiones tienen prioridad sobre los artículos aptos. Si un artículo coincide con un artículo apto y con una exclusión, se excluye de la tarea.
 
 ## Definir propiedades de tarea {#define-task-properties}
 
 En el panel **[!UICONTROL Propiedades]** de la tarea, configure la información básica de la tarea:
 
-* **[!UICONTROL Nombre de tarea]**: escriba un nombre descriptivo para la tarea. Este nombre es visible para usted y para su equipo, pero es posible que no se muestre a los clientes según el diseño de la tarjeta de contenido.
-* **[!UICONTROL Descripción de la tarea]**: La descripción se genera automáticamente según el tipo de actividad y los atributos que configure para la tarea. Puede deshabilitar la generación automática e introducir una descripción personalizada si es necesario.
+* **[!UICONTROL Nombre de tarea]**: escriba un nombre descriptivo para la tarea.
+* **[!UICONTROL Descripción de tarea]**: la descripción se genera automáticamente en función de la actividad y los atributos configurados. Para introducir una descripción personalizada, desactive la opción de generación automática e introduzca la descripción en el campo de texto.
 
 ![](assets/tasks-create-properties.png)
 

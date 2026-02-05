@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Acceder y administrar retos de fidelización
+title: Acceder y administrar desafíos y tareas
 description: Obtenga información sobre cómo acceder, administrar y organizar desafíos y tareas de lealtad en Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
@@ -10,38 +10,41 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+mini-toc-levels: 2
+source-git-commit: 43d3593264ea6d33794914e1b1f9ea45c295c79e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
 
-# Acceder y administrar retos de fidelización {#access-loyalty-challenges}
+# Acceder y administrar desafíos y tareas {#access-loyalty-challenges}
+
+>[!AVAILABILITY]
+>
+>Esta característica está actualmente en **versión beta privada** y puede que no esté disponible en su entorno. Para solicitar acceso, póngase en contacto con su representante de Adobe. Más información sobre [etiquetas de disponibilidad](../rn/releases.md#availability-labels).
 
 >[!BEGINSHADEBOX]
 
 **Documentación de retos de fidelización:**
 
 * [Introducción a los retos de fidelización](get-started.md): información general, flujo de trabajo, requisitos previos
-* **Desafíos de fidelidad de acceso** ◀︎ **Usted está aquí**: administración de inventario, desafíos y tareas
+* **Acceder y administrar desafíos y tareas** ◀︎ **Usted está aquí** - Administración de inventario, desafíos y tareas
 * [Crear desafíos](create-challenges.md) - Generar y configurar desafíos
 * [Crear tareas](create-tasks.md) - Definir tareas de desafío
 
 >[!ENDSHADEBOX]
 
->[!AVAILABILITY]
->Esta característica está actualmente en **versión beta privada** y puede que no esté disponible en su entorno. Para solicitar acceso, póngase en contacto con su representante de Adobe. Más información sobre [etiquetas de disponibilidad](../rn/releases.md#availability-labels).
+## Acceder y administrar desafíos y tareas
 
-## Acceder a desafíos fieles
+Para acceder a Desafíos de fidelización, vaya a Journey Optimizer y seleccione **[!UICONTROL Desafío de fidelización (Beta)]** en la sección **[!UICONTROL Administración de Recorridos]**. La interfaz Retos de fidelización proporciona una ubicación centralizada para ver, administrar y organizar todos los desafíos y tareas.
 
-Para acceder a Desafíos de fidelización, vaya a Journey Optimizer y seleccione **[!UICONTROL Desafío de fidelización (Beta)]** en la sección **[!UICONTROL Administración de Recorridos]**.
+La interfaz permite acceder a dos inventarios principales:
 
-La interfaz Retos de fidelización proporciona una ubicación centralizada para ver, administrar y organizar todos los desafíos y tareas. Puede acceder a dos inventarios principales:
+* **Desafíos**: vea y administre todos los desafíos de fidelidad, supervise su estado y realice acciones rápidas como ver, editar, duplicar o eliminar desafíos
+* **Tareas**: Examine tareas reutilizables que pueden utilizarse en varios desafíos y administre definiciones de tareas de forma independiente
 
-* **Inventario de desafíos**: vea y administre todos los desafíos de lealtad, supervise su estado y realice acciones rápidas
-* **Inventario de tareas**: Examine tareas reutilizables que se pueden utilizar en varios desafíos
 
 ## Inventario de retos {#challenges-tab}
 
@@ -51,7 +54,6 @@ La pestaña **[!UICONTROL Desafíos]** muestra todos los desafíos ordenados por
 
 Información clave mostrada:
 
-* **[!UICONTROL Desafío]**: Nombre del desafío
 * **[!UICONTROL Estado]**: Estado actual del desafío (Borrador o Publicado)
 * **[!UICONTROL Tareas]**: Número de tareas configuradas en el desafío
 * **[!UICONTROL Recorrido]**: vínculo al recorrido generado automáticamente asociado con el desafío
@@ -65,12 +67,7 @@ En la pestaña Desafíos, puede realizar acciones en los desafíos:
 * **Eliminar un desafío**: seleccione el icono ![](assets/do-not-localize/Smock_More_18_N.svg) y elija **[!UICONTROL Eliminar]**
 * **Editar un desafío**: seleccione el nombre del desafío para abrir su página de detalles y editarlo.
 
-  Cuando abra un desafío publicado para editarlo, primero debe revertirlo al estado Borrador:
-
-   * Se perderán todas las personalizaciones realizadas directamente en el recorrido generado automáticamente
-   * El desafío vuelve al estado Borrador
-   * Después de realizar los cambios, debe guardar y publicar el desafío de nuevo
-   * Debe volver a publicar el recorrido asociado para que el desafío actualizado esté disponible para los clientes
+  Cuando abra un desafío publicado para editarlo, primero debe revertirlo al estado &quot;Borrador&quot;. Se perderán todas las personalizaciones realizadas directamente en el recorrido generado automáticamente. Después de realizar los cambios, guarde y publique el desafío de nuevo y vuelva a publicar el recorrido asociado.
 
   >[!IMPORTANT]
   >
@@ -84,7 +81,6 @@ La pestaña **[!UICONTROL Tareas]** muestra todas las tareas reutilizables que s
 
 Información clave mostrada:
 
-* **[!UICONTROL Nombre de tarea]**: El nombre que asignó a la tarea
 * **[!UICONTROL Descripción]**: breve descripción de lo que requiere la tarea
 * **[!UICONTROL Actividad de tarea]**: tipo de actividad (compra, gasto)
 * **[!UICONTROL SKU]**: artículos aptos o excluidos
@@ -92,6 +88,6 @@ Información clave mostrada:
 
 Desde la pestaña Tareas, puede realizar acciones en las tareas:
 
-* **Ver/Editar tarea**: seleccione el nombre de la tarea para ver la configuración completa y editar la tarea
+* **Ver/editar una tarea**: seleccione el nombre de la tarea para ver la configuración completa y editar la tarea
 * **Duplicar una tarea**: seleccione el icono ![](assets/do-not-localize/Smock_More_18_N.svg) y elija **[!UICONTROL Duplicar]**
 * **Eliminar una tarea**: seleccione el icono ![](assets/do-not-localize/Smock_More_18_N.svg) y elija **[!UICONTROL Eliminar]**
