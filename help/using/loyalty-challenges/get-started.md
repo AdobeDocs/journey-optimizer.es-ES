@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 6c6a1b31c81000877cea2af8bca0377264ec4833
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 1%
+source-wordcount: '669'
+ht-degree: 2%
 
 ---
 
@@ -65,7 +65,7 @@ Puede crear tres tipos de experiencias de desafío:
 
 La creación y el lanzamiento de un desafío de fidelidad siguen este flujo de trabajo:
 
-1. **Configurar la ingesta de datos** - Configurar conectores de origen de Experience Platform (como el [conector capilar](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home#loyalty)) para ingerir datos de evento de lealtad que rastrean las acciones y el progreso de los clientes. Estos datos alimentan el seguimiento de desafíos y la finalización de tareas.
+1. **Configurar la ingesta de datos** - Configurar conectores de origen de Experience Platform (como el [conector capilar](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) para ingerir datos de evento de lealtad que rastrean las acciones y el progreso de los clientes. Estos datos alimentan el seguimiento de desafíos y la finalización de tareas.
 
 1. **Crear un desafío**: defina las propiedades básicas del desafío, como nombre, tipo (Estándar, Secuencial o Streak) e intervalo de fechas.
 
@@ -77,7 +77,7 @@ La creación y el lanzamiento de un desafío de fidelidad siguen este flujo de t
 
 1. **Seleccionar audiencia de destino** - Defina qué clientes pueden participar en su desafío seleccionando una audiencia de Adobe Experience Platform.
 
-1. **recorrido de publicación**: Journey Optimizer genera automáticamente un recorrido para el desafío. Vaya al inventario de Recorridos y publique el recorrido generado automáticamente para que el desafío esté disponible para los clientes.
+1. **Iniciar el desafío**: publique el desafío y genere un recorrido. Journey Optimizer crea automáticamente el recorrido para el desafío. Publique el recorrido generado automáticamente para que el desafío esté disponible para los clientes.
 
 Para obtener instrucciones detalladas paso a paso, consulte [Crear desafíos](create-challenges.md).
 
@@ -89,19 +89,21 @@ Antes de usar Desafíos de fidelización, asegúrese de lo siguiente:
 
 Los retos de fidelización dependen de los datos introducidos a través de los conectores de origen de Experience Platform para rastrear el progreso de los clientes y la finalización de las tareas.
 
-Antes de empezar, configure un conector de origen compatible. Actualmente, el conector capilar está disponible. Se han planificado conectores adicionales para futuras versiones. [Más información acerca de los conectores de origen de fidelidad](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home#loyalty).
+Antes de empezar, configure un conector de origen compatible. Actualmente, el conector capilar está disponible. Se han planificado conectores adicionales para futuras versiones. [Más información acerca de los conectores de origen de fidelidad](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
-<!--+++Required permissions
++++Permisos necesarios
 
-To use Loyalty Challenges, you need appropriate permissions in Journey Optimizer. Required permissions include:
+Para utilizar Desafíos de fidelización, necesita los permisos adecuados en Journey Optimizer. Los permisos obligatorios incluyen:
 
-TBD
+* Por determinar
+* Por determinar
+* Por determinar
 
-Contact your administrator if you cannot access the feature or need additional permissions.
+Póngase en contacto con el administrador si no puede acceder a la función o necesita permisos adicionales.
 
-+++-->
++++
 
 +++Público destinatario
 
