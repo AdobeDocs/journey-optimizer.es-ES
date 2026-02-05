@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+source-git-commit: f50cc244f6d5ec8b38844e8240e72502ddfe3ae0
 workflow-type: tm+mt
 source-wordcount: '3091'
 ht-degree: 98%
@@ -134,7 +134,7 @@ ht-degree: 98%
       + [Utilice acciones personalizadas para escribir los eventos de recorrido en Experience Platform](using/building-journeys/custom-action-aep.md)
 + Retos de fidelización {#loyalty-challenges}
    + [Introducción a los retos de fidelización](using/loyalty-challenges/get-started.md)
-   + [Acceder y administrar retos de fidelización](using/loyalty-challenges/access-loyalty-challenges.md)
+   + [Acceder y administrar desafíos y tareas](using/loyalty-challenges/access-loyalty-challenges.md)
    + [Crear desafíos](using/loyalty-challenges/create-challenges.md)
    + [Creación de tareas](using/loyalty-challenges/create-tasks.md)
 + Campañas {#campaigns}
@@ -850,7 +850,7 @@ ht-degree: 98%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
