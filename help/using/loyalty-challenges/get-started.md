@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 6c6a1b31c81000877cea2af8bca0377264ec4833
+source-git-commit: 8816b20de66c7374525731d7aaee19106aa47582
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,7 @@ Puede crear tres tipos de experiencias de desafío:
 
 La creación y el lanzamiento de un desafío de fidelidad siguen este flujo de trabajo:
 
-1. **Configurar la ingesta de datos** - Configurar conectores de origen de Experience Platform (como el [conector capilar](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home#loyalty)) para ingerir datos de evento de lealtad que rastrean las acciones y el progreso de los clientes. Estos datos alimentan el seguimiento de desafíos y la finalización de tareas.
+1. **Configurar la ingesta de datos** - Configurar conectores de origen de Experience Platform (como el [conector capilar](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) para ingerir datos de evento de lealtad que rastrean las acciones y el progreso de los clientes. Estos datos alimentan el seguimiento de desafíos y la finalización de tareas.
 
 1. **Crear un desafío**: defina las propiedades básicas del desafío, como nombre, tipo (Estándar, Secuencial o Streak) e intervalo de fechas.
 
@@ -89,7 +89,7 @@ Antes de usar Desafíos de fidelización, asegúrese de lo siguiente:
 
 Los retos de fidelización dependen de los datos introducidos a través de los conectores de origen de Experience Platform para rastrear el progreso de los clientes y la finalización de las tareas.
 
-Antes de empezar, configure un conector de origen compatible. Actualmente, el conector capilar está disponible. Se han planificado conectores adicionales para futuras versiones. [Más información acerca de los conectores de origen de fidelidad](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home#loyalty).
+Antes de empezar, configure un conector de origen compatible. Actualmente, el conector capilar está disponible. Se han planificado conectores adicionales para futuras versiones. [Más información acerca de los conectores de origen de fidelidad](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
@@ -117,18 +117,18 @@ Asegúrese de que la audiencia de destino que necesita exista en Adobe Experienc
 <tr style="border: 0;">
   <td>
     <a href="access-loyalty-challenges.md">
-    <!--<img alt="Access" src="../assets/do-not-localize/learn-more-button.svg">-->
+      <img alt="Acceso" src="assets/do-not-localize/icon-access.png">
     </a>
     <div>
     <a href="access-loyalty-challenges.md"><strong>Acceder y administrar desafíos y tareas</strong></a>
     </div>
     <p>
-    <em>Aprenda a acceder al inventario y filtrar los desafíos</em>
+    <em>Aprenda a acceder al inventario y a administrar desafíos y tareas</em>
     </p>
   </td>
   <td>
     <a href="create-challenges.md">
-      <!--<img alt="Create" src="../assets/do-not-localize/start-button.svg">-->
+      <img alt="Crear" src="assets/do-not-localize/icon-challenge.png">
     </a>
     <div>
     <a href="create-challenges.md"><strong>Crear desafíos</strong></a>
@@ -139,13 +139,13 @@ Asegúrese de que la audiencia de destino que necesita exista en Adobe Experienc
   </td>
   <td>
     <a href="create-tasks.md">
-    <!--<img alt="Tasks" src="../assets/do-not-localize/start-button.svg">-->
+      <img alt="Tareas" src="assets/do-not-localize/icon-task.png">
     </a>
     <div>
     <a href="create-tasks.md"><strong>Crear tareas</strong></a>
     </div>
     <p>
-    <em>Aprenda a configurar las acciones que completan los clientes para los desafíos</em>
+    <em>Aprenda a definir las tareas que completan los clientes para los desafíos</em>
     </p>
   </td>
 </tr>
