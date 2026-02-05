@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
+source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1486'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,10 @@ ht-degree: 0%
 
 **Documentación de retos de fidelización:**
 
-* [Introducción a los retos de fidelización](get-started.md): información general, flujo de trabajo, requisitos previos
-* [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md): administración de inventario, desafíos y tareas
-* **Crear desafíos** ◀︎ **Usted está aquí** - Generar y configurar desafíos
-* [Crear tareas](create-tasks.md) - Definir tareas de desafío
+* [Introducción a los retos de fidelización](get-started.md)
+* [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md)
+* **Crear desafíos** ◀︎ **Usted está aquí**
+* [Creación de tareas](create-tasks.md)
 
 >[!ENDSHADEBOX]
 
