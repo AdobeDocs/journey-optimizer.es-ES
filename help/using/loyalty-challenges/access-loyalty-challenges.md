@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 5ccbddb37c0f45b6dd004cb4b70378b300228c0c
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ La interfaz permite acceder a dos inventarios principales:
 * **Desafíos**: vea y administre todos los desafíos de fidelidad, supervise su estado y realice acciones rápidas como ver, editar, duplicar o eliminar desafíos
 * **Tareas**: Examine tareas reutilizables que pueden utilizarse en varios desafíos y administre definiciones de tareas de forma independiente
 
-
 ## Inventario de retos {#challenges-tab}
 
 La pestaña **[!UICONTROL Desafíos]** muestra todos los desafíos ordenados por fecha de última modificación, y en primer lugar aparecen los desafíos modificados más recientemente.
@@ -57,17 +56,22 @@ Información clave mostrada:
 * **[!UICONTROL Estado]**: Estado actual del desafío (Borrador o Publicado)
 * **[!UICONTROL Tareas]**: Número de tareas configuradas en el desafío
 * **[!UICONTROL Recorrido]**: vínculo al recorrido generado automáticamente asociado con el desafío
-* **[!UICONTROL Estado]**: Estado actual del recorrido asociado (borrador, activo, detenido, etc.)
+* **[!UICONTROL Estado]**: Estado actual del recorrido generado automáticamente que presenta el desafío.
 * **[!UICONTROL Fecha de inicio/finalización (UTC)]**: Cuando el desafío se activa y caduca
 
 En la pestaña Desafíos, puede realizar acciones en los desafíos:
 
 * **Ver desafío**: seleccione el nombre del desafío para abrir su página de detalles
 * **Duplicar un desafío**: selecciona el icono ![](assets/do-not-localize/Smock_More_18_N.svg) y elige **[!UICONTROL Duplicar]**. Se crea una copia con todas las tareas, el contenido y la mensajería intactos.
-* **Eliminar un desafío**: seleccione el icono ![](assets/do-not-localize/Smock_More_18_N.svg) y elija **[!UICONTROL Eliminar]**
-* **Editar un desafío**: seleccione el nombre del desafío para abrir su página de detalles y editarlo.
+* **Eliminar un desafío**: seleccione el icono ![](assets/do-not-localize/Smock_More_18_N.svg) y elija **[!UICONTROL Eliminar]**.
 
-  Cuando abra un desafío publicado para editarlo, primero debe revertirlo al estado &quot;Borrador&quot;. Se perderán todas las personalizaciones realizadas directamente en el recorrido generado automáticamente. Después de realizar los cambios, guarde y publique el desafío de nuevo y vuelva a publicar el recorrido asociado.
+  >[!IMPORTANT]
+  >
+  >Puede eliminar un desafío incluso cuando esté publicado. Tenga en cuenta el impacto antes de eliminar.
+
+* **Editar un desafío**: seleccione el nombre del desafío para abrir su página de detalles y realizar los cambios deseados.
+
+  Cuando abra un desafío publicado para editarlo, primero debe revertirlo al estado Borrador. Se perderán todas las personalizaciones realizadas directamente en el recorrido generado automáticamente. Después de realizar los cambios, guarde y publique el desafío de nuevo y, a continuación, publique el recorrido asociado. [Aprenda a iniciar un desafío](create-challenges.md#launch)
 
   >[!IMPORTANT]
   >
@@ -90,4 +94,8 @@ Desde la pestaña Tareas, puede realizar acciones en las tareas:
 
 * **Ver/editar una tarea**: seleccione el nombre de la tarea para ver la configuración completa y editar la tarea
 * **Duplicar una tarea**: seleccione el icono ![](assets/do-not-localize/Smock_More_18_N.svg) y elija **[!UICONTROL Duplicar]**
-* **Eliminar una tarea**: seleccione el icono ![](assets/do-not-localize/Smock_More_18_N.svg) y elija **[!UICONTROL Eliminar]**
+* **Eliminar una tarea**: seleccione el icono ![](assets/do-not-localize/Smock_More_18_N.svg) y elija **[!UICONTROL Eliminar]**.
+
+  >[!IMPORTANT]
+  >
+  >Puede eliminar una tarea incluso cuando se utiliza en uno o más desafíos. Tenga en cuenta el impacto en los desafíos que hacen referencia a la tarea antes de eliminarla.

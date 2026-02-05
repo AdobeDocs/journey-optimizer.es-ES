@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 5ccbddb37c0f45b6dd004cb4b70378b300228c0c
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -236,23 +236,29 @@ Defina qué clientes pueden participar en su desafío de fidelidad.
 
 1. En el cuadro de diálogo de selección de audiencia, seleccione la audiencia de destino en la lista de audiencias de Adobe Experience Platform disponibles y seleccione **[!UICONTROL Agregar audiencia]**. [Aprenda a trabajar con audiencias](../audience/about-audiences.md).
 
-El desafío está ahora completamente configurado con su estructura, contenido, mensajería y audiencia de destino. El paso final es generar y publicar el recorrido.
+El desafío está ahora completamente configurado con su estructura, contenido, mensajería y audiencia de destino. Para iniciarlo, debe publicar el desafío y su recorrido asociado.
 
-## Generación y publicación del recorrido {#review-and-publish}
+## Lanzamiento del desafío {#launch}
 
-Después de configurar todos los componentes de desafío, genere el recorrido que organizará la entrega de desafío:
+Para iniciar un desafío se requieren **tres pasos**: (1) publicar el desafío, (2) generar el recorrido, (3) publicar el recorrido. Los tres deben completarse para que el desafío se entregue a los clientes.
 
 1. Revise la configuración de desafío para asegurarse de que se completan todos los campos obligatorios.
 
-1. Seleccione **[!UICONTROL Guardar]** para guardar la configuración del desafío y seleccione **[!UICONTROL Generar Recorrido]**.
+1. Haga clic en el icono ![](assets/do-not-localize/Smock_More_18_N.svg) y seleccione **[!UICONTROL Publicar]**.
+
+   ![](assets/challenge-create-publish.png)
+
+1. Seleccione **[!UICONTROL Generar Recorrido]** para crear el recorrido que organizará su envío de desafío.
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer crea automáticamente un recorrido en estado de Borrador. El recorrido generado automáticamente aparece en su inventario de recorrido con el formato de nombre *&quot;Recorrido: [Nombre del desafío]&quot;*. [Más información sobre el inventario de recorridos](../building-journeys/journey-ui.md).
+1. Journey Optimizer crea automáticamente un recorrido en estado de Borrador. El recorrido aparece en su inventario de recorridos con el formato de nombre *&quot;Recorrido: [Nombre del desafío]&quot;*. [Más información sobre el inventario de recorridos](../building-journeys/journey-ui.md).
 
    ![](assets/challenge-create-journey.png)
 
-1. Cuando esté listo, publique el recorrido para que el desafío esté disponible para los clientes. El recorrido se iniciará automáticamente en la fecha de inicio del desafío especificada y enviará el contenido y los mensajes según la configuración. [Más información sobre cómo publicar un recorrido](../building-journeys/publish-journey.md).
+1. Abra el recorrido y publíquelo. El recorrido se iniciará automáticamente en la fecha de inicio del desafío especificada y enviará el contenido y los mensajes según la configuración. [Más información sobre cómo publicar un recorrido](../building-journeys/publish-journey.md).
+
+1. Una vez que el desafío esté activo, supervise el rendimiento y la entrega de mensajes en el [informe de recorrido](../reports/journey-global-report-cja.md).
 
 >[!NOTE]
 >
