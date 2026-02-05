@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privada" type="Informative"
-mini-toc-levels: 2
-source-git-commit: 43d3593264ea6d33794914e1b1f9ea45c295c79e
+mini-toc-levels: 1
+source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 0%
 * [Crear tareas](create-tasks.md) - Definir tareas de desafío
 
 >[!ENDSHADEBOX]
+
+Esta página cubre el proceso completo de creación de un desafío de fidelidad, desde la selección del tipo de desafío y la configuración de sus propiedades hasta la generación y publicación del recorrido que ofrece el desafío a sus clientes.
 
 ## Creación del desafío {#create-the-challenge}
 
@@ -68,9 +70,9 @@ En la ficha **[!UICONTROL Estructura]**, defina la organización del desafío: l
    * **[!UICONTROL Nombre]**: escriba un nombre descriptivo para el desafío. Este nombre aparece en el inventario de desafíos.
    * **[!UICONTROL Descripción]**: escriba una descripción que explique el propósito y los objetivos del desafío.
 
-   ![](assets/challenge-create-properties.png)
-
 1. Utilice la sección **[!UICONTROL Metadatos personalizados]** para agregar metadatos personalizados mediante pares clave/valor. Estos metadatos se pueden utilizar para el seguimiento o la integración con sistemas externos.
+
+   ![](assets/challenge-create-properties.png)
 
 ### Programar el desafío {#schedule}
 
@@ -117,13 +119,13 @@ Para añadir tareas al desafío, siga estos pasos:
 
    +++Racha de desafíos
 
-   * **[!UICONTROL Tipo de transmisión]**:
+   En el menú desplegable **[!UICONTROL Tipo de transmisión]**, elija entre:
 
-      * **Consecutivo**: los clientes deben completar la tarea en días consecutivos sin pausas. *Ejemplo: comprar el lunes, martes o miércoles, si falta un día se rompe la raya.*
+   * **Consecutivo**: los clientes deben completar la tarea en días consecutivos sin pausas. *Ejemplo: comprar el lunes, martes o miércoles, si falta un día se rompe la raya.*
 
-      * **No consecutiva**: los clientes pueden completar la tarea con espacios entre finalizaciones. *Ejemplo: complete 7 compras en más de 30 días, con descansos permitidos.*
+   * **No consecutiva**: los clientes pueden completar la tarea con espacios entre finalizaciones. *Ejemplo: complete 7 compras en más de 30 días, con descansos permitidos.*
 
-   * **[!UICONTROL Longitud de la secuencia]**: especifique cuántas veces se debe completar la tarea. *Ejemplo: establecido en 7 para una &quot;racha de compra de 7 días&quot;.*
+   En el campo **[!UICONTROL Longitud de la racha]**, especifique cuántas veces se debe completar la tarea. *Ejemplo: establecido en 7 para una &quot;racha de compra de 7 días&quot;.*
 
    +++
 
@@ -157,6 +159,8 @@ Para configurar cuándo y cómo se entregan las recompensas:
      *Ejemplo: otorga 10 puntos después de la tarea 1, 20 puntos después de la tarea 2 y 50 puntos después de la tarea 3*
 
 1. Seleccione a su proveedor de recompensas. Esta es su solución de fidelidad que administra los puntos y recompensas del cliente.
+
+   ![](assets/challenge-create-reward-type.png)
 
 1. Configure los importes de recompensa en función del método de entrega seleccionado:
 
@@ -210,7 +214,7 @@ Configure mensajes multicanal para atraer a los clientes en etapas clave del cic
    * Mensaje de **En curso**: Mantén a los clientes comprometidos con los recordatorios y las actualizaciones de progreso
    * **Finalización** mensaje: Celebre el éxito y confirme la asignación del premio
 
-1. Para cada fase, añada el botón de mensaje para crear un mensaje para esa fase.
+1. Para cada fase, haga clic en el botón Añadir mensaje para crear un mensaje para esa fase.
 
 1. Elija el canal que desee: **[!UICONTROL En la aplicación]**, **[!UICONTROL Correo electrónico]** o **[!UICONTROL Notificación push]** y seleccione la configuración de canal asociada.
 
@@ -245,8 +249,6 @@ Después de configurar todos los componentes de desafío, genere el recorrido qu
    ![](assets/challenge-create-generate-journey.png)
 
 1. Journey Optimizer crea automáticamente un recorrido en estado de Borrador. El recorrido generado automáticamente aparece en su inventario de recorrido con el formato de nombre *&quot;Recorrido: [Nombre del desafío]&quot;*. [Más información sobre el inventario de recorridos](../building-journeys/journey-ui.md).
-
-   Vaya al inventario de **[!UICONTROL Recorridos]** para revisar la configuración de recorrido generada automáticamente si es necesario.
 
    ![](assets/challenge-create-journey.png)
 
