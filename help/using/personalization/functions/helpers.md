@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: dc417c88021bdb042d7a600ee13a7cbab0ceeb4a
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '682'
 ht-degree: 5%
 
 ---
@@ -220,7 +220,7 @@ El siguiente ejemplo permite calcular la suma total de los precios de los produc
 
 >[!AVAILABILITY]
 >
->Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+>Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 El asistente `executionMetadata` permite capturar y almacenar dinámicamente pares de clave-valor personalizados en el contexto de ejecución del mensaje.
 
@@ -269,11 +269,11 @@ Durante el tiempo de ejecución, el valor de los metadatos se agrega al **[!UICO
 >
 >Obtenga más información sobre los conjuntos de datos en [esta sección](../../data/get-started-datasets.md).
 
-**Limitación**
+**Limitaciones**
 
-Hay un límite superior de 2 kb en los pares de valor clave por acción.
+Hay un límite superior de 2 kb en los pares de valor clave por acción. Si se supera el límite de 2 KB, el mensaje se envía, pero cualquiera de los pares de valor clave se puede truncar.
 
-Si se supera el límite de 2 KB, el mensaje se envía, pero cualquiera de los pares de valor clave se puede truncar.
+No se capturan metadatos para perfiles excluidos de la acción. Cuando se excluye a un perfil de la recepción de un mensaje, no se crea ninguna entrada de metadatos para ese perfil en el conjunto de datos.
 
 **Ejemplo**
 
