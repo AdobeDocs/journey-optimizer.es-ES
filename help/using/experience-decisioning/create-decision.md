@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: fb35bc5a51421818297586b5e386aa75deb1c669
+source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '685'
 ht-degree: 26%
 
 ---
@@ -49,7 +49,7 @@ Las políticas de decisión son contenedores para sus ofertas que aprovechan el 
 
 ## Protecciones y limitaciones
 
-* **Canales compatibles** - Las directivas de decisión están disponibles para estos canales : Experiencia basada en código, Correo electrónico, SMS y Notificaciones push.
+* **Canales admitidos**: las directivas de decisión están disponibles para todos los clientes para las notificaciones push, SMS y de experiencia basada en código. La toma de decisiones del canal de correo electrónico solo está disponible en disponibilidad limitada.
 * **Requisito de notificaciones push para SDK**: Experience Decisioning con notificaciones push requiere una versión específica de Mobile SDK. Antes de implementar esta característica, compruebe [las notas de la versión](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} para identificar la versión requerida y asegúrese de haber actualizado según corresponda. También puede ver todas las versiones de SDK disponibles para su plataforma en [esta sección](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
 * **Páginas espejo de correo electrónico**: por ahora, los elementos de decisión no se representan en las páginas espejo de correo electrónico.
 * **Tipo de seguimiento y vínculos**: para realizar el seguimiento de los vínculos generados por la toma de decisiones, defina estos vínculos en el esquema como &quot;Decisioning Assets&quot;. Los vínculos basados en atributos no se pueden rastrear.
@@ -85,12 +85,12 @@ Los pasos principales para aprovechar las políticas de decisión en los mensaje
 
 Aprenda a utilizar Decisioning para personalizar correos electrónicos para su audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476167?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 Aprenda a utilizar Decisioning para personalizar las notificaciones push para su audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479213?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 Aprenda a utilizar Decisioning para personalizar los mensajes SMS para su audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479532?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
