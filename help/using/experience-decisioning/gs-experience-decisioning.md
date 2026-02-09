@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 22%
+source-wordcount: '674'
+ht-degree: 21%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 22%
 
 La toma de decisiones simplifica la personalización al ofrecer un catálogo centralizado de ofertas de marketing conocidas como “elementos de decisión” y un motor de decisión sofisticado. Este motor aprovecha las reglas y los criterios de clasificación para seleccionar y presentar a cada persona los elementos de decisión más relevantes.
 
-Estos elementos de decisión se integran perfectamente en una amplia gama de superficies de entrada a través del [canal de experiencia basado en código](../code-based/get-started-code-based.md), al que se puede acceder desde [!DNL Adobe Journey Optimizer] campañas.
+Estos elementos de decisión se integran perfectamente en los mensajes y experiencias de [!DNL Adobe Journey Optimizer] canales: [experiencia basada en código](../code-based/get-started-code-based.md), correo electrónico, SMS y notificaciones push.
 
 >[!IMPORTANT]
 >
->Las políticas de decisión están disponibles para su uso únicamente en campañas de experiencia basadas en código y de correo electrónico.
+>Las directivas de decisión están disponibles para todos los clientes para los canales **Experiencia basada en código**, **Notificación push** y **SMS**. La toma de decisiones para el canal **Correo electrónico** solo está disponible en disponibilidad limitada. Para solicitar acceso, póngase en contacto con su representante de Adobe. Más información sobre [etiquetas de disponibilidad](../rn/releases.md#availability-labels).
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
@@ -85,7 +85,7 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
    ➡️ [Aprenda a crear estrategias de selección en la interfaz de usuario](selection-strategies.md) en la interfaz de usuario (y en la [documentación de API](api-reference/selection-strategies/create.md))
 
-1. **Cree una política de decisión e incrústela en su recorrido/campaña de correo electrónico o basado en código**: las políticas de decisión combinan varias estrategias de selección para determinar los elementos de decisión aptos que se mostrarán a la audiencia deseada.
+1. **Cree una política de decisión e incrústela en su recorrido o campaña** (experiencia basada en código, correo electrónico, SMS o push): las políticas de decisión combinan varias estrategias de selección para determinar los elementos de decisión aptos que se mostrarán a la audiencia deseada.
 
    ➡️ [Aprenda a trabajar con directivas de decisión](create-decision.md)
 ➡️ Para entregar correctamente la oferta a través del canal de experiencia basado en código, siga los pasos de implementación de [esta sección](../code-based/code-based-implementation-samples.md).
@@ -105,4 +105,4 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
 Obtenga información sobre las funcionalidades de Decisioning en Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475866?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

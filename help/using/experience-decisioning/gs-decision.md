@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 version: Journey Orchestration
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 29%
+source-wordcount: '334'
+ht-degree: 26%
 
 ---
 
@@ -37,7 +37,7 @@ Nuestro marco de decisión de próxima generación, diseñado para unificar los 
 * Configuración actualizada de la política de decisión y la estrategia de selección: Permitir la reutilización de componentes de decisión
 * Funcionalidades de experimentación: pruebe la lógica de decisión con otros componentes de contenido para medir el rendimiento
 
-Decisioning es compatible actualmente con el canal de experiencia basado en código.
+La toma de decisiones está disponible para todos los clientes para los canales **Experiencia basada en código**, **Notificación push** y **SMS**. La decisión sobre el canal **Correo electrónico** está disponible con disponibilidad limitada. Para solicitar acceso a Email Decisioning, póngase en contacto con su representante de Adobe. Más información sobre [etiquetas de disponibilidad](../rn/releases.md#availability-labels).
 
 ➡️ [Introducción a la toma de decisiones](../experience-decisioning/gs-experience-decisioning.md)
 
