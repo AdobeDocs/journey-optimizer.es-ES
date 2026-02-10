@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: '[!DNL Adobe Campaign] acciones de las versiones 7 y 8'
-description: Más información acerca de  [!DNL Adobe Campaign] acciones v7/v8
+title: Acciones en las versiones 7 y 8 de Adobe Campaign
+description: Obtenga información acerca de las acciones de las versiones 7 y 8 de Adobe Campaign
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, integración, campaign, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 4%
+source-wordcount: '296'
+ht-degree: 6%
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: '[!DNL Adobe Campaign] acciones estándar'
-description: Más información acerca de  [!DNL Adobe Campaign] acciones estándar
+title: Acciones de Adobe Campaign Standard
+description: Más información sobre las acciones de Adobe Campaign Standard
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, integración, estándar, campaña, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 1%
+source-wordcount: '937'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ Para cada uno de estos canales, selecciona una [!DNL Adobe Campaign] plantilla *
 >
 >El mensaje transaccional de Campaign Standard y su evento asociado deben publicarse para poder utilizarse en Journey Optimizer. Si el evento se publica pero el mensaje no, no será visible en la interfaz de Journey Optimizer. Si el mensaje se publica pero su evento asociado no, estará visible en la interfaz de Journey Optimizer, pero no se podrá utilizar.
 
-![[!DNL Adobe Campaign] Configuración de acción estándar en el recorrido &#x200B;](assets/journey59.png)
+![[!DNL Adobe Campaign] Configuración de acción estándar en el recorrido ](assets/journey59.png)
 
 Puede utilizar un evento (también conocido como tiempo real) o una plantilla de mensajería transaccional de perfil.
 
