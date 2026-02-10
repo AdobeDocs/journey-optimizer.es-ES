@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 80c652afef03b0be6d917cb4389850780c2a4379
+source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 6%
+source-wordcount: '1269'
+ht-degree: 5%
 
 ---
 
@@ -408,21 +408,81 @@ La función `formatDate` se usa para dar formato a un valor de fecha y hora. El 
 {%= formatDate(datetime, format) %}
 ```
 
-Donde la primera cadena es el atributo de fecha y el segundo valor es cómo desea que se convierta y muestre la fecha.
+Donde el primer parámetro es el atributo de fecha y hora y el segundo valor es cómo desea que se convierta y muestre la fecha.
 
 >[!NOTE]
+>
+> La función `formatDate` requiere un tipo de campo **fecha-hora** como entrada, no como cadena. Si el campo se almacena como un tipo de cadena en el esquema XDM, primero debe convertirlo a fecha-hora mediante una función de conversión como `stringToDate()` o `toDateTime()`. Consulte los ejemplos siguientes.
 >
 > Si un patrón de fecha no es válido, la fecha volverá a estar en el formato estándar ISO.
 >
 > Puede utilizar las funciones de formato de fecha de Java como se resume en [Documentación de Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
-**Ejemplo**
+**Ejemplos**
 
-La siguiente operación devuelve la fecha con el siguiente formato: MM/DD/AA.
++++Formato de un campo de fecha y hora
+
+La siguiente operación aplica formato MM/DD/AA a un campo de fecha y hora.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
+
++++
+
++++Convertir una cadena a fecha primero
+
+Si el campo se almacena como una cadena, primero debe convertirlo a una fecha-hora con `stringToDate()` antes de aplicarle formato.
+
+```sql
+{%= formatDate(stringToDate(profile.person.birthDayAndMonth), "MM/DD/YY") %}
+```
+
++++
+
++++Formato de fecha completo con nombre de día
+
+La siguiente operación devuelve un formato de fecha completo con el nombre del día, el nombre del mes, el día y el año.
+
+```sql
+{%= formatDate(profile.person.birthDateTime, "EEEE MMMM dd yyyy") %}
+```
+
+Salida: `Wednesday January 01 2020`
+
++++
+
++++Fecha dinámica basada en la hora del sistema
+
+Puede dar formato a la hora del sistema actual para generar fechas dinámicas. La siguiente operación devuelve la fecha actual en formato MM/dd/AAAA.
+
+```sql
+{%= formatDate(getCurrentZonedDateTime(), "MM/dd/YYYY") %}
+```
+
+Salida (el 30 de enero de 2026): `01/30/2026`
+
++++
+
++++Formato de día de la semana
+
+Puede extraer el día de la semana en forma corta.
+
+```sql
+{%= formatDate(getCurrentZonedDateTime(), "EEE") %}
+```
+
+Salida: `Sun` (para domingo), `Mon` (para lunes), `Tue` (para martes), etc.
+
+Para salida en minúsculas, combine con la función `lowerCase`:
+
+```sql
+{%= lowerCase(formatDate(getCurrentZonedDateTime(), "EEE")) %}
+```
+
+Salida: `sun`, `mon`, `tue`, etc.
+
++++
 
 ### Caracteres de patrón {#pattern-characters}
 
