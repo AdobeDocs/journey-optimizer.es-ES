@@ -9,11 +9,12 @@ role: Developer
 level: Intermediate
 keywords: expresión, editor
 mini-toc-levels: 1
+badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 41364a89289f0657a2b7646c5daa45a369936e57
+source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 5%
+source-wordcount: '917'
+ht-degree: 6%
 
 ---
 
@@ -25,6 +26,10 @@ ht-degree: 5%
 >abstract="Al habilitar un conjunto de datos para la búsqueda, puede aprovechar sus datos dentro de las funciones de personalización, toma de decisiones y orquestación de recorrido de Journey Optimizer."
 
 [!DNL Journey Optimizer] le permite aprovechar los datos de [!DNL Adobe Experience Platform] con capacidades de personalización, toma de decisiones y orquestación de recorrido. Para ello, los conjuntos de datos basados en registros necesarios para la personalización de la búsqueda deben habilitarse primero para el servicio de búsqueda como se describe a continuación.
+
+>[!NOTE]
+>
+>La capacidad de búsqueda de datos solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe. Más información sobre [etiquetas de disponibilidad](../rn/releases.md#availability-labels).
 
 Obtenga más información sobre cómo acceder a los conjuntos de datos y trabajar con ellos en esta sección: [Introducción a los conjuntos de datos](../data/get-started-datasets.md)
 
