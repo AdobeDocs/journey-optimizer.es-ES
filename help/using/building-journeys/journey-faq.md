@@ -2,30 +2,30 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 'Journey Orchestration: Preguntas más frecuentes'
-description: Preguntas frecuentes sobre Journey Orchestration en Adobe Journey Optimizer
+description: Preguntas más frecuentes sobre Journey Orchestration en  [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía, orquestación
 version: Journey Orchestration
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '5231'
-ht-degree: 1%
+source-wordcount: '5191'
+ht-degree: 0%
 
 ---
 
-
 # Journey Orchestration: Preguntas más frecuentes {#faq-journeys}
 
-Encuentre respuestas a preguntas comunes sobre Journey Orchestration en Adobe Journey Optimizer.
+Encuentre respuestas a preguntas comunes acerca de Journey Orchestration en [!DNL Adobe Journey Optimizer].
 
-¿Necesita más información? Use las opciones de comentarios situados en la parte inferior de esta página para plantear su pregunta o conecte con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más información? Utilice las opciones de comentarios en la parte inferior de esta página para plantear su pregunta. También puedes conectarte con la [[!DNL Adobe Journey Optimizer] comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
 
 ## Conceptos generales
 
-+++ ¿Qué es un recorrido en Adobe Journey Optimizer?
++++ ¿Qué es un recorrido en [!DNL Adobe Journey Optimizer]?
 
 Un recorrido es una orquestación de varios pasos que le permite diseñar y ejecutar experiencias del cliente en tiempo real en varios canales. Recorrido combina eventos, actividades de orquestación, acciones y mensajes para crear experiencias personalizadas y contextuales basadas en el comportamiento del cliente y los eventos comerciales.
 
@@ -35,10 +35,10 @@ Más información sobre [recorridos](journey.md).
 
 +++ ¿Cuáles son los diferentes tipos de recorridos?
 
-Adobe Journey Optimizer admite cuatro tipos de recorridos:
+[!DNL Adobe Journey Optimizer] admite cuatro tipos de recorridos:
 
 * **recorridos unitarios**: Se activan individualmente mediante un evento (por ejemplo, una compra o el inicio de sesión en la aplicación). Los perfiles introducen el recorrido de uno en uno cuando se produce el evento.
-* **Leer recorridos de audiencias**: Comience con una audiencia de Adobe Experience Platform y envíe mensajes en lote a todos los perfiles de esa audiencia.
+* **Leer recorridos de audiencias**: Comience con una audiencia de [!DNL Adobe Experience Platform] y envíe mensajes en lote a todos los perfiles de esa audiencia.
 * **recorridos de calificación de audiencia**: se activa cuando los perfiles cumplen los requisitos para un segmento de audiencia específico o salen de él. Los perfiles introducen el recorrido cuando cumplen los criterios de audiencia.
 * **recorridos de eventos empresariales**: desencadenados por eventos empresariales (por ejemplo, actualizaciones de existencias o alertas meteorológicas) que afectan a varios perfiles simultáneamente.
 
@@ -56,7 +56,7 @@ Los **[Recorridos](journey.md)** son orquestaciones de varios pasos que reaccion
 * **[Campañas activadas por API](../campaigns/api-triggered-campaigns.md)**: campañas activadas a través de llamadas de API, lo que permite la integración con sistemas externos para enviar mensajes basados en eventos en tiempo real o lógica empresarial.
 * **[Campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)**: campañas de varios pasos y basadas en audiencias que se basan en un lienzo que puede incluir condiciones, tiempos de espera y múltiples acciones para crear experiencias programadas y coordinadas.
 
-**Práctica recomendada**: Use [recorridos](journey.md) para una participación compleja desencadenada por eventos con orquestación avanzada; [campañas de acción](../campaigns/create-campaign.md) para comunicaciones programadas basadas en audiencias; [campañas activadas por API](../campaigns/api-triggered-campaigns.md) para activación programática desde sistemas externos; y [campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md) para comunicaciones de varios pasos con requisitos específicos de campañas.
+**Práctica recomendada**: Use [recorridos](journey.md) para una participación compleja desencadenada por eventos con orquestación avanzada. Use [campañas de acción](../campaigns/create-campaign.md) para comunicaciones programadas y basadas en audiencias. Utilice [campañas activadas por API](../campaigns/api-triggered-campaigns.md) para la activación mediante programación desde sistemas externos. Use [campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md) para comunicaciones de varios pasos con requisitos específicos de campañas.
 
 +++
 
@@ -76,7 +76,7 @@ Más información sobre [actividades de recorrido](about-journey-activities.md).
 
 +++ ¿Qué tipos de audiencias se admiten en los recorridos y cuáles son sus limitaciones?
 
-Adobe Journey Optimizer admite cuatro tipos de audiencias, cada una con diferentes características y protecciones:
+[!DNL Adobe Journey Optimizer] admite cuatro tipos de audiencias, cada una con características y protecciones diferentes:
 
 **1. Transmitiendo audiencias**
 
@@ -110,11 +110,11 @@ Adobe Journey Optimizer admite cuatro tipos de audiencias, cada una con diferent
    * Se aplican límites de tamaño de archivo CSV (compruebe los límites actuales en la documentación del producto)
    * Los miembros de la audiencia permanecen estáticos hasta que se actualizan con una nueva carga
    * El área de nombres de identidad debe coincidir con el recorrido
-   * Los perfiles deben existir en Adobe Experience Platform
+   * Los perfiles deben existir en [!DNL Adobe Experience Platform]
 
 **4. Audiencias de composición de audiencias federadas (FAC)**
 
-* **Descripción**: audiencias creadas con datos federados, que le permiten consultar y componer audiencias de almacenes de datos externos sin copiar datos en Adobe Experience Platform
+* **Descripción**: audiencias creadas con datos federados, que le permiten consultar y componer audiencias de almacenes de datos externos sin copiar datos en [!DNL Adobe Experience Platform]
 * **Evaluación**: la composición estática se actualizó cuando se ejecuta la composición de audiencia federada
 * **Uso del Recorrido**: Compatible con las actividades Leer audiencia y Condición; **no compatible** en los recorridos de Calificación de audiencias (similar a cargar audiencias desde una perspectiva back-end)
 * **Lo mejor para**: integración del almacén de datos empresarial, composición de audiencias mediante fuentes de datos externas, escenarios que requieren datos para permanecer en sistemas externos
@@ -187,7 +187,7 @@ Siga la [guía paso a paso](journey-gs.md).
 Los requisitos previos dependen del tipo de recorrido:
 
 * **recorridos activados por eventos**: configure eventos para definir cuándo los perfiles deben entrar en el recorrido
-* **recorridos basados en audiencias**: Cree audiencias en Adobe Experience Platform
+* **recorridos basados en audiencias**: Crear audiencias en [!DNL Adobe Experience Platform]
 * **Enriquecimiento de datos**: configure orígenes de datos para recuperar información adicional
 * **Integraciones de terceros**: configure acciones personalizadas si usa sistemas externos
 
@@ -202,7 +202,7 @@ Sí, existen varios métodos para aprovechar los datos externos:
 **Prácticas recomendadas**:
 
 * **Acciones personalizadas**: llame a las API externas mediante acciones personalizadas para recuperar o enviar datos a sistemas de terceros. Este es el enfoque recomendado para interacciones en tiempo real con sistemas externos.
-* **Búsqueda de conjuntos de datos**: Si puede cargar datos de sistemas externos en Adobe Experience Platform, utilice la característica de búsqueda de conjuntos de datos para recuperar información almacenada en conjuntos de datos de Experience Platform.
+* **Búsqueda de conjuntos de datos**: Si puede cargar datos de sistemas externos en [!DNL Adobe Experience Platform], use la característica de búsqueda de conjuntos de datos para recuperar información almacenada en conjuntos de datos de Experience Platform.
 * **Fuentes de datos externas**: configure fuentes de datos externas para recuperar información de servicios API de terceros (menos recomendable que los enfoques anteriores).
 
 Estas opciones le permiten enriquecer la experiencia del cliente con datos de su CRM, sistemas de fidelidad, servicios meteorológicos u otras plataformas externas.
@@ -247,7 +247,7 @@ Más información sobre [actividades de espera](wait-activity.md).
 
 +++ ¿Puedo actualizar la información del perfil dentro de un recorrido?
 
-Sí. Utilice la actividad **Actualizar perfil** para modificar los atributos de perfil en Adobe Experience Platform según las condiciones o los eventos de recorrido. Esto resulta útil para actualizar puntos de lealtad, registrar hitos de recorrido, cambiar la configuración de preferencias o rastrear puntuaciones de participación del cliente.
+Sí. Utilice la actividad **Actualizar perfil** para modificar los atributos del perfil en [!DNL Adobe Experience Platform] según los eventos o condiciones del recorrido. Esto resulta útil para actualizar puntos de lealtad, registrar hitos de recorrido, cambiar la configuración de preferencias o rastrear puntuaciones de participación del cliente.
 
 Más información sobre [actualizaciones de perfil](update-profiles.md).
 
@@ -468,7 +468,7 @@ Razones comunes por las que los perfiles no pueden introducir un recorrido:
 * **Recorrido no publicado**: el recorrido está en estado de borrador
 * **Área de nombres no válida**: El área de nombres de recorrido no coincide con la identidad del perfil
 * **Recorrido cerrado**: El recorrido ya no acepta nuevas entradas
-* **Tiempo de calificación de audiencia de streaming**: En el caso de los recorridos que utilizan la calificación de audiencia con audiencias de streaming, es posible que los perfiles no entren si ya estaban en la audiencia antes de que se publicara el recorrido o si el recorrido no ha completado su período de activación (hasta 10 minutos después de la publicación)
+* **Tiempo de calificación de audiencia de streaming**: En el caso de los recorridos que usan calificación de audiencia con audiencias de streaming, es posible que los perfiles no entren si ya estaban en la audiencia antes de que se publicara el recorrido. También se pueden retrasar si el recorrido no ha completado su periodo de activación (hasta 10 minutos después de la publicación).
 
 Obtenga más información acerca de [administración de entradas](entry-management.md) y [consideraciones de tiempo para la calificación de audiencias de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
@@ -699,12 +699,12 @@ Más información sobre las [acciones personalizadas](using-custom-actions.md).
 
 +++
 
-+++ ¿Cómo puedo usar Adobe Campaign con recorrido?
++++ ¿Cómo puedo usar [!DNL Adobe Campaign] con recorrido?
 
-Journey Optimizer se integra de forma nativa con Adobe Campaign para aprovechar sus funciones avanzadas:
+Journey Optimizer se integra de forma nativa con [!DNL Adobe Campaign] para aprovechar sus capacidades avanzadas:
 
-* **Adobe Campaign Standard**: usa acciones de Campaign Standard para enviar mensajes transaccionales
-* **Adobe Campaign v7/v8**: los flujos de trabajo de la campaña de Déclencheur y el uso de la infraestructura de entrega de Campaign
+* **[!DNL Adobe Campaign]estándar**: use acciones de Campaign Standard para enviar mensajes transaccionales
+* **[!DNL Adobe Campaign]v7/v8**: Almacene en Déclencheur los flujos de trabajo de Campaign y use la infraestructura de entrega de Campaign
 
 **Práctica recomendada**: Utilice esta integración si ya tiene plantillas de Campaign, modelos de datos o necesita características específicas de Campaign.
 
@@ -802,7 +802,7 @@ Más información sobre [eventos empresariales](general-events.md).
 
 +++ ¿Qué son las políticas de combinación y cómo afectan a los recorridos?
 
-**Políticas de combinación** determinan cómo Adobe Experience Platform combina datos de varias fuentes para crear una vista de perfil unificada. Definen reglas para la priorización de datos y la vinculación de identidad cuando existen fragmentos de perfil en diferentes conjuntos de datos.
+**Políticas de combinación** determinan cómo [!DNL Adobe Experience Platform] combina datos de varias fuentes para crear una vista de perfil unificada. Definen reglas para la priorización de datos y la vinculación de identidad cuando existen fragmentos de perfil en diferentes conjuntos de datos.
 
 **Impacto en recorridos**:
 
@@ -931,7 +931,7 @@ Más información sobre [diseño de recorrido](using-the-journey-designer.md) y 
 
 * Use [modo de prueba](testing-the-journey.md) y [ejecución en seco](journey-dry-run.md) para validar el rendimiento antes de publicar
 * Minimice las llamadas de API externas mediante [acciones personalizadas](using-custom-actions.md) para evitar la latencia y la dependencia de sistemas de terceros
-* Almacenar datos usados con frecuencia en Adobe Experience Platform mediante [búsqueda de conjuntos de datos](dataset-lookup.md) en lugar de realizar llamadas externas, siempre que sea posible
+* Almacenar datos usados con frecuencia en [!DNL Adobe Experience Platform] mediante [búsqueda de conjuntos de datos](dataset-lookup.md) en lugar de realizar llamadas externas, cuando sea posible
 * Revisar y optimizar el rendimiento de [entrega de mensajes](journeys-message.md)
 
 Más información sobre [limitaciones y protecciones](../start/guardrails.md).

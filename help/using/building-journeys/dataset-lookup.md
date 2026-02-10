@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Uso de datos de Adobe Experience Platform en recorrido
-description: Aprenda a utilizar la actividad de búsqueda de conjuntos de datos en Adobe Journey Optimizer para enriquecer los recorridos de los clientes con datos externos de Adobe Experience Platform.
+title: Usar  [!DNL Adobe Experience Platform] datos en recorridos
+description: Aprenda a utilizar la actividad de búsqueda de conjuntos de datos en  [!DNL Adobe Journey Optimizer]  para enriquecer los recorridos de los clientes con datos externos de  [!DNL Adobe Experience Platform].
 feature: Journeys, Activities
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 6e74fc363784fe4f4bae07bfe766035285c9a2ca
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 15%
+source-wordcount: '761'
+ht-degree: 10%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="Actividad de búsqueda de conjuntos de datos"
->abstract="La actividad **[!UICONTROL Búsqueda de conjuntos de datos]** le permite recuperar dinámicamente datos de conjuntos de datos de registros de Adobe Experience Platform durante el tiempo de ejecución. Al aprovechar esta capacidad, puede acceder a datos que pueden no residir en el perfil o en la carga útil del evento, lo que garantiza que las interacciones de los clientes sean relevantes y oportunas."
+>abstract="La actividad **[!UICONTROL Búsqueda de conjuntos de datos]** le permite recuperar dinámicamente datos de [!DNL Adobe Experience Platform] conjuntos de datos de registros durante el tiempo de ejecución. Al aprovechar esta capacidad, puede acceder a datos que pueden no residir en el perfil o en la carga útil del evento, lo que garantiza que las interacciones de los clientes sean relevantes y oportunas."
 
-La actividad **[!UICONTROL Búsqueda de conjuntos de datos]** le permite recuperar dinámicamente datos de conjuntos de datos de registros de Adobe Experience Platform durante el tiempo de ejecución. Al aprovechar esta capacidad, puede acceder a datos que pueden no residir en el perfil o en la carga útil del evento, lo que garantiza que las interacciones de los clientes sean relevantes y oportunas.
+La actividad **[!UICONTROL Búsqueda de conjuntos de datos]** le permite recuperar dinámicamente datos de [!DNL Adobe Experience Platform] conjuntos de datos de registros durante el tiempo de ejecución. Al aprovechar esta capacidad, puede acceder a datos que pueden no residir en el perfil o en la carga útil del evento, lo que garantiza que las interacciones de los clientes sean relevantes y oportunas.
 
 Ventajas principales:
 
@@ -38,9 +38,11 @@ Ventajas principales:
 
 ## Lectura obligatoria {#must-read}
 
+Revise estos requisitos antes de configurar las búsquedas de conjuntos de datos.
+
 ### Habilitación de conjuntos de datos
 
-El conjunto de datos debe estar habilitado para la búsqueda en Adobe Experience Platform. Encontrará información detallada en esta sección: [Usar datos de Adobe Experience Platform](../data/lookup-aep-data.md).
+El conjunto de datos debe estar habilitado para la búsqueda en [!DNL Adobe Experience Platform]. Encontrará información detallada en esta sección: [Usar [!DNL Adobe Experience Platform] datos](../data/lookup-aep-data.md).
 
 ### Límites y restricciones
 
@@ -64,7 +66,7 @@ Para configurar la actividad **[!UICONTROL Búsqueda de conjuntos de datos]**, s
 
 1. Despliegue la categoría **[!UICONTROL Orchestration]** y suelte una actividad **[!UICONTROL Consulta de conjuntos de datos]** en el lienzo.
 
-   ![Actividad de búsqueda del conjunto de datos Adobe Experience Platform en el recorrido](assets/aep-data-activity.png)
+   ![[!DNL Adobe Experience Platform] actividad de búsqueda del conjunto de datos en el recorrido ](assets/aep-data-activity.png)
 
 1. Añada una etiqueta y una descripción.
 

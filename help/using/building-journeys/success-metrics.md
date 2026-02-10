@@ -10,9 +10,9 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '543'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ Obtenga una visibilidad clara de la eficacia de los recorridos de sus clientes c
 
 ## Requisitos previos {#prerequisites}
 
-Antes de usar las métricas de recorrido, debe agregar un conjunto de datos que incluya los `Commerce Details`, `Web` y `Mobile` [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"} en Configuración > Informes en Adobe Experience Platform.
+Antes de usar las métricas de recorrido, debe agregar un conjunto de datos que incluya los `Commerce Details`, `Web` y `Mobile` [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es#field-group){target="_blank"} en Configuración > Informes en [!DNL Adobe Experience Platform].
 
 Estos grupos de campos deben seleccionarse entre las opciones integradas, no entre los grupos personalizados. Consulte la sección [Agregar conjuntos de datos](../reports/reporting-configuration.md#add-datasets).
 
@@ -33,7 +33,7 @@ La lista de métricas varía según los [grupos de campos](https://experiencelea
 
 Si el conjunto de datos no está configurado, solo estarán disponibles las métricas siguientes: **[!UICONTROL Clic]**, **[!UICONTROL Clic único]**, **[!UICONTROL Tasa de clics]** y **[!UICONTROL Tasa de apertura]**.
 
-Tenga en cuenta que con una licencia de Customer Journey Analytics puede crear métricas de éxito personalizadas. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Tenga en cuenta que con una licencia de Customer Journey Analytics puede crear métricas de éxito personalizadas. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | Métricas | Grupo de campos relacionado |
@@ -70,7 +70,7 @@ Cada métrica viene con una atribución de conjunto que determina qué puntos de
 
   Con las licencias de Journey Optimizer y Customer Journey Analytics, puede crear métricas personalizadas con configuraciones de atribución específicas o cambiar las atribuciones de las métricas integradas.
 
-  Más información sobre [modelos de atribución](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  Más información sobre [modelos de atribución](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Asignar las métricas de recorrido {#assign}
 

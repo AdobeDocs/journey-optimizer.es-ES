@@ -10,9 +10,9 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Para cada actividad dentro de cada recorrido en Activo o [Modo de ejecución en 
 
 Si no ve los datos esperados en sus informes de recorrido, tenga en cuenta lo siguiente:
 
-* **Sincronización de nombres de Recorrido**: compruebe que el nombre de recorrido en Adobe Journey Optimizer coincida con el nombre almacenado en el conjunto de datos de informes. Una discrepancia entre estos nombres puede impedir que los datos de los informes aparezcan correctamente.
+* **Sincronización de nombres de Recorrido**: compruebe que el nombre de recorrido de [!DNL Adobe Journey Optimizer] coincida con el nombre almacenado en el conjunto de datos de informes. Una discrepancia entre estos nombres puede impedir que los datos de los informes aparezcan correctamente.
 
 * **Intervalo de actualización de datos**: después de actualizar el nombre o la configuración de un recorrido, deje tiempo suficiente para que se actualicen los datos. Los datos de creación de informes suelen aparecer en unos minutos, pero en algunos casos pueden tardar más.
 

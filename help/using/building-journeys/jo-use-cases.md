@@ -9,16 +9,16 @@ level: Intermediate, Experienced
 keywords: caso de uso, multicanal, recorrido, eventos
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
-source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 9%
+source-wordcount: '761'
+ht-degree: 8%
 
 ---
 
 # Descubra los casos de uso {#jo-uc-gs}
 
-Esta sección reúne una colección de casos de uso prácticos para ayudarle a sacar el máximo partido a Adobe Journey Optimizer. Tanto si busca patrones tácticos (como lógica de supresión, técnicas de personalización o estrategias de salida de recorrido) como escenarios completos que abarquen flujos de trabajo técnicos y de marketing, a continuación encontrará vínculos a ejemplos relevantes.
+Esta sección reúne una colección de casos de uso prácticos para ayudarle a sacar el máximo partido a [!DNL Adobe Journey Optimizer]. Tanto si busca patrones tácticos (como lógica de supresión, técnicas de personalización o estrategias de salida de recorrido) como escenarios completos que abarquen flujos de trabajo técnicos y de marketing, a continuación encontrará vínculos a ejemplos relevantes.
 
 Utilice esta biblioteca como punto de referencia para diseñar recorridos, modelar datos o crear lógicas de activación. Cada ejemplo incluye recomendaciones que puede adaptar a sus necesidades específicas.
 
@@ -35,7 +35,7 @@ Utilice esta biblioteca como punto de referencia para diseñar recorridos, model
     <div>
     <a href="exp-event-lookup.md">
     <img alt="prácticas recomendadas de búsqueda de eventos de experience" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>Conozca los patrones comunes y los enfoques escalables para ayudarle a sacar el máximo partido a los eventos de experiencia en Adobe Journey Optimizer. Estos casos de uso están diseñados para ayudarle a resolver los desafíos frecuentes, como administrar las exclusiones, controlar la frecuencia de los mensajes, personalizar el contenido en función del comportamiento del usuario y reaccionar a las señales en tiempo real.
+    <br>Conozca los patrones comunes y los enfoques escalables para ayudarle a aprovechar al máximo los eventos de experiencia en [!DNL Adobe Journey Optimizer]. Estos casos de uso están diseñados para ayudarle a resolver los desafíos frecuentes, como administrar las exclusiones, controlar la frecuencia de los mensajes, personalizar el contenido en función del comportamiento del usuario y reaccionar a las señales en tiempo real.
     </div>
       <div>
      <a href="exp-event-lookup.md">Más información</a></div>
@@ -53,7 +53,7 @@ Utilice esta biblioteca como punto de referencia para diseñar recorridos, model
     <div>
     <a href="../data/datasets-query-examples.md">
     <img alt="ejemplos de consultas" src="../assets/do-not-localize/icon-configure.svg"/></a> 
-    <br>Para crear sus casos de uso, debe consultar los conjuntos de datos de Adobe Journey Optimizer, como los conjuntos de datos del sistema para la ingesta de eventos de experiencia de seguimiento, el conjunto de datos para la ingesta de eventos de paso en un recorrido, el conjunto de datos para la ingesta de propuestas de ofertas a los usuarios, y más.
+    <br>Para crear sus casos de uso, debe consultar los conjuntos de datos [!DNL Adobe Journey Optimizer], como los conjuntos de datos del sistema para la ingesta de eventos de experiencia de seguimiento, el conjunto de datos para la ingesta de eventos de paso en un recorrido, el conjunto de datos para la ingesta de propuestas de ofertas a los usuarios, y más.
     </div>
       <div>
      <a href="../data/datasets-query-examples.md">Más información</a></div>
@@ -73,7 +73,7 @@ Vea también [ejemplos usados con frecuencia para consultar los eventos de pasos
 <img alt="Envío de mensajes multicanal" src="../assets/do-not-localize/start-journey.jpeg">
 </a>
 <div>
-<a href="../building-journeys/journeys-uc.md"><strong>Enviar mensajes multicanal</strong></a>
+<a href="../building-journeys/journeys-uc.md"><strong>Envío de mensajes multicanal</strong></a>
 </div>
 <p>
 </td>
@@ -141,7 +141,7 @@ Vea también [ejemplos usados con frecuencia para consultar los eventos de pasos
 
 ## Tutoriales en vídeo
 
-Examine tutoriales en vídeo para conocer los pasos clave para crear los casos de uso más comunes con Adobe Journey Optimizer.
+Examine tutoriales en vídeo para conocer los pasos clave para crear los casos de uso más comunes con [!DNL Adobe Journey Optimizer].
 
 
 <table style="table-layout:auto">
@@ -154,7 +154,7 @@ Examine tutoriales en vídeo para conocer los pasos clave para crear los casos d
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
     <br/>
-      <strong>Carro abandonado</strong><br/><p>Obtenga información sobre cómo implementar el caso de uso del carro de compras abandonado mediante la función del manual de tácticas en Adobe Journey Optimizer.</p><a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">Vea el vídeo del caso de uso</a>
+      <strong>Carro abandonado</strong><br/><p>Aprenda a implementar el caso de uso del carro de compras abandonado mediante la función Libro de estrategias en [!DNL Adobe Journey Optimizer].</p><a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">Vea el vídeo del caso de uso</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-content.svg" width="35px">
@@ -166,22 +166,22 @@ Examine tutoriales en vídeo para conocer los pasos clave para crear los casos d
     <td>
       <img src="../assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Personalización de ofertas en tiempo real</strong><br/><p>El uso de datos relacionados con el tiempo en Adobe Journey Optimizer para ofrecer ofertas permite a las empresas personalizar las experiencias de los clientes en función de las condiciones ambientales en tiempo real.</p><a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank">Siga el tutorial paso a paso</a>
+      <strong>Personalización de ofertas en tiempo real</strong><br/><p>El uso de datos relacionados con el tiempo en [!DNL Adobe Journey Optimizer] para ofrecer ofertas permite a las empresas personalizar las experiencias de los clientes en función de las condiciones ambientales del mundo real y en tiempo real.</p><a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank">Siga el tutorial paso a paso</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-configure.svg" width="35px">
     <br/>
-      <strong>Ofertas de seguimiento e informes entregadas mediante toma de decisiones</strong><br/><p>Habilite la creación de informes y el análisis de rendimiento para ofertas entregadas a través de Adobe Journey Optimizer: cuando las ofertas se personalizan y entregan en función de señales contextuales, es esencial rastrear tanto las impresiones como las interacciones del usuario para evaluar su eficacia.</p><a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank">Siga el tutorial paso a paso</a> 
+      <strong>Ofertas de seguimiento e informes entregadas mediante toma de decisiones</strong><br/><p>Habilitar el sistema de informes y el análisis de rendimiento para las ofertas entregadas a través de [!DNL Adobe Journey Optimizer]: cuando las ofertas se personalizan y entregan en función de señales contextuales, es esencial rastrear las impresiones y las interacciones del usuario para evaluar su eficacia.</p><a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank">Siga el tutorial paso a paso</a> 
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong>Personalizar ofertas con fórmulas de clasificación</strong><br/><p>Aprenda a ofrecer ofertas financieras personalizadas aprovechando atributos de usuario como código postal e ingresos anuales en Adobe Journey Optimizer. Mediante fórmulas de clasificación, las ofertas se clasifican y priorizan de forma inteligente en función de las promociones específicas de la ubicación y la idoneidad basada en los ingresos.</p><a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank">Siga el tutorial paso a paso</a> 
+      <strong>Personalizar ofertas con fórmulas de clasificación</strong><br/><p>Aprenda a ofrecer ofertas financieras personalizadas aprovechando atributos de usuario como código postal e ingresos anuales en [!DNL Adobe Journey Optimizer]. Mediante fórmulas de clasificación, las ofertas se clasifican y priorizan de forma inteligente en función de las promociones específicas de la ubicación y la idoneidad basada en los ingresos.</p><a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank">Siga el tutorial paso a paso</a> 
     </td>
   </tr>
 </table>
 
-Vea también el tutorial de vídeo para [Escalar la orquestación a la participación omnicanal en Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"}: En el transcurso de seis lecciones, aprenderá a elevar las comunicaciones comerciales de la mensajería saliente simple a las experiencias omnicanal sofisticadas. A través de ejemplos prácticos, obtiene perspectivas sobre la creación de recorridos de clientes que combinan sin problemas el alcance proactivo con la participación adaptable.
+Vea también el tutorial de vídeo para [Escalar la orquestación a la participación omnicanal en [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"}: En el transcurso de seis lecciones, aprenderá a elevar las comunicaciones comerciales de la mensajería saliente simple a las experiencias omnicanal sofisticadas. A través de ejemplos prácticos, obtiene perspectivas sobre la creación de recorridos de clientes que combinan sin problemas el alcance proactivo con la participación adaptable.
 
 
 
@@ -193,41 +193,41 @@ Examine las siguientes publicaciones de blog para encontrar más directrices y p
 <td>
 <img alt="Publicaciones de blog" src="../assets/do-not-localize/community.jpeg">
 <div>
-<p><a href="weekday-email-uc.md">Caso de uso: cómo enviar correos electrónicos solo entre semana en Adobe Journey Optimizer</a> - también disponible como <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=es" target="_blank">publicación de blog de la comunidad</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396?profile.language=es" target="_blank">Caso de uso: Estrategias de aprobación avanzadas</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=es" target="_blank">Caso de uso: límite de frecuencia diario</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=es" target="_blank">Prácticas recomendadas: Leer Recorridos de audiencia</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270?profile.language=es" target="_blank">Caso de uso: Prueba de Recorridos</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900?profile.language=es" target="_blank">Caso De Uso: Flujos De Trabajo De Aprobación</a></p>
+<p><a href="weekday-email-uc.md">Caso de uso: cómo enviar correos electrónicos solo entre semana en [!DNL Adobe Journey Optimizer]</a> - también disponible como <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">publicación de blog de la comunidad</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">Caso de uso: Estrategias de aprobación avanzadas</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">Caso de uso: límite de frecuencia diario</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">Prácticas recomendadas: Leer Recorridos de audiencia</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">Caso de uso: Prueba de Recorridos</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">Caso De Uso: Flujos De Trabajo De Aprobación</a></p>
 </div>
 <p>
 </td>
 <td>
 <img alt="Eventos de paso en los Recorridos" src="../assets/do-not-localize/list.jpeg">
 <div>
-<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024?profile.language=es" target="_blank">Dominio de eventos de paso en Adobe Journey Optimizer: aspectos básicos, esquemas y consultas esenciales para campañas impulsadas por datos
+<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">Dominar eventos de paso en [!DNL Adobe Journey Optimizer]: aspectos básicos, esquemas y consultas esenciales para campañas impulsadas por datos
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658?profile.language=es" target="_blank">Caso de uso: Audience Activation externo rápido con carga personalizada</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225?profile.language=es" target="_blank">Caso de uso: Personalization más allá del perfil
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">Caso de uso: Audience Activation externo rápido con carga personalizada</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225" target="_blank">Caso de uso: Personalization más allá del perfil
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513?profile.language=es" target="_blank">Tomar el vuelo con Personalization: Cómo las aerolíneas pueden aumentar las ofertas con Adobe Journey Optimizer
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513" target="_blank">Vuele con Personalization: Cómo las aerolíneas pueden aumentar sus ofertas con [!DNL Adobe Journey Optimizer]
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606?profile.language=es" target="_blank">Dominio de Real-Time Personalization: Guía de un experto en marketing para fragmentos de contenido de AEM y Adobe Journey Optimizer
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606" target="_blank">Dominio de Real-Time Personalization AEM: Guía para expertos en marketing para fragmentos de contenido y [!DNL Adobe Journey Optimizer]
 </a></p>
 </div>
 <p></td>
 <td>
 <img alt="Acciones personalizadas" src="../assets/do-not-localize/step-event.jpeg">
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323?profile.language=es" target="_blank">Ampliación de Adobe Journey Optimizer con acciones personalizadas: casos de uso de integración
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">Cómo ampliar [!DNL Adobe Journey Optimizer] con acciones personalizadas: casos de uso de integración
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223?profile.language=es" target="_blank">La función de delegación personalizada de Adobe Journey Optimizer resuelve los desafíos de conformidad empresarial
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223" target="_blank">[!DNL Adobe Journey Optimizer]La función de delegación personalizada de está resolviendo los desafíos de cumplimiento normativo de Enterprise
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048?profile.language=es" target="_blank">LINE en Journey Optimizer: desde la primera campaña hasta los casos de uso de fragmentos de expresiones avanzadas y acciones personalizadas
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048" target="_blank">LINE en Journey Optimizer: desde la primera campaña hasta los casos de uso de fragmentos de expresiones avanzadas y acciones personalizadas
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669?profile.language=es" target="_blank">Guía de integración de vínculos universales de Journey Optimizer para iOS
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669" target="_blank">Guía de integración de vínculos universales de Journey Optimizer para iOS
 </a></p>
 </div>
 </td>

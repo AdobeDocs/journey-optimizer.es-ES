@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '791'
 ht-degree: 3%
 
 ---
@@ -142,7 +142,7 @@ Aunque las colecciones en acciones personalizadas proporcionan flexibilidad para
 
 * **Compatibilidad con matrices anidadas en acciones personalizadas**
 
-  Adobe Journey Optimizer admite matrices anidadas de objetos en **cargas de respuesta** de acción personalizada, pero esta compatibilidad está limitada en **cargas de solicitud**.
+  [!DNL Adobe Journey Optimizer] admite matrices anidadas de objetos en **cargas de respuesta** de acción personalizada, pero esta compatibilidad está limitada en **cargas de solicitud**.
 
   En las cargas útiles de solicitud, las matrices anidadas solo se admiten cuando contienen un número fijo de elementos, como se define en la configuración de acción personalizada. Por ejemplo, si una matriz anidada siempre incluye exactamente tres elementos, se puede configurar como una constante. Cuando el número de elementos debe ser dinámico, solo las matrices no anidadas (matrices en el nivel inferior) pueden definirse como variables.
 

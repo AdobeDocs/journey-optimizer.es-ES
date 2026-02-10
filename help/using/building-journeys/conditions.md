@@ -12,9 +12,9 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1662'
 ht-degree: 16%
 
 ---
@@ -70,7 +70,7 @@ Haga clic en **[!UICONTROL Agregar una ruta]** si desea definir varias condicion
 
 Tenga en cuenta que el diseño de los recorridos tiene impactos funcionales. Cuando se definen varias rutas después de una condición, solo se ejecuta la primera ruta elegible. Esto significa que puede variar la priorización de las rutas colocándolas una encima o debajo de la otra.
 
-Veamos el ejemplo de la condición de una primera ruta &quot;La persona es un VIP&quot; y de una segunda ruta &quot;La persona es un hombre&quot;. Si una persona que cumple ambas condiciones (un hombre que es un VIP) pasa este paso, se elige la primera ruta aunque esta persona también sea elegible para la segunda, ya que la primera ruta es &quot;arriba&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
+Tomemos dos condiciones de ruta: &quot;La persona es un VIP&quot; y &quot;La persona es un hombre&quot;. Si una persona cumple ambas condiciones, se elige la primera ruta porque está por encima de la segunda. Para cambiar esta prioridad, mueva las actividades a un orden vertical diferente.
 
 ![Ejemplo de priorización de ruta que muestra la condición VIP por encima de la condición masculina](assets/journey48.png)
 
@@ -87,7 +87,7 @@ El modo simple permite realizar consultas simples basadas en una combinación de
 
 ![Editor de expresiones simple con campos de arrastrar y soltar y operadores lógicos](assets/journey64.png){width=80%}
 
-Si está usando el [servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"} para crear sus audiencias, puede aprovecharlas en sus condiciones de recorrido. Consulte [Uso de la audiencia en condiciones](../building-journeys/condition-activity.md#using-a-segment).
+Si está usando el [[!DNL Adobe Experience Platform] Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"} para crear sus audiencias, puede aprovecharlas en sus condiciones de recorrido. Consulte [Uso de la audiencia en condiciones](../building-journeys/condition-activity.md#using-a-segment).
 
 >[!NOTE]
 >
@@ -188,8 +188,8 @@ Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
 
 1. En el lado izquierdo, despliegue el nodo **[!UICONTROL Audiences]**. Arrastre y suelte la audiencia que desee utilizar para la condición. De forma predeterminada, la condición de la audiencia es verdadera.
 
-   ![Nodo de audiencias en el editor de expresiones para seleccionar audiencias de Adobe Experience Platform](assets/segment4.png){width=80%}
+   ![Nodo de audiencias en el editor de expresiones para seleccionar [!DNL Adobe Experience Platform] audiencias](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >
-   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

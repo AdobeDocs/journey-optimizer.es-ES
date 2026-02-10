@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorridos, limitación
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 46%
+source-wordcount: '555'
+ht-degree: 39%
 
 ---
 
@@ -47,7 +47,7 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 
 ## Limitaciones de eventos {#events-limitations}
 
-* En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido de cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
+* En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido de cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este identificador de orquestación debe agregarse a la carga útil de streaming que entra en [!DNL Adobe Experience Platform]. Esta limitación no se aplica a los eventos basados en reglas.
 
 ## Limitaciones de eventos de reacción {#reaction-limitations}
 
@@ -59,13 +59,13 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 
 ## Recorridos que comienzan al mismo tiempo que la creación de un perfil {#journeys-limitation-profile-creation}
 
-Hay un retraso asociado a la creación/actualización de perfiles basados en la API en Adobe Experience Platform. El destinatario de nivel de servicio (SLT) en términos de latencia es &lt;1 min desde la ingesta hasta el perfil unificado para el percentil 95 de las solicitudes, a un volumen de 20 000 solicitudes por segundo (RPS).
+Hay un retraso asociado a la creación/actualización de perfiles basados en API en [!DNL Adobe Experience Platform]. El destinatario de nivel de servicio (SLT) en términos de latencia es &lt;1 min desde la ingesta hasta el perfil unificado para el percentil 95 de las solicitudes, a un volumen de 20 000 solicitudes por segundo (RPS).
 
 Si un Recorrido se activa simultáneamente para crear un perfil y comprueba o recupera inmediatamente la información del servicio de perfil, es posible que no funcione correctamente.
 
 Puede elegir entre una de estas dos soluciones:
 
-* Agregue una actividad de espera después del primer evento para que Adobe Experience Platform tenga el tiempo necesario para realizar la ingesta en el servicio de perfil.
+* Agregue una actividad de espera después del primer evento para que [!DNL Adobe Experience Platform] tenga el tiempo necesario para realizar la ingesta en el servicio de perfil.
 
 * Configure un recorrido que no utilice inmediatamente el perfil. Por ejemplo, si el recorrido está diseñado para confirmar la creación de una cuenta, el evento de experiencia podría contener la información necesaria para enviar el primer mensaje de confirmación (nombre, apellidos, dirección de correo electrónico, etc.).
 

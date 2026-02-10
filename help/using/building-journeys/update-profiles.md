@@ -10,10 +10,10 @@ level: Intermediate
 keywords: perfil, actualizar, recorrido, actividad
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 5%
+source-wordcount: '657'
+ht-degree: 1%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="Actividad Actualizar perfil"
->abstract="La actividad de la acción Actualizar perfil permite actualizar un perfil de Adobe Experience Platform existente con información proveniente del evento, una fuente de datos o con un valor específico."
+>abstract="La actividad de acción Actualizar perfil le permite actualizar un perfil [!DNL Adobe Experience Platform] existente con información proveniente del evento, una fuente de datos o con un valor específico."
 
-Utilice la actividad de acción **[!UICONTROL Actualizar perfil]** para actualizar un perfil de Adobe Experience Platform existente con información proveniente de un evento, una fuente de datos o con un valor específico.
+Utilice la actividad de acción **[!UICONTROL Actualizar perfil]** para actualizar un perfil [!DNL Adobe Experience Platform] existente con información proveniente de un evento, una fuente de datos o con un valor específico.
 
 ## Conceptos clave {#key-concepts}
 
@@ -32,9 +32,9 @@ Utilice la actividad de acción **[!UICONTROL Actualizar perfil]** para actualiz
 * La acción solo actualiza los campos existentes, no crea nuevos campos de perfil.
 * No puede usar la acción **Actualizar perfil** para generar eventos de experiencia, por ejemplo una compra.
 * Al igual que cualquier otra acción, puede definir una ruta alternativa en caso de error o tiempo de espera, y no puede colocar dos acciones en paralelo.
-* La solicitud de actualización enviada a Adobe Experience Platform es inmediata o está en un segundo. Tardará normalmente unos segundos, pero a veces más sin garantía. Como resultado, por ejemplo, si una acción está usando &quot;campo 1&quot; actualizado por una acción **Actualizar perfil** colocada justo antes, no debería esperar que &quot;campo 1&quot; se actualice en la acción.
+* La solicitud de actualización enviada a [!DNL Adobe Experience Platform] es inmediata/está en un segundo. Tardará normalmente unos segundos, pero a veces más sin garantía. Como resultado, por ejemplo, si una acción está usando &quot;campo 1&quot; actualizado por una acción **Actualizar perfil** colocada justo antes, no debería esperar que &quot;campo 1&quot; se actualice en la acción.
 * La actividad **Actualizar perfil** no admite campos XDM definidos como enumeraciones o valores sugeridos.
-* La actividad **[!UICONTROL Actualizar perfil]** solo actualiza el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es#profile-data-store){target="_blank"}, no el lago de datos.
+* La actividad **[!UICONTROL Actualizar perfil]** solo actualiza el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, no el lago de datos.
 
 ## Selección de conjuntos de datos {#dataset-selection}
 
@@ -81,6 +81,6 @@ El **perfil de actualización** ya está configurado.
 
 En el modo de prueba, la actualización de perfil no se simula. La actualización se realizará en el perfil de prueba.
 
-Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba. Puede crear un nuevo perfil de prueba o convertir un perfil existente en un perfil de prueba. En Adobe Experience Platform, puede actualizar los atributos de perfiles mediante una importación de archivos csv o llamadas API. Un método más sencillo consiste en usar una actividad de acción **Actualizar perfil** y cambiar el campo booleano del perfil de prueba de falso a verdadero.
+Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba. Puede crear un nuevo perfil de prueba o convertir un perfil existente en un perfil de prueba. En [!DNL Adobe Experience Platform], puede actualizar los atributos de perfiles mediante una importación de archivo csv o llamadas API. Un método más sencillo consiste en usar una actividad de acción **Actualizar perfil** y cambiar el campo booleano del perfil de prueba de falso a verdadero.
 
 Para obtener más información sobre cómo convertir un perfil existente en un perfil de prueba, consulte esta [sección](../audience/creating-test-profiles.md#create-test-profiles-csv).

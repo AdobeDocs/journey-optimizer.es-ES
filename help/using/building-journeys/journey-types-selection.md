@@ -10,17 +10,17 @@ keywords: tipos de recorrido, unitario, leer audiencia, calificación de audienc
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
+exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 3%
+source-wordcount: '977'
+ht-degree: 4%
 
 ---
 
-
 # Tipos de recorrido y guía de selección {#journey-types-selection}
 
-Adobe Journey Optimizer admite cuatro tipos de recorridos, cada uno diseñado para diferentes mecanismos de entrada y escenarios empresariales. Esta guía le ayuda a comprender las diferencias y elegir el tipo adecuado para su caso de uso.
+[!DNL Adobe Journey Optimizer] admite cuatro tipos de recorrido, cada uno diseñado para diferentes mecanismos de entrada y escenarios empresariales. Esta guía le ayuda a comprender las diferencias y elegir el tipo adecuado para su caso de uso.
 
 ## información general sobre tipos de recorrido {#journey-types}
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer admite cuatro tipos de recorridos, cada uno diseñado pa
 
 **Cuándo usar:** Campañas programadas para segmentos de audiencia
 
-**Leer recorridos de audiencia** comienza con una audiencia de Adobe Experience Platform y envía mensajes en lote a todos los perfiles simultáneamente. Este tipo de recorrido es ideal para comunicaciones programadas a gran escala.
+**Leer recorridos de audiencia** comienza con una audiencia de [!DNL Adobe Experience Platform] y envía mensajes en lote a todos los perfiles simultáneamente. Este tipo de recorrido es ideal para comunicaciones programadas a gran escala.
 
 **Perfecto para:** boletines mensuales, campañas promocionales para segmentos de público objetivo, anuncios de productos y campañas de marketing de temporada.
 
@@ -122,7 +122,7 @@ Utilice esta tabla para comparar rápidamente los tipos de recorrido y elegir el
 | **Usar cuando** | Respuesta inmediata a las acciones individuales necesarias | Alcanzar segmentos de audiencia grandes según lo programado | Respuesta a los cambios de estado del cliente | Los eventos empresariales afectan a varios clientes |
 | **Ejemplos** | Confirmación del pedido, restablecimiento de contraseña | Newsletter mensual, campaña de temporada | Actualización de VIP, alerta de inactividad | Alerta baja de acciones, venta flash, caída de precios |
 | **Reentrada** | Configurable (permitir varias entradas por perfil) | Cada perfil introduce una vez por ejecución | Configurable por evento de calificación | El mismo evento puede afectar a varios perfiles |
-| **Requisitos de datos** | Esquema de evento con datos de déclencheur | Audiencia de Adobe Experience Platform | Streaming o audiencia por lotes | Esquema de evento empresarial |
+| **Requisitos de datos** | Esquema de evento con datos de déclencheur | [!DNL Adobe Experience Platform] audiencia | Streaming o audiencia por lotes | Esquema de evento empresarial |
 
 ## Compatibilidad de funciones por tipo de recorrido {#feature-compatibility}
 
@@ -179,4 +179,3 @@ Ahora que comprende los tipos de recorrido, está listo para lo siguiente:
 **¿Necesita comparar con campañas?**
 
 * [Guía de comparación de Recorridos vs. Campañas](../start/journeys-vs-campaigns.md): elija entre recorridos, campañas de acción/API y campañas organizadas
-

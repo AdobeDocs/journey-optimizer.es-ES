@@ -5,9 +5,9 @@ title: Búsqueda de eventos de experiencia en recorrido
 description: Aprenda a utilizar la búsqueda de eventos de experiencia en recorrido
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '914'
 ht-degree: 6%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 6%
 >
 >A partir del 8 de julio de 2025, en las nuevas organizaciones de clientes, la creación de expresiones mediante eventos de experiencia ya no se admite en el editor de expresiones utilizado en las condiciones de recorrido. Como resultado, no se pueden usar eventos de experiencia en la [fuente de datos de Experience Platform](../datasource/adobe-experience-platform-data-source.md) para crear expresiones. A continuación, se hace referencia a enfoques alternativos y prácticas recomendadas para crear expresiones/lógica con eventos de experiencia.
 >
->¿Necesita más detalles? [Lea las preguntas frecuentes](#faq-ee).
+>¿Necesita más información? [Lea las preguntas frecuentes](#faq-ee).
 
-Esta página describe patrones comunes y enfoques escalables para ayudarle a sacar el máximo partido a los eventos de experiencia en Adobe Journey Optimizer. Estos casos de uso están diseñados para ayudarle a resolver los desafíos frecuentes, como administrar las exclusiones, controlar la frecuencia de los mensajes, personalizar el contenido en función del comportamiento del usuario y reaccionar a las señales en tiempo real.
+Esta página describe patrones comunes y enfoques escalables para ayudarle a aprovechar al máximo los eventos de experiencia en [!DNL Adobe Journey Optimizer]. Estos casos de uso están diseñados para ayudarle a resolver los desafíos frecuentes, como administrar las exclusiones, controlar la frecuencia de los mensajes, personalizar el contenido en función del comportamiento del usuario y reaccionar a las señales en tiempo real.
 
 Al aprovechar estas estrategias, puede convertir los datos de comportamiento en acciones significativas: suprimir, calificar o excluir perfiles en función de los eventos que almacenan en déclencheur o los atributos que llevan. Tanto si desea crear una lógica para los umbrales de compra como para los déclencheur de abandono o la gestión de devoluciones, estos ejemplos le ofrecen directrices prácticas que puede adaptar a sus necesidades.
 
@@ -39,7 +39,7 @@ Más información:
 
 ## Supresión basada en devoluciones
 
-Para excluir perfiles que han experimentado devoluciones de correo electrónico, aproveche la lista de supresión automática de Adobe Journey Optimizer para direcciones devueltas. Este mecanismo integrado garantiza que los correos electrónicos no válidos o inaccesibles se excluyan de futuros envíos sin requerir lógica personalizada.
+Para excluir perfiles que han experimentado devoluciones de correo electrónico, aproveche la lista de supresión automática de [!DNL Adobe Journey Optimizer] para direcciones devueltas. Este mecanismo integrado garantiza que los correos electrónicos no válidos o inaccesibles se excluyan de futuros envíos sin requerir lógica personalizada.
 
 Más información:
 
@@ -52,9 +52,9 @@ Para suprimir perfiles que han demostrado ciertos comportamientos, utilice audie
 
 Más información:
 
-* Adobe Experience Platform [Generador de segmentos - Eventos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Generador de segmentos - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [Generador de segmentos - Restricciones de tiempo](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Generador de segmentos - Restricciones de tiempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de audiencias en condiciones](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -71,9 +71,9 @@ Para evitar el envío de mensajes a perfiles que han recibido comunicaciones en 
 
 Más información sobre el uso de las audiencias:
 
-* Adobe Experience Platform [Generador de segmentos - Eventos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Generador de segmentos - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [Generador de segmentos - Restricciones de tiempo](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Generador de segmentos - Restricciones de tiempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de audiencias en condiciones](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -93,9 +93,9 @@ Para incluir o excluir perfiles en función de si han recibido un mensaje espec�
 
 Más información:
 
-* Adobe Experience Platform [Generador de segmentos - Eventos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Generador de segmentos - Eventos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [Generador de segmentos - Restricciones de tiempo](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Generador de segmentos - Restricciones de tiempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Uso de audiencias en condiciones](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -105,8 +105,8 @@ Más información:
 
 Para personalizar las comunicaciones en función del carro de compras más reciente o examinar los eventos en varios tipos de carros de compras o vistas de productos:
 
-* Si tiene acceso a [Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/es/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configure consultas automatizadas para extraer los datos necesarios del evento, manipule el evento para que se ajuste al caso de uso y escríbalo de nuevo en un conjunto de datos con perfil habilitado para su activación.
-* Si los datos de abandono se pueden modelar en el perfil con atributos escalares, considere la posibilidad de utilizar atributos calculados para capturar la información más reciente y luego hacer referencia a estos atributos en el recorrido para construir la comunicación. [Más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}.
+* Si tiene acceso a [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configure consultas automatizadas para extraer los datos necesarios del evento, manipule el evento para que se ajuste al caso de uso y escríbalo de nuevo en un conjunto de datos con perfil habilitado para su activación.
+* Si los datos de abandono se pueden modelar en el perfil con atributos escalares, considere la posibilidad de utilizar atributos calculados para capturar la información más reciente y luego hacer referencia a estos atributos en el recorrido para construir la comunicación. [Obtenga más información en [!DNL Adobe Experience Platform] documentación](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## Salida de recorrido basada en el comportamiento
@@ -123,7 +123,7 @@ Para almacenar en déclencheur los recorridos según las compras y suprimir si e
 
 Más información:
 
-* Adobe Experience Platform [Descripción general de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform] [Resumen de atributos calculados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
@@ -131,7 +131,7 @@ Más información:
 
 A continuación, encontrará las preguntas más frecuentes sobre la búsqueda de eventos de Experience en recorrido.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más información? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [[!DNL Adobe Journey Optimizer] comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
 
 +++¿Qué capacidades específicas se ven afectadas? 
 

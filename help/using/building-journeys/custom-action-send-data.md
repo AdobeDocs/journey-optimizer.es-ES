@@ -9,16 +9,16 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: recorrido, caso de uso
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '268'
 ht-degree: 2%
 
 ---
 
-# Caso de uso: Creación de una acción personalizada para enviar datos a Adobe Experience Platform{#send-data-to-aep}
+# Caso de uso: crear una acción personalizada para enviar datos a [!DNL Adobe Experience Platform]{#send-data-to-aep}
 
-Si se ha trasladado recientemente a otro proveedor de servicios de correo electrónico, dirección IP o dominio o subdominio de correo electrónico, debe establecer su reputación como remitente. De lo contrario, los envíos podrían bloquearse o moverse a la carpeta de correo no deseado del buzón de los destinatarios. Aprenda a aumentar su reputación de correo electrónico con el calentamiento de IP en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=es){target="_blank"}.
+Si se ha trasladado recientemente a otro proveedor de servicios de correo electrónico, dirección IP o dominio o subdominio de correo electrónico, establezca su reputación como remitente. De lo contrario, los envíos podrían bloquearse o moverse a las carpetas de correo no deseado de los destinatarios. Para obtener instrucciones, consulte la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=es){target="_blank"}.
 
 Para calentar la IP, puede aumentar gradualmente la cantidad de envíos. Más información sobre [optimización de la capacidad de entrega en Journey Optimizer](../reports/deliverability.md).
 

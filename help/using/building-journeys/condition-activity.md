@@ -10,14 +10,16 @@ level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1788'
 ht-degree: 16%
 
 ---
 
 # Actividad de condición {#condition-activity}
+
+Utilice la actividad de condición para enrutar perfiles a diferentes rutas en función de reglas y datos.
 
 ## Añadir una actividad de condición {#add-condition-activity}
 
@@ -42,7 +44,7 @@ También puede utilizar una audiencia en una condición de recorrido. [Más info
 
 >[!NOTE]
 >
->La evaluación de condición fallará para los perfiles que incluyan más de dos identidades entre dispositivos en el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es#profile-data-store){target="_blank"}.
+>La evaluación de condición fallará para los perfiles que incluyan más de dos identidades entre dispositivos en el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Adición y administración de rutas de condición {#about_condition}
 
@@ -59,7 +61,7 @@ Haga clic en **[!UICONTROL Agregar una ruta]** si desea definir varias condicion
 
 Tenga en cuenta que el diseño de los recorridos tiene impactos funcionales. Cuando se definen varias rutas después de una condición, solo se ejecuta la primera ruta elegible. Esto significa que puede variar la priorización de las rutas colocándolas una encima o debajo de la otra.
 
-Veamos el ejemplo de la condición de una primera ruta &quot;La persona es un VIP&quot; y de una segunda ruta &quot;La persona es un hombre&quot;. Si una persona que cumple ambas condiciones (un hombre que es un VIP) pasa este paso, se elige la primera ruta aunque esta persona también sea elegible para la segunda, ya que la primera ruta es &quot;arriba&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
+Tomemos dos condiciones de ruta: &quot;La persona es un VIP&quot; y &quot;La persona es un hombre&quot;. Si una persona cumple ambas condiciones, se elige la primera ruta porque está por encima de la segunda. Para cambiar esta prioridad, mueva las actividades a un orden vertical diferente.
 
 ![Priorización de rutas que muestra VIP y condiciones masculinas](assets/journey48.png)
 
@@ -72,7 +74,7 @@ El modo simple permite realizar consultas simples basadas en una combinación de
 
 ![Editor de expresiones que muestra la selección de campos y los operadores lógicos Y O](assets/journey64.png)
 
-Si está usando el [servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"} para crear sus audiencias, puede aprovecharlas en sus condiciones de recorrido. Consulte [Uso de la audiencia en condiciones](../building-journeys/condition-activity.md#using-a-segment). Para obtener más información sobre cómo generar y segmentar audiencias en Journey Optimizer, consulte [esta sección](../audience/about-audiences.md).
+Si está usando el [[!DNL Adobe Experience Platform] Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"} para crear sus audiencias, puede aprovecharlas en sus condiciones de recorrido. Consulte [Uso de la audiencia en condiciones](../building-journeys/condition-activity.md#using-a-segment). Para obtener más información sobre cómo generar y segmentar audiencias en Journey Optimizer, consulte [esta sección](../audience/about-audiences.md).
 
 
 >[!NOTE]
@@ -188,4 +190,4 @@ Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
 
    >[!NOTE]
    >
-   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

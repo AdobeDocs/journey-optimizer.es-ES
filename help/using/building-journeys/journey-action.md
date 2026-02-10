@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 15%
+source-wordcount: '1045'
+ht-degree: 13%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 15%
 
 >[!AVAILABILITY]
 >
->Esta capacidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+>Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 [!DNL Journey Optimizer] viene con una nueva actividad **Action** genérica que permite configurar una sola acción de canal integrada y también varias actividades entrantes.
 
@@ -104,7 +104,7 @@ La entrega rápida se utiliza cuando el retraso en la entrega de mensajes es cr�
 
 Aprenda a habilitar el modo de envío rápido para las notificaciones push [en esta página](../push/create-push.md#rapid-delivery).
 
-Para obtener más información sobre el rendimiento al usar el modo de envío rápido, consulte [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Para obtener más información sobre el rendimiento al usar el modo de envío rápido, consulte [[!DNL Adobe Journey Optimizer] descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 

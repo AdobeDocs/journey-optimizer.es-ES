@@ -2,23 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Enviar correos electrónicos solo entre semana
-description: Obtenga información sobre cómo configurar un recorrido para enviar correos electrónicos solo entre semana en Adobe Journey Optimizer
+description: Aprenda a configurar un recorrido para enviar correos electrónicos solo entre semana en  [!DNL Adobe Journey Optimizer]
 feature: Journeys, Use Cases, Email
 topic: Content Management
 role: User
 level: Intermediate
 keywords: recorrido, caso de uso, días de la semana, condición, correo electrónico, programación
 version: Journey Orchestration
-source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+exl-id: 2f313e59-ee50-473c-9346-8859889346ec
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
 
 # Enviar correos electrónicos solo entre semana {#send-emails-only-on-weekdays}
 
-Este caso de uso muestra cómo configurar un recorrido en Adobe Journey Optimizer que envía correos electrónicos solo entre semana (de lunes a viernes). Para los perfiles que entran en el recorrido los fines de semana (sábado o domingo), los correos electrónicos se ponen en cola automáticamente y se envían el lunes a una hora especificada. Esto garantiza una participación óptima al enviar mensajes durante la semana laboral.
+Este caso de uso muestra cómo configurar un recorrido en [!DNL Adobe Journey Optimizer] que envíe correos electrónicos solamente en días de semana (de lunes a viernes). Para los perfiles que entran en el recorrido los fines de semana (sábado o domingo), los correos electrónicos se ponen en cola automáticamente y se envían el lunes a una hora especificada. Esto garantiza una participación óptima al enviar mensajes durante la semana laboral.
 
 ## Resumen del caso de uso
 
@@ -32,14 +33,16 @@ Este método es ideal para campañas de correo electrónico de empresa a empresa
 
 >[!NOTE]
 >
->Para implementar este caso de uso, necesita una instancia de Adobe Journey Optimizer activa con una [superficie de canal de correo electrónico](../configuration/channel-surfaces.md) configurada, una [audiencia](../audience/about-audiences.md) o [evento](../event/about-events.md) para almacenar en déclencheur el recorrido y una comprensión básica de [condiciones de recorrido](condition-activity.md) y [expresiones](expression/expressionadvanced.md).
+>Para implementar este caso de uso, necesita una instancia de [!DNL Adobe Journey Optimizer] activa con una [superficie de canal de correo electrónico](../configuration/channel-surfaces.md) configurada, una [audiencia](../audience/about-audiences.md) o [evento](../event/about-events.md) para almacenar en déclencheur el recorrido y una comprensión básica de [condiciones de recorrido](condition-activity.md) y [expresiones](expression/expressionadvanced.md).
 
 
 ## Pasos de implementación
 
+Siga estos pasos para crear el flujo de correo electrónico solo entre semana.
+
 ### Paso 1: Crear el recorrido
 
-1. Vaya a **[!UICONTROL Administración de Recorrido]** > **[!UICONTROL Recorridos]** en Adobe Journey Optimizer.
+1. Vaya a **[!UICONTROL Administración de Recorrido]** > **[!UICONTROL Recorridos]** en [!DNL Adobe Journey Optimizer].
 
 1. Haga clic en **[!UICONTROL Crear Recorrido]** para [crear un nuevo recorrido](journey-gs.md).
 
@@ -53,7 +56,7 @@ Este método es ideal para campañas de correo electrónico de empresa a empresa
 
 Justo después del inicio del recorrido, agrega una actividad **[!UICONTROL Condición]** para comprobar si el día actual es sábado o domingo. Esto bifurcará el flujo de trabajo en consecuencia.
 
-1. Arrastre y suelte una actividad [**[!UICONTROL Condition &#x200B;]**](condition-activity.md) en el lienzo después del punto de entrada.
+1. Arrastre y suelte una actividad [**[!UICONTROL Condition ]**](condition-activity.md) en el lienzo después del punto de entrada.
 
 1. Haga clic en la actividad **[!UICONTROL Condición]** para abrir su panel de configuración.
 
@@ -149,7 +152,7 @@ Esto garantiza que todos los correos electrónicos se envíen solo entre semana,
 
 ### Paso 6: Prueba del recorrido
 
-Antes de publicar, pruebe exhaustivamente la lógica de recorrido en el modo de prueba de Adobe Journey Optimizer para confirmar que todo funciona según lo esperado:
+Antes de publicar, pruebe exhaustivamente la lógica de recorrido en el modo de prueba de [!DNL Adobe Journey Optimizer] para confirmar que todo funciona según lo esperado:
 
 1. Haga clic en el botón **[!UICONTROL Probar]** en la esquina superior derecha.
 

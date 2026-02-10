@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Examinar y filtrar sus recorridos
-description: Examinar y filtrar sus recorridos en Adobe Journey Optimizer
+description: Examinar y filtrar sus recorridos en  [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1477'
 ht-degree: 10%
 
 ---
@@ -128,7 +128,7 @@ El tipo de recorrido depende de las actividades utilizadas en dicho recorrido. P
 
 * **[!UICONTROL Evento unitario]**: los recorridos de eventos unitarios están vinculados a un perfil específico. Los eventos están relacionados con el comportamiento de una persona o con algo que sucede vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). [Más información](../event/about-events.md).
 * **[!UICONTROL Evento empresarial]**. El recorrido de los eventos empresariales comienza con un evento no relacionado con el perfil. La configuración de evento la realiza un usuario técnico y no se puede editar. [Más información](../event/about-events.md).
-* **[!UICONTROL Calificación de audiencias]**: los recorridos de calificación de audiencias escuchan las entradas y salidas de perfiles en audiencias de Adobe Experience Platform para hacer que los individuos entren o avancen en un recorrido. [Más información](audience-qualification-events.md).
+* **[!UICONTROL Calificación de audiencias]**: los recorridos de calificación de audiencias escuchan las entradas y salidas de perfiles en audiencias de [!DNL Adobe Experience Platform] para hacer que los individuos entren o avancen en un recorrido. [Más información](audience-qualification-events.md).
 * **[!UICONTROL Leer audiencia]**: en Leer recorridos de audiencia, todas las personas de la audiencia entran al recorrido y reciben los mensajes incluidos en el recorrido.  [Más información](read-audience.md).
 
 

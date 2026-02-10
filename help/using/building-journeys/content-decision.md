@@ -11,10 +11,10 @@ badge: label="Disponibilidad limitada" type="Informative"
 keywords: actividad, toma de decisiones, decisión de contenido, política de decisión, lienzo, recorrido
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 3%
+source-wordcount: '1111'
+ht-degree: 4%
 
 ---
 
@@ -74,13 +74,13 @@ Para configurar la actividad **[!UICONTROL Decisión de contenido]**, siga los p
 
 Ya está listo para aprovechar el resultado de esta actividad de decisión de contenido en su recorrido.
 
-## Mecanismos de protección y limitaciones {#guardrails}
+## Protecciones y limitaciones {#guardrails}
 
 **Políticas de consentimiento**
 
 Las actualizaciones de las directivas de consentimiento tardan hasta 48 horas en surtir efecto. Si una directiva de decisión hace referencia a un atributo vinculado a una directiva de consentimiento actualizada recientemente, los cambios no se aplican inmediatamente.
 
-Del mismo modo, si se añaden nuevos atributos de perfil sujetos a una directiva de consentimiento a una directiva de decisión, se pueden utilizar, pero la directiva de consentimiento asociada a ellos no se aplicará hasta que haya pasado el retraso.
+Del mismo modo, se pueden añadir nuevos atributos de perfil sujetos a una política de consentimiento a una política de decisión y utilizarlos. La directiva de consentimiento relacionada no se aplicará hasta que haya transcurrido el tiempo de espera.
 
 Las políticas de consentimiento solo están disponibles para las organizaciones con el complemento Adobe Healthcare Shield o Privacy and Security Shield.
 
@@ -114,7 +114,7 @@ Para aprovechar el resultado de una actividad de decisión de contenido, puede a
 
    >[!NOTE]
    >
-   >Cualquier etiqueta restringida definida en un atributo, ya sea en un evento de experiencia de recorrido utilizado en una regla de decisión (como datos de contexto) o en el esquema de [ofertas](../experience-decisioning/catalogs.md#access-catalog-schema), produce una infracción de directiva para DULE o para el consentimiento. Obtenga más información sobre las directivas de gobernanza de datos en [esta sección](../action/action-privacy.md)
+   >Cualquier etiqueta restringida definida en un atributo puede provocar una infracción de directiva para DULE o consentimiento. Esto se aplica a los eventos de experiencia de recorrido utilizados en una regla de decisión y al esquema de [ofertas](../experience-decisioning/catalogs.md#access-catalog-schema). Obtenga más información acerca de las directivas de gobernanza de datos en [esta sección](../action/action-privacy.md).
 
 1. Para comprobar si se ha devuelto alguna oferta para los perfiles que entran en el recorrido, use la función [listSize](functions/list-functions.md#listSize) con la siguiente sintaxis: `listSize(@decision{ContentdecisionName.items})>0`
 

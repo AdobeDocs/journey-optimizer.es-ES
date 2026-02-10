@@ -10,10 +10,10 @@ level: Intermediate
 keywords: diseño, lienzo, recorrido, interfaz, arrastrar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 5%
+source-wordcount: '1744'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 >title="Diseño de un recorrido"
 >abstract="La interfaz de recorrido permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo. También puede hacer doble clic en una actividad para añadirla al lienzo en el siguiente paso disponible."
 
-Adobe Journey Optimizer incluye un lienzo de orquestación omnicanal que permite a los expertos en marketing armonizar el alcance del marketing con la participación individual del cliente. La interfaz de usuario de le permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo para crear su recorrido. Tenga en cuenta que también puede hacer doble clic en una actividad para agregarla al lienzo en el siguiente paso disponible.
+[!DNL Adobe Journey Optimizer] incluye un lienzo de orquestación omnicanal que permite a los especialistas en marketing armonizar el alcance de marketing con la participación individual del cliente. La interfaz de usuario de le permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo para crear su recorrido. Tenga en cuenta que también puede hacer doble clic en una actividad para agregarla al lienzo en el siguiente paso disponible.
 
 Los eventos, la orquestación y las actividades de acción tienen un papel y un lugar específicos en el proceso. Las actividades se secuencian: cuando finaliza una actividad, el flujo continúa, procesa la siguiente actividad, etc.
 
@@ -34,7 +34,7 @@ La **paleta** se encuentra en el lado izquierdo de la pantalla. Todas las activi
 
 Al iniciar un nuevo recorrido, se ocultan los elementos que no se pueden soltar en el lienzo como primer paso. Esto se refiere a todas las acciones, la actividad de la condición, la espera y la reacción.
 
-![Interfaz del diseñador de Recorrido con panel de paleta, lienzo y propiedades](assets/journey38.png)
+![Interfaz del diseñador de recorrido con panel de paleta, lienzo y propiedades](assets/journey38.png)
 
 El icono **[!UICONTROL Filtrar elementos]** de la esquina superior izquierda le permite mostrar los siguientes filtros:
 
@@ -72,7 +72,7 @@ Hay dos posibilidades:
 
 1. **Empieza con un evento**: cuando un recorrido está configurado para recibir eventos, los usuarios entran al recorrido **unitariamente** en tiempo real. Los mensajes incluidos en su recorrido se envían a la persona que está entrando en el recorrido en ese momento. [Más información sobre los eventos](../event/about-events.md)
 
-1. **Comience con una audiencia de lectura**: puede configurar su recorrido para que escuche a las audiencias de Adobe Experience Platform. En este caso, todas las personas que pertenecen a la audiencia especificada entran en el recorrido. Los mensajes incluidos en su recorrido se envían a las personas que pertenecen a la audiencia. Más información sobre [leer audiencia](read-audience.md). Para obtener más información sobre cómo generar y segmentar audiencias en Journey Optimizer, consulte [esta sección](../audience/about-audiences.md).
+1. **Empiece con una audiencia de lectura**: puede configurar su recorrido para que escuche [!DNL Adobe Experience Platform] audiencias. En este caso, todas las personas que pertenecen a la audiencia especificada entran en el recorrido. Los mensajes incluidos en su recorrido se envían a las personas que pertenecen a la audiencia. Más información sobre [leer audiencia](read-audience.md). Para obtener más información sobre cómo generar y segmentar audiencias en Journey Optimizer, consulte [esta sección](../audience/about-audiences.md).
 
 ## Defina los pasos siguientes{#define-next-steps}
 
@@ -88,13 +88,13 @@ Puede agregar **varios eventos** en el recorrido, siempre que utilicen el mismo 
 
 También puede agregar un evento **Reaction** después de un mensaje para reaccionar a los datos de seguimiento relacionados con el mensaje. Esto le permite, por ejemplo, enviar otro mensaje si el individuo abrió el mensaje anterior o hizo clic dentro de él. [Más información sobre los eventos de reacción](reaction-events.md).
 
-Utilice la actividad de evento **Calificación de audiencias** para hacer que los individuos entren o avancen en un recorrido según las entradas y salidas de audiencias de Adobe Experience Platform. Puede hacer que todos los clientes nuevos de plata entren en un recorrido y envíen mensajes personalizados. Obtenga más información en esta [sección](audience-qualification-events.md).
+Utilice la actividad de evento **Calificación de audiencias** para hacer que los individuos entren o avancen en un recorrido según las [!DNL Adobe Experience Platform] entradas y salidas de la audiencia. Puede hacer que todos los clientes nuevos de plata entren en un recorrido y envíen mensajes personalizados. Obtenga más información en esta [sección](audience-qualification-events.md).
 
 ### Orquestación{#jo-orch}
 
 Las actividades de orquestación son condiciones diferentes que ayudan a determinar el siguiente paso del recorrido.
 
-En las actividades de orquestación, use la actividad **Leer audiencia** para configurar el recorrido y escuchar una audiencia de Adobe Experience Platform. [Más información sobre la actividad Leer audiencia](read-audience.md).
+En las actividades de orquestación, use la actividad **Leer audiencia** para configurar el recorrido y escuchar una audiencia [!DNL Adobe Experience Platform]. [Más información sobre la actividad Leer audiencia](read-audience.md).
 
 Las demás actividades le permiten agregar condiciones al recorrido para definir varias rutas, establecer un tiempo de espera antes de ejecutar la siguiente actividad o finalizar el recorrido. [Más información sobre las actividades de orquestación](about-journey-activities.md#orchestration-activities).
 

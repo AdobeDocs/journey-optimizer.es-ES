@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1190'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ La administración de la entrada del perfil depende del tipo de recorrido.
 
 ## Tipos de recorridos {#types-of-journeys}
 
-Con Adobe Journey Optimizer, puede crear los siguientes tipos de recorridos:
+Con [!DNL Adobe Journey Optimizer], puede crear los siguientes tipos de recorridos:
 
 * **recorridos de evento unitario**: estos recorridos comienzan con un evento unitario. Cuando se recibe el evento, el perfil asociado entra en el recorrido. [Más información](#entry-unitary)
 
@@ -49,13 +49,13 @@ La tasa de procesamiento de recorridos se ve afectada por varios factores que de
 
 La forma en que los perfiles introducen los recorridos y su tasa esperada dependen de la primera actividad que se utilice:
 
-* **Leer audiencia** recorridos (escenario por lotes, donde se dirige una audiencia de perfiles y se almacena en déclencheur un recorrido para esa audiencia completa): el máximo es 20 000 TPS (transacciones por segundo), que es la cuota disponible en un **nivel de espacio aislado**. Si se ejecutan varios recorridos al mismo tiempo en esa zona protegida, es posible que no se puedan conseguir 20 000 TPS. Considere este máximo como el mejor escenario.
+* **Leer audiencia** recorridos (escenario por lotes, donde se dirige una audiencia de perfiles y se déclencheur un recorrido para esa audiencia completa): el máximo es 20 000 TPS (transacciones por segundo). Esta es la cuota disponible en **nivel de espacio aislado**. Si se ejecutan varios recorridos al mismo tiempo en esa zona protegida, es posible que no se puedan conseguir 20 000 TPS. Considere este máximo como un escenario ideal.
 
 * **Calificación de audiencias** recorridos (escenario unitario, en el que desea almacenar en déclencheur un recorrido cuando un perfil califica o descalifica para una audiencia de flujo continuo): el máximo es de 5000 TPS. Tenga en cuenta que este es un límite compartido con los recorridos que comienzan con eventos y también se comparte entre recorridos a **nivel de organización**.
 
 * **Evento unitario** recorridos (escenario unitario, en el que desea almacenar en déclencheur un recorrido cuando se emite un evento desde un perfil): igual que arriba, ambos comparten el mismo límite de 5000 TPS. Encontrará más información sobre el rendimiento de eventos de recorrido en [esta sección](../event/about-events.md#event-thoughput).
 
-* **Evento empresarial** recorridos (que es esencialmente un escenario unitario a por lotes, ya que un evento empresarial siempre va seguido de una audiencia de lectura): los eventos empresariales también se cuentan hacia la cuota de 5000 TPS, pero la actividad de audiencia de lectura justo después tendrá el mismo límite que los recorridos que comienzan con una audiencia de lectura (20 000 TPS).
+* **Evento empresarial** recorridos (un escenario unitario a lote porque un evento empresarial siempre va seguido de una audiencia de lectura): los eventos empresariales se contabilizan en la cuota de 5000 TPS. La actividad de audiencia de lectura que sigue tiene el mismo límite que los recorridos que comienzan con una audiencia de lectura (20 000 TPS).
 
 ### Eventos y cualificaciones de audiencia dentro de los recorridos {#events-inside-journeys}
 
@@ -67,7 +67,7 @@ Las actividades **Wait** en recorridos también pueden afectar la cantidad de pe
 
 ### Actividades de acción {#action-activities-impact}
 
-Por último, las actividades **action** (canales nativos como Email, SMS, Push, etc., entrantes o salientes, acciones personalizadas, saltos al enviar perfiles a otros recorridos, actualización de perfiles al enviar datos al servicio de perfil unificado, etc.) pueden verse afectadas por la carga de perfiles proveniente de recorridos, pero también pueden afectar a la tasa de procesamiento. Por ejemplo, una acción personalizada que apunta a un extremo externo con un tiempo de respuesta alto ralentiza la velocidad de procesamiento del recorrido.
+Por último, las actividades **action** pueden verse afectadas por la carga del perfil proveniente de los recorridos y también pueden afectar la tasa de procesamiento. Estos incluyen canales nativos como correo electrónico, SMS y push, además de acciones personalizadas, saltos a otros recorridos y actividades de actualización de perfil. Por ejemplo, una acción personalizada que apunta a un extremo externo con un tiempo de respuesta alto ralentiza la velocidad de procesamiento del recorrido.
 
 Para las acciones personalizadas, el límite predeterminado es de 300 000 llamadas por minuto, que se pueden cambiar con una directiva de límite personalizada. Obtenga más información acerca del límite de acciones personalizadas en [esta sección](../configuration/external-systems.md#capping).
 

@@ -2,24 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a los recorridos
-description: 'Introducción a los recorridos: obtenga información acerca de los tipos de recorrido, el flujo de trabajo, las funcionalidades y las prácticas recomendadas para crear experiencias personalizadas con los clientes en Adobe Journey Optimizer'
+description: 'Introducción a los recorridos: obtenga información acerca de los tipos de recorridos, el flujo de trabajo, las capacidades y las prácticas recomendadas para crear experiencias personalizadas para los clientes en  [!DNL Adobe Journey Optimizer]'
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: recorrido, detección, inicio, unitario, leer público, calificación de público, evento empresarial, tiempo real, programado, por lotes, activado por evento, flujo de trabajo, orquestación, personalización, multicanal
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 522dba0516268a17e72f56c0f28205ba60709d78
-workflow-type: ht
-source-wordcount: '1448'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1439'
+ht-degree: 93%
 
 ---
 
 
 # Introducción a los recorridos{#jo-general-principle}
 
-Adobe Journey Optimizer le permite crear recorridos para el cliente personalizados que constan de varios pasos y que se adaptan en tiempo real al comportamiento y las necesidades de su público. Con un lienzo intuitivo de tipo arrastrar y soltar, puede orquestar mensajes y acciones en varios canales, aprovechando los datos contextuales y la segmentación del público para lograr el máximo impacto.
+[!DNL Adobe Journey Optimizer] le permite crear recorridos de cliente personalizados y de varios pasos que se adaptan en tiempo real al comportamiento y las necesidades de su audiencia. Con un lienzo intuitivo de tipo arrastrar y soltar, puede orquestar mensajes y acciones en varios canales, aprovechando los datos contextuales y la segmentación del público para lograr el máximo impacto.
 
 Esta guía proporciona una hoja de ruta clara para ayudarle a comprender los aspectos básicos del recorrido, elegir el tipo de recorrido adecuado para su caso de uso y diseñar recorridos con confianza que proporcionen experiencias del cliente significativas y oportunas.
 
@@ -39,7 +39,7 @@ Use [!DNL Journey Optimizer] para:
 
 ### Recorridos vs. Campañas: cuándo usar cada uno {#journeys-vs-campaigns-intro}
 
-Adobe Journey Optimizer ofrece tres métodos para llegar a los clientes: **Recorridos** (1:1 orquestación en tiempo real), **Campañas** (envío simple por lotes o desencadenado por API) y **Campañas orquestadas** (flujos de trabajo por lotes de lienzo con datos de varias entidades).
+[!DNL Adobe Journey Optimizer] ofrece tres métodos para llegar a los clientes: **Recorridos** (1:1 orquestación en tiempo real), **Campañas** (entrega simple desencadenada por lotes o API) y **Campañas orquestadas** (flujos de trabajo por lotes de lienzo con datos de varias entidades).
 
 **Decisión rápida:**
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer ofrece tres métodos para llegar a los clientes: **Recor
 
 ## Elija su tipo de recorrido {#journey-types}
 
-Adobe Journey Optimizer admite cuatro tipos de recorridos, cada uno diseñado para diferentes mecanismos de entrada y casos empresariales:
+[!DNL Adobe Journey Optimizer] admite cuatro tipos de recorrido, cada uno diseñado para diferentes mecanismos de entrada y escenarios empresariales:
 
 * **Recorridos unitarios**: experiencias activadas por eventos en tiempo real (confirmaciones de pedidos, correos electrónicos de bienvenida)
 * **Leer recorridos de públicos**: Comunicaciones por lotes programadas para segmentos de público (boletines informativos, campañas promocionales)
@@ -73,7 +73,7 @@ El **[diseñador de recorridos](using-the-journey-designer.md)** es el lienzo vi
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Definir puntos de entrada**
 
@@ -83,7 +83,7 @@ Elegir cómo entran los clientes: a través de un evento, segmento de público o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Envío de mensajes**
 
@@ -93,7 +93,7 @@ Utilice acciones de canal integradas para correo electrónico, push, SMS/MMS, en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Añadir lógica y condiciones**
 
@@ -103,17 +103,17 @@ Ramifique su recorrido en función de atributos de perfil, pertenencia a públic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Aprovechamiento de datos**
 
-Utilice datos contextuales de eventos, Adobe Experience Platform o servicios API de terceros.
+Utilice datos contextuales de eventos, [!DNL Adobe Experience Platform] o servicios API de terceros.
 
 [Trabajo con paquetes de datos](../datasource/about-data-sources.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Conectar sistemas externos**
 
@@ -123,7 +123,7 @@ Cree acciones personalizadas para integrar sistemas de terceros para enviar mens
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Añada actividades de orquestación**
 
@@ -214,7 +214,7 @@ Aprenda con ejemplos prácticos que muestran cómo aplicar conceptos de recorrid
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Dé la bienvenida a nuevos suscriptores**
 
@@ -224,7 +224,7 @@ Cuando un cliente se suscriba a su servicio, active un recorrido de bienvenida q
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Optimización del tiempo de envío**
 
@@ -234,7 +234,7 @@ Utilice la IA para enviar correos electrónicos cuando sea más probable que cad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Aumento de envíos**
 
@@ -244,7 +244,7 @@ Aumente gradualmente el volumen del mensaje para aumentar la reputación de su e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmente por día laborable**
 
@@ -254,7 +254,7 @@ Envíe contenido diferente en función del día de la semana en el que los clien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campañas multicanal**
 
@@ -264,13 +264,13 @@ Orqueste experiencias optimizadas en canales de correo electrónico, push, SMS y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Todos los casos de uso**
 
 Explore la biblioteca completa de casos de uso de recorrido con implementaciones paso a paso.
 
-[Ver todo →](jo-use-cases.md) | [Biblioteca de casos de uso →](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+[Ver todo →](jo-use-cases.md) | [Biblioteca de casos de uso →](../../rp_landing_pages/journey-use-cases-landing-page.md)
 :::
 
 ::::
@@ -282,17 +282,17 @@ A medida que se vaya familiarizando con la creación de recorridos, explore esta
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Expresiones avanzadas**
 
 Cree condiciones dinámicas y personalización mediante el editor de expresiones para la manipulación de datos y la lógica compleja.
 
-[Más información sobre expresiones](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+[Más información sobre expresiones](../../rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Administración de husos horarios**
 
@@ -302,7 +302,7 @@ Gestione públicos globales con ajustes automáticos de zona horaria y tiempos d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Modo de prueba y ensayo**
 
@@ -312,7 +312,7 @@ Valide los recorridos con perfiles de prueba antes de activarlos y previsualice 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Copie a la zona protegida**
 
@@ -322,7 +322,7 @@ Duplique los recorridos en las zonas protegidas para optimizar los flujos de tra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Etiquetas y organización**
 
@@ -332,7 +332,7 @@ Utilice etiquetas para categorizar y filtrar recorridos para una mejor administr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de rendimiento**
 
@@ -343,13 +343,13 @@ Limite el rendimiento del mensaje para administrar la reputación de envío y ev
 
 ::::
 
-[Vea todas las funcionalidades de recorrido →](/help/rp_landing_pages/manage-journey-landing-page.md)
+[Vea todas las funcionalidades de recorrido →](../../rp_landing_pages/manage-journey-landing-page.md)
 
 ## Aprenda mirando {#video}
 
 Obtenga una introducción visual a los componentes del recorrido y aprenda los conceptos básicos de la creación de recorridos en el lienzo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3430353?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **¿Quiere más vídeos?** [Explorar tutoriales de vídeo de recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -357,7 +357,7 @@ Obtenga una introducción visual a los componentes del recorrido y aprenda los c
 
 +++ ¿Cuál es la diferencia entre un recorrido y una campaña?
 
-Adobe Journey Optimizer ofrece tres métodos:
+[!DNL Adobe Journey Optimizer] ofrece tres enfoques:
 
 * **Recorridos**: 1:1 orquestación en tiempo real en la que cada perfil recorre los pasos a su propio ritmo. Ideal para experiencias de varios pasos y basadas en el comportamiento con lógica condicional (por ejemplo, incorporación, abandono del carro de compras).
 
@@ -390,11 +390,13 @@ Puede editar elementos limitados (nombre, contenido del mensaje), pero los cambi
 
 ## ¿Necesita ayuda? {#help}
 
+Utilice estos vínculos para encontrar instrucciones, soluciones de problemas y recursos.
+
 ### Vínculos rápidos para tareas comunes
 
 * **[Cree su primer recorrido](journey-gs.md)**: guía paso a paso para principiantes
 * **[Preguntas frecuentes sobre el recorrido](journey-faq.md)**: preguntas comunes respondidas
-* **[Solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**: diagnóstico y corrección de problemas
+* **[Solución de problemas](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**: diagnóstico y corrección de problemas
 * **[Referencia de códigos de error](error-codes-reference.md)**: explicación de los mensajes de error
 * **[Protecciones y limitaciones](../start/guardrails.md)**: límites técnicos y prácticas recomendadas
 
@@ -404,8 +406,8 @@ Configure **[alertas de recorridos](../reports/alerts.md)** para recibir notific
 
 ### Recursos adicionales
 
-* **[Hub de administración de Recorrido](/help/rp_landing_pages/manage-journey-landing-page.md)**: herramientas para filtrado, optimización y administración de perfiles
-* **[Referencia de actividades de recorrido](/help/rp_landing_pages/about-journey-building-landing-page.md)**: guía completa para todos los tipos de actividades
+* **[Hub de administración de Recorrido](../../rp_landing_pages/manage-journey-landing-page.md)**: herramientas para filtrado, optimización y administración de perfiles
+* **[Referencia de actividades de recorrido](../../rp_landing_pages/about-journey-building-landing-page.md)**: guía completa para todos los tipos de actividades
 * **[Solucionar problemas de ejecución](troubleshooting-execution.md)**: problemas de ejecución del recorrido de depuración
 * **[Solución de problemas de actividades entrantes](troubleshooting-inbound.md)**: corrija problemas de entrada y calificación
 

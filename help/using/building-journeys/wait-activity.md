@@ -10,9 +10,9 @@ level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '906'
 ht-degree: 12%
 
 ---
@@ -38,6 +38,8 @@ Puede establecer dos tipos de actividad **Wait**:
 
 ## Recomendaciones {#wait-recommendations}
 
+Utilice estas recomendaciones para mantener las esperas predecibles y seguras.
+
 ### Varias actividades de espera {#multiple-wait-activities}
 
 Cuando use varias actividades **Wait** en un recorrido, tenga en cuenta que el tiempo de espera [global](journey-properties.md#global_timeout) para recorridos es de 91 días, lo que significa que los perfiles siempre abandonan el máximo de recorrido 91 días después de que ingresaron al mismo. Obtenga más información en [esta página](journey-properties.md#global_timeout).
@@ -57,6 +59,8 @@ En el modo de prueba, el parámetro **[!UICONTROL Tiempo de espera en prueba]** 
 Si desea mostrar un [mensaje en la aplicación](../in-app/create-in-app.md) poco después de enviar una [notificación push](../../rp_landing_pages/push-landing-page.md), use una actividad de **Espera** para permitir que se propague el tiempo de carga del mensaje en la aplicación. Normalmente se recomienda una espera de 5 a 15 minutos, pero los tiempos exactos pueden variar según la complejidad de la carga útil y las necesidades de personalización.
 
 ## Configuración {#wait-configuration}
+
+Configure la duración y el tiempo de espera aquí.
 
 ### Duración de espera {#duration}
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: tiempo de envío, envío, mensaje, optimización, recorrido, IA, inteligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 10%
+source-wordcount: '1533'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="Acerca de la optimización del tiempo de envío"
->abstract="La función de optimización del tiempo de envío de Adobe Journey Optimizer, con tecnología de los servicios de IA de Adobe, puede predecir el mejor momento para enviar un mensaje push o de correo electrónico para maximizar la participación en función de las tasas históricas de apertura y clics."
+>abstract="La función de optimización del tiempo de envío de [!DNL Adobe Journey Optimizer], con tecnología de los servicios de IA de Adobe, puede predecir el mejor momento para enviar un mensaje push o de correo electrónico para maximizar la participación en función de la apertura histórica y las tasas de clics."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
@@ -34,13 +34,13 @@ ht-degree: 10%
 >title="Activación de la optimización del tiempo de envío"
 >abstract="Los mensajes push tienen por defecto la opción de apertura, ya que los clics no se aplican a la mensajería push. También puede optar por delimitar los tiempos de envío utilizados por el sistema introduciendo un valor para la opción Enviar dentro de las próximas."
 
-La función de optimización del tiempo de envío de Adobe Journey Optimizer, con tecnología de los servicios de IA de Recorrido de Adobe, elige el tiempo de envío óptimo para los mensajes de correo electrónico y push para maximizar la participación de los clientes, en función del comportamiento histórico de apertura y clic de estos.
+La función de optimización del tiempo de envío de [!DNL Adobe Journey Optimizer], con tecnología de los servicios de IA de Recorrido de Adobe, elige la hora de envío óptima para los mensajes de correo electrónico y push para maximizar la participación de los clientes, en función de la apertura y el comportamiento de los clics históricos de sus clientes.
 
 La optimización del tiempo de envío solo está disponible para los tipos de acción push y de correo electrónico integrados de Journey Optimizer, y no está disponible actualmente para los mensajes enviados mediante acciones personalizadas o para otros tipos de acción. La optimización del tiempo de envío solo está disponible para acciones push y de correo electrónico dentro de los Recorridos y, actualmente, no lo está para mensajes enviados a través de campañas.
 
 >[!AVAILABILITY]
 >
->* La función Optimización del tiempo de envío está habilitada para clientes de Adobe Journey Optimizer que la soliciten. Póngase en contacto con el Servicio de atención al cliente de Adobe o con su representante de Adobe para activar la función para su organización.
+>* La característica Optimización del tiempo de envío está habilitada para [!DNL Adobe Journey Optimizer] clientes que la soliciten. Póngase en contacto con el Servicio de atención al cliente de Adobe o con su representante de Adobe para activar la función para su organización.
 >
 >* La optimización del tiempo de envío solo se aplica a los canales **Correo electrónico** y **Notificación push**.
 >
@@ -70,7 +70,7 @@ Cuando el recorrido se activa y un cliente llega a la acción Enviar por correo 
 
 ## Funcionamiento de la optimización del tiempo de envío {#how-send-time}
 
-El modelo de optimización del tiempo de envío ingiere los datos de comportamiento del cliente de Adobe Journey Optimizer de su organización y examina los eventos abiertos a nivel de usuario y los eventos de clic para determinar cuándo es más probable que los clientes interactúen con la mensajería.
+El modelo de optimización del tiempo de envío ingiere los datos de comportamiento de los clientes [!DNL Adobe Journey Optimizer] de su organización y examina los eventos abiertos a nivel de usuario y los eventos de clic para determinar cuándo es más probable que los clientes interactúen con la mensajería.
 
 La optimización del tiempo de envío hace predicciones para cada hora de la semana, para cada usuario, en función de tres tipos de datos de comportamiento:
 
@@ -101,7 +101,7 @@ Los tiempos de envío de exploración se seleccionan al azar entre los tiempos d
 
 A continuación encontrará las preguntas más frecuentes sobre la optimización del tiempo de envío.
 
-¿Necesita más información? Use las opciones de comentarios situados en la parte inferior de esta página para plantear su pregunta o conecte con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más información? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [[!DNL Adobe Journey Optimizer] comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
 
 +++¿Cuánto tiempo debo esperar antes de utilizar la optimización del tiempo de envío?
 

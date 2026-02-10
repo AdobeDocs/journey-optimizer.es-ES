@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción a las actividades de recorrido
-description: Introducción a las actividades de recorrido
+title: Introducción a actividades de recorrido
+description: Introducción a actividades de recorrido
 feature: Journeys, Activities, Overview
 topic: Content Management
 role: User
@@ -10,22 +10,22 @@ level: Beginner, Intermediate
 keywords: recorridos, actividades, introducción, eventos, acción
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '711'
 ht-degree: 15%
 
 ---
 
-# Introducción a las actividades de recorrido {#about-journey-activities}
+# Introducción a actividades de recorrido {#about-journey-activities}
 
-Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canales cruzados de varios pasos.
+Combine actividades de evento, orquestación y acción para crear escenarios de varios pasos y canales.
 
 ## Actividades de evento {#event-activities}
 
-Los recorridos personalizados se activan mediante eventos, como una compra en línea. Una vez que un perfil entra en un recorrido, se mueve como individuo y no hay dos individuos que se muevan a la misma velocidad o por el mismo camino. Cuando se inicia el recorrido con un evento, el recorrido entra en déclencheur cuando se recibe el evento. Cada persona del recorrido sigue, individualmente, los siguientes pasos definidos en el recorrido.
+Los recorridos personalizados comienzan con eventos como una compra en línea. Una vez que un perfil entra en un recorrido, se mueve a través de él por su cuenta. Cada perfil puede seguir un camino y un ritmo diferentes. Cuando se inicia con un evento, el recorrido entra en déclencheur cuando se produce el evento. A continuación, cada perfil sigue los pasos definidos en el recorrido.
 
-Los eventos configurados por el usuario técnico (vea [esta página](../event/about-events.md)) se muestran todos en la primera categoría de la paleta, a la izquierda de la pantalla. Estas son las actividades de evento disponibles:
+Los eventos configurados por el usuario técnico (vea [esta página](../event/about-events.md)) aparecen en la primera categoría de la paleta. Esta categoría se encuentra en el lado izquierdo de la pantalla. Estas son las actividades de evento disponibles:
 
 * [Eventos generales](../building-journeys/general-events.md)
 * [Reacción](../building-journeys/reaction-events.md)
@@ -39,7 +39,7 @@ Para iniciar el recorrido, arrastre y suelte una actividad de evento. También p
 
 ## Actividades de orquestación {#orchestration-activities}
 
-Las actividades de orquestación son condiciones diferentes que ayudan a determinar el siguiente paso del recorrido. Estas condiciones pueden incluir si la persona tiene un caso de soporte abierto, el pronóstico del tiempo en su ubicación actual, si completó una compra o si alcanzó los 10 000 puntos de lealtad.
+Las actividades de orquestación son condiciones que ayudan a determinar el siguiente paso del recorrido. Estas condiciones pueden incluir si la persona tiene un caso de asistencia abierto o si ha completado una compra. También pueden incluir el pronóstico del tiempo local o si la persona alcanzó los 10.000 puntos de lealtad.
 
 En la paleta, en el lado izquierdo de la pantalla, están disponibles las siguientes actividades de orquestación:
 
@@ -55,7 +55,7 @@ En la paleta, en el lado izquierdo de la pantalla, están disponibles las siguie
 
 Las acciones son lo que desea que ocurra como resultado de algún tipo de déclencheur, como enviar un mensaje. Es la parte del recorrido que el cliente experimenta.
 
-En la paleta, en la parte izquierda de la pantalla, debajo de **[!UICONTROL Eventos]** y **[!UICONTROL Orquestación]**, se encuentra la categoría **[!UICONTROL Acciones]**. Estas son las actividades de acción disponibles:
+En la paleta de la izquierda de la pantalla, debajo de **[!UICONTROL Eventos]** y **[!UICONTROL Orquestación]**, se encuentra la categoría **[!UICONTROL Acciones]**. Estas son las actividades de acción disponibles:
 
 * [Acciones de canal integradas](../building-journeys/journeys-message.md)
 * [Acciones personalizadas](../building-journeys/using-custom-actions.md)
@@ -69,13 +69,15 @@ También puede configurar acciones específicas para enviar mensajes:
 
 * Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada específica. [Más información](../action/action.md)
 
-* Si está trabajando con Campaign y Journey Optimizer, consulte estas secciones:
+* Si está trabajando con [!DNL Adobe Campaign] y [!DNL Adobe Journey Optimizer], consulte estas secciones:
 
-   * [[!DNL Journey Optimizer] y Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] y Campaign Standard](../action/acs-action.md)
-   * [[!DNL Journey Optimizer] y Marketo Engage](../action/marketo-engage.md)
+   * [[!DNL Adobe Journey Optimizer] y  [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
+   * [[!DNL Adobe Journey Optimizer] y  [!DNL Adobe Campaign] Standard](../action/acs-action.md)
+   * [[!DNL Adobe Journey Optimizer] y  [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
 
 ## Prácticas recomendadas {#best-practices}
+
+Utilice estas recomendaciones para mantener los recorridos legibles, coherentes y fáciles de solucionar.
 
 ### Añadir una etiqueta
 
@@ -119,4 +121,4 @@ Antes de probar y publicar el recorrido, compruebe que todas las actividades est
 
 Aprenda a solucionar errores en las actividades y en el recorrido [de esta página](troubleshooting.md).
 
-Consulte también **[Supervisión y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**.
+Consulte también **[Supervisión y solución de problemas](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**.

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 8a1c6ccad1e0ff66bc23b6fbdd873db5f54e3e0a
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 7%
@@ -34,10 +34,12 @@ Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba.
 
 ## Notas importantes {#important_notes}
 
+Revise estas notas antes de ejecutar pruebas en el recorrido.
+
 ### Limitaciones generales
 
 * **Solo perfiles de prueba**: solo los individuos marcados como &quot;perfiles de prueba&quot; en el servicio Perfil del cliente en tiempo real pueden entrar en un recorrido en modo de prueba. [Aprenda a crear perfiles de prueba](../audience/creating-test-profiles.md).
-* **Requisito de área de nombres**: el modo de prueba solo está disponible para los recorridos de borrador que utilizan un área de nombres. El modo de prueba debe comprobar si una persona que entra en el recorrido es un perfil de prueba o no y, por lo tanto, debe poder acceder a Adobe Experience Platform.
+* **Requisito de área de nombres**: el modo de prueba solo está disponible para los recorridos de borrador que utilizan un área de nombres. El modo de prueba necesita comprobar si una persona que entra en el recorrido es un perfil de prueba o no y, por lo tanto, debe poder llegar a [!DNL Adobe Experience Platform].
 * **Límite de perfiles**: un máximo de 100 perfiles de prueba pueden entrar en un recorrido durante una sola sesión de prueba.
 * **Activación de eventos**: los eventos solo se pueden activar desde la interfaz. Los eventos no se pueden activar desde sistemas externos mediante una API.
 * **Audiencias de carga personalizadas**: el modo de prueba de Recorrido no admite [audiencia de carga personalizada](../audience/custom-upload.md) enriquecimiento de atributos.
@@ -104,7 +106,7 @@ Use el botón **[!UICONTROL Déclencheur un evento]** para configurar un evento 
 
 ### Requisitos previos {#trigger-events-prerequisites}
 
-Como requisito previo, debe saber qué perfiles están marcados como perfiles de prueba en Adobe Experience Platform. De hecho, el modo de prueba solo permite estos perfiles en el recorrido.
+Como requisito previo, debe saber qué perfiles están marcados como perfiles de prueba en [!DNL Adobe Experience Platform]. De hecho, el modo de prueba solo permite estos perfiles en el recorrido.
 
 El evento debe contener un ID. El ID esperado depende de la configuración del evento. Puede ser un ECID o una dirección de correo electrónico, por ejemplo. El valor de esta clave debe agregarse en el campo **Identificador de perfil**.
 
@@ -119,7 +121,7 @@ El área de nombres de identidad se utiliza para identificar los perfiles de pru
 >* Asegúrese de que cada evento en el modo de prueba se active en el orden correcto y dentro de la ventana de espera configurada. Por ejemplo, si hay una espera de 60 segundos, el segundo evento debe activarse solo después de que haya transcurrido esa espera de 60 segundos y antes de que caduque el límite de tiempo de espera.
 >
 
-### Configuración de eventos {#trigger-events-configuration}
+### Configuración de evento {#trigger-events-configuration}
 
 Si el recorrido contiene varios eventos, utilice el menú desplegable para seleccionar un evento. A continuación, para cada evento, configure los campos pasados y la ejecución del envío del evento. La interfaz de le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
@@ -190,5 +192,5 @@ Estos son los diferentes estados del recorrido de un individuo:
 
 Cuando se activa un evento con el modo de prueba, se genera automáticamente un conjunto de datos con el nombre del origen.
 
-El modo de prueba crea automáticamente un Evento de experiencia y lo envía a Adobe Experience Platform. El nombre de la fuente para este evento de experiencia es &quot;Eventos de prueba de Journey Orchestration&quot;.
+El modo de prueba crea automáticamente un Evento de experiencia y lo envía a [!DNL Adobe Experience Platform]. El nombre de la fuente para este evento de experiencia es &quot;Eventos de prueba de Journey Orchestration&quot;.
 

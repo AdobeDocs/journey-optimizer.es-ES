@@ -10,9 +10,9 @@ level: Intermediate
 keywords: zona horaria, propiedades, recorrido, condición, hora, fecha, personalizado
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 27%
 
 ---
@@ -56,7 +56,7 @@ Para ello, en el panel **[!UICONTROL Propiedades del Recorrido]**, seleccione un
 >title="Usar zona horaria del perfil"
 >abstract="Marque el cuadro para utilizar la zona horaria del perfil en tiempo real en las actividades de espera y condición. Si se ha definido una zona horaria para un perfil, el recorrido la recuperará y la utilizará. De lo contrario, la zona horaria será la definida en el campo de zona horaria anterior."
 
-Si el evento de entrada del recorrido tiene un área de nombres, lo que significa que el recorrido puede llegar al servicio Perfil del cliente en tiempo real de Adobe Experience Platform, es posible que desee utilizar la zona horaria definida en el nivel de perfil. Para ello, en **Properties**, marque **Usar zona horaria del perfil en esperas y condiciones**. Esta opción no está activada de forma predeterminada.
+Si el evento de entrada del recorrido tiene un área de nombres, lo que significa que el recorrido puede llegar al servicio Perfil del cliente en tiempo real de [!DNL Adobe Experience Platform], puede que desee utilizar la zona horaria definida en el nivel de perfil. Para ello, en **Properties**, marque **Usar zona horaria del perfil en esperas y condiciones**. Esta opción no está activada de forma predeterminada.
 
 Si se ha definido una zona horaria para un perfil, el recorrido la recuperará y la utilizará. Si no es así, la zona horaria utilizada será la definida en el campo timezone.
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1592'
 ht-degree: 16%
 
 ---
@@ -31,7 +31,7 @@ El punto de partida de un recorrido es siempre un evento. Puede hacer pruebas co
 
 Puede comprobar si la llamada API que envía a través de estas herramientas se envía correctamente o no. Si vuelve a recibir un error, significa que la llamada tiene un problema. Vuelva a comprobar la carga útil, el encabezado (y especialmente el ID de organización) y la dirección URL de destino. Puede preguntar a su administrador cuál es la dirección URL correcta para visitar.
 
-Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con el evento, puede consultar [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=es){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
+Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de [!DNL Adobe Experience Platform]. Como resultado, en caso de problemas relacionados con el evento, puede consultar [[!DNL Adobe Experience Platform] documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
 
 Si el recorrido no puede habilitar el modo de prueba con el error `ERR_MODEL_RULES_16`, asegúrese de que el evento usado incluya un [área de nombres de identidad](../audience/get-started-identity.md) al usar una acción de canal.
 
@@ -57,7 +57,7 @@ Puede comenzar la resolución de problemas con las preguntas siguientes:
   Content-type - application/json
   ```
 
-&#x200B;>>
+>>
 **Para recorridos de calificación de audiencia con audiencias de streaming**: Si usa una actividad de calificación de audiencia como punto de entrada de recorrido, tenga en cuenta que no todos los perfiles aptos para la audiencia entrarán necesariamente en la recorrido debido a factores de tiempo, salidas rápidas de la audiencia o si los perfiles ya estaban en la audiencia antes de la publicación. Más información sobre [consideraciones de tiempo para la calificación de audiencias de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ## Solución de problemas de transiciones del modo de prueba {#troubleshooting-test-transitions}
@@ -73,7 +73,7 @@ Si los perfiles de prueba entran en el recorrido pero no avanzan más allá del 
    * Asegúrese de que la hora actual se encuentre dentro de la ventana de fecha activa del recorrido
    * Si es necesario, actualice las propiedades del recorrido para ajustar la fecha de inicio
 
-* **Configuración del perfil de prueba** - Confirme que el perfil esté marcado correctamente como perfil de prueba en Adobe Experience Platform. Consulte [cómo crear perfiles de prueba](../audience/creating-test-profiles.md) para obtener más información.
+* **Configuración del perfil de prueba** - Confirme que el perfil está marcado correctamente como perfil de prueba en [!DNL Adobe Experience Platform]. Consulte [cómo crear perfiles de prueba](../audience/creating-test-profiles.md) para obtener más información.
 
 * **Área de nombres de identidad** - Asegúrese de que el área de nombres de identidad utilizada en la configuración del evento coincida con el área de nombres del perfil de prueba.
 
@@ -115,6 +115,8 @@ En el caso de un mensaje enviado mediante una acción personalizada, lo único q
 
 ## Explicación de las entradas duplicadas en eventos de paso de Recorrido {#duplicate-step-events}
 
+Utilice esta sección para comprender por qué pueden aparecer filas duplicadas en los eventos de paso de Recorrido.
+
 ### ¿Por qué veo varias entradas con la misma instancia de recorrido, perfil, nodo e ID de solicitud?
 
 Al consultar los datos de Eventos de paso de Recorrido, puede observar ocasionalmente lo que parecen ser entradas de registro duplicadas para la misma ejecución de recorrido. Estas entradas comparten valores idénticos para:
@@ -128,7 +130,7 @@ Sin embargo, estas entradas tienen **diferentes valores de `_id`**, que es el in
 
 ### ¿Qué causa este comportamiento?
 
-Esto se debe a las operaciones de escalado automático del servidor (también denominadas &quot;reequilibrio&quot;) en la arquitectura de microservicios de Adobe Journey Optimizer. Durante períodos de alta carga u optimización del sistema:
+Esto ocurre debido a las operaciones de escalado automático del servidor (también llamadas &quot;reequilibrio&quot;) en la arquitectura de microservicios de [!DNL Adobe Journey Optimizer]. Durante períodos de alta carga u optimización del sistema:
 
 1. Un evento de paso de recorrido comienza a procesarse y se registra en el conjunto de datos de eventos de paso de Recorrido
 2. Una operación de escalado automático redistribuye la carga de trabajo entre instancias de servicio
@@ -138,7 +140,7 @@ Se trata de un comportamiento esperado del sistema y **funciona según lo diseñ
 
 ### ¿Afecta a la ejecución del recorrido o a la entrega de mensajes?
 
-**No.**: el impacto se limita solamente al registro. Adobe Journey Optimizer tiene mecanismos de deduplicación integrados en la capa de ejecución de mensajes que garantizan lo siguiente:
+**No.**: el impacto se limita solamente al registro. [!DNL Adobe Journey Optimizer] tiene mecanismos de deduplicación integrados en la capa de ejecución de mensajes que garantizan:
 
 * Solo se envía un mensaje (correo electrónico, SMS, notificación push, etc.) a cada perfil
 * Las acciones se ejecutan solo una vez

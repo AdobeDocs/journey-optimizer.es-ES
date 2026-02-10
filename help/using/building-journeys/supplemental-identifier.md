@@ -3,9 +3,9 @@ title: Uso de identificadores suplementarios en recorridos
 description: Aprenda a utilizar identificadores suplementarios en recorrido.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1434'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
-## Mecanismos de protección y limitaciones {#guardrails}
+## Protecciones y limitaciones {#guardrails}
 
 * **recorridos admitidos**: se admiten identificadores adicionales para los recorridos **activados por eventos** y **Leer audiencia**. No son **compatibles** con los recorridos de calificación de audiencia (es decir, recorridos que comiencen con una actividad de calificación de audiencia).
 
@@ -218,6 +218,8 @@ En una matriz de objetos con el Id. suplementario como `bookingNum` y un atribut
 
 ## Casos de uso de ejemplo
 
+Estos ejemplos muestran cómo los identificadores suplementarios admiten varios registros relacionados.
+
 ### **Notificaciones de renovación de directivas**
 
 * **Escenario**: un proveedor de seguros envía recordatorios de renovación por cada póliza activa que posea un cliente.
@@ -246,4 +248,4 @@ En una matriz de objetos con el Id. suplementario como `bookingNum` y un atribut
 
 Obtenga información sobre cómo habilitar y aplicar un identificador suplementario en [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464795?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

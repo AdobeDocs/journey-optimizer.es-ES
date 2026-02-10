@@ -9,10 +9,10 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 16%
+source-wordcount: '1115'
+ht-degree: 8%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="Modo de ensayo"
->abstract="Este recorrido está en modo de ensayo. El ensayo del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales de recorridos probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil.  Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo."
+>abstract="Este recorrido está en modo de ensayo. Recorrido La ejecución en seco es un modo especial de publicación de recorrido en [!DNL Adobe Journey Optimizer] que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción real sin ponerse en contacto con clientes reales ni actualizar información de perfil.  Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="Publicación de un recorrido en modo de ensayo"
->abstract="El ensayo del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales de recorridos probar un recorrido utilizando datos de producción reales. Una vez que haya diseñado su recorrido, ejecute un ensayo para confirmar que es funcional y asegurarse de que los pasos sean correctos. Este modo de publicación le permite realizar una prueba preliminar de un recorrido sin enviar comunicaciones a los perfiles."
+>abstract="Recorrido La ejecución en seco es un modo especial de publicación de recorrido en [!DNL Adobe Journey Optimizer] que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales. Una vez que haya diseñado su recorrido, ejecute un ensayo para confirmar que es funcional y asegurarse de que los pasos sean correctos. Este modo de publicación le permite realizar una prueba preliminar de un recorrido sin enviar comunicaciones a los perfiles."
 
-El ensayo del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales de recorridos probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil.  Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo.
+Recorrido La ejecución en seco es un modo especial de publicación de recorrido en [!DNL Adobe Journey Optimizer] que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción real sin ponerse en contacto con clientes reales ni actualizar información de perfil.  Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo.
 
 ➡️ [Obtenga más información acerca de la ejecución sin recorrido en este vídeo](#dry-run-video)
 
@@ -143,10 +143,10 @@ Recorrido La ejecución en seco genera **stepEvents**. Estos stepEvents tienen u
 
 Si exporta datos stepEvent a **sistemas externos**, puede filtrar las ejecuciones en seco utilizando el indicador `inDryRun`.
 
-Al analizar **métricas de informes de recorrido** mediante el servicio Adobe Experience Platform Query, se deben excluir los eventos de paso generados por la ejecución en seco. Para ello, establezca el indicador `inDryRun` en `false`.
+Al analizar **métricas de informes de recorridos** mediante el servicio de consultas [!DNL Adobe Experience Platform], se deben excluir los eventos de paso generados por la ejecución en seco. Para ello, establezca el indicador `inDryRun` en `false`.
 
 ## Vídeo práctico {#dry-run-video}
 
 Aprenda a secar los recorridos en este vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464685/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

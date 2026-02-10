@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, eventos, reaction, seguimiento, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: d8fa1c7055e4e31e393e36ba16863e0f8f95ca9b
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 16%
+source-wordcount: '498'
+ht-degree: 10%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="Eventos de reacción"
->abstract="Esta actividad permite reaccionar ante los datos de seguimiento relacionados con un mensaje enviado dentro del mismo recorrido. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform."
+>abstract="Esta actividad permite reaccionar ante los datos de seguimiento relacionados con un mensaje enviado dentro del mismo recorrido. Esta información se captura en tiempo real en el momento en que se comparte con [!DNL Adobe Experience Platform]."
 
 ## Información general {#overview}
 
-Entre las diferentes actividades de eventos disponibles en la paleta, se encuentra el evento **[!UICONTROL Reactions]** integrado. Esta actividad permite reaccionar ante los datos de seguimiento relacionados con un mensaje enviado dentro del mismo recorrido. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform.
+Entre las diferentes actividades de eventos disponibles en la paleta, se encuentra el evento **[!UICONTROL Reactions]** integrado. Esta actividad permite reaccionar ante los datos de seguimiento relacionados con un mensaje enviado dentro del mismo recorrido. Esta información se captura en tiempo real en el momento en que se comparte con [!DNL Adobe Experience Platform].
 
 Puede reaccionar a los mensajes en los que se hace clic o que se abren. Por ejemplo, puede enviar otro mensaje si una persona ha abierto el correo electrónico anterior o ha hecho clic dentro de él, o enviar un mensaje de seguimiento diferente si no ha interactuado con la comunicación.
 

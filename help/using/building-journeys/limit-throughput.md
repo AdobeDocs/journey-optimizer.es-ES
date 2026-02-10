@@ -9,18 +9,20 @@ level: Experienced
 keywords: recorrido, fuentes de datos, límite, rendimiento, personalizado, acciones
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '798'
 ht-degree: 3%
 
 ---
 
 # Caso de uso: Limitación del rendimiento con fuentes de datos externas y acciones personalizadas{#limit-throughput}
 
+Utilice este caso de uso para acelerar el procesamiento del recorrido cuando los sistemas externos deban gestionar un número limitado de solicitudes por segundo.
+
 ## Descripción del caso de uso
 
-Adobe Journey Optimizer permite a los profesionales enviar llamadas de API a sistemas externos mediante el uso de acciones personalizadas y fuentes de datos.
+[!DNL Adobe Journey Optimizer] permite a los profesionales enviar llamadas de API a sistemas externos mediante el uso de acciones personalizadas y fuentes de datos.
 
 Esto se puede hacer con:
 

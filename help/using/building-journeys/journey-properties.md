@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Defina las propiedades de su recorrido
-description: Obtenga información sobre cómo establecer las propiedades del recorrido con Adobe Journey Optimizer
+description: Obtenga información sobre cómo establecer las propiedades del recorrido con  [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '2866'
+source-wordcount: '2859'
 ht-degree: 15%
 
 ---
@@ -32,7 +32,7 @@ En esta sección, defina el nombre del recorrido, añada una descripción y defi
 
 Puede hacer lo siguiente:
 
-* Asigne etiquetas unificadas de Adobe Experience Platform a su recorrido para clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
+* Asigne etiquetas unificadas [!DNL Adobe Experience Platform] al recorrido para clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
 * Seleccione las métricas de recorridos. [Aprenda a configurar y rastrear sus métricas de recorridos](success-metrics.md)
 * Administrar [entrada y reentrada](#entrance). La administración de la entrada del perfil depende del tipo de recorrido. Los detalles están disponibles en [esta página](entry-management.md)
 * Administrar [acceso a datos](#manage-access)
@@ -87,7 +87,7 @@ Para asignar al recorrido etiquetas de uso de datos personalizadas, haga clic en
 
 ## Zonas horarias de recorrido y perfil {#timezone}
 
-La zona horaria se define en el nivel de recorrido. Puede introducir una zona horaria fija o utilizar perfiles de Adobe Experience Platform para definir la zona horaria de recorrido. Si se define una zona horaria en el perfil de Adobe Experience Platform, se puede recuperar en la recorrido.
+La zona horaria se define en el nivel de recorrido. Puede escribir una zona horaria fija o usar [!DNL Adobe Experience Platform] perfiles para definir la zona horaria de recorrido. Si se define una zona horaria en el perfil [!DNL Adobe Experience Platform], se puede recuperar en la recorrido.
 
 [Más información sobre la administración de huso horario](../building-journeys/timezone-management.md)
 
@@ -108,6 +108,8 @@ De forma predeterminada, los perfiles pueden entrar en el recorrido en cuanto se
 Si es necesario, puede definir **fecha de inicio** y **fecha de finalización** personalizadas. Esto permite a los perfiles introducir el recorrido en una fecha específica y salir automáticamente cuando se llega a la fecha de finalización.
 
 ## Tiempo de espera {#timeout}
+
+La configuración del tiempo de espera controla cuánto tiempo espera un recorrido a que se ejecute la actividad y cuánto tiempo pueden permanecer los perfiles en un recorrido.
 
 ### Tiempo de espera en actividades de recorrido {#timeout_and_error}
 
@@ -140,7 +142,7 @@ Una persona solo puede entrar en una actividad de espera si le queda tiempo sufi
 
 #### Preguntas frecuentes sobre el tiempo de vida (TTL) y la retención de datos {#timeout-faq}
 
-A partir de la versión de junio de 2024 de Adobe Journey Optimizer, el tiempo de espera global de recorrido ha pasado de 30 a 91 días. Los impactos se enumeran en las preguntas frecuentes a continuación:
+A partir de la versión de [!DNL Adobe Journey Optimizer] de junio de 2024, el tiempo de espera global de recorrido ha pasado de 30 a 91 días. Los impactos se enumeran en las preguntas frecuentes a continuación:
 
 **Para Recorridos Unitarios**
 
@@ -250,15 +252,15 @@ A partir de la versión de junio de 2024 de Adobe Journey Optimizer, el tiempo d
 
 ## Combinar políticas {#merge-policies}
 
-Adobe Journey Optimizer utiliza políticas de combinación al recuperar datos de perfil de Adobe Experience Platform. Según el tipo de recorrido, se utilizan distintas políticas de combinación:
+[!DNL Adobe Journey Optimizer] usa políticas de combinación al recuperar datos de perfil de [!DNL Adobe Experience Platform]. Según el tipo de recorrido, se utilizan distintas políticas de combinación:
 
 * En Leer recorridos de cualificación de audiencias o audiencias: se utiliza la política de combinación de la audiencia
 * En recorridos de eventos unitarios: se utiliza la política de combinación predeterminada
 * En recorridos de eventos empresariales: se utiliza la política de combinación de la audiencia de destino en la siguiente actividad Leer audiencia
 
-Adobe Journey Optimizer aplica la política de combinación utilizada en todo el recorrido. Por lo tanto, si se usan varias audiencias en un recorrido (por ejemplo, usando en [`inAudience` funciones](functions/functioninaudience.md)), se crean incoherencias con la política de combinación utilizada por el recorrido, se genera un error y se bloquea la publicación. Sin embargo, si se utiliza una audiencia incoherente en la personalización de mensajes, no se genera una alerta, a pesar de la incoherencia. Por este motivo, es muy recomendable comprobar la política de combinación asociada a su audiencia cuando esta audiencia se utiliza en la personalización de mensajes.
+[!DNL Adobe Journey Optimizer] aplica la política de combinación utilizada en todo el recorrido. Por lo tanto, si se usan varias audiencias en un recorrido (por ejemplo, usando en [`inAudience` funciones](functions/functioninaudience.md)), se crean incoherencias con la política de combinación utilizada por el recorrido, se genera un error y se bloquea la publicación. Sin embargo, si se utiliza una audiencia incoherente en la personalización de mensajes, no se genera una alerta, a pesar de la incoherencia. Por este motivo, es muy recomendable comprobar la política de combinación asociada a su audiencia cuando esta audiencia se utiliza en la personalización de mensajes.
 
-Para obtener más información sobre las políticas de combinación, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Para obtener más información sobre las políticas de combinación, consulte [[!DNL Adobe Experience Platform] documentación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >
