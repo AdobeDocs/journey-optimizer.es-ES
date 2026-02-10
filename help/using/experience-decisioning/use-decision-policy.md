@@ -8,7 +8,7 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
+source-git-commit: 71a5b2163500b26ef3ea61e55d18cad539bfeb7f
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Uso de políticas de decisión en mensajes {#create-decision}
 
-Una vez que haya agregado una política de decisión al contenido, puede utilizar atributos de elementos de decisión devueltos para la personalización. Para ello, inserte primero el código de la directiva de decisión en el contenido.
+Una vez que haya agregado una política de decisión al contenido, puede utilizar atributos de los elementos de decisión devueltos para la personalización. Para ello, inserte primero el código de la directiva de decisión en el contenido.
 
 >[!CAUTION]
 >
@@ -39,7 +39,7 @@ Una vez que haya agregado una política de decisión al contenido, puede utiliza
 
 >[!NOTE]
 >
->En el caso de las experiencias basadas en código, si la política de decisión contiene elementos de decisión, incluidos fragmentos, puede aprovechar estos fragmentos en el código de la política de decisión. [Aprenda a aprovechar fragmentos](../experience-decisioning/fragments-decision-policies.md)
+>En el caso de las experiencias basadas en código, si la política de decisión contiene elementos de decisión, incluidos fragmentos, puede aprovechar estos fragmentos en el código de la política de decisión. [Aprenda a aprovechar fragmentos](fragments-decision-policies.md)
 
 >[!TAB Correo electrónico]
 
