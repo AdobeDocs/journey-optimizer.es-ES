@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 4ce83c9cd3f70462c977db6e872a7ac51ea0e006
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '713'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Para crear directivas de aprobación, debe tener privilegios de administrador de sistemas o productos en Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home)
+>Para crear directivas de aprobación, debe tener privilegios de administrador de sistemas o productos en Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 Las políticas de aprobación permiten a los administradores establecer un proceso de validación para recorridos y campañas. Este sistema describe condiciones específicas que determinan si un recorrido o una campaña requiere aprobación. Estas políticas pueden variar en complejidad. Simplemente pueden requerir que todas las campañas sean revisadas por un usuario o equipo en particular, o establecer criterios basados en quién creó la campaña.
 
@@ -58,7 +58,7 @@ Para crear una política de aprobación, siga estos pasos:
 
 1. Habilite **[!UICONTROL Bloquear autoaprobación]** para evitar que los creadores de Recorrido/campaña aprueben sus propios objetos.
 
-   ![](assets/policy_create_2.png)
+   ![Formulario de detalles de directiva de aprobación](assets/policy_create_2.png)
 
 Ahora puede restringir las condiciones para especificar quién puede iniciar la solicitud de aprobación y quién puede validarla.
 

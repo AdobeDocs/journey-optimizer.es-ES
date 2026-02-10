@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,11 @@ Después de crear tu campaña o recorrido, haz clic en el botón **[!UICONTROL S
 
 Se abre el panel **[!UICONTROL Solicitar aprobación]**. Proporcione un mensaje a los aprobadores si es necesario y haga clic en **[!UICONTROL Enviar]** para enviar la solicitud.
 
-![](assets/approval-request.png)
+![Cuadro de diálogo de solicitud de aprobación](assets/approval-request.png)
 
 Aunque la campaña o el recorrido tengan el estado **[!UICONTROL En revisión]**, tiene la opción de cancelar la solicitud de aprobación. Al hacer clic en el botón **[!UICONTROL Cancelar solicitud]**, la campaña o el recorrido volverán a la fase de borrador y se enviará una notificación a los revisores para informarles de que la solicitud se ha cancelado. A continuación, puede realizar las ediciones necesarias y volver a enviar la campaña o el recorrido para su aprobación.
 
-![](assets/approval-cancel.png)
+![Botón Cancelar solicitud de aprobación](assets/approval-cancel.png)
 
 ## Administrar solicitudes de aprobación
 
@@ -52,6 +52,6 @@ Una vez enviada la solicitud de aprobación a los aprobadores, pueden revisarla 
 
 Si los aprobadores solicitan cambios, se le notifica mediante un mensaje de correo electrónico y una alerta de Journey Optimizer, a la que se puede acceder haciendo clic en el icono de campana en la parte superior derecha de la pantalla, en la pestaña **[!UICONTROL Solicitudes]**.
 
-![](assets/changes-requested.png)
+![Cambios solicitados para notificación](assets/changes-requested.png)
 
 Para revisar la solicitud de cambio, ábrala desde el correo electrónico o la alerta para acceder al recorrido o campaña y realice los cambios solicitados. Cuando el recorrido o la campaña estén listos para revisarse nuevamente, envíe una nueva solicitud de aprobación con el botón **[!UICONTROL Solicitar aprobación]**.

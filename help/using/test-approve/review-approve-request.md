@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 8f4260b5-98df-4350-bd9b-680c3986ffe6
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Si se aplica una directiva de aprobación a un recorrido o campaña, debe enviar
 
 Si se le ha seleccionado como aprobador, se le notificará mediante un mensaje de correo electrónico y una alerta de Journey Optimizer, a la cual se puede acceder haciendo clic en el icono de campana en la parte superior derecha de la pantalla, en la pestaña **[!UICONTROL Solicitudes]**.
 
-![](assets/request-notification.png)
+![Notificación de solicitud de aprobación](assets/request-notification.png)
 
 Para revisar el recorrido/campaña, ábralo desde el correo electrónico o la alerta y compruebe su configuración, como audiencia, contenido o configuración.
 Una vez finalizado, puede [aprobar y publicar el recorrido/campaña](#approve) o [solicitar cambios antes de activarlo](#changes).
@@ -35,18 +35,18 @@ Si un recorrido o una campaña están listos para iniciarse, puede aprobarlos si
 
 En la ventana que se muestra, haga clic en **[!UICONTROL Aprobar y activar]** para que el recorrido o la campaña se publique.
 
-![](assets/approve-request.png)
+![Cuadro de diálogo de solicitud de aprobación](assets/approve-request.png)
 
 ## Solicitar cambios en un recorrido/campaña {#changes}
 
 Si es necesario realizar cambios en un recorrido o una campaña que se ha enviado para su aprobación, puede enviar una solicitud al creador para que realice los cambios necesarios.
 
-Para ello, haga clic en el botón **[!UICONTROL Solicitar cambios]**. En los paneles que se abren, proporcione un mensaje que detalle su solicitud y haga clic en **[!UICONTROL Enviar]** para enviar la solicitud.
+Para ello, haga clic en el botón **[!UICONTROL Solicitar cambios]**. En el panel que se abre, proporciona un mensaje que detalla tu solicitud y haz clic en **[!UICONTROL Enviar]** para enviar la solicitud.
 
-![](assets/request-changes.png)
+![Solicitar cambios en el cuadro de diálogo](assets/request-changes.png)
 
-Después de enviar la solicitud, se notifica al creador de la recorrido/campaña por correo electrónico y mediante una alerta de Journey Optimizer. La campaña vuelve al estado Borrador. Una vez integrados los cambios, el creador del recorrido/campaña puede volver a enviarlos para su aprobación.
+Después de enviar la solicitud, se notifica al creador de la recorrido/campaña por correo electrónico y mediante una alerta de Journey Optimizer. La campaña vuelve al estado Borrador. Una vez integrados los cambios, el recorrido/creador de la campaña puede volver a enviarlos para su aprobación.
 
 >[!NOTE]
 >
-> Si no recibe la notificación de aprobación por correo electrónico, debe actualizar las preferencias de suscripciones en los perfiles de Experience Cloud. [Más información](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences)
+> Si no recibe la notificación de aprobación por correo electrónico, debe actualizar las preferencias de suscripción en los perfiles de Experience Cloud. [Más información](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)
