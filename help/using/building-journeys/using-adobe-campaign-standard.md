@@ -36,7 +36,7 @@ Para cada uno de estos canales, selecciona una [!DNL Adobe Campaign] plantilla *
 >
 >El mensaje transaccional de Campaign Standard y su evento asociado deben publicarse para poder utilizarse en Journey Optimizer. Si el evento se publica pero el mensaje no, no será visible en la interfaz de Journey Optimizer. Si el mensaje se publica pero su evento asociado no, estará visible en la interfaz de Journey Optimizer, pero no se podrá utilizar.
 
-![[!DNL Adobe Campaign] Configuración de acción estándar en el recorrido ](assets/journey59.png)
+![[!DNL Adobe Campaign] Configuración de acción estándar en el recorrido &#x200B;](assets/journey59.png)
 
 Puede utilizar un evento (también conocido como tiempo real) o una plantilla de mensajería transaccional de perfil.
 
