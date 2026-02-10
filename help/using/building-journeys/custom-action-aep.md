@@ -176,7 +176,7 @@ Para este ejemplo, siga estos pasos:
 
 1. Guarde la acción personalizada.
 
-##  Recorrido 
+## Recorrido 
 
 1. Finalmente, utilice esta acción personalizada en un recorrido para escribir los eventos de recorrido personalizados.
 
