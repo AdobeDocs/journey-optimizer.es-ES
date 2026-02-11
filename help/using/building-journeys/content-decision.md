@@ -7,24 +7,19 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Disponibilidad limitada" type="Informative"
 keywords: actividad, toma de decisiones, decisión de contenido, política de decisión, lienzo, recorrido
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 67dd6b5d7e457c29795f53276755dbbb67c94a99
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 4%
+source-wordcount: '1242'
+ht-degree: 2%
 
 ---
 
 # Actividad de decisión de contenido {#content-decision}
 
->[!AVAILABILITY]
->
->Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una futura versión.
-
-[!DNL Journey Optimizer] le permite incluir ofertas en sus recorridos a través de la actividad **decisión de contenido** específica en el lienzo de recorrido. A continuación, puede agregar otras actividades (como [acciones personalizadas](../action/about-custom-action-configuration.md)) a sus recorridos para dirigirse a sus audiencias con estas ofertas personalizadas.
+[!DNL Journey Optimizer] le permite incluir ofertas en sus recorridos a través de la actividad **Decisión de contenido** específica en el lienzo de recorrido. A continuación, puede agregar otras actividades (como [acciones personalizadas](../action/about-custom-action-configuration.md)) a sus recorridos para dirigirse a sus audiencias con estas ofertas personalizadas.
 
 >[!NOTE]
 >
@@ -78,11 +73,11 @@ Ya está listo para aprovechar el resultado de esta actividad de decisión de co
 
 **Políticas de consentimiento**
 
-Las actualizaciones de las directivas de consentimiento tardan hasta 48 horas en surtir efecto. Si una directiva de decisión hace referencia a un atributo vinculado a una directiva de consentimiento actualizada recientemente, los cambios no se aplican inmediatamente.
+* Las actualizaciones de las directivas de consentimiento tardan hasta 48 horas en surtir efecto. Si una directiva de decisión hace referencia a un atributo vinculado a una directiva de consentimiento actualizada recientemente, los cambios no se aplican inmediatamente.
 
-Del mismo modo, se pueden añadir nuevos atributos de perfil sujetos a una política de consentimiento a una política de decisión y utilizarlos. La directiva de consentimiento relacionada no se aplicará hasta que haya transcurrido el tiempo de espera.
+* Del mismo modo, si se añaden nuevos atributos de perfil sujetos a una directiva de consentimiento a una directiva de decisión, se pueden utilizar, pero la directiva de consentimiento asociada a ellos no se aplicará hasta que haya pasado el retraso.
 
-Las políticas de consentimiento solo están disponibles para las organizaciones con el complemento Adobe Healthcare Shield o Privacy and Security Shield.
+* Las políticas de consentimiento solo están disponibles para las organizaciones con el complemento Adobe Healthcare Shield o Privacy and Security Shield.
 
 ## Usar la salida de la actividad de decisión de contenido {#use-content-decision-output}
 
@@ -152,7 +147,7 @@ Para aprovechar el resultado de una actividad de decisión de contenido, puede a
    >
    >El resultado de un nodo de decisión de contenido solo está disponible en **[!UICONTROL modo avanzado]**.
 
-1. Examine el esquema [ofertas del catálogo](../experience-decisioning/catalogs.md#access-catalog-schema) mediante la matriz `items`. Por ejemplo, use `itemName` de la primera oferta recuperada y `itemName` de la segunda oferta recuperada.
+1. Examine el esquema [offer catalog](../experience-decisioning/catalogs.md#access-catalog-schema) mediante la matriz `items`. Por ejemplo, use `itemName` de la primera oferta recuperada y `itemName` de la segunda oferta recuperada.
 
    ![Parámetros de solicitud de acción personalizada que incluyen la directiva de decisión](assets/journey-content-decision-custom-action-param-ex.png)
 
@@ -181,3 +176,60 @@ Una vez que el recorrido esté [activado](publish-journey.md):
 1. Solo los perfiles para los que se ha recuperado al menos una oferta continúan la recorrido (a través de la ruta Perfiles aptos ).
 
 1. Si se cumple la condición, las ofertas correspondientes se envían a un sistema externo a través de la acción personalizada.
+
+## Toma de decisiones de datos en eventos de paso {#decisioning-step-events}
+
+Cuando se ejecuta una actividad de decisión de contenido en un recorrido, los datos de toma de decisiones están disponibles en los eventos del paso de recorrido. Estos datos proporcionan información detallada sobre los elementos recuperados y cómo se tomaron las decisiones.
+
+Para cada actividad de decisión de contenido, el evento de paso incluye datos de toma de decisiones en el nivel superior (como **exdRequestID** y **propositionEventType**), y una matriz de **propositions**. Cada propuesta tiene un **id**, **scopeDetails** (que incluye el proveedor de decisiones, el ID de correlación y la directiva de decisión) y una matriz de **elementos**. Cada elemento contiene:
+
+* **id**: el identificador único del elemento
+* **nombre**: el nombre del elemento
+* **score**: la puntuación asignada al elemento
+* **itemSelection**: datos relacionados con cómo se tomó la decisión y cómo se recuperó el elemento, incluidos:
+   * **selectionDetail**: información acerca de la estrategia de selección usada
+   * **rankingDetail**: información sobre el proceso de clasificación (estrategia, algoritmo, paso, tipo de tráfico)
+
+**Ejemplo de datos de toma de decisiones en un evento de paso:**
+
+```json
+"decisioning": {
+  "exdRequestID": "8079d2bb-a8b2-4ecf-b9e7-32923dd6ad4e",
+  "propositions": [
+    {
+      "id": "f475cb21-0842-44da-b0eb-70766ba53464",
+      "scopeDetails": {
+        "decisionProvider": "EXD",
+        "correlationID": "6940d1c46208f3c00dae2ab94f3cd31c601461b47bf6d29ff8af0d0806a9c204",
+        "decisionPolicy": {
+          "id": "b913f724-3747-447b-a51e-8a2f9178f0db"
+        }
+      },
+      "items": [
+        {
+          "id": "dps:14c7468e7f6271ff8023748a1146d11f05f77b7fc1368081:1bebbf0b7e0f1374",
+          "name": "My item name",
+          "score": 0.93,
+          "itemSelection": {
+            "selectionDetail": {
+              "strategyID": "dps:selection-strategy:1bebbfc9245cb35e",
+              "strategyName": "My selection strategy",
+              "selectionType": "selectionStrategy",
+              "version": "latest"
+            },
+            "rankingDetail": {
+              "strategyID": "4FyRZTmpjrbzuL7rX7gvmu",
+              "algorithmID": "RANDOM",
+              "step": "aiModel",
+              "trafficType": "random"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "propositionEventType": {
+    "decision": 1
+  }
+}
+```
