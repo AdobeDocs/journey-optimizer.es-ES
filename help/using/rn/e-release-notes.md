@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c42aa41ed0d5d688840cf06512a04c22d74c828c
+source-git-commit: 3362242c13b404639d2a9b91742a5658cc1fb593
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1299'
 ht-degree: 34%
 
 ---
@@ -151,22 +151,6 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
-<th><strong>Uso de datos de Adobe Experience Platform en Decisioning</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>El uso de <strong>datos de Adobe Experience Platform</strong> en Decisioning ya está disponible para <strong>todos los canales</strong>. Anteriormente, esta capacidad se limitaba al correo electrónico y a acciones personalizadas en los recorridos.</p>
-<p>Esta capacidad ya está disponible para todos los entornos (disponibilidad general).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Canal de notificaciones push web</strong><br/></th>
 </tr>
 </thead>
@@ -219,6 +203,8 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Observabilidad del modelo de IA de clasificación de ofertas**: Journey Optimizer ahora le permite supervisar el estado, el estado de formación y el rendimiento de sus <strong>modelos de IA</strong> en Decisioning para que pueda comprobar el éxito de la formación, solucionar problemas de errores y comprender el impacto en sus resultados. Esta capacidad solo está disponible para modelos de optimización personalizados (no para la optimización automática).
 
+* **Usar datos de Adobe Experience Platform en la toma de decisiones** - El uso de <strong>datos de Adobe Experience Platform</strong> en la toma de decisiones ya está disponible para <strong>todos los canales</strong>. Anteriormente, esta capacidad se limitaba al correo electrónico y a acciones personalizadas en los recorridos.
+
 * **Vista previa de Experience Decisioning en el canal de experiencia basado en código**. Ahora puede <strong>obtener una vista previa de los elementos de decisión</strong> al configurar Experience Decisioning con el <strong>canal de experiencia basado en código</strong>. La vista previa está disponible directamente en la interfaz de creación antes de lanzarse.
 
 #### Recorridos
@@ -236,7 +222,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -414,7 +400,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
