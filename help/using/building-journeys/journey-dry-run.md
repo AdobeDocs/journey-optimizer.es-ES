@@ -149,4 +149,4 @@ Al analizar **métricas de informes de recorridos** mediante el servicio de cons
 
 Aprenda a secar los recorridos en este vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464685/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
