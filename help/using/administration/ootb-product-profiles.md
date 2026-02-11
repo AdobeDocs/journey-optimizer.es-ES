@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: permisos, creación, mensajes
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
+source-git-commit: a91d5c6a22f81411d7a9acbe2bbc8e86c1a4da13
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '2031'
 ht-degree: 7%
 
 ---
@@ -106,7 +106,7 @@ Esta función incluye los siguientes permisos:
 | Configuraciones de canal | <ul> <li>**[!DNL Manage alerts]**: habilitar/deshabilitar alertas para recorridos y derechos.</li> <li>**[!DNL Manage IP pools]**: leer, crear, editar y eliminar grupo de ip.</li> <li>**[!DNL Manage Landing page settings]**: crear, editar y eliminar subdominios de página de aterrizaje y ajustes preestablecidos de página de aterrizaje.</li> <li>**[!DNL Manage messages general settings]**: leer, crear, editar y eliminar la configuración general del mensaje.</li> <li>**[!DNL Manage messages presets]**: leer, crear, editar y eliminar contenido de personalización de marca.</li> <li>**[!DNL Manage PTR records]**: leer y editar registros PTR.</li> <li>**[!DNL Manage SMS settings]**: cree, edite y elimine las credenciales de la API y las configuraciones del canal SMS necesarias para habilitar el canal SMS.</li> <li>**[!DNL Manage subdomains delegation]**: leer, crear, editar y eliminar la delegación de subdominios.</li> <li>**[!DNL Manage suppression rules]**: acceder, leer, crear, editar y eliminar reglas de supresión.</li> <li>**[!DNL View PTR records]**: acceso de solo lectura a registros PTR.</li> <li>**[!DNL View suppression list]**: leer y exportar la lista de supresión local.</li> </ul> |
 | Gobernanza de datos | <ul> <li>**[!DNL Manage data usage policies]**: leer, crear, editar y eliminar directivas de uso de datos.</li> <li>**[!DNL Manage usage label]**: leer, crear y eliminar etiquetas de uso.</li> <li>**[!DNL View data usage policies]**: acceso de solo lectura a las directivas de uso de datos.</li> <li>**[!DNL View user activity log]**: acceso de solo lectura para ver los registros de auditoría registrados de las actividades de Experience Platform.</li> </ul> |
 | Gestión de decisiones | <ul> <li>**[!DNL Manage decisions]**: leer, crear, editar y eliminar decisiones.</li> <li>**[!DNL Manage ranking strategies]**: leer, crear, editar y eliminar estrategias de clasificación.</li> </ul> |
-| Recorridos | <ul> <li>**[!DNL Manage journeys]**: leer, crear, editar, pausar, detener y eliminar recorridos.</li> <li>**[!DNL Manage journeys events, data sources and actions]**: leer, crear, editar y eliminar eventos, orígenes o acciones.</li> <li>**[!DNL Publish journeys]**: publicar recorridos.</li> <li>**[!DNL View journeys report]**: leer y editar informe de recorridos.</li> </ul> |
+| Recorridos | <ul> <li>**[!DNL Manage journeys]**: leer, crear, editar, detener (activo, modo de prueba y ejecución en seco) y eliminar recorridos. </li> <li>**[!DNL Manage journeys events, data sources and actions]**: leer, crear, editar y eliminar eventos, orígenes o acciones.</li> <li>**[!DNL Publish journeys]**: publicar, iniciar modo de prueba, iniciar ejecución en seco, pausar y reanudar recorridos. </li> <li>**[!DNL View journeys report]**: leer y editar informe de recorridos.</li> </ul> |
 | Biblioteca de Journey Optimizer | <ul> <li>**[!DNL Manage Library Items]**: agregar y eliminar expresiones guardadas en la biblioteca [!DNL Journey Optimizer].</li> </ul> |
 
 ## [!DNL Journey Approver] {#journey-approver}
@@ -120,7 +120,7 @@ Esta función incluye los siguientes permisos:
 | Adobe Experience Platform | <ul><li>**[!DNL Manage merge policies]**: leer, crear, editar y eliminar directivas de combinación.</li><li>**[!DNL Manage profiles]**: leer, crear, editar y eliminar perfiles.</li><li>**[!DNL Manage segments]**: leer, crear, editar y eliminar definiciones de segmento.</li><li>**[!DNL View datasets]**: acceso de solo lectura a conjuntos de datos.</li><li>**[!DNL View schemas]**: acceso de solo lectura a esquemas.</li></ul> |
 | Configuraciones de canal | <ul><li>**[!DNL View channel configurations]**: acceso de solo lectura a las configuraciones de canal.</li></ul> |
 | Gestión de decisiones | <ul><li>**[!DNL Manage decisions]**: leer, crear, editar y eliminar entidades de toma de decisiones.</li><li>**[!DNL Manage ranking strategies]**: leer, crear, editar y eliminar informes personalizados y usar características de acción.</li></ul> |
-| Recorridos | <ul><li>**[!DNL Manage journeys]**: leer, crear, editar, pausar, detener y eliminar recorridos.</li><li>**[!DNL Publish journey]**: publicar recorridos.</li><li>**[!DNL View journeys events, data sources and actions]**: acceso de solo lectura a eventos de recorrido, acciones personalizadas de recorrido y orígenes de datos de recorrido.</li><li>**[!DNL View journeys report]**: leer, editar informes de recorrido.</li></ul> |
+| Recorridos | <ul><li>**[!DNL Manage journeys]**: leer, crear, editar, detener (activo, modo de prueba y ejecución en seco) y eliminar recorridos. </li><li>**[!DNL Publish journey]**: publicar, iniciar modo de prueba, iniciar ejecución en seco, pausar y reanudar recorridos. </li><li>**[!DNL View journeys events, data sources and actions]**: acceso de solo lectura a eventos de recorrido, acciones personalizadas de recorrido y orígenes de datos de recorrido.</li><li>**[!DNL View journeys report]**: leer, editar informes de recorrido.</li></ul> |
 
 ## [!DNL Journey Manager] {#journey-manager}
 
@@ -133,7 +133,7 @@ Esta función incluye los siguientes permisos:
 | Adobe Experience Platform | <ul><li>**[!DNL Manage merge policies]**: leer, crear, editar y eliminar directivas de combinación.</li><li>**[!DNL Manage profiles]**: leer, crear, editar y eliminar perfiles.</li><li> **[!DNL Manage segments]**: leer, crear, editar y eliminar definiciones de segmento.</li><li>**[!DNL View datasets]**: acceso de solo lectura a conjuntos de datos.</li><li>**[!DNL View schemas]**: acceso de solo lectura a esquemas.</li></ul> |
 | Configuraciones de canal | <ul><li>**[!DNL View channel configurations]**: acceso de solo lectura a las configuraciones de canal.</li></ul> |
 | Gestión de decisiones | <ul><li>**[!DNL Manage decisions]**: leer, crear, editar y eliminar entidades de toma de decisiones.</li><li>**[!DNL Manage ranking strategies]**: leer, crear, editar y eliminar informes personalizados y usar características de acción.</li></ul> |
-| Recorridos | <ul><li>**[!DNL Manage journeys]**: leer, crear, editar y eliminar recorridos.</li><li>**[!DNL View journeys events]**: acceso de solo lectura a eventos de recorrido, acciones personalizadas de recorrido y orígenes de datos de recorrido.</li><li>**[!DNL View journeys report]**: leer, editar informe de recorrido.</li></ul> |
+| Recorridos | <ul><li>**[!DNL Manage journeys]**: leer, crear, editar, detener (activo, modo de prueba y ejecución en seco) y eliminar recorridos.</li><li>**[!DNL View journeys events]**: acceso de solo lectura a eventos de recorrido, acciones personalizadas de recorrido y orígenes de datos de recorrido.</li><li>**[!DNL View journeys report]**: leer, editar informe de recorrido.</li></ul> |
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 
