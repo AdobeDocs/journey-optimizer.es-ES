@@ -5,9 +5,9 @@ title: Preguntas más frecuentes sobre campañas organizadas
 description: Preguntas frecuentes sobre las campañas orquestadas de Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1887'
 ht-degree: 14%
 
 ---
@@ -39,7 +39,7 @@ Las funcionalidades clave incluyen:
 
 * **Audiencias a petición**: Genere y perfeccione instantáneamente grupos de destino mediante consultas relacionales.
 * **Segmentación de varias entidades**: para crear audiencias precisas, conecte los datos del cliente con entidades relacionadas (por ejemplo, cuentas, compras o reservas).
-* **Visibilidad previa al envío**: vea los recuentos de audiencia precisos antes del inicio para optimizar el direccionamiento.
+* **Visibilidad previa al envío**: consulte las recuentos de público precisas antes del inicio para optimizar el direccionamiento.
 * **Flujos de trabajo de varios pasos**: ejecute campañas secuenciadas, como promociones de temporada, lanzamientos de productos u ofertas de fidelidad.
 
 **Prácticas recomendadas**
@@ -162,7 +162,7 @@ Puede crear campañas organizadas para enviar **correos electrónicos**, **SMS**
 
 +++ ¿Se pueden iniciar varias comunicaciones y diferentes canales dentro de la misma campaña orquestada?
 
-Sí, las campañas orquestadas admiten la orquestación entre canales. Puede combinar actividades de correo electrónico, SMS y notificaciones push en un lienzo de campaña de varios pasos para crear experiencias de cliente completas.
+Sí, las campañas orquestadas admiten la orquestación entre canales. Puede combinar actividades de correo electrónico, SMS, notificaciones push y correo directo en un lienzo de campaña de varios pasos para crear experiencias de cliente completas.
 
 **Más información**
 
@@ -195,7 +195,7 @@ No, el diseñador de contenido, incluido el Designer de correo electrónico, es 
 
 +++ ¿Cómo se conectan los distintos canales en las campañas orquestadas?
 
-El componente de canal y el tiempo de ejecución son comunes a todas las campañas de Journey Optimizer, pero los canales admitidos difieren. Las campañas organizadas admiten notificaciones push, de correo electrónico y SMS.
+El componente de canal y el tiempo de ejecución son comunes a todas las campañas de Journey Optimizer, pero los canales admitidos difieren. Las campañas organizadas admiten correo electrónico, SMS, notificaciones push y correo directo.
 
 **Más información**
 
@@ -207,7 +207,7 @@ El componente de canal y el tiempo de ejecución son comunes a todas las campañ
 
 +++ ¿Pueden las campañas organizadas conectarse con canales salientes (web, en la aplicación)?
 
-No, los canales entrantes como la web y la aplicación no son compatibles con las campañas orquestadas. Solo se admiten canales salientes (correo electrónico, SMS y notificaciones push).
+No, los canales entrantes como la web y la aplicación no son compatibles con las campañas orquestadas. Solo se admiten canales salientes (correo electrónico, SMS, notificaciones push y correo postal).
 
 **Más información**
 
@@ -242,7 +242,7 @@ En Campaign Orchestration, nos referimos a la segmentación ad hoc como &quot;Se
 
 * Use la segmentación ad hoc para **necesidades con distinción de tiempo** (por ejemplo, promociones flash).
 * Guarde y documente consultas útiles para que se puedan reutilizar en campañas futuras.
-* Valide el recuento de audiencias antes de la activación para evitar envíos insuficientes o excesivos.
+* Valide la recuento de público antes de la activación para evitar envíos insuficientes o excesivos.
 
 **Más información**
 

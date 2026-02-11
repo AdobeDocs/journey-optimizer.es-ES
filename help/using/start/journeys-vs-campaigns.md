@@ -9,13 +9,13 @@ level: Beginner
 keywords: recorrido, campaña, orquestado, comparación, elegir, decisión, flujo de trabajo, tiempo real, lote, orquestación, varios pasos, programado, activado por API, impulsado por evento
 hide: true
 hidefromtoc: true
-source-git-commit: c1efa56fc3f3c93bdc4b9c7a9f4e81b58cbcff72
+exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 3%
 
 ---
-
 
 # Recorridos frente a campañas: elija el método adecuado {#journeys-vs-campaigns}
 
@@ -25,7 +25,7 @@ Esta guía le ayuda a elegir entre **Recorridos**, **Campañas de acción**, **C
 
 ## Resumen de comparación rápida {#quick-overview}
 
-| Aproximación | Mejor para | Estilo de ejecución |
+| Enfoque | Mejor para | Estilo de ejecución |
 |----------|----------|-----------------|
 | **Recorridos** | Experiencias de cliente en tiempo real de varios pasos con lógica condicional | 1:1 orquestación: cada perfil a su propio ritmo |
 | **Campañas de acción** | Difusiones programadas o recurrentes a audiencias | Ejecución por lotes: la audiencia se procesa junta en el momento del envío |
@@ -207,7 +207,7 @@ Combina la complejidad del flujo de trabajo con la ejecución de campañas por l
 | Web | ✅ | ✅ | ❌ | ❌ |
 | Basado en código | ✅ | ✅ | ❌ | ❌ |
 | Tarjetas de contenido | ✅ | ✅ | ❌ | ❌ |
-| Correo directo | ✅ | ✅ | ❌ | ❌ |
+| Correo directo | ✅ | ✅ | ❌ | ✅ |
 
 ### Funciones avanzadas
 
@@ -280,4 +280,3 @@ Sí, las audiencias creadas en Adobe Experience Platform se pueden usar en los t
 * [Comparación de tipos de campaña](../campaigns/get-started-with-campaigns.md#campaign-types)
 * [PREGUNTAS FRECUENTES SOBRE RECORRIDO](../building-journeys/journey-faq.md)
 * [Preguntas frecuentes sobre campañas organizadas](../orchestrated/orchestrated-campaigns-faq.md)
-
