@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: bb5d69d748b7283297d19f43ab0fc54c46d5d303
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '802'
 ht-degree: 21%
 
 ---
@@ -84,6 +84,10 @@ Después de configurar las propiedades del fragmento, se abre Email Designer o e
 * Para los fragmentos de expresiones, aproveche el editor de personalización [!DNL Journey Optimizer] con todas sus capacidades de personalización y creación para generar el contenido del fragmento. [Más información](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
+
+  >[!NOTE]
+  >
+  >Los fragmentos de expresiones de tipo JSON se validan sintácticamente al guardarlos, y todos los errores se muestran como alertas de advertencia.
 
 Cuando el contenido esté listo, haz clic en el botón **[!UICONTROL Guardar]**.
 

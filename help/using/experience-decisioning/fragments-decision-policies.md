@@ -5,13 +5,13 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
-
 
 # Aprovechamiento de fragmentos en políticas de decisión {#fragments}
 
@@ -19,7 +19,7 @@ Si la política de decisión contiene elementos de decisión, incluidos fragment
 
 >[!AVAILABILITY]
 >
->Actualmente, esta funcionalidad solo está disponible para el canal de **experiencia basada en código** y para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.
+>Actualmente, esta funcionalidad solo está disponible para el canal **Experiencia basada en código**.
 
 Por ejemplo, supongamos que desea mostrar contenido diferente para varios modelos de dispositivos móviles. Asegúrese de agregar los fragmentos correspondientes a esos dispositivos al elemento de decisión que está utilizando en la directiva de decisión. [Más información](items.md#attributes).
 
@@ -93,6 +93,6 @@ Supongamos que desea utilizar la variable *sport* en el fragmento.
 
 * La validación del contenido del fragmento solo se produce durante la creación y publicación del fragmento.
 
-* En el caso de los fragmentos JSON, no se garantiza la validez del objeto JSON. Asegúrese de que el contenido del fragmento de expresión sea un JSON válido para que pueda utilizarse en elementos de decisión.
+* Para los fragmentos de expresiones de tipo JSON, el contenido se valida sintácticamente al guardar el fragmento. Los errores de validación se muestran como alertas.
 
 En tiempo de ejecución, se valida el contenido de la campaña (incluido el contenido de fragmento de los elementos de decisión). En caso de error de validación, la campaña no se procesará.

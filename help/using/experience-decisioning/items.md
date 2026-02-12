@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 71a5b2163500b26ef3ea61e55d18cad539bfeb7f
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2121'
 ht-degree: 15%
 
 ---
@@ -52,7 +52,7 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 
    >[!AVAILABILITY]
    >
-   >Actualmente, esta funcionalidad solo está disponible para el canal de experiencia basado en código y para un conjunto de organizaciones (disponibilidad limitada).
+   >Actualmente, esta funcionalidad solo está disponible para el canal de experiencia basado en código.
 
    En la sección **[!UICONTROL Fragmentos]**, seleccione los fragmentos publicados que desee usar y asígneles una clave de referencia. A continuación, puede aprovechar estos fragmentos en las políticas de decisión. [Descubra cómo](fragments-decision-policies.md)
 
@@ -78,8 +78,8 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 >abstract="De forma predeterminada, todos los perfiles podrán recibir el elemento de decisión, pero puede utilizar públicos o reglas para reservar el elemento únicamente a perfiles específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
