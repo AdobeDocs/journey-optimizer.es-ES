@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8c4c6212b16b411cd46450afb7e6a6515e972e13
+source-git-commit: e55cf2a7748567d79ba72c7eb8a512a4ed0e116d
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1457'
 ht-degree: 36%
 
 ---
@@ -89,21 +89,23 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Actividades de Mobile Live</strong><br/></th>
+<th><strong>Mobile Live Activities</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>Actividades en vivo</strong> proporciona actualizaciones en tiempo real y experiencias interactivas dentro de las aplicaciones móviles, lo que permite a los usuarios mantenerse informados sobre eventos o tareas en curso directamente en la pantalla de su dispositivo. Esta función mejora la participación al ofrecer información en directo, como el seguimiento del progreso, las actualizaciones de eventos o el contenido interactivo, sin que sea necesario que los usuarios abran la aplicación.</p>
-<p>Esta funcionalidad, que se publicó anteriormente en la versión beta, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p><strong>Live Activities</strong> provide real-time updates and interactive experiences within mobile apps, allowing users to stay informed about ongoing events or tasks directly on their device's screen. This feature enhances engagement by delivering live information, such as progress tracking, event updates, or interactive content, without requiring users to open the app.</p>
+<p>Previously released in beta, this capability is now available to all environments (General Availability).</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
