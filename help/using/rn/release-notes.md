@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7263e5ace72823ce7a3a184d2842f9bba495c068
+source-git-commit: 8c4c6212b16b411cd46450afb7e6a6515e972e13
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 31%
+source-wordcount: '1524'
+ht-degree: 36%
 
 ---
 
@@ -49,7 +49,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <p>Puede programar mensajes salientes de <strong>campañas</strong> o <strong>recorridos</strong> para que se entreguen en <strong>lotes</strong> controlados a lo largo del tiempo.</p>
 <p>El envío de ondas ofrece las siguientes ventajas:</p>
 <ul>
-<li>Mejor <strong>capacidad de entrega</strong>: la propagación envía con el tiempo para ayudar a mantener una sólida <strong>reputación de remitente</strong> y reducir el riesgo de ser marcado como correo no deseado.</li>
+<li>Mejor <strong>capacidad de entrega</strong>: la propagación envía con el tiempo para ayudar a mantener una sólida reputación de remitente y reducir el riesgo de ser marcado como correo no deseado.</li>
 <li><strong>Control de carga</strong>: evita sistemas descendentes abrumadores (por ejemplo, centros de llamadas o páginas de aterrizaje) al limitar la cantidad de mensajes que se emiten a la vez.</li>
 <li>Casos de uso de gran volumen y sensibles al tiempo: adecuados para audiencias grandes o cuando necesite controlar el tiempo (por ejemplo, capacidad del centro de llamadas, ampliación u ofertas con límite de tiempo).</li>
 </ul>
@@ -67,7 +67,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>Ahora puede usar <strong>fórmulas</strong> y <strong>modelos de IA</strong> para aumentar automáticamente <strong>las puntuaciones de recorrido</strong> según los atributos del perfil del cliente y los factores contextuales, asegurándose de que los clientes ingresen los recorridos más relevantes.</p>
+<p>Ahora puede usar <strong>fórmulas</strong> y <strong>modelos de IA</strong> para aumentar automáticamente las puntuaciones de prioridad de recorrido en función de los atributos del perfil del cliente y los factores contextuales, asegurándose de que los clientes ingresen los recorridos más relevantes.</p>
 <p>Esta funcionalidad solo está disponible para un conjunto de organizaciones (<strong>Disponibilidad limitada</strong>). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 </td>
 </tr>
@@ -83,7 +83,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una <strong>interfaz de lenguaje natural</strong>. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
+<p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 </td>
 </tr>
 </tbody>
@@ -98,7 +98,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p><strong>Actividades en vivo</strong> proporciona <strong>actualizaciones en tiempo real</strong> y experiencias interactivas dentro de las aplicaciones móviles, lo que permite a los usuarios mantenerse informados sobre eventos o tareas en curso directamente en la pantalla de su dispositivo. Esta función mejora la participación al ofrecer información en directo, como el seguimiento del progreso, las actualizaciones de eventos o el contenido interactivo, sin que sea necesario que los usuarios abran la aplicación.</p>
+<p><strong>Actividades en vivo</strong> proporciona actualizaciones en tiempo real y experiencias interactivas dentro de las aplicaciones móviles, lo que permite a los usuarios mantenerse informados sobre eventos o tareas en curso directamente en la pantalla de su dispositivo. Esta función mejora la participación al ofrecer información en directo, como el seguimiento del progreso, las actualizaciones de eventos o el contenido interactivo, sin que sea necesario que los usuarios abran la aplicación.</p>
 <p>Esta funcionalidad, que se publicó anteriormente en la versión beta, ya está disponible en todos los entornos (disponibilidad general).</p>
 </td>
 </tr>
@@ -114,7 +114,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer admite una nueva actividad <strong>Action</strong> genérica que permite configurar acciones únicas y <strong>grupos de acciones entrantes de varias acciones</strong>, lo que permite una configuración de acciones optimizada dentro del <strong>lienzo de recorrido</strong>. En particular, esta nueva función permite lo siguiente:</p>
+<p>Journey Optimizer admite una nueva actividad <strong>Action</strong> genérica que permite configurar tanto acciones únicas como grupos de acciones entrantes de varias acciones, lo que permite una configuración de acciones optimizada dentro del lienzo de recorrido. En particular, esta nueva función permite lo siguiente:</p>
 <ul>
 <li>Una configuración de acción nativa simplificada dentro del lienzo de recorrido.</li>
 <li>La capacidad para crear grupos de acciones entrantes de varias acciones.</li>
@@ -136,7 +136,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ahora admite <strong>notificaciones push web</strong>, lo que expande el canal push más allá del dispositivo móvil. Puede enviar notificaciones perfectamente a exploradores móviles y de escritorio, lo que permite llegar a los clientes directamente en sus dispositivos sin necesidad de una aplicación. Esta mejora le permite atraer a usuarios con mensajes personalizados y oportunos en tiempo real, aprovechando los mismos <strong>flujos de trabajo de creación</strong> y las <strong>funcionalidades de segmentación</strong> ya disponibles para notificaciones push móviles.</p>
+<p>Adobe Journey Optimizer ahora admite <strong>notificaciones push web</strong>, lo que expande el canal push más allá del dispositivo móvil. Puede enviar notificaciones perfectamente a exploradores móviles y de escritorio, lo que permite llegar a los clientes directamente en sus dispositivos sin necesidad de una aplicación. Esta mejora le permite atraer a los usuarios con mensajes personalizados y oportunos en tiempo real, aprovechando los mismos flujos de trabajo de creación y las mismas funcionalidades de segmentación ya disponibles para las notificaciones push móviles.</p>
 <p>Esta funcionalidad, que se publicó anteriormente en la versión beta, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Fecha de disponibilidad: sábado, 13 de febrero de 2026</p>
 </td>
@@ -153,7 +153,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>Ahora hay disponible una nueva actividad <strong>Content decision activity</strong> en el <strong>lienzo de recorrido</strong> para integrar <strong>ofertas personalizadas</strong> directamente en las recorridos de cliente. Esta actividad le permite entregar contenido basado en decisiones y hacer referencia a esas ofertas en todo el recorrido: en condiciones para crear ramas basadas en la idoneidad, en acciones personalizadas para pasar datos de ofertas a sistemas externos y en otras actividades para crear experiencias de cliente totalmente personalizadas.</p>
+<p>Ahora hay disponible una nueva <strong>actividad de decisión de contenido</strong> en el lienzo de recorrido para integrar ofertas personalizadas directamente en las recorridos de los clientes. Esta actividad le permite entregar contenido basado en decisiones y hacer referencia a esas ofertas en todo el recorrido: en condiciones para crear ramas basadas en la idoneidad, en acciones personalizadas para pasar datos de ofertas a sistemas externos y en otras actividades para crear experiencias de cliente totalmente personalizadas.</p>
 <p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/content-decision.md">documentación detallada</a>.</p>
@@ -230,38 +230,38 @@ A continuación, se describen las mejoras incluidas en esta versión.
 * **Uso de eventos de experiencia en expresiones de recorrido**: a partir del 1 de abril de 2026, el uso de atributos de eventos de experiencia en expresiones de recorrido dejará de ser compatible con las organizaciones que no hayan utilizado esta capacidad en los últimos 90 días. Esta capacidad ya no está disponible para las nuevas organizaciones de clientes desde el 8 de julio de 2025. Para ver alternativas, consulte [Búsqueda de eventos de experiencia en recorrido](../building-journeys/exp-event-lookup.md).
 
 
-* **Cambio del método de delegación de subdominios** - Ahora puede cambiar de un método de <strong>delegación de subdominios</strong> a otro. Esto le permite migrar dominios utilizando el modo <strong>CNAME delegation</strong> al método <strong>custom delegation</strong> para adherirse a las políticas de seguridad de su compañía.
+* **Cambio del método de delegación de subdominios**: ahora puede cambiar de un método de delegación de subdominios a otro. Esto le permite migrar dominios utilizando el modo de delegación CNAME al método de delegación personalizado para adherirse a las políticas de seguridad de su empresa.
 
   **Nota**: Esta funcionalidad solo está disponible para un conjunto de organizaciones (<strong>Disponibilidad limitada</strong>). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 
 #### Diseñador de correo electrónico
 
-* **Use un tema de marca para convertir una imagen en una plantilla de correo electrónico**: al convertir una imagen en una plantilla de correo electrónico en Journey Optimizer, ahora puede usar un <strong>tema</strong> como entrada para que el HTML generado siga sus <strong>parámetros de marca</strong>. El estilo, como el color de fondo, el color del botón, las fuentes, el interlineado, los márgenes y el relleno, se aplica automáticamente, lo que reduce el trabajo de diseño manual y proporciona una plantilla lista para usar con ediciones mínimas.
+* **Use un tema de marca para convertir una imagen en una plantilla de correo electrónico**: al convertir una imagen en una plantilla de correo electrónico en Journey Optimizer, ahora puede usar un tema como entrada para que el HTML generado siga los parámetros de su marca. El estilo, como el color de fondo, el color del botón, las fuentes, el interlineado, los márgenes y el relleno, se aplica automáticamente, lo que reduce el trabajo de diseño manual y proporciona una plantilla lista para usar con ediciones mínimas.
 
 
-* **Actualice las marcas con una nueva ficha de color** - las <strong>Directrices de marca</strong> le ayudarán a garantizar que su marca se presente de manera consistente en todos los puntos de contacto. La nueva <strong>sección Colores</strong> define los estándares para el sistema de colores de su marca y describe cómo se seleccionan, organizan y aplican los colores en todas las experiencias. Garantiza el uso consistente de los colores primarios, secundarios, acentuados y neutros para apoyar una identidad de marca coherente, accesible y reconocible.
+* **Actualice las marcas con una nueva pestaña de colores**: las directrices de marca garantizan que la marca se presente de manera coherente en todos los puntos de contacto. La nueva sección Colores define los estándares del sistema de colores de su marca, y describe cómo se seleccionan, organizan y aplican los colores en todas las experiencias. Garantiza el uso consistente de los colores primarios, secundarios, acentuados y neutros para apoyar una identidad de marca coherente, accesible y reconocible.
 
 
 #### IA
 
-* **Integración de modelos Firefly personalizados y modelos de generación de imágenes de terceros**: habilita la integración perfecta de <strong>modelos Firefly estándar y personalizados</strong>, junto con <strong>modelos de imágenes de terceros</strong> aprobados (por ejemplo, NanoBanana), para proporcionar mayor flexibilidad, control y alineación de marca al generar imágenes. Esto le permite seleccionar el mejor modelo para cada caso de uso: Firefly estándar para necesidades generales, Firefly personalizado para la generación sin marca o modelos de terceros aprobados para escenarios especializados o experimentales.
+* **Integración de modelos Firefly personalizados y modelos de generación de imágenes de terceros**: permita la integración perfecta de modelos Firefly estándar y personalizados, junto con modelos de imágenes de terceros aprobados (por ejemplo, NanoBanana), para proporcionar mayor flexibilidad, control y alineación de marca al generar imágenes. Esto le permite seleccionar el mejor modelo para cada caso de uso: Firefly estándar para necesidades generales, Firefly personalizado para la generación sin marca o modelos de terceros aprobados para escenarios especializados o experimentales.
 
 
 #### Decisiones sobre experiencias
 
-* **Compatibilidad de entrada de Edge con el uso de datos de Adobe Experience Platform en Decisioning**: la compatibilidad de decisioning con <strong>Experience Platform data lookup</strong> ahora incluye <strong>casos de uso de canales de entrada Edge</strong>. La funcionalidad permanece en Disponibilidad limitada; aún no se anuncia la disponibilidad general de la función de búsqueda de datos subyacente (dependencia de AEP/producto).
+* **Compatibilidad de entrada de Edge con el uso de datos de Adobe Experience Platform en Decisioning**. El uso de datos de Adobe Experience Platform en Decisioning ahora admite casos de uso de entrada perimetral, además de acciones personalizadas y de correo electrónico en recorrido.
 
   **Nota**: Esta funcionalidad solo está disponible para un conjunto de organizaciones (<strong>Disponibilidad limitada</strong>). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 
-* **Vista previa de Experience Decisioning en el canal de experiencia basado en código**: ahora puede obtener una vista previa de <strong>elementos de decisión</strong> al configurar <strong>Experience Decisioning</strong> con el canal <strong>Experiencia basada en código</strong>. La vista previa está disponible directamente en la interfaz de creación antes de lanzarse.
+* **Vista previa de Experience Decisioning en el canal de experiencia basado en código**: ahora puede obtener una vista previa de los elementos de decisión al configurar Experience Decisioning con el canal de experiencia basado en código. La vista previa está disponible directamente en la interfaz de creación antes de lanzarse.
 
 
-* **Observabilidad del modelo de IA de clasificación de ofertas**: Journey Optimizer ahora le permite supervisar el <strong>estado de la formación</strong>, el <strong>estado de la formación</strong> y el <strong>rendimiento</strong> de sus <strong>modelos de IA</strong> en la toma de decisiones, para que pueda comprobar el éxito de la formación, solucionar errores y comprender el impacto en sus resultados. Esta capacidad solo está disponible para modelos de optimización personalizados (no para la optimización automática).
+* **Observabilidad del modelo de IA de clasificación de ofertas**: Journey Optimizer ahora le permite supervisar el estado, el estado de formación y el rendimiento de sus modelos de IA en Decisioning, para que pueda verificar el éxito de la formación, solucionar errores y comprender el impacto en sus resultados. Esta capacidad solo está disponible para modelos de optimización personalizados (no para la optimización automática).
 
 
-* **Adjuntar fragmentos a elementos de decisión**: Journey Optimizer ahora permite adjuntar <strong>fragmentos</strong> a <strong>elementos de decisión</strong> que se pueden aprovechar en campañas de experiencia basadas en código mediante <strong>políticas de decisión</strong>.
+* **Adjuntar fragmentos a elementos de decisión**: Journey Optimizer ahora proporciona la capacidad de adjuntar fragmentos a elementos de decisión que se pueden aprovechar en campañas de experiencia basadas en código mediante políticas de decisión.
 
   **Nota**: Publicada anteriormente en Disponibilidad limitada, esta capacidad ya está disponible para todos los entornos (Disponibilidad general).
 
@@ -270,7 +270,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 #### Recorridos
 
-* **Varias acciones entrantes en recorrido**: para simplificar la orquestación de recorrido, ahora puede definir varias <strong>acciones entrantes</strong> en un solo recorrido. Esta funcionalidad, que antes estaba disponible en las campañas, le permite enviar varias <strong>experiencias basadas en código</strong>, <strong>mensajes en la aplicación</strong>, <strong>tarjetas de contenido</strong> o <strong>acciones web</strong> a diferentes ubicaciones al mismo tiempo, cada una de las cuales contiene contenido específico.
+* **Varias acciones entrantes en recorridos**: para simplificar la orquestación de recorrido, ahora puede definir varias acciones entrantes en un solo recorrido. Esta capacidad, que antes estaba disponible en las campañas de, le permite ofrecer varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web en diferentes ubicaciones al mismo tiempo, y cada acción contiene contenido específico.
 
   **Nota**: Publicada anteriormente en Disponibilidad limitada, esta capacidad ya está disponible para todos los entornos (Disponibilidad general).
 
