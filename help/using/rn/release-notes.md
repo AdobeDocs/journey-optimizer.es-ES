@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+source-git-commit: 7263e5ace72823ce7a3a184d2842f9bba495c068
 workflow-type: tm+mt
 source-wordcount: '1537'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -27,7 +27,7 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 
 [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
-## Notas de la versión de febrero de 2026 {#feb-26-01-rn}
+## Notas previas al lanzamiento de febrero de 2026 {#feb-26-01-rn}
 
 **Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad de la versión**. Los vínculos, las pantallas y la documentación actualizada se publican en las notas de la versión en la fecha de lanzamiento.
 
@@ -99,7 +99,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tr>
 <td>
 <p><strong>Actividades en vivo</strong> proporciona <strong>actualizaciones en tiempo real</strong> y experiencias interactivas dentro de las aplicaciones móviles, lo que permite a los usuarios mantenerse informados sobre eventos o tareas en curso directamente en la pantalla de su dispositivo. Esta función mejora la participación al ofrecer información en directo, como el seguimiento del progreso, las actualizaciones de eventos o el contenido interactivo, sin que sea necesario que los usuarios abran la aplicación.</p>
-<p>Esta funcionalidad, que ya se publicó en la versión beta, ya está disponible para todos los entornos (<strong>Disponibilidad general</strong>).</p>
+<p>Esta funcionalidad, que se publicó anteriormente en la versión beta, ya está disponible en todos los entornos (disponibilidad general).</p>
 </td>
 </tr>
 </tbody>
@@ -137,7 +137,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tr>
 <td>
 <p>Adobe Journey Optimizer ahora admite <strong>notificaciones push web</strong>, lo que expande el canal push más allá del dispositivo móvil. Puede enviar notificaciones perfectamente a exploradores móviles y de escritorio, lo que permite llegar a los clientes directamente en sus dispositivos sin necesidad de una aplicación. Esta mejora le permite atraer a usuarios con mensajes personalizados y oportunos en tiempo real, aprovechando los mismos <strong>flujos de trabajo de creación</strong> y las <strong>funcionalidades de segmentación</strong> ya disponibles para notificaciones push móviles.</p>
-<p>Esta funcionalidad, que ya se publicó en la versión beta, ya está disponible para todos los entornos (<strong>Disponibilidad general</strong>).</p>
+<p>Esta funcionalidad, que se publicó anteriormente en la versión beta, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Fecha de disponibilidad: sábado, 13 de febrero de 2026</p>
 </td>
 </tr>
@@ -154,7 +154,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tr>
 <td>
 <p>Ahora hay disponible una nueva actividad <strong>Content decision activity</strong> en el <strong>lienzo de recorrido</strong> para integrar <strong>ofertas personalizadas</strong> directamente en las recorridos de cliente. Esta actividad le permite entregar contenido basado en decisiones y hacer referencia a esas ofertas en todo el recorrido: en condiciones para crear ramas basadas en la idoneidad, en acciones personalizadas para pasar datos de ofertas a sistemas externos y en otras actividades para crear experiencias de cliente totalmente personalizadas.</p>
-<p>Publicada anteriormente en Disponibilidad limitada, esta funcionalidad ya está disponible para todos los entornos (<strong>Disponibilidad general</strong>).</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/content-decision.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: jueves, 11 de febrero de 2026</p>
@@ -196,7 +196,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tr>
 <td>
 <p>Obtenga información más detallada de insight sobre el estado y el rendimiento de sus <strong>extremos de acción personalizados</strong> con un nuevo <strong>tablero de supervisión</strong> y <strong>datos de evento de paso de recorrido</strong> enriquecidos. Rastree las llamadas, los errores, el rendimiento, los tiempos de respuesta y los tiempos de espera de cola correctos para comprender rápidamente cuándo, dónde y por qué se producen anomalías.</p>
-<p>Publicada anteriormente en Disponibilidad limitada, esta funcionalidad ya está disponible para todos los entornos (<strong>Disponibilidad general</strong>).</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Para obtener más información, consulte la <a href="../action/reporting.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 3 de febrero de 2026</p>
 </td>
