@@ -59,7 +59,7 @@ Puede comenzar la resolución de problemas con las preguntas siguientes:
 
 * **Tipos de datos de esquema y condición de evento**: asegúrese de que los tipos de datos utilizados en su condición de evento (regla) coincidan con el esquema de evento. Los tipos no coincidentes (por ejemplo, cadena frente a entero) hacen que la evaluación de reglas falle y que se pierdan eventos. Ver [Verificar identidad del evento](#verify-event-identity-and-rule-data-types).
 
->>
+&#x200B;>>
 **Para recorridos de calificación de audiencia con audiencias de streaming**: Si usa una actividad de calificación de audiencia como punto de entrada de recorrido, tenga en cuenta que no todos los perfiles aptos para la audiencia entrarán necesariamente en la recorrido debido a factores de tiempo, salidas rápidas de la audiencia o si los perfiles ya estaban en la audiencia antes de la publicación. Más información sobre [consideraciones de tiempo para la calificación de audiencias de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ### Verificar identidad del evento {#verify-event-identity-and-rule-data-types}
