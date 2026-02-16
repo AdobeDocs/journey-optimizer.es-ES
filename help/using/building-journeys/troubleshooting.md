@@ -10,10 +10,10 @@ level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 0b003420fd0bf466f81f5377ef58f17695283259
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 38%
+source-wordcount: '503'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 38%
 
 En esta sección, aprenderá a solucionar problemas de recorridos antes de realizar pruebas o publicar. Todas las comprobaciones que se indican a continuación se pueden realizar cuando el recorrido está en modo de prueba o cuando el recorrido está activo. La recomendación es realizar todas las comprobaciones siguientes en el modo de prueba y luego proceder a la publicación. Obtenga más información acerca del modo de prueba en [esta página](../building-journeys/testing-the-journey.md).
 
-Obtenga información sobre cómo solucionar problemas de eventos de recorrido, comprobar si los perfiles ingresaron al recorrido, cómo navegan por él y si los mensajes se envían [en esta página](troubleshooting-execution.md).
+Obtenga información sobre cómo solucionar problemas de eventos de recorrido, comprobar si los perfiles ingresaron al recorrido, cómo navegan por él y si los mensajes se envían [en esta página](troubleshooting-execution.md). Si ningún perfil entra en su recorrido basado en eventos a pesar de los eventos que se están ingiriendo, asegúrese de que los tipos de datos de condición de evento [coincidan con el esquema de evento](troubleshooting-execution.md#verify-event-identity-and-rule-data-types).
 
 Si usa acciones entrantes, aprenda a solucionarlas [en esta página](troubleshooting-inbound.md).
 
