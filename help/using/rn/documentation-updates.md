@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8ced9477edf8a7129e974d007755e132f3079943
+source-git-commit: 10b0c74cec659242e088ae1a50d4db99d40e30fb
 workflow-type: tm+mt
-source-wordcount: '5016'
-ht-degree: 94%
+source-wordcount: '5312'
+ht-degree: 90%
 
 ---
 
@@ -21,19 +21,43 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## Febrero de 2026 {#february-2026}
 
+* La página Integración de sistemas externos se ha actualizado con vínculos a fuentes de datos personalizadas y acciones personalizadas, y aclara que el proxy de salida proporciona una IP estática para llamadas salientes de **acciones personalizadas** a sus sistemas externos. [Más información](../configuration/external-systems.md)
+
+* Se ha aclarado la Recorrido de la ejecución en seco: los atributos de evento de paso `inDryRun` y `dryRunID` ahora documentan que devuelven `true`/ID de instancia cuando se encuentran en el modo de ejecución en seco y `null` para recorridos de prueba o activos. Las directrices para excluir los eventos de paso de ejecución en seco en las consultas de creación de informes se han actualizado en consecuencia. [Más información](../building-journeys/journey-dry-run.md)
+
+* **Web push** ya está disponible de forma general. La documentación de las notificaciones push se ha reestructurado y actualizado en consecuencia (introducción, diseño, envío, creación). [Más información](../push/get-started-push.md)
+
+* La página de configuración de Web push ya está disponible en la documentación. [Más información](../push/push-configuration-web.md)
+
+* Se ha actualizado la documentación sobre el uso de fragmentos en Decisioning: se han añadido notas en las secciones Fragmentos y Decisioning, y se ha actualizado la página Fragmentos en políticas de decisión. [Más información](../experience-decisioning/fragments-decision-policies.md)
+
+* Se ha actualizado la documentación del gancho web SMS: se ha eliminado el contenido del gancho web Twilio. [Más información](../sms/sms-webhook.md)
+
+* Se ha actualizado la documentación de la API de migración de Decisioning. [Más información](../experience-decisioning/decisioning-migration-api.md)
+
+* La actividad **Decisión de contenido** ya está disponible de forma general. La página de actividad de Decisión de contenido se ha actualizado con una sección sobre Datos de toma de decisiones disponibles en eventos de paso. [Más información](../building-journeys/content-decision.md)
+
+* Se han añadido vínculos a la documentación de la API de desafío de fidelidad a la sección Retos de fidelidad (introducción, creación de desafíos, creación de tareas, acceso a desafíos de fidelidad). [Más información](../loyalty-challenges/get-started.md)
+
+* Se ha corregido la información de canales admitidos en la documentación del asistente para la creación de campañas. Las páginas de preguntas frecuentes sobre Introducción a canales y campañas organizadas se han actualizado en consecuencia. [Más información](../campaigns/get-started-with-campaigns.md)
+
+* Se ha corregido la documentación de permisos con respecto a los permisos de **Administración de Recorrido** y **Aprobar**. [Más información](../administration/ootb-permissions.md)
+
+* La documentación de integraciones de AEM (Adobe Experience Manager) se ha actualizado con una nomenclatura revisada (fragmentos de contenido dinámico de AEM y AEM). [Más información](../integrations/aem-fragments.md)
+
 * Se ha agregado un nuevo motivo de exclusión a la lista de exclusiones: **UnsubscribeLinkNotValid** (código de error 050081). Esta exclusión se genera cuando la longitud del asunto de mailTo de cancelación de suscripción a una lista es mayor que el límite RFC de 998 caracteres. [Más información](../reports/exclusion-list.md)
 
 * La documentación de la función de ayuda formatDate se ha mejorado con una nota que indica que la función requiere un tipo de campo de fecha y hora (no una cadena) y con varios ejemplos: formato de un campo de fecha y hora, conversión de una cadena a fecha primero, fecha completa con nombre de día, fecha dinámica desde la hora del sistema y formato de día de la semana, incluido el resultado en minúsculas. [Más información](../personalization/functions/dates.md#format-date)
 
 * La documentación de correo electrónico de la versión de texto se ha mejorado con una guía completa de casos de uso, que incluye criterios de decisión sobre cuándo utilizar texto sin formato personalizado en comparación con la sincronización automática, ejemplos prácticos con escenarios reales y una sección de preguntas frecuentes con preguntas comunes. [Más información](../email/text-version-email.md#when-to-use)
 
-* La documentación de los temas de Designer de correo electrónico se ha actualizado con información sobre las limitaciones de compatibilidad con fuentes web y la importancia de las fuentes de reserva. [Más información](../email/apply-email-themes.md#themes-guardrails)
-
 * Se ha añadido una limitación a la documentación del asistente de Metadatos de ejecución para aclarar que los metadatos no se capturan para los perfiles excluidos de la acción. [Más información](../personalization/functions/helpers.md#execution-metadata)
 
 * La documentación de ejemplos de implementación basada en código se ha actualizado para incluir el campo de tokens en propositionAction para un seguimiento y una atribución precisos en Decisioning. [Más información](../code-based/code-based-implementation-samples.md#client-side-how)
 
 * Se ha añadido una nota a la documentación de seguimiento de URL y cancelación de suscripción de lista para aclarar que el orden de los parámetros de seguimiento de URL anexados a las URL es aleatorio y no se puede controlar. [Más información](../email/url-tracking.md)
+
+* La documentación de los temas de Designer de correo electrónico se ha actualizado con información sobre las limitaciones de compatibilidad con fuentes web y la importancia de las fuentes de reserva. [Más información](../email/apply-email-themes.md#themes-guardrails)
 
 ## Enero de 2026 {#january-2026}
 
@@ -479,7 +503,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -509,7 +533,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=es){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -584,7 +608,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -712,7 +736,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
