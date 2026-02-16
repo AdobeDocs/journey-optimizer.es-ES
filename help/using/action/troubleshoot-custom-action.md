@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 70cac01cf79d7de66667e6fd786caf9df5499dd7
+source-git-commit: bae446ea38a0cb97487201f7dcf4df751578ad0a
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 2%
+source-wordcount: '1041'
+ht-degree: 1%
 
 ---
 
@@ -85,7 +85,7 @@ Como administrador de Journey Optimizer, también puede utilizar herramientas ex
 
 * Esta capacidad de prueba en el producto elimina la necesidad de copiar manualmente los detalles de configuración entre las herramientas, lo que reduce el riesgo de errores.
 
-## Solución de problemas {#troubleshoot-custom-action-check}
+## Resolución de problemas {#troubleshoot-custom-action-check}
 
 Si la solicitud falla, puede comprobar lo siguiente:
 
@@ -93,6 +93,20 @@ Si la solicitud falla, puede comprobar lo siguiente:
 * El método de solicitud (GET frente a POST) y la carga útil correspondiente.
 * El extremo y los encabezados de la API definidos en la acción personalizada.
 * Utilice los datos de respuesta para identificar posibles errores de configuración.
+
+## Gestión de eventos de descarte y tiempos de espera inactivos {#handling-discard-events-and-idle-timeouts}
+
+Cuando una acción personalizada en un recorrido genere un déclencheur de un evento que está destinado a iniciar un **segundo recorrido**, asegúrese de que el segundo recorrido esté en un estado válido y de que se reconozca el evento. Si el evento no cumple las condiciones de entrada del segundo recorrido, se puede **descartar** y aparecer en registros con códigos como `notSuitableInitialEvent`. Los tiempos de espera de inactividad pueden producirse si el segundo recorrido no está listo, lo que provoca la eliminación de eventos en los registros.
+
+**Causas comunes:**
+
+* **No se cumplió la calificación del evento** - El segundo recorrido usa un evento basado en reglas con una condición de calificación (por ejemplo, un campo obligatorio no debe estar vacío, como `isNotEmpty` en un campo específico). Si la carga útil de evento no cumple esa condición (por ejemplo, el campo está vacío o falta), el evento se **recibe pero se descarta** y no se activa el segundo recorrido. Este es el comportamiento esperado; la documentación y los registros confirman que si no se cumple la condición de calificación, el evento se descarta y el recorrido no se activa para ese perfil. Compruebe que la carga útil enviada por la acción personalizada incluye todos los campos y valores requeridos por la configuración de evento del segundo recorrido. Aprenda a [configurar eventos basados en reglas](../event/about-creating.md) y a [solucionar problemas de recepción de eventos](../building-journeys/troubleshooting-execution.md#checking-if-people-enter-the-journey) en la ejecución del recorrido.
+
+* **El segundo recorrido no está listo**. Puede haber tiempos de espera inactivos si el segundo recorrido aún no está activo (por ejemplo, no está en modo de prueba o no está activo) o si hay un intervalo de tiempo entre la activación de la acción personalizada y el segundo recorrido que está listo para recibir. Asegúrese de que el recorrido de destinatario se publique o esté en modo de prueba antes de activar la acción personalizada.
+
+* **Diagnóstico de eventos de descarte**: si ve eventos de descarte en los registros, compruebe los registros de recorrido y los seguimientos de Splunk para confirmar si el evento se recibió pero se descartó debido a la calificación (la carga útil no cumplía la regla) o al tiempo. Asegúrese de que la fecha de inicio y la configuración del segundo recorrido sean correctas y de que el recorrido se encuentre dentro de su ventana de fecha activa.
+
+Para evitar descartar eventos al encadenar recorridos mediante acciones personalizadas, valide la carga útil de evento con la regla de evento del segundo recorrido y confirme que el recorrido de destino está activo o en prueba y dentro de su ventana de fecha activa.
 
 ## Recursos adicionales
 
