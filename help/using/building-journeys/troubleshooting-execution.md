@@ -10,10 +10,10 @@ level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: dd8fd1099344257a72e9f7f18ef433d35def6689
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 16%
+source-wordcount: '1754'
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ El punto de partida de un recorrido es siempre un evento. Puede hacer pruebas co
 
 Puede comprobar si la llamada API que envía a través de estas herramientas se envía correctamente o no. Si vuelve a recibir un error, significa que la llamada tiene un problema. Vuelva a comprobar la carga útil, el encabezado (y especialmente el ID de organización) y la dirección URL de destino. Puede preguntar a su administrador cuál es la dirección URL correcta para visitar.
 
-Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de [!DNL Adobe Experience Platform]. Como resultado, en caso de problemas relacionados con el evento, puede consultar [[!DNL Adobe Experience Platform] documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=es){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
+Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de [!DNL Adobe Experience Platform]. Como resultado, en caso de problemas relacionados con el evento, puede consultar [[!DNL Adobe Experience Platform] documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
 
 Si el recorrido no puede habilitar el modo de prueba con el error `ERR_MODEL_RULES_16`, asegúrese de que el evento usado incluya un [área de nombres de identidad](../audience/get-started-identity.md) al usar una acción de canal.
 
@@ -57,8 +57,16 @@ Puede comenzar la resolución de problemas con las preguntas siguientes:
   Content-type - application/json
   ```
 
-&#x200B;>>
+* **Tipos de datos de esquema y condición de evento**: asegúrese de que los tipos de datos utilizados en su condición de evento (regla) coincidan con el esquema de evento. Los tipos no coincidentes (por ejemplo, cadena frente a entero) hacen que la evaluación de reglas falle y que se pierdan eventos. Ver [Verificar identidad del evento](#verify-event-identity-and-rule-data-types).
+
+>>
 **Para recorridos de calificación de audiencia con audiencias de streaming**: Si usa una actividad de calificación de audiencia como punto de entrada de recorrido, tenga en cuenta que no todos los perfiles aptos para la audiencia entrarán necesariamente en la recorrido debido a factores de tiempo, salidas rápidas de la audiencia o si los perfiles ya estaban en la audiencia antes de la publicación. Más información sobre [consideraciones de tiempo para la calificación de audiencias de streaming](audience-qualification-events.md#streaming-entry-caveats).
+
+### Verificar identidad del evento {#verify-event-identity-and-rule-data-types}
+
+Al configurar un recorrido basado en eventos, confirme que el campo de identidad de la carga útil coincide con el área de nombres [seleccionado en el evento](../event/about-creating.md#select-the-namespace). Si el evento incluye campos para la coincidencia de perfiles, compruebe que **mayúsculas y minúsculas** y **tipo de datos** en la condición de evento coincidan exactamente con los datos de entrada. Por ejemplo, si el esquema de eventos define `roStatus` como una cadena, la regla de recorrido también debe evaluarla como una cadena. Los tipos de datos no coincidentes (por ejemplo, cadena frente a entero) hacen que la evaluación de reglas falle y que se eliminen eventos válidos.
+
+Para validar la condición de evento en [!DNL Journey Optimizer], utilice la vista previa de carga útil en la configuración de evento y asegúrese de que los tipos y valores de la regla coinciden con la estructura de carga útil. Obtenga información sobre cómo [previsualizar la carga útil](../event/about-creating.md#preview-the-payload) y [configurar eventos basados en reglas](../event/about-creating.md).
 
 ## Solución de problemas de transiciones del modo de prueba {#troubleshooting-test-transitions}
 
