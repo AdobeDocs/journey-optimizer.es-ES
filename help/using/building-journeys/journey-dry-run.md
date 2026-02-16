@@ -9,9 +9,9 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1143'
 ht-degree: 8%
 
 ---
@@ -137,16 +137,16 @@ Recorrido La ejecución en seco genera **stepEvents**. Estos stepEvents tienen u
 
 ![atributos de esquema de ejecución en seco de Recorrido](assets/dry-run-attributes.png)
 
-* `_experience.journeyOrchestration.stepEvents.inDryRun` devuelve `true` si la ejecución en seco está activada y `false` en caso contrario
-* `_experience.journeyOrchestration.stepEvents.dryRunID` devuelve el ID de una instancia de ejecución en seco
+* `_experience.journeyOrchestration.stepEvents.inDryRun` devuelve `true` cuando el recorrido está en modo de ejecución en seco y `null` para recorridos de prueba o activos (ejecución en seco).
+* `_experience.journeyOrchestration.stepEvents.dryRunID` devuelve el identificador de la instancia de ejecución en seco cuando se encuentra en modo de ejecución en seco; para recorridos de prueba o en directo, es `null`.
 
 
 Si exporta datos stepEvent a **sistemas externos**, puede filtrar las ejecuciones en seco utilizando el indicador `inDryRun`.
 
-Al analizar **métricas de informes de recorridos** mediante el servicio de consultas [!DNL Adobe Experience Platform], se deben excluir los eventos de paso generados por la ejecución en seco. Para ello, establezca el indicador `inDryRun` en `false`.
+Al analizar **métricas de informes de recorridos** mediante el servicio de consultas [!DNL Adobe Experience Platform], se deben excluir los eventos de paso generados por la ejecución en seco. Para ello, excluya los eventos de paso donde `inDryRun` es `true` (es decir, incluya solo eventos donde `inDryRun` es `null` o `false`).
 
 ## Vídeo práctico {#dry-run-video}
 
 Aprenda a secar los recorridos en este vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464685/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
