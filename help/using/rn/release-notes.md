@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9dbe9c4f6073f68bc7d01b2a72dc89c927870dcf
+source-git-commit: d3e361c6b7a91a1fd3b72d12a8aa6fefc295837a
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 39%
+source-wordcount: '1549'
+ht-degree: 41%
 
 ---
 
@@ -46,11 +46,11 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>Puede programar mensajes salientes de <strong>campañas</strong> o <strong>recorridos</strong> para que se entreguen en <strong>lotes</strong> controlados a lo largo del tiempo.</p>
+<p>Puede programar mensajes salientes de campañas o recorridos para que se entreguen en lotes controlados a lo largo del tiempo.</p>
 <p>El envío de ondas ofrece las siguientes ventajas:</p>
 <ul>
-<li>Mejor <strong>capacidad de entrega</strong>: la propagación envía con el tiempo para ayudar a mantener una sólida reputación de remitente y reducir el riesgo de ser marcado como correo no deseado.</li>
-<li><strong>Control de carga</strong>: evita sistemas descendentes abrumadores (por ejemplo, centros de llamadas o páginas de aterrizaje) al limitar la cantidad de mensajes que se emiten a la vez.</li>
+<li>Mejor capacidad de entrega: la propagación envía con el tiempo para ayudar a mantener una sólida reputación del remitente y reducir el riesgo de ser marcado como correo no deseado.</li>
+<li>Control de carga: evite saturar los sistemas descendentes (por ejemplo, centros de llamadas, páginas de aterrizaje) limitando la cantidad de mensajes que se emiten a la vez.</li>
 <li>Casos de uso de gran volumen y sensibles al tiempo: adecuados para audiencias grandes o cuando necesite controlar el tiempo (por ejemplo, capacidad del centro de llamadas, ampliación u ofertas con límite de tiempo).</li>
 </ul>
 </td>
@@ -67,7 +67,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>Ahora puede usar <strong>fórmulas</strong> y <strong>modelos de IA</strong> para aumentar automáticamente las puntuaciones de prioridad de recorrido en función de los atributos del perfil del cliente y los factores contextuales, asegurándose de que los clientes ingresen los recorridos más relevantes.</p>
+<p>Ahora puede usar <strong>fórmulas de clasificación</strong> <!--and <strong>AI models</strong> -->para aumentar automáticamente las puntuaciones de recorrido según los atributos de perfil del cliente y los factores contextuales, asegurándose de que los clientes ingresen los recorridos más relevantes.</p>
 <p>Esta funcionalidad solo está disponible para un conjunto de organizaciones (<strong>Disponibilidad limitada</strong>). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 </td>
 </tr>
@@ -110,6 +110,22 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
+<th><strong>Monitorización de modelos de IA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer ahora le permite monitorizar el estado, el estado de formación y el rendimiento de sus modelos de IA en Decisioning, para que pueda verificar el éxito de la formación, solucionar errores y comprender el impacto en sus resultados.</p>
+<p>Actualmente, esta funcionalidad solo está disponible para <strong>modelos de optimización personalizada</strong> (no para la optimización automática).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Actividad de acción en recorridos</strong><br/></th>
 </tr>
 </thead>
@@ -120,8 +136,8 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <ul>
 <li>Una configuración de acción nativa simplificada dentro del lienzo de recorrido.</li>
 <li>La capacidad para crear grupos de acciones entrantes de varias acciones.</li>
-<li>La capacidad de agregar <strong>optimización</strong> a cualquier acción de canal integrada.</li>
-<li>Posibilidad de agregar las opciones <strong>experimentación</strong> y <strong>multilingüe</strong> a cualquier acción.</li>
+<li>Capacidad de añadir optimización a cualquier acción de canal integrada.</li>
+<li>La capacidad de añadir opciones de experimentación y multilingüe a cualquier acción.</li>
 </ul>
 <p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 </td>
@@ -193,11 +209,11 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>Las <strong>API de herramientas de migración</strong> ya están disponibles para migrar mediante programación las entidades de <strong>Administración de decisiones</strong> a <strong>Toma de decisiones</strong>, que incluyen:</p>
+<p>Las API de herramientas de migración ya están disponibles para migrar mediante programación las entidades de <strong>Administración de decisiones</strong> a <strong>Toma de decisiones</strong>, que incluyen:</p>
 <ul>
-<li>Ámbitos de migración flexibles (<strong>espacio aislado</strong>, <strong>oferta</strong> o nivel de <strong>decisión</strong>)</li>
-<li>Validación y análisis de dependencia <strong>automatizados</strong></li>
-<li><strong>Soporte de reversión</strong> para migraciones completadas</li>
+<li>Ámbitos de migración flexibles (zona protegida, nivel de oferta o de decisión)</li>
+<li>Análisis y validación de dependencias automatizadas</li>
+<li>Compatibilidad con reversiones para migraciones completadas</li>
 <li>Informes de migración detallados con asignaciones de objetos</li>
 </ul>
 <p>Para obtener más información, consulte la <a href="../experience-decisioning/decisioning-migration-api.md">documentación detallada</a>.</p>
@@ -277,9 +293,6 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 
 * **Vista previa de Experience Decisioning en el canal de experiencia basado en código**: ahora puede obtener una vista previa de los elementos de decisión al configurar Experience Decisioning con el canal de experiencia basado en código. La vista previa está disponible directamente en la interfaz de creación antes de lanzarse.
-
-
-* **Observabilidad del modelo de IA de clasificación de ofertas**: Journey Optimizer ahora le permite supervisar el estado, el estado de formación y el rendimiento de sus modelos de IA en Decisioning, para que pueda verificar el éxito de la formación, solucionar errores y comprender el impacto en sus resultados. Esta capacidad solo está disponible para modelos de optimización personalizados (no para la optimización automática).
 
 
 * **Adjuntar fragmentos a elementos de decisión**: Journey Optimizer ahora proporciona la capacidad de adjuntar fragmentos a elementos de decisión que se pueden aprovechar en campañas de experiencia basadas en código mediante políticas de decisión.
