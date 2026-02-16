@@ -2,26 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 'Recorridos frente a campañas: elija el enfoque adecuado'
-description: Compare recorridos, campañas y campañas orquestadas para elegir el enfoque adecuado para sus necesidades de marketing en Adobe Journey Optimizer
+description: Compare Recorridos, Campañas de acción, Campañas activadas por API y Campañas orquestadas para elegir el enfoque adecuado para sus necesidades de marketing en Adobe Journey Optimizer.
 feature: Journeys, Campaigns, Get Started, Overview
+topic: Content Management
 role: User
 level: Beginner
 keywords: recorrido, campaña, orquestado, comparación, elegir, decisión, flujo de trabajo, tiempo real, lote, orquestación, varios pasos, programado, activado por API, impulsado por evento
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: 4cf2b850561ef99dc8dc8300c41eeedd0cecfe32
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1602'
 ht-degree: 3%
 
 ---
 
 # Recorridos frente a campañas: elija el método adecuado {#journeys-vs-campaigns}
 
-Adobe Journey Optimizer ofrece tres poderosos enfoques para llegar a sus clientes y atraerlos. Es fundamental saber cuándo usar cada una de ellas para crear experiencias de marketing eficaces.
+[!DNL Adobe Journey Optimizer] ofrece cuatro maneras principales de llegar a sus clientes y lograr su participación: **Recorridos**, **Campañas de acción**, **Campañas activadas por API** y **Campañas orquestadas**. Elegir el adecuado depende de si necesita orquestación de 1:1 en tiempo real, difusiones programadas, mensajes impulsados por eventos o flujos de trabajo por lotes complejos.
 
-Esta guía le ayuda a elegir entre **Recorridos**, **Campañas de acción**, **Campañas activadas por API** y **Campañas orquestadas** según sus necesidades de marketing específicas.
+Esta guía le ayuda a elegir según el estilo de ejecución, las necesidades de datos y el caso de uso, con una comparación rápida, un árbol de decisiones y ejemplos concretos.
 
 ## Resumen de comparación rápida {#quick-overview}
 
@@ -31,6 +32,10 @@ Esta guía le ayuda a elegir entre **Recorridos**, **Campañas de acción**, **C
 | **Campañas de acción** | Difusiones programadas o recurrentes a audiencias | Ejecución por lotes: la audiencia se procesa junta en el momento del envío |
 | **Campañas activadas por API** | Mensajes transaccionales o impulsados por eventos de sistemas externos | Ejecución bajo demanda: activada por una llamada de API con carga útil |
 | **Campañas orquestadas** | Flujos de trabajo por lotes complejos con segmentación de varias entidades | Lienzo por lotes: todos los perfiles procesados juntos |
+
+>[!TIP]
+>
+>**Regla general rápida:** ¿Necesita que cada cliente se mueva a su propio ritmo con lógica en tiempo real? Usar **Recorridos**. ¿Desea enviar un mensaje a una audiencia según una programación? Usar **Campañas de acción**. ¿Se activa desde un sistema externo a través de una API? Usar **campañas activadas por API**. ¿Necesita datos de varias entidades, recuentos exactos o un lienzo por lotes? Usar **campañas orquestadas**.
 
 ## Comparación detallada {#detailed-comparison}
 
@@ -55,7 +60,7 @@ Utilice esta tabla completa para comprender las diferencias clave:
 
 ## Guía de decisión {#decision-guide}
 
-Siga este árbol de decisión para elegir el enfoque correcto:
+Siga este árbol de decisión para elegir el enfoque correcto. Muchas marcas utilizan más de un tipo; elija el que mejor se adapte a cada caso de uso.
 
 ### Paso 1: ¿Cuál es su requisito de ejecución?
 
@@ -88,14 +93,14 @@ Siga este árbol de decisión para elegir el enfoque correcto:
 | Su necesidad | Enfoque recomendado | Por qué |
 |-----------|---------------------|-----|
 | Bienvenido a nuevos clientes con incorporación de varios pasos | Recorridos | Entrada en tiempo real, varios puntos de contacto, rutas condicionales |
-| Enviar newsletter mensual a los suscriptores | Campaña de acción | Mensaje programado simple a la audiencia |
+| Enviar newsletter mensual a los suscriptores | Campañas de acción | Mensaje programado simple a la audiencia |
 | Abandono del carro de compras con secuencia de recordatorio | Recorridos | Déclencheur en tiempo real, tiempos de espera, seguimiento condicional |
-| Anuncio promocional para todos los clientes | Campaña de acción | Mensaje único, envío inmediato |
+| Anuncio promocional para todos los clientes | Campañas de acción | Mensaje único, envío inmediato |
 | Volver a atraer a usuarios inactivos según su comportamiento | Recorridos | Activado por calificación de audiencia, ruta personalizada |
 | Venta Flash activada por evento empresarial | Recorridos (evento empresarial) | Déclencheur en tiempo real que afectan a varios clientes |
-| Promoción de temporada con integración del catálogo de productos | Campaña orquestada | Datos de varias entidades, segmentación compleja, recuento exacto |
-| Mensaje transaccional activado por API | Campaña activada por API | Déclencheur del sistema externo, envío inmediato |
-| Envío de varios niveles por reserva | Campaña orquestada | Relaciones entre varias entidades, un mensaje por reserva |
+| Promoción de temporada con integración del catálogo de productos | Campañas orquestadas | Datos de varias entidades, segmentación compleja, recuento exacto |
+| Mensaje transaccional activado por API | Campañas activadas por API | Déclencheur del sistema externo, envío inmediato |
+| Envío de varios niveles por reserva | Campañas orquestadas | Relaciones entre varias entidades, un mensaje por reserva |
 
 ## Distinciones clave explicadas {#key-distinctions}
 
@@ -230,12 +235,14 @@ Combina la complejidad del flujo de trabajo con la ejecución de campañas por l
 
 +++ ¿Puedo combinar recorridos y campañas en mi estrategia de marketing?
 
-¡Absolutamente! La mayoría de las organizaciones utilizan los tres enfoques para diferentes escenarios:
+Sí. Muchas organizaciones utilizan los cuatro enfoques para diferentes escenarios:
 
-* Recorridos para la participación en tiempo real y basada en el comportamiento
-* Campañas de acción para comunicaciones de difusión programadas
-* Campañas activadas por API para mensajes transaccionales
-* Campañas organizadas para campañas por lotes complejas que requieren gran cantidad de datos
+* **Recorridos** para participación en tiempo real y de comportamiento
+* **Campañas de acción** para comunicaciones de difusión programadas
+* **Campañas activadas por API** para mensajes transaccionales
+* **Campañas organizadas** para campañas por lotes complejas que requieren gran cantidad de datos
+
+Utilice la herramienta adecuada para cada caso de uso en lugar de forzar un enfoque para todo.
 
 +++
 
@@ -253,17 +260,17 @@ Las campañas de acción suelen ser las más sencillas (enviar un solo mensaje a
 
 +++ ¿Qué escala es mejor para grandes audiencias?
 
-Los tres pueden escalar bien, pero:
+Los cuatro se pueden escalar bien; la elección correcta depende de su patrón:
 
-* **Leer Recorridos de audiencias** y **Campañas de acción** están optimizadas para audiencias de lotes grandes
-* **Las campañas orquestadas** sobresalen en la segmentación compleja con conjuntos de datos grandes
-* **Recorridos unitarios** procesan los perfiles individualmente, por lo que la escala depende del volumen del evento
+* **Leer Recorridos de audiencias** y **Campañas de acción** están optimizadas para audiencias de lotes grandes (un mensaje o flujo a muchos perfiles a la vez).
+* **Las campañas orquestadas** sobresalen en la segmentación compleja con conjuntos de datos grandes y datos de varias entidades.
+* **Recorridos unitarios (basados en eventos)** procesan los perfiles individualmente a medida que se producen eventos, por lo que la escala depende del volumen y el rendimiento del evento.
 
 +++
 
 +++ ¿Puedo usar la misma audiencia en recorridos y campañas?
 
-Sí, las audiencias creadas en Adobe Experience Platform se pueden usar en los tres enfoques.
+Sí. Las audiencias creadas en [!DNL Adobe Experience Platform] se pueden usar en Recorridos, campañas de acción y campañas orquestadas (donde la lógica de audiencia también se puede crear a petición en el lienzo). Las campañas activadas por API son impulsadas por carga útil y no utilizan audiencias creadas previamente del mismo modo.
 
 +++
 
@@ -271,12 +278,14 @@ Sí, las audiencias creadas en Adobe Experience Platform se pueden usar en los t
 
 ¿Listo para comenzar a crear? Explore la documentación detallada del enfoque elegido:
 
-* **[Introducción a Recorrido](../building-journeys/journey.md)**: obtenga información sobre los tipos de recorrido, el diseñador y el flujo de trabajo
-* **[Introducción a las campañas](../campaigns/get-started-with-campaigns.md)**: Explore campañas activadas por acciones y API
-* **[Introducción a campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)**: Descubra flujos de trabajo de lienzo por lotes
+* **[Introducción a Recorrido](../building-journeys/journey.md)**: tipos de Recorrido, diseñador y flujo de trabajo
+* **[Introducción a campañas](../campaigns/get-started-with-campaigns.md)**: campañas activadas por acciones y API
+* **[Introducción a campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)** - Flujos de trabajo en lienzo por lotes
 
-**¿Necesita más ayuda para decidir?**
-* [Comparación de tipos de recorrido](../building-journeys/journey.md#journey-types-comparison)
-* [Comparación de tipos de campaña](../campaigns/get-started-with-campaigns.md#campaign-types)
-* [PREGUNTAS FRECUENTES SOBRE RECORRIDO](../building-journeys/journey-faq.md)
-* [Preguntas frecuentes sobre campañas organizadas](../orchestrated/orchestrated-campaigns-faq.md)
+>[!MORELIKETHIS]
+>
+>* [Comparación de tipos de Recorrido](../building-journeys/journey.md#journey-types-comparison)
+>* [Comparación de tipos de campaña](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [PREGUNTAS FRECUENTES SOBRE EL Recorrido](../building-journeys/journey-faq.md)
+>* [Preguntas frecuentes sobre campañas orquestadas](../orchestrated/orchestrated-campaigns-faq.md)
+>* [Prácticas recomendadas](best-practices.md): Casos de uso en tiempo real y escalado con protecciones
