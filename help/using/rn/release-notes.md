@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3e361c6b7a91a1fd3b72d12a8aa6fefc295837a
+source-git-commit: 1176d85197e956a2ed1a5cad67a76d5a1bea20a9
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 41%
+source-wordcount: '1463'
+ht-degree: 38%
 
 ---
 
@@ -154,28 +154,11 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ahora admite <strong>notificaciones push web</strong>, lo que expande el canal push más allá del dispositivo móvil. Puede enviar notificaciones perfectamente a exploradores móviles y de escritorio, lo que permite llegar a los clientes directamente en sus dispositivos sin necesidad de una aplicación. Esta mejora le permite atraer a los usuarios con mensajes personalizados y oportunos en tiempo real, aprovechando los mismos flujos de trabajo de creación y las mismas funcionalidades de segmentación ya disponibles para las notificaciones push móviles.</p>
-<p>Esta funcionalidad, que se publicó anteriormente en la versión beta, ya está disponible en todos los entornos (disponibilidad general).</p>
-<p>Fecha de disponibilidad: sábado, 13 de febrero de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Canal de notificaciones push web</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
 <p>Adobe Journey Optimizer ahora admite <strong>notificaciones push web</strong>, lo que expande el canal push más allá del móvil. Puede enviar notificaciones sin problemas a <strong>exploradores móviles y de escritorio</strong>, lo que permite llegar a los clientes directamente a través de sus dispositivos sin necesidad de una aplicación. Esta mejora le permite atraer a los usuarios con mensajes personalizados y oportunos en tiempo real, aprovechando los mismos flujos de trabajo de creación y las mismas funcionalidades de segmentación ya disponibles para las notificaciones push móviles.</p>
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>Esta funcionalidad, lanzada anteriormente en Beta, estará disponible para todos los entornos (disponibilidad general).</p>
 <p>Para obtener más información, consulte la <a href="../push/push-configuration-web.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: jueves, 11 de febrero de 2026</p>
+<p>Fecha de disponibilidad: sábado, 13 de febrero de 2026</p>
 </td>
 </tr>
 </tbody>
