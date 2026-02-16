@@ -7,9 +7,10 @@ feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
+exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
+source-git-commit: 2ba8aecf9f9665d00f553a281ad365e3535b5efe
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1755'
 ht-degree: 3%
 
 ---
@@ -105,7 +106,7 @@ Journey Agent incluye dos habilidades en el asistente de IA: Analizar y Crear. U
 
 #### Recorrido Crear aptitud {#journey-create-skill}
 
-El [Agente de creación de Recorrido](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
+El [Agente de creación de Recorrido](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
 
 +++**Capacidades clave**
 
@@ -170,6 +171,7 @@ Utilice IA generativa para crear y personalizar el contenido en varios canales, 
 
 ### Características principales
 
+* **Generación de contenido completo**: genera experiencias de contenido completas (texto e imágenes) en un solo flujo para correo electrónico, web, páginas de aterrizaje y notificaciones push. [Generar contenido completo con el Asistente de IA](../content-management/generative-full-content.md)
 * **Generación de texto**: crea una copia atractiva basada en la voz y los objetivos de tu marca. [Generar texto con IA](../content-management/generative-text.md)
 * **Generación de imágenes** - Generar imágenes personalizadas mediante Adobe Firefly. [Generar imágenes con IA](../content-management/generative-image.md)
 * **Variaciones de contenido**: produzca varias variaciones para las pruebas A/B. [Experimento de contenido con IA](../content-management/generative-experimentation.md)
@@ -178,7 +180,7 @@ Utilice IA generativa para crear y personalizar el contenido en varios canales, 
 
 ### Prácticas recomendadas
 
-* **Sea específico**: proporcione indicaciones claras y detalladas para obtener mejores resultados
+* **Sea específico**: proporcione indicaciones claras y detalladas para obtener mejores resultados. [Conozca las prácticas recomendadas para los mensajes](../content-management/ai-assistant-prompting-guide.md)
 * **Cargar recursos de marca**: use archivos PDF, imágenes o ZIP (máximo de 50 MB) para mantener la coherencia de la marca.
 * **Usar plantillas personalizadas**: aprovecha las plantillas específicas de la marca con hasta 8-10 imágenes
 * **Proporcionar comentarios**: puntúe las salidas para ayudar a mejorar los modelos de IA
@@ -269,7 +271,7 @@ Examine los libros de reproducción de Journey Optimizer para conocer escenarios
 
 +++
 
-[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=es){target="_blank"}
+[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Capacidades adicionales de IA {#additional-capabilities}
 
@@ -278,6 +280,12 @@ Examine los libros de reproducción de Journey Optimizer para conocer escenarios
 Transforme diseños de imagen estáticos (JPEG, PNG) en plantillas de correo electrónico editables de HTML mediante la tecnología de conversión con tecnología de IA.
 
 [Más información sobre la Imagen en HTML](../email/image-to-html.md)
+
+### GenStudio for Performance Marketing
+
+Integre con Adobe GenStudio for Performance Marketing para crear contenido de correo electrónico con tecnología de IA e importar plantillas en Journey Optimizer para su orquestación. Exporte plantillas de Journey Optimizer a GenStudio, genere variaciones con IA y devuélvalas para su implementación. (Disponibilidad limitada, solo canal de correo electrónico).
+
+[Más información sobre GenStudio](../integrations/genstudio.md)
 
 ### Puntuación de la alineación de marca
 
