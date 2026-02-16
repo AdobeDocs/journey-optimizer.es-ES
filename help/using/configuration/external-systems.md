@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: b2bfbf707adc60d3f08195c1df1b969523fb87b1
 workflow-type: tm+mt
-source-wordcount: '1805'
-ht-degree: 21%
+source-wordcount: '1807'
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 21%
 
 Esta página presenta las diferentes protecciones proporcionadas por Journey Optimizer al integrar un sistema externo, así como las prácticas recomendadas: cómo optimizar la protección del sistema externo mediante la API de límite, cómo configurar el tiempo de espera de recorrido y cómo funcionan los reintentos.
 
-Journey Optimizer le permite configurar conexiones a sistemas externos mediante fuentes de datos y acciones personalizadas. Esto le permite, por ejemplo, enriquecer sus recorridos con datos procedentes de un sistema de reservas externo o enviar mensajes mediante un sistema de terceros como Epsilon o Facebook.
+Journey Optimizer permite configurar conexiones a sistemas externos mediante [fuentes de datos personalizadas](../datasource/about-data-sources.md) y [acciones personalizadas](../action/action.md). Esto le permite, por ejemplo, enriquecer sus recorridos con datos procedentes de un sistema de reservas externo o enviar mensajes mediante un sistema de terceros como Epsilon o Facebook.
 
 Al integrar un sistema externo, puede encontrar varios problemas, el sistema puede ser lento, puede dejar de responder o es posible que no pueda gestionar un volumen grande. Journey Optimizer ofrece varias protecciones para proteger el sistema de la sobrecarga.
 
@@ -33,7 +33,7 @@ Cuando Journey Optimizer ejecuta una llamada a una API externa, las protecciones
 
 >[!TIP]
 >
->Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
+>Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` ](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
 
 ## API de límite y restricción {#capping}
 
@@ -132,7 +132,7 @@ En cada recorrido, puede definir una duración de tiempo de espera. La duración
 
 +++ ¿Qué es el proxy de salida y cuándo debo utilizarlo?
 
-El proxy de salida proporciona una **dirección IP estática** para las llamadas salientes de Journey Optimizer a los sistemas externos. Utilícelo cuando los puntos de conexión de terceros requieran una inclusión en la lista de permitidos IP.
+El proxy de salida proporciona una **dirección IP estática** para las llamadas salientes de **acciones personalizadas** de Journey Optimizer a sus sistemas externos. Utilícelo cuando los puntos de conexión de terceros requieran una inclusión en la lista de permitidos IP.
 
 **Importante:** El proxy de salida NO controla el rendimiento, los límites de velocidad ni el número de conexiones simultáneas. Para administrar el volumen de llamadas y los límites de conexión, usa la [API de límite](capping.md) o la [API de restricción](throttling.md).
 
