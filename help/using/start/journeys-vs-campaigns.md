@@ -11,9 +11,9 @@ keywords: recorrido, campaña, orquestado, comparación, elegir, decisión, fluj
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 4cf2b850561ef99dc8dc8300c41eeedd0cecfe32
+source-git-commit: fc2dc5924f4998d1285dee9c19a0d7e71a1e5722
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1593'
 ht-degree: 3%
 
 ---
@@ -288,4 +288,3 @@ Sí. Las audiencias creadas en [!DNL Adobe Experience Platform] se pueden usar e
 >* [Comparación de tipos de campaña](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [PREGUNTAS FRECUENTES SOBRE EL Recorrido](../building-journeys/journey-faq.md)
 >* [Preguntas frecuentes sobre campañas orquestadas](../orchestrated/orchestrated-campaigns-faq.md)
->* [Prácticas recomendadas](best-practices.md): Casos de uso en tiempo real y escalado con protecciones
