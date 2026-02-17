@@ -6,10 +6,10 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 7b1b79e9263aa2512cf69cb130f322a1558eecff
+source-git-commit: aca4e62faa7aa09a60eef661c0732a8b0b1fa36e
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 4%
+source-wordcount: '1105'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 La API del servicio de migración de decisiones permite migrar objetos de administración de decisiones de una zona protegida a otra. El proceso de migración se ejecuta como flujos de trabajo asincrónicos que incluyen análisis de dependencia, ejecución y funciones de reversión opcionales.
 
-Esta API le permite realizar una transición sin problemas del contenido de toma de decisiones entre entornos (por ejemplo, de desarrollo a ensayo o de ensayo a producción) a la vez que mantiene la integridad de los datos y las relaciones.
+Esta API le permite realizar una transición sin problemas del contenido de toma de decisiones entre entornos <!--(e.g., from development to staging, or staging to production) -->, manteniendo la integridad de los datos y las relaciones.
 
 Para obtener más información sobre las ventajas y capacidades de la toma de decisiones en comparación con la administración de decisiones, consulte [esta página](migrate-to-decisioning.md).
 
@@ -66,12 +66,12 @@ Para obtener más información sobre la administración de zonas protegidas, con
 
 ## Conceptos básicos de la API {#api-basics}
 
-### Direcciones URL base {#base-urls}
+### Dirección URL base {#base-url}
 
-Utilice las siguientes direcciones URL base según su entorno:
+Utilice la siguiente URL base:
 
 * **Producción**: `https://decisioning-migration.adobe.io`
-* **Ensayo**: `https://decisioning-migration-stage.adobe.io`
+  <!--* **Staging**: `https://decisioning-migration-stage.adobe.io`-->
 
 ### Autenticación {#authentication}
 
@@ -93,8 +93,8 @@ Un flujo de trabajo tiene las siguientes propiedades:
 * `status` - Estado actual del flujo de trabajo: `New`, `Running`, `Completed` o `Failed`
 * `result`: salida del flujo de trabajo cuando se completa (incluye resultados de migración y advertencias)
 * `errors`: detalles de error estructurados cuando se produjo un error
-* `_etag`: identificador de versión utilizado para operaciones de eliminación (solo usuarios de servicio)
 * `_links.self`: URL de flujo de trabajo para recuperar el estado
+  <!--* `_etag` - Version identifier used for delete operations (service users only)-->
 
 ## Flujo de trabajo migración {#migration-workflow}
 
@@ -354,17 +354,15 @@ Al migrar de Administración de decisiones a Toma de decisiones, las entidades s
 
 ## Limpieza de flujo de trabajo {#cleanup}
 
-Los usuarios del servicio solo pueden eliminar los recursos de flujo de trabajo. Las operaciones de eliminación requieren un encabezado `If-Match` con el valor `_etag` del flujo de trabajo.
+<!--Workflow resources can be deleted by service users only. Delete operations require an `If-Match` header with the workflow's `_etag` value.
 
-**Operaciones de eliminación disponibles:**
+**Available delete operations:**
 
 * `DELETE /workflows/generate-dependencies/{id}`
 * `DELETE /workflows/migration/{id}`
-* `DELETE /workflows/rollback/{id}`
+* `DELETE /workflows/rollback/{id}`-->
 
->[!NOTE]
->
->La eliminación del flujo de trabajo solo está disponible para las cuentas de servicio con los permisos adecuados. Si necesita eliminar un recurso de flujo de trabajo, póngase en contacto con el administrador del sistema.
+La eliminación del flujo de trabajo no está disponible públicamente. Si necesita eliminar un recurso de flujo de trabajo, póngase en contacto con el administrador del sistema.
 
 ## Temas relacionados {#related-topics}
 
