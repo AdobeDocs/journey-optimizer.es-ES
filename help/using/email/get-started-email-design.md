@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, diseño, stock, activos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: ht
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Una vez creado un correo electrónico, puede empezar a diseñar su contenido.
 
    * **Importe contenido de HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido de correo electrónico en [esta sección](existing-content.md).
 
-   * **Convierta diseños de imagen en plantillas de HTML** con el conversor de imagen a HTML con tecnología de IA. Aprenda a transformar imágenes estáticas en plantillas de correo electrónico editables en [esta sección](image-to-html.md).
+   * **Convierta diseños de imagen en plantillas de HTML** con el conversor de imagen a HTML con tecnología de IA. Aprenda a transformar imágenes estáticas en plantillas de correo electrónico editables en [esta sección](../content-management/image-to-html.md).
 
    * **Seleccione un contenido existente** de una lista de plantillas integradas o personalizadas. Aprenda a trabajar con plantillas de correo electrónico en [esta sección](../email/use-email-templates.md).
 
@@ -84,8 +84,8 @@ Consulte la tabla siguiente para conocer las prácticas recomendadas sobre el di
 
 Aprenda a crear contenido de correo electrónico con el editor de mensajes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416231?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Aprenda a configurar experimentos de contenido para realizar pruebas A/B y explorar el contenido de correo electrónico que mejor impulsa sus objetivos empresariales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447334?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

@@ -5,13 +5,13 @@ title: Informe mensual de actualizaciones de la documentación
 description: Lista de páginas de documentación nuevas y actualizadas
 hide: true
 hidefromtoc: true
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
 
 ---
-
 
 # Informe mensual de actualizaciones de la documentación
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 - [Activar el modo de alto rendimiento para las campañas activadas por API](help/using/campaigns/api-triggered-high-throughput.md) - 27 de octubre
 - [Establecer horas tranquilas](help/using/conflict-prioritization/quiet-hours.md) - 22 de octubre
 - [Journey Optimizer Experimentation Accelerator](help/using/content-management/experiment-accelerator-gs.md) - 24 de octubre
-- [Convertir imágenes a plantillas de HTML con el convertidor de imágenes a HTML](help/using/email/image-to-html.md) - 30 de octubre
+- [Convertir imágenes a plantillas de HTML con el convertidor de imágenes a HTML](help/using/content-management/image-to-html.md) - 30 de octubre
 - [Crear directivas de decisiones](help/using/experience-decisioning/create-decision-policy.md) - 7 de octubre
 - [Usar directivas de decisión en los mensajes](help/using/experience-decisioning/use-decision-policy.md) - 9 de octubre
 - [Configure su configuración de canal](help/using/orchestrated/channel-config.md) - 14 de octubre

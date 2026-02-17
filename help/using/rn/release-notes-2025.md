@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '9009'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <p>El convesor de imagen a HTML es una función con tecnología de IA que convierte diseños de imagen estáticos en plantillas de contenido de correo electrónico modulares de HTML totalmente personalizables. Esta herramienta sin código permite a los especialistas en marketing transformar diseños visuales en plantillas de correo electrónico adaptables y editables sin necesidad de conocimientos técnicos, perfectas para la migración de plataformas, la creación rápida de plantillas y la creación de bibliotecas de plantillas reutilizables.</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
 <p>Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
-<p>Para obtener más información, consulte la <a href="../email/image-to-html.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../content-management/image-to-html.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 30 de octubre de 2025</p>
 </td>
 </tr>

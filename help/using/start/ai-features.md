@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 2ba8aecf9f9665d00f553a281ad365e3535b5efe
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 3%
@@ -106,7 +106,7 @@ Journey Agent incluye dos habilidades en el asistente de IA: Analizar y Crear. U
 
 #### Recorrido Crear aptitud {#journey-create-skill}
 
-El [Agente de creación de Recorrido](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
+El [Agente de creación de Recorrido](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
 
 +++**Capacidades clave**
 
@@ -271,7 +271,7 @@ Examine los libros de reproducción de Journey Optimizer para conocer escenarios
 
 +++
 
-[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=es){target="_blank"}
+[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Capacidades adicionales de IA {#additional-capabilities}
 
@@ -279,7 +279,7 @@ Examine los libros de reproducción de Journey Optimizer para conocer escenarios
 
 Transforme diseños de imagen estáticos (JPEG, PNG) en plantillas de correo electrónico editables de HTML mediante la tecnología de conversión con tecnología de IA.
 
-[Más información sobre la Imagen en HTML](../email/image-to-html.md)
+[Más información sobre la Imagen en HTML](../content-management/image-to-html.md)
 
 ### GenStudio for Performance Marketing
 

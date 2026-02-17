@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: correo electrónico, importación, contenido, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 30%
@@ -30,7 +30,7 @@ ht-degree: 30%
 
 >[!TIP]
 >
->Si tienes diseños de imagen (JPEG o PNG) en lugar de archivos HTML, puedes usar el conversor de [imagen a HTML](image-to-html.md) para convertirlos automáticamente en plantillas editables de correo electrónico de HTML usando IA.
+>Si tienes diseños de imagen (JPEG o PNG) en lugar de archivos HTML, puedes usar el conversor de [imagen a HTML](../content-management/image-to-html.md) para convertirlos automáticamente en plantillas editables de correo electrónico de HTML usando IA.
 
 Para importar un archivo con contenido HTML, siga los pasos a continuación:
 
@@ -56,8 +56,8 @@ Para importar un archivo con contenido HTML, siga los pasos a continuación:
 
 1. Ahora puede personalizar el archivo importado según sea necesario con las funcionalidades de Designer de correo electrónico. [Más información](content-from-scratch.md)
 
-## Vídeo explicativo {#video}
+## Vídeo práctico {#video}
 
 Obtenga información sobre cómo importar contenido HTML existente, modificar el diseño, añadir páginas espejo y cancelar la suscripción de vínculos, y cómo codificar el contenido.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421909?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)
