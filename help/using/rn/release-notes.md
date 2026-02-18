@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7dac7dbdb6a84455dc97828884027cfed39f3995
+source-git-commit: 029f91599f0be6d30d1e7d73cac7390a6fb05f1f
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 39%
+source-wordcount: '1461'
+ht-degree: 40%
 
 ---
 
@@ -268,11 +268,14 @@ A continuación, se describen las mejoras incluidas en esta versión.
 * **Uso de eventos de experiencia en expresiones de recorrido**: a partir del 1 de abril de 2026, el uso de atributos de eventos de experiencia en expresiones de recorrido dejará de ser compatible con las organizaciones que no hayan utilizado esta capacidad en los últimos 90 días. Esta capacidad ya no está disponible para las nuevas organizaciones de clientes desde el 8 de julio de 2025. Para ver alternativas, consulte [Búsqueda de eventos de experiencia en recorrido](../building-journeys/exp-event-lookup.md).
 
 
-#### Diseñador de correo electrónico
+#### Plantillas de contenido
 
 * **Usar temáticas para convertir imágenes en plantillas de correo electrónico**: al convertir una imagen en una plantilla de correo electrónico en Journey Optimizer, ahora puede usar una temática como entrada para que el HTML generado siga los parámetros de su marca. El estilo, como el color de fondo, el color del botón, las fuentes, el interlineado, los márgenes y el relleno, se aplica automáticamente, lo que reduce el trabajo de diseño manual y proporciona una plantilla lista para usar con ediciones mínimas. [Más información](../content-management/image-to-html.md)
 
   Fecha de disponibilidad: 13 de febrero de 2026.
+
+
+#### Diseñador de correo electrónico
 
 * **Actualice las marcas con una nueva pestaña de colores**: las directrices de marca garantizan que la marca se presente de manera coherente en todos los puntos de contacto. La nueva sección Colores define los estándares del sistema de colores de su marca, y describe cómo se seleccionan, organizan y aplican los colores en todas las experiencias. Garantiza el uso consistente de los colores primarios, secundarios, acentuados y neutros para apoyar una identidad de marca coherente, accesible y reconocible.
 
@@ -288,7 +291,6 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
   **Nota**: Esta funcionalidad solo está disponible para un conjunto de organizaciones (<strong>Disponibilidad limitada</strong>). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
-
 * **Vista previa de Experience Decisioning en el canal de experiencia basado en código**: ahora puede obtener una vista previa de los elementos de decisión al configurar Experience Decisioning con el canal de experiencia basado en código. La vista previa está disponible directamente en la interfaz de creación antes de lanzarse.
 
 
@@ -298,12 +300,6 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
   Fecha de disponibilidad: 12 de febrero de 2026.
 
-
-#### Recorridos
-
-* **Varias acciones entrantes en recorridos**: para simplificar la orquestación de recorrido, ahora puede definir varias acciones entrantes en un solo recorrido. Esta capacidad, que antes estaba disponible en las campañas de, le permite ofrecer varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web en diferentes ubicaciones al mismo tiempo, y cada acción contiene contenido específico.
-
-  **Nota**: Publicada anteriormente en Disponibilidad limitada, esta capacidad ya está disponible para todos los entornos (Disponibilidad general).
 
 #### SMS
 
