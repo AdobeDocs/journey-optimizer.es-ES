@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4f28c1e5c84e303470653803f5d2c9f5051d4ab8
+source-git-commit: 4e9fefb86fd5bc332f9e0dd60eaebf2323f107cd
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
@@ -33,7 +33,7 @@ Las secciones [Nuevas funcionalidades](#feb-26-01-features) y [Mejoras](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -57,23 +57,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 -->
-
-<table>
-<thead>
-<tr>
-<th><strong>Monitorización de modelos de IA</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer ahora le permite monitorizar el estado, el estado de formación y el rendimiento de sus modelos de IA de decisiones. Esto le permite verificar el éxito de la formación, solucionar problemas de errores y comprender el impacto en los resultados para seleccionar las mejores ofertas para cada cliente que utiliza IA. Tenga en cuenta que esta capacidad solo está disponible para <strong>Decisioning</strong> (no para los modelos de Administración de decisiones heredados).</p>
-<p>Actualmente, esta funcionalidad solo está disponible para <strong>modelos de optimización personalizada</strong> (no para la optimización automática).</p>
-<p>Fecha de disponibilidad: miércoles, 17 de febrero de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -242,6 +225,23 @@ Las funciones y mejoras siguientes están previstas para su lanzamiento en febre
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Supervisión del modelo de IA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer ahora le permite monitorizar el estado, el estado de formación y el rendimiento de sus modelos de IA de decisiones. Esto le permite verificar el éxito de la formación, solucionar problemas de errores y comprender el impacto en los resultados para seleccionar las mejores ofertas para cada cliente que utiliza IA. Tenga en cuenta que esta capacidad solo está disponible para <strong>Decisioning</strong> (no para los modelos de Administración de decisiones heredados).</p>
+<p>Actualmente, esta funcionalidad solo está disponible para <strong>modelos de optimización personalizada</strong> (no para la optimización automática).</p>
+<p>Fecha de disponibilidad: sábado, 20 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Mejoras {#coming-soon-improv}
 
 * **Vista previa de Experience Decisioning en el canal de experiencia basado en código**: ahora puede obtener una vista previa de los elementos de decisión al configurar Experience Decisioning con el canal de experiencia basado en código. La vista previa está disponible directamente en la interfaz de creación antes de lanzarse.
@@ -255,3 +255,4 @@ Las funciones y mejoras siguientes están previstas para su lanzamiento en febre
 * **Integración de modelos Firefly personalizados y modelos de generación de imágenes de terceros**: permita la integración perfecta de modelos Firefly estándar y personalizados, junto con modelos de imágenes de terceros aprobados (por ejemplo, NanoBanana), para proporcionar mayor flexibilidad, control y alineación de marca al generar imágenes. Esto le permite seleccionar el mejor modelo para cada caso de uso: Firefly estándar para necesidades generales, Firefly personalizado para la generación sin marca o modelos de terceros aprobados para escenarios especializados o experimentales.
 
   Fecha de disponibilidad: 20 de febrero de 2026.
+

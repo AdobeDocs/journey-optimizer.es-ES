@@ -11,10 +11,10 @@ level: Intermediate
 keywords: expresión, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 25%
+source-wordcount: '1213'
+ht-degree: 24%
 
 ---
 
@@ -53,8 +53,8 @@ ht-degree: 25%
 
 ## Protecciones y limitaciones {#guardrails}
 
-* **Canales admitidos**: la búsqueda de conjuntos de datos con toma de decisiones actualmente funciona para acciones personalizadas de correo electrónico y Recorrido. <!--Support for code-based experience channels is coming soon.-->
-* **Uso de atributos**: la funcionalidad de búsqueda del conjunto de datos para la toma de decisiones amplía las definiciones de elementos de decisión con atributos adicionales, no extiende atributos a perfiles
+* **Canales admitidos**: la búsqueda de conjuntos de datos con Decisioning funciona para todos los canales donde Decisioning está disponible: experiencia basada en código (entrante), correo electrónico, push, SMS y el nodo de decisión de contenido en recorrido.
+* **Uso de atributos**: la funcionalidad de búsqueda del conjunto de datos para la toma de decisiones amplía las definiciones de elementos de decisión con atributos adicionales, no extiende atributos a perfiles.
 * **Límites de búsqueda**: [!DNL Journey Optimizer] admite hasta 1000 búsquedas por directiva de decisión única.
 
 ## Requisitos previos

@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 6%
+source-wordcount: '1459'
+ht-degree: 5%
 
 ---
 
@@ -66,9 +66,7 @@ Para crear una fórmula de clasificación, siga los pasos a continuación.
    >
    >La profundidad de anidación en una fórmula de clasificación está limitada a 30 niveles. Esto se mide contando los `)` paréntesis de cierre en la cadena de PQL. Una cadena de regla puede tener un tamaño máximo de 8 KB para caracteres codificados con UTF-8. Esto equivale a 8.000 caracteres ASCII (1 byte cada uno) o a 2.000-4.000 caracteres no ASCII (2-4 bytes cada uno). [Más información sobre las limitaciones y protecciones de decisiones](../decisioning-guardrails.md#ranking-formulas)
 
-1. También puede utilizar los datos de Adobe Experience Platform para ajustar dinámicamente la lógica de clasificación y reflejar las condiciones reales. Esto resulta especialmente útil para atributos que cambian con frecuencia, como la disponibilidad del producto o los precios en tiempo real.
-
-   Esta funcionalidad está actualmente disponible para todos los clientes en beta pública. Póngase en contacto con el representante de su cuenta si desea acceder. [Aprenda a utilizar los datos de Adobe Experience Platform para la toma de decisiones](../aep-data-exd.md)
+1. También puede utilizar los datos de Adobe Experience Platform para ajustar dinámicamente la lógica de clasificación y reflejar las condiciones reales. Esto resulta especialmente útil para atributos que cambian con frecuencia, como la disponibilidad del producto o los precios en tiempo real. [Aprenda a utilizar los datos de Adobe Experience Platform para la toma de decisiones](../aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 

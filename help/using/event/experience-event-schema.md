@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: esquemas, XDM, plataforma, flujo, ingesta, recorrido
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Por lo tanto, un requisito previo importante para configurar eventos para [!DNL 
 
 >[!CAUTION]
 >
->Ya no se admiten las búsquedas de eventos de experiencia en condiciones de recorrido. Consulte las prácticas recomendadas alternativas aquí. Si tiene un caso de uso de recorrido activado por un evento que aún necesita buscar eventos de Experience y no se puede admitir a través de ninguna de las alternativas enumeradas, póngase en contacto con su representante de Adobe y le ayudaremos a alcanzar su objetivo.
+>A partir del 8 de julio de 2025, las nuevas organizaciones de clientes no podrán crear expresiones mediante atributos de evento de experiencia en condiciones de recorrido. A partir del 1 de abril de 2026, las organizaciones que no hayan accedido a eventos de experiencia a través de expresiones de recorrido en los últimos 90 días dejarán de tener acceso a esta capacidad. Los enfoques alternativos y las prácticas recomendadas se enumeran en [Búsqueda de eventos de experiencia en recorrido](../building-journeys/exp-event-lookup.md).
 >
 >El acceso al contexto desde el evento de inicio de un recorrido no se ve afectado.
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=es).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
