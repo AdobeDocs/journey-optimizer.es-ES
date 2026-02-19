@@ -10,7 +10,7 @@ level: Beginner
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: correo electrónico, plantilla, imagen, HTML, IA, diseño, convertidor
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: e5b02fe84f00dec189d4002280e9a69b782cd91f
 workflow-type: tm+mt
 source-wordcount: '1659'
 ht-degree: 4%
@@ -50,6 +50,26 @@ El convertidor de imagen a HTML es ideal para:
 * **Reducción de las dependencias técnicas**: permita que los especialistas en marketing creen plantillas de correo electrónico e iteren de forma independiente, lo que acelera la ejecución de la campaña.
 
 +++
+
+## Mecanismos de protección y recomendaciones {#limitations}
+
+Tenga en cuenta las siguientes limitaciones al convertir imágenes a plantillas de contenido de HTML.
+
+* **Interpretación de IA**: La IA genera HTML basándose en la interpretación visual de su imagen. Los diseños complejos o inusuales pueden requerir ajustes manuales después de la conversión.
+
+* **Precisión del texto**: Mientras la IA intenta reconocer y reproducir el texto con precisión, compruebe siempre el contenido del texto y realice las correcciones necesarias.
+
+* **Contenido dinámico**: el proceso de conversión crea HTML estático basado en la imagen. Después de la conversión, debe agregar manualmente la personalización, el contenido dinámico y el seguimiento.
+
+* **Diseños complejos**: Es posible que los diseños muy complejos con capas complejas, formas inusuales o elementos no estándar no se conviertan a la perfección. Los diseños más simples generalmente arrojan mejores resultados.
+
+* **Tiempo de procesamiento**: El proceso de conversión puede tardar hasta 5 minutos según la complejidad y el tamaño de la imagen. El procesamiento de IA se produce en segundo plano, lo que le permite trabajar en otras tareas sin mantener la pantalla abierta. La plantilla se guarda automáticamente como borrador una vez completada la conversión.
+
+* **Disponibilidad limitada**: como característica de disponibilidad limitada, el conversor de imagen a HTML se mejora continuamente. La funcionalidad y la precisión pueden variar, y los comentarios ayudan a mejorar la función.
+
+>[!NOTE]
+>
+>El conversor de imagen a HTML está diseñado para proporcionar un punto de partida sólido para la creación de correos electrónicos. La HTML generada debe revisarse y refinarse usando la Designer de correo electrónico para asegurarse de que cumple con sus requisitos exactos.
 
 ## Conversión de una imagen en una plantilla de HTML {#convert-image}
 
@@ -114,12 +134,14 @@ La plantilla ya está disponible en la biblioteca de plantillas de contenido y s
 
 Para obtener resultados óptimos al convertir imágenes a plantillas de contenido de HTML, siga estas recomendaciones.
 
-**Antes de comenzar**
++++Antes de comenzar
 
 * **Guardar contenido existente**: al convertir una imagen a HTML, se reemplazará todo el contenido existente en el correo electrónico. Guarde siempre el trabajo actual antes de utilizar esta función.
 * **Planifique el flujo de trabajo**: use el convertidor de imagen a HTML al principio del proceso de creación del correo electrónico o asegúrese de que está listo para reemplazar todo el contenido actual.
 
-**Preparación de imágenes**
++++
+
++++Preparación de imágenes
 
 * **Resolución**: Use imágenes de alta resolución (al menos 1200 px de ancho) para un mejor reconocimiento de texto y detección de elementos
 * **Claridad**: Asegúrese de que el texto sea claramente legible y de que los elementos visuales estén bien definidos
@@ -127,7 +149,9 @@ Para obtener resultados óptimos al convertir imágenes a plantillas de contenid
 * **Formato de archivo**: use el formato JPEG o PNG para evitar imágenes comprimidas o de baja calidad
 * **Diseño completo**: incluya el diseño de correo electrónico completo en una sola imagen, de encabezado a pie de página
 
-**Consideraciones de diseño**
++++
+
++++Consideraciones de diseño
 
 * **Diseños simples**: los diseños más simples y bien estructurados se convierten con mayor precisión que los diseños muy complejos
 * **Elementos estándar**: utilice patrones de diseño de correo electrónico comunes (encabezado, secciones de cuerpo, CTA, pie de página).
@@ -135,7 +159,9 @@ Para obtener resultados óptimos al convertir imágenes a plantillas de contenid
 * **Fuentes seguras para la Web**: Los diseños que usan fuentes seguras para la Web comunes tendrán una mejor fidelidad
 * **Evite elementos superpuestos**: Mantenga los elementos de diseño claramente separados para un mejor reconocimiento de la estructura
 
-**Después de la conversión**
++++
+
++++Después de la conversión
 
 * **Revise el borrador**: una vez completada la conversión, la plantilla se guardará automáticamente como borrador. Tómese tiempo para revisar cuidadosamente la HTML generada para comprobar su precisión
 * **Realizar pruebas exhaustivas**: probar el correo electrónico en distintos clientes y dispositivos de correo electrónico
@@ -144,25 +170,7 @@ Para obtener resultados óptimos al convertir imágenes a plantillas de contenid
 * **Personalization**: agregue contenido dinámico y tokens de personalización según sea necesario
 * **Accesibilidad**: revise y mejore las características de accesibilidad si es necesario
 
-## Mecanismos de protección y recomendaciones {#limitations}
-
-Tenga en cuenta las siguientes limitaciones al convertir imágenes a plantillas de contenido de HTML.
-
-* **Interpretación de IA**: La IA genera HTML basándose en la interpretación visual de su imagen. Los diseños complejos o inusuales pueden requerir ajustes manuales después de la conversión.
-
-* **Precisión del texto**: Mientras la IA intenta reconocer y reproducir el texto con precisión, compruebe siempre el contenido del texto y realice las correcciones necesarias.
-
-* **Contenido dinámico**: el proceso de conversión crea HTML estático basado en la imagen. Después de la conversión, debe agregar manualmente la personalización, el contenido dinámico y el seguimiento.
-
-* **Diseños complejos**: Es posible que los diseños muy complejos con capas complejas, formas inusuales o elementos no estándar no se conviertan a la perfección. Los diseños más simples generalmente arrojan mejores resultados.
-
-* **Tiempo de procesamiento**: El proceso de conversión puede tardar hasta 5 minutos según la complejidad y el tamaño de la imagen. El procesamiento de IA se produce en segundo plano, lo que le permite trabajar en otras tareas sin mantener la pantalla abierta. La plantilla se guarda automáticamente como borrador una vez completada la conversión.
-
-* **Disponibilidad limitada**: como característica de disponibilidad limitada, el conversor de imagen a HTML se mejora continuamente. La funcionalidad y la precisión pueden variar, y los comentarios ayudan a mejorar la función.
-
->[!NOTE]
->
->El conversor de imagen a HTML está diseñado para proporcionar un punto de partida sólido para la creación de correos electrónicos. La HTML generada debe revisarse y refinarse usando la Designer de correo electrónico para asegurarse de que cumple con sus requisitos exactos.
++++
 
 ## Preguntas frecuentes {#faq}
 
