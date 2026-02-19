@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdominio, optimizador, delegación
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: ab29af6861e8fc1137fbbffd99b9576afa7e04f5
+source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '996'
 ht-degree: 25%
 
 ---
@@ -92,7 +92,7 @@ El método de delegación personalizado le permite ser el propietario total del 
 
 En este caso, usted es el propietario y administra completamente sus propios subdominios y tiene control total sobre los certificados generados como parte de este proceso.
 
-Aprenda a configurar un dominio personalizado en [esta sección](delegate-custom-subdomain.md).
+Aprenda a [configurar un subdominio personalizado](delegate-custom-subdomain.md). Si su subdominio utiliza actualmente CNAME, también puede [migrar de CNAME a la delegación personalizada](custom-subdomain-migration.md).
 
 ## Comparación de los métodos de configuración
 
