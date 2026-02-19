@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 77fdbd9ea47d20fa2b2534cc9520a9b3cd011ac5
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 7%
+source-wordcount: '861'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 >[!TIP]
 >
->Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../experience-decisioning/gs-experience-decisioning.md)
+>La nueva capacidad de toma de decisiones de [!DNL Adobe Journey Optimizer] ya está disponible a través de los canales de experiencia basada en código, correo electrónico, SMS y push. [Más información](../experience-decisioning/gs-experience-decisioning.md)
 
 ## Introducción a la toma de decisiones por lotes {#start}
 
@@ -36,7 +36,7 @@ Antes de configurar una solicitud de trabajo, asegúrese de haber creado:
 
 * **Un conjunto de datos** en Adobe Experience Platform. Este conjunto de datos se utilizará para almacenar el resultado de la decisión mediante el esquema &quot;ODE DecisionEvents&quot;. Obtenga más información en la [documentación de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es).
 
-* **Una audiencia** en Adobe Experience Platform. La audiencia debe evaluarse y luego actualizarse. Aprenda a actualizar la evaluación de pertenencia a audiencias en la [documentación del servicio de segmentación](https://www.adobe.com/go/segmentation-overview-en_es)
+* **Una audiencia** en Adobe Experience Platform. La audiencia debe evaluarse y luego actualizarse. Aprenda a actualizar la evaluación de pertenencia a audiencias en la [documentación del servicio de segmentación](https://www.adobe.com/go/segmentation-overview-en)
 
   >[!NOTE]
   >
