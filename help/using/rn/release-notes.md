@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+source-git-commit: d3b89f86c563699cea69ae757980783e6d99216f
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 32%
+source-wordcount: '1252'
+ht-degree: 31%
 
 ---
 
@@ -33,7 +33,7 @@ Las secciones [Nuevas funcionalidades](#feb-26-01-features) y [Mejoras](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -121,6 +121,12 @@ A continuación, se describen las mejoras incluidas en esta versión.
 #### Configuración
 
 * **Uso de eventos de experiencia en expresiones de recorrido**: a partir del 1 de abril de 2026, el uso de atributos de eventos de experiencia en expresiones de recorrido dejará de ser compatible con las organizaciones que no hayan utilizado esta capacidad en los últimos 90 días. Esta capacidad ya no está disponible para las nuevas organizaciones de clientes desde el 8 de julio de 2025. Para ver alternativas, consulte [Búsqueda de eventos de experiencia en recorrido](../building-journeys/exp-event-lookup.md).
+
+#### Diseñador de correo electrónico
+
+* **Sangría de texto**: ahora puede aplicar sangría izquierda personalizable a la primera línea de párrafos de los componentes de texto directamente desde el panel de propiedades. <!--The new **Indentation** control lets you define indentation in pixels or percentage via a numeric input or slider, with live preview on the canvas. -->Esto mejora la legibilidad del contenido de formato largo, como editoriales y artículos.
+
+  Fecha de disponibilidad: 18 de febrero de 2026.
 
 #### Plantillas de contenido
 
