@@ -7,9 +7,9 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 743165991c3f4d351cd6ab15e94ece0309c8e82a
+source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2189'
 ht-degree: 6%
 
 ---
@@ -113,7 +113,9 @@ Para las experiencias basadas en código, puede agregar una nueva directiva de d
 
    >[!NOTE]
    >
-   >El **[!UICONTROL resultado de reutilización de decisión]** le permite reutilizar una directiva de decisión que ya se ha creado en este correo electrónico.
+   >La opción **[!UICONTROL Reutilizar resultado de decisión]** le permite reutilizar una directiva de decisión que ya se ha creado en este correo electrónico. Resulta especialmente útil cuando desea mostrar la misma oferta en varias ubicaciones (por ejemplo, en el encabezado y el pie de página).
+   >
+   >Cuando se puede seleccionar la misma oferta mediante más de una política de decisión en el cuerpo del correo electrónico, el motor anula la duplicación de ofertas: cada ubicación recibe una oferta diferente, por lo que la misma oferta no aparecerá en ambos lugares. Para mostrar la misma oferta en varias ubicaciones, use **[!UICONTROL Reutilizar salida de decisión]** para reutilizar la salida de una directiva de decisión existente en este correo electrónico.
 
 >[!TAB SMS]
 

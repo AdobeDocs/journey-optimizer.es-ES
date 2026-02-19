@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 71a5b2163500b26ef3ea61e55d18cad539bfeb7f
+source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '780'
 ht-degree: 3%
 
 ---
@@ -56,6 +56,10 @@ Una vez que haya agregado una política de decisión al contenido, puede utiliza
 3. Si todavía no se ha asignado ninguna ubicación al componente, seleccione una en la lista y haga clic en **[!UICONTROL Asignar]**.
 
    ![](assets/decision-policy-placement.png)
+
+   >[!NOTE]
+   >
+   >Si utiliza varias políticas de decisión en el mismo correo electrónico (por ejemplo, una para el encabezado y otra para el pie de página), la misma oferta se deduplica en todas las ubicaciones: cada área recibe una oferta diferente. Para mostrar la misma oferta en varias áreas, use **[!UICONTROL Volver a usar el resultado de la decisión]** al agregar una directiva de decisión. [Aprenda a crear directivas de decisión](create-decision-policy.md).
 
 >[!TAB SMS]
 
