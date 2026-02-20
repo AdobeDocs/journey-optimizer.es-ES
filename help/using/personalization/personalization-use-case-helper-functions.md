@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: expresión, editor, ayudantes, caso de uso, personalización
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 58b4acf8cccfc3a5e507a738bdf6755a8decbaca
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1238'
 ht-degree: 2%
 
 ---
@@ -52,31 +52,31 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 1. Cree un evento cuyo esquema incluya la matriz `productListItems`.
 1. Defina todos los campos de esta matriz como campos de carga útil para este evento.
 
-   Obtenga más información acerca del tipo de datos de elementos de la lista de productos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=es){target="_blank"}.
+   Obtenga más información acerca del tipo de datos de elementos de la lista de productos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Cree un recorrido que comience con este evento.
 1. Agregue una actividad **Correo electrónico** al recorrido.
 
-   ![](assets/personalization-uc-helpers-8.png)
+   ![lienzo de Recorrido con un evento y una actividad de correo electrónico en el flujo](assets/personalization-uc-helpers-8.png)
 
-## Paso 2: crear el correo electrónico{#configure-email}
+## Paso 2: crear el correo electrónico {#configure-email}
 
 1. En la actividad **Correo electrónico**, haga clic en **[!UICONTROL Editar contenido]** y luego en **[!UICONTROL Enviar correo electrónico a Designer]**.
 
-   ![](assets/personalization-uc-helpers-1.png)
+   ![Actividad de correo electrónico con las opciones Editar contenido y Enviar correo electrónico a Designer](assets/personalization-uc-helpers-1.png)
 
 1. En la paleta izquierda de la página de inicio de Designer de correo electrónico, arrastre y suelte tres componentes de estructura en el cuerpo del mensaje.
 
 1. Arrastre y suelte un componente de contenido de HTML en cada nuevo componente de estructura.
 
-   ![](assets/personalization-uc-helpers-2.png)
+   ![Designer de correo electrónico con tres componentes de estructura y componentes de contenido de HTML en el cuerpo](assets/personalization-uc-helpers-2.png)
 
 ## Paso 3: Insertar el nombre del cliente en mayúsculas {#uppercase-function}
 
 1. En la página de inicio de Designer de correo electrónico, haga clic en el componente HTML donde desea agregar el nombre del cliente.
 1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Mostrar el código fuente]**.
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![Barra de herramientas contextual con la opción Mostrar código fuente](assets/personalization-uc-helpers-3.png)
 
 1. En la ventana **[!UICONTROL Editar HTML]**, agregue la función de cadena `upperCase`:
    1. En el menú de la izquierda, seleccione **[!UICONTROL Funciones de ayuda]**.
@@ -89,7 +89,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
       {%= upperCase(string) %}
       ```
 
-      ![](assets/personalization-uc-helpers-4.png)
+      ![Editor de expresiones con la función upperCase seleccionada en las funciones de ayuda](assets/personalization-uc-helpers-4.png)
 
 1. Elimine el marcador de posición &quot;cadena&quot; de la expresión.
 1. Añada el token de nombre:
@@ -103,13 +103,13 @@ El contenido del carro de compras es información contextual del recorrido. Por 
       {%= upperCase(profile.person.name.firstName) %}
       ```
 
-      ![](assets/personalization-uc-helpers-5.png)
+      ![Editor de expresiones que muestra upperCase con token de nombre de perfil](assets/personalization-uc-helpers-5.png)
 
-      Obtenga más información acerca del tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=es){target="_blank"}.
+      Obtenga más información acerca del tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Haga clic en **[!UICONTROL Validar]** y luego en **[!UICONTROL Guardar]**.
 
-   ![](assets/personalization-uc-helpers-6.png)
+   ![Ventana Editar HTML con los botones Validar y Guardar](assets/personalization-uc-helpers-6.png)
 
 1. Guarde el mensaje.
 
@@ -122,7 +122,7 @@ Este paso muestra la iteración en los datos de evento. Para ver ejemplos comple
 1. En la página de inicio de Designer de correo electrónico, haga clic en el componente de HTML donde desea enumerar el contenido del carro de compras.
 1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Mostrar el código fuente]**.
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![Barra de herramientas contextual con la opción Mostrar código fuente](assets/personalization-uc-helpers-3.png)
 
 1. En la ventana **[!UICONTROL Editar HTML]**, agregue el asistente de `each`:
    1. En el menú de la izquierda, seleccione **[!UICONTROL Funciones de ayuda]**.
@@ -135,7 +135,7 @@ Este paso muestra la iteración en los datos de evento. Para ver ejemplos comple
       {{#each someArray as |variable|}} {{/each}}
       ```
 
-      ![](assets/personalization-uc-helpers-9.png)
+      ![Editor de expresiones con la plantilla de ayuda each](assets/personalization-uc-helpers-9.png)
 
 1. Agregue la matriz `productListItems` a la expresión:
 
@@ -158,7 +158,7 @@ Este paso muestra la iteración en los datos de evento. Para ver ejemplos comple
 
       En este ejemplo, *event_ID* representa el identificador del evento.
 
-      ![](assets/personalization-uc-helpers-10.png)
+      ![Editor de expresiones con productListItems en atributos contextuales](assets/personalization-uc-helpers-10.png)
 
    1. Modifique la expresión:
       1. Elimine la cadena &quot;.product&quot;.
@@ -170,7 +170,7 @@ Este paso muestra la iteración en los datos de evento. Para ver ejemplos comple
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
 
-1. Pegue este código entre la etiqueta `{{#each}}` de apertura y la etiqueta `{/each}}` de cierre:
+1. Pegue este código entre la etiqueta `{{#each}}` de apertura y la etiqueta `{{/each}}` de cierre:
 
    ```html
    <table>
@@ -212,14 +212,14 @@ Este paso muestra la iteración en los datos de evento. Para ver ejemplos comple
 
 1. Haga clic en **[!UICONTROL Validar]** y luego en **[!UICONTROL Guardar]**.
 
-   ![](assets/personalization-uc-helpers-11.png)
+   ![Editor de expresiones con Validar y Guardar después de configurar cada bloque](assets/personalization-uc-helpers-11.png)
 
 ## Paso 5: Insertar una nota específica del producto {#if-helper}
 
 1. En la página de inicio de Designer de correo electrónico, haga clic en el componente de HTML en el que desea insertar la nota.
 1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Mostrar el código fuente]**.
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![Barra de herramientas contextual con la opción Mostrar código fuente](assets/personalization-uc-helpers-3.png)
 
 1. En la ventana **[!UICONTROL Editar HTML]**, agregue el asistente de `if`:
    1. En el menú de la izquierda, seleccione **[!UICONTROL Funciones de ayuda]**.
@@ -235,7 +235,7 @@ Este paso muestra la iteración en los datos de evento. Para ver ejemplos comple
       {%/if%}
       ```
 
-      ![](assets/personalization-uc-helpers-12.png)
+      ![Editor de expresiones con la plantilla de ayuda if](assets/personalization-uc-helpers-12.png)
 
 1. Elimine esta condición de la expresión:
 
@@ -269,7 +269,7 @@ Este paso muestra la iteración en los datos de evento. Para ver ejemplos comple
       {%/if%}
       ```
 
-      ![](assets/personalization-uc-helpers-13.png)
+      ![Editor de expresiones con token de nombre productListItems en la condición if](assets/personalization-uc-helpers-13.png)
 
 1. Modifique la expresión:
    1. En el Editor de expresiones, especifique el nombre del producto después del token `name`.
@@ -303,7 +303,7 @@ Este paso muestra la iteración en los datos de evento. Para ver ejemplos comple
    1. Elimine el marcador de posición &quot;default_render&quot; de la expresión.
 1. Haga clic en **[!UICONTROL Validar]** y luego en **[!UICONTROL Guardar]**.
 
-   ![](assets/personalization-uc-helpers-14.png)
+   ![Editar la ventana de HTML con Validar y Guardar después de configurar el bloque if](assets/personalization-uc-helpers-14.png)
 
 1. Guarde el mensaje.
 
@@ -311,19 +311,19 @@ Este paso muestra la iteración en los datos de evento. Para ver ejemplos comple
 
 1. Active la opción **[!UICONTROL Test]** y, a continuación, haga clic en **[!UICONTROL Déclencheur de un evento]**.
 
-   ![](assets/personalization-uc-helpers-15.png)
+   ![Recorrido con Test activado y Déclencheur un botón de evento](assets/personalization-uc-helpers-15.png)
 
 1. En la ventana **[!UICONTROL Configuración de eventos]**, escriba los valores de entrada y haga clic en **[!UICONTROL Enviar]**.
 
    El modo de prueba solo funciona con perfiles de prueba.
 
-   ![](assets/personalization-uc-helpers-16.png)
+   ![Ventana de configuración de eventos con valores de entrada y botón Enviar](assets/personalization-uc-helpers-16.png)
 
    El correo electrónico se envía a la dirección del perfil de prueba.
 
    En este ejemplo, el correo electrónico contiene la nota sobre la chaqueta Juno porque este producto está en el carro de compras:
 
-   ![](assets/personalization-uc-helpers-17.png)
+   ![Ejemplo de correo electrónico que muestra la nota de envío de la chaqueta Juno en el cuerpo del mensaje](assets/personalization-uc-helpers-17.png)
 
 1. Compruebe que no haya ningún error y, a continuación, publique el recorrido.
 
@@ -342,8 +342,8 @@ Este paso muestra la iteración en los datos de evento. Para ver ejemplos comple
 
 * [Personalization con oferta basada en decisiones](../offers/offers-e2e.md)
 
-## Vídeo práctico{#video}
+## Vídeo práctico {#video}
 
 Aprenda a utilizar las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416643?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
