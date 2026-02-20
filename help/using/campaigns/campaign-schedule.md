@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: e6aa361229f068c475732c715160b7c644189e51
+source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 7%
+source-wordcount: '750'
+ht-degree: 6%
 
 ---
 
@@ -42,8 +42,6 @@ Por ejemplo, si programa una campaña para que se envíe a las 9 a. m. utilizand
 
 >[!AVAILABILITY]
 >
->Esta función se encuentra en disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
->
 >La programación mediante zonas horarias de perfil solo está disponible para estos canales salientes: correo electrónico, push, SMS, WhatsApp y LINE.
 
 Para habilitar la programación de zona horaria de perfil:
@@ -62,7 +60,9 @@ La campaña permanece en estado **Activo** mientras los mensajes se envían a to
 
 **Identificadores de zona horaria admitidos:**
 
-Journey Optimizer valida el valor `profile.timeZone` con los identificadores de zona horaria estándar de IANA. Los identificadores distinguen entre mayúsculas y minúsculas y deben coincidir con la nomenclatura oficial de IANA. Los desplazamientos pueden cambiar con el tiempo debido a las reglas del horario de verano y a las actualizaciones históricas. Consulte la [Base de datos de husos horarios de IANA](https://www.iana.org/time-zones){_blank} para obtener la lista oficial de identificadores.
+El formato `profile.timeZone` puede ser una denominación IANA o definirse como desplazamientos UTC. La denominación IANA es el formato preferido, ya que se ajusta automáticamente para las reglas de horario de verano.
+
+Para la nomenclatura IANA, los identificadores distinguen entre mayúsculas y minúsculas y deben coincidir con la nomenclatura IANA oficial. Los desplazamientos pueden cambiar con el tiempo debido a las reglas del horario de verano y a las actualizaciones históricas. Consulte la [Base de datos de husos horarios de IANA](https://www.iana.org/time-zones){_blank} para obtener la lista oficial de identificadores.
 
 ## Establecer una frecuencia de ejecución
 
