@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '815'
 ht-degree: 6%
 
 ---
@@ -96,6 +96,12 @@ Para establecer el control de tarifa, habilite la opción **[!UICONTROL Entrega 
 >[!IMPORTANT]
 >
 >Al establecer una tasa de entrega, el periodo de tiempo máximo para el que se puede ejecutar la audiencia de la campaña es de 12 horas. Si la tasa de entrega se establece en un valor que no permite que toda la audiencia envíe el mensaje en el periodo de tiempo de 12 horas, los perfiles restantes se excluirían de la campaña. Puede ver el recuento de estos perfiles excluidos en el informe de campaña.
+
+## Envío mediante olas
+
+Para enviar el mensaje de campaña por lotes a lo largo del tiempo en lugar de todos a la vez, puede utilizar el envío de ondas. Esto ayuda a equilibrar la carga, admite la entrega y evita sistemas descendentes abrumadores (por ejemplo, centros de llamadas o páginas de aterrizaje). Se define el número de olas, su tamaño (por porcentaje o número absoluto) y la programación para cada ola.
+
+[Aprenda a enviar mediante olas](send-using-waves.md).
 
 ## Próximos pasos {#next}
 

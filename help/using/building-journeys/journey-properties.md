@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2885'
 ht-degree: 15%
 
 ---
@@ -351,7 +351,12 @@ Se aplican las siguientes limitaciones al usar la capacidad [Criterios de salida
 
 ## programación de recorrido {#schedule}
 
-La sección **[!UICONTROL Programar]** solo está disponible cuando se ha quitado una actividad **[!UICONTROL Leer audiencia]** en el lienzo. Permite definir una fecha/hora y una frecuencia específicas en las que se debe ejecutar el recorrido. [Aprenda a programar un recorrido de lectura-audiencia](../building-journeys/read-audience.md)
+La sección **[!UICONTROL Programar]** solo está disponible cuando se ha quitado una actividad **[!UICONTROL Leer audiencia]** en el lienzo. Permite definir una fecha/hora y una frecuencia específicas en las que se debe ejecutar el recorrido. [Aprenda a programar un recorrido de lectura-audiencia](read-audience.md#schedule)
+
+>[!TIP]
+>
+>Al programar el recorrido, también puede configurar el envío de oleadas para enviar acciones de recorrido por lotes a lo largo del tiempo. [Aprenda a enviar mediante olas en recorridos](send-using-waves.md)
+
 
 ## Administración de conflictos {#conflict}
 

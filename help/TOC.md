@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3101'
 ht-degree: 98%
 
 ---
@@ -59,6 +59,7 @@ ht-degree: 98%
       + [Crear un recorrido](/help/rp_landing_pages/create-journey-landing-page.md)
       + [Creación de su primer recorrido](using/building-journeys/journey-gs.md)
       + [Establecimiento de las propiedades del recorrido](using/building-journeys/journey-properties.md)
+      + [Envío mediante olas en recorridos](using/building-journeys/send-using-waves.md)
       + [Configuración y seguimiento de la métrica de recorrido](using/building-journeys/success-metrics.md)
       + [Diseño de un recorrido](using/building-journeys/using-the-journey-designer.md)
       + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
@@ -150,6 +151,7 @@ ht-degree: 98%
       + [Edición del contenido de la campaña](using/campaigns/campaign-content.md)
       + [Definición del público de la campaña](using/campaigns/campaign-audience.md)
       + [Programación de la campaña](using/campaigns/campaign-schedule.md)
+      + [Envío mediante olas](using/campaigns/send-using-waves.md)
       + [Revisión y activación de una campaña de acción](using/campaigns/review-activate-campaign.md)
    + Campañas activadas por API {#api-triggered-campaigns}
       + [Campañas activadas por API](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
@@ -850,7 +852,7 @@ ht-degree: 98%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}

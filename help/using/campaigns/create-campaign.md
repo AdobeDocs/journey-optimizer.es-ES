@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 57%
+source-wordcount: '213'
+ht-degree: 54%
 
 ---
 
@@ -46,7 +46,7 @@ Antes de comenzar con las campañas, compruebe los siguientes requisitos previos
 1. [Configurar la acción de campaña](campaign-action.md)
 1. [Edición del contenido de la campaña de acción](campaign-content.md)
 1. [Definición de la audiencia de la campaña de acción](campaign-audience.md)
-1. [Programación de la campaña de acción](campaign-schedule.md)
+1. [Programar la campaña de acción](campaign-schedule.md). De forma opcional, [envíe mediante olas](send-using-waves.md) para entregar el mensaje en lotes a lo largo del tiempo.
 1. [Revisión y activación de la campaña de acción](review-activate-campaign.md)
 
 Obtenga más información sobre [completar el flujo de trabajo de creación de campañas con guías específicas del tipo →](get-started-with-campaigns.md#workflow)

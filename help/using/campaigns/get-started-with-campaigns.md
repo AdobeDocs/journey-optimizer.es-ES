@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 99%
+source-wordcount: '1535'
+ht-degree: 97%
 
 ---
 
@@ -214,7 +214,7 @@ Configure las bases de la campaña:
 2. **Seleccione el tipo de campaña** (activada por acción, activada por API u orquestada)
 3. **Elija su público**
 4. **Establezca la prioridad** si se usa la administración de conflictos
-5. **Configure la programación** (para campañas de acción) o detalles de API (para activadas por API)
+5. **Configurar programación** (para campañas de acción) o detalles de API (para activadas por API). Para las campañas de acción, también puede [enviar mediante olas](send-using-waves.md) para enviar el mensaje en lotes a lo largo del tiempo.
 
 **Guías específicas del tipo:** [Propiedades de campaña de acción](campaign-properties.md) | [Propiedades de campaña activada por API](api-triggered-campaign-properties.md) | [Configuración de campaña orquestada](../orchestrated/create-orchestrated-campaign.md)
 
@@ -291,7 +291,7 @@ A medida que se familiarice con las campañas, explore estas potentes funcionali
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Programación y sincronización**
 
@@ -301,7 +301,7 @@ Programe campañas para fechas/horas específicas, establezca envíos recurrente
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de velocidad**
 
@@ -311,7 +311,7 @@ Limite el rendimiento de mensajes para evitar sobrecargas en sistemas descendent
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmentación de público**
 
@@ -321,7 +321,7 @@ Segmente públicos de Adobe Experience Platform específicos con precisión y ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flujos de trabajo de aprobación**
 
@@ -331,7 +331,7 @@ Implemente procesos de revisión y aprobación antes de que las campañas se pub
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Horario silencioso**
 
@@ -341,7 +341,7 @@ Respete las preferencias del cliente evitando el envío de mensajes durante los 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimización**
 
