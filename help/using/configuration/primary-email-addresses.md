@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -97,7 +97,7 @@ Anule este valor con el icono **[!UICONTROL Habilitar anulación de parámetros]
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="Sobrescribir la dirección de ejecución predeterminada a utilizar"
->abstract="Cuando en la base de datos hay disponibles varias direcciones de correo electrónico o números de teléfono (personales, profesionales, etc.), puede elegir cuál priorizar para el envío. La dirección principal se define en el nivel de entorno limitado, pero aquí puede anular la configuración predeterminada de esta configuración de canal específica."
+>abstract="Cuando hay varias direcciones de correo electrónico o números de teléfono disponibles en la base de datos (personal, profesional, etc.), puede elegir cuál priorizar para el envío. La dirección principal se define en el nivel de entorno limitado, pero aquí puede anular la configuración predeterminada de esta configuración de canal específica."
 
 Puede cambiar la dirección de ejecución predeterminada de un correo electrónico, SMS o WhatsApp [configuración de canal](channel-surfaces.md) específico.
 

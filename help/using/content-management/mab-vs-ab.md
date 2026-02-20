@@ -8,7 +8,7 @@ exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
 source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -70,7 +70,7 @@ Las principales limitaciones de los experimentos A/B tradicionales son las sigui
 
   La adaptación durante el experimento es limitada.
 
-## Bandido multiarmado {#mab-experiment}
+## Multi-armed bandit {#mab-experiment}
 
 Los algoritmos de bandidos multiarmados utilizan la asignación adaptativa: a medida que se acumula evidencia, más tráfico se dirige hacia tratamientos de mejor rendimiento. El objetivo es maximizar la recompensa acumulada durante el experimento en lugar de centrarse únicamente en el resultado final.
 
@@ -116,7 +116,7 @@ Las principales limitaciones de los métodos multi-armed bandit son:
 
 ## Cuándo usar A/B o multi-armed bandit
 
-| Escenario | Método recomendado |
+| Situación | Método recomendado |
 |-|-|
 | Está ejecutando pruebas exploratorias o basadas en investigación | A/B |
 | Está ejecutando campañas siempre activas, por ejemplo, anuncios o recomendaciones | Multi-armed bandit |

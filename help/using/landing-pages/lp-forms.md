@@ -78,7 +78,7 @@ Para crear un ajuste preestablecido de formulario, siga los pasos a continuació
    >* **El tipo de datos** debe establecerse en **XDM** (no datos sin procesar)
    >* **La autenticación** debe estar **deshabilitada** (conexión no autenticada)
    >
-   >Si la conexión de flujo continuo no aparece en la lista, compruebe que se cumplen ambas condiciones. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Si la conexión de flujo continuo no aparece en la lista, compruebe que se cumplen ambas condiciones. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Seleccione un **[!UICONTROL conjunto de datos]** para vincularlo con el formulario. Aquí es donde se almacenan y reflejan las respuestas del formulario. Puede escribir si desea buscar un conjunto de datos específico o seleccionarlo en la lista.
 
