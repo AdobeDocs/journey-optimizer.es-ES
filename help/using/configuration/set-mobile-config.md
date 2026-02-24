@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 725d1d98759a721a7e2e891f0e560cd967e05f7f
+source-git-commit: d793d9eccde3b0b548e778040bdcd8817e80c90a
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 85%
@@ -34,25 +34,25 @@ ht-degree: 85%
 La configuración del canal guiado es compatible con las siguientes plataformas y canales.
 
 >[!BEGINTABS]
->
+
 >[!TAB iOS]
->
->**SDK:** Swift de Apple
->
->**Canales:** Móvil En La Aplicación, Mensaje Push Móvil
->
+
+**SDK:** Swift de Apple
+
+**Canales:** Móvil En La Aplicación, Mensaje Push Móvil
+
 >[!TAB Android]
->
->**SDK:** Kotlin
->
->**Canales:** Móvil En La Aplicación, Mensaje Push Móvil
->
+
+**SDK:** Kotlin
+
+**Canales:** Móvil En La Aplicación, Mensaje Push Móvil
+
 >[!TAB Web]
->
->**SDK:** Javascript
->
->**Canales:** Web Basic
->
+
+**SDK:** Javascript
+
+**Canales:** Web Basic
+
 >[!ENDTABS]
 
 Tenga en cuenta que, para cada plataforma que desee configurar, es necesario crear una configuración independiente. Esto se debe a que cada aplicación requiere una configuración de canal única y esto proporciona la flexibilidad para determinar qué canales quiere para cada plataforma.
