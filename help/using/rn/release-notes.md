@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f2f1bf9338109102d5ea8378b9ae9474a8c535de
+source-git-commit: b00a24b7d130fb1a464f01b93b9769a7ae10c41a
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1552'
 ht-degree: 36%
 
 ---
@@ -33,7 +33,7 @@ Las secciones [Nuevas funcionalidades](#feb-26-01-features) y [Mejoras](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -221,7 +221,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 #### Diseñador de correo electrónico
 
-* **Sangría de texto**: ahora puede aplicar sangría izquierda personalizable a la primera línea de párrafos de los componentes de texto directamente desde el panel de propiedades. <!--The new **Indentation** control lets you define indentation in pixels or percentage via a numeric input or slider, with live preview on the canvas. -->Esto mejora la legibilidad del contenido de formato largo, como editoriales y artículos.
+* **Sangría de texto**: ahora puede aplicar sangría izquierda personalizable a la primera línea de párrafos de los componentes de texto directamente desde el panel de propiedades. <!--The new **Indentation** control lets you define indentation in pixels or percentage via a numeric input or slider, with live preview on the canvas. -->Esto mejora la legibilidad del contenido de formato largo, como editoriales y artículos. [Más información](../email/get-started-email-style.md)
 
   Fecha de disponibilidad: 18 de febrero de 2026.
 

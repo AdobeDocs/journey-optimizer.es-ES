@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, estilo, css, cuerpo, estructura
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: b00a24b7d130fb1a464f01b93b9769a7ae10c41a
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 53%
 
 ---
 
@@ -22,9 +22,21 @@ Una vez que haya empezado a crear el contenido de su correo electrónico en [!DN
 
 Puede aplicar los cambios al cuerpo del correo electrónico, a un componente de estructura o a un componente de contenido.
 
-![](assets/email_designer_content_components_styles.png)
+Seleccione cualquier elemento del correo electrónico y haga clic en la ficha **[!UICONTROL Estilos]**. Todas las opciones de estilo del elemento seleccionado se muestran en el panel derecho.
 
-Siga los vínculos siguientes para descubrir cómo ajustar algunos de los ajustes de estilo de su correo electrónico.
+![](assets/email_designer_styles.png)
+
+Por ejemplo, si selecciona un componente de texto:
+
+* Puede ajustar el **[!UICONTROL color de fondo]** y el **[!UICONTROL color de fuente]** de ese párrafo;
+* Puede actualizar los parámetros de **[!UICONTROL Texto]**, como la familia de fuentes, el tamaño, la altura, la alineación, etc., y administrar el espaciado antes del primer carácter de una línea mediante la configuración **[!UICONTROL Sangría]**;
+* También puede ajustar opciones como el **[!UICONTROL borde]**, **[!UICONTROL margen]** y **[!UICONTROL relleno]** del componente de texto.
+
+Si usa una [plantilla de contenido](use-email-templates.md) predeterminada o si aplicó un tema al correo electrónico, solo puede ajustar algunas opciones de estilo para que coincidan con el tema seleccionado. [Más información sobre los temas](apply-email-themes.md)
+
+![](assets/email_designer_styles_theme.png)
+
+Siga los vínculos a continuación para descubrir cómo ajustar algunas de las configuraciones de estilo específicas en el correo electrónico.
 
 * Obtenga información sobre cómo [personalizar el fondo del correo electrónico](backgrounds.md)
 * Obtenga información sobre cómo [administrar alineación vertical y relleno](alignment-and-padding.md)
