@@ -22,7 +22,7 @@ Puede elegir entre varios métodos de configuración: **delegación completa** (
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a la delegación de subdominios
 
@@ -32,7 +32,7 @@ Conozca las ventajas, los métodos de configuración y las consideraciones para 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Delegar un subdominio
 
@@ -42,7 +42,7 @@ Instrucciones paso a paso para delegar subdominios a Adobe, incluyendo la delega
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
 
 Configuración de un subdominio personalizado
 
@@ -52,7 +52,7 @@ Tome la propiedad total de sus subdominios con delegación personalizada: cargue
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Migrar de CNAME a delegación personalizada
 
@@ -62,7 +62,7 @@ Migre los subdominios configurados con CNAME existentes a la delegación persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Configurar registros DMARC
 
@@ -72,7 +72,7 @@ Configure los registros de DMARC para mejorar la seguridad del correo electróni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Añadir un registro TXT de Google
 
@@ -82,7 +82,7 @@ Compruebe los subdominios para la entregabilidad de Gmail añadiendo registros T
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Acceso y edición de registros PTR
 
@@ -92,7 +92,7 @@ Administre los registros PTR para subdominios delegados, incluyendo la edición 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Crear grupos de IP
 
