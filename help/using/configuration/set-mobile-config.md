@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7cca968a161a26d0af385a028c4404261088f033
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '816'
+ht-degree: 88%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 100%
 >abstract="Adobe Experience Platform Assurance está integrado en este flujo de trabajo para ayudarle a inspeccionar la implementación del SDK, así como para simular y validar eventos de aplicación."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/assurance/home" text="Información general sobre Adobe Experience Platform Assurance"
 
-Este ajuste facilita la configuración rápida de los canales de marketing, lo que garantiza que todos los recursos necesarios estén disponibles en Experience Platform, Journey Optimizer y la recopilación de datos. Esto permite a su equipo de marketing iniciar la creación de campañas y recorridos.
+**Configuración guiada de canal** es un flujo de trabajo optimizado en Adobe Journey Optimizer que le ayuda a configurar rápidamente canales de marketing web y móviles. Se encuentra bajo **Administración** > **Canales** > **Configuración del canal** y automatiza la creación de recursos esenciales (como propiedades de etiquetas, flujos de datos y configuraciones de canal) en Adobe Experience Platform, Journey Optimizer y Recopilación de datos. En lugar de configurar manualmente cada componente, sigue un flujo guiado que lo configura todo por usted, de modo que su equipo de marketing pueda empezar a crear mensajes en la aplicación, notificaciones push y experiencias web sin demora.
 
-La configuración de canales guiada es compatible con las siguientes plataformas y canales.
+La configuración del canal guiado es compatible con las siguientes plataformas y canales.
 
 * Plataformas y SDK:
 
@@ -180,7 +180,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   </tr>
   <tr>
   <td>
-  <p>Secuencias de datos</p>
+  <p>Corrientes de datos</p>
   </td>
   <td>
   <p>Secuencia de datos con servicios</p>
@@ -275,7 +275,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   </tr>
   <tr>
   <td>
-  <p>Secuencias de datos</p>
+  <p>Corrientes de datos</p>
   </td>
   <td>
   <p>Secuencia de datos con servicios</p>
@@ -370,7 +370,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   </tr>
   <tr>
   <td>
-  <p>Secuencias de datos</p>
+  <p>Corrientes de datos</p>
   </td>
   <td>
   <p>Secuencia de datos con servicios</p>
