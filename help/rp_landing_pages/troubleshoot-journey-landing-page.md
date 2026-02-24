@@ -49,7 +49,7 @@ Acceda a informes clave para monitorizar el rendimiento del recorrido, analizar 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
 
 Acceso y suscripción a alertas del sistema
 
@@ -59,7 +59,7 @@ Descubra cómo acceder a las alertas del sistema, suscribirse a notificaciones y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Referencia de códigos de error
 
@@ -69,7 +69,7 @@ Comprenda los códigos de error comunes en Adobe Journey Optimizer y encuentre s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Solucionar errores antes de probar o publicar el recorrido
 
@@ -79,7 +79,7 @@ Identifique y resuelva errores en todo el recorrido, problemas de actividad, y e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Solución de problemas de la ejecución del recorrido activo
 
@@ -89,7 +89,7 @@ Diagnostique problemas con la validación de eventos, la entrada de perfiles, la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Solución de problemas de acciones de entrada en recorridos
 
@@ -99,7 +99,7 @@ Depure los problemas de las acciones de envío, como la falta de contenido o la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Solución de problemas de acciones personalizadas
 
@@ -109,7 +109,7 @@ Valide y depure las acciones personalizadas mediante la función **Enviar solici
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=es)
 
 Directrices de vale de soporte
 
