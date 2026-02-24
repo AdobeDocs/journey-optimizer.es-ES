@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: eventos, evento, recorrido, definición, inicio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 32%
+source-wordcount: '1574'
+ht-degree: 31%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 32%
 >abstract="Un evento está vinculado a una persona. Está relacionado con el comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o a algo que sucede vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). Journey Optimizer escucha eventos unitarios en recorrido para orquestar las mejores próximas acciones."
 
 Utilice eventos para almacenar en déclencheur los recorridos individualmente y enviar mensajes en tiempo real a cada usuario cuando entre en el recorrido.
+
+>[!IMPORTANT]
+>
+>Para conocer los requisitos y limitaciones de eventos (flujo continuo, servicio de consultas, ingesta por lotes), consulte [protecciones de Recorrido: eventos](../start/guardrails.md#events-g).
 
 En la configuración de eventos, se configuran los eventos esperados en los recorridos. Los datos entrantes de los eventos se normalizan siguiendo el modelo de datos de Experience de Adobe (XDM). Los eventos provienen de las API de ingesta de streaming para eventos autenticados y no autenticados (como eventos del SDK de Adobe Mobile). Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento.
 
@@ -60,7 +64,7 @@ Para los eventos **unitarios**, existen dos tipos de ID de evento:
 
 >[!NOTE]
 >
->Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos consumidos por lotes o los eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento del correo electrónico, etc.) no se pueden utilizar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en esos eventos y use la actividad **Leer público** en su lugar. Técnicamente, la calificación de audiencias puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas. Estos datos no necesariamente tienen que ir al perfil en tiempo real. Si desea utilizar los eventos para la segmentación, le recomendamos que habilite el conjunto de datos para el perfil.
+>Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos ingeridos por lotes, los eventos insertados mediante **Query Service** o los eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento de correo electrónico, etc.) no se pueden usar para almacenar en déclencheur un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en esos eventos y use la actividad **Leer público** en su lugar. Técnicamente, la calificación de audiencias puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas. Estos datos no necesariamente tienen que ir al perfil en tiempo real. Si desea utilizar los eventos para la segmentación, le recomendamos que habilite el conjunto de datos para el perfil.
 
 ## Ciclo de datos {#data-cycle}
 
@@ -122,8 +126,8 @@ No se puede eliminar ningún evento utilizado en los recorridos **Live**, **Draf
 
 Aprenda a configurar un evento y a especificar su punto final de reproducción y la carga útil.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431518?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprenda los casos de uso aplicables a los eventos empresariales. Obtenga información sobre cómo crear un recorrido mediante un evento empresarial y las prácticas recomendadas que se deben aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416328?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

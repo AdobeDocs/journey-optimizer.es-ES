@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: pasos, configuración, recorrido, eventos, flujo, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '298'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,10 @@ Para configurar los eventos que se enviarán a **[!UICONTROL API de ingesta de t
 
 1. Obtenga la URL de entrada desde las API de Adobe Experience Platform. Obtenga más información en [Resumen de API de ingesta de transmisión](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es){target="_blank"}.
 1. Copie la carga útil de la previsualización de carga útil en el menú **[!UICONTROL Evento]**. Obtenga más información en [esta página](../event/about-creating.md#define-the-payload-fields).
+
+>[!IMPORTANT]
+>
+>Para conocer los requisitos y limitaciones de eventos (flujo continuo, servicio de consultas, ingesta por lotes), consulte [protecciones de Recorrido: eventos](../start/guardrails.md#events-g).
 
 A continuación, debe configurar el sistema de datos que inserta eventos en las API de ingesta de transmisión mediante la carga útil copiada:
 
@@ -90,4 +94,4 @@ Este es un ejemplo de evento de API de ingesta de transmisión:
 
 Para facilitar la identificación del lugar donde pegar la parte de &quot;datos&quot;, puede utilizar una herramienta de visualización JSON como [formateador JSON](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-Para solucionar problemas de las API de ingesta de transmisión, consulte [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=es){target="_blank"}.
+Para solucionar problemas de las API de ingesta de transmisión, consulte [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.
