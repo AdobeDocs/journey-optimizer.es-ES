@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 redpen-status: CREATED_||_2025-08-11_21-17-32
 exl-id: 5dce56d9-0c3d-4eb1-8d44-d69a98925e8c
-source-git-commit: 56faee8badff99ff9a39cfd85a78c1ed272cd2ca
+source-git-commit: 09343aa0f64a71070dbfda178fbf96b238a6bc27
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ Las zonas protegidas de Adobe Journey Optimizer son como espacios de trabajo vir
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Administrar y asignar zonas protegidas
 
@@ -32,7 +32,7 @@ Obtenga información sobre cómo administrar y asignar zonas protegidas para la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Copiar objetos entre zonas protegidas
 
