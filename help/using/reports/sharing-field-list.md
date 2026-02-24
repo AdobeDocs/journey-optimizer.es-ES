@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 4f13f863a5e08cc0e92c26d782d888f0d6d2fea4
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 9%
@@ -99,7 +99,7 @@ A continuación encontrará definiciones, causas comunes y pasos de solución de
 
   **Causas comunes**: Eventos duplicados, volumen de evento alto, restricciones de recursos del sistema.
 
-  **Solución de problemas**: Implemente la anulación de duplicación, evite los picos de tráfico, optimice el diseño del recorrido y póngase en contacto con el servicio de asistencia si persiste.
+  **Solución de problemas**: Implemente la anulación de duplicación, evite los picos de tráfico, optimice el diseño del recorrido y [póngase en contacto con el servicio de asistencia](../start/user-interface.md#support-ticket-guidelines) si es persistente.
 
 * **EVENT_WITH_NO_RECORRIDO**: se recibió un evento, pero no se configuró ningún recorrido activo para responderlo
 

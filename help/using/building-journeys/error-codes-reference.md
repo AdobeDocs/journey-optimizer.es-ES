@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: error, códigos, resolución de problemas, recorrido, campaña, mensajes
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2383'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Estos errores se producen durante la ejecución del recorrido, el procesamiento 
 
 | Código de error | Descripción | Causa principal | Resolución |
 |------------|-------------|-----------|-----------|
-| **CJMRT-110001-500** | Se ha superado el máximo de ejecuciones para el paso del flujo de trabajo (por ejemplo, se agota el tiempo de espera del aprovisionamiento de afinidad IP) | El trabajo de flujo de trabajo/aprovisionamiento no se completó dentro de los reintentos/tiempo permitido, a menudo debido a un retraso de la infraestructura/servicio o a un problema temporal del servidor | &#x200B;1. Inténtelo de nuevo más tarde<br/>2. Comprobar [estado de Adobe](https://status.adobe.com/es) para detectar interrupciones<br/>3. Comuníquese con la Asistencia de Adobe con los detalles de flujo de trabajo/trabajo/organización<br/>4. Proporcione registros y capturas de red si están disponibles <br/><br/>**Documentación relacionada**: [Solución de problemas del Recorrido](troubleshooting.md) |
+| **CJMRT-110001-500** | Se ha superado el máximo de ejecuciones para el paso del flujo de trabajo (por ejemplo, se agota el tiempo de espera del aprovisionamiento de afinidad IP) | El trabajo de flujo de trabajo/aprovisionamiento no se completó dentro de los reintentos/tiempo permitido, a menudo debido a un retraso de la infraestructura/servicio o a un problema temporal del servidor | &#x200B;1. Inténtelo de nuevo más tarde<br/>2. Compruebe si hay interrupciones en [Adobe Status](https://status.adobe.com/es)<br/>3. Comuníquese con la Asistencia de Adobe con los detalles de flujo de trabajo/trabajo/organización<br/>4. Proporcione registros y capturas de red si están disponibles <br/><br/>**Documentación relacionada**: [Solución de problemas del Recorrido](troubleshooting.md) |
 | **CJMRT-000071-400** | Solicitud incorrecta durante el evento de recorrido/prueba o llamada de API | Faltan parámetros o la carga útil está mal formada; la entrada hace referencia a un recurso inexistente o inactivo | &#x200B;1. Revise el cuerpo de la solicitud para obtener detalles del error<br/>2. Referencia/parámetro correcto<br/>3. Quitar la configuración avanzada y reintentar<br/>4. Vuelva a agregar características una por una para identificar el problema <br/><br/>**Documentación relacionada**: [Solución de problemas del Recorrido](troubleshooting.md), [Configuración de eventos](../event/about-events.md) |
 | **CJMRT-000013-401** | Error no autorizado durante la operación/evento de API de tiempo de ejecución del mensaje | Error de autenticación: el token ha caducado, faltan permisos o el usuario/integración ha perdido el acceso al entorno | &#x200B;1. Compruebe los permisos y funciones<br/>2. Actualizar token de autenticación<br/>3. Use una cuenta de usuario/servicio válida conocida<br/>4. Revisar asignaciones de perfiles de productos <br/><br/>**Documentación relacionada**: [Permisos](../administration/permissions.md) |
 | **CJMRT-080605-400** | Solicitud incorrecta desde el tiempo de ejecución de la recorrido (por ejemplo, déclencheur de nodo, acción, etc.) | La configuración hace referencia a una función, plantilla o canal desactualizados o eliminados o con un nombre cambiado | &#x200B;1. Validar todas las referencias de recursos<br/>2. Auditar la configuración del recorrido y los indicadores de características<br/>3. Actualizar referencias rotas<br/>4. Revise las actualizaciones y migraciones recientes del sistema <br/><br/>**Documentación relacionada**: [Creación de Recorridos](journey-gs.md) |
@@ -83,7 +83,7 @@ Estos errores se producen al crear, editar o publicar mensajes, ajustes preestab
 | Código de error | Descripción | Causa principal | Resolución |
 |------------|-------------|-----------|-----------|
 | **CJMMAS-1732-500** | La prueba ha fallado: todos los recursos no se publican al enviar la prueba o la prueba con el recurso de AEM | El recurso publicado recientemente aún no está en AJO; ID de recurso no coincide; uso de varios repositorios; retraso de sincronización de AEM | &#x200B;1. Use solamente los ID de recurso publicados del repositorio o entorno correcto<br/>2. Deje tiempo para la sincronización entre AEM y AJO<br/>3. Vuelva a intentarlo con un recurso de funcionalidad comprobada<br/>4. Verificar el estado de publicación de recursos en AEM <br/><br/>**Documentación relacionada**: [Integración de Assets](../integrations/assets.md) |
-| **CJMMAS-1069-500** | Error interno al guardar o publicar la plantilla de mensaje | Excepción back-end (error de infraestructura/servicio o problema de contenido); marcado o función no compatible | &#x200B;1. Simplifique o reduzca la complejidad de la plantilla<br/>2. Vuelva a agregar contenido en pasos incrementales para identificar el problema<br/>3. Comprueba la [página de estado de Adobe](https://status.adobe.com/es)<br/>4. Quitar características o marcas no compatibles <br/><br/>**Documentación relacionada**: [Plantillas de contenido](../content-management/content-templates.md) |
+| **CJMMAS-1069-500** | Error interno al guardar o publicar la plantilla de mensaje | Excepción back-end (error de infraestructura/servicio o problema de contenido); marcado o función no compatible | &#x200B;1. Simplifique o reduzca la complejidad de la plantilla<br/>2. Vuelva a agregar contenido en pasos incrementales para identificar el problema<br/>3. Comprueba la [página de Adobe Status](https://status.adobe.com/es)<br/>4. Quitar características o marcas no compatibles <br/><br/>**Documentación relacionada**: [Plantillas de contenido](../content-management/content-templates.md) |
 | **CJMMAS-1149-400** | Solicitud incorrecta al guardar mensaje, ajuste preestablecido o variante | Faltan campos obligatorios en el mensaje o la configuración es incorrecta | &#x200B;1. Rellene todos los campos obligatorios (marcados con asterisco)<br/>2. Validar configuración de mensaje/ajuste preestablecido<br/>3. Comprobar formatos y restricciones de valores de campo<br/>4. Revisar mensajes de validación en la interfaz de usuario <br/><br/>**Documentación relacionada**: [Canal de correo electrónico](../email/get-started-email.md), [Superficies de canal](../configuration/channel-surfaces.md) |
 | **CJMMAS-2073-422** | Entidad no procesable en la edición de ajustes preestablecidos de mensaje | Error de validación, campo no admitido o sintaxis incorrecta | &#x200B;1. Corrija los errores de sintaxis/campo indicados<br/>2. Compare con una configuración de funcionalidad comprobada<br/>3. Use la validación de la interfaz de usuario del mensaje antes de guardar<br/>4. Revise los requisitos de campo en la documentación <br/><br/>**Documentación relacionada**: [Ajustes preestablecidos de mensaje](../configuration/channel-surfaces.md), [Configuración de correo electrónico](../email/email-settings.md) |
 | **CJMMAS-1300-500** | Error interno de creación de mensajes | Bloqueo del servidor debido a problemas de infraestructura, contenido de gran tamaño o tiempo de inactividad del servicio | &#x200B;1. Simplificar plantilla/contenido (reducir tamaño/complejidad)<br/>2. Vuelva a intentar la operación<br/>3. Guardar trabajo incrementalmente<br/>4. Si es persistente, envíe al Soporte técnico de Adobe <br/><br/>**Documentación relacionada**: [Plantillas de contenido](../content-management/content-templates.md) |
@@ -139,11 +139,7 @@ Cuando encuentre un código de error, siga este enfoque sistemático:
 
 6. **Reinténtelo cuando corresponda**: Para los errores de la serie 500, un simple reintento después de unos minutos suele resolver problemas transitorios.
 
-7. **Escalar cuando sea necesario**: Si el error persiste después de seguir los pasos de resolución, póngase en contacto con el Soporte técnico de Adobe con:
-   * Código de error completo
-   * ID de solicitud (si está disponible)
-   * Pasos a reproducir
-   * Detalles de configuración relevantes
+7. **Escalar cuando sea necesario**: Si el error persiste después de seguir los pasos de resolución, [póngase en contacto con el Soporte técnico de Adobe](../start/user-interface.md#support-ticket-guidelines) con el código de error completo, el ID de solicitud (si está disponible), los pasos para reproducir y los detalles de configuración relevantes.
 
 ## Prácticas recomendadas para evitar errores comunes {#best-practices}
 
@@ -187,14 +183,14 @@ Si encuentra errores persistentes que no se pueden resolver con esta guía:
 1. **Recopilar información**: recopile el código de error, el identificador de solicitud, las marcas de tiempo y los pasos para reproducir
 2. **Comprobar el estado del sistema**: Visite [Adobe Status](https://status.adobe.com/es){target="_blank"} para ver problemas de servicio conocidos
 3. **Documentación de búsqueda**: revise [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es){target="_blank"} para obtener soluciones
-4. **Participación de la comunidad**: publique preguntas en la [[!DNL Adobe Journey Optimizer] comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}
-5. **Póngase en contacto con el Soporte técnico de Adobe**: Envíe un ticket de asistencia con todos los detalles relevantes
+4. **Participación de la comunidad**: publique preguntas en la [[!DNL Adobe Journey Optimizer] comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+5. **Póngase en contacto con el Soporte técnico de Adobe**: [Envíe un ticket de asistencia](../start/user-interface.md#support-ticket-guidelines) con todos los detalles relevantes
 
 >[!NOTE]
 >
->Esta referencia de código de error se actualiza continuamente a medida que se identifican y documentan nuevos códigos. Para obtener la información más actual, consulte los [[!DNL Adobe Journey Optimizer] blogs de la comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=es){target="_blank"} con regularidad.
+>Esta referencia de código de error se actualiza continuamente a medida que se identifican y documentan nuevos códigos. Para obtener la información más actual, consulte los [[!DNL Adobe Journey Optimizer] blogs de la comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"} con regularidad.
 
 **Temas relacionados**
 
-* [Desmitificando [!DNL Adobe Journey Optimizer] Códigos de error: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=es){target="_blank"}
-* [Desmitificando [!DNL Adobe Journey Optimizer] Códigos de error: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=es){target="_blank"}
+* [Desmitificando [!DNL Adobe Journey Optimizer] Códigos de error: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Desmitificando [!DNL Adobe Journey Optimizer] Códigos de error: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}

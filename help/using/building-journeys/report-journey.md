@@ -10,7 +10,7 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -62,7 +62,7 @@ Si no ve los datos esperados en sus informes de recorrido, tenga en cuenta lo si
 
 * **Estado del Recorrido**: los datos del informe solo están disponibles para los recorridos publicados o los recorridos que se ejecutan en [Modo de ejecución en seco](journey-dry-run.md). Los recorridos de borrador no generan datos de informes.
 
-Si los problemas persisten después de comprobar estos elementos, póngase en contacto con el administrador de Adobe o con el servicio de asistencia de Adobe para obtener ayuda.
+Si los problemas persisten después de comprobar estos elementos, póngase en contacto con el administrador de Adobe o con el [soporte técnico de Adobe](../start/user-interface.md#support-ticket-guidelines) para obtener ayuda.
 
 >[!MORELIKETHIS]
 >

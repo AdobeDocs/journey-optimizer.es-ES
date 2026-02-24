@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 100%
+source-wordcount: '1237'
+ht-degree: 91%
 
 ---
 
@@ -103,7 +103,19 @@ Haga clic en el icono **Ayuda** para:
 * Ponerse en contacto con el Servicio de atención al cliente de Adobe
 * Compartir comentarios
 
+La ayuda contextual muestra directrices relevantes para la pantalla que está viendo y vínculos directamente a la documentación correspondiente, para que pueda obtener la información correcta sin abandonar el flujo de trabajo.
+
 ![Ejemplo de ayuda contextual](assets/do-not-localize/Context-help.gif)
+
+### Directrices de tickets de asistencia {#support-ticket-guidelines}
+
+Al ponerse en contacto con el soporte de Adobe, incluya lo siguiente para acelerar el análisis y la resolución de las causas principales:
+
+* **Detalles del entorno**: nombre de la zona protegida, ID de organización y área de producto (por ejemplo, Recorridos, campañas, toma de decisiones)
+* **Nivel de impacto**: gravedad del problema (por ejemplo, producción bloqueada, funcionalidad limitada, cosmético)
+* **Pasos de replicación**: instrucciones paso a paso y claras para reproducir el problema
+* **Registros o capturas de pantalla**: mensajes de error relevantes, ID de solicitud o capturas de pantalla que ilustran el problema
+* **ID relevantes**: ID de Recorrido, ID de campaña, ID de audiencia u otros identificadores de objeto relacionados con el problema
 
 ### Notificaciones {#notifications}
 
