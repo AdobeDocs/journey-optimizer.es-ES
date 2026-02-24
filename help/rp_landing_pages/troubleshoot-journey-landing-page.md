@@ -5,10 +5,10 @@ title: Solución de problemas
 description: Solución de problemas
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
-workflow-type: ht
-source-wordcount: '504'
-ht-degree: 100%
+source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
+workflow-type: tm+mt
+source-wordcount: '532'
+ht-degree: 94%
 
 ---
 
@@ -49,7 +49,7 @@ Acceda a informes clave para monitorizar el rendimiento del recorrido, analizar 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Acceso y suscripción a alertas del sistema
 
@@ -59,7 +59,7 @@ Descubra cómo acceder a las alertas del sistema, suscribirse a notificaciones y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referencia de códigos de error
 
@@ -69,7 +69,7 @@ Comprenda los códigos de error comunes en Adobe Journey Optimizer y encuentre s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Solucionar errores antes de probar o publicar el recorrido
 
@@ -79,7 +79,7 @@ Identifique y resuelva errores en todo el recorrido, problemas de actividad, y e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Solución de problemas de la ejecución del recorrido activo
 
@@ -89,7 +89,7 @@ Diagnostique problemas con la validación de eventos, la entrada de perfiles, la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Solución de problemas de acciones de entrada en recorridos
 
@@ -99,13 +99,23 @@ Depure los problemas de las acciones de envío, como la falta de contenido o la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Solución de problemas de acciones personalizadas
 
 Valide y depure las acciones personalizadas mediante la función **Enviar solicitud de prueba** para asegurarse de que las llamadas de API y la configuración de autenticación sean correctas.
 
 [Validar acciones personalizadas](../using/action/troubleshoot-custom-action.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+
+Directrices de vale de soporte
+
+Aprenda qué debe incluir al ponerse en contacto con el servicio de asistencia de Adobe (detalles del entorno, nivel de impacto, pasos de replicación, registros o capturas de pantalla e ID relevantes) para acelerar la resolución.
+
+[Directrices de tickets de asistencia](../using/start/user-interface.md#support-ticket-guidelines)
 :::
 
 ::::
