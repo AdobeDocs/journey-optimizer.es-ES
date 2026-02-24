@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3090'
 ht-degree: 98%
 
 ---
@@ -215,8 +215,7 @@ ht-degree: 98%
          + [Captar clientes mediante la actividad de navegación](using/orchestrated/engage-customers-uc.md)
          + [Notificar a los usuarios sobre la disponibilidad del producto](using/orchestrated/product-availability-uc.md)
 + Conflicto y priorización {#conflict-prioritization}
-   + [Administración de conflictos y priorización](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
-   + [Introducción a la administración y priorización de conflictos](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [Administración de conflictos y priorización](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificar posibles conflictos](using/conflict-prioritization/conflicts.md)
    + [Asignar puntuaciones de prioridad](using/conflict-prioritization/priority-scores.md)
    + Establecimiento de reglas de límite de mensajes y recorridos {#capping-rules}
@@ -852,7 +851,7 @@ ht-degree: 98%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
@@ -861,7 +860,6 @@ ht-degree: 98%
    + [Creación de configuraciones de canal](using/configuration/channel-surfaces.md)
    + [Exportar contenido del mensaje](using/configuration/message-export.md)
    + Configuración de canales guiada {#guided-setup}
-      + [Configuración de canales guiada](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [Introducción a la configuración de canales guiada](using/configuration/set-mobile-config.md)
       + [Creación de una configuración de canal](using/configuration/create-channel-set-up.md)
    + Delegar subdominios de correo electrónico {#delegate-subdomains}
@@ -930,7 +928,6 @@ ht-degree: 98%
       + [Acción en recorridos de las versiones 7 y 8 de Campaign](using/action/acc-action.md)
       + [Acción de Marketo Engage en recorridos](using/action/marketo-engage.md)
    + Administración de zonas protegidas {#sandbox}
-      + [Administración de zonas protegidas](/help/rp_landing_pages/sandbox-landing-page.md)
       + [Uso y asignación de zonas protegidas](using/administration/sandboxes.md)
       + [Exportación de objetos a otra zona protegida](using/configuration/copy-objects-to-sandbox.md)
    + [Configurar el Conector de fuentes](using/start/get-started-sources.md)
