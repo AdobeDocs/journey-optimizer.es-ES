@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -26,8 +26,9 @@ La página del informe se muestra con las siguientes pestañas:
 * [Recorridos](#journey)
 * [Campañas](#campaign)
 * [Canales](#channel)
+* [Conjuntos de reglas](#rule-sets)
 
-Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Características destacadas {#highlights}
 
@@ -57,7 +58,7 @@ Los KPI **[!UICONTROL Características destacadas]** sirven como un tablero comp
 
 +++
 
-## Recorrido  {#journey}
+##  Recorrido  {#journey}
 
 ![](assets/cja-channel-journeys.png)
 
@@ -132,3 +133,27 @@ La tabla **[!UICONTROL Errores salientes]** le permite identificar los errores p
 ![](assets/cja-channels-outbound-excluded.png)
 
 La tabla **[!UICONTROL Exclusiones salientes]** presenta una vista completa de los diferentes factores que tuvieron como resultado la exclusión de perfiles de usuario de la audiencia de destino, lo que resultó en que el mensaje no se recibiera.
+
+## Límite de recorrido y conflictos {#rule-sets}
+
+La tabla **[!UICONTROL Límite de Recorrido y conflictos]** proporciona información sobre el rendimiento de los conjuntos de reglas de mediación de recorrido, mostrando las entradas y exclusiones de recorrido en función de las reglas de límite y las puntuaciones de prioridad aplicadas a los recorridos.
+
++++ Más información sobre las Métricas de conjuntos de reglas
+
+La columna **[!UICONTROL Entradas de Recorrido por conjunto de reglas]** muestra el número de perfiles que ingresaron al recorrido. Hay tres tipos de entradas:
+
+* ****[!UICONTROL Sin conflicto]****: el perfil entró en la recorrido sin ningún conflicto en el conjunto de reglas. Ningún conjunto de reglas activo impidió esta entrada, y la entrada de recorrido se produjo independientemente de las reglas de mediación.
+
+* **Prioridad más alta**: el perfil entró en el recorrido debido a que tiene mayor prioridad que otros recorridos de la competencia. Aunque se ha producido un conflicto (el perfil se clasifica para varios recorridos), este recorrido se ha seleccionado debido a su mayor puntuación de prioridad.
+
+* **No obligatorio**: El perfil entró en la recorrido, pero el conjunto de reglas no estaba activo o no se aplicaba a esta entrada de recorrido en el momento de la entrada.
+
+La columna **[!UICONTROL Exclusiones]** muestra el número de perfiles que se excluyeron de la entrada al recorrido. Los perfiles se pueden excluir por dos motivos:
+
+* **Se ha alcanzado el límite**: El perfil ha alcanzado el número máximo de entradas de recorrido o recorridos simultáneos permitidos por la regla de límite.
+
+* **Prioridad más baja**: no se ha alcanzado el límite, pero otros recorridos de prioridad más alta cumplen las restricciones. El perfil se ha excluido de este recorrido y, en su lugar, ha introducido un recorrido de prioridad más alto.
+
++++
+
+➡️ [Más información acerca de la restricción y arbitraje de recorridos](../conflict-prioritization/journey-capping.md)

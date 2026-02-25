@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 5%
@@ -129,7 +129,7 @@ Para definir criterios directamente desde la interfaz, siga los pasos a continua
 
 1. Haga clic en **[!UICONTROL Crear]** para completar la fórmula de clasificación. Ahora puede seleccionarlo en la lista para ver sus detalles y editarlo o eliminarlo. Está listo para usarse en una [estrategia de selección](../selection-strategies.md) para clasificar los elementos de decisión elegibles.
 
-### Ejemplo de fórmula de clasificación
+### Ejemplo de fórmula de clasificación {#ranking-formula-example}
 
 Consideremos el ejemplo siguiente:
 
