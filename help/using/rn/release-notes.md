@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f1c324ec00aaa077c924635558170e2c352cbb41
+source-git-commit: 9922f8cfeed40e826142d8201e0a1071a1099d75
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1598'
 ht-degree: 36%
 
 ---
@@ -33,7 +33,7 @@ Las secciones [Nuevas funcionalidades](#feb-26-01-features) y [Mejoras](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -336,11 +336,10 @@ Las funciones y mejoras siguientes están previstas para su lanzamiento en febre
 
 ### Mejoras {#coming-soon-improv}
 
-<!--* **Experience Decisioning preview in Code-based Experience channel** - You can now preview decision items when configuring Experience Decisioning with the Code-based Experience channel. Preview is available directly in the authoring interface before going live.
+* **Vista previa de Experience Decisioning en el canal de experiencia basado en código**: ahora puede obtener una vista previa de los elementos de decisión al configurar Experience Decisioning con el canal de experiencia basado en código. La vista previa está disponible directamente en la interfaz de creación antes de lanzarse.
 
-  Availability date: early March, 2026.-->
+  Fecha de disponibilidad: jueves, 18 de febrero de 2026
 
 * **Integración de modelos Firefly personalizados y modelos de generación de imágenes de terceros**: permita la integración perfecta de modelos Firefly estándar y personalizados, junto con modelos de imágenes de terceros aprobados (por ejemplo, NanoBanana), para proporcionar mayor flexibilidad, control y alineación de marca al generar imágenes. Esto le permite seleccionar el mejor modelo para cada caso de uso: Firefly estándar para necesidades generales, Firefly personalizado para la generación sin marca o modelos de terceros aprobados para escenarios especializados o experimentales.
 
   Fecha de disponibilidad: principios de marzo de 2026.
-
