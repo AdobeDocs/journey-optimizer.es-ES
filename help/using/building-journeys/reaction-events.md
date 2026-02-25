@@ -10,7 +10,7 @@ level: Intermediate
 keywords: recorrido, eventos, reaction, seguimiento, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 10%
@@ -40,7 +40,7 @@ Puede usar la actividad **[!UICONTROL Reacción]** para realizar una acción cua
 
 Siga estos pasos para configurar los eventos de reacción:
 
-1. Coloque una actividad **[!UICONTROL Reaction]** **inmediatamente** después de una [actividad de acción del canal](journeys-message.md) en el lienzo del recorrido.
+1. Coloque una actividad **[!UICONTROL Reaction]** **inmediatamente** después de una [actividad de acción del canal](journey-action.md) en el lienzo del recorrido.
 1. Agregue una **[!UICONTROL Etiqueta]** a la reacción. Este paso es opcional.
 1. En la lista desplegable, seleccione la actividad de acción a la que desee reaccionar. Puede seleccionar cualquier actividad de acción colocada en los pasos anteriores de la ruta.
 1. En función de la acción seleccionada, elija a qué desea reaccionar.
@@ -48,7 +48,7 @@ Siga estos pasos para configurar los eventos de reacción:
 
 ## Mecanismos de protección y limitaciones {#guardrails-limitations}
 
-* Una actividad **[!UICONTROL Reaction]** debe colocarse **inmediatamente** después de una [actividad de acción del canal](journeys-message.md) en el lienzo de recorrido.
+* Una actividad **[!UICONTROL Reaction]** debe colocarse **inmediatamente** después de una [actividad de acción del canal](journey-action.md) en el lienzo de recorrido.
 * No puede usar una actividad **[!UICONTROL Reaction]** si no hay ninguna actividad de acción del canal antes de ella.
 * No se admite la colocación de una actividad **[!UICONTROL Wait]** o cualquier otra actividad entre la acción del canal y la actividad **[!UICONTROL Reaction]**, lo que puede provocar que la reacción no funcione según lo esperado.
 * Los eventos de reacción solo pueden rastrear mensajes enviados dentro del mismo recorrido. No pueden realizar el seguimiento de mensajes que tienen lugar en un recorrido diferente.

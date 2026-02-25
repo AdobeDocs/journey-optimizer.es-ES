@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Uso de la actividad recorrido de acción
-description: Aprenda a añadir una actividad de acción genérica para configurar acciones únicas y grupos de acciones entrantes de varias acciones dentro del lienzo de recorrido.
+title: Uso de la actividad Acción
+description: Obtenga información sobre cómo añadir una actividad de acción genérica para configurar acciones únicas y grupos de acciones entrantes de varias acciones dentro del lienzo de recorrido, y cómo añadir acciones de canal integradas.
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 12%
+source-wordcount: '1455'
+ht-degree: 9%
 
 ---
 
@@ -22,25 +22,29 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="Actividad de acción"
->abstract="La actividad genérica **Acción** le permite configurar una sola acción de canal nativo y varias actividades entrantes con la capacidad de añadir la optimización a cualquier acción de canal integrada."
+>abstract="La actividad **Acción** le permite configurar una sola acción de canal nativo y varias actividades entrantes con la capacidad de agregar optimización a cualquier acción de canal integrada."
 
 [!DNL Journey Optimizer] viene con una nueva actividad **Action** genérica que permite configurar una sola acción de canal integrada y también varias actividades entrantes.
 
-Permite lo siguiente:
+La actividad Action ofrece:
 
 * Una configuración de acción nativa simplificada dentro del lienzo de recorrido.
 * La capacidad para crear grupos de acciones entrantes de varias acciones.
 * Capacidad de añadir optimización a cualquier acción de canal integrada.
 
->[!NOTE]
+Para agregar una acción de canal integrada al recorrido, usa la actividad **Action**. Esta actividad unificada consolida todas las acciones de canal (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido) en un solo tipo de actividad, sustituyendo a las actividades de canal individuales anteriores.
+
+>[!IMPORTANT]
 >
->Ahora se puede acceder a todos los canales nativos a través de la actividad recorrido de acción. Las actividades heredadas del canal nativo quedarán obsoletas con la versión de marzo. Los recorridos existentes que incluyen acciones heredadas seguirán funcionando tal cual; no se requiere ninguna migración.
+>Dado que ahora se puede acceder a todos los canales nativos a través de la actividad de acción, las actividades de canal nativo heredadas quedarán obsoletas con la versión de marzo. Los recorridos existentes que incluyen acciones heredadas seguirán funcionando tal cual; no se requiere ninguna migración.
 
 También puede configurar acciones personalizadas para enviar los mensajes en [!DNL Journey Optimizer]. [Más información](#recommendation)
 
-## Añadir una acción a un recorrido  {#add-action}
+## Añadir una acción de canal integrada a un recorrido  {#add-action}
 
-Para añadir una acción de canal integrada a un recorrido, siga los pasos a continuación.
+Para agregar una acción de canal integrada al recorrido mediante la actividad **[!UICONTROL Action]**, siga los pasos a continuación.
+
+Para obtener más información sobre los canales disponibles en recorrido, consulte la tabla de esta sección: [Canales en recorridos y campañas](../channels/gs-channels.md#channels).
 
 1. Inicie el recorrido con una actividad [Event](general-events.md) o [Read Audience](read-audience.md).
 
@@ -62,7 +66,92 @@ Para añadir una acción de canal integrada a un recorrido, siga los pasos a con
 
 1. Si ha seleccionado un canal entrante, puede añadir varias acciones. [Más información](#multi-action)
 
-1. Configure la actividad según el canal seleccionado. Aprenda a configurar acciones de canal integradas en [esta sección](journeys-message.md).
+1. Configure la actividad según el canal seleccionado. Encontrará instrucciones de configuración detalladas en los vínculos siguientes.
+
+   * Conozca los pasos detallados para crear su acción saliente de la siguiente manera:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../email/create-email.md">
+      <img alt="Posible cliente" src="../assets/do-not-localize/email.jpg">
+      </a>
+      <div><a href="../email/create-email.md"><strong>Creación de correos electrónicos</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../push/create-push.md">
+      <img alt="Poco frecuente" src="../assets/do-not-localize/push.jpg">
+      </a>
+      <div>
+      <a href="../push/create-push.md"><strong>Creación de notificaciones push<strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../sms/create-sms.md">
+      <img alt="Validación" src="../assets/do-not-localize/sms.jpg">
+      </a>
+      <div>
+      <a href="../sms/create-sms.md"><strong>Crear mensajes de texto (SMS/MMS)</strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   * Conozca los pasos detallados para crear su acción entrante de la siguiente manera:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../in-app/create-in-app.md">
+      <img alt="Posible cliente" src="../assets/do-not-localize/in-app.jpg">
+      </a>
+      <div><a href="../in-app/create-in-app.md"><strong>Crear mensajes en la aplicación</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../web/create-web.md">
+      <img alt="Posible cliente" src="../assets/do-not-localize/web-create.jpg">
+      </a>
+      <div><a href="../web/create-web.md"><strong>Crear experiencias web</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../content-card/create-content-card.md">
+      <img alt="Posible cliente" src="../assets/do-not-localize/sms-config.jpg">
+      </a>
+      <div><a href="../content-card/create-content-card.md"><strong>Creación de tarjetas de contenido</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../code-based/create-code-based.md">
+      <img alt="Poco frecuente" src="../assets/do-not-localize/web-design.jpg">
+      </a>
+      <div>
+      <a href="../code-based/create-code-based.md"><strong>Crear experiencias basadas en código<strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   >[!NOTE]
+   >
+   >* Cada acción de experiencia entrante viene con una actividad de **Espera** de 3 días. [Más información](wait-activity.md#auto-wait-node)
+   >
+   >* Para los correos electrónicos y las notificaciones push, puede activar la Optimización del tiempo de envío. [Más información](send-time-optimization.md)
+
+1. Según la actividad, puede mostrar parámetros avanzados específicos del canal seleccionado y anular algunos valores predeterminados como la dirección de ejecución. [Más información](about-journey-activities.md#advanced-parameters)
+
+   >[!NOTE]
+   >
+   >Si los parámetros avanzados están ocultos, haga clic en el botón **[!UICONTROL Mostrar campos de solo lectura]** situado en la parte superior del panel derecho.
 
 1. Use la sección **[!UICONTROL Optimización]** para ejecutar experimentos de contenido, aprovechar reglas de segmentación o usar combinaciones avanzadas de experimentación y segmentación.
 
@@ -178,7 +267,32 @@ Para definir varias acciones entrantes en un solo nodo de acción de recorrido, 
 1. Continúe de la misma manera para agregar más acciones. Puede añadir hasta 10 acciones entrantes en un grupo de acciones de recorrido.
 
 Una vez que el recorrido esté [activo](publish-journey.md), todas las acciones se activarán simultáneamente.
-<!--
-## Next steps {#next}
 
-Once your action is configured, you can design its content. [Learn more]-->
+## Actualización de contenido en directo {#update-live-content}
+
+Puede actualizar el contenido de una acción de canal integrada en un recorrido en directo.
+
+Los cambios realizados en el contenido no se reflejarán en el recorrido hasta que guarde las propiedades de la acción. [Más información](about-journey-activities.md#advanced-parameters)
+
+Para ello, abre el recorrido en vivo, selecciona la actividad del canal y haz clic en **Editar contenido**.
+
+![Botón Editar actividad de canal en recorrido en vivo](assets/email-action-edit-content.png)
+
+Sin embargo, no se pueden cambiar los atributos utilizados en la personalización, ya sean atributos de perfil o datos contextuales (de propiedades de evento o recorrido).
+
+* Si ha modificado datos contextuales, se mostrará el siguiente mensaje de error: `ERR_AUTHORING_JOURNEYVERSION_201`
+
+* Si ha modificado los atributos de perfil, se mostrará el siguiente mensaje de error: `ERR_AUTHORING_JOURNEYVERSION_202`
+
+Tenga en cuenta que para la actividad en la aplicación, cualquier cambio se puede realizar en el contenido mientras el recorrido está activo, pero los déclencheur en la aplicación no se pueden modificar.
+
+## Enviar con acciones personalizadas {#recommendation}
+
+En lugar de utilizar las funciones de mensajes integradas, puede utilizar acciones personalizadas para configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API.
+
+* Si utiliza un sistema de terceros para enviar mensajes, puede crear una acción personalizada. [Más información](../action/action.md)
+
+* Si está trabajando con Adobe Campaign, consulte estas secciones:
+
+   * [[!DNL Journey Optimizer] y Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] y Campaign Standard](../action/acs-action.md)

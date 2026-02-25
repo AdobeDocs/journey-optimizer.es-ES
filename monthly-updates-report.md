@@ -6,7 +6,7 @@ description: Lista de páginas de documentación nuevas y actualizadas
 hide: true
 hidefromtoc: true
 exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -154,7 +154,7 @@ ht-degree: 0%
 - [Usar la actividad de recorrido de acción](help/using/building-journeys/journey-action.md) - 14 de octubre
 - [Pausar un recorrido](help/using/building-journeys/journey-pause.md) - 13 de octubre
 - [Introducción a recorrido](help/using/building-journeys/journey.md) - 27 de octubre
-- [Agregar una acción de canal integrada a un recorrido](help/using/building-journeys/journeys-message.md) - 29 de octubre
+- [Agregar una acción de canal integrada a un recorrido](help/using/building-journeys/journey-action.md) - 29 de octubre
 - [Optimizar actividad](help/using/building-journeys/optimize.md) - 22 de octubre
 - [Usar una audiencia en un recorrido](help/using/building-journeys/read-audience.md) - 17 de octubre
 - [Optimización del tiempo de envío](help/using/building-journeys/send-time-optimization.md) - 28 de octubre

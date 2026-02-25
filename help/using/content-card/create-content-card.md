@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 13%
+source-wordcount: '1467'
+ht-degree: 12%
 
 ---
 
@@ -25,13 +25,25 @@ ht-degree: 13%
 
 Para añadir una tarjeta de contenido a un recorrido, siga estos pasos:
 
-1. Abra el recorrido y, a continuación, arrastre y suelte una actividad **[!UICONTROL Tarjeta]** desde la sección **[!UICONTROL Acciones]** de la paleta.
+1. Abra el [recorrido](../building-journeys/journey-gs.md) y, a continuación, arrastre y suelte una actividad **[!UICONTROL Acción]** desde la sección **[!UICONTROL Acciones]** de la paleta. Más información sobre la [actividad de acción](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Dado que ahora se puede acceder a todos los canales nativos a través de la actividad de acción, las actividades de canal nativo heredadas quedarán obsoletas con la versión de marzo. Los recorridos existentes que incluyen acciones heredadas seguirán funcionando tal cual; no se requiere ninguna migración.
+
+1. Seleccione **[!UICONTROL Tarjeta]** como tipo de acción.
 
    ![](assets/content-card-jo-1.png)
 
-1. Escriba una **[!UICONTROL Etiqueta]** y **[!UICONTROL Descripción]** para su mensaje.
+   >[!NOTE]
+   >
+   >Como **Card** es una actividad de experiencia entrante, viene con una actividad de **Espera** de 3 días. [Más información](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Elija su [configuración de la tarjeta de contenido](content-card-configuration.md) para usar.
+1. Escriba una **[!UICONTROL etiqueta]** para identificar la acción en el lienzo de recorrido.
+
+1. Haga clic en el botón **[!UICONTROL Configurar acción]**.
+
+1. Se le dirigirá a la ficha **[!UICONTROL Acciones]**. A partir de ahí, seleccione o cree la configuración de la tarjeta de contenido que desea utilizar. [Más información](content-card-configuration.md)
 
    ![](assets/content-card-jo-2.png)
 
@@ -86,11 +98,11 @@ Para añadir una tarjeta de contenido a un recorrido, siga estos pasos:
 
    1. Haga clic en **[!UICONTROL Crear grupo]** para agrupar los déclencheur.
 
-1. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
+1. Puede agregar una o más acciones entrantes a su tarjeta de contenido si hace clic en el botón **[!UICONTROL Agregar acción]**. [Más información](../building-journeys/journey-action.md#multi-action)
 
-1. Una vez que la tarjeta de contenido esté lista, finalice la configuración y publique el recorrido para activarla.
+1. Volver al lienzo de recorrido. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
 
-Para obtener más información sobre cómo configurar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
+Para obtener más información sobre cómo crear, configurar y publicar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
 
 >[!TAB Agregar tarjetas de contenido a una campaña]
 

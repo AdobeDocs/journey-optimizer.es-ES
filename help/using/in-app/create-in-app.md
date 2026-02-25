@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 71b12ea083d72597c65e8fb2dc3424ffafa77462
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '2076'
-ht-degree: 12%
+source-wordcount: '2178'
+ht-degree: 11%
 
 ---
 
@@ -31,23 +31,31 @@ Tenga en cuenta que los mensajes en la aplicación no se ven afectados por la op
 
 Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 
-1. Abra el recorrido y, a continuación, arrastre y suelte una actividad **[!UICONTROL En la aplicación]** desde la sección **[!UICONTROL Acciones]** de la paleta.
+1. Abra el [recorrido](../building-journeys/journey-gs.md) y, a continuación, arrastre y suelte una actividad **[!UICONTROL Acción]** desde la sección **[!UICONTROL Acciones]** de la paleta. Más información sobre la [actividad de acción](../building-journeys/journey-action.md).
 
-   Cuando un perfil llega al final de su recorrido, los mensajes en la aplicación que se les muestren caducarán automáticamente. Por este motivo, se añade automáticamente una actividad de Espera después de la actividad en la aplicación para garantizar un tiempo de espera adecuado.
+   >[!IMPORTANT]
+   >
+   >Dado que ahora se puede acceder a todos los canales nativos a través de la actividad de acción, las actividades de canal nativo heredadas quedarán obsoletas con la versión de marzo. Los recorridos existentes que incluyen acciones heredadas seguirán funcionando tal cual; no se requiere ninguna migración.
+
+1. Seleccione **[!UICONTROL En la aplicación]** como tipo de acción.
 
    ![](assets/in_app_journey_1.png)
 
-1. Escriba una **[!UICONTROL Etiqueta]** y **[!UICONTROL Descripción]** para su mensaje.
+   >[!NOTE]
+   >
+   >Cuando un perfil llega al final de su recorrido, los mensajes en la aplicación que se les muestren caducarán automáticamente. Por esa razón, se agrega automáticamente una actividad de **Espera** de 3 días después de la acción en la aplicación para garantizar un tiempo de espera adecuado. [Más información](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Elija su [configuración en la aplicación](inapp-configuration.md#channel-prerequisites) para usar.
+1. Escriba una **[!UICONTROL etiqueta]** para identificar la acción en el lienzo de recorrido.
+
+1. Haga clic en el botón **[!UICONTROL Configurar acción]**.
+
+1. Se le dirigirá a la ficha **[!UICONTROL Acciones]**. A partir de ahí, seleccione o cree la configuración en la aplicación que desea utilizar. [Más información](inapp-configuration.md#channel-prerequisites)
 
    ![](assets/in_app_journey_2.png)
 
-1. Ahora puedes empezar a diseñar tu contenido con el botón **[!UICONTROL Editar contenido]**. [Más información](design-in-app.md)
+1. Seleccione el botón **[!UICONTROL Editar contenido]** y cree el contenido como desee. [Más información](design-in-app.md)
 
-1. Haga clic en **[!UICONTROL Editar déclencheur]** para elegir los eventos y criterios que almacenarán el mensaje en déclencheur. Los creadores de reglas permiten a los usuarios especificar criterios y valores que, cuando se cumplen, almacenan en déclencheur un conjunto de acciones, como enviar un mensaje en la aplicación.
-
-   ![](assets/in_app_journey_4.png)
+1. Haga clic en **[!UICONTROL Editar déclencheur]** para elegir los eventos y criterios que almacenarán el mensaje en déclencheur. Los creadores de reglas permiten a los usuarios especificar criterios y valores que, cuando se cumplen, almacenan en déclencheur un conjunto de acciones, como enviar un mensaje en la aplicación. [Más información](design-in-app.md)
 
    1. Haga clic en el menú desplegable de evento para cambiar el Déclencheur si es necesario.
 
@@ -113,11 +121,11 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
       * **[!UICONTROL Mostrar una vez]**: este mensaje aparece solo una vez por sesión de usuario y permanece visible en todas las ventanas o actividades hasta que se cierra. Para limitarlo a una pantalla determinada o hacer que se descarte automáticamente, utilice la lógica personalizada con el delegado de mensajería.
       * **[!UICONTROL Mostrar hasta que se hace clic]**: muestra este mensaje cuando se producen los eventos seleccionados en la lista desplegable **[!UICONTROL déclencheur de la aplicación móvil]** hasta que SDK envíe un evento de interacción con la acción &quot;se hizo clic&quot;.
 
-1. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
+1. Para agregar una o más acciones entrantes al mensaje en la aplicación, haz clic en el botón **[!UICONTROL Agregar acción]**. [Más información](../building-journeys/journey-action.md#multi-action)
 
-1. Una vez que el mensaje en la aplicación esté listo, finalice la configuración y publique el recorrido para activarlo.
+1. Volver al lienzo de recorrido. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
 
-Para obtener más información sobre cómo configurar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
+Para obtener más información sobre cómo crear, configurar y publicar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
 
 >[!NOTE]
 >
@@ -228,6 +236,8 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
    ![](assets/in_app_create_4.png)
 
+Para obtener más información sobre cómo crear, configurar y activar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+
 >[!ENDTABS]
 
 ## Vídeotutoriales{#video}
@@ -236,7 +246,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451885?captions=spa&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +254,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445291/?captions=spa&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
@@ -252,7 +262,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451834/?captions=spa&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
   +++
 

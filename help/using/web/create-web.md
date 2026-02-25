@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1543'
-ht-degree: 18%
+source-wordcount: '1619'
+ht-degree: 17%
 
 ---
 
@@ -45,7 +45,13 @@ Para agregar una actividad **Web** a un recorrido, siga estos pasos:
 
 1. Inicie el recorrido con una actividad [Event](../building-journeys/general-events.md) o [Read Audience](../building-journeys/read-audience.md).
 
-1. Arrastre y suelte una actividad **[!UICONTROL Web]** desde la sección **[!UICONTROL Acciones]** de la paleta.
+1. Arrastre y suelte una actividad **[!UICONTROL Action]** desde la sección **[!UICONTROL Actions]** de la paleta. Más información sobre la [actividad de acción](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Dado que ahora se puede acceder a todos los canales nativos a través de la actividad de acción, las actividades de canal nativo heredadas quedarán obsoletas con la versión de marzo. Los recorridos existentes que incluyen acciones heredadas seguirán funcionando tal cual; no se requiere ninguna migración.
+
+1. Seleccione **[!UICONTROL Web]** como tipo de acción.
 
    ![](assets/web-activity-journey.png)
 
@@ -53,19 +59,21 @@ Para agregar una actividad **Web** a un recorrido, siga estos pasos:
    >
    >Como **Web** es una actividad de experiencia entrante, viene con una actividad de **Espera** de 3 días. [Más información](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Escriba una **[!UICONTROL Etiqueta]** y **[!UICONTROL Descripción]** para su mensaje.
+1. Escriba una **[!UICONTROL etiqueta]** para identificar la acción en el lienzo de recorrido.
 
-1. Seleccione o cree la [configuración web](web-configuration.md) que desea utilizar.
+1. Haga clic en el botón **[!UICONTROL Configurar acción]**.
+
+1. Se le dirigirá a la ficha **[!UICONTROL Acciones]**. A partir de ahí, seleccione o cree la [configuración web](web-configuration.md) que desea utilizar.
 
    ![](assets/web-activity-configuration.png)
 
+1. Puede agregar una o más acciones entrantes a su experiencia web haciendo clic en el botón **[!UICONTROL Agregar acción]**. [Más información](../building-journeys/journey-action.md#multi-action)
+
+1. Volver al lienzo de recorrido. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
+
 1. Seleccione el botón **[!UICONTROL Editar contenido]** y edite el contenido como desee. [Más información](#edit-web-content)
 
-1. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
-
-1. Una vez que la experiencia web esté lista, finalice la configuración y publique el recorrido para activarlo. [Más información](../building-journeys/publish-journey.md)
-
-Para obtener más información sobre cómo configurar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
+Para obtener más información sobre cómo crear, configurar y publicar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
 
 >[!TAB Creación de una campaña web]
 
@@ -230,13 +238,13 @@ Una vez que haya definido la configuración de la campaña web y haya editado el
    >
    >Obtenga más información acerca de la activación de campañas en [esta sección](../campaigns/review-activate-campaign.md).
 
-Su campaña web toma el **[!UICONTROL estado]** [&#x200B; en vivo](../campaigns/manage-campaigns.md#statuses) y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al sitio web.
+Su campaña web toma el **[!UICONTROL estado]** [ en vivo](../campaigns/manage-campaigns.md#statuses) y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al sitio web.
 
 >[!NOTE]
 >
 >Después de hacer clic en **[!UICONTROL Activar]**, los cambios de las campañas web pueden tardar hasta 15 minutos en estar disponibles en el sitio web.
 >
->Si ha definido una programación para su campaña web, tiene el **[!UICONTROL estado]** [&#x200B; programado](../campaigns/manage-campaigns.md#statuses) hasta que se alcance la fecha y la hora de inicio.
+>Si ha definido una programación para su campaña web, tiene el **[!UICONTROL estado]** [ programado](../campaigns/manage-campaigns.md#statuses) hasta que se alcance la fecha y la hora de inicio.
 
 Una vez que la experiencia esté activa, puede monitorizar los recorridos y campañas web. [Más información](monitor-web-experiences.md)
 
@@ -266,4 +274,4 @@ Cuando un recorrido web o una campaña están activos, puede detenerlos para evi
 
 El siguiente vídeo muestra cómo crear una campaña web, configurar sus propiedades, revisarla y publicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449984/?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

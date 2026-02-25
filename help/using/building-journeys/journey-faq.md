@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía, orquestación
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -229,7 +229,7 @@ Sí. Journey Optimizer incluye **acciones de canal integradas** que le permiten 
 
 Para los canales no admitidos de forma nativa, puede usar **acciones personalizadas** para integrarse con plataformas de mensajería externas y enviar mensajes a través de cualquier canal de terceros.
 
-Más información acerca de [mensajes en los recorridos](journeys-message.md) y [acciones personalizadas](using-custom-actions.md).
+Más información acerca de [mensajes en los recorridos](journey-action.md) y [acciones personalizadas](using-custom-actions.md).
 
 +++
 
@@ -265,7 +265,7 @@ Crear un **recorrido activado por evento unitario**:
 
 El recorrido envía automáticamente un déclencheur cada vez que se recibe un evento de compra y envía el correo electrónico de confirmación en tiempo real.
 
-Más información sobre [configuración de eventos](../event/about-events.md) y [acciones de correo electrónico](journeys-message.md).
+Más información sobre [configuración de eventos](../event/about-events.md) y [acciones de correo electrónico](journey-action.md).
 
 +++
 
@@ -300,7 +300,7 @@ Cree un recorrido activado por un evento mediante un evento **[!UICONTROL Reacti
 
 >[!IMPORTANT]
 >
->Los eventos de **[!UICONTROL Reaction]** deben colocarse inmediatamente después de [las acciones del canal](journeys-message.md). No coloque actividades **[!UICONTROL Wait]** entre la acción del canal y la actividad **[!UICONTROL Reaction]**.
+>Los eventos de **[!UICONTROL Reaction]** deben colocarse inmediatamente después de [las acciones del canal](journey-action.md). No coloque actividades **[!UICONTROL Wait]** entre la acción del canal y la actividad **[!UICONTROL Reaction]**.
 
 Obtenga más información sobre [casos de uso de recorrido](jo-use-cases.md) y [eventos de reacción](reaction-events.md).
 
@@ -606,7 +606,7 @@ Sí. Use una **[actividad de condición](condition-activity.md)** para enrutar p
 * Usar [superficies de canal](../configuration/channel-surfaces.md) para administrar las configuraciones de canal
 * Pruebe todas las rutas para garantizar la entrega de mensajes adecuada
 
-Obtenga más información sobre [condiciones](condition-activity.md), [acciones de mensajes](journeys-message.md) y [selección de canales](../channels/gs-channels.md).
+Obtenga más información sobre [condiciones](condition-activity.md), [acciones de mensajes](journey-action.md) y [selección de canales](../channels/gs-channels.md).
 
 +++
 
@@ -932,7 +932,7 @@ Más información sobre [diseño de recorrido](using-the-journey-designer.md) y 
 * Use [modo de prueba](testing-the-journey.md) y [ejecución en seco](journey-dry-run.md) para validar el rendimiento antes de publicar
 * Minimice las llamadas de API externas mediante [acciones personalizadas](using-custom-actions.md) para evitar la latencia y la dependencia de sistemas de terceros
 * Almacenar datos usados con frecuencia en [!DNL Adobe Experience Platform] mediante [búsqueda de conjuntos de datos](dataset-lookup.md) en lugar de realizar llamadas externas, cuando sea posible
-* Revisar y optimizar el rendimiento de [entrega de mensajes](journeys-message.md)
+* Revisar y optimizar el rendimiento de [entrega de mensajes](journey-action.md)
 
 Más información sobre [limitaciones y protecciones](../start/guardrails.md).
 

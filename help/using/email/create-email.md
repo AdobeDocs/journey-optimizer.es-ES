@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: creación, correo electrónico, inicio, recorrido, campaña
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1187'
 ht-degree: 9%
 
 ---
@@ -31,23 +31,35 @@ Para crear un correo electrónico en [!DNL Journey Optimizer], agregue una acci�
 
 >[!TAB Agregar un correo electrónico a un recorrido]
 
-1. Abra el recorrido y, a continuación, arrastre y suelte una actividad **[!UICONTROL Correo electrónico]** desde la sección **[!UICONTROL Acciones]** de la paleta.
+1. Abra el recorrido y, a continuación, arrastre y suelte una actividad **[!UICONTROL Action]** desde la sección **[!UICONTROL Actions]** de la paleta. Más información sobre la [actividad de acción](../building-journeys/journey-action.md).
 
-   <!--You can also use the **[!UICONTROL Action]** activity to add email to a journey—select the Email channel when configuring the action. The **[!UICONTROL Email]** activity will soon be deprecated. [Learn more about the Action activity](../building-journeys/journey-action.md).-->
+   >[!IMPORTANT]
+   >
+   >Dado que ahora se puede acceder a todos los canales nativos a través de la actividad de acción, las actividades de canal nativo heredadas quedarán obsoletas con la versión de marzo. Los recorridos existentes que incluyen acciones heredadas seguirán funcionando tal cual; no se requiere ninguna migración.
 
-1. Proporcione información básica sobre el mensaje (etiqueta, descripción, categoría).
-
-1. Elija o cree la [configuración de correo electrónico](email-settings.md).
+1. Seleccione **[!UICONTROL Correo electrónico]** como tipo de acción.
 
    ![](assets/email_journey.png)
 
-   El campo se rellena previamente de forma predeterminada con la última configuración que el usuario utilizó para ese canal.
+1. Escriba una **[!UICONTROL etiqueta]** para identificar la acción en el lienzo de recorrido.
 
->[!NOTE]
->
->Puede utilizar la opción Optimización del tiempo de envío para predecir el mejor momento para enviar el mensaje y maximizar la participación en función de la apertura histórica y las tasas de clics. [Aprenda a trabajar con la optimización del tiempo de envío](../building-journeys/send-time-optimization.md)
+1. Haga clic en el botón **[!UICONTROL Configurar acción]**.
 
-Para obtener más información sobre cómo configurar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
+1. Se le dirigirá a la ficha **[!UICONTROL Acciones]**. A partir de ahí, seleccione o cree la configuración de correo electrónico que desee utilizar. [Más información](email-settings.md)
+
+   ![](assets/email-action-config.png)
+
+1. Además:
+
+   * Puede aplicar reglas de límite a su acción de correo electrónico seleccionando un conjunto de reglas en la lista desplegable **[!UICONTROL Reglas de negocio]**. [Más información](../conflict-prioritization/channel-capping.md)
+
+   * Puede usar la opción **[!DNL Send time optimization]** para predecir el mejor momento para enviar el mensaje y maximizar la participación en función de la apertura histórica y las tasas de clics. [Descubra cómo](../building-journeys/send-time-optimization.md)
+
+1. Seleccione el botón **[!UICONTROL Editar contenido]** y cree el contenido que desee con el Designer de correo electrónico. [Más información](#define-email-content)
+
+1. Volver al lienzo de recorrido. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
+
+Para obtener más información sobre cómo crear, configurar y publicar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
 
 >[!TAB Agregar un correo electrónico a una campaña]
 
@@ -68,8 +80,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ![](assets/email_campaign_tracking.png)
 -->
-
-Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+Para obtener más información sobre cómo crear, configurar y activar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
@@ -182,7 +193,7 @@ Cuando el correo electrónico esté listo, completa la configuración de tu [rec
 
 >[!NOTE]
 >
->Para realizar un seguimiento del comportamiento de los destinatarios a través de aperturas de correo electrónico o interacciones, asegúrese de que las opciones específicas de la sección **[!UICONTROL Seguimiento]** estén habilitadas en la [actividad de correo electrónico](../building-journeys/journeys-message.md) del recorrido o en el correo electrónico [campaña](../campaigns/create-campaign.md).<!--to move?-->
+>Para realizar un seguimiento del comportamiento de los destinatarios a través de aperturas de correo electrónico o interacciones, asegúrese de que las opciones específicas de la sección **[!UICONTROL Seguimiento]** estén habilitadas en la [actividad de correo electrónico](../building-journeys/journey-action.md) del recorrido o en el correo electrónico [campaña](../campaigns/create-campaign.md).<!--to move?-->
 
 <!--
 

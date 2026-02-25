@@ -10,7 +10,7 @@ level: Intermediate
 keywords: recorridos, limitación
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 39%
@@ -51,7 +51,7 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 
 ## Limitaciones de eventos de reacción {#reaction-limitations}
 
-* Las actividades **[!UICONTROL Reaction]** deben colocarse inmediatamente después de una [actividad de acción del canal](../building-journeys/journeys-message.md) en el lienzo de recorrido. No se admite la colocación de una actividad **[!UICONTROL Wait]** o cualquier otra actividad entre la acción del canal y la actividad **[!UICONTROL Reaction]**, lo que puede provocar que la reacción no funcione según lo esperado. Obtenga más información en [esta sección](../building-journeys/reaction-events.md).
+* Las actividades **[!UICONTROL Reaction]** deben colocarse inmediatamente después de una [actividad de acción del canal](../building-journeys/journey-action.md) en el lienzo de recorrido. No se admite la colocación de una actividad **[!UICONTROL Wait]** o cualquier otra actividad entre la acción del canal y la actividad **[!UICONTROL Reaction]**, lo que puede provocar que la reacción no funcione según lo esperado. Obtenga más información en [esta sección](../building-journeys/reaction-events.md).
 
 ## Limitaciones de fuentes de datos {#data-sources-limitations}
 

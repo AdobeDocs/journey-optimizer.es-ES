@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: recorrido, detección, inicio, unitario, leer público, calificación de público, evento empresarial, tiempo real, programado, por lotes, activado por evento, flujo de trabajo, orquestación, personalización, multicanal
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 93%
@@ -73,7 +73,7 @@ El **[diseñador de recorridos](using-the-journey-designer.md)** es el lienzo vi
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Definir puntos de entrada**
 
@@ -83,17 +83,17 @@ Elegir cómo entran los clientes: a través de un evento, segmento de público o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Envío de mensajes**
 
 Utilice acciones de canal integradas para correo electrónico, push, SMS/MMS, en la aplicación, web y mucho más, todas diseñadas en Journey Optimizer.
 
-[Envío de mensajes en recorridos](journeys-message.md)
+[Envío de mensajes en recorridos](journey-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Añadir lógica y condiciones**
 
@@ -103,7 +103,7 @@ Ramifique su recorrido en función de atributos de perfil, pertenencia a públic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Aprovechamiento de datos**
 
@@ -113,7 +113,7 @@ Utilice datos contextuales de eventos, [!DNL Adobe Experience Platform] o servic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Conectar sistemas externos**
 
@@ -123,7 +123,7 @@ Cree acciones personalizadas para integrar sistemas de terceros para enviar mens
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Añada actividades de orquestación**
 
@@ -214,7 +214,7 @@ Aprenda con ejemplos prácticos que muestran cómo aplicar conceptos de recorrid
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Dé la bienvenida a nuevos suscriptores**
 
@@ -224,7 +224,7 @@ Cuando un cliente se suscriba a su servicio, active un recorrido de bienvenida q
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Optimización del tiempo de envío**
 
@@ -234,7 +234,7 @@ Utilice la IA para enviar correos electrónicos cuando sea más probable que cad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Aumento de envíos**
 
@@ -244,7 +244,7 @@ Aumente gradualmente el volumen del mensaje para aumentar la reputación de su e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmente por día laborable**
 
@@ -254,7 +254,7 @@ Envíe contenido diferente en función del día de la semana en el que los clien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campañas multicanal**
 
@@ -264,7 +264,7 @@ Orqueste experiencias optimizadas en canales de correo electrónico, push, SMS y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Todos los casos de uso**
 
@@ -282,7 +282,7 @@ A medida que se vaya familiarizando con la creación de recorridos, explore esta
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Expresiones avanzadas**
 
@@ -292,7 +292,7 @@ Cree condiciones dinámicas y personalización mediante el editor de expresiones
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Administración de husos horarios**
 
@@ -302,7 +302,7 @@ Gestione públicos globales con ajustes automáticos de zona horaria y tiempos d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Modo de prueba y ensayo**
 
@@ -312,7 +312,7 @@ Valide los recorridos con perfiles de prueba antes de activarlos y previsualice 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Copie a la zona protegida**
 
@@ -322,7 +322,7 @@ Duplique los recorridos en las zonas protegidas para optimizar los flujos de tra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Etiquetas y organización**
 
@@ -332,7 +332,7 @@ Utilice etiquetas para categorizar y filtrar recorridos para una mejor administr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de rendimiento**
 
@@ -349,7 +349,7 @@ Limite el rendimiento del mensaje para administrar la reputación de envío y ev
 
 Obtenga una introducción visual a los componentes del recorrido y aprenda los conceptos básicos de la creación de recorridos en el lienzo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3430353?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **¿Quiere más vídeos?** [Explorar tutoriales de vídeo de recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 

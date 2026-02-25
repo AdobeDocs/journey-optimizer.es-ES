@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: recorridos, actividades, introducción, eventos, acción
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '717'
 ht-degree: 15%
 
 ---
@@ -43,7 +43,7 @@ Las actividades de orquestación son condiciones que ayudan a determinar el sigu
 
 En la paleta, en el lado izquierdo de la pantalla, están disponibles las siguientes actividades de orquestación:
 
-<!--* [Optimize](optimize.md)-->
+* [Optimizar](optimize.md)
 * [Leer audiencia](read-audience.md)
 * [Esperar](wait-activity.md)
 * [Decisión de contenido](content-decision.md)
@@ -57,7 +57,7 @@ Las acciones son lo que desea que ocurra como resultado de algún tipo de décle
 
 En la paleta de la izquierda de la pantalla, debajo de **[!UICONTROL Eventos]** y **[!UICONTROL Orquestación]**, se encuentra la categoría **[!UICONTROL Acciones]**. Estas son las actividades de acción disponibles:
 
-* [Acciones de canal integradas](../building-journeys/journeys-message.md)
+* [Acciones de canal integradas](../building-journeys/journey-action.md) disponibles en la actividad **Acción**
 * [Acciones personalizadas](../building-journeys/using-custom-actions.md)
 * [Salto](../building-journeys/jump.md)
 
@@ -111,7 +111,7 @@ En algunos contextos particulares, puede anular los valores de estos parámetros
 
 ### Añadir una ruta alternativa
 
-Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
+Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]**. Ver [esta sección](../building-journeys/using-the-journey-designer.md#paths)
 
 ![Agregar una opción de ruta alternativa en las propiedades de la actividad de condición](assets/journey42.png)
 
@@ -121,4 +121,4 @@ Antes de probar y publicar el recorrido, compruebe que todas las actividades est
 
 Aprenda a solucionar errores en las actividades y en el recorrido [de esta página](troubleshooting.md).
 
-Consulte también **[Supervisión y solución de problemas](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**.
+Ver también [Supervisión y solución de problemas](../../rp_landing_pages/troubleshoot-journey-landing-page.md)

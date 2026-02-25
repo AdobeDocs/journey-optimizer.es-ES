@@ -7,9 +7,9 @@ feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner
-keywords: contenido, experimento, múltiple, audiencia, tratamiento
+keywords: contenido, experimento, múltiple, público, tratamiento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 462859568ffcacab644d587e328cf92ce053aa00
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1927'
 ht-degree: 6%
@@ -46,7 +46,7 @@ El objetivo aquí es ver si los destinatarios interactuarán con el correo elect
 
 ## Cree su contenido {#campaign-experiment}
 
-1. Comience creando y configurando su [campaña](../campaigns/create-campaign.md) o [recorrido](../building-journeys/journeys-message.md) según sus necesidades.
+1. Comience creando y configurando su [campaña](../campaigns/create-campaign.md) o [recorrido](../building-journeys/journey-action.md) según sus necesidades.
 
 1. Desde la ventana **[!UICONTROL Editar contenido]**, empiece a personalizar el tratamiento A.
 

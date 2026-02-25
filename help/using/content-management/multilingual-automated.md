@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 20%
@@ -224,7 +224,7 @@ Tenga en cuenta que después de configurar las preferencias de idioma, ya no ten
 
 Una vez que haya configurado el proyecto de traducción y la configuración de idioma, estará listo para crear la campaña o el recorrido y personalizar el contenido para las diferentes configuraciones regionales.
 
-1. Comience creando y configurando su notificación por correo electrónico, SMS o push [campaign](../campaigns/create-campaign.md) o [recorrido](../building-journeys/journeys-message.md) según sus necesidades.
+1. Comience creando y configurando su notificación por correo electrónico, SMS o push [campaign](../campaigns/create-campaign.md) o [recorrido](../building-journeys/journey-action.md) según sus necesidades.
 
 1. Una vez creado el contenido principal, haz clic en **[!UICONTROL Guardar]** y vuelve a la pantalla de configuración de la campaña.
 

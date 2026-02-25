@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 12%
+source-wordcount: '615'
+ht-degree: 11%
 
 ---
 
@@ -24,13 +24,15 @@ ht-degree: 12%
 >title="Acción de canal integrada"
 >abstract="Journey Optimizer incluye funcionalidades de acción de canal integradas. Puede simplemente añadir a su recorrido un mensaje (correo electrónico, mensaje de texto (SMS/MMS), push, correo postal) o una actividad de experiencia entrante (aplicación, web, experiencia basada en código, tarjeta de contenido) y definir la configuración y el contenido. A continuación, se ejecuta y envía en el contexto del recorrido."
 
-[!DNL Journey Optimizer] viene con funcionalidades de acción de canal integradas que se utilizan para enviar mensajes: cuando un perfil entra en esta actividad, se les envía un mensaje.
+[!DNL Journey Optimizer] viene con funcionalidades de acción de canal integradas que se utilizan para enviar mensajes. Para agregar una acción de canal integrada al recorrido, arrastre y suelte una actividad de canal y defina su configuración y contenido. A continuación, se ejecuta y envía en el contexto del recorrido.
 
-Para agregar una acción de canal integrada al recorrido, arrastre y suelte una actividad de canal y defina su configuración y contenido. A continuación, se ejecuta y envía en el contexto del recorrido.
+Ahora también se puede acceder a todos los canales nativos a través de la actividad **Action**, que es la forma recomendada de agregar una acción de canal integrada al recorrido. [Más información](journey-action.md)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->También puede configurar acciones personalizadas para enviar los mensajes en [!DNL Journey Optimizer] [Más información](#recommendation)
+>Las actividades heredadas del canal nativo quedarán obsoletas con la versión de marzo. Los recorridos existentes que incluyen acciones heredadas seguirán funcionando tal cual; no se requiere ninguna migración.
+
+También puede configurar acciones personalizadas para enviar los mensajes en [!DNL Journey Optimizer]. [Más información](#recommendation)
 
 ## Añadir un mensaje en un recorrido  {#add-msg-in-journey}
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 2%
@@ -85,7 +85,7 @@ En esta sección, puede establecer las distintas configuraciones regionales para
    >
    >Estos requisitos previos solo son necesarios para los canales de tarjetas de contenido y en la aplicación.
 
-   1. En Recopilación de datos de Adobe Experience Platform, acceda al menú **[!UICONTROL Reglas]** y cree una regla nueva. Encontrará información detallada sobre cómo crear reglas en [!DNL Adobe Experience Platform] [Documentación de recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. En Recopilación de datos de Adobe Experience Platform, acceda al menú **[!UICONTROL Reglas]** y cree una regla nueva. Encontrará información detallada sobre cómo crear reglas en [!DNL Adobe Experience Platform] [Documentación de recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    2. En la sección **[!UICONTROL IF]** de la regla, agregue un evento configurado de la siguiente manera:
 
@@ -143,7 +143,7 @@ Tenga en cuenta que después de configurar las preferencias de idioma, ya no ten
 
 Después de configurar el contenido multilingüe, está listo para crear la campaña o el recorrido y personalizar el contenido para cada una de las configuraciones regionales seleccionadas.
 
-1. Comience creando y configurando su notificación por correo electrónico, SMS o push [campaign](../campaigns/create-campaign.md) o [recorrido](../building-journeys/journeys-message.md) según sus necesidades.
+1. Comience creando y configurando su notificación por correo electrónico, SMS o push [campaign](../campaigns/create-campaign.md) o [recorrido](../building-journeys/journey-action.md) según sus necesidades.
 
    >[!IMPORTANT]
    >

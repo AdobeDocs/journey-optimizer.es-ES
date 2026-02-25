@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 9%
+source-wordcount: '864'
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,13 @@ Para agregar una actividad de **experiencia basada en código** a un recorrido, 
 
 1. Inicie el recorrido con una actividad [Event](../building-journeys/general-events.md) o [Read Audience](../building-journeys/read-audience.md).
 
-1. Arrastre y suelte una actividad de **[!UICONTROL experiencia basada en código]** desde la sección **[!UICONTROL Acciones]** de la paleta.
+1. Arrastre y suelte una actividad **[!UICONTROL Action]** desde la sección **[!UICONTROL Actions]** de la paleta. Más información sobre la [actividad de acción](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Dado que ahora se puede acceder a todos los canales nativos a través de la actividad de acción, las actividades de canal nativo heredadas quedarán obsoletas con la versión de marzo. Los recorridos existentes que incluyen acciones heredadas seguirán funcionando tal cual; no se requiere ninguna migración.
+
+1. Seleccione **[!UICONTROL experiencia basada en código]** como tipo de acción.
 
    ![](assets/code-based-activity-journey.png)
 
@@ -39,9 +45,11 @@ Para agregar una actividad de **experiencia basada en código** a un recorrido, 
    >
    >Como **experiencia basada en código** es una actividad de experiencia entrante, viene con una actividad de **espera** de 3 días. [Más información](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Escriba una **[!UICONTROL Etiqueta]** y **[!UICONTROL Descripción]** para su mensaje.
+1. Escriba una **[!UICONTROL etiqueta]** para identificar la acción en el lienzo de recorrido.
 
-1. Seleccione o cree la configuración de experiencia basada en código que desee utilizar. [Más información](code-based-configuration.md)
+1. Haga clic en el botón **[!UICONTROL Configurar acción]**.
+
+1. Se le dirigirá a la ficha **[!UICONTROL Acciones]**. A partir de ahí, seleccione o cree la configuración de experiencia basada en código que desee utilizar. [Más información](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
 
@@ -53,11 +61,11 @@ Para agregar una actividad de **experiencia basada en código** a un recorrido, 
 
    También puede utilizar una plantilla de contenido existente como base para el contenido de código. Tenga en cuenta que las plantillas disponibles para elegir están enfocadas a HTML o JSON en función de la configuración de canal que se haya elegido previamente. [Aprenda a utilizar las plantillas de contenido](../content-management/use-content-templates.md)
 
-1. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
+1. Puede agregar una o más acciones entrantes a su experiencia basada en código haciendo clic en el botón **[!UICONTROL Agregar acción]**. [Más información](../building-journeys/journey-action.md#multi-action)
 
-1. Una vez que la experiencia basada en código esté lista, finalice la configuración y publique el recorrido para activarla. [Más información](../building-journeys/publish-journey.md)
+1. Volver al lienzo de recorrido. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
 
-Para obtener más información sobre cómo configurar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
+Para obtener más información sobre cómo crear, configurar y publicar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
 
 >[!TAB Creación de una campaña de experiencias basadas en código]
 
@@ -85,7 +93,7 @@ Para empezar a crear tu **experiencia basada en código** a través de una campa
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
-Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+Para obtener más información sobre cómo crear, configurar y activar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 ➡️ [Aprenda a crear una campaña de experiencia basada en código en este vídeo](#video)
 
@@ -145,4 +153,4 @@ Ahora, tan pronto como el desarrollador realice una API o una llamada de SDK par
 
 El siguiente vídeo muestra cómo crear una campaña de experiencia basada en código, configurar sus propiedades, probarla y publicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449456/?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

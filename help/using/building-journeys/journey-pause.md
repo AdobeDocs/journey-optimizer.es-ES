@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 5%
@@ -86,7 +86,7 @@ Cuando un recorrido está en pausa, la administración de perfiles y la ejecuci�
 | [Espera](wait-activity.md) | Mismo comportamiento que en un recorrido activo |
 | [Condición](condition-activity.md) | Mismo comportamiento que en un recorrido activo |
 | [Decisión de contenido](content-decision.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
-| [Acción de canal](journeys-message.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
+| [Acción de canal](journey-action.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
 | [Acción personalizada](../action/action.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
 | [Actualizar perfil](update-profiles.md) y [Saltar](jump.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
 | [Source de datos externos](../datasource/external-data-sources.md) | Mismo comportamiento que en un recorrido activo |
@@ -202,7 +202,7 @@ Cuando reanude este recorrido:
 
 ## Solución de problemas de descartes de perfiles en recorridos pausados {#discards-troubleshoot}
 
-Puede usar el [[!DNL Adobe Experience Platform] servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
+Puede usar el [[!DNL Adobe Experience Platform] servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
 
 * Para los descartes que se producen antes de que el perfil entre en la recorrido, utilice el siguiente código:
 

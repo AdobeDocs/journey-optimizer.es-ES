@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1285'
 ht-degree: 8%
 
 ---
@@ -38,19 +38,31 @@ Examine las pestañas siguientes para aprender a añadir un mensaje de texto (SM
 
 >[!TAB Agregar un mensaje de texto a un Recorrido]
 
-1. Abra el recorrido y arrastre y suelte una actividad SMS desde la sección **Acciones** de la paleta.
+1. Abra el recorrido y arrastre y suelte una actividad **[!UICONTROL Action]** desde la sección **[!UICONTROL Actions]** de la paleta. Más información sobre la [actividad de acción](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Dado que ahora se puede acceder a todos los canales nativos a través de la actividad de acción, las actividades de canal nativo heredadas quedarán obsoletas con la versión de marzo. Los recorridos existentes que incluyen acciones heredadas seguirán funcionando tal cual; no se requiere ninguna migración.
+
+1. Seleccione **[!UICONTROL SMS]** como tipo de acción.
 
    ![](assets/sms_create_1.png)
 
-1. Proporcione información básica sobre el mensaje (etiqueta, descripción, categoría) y, a continuación, elija la configuración de mensaje que desea utilizar.
+1. Escriba una **[!UICONTROL etiqueta]** para identificar la acción en el lienzo de recorrido.
+
+1. Haga clic en el botón **[!UICONTROL Configurar acción]**.
+
+1. Se le dirigirá a la ficha **[!UICONTROL Acciones]**. A partir de ahí, seleccione o cree la configuración de SMS que desea utilizar. [Más información](sms-configuration.md)
 
    ![](assets/sms_create_2.png)
 
-   Para obtener más información sobre cómo configurar un recorrido, consulte [esta página](../building-journeys/journey-gs.md)
+1. Además, puede aplicar reglas de límite a su acción de SMS seleccionando un conjunto de reglas en la lista desplegable **[!UICONTROL Reglas de negocio]**. [Más información](../conflict-prioritization/channel-capping.md)
 
-   El campo **[!UICONTROL configuration]** está rellenado previamente de forma predeterminada con la última configuración que el usuario usó para ese canal.
+1. Seleccione el botón **[!UICONTROL Editar contenido]** y cree el contenido como desee. [Más información](#sms-content)
 
-Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el botón **[!UICONTROL Editar contenido]**, como se detalla a continuación.
+1. Volver al lienzo de recorrido. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales. [Más información](../building-journeys/about-journey-activities.md)
+
+Para obtener más información sobre cómo crear, configurar y publicar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
 
 >[!TAB Agregar un mensaje de texto a una campaña]
 
@@ -88,6 +100,8 @@ Ahora puede empezar a diseñar el contenido de su mensaje SMS desde el botón **
    * Month
 
 Ahora puede empezar a diseñar el contenido de su mensaje de texto desde el botón **[!UICONTROL Editar contenido]**, como se detalla a continuación.
+
+Para obtener más información sobre cómo crear, configurar y activar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
@@ -184,5 +198,5 @@ Una vez enviado, puede medir el impacto de su SMS dentro de los informes de Camp
 * [Previsualización, prueba y envío del mensaje de texto](send-sms.md)
 * [Configuración del canal de SMS](sms-configuration.md)
 * [Informes de SMS/MMS](../reports/journey-global-report-cja-sms.md)
-* [Añadir un mensaje en un recorrido](../building-journeys/journeys-message.md)
+* [Añadir un mensaje en un recorrido](../building-journeys/journey-action.md)
 * [Añadir un mensaje en una campaña](../campaigns/create-campaign.md)

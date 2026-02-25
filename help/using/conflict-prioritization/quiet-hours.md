@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '909'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
-
 
 # Establecimiento de horas tranquilas {#quiet-hours}
 
@@ -133,7 +133,7 @@ Una vez guardada la regla y activado el conjunto de reglas, puede aplicarla a ac
 
 >[!TAB Aplicar acciones de canal de horas de silencio en recorridos]
 
-1. Abra el recorrido, seleccione una [acción de canal](../building-journeys/journeys-message.md) y edite el contenido del mensaje.
+1. Abra el recorrido, seleccione una [acción de canal](../building-journeys/journey-action.md) y edite el contenido del mensaje.
 1. Haga clic en el botón **[!UICONTROL Agregar regla de negocio]** y seleccione el conjunto de reglas que contiene la regla Horas de inactividad.
 
    ![](assets/quiet-hours-apply.png)
@@ -192,4 +192,4 @@ Una vez que el recorrido o las campañas se hayan activado y ejecutado, puede ve
 
 Aprenda a utilizar la función de horario discreto en Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475855?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

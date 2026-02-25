@@ -10,7 +10,7 @@ level: Intermediate
 keywords: diseño, lienzo, recorrido, interfaz, arrastrar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1744'
 ht-degree: 4%
@@ -102,7 +102,7 @@ Las demás actividades le permiten agregar condiciones al recorrido para definir
 
 Las acciones son lo que desea que ocurra como resultado de algún tipo de déclencheur, como enviar un mensaje. Es el recorrido que el cliente experimenta. Podría ser un correo electrónico, un mensaje SMS o push, o una acción de terceros, como un mensaje de Slack.
 
-Las actividades de acción de canal le permiten incluir un mensaje diseñado en [!DNL Journey Optimizer]. [Más información acerca de las actividades de acción del canal](journeys-message.md)
+Las actividades de acción de canal le permiten incluir un mensaje diseñado en [!DNL Journey Optimizer]. [Más información acerca de las actividades de acción del canal](journey-action.md)
 
 Desde las actividades de acción, utilice acciones personalizadas para enviar mensajes con sistemas de terceros. [Más información sobre las acciones personalizadas](about-journey-activities.md#action-activities).
 
