@@ -28,7 +28,7 @@ La página del informe se muestra con las siguientes pestañas:
 * [Canales](#channel)
 * [Conjuntos de reglas](#rule-sets)
 
-Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home).
 
 ## Características destacadas {#highlights}
 
