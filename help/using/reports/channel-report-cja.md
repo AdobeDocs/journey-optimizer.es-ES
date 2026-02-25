@@ -58,7 +58,7 @@ Los KPI **[!UICONTROL Características destacadas]** sirven como un tablero comp
 
 +++
 
-##  Recorrido  {#journey}
+## Recorrido  {#journey}
 
 ![](assets/cja-channel-journeys.png)
 
@@ -142,7 +142,7 @@ La tabla **[!UICONTROL Límite de Recorrido y conflictos]** proporciona informac
 
 La columna **[!UICONTROL Entradas de Recorrido por conjunto de reglas]** muestra el número de perfiles que ingresaron al recorrido. Hay tres tipos de entradas:
 
-* ****[!UICONTROL Sin conflicto]****: el perfil entró en la recorrido sin ningún conflicto en el conjunto de reglas. Ningún conjunto de reglas activo impidió esta entrada, y la entrada de recorrido se produjo independientemente de las reglas de mediación.
+* **&#x200B;**&#x200B;[!UICONTROL Sin conflicto]&#x200B;**&#x200B;**: el perfil entró en la recorrido sin ningún conflicto en el conjunto de reglas. Ningún conjunto de reglas activo impidió esta entrada, y la entrada de recorrido se produjo independientemente de las reglas de mediación.
 
 * **Prioridad más alta**: el perfil entró en el recorrido debido a que tiene mayor prioridad que otros recorridos de la competencia. Aunque se ha producido un conflicto (el perfil se clasifica para varios recorridos), este recorrido se ha seleccionado debido a su mayor puntuación de prioridad.
 
