@@ -202,7 +202,7 @@ Obtenga información sobre cómo configurar, crear e incluir mensajes SMS en sus
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422693?captions=spa&learn=on)
 
 +++
 
@@ -212,7 +212,7 @@ Descubra las funcionalidades completas de mensajería móvil que Adobe Journey O
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430377?captions=spa&quality=12&learn=on)
 
 +++
 
@@ -222,7 +222,7 @@ Aprenda a configurar y enviar mensajes RCS interactivos de marca en Adobe Journe
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464755)
+>[!VIDEO](https://video.tv.adobe.com/v/3464758?captions=spa)
 
 +++
 

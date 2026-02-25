@@ -274,4 +274,4 @@ Cuando un recorrido web o una campaña están activos, puede detenerlos para evi
 
 El siguiente vídeo muestra cómo crear una campaña web, configurar sus propiedades, revisarla y publicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449984/?captions=spa&quality=12&learn=on)
