@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b00a24b7d130fb1a464f01b93b9769a7ae10c41a
+source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1594'
 ht-degree: 36%
 
 ---
@@ -33,11 +33,11 @@ Las secciones [Nuevas funcionalidades](#feb-26-01-features) y [Mejoras](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
-### Nuevas funciones {#feb-26-01-features}
+### Nuevas funcionalidades {#feb-26-01-features}
 
 
 <!--
@@ -57,6 +57,33 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 -->
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Actividad de acción en recorridos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer admite una nueva actividad <strong>Action</strong> genérica que permite configurar tanto acciones únicas como grupos de acciones entrantes de varias acciones, lo que permite una configuración de acciones optimizada dentro del lienzo de recorrido. En particular, esta nueva función permite lo siguiente:</p>
+<ul>
+<li>Una configuración de acción nativa simplificada dentro del lienzo de recorrido.</li>
+<li>La capacidad para crear grupos de acciones entrantes de varias acciones.</li>
+<li>Capacidad de añadir optimización a cualquier acción de canal integrada.</li>
+<li>La capacidad de añadir opciones de experimentación y multilingües a cualquier acción.</li>
+</ul>
+<p><img src="assets/do-not-localize/action-activity.gif"/></p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/journey-action.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: sábado, 20 de febrero de 2026</p>
+<p><strong>Nota:</strong> Ahora se puede acceder a todos los canales nativos a través de la actividad recorrido de acción. Las actividades heredadas del canal nativo quedarán obsoletas con la versión de marzo. Los recorridos existentes que incluyen acciones heredadas seguirán funcionando tal cual; no se requiere ninguna migración.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -259,6 +286,24 @@ Las funciones y mejoras siguientes están previstas para su lanzamiento en febre
 <table>
 <thead>
 <tr>
+<th><strong>arbitraje de recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede usar <strong>fórmulas de clasificación</strong> para aumentar automáticamente las puntuaciones de prioridad de recorridos en función de los atributos de perfil del cliente y los factores contextuales, asegurándose de que los clientes ingresen los recorridos más relevantes.</p>
+<!--p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p-->
+<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>Fecha de disponibilidad: jueves, 25 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Journey Agent: Creación de contenido de canal</strong><br/></th>
 </tr>
 </thead>
@@ -266,47 +311,6 @@ Las funciones y mejoras siguientes están previstas para su lanzamiento en febre
 <tr>
 <td>
 <p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
-<p>Fecha de disponibilidad: principios de marzo de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>arbitraje de recorrido</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede usar <strong>fórmulas de clasificación</strong> <!--and <strong>AI models</strong> -->para aumentar automáticamente las puntuaciones de recorrido según los atributos de perfil del cliente y los factores contextuales, asegurándose de que los clientes ingresen los recorridos más relevantes.</p>
-<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Fecha de disponibilidad: principios de marzo de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Actividad de acción en recorridos</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer admite una nueva actividad <strong>Action</strong> genérica que permite configurar tanto acciones únicas como grupos de acciones entrantes de varias acciones, lo que permite una configuración de acciones optimizada dentro del lienzo de recorrido. En particular, esta nueva función permite lo siguiente:</p>
-<ul>
-<li>Una configuración de acción nativa simplificada dentro del lienzo de recorrido.</li>
-<li>La capacidad para crear grupos de acciones entrantes de varias acciones.</li>
-<li>Capacidad de añadir optimización a cualquier acción de canal integrada.</li>
-<li>La capacidad de añadir opciones de experimentación y multilingües a cualquier acción.</li>
-</ul>
-<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Fecha de disponibilidad: principios de marzo de 2026</p>
 </td>
 </tr>

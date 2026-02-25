@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: creación, correo electrónico, inicio, recorrido, campaña
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 9%
@@ -32,6 +32,8 @@ Para crear un correo electrónico en [!DNL Journey Optimizer], agregue una acci�
 >[!TAB Agregar un correo electrónico a un recorrido]
 
 1. Abra el recorrido y, a continuación, arrastre y suelte una actividad **[!UICONTROL Correo electrónico]** desde la sección **[!UICONTROL Acciones]** de la paleta.
+
+   <!--You can also use the **[!UICONTROL Action]** activity to add email to a journey—select the Email channel when configuring the action. The **[!UICONTROL Email]** activity will soon be deprecated. [Learn more about the Action activity](../building-journeys/journey-action.md).-->
 
 1. Proporcione información básica sobre el mensaje (etiqueta, descripción, categoría).
 
@@ -164,7 +166,7 @@ Pueden producirse dos tipos de alertas:
 
 Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo, enviar pruebas y controlar su renderización en clientes populares de escritorio, móviles y web. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
 
-También puede validar la calidad del contenido para evaluar la legibilidad, la eficacia y la coherencia del contenido. [Más información acerca de la validación de calidad del contenido](../content-management/brands-score.md#validate-quality)
+También puede validar la calidad del contenido para evaluar la legibilidad, la eficacia y la coherencia del contenido. [Más información sobre la validación de calidad del contenido](../content-management/brands-score.md#validate-quality)
 
 >[!NOTE]
 >

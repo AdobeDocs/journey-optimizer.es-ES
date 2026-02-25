@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 6bef70948918be30d92c0c3a1e63d5ff8681f15f
+source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1068'
 ht-degree: 12%
 
 ---
@@ -34,7 +34,9 @@ Permite lo siguiente:
 
 >[!NOTE]
 >
->También puede configurar acciones personalizadas para enviar los mensajes en [!DNL Journey Optimizer]. [Más información](#recommendation)
+>Ahora se puede acceder a todos los canales nativos a través de la actividad recorrido de acción. Las actividades heredadas del canal nativo quedarán obsoletas con la versión de marzo. Los recorridos existentes que incluyen acciones heredadas seguirán funcionando tal cual; no se requiere ninguna migración.
+
+También puede configurar acciones personalizadas para enviar los mensajes en [!DNL Journey Optimizer]. [Más información](#recommendation)
 
 ## Añadir una acción a un recorrido  {#add-action}
 
