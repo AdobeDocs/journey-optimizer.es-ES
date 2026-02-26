@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Conversión de imágenes en plantillas de HTML
-description: Aprenda a utilizar el conversor de imágenes a HTML con tecnología de IA para convertir diseños de imagen en plantillas de correo electrónico editables de HTML
+title: Conversión de imágenes en plantillas de contenido de correo electrónico
+description: Aprenda a utilizar el conversor de imágenes a HTML con tecnología de IA para convertir diseños de imagen en plantillas de contenido de correo electrónico editables
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
@@ -10,28 +10,32 @@ level: Beginner
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: correo electrónico, plantilla, imagen, HTML, IA, diseño, convertidor
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: e5b02fe84f00dec189d4002280e9a69b782cd91f
+source-git-commit: 30eb70f2a96223d7a948bdbd56ca9c002e954d0e
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1611'
 ht-degree: 4%
 
 ---
 
-# Conversión de imágenes en plantillas de HTML {#image-to-html}
+# Conversión de imágenes en plantillas de contenido de correo electrónico {#image-to-html}
 
 >[!AVAILABILITY]
 >
 >Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
-[!DNL Journey Optimizer] le ayuda a acelerar en gran medida la creación de correos electrónicos al convertir diseños de imagen estáticos en plantillas de contenido de correo electrónico modulares y totalmente personalizables de HTML.
+[!DNL Journey Optimizer] le ayuda a acelerar en gran medida la creación de correo electrónico al convertir diseños de imagen estáticos en plantillas de contenido de correo electrónico modulares y totalmente personalizables.
 
-Al aprovechar la tecnología de IA generativa, una herramienta integrada analiza el diseño, la tipografía, los colores y los elementos visuales de la imagen y genera código HTML limpio y modular que mantiene la fidelidad del diseño a la vez que garantiza la editabilidad completa con [Email Designer](../email/get-started-email-design.md).
+>[!NOTE]
+>
+>Esta función solo está disponible para el canal de correo electrónico.
+
+Al aprovechar la tecnología de IA generativa, una herramienta integrada analiza el diseño, la tipografía, los colores y los elementos visuales de la imagen y genera contenido modular y limpio de HTML que mantiene la fidelidad del diseño, a la vez que garantiza la editabilidad completa con [Email Designer](../email/get-started-email-design.md).
 
 Esta capacidad sin código permite a los especialistas en marketing transformar recursos visuales de diseñadores gráficos o herramientas de diseño en plantillas de correo electrónico interactivas y editables que se pueden guardar y reutilizar en varios recorridos y campañas, sin necesidad de conocimientos técnicos.
 
 Los principales beneficios son los siguientes:
 
-* **Más rápido que la codificación manual**: el convertidor convierte las imágenes en HTML editable en minutos, para que pueda omitir el lento flujo de trabajo manual de HTML.
+* **Más rápido que la codificación manual**: el conversor convierte las imágenes en contenido editable en minutos, por lo que puede omitir el lento flujo de trabajo manual de maquetas para HTML.
 * **No se necesitan habilidades técnicas**: los especialistas en mercadotecnia pueden producir y ajustar plantillas sin soporte de diseño o desarrollo.
 * **Reutilizables en todas las campañas**: guarde las plantillas en la biblioteca y utilícelas en cualquier recorrido o campaña.
 * **Se mantiene fiel al diseño**: la salida coincide con el diseño y el estilo, a la vez que es totalmente compatible con el Designer de correo electrónico.
@@ -53,27 +57,21 @@ El convertidor de imagen a HTML es ideal para:
 
 ## Mecanismos de protección y recomendaciones {#limitations}
 
-Tenga en cuenta las siguientes limitaciones al convertir imágenes a plantillas de contenido de HTML.
+Tenga en cuenta las siguientes limitaciones al convertir imágenes en plantillas de contenido de correo electrónico.
 
-* **Interpretación de IA**: La IA genera HTML basándose en la interpretación visual de su imagen. Los diseños complejos o inusuales pueden requerir ajustes manuales después de la conversión.
+* **Interpretación de IA**: La IA genera contenido HTML estático basado en la interpretación visual de su imagen. Proporciona un buen punto de partida para la creación de correos electrónicos, pero debe revisarse y refinarse con Email Designer para garantizar que cumpla con sus requisitos exactos. Si es necesario, debe agregar manualmente la personalización, el contenido dinámico y el seguimiento después de la conversión.
 
 * **Precisión del texto**: Mientras la IA intenta reconocer y reproducir el texto con precisión, compruebe siempre el contenido del texto y realice las correcciones necesarias.
-
-* **Contenido dinámico**: el proceso de conversión crea HTML estático basado en la imagen. Después de la conversión, debe agregar manualmente la personalización, el contenido dinámico y el seguimiento.
 
 * **Diseños complejos**: Es posible que los diseños muy complejos con capas complejas, formas inusuales o elementos no estándar no se conviertan a la perfección. Los diseños más simples generalmente arrojan mejores resultados.
 
 * **Tiempo de procesamiento**: El proceso de conversión puede tardar hasta 5 minutos según la complejidad y el tamaño de la imagen. El procesamiento de IA se produce en segundo plano, lo que le permite trabajar en otras tareas sin mantener la pantalla abierta. La plantilla se guarda automáticamente como borrador una vez completada la conversión.
 
-* **Disponibilidad limitada**: como característica de disponibilidad limitada, el conversor de imagen a HTML se mejora continuamente. La funcionalidad y la precisión pueden variar, y los comentarios ayudan a mejorar la función.
-
->[!NOTE]
->
->El conversor de imagen a HTML está diseñado para proporcionar un punto de partida sólido para la creación de correos electrónicos. La HTML generada debe revisarse y refinarse usando la Designer de correo electrónico para asegurarse de que cumple con sus requisitos exactos.
+* **Disponibilidad limitada**: Como característica de disponibilidad limitada, este convertidor se mejora continuamente. La funcionalidad y la precisión pueden variar, y los comentarios ayudan a mejorar la función.
 
 ## Conversión de una imagen en una plantilla de HTML {#convert-image}
 
-Para convertir un diseño de imagen en una plantilla de correo electrónico de HTML totalmente personalizable, siga los pasos a continuación.
+Para convertir un diseño de imagen en una plantilla de contenido de correo electrónico totalmente personalizable, siga los pasos a continuación.
 
 1. Asegúrese de tener un archivo de imagen en formato JPEG o PNG que contenga su diseño de correo electrónico.
 
@@ -132,12 +130,12 @@ La plantilla ya está disponible en la biblioteca de plantillas de contenido y s
 
 ## Prácticas recomendadas {#best-practices}
 
-Para obtener resultados óptimos al convertir imágenes a plantillas de contenido de HTML, siga estas recomendaciones.
+Para lograr resultados óptimos al convertir imágenes en plantillas de contenido de correo electrónico, siga estas recomendaciones.
 
 +++Antes de comenzar
 
-* **Guardar contenido existente**: al convertir una imagen a HTML, se reemplazará todo el contenido existente en el correo electrónico. Guarde siempre el trabajo actual antes de utilizar esta función.
-* **Planifique el flujo de trabajo**: use el convertidor de imagen a HTML al principio del proceso de creación del correo electrónico o asegúrese de que está listo para reemplazar todo el contenido actual.
+* **Guardar contenido existente**: al convertir una imagen, se reemplaza todo el contenido existente en la plantilla de correo electrónico. Guarde siempre el trabajo actual antes de utilizar esta función.
+* **Planifique el flujo de trabajo**: use esta característica al principio del proceso de creación de correo electrónico o asegúrese de que está listo para reemplazar todo el contenido actual.
 
 +++
 
@@ -163,7 +161,7 @@ Para obtener resultados óptimos al convertir imágenes a plantillas de contenid
 
 +++Después de la conversión
 
-* **Revise el borrador**: una vez completada la conversión, la plantilla se guardará automáticamente como borrador. Tómese tiempo para revisar cuidadosamente la HTML generada para comprobar su precisión
+* **Revise el borrador**: una vez completada la conversión, la plantilla se guardará automáticamente como borrador. Tómese tiempo para revisar cuidadosamente el contenido generado para comprobar su precisión
 * **Realizar pruebas exhaustivas**: probar el correo electrónico en distintos clientes y dispositivos de correo electrónico
 * **Refinar manualmente**: realice los ajustes necesarios mediante las funciones de edición completas de Designer de correo electrónico
 * **Alineación de marca**: compruebe que los colores, las fuentes y el estilo coinciden con las directrices de marca
@@ -174,15 +172,15 @@ Para obtener resultados óptimos al convertir imágenes a plantillas de contenid
 
 ## Preguntas frecuentes {#faq}
 
-+++¿Qué sucede con el contenido del correo electrónico existente cuando utilizo el convertidor de imagen a HTML?
++++¿Qué sucede con el contenido del correo electrónico existente cuando convierto una imagen en una plantilla de contenido?
 
-Todo el contenido existente en su correo electrónico se eliminará y se reemplazará por la plantilla recién generada al cargar una imagen para su conversión. Asegúrese de guardar cualquier contenido importante antes de utilizar esta función. Es mejor utilizar el conversor de imagen a HTML al principio del proceso de creación del correo electrónico.
+Todo el contenido existente en su correo electrónico se eliminará y se reemplazará por la plantilla recién generada al cargar una imagen para su conversión. Asegúrese de guardar cualquier contenido importante antes de utilizar esta función. Es mejor utilizar esta capacidad al principio del proceso de creación de correo electrónico.
 
 +++
 
 +++¿Qué formatos de archivo se admiten?
 
-El convertidor de imagen a HTML es compatible con los formatos de imagen JPEG (.jpg, .jpeg) y PNG (.png).
+El conversor admite los formatos de imagen JPEG (.jpg, .jpeg) y PNG (.png).
 
 +++
 
@@ -194,7 +192,7 @@ La conversión puede tardar hasta 5 minutos, según la complejidad y el tamaño 
 
 +++¿Puedo editar la plantilla generada?
 
-¡Sí! La plantilla de HTML generada se abre en el Designer de correo electrónico con funciones de edición completas. Puede modificar todos los aspectos de la plantilla, incluidos el texto, las imágenes, el estilo, el diseño y la estructura.
+¡Sí! La plantilla de contenido generada se abre en el Designer de correo electrónico con funciones de edición completas. Puede modificar todos los aspectos de la plantilla, incluidos el texto, las imágenes, el estilo, el diseño y la estructura.
 
 +++
 
@@ -206,13 +204,13 @@ La IA hace todo lo posible para interpretar con precisión su diseño, pero pued
 
 +++¿Puedo utilizar esta función para páginas de aterrizaje u otros tipos de contenido?
 
-El convertidor de imagen a HTML está diseñado actualmente específicamente para plantillas de correo electrónico. Para otros tipos de contenido, utilice las opciones de diseño e importación estándar disponibles en el Designer de correo electrónico.
+El convertidor de imagen a HTML está diseñado actualmente específicamente para plantillas de contenido de correo electrónico. Para otros tipos de contenido, utilice las opciones de diseño e importación estándar disponibles en el Designer de correo electrónico.
 
 +++
 
 +++¿Necesito permisos especiales para utilizar esta función?
 
-El convertidor de imagen a HTML está disponible en disponibilidad limitada. Necesita acceso de disponibilidad limitado (póngase en contacto con su representante de Adobe para obtener acceso) y permisos estándar de Designer de correo electrónico para utilizar esta función.
+Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 +++
 
