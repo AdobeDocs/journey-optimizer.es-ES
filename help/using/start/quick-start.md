@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: d3765f66beff13aaf77cd585c5da5f93c44fa1df
-workflow-type: ht
-source-wordcount: '1724'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1831'
+ht-degree: 88%
 
 ---
 
@@ -54,7 +54,7 @@ Una implementación correcta de Journey Optimizer suele seguir esta secuencia, q
    El administrador establece la base configurando las zonas protegidas, los controles de acceso y las configuraciones de canal. Esto debe suceder primero para permitir que funcionen otros equipos.
    * Configurar zonas protegidas de desarrollo, ensayo y producción
    * Configurar funciones, permisos y control de acceso de nivel de objeto (OLAC)
-   * Configurar las configuraciones de canal (correo electrónico, SMS, push, en la aplicación, web, tarjetas de contenido)
+   * Configure las configuraciones de canal (correo electrónico, SMS, push, web push, en la aplicación, web, correo directo, tarjetas de contenido)
    * Delegación de subdominios y configuración de grupos de IP
    * Configuración de listas de supresión y políticas de consentimiento
 
@@ -70,9 +70,10 @@ Una implementación correcta de Journey Optimizer suele seguir esta secuencia, q
 3. **Desarrollador**: implementa integraciones técnicas\
    Los desarrolladores conectan aplicaciones a Journey Optimizer integrando SDK, enviando eventos y creando puntos finales de API. Estas implementaciones permiten a los recorridos activarse y ejecutarse.
    * Integración de Mobile SDK (iOS/Android) con la configuración de notificaciones push
-   * Implementación de Web SDK para experiencias web
+   * Implementación de Web SDK para experiencias web y notificaciones push web
    * Envío de eventos de aplicaciones para la activación de recorridos
    * Crear puntos finales de acción personalizados para integraciones de sistema externas
+   * Monitorizar el estado y el rendimiento de las acciones personalizadas
    * Implementaciones de prueba con Adobe Experience Platform Assurance
 
 4. **Experto en marketing**: diseña y ejecuta experiencias de clientes\
@@ -95,15 +96,16 @@ Como experto en marketing o profesional empresarial, diseña recorridos de clien
 
 **Funcionalidades clave que usará:**
 
-* **Journey Orchestration**: crea una participación de clientes en tiempo real y de persona a persona, en la que cada persona se mueve a su propio ritmo, activado por comportamientos o eventos entre canales
-* **Orquestación de campaña**: diseñe y automatice campañas complejas en lotes de varios pasos a escala mediante un lienzo visual. Perfecto para campañas iniciadas por la marca, como promociones de temporada, lanzamientos de productos y comunicaciones basadas en cuentas. Aproveche la segmentación de varias entidades para crear públicos precisos conectando los datos del cliente con entidades relacionadas (cuentas, compras, reservas)
+* **Journey Orchestration**: crea una participación de clientes en tiempo real y uno a uno, en la que cada persona se mueve a su propio ritmo, desencadenada por comportamientos o eventos entre canales. Utilice la actividad de acción unificada para todas las acciones de canal, la actividad de decisión Contenido para integrar ofertas en recorridos y Journey Agent para crear recorridos a partir de mensajes en lenguaje natural
+* **Orquestación de campaña**: diseñe y automatice campañas complejas en lotes de varios pasos a escala mediante un lienzo visual. Perfecto para campañas iniciadas por la marca, como promociones de temporada, lanzamientos de productos y comunicaciones basadas en cuentas. Aproveche la segmentación de varias entidades para crear audiencias precisas conectando los datos del cliente con entidades relacionadas (cuentas, compras, reservas). Utilizar el envío de oleadas para enviar mensajes en lotes controlados
 * **Diseñador de mensajes moderno**: diseñe y personalice mensajes de correo electrónico y móviles con una interfaz de arrastrar y soltar. Edite plantillas listas para usar para acelerar el tiempo de salida al mercado
-* **Gestión de decisiones**: cree y administre ofertas, reglas de elegibilidad y otros componentes en una biblioteca centralizada que se puede incrustar en correos electrónicos y puntos de contacto de clientes
+* **Administración de decisiones**: cree y administre ofertas, reglas de elegibilidad y otros componentes en una biblioteca centralizada que se puede incrustar en correos electrónicos y puntos de contacto de clientes. Uso de Decisioning para la personalización push y SMS
 * **Administración de recursos**: acceda a Adobe Experience Manager Assets Essentials totalmente integrado en Journey Optimizer para una solución optimizada de acceso y envío de recursos.
 * **Definición de público**: genere públicos a petición con refinamiento instantáneo mediante consultas relacionales, con visibilidad previa al envío para obtener recuentos precisos de públicos
 * **Servicios de IA/ML**: aproveche la optimización del tiempo de envío y las puntuaciones de participación predictiva para dirigirse a clientes de alto valor y minimizar el riesgo de pérdida
+* **Control de envíos**: use horas de inactividad (exclusiones basadas en el tiempo) y administración de conflictos para respetar las preferencias de los clientes y evitar la comunicación excesiva
 
-**Empiece con:** plantillas de casos de uso y asistentes para crear e implementar fácilmente nuevos recorridos de clientes.
+**Empiece con:** Plantillas de casos de uso y asistentes para crear e implementar fácilmente nuevas recorridos de clientes. Utilice Journey Agent para crear recorridos a partir de peticiones de datos en lenguaje natural.
 
 [Empezar como experto en marketing →](path/marketer.md)
 
@@ -135,8 +137,9 @@ Como administrador, puede configurar el entorno de Journey Optimizer para permit
 * **Administración de usuarios**: configure grupos de usuarios y permisos para controlar el acceso a distintas funcionalidades
 * **Configuración del canal**: configure los canales de envío y los ajustes preestablecidos de mensajes para garantizar una marca coherente en todos los mensajes y recursos entregados a través de Journey Optimizer
 * **Seguridad y gobernanza**: aplique el control de acceso de nivel de objeto (OLAC), configure directivas de consentimiento e implemente directivas de gobernanza de datos
-* **Entregabilidad**: delegue subdominios, cree grupos de IP y administre listas de supresión y listas de permitidos
+* **Capacidad de entrega**: delegue subdominios, migre subdominios a la delegación personalizada cuando sea necesario, cree grupos de IP y administre listas de supresión y listas de permitidos
 * **Configuración de recorrido**: configure elementos y configuraciones de recorrido para sus equipos
+* **Configuración del canal**: configure las notificaciones push web, el correo directo y la exportación de mensajes (correo electrónico/SMS) cuando sea necesario
 
 **Empiece con:** configure las zonas protegidas y los permisos de usuario y, a continuación, configure las primeras configuraciones de canal y los ajustes preestablecidos de mensaje.
 
@@ -207,7 +210,7 @@ Los **expertos en marketing** diseñan experiencias para los clientes y proporci
 
 Para obtener más información acerca de las funcionalidades y personalidades clave de Journey Optimizer, vea el vídeo introductorio. El vídeo muestra la interfaz de usuario y resalta las funciones clave en función de los flujos de trabajo específicos de funciones.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430317?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Recursos adicionales
 
@@ -230,7 +233,7 @@ Para obtener información y actualizaciones más detalladas, explore los siguien
 
 >[!TAB Comunidad y asistencia]
 
-* [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}: conéctese con otros usuarios y expertos
-* [Foro de productos](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}: haga preguntas y comparta conocimientos
+* [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: conéctese con otros usuarios y expertos
+* [Foro de productos](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: haga preguntas y comparta conocimientos
 
 >[!ENDTABS]

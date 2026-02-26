@@ -5,10 +5,10 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: ht
-source-wordcount: '1816'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1918'
+ht-degree: 93%
 
 ---
 
@@ -85,7 +85,7 @@ En implementaciones basadas en la web, el SDK web es el punto de integración pr
 
 1. **Configure secuencias de datos**: cree y configure una secuencia de datos en [!DNL Adobe Experience Platform Data Collection] con Journey Optimizer habilitado. Obtenga más información en la [documentación de secuencias de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es){target="_blank"}.
 
-1. **Habilite notificaciones push en la web** (opcional): configure la [propiedad pushNotifications](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} en la configuración de Web SDK y use el [comando sendPushSubscription](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} para registrar suscripciones push.
+1. **Habilitar notificaciones push web** (opcional): las notificaciones push web ya están disponibles de forma general. Configure la propiedad [pushNotifications](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} en la configuración de Web SDK y use el [comando sendPushSubscription](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} para registrar suscripciones push. [Más información acerca de la configuración de inserción web](../../push/push-configuration-web.md).
 
 ### Implementar experiencias basadas en código (Web SDK)
 
@@ -163,9 +163,11 @@ Las acciones personalizadas permiten que los recorridos llamen a sus API. Como d
 
 1. **Conozca las capacidades de acción personalizadas**: las acciones personalizadas pueden conectarse a sistemas de terceros como Epsilon, Slack, Firebase o a sus propios servicios. Más información sobre las [acciones personalizadas](../../action/action.md).
 
-1. **Trabaje con configuraciones de acción**: Su [administrador](administrator.md) o [ingeniero de datos](data-engineer.md) configurará la acción personalizada en Journey Optimizer, definiendo la dirección URL del punto final de API, el método de autenticación y los parámetros. Les proporcionará su especificación de API. Obtenga información sobre la [configuración de acciones personalizadas](../../action/about-custom-action-configuration.md).
+1. **Trabaje con configuraciones de acción**: Su [administrador](administrator.md) o [ingeniero de datos](data-engineer.md) configurará la acción personalizada en Journey Optimizer, definiendo la dirección URL del punto final de API, el método de autenticación y los parámetros. Les proporcionará su especificación de API. Obtenga información acerca de [configuración de acción personalizada](../../action/about-custom-action-configuration.md). Puede definir una **carga de respuesta de error** opcional para una lógica de reserva más completa en las ramas de tiempo de espera/error.
 
 1. **Devolver datos procesables**: diseñe su API para devolver datos que se puedan usar en pasos de recorrido posteriores. Obtenga información acerca de [respuestas de acción](../../action/action-response.md).
+
+1. **Supervisar el estado de las acciones personalizadas**: use el panel de supervisión de acciones personalizadas para rastrear las llamadas, los errores, el rendimiento, los tiempos de respuesta y los tiempos de espera de cola correctos. Obtenga información acerca de [informes de acciones personalizadas](../../action/reporting.md).
 
 1. **Implemente limitación de velocidad**: asegúrese de que los puntos finales puedan asumir el volumen esperado. Journey Optimizer aplica un límite de 5000 llamadas/segundo, pero el sistema debe ser flexible. Obtenga información sobre [límite y regulación](../../configuration/external-systems.md).
 
@@ -184,6 +186,10 @@ Journey Optimizer proporciona API de REST completas para el acceso mediante prog
 1. **Campañas activadas por API**: cree mensajería transaccional con campañas activadas por API. Para escenarios de gran volumen (hasta 5000 TPS), explore el [Modo de alto rendimiento](../../campaigns/api-triggered-high-throughput.md) (requiere licencia adicional).
 
 1. **API de gestión de decisiones**: use API especializadas para la gestión y toma de decisiones de ofertas. Obtenga más información en la [Guía de API de gestión de decisiones](../../offers/api-reference/getting-started.md).
+
+1. **API de migración de decisiones**: migre mediante programación las entidades de Administración de decisiones a Toma de decisiones con ámbitos flexibles, validación automatizada y compatibilidad con reversiones. Obtenga más información en la [Guía de API de migración para decisiones](../../experience-decisioning/decisioning-migration-api.md).
+
+1. **Webhooks de SMS**: configure los webhooks entrantes para capturar los mensajes entrantes y los webhooks de comentarios para recibir confirmaciones de entrega y actualizaciones de estado. [Más información](../../sms/sms-webhook.md).
 
 ## Pruebas y depuración {#testing}
 
