@@ -8,7 +8,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 1b0b2b5aa8c5b4ea0a101583ee1132574996bd98
+source-git-commit: 707bc4053ee05c275b562e35227e54836e91fa27
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Por ejemplo, como experto en marketing de una marca minorista, realiza una venta
 * Los destinatarios que abren 24 horas después ven &quot;Quedan 23 horas&quot;
 * Los destinatarios que abran después de que finalice la venta verán &quot;La venta ha finalizado&quot;
 
-Para obtener más información sobre cómo crear Dynamic Media en Adobe Experience Manager, consulte [este documento](assets/do-not-localize/Dynamic%20Media%20Templates.pdf).
+Para obtener más información sobre cómo crear Dynamic Media en Adobe Experience Manager, consulte [este documento](assets/do-not-localize/countdown.pdf).
 
 
 1. En **[!DNL Adobe Experience Manager]**, cree una plantilla de Dynamic Media y agréguele un componente de temporizador de cuenta atrás.
