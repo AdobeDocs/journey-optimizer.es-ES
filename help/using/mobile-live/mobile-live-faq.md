@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 1%
+source-wordcount: '1746'
+ht-degree: 0%
 
 ---
 
 # Preguntas frecuentes {#mobile-live-faq}
-
->[!BEGINSHADEBOX]
-
-* [Introducción a la actividad en directo](get-started-mobile-live.md)
-* [Configuración de actividades activas](mobile-live-configuration.md)
-* [Integración de actividades en directo con Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
-* [Crear una actividad en directo](create-mobile-live.md)
-* **[Preguntas frecuentes](mobile-live-faq.md)**
-* [Informe de campaña de actividad en directo](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 ## Preguntas generales
 
@@ -123,6 +113,24 @@ Sí. `ActivityConfiguration` tiene cierres independientes para el contenido de p
 No. Al registrar un tipo de Actividad activa con `Messaging.registerLiveActivity()`, SDK recopila y administra automáticamente los tokens push.
 +++
 
++++¿Hay límites en los inicios remotos de actividades activas?
+
+Sí. Los inicios remotos a través de `ActivityKit` están sujetos a límites impuestos por el sistema. Si intenta ejecutar varias solicitudes de inicio en sucesión rápida, iOS puede rechazar nuevos inicios debido a cuotas de Actividad en directo o restricciones presupuestarias. Después de unos 5 intentos de inicio consecutivos, las solicitudes posteriores comienzan a fallar hasta que pasa un breve periodo de reutilización.
+
++++
+
++++¿Cuál es el presupuesto para actualizaciones de alta prioridad?
+
+Apple no especifica un límite numérico exacto para las actualizaciones de actividad en directo de `(priority: 10)` de alta prioridad. El sistema mantiene un presupuesto interno dinámico que limita la frecuencia con la que se pueden enviar dichas actualizaciones. Si se emiten demasiadas actualizaciones de alta prioridad en un corto intervalo, iOS puede acelerar o retrasar las posteriores.
+
+Para minimizar la restricción:
+
+* **Niveles de prioridad de equilibrio**: combine actualizaciones estándar `(priority: 5)` y altas `(priority: 10)` según la importancia.
+* **Usar la prioridad alta con moderación**: reserve la prioridad alta para actualizaciones en las que el tiempo sea un factor crítico, como el progreso de entrega, el estado del pedido o las puntuaciones deportivas en directo.
+* **Admitir actualizaciones frecuentes**: incluye `NSSupportsLiveActivitiesFrequentUpdates` en `Info.plist` de tu aplicación y configúrelo en **SÍ** si necesitas actualizaciones frecuentes.
+
++++
+
 ### Preguntas del experto en marketing
 
 +++¿Puedo personalizar el contenido de Actividad en directo para cada usuario en una campaña de difusión?
@@ -142,7 +150,7 @@ La llamada de API almacena en déclencheur la actividad en directo inmediatament
 
 +++¿Qué sucede si envío un evento de &quot;inicio&quot; para una actividad en directo que ya existe?
 
-Al iniciar de forma remota actividades en directo mediante las API de ejecución de Adobe:
+Al iniciar actividades en directo de forma remota mediante las API de ejecución de Adobe:
 
 * Puede incluir un encabezado `x-request-id` en su solicitud. Lo ideal sería que hubiera una relación uno a uno entre cada `liveActivityID` y su correspondiente `x-request-id`. Esto garantiza que si se realizan varias solicitudes con la misma combinación de `x-request-id` y `liveActivityID`, solo se iniciará una Actividad activa en el dispositivo y se omitirán las solicitudes duplicadas.
 
@@ -235,6 +243,7 @@ Causas frecuentes:
 * `content-state` campos no coinciden con su estructura `ContentState`.
 * La actividad en directo ya ha finalizado.
 * Problemas de conectividad de red en el dispositivo.
+* La hora de la época utilizada como marca de tiempo no está actualizada.
 
 +++
 

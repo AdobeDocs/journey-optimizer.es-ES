@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bfd36dddb5795cd8b6eeb164f70b6cf3fdcb5750
+exl-id: 9864a136-e129-4279-bb09-081b72f584df
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 1%
+source-wordcount: '381'
+ht-degree: 3%
 
 ---
 
 # Crear una actividad en directo {#create-mobile-live}
-
->[!BEGINSHADEBOX]
-
-* [Introducción a la actividad en directo](get-started-mobile-live.md)
-* [Configuración de actividades activas](mobile-live-configuration.md)
-* [Integración de actividades en directo con Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
-* **[Crear una actividad en vivo](create-mobile-live.md)**
-* [Preguntas frecuentes](mobile-live-faq.md)
-* [Informe de campaña de actividad en directo](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 Después de configurar la configuración móvil e implementar el SDK móvil de Adobe Experience Platform, puede empezar a crear la actividad en directo en Journey Optimizer:
 
@@ -34,7 +24,7 @@ Después de configurar la configuración móvil e implementar el SDK móvil de A
 
 1. Seleccione el tipo de campaña **API desencadenada**.
 
-   * Seleccione **Marketing activado por API** para campañas basadas en audiencias
+   * Seleccione **Marketing activado por API** para las campañas basadas en públicos
 
    * Seleccione **Transaccional activado por API** para campañas individuales.
 
@@ -56,6 +46,10 @@ Después de configurar la configuración móvil e implementar el SDK móvil de A
 
 1. En la ficha **[!UICONTROL Audiencia]**, elija su **[!UICONTROL tipo de identidad]** [Más información](../audience/about-audiences.md).
 
+   >[!NOTE]
+   >
+   >Para **campañas de marketing activadas por API**, puede seleccionar una audiencia existente que actúe como la primera segmentación antes de comprobar la suscripción de ID de canal de APN desde la carga útil de API.
+
 1. Las campañas están diseñadas para ejecutarse en una fecha específica o en una frecuencia recurrente. Aprenda a configurar la **[!UICONTROL programación]** de su campaña en [esta sección](../campaigns/create-campaign.md#schedule).
 
 1. Una vez configurada, haz clic en **[!UICONTROL Revisar para activar]** y luego haz clic en **[!UICONTROL Activar]**.
@@ -68,9 +62,9 @@ Después de configurar la configuración móvil e implementar el SDK móvil de A
 
    ![](assets/create-live-3.png)
 
-   +++ Ejemplo de una carga útil individual
+   +++ Ejemplo de una carga útil para casos de uso unitarios (campaña transaccional activada por API)
 
-   Tenga en cuenta que la mayoría de los campos del siguiente ejemplo de carga útil son obligatorios, solo `requestId`, `dismissal-date` y `alert` son opcionales.
+   Este ejemplo de carga útil es para campañas individuales que utilizan el tipo de campaña **Transaccional activada por API**. Tenga en cuenta que la mayoría de los campos del siguiente ejemplo de carga útil son obligatorios, solo `requestId`, `dismissal-date` y `alert` son opcionales.
 
    ```json
    {
@@ -116,4 +110,53 @@ Después de configurar la configuración móvil e implementar el SDK móvil de A
 
    +++
 
+   +++ Ejemplo de una carga útil para casos de uso de difusión (campaña de marketing activada por API)
+
+   Este ejemplo de carga útil es para campañas basadas en audiencias que utilizan el tipo de campaña **Marketing activado por API**.
+
+   ```json
+   {
+       "requestId": "123400000",
+       "campaignId": "d32e6f6c-56df-4a98-a2c0-6db6008f8f32",
+       "audience": {
+           "id": "508f9416-52d0-4898-ba47-08baaa22e9c7"
+       },
+       "context": {
+           "requestPayload": {
+               "aps": {
+                   "input-push-channel": "V+8UslywEfAAAOq9SbTrLg==",  //apns-channel-id
+                   "content-available": 1,
+                   "timestamp": 1770808339,
+                   "event": "update",   // start | update | end
+   
+                   // Fields from GameScoreLiveActivityAttributes
+                   "content-state": {
+                       "homeTeamScore": 33,
+                       "awayTeamScore": 49,
+                       "statusText": "Wingdom keeps scoring!"
+                   },
+                   "attributes-type": "GameScoreLiveActivityAttributes",
+                   "attributes": {
+                       "liveActivityData": {
+                           "channelID": "V+8UslywEfAAAOq9SbTrLg=="   //apns-channel-id, must match the "input-push-channel" value
+                       }
+                   },
+                   "alert": {
+                       "title": "This is the title for game",
+                       "body": "This is the body for body"
+                   }
+               }
+           }
+       }
+   }
+   ```
+
+   +++
+
 Después de diseñar la actividad en vivo, puede hacer un seguimiento para medir el impacto de su actividad en vivo con [informes integrados](../reports/campaign-global-report-cja-activity.md).
+
+## Vídeo práctico
+
+Descubre cómo configurar iOS Live Activities con Adobe Journey Optimizer para ofrecer actualizaciones enriquecidas en tiempo real en la pantalla de bloqueo de iPhone y Dynamic Island.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
