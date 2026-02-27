@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creación de la versión de texto de un correo electrónico
+title: Administrar la versión de texto de un correo electrónico
 description: Aprenda a crear la versión de texto de un correo electrónico
 feature: Email Design
 topic: Content Management
@@ -9,36 +9,44 @@ role: User
 level: Intermediate
 keywords: texto, correo electrónico, versión, sin formato, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: 1a5ce1bf2d98a5de31f1245dee96d24984cb28d9
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 11%
+source-wordcount: '1141'
+ht-degree: 8%
 
 ---
 
-# Creación de la versión de texto de un correo electrónico {#text-version-email}
+# Administrar la versión de texto de un correo electrónico {#text-version-email}
 
 Se recomienda crear una versión de texto del cuerpo del correo electrónico, que se utiliza cuando no se puede mostrar el contenido HTML.
 
+Desde el punto de vista de la seguridad, ofrecer una versión de texto sin formato es importante porque los correos electrónicos de HTML pueden conllevar riesgos como scripts malintencionados, píxeles de seguimiento o intentos de phishing que dependen del formato enriquecido y de los vínculos. El texto sin formato reduce la superficie de ataque y, a menudo, lo prefieren destinatarios conscientes de la seguridad o sistemas de correo electrónico corporativos que restringen o eliminan HTML. Proporcionar ambas versiones permite a los destinatarios elegir el formato que mejor se adapte a sus requisitos de seguridad y privacidad.
+
+## Acceso a la versión de texto predeterminada {#plain-text-default}
+
 De forma predeterminada, el Diseñador de correo electrónico crea una versión de **[!UICONTROL Texto sin formato]** del correo electrónico, incluidos los campos de personalización. Esta versión se genera y sincroniza automáticamente con la versión HTML del contenido.
+
+Para acceder a la versión de texto predeterminada, seleccione el icono **[!UICONTROL Texto sin formato]** del contenido del correo electrónico.
+
+![](assets/text_version_3.png)
+
+## Utilizar una versión de texto personalizada {#plain-text-default-custom}
 
 Si prefiere usar un contenido diferente para la versión de texto sin formato, siga los pasos a continuación:
 
 1. En el correo electrónico, seleccione el icono **[!UICONTROL Texto sin formato]**.
 
-   ![](assets/text_version_3.png)
-
 1. Use la opción **[!UICONTROL Sincronizar con HTML]** para deshabilitar la sincronización. Haga clic en la marca de verificación para confirmar su elección.
 
    ![](assets/text_version_2.png)
 
-1. A continuación, puede editar la versión de texto sin formato como desee.
+1. A continuación, puede editar la versión de texto sin formato personalizada según desee.
 
 >[!CAUTION]
 >
 > * Cuando la sincronización está deshabilitada, los cambios realizados en la vista **[!UICONTROL Texto sin formato]** no se reflejarán en la vista de HTML.
 >
->* Si vuelve a habilitar la opción **[!UICONTROL Sincronizar con HTML]** después de actualizar el contenido de texto sin formato, los cambios se perderán y se reemplazarán con el contenido de texto generado a partir de la versión de HTML.
+> * Si vuelve a habilitar la opción **[!UICONTROL Sincronizar con HTML]** después de actualizar el contenido de texto sin formato, los cambios se perderán y se reemplazarán con el contenido de texto generado a partir de la versión de HTML.
 
 ## Cuándo usar versiones de texto sin formato personalizadas {#when-to-use}
 
