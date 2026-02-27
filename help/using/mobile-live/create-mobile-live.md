@@ -9,7 +9,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 3%
@@ -157,6 +157,6 @@ Después de diseñar la actividad en vivo, puede hacer un seguimiento para medir
 
 ## Vídeo práctico
 
-Descubre cómo configurar iOS Live Activities con Adobe Journey Optimizer para ofrecer actualizaciones enriquecidas en tiempo real en la pantalla de bloqueo de iPhone y Dynamic Island.
+Descubra cómo configurar la actividad de iOS Live con Adobe Journey Optimizer para que ofrezca actualizaciones enriquecidas en tiempo real en la pantalla de bloqueo de iPhone y Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479867?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

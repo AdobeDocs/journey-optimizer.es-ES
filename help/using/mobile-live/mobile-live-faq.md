@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1759'
 ht-degree: 0%
 
 ---
@@ -22,85 +22,85 @@ ht-degree: 0%
 
 +++¿Cuál es la diferencia entre una actividad en directo y una notificación push?
 
-Las actividades en directo proporcionan actualizaciones persistentes y en tiempo real en la pantalla de bloqueo y Dynamic Island sin que los usuarios tengan que desbloquear su dispositivo. Las notificaciones push son alertas temporales que desaparecen una vez descartadas. Las actividades activas permanecen visibles y se pueden actualizar varias veces hasta que finalizan explícitamente.
+La actividad en directo proporciona actualizaciones persistentes y en tiempo real en la pantalla de bloqueo y en Dynamic Island sin que los usuarios tengan que desbloquear su dispositivo. Las notificaciones push son alertas temporales que desaparecen una vez descartadas. La actividad activa permanece visible y se puede actualizar varias veces hasta que finalice de forma explícita.
 
 +++
 
-+++¿Cuántas actividades en directo pueden estar activas a la vez?
++++¿Cuántas instancias de actividad en directo pueden estar activas a la vez?
 
-Una aplicación de iOS puede ejecutar varias actividades activas simultáneamente, incluidas varias que utilicen el mismo tipo `ActivityAttributes`.
+Una aplicación de iOS puede ejecutar varias instancias de actividad en directo simultáneamente, incluidas varias que utilicen el mismo tipo `ActivityAttributes`.
 
-Los desarrolladores no imponen ningún límite estricto sobre cuántas actividades activas de un tipo de atributo determinado pueden existir. Puede iniciar tantos como requiera la lógica de la aplicación, por ejemplo, uno por envío o recorrido en curso. Sin embargo, iOS aplica un límite de nivel del sistema en cuanto a cuántas actividades activas pueden ser activas o visibles a la vez.
+Los desarrolladores no imponen ningún límite estricto sobre cuántas instancias de actividad en directo de un tipo de atributo determinado pueden existir. Puede iniciar tantos como requiera la lógica de la aplicación, por ejemplo, uno por envío o recorrido en curso. Sin embargo, iOS aplica un límite de nivel del sistema en cuanto a cuántas instancias de actividad activas pueden estar activas o visibles a la vez.
 
 En la práctica:
 
-* iOS suele admitir hasta cinco actividades activas simultáneas por aplicación.
+* iOS suele admitir hasta cinco instancias de actividad en directo simultáneas por aplicación.
 
-* Si supera este número, el sistema puede dejar de mostrar algunas actividades o finalizar las más antiguas para conservar recursos.
+* Si supera este número, el sistema puede dejar de mostrar algunas instancias de actividad o finalizar las anteriores para conservar recursos.
 
-* Cada actividad en vivo tiene un(a) `Activity.id` único(a), que le permite actualizarlo o finalizarlo(a) individualmente.
+* Cada instancia de actividad en directo tiene un(a) `Activity.id` único(a), que permite actualizarlo o finalizarlo por separado.
 
 +++
 
 +++¿Los usuarios deben tener la aplicación abierta para recibir actualizaciones de actividades en directo?
 
-No. Las actividades activas se pueden iniciar, actualizar y finalizar de forma remota, incluso cuando la aplicación está completamente cerrada, una de las ventajas clave de la función.
+No. La actividad en directo se puede iniciar, actualizar y finalizar de forma remota, incluso cuando la aplicación está completamente cerrada, una de las ventajas clave de la función.
 
 +++
 
-+++¿Qué versiones de iOS admiten actividades en directo?
++++¿Qué versiones de iOS admiten la actividad en directo?
 
 * iOS 16.1+: compatibilidad básica con actividades en directo
 * iOS 17.2+: funcionalidad de push a inicio (inicio remoto sin abrir la aplicación)
 * iOS 18+: Compatibilidad con canales de difusión para actividades en directo basadas en audiencias
 +++
 
-+++¿Durante cuánto tiempo puede permanecer activa una actividad en directo?
++++¿Durante cuánto tiempo puede permanecer activa una actividad Live?
 
-Apple limita las actividades activas a **8 horas de actualizaciones activas**. Después de eso, el sistema finaliza automáticamente la actividad, aunque puede permanecer visible en un estado estático durante **12 horas adicionales** antes de la eliminación. También puede finalizar una actividad en vivo antes estableciendo un `dismissalDate` o llamando explícitamente a `activity.end()` en su aplicación.
+Apple limita la actividad en vivo a **8 horas de actualizaciones activas**. Después de eso, el sistema finaliza automáticamente la actividad, aunque puede permanecer visible en un estado estático durante **12 horas adicionales** antes de la eliminación. También puede finalizar una actividad en vivo antes estableciendo un `dismissalDate` o llamando explícitamente a `activity.end()` en su aplicación.
 
 +++
 
 ### Preguntas para desarrolladores
 
-+++¿Debo crear una extensión de widget independiente para las actividades activas?
++++¿Debo crear una extensión de widget independiente para la actividad en directo?
 
-Sí. Las actividades activas se muestran a través de WidgetKit, por lo que debe crear una extensión de widget en el proyecto Xcode e implementar `ActivityConfiguration`.
+Sí. La actividad en directo se muestra a través de WidgetKit, por lo que debe crear una extensión de widget en el proyecto Xcode e implementar `ActivityConfiguration`.
 [Más información sobre la configuración del widget](mobile-live-configuration-sdk.md)
 
 +++
 
-+++¿Puedo usar la misma clase `LiveActivityAttributes` para actividades en directo locales y remotas?
++++¿Puedo usar la misma clase `LiveActivityAttributes` para la actividad en directo local y remota?
 
-Sí. La misma clase de atributos funciona tanto para actividades activas iniciadas localmente como de forma remota (push-to-start). Debe asegurarse de registrarlo con `Messaging.registerLiveActivity()`.
+Sí. La misma clase de atributos funciona para la actividad en directo iniciada localmente y a distancia (push-to-start). Debe asegurarse de registrarlo con `Messaging.registerLiveActivity()`.
 
 +++
 
 +++¿Qué sucede si envío una actualización para una actividad en directo que no existe?
 
-Si envía un evento de actualización o finalización para un(a) `liveActivityID` o `channelID` inexistente, la solicitud fallará de forma silenciosa en el dispositivo. Asegúrese siempre de rastrear qué actividades activas hay para cada usuario.
+Si envía un evento de actualización o finalización para un(a) `liveActivityID` o `channelID` inexistente, la solicitud fallará de forma silenciosa en el dispositivo. Asegúrese siempre de rastrear qué instancias de actividad en directo están activas para cada usuario.
 
 +++
 
-+++¿Puedo probar actividades en directo en el simulador de iOS?
++++¿Puedo probar la actividad en directo en el simulador de iOS?
 
-Sí, puede probar actividades en directo iniciadas localmente y de forma remota en el simulador de iOS.
+Sí, puede probar la actividad en directo iniciada localmente y remotamente en el simulador de iOS.
 
-* **Local**: esto incluye la creación, actualización y finalización de actividades activas directamente desde su aplicación mediante **API de ActivityKit**.
+* **Local**: esto incluye la creación, actualización y finalización de una actividad en vivo directamente desde su aplicación usando **API de ActivityKit**.
 
-* **Remoto**: para probar la funcionalidad Live Activity de forma remota, integra nuestro SDK de mensajería en tu aplicación y usa las API de ejecución proporcionadas para enviar el inicio, la actualización y el final remotos a tu dispositivo de prueba o simulador de iOS. Es similar a la forma en que se pueden probar las notificaciones push con la integración de SDK de Adobe.
+* **Remoto**: para probar la funcionalidad de la actividad Live de forma remota, integra nuestro SDK de mensajería en tu aplicación y usa las API de ejecución proporcionadas para enviar el inicio, la actualización y el final remotos a tu dispositivo de prueba o simulador de iOS. Es similar a la forma en que se pueden probar las notificaciones push con la integración de SDK de Adobe.
 
 +++
 
 +++¿Cómo gestiono las actualizaciones cuando la aplicación está en segundo plano?
 
-SDK lo gestiona automáticamente. Una vez registradas, las actividades activas reciben actualizaciones incluso cuando finaliza la aplicación. No se requieren modos de fondo adicionales.
+SDK lo gestiona automáticamente. Una vez registrada, la actividad Live recibe actualizaciones incluso cuando finaliza la aplicación. No se requieren modos de fondo adicionales.
 +++
 
 +++¿Cuál es la diferencia entre `liveActivityID` y `channelID`?
 
-* `liveActivityID`: se usa para actividades en directo individuales (unitarias) destinadas a usuarios específicos. Cada ID representa una instancia única de actividad en directo.
-* `channelID`: se usa para difundir actividades en directo enviadas a audiencias. Todos los usuarios de la audiencia reciben las mismas actualizaciones en el mismo canal.
+* `liveActivityID`: se usa para una actividad en directo individual (unitaria) dirigida a usuarios específicos. Cada ID representa una instancia de actividad en directo única.
+* `channelID`: se usa para la actividad de difusión en directo enviada a las audiencias. Todos los usuarios de la audiencia reciben las mismas actualizaciones en el mismo canal.
 +++
 
 +++¿Puedo personalizar el aspecto de Dynamic Island por separado de la pantalla de bloqueo?
@@ -113,9 +113,9 @@ Sí. `ActivityConfiguration` tiene cierres independientes para el contenido de p
 No. Al registrar un tipo de Actividad activa con `Messaging.registerLiveActivity()`, SDK recopila y administra automáticamente los tokens push.
 +++
 
-+++¿Hay límites en los inicios remotos de actividades activas?
++++¿Hay límites en los inicios remotos de la actividad en directo?
 
-Sí. Los inicios remotos a través de `ActivityKit` están sujetos a límites impuestos por el sistema. Si intenta ejecutar varias solicitudes de inicio en sucesión rápida, iOS puede rechazar nuevos inicios debido a cuotas de Actividad en directo o restricciones presupuestarias. Después de unos 5 intentos de inicio consecutivos, las solicitudes posteriores comienzan a fallar hasta que pasa un breve periodo de reutilización.
+Sí. Los inicios remotos a través de `ActivityKit` están sujetos a límites impuestos por el sistema. Si intenta ejecutar varias solicitudes de inicio en sucesión rápida, iOS puede rechazar nuevos inicios debido a cuotas de actividad activas o restricciones presupuestarias. Después de unos 5 intentos de inicio consecutivos, las solicitudes posteriores comienzan a fallar hasta que pasa un breve periodo de reutilización.
 
 +++
 
@@ -133,7 +133,7 @@ Para minimizar la restricción:
 
 ### Preguntas del experto en marketing
 
-+++¿Puedo personalizar el contenido de Actividad en directo para cada usuario en una campaña de difusión?
++++¿Puedo personalizar el contenido de la actividad en directo para cada usuario en una campaña de difusión?
 
 Las campañas de difusión envían el mismo contenido a todos los usuarios de la audiencia. Para contenido personalizado, utilice campañas unitarias (transaccionales) dirigidas a usuarios individuales.
 +++
@@ -143,24 +143,24 @@ Las campañas de difusión envían el mismo contenido a todos los usuarios de la
 [Supervise el análisis de su campaña](../reports/campaign-global-report-cja-activity.md) en Adobe Journey Optimizer. Puede hacer un seguimiento de las tasas de entrega, los errores y las métricas de participación. Considere también la posibilidad de implementar eventos de análisis personalizados en la aplicación.
 +++
 
-+++¿Puedo programar Actividades en vivo con anticipación?
++++¿Puedo programar la actividad en vivo con antelación?
 
-La llamada de API almacena en déclencheur la actividad en directo inmediatamente. Sin embargo, puede programar sus llamadas de API a través de sus sistemas back-end o utilizar las funcionalidades de orquestación de Journey Optimizer para cronometrarlas correctamente.
+La llamada de API almacena en déclencheur la actividad Live inmediatamente. Sin embargo, puede programar sus llamadas de API a través de sus sistemas back-end o utilizar las funcionalidades de orquestación de Journey Optimizer para cronometrarlas correctamente.
 +++
 
 +++¿Qué sucede si envío un evento de &quot;inicio&quot; para una actividad en directo que ya existe?
 
-Al iniciar actividades en directo de forma remota mediante las API de ejecución de Adobe:
+Al iniciar de forma remota una actividad en directo mediante las API de ejecución de Adobe:
 
-* Puede incluir un encabezado `x-request-id` en su solicitud. Lo ideal sería que hubiera una relación uno a uno entre cada `liveActivityID` y su correspondiente `x-request-id`. Esto garantiza que si se realizan varias solicitudes con la misma combinación de `x-request-id` y `liveActivityID`, solo se iniciará una Actividad activa en el dispositivo y se omitirán las solicitudes duplicadas.
+* Puede incluir un encabezado `x-request-id` en su solicitud. Lo ideal sería que hubiera una relación uno a uno entre cada `liveActivityID` y su correspondiente `x-request-id`. Esto garantiza que si se realizan varias solicitudes con la misma combinación de `x-request-id` y `liveActivityID`, solo se iniciará una instancia de actividad en directo en el dispositivo y se omitirán las solicitudes duplicadas.
 
-* Si se omite el encabezado `x-request-id`, cada solicitud se trata de forma independiente, lo que puede dar como resultado que se creen varias actividades activas con el mismo `liveActivityID`. En estos casos, las actualizaciones futuras pueden fallar o aplicarse solo a una de las instancias activas.
+* Si se omite el encabezado `x-request-id`, cada solicitud se trata de forma independiente, lo que puede dar como resultado que se creen varias instancias de actividad Live con el mismo `liveActivityID`. En estos casos, las actualizaciones futuras pueden fallar o aplicarse solo a una de las instancias activas.
 
 * El valor `x-request-id` no se debe reutilizar en `liveActivityIDs` diferentes en solicitudes de API independientes.
 
 +++
 
-+++¿Puedo probar a/B diferentes experiencias de actividades en directo?
++++¿Puedo probar diferentes experiencias de actividad en directo A/B?
 
 Sí. Cree varias campañas con diferentes estructuras de contenido y utilice las funciones de experimentación de Adobe Journey Optimizer para probar cuál de ellas tiene un mejor rendimiento. Asegúrese de que la aplicación admita todas las variaciones de estado del contenido.
 
@@ -172,7 +172,7 @@ Actualice solo cuando haya cambios significativos en la información, ya que las
 
 +++
 
-+++¿Puedo orientar a los usuarios según si tienen habilitadas las actividades en directo?
++++¿Puedo segmentar usuarios en función de si tienen habilitada la actividad en directo?
 
 Deberá trabajar con su equipo de desarrollo de para rastrear y pasar esta preferencia a Adobe Experience Platform como atributo de usuario y luego segmentar en función de ese atributo.
 
@@ -221,9 +221,9 @@ Implementar la lógica de reintentos con retroceso exponencial. Compruebe la res
 
 +++
 
-+++¿Puedo enviar actualizaciones de actividades en directo desde mis propios servidores back-end?
++++¿Puedo enviar actualizaciones de actividad en directo desde mis propios servidores back-end?
 
-Sí, ese es el comportamiento deseado. El servidor llama a la API de Adobe Journey Optimizer sin encabezado para almacenar en déclencheur los eventos de Actividad en directo cuando la lógica empresarial lo requiera.
+Sí, ese es el comportamiento deseado. El servidor llama a la API de Adobe Journey Optimizer sin encabezado para almacenar en déclencheur los eventos de actividad que se producen cuando la lógica empresarial lo requiere.
 
 +++
 
@@ -241,7 +241,7 @@ Causas frecuentes:
 
 * No coinciden `liveActivityID` o `channelID` entre las llamadas de inicio y actualización.
 * `content-state` campos no coinciden con su estructura `ContentState`.
-* La actividad en directo ya ha finalizado.
+* La actividad Live ya ha finalizado.
 * Problemas de conectividad de red en el dispositivo.
 * La hora de la época utilizada como marca de tiempo no está actualizada.
 
@@ -258,13 +258,13 @@ Causas frecuentes:
 
 +++Los usuarios solo ven la actualización de la actividad en directo y no la notificación de alerta. ¿Se trata de un problema conocido?
 
-No. El campo `alert` es opcional y iOS lo puede suprimir en determinadas condiciones, por ejemplo, en el modo No molestar. Las actividades activas se pueden actualizar de forma silenciosa, que suele ser el comportamiento deseado. El campo de alerta es obligatorio para enviar inicios remotos; de lo contrario, Apple lo trata como una notificación en segundo plano silenciosa.
+No. El campo `alert` es opcional y iOS lo puede suprimir en determinadas condiciones, por ejemplo, en el modo No molestar. La actividad en directo se puede actualizar de forma silenciosa, que suele ser el comportamiento deseado. El campo de alerta es obligatorio para enviar inicios remotos; de lo contrario, Apple lo trata como una notificación en segundo plano silenciosa.
 
 +++
 
-+++¿Puedo eliminar o borrar todas las actividades activas de un usuario?
++++¿Puedo eliminar o borrar todas las instancias de actividad en directo de un usuario?
 
-Debe enviar un evento de &quot;finalización&quot; para cada actividad en directo activa. Rastree qué actividades activas hay para cada usuario en sus sistemas para que pueda limpiarlos correctamente.
+Debe enviar un evento de &quot;finalización&quot; para cada instancia de actividad en directo activa. Realice un seguimiento de las instancias de actividades activas de cada usuario de sus sistemas para poder limpiarlas correctamente.
 
 +++
 

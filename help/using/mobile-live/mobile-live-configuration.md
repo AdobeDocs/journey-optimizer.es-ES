@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '506'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Antes de enviar la actividad de Live, debe configurar el entorno de Adobe Journe
 
 Se requiere el registro de credenciales push de aplicaciones móviles para autorizar a Adobe a enviar notificaciones push en su nombre.
 
-El paso 1 es opcional si ya se han configurado las credenciales de inserción, ya que se pueden reutilizar para la configuración del canal de Actividad en directo. Si no se definen credenciales, debe crear nuevas credenciales push para la aplicación. Consulte los pasos detallados a continuación:
+El paso 1 es opcional si ya se han configurado las credenciales de inserción, ya que se pueden reutilizar para la configuración del canal de actividad en directo. Si no se definen credenciales, debe crear nuevas credenciales push para la aplicación. Consulte los pasos detallados a continuación:
 
 1. Acceda al menú **[!UICONTROL Canales]** > **[!UICONTROL Configuración push]** > **[!UICONTROL Credenciales push]**.
 
@@ -56,7 +56,7 @@ El paso 1 es opcional si ya se han configurado las credenciales de inserción, y
 
    ![](assets/config-1.png)
 
-1. Introduzca un nombre y una descripción (opcional) para la configuración y, a continuación, seleccione el canal de WhatsApp.
+1. Introduzca un nombre y una descripción (opcional) para la configuración y, a continuación, seleccione el canal de actividad Live.
 
    >[!NOTE]
    >

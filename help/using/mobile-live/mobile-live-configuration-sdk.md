@@ -9,17 +9,17 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 2%
+source-wordcount: '447'
+ht-degree: 0%
 
 ---
 
-# Integración de actividades en directo con el SDK móvil de Adobe Experience Platform {#mobile-live-config-sdk}
+# Integración de actividades en directo con Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
 
 
-Adobe Experience Platform Mobile SDK ofrece compatibilidad integrada con las actividades en directo de Apple. Esto permite que la aplicación muestre actualizaciones dinámicas en tiempo real directamente en la pantalla de bloqueo y en Dynamic Island sin necesidad de abrir la aplicación.
+Adobe Experience Platform Mobile SDK ofrece compatibilidad integrada con la actividad en directo de Apple. Esto permite que la aplicación muestre actualizaciones dinámicas en tiempo real directamente en la pantalla de bloqueo y en Dynamic Island sin necesidad de abrir la aplicación.
 
 1. [Importación de módulos necesarios](#import)
 
@@ -29,7 +29,7 @@ Adobe Experience Platform Mobile SDK ofrece compatibilidad integrada con las act
 
    Cumplir con `LiveActivityAttributes`, incluir `LiveActivityData` y un atributo `ContentState`.
 
-1. [Registrar actividades activas](#register)
+1. [Registrar actividad en directo](#register)
 
    Use `Messaging.registerLiveActivity()` después de la inicialización de SDK.
 
@@ -39,7 +39,7 @@ Adobe Experience Platform Mobile SDK ofrece compatibilidad integrada con las act
 
 1. [Iniciar una actividad Live localmente (opcional)](#local)
 
-   Las actividades activas se pueden iniciar de forma remota a través de Journey Optimizer o de forma local dentro del código de la aplicación.
+   La actividad en directo se puede iniciar de forma remota a través de Journey Optimizer o de forma local dentro del código de la aplicación.
 
 1. [Agregar compatibilidad de depuración (opcional)](#debug)
 
@@ -58,6 +58,7 @@ Compruebe que están instaladas las siguientes versiones mínimas para garantiza
 * **Xcode:** 14.0 o posterior
 * **Swift:** 5.7 o posterior
 * **Dependencias:** AEPCore, AEPMessaging, AEPMessagingLiveActivity, ActivityKit
+* **AEP Mobile SDK versión**: iOS Messaging 5.11.0 o posterior
 
 >[!ENDSHADEBOX]
 
@@ -85,7 +86,7 @@ Los componentes clave incluyen:
 
 * **`ContentState`**, que define los datos dinámicos que se pueden actualizar durante el ciclo vital de la actividad. Debe ajustarse a `Codable` y `Hashable`.
 
-* La enumeración `LiveActivityOrigin` especifica si una actividad se inició localmente en la aplicación o de forma remota mediante una notificación push-to-start, admitida en iOS 17.2 y versiones posteriores. Este valor permite a SDK diferenciar entre actividades en directo iniciadas localmente y activadas de forma remota durante la recopilación de datos.
+* La enumeración `LiveActivityOrigin` especifica si una actividad se inició localmente en la aplicación o de forma remota mediante una notificación push-to-start, admitida en iOS 17.2 y versiones posteriores. Este valor permite a SDK diferenciar entre la actividad en directo iniciada localmente y la activada de forma remota durante la recopilación de datos.
 
 **Ejemplos**
 
@@ -111,15 +112,15 @@ public struct LiveActivityData: Codable {
     /// Unique identifier for broadcast Live activity channels
     public let channelID: String?
      
-    /// Unique identifier for individual Live activities
+    /// Unique identifier for individual Live activity
     public let liveActivityID: String?
      
     /// Indicates local vs remote creation
     public let origin: LiveActivityOrigin?
      
     // Initializers
-    public init(channelID: String)        // For broadcast Live activities
-    public init(liveActivityID: String)   // For individual Live activities
+    public init(channelID: String)        // For broadcast Live activity
+    public init(liveActivityID: String)   // For individual Live activity
 }
 ```
 
@@ -133,7 +134,7 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## Paso 3: Registro de actividades activas {#register}
+## Paso 3: Registro de una actividad en directo {#register}
 
 Registre los tipos de actividades de Live en su `AppDelegate` después de la inicialización de SDK, esto le permite:
 
@@ -151,7 +152,7 @@ if #available(iOS 16.1, *) {
 
 ## Paso 4: Crear widgets de actividad activos {#widgets}
 
-Las actividades activas se muestran a través de widgets, debe crear un paquete de widgets y una configuración:
+La actividad en directo se muestra a través de widgets, debe crear un paquete de widgets y una configuración:
 
 **Ejemplo de una actividad de entrega de alimentos en directo:**
 
@@ -190,7 +191,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 
 ## Paso 5: Inicio de una actividad Live localmente (opcional) {#local}
 
-Aunque Journey Optimizer puede iniciar actividades Live de forma remota, también puede iniciarlas localmente:
+Aunque Journey Optimizer puede iniciar de forma remota una actividad en directo, también puede iniciarla localmente:
 
 **Ejemplo de una actividad de entrega de alimentos en directo:**
 
