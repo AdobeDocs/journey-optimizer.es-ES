@@ -10,10 +10,10 @@ level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, página, formulario
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 13ef8ae4fa988537db192eca0b906940e51eeb28
+source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 10%
+source-wordcount: '1642'
+ht-degree: 9%
 
 ---
 
@@ -78,13 +78,13 @@ Para crear un ajuste preestablecido de formulario, siga los pasos a continuació
    >* **El tipo de datos** debe establecerse en **XDM** (no datos sin procesar)
    >* **La autenticación** debe estar **deshabilitada** (conexión no autenticada)
    >
-   >Si la conexión de flujo continuo no aparece en la lista, compruebe que se cumplen ambas condiciones. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Si la conexión de flujo continuo no aparece en la lista, compruebe que se cumplen ambas condiciones. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Seleccione un **[!UICONTROL conjunto de datos]** para vincularlo con el formulario. Aquí es donde se almacenan y reflejan las respuestas del formulario. Puede escribir si desea buscar un conjunto de datos específico o seleccionarlo en la lista.
 
    >[!NOTE]
    >
-   >Actualmente solo hay [!DNL Adobe Experience Platform] conjuntos de datos disponibles para su selección. Se puede seleccionar un conjunto de datos a la vez. [Más información sobre conjuntos de datos](../data/get-started-datasets.md)
+   >Actualmente, solo están disponibles para su selección los conjuntos de datos **Habilitados para perfiles** y **No habilitados para perfiles** [!DNL Adobe Experience Platform]. Se puede seleccionar un conjunto de datos a la vez. Los conjuntos de datos del sistema no se pueden usar para guardar datos de formulario. [Más información sobre conjuntos de datos](../data/get-started-datasets.md)
 
 1. Haga clic en **[!UICONTROL Publicar]**. El ajuste preestablecido ya está listo para utilizarse en un formulario.
 
