@@ -7,10 +7,11 @@ feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+exl-id: f0585411-c862-45f2-9a10-d8a72497c533
+source-git-commit: 57916f631c0154113699ca941a635678813561fe
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 2%
+source-wordcount: '1462'
+ht-degree: 3%
 
 ---
 
@@ -60,6 +61,7 @@ Aprenda a crear indicadores eficaces y a configurar los ajustes de la imagen par
 
 1. Adapte el mensaje con la opción **[!UICONTROL Configuración de imagen]**:
 
+   * **[!UICONTROL Modelo generador]**: Seleccione entre **[!UICONTROL modelo Adobe]**, **[!UICONTROL modelo de socio]** para obtener funciones especializadas o **[!UICONTROL modelos personalizados]** entrenados en los recursos de su marca. [Más información](generative-models.md)
    * **[!UICONTROL Proporción de aspecto]**: determina la anchura y la altura del recurso. Tiene la opción de elegir entre proporciones comunes como 16:9, 4:3, 3:2 o 1:1, o bien puede especificar un tamaño personalizado.
    * **[!UICONTROL Tipo de contenido]**: Esto categoriza la naturaleza del elemento visual, distinguiendo entre diferentes formas de representación visual como fotografías, gráficos o arte.
    * **[!UICONTROL Intensidad visual]**: puede controlar el impacto de la imagen ajustando su intensidad. Un ajuste inferior (2) creará una apariencia más suave y restringida, mientras que un ajuste superior (10) hará que la imagen sea más vibrante y visualmente potente.
@@ -147,6 +149,7 @@ Después de acceder a AI Assistant, puede ajustar la configuración de generaci�
 
 1. Elija su **[!UICONTROL configuración de imagen]**:
 
+   * **[!UICONTROL Modelo generador]**: Seleccione entre **[!UICONTROL modelo Adobe]**, **[!UICONTROL modelo de socio]** para obtener funciones especializadas o **[!UICONTROL modelos personalizados]** entrenados en los recursos de su marca. [Más información](generative-models.md)
    * **[!UICONTROL Tipo de contenido]**: Esto categoriza la naturaleza del elemento visual, distinguiendo entre diferentes formas de representación visual como fotografías, gráficos o arte.
    * **[!UICONTROL Intensidad visual]**: puede controlar el impacto de la imagen ajustando su intensidad. Un ajuste inferior (2) creará una apariencia más suave y restringida, mientras que un ajuste superior (10) hará que la imagen sea más vibrante y visualmente potente.
    * **[!UICONTROL Color y tono]**: El aspecto general de los colores de una imagen y el estado de ánimo o atmósfera que transmite.
@@ -182,4 +185,3 @@ Después de generar variaciones de imagen para las notificaciones push, puede aj
    También puede habilitar el experimento para el contenido. [Más información](generative-experimentation.md)
 
 Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la campaña push. [Más información](../campaigns/review-activate-campaign.md)
-

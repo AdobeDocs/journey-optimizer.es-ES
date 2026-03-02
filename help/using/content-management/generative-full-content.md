@@ -7,9 +7,10 @@ feature: Content Assistant
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
+source-git-commit: 57916f631c0154113699ca941a635678813561fe
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1902'
 ht-degree: 2%
 
 ---
@@ -66,6 +67,7 @@ Con el Asistente de IA abierto, ahora puede configurar los ajustes de generació
 
 1. Elija su **[!UICONTROL configuración de imagen]**:
 
+   * **[!UICONTROL Modelo generador]**: Seleccione entre los modelos integrados disponibles, los modelos de Firefly personalizados formados en los recursos de su marca o los proveedores de generación de imágenes de terceros para crear imágenes que se ajusten a sus necesidades específicas y a los requisitos de la marca. [Más información](generative-models.md)
    * **[!UICONTROL Tipo de contenido]**: Esto categoriza la naturaleza del elemento visual, distinguiendo entre diferentes formas de representación visual como fotografías, gráficos o arte.
    * **[!UICONTROL Intensidad visual]**: puede controlar el impacto de la imagen ajustando su intensidad. Un ajuste inferior (2) creará una apariencia más suave y restringida, mientras que un ajuste superior (10) hará que la imagen sea más vibrante y visualmente potente.
    * **[!UICONTROL Color y tono]**: El aspecto general de los colores de una imagen y el estado de ánimo o atmósfera que transmite.
@@ -172,6 +174,7 @@ Una vez que haya accedido al asistente de IA para notificaciones push, puede con
 
 1. Elija su **[!UICONTROL configuración de imagen]**:
 
+   * **[!UICONTROL Modelo generador]**: Seleccione entre los modelos integrados disponibles, los modelos de Firefly personalizados formados en los recursos de su marca o los proveedores de generación de imágenes de terceros para crear imágenes que se ajusten a sus necesidades específicas y a los requisitos de la marca. [Más información](generative-models.md)
    * **[!UICONTROL Tipo de contenido]**: Esto categoriza la naturaleza del elemento visual, distinguiendo entre diferentes formas de representación visual como fotografías, gráficos o arte.
    * **[!UICONTROL Intensidad visual]**: puede controlar el impacto de la imagen ajustando su intensidad. Un ajuste inferior (2) creará una apariencia más suave y restringida, mientras que un ajuste superior (10) hará que la imagen sea más vibrante y visualmente potente.
    * **[!UICONTROL Color y tono]**: El aspecto general de los colores de una imagen y el estado de ánimo o atmósfera que transmite.
@@ -224,7 +227,7 @@ Después de revisar las variaciones de notificaciones push generadas, puede puli
 
 Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la campaña push. [Más información](../campaigns/review-activate-campaign.md)
 
-## Vídeo explicativo {#video}
+## Vídeo práctico {#video}
 
 Aprenda a utilizar el asistente de IA en Journey Optimizer para generar experiencias de contenido completas.
 
