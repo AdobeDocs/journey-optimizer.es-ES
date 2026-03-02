@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 5bb1a76ac0797f5fdea36e8b7164cb139ebd40dd
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1802'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,12 @@ No. La actividad en directo se puede iniciar, actualizar y finalizar de forma re
 +++¿Durante cuánto tiempo puede permanecer activa una actividad Live?
 
 Apple limita la actividad en vivo a **8 horas de actualizaciones activas**. Después de eso, el sistema finaliza automáticamente la actividad, aunque puede permanecer visible en un estado estático durante **12 horas adicionales** antes de la eliminación. También puede finalizar una actividad en vivo antes estableciendo un `dismissalDate` o llamando explícitamente a `activity.end()` en su aplicación.
+
++++
+
++++ ¿Cuáles son los límites de tasa?
+
+Las campañas tienen un límite de tasa predeterminado de 500 mensajes transaccionales por segundo en todos los canales, incluidas las actividades de iOS Live. Este límite se aplica a todos los canales combinados y no hay un límite de tasa independiente específicamente para las actividades de iOS Live.
 
 +++
 
