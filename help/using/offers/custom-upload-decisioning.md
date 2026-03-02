@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 62b244990611006e5eced7a5d35dbd0373aa23f7
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 5%
+source-wordcount: '631'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ Los datos de las audiencias de carga personalizadas se pueden aprovechar en Admi
 Para obtener más información sobre las audiencias de carga personalizada, consulte las secciones:
 
 * [Introducción a audiencias y Journey Optimizer](../audience/about-audiences.md)
-* [Importación de una audiencia en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importación de una audiencia en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Lectura obligatoria {#must-read}
 
@@ -76,5 +76,7 @@ Para aprovechar los atributos de una audiencia de carga personalizada para la pe
 ![Opciones de restricción de audiencia de carga personalizada](assets/csv-offer.png)
 
 Una vez añadida la audiencia como restricción, se pueden utilizar sus atributos para personalizar el contenido de representación. Para ello, acceda a la pestaña **Atributos de perfil** y busque la audiencia de carga personalizada. Seleccione los atributos relevantes de la audiencia para personalizar el contenido de la oferta.
+
+En Administración de decisiones, solo se admiten determinadas funciones al personalizar el contenido. Consulte [Funciones compatibles en el editor de expresiones](personalization-editor-supported-functions.md).
 
 ![Interfaz de personalización de atributos de perfil](assets/csv-perso.png)

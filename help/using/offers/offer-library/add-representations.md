@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 10%
+source-wordcount: '847'
+ht-degree: 9%
 
 ---
 
@@ -73,6 +73,8 @@ Se pueden añadir distintos tipos de contenido a una representación.
 >[!NOTE]
 >
 >Solo el contenido correspondiente al tipo de contenido de la ubicación está disponible para su uso.
+>
+>Cuando se usa el editor de personalización en Administración de decisiones, solo se admite un subconjunto de funciones (consulte [Funciones compatibles en el editor de expresiones](../personalization-editor-supported-functions.md)).
 
 ### Adición de imágenes {#images}
 
@@ -80,7 +82,7 @@ Si la ubicación seleccionada es de tipo imagen, puede agregar contenido procede
 
 >[!NOTE]
 >
-> Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=es){target="_blank"}, debes implementar [!DNL Assets Essentials] para tu organización y asegurarte de que los usuarios formen parte de los perfiles de producto de **Usuarios consumidores de Assets Essentials** o **Usuarios de Assets Essentials**. Más información sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=es){target="_blank"}.
+> Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, debes implementar [!DNL Assets Essentials] para tu organización y asegurarte de que los usuarios formen parte de los perfiles de producto de **Usuarios consumidores de Assets Essentials** o **Usuarios de Assets Essentials**. Más información sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. Elija la opción **[!UICONTROL Biblioteca de recursos]**.
 
@@ -96,9 +98,9 @@ Si la ubicación seleccionada es de tipo imagen, puede agregar contenido procede
 
 ### Añadir archivos HTML o JSON {#html-json}
 
-Si la ubicación seleccionada es de tipo HTML, también puede agregar contenido HTML o JSON proveniente de la [biblioteca de recursos de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=es){target="_blank"}).
+Si la ubicación seleccionada es de tipo HTML, también puede agregar contenido HTML o JSON proveniente de la [biblioteca de recursos de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
 
-Por ejemplo, creó una plantilla de correo electrónico de HTML en [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=es){target="_blank"} y quiere usar ese archivo para el contenido de su oferta. En lugar de crear un nuevo archivo, simplemente puede cargar la plantilla en la **Biblioteca de recursos** para poder reutilizarla en las representaciones de la oferta.
+Por ejemplo, creó una plantilla de correo electrónico de HTML en [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} y quiere usar ese archivo para el contenido de su oferta. En lugar de crear un nuevo archivo, simplemente puede cargar la plantilla en la **Biblioteca de recursos** para poder reutilizarla en las representaciones de la oferta.
 
 Para reutilizar el contenido en una representación, examine la **Biblioteca de recursos** tal como se describe en [esta sección](#images) y seleccione el archivo HTML o JSON que elija.
 
@@ -108,13 +110,13 @@ Para reutilizar el contenido en una representación, examine la **Biblioteca de 
 
 Para agregar contenido desde una ubicación pública externa, seleccione **[!UICONTROL URL]** y luego ingrese la dirección URL del contenido que desea agregar.
 
-Puede personalizar las direcciones URL mediante el editor de personalización. Más información sobre [personalización](../../personalization/personalize.md#use-expression-editor).
+Puede personalizar las direcciones URL mediante el editor de personalización. Más información sobre [personalización](../../personalization/personalize.md#use-expression-editor). En Administración de decisiones, solo se admiten ciertas funciones (consulte [Funciones compatibles en el editor de expresiones](../personalization-editor-supported-functions.md)).
 
 ![](../assets/offer-content-url.png)
 
 Por ejemplo, se desea personalizar la imagen que se muestra como oferta. Desea que los usuarios que favorecen las vacaciones en la ciudad vean el horizonte de Nueva York y los usuarios que favorecen las vacaciones en la playa vean la costa norte de Hawai.
 
-Utilice el editor de personalización para recuperar los atributos de perfil almacenados en Adobe Experience Platform mediante esquemas de unión. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=es){target="_blank"}
+Utilice el editor de personalización para recuperar los atributos de perfil almacenados en Adobe Experience Platform mediante esquemas de unión. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"} Para obtener funciones compatibles con la administración de decisiones, consulte [Funciones compatibles en el editor de expresiones](../personalization-editor-supported-functions.md).
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -136,7 +138,7 @@ También puede insertar contenido de tipo texto al seleccionar una ubicación co
 
    ![](../assets/offer-text-content.png)
 
-   Puede personalizar el contenido mediante el editor de personalización. Más información sobre [personalización](../../personalization/personalize.md#use-expression-editor).
+   Puede personalizar el contenido mediante el editor de personalización. Más información sobre [personalización](../../personalization/personalize.md#use-expression-editor). En Administración de decisiones, solo se admiten ciertas funciones (consulte [Funciones compatibles en el editor de expresiones](../personalization-editor-supported-functions.md)).
 
    ![](../assets/offer-personalization.png)
 

@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 11%
+source-wordcount: '457'
+ht-degree: 10%
 
 ---
 
@@ -36,6 +36,10 @@ Esta es una lista de limitaciones que deben tenerse en cuenta al trabajar con re
 * Edge Decisioning utiliza el perfil Edge que no almacena eventos, por lo que cualquier regla utilizada en una decisión Edge no será válida.
 * Al crear una regla de decisión, no se admite retroceder a un período de tiempo anterior. Por ejemplo, si especifica un evento de experiencia que se produjo en el último mes como componente de la regla. Cualquier intento de incluir un periodo retrospectivo durante la creación de la regla generará un déclencheur de error al guardarla.
   <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
+
+>[!NOTE]
+>
+>En Administración de decisiones, solo se admite un subconjunto de funciones de expresión. Cuando la regla utilice expresiones o atributos de perfil, consulte [Funciones admitidas en el editor de expresiones](../personalization-editor-supported-functions.md) para obtener la lista de funciones admitidas.
 
 ## Crear una regla de decisión {#create}
 
@@ -77,8 +81,8 @@ Para crear una regla de decisión, siga estos pasos:
 
 >[!CAUTION]
 >
->Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es#events){target="_blank"}, no podrá aprovecharla en una oferta.
+>Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, no podrá aprovecharla en una oferta.
 
 ## Tutorial en vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341365?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
