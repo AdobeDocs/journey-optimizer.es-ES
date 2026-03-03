@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: 9d85361c6f177e451149baf4e2677dce56c6130c
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '360'
 ht-degree: 11%
 
 ---
@@ -77,7 +77,7 @@ Antes de empezar a crear ofertas, debe definir varios componentes que utilizará
 
 ## Creación y administración de ofertas {#create-and-manage-offers}
 
-1. [Crear ofertas](creating-personalized-offers.md) y configurar su contenido y propiedades. Al personalizar el contenido de la oferta (representaciones), solo se admiten determinadas funciones de expresión (consulte [Funciones compatibles en el editor de expresiones](../personalization-editor-supported-functions.md)).
+1. [Crear ofertas](creating-personalized-offers.md) y configurar su contenido y propiedades. Al personalizar el contenido de la oferta (representaciones), solo se admiten determinadas funciones; consulte [Funciones compatibles en el editor de personalización](personalization-editor-supported-functions.md).
 
 1. [Crear ofertas de reserva](creating-fallback-offers.md), que son las ofertas de último recurso que se mostrarán si los clientes no cumplen los requisitos para ninguna de las ofertas seleccionadas.
 
