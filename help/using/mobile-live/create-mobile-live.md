@@ -6,10 +6,8 @@ description: Obtenga información sobre cómo crear una actividad Live en Journe
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 3%
@@ -159,4 +157,4 @@ Después de diseñar la actividad en vivo, puede hacer un seguimiento para medir
 
 Descubra cómo configurar la actividad de iOS Live con Adobe Journey Optimizer para que ofrezca actualizaciones enriquecidas en tiempo real en la pantalla de bloqueo de iPhone y Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479867?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
