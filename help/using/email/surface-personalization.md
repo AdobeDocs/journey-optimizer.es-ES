@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración, subdominio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1192'
 ht-degree: 6%
 
 ---
@@ -89,6 +89,10 @@ Una vez que haya agregado uno o más subdominios dinámicos a una configuración
 ## Personalice el encabezado {#personalize-header}
 
 También puede utilizar la personalización para todos los parámetros de encabezado definidos en una configuración.
+
+>[!NOTE]
+>
+>Al [editar una configuración de correo electrónico](../configuration/channel-surfaces.md#edit-channel-surface), no puede agregar nuevos [atributos de perfil](../personalization/personalization-build-expressions.md#sources) a los parámetros de encabezado. Debe crear una nueva configuración de canal.
 
 Por ejemplo, si tiene varias marcas, puede crear una sola configuración y utilizar valores personalizados para los encabezados de correo electrónico. Esto le permite asegurarse de que todos los correos electrónicos enviados desde sus diferentes marcas se dirijan a cada uno de sus clientes con los nombres y correos electrónicos correctos de **From**. Del mismo modo, cuando los destinatarios presionen el botón **Responder** en el software de cliente de correo electrónico, querrá que los nombres y correos electrónicos de **Responder a** correspondan a la marca correcta para el usuario correcto.
 

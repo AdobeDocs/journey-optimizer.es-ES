@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: archivo, mensajes, HIPAA, CCO, correos electrónicos
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1339'
 ht-degree: 6%
 
 ---
@@ -41,7 +41,7 @@ Puede enviar una copia oculta (CCO) de un correo electrónico enviado por [!DNL 
 
 ### Habilitar correo electrónico CCO {#enable-bcc}
 
-Para habilitar la opción **[!UICONTROL correo electrónico CCO]**, escriba la dirección de correo electrónico que desee en el campo dedicado de la [configuración del canal](channel-surfaces.md) (es decir, el ajuste preestablecido de mensaje). Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en un subdominio delegado a Adobe. Por ejemplo, si delegó el subdominio *marketing.luma.com* a Adobe, cualquier dirección como *abc@marketing.luma.com* está prohibida.
+Para habilitar la opción **[!UICONTROL Correo electrónico CCO]**, escriba la dirección de correo electrónico que desee en el campo dedicado de la [configuración de canal](channel-surfaces.md). Puede especificar cualquier dirección externa en el formato correcto, excepto una dirección de correo electrónico definida en un subdominio delegado a Adobe. Por ejemplo, si delegó el subdominio *marketing.luma.com* a Adobe, cualquier dirección como *abc@marketing.luma.com* está prohibida.
 
 >[!CAUTION]
 >
@@ -123,7 +123,7 @@ Para obtener acceso a este conjunto de datos a través de la interfaz de usuario
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-Para ejecutar consultas en este conjunto de datos, puede usar el Editor de consultas que proporciona [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
+Para ejecutar consultas en este conjunto de datos, puede usar el Editor de consultas que proporciona [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -234,7 +234,7 @@ El encabezado `x-message-profile-id` también se almacena en los siguientes conj
 
 * Para acceder a estos conjuntos de datos a través de la interfaz de usuario, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Conjuntos de datos]** > **[!UICONTROL Examinar]**. Obtenga más información acerca de cómo obtener acceso a los conjuntos de datos en [esta sección](../data/get-started-datasets.md#access-datasets).
 
-* Use el Editor de consultas proporcionado por [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
+* Use el Editor de consultas proporcionado por [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
 
 A continuación se muestran algunas consultas de ejemplo que puede ejecutar para recuperar información correspondiente a sus copias CCO.
 

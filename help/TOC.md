@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '3123'
+source-wordcount: '3130'
 ht-degree: 97%
 
 ---
@@ -858,7 +858,7 @@ ht-degree: 97%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
@@ -894,7 +894,8 @@ ht-degree: 97%
       + [Reintentos](using/configuration/retries.md)
       + [Lista de permitidos](using/configuration/allow-list.md)
    + [Uso de listas semilla](using/configuration/seed-lists.md)
-   + [Asistencia para el archivado](using/configuration/archiving-support.md)
+   + [Compatibilidad con el archivado de correo electrónico](using/configuration/archiving-support.md)
+   + [Añadir un campo CC a los correos electrónicos](using/configuration/cc-email-field.md)
    + [Administrar campos de ejecución](using/configuration/primary-email-addresses.md)
    + [Creación de webhooks de comentarios](using/configuration/feedback-webhooks.md)
 + Configuración de recorrido {#configure-journeys}

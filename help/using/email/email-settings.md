@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
-workflow-type: ht
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 100%
 
@@ -100,10 +100,18 @@ Puede enviar una copia idéntica (o copia oculta) de los mensajes de correo elec
 Para ello, habilite la característica opcional **[!UICONTROL Correo electrónico CCO]** en el nivel de configuración de canal. [Más información](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
+<!--replace screenshot-->
 
 Además, al definir la dirección **[!UICONTROL Correo electrónico CCO]**, asegúrese de utilizar un subdominio que tenga una configuración de registro MX válida; de lo contrario, no se podrá procesar la configuración de correo electrónico.
 
 Si se produce un error al enviar la configuración de correo electrónico, significa que el registro MX no está configurado para el subdominio de la dirección que ha introducido. Póngase en contacto con el administrador para configurar el registro MX correspondiente o use otra dirección con una configuración de registro MX válida.
+
+<!--
+## CC email {#cc-email}
+
+You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey Optimizer], so that an additional address receives a copy and is visible to the primary recipient. The CC field is optional and supports personalization. [Learn more](../configuration/cc-email-field.md)
+
+-->
 
 ## Envío a direcciones de correo electrónico suprimidas {#send-to-suppressed-email-addresses}
 

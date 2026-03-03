@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 90%
+source-wordcount: '733'
+ht-degree: 87%
 
 ---
 
@@ -23,6 +23,8 @@ Al configurar una nueva [configuración del canal de correo electrónico](email-
 >[!NOTE]
 >
 >Para un mayor control sobre la configuración del correo electrónico, puede personalizar los parámetros del encabezado. [Más información](../email/surface-personalization.md#personalize-header)
+>
+>Al [editar una configuración de correo electrónico](../configuration/channel-surfaces.md#edit-channel-surface), no puede agregar nuevos [atributos de perfil](../personalization/personalization-build-expressions.md#sources) a los parámetros de encabezado. Debe crear una nueva configuración de canal.
 
 * **[!UICONTROL Nombre del remitente]**: el nombre del remitente, como por ejemplo, el nombre de su marca.
 * **[!UICONTROL Prefijo del correo electrónico del remitente]**: la dirección de correo electrónico que desea usar para sus comunicaciones.

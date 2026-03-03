@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4188d0e321f3da79932b648e3bdf8ffcf6efa22b
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1875'
 ht-degree: 12%
 
 ---
@@ -166,6 +166,8 @@ Para editar una configuración de canal, siga los pasos a continuación.
 >[!NOTE]
 >
 >No puede editar la **[!UICONTROL configuración de notificaciones push]**. Si una configuración de canal solo está configurada para el canal de notificaciones push, no se puede editar.
+>
+>Al editar una configuración de correo electrónico, no se pueden agregar nuevos [atributos de perfil](../personalization/personalization-build-expressions.md#sources) a los parámetros de encabezado. Debe crear [una nueva configuración de canal](#create-channel-surface).
 
 1. En la lista, haga clic en el nombre de una configuración de canal para abrirla.
 
