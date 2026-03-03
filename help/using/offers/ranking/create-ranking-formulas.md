@@ -11,10 +11,10 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 6%
+source-wordcount: '613'
+ht-degree: 11%
 
 ---
 
@@ -26,11 +26,7 @@ ht-degree: 6%
 
 ## Acerca de las fórmulas de clasificación {#about-ranking-formulas}
 
-**Las fórmulas de clasificación** le permiten definir reglas que determinan qué oferta debe presentarse primero para una ubicación determinada, en lugar de tener en cuenta las puntuaciones de prioridad de las ofertas.
-
-Las fórmulas de clasificación se expresan en **sintaxis de PQL** y pueden aprovechar atributos de perfil, datos de contexto y atributos de oferta. Para obtener más información sobre cómo usar la sintaxis de PQL, consulte la [documentación específica](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=es).
-
-En Administración de decisiones, solo se admite un subconjunto de funciones en las fórmulas de clasificación. Consulte [Funciones compatibles en el editor de expresiones](../personalization-editor-supported-functions.md) para ver la lista.
+**Fórmulas de clasificación** le permite definir reglas que determinen qué oferta se debe presentar primero para una ubicación determinada, en lugar de tener en cuenta las puntuaciones de prioridad de las ofertas. Las fórmulas de clasificación se expresan en **sintaxis de PQL** y pueden aprovechar atributos de perfil, datos de contexto y atributos de oferta. Para obtener más información sobre cómo usar la sintaxis de PQL, consulte la [documentación específica](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=es).
 
 Una vez creada una fórmula de clasificación, puede asignarla a una ubicación en una decisión. Para obtener más información, consulte [Configurar la selección de ofertas en decisiones](../offer-activities/configure-offer-selection.md).
 
