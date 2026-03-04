@@ -9,20 +9,22 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 18%
+source-wordcount: '400'
+ht-degree: 13%
 
 ---
 
 # Limitaciones y mecanismos de protección de gestión de decisiones {#decision-management-guardrails}
 
->[!TIP]
+>[!IMPORTANT]
 >
->Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../experience-decisioning/gs-experience-decisioning.md)
+>Esta página cubre las protecciones para la capacidad heredada de **Administración de decisiones**. Si está usando **Decisioning** — la capacidad de toma de decisiones actual de [!DNL Adobe Journey Optimizer] disponible a través de la experiencia basada en código y los canales de correo electrónico — consulte [Limitaciones y protecciones de toma de decisiones](../experience-decisioning/decisioning-guardrails.md) en su lugar.
+>
+>¿No está seguro de qué capacidad está utilizando? [Más información sobre la toma de decisiones](../experience-decisioning/gs-experience-decisioning.md).
 
-Para garantizar un uso óptimo de la administración de decisiones, tenga en cuenta las siguientes limitaciones y protecciones.
+Esta página se aplica a los usuarios que aún trabajan con el sistema de gestión de decisiones heredado. Para garantizar un uso óptimo, tenga en cuenta las siguientes limitaciones y protecciones.
 
 La lista completa de [!DNL Journey Optimizer] protecciones y limitaciones está disponible en [esta sección](../start/guardrails.md).
 
@@ -97,7 +99,7 @@ El rendimiento de entrega corresponde al número de respuestas de decisión que 
 | Modelo de clasificación de IA | 5 |
 | Límite de frecuencia: número máximo de reglas de límite por oferta | 10 |
 
-## Configuraciones  {#configurations}
+## Configuraciones {#configurations}
 
 El número total de configuraciones que admite Administración de decisiones no puede superar los 20 000.
 

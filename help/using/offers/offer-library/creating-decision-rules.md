@@ -10,18 +10,20 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 11%
+source-wordcount: '450'
+ht-degree: 7%
 
 ---
 
 # Crear reglas de decisión {#create-decision-rules}
 
->[!TIP]
+>[!IMPORTANT]
 >
->Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+>Esta página cubre las reglas de decisión para la capacidad heredada **Gestión de decisiones**. Si está usando **Decisioning** — la capacidad de toma de decisiones actual de [!DNL Adobe Journey Optimizer] disponible a través de canales de correo electrónico y experiencia basados en código — consulte [Generar reglas](../../experience-decisioning/rules.md) en su lugar.
+>
+>¿No está seguro de qué capacidad está utilizando? [Más información sobre la toma de decisiones](../../experience-decisioning/gs-experience-decisioning.md).
 
 ## Acerca de las reglas decisión {#about}
 
@@ -77,8 +79,8 @@ Para crear una regla de decisión, siga estos pasos:
 
 >[!CAUTION]
 >
->Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es#events){target="_blank"}, no podrá aprovecharla en una oferta.
+>Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, no podrá aprovecharla en una oferta.
 
 ## Tutorial en vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341365?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
