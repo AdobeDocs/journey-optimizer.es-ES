@@ -9,7 +9,8 @@ role: User
 hidefromtoc: true
 hide: true
 level: Experienced
-source-git-commit: 74102069afa519898149de33f890568950571f26
+exl-id: 0c586565-0c65-435f-986d-cd08b59de159
+source-git-commit: 1ab21ba3a656f59de748ee90f360b99c0dc2f7a5
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 5%
@@ -60,7 +61,7 @@ Cuando se utiliza el editor avanzado de HTML, se aplican las siguientes protecci
    >
    >Esta advertencia aparece solo la primera vez que abre el editor avanzado de HTML y se restablece cada mes.
 
-   ![](assets/email-template-expert-mode-warning.png)
+   ![](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
 1. Se muestra el editor avanzado de HTML.
 
@@ -74,7 +75,7 @@ Cuando se utiliza el editor avanzado de HTML, se aplican las siguientes protecci
 
 1. Guardar no está disponible en la vista avanzada de HTML. Vuelva a la vista Escritorio para guardar los cambios.
 
-   &lt;![](assets/email-template-expert-mode-save.png)
+   ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
