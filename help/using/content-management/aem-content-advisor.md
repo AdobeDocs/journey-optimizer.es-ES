@@ -7,13 +7,13 @@ role: User
 level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 58b6300dd00cc4475397d117a705fe88deab1796
+exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
+source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
-
 
 # Trabajar con el Asesor de contenido de Adobe Experience Manager {#aem-content-advisor}
 
@@ -29,7 +29,7 @@ El Asesor de contenido de Adobe Experience Manager sustituye la detección deter
 
 El Asesor de contenido de Adobe Experience Manager proporciona las siguientes funciones de recursos:
 
-* &#x200B;
+* 
   +++ Búsqueda semántica de IA
 
   Busque recursos utilizando un lenguaje natural en lugar de palabras clave o nombres de archivo exactos. Describa lo que necesita en un lenguaje sencillo, por ejemplo, &quot;café en las montañas&quot;, y la IA encontrará recursos relevantes para el contexto en función del significado y el contenido, no solo coincidencias de texto.
@@ -38,7 +38,7 @@ El Asesor de contenido de Adobe Experience Manager proporciona las siguientes fu
 
   +++
 
-* &#x200B;
+* 
   +++ Historial de búsqueda reciente
 
   Acceda a sus búsquedas recientes para reutilizar rápidamente palabras clave y contextos. Esto ahorra tiempo al trabajar en campañas similares o cuando necesita refinar las búsquedas anteriores.
@@ -47,7 +47,7 @@ El Asesor de contenido de Adobe Experience Manager proporciona las siguientes fu
 
   +++ 
 
-* &#x200B;
+* 
   +++ Cargar informe
 
   Cargue un documento de información de marketing para que aparezcan automáticamente los recursos que se alinean con el contexto de la campaña. La API analiza el informe y sugiere activos relevantes en función del contenido y los requisitos descritos en el documento.
@@ -56,7 +56,7 @@ El Asesor de contenido de Adobe Experience Manager proporciona las siguientes fu
 
   +++
 
-* &#x200B;
+* 
   +++ Panel de información de recursos
 
   Vea metadatos y propiedades detallados de cualquier recurso que use el icono **Información**. Esto incluye dimensiones de recursos, tamaño de archivo, fecha de creación, etiquetas y otra información relevante para ayudarle a tomar decisiones informadas.
@@ -65,7 +65,7 @@ El Asesor de contenido de Adobe Experience Manager proporciona las siguientes fu
 
   +++
 
-* &#x200B;
+* 
   +++ Panel de Dynamic Media
 
   Acceda a representaciones dinámicas, recortes inteligentes y modificaciones sobre la marcha en función de la configuración del repositorio.
@@ -80,7 +80,7 @@ El Asesor de contenido de Adobe Experience Manager proporciona las siguientes fu
 
    * **Scene7**: disponible para los recursos publicados (excepto Vídeo y PDF). [Más información sobre los modificadores de Scene7 de Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-   * **OpenAPI**: disponible para recursos aprobados (excepto vídeo). [Más información sobre Dynamic Media con modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=es){target="_blank"}
+   * **OpenAPI**: disponible para recursos aprobados (excepto vídeo). [Más información sobre Dynamic Media con modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
    * **Tanto Scene7 como OpenAPI**: disponibles cuando existen ambas configuraciones y el recurso cumple los criterios.
 
@@ -97,7 +97,7 @@ El Asesor de contenido de Adobe Experience Manager proporciona las siguientes fu
 
 El Asesor de contenido de Adobe Experience Manager proporciona las siguientes funciones de fragmento de contenido:
 
-* &#x200B;
+* 
   +++ Listado de vista de plantilla 
 
   Cambie entre las vistas de miniaturas y tablas para examinar los fragmentos de contenido en el formato que mejor se adapte a su flujo de trabajo. La vista de miniaturas proporciona un contexto visual, mientras que la vista de tabla muestra información detallada en un formato estructurado.
@@ -106,7 +106,7 @@ El Asesor de contenido de Adobe Experience Manager proporciona las siguientes fu
 
   +++
 
-* &#x200B;
+* 
   +++ Panel Información 
 
   Haga clic en el icono **[!UICONTROL Información]** para abrir un panel derecho que muestre las variaciones de fragmentos, las propiedades y los detalles de **[!UICONTROL Referido por]**. La sección **[!UICONTROL Referido por]** muestra todas las entidades de Adobe Experience Manager donde se usa el fragmento, con vínculos para ver estas referencias directamente en Adobe Experience Manager.
@@ -115,7 +115,7 @@ El Asesor de contenido de Adobe Experience Manager proporciona las siguientes fu
 
   +++
 
-* &#x200B;
+* 
   +++ Abrir en Adobe Experience Manager
 
   Abra rápidamente cualquier fragmento de contenido directamente en Adobe Experience Manager para editarlo mediante el icono situado junto al título. Esta integración perfecta le permite cambiar entre Journey Optimizer y Adobe Experience Manager sin perder contexto.
@@ -124,7 +124,7 @@ El Asesor de contenido de Adobe Experience Manager proporciona las siguientes fu
 
   +++
 
-* &#x200B;
+* 
   +++ Previsualización de JSON
 
   Previsualice la estructura JSON de los fragmentos de contenido en un formato de tabla limpio y organizado. Esto le ayuda a comprender la estructura de datos del fragmento y a verificar el contenido antes de utilizarlo en sus campañas.
@@ -147,11 +147,11 @@ Para acceder al Asesor de contenido de Adobe Experience Manager en Journey Optim
 
 1. En el Editor de Personalization, elija el punto de entrada de contenido:
 
-   * Para agregar un recurso, haga clic en **[!UICONTROL Assets]** y luego en **[!UICONTROL Abrir el selector de recursos]**.
+   * Para agregar un recurso, haz clic en **[!UICONTROL Assets]** y luego en **[!UICONTROL Abrir el Asesor de contenido de AEM]**.
 
      ![](assets/content-advisor-11.png){zoomable="yes"}
 
-   * Para agregar un fragmento de contenido de Adobe Experience Manager, haga clic en **[!UICONTROL Fragmento de contenido de AEM]** y luego en **[!UICONTROL Abrir el selector de CF de AEM]**.
+   * Para agregar un fragmento de contenido de Adobe Experience Manager, haga clic en **[!UICONTROL Fragmento de contenido de AEM]** y, a continuación, en **[!UICONTROL Abrir el Asesor de contenido de AEM]**.
 
      ![](assets/content-advisor-12.png){zoomable="yes"}
 
@@ -160,5 +160,3 @@ Para acceder al Asesor de contenido de Adobe Experience Manager en Journey Optim
    ![](assets/content-advisor-13.png){zoomable="yes"}
 
 1. Explore y seleccione el recurso o el fragmento de contenido que desea utilizar y, a continuación, insértelo en el contenido.
-
-

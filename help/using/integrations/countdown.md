@@ -8,10 +8,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 707bc4053ee05c275b562e35227e54836e91fa27
+exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
+source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 1%
+source-wordcount: '329'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +26,7 @@ Por ejemplo, como experto en marketing de una marca minorista, realiza una venta
 * Los destinatarios que abren 24 horas después ven &quot;Quedan 23 horas&quot;
 * Los destinatarios que abran después de que finalice la venta verán &quot;La venta ha finalizado&quot;
 
-Para obtener más información sobre cómo crear Dynamic Media en Adobe Experience Manager, consulte [este documento](assets/do-not-localize/countdown.pdf).
+Para obtener más información sobre cómo agregar temporizadores de cuenta atrás a la plantilla de Dynamic Media en Adobe Experience Manager, consulte [este documento](assets/do-not-localize/countdown.pdf).
 
 
 1. En **[!DNL Adobe Experience Manager]**, cree una plantilla de Dynamic Media y agréguele un componente de temporizador de cuenta atrás.
@@ -34,9 +35,9 @@ Para obtener más información sobre cómo crear Dynamic Media en Adobe Experien
 
 1. En **[!DNL Journey Optimizer]**, cree una nueva campaña o abra una existente y luego acceda al Designer de correo electrónico.
 
-1. Arrastre y suelte un **[!UICONTROL componente de HTML]** en el contenido del correo electrónico.
+1. Arrastre y suelte un componente **HTML** o **Asset** en el contenido del correo electrónico.
 
-1. Seleccione **[!UICONTROL Mostrar el código fuente]** para editar el HTML directamente.
+1. Pase el ratón sobre el componente y haga clic en **[!UICONTROL Mostrar código fuente]** (para componentes de HTML) o **[!UICONTROL Examinar]** (para componentes de recursos).
 
    ![](assets/timer-2.png)
 
@@ -50,9 +51,10 @@ Para obtener más información sobre cómo crear Dynamic Media en Adobe Experien
 
    ![](assets/timer-4.png)
 
-1. Seleccione el recurso en el Designer de correo electrónico y, a continuación, acceda al menú **[!UICONTROL Estilos]**.
+1. Seleccione el recurso en el Designer de correo electrónico y, a continuación, acceda al menú **[!UICONTROL Configuración]**.
 
-   Configure los siguientes ajustes:
+   Configure lo siguiente:
+
    * **Texto del titular**: El texto mostrado con el temporizador
    * **Hora de finalización**: La fecha y hora en que caduca la cuenta atrás. Introduzca la hora solo en GMT (hora del meridiano de Greenwich). El sistema no acepta otras zonas horarias.
    * **Texto alternativo**: El mensaje que aparece después de que finalice el temporizador
@@ -62,4 +64,3 @@ Para obtener más información sobre cómo crear Dynamic Media en Adobe Experien
 1. Haga clic en **[!UICONTROL Vista previa]** para ver el temporizador con actualizaciones de cuenta atrás en tiempo real y verificar la configuración.
 
 Cuando los destinatarios abren el correo electrónico, ven el tiempo preciso que queda para la venta flash. Si vuelve a abrir el correo electrónico más tarde, la cuenta atrás se actualiza automáticamente para reflejar el tiempo restante actual. Después de la fecha de finalización, aparece automáticamente el mensaje predeterminado.
-
