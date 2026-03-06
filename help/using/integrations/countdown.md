@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
-source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
+source-git-commit: f212a2178e83283d4755da5483d7c11ba4df183f
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Por ejemplo, como experto en marketing de una marca minorista, realiza una venta
 
 * Los destinatarios que abren inmediatamente ven &quot;Quedan 47 horas&quot;
 * Los destinatarios que abren 24 horas después ven &quot;Quedan 23 horas&quot;
-* Los destinatarios que abran después de que finalice la venta verán &quot;La venta ha finalizado&quot;
+* Los destinatarios que abran después de que finalice la venta verán &quot;¡Se acabó el tiempo!&quot;
 
 Para obtener más información sobre cómo agregar temporizadores de cuenta atrás a la plantilla de Dynamic Media en Adobe Experience Manager, consulte [este documento](assets/do-not-localize/countdown.pdf).
 
@@ -45,13 +45,17 @@ Para obtener más información sobre cómo agregar temporizadores de cuenta atr�
 
    ![](assets/timer-3.png)
 
+1. Active la experiencia de las píldoras cambiando Píldoras a Activado. Esto mejora la legibilidad al ocultar las rutas de atributos largas.
+
+   ![](assets/timer-6.png)
+
 1. En el menú **[!UICONTROL Atributos personalizados]**, configure los parámetros personalizables de URL que sean necesarios para la plantilla.
 
    Haga clic en **[!UICONTROL Guardar]** cuando termine.
 
    ![](assets/timer-4.png)
 
-1. Seleccione el recurso en el Designer de correo electrónico y, a continuación, acceda al menú **[!UICONTROL Configuración]**.
+1. También puede acceder a los parámetros de la plantilla de Dynamic Media seleccionando el recurso en Email Designer y, a continuación, accediendo al menú **[!UICONTROL Configuración]**.
 
    Configure lo siguiente:
 
