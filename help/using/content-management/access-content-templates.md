@@ -7,14 +7,22 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: 9fc43f2e17c256d33f73f21b6b30c4b593087a28
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '826'
 ht-degree: 3%
 
 ---
 
 # Acceso y administración de plantillas de contenido {#access-manage-templates}
+
+## Requisitos previos {#prerequisites}
+
+Para acceder y administrar plantillas de contenido, asegúrese de lo siguiente:
+
+* **Permiso para plantillas de contenido** — Su función debe incluir el permiso **[!UICONTROL Administrar plantillas de contenido]** (en el recurso **Administración de contenido**). Sin él, el menú **Plantillas de contenido** no estará visible en el panel de navegación izquierdo. [Obtenga información sobre cómo administrar permisos](../administration/permissions.md)
+* **Ámbito de zona protegida**: las plantillas de contenido son específicas de la zona protegida. Las plantillas creadas en una zona protegida no están disponibles en otra. Asegúrese de que está en la zona protegida correcta antes de buscar una plantilla.
+* **Plantillas de HTML (obsoletas)**: a partir de marzo de 2025, las plantillas de contenido de tipo HTML quedarán obsoletas. Las plantillas de HTML existentes siguen siendo accesibles, pero no se pueden crear nuevas.
 
 ## Plantillas de contenido de acceso {#access}
 
@@ -108,6 +116,26 @@ Seleccione el modo **[!UICONTROL Grid view]** para mostrar cada plantilla como u
 >Solo se pueden generar miniaturas adecuadas para las plantillas de contenido de correo electrónico de tipo HTML.
 
 Cuando actualice el contenido, espere unos segundos a que los cambios se reflejen en la miniatura.
+
+## Solución de problemas {#troubleshooting}
+
++++No puedo ver el menú Plantillas de contenido en el panel de navegación izquierdo
+
+A su función le falta el permiso **Administrar plantillas de contenido**. Pida al administrador que añada el recurso **Administración de contenido** con el permiso **Administrar plantillas de contenido** a su rol. [Más información](../administration/permissions.md)
+
++++
+
++++Una plantilla que he creado no se muestra en la lista
+
+Compruebe que está en la zona protegida correcta: las plantillas son específicas de la zona protegida. Compruebe también si una carpeta está seleccionada en el panel izquierdo; cuando se selecciona una carpeta, solo se muestran las plantillas dentro de esa carpeta. Haga clic en **[!UICONTROL Todas las plantillas de contenido]** para mostrar todas las plantillas independientemente de la carpeta.
+
++++
+
++++He editado una plantilla, pero el contenido de mi campaña o recorrido no se ha actualizado
+
+La edición o eliminación de una plantilla no actualiza de forma retroactiva las campañas o recorridos que se hayan creado con ella. El contenido se copia en el momento de su uso. Para actualizar el contenido existente, edite la campaña o el recorrido directamente.
+
++++
 
 ## Exportar plantillas de contenido a otra zona protegida {#export}
 

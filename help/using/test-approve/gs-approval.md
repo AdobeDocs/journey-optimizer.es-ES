@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: e6cac6aff79b30a308be480319902f478436391d
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 77%
+source-wordcount: '860'
+ht-degree: 58%
 
 ---
 
@@ -83,6 +83,32 @@ El proceso de aprobación global es el siguiente:
 Puede monitorizar todas las solicitudes de aprobación y cambio que se han enviado para un recorrido o campaña determinados. Para ello, haga clic en el icono **[!UICONTROL Mostrar pista de auditoría]** ubicado en la sección superior derecha del lienzo del recorrido o en la pantalla de revisión de la campaña.
 
 ![Pista de auditoría de solicitudes de aprobación](assets/monitor-requests.png)
+
+## Preguntas frecuentes {#faq}
+
++++¿Debo crear una política de aprobación para cada campaña o recorrido?
+
+No. Las políticas de aprobación son condicionales. Solo es necesario crear una directiva si desea aplicar la revisión a un conjunto específico de campañas o recorridos (por ejemplo, todas las campañas programadas creadas por un equipo específico). Si no se aplica ninguna directiva a una campaña o recorrido, el creador puede publicar directamente sin solicitar la aprobación.
+
++++
+
++++¿Qué sucede si el aprobador no está disponible?
+
+La solicitud permanece &quot;en revisión&quot; hasta que un aprobador actúe en consecuencia. Puede cancelar la solicitud (devolviendo el elemento a &quot;Borrador&quot;) y volver a enviarla cuando el aprobador adecuado esté disponible. Los administradores también pueden actualizar la directiva de aprobación para agregar aprobadores adicionales.
+
++++
+
++++¿Puedo editar una campaña o un recorrido mientras está pendiente de aprobación?
+
+No. Una vez enviada para su aprobación, la campaña o el recorrido está en estado bloqueado &quot;En revisión&quot;. Para realizar cambios, el creador o un aprobador deben cancelar primero la solicitud. El elemento vuelve a &quot;Borrador&quot; y se puede editar antes de volver a enviarlo.
+
++++
+
++++No veo el permiso Aprobar y publicar en la lista desplegable. ¿Qué debo comprobar?
+
+Asegúrese de añadir primero el recurso correcto. El permiso **Aprobar y publicar campañas** requiere que se agregue el recurso **Campañas** al rol y **Aprobar y publicar Recorridos** requiere el recurso **Recorridos**. Ambos deben añadirse por separado. [Aprenda a asignar permisos relacionados con la aprobación](#prerequisites)
+
++++
 
 ## Recursos adicionales
 

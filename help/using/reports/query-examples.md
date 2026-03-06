@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: d2f32e0572b78db55c61cf087eb308d6fc0e2d4d
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3542'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,32 @@ ht-degree: 1%
 # Ejemplos de consultas{#query-examples}
 
 Esta sección proporciona ejemplos de uso común para consultar eventos de pasos de Recorrido en Data Lake. Antes de profundizar en casos de uso específicos, es importante comprender los identificadores clave utilizados en los datos de evento de recorrido.
+
+## Requisitos previos {#prerequisites}
+
+Antes de ejecutar cualquier consulta en esta página, asegúrese de lo siguiente:
+
+* **Acceso al servicio de consultas de Adobe Experience Platform**: debe tener acceso al [servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es){target="_blank"} en su zona protegida de Adobe Experience Platform.
+* **Conjunto de datos disponible** — Las consultas se dirigen al conjunto de datos `journey_step_events`. Compruebe que el conjunto de datos existe y contiene datos en su zona protegida mediante **Experience Platform > Conjuntos de datos**.
+* **Id. de versión de recorrido correcto** — La mayoría de las consultas requieren un `journeyVersionID`. Encuéntralo en Journey Optimizer en **Recorridos > [tu recorrido] > Propiedades**, o usa `journeyVersionName` para localizarlo primero en el conjunto de datos.
+* **Valores de campo de esquema** — Asegúrese de que los campos utilizados en las consultas tengan valores asociados en el esquema correspondiente. Los campos vacíos no devuelven resultados sin errores.
+
+>[!TIP]
+>
+>**¿Es nuevo en el servicio de consultas?** Abra [Adobe Experience Platform](https://experience.adobe.com/), vaya a **Servicio de consultas > Consultas**, pegue cualquier ejemplo a continuación, reemplace los valores de marcador de posición (por ejemplo, `<journeyVersionID>`, `<last x hours>`) y seleccione **Ejecutar**.
+
+## Encuentre la consulta correcta {#find-query}
+
+| Quiero... | Ir a |
+|---|---|
+| Contar perfiles que han introducido un recorrido | [Casos de uso básicos](#common-queries) |
+| Depuración de la ruta de recorrido de un perfil específico | [Consultas basadas en perfiles](#profile-based-queries) |
+| Investigue la ejecución o los errores de lectura de audiencias | [Leer consultas de audiencia](#read-segment-queries) |
+| Solucionar errores de mensajes o acciones | [Errores de mensajes y acciones](#message-action-errors) |
+| Analizar descartes de calificación de audiencias | [Consultas de calificación de audiencia](#segment-qualification-queries) |
+| Depuración de eventos externos o empresariales | [Consultas basadas en eventos](#event-based-queries) |
+| Supervisar rendimiento de extremo de acción personalizada | [Consultas de acción personalizada](#query-custom-action) |
+| Seguimiento del uso de licencias y perfiles atractivos | [Consultas de perfiles atractivas](#engageable-profiles-queries) |
 
 Asegúrese de que los campos utilizados en las consultas tengan valores asociados en el esquema correspondiente.
 

@@ -7,9 +7,10 @@ role: Developer
 level: Experienced
 keywords: conversión, funciones, expresión, recorrido, tipo, conversión
 version: Journey Orchestration
-source-git-commit: 451a9e1e5d5e6e1408849e8d1c5c9644a95359da
+exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
+source-git-commit: 57da5ea1cae21ed370b1cc58d953ba740b7ac2c6
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1249'
 ht-degree: 6%
 
 ---
@@ -28,6 +29,30 @@ Utilice las funciones de conversión cuando necesite:
 * Procesar datos de fuentes externas que pueden tener diferentes formatos de tipo
 
 Cada función de conversión gestiona automáticamente las reglas específicas del tipo y los casos extremos, lo que hace que la transformación de datos sea más fiable y predecible en las expresiones de recorrido.
+
+## Referencia rápida {#quick-reference}
+
+| Objetivo | Función |
+|------|----------|
+| Convertir una cadena o epoch en una fecha **con** huso horario | [toDateTime](#toDateTime) |
+| Convertir una cadena o fecha en una fecha y hora **sin** zona horaria | [toDateTimeOnly](#toDateTimeOnly) |
+| Extraer solo una fecha (año-mes-día, sin hora) | [toDateOnly](#toDateOnly) |
+| Convertir en un número entero | [toInteger](#toInteger) |
+| Convertir en un número decimal | [toDecimal](#toDecimal) |
+| Convertir a verdadero/falso | [toBool](#toBool) |
+| Convertir cualquier valor en una cadena | [toString](#toString) |
+| Convertir a una duración (ISO-8601, p. ej. PT10H) | [toDuration](#toDuration) |
+
+>[!TIP]
+>
+>**toDateTime vs. toDateTimeOnly:** Use `toDateTime` cuando la zona horaria sea importante (por ejemplo, programar mensajes, comparar marcas de hora de eventos entre regiones). Utilice `toDateTimeOnly` cuando solo sea relevante la fecha y hora local y se pueda omitir la zona horaria (por ejemplo, comparando fechas de calendario en una condición).
+
+## Peligros comunes {#pitfalls}
+
+* **Timezone debe ser una constante de cadena** — El argumento timezone de `toDateTime` no puede ser una referencia de campo o una expresión dinámica. Pase siempre una cadena literal como `"UTC"` o `"Europe/Paris"`.
+* **Se requiere el formato ISO-8601 para las entradas de cadena** — Al pasar una cadena a `toDateTime` o `toDateTimeOnly`, asegúrese de que sigue el formato ISO-8601 (por ejemplo, `"2023-08-18T23:17:59.123Z"`). Las cadenas mal formadas devuelven un valor nulo sin error.
+* **Los valores Epoch se expresan en milisegundos** — `toDateTime(1560762190189)` espera milisegundos. Si el origen proporciona marcas de tiempo Unix en segundos, multiplique primero por 1000 (por ejemplo, `toDateTime(myField * 1000)`).
+* **toBool con cadenas inesperadas** — `toBool` devuelve `true` solo si el valor de cadena es exactamente `"true"`. Cualquier otra cadena (incluidos `"1"`, `"yes"`, `"TRUE"`) devuelve `false`.
 
 ## toBool {#toBool}
 
@@ -430,4 +455,3 @@ Devuelve la representación de cadena del campo dateOnly dado (campo de fecha XD
 Devuelve &quot;PT1.52S&quot;.
 
 +++
-
