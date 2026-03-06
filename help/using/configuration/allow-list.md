@@ -4,12 +4,11 @@ product: journey optimizer
 title: Configuración de una lista de permitidos
 description: Obtenga información sobre cómo configurar y administrar una lista de permitidos en Journey Optimizer para restringir el envío de correo electrónico a direcciones y dominios de confianza en el nivel de zona protegida.
 feature: Deliverability
-topic: Deliverability
 role: Admin
 level: Intermediate
 keywords: lista de permitidos, lista segura, correo electrónico, entrega, zona protegida, dominios, supresión, configuración
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: e5a15a4f8bc81fb23e75edb9364f09ae6b7082ea
+source-git-commit: 56d0d176385dfbb74222fd33115c01553f50d107
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 12%
@@ -150,7 +149,7 @@ Para rellenar la lista de permitidos, también puede llamar a la API de supresi�
 
 Puede realizar las operaciones **Agregar**, **Eliminar** y **Obtener**.
 
-Obtenga más información sobre cómo realizar llamadas de API en la [documentación de referencia de las API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=es){target="_blank"}.
+Obtenga más información sobre cómo realizar llamadas de API en la [documentación de referencia de las API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
 
 ## Descargar la lista de permitidos {#download-allowed-list}
 
@@ -205,7 +204,7 @@ Cuando la lista de permitidos está [desactivada](#deactivate-allow-list), todos
 
 ## Informes de exclusión {#reporting}
 
-Cuando la lista de permitidos esté activa, puede recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. Para ello, puede usar el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para realizar las llamadas a la API que se indican a continuación.
+Cuando la lista de permitidos esté activa, puede recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. Para ello, puede usar el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para realizar las llamadas a la API que se indican a continuación.
 
 Para obtener el **número de correos electrónicos** que no se enviaron porque los destinatarios no estaban en la lista de permitidos, use la siguiente consulta:
 
