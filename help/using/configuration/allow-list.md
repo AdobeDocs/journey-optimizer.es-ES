@@ -1,42 +1,40 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Lista de permitidos
-description: Aprenda a utilizar la lista de permitidos
+title: Configuración de una lista de permitidos
+description: Obtenga información sobre cómo configurar y administrar una lista de permitidos en Journey Optimizer para restringir el envío de correo electrónico a direcciones y dominios de confianza en el nivel de zona protegida.
 feature: Deliverability
-topic: Content Management
+topic: Deliverability
 role: Admin
-level: Experienced
-keywords: lista de permitidos, lista, seguro, configuración
+level: Intermediate
+keywords: lista de permitidos, lista segura, correo electrónico, entrega, zona protegida, dominios, supresión, configuración
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: e5a15a4f8bc81fb23e75edb9364f09ae6b7082ea
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 15%
+source-wordcount: '1312'
+ht-degree: 12%
 
 ---
 
 # Configuración de una lista de permitidos {#allow-list}
 
-Es posible definir una lista específica de seguridad de envío en el nivel [sandbox](../administration/sandboxes.md).
-
-Esta lista de permitidos le permite especificar direcciones de correo electrónico o dominios individuales que serán los únicos destinatarios o dominios autorizados para recibir los correos electrónicos que envía desde una zona protegida específica.
+La lista de permitidos es una lista de envío seguro que puede definir en el nivel de [zona protegida](../administration/sandboxes.md). Restringe el envío de correos electrónicos a direcciones o dominios específicos, lo que garantiza que solo los destinatarios enumerados explícitamente puedan recibir mensajes desde una zona protegida determinada.
 
 >[!CAUTION]
 >
 >Esta función solo se aplica al canal de correo electrónico. Está disponible en entornos limitados de producción y sin producción.
 
-Por ejemplo, en una instancia que no es de producción, donde pueden producirse errores, la lista de permitidos garantiza que no tendrá riesgo de enviar mensajes no deseados a direcciones de clientes reales y, por lo tanto, proporciona un entorno seguro para realizar pruebas.
+En zonas protegidas que no sean de producción, donde pueden producirse envíos accidentales, la lista de permitidos evita que los mensajes no deseados lleguen a las direcciones de los clientes reales, lo que proporciona un entorno seguro para realizar pruebas.
 
-Además, cuando la lista de permitidos está activa pero vacía, no se envía ningún correo. Por lo tanto, si se produce algún problema importante, puede utilizar esta característica para detener todas las comunicaciones salientes de [!DNL Journey Optimizer] hasta que solucione el problema. Más información sobre la [lógica de lista de permitidos](#logic).
+Cuando la lista de permitidos está activa pero vacía, no se envía ningún correo electrónico. Esto lo convierte en un freno de emergencia útil: si surge un problema crítico, puede activar una lista de permitidos vacía para detener todas las comunicaciones salientes desde [!DNL Journey Optimizer] hasta que se resuelva el problema. Más información sobre la [lógica de lista de permitidos](#logic).
 
-Además, puede aprovechar la **API de REST de supresión** de Journey Optimizer para controlar los mensajes salientes mediante supresión y listas de permitidos. [Obtenga información sobre cómo trabajar con la API de REST de supresión](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+También puede usar la API de REST de supresión **Journey Optimizer** para administrar los mensajes salientes mediante programación a través de listas de permitidos y supresión. [Obtenga información sobre cómo trabajar con la API de REST de supresión](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Acceso a la lista de permitidos {#access-allowed-list}
 
 Para acceder a la lista detallada de dominios y direcciones de correo electrónico permitidos, ve a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** y selecciona **[!UICONTROL Lista de permitidos]**.
 
-![](assets/allow-list-access.png)
+![Página de Lista de permitidos que muestra la lista de dominios y direcciones de correo electrónico permitidos](assets/allow-list-access.png)
 
 >[!CAUTION]
 >
@@ -48,7 +46,7 @@ Use el botón **[!UICONTROL Eliminar]** para quitar una entrada de forma permane
 
 Puede buscar las direcciones de correo electrónico o los dominios y filtrar por el **[!UICONTROL tipo de dirección]**. Una vez seleccionado, puede borrar el filtro mostrado en la parte superior de la lista.
 
-![](assets/allowed-list-filtering-example.png)
+![Lista de permitidos filtrada por tipo de dirección](assets/allowed-list-filtering-example.png)
 
 ## Activar la lista de permitidos {#enable-allow-list}
 
@@ -58,11 +56,11 @@ Para activar la lista de permitidos, siga los pasos a continuación.
 
 1. Seleccione el botón de alternancia.
 
-   ![](assets/allow-list-edit.png)
+   ![Botón de alternar para activar la lista de permitidos](assets/allow-list-edit.png)
 
 1. Seleccione **[!UICONTROL Activar lista de permitidos]**. La lista de permitidos está activa.
 
-   ![](assets/allow-list-enable.png)
+   ![Confirmación de que la lista de permitidos está activa](assets/allow-list-enable.png)
 
    >[!NOTE]
    >
@@ -82,11 +80,11 @@ Para desactivar la lista de permitidos, siga los pasos a continuación.
 
 1. Seleccione el botón de alternancia.
 
-   ![](assets/allow-list-edit-active.png)
+   ![Botón de alternar para desactivar la lista de permitidos](assets/allow-list-edit-active.png)
 
 1. Seleccione **[!UICONTROL Desactivar lista de permitidos]**. La lista de permitidos ya no está activa.
 
-   ![](assets/allow-list-deactivate.png)
+   ![Confirmación de que la lista de permitidos está inactiva](assets/allow-list-deactivate.png)
 
    >[!NOTE]
    >
@@ -124,7 +122,7 @@ Para realizar esto, siga los pasos a continuación.
 
 1. Seleccione el botón **[!UICONTROL Agregar correo electrónico o dominio]**.
 
-   ![](assets/allowed-list-add-email.png)
+   ![Botón Agregar correo electrónico o dominio en la página de lista de permitidos](assets/allowed-list-add-email.png)
 
 1. Elija el tipo de dirección: **[!UICONTROL Dirección de correo electrónico]** o **[!UICONTROL Dirección del dominio]**.
 
@@ -136,11 +134,11 @@ Para realizar esto, siga los pasos a continuación.
 
 1. Especifique una razón, si es necesario.
 
-   ![](assets/allowed-list-add-email-address.png)
+   ![Formulario para agregar una dirección de correo electrónico o dominio a la lista de permitidos, con un campo de motivo opcional](assets/allowed-list-add-email-address.png)
 
    >[!NOTE]
    >
-   >Todos los caracteres ASCII comprendidos entre 32 y 126 están permitidos en el campo **[!UICONTROL Motivo]**. La lista completa se puede encontrar en [esta página](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}, por ejemplo.
+   >Todos los caracteres ASCII del intervalo de 32 a 126 se permiten en el campo **[!UICONTROL Motivo]**. La lista completa se puede encontrar en [esta página](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}, por ejemplo.
 
 1. Haga clic en **[!UICONTROL Enviar]**.
 
@@ -148,11 +146,11 @@ Para realizar esto, siga los pasos a continuación.
 
 Para rellenar la lista de permitidos, también puede llamar a la API de supresión con el valor `ALLOWED` para el atributo `listType`. Por ejemplo:
 
-![](assets/allow-list-api.png)
+![Ejemplo de llamada API para agregar una entrada a la lista de permitidos mediante la API de supresión](assets/allow-list-api.png)
 
 Puede realizar las operaciones **Agregar**, **Eliminar** y **Obtener**.
 
-Obtenga más información sobre cómo realizar llamadas de API en la [documentación de referencia de las API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=es){target="_blank"}.
+Obtenga más información sobre cómo realizar llamadas de API en la [documentación de referencia de las API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
 
 ## Descargar la lista de permitidos {#download-allowed-list}
 
@@ -160,11 +158,11 @@ Para exportar la lista de permitidos como archivo CSV, siga los pasos a continua
 
 1. Seleccione el botón **[!UICONTROL Descargar CSV]**.
 
-   ![](assets/allowed-list-download-csv.png)
+   ![Botón Descargar CSV en la página de lista de permitidos](assets/allowed-list-download-csv.png)
 
 1. Espere hasta que se genere el archivo.
 
-   ![](assets/allowed-list-download-generate.png)
+   ![Notificación que indica que se está generando el archivo CSV](assets/allowed-list-download-generate.png)
 
    >[!NOTE]
    >
@@ -176,7 +174,7 @@ Para exportar la lista de permitidos como archivo CSV, siga los pasos a continua
 
 1. Haga clic en la propia notificación para descargar el archivo.
 
-   ![](assets/allowed-list-download-notification.png)
+   ![Notificación con un vínculo de descarga para el archivo CSV generado](assets/allowed-list-download-notification.png)
 
    >[!NOTE]
    >
@@ -207,7 +205,7 @@ Cuando la lista de permitidos está [desactivada](#deactivate-allow-list), todos
 
 ## Informes de exclusión {#reporting}
 
-Cuando la lista de permitidos esté activa, puede recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. Para ello, puede usar el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para realizar las llamadas a la API que se indican a continuación.
+Cuando la lista de permitidos esté activa, puede recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. Para ello, puede usar el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para realizar las llamadas a la API que se indican a continuación.
 
 Para obtener el **número de correos electrónicos** que no se enviaron porque los destinatarios no estaban en la lista de permitidos, use la siguiente consulta:
 
