@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 23%
+source-wordcount: '1567'
+ht-degree: 22%
 
 ---
 
@@ -23,6 +23,10 @@ Para dirigir a los clientes a una página web definida que desee mostrar cuando 
 Los pasos principales para crear páginas de aterrizaje son los siguientes:
 
 ![](assets/lp-creation-process.png)
+
+>[!NOTE]
+>
+>Antes de crear la primera página de aterrizaje, complete la configuración de [configurar páginas de aterrizaje](../../rp_landing_pages/lp-configuration-landing-page.md). Esto incluye configurar un subdominio para alojar las páginas de aterrizaje y definir al menos un ajuste preestablecido que especifique el subdominio y otras opciones de configuración de canal. Debe seleccionar un ajuste preestablecido al crear la página de aterrizaje.
 
 ## Creación de una página de destino {#create-landing-page}
 
@@ -82,7 +86,7 @@ Una vez que hayas configurado y diseñado la [página principal](#configure-prim
 >title="Definir la configuración de la página principal"
 >abstract="La página principal se muestra inmediatamente a los usuarios después de hacer clic en el vínculo a la página de destino, por ejemplo, desde un correo electrónico o un sitio web."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=es" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"

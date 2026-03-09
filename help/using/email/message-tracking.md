@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 24%
@@ -67,7 +67,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
    * Seleccione **[!UICONTROL Vínculo externo]** para insertar un vínculo a una dirección URL externa.
 
-   * Seleccione **[!UICONTROL Página de aterrizaje]** para insertar un vínculo a una página de aterrizaje. [Más información](../landing-pages/get-started-lp.md)
+   * Seleccione **[!UICONTROL Página de aterrizaje]** para insertar un vínculo a una página de aterrizaje. [Más información](../landing-pages/create-lp.md)
 
    * Seleccione **[!UICONTROL Exclusión en un clic]** para insertar un vínculo que permita a los usuarios cancelar la suscripción rápidamente a sus comunicaciones sin necesidad de confirmar la exclusión. [Más información](email-opt-out.md#one-click-opt-out).
 
