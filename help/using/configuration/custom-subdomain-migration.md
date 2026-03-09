@@ -9,9 +9,10 @@ role: Admin
 level: Intermediate
 keywords: subdominio, delegación, migración, CNAME, delegación personalizada
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 3148a105551b920c4402c7b3c093aca1bb012061
+exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
+source-git-commit: 47c04f6243057ac20fd28a228e4fefb760d7fe26
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1251'
 ht-degree: 5%
 
 ---
@@ -29,7 +30,7 @@ Como parte de este proceso, debe:
 * [Elimine los registros DNS existentes](#delete-dns) de su solución de alojamiento
 * [Cargar el certificado SSL](#upload-ssl-certificate) obtenido de la entidad emisora de certificados
 * Complete los [pasos del bucle de comentarios](#feedback-loop) comprobando la propiedad del dominio y la dirección de correo electrónico del informe
-* [Copie el registro de validación de URL de CDN SSL](#copy-ssl-cdn-url-record) generado por Adobe en su plataforma de alojamiento
+* [Cree un nuevo conjunto de registros DNS](#create-dns-records) generados por Adobe en su plataforma de alojamiento
 
 Para migrar el subdominio, siga los pasos a continuación.
 
@@ -43,6 +44,11 @@ Antes de iniciar el proceso de migración, revise la información importante que
 
 * Asegúrese de que el método de delegación **personalizada está habilitado** para su organización (esta capacidad está actualmente en disponibilidad limitada; póngase en contacto con su representante de Adobe para obtener acceso). [Más información](delegate-custom-subdomain.md)
 * Asegúrese de que no haya configuraciones de canal activas que utilicen este subdominio. El proceso de migración interrumpirá su funcionalidad.
+
+  >[!NOTE]
+  >
+  >Si desactiva una configuración de canal antes de iniciar la migración, puede volver a cambiarla al estado activo una vez completado el flujo de trabajo de migración.
+
 * Asegúrese de que no haya campañas o recorridos activos que utilicen una configuración de canal vinculada a este subdominio, ya que esto puede provocar interrupciones en la entrega.
 * Tenga en cuenta que el tiempo de inactividad comienza en cuanto entra en el flujo de migración. El subdominio se mueve a **[!UICONTROL Borrador]** durante el proceso y no estará disponible hasta que se complete la instalación.
 * Por lo tanto, se recomienda **realizar los pasos previos a la migración antes de iniciar el proceso de migración**, a fin de tener el certificado SSL listo y reducir el tiempo de inactividad. [Más información](#start-migration)
@@ -99,7 +105,7 @@ Tanto si ya ha iniciado el proceso de migración como si no, siga los pasos a co
 
    * Sin embargo, el certificado debe cubrir tanto data.subdomain.com como cdn.subdomain.com como entradas de nombres alternativos del sujeto (SAN) dentro de un solo certificado. Por ejemplo, si delega example.adobe.com, data.subdomain.com corresponde a data.example.adobe.com y cdn.subdomain.com a cdn.example.adobe.com.
 
-   * Los subdominios Data (data.example.adobe.com) y CDN (cdn.example.adobe.com) deben agregarse como entradas del mismo nivel en el mismo certificado.
+   * Los subdominios Data (data.example.adobe.com) y CDN (cdn.example.adobe.com) deben agregarse como entradas del mismo nivel en el mismo certificado. No se deben agregar subdominios adicionales a este certificado.
 
    * La mayoría de las CA le permiten agregar SAN adicionales (como el subdominio CDN) durante el proceso de firma
 
@@ -159,13 +165,39 @@ A continuación, complete los pasos del bucle de comentarios para verificar la p
 
 El proceso es el mismo que al configurar un nuevo subdominio personalizado. Siga los pasos detallados en la página [Configurar un subdominio personalizado](delegate-custom-subdomain.md#feedback-loop-steps).
 
-## Copiar el registro de validación de URL de CDN SSL {#copy-ssl-cdn-url-record}
 
-Para completar el proceso de migración, copie el registro de validación de URL de CDN SSL generado por Adobe en la plataforma de alojamiento. El proceso es el mismo que al configurar un nuevo subdominio personalizado. Siga los pasos detallados en la página [Configurar un subdominio personalizado](delegate-custom-subdomain.md#copy-ssl-cdn-url-record).
+## Crear un nuevo conjunto de registros DNS {#create-dns-records}
+
+Para completar el proceso de migración, cree un nuevo conjunto de registros DNS generados por Adobe en la plataforma de alojamiento.
+
+1. Después de completar los pasos del bucle de comentarios, haz clic en el botón **[!UICONTROL Continuar]** en la parte superior derecha de la pantalla.
+
+   Este paso comprueba que los registros anteriores se eliminaron y que el certificado SSL se cargó correctamente. Si se produce algún error, consulte la [lista de comprobación de solución de problemas](#troubleshooting).
+
+1. Si todas las validaciones se realizan correctamente, se muestra la sección **[!UICONTROL Registros que se van a crear]**.
+
+   ![](assets/subdomain-migrate-records-to-create.png){width="75%"}
+
+1. Cree todos los registros necesarios en la plataforma de alojamiento.
+
+1. Una vez creados todos los registros, haga clic en **[!UICONTROL Enviar]**.
+
+   >[!NOTE]
+   >
+   >Si no se crean todos los registros enumerados, se muestra un error. Asegúrese de crear todos los registros necesarios.
 
 Después del envío, debe esperar hasta que Adobe realice las comprobaciones necesarias, que pueden tardar hasta tres horas. [Más información](delegate-subdomain.md#submit-subdomain)
 
 Una vez que el subdominio vuelva a estar activo, no es necesario realizar cambios en las configuraciones de canal existentes que lo utilizan; siguen funcionando como antes.
+
+## Lista de comprobación de resolución {#troubleshooting}
+
+Si se producen errores al intentar enviar el subdominio personalizado, realice las acciones de solución de problemas que se enumeran a continuación.
+
+* _No se pudo validar el recurso. El DNS aún existe y debe eliminarse._: asegúrese de eliminar todos los registros de su solución de alojamiento. [Descubra cómo](#delete-dns)
+* _No se pudo validar el recurso. Cargue el certificado SSL e inténtelo de nuevo._: no se cargó el certificado SSL. Asegúrese de cargarlo. [Descubra cómo](#upload-ssl-certificate)
+* _El certificado contiene dominios inesperados en sus nombres alternativos del sujeto (SAN)._ — Asegúrese de cargar el certificado SSL correcto. [Descubra cómo](#upload-ssl-certificate)
+* _Al certificado le faltan los siguientes dominios requeridos en sus nombres alternativos de sujeto (SAN)._ — Asegúrese de cargar el certificado SSL correcto. [Descubra cómo](#upload-ssl-certificate)
 
 **Consulte también**
 
