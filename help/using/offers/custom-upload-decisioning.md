@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '626'
 ht-degree: 4%
 
 ---
@@ -32,11 +32,11 @@ Los datos de las audiencias de carga personalizadas se pueden aprovechar en Admi
 Para obtener más información sobre las audiencias de carga personalizada, consulte las secciones:
 
 * [Introducción a audiencias y Journey Optimizer](../audience/about-audiences.md)
-* [Importación de una audiencia en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importación de una audiencia en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Lectura obligatoria {#must-read}
 
-* **Solo administración de decisiones**: esta funcionalidad solo se admite en Administración de decisiones, no en Decisioning (anteriormente conocida como &quot;Experience Decisioning&quot;).
+* **Solo administración de decisiones**: esta funcionalidad solo se admite en Administración de decisiones, no en Toma de decisiones.
 * **Solo API de decisiones (Hub)**: está disponible exclusivamente a través de solicitudes de API de decisiones (Hub) y no es compatible con la API de decisiones de Edge ni con la toma de decisiones por lotes.
 * **Indicador de API necesario para datos de enriquecimiento**: cuando utilice una audiencia de carga personalizada (CSV) y desee recuperar datos de enriquecimiento en la respuesta de decisión de oferta, debe incluir `"xdm:enrichedAudience": true` en la carga útil de solicitud de API. Sin este indicador, no se devolverán los atributos de enriquecimiento de la audiencia cargada en CSV. [Más información sobre la API de decisiones](api-reference/offer-delivery-api/decisioning-api.md)
 
