@@ -26,7 +26,7 @@ Tanto si utiliza dominios existentes como si utiliza nuevas configuraciones, est
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configuración y administración de subdominios de página de aterrizaje
 
@@ -36,7 +36,7 @@ Obtenga información sobre cómo configurar y administrar subdominios para aloja
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Definir ajustes preestablecidos de página de destino
 
