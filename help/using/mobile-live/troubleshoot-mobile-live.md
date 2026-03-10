@@ -28,7 +28,7 @@ Un desafío frecuente con Live Activities es cuando la llamada de la API para al
 
 Antes de efectuar la localización de averías, asegúrese de que dispone de:
 
-* 
+* &#x200B;
   +++ Configuración de una sesión de Assurance
 
   Configure una **sesión de Assurance** para capturar eventos de SDK e inspeccionar la canalización de envíos. Assurance proporciona visibilidad sobre:
@@ -44,7 +44,7 @@ Antes de efectuar la localización de averías, asegúrese de que dispone de:
 
   +++
 
-* 
+* &#x200B;
   +++ Recopilar detalles de la campaña activada por API
 
   Vaya a la API de la campaña activada en Journey Optimizer y recupere lo siguiente:
@@ -56,7 +56,7 @@ Antes de efectuar la localización de averías, asegúrese de que dispone de:
 
   +++
 
-* 
+* &#x200B;
   +++ Recopilar información de solicitud de API
 
   Al realizar la llamada de API para almacenar en déclencheur la actividad en directo, guarde lo siguiente:
@@ -68,7 +68,7 @@ Antes de efectuar la localización de averías, asegúrese de que dispone de:
 
   +++
 
-* 
+* &#x200B;
   +++ Identificación del perfil de prueba
 
   En la solicitud de API, recupere:
@@ -80,7 +80,7 @@ Antes de efectuar la localización de averías, asegúrese de que dispone de:
 
   +++
 
-* 
+* &#x200B;
   +++ Información del dispositivo y la aplicación
 
   Recopile lo siguiente del dispositivo de prueba:
@@ -119,7 +119,7 @@ La API devuelve el valor HTTP 200, pero la actividad en directo no aparece. Caus
 
 #### Pasos de depuración
 
-1. 
+1. &#x200B;
    +++ Comprobar que el perfil existe en Adobe Experience Platform
 
    1. En Journey Optimizer, vaya a **Cliente** `>` **Perfiles**.
@@ -129,7 +129,7 @@ La API devuelve el valor HTTP 200, pero la actividad en directo no aparece. Caus
 
       +++
 
-1. 
+1. &#x200B;
    +++ Comprobar si el token push de Actividad activa está sincronizado
 
    Puede utilizar Assurance para verificar el registro de tokens:
@@ -149,7 +149,7 @@ La API devuelve el valor HTTP 200, pero la actividad en directo no aparece. Caus
 
    +++
 
-1. 
+1. &#x200B;
    +++ Validar detalles de token en el perfil
 
    1. Desde tu **perfil**, accede a la pestaña **Atributos**.
@@ -207,7 +207,7 @@ El perfil existe con tokens válidos, pero la actividad en directo no aparece. E
 
 #### Pasos de depuración
 
-1. 
+1. &#x200B;
    +++ Verifique la configuración de campaña
 
    1. En Journey Optimizer, abra su **Campaña** y vaya al menú **Acciones**.
@@ -216,7 +216,7 @@ El perfil existe con tokens válidos, pero la actividad en directo no aparece. E
 
       +++
 
-1. 
+1. &#x200B;
    +++Validar estructura de carga útil de API
 
    Al ejecutar la campaña a través de la API, asegúrese de que la carga útil sigue la estructura correcta.
@@ -280,7 +280,7 @@ El perfil existe con tokens válidos, pero la actividad en directo no aparece. E
 
      +++
 
-1. 
+1. &#x200B;
    +++ Alinear la carga útil con la implementación de iOS
 
    Asegúrese de que la carga útil de la API coincida con la implementación de la aplicación de iOS `ActivityAttributes`. El protocolo `LiveActivityAttributes` de Adobe SDK amplía iOS `ActivityAttributes` y requiere una propiedad `liveActivityData`.
@@ -354,7 +354,7 @@ El perfil existe con tokens válidos, pero la actividad en directo no aparece. E
 
    +++
 
-1. 
+1. &#x200B;
    +++ Prueba con Assurance
 
    Compruebe la ejecución de la API y la entrega de carga útil mediante Assurance:
@@ -401,7 +401,7 @@ Sin embargo, la actividad en directo sigue sin aparecer, actualizarse ni finaliz
 
 #### Pasos de depuración
 
-1. 
+1. &#x200B;
    +++ Comprobación de informes de campaña
 
    1. Vaya a **Live Activity Campaign**.
@@ -440,7 +440,7 @@ Sin embargo, la actividad en directo sigue sin aparecer, actualizarse ni finaliz
 
    +++
 
-1. 
+1. &#x200B;
    +++ Comprobación de eventos de comentarios de mensajes en el perfil
 
    1. Vaya a **Cliente** > **Perfiles** en Journey Optimizer.
@@ -467,7 +467,7 @@ Sin embargo, la actividad en directo sigue sin aparecer, actualizarse ni finaliz
 
       +++
 
-1. 
+1. &#x200B;
    +++ Verificación de la entrega de actividades activas a APNS en Assurance
 
    1. Abra la sesión de Assurance, debe estar activa durante la llamada de API.
@@ -490,7 +490,7 @@ Sin embargo, la actividad en directo sigue sin aparecer, actualizarse ni finaliz
 
       +++
 
-1. 
+1. &#x200B;
    +++ Pasar a comprobaciones de diagnóstico adicionales
 
    1. Compruebe las métricas del ciclo vital de la actividad en directo en el informe de Campaign.
@@ -516,7 +516,7 @@ Sin embargo, la actividad en directo sigue sin aparecer, actualizarse ni finaliz
 
       +++
 
-1. 
+1. &#x200B;
    +++ Escalación al Soporte de Adobe
 
    Si ha completado todos los pasos y el problema sigue sin resolverse, póngase en contacto con el Servicio de atención al cliente de Adobe con:
@@ -568,7 +568,7 @@ Para que funcionen los eventos update y end, debe ocurrir lo siguiente:
 
 #### Pasos de depuración
 
-1. 
+1. &#x200B;
    +++ Verificar la sincronización del token de actualización en Assurance
 
    1. Abra la sesión de Assurance.
@@ -591,7 +591,7 @@ Para que funcionen los eventos update y end, debe ocurrir lo siguiente:
 
       +++
 
-2. 
+2. &#x200B;
    +++ Verificar el token de actualización en los eventos de perfil
 
    1. Vaya a **Cliente** > **Perfiles** en Journey Optimizer.
@@ -614,7 +614,7 @@ Para que funcionen los eventos update y end, debe ocurrir lo siguiente:
 
       +++
 
-3. 
+3. &#x200B;
    +++ Compruebe los eventos de entrega de Actividad en directo en Assurance
 
    1. En la sesión de Assurance, ejecute una actualización o termine la llamada a la API.
@@ -653,7 +653,7 @@ Este escenario de solución de problemas se aplica a todos los eventos de Activi
 
 #### Pasos de depuración
 
-1. 
+1. &#x200B;
    +++ Verificar configuración de audiencia de campaña
 
    1. Abra **Campaña de marketing activada por API** en Journey Optimizer.
@@ -668,7 +668,7 @@ Este escenario de solución de problemas se aplica a todos los eventos de Activi
 
       +++
 
-1. 
+1. &#x200B;
    +++ Validar estructura de carga útil de API de difusión
 
    La estructura de carga útil de difusión difiere de las campañas unitarias. Compruebe que la carga útil sigue el formato de difusión correcto.
@@ -740,7 +740,7 @@ Este escenario de solución de problemas se aplica a todos los eventos de Activi
 
    +++
 
-1. 
+1. &#x200B;
    +++ Alinee contenido-estado, atributos y entrada-canal-push con la implementación de iOS
 
    Asegúrese de que los campos de carga útil coincidan con la implementación `ActivityAttributes` de su aplicación iOS y de que `input-push-channel` coincida con `channelID` en `liveActivityData`.
@@ -821,7 +821,7 @@ Este escenario de solución de problemas se aplica a todos los eventos de Activi
 
    +++
 
-1. 
+1. &#x200B;
    +++ Prueba con Assurance
 
    Compruebe la ejecución de la API y la entrega de carga útil mediante Assurance:
@@ -868,7 +868,7 @@ Adobe Experience Platform utiliza diferentes métodos de evaluación de audienci
 
 #### Pasos de depuración
 
-1. 
+1. &#x200B;
    +++ Verificar que el perfil esté en la audiencia
 
    En primer lugar, confirme si el perfil que debe recibir la actividad en directo forma parte de la audiencia.
@@ -886,7 +886,7 @@ Adobe Experience Platform utiliza diferentes métodos de evaluación de audienci
 
       +++
 
-2. 
+2. &#x200B;
    +++ Comprobar el tipo y la programación de evaluación de audiencia
 
    Identifique si la audiencia utiliza la evaluación por lotes o de flujo continuo, ya que esto determina la actualización de los datos.
