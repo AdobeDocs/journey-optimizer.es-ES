@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 3d6b12903d4c43fec2fd4e0046a5d1f90ecd6d64
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 34%
+source-wordcount: '1718'
+ht-degree: 33%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 34%
 
 ## Trabajo con fuentes de datos externas {#gs-ext-data-sources}
 
-Las fuentes de datos externas le permiten definir una conexión a sistemas de terceros, por ejemplo, si utiliza un sistema de reserva de hoteles para comprobar si la persona ha reservado una habitación. A diferencia de la fuente de datos integrada de Adobe Experience Platform, puede crear tantas fuentes de datos externas como necesite.
+Las fuentes de datos externas le permiten definir una conexión a sistemas de terceros, por ejemplo, si utiliza un sistema de reserva de hoteles para comprobar si la persona ha reservado una habitación. A diferencia de la fuente de datos integrada [!DNL Adobe Experience Platform], puede crear tantas fuentes de datos externas como necesite.
 
 >[!NOTE]
 >
 >* Las protecciones al trabajar con sistemas externos se enumeran en [esta página](../configuration/external-systems.md).
 >
->* Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte esta [sección](../action/action-response.md)
+>* Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte [respuestas de acciones personalizadas](../action/action-response.md)
 
 Las API de REST que utilizan POST o GET y arrojan JSON son compatibles. Se admiten los modos de autenticación básica y personalizada de la clave de API.
 
@@ -46,7 +46,7 @@ La llamada se compone de una dirección URL principal (_https://api.adobeweather
 
 >[!TIP]
 >
->Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` &#x200B;](#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
+>Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` ](#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
 
 ## Creación y configuración de una fuente de datos externa {#create-ext-data-sources}
 
@@ -54,11 +54,11 @@ A continuación se muestran los pasos principales para crear y configurar una nu
 
 1. En la lista de orígenes de datos, haga clic en **[!UICONTROL Crear Source de datos]** para crear un nuevo origen de datos externo.
 
-   ![](assets/journey25.png)
+   ![Pantalla de lista de fuentes de datos con el botón Crear Source de datos resaltado](assets/journey25.png)
 
    Se abre el panel de configuración de la fuente de datos en el lado derecho de la pantalla.
 
-   ![](assets/journey26.png)
+   ![El panel de configuración de la fuente de datos se abre a la derecha de la pantalla](assets/journey26.png)
 
 1. Escriba un nombre para la fuente de datos.
 
@@ -71,7 +71,7 @@ Solo se permiten caracteres alfanuméricos y guiones bajos. La longitud máxima 
    >
    >Recomendamos encarecidamente utilizar HTTPS por motivos de seguridad. Tenga en cuenta también que no permitimos el uso de direcciones de Adobe que no están disponibles para el público ni de direcciones IP.
 
-   ![](assets/journey27.png)
+   ![Campo de dirección URL de origen de datos externo con ejemplo de extremo de API meteorológica ingresado](assets/journey27.png)
 
 1. Configure la autenticación según la configuración del servicio externo: **[!UICONTROL Sin autenticación]**, **[!UICONTROL Básico]**, **[!UICONTROL Personalizado]** o **[!UICONTROL Clave de API]**.
 
@@ -81,17 +81,17 @@ Solo se permiten caracteres alfanuméricos y guiones bajos. La longitud máxima 
    >
    >* Cuando se realiza la llamada de autenticación, se agrega la cadena `<username>:<password>`, codificada en base64, en el encabezado Autenticación.
    >
-   >* Adobe Journey Optimizer cifra automáticamente los secretos definidos en las acciones personalizadas. Las claves de cifrado de cada organización se administran de forma segura en un almacén dedicado vinculado a su organización. Cuando las credenciales se muestran en la interfaz de, se enmascaran de forma predeterminada para evitar una exposición accidental.
+   >* [!DNL Adobe Journey Optimizer] cifra automáticamente los secretos definidos en las acciones personalizadas. Las claves de cifrado de cada organización se administran de forma segura en un almacén dedicado vinculado a su organización. Cuando las credenciales se muestran en la interfaz de, se enmascaran de forma predeterminada para evitar una exposición accidental.
 
 
-   Para obtener más información acerca del modo de autenticación personalizada, vea [esta sección](../datasource/external-data-sources.md#custom-authentication-mode). En nuestro ejemplo, elegimos el modo de autenticación de clave de API, como se muestra a continuación:
+   Para obtener más información acerca del modo de autenticación personalizado, vea [la sección sobre el modo de autenticación personalizado](../datasource/external-data-sources.md#custom-authentication-mode). En nuestro ejemplo, elegimos el modo de autenticación de clave de API, como se muestra a continuación:
 
    * **[!UICONTROL Tipo]**: &quot;clave de API&quot;
    * **[!UICONTROL Nombre]**: &quot;appid&quot; (el nombre del parámetro de clave de API)
    * **[!UICONTROL Valor]**: &quot;1234&quot; (el valor de nuestra clave de API)
    * **[!UICONTROL Ubicación]**: &quot;Parámetro de consulta&quot; (la clave de API se encuentra en la dirección URL)
 
-     ![](assets/journey28.png)
+     ![Campos de autenticación de claves API que muestran las entradas Tipo, Nombre, Valor y Ubicación](assets/journey28.png)
 
 1. Agregue un nuevo grupo de campos para cada conjunto de parámetros de API haciendo clic en **[!UICONTROL Agregar nuevo grupo de campos]**. El nombre del grupo de campos solo puede contener caracteres alfanuméricos y guiones bajos. La longitud máxima es de 30 caracteres. En nuestro ejemplo, necesitamos crear dos grupos de campos, uno para cada conjunto de parámetros (city y long/lat).
 
@@ -99,7 +99,7 @@ Para el conjunto de parámetros &quot;long/lat&quot;, creamos un grupo de campos
 
 * **[!UICONTROL Utilizado en]**: muestra el número de recorridos que utilizan un grupo de campos. Puede hacer clic en el icono **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos usando este grupo de campos.
 * **[!UICONTROL Método]**: seleccione el método POST o GET. En nuestro caso, seleccionamos el método GET.
-* **[!UICONTROL Valores dinámicos]**: escriba los diferentes parámetros separados por coma, &quot;long,lat&quot; en nuestro ejemplo. Dado que los valores de parámetro dependen del contexto de ejecución, se definirán en los recorridos. [Más información](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL Valores dinámicos]**: escriba los diferentes parámetros separados por una coma, &quot;long,lat&quot; en nuestro ejemplo. Dado que los valores de parámetro dependen del contexto de ejecución, se definirán en los recorridos. [Más información sobre las expresiones](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Carga de respuesta]**: haga clic dentro del campo **[!UICONTROL Carga útil]** y pegue un ejemplo de la carga útil devuelta por la llamada. Para nuestro ejemplo, hemos utilizado una carga útil encontrada en un sitio web de la API meteorológica. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. Tenga en cuenta que puede hacer clic en **[!UICONTROL Pegar una nueva carga útil]** si desea cambiar la carga útil que se pasa actualmente.
 * **[!UICONTROL Carga útil enviada]**: este campo no aparece en nuestro ejemplo. Solo está disponible si selecciona el método POST. Pegue la carga útil que se enviará al sistema de terceros.
 
@@ -112,7 +112,7 @@ En el caso de una llamada de GET que requiera parámetros, ingrese los parámetr
 {"id":{"param":"identifier"}}
 ```
 
-![](assets/journey29.png)
+![Panel de configuración de grupo de campos con valores dinámicos y campos de carga de respuesta](assets/journey29.png)
 
 
 Una vez guardados los cambios, la fuente de datos está configurada y lista para utilizarse en los recorridos, por ejemplo en las condiciones o para personalizar un correo electrónico. Si la temperatura es superior a 30 °C, puede decidir enviar una comunicación específica.
@@ -128,11 +128,11 @@ El modo de autenticación personalizado se utiliza para la autenticación comple
 
 Cuando configure la autenticación personalizada, use **[!UICONTROL Haga clic para comprobar el botón de autenticación]** y controlar si la carga de autenticación personalizada está configurada correctamente.
 
-![](assets/journey29-bis.png)
+![Botón de prueba de autenticación personalizada en la configuración de la fuente de datos](assets/journey29-bis.png)
 
 Cuando la prueba se realiza correctamente, el botón se vuelve verde.
 
-![](assets/journey29-ter.png)
+![El botón de prueba de autenticación se volvió verde indicando una validación correcta](assets/journey29-ter.png)
 
 Con este modo de autenticación, la ejecución de la acción es un proceso de dos pasos:
 
