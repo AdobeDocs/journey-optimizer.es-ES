@@ -9,10 +9,10 @@ badge: label="Disponibilidad limitada" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: afc09bbcb76d53404574bb53c0a896109cd7f1da
+source-git-commit: a1b9d589773c168cc8ad0cfac0cd1ba178ae4bb6
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 3%
+source-wordcount: '643'
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ Para crear un modelo de IA para la clasificación de recorridos, siga los pasos 
 
 1. Especifique un nombre único y, si es necesario, una descripción para el modelo de IA.
 
-   ![Panel de detalles del modelo de IA con campos de nombre y descripción](assets/journey-model-details.png){width="80%"}
+   ![Detalles del modelo de IA que muestran los campos de nombre y descripción](assets/journey-model-details.png){width="85%"}
 
    >[!NOTE]
    >
@@ -55,9 +55,9 @@ Para crear un modelo de IA para la clasificación de recorridos, siga los pasos 
     * **[!UICONTROL Auto-optimization]** optimizes based on past performance. [Learn more](../experience-decisioning/ranking/auto-optimization-model.md)
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)-->
 
-1. En la **[!UICONTROL métrica de optimización]**, todas las métricas de su [!DNL Customer Journey Analytics] [vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predeterminada se muestran en la lista. Seleccione la métrica en la que desea optimizar el modelo.
+1. En la sección **[!UICONTROL Métrica de optimización]**, se muestran en la lista todas las métricas de su [!DNL Customer Journey Analytics] [vista de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predeterminada. Seleccione la métrica en la que desea optimizar el modelo.
 
-   ![Panel de detalles del modelo de IA con campos de nombre y descripción](assets/journey-model-metrics.png){width="80%"}
+   ![Menú desplegable de métricas de optimización que enumera las métricas de Customer Journey Analytics para el modelo de IA](assets/journey-model-metrics.png){width="70%"}
 
    [!DNL Journey Optimizer] se clasifica según la **tasa de conversión** (tasa de conversión = número total de eventos de conversión / número total de eventos de impresión). La tasa de conversión se calcula mediante:
 
@@ -72,9 +72,9 @@ Para crear un modelo de IA para la clasificación de recorridos, siga los pasos 
 
    >[!CAUTION]
    >
-   >En la lista desplegable solo se muestran los conjuntos de datos creados a partir de esquemas asociados con el grupo de campos **[!UICONTROL Evento de experiencia: interacciones de propuesta]** (anteriormente conocido como mixin).
+   >En la lista desplegable solo se muestran los conjuntos de datos creados a partir de esquemas asociados con el grupo de campos **[!UICONTROL Evento de experiencia - Interacciones de propuesta]**. Puede seleccionar hasta 5 conjuntos de datos.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleccione los segmentos que se utilizarán para entrenar el modelo de IA.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleccione los segmentos que se utilizarán para entrenar el modelo de IA.
 
    >[!NOTE]
    >
@@ -84,52 +84,30 @@ Para crear un modelo de IA para la clasificación de recorridos, siga los pasos 
 
 El modelo de IA ahora está disponible para su selección al crear una fórmula de clasificación.
 
-## Seleccione un modelo de IA para una fórmula de clasificación {#select-ai-model-for-ranking-formula}
+## Hacer referencia al modelo de IA en una fórmula para clasificar los recorridos {#reference-ai-model}
 
-Ahora puede establecer el modelo de IA como referencia para crear una fórmula de clasificación. Siga los pasos a continuación.
+Ahora puede establecer el modelo de IA como referencia para crear una fórmula de clasificación y, a continuación, asignar la fórmula a un conjunto de reglas y aplicarlo a los recorridos. Para ello, siga los pasos que aparecen a continuación.
 
 1. Cree una fórmula de clasificación. [Descubra cómo](journey-ranking-formulas.md#create-journey-ranking-formula)
 
-1. Utilice el botón **[!UICONTROL Seleccionar modelo de IA]** para seleccionar el modelo de IA que desea utilizar.
+1. Utilice el botón **[!UICONTROL Seleccionar modelo de IA]** para seleccionar el modelo de IA que desea utilizar en la fórmula.
 
-   ![panel de detalles de la fórmula de clasificación de Recorridos con selección de modelo de IA](assets/journey-formula-ai-model.png){width="80%"}
+   ![Detalles de la fórmula de clasificación de Recorridos con el botón Seleccionar modelo de IA](assets/journey-formula-ai-model.png){width="80%"}
 
 1. En al menos una de las secciones **[!UICONTROL Criterion]**, defina una condición y seleccione **[!UICONTROL Puntuación del modelo de IA]** como método de clasificación. Por ejemplo, si el recorrido tiene la etiqueta &quot;Promoción&quot;, la puntuación de clasificación es la puntuación del modelo de IA.
 
-   ![Fórmula de clasificación: la etiqueta de promoción usa la puntuación del modelo de IA](assets/journey-formula-ex-2.png){width="60%"}
+   ![Ejemplo de fórmula de clasificación en el que el criterio de etiqueta de promoción utiliza la puntuación del modelo de IA como método de clasificación](assets/journey-formula-ex-2.png){width="60%"}
 
 1. Haga clic en **[!UICONTROL Crear]** para completar la fórmula de clasificación.
 
-## Asignar el modelo de IA a un conjunto de reglas {#assign-ai-model-to-ruleset}
+1. Ahora cree un conjunto de reglas y seleccione la fórmula que creó como método de clasificación. [Descubra cómo](journey-ranking-formulas.md#assign-formula-to-ruleset)
 
-Para utilizar un modelo de IA para clasificar los recorridos, debe asignar la fórmula que hace referencia a este modelo de IA a un conjunto de reglas.
+1. Cree las reglas de límite de recorrido y guarde el conjunto de reglas.
 
-1. En el menú **[!UICONTROL Reglas de negocio]**, cree un conjunto de reglas que desee usar para el arbitraje de recorrido. [Descubra cómo](rule-sets.md#Create)
-
-1. Asegúrese de seleccionar el dominio **[!UICONTROL Recorrido]**.
-
-1. En las propiedades del conjunto de reglas, establezca el **[!UICONTROL método de clasificación]** en **[!UICONTROL Fórmula]** (en lugar de **[!UICONTROL Prioridad]**).
-
-1. Seleccione la fórmula que utiliza el modelo de IA que ha creado en la lista desplegable.
-
-1. Cree las reglas de límite de recorrido que desee agregar al conjunto de reglas. [Descubra cómo](journey-capping.md#create-rule)
-
-1. Guarde el conjunto de reglas.
-
-Ahora la fórmula que utiliza el modelo de IA se asigna al conjunto de reglas. A continuación, puede aplicar ese conjunto de reglas a los recorridos.
-
-## Aplicación del conjunto de reglas a un recorrido {#assign-rule-set-to-journey}
-
-Para asignar el conjunto de reglas a un recorrido, siga los pasos a continuación.
-
-1. Cree o abra el recorrido al que desee asignar el conjunto de reglas. [Obtenga información sobre cómo crear un recorrido](../building-journeys/journey-gs.md)
-
-1. En las propiedades del recorrido, seleccione el conjunto de reglas en la lista desplegable. [Más información](journey-capping.md#apply-capping).
+1. Aplique el conjunto de reglas a los recorridos deseados y guárdelos. [Descubra cómo](journey-ranking-formulas.md#assign-rule-set-to-journey)
 
    >[!NOTE]
    >
    >Solo se puede aplicar un conjunto de reglas a un recorrido a la vez.
 
-1. Guarde el recorrido.
-
-Todos los recorridos que utilicen este conjunto de reglas se clasificarán con la fórmula seleccionada utilizando el modelo de IA cuando se aplique el límite.
+Todos los recorridos que utilicen este conjunto de reglas se clasificarán con la fórmula que haga referencia al modelo de IA seleccionado cuando se aplique el límite.
