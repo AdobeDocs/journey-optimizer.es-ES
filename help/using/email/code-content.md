@@ -9,24 +9,30 @@ role: User
 level: Intermediate, Experienced
 keywords: código, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 34%
+source-wordcount: '491'
+ht-degree: 24%
 
 ---
 
 # Codifique su propio contenido {#code-content}
 
-Utilice el modo **[!UICONTROL Codifique su propio contenido]** para importar el HTML sin procesar o codificar el contenido del correo electrónico. Este método requiere habilidades de HTML.
+**[!UICONTROL Codifique su propio código]** le permite escribir o pegar HTML sin procesar para crear contenido de correo electrónico directamente en el Designer de correo electrónico de [!DNL Journey Optimizer]. Utilice este modo cuando necesite control total sobre el marcado o cuando importe HTML existente.
+
+Debe tener habilidades con HTML y, una vez que elija este modo, permanecerá en el editor de código; no puede cambiar al editor visual.
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
->[!CAUTION]
+>[!NOTE]
 >
-> No se puede hacer referencia a las imágenes de [Adobe Experience Manager Assets](../integrations/assets.md) al utilizar este método. Las imágenes a las que se hace referencia en el código HTML deben almacenarse en una ubicación pública.
+>**[!UICONTROL Codifique su propio código]** no es lo mismo que el editor de HTML avanzado en las plantillas de contenido. El editor avanzado de HTML permite alternar entre la vista de HTML y la vista visual (Escritorio) en cualquier momento, no el editor de código. [Más información sobre el editor de HTML avanzado](../content-management/email-template-expert-mode.md).
 
-1. En la página de inicio de Designer de correo electrónico, seleccione **[!UICONTROL Codifique su propio código]**.
+## Utilizar el editor de código {#use-code-editor}
+
+Para crear o editar contenido de correo electrónico con el editor de código, siga estos pasos.
+
+1. En la página de inicio de [Enviar correo electrónico a Designer](get-started-email-design.md), seleccione **[!UICONTROL Codifique su propio código]**.
 
    ![](assets/code-your-own.png)
 
@@ -55,6 +61,10 @@ Utilice el modo **[!UICONTROL Codifique su propio contenido]** para importar el 
 1. Una vez que el código esté listo, haga clic en **[!UICONTROL Guardar]** y a continuación, vuelva a la pantalla de creación de mensajes para finalizar el mensaje.
 
    ![](assets/code-editor-save.png)
+
+>[!CAUTION]
+>
+>No se puede hacer referencia a las imágenes de [Adobe Experience Manager Assets](../integrations/assets.md) al usar el código con su propio método. Almacene las imágenes a las que se hace referencia en su código HTML en una ubicación pública.
 
 ## Limitaciones de funciones de fecha y hora {#date-time-limitations}
 
@@ -90,4 +100,4 @@ Si necesita realizar cálculos de fechas en el contenido del correo electrónico
 
 * **Use atributos calculados** - Cree [atributos calculados](../audience/computed-attributes.md) que realicen cálculos de fechas complejos, haciendo que los resultados estén disponibles como atributos de perfil.
 
-Más información sobre [Funciones de fecha y hora en personalización](../personalization/functions/dates.md).
+Consulte [Funciones de fecha y hora](../personalization/functions/dates.md) para obtener una lista completa de las funciones compatibles.

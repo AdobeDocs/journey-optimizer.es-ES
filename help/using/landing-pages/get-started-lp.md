@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destino, página de destino, inicio, introducción
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 22%
@@ -23,6 +23,15 @@ Una página de destino es una página web independiente a la que se dirige a un 
 [!DNL Journey Optimizer] le permite crear y diseñar páginas de aterrizaje para dirigir a los usuarios a formularios en línea en los que pueden optar por recibir sus comunicaciones o un servicio específico, como una newsletter, o excluirse de ellos.
 
 ➡️ [Obtenga más información sobre la configuración de suscripciones y la creación de páginas de aterrizaje en este vídeo](#video)
+
+## Cuándo usar páginas de aterrizaje {#when-to-use}
+
+Utilice páginas de aterrizaje cuando desee:
+
+* Permite que los clientes **acepten o excluyan** comunicaciones de marketing o un servicio o boletín específico a partir de un vínculo de un correo electrónico o una campaña, incluidas las listas de suscripción para servicios de destino. [Más información](lp-use-cases.md#subscription-to-a-service)
+* **Recopile el consentimiento** antes de enviar comunicaciones y envíe un **correo electrónico de confirmación** tras la inclusión o la exclusión. [Más información](lp-use-cases.md#send-confirmation-email)
+* Redirigir a los usuarios a un **formulario web dedicado** sin crear una página externa fuera de [!DNL Journey Optimizer]
+* Crear **páginas de aterrizaje adaptables** con las capacidades de diseño de contenido de [!DNL Journey Optimizer]
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -61,15 +70,6 @@ Una página de destino es una página web independiente a la que se dirige a un 
 </td>
 </tr></table>
 
-## Cuándo usar páginas de aterrizaje {#when-to-use}
-
-Utilice páginas de aterrizaje cuando desee:
-
-* Permite que los clientes **acepten o excluyan** comunicaciones de marketing o un servicio o boletín específico a partir de un vínculo de un correo electrónico o una campaña, incluidas las listas de suscripción para servicios de destino. [Más información](lp-use-cases.md#subscription-to-a-service)
-* **Recopile el consentimiento** antes de enviar comunicaciones y envíe un **correo electrónico de confirmación** tras la inclusión o la exclusión. [Más información](lp-use-cases.md#send-confirmation-email)
-* Redirigir a los usuarios a un **formulario web dedicado** sin crear una página externa fuera de [!DNL Journey Optimizer]
-* Crear **páginas de aterrizaje adaptables** con las capacidades de diseño de contenido de [!DNL Journey Optimizer]
-
 ## Antes de comenzar {#prerequisites}
 
 Antes de crear una página de aterrizaje, complete estos pasos de configuración:
@@ -91,4 +91,4 @@ La creación y la implementación de una página de aterrizaje siguen esta secue
 
 El siguiente vídeo muestra cómo crear una lista de suscripción, configurar páginas de aterrizaje para la inclusión o exclusión de un servicio, integrar la opción de inclusión/exclusión en un mensaje y configurar recorridos relevantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/344397?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
