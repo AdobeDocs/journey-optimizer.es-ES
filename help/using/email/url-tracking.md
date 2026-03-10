@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 68%
+source-wordcount: '487'
+ht-degree: 61%
 
 ---
 
@@ -53,6 +53,10 @@ Están disponibles los siguientes valores predefinidos a través del editor de p
 * **ID de oferta**: ID de la oferta que se ha utilizado en el correo electrónico.
 
 * **ID de acción de origen**: ID de la acción de correo electrónico añadida al recorrido o a la campaña.
+
+  >[!NOTE]
+  >
+  >Es posible que los recorridos que se cerraron o no se volvieron a publicar después de un cambio de producto no se puedan rellenar `context.system.source.actionId` en las direcciones URL de seguimiento, lo que da como resultado marcadores de posición vacíos (por ejemplo, `cid=em-acou-adob{}`). Para asegurarse de que los parámetros de seguimiento se rellenen correctamente, [vuelva a publicar el recorrido afectado](../building-journeys/publish-journey.md#journey-create-new-version) o quite la referencia a este campo de contexto para los recorridos cerrados. Obtenga más información en [Solucionar problemas de ejecución de recorrido en directo](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys).
 
 * **Nombre de acción de origen**: nombre de la acción de correo electrónico añadida al recorrido o a la campaña.
 
