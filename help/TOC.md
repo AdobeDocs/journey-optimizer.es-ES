@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: dbf95b20f089207128b0cb08864a2a4fc4e3bb47
 workflow-type: tm+mt
 source-wordcount: '3142'
 ht-degree: 96%
@@ -407,9 +407,9 @@ ht-degree: 96%
       + [Crear una actividad en directo](using/mobile-live/create-mobile-live.md)
       + [Resolución de problemas de actividad](using/mobile-live/troubleshoot-mobile-live.md)
       + [Preguntas frecuentes](using/mobile-live/mobile-live-faq.md)
-      + Configuración del canal de tarjetas de contenido {#configure}
+      + Configuración del canal de actividad en directo {#configure}
          + [Configuración de actividad en directo en Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
-         + [Configuración de la integración de SDK de la actividad en directo](using/mobile-live/mobile-live-configuration-sdk.md)
+         + [Configuración de la integración de Live activity SDK](using/mobile-live/mobile-live-configuration-sdk.md)
 + Gestión de contenidos {#content-management}
    + [Gestión de contenidos](/help/rp_landing_pages/content-management-landing-page.md)
    + Personalización {#personalization}
@@ -860,7 +860,7 @@ ht-degree: 96%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
