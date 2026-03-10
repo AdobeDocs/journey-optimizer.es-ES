@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 07679823-2288-4528-b09a-12fd76a69482
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '313'
 ht-degree: 18%
 
 ---
@@ -57,3 +57,5 @@ Los pasos principales para poder crear y utilizar modelos de IA son los siguient
    >Los modelos de clasificación requieren que los eventos de comentarios se envíen como eventos de experiencia para que se recopilen. [Más información sobre la toma de decisiones](../data-collection/data-collection.md)
 
 1. Asigne el modelo de IA a una estrategia de selección para clasificar las ofertas aptas. [Más información](../selection-strategies.md#select-ranking-method)
+
+1. Monitorice el estado y el rendimiento de la formación del modelo de IA. [Más información](ai-model-observability.md)
