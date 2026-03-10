@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
@@ -238,6 +238,10 @@ No. Puede utilizar la misma campaña y cambiar el campo `event` en la carga úti
 +++
 
 ### Preguntas sobre resolución de problemas
+
+>[!TIP]
+>
+>Para obtener instrucciones detalladas sobre solución de problemas, consulte [Solucionar problemas de actividades activas](troubleshoot-mobile-live.md).
 
 +++Mi actividad en directo comienza pero no se actualiza. ¿Cuál podría ser el problema?
 

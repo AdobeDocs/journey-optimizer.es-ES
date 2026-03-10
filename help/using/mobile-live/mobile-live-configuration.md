@@ -7,9 +7,9 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '523'
 ht-degree: 2%
 
 ---
@@ -85,3 +85,7 @@ El paso 1 es opcional si ya se han configurado las credenciales de inserción, y
 Ahora puede iniciar la integración con Adobe Experience Platform Mobile SDK para habilitar las actualizaciones dinámicas en tiempo real en la pantalla de bloqueo y Dynamic Island.
 
 ➡️ [Más información sobre la integración de SDK móvil de Adobe Experience Platform](mobile-live-configuration-sdk.md)
+
+>[!TIP]
+>
+>Si encuentra problemas con la configuración o el envío de la actividad en directo, consulte [Solucionar problemas de actividades en directo](troubleshoot-mobile-live.md) para ver los pasos de depuración.
