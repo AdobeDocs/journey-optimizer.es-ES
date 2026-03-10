@@ -38,7 +38,7 @@ Antes de efectuar la localización de averías, asegúrese de que dispone de:
    * Registro de token push
    * Eventos del ciclo vital de Actividad activos
 
-  Aprenda a configurar Assurance en la [documentación de Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+  Aprenda a configurar Assurance en la [documentación de Adobe Experience Platform Assurance](https://experienceleague.adobe.com/es/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
   **Nota**: Para iOS Live Activity, asegúrate de que la aplicación se esté ejecutando en un dispositivo físico de iOS (iOS 16.1 o posterior) o en un simulador Xcode (iOS 16.1 o posterior).
 
