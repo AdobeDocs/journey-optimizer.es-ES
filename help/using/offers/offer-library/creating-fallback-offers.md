@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 13%
+ht-degree: 22%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_fallback_offer_details "
->title="Detalles de oferta de reserva"
->abstract="Especifique el nombre de la oferta de reserva. También puede asociarle uno o varios calificadores de colección existentes, lo que le permite buscar y organizar la biblioteca de ofertas más fácilmente."
+>title="Detalles de la oferta de reserva"
+>abstract="Especifique el nombre de la oferta de reserva. También puede asociarle uno o varios cualificadores de colección existentes, lo que le permite buscar y organizar la biblioteca de ofertas más fácilmente."
 
 La oferta de reserva se envía a los clientes si no cumplen los requisitos para otras ofertas. Los pasos para crear una oferta de reserva consisten en crear una o varias representaciones, como al crear una oferta.
 
@@ -79,5 +79,5 @@ Para crear una oferta de reserva, siga estos pasos:
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341344?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

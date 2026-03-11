@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="Actividad Actualizar perfil"
->abstract="La actividad de acción Actualizar perfil le permite actualizar un perfil [!DNL Adobe Experience Platform] existente con información proveniente del evento, una fuente de datos o con un valor específico."
+>abstract="La actividad de la acción Actualizar perfil permite actualizar un perfil de [!DNL Adobe Experience Platform] existente con información proveniente del evento, una fuente de datos o con un valor específico."
 
 Utilice la actividad de acción **[!UICONTROL Actualizar perfil]** para actualizar un perfil [!DNL Adobe Experience Platform] existente con información proveniente de un evento, una fuente de datos o con un valor específico.
 
@@ -34,7 +34,7 @@ Utilice la actividad de acción **[!UICONTROL Actualizar perfil]** para actualiz
 * Al igual que cualquier otra acción, puede definir una ruta alternativa en caso de error o tiempo de espera, y no puede colocar dos acciones en paralelo.
 * La solicitud de actualización enviada a [!DNL Adobe Experience Platform] es inmediata/está en un segundo. Tardará normalmente unos segundos, pero a veces más sin garantía. Como resultado, por ejemplo, si una acción está usando &quot;campo 1&quot; actualizado por una acción **Actualizar perfil** colocada justo antes, no debería esperar que &quot;campo 1&quot; se actualice en la acción.
 * La actividad **Actualizar perfil** no admite campos XDM definidos como enumeraciones o valores sugeridos.
-* La actividad **[!UICONTROL Actualizar perfil]** solo actualiza el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es#profile-data-store){target="_blank"}, no el lago de datos.
+* La actividad **[!UICONTROL Actualizar perfil]** solo actualiza el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, no el lago de datos.
 
 ## Selección de conjuntos de datos {#dataset-selection}
 

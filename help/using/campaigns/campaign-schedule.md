@@ -13,7 +13,7 @@ exl-id: b183eeb8-606f-444d-9302-274f159c3847
 source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -34,7 +34,7 @@ Al programar campañas en [!DNL Adobe Journey Optimizer], asegúrese de que la f
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_profile_timezone"
 >title="Usar zona horaria del perfil"
->abstract="Envíe mensajes en función de la zona horaria de perfil de cada destinatario. Todos los destinatarios reciben el mensaje a la misma hora local, independientemente de su ubicación geográfica. El sistema utiliza el campo &quot;timeZone&quot; de los perfiles de Adobe Experience Platform, con la zona horaria del creador de la campaña como reserva."
+>abstract="Envíe mensajes en función de la zona horaria del perfil de cada destinatario. Todos los destinatarios reciben el mensaje a la misma hora local, independientemente de su ubicación geográfica. El sistema utiliza el campo “timeZone” de los perfiles de Adobe Experience Platform, con la zona horaria del creador de la campaña como reserva."
 
 Al programar una campaña para una fecha y hora específicas, puede elegir enviar mensajes en función de la zona horaria del perfil de cada destinatario. Esto garantiza que todos los destinatarios reciban el mensaje a la misma hora local, independientemente de su ubicación geográfica.
 

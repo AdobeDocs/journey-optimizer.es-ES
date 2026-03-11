@@ -13,7 +13,7 @@ exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="Actividad de búsqueda de conjuntos de datos"
->abstract="La actividad **[!UICONTROL Búsqueda de conjuntos de datos]** le permite recuperar dinámicamente datos de [!DNL Adobe Experience Platform] conjuntos de datos de registros durante el tiempo de ejecución. Al aprovechar esta capacidad, puede acceder a datos que pueden no residir en el perfil o en la carga útil del evento, lo que garantiza que las interacciones de los clientes sean relevantes y oportunas."
+>abstract="La actividad **[!UICONTROL Búsqueda de conjuntos de datos]** permite recuperar dinámicamente datos de conjuntos de datos de registros de [!DNL Adobe Experience Platform] durante el tiempo de ejecución. Al aprovechar esta capacidad, puede acceder a datos que pueden no residir en el perfil o en la carga útil del evento, lo que garantiza que las interacciones de los clientes sean relevantes y oportunas."
 
 La actividad **[!UICONTROL Búsqueda de conjuntos de datos]** le permite recuperar dinámicamente datos de [!DNL Adobe Experience Platform] conjuntos de datos de registros durante el tiempo de ejecución. Al aprovechar esta capacidad, puede acceder a datos que pueden no residir en el perfil o en la carga útil del evento, lo que garantiza que las interacciones de los clientes sean relevantes y oportunas.
 
@@ -66,7 +66,7 @@ Para configurar la actividad **[!UICONTROL Búsqueda de conjuntos de datos]**, s
 
 1. Despliegue la categoría **[!UICONTROL Orchestration]** y suelte una actividad **[!UICONTROL Consulta de conjuntos de datos]** en el lienzo.
 
-   ![[!DNL Adobe Experience Platform] actividad de búsqueda del conjunto de datos en el recorrido &#x200B;](assets/aep-data-activity.png)
+   ![[!DNL Adobe Experience Platform] actividad de búsqueda del conjunto de datos en el recorrido ](assets/aep-data-activity.png)
 
 1. Añada una etiqueta y una descripción.
 

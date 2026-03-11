@@ -13,16 +13,16 @@ version: Journey Orchestration
 source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# [!DNL Adobe Campaign] acciones estándar {#using_campaign_action}
+# Acciones estándar de [!DNL Adobe Campaign] {#using_campaign_action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
 >title="Acciones personalizadas"
->abstract="Hay una integración disponible si tiene [!DNL Adobe Campaign] Standard. Le permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de [!DNL Adobe Campaign]."
+>abstract="Una integración está disponible si tiene [!DNL Adobe Campaign] estándar. Permite enviar correos electrónicos, notificaciones push y SMS mediante las funcionalidades de mensajería transaccional de [!DNL Adobe Campaign]."
 
 Si tiene [!DNL Adobe Campaign] Standard, están disponibles las siguientes actividades de acción integradas: **[!UICONTROL Correo electrónico]**, **[!UICONTROL Push]** y **[!UICONTROL SMS]**.
 
@@ -36,7 +36,7 @@ Para cada uno de estos canales, selecciona una [!DNL Adobe Campaign] plantilla *
 >
 >El mensaje transaccional de Campaign Standard y su evento asociado deben publicarse para poder utilizarse en Journey Optimizer. Si el evento se publica pero el mensaje no, no será visible en la interfaz de Journey Optimizer. Si el mensaje se publica pero su evento asociado no, estará visible en la interfaz de Journey Optimizer, pero no se podrá utilizar.
 
-![[!DNL Adobe Campaign] Configuración de acción estándar en el recorrido &#x200B;](assets/journey59.png)
+![[!DNL Adobe Campaign] Configuración de acción estándar en el recorrido ](assets/journey59.png)
 
 Puede utilizar un evento (también conocido como tiempo real) o una plantilla de mensajería transaccional de perfil.
 

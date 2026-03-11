@@ -1,5 +1,5 @@
 ---
-title: Generar reglas
+title: Generación de reglas
 description: Aprenda a trabajar con reglas
 feature: Decisioning, Campaigns, Journeys, Activities
 topic: Integrations, Content Management
@@ -10,16 +10,16 @@ version: Journey Orchestration
 source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 8%
+ht-degree: 16%
 
 ---
 
-# Generar reglas {#rules}
+# Generación de reglas {#rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="Creación de reglas"
->abstract="Puede crear dos tipos de reglas: **reglas de decisión** que se pueden usar en elementos de decisión o estrategias de selección, para controlar qué elementos se deben presentar a qué audiencia o **reglas de segmentación** para determinar segmentos de audiencia específicos aptos para recibir contenido personalizado o para especificar una ruta de recorrido específica.<br/><br/>Al crear una regla de decisión, puede seleccionar **[!UICONTROL Habilitar la búsqueda del conjunto de datos]** para usar datos de Adobe Experience Platform. Esto le permite definir criterios de idoneidad basados en atributos dinámicos y externos, lo que garantiza que los elementos de decisión solo se muestren cuando sean relevantes. "
+>abstract="Puede crear dos tipos de reglas: **reglas de decisión** que se pueden usar en elementos de decisión o estrategias de selección, para controlar qué elementos se deben presentar a qué público, o **reglas de segmentación** para determinar segmentos de público específicos aptos para recibir contenido personalizado o para especificar una ruta de recorrido específica.<br/><br/>Al crear una regla de decisión, puede seleccionar **[!UICONTROL Habilitar búsqueda de conjunto de datos]** para usar datos de Adobe Experience Platform. Esto le permite definir criterios de idoneidad basados en atributos dinámicos y externos, lo que garantiza que los elementos de decisión solo se muestren cuando sean relevantes. "
 
 ## Acerca de las reglas {#about}
 
@@ -133,4 +133,4 @@ Para crear una regla, siga estos pasos:
 
 Aprenda a crear, duplicar y aplicar **reglas de segmentación** reutilizables en Adobe Journey Optimizer para personalizar de forma eficaz las campañas basadas en atributos del cliente como la región, el idioma y el comportamiento, ahorrando tiempo y mejorando la precisión de la audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476130/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

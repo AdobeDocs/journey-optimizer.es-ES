@@ -291,7 +291,7 @@ A medida que se familiarice con las campañas, explore estas potentes funcionali
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Programación y sincronización**
 
@@ -301,7 +301,7 @@ Programe campañas para fechas/horas específicas, establezca envíos recurrente
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de velocidad**
 
@@ -311,7 +311,7 @@ Limite el rendimiento de mensajes para evitar sobrecargas en sistemas descendent
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmentación de público**
 
@@ -321,7 +321,7 @@ Segmente públicos de Adobe Experience Platform específicos con precisión y ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flujos de trabajo de aprobación**
 
@@ -331,7 +331,7 @@ Implemente procesos de revisión y aprobación antes de que las campañas se pub
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Horario silencioso**
 
@@ -341,7 +341,7 @@ Respete las preferencias del cliente evitando el envío de mensajes durante los 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimización**
 

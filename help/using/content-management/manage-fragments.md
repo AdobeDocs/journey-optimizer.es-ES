@@ -113,7 +113,7 @@ Los fragmentos pueden tener varios estados:
 
 >[!CAUTION]
 >
->Desde que se introdujeron los estados **Draft** y **Live** con la versión de junio de 2024 de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado **Draft**, incluso si se utilizan en un recorrido o una campaña. Si realiza algún cambio en estos fragmentos, debe publicarlos para que tengan el estado **Activo** y propagarlos a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere el permiso de usuario [Publicar fragmento](../administration/ootb-product-profiles.md#content-library-manager).
+>Desde que se introdujeron los estados **Draft** y **Live** con la versión de junio de 2024 de Journey Optimizer, todos los fragmentos creados antes de esta versión tienen el estado **Draft**, incluso si se utilizan en un recorrido o una campaña. Si realiza algún cambio en estos fragmentos, debe publicarlos para que tengan el estado **Activo** y propagarlos a las campañas y recorridos asociados. También debe crear una nueva versión del recorrido/campaña y publicarla. La publicación requiere el permiso de usuario para [Publicar fragmento](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Edición de un fragmento {#edit-fragments}
 

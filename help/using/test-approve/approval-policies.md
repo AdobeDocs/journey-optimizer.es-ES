@@ -8,7 +8,7 @@ exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Para crear directivas de aprobación, debe tener privilegios de administrador de sistemas o productos en Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home)
+>Para crear directivas de aprobación, debe tener privilegios de administrador de sistemas o productos en Adobe Experience Platform. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 Las políticas de aprobación permiten a los administradores establecer un proceso de validación para recorridos y campañas. Este sistema describe condiciones específicas que determinan si un recorrido o una campaña requiere aprobación. Estas políticas pueden variar en complejidad. Simplemente pueden requerir que todas las campañas sean revisadas por un usuario o equipo en particular, o establecer criterios basados en quién creó la campaña.
 
@@ -41,8 +41,8 @@ Puede segmentar las políticas de aprobación utilizando criterios flexibles com
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_self_approval"
->title="Bloquear aprobación automática"
->abstract="Active esta opción para evitar que los usuarios aprueben sus propias solicitudes de aprobación, incluso cuando pertenezcan a un grupo de usuarios o a una función que se haya designado como revisor."
+>title="Bloquear autoaprobación"
+>abstract="Habilite esta opción para evitar que los usuarios aprueben sus propias solicitudes de aprobación, incluso cuando pertenezcan a un grupo de usuarios o a una función que se haya designado como revisor."
 
 Para crear una política de aprobación, siga estos pasos:
 

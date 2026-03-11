@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="Publicación de un recorrido en modo de ensayo"
->abstract="Recorrido La ejecución en seco es un modo especial de publicación de recorrido en [!DNL Adobe Journey Optimizer] que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción reales. Una vez que haya diseñado su recorrido, ejecute un ensayo para confirmar que es funcional y asegurarse de que los pasos sean correctos. Este modo de publicación le permite realizar una prueba preliminar de un recorrido sin enviar comunicaciones a los perfiles."
+>abstract="El ensayo del recorrido es un modo especial de publicación de recorrido de [!DNL Adobe Journey Optimizer] que permite a los profesionales de recorridos probarlos utilizando datos de producción reales. Una vez que haya diseñado su recorrido, ejecute un ensayo para confirmar que es funcional y asegurarse de que los pasos sean correctos. Este modo de publicación le permite realizar una prueba preliminar de un recorrido sin enviar comunicaciones a los perfiles."
 
 Recorrido La ejecución en seco es un modo especial de publicación de recorrido en [!DNL Adobe Journey Optimizer] que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción real sin ponerse en contacto con clientes reales ni actualizar información de perfil.  Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo.
 
@@ -149,4 +149,4 @@ Al analizar **métricas de informes de recorridos** mediante el servicio de cons
 
 Aprenda a secar los recorridos en este vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464685/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

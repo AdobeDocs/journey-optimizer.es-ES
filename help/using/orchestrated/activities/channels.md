@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 38%
+ht-degree: 43%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="Actividad del correo electrónico"
->abstract="La actividad Correo electrónico permite enviar correos electrónicos dentro de la campaña orquestada, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de envío de correos electrónicos a un destino calculado dentro de la misma campaña orquestada. Puede combinar actividades de canal en el lienzo de la campaña de varios pasos para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad de correo electrónico permite enviar correos electrónicos dentro de la campaña orquestada, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de envío de correos electrónicos a un destino calculado dentro de la misma campaña orquestada. Puede combinar actividades de canal en el lienzo de la campaña de varios pasos para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="Actividad de SMS"
->abstract="La actividad SMS permite enviar SMS dentro de la campaña orquestada para mensajes únicos y recurrentes. Sirve para automatizar el proceso de envío de SMS a un destino calculado dentro de la misma campaña orquestada. Puede combinar actividades de canal en el lienzo de la campaña de varios pasos para crear campañas en canales múltiples para activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad de SMS facilita el envío de SMS dentro de la campaña orquestada, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de envío de SMS a un destino calculado dentro de la misma campaña orquestada. Puede combinar actividades de canal en el lienzo de la campaña de varios pasos para crear campañas en canales múltiples para activar acciones basadas en el comportamiento y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="Actividad Push"
->abstract="La actividad Push permite enviar notificaciones push como parte de una campaña orquestada. Permite la entrega de campañas orquestadas únicas y recurrentes, lo que automatiza la entrega de notificaciones push a un objetivo predefinido dentro de la misma campaña orquestada. Puede combinar actividades de canal en el lienzo de la campaña para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad Push le permite enviar notificaciones Push como parte de la campaña orquestada. Permite enviar campañas orquestadas únicas y recurrentes, automatizando el envío de notificaciones push a un destino predefinido dentro de la campaña orquestada. Puede combinar actividades de canal en el lienzo de la campaña para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 <!--
 UNUSED IDs in BJ
