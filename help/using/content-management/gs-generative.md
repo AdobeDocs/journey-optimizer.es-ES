@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: ht
-source-wordcount: '866'
-ht-degree: 100%
+source-git-commit: 194874dfe5f3c2dea6d0f418d4a62fd897f474b5
+workflow-type: tm+mt
+source-wordcount: '874'
+ht-degree: 99%
 
 ---
 
@@ -47,21 +47,27 @@ El Asistente de IA admite la generación **en varios idiomas**, lo que le permit
     <tr style="border: 0;background-color: #FFFFFF;">
       <td>
         <ul>
-          <li>Francés</li>
-          <li>Español</li>
-          <li>Alemán</li>
-          <li>Italiano</li>
+          <li>Chino (Hong Kong)</li>
+          <li>Chino (simplificado)</li>
+          <li>Chino (Taiwán)</li>
+          <li>Neerlandés</li>
         </ul>
       </td>
       <td>
         <ul>
+          <li>Francés</li>
+          <li>Alemán</li>
+          <li>Italiano</li>
           <li>Japonés</li>
-          <li>Sueco</li>
-          <li>Neerlandés</li>
-          <li>Noruego</li>
         </ul>
       </td>
       <td>
+        <ul>
+          <li>Noruego</li>
+          <li>Portugués</li>
+          <li>Español</li>
+          <li>Sueco</li>
+        </ul>
       </td>
     </tr>
   </tbody>
