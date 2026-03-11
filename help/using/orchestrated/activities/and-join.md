@@ -5,10 +5,10 @@ title: Uso de la actividad AND-join
 description: Aprenda a utilizar la actividad AND-join en una campaña organizada
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: a6dd5e7e4bb55c9cfb094682254d940280de0815
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 84%
+source-wordcount: '263'
+ht-degree: 82%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 84%
 >id="ajo_orchestration_and-join"
 >title="Actividad AND-join"
 >abstract="La actividad **And-join** le permite sincronizar varias ramas de ejecución de una campaña orquestada. Se activa una vez que hayan finalizado todas las actividades anteriores. Esto le permite asegurarse de que determinadas actividades se completen antes de continuar con la ejecución de la campaña orquestada."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_join"
+>title="Unirse a actividad"
+>abstract="Marcador de posición para la actividad Unirse."
 
 La actividad **[!UICONTROL AND-join]** es una actividad de **[!UICONTROL control de flujo]**. Permite sincronizar varias ramas de ejecución de una campaña orquestada.
 
