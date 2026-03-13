@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: 9425192fac4699778f81ce57c31979155dd38b18
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 13%
+source-wordcount: '2017'
+ht-degree: 12%
 
 ---
 
@@ -48,6 +48,11 @@ Configure la acción que se produce cuando los destinatarios tocan el cuerpo de 
 * **[!UICONTROL Abrir aplicación]**: inicia la aplicación asociada con la notificación. La aplicación está especificada en su [configuración de canal](../configuration/channel-surfaces.md) (es decir, ajuste preestablecido de mensaje).
 * **[!UICONTROL Vínculo profundo]**: Dirige a los usuarios a contenido específico dentro de la aplicación, como una vista, una sección de página o una pestaña en particular. Introduzca la URL de vinculación profunda en el campo proporcionado.
 * **[!UICONTROL URL web]**: Dirige a los usuarios a una página web externa. Introduzca la dirección URL de destino en el campo proporcionado.
+
+  >[!NOTE]
+  >
+  >Si la notificación push contiene una dirección URL configurada como vínculo universal en iOS, la notificación push abrirá la aplicación asociada si está instalada, independientemente de la acción **[!UICONTROL URL web]** que haya elegido. Para forzar la apertura de un explorador, utilice un dominio no configurado para los vínculos universales o quite el registro de vínculos universales para el dominio.
+  >Para obtener más información sobre cómo administra Adobe SDK los vínculos profundos y universales, consulte la [documentación de Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications/){target="_blank"}.
 
 ## Añadir medios {#add-media-push}
 
