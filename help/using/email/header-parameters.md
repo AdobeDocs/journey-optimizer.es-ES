@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 87%
+source-wordcount: '732'
+ht-degree: 81%
 
 ---
 
@@ -86,12 +86,9 @@ Es necesario que facilite:
 
 >[!NOTE]
 >
->Solo puede haber una dirección de correo electrónico de reenvío por subdominio. Por lo tanto, si varias configuraciones utilizan el mismo subdominio, se debe utilizar la misma dirección de correo electrónico de reenvío para todas ellas.
+>* Solo puede haber una dirección de correo electrónico de reenvío por subdominio: si varias configuraciones utilizan el mismo subdominio, se debe utilizar la misma dirección de correo electrónico de reenvío para todas ellas.
+>* Si el reenvío no está habilitado, los correos electrónicos enviados directamente a la dirección **Del correo electrónico** se descartarán de forma predeterminada.
 
 La dirección de correo electrónico de reenvío la configura Adobe. Este proceso puede tardar entre 3 y 4 días.
 
 Una vez finalizado, todos los mensajes recibidos en las direcciones **[!UICONTROL Responder a (correo electrónico)]** y **Correo electrónico de error**, así como todos los correos electrónicos enviados a la dirección **Correo electrónico del remitente**, se reenviarán a la dirección de correo electrónico específica que haya facilitado.
-
->[!NOTE]
->
->De forma predeterminada, si el reenvío no está habilitado, se descartarán los mensajes de correo electrónico enviados directamente a la dirección **Correo electrónico del remitente**.

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -153,17 +153,14 @@ Una vez habilitada esta opción, aunque un cliente haya marcado su correo electr
 
 Una lista semilla en [!DNL Journey Optimizer] le permite incluir automáticamente direcciones semilla de correo electrónico específicas en los envíos. [Más información](../configuration/seed-lists.md)
 
->[!CAUTION]
+>[!NOTE]
 >
->Actualmente, esta función solo se aplica al canal de correo electrónico.
+>* Actualmente, esta función solo se aplica al canal de correo electrónico.
+>* Solo se puede seleccionar una lista semilla a la vez.
 
 Seleccione la lista que sea relevante para usted en la sección **[!UICONTROL Lista semilla]**. Obtenga información sobre cómo crear un lista semilla en [esta sección](../configuration/seed-lists.md#create-seed-list).
 
 ![](../configuration/assets/seed-list-surface.png){width="80%"}
-
->[!NOTE]
->
->Solo se puede seleccionar una lista semilla a la vez.
 
 Cuando se utiliza la configuración actual en una campaña o un recorrido, las direcciones de correo electrónico de la lista semilla seleccionada se incluyen en el momento de la ejecución del envío, lo que significa que recibirán una copia del envío con fines de garantía.
 
