@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, crear, recorrido
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1684'
 ht-degree: 13%
 
 ---
@@ -94,15 +94,13 @@ La definición de carga útil permite elegir la información que el sistema espe
 
    >[!NOTE]
    >
-   >Para los eventos generados por el sistema, asegúrese de haber agregado el grupo de campos &quot;orquestación&quot; al esquema XDM. Esto garantizará que el esquema contenga toda la información necesaria para trabajar con [!DNL Journey Optimizer].
+   >Para eventos generados por el sistema:
+   >* Asegúrese de haber agregado el grupo de campos `orchestration` al esquema XDM; esto garantiza que el esquema contenga toda la información necesaria para trabajar con [!DNL Journey Optimizer].
+   >* El campo **[!UICONTROL eventID]** se agrega automáticamente a la lista de campos seleccionados para que [!DNL Journey Optimizer] pueda identificar el evento. El sistema que impulsa el evento no debe generar un ID: utilice el que está disponible en la previsualización de carga útil en su lugar. [Más información](../event/about-creating.md#preview-the-payload)
 
    ![](assets/journey9.png)
 
 1. Seleccione los campos que espera recibir del evento. Estos son los campos que el usuario empresarial aprovechará en el recorrido. También deben incluir la clave que se utilizará para identificar a la persona asociada al evento (consulte [esta sección](../event/about-creating.md#define-the-event-key)).
-
-   >[!NOTE]
-   >
-   >Para los eventos generados por el sistema, el campo **[!UICONTROL eventID]** se agrega automáticamente a la lista de campos seleccionados para que [!DNL Journey Optimizer] pueda identificar el evento. El sistema que impulsa el evento no debe generar un ID, debe utilizar el que está disponible en la previsualización de carga útil. Consulte [esta sección](../event/about-creating.md#preview-the-payload).
 
 1. Cuando termine de seleccionar los campos necesarios, haga clic en **[!UICONTROL Aceptar]** o presione **[!UICONTROL Entrar]**.
 

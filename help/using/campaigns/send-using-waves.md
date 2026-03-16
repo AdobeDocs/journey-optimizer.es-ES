@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: olas, lotes, programación, campaña, recorrido, capacidad de entrega
-source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
+exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
+source-git-commit: 55181db4fd8c1e6ee0f0f865dd61201be3c2df39
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 1%
+source-wordcount: '781'
+ht-degree: 2%
 
 ---
 
@@ -73,17 +74,13 @@ Seleccione la opción **[!UICONTROL Distribución personalizada]** para definir 
 
 ![](assets/campaign-wave-percentage.png){width="80%"}
 
->[!NOTE]
->
->El total en todas las olas debe ser igual al 100%. Si no es así, se muestra un mensaje de advertencia.<!--are the waves actually sent or does the system prevent user from saving the campaign?-->
-
 Seleccione **[!UICONTROL Números]** para definir el tamaño de cada ola como un número absoluto de perfiles (por ejemplo, 10 000; 50 000).
 
 ![](assets/campaign-wave-numbers.png){width="80%"}
 
 >[!NOTE]
->
->Al utilizar números, el sistema no valida que la suma cubra toda la audiencia; debe asegurarse de que el tamaño de las olas cubra la audiencia a la que desea enviar. Obtenga más información en las [preguntas más frecuentes](#faq).
+>* Al utilizar porcentajes, todas las olas deben sumar el 100%. Si no es así, se muestra una advertencia.
+>* Cuando se usan números, el sistema no valida la cobertura; asegúrese de que los tamaños de onda cubran la audiencia a la que va dirigida. [Más información](#faq)
 
 ### Programación personalizada {#custom-schedule}
 

@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
+source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 3%
@@ -234,17 +234,14 @@ Con esta función, puede anexar información contextual a cualquier acción nati
 
 >[!NOTE]
 >
->[acciones personalizadas](../../action/action.md) no admiten la función de metadatos de ejecución.
+>* [acciones personalizadas](../../action/action.md) no admiten la función de metadatos de ejecución.
+>* La función de metadatos de ejecución no está visible cuando se muestra el contenido en sí.
 
 Por ejemplo, puede utilizar el asistente de Metadatos de ejecución para anexar un ID específico a cada entrega enviada a cada perfil. Esta información se genera durante el tiempo de ejecución y los metadatos de ejecución enriquecidos se pueden exportar para la reconciliación de flujo descendente con una plataforma de informes externa.
 
 **Funcionamiento**
 
 Seleccione cualquier elemento del contenido del canal dentro de una campaña o un recorrido y, con el editor de personalización, agregue el asistente de `executionMetadata` a este elemento.
-
->[!NOTE]
->
->La función de metadatos de ejecución no está visible cuando se muestra el contenido en sí.
 
 
 Durante el tiempo de ejecución, el valor de los metadatos se agrega al **[!UICONTROL Conjunto de datos de evento de comentarios de mensajes]** existente con la siguiente adición de esquema:
