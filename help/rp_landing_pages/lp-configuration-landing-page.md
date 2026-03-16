@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Configurar páginas de aterrizaje
-description: Configurar páginas de aterrizaje
+description: Aprenda a configurar subdominios y ajustes preestablecidos de página de aterrizaje en Journey Optimizer para alojar, personalizar la marca y administrar las páginas de aterrizaje de forma coherente.
 redpen-status: CREATED_||_2025-08-12_00-37-08
 exl-id: 599d9f7b-3e41-4926-95b6-f5f58255d91d
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 1eafa4cef02c13c8498ac9ac2df502a8a7d926d2
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 35%
+source-wordcount: '179'
+ht-degree: 30%
 
 ---
 
@@ -26,7 +26,7 @@ Tanto si utiliza dominios existentes como si utiliza nuevas configuraciones, est
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuración y administración de subdominios de página de aterrizaje
 
@@ -36,7 +36,7 @@ Obtenga información sobre cómo configurar y administrar subdominios para aloja
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definir ajustes preestablecidos de página de destino
 

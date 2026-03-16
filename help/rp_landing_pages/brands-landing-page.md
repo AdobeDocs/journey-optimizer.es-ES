@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Marcas
-description: Marcas
+description: Aprenda a crear, administrar y personalizar directrices de marca en Journey Optimizer para garantizar un contenido coherente y sin marca en todas sus campañas.
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ En Adobe Journey Optimizer, la función “Marcas” le permite definir y manten
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Crear y administrar las directrices de marca
 
@@ -30,13 +30,33 @@ Aprenda a definir, personalizar y mantener las directrices de marca para lograr 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Evaluar la puntuación de la alineación con la marca
 
 Descubra y utilice la función de alineación con la marca para validar el cumplimiento de las directrices de marca y mejorar la coherencia.
 
 [Más información sobre la alineación con la marca](../using/content-management/brands-score.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Personalice sus marcas
+
+Aprenda a establecer las preferencias de marca predeterminadas y adaptar las directrices de marca para una integración perfecta con el contenido generado por IA.
+
+[Personalice sus marcas](../using/content-management/brands-personalize.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Crear y administrar modelos generativos
+
+Descubra cómo crear y administrar modelos de IA generativos personalizados formados en las directrices de su marca para generar contenido de forma coherente.
+
+[Administración de modelos generativos](../using/content-management/generative-models.md)
 :::
 
 ::::

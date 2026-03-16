@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Creación de informes de gestión de decisiones
-description: Creación de informes de gestión de decisiones
+description: Aprenda a crear informes de Gestión de decisiones utilizando conjuntos de datos de evento y el esquema XDM DecisioningEvents para analizar el rendimiento de las ofertas y los resultados de las decisiones.
 redpen-status: CREATED_||_2025-08-11_21-02-56
 badge: label="Heredado" type="Informative"
 exl-id: 96be492d-5003-4954-94cb-467ec5a725bd
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
-source-wordcount: '180'
-ht-degree: 100%
+source-git-commit: 8d0d9c3e6048e4ef6f9455d77b73c04ec22728b5
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 56%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 100%
 >
 >Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../using/experience-decisioning/gs-experience-decisioning.md)
 
-Crear informes de gestión de decisiones en Adobe Journey Optimizer le permite obtener información valiosa sobre el rendimiento de sus ofertas y decisiones personalizadas en escenarios reales. Al trabajar con datos de evento y esquemas, puede explorar qué ofertas se seleccionaron, los escenarios de reserva y la eficacia de la ubicación, todos ellos clave para mejorar las experiencias de sus clientes. En esta sección se explican los conjuntos de datos de evento, el acceso y la interpretación del esquema XDM de DecisioningEvents y el uso de estas herramientas para crear informes prácticos. Tanto si es un ingeniero de datos como un experto en marketing, obtendrá claridad sobre cómo analizar y optimizar los procesos de toma de decisiones con confianza.
+Utilice los datos de evento de Administración de decisiones y el esquema XDM DecisioningEvents para crear informes personalizados en Adobe Journey Optimizer. Esta sección explica cómo trabajar con conjuntos de datos de evento y acceder a los campos XDM necesarios para analizar las selecciones de ofertas, el uso de reserva y la eficacia de la ubicación.
 
 ## Creación de informes de gestión de decisiones
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Trabajar con eventos de gestión de decisiones
 
@@ -35,7 +35,7 @@ Aprenda a aprovechar los conjuntos de datos de eventos de gestión de decisiones
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Acceder y explorar los campos XDM de DecisioningEvents
 

@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Referencia de la API
-description: Referencia de la API
+description: Aprenda a utilizar las API de biblioteca de ofertas y las API de entrega para integrar Gestión de decisiones en sus flujos de trabajo y ofrecer ofertas personalizadas a escala.
 redpen-status: CREATED_||_2025-08-11_21-04-46
 badge: label="Heredado" type="Informative"
 exl-id: 0b5e61d7-14a1-446e-8cb0-8861295d6e94
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: 50667ff13e16344bbcc12d78e5ac31f3f8545f08
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ La sección Referencia de la API de Adobe Journey Optimizer le ofrece las herram
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a la API de la biblioteca de ofertas
 
@@ -35,13 +35,23 @@ Obtenga información sobre cómo integrar la API de la biblioteca de ofertas par
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Enviar ofertas mediante las API de Adobe Journey Optimizer
 
 Explore recursos completos sobre la implementación de las API de toma de decisiones, de toma de decisiones en Edge y de toma de decisiones por lotes para suministrar ofertas personalizadas.
 
-[Explorar la sección](offer-delivery-api-landing-page.md)
+[Exploración de las API de entrega](offer-delivery-api-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Creación y administración de ofertas mediante API
+
+Acceda a referencias de API para administrar ubicaciones, reglas de decisión, calificadores de colección, ofertas personalizadas, colecciones, ofertas de reserva y decisiones.
+
+[Exploración de la API de biblioteca de ofertas](../using/offers/api-reference/getting-started.md)
 :::
 
 ::::
