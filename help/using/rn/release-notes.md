@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 145944952ad9aca752085588526f71e8034b8611
+source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1961'
 ht-degree: 34%
 
 ---
@@ -80,7 +80,7 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 <td>
 <p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=es">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
 </td>
 </tr>
@@ -126,6 +126,14 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 
 ### Mejoras {#march-26-improv}
 
+#### Recorridos
+
+* **Envío masivo de mensajes salientes en recorridos**: ahora puede programar mensajes de recorridos de Journey Optimizer para que se entreguen en lotes controlados a lo largo del tiempo. [Más información](../building-journeys/send-using-waves.md)
+
+  Esta capacidad, que se publicó anteriormente en Disponibilidad limitada para utilizarla en recorrido, ya está disponible en todos los entornos (disponibilidad general).
+
+  Fecha de disponibilidad: martes, 16 de marzo de 2026
+
 #### Configuración
 
 * **Cambio en el conjunto de datos de evento de comentarios secundarios de AJO** - Se está cambiando el nombre del conjunto de datos de evento de comentarios BCC de correo electrónico de AJO a Conjunto de datos de evento de comentarios secundarios de AJO.
@@ -139,7 +147,7 @@ Las secciones [Nuevas funcionalidades](#feb-26-01-features) y [Mejoras](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 

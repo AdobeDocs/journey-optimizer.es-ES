@@ -10,18 +10,14 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, lectura de audiencia, entrega
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
+source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 2%
+source-wordcount: '858'
+ht-degree: 1%
 
 ---
 
 # Envío mediante olas en recorridos {#send-using-waves-journeys}
-
->[!AVAILABILITY]
->
->Esta función se encuentra en disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 Puede enviar mensajes salientes desde un recorrido en lotes (olas) a lo largo del tiempo en lugar de todos a la vez. El envío de ondas ayuda a equilibrar la carga, evitar sistemas descendentes abrumadores (como centros de llamadas o páginas de aterrizaje) y admite la capacidad de envío y la reputación del remitente, especialmente para recorridos de audiencia de lectura de gran volumen.
 
