@@ -9,10 +9,11 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, lectura de audiencia, entrega
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
+source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 1%
+source-wordcount: '871'
+ht-degree: 2%
 
 ---
 
@@ -78,17 +79,13 @@ Seleccione la opción **[!UICONTROL Distribución personalizada]** para definir 
 
 ![](assets/journey-wave-percentage.png){width="70%"}
 
->[!NOTE]
->
->El total en todas las olas debe ser igual al 100%. Si no es así, se muestra un mensaje de advertencia.<!--are the waves actually sent or does the system prevent user from saving the journey?-->
-
 Seleccione **[!UICONTROL Números]** para definir el tamaño de cada ola como un número absoluto de perfiles (por ejemplo, 10 000; 50 000).
 
 ![](assets/journey-wave-numbers.png){width="70%"}
 
 >[!NOTE]
->
->Al utilizar números, el sistema no valida que la suma cubra toda la audiencia; debe asegurarse de que el tamaño de las olas cubra la audiencia a la que desea enviar. Obtenga más información en las [preguntas más frecuentes](#faq).
+>* Al utilizar porcentajes, todas las olas deben sumar el 100%. Si no es así, se muestra una advertencia.
+>* Cuando se usan números, el sistema no valida la cobertura; asegúrese de que los tamaños de onda cubran la audiencia a la que va dirigida. [Más información](#faq)
 
 ### Programación personalizada {#custom-schedule}
 
