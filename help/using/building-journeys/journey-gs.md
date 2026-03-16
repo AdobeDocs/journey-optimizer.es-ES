@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 20%
+source-wordcount: '949'
+ht-degree: 19%
 
 ---
 
@@ -85,6 +85,10 @@ A continuación, puede empezar a diseñar el recorrido.
 ## Diseño del recorrido {#jo-design}
 
 El diseñador de recorridos omnicanal le ayuda a crear recorridos de varios pasos con públicos destinatarios, actualizaciones basadas en interacciones comerciales o de clientes en tiempo real y mensajes omnicanal mediante una interfaz intuitiva de arrastrar y soltar.
+
+>[!TIP]
+>
+>Para los recorridos con varias fases o varios puntos de contacto, considere la posibilidad de dividir el flujo de extremo a extremo en recorridos secundarios más pequeños y centrados conectados con la actividad **[!UICONTROL Jump]**. Este método reduce la complejidad y facilita las pruebas y el mantenimiento independientes de cada recorrido secundario. Más información en [Estrategia de diseño: recorridos secundarios](jump.md#jump-strategy).
 
 ![Interfaz de diseñador de Recorrido con paleta y lienzo de actividades](assets/journey38.png)
 

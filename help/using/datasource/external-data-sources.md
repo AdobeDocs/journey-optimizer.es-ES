@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 3d6b12903d4c43fec2fd4e0046a5d1f90ecd6d64
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 33%
+source-wordcount: '1761'
+ht-degree: 32%
 
 ---
 
@@ -31,7 +31,7 @@ Las fuentes de datos externas le permiten definir una conexión a sistemas de te
 >
 >* Las protecciones al trabajar con sistemas externos se enumeran en [esta página](../configuration/external-systems.md).
 >
->* Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte [respuestas de acciones personalizadas](../action/action-response.md)
+>* Como las respuestas ahora son compatibles, debe utilizar acciones personalizadas en lugar de fuentes de datos para casos de uso de fuentes de datos externas. Para obtener más información sobre las respuestas, consulte [respuestas de acciones personalizadas](../action/action-response.md). Las acciones personalizadas sin persistencia de lago de datos son la opción correcta cuando los datos solo son útiles dentro del recorrido y el sistema externo es accesible a través de un punto final de API. Para ver una comparación de todas las opciones de acceso a datos, consulte [Elegir una estrategia de acceso a datos](../datasource/about-data-sources.md#data-access-strategy).
 
 Las API de REST que utilizan POST o GET y arrojan JSON son compatibles. Se admiten los modos de autenticación básica y personalizada de la clave de API.
 
@@ -46,7 +46,7 @@ La llamada se compone de una dirección URL principal (_https://api.adobeweather
 
 >[!TIP]
 >
->Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` &#x200B;](#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
+>Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` ](#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
 
 ## Creación y configuración de una fuente de datos externa {#create-ext-data-sources}
 

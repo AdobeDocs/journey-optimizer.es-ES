@@ -10,16 +10,31 @@ level: Intermediate
 keywords: recorrido, etiquetas
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 27%
+source-wordcount: '618'
+ht-degree: 11%
 
 ---
 
 # Administración de etiquetas en recorrido {#journey_tags}
 
 Como profesional de Journey Optimizer, puede organizar sus recorridos mediante etiquetas. Las etiquetas son una forma rápida y sencilla de clasificar objetos para mejorar la búsqueda.
+
+## Convenciones de etiquetas y nomenclatura {#tags-vs-naming}
+
+Los equipos suelen depender de convenciones de nomenclatura complejas para almacenar metadatos directamente en los nombres de recorrido; por ejemplo: *Marketing del ciclo vital - Educación - Incorporación del cliente V2 - Educación de aplicaciones - T3 2025*. Aunque bien intencionado, este enfoque tiene una debilidad clave: a medida que el trabajo se escala entre los miembros del equipo, la convención rara vez se aplica de manera consistente, y las listas de recorrido se vuelven difíciles de navegar.
+
+**Las categorías de etiquetas** en Journey Optimizer ofrecen una alternativa mejor. En lugar de codificar los metadatos en el nombre, se adjuntan etiquetas clasificadas a cada recorrido (por ejemplo, equipo, objetivo, fase, trimestre) y se utilizan filtros para localizarlos. Los nombres de los recorridos pueden centrarse en lo que realmente importa: el hito del cliente que se está impulsando.
+
+Ventajas de las categorías de etiquetas sobre las convenciones de nomenclatura:
+
+* **Consistencia**: las etiquetas se seleccionan de una lista controlada, no se escriben libremente.
+* **Filtrabilidad**: cualquier combinación de valores de etiqueta se puede usar para cortar la lista de recorrido instantáneamente.
+* **Claridad**: los nombres de los recorridos son cortos y se centran en los hitos.
+* **Escalabilidad**: agregar una nueva dimensión de metadatos implica crear una nueva categoría de etiquetas, no volver a escribir una convención de nombres.
+
+Para ver un flujo de trabajo de configuración recomendado, consulte [Configurar categorías de etiquetas para la administración de recorrido](#tags-setup) a continuación.
 
 ## Adición de etiquetas a un recorrido
 
@@ -54,3 +69,27 @@ Los administradores pueden eliminar etiquetas y organizarlas por categorías uti
 >[!NOTE]
 >
 > Las etiquetas definidas en recorridos se añaden a la categoría &quot;Sin categoría&quot; integrada.
+
+## Configuración de categorías de etiquetas para la administración de recorridos {#tags-setup}
+
+Siga estos pasos para reemplazar una convención de nombres compleja con un enfoque basado en etiquetas en todo su equipo.
+
+**Paso 1 — Crear categorías de etiquetas (Administrador)**
+
+En **[!UICONTROL Administración]** > **[!UICONTROL Etiquetas]**, cree una categoría para cada atributo de metadatos que su equipo codifique actualmente en nombres de recorrido; por ejemplo: *Equipo*, *Objetivo de marketing*, *Campaña*, *Fase*, *Trimestre*.
+
+**Paso 2: Rellene cada categoría con valores de etiqueta (Administrador)**
+
+Dentro de cada categoría, cree las etiquetas que representen todos los valores posibles. Por ejemplo, la categoría *Fase* puede contener: *Conocimiento*, *Incorporación*, *Retención*, *Recuperación*.
+
+**Paso 3: Aplicar etiquetas al crear recorridos (Profesionales)**
+
+Cada vez que cree un nuevo recorrido, seleccione la etiqueta adecuada de cada categoría en las propiedades del recorrido. Un recorrido normalmente lleva una etiqueta por categoría.
+
+**Paso 4: nombrar los recorridos del hito y filtrar por etiquetas**
+
+Mantenga el nombre del recorrido centrado en el hito de cliente que marca (p. ej. *Primera transacción de fidelidad*). Utilice filtros de etiquetas en la lista de recorrido para localizar recorridos mediante cualquier combinación de metadatos, sin depender del análisis de nombres.
+
+>[!TIP]
+>
+>Para un análisis más amplio de este enfoque y sus ventajas a escala, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.

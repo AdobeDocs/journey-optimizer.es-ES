@@ -10,10 +10,10 @@ level: Intermediate
 keywords: salto, actividad, recorrido, división, división
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 9%
+source-wordcount: '1122'
+ht-degree: 7%
 
 ---
 
@@ -73,6 +73,28 @@ Utilice estas directrices para mantener el comportamiento de la actividad de sal
 
 * Cuando se ejecuta la actividad **[!UICONTROL Jump]**, se activa la última versión del recorrido de destino.
 * Un individuo único solo puede estar presente una vez en el mismo recorrido. Como resultado, si el individuo insertado desde el recorrido de origen ya está en el recorrido de destino, el individuo no entrará en el recorrido de destino. No se notificará ningún error en la actividad **[!UICONTROL Jump]** porque se trata de un comportamiento normal.
+
+## Estrategia de diseño: subrecorridos de tamaño pequeño {#jump-strategy}
+
+Los recorridos complejos del cliente pueden resultar difíciles de crear y mantener rápidamente, especialmente a medida que se introducen canales o puntos de contacto adicionales. Incluso un recorrido con un puñado de hitos puede exponer 20 o más rutas únicas que un cliente puede seguir, y esa complejidad aumenta exponencialmente con cada adición.
+
+Un enfoque práctico para administrar esto es dividir los recorridos grandes en recorridos secundarios más pequeños y enfocados, uno por fase comercial o hito, y conectarlos usando la actividad **[!UICONTROL Jump]**. Esto mantiene cada recorrido legible, comprobable y mantenible de forma independiente.
+
+**Paso 1: Visualice el recorrido de extremo a extremo**
+
+Asigne el recorrido completo del cliente e identifique sus fases de alto nivel. Por ejemplo, un recorrido de incorporación de fidelidad puede incluir tres fases distintas: descargar la aplicación móvil, realizar una primera transacción y realizar una segunda.
+
+**Paso 2 — Anotar fases y definir subrecorridos**
+
+Marque el límite de cada fase y defina su objetivo empresarial. Cada fase se convierte en un recorrido secundario candidato con una condición de entrada y un objetivo claros.
+
+**Paso 3: generación y conexión de subrecorridos**
+
+Cree cada fase como un recorrido independiente en Journey Optimizer y, a continuación, utilice las actividades **[!UICONTROL Jump]** para pasar perfiles de un recorrido secundario al siguiente. El resultado es un conjunto de recorridos más simples y reutilizables que se combinan para producir la experiencia completa de extremo a extremo, con menos riesgo de introducir errores.
+
+>[!TIP]
+>
+>Para ver una descripción detallada de este enfoque, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 ## Configuración de la actividad de salto {#jump-configure}
 
