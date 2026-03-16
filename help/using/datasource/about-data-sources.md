@@ -51,7 +51,7 @@ Para cada fuente de datos, se define la información que se recuperará mediante
 
 ## Elija su estrategia de acceso a datos {#data-access-strategy}
 
-Antes de configurar una fuente de datos, considere qué enfoque se adapta mejor a su caso de uso. Hay tres opciones disponibles, cada una con diferentes compensaciones en términos de persistencia, enriquecimiento de perfiles y reutilización. Para ver un análisis detallado de estas opciones, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Antes de configurar una fuente de datos, considere qué enfoque se adapta mejor a su caso de uso. Hay tres opciones disponibles, cada una con diferentes compensaciones en términos de persistencia, enriquecimiento de perfiles y reutilización. Para ver un análisis detallado de estas opciones, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/es/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Opción 1: acceder a datos externos mediante acciones personalizadas (sin lago de datos)**
 
@@ -82,7 +82,7 @@ Ingeste datos en un conjunto de datos habilitado para perfiles con el fin de cre
 | **Opción 2** — Conjunto de datos no habilitado para el perfil | Sí | No |
 | **Opción 3** — Conjunto de datos habilitado para el perfil | Sí | Sí |
 
-Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar los datos en un recorrido, vea este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
+Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar los datos en un recorrido, vea este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=es){target="_blank"}.
 
 ## Vídeo práctico {#video}
 

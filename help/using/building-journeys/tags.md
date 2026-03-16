@@ -92,4 +92,4 @@ Mantenga el nombre del recorrido centrado en el hito de cliente que marca (p. ej
 
 >[!TIP]
 >
->Para un análisis más amplio de este enfoque y sus ventajas a escala, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Para un análisis más amplio de este enfoque y sus ventajas a escala, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/es/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
