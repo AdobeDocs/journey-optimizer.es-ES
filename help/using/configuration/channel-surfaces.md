@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1876'
 ht-degree: 12%
 
 ---
@@ -177,19 +177,13 @@ Para editar una configuración de canal, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Si una configuración de canal tiene el estado **[!UICONTROL Activo]**, los campos **[!UICONTROL Nombre]**, **[!UICONTROL Seleccionar canal]** y **[!UICONTROL Subdominio]** aparecen atenuados y no se pueden editar.
+   >* Cuando la configuración tiene el estado **[!UICONTROL Activo]**, los campos **[!UICONTROL Nombre]**, **[!UICONTROL Seleccionar canal]** y **[!UICONTROL Subdominio]** son de solo lectura y no se pueden modificar.
+   >* Puede guardar los cambios como borrador en cualquier momento y reanudar la actualización más tarde.
+   >* Las ediciones limitadas a los campos **[!UICONTROL Descripción]**, **[!UICONTROL Tipo de correo electrónico]** o **[!UICONTROL Parámetros de reintento de correo electrónico]** se aplican de forma inmediata, sin demora de procesamiento.
 
 1. Haga clic en **[!UICONTROL Enviar]** para confirmar los cambios.
 
-   >[!NOTE]
-   >
-   >También puede guardar la configuración de canal como borrador y reanudar la actualización más adelante.
-
 Una vez enviados los cambios, la configuración del canal pasará por un ciclo de validación similar al que se utilizó al [crear una configuración de canal](#create-channel-surface). El tiempo de procesamiento de la edición puede llevar **3 horas**.
-
->[!NOTE]
->
->Si solo edita los campos **[!UICONTROL Descripción]**, **[!UICONTROL Tipo de correo electrónico]** o **[!UICONTROL Parámetros de reintento de correo electrónico]**, la actualización es instantánea.
 
 ### Actualizar detalles {#update-details}
 
@@ -298,4 +292,4 @@ No puede editar directamente una configuración de canal desactivada. Sin embarg
 
 Descubra qué son las configuraciones de canales y cómo se utilizan en Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480454/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

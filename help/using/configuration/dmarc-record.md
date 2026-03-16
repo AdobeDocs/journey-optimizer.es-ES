@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b3716265282599604de629be540ca68971daa343
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 9%
@@ -146,13 +146,10 @@ Para que Adobe administre el registro de DMARC por usted, seleccione la opción 
 
 >[!NOTE]
 >
->Si lo obtuvo [!DNL Journey Optimizer], puede usar los mismos valores que se resaltaron en la interfaz o cambiarlos según sea necesario.
+>* Si lo obtuvo [!DNL Journey Optimizer], puede usar los mismos valores que se resaltaron en la interfaz o cambiarlos según sea necesario.
+>* Si no añade ningún valor, se utilizarán los valores predeterminados rellenados previamente.
 
 ![](assets/dmarc-record-with-adobe-ex.png){width="80%"}
-
->[!NOTE]
->
->Si no añade ningún valor, se utilizarán los valores predeterminados rellenados previamente.
 
 1. Defina la acción que realizará el servidor de destinatarios si DMARC falla. Según la [directiva de DMARC](#dmarc-policies) que desee aplicar, seleccione una de las tres opciones:
 
@@ -168,16 +165,13 @@ Para que Adobe administre el registro de DMARC por usted, seleccione la opción 
 
    >[!NOTE]
    >
-   >Asegúrese de que dispone de una bandeja de entrada original (no de Adobe) en el control donde puede recibir dichos informes.
+   >* Asegúrese de que dispone de una bandeja de entrada original (no de Adobe) en el control donde puede recibir dichos informes.
+   >* Estos informes, muy técnicos, proporcionan una visión general de los correos electrónicos que se intentan suplantar y se digieren mejor con una herramienta de terceros.
 
    Los ISP generan dos informes diferentes que los remitentes pueden recibir a través de las etiquetas RUA/RUF en su directiva de DMARC:
 
    * **Informes agregados** (RUA): no contienen ninguna PII (información de identificación personal) que pueda ser confidencial con respecto al RGPD.
    * **Informes de errores forenses** (RUF): Contienen direcciones de correo electrónico que distinguen el RGPD. Antes de usar, compruebe internamente cómo tratar la información que necesita cumplir con el RGPD.
-
-   >[!NOTE]
-   >
-   >Estos informes, de carácter muy técnico, proporcionan una visión general de los correos electrónicos que se intentan suplantar. Se digieren mejor mediante una herramienta de terceros.
 
 1. Seleccione el **porcentaje aplicable** de correos electrónicos para DMARC.
 

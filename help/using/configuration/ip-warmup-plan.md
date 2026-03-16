@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdominios, capacidad de entrega
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 6%
@@ -123,9 +123,7 @@ Por ejemplo, si agrega el dominio personalizado Roadrunner, desea que se incluya
 
 ![](assets/ip-warmup-sample-file-custom.png)
 
->[!NOTE]
->
->Si no necesita dominios personalizados, deje vacía la ficha **[!UICONTROL Grupo de dominios personalizados]**.
+Si no necesita dominios personalizados, deje vacía la ficha **[!UICONTROL Grupo de dominios personalizados]**.
 
 ### Pestaña Grupos de dominio OOTB {#ootb-domain-groups-tab}
 
@@ -251,15 +249,12 @@ Cada dominio ahora se muestra en una columna diferente en la misma fila.
 
 1. Para eliminar un plan de calentamiento de IP, seleccione el icono **[!UICONTROL Eliminar]** junto al nombre de un plan y confirme la eliminación.
 
-   >[!NOTE]
-   >
-   >Solo se pueden eliminar los planes con el estado **No iniciado**.
-
-   ![](assets/ip-warmup-delete-plan.png)
-
    >[!CAUTION]
    >
-   >El plan de calentamiento de IP seleccionado se eliminará de forma permanente.
+   >* Solo se pueden eliminar los planes con el estado **No iniciado**.
+   >* El plan de calentamiento de IP seleccionado se eliminará de forma permanente.
+
+   ![](assets/ip-warmup-delete-plan.png)
 
 ## Creación de un plan de calentamiento de IP {#create-ip-warmup-plan}
 

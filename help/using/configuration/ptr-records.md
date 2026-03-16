@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdominio, PTR, registros, DNS, dominio, correo
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '844'
 ht-degree: 11%
 
 ---
@@ -102,11 +102,7 @@ Para editar un registro PTR con un subdominio delegado a Adobe mediante el [mét
    >   * Compruebe en el proveedor DNS si el registro DNS de reenvío se creó correctamente.
    >   * Es posible que los registros en el DNS no se sincronicen inmediatamente. Espere unos minutos e inténtelo de nuevo.
 
-1. Haz clic en **[!UICONTROL Guardar]** para confirmar los cambios.
-
->[!NOTE]
->
->No puede modificar los campos **[!UICONTROL IP]** y **[!UICONTROL registro PTR]**.
+1. Haz clic en **[!UICONTROL Guardar]** para confirmar los cambios. Tenga en cuenta que los campos **[!UICONTROL IP]** y **[!UICONTROL registro PTR]** no se pueden modificar.
 
 ## Comprobar detalles de actualización de registro PTR {#check-ptr-record-update}
 

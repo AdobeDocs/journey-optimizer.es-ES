@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 keywords: lista de permitidos, lista segura, correo electrónico, entrega, zona protegida, dominios, supresión, configuración
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 56d0d176385dfbb74222fd33115c01553f50d107
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1308'
 ht-degree: 12%
 
 ---
@@ -63,13 +63,10 @@ Para activar la lista de permitidos, siga los pasos a continuación.
 
    >[!NOTE]
    >
-   >Después de activar la lista de permitidos, deben pasar 10 minutos antes de que surta efecto en los recorridos y campañas. Del mismo modo, las actualizaciones de la lista de lista de permitidos y supresión pueden tardar hasta 10 minutos en mostrarse.
+   >* Después de la activación, se producen 10 minutos de retraso antes de que la lista de permitidos entre en vigor en recorridos y campañas. Las actualizaciones tanto de la lista de lista de permitidos como de la lista de supresión también pueden tardar hasta 10 minutos en reflejarse.
+   >* Cuando está activa, la lista de permitidos se aplica no solo en recorridos activos, sino también al probar mensajes con [pruebas](../content-management/proofs.md) y recorridos en [modo de prueba](../building-journeys/testing-the-journey.md).
 
 La lógica de lista de permitidos se aplica cuando la función está activa. Obtenga más información en [esta sección](#logic).
-
->[!NOTE]
->
->Cuando se activa, la característica de lista de permitidos se cumple al ejecutar recorridos, pero también al probar mensajes con [pruebas](../content-management/proofs.md) y probar recorridos usando el [modo de prueba](../building-journeys/testing-the-journey.md).
 
 ## Desactivar la lista de permitidos {#deactivate-allow-list}
 
@@ -149,7 +146,7 @@ Para rellenar la lista de permitidos, también puede llamar a la API de supresi�
 
 Puede realizar las operaciones **Agregar**, **Eliminar** y **Obtener**.
 
-Obtenga más información sobre cómo realizar llamadas de API en la [documentación de referencia de las API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=es){target="_blank"}.
+Obtenga más información sobre cómo realizar llamadas de API en la [documentación de referencia de las API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
 
 ## Descargar la lista de permitidos {#download-allowed-list}
 
@@ -204,7 +201,7 @@ Cuando la lista de permitidos está [desactivada](#deactivate-allow-list), todos
 
 ## Informes de exclusión {#reporting}
 
-Cuando la lista de permitidos esté activa, puede recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. Para ello, puede usar el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para realizar las llamadas a la API que se indican a continuación.
+Cuando la lista de permitidos esté activa, puede recuperar direcciones de correo electrónico o dominios que se excluyeron de un envío porque no estaban en la lista de permitidos. Para ello, puede usar el [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para realizar las llamadas a la API que se indican a continuación.
 
 Para obtener el **número de correos electrónicos** que no se enviaron porque los destinatarios no estaban en la lista de permitidos, use la siguiente consulta:
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdominio, delegación, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8f9eca37076c899912616134f75b8e05690831fc
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1928'
+source-wordcount: '1925'
 ht-degree: 18%
 
 ---
@@ -200,11 +200,7 @@ Para completar la delegación de subdominios, siga los pasos a continuación.
 
    <!--![](assets/subdomain-processing.png)-->
 
-1. Antes de poder utilizar ese subdominio para enviar mensajes, debe esperar hasta que Adobe realice las comprobaciones necesarias, que pueden tardar hasta tres horas. [Más información](#subdomain-validation).
-
-   >[!NOTE]
-   >
-   >Asegúrese de que todos los registros se hayan creado correctamente antes de continuar.
+1. Antes de poder utilizar ese subdominio para enviar mensajes, asegúrese de que todos los registros DNS se hayan creado correctamente y espere hasta que Adobe realice las comprobaciones necesarias, que pueden tardar hasta tres horas. [Más información](#subdomain-validation).
 
 ### Validación de subdominios {#subdomain-validation}
 
