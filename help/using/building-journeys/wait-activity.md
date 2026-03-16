@@ -10,9 +10,9 @@ level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 58cabac978facef373c6cadee0c8fc0963785df8
+source-git-commit: 2895554bfa00ed1b4cfe2d036568ed5a112689f8
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '878'
 ht-degree: 12%
 
 ---
@@ -90,13 +90,16 @@ Una práctica recomendada es utilizar fechas personalizadas específicas para lo
 
 >[!CAUTION]
 >
->Puede aprovechar una expresión `dateTimeOnly` o usar una función para convertir a `dateTimeOnly`. Por ejemplo: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, el campo del evento tiene el formato 2023-08-12T09:46:06Z. Se espera la **zona horaria** en las propiedades de su recorrido, por lo que no es posible desde la interfaz de usuario apuntar directamente a una marca de tiempo ISO-8601 completa que mezcle la hora y el desplazamiento de zona horaria como 2023-08-12T09:46:06.982-05. [Más información](../building-journeys/timezone-management.md).
+>Cuando trabaje con expresiones `dateTimeOnly`, tenga en cuenta lo siguiente:
 >
->Al crear una expresión de espera personalizada con `toDateTimeOnly()`, evite anexar &quot;Z&quot; o cualquier desplazamiento de zona horaria (por ejemplo, &quot;-05:00&quot;) en el resultado. La expresión debe utilizar una sintaxis de fecha y hora ISO válida que haga referencia a la zona horaria configurada del recorrido sin indicadores de zona horaria explícitos; de lo contrario, los perfiles pueden permanecer atascados en la actividad de espera.
+>* Puede utilizar una expresión `dateTimeOnly` directamente o convertirla a ella mediante una función, por ejemplo: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, donde el valor del campo está en el formulario `2023-08-12T09:46:06Z`.
+>* La **zona horaria** está definida en las propiedades del recorrido. Como resultado, desde la interfaz de usuario no es posible señalar una marca de tiempo ISO-8601 completa que combine el desplazamiento de hora y zona horaria, como `2023-08-12T09:46:06.982-05`. [Más información](../building-journeys/timezone-management.md)
+>* Al crear una expresión de espera personalizada con `toDateTimeOnly()`, haga **not** anexar `Z` o un desplazamiento de zona horaria (por ejemplo, `-05:00`). La expresión debe hacer referencia a la zona horaria configurada del recorrido sin indicadores de zona horaria explícitos; de lo contrario, los perfiles pueden quedarse atascados en la actividad de espera.
 >
->**Ejemplo correcto:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
->
->**Ejemplo incorrecto:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contiene &quot;Z&quot;)
+>| | Ejemplo |
+>|---|---|
+>| **Correcto** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))` |
+>| **Incorrecto** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contiene `Z`) |
 
 Para validar que la actividad de espera funciona según lo esperado, puede utilizar eventos de paso. [Más información](../reports/query-examples.md#common-queries).
 
