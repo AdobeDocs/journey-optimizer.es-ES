@@ -10,9 +10,9 @@ level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1818'
 ht-degree: 16%
 
 ---
@@ -40,11 +40,15 @@ Los siguientes tipos de condiciones están disponibles:
 * [Condición de fecha](#date_condition)
 * [Límite de perfil](#profile_cap)
 
-También puede utilizar una audiencia en una condición de recorrido. [Más información](#using-a-segment). Para obtener más información sobre cómo generar y segmentar audiencias, consulte [esta sección](../audience/about-audiences.md)
+También puede utilizar audiencias directamente en condiciones de recorrido. Consulte:
+
+* [Uso de una audiencia en una condición](#using-a-segment): filtre qué perfiles toman una ruta determinada según el abono a la audiencia
+* [Crear y administrar audiencias](../audience/about-audiences.md): aprenda a crear, evaluar y segmentar audiencias en [!DNL Adobe Experience Platform]
+* [Patrones de segmentación de audiencia en recorrido](read-audience.md#audience-targeting-in-journeys): segmente, excluya o combine ramas de audiencia después de una entrada Leer audiencia
 
 >[!NOTE]
 >
->La evaluación de condición fallará para los perfiles que incluyan más de dos identidades entre dispositivos en el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es#profile-data-store){target="_blank"}.
+>La evaluación de condición fallará para los perfiles que incluyan más de dos identidades entre dispositivos en el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Adición y administración de rutas de condición {#about_condition}
 
@@ -190,4 +194,4 @@ Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
 
    >[!NOTE]
    >
-   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

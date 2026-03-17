@@ -9,9 +9,9 @@ level: Intermediate
 keywords: entrada, salida, criterios, recorrido, perfil, reentrada, prácticas recomendadas
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Recopile información sobre la satisfacción del cliente y el rendimiento del pr
 
 * **[Déclencheur basados en eventos](../event/about-events.md)**: use eventos como &quot;creación de perfiles&quot;, &quot;transacción completada&quot; o eventos personalizados para iniciar un recorrido. [Configurar eventos](../event/about-creating.md) en **[!UICONTROL Administración]** > **[!UICONTROL Eventos]** y definir [esquema de eventos y campos](../event/experience-event-schema.md). A continuación, agregue el evento desde la paleta **[!UICONTROL Events]** en el [diseñador de recorridos](using-the-journey-designer.md).
 
-* **[Entrada basada en audiencias](read-audience.md)**: El destino envía recorridos a perfiles que pertenecen a audiencias específicas, ya sea como un lote único o en una programación recurrente. [Crear audiencias](../audience/creating-a-segment-definition.md) en el menú de **[!UICONTROL Audiencias]**, luego agrega una actividad de **[!UICONTROL Leer audiencia]** y [configura la programación](journey-properties.md#schedule).
+* **[Entrada basada en audiencias](read-audience.md)**: El destino envía recorridos a perfiles que pertenecen a audiencias específicas, ya sea como un lote único o en una programación recurrente. [Crear audiencias](../audience/creating-a-segment-definition.md) en el menú de **[!UICONTROL Audiencias]**, luego agrega una actividad de **[!UICONTROL Leer audiencia]** y [configura la programación](journey-properties.md#schedule). Después de la entrada, use condiciones para [segmentar, excluir o combinar ramas](read-audience.md#audience-targeting-in-journeys).
 
 * **[Entrada de calificación de audiencia](audience-qualification-events.md)**: Déclencheur los recorridos cuando los perfiles cumplen los requisitos o salen de audiencias específicas en tiempo real. Defina [audiencias de transmisión por secuencias](../audience/about-audiences.md), agregue un evento de **[!UICONTROL Calificación de audiencias]** desde la paleta **[!UICONTROL Eventos]** y elija el tipo de déclencheur.
 
@@ -208,7 +208,7 @@ Comience asignando claramente los déclencheur del cliente y los puntos de salid
 
 **Tutoriales y ejemplos**
 
-[casos de uso de Recorrido](jo-use-cases.md) | [Vídeo de incorporación del cliente](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carro abandonado](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog comunitario: Criterios de entrada y salida](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=es)
+[casos de uso de Recorrido](jo-use-cases.md) | [Vídeo de incorporación del cliente](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carro abandonado](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog comunitario: Criterios de entrada y salida](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Funciones relacionadas**
 

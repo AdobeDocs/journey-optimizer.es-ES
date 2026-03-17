@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 1d32db0103fd4f2afcd021cff5e8491515c86d65
+source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '783'
 ht-degree: 13%
 
 ---
@@ -48,6 +48,8 @@ Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras difere
 * Elija un público para una **campaña**, donde el mensaje se envía a todos los particulares que pertenecen al público seleccionado. [Obtenga información sobre cómo definir el público de una campaña](../campaigns/create-campaign.md#define-the-audience-audience).
 
 * Use una actividad de orquestación **Leer audiencia** en un recorrido para hacer que todos los individuos de la audiencia entren al recorrido y reciban los mensajes incluidos en el recorrido. Supongamos que tiene un público de “clientes plata”. Con esta actividad, puede hacer que todos los clientes de plata entren en un recorrido. A continuación, puede enviarles una serie de mensajes personalizados. [Obtenga información sobre cómo configurar la actividad Leer público](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+
+  Después de la entrada, usa las actividades **Condition** para [segmentar por atributos o comportamiento, excluir parte de la población o combinar ramas](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 
   Para los recorridos que utilizan audiencias de redacción de audiencias o carga personalizada, los atributos de perfil son tan nuevos como la última evaluación por lotes al introducir el recorrido. Sin embargo, después de una actividad de **Wait**, el recorrido actualiza los atributos de perfil del servicio Unified Profile Service (UPS), con lo que se obtienen los datos disponibles más recientes, lo que significa que los atributos de perfil pueden cambiar durante la ejecución del recorrido. [Más información acerca de la actualización de perfiles después de una actividad de espera](../building-journeys/wait-activity.md#profile-refresh)
 
