@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: df3ae62439882bd4b1f5f00e9c24d341f83b8df9
+source-git-commit: 4a78734dc7f9fafd1e8c64aab310cb130ffd928f
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1513'
 ht-degree: 22%
 
 ---
@@ -49,11 +49,11 @@ Cuando se habilita, estas opciones hacen un seguimiento del comportamiento de lo
 * La métrica **[!UICONTROL Aperturas del correo electrónico]** comprueba cuántos mensajes se han abierto.
 * La métrica **[!UICONTROL Hacer clic en el correo electrónico]** calcula el número de clics en los vínculos de un correo electrónico.
 
-## Inserción de vínculos {#insert-links}
+### Seguimiento en varios correos electrónicos {#track-across-multiple-emails}
 
-Cuando el seguimiento [está habilitado](#enable-tracking), se realiza un seguimiento de todos los vínculos incluidos en el contenido del mensaje.
+Un identificador de seguimiento único (urlID) solo se genera cuando **URL** y **etiqueta** son únicos. Los vínculos que comparten la misma dirección URL y tienen la misma etiqueta efectiva (incluso cuando la etiqueta está en blanco) vuelven a utilizar el mismo urlID, lo que significa que no se puede saber en qué vínculo se hizo clic.
 
-Un identificador de seguimiento único (urlID) solo se genera cuando **URL** y **etiqueta** son únicos. Los vínculos que comparten la misma dirección URL y tienen la misma etiqueta efectiva (incluso cuando la etiqueta está en blanco) vuelven a utilizar el mismo urlID, lo que significa que no se puede saber en qué vínculo se hizo clic. Para rastrear la misma dirección URL en varios correos electrónicos (o varias veces en un correo electrónico), usa una etiqueta única para cada dirección URL similar; de lo contrario, [!DNL Journey Optimizer] no podrá rastrear en qué vínculo se hizo clic. Puede establecer distintas etiquetas en el Designer de correo electrónico o, para HTML, a través del atributo `data-label`.
+Para rastrear la misma dirección URL en varios correos electrónicos (o varias veces en un correo electrónico), usa una etiqueta única para cada dirección URL similar; de lo contrario, [!DNL Journey Optimizer] no podrá rastrear en qué vínculo se hizo clic. Puede establecer distintas etiquetas en el Designer de correo electrónico o, para HTML, a través del atributo `data-label`.
 
 | URL | Etiqueta | Etiqueta | comportamiento de urlID |
 |-----|-----|-------|----------------|
@@ -61,6 +61,10 @@ Un identificador de seguimiento único (urlID) solo se genera cuando **URL** y *
 | www.example.com | Second | (En blanco) | Reutiliza urlID A: no se puede saber en qué vínculo se hizo clic |
 | www.example.com | Tercero | Primera etiqueta | Obtiene un urlID (por ejemplo, B) |
 | www.example.com | Cuarto | Segunda etiqueta | Obtiene un urlID (por ejemplo, C) |
+
+## Inserción de vínculos {#insert-links}
+
+Cuando el seguimiento [está habilitado](#enable-tracking), se realiza un seguimiento de todos los vínculos incluidos en el contenido del mensaje.
 
 >[!NOTE]
 >
