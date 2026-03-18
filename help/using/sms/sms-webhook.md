@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: f91abf82dff8f9cc9e16d769bdfb65725f5e2983
+source-git-commit: 7b6efb1997074723be25b0f99d47debb1f1188e0
 workflow-type: tm+mt
 source-wordcount: '2742'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_flow_type"
 >title="Elija su tipo de webhook"
->abstract="Al configurar un webhook, elige **Entrante** para capturar las respuestas de consentimiento y las preferencias del usuario, o **[!UICONTROL Comentarios]** para rastrear los eventos de envío y participación para informes y análisis."
+>abstract="Al configurar un webhook, elija **Entrante** para capturar las respuestas de consentimiento y las preferencias del usuario, o **[!UICONTROL Retroalimentación]** para rastrear los eventos de envío y participación para informes y análisis."
 
 >[!BEGINSHADEBOX]
 
@@ -104,7 +104,7 @@ Para Sinch y Sinch Conversational, cree un único webhook que administre eventos
 
 1. Seleccione una categoría de palabra clave de la lista desplegable **[!UICONTROL Categoría de palabra clave entrante]** para configurarla:
 
-   * &#x200B;
+   * 
      +++ Inclusión
 
       * Habilite palabras clave que incluyan a los usuarios con su consentimiento. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se incluye para recibir mensajes SMS.
@@ -115,7 +115,7 @@ Para Sinch y Sinch Conversational, cree un único webhook que administre eventos
 
      +++
 
-   * &#x200B;
+   * 
      +++ Opción de exclusión
 
       * Habilite palabras clave para excluir usuarios y eliminar el consentimiento para enviar mensajes de texto. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
@@ -128,16 +128,16 @@ Para Sinch y Sinch Conversational, cree un único webhook que administre eventos
 
      +++
 
-   * &#x200B;
+   * 
      +++ Inclusión doble
 
       * Habilite palabras clave para el requisito de doble inclusión. Cuando el mensaje de un usuario coincide con una palabra clave configurada, no se incluye por completo en este momento. Este flujo de trabajo de consentimiento en dos pasos requiere que los usuarios confirmen su inclusión con una segunda palabra clave.
 
       * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando coincida una palabra clave de inclusión doble. Este mensaje indica al usuario que introduzca una palabra clave de inclusión para completar el proceso de inclusión.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Ayuda
 
       * Habilite palabras clave que proporcionen una respuesta estándar cuando se solicite ayuda. Cuando el mensaje de un usuario coincide con una palabra clave configurada, recibe el mensaje de respuesta a la Ayuda.
@@ -148,7 +148,7 @@ Para Sinch y Sinch Conversational, cree un único webhook que administre eventos
 
      +++
 
-   * &#x200B;
+   * 
      +++ Personalizado
 
       * Configure una sola palabra clave personalizada. Cuando el mensaje de un usuario coincide con esta palabra clave, esta se escribe en el conjunto de datos **[!UICONTROL Seguimiento de comentarios de mensajes]** para la generación de informes y audiencias.
@@ -210,7 +210,7 @@ Para Infobip, cree dos webhooks independientes: uno para los eventos de comentar
 
 1. Seleccione una categoría de palabra clave de la lista desplegable **[!UICONTROL Categoría de palabra clave entrante]** para configurarla:
 
-   * &#x200B;
+   * 
      +++ Inclusión
 
       * Habilite palabras clave que incluyan a los usuarios con su consentimiento. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se incluye para recibir mensajes SMS.
@@ -221,7 +221,7 @@ Para Infobip, cree dos webhooks independientes: uno para los eventos de comentar
 
      +++
 
-   * &#x200B;
+   * 
      +++ Opción de exclusión
 
       * Habilite palabras clave para excluir usuarios y eliminar el consentimiento para enviar mensajes de texto. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
@@ -234,7 +234,7 @@ Para Infobip, cree dos webhooks independientes: uno para los eventos de comentar
 
      +++
 
-   * &#x200B;
+   * 
      +++ Inclusión doble
 
       * Habilite palabras clave para el requisito de doble inclusión. Cuando el mensaje de un usuario coincide con una palabra clave configurada, no se incluye por completo en este momento. Este flujo de trabajo de consentimiento en dos pasos requiere que los usuarios confirmen su inclusión con una segunda palabra clave.
@@ -243,7 +243,7 @@ Para Infobip, cree dos webhooks independientes: uno para los eventos de comentar
 
      +++
 
-   * &#x200B;
+   * 
      +++ Ayuda
 
       * Habilite palabras clave que proporcionen una respuesta estándar cuando se solicite ayuda. Cuando el mensaje de un usuario coincide con una palabra clave configurada, recibe el mensaje de respuesta a la Ayuda.
@@ -254,7 +254,7 @@ Para Infobip, cree dos webhooks independientes: uno para los eventos de comentar
 
      +++
 
-   * &#x200B;
+   * 
      +++ Personalizado
 
       * Configure una sola palabra clave personalizada. Cuando el mensaje de un usuario coincide con esta palabra clave, esta se escribe en el conjunto de datos **[!UICONTROL Seguimiento de comentarios de mensajes]** para la generación de informes y audiencias.
@@ -323,7 +323,7 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
 
 1. Seleccione una categoría de palabra clave de la lista desplegable **[!UICONTROL Categoría de palabra clave entrante]** para configurarla:
 
-   * &#x200B;
+   * 
      +++ Inclusión
 
       * Habilite palabras clave que incluyan a los usuarios con su consentimiento. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se incluye para recibir mensajes SMS.
@@ -334,7 +334,7 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
 
      +++
 
-   * &#x200B;
+   * 
      +++ Opción de exclusión
 
       * Habilite palabras clave para excluir usuarios y eliminar el consentimiento para enviar mensajes de texto. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
@@ -347,7 +347,7 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
 
      +++
 
-   * &#x200B;
+   * 
      +++ Inclusión doble
 
       * Habilite palabras clave para el requisito de doble inclusión. Cuando el mensaje de un usuario coincide con una palabra clave configurada, no se incluye por completo en este momento. Este flujo de trabajo de consentimiento en dos pasos requiere que los usuarios confirmen su inclusión con una segunda palabra clave.
@@ -356,7 +356,7 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
 
      +++
 
-   * &#x200B;
+   * 
      +++ Ayuda
 
       * Habilite palabras clave que proporcionen una respuesta estándar cuando se solicite ayuda. Cuando el mensaje de un usuario coincide con una palabra clave configurada, recibe el mensaje de respuesta a la Ayuda.
@@ -367,7 +367,7 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
 
      +++
 
-   * &#x200B;
+   * 
      +++ Personalizado
 
       * Configure una sola palabra clave personalizada. Cuando el mensaje de un usuario coincide con esta palabra clave, esta se escribe en el conjunto de datos **[!UICONTROL Seguimiento de comentarios de mensajes]** para la generación de informes y audiencias.
@@ -393,7 +393,7 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
    +++Ejemplo de carga útil
 
        &quot;json
-       &lbrace;
+       {
        &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;,
        &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
        &quot;requestId&quot;: &quot;{{requestId}}&quot;,
@@ -432,14 +432,14 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
    +++Ejemplo de carga útil
 
        &quot;json
-       &lbrace;
+       {
        &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;estados&quot;: &lbrack;
-       &lbrace;
+       &quot;estados&quot;: [
+       {
        &quot;código&quot;: &quot;{{failureCode}}&quot;,
        &quot;estado&quot;: &quot;{{feedbackStatus}}&quot;
        
-       &rbrack;
+       ]
        
        &quot;
    
